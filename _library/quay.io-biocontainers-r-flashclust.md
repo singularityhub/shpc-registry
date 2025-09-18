@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-flashclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-flashclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-flashclust/container.yaml"
-updated_at: "2025-09-17 03:06:16.324743"
+updated_at: "2025-09-18 03:08:06.577794"
 latest: "1.01_2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-flashclust"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/palikiss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/palikiss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/palikiss/container.yaml"
-updated_at: "2025-09-17 03:10:47.665870"
+updated_at: "2025-09-18 03:12:39.895471"
 latest: "1.1.0--pl5321h9948957_2"
 container_url: "https://biocontainers.pro/tools/palikiss"
 aliases:

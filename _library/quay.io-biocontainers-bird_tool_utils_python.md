@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bird_tool_utils_python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bird_tool_utils_python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bird_tool_utils_python/container.yaml"
-updated_at: "2025-09-17 03:00:28.399600"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2025-09-18 03:02:17.389096"
+latest: "0.6.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/bird_tool_utils_python"
 aliases:
  - "x86_64-conda_cos7-linux-gnu-ld"
@@ -17,8 +17,10 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.4.1--pyhdfd78af_0"
+ - "0.6.0--pyh7e72e81_0"
+ - "0.5.1--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for bird_tool_utils_python"
-config: {"url": "https://biocontainers.pro/tools/bird_tool_utils_python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bird_tool_utils_python", "latest": {"0.4.1--pyhdfd78af_0": "sha256:03d3475f0f21960e5f4364d159433489a1775212508c79a7973030bb6756fc5b"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:03d3475f0f21960e5f4364d159433489a1775212508c79a7973030bb6756fc5b"}, "docker": "quay.io/biocontainers/bird_tool_utils_python", "aliases": {"x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bird_tool_utils_python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bird_tool_utils_python", "latest": {"0.6.0--pyh7e72e81_0": "sha256:599a297063d51acbcd8c1bf9bd89e0ece215e6fe837910aebb33227890b09a63"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:03d3475f0f21960e5f4364d159433489a1775212508c79a7973030bb6756fc5b", "0.6.0--pyh7e72e81_0": "sha256:599a297063d51acbcd8c1bf9bd89e0ece215e6fe837910aebb33227890b09a63", "0.5.1--pyh7e72e81_0": "sha256:43aeab66780e9e66699263bc0b4e4362dd8a5bd8c159d6621ea09607e8dbd6da"}, "docker": "quay.io/biocontainers/bird_tool_utils_python", "aliases": {"x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bird_tool_utils_python.
@@ -33,7 +35,7 @@ $ shpc install quay.io/biocontainers/bird_tool_utils_python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bird_tool_utils_python:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bird_tool_utils_python:0.6.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bird_tool_utils_python/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/bird_tool_utils_python/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/bird_tool_utils_python/0.6.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/bird_tool_utils_python/0.6.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

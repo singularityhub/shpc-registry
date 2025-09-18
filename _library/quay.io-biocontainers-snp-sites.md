@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snp-sites"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-sites/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-sites/container.yaml"
-updated_at: "2025-09-17 03:01:53.237303"
-latest: "2.5.1--h577a1d6_6"
+updated_at: "2025-09-18 03:03:43.952830"
+latest: "2.5.1--h577a1d6_7"
 container_url: "https://biocontainers.pro/tools/snp-sites"
 aliases:
  - "snp-sites"
@@ -14,8 +14,9 @@ versions:
  - "2.5.1--he4a0461_4"
  - "2.5.1--he4a0461_5"
  - "2.5.1--h577a1d6_6"
+ - "2.5.1--h577a1d6_7"
 description: "shpc-registry automated BioContainers addition for snp-sites"
-config: {"url": "https://biocontainers.pro/tools/snp-sites", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-sites", "latest": {"2.5.1--h577a1d6_6": "sha256:cfb3a0770952dc2b063a0d8498e46bf2f08661c6bb3b1385f54fe76b16ccb912"}, "tags": {"2.5.1--h7132678_2": "sha256:52d05918e0f415a835b380501fb6f62f94543ef3d0037dcc335a140ba174c826", "2.5.1--he4a0461_4": "sha256:b62321cd56eb7abf69623058963b352f8b5caeb9ce0c8a2a89ab16de654c842d", "2.5.1--he4a0461_5": "sha256:14623d6c5032ae419871dfe9a4bdfe3f02e3fc70fd0d2071cb5bacb19e924efe", "2.5.1--h577a1d6_6": "sha256:cfb3a0770952dc2b063a0d8498e46bf2f08661c6bb3b1385f54fe76b16ccb912"}, "docker": "quay.io/biocontainers/snp-sites", "aliases": {"snp-sites": "/usr/local/bin/snp-sites"}}
+config: {"url": "https://biocontainers.pro/tools/snp-sites", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-sites", "latest": {"2.5.1--h577a1d6_7": "sha256:d19b090d52dc1d29b6f862e30cfc38f10fad8cb6954d76ef37298002e1a89213"}, "tags": {"2.5.1--h7132678_2": "sha256:52d05918e0f415a835b380501fb6f62f94543ef3d0037dcc335a140ba174c826", "2.5.1--he4a0461_4": "sha256:b62321cd56eb7abf69623058963b352f8b5caeb9ce0c8a2a89ab16de654c842d", "2.5.1--he4a0461_5": "sha256:14623d6c5032ae419871dfe9a4bdfe3f02e3fc70fd0d2071cb5bacb19e924efe", "2.5.1--h577a1d6_6": "sha256:cfb3a0770952dc2b063a0d8498e46bf2f08661c6bb3b1385f54fe76b16ccb912", "2.5.1--h577a1d6_7": "sha256:d19b090d52dc1d29b6f862e30cfc38f10fad8cb6954d76ef37298002e1a89213"}, "docker": "quay.io/biocontainers/snp-sites", "aliases": {"snp-sites": "/usr/local/bin/snp-sites"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snp-sites.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/snp-sites
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snp-sites:2.5.1--h577a1d6_6
+$ shpc install quay.io/biocontainers/snp-sites:2.5.1--h577a1d6_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snp-sites/2.5.1--h577a1d6_6
-$ module help quay.io/biocontainers/snp-sites/2.5.1--h577a1d6_6
+$ module load quay.io/biocontainers/snp-sites/2.5.1--h577a1d6_7
+$ module help quay.io/biocontainers/snp-sites/2.5.1--h577a1d6_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

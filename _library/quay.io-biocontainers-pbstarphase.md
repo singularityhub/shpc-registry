@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbstarphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbstarphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbstarphase/container.yaml"
-updated_at: "2025-09-17 03:39:07.426668"
-latest: "1.4.1--h9ee0642_0"
+updated_at: "2025-09-18 03:41:19.584440"
+latest: "1.4.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbstarphase"
 aliases:
  - "pbstarphase"
@@ -29,8 +29,9 @@ versions:
  - "1.3.2--h9ee0642_0"
  - "1.4.0--h9ee0642_0"
  - "1.4.1--h9ee0642_0"
+ - "1.4.2--h9ee0642_0"
 description: "singularity registry hpc automated addition for pbstarphase"
-config: {"url": "https://biocontainers.pro/tools/pbstarphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbstarphase", "latest": {"1.4.1--h9ee0642_0": "sha256:cce39775b573348be53b1d37f46a21d48bb8a8307a01ee34cc3fbcdc035f7127"}, "tags": {"0.7.3--h9ee0642_0": "sha256:37a9f7c48cc4fd17cef5f5ca8f11d3dac57c903f77cc0da423299c144e61dae9", "0.8.1--h9ee0642_0": "sha256:4f0c93013ea154357a42104d8e75d5c75bae7efd7ad6a65b2d82d7707abd4047", "0.9.1--h9ee0642_0": "sha256:ba9674fe27d48191a9ff2f584c690e87c5a40bb2dec96c4a035be96933f40ba9", "0.8.2--h9ee0642_0": "sha256:30abee6f17e3c545e9ba769610a1625e59578c46797e9a929a727d9144995688", "0.10.0--h9ee0642_0": "sha256:12c973e365be416a363b5464fb167b902245b83a4bf892daac64a6e1241f8719", "0.11.0--h9ee0642_0": "sha256:e9593afb0d6160698b874fd6d6f93984f588afe83bc0303bf692d0de7c10f58d", "0.10.2--h9ee0642_0": "sha256:6ea93397bfc1d15717919fe13a0b0e9d54f2cde40a378b812f886c1e9a29f2c7", "0.11.3--h9ee0642_0": "sha256:2034ef85cfc489b9773dda2c3c438faf8e481078d4169fa9c49eb537162f0891", "0.13.3--h9ee0642_0": "sha256:8460f033571737efbd7771779222a623ba6462be01b4e806b61017d9eb69f688", "0.12.0--h9ee0642_0": "sha256:140fd15e77baf10a73757bf88d5381ce161dbee8afce259dbd23017f9caf4a43", "0.14.2--h9ee0642_0": "sha256:a5668bb0b2b87b535fb54fbd120ec5d6aca58b33a77906de0e4e8454d4fe5d82", "1.0.0--h9ee0642_0": "sha256:26dac2f98f86f629dff50376af6dbe6d26cc5a128f0a5e1d8934070b7d117e59", "1.1.0--h9ee0642_0": "sha256:1f863875bea3150105b1fe0b3da302c363ce92a67a967d84b7e863db8f425b7d", "1.0.1--h9ee0642_0": "sha256:e906ec41aac2d166f8b3b3e46ff78b388de25051eb2c6420aedfd75f2fe7ee30", "1.2.0--h9ee0642_0": "sha256:2ffd984e7bfa983a2e0754299cabf651178cd2f0ddd483b7adbd08edc7f936c6", "1.3.1--h9ee0642_0": "sha256:b4dbd54bcd4d34211f8a4605c1bca54a70065a091085011a1791b70fd7420c7d", "1.3.2--h9ee0642_0": "sha256:93935bbcc3dd8f461e4d81b461f47d4bc4430a1e18b9b4d55e6065ca4801af62", "1.4.0--h9ee0642_0": "sha256:49b4bf43a8268b77c9e9bb80fe8db01357719f93798f9d80b66c838e63839693", "1.4.1--h9ee0642_0": "sha256:cce39775b573348be53b1d37f46a21d48bb8a8307a01ee34cc3fbcdc035f7127"}, "docker": "quay.io/biocontainers/pbstarphase", "aliases": {"pbstarphase": "/usr/local/bin/pbstarphase"}}
+config: {"url": "https://biocontainers.pro/tools/pbstarphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbstarphase", "latest": {"1.4.2--h9ee0642_0": "sha256:334e87a4ddadfc709912ba341d475fa2b0ee09061fc7e768bbd5335356abdac2"}, "tags": {"0.7.3--h9ee0642_0": "sha256:37a9f7c48cc4fd17cef5f5ca8f11d3dac57c903f77cc0da423299c144e61dae9", "0.8.1--h9ee0642_0": "sha256:4f0c93013ea154357a42104d8e75d5c75bae7efd7ad6a65b2d82d7707abd4047", "0.9.1--h9ee0642_0": "sha256:ba9674fe27d48191a9ff2f584c690e87c5a40bb2dec96c4a035be96933f40ba9", "0.8.2--h9ee0642_0": "sha256:30abee6f17e3c545e9ba769610a1625e59578c46797e9a929a727d9144995688", "0.10.0--h9ee0642_0": "sha256:12c973e365be416a363b5464fb167b902245b83a4bf892daac64a6e1241f8719", "0.11.0--h9ee0642_0": "sha256:e9593afb0d6160698b874fd6d6f93984f588afe83bc0303bf692d0de7c10f58d", "0.10.2--h9ee0642_0": "sha256:6ea93397bfc1d15717919fe13a0b0e9d54f2cde40a378b812f886c1e9a29f2c7", "0.11.3--h9ee0642_0": "sha256:2034ef85cfc489b9773dda2c3c438faf8e481078d4169fa9c49eb537162f0891", "0.13.3--h9ee0642_0": "sha256:8460f033571737efbd7771779222a623ba6462be01b4e806b61017d9eb69f688", "0.12.0--h9ee0642_0": "sha256:140fd15e77baf10a73757bf88d5381ce161dbee8afce259dbd23017f9caf4a43", "0.14.2--h9ee0642_0": "sha256:a5668bb0b2b87b535fb54fbd120ec5d6aca58b33a77906de0e4e8454d4fe5d82", "1.0.0--h9ee0642_0": "sha256:26dac2f98f86f629dff50376af6dbe6d26cc5a128f0a5e1d8934070b7d117e59", "1.1.0--h9ee0642_0": "sha256:1f863875bea3150105b1fe0b3da302c363ce92a67a967d84b7e863db8f425b7d", "1.0.1--h9ee0642_0": "sha256:e906ec41aac2d166f8b3b3e46ff78b388de25051eb2c6420aedfd75f2fe7ee30", "1.2.0--h9ee0642_0": "sha256:2ffd984e7bfa983a2e0754299cabf651178cd2f0ddd483b7adbd08edc7f936c6", "1.3.1--h9ee0642_0": "sha256:b4dbd54bcd4d34211f8a4605c1bca54a70065a091085011a1791b70fd7420c7d", "1.3.2--h9ee0642_0": "sha256:93935bbcc3dd8f461e4d81b461f47d4bc4430a1e18b9b4d55e6065ca4801af62", "1.4.0--h9ee0642_0": "sha256:49b4bf43a8268b77c9e9bb80fe8db01357719f93798f9d80b66c838e63839693", "1.4.1--h9ee0642_0": "sha256:cce39775b573348be53b1d37f46a21d48bb8a8307a01ee34cc3fbcdc035f7127", "1.4.2--h9ee0642_0": "sha256:334e87a4ddadfc709912ba341d475fa2b0ee09061fc7e768bbd5335356abdac2"}, "docker": "quay.io/biocontainers/pbstarphase", "aliases": {"pbstarphase": "/usr/local/bin/pbstarphase"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbstarphase.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/pbstarphase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbstarphase:1.4.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/pbstarphase:1.4.2--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbstarphase/1.4.1--h9ee0642_0
-$ module help quay.io/biocontainers/pbstarphase/1.4.1--h9ee0642_0
+$ module load quay.io/biocontainers/pbstarphase/1.4.2--h9ee0642_0
+$ module help quay.io/biocontainers/pbstarphase/1.4.2--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

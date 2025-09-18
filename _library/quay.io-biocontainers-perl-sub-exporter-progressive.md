@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sub-exporter-progressive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-exporter-progressive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-exporter-progressive/container.yaml"
-updated_at: "2025-09-17 03:27:55.666046"
+updated_at: "2025-09-18 03:30:08.590261"
 latest: "0.001013--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-sub-exporter-progressive"
 aliases:

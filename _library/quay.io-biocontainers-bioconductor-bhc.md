@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bhc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bhc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bhc/container.yaml"
-updated_at: "2025-09-17 03:10:21.173829"
+updated_at: "2025-09-18 03:12:12.160035"
 latest: "1.54.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bhc"
 

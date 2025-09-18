@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/align_trim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/align_trim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/align_trim/container.yaml"
-updated_at: "2025-09-17 03:00:09.907818"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2025-09-18 03:01:58.614732"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/align_trim"
 aliases:
  - "align_trim"
@@ -17,8 +17,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for align_trim"
-config: {"url": "https://biocontainers.pro/tools/align_trim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for align_trim", "latest": {"1.0.1--pyhdfd78af_0": "sha256:cf7a180e474aec951580411f67c0fd5915204a40ae8a2758eede7973d37f7ab3"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:cf7a180e474aec951580411f67c0fd5915204a40ae8a2758eede7973d37f7ab3"}, "docker": "quay.io/biocontainers/align_trim", "aliases": {"align_trim": "/usr/local/bin/align_trim", "primalbedtools": "/usr/local/bin/primalbedtools", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/align_trim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for align_trim", "latest": {"1.0.2--pyhdfd78af_0": "sha256:c11f7e8f838a521d25a162ffd55efe5c3916e828545fac82e07e7f6866badeae"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:cf7a180e474aec951580411f67c0fd5915204a40ae8a2758eede7973d37f7ab3", "1.0.2--pyhdfd78af_0": "sha256:c11f7e8f838a521d25a162ffd55efe5c3916e828545fac82e07e7f6866badeae"}, "docker": "quay.io/biocontainers/align_trim", "aliases": {"align_trim": "/usr/local/bin/align_trim", "primalbedtools": "/usr/local/bin/primalbedtools", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/align_trim.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/align_trim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/align_trim:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/align_trim:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/align_trim/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/align_trim/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/align_trim/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/align_trim/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

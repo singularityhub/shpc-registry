@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-huex10sttranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-huex10sttranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-huex10sttranscriptcluster.db/container.yaml"
-updated_at: "2025-09-17 03:39:47.624782"
+updated_at: "2025-09-18 03:41:59.460073"
 latest: "8.8.0--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-huex10sttranscriptcluster.db"
 

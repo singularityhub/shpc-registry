@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-term-detect-software"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-detect-software/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-detect-software/container.yaml"
-updated_at: "2025-09-17 03:20:18.775827"
-latest: "0.223--pl5321hdfd78af_0"
+updated_at: "2025-09-18 03:22:34.360333"
+latest: "0.227--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-term-detect-software"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.223--pl5321hdfd78af_0"
+ - "0.227--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-term-detect-software"
-config: {"url": "https://biocontainers.pro/tools/perl-term-detect-software", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-detect-software", "latest": {"0.223--pl5321hdfd78af_0": "sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395"}, "tags": {"0.223--pl5321hdfd78af_0": "sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395"}, "docker": "quay.io/biocontainers/perl-term-detect-software", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-term-detect-software", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-detect-software", "latest": {"0.227--pl5321hdfd78af_0": "sha256:38f53b84520b6889415eef593a91445d6b4a63e8f90565736b11d591a8469e46"}, "tags": {"0.223--pl5321hdfd78af_0": "sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395", "0.227--pl5321hdfd78af_0": "sha256:38f53b84520b6889415eef593a91445d6b4a63e8f90565736b11d591a8469e46"}, "docker": "quay.io/biocontainers/perl-term-detect-software", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-term-detect-software.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-term-detect-software
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-term-detect-software:0.223--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-term-detect-software:0.227--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-term-detect-software/0.223--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-term-detect-software/0.223--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-term-detect-software/0.227--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-term-detect-software/0.227--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repic/container.yaml"
-updated_at: "2025-09-17 03:42:26.309593"
+updated_at: "2025-09-18 03:44:39.405688"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/repic"
 aliases:

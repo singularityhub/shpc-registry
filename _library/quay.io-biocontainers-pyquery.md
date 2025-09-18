@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyquery/container.yaml"
-updated_at: "2025-09-17 03:20:16.616536"
+updated_at: "2025-09-18 03:22:32.247236"
 latest: "1.2.9--py27_0"
 container_url: "https://biocontainers.pro/tools/pyquery"
 aliases:
