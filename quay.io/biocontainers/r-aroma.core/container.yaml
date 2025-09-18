@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-aroma.core
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-aroma.core
 latest:
-  3.3.1--r44h3121a25_1: 
-    sha256:04b8f61566bc5a7d90ecdf095d1cc0b7de0bf8390662f59e39ebd968b0fe78cf
+  3.3.2--r44h3121a25_0: 
+    sha256:48aabe242467abc5c1789bd51534e43a6f766780a75fb1f9474939910a4f8075
 tags:
   3.2.2--r41h3121a25_1: 
     sha256:99a2048cfa648bf013f4ac1e053d9c0db925aa0445e668fcf0ab45dee5b523b5
@@ -17,6 +17,8 @@ tags:
     sha256:996d690387b67728311e3ed9501b3880491a6e96b4c653774e074fac587072d3
   3.3.1--r44h3121a25_1: 
     sha256:04b8f61566bc5a7d90ecdf095d1cc0b7de0bf8390662f59e39ebd968b0fe78cf
+  3.3.2--r44h3121a25_0: 
+    sha256:48aabe242467abc5c1789bd51534e43a6f766780a75fb1f9474939910a4f8075
 docker: quay.io/biocontainers/r-aroma.core
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

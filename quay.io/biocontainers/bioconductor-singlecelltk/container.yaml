@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-singlecelltk
 latest:
-  2.12.0--r43hdfd78af_0: 
-    sha256:6f446cba96bd10cb81ac3255f47024c4fa1b89623ce2e52edc9896336f18426a
+  2.16.0--r44hdfd78af_0: 
+    sha256:f7b8e5e973094535f1151a6ff64f2a56ca4b5551d93305bd0b29c78b4447e95b
 tags:
   2.4.0--r41hdfd78af_0: 
     sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df
@@ -14,6 +14,8 @@ tags:
     sha256:3d18a465927471637917aab96aba5dbb5ffcff29ab7bf1f59d593f9d3137e9c1
   2.12.0--r43hdfd78af_0: 
     sha256:6f446cba96bd10cb81ac3255f47024c4fa1b89623ce2e52edc9896336f18426a
+  2.16.0--r44hdfd78af_0: 
+    sha256:f7b8e5e973094535f1151a6ff64f2a56ca4b5551d93305bd0b29c78b4447e95b
 docker: quay.io/biocontainers/bioconductor-singlecelltk
 aliases:
   xgboost: /usr/local/bin/xgboost

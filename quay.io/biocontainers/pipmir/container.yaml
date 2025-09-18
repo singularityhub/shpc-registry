@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pipmir
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pipmir
 latest:
-  1.1--hdfd78af_5: 
-    sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe
+  1.1--hdfd78af_6: 
+    sha256:85ac7079c17d510561df05d094ec60f12bea6ec5d5c89ae47d2006624bcd6c29
 tags:
   1.1--hdfd78af_5: 
     sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe
+  1.1--hdfd78af_6: 
+    sha256:85ac7079c17d510561df05d094ec60f12bea6ec5d5c89ae47d2006624bcd6c29
 docker: quay.io/biocontainers/pipmir
 aliases:
   PIPmiR: /usr/local/bin/PIPmiR

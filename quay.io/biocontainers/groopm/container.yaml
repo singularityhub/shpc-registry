@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/groopm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for groopm
 latest:
-  0.3.4--py27_0: 
-    sha256:7e77af9999b87e88cdedcaa45fffe147eb9d639041a42eeda108810197745472
+  0.3.4--pyhdfd78af_2: 
+    sha256:decaf5c5254e640345cee812f7fc1300618a1a36fb9fac7ffe584253529be481
 tags:
   0.3.4--py27_0: 
     sha256:7e77af9999b87e88cdedcaa45fffe147eb9d639041a42eeda108810197745472
+  0.3.4--pyhdfd78af_2: 
+    sha256:decaf5c5254e640345cee812f7fc1300618a1a36fb9fac7ffe584253529be481
 docker: quay.io/biocontainers/groopm
 aliases:
   bamFlags: /usr/local/bin/bamFlags
