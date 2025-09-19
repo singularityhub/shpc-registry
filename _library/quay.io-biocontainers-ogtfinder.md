@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ogtfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ogtfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ogtfinder/container.yaml"
-updated_at: "2025-09-18 05:44:11.271448"
+updated_at: "2025-09-19 03:09:51.529503"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ogtfinder"
 aliases:

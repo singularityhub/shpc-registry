@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/craq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/craq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/craq/container.yaml"
-updated_at: "2025-09-18 05:52:14.369211"
-latest: "1.0.9--hdfd78af_1"
+updated_at: "2025-09-19 03:18:09.064936"
+latest: "1.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/craq"
 aliases:
  - "craq"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.0.9--hdfd78af_0"
  - "1.0.9--hdfd78af_1"
+ - "1.10--hdfd78af_0"
 description: "singularity registry hpc automated addition for craq"
-config: {"url": "https://biocontainers.pro/tools/craq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for craq", "latest": {"1.0.9--hdfd78af_1": "sha256:de341237ec368a1e9ac617791273e5390d7cf265d8ab403234221b442033a898"}, "tags": {"1.0.9--hdfd78af_0": "sha256:87af03fc19b41c9e4dd0a4869eef768ea51cdfd59ddfdf7a6c2cdf8a8837642e", "1.0.9--hdfd78af_1": "sha256:de341237ec368a1e9ac617791273e5390d7cf265d8ab403234221b442033a898"}, "docker": "quay.io/biocontainers/craq", "aliases": {"craq": "/usr/local/bin/craq", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/craq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for craq", "latest": {"1.10--hdfd78af_0": "sha256:7c20afcba6d03ddd440b1bb96bba948694f39a16dd197a88ce9978e087a48cb8"}, "tags": {"1.0.9--hdfd78af_0": "sha256:87af03fc19b41c9e4dd0a4869eef768ea51cdfd59ddfdf7a6c2cdf8a8837642e", "1.0.9--hdfd78af_1": "sha256:de341237ec368a1e9ac617791273e5390d7cf265d8ab403234221b442033a898", "1.10--hdfd78af_0": "sha256:7c20afcba6d03ddd440b1bb96bba948694f39a16dd197a88ce9978e087a48cb8"}, "docker": "quay.io/biocontainers/craq", "aliases": {"craq": "/usr/local/bin/craq", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "sdust": "/usr/local/bin/sdust", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/craq.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/craq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/craq:1.0.9--hdfd78af_1
+$ shpc install quay.io/biocontainers/craq:1.10--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/craq/1.0.9--hdfd78af_1
-$ module help quay.io/biocontainers/craq/1.0.9--hdfd78af_1
+$ module load quay.io/biocontainers/craq/1.10--hdfd78af_0
+$ module help quay.io/biocontainers/craq/1.10--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

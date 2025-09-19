@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/groopm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/groopm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/groopm/container.yaml"
-updated_at: "2025-09-18 06:22:09.472919"
-latest: "0.3.4--py27_0"
+updated_at: "2025-09-19 03:48:58.231736"
+latest: "0.3.4--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/groopm"
 aliases:
  - "bamFlags"
@@ -23,8 +23,9 @@ aliases:
  - "qualfa2fq.pl"
 versions:
  - "0.3.4--py27_0"
+ - "0.3.4--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for groopm"
-config: {"url": "https://biocontainers.pro/tools/groopm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for groopm", "latest": {"0.3.4--py27_0": "sha256:7e77af9999b87e88cdedcaa45fffe147eb9d639041a42eeda108810197745472"}, "tags": {"0.3.4--py27_0": "sha256:7e77af9999b87e88cdedcaa45fffe147eb9d639041a42eeda108810197745472"}, "docker": "quay.io/biocontainers/groopm", "aliases": {"bamFlags": "/usr/local/bin/bamFlags", "bamm": "/usr/local/bin/bamm", "groopm": "/usr/local/bin/groopm", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl"}}
+config: {"url": "https://biocontainers.pro/tools/groopm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for groopm", "latest": {"0.3.4--pyhdfd78af_2": "sha256:decaf5c5254e640345cee812f7fc1300618a1a36fb9fac7ffe584253529be481"}, "tags": {"0.3.4--py27_0": "sha256:7e77af9999b87e88cdedcaa45fffe147eb9d639041a42eeda108810197745472", "0.3.4--pyhdfd78af_2": "sha256:decaf5c5254e640345cee812f7fc1300618a1a36fb9fac7ffe584253529be481"}, "docker": "quay.io/biocontainers/groopm", "aliases": {"bamFlags": "/usr/local/bin/bamFlags", "bamm": "/usr/local/bin/bamm", "groopm": "/usr/local/bin/groopm", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/groopm.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/groopm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/groopm:0.3.4--py27_0
+$ shpc install quay.io/biocontainers/groopm:0.3.4--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/groopm/0.3.4--py27_0
-$ module help quay.io/biocontainers/groopm/0.3.4--py27_0
+$ module load quay.io/biocontainers/groopm/0.3.4--pyhdfd78af_2
+$ module help quay.io/biocontainers/groopm/0.3.4--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

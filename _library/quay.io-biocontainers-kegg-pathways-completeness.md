@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kegg-pathways-completeness"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kegg-pathways-completeness/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kegg-pathways-completeness/container.yaml"
-updated_at: "2025-09-18 06:21:34.520103"
+updated_at: "2025-09-19 03:48:22.385807"
 latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kegg-pathways-completeness"
 aliases:

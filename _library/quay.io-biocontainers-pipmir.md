@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pipmir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipmir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pipmir/container.yaml"
-updated_at: "2025-09-18 06:25:36.519313"
-latest: "1.1--hdfd78af_5"
+updated_at: "2025-09-19 03:52:32.581489"
+latest: "1.1--hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/pipmir"
 aliases:
  - "PIPmiR"
@@ -21,8 +21,9 @@ aliases:
  - "RNAforester"
 versions:
  - "1.1--hdfd78af_5"
+ - "1.1--hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for pipmir"
-config: {"url": "https://biocontainers.pro/tools/pipmir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipmir", "latest": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "tags": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "docker": "quay.io/biocontainers/pipmir", "aliases": {"PIPmiR": "/usr/local/bin/PIPmiR", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
+config: {"url": "https://biocontainers.pro/tools/pipmir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipmir", "latest": {"1.1--hdfd78af_6": "sha256:85ac7079c17d510561df05d094ec60f12bea6ec5d5c89ae47d2006624bcd6c29"}, "tags": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe", "1.1--hdfd78af_6": "sha256:85ac7079c17d510561df05d094ec60f12bea6ec5d5c89ae47d2006624bcd6c29"}, "docker": "quay.io/biocontainers/pipmir", "aliases": {"PIPmiR": "/usr/local/bin/PIPmiR", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pipmir.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pipmir
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pipmir:1.1--hdfd78af_5
+$ shpc install quay.io/biocontainers/pipmir:1.1--hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pipmir/1.1--hdfd78af_5
-$ module help quay.io/biocontainers/pipmir/1.1--hdfd78af_5
+$ module load quay.io/biocontainers/pipmir/1.1--hdfd78af_6
+$ module help quay.io/biocontainers/pipmir/1.1--hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

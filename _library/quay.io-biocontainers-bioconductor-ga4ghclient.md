@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ga4ghclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ga4ghclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ga4ghclient/container.yaml"
-updated_at: "2025-09-18 05:57:13.534870"
+updated_at: "2025-09-19 03:23:16.513463"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ga4ghclient"
 aliases:

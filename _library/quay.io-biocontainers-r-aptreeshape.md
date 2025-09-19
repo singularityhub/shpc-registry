@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-aptreeshape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aptreeshape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aptreeshape/container.yaml"
-updated_at: "2025-09-18 06:12:30.104500"
+updated_at: "2025-09-19 03:39:00.347060"
 latest: "1.5_0--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-aptreeshape"
 aliases:

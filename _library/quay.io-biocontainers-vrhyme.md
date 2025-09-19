@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vrhyme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vrhyme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vrhyme/container.yaml"
-updated_at: "2025-09-18 05:50:52.292869"
+updated_at: "2025-09-19 03:16:44.820768"
 latest: "1.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/vrhyme"
 aliases:

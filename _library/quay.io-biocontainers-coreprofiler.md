@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coreprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coreprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coreprofiler/container.yaml"
-updated_at: "2025-09-18 06:21:08.568913"
+updated_at: "2025-09-19 03:47:55.646403"
 latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/coreprofiler"
 aliases:

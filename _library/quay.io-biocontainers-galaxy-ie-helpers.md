@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-ie-helpers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-ie-helpers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-ie-helpers/container.yaml"
-updated_at: "2025-09-18 06:16:21.534530"
+updated_at: "2025-09-19 03:42:59.140031"
 latest: "0.2.7--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/galaxy-ie-helpers"
 aliases:

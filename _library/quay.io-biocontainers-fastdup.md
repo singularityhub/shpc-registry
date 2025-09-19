@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastdup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastdup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastdup/container.yaml"
-updated_at: "2025-09-18 06:19:41.331410"
+updated_at: "2025-09-19 03:46:25.176138"
 latest: "1.0.0--hc033996_0"
 container_url: "https://biocontainers.pro/tools/fastdup"
 aliases:

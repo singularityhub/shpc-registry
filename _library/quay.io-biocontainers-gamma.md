@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gamma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gamma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gamma/container.yaml"
-updated_at: "2025-09-18 06:00:56.751546"
-latest: "2.2--hdfd78af_0"
+updated_at: "2025-09-19 03:27:05.936264"
+latest: "2.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gamma"
 aliases:
  - "GAMMA-S.py"
@@ -29,8 +29,9 @@ aliases:
  - "python3.1"
 versions:
  - "2.2--hdfd78af_0"
+ - "2.2--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for gamma"
-config: {"url": "https://biocontainers.pro/tools/gamma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gamma", "latest": {"2.2--hdfd78af_0": "sha256:364dc74594536573c033373fe2fd099d0e6fb0cc5713bc89637f5b4584aad249"}, "tags": {"2.2--hdfd78af_0": "sha256:364dc74594536573c033373fe2fd099d0e6fb0cc5713bc89637f5b4584aad249"}, "docker": "quay.io/biocontainers/gamma", "aliases": {"GAMMA-S.py": "/usr/local/bin/GAMMA-S.py", "GAMMA.py": "/usr/local/bin/GAMMA.py", "faToNib": "/usr/local/bin/faToNib", "gfClient": "/usr/local/bin/gfClient", "gfServer": "/usr/local/bin/gfServer", "nibFrag": "/usr/local/bin/nibFrag", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "twoBitToFa": "/usr/local/bin/twoBitToFa", "blat": "/usr/local/bin/blat", "unidecode": "/usr/local/bin/unidecode", "twoBitInfo": "/usr/local/bin/twoBitInfo", "faToTwoBit": "/usr/local/bin/faToTwoBit", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/gamma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gamma", "latest": {"2.2--hdfd78af_1": "sha256:bdf16555ef6bea21fa842f45e913634f87de3a25f63288d42d37cfe2dde82b19"}, "tags": {"2.2--hdfd78af_0": "sha256:364dc74594536573c033373fe2fd099d0e6fb0cc5713bc89637f5b4584aad249", "2.2--hdfd78af_1": "sha256:bdf16555ef6bea21fa842f45e913634f87de3a25f63288d42d37cfe2dde82b19"}, "docker": "quay.io/biocontainers/gamma", "aliases": {"GAMMA-S.py": "/usr/local/bin/GAMMA-S.py", "GAMMA.py": "/usr/local/bin/GAMMA.py", "faToNib": "/usr/local/bin/faToNib", "gfClient": "/usr/local/bin/gfClient", "gfServer": "/usr/local/bin/gfServer", "nibFrag": "/usr/local/bin/nibFrag", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "twoBitToFa": "/usr/local/bin/twoBitToFa", "blat": "/usr/local/bin/blat", "unidecode": "/usr/local/bin/unidecode", "twoBitInfo": "/usr/local/bin/twoBitInfo", "faToTwoBit": "/usr/local/bin/faToTwoBit", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gamma.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/gamma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gamma:2.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/gamma:2.2--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gamma/2.2--hdfd78af_0
-$ module help quay.io/biocontainers/gamma/2.2--hdfd78af_0
+$ module load quay.io/biocontainers/gamma/2.2--hdfd78af_1
+$ module help quay.io/biocontainers/gamma/2.2--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

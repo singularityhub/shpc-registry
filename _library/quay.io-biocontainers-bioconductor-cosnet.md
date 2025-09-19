@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cosnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosnet/container.yaml"
-updated_at: "2025-09-18 06:05:36.891608"
+updated_at: "2025-09-19 03:31:54.673344"
 latest: "1.40.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosnet"
 

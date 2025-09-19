@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-egad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-egad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-egad/container.yaml"
-updated_at: "2025-09-18 05:38:20.766020"
+updated_at: "2025-09-19 03:03:49.736051"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-egad"
 

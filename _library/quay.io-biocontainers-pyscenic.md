@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyscenic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyscenic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyscenic/container.yaml"
-updated_at: "2025-09-18 06:16:13.783435"
+updated_at: "2025-09-19 03:42:51.104139"
 latest: "0.12.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyscenic"
 aliases:
