@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rgi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rgi
 latest:
-  6.0.4--pyh05cac1d_1: 
-    sha256:a1e6ca20d77d7090964a9b2d41f81ea675adaa3a1dc5b5602c6a6b69269912ab
+  6.0.5--pyh05cac1d_0: 
+    sha256:164f4a58042146d144af35bc92589b47e095e40b4588836363e4b6025ac014b4
 tags:
   6.0.0--pyha8f3691_0: 
     sha256:e65160a3b5a83fb0fdc03b3c32be37125bc5d6e546a27f0fd5fad81dd8f70af4
@@ -19,6 +19,8 @@ tags:
     sha256:c335f1c576ab802df12a55fb5f91c0c26108c53465f226f450f77d15d43ee8b7
   6.0.4--pyh05cac1d_1: 
     sha256:a1e6ca20d77d7090964a9b2d41f81ea675adaa3a1dc5b5602c6a6b69269912ab
+  6.0.5--pyh05cac1d_0: 
+    sha256:164f4a58042146d144af35bc92589b47e095e40b4588836363e4b6025ac014b4
 docker: quay.io/biocontainers/rgi
 aliases:
   ct-energy: /usr/local/bin/ct-energy

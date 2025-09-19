@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-html-tableextract
 latest:
-  2.13--pl5321hdfd78af_3: 
-    sha256:3b6c18d87adf444572afd8c10cc10330a96b1f7c9bd3bfb8cf32f4e32ceed500
+  2.15--pl5321hdfd78af_0: 
+    sha256:23d6d385adffe0b64ab545247ff0b16b2a350ee0c878767d4015013a4aaec568
 tags:
   2.13--pl5321hdfd78af_3: 
     sha256:3b6c18d87adf444572afd8c10cc10330a96b1f7c9bd3bfb8cf32f4e32ceed500
+  2.15--pl5321hdfd78af_0: 
+    sha256:23d6d385adffe0b64ab545247ff0b16b2a350ee0c878767d4015013a4aaec568
 docker: quay.io/biocontainers/perl-html-tableextract
 aliases:
   htmltree: /usr/local/bin/htmltree

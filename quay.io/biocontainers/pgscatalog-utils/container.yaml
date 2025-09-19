@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pgscatalog-utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pgscatalog-utils
 latest:
-  2.0.1--pyhdfd78af_0: 
-    sha256:979c5fe830d36d6d960c37ea7baa97bd482f38f6b37279179a5fbd3a2ac6fd80
+  2.0.2--pyhdfd78af_0: 
+    sha256:92f99982ab6699f468e018d47689a1b207c835e031d82845b48fd54659456a22
 tags:
   1.1.2--pyhdfd78af_0: 
     sha256:237a44157750d4641b61bcfec3efa12fa97b3f0e2e97252f125e604b3fbd4c3f
@@ -17,6 +17,8 @@ tags:
     sha256:78b6b7862ef1514b494468ca9437a25c6bad5dac8dd16106e8663483cc1423ef
   2.0.1--pyhdfd78af_0: 
     sha256:979c5fe830d36d6d960c37ea7baa97bd482f38f6b37279179a5fbd3a2ac6fd80
+  2.0.2--pyhdfd78af_0: 
+    sha256:92f99982ab6699f468e018d47689a1b207c835e031d82845b48fd54659456a22
 docker: quay.io/biocontainers/pgscatalog-utils
 aliases:
   pgscatalog-aggregate: /usr/local/bin/pgscatalog-aggregate

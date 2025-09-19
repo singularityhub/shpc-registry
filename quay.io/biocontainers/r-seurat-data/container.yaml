@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/r-seurat-data
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-seurat-data
 latest:
-  0.2.1--r44h9ee0642_1: 
-    sha256:de15bd812a41c3dcd6ba243035d141af6f804d5bfc5e2a3653cf834f5345346f
+  0.2.2.9002--r44hdfd78af_0: 
+    sha256:4b8547b86ac072d6a2f784e62988ff66c08329888fd9d0e7fa9541353cb48ffa
 tags:
   0.2.1--r43h9ee0642_0: 
     sha256:06832e01dd21fe6919413e9bb3fc043aa4539ea1d44ec8fc29b5f19f3b991f9f
   0.2.1--r44h9ee0642_1: 
     sha256:de15bd812a41c3dcd6ba243035d141af6f804d5bfc5e2a3653cf834f5345346f
+  0.2.2.9002--r44hdfd78af_0: 
+    sha256:4b8547b86ac072d6a2f784e62988ff66c08329888fd9d0e7fa9541353cb48ffa
 docker: quay.io/biocontainers/r-seurat-data
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test
