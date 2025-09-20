@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/comebin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for comebin
 latest:
-  1.0.4--hdfd78af_0: 
-    sha256:e3c939ea85b8be126e5394cda68cb48634d254432724c2669e165f49860d4966
+  1.0.4--hdfd78af_1: 
+    sha256:9d52030e275700b03f469235883c43041d1d9a6a4585a8f777072d8268b9b1d2
 tags:
   1.0.3--hdfd78af_0: 
     sha256:7b9dcbb50c9c5f6f0889a1a2668b1e56233f3d5af35b6fee532603773c378771
   1.0.4--hdfd78af_0: 
     sha256:e3c939ea85b8be126e5394cda68cb48634d254432724c2669e165f49860d4966
+  1.0.4--hdfd78af_1: 
+    sha256:9d52030e275700b03f469235883c43041d1d9a6a4585a8f777072d8268b9b1d2
 docker: quay.io/biocontainers/comebin
 aliases:
   run_comebin.sh: /usr/local/bin/run_comebin.sh

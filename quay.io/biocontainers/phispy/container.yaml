@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phispy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phispy
 latest:
-  4.2.21--py39h2de1943_7: 
-    sha256:4f5dc9cb539a5bc75d5a6e846786b766e38e99408749c36f247a2da3dc6dbc6c
+  4.2.21--py39h2de1943_8: 
+    sha256:1fff862a40fec2b97049fb05dd5f00af596fdfc84d457f46f386af81f9bc1480
 tags:
   4.2.6--py36hae55d0a_1: 
     sha256:998468b17ab66ce4a3d725ebe5620b2e813c549376069bd7aa7a6e626f225b7a
@@ -19,6 +19,8 @@ tags:
     sha256:832fe8f0cc22e0f5622f34b9bca00c6bc1e51420b9b7a0cf8e5dc251dfd42620
   4.2.21--py39h2de1943_7: 
     sha256:4f5dc9cb539a5bc75d5a6e846786b766e38e99408749c36f247a2da3dc6dbc6c
+  4.2.21--py39h2de1943_8: 
+    sha256:1fff862a40fec2b97049fb05dd5f00af596fdfc84d457f46f386af81f9bc1480
 docker: quay.io/biocontainers/phispy
 aliases:
   PhiSpy.py: /usr/local/bin/PhiSpy.py
