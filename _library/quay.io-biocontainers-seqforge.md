@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqforge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqforge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqforge/container.yaml"
-updated_at: "2025-09-19 03:35:12.233023"
+updated_at: "2025-09-20 03:27:50.355724"
 latest: "1.0.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/seqforge"
 aliases:

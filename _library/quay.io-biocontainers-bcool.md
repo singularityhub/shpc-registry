@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcool/container.yaml"
-updated_at: "2025-09-19 03:47:49.888007"
+updated_at: "2025-09-20 03:39:56.418660"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bcool"
 aliases:

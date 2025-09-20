@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-html-tableextract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tableextract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tableextract/container.yaml"
-updated_at: "2025-09-19 03:51:06.292315"
-latest: "2.13--pl5321hdfd78af_3"
+updated_at: "2025-09-20 03:43:04.421589"
+latest: "2.15--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-html-tableextract"
 aliases:
  - "htmltree"
@@ -13,8 +13,9 @@ aliases:
  - "streamzip"
 versions:
  - "2.13--pl5321hdfd78af_3"
+ - "2.15--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-html-tableextract"
-config: {"url": "https://biocontainers.pro/tools/perl-html-tableextract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tableextract", "latest": {"2.13--pl5321hdfd78af_3": "sha256:3b6c18d87adf444572afd8c10cc10330a96b1f7c9bd3bfb8cf32f4e32ceed500"}, "tags": {"2.13--pl5321hdfd78af_3": "sha256:3b6c18d87adf444572afd8c10cc10330a96b1f7c9bd3bfb8cf32f4e32ceed500"}, "docker": "quay.io/biocontainers/perl-html-tableextract", "aliases": {"htmltree": "/usr/local/bin/htmltree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-html-tableextract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tableextract", "latest": {"2.15--pl5321hdfd78af_0": "sha256:23d6d385adffe0b64ab545247ff0b16b2a350ee0c878767d4015013a4aaec568"}, "tags": {"2.13--pl5321hdfd78af_3": "sha256:3b6c18d87adf444572afd8c10cc10330a96b1f7c9bd3bfb8cf32f4e32ceed500", "2.15--pl5321hdfd78af_0": "sha256:23d6d385adffe0b64ab545247ff0b16b2a350ee0c878767d4015013a4aaec568"}, "docker": "quay.io/biocontainers/perl-html-tableextract", "aliases": {"htmltree": "/usr/local/bin/htmltree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-tableextract.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-html-tableextract
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-html-tableextract:2.13--pl5321hdfd78af_3
+$ shpc install quay.io/biocontainers/perl-html-tableextract:2.15--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-html-tableextract/2.13--pl5321hdfd78af_3
-$ module help quay.io/biocontainers/perl-html-tableextract/2.13--pl5321hdfd78af_3
+$ module load quay.io/biocontainers/perl-html-tableextract/2.15--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-html-tableextract/2.15--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

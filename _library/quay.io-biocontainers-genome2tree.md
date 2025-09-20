@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genome2tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genome2tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genome2tree/container.yaml"
-updated_at: "2025-09-19 03:48:57.957203"
+updated_at: "2025-09-20 03:41:01.834916"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genome2tree"
 aliases:

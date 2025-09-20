@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocartaimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocartaimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocartaimage/container.yaml"
-updated_at: "2025-09-19 03:24:32.520133"
+updated_at: "2025-09-20 03:17:35.384714"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocartaimage"
 aliases:

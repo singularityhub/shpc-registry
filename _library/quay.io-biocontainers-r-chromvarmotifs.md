@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-chromvarmotifs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chromvarmotifs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chromvarmotifs/container.yaml"
-updated_at: "2025-09-19 03:33:37.003584"
-latest: "0.2.0--r41hdfd78af_0"
+updated_at: "2025-09-20 03:26:18.937473"
+latest: "0.2.0--r44hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-chromvarmotifs"
 
 versions:
  - "0.2.0--r41hdfd78af_0"
  - "0.2.0--r42hdfd78af_0"
+ - "0.2.0--r44hdfd78af_2"
 description: "singularity registry hpc automated addition for r-chromvarmotifs"
-config: {"url": "https://biocontainers.pro/tools/r-chromvarmotifs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-chromvarmotifs", "latest": {"0.2.0--r41hdfd78af_0": "sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce", "0.2.0--r42hdfd78af_0": "sha256:e698b59642ca9d5c624139798614bf4c1704ce7e36eb88eaacb72ca8e9b7f2a2"}, "docker": "quay.io/biocontainers/r-chromvarmotifs"}
+config: {"url": "https://biocontainers.pro/tools/r-chromvarmotifs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-chromvarmotifs", "latest": {"0.2.0--r44hdfd78af_2": "sha256:f882cef7cafa6ddce32d16f5a074825b77880a5e2b4485769e681b3f7bc816b1"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:3c76f65aaf18038d487df230cb5fdda95aeda183ae262fcdc008a2cbe052e7ce", "0.2.0--r42hdfd78af_0": "sha256:e698b59642ca9d5c624139798614bf4c1704ce7e36eb88eaacb72ca8e9b7f2a2", "0.2.0--r44hdfd78af_2": "sha256:f882cef7cafa6ddce32d16f5a074825b77880a5e2b4485769e681b3f7bc816b1"}, "docker": "quay.io/biocontainers/r-chromvarmotifs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-chromvarmotifs.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-chromvarmotifs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-chromvarmotifs:0.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-chromvarmotifs:0.2.0--r44hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-chromvarmotifs/0.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-chromvarmotifs/0.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-chromvarmotifs/0.2.0--r44hdfd78af_2
+$ module help quay.io/biocontainers/r-chromvarmotifs/0.2.0--r44hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

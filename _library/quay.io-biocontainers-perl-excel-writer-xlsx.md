@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-excel-writer-xlsx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-excel-writer-xlsx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-excel-writer-xlsx/container.yaml"
-updated_at: "2025-09-19 03:34:02.390521"
-latest: "1.14--pl5321hdfd78af_0"
+updated_at: "2025-09-20 03:26:43.309570"
+latest: "1.15--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-excel-writer-xlsx"
 aliases:
  - "crc32"
@@ -18,8 +18,9 @@ versions:
  - "1.11--pl5321hdfd78af_0"
  - "1.13--pl5321hdfd78af_0"
  - "1.14--pl5321hdfd78af_0"
+ - "1.15--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-excel-writer-xlsx"
-config: {"url": "https://biocontainers.pro/tools/perl-excel-writer-xlsx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-excel-writer-xlsx", "latest": {"1.14--pl5321hdfd78af_0": "sha256:71838b172324927eadefc1641d55973bf984fd6aa390019fa5a671a0afaf816b"}, "tags": {"1.09--pl5321hdfd78af_0": "sha256:4642b1f4c6f70520ed697d085abed0be8560b1eb31ccb865bc4b9aca418eef76", "1.10--pl5321hdfd78af_0": "sha256:d560b3b4bc83250005bcc7eb1ca188f955a0d64c14f932c03e64b29fbe41f818", "1.11--pl5321hdfd78af_0": "sha256:3e18c2ffb31edcf85e1451957d433a02d36daa0ce8a4f3e8e16cf00a3d57d03e", "1.13--pl5321hdfd78af_0": "sha256:3b3d035a3073209a80b6b708af5a092a5a4c76b53361d3ee7a452397248c7ba9", "1.14--pl5321hdfd78af_0": "sha256:71838b172324927eadefc1641d55973bf984fd6aa390019fa5a671a0afaf816b"}, "docker": "quay.io/biocontainers/perl-excel-writer-xlsx", "aliases": {"crc32": "/usr/local/bin/crc32", "extract_vba": "/usr/local/bin/extract_vba", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-excel-writer-xlsx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-excel-writer-xlsx", "latest": {"1.15--pl5321hdfd78af_0": "sha256:b3dadcbb473c25457bdaf4531d12583ed9431c115a74637f7d45113d0f9d7a70"}, "tags": {"1.09--pl5321hdfd78af_0": "sha256:4642b1f4c6f70520ed697d085abed0be8560b1eb31ccb865bc4b9aca418eef76", "1.10--pl5321hdfd78af_0": "sha256:d560b3b4bc83250005bcc7eb1ca188f955a0d64c14f932c03e64b29fbe41f818", "1.11--pl5321hdfd78af_0": "sha256:3e18c2ffb31edcf85e1451957d433a02d36daa0ce8a4f3e8e16cf00a3d57d03e", "1.13--pl5321hdfd78af_0": "sha256:3b3d035a3073209a80b6b708af5a092a5a4c76b53361d3ee7a452397248c7ba9", "1.14--pl5321hdfd78af_0": "sha256:71838b172324927eadefc1641d55973bf984fd6aa390019fa5a671a0afaf816b", "1.15--pl5321hdfd78af_0": "sha256:b3dadcbb473c25457bdaf4531d12583ed9431c115a74637f7d45113d0f9d7a70"}, "docker": "quay.io/biocontainers/perl-excel-writer-xlsx", "aliases": {"crc32": "/usr/local/bin/crc32", "extract_vba": "/usr/local/bin/extract_vba", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-excel-writer-xlsx.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/perl-excel-writer-xlsx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-excel-writer-xlsx:1.14--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-excel-writer-xlsx:1.15--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-excel-writer-xlsx/1.14--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-excel-writer-xlsx/1.14--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-excel-writer-xlsx/1.15--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-excel-writer-xlsx/1.15--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

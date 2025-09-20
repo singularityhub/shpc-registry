@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-seurat-disk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seurat-disk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seurat-disk/container.yaml"
-updated_at: "2025-09-19 03:31:16.577369"
-latest: "0.0.0.9021--r44h9ee0642_1"
+updated_at: "2025-09-20 03:24:03.763759"
+latest: "0.0.0.9021--r44hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-seurat-disk"
 aliases:
  - "pandoc-lua"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.0.0.9021--r43h9ee0642_0"
  - "0.0.0.9021--r44h9ee0642_1"
+ - "0.0.0.9021--r44hdfd78af_2"
 description: "singularity registry hpc automated addition for r-seurat-disk"
-config: {"url": "https://biocontainers.pro/tools/r-seurat-disk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-seurat-disk", "latest": {"0.0.0.9021--r44h9ee0642_1": "sha256:28ee7907e5af2261453e5fea78ba9a67e1cc73a3924db3f06f8e0ec7f60ca651"}, "tags": {"0.0.0.9021--r43h9ee0642_0": "sha256:00f4290bad530073598cc7d5cf6ef0344d7a7568c0b69504aa4d493cd0527005", "0.0.0.9021--r44h9ee0642_1": "sha256:28ee7907e5af2261453e5fea78ba9a67e1cc73a3924db3f06f8e0ec7f60ca651"}, "docker": "quay.io/biocontainers/r-seurat-disk", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "pandoc-server": "/usr/local/bin/pandoc-server", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "pandoc": "/usr/local/bin/pandoc", "tjbench": "/usr/local/bin/tjbench", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy"}}
+config: {"url": "https://biocontainers.pro/tools/r-seurat-disk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-seurat-disk", "latest": {"0.0.0.9021--r44hdfd78af_2": "sha256:1e5fbccaf0f93c3f6062b718c0dda5812720c49c31ac9fda807147d9dcd9d046"}, "tags": {"0.0.0.9021--r43h9ee0642_0": "sha256:00f4290bad530073598cc7d5cf6ef0344d7a7568c0b69504aa4d493cd0527005", "0.0.0.9021--r44h9ee0642_1": "sha256:28ee7907e5af2261453e5fea78ba9a67e1cc73a3924db3f06f8e0ec7f60ca651", "0.0.0.9021--r44hdfd78af_2": "sha256:1e5fbccaf0f93c3f6062b718c0dda5812720c49c31ac9fda807147d9dcd9d046"}, "docker": "quay.io/biocontainers/r-seurat-disk", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "pandoc-server": "/usr/local/bin/pandoc-server", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "pandoc": "/usr/local/bin/pandoc", "tjbench": "/usr/local/bin/tjbench", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-seurat-disk.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/r-seurat-disk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-seurat-disk:0.0.0.9021--r44h9ee0642_1
+$ shpc install quay.io/biocontainers/r-seurat-disk:0.0.0.9021--r44hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-seurat-disk/0.0.0.9021--r44h9ee0642_1
-$ module help quay.io/biocontainers/r-seurat-disk/0.0.0.9021--r44h9ee0642_1
+$ module load quay.io/biocontainers/r-seurat-disk/0.0.0.9021--r44hdfd78af_2
+$ module help quay.io/biocontainers/r-seurat-disk/0.0.0.9021--r44hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

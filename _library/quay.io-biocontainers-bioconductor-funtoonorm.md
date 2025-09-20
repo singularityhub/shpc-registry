@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-funtoonorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funtoonorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funtoonorm/container.yaml"
-updated_at: "2025-09-19 03:30:06.593798"
+updated_at: "2025-09-20 03:22:56.531305"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-funtoonorm"
 aliases:

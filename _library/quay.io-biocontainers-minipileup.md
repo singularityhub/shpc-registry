@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minipileup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minipileup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minipileup/container.yaml"
-updated_at: "2025-09-19 03:51:48.471752"
+updated_at: "2025-09-20 03:43:45.203978"
 latest: "1.4b--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/minipileup"
 aliases:

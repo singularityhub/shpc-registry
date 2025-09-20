@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ensemblcov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ensemblcov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ensemblcov/container.yaml"
-updated_at: "2025-09-19 03:28:47.567859"
+updated_at: "2025-09-20 03:21:40.647299"
 latest: "0.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/ensemblcov"
 aliases:
