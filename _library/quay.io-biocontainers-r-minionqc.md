@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-minionqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-minionqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-minionqc/container.yaml"
-updated_at: "2025-09-20 03:35:41.095645"
+updated_at: "2025-09-21 03:50:42.857137"
 latest: "1.4.2--r44hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-minionqc"
 aliases:

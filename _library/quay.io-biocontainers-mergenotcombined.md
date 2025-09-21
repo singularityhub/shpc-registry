@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mergenotcombined"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mergenotcombined/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mergenotcombined/container.yaml"
-updated_at: "2025-09-20 03:39:02.705217"
+updated_at: "2025-09-21 03:54:15.228680"
 latest: "1.0--h503566f_4"
 container_url: "https://biocontainers.pro/tools/mergenotcombined"
 aliases:

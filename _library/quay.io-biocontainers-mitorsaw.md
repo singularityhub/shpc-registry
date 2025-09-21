@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mitorsaw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitorsaw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitorsaw/container.yaml"
-updated_at: "2025-09-20 03:10:58.954420"
-latest: "0.2.3--h9ee0642_0"
+updated_at: "2025-09-21 03:24:47.431138"
+latest: "0.2.4--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/mitorsaw"
 aliases:
  - "mitorsaw"
@@ -14,8 +14,9 @@ versions:
  - "0.2.0--h9ee0642_0"
  - "0.2.1--h9ee0642_0"
  - "0.2.3--h9ee0642_0"
+ - "0.2.4--h9ee0642_0"
 description: "singularity registry hpc automated addition for mitorsaw"
-config: {"url": "https://biocontainers.pro/tools/mitorsaw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mitorsaw", "latest": {"0.2.3--h9ee0642_0": "sha256:c21738abcaed9da03384a6d5d65b559658a82d6a54e8483b36f4295ccd8614d1"}, "tags": {"0.1.1--h9ee0642_0": "sha256:3bcb9800424bba8aedc1c5ba137dcb127758faa3463f24307aab00d733d8a090", "0.2.0--h9ee0642_0": "sha256:dbe020c9db456a6af7353565d03f6ea0a17772a2f356ca55d59eb252e6ab5378", "0.2.1--h9ee0642_0": "sha256:66338033cb34ff1e6e91d549d46758edac36c927fd3ba4097cbcbbfc07283f2e", "0.2.3--h9ee0642_0": "sha256:c21738abcaed9da03384a6d5d65b559658a82d6a54e8483b36f4295ccd8614d1"}, "docker": "quay.io/biocontainers/mitorsaw", "aliases": {"mitorsaw": "/usr/local/bin/mitorsaw"}}
+config: {"url": "https://biocontainers.pro/tools/mitorsaw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mitorsaw", "latest": {"0.2.4--h9ee0642_0": "sha256:a0ac8790c48497e7b51ee6a527f65620c25f29db9c768b94e6c19f17c8f55c56"}, "tags": {"0.1.1--h9ee0642_0": "sha256:3bcb9800424bba8aedc1c5ba137dcb127758faa3463f24307aab00d733d8a090", "0.2.0--h9ee0642_0": "sha256:dbe020c9db456a6af7353565d03f6ea0a17772a2f356ca55d59eb252e6ab5378", "0.2.1--h9ee0642_0": "sha256:66338033cb34ff1e6e91d549d46758edac36c927fd3ba4097cbcbbfc07283f2e", "0.2.3--h9ee0642_0": "sha256:c21738abcaed9da03384a6d5d65b559658a82d6a54e8483b36f4295ccd8614d1", "0.2.4--h9ee0642_0": "sha256:a0ac8790c48497e7b51ee6a527f65620c25f29db9c768b94e6c19f17c8f55c56"}, "docker": "quay.io/biocontainers/mitorsaw", "aliases": {"mitorsaw": "/usr/local/bin/mitorsaw"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mitorsaw.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mitorsaw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mitorsaw:0.2.3--h9ee0642_0
+$ shpc install quay.io/biocontainers/mitorsaw:0.2.4--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mitorsaw/0.2.3--h9ee0642_0
-$ module help quay.io/biocontainers/mitorsaw/0.2.3--h9ee0642_0
+$ module load quay.io/biocontainers/mitorsaw/0.2.4--h9ee0642_0
+$ module help quay.io/biocontainers/mitorsaw/0.2.4--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

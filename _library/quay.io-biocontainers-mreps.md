@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mreps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mreps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mreps/container.yaml"
-updated_at: "2025-09-20 03:44:22.099557"
-latest: "2.6.01--h7b50bb2_5"
+updated_at: "2025-09-21 03:59:50.831368"
+latest: "2.6.01--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/mreps"
 aliases:
  - "mreps"
@@ -13,8 +13,9 @@ versions:
  - "2.6.01--hec16e2b_2"
  - "2.6.01--h031d066_4"
  - "2.6.01--h7b50bb2_5"
+ - "2.6.01--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for mreps"
-config: {"url": "https://biocontainers.pro/tools/mreps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mreps", "latest": {"2.6.01--h7b50bb2_5": "sha256:b542fed82de2b564e2998ce64a370d44a6828e5de377eba4a9a12a72aea512ac"}, "tags": {"2.6.01--hec16e2b_2": "sha256:345b5ddf18348e042b24a8b553d7755deceb7118fd672af40af68f5affddf04a", "2.6.01--h031d066_4": "sha256:90cab4d1b63ce826b650a60a6bf882cf422f4ddd086be24634d9ec4101ddcbff", "2.6.01--h7b50bb2_5": "sha256:b542fed82de2b564e2998ce64a370d44a6828e5de377eba4a9a12a72aea512ac"}, "docker": "quay.io/biocontainers/mreps", "aliases": {"mreps": "/usr/local/bin/mreps"}}
+config: {"url": "https://biocontainers.pro/tools/mreps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mreps", "latest": {"2.6.01--h7b50bb2_6": "sha256:e4def78224925965880c53e6bc65e3ae3041c101e0834aa02d7431df1831e254"}, "tags": {"2.6.01--hec16e2b_2": "sha256:345b5ddf18348e042b24a8b553d7755deceb7118fd672af40af68f5affddf04a", "2.6.01--h031d066_4": "sha256:90cab4d1b63ce826b650a60a6bf882cf422f4ddd086be24634d9ec4101ddcbff", "2.6.01--h7b50bb2_5": "sha256:b542fed82de2b564e2998ce64a370d44a6828e5de377eba4a9a12a72aea512ac", "2.6.01--h7b50bb2_6": "sha256:e4def78224925965880c53e6bc65e3ae3041c101e0834aa02d7431df1831e254"}, "docker": "quay.io/biocontainers/mreps", "aliases": {"mreps": "/usr/local/bin/mreps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mreps.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/mreps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mreps:2.6.01--h7b50bb2_5
+$ shpc install quay.io/biocontainers/mreps:2.6.01--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mreps/2.6.01--h7b50bb2_5
-$ module help quay.io/biocontainers/mreps/2.6.01--h7b50bb2_5
+$ module load quay.io/biocontainers/mreps/2.6.01--h7b50bb2_6
+$ module help quay.io/biocontainers/mreps/2.6.01--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmdb2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmdb2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmdb2/container.yaml"
-updated_at: "2025-09-20 03:08:08.128269"
+updated_at: "2025-09-21 03:21:46.669483"
 latest: "2.0.22--h5ca1c30_2"
 container_url: "https://biocontainers.pro/tools/mmdb2"
 aliases:
