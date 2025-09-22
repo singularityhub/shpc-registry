@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/yass
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for yass
 latest:
-  1.14--h031d066_6: 
-    sha256:55b40ddb3167479c03f00a75c03142a6ec294bcfe4113374bf54b568a0c93942
+  1.16--h7b50bb2_0: 
+    sha256:bbc4e3410139686556203a0554391505ae9dd532ff5b0408a1c53617d2dd0de6
 tags:
   1.14--hec16e2b_4: 
     sha256:113978fad44a05bd09585d62a1fc6df4e33b7c5f3bd01c305039d8641abe1fd4
   1.14--h031d066_6: 
     sha256:55b40ddb3167479c03f00a75c03142a6ec294bcfe4113374bf54b568a0c93942
+  1.16--h7b50bb2_0: 
+    sha256:bbc4e3410139686556203a0554391505ae9dd532ff5b0408a1c53617d2dd0de6
 docker: quay.io/biocontainers/yass
 aliases:
   yass: /usr/local/bin/yass

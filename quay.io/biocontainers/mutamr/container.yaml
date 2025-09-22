@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mutamr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mutamr
 latest:
-  0.0.1--pyhdfd78af_0: 
-    sha256:fb1690c8b2b612641d85f85a1eb9b3f56d0093aef7e4905c78ca9fad1ada6e55
+  0.0.2--pyhdfd78af_0: 
+    sha256:604d0941b6773ab0d5ff9594efac2bad3a8e8ab9c8de709ee8565e9a256713f4
 tags:
   0.0.1--pyhdfd78af_0: 
     sha256:fb1690c8b2b612641d85f85a1eb9b3f56d0093aef7e4905c78ca9fad1ada6e55
+  0.0.2--pyhdfd78af_0: 
+    sha256:604d0941b6773ab0d5ff9594efac2bad3a8e8ab9c8de709ee8565e9a256713f4
 docker: quay.io/biocontainers/mutamr
 aliases:
   delly: /usr/local/bin/delly

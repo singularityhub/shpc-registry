@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-test-class-moose
 latest:
-  0.99--pl5321hdfd78af_0: 
-    sha256:bf775fecf24f7f95babd69f212d650467b1da0c412262e2e79f861480a6139c5
+  1.00--pl5321hdfd78af_0: 
+    sha256:324ada72b9a6d9247637c97357bc8e2a920964f96d783df68259341a1d24b4bc
 tags:
   0.99--pl5321hdfd78af_0: 
     sha256:bf775fecf24f7f95babd69f212d650467b1da0c412262e2e79f861480a6139c5
+  1.00--pl5321hdfd78af_0: 
+    sha256:324ada72b9a6d9247637c97357bc8e2a920964f96d783df68259341a1d24b4bc
 docker: quay.io/biocontainers/perl-test-class-moose
 aliases:
   pm_which: /usr/local/bin/pm_which

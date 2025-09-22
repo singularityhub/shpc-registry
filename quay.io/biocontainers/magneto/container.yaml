@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/magneto
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for magneto
 latest:
-  1.3--pyhdfd78af_1: 
-    sha256:0da8e02077afde76b410cc209f4f5bcf4848a17c920435868b3243b9a3f95dee
+  1.4--pyhdfd78af_0: 
+    sha256:009fa2a64943b735e33264933d6b58fa9dc5e20ac2a130a0c346789faf3deece
 tags:
   1.3--pyhdfd78af_0: 
     sha256:8855a35cf491223ccb3fcf8fbc45f0f3b5e816c6c0fc0a7fda64e98002e31fdc
   1.3--pyhdfd78af_1: 
     sha256:0da8e02077afde76b410cc209f4f5bcf4848a17c920435868b3243b9a3f95dee
+  1.4--pyhdfd78af_0: 
+    sha256:009fa2a64943b735e33264933d6b58fa9dc5e20ac2a130a0c346789faf3deece
 docker: quay.io/biocontainers/magneto
 aliases:
   distro: /usr/local/bin/distro

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-file-copy-recursive-reduced
 latest:
-  0.006--pl5321hdfd78af_1: 
-    sha256:43748c5c315167a7064bc5668aa571707e0641745d12512e7c9f0ea58a537d4f
+  0.008--pl5321hdfd78af_0: 
+    sha256:d9f0f3abc64b783c415d78a4773a6b683f19c34f1dbcf196f65f602be4450c92
 tags:
   0.006--pl5321hdfd78af_1: 
     sha256:43748c5c315167a7064bc5668aa571707e0641745d12512e7c9f0ea58a537d4f
+  0.008--pl5321hdfd78af_0: 
+    sha256:d9f0f3abc64b783c415d78a4773a6b683f19c34f1dbcf196f65f602be4450c92
 docker: quay.io/biocontainers/perl-file-copy-recursive-reduced
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

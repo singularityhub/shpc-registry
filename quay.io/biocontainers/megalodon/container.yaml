@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/megalodon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for megalodon
 latest:
-  2.5.0--py311hdad781d_2: 
-    sha256:e8ce81f620d09f59ed82647b072f8b285df00068507d27c9b29e26f941695264
+  2.5.0--py311haab0aaa_4: 
+    sha256:a99087d7b1efd8cd3b495eccf08f14386c76c3b0c44e0dc346c0d42910e406ab
 tags:
   2.3.1--py37h73a75cf_0: 
     sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e
@@ -17,6 +17,8 @@ tags:
     sha256:be4c41242133db9226b9fffef452cca1d9bd0e55dc32dd2d871fd2a13a3d3481
   2.5.0--py311hdad781d_2: 
     sha256:e8ce81f620d09f59ed82647b072f8b285df00068507d27c9b29e26f941695264
+  2.5.0--py311haab0aaa_4: 
+    sha256:a99087d7b1efd8cd3b495eccf08f14386c76c3b0c44e0dc346c0d42910e406ab
 docker: quay.io/biocontainers/megalodon
 aliases:
   check_compression: /usr/local/bin/check_compression
