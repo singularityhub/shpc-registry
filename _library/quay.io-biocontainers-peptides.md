@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peptides"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peptides/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peptides/container.yaml"
-updated_at: "2025-09-21 03:44:01.698378"
-latest: "0.4.0--pyh7e72e81_0"
+updated_at: "2025-09-22 03:43:11.846449"
+latest: "0.5.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/peptides"
 aliases:
  - "2to3-3.10"
@@ -18,8 +18,9 @@ versions:
  - "0.3.1--pyh5e36f6f_0"
  - "0.3.4--pyh7e72e81_0"
  - "0.4.0--pyh7e72e81_0"
+ - "0.5.0--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for peptides"
-config: {"url": "https://biocontainers.pro/tools/peptides", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peptides", "latest": {"0.4.0--pyh7e72e81_0": "sha256:7aae67a28fa68b6d9e03d52bb361c2add735d2af6d96dc1d5cdda0214625bde7"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:ddfe416a0e9e22b7ec4323cecabdf21fdaa289295fd3d27f49a4cfc820611d80", "0.3.4--pyh7e72e81_0": "sha256:9ce4c268faca26ec27f2547d6c1fd8c86d03fdca448fa9f215be695e3ca14da8", "0.4.0--pyh7e72e81_0": "sha256:7aae67a28fa68b6d9e03d52bb361c2add735d2af6d96dc1d5cdda0214625bde7"}, "docker": "quay.io/biocontainers/peptides", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/peptides", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peptides", "latest": {"0.5.0--pyh7e72e81_0": "sha256:7588444b9e5f1e2aab12576490e04acb1aa3c3b1ce1048accf6dc1a80a3fb398"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:ddfe416a0e9e22b7ec4323cecabdf21fdaa289295fd3d27f49a4cfc820611d80", "0.3.4--pyh7e72e81_0": "sha256:9ce4c268faca26ec27f2547d6c1fd8c86d03fdca448fa9f215be695e3ca14da8", "0.4.0--pyh7e72e81_0": "sha256:7aae67a28fa68b6d9e03d52bb361c2add735d2af6d96dc1d5cdda0214625bde7", "0.5.0--pyh7e72e81_0": "sha256:7588444b9e5f1e2aab12576490e04acb1aa3c3b1ce1048accf6dc1a80a3fb398"}, "docker": "quay.io/biocontainers/peptides", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peptides.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/peptides
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peptides:0.4.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/peptides:0.5.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peptides/0.4.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/peptides/0.4.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/peptides/0.5.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/peptides/0.5.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/compleasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/compleasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/compleasm/container.yaml"
-updated_at: "2025-09-21 03:39:20.171664"
-latest: "0.2.7--pyh7e72e81_0"
+updated_at: "2025-09-22 03:38:44.705919"
+latest: "0.2.7--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/compleasm"
 aliases:
  - "compleasm"
@@ -48,8 +48,9 @@ versions:
  - "0.2.5--pyh7cba7a3_0"
  - "0.2.6--pyh7cba7a3_0"
  - "0.2.7--pyh7e72e81_0"
+ - "0.2.7--pyh7e72e81_1"
 description: "singularity registry hpc automated addition for compleasm"
-config: {"url": "https://biocontainers.pro/tools/compleasm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for compleasm", "latest": {"0.2.7--pyh7e72e81_0": "sha256:42036049d53d79896db930862ce69adb3b0fb1af62f52a6fe37e0912dc51a914"}, "tags": {"0.2.2--pyh7cba7a3_0": "sha256:f4e232d2e1861d9d3be59d61bc555b59f3308e57ae5054ee99287986152dad25", "0.2.4--pyh7cba7a3_0": "sha256:ef137f63f63da4e3a7681ac25ce15179f233c25fe350090b19eeacc1ac79bfc4", "0.2.5--pyh7cba7a3_0": "sha256:572f369bc3ec91b2a14d28efa6ca9f72fa978591598cae92a232de0035233a7e", "0.2.6--pyh7cba7a3_0": "sha256:9c1aa77517468dcd5a3bfca9a22c653ca76993305cdb04e3e09db5829fc7fb6b", "0.2.7--pyh7e72e81_0": "sha256:42036049d53d79896db930862ce69adb3b0fb1af62f52a6fe37e0912dc51a914"}, "docker": "quay.io/biocontainers/compleasm", "aliases": {"compleasm": "/usr/local/bin/compleasm", "hb-info": "/usr/local/bin/hb-info", "jwebserver": "/usr/local/bin/jwebserver", "miniprot": "/usr/local/bin/miniprot", "run-sepp.sh": "/usr/local/bin/run-sepp.sh", "run_sepp.py": "/usr/local/bin/run_sepp.py", "run_upp.py": "/usr/local/bin/run_upp.py", "seppJsonMerger.jar": "/usr/local/bin/seppJsonMerger.jar", "split_sequences.py": "/usr/local/bin/split_sequences.py", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "tjbench": "/usr/local/bin/tjbench", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "alimask": "/usr/local/bin/alimask", "hmmconvert": "/usr/local/bin/hmmconvert", "hmmemit": "/usr/local/bin/hmmemit", "hmmfetch": "/usr/local/bin/hmmfetch", "hmmlogo": "/usr/local/bin/hmmlogo", "hmmpgmd": "/usr/local/bin/hmmpgmd", "hmmpress": "/usr/local/bin/hmmpress", "hmmscan": "/usr/local/bin/hmmscan", "hmmsearch": "/usr/local/bin/hmmsearch", "hmmsim": "/usr/local/bin/hmmsim", "hmmstat": "/usr/local/bin/hmmstat", "jackhmmer": "/usr/local/bin/jackhmmer", "makehmmerdb": "/usr/local/bin/makehmmerdb"}}
+config: {"url": "https://biocontainers.pro/tools/compleasm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for compleasm", "latest": {"0.2.7--pyh7e72e81_1": "sha256:2ac25715dc2c3877a17ee203ecd94706262996be4302bf1290d467b8eeb3d792"}, "tags": {"0.2.2--pyh7cba7a3_0": "sha256:f4e232d2e1861d9d3be59d61bc555b59f3308e57ae5054ee99287986152dad25", "0.2.4--pyh7cba7a3_0": "sha256:ef137f63f63da4e3a7681ac25ce15179f233c25fe350090b19eeacc1ac79bfc4", "0.2.5--pyh7cba7a3_0": "sha256:572f369bc3ec91b2a14d28efa6ca9f72fa978591598cae92a232de0035233a7e", "0.2.6--pyh7cba7a3_0": "sha256:9c1aa77517468dcd5a3bfca9a22c653ca76993305cdb04e3e09db5829fc7fb6b", "0.2.7--pyh7e72e81_0": "sha256:42036049d53d79896db930862ce69adb3b0fb1af62f52a6fe37e0912dc51a914", "0.2.7--pyh7e72e81_1": "sha256:2ac25715dc2c3877a17ee203ecd94706262996be4302bf1290d467b8eeb3d792"}, "docker": "quay.io/biocontainers/compleasm", "aliases": {"compleasm": "/usr/local/bin/compleasm", "hb-info": "/usr/local/bin/hb-info", "jwebserver": "/usr/local/bin/jwebserver", "miniprot": "/usr/local/bin/miniprot", "run-sepp.sh": "/usr/local/bin/run-sepp.sh", "run_sepp.py": "/usr/local/bin/run_sepp.py", "run_upp.py": "/usr/local/bin/run_upp.py", "seppJsonMerger.jar": "/usr/local/bin/seppJsonMerger.jar", "split_sequences.py": "/usr/local/bin/split_sequences.py", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "tjbench": "/usr/local/bin/tjbench", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "alimask": "/usr/local/bin/alimask", "hmmconvert": "/usr/local/bin/hmmconvert", "hmmemit": "/usr/local/bin/hmmemit", "hmmfetch": "/usr/local/bin/hmmfetch", "hmmlogo": "/usr/local/bin/hmmlogo", "hmmpgmd": "/usr/local/bin/hmmpgmd", "hmmpress": "/usr/local/bin/hmmpress", "hmmscan": "/usr/local/bin/hmmscan", "hmmsearch": "/usr/local/bin/hmmsearch", "hmmsim": "/usr/local/bin/hmmsim", "hmmstat": "/usr/local/bin/hmmstat", "jackhmmer": "/usr/local/bin/jackhmmer", "makehmmerdb": "/usr/local/bin/makehmmerdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/compleasm.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/compleasm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/compleasm:0.2.7--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/compleasm:0.2.7--pyh7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/compleasm/0.2.7--pyh7e72e81_0
-$ module help quay.io/biocontainers/compleasm/0.2.7--pyh7e72e81_0
+$ module load quay.io/biocontainers/compleasm/0.2.7--pyh7e72e81_1
+$ module help quay.io/biocontainers/compleasm/0.2.7--pyh7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mgsz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mgsz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mgsz/container.yaml"
-updated_at: "2025-09-21 03:43:22.322440"
+updated_at: "2025-09-22 03:42:34.430448"
 latest: "1.0--r43h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-mgsz"
 aliases:
