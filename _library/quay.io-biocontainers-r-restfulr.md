@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-restfulr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-restfulr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-restfulr/container.yaml"
-updated_at: "2025-09-22 03:54:52.983106"
+updated_at: "2025-09-23 03:47:14.721054"
 latest: "0.0.16--r44h5ef9028_0"
 container_url: "https://biocontainers.pro/tools/r-restfulr"
 

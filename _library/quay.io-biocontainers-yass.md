@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/yass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yass/container.yaml"
-updated_at: "2025-09-22 03:15:35.351280"
-latest: "1.14--h031d066_6"
+updated_at: "2025-09-23 03:06:08.305347"
+latest: "1.16--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/yass"
 aliases:
  - "yass"
 versions:
  - "1.14--hec16e2b_4"
  - "1.14--h031d066_6"
+ - "1.16--h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for yass"
-config: {"url": "https://biocontainers.pro/tools/yass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yass", "latest": {"1.14--h031d066_6": "sha256:55b40ddb3167479c03f00a75c03142a6ec294bcfe4113374bf54b568a0c93942"}, "tags": {"1.14--hec16e2b_4": "sha256:113978fad44a05bd09585d62a1fc6df4e33b7c5f3bd01c305039d8641abe1fd4", "1.14--h031d066_6": "sha256:55b40ddb3167479c03f00a75c03142a6ec294bcfe4113374bf54b568a0c93942"}, "docker": "quay.io/biocontainers/yass", "aliases": {"yass": "/usr/local/bin/yass"}}
+config: {"url": "https://biocontainers.pro/tools/yass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for yass", "latest": {"1.16--h7b50bb2_0": "sha256:bbc4e3410139686556203a0554391505ae9dd532ff5b0408a1c53617d2dd0de6"}, "tags": {"1.14--hec16e2b_4": "sha256:113978fad44a05bd09585d62a1fc6df4e33b7c5f3bd01c305039d8641abe1fd4", "1.14--h031d066_6": "sha256:55b40ddb3167479c03f00a75c03142a6ec294bcfe4113374bf54b568a0c93942", "1.16--h7b50bb2_0": "sha256:bbc4e3410139686556203a0554391505ae9dd532ff5b0408a1c53617d2dd0de6"}, "docker": "quay.io/biocontainers/yass", "aliases": {"yass": "/usr/local/bin/yass"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yass.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/yass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yass:1.14--h031d066_6
+$ shpc install quay.io/biocontainers/yass:1.16--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yass/1.14--h031d066_6
-$ module help quay.io/biocontainers/yass/1.14--h031d066_6
+$ module load quay.io/biocontainers/yass/1.16--h7b50bb2_0
+$ module help quay.io/biocontainers/yass/1.16--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

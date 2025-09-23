@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtfsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtfsort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtfsort/container.yaml"
-updated_at: "2025-09-22 03:20:59.316009"
+updated_at: "2025-09-23 03:11:26.219210"
 latest: "0.2.2--ha6fb395_2"
 container_url: "https://biocontainers.pro/tools/gtfsort"
 aliases:
