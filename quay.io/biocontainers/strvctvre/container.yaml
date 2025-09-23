@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/strvctvre
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for strvctvre
+latest:
+  1.10--pyh7e72e81_0: 
+    sha256:1bed1537e076c5099752e1e5cb1996bdb808ee18f23f815a1ee6d9e285dc4ff4
+tags:
+  1.10--pyh7e72e81_0: 
+    sha256:1bed1537e076c5099752e1e5cb1996bdb808ee18f23f815a1ee6d9e285dc4ff4
+docker: quay.io/biocontainers/strvctvre
+aliases:
+  StrVCTVRE.py: /usr/local/bin/StrVCTVRE.py
+  StrVCTVRE.py.bak: /usr/local/bin/StrVCTVRE.py.bak
+  annotationFinalForStrVCTVRE.py: /usr/local/bin/annotationFinalForStrVCTVRE.py
+  annotationFinalForStrVCTVRE.py.bak: 
+    /usr/local/bin/annotationFinalForStrVCTVRE.py.bak
+  liftover_hg19_to_hg38_public.py: 
+    /usr/local/bin/liftover_hg19_to_hg38_public.py
+  liftover_hg19_to_hg38_public.py.bak: 
+    /usr/local/bin/liftover_hg19_to_hg38_public.py.bak
+  test_StrVCTVRE.py: /usr/local/bin/test_StrVCTVRE.py
+  test_StrVCTVRE.py.bak: /usr/local/bin/test_StrVCTVRE.py.bak
+  test_StrVCTVRE_GRCh37.py: /usr/local/bin/test_StrVCTVRE_GRCh37.py
+  test_StrVCTVRE_GRCh37.py.bak: /usr/local/bin/test_StrVCTVRE_GRCh37.py.bak
+  ref-cache: /usr/local/bin/ref-cache
+  cyvcf2: /usr/local/bin/cyvcf2
+  coloredlogs: /usr/local/bin/coloredlogs
+  annot-tsv: /usr/local/bin/annot-tsv
+  humanfriendly: /usr/local/bin/humanfriendly
+  numpy-config: /usr/local/bin/numpy-config
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy
