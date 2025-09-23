@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ont-modkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ont-modkit
 latest:
-  0.5.0--hcdda2d0_1: 
-    sha256:da1087d882968e715577bebd58ea46a3cb6cf7a51470902d5260a0074757eecf
+  0.5.0--hcdda2d0_2: 
+    sha256:40eb7c3ff0bef3d83ebf0b86bf2fb02ae4fb1975d363d1ae0c7d92a17954fc4b
 tags:
   0.2.0--hdcf5f25_0: 
     sha256:07de6449e8476fb37b1ff4ba431386fe33313c54a88d8840402c87887affd90e
@@ -43,6 +43,8 @@ tags:
     sha256:decdc2bf07066b4f46cdb6dcc11431cd02c86b88c658fa43b5282d3fad6abb3d
   0.5.0--hcdda2d0_1: 
     sha256:da1087d882968e715577bebd58ea46a3cb6cf7a51470902d5260a0074757eecf
+  0.5.0--hcdda2d0_2: 
+    sha256:40eb7c3ff0bef3d83ebf0b86bf2fb02ae4fb1975d363d1ae0c7d92a17954fc4b
 docker: quay.io/biocontainers/ont-modkit
 aliases:
   modkit: /usr/local/bin/modkit

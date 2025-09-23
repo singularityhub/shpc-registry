@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ra
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ra
 latest:
-  0.9--hdbdd923_6: 
-    sha256:c3c0b88b0d6e614ac048d4231a54538264219f71f1878b14fe8c4e9e1f7fe72f
+  0.9--h503566f_8: 
+    sha256:a0d3559aec517105f1e60e9bf416343ffab76583dec7abd4d258c6b96e9b4066
 tags:
   0.9--h87f3376_4: 
     sha256:d4940148ca1c359931b32a6c7c27181cfa4023bcc9b7b600bef21012d54e4539
   0.9--hdbdd923_6: 
     sha256:c3c0b88b0d6e614ac048d4231a54538264219f71f1878b14fe8c4e9e1f7fe72f
+  0.9--h503566f_8: 
+    sha256:a0d3559aec517105f1e60e9bf416343ffab76583dec7abd4d258c6b96e9b4066
 docker: quay.io/biocontainers/ra

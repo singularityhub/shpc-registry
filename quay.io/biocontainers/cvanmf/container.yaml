@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cvanmf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cvanmf
 latest:
-  0.5.1--pyhdfd78af_0: 
-    sha256:bcbc75e94f0886ea012bde6e7c96dba420a7798980783b3b53e8836dd7e2847c
+  1.0.0--pyhdfd78af_0: 
+    sha256:1c41ee6da2146a122018143ed1d24a3bcd5c0834ec4eaf3bd9d45af58aa50001
 tags:
   0.5.1--pyhdfd78af_0: 
     sha256:bcbc75e94f0886ea012bde6e7c96dba420a7798980783b3b53e8836dd7e2847c
+  1.0.0--pyhdfd78af_0: 
+    sha256:1c41ee6da2146a122018143ed1d24a3bcd5c0834ec4eaf3bd9d45af58aa50001
 docker: quay.io/biocontainers/cvanmf
 aliases:
   decompose: /usr/local/bin/decompose
