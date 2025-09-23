@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cyntenator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyntenator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyntenator/container.yaml"
-updated_at: "2025-09-23 03:26:43.775505"
+updated_at: "2025-09-23 04:54:19.937056"
 latest: "0.0.r2326--h9948957_4"
 container_url: "https://biocontainers.pro/tools/cyntenator"
 aliases:

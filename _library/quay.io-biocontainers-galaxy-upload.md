@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-upload"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-upload/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-upload/container.yaml"
-updated_at: "2025-09-23 03:02:30.311372"
+updated_at: "2025-09-23 04:31:24.019963"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-upload"
 aliases:

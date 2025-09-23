@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-fastx-reader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-fastx-reader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-fastx-reader/container.yaml"
-updated_at: "2025-09-23 03:47:28.167708"
+updated_at: "2025-09-23 05:13:53.680183"
 latest: "1.12.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-fastx-reader"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/squizz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squizz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squizz/container.yaml"
-updated_at: "2025-09-23 03:14:48.592057"
+updated_at: "2025-09-23 04:43:06.271870"
 latest: "0.99d--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/squizz"
 aliases:
