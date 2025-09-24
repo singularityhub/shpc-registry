@@ -6,66 +6,82 @@ description: Redis is an open-source, networked, in-memory, key-value data store
 filter:
 - ^(?!.*32bit).*$
 latest:
-  8-alpine3.22: 
-    sha256:987c376c727652f99625c7d205a1cba3cb2c53b92b0b62aade2bd48ee1593232
+  8-alpine3.22: 'crane digest redis:8-alpine3.22: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
 tags:
-  6.2.3-alpine: 
-    sha256:f8f0e809a4281714c33edf86f6da6cc2d4058c8549e44d8c83303c28b3123072
-  6.2.4-alpine: 
-    sha256:0039796b887fd30e460353f14e46ba1004152aa97f5f59094cc21eac445fc89b
-  6.2.5: sha256:c98f0230b5f1831f4f5dd764c4ea8ef11d3e3a1a3593278eb952373d97c82b27
-  6.2.6: sha256:b7fd1a2c89d09a836f659d72c52d27b9f71202c97014a47639f87c992e8c0f1b
-  7.0-rc: 
-    sha256:359475c7f0c0a8a28444ca36799b087bb98c8f9db0ee9fa5c13017b4d1693fb5
-  latest: 
-    sha256:cc2dfb8f5151da2684b4a09bd04b567f92d07591d91980eb3eca21df07e12760
-  '6': sha256:f03dda4477b065b161ac3338645710405c5c9fbecb1c983af495b1b1d444bcd1
-  6-alpine3.15: 
-    sha256:4091b9da835824257744fba095932e470078eb2c0025899ac1c6944b2d638c7e
-  '6.2': sha256:f03dda4477b065b161ac3338645710405c5c9fbecb1c983af495b1b1d444bcd1
-  '7': sha256:4421962706d7a901cbd435282515704040203d67c653160e3a46a27b79c40e19
-  7-alpine3.15: 
-    sha256:541e6d75df5dfb08e8859929bab06da265673808a6f2285abe6b7c76c1c98c6e
-  '7.0': sha256:352c1fdadc91926edda08f45aeb3f27f37194c2f14101229c0523a11195c96e3
-  7-alpine3.16: 
-    sha256:2700d5097763fda285c463f4eefc3d0730a2df2a9d48e66707b19d5a5e5f23d4
-  6-alpine3.16: 
-    sha256:aeaf1a7251c9cdaead1bef13d68aac16b0e22326ecfefdb6079008ffab81065d
-  7-alpine3.17: 
-    sha256:cbcf5bfbc3eaa232b1fa99e539459f46915a41334d46b54bf894f8837a7f071e
-  6-alpine3.17: 
-    sha256:0bb58d0fec5900dd82002b53b9d2dc0dfbd1831e7d2570cb4e66ff1a9464b134
-  7.2-rc: 
-    sha256:7263f36e388ca406f67ec5614a3d0099d7634804e5e26536fdde85ca7d8efa94
-  7-alpine3.18: 
-    sha256:3ce533b2b057f74b235d1d8697ae08b1b6ff0a5e16827ea6a377b6365693c7ed
-  '7.2': sha256:ad6e6118cdb8dc3b42eda6691073d9135cfefd74a6787109b1a926e90269ddbe
-  7-alpine3.19: 
-    sha256:8f157725f8eee31e65a8d4765f1f986d76aedc1a0503345dfb63a2b1b5a441ee
-  7-alpine3.20: 
-    sha256:c1e88455c85225310bbea54816e9c3f4b5295815e6dbf80c34d40afc6df28275
-  7.4-rc: 
-    sha256:4d08a8fc92f2ae6508cc4a622a95a75c0549f43da7c13542e8deb031e1c0b629
-  '7.4': sha256:4421962706d7a901cbd435282515704040203d67c653160e3a46a27b79c40e19
-  8.0-M01: 
-    sha256:418c6ae4c128641049a692135a683d3eca6746deb96b56b45e34993782b1596f
-  8.0-M02: 
-    sha256:671dbd33aafb8bc88656dc182921261ad592b2f907cc32b0f1bad57b2fd6e0e5
-  8.0-M03: 
-    sha256:f35d7bf9f1fdbcb7a0296ab01a5e7e72643a0a5d40fc263a189627bd09afe7c9
-  7-alpine3.21: 
-    sha256:bb186d083732f669da90be8b0f975a37812b15e913465bb14d845db72a4e3e08
-  8.0-M04: 
-    sha256:9c6bb76658f8e6f7ca8d0d96c8fcdfb12e9795579c89918aea4fa2ad9817c2f0
-  '8': sha256:cc2dfb8f5151da2684b4a09bd04b567f92d07591d91980eb3eca21df07e12760
-  8-alpine3.21: 
-    sha256:25c0ae32c6c2301798579f5944af53729766a18eff5660bbef196fc2e6214a9c
-  '8.0': sha256:30abfcce7d0527dceb081dfa17cea0a6c2c315bf5a4ec7b2799118e852fdd553
-  8.2-m01: 
-    sha256:0022f77ef5fcee063d0e009d03a6696c47159d97c64ce1e8d176b485c66f7f57
-  8-alpine3.22: 
-    sha256:987c376c727652f99625c7d205a1cba3cb2c53b92b0b62aade2bd48ee1593232
-  '8.2': sha256:cc2dfb8f5151da2684b4a09bd04b567f92d07591d91980eb3eca21df07e12760
+  6.2.3-alpine: 'crane digest redis:6.2.3-alpine: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  6.2.4-alpine: 'crane digest redis:6.2.4-alpine: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  6.2.5: 'crane digest redis:6.2.5: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  6.2.6: 'crane digest redis:6.2.6: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  7.0-rc: 'crane digest redis:7.0-rc: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  latest: 'crane digest redis:latest: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  '6': 'crane digest redis:6: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  6-alpine3.15: 'crane digest redis:6-alpine3.15: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  '6.2': 'crane digest redis:6.2: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  '7': 'crane digest redis:7: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  7-alpine3.15: 'crane digest redis:7-alpine3.15: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  '7.0': 'crane digest redis:7.0: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  7-alpine3.16: 'crane digest redis:7-alpine3.16: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  6-alpine3.16: 'crane digest redis:6-alpine3.16: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  7-alpine3.17: 'crane digest redis:7-alpine3.17: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  6-alpine3.17: 'crane digest redis:6-alpine3.17: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  7.2-rc: 'crane digest redis:7.2-rc: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  7-alpine3.18: 'crane digest redis:7-alpine3.18: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  '7.2': 'crane digest redis:7.2: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  7-alpine3.19: 'crane digest redis:7-alpine3.19: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  7-alpine3.20: 'crane digest redis:7-alpine3.20: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  7.4-rc: 'crane digest redis:7.4-rc: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  '7.4': 'crane digest redis:7.4: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  8.0-M01: 'crane digest redis:8.0-M01: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  8.0-M02: 'crane digest redis:8.0-M02: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  8.0-M03: 'crane digest redis:8.0-M03: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  7-alpine3.21: 'crane digest redis:7-alpine3.21: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  8.0-M04: 'crane digest redis:8.0-M04: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  '8': 'crane digest redis:8: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  8-alpine3.21: 'crane digest redis:8-alpine3.21: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  '8.0': 'crane digest redis:8.0: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  8.2-m01: 'crane digest redis:8.2-m01: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  8-alpine3.22: 'crane digest redis:8-alpine3.22: UNAUTHORIZED: authentication required;
+    [map[Action:pull Class: Name:library/redis Type:repository]]'
+  '8.2': 'crane digest redis:8.2: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]'
+  'crane ls redis: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:library/redis Type:repository]]': 'crane
+    digest redis:crane ls redis: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:library/redis Type:repository]]: parsing reference "redis:crane ls
+    redis: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:library/redis
+    Type:repository]]": could not parse reference'
 aliases:
   redis-benchmark: /usr/local/bin/redis-benchmark
   redis-check-aof: /usr/local/bin/redis-check-aof

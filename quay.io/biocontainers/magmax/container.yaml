@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/magmax
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for magmax
 latest:
-  1.0.0--ha6fb395_0: 
-    sha256:c20f5a6e0285ca137290c5084c3804c63674772d4d67d159a88c2a31363b1486
+  1.1.0--ha6fb395_0: 
+    sha256:156eda80fc7120e04a82e78b61de98da367440c04999e2b6d0174bea671a4992
 tags:
   1.0.0--ha6fb395_0: 
     sha256:c20f5a6e0285ca137290c5084c3804c63674772d4d67d159a88c2a31363b1486
+  1.1.0--ha6fb395_0: 
+    sha256:156eda80fc7120e04a82e78b61de98da367440c04999e2b6d0174bea671a4992
 docker: quay.io/biocontainers/magmax
 aliases:
   binspreader: /usr/local/bin/binspreader

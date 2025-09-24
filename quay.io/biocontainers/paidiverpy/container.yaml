@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/paidiverpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for paidiverpy
 latest:
-  0.1.4--pyh7e72e81_0: 
-    sha256:6318e81d690e14ed2a4cd20527b50a48fcd79be790031b02598609999d61a29e
+  0.2.1--pyhdfd78af_0: 
+    sha256:1e0a94d4f48474651586fd972de021f4595b38341305529068f84048a6c4a01c
 tags:
   0.1.4--pyh7e72e81_0: 
     sha256:6318e81d690e14ed2a4cd20527b50a48fcd79be790031b02598609999d61a29e
+  0.2.1--pyhdfd78af_0: 
+    sha256:1e0a94d4f48474651586fd972de021f4595b38341305529068f84048a6c4a01c
 docker: quay.io/biocontainers/paidiverpy
 aliases:
   4channels: /usr/local/bin/4channels

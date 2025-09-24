@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/finaletoolkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for finaletoolkit
 latest:
-  0.10.7--pyhdfd78af_0: 
-    sha256:519320961775796f721cf631f3526fa6327cad0af9e8b77db970807837112b79
+  0.11.0--pyhdfd78af_0: 
+    sha256:bffd7bab210895b90eafb6aa9bf5f171415b0fb51c85a1b63c4e27f2e88bf77e
 tags:
   0.10.7--pyhdfd78af_0: 
     sha256:519320961775796f721cf631f3526fa6327cad0af9e8b77db970807837112b79
+  0.11.0--pyhdfd78af_0: 
+    sha256:bffd7bab210895b90eafb6aa9bf5f171415b0fb51c85a1b63c4e27f2e88bf77e
 docker: quay.io/biocontainers/finaletoolkit
 aliases:
   finaletoolkit: /usr/local/bin/finaletoolkit

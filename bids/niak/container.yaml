@@ -1,10 +1,10 @@
 docker: bids/niak
 latest:
-  latest: 
-    sha256:b1f6a71a6c440bf94ef6081d1b7a5c9576454ad9c98e629fbda357e702f75b3e
+  latest: 'crane digest bids/niak:latest: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:bids/niak Type:repository]]'
 tags:
-  latest: 
-    sha256:b1f6a71a6c440bf94ef6081d1b7a5c9576454ad9c98e629fbda357e702f75b3e
+  latest: 'crane digest bids/niak:latest: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:bids/niak Type:repository]]'
 filter:
 - latest
 maintainer: '@vsoch'

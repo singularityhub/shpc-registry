@@ -7,6 +7,8 @@ latest:
 tags:
   0.1beta--h985387c_1: 
     sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8
+  0.1--ha0d7e29_1: 
+    sha256:29f7a8ac8846cf9894b514958748358f859c58ad2f723f0b7db2799e8bfb03e9
 docker: quay.io/biocontainers/popscle
 aliases:
   popscle: /usr/local/bin/popscle

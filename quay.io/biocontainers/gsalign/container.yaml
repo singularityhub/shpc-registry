@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gsalign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gsalign
 latest:
-  1.0.22--hcb620b3_7: 
-    sha256:47a9d16d4b0abc6c8ed7eb129ef79757a2cb41bc8795be5a97de747a4a981c1f
+  1.0.22--hcb620b3_8: 
+    sha256:a6a329cebc0720a3862d5e79ba81d93ccb700c134038f8f0912534e8755c27e3
 tags:
   1.0.9--hdb83ec4_0: 
     sha256:4ee1b07cef62ce3715f3fa4805ec32de2daba325d09c002fe6874e27e91e1fbb
@@ -17,6 +17,8 @@ tags:
     sha256:b0c45b090cc1c0dadfe3464e6efc4c7068e3862018bef0034d0d08683803653c
   1.0.22--hcb620b3_7: 
     sha256:47a9d16d4b0abc6c8ed7eb129ef79757a2cb41bc8795be5a97de747a4a981c1f
+  1.0.22--hcb620b3_8: 
+    sha256:a6a329cebc0720a3862d5e79ba81d93ccb700c134038f8f0912534e8755c27e3
 docker: quay.io/biocontainers/gsalign
 aliases:
   GSAlign: /usr/local/bin/GSAlign
