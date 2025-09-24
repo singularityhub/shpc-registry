@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tin-score-calculation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tin-score-calculation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tin-score-calculation/container.yaml"
-updated_at: "2025-09-23 04:31:25.611800"
+updated_at: "2025-09-24 03:03:53.330147"
 latest: "0.6.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/tin-score-calculation"
 aliases:

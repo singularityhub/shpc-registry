@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyomero-upload"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyomero-upload/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyomero-upload/container.yaml"
-updated_at: "2025-09-23 04:39:23.234652"
+updated_at: "2025-09-24 03:12:00.494613"
 latest: "5.6.2_2.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/pyomero-upload"
 aliases:

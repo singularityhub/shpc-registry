@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sierra-local"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sierra-local/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sierra-local/container.yaml"
-updated_at: "2025-09-23 05:00:15.379583"
+updated_at: "2025-09-24 03:33:12.312298"
 latest: "0.4.3--py310hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sierra-local"
 aliases:

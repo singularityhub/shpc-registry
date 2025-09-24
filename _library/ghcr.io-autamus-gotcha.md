@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gotcha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gotcha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gotcha/container.yaml"
-updated_at: "2025-09-23 04:29:30.966254"
+updated_at: "2025-09-24 03:01:56.456473"
 latest: "1.0.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gotcha"
 

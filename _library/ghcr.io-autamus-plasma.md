@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/plasma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/plasma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/plasma/container.yaml"
-updated_at: "2025-09-23 04:29:06.604530"
+updated_at: "2025-09-24 03:01:31.621405"
 latest: "22.9.29"
 container_url: "https://github.com/orgs/autamus/packages/container/package/plasma"
 aliases:

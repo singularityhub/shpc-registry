@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-pdf-table"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pdf-table/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pdf-table/container.yaml"
-updated_at: "2025-09-23 04:55:14.358856"
-latest: "1.005--pl5321hdfd78af_0"
+updated_at: "2025-09-24 03:28:08.679892"
+latest: "1.007--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pdf-table"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "1.003--pl5321hdfd78af_0"
  - "1.004--pl5321hdfd78af_0"
  - "1.005--pl5321hdfd78af_0"
+ - "1.007--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-pdf-table"
-config: {"url": "https://biocontainers.pro/tools/perl-pdf-table", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pdf-table", "latest": {"1.005--pl5321hdfd78af_0": "sha256:2964a8b5f1a40ea21dca907fecff369e41031fe47df34299e0e8f0ac593a8833"}, "tags": {"1.003--pl5321hdfd78af_0": "sha256:3d375ceba785d65dbe09b802eb715b8e829573f2b38c9c396ba1362b131b3344", "1.004--pl5321hdfd78af_0": "sha256:70c31a7d263169e218464b613d46e7e4e9c10c5c00572ec2f950891ecdd7005f", "1.005--pl5321hdfd78af_0": "sha256:2964a8b5f1a40ea21dca907fecff369e41031fe47df34299e0e8f0ac593a8833"}, "docker": "quay.io/biocontainers/perl-pdf-table", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-pdf-table", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pdf-table", "latest": {"1.007--pl5321hdfd78af_0": "sha256:4ee0de4ec83b672226df26d0953231c006bba3c0402e776183169551fd40a031"}, "tags": {"1.003--pl5321hdfd78af_0": "sha256:3d375ceba785d65dbe09b802eb715b8e829573f2b38c9c396ba1362b131b3344", "1.004--pl5321hdfd78af_0": "sha256:70c31a7d263169e218464b613d46e7e4e9c10c5c00572ec2f950891ecdd7005f", "1.005--pl5321hdfd78af_0": "sha256:2964a8b5f1a40ea21dca907fecff369e41031fe47df34299e0e8f0ac593a8833", "1.007--pl5321hdfd78af_0": "sha256:4ee0de4ec83b672226df26d0953231c006bba3c0402e776183169551fd40a031"}, "docker": "quay.io/biocontainers/perl-pdf-table", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-pdf-table.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-pdf-table
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-pdf-table:1.005--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-pdf-table:1.007--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-pdf-table/1.005--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-pdf-table/1.005--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-pdf-table/1.007--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-pdf-table/1.007--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

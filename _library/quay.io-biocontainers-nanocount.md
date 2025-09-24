@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanocount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanocount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanocount/container.yaml"
-updated_at: "2025-09-23 05:00:10.434197"
+updated_at: "2025-09-24 03:33:07.394124"
 latest: "1.0.0.post6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanocount"
 aliases:

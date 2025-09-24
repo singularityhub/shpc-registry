@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/glpk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/glpk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/glpk/container.yaml"
-updated_at: "2025-09-23 04:28:53.896239"
+updated_at: "2025-09-24 03:01:18.630757"
 latest: "4.65"
 container_url: "https://github.com/orgs/autamus/packages/container/package/glpk"
 aliases:

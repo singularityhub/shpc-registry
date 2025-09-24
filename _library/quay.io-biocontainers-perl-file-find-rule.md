@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-find-rule"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-find-rule/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-find-rule/container.yaml"
-updated_at: "2025-09-23 04:32:31.539550"
+updated_at: "2025-09-24 03:05:00.139656"
 latest: "0.35--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-find-rule"
 aliases:

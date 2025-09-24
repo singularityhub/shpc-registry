@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/accumulo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/accumulo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/accumulo/container.yaml"
-updated_at: "2025-09-23 04:28:57.338063"
+updated_at: "2025-09-24 03:01:22.145325"
 latest: "2.0.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/accumulo"
 

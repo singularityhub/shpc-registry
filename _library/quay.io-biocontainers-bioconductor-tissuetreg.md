@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tissuetreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tissuetreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tissuetreg/container.yaml"
-updated_at: "2025-09-23 04:42:13.612546"
+updated_at: "2025-09-24 03:14:51.790013"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tissuetreg"
 aliases:

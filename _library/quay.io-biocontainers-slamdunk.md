@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slamdunk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slamdunk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slamdunk/container.yaml"
-updated_at: "2025-09-23 05:16:20.838695"
+updated_at: "2025-09-24 03:49:41.408669"
 latest: "0.4.3--py_0"
 container_url: "https://biocontainers.pro/tools/slamdunk"
 aliases:
