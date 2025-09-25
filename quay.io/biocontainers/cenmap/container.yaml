@@ -1,0 +1,67 @@
+url: https://biocontainers.pro/tools/cenmap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cenmap
+latest:
+  1.0.4--h577a1d6_1: 
+    sha256:5372e0ed0bda3f45e6df0f3736ffe5844acdf6d4d13698c5ae84f97c9df95be4
+tags:
+  1.0.4--h577a1d6_1: 
+    sha256:5372e0ed0bda3f45e6df0f3736ffe5844acdf6d4d13698c5ae84f97c9df95be4
+docker: quay.io/biocontainers/cenmap
+aliases:
+  bigRmskAlignBed.as: /usr/local/bin/bigRmskAlignBed.as
+  bigRmskBed.as: /usr/local/bin/bigRmskBed.as
+  blast_formatter_vdb: /usr/local/bin/blast_formatter_vdb
+  blast_vdb_cmd: /usr/local/bin/blast_vdb_cmd
+  cenmap: /usr/local/bin/cenmap
+  cenplot: /usr/local/bin/cenplot
+  censtats: /usr/local/bin/censtats
+  combineRMFiles.pl: /usr/local/bin/combineRMFiles.pl
+  find: /usr/local/bin/find
+  h2benchmark: /usr/local/bin/h2benchmark
+  locate: /usr/local/bin/locate
+  makeclusterdb: /usr/local/bin/makeclusterdb
+  modkit: /usr/local/bin/modkit
+  nucflag: /usr/local/bin/nucflag
+  pbmm2: /usr/local/bin/pbmm2
+  phc: /usr/local/bin/phc
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  rb: /usr/local/bin/rb
+  renumberRMFiles.pl: /usr/local/bin/renumberRMFiles.pl
+  rmToTrackHub.pl: /usr/local/bin/rmToTrackHub.pl
+  rustybam: /usr/local/bin/rustybam
+  srf: /usr/local/bin/srf
+  srf-n-trf: /usr/local/bin/srf-n-trf
+  srfutils.js: /usr/local/bin/srfutils.js
+  stringdecomposer: /usr/local/bin/stringdecomposer
+  trf-mod: /usr/local/bin/trf-mod
+  updatedb: /usr/local/bin/updatedb
+  xargs: /usr/local/bin/xargs
+  zless: /usr/local/bin/zless
+  maskFile.pl: /usr/local/bin/maskFile.pl
+  RM2Bed.py: /usr/local/bin/RM2Bed.py
+  buildRMLibFromEMBL.pl: /usr/local/bin/buildRMLibFromEMBL.pl
+  buildSummary.pl: /usr/local/bin/buildSummary.pl
+  wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  DupMasker: /usr/local/bin/DupMasker
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  calcDivergenceFromAlign.pl: /usr/local/bin/calcDivergenceFromAlign.pl
+  createRepeatLandscape.pl: /usr/local/bin/createRepeatLandscape.pl
+  dupliconToSVG.pl: /usr/local/bin/dupliconToSVG.pl
+  getRepeatMaskerBatch.pl: /usr/local/bin/getRepeatMaskerBatch.pl
+  rmOut2Fasta.pl: /usr/local/bin/rmOut2Fasta.pl
+  rmOutToGFF3.pl: /usr/local/bin/rmOutToGFF3.pl
+  rmToUCSCTables.pl: /usr/local/bin/rmToUCSCTables.pl
+  trfMask: /usr/local/bin/trfMask
+  bam2bed: /usr/local/bin/bam2bed
+  bam2bed_gnuParallel: /usr/local/bin/bam2bed_gnuParallel
+  bam2bed_sge: /usr/local/bin/bam2bed_sge
+  bam2bed_slurm: /usr/local/bin/bam2bed_slurm
+  bam2starch: /usr/local/bin/bam2starch
+  bam2starch_gnuParallel: /usr/local/bin/bam2starch_gnuParallel
+  bam2starch_sge: /usr/local/bin/bam2starch_sge
+  bam2starch_slurm: /usr/local/bin/bam2starch_slurm

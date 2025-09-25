@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/longtr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for longtr
+latest:
+  1.2--h077b44d_1: 
+    sha256:453779299ee1fbb7b00edd83e97abe1ee8b53c17e0289e8f0509c6a95522f13c
+tags:
+  1.2--h077b44d_1: 
+    sha256:453779299ee1fbb7b00edd83e97abe1ee8b53c17e0289e8f0509c6a95522f13c
+docker: quay.io/biocontainers/longtr
+aliases:
+  DenovoFinder: /usr/local/bin/DenovoFinder
+  LongTR: /usr/local/bin/LongTR
+  spoa: /usr/local/bin/spoa
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

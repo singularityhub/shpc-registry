@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/gather
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gather
+latest:
+  0.1.0--pyh7e72e81_0: 
+    sha256:942a1f99f0848d84d7520776686ab15f82d6f12fa97f51f622e1c1016c75a347
+tags:
+  0.1.0--pyh7e72e81_0: 
+    sha256:942a1f99f0848d84d7520776686ab15f82d6f12fa97f51f622e1c1016c75a347
+docker: quay.io/biocontainers/gather
+aliases:
+  10x-asm: /usr/local/bin/10x-asm
+  bcalm: /usr/local/bin/bcalm
+  postproc: /usr/local/bin/postproc
+  sc-asm: /usr/local/bin/sc-asm
+  markdown-it: /usr/local/bin/markdown-it
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  pygmentize: /usr/local/bin/pygmentize
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  h5cc: /usr/local/bin/h5cc
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
