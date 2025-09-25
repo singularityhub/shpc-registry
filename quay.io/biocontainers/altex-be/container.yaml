@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/altex-be
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for altex-be
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:77196629f605ec487db3bffd002aa168ac05b5f887369b9aa61ac447f885d6c7
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:77196629f605ec487db3bffd002aa168ac05b5f887369b9aa61ac447f885d6c7
+docker: quay.io/biocontainers/altex-be
+aliases:
+  altex-be: /usr/local/bin/altex-be
+  numpy-config: /usr/local/bin/numpy-config
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy
+  intersectBed: /usr/local/bin/intersectBed
+  linksBed: /usr/local/bin/linksBed
+  mapBed: /usr/local/bin/mapBed
+  maskFastaFromBed: /usr/local/bin/maskFastaFromBed
+  mergeBed: /usr/local/bin/mergeBed

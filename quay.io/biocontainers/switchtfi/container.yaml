@@ -1,0 +1,53 @@
+url: https://biocontainers.pro/tools/switchtfi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for switchtfi
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:439b7e3f54a51995491a79ebe3840bc256013fe5b990c32716163baabb193c38
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:439b7e3f54a51995491a79ebe3840bc256013fe5b990c32716163baabb193c38
+docker: quay.io/biocontainers/switchtfi
+aliases:
+  convertfilestopdf: /usr/local/bin/convertfilestopdf
+  convertfilestops: /usr/local/bin/convertfilestops
+  convertformat: /usr/local/bin/convertformat
+  convertsegfilestopdf: /usr/local/bin/convertsegfilestopdf
+  convertsegfilestops: /usr/local/bin/convertsegfilestops
+  converttopdf: /usr/local/bin/converttopdf
+  converttops: /usr/local/bin/converttops
+  fileinfo: /usr/local/bin/fileinfo
+  imagetops: /usr/local/bin/imagetops
+  jbig2dec: /usr/local/bin/jbig2dec
+  mupdf-gl: /usr/local/bin/mupdf-gl
+  muraster: /usr/local/bin/muraster
+  mutool: /usr/local/bin/mutool
+  pymupdf: /usr/local/bin/pymupdf
+  tesseract: /usr/local/bin/tesseract
+  xtractprotos: /usr/local/bin/xtractprotos
+  zarr: /usr/local/bin/zarr
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  bsdunzip: /usr/local/bin/bsdunzip
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  h5fuse: /usr/local/bin/h5fuse
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  igraph: /usr/local/bin/igraph
+  scanpy: /usr/local/bin/scanpy
+  xkbcli: /usr/local/bin/xkbcli
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
