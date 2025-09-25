@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rain/container.yaml"
-updated_at: "2025-09-24 03:34:06.115357"
+updated_at: "2025-09-25 03:39:51.896558"
 latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rain"
 

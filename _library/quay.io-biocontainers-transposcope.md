@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transposcope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transposcope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transposcope/container.yaml"
-updated_at: "2025-09-24 03:13:06.992165"
+updated_at: "2025-09-25 03:16:39.228497"
 latest: "2.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/transposcope"
 aliases:

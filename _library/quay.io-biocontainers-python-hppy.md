@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-hppy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-hppy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-hppy/container.yaml"
-updated_at: "2025-09-24 03:42:08.865044"
+updated_at: "2025-09-25 03:48:39.624323"
 latest: "0.9.9--py310h1fe012e_2"
 container_url: "https://biocontainers.pro/tools/python-hppy"
 aliases:

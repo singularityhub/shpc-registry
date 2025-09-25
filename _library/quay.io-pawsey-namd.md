@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/namd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/namd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/namd/container.yaml"
-updated_at: "2025-09-24 03:50:57.245745"
+updated_at: "2025-09-25 03:58:13.264483"
 latest: "3.0.1-rocm6.3.0"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:

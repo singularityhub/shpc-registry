@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metaboliteidmapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaboliteidmapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaboliteidmapping/container.yaml"
-updated_at: "2025-09-24 03:02:52.794442"
+updated_at: "2025-09-25 03:05:12.742521"
 latest: "1.0.0--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaboliteidmapping"
 

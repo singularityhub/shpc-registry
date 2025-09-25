@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/callerpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/callerpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/callerpp/container.yaml"
-updated_at: "2025-09-24 03:27:15.235525"
-latest: "0.1.6--h503566f_1"
+updated_at: "2025-09-25 03:32:26.544029"
+latest: "0.1.6--h503566f_2"
 container_url: "https://biocontainers.pro/tools/callerpp"
 aliases:
  - "callerpp"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.1.6--hdbdd923_0"
  - "0.1.6--h503566f_1"
+ - "0.1.6--h503566f_2"
 description: "singularity registry hpc automated addition for callerpp"
-config: {"url": "https://biocontainers.pro/tools/callerpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for callerpp", "latest": {"0.1.6--h503566f_1": "sha256:803a6e2852a440858fe9cfe057a0c9e8233d3d0719b739952d48db250e27bb21"}, "tags": {"0.1.6--hdbdd923_0": "sha256:3fd18552b89aeefcc9e9c194cc8ce82e7484a31ec69f9209458ae9a53cb4aaee", "0.1.6--h503566f_1": "sha256:803a6e2852a440858fe9cfe057a0c9e8233d3d0719b739952d48db250e27bb21"}, "docker": "quay.io/biocontainers/callerpp", "aliases": {"callerpp": "/usr/local/bin/callerpp", "spoa": "/usr/local/bin/spoa"}}
+config: {"url": "https://biocontainers.pro/tools/callerpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for callerpp", "latest": {"0.1.6--h503566f_2": "sha256:66a2824517cf14101a5279fb9f41e6681d3c6d52a4892856b4a6858e79e4ce34"}, "tags": {"0.1.6--hdbdd923_0": "sha256:3fd18552b89aeefcc9e9c194cc8ce82e7484a31ec69f9209458ae9a53cb4aaee", "0.1.6--h503566f_1": "sha256:803a6e2852a440858fe9cfe057a0c9e8233d3d0719b739952d48db250e27bb21", "0.1.6--h503566f_2": "sha256:66a2824517cf14101a5279fb9f41e6681d3c6d52a4892856b4a6858e79e4ce34"}, "docker": "quay.io/biocontainers/callerpp", "aliases": {"callerpp": "/usr/local/bin/callerpp", "spoa": "/usr/local/bin/spoa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/callerpp.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/callerpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/callerpp:0.1.6--h503566f_1
+$ shpc install quay.io/biocontainers/callerpp:0.1.6--h503566f_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/callerpp/0.1.6--h503566f_1
-$ module help quay.io/biocontainers/callerpp/0.1.6--h503566f_1
+$ module load quay.io/biocontainers/callerpp/0.1.6--h503566f_2
+$ module help quay.io/biocontainers/callerpp/0.1.6--h503566f_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

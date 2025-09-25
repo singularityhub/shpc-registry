@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phava"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phava/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phava/container.yaml"
-updated_at: "2025-09-24 03:40:38.336222"
+updated_at: "2025-09-25 03:46:59.751382"
 latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phava"
 aliases:

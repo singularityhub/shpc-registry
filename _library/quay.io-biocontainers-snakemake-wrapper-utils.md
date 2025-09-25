@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-wrapper-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-wrapper-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-wrapper-utils/container.yaml"
-updated_at: "2025-09-24 03:09:42.879076"
-latest: "0.7.2--pyhdfd78af_0"
+updated_at: "2025-09-25 03:12:52.145542"
+latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-wrapper-utils"
 aliases:
  - "2to3-3.10"
@@ -21,8 +21,9 @@ versions:
  - "0.6.0--pyhdfd78af_0"
  - "0.6.2--pyhdfd78af_0"
  - "0.7.2--pyhdfd78af_0"
+ - "0.8.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snakemake-wrapper-utils"
-config: {"url": "https://biocontainers.pro/tools/snakemake-wrapper-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakemake-wrapper-utils", "latest": {"0.7.2--pyhdfd78af_0": "sha256:13c49896a33c8aea8141c93b8939c51f277dc7e24e9c9af0d13d3040ee5b8f12"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:7c86d05a79932b21435d9d5e1973cc1b8719cd9a0970743b6d34cff3015f2c65", "0.5.2--pyhdfd78af_0": "sha256:0a623443043116e7f1f1fa5fd068a8c16c3faff88a64cb6f97dc1d30c3b85503", "0.5.3--pyhdfd78af_0": "sha256:9b8b7bdccbd471b46fd38104b522d2cddbbc5668620c90ce5a86cf465b7165cd", "0.6.0--pyhdfd78af_0": "sha256:b9fc2b2eccb0b152d2eb14c8a835874ee3ddf68376ab20a51be212f1c1d93190", "0.6.2--pyhdfd78af_0": "sha256:82cf07754fa5ee4afe31d412e2506372042566c374474015ca5721853cfc57e1", "0.7.2--pyhdfd78af_0": "sha256:13c49896a33c8aea8141c93b8939c51f277dc7e24e9c9af0d13d3040ee5b8f12"}, "docker": "quay.io/biocontainers/snakemake-wrapper-utils", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-wrapper-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakemake-wrapper-utils", "latest": {"0.8.0--pyhdfd78af_0": "sha256:89b23ccf4480a1f2f18fa56e6bf0c80c1617eeccefc0d199341425faa3d2f5c0"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:7c86d05a79932b21435d9d5e1973cc1b8719cd9a0970743b6d34cff3015f2c65", "0.5.2--pyhdfd78af_0": "sha256:0a623443043116e7f1f1fa5fd068a8c16c3faff88a64cb6f97dc1d30c3b85503", "0.5.3--pyhdfd78af_0": "sha256:9b8b7bdccbd471b46fd38104b522d2cddbbc5668620c90ce5a86cf465b7165cd", "0.6.0--pyhdfd78af_0": "sha256:b9fc2b2eccb0b152d2eb14c8a835874ee3ddf68376ab20a51be212f1c1d93190", "0.6.2--pyhdfd78af_0": "sha256:82cf07754fa5ee4afe31d412e2506372042566c374474015ca5721853cfc57e1", "0.7.2--pyhdfd78af_0": "sha256:13c49896a33c8aea8141c93b8939c51f277dc7e24e9c9af0d13d3040ee5b8f12", "0.8.0--pyhdfd78af_0": "sha256:89b23ccf4480a1f2f18fa56e6bf0c80c1617eeccefc0d199341425faa3d2f5c0"}, "docker": "quay.io/biocontainers/snakemake-wrapper-utils", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-wrapper-utils.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/snakemake-wrapper-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-wrapper-utils:0.7.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-wrapper-utils:0.8.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-wrapper-utils/0.7.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-wrapper-utils/0.7.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-wrapper-utils/0.8.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-wrapper-utils/0.8.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

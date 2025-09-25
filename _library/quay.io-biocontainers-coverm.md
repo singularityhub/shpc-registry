@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coverm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coverm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coverm/container.yaml"
-updated_at: "2025-09-24 03:05:49.876961"
+updated_at: "2025-09-25 03:08:25.167272"
 latest: "0.7.0--hcb7b614_4"
 container_url: "https://biocontainers.pro/tools/coverm"
 aliases:

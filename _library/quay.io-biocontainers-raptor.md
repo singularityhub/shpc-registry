@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/raptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raptor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raptor/container.yaml"
-updated_at: "2025-09-24 03:17:43.343009"
+updated_at: "2025-09-25 03:21:48.004906"
 latest: "3.0.1--haf24da9_4"
 container_url: "https://biocontainers.pro/tools/raptor"
 aliases:

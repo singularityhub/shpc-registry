@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popscle/container.yaml"
-updated_at: "2025-09-24 03:03:38.984297"
+updated_at: "2025-09-25 03:06:03.264850"
 latest: "0.1beta--h985387c_1"
 container_url: "https://biocontainers.pro/tools/popscle"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "plot-bamstats"
 versions:
  - "0.1beta--h985387c_1"
+ - "0.1--ha0d7e29_1"
 description: "shpc-registry automated BioContainers addition for popscle"
-config: {"url": "https://biocontainers.pro/tools/popscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popscle", "latest": {"0.1beta--h985387c_1": "sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8"}, "tags": {"0.1beta--h985387c_1": "sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8"}, "docker": "quay.io/biocontainers/popscle", "aliases": {"popscle": "/usr/local/bin/popscle", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
+config: {"url": "https://biocontainers.pro/tools/popscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popscle", "latest": {"0.1beta--h985387c_1": "sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8"}, "tags": {"0.1beta--h985387c_1": "sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8", "0.1--ha0d7e29_1": "sha256:29f7a8ac8846cf9894b514958748358f859c58ad2f723f0b7db2799e8bfb03e9"}, "docker": "quay.io/biocontainers/popscle", "aliases": {"popscle": "/usr/local/bin/popscle", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/popscle.
