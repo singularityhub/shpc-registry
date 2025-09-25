@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-logitt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-logitt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-logitt/container.yaml"
-updated_at: "2025-09-25 03:11:39.491048"
+updated_at: "2025-09-25 07:39:43.516625"
 latest: "1.58.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-logitt"
 
