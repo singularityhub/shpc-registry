@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/chromap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chromap
 latest:
-  0.3.1--h077b44d_0: 
-    sha256:9ad835c99a35953f58f45fdb881b4df01d66a695409654296e4b20cfa554f2bb
+  0.3.2--h077b44d_0: 
+    sha256:23ffd1ae6460f7eba7f4a4a069870c137e3ab1b11da6d4369aef4641b163bb6d
 tags:
   0.2.3--hd03093a_1: 
     sha256:9a8e62c7881cb59f42978d78eb55934ea11fd4fbfc01d0964b92dbf08e43e22c
@@ -25,6 +25,8 @@ tags:
     sha256:5ed9054988b9d52cb11ce3f9f76526a623a8be02aa116836711b9865d5324fc2
   0.3.1--h077b44d_0: 
     sha256:9ad835c99a35953f58f45fdb881b4df01d66a695409654296e4b20cfa554f2bb
+  0.3.2--h077b44d_0: 
+    sha256:23ffd1ae6460f7eba7f4a4a069870c137e3ab1b11da6d4369aef4641b163bb6d
 docker: quay.io/biocontainers/chromap
 aliases:
   chromap: /usr/local/bin/chromap

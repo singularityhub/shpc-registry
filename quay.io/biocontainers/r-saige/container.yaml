@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-saige
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-saige
 latest:
-  1.3.1--r44h38d2662_3: 
-    sha256:4e8e9103adc4dc6bf541d8ba8efcb2da90d57961e5919854b32b76863259ae11
+  1.3.1--r44h38d2662_4: 
+    sha256:83f0564723990b5924a4145a5a60a0f972bf81fad95f05d210710f2f4a26b1cd
 tags:
   0.45.0--r41h723e9af_4: 
     sha256:066611caaba72656958979750db871e1d4b81fcc0d44ba3bcffb513ac1847117
@@ -21,6 +21,8 @@ tags:
     sha256:5aed0453e5cbd22ab75d82e6d9a1deb350579c44932163c1fecc71b9235d2318
   1.3.1--r44h38d2662_3: 
     sha256:4e8e9103adc4dc6bf541d8ba8efcb2da90d57961e5919854b32b76863259ae11
+  1.3.1--r44h38d2662_4: 
+    sha256:83f0564723990b5924a4145a5a60a0f972bf81fad95f05d210710f2f4a26b1cd
 docker: quay.io/biocontainers/r-saige
 aliases:
   bgenix: /usr/local/bin/bgenix
