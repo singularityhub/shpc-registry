@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scclassify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scclassify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scclassify/container.yaml"
-updated_at: "2025-09-25 07:23:53.717300"
+updated_at: "2025-09-26 03:06:48.514546"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scclassify"
 

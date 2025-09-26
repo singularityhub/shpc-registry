@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mity/container.yaml"
-updated_at: "2025-09-25 08:00:58.464757"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2025-09-26 03:43:07.534424"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mity"
 aliases:
  - "gsort"
@@ -43,8 +43,9 @@ versions:
  - "1.1.0--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_0"
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mity"
-config: {"url": "https://biocontainers.pro/tools/mity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mity", "latest": {"2.0.0--pyhdfd78af_0": "sha256:ce96dbaad38c58be592adad26c2ca665fdb84cfeff2e4e4f1533c2a373db8606"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:4cd086cbb49cf48ff281cce13dfdf8cf0696ed15299aaed122f31be16cce37fb", "1.2.0--pyhdfd78af_0": "sha256:b83221433666f3eb4403d25be838a9e1d2897628cdb74de9b81b1f10fbc91680", "2.0.0--pyhdfd78af_0": "sha256:ce96dbaad38c58be592adad26c2ca665fdb84cfeff2e4e4f1533c2a373db8606"}, "docker": "quay.io/biocontainers/mity", "aliases": {"gsort": "/usr/local/bin/gsort", "mity": "/usr/local/bin/mity", "vcfanno": "/usr/local/bin/vcfanno", "vcfindelproximity": "/usr/local/bin/vcfindelproximity", "vcfnullgenofields": "/usr/local/bin/vcfnullgenofields", "vcfwave": "/usr/local/bin/vcfwave", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "tabix++": "/usr/local/bin/tabix++", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "freebayes": "/usr/local/bin/freebayes", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++", "permuteSmooth": "/usr/local/bin/permuteSmooth", "plotHaps": "/usr/local/bin/plotHaps"}}
+config: {"url": "https://biocontainers.pro/tools/mity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mity", "latest": {"2.0.1--pyhdfd78af_0": "sha256:07661bea6ed70dac40fd32c3d6789b72aaf9c801973127621eb538a0964fd97d"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:4cd086cbb49cf48ff281cce13dfdf8cf0696ed15299aaed122f31be16cce37fb", "1.2.0--pyhdfd78af_0": "sha256:b83221433666f3eb4403d25be838a9e1d2897628cdb74de9b81b1f10fbc91680", "2.0.0--pyhdfd78af_0": "sha256:ce96dbaad38c58be592adad26c2ca665fdb84cfeff2e4e4f1533c2a373db8606", "2.0.1--pyhdfd78af_0": "sha256:07661bea6ed70dac40fd32c3d6789b72aaf9c801973127621eb538a0964fd97d"}, "docker": "quay.io/biocontainers/mity", "aliases": {"gsort": "/usr/local/bin/gsort", "mity": "/usr/local/bin/mity", "vcfanno": "/usr/local/bin/vcfanno", "vcfindelproximity": "/usr/local/bin/vcfindelproximity", "vcfnullgenofields": "/usr/local/bin/vcfnullgenofields", "vcfwave": "/usr/local/bin/vcfwave", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "tabix++": "/usr/local/bin/tabix++", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "freebayes": "/usr/local/bin/freebayes", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++", "permuteSmooth": "/usr/local/bin/permuteSmooth", "plotHaps": "/usr/local/bin/plotHaps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mity.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/mity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mity:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mity:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mity/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/mity/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/mity/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/mity/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

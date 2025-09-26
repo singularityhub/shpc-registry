@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multiqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc/container.yaml"
-updated_at: "2025-09-25 07:37:19.318900"
-latest: "1.30--pyhdfd78af_1"
+updated_at: "2025-09-26 03:20:00.870026"
+latest: "1.31--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multiqc"
 aliases:
  - "multiqc"
@@ -33,8 +33,9 @@ versions:
  - "1.29--pyhdfd78af_0"
  - "1.30--pyhdfd78af_0"
  - "1.30--pyhdfd78af_1"
+ - "1.31--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for multiqc"
-config: {"url": "https://biocontainers.pro/tools/multiqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiqc", "latest": {"1.30--pyhdfd78af_1": "sha256:10c55931bd849dacd0ec1fe1f5e936a6c5084f63cd352c894b387fbfa1472183"}, "tags": {"1.9--py_1": "sha256:67cc651cb350b1ee2fc0929bd6bcd5189ec8c17f09566a3cd54cde7479e48a09", "1.10.1--pyhdfd78af_1": "sha256:c64ea8fcaf49dfc4b0594bc7349e6d1a662eb4484f5aac3252f4eea86cad164c", "1.11--pyhdfd78af_0": "sha256:88df23fac5b9eecda9943d922f81b68e30188eb4dd7cbfe9554e952ff5a3b0ee", "1.12--pyhdfd78af_0": "sha256:82dae6463e1b19fafb6022401186300b66decf5ce319a725271700fe4e32e12a", "1.21--pyhdfd78af_0": "sha256:ecafca93ba3346775b773bbfd6ff920ecfc259f554777576c15d3139c678311b", "1.20--pyhdfd78af_2": "sha256:e32ae95da678783635b36be6f0a93c1e45b6af8b6b650019a930b87733d87bdb", "1.19--pyhdfd78af_0": "sha256:6487aad25c1d232abb98e7b23236606205ce39882a3de22b20e6d12b3d3e69af", "1.18--pyhdfd78af_0": "sha256:91e7d3e4673d8c617ce3c41123949daf63f84e84d48aed22157abd1be0f2e925", "1.17--pyhdfd78af_1": "sha256:fb7d6625fb5adaed43ced8bd051a875038714180bcfcd7c8e467204f72882de9", "1.22.1--pyhdfd78af_0": "sha256:0d41f422dfdd35636c02b8efb4162cb44a9652a6dbdd65f81219b88386b31c93", "1.22.3--pyhdfd78af_0": "sha256:691899b5899eb7777b5e689029c8f9fc3a2838378cbda01fe41ff0198af0cc7d", "1.23--pyhdfd78af_0": "sha256:3c4f30008244f191ed5268703ad5318a2e6aa697e3e8480fe98492da40a50340", "1.24.1--pyhdfd78af_0": "sha256:0e80f2cbbfece8a52c7ad645a751b1d34465a4053904c5130b3a7a81ac5e02f6", "1.25--pyhdfd78af_0": "sha256:2c529689826c39931deea64d3a810fccacd7814e196c2867800d767423abdf77", "1.25.1--pyhdfd78af_0": "sha256:64fa8caa046020780a7df765cdd27b459f20665578e6f1f240a12d415527adaa", "1.25.2--pyhdfd78af_0": "sha256:d939a5fc6c5b505f7bb148ce3527fb9850c6e8f3f4eab7cc5a4be180f0533f46", "1.26--pyhdfd78af_0": "sha256:a05cc0922e1d620f428954a12a659dc9dcb57528a4f1c71811ae1f8b8d3ed9ce", "1.27--pyhdfd78af_0": "sha256:a024b23be16fa3f3919ef018741478a7a3bfaaed0222369dff59abaf28316149", "1.27.1--pyhdfd78af_0": "sha256:e8821df086710ff4fe535814e70eb6390d4685dd6e962fc743bff58b35b0e603", "1.28--pyhdfd78af_0": "sha256:9cf4fcfb2df9c4ebc017983c6c6918ff7c9258553076b0aa7a23a626e48dd201", "1.29--pyhdfd78af_0": "sha256:f4ebfe78e45dd96f04a9c883e1882e77ac357988a10a7c980df6d500bfc46de6", "1.30--pyhdfd78af_0": "sha256:705b850db50035fd8a6973cf8c8280f0c2a1869930a14f0184a087b13f6596da", "1.30--pyhdfd78af_1": "sha256:10c55931bd849dacd0ec1fe1f5e936a6c5084f63cd352c894b387fbfa1472183"}, "docker": "quay.io/biocontainers/multiqc", "aliases": {"multiqc": "/usr/local/bin/multiqc"}}
+config: {"url": "https://biocontainers.pro/tools/multiqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiqc", "latest": {"1.31--pyhdfd78af_0": "sha256:9cc4cf3d5b65db3bee83306606cd93b98ca73dcb2ef38cb95c65b69e91b34284"}, "tags": {"1.9--py_1": "sha256:67cc651cb350b1ee2fc0929bd6bcd5189ec8c17f09566a3cd54cde7479e48a09", "1.10.1--pyhdfd78af_1": "sha256:c64ea8fcaf49dfc4b0594bc7349e6d1a662eb4484f5aac3252f4eea86cad164c", "1.11--pyhdfd78af_0": "sha256:88df23fac5b9eecda9943d922f81b68e30188eb4dd7cbfe9554e952ff5a3b0ee", "1.12--pyhdfd78af_0": "sha256:82dae6463e1b19fafb6022401186300b66decf5ce319a725271700fe4e32e12a", "1.21--pyhdfd78af_0": "sha256:ecafca93ba3346775b773bbfd6ff920ecfc259f554777576c15d3139c678311b", "1.20--pyhdfd78af_2": "sha256:e32ae95da678783635b36be6f0a93c1e45b6af8b6b650019a930b87733d87bdb", "1.19--pyhdfd78af_0": "sha256:6487aad25c1d232abb98e7b23236606205ce39882a3de22b20e6d12b3d3e69af", "1.18--pyhdfd78af_0": "sha256:91e7d3e4673d8c617ce3c41123949daf63f84e84d48aed22157abd1be0f2e925", "1.17--pyhdfd78af_1": "sha256:fb7d6625fb5adaed43ced8bd051a875038714180bcfcd7c8e467204f72882de9", "1.22.1--pyhdfd78af_0": "sha256:0d41f422dfdd35636c02b8efb4162cb44a9652a6dbdd65f81219b88386b31c93", "1.22.3--pyhdfd78af_0": "sha256:691899b5899eb7777b5e689029c8f9fc3a2838378cbda01fe41ff0198af0cc7d", "1.23--pyhdfd78af_0": "sha256:3c4f30008244f191ed5268703ad5318a2e6aa697e3e8480fe98492da40a50340", "1.24.1--pyhdfd78af_0": "sha256:0e80f2cbbfece8a52c7ad645a751b1d34465a4053904c5130b3a7a81ac5e02f6", "1.25--pyhdfd78af_0": "sha256:2c529689826c39931deea64d3a810fccacd7814e196c2867800d767423abdf77", "1.25.1--pyhdfd78af_0": "sha256:64fa8caa046020780a7df765cdd27b459f20665578e6f1f240a12d415527adaa", "1.25.2--pyhdfd78af_0": "sha256:d939a5fc6c5b505f7bb148ce3527fb9850c6e8f3f4eab7cc5a4be180f0533f46", "1.26--pyhdfd78af_0": "sha256:a05cc0922e1d620f428954a12a659dc9dcb57528a4f1c71811ae1f8b8d3ed9ce", "1.27--pyhdfd78af_0": "sha256:a024b23be16fa3f3919ef018741478a7a3bfaaed0222369dff59abaf28316149", "1.27.1--pyhdfd78af_0": "sha256:e8821df086710ff4fe535814e70eb6390d4685dd6e962fc743bff58b35b0e603", "1.28--pyhdfd78af_0": "sha256:9cf4fcfb2df9c4ebc017983c6c6918ff7c9258553076b0aa7a23a626e48dd201", "1.29--pyhdfd78af_0": "sha256:f4ebfe78e45dd96f04a9c883e1882e77ac357988a10a7c980df6d500bfc46de6", "1.30--pyhdfd78af_0": "sha256:705b850db50035fd8a6973cf8c8280f0c2a1869930a14f0184a087b13f6596da", "1.30--pyhdfd78af_1": "sha256:10c55931bd849dacd0ec1fe1f5e936a6c5084f63cd352c894b387fbfa1472183", "1.31--pyhdfd78af_0": "sha256:9cc4cf3d5b65db3bee83306606cd93b98ca73dcb2ef38cb95c65b69e91b34284"}, "docker": "quay.io/biocontainers/multiqc", "aliases": {"multiqc": "/usr/local/bin/multiqc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multiqc.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/multiqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multiqc:1.30--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/multiqc:1.31--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multiqc/1.30--pyhdfd78af_1
-$ module help quay.io/biocontainers/multiqc/1.30--pyhdfd78af_1
+$ module load quay.io/biocontainers/multiqc/1.31--pyhdfd78af_0
+$ module help quay.io/biocontainers/multiqc/1.31--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
