@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/read2tree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for read2tree
 latest:
-  0.1.5--pyhdfd78af_0: 
-    sha256:520ae6ed6afc8aed321810e0edfc3b15861584d41722bae9db2d1f5721088066
+  2.0.1--pyhdfd78af_0: 
+    sha256:f3c73991fd312ee30dee9f3cad9c17191b550c57721d408930c4f52321348be9
 tags:
   0.1.5--pyhdfd78af_0: 
     sha256:520ae6ed6afc8aed321810e0edfc3b15861584d41722bae9db2d1f5721088066
+  2.0.1--pyhdfd78af_0: 
+    sha256:f3c73991fd312ee30dee9f3cad9c17191b550c57721d408930c4f52321348be9
 docker: quay.io/biocontainers/read2tree
 aliases:
   addr2line: /usr/local/bin/addr2line

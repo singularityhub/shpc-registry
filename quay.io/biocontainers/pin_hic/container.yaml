@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pin_hic
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pin_hic
 latest:
-  3.0.0--h577a1d6_4: 
-    sha256:92fcd821ba01853bb415bc83c3129fa1c603cd69303a395a41932c1a1be4b2ea
+  3.0.0--h577a1d6_5: 
+    sha256:7f3fc3673e07c6c81025da618871c996fd11ca7930c02323e632e00a21e4263d
 tags:
   3.0.0--h7132678_1: 
     sha256:60a3ff5788a957dab57d6622c67ce5b13668b56f0ebbb47b6cf5e520322e708f
@@ -11,6 +11,8 @@ tags:
     sha256:6bb37fac9efa6b9907d54c0b0da04978c8251e6fa835fbe9f3c9feb5fc0bfd40
   3.0.0--h577a1d6_4: 
     sha256:92fcd821ba01853bb415bc83c3129fa1c603cd69303a395a41932c1a1be4b2ea
+  3.0.0--h577a1d6_5: 
+    sha256:7f3fc3673e07c6c81025da618871c996fd11ca7930c02323e632e00a21e4263d
 docker: quay.io/biocontainers/pin_hic
 aliases:
   pin_hic: /usr/local/bin/pin_hic
