@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/scalpel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scalpel
 latest:
-  0.5.4--hb891895_8: 
-    sha256:13a420d3014e63d5a172c8e5f907ea198124c044e9841a58c7d085e8d4bf6dd5
+  0.5.4--pl5321h4ced824_9: 
+    sha256:0f2c28c42454adf440c498685f82c38bcc115a7710e7629c4a7e620dc72acabd
 tags:
   0.5.4--h9a52abd_4: 
     sha256:18fc7f5410282728c88da09f23406b5ae0d1e883439b579f55bd0e221e5c6052
@@ -15,6 +15,8 @@ tags:
     sha256:f7b1d773166ad40ebb4b08be3b60d49648693186a0b748660efeb3e8af05c0ea
   0.5.4--hb891895_8: 
     sha256:13a420d3014e63d5a172c8e5f907ea198124c044e9841a58c7d085e8d4bf6dd5
+  0.5.4--pl5321h4ced824_9: 
+    sha256:0f2c28c42454adf440c498685f82c38bcc115a7710e7629c4a7e620dc72acabd
 docker: quay.io/biocontainers/scalpel
 aliases:
   scalpel-discovery: /usr/local/bin/scalpel-discovery

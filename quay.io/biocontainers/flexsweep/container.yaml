@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/flexsweep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flexsweep
 latest:
-  1.0--pyhbffedc5_0: 
-    sha256:d0c3f5672109168932d39a328fa771d632db89525136a98b3c529f86221d8ff2
+  1.3--pyhdfd78af_0: 
+    sha256:d89b2fe90443cafb62723912c0c990447e7d974fd6c7c085a3d66a201d6414d8
 tags:
   1.0--pyhbffedc5_0: 
     sha256:d0c3f5672109168932d39a328fa771d632db89525136a98b3c529f86221d8ff2
+  1.3--pyhdfd78af_0: 
+    sha256:d89b2fe90443cafb62723912c0c990447e7d974fd6c7c085a3d66a201d6414d8
 docker: quay.io/biocontainers/flexsweep
 aliases:
   checksum-profile: /usr/local/bin/checksum-profile

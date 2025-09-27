@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-math-base-convert
 latest:
-  0.11--pl5321hdfd78af_2: 
-    sha256:c5b65de6aa83997a01ff45cf5c0cc921c45e778ddb0641fa00cc6c58b212cf44
+  0.13--pl5321hdfd78af_0: 
+    sha256:7c77f263eeb5f36a24663db3e1eb1539254894a0e9a2f80cd59d198d8942ee69
 tags:
   0.11--pl5321hdfd78af_2: 
     sha256:c5b65de6aa83997a01ff45cf5c0cc921c45e778ddb0641fa00cc6c58b212cf44
+  0.13--pl5321hdfd78af_0: 
+    sha256:7c77f263eeb5f36a24663db3e1eb1539254894a0e9a2f80cd59d198d8942ee69
 docker: quay.io/biocontainers/perl-math-base-convert
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

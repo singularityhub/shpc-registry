@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/links
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for links
 latest:
-  2.0.1--h4ac6f70_5: 
-    sha256:9028435481e831877d1eb08e928244983e85d2ed9c1d97c59300c447582bae7b
+  2.0.1--h9948957_7: 
+    sha256:10ba30c8f79cc2f678bb3ca5baf9cd7bf5d8ba28cd9d18649f1cb1fbaa654bbb
 tags:
   2.0.1--h9f5acd7_2: 
     sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f
@@ -11,6 +11,8 @@ tags:
     sha256:934bad8ce0ecfbc443919dddf98d5e4117ea34ca8f9ffbfb2acd29b9c79360f3
   2.0.1--h4ac6f70_5: 
     sha256:9028435481e831877d1eb08e928244983e85d2ed9c1d97c59300c447582bae7b
+  2.0.1--h9948957_7: 
+    sha256:10ba30c8f79cc2f678bb3ca5baf9cd7bf5d8ba28cd9d18649f1cb1fbaa654bbb
 docker: quay.io/biocontainers/links
 aliases:
   LINKS: /usr/local/bin/LINKS

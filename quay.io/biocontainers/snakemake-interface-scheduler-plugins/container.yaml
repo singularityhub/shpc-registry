@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   snakemake-interface-scheduler-plugins
 latest:
-  2.0.0--pyhdfd78af_0: 
-    sha256:09b445f19336039f188084d2d390ae11815ef4f7e77388e1fdf41f281cfe24e9
+  2.0.1--pyhd4c3c12_0: 
+    sha256:78b0e30ac38469bacb3d4b8ed5d7c97ddb8bbefe5fa11239eb19a35cca4e8b0b
 tags:
   2.0.0--pyhdfd78af_0: 
     sha256:09b445f19336039f188084d2d390ae11815ef4f7e77388e1fdf41f281cfe24e9
+  2.0.1--pyhd4c3c12_0: 
+    sha256:78b0e30ac38469bacb3d4b8ed5d7c97ddb8bbefe5fa11239eb19a35cca4e8b0b
 docker: quay.io/biocontainers/snakemake-interface-scheduler-plugins
 aliases:
   idle3.13: /usr/local/bin/idle3.13

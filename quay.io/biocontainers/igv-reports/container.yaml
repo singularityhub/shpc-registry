@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/igv-reports
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for igv-reports
 latest:
-  1.15.1--pyh7e72e81_0: 
-    sha256:786533526131817fe126fdb86308bcc6b63079bd3d8eb4c6478a0acc4b229b08
+  1.16.0--pyh7e72e81_0: 
+    sha256:bb2bf392dbc8a5a5ba4a3a4dc5a3de8682ea875bc696e421d3e5153cc5e38892
 tags:
   1.6.1--pyh7cba7a3_0: 
     sha256:5f8e40f84d3398f243d1cea959802752e8d8f54686dba4a389144746e69b1294
@@ -27,6 +27,8 @@ tags:
     sha256:e15f1fdfb25e9c74e2c74468be9f3d4c51352ddd9020b69a10660c67908115d5
   1.15.1--pyh7e72e81_0: 
     sha256:786533526131817fe126fdb86308bcc6b63079bd3d8eb4c6478a0acc4b229b08
+  1.16.0--pyh7e72e81_0: 
+    sha256:bb2bf392dbc8a5a5ba4a3a4dc5a3de8682ea875bc696e421d3e5153cc5e38892
 docker: quay.io/biocontainers/igv-reports
 aliases:
   create_datauri: /usr/local/bin/create_datauri

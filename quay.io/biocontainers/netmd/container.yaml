@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/netmd
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for netmd
 latest:
-  1.0.1--pyh3c853c9_0: 
-    sha256:a379faa95ba40ad23afecec25ff55e2dc3568236ec2e5fa3f46d00bde41cb480
+  1.0.2--pyh3c853c9_0: 
+    sha256:087e5e384a7336fd843563654c9d146144c45501eda47e63171cad4d2b23c43e
 tags:
   1.0.0--pyh3c853c9_0: 
     sha256:73ab6c32a24f80b026a1b977ea2453bf66ad0a1581128288eeed4f77f2438c3d
   1.0.1--pyh3c853c9_0: 
     sha256:a379faa95ba40ad23afecec25ff55e2dc3568236ec2e5fa3f46d00bde41cb480
+  1.0.2--pyh3c853c9_0: 
+    sha256:087e5e384a7336fd843563654c9d146144c45501eda47e63171cad4d2b23c43e
 docker: quay.io/biocontainers/netmd
 aliases:
   community: /usr/local/bin/community
