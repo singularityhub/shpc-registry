@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/read2tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/read2tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/read2tree/container.yaml"
-updated_at: "2025-09-26 03:46:28.843223"
-latest: "0.1.5--pyhdfd78af_0"
+updated_at: "2025-09-27 03:40:30.490291"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/read2tree"
 aliases:
  - "addr2line"
@@ -64,8 +64,9 @@ aliases:
  - "getfattr"
 versions:
  - "0.1.5--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for read2tree"
-config: {"url": "https://biocontainers.pro/tools/read2tree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for read2tree", "latest": {"0.1.5--pyhdfd78af_0": "sha256:520ae6ed6afc8aed321810e0edfc3b15861584d41722bae9db2d1f5721088066"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:520ae6ed6afc8aed321810e0edfc3b15861584d41722bae9db2d1f5721088066"}, "docker": "quay.io/biocontainers/read2tree", "aliases": {"addr2line": "/usr/local/bin/addr2line", "ar": "/usr/local/bin/ar", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "dwp": "/usr/local/bin/dwp", "elfedit": "/usr/local/bin/elfedit", "gold": "/usr/local/bin/gold", "gprof": "/usr/local/bin/gprof", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "ngm": "/usr/local/bin/ngm", "ngm-core": "/usr/local/bin/ngm-core", "ngm-core-debug": "/usr/local/bin/ngm-core-debug", "ngm-debug": "/usr/local/bin/ngm-debug", "ngm-log": "/usr/local/bin/ngm-log", "ngm-utils": "/usr/local/bin/ngm-utils", "ngm-utils-debug": "/usr/local/bin/ngm-utils-debug", "ngmlr": "/usr/local/bin/ngmlr", "nm": "/usr/local/bin/nm", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "oclTool": "/usr/local/bin/oclTool", "ranlib": "/usr/local/bin/ranlib", "read2tree": "/usr/local/bin/read2tree", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "strip": "/usr/local/bin/strip", "iqtree2": "/usr/local/bin/iqtree2", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "orc-bugreport": "/usr/local/bin/orc-bugreport", "orcc": "/usr/local/bin/orcc", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "iqtree": "/usr/local/bin/iqtree", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr"}}
+config: {"url": "https://biocontainers.pro/tools/read2tree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for read2tree", "latest": {"2.0.1--pyhdfd78af_0": "sha256:f3c73991fd312ee30dee9f3cad9c17191b550c57721d408930c4f52321348be9"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:520ae6ed6afc8aed321810e0edfc3b15861584d41722bae9db2d1f5721088066", "2.0.1--pyhdfd78af_0": "sha256:f3c73991fd312ee30dee9f3cad9c17191b550c57721d408930c4f52321348be9"}, "docker": "quay.io/biocontainers/read2tree", "aliases": {"addr2line": "/usr/local/bin/addr2line", "ar": "/usr/local/bin/ar", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "dwp": "/usr/local/bin/dwp", "elfedit": "/usr/local/bin/elfedit", "gold": "/usr/local/bin/gold", "gprof": "/usr/local/bin/gprof", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "ngm": "/usr/local/bin/ngm", "ngm-core": "/usr/local/bin/ngm-core", "ngm-core-debug": "/usr/local/bin/ngm-core-debug", "ngm-debug": "/usr/local/bin/ngm-debug", "ngm-log": "/usr/local/bin/ngm-log", "ngm-utils": "/usr/local/bin/ngm-utils", "ngm-utils-debug": "/usr/local/bin/ngm-utils-debug", "ngmlr": "/usr/local/bin/ngmlr", "nm": "/usr/local/bin/nm", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "oclTool": "/usr/local/bin/oclTool", "ranlib": "/usr/local/bin/ranlib", "read2tree": "/usr/local/bin/read2tree", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "strip": "/usr/local/bin/strip", "iqtree2": "/usr/local/bin/iqtree2", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "orc-bugreport": "/usr/local/bin/orc-bugreport", "orcc": "/usr/local/bin/orcc", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "iqtree": "/usr/local/bin/iqtree", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/read2tree.
@@ -80,7 +81,7 @@ $ shpc install quay.io/biocontainers/read2tree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/read2tree:0.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/read2tree:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -92,8 +93,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/read2tree/0.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/read2tree/0.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/read2tree/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/read2tree/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

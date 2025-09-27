@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kimod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kimod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kimod/container.yaml"
-updated_at: "2025-09-26 03:03:47.401123"
+updated_at: "2025-09-27 02:57:44.460739"
 latest: "1.15.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kimod"
 

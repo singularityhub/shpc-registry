@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pin_hic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pin_hic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pin_hic/container.yaml"
-updated_at: "2025-09-26 03:27:17.006784"
-latest: "3.0.0--h577a1d6_4"
+updated_at: "2025-09-27 03:21:13.790294"
+latest: "3.0.0--h577a1d6_5"
 container_url: "https://biocontainers.pro/tools/pin_hic"
 aliases:
  - "pin_hic"
@@ -14,8 +14,9 @@ versions:
  - "3.0.0--h7132678_1"
  - "3.0.0--he4a0461_3"
  - "3.0.0--h577a1d6_4"
+ - "3.0.0--h577a1d6_5"
 description: "singularity registry hpc automated addition for pin_hic"
-config: {"url": "https://biocontainers.pro/tools/pin_hic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pin_hic", "latest": {"3.0.0--h577a1d6_4": "sha256:92fcd821ba01853bb415bc83c3129fa1c603cd69303a395a41932c1a1be4b2ea"}, "tags": {"3.0.0--h7132678_1": "sha256:60a3ff5788a957dab57d6622c67ce5b13668b56f0ebbb47b6cf5e520322e708f", "3.0.0--he4a0461_3": "sha256:6bb37fac9efa6b9907d54c0b0da04978c8251e6fa835fbe9f3c9feb5fc0bfd40", "3.0.0--h577a1d6_4": "sha256:92fcd821ba01853bb415bc83c3129fa1c603cd69303a395a41932c1a1be4b2ea"}, "docker": "quay.io/biocontainers/pin_hic", "aliases": {"pin_hic": "/usr/local/bin/pin_hic", "pin_hic_it": "/usr/local/bin/pin_hic_it"}}
+config: {"url": "https://biocontainers.pro/tools/pin_hic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pin_hic", "latest": {"3.0.0--h577a1d6_5": "sha256:7f3fc3673e07c6c81025da618871c996fd11ca7930c02323e632e00a21e4263d"}, "tags": {"3.0.0--h7132678_1": "sha256:60a3ff5788a957dab57d6622c67ce5b13668b56f0ebbb47b6cf5e520322e708f", "3.0.0--he4a0461_3": "sha256:6bb37fac9efa6b9907d54c0b0da04978c8251e6fa835fbe9f3c9feb5fc0bfd40", "3.0.0--h577a1d6_4": "sha256:92fcd821ba01853bb415bc83c3129fa1c603cd69303a395a41932c1a1be4b2ea", "3.0.0--h577a1d6_5": "sha256:7f3fc3673e07c6c81025da618871c996fd11ca7930c02323e632e00a21e4263d"}, "docker": "quay.io/biocontainers/pin_hic", "aliases": {"pin_hic": "/usr/local/bin/pin_hic", "pin_hic_it": "/usr/local/bin/pin_hic_it"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pin_hic.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/pin_hic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pin_hic:3.0.0--h577a1d6_4
+$ shpc install quay.io/biocontainers/pin_hic:3.0.0--h577a1d6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pin_hic/3.0.0--h577a1d6_4
-$ module help quay.io/biocontainers/pin_hic/3.0.0--h577a1d6_4
+$ module load quay.io/biocontainers/pin_hic/3.0.0--h577a1d6_5
+$ module help quay.io/biocontainers/pin_hic/3.0.0--h577a1d6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

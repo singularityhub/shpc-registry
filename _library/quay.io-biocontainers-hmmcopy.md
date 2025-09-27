@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmmcopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmcopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmcopy/container.yaml"
-updated_at: "2025-09-26 03:42:17.876613"
-latest: "0.1.1--h5ca1c30_11"
+updated_at: "2025-09-27 03:36:17.357546"
+latest: "0.1.1--h5b0a936_12"
 container_url: "https://biocontainers.pro/tools/hmmcopy"
 aliases:
  - "bigWigInfo"
@@ -36,8 +36,9 @@ versions:
  - "0.1.1--h43eeafb_9"
  - "0.1.1--h43eeafb_10"
  - "0.1.1--h5ca1c30_11"
+ - "0.1.1--h5b0a936_12"
 description: "shpc-registry automated BioContainers addition for hmmcopy"
-config: {"url": "https://biocontainers.pro/tools/hmmcopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmcopy", "latest": {"0.1.1--h5ca1c30_11": "sha256:c0c7f8baac1eb338debcc0e15086766da2ca8b60bed84074593f7dfaaf6c88cf"}, "tags": {"0.1.1--h5b5514e_8": "sha256:af9470030886895e010bd5cde44340d23043c76fd38467536ac2625f2aa9437a", "0.1.1--h43eeafb_9": "sha256:b54327b50b4b2ea820cb4e628fc8d534f13e4e2260f24dd9f786201d768d2f03", "0.1.1--h43eeafb_10": "sha256:7a848b7f5e3c5ddcf1d6e6979bf0756ed031630f0564c789965ffec2e043f50b", "0.1.1--h5ca1c30_11": "sha256:c0c7f8baac1eb338debcc0e15086766da2ca8b60bed84074593f7dfaaf6c88cf"}, "docker": "quay.io/biocontainers/hmmcopy", "aliases": {"bigWigInfo": "/usr/local/bin/bigWigInfo", "bigWigSummary": "/usr/local/bin/bigWigSummary", "bigWigToBedGraph": "/usr/local/bin/bigWigToBedGraph", "bigWigToWig": "/usr/local/bin/bigWigToWig", "fastaToRead": "/usr/local/bin/fastaToRead", "gcCounter": "/usr/local/bin/gcCounter", "generateMap.pl": "/usr/local/bin/generateMap.pl", "mapCounter": "/usr/local/bin/mapCounter", "readCounter": "/usr/local/bin/readCounter", "readToMap.pl": "/usr/local/bin/readToMap.pl", "renameChr.pl": "/usr/local/bin/renameChr.pl", "segToGc": "/usr/local/bin/segToGc", "segToMap": "/usr/local/bin/segToMap", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect"}}
+config: {"url": "https://biocontainers.pro/tools/hmmcopy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmcopy", "latest": {"0.1.1--h5b0a936_12": "sha256:812a8ca1280b57774580911080f52bf41f0c71a1b8909baf2bfb16a7484b0fcb"}, "tags": {"0.1.1--h5b5514e_8": "sha256:af9470030886895e010bd5cde44340d23043c76fd38467536ac2625f2aa9437a", "0.1.1--h43eeafb_9": "sha256:b54327b50b4b2ea820cb4e628fc8d534f13e4e2260f24dd9f786201d768d2f03", "0.1.1--h43eeafb_10": "sha256:7a848b7f5e3c5ddcf1d6e6979bf0756ed031630f0564c789965ffec2e043f50b", "0.1.1--h5ca1c30_11": "sha256:c0c7f8baac1eb338debcc0e15086766da2ca8b60bed84074593f7dfaaf6c88cf", "0.1.1--h5b0a936_12": "sha256:812a8ca1280b57774580911080f52bf41f0c71a1b8909baf2bfb16a7484b0fcb"}, "docker": "quay.io/biocontainers/hmmcopy", "aliases": {"bigWigInfo": "/usr/local/bin/bigWigInfo", "bigWigSummary": "/usr/local/bin/bigWigSummary", "bigWigToBedGraph": "/usr/local/bin/bigWigToBedGraph", "bigWigToWig": "/usr/local/bin/bigWigToWig", "fastaToRead": "/usr/local/bin/fastaToRead", "gcCounter": "/usr/local/bin/gcCounter", "generateMap.pl": "/usr/local/bin/generateMap.pl", "mapCounter": "/usr/local/bin/mapCounter", "readCounter": "/usr/local/bin/readCounter", "readToMap.pl": "/usr/local/bin/readToMap.pl", "renameChr.pl": "/usr/local/bin/renameChr.pl", "segToGc": "/usr/local/bin/segToGc", "segToMap": "/usr/local/bin/segToMap", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmmcopy.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/hmmcopy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmmcopy:0.1.1--h5ca1c30_11
+$ shpc install quay.io/biocontainers/hmmcopy:0.1.1--h5b0a936_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmmcopy/0.1.1--h5ca1c30_11
-$ module help quay.io/biocontainers/hmmcopy/0.1.1--h5ca1c30_11
+$ module load quay.io/biocontainers/hmmcopy/0.1.1--h5b0a936_12
+$ module help quay.io/biocontainers/hmmcopy/0.1.1--h5b0a936_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

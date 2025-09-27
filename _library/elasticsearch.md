@@ -4,7 +4,7 @@ name:  "elasticsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/elasticsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/elasticsearch/container.yaml"
-updated_at: "2025-09-26 03:51:39.485290"
+updated_at: "2025-09-27 03:45:43.658429"
 latest: "9.1.4"
 container_url: "https://hub.docker.com/_/elasticsearch"
 aliases:

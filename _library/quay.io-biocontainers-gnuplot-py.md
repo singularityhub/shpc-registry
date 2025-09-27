@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gnuplot-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnuplot-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnuplot-py/container.yaml"
-updated_at: "2025-09-26 03:35:44.026151"
-latest: "1.8--py27h24bf2e0_1"
+updated_at: "2025-09-27 03:29:43.072882"
+latest: "1.8--pyhdc42f0e_2"
 container_url: "https://biocontainers.pro/tools/gnuplot-py"
 aliases:
  - "gnuplot"
@@ -20,8 +20,9 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8--py27h24bf2e0_1"
+ - "1.8--pyhdc42f0e_2"
 description: "shpc-registry automated BioContainers addition for gnuplot-py"
-config: {"url": "https://biocontainers.pro/tools/gnuplot-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gnuplot-py", "latest": {"1.8--py27h24bf2e0_1": "sha256:9757a3f481408514c5cebf6e81384f84af3ff3d886fc201c0f572eb8861b8b15"}, "tags": {"1.8--py27h24bf2e0_1": "sha256:9757a3f481408514c5cebf6e81384f84af3ff3d886fc201c0f572eb8861b8b15"}, "docker": "quay.io/biocontainers/gnuplot-py", "aliases": {"gnuplot": "/usr/local/bin/gnuplot", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/gnuplot-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gnuplot-py", "latest": {"1.8--pyhdc42f0e_2": "sha256:9db242dbe0a24177932a3472f388268d1a836a37443de5ffa3f09bbe53bd31df"}, "tags": {"1.8--py27h24bf2e0_1": "sha256:9757a3f481408514c5cebf6e81384f84af3ff3d886fc201c0f572eb8861b8b15", "1.8--pyhdc42f0e_2": "sha256:9db242dbe0a24177932a3472f388268d1a836a37443de5ffa3f09bbe53bd31df"}, "docker": "quay.io/biocontainers/gnuplot-py", "aliases": {"gnuplot": "/usr/local/bin/gnuplot", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gnuplot-py.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/gnuplot-py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gnuplot-py:1.8--py27h24bf2e0_1
+$ shpc install quay.io/biocontainers/gnuplot-py:1.8--pyhdc42f0e_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gnuplot-py/1.8--py27h24bf2e0_1
-$ module help quay.io/biocontainers/gnuplot-py/1.8--py27h24bf2e0_1
+$ module load quay.io/biocontainers/gnuplot-py/1.8--pyhdc42f0e_2
+$ module help quay.io/biocontainers/gnuplot-py/1.8--pyhdc42f0e_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

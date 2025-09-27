@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/myloasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/myloasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/myloasm/container.yaml"
-updated_at: "2025-09-26 03:21:10.265181"
-latest: "0.1.0--ha6fb395_0"
+updated_at: "2025-09-27 03:15:09.577553"
+latest: "0.2.0--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/myloasm"
 aliases:
  - "myloasm"
 versions:
  - "0.1.0--ha6fb395_0"
+ - "0.2.0--ha6fb395_0"
 description: "singularity registry hpc automated addition for myloasm"
-config: {"url": "https://biocontainers.pro/tools/myloasm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for myloasm", "latest": {"0.1.0--ha6fb395_0": "sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165"}, "tags": {"0.1.0--ha6fb395_0": "sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165"}, "docker": "quay.io/biocontainers/myloasm", "aliases": {"myloasm": "/usr/local/bin/myloasm"}}
+config: {"url": "https://biocontainers.pro/tools/myloasm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for myloasm", "latest": {"0.2.0--ha6fb395_0": "sha256:0948c94608189cfcff02891e8d8bd1785169b6c6783146ec0025f313693d5ef8"}, "tags": {"0.1.0--ha6fb395_0": "sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165", "0.2.0--ha6fb395_0": "sha256:0948c94608189cfcff02891e8d8bd1785169b6c6783146ec0025f313693d5ef8"}, "docker": "quay.io/biocontainers/myloasm", "aliases": {"myloasm": "/usr/local/bin/myloasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/myloasm.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/myloasm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/myloasm:0.1.0--ha6fb395_0
+$ shpc install quay.io/biocontainers/myloasm:0.2.0--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/myloasm/0.1.0--ha6fb395_0
-$ module help quay.io/biocontainers/myloasm/0.1.0--ha6fb395_0
+$ module load quay.io/biocontainers/myloasm/0.2.0--ha6fb395_0
+$ module help quay.io/biocontainers/myloasm/0.2.0--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

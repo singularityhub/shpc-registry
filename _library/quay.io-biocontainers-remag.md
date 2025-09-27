@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/remag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/remag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/remag/container.yaml"
-updated_at: "2025-09-26 03:44:59.665358"
+updated_at: "2025-09-27 03:39:00.848142"
 latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/remag"
 aliases:
