@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phanotate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phanotate
 latest:
-  1.6.7--py39h2de1943_0: 
-    sha256:0f8dfda237ba0f9e63a6391ea78dcef53d3d9f03664f76beb6cf3000adc5c0d5
+  1.6.7--py310h184ae93_1: 
+    sha256:028dc4282156235ed14cf778e81368b5c30940dc7f9a0e1ea7bcbe196e4027bf
 tags:
   1.5.0--hc16433a_2: 
     sha256:27e891bbc6ba3809c74389b3871538d751455fe59d69dc4168e5374dd70a4f59
@@ -23,6 +23,8 @@ tags:
     sha256:b6bdf6357e422f3875c420f2b881824b25fa394703f68180bde9926359b2b242
   1.6.7--py39h2de1943_0: 
     sha256:0f8dfda237ba0f9e63a6391ea78dcef53d3d9f03664f76beb6cf3000adc5c0d5
+  1.6.7--py310h184ae93_1: 
+    sha256:028dc4282156235ed14cf778e81368b5c30940dc7f9a0e1ea7bcbe196e4027bf
 docker: quay.io/biocontainers/phanotate
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter

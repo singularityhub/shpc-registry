@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/adapterremoval
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for adapterremoval
 latest:
-  2.3.4--pl5321haf24da9_1: 
-    sha256:a3f40b914f590e25dc3256b481342c91ca490bc7abda264a73dc3cc9d9808bb5
+  2.3.4--pl5321haf24da9_2: 
+    sha256:238d0a5366f2e000bf92e48b924a8f22a66863d916abe657c32c31e8449ee9a6
 tags:
   2.3.3--pl5321h19e8d03_0: 
     sha256:e0c9cb7d5b6f1306a8147a97a59bf5a8b68915b88a2863a4b1b8c9eb24b21fc3
@@ -15,6 +15,8 @@ tags:
     sha256:d7cfa399c45483b1992368199035df4dc829e4026ccb15296519bb2f6b79a54e
   2.3.4--pl5321haf24da9_1: 
     sha256:a3f40b914f590e25dc3256b481342c91ca490bc7abda264a73dc3cc9d9808bb5
+  2.3.4--pl5321haf24da9_2: 
+    sha256:238d0a5366f2e000bf92e48b924a8f22a66863d916abe657c32c31e8449ee9a6
 docker: quay.io/biocontainers/adapterremoval
 aliases:
   AdapterRemoval: /usr/local/bin/AdapterRemoval

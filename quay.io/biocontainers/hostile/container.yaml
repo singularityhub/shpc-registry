@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hostile
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hostile
 latest:
-  2.0.1--pyhdfd78af_0: 
-    sha256:d79dce0850659a4e8867f17c4dddebe9f9bc4ec647aa96d70fb0c44203c619bb
+  2.0.2--pyhdfd78af_0: 
+    sha256:6bd59d49795a567cffc3cf47366e5c4bc494dc4eabb216efa7637d1690572f09
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:f5960c62146844c5d35c23c47740b1d6866ca3b358d2d77253df8a86eb7e5c9c
@@ -27,6 +27,8 @@ tags:
     sha256:67e6a73263cf843d4e506b3b5185519dfa16dcea7181b4a3533a217e2a001516
   2.0.1--pyhdfd78af_0: 
     sha256:d79dce0850659a4e8867f17c4dddebe9f9bc4ec647aa96d70fb0c44203c619bb
+  2.0.2--pyhdfd78af_0: 
+    sha256:6bd59d49795a567cffc3cf47366e5c4bc494dc4eabb216efa7637d1690572f09
 docker: quay.io/biocontainers/hostile
 aliases:
   hostile: /usr/local/bin/hostile

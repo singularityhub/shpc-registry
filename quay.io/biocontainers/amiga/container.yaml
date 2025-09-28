@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/amiga
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for amiga
 latest:
-  3.0.4--py311haab0aaa_0: 
-    sha256:cda941fabfaa970dcff171df755b984737b4ffed377387971ec97e896b4ff7be
+  3.0.4--pyhdfd78af_1: 
+    sha256:e73c5263bfd234de0f189f5c53009170f8068801ebcfa846962c4d1dc7c25088
 tags:
   3.0.3--py310h1fe012e_0: 
     sha256:186914d03368541e9686bb5867de4a2de603409a7671a8af79438d0843b8b09d
   3.0.4--py311haab0aaa_0: 
     sha256:cda941fabfaa970dcff171df755b984737b4ffed377387971ec97e896b4ff7be
+  3.0.4--pyhdfd78af_1: 
+    sha256:e73c5263bfd234de0f189f5c53009170f8068801ebcfa846962c4d1dc7c25088
 docker: quay.io/biocontainers/amiga
 aliases:
   amiga: /usr/local/bin/amiga

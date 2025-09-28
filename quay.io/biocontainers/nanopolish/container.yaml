@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nanopolish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanopolish
 latest:
-  0.14.0--hee927d3_5: 
-    sha256:e966469f153119fbc58db3bf615be16b40f102d6142485fc738b72433483900b
+  0.14.0--h5ca1c30_6: 
+    sha256:bcdb97c6bdf5670f020f13d15a2039c6bca5d95de9f98c5cc18644868d5c914a
 tags:
   0.9.2--py35_ncurses5.9_4: 
     sha256:ba8ef6aea6db4fbc47340e9d82dbb20861c4deda49cbd6960f4dedf84d3deda5
@@ -25,6 +25,8 @@ tags:
     sha256:bb7aa74f3890a07df62a931be7d9665d52afaef587f0f5b063e23c526326027a
   0.14.0--hee927d3_5: 
     sha256:e966469f153119fbc58db3bf615be16b40f102d6142485fc738b72433483900b
+  0.14.0--h5ca1c30_6: 
+    sha256:bcdb97c6bdf5670f020f13d15a2039c6bca5d95de9f98c5cc18644868d5c914a
 docker: quay.io/biocontainers/nanopolish
 aliases:
   ccmake: /usr/local/bin/ccmake

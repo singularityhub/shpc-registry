@@ -4,80 +4,83 @@ maintainer: '@vsoch'
 description: Go (a.k.a., Golang) is a programming language first developed at 
   Google.
 latest:
-  1-nanoserver-ltsc2025: 'crane digest golang:1-nanoserver-ltsc2025: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  1-nanoserver-ltsc2025: 
+    sha256:9bfd629e631c40acc5eddf5bd98f41c871afa6aca20c418556417844b9862d47
 filter:
 - ^(?!nano).*$
 - ^(?!windows).*$
 tags:
-  1.16.4-alpine: 'crane digest golang:1.16.4-alpine: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.16.5-alpine: 'crane digest golang:1.16.5-alpine: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17-rc-alpine: 'crane digest golang:1.17-rc-alpine: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17.0: 'crane digest golang:1.17.0: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17.2: 'crane digest golang:1.17.2: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17.3: 'crane digest golang:1.17.3: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.18-rc: 'crane digest golang:1.18-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  latest: 'crane digest golang:latest: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1': 'crane digest golang:1: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.18': 'crane digest golang:1.18: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17rc2: 'crane digest golang:1.17rc2: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17rc2-buster: 'crane digest golang:1.17rc2-buster: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.19-rc: 'crane digest golang:1.19-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.18-rc-buster: 'crane digest golang:1.18-rc-buster: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.19': 'crane digest golang:1.19: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.17': 'crane digest golang:1.17: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.16': 'crane digest golang:1.16: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.20-rc: 'crane digest golang:1.20-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-ltsc2022: 'crane digest golang:1-nanoserver-ltsc2022: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-sac2016: 'crane digest golang:1-nanoserver-sac2016: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-1809: 'crane digest golang:1-nanoserver-1809: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.20': 'crane digest golang:1.20: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-1803: 'crane digest golang:1-nanoserver-1803: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.21': 'crane digest golang:1.21: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.22-rc: 'crane digest golang:1.22-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.22': 'crane digest golang:1.22: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.23-rc: 'crane digest golang:1.23-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.23': 'crane digest golang:1.23: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.24-rc: 'crane digest golang:1.24-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-ltsc2025: 'crane digest golang:1-nanoserver-ltsc2025: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.24': 'crane digest golang:1.24: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.22.9: 'crane digest golang:1.22.9: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.25-rc: 'crane digest golang:1.25-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.22.9-bullseye: 'crane digest golang:1.22.9-bullseye: TOOMANYREQUESTS: You have
-    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.16.4-alpine: 
+    sha256:0dc62c5cc2d97657c17ff3bc0224214e10226e245c94317e352ee8a2c54368b4
+  1.16.5-alpine: 
+    sha256:45f32e963bb3cc408cfcd01a8e76b2872fb238f602ec5481cd75393da29369c0
+  1.17-rc-alpine: 
+    sha256:787111a3069abdb2c4d8c0b27dff2a29cef8b147f8e7a431f5a464ea84ebfa41
+  1.17.0: 
+    sha256:7dbfeb9d51c049e8bfe36cf1a4217c7b1ba304bf0eb72d57d0c04f405589f122
+  1.17.2: 
+    sha256:124966f5d54a41317ee81ccfe5f849d4f0deef4ed3c5c32c20be855c51c15027
+  1.17.3: 
+    sha256:199102125d11c943c927a8a33911ef960ca72c4879e307c7c2e40ceaa72201e3
+  1.18-rc: 
+    sha256:2da497bcc0c9ff09d4185907068c6f137d14e8848059971072f2e9cc936aae70
+  latest: 
+    sha256:8305f5fa8ea63c7b5bc85bd223ccc62941f852318ebfbd22f53bbd0b358c07e1
+  '1': sha256:8305f5fa8ea63c7b5bc85bd223ccc62941f852318ebfbd22f53bbd0b358c07e1
+  '1.18': 
+    sha256:50c889275d26f816b5314fc99f55425fa76b18fcaf16af255f5d57f09e1f48da
+  1.17rc2: 
+    sha256:c5b50f8381dcc9223b63dbb3e9f558eea0650310232bbc2dde8c3b861c60d1b2
+  1.17rc2-buster: 
+    sha256:824267ad82d38a31225b61038ac8735b791396d7df2a6c58f761756964ab4d2d
+  1.19-rc: 
+    sha256:c0feb14adb4e346527d86f09bdbcdbe33d1dac5876fbc12c567cd90808e6af4c
+  1.18-rc-buster: 
+    sha256:9acf37d060418071d7dbad182979fedc8289eaff0105806a0de2d1a389716fa6
+  '1.19': 
+    sha256:3025bf670b8363ec9f1b4c4f27348e6d9b7fec607c47e401e40df816853e743a
+  '1.17': 
+    sha256:87262e4a4c7db56158a80a18fefdc4fee5accc41b59cde821e691d05541bbb18
+  '1.16': 
+    sha256:5f6a4662de3efc6d6bb812d02e9de3d8698eea16b8eb7281f03e6f3e8383018e
+  1.20-rc: 
+    sha256:9ae483262c186de21686f37d0467c6cd054f9ef8c7e33a0cec2a5ec1b833e6bc
+  1-nanoserver-ltsc2022: 
+    sha256:f34b27472376dedc4392c8045462e71a1360bbd2180784d8bed3c2fe847747ce
+  1-nanoserver-sac2016: 
+    sha256:7ec07bfc64b92c148d14cbb3aec931676057436286fa09cf25650ef896468bf4
+  1-nanoserver-1809: 
+    sha256:f7684f9e64df48ac053e25fe3b1ebe285ff2421c136e8bb1776095053e5468c0
+  '1.20': 
+    sha256:8f9af7094d0cb27cc783c697ac5ba25efdc4da35f8526db21f7aebb0b0b4f18a
+  1-nanoserver-1803: 
+    sha256:cf40c6df853a26a9ee15cec62ead4e36a07e02aa1c589fe53acfdd6f725b4da7
+  '1.21': 
+    sha256:4746d26432a9117a5f58e95cb9f954ddf0de128e9d5816886514199316e4a2fb
+  1.22-rc: 
+    sha256:396fe480cfa7f561ca5061f37e5947934f95d725319adfd907ed9a179f4b477b
+  '1.22': 
+    sha256:1cf6c45ba39db9fd6db16922041d074a63c935556a05c5ccb62d181034df7f02
+  1.23-rc: 
+    sha256:defa4e60851ba610b0e718fd2912709f80cb36f7a39aea5ce366c07370a75bfd
+  '1.23': 
+    sha256:60deed95d3888cc5e4d9ff8a10c54e5edc008c6ae3fba6187be6fb592e19e8c0
+  1.24-rc: 
+    sha256:69ffbde212822c1bb785db9de3e27c4dc0077ade807f460b78ce49e38ecffeb2
+  1-nanoserver-ltsc2025: 
+    sha256:9bfd629e631c40acc5eddf5bd98f41c871afa6aca20c418556417844b9862d47
+  '1.24': 
+    sha256:87916acb3242b6259a26deaa7953bdc6a3a6762a28d340e4f1448e7b5c27c009
+  1.22.9: 
+    sha256:89ba45d0421d0a4404249abb3fee78fbc98b01b0bd0bf478d3db9ac35af54495
+  1.25-rc: 
+    sha256:55bd7eda3c9115b0b5714d6dc74bc9fd451050596f41b028e08b5fe62fcaf63f
+  1.22.9-bullseye: 
+    sha256:8a6a0c7189203ffd50b86839aee70b2b874800d6acccdefd1200148538d9eb5d
+  '1.25': 
+    sha256:8305f5fa8ea63c7b5bc85bd223ccc62941f852318ebfbd22f53bbd0b358c07e1
+  1.23.9: 
+    sha256:1cc01afde44821895ea712b5b4b802ef3c3ddeb7a7bb3f2e69c19bbc5877dace
 aliases:
   go: /usr/local/go/bin/go
   gofmt: /usr/local/go/bin/gofmt
