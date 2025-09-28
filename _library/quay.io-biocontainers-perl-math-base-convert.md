@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-math-base-convert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-base-convert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-base-convert/container.yaml"
-updated_at: "2025-09-27 03:32:39.662616"
-latest: "0.11--pl5321hdfd78af_2"
+updated_at: "2025-09-28 03:47:22.768329"
+latest: "0.13--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-math-base-convert"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.11--pl5321hdfd78af_2"
+ - "0.13--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-math-base-convert"
-config: {"url": "https://biocontainers.pro/tools/perl-math-base-convert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-math-base-convert", "latest": {"0.11--pl5321hdfd78af_2": "sha256:c5b65de6aa83997a01ff45cf5c0cc921c45e778ddb0641fa00cc6c58b212cf44"}, "tags": {"0.11--pl5321hdfd78af_2": "sha256:c5b65de6aa83997a01ff45cf5c0cc921c45e778ddb0641fa00cc6c58b212cf44"}, "docker": "quay.io/biocontainers/perl-math-base-convert", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-math-base-convert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-math-base-convert", "latest": {"0.13--pl5321hdfd78af_0": "sha256:7c77f263eeb5f36a24663db3e1eb1539254894a0e9a2f80cd59d198d8942ee69"}, "tags": {"0.11--pl5321hdfd78af_2": "sha256:c5b65de6aa83997a01ff45cf5c0cc921c45e778ddb0641fa00cc6c58b212cf44", "0.13--pl5321hdfd78af_0": "sha256:7c77f263eeb5f36a24663db3e1eb1539254894a0e9a2f80cd59d198d8942ee69"}, "docker": "quay.io/biocontainers/perl-math-base-convert", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-math-base-convert.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-math-base-convert
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-math-base-convert:0.11--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/perl-math-base-convert:0.13--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-math-base-convert/0.11--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/perl-math-base-convert/0.11--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/perl-math-base-convert/0.13--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-math-base-convert/0.13--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

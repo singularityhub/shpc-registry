@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/razers3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/razers3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/razers3/container.yaml"
-updated_at: "2025-09-27 03:34:59.837192"
+updated_at: "2025-09-28 03:49:44.703360"
 latest: "3.5.8--haf24da9_7"
 container_url: "https://biocontainers.pro/tools/razers3"
 aliases:

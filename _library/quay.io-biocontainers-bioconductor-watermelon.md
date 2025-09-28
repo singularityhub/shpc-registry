@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-watermelon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-watermelon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-watermelon/container.yaml"
-updated_at: "2025-09-27 03:43:16.186036"
+updated_at: "2025-09-28 03:58:06.376424"
 latest: "2.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-watermelon"
 

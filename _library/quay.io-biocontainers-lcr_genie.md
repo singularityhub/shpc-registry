@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lcr_genie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lcr_genie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lcr_genie/container.yaml"
-updated_at: "2025-09-27 03:21:38.815743"
+updated_at: "2025-09-28 03:36:11.289157"
 latest: "1.0.2"
 container_url: "https://biocontainers.pro/tools/lcr_genie"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sigfuge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sigfuge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sigfuge/container.yaml"
-updated_at: "2025-09-27 03:26:23.623583"
+updated_at: "2025-09-28 03:41:00.908257"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sigfuge"
 

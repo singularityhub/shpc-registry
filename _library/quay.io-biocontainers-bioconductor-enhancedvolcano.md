@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enhancedvolcano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enhancedvolcano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enhancedvolcano/container.yaml"
-updated_at: "2025-09-27 03:26:56.021978"
+updated_at: "2025-09-28 03:41:33.522390"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enhancedvolcano"
 aliases:

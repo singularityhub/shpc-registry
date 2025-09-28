@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pneumo-typer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pneumo-typer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pneumo-typer/container.yaml"
-updated_at: "2025-09-27 03:24:50.551358"
+updated_at: "2025-09-28 03:39:26.378182"
 latest: "2.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pneumo-typer"
 aliases:

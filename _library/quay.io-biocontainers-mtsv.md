@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/mtsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtsv/container.yaml"
-updated_at: "2025-09-27 03:30:34.124133"
-latest: "1.0.6--py36hf1ae8f4_2"
+updated_at: "2025-09-28 03:45:15.691430"
+latest: "1.0.6--py39h2de1943_5"
 container_url: "https://biocontainers.pro/tools/mtsv"
 
 versions:
  - "1.0.6--py36hf1ae8f4_2"
+ - "1.0.6--py39h2de1943_5"
 description: "shpc-registry automated BioContainers addition for mtsv"
-config: {"url": "https://biocontainers.pro/tools/mtsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtsv", "latest": {"1.0.6--py36hf1ae8f4_2": "sha256:268717e4ad395ed2d87f797458cf8f8613f4fceb0fe934cf956407fc17875b4f"}, "tags": {"1.0.6--py36hf1ae8f4_2": "sha256:268717e4ad395ed2d87f797458cf8f8613f4fceb0fe934cf956407fc17875b4f"}, "docker": "quay.io/biocontainers/mtsv"}
+config: {"url": "https://biocontainers.pro/tools/mtsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtsv", "latest": {"1.0.6--py39h2de1943_5": "sha256:37cfbebcbc6429f45d92377fcb20cd5c334d70222fc554ef6237ae9fc185d9fc"}, "tags": {"1.0.6--py36hf1ae8f4_2": "sha256:268717e4ad395ed2d87f797458cf8f8613f4fceb0fe934cf956407fc17875b4f", "1.0.6--py39h2de1943_5": "sha256:37cfbebcbc6429f45d92377fcb20cd5c334d70222fc554ef6237ae9fc185d9fc"}, "docker": "quay.io/biocontainers/mtsv"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mtsv.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/mtsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mtsv:1.0.6--py36hf1ae8f4_2
+$ shpc install quay.io/biocontainers/mtsv:1.0.6--py39h2de1943_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mtsv/1.0.6--py36hf1ae8f4_2
-$ module help quay.io/biocontainers/mtsv/1.0.6--py36hf1ae8f4_2
+$ module load quay.io/biocontainers/mtsv/1.0.6--py39h2de1943_5
+$ module help quay.io/biocontainers/mtsv/1.0.6--py39h2de1943_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

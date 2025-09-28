@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexsweep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexsweep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexsweep/container.yaml"
-updated_at: "2025-09-27 03:33:28.562344"
-latest: "1.0--pyhbffedc5_0"
+updated_at: "2025-09-28 03:48:12.198071"
+latest: "1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flexsweep"
 aliases:
  - "checksum-profile"
@@ -40,8 +40,9 @@ aliases:
  - "h5tools_test_utils"
 versions:
  - "1.0--pyhbffedc5_0"
+ - "1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flexsweep"
-config: {"url": "https://biocontainers.pro/tools/flexsweep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexsweep", "latest": {"1.0--pyhbffedc5_0": "sha256:d0c3f5672109168932d39a328fa771d632db89525136a98b3c529f86221d8ff2"}, "tags": {"1.0--pyhbffedc5_0": "sha256:d0c3f5672109168932d39a328fa771d632db89525136a98b3c529f86221d8ff2"}, "docker": "quay.io/biocontainers/flexsweep", "aliases": {"checksum-profile": "/usr/local/bin/checksum-profile", "demes": "/usr/local/bin/demes", "elastishadow": "/usr/local/bin/elastishadow", "flexsweep": "/usr/local/bin/flexsweep", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "flatc": "/usr/local/bin/flatc", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "dask": "/usr/local/bin/dask", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "isympy": "/usr/local/bin/isympy", "nosetests": "/usr/local/bin/nosetests", "torchrun": "/usr/local/bin/torchrun", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils"}}
+config: {"url": "https://biocontainers.pro/tools/flexsweep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexsweep", "latest": {"1.3--pyhdfd78af_0": "sha256:d89b2fe90443cafb62723912c0c990447e7d974fd6c7c085a3d66a201d6414d8"}, "tags": {"1.0--pyhbffedc5_0": "sha256:d0c3f5672109168932d39a328fa771d632db89525136a98b3c529f86221d8ff2", "1.3--pyhdfd78af_0": "sha256:d89b2fe90443cafb62723912c0c990447e7d974fd6c7c085a3d66a201d6414d8"}, "docker": "quay.io/biocontainers/flexsweep", "aliases": {"checksum-profile": "/usr/local/bin/checksum-profile", "demes": "/usr/local/bin/demes", "elastishadow": "/usr/local/bin/elastishadow", "flexsweep": "/usr/local/bin/flexsweep", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "flatc": "/usr/local/bin/flatc", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "dask": "/usr/local/bin/dask", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "isympy": "/usr/local/bin/isympy", "nosetests": "/usr/local/bin/nosetests", "torchrun": "/usr/local/bin/torchrun", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexsweep.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/flexsweep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexsweep:1.0--pyhbffedc5_0
+$ shpc install quay.io/biocontainers/flexsweep:1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexsweep/1.0--pyhbffedc5_0
-$ module help quay.io/biocontainers/flexsweep/1.0--pyhbffedc5_0
+$ module load quay.io/biocontainers/flexsweep/1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/flexsweep/1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

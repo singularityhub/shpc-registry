@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cpstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpstools/container.yaml"
-updated_at: "2025-09-27 03:14:55.161706"
+updated_at: "2025-09-28 03:29:22.046797"
 latest: "3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cpstools"
 aliases:

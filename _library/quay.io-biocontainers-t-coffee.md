@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/t-coffee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/t-coffee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/t-coffee/container.yaml"
-updated_at: "2025-09-27 03:14:11.742667"
+updated_at: "2025-09-28 03:28:37.745107"
 latest: "13.46.1.b8b01e06--pl5321hb2a3317_2"
 container_url: "https://biocontainers.pro/tools/t-coffee"
 aliases:

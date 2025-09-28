@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-interface-scheduler-plugins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-interface-scheduler-plugins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-interface-scheduler-plugins/container.yaml"
-updated_at: "2025-09-27 03:08:54.184789"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2025-09-28 03:23:17.820363"
+latest: "2.0.1--pyhd4c3c12_0"
 container_url: "https://biocontainers.pro/tools/snakemake-interface-scheduler-plugins"
 aliases:
  - "idle3.13"
@@ -14,8 +14,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.1--pyhd4c3c12_0"
 description: "singularity registry hpc automated addition for snakemake-interface-scheduler-plugins"
-config: {"url": "https://biocontainers.pro/tools/snakemake-interface-scheduler-plugins", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-interface-scheduler-plugins", "latest": {"2.0.0--pyhdfd78af_0": "sha256:09b445f19336039f188084d2d390ae11815ef4f7e77388e1fdf41f281cfe24e9"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:09b445f19336039f188084d2d390ae11815ef4f7e77388e1fdf41f281cfe24e9"}, "docker": "quay.io/biocontainers/snakemake-interface-scheduler-plugins", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-interface-scheduler-plugins", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-interface-scheduler-plugins", "latest": {"2.0.1--pyhd4c3c12_0": "sha256:78b0e30ac38469bacb3d4b8ed5d7c97ddb8bbefe5fa11239eb19a35cca4e8b0b"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:09b445f19336039f188084d2d390ae11815ef4f7e77388e1fdf41f281cfe24e9", "2.0.1--pyhd4c3c12_0": "sha256:78b0e30ac38469bacb3d4b8ed5d7c97ddb8bbefe5fa11239eb19a35cca4e8b0b"}, "docker": "quay.io/biocontainers/snakemake-interface-scheduler-plugins", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-interface-scheduler-plugins.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/snakemake-interface-scheduler-plugins
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-interface-scheduler-plugins:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-interface-scheduler-plugins:2.0.1--pyhd4c3c12_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-interface-scheduler-plugins/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-interface-scheduler-plugins/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-interface-scheduler-plugins/2.0.1--pyhd4c3c12_0
+$ module help quay.io/biocontainers/snakemake-interface-scheduler-plugins/2.0.1--pyhd4c3c12_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lrge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrge/container.yaml"
-updated_at: "2025-09-27 03:22:18.060189"
-latest: "0.2.0--h9f13da3_0"
+updated_at: "2025-09-28 03:36:50.570233"
+latest: "0.2.1--h9f13da3_0"
 container_url: "https://biocontainers.pro/tools/lrge"
 aliases:
  - "lrge"
@@ -13,8 +13,9 @@ versions:
  - "0.1.1--h53be72d_0"
  - "0.1.3--h9f13da3_1"
  - "0.2.0--h9f13da3_0"
+ - "0.2.1--h9f13da3_0"
 description: "singularity registry hpc automated addition for lrge"
-config: {"url": "https://biocontainers.pro/tools/lrge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lrge", "latest": {"0.2.0--h9f13da3_0": "sha256:ee000b45459bf68582e399a3921c649cca3bac800cad8731dbf77af3c2d0fa36"}, "tags": {"0.1.1--h53be72d_0": "sha256:05853c2e08978ceded69933b786da7cab85e8f773519a9ada60ea3fd440932fa", "0.1.3--h9f13da3_1": "sha256:6350ada8cc260bb87c8560c3876fca4c3ed536e78af28f841fb7b693cef3e957", "0.2.0--h9f13da3_0": "sha256:ee000b45459bf68582e399a3921c649cca3bac800cad8731dbf77af3c2d0fa36"}, "docker": "quay.io/biocontainers/lrge", "aliases": {"lrge": "/usr/local/bin/lrge"}}
+config: {"url": "https://biocontainers.pro/tools/lrge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lrge", "latest": {"0.2.1--h9f13da3_0": "sha256:5dc2d2bf7f6cbcf0ade9f64cbf032c65aa59332bc78d9b8cfe4bad29483bccfd"}, "tags": {"0.1.1--h53be72d_0": "sha256:05853c2e08978ceded69933b786da7cab85e8f773519a9ada60ea3fd440932fa", "0.1.3--h9f13da3_1": "sha256:6350ada8cc260bb87c8560c3876fca4c3ed536e78af28f841fb7b693cef3e957", "0.2.0--h9f13da3_0": "sha256:ee000b45459bf68582e399a3921c649cca3bac800cad8731dbf77af3c2d0fa36", "0.2.1--h9f13da3_0": "sha256:5dc2d2bf7f6cbcf0ade9f64cbf032c65aa59332bc78d9b8cfe4bad29483bccfd"}, "docker": "quay.io/biocontainers/lrge", "aliases": {"lrge": "/usr/local/bin/lrge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lrge.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/lrge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lrge:0.2.0--h9f13da3_0
+$ shpc install quay.io/biocontainers/lrge:0.2.1--h9f13da3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lrge/0.2.0--h9f13da3_0
-$ module help quay.io/biocontainers/lrge/0.2.0--h9f13da3_0
+$ module load quay.io/biocontainers/lrge/0.2.1--h9f13da3_0
+$ module help quay.io/biocontainers/lrge/0.2.1--h9f13da3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
