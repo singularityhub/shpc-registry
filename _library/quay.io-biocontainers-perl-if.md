@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-if"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-if/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-if/container.yaml"
-updated_at: "2025-09-28 03:39:05.123307"
+updated_at: "2025-09-29 03:35:11.826695"
 latest: "0.0608--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-if"
 aliases:

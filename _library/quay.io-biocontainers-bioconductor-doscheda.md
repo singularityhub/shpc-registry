@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-doscheda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doscheda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doscheda/container.yaml"
-updated_at: "2025-09-28 03:38:49.384012"
+updated_at: "2025-09-29 03:34:56.266339"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-doscheda"
 aliases:

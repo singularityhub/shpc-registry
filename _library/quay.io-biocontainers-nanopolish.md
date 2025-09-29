@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanopolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanopolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanopolish/container.yaml"
-updated_at: "2025-09-28 03:33:05.881950"
-latest: "0.14.0--hee927d3_5"
+updated_at: "2025-09-29 03:29:20.950345"
+latest: "0.14.0--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/nanopolish"
 aliases:
  - "ccmake"
@@ -45,8 +45,9 @@ versions:
  - "0.14.0--h773013f_3"
  - "0.14.0--h56e2c18_4"
  - "0.14.0--hee927d3_5"
+ - "0.14.0--h5ca1c30_6"
 description: "shpc-registry automated BioContainers addition for nanopolish"
-config: {"url": "https://biocontainers.pro/tools/nanopolish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanopolish", "latest": {"0.14.0--hee927d3_5": "sha256:e966469f153119fbc58db3bf615be16b40f102d6142485fc738b72433483900b"}, "tags": {"0.9.2--py35_ncurses5.9_4": "sha256:ba8ef6aea6db4fbc47340e9d82dbb20861c4deda49cbd6960f4dedf84d3deda5", "0.14.0--hb24e783_1": "sha256:216b64335890bef9ec3c58c0e8fb5036e8eaca054ab75755b0b95ba5f3965ea5", "0.13.2--hd7c1219_10": "sha256:bbf1732ee86df764e1a639ce59843da2e80543ee1716266c5e1210f366286821", "0.12.5--ha077697_2": "sha256:0c6a410d217e2f7f30bc8cdac1918ed636ec942bfe90a2ef4185eaf96c7cb31d", "0.11.3--h705302d_0": "sha256:dd9c565b61c5611f5c0d5bd0632bdc9a29f5397112b12b4afb68a9f1596cba80", "0.10.2--h78a5b34_0": "sha256:85c1305bc8bd4ef206e6706d35e2ec604ba5ec4b5bc46cb324c9136b2ac7a71c", "0.14.0--h893af9b_2": "sha256:fa64a8063edd47c35b39d4f26be5f66128fdc4afcf79cc4907fdd7f462d4df7e", "0.14.0--h773013f_3": "sha256:06bf779e7c7fa4725e750928802d055af730ad71623fb632934dd9b931efc894", "0.14.0--h56e2c18_4": "sha256:bb7aa74f3890a07df62a931be7d9665d52afaef587f0f5b063e23c526326027a", "0.14.0--hee927d3_5": "sha256:e966469f153119fbc58db3bf615be16b40f102d6142485fc738b72433483900b"}, "docker": "quay.io/biocontainers/nanopolish", "aliases": {"ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "gost-hash": "/usr/local/bin/gost-hash", "has160-hash": "/usr/local/bin/has160-hash", "magnet-link": "/usr/local/bin/magnet-link", "nanopolish": "/usr/local/bin/nanopolish", "nanopolish_makerange.py": "/usr/local/bin/nanopolish_makerange.py", "nanopolish_merge.py": "/usr/local/bin/nanopolish_merge.py", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py"}}
+config: {"url": "https://biocontainers.pro/tools/nanopolish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanopolish", "latest": {"0.14.0--h5ca1c30_6": "sha256:bcdb97c6bdf5670f020f13d15a2039c6bca5d95de9f98c5cc18644868d5c914a"}, "tags": {"0.9.2--py35_ncurses5.9_4": "sha256:ba8ef6aea6db4fbc47340e9d82dbb20861c4deda49cbd6960f4dedf84d3deda5", "0.14.0--hb24e783_1": "sha256:216b64335890bef9ec3c58c0e8fb5036e8eaca054ab75755b0b95ba5f3965ea5", "0.13.2--hd7c1219_10": "sha256:bbf1732ee86df764e1a639ce59843da2e80543ee1716266c5e1210f366286821", "0.12.5--ha077697_2": "sha256:0c6a410d217e2f7f30bc8cdac1918ed636ec942bfe90a2ef4185eaf96c7cb31d", "0.11.3--h705302d_0": "sha256:dd9c565b61c5611f5c0d5bd0632bdc9a29f5397112b12b4afb68a9f1596cba80", "0.10.2--h78a5b34_0": "sha256:85c1305bc8bd4ef206e6706d35e2ec604ba5ec4b5bc46cb324c9136b2ac7a71c", "0.14.0--h893af9b_2": "sha256:fa64a8063edd47c35b39d4f26be5f66128fdc4afcf79cc4907fdd7f462d4df7e", "0.14.0--h773013f_3": "sha256:06bf779e7c7fa4725e750928802d055af730ad71623fb632934dd9b931efc894", "0.14.0--h56e2c18_4": "sha256:bb7aa74f3890a07df62a931be7d9665d52afaef587f0f5b063e23c526326027a", "0.14.0--hee927d3_5": "sha256:e966469f153119fbc58db3bf615be16b40f102d6142485fc738b72433483900b", "0.14.0--h5ca1c30_6": "sha256:bcdb97c6bdf5670f020f13d15a2039c6bca5d95de9f98c5cc18644868d5c914a"}, "docker": "quay.io/biocontainers/nanopolish", "aliases": {"ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "ed2k-link": "/usr/local/bin/ed2k-link", "gost-hash": "/usr/local/bin/gost-hash", "has160-hash": "/usr/local/bin/has160-hash", "magnet-link": "/usr/local/bin/magnet-link", "nanopolish": "/usr/local/bin/nanopolish", "nanopolish_makerange.py": "/usr/local/bin/nanopolish_makerange.py", "nanopolish_merge.py": "/usr/local/bin/nanopolish_merge.py", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanopolish.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/nanopolish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanopolish:0.14.0--hee927d3_5
+$ shpc install quay.io/biocontainers/nanopolish:0.14.0--h5ca1c30_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanopolish/0.14.0--hee927d3_5
-$ module help quay.io/biocontainers/nanopolish/0.14.0--hee927d3_5
+$ module load quay.io/biocontainers/nanopolish/0.14.0--h5ca1c30_6
+$ module help quay.io/biocontainers/nanopolish/0.14.0--h5ca1c30_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

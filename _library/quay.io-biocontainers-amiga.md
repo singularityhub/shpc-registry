@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amiga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amiga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amiga/container.yaml"
-updated_at: "2025-09-28 03:56:27.193451"
-latest: "3.0.4--py311haab0aaa_0"
+updated_at: "2025-09-29 03:52:12.320182"
+latest: "3.0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/amiga"
 aliases:
  - "amiga"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "3.0.3--py310h1fe012e_0"
  - "3.0.4--py311haab0aaa_0"
+ - "3.0.4--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for amiga"
-config: {"url": "https://biocontainers.pro/tools/amiga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amiga", "latest": {"3.0.4--py311haab0aaa_0": "sha256:cda941fabfaa970dcff171df755b984737b4ffed377387971ec97e896b4ff7be"}, "tags": {"3.0.3--py310h1fe012e_0": "sha256:186914d03368541e9686bb5867de4a2de603409a7671a8af79438d0843b8b09d", "3.0.4--py311haab0aaa_0": "sha256:cda941fabfaa970dcff171df755b984737b4ffed377387971ec97e896b4ff7be"}, "docker": "quay.io/biocontainers/amiga", "aliases": {"amiga": "/usr/local/bin/amiga", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "tabulate": "/usr/local/bin/tabulate", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/amiga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amiga", "latest": {"3.0.4--pyhdfd78af_1": "sha256:e73c5263bfd234de0f189f5c53009170f8068801ebcfa846962c4d1dc7c25088"}, "tags": {"3.0.3--py310h1fe012e_0": "sha256:186914d03368541e9686bb5867de4a2de603409a7671a8af79438d0843b8b09d", "3.0.4--py311haab0aaa_0": "sha256:cda941fabfaa970dcff171df755b984737b4ffed377387971ec97e896b4ff7be", "3.0.4--pyhdfd78af_1": "sha256:e73c5263bfd234de0f189f5c53009170f8068801ebcfa846962c4d1dc7c25088"}, "docker": "quay.io/biocontainers/amiga", "aliases": {"amiga": "/usr/local/bin/amiga", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "tabulate": "/usr/local/bin/tabulate", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amiga.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/amiga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amiga:3.0.4--py311haab0aaa_0
+$ shpc install quay.io/biocontainers/amiga:3.0.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amiga/3.0.4--py311haab0aaa_0
-$ module help quay.io/biocontainers/amiga/3.0.4--py311haab0aaa_0
+$ module load quay.io/biocontainers/amiga/3.0.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/amiga/3.0.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

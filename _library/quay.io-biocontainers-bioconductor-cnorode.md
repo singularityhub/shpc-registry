@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnorode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnorode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnorode/container.yaml"
-updated_at: "2025-09-28 03:57:03.686492"
+updated_at: "2025-09-29 03:52:47.638333"
 latest: "1.42.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnorode"
 aliases:

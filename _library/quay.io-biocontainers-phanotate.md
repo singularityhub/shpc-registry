@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phanotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phanotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phanotate/container.yaml"
-updated_at: "2025-09-28 03:24:54.474766"
-latest: "1.6.7--py39h2de1943_0"
+updated_at: "2025-09-29 03:21:19.645743"
+latest: "1.6.7--py310h184ae93_1"
 container_url: "https://biocontainers.pro/tools/phanotate"
 aliases:
  - "EukHighConfidenceFilter"
@@ -38,8 +38,9 @@ versions:
  - "1.6.5--py38h2123bcc_1"
  - "1.6.6--py312h28adbb1_0"
  - "1.6.7--py39h2de1943_0"
+ - "1.6.7--py310h184ae93_1"
 description: "shpc-registry automated BioContainers addition for phanotate"
-config: {"url": "https://biocontainers.pro/tools/phanotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phanotate", "latest": {"1.6.7--py39h2de1943_0": "sha256:0f8dfda237ba0f9e63a6391ea78dcef53d3d9f03664f76beb6cf3000adc5c0d5"}, "tags": {"1.5.0--hc16433a_2": "sha256:27e891bbc6ba3809c74389b3871538d751455fe59d69dc4168e5374dd70a4f59", "1.5.1--hc16433a_0": "sha256:e0f97d2fa664f605223b16b34ebdd04e838f6a018d3a367766128020eac9035f", "1.5.1--h2494328_1": "sha256:1b52ae08f4dd57380299b7bbbd49e967a0212849646f184aa34f06691ff8054a", "1.6.4--py38h2494328_0": "sha256:584a0209389dddc95f63be2517f7f389c4b568a20d04b24b870ea1effb66390a", "1.6.5--py310h0dbaff4_0": "sha256:e6d964a0a5c443c9303fffe489ba29784dcefa93ba2bd008758beb81ce65078b", "1.5.1--h1f90b4d_1": "sha256:4fe4209d154a5fdc78b83618593d86a939a7ccc1e144adc0076f76e3ec3d1d35", "1.6.5--py38h2123bcc_1": "sha256:55d31a9a5bc0b7dc95b6847ca15b2c8c90c721dd5f63557f99d6515f1875488c", "1.6.6--py312h28adbb1_0": "sha256:b6bdf6357e422f3875c420f2b881824b25fa394703f68180bde9926359b2b242", "1.6.7--py39h2de1943_0": "sha256:0f8dfda237ba0f9e63a6391ea78dcef53d3d9f03664f76beb6cf3000adc5c0d5"}, "docker": "quay.io/biocontainers/phanotate", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "phanotate.py": "/usr/local/bin/phanotate.py", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
+config: {"url": "https://biocontainers.pro/tools/phanotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phanotate", "latest": {"1.6.7--py310h184ae93_1": "sha256:028dc4282156235ed14cf778e81368b5c30940dc7f9a0e1ea7bcbe196e4027bf"}, "tags": {"1.5.0--hc16433a_2": "sha256:27e891bbc6ba3809c74389b3871538d751455fe59d69dc4168e5374dd70a4f59", "1.5.1--hc16433a_0": "sha256:e0f97d2fa664f605223b16b34ebdd04e838f6a018d3a367766128020eac9035f", "1.5.1--h2494328_1": "sha256:1b52ae08f4dd57380299b7bbbd49e967a0212849646f184aa34f06691ff8054a", "1.6.4--py38h2494328_0": "sha256:584a0209389dddc95f63be2517f7f389c4b568a20d04b24b870ea1effb66390a", "1.6.5--py310h0dbaff4_0": "sha256:e6d964a0a5c443c9303fffe489ba29784dcefa93ba2bd008758beb81ce65078b", "1.5.1--h1f90b4d_1": "sha256:4fe4209d154a5fdc78b83618593d86a939a7ccc1e144adc0076f76e3ec3d1d35", "1.6.5--py38h2123bcc_1": "sha256:55d31a9a5bc0b7dc95b6847ca15b2c8c90c721dd5f63557f99d6515f1875488c", "1.6.6--py312h28adbb1_0": "sha256:b6bdf6357e422f3875c420f2b881824b25fa394703f68180bde9926359b2b242", "1.6.7--py39h2de1943_0": "sha256:0f8dfda237ba0f9e63a6391ea78dcef53d3d9f03664f76beb6cf3000adc5c0d5", "1.6.7--py310h184ae93_1": "sha256:028dc4282156235ed14cf778e81368b5c30940dc7f9a0e1ea7bcbe196e4027bf"}, "docker": "quay.io/biocontainers/phanotate", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "phanotate.py": "/usr/local/bin/phanotate.py", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phanotate.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/phanotate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phanotate:1.6.7--py39h2de1943_0
+$ shpc install quay.io/biocontainers/phanotate:1.6.7--py310h184ae93_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phanotate/1.6.7--py39h2de1943_0
-$ module help quay.io/biocontainers/phanotate/1.6.7--py39h2de1943_0
+$ module load quay.io/biocontainers/phanotate/1.6.7--py310h184ae93_1
+$ module help quay.io/biocontainers/phanotate/1.6.7--py310h184ae93_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

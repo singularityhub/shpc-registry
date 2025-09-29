@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexiformatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexiformatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexiformatter/container.yaml"
-updated_at: "2025-09-28 03:19:07.543111"
-latest: "1.0.3--pyhdfd78af_0"
+updated_at: "2025-09-29 03:15:36.098681"
+latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flexiformatter"
 aliases:
  - "flexiformatter"
@@ -43,8 +43,9 @@ aliases:
 versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.3--pyhdfd78af_0"
+ - "1.0.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flexiformatter"
-config: {"url": "https://biocontainers.pro/tools/flexiformatter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexiformatter", "latest": {"1.0.3--pyhdfd78af_0": "sha256:1e6715d1cd078c486cc7d63784c57a973aa91a4be4215d9738bef7cbcff55725"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:19a5920df83b2ca638d263ef9b80bcf620b9892963ae3b95ca273f23d1935fb6", "1.0.3--pyhdfd78af_0": "sha256:1e6715d1cd078c486cc7d63784c57a973aa91a4be4215d9738bef7cbcff55725"}, "docker": "quay.io/biocontainers/flexiformatter", "aliases": {"flexiformatter": "/usr/local/bin/flexiformatter", "idle3.13": "/usr/local/bin/idle3.13", "pileup.py": "/usr/local/bin/pileup.py", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "typer": "/usr/local/bin/typer", "annot-tsv": "/usr/local/bin/annot-tsv", "markdown-it": "/usr/local/bin/markdown-it", "pygmentize": "/usr/local/bin/pygmentize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools"}}
+config: {"url": "https://biocontainers.pro/tools/flexiformatter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexiformatter", "latest": {"1.0.5--pyhdfd78af_0": "sha256:61b8aa5bfdcdc773099d7ded91813e3e2cac3c4e380ed3274c79a4f4b2ec8162"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:19a5920df83b2ca638d263ef9b80bcf620b9892963ae3b95ca273f23d1935fb6", "1.0.3--pyhdfd78af_0": "sha256:1e6715d1cd078c486cc7d63784c57a973aa91a4be4215d9738bef7cbcff55725", "1.0.5--pyhdfd78af_0": "sha256:61b8aa5bfdcdc773099d7ded91813e3e2cac3c4e380ed3274c79a4f4b2ec8162"}, "docker": "quay.io/biocontainers/flexiformatter", "aliases": {"flexiformatter": "/usr/local/bin/flexiformatter", "idle3.13": "/usr/local/bin/idle3.13", "pileup.py": "/usr/local/bin/pileup.py", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "typer": "/usr/local/bin/typer", "annot-tsv": "/usr/local/bin/annot-tsv", "markdown-it": "/usr/local/bin/markdown-it", "pygmentize": "/usr/local/bin/pygmentize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl", "novo2sam.pl": "/usr/local/bin/novo2sam.pl", "wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "samtools": "/usr/local/bin/samtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexiformatter.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/flexiformatter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexiformatter:1.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flexiformatter:1.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexiformatter/1.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/flexiformatter/1.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/flexiformatter/1.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/flexiformatter/1.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

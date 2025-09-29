@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quip/container.yaml"
-updated_at: "2025-09-28 03:59:59.737643"
-latest: "1.1.8--h5bf99c6_1"
+updated_at: "2025-09-29 03:55:39.163719"
+latest: "1.1.8--hb1d24b7_3"
 container_url: "https://biocontainers.pro/tools/quip"
 aliases:
  - "bammd5"
@@ -15,8 +15,9 @@ aliases:
  - "unquip"
 versions:
  - "1.1.8--h5bf99c6_1"
+ - "1.1.8--hb1d24b7_3"
 description: "shpc-registry automated BioContainers addition for quip"
-config: {"url": "https://biocontainers.pro/tools/quip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quip", "latest": {"1.1.8--h5bf99c6_1": "sha256:436b89302f0fdf85caae06fd03a844b515022595155773e43aacaf7d85dcf14d"}, "tags": {"1.1.8--h5bf99c6_1": "sha256:436b89302f0fdf85caae06fd03a844b515022595155773e43aacaf7d85dcf14d"}, "docker": "quay.io/biocontainers/quip", "aliases": {"bammd5": "/usr/local/bin/bammd5", "fastqmd5": "/usr/local/bin/fastqmd5", "quip": "/usr/local/bin/quip", "quipcat": "/usr/local/bin/quipcat", "unquip": "/usr/local/bin/unquip"}}
+config: {"url": "https://biocontainers.pro/tools/quip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quip", "latest": {"1.1.8--hb1d24b7_3": "sha256:1d4f6b3e4eff99fea1a58fd27d7617c49bec68f6cfbb5980abbe4876058bd19a"}, "tags": {"1.1.8--h5bf99c6_1": "sha256:436b89302f0fdf85caae06fd03a844b515022595155773e43aacaf7d85dcf14d", "1.1.8--hb1d24b7_3": "sha256:1d4f6b3e4eff99fea1a58fd27d7617c49bec68f6cfbb5980abbe4876058bd19a"}, "docker": "quay.io/biocontainers/quip", "aliases": {"bammd5": "/usr/local/bin/bammd5", "fastqmd5": "/usr/local/bin/fastqmd5", "quip": "/usr/local/bin/quip", "quipcat": "/usr/local/bin/quipcat", "unquip": "/usr/local/bin/unquip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quip.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/quip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quip:1.1.8--h5bf99c6_1
+$ shpc install quay.io/biocontainers/quip:1.1.8--hb1d24b7_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quip/1.1.8--h5bf99c6_1
-$ module help quay.io/biocontainers/quip/1.1.8--h5bf99c6_1
+$ module load quay.io/biocontainers/quip/1.1.8--hb1d24b7_3
+$ module help quay.io/biocontainers/quip/1.1.8--hb1d24b7_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cutesv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutesv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutesv/container.yaml"
-updated_at: "2025-09-28 03:26:52.580958"
-latest: "2.1.2--pyhdfd78af_0"
+updated_at: "2025-09-29 03:23:15.078637"
+latest: "2.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cutesv"
 aliases:
  - "cuteSV"
@@ -25,8 +25,9 @@ versions:
  - "2.1.0--pyhdfd78af_0"
  - "2.1.1--pyhdfd78af_0"
  - "2.1.2--pyhdfd78af_0"
+ - "2.1.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cutesv"
-config: {"url": "https://biocontainers.pro/tools/cutesv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cutesv", "latest": {"2.1.2--pyhdfd78af_0": "sha256:32111df378164548749be63141bc9128cb0036301ee1caebb859fb600ef5fdf3"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:fba304e987bee606ad3b1ffe43953d10bf0074923e5e2ea1754fd21f550bd95e", "2.0.2--pyhdfd78af_0": "sha256:d2843e149c59ebc99e72796a636393341085f8fb40b6f4a5ceba914e450f6daa", "2.0.3--pyhdfd78af_0": "sha256:f72b2f2b07398ad73342d56655054183e2af9e1ddc230f6f43af79d9a51fd15b", "2.1.0--pyhdfd78af_0": "sha256:6c461cb16454f0c0be92e5ce7b1f80ebab21ac8b2e010a76da6227653bce8d48", "2.1.1--pyhdfd78af_0": "sha256:a3d84db19181a87b0eabc8fc52da6f3d6ea2a009fe59e0998b74c36a30f23bee", "2.1.2--pyhdfd78af_0": "sha256:32111df378164548749be63141bc9128cb0036301ee1caebb859fb600ef5fdf3"}, "docker": "quay.io/biocontainers/cutesv", "aliases": {"cuteSV": "/usr/local/bin/cuteSV", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cutesv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cutesv", "latest": {"2.1.3--pyhdfd78af_0": "sha256:03cc458b2a988bbb3975f06d25af67226324a60c3dbdafc3221f86ab92c7a70c"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:fba304e987bee606ad3b1ffe43953d10bf0074923e5e2ea1754fd21f550bd95e", "2.0.2--pyhdfd78af_0": "sha256:d2843e149c59ebc99e72796a636393341085f8fb40b6f4a5ceba914e450f6daa", "2.0.3--pyhdfd78af_0": "sha256:f72b2f2b07398ad73342d56655054183e2af9e1ddc230f6f43af79d9a51fd15b", "2.1.0--pyhdfd78af_0": "sha256:6c461cb16454f0c0be92e5ce7b1f80ebab21ac8b2e010a76da6227653bce8d48", "2.1.1--pyhdfd78af_0": "sha256:a3d84db19181a87b0eabc8fc52da6f3d6ea2a009fe59e0998b74c36a30f23bee", "2.1.2--pyhdfd78af_0": "sha256:32111df378164548749be63141bc9128cb0036301ee1caebb859fb600ef5fdf3", "2.1.3--pyhdfd78af_0": "sha256:03cc458b2a988bbb3975f06d25af67226324a60c3dbdafc3221f86ab92c7a70c"}, "docker": "quay.io/biocontainers/cutesv", "aliases": {"cuteSV": "/usr/local/bin/cuteSV", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cutesv.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/cutesv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cutesv:2.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cutesv:2.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cutesv/2.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/cutesv/2.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/cutesv/2.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/cutesv/2.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

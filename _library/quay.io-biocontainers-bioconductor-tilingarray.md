@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tilingarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tilingarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tilingarray/container.yaml"
-updated_at: "2025-09-28 03:32:25.761028"
+updated_at: "2025-09-29 03:28:42.033584"
 latest: "1.84.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tilingarray"
 

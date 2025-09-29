@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fraggenescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fraggenescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fraggenescan/container.yaml"
-updated_at: "2025-09-28 03:30:53.245917"
-latest: "1.32--h7b50bb2_0"
+updated_at: "2025-09-29 03:27:11.900247"
+latest: "1.32--h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/fraggenescan"
 aliases:
  - "FragGeneScan"
@@ -18,8 +18,9 @@ versions:
  - "1.31--h031d066_7"
  - "1.32--h7b50bb2_0"
  - "1.31--h7b50bb2_8"
+ - "1.32--h7b50bb2_1"
 description: "shpc-registry automated BioContainers addition for fraggenescan"
-config: {"url": "https://biocontainers.pro/tools/fraggenescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fraggenescan", "latest": {"1.32--h7b50bb2_0": "sha256:f6e7983516ee41704f4837ff99f5d1ca4fe149cdc202c4cb7ce998d3cfc5b02d"}, "tags": {"1.31--hec16e2b_4": "sha256:aa423a24228d6ea9b6916e4e48aa9d2c000c8786ddcbd9de3194474c5b4ce00b", "1.31--h031d066_6": "sha256:3f526607afa5c14ac82543d109ebf9e411fb2e7f742b874de3bb789911965abb", "1.31--h031d066_7": "sha256:d379f795280e88354b3f531405a008d4fb41c50e31a57b161b329d584edae7e7", "1.32--h7b50bb2_0": "sha256:f6e7983516ee41704f4837ff99f5d1ca4fe149cdc202c4cb7ce998d3cfc5b02d", "1.31--h7b50bb2_8": "sha256:1704f408c97da6a178244b055a7fa88982594a034d698a38c31175ad0b89f055"}, "docker": "quay.io/biocontainers/fraggenescan", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/fraggenescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fraggenescan", "latest": {"1.32--h7b50bb2_1": "sha256:415246d769a279518802964f91cff0ba5a62badde6b5cbf5d79f9c08d6c333f7"}, "tags": {"1.31--hec16e2b_4": "sha256:aa423a24228d6ea9b6916e4e48aa9d2c000c8786ddcbd9de3194474c5b4ce00b", "1.31--h031d066_6": "sha256:3f526607afa5c14ac82543d109ebf9e411fb2e7f742b874de3bb789911965abb", "1.31--h031d066_7": "sha256:d379f795280e88354b3f531405a008d4fb41c50e31a57b161b329d584edae7e7", "1.32--h7b50bb2_0": "sha256:f6e7983516ee41704f4837ff99f5d1ca4fe149cdc202c4cb7ce998d3cfc5b02d", "1.31--h7b50bb2_8": "sha256:1704f408c97da6a178244b055a7fa88982594a034d698a38c31175ad0b89f055", "1.32--h7b50bb2_1": "sha256:415246d769a279518802964f91cff0ba5a62badde6b5cbf5d79f9c08d6c333f7"}, "docker": "quay.io/biocontainers/fraggenescan", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fraggenescan.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/fraggenescan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fraggenescan:1.32--h7b50bb2_0
+$ shpc install quay.io/biocontainers/fraggenescan:1.32--h7b50bb2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fraggenescan/1.32--h7b50bb2_0
-$ module help quay.io/biocontainers/fraggenescan/1.32--h7b50bb2_0
+$ module load quay.io/biocontainers/fraggenescan/1.32--h7b50bb2_1
+$ module help quay.io/biocontainers/fraggenescan/1.32--h7b50bb2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
