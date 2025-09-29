@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hash-util-fieldhash-compat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hash-util-fieldhash-compat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hash-util-fieldhash-compat/container.yaml"
-updated_at: "2025-09-29 03:44:23.025399"
+updated_at: "2025-09-29 04:42:38.639734"
 latest: "0.11--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-hash-util-fieldhash-compat"
 aliases:

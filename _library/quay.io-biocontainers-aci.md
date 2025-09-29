@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aci/container.yaml"
-updated_at: "2025-09-29 03:42:35.842477"
+updated_at: "2025-09-29 04:40:43.710504"
 latest: "1.15.250702--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aci"
 aliases:

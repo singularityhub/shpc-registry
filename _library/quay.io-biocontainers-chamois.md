@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chamois"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chamois/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chamois/container.yaml"
-updated_at: "2025-09-29 03:44:08.181700"
+updated_at: "2025-09-29 04:42:22.742585"
 latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chamois"
 aliases:

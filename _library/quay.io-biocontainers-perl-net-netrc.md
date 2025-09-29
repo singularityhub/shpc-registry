@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-net-netrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-net-netrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-net-netrc/container.yaml"
-updated_at: "2025-09-29 03:35:02.818421"
+updated_at: "2025-09-29 04:32:24.013454"
 latest: "2.14--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-net-netrc"
 aliases:

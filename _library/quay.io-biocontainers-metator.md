@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metator/container.yaml"
-updated_at: "2025-09-29 03:14:06.263697"
+updated_at: "2025-09-29 04:08:55.058694"
 latest: "1.3.10--py310h184ae93_0"
 container_url: "https://biocontainers.pro/tools/metator"
 aliases:

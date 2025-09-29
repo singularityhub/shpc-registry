@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quick-variants"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quick-variants/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quick-variants/container.yaml"
-updated_at: "2025-09-29 03:11:06.487184"
+updated_at: "2025-09-29 04:05:32.327006"
 latest: "1.2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/quick-variants"
 aliases:

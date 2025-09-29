@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iptkl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iptkl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iptkl/container.yaml"
-updated_at: "2025-09-29 03:10:56.995051"
+updated_at: "2025-09-29 04:05:21.361986"
 latest: "0.6.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/iptkl"
 aliases:
