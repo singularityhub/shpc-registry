@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/paraviewer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for paraviewer
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:266a089cb2c610dc04c14e6f4c71946273c033ab202fda5063db033da2c273b0
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:266a089cb2c610dc04c14e6f4c71946273c033ab202fda5063db033da2c273b0
+docker: quay.io/biocontainers/paraviewer
+aliases:
+  paraviewer: /usr/local/bin/paraviewer
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
