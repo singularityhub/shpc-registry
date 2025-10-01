@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pygtftk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pygtftk
 latest:
-  1.6.2--py39h746d604_4: 
-    sha256:40141830d03c134f5c39d1616f12dd734adc5f723f83948a40e84b8df2d99e16
+  1.6.2--py39heed1e64_5: 
+    sha256:0917cd649a9e9f1f8e73e77b32f9a9fb9e69a9576fae1f51df825b73d01583fc
 tags:
   1.6.2--py39h2add14b_0: 
     sha256:f7437ebf3922bad00411708efbd1ff8e0590ea64ee6ff016d074175d32bccd7e
@@ -15,6 +15,8 @@ tags:
     sha256:6807f81e9bd8306745501d8e7f087b424864fcd55d8353464916efb17a683eaf
   1.6.2--py39h746d604_4: 
     sha256:40141830d03c134f5c39d1616f12dd734adc5f723f83948a40e84b8df2d99e16
+  1.6.2--py39heed1e64_5: 
+    sha256:0917cd649a9e9f1f8e73e77b32f9a9fb9e69a9576fae1f51df825b73d01583fc
 docker: quay.io/biocontainers/pygtftk
 aliases:
   gtftk: /usr/local/bin/gtftk

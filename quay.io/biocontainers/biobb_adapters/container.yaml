@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_adapters
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_adapters
 latest:
-  5.1.1--pyhdfd78af_0: 
-    sha256:002195296b183a51c8f9e3c091c84299489705a334c965259c5d244ef440ee68
+  5.1.2--pyhdfd78af_0: 
+    sha256:6d54f5389d6c0d9753212c3ce175e9081f554ddca23a6781649e3676133039fd
 tags:
   3.7.0--pyhdfd78af_0: 
     sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85
@@ -15,6 +15,8 @@ tags:
     sha256:dcbd7e4ab4b46471a80c6010e22ac1037f832e42843c187ee2f9d606b1c79eed
   5.1.1--pyhdfd78af_0: 
     sha256:002195296b183a51c8f9e3c091c84299489705a334c965259c5d244ef440ee68
+  5.1.2--pyhdfd78af_0: 
+    sha256:6d54f5389d6c0d9753212c3ce175e9081f554ddca23a6781649e3676133039fd
 docker: quay.io/biocontainers/biobb_adapters
 aliases:
   bagit.py: /usr/local/bin/bagit.py

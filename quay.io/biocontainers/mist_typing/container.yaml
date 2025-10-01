@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mist_typing
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mist_typing
 latest:
-  0.0.2--pyhdfd78af_0: 
-    sha256:a77740542406ca5c1fa06e8eed745030975cf3d84935736c77595641b1cf245b
+  0.0.3--pyhdfd78af_0: 
+    sha256:dd6a053932ae5844ad1e1fd28c3c5b47a6f8ff42d8d33858ee533e57b01cbd1a
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:a77740542406ca5c1fa06e8eed745030975cf3d84935736c77595641b1cf245b
+  0.0.3--pyhdfd78af_0: 
+    sha256:dd6a053932ae5844ad1e1fd28c3c5b47a6f8ff42d8d33858ee533e57b01cbd1a
 docker: quay.io/biocontainers/mist_typing
 aliases:
   mist_download: /usr/local/bin/mist_download

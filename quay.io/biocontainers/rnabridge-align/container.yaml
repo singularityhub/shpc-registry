@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rnabridge-align
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rnabridge-align
 latest:
-  1.0.1--h503566f_8: 
-    sha256:36497e379dae24b8f80443e151b0068ce01f8eb5105830d952254fbb0d975dda
+  1.0.1--h5ca1c30_9: 
+    sha256:42f0750c6484425f3039880629e52d82d21990870bcc0120f3ea017d2d5866f0
 tags:
   1.0.1--hefd527f_4: 
     sha256:a0ec6458724051da16962849e49ece50527f373c78978481d570157f5e8ac9f5
@@ -15,6 +15,8 @@ tags:
     sha256:be52d4a8108edcb0ba0408cfb4fd9ce46ccb51584527dde6a4ed5b3256cd95df
   1.0.1--h503566f_8: 
     sha256:36497e379dae24b8f80443e151b0068ce01f8eb5105830d952254fbb0d975dda
+  1.0.1--h5ca1c30_9: 
+    sha256:42f0750c6484425f3039880629e52d82d21990870bcc0120f3ea017d2d5866f0
 docker: quay.io/biocontainers/rnabridge-align
 aliases:
   rnabridge-align: /usr/local/bin/rnabridge-align
