@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedmetagenomicdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedmetagenomicdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedmetagenomicdata/container.yaml"
-updated_at: "2025-09-30 03:41:18.247327"
+updated_at: "2025-10-01 03:54:43.482507"
 latest: "3.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedmetagenomicdata"
 

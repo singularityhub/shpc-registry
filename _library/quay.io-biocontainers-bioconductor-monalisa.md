@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-monalisa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-monalisa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-monalisa/container.yaml"
-updated_at: "2025-09-30 03:05:01.125846"
+updated_at: "2025-10-01 03:18:36.071507"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-monalisa"
 

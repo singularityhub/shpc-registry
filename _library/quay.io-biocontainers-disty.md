@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/disty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/disty/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/disty/container.yaml"
-updated_at: "2025-09-30 03:47:14.665185"
+updated_at: "2025-10-01 04:00:40.981762"
 latest: "0.1.0--hdcf5f25_7"
 container_url: "https://biocontainers.pro/tools/disty"
 aliases:

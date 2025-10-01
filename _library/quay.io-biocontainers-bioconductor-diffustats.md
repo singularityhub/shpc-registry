@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffustats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffustats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffustats/container.yaml"
-updated_at: "2025-09-30 03:06:14.759936"
+updated_at: "2025-10-01 03:19:49.666576"
 latest: "1.26.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffustats"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgadem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgadem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgadem/container.yaml"
-updated_at: "2025-09-30 03:32:48.520398"
+updated_at: "2025-10-01 03:46:12.858909"
 latest: "2.54.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgadem"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dinamic.duo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dinamic.duo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dinamic.duo/container.yaml"
-updated_at: "2025-09-30 03:28:00.307991"
+updated_at: "2025-10-01 03:41:24.379376"
 latest: "1.0.3--r44heae9e1c_0"
 container_url: "https://biocontainers.pro/tools/r-dinamic.duo"
 aliases:

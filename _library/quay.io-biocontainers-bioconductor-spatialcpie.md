@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spatialcpie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialcpie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialcpie/container.yaml"
-updated_at: "2025-09-30 03:29:39.646625"
+updated_at: "2025-10-01 03:43:03.755226"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialcpie"
 aliases:
