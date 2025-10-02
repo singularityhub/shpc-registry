@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/stellarscope
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for stellarscope
+latest:
+  1.5--py310h1fe012e_0: 
+    sha256:159ff2eb9b3683e65cacb8c10b575c8739f9058158aa001118b3ecd925417eea
+tags:
+  1.5--py310h1fe012e_0: 
+    sha256:159ff2eb9b3683e65cacb8c10b575c8739f9058158aa001118b3ecd925417eea
+docker: quay.io/biocontainers/stellarscope
+aliases:
+  stellarscope: /usr/local/bin/stellarscope
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  numpy-config: /usr/local/bin/numpy-config
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
+  novo2sam.pl: /usr/local/bin/novo2sam.pl
+  wgsim: /usr/local/bin/wgsim
