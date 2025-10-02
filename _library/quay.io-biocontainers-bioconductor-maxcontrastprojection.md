@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maxcontrastprojection"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maxcontrastprojection/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maxcontrastprojection/container.yaml"
-updated_at: "2025-10-02 03:42:35.771073"
+updated_at: "2025-10-02 04:14:48.518543"
 latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maxcontrastprojection"
 aliases:

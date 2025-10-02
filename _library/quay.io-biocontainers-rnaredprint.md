@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaredprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaredprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnaredprint/container.yaml"
-updated_at: "2025-10-02 03:31:43.051849"
+updated_at: "2025-10-02 04:04:09.006420"
 latest: "0.3pre--py310h4ac6f70_4"
 container_url: "https://biocontainers.pro/tools/rnaredprint"
 aliases:

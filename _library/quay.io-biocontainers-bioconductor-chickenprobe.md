@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chickenprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chickenprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chickenprobe/container.yaml"
-updated_at: "2025-10-02 03:36:04.215173"
+updated_at: "2025-10-02 04:08:21.096598"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-chickenprobe"
 
