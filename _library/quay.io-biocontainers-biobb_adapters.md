@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_adapters"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_adapters/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_adapters/container.yaml"
-updated_at: "2025-10-01 03:30:13.962699"
-latest: "5.1.1--pyhdfd78af_0"
+updated_at: "2025-10-02 03:17:09.764616"
+latest: "5.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_adapters"
 aliases:
  - "bagit.py"
@@ -34,8 +34,9 @@ versions:
  - "4.0.0--pyhdfd78af_0"
  - "5.1.0--pyhdfd78af_0"
  - "5.1.1--pyhdfd78af_0"
+ - "5.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_adapters"
-config: {"url": "https://biocontainers.pro/tools/biobb_adapters", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_adapters", "latest": {"5.1.1--pyhdfd78af_0": "sha256:002195296b183a51c8f9e3c091c84299489705a334c965259c5d244ef440ee68"}, "tags": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85", "3.8.1--pyhdfd78af_0": "sha256:471eb904d8c0536eecbe57f48da8360d847981ba5c7f5c9a1499a86c7d88b34d", "4.0.0--pyhdfd78af_0": "sha256:a412402f3c048173e2b323be4c3672f3d91d2579f96c874e4c702302e3f12d0b", "5.1.0--pyhdfd78af_0": "sha256:dcbd7e4ab4b46471a80c6010e22ac1037f832e42843c187ee2f9d606b1c79eed", "5.1.1--pyhdfd78af_0": "sha256:002195296b183a51c8f9e3c091c84299489705a334c965259c5d244ef440ee68"}, "docker": "quay.io/biocontainers/biobb_adapters", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "send2trash": "/usr/local/bin/send2trash", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_adapters", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_adapters", "latest": {"5.1.2--pyhdfd78af_0": "sha256:6d54f5389d6c0d9753212c3ce175e9081f554ddca23a6781649e3676133039fd"}, "tags": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85", "3.8.1--pyhdfd78af_0": "sha256:471eb904d8c0536eecbe57f48da8360d847981ba5c7f5c9a1499a86c7d88b34d", "4.0.0--pyhdfd78af_0": "sha256:a412402f3c048173e2b323be4c3672f3d91d2579f96c874e4c702302e3f12d0b", "5.1.0--pyhdfd78af_0": "sha256:dcbd7e4ab4b46471a80c6010e22ac1037f832e42843c187ee2f9d606b1c79eed", "5.1.1--pyhdfd78af_0": "sha256:002195296b183a51c8f9e3c091c84299489705a334c965259c5d244ef440ee68", "5.1.2--pyhdfd78af_0": "sha256:6d54f5389d6c0d9753212c3ce175e9081f554ddca23a6781649e3676133039fd"}, "docker": "quay.io/biocontainers/biobb_adapters", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "send2trash": "/usr/local/bin/send2trash", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_adapters.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/biobb_adapters
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_adapters:5.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_adapters:5.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_adapters/5.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_adapters/5.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_adapters/5.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_adapters/5.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

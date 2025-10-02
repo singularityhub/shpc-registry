@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esme_hdf5_mvapich_4_0_ucx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_hdf5_mvapich_4_0_ucx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_hdf5_mvapich_4_0_ucx/container.yaml"
-updated_at: "2025-10-01 03:53:10.973387"
+updated_at: "2025-10-02 03:41:23.806558"
 latest: "1.14.6--h1382715_0"
 container_url: "https://biocontainers.pro/tools/esme_hdf5_mvapich_4_0_ucx"
 aliases:

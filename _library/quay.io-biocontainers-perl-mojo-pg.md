@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-mojo-pg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mojo-pg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mojo-pg/container.yaml"
-updated_at: "2025-10-01 03:16:10.011171"
-latest: "4.27--pl5321hdfd78af_0"
+updated_at: "2025-10-02 03:01:52.876557"
+latest: "4.28--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mojo-pg"
 aliases:
  - "hypnotoad"
@@ -38,8 +38,9 @@ aliases:
  - "pg_isready"
 versions:
  - "4.27--pl5321hdfd78af_0"
+ - "4.28--pl5321hdfd78af_0"
 description: "singularity registry hpc automated addition for perl-mojo-pg"
-config: {"url": "https://biocontainers.pro/tools/perl-mojo-pg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-mojo-pg", "latest": {"4.27--pl5321hdfd78af_0": "sha256:a7ae206f8768b72eb7e0805054ec4759ae4ee073285c4cbe4f54e39d1dc11b40"}, "tags": {"4.27--pl5321hdfd78af_0": "sha256:a7ae206f8768b72eb7e0805054ec4759ae4ee073285c4cbe4f54e39d1dc11b40"}, "docker": "quay.io/biocontainers/perl-mojo-pg", "aliases": {"hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb", "dropuser": "/usr/local/bin/dropuser", "ecpg": "/usr/local/bin/ecpg", "initdb": "/usr/local/bin/initdb", "pg_archivecleanup": "/usr/local/bin/pg_archivecleanup", "pg_basebackup": "/usr/local/bin/pg_basebackup", "pg_controldata": "/usr/local/bin/pg_controldata", "pg_ctl": "/usr/local/bin/pg_ctl", "pg_dump": "/usr/local/bin/pg_dump", "pg_dumpall": "/usr/local/bin/pg_dumpall", "pg_isready": "/usr/local/bin/pg_isready"}}
+config: {"url": "https://biocontainers.pro/tools/perl-mojo-pg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-mojo-pg", "latest": {"4.28--pl5321hdfd78af_0": "sha256:db7f3892ab28abfaffea34c5648bbf486220275aadf67836f0032d46454a2f8e"}, "tags": {"4.27--pl5321hdfd78af_0": "sha256:a7ae206f8768b72eb7e0805054ec4759ae4ee073285c4cbe4f54e39d1dc11b40", "4.28--pl5321hdfd78af_0": "sha256:db7f3892ab28abfaffea34c5648bbf486220275aadf67836f0032d46454a2f8e"}, "docker": "quay.io/biocontainers/perl-mojo-pg", "aliases": {"hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb", "dropuser": "/usr/local/bin/dropuser", "ecpg": "/usr/local/bin/ecpg", "initdb": "/usr/local/bin/initdb", "pg_archivecleanup": "/usr/local/bin/pg_archivecleanup", "pg_basebackup": "/usr/local/bin/pg_basebackup", "pg_controldata": "/usr/local/bin/pg_controldata", "pg_ctl": "/usr/local/bin/pg_ctl", "pg_dump": "/usr/local/bin/pg_dump", "pg_dumpall": "/usr/local/bin/pg_dumpall", "pg_isready": "/usr/local/bin/pg_isready"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-mojo-pg.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/perl-mojo-pg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-mojo-pg:4.27--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-mojo-pg:4.28--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-mojo-pg/4.27--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-mojo-pg/4.27--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-mojo-pg/4.28--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-mojo-pg/4.28--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

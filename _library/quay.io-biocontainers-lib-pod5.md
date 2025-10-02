@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lib-pod5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lib-pod5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lib-pod5/container.yaml"
-updated_at: "2025-10-01 03:41:09.353851"
-latest: "0.3.27--py39hc31d4fc_0"
+updated_at: "2025-10-02 03:28:49.273080"
+latest: "0.3.33--py311h25590d1_0"
 container_url: "https://biocontainers.pro/tools/lib-pod5"
 aliases:
  - "numpy-config"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.3.15--pyhdfd78af_0"
  - "0.3.27--py39hc31d4fc_0"
+ - "0.3.33--py311h25590d1_0"
 description: "singularity registry hpc automated addition for lib-pod5"
-config: {"url": "https://biocontainers.pro/tools/lib-pod5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lib-pod5", "latest": {"0.3.27--py39hc31d4fc_0": "sha256:e5f5f0d003f6162b01c1ca7c250879db1303b0f0a0d5b04017fc6b56242daecc"}, "tags": {"0.3.15--pyhdfd78af_0": "sha256:feec24c81df7e01330af6b166ef1ca06092ddea0c568b6bc14b701431738bdbb", "0.3.27--py39hc31d4fc_0": "sha256:e5f5f0d003f6162b01c1ca7c250879db1303b0f0a0d5b04017fc6b56242daecc"}, "docker": "quay.io/biocontainers/lib-pod5", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/lib-pod5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lib-pod5", "latest": {"0.3.33--py311h25590d1_0": "sha256:42ad2a86f722cb1a37120eee01d4902fff0c22c7979675105f9fc829b2f28cab"}, "tags": {"0.3.15--pyhdfd78af_0": "sha256:feec24c81df7e01330af6b166ef1ca06092ddea0c568b6bc14b701431738bdbb", "0.3.27--py39hc31d4fc_0": "sha256:e5f5f0d003f6162b01c1ca7c250879db1303b0f0a0d5b04017fc6b56242daecc", "0.3.33--py311h25590d1_0": "sha256:42ad2a86f722cb1a37120eee01d4902fff0c22c7979675105f9fc829b2f28cab"}, "docker": "quay.io/biocontainers/lib-pod5", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lib-pod5.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/lib-pod5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lib-pod5:0.3.27--py39hc31d4fc_0
+$ shpc install quay.io/biocontainers/lib-pod5:0.3.33--py311h25590d1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lib-pod5/0.3.27--py39hc31d4fc_0
-$ module help quay.io/biocontainers/lib-pod5/0.3.27--py39hc31d4fc_0
+$ module load quay.io/biocontainers/lib-pod5/0.3.33--py311h25590d1_0
+$ module help quay.io/biocontainers/lib-pod5/0.3.33--py311h25590d1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

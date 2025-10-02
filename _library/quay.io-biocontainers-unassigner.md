@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unassigner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unassigner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unassigner/container.yaml"
-updated_at: "2025-10-01 03:42:41.966181"
+updated_at: "2025-10-02 03:30:23.473067"
 latest: "1.1.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/unassigner"
 aliases:

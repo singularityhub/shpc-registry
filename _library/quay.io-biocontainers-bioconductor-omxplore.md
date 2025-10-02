@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omxplore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omxplore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omxplore/container.yaml"
-updated_at: "2025-10-01 03:19:19.878627"
+updated_at: "2025-10-02 03:05:10.650603"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omxplore"
 aliases:

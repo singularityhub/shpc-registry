@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wiggletools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wiggletools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wiggletools/container.yaml"
-updated_at: "2025-10-01 03:25:57.148691"
-latest: "1.2.11--h7118728_9"
+updated_at: "2025-10-02 03:12:33.841141"
+latest: "1.2.11--h7118728_10"
 container_url: "https://biocontainers.pro/tools/wiggletools"
 aliases:
  - "wiggletools"
@@ -19,8 +19,9 @@ versions:
  - "1.2.11--hdd126ab_6"
  - "1.2.11--h02b2831_8"
  - "1.2.11--h7118728_9"
+ - "1.2.11--h7118728_10"
 description: "shpc-registry automated BioContainers addition for wiggletools"
-config: {"url": "https://biocontainers.pro/tools/wiggletools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wiggletools", "latest": {"1.2.11--h7118728_9": "sha256:f76588de2433c846142322bb493c3ff63f2065e08c8c95f06e6d76c756112540"}, "tags": {"1.2.8--he98db58_2": "sha256:3ff83dfd89d41e43630d3279838430860b67ab72897a288f10ded38c6e3fff68", "1.2.11--h31cdec7_4": "sha256:20285b609ceeacc3b33fc9820ec1283ae16a875ec3eb1c2def1cda241936bbda", "1.2.11--h71cb2ef_5": "sha256:78a23a79a33a14674e735a55ead8118c97f77cd7b981f3dddb2265f886ffdf5a", "1.2.11--hdd126ab_6": "sha256:5d248282f153b2cdef2ce0437fb7502477964f996b7aac87079f51c0558ab0b2", "1.2.11--h02b2831_8": "sha256:5b22d2e8b07b1ab894689e449cd96a554122f69bc6e3abd2ff630ca53422bb05", "1.2.11--h7118728_9": "sha256:f76588de2433c846142322bb493c3ff63f2065e08c8c95f06e6d76c756112540"}, "docker": "quay.io/biocontainers/wiggletools", "aliases": {"wiggletools": "/usr/local/bin/wiggletools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/wiggletools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wiggletools", "latest": {"1.2.11--h7118728_10": "sha256:fe76a19b1496cb4ca9d139745a4cf1380a5d4ee1596ac9a3689f280a19f5321c"}, "tags": {"1.2.8--he98db58_2": "sha256:3ff83dfd89d41e43630d3279838430860b67ab72897a288f10ded38c6e3fff68", "1.2.11--h31cdec7_4": "sha256:20285b609ceeacc3b33fc9820ec1283ae16a875ec3eb1c2def1cda241936bbda", "1.2.11--h71cb2ef_5": "sha256:78a23a79a33a14674e735a55ead8118c97f77cd7b981f3dddb2265f886ffdf5a", "1.2.11--hdd126ab_6": "sha256:5d248282f153b2cdef2ce0437fb7502477964f996b7aac87079f51c0558ab0b2", "1.2.11--h02b2831_8": "sha256:5b22d2e8b07b1ab894689e449cd96a554122f69bc6e3abd2ff630ca53422bb05", "1.2.11--h7118728_9": "sha256:f76588de2433c846142322bb493c3ff63f2065e08c8c95f06e6d76c756112540", "1.2.11--h7118728_10": "sha256:fe76a19b1496cb4ca9d139745a4cf1380a5d4ee1596ac9a3689f280a19f5321c"}, "docker": "quay.io/biocontainers/wiggletools", "aliases": {"wiggletools": "/usr/local/bin/wiggletools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wiggletools.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/wiggletools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wiggletools:1.2.11--h7118728_9
+$ shpc install quay.io/biocontainers/wiggletools:1.2.11--h7118728_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wiggletools/1.2.11--h7118728_9
-$ module help quay.io/biocontainers/wiggletools/1.2.11--h7118728_9
+$ module load quay.io/biocontainers/wiggletools/1.2.11--h7118728_10
+$ module help quay.io/biocontainers/wiggletools/1.2.11--h7118728_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

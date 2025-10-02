@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-mce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mce/container.yaml"
-updated_at: "2025-10-01 03:26:19.985340"
-latest: "1.901--pl5321hdfd78af_0"
+updated_at: "2025-10-02 03:12:58.187115"
+latest: "1.902--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mce"
 
 versions:
@@ -21,8 +21,9 @@ versions:
  - "1.900--pl5321hdfd78af_0"
  - "1.899--pl5321hdfd78af_0"
  - "1.901--pl5321hdfd78af_0"
+ - "1.902--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-mce"
-config: {"url": "https://biocontainers.pro/tools/perl-mce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mce", "latest": {"1.901--pl5321hdfd78af_0": "sha256:fbc231c3b8894b97298c611af8710caa468e8e33b61e83b9d23b00c482f16884"}, "tags": {"1.881--pl5321hdfd78af_0": "sha256:2e83ce1420d72486b317d36f4b93a19af6b2ca3f9ba3da4c74eb1b6117431b11", "1.884--pl5321hdfd78af_0": "sha256:299ee7e7cfd32dee3bc6592345517af2ad1fbda882aa5dee08595d76ee662b2d", "1.888--pl5321hdfd78af_0": "sha256:6c900d4bd6bb41fce2577b23ee387e661c6dda66b6576b50ffe2e569068af12b", "1.897--pl5321hdfd78af_0": "sha256:8545254b4b098196451ce2bb373c4f33cdd15aa0c21c566f557d755c23881fa8", "1.896--pl5321hdfd78af_0": "sha256:4c280b135096f67edc764937c138d8aaf855da0d22132e04206806a306793c1f", "1.895--pl5321hdfd78af_0": "sha256:d88ec5d796d94e14e1d041b949b242028337270e1ceac1ff2679581a2ab23ea3", "1.894--pl5321hdfd78af_0": "sha256:f4f7f361183d91ebc614ba26d1b6cfc2547b21408c0575265cd334fafc5c5470", "1.893--pl5321hdfd78af_0": "sha256:02ce28423d3da77d036d387d19f41d41073ab85b76fed55bc42ca2a0621cc54e", "1.898--pl5321hdfd78af_0": "sha256:cea19a7ce22b1f116ba0cdf00df407fa60e0db14e57824456b2afa6cc4d0375b", "1.900--pl5321hdfd78af_0": "sha256:7efab1a2f246e36c37e08883173c5dc3ea7f6e92423a18d7d9e1aeb829d2faec", "1.899--pl5321hdfd78af_0": "sha256:ebed023c93b93284c91dfd5c54d21e6c6388a41d8ccdb62a45cc3dcae24d9ecf", "1.901--pl5321hdfd78af_0": "sha256:fbc231c3b8894b97298c611af8710caa468e8e33b61e83b9d23b00c482f16884"}, "docker": "quay.io/biocontainers/perl-mce"}
+config: {"url": "https://biocontainers.pro/tools/perl-mce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mce", "latest": {"1.902--pl5321hdfd78af_0": "sha256:716e0c44f0ae13874a8fe9e96798793a9980f735d52d0d479fed0a3c89348c9e"}, "tags": {"1.881--pl5321hdfd78af_0": "sha256:2e83ce1420d72486b317d36f4b93a19af6b2ca3f9ba3da4c74eb1b6117431b11", "1.884--pl5321hdfd78af_0": "sha256:299ee7e7cfd32dee3bc6592345517af2ad1fbda882aa5dee08595d76ee662b2d", "1.888--pl5321hdfd78af_0": "sha256:6c900d4bd6bb41fce2577b23ee387e661c6dda66b6576b50ffe2e569068af12b", "1.897--pl5321hdfd78af_0": "sha256:8545254b4b098196451ce2bb373c4f33cdd15aa0c21c566f557d755c23881fa8", "1.896--pl5321hdfd78af_0": "sha256:4c280b135096f67edc764937c138d8aaf855da0d22132e04206806a306793c1f", "1.895--pl5321hdfd78af_0": "sha256:d88ec5d796d94e14e1d041b949b242028337270e1ceac1ff2679581a2ab23ea3", "1.894--pl5321hdfd78af_0": "sha256:f4f7f361183d91ebc614ba26d1b6cfc2547b21408c0575265cd334fafc5c5470", "1.893--pl5321hdfd78af_0": "sha256:02ce28423d3da77d036d387d19f41d41073ab85b76fed55bc42ca2a0621cc54e", "1.898--pl5321hdfd78af_0": "sha256:cea19a7ce22b1f116ba0cdf00df407fa60e0db14e57824456b2afa6cc4d0375b", "1.900--pl5321hdfd78af_0": "sha256:7efab1a2f246e36c37e08883173c5dc3ea7f6e92423a18d7d9e1aeb829d2faec", "1.899--pl5321hdfd78af_0": "sha256:ebed023c93b93284c91dfd5c54d21e6c6388a41d8ccdb62a45cc3dcae24d9ecf", "1.901--pl5321hdfd78af_0": "sha256:fbc231c3b8894b97298c611af8710caa468e8e33b61e83b9d23b00c482f16884", "1.902--pl5321hdfd78af_0": "sha256:716e0c44f0ae13874a8fe9e96798793a9980f735d52d0d479fed0a3c89348c9e"}, "docker": "quay.io/biocontainers/perl-mce"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-mce.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/perl-mce
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-mce:1.901--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-mce:1.902--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-mce/1.901--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-mce/1.901--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-mce/1.902--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-mce/1.902--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

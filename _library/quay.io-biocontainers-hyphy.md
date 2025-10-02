@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hyphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyphy/container.yaml"
-updated_at: "2025-10-01 03:55:37.421849"
-latest: "2.5.78--hbee74ec_0"
+updated_at: "2025-10-02 03:43:58.432056"
+latest: "2.5.83--hbee74ec_0"
 container_url: "https://biocontainers.pro/tools/hyphy"
 
 versions:
@@ -25,8 +25,9 @@ versions:
  - "2.5.74--he91c24d_0"
  - "2.5.75--hbee74ec_0"
  - "2.5.78--hbee74ec_0"
+ - "2.5.83--hbee74ec_0"
 description: "shpc-registry automated BioContainers addition for hyphy"
-config: {"url": "https://biocontainers.pro/tools/hyphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hyphy", "latest": {"2.5.78--hbee74ec_0": "sha256:a1e463a51d801adabe51693a6a826791ce208274a8fc47ba5e016a0d5d573c0e"}, "tags": {"2.5.9--ha076c6e_0": "sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3", "2.5.38--h91ae1e9_0": "sha256:9f943f4c5c10e4017da77ede652df4b920858fcdc9926a077b426b4fbad18d2a", "2.5.60--h0705fce_0": "sha256:b670b6db8c9eca3d1ff98cfe570b2be953c7bfa2de0abbfb10638d6a16ff9dc3", "2.5.61--h0705fce_0": "sha256:8e61391e27896771fee920c536a432afb3082a088256388f0f8c57a149276505", "2.5.62--h0705fce_0": "sha256:30c12f7c985c372db8296c8eba88e27ecdd98bf7c07da23210265cd379128e41", "2.5.62--h0d74fca_1": "sha256:c1334ec0cb099fd3eeadd070a4bebe90d89d9e9ba9dcbebdff85013fc6403a07", "2.5.63--h0d74fca_0": "sha256:89c67de33a8e24b2d2edf699b6be04b3698801a58de30f90d63d239cafb05271", "2.5.64--h0d74fca_0": "sha256:a6f042beaa98b21ac60c09026099c6b69b2b12631621747254ce2f021eed3fa9", "2.5.65--he91c24d_0": "sha256:e4272fea9fa5cb3be3e96f45aefacb1cc95970e3197866147863bbcdc122695b", "2.5.65--he91c24d_1": "sha256:c0293c6cb2091b64d6aee3c97845a944bc158445e67b8c7e00cd8f466e550be1", "2.5.70--he91c24d_0": "sha256:d3a8a2f69ed0e1f8cc512622b7d15b2f45bed8ae3febe5b58253e4858a84b2f2", "2.5.71--he91c24d_0": "sha256:b238aa008677565c681c26432e6d2ea14f12dee5b92fa6db7efd61483c9b3128", "2.5.73--he91c24d_0": "sha256:6b854be9a92dcf1c0a6c9bf4809398182be1241fe106d95957a0fc1f10a3399d", "2.5.74--he91c24d_0": "sha256:779b14434fa2bcb490eb0607d216678c442096c451d209c4244a60ee7a95a1bd", "2.5.75--hbee74ec_0": "sha256:ab71cc0f3567d27a9a4cfc80f0a6a79767be1898724e46183382050f2b4f0493", "2.5.78--hbee74ec_0": "sha256:a1e463a51d801adabe51693a6a826791ce208274a8fc47ba5e016a0d5d573c0e"}, "docker": "quay.io/biocontainers/hyphy"}
+config: {"url": "https://biocontainers.pro/tools/hyphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hyphy", "latest": {"2.5.83--hbee74ec_0": "sha256:2027d09c901d9eb79e776e15071f9e4d852bacc2366aae738beaf0df9cc0f532"}, "tags": {"2.5.9--ha076c6e_0": "sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3", "2.5.38--h91ae1e9_0": "sha256:9f943f4c5c10e4017da77ede652df4b920858fcdc9926a077b426b4fbad18d2a", "2.5.60--h0705fce_0": "sha256:b670b6db8c9eca3d1ff98cfe570b2be953c7bfa2de0abbfb10638d6a16ff9dc3", "2.5.61--h0705fce_0": "sha256:8e61391e27896771fee920c536a432afb3082a088256388f0f8c57a149276505", "2.5.62--h0705fce_0": "sha256:30c12f7c985c372db8296c8eba88e27ecdd98bf7c07da23210265cd379128e41", "2.5.62--h0d74fca_1": "sha256:c1334ec0cb099fd3eeadd070a4bebe90d89d9e9ba9dcbebdff85013fc6403a07", "2.5.63--h0d74fca_0": "sha256:89c67de33a8e24b2d2edf699b6be04b3698801a58de30f90d63d239cafb05271", "2.5.64--h0d74fca_0": "sha256:a6f042beaa98b21ac60c09026099c6b69b2b12631621747254ce2f021eed3fa9", "2.5.65--he91c24d_0": "sha256:e4272fea9fa5cb3be3e96f45aefacb1cc95970e3197866147863bbcdc122695b", "2.5.65--he91c24d_1": "sha256:c0293c6cb2091b64d6aee3c97845a944bc158445e67b8c7e00cd8f466e550be1", "2.5.70--he91c24d_0": "sha256:d3a8a2f69ed0e1f8cc512622b7d15b2f45bed8ae3febe5b58253e4858a84b2f2", "2.5.71--he91c24d_0": "sha256:b238aa008677565c681c26432e6d2ea14f12dee5b92fa6db7efd61483c9b3128", "2.5.73--he91c24d_0": "sha256:6b854be9a92dcf1c0a6c9bf4809398182be1241fe106d95957a0fc1f10a3399d", "2.5.74--he91c24d_0": "sha256:779b14434fa2bcb490eb0607d216678c442096c451d209c4244a60ee7a95a1bd", "2.5.75--hbee74ec_0": "sha256:ab71cc0f3567d27a9a4cfc80f0a6a79767be1898724e46183382050f2b4f0493", "2.5.78--hbee74ec_0": "sha256:a1e463a51d801adabe51693a6a826791ce208274a8fc47ba5e016a0d5d573c0e", "2.5.83--hbee74ec_0": "sha256:2027d09c901d9eb79e776e15071f9e4d852bacc2366aae738beaf0df9cc0f532"}, "docker": "quay.io/biocontainers/hyphy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hyphy.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/hyphy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hyphy:2.5.78--hbee74ec_0
+$ shpc install quay.io/biocontainers/hyphy:2.5.83--hbee74ec_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hyphy/2.5.78--hbee74ec_0
-$ module help quay.io/biocontainers/hyphy/2.5.78--hbee74ec_0
+$ module load quay.io/biocontainers/hyphy/2.5.83--hbee74ec_0
+$ module help quay.io/biocontainers/hyphy/2.5.83--hbee74ec_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

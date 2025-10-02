@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/excludonfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/excludonfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/excludonfinder/container.yaml"
-updated_at: "2025-10-01 03:52:20.862081"
-latest: "0.1.5--hdfd78af_0"
+updated_at: "2025-10-02 03:40:29.439477"
+latest: "0.1.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/excludonfinder"
 aliases:
  - "ExcludonFinder"
@@ -59,8 +59,9 @@ versions:
  - "0.1.4--hdfd78af_0"
  - "0.1.4--hdfd78af_1"
  - "0.1.5--hdfd78af_0"
+ - "0.1.7--hdfd78af_0"
 description: "singularity registry hpc automated addition for excludonfinder"
-config: {"url": "https://biocontainers.pro/tools/excludonfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for excludonfinder", "latest": {"0.1.5--hdfd78af_0": "sha256:18f1f2798baaeef4f448b4e112115d634e14d543009f786070dcde11f14b2c3c"}, "tags": {"0.1.1--hdfd78af_0": "sha256:dfd37d1b78b37246aac808f45e247edadf3e2124eaef98d2a23d14d7de69154b", "0.1.4--hdfd78af_0": "sha256:32e630811f51b3e773aadff6f26980742780eeabf152a557d569d2ac243a7dda", "0.1.4--hdfd78af_1": "sha256:57e3dc56179df8013eb3bd58beb866007632b5d73d67c3d8d34b4fd934e95187", "0.1.5--hdfd78af_0": "sha256:18f1f2798baaeef4f448b4e112115d634e14d543009f786070dcde11f14b2c3c"}, "docker": "quay.io/biocontainers/excludonfinder", "aliases": {"ExcludonFinder": "/usr/local/bin/ExcludonFinder", "bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "flattenGTF": "/usr/local/bin/flattenGTF", "genRandomReads": "/usr/local/bin/genRandomReads", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "sublong": "/usr/local/bin/sublong", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "subread-fullscan": "/usr/local/bin/subread-fullscan", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel"}}
+config: {"url": "https://biocontainers.pro/tools/excludonfinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for excludonfinder", "latest": {"0.1.7--hdfd78af_0": "sha256:3e5fc57d2feea487bff1c10f4cc509e90f173392df37eee83f10a5b2e2e600dd"}, "tags": {"0.1.1--hdfd78af_0": "sha256:dfd37d1b78b37246aac808f45e247edadf3e2124eaef98d2a23d14d7de69154b", "0.1.4--hdfd78af_0": "sha256:32e630811f51b3e773aadff6f26980742780eeabf152a557d569d2ac243a7dda", "0.1.4--hdfd78af_1": "sha256:57e3dc56179df8013eb3bd58beb866007632b5d73d67c3d8d34b4fd934e95187", "0.1.5--hdfd78af_0": "sha256:18f1f2798baaeef4f448b4e112115d634e14d543009f786070dcde11f14b2c3c", "0.1.7--hdfd78af_0": "sha256:3e5fc57d2feea487bff1c10f4cc509e90f173392df37eee83f10a5b2e2e600dd"}, "docker": "quay.io/biocontainers/excludonfinder", "aliases": {"ExcludonFinder": "/usr/local/bin/ExcludonFinder", "bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "flattenGTF": "/usr/local/bin/flattenGTF", "genRandomReads": "/usr/local/bin/genRandomReads", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "sublong": "/usr/local/bin/sublong", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "subread-fullscan": "/usr/local/bin/subread-fullscan", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/excludonfinder.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/excludonfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/excludonfinder:0.1.5--hdfd78af_0
+$ shpc install quay.io/biocontainers/excludonfinder:0.1.7--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/excludonfinder/0.1.5--hdfd78af_0
-$ module help quay.io/biocontainers/excludonfinder/0.1.5--hdfd78af_0
+$ module load quay.io/biocontainers/excludonfinder/0.1.7--hdfd78af_0
+$ module help quay.io/biocontainers/excludonfinder/0.1.7--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
