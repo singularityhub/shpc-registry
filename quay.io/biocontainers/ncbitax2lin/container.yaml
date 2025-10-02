@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/ncbitax2lin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ncbitax2lin
 latest:
-  2.4.1--pyhdfd78af_0: 
-    sha256:a6253f998bcfe94d3353e27e09877c205e9613aaed24171e5aabf66eac51d406
+  3.0.0--pyhdfd78af_0: 
+    sha256:c1417f47186275472880e7622a050d78da70dc109af71b25938df2ac1657cf8a
 tags:
   2.3.2--pyhdfd78af_0: 
     sha256:6ac6af4ace7865d3929a485ae3bd97a2664ae0b8929214eb5d7dc4df1d40142f
   2.4.1--pyhdfd78af_0: 
     sha256:a6253f998bcfe94d3353e27e09877c205e9613aaed24171e5aabf66eac51d406
+  3.0.0--pyhdfd78af_0: 
+    sha256:c1417f47186275472880e7622a050d78da70dc109af71b25938df2ac1657cf8a
 docker: quay.io/biocontainers/ncbitax2lin
 aliases:
   ncbitax2lin: /usr/local/bin/ncbitax2lin

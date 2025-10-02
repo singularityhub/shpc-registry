@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/consel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for consel
 latest:
-  0.20--h516909a_1: 
-    sha256:51033387819d0deee2fc8511ce6fb1650122573defd8bec4319c89dff2d92a45
+  0.20--h7b50bb2_3: 
+    sha256:2637fdcefffedb8b39cced7a48a2ea3453ae17f991d8d4e8926b649bcecf89fd
 tags:
   0.20--h516909a_1: 
     sha256:51033387819d0deee2fc8511ce6fb1650122573defd8bec4319c89dff2d92a45
+  0.20--h7b50bb2_3: 
+    sha256:2637fdcefffedb8b39cced7a48a2ea3453ae17f991d8d4e8926b649bcecf89fd
 docker: quay.io/biocontainers/consel
 aliases:
   catass: /usr/local/bin/catass

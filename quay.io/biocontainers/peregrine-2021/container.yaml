@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/peregrine-2021
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for peregrine-2021
 latest:
-  0.4.13--h503566f_4: 
-    sha256:d1d08b08d89133bc42bd524c06187540023460d52d8a5ac49f25ec8e84723141
+  0.4.13--ha6fb395_6: 
+    sha256:aeca707a8a4fc56f263b019da82a073bd256035def247df51841b23daec9ced5
 tags:
   0.4.13--h87f3376_1: 
     sha256:8bc7ced847c021c7e82739362ac30b2a7bb91c2806dc95c8c0d91d8356cc3a15
@@ -11,6 +11,8 @@ tags:
     sha256:e4b5868ebffc3f5deeb75225cff3eb8df10692885123be140889a1d3ffa2868e
   0.4.13--h503566f_4: 
     sha256:d1d08b08d89133bc42bd524c06187540023460d52d8a5ac49f25ec8e84723141
+  0.4.13--ha6fb395_6: 
+    sha256:aeca707a8a4fc56f263b019da82a073bd256035def247df51841b23daec9ced5
 docker: quay.io/biocontainers/peregrine-2021
 aliases:
   pg_asm: /usr/local/bin/pg_asm

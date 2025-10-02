@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rseqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rseqc
 latest:
-  5.0.4--pyhdfd78af_0: 
-    sha256:602b0f19a218bb9e2ff5c865ca5bc1f370ee62a7cf2cf3b85e3c1c958bdc1cdd
+  5.0.4--pyhdfd78af_1: 
+    sha256:7a1cdfc08c4b1bd6eccabf7d505431a7029b6050f5a66adc0b4fec9b809957a0
 tags:
   4.0.0--py36h91eb985_2: 
     sha256:0b1a0199c5e51b9295ff119038fbc99a24b429388cf8fcb5859032b20a827efd
@@ -23,6 +23,8 @@ tags:
     sha256:974e8da3655366e4a05ead8bade082668c7b686016d9f58c6c22480fd740d0f0
   5.0.4--pyhdfd78af_0: 
     sha256:602b0f19a218bb9e2ff5c865ca5bc1f370ee62a7cf2cf3b85e3c1c958bdc1cdd
+  5.0.4--pyhdfd78af_1: 
+    sha256:7a1cdfc08c4b1bd6eccabf7d505431a7029b6050f5a66adc0b4fec9b809957a0
 docker: quay.io/biocontainers/rseqc
 aliases:
   FPKM-UQ.py: /usr/local/bin/FPKM-UQ.py

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sga
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sga
 latest:
-  0.10.15--h26b121b_10: 
-    sha256:70b3ec14b5c450b9257e16436dee5064434d90554fce462d1d93da886a1230ed
+  0.10.15--h8b1d94f_11: 
+    sha256:8edfc7ae5d2d5adcce49dacc93a4b84f75a565cb35f32f02c1612658e22ccfd1
 tags:
   0.10.15--h4dc6686_7: 
     sha256:f490091d6ff477a3e47caa623526f3877a9e9ccf23a062e642ffaf9c2d502b35
@@ -13,6 +13,8 @@ tags:
     sha256:2f677d6ee96d0aec147f4e4442863118b550899bb65832a6f1894af00b2c39a8
   0.10.15--h26b121b_10: 
     sha256:70b3ec14b5c450b9257e16436dee5064434d90554fce462d1d93da886a1230ed
+  0.10.15--h8b1d94f_11: 
+    sha256:8edfc7ae5d2d5adcce49dacc93a4b84f75a565cb35f32f02c1612658e22ccfd1
 docker: quay.io/biocontainers/sga
 aliases:
   sga: /usr/local/bin/sga
