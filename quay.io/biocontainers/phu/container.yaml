@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/phu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phu
 latest:
-  0.2.1--pyhdfd78af_0: 
-    sha256:f8e0139d507e2b5968b093b3b2d5ed93095bd84f294eb19c43f95929e21c0aa1
+  0.4.4--pyhdfd78af_0: 
+    sha256:82c346e2d6f604e5dba00e84301954f7fd61914eeb7782dbafcde3d9cecaf2cf
 tags:
   0.2.1--pyhdfd78af_0: 
     sha256:f8e0139d507e2b5968b093b3b2d5ed93095bd84f294eb19c43f95929e21c0aa1
+  0.4.4--pyhdfd78af_0: 
+    sha256:82c346e2d6f604e5dba00e84301954f7fd61914eeb7782dbafcde3d9cecaf2cf
+  0.3.0--pyhdfd78af_0: 
+    sha256:4bc545273e23f92b677b7381ebb6335ebf278cbd4951c2df8d4c86d9eb16bf0c
 docker: quay.io/biocontainers/phu
 aliases:
   dmypy: /usr/local/bin/dmypy

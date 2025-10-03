@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/demuxem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for demuxem
 latest:
-  0.1.7--pyhdfd78af_1: 
-    sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5
+  0.1.8--pyhdfd78af_0: 
+    sha256:57708dc0935f99482e6c5f95c6686984252114340050ebbb3a5d4ac8f0baf6d8
 tags:
   0.1.7--pyhdfd78af_1: 
     sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5
   0.1.7.post1--pyhdfd78af_0: 
     sha256:2b77af339d909fc7265195d580a69027d5798d53eb65e6fe861246e08edbbf6b
+  0.1.8--pyhdfd78af_0: 
+    sha256:57708dc0935f99482e6c5f95c6686984252114340050ebbb3a5d4ac8f0baf6d8
 docker: quay.io/biocontainers/demuxem
 aliases:
   demuxEM: /usr/local/bin/demuxEM

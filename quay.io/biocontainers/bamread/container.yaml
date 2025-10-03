@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bamread
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bamread
 latest:
-  0.0.20--py39hbcbf7aa_0: 
-    sha256:5b2bcb174cae952283cc3abd1a6a1e6b56438aaa92cc93375d28e32150925eb1
+  0.0.20--py310h1fe012e_1: 
+    sha256:22bb0788540ad8c95a20eb5cee685a24b27c522cda28718d7b136861f55b5984
 tags:
   0.0.9--py37h8902056_1: 
     sha256:7db5d33af2662c58a388b809d6ea5748b3c25dd1d6891f43e9e5100f95534fe0
@@ -23,6 +23,8 @@ tags:
     sha256:d715f64629453cfc10b6010321fc2b3095292de5e4c873f01d7c842e52ce8888
   0.0.20--py39hbcbf7aa_0: 
     sha256:5b2bcb174cae952283cc3abd1a6a1e6b56438aaa92cc93375d28e32150925eb1
+  0.0.20--py310h1fe012e_1: 
+    sha256:22bb0788540ad8c95a20eb5cee685a24b27c522cda28718d7b136861f55b5984
 docker: quay.io/biocontainers/bamread
 aliases:
   bamread: /usr/local/bin/bamread

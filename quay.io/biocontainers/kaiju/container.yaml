@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/kaiju
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kaiju
 latest:
-  1.10.1--h5ca1c30_2: 
-    sha256:26a1756cd025400ad57e8955a250ff610e3118c1f2502720c5cc6fa779bafd6c
+  1.10.1--h5ca1c30_3: 
+    sha256:69c024cda07b22948ad20ea2fb464fc3089b21c83ef55534f4340d24a5e81498
 tags:
   1.9.0--h5b5514e_1: 
     sha256:4131bb30e4ee9edcec5abfb9d90ad5f09b6acf6c7361bc10cac781805a474c27
@@ -21,6 +21,8 @@ tags:
     sha256:879454ab7d75c3b1bf51a0ec56dff3d62f007f1e7d9c71cab9ef4faa62d71195
   1.10.1--h5ca1c30_2: 
     sha256:26a1756cd025400ad57e8955a250ff610e3118c1f2502720c5cc6fa779bafd6c
+  1.10.1--h5ca1c30_3: 
+    sha256:69c024cda07b22948ad20ea2fb464fc3089b21c83ef55534f4340d24a5e81498
 docker: quay.io/biocontainers/kaiju
 aliases:
   kaiju: /usr/local/bin/kaiju

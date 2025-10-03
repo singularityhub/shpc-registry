@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hyplas
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hyplas
 latest:
-  1.0.1--py310h275bdba_0: 
-    sha256:1afc16a5e4612f2a333492a24fb27f90ce873aab9f190a16825f033646e6e85a
+  1.0.2--py311h2de2dd3_0: 
+    sha256:55d32edd1d330db1a0654d313c63da15528010c684dbd61108a070edf595e01c
 tags:
   1.0.1--py310h275bdba_0: 
     sha256:1afc16a5e4612f2a333492a24fb27f90ce873aab9f190a16825f033646e6e85a
+  1.0.2--py311h2de2dd3_0: 
+    sha256:55d32edd1d330db1a0654d313c63da15528010c684dbd61108a070edf595e01c
 docker: quay.io/biocontainers/hyplas
 aliases:
   archive-nlmnlp: /usr/local/bin/archive-nlmnlp

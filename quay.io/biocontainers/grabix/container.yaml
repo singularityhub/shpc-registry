@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/grabix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for grabix
 latest:
-  0.1.8--h077b44d_11: 
-    sha256:8b3ef76e6d893ef83009458593246c222fce795fea281a30f95a7a88f169729a
+  0.1.8--h077b44d_12: 
+    sha256:99acd249af3a7a56b9fb241a70630ceba13743bb5a40c8feffb44c6153c09ac7
 tags:
   0.1.8--hd03093a_7: 
     sha256:3b47aa01ebae80973bac561d1fa8cf58f3828264d744e7ee5798f72052152db8
@@ -13,6 +13,8 @@ tags:
     sha256:43f92f89d0d33519f480eb49252139424552daac2ce4d95e3b0c6635880c09aa
   0.1.8--h077b44d_11: 
     sha256:8b3ef76e6d893ef83009458593246c222fce795fea281a30f95a7a88f169729a
+  0.1.8--h077b44d_12: 
+    sha256:99acd249af3a7a56b9fb241a70630ceba13743bb5a40c8feffb44c6153c09ac7
 docker: quay.io/biocontainers/grabix
 aliases:
   grabix: /usr/local/bin/grabix

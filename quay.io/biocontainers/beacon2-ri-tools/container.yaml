@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/beacon2-ri-tools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for beacon2-ri-tools
 latest:
-  2.0.0--pl5321hdfd78af_0: 
-    sha256:ecad6829625c1f200412496557b1e2dabc963389478d6e7a543782d9fc230cac
+  2.0.5--py310hdfd78af_0: 
+    sha256:f9720987047ae1d6a1c12dbaf140cb719d0528b38f7bdecddb31db551e7c0d50
 tags:
   2.0.0--pl5321hdfd78af_0: 
     sha256:ecad6829625c1f200412496557b1e2dabc963389478d6e7a543782d9fc230cac
+  2.0.5--py310hdfd78af_0: 
+    sha256:f9720987047ae1d6a1c12dbaf140cb719d0528b38f7bdecddb31db551e7c0d50
 docker: quay.io/biocontainers/beacon2-ri-tools
 aliases:
   beacon: /usr/local/bin/beacon
