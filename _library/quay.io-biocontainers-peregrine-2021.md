@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peregrine-2021"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peregrine-2021/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peregrine-2021/container.yaml"
-updated_at: "2025-10-02 03:48:08.367891"
-latest: "0.4.13--h503566f_4"
+updated_at: "2025-10-03 03:13:32.798066"
+latest: "0.4.13--ha6fb395_6"
 container_url: "https://biocontainers.pro/tools/peregrine-2021"
 aliases:
  - "pg_asm"
@@ -44,8 +44,9 @@ versions:
  - "0.4.13--h87f3376_1"
  - "0.4.13--hdbdd923_3"
  - "0.4.13--h503566f_4"
+ - "0.4.13--ha6fb395_6"
 description: "singularity registry hpc automated addition for peregrine-2021"
-config: {"url": "https://biocontainers.pro/tools/peregrine-2021", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peregrine-2021", "latest": {"0.4.13--h503566f_4": "sha256:d1d08b08d89133bc42bd524c06187540023460d52d8a5ac49f25ec8e84723141"}, "tags": {"0.4.13--h87f3376_1": "sha256:8bc7ced847c021c7e82739362ac30b2a7bb91c2806dc95c8c0d91d8356cc3a15", "0.4.13--hdbdd923_3": "sha256:e4b5868ebffc3f5deeb75225cff3eb8df10692885123be140889a1d3ffa2868e", "0.4.13--h503566f_4": "sha256:d1d08b08d89133bc42bd524c06187540023460d52d8a5ac49f25ec8e84723141"}, "docker": "quay.io/biocontainers/peregrine-2021", "aliases": {"pg_asm": "/usr/local/bin/pg_asm", "pg_build_idx": "/usr/local/bin/pg_build_idx", "pg_build_sdb": "/usr/local/bin/pg_build_sdb", "pg_dedup": "/usr/local/bin/pg_dedup", "pg_dp_graph": "/usr/local/bin/pg_dp_graph", "pg_getreads": "/usr/local/bin/pg_getreads", "pg_graph": "/usr/local/bin/pg_graph", "pg_layout": "/usr/local/bin/pg_layout", "pg_ovlp": "/usr/local/bin/pg_ovlp", "pg_ovlp_ec": "/usr/local/bin/pg_ovlp_ec", "pg_resolve": "/usr/local/bin/pg_resolve", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/peregrine-2021", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peregrine-2021", "latest": {"0.4.13--ha6fb395_6": "sha256:aeca707a8a4fc56f263b019da82a073bd256035def247df51841b23daec9ced5"}, "tags": {"0.4.13--h87f3376_1": "sha256:8bc7ced847c021c7e82739362ac30b2a7bb91c2806dc95c8c0d91d8356cc3a15", "0.4.13--hdbdd923_3": "sha256:e4b5868ebffc3f5deeb75225cff3eb8df10692885123be140889a1d3ffa2868e", "0.4.13--h503566f_4": "sha256:d1d08b08d89133bc42bd524c06187540023460d52d8a5ac49f25ec8e84723141", "0.4.13--ha6fb395_6": "sha256:aeca707a8a4fc56f263b019da82a073bd256035def247df51841b23daec9ced5"}, "docker": "quay.io/biocontainers/peregrine-2021", "aliases": {"pg_asm": "/usr/local/bin/pg_asm", "pg_build_idx": "/usr/local/bin/pg_build_idx", "pg_build_sdb": "/usr/local/bin/pg_build_sdb", "pg_dedup": "/usr/local/bin/pg_dedup", "pg_dp_graph": "/usr/local/bin/pg_dp_graph", "pg_getreads": "/usr/local/bin/pg_getreads", "pg_graph": "/usr/local/bin/pg_graph", "pg_layout": "/usr/local/bin/pg_layout", "pg_ovlp": "/usr/local/bin/pg_ovlp", "pg_ovlp_ec": "/usr/local/bin/pg_ovlp_ec", "pg_resolve": "/usr/local/bin/pg_resolve", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh", "env_parallel.tcsh": "/usr/local/bin/env_parallel.tcsh", "env_parallel.zsh": "/usr/local/bin/env_parallel.zsh", "niceload": "/usr/local/bin/niceload", "parcat": "/usr/local/bin/parcat", "parset": "/usr/local/bin/parset", "sem": "/usr/local/bin/sem", "sql": "/usr/local/bin/sql", "parallel": "/usr/local/bin/parallel", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peregrine-2021.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/peregrine-2021
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peregrine-2021:0.4.13--h503566f_4
+$ shpc install quay.io/biocontainers/peregrine-2021:0.4.13--ha6fb395_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peregrine-2021/0.4.13--h503566f_4
-$ module help quay.io/biocontainers/peregrine-2021/0.4.13--h503566f_4
+$ module load quay.io/biocontainers/peregrine-2021/0.4.13--ha6fb395_6
+$ module help quay.io/biocontainers/peregrine-2021/0.4.13--ha6fb395_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

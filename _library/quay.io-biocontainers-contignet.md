@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/contignet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contignet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contignet/container.yaml"
-updated_at: "2025-10-02 04:07:16.976215"
+updated_at: "2025-10-03 03:32:52.209927"
 latest: "1.0.1.post3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/contignet"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/macs2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macs2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macs2/container.yaml"
-updated_at: "2025-10-02 04:18:59.142454"
+updated_at: "2025-10-03 03:44:14.488937"
 latest: "2.2.9.1--py311haab0aaa_4"
 container_url: "https://biocontainers.pro/tools/macs2"
 aliases:

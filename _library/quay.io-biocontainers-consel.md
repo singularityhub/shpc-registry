@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/consel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consel/container.yaml"
-updated_at: "2025-10-02 03:42:58.804895"
-latest: "0.20--h516909a_1"
+updated_at: "2025-10-03 03:08:20.377773"
+latest: "0.20--h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/consel"
 aliases:
  - "catass"
@@ -21,8 +21,9 @@ aliases:
  - "treeass"
 versions:
  - "0.20--h516909a_1"
+ - "0.20--h7b50bb2_3"
 description: "shpc-registry automated BioContainers addition for consel"
-config: {"url": "https://biocontainers.pro/tools/consel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for consel", "latest": {"0.20--h516909a_1": "sha256:51033387819d0deee2fc8511ce6fb1650122573defd8bec4319c89dff2d92a45"}, "tags": {"0.20--h516909a_1": "sha256:51033387819d0deee2fc8511ce6fb1650122573defd8bec4319c89dff2d92a45"}, "docker": "quay.io/biocontainers/consel", "aliases": {"catass": "/usr/local/bin/catass", "catci": "/usr/local/bin/catci", "catmt": "/usr/local/bin/catmt", "catpv": "/usr/local/bin/catpv", "catrep": "/usr/local/bin/catrep", "consel": "/usr/local/bin/consel", "makerep": "/usr/local/bin/makerep", "makermt": "/usr/local/bin/makermt", "randrep": "/usr/local/bin/randrep", "seqmt": "/usr/local/bin/seqmt", "treeass": "/usr/local/bin/treeass"}}
+config: {"url": "https://biocontainers.pro/tools/consel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for consel", "latest": {"0.20--h7b50bb2_3": "sha256:2637fdcefffedb8b39cced7a48a2ea3453ae17f991d8d4e8926b649bcecf89fd"}, "tags": {"0.20--h516909a_1": "sha256:51033387819d0deee2fc8511ce6fb1650122573defd8bec4319c89dff2d92a45", "0.20--h7b50bb2_3": "sha256:2637fdcefffedb8b39cced7a48a2ea3453ae17f991d8d4e8926b649bcecf89fd"}, "docker": "quay.io/biocontainers/consel", "aliases": {"catass": "/usr/local/bin/catass", "catci": "/usr/local/bin/catci", "catmt": "/usr/local/bin/catmt", "catpv": "/usr/local/bin/catpv", "catrep": "/usr/local/bin/catrep", "consel": "/usr/local/bin/consel", "makerep": "/usr/local/bin/makerep", "makermt": "/usr/local/bin/makermt", "randrep": "/usr/local/bin/randrep", "seqmt": "/usr/local/bin/seqmt", "treeass": "/usr/local/bin/treeass"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/consel.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/consel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/consel:0.20--h516909a_1
+$ shpc install quay.io/biocontainers/consel:0.20--h7b50bb2_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/consel/0.20--h516909a_1
-$ module help quay.io/biocontainers/consel/0.20--h516909a_1
+$ module load quay.io/biocontainers/consel/0.20--h7b50bb2_3
+$ module help quay.io/biocontainers/consel/0.20--h7b50bb2_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

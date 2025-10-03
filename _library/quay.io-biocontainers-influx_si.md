@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/influx_si"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/influx_si/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/influx_si/container.yaml"
-updated_at: "2025-10-02 03:59:00.931526"
+updated_at: "2025-10-03 03:24:32.058315"
 latest: "7.3.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/influx_si"
 aliases:

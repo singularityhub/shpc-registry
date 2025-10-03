@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sccellfie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sccellfie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sccellfie/container.yaml"
-updated_at: "2025-10-02 03:52:21.490048"
+updated_at: "2025-10-03 03:17:48.122974"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sccellfie"
 aliases:

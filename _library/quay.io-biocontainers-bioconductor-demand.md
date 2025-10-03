@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-demand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-demand/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-demand/container.yaml"
-updated_at: "2025-10-02 04:10:29.153333"
+updated_at: "2025-10-03 03:36:01.423741"
 latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-demand"
 aliases:

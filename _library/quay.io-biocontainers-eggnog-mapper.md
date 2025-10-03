@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eggnog-mapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eggnog-mapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eggnog-mapper/container.yaml"
-updated_at: "2025-10-02 04:09:04.010897"
-latest: "2.1.13--pyhdfd78af_1"
+updated_at: "2025-10-03 03:34:39.315295"
+latest: "2.1.13--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/eggnog-mapper"
 aliases:
  - "create_dbs.py"
@@ -33,8 +33,9 @@ versions:
  - "2.1.12--pyhdfd78af_2"
  - "2.1.13--pyhdfd78af_0"
  - "2.1.13--pyhdfd78af_1"
+ - "2.1.13--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for eggnog-mapper"
-config: {"url": "https://biocontainers.pro/tools/eggnog-mapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eggnog-mapper", "latest": {"2.1.13--pyhdfd78af_1": "sha256:de8165aaf85f14d9cac9777a2925ef8594c66d1c864f722d9f977e523bbd82ad"}, "tags": {"2.1.9--pyhdfd78af_0": "sha256:c583657bc48787ef25c96a7a78e195dcaf78b3864b37f945b514a81e9f29581b", "2.1.10--pyhdfd78af_0": "sha256:59e9957433b320777286281994407748ed21c87f96171f876d48f3a349255ce2", "2.1.11--pyhdfd78af_0": "sha256:00c0226f06e558ec26cb048aa5c4700a7f58197885cd35eca01ca61c9707ef53", "2.1.12--pyhdfd78af_0": "sha256:d32edadcbcca32d4783e5275f848df1ab23a7df7ce819ac64c161e850ae2b235", "2.1.12--pyhdfd78af_1": "sha256:fff667a0928a6b5ba026f2c48805fc6b7ca1803bc2a772354c59d2f3d51a3928", "2.1.12--pyhdfd78af_2": "sha256:25b8881852cc240f8e455aa16617fd24528dad06fbd01e5d725d02eb8a1b72b7", "2.1.13--pyhdfd78af_0": "sha256:5847edfc8299b7371ef1a20c020eafa7d3b5af7cb5d45e9914b9ead92c8eb7c6", "2.1.13--pyhdfd78af_1": "sha256:de8165aaf85f14d9cac9777a2925ef8594c66d1c864f722d9f977e523bbd82ad"}, "docker": "quay.io/biocontainers/eggnog-mapper", "aliases": {"create_dbs.py": "/usr/local/bin/create_dbs.py", "download_eggnog_data.py": "/usr/local/bin/download_eggnog_data.py", "emapper.py": "/usr/local/bin/emapper.py", "hmm_mapper.py": "/usr/local/bin/hmm_mapper.py", "hmm_server.py": "/usr/local/bin/hmm_server.py", "hmm_worker.py": "/usr/local/bin/hmm_worker.py", "mmseqs": "/usr/local/bin/mmseqs", "vba_extract.py": "/usr/local/bin/vba_extract.py", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet"}}
+config: {"url": "https://biocontainers.pro/tools/eggnog-mapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eggnog-mapper", "latest": {"2.1.13--pyhdfd78af_2": "sha256:bf9119d56ba185ae9c522776cc29a743ace371d4ea7c55238fce50e494d9d332"}, "tags": {"2.1.9--pyhdfd78af_0": "sha256:c583657bc48787ef25c96a7a78e195dcaf78b3864b37f945b514a81e9f29581b", "2.1.10--pyhdfd78af_0": "sha256:59e9957433b320777286281994407748ed21c87f96171f876d48f3a349255ce2", "2.1.11--pyhdfd78af_0": "sha256:00c0226f06e558ec26cb048aa5c4700a7f58197885cd35eca01ca61c9707ef53", "2.1.12--pyhdfd78af_0": "sha256:d32edadcbcca32d4783e5275f848df1ab23a7df7ce819ac64c161e850ae2b235", "2.1.12--pyhdfd78af_1": "sha256:fff667a0928a6b5ba026f2c48805fc6b7ca1803bc2a772354c59d2f3d51a3928", "2.1.12--pyhdfd78af_2": "sha256:25b8881852cc240f8e455aa16617fd24528dad06fbd01e5d725d02eb8a1b72b7", "2.1.13--pyhdfd78af_0": "sha256:5847edfc8299b7371ef1a20c020eafa7d3b5af7cb5d45e9914b9ead92c8eb7c6", "2.1.13--pyhdfd78af_1": "sha256:de8165aaf85f14d9cac9777a2925ef8594c66d1c864f722d9f977e523bbd82ad", "2.1.13--pyhdfd78af_2": "sha256:bf9119d56ba185ae9c522776cc29a743ace371d4ea7c55238fce50e494d9d332"}, "docker": "quay.io/biocontainers/eggnog-mapper", "aliases": {"create_dbs.py": "/usr/local/bin/create_dbs.py", "download_eggnog_data.py": "/usr/local/bin/download_eggnog_data.py", "emapper.py": "/usr/local/bin/emapper.py", "hmm_mapper.py": "/usr/local/bin/hmm_mapper.py", "hmm_server.py": "/usr/local/bin/hmm_server.py", "hmm_worker.py": "/usr/local/bin/hmm_worker.py", "mmseqs": "/usr/local/bin/mmseqs", "vba_extract.py": "/usr/local/bin/vba_extract.py", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "diamond": "/usr/local/bin/diamond", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eggnog-mapper.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/eggnog-mapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eggnog-mapper:2.1.13--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/eggnog-mapper:2.1.13--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eggnog-mapper/2.1.13--pyhdfd78af_1
-$ module help quay.io/biocontainers/eggnog-mapper/2.1.13--pyhdfd78af_1
+$ module load quay.io/biocontainers/eggnog-mapper/2.1.13--pyhdfd78af_2
+$ module help quay.io/biocontainers/eggnog-mapper/2.1.13--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
