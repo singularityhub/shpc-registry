@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/centrifuger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centrifuger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centrifuger/container.yaml"
-updated_at: "2025-10-03 03:09:29.910284"
+updated_at: "2025-10-04 03:03:32.000362"
 latest: "1.0.11--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/centrifuger"
 aliases:

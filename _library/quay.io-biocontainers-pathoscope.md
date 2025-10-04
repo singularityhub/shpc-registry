@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pathoscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathoscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathoscope/container.yaml"
-updated_at: "2025-10-03 03:28:01.133267"
-latest: "2.0.7--py_1"
+updated_at: "2025-10-04 03:21:39.585012"
+latest: "2.0.7--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/pathoscope"
 aliases:
  - "pathoscope"
@@ -21,8 +21,9 @@ aliases:
  - "bcftools"
 versions:
  - "2.0.7--py_1"
+ - "2.0.7--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for pathoscope"
-config: {"url": "https://biocontainers.pro/tools/pathoscope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathoscope", "latest": {"2.0.7--py_1": "sha256:ead0f842655fbd9e6134ca1a35e145b169505c0b000f0bfaaa39685e0bd6552c"}, "tags": {"2.0.7--py_1": "sha256:ead0f842655fbd9e6134ca1a35e145b169505c0b000f0bfaaa39685e0bd6552c"}, "docker": "quay.io/biocontainers/pathoscope", "aliases": {"pathoscope": "/usr/local/bin/pathoscope", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "bcftools": "/usr/local/bin/bcftools"}}
+config: {"url": "https://biocontainers.pro/tools/pathoscope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathoscope", "latest": {"2.0.7--pyhdfd78af_2": "sha256:b9d6e88573766fd5b9bb69c6c832bc4810a9a83fbac1987439156b68367b15f1"}, "tags": {"2.0.7--py_1": "sha256:ead0f842655fbd9e6134ca1a35e145b169505c0b000f0bfaaa39685e0bd6552c", "2.0.7--pyhdfd78af_2": "sha256:b9d6e88573766fd5b9bb69c6c832bc4810a9a83fbac1987439156b68367b15f1"}, "docker": "quay.io/biocontainers/pathoscope", "aliases": {"pathoscope": "/usr/local/bin/pathoscope", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "bcftools": "/usr/local/bin/bcftools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pathoscope.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pathoscope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pathoscope:2.0.7--py_1
+$ shpc install quay.io/biocontainers/pathoscope:2.0.7--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pathoscope/2.0.7--py_1
-$ module help quay.io/biocontainers/pathoscope/2.0.7--py_1
+$ module load quay.io/biocontainers/pathoscope/2.0.7--pyhdfd78af_2
+$ module help quay.io/biocontainers/pathoscope/2.0.7--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

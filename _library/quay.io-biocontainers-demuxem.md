@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/demuxem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demuxem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/demuxem/container.yaml"
-updated_at: "2025-10-03 03:41:52.164205"
-latest: "0.1.7--pyhdfd78af_1"
+updated_at: "2025-10-04 03:35:19.326976"
+latest: "0.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/demuxem"
 aliases:
  - "demuxEM"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "0.1.7--pyhdfd78af_1"
  - "0.1.7.post1--pyhdfd78af_0"
+ - "0.1.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for demuxem"
-config: {"url": "https://biocontainers.pro/tools/demuxem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for demuxem", "latest": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5", "0.1.7.post1--pyhdfd78af_0": "sha256:2b77af339d909fc7265195d580a69027d5798d53eb65e6fe861246e08edbbf6b"}, "docker": "quay.io/biocontainers/demuxem", "aliases": {"demuxEM": "/usr/local/bin/demuxEM", "pegasusio": "/usr/local/bin/pegasusio", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
+config: {"url": "https://biocontainers.pro/tools/demuxem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for demuxem", "latest": {"0.1.8--pyhdfd78af_0": "sha256:57708dc0935f99482e6c5f95c6686984252114340050ebbb3a5d4ac8f0baf6d8"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5", "0.1.7.post1--pyhdfd78af_0": "sha256:2b77af339d909fc7265195d580a69027d5798d53eb65e6fe861246e08edbbf6b", "0.1.8--pyhdfd78af_0": "sha256:57708dc0935f99482e6c5f95c6686984252114340050ebbb3a5d4ac8f0baf6d8"}, "docker": "quay.io/biocontainers/demuxem", "aliases": {"demuxEM": "/usr/local/bin/demuxEM", "pegasusio": "/usr/local/bin/pegasusio", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/demuxem.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/demuxem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/demuxem:0.1.7--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/demuxem:0.1.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/demuxem/0.1.7--pyhdfd78af_1
-$ module help quay.io/biocontainers/demuxem/0.1.7--pyhdfd78af_1
+$ module load quay.io/biocontainers/demuxem/0.1.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/demuxem/0.1.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

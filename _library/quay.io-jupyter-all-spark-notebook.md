@@ -4,8 +4,8 @@ name:  "quay.io/jupyter/all-spark-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/all-spark-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/all-spark-notebook/container.yaml"
-updated_at: "2025-10-03 02:59:24.639895"
-latest: "2025-08-25"
+updated_at: "2025-10-04 02:53:45.556982"
+latest: "2025-09-30"
 container_url: "https://quay.io/repository/jupyter/all-spark-notebook"
 aliases:
  - "run-notebook"
@@ -15,8 +15,10 @@ versions:
  - "2025-06-30"
  - "2025-07-28"
  - "2025-08-25"
+ - "2025-09-30"
+ - "2025-08-18"
 description: "Jupyter All Spark Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/all-spark-notebook", "url": "https://quay.io/repository/jupyter/all-spark-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter All Spark Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-08-25": "sha256:6a374fe825b0391006dccbaf0529aaa462adaf461d41c47f2dcea044a61a21d9"}, "tags": {"latest": "sha256:6a374fe825b0391006dccbaf0529aaa462adaf461d41c47f2dcea044a61a21d9", "2025-06-02": "sha256:949c3fd651200ef9b18c6bef38e827f6c00d3dce26965ea9168150e98d0f9a26", "2025-06-30": "sha256:1459be53cf4f51f0ead1dafafb440cff0d9251501fe7a9bdb6ccafe2148af34c", "2025-07-28": "sha256:03d5a184f3b6abe3c0709afcc78ece041a71f016e3088e76fe3aca57df4950eb", "2025-08-25": "sha256:6a374fe825b0391006dccbaf0529aaa462adaf461d41c47f2dcea044a61a21d9"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/all-spark-notebook", "url": "https://quay.io/repository/jupyter/all-spark-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter All Spark Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-09-30": "sha256:1472236b6fcd0e6dd8e3d40a61391f11e54552e989afb88f7f042f36046b07f7"}, "tags": {"latest": "sha256:1472236b6fcd0e6dd8e3d40a61391f11e54552e989afb88f7f042f36046b07f7", "2025-06-02": "sha256:949c3fd651200ef9b18c6bef38e827f6c00d3dce26965ea9168150e98d0f9a26", "2025-06-30": "sha256:1459be53cf4f51f0ead1dafafb440cff0d9251501fe7a9bdb6ccafe2148af34c", "2025-07-28": "sha256:03d5a184f3b6abe3c0709afcc78ece041a71f016e3088e76fe3aca57df4950eb", "2025-08-25": "sha256:6a374fe825b0391006dccbaf0529aaa462adaf461d41c47f2dcea044a61a21d9", "2025-09-30": "sha256:1472236b6fcd0e6dd8e3d40a61391f11e54552e989afb88f7f042f36046b07f7", "2025-08-18": "sha256:7973559eb50f7f8a57cafba4a100ef2e50f13a8312d800e385cb7f07f7b44ffa"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/all-spark-notebook.
@@ -31,7 +33,7 @@ $ shpc install quay.io/jupyter/all-spark-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/all-spark-notebook:2025-08-25
+$ shpc install quay.io/jupyter/all-spark-notebook:2025-09-30
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/all-spark-notebook/2025-08-25
-$ module help quay.io/jupyter/all-spark-notebook/2025-08-25
+$ module load quay.io/jupyter/all-spark-notebook/2025-09-30
+$ module help quay.io/jupyter/all-spark-notebook/2025-09-30
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

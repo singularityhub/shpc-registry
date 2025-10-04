@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-junctionseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-junctionseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-junctionseq/container.yaml"
-updated_at: "2025-10-03 03:46:29.027143"
+updated_at: "2025-10-04 03:40:00.541788"
 latest: "1.17.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-junctionseq"
 aliases:

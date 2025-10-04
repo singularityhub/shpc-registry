@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yanagiba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yanagiba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yanagiba/container.yaml"
-updated_at: "2025-10-03 03:01:01.210538"
+updated_at: "2025-10-04 02:55:18.654468"
 latest: "1.0.0--py_2"
 container_url: "https://biocontainers.pro/tools/yanagiba"
 aliases:

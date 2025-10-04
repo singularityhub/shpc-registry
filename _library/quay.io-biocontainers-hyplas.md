@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hyplas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyplas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyplas/container.yaml"
-updated_at: "2025-10-03 03:00:52.711352"
-latest: "1.0.1--py310h275bdba_0"
+updated_at: "2025-10-04 02:55:10.451491"
+latest: "1.0.2--py311h2de2dd3_0"
 container_url: "https://biocontainers.pro/tools/hyplas"
 aliases:
  - "archive-nlmnlp"
@@ -67,8 +67,9 @@ aliases:
  - "ruby"
 versions:
  - "1.0.1--py310h275bdba_0"
+ - "1.0.2--py311h2de2dd3_0"
 description: "singularity registry hpc automated addition for hyplas"
-config: {"url": "https://biocontainers.pro/tools/hyplas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hyplas", "latest": {"1.0.1--py310h275bdba_0": "sha256:1afc16a5e4612f2a333492a24fb27f90ce873aab9f190a16825f033646e6e85a"}, "tags": {"1.0.1--py310h275bdba_0": "sha256:1afc16a5e4612f2a333492a24fb27f90ce873aab9f190a16825f033646e6e85a"}, "docker": "quay.io/biocontainers/hyplas", "aliases": {"archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "binspreader": "/usr/local/bin/binspreader", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "hyplas": "/usr/local/bin/hyplas", "innotin": "/usr/local/bin/innotin", "minigraph": "/usr/local/bin/minigraph", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "pathracer": "/usr/local/bin/pathracer", "pathracer-seq-fs": "/usr/local/bin/pathracer-seq-fs", "platon": "/usr/local/bin/platon", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "select_missing_reads": "/usr/local/bin/select_missing_reads", "sort-by-length": "/usr/local/bin/sort-by-length", "spades-gfa-split": "/usr/local/bin/spades-gfa-split", "spades-hpc": "/usr/local/bin/spades-hpc", "split_plasmid_reads": "/usr/local/bin/split_plasmid_reads", "syntax_suggest": "/usr/local/bin/syntax_suggest", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "yaggo": "/usr/local/bin/yaggo", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
+config: {"url": "https://biocontainers.pro/tools/hyplas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hyplas", "latest": {"1.0.2--py311h2de2dd3_0": "sha256:55d32edd1d330db1a0654d313c63da15528010c684dbd61108a070edf595e01c"}, "tags": {"1.0.1--py310h275bdba_0": "sha256:1afc16a5e4612f2a333492a24fb27f90ce873aab9f190a16825f033646e6e85a", "1.0.2--py311h2de2dd3_0": "sha256:55d32edd1d330db1a0654d313c63da15528010c684dbd61108a070edf595e01c"}, "docker": "quay.io/biocontainers/hyplas", "aliases": {"archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "binspreader": "/usr/local/bin/binspreader", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "hyplas": "/usr/local/bin/hyplas", "innotin": "/usr/local/bin/innotin", "minigraph": "/usr/local/bin/minigraph", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "pathracer": "/usr/local/bin/pathracer", "pathracer-seq-fs": "/usr/local/bin/pathracer-seq-fs", "platon": "/usr/local/bin/platon", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "select_missing_reads": "/usr/local/bin/select_missing_reads", "sort-by-length": "/usr/local/bin/sort-by-length", "spades-gfa-split": "/usr/local/bin/spades-gfa-split", "spades-hpc": "/usr/local/bin/spades-hpc", "split_plasmid_reads": "/usr/local/bin/split_plasmid_reads", "syntax_suggest": "/usr/local/bin/syntax_suggest", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "yaggo": "/usr/local/bin/yaggo", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "rampler": "/usr/local/bin/rampler", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hyplas.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/hyplas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hyplas:1.0.1--py310h275bdba_0
+$ shpc install quay.io/biocontainers/hyplas:1.0.2--py311h2de2dd3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hyplas/1.0.1--py310h275bdba_0
-$ module help quay.io/biocontainers/hyplas/1.0.1--py310h275bdba_0
+$ module load quay.io/biocontainers/hyplas/1.0.2--py311h2de2dd3_0
+$ module help quay.io/biocontainers/hyplas/1.0.2--py311h2de2dd3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

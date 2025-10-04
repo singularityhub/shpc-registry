@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fithic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fithic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fithic/container.yaml"
-updated_at: "2025-10-03 03:10:03.981700"
+updated_at: "2025-10-04 03:04:05.209886"
 latest: "1.32.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fithic"
 aliases:
