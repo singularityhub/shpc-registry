@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bigtools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bigtools
 latest:
-  0.5.6--hc1c3326_0: 
-    sha256:604d875336d5290c42379acd92b54cfc69493d1797d8d5755b9c54275c535d60
+  0.5.6--hc1c3326_1: 
+    sha256:7da9c7b22ece90268ca414471946ed52920a13c3d8ee7f2ac728ef42ab515685
 tags:
   0.4.1--h031d066_0: 
     sha256:64fba24fad37fd4d53321adddf46ec21a2de4028ecceb4f099f5434218f836f9
@@ -25,6 +25,8 @@ tags:
     sha256:41ffb08064ded526dc8a911354d72a70bfa8c70f8370eb8f3739ed917c2b02b2
   0.5.6--hc1c3326_0: 
     sha256:604d875336d5290c42379acd92b54cfc69493d1797d8d5755b9c54275c535d60
+  0.5.6--hc1c3326_1: 
+    sha256:7da9c7b22ece90268ca414471946ed52920a13c3d8ee7f2ac728ef42ab515685
 docker: quay.io/biocontainers/bigtools
 aliases:
   bedgraphtobigwig: /usr/local/bin/bedgraphtobigwig

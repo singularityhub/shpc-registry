@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/espresso
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for espresso
 latest:
-  1.5.0--pl5321h43eeafb_1: 
-    sha256:061c7a1266e53207dd771b37e3c434b31903c7127e51b47254267940306db20d
+  1.6.0--pl5321h5ca1c30_1: 
+    sha256:e74afeb77a0be17dea769ab77b138c34784319d38691fdd42e70a1a0bec76d5b
 tags:
   1.3.2--hdfd78af_0: 
     sha256:4126f39e6222756ec536e6d39beee6427500d32ae32ff6ee48e6385c2dfc3754
@@ -11,6 +11,8 @@ tags:
     sha256:dc9238d15a6c4a28eb6fb841f039cfee44a68dd9ed29e5b15faa9d27de23de9d
   1.5.0--pl5321h43eeafb_1: 
     sha256:061c7a1266e53207dd771b37e3c434b31903c7127e51b47254267940306db20d
+  1.6.0--pl5321h5ca1c30_1: 
+    sha256:e74afeb77a0be17dea769ab77b138c34784319d38691fdd42e70a1a0bec76d5b
 docker: quay.io/biocontainers/espresso
 aliases:
   ESPRESSO_C.pl: /usr/local/bin/ESPRESSO_C.pl

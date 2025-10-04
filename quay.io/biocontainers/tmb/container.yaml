@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/tmb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tmb
 latest:
-  1.5.0--pyhdfd78af_0: 
-    sha256:b121fab620468a5b6e8bff50da6060d9ad7766cc0b387c60e2d3f4d823cdc4c8
+  1.5.0--pyhdfd78af_1: 
+    sha256:663e76b2d59fe1a27306c9da85889793ac46bfedeb970a66d453f53b1146a852
 tags:
   1.3.0--pyh5e36f6f_0: 
     sha256:74b5ab0c643003bafedf3d08ee465e1c8287aefbb274b284e8108fe4d0394cb3
   1.5.0--pyhdfd78af_0: 
     sha256:b121fab620468a5b6e8bff50da6060d9ad7766cc0b387c60e2d3f4d823cdc4c8
+  1.5.0--pyhdfd78af_1: 
+    sha256:663e76b2d59fe1a27306c9da85889793ac46bfedeb970a66d453f53b1146a852
 docker: quay.io/biocontainers/tmb
 aliases:
   mosdepth: /usr/local/bin/mosdepth

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sequali
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sequali
 latest:
-  1.0.1--py312h0fa9677_0: 
-    sha256:32bc6e8bca9ddb75a21414f92ccc360963d7b90a0cb8c1d84959e193d3623b95
+  1.0.2--py310h1fe012e_0: 
+    sha256:ddbeb3ee55dd26aa74a6ccf92080ce2160186b0b19f78c2d9bb50c8a17c02cbb
 tags:
   0.1.0--py310h4b81fae_0: 
     sha256:c8dc189b2acd08be95ed7abc240d2797730cb6d1fb4e54b4d215f67b6443acdf
@@ -39,6 +39,8 @@ tags:
     sha256:ab3eedd060963955b5f4f8270c3e6804b975bed60c449b73c4659efa32cb19c9
   1.0.1--py312h0fa9677_0: 
     sha256:32bc6e8bca9ddb75a21414f92ccc360963d7b90a0cb8c1d84959e193d3623b95
+  1.0.2--py310h1fe012e_0: 
+    sha256:ddbeb3ee55dd26aa74a6ccf92080ce2160186b0b19f78c2d9bb50c8a17c02cbb
 docker: quay.io/biocontainers/sequali
 aliases:
   pygal_gen.py: /usr/local/bin/pygal_gen.py

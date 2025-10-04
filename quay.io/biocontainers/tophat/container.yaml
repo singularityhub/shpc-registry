@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/tophat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tophat
 latest:
-  2.1.1--py27_3: 
-    sha256:15e907a6d9c63847f3a786522f1e6351f02cdf90faef8defa09b88f6fc58b7ff
+  2.1.2--h3e6c209_0: 
+    sha256:447ba675477cd0da6b7b307321736031d97911e3c6cedba5304f0ceae898a774
 tags:
   2.1.1--py27_3: 
     sha256:15e907a6d9c63847f3a786522f1e6351f02cdf90faef8defa09b88f6fc58b7ff
+  2.1.2--h3e6c209_0: 
+    sha256:447ba675477cd0da6b7b307321736031d97911e3c6cedba5304f0ceae898a774
 docker: quay.io/biocontainers/tophat
