@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/tophat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tophat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tophat/container.yaml"
-updated_at: "2025-10-04 03:08:01.425583"
-latest: "2.1.1--py27_3"
+updated_at: "2025-10-05 03:26:40.380788"
+latest: "2.1.2--h3e6c209_0"
 container_url: "https://biocontainers.pro/tools/tophat"
 
 versions:
  - "2.1.1--py27_3"
+ - "2.1.2--h3e6c209_0"
 description: "shpc-registry automated BioContainers addition for tophat"
-config: {"url": "https://biocontainers.pro/tools/tophat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tophat", "latest": {"2.1.1--py27_3": "sha256:15e907a6d9c63847f3a786522f1e6351f02cdf90faef8defa09b88f6fc58b7ff"}, "tags": {"2.1.1--py27_3": "sha256:15e907a6d9c63847f3a786522f1e6351f02cdf90faef8defa09b88f6fc58b7ff"}, "docker": "quay.io/biocontainers/tophat"}
+config: {"url": "https://biocontainers.pro/tools/tophat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tophat", "latest": {"2.1.2--h3e6c209_0": "sha256:447ba675477cd0da6b7b307321736031d97911e3c6cedba5304f0ceae898a774"}, "tags": {"2.1.1--py27_3": "sha256:15e907a6d9c63847f3a786522f1e6351f02cdf90faef8defa09b88f6fc58b7ff", "2.1.2--h3e6c209_0": "sha256:447ba675477cd0da6b7b307321736031d97911e3c6cedba5304f0ceae898a774"}, "docker": "quay.io/biocontainers/tophat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tophat.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/tophat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tophat:2.1.1--py27_3
+$ shpc install quay.io/biocontainers/tophat:2.1.2--h3e6c209_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tophat/2.1.1--py27_3
-$ module help quay.io/biocontainers/tophat/2.1.1--py27_3
+$ module load quay.io/biocontainers/tophat/2.1.2--h3e6c209_0
+$ module help quay.io/biocontainers/tophat/2.1.2--h3e6c209_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

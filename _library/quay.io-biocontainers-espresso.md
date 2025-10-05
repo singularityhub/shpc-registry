@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/espresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/espresso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/espresso/container.yaml"
-updated_at: "2025-10-04 02:59:39.093160"
-latest: "1.5.0--pl5321h43eeafb_1"
+updated_at: "2025-10-05 03:17:02.848771"
+latest: "1.6.0--pl5321h5ca1c30_1"
 container_url: "https://biocontainers.pro/tools/espresso"
 aliases:
  - "ESPRESSO_C.pl"
@@ -42,8 +42,9 @@ versions:
  - "1.3.2--hdfd78af_0"
  - "1.4.0--hdfd78af_0"
  - "1.5.0--pl5321h43eeafb_1"
+ - "1.6.0--pl5321h5ca1c30_1"
 description: "singularity registry hpc automated addition for espresso"
-config: {"url": "https://biocontainers.pro/tools/espresso", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for espresso", "latest": {"1.5.0--pl5321h43eeafb_1": "sha256:061c7a1266e53207dd771b37e3c434b31903c7127e51b47254267940306db20d"}, "tags": {"1.3.2--hdfd78af_0": "sha256:4126f39e6222756ec536e6d39beee6427500d32ae32ff6ee48e6385c2dfc3754", "1.4.0--hdfd78af_0": "sha256:dc9238d15a6c4a28eb6fb841f039cfee44a68dd9ed29e5b15faa9d27de23de9d", "1.5.0--pl5321h43eeafb_1": "sha256:061c7a1266e53207dd771b37e3c434b31903c7127e51b47254267940306db20d"}, "docker": "quay.io/biocontainers/espresso", "aliases": {"ESPRESSO_C.pl": "/usr/local/bin/ESPRESSO_C.pl", "ESPRESSO_Q.pl": "/usr/local/bin/ESPRESSO_Q.pl", "ESPRESSO_Q_Thread.pm": "/usr/local/bin/ESPRESSO_Q_Thread.pm", "ESPRESSO_S.pl": "/usr/local/bin/ESPRESSO_S.pl", "ESPRESSO_Version.pm": "/usr/local/bin/ESPRESSO_Version.pm", "test_pcre": "/usr/local/bin/test_pcre", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat"}}
+config: {"url": "https://biocontainers.pro/tools/espresso", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for espresso", "latest": {"1.6.0--pl5321h5ca1c30_1": "sha256:e74afeb77a0be17dea769ab77b138c34784319d38691fdd42e70a1a0bec76d5b"}, "tags": {"1.3.2--hdfd78af_0": "sha256:4126f39e6222756ec536e6d39beee6427500d32ae32ff6ee48e6385c2dfc3754", "1.4.0--hdfd78af_0": "sha256:dc9238d15a6c4a28eb6fb841f039cfee44a68dd9ed29e5b15faa9d27de23de9d", "1.5.0--pl5321h43eeafb_1": "sha256:061c7a1266e53207dd771b37e3c434b31903c7127e51b47254267940306db20d", "1.6.0--pl5321h5ca1c30_1": "sha256:e74afeb77a0be17dea769ab77b138c34784319d38691fdd42e70a1a0bec76d5b"}, "docker": "quay.io/biocontainers/espresso", "aliases": {"ESPRESSO_C.pl": "/usr/local/bin/ESPRESSO_C.pl", "ESPRESSO_Q.pl": "/usr/local/bin/ESPRESSO_Q.pl", "ESPRESSO_Q_Thread.pm": "/usr/local/bin/ESPRESSO_Q_Thread.pm", "ESPRESSO_S.pl": "/usr/local/bin/ESPRESSO_S.pl", "ESPRESSO_Version.pm": "/usr/local/bin/ESPRESSO_Version.pm", "test_pcre": "/usr/local/bin/test_pcre", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/espresso.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/espresso
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/espresso:1.5.0--pl5321h43eeafb_1
+$ shpc install quay.io/biocontainers/espresso:1.6.0--pl5321h5ca1c30_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/espresso/1.5.0--pl5321h43eeafb_1
-$ module help quay.io/biocontainers/espresso/1.5.0--pl5321h43eeafb_1
+$ module load quay.io/biocontainers/espresso/1.6.0--pl5321h5ca1c30_1
+$ module help quay.io/biocontainers/espresso/1.6.0--pl5321h5ca1c30_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

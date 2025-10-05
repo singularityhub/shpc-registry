@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ppanggolin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ppanggolin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ppanggolin/container.yaml"
-updated_at: "2025-10-04 03:26:31.394057"
+updated_at: "2025-10-05 03:47:36.436676"
 latest: "2.2.5--py311haab0aaa_0"
 container_url: "https://biocontainers.pro/tools/ppanggolin"
 aliases:

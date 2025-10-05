@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wavcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wavcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wavcluster/container.yaml"
-updated_at: "2025-10-04 03:37:35.630462"
+updated_at: "2025-10-05 04:00:01.918219"
 latest: "2.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wavcluster"
 

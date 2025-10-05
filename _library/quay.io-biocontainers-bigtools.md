@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bigtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigtools/container.yaml"
-updated_at: "2025-10-04 03:09:34.792123"
-latest: "0.5.6--hc1c3326_0"
+updated_at: "2025-10-05 03:28:26.690502"
+latest: "0.5.6--hc1c3326_1"
 container_url: "https://biocontainers.pro/tools/bigtools"
 aliases:
  - "bedgraphtobigwig"
@@ -29,8 +29,9 @@ versions:
  - "0.5.4--hc1c3326_1"
  - "0.5.5--hc1c3326_0"
  - "0.5.6--hc1c3326_0"
+ - "0.5.6--hc1c3326_1"
 description: "singularity registry hpc automated addition for bigtools"
-config: {"url": "https://biocontainers.pro/tools/bigtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigtools", "latest": {"0.5.6--hc1c3326_0": "sha256:604d875336d5290c42379acd92b54cfc69493d1797d8d5755b9c54275c535d60"}, "tags": {"0.4.1--h031d066_0": "sha256:64fba24fad37fd4d53321adddf46ec21a2de4028ecceb4f099f5434218f836f9", "0.4.2--h031d066_0": "sha256:84001d75d09d8b275336847bd1a57eb2b820f068e7c2fb40fdce30cddf1116e9", "0.4.3--h715e4b3_0": "sha256:b0694cd0b518efa0af32d43f74b02291fd9d29f896cec38da934a30b264d4df1", "0.5.1--h715e4b3_0": "sha256:61e1a0826b1aaa1f76d76a308b28f6871cf487665bd63a63d8486be26dd4724b", "0.5.2--h715e4b3_0": "sha256:ee9573c8ddf2a9cc2beb3cc2fe75e964279dca31f8a2eeed7df2f2c79a1ef742", "0.5.3--h715e4b3_0": "sha256:ae720b65632c7c7e4e6f6bd67bfdc39ad338efcbeda0bab51072e99d531dba3a", "0.5.4--h715e4b3_0": "sha256:335c686bdf72e0cf412fbfe37ea2f6dd72003c95ca8c9f1bae0e07319c4ec793", "0.5.4--hc1c3326_1": "sha256:1c3abe557b730ce777aafd789a4d49dc0dd2c42a9f8e00d9565436af9db45083", "0.5.5--hc1c3326_0": "sha256:41ffb08064ded526dc8a911354d72a70bfa8c70f8370eb8f3739ed917c2b02b2", "0.5.6--hc1c3326_0": "sha256:604d875336d5290c42379acd92b54cfc69493d1797d8d5755b9c54275c535d60"}, "docker": "quay.io/biocontainers/bigtools", "aliases": {"bedgraphtobigwig": "/usr/local/bin/bedgraphtobigwig", "bedtobigbed": "/usr/local/bin/bedtobigbed", "bigbedinfo": "/usr/local/bin/bigbedinfo", "bigbedtobed": "/usr/local/bin/bigbedtobed", "bigtools": "/usr/local/bin/bigtools", "bigwigaverageoverbed": "/usr/local/bin/bigwigaverageoverbed", "bigwiginfo": "/usr/local/bin/bigwiginfo", "bigwigmerge": "/usr/local/bin/bigwigmerge", "bigwigtobedgraph": "/usr/local/bin/bigwigtobedgraph", "bigwigvaluesoverbed": "/usr/local/bin/bigwigvaluesoverbed"}}
+config: {"url": "https://biocontainers.pro/tools/bigtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigtools", "latest": {"0.5.6--hc1c3326_1": "sha256:7da9c7b22ece90268ca414471946ed52920a13c3d8ee7f2ac728ef42ab515685"}, "tags": {"0.4.1--h031d066_0": "sha256:64fba24fad37fd4d53321adddf46ec21a2de4028ecceb4f099f5434218f836f9", "0.4.2--h031d066_0": "sha256:84001d75d09d8b275336847bd1a57eb2b820f068e7c2fb40fdce30cddf1116e9", "0.4.3--h715e4b3_0": "sha256:b0694cd0b518efa0af32d43f74b02291fd9d29f896cec38da934a30b264d4df1", "0.5.1--h715e4b3_0": "sha256:61e1a0826b1aaa1f76d76a308b28f6871cf487665bd63a63d8486be26dd4724b", "0.5.2--h715e4b3_0": "sha256:ee9573c8ddf2a9cc2beb3cc2fe75e964279dca31f8a2eeed7df2f2c79a1ef742", "0.5.3--h715e4b3_0": "sha256:ae720b65632c7c7e4e6f6bd67bfdc39ad338efcbeda0bab51072e99d531dba3a", "0.5.4--h715e4b3_0": "sha256:335c686bdf72e0cf412fbfe37ea2f6dd72003c95ca8c9f1bae0e07319c4ec793", "0.5.4--hc1c3326_1": "sha256:1c3abe557b730ce777aafd789a4d49dc0dd2c42a9f8e00d9565436af9db45083", "0.5.5--hc1c3326_0": "sha256:41ffb08064ded526dc8a911354d72a70bfa8c70f8370eb8f3739ed917c2b02b2", "0.5.6--hc1c3326_0": "sha256:604d875336d5290c42379acd92b54cfc69493d1797d8d5755b9c54275c535d60", "0.5.6--hc1c3326_1": "sha256:7da9c7b22ece90268ca414471946ed52920a13c3d8ee7f2ac728ef42ab515685"}, "docker": "quay.io/biocontainers/bigtools", "aliases": {"bedgraphtobigwig": "/usr/local/bin/bedgraphtobigwig", "bedtobigbed": "/usr/local/bin/bedtobigbed", "bigbedinfo": "/usr/local/bin/bigbedinfo", "bigbedtobed": "/usr/local/bin/bigbedtobed", "bigtools": "/usr/local/bin/bigtools", "bigwigaverageoverbed": "/usr/local/bin/bigwigaverageoverbed", "bigwiginfo": "/usr/local/bin/bigwiginfo", "bigwigmerge": "/usr/local/bin/bigwigmerge", "bigwigtobedgraph": "/usr/local/bin/bigwigtobedgraph", "bigwigvaluesoverbed": "/usr/local/bin/bigwigvaluesoverbed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bigtools.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bigtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bigtools:0.5.6--hc1c3326_0
+$ shpc install quay.io/biocontainers/bigtools:0.5.6--hc1c3326_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bigtools/0.5.6--hc1c3326_0
-$ module help quay.io/biocontainers/bigtools/0.5.6--hc1c3326_0
+$ module load quay.io/biocontainers/bigtools/0.5.6--hc1c3326_1
+$ module help quay.io/biocontainers/bigtools/0.5.6--hc1c3326_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
