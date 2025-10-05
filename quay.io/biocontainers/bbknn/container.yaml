@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bbknn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bbknn
 latest:
-  1.6.0--py311haab0aaa_4: 
-    sha256:8c9627a46ec9609bc82adda4f48b6c4c2f8da50037d541342f2bb73921d98f73
+  1.6.0--py311h6cce608_5: 
+    sha256:ff7a08c92ad83e1c29720f311b7e12a23038132ddb8189967346d740dffdcff4
 tags:
   1.5.1--py36h91eb985_2: 
     sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9
@@ -19,6 +19,8 @@ tags:
     sha256:e1f71465d121c493393b1094ea67c8873a310bd3d3149ea8efd3ddb4be30be86
   1.6.0--py311haab0aaa_4: 
     sha256:8c9627a46ec9609bc82adda4f48b6c4c2f8da50037d541342f2bb73921d98f73
+  1.6.0--py311h6cce608_5: 
+    sha256:ff7a08c92ad83e1c29720f311b7e12a23038132ddb8189967346d740dffdcff4
 docker: quay.io/biocontainers/bbknn
 aliases:
   numba: /usr/local/bin/numba

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/delve-bio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for delve-bio
 latest:
-  0.1.0--h4349ce8_0: 
-    sha256:1ac2a421f83ee9487c2888e75ea09bab42170c7e358a50c4506df03f53e01fbc
+  0.2.0--h4349ce8_0: 
+    sha256:dd9a89d2eba3c04b9f765641368a87377638a70c6d37f7ca4eef1dea39289442
 tags:
   0.1.0--h4349ce8_0: 
     sha256:1ac2a421f83ee9487c2888e75ea09bab42170c7e358a50c4506df03f53e01fbc
+  0.2.0--h4349ce8_0: 
+    sha256:dd9a89d2eba3c04b9f765641368a87377638a70c6d37f7ca4eef1dea39289442
 docker: quay.io/biocontainers/delve-bio
 aliases:
   delve: /usr/local/bin/delve
