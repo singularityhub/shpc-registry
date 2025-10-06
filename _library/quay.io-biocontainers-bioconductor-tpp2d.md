@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tpp2d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tpp2d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tpp2d/container.yaml"
-updated_at: "2025-10-06 03:48:46.389584"
+updated_at: "2025-10-06 06:45:26.308831"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tpp2d"
 aliases:
