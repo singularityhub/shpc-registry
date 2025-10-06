@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexiplex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexiplex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexiplex/container.yaml"
-updated_at: "2025-10-05 03:49:56.568739"
-latest: "1.02.5--py39h2de1943_0"
+updated_at: "2025-10-06 03:39:38.744234"
+latest: "1.02.5--py313h9948957_1"
 container_url: "https://biocontainers.pro/tools/flexiplex"
 aliases:
  - "flexiplex"
@@ -42,8 +42,9 @@ versions:
  - "1.02.3--py311he264feb_0"
  - "1.02.4--py310h184ae93_0"
  - "1.02.5--py39h2de1943_0"
+ - "1.02.5--py313h9948957_1"
 description: "singularity registry hpc automated addition for flexiplex"
-config: {"url": "https://biocontainers.pro/tools/flexiplex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexiplex", "latest": {"1.02.5--py39h2de1943_0": "sha256:33064dc9183f12c59f528f9538769ac0f1b455ec13df523811eeb12520dde254"}, "tags": {"0.97.1--py39h1f90b4d_0": "sha256:11149299fdec797f30de904206aa7375719b3362dd066151f066d00539b31dc3", "0.97.1--py39h1f90b4d_1": "sha256:c21b2c47b8f168972906db84c9ccefcf2fa642ac0dd2ac40b00b585b24005d19", "1.01--py39h1f90b4d_0": "sha256:1ab0b77a4f4f55ba639cbb4cece74f6998f661d89734b56511798808ea56162a", "1.01--py38h2494328_0": "sha256:ed6dafcb8e50996509da222b789ba7c747fae691ac656fd2337f0c11c6890163", "0.97.1--py310h0dbaff4_1": "sha256:1cd20a7dd3c42b314fc6edbe3642ca5d8a2023ecef74186f8a05d6c2bb92a29b", "1.01--py39h9e0f934_1": "sha256:ca2feb82585070075ead7c11c5b3698317f419c760f90d3050e7b01e5d581729", "1.01--py310h84f13bb_1": "sha256:b4d046b2b3d4b4a5a1a8dc0bcc533411ee2bd41f52fda791c2e2906c769402e4", "1.01--py39h2de1943_2": "sha256:7b5f59abd9cfdfa2478ec816fc9df3eba1e81dba44326e224d577aa0e88f0052", "1.02.3--py311he264feb_0": "sha256:51f8da3e68b2e0205616dc7efab7b546e47949a717e3014768bcc054f59f9916", "1.02.4--py310h184ae93_0": "sha256:a0684525ff1775d1e3a6eab7c3d5e18cf1d271418423b53c2eac07bdf247aef7", "1.02.5--py39h2de1943_0": "sha256:33064dc9183f12c59f528f9538769ac0f1b455ec13df523811eeb12520dde254"}, "docker": "quay.io/biocontainers/flexiplex", "aliases": {"flexiplex": "/usr/local/bin/flexiplex", "flexiplex-filter": "/usr/local/bin/flexiplex-filter", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/flexiplex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexiplex", "latest": {"1.02.5--py313h9948957_1": "sha256:399bc7f4d67ea44f79c4b8befdd0ecd4d7c500f3a6d4dd75b71958f8c786e231"}, "tags": {"0.97.1--py39h1f90b4d_0": "sha256:11149299fdec797f30de904206aa7375719b3362dd066151f066d00539b31dc3", "0.97.1--py39h1f90b4d_1": "sha256:c21b2c47b8f168972906db84c9ccefcf2fa642ac0dd2ac40b00b585b24005d19", "1.01--py39h1f90b4d_0": "sha256:1ab0b77a4f4f55ba639cbb4cece74f6998f661d89734b56511798808ea56162a", "1.01--py38h2494328_0": "sha256:ed6dafcb8e50996509da222b789ba7c747fae691ac656fd2337f0c11c6890163", "0.97.1--py310h0dbaff4_1": "sha256:1cd20a7dd3c42b314fc6edbe3642ca5d8a2023ecef74186f8a05d6c2bb92a29b", "1.01--py39h9e0f934_1": "sha256:ca2feb82585070075ead7c11c5b3698317f419c760f90d3050e7b01e5d581729", "1.01--py310h84f13bb_1": "sha256:b4d046b2b3d4b4a5a1a8dc0bcc533411ee2bd41f52fda791c2e2906c769402e4", "1.01--py39h2de1943_2": "sha256:7b5f59abd9cfdfa2478ec816fc9df3eba1e81dba44326e224d577aa0e88f0052", "1.02.3--py311he264feb_0": "sha256:51f8da3e68b2e0205616dc7efab7b546e47949a717e3014768bcc054f59f9916", "1.02.4--py310h184ae93_0": "sha256:a0684525ff1775d1e3a6eab7c3d5e18cf1d271418423b53c2eac07bdf247aef7", "1.02.5--py39h2de1943_0": "sha256:33064dc9183f12c59f528f9538769ac0f1b455ec13df523811eeb12520dde254", "1.02.5--py313h9948957_1": "sha256:399bc7f4d67ea44f79c4b8befdd0ecd4d7c500f3a6d4dd75b71958f8c786e231"}, "docker": "quay.io/biocontainers/flexiplex", "aliases": {"flexiplex": "/usr/local/bin/flexiplex", "flexiplex-filter": "/usr/local/bin/flexiplex-filter", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexiplex.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/flexiplex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexiplex:1.02.5--py39h2de1943_0
+$ shpc install quay.io/biocontainers/flexiplex:1.02.5--py313h9948957_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexiplex/1.02.5--py39h2de1943_0
-$ module help quay.io/biocontainers/flexiplex/1.02.5--py39h2de1943_0
+$ module load quay.io/biocontainers/flexiplex/1.02.5--py313h9948957_1
+$ module help quay.io/biocontainers/flexiplex/1.02.5--py313h9948957_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/delve-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delve-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/delve-bio/container.yaml"
-updated_at: "2025-10-05 03:25:00.570362"
-latest: "0.1.0--h4349ce8_0"
+updated_at: "2025-10-06 03:17:28.294543"
+latest: "0.2.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/delve-bio"
 aliases:
  - "delve"
 versions:
  - "0.1.0--h4349ce8_0"
+ - "0.2.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for delve-bio"
-config: {"url": "https://biocontainers.pro/tools/delve-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for delve-bio", "latest": {"0.1.0--h4349ce8_0": "sha256:1ac2a421f83ee9487c2888e75ea09bab42170c7e358a50c4506df03f53e01fbc"}, "tags": {"0.1.0--h4349ce8_0": "sha256:1ac2a421f83ee9487c2888e75ea09bab42170c7e358a50c4506df03f53e01fbc"}, "docker": "quay.io/biocontainers/delve-bio", "aliases": {"delve": "/usr/local/bin/delve"}}
+config: {"url": "https://biocontainers.pro/tools/delve-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for delve-bio", "latest": {"0.2.0--h4349ce8_0": "sha256:dd9a89d2eba3c04b9f765641368a87377638a70c6d37f7ca4eef1dea39289442"}, "tags": {"0.1.0--h4349ce8_0": "sha256:1ac2a421f83ee9487c2888e75ea09bab42170c7e358a50c4506df03f53e01fbc", "0.2.0--h4349ce8_0": "sha256:dd9a89d2eba3c04b9f765641368a87377638a70c6d37f7ca4eef1dea39289442"}, "docker": "quay.io/biocontainers/delve-bio", "aliases": {"delve": "/usr/local/bin/delve"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/delve-bio.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/delve-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/delve-bio:0.1.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/delve-bio:0.2.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/delve-bio/0.1.0--h4349ce8_0
-$ module help quay.io/biocontainers/delve-bio/0.1.0--h4349ce8_0
+$ module load quay.io/biocontainers/delve-bio/0.2.0--h4349ce8_0
+$ module help quay.io/biocontainers/delve-bio/0.2.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

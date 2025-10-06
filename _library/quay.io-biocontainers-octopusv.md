@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/octopusv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/octopusv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/octopusv/container.yaml"
-updated_at: "2025-10-05 03:32:53.609431"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2025-10-06 03:24:29.057066"
+latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/octopusv"
 aliases:
  - "octopusv"
@@ -39,8 +39,9 @@ versions:
  - "0.1.0--pyhdfd78af_0"
  - "0.2.0--pyhdfd78af_0"
  - "0.2.2--pyhdfd78af_0"
+ - "0.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for octopusv"
-config: {"url": "https://biocontainers.pro/tools/octopusv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for octopusv", "latest": {"0.2.2--pyhdfd78af_0": "sha256:20754cc15809b3c74accbb61239249ccb7173a041e11756b00b8df815b00bc6a"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:be8ff2e9e70dafce30069526974378aaa3b7da6d37d9df91d8c28b49cd684c17", "0.2.0--pyhdfd78af_0": "sha256:597c240df2359721b992105c4d5674a5f964a80abdc40b5a524ef10266c35452", "0.2.2--pyhdfd78af_0": "sha256:20754cc15809b3c74accbb61239249ccb7173a041e11756b00b8df815b00bc6a"}, "docker": "quay.io/biocontainers/octopusv", "aliases": {"octopusv": "/usr/local/bin/octopusv", "typer": "/usr/local/bin/typer", "coverage": "/usr/local/bin/coverage", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "markdown-it": "/usr/local/bin/markdown-it", "numpy-config": "/usr/local/bin/numpy-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress"}}
+config: {"url": "https://biocontainers.pro/tools/octopusv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for octopusv", "latest": {"0.2.3--pyhdfd78af_0": "sha256:e996411f9f573419c620935bba699c04c4301f68059ad5f57cca433ead2817fe"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:be8ff2e9e70dafce30069526974378aaa3b7da6d37d9df91d8c28b49cd684c17", "0.2.0--pyhdfd78af_0": "sha256:597c240df2359721b992105c4d5674a5f964a80abdc40b5a524ef10266c35452", "0.2.2--pyhdfd78af_0": "sha256:20754cc15809b3c74accbb61239249ccb7173a041e11756b00b8df815b00bc6a", "0.2.3--pyhdfd78af_0": "sha256:e996411f9f573419c620935bba699c04c4301f68059ad5f57cca433ead2817fe"}, "docker": "quay.io/biocontainers/octopusv", "aliases": {"octopusv": "/usr/local/bin/octopusv", "typer": "/usr/local/bin/typer", "coverage": "/usr/local/bin/coverage", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "markdown-it": "/usr/local/bin/markdown-it", "numpy-config": "/usr/local/bin/numpy-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/octopusv.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/octopusv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/octopusv:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/octopusv:0.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/octopusv/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/octopusv/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/octopusv/0.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/octopusv/0.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

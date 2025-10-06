@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cryptogenotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cryptogenotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cryptogenotyper/container.yaml"
-updated_at: "2025-10-05 03:16:31.177929"
-latest: "1.0--py_3"
+updated_at: "2025-10-06 03:09:56.465237"
+latest: "1.5.0--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/cryptogenotyper"
 aliases:
  - "cryptogenotyper"
@@ -21,8 +21,9 @@ aliases:
  - "index-extras"
 versions:
  - "1.0--py_3"
+ - "1.5.0--pyhdfd78af_3"
 description: "shpc-registry automated BioContainers addition for cryptogenotyper"
-config: {"url": "https://biocontainers.pro/tools/cryptogenotyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cryptogenotyper", "latest": {"1.0--py_3": "sha256:3aab47f844f2cc9b5772c5e3abde0200d4acb6a7a6f284a499361b31e45848eb"}, "tags": {"1.0--py_3": "sha256:3aab47f844f2cc9b5772c5e3abde0200d4acb6a7a6f284a499361b31e45848eb"}, "docker": "quay.io/biocontainers/cryptogenotyper", "aliases": {"cryptogenotyper": "/usr/local/bin/cryptogenotyper", "clustalw": "/usr/local/bin/clustalw", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "clustalw2": "/usr/local/bin/clustalw2", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras"}}
+config: {"url": "https://biocontainers.pro/tools/cryptogenotyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cryptogenotyper", "latest": {"1.5.0--pyhdfd78af_3": "sha256:99ce90362dbbb970ba9ad315b404bfbc2f70083da6d44b9da8e146b68271945e"}, "tags": {"1.0--py_3": "sha256:3aab47f844f2cc9b5772c5e3abde0200d4acb6a7a6f284a499361b31e45848eb", "1.5.0--pyhdfd78af_3": "sha256:99ce90362dbbb970ba9ad315b404bfbc2f70083da6d44b9da8e146b68271945e"}, "docker": "quay.io/biocontainers/cryptogenotyper", "aliases": {"cryptogenotyper": "/usr/local/bin/cryptogenotyper", "clustalw": "/usr/local/bin/clustalw", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "clustalw2": "/usr/local/bin/clustalw2", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cryptogenotyper.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/cryptogenotyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cryptogenotyper:1.0--py_3
+$ shpc install quay.io/biocontainers/cryptogenotyper:1.5.0--pyhdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cryptogenotyper/1.0--py_3
-$ module help quay.io/biocontainers/cryptogenotyper/1.0--py_3
+$ module load quay.io/biocontainers/cryptogenotyper/1.5.0--pyhdfd78af_3
+$ module help quay.io/biocontainers/cryptogenotyper/1.5.0--pyhdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
