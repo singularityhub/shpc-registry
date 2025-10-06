@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/vinalc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vinalc
+latest:
+  1.4.2--h01b65b2_0: 
+    sha256:e96f889cb1620354264a25dfc95b32ab917d71fa1857a71a3ff784635b5babcf
+tags:
+  1.4.2--h01b65b2_0: 
+    sha256:e96f889cb1620354264a25dfc95b32ab917d71fa1857a71a3ff784635b5babcf
+docker: quay.io/biocontainers/vinalc
+aliases:
+  vinalc: /usr/local/bin/vinalc
+  mpiexec.gforker: /usr/local/bin/mpiexec.gforker
+  ucx_perftest_daemon: /usr/local/bin/ucx_perftest_daemon
+  parkill: /usr/local/bin/parkill
+  hydra_nameserver: /usr/local/bin/hydra_nameserver
+  hydra_persist: /usr/local/bin/hydra_persist
+  hydra_pmi_proxy: /usr/local/bin/hydra_pmi_proxy
+  mpiexec.hydra: /usr/local/bin/mpiexec.hydra
+  mpichversion: /usr/local/bin/mpichversion
+  mpivars: /usr/local/bin/mpivars
+  genl-ctrl-list: /usr/local/bin/genl-ctrl-list
+  idiag-socket-details: /usr/local/bin/idiag-socket-details
+  nf-ct-add: /usr/local/bin/nf-ct-add
+  nf-ct-events: /usr/local/bin/nf-ct-events
+  nf-ct-list: /usr/local/bin/nf-ct-list
+  nf-exp-add: /usr/local/bin/nf-exp-add
+  nf-exp-delete: /usr/local/bin/nf-exp-delete
+  nf-exp-list: /usr/local/bin/nf-exp-list
+  nf-log: /usr/local/bin/nf-log
+  nf-monitor: /usr/local/bin/nf-monitor
+  nf-queue: /usr/local/bin/nf-queue
+  nl-addr-add: /usr/local/bin/nl-addr-add
+  nl-addr-delete: /usr/local/bin/nl-addr-delete
+  nl-addr-list: /usr/local/bin/nl-addr-list
+  nl-class-add: /usr/local/bin/nl-class-add
+  nl-class-delete: /usr/local/bin/nl-class-delete

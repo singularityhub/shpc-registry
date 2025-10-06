@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/mrbayes_volpiano
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mrbayes_volpiano
+latest:
+  3.2.7a--hd0d793b_0: 
+    sha256:421efe16da5455d43341cb2127ec22a67a8c6c2bfcdc21e5c5cac193a8b42bae
+tags:
+  3.2.7a--hd0d793b_0: 
+    sha256:421efe16da5455d43341cb2127ec22a67a8c6c2bfcdc21e5c5cac193a8b42bae
+docker: quay.io/biocontainers/mrbayes_volpiano
+aliases:
+  jnativescan: /usr/local/bin/jnativescan
+  mb: /usr/local/bin/mb
+  mb-mpi: /usr/local/bin/mb-mpi
+  shmemrun: /usr/local/bin/shmemrun
+  jwebserver: /usr/local/bin/jwebserver
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server
+  ortecc: /usr/local/bin/ortecc
+  orted: /usr/local/bin/orted
+  orterun: /usr/local/bin/orterun
+  mpiCC: /usr/local/bin/mpiCC

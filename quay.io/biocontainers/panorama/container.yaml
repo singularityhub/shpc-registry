@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/panorama
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panorama
+latest:
+  0.5.0--pyhdfd78af_0: 
+    sha256:3b08a1ff06973876cc7719bab7379c66e4c85d74e245c16b75260895b1bdf255
+tags:
+  0.5.0--pyhdfd78af_0: 
+    sha256:3b08a1ff06973876cc7719bab7379c66e4c85d74e245c16b75260895b1bdf255
+docker: quay.io/biocontainers/panorama
+aliases:
+  geckodriver: /usr/local/bin/geckodriver
+  panorama: /usr/local/bin/panorama
+  ppanggolin: /usr/local/bin/ppanggolin
+  selenium-manager: /usr/local/bin/selenium-manager
+  archspec: /usr/local/bin/archspec
+  wsdump: /usr/local/bin/wsdump
+  cpuinfo: /usr/local/bin/cpuinfo
+  pyrodigal: /usr/local/bin/pyrodigal
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  aragorn: /usr/local/bin/aragorn
+  aria2c: /usr/local/bin/aria2c
+  h5fuse: /usr/local/bin/h5fuse
+  mmseqs: /usr/local/bin/mmseqs
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert
+  cmemit: /usr/local/bin/cmemit
+  cmfetch: /usr/local/bin/cmfetch
+  cmpress: /usr/local/bin/cmpress
+  cmscan: /usr/local/bin/cmscan
+  cmsearch: /usr/local/bin/cmsearch
+  cmstat: /usr/local/bin/cmstat
+  gawkbug: /usr/local/bin/gawkbug
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  bokeh: /usr/local/bin/bokeh
