@@ -1,0 +1,61 @@
+url: https://biocontainers.pro/tools/regain-cli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for regain-cli
+latest:
+  1.6.2--pyhdfd78af_0: 
+    sha256:fa6cfcaab71eea4fb15cc8290e9237b6a7905bc1a148e6aff38730c714ab12b4
+tags:
+  1.6.2--pyhdfd78af_0: 
+    sha256:fa6cfcaab71eea4fb15cc8290e9237b6a7905bc1a148e6aff38730c714ab12b4
+docker: quay.io/biocontainers/regain-cli
+aliases:
+  amrfinder_index: /usr/local/bin/amrfinder_index
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  mutate: /usr/local/bin/mutate
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  regain: /usr/local/bin/regain
+  sort-by-length: /usr/local/bin/sort-by-length
+  stx.prot: /usr/local/bin/stx.prot
+  stxtyper: /usr/local/bin/stxtyper
+  test_stxtyper.sh: /usr/local/bin/test_stxtyper.sh
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  dna_mutation: /usr/local/bin/dna_mutation
+  fasta2parts: /usr/local/bin/fasta2parts
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff_check: /usr/local/bin/gff_check
+  fasta_check: /usr/local/bin/fasta_check
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists
+  difference-uid-lists: /usr/local/bin/difference-uid-lists
+  download-pmc: /usr/local/bin/download-pmc
