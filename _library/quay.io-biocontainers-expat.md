@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/expat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expat/container.yaml"
-updated_at: "2025-10-06 06:12:04.891180"
+updated_at: "2025-10-07 03:12:57.445527"
 latest: "2.1.0--0"
 container_url: "https://biocontainers.pro/tools/expat"
 

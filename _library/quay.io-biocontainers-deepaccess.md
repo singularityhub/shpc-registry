@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepaccess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepaccess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepaccess/container.yaml"
-updated_at: "2025-10-06 06:26:43.769846"
+updated_at: "2025-10-07 03:27:35.966863"
 latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepaccess"
 aliases:
