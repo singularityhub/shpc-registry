@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/concoct
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for concoct
 latest:
-  1.1.0--py312h71dcd68_7: 
-    sha256:7faf87cce8117b39842671ee184638f54cb6850c6747a47cdc28c813586ffb41
+  1.1.0--py311hdfb91c2_8: 
+    sha256:fc1abba08026bed28f259ae3d3ec0a256fa618879fd8558f5a352abe21367449
 tags:
   1.1.0--py310h74abf4b_3: 
     sha256:109756b95a510daac9a52b9bb54520c065694eccbaff5a1ff8a502747ec297f5
@@ -13,6 +13,8 @@ tags:
     sha256:740d179e3ffc55778c2d06c04d1f56fd9f651708e8377e531e5a72b8e6f5794b
   1.1.0--py312h71dcd68_7: 
     sha256:7faf87cce8117b39842671ee184638f54cb6850c6747a47cdc28c813586ffb41
+  1.1.0--py311hdfb91c2_8: 
+    sha256:fc1abba08026bed28f259ae3d3ec0a256fa618879fd8558f5a352abe21367449
 docker: quay.io/biocontainers/concoct
 aliases:
   concoct: /usr/local/bin/concoct
