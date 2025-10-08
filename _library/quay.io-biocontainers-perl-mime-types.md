@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-mime-types"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mime-types/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mime-types/container.yaml"
-updated_at: "2025-10-07 03:48:39.911501"
-latest: "2.28--pl5321hdfd78af_0"
+updated_at: "2025-10-08 03:49:41.481394"
+latest: "2.29--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mime-types"
 aliases:
  - "perl5.32.1"
@@ -16,8 +16,9 @@ versions:
  - "2.23--pl5321hdfd78af_0"
  - "2.27--pl5321hdfd78af_0"
  - "2.28--pl5321hdfd78af_0"
+ - "2.29--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-mime-types"
-config: {"url": "https://biocontainers.pro/tools/perl-mime-types", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mime-types", "latest": {"2.28--pl5321hdfd78af_0": "sha256:e105b883bc733cc0440c9bf00c2894760d520ebe758c7904e2b50219f90472e2"}, "tags": {"2.22--pl5321hdfd78af_0": "sha256:c1c581fcd8170a21a5bb34a4f16957ea71e7df9379b40ffafc66ddb5e08e714f", "2.24--pl5321hdfd78af_0": "sha256:3000a691e1d7c8bcd8eee5e5731355492e93a2d8dc4afb285cbcfe7e09002cfc", "2.23--pl5321hdfd78af_0": "sha256:56ac065356f7bd38c16b7c93a7238c6d04c4ea1420808234e6d17386dab37ee2", "2.27--pl5321hdfd78af_0": "sha256:b0193473e5d5150fa35023523e88ebb191aea1f2cbd326b478944f3eda89fdd9", "2.28--pl5321hdfd78af_0": "sha256:e105b883bc733cc0440c9bf00c2894760d520ebe758c7904e2b50219f90472e2"}, "docker": "quay.io/biocontainers/perl-mime-types", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-mime-types", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mime-types", "latest": {"2.29--pl5321hdfd78af_0": "sha256:bff9505a7090e52cba79a72a620d6d8c1248ae1597486055f8f1fbc3fc6a2da5"}, "tags": {"2.22--pl5321hdfd78af_0": "sha256:c1c581fcd8170a21a5bb34a4f16957ea71e7df9379b40ffafc66ddb5e08e714f", "2.24--pl5321hdfd78af_0": "sha256:3000a691e1d7c8bcd8eee5e5731355492e93a2d8dc4afb285cbcfe7e09002cfc", "2.23--pl5321hdfd78af_0": "sha256:56ac065356f7bd38c16b7c93a7238c6d04c4ea1420808234e6d17386dab37ee2", "2.27--pl5321hdfd78af_0": "sha256:b0193473e5d5150fa35023523e88ebb191aea1f2cbd326b478944f3eda89fdd9", "2.28--pl5321hdfd78af_0": "sha256:e105b883bc733cc0440c9bf00c2894760d520ebe758c7904e2b50219f90472e2", "2.29--pl5321hdfd78af_0": "sha256:bff9505a7090e52cba79a72a620d6d8c1248ae1597486055f8f1fbc3fc6a2da5"}, "docker": "quay.io/biocontainers/perl-mime-types", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-mime-types.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/perl-mime-types
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-mime-types:2.28--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-mime-types:2.29--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-mime-types/2.28--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-mime-types/2.28--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-mime-types/2.29--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-mime-types/2.29--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

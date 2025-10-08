@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/b2btools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/b2btools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/b2btools/container.yaml"
-updated_at: "2025-10-07 03:15:31.774723"
-latest: "3.0.7--py310hdbdd923_0"
+updated_at: "2025-10-08 03:16:11.385305"
+latest: "3.0.7--py310h8ea774a_1"
 container_url: "https://biocontainers.pro/tools/b2btools"
 aliases:
  - "torchrun"
@@ -23,8 +23,9 @@ versions:
  - "3.0.5--pyhdfd78af_0"
  - "3.0.6--pyhdfd78af_0"
  - "3.0.7--py310hdbdd923_0"
+ - "3.0.7--py310h8ea774a_1"
 description: "shpc-registry automated BioContainers addition for b2btools"
-config: {"url": "https://biocontainers.pro/tools/b2btools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for b2btools", "latest": {"3.0.7--py310hdbdd923_0": "sha256:137b6ddf38e9769ec740da4f26e9856ca337bfae74d146ef118b48518fd0335a"}, "tags": {"3.0.5--pyhdfd78af_0": "sha256:c2f59efa246253073c3752eeb61c6506359f33a67619c9121739dad7ce46cc15", "3.0.6--pyhdfd78af_0": "sha256:08bfa804fe25b268b68d05fece871a609d829f929eac58124f067c0a0e18792f", "3.0.7--py310hdbdd923_0": "sha256:137b6ddf38e9769ec740da4f26e9856ca337bfae74d146ef118b48518fd0335a"}, "docker": "quay.io/biocontainers/b2btools", "aliases": {"torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "protoc": "/usr/local/bin/protoc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/b2btools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for b2btools", "latest": {"3.0.7--py310h8ea774a_1": "sha256:138528d77021e6f1ab51d13cdc2b4c5b168846772298c301471f6005a1f735d5"}, "tags": {"3.0.5--pyhdfd78af_0": "sha256:c2f59efa246253073c3752eeb61c6506359f33a67619c9121739dad7ce46cc15", "3.0.6--pyhdfd78af_0": "sha256:08bfa804fe25b268b68d05fece871a609d829f929eac58124f067c0a0e18792f", "3.0.7--py310hdbdd923_0": "sha256:137b6ddf38e9769ec740da4f26e9856ca337bfae74d146ef118b48518fd0335a", "3.0.7--py310h8ea774a_1": "sha256:138528d77021e6f1ab51d13cdc2b4c5b168846772298c301471f6005a1f735d5"}, "docker": "quay.io/biocontainers/b2btools", "aliases": {"torchrun": "/usr/local/bin/torchrun", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "protoc": "/usr/local/bin/protoc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/b2btools.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/b2btools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/b2btools:3.0.7--py310hdbdd923_0
+$ shpc install quay.io/biocontainers/b2btools:3.0.7--py310h8ea774a_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/b2btools/3.0.7--py310hdbdd923_0
-$ module help quay.io/biocontainers/b2btools/3.0.7--py310hdbdd923_0
+$ module load quay.io/biocontainers/b2btools/3.0.7--py310h8ea774a_1
+$ module help quay.io/biocontainers/b2btools/3.0.7--py310h8ea774a_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

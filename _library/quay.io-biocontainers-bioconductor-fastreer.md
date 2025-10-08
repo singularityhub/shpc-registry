@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fastreer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fastreer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fastreer/container.yaml"
-updated_at: "2025-10-07 03:02:06.754822"
+updated_at: "2025-10-08 03:02:05.136135"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fastreer"
 aliases:

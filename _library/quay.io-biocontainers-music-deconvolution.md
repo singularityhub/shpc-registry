@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/music-deconvolution"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/music-deconvolution/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/music-deconvolution/container.yaml"
-updated_at: "2025-10-07 03:28:46.425936"
+updated_at: "2025-10-08 03:29:32.021676"
 latest: "0.1.1--r351_0"
 container_url: "https://biocontainers.pro/tools/music-deconvolution"
 aliases:

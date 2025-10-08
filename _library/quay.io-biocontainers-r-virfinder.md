@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-virfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-virfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-virfinder/container.yaml"
-updated_at: "2025-10-07 03:13:32.320054"
+updated_at: "2025-10-08 03:14:01.669696"
 latest: "1.1--r44h503566f_8"
 container_url: "https://biocontainers.pro/tools/r-virfinder"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-s3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-s3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-s3/container.yaml"
-updated_at: "2025-10-07 03:41:41.078519"
-latest: "0.3.4--pyhdfd78af_0"
+updated_at: "2025-10-08 03:42:31.321912"
+latest: "0.3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-s3"
 aliases:
  - "2to3-3.12"
@@ -22,8 +22,9 @@ versions:
  - "0.2.13--pyhdfd78af_0"
  - "0.3.3--pyhdfd78af_0"
  - "0.3.4--pyhdfd78af_0"
+ - "0.3.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-storage-plugin-s3"
-config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-s3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-s3", "latest": {"0.3.4--pyhdfd78af_0": "sha256:bf5f5e95d6ccff9d3837b383e575a8d70194da1394d2599cfda9d91f9a4e5ab0"}, "tags": {"0.2.8--pyhdfd78af_1": "sha256:12cd4ef702fc9ad87d34f8b9d2948981834a9f25667f3e18c4e41187757a5912", "0.2.10--pyhdfd78af_0": "sha256:c44f5aa92defa07728ebc0cf64218b367b43e5b9b964368ce58837cf12ff7b74", "0.2.11--pyhdfd78af_0": "sha256:2ce6ac3c565f2c00d57f88d6a5bd3f53108b925397f30c49e57da38f021d0293", "0.2.12--pyhdfd78af_0": "sha256:e51dc3d5f5337a8df30f9c2f3aac800aade5017a0550a35ee8fd3100fc4fac29", "0.2.13--pyhdfd78af_0": "sha256:64508604e605da235e64f9d73bcdc79e27694348cadeaed365595c20b0f19ab6", "0.3.3--pyhdfd78af_0": "sha256:75a145b7bb6c763ebda48a379b2927b8ddba6adfeb4f76c7cfa6cf69b38db1fc", "0.3.4--pyhdfd78af_0": "sha256:bf5f5e95d6ccff9d3837b383e575a8d70194da1394d2599cfda9d91f9a4e5ab0"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-s3", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jp.py": "/usr/local/bin/jp.py"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-storage-plugin-s3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-storage-plugin-s3", "latest": {"0.3.6--pyhdfd78af_0": "sha256:45cdecdad79f038bfe55fbfab008f1cde520e30e4fb6d360fe62def4400bfc06"}, "tags": {"0.2.8--pyhdfd78af_1": "sha256:12cd4ef702fc9ad87d34f8b9d2948981834a9f25667f3e18c4e41187757a5912", "0.2.10--pyhdfd78af_0": "sha256:c44f5aa92defa07728ebc0cf64218b367b43e5b9b964368ce58837cf12ff7b74", "0.2.11--pyhdfd78af_0": "sha256:2ce6ac3c565f2c00d57f88d6a5bd3f53108b925397f30c49e57da38f021d0293", "0.2.12--pyhdfd78af_0": "sha256:e51dc3d5f5337a8df30f9c2f3aac800aade5017a0550a35ee8fd3100fc4fac29", "0.2.13--pyhdfd78af_0": "sha256:64508604e605da235e64f9d73bcdc79e27694348cadeaed365595c20b0f19ab6", "0.3.3--pyhdfd78af_0": "sha256:75a145b7bb6c763ebda48a379b2927b8ddba6adfeb4f76c7cfa6cf69b38db1fc", "0.3.4--pyhdfd78af_0": "sha256:bf5f5e95d6ccff9d3837b383e575a8d70194da1394d2599cfda9d91f9a4e5ab0", "0.3.6--pyhdfd78af_0": "sha256:45cdecdad79f038bfe55fbfab008f1cde520e30e4fb6d360fe62def4400bfc06"}, "docker": "quay.io/biocontainers/snakemake-storage-plugin-s3", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jp.py": "/usr/local/bin/jp.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-storage-plugin-s3.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/snakemake-storage-plugin-s3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-storage-plugin-s3:0.3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-storage-plugin-s3:0.3.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-storage-plugin-s3/0.3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-storage-plugin-s3/0.3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-storage-plugin-s3/0.3.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-storage-plugin-s3/0.3.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

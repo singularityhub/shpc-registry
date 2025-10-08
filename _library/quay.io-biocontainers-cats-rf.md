@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cats-rf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cats-rf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cats-rf/container.yaml"
-updated_at: "2025-10-07 03:14:03.473940"
-latest: "1.0.2--hdfd78af_0"
+updated_at: "2025-10-08 03:14:35.455497"
+latest: "1.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cats-rf"
 aliases:
  - "CATS_general_assembly_stats.R"
@@ -49,8 +49,9 @@ versions:
  - "1.0.0--hdfd78af_0"
  - "1.0.1--hdfd78af_0"
  - "1.0.2--hdfd78af_0"
+ - "1.0.4--hdfd78af_0"
 description: "singularity registry hpc automated addition for cats-rf"
-config: {"url": "https://biocontainers.pro/tools/cats-rf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cats-rf", "latest": {"1.0.2--hdfd78af_0": "sha256:305ccb70aa188b0e53ea8565d97861c41ca8198a678e9adcf024b4eb83ccbc07"}, "tags": {"1.0.0--hdfd78af_0": "sha256:9f48c9e9ef9822c156d6cd7163808cfa60cc60f8e467aa4727695c61f5c979c5", "1.0.1--hdfd78af_0": "sha256:74016b5fc9057b5090430770c703bb10f32cdd6e1b53ec60e0387f79bf11de55", "1.0.2--hdfd78af_0": "sha256:305ccb70aa188b0e53ea8565d97861c41ca8198a678e9adcf024b4eb83ccbc07"}, "docker": "quay.io/biocontainers/cats-rf", "aliases": {"CATS_general_assembly_stats.R": "/usr/local/bin/CATS_general_assembly_stats.R", "CATS_rf": "/usr/local/bin/CATS_rf", "CATS_rf_add_uncovered_bases.R": "/usr/local/bin/CATS_rf_add_uncovered_bases.R", "CATS_rf_add_uncovered_transcripts.R": "/usr/local/bin/CATS_rf_add_uncovered_transcripts.R", "CATS_rf_compare": "/usr/local/bin/CATS_rf_compare", "CATS_rf_comparison.Rmd": "/usr/local/bin/CATS_rf_comparison.Rmd", "CATS_rf_cov_acc_analysis.R": "/usr/local/bin/CATS_rf_cov_acc_analysis.R", "CATS_rf_generate_assembly_score.R": "/usr/local/bin/CATS_rf_generate_assembly_score.R", "CATS_rf_paired_end_read_analysis.R": "/usr/local/bin/CATS_rf_paired_end_read_analysis.R", "CATS_rf_read_assignment_pe.R": "/usr/local/bin/CATS_rf_read_assignment_pe.R", "CATS_rf_read_assignment_se.R": "/usr/local/bin/CATS_rf_read_assignment_se.R", "pysamstats": "/usr/local/bin/pysamstats", "kallisto": "/usr/local/bin/kallisto", "ref-cache": "/usr/local/bin/ref-cache", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "cpuinfo": "/usr/local/bin/cpuinfo", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "pandoc-lua": "/usr/local/bin/pandoc-lua", "gawkbug": "/usr/local/bin/gawkbug", "pandoc-server": "/usr/local/bin/pandoc-server", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/cats-rf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cats-rf", "latest": {"1.0.4--hdfd78af_0": "sha256:c35b0d6ca6ec3a38fb62448be33943bd0c80d8e85c856ff562ad9b1a3937f827"}, "tags": {"1.0.0--hdfd78af_0": "sha256:9f48c9e9ef9822c156d6cd7163808cfa60cc60f8e467aa4727695c61f5c979c5", "1.0.1--hdfd78af_0": "sha256:74016b5fc9057b5090430770c703bb10f32cdd6e1b53ec60e0387f79bf11de55", "1.0.2--hdfd78af_0": "sha256:305ccb70aa188b0e53ea8565d97861c41ca8198a678e9adcf024b4eb83ccbc07", "1.0.4--hdfd78af_0": "sha256:c35b0d6ca6ec3a38fb62448be33943bd0c80d8e85c856ff562ad9b1a3937f827"}, "docker": "quay.io/biocontainers/cats-rf", "aliases": {"CATS_general_assembly_stats.R": "/usr/local/bin/CATS_general_assembly_stats.R", "CATS_rf": "/usr/local/bin/CATS_rf", "CATS_rf_add_uncovered_bases.R": "/usr/local/bin/CATS_rf_add_uncovered_bases.R", "CATS_rf_add_uncovered_transcripts.R": "/usr/local/bin/CATS_rf_add_uncovered_transcripts.R", "CATS_rf_compare": "/usr/local/bin/CATS_rf_compare", "CATS_rf_comparison.Rmd": "/usr/local/bin/CATS_rf_comparison.Rmd", "CATS_rf_cov_acc_analysis.R": "/usr/local/bin/CATS_rf_cov_acc_analysis.R", "CATS_rf_generate_assembly_score.R": "/usr/local/bin/CATS_rf_generate_assembly_score.R", "CATS_rf_paired_end_read_analysis.R": "/usr/local/bin/CATS_rf_paired_end_read_analysis.R", "CATS_rf_read_assignment_pe.R": "/usr/local/bin/CATS_rf_read_assignment_pe.R", "CATS_rf_read_assignment_se.R": "/usr/local/bin/CATS_rf_read_assignment_se.R", "pysamstats": "/usr/local/bin/pysamstats", "kallisto": "/usr/local/bin/kallisto", "ref-cache": "/usr/local/bin/ref-cache", "bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "cpuinfo": "/usr/local/bin/cpuinfo", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "pandoc-lua": "/usr/local/bin/pandoc-lua", "gawkbug": "/usr/local/bin/gawkbug", "pandoc-server": "/usr/local/bin/pandoc-server", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cats-rf.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/cats-rf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cats-rf:1.0.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/cats-rf:1.0.4--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cats-rf/1.0.2--hdfd78af_0
-$ module help quay.io/biocontainers/cats-rf/1.0.2--hdfd78af_0
+$ module load quay.io/biocontainers/cats-rf/1.0.4--hdfd78af_0
+$ module help quay.io/biocontainers/cats-rf/1.0.4--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
