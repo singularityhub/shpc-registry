@@ -8,7 +8,7 @@ latest:
     sha256:fffb1001fdd79e256862aba1aacd454feb945f76da917579378a8b47241c3af8
 tags:
   latest: 
-    sha256:fffb1001fdd79e256862aba1aacd454feb945f76da917579378a8b47241c3af8
+    sha256:82be75bc629f95562e291a8edf87420ad23a7e9a9aa390d016958647e7244585
   '2025-06-02': 
     sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31
   cuda12-2025-06-02: 
@@ -45,6 +45,8 @@ tags:
     sha256:a266f8a201cfff22bc700072ba0edbc9573b452bf8715027291cb5c45f9388fb
   '2024-10-29': 
     sha256:36cb7df867ea58b139b6192ad9834bd17cd3618d7aa392e8a0e2bface165c297
+  '2025-02-10': 
+    sha256:bf606c7bb97e0c9b774c43ce1145f2d44fa07d74a8ee45914436000dae7da5a7
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

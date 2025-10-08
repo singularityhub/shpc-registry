@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gsmap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gsmap
 latest:
-  1.73.5--pyhdfd78af_0: 
-    sha256:278eef04fef351708a5e91957b05cbc4fb8d093c37f2a43ff66ed8419fe7b956
+  1.73.6--pyhdfd78af_0: 
+    sha256:c63c5c8e639b6589955272f8d3f19a02beda2d1a6ebc1af16556b1fb3624714b
 tags:
   1.70--pyhdfd78af_0: 
     sha256:fa692f6f9164d02034d40f4f8a35e406d8a330995aa3298e007e866a98eb3e46
@@ -13,6 +13,8 @@ tags:
     sha256:b9485ba3f2791491d2ad0481e232d075d8f7718069fdd61d143f41061dac0d19
   1.73.5--pyhdfd78af_0: 
     sha256:278eef04fef351708a5e91957b05cbc4fb8d093c37f2a43ff66ed8419fe7b956
+  1.73.6--pyhdfd78af_0: 
+    sha256:c63c5c8e639b6589955272f8d3f19a02beda2d1a6ebc1af16556b1fb3624714b
 docker: quay.io/biocontainers/gsmap
 aliases:
   checksum-profile: /usr/local/bin/checksum-profile

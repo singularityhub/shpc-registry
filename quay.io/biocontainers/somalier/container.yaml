@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/somalier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for somalier
 latest:
-  0.3.0--hc78c8e0_0: 
-    sha256:ee1b61cfe9be96052312e2afa452a82cfbe127cdc04169945b8b7256279b9cae
+  0.3.1--hc78c8e0_0: 
+    sha256:725adcc5b581d194c58309d7d60578cbce9ba99112f391bd5ea526a3bc0731ce
 tags:
   0.2.15--h37c5b7d_0: 
     sha256:eafc48e062371d67aba2f562920f9b53033eb06eb72f8e6516ca6b2558df5ac4
@@ -15,6 +15,8 @@ tags:
     sha256:6d8273e20a4f30b5679e0ebf8dbf2b58f65bd70623f9f7d2e888b96f3fe3f882
   0.3.0--hc78c8e0_0: 
     sha256:ee1b61cfe9be96052312e2afa452a82cfbe127cdc04169945b8b7256279b9cae
+  0.3.1--hc78c8e0_0: 
+    sha256:725adcc5b581d194c58309d7d60578cbce9ba99112f391bd5ea526a3bc0731ce
 docker: quay.io/biocontainers/somalier
 aliases:
   somalier: /usr/local/bin/somalier

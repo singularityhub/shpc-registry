@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mpralib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mpralib
 latest:
-  0.8.2--pyhdfd78af_0: 
-    sha256:20d9ea835deaa375a0a241d1ff3e9b7d772bc29e562f51906568ddfba4c849ad
+  0.9.0--pyhdfd78af_0: 
+    sha256:c26b9b67f749be24b81c790e9aed55809a50ce891b2844450eceb1ce4ccd298b
 tags:
   0.6.1--pyhdfd78af_0: 
     sha256:fa30664ceda34dd04677912e42056f0c2cb647fd381e91cd70fd2ed850a6eff8
@@ -15,6 +15,8 @@ tags:
     sha256:20d9ea835deaa375a0a241d1ff3e9b7d772bc29e562f51906568ddfba4c849ad
   0.7.4--pyhdfd78af_0: 
     sha256:5c2994b124712f253422e62ec1a8b46fcd5a620403866f1068f84a1f1e56b7b4
+  0.9.0--pyhdfd78af_0: 
+    sha256:c26b9b67f749be24b81c790e9aed55809a50ce891b2844450eceb1ce4ccd298b
 docker: quay.io/biocontainers/mpralib
 aliases:
   mpralib: /usr/local/bin/mpralib
