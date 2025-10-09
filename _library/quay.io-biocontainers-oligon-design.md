@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oligon-design"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligon-design/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oligon-design/container.yaml"
-updated_at: "2025-10-09 03:31:00.836641"
+updated_at: "2025-10-09 04:40:30.880232"
 latest: "0.4.0--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/oligon-design"
 aliases:

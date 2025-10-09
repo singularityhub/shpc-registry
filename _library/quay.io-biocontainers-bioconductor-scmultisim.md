@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scmultisim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmultisim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmultisim/container.yaml"
-updated_at: "2025-10-09 03:41:29.747049"
+updated_at: "2025-10-09 04:51:03.083757"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmultisim"
 aliases:
