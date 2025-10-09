@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dsrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dsrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dsrc/container.yaml"
-updated_at: "2025-10-08 03:28:25.827812"
-latest: "2015.06.04--h077b44d_9"
+updated_at: "2025-10-09 03:30:38.556856"
+latest: "2015.06.04--h077b44d_10"
 container_url: "https://biocontainers.pro/tools/dsrc"
 aliases:
  - "dsrc"
@@ -15,8 +15,9 @@ versions:
  - "2015.06.04--hdcf5f25_7"
  - "2015.06.04--hdcf5f25_8"
  - "2015.06.04--h077b44d_9"
+ - "2015.06.04--h077b44d_10"
 description: "shpc-registry automated BioContainers addition for dsrc"
-config: {"url": "https://biocontainers.pro/tools/dsrc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dsrc", "latest": {"2015.06.04--h077b44d_9": "sha256:6e441b7e707238c2e5c71a77c66abcf2db90d8b0b354450fc8ba150c5e424f60"}, "tags": {"2015.06.04--h7ff8a90_4": "sha256:c09ee47a183d8abed7ca2de63e23f2e1e02e185328a5096e786ddd75109964ef", "2015.06.04--h21ec9f0_6": "sha256:09f329357fc3b7ad457bc67b7eaba8dfbcaa5af18891d2a71643792cfefefaaf", "2015.06.04--hdcf5f25_7": "sha256:e5887fa5b0862c813e0702aa037999862ab114208eb92574828fbebe53eb93e8", "2015.06.04--hdcf5f25_8": "sha256:fe1b0e162e2c62abe7368a76b8ac7877b29e1888ace6f668de527072e6d15b85", "2015.06.04--h077b44d_9": "sha256:6e441b7e707238c2e5c71a77c66abcf2db90d8b0b354450fc8ba150c5e424f60"}, "docker": "quay.io/biocontainers/dsrc", "aliases": {"dsrc": "/usr/local/bin/dsrc"}}
+config: {"url": "https://biocontainers.pro/tools/dsrc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dsrc", "latest": {"2015.06.04--h077b44d_10": "sha256:4f1793b76aafeb58f98656270b38d3ce3575560071a25e2612b8d905dfad48f6"}, "tags": {"2015.06.04--h7ff8a90_4": "sha256:c09ee47a183d8abed7ca2de63e23f2e1e02e185328a5096e786ddd75109964ef", "2015.06.04--h21ec9f0_6": "sha256:09f329357fc3b7ad457bc67b7eaba8dfbcaa5af18891d2a71643792cfefefaaf", "2015.06.04--hdcf5f25_7": "sha256:e5887fa5b0862c813e0702aa037999862ab114208eb92574828fbebe53eb93e8", "2015.06.04--hdcf5f25_8": "sha256:fe1b0e162e2c62abe7368a76b8ac7877b29e1888ace6f668de527072e6d15b85", "2015.06.04--h077b44d_9": "sha256:6e441b7e707238c2e5c71a77c66abcf2db90d8b0b354450fc8ba150c5e424f60", "2015.06.04--h077b44d_10": "sha256:4f1793b76aafeb58f98656270b38d3ce3575560071a25e2612b8d905dfad48f6"}, "docker": "quay.io/biocontainers/dsrc", "aliases": {"dsrc": "/usr/local/bin/dsrc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dsrc.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/dsrc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dsrc:2015.06.04--h077b44d_9
+$ shpc install quay.io/biocontainers/dsrc:2015.06.04--h077b44d_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dsrc/2015.06.04--h077b44d_9
-$ module help quay.io/biocontainers/dsrc/2015.06.04--h077b44d_9
+$ module load quay.io/biocontainers/dsrc/2015.06.04--h077b44d_10
+$ module help quay.io/biocontainers/dsrc/2015.06.04--h077b44d_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

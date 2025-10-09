@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haploflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haploflow/container.yaml"
-updated_at: "2025-10-08 03:24:12.068903"
+updated_at: "2025-10-09 03:26:26.713738"
 latest: "1.0--h9948957_5"
 container_url: "https://biocontainers.pro/tools/haploflow"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/galaxy-schema"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-schema/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-schema/container.yaml"
-updated_at: "2025-10-08 03:04:52.969747"
-latest: "25.0.2--pyhdfd78af_0"
+updated_at: "2025-10-09 03:07:17.317718"
+latest: "25.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-schema"
 aliases:
  - "cheetah"
@@ -41,8 +41,9 @@ versions:
  - "25.0.1--pyh7e72e81_0"
  - "24.2.4--pyhdfd78af_0"
  - "25.0.2--pyhdfd78af_0"
+ - "25.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for galaxy-schema"
-config: {"url": "https://biocontainers.pro/tools/galaxy-schema", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for galaxy-schema", "latest": {"25.0.2--pyhdfd78af_0": "sha256:fd40ef838f6999b83ef6dfc44dc8905b54b9513c3c9541477438308a4e22269d"}, "tags": {"24.1.1--pyhdfd78af_0": "sha256:c768479edc284c9b23fe1ee8d3b17b7f26c4ec68b68e979443c8d43444f0d482", "24.1.2--pyhdfd78af_0": "sha256:b9bdfec984b80f7c60ad04d4d076707b761c50d4414817a76e63d795a89bce22", "24.1.3--pyhdfd78af_0": "sha256:9eaea26ec046cf826e1ce8098442d94d87b21f0a60bdbc1390a1e26e202c4372", "24.1.4--pyhdfd78af_0": "sha256:87a0bdeedf4c8756609accedca47f17efb8c30b6990cccdd255f466ae93ab7f7", "24.2.2--pyhdfd78af_0": "sha256:b0b3736536b72454f5d4762c9bb06dd3587f3c4f9808000e7a90cb725c53b801", "24.2.3--pyhdfd78af_0": "sha256:6bf5edd8058c701d3ed8957ad87241f948774f3c9aac0dd8d6fc40e56dc77adf", "25.0.1--pyh7e72e81_0": "sha256:18447e51bb0c8cc63a525934f09189191037bdff085aa10d67c812fa378aa91f", "24.2.4--pyhdfd78af_0": "sha256:8a174c2b4de0f07f194af7ef9d84b8ec1fab92f98c5c72fe1331856b4d15e328", "25.0.2--pyhdfd78af_0": "sha256:fd40ef838f6999b83ef6dfc44dc8905b54b9513c3c9541477438308a4e22269d"}, "docker": "quay.io/biocontainers/galaxy-schema", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "email_validator": "/usr/local/bin/email_validator", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "docutils": "/usr/local/bin/docutils", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-schema", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for galaxy-schema", "latest": {"25.0.3--pyhdfd78af_0": "sha256:12ec51b5b810223cdcccb0dbd76a51d0bb1343fa2605507be21d1604f2221324"}, "tags": {"24.1.1--pyhdfd78af_0": "sha256:c768479edc284c9b23fe1ee8d3b17b7f26c4ec68b68e979443c8d43444f0d482", "24.1.2--pyhdfd78af_0": "sha256:b9bdfec984b80f7c60ad04d4d076707b761c50d4414817a76e63d795a89bce22", "24.1.3--pyhdfd78af_0": "sha256:9eaea26ec046cf826e1ce8098442d94d87b21f0a60bdbc1390a1e26e202c4372", "24.1.4--pyhdfd78af_0": "sha256:87a0bdeedf4c8756609accedca47f17efb8c30b6990cccdd255f466ae93ab7f7", "24.2.2--pyhdfd78af_0": "sha256:b0b3736536b72454f5d4762c9bb06dd3587f3c4f9808000e7a90cb725c53b801", "24.2.3--pyhdfd78af_0": "sha256:6bf5edd8058c701d3ed8957ad87241f948774f3c9aac0dd8d6fc40e56dc77adf", "25.0.1--pyh7e72e81_0": "sha256:18447e51bb0c8cc63a525934f09189191037bdff085aa10d67c812fa378aa91f", "24.2.4--pyhdfd78af_0": "sha256:8a174c2b4de0f07f194af7ef9d84b8ec1fab92f98c5c72fe1331856b4d15e328", "25.0.2--pyhdfd78af_0": "sha256:fd40ef838f6999b83ef6dfc44dc8905b54b9513c3c9541477438308a4e22269d", "25.0.3--pyhdfd78af_0": "sha256:12ec51b5b810223cdcccb0dbd76a51d0bb1343fa2605507be21d1604f2221324"}, "docker": "quay.io/biocontainers/galaxy-schema", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "email_validator": "/usr/local/bin/email_validator", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "docutils": "/usr/local/bin/docutils", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-schema.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/galaxy-schema
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/galaxy-schema:25.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/galaxy-schema:25.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/galaxy-schema/25.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/galaxy-schema/25.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/galaxy-schema/25.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/galaxy-schema/25.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

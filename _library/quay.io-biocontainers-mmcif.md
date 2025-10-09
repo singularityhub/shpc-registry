@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmcif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmcif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmcif/container.yaml"
-updated_at: "2025-10-08 03:18:22.957122"
+updated_at: "2025-10-09 03:20:40.928826"
 latest: "0.92.0--py310h8ea774a_1"
 container_url: "https://biocontainers.pro/tools/mmcif"
 aliases:

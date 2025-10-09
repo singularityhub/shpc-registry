@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/triqler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/triqler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/triqler/container.yaml"
-updated_at: "2025-10-08 03:21:59.542270"
-latest: "0.9.0--pyhdfd78af_0"
+updated_at: "2025-10-09 03:24:15.517119"
+latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/triqler"
 aliases:
  - "triqler"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.6.2--pyh5e36f6f_0"
  - "0.9.0--pyhdfd78af_0"
+ - "0.9.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for triqler"
-config: {"url": "https://biocontainers.pro/tools/triqler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for triqler", "latest": {"0.9.0--pyhdfd78af_0": "sha256:25bb981c6a622b0eb646a42375aec585ac43685b6def1d6291bbda761eaebf73"}, "tags": {"0.6.2--pyh5e36f6f_0": "sha256:5342050f3bf8d11688eb864f08c7942e2492d5b71bdaccf818ec1a40ef06c166", "0.9.0--pyhdfd78af_0": "sha256:25bb981c6a622b0eb646a42375aec585ac43685b6def1d6291bbda761eaebf73"}, "docker": "quay.io/biocontainers/triqler", "aliases": {"triqler": "/usr/local/bin/triqler", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/triqler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for triqler", "latest": {"0.9.1--pyhdfd78af_0": "sha256:e531613b8044d4bfc314309ee3499c56578315ed2abccc4e9fe86dc4c9e2ef0a"}, "tags": {"0.6.2--pyh5e36f6f_0": "sha256:5342050f3bf8d11688eb864f08c7942e2492d5b71bdaccf818ec1a40ef06c166", "0.9.0--pyhdfd78af_0": "sha256:25bb981c6a622b0eb646a42375aec585ac43685b6def1d6291bbda761eaebf73", "0.9.1--pyhdfd78af_0": "sha256:e531613b8044d4bfc314309ee3499c56578315ed2abccc4e9fe86dc4c9e2ef0a"}, "docker": "quay.io/biocontainers/triqler", "aliases": {"triqler": "/usr/local/bin/triqler", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/triqler.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/triqler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/triqler:0.9.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/triqler:0.9.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/triqler/0.9.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/triqler/0.9.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/triqler/0.9.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/triqler/0.9.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

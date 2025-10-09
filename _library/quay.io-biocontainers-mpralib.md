@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mpralib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mpralib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mpralib/container.yaml"
-updated_at: "2025-10-08 03:33:31.239052"
-latest: "0.8.2--pyhdfd78af_0"
+updated_at: "2025-10-09 03:35:40.211797"
+latest: "0.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mpralib"
 aliases:
  - "mpralib"
@@ -40,8 +40,9 @@ versions:
  - "0.6.5--pyhdfd78af_0"
  - "0.8.2--pyhdfd78af_0"
  - "0.7.4--pyhdfd78af_0"
+ - "0.9.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mpralib"
-config: {"url": "https://biocontainers.pro/tools/mpralib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mpralib", "latest": {"0.8.2--pyhdfd78af_0": "sha256:20d9ea835deaa375a0a241d1ff3e9b7d772bc29e562f51906568ddfba4c849ad"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:fa30664ceda34dd04677912e42056f0c2cb647fd381e91cd70fd2ed850a6eff8", "0.7.0--pyhdfd78af_0": "sha256:b5016fba3a454301b460bb67adb41c299d879a60bb3086ab6e3b2b2266489bd7", "0.6.5--pyhdfd78af_0": "sha256:b55b4b9c28a079bac9a1c1c42dd6077e6529463cf4674f9c77dacea5fe18ba43", "0.8.2--pyhdfd78af_0": "sha256:20d9ea835deaa375a0a241d1ff3e9b7d772bc29e562f51906568ddfba4c849ad", "0.7.4--pyhdfd78af_0": "sha256:5c2994b124712f253422e62ec1a8b46fcd5a620403866f1068f84a1f1e56b7b4"}, "docker": "quay.io/biocontainers/mpralib", "aliases": {"mpralib": "/usr/local/bin/mpralib", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "numpy-config": "/usr/local/bin/numpy-config", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "tjbench": "/usr/local/bin/tjbench", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/mpralib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mpralib", "latest": {"0.9.0--pyhdfd78af_0": "sha256:c26b9b67f749be24b81c790e9aed55809a50ce891b2844450eceb1ce4ccd298b"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:fa30664ceda34dd04677912e42056f0c2cb647fd381e91cd70fd2ed850a6eff8", "0.7.0--pyhdfd78af_0": "sha256:b5016fba3a454301b460bb67adb41c299d879a60bb3086ab6e3b2b2266489bd7", "0.6.5--pyhdfd78af_0": "sha256:b55b4b9c28a079bac9a1c1c42dd6077e6529463cf4674f9c77dacea5fe18ba43", "0.8.2--pyhdfd78af_0": "sha256:20d9ea835deaa375a0a241d1ff3e9b7d772bc29e562f51906568ddfba4c849ad", "0.7.4--pyhdfd78af_0": "sha256:5c2994b124712f253422e62ec1a8b46fcd5a620403866f1068f84a1f1e56b7b4", "0.9.0--pyhdfd78af_0": "sha256:c26b9b67f749be24b81c790e9aed55809a50ce891b2844450eceb1ce4ccd298b"}, "docker": "quay.io/biocontainers/mpralib", "aliases": {"mpralib": "/usr/local/bin/mpralib", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "numpy-config": "/usr/local/bin/numpy-config", "natsort": "/usr/local/bin/natsort", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "tjbench": "/usr/local/bin/tjbench", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mpralib.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/mpralib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mpralib:0.8.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mpralib:0.9.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mpralib/0.8.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/mpralib/0.8.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/mpralib/0.9.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/mpralib/0.9.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

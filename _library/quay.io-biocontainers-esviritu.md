@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esviritu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esviritu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esviritu/container.yaml"
-updated_at: "2025-10-08 03:47:36.667198"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2025-10-09 03:49:24.956175"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/esviritu"
 aliases:
  - "EsViritu"
@@ -67,8 +67,9 @@ versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.3--pyhdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for esviritu"
-config: {"url": "https://biocontainers.pro/tools/esviritu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esviritu", "latest": {"1.1.0--pyhdfd78af_0": "sha256:e43cd3c71e2493cc1789cd03d8a6620b06497c0f7f5850a339695b7bcbd9de4b"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:70cb2f1d48c8079a36d3cb43b781305b300f9f9b4115664b1cc69115eaa1f04e", "0.2.3--pyhdfd78af_0": "sha256:cddb5bd7e8672b343d2fc04eee6f26732658b989667f43013532361b11dadcfa", "1.0.2--pyhdfd78af_0": "sha256:da61e92e4187c03cf870c6028e8415eaf86f14b8ac5847492e4b87bff4c6d501", "1.0.3--pyhdfd78af_0": "sha256:3cff16335a1874de142970fe4e1cd1c564214aa2ba9cc258c8418ff05cb290d0", "1.1.0--pyhdfd78af_0": "sha256:e43cd3c71e2493cc1789cd03d8a6620b06497c0f7f5850a339695b7bcbd9de4b"}, "docker": "quay.io/biocontainers/esviritu", "aliases": {"EsViritu": "/usr/local/bin/EsViritu", "bioawk": "/usr/local/bin/bioawk", "bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "coverm": "/usr/local/bin/coverm", "dadaist2-mergeseqs": "/usr/local/bin/dadaist2-mergeseqs", "dashing": "/usr/local/bin/dashing", "fu-16Sregion": "/usr/local/bin/fu-16Sregion", "fu-cov": "/usr/local/bin/fu-cov", "fu-homocomp": "/usr/local/bin/fu-homocomp", "fu-index": "/usr/local/bin/fu-index", "fu-msa": "/usr/local/bin/fu-msa", "fu-multirelabel": "/usr/local/bin/fu-multirelabel", "fu-nanotags": "/usr/local/bin/fu-nanotags", "fu-orf": "/usr/local/bin/fu-orf", "fu-primers": "/usr/local/bin/fu-primers", "fu-shred": "/usr/local/bin/fu-shred", "fu-split": "/usr/local/bin/fu-split", "fu-sw": "/usr/local/bin/fu-sw", "fu-tabcheck": "/usr/local/bin/fu-tabcheck", "fu-virfilter": "/usr/local/bin/fu-virfilter", "hb-info": "/usr/local/bin/hb-info", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "seqfu": "/usr/local/bin/seqfu", "starcode": "/usr/local/bin/starcode", "fastANI": "/usr/local/bin/fastANI", "seqkit": "/usr/local/bin/seqkit", "fastp": "/usr/local/bin/fastp", "test_pcre": "/usr/local/bin/test_pcre", "tjbench": "/usr/local/bin/tjbench", "igzip": "/usr/local/bin/igzip", "f2py3.11": "/usr/local/bin/f2py3.11", "sdust": "/usr/local/bin/sdust", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table"}}
+config: {"url": "https://biocontainers.pro/tools/esviritu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esviritu", "latest": {"1.1.1--pyhdfd78af_0": "sha256:e3ff02a58c53a5bba0941876a3dd6150873b5f5cfd9095ceddd8db519a1aa77d"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:70cb2f1d48c8079a36d3cb43b781305b300f9f9b4115664b1cc69115eaa1f04e", "0.2.3--pyhdfd78af_0": "sha256:cddb5bd7e8672b343d2fc04eee6f26732658b989667f43013532361b11dadcfa", "1.0.2--pyhdfd78af_0": "sha256:da61e92e4187c03cf870c6028e8415eaf86f14b8ac5847492e4b87bff4c6d501", "1.0.3--pyhdfd78af_0": "sha256:3cff16335a1874de142970fe4e1cd1c564214aa2ba9cc258c8418ff05cb290d0", "1.1.0--pyhdfd78af_0": "sha256:e43cd3c71e2493cc1789cd03d8a6620b06497c0f7f5850a339695b7bcbd9de4b", "1.1.1--pyhdfd78af_0": "sha256:e3ff02a58c53a5bba0941876a3dd6150873b5f5cfd9095ceddd8db519a1aa77d"}, "docker": "quay.io/biocontainers/esviritu", "aliases": {"EsViritu": "/usr/local/bin/EsViritu", "bioawk": "/usr/local/bin/bioawk", "bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "coverm": "/usr/local/bin/coverm", "dadaist2-mergeseqs": "/usr/local/bin/dadaist2-mergeseqs", "dashing": "/usr/local/bin/dashing", "fu-16Sregion": "/usr/local/bin/fu-16Sregion", "fu-cov": "/usr/local/bin/fu-cov", "fu-homocomp": "/usr/local/bin/fu-homocomp", "fu-index": "/usr/local/bin/fu-index", "fu-msa": "/usr/local/bin/fu-msa", "fu-multirelabel": "/usr/local/bin/fu-multirelabel", "fu-nanotags": "/usr/local/bin/fu-nanotags", "fu-orf": "/usr/local/bin/fu-orf", "fu-primers": "/usr/local/bin/fu-primers", "fu-shred": "/usr/local/bin/fu-shred", "fu-split": "/usr/local/bin/fu-split", "fu-sw": "/usr/local/bin/fu-sw", "fu-tabcheck": "/usr/local/bin/fu-tabcheck", "fu-virfilter": "/usr/local/bin/fu-virfilter", "hb-info": "/usr/local/bin/hb-info", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "seqfu": "/usr/local/bin/seqfu", "starcode": "/usr/local/bin/starcode", "fastANI": "/usr/local/bin/fastANI", "seqkit": "/usr/local/bin/seqkit", "fastp": "/usr/local/bin/fastp", "test_pcre": "/usr/local/bin/test_pcre", "tjbench": "/usr/local/bin/tjbench", "igzip": "/usr/local/bin/igzip", "f2py3.11": "/usr/local/bin/f2py3.11", "sdust": "/usr/local/bin/sdust", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "k8": "/usr/local/bin/k8", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esviritu.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/esviritu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esviritu:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/esviritu:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esviritu/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/esviritu/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/esviritu/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/esviritu/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

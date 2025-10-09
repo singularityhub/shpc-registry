@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dysgu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dysgu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dysgu/container.yaml"
-updated_at: "2025-10-08 03:27:00.725204"
-latest: "1.8.6--py312h9c9b0c2_0"
+updated_at: "2025-10-09 03:29:15.390791"
+latest: "1.8.7--py311h8ddd9a4_0"
 container_url: "https://biocontainers.pro/tools/dysgu"
 aliases:
  - "dysgu"
@@ -40,8 +40,9 @@ versions:
  - "1.8.2--py310h8ea774a_1"
  - "1.8.5--py312h9c9b0c2_0"
  - "1.8.6--py312h9c9b0c2_0"
+ - "1.8.7--py311h8ddd9a4_0"
 description: "singularity registry hpc automated addition for dysgu"
-config: {"url": "https://biocontainers.pro/tools/dysgu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dysgu", "latest": {"1.8.6--py312h9c9b0c2_0": "sha256:0ddbf554073329cd88e320a416ea3326360f0d064d6f36ec23e1befd75824c9b"}, "tags": {"1.3.16--py310h0de0465_0": "sha256:d5b234ea95b6e111d944c889022654eac052b585c89ba1831e1c481f96517894", "1.4.0--py310h770aed0_0": "sha256:e85a4699fc442ab367689e5e07f396c86720eac0d7167e81541b392072b8da0c", "1.5.0--py310h770aed0_1": "sha256:64c659cee47ed1066e6cb5c3bd250232578d9523e3f2c4db29831616007e6bec", "1.4.2--py310h770aed0_0": "sha256:f732349bdef8c79e4ff553babe86ed3506cf9318f7f092db4941be0d43850e18", "1.6.0--py310h770aed0_0": "sha256:3c31f3674c0b7b94f75a511275ba59bb18c434aac798001983ff6722cb73c014", "1.6.1--py310h770aed0_0": "sha256:60e17cb0471120ee0b72d854e421108b69a7b3015d797670d0609ec124be7161", "1.6.2--py310h770aed0_0": "sha256:68e7414538c175ceddab05c5a8e402ca5e5cacb545a3d7f4ba4a67146a4d6ac5", "1.6.5--py311h0395e44_1": "sha256:0f67e81e14af9215d418af5d0de94eca8dedcdfd51d11b676e0d96e2241f940e", "1.6.6--py39h0c37024_0": "sha256:d7b99232d18fdab51bf37fc85bbfa4ca49ca6f4651b045483af99374815bb8bd", "1.6.7--py38hbf64fdb_0": "sha256:29a6f39018a6933fb1352a55ec1eafcd3ff4bdae85e2823d624645d46c1b2a75", "1.7.0--py310h0b8f69d_1": "sha256:52963a73f9a0b2a73936bfa609b659c023b9fc92b662c8afd94ef4adfb8ff7d1", "1.8.0--py311h72a6ae7_0": "sha256:4da6ae29afef762bbd3276ec8f1f3d328d2a73e5590e1ed8a6e9707712f93fab", "1.8.2--py39he88f293_0": "sha256:0421911fa6e97fe8c141ced122901e09e509bb24af7a94c771a6f3de8635f353", "1.8.2--py310h8ea774a_1": "sha256:bcd878fb118a052ffed1536ac076b6dd69583c45c878a1fd943cf8d2aa8df333", "1.8.5--py312h9c9b0c2_0": "sha256:835430ed478c2e141f5fb0d1c4e88a9d2ebe38b6b8a95ed87158ed18b284d233", "1.8.6--py312h9c9b0c2_0": "sha256:0ddbf554073329cd88e320a416ea3326360f0d064d6f36ec23e1befd75824c9b"}, "docker": "quay.io/biocontainers/dysgu", "aliases": {"dysgu": "/usr/local/bin/dysgu", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/dysgu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dysgu", "latest": {"1.8.7--py311h8ddd9a4_0": "sha256:60d061194edd104362bba3e982265fe01c7077bf22f00870f96c65c8526984dd"}, "tags": {"1.3.16--py310h0de0465_0": "sha256:d5b234ea95b6e111d944c889022654eac052b585c89ba1831e1c481f96517894", "1.4.0--py310h770aed0_0": "sha256:e85a4699fc442ab367689e5e07f396c86720eac0d7167e81541b392072b8da0c", "1.5.0--py310h770aed0_1": "sha256:64c659cee47ed1066e6cb5c3bd250232578d9523e3f2c4db29831616007e6bec", "1.4.2--py310h770aed0_0": "sha256:f732349bdef8c79e4ff553babe86ed3506cf9318f7f092db4941be0d43850e18", "1.6.0--py310h770aed0_0": "sha256:3c31f3674c0b7b94f75a511275ba59bb18c434aac798001983ff6722cb73c014", "1.6.1--py310h770aed0_0": "sha256:60e17cb0471120ee0b72d854e421108b69a7b3015d797670d0609ec124be7161", "1.6.2--py310h770aed0_0": "sha256:68e7414538c175ceddab05c5a8e402ca5e5cacb545a3d7f4ba4a67146a4d6ac5", "1.6.5--py311h0395e44_1": "sha256:0f67e81e14af9215d418af5d0de94eca8dedcdfd51d11b676e0d96e2241f940e", "1.6.6--py39h0c37024_0": "sha256:d7b99232d18fdab51bf37fc85bbfa4ca49ca6f4651b045483af99374815bb8bd", "1.6.7--py38hbf64fdb_0": "sha256:29a6f39018a6933fb1352a55ec1eafcd3ff4bdae85e2823d624645d46c1b2a75", "1.7.0--py310h0b8f69d_1": "sha256:52963a73f9a0b2a73936bfa609b659c023b9fc92b662c8afd94ef4adfb8ff7d1", "1.8.0--py311h72a6ae7_0": "sha256:4da6ae29afef762bbd3276ec8f1f3d328d2a73e5590e1ed8a6e9707712f93fab", "1.8.2--py39he88f293_0": "sha256:0421911fa6e97fe8c141ced122901e09e509bb24af7a94c771a6f3de8635f353", "1.8.2--py310h8ea774a_1": "sha256:bcd878fb118a052ffed1536ac076b6dd69583c45c878a1fd943cf8d2aa8df333", "1.8.5--py312h9c9b0c2_0": "sha256:835430ed478c2e141f5fb0d1c4e88a9d2ebe38b6b8a95ed87158ed18b284d233", "1.8.6--py312h9c9b0c2_0": "sha256:0ddbf554073329cd88e320a416ea3326360f0d064d6f36ec23e1befd75824c9b", "1.8.7--py311h8ddd9a4_0": "sha256:60d061194edd104362bba3e982265fe01c7077bf22f00870f96c65c8526984dd"}, "docker": "quay.io/biocontainers/dysgu", "aliases": {"dysgu": "/usr/local/bin/dysgu", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dysgu.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/dysgu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dysgu:1.8.6--py312h9c9b0c2_0
+$ shpc install quay.io/biocontainers/dysgu:1.8.7--py311h8ddd9a4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dysgu/1.8.6--py312h9c9b0c2_0
-$ module help quay.io/biocontainers/dysgu/1.8.6--py312h9c9b0c2_0
+$ module load quay.io/biocontainers/dysgu/1.8.7--py311h8ddd9a4_0
+$ module help quay.io/biocontainers/dysgu/1.8.7--py311h8ddd9a4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
