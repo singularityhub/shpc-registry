@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/bifidoannotator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bifidoannotator
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:465ecc5e75a950dfcccda500d86166358ad931007b848f4cfa1d6fdad19d6b20
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:465ecc5e75a950dfcccda500d86166358ad931007b848f4cfa1d6fdad19d6b20
+docker: quay.io/biocontainers/bifidoannotator
+aliases:
+  bifidoAnnotator: /usr/local/bin/bifidoAnnotator
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  aria2c: /usr/local/bin/aria2c
+  mmseqs: /usr/local/bin/mmseqs
+  gawkbug: /usr/local/bin/gawkbug
+  awk: /usr/local/bin/awk
+  gawk: /usr/local/bin/gawk
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

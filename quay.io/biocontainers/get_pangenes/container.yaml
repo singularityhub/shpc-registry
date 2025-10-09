@@ -1,0 +1,82 @@
+url: https://biocontainers.pro/tools/get_pangenes
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for get_pangenes
+latest:
+  1.3--hdfd78af_0: 
+    sha256:ea1d99fc533d739bdaab97292416d8d05f33fe248ad00a25ae5a54db81abf64e
+tags:
+  1.3--hdfd78af_0: 
+    sha256:ea1d99fc533d739bdaab97292416d8d05f33fe248ad00a25ae5a54db81abf64e
+docker: quay.io/biocontainers/get_pangenes
+aliases:
+  CHANGES.txt: /usr/local/bin/CHANGES.txt
+  COGcognitor: /usr/local/bin/COGcognitor
+  COGlse: /usr/local/bin/COGlse
+  COGmakehash: /usr/local/bin/COGmakehash
+  COGreadblast: /usr/local/bin/COGreadblast
+  COGtriangles: /usr/local/bin/COGtriangles
+  GSAlign: /usr/local/bin/GSAlign
+  HPC.conf.sample: /usr/local/bin/HPC.conf.sample
+  HPC.conf.sample.slurm: /usr/local/bin/HPC.conf.sample.slurm
+  LICENSE.txt: /usr/local/bin/LICENSE.txt
+  add_pancore_matrices.pl: /usr/local/bin/add_pancore_matrices.pl
+  add_pangenome_matrices.pl: /usr/local/bin/add_pangenome_matrices.pl
+  annotate_cluster.pl: /usr/local/bin/annotate_cluster.pl
+  bwt_index: /usr/local/bin/bwt_index
+  check_BDBHs.pl: /usr/local/bin/check_BDBHs.pl
+  check_evidence.pl: /usr/local/bin/check_evidence.pl
+  compare_clusters.pl: /usr/local/bin/compare_clusters.pl
+  download_genomes_ncbi.pl: /usr/local/bin/download_genomes_ncbi.pl
+  get_homologues-est.pl: /usr/local/bin/get_homologues-est.pl
+  get_homologues.pl: /usr/local/bin/get_homologues.pl
+  get_pangenes.pl: /usr/local/bin/get_pangenes.pl
+  gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmap_cat: /usr/local/bin/gmap_cat
+  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  hcluster_pangenome_matrix.sh: /usr/local/bin/hcluster_pangenome_matrix.sh
+  indexdb_cat: /usr/local/bin/indexdb_cat
+  install.pl: /usr/local/bin/install.pl
+  make_nr_pangenome_matrix.pl: /usr/local/bin/make_nr_pangenome_matrix.pl
+  match_cluster.pl: /usr/local/bin/match_cluster.pl
+  parse_pangenome_matrix.pl: /usr/local/bin/parse_pangenome_matrix.pl
+  pfam_enrich.pl: /usr/local/bin/pfam_enrich.pl
+  plot_matrix_heatmap.sh: /usr/local/bin/plot_matrix_heatmap.sh
+  plot_pancore_matrix.pl: /usr/local/bin/plot_pancore_matrix.pl
+  rcl: /usr/local/bin/rcl
+  rcl-dot-resmap.pl: /usr/local/bin/rcl-dot-resmap.pl
+  rcl-qc: /usr/local/bin/rcl-qc
+  rcl-qm.R: /usr/local/bin/rcl-qm.R
+  rcl-relevel.pl: /usr/local/bin/rcl-relevel.pl
+  rcl-select.pl: /usr/local/bin/rcl-select.pl
+  rcldo.pl: /usr/local/bin/rcldo.pl
+  rename_pangenes.pl: /usr/local/bin/rename_pangenes.pl
+  transcripts2cds.pl: /usr/local/bin/transcripts2cds.pl
+  transcripts2cdsCPP.pl: /usr/local/bin/transcripts2cdsCPP.pl
+  zless: /usr/local/bin/zless
+  gffread: /usr/local/bin/gffread
+  DrawGram.jar: /usr/local/bin/DrawGram.jar
+  DrawTree.jar: /usr/local/bin/DrawTree.jar
+  LICENSE: /usr/local/bin/LICENSE
+  clique: /usr/local/bin/clique
+  consense: /usr/local/bin/consense
+  contml: /usr/local/bin/contml
+  contrast: /usr/local/bin/contrast
+  dnacomp: /usr/local/bin/dnacomp
+  dnadist: /usr/local/bin/dnadist
+  dnainvar: /usr/local/bin/dnainvar
+  dnaml: /usr/local/bin/dnaml
+  dnamlk: /usr/local/bin/dnamlk
+  dnamove: /usr/local/bin/dnamove
+  dnapenny: /usr/local/bin/dnapenny
+  dollop: /usr/local/bin/dollop
+  dolmove: /usr/local/bin/dolmove
+  dolpenny: /usr/local/bin/dolpenny
+  drawgram: /usr/local/bin/drawgram
+  drawgram_gui: /usr/local/bin/drawgram_gui
+  drawtree: /usr/local/bin/drawtree
+  drawtree_gui: /usr/local/bin/drawtree_gui
+  fitch: /usr/local/bin/fitch
+  gendist: /usr/local/bin/gendist
+  kitsch: /usr/local/bin/kitsch
