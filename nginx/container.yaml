@@ -25,10 +25,10 @@ tags:
   1.21.6: 
     sha256:2bcabc23b45489fb0885d69a06ba1d648aeda973fae7bb981bafbb884165e514
   latest: 
-    sha256:d5f28ef21aabddd098f3dbc21fe5b7a7d7a184720bc07da0b6c9b9820e97f25e
+    sha256:3b7732505933ca591ce4a6d860cb713ad96a3176b82f7979a8dfa9973486a0d6
   stable-alpine-perl: 
-    sha256:87bf932aca8f2239385536edaa17814850bd5076a227dfcc99e512b8af469854
-  '1': sha256:d5f28ef21aabddd098f3dbc21fe5b7a7d7a184720bc07da0b6c9b9820e97f25e
+    sha256:bf8399910eca11a34a43f78759f99d87d779109e51603a9a3081aff11efc4191
+  '1': sha256:3b7732505933ca591ce4a6d860cb713ad96a3176b82f7979a8dfa9973486a0d6
   '1.21': 
     sha256:2bcabc23b45489fb0885d69a06ba1d648aeda973fae7bb981bafbb884165e514
   '1.20': 
@@ -59,12 +59,12 @@ tags:
     sha256:43a626425e38f1d80cd17303c5d44b5f5b22b8b10d0c0f1e50b047cf4e1ad5dd
   1.26.2-alpine-otel: 
     sha256:cd431e1c871321aee9940c13ec2f1ecc780f9179aa0939ca54e8518bbdf301d8
-  '1.28': 
-    sha256:2945a0bfa07bf1d3cb9ba5f03678e2827f11c240e4c9d38e075037938310062a
-  1.27.5: 
-    sha256:6784fb0834aa7dbbe12e3d7471e69c290df3e6ba810dc38b34ae33d3c1c05f7d
-  '1.29': 
-    sha256:d5f28ef21aabddd098f3dbc21fe5b7a7d7a184720bc07da0b6c9b9820e97f25e
+  '1.28': 'crane digest nginx:1.28: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.27.5: 'crane digest nginx:1.27.5: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '1.29': 'crane digest nginx:1.29: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
 aliases:
   nginx: /usr/sbin/nginx
   nginx-debug: /usr/sbin/nginx-debug

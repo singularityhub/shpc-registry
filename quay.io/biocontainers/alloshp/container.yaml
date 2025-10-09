@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/alloshp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for alloshp
 latest:
-  2025.09.08d--h7b50bb2_0: 
-    sha256:736f6f09bb5322ffe1e73664f2eae56a2036aa5d484d890e9ebf3b208093307b
+  2025.09.12--h7b50bb2_0: 
+    sha256:aa8b25a26aacb350c0d22551c47a877fa8a73ca8fc9dba3218e88ecf6de42d41
 tags:
   2025.09.08d--h7b50bb2_0: 
     sha256:736f6f09bb5322ffe1e73664f2eae56a2036aa5d484d890e9ebf3b208093307b
+  2025.09.12--h7b50bb2_0: 
+    sha256:aa8b25a26aacb350c0d22551c47a877fa8a73ca8fc9dba3218e88ecf6de42d41
 docker: quay.io/biocontainers/alloshp
 aliases:
   GSAlign: /usr/local/bin/GSAlign

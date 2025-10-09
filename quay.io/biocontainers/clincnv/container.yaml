@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/clincnv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for clincnv
 latest:
-  1.18.3--hdfd78af_0: 
-    sha256:d8fe04cb106c27f7c3b14fefa3db31c9cb7982ea1f26606757cfae1d808ca3ba
+  1.19.1--hdfd78af_0: 
+    sha256:030a19bb4e7df7be962054d0f8afbd7576f1e7ae999e321942ddb616acd49739
 tags:
   1.18.3--hdfd78af_0: 
     sha256:d8fe04cb106c27f7c3b14fefa3db31c9cb7982ea1f26606757cfae1d808ca3ba
+  1.19.1--hdfd78af_0: 
+    sha256:030a19bb4e7df7be962054d0f8afbd7576f1e7ae999e321942ddb616acd49739
 docker: quay.io/biocontainers/clincnv
 aliases:
   clinCNV.R: /usr/local/bin/clinCNV.R

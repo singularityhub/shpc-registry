@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rxdock
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rxdock
 latest:
-  2013.1.1_148c5bd1--pl526he1b5a44_1: 
-    sha256:cf6a522b1b9fab4a1997d7f0dc1bde26f184700fc0ddd2183e7cb177b8f662a2
+  2013.1.1_148c5bd1--pl5321h8ea774a_3: 
+    sha256:778ff8f3925125202f4665becab0ea220b032d91132764b423847e427a64ee08
 tags:
   2013.1.1_148c5bd1--pl526he1b5a44_1: 
     sha256:cf6a522b1b9fab4a1997d7f0dc1bde26f184700fc0ddd2183e7cb177b8f662a2
+  2013.1.1_148c5bd1--pl5321h8ea774a_3: 
+    sha256:778ff8f3925125202f4665becab0ea220b032d91132764b423847e427a64ee08
 docker: quay.io/biocontainers/rxdock
 aliases:
   make_grid.csh: /usr/local/bin/make_grid.csh

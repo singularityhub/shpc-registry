@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/filtlong
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for filtlong
 latest:
-  0.3.0--h077b44d_0: 
-    sha256:c07ba721a030e009091163884d9b16f6ccba5b57304865428887f38589d6abb8
+  0.3.1--h077b44d_0: 
+    sha256:ed64034ef0c7b474d56aecfce1ad77ec01b740b5a5bc38a637bad45ec9974d82
 tags:
   0.2.1--hd03093a_1: 
     sha256:e53a2eb7c9880047f0767fe8315696265d14d2bf575aac973b4e72a2448b494b
@@ -13,6 +13,8 @@ tags:
     sha256:e6038605a5d350d0c20e798aa20e4de27018dd5b4db9d9cd3586393d805ea782
   0.3.0--h077b44d_0: 
     sha256:c07ba721a030e009091163884d9b16f6ccba5b57304865428887f38589d6abb8
+  0.3.1--h077b44d_0: 
+    sha256:ed64034ef0c7b474d56aecfce1ad77ec01b740b5a5bc38a637bad45ec9974d82
 docker: quay.io/biocontainers/filtlong
 aliases:
   filtlong: /usr/local/bin/filtlong
