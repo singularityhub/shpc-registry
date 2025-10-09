@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/nifflr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nifflr
+latest:
+  2.0.0--pl5321haf24da9_0: 
+    sha256:41b9aa1fb84901c12aaf870f52b3608e9606077595925f4d588e823e68881c33
+tags:
+  2.0.0--pl5321haf24da9_0: 
+    sha256:41b9aa1fb84901c12aaf870f52b3608e9606077595925f4d588e823e68881c33
+docker: quay.io/biocontainers/nifflr
+aliases:
+  add_read_counts.py: /usr/local/bin/add_read_counts.py
+  check_intron_chains.pl: /usr/local/bin/check_intron_chains.pl
+  create_exon_fasta.py: /usr/local/bin/create_exon_fasta.py
+  fastqToFasta.pl: /usr/local/bin/fastqToFasta.pl
+  find_path.py: /usr/local/bin/find_path.py
+  fix_junctions.pl: /usr/local/bin/fix_junctions.pl
+  generate_gtf.py: /usr/local/bin/generate_gtf.py
+  gffcompare: /usr/local/bin/gffcompare
+  majority_vote.pl: /usr/local/bin/majority_vote.pl
+  majority_vote.py: /usr/local/bin/majority_vote.py
+  merge_coords: /usr/local/bin/merge_coords
+  nifflr.sh: /usr/local/bin/nifflr.sh
+  psa_aligner: /usr/local/bin/psa_aligner
+  quantify.pl: /usr/local/bin/quantify.pl
+  trmap: /usr/local/bin/trmap
+  ufasta: /usr/local/bin/ufasta
+  gffread: /usr/local/bin/gffread
+  jellyfish: /usr/local/bin/jellyfish
+  idn2: /usr/local/bin/idn2
+  wget: /usr/local/bin/wget

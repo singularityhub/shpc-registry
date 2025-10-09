@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/covar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for covar
+latest:
+  0.2.0--h3dc2dae_1: 
+    sha256:e3ef45c91617372eb882ec4fcd20950b912149f71f7939e2f9e77d6337ce8d95
+tags:
+  0.2.0--h3dc2dae_1: 
+    sha256:e3ef45c91617372eb882ec4fcd20950b912149f71f7939e2f9e77d6337ce8d95
+docker: quay.io/biocontainers/covar
+aliases:
+  covar: /usr/local/bin/covar
