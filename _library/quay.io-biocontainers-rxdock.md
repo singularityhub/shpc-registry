@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rxdock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rxdock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rxdock/container.yaml"
-updated_at: "2025-10-09 04:12:26.762270"
-latest: "2013.1.1_148c5bd1--pl526he1b5a44_1"
+updated_at: "2025-10-10 03:03:36.182234"
+latest: "2013.1.1_148c5bd1--pl5321h8ea774a_3"
 container_url: "https://biocontainers.pro/tools/rxdock"
 aliases:
  - "make_grid.csh"
@@ -41,8 +41,9 @@ aliases:
  - "obprop"
 versions:
  - "2013.1.1_148c5bd1--pl526he1b5a44_1"
+ - "2013.1.1_148c5bd1--pl5321h8ea774a_3"
 description: "shpc-registry automated BioContainers addition for rxdock"
-config: {"url": "https://biocontainers.pro/tools/rxdock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rxdock", "latest": {"2013.1.1_148c5bd1--pl526he1b5a44_1": "sha256:cf6a522b1b9fab4a1997d7f0dc1bde26f184700fc0ddd2183e7cb177b8f662a2"}, "tags": {"2013.1.1_148c5bd1--pl526he1b5a44_1": "sha256:cf6a522b1b9fab4a1997d7f0dc1bde26f184700fc0ddd2183e7cb177b8f662a2"}, "docker": "quay.io/biocontainers/rxdock", "aliases": {"make_grid.csh": "/usr/local/bin/make_grid.csh", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "rbcalcgrid": "/usr/local/bin/rbcalcgrid", "rbcavity": "/usr/local/bin/rbcavity", "rbconvgrid": "/usr/local/bin/rbconvgrid", "rbdock": "/usr/local/bin/rbdock", "rbhtfinder": "/usr/local/bin/rbhtfinder", "rblist": "/usr/local/bin/rblist", "rbmoegrid": "/usr/local/bin/rbmoegrid", "rbrms": "/usr/local/bin/rbrms", "run_rbdock.pl": "/usr/local/bin/run_rbdock.pl", "run_rbscreen.pl": "/usr/local/bin/run_rbscreen.pl", "sdfield": "/usr/local/bin/sdfield", "sdfilter": "/usr/local/bin/sdfilter", "sdmodify": "/usr/local/bin/sdmodify", "sdreport": "/usr/local/bin/sdreport", "sdrmsd": "/usr/local/bin/sdrmsd", "sdsort": "/usr/local/bin/sdsort", "sdsplit": "/usr/local/bin/sdsplit", "sdtether": "/usr/local/bin/sdtether", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
+config: {"url": "https://biocontainers.pro/tools/rxdock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rxdock", "latest": {"2013.1.1_148c5bd1--pl5321h8ea774a_3": "sha256:778ff8f3925125202f4665becab0ea220b032d91132764b423847e427a64ee08"}, "tags": {"2013.1.1_148c5bd1--pl526he1b5a44_1": "sha256:cf6a522b1b9fab4a1997d7f0dc1bde26f184700fc0ddd2183e7cb177b8f662a2", "2013.1.1_148c5bd1--pl5321h8ea774a_3": "sha256:778ff8f3925125202f4665becab0ea220b032d91132764b423847e427a64ee08"}, "docker": "quay.io/biocontainers/rxdock", "aliases": {"make_grid.csh": "/usr/local/bin/make_grid.csh", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "rbcalcgrid": "/usr/local/bin/rbcalcgrid", "rbcavity": "/usr/local/bin/rbcavity", "rbconvgrid": "/usr/local/bin/rbconvgrid", "rbdock": "/usr/local/bin/rbdock", "rbhtfinder": "/usr/local/bin/rbhtfinder", "rblist": "/usr/local/bin/rblist", "rbmoegrid": "/usr/local/bin/rbmoegrid", "rbrms": "/usr/local/bin/rbrms", "run_rbdock.pl": "/usr/local/bin/run_rbdock.pl", "run_rbscreen.pl": "/usr/local/bin/run_rbscreen.pl", "sdfield": "/usr/local/bin/sdfield", "sdfilter": "/usr/local/bin/sdfilter", "sdmodify": "/usr/local/bin/sdmodify", "sdreport": "/usr/local/bin/sdreport", "sdrmsd": "/usr/local/bin/sdrmsd", "sdsort": "/usr/local/bin/sdsort", "sdsplit": "/usr/local/bin/sdsplit", "sdtether": "/usr/local/bin/sdtether", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rxdock.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/rxdock
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rxdock:2013.1.1_148c5bd1--pl526he1b5a44_1
+$ shpc install quay.io/biocontainers/rxdock:2013.1.1_148c5bd1--pl5321h8ea774a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rxdock/2013.1.1_148c5bd1--pl526he1b5a44_1
-$ module help quay.io/biocontainers/rxdock/2013.1.1_148c5bd1--pl526he1b5a44_1
+$ module load quay.io/biocontainers/rxdock/2013.1.1_148c5bd1--pl5321h8ea774a_3
+$ module help quay.io/biocontainers/rxdock/2013.1.1_148c5bd1--pl5321h8ea774a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

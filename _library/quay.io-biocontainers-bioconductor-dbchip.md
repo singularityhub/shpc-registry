@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dbchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dbchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dbchip/container.yaml"
-updated_at: "2025-10-09 04:16:07.831407"
+updated_at: "2025-10-10 03:07:36.229211"
 latest: "1.32.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dbchip"
 aliases:

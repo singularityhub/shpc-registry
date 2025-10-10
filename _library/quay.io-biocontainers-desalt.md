@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/desalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/desalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/desalt/container.yaml"
-updated_at: "2025-10-09 04:29:20.943231"
-latest: "1.5.6--h577a1d6_6"
+updated_at: "2025-10-10 03:21:05.344333"
+latest: "1.5.6--h577a1d6_7"
 container_url: "https://biocontainers.pro/tools/desalt"
 aliases:
  - "Annotation_Load.py"
@@ -16,8 +16,9 @@ versions:
  - "1.5.6--he4a0461_4"
  - "1.5.6--he4a0461_5"
  - "1.5.6--h577a1d6_6"
+ - "1.5.6--h577a1d6_7"
 description: "shpc-registry automated BioContainers addition for desalt"
-config: {"url": "https://biocontainers.pro/tools/desalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for desalt", "latest": {"1.5.6--h577a1d6_6": "sha256:9e8d11b7d665feb6d54f1fd2b5a2bc8545ac074e850096f219232136de3a8d1e"}, "tags": {"1.5.6--h7132678_2": "sha256:3cbc60eb1eab0c4a1c57effb5093578593047e296847b147dcbb2250b341c286", "1.5.6--he4a0461_4": "sha256:ec5ed90bc132529b9ef45facdb0020ebbc950a67b966e6636f5615df12c0b6d4", "1.5.6--he4a0461_5": "sha256:bb67908be995417a2ae758d4bcebedff1bb5266642608fa049055382064d2598", "1.5.6--h577a1d6_6": "sha256:9e8d11b7d665feb6d54f1fd2b5a2bc8545ac074e850096f219232136de3a8d1e"}, "docker": "quay.io/biocontainers/desalt", "aliases": {"Annotation_Load.py": "/usr/local/bin/Annotation_Load.py", "deBGA": "/usr/local/bin/deBGA", "deSALT": "/usr/local/bin/deSALT"}}
+config: {"url": "https://biocontainers.pro/tools/desalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for desalt", "latest": {"1.5.6--h577a1d6_7": "sha256:600c7f86ca39afb78181ac72849d4c0d0f6a41d79b7ffdc5ed2a8fd4760deeac"}, "tags": {"1.5.6--h7132678_2": "sha256:3cbc60eb1eab0c4a1c57effb5093578593047e296847b147dcbb2250b341c286", "1.5.6--he4a0461_4": "sha256:ec5ed90bc132529b9ef45facdb0020ebbc950a67b966e6636f5615df12c0b6d4", "1.5.6--he4a0461_5": "sha256:bb67908be995417a2ae758d4bcebedff1bb5266642608fa049055382064d2598", "1.5.6--h577a1d6_6": "sha256:9e8d11b7d665feb6d54f1fd2b5a2bc8545ac074e850096f219232136de3a8d1e", "1.5.6--h577a1d6_7": "sha256:600c7f86ca39afb78181ac72849d4c0d0f6a41d79b7ffdc5ed2a8fd4760deeac"}, "docker": "quay.io/biocontainers/desalt", "aliases": {"Annotation_Load.py": "/usr/local/bin/Annotation_Load.py", "deBGA": "/usr/local/bin/deBGA", "deSALT": "/usr/local/bin/deSALT"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/desalt.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/desalt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/desalt:1.5.6--h577a1d6_6
+$ shpc install quay.io/biocontainers/desalt:1.5.6--h577a1d6_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/desalt/1.5.6--h577a1d6_6
-$ module help quay.io/biocontainers/desalt/1.5.6--h577a1d6_6
+$ module load quay.io/biocontainers/desalt/1.5.6--h577a1d6_7
+$ module help quay.io/biocontainers/desalt/1.5.6--h577a1d6_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

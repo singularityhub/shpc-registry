@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/datamash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/datamash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/datamash/container.yaml"
-updated_at: "2025-10-09 04:16:24.443307"
+updated_at: "2025-10-10 03:07:52.754577"
 latest: "1.9"
 container_url: "https://biocontainers.pro/tools/datamash"
 aliases:

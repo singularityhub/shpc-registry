@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alloshp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alloshp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alloshp/container.yaml"
-updated_at: "2025-10-09 04:16:44.715267"
-latest: "2025.09.08d--h7b50bb2_0"
+updated_at: "2025-10-10 03:08:13.474879"
+latest: "2025.09.12--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/alloshp"
 aliases:
  - "GSAlign"
@@ -44,8 +44,9 @@ aliases:
  - "znew"
 versions:
  - "2025.09.08d--h7b50bb2_0"
+ - "2025.09.12--h7b50bb2_0"
 description: "singularity registry hpc automated addition for alloshp"
-config: {"url": "https://biocontainers.pro/tools/alloshp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alloshp", "latest": {"2025.09.08d--h7b50bb2_0": "sha256:736f6f09bb5322ffe1e73664f2eae56a2036aa5d484d890e9ebf3b208093307b"}, "tags": {"2025.09.08d--h7b50bb2_0": "sha256:736f6f09bb5322ffe1e73664f2eae56a2036aa5d484d890e9ebf3b208093307b"}, "docker": "quay.io/biocontainers/alloshp", "aliases": {"GSAlign": "/usr/local/bin/GSAlign", "Red": "/usr/local/bin/Red", "WGA": "/usr/local/bin/WGA", "WGA.bak": "/usr/local/bin/WGA.bak", "bwt_index": "/usr/local/bin/bwt_index", "vcf2alignment": "/usr/local/bin/vcf2alignment", "vcf2synteny": "/usr/local/bin/vcf2synteny", "version.txt": "/usr/local/bin/version.txt", "zless": "/usr/local/bin/zless", "pax11publish": "/usr/local/bin/pax11publish", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew"}}
+config: {"url": "https://biocontainers.pro/tools/alloshp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alloshp", "latest": {"2025.09.12--h7b50bb2_0": "sha256:aa8b25a26aacb350c0d22551c47a877fa8a73ca8fc9dba3218e88ecf6de42d41"}, "tags": {"2025.09.08d--h7b50bb2_0": "sha256:736f6f09bb5322ffe1e73664f2eae56a2036aa5d484d890e9ebf3b208093307b", "2025.09.12--h7b50bb2_0": "sha256:aa8b25a26aacb350c0d22551c47a877fa8a73ca8fc9dba3218e88ecf6de42d41"}, "docker": "quay.io/biocontainers/alloshp", "aliases": {"GSAlign": "/usr/local/bin/GSAlign", "Red": "/usr/local/bin/Red", "WGA": "/usr/local/bin/WGA", "WGA.bak": "/usr/local/bin/WGA.bak", "bwt_index": "/usr/local/bin/bwt_index", "vcf2alignment": "/usr/local/bin/vcf2alignment", "vcf2synteny": "/usr/local/bin/vcf2synteny", "version.txt": "/usr/local/bin/version.txt", "zless": "/usr/local/bin/zless", "pax11publish": "/usr/local/bin/pax11publish", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alloshp.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/alloshp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alloshp:2025.09.08d--h7b50bb2_0
+$ shpc install quay.io/biocontainers/alloshp:2025.09.12--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alloshp/2025.09.08d--h7b50bb2_0
-$ module help quay.io/biocontainers/alloshp/2025.09.08d--h7b50bb2_0
+$ module load quay.io/biocontainers/alloshp/2025.09.12--h7b50bb2_0
+$ module help quay.io/biocontainers/alloshp/2025.09.12--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

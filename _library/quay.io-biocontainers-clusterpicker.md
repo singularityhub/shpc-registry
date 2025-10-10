@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clusterpicker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clusterpicker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clusterpicker/container.yaml"
-updated_at: "2025-10-09 04:39:54.296228"
+updated_at: "2025-10-10 03:31:58.611052"
 latest: "1.2.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/clusterpicker"
 aliases:

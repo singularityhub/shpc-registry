@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-degraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-degraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-degraph/container.yaml"
-updated_at: "2025-10-09 04:24:16.502429"
+updated_at: "2025-10-10 03:15:54.608187"
 latest: "1.58.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-degraph"
 aliases:

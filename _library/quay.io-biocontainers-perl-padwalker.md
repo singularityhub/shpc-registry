@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-padwalker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-padwalker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-padwalker/container.yaml"
-updated_at: "2025-10-09 04:16:32.876515"
+updated_at: "2025-10-10 03:08:01.335197"
 latest: "2.5--pl5321h9948957_5"
 container_url: "https://biocontainers.pro/tools/perl-padwalker"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gemini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gemini/container.yaml"
-updated_at: "2025-10-09 04:14:55.742069"
+updated_at: "2025-10-10 03:06:19.522441"
 latest: "0.30.2--py38h47c4b52_6"
 container_url: "https://biocontainers.pro/tools/gemini"
 aliases:

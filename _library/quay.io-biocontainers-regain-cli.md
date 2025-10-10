@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/regain-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regain-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/regain-cli/container.yaml"
-updated_at: "2025-10-09 04:58:53.114013"
+updated_at: "2025-10-10 03:51:51.617184"
 latest: "1.6.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/regain-cli"
 aliases:

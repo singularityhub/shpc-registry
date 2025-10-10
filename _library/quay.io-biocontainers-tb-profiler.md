@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tb-profiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tb-profiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tb-profiler/container.yaml"
-updated_at: "2025-10-09 04:53:18.819549"
+updated_at: "2025-10-10 03:46:07.036007"
 latest: "6.6.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tb-profiler"
 aliases:
