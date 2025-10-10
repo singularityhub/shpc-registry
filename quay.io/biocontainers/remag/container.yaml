@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/remag
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for remag
 latest:
-  0.2.3--pyhdfd78af_0: 
-    sha256:0d265ad4fce4207388383b67abf5262257c53087a71c00b9fa66cb2b974d71a0
+  0.2.4--pyhdfd78af_0: 
+    sha256:abb9a5420830fa7412030a3e0c255b3d8efc123d37d03a1ad16855c1949d7e9e
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:3ea61e2aef6383418a231dd851fc5810eebcdef8de90459a192191834177cf07
@@ -13,6 +13,8 @@ tags:
     sha256:b63e1f4f9d42a393f87b433820e222592a4398d2784661feb947d7928bbfb071
   0.2.3--pyhdfd78af_0: 
     sha256:0d265ad4fce4207388383b67abf5262257c53087a71c00b9fa66cb2b974d71a0
+  0.2.4--pyhdfd78af_0: 
+    sha256:abb9a5420830fa7412030a3e0c255b3d8efc123d37d03a1ad16855c1949d7e9e
 docker: quay.io/biocontainers/remag
 aliases:
   remag: /usr/local/bin/remag

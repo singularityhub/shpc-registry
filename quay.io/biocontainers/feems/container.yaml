@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/feems
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for feems
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:3a3d31e87d808d0af84d47fffc4aaa96b7f5fd19edb19f6217ab1c11a180f5c9
+  2.0.0--pyhdfd78af_1: 
+    sha256:d58fcafb332b9631057a1a4028c524d1dcd5827d099cfbd9d0727558ef1c111c
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:3a3d31e87d808d0af84d47fffc4aaa96b7f5fd19edb19f6217ab1c11a180f5c9
+  2.0.0--pyhdfd78af_1: 
+    sha256:d58fcafb332b9631057a1a4028c524d1dcd5827d099cfbd9d0727558ef1c111c
 docker: quay.io/biocontainers/feems
 aliases:
   demes: /usr/local/bin/demes

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ensembl-vep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ensembl-vep
 latest:
-  115--pl5321h2a3209d_0: 
-    sha256:e25b41d45fe8ba054cbf0731ac250d0a9a2d7e08c207f7dcad3453768acd6d38
+  115.2--pl5321h2a3209d_1: 
+    sha256:04cbcc3c54350ebf51c02698dd23183b1b9db22daa9983037f7260ee37601aa7
 tags:
   98.1--pl526hecc5488_0: 
     sha256:a5fb98373509dab9ad59d363b3ce5da77a9bd8a2c7578a2f64e63e8d0f80afe0
@@ -37,6 +37,10 @@ tags:
     sha256:405267c2d6c9fb555d8be8c65a77ff13a41a4654a008d54231965611fa0a9cb3
   115--pl5321h2a3209d_0: 
     sha256:e25b41d45fe8ba054cbf0731ac250d0a9a2d7e08c207f7dcad3453768acd6d38
+  115.2--pl5321h2a3209d_1: 
+    sha256:04cbcc3c54350ebf51c02698dd23183b1b9db22daa9983037f7260ee37601aa7
+  115.1--pl5321h2a3209d_0: 
+    sha256:9980b367510d65085299340896024982de4c79edb75bc547ab59c851e977386d
 docker: quay.io/biocontainers/ensembl-vep
 aliases:
   filter_vep: /usr/local/bin/filter_vep
