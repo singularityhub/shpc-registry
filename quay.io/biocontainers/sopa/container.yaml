@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sopa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sopa
 latest:
-  2.1.3--pyhdfd78af_0: 
-    sha256:0b62cb899eed1010fd31d0bfc637c27a7463c36ffd04476dc28e4cd827bf5010
+  2.1.4--pyhdfd78af_0: 
+    sha256:56086ff01a1f2c4468941cceb47e6fd4d7831fa47b9bc1f34fdcd316728e32e6
 tags:
   1.1.5--pyhdfd78af_0: 
     sha256:5be378356ab6d99662647a8cac7883d0ffbb5e898d5d32eee79cb811dfa4ab3c
@@ -19,6 +19,8 @@ tags:
     sha256:fd27db38272699b32751b2e845b3d7cc5024bb0ea332268464e771a7ae57a796
   2.1.3--pyhdfd78af_0: 
     sha256:0b62cb899eed1010fd31d0bfc637c27a7463c36ffd04476dc28e4cd827bf5010
+  2.1.4--pyhdfd78af_0: 
+    sha256:56086ff01a1f2c4468941cceb47e6fd4d7831fa47b9bc1f34fdcd316728e32e6
 docker: quay.io/biocontainers/sopa
 aliases:
   bsdunzip: /usr/local/bin/bsdunzip

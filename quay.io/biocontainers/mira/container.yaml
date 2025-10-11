@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mira
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mira
 latest:
-  4.9.6--1: 
-    sha256:14ae89998f66f4a3645e0ca4fd2ef2d84d405743c6a4da80396f2e3ce822d586
+  5.0.0rc2--hb5a7bbe_0: 
+    sha256:9ae0fe4fe89adc35239baf523e70e69858d3ece84f512e234eba70b4ad80b487
 tags:
   4.9.6--1: 
     sha256:14ae89998f66f4a3645e0ca4fd2ef2d84d405743c6a4da80396f2e3ce822d586
+  5.0.0rc2--hb5a7bbe_0: 
+    sha256:9ae0fe4fe89adc35239baf523e70e69858d3ece84f512e234eba70b4ad80b487
 docker: quay.io/biocontainers/mira
 aliases:
   mira: /usr/local/bin/mira

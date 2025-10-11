@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/smalt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smalt
 latest:
-  0.7.6--1: 
-    sha256:beae74229d777b2f7db02d9ae2dd13ab757067895b49c20e11de882f1e8a63a7
+  0.7.6--h577a1d6_2: 
+    sha256:825d0596dc66e2d26f2a3c458b71ac025c5f6a902fad3ecafb1684d6d886085d
 tags:
   0.7.6--1: 
     sha256:beae74229d777b2f7db02d9ae2dd13ab757067895b49c20e11de882f1e8a63a7
+  0.7.6--h577a1d6_2: 
+    sha256:825d0596dc66e2d26f2a3c458b71ac025c5f6a902fad3ecafb1684d6d886085d
 docker: quay.io/biocontainers/smalt
 aliases:
   basqcol: /usr/local/bin/basqcol

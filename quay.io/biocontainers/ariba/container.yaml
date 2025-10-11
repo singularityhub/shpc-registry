@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ariba
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ariba
 latest:
-  2.14.6--py39heaaa4ec_6: 
-    sha256:ba0f3a0b72e809581d383c3e7bcff6c5a9058f9bd3d442b6bd4646b0eb517798
+  2.14.7--py310h5140242_0: 
+    sha256:1781fbf0ecd087f19627d604940aee4aa40158ce586ac2483815137424196bd7
 tags:
   2.5.1--py35_0: 
     sha256:22f0f93bda6c542fecca86c7eec606e0ff591913675949ce6aafa0b8b19e5e9c
@@ -27,6 +27,8 @@ tags:
     sha256:ba0f3a0b72e809581d383c3e7bcff6c5a9058f9bd3d442b6bd4646b0eb517798
   2.10.1--py36_0: 
     sha256:6ca846dc4dd890ae61fbbdeb8f93e5af1a47f27ffb0d12c1f17c19fe09fc48da
+  2.14.7--py310h5140242_0: 
+    sha256:1781fbf0ecd087f19627d604940aee4aa40158ce586ac2483815137424196bd7
 docker: quay.io/biocontainers/ariba
 aliases:
   ariba: /usr/local/bin/ariba

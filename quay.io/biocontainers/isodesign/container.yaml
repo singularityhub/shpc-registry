@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/isodesign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for isodesign
 latest:
-  2.0.2--pyhdfd78af_0: 
-    sha256:19ad017201376edfc693bfec69e77ed550a5dcd0eef6cd7163f8147daed64998
+  2.0.3--pyhdfd78af_0: 
+    sha256:69af5a827e679495fa01cf883170e8bf8ed6a2620f1d1388cfbea45971fe5a0f
 tags:
   2.0.1--pyhdfd78af_0: 
     sha256:e32816854f68890b4f71730ce69c32341915944921937bed0419da9a6f3efda1
   2.0.2--pyhdfd78af_0: 
     sha256:19ad017201376edfc693bfec69e77ed550a5dcd0eef6cd7163f8147daed64998
+  2.0.3--pyhdfd78af_0: 
+    sha256:69af5a827e679495fa01cf883170e8bf8ed6a2620f1d1388cfbea45971fe5a0f
 docker: quay.io/biocontainers/isodesign
 aliases:
   ff2ftbl: /usr/local/bin/ff2ftbl

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/t-coffee
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for t-coffee
 latest:
-  13.46.1.b8b01e06--pl5321hb2a3317_2: 
-    sha256:58310a95d1cc562573d6542724c30b4e5aa6b6c9b4b0bc17e16745cc4b2dc226
+  13.46.2.7c9e712d--pl5321hb2a3317_0: 
+    sha256:81b3e26d8b36ceacb31a392df70aea2513b2b2396351695ba29338a43f15143f
 tags:
   13.45.0.4846264--he1b5a44_3: 
     sha256:820c6599294388361dfab47b1235acbf7f238787538a3e779cbdef9985eb309f
@@ -29,6 +29,8 @@ tags:
     sha256:12b8bb3ebe5259983f13ab245b9d239d74c357408febc3efa9e2a8fd6df3cf49
   13.46.1.b8b01e06--pl5321hb2a3317_2: 
     sha256:58310a95d1cc562573d6542724c30b4e5aa6b6c9b4b0bc17e16745cc4b2dc226
+  13.46.2.7c9e712d--pl5321hb2a3317_0: 
+    sha256:81b3e26d8b36ceacb31a392df70aea2513b2b2396351695ba29338a43f15143f
 docker: quay.io/biocontainers/t-coffee
 aliases:
   DrawGram.jar: /usr/local/bin/DrawGram.jar
