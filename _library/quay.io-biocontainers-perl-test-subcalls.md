@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-subcalls"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-subcalls/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-subcalls/container.yaml"
-updated_at: "2025-10-10 03:41:52.864677"
+updated_at: "2025-10-11 03:33:08.896364"
 latest: "1.10--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-test-subcalls"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasmidfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidfinder/container.yaml"
-updated_at: "2025-10-10 03:06:40.588817"
+updated_at: "2025-10-11 02:59:19.270166"
 latest: "2.1.6--py310hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plasmidfinder"
 aliases:

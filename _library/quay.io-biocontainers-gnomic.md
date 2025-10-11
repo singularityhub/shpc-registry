@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gnomic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnomic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnomic/container.yaml"
-updated_at: "2025-10-10 03:07:05.101349"
+updated_at: "2025-10-11 02:59:41.793249"
 latest: "1.0.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/gnomic"
 aliases:

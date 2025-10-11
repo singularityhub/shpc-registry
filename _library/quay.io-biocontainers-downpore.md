@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/downpore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/downpore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/downpore/container.yaml"
-updated_at: "2025-10-10 03:48:27.775172"
+updated_at: "2025-10-11 03:39:34.674987"
 latest: "0.3.4--he881be0_1"
 container_url: "https://biocontainers.pro/tools/downpore"
 aliases:

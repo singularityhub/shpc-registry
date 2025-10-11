@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycluster/container.yaml"
-updated_at: "2025-10-10 03:04:36.018655"
+updated_at: "2025-10-11 02:57:23.644254"
 latest: "1.54--py39hff726c5_9"
 container_url: "https://biocontainers.pro/tools/pycluster"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plastedma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plastedma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plastedma/container.yaml"
-updated_at: "2025-10-10 03:05:45.182604"
+updated_at: "2025-10-11 02:58:28.888487"
 latest: "0.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plastedma"
 aliases:

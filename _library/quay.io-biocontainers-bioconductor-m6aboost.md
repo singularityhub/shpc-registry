@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-m6aboost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-m6aboost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-m6aboost/container.yaml"
-updated_at: "2025-10-10 03:49:21.677325"
+updated_at: "2025-10-11 03:40:27.650244"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-m6aboost"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aegean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aegean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aegean/container.yaml"
-updated_at: "2025-10-10 03:29:06.631769"
+updated_at: "2025-10-11 03:21:13.381852"
 latest: "0.16.0--h71bfec9_5"
 container_url: "https://biocontainers.pro/tools/aegean"
 aliases:

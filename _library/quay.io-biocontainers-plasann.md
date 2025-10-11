@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plasann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasann/container.yaml"
-updated_at: "2025-10-10 03:32:14.871481"
-latest: "1.1.3--pyhdfd78af_0"
+updated_at: "2025-10-11 03:24:09.842979"
+latest: "1.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasann"
 aliases:
  - "PlasAnn"
@@ -39,8 +39,9 @@ versions:
  - "1.0.1--pyhdfd78af_0"
  - "1.0.8--pyhdfd78af_1"
  - "1.1.3--pyhdfd78af_0"
+ - "1.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for plasann"
-config: {"url": "https://biocontainers.pro/tools/plasann", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plasann", "latest": {"1.1.3--pyhdfd78af_0": "sha256:11f2831d2809fb1e22b7bcbd0f442d905ce4982ad24d60546fe1a7b4fb06e65f"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:d135b84720ec36780e74996b22b1e27d287e3815163fd2e46d292d89cda2d6e4", "1.0.8--pyhdfd78af_1": "sha256:e28b9d28874f9c5a624274c6b6c551ba008ea91d6e36f7b3378b7a974135ce1c", "1.1.3--pyhdfd78af_0": "sha256:11f2831d2809fb1e22b7bcbd0f442d905ce4982ad24d60546fe1a7b4fb06e65f"}, "docker": "quay.io/biocontainers/plasann", "aliases": {"PlasAnn": "/usr/local/bin/PlasAnn", "gdown": "/usr/local/bin/gdown", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa"}}
+config: {"url": "https://biocontainers.pro/tools/plasann", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plasann", "latest": {"1.1.6--pyhdfd78af_0": "sha256:3978f49be91a28b7f8d143b7c6f80a1588746846af6f2795c0d6fb263c148b26"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:d135b84720ec36780e74996b22b1e27d287e3815163fd2e46d292d89cda2d6e4", "1.0.8--pyhdfd78af_1": "sha256:e28b9d28874f9c5a624274c6b6c551ba008ea91d6e36f7b3378b7a974135ce1c", "1.1.3--pyhdfd78af_0": "sha256:11f2831d2809fb1e22b7bcbd0f442d905ce4982ad24d60546fe1a7b4fb06e65f", "1.1.6--pyhdfd78af_0": "sha256:3978f49be91a28b7f8d143b7c6f80a1588746846af6f2795c0d6fb263c148b26"}, "docker": "quay.io/biocontainers/plasann", "aliases": {"PlasAnn": "/usr/local/bin/PlasAnn", "gdown": "/usr/local/bin/gdown", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasann.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/plasann
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plasann:1.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/plasann:1.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plasann/1.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/plasann/1.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/plasann/1.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/plasann/1.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

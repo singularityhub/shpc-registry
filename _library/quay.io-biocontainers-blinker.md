@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blinker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blinker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blinker/container.yaml"
-updated_at: "2025-10-10 03:29:18.416149"
+updated_at: "2025-10-11 03:21:24.633129"
 latest: "1.4--py35_0"
 container_url: "https://biocontainers.pro/tools/blinker"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-davidtiling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-davidtiling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-davidtiling/container.yaml"
-updated_at: "2025-10-10 03:27:42.110001"
+updated_at: "2025-10-11 03:19:51.634168"
 latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-davidtiling"
 

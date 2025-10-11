@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/impg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/impg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/impg/container.yaml"
-updated_at: "2025-10-10 03:17:08.801436"
+updated_at: "2025-10-11 03:09:31.045222"
 latest: "0.3.1--hdb3fbb7_0"
 container_url: "https://biocontainers.pro/tools/impg"
 aliases:

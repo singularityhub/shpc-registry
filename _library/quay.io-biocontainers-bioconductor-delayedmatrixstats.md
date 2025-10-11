@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-delayedmatrixstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayedmatrixstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayedmatrixstats/container.yaml"
-updated_at: "2025-10-10 03:23:42.087385"
+updated_at: "2025-10-11 03:15:55.904561"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayedmatrixstats"
 aliases:

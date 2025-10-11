@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.nontcga.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.nontcga.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.exac.r1.0.nontcga.grch38/container.yaml"
-updated_at: "2025-10-10 03:08:31.319036"
+updated_at: "2025-10-11 03:01:06.248049"
 latest: "3.10.0--r44hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.exac.r1.0.nontcga.grch38"
 aliases:

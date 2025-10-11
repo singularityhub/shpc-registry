@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-smad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-smad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-smad/container.yaml"
-updated_at: "2025-10-10 03:21:54.664317"
+updated_at: "2025-10-11 03:14:10.392506"
 latest: "1.22.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-smad"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmd_hmdb_api_client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmd_hmdb_api_client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmd_hmdb_api_client/container.yaml"
-updated_at: "2025-10-10 03:38:48.986713"
+updated_at: "2025-10-11 03:30:12.031104"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kmd_hmdb_api_client"
 aliases:

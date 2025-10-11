@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-depends"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-depends/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-depends/container.yaml"
-updated_at: "2025-10-10 03:26:03.984282"
+updated_at: "2025-10-11 03:18:15.284802"
 latest: "0.8001--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-depends"
 aliases:

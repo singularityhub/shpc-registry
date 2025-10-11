@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segalign-galaxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segalign-galaxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segalign-galaxy/container.yaml"
-updated_at: "2025-10-10 03:15:17.138064"
+updated_at: "2025-10-11 03:07:42.375292"
 latest: "0.1.2.7--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/segalign-galaxy"
 aliases:

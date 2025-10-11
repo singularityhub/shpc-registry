@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqspec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqspec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqspec/container.yaml"
-updated_at: "2025-10-10 03:21:40.010541"
+updated_at: "2025-10-11 03:13:56.062255"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqspec"
 aliases:

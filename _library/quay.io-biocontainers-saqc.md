@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/saqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saqc/container.yaml"
-updated_at: "2025-10-10 03:06:11.516805"
+updated_at: "2025-10-11 02:58:53.039096"
 latest: "2.6.0"
 container_url: "https://biocontainers.pro/tools/saqc"
 aliases:

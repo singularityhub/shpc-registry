@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-clustree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-clustree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-clustree/container.yaml"
-updated_at: "2025-10-10 03:45:04.523159"
+updated_at: "2025-10-11 03:36:16.953361"
 latest: "0.5.1"
 container_url: "https://biocontainers.pro/tools/r-clustree"
 aliases:

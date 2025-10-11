@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/feems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/feems/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/feems/container.yaml"
-updated_at: "2025-10-10 03:18:17.934468"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-10-11 03:10:38.628342"
+latest: "2.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/feems"
 aliases:
  - "demes"
@@ -66,8 +66,9 @@ aliases:
  - "gdaladdo"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for feems"
-config: {"url": "https://biocontainers.pro/tools/feems", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for feems", "latest": {"1.0.0--pyhdfd78af_0": "sha256:3a3d31e87d808d0af84d47fffc4aaa96b7f5fd19edb19f6217ab1c11a180f5c9"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:3a3d31e87d808d0af84d47fffc4aaa96b7f5fd19edb19f6217ab1c11a180f5c9"}, "docker": "quay.io/biocontainers/feems", "aliases": {"demes": "/usr/local/bin/demes", "epsg_tr.py": "/usr/local/bin/epsg_tr.py", "esri2wkt.py": "/usr/local/bin/esri2wkt.py", "fio": "/usr/local/bin/fio", "gcps2vec.py": "/usr/local/bin/gcps2vec.py", "gcps2wld.py": "/usr/local/bin/gcps2wld.py", "gdal2tiles.py": "/usr/local/bin/gdal2tiles.py", "gdal2xyz.py": "/usr/local/bin/gdal2xyz.py", "gdal_auth.py": "/usr/local/bin/gdal_auth.py", "gdal_calc.py": "/usr/local/bin/gdal_calc.py", "gdal_edit.py": "/usr/local/bin/gdal_edit.py", "gdal_fillnodata.py": "/usr/local/bin/gdal_fillnodata.py", "gdal_merge.py": "/usr/local/bin/gdal_merge.py", "gdal_pansharpen.py": "/usr/local/bin/gdal_pansharpen.py", "gdal_polygonize.py": "/usr/local/bin/gdal_polygonize.py", "gdal_proximity.py": "/usr/local/bin/gdal_proximity.py", "gdal_retile.py": "/usr/local/bin/gdal_retile.py", "gdal_sieve.py": "/usr/local/bin/gdal_sieve.py", "gdalchksum.py": "/usr/local/bin/gdalchksum.py", "gdalcompare.py": "/usr/local/bin/gdalcompare.py", "gdalident.py": "/usr/local/bin/gdalident.py", "gdalimport.py": "/usr/local/bin/gdalimport.py", "gdalmove.py": "/usr/local/bin/gdalmove.py", "mkgraticule.py": "/usr/local/bin/mkgraticule.py", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "ogrmerge.py": "/usr/local/bin/ogrmerge.py", "pct2rgb.py": "/usr/local/bin/pct2rgb.py", "pyproj": "/usr/local/bin/pyproj", "rgb2pct.py": "/usr/local/bin/rgb2pct.py", "tskit": "/usr/local/bin/tskit", "testepsg": "/usr/local/bin/testepsg", "pg_standby": "/usr/local/bin/pg_standby", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo"}}
+config: {"url": "https://biocontainers.pro/tools/feems", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for feems", "latest": {"2.0.0--pyhdfd78af_1": "sha256:d58fcafb332b9631057a1a4028c524d1dcd5827d099cfbd9d0727558ef1c111c"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:3a3d31e87d808d0af84d47fffc4aaa96b7f5fd19edb19f6217ab1c11a180f5c9", "2.0.0--pyhdfd78af_1": "sha256:d58fcafb332b9631057a1a4028c524d1dcd5827d099cfbd9d0727558ef1c111c"}, "docker": "quay.io/biocontainers/feems", "aliases": {"demes": "/usr/local/bin/demes", "epsg_tr.py": "/usr/local/bin/epsg_tr.py", "esri2wkt.py": "/usr/local/bin/esri2wkt.py", "fio": "/usr/local/bin/fio", "gcps2vec.py": "/usr/local/bin/gcps2vec.py", "gcps2wld.py": "/usr/local/bin/gcps2wld.py", "gdal2tiles.py": "/usr/local/bin/gdal2tiles.py", "gdal2xyz.py": "/usr/local/bin/gdal2xyz.py", "gdal_auth.py": "/usr/local/bin/gdal_auth.py", "gdal_calc.py": "/usr/local/bin/gdal_calc.py", "gdal_edit.py": "/usr/local/bin/gdal_edit.py", "gdal_fillnodata.py": "/usr/local/bin/gdal_fillnodata.py", "gdal_merge.py": "/usr/local/bin/gdal_merge.py", "gdal_pansharpen.py": "/usr/local/bin/gdal_pansharpen.py", "gdal_polygonize.py": "/usr/local/bin/gdal_polygonize.py", "gdal_proximity.py": "/usr/local/bin/gdal_proximity.py", "gdal_retile.py": "/usr/local/bin/gdal_retile.py", "gdal_sieve.py": "/usr/local/bin/gdal_sieve.py", "gdalchksum.py": "/usr/local/bin/gdalchksum.py", "gdalcompare.py": "/usr/local/bin/gdalcompare.py", "gdalident.py": "/usr/local/bin/gdalident.py", "gdalimport.py": "/usr/local/bin/gdalimport.py", "gdalmove.py": "/usr/local/bin/gdalmove.py", "mkgraticule.py": "/usr/local/bin/mkgraticule.py", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "ogrmerge.py": "/usr/local/bin/ogrmerge.py", "pct2rgb.py": "/usr/local/bin/pct2rgb.py", "pyproj": "/usr/local/bin/pyproj", "rgb2pct.py": "/usr/local/bin/rgb2pct.py", "tskit": "/usr/local/bin/tskit", "testepsg": "/usr/local/bin/testepsg", "pg_standby": "/usr/local/bin/pg_standby", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pg_checksums": "/usr/local/bin/pg_checksums", "projsync": "/usr/local/bin/projsync", "dap-config": "/usr/local/bin/dap-config", "dap-config-pkgconfig": "/usr/local/bin/dap-config-pkgconfig", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/feems.
@@ -82,7 +83,7 @@ $ shpc install quay.io/biocontainers/feems
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/feems:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/feems:2.0.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -94,8 +95,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/feems/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/feems/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/feems/2.0.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/feems/2.0.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

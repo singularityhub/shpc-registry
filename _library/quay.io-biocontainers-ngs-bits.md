@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngs-bits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-bits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-bits/container.yaml"
-updated_at: "2025-10-10 03:49:07.314362"
+updated_at: "2025-10-11 03:40:13.552907"
 latest: "2025_09--py313h572c47f_0"
 container_url: "https://biocontainers.pro/tools/ngs-bits"
 aliases:

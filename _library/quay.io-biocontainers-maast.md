@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maast/container.yaml"
-updated_at: "2025-10-10 03:27:38.580652"
+updated_at: "2025-10-11 03:19:48.160388"
 latest: "1.0.8--py310ha1cbcee_2"
 container_url: "https://biocontainers.pro/tools/maast"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chipseqspike"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipseqspike/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipseqspike/container.yaml"
-updated_at: "2025-10-10 03:42:33.779726"
+updated_at: "2025-10-11 03:33:48.998436"
 latest: "1.9.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipseqspike"
 aliases:

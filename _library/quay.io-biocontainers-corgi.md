@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/corgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corgi/container.yaml"
-updated_at: "2025-10-10 03:12:54.433650"
+updated_at: "2025-10-11 03:05:23.344740"
 latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/corgi"
 aliases:

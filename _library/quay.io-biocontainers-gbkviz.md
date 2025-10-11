@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gbkviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbkviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbkviz/container.yaml"
-updated_at: "2025-10-10 03:35:05.389009"
+updated_at: "2025-10-11 03:26:42.561783"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gbkviz"
 aliases:

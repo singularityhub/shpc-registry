@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhdf5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhdf5/container.yaml"
-updated_at: "2025-10-10 03:55:31.408538"
+updated_at: "2025-10-11 03:46:29.108623"
 latest: "2.50.0--r44h77050f0_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhdf5"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gapmm2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gapmm2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gapmm2/container.yaml"
-updated_at: "2025-10-10 03:39:18.531344"
+updated_at: "2025-10-11 03:30:39.668091"
 latest: "25.8.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gapmm2"
 aliases:

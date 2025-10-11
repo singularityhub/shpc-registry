@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msproteomicstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msproteomicstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msproteomicstools/container.yaml"
-updated_at: "2025-10-10 03:23:19.778163"
+updated_at: "2025-10-11 03:15:34.036764"
 latest: "0.11.0--py27h8b767f7_4"
 container_url: "https://biocontainers.pro/tools/msproteomicstools"
 aliases:

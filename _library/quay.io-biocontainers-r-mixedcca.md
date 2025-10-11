@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mixedcca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mixedcca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mixedcca/container.yaml"
-updated_at: "2025-10-10 03:48:30.139941"
+updated_at: "2025-10-11 03:39:36.964590"
 latest: "1.5.2--r41hc8e53b2_1"
 container_url: "https://biocontainers.pro/tools/r-mixedcca"
 
