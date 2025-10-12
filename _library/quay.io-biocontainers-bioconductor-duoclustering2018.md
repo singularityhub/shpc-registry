@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-duoclustering2018"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-duoclustering2018/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-duoclustering2018/container.yaml"
-updated_at: "2025-10-11 03:39:47.622336"
+updated_at: "2025-10-12 03:48:30.776163"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-duoclustering2018"
 aliases:

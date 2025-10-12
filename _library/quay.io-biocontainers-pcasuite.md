@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pcasuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcasuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcasuite/container.yaml"
-updated_at: "2025-10-11 03:45:48.169867"
-latest: "1.0.0--h7baada4_5"
+updated_at: "2025-10-12 03:54:29.977858"
+latest: "1.0.0--h7baada4_6"
 container_url: "https://biocontainers.pro/tools/pcasuite"
 aliases:
  - "bison"
@@ -48,8 +48,9 @@ versions:
  - "1.0.0--h27c8258_3"
  - "1.0.0--hc018b49_4"
  - "1.0.0--h7baada4_5"
+ - "1.0.0--h7baada4_6"
 description: "singularity registry hpc automated addition for pcasuite"
-config: {"url": "https://biocontainers.pro/tools/pcasuite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcasuite", "latest": {"1.0.0--h7baada4_5": "sha256:1c5df860e2666234027ab810c86bb893124223c531a308ddc641d7587af9ed21"}, "tags": {"1.0.0--h52efb1e_1": "sha256:acc77c9379704b671b27c4a5d2ace64c935aa91ec9f2fcb6c37b17085a8021f9", "1.0.0--h52efb1e_2": "sha256:7ccc05f63410969619e2f6b032970045eff3ed13380188772e24cd48b7d8c1c8", "1.0.0--h27c8258_3": "sha256:39eea2a0286b564b9191b4591a6bec6ab23fcddd3c5da45d20c475cca98d9adc", "1.0.0--hc018b49_4": "sha256:dcfabdf805ef241c04cd6b0c0ba01d3dd256ad48dbd16a389168138e36dab5b5", "1.0.0--h7baada4_5": "sha256:1c5df860e2666234027ab810c86bb893124223c531a308ddc641d7587af9ed21"}, "docker": "quay.io/biocontainers/pcasuite", "aliases": {"bison": "/usr/local/bin/bison", "flex": "/usr/local/bin/flex", "flex++": "/usr/local/bin/flex++", "genpcz": "/usr/local/bin/genpcz", "m4": "/usr/local/bin/m4", "pcaunzip": "/usr/local/bin/pcaunzip", "pcazip": "/usr/local/bin/pcazip", "pczdump": "/usr/local/bin/pczdump", "yacc": "/usr/local/bin/yacc", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack", "jpeg2hdf": "/usr/local/bin/jpeg2hdf", "paltohdf": "/usr/local/bin/paltohdf"}}
+config: {"url": "https://biocontainers.pro/tools/pcasuite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcasuite", "latest": {"1.0.0--h7baada4_6": "sha256:61abd0da6b38d176fd3011618294cfe8e666b35b547779f0d1fc7b57ca648e10"}, "tags": {"1.0.0--h52efb1e_1": "sha256:acc77c9379704b671b27c4a5d2ace64c935aa91ec9f2fcb6c37b17085a8021f9", "1.0.0--h52efb1e_2": "sha256:7ccc05f63410969619e2f6b032970045eff3ed13380188772e24cd48b7d8c1c8", "1.0.0--h27c8258_3": "sha256:39eea2a0286b564b9191b4591a6bec6ab23fcddd3c5da45d20c475cca98d9adc", "1.0.0--hc018b49_4": "sha256:dcfabdf805ef241c04cd6b0c0ba01d3dd256ad48dbd16a389168138e36dab5b5", "1.0.0--h7baada4_5": "sha256:1c5df860e2666234027ab810c86bb893124223c531a308ddc641d7587af9ed21", "1.0.0--h7baada4_6": "sha256:61abd0da6b38d176fd3011618294cfe8e666b35b547779f0d1fc7b57ca648e10"}, "docker": "quay.io/biocontainers/pcasuite", "aliases": {"bison": "/usr/local/bin/bison", "flex": "/usr/local/bin/flex", "flex++": "/usr/local/bin/flex++", "genpcz": "/usr/local/bin/genpcz", "m4": "/usr/local/bin/m4", "pcaunzip": "/usr/local/bin/pcaunzip", "pcazip": "/usr/local/bin/pcazip", "pczdump": "/usr/local/bin/pczdump", "yacc": "/usr/local/bin/yacc", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp", "hrepack": "/usr/local/bin/hrepack", "jpeg2hdf": "/usr/local/bin/jpeg2hdf", "paltohdf": "/usr/local/bin/paltohdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pcasuite.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/pcasuite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pcasuite:1.0.0--h7baada4_5
+$ shpc install quay.io/biocontainers/pcasuite:1.0.0--h7baada4_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pcasuite/1.0.0--h7baada4_5
-$ module help quay.io/biocontainers/pcasuite/1.0.0--h7baada4_5
+$ module load quay.io/biocontainers/pcasuite/1.0.0--h7baada4_6
+$ module help quay.io/biocontainers/pcasuite/1.0.0--h7baada4_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamdam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamdam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamdam/container.yaml"
-updated_at: "2025-10-11 03:13:31.659745"
+updated_at: "2025-10-12 03:22:22.839667"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamdam"
 aliases:

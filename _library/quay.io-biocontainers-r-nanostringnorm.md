@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nanostringnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nanostringnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nanostringnorm/container.yaml"
-updated_at: "2025-10-11 03:07:20.804217"
+updated_at: "2025-10-12 03:16:09.052725"
 latest: "1.2.1--r40h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-nanostringnorm"
 aliases:

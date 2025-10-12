@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multisight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multisight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multisight/container.yaml"
-updated_at: "2025-10-11 03:45:01.919831"
+updated_at: "2025-10-12 03:53:43.977251"
 latest: "1.7.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multisight"
 aliases:

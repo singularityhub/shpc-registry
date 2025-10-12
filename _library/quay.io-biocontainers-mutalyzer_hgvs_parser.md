@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mutalyzer_hgvs_parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutalyzer_hgvs_parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutalyzer_hgvs_parser/container.yaml"
-updated_at: "2025-10-11 02:56:43.443736"
+updated_at: "2025-10-12 03:05:31.719936"
 latest: "0.3.8--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mutalyzer_hgvs_parser"
 aliases:

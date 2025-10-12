@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mmdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmdiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmdiff/container.yaml"
-updated_at: "2025-10-11 03:00:24.917867"
+updated_at: "2025-10-12 03:09:10.724549"
 latest: "1.10.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmdiff"
 

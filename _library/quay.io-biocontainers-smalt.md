@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/smalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smalt/container.yaml"
-updated_at: "2025-10-11 03:37:58.955100"
-latest: "0.7.6--1"
+updated_at: "2025-10-12 03:46:42.468116"
+latest: "0.7.6--h577a1d6_2"
 container_url: "https://biocontainers.pro/tools/smalt"
 aliases:
  - "basqcol"
@@ -20,8 +20,9 @@ aliases:
  - "trunkreads"
 versions:
  - "0.7.6--1"
+ - "0.7.6--h577a1d6_2"
 description: "shpc-registry automated BioContainers addition for smalt"
-config: {"url": "https://biocontainers.pro/tools/smalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smalt", "latest": {"0.7.6--1": "sha256:beae74229d777b2f7db02d9ae2dd13ab757067895b49c20e11de882f1e8a63a7"}, "tags": {"0.7.6--1": "sha256:beae74229d777b2f7db02d9ae2dd13ab757067895b49c20e11de882f1e8a63a7"}, "docker": "quay.io/biocontainers/smalt", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads"}}
+config: {"url": "https://biocontainers.pro/tools/smalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smalt", "latest": {"0.7.6--h577a1d6_2": "sha256:825d0596dc66e2d26f2a3c458b71ac025c5f6a902fad3ecafb1684d6d886085d"}, "tags": {"0.7.6--1": "sha256:beae74229d777b2f7db02d9ae2dd13ab757067895b49c20e11de882f1e8a63a7", "0.7.6--h577a1d6_2": "sha256:825d0596dc66e2d26f2a3c458b71ac025c5f6a902fad3ecafb1684d6d886085d"}, "docker": "quay.io/biocontainers/smalt", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smalt.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/smalt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/smalt:0.7.6--1
+$ shpc install quay.io/biocontainers/smalt:0.7.6--h577a1d6_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/smalt/0.7.6--1
-$ module help quay.io/biocontainers/smalt/0.7.6--1
+$ module load quay.io/biocontainers/smalt/0.7.6--h577a1d6_2
+$ module help quay.io/biocontainers/smalt/0.7.6--h577a1d6_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

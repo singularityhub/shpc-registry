@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msprep/container.yaml"
-updated_at: "2025-10-11 03:13:58.351701"
+updated_at: "2025-10-12 03:22:49.854154"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msprep"
 

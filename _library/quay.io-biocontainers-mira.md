@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mira/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mira/container.yaml"
-updated_at: "2025-10-11 03:29:12.990305"
-latest: "4.9.6--1"
+updated_at: "2025-10-12 03:37:59.242885"
+latest: "5.0.0rc2--hb5a7bbe_0"
 container_url: "https://biocontainers.pro/tools/mira"
 aliases:
  - "mira"
@@ -15,8 +15,9 @@ aliases:
  - "miramem"
 versions:
  - "4.9.6--1"
+ - "5.0.0rc2--hb5a7bbe_0"
 description: "shpc-registry automated BioContainers addition for mira"
-config: {"url": "https://biocontainers.pro/tools/mira", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mira", "latest": {"4.9.6--1": "sha256:14ae89998f66f4a3645e0ca4fd2ef2d84d405743c6a4da80396f2e3ce822d586"}, "tags": {"4.9.6--1": "sha256:14ae89998f66f4a3645e0ca4fd2ef2d84d405743c6a4da80396f2e3ce822d586"}, "docker": "quay.io/biocontainers/mira", "aliases": {"mira": "/usr/local/bin/mira", "mira-install-sls-rrna.sh": "/usr/local/bin/mira-install-sls-rrna.sh", "mirabait": "/usr/local/bin/mirabait", "miraconvert": "/usr/local/bin/miraconvert", "miramem": "/usr/local/bin/miramem"}}
+config: {"url": "https://biocontainers.pro/tools/mira", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mira", "latest": {"5.0.0rc2--hb5a7bbe_0": "sha256:9ae0fe4fe89adc35239baf523e70e69858d3ece84f512e234eba70b4ad80b487"}, "tags": {"4.9.6--1": "sha256:14ae89998f66f4a3645e0ca4fd2ef2d84d405743c6a4da80396f2e3ce822d586", "5.0.0rc2--hb5a7bbe_0": "sha256:9ae0fe4fe89adc35239baf523e70e69858d3ece84f512e234eba70b4ad80b487"}, "docker": "quay.io/biocontainers/mira", "aliases": {"mira": "/usr/local/bin/mira", "mira-install-sls-rrna.sh": "/usr/local/bin/mira-install-sls-rrna.sh", "mirabait": "/usr/local/bin/mirabait", "miraconvert": "/usr/local/bin/miraconvert", "miramem": "/usr/local/bin/miramem"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mira.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mira
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mira:4.9.6--1
+$ shpc install quay.io/biocontainers/mira:5.0.0rc2--hb5a7bbe_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mira/4.9.6--1
-$ module help quay.io/biocontainers/mira/4.9.6--1
+$ module load quay.io/biocontainers/mira/5.0.0rc2--hb5a7bbe_0
+$ module help quay.io/biocontainers/mira/5.0.0rc2--hb5a7bbe_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

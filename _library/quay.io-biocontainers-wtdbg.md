@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/wtdbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtdbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wtdbg/container.yaml"
-updated_at: "2025-10-11 03:42:16.877333"
-latest: "2.5--h5ca1c30_5"
+updated_at: "2025-10-12 03:50:59.632289"
+latest: "2.5--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/wtdbg"
 
 versions:
  - "2.5--h5b5514e_2"
  - "2.5--h43eeafb_4"
  - "2.5--h5ca1c30_5"
+ - "2.5--h577a1d6_6"
 description: "shpc-registry automated BioContainers addition for wtdbg"
-config: {"url": "https://biocontainers.pro/tools/wtdbg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wtdbg", "latest": {"2.5--h5ca1c30_5": "sha256:d3c49a33ab8e4b6b4ca266e6091478f32824585f774409590202b0bc8baba720"}, "tags": {"2.5--h5b5514e_2": "sha256:463392406f8c4a36e48b2d23b158014778301ceb754ec5c5b6c0ba3fabc67038", "2.5--h43eeafb_4": "sha256:eefd32b089847b65725bd73d889019bb861548852584c7833ab37a9f1b23e70b", "2.5--h5ca1c30_5": "sha256:d3c49a33ab8e4b6b4ca266e6091478f32824585f774409590202b0bc8baba720"}, "docker": "quay.io/biocontainers/wtdbg"}
+config: {"url": "https://biocontainers.pro/tools/wtdbg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wtdbg", "latest": {"2.5--h577a1d6_6": "sha256:c52e801e1a84626b6b21e3fe340901f77b48f44de8c2c68bf255202126f1f10f"}, "tags": {"2.5--h5b5514e_2": "sha256:463392406f8c4a36e48b2d23b158014778301ceb754ec5c5b6c0ba3fabc67038", "2.5--h43eeafb_4": "sha256:eefd32b089847b65725bd73d889019bb861548852584c7833ab37a9f1b23e70b", "2.5--h5ca1c30_5": "sha256:d3c49a33ab8e4b6b4ca266e6091478f32824585f774409590202b0bc8baba720", "2.5--h577a1d6_6": "sha256:c52e801e1a84626b6b21e3fe340901f77b48f44de8c2c68bf255202126f1f10f"}, "docker": "quay.io/biocontainers/wtdbg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wtdbg.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/wtdbg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wtdbg:2.5--h5ca1c30_5
+$ shpc install quay.io/biocontainers/wtdbg:2.5--h577a1d6_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wtdbg/2.5--h5ca1c30_5
-$ module help quay.io/biocontainers/wtdbg/2.5--h5ca1c30_5
+$ module load quay.io/biocontainers/wtdbg/2.5--h577a1d6_6
+$ module help quay.io/biocontainers/wtdbg/2.5--h577a1d6_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

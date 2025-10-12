@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stattarget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stattarget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stattarget/container.yaml"
-updated_at: "2025-10-11 03:33:59.948103"
+updated_at: "2025-10-12 03:42:45.401720"
 latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stattarget"
 
