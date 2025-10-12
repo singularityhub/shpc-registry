@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/dbgraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dbgraph
 latest:
-  v1.0.0--h6bb024c_1: 
-    sha256:790328a5fef33094f1e01d6b02aec144d4a617877c118362c3fb3c8bd1ad8a0b
+  1.0.0--h9948957_2: 
+    sha256:e7ecc19e8c34eaef42b8262fb2720a8a28507d74ba83be963052ba2110c0638b
 tags:
   v1.0.0--h6bb024c_1: 
     sha256:790328a5fef33094f1e01d6b02aec144d4a617877c118362c3fb3c8bd1ad8a0b
+  1.0.0--h9948957_2: 
+    sha256:e7ecc19e8c34eaef42b8262fb2720a8a28507d74ba83be963052ba2110c0638b
 docker: quay.io/biocontainers/dbgraph
 aliases:
   DBGraph2Pro: /usr/local/bin/DBGraph2Pro

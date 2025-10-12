@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bbmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bbmap
 latest:
-  39.33--he5f24ec_0: 
-    sha256:3357a4a47827785159cce98f8d81c63600f0938325be4deb1221b3ba9dbd7d72
+  39.37--he5f24ec_0: 
+    sha256:6902f7c4e2d53e85978d93473c37bbbaded62b793b584e1064898fe9ec24d14f
 tags:
   38.89--h1296035_0: 
     sha256:acc26b0e54b1323c2db287fabb8bffecda94e766b6759dfdddc7472687b52f33
@@ -59,6 +59,8 @@ tags:
     sha256:687f11f76136fb427bc84fccd645d6115af05877db5b60fc998d42d08f530198
   39.33--he5f24ec_0: 
     sha256:3357a4a47827785159cce98f8d81c63600f0938325be4deb1221b3ba9dbd7d72
+  39.37--he5f24ec_0: 
+    sha256:6902f7c4e2d53e85978d93473c37bbbaded62b793b584e1064898fe9ec24d14f
 docker: quay.io/biocontainers/bbmap
 aliases:
   a_sample_mt.sh: /usr/local/bin/a_sample_mt.sh
