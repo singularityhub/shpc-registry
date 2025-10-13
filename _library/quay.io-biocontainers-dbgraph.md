@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dbgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dbgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dbgraph/container.yaml"
-updated_at: "2025-10-12 03:23:00.303463"
-latest: "v1.0.0--h6bb024c_1"
+updated_at: "2025-10-13 03:30:28.672164"
+latest: "1.0.0--h9948957_2"
 container_url: "https://biocontainers.pro/tools/dbgraph"
 aliases:
  - "DBGraph2Pro"
  - "DBGraphPep2Pro"
 versions:
  - "v1.0.0--h6bb024c_1"
+ - "1.0.0--h9948957_2"
 description: "shpc-registry automated BioContainers addition for dbgraph"
-config: {"url": "https://biocontainers.pro/tools/dbgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dbgraph", "latest": {"v1.0.0--h6bb024c_1": "sha256:790328a5fef33094f1e01d6b02aec144d4a617877c118362c3fb3c8bd1ad8a0b"}, "tags": {"v1.0.0--h6bb024c_1": "sha256:790328a5fef33094f1e01d6b02aec144d4a617877c118362c3fb3c8bd1ad8a0b"}, "docker": "quay.io/biocontainers/dbgraph", "aliases": {"DBGraph2Pro": "/usr/local/bin/DBGraph2Pro", "DBGraphPep2Pro": "/usr/local/bin/DBGraphPep2Pro"}}
+config: {"url": "https://biocontainers.pro/tools/dbgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dbgraph", "latest": {"1.0.0--h9948957_2": "sha256:e7ecc19e8c34eaef42b8262fb2720a8a28507d74ba83be963052ba2110c0638b"}, "tags": {"v1.0.0--h6bb024c_1": "sha256:790328a5fef33094f1e01d6b02aec144d4a617877c118362c3fb3c8bd1ad8a0b", "1.0.0--h9948957_2": "sha256:e7ecc19e8c34eaef42b8262fb2720a8a28507d74ba83be963052ba2110c0638b"}, "docker": "quay.io/biocontainers/dbgraph", "aliases": {"DBGraph2Pro": "/usr/local/bin/DBGraph2Pro", "DBGraphPep2Pro": "/usr/local/bin/DBGraphPep2Pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dbgraph.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/dbgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dbgraph:v1.0.0--h6bb024c_1
+$ shpc install quay.io/biocontainers/dbgraph:1.0.0--h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dbgraph/v1.0.0--h6bb024c_1
-$ module help quay.io/biocontainers/dbgraph/v1.0.0--h6bb024c_1
+$ module load quay.io/biocontainers/dbgraph/1.0.0--h9948957_2
+$ module help quay.io/biocontainers/dbgraph/1.0.0--h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

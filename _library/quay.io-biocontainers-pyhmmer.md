@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyhmmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyhmmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyhmmer/container.yaml"
-updated_at: "2025-10-12 03:32:34.333575"
+updated_at: "2025-10-13 03:39:51.627452"
 latest: "0.11.1--py313h366bbf7_2"
 container_url: "https://biocontainers.pro/tools/pyhmmer"
 aliases:

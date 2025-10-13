@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/allhic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/allhic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/allhic/container.yaml"
-updated_at: "2025-10-12 03:54:45.449086"
+updated_at: "2025-10-13 04:01:35.809508"
 latest: "0.9.14--he881be0_0"
 container_url: "https://biocontainers.pro/tools/allhic"
 aliases:

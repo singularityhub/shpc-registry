@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spoa/container.yaml"
-updated_at: "2025-10-12 03:08:38.000124"
-latest: "4.1.4--h077b44d_3"
+updated_at: "2025-10-13 03:16:21.944831"
+latest: "4.1.5--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/spoa"
 aliases:
  - "spoa"
@@ -20,8 +20,9 @@ versions:
  - "4.1.4--hdcf5f25_1"
  - "4.1.4--hdcf5f25_2"
  - "4.1.4--h077b44d_3"
+ - "4.1.5--h077b44d_0"
 description: "shpc-registry automated BioContainers addition for spoa"
-config: {"url": "https://biocontainers.pro/tools/spoa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spoa", "latest": {"4.1.4--h077b44d_3": "sha256:76d53910764c1ac532708d1c680e0fdec23ae153c341f689226ace96ebfacd44"}, "tags": {"4.0.7--hd03093a_3": "sha256:5a2fd9bee52f97f543cc2036767268e67d73ce21be6bfdc1863ea0f04bc0341c", "4.0.7--hd03093a_4": "sha256:4e098a4866e6b860c334cd47dcfe11c0e0c3110936dd87c1c6f37a276957920d", "4.0.7--hdcf5f25_5": "sha256:0d3f093053262b9e973eecaa2a9c6cb61ab39e695957284a0bfb4f289b171602", "4.0.8--hdcf5f25_0": "sha256:211616908bcb8ce65bd43b4c3f7beb10184a54193e276c25f989288daa12aa75", "4.1.2--hdcf5f25_0": "sha256:edb0e8daa9eef17d61f80efdc7f36f8b46751dc6d1a24894d6abb4a2219f0e46", "4.1.3--hdcf5f25_0": "sha256:a32d65d313b4f3bc716343b648b65c4c381708f7cf70456504fe61aea015ef01", "4.1.4--hdcf5f25_0": "sha256:c066476d110e5780b1dacbc50d110254a48fb7edf014adc35df1363af9b7a4bf", "4.1.4--hdcf5f25_1": "sha256:cdb6a2c7bc45bba38ee5f33ca14954ee3e0dd172473184c9b160e905fd2ec3a3", "4.1.4--hdcf5f25_2": "sha256:6e4a3482041b85704cd856fd63c898e505b3b299c3cd4fe77163bd6b806d0880", "4.1.4--h077b44d_3": "sha256:76d53910764c1ac532708d1c680e0fdec23ae153c341f689226ace96ebfacd44"}, "docker": "quay.io/biocontainers/spoa", "aliases": {"spoa": "/usr/local/bin/spoa"}}
+config: {"url": "https://biocontainers.pro/tools/spoa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spoa", "latest": {"4.1.5--h077b44d_0": "sha256:852a8d9521f6482e31a1aa28f28115d6c8f6d15b500cbecfaadd8f3d83e0869b"}, "tags": {"4.0.7--hd03093a_3": "sha256:5a2fd9bee52f97f543cc2036767268e67d73ce21be6bfdc1863ea0f04bc0341c", "4.0.7--hd03093a_4": "sha256:4e098a4866e6b860c334cd47dcfe11c0e0c3110936dd87c1c6f37a276957920d", "4.0.7--hdcf5f25_5": "sha256:0d3f093053262b9e973eecaa2a9c6cb61ab39e695957284a0bfb4f289b171602", "4.0.8--hdcf5f25_0": "sha256:211616908bcb8ce65bd43b4c3f7beb10184a54193e276c25f989288daa12aa75", "4.1.2--hdcf5f25_0": "sha256:edb0e8daa9eef17d61f80efdc7f36f8b46751dc6d1a24894d6abb4a2219f0e46", "4.1.3--hdcf5f25_0": "sha256:a32d65d313b4f3bc716343b648b65c4c381708f7cf70456504fe61aea015ef01", "4.1.4--hdcf5f25_0": "sha256:c066476d110e5780b1dacbc50d110254a48fb7edf014adc35df1363af9b7a4bf", "4.1.4--hdcf5f25_1": "sha256:cdb6a2c7bc45bba38ee5f33ca14954ee3e0dd172473184c9b160e905fd2ec3a3", "4.1.4--hdcf5f25_2": "sha256:6e4a3482041b85704cd856fd63c898e505b3b299c3cd4fe77163bd6b806d0880", "4.1.4--h077b44d_3": "sha256:76d53910764c1ac532708d1c680e0fdec23ae153c341f689226ace96ebfacd44", "4.1.5--h077b44d_0": "sha256:852a8d9521f6482e31a1aa28f28115d6c8f6d15b500cbecfaadd8f3d83e0869b"}, "docker": "quay.io/biocontainers/spoa", "aliases": {"spoa": "/usr/local/bin/spoa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spoa.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/spoa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spoa:4.1.4--h077b44d_3
+$ shpc install quay.io/biocontainers/spoa:4.1.5--h077b44d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spoa/4.1.4--h077b44d_3
-$ module help quay.io/biocontainers/spoa/4.1.4--h077b44d_3
+$ module load quay.io/biocontainers/spoa/4.1.5--h077b44d_0
+$ module help quay.io/biocontainers/spoa/4.1.5--h077b44d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

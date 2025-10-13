@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cell2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cell2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cell2cell/container.yaml"
-updated_at: "2025-10-12 03:47:14.283965"
-latest: "0.8.1--py39h2de1943_1"
+updated_at: "2025-10-13 03:54:13.173569"
+latest: "0.8.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cell2cell"
 aliases:
  - "gseapy"
@@ -40,8 +40,9 @@ versions:
  - "0.7.4--py39h9948957_2"
  - "0.7.4--py310h9948957_3"
  - "0.8.1--py39h2de1943_1"
+ - "0.8.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cell2cell"
-config: {"url": "https://biocontainers.pro/tools/cell2cell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cell2cell", "latest": {"0.8.1--py39h2de1943_1": "sha256:33477ba3d471da1f80e1fc74aeaf41e9b33a3c2289a2643d7a9bf60ad981a157"}, "tags": {"0.7.4--py38h4ac6f70_0": "sha256:34cc506e87d9d9ba29917b4f1fadb40ef0c34c29cc9db56b21db48ca914b2b44", "0.7.4--py39h4ac6f70_1": "sha256:6a35ff033f9c70e51469e32c86d45db7bb5390905662d8cc86b0b0b81c6bca6e", "0.7.4--py39h9948957_2": "sha256:76211c9dd801b2cfee75d898706f071b44ab1d765a98aaf4c8be01cf86a7f75e", "0.7.4--py310h9948957_3": "sha256:6cbd96d993cf8a015d7263938ab2292f5f7cac90fcd474160c2dbcbabdc6a379", "0.8.1--py39h2de1943_1": "sha256:33477ba3d471da1f80e1fc74aeaf41e9b33a3c2289a2643d7a9bf60ad981a157"}, "docker": "quay.io/biocontainers/cell2cell", "aliases": {"gseapy": "/usr/local/bin/gseapy", "runxlrd.py": "/usr/local/bin/runxlrd.py", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "f2py3.8": "/usr/local/bin/f2py3.8", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
+config: {"url": "https://biocontainers.pro/tools/cell2cell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cell2cell", "latest": {"0.8.2--pyhdfd78af_0": "sha256:62164b11b336734be7c764e05db73dd654629e9d93b7e8f7f8ecde0df9b31016"}, "tags": {"0.7.4--py38h4ac6f70_0": "sha256:34cc506e87d9d9ba29917b4f1fadb40ef0c34c29cc9db56b21db48ca914b2b44", "0.7.4--py39h4ac6f70_1": "sha256:6a35ff033f9c70e51469e32c86d45db7bb5390905662d8cc86b0b0b81c6bca6e", "0.7.4--py39h9948957_2": "sha256:76211c9dd801b2cfee75d898706f071b44ab1d765a98aaf4c8be01cf86a7f75e", "0.7.4--py310h9948957_3": "sha256:6cbd96d993cf8a015d7263938ab2292f5f7cac90fcd474160c2dbcbabdc6a379", "0.8.1--py39h2de1943_1": "sha256:33477ba3d471da1f80e1fc74aeaf41e9b33a3c2289a2643d7a9bf60ad981a157", "0.8.2--pyhdfd78af_0": "sha256:62164b11b336734be7c764e05db73dd654629e9d93b7e8f7f8ecde0df9b31016"}, "docker": "quay.io/biocontainers/cell2cell", "aliases": {"gseapy": "/usr/local/bin/gseapy", "runxlrd.py": "/usr/local/bin/runxlrd.py", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "scanpy": "/usr/local/bin/scanpy", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "f2py3.8": "/usr/local/bin/f2py3.8", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cell2cell.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/cell2cell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cell2cell:0.8.1--py39h2de1943_1
+$ shpc install quay.io/biocontainers/cell2cell:0.8.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cell2cell/0.8.1--py39h2de1943_1
-$ module help quay.io/biocontainers/cell2cell/0.8.1--py39h2de1943_1
+$ module load quay.io/biocontainers/cell2cell/0.8.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/cell2cell/0.8.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

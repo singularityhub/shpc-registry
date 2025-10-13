@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snp-dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-dists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-dists/container.yaml"
-updated_at: "2025-10-12 03:49:45.764233"
-latest: "0.8.2--h577a1d6_5"
+updated_at: "2025-10-13 03:56:41.754472"
+latest: "0.8.2--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/snp-dists"
 aliases:
  - "snp-dists"
@@ -15,8 +15,9 @@ versions:
  - "0.8.2--he4a0461_3"
  - "0.8.2--he4a0461_4"
  - "0.8.2--h577a1d6_5"
+ - "0.8.2--h577a1d6_6"
 description: "shpc-registry automated BioContainers addition for snp-dists"
-config: {"url": "https://biocontainers.pro/tools/snp-dists", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-dists", "latest": {"0.8.2--h577a1d6_5": "sha256:9c2d2fe01e7590ed5b7325604aedbb27f694a3e7325bd47453dab27245fc3408"}, "tags": {"0.8.2--h7132678_1": "sha256:6b76ed35d97bc655daeb0cd0d164c45124cc1b514a3b93796a97c94c988509e9", "0.8.2--h7132678_2": "sha256:87842feba601f88192a3cb2ba931b71477de8877fcd6c5d885a6ad2ae1c3f55c", "0.8.2--he4a0461_3": "sha256:aacd4f13d614ae6bac0a07c132f49f4c071ccca858400b08f271ae9047a9cc76", "0.8.2--he4a0461_4": "sha256:01916a6fef482413f01b9c08cf223edcbca9a4e3242a3c2c90c5a8fb8facba97", "0.8.2--h577a1d6_5": "sha256:9c2d2fe01e7590ed5b7325604aedbb27f694a3e7325bd47453dab27245fc3408"}, "docker": "quay.io/biocontainers/snp-dists", "aliases": {"snp-dists": "/usr/local/bin/snp-dists"}}
+config: {"url": "https://biocontainers.pro/tools/snp-dists", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snp-dists", "latest": {"0.8.2--h577a1d6_6": "sha256:3d15ba222935d8f38a2478abc3b09a1d654ede22ea2cae7cda41ed451773de3a"}, "tags": {"0.8.2--h7132678_1": "sha256:6b76ed35d97bc655daeb0cd0d164c45124cc1b514a3b93796a97c94c988509e9", "0.8.2--h7132678_2": "sha256:87842feba601f88192a3cb2ba931b71477de8877fcd6c5d885a6ad2ae1c3f55c", "0.8.2--he4a0461_3": "sha256:aacd4f13d614ae6bac0a07c132f49f4c071ccca858400b08f271ae9047a9cc76", "0.8.2--he4a0461_4": "sha256:01916a6fef482413f01b9c08cf223edcbca9a4e3242a3c2c90c5a8fb8facba97", "0.8.2--h577a1d6_5": "sha256:9c2d2fe01e7590ed5b7325604aedbb27f694a3e7325bd47453dab27245fc3408", "0.8.2--h577a1d6_6": "sha256:3d15ba222935d8f38a2478abc3b09a1d654ede22ea2cae7cda41ed451773de3a"}, "docker": "quay.io/biocontainers/snp-dists", "aliases": {"snp-dists": "/usr/local/bin/snp-dists"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snp-dists.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/snp-dists
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snp-dists:0.8.2--h577a1d6_5
+$ shpc install quay.io/biocontainers/snp-dists:0.8.2--h577a1d6_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snp-dists/0.8.2--h577a1d6_5
-$ module help quay.io/biocontainers/snp-dists/0.8.2--h577a1d6_5
+$ module load quay.io/biocontainers/snp-dists/0.8.2--h577a1d6_6
+$ module help quay.io/biocontainers/snp-dists/0.8.2--h577a1d6_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

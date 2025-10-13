@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unifrac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unifrac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unifrac/container.yaml"
-updated_at: "2025-10-12 03:23:34.920957"
-latest: "1.5--py312h0fa9677_0"
+updated_at: "2025-10-13 03:31:02.343495"
+latest: "1.5.1--py39hff726c5_0"
 container_url: "https://biocontainers.pro/tools/unifrac"
 aliases:
  - "bp"
@@ -30,8 +30,9 @@ versions:
  - "1.1.1--py36h40b2fa4_1"
  - "1.3.2--py310h1fe012e_0"
  - "1.5--py312h0fa9677_0"
+ - "1.5.1--py39hff726c5_0"
 description: "shpc-registry automated BioContainers addition for unifrac"
-config: {"url": "https://biocontainers.pro/tools/unifrac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unifrac", "latest": {"1.5--py312h0fa9677_0": "sha256:cb72d6044657d44b713bde6beab95b39a97fba802bf9362acc330314fbebf355"}, "tags": {"1.1.1--py310h79ef01b_1": "sha256:c5df3127503ce3bad527b4d9316fe4b17edaca6fb7533330d7dcb3c730857b48", "1.2--py39hbf8eff0_0": "sha256:6af66523714f57c20fbfab142c76ce0c05f6a1559030190fa91c4c3268cfaa08", "1.3--py38hbff2b2d_0": "sha256:737b60feec4e345a4c43aface359504b77bfddd2bb35a09f3d26e86eae19260e", "1.3--py39hbf8eff0_0": "sha256:0e34a586b10589f1820dc2d08e6f744da72f3ba72861942b9aff01f9a137ab8b", "1.2--py310h1425a21_0": "sha256:f3f3cd7e598b10483dda64d093982932e51a0a68625c7d42e517a2bb8c61d00c", "1.1.1--py36h40b2fa4_1": "sha256:f7a39d9ffa5d0dd36e796fa8cc52b3c1cc08efe03407342ffce80b4102c128ed", "1.3.2--py310h1fe012e_0": "sha256:d0d6137d668a96b7f38eb0bbbe94a95217461e5c785e63bf72d52689e668df4b", "1.5--py312h0fa9677_0": "sha256:cb72d6044657d44b713bde6beab95b39a97fba802bf9362acc330314fbebf355"}, "docker": "quay.io/biocontainers/unifrac", "aliases": {"bp": "/usr/local/bin/bp", "faithpd": "/usr/local/bin/faithpd", "ssu": "/usr/local/bin/ssu", "biom": "/usr/local/bin/biom", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort"}}
+config: {"url": "https://biocontainers.pro/tools/unifrac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unifrac", "latest": {"1.5.1--py39hff726c5_0": "sha256:5209807885d5bc6172a77064be958a401c6de741d52ad72874a9d48322caf437"}, "tags": {"1.1.1--py310h79ef01b_1": "sha256:c5df3127503ce3bad527b4d9316fe4b17edaca6fb7533330d7dcb3c730857b48", "1.2--py39hbf8eff0_0": "sha256:6af66523714f57c20fbfab142c76ce0c05f6a1559030190fa91c4c3268cfaa08", "1.3--py38hbff2b2d_0": "sha256:737b60feec4e345a4c43aface359504b77bfddd2bb35a09f3d26e86eae19260e", "1.3--py39hbf8eff0_0": "sha256:0e34a586b10589f1820dc2d08e6f744da72f3ba72861942b9aff01f9a137ab8b", "1.2--py310h1425a21_0": "sha256:f3f3cd7e598b10483dda64d093982932e51a0a68625c7d42e517a2bb8c61d00c", "1.1.1--py36h40b2fa4_1": "sha256:f7a39d9ffa5d0dd36e796fa8cc52b3c1cc08efe03407342ffce80b4102c128ed", "1.3.2--py310h1fe012e_0": "sha256:d0d6137d668a96b7f38eb0bbbe94a95217461e5c785e63bf72d52689e668df4b", "1.5--py312h0fa9677_0": "sha256:cb72d6044657d44b713bde6beab95b39a97fba802bf9362acc330314fbebf355", "1.5.1--py39hff726c5_0": "sha256:5209807885d5bc6172a77064be958a401c6de741d52ad72874a9d48322caf437"}, "docker": "quay.io/biocontainers/unifrac", "aliases": {"bp": "/usr/local/bin/bp", "faithpd": "/usr/local/bin/faithpd", "ssu": "/usr/local/bin/ssu", "biom": "/usr/local/bin/biom", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unifrac.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/unifrac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unifrac:1.5--py312h0fa9677_0
+$ shpc install quay.io/biocontainers/unifrac:1.5.1--py39hff726c5_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unifrac/1.5--py312h0fa9677_0
-$ module help quay.io/biocontainers/unifrac/1.5--py312h0fa9677_0
+$ module load quay.io/biocontainers/unifrac/1.5.1--py39hff726c5_0
+$ module help quay.io/biocontainers/unifrac/1.5.1--py39hff726c5_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

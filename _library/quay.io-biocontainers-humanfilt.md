@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/humanfilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/humanfilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/humanfilt/container.yaml"
-updated_at: "2025-10-12 03:38:08.656534"
+updated_at: "2025-10-13 03:45:18.815424"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/humanfilt"
 aliases:

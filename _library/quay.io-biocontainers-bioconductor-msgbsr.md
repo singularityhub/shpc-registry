@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msgbsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msgbsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msgbsr/container.yaml"
-updated_at: "2025-10-12 03:43:37.959779"
+updated_at: "2025-10-13 03:50:41.084478"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msgbsr"
 aliases:
