@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/r-scistreer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-scistreer
+latest:
+  1.2.0--r44h40dc89f_0: 
+    sha256:a4c1fe5d3cfcc34c51d7223c29807a8497f3230a1f954fb618439c5b70000fd6
+tags:
+  1.2.0--r44h40dc89f_0: 
+    sha256:a4c1fe5d3cfcc34c51d7223c29807a8497f3230a1f954fb618439c5b70000fd6
+docker: quay.io/biocontainers/r-scistreer
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
