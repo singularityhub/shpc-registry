@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/r-hahmmr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-hahmmr
+latest:
+  1.0.0--r44h40dc89f_0: 
+    sha256:ceba96d219289e002b5fd446300db3af22ed2ec30986d6b823ee3bec9fc54af0
+tags:
+  1.0.0--r44h40dc89f_0: 
+    sha256:ceba96d219289e002b5fd446300db3af22ed2ec30986d6b823ee3bec9fc54af0
+docker: quay.io/biocontainers/r-hahmmr
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
