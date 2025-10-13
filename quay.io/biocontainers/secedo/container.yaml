@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/secedo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for secedo
 latest:
-  1.0.7--h2ac389b_2: 
-    sha256:e3cb12540afbd91887f8f1f7da2d726ae30b003b391d929838f85dcc5947a975
+  1.0.7--ha041835_4: 
+    sha256:11ac3dc988acba5fead4bbb578d695c50f2031263531ce62f54a08b6c35a5f9e
 tags:
   1.0.7--h2ac389b_1: 
     sha256:e0d9ae2b4f01956d5e010976a767722a64bd9c6519cc96f07de10a36d69e21ab
   1.0.7--h2ac389b_2: 
     sha256:e3cb12540afbd91887f8f1f7da2d726ae30b003b391d929838f85dcc5947a975
+  1.0.7--ha041835_4: 
+    sha256:11ac3dc988acba5fead4bbb578d695c50f2031263531ce62f54a08b6c35a5f9e
 docker: quay.io/biocontainers/secedo
 aliases:
   pileup: /usr/local/bin/pileup

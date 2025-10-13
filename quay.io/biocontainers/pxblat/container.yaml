@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pxblat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pxblat
 latest:
-  1.2.1--py310h0dbaff4_0: 
-    sha256:17e45f72bb43cfd1d0a07b8923eea0a069456e5fb2bd5385b42c914461d1440f
+  1.2.1--py39h475c85d_1: 
+    sha256:4a52496d81ed1b6d1d2a6911c84d5c54ce74cf1b289c10ab2b9a1eb486fabc32
 tags:
   0.2.0--py310hfb835a5_0: 
     sha256:b8c5e94848b1931754d6a32e21ff6b7d1b5ac7aa9ef18a31828bc0f492c886e4
@@ -31,6 +31,8 @@ tags:
     sha256:45474e0de2c4670fcea30ad88f771ec34a6b62898148e235a1c1043bd7d3cc15
   1.2.1--py310h0dbaff4_0: 
     sha256:17e45f72bb43cfd1d0a07b8923eea0a069456e5fb2bd5385b42c914461d1440f
+  1.2.1--py39h475c85d_1: 
+    sha256:4a52496d81ed1b6d1d2a6911c84d5c54ce74cf1b289c10ab2b9a1eb486fabc32
 docker: quay.io/biocontainers/pxblat
 aliases:
   pxblat: /usr/local/bin/pxblat

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/seqsero2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqsero2
 latest:
-  1.3.1--pyhdfd78af_1: 
-    sha256:b5eadf6d1ac72833396649d18308192cf4dbb7e09d6a2b9a12ec0f6865d0cd4b
+  1.3.2--pyhdfd78af_0: 
+    sha256:f21a1590fa916deab4418a232c3b1c4e8ade920effda82f8fca88b932fc0e769
 tags:
   1.2.1--py_0: 
     sha256:69e0fda6524256d3208d0a8d0e873667782b634e57f05ac38548271b851538aa
   1.3.1--pyhdfd78af_1: 
     sha256:b5eadf6d1ac72833396649d18308192cf4dbb7e09d6a2b9a12ec0f6865d0cd4b
+  1.3.2--pyhdfd78af_0: 
+    sha256:f21a1590fa916deab4418a232c3b1c4e8ade920effda82f8fca88b932fc0e769
 docker: quay.io/biocontainers/seqsero2
 aliases:
   Initial_Conditions.py: /usr/local/bin/Initial_Conditions.py

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pftools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pftools
 latest:
-  3.2.12--pl5321r44hcf78210_5: 
-    sha256:e811c2b2060e7a3c3c3a15da046f27deebb5279cc8782f4709cf55d5d019fa33
+  3.2.13--pl5321r44hcf78210_0: 
+    sha256:d7e1f4ff4d59a7028884a60173d859bfee96263ff3efa6b2bbf8f27c069857ac
 tags:
   3.2.12--pl5321r41h179b046_0: 
     sha256:4d263b0d27f9750f042138088cd89e8b8f87303426d34e7d47ed0768ab4bee1a
@@ -17,6 +17,8 @@ tags:
     sha256:ef066d69f0cf2dce344a63d9edc94842d377ff4965953ce7d4f1bfcbd1bd78d8
   3.2.12--pl5321r44hcf78210_5: 
     sha256:e811c2b2060e7a3c3c3a15da046f27deebb5279cc8782f4709cf55d5d019fa33
+  3.2.13--pl5321r44hcf78210_0: 
+    sha256:d7e1f4ff4d59a7028884a60173d859bfee96263ff3efa6b2bbf8f27c069857ac
 docker: quay.io/biocontainers/pftools
 aliases:
   2ft: /usr/local/bin/2ft

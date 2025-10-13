@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rainbow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rainbow
 latest:
-  2.0.4--h7b50bb2_10: 
-    sha256:c0ae2b78768d1c222a1235dd8c08bcf942fdd2d692ff6d85d90a1de4a88ff817
+  2.0.4--pl5321h7b50bb2_11: 
+    sha256:3b4fafbbf81ffb8499f64968ef69b591a81b4a59f94bc7d441b70e1771195e1f
 tags:
   2.0.4--hec16e2b_7: 
     sha256:66f491eaf1d8e5ce24a464416e9a66f02906153f34ca07073384ef24b32af1ee
@@ -13,6 +13,8 @@ tags:
     sha256:bff87c7c17b5d87a0b33858c7136b595a45a1477f49e4069a7ce4d9dde28d7c9
   2.0.4--h7b50bb2_10: 
     sha256:c0ae2b78768d1c222a1235dd8c08bcf942fdd2d692ff6d85d90a1de4a88ff817
+  2.0.4--pl5321h7b50bb2_11: 
+    sha256:3b4fafbbf81ffb8499f64968ef69b591a81b4a59f94bc7d441b70e1771195e1f
 docker: quay.io/biocontainers/rainbow
 aliases:
   rainbow: /usr/local/bin/rainbow
