@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fade"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fade/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fade/container.yaml"
-updated_at: "2025-10-13 03:53:34.593320"
+updated_at: "2025-10-14 03:11:23.218873"
 latest: "0.6.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/fade"
 aliases:

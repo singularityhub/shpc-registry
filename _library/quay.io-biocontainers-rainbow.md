@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rainbow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rainbow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rainbow/container.yaml"
-updated_at: "2025-10-13 03:46:27.871677"
-latest: "2.0.4--h7b50bb2_10"
+updated_at: "2025-10-14 03:04:09.729005"
+latest: "2.0.4--pl5321h7b50bb2_11"
 container_url: "https://biocontainers.pro/tools/rainbow"
 aliases:
  - "rainbow"
@@ -24,8 +24,9 @@ versions:
  - "2.0.4--hec16e2b_8"
  - "2.0.4--h031d066_9"
  - "2.0.4--h7b50bb2_10"
+ - "2.0.4--pl5321h7b50bb2_11"
 description: "shpc-registry automated BioContainers addition for rainbow"
-config: {"url": "https://biocontainers.pro/tools/rainbow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rainbow", "latest": {"2.0.4--h7b50bb2_10": "sha256:c0ae2b78768d1c222a1235dd8c08bcf942fdd2d692ff6d85d90a1de4a88ff817"}, "tags": {"2.0.4--hec16e2b_7": "sha256:66f491eaf1d8e5ce24a464416e9a66f02906153f34ca07073384ef24b32af1ee", "2.0.4--hec16e2b_8": "sha256:0bd2804b17910687a7fddd43e23edf4191de4705e3b56fd5a5c4098945da3359", "2.0.4--h031d066_9": "sha256:bff87c7c17b5d87a0b33858c7136b595a45a1477f49e4069a7ce4d9dde28d7c9", "2.0.4--h7b50bb2_10": "sha256:c0ae2b78768d1c222a1235dd8c08bcf942fdd2d692ff6d85d90a1de4a88ff817"}, "docker": "quay.io/biocontainers/rainbow", "aliases": {"rainbow": "/usr/local/bin/rainbow", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/rainbow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rainbow", "latest": {"2.0.4--pl5321h7b50bb2_11": "sha256:3b4fafbbf81ffb8499f64968ef69b591a81b4a59f94bc7d441b70e1771195e1f"}, "tags": {"2.0.4--hec16e2b_7": "sha256:66f491eaf1d8e5ce24a464416e9a66f02906153f34ca07073384ef24b32af1ee", "2.0.4--hec16e2b_8": "sha256:0bd2804b17910687a7fddd43e23edf4191de4705e3b56fd5a5c4098945da3359", "2.0.4--h031d066_9": "sha256:bff87c7c17b5d87a0b33858c7136b595a45a1477f49e4069a7ce4d9dde28d7c9", "2.0.4--h7b50bb2_10": "sha256:c0ae2b78768d1c222a1235dd8c08bcf942fdd2d692ff6d85d90a1de4a88ff817", "2.0.4--pl5321h7b50bb2_11": "sha256:3b4fafbbf81ffb8499f64968ef69b591a81b4a59f94bc7d441b70e1771195e1f"}, "docker": "quay.io/biocontainers/rainbow", "aliases": {"rainbow": "/usr/local/bin/rainbow", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rainbow.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/rainbow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rainbow:2.0.4--h7b50bb2_10
+$ shpc install quay.io/biocontainers/rainbow:2.0.4--pl5321h7b50bb2_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rainbow/2.0.4--h7b50bb2_10
-$ module help quay.io/biocontainers/rainbow/2.0.4--h7b50bb2_10
+$ module load quay.io/biocontainers/rainbow/2.0.4--pl5321h7b50bb2_11
+$ module help quay.io/biocontainers/rainbow/2.0.4--pl5321h7b50bb2_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

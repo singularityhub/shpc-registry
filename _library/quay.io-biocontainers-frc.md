@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/frc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/frc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/frc/container.yaml"
-updated_at: "2025-10-13 04:09:09.254084"
+updated_at: "2025-10-14 03:27:10.559137"
 latest: "5b3f53e--boost1.64_0"
 container_url: "https://biocontainers.pro/tools/frc"
 aliases:

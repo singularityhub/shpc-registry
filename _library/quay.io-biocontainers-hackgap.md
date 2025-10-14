@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hackgap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hackgap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hackgap/container.yaml"
-updated_at: "2025-10-13 04:01:46.110805"
+updated_at: "2025-10-14 03:19:39.151073"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hackgap"
 aliases:

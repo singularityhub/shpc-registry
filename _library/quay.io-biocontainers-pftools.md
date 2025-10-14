@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pftools/container.yaml"
-updated_at: "2025-10-13 03:51:04.734626"
-latest: "3.2.12--pl5321r44hcf78210_5"
+updated_at: "2025-10-14 03:08:50.131902"
+latest: "3.2.13--pl5321r44hcf78210_0"
 container_url: "https://biocontainers.pro/tools/pftools"
 aliases:
  - "2ft"
@@ -43,8 +43,9 @@ versions:
  - "3.2.12--pl5321r42hf1de6ca_3"
  - "3.2.12--pl5321r43h630ed24_4"
  - "3.2.12--pl5321r44hcf78210_5"
+ - "3.2.13--pl5321r44hcf78210_0"
 description: "shpc-registry automated BioContainers addition for pftools"
-config: {"url": "https://biocontainers.pro/tools/pftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pftools", "latest": {"3.2.12--pl5321r44hcf78210_5": "sha256:e811c2b2060e7a3c3c3a15da046f27deebb5279cc8782f4709cf55d5d019fa33"}, "tags": {"3.2.12--pl5321r41h179b046_0": "sha256:4d263b0d27f9750f042138088cd89e8b8f87303426d34e7d47ed0768ab4bee1a", "3.2.12--pl5321r42h179b046_1": "sha256:e6f943a56edbda2cc4f355ae069feb40f189a47e60b72f61aed6aadc65f9357f", "3.2.12--pl5321r42h179b046_2": "sha256:c25d3f623d3556f23786d302e1bd675252a2cee1aa99da7853d282a4ba0a772c", "3.2.12--pl5321r42hf1de6ca_3": "sha256:17856e786ff611336c90e767020e4ccfd8b351253928357838b5708218407803", "3.2.12--pl5321r43h630ed24_4": "sha256:ef066d69f0cf2dce344a63d9edc94842d377ff4965953ce7d4f1bfcbd1bd78d8", "3.2.12--pl5321r44hcf78210_5": "sha256:e811c2b2060e7a3c3c3a15da046f27deebb5279cc8782f4709cf55d5d019fa33"}, "docker": "quay.io/biocontainers/pftools", "aliases": {"2ft": "/usr/local/bin/2ft", "6ft": "/usr/local/bin/6ft", "compare_2_profiles.pl": "/usr/local/bin/compare_2_profiles.pl", "fasta_to_fastq.pl": "/usr/local/bin/fasta_to_fastq.pl", "gtop": "/usr/local/bin/gtop", "htop": "/usr/local/bin/htop", "make_iupac_cmp.pl": "/usr/local/bin/make_iupac_cmp.pl", "pfcalibrateV3": "/usr/local/bin/pfcalibrateV3", "pfdump": "/usr/local/bin/pfdump", "pfemit": "/usr/local/bin/pfemit", "pfindex": "/usr/local/bin/pfindex", "pfmake": "/usr/local/bin/pfmake", "pfpam": "/usr/local/bin/pfpam", "pfscale": "/usr/local/bin/pfscale", "pfscan": "/usr/local/bin/pfscan", "pfscanV3": "/usr/local/bin/pfscanV3", "pfsearch": "/usr/local/bin/pfsearch", "pfsearchV3": "/usr/local/bin/pfsearchV3", "pfw": "/usr/local/bin/pfw", "ps_scan.pl": "/usr/local/bin/ps_scan.pl", "psa2msa": "/usr/local/bin/psa2msa", "ptof": "/usr/local/bin/ptof", "ptoh": "/usr/local/bin/ptoh", "scramble_fasta.pl": "/usr/local/bin/scramble_fasta.pl", "sort_fasta.pl": "/usr/local/bin/sort_fasta.pl", "split_profile_file.pl": "/usr/local/bin/split_profile_file.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/pftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pftools", "latest": {"3.2.13--pl5321r44hcf78210_0": "sha256:d7e1f4ff4d59a7028884a60173d859bfee96263ff3efa6b2bbf8f27c069857ac"}, "tags": {"3.2.12--pl5321r41h179b046_0": "sha256:4d263b0d27f9750f042138088cd89e8b8f87303426d34e7d47ed0768ab4bee1a", "3.2.12--pl5321r42h179b046_1": "sha256:e6f943a56edbda2cc4f355ae069feb40f189a47e60b72f61aed6aadc65f9357f", "3.2.12--pl5321r42h179b046_2": "sha256:c25d3f623d3556f23786d302e1bd675252a2cee1aa99da7853d282a4ba0a772c", "3.2.12--pl5321r42hf1de6ca_3": "sha256:17856e786ff611336c90e767020e4ccfd8b351253928357838b5708218407803", "3.2.12--pl5321r43h630ed24_4": "sha256:ef066d69f0cf2dce344a63d9edc94842d377ff4965953ce7d4f1bfcbd1bd78d8", "3.2.12--pl5321r44hcf78210_5": "sha256:e811c2b2060e7a3c3c3a15da046f27deebb5279cc8782f4709cf55d5d019fa33", "3.2.13--pl5321r44hcf78210_0": "sha256:d7e1f4ff4d59a7028884a60173d859bfee96263ff3efa6b2bbf8f27c069857ac"}, "docker": "quay.io/biocontainers/pftools", "aliases": {"2ft": "/usr/local/bin/2ft", "6ft": "/usr/local/bin/6ft", "compare_2_profiles.pl": "/usr/local/bin/compare_2_profiles.pl", "fasta_to_fastq.pl": "/usr/local/bin/fasta_to_fastq.pl", "gtop": "/usr/local/bin/gtop", "htop": "/usr/local/bin/htop", "make_iupac_cmp.pl": "/usr/local/bin/make_iupac_cmp.pl", "pfcalibrateV3": "/usr/local/bin/pfcalibrateV3", "pfdump": "/usr/local/bin/pfdump", "pfemit": "/usr/local/bin/pfemit", "pfindex": "/usr/local/bin/pfindex", "pfmake": "/usr/local/bin/pfmake", "pfpam": "/usr/local/bin/pfpam", "pfscale": "/usr/local/bin/pfscale", "pfscan": "/usr/local/bin/pfscan", "pfscanV3": "/usr/local/bin/pfscanV3", "pfsearch": "/usr/local/bin/pfsearch", "pfsearchV3": "/usr/local/bin/pfsearchV3", "pfw": "/usr/local/bin/pfw", "ps_scan.pl": "/usr/local/bin/ps_scan.pl", "psa2msa": "/usr/local/bin/psa2msa", "ptof": "/usr/local/bin/ptof", "ptoh": "/usr/local/bin/ptoh", "scramble_fasta.pl": "/usr/local/bin/scramble_fasta.pl", "sort_fasta.pl": "/usr/local/bin/sort_fasta.pl", "split_profile_file.pl": "/usr/local/bin/split_profile_file.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pftools.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/pftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pftools:3.2.12--pl5321r44hcf78210_5
+$ shpc install quay.io/biocontainers/pftools:3.2.13--pl5321r44hcf78210_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pftools/3.2.12--pl5321r44hcf78210_5
-$ module help quay.io/biocontainers/pftools/3.2.12--pl5321r44hcf78210_5
+$ module load quay.io/biocontainers/pftools/3.2.13--pl5321r44hcf78210_0
+$ module help quay.io/biocontainers/pftools/3.2.13--pl5321r44hcf78210_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-drc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-drc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-drc/container.yaml"
-updated_at: "2025-10-13 04:28:51.301054"
+updated_at: "2025-10-14 03:47:12.681678"
 latest: "3.0_1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-drc"
 aliases:

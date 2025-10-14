@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simulatorz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simulatorz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simulatorz/container.yaml"
-updated_at: "2025-10-13 04:05:24.438600"
+updated_at: "2025-10-14 03:23:21.066779"
 latest: "1.24.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-simulatorz"
 aliases:

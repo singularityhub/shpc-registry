@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plyranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plyranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plyranges/container.yaml"
-updated_at: "2025-10-13 04:10:41.191322"
+updated_at: "2025-10-14 03:28:45.917723"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plyranges"
 aliases:

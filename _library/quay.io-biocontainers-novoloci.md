@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/novoloci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novoloci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novoloci/container.yaml"
-updated_at: "2025-10-13 04:16:32.932865"
-latest: "0.3--hdfd78af_0"
+updated_at: "2025-10-14 03:34:47.950735"
+latest: "0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/novoloci"
 aliases:
  - "archive-nlmnlp"
@@ -55,8 +55,9 @@ aliases:
  - "gm2segs"
 versions:
  - "0.3--hdfd78af_0"
+ - "0.4--hdfd78af_0"
 description: "singularity registry hpc automated addition for novoloci"
-config: {"url": "https://biocontainers.pro/tools/novoloci", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for novoloci", "latest": {"0.3--hdfd78af_0": "sha256:3a698910b0403059979225f4115a15994b41291dfbe34bc8af28aa8a9f69bbc9"}, "tags": {"0.3--hdfd78af_0": "sha256:3a698910b0403059979225f4115a15994b41291dfbe34bc8af28aa8a9f69bbc9"}, "docker": "quay.io/biocontainers/novoloci", "aliases": {"archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "novoloci": "/usr/local/bin/novoloci", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gawkbug": "/usr/local/bin/gawkbug", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges", "gm2segs": "/usr/local/bin/gm2segs"}}
+config: {"url": "https://biocontainers.pro/tools/novoloci", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for novoloci", "latest": {"0.4--hdfd78af_0": "sha256:c145576f5db7ee88a12ee0f458926758c0f7cb6d88a2051dcfbdc87a6af1fa47"}, "tags": {"0.3--hdfd78af_0": "sha256:3a698910b0403059979225f4115a15994b41291dfbe34bc8af28aa8a9f69bbc9", "0.4--hdfd78af_0": "sha256:c145576f5db7ee88a12ee0f458926758c0f7cb6d88a2051dcfbdc87a6af1fa47"}, "docker": "quay.io/biocontainers/novoloci", "aliases": {"archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "novoloci": "/usr/local/bin/novoloci", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gawkbug": "/usr/local/bin/gawkbug", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges", "gm2segs": "/usr/local/bin/gm2segs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/novoloci.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/novoloci
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/novoloci:0.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/novoloci:0.4--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/novoloci/0.3--hdfd78af_0
-$ module help quay.io/biocontainers/novoloci/0.3--hdfd78af_0
+$ module load quay.io/biocontainers/novoloci/0.4--hdfd78af_0
+$ module help quay.io/biocontainers/novoloci/0.4--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
