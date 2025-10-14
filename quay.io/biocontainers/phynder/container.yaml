@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/phynder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phynder
 latest:
-  1.0--h566b1c6_4: 
-    sha256:874592a924e89a7ac96d853e631e1824d07d41d7c216529de8645b3b01e2bb28
+  1.0--h566b1c6_5: 
+    sha256:578ae8d3d601506fbb7d4ae387727ded3db1b31c955261e5e24829f141acb613
 tags:
   1.0--h81da01d_0: 
     sha256:7a6262a21b793ad11c3012a6139b7bf978e2331fff4b7a6a7ee40abb7740533e
   1.0--h566b1c6_4: 
     sha256:874592a924e89a7ac96d853e631e1824d07d41d7c216529de8645b3b01e2bb28
+  1.0--h566b1c6_5: 
+    sha256:578ae8d3d601506fbb7d4ae387727ded3db1b31c955261e5e24829f141acb613
 docker: quay.io/biocontainers/phynder
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv

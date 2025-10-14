@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/eternafold
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eternafold
 latest:
-  1.3.1--h9948957_1: 
-    sha256:4d1b954a5819d35352b74d2465d3af1e1d803253cdeda291e98bd1b8b027c3f6
+  1.3.1--h9948957_2: 
+    sha256:9e9b65e2bc3cf45a666d3fc8e4f35f9f33613f953727603ce0b85589a44d5a19
 tags:
   1.3.1--h4ac6f70_0: 
     sha256:06d7af0fc874d33e3a927696edbe080678afb09f944dbd152ecd34fd4cec84e4
   1.3.1--h9948957_1: 
     sha256:4d1b954a5819d35352b74d2465d3af1e1d803253cdeda291e98bd1b8b027c3f6
+  1.3.1--h9948957_2: 
+    sha256:9e9b65e2bc3cf45a666d3fc8e4f35f9f33613f953727603ce0b85589a44d5a19
 docker: quay.io/biocontainers/eternafold
 aliases:
   eternafold: /usr/local/bin/eternafold

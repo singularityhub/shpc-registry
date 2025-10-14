@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/atol-qc-raw-ont
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for atol-qc-raw-ont
 latest:
-  0.1.5--pyhdfd78af_0: 
-    sha256:7f1d1e34758c2a1d48eddcca1e13c088b22bce74e65a6a3288c301e61e470a34
+  0.1.11--pyhdfd78af_0: 
+    sha256:62065d789a595d41d61ea338cc1a9405156195f26531226126ab8eb5a7ca1f4d
 tags:
   0.1.5--pyhdfd78af_0: 
     sha256:7f1d1e34758c2a1d48eddcca1e13c088b22bce74e65a6a3288c301e61e470a34
+  0.1.11--pyhdfd78af_0: 
+    sha256:62065d789a595d41d61ea338cc1a9405156195f26531226126ab8eb5a7ca1f4d
 docker: quay.io/biocontainers/atol-qc-raw-ont
 aliases:
   atol-qc-raw-ont: /usr/local/bin/atol-qc-raw-ont
