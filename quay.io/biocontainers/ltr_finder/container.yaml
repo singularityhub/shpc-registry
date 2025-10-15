@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ltr_finder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ltr_finder
 latest:
-  1.07--h9948957_4: 
-    sha256:5511a84df07ed32a9196ee861e8f5b3a1de321eb31515de0759dc0af6920dc4f
+  1.07--h9948957_5: 
+    sha256:73ddadae3f447bd8486fa78ba1116b64c044029c3cd80f3cadb85c1de3a887e7
 tags:
   1.07--h9f5acd7_2: 
     sha256:04062fd669ff8c2f6dc9dbaffecdb6dec5ce9e555c929ecc1c6c2f81cc69d309
@@ -11,6 +11,8 @@ tags:
     sha256:81ad6d01a96bddd5467dbab72d5d7592b6a90c24ca99b45c3e1219c0015e5db7
   1.07--h9948957_4: 
     sha256:5511a84df07ed32a9196ee861e8f5b3a1de321eb31515de0759dc0af6920dc4f
+  1.07--h9948957_5: 
+    sha256:73ddadae3f447bd8486fa78ba1116b64c044029c3cd80f3cadb85c1de3a887e7
 docker: quay.io/biocontainers/ltr_finder
 aliases:
   check_result.pl: /usr/local/bin/check_result.pl

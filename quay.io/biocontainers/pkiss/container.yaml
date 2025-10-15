@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pkiss
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pkiss
 latest:
-  2.3.0--pl5321h9948957_3: 
-    sha256:6704acdb447aeb8e931f1a2b1d69482b82f425c7a3fd676f033199d673daf861
+  2.3.0--pl5321h9948957_4: 
+    sha256:dc8b5591b38a79288b744b697ee7e55da51f694222c16ed1b39988b0e5c55c8f
 tags:
   2.2.14--pl5321h9f5acd7_2: 
     sha256:cde4ebedc5036c8826220b8dd19453b6579c5121e21dad7852e85f5d60c19b5d
@@ -13,6 +13,8 @@ tags:
     sha256:1e164ea3c0f1bf256f265a494c29c45974df5ed7d45cf319e794de06123fc6d9
   2.3.0--pl5321h9948957_3: 
     sha256:6704acdb447aeb8e931f1a2b1d69482b82f425c7a3fd676f033199d673daf861
+  2.3.0--pl5321h9948957_4: 
+    sha256:dc8b5591b38a79288b744b697ee7e55da51f694222c16ed1b39988b0e5c55c8f
 docker: quay.io/biocontainers/pkiss
 aliases:
   addRNAoptions.pl: /usr/local/bin/addRNAoptions.pl

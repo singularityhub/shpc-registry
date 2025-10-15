@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/unimap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for unimap
 latest:
-  0.1--h577a1d6_6: 
-    sha256:1ce857dfb3385d6f3fa67b3d4b00a5513872b5d655eb7a991fbd264053214201
+  0.1--h577a1d6_7: 
+    sha256:93c8070b70b8a0d2df1595306bdfe1182bbecb7f0af25572aa72ac6fc6d76987
 tags:
   0.1--h7132678_2: 
     sha256:d38a8e17efd24ce27b17113fc1dd206039ae3d25d74290ce37c95c09d7848bbf
@@ -15,6 +15,8 @@ tags:
     sha256:95f846f5f473390f0432743037acc98d73092a3445e881d9ccdc9c2ae2294674
   0.1--h577a1d6_6: 
     sha256:1ce857dfb3385d6f3fa67b3d4b00a5513872b5d655eb7a991fbd264053214201
+  0.1--h577a1d6_7: 
+    sha256:93c8070b70b8a0d2df1595306bdfe1182bbecb7f0af25572aa72ac6fc6d76987
 docker: quay.io/biocontainers/unimap
 aliases:
   unimap: /usr/local/bin/unimap

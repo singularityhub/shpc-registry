@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/plasmar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plasmar
 latest:
-  1.4--hdfd78af_0: 
-    sha256:12e8e28183cb5fd5d46a9bdc46cde4735eb2561cf42a6ece8baf3626494e7dce
+  1.5--hdfd78af_0: 
+    sha256:d2aebdb8f4c1b89408e07a70f4bd08a68c75f255926dfd9ae0dd5ca51c068e27
 tags:
   1.4--hdfd78af_0: 
     sha256:12e8e28183cb5fd5d46a9bdc46cde4735eb2561cf42a6ece8baf3626494e7dce
+  1.5--hdfd78af_0: 
+    sha256:d2aebdb8f4c1b89408e07a70f4bd08a68c75f255926dfd9ae0dd5ca51c068e27
 docker: quay.io/biocontainers/plasmar
 aliases:
   AR_PR_GAMMA_Parallel.py: /usr/local/bin/AR_PR_GAMMA_Parallel.py

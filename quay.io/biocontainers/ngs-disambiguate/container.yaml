@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ngs-disambiguate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ngs-disambiguate
 latest:
-  2018.05.03--h077b44d_11: 
-    sha256:69172c74f98796b254fc1956deaf077515587f465da89ba16b48671e2c3686e8
+  2018.05.03--h2bd4fab_12: 
+    sha256:15494e60e82c14aa929daaf2720bbb0702eafb617829f9e5032d7f7987a0c898
 tags:
   2018.05.03--ha7703dc_6: 
     sha256:8695e9f3bb10a56736234c0ec3c83da6249575cdbdbbe1160857c212c27ab657
@@ -17,6 +17,8 @@ tags:
     sha256:5425afcf3582f3b44c390196c97ae93ecb711a29eef7149f633983d7c0fce005
   2018.05.03--h077b44d_11: 
     sha256:69172c74f98796b254fc1956deaf077515587f465da89ba16b48671e2c3686e8
+  2018.05.03--h2bd4fab_12: 
+    sha256:15494e60e82c14aa929daaf2720bbb0702eafb617829f9e5032d7f7987a0c898
 docker: quay.io/biocontainers/ngs-disambiguate
 aliases:
   ngs_disambiguate: /usr/local/bin/ngs_disambiguate

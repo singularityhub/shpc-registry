@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pyvolve
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyvolve
 latest:
-  0.9.0--py_0: 
-    sha256:564c68138b2649c422a5ba8bccbfcc8265bd243d0370d3eafcd864036dba95da
+  1.1.0--pyhdfd78af_0: 
+    sha256:2db45e24bcf2da7cc9bc8302009c339a8bf1c658cd822e3cc50b43f7ca102465
 tags:
   0.9.0--py_0: 
     sha256:564c68138b2649c422a5ba8bccbfcc8265bd243d0370d3eafcd864036dba95da
+  1.1.0--pyhdfd78af_0: 
+    sha256:2db45e24bcf2da7cc9bc8302009c339a8bf1c658cd822e3cc50b43f7ca102465
 docker: quay.io/biocontainers/pyvolve
 aliases:
   conv-template: /usr/local/bin/conv-template

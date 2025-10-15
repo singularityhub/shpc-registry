@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/albatradis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for albatradis
 latest:
-  1.0.4--py310h4b81fae_4: 
-    sha256:2c5969bd316710f7c2fea2ca37605459f3a4dd4a1e5173e8551fb9a29263acde
+  1.1.2--py39hbcbf7aa_0: 
+    sha256:88718b6e83cfffc67405192de888592d727726617f48749839e3a24b0ec10f30
 tags:
   1.0.4--py36h91eb985_3: 
     sha256:dbfb4e5ef61956a66895e4229b2807f553d2fd44a8307193f9fac46582248a76
@@ -11,6 +11,8 @@ tags:
     sha256:2c5969bd316710f7c2fea2ca37605459f3a4dd4a1e5173e8551fb9a29263acde
   1.0.4--py39hf95cd2a_4: 
     sha256:79bcb5eb3d4233545118cdeae23bf3a5604e697720cfb39738027780dc91875c
+  1.1.2--py39hbcbf7aa_0: 
+    sha256:88718b6e83cfffc67405192de888592d727726617f48749839e3a24b0ec10f30
 docker: quay.io/biocontainers/albatradis
 aliases:
   add_tradis_tags: /usr/local/bin/add_tradis_tags
