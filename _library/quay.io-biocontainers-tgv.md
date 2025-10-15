@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tgv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tgv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tgv/container.yaml"
-updated_at: "2025-10-14 03:36:18.873740"
+updated_at: "2025-10-15 03:40:12.047152"
 latest: "0.1.0--h521fa98_0"
 container_url: "https://biocontainers.pro/tools/tgv"
 aliases:

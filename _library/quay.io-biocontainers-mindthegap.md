@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mindthegap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mindthegap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mindthegap/container.yaml"
-updated_at: "2025-10-14 03:09:04.985862"
-latest: "2.3.0--h077b44d_4"
+updated_at: "2025-10-15 03:13:10.347286"
+latest: "2.3.0--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/mindthegap"
 aliases:
  - "MindTheGap"
@@ -16,8 +16,9 @@ versions:
  - "2.3.0--hd03093a_2"
  - "2.3.0--hdcf5f25_3"
  - "2.3.0--h077b44d_4"
+ - "2.3.0--h5ca1c30_6"
 description: "shpc-registry automated BioContainers addition for mindthegap"
-config: {"url": "https://biocontainers.pro/tools/mindthegap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mindthegap", "latest": {"2.3.0--h077b44d_4": "sha256:e7af303acac67bc72fb9112e07fafa59e44071ad49c33b27a81e1eeb8447a937"}, "tags": {"2.3.0--hd03093a_1": "sha256:9a4c61eb00c2b9b64235adb72e93acb22483e447c80ca3b5f340cbf488af5179", "2.3.0--hd03093a_2": "sha256:825aa6d341f3e8153c63c6a9a9b2f15850cf8b1d258ab0fbbacd4fa6e8f3b6d4", "2.3.0--hdcf5f25_3": "sha256:571eabf983ba9288549f87401b12275b056849fae941831f8a4da18023b7fbf0", "2.3.0--h077b44d_4": "sha256:e7af303acac67bc72fb9112e07fafa59e44071ad49c33b27a81e1eeb8447a937"}, "docker": "quay.io/biocontainers/mindthegap", "aliases": {"MindTheGap": "/usr/local/bin/MindTheGap", "dbgh5": "/usr/local/bin/dbgh5", "dbginfo": "/usr/local/bin/dbginfo"}}
+config: {"url": "https://biocontainers.pro/tools/mindthegap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mindthegap", "latest": {"2.3.0--h5ca1c30_6": "sha256:48f38a27c741fce52f66c22992b56c61e55a1954be2d6bde0af49a50dc10264d"}, "tags": {"2.3.0--hd03093a_1": "sha256:9a4c61eb00c2b9b64235adb72e93acb22483e447c80ca3b5f340cbf488af5179", "2.3.0--hd03093a_2": "sha256:825aa6d341f3e8153c63c6a9a9b2f15850cf8b1d258ab0fbbacd4fa6e8f3b6d4", "2.3.0--hdcf5f25_3": "sha256:571eabf983ba9288549f87401b12275b056849fae941831f8a4da18023b7fbf0", "2.3.0--h077b44d_4": "sha256:e7af303acac67bc72fb9112e07fafa59e44071ad49c33b27a81e1eeb8447a937", "2.3.0--h5ca1c30_6": "sha256:48f38a27c741fce52f66c22992b56c61e55a1954be2d6bde0af49a50dc10264d"}, "docker": "quay.io/biocontainers/mindthegap", "aliases": {"MindTheGap": "/usr/local/bin/MindTheGap", "dbgh5": "/usr/local/bin/dbgh5", "dbginfo": "/usr/local/bin/dbginfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mindthegap.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/mindthegap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mindthegap:2.3.0--h077b44d_4
+$ shpc install quay.io/biocontainers/mindthegap:2.3.0--h5ca1c30_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mindthegap/2.3.0--h077b44d_4
-$ module help quay.io/biocontainers/mindthegap/2.3.0--h077b44d_4
+$ module load quay.io/biocontainers/mindthegap/2.3.0--h5ca1c30_6
+$ module help quay.io/biocontainers/mindthegap/2.3.0--h5ca1c30_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

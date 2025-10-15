@@ -4,8 +4,8 @@ name:  "quay.io/jupyter/datascience-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/datascience-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/datascience-notebook/container.yaml"
-updated_at: "2025-10-14 03:03:34.600769"
-latest: "2025-09-08"
+updated_at: "2025-10-15 03:07:40.472790"
+latest: "2025-10-13"
 container_url: "https://quay.io/repository/jupyter/datascience-notebook"
 aliases:
  - "run-notebook"
@@ -20,8 +20,9 @@ versions:
  - "2025-09-08"
  - "2025-07-07"
  - "2025-06-30"
+ - "2025-10-13"
 description: "Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/datascience-notebook", "url": "https://quay.io/repository/jupyter/datascience-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-09-08": "sha256:7be8838ae1f0417dc78c1587c09ca6b3675d124990bebe2efb8ce7b6b3c704c3"}, "tags": {"latest": "sha256:7be8838ae1f0417dc78c1587c09ca6b3675d124990bebe2efb8ce7b6b3c704c3", "2025-05-26": "sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8", "2025-06-02": "sha256:2014f3b923d90d48dc45a9df5935efa97258ed557159a994921f4651d571b101", "2025-07-14": "sha256:20be99bdec2d0ae0c17845e1805a152e3d6629a38aee5a6bf1348bfcf2c12231", "2025-08-12": "sha256:3d88c2f752484071888d148dafedabfa2b13236243b82432b250de564d331d5f", "2025-07-28": "sha256:4b93f99fc05b7a4d2318bc1a25ca36083132bb9dfdf280c2e7edd7f6a3075a11", "2025-05-30": "sha256:c3157a080fab9ad7718a904a751cd5cbfa1190365f13f15f80f349b7f7dee4a1", "2025-09-08": "sha256:7be8838ae1f0417dc78c1587c09ca6b3675d124990bebe2efb8ce7b6b3c704c3", "2025-07-07": "sha256:0cc31bc531fc6a4500f31584d649c975530bde5febd3ec805eb85aea653527b3", "2025-06-30": "sha256:32dd384a6d6e31c12933cd19199ba630ec4abf8bff8b9d25c8cbd31bd1e3ea07"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/datascience-notebook", "url": "https://quay.io/repository/jupyter/datascience-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Datascience Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-10-13": "sha256:7810e9688cf04f0fd23bb4f670cfbcc82f6116ed72fadd4941438a4a5454b21c"}, "tags": {"latest": "sha256:7810e9688cf04f0fd23bb4f670cfbcc82f6116ed72fadd4941438a4a5454b21c", "2025-05-26": "sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8", "2025-06-02": "sha256:2014f3b923d90d48dc45a9df5935efa97258ed557159a994921f4651d571b101", "2025-07-14": "sha256:20be99bdec2d0ae0c17845e1805a152e3d6629a38aee5a6bf1348bfcf2c12231", "2025-08-12": "sha256:3d88c2f752484071888d148dafedabfa2b13236243b82432b250de564d331d5f", "2025-07-28": "sha256:4b93f99fc05b7a4d2318bc1a25ca36083132bb9dfdf280c2e7edd7f6a3075a11", "2025-05-30": "sha256:c3157a080fab9ad7718a904a751cd5cbfa1190365f13f15f80f349b7f7dee4a1", "2025-09-08": "sha256:7be8838ae1f0417dc78c1587c09ca6b3675d124990bebe2efb8ce7b6b3c704c3", "2025-07-07": "sha256:0cc31bc531fc6a4500f31584d649c975530bde5febd3ec805eb85aea653527b3", "2025-06-30": "sha256:32dd384a6d6e31c12933cd19199ba630ec4abf8bff8b9d25c8cbd31bd1e3ea07", "2025-10-13": "sha256:7810e9688cf04f0fd23bb4f670cfbcc82f6116ed72fadd4941438a4a5454b21c"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/datascience-notebook.
@@ -36,7 +37,7 @@ $ shpc install quay.io/jupyter/datascience-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/datascience-notebook:2025-09-08
+$ shpc install quay.io/jupyter/datascience-notebook:2025-10-13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/datascience-notebook/2025-09-08
-$ module help quay.io/jupyter/datascience-notebook/2025-09-08
+$ module load quay.io/jupyter/datascience-notebook/2025-10-13
+$ module help quay.io/jupyter/datascience-notebook/2025-10-13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

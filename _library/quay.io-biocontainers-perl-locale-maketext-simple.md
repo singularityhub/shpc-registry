@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-locale-maketext-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-locale-maketext-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-locale-maketext-simple/container.yaml"
-updated_at: "2025-10-14 03:05:46.472996"
+updated_at: "2025-10-15 03:09:53.220688"
 latest: "0.21--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-locale-maketext-simple"
 aliases:
