@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/piper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piper/container.yaml"
-updated_at: "2025-10-15 03:56:05.204363"
-latest: "0.14.4--pyhdfd78af_0"
+updated_at: "2025-10-16 04:04:01.984573"
+latest: "0.14.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/piper"
 aliases:
  - "py.test"
@@ -25,8 +25,9 @@ versions:
  - "0.14.2--pyhdfd78af_0"
  - "0.14.3--pyhdfd78af_0"
  - "0.14.4--pyhdfd78af_0"
+ - "0.14.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for piper"
-config: {"url": "https://biocontainers.pro/tools/piper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piper", "latest": {"0.14.4--pyhdfd78af_0": "sha256:9a43be71174cfb6cd58d63deb478259ff8cf6cdc81f0da625fc6257f2909ade7"}, "tags": {"0.12.3--pyhdfd78af_0": "sha256:8aa82fbb1ae15e6a3ee039c96a2142988931c2400b6a9e71c140c6fcb0b87a78", "0.13.2--pyhdfd78af_0": "sha256:95818896ba3770dbfd176371e3d8b36f5c7a79a96bd049508082a5f1a2fb8076", "0.14.0--pyhdfd78af_0": "sha256:019d2b4a417632844adeeac81c55b4edd897002e6e986ea9304a5d0528cfcf6f", "0.14.2--pyhdfd78af_0": "sha256:1faab00ce59ffe33352e7f553e217b51013fd94cecba7a8e08043dca8d004af7", "0.14.3--pyhdfd78af_0": "sha256:13f09052c47d190cbacd7d1763215a5510e440c6169adb65f1f395ce9d63e873", "0.14.4--pyhdfd78af_0": "sha256:9a43be71174cfb6cd58d63deb478259ff8cf6cdc81f0da625fc6257f2909ade7"}, "docker": "quay.io/biocontainers/piper", "aliases": {"py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/piper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piper", "latest": {"0.14.5--pyhdfd78af_0": "sha256:07b898c607a13b60751d409a0434e7e531807909fdd8d39708f9df1d76a0c236"}, "tags": {"0.12.3--pyhdfd78af_0": "sha256:8aa82fbb1ae15e6a3ee039c96a2142988931c2400b6a9e71c140c6fcb0b87a78", "0.13.2--pyhdfd78af_0": "sha256:95818896ba3770dbfd176371e3d8b36f5c7a79a96bd049508082a5f1a2fb8076", "0.14.0--pyhdfd78af_0": "sha256:019d2b4a417632844adeeac81c55b4edd897002e6e986ea9304a5d0528cfcf6f", "0.14.2--pyhdfd78af_0": "sha256:1faab00ce59ffe33352e7f553e217b51013fd94cecba7a8e08043dca8d004af7", "0.14.3--pyhdfd78af_0": "sha256:13f09052c47d190cbacd7d1763215a5510e440c6169adb65f1f395ce9d63e873", "0.14.4--pyhdfd78af_0": "sha256:9a43be71174cfb6cd58d63deb478259ff8cf6cdc81f0da625fc6257f2909ade7", "0.14.5--pyhdfd78af_0": "sha256:07b898c607a13b60751d409a0434e7e531807909fdd8d39708f9df1d76a0c236"}, "docker": "quay.io/biocontainers/piper", "aliases": {"py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piper.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/piper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/piper:0.14.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/piper:0.14.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/piper/0.14.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/piper/0.14.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/piper/0.14.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/piper/0.14.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/barriers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barriers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barriers/container.yaml"
-updated_at: "2025-10-15 03:10:54.034381"
-latest: "1.8.1--h1b792b2_1"
+updated_at: "2025-10-16 03:10:12.192375"
+latest: "1.8.1--pl5321h503566f_4"
 container_url: "https://biocontainers.pro/tools/barriers"
 aliases:
  - "barriers"
@@ -28,8 +28,9 @@ aliases:
  - "RNA2Dfold"
 versions:
  - "1.8.1--h1b792b2_1"
+ - "1.8.1--pl5321h503566f_4"
 description: "shpc-registry automated BioContainers addition for barriers"
-config: {"url": "https://biocontainers.pro/tools/barriers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for barriers", "latest": {"1.8.1--h1b792b2_1": "sha256:53fd695a36a1c6e23bf4b1e9a869a5bf468f454222bf5e6f0698df597a8630ff"}, "tags": {"1.8.1--h1b792b2_1": "sha256:53fd695a36a1c6e23bf4b1e9a869a5bf468f454222bf5e6f0698df597a8630ff"}, "docker": "quay.io/biocontainers/barriers", "aliases": {"barriers": "/usr/local/bin/barriers", "crossrates.pl": "/usr/local/bin/crossrates.pl", "fix_bar.pl": "/usr/local/bin/fix_bar.pl", "genPoHoLandscape": "/usr/local/bin/genPoHoLandscape", "saddle.pl": "/usr/local/bin/saddle.pl", "saddle2dot.pl": "/usr/local/bin/saddle2dot.pl", "saddle2gml.pl": "/usr/local/bin/saddle2gml.pl", "treeplot.pl": "/usr/local/bin/treeplot.pl", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
+config: {"url": "https://biocontainers.pro/tools/barriers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for barriers", "latest": {"1.8.1--pl5321h503566f_4": "sha256:7404f035c22c9d3b8077025e7383d2cc4ad63a60ed6259626f1edcb1567b3744"}, "tags": {"1.8.1--h1b792b2_1": "sha256:53fd695a36a1c6e23bf4b1e9a869a5bf468f454222bf5e6f0698df597a8630ff", "1.8.1--pl5321h503566f_4": "sha256:7404f035c22c9d3b8077025e7383d2cc4ad63a60ed6259626f1edcb1567b3744"}, "docker": "quay.io/biocontainers/barriers", "aliases": {"barriers": "/usr/local/bin/barriers", "crossrates.pl": "/usr/local/bin/crossrates.pl", "fix_bar.pl": "/usr/local/bin/fix_bar.pl", "genPoHoLandscape": "/usr/local/bin/genPoHoLandscape", "saddle.pl": "/usr/local/bin/saddle.pl", "saddle2dot.pl": "/usr/local/bin/saddle2dot.pl", "saddle2gml.pl": "/usr/local/bin/saddle2gml.pl", "treeplot.pl": "/usr/local/bin/treeplot.pl", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/barriers.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/barriers
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/barriers:1.8.1--h1b792b2_1
+$ shpc install quay.io/biocontainers/barriers:1.8.1--pl5321h503566f_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/barriers/1.8.1--h1b792b2_1
-$ module help quay.io/biocontainers/barriers/1.8.1--h1b792b2_1
+$ module load quay.io/biocontainers/barriers/1.8.1--pl5321h503566f_4
+$ module help quay.io/biocontainers/barriers/1.8.1--pl5321h503566f_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

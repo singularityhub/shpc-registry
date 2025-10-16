@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plasmar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmar/container.yaml"
-updated_at: "2025-10-15 03:21:37.465118"
-latest: "1.4--hdfd78af_0"
+updated_at: "2025-10-16 03:22:23.923244"
+latest: "1.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasmar"
 aliases:
  - "AR_PR_GAMMA_Parallel.py"
@@ -71,8 +71,9 @@ aliases:
  - "filter-record"
 versions:
  - "1.4--hdfd78af_0"
+ - "1.5--hdfd78af_0"
 description: "singularity registry hpc automated addition for plasmar"
-config: {"url": "https://biocontainers.pro/tools/plasmar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plasmar", "latest": {"1.4--hdfd78af_0": "sha256:12e8e28183cb5fd5d46a9bdc46cde4735eb2561cf42a6ece8baf3626494e7dce"}, "tags": {"1.4--hdfd78af_0": "sha256:12e8e28183cb5fd5d46a9bdc46cde4735eb2561cf42a6ece8baf3626494e7dce"}, "docker": "quay.io/biocontainers/plasmar", "aliases": {"AR_PR_GAMMA_Parallel.py": "/usr/local/bin/AR_PR_GAMMA_Parallel.py", "DB_Maker.py": "/usr/local/bin/DB_Maker.py", "GAMMA-S.py": "/usr/local/bin/GAMMA-S.py", "GAMMA.py": "/usr/local/bin/GAMMA.py", "PLASMAR.py": "/usr/local/bin/PLASMAR.py", "PLASMAR_Heatmap.py": "/usr/local/bin/PLASMAR_Heatmap.py", "PLASMAR_Matches_Parallel.py": "/usr/local/bin/PLASMAR_Matches_Parallel.py", "PLASMAR_Overlap_Parallel.py": "/usr/local/bin/PLASMAR_Overlap_Parallel.py", "PLASMAR_Overlap_Report.py": "/usr/local/bin/PLASMAR_Overlap_Report.py", "PLASMAR_Presence.py": "/usr/local/bin/PLASMAR_Presence.py", "PLASMAR_Summary_Report.py": "/usr/local/bin/PLASMAR_Summary_Report.py", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "faToNib": "/usr/local/bin/faToNib", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gfClient": "/usr/local/bin/gfClient", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "nibFrag": "/usr/local/bin/nibFrag", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "gfServer": "/usr/local/bin/gfServer", "blat": "/usr/local/bin/blat", "unidecode": "/usr/local/bin/unidecode", "twoBitToFa": "/usr/local/bin/twoBitToFa", "twoBitInfo": "/usr/local/bin/twoBitInfo", "faToTwoBit": "/usr/local/bin/faToTwoBit", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record"}}
+config: {"url": "https://biocontainers.pro/tools/plasmar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plasmar", "latest": {"1.5--hdfd78af_0": "sha256:d2aebdb8f4c1b89408e07a70f4bd08a68c75f255926dfd9ae0dd5ca51c068e27"}, "tags": {"1.4--hdfd78af_0": "sha256:12e8e28183cb5fd5d46a9bdc46cde4735eb2561cf42a6ece8baf3626494e7dce", "1.5--hdfd78af_0": "sha256:d2aebdb8f4c1b89408e07a70f4bd08a68c75f255926dfd9ae0dd5ca51c068e27"}, "docker": "quay.io/biocontainers/plasmar", "aliases": {"AR_PR_GAMMA_Parallel.py": "/usr/local/bin/AR_PR_GAMMA_Parallel.py", "DB_Maker.py": "/usr/local/bin/DB_Maker.py", "GAMMA-S.py": "/usr/local/bin/GAMMA-S.py", "GAMMA.py": "/usr/local/bin/GAMMA.py", "PLASMAR.py": "/usr/local/bin/PLASMAR.py", "PLASMAR_Heatmap.py": "/usr/local/bin/PLASMAR_Heatmap.py", "PLASMAR_Matches_Parallel.py": "/usr/local/bin/PLASMAR_Matches_Parallel.py", "PLASMAR_Overlap_Parallel.py": "/usr/local/bin/PLASMAR_Overlap_Parallel.py", "PLASMAR_Overlap_Report.py": "/usr/local/bin/PLASMAR_Overlap_Report.py", "PLASMAR_Presence.py": "/usr/local/bin/PLASMAR_Presence.py", "PLASMAR_Summary_Report.py": "/usr/local/bin/PLASMAR_Summary_Report.py", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "faToNib": "/usr/local/bin/faToNib", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gfClient": "/usr/local/bin/gfClient", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "nibFrag": "/usr/local/bin/nibFrag", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "gfServer": "/usr/local/bin/gfServer", "blat": "/usr/local/bin/blat", "unidecode": "/usr/local/bin/unidecode", "twoBitToFa": "/usr/local/bin/twoBitToFa", "twoBitInfo": "/usr/local/bin/twoBitInfo", "faToTwoBit": "/usr/local/bin/faToTwoBit", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasmar.
@@ -87,7 +88,7 @@ $ shpc install quay.io/biocontainers/plasmar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plasmar:1.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/plasmar:1.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -99,8 +100,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plasmar/1.4--hdfd78af_0
-$ module help quay.io/biocontainers/plasmar/1.4--hdfd78af_0
+$ module load quay.io/biocontainers/plasmar/1.5--hdfd78af_0
+$ module help quay.io/biocontainers/plasmar/1.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

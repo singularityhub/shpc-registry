@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mbgc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mbgc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mbgc/container.yaml"
-updated_at: "2025-10-15 03:46:13.373653"
+updated_at: "2025-10-16 03:51:59.800141"
 latest: "2.0.1--h9948957_2"
 container_url: "https://biocontainers.pro/tools/mbgc"
 aliases:

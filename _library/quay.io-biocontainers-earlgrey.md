@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/earlgrey"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/earlgrey/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/earlgrey/container.yaml"
-updated_at: "2025-10-15 03:11:56.012404"
+updated_at: "2025-10-16 03:11:17.914075"
 latest: "6.3.3--h9948957_0"
 container_url: "https://biocontainers.pro/tools/earlgrey"
 aliases:

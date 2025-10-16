@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyvolve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyvolve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyvolve/container.yaml"
-updated_at: "2025-10-15 03:22:11.578849"
-latest: "0.9.0--py_0"
+updated_at: "2025-10-16 03:23:04.974868"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyvolve"
 aliases:
  - "conv-template"
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "0.9.0--py_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pyvolve"
-config: {"url": "https://biocontainers.pro/tools/pyvolve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyvolve", "latest": {"0.9.0--py_0": "sha256:564c68138b2649c422a5ba8bccbfcc8265bd243d0370d3eafcd864036dba95da"}, "tags": {"0.9.0--py_0": "sha256:564c68138b2649c422a5ba8bccbfcc8265bd243d0370d3eafcd864036dba95da"}, "docker": "quay.io/biocontainers/pyvolve", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pyvolve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyvolve", "latest": {"1.1.0--pyhdfd78af_0": "sha256:2db45e24bcf2da7cc9bc8302009c339a8bf1c658cd822e3cc50b43f7ca102465"}, "tags": {"0.9.0--py_0": "sha256:564c68138b2649c422a5ba8bccbfcc8265bd243d0370d3eafcd864036dba95da", "1.1.0--pyhdfd78af_0": "sha256:2db45e24bcf2da7cc9bc8302009c339a8bf1c658cd822e3cc50b43f7ca102465"}, "docker": "quay.io/biocontainers/pyvolve", "aliases": {"conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyvolve.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pyvolve
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyvolve:0.9.0--py_0
+$ shpc install quay.io/biocontainers/pyvolve:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyvolve/0.9.0--py_0
-$ module help quay.io/biocontainers/pyvolve/0.9.0--py_0
+$ module load quay.io/biocontainers/pyvolve/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyvolve/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

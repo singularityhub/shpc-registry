@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-powertcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-powertcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-powertcr/container.yaml"
-updated_at: "2025-10-15 03:29:14.873505"
+updated_at: "2025-10-16 03:31:34.642997"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-powertcr"
 aliases:

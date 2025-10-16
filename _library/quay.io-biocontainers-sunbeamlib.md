@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sunbeamlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sunbeamlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sunbeamlib/container.yaml"
-updated_at: "2025-10-15 03:49:41.237760"
+updated_at: "2025-10-16 03:56:08.965194"
 latest: "5.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sunbeamlib"
 aliases:

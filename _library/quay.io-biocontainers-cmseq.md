@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmseq/container.yaml"
-updated_at: "2025-10-15 03:52:21.927160"
+updated_at: "2025-10-16 03:59:24.194909"
 latest: "1.0.4--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/cmseq"
 aliases:

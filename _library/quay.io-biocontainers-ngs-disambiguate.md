@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngs-disambiguate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-disambiguate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-disambiguate/container.yaml"
-updated_at: "2025-10-15 03:53:07.823589"
-latest: "2018.05.03--h077b44d_11"
+updated_at: "2025-10-16 04:00:20.549582"
+latest: "2018.05.03--h2bd4fab_12"
 container_url: "https://biocontainers.pro/tools/ngs-disambiguate"
 aliases:
  - "ngs_disambiguate"
@@ -17,8 +17,9 @@ versions:
  - "2018.05.03--h7a259b3_9"
  - "2018.05.03--h06902ac_10"
  - "2018.05.03--h077b44d_11"
+ - "2018.05.03--h2bd4fab_12"
 description: "shpc-registry automated BioContainers addition for ngs-disambiguate"
-config: {"url": "https://biocontainers.pro/tools/ngs-disambiguate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngs-disambiguate", "latest": {"2018.05.03--h077b44d_11": "sha256:69172c74f98796b254fc1956deaf077515587f465da89ba16b48671e2c3686e8"}, "tags": {"2018.05.03--ha7703dc_6": "sha256:8695e9f3bb10a56736234c0ec3c83da6249575cdbdbbe1160857c212c27ab657", "2018.05.03--hf393df8_7": "sha256:a86e59107e0f758435d2fd9d1fc81eeed7fa7c2dd66401fcafb400e52736dea7", "2018.05.03--h7a259b3_8": "sha256:c82a0eb5122e1c76c74137d52ed462bb6af2c09ad75c80c637695088f3babd54", "2018.05.03--h7a259b3_9": "sha256:f2f5a3f5f53c2216bf83ae0905697393b206279cdb5813a168498af62fd08d7d", "2018.05.03--h06902ac_10": "sha256:5425afcf3582f3b44c390196c97ae93ecb711a29eef7149f633983d7c0fce005", "2018.05.03--h077b44d_11": "sha256:69172c74f98796b254fc1956deaf077515587f465da89ba16b48671e2c3686e8"}, "docker": "quay.io/biocontainers/ngs-disambiguate", "aliases": {"ngs_disambiguate": "/usr/local/bin/ngs_disambiguate", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/ngs-disambiguate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngs-disambiguate", "latest": {"2018.05.03--h2bd4fab_12": "sha256:15494e60e82c14aa929daaf2720bbb0702eafb617829f9e5032d7f7987a0c898"}, "tags": {"2018.05.03--ha7703dc_6": "sha256:8695e9f3bb10a56736234c0ec3c83da6249575cdbdbbe1160857c212c27ab657", "2018.05.03--hf393df8_7": "sha256:a86e59107e0f758435d2fd9d1fc81eeed7fa7c2dd66401fcafb400e52736dea7", "2018.05.03--h7a259b3_8": "sha256:c82a0eb5122e1c76c74137d52ed462bb6af2c09ad75c80c637695088f3babd54", "2018.05.03--h7a259b3_9": "sha256:f2f5a3f5f53c2216bf83ae0905697393b206279cdb5813a168498af62fd08d7d", "2018.05.03--h06902ac_10": "sha256:5425afcf3582f3b44c390196c97ae93ecb711a29eef7149f633983d7c0fce005", "2018.05.03--h077b44d_11": "sha256:69172c74f98796b254fc1956deaf077515587f465da89ba16b48671e2c3686e8", "2018.05.03--h2bd4fab_12": "sha256:15494e60e82c14aa929daaf2720bbb0702eafb617829f9e5032d7f7987a0c898"}, "docker": "quay.io/biocontainers/ngs-disambiguate", "aliases": {"ngs_disambiguate": "/usr/local/bin/ngs_disambiguate", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngs-disambiguate.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/ngs-disambiguate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngs-disambiguate:2018.05.03--h077b44d_11
+$ shpc install quay.io/biocontainers/ngs-disambiguate:2018.05.03--h2bd4fab_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngs-disambiguate/2018.05.03--h077b44d_11
-$ module help quay.io/biocontainers/ngs-disambiguate/2018.05.03--h077b44d_11
+$ module load quay.io/biocontainers/ngs-disambiguate/2018.05.03--h2bd4fab_12
+$ module help quay.io/biocontainers/ngs-disambiguate/2018.05.03--h2bd4fab_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

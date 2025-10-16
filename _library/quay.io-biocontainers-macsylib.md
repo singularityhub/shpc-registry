@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/macsylib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macsylib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macsylib/container.yaml"
-updated_at: "2025-10-15 03:49:18.366581"
+updated_at: "2025-10-16 03:55:41.366924"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/macsylib"
 aliases:

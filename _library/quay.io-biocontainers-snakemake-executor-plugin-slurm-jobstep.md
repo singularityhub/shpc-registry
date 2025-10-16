@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep/container.yaml"
-updated_at: "2025-10-15 03:38:36.025151"
+updated_at: "2025-10-16 03:42:49.670804"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-slurm-jobstep"
 aliases:

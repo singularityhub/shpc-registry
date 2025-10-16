@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/edena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edena/container.yaml"
-updated_at: "2025-10-15 03:41:41.849180"
-latest: "3.131028--h9948957_7"
+updated_at: "2025-10-16 03:46:32.964145"
+latest: "3.131028--h9948957_8"
 container_url: "https://biocontainers.pro/tools/edena"
 aliases:
  - "edena"
@@ -13,8 +13,9 @@ versions:
  - "3.131028--h9f5acd7_4"
  - "3.131028--h4ac6f70_6"
  - "3.131028--h9948957_7"
+ - "3.131028--h9948957_8"
 description: "shpc-registry automated BioContainers addition for edena"
-config: {"url": "https://biocontainers.pro/tools/edena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edena", "latest": {"3.131028--h9948957_7": "sha256:722f8b77845d9c44528f45b5062bbbdcdd9bbe766b1c0580faa98bd2e717c4b0"}, "tags": {"3.131028--h9f5acd7_4": "sha256:f93e665eab1c6db72ad08dd2dd35990b33c70010e890df878e548c0e48dd8064", "3.131028--h4ac6f70_6": "sha256:6f6f95fa9f7a169371b46b2def25b683e5714082d43bf9c3139fc5e4ddc81d9e", "3.131028--h9948957_7": "sha256:722f8b77845d9c44528f45b5062bbbdcdd9bbe766b1c0580faa98bd2e717c4b0"}, "docker": "quay.io/biocontainers/edena", "aliases": {"edena": "/usr/local/bin/edena"}}
+config: {"url": "https://biocontainers.pro/tools/edena", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edena", "latest": {"3.131028--h9948957_8": "sha256:7aaa8c4c8e7828aafe09e2642fb183bee9d74f86feb4cb526a08ed6b8e6df4e3"}, "tags": {"3.131028--h9f5acd7_4": "sha256:f93e665eab1c6db72ad08dd2dd35990b33c70010e890df878e548c0e48dd8064", "3.131028--h4ac6f70_6": "sha256:6f6f95fa9f7a169371b46b2def25b683e5714082d43bf9c3139fc5e4ddc81d9e", "3.131028--h9948957_7": "sha256:722f8b77845d9c44528f45b5062bbbdcdd9bbe766b1c0580faa98bd2e717c4b0", "3.131028--h9948957_8": "sha256:7aaa8c4c8e7828aafe09e2642fb183bee9d74f86feb4cb526a08ed6b8e6df4e3"}, "docker": "quay.io/biocontainers/edena", "aliases": {"edena": "/usr/local/bin/edena"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/edena.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/edena
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/edena:3.131028--h9948957_7
+$ shpc install quay.io/biocontainers/edena:3.131028--h9948957_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/edena/3.131028--h9948957_7
-$ module help quay.io/biocontainers/edena/3.131028--h9948957_7
+$ module load quay.io/biocontainers/edena/3.131028--h9948957_8
+$ module help quay.io/biocontainers/edena/3.131028--h9948957_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

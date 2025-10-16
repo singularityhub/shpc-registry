@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcgtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcgtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcgtree/container.yaml"
-updated_at: "2025-10-15 03:44:02.104284"
+updated_at: "2025-10-16 03:49:22.416322"
 latest: "1.2.1--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bcgtree"
 aliases:

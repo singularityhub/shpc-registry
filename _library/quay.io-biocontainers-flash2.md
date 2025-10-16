@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flash2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flash2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flash2/container.yaml"
-updated_at: "2025-10-15 03:24:28.521832"
-latest: "2.2.00--h577a1d6_8"
+updated_at: "2025-10-16 03:25:49.700001"
+latest: "2.2.00--h577a1d6_9"
 container_url: "https://biocontainers.pro/tools/flash2"
 aliases:
  - "flash2"
@@ -15,8 +15,9 @@ versions:
  - "2.2.00--he4a0461_6"
  - "2.2.00--h577a1d6_7"
  - "2.2.00--h577a1d6_8"
+ - "2.2.00--h577a1d6_9"
 description: "shpc-registry automated BioContainers addition for flash2"
-config: {"url": "https://biocontainers.pro/tools/flash2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flash2", "latest": {"2.2.00--h577a1d6_8": "sha256:cb527e263c1cf69e1346068e2005058d72a9bb7a7ca5d0e69f65bd47a1b81bd0"}, "tags": {"2.2.00--h7132678_4": "sha256:de692808d98a7fc4cceb0a78addfdd1a5e41a1dd07deb31a334d1ed388a372f4", "2.2.00--h7132678_5": "sha256:8d9ea0c90699316266c803c1a2d20c707e71d6b84ac0fc26c3c8a7f0ce11c3a6", "2.2.00--he4a0461_6": "sha256:35d03145f8b8ec5b63d5b7e04a56b4b11ae4814554f2c60b03f1ba3997180b24", "2.2.00--h577a1d6_7": "sha256:ea5de49f62dacc8e0eed6b90891bb4e5d85e461633df1db9a81702f3047d0e2d", "2.2.00--h577a1d6_8": "sha256:cb527e263c1cf69e1346068e2005058d72a9bb7a7ca5d0e69f65bd47a1b81bd0"}, "docker": "quay.io/biocontainers/flash2", "aliases": {"flash2": "/usr/local/bin/flash2"}}
+config: {"url": "https://biocontainers.pro/tools/flash2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flash2", "latest": {"2.2.00--h577a1d6_9": "sha256:dba4abb7adf4e32269f8c0e0f57a2dda0bfed3c658181506a1c74a3d071d50de"}, "tags": {"2.2.00--h7132678_4": "sha256:de692808d98a7fc4cceb0a78addfdd1a5e41a1dd07deb31a334d1ed388a372f4", "2.2.00--h7132678_5": "sha256:8d9ea0c90699316266c803c1a2d20c707e71d6b84ac0fc26c3c8a7f0ce11c3a6", "2.2.00--he4a0461_6": "sha256:35d03145f8b8ec5b63d5b7e04a56b4b11ae4814554f2c60b03f1ba3997180b24", "2.2.00--h577a1d6_7": "sha256:ea5de49f62dacc8e0eed6b90891bb4e5d85e461633df1db9a81702f3047d0e2d", "2.2.00--h577a1d6_8": "sha256:cb527e263c1cf69e1346068e2005058d72a9bb7a7ca5d0e69f65bd47a1b81bd0", "2.2.00--h577a1d6_9": "sha256:dba4abb7adf4e32269f8c0e0f57a2dda0bfed3c658181506a1c74a3d071d50de"}, "docker": "quay.io/biocontainers/flash2", "aliases": {"flash2": "/usr/local/bin/flash2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flash2.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/flash2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flash2:2.2.00--h577a1d6_8
+$ shpc install quay.io/biocontainers/flash2:2.2.00--h577a1d6_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flash2/2.2.00--h577a1d6_8
-$ module help quay.io/biocontainers/flash2/2.2.00--h577a1d6_8
+$ module load quay.io/biocontainers/flash2/2.2.00--h577a1d6_9
+$ module help quay.io/biocontainers/flash2/2.2.00--h577a1d6_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

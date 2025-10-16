@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ufcg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ufcg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ufcg/container.yaml"
-updated_at: "2025-10-15 03:45:20.950813"
+updated_at: "2025-10-16 03:50:57.612421"
 latest: "1.0.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ufcg"
 aliases:

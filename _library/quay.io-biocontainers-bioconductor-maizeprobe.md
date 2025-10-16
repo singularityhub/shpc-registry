@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maizeprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maizeprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maizeprobe/container.yaml"
-updated_at: "2025-10-15 03:15:00.998658"
+updated_at: "2025-10-16 03:14:32.278764"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-maizeprobe"
 

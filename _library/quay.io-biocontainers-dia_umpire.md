@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dia_umpire"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dia_umpire/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dia_umpire/container.yaml"
-updated_at: "2025-10-15 03:31:29.791785"
+updated_at: "2025-10-16 03:34:19.056099"
 latest: "2.1.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dia_umpire"
 aliases:
