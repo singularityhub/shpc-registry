@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/sweepfinder2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sweepfinder2
 latest:
-  1.0--hec16e2b_4: 
-    sha256:eb3839af5bed9c07e1955a2cd81127b7119b6ef2f05a1c05dc3e16537492f279
+  1.0--h7b50bb2_6: 
+    sha256:3f8c8204846678c234b8becc62525a16fd601498904ac3292f45b4e9ec70dec1
 tags:
   1.0--hec16e2b_4: 
     sha256:eb3839af5bed9c07e1955a2cd81127b7119b6ef2f05a1c05dc3e16537492f279
+  1.0--h7b50bb2_6: 
+    sha256:3f8c8204846678c234b8becc62525a16fd601498904ac3292f45b4e9ec70dec1
 docker: quay.io/biocontainers/sweepfinder2
 aliases:
   SweepFinder2: /usr/local/bin/SweepFinder2

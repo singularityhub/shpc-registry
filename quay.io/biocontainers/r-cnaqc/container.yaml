@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-cnaqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-cnaqc
 latest:
-  1.1.2--r44hdfd78af_0: 
-    sha256:ff093a483d373a088e579907c9e34f83c185125c1aa674074c5c3f843b8d3ff1
+  1.1.3--r44hdfd78af_0: 
+    sha256:7b56e594703d203cab314a0c46af23ba3b2b82ba93b337cd002e956f0debc8ad
 tags:
   1.1.2--r44hdfd78af_0: 
     sha256:ff093a483d373a088e579907c9e34f83c185125c1aa674074c5c3f843b8d3ff1
+  1.1.3--r44hdfd78af_0: 
+    sha256:7b56e594703d203cab314a0c46af23ba3b2b82ba93b337cd002e956f0debc8ad
 docker: quay.io/biocontainers/r-cnaqc
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

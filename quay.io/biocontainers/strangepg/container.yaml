@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/strangepg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strangepg
 latest:
-  0.9.2--h0ac75b0_0: 
-    sha256:3e98974633d48c80515bed433b47b75a982f7b7cba6606789f6269c8a915a3d6
+  0.9.3.1--h0ac75b0_0: 
+    sha256:be9a3906144848e3fda616996ed83227bdad526ce2c845b0634e0d36256493ee
 tags:
   0.8.0--h9a53f25_0: 
     sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b
@@ -25,6 +25,8 @@ tags:
     sha256:37c88a931bcd349926a736d859b5b47b60905343812ca7b3444dd5eba87c407e
   0.9.2--h0ac75b0_0: 
     sha256:3e98974633d48c80515bed433b47b75a982f7b7cba6606789f6269c8a915a3d6
+  0.9.3.1--h0ac75b0_0: 
+    sha256:be9a3906144848e3fda616996ed83227bdad526ce2c845b0634e0d36256493ee
 docker: quay.io/biocontainers/strangepg
 aliases:
   strawk: /usr/local/bin/strawk
