@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sweepfinder2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sweepfinder2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sweepfinder2/container.yaml"
-updated_at: "2025-10-16 03:22:39.281309"
-latest: "1.0--hec16e2b_4"
+updated_at: "2025-10-17 03:30:39.207282"
+latest: "1.0--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/sweepfinder2"
 aliases:
  - "SweepFinder2"
 versions:
  - "1.0--hec16e2b_4"
+ - "1.0--h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for sweepfinder2"
-config: {"url": "https://biocontainers.pro/tools/sweepfinder2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sweepfinder2", "latest": {"1.0--hec16e2b_4": "sha256:eb3839af5bed9c07e1955a2cd81127b7119b6ef2f05a1c05dc3e16537492f279"}, "tags": {"1.0--hec16e2b_4": "sha256:eb3839af5bed9c07e1955a2cd81127b7119b6ef2f05a1c05dc3e16537492f279"}, "docker": "quay.io/biocontainers/sweepfinder2", "aliases": {"SweepFinder2": "/usr/local/bin/SweepFinder2"}}
+config: {"url": "https://biocontainers.pro/tools/sweepfinder2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sweepfinder2", "latest": {"1.0--h7b50bb2_6": "sha256:3f8c8204846678c234b8becc62525a16fd601498904ac3292f45b4e9ec70dec1"}, "tags": {"1.0--hec16e2b_4": "sha256:eb3839af5bed9c07e1955a2cd81127b7119b6ef2f05a1c05dc3e16537492f279", "1.0--h7b50bb2_6": "sha256:3f8c8204846678c234b8becc62525a16fd601498904ac3292f45b4e9ec70dec1"}, "docker": "quay.io/biocontainers/sweepfinder2", "aliases": {"SweepFinder2": "/usr/local/bin/SweepFinder2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sweepfinder2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sweepfinder2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sweepfinder2:1.0--hec16e2b_4
+$ shpc install quay.io/biocontainers/sweepfinder2:1.0--h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sweepfinder2/1.0--hec16e2b_4
-$ module help quay.io/biocontainers/sweepfinder2/1.0--hec16e2b_4
+$ module load quay.io/biocontainers/sweepfinder2/1.0--h7b50bb2_6
+$ module help quay.io/biocontainers/sweepfinder2/1.0--h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

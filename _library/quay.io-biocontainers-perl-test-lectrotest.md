@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-lectrotest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-lectrotest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-lectrotest/container.yaml"
-updated_at: "2025-10-16 04:02:17.384200"
+updated_at: "2025-10-17 03:09:07.599576"
 latest: "0.5001--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-lectrotest"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strangepg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strangepg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strangepg/container.yaml"
-updated_at: "2025-10-16 03:34:19.762154"
-latest: "0.9.2--h0ac75b0_0"
+updated_at: "2025-10-17 03:47:55.707976"
+latest: "0.9.3.1--h0ac75b0_0"
 container_url: "https://biocontainers.pro/tools/strangepg"
 aliases:
  - "strawk"
@@ -21,8 +21,9 @@ versions:
  - "0.8.19.3--h0ac75b0_0"
  - "0.8.20--h0ac75b0_0"
  - "0.9.2--h0ac75b0_0"
+ - "0.9.3.1--h0ac75b0_0"
 description: "singularity registry hpc automated addition for strangepg"
-config: {"url": "https://biocontainers.pro/tools/strangepg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strangepg", "latest": {"0.9.2--h0ac75b0_0": "sha256:3e98974633d48c80515bed433b47b75a982f7b7cba6606789f6269c8a915a3d6"}, "tags": {"0.8.0--h9a53f25_0": "sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b", "0.8.4--h9a53f25_0": "sha256:571c482c5c2c3c846345eba9f48d6c3ebc31d8113f554257c28b52783f808c38", "0.8.8--h9a53f25_0": "sha256:c988a26a45d48192a7f08dfe01a64f8942f840b3999376b3fabf63689ec4daaf", "0.8.14--h9a53f25_0": "sha256:6609ba89ba913488bc22cf4db5355243ff9a481e17e5b8e16afefceaefe08e2d", "0.8.15--h9a53f25_0": "sha256:aad2024368fed2c71369185323441195980a5d5977957e6a1bfe5380d2c19ab9", "0.8.17--h0ac75b0_0": "sha256:ee9c050d3a76a4a17770c197af7dfe34384e22e22c61d3ab4c729b8834ba6a19", "0.8.18.1--h0ac75b0_0": "sha256:e935a87c8d6fd84d4814b1e4da9f83d7c903a753155d56663a594e4cf3f044c7", "0.8.19.3--h0ac75b0_0": "sha256:28ccb6d5af13e120b08f8161a68ed64052ef627a0a674652a8a6b9d96e91de47", "0.8.20--h0ac75b0_0": "sha256:37c88a931bcd349926a736d859b5b47b60905343812ca7b3444dd5eba87c407e", "0.9.2--h0ac75b0_0": "sha256:3e98974633d48c80515bed433b47b75a982f7b7cba6606789f6269c8a915a3d6"}, "docker": "quay.io/biocontainers/strangepg", "aliases": {"strawk": "/usr/local/bin/strawk", "strpg": "/usr/local/bin/strpg"}}
+config: {"url": "https://biocontainers.pro/tools/strangepg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strangepg", "latest": {"0.9.3.1--h0ac75b0_0": "sha256:be9a3906144848e3fda616996ed83227bdad526ce2c845b0634e0d36256493ee"}, "tags": {"0.8.0--h9a53f25_0": "sha256:8de054f5b9e643465ca172039c84da98bb991d5d8e09fa757dd97eaa5b46b20b", "0.8.4--h9a53f25_0": "sha256:571c482c5c2c3c846345eba9f48d6c3ebc31d8113f554257c28b52783f808c38", "0.8.8--h9a53f25_0": "sha256:c988a26a45d48192a7f08dfe01a64f8942f840b3999376b3fabf63689ec4daaf", "0.8.14--h9a53f25_0": "sha256:6609ba89ba913488bc22cf4db5355243ff9a481e17e5b8e16afefceaefe08e2d", "0.8.15--h9a53f25_0": "sha256:aad2024368fed2c71369185323441195980a5d5977957e6a1bfe5380d2c19ab9", "0.8.17--h0ac75b0_0": "sha256:ee9c050d3a76a4a17770c197af7dfe34384e22e22c61d3ab4c729b8834ba6a19", "0.8.18.1--h0ac75b0_0": "sha256:e935a87c8d6fd84d4814b1e4da9f83d7c903a753155d56663a594e4cf3f044c7", "0.8.19.3--h0ac75b0_0": "sha256:28ccb6d5af13e120b08f8161a68ed64052ef627a0a674652a8a6b9d96e91de47", "0.8.20--h0ac75b0_0": "sha256:37c88a931bcd349926a736d859b5b47b60905343812ca7b3444dd5eba87c407e", "0.9.2--h0ac75b0_0": "sha256:3e98974633d48c80515bed433b47b75a982f7b7cba6606789f6269c8a915a3d6", "0.9.3.1--h0ac75b0_0": "sha256:be9a3906144848e3fda616996ed83227bdad526ce2c845b0634e0d36256493ee"}, "docker": "quay.io/biocontainers/strangepg", "aliases": {"strawk": "/usr/local/bin/strawk", "strpg": "/usr/local/bin/strpg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strangepg.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/strangepg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strangepg:0.9.2--h0ac75b0_0
+$ shpc install quay.io/biocontainers/strangepg:0.9.3.1--h0ac75b0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strangepg/0.9.2--h0ac75b0_0
-$ module help quay.io/biocontainers/strangepg/0.9.2--h0ac75b0_0
+$ module load quay.io/biocontainers/strangepg/0.9.3.1--h0ac75b0_0
+$ module help quay.io/biocontainers/strangepg/0.9.3.1--h0ac75b0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

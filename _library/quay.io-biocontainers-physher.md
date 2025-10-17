@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/physher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/physher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/physher/container.yaml"
-updated_at: "2025-10-16 03:11:05.255430"
-latest: "2.0.1--h8cec121_1"
+updated_at: "2025-10-17 03:07:59.389936"
+latest: "2.0.1--h4656aac_3"
 container_url: "https://biocontainers.pro/tools/physher"
 aliases:
  - "physher"
 versions:
  - "2.0.0--h8cec121_0"
  - "2.0.1--h8cec121_1"
+ - "2.0.1--h4656aac_3"
 description: "singularity registry hpc automated addition for physher"
-config: {"url": "https://biocontainers.pro/tools/physher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for physher", "latest": {"2.0.1--h8cec121_1": "sha256:afae2d66cf4b0e3ec47a1859896176b6216bc5bddffed1902f1d2f45166b1013"}, "tags": {"2.0.0--h8cec121_0": "sha256:10bcf7640dfed877c2172e0c2657e52bc3b4291243555b58afc1de7fa6311c26", "2.0.1--h8cec121_1": "sha256:afae2d66cf4b0e3ec47a1859896176b6216bc5bddffed1902f1d2f45166b1013"}, "docker": "quay.io/biocontainers/physher", "aliases": {"physher": "/usr/local/bin/physher"}}
+config: {"url": "https://biocontainers.pro/tools/physher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for physher", "latest": {"2.0.1--h4656aac_3": "sha256:a27c6b94573f9e68be607d4aea9666224d5d6d15486467c97c3cd45297e47fc3"}, "tags": {"2.0.0--h8cec121_0": "sha256:10bcf7640dfed877c2172e0c2657e52bc3b4291243555b58afc1de7fa6311c26", "2.0.1--h8cec121_1": "sha256:afae2d66cf4b0e3ec47a1859896176b6216bc5bddffed1902f1d2f45166b1013", "2.0.1--h4656aac_3": "sha256:a27c6b94573f9e68be607d4aea9666224d5d6d15486467c97c3cd45297e47fc3"}, "docker": "quay.io/biocontainers/physher", "aliases": {"physher": "/usr/local/bin/physher"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/physher.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/physher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/physher:2.0.1--h8cec121_1
+$ shpc install quay.io/biocontainers/physher:2.0.1--h4656aac_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/physher/2.0.1--h8cec121_1
-$ module help quay.io/biocontainers/physher/2.0.1--h8cec121_1
+$ module load quay.io/biocontainers/physher/2.0.1--h4656aac_3
+$ module help quay.io/biocontainers/physher/2.0.1--h4656aac_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

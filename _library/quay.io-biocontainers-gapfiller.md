@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gapfiller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gapfiller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gapfiller/container.yaml"
-updated_at: "2025-10-16 04:06:02.024953"
+updated_at: "2025-10-17 03:43:28.972297"
 latest: "2.1.2--h7ff8a90_4"
 container_url: "https://biocontainers.pro/tools/gapfiller"
 aliases:

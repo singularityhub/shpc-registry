@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tpmcalculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tpmcalculator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tpmcalculator/container.yaml"
-updated_at: "2025-10-16 04:02:23.802663"
-latest: "0.0.5--h06902ac_2"
+updated_at: "2025-10-17 03:49:45.507514"
+latest: "0.0.5--h2bd4fab_3"
 container_url: "https://biocontainers.pro/tools/tpmcalculator"
 aliases:
  - "TPMCalculator"
@@ -16,8 +16,9 @@ versions:
  - "0.0.4--h7a259b3_4"
  - "0.0.5--h7a259b3_1"
  - "0.0.5--h06902ac_2"
+ - "0.0.5--h2bd4fab_3"
 description: "shpc-registry automated BioContainers addition for tpmcalculator"
-config: {"url": "https://biocontainers.pro/tools/tpmcalculator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tpmcalculator", "latest": {"0.0.5--h06902ac_2": "sha256:53fc24efb007ef54e31d44b834d13cee4f1a93222a4803574eb988b9c314b41e"}, "tags": {"0.0.4--ha7703dc_2": "sha256:ebb1671f09de2449f89efd4a1c92650f1bdf51952cf3e4b243f995c835e4fd3e", "0.0.4--hf393df8_3": "sha256:8fd3dd640450ac4b954079bd00c3e466232f00032afcada5c0bb428efcda8790", "0.0.4--h7a259b3_4": "sha256:26db9cd513eed2923ffec4c5c15d9eb8b1326644df12a912830ef9288032ea42", "0.0.5--h7a259b3_1": "sha256:f1f1de4301f2d897c75e1c79119122f8726e1c1169570db6f016022737c2441e", "0.0.5--h06902ac_2": "sha256:53fc24efb007ef54e31d44b834d13cee4f1a93222a4803574eb988b9c314b41e"}, "docker": "quay.io/biocontainers/tpmcalculator", "aliases": {"TPMCalculator": "/usr/local/bin/TPMCalculator", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/tpmcalculator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tpmcalculator", "latest": {"0.0.5--h2bd4fab_3": "sha256:afdb6d090033ec98a4e55f5298ce64b42c49fa1237ee0cfe5457295843332b9b"}, "tags": {"0.0.4--ha7703dc_2": "sha256:ebb1671f09de2449f89efd4a1c92650f1bdf51952cf3e4b243f995c835e4fd3e", "0.0.4--hf393df8_3": "sha256:8fd3dd640450ac4b954079bd00c3e466232f00032afcada5c0bb428efcda8790", "0.0.4--h7a259b3_4": "sha256:26db9cd513eed2923ffec4c5c15d9eb8b1326644df12a912830ef9288032ea42", "0.0.5--h7a259b3_1": "sha256:f1f1de4301f2d897c75e1c79119122f8726e1c1169570db6f016022737c2441e", "0.0.5--h06902ac_2": "sha256:53fc24efb007ef54e31d44b834d13cee4f1a93222a4803574eb988b9c314b41e", "0.0.5--h2bd4fab_3": "sha256:afdb6d090033ec98a4e55f5298ce64b42c49fa1237ee0cfe5457295843332b9b"}, "docker": "quay.io/biocontainers/tpmcalculator", "aliases": {"TPMCalculator": "/usr/local/bin/TPMCalculator", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tpmcalculator.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/tpmcalculator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tpmcalculator:0.0.5--h06902ac_2
+$ shpc install quay.io/biocontainers/tpmcalculator:0.0.5--h2bd4fab_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tpmcalculator/0.0.5--h06902ac_2
-$ module help quay.io/biocontainers/tpmcalculator/0.0.5--h06902ac_2
+$ module load quay.io/biocontainers/tpmcalculator/0.0.5--h2bd4fab_3
+$ module help quay.io/biocontainers/tpmcalculator/0.0.5--h2bd4fab_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
