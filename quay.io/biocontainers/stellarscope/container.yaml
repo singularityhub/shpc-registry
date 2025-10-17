@@ -7,6 +7,8 @@ latest:
 tags:
   1.5--py310h1fe012e_0: 
     sha256:159ff2eb9b3683e65cacb8c10b575c8739f9058158aa001118b3ecd925417eea
+  1.5--py311haab0aaa_0: 
+    sha256:e9db6b3f4eb514d4b8ca6d9721a11d6a7ea8a27ec30fdd1771af4f63e31d93c8
 docker: quay.io/biocontainers/stellarscope
 aliases:
   stellarscope: /usr/local/bin/stellarscope

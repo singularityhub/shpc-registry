@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/codoff
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for codoff
 latest:
-  1.2.1--pyhdfd78af_0: 
-    sha256:de0f074e7b5b59f3a82dcfab4a557acc34e9fc3c18e9ca35554a381fa5e56b45
+  1.2.2--pyhdfd78af_0: 
+    sha256:349a450aa113605d263bb932c74491c38fa45d309b93246b4ca7793c9514c02d
 tags:
   1.0.0--pyh7cba7a3_0: 
     sha256:850a3867aa68f974bec3197ac0fd8df938ab39508ba981d5ca49bab256ec8d90
@@ -17,6 +17,8 @@ tags:
     sha256:bd8125dd165ee4b8f12ec60e2c5d04fd317ffcbf47bf57f5dca3cae747708a51
   1.2.1--pyhdfd78af_0: 
     sha256:de0f074e7b5b59f3a82dcfab4a557acc34e9fc3c18e9ca35554a381fa5e56b45
+  1.2.2--pyhdfd78af_0: 
+    sha256:349a450aa113605d263bb932c74491c38fa45d309b93246b4ca7793c9514c02d
 docker: quay.io/biocontainers/codoff
 aliases:
   codoff: /usr/local/bin/codoff
