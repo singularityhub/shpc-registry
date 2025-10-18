@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-structssi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-structssi
 latest:
-  1.1.1--r44h3121a25_11: 
-    sha256:70c2fda48806e195e2f31d493b92e6e922e5107f0624cebbe0d3790f61d660ef
+  1.2.1--r44h3121a25_0: 
+    sha256:9b5abab04f23b8e526e113757c2995c8530a822a2bd9df2711d0ea442476200c
 tags:
   1.1.1--r41h3121a25_8: 
     sha256:abcd68b8982fc07a9a122df3224efcfdc1d084c361e1a189c66c195e0dabb48b
@@ -13,6 +13,8 @@ tags:
     sha256:bd33e18fc7c95e312f18d99186c426db79b450f806d8c65b14ac089c221f7260
   1.1.1--r44h3121a25_11: 
     sha256:70c2fda48806e195e2f31d493b92e6e922e5107f0624cebbe0d3790f61d660ef
+  1.2.1--r44h3121a25_0: 
+    sha256:9b5abab04f23b8e526e113757c2995c8530a822a2bd9df2711d0ea442476200c
 docker: quay.io/biocontainers/r-structssi
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

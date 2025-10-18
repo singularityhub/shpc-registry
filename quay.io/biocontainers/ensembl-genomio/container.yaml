@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ensembl-genomio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ensembl-genomio
 latest:
-  1.6.1--pyhdfd78af_0: 
-    sha256:ddcdd65984e9ca795ff6e05bd007e0839345a954cff2a62b14ad330bcedcc773
+  1.6.2--pyhdfd78af_0: 
+    sha256:44c86945ef61199ac37b40c15d032ff861a07d5a28313b408fd52c65d54cbc06
 tags:
   1.6.1--pyhdfd78af_0: 
     sha256:ddcdd65984e9ca795ff6e05bd007e0839345a954cff2a62b14ad330bcedcc773
+  1.6.2--pyhdfd78af_0: 
+    sha256:44c86945ef61199ac37b40c15d032ff861a07d5a28313b408fd52c65d54cbc06
 docker: quay.io/biocontainers/ensembl-genomio
 aliases:
   annotation_update_description: /usr/local/bin/annotation_update_description

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/kmertools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kmertools
 latest:
-  0.1.5--hec43fc7_0: 
-    sha256:7f1acd2d2be12f955d4b5aaff5e0e0f0d676fbc0f809c98ea2810d9001a101e6
+  0.2.1--h5e00ca1_0: 
+    sha256:af9bef9acfe3636cd85d7de1dc0c55289f2463853fc5368cb127966413235d3a
 tags:
   0.1.0--h4349ce8_0: 
     sha256:8f89ef8335c3b1fcb89a6fc3afc07f862fd61aef3001b53770ae5080e89c6d59
@@ -13,6 +13,8 @@ tags:
     sha256:c351608d821ce7d8f9aea4ea67418459d75ba96c478f74f34ae88e33d8dbb7cb
   0.1.5--hec43fc7_0: 
     sha256:7f1acd2d2be12f955d4b5aaff5e0e0f0d676fbc0f809c98ea2810d9001a101e6
+  0.2.1--h5e00ca1_0: 
+    sha256:af9bef9acfe3636cd85d7de1dc0c55289f2463853fc5368cb127966413235d3a
 docker: quay.io/biocontainers/kmertools
 aliases:
   kmertools: /usr/local/bin/kmertools

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ephemeris
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ephemeris
 latest:
-  0.10.10--pyhdfd78af_0: 
-    sha256:3f225b0b6cb527307c5e1e6b5b9251c09fb488db5675951afd4d8ac43794bd4c
+  0.10.11--pyhdfd78af_0: 
+    sha256:fef92176672babd3fe5037e70fb22eb1090cde2df7f48c1b5be9973378bf3cfe
 tags:
   0.9.0--py_0: 
     sha256:25751a2233965806f758c42b56a287179d270ec41a60c314358d7b8e383e729e
@@ -13,6 +13,8 @@ tags:
     sha256:4da1f8be8965e0f4f5d28d982ea0875fd22d24fb1efdeae0fa8f53962b3b202d
   0.10.10--pyhdfd78af_0: 
     sha256:3f225b0b6cb527307c5e1e6b5b9251c09fb488db5675951afd4d8ac43794bd4c
+  0.10.11--pyhdfd78af_0: 
+    sha256:fef92176672babd3fe5037e70fb22eb1090cde2df7f48c1b5be9973378bf3cfe
 docker: quay.io/biocontainers/ephemeris
 aliases:
   bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests
