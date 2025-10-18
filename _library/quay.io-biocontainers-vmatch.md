@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vmatch/container.yaml"
-updated_at: "2025-10-17 03:34:13.822889"
-latest: "2.3.0--hec16e2b_5"
+updated_at: "2025-10-18 03:27:45.829881"
+latest: "2.3.1--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/vmatch"
 aliases:
  - "Vmatchtrans.pl"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "2.3.0--hec16e2b_4"
  - "2.3.0--hec16e2b_5"
+ - "2.3.1--h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for vmatch"
-config: {"url": "https://biocontainers.pro/tools/vmatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vmatch", "latest": {"2.3.0--hec16e2b_5": "sha256:faf4d6f1b954f075f472fbffaac5b064faf07774b40cb59713bb69f2dffa9e4b"}, "tags": {"2.3.0--hec16e2b_4": "sha256:23c75961f1aa6960e280955628070b0f90984464fa25dda23d5a9e3d0b0425b5", "2.3.0--hec16e2b_5": "sha256:faf4d6f1b954f075f472fbffaac5b064faf07774b40cb59713bb69f2dffa9e4b"}, "docker": "quay.io/biocontainers/vmatch", "aliases": {"Vmatchtrans.pl": "/usr/local/bin/Vmatchtrans.pl", "chain2dim": "/usr/local/bin/chain2dim", "cleanpp.sh": "/usr/local/bin/cleanpp.sh", "matchcluster": "/usr/local/bin/matchcluster", "mkdna6idx": "/usr/local/bin/mkdna6idx", "mkvtree": "/usr/local/bin/mkvtree", "repfind.pl": "/usr/local/bin/repfind.pl", "upgradeprj.pl": "/usr/local/bin/upgradeprj.pl", "vendian": "/usr/local/bin/vendian", "vmatch": "/usr/local/bin/vmatch", "vmatchselect": "/usr/local/bin/vmatchselect", "vmigrate.sh": "/usr/local/bin/vmigrate.sh", "vseqinfo": "/usr/local/bin/vseqinfo", "vseqselect": "/usr/local/bin/vseqselect", "vstree2tex": "/usr/local/bin/vstree2tex", "vsubseqselect": "/usr/local/bin/vsubseqselect", "conda_build.sh": "/usr/local/bin/conda_build.sh", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/vmatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vmatch", "latest": {"2.3.1--h7b50bb2_0": "sha256:da7d89a362b19b14a2b0c76740e9871634e0961dfec3605e2a20074dff0552a8"}, "tags": {"2.3.0--hec16e2b_4": "sha256:23c75961f1aa6960e280955628070b0f90984464fa25dda23d5a9e3d0b0425b5", "2.3.0--hec16e2b_5": "sha256:faf4d6f1b954f075f472fbffaac5b064faf07774b40cb59713bb69f2dffa9e4b", "2.3.1--h7b50bb2_0": "sha256:da7d89a362b19b14a2b0c76740e9871634e0961dfec3605e2a20074dff0552a8"}, "docker": "quay.io/biocontainers/vmatch", "aliases": {"Vmatchtrans.pl": "/usr/local/bin/Vmatchtrans.pl", "chain2dim": "/usr/local/bin/chain2dim", "cleanpp.sh": "/usr/local/bin/cleanpp.sh", "matchcluster": "/usr/local/bin/matchcluster", "mkdna6idx": "/usr/local/bin/mkdna6idx", "mkvtree": "/usr/local/bin/mkvtree", "repfind.pl": "/usr/local/bin/repfind.pl", "upgradeprj.pl": "/usr/local/bin/upgradeprj.pl", "vendian": "/usr/local/bin/vendian", "vmatch": "/usr/local/bin/vmatch", "vmatchselect": "/usr/local/bin/vmatchselect", "vmigrate.sh": "/usr/local/bin/vmigrate.sh", "vseqinfo": "/usr/local/bin/vseqinfo", "vseqselect": "/usr/local/bin/vseqselect", "vstree2tex": "/usr/local/bin/vstree2tex", "vsubseqselect": "/usr/local/bin/vsubseqselect", "conda_build.sh": "/usr/local/bin/conda_build.sh", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vmatch.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/vmatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vmatch:2.3.0--hec16e2b_5
+$ shpc install quay.io/biocontainers/vmatch:2.3.1--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vmatch/2.3.0--hec16e2b_5
-$ module help quay.io/biocontainers/vmatch/2.3.0--hec16e2b_5
+$ module load quay.io/biocontainers/vmatch/2.3.1--h7b50bb2_0
+$ module help quay.io/biocontainers/vmatch/2.3.1--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

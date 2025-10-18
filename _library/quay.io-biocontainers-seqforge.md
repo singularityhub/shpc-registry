@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqforge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqforge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqforge/container.yaml"
-updated_at: "2025-10-17 03:31:07.574261"
-latest: "1.0.4--pyh7e72e81_0"
+updated_at: "2025-10-18 03:24:39.074779"
+latest: "2.0.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/seqforge"
 aliases:
  - "archive-nlmnlp"
@@ -61,8 +61,9 @@ aliases:
  - "gm2ranges"
 versions:
  - "1.0.4--pyh7e72e81_0"
+ - "2.0.0--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for seqforge"
-config: {"url": "https://biocontainers.pro/tools/seqforge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqforge", "latest": {"1.0.4--pyh7e72e81_0": "sha256:0d14f52319809381b96a2f10a3ad0d4eef1080b8ca6861f6b61634962e73b116"}, "tags": {"1.0.4--pyh7e72e81_0": "sha256:0d14f52319809381b96a2f10a3ad0d4eef1080b8ca6861f6b61634962e73b116"}, "docker": "quay.io/biocontainers/seqforge", "aliases": {"archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "hatch": "/usr/local/bin/hatch", "hatchling": "/usr/local/bin/hatchling", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "seqforge": "/usr/local/bin/seqforge", "sort-by-length": "/usr/local/bin/sort-by-length", "trove-classifiers": "/usr/local/bin/trove-classifiers", "userpath": "/usr/local/bin/userpath", "uv": "/usr/local/bin/uv", "uvx": "/usr/local/bin/uvx", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "virtualenv": "/usr/local/bin/virtualenv", "keyring": "/usr/local/bin/keyring", "httpx": "/usr/local/bin/httpx", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges"}}
+config: {"url": "https://biocontainers.pro/tools/seqforge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqforge", "latest": {"2.0.0--pyh7e72e81_0": "sha256:144e674dfaafacad0584698014b08268d16a9a52e36b2e256295a7c3acebaab7"}, "tags": {"1.0.4--pyh7e72e81_0": "sha256:0d14f52319809381b96a2f10a3ad0d4eef1080b8ca6861f6b61634962e73b116", "2.0.0--pyh7e72e81_0": "sha256:144e674dfaafacad0584698014b08268d16a9a52e36b2e256295a7c3acebaab7"}, "docker": "quay.io/biocontainers/seqforge", "aliases": {"archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "hatch": "/usr/local/bin/hatch", "hatchling": "/usr/local/bin/hatchling", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "seqforge": "/usr/local/bin/seqforge", "sort-by-length": "/usr/local/bin/sort-by-length", "trove-classifiers": "/usr/local/bin/trove-classifiers", "userpath": "/usr/local/bin/userpath", "uv": "/usr/local/bin/uv", "uvx": "/usr/local/bin/uvx", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "virtualenv": "/usr/local/bin/virtualenv", "keyring": "/usr/local/bin/keyring", "httpx": "/usr/local/bin/httpx", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqforge.
@@ -77,7 +78,7 @@ $ shpc install quay.io/biocontainers/seqforge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqforge:1.0.4--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/seqforge:2.0.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -89,8 +90,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqforge/1.0.4--pyh7e72e81_0
-$ module help quay.io/biocontainers/seqforge/1.0.4--pyh7e72e81_0
+$ module load quay.io/biocontainers/seqforge/2.0.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/seqforge/2.0.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

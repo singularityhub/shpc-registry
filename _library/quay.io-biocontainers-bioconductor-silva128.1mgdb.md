@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-silva128.1mgdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-silva128.1mgdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-silva128.1mgdb/container.yaml"
-updated_at: "2025-10-17 03:42:26.487263"
+updated_at: "2025-10-18 03:36:01.682506"
 latest: "1.00.0--r40hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-silva128.1mgdb"
 aliases:

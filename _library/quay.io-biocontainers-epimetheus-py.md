@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/epimetheus-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epimetheus-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epimetheus-py/container.yaml"
-updated_at: "2025-10-17 03:42:23.638629"
-latest: "0.6.2--py310hc7d9715_0"
+updated_at: "2025-10-18 03:35:58.836655"
+latest: "0.7.5--py310hc7d9715_0"
 container_url: "https://biocontainers.pro/tools/epimetheus-py"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.6.2--py310hc7d9715_0"
  - "0.6.2--py311hb6b3792_0"
+ - "0.7.5--py310hc7d9715_0"
 description: "singularity registry hpc automated addition for epimetheus-py"
-config: {"url": "https://biocontainers.pro/tools/epimetheus-py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for epimetheus-py", "latest": {"0.6.2--py310hc7d9715_0": "sha256:d764d4b0e97fcc46f05af10b33bbe039416119bc3047d741e20c7806115ab918"}, "tags": {"0.6.2--py310hc7d9715_0": "sha256:d764d4b0e97fcc46f05af10b33bbe039416119bc3047d741e20c7806115ab918", "0.6.2--py311hb6b3792_0": "sha256:e476daff11d930d9a0b0fd4e3ec7d7a4a83f449f9eb848cd3eea73bde676f328"}, "docker": "quay.io/biocontainers/epimetheus-py", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/epimetheus-py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for epimetheus-py", "latest": {"0.7.5--py310hc7d9715_0": "sha256:024cdd6cc84b4ead3905f6aaf81da65c89eb78d4a5bf144582bb93807516f6a4"}, "tags": {"0.6.2--py310hc7d9715_0": "sha256:d764d4b0e97fcc46f05af10b33bbe039416119bc3047d741e20c7806115ab918", "0.6.2--py311hb6b3792_0": "sha256:e476daff11d930d9a0b0fd4e3ec7d7a4a83f449f9eb848cd3eea73bde676f328", "0.7.5--py310hc7d9715_0": "sha256:024cdd6cc84b4ead3905f6aaf81da65c89eb78d4a5bf144582bb93807516f6a4"}, "docker": "quay.io/biocontainers/epimetheus-py", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epimetheus-py.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/epimetheus-py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epimetheus-py:0.6.2--py310hc7d9715_0
+$ shpc install quay.io/biocontainers/epimetheus-py:0.7.5--py310hc7d9715_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epimetheus-py/0.6.2--py310hc7d9715_0
-$ module help quay.io/biocontainers/epimetheus-py/0.6.2--py310hc7d9715_0
+$ module load quay.io/biocontainers/epimetheus-py/0.7.5--py310hc7d9715_0
+$ module help quay.io/biocontainers/epimetheus-py/0.7.5--py310hc7d9715_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

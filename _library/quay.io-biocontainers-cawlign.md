@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cawlign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cawlign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cawlign/container.yaml"
-updated_at: "2025-10-17 03:44:46.613809"
-latest: "0.1.12--he91c24d_0"
+updated_at: "2025-10-18 03:38:22.803627"
+latest: "0.1.14--he91c24d_0"
 container_url: "https://biocontainers.pro/tools/cawlign"
 aliases:
  - "cawlign"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.1.11--he91c24d_0"
  - "0.1.12--he91c24d_0"
+ - "0.1.14--he91c24d_0"
 description: "singularity registry hpc automated addition for cawlign"
-config: {"url": "https://biocontainers.pro/tools/cawlign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cawlign", "latest": {"0.1.12--he91c24d_0": "sha256:9e21999d428cd14089275f54cd7131eb41c1412655c624b684c24fe50ad8e7b8"}, "tags": {"0.1.11--he91c24d_0": "sha256:0fd338c3bb3808384b2b4cc039874b3ca819d1e91665d965f92e81f442d1b4b4", "0.1.12--he91c24d_0": "sha256:9e21999d428cd14089275f54cd7131eb41c1412655c624b684c24fe50ad8e7b8"}, "docker": "quay.io/biocontainers/cawlign", "aliases": {"cawlign": "/usr/local/bin/cawlign", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun", "mpiCC": "/usr/local/bin/mpiCC", "ompi_info": "/usr/local/bin/ompi_info"}}
+config: {"url": "https://biocontainers.pro/tools/cawlign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cawlign", "latest": {"0.1.14--he91c24d_0": "sha256:457b041cc00abf94ccd301d761675687cc84bada0943989d7b6b6cdee52fb5b6"}, "tags": {"0.1.11--he91c24d_0": "sha256:0fd338c3bb3808384b2b4cc039874b3ca819d1e91665d965f92e81f442d1b4b4", "0.1.12--he91c24d_0": "sha256:9e21999d428cd14089275f54cd7131eb41c1412655c624b684c24fe50ad8e7b8", "0.1.14--he91c24d_0": "sha256:457b041cc00abf94ccd301d761675687cc84bada0943989d7b6b6cdee52fb5b6"}, "docker": "quay.io/biocontainers/cawlign", "aliases": {"cawlign": "/usr/local/bin/cawlign", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun", "mpiCC": "/usr/local/bin/mpiCC", "ompi_info": "/usr/local/bin/ompi_info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cawlign.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/cawlign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cawlign:0.1.12--he91c24d_0
+$ shpc install quay.io/biocontainers/cawlign:0.1.14--he91c24d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cawlign/0.1.12--he91c24d_0
-$ module help quay.io/biocontainers/cawlign/0.1.12--he91c24d_0
+$ module load quay.io/biocontainers/cawlign/0.1.14--he91c24d_0
+$ module help quay.io/biocontainers/cawlign/0.1.14--he91c24d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

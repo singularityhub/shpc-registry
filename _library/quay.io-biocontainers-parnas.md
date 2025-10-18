@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/parnas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parnas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parnas/container.yaml"
-updated_at: "2025-10-17 03:05:38.166112"
-latest: "0.1.6--pyhdfd78af_0"
+updated_at: "2025-10-18 02:58:51.477369"
+latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/parnas"
 aliases:
  - "parnas"
@@ -39,8 +39,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.1.6--pyhdfd78af_0"
+ - "0.1.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for parnas"
-config: {"url": "https://biocontainers.pro/tools/parnas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for parnas", "latest": {"0.1.6--pyhdfd78af_0": "sha256:789ac9b584d95b127b3cd00aeb77170356740c0ccd04c2c2c0d70f54460f0504"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:789ac9b584d95b127b3cd00aeb77170356740c0ccd04c2c2c0d70f54460f0504"}, "docker": "quay.io/biocontainers/parnas", "aliases": {"parnas": "/usr/local/bin/parnas", "sumlabels": "/usr/local/bin/sumlabels", "sumtrees": "/usr/local/bin/sumtrees", "treetime": "/usr/local/bin/treetime", "dendropy-format": "/usr/local/bin/dendropy-format", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "numpy-config": "/usr/local/bin/numpy-config", "numba": "/usr/local/bin/numba", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/parnas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for parnas", "latest": {"0.1.7--pyhdfd78af_0": "sha256:bdd885fdfbfeac1cfed08f7218033f181985248f4f35eb3b25ce3f167d29f29f"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:789ac9b584d95b127b3cd00aeb77170356740c0ccd04c2c2c0d70f54460f0504", "0.1.7--pyhdfd78af_0": "sha256:bdd885fdfbfeac1cfed08f7218033f181985248f4f35eb3b25ce3f167d29f29f"}, "docker": "quay.io/biocontainers/parnas", "aliases": {"parnas": "/usr/local/bin/parnas", "sumlabels": "/usr/local/bin/sumlabels", "sumtrees": "/usr/local/bin/sumtrees", "treetime": "/usr/local/bin/treetime", "dendropy-format": "/usr/local/bin/dendropy-format", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "numpy-config": "/usr/local/bin/numpy-config", "numba": "/usr/local/bin/numba", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parnas.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/parnas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/parnas:0.1.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/parnas:0.1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/parnas/0.1.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/parnas/0.1.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/parnas/0.1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/parnas/0.1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
