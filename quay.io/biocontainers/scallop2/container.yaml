@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/scallop2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scallop2
 latest:
-  1.1.2--h503566f_7: 
-    sha256:268572d980b7b70a95902912355d8111b5d381e9b9a7b751f5a6c4fa22d87b46
+  1.1.2--h5ca1c30_8: 
+    sha256:b7dadb91c446ea53e9a12fe1b261b75720c4da1ae427912f594f22bd474216df
 tags:
   1.1.2--hefd527f_3: 
     sha256:417d5c1d8d2a9f201ebd347771212c6e6fe5d0a5998621fc9b831a88bf33867e
@@ -15,6 +15,8 @@ tags:
     sha256:8dbecb6fb215a599a662f330a730d304219c838a291afd8dc7e13f17f8574038
   1.1.2--h503566f_7: 
     sha256:268572d980b7b70a95902912355d8111b5d381e9b9a7b751f5a6c4fa22d87b46
+  1.1.2--h5ca1c30_8: 
+    sha256:b7dadb91c446ea53e9a12fe1b261b75720c4da1ae427912f594f22bd474216df
 docker: quay.io/biocontainers/scallop2
 aliases:
   scallop2: /usr/local/bin/scallop2
