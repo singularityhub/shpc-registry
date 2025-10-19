@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mtb-snp-it"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtb-snp-it/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtb-snp-it/container.yaml"
-updated_at: "2025-10-18 03:47:44.439955"
+updated_at: "2025-10-19 04:09:18.673874"
 latest: "1.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/mtb-snp-it"
 aliases:

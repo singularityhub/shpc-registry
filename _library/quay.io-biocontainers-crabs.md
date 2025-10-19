@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crabs/container.yaml"
-updated_at: "2025-10-18 03:08:31.477143"
-latest: "1.9.0--pyhdfd78af_0"
+updated_at: "2025-10-19 03:29:51.606492"
+latest: "1.12.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crabs"
 aliases:
  - "crabs"
@@ -39,8 +39,9 @@ versions:
  - "1.0.6--pyhdfd78af_0"
  - "1.0.7--pyhdfd78af_0"
  - "1.9.0--pyhdfd78af_0"
+ - "1.12.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for crabs"
-config: {"url": "https://biocontainers.pro/tools/crabs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crabs", "latest": {"1.9.0--pyhdfd78af_0": "sha256:eb0c87fe379c9176bfd73b0f3f45dc0da598350c040a33e1d22b39f51568e1ca"}, "tags": {"0.1.1--pyhb7b1952_0": "sha256:6bf3047cee5fe0672b00646a2c5e68ec0539d8dd0609a6f5576e9fdd6488b1e5", "1.0.6--pyhdfd78af_0": "sha256:40116b39204f3af4157430d51029efc2a52ffed72909a5d6d15f243dc0394f70", "1.0.7--pyhdfd78af_0": "sha256:02af22e6e8568c3242848aeff4ba6b558f24d0da9130585f468e1eef3777df5c", "1.9.0--pyhdfd78af_0": "sha256:eb0c87fe379c9176bfd73b0f3f45dc0da598350c040a33e1d22b39f51568e1ca"}, "docker": "quay.io/biocontainers/crabs", "aliases": {"crabs": "/usr/local/bin/crabs", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "igzip": "/usr/local/bin/igzip", "muscle": "/usr/local/bin/muscle", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "f2py3.6": "/usr/local/bin/f2py3.6", "idn2": "/usr/local/bin/idn2", "tqdm": "/usr/local/bin/tqdm", "wget": "/usr/local/bin/wget", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc"}}
+config: {"url": "https://biocontainers.pro/tools/crabs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crabs", "latest": {"1.12.0--pyhdfd78af_0": "sha256:4b1a4df953eecb39f7154f0aab700d28d328d5c90a1ae30a9eff9307068b84d2"}, "tags": {"0.1.1--pyhb7b1952_0": "sha256:6bf3047cee5fe0672b00646a2c5e68ec0539d8dd0609a6f5576e9fdd6488b1e5", "1.0.6--pyhdfd78af_0": "sha256:40116b39204f3af4157430d51029efc2a52ffed72909a5d6d15f243dc0394f70", "1.0.7--pyhdfd78af_0": "sha256:02af22e6e8568c3242848aeff4ba6b558f24d0da9130585f468e1eef3777df5c", "1.9.0--pyhdfd78af_0": "sha256:eb0c87fe379c9176bfd73b0f3f45dc0da598350c040a33e1d22b39f51568e1ca", "1.12.0--pyhdfd78af_0": "sha256:4b1a4df953eecb39f7154f0aab700d28d328d5c90a1ae30a9eff9307068b84d2"}, "docker": "quay.io/biocontainers/crabs", "aliases": {"crabs": "/usr/local/bin/crabs", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "igzip": "/usr/local/bin/igzip", "muscle": "/usr/local/bin/muscle", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "f2py3.6": "/usr/local/bin/f2py3.6", "idn2": "/usr/local/bin/idn2", "tqdm": "/usr/local/bin/tqdm", "wget": "/usr/local/bin/wget", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crabs.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/crabs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crabs:1.9.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/crabs:1.12.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crabs/1.9.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/crabs/1.9.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/crabs/1.12.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/crabs/1.12.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

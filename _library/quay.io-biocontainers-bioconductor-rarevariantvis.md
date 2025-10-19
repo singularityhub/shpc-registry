@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rarevariantvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rarevariantvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rarevariantvis/container.yaml"
-updated_at: "2025-10-18 03:47:11.396253"
+updated_at: "2025-10-19 04:08:44.247891"
 latest: "2.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rarevariantvis"
 aliases:

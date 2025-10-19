@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aprfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aprfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aprfinder/container.yaml"
-updated_at: "2025-10-18 03:23:28.750561"
+updated_at: "2025-10-19 03:44:58.150491"
 latest: "1.5--h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/aprfinder"
 aliases:

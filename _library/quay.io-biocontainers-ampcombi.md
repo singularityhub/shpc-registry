@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ampcombi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampcombi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampcombi/container.yaml"
-updated_at: "2025-10-18 03:28:49.631509"
+updated_at: "2025-10-19 03:50:20.325358"
 latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampcombi"
 aliases:

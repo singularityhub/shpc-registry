@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ephemeris"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ephemeris/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ephemeris/container.yaml"
-updated_at: "2025-10-18 03:09:49.904078"
-latest: "0.10.10--pyhdfd78af_0"
+updated_at: "2025-10-19 03:31:10.853822"
+latest: "0.10.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ephemeris"
 aliases:
  - "bioblend-galaxy-tests"
@@ -37,8 +37,9 @@ versions:
  - "0.10.7--pyh5e36f6f_0"
  - "0.10.8--pyh7cba7a3_0"
  - "0.10.10--pyhdfd78af_0"
+ - "0.10.11--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ephemeris"
-config: {"url": "https://biocontainers.pro/tools/ephemeris", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ephemeris", "latest": {"0.10.10--pyhdfd78af_0": "sha256:3f225b0b6cb527307c5e1e6b5b9251c09fb488db5675951afd4d8ac43794bd4c"}, "tags": {"0.9.0--py_0": "sha256:25751a2233965806f758c42b56a287179d270ec41a60c314358d7b8e383e729e", "0.10.7--pyh5e36f6f_0": "sha256:54fc2ba1267c338a7450d7dc195fde19a2a7d061f209833aaed3c79431ce2a82", "0.10.8--pyh7cba7a3_0": "sha256:4da1f8be8965e0f4f5d28d982ea0875fd22d24fb1efdeae0fa8f53962b3b202d", "0.10.10--pyhdfd78af_0": "sha256:3f225b0b6cb527307c5e1e6b5b9251c09fb488db5675951afd4d8ac43794bd4c"}, "docker": "quay.io/biocontainers/ephemeris", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "galaxy-wait": "/usr/local/bin/galaxy-wait", "get-tool-list": "/usr/local/bin/get-tool-list", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-search": "/usr/local/bin/mulled-search", "run-data-managers": "/usr/local/bin/run-data-managers", "setup-data-libraries": "/usr/local/bin/setup-data-libraries", "shed-tools": "/usr/local/bin/shed-tools", "workflow-install": "/usr/local/bin/workflow-install", "workflow-to-tools": "/usr/local/bin/workflow-to-tools", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/ephemeris", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ephemeris", "latest": {"0.10.11--pyhdfd78af_0": "sha256:fef92176672babd3fe5037e70fb22eb1090cde2df7f48c1b5be9973378bf3cfe"}, "tags": {"0.9.0--py_0": "sha256:25751a2233965806f758c42b56a287179d270ec41a60c314358d7b8e383e729e", "0.10.7--pyh5e36f6f_0": "sha256:54fc2ba1267c338a7450d7dc195fde19a2a7d061f209833aaed3c79431ce2a82", "0.10.8--pyh7cba7a3_0": "sha256:4da1f8be8965e0f4f5d28d982ea0875fd22d24fb1efdeae0fa8f53962b3b202d", "0.10.10--pyhdfd78af_0": "sha256:3f225b0b6cb527307c5e1e6b5b9251c09fb488db5675951afd4d8ac43794bd4c", "0.10.11--pyhdfd78af_0": "sha256:fef92176672babd3fe5037e70fb22eb1090cde2df7f48c1b5be9973378bf3cfe"}, "docker": "quay.io/biocontainers/ephemeris", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "galaxy-wait": "/usr/local/bin/galaxy-wait", "get-tool-list": "/usr/local/bin/get-tool-list", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-search": "/usr/local/bin/mulled-search", "run-data-managers": "/usr/local/bin/run-data-managers", "setup-data-libraries": "/usr/local/bin/setup-data-libraries", "shed-tools": "/usr/local/bin/shed-tools", "workflow-install": "/usr/local/bin/workflow-install", "workflow-to-tools": "/usr/local/bin/workflow-to-tools", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ephemeris.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/ephemeris
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ephemeris:0.10.10--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ephemeris:0.10.11--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ephemeris/0.10.10--pyhdfd78af_0
-$ module help quay.io/biocontainers/ephemeris/0.10.10--pyhdfd78af_0
+$ module load quay.io/biocontainers/ephemeris/0.10.11--pyhdfd78af_0
+$ module help quay.io/biocontainers/ephemeris/0.10.11--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

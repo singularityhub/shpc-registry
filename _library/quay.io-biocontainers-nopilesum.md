@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nopilesum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nopilesum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nopilesum/container.yaml"
-updated_at: "2025-10-18 03:17:09.796206"
+updated_at: "2025-10-19 03:38:34.084051"
 latest: "1.1.2--h5884fcd_0"
 container_url: "https://biocontainers.pro/tools/nopilesum"
 aliases:

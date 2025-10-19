@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-kmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-kmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-kmer/container.yaml"
-updated_at: "2025-10-18 03:41:04.481088"
+updated_at: "2025-10-19 04:02:24.048050"
 latest: "0.55--pl5321h031d066_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-kmer"
 aliases:

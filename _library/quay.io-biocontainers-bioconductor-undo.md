@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-undo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-undo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-undo/container.yaml"
-updated_at: "2025-10-18 02:58:13.008190"
+updated_at: "2025-10-19 03:19:30.344763"
 latest: "1.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-undo"
 

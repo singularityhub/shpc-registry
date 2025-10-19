@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowfit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowfit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowfit/container.yaml"
-updated_at: "2025-10-18 02:59:57.383293"
+updated_at: "2025-10-19 03:21:12.962929"
 latest: "1.24.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowfit"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lca/container.yaml"
-updated_at: "2025-10-18 03:03:02.774334"
-latest: "0.25--h077b44d_1"
+updated_at: "2025-10-19 03:24:23.644502"
+latest: "0.25--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/lca"
 aliases:
  - "LCA"
@@ -14,8 +14,9 @@ versions:
  - "0.24--hdcf5f25_2"
  - "0.25--hdcf5f25_0"
  - "0.25--h077b44d_1"
+ - "0.25--h077b44d_2"
 description: "shpc-registry automated BioContainers addition for lca"
-config: {"url": "https://biocontainers.pro/tools/lca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lca", "latest": {"0.25--h077b44d_1": "sha256:82b0159a2fc848233cbfd037c8a98038b54c5cecb13ae7c290260ac1259c5772"}, "tags": {"0.23--hd03093a_1": "sha256:914333ec6aedc403748387c136645c0db05125b4b2571b74eafb00e67df49ab5", "0.24--hdcf5f25_2": "sha256:74a8caf952ed34e1e6fd2e0bfda1a744b50fbaffb07695853b57afb9633d64a0", "0.25--hdcf5f25_0": "sha256:e3705ddb09867d75f041a26f165f5961fc9576b12c9fe44513aed5d7c07c5d18", "0.25--h077b44d_1": "sha256:82b0159a2fc848233cbfd037c8a98038b54c5cecb13ae7c290260ac1259c5772"}, "docker": "quay.io/biocontainers/lca", "aliases": {"LCA": "/usr/local/bin/LCA"}}
+config: {"url": "https://biocontainers.pro/tools/lca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lca", "latest": {"0.25--h077b44d_2": "sha256:f539eedc230f3f5bc972b6039d3dcc4a310f1cc90002511bd21a834e2fba1523"}, "tags": {"0.23--hd03093a_1": "sha256:914333ec6aedc403748387c136645c0db05125b4b2571b74eafb00e67df49ab5", "0.24--hdcf5f25_2": "sha256:74a8caf952ed34e1e6fd2e0bfda1a744b50fbaffb07695853b57afb9633d64a0", "0.25--hdcf5f25_0": "sha256:e3705ddb09867d75f041a26f165f5961fc9576b12c9fe44513aed5d7c07c5d18", "0.25--h077b44d_1": "sha256:82b0159a2fc848233cbfd037c8a98038b54c5cecb13ae7c290260ac1259c5772", "0.25--h077b44d_2": "sha256:f539eedc230f3f5bc972b6039d3dcc4a310f1cc90002511bd21a834e2fba1523"}, "docker": "quay.io/biocontainers/lca", "aliases": {"LCA": "/usr/local/bin/LCA"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lca.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/lca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lca:0.25--h077b44d_1
+$ shpc install quay.io/biocontainers/lca:0.25--h077b44d_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lca/0.25--h077b44d_1
-$ module help quay.io/biocontainers/lca/0.25--h077b44d_1
+$ module load quay.io/biocontainers/lca/0.25--h077b44d_2
+$ module help quay.io/biocontainers/lca/0.25--h077b44d_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

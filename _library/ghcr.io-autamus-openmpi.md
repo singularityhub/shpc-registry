@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/openmpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/openmpi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/openmpi/container.yaml"
-updated_at: "2025-10-18 03:49:48.393049"
+updated_at: "2025-10-19 04:11:22.597347"
 latest: "4.1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/openmpi"
 aliases:

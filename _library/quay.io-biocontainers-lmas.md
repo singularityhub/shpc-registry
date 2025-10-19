@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lmas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lmas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lmas/container.yaml"
-updated_at: "2025-10-18 02:57:57.637929"
+updated_at: "2025-10-19 03:19:15.125921"
 latest: "2.0.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lmas"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chembl_webresource_client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chembl_webresource_client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chembl_webresource_client/container.yaml"
-updated_at: "2025-10-18 03:02:47.947539"
+updated_at: "2025-10-19 03:24:08.541869"
 latest: "0.10.1"
 container_url: "https://biocontainers.pro/tools/chembl_webresource_client"
 aliases:

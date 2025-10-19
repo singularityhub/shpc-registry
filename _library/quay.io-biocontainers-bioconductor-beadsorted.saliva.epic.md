@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-beadsorted.saliva.epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-beadsorted.saliva.epic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-beadsorted.saliva.epic/container.yaml"
-updated_at: "2025-10-18 03:17:52.887005"
+updated_at: "2025-10-19 03:39:17.505510"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-beadsorted.saliva.epic"
 

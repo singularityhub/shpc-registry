@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grafimo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grafimo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grafimo/container.yaml"
-updated_at: "2025-10-18 03:10:31.402173"
+updated_at: "2025-10-19 03:31:52.787570"
 latest: "1.1.6--py39h5371cbf_0"
 container_url: "https://biocontainers.pro/tools/grafimo"
 aliases:

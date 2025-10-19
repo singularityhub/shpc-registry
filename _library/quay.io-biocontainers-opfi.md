@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opfi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opfi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opfi/container.yaml"
-updated_at: "2025-10-18 03:45:27.326753"
+updated_at: "2025-10-19 04:06:52.506416"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/opfi"
 aliases:

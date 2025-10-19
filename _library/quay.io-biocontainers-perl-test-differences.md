@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-differences"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-differences/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-differences/container.yaml"
-updated_at: "2025-10-18 03:13:00.550526"
+updated_at: "2025-10-19 03:34:23.488290"
 latest: "0.67--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-test-differences"
 aliases:

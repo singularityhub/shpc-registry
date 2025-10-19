@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/piranha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piranha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piranha/container.yaml"
-updated_at: "2025-10-18 03:08:34.915644"
+updated_at: "2025-10-19 03:29:55.092128"
 latest: "1.2.1--ha5748cb_11"
 container_url: "https://biocontainers.pro/tools/piranha"
 aliases:

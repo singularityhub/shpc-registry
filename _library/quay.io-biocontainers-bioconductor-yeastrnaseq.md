@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yeastrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeastrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeastrnaseq/container.yaml"
-updated_at: "2025-10-18 03:16:37.317696"
+updated_at: "2025-10-19 03:38:01.677667"
 latest: "0.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeastrnaseq"
 

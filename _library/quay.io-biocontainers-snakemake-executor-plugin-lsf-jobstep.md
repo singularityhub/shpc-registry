@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-lsf-jobstep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-lsf-jobstep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-lsf-jobstep/container.yaml"
-updated_at: "2025-10-18 03:15:00.912895"
+updated_at: "2025-10-19 03:36:24.772121"
 latest: "0.1.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-lsf-jobstep"
 aliases:
