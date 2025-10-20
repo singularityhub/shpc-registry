@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-dinamic.duo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dinamic.duo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dinamic.duo/container.yaml"
-updated_at: "2025-10-19 03:24:30.994980"
-latest: "1.0.3--r44heae9e1c_0"
+updated_at: "2025-10-20 03:23:17.150429"
+latest: "1.0.4--r44heae9e1c_0"
 container_url: "https://biocontainers.pro/tools/r-dinamic.duo"
 aliases:
  - "installBiocDataPackage.sh"
@@ -30,8 +30,9 @@ versions:
  - "1.0.2--r43h3121a25_2"
  - "1.0.2--r44h3121a25_3"
  - "1.0.3--r44heae9e1c_0"
+ - "1.0.4--r44heae9e1c_0"
 description: "singularity registry hpc automated addition for r-dinamic.duo"
-config: {"url": "https://biocontainers.pro/tools/r-dinamic.duo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-dinamic.duo", "latest": {"1.0.3--r44heae9e1c_0": "sha256:7881cfb598a6812677c8b79d1eda5282da44fc47d7ef290bcf715046c56280f2"}, "tags": {"1.0.1--r42h3121a25_1": "sha256:f4b1b3d00e3c9bc1dbd27f24751c720349d2f6f8b9998ee4f7df265950ec707a", "1.0.2--r42h3121a25_1": "sha256:4cec869ce59131bb39186bca3e641f4ad9420998ebdcca3cf112711bd982123f", "1.0.2--r43h3121a25_2": "sha256:03f9e05c7166ec2cec56e61d19582f3581edb48437244dea59423b4e57635a77", "1.0.2--r44h3121a25_3": "sha256:ff22e9d3847b74f544e063616e94ab24759cec56858fb7853f7fe3f33061bf9f", "1.0.3--r44heae9e1c_0": "sha256:7881cfb598a6812677c8b79d1eda5282da44fc47d7ef290bcf715046c56280f2"}, "docker": "quay.io/biocontainers/r-dinamic.duo", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-dinamic.duo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-dinamic.duo", "latest": {"1.0.4--r44heae9e1c_0": "sha256:820250b15b078ba8f3cba5016a0713db0e38279e303b5ccc94d5cd953c905621"}, "tags": {"1.0.1--r42h3121a25_1": "sha256:f4b1b3d00e3c9bc1dbd27f24751c720349d2f6f8b9998ee4f7df265950ec707a", "1.0.2--r42h3121a25_1": "sha256:4cec869ce59131bb39186bca3e641f4ad9420998ebdcca3cf112711bd982123f", "1.0.2--r43h3121a25_2": "sha256:03f9e05c7166ec2cec56e61d19582f3581edb48437244dea59423b4e57635a77", "1.0.2--r44h3121a25_3": "sha256:ff22e9d3847b74f544e063616e94ab24759cec56858fb7853f7fe3f33061bf9f", "1.0.3--r44heae9e1c_0": "sha256:7881cfb598a6812677c8b79d1eda5282da44fc47d7ef290bcf715046c56280f2", "1.0.4--r44heae9e1c_0": "sha256:820250b15b078ba8f3cba5016a0713db0e38279e303b5ccc94d5cd953c905621"}, "docker": "quay.io/biocontainers/r-dinamic.duo", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dinamic.duo.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/r-dinamic.duo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dinamic.duo:1.0.3--r44heae9e1c_0
+$ shpc install quay.io/biocontainers/r-dinamic.duo:1.0.4--r44heae9e1c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dinamic.duo/1.0.3--r44heae9e1c_0
-$ module help quay.io/biocontainers/r-dinamic.duo/1.0.3--r44heae9e1c_0
+$ module load quay.io/biocontainers/r-dinamic.duo/1.0.4--r44heae9e1c_0
+$ module help quay.io/biocontainers/r-dinamic.duo/1.0.4--r44heae9e1c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

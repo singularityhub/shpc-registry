@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mutalyzer_hgvs_parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutalyzer_hgvs_parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutalyzer_hgvs_parser/container.yaml"
-updated_at: "2025-10-19 03:40:55.310749"
-latest: "0.3.8--pyh7e72e81_0"
+updated_at: "2025-10-20 03:38:16.600502"
+latest: "0.3.9--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mutalyzer_hgvs_parser"
 aliases:
  - "mutalyzer_hgvs_parser"
@@ -15,8 +15,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "0.3.8--pyh7e72e81_0"
+ - "0.3.9--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for mutalyzer_hgvs_parser"
-config: {"url": "https://biocontainers.pro/tools/mutalyzer_hgvs_parser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mutalyzer_hgvs_parser", "latest": {"0.3.8--pyh7e72e81_0": "sha256:bcb7d0a1f7d1854cfc05ecf54fe59713505004e73b475d80087d9d02e714b9ef"}, "tags": {"0.3.8--pyh7e72e81_0": "sha256:bcb7d0a1f7d1854cfc05ecf54fe59713505004e73b475d80087d9d02e714b9ef"}, "docker": "quay.io/biocontainers/mutalyzer_hgvs_parser", "aliases": {"mutalyzer_hgvs_parser": "/usr/local/bin/mutalyzer_hgvs_parser", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/mutalyzer_hgvs_parser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mutalyzer_hgvs_parser", "latest": {"0.3.9--pyh7e72e81_0": "sha256:ad75f7bea36f0e9a485a249c8f6a5ddcdcf74e54bbc1cfdd6d6fc23d5a9d902b"}, "tags": {"0.3.8--pyh7e72e81_0": "sha256:bcb7d0a1f7d1854cfc05ecf54fe59713505004e73b475d80087d9d02e714b9ef", "0.3.9--pyh7e72e81_0": "sha256:ad75f7bea36f0e9a485a249c8f6a5ddcdcf74e54bbc1cfdd6d6fc23d5a9d902b"}, "docker": "quay.io/biocontainers/mutalyzer_hgvs_parser", "aliases": {"mutalyzer_hgvs_parser": "/usr/local/bin/mutalyzer_hgvs_parser", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mutalyzer_hgvs_parser.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/mutalyzer_hgvs_parser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mutalyzer_hgvs_parser:0.3.8--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/mutalyzer_hgvs_parser:0.3.9--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mutalyzer_hgvs_parser/0.3.8--pyh7e72e81_0
-$ module help quay.io/biocontainers/mutalyzer_hgvs_parser/0.3.8--pyh7e72e81_0
+$ module load quay.io/biocontainers/mutalyzer_hgvs_parser/0.3.9--pyh7e72e81_0
+$ module help quay.io/biocontainers/mutalyzer_hgvs_parser/0.3.9--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

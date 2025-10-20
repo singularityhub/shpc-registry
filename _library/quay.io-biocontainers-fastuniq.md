@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fastuniq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastuniq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastuniq/container.yaml"
-updated_at: "2025-10-19 04:06:21.065964"
-latest: "1.1--h470a237_1"
+updated_at: "2025-10-20 04:01:28.977434"
+latest: "1.1--h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/fastuniq"
 aliases:
  - "fastuniq"
 versions:
  - "1.1--h470a237_1"
+ - "1.1--h7b50bb2_2"
 description: "shpc-registry automated BioContainers addition for fastuniq"
-config: {"url": "https://biocontainers.pro/tools/fastuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastuniq", "latest": {"1.1--h470a237_1": "sha256:3d06297bcbeda64b43a071aed440c4693b09ee9355012dc90378be593458d574"}, "tags": {"1.1--h470a237_1": "sha256:3d06297bcbeda64b43a071aed440c4693b09ee9355012dc90378be593458d574"}, "docker": "quay.io/biocontainers/fastuniq", "aliases": {"fastuniq": "/usr/local/bin/fastuniq"}}
+config: {"url": "https://biocontainers.pro/tools/fastuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastuniq", "latest": {"1.1--h7b50bb2_2": "sha256:6f6631c7d93814f701ec5ff3aa84e27236f64bef728f77998c90487eb1654e24"}, "tags": {"1.1--h470a237_1": "sha256:3d06297bcbeda64b43a071aed440c4693b09ee9355012dc90378be593458d574", "1.1--h7b50bb2_2": "sha256:6f6631c7d93814f701ec5ff3aa84e27236f64bef728f77998c90487eb1654e24"}, "docker": "quay.io/biocontainers/fastuniq", "aliases": {"fastuniq": "/usr/local/bin/fastuniq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastuniq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fastuniq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastuniq:1.1--h470a237_1
+$ shpc install quay.io/biocontainers/fastuniq:1.1--h7b50bb2_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastuniq/1.1--h470a237_1
-$ module help quay.io/biocontainers/fastuniq/1.1--h470a237_1
+$ module load quay.io/biocontainers/fastuniq/1.1--h7b50bb2_2
+$ module help quay.io/biocontainers/fastuniq/1.1--h7b50bb2_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

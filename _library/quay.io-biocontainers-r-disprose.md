@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-disprose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-disprose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-disprose/container.yaml"
-updated_at: "2025-10-19 04:06:25.767832"
+updated_at: "2025-10-20 04:01:32.924437"
 latest: "0.1.6--r44h3342da4_3"
 container_url: "https://biocontainers.pro/tools/r-disprose"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clustalo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clustalo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clustalo/container.yaml"
-updated_at: "2025-10-19 03:19:24.094990"
-latest: "1.2.4--h503566f_9"
+updated_at: "2025-10-20 03:18:44.468262"
+latest: "1.2.4--h503566f_10"
 container_url: "https://biocontainers.pro/tools/clustalo"
 aliases:
  - "clustalo"
@@ -14,8 +14,9 @@ versions:
  - "1.2.4--hdbdd923_7"
  - "1.2.4--hdbdd923_8"
  - "1.2.4--h503566f_9"
+ - "1.2.4--h503566f_10"
 description: "shpc-registry automated BioContainers addition for clustalo"
-config: {"url": "https://biocontainers.pro/tools/clustalo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clustalo", "latest": {"1.2.4--h503566f_9": "sha256:4adec2ee1454bbc88df305cc642e87f588d544435fe8136f6ddfb2e964c9c89c"}, "tags": {"1.2.4--h87f3376_5": "sha256:7e636b5b9836aa37d704a4d5e593843ca77221741c333b5a225357c93d75b6a0", "1.2.4--hdbdd923_7": "sha256:9c256e51803324aec3227e7bbe000eddef872a09882b3bd6de6c49124c04e6af", "1.2.4--hdbdd923_8": "sha256:3531c4b578fff853f8907274ca872e0cf5be4f42fda1496fafd27eaa65a83778", "1.2.4--h503566f_9": "sha256:4adec2ee1454bbc88df305cc642e87f588d544435fe8136f6ddfb2e964c9c89c"}, "docker": "quay.io/biocontainers/clustalo", "aliases": {"clustalo": "/usr/local/bin/clustalo"}}
+config: {"url": "https://biocontainers.pro/tools/clustalo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clustalo", "latest": {"1.2.4--h503566f_10": "sha256:0407c6cb761f76cc4854c59e9c8c4e8dfe982ae8847241abdb2c421bffa52b18"}, "tags": {"1.2.4--h87f3376_5": "sha256:7e636b5b9836aa37d704a4d5e593843ca77221741c333b5a225357c93d75b6a0", "1.2.4--hdbdd923_7": "sha256:9c256e51803324aec3227e7bbe000eddef872a09882b3bd6de6c49124c04e6af", "1.2.4--hdbdd923_8": "sha256:3531c4b578fff853f8907274ca872e0cf5be4f42fda1496fafd27eaa65a83778", "1.2.4--h503566f_9": "sha256:4adec2ee1454bbc88df305cc642e87f588d544435fe8136f6ddfb2e964c9c89c", "1.2.4--h503566f_10": "sha256:0407c6cb761f76cc4854c59e9c8c4e8dfe982ae8847241abdb2c421bffa52b18"}, "docker": "quay.io/biocontainers/clustalo", "aliases": {"clustalo": "/usr/local/bin/clustalo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clustalo.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/clustalo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clustalo:1.2.4--h503566f_9
+$ shpc install quay.io/biocontainers/clustalo:1.2.4--h503566f_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clustalo/1.2.4--h503566f_9
-$ module help quay.io/biocontainers/clustalo/1.2.4--h503566f_9
+$ module load quay.io/biocontainers/clustalo/1.2.4--h503566f_10
+$ module help quay.io/biocontainers/clustalo/1.2.4--h503566f_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
