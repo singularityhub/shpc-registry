@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/genomescope2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genomescope2
 latest:
-  2.0--py312r43hdfd78af_7: 
-    sha256:7a6f7e7261f900b38a6873fe87cf96c71274b39e8b86d6358958b9a225ba254e
+  2.1.0--py313r44hdfd78af_0: 
+    sha256:074d24905d56b98c72ff24c328aff3f5f53a847e7514e0b8f00cc07b2fea4892
 tags:
   2.0--py310r41hdfd78af_5: 
     sha256:454960962859687312ec23f6382cff0ae5eb4ae4dc0603cc3463b3d2e90524b5
@@ -11,6 +11,8 @@ tags:
     sha256:99e9fad1f54f83c2e1c1549af901edef1c465717d7fbaa3267b932e5df69e6d0
   2.0--py312r43hdfd78af_7: 
     sha256:7a6f7e7261f900b38a6873fe87cf96c71274b39e8b86d6358958b9a225ba254e
+  2.1.0--py313r44hdfd78af_0: 
+    sha256:074d24905d56b98c72ff24c328aff3f5f53a847e7514e0b8f00cc07b2fea4892
 docker: quay.io/biocontainers/genomescope2
 aliases:
   genomescope2: /usr/local/bin/genomescope2

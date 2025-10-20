@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   soapdenovo2-gapcloser
 latest:
-  1.12--he941832_2: 
-    sha256:ed772f45baaf3c9e6ea200b0675cac115601e3a6c00a4a7cf0a2db70829b26a9
+  1.12--h077b44d_3: 
+    sha256:4fd441c980363f8f05cc79074ee91e4e301e00368ec46d93ee4239c8eadaa058
 tags:
   1.12--he941832_2: 
     sha256:ed772f45baaf3c9e6ea200b0675cac115601e3a6c00a4a7cf0a2db70829b26a9
+  1.12--h077b44d_3: 
+    sha256:4fd441c980363f8f05cc79074ee91e4e301e00368ec46d93ee4239c8eadaa058
 docker: quay.io/biocontainers/soapdenovo2-gapcloser
 aliases:
   GapCloser: /usr/local/bin/GapCloser
