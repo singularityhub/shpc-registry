@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enrichviewnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichviewnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichviewnet/container.yaml"
-updated_at: "2025-10-20 04:03:12.393144"
+updated_at: "2025-10-21 03:16:06.681658"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichviewnet"
 aliases:

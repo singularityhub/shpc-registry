@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-organismdbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-organismdbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-organismdbi/container.yaml"
-updated_at: "2025-10-20 04:04:55.631514"
+updated_at: "2025-10-21 03:45:53.701169"
 latest: "1.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-organismdbi"
 

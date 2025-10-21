@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pm4ngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pm4ngs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pm4ngs/container.yaml"
-updated_at: "2025-10-20 03:23:41.500040"
-latest: "0.0.21--pyhdfd78af_0"
+updated_at: "2025-10-21 03:44:40.756575"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pm4ngs"
 aliases:
  - "bagit.py"
@@ -51,8 +51,9 @@ aliases:
 versions:
  - "0.0.9--pyhdfd78af_0"
  - "0.0.21--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pm4ngs"
-config: {"url": "https://biocontainers.pro/tools/pm4ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pm4ngs", "latest": {"0.0.21--pyhdfd78af_0": "sha256:465239c61f4b0249a67062fe075d8943c6f598b62505667e541e6f72fa253fc5"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1", "0.0.21--pyhdfd78af_0": "sha256:465239c61f4b0249a67062fe075d8943c6f598b62505667e541e6f72fa253fc5"}, "docker": "quay.io/biocontainers/pm4ngs", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bioconda2biocontainer": "/usr/local/bin/bioconda2biocontainer", "bioconda2cwldocker": "/usr/local/bin/bioconda2cwldocker", "biocontainers-search": "/usr/local/bin/biocontainers-search", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "cookiecutter": "/usr/local/bin/cookiecutter", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "goenrichment": "/usr/local/bin/goenrichment", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "pm4ngs-chipexo": "/usr/local/bin/pm4ngs-chipexo", "pm4ngs-chipexo-demo": "/usr/local/bin/pm4ngs-chipexo-demo", "pm4ngs-chipseq": "/usr/local/bin/pm4ngs-chipseq", "pm4ngs-chipseq-demo": "/usr/local/bin/pm4ngs-chipseq-demo", "pm4ngs-create": "/usr/local/bin/pm4ngs-create", "pm4ngs-rnaseq": "/usr/local/bin/pm4ngs-rnaseq", "pm4ngs-rnaseq-demo": "/usr/local/bin/pm4ngs-rnaseq-demo", "pm4ngs-server": "/usr/local/bin/pm4ngs-server", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "wsdump.py": "/usr/local/bin/wsdump.py", "cwltool": "/usr/local/bin/cwltool", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "pdfattach": "/usr/local/bin/pdfattach", "csv2rdf": "/usr/local/bin/csv2rdf", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages"}}
+config: {"url": "https://biocontainers.pro/tools/pm4ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pm4ngs", "latest": {"0.1.2--pyhdfd78af_0": "sha256:4a5063400ad0b393e72f5c5eefc535864455ca5e73b5281b8ae84bdb773f973d"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1", "0.0.21--pyhdfd78af_0": "sha256:465239c61f4b0249a67062fe075d8943c6f598b62505667e541e6f72fa253fc5", "0.1.2--pyhdfd78af_0": "sha256:4a5063400ad0b393e72f5c5eefc535864455ca5e73b5281b8ae84bdb773f973d"}, "docker": "quay.io/biocontainers/pm4ngs", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bioconda2biocontainer": "/usr/local/bin/bioconda2biocontainer", "bioconda2cwldocker": "/usr/local/bin/bioconda2cwldocker", "biocontainers-search": "/usr/local/bin/biocontainers-search", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "cookiecutter": "/usr/local/bin/cookiecutter", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "goenrichment": "/usr/local/bin/goenrichment", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "pm4ngs-chipexo": "/usr/local/bin/pm4ngs-chipexo", "pm4ngs-chipexo-demo": "/usr/local/bin/pm4ngs-chipexo-demo", "pm4ngs-chipseq": "/usr/local/bin/pm4ngs-chipseq", "pm4ngs-chipseq-demo": "/usr/local/bin/pm4ngs-chipseq-demo", "pm4ngs-create": "/usr/local/bin/pm4ngs-create", "pm4ngs-rnaseq": "/usr/local/bin/pm4ngs-rnaseq", "pm4ngs-rnaseq-demo": "/usr/local/bin/pm4ngs-rnaseq-demo", "pm4ngs-server": "/usr/local/bin/pm4ngs-server", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "wsdump.py": "/usr/local/bin/wsdump.py", "cwltool": "/usr/local/bin/cwltool", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "pdfattach": "/usr/local/bin/pdfattach", "csv2rdf": "/usr/local/bin/csv2rdf", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pm4ngs.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/pm4ngs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pm4ngs:0.0.21--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pm4ngs:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pm4ngs/0.0.21--pyhdfd78af_0
-$ module help quay.io/biocontainers/pm4ngs/0.0.21--pyhdfd78af_0
+$ module load quay.io/biocontainers/pm4ngs/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/pm4ngs/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

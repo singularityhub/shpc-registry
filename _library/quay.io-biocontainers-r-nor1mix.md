@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nor1mix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nor1mix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nor1mix/container.yaml"
-updated_at: "2025-10-20 03:23:22.124683"
+updated_at: "2025-10-21 03:18:27.222020"
 latest: "1.2_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-nor1mix"
 aliases:
