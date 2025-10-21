@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phipack
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phipack
 latest:
-  1.1--h7b50bb2_6: 
-    sha256:42c7f954689f1ffb58cf6fd812b69c6ff846e0ca01e3be9554df0392eca5534d
+  1.1--h7b50bb2_7: 
+    sha256:d896944e4302ffe913bee40ab3554e1204ce16dfcace1fab2d29740ba97f4be7
 tags:
   1.1--hec16e2b_2: 
     sha256:c9864663c0e2705837d3420dfbbed9af02607f309a7e3292118abc7eb9059e96
@@ -13,6 +13,8 @@ tags:
     sha256:d083c28d1a4f37a23990c8453615bcade5da1b2d068716c035775746d929a106
   1.1--h7b50bb2_6: 
     sha256:42c7f954689f1ffb58cf6fd812b69c6ff846e0ca01e3be9554df0392eca5534d
+  1.1--h7b50bb2_7: 
+    sha256:d896944e4302ffe913bee40ab3554e1204ce16dfcace1fab2d29740ba97f4be7
 docker: quay.io/biocontainers/phipack
 aliases:
   Phi: /usr/local/bin/Phi

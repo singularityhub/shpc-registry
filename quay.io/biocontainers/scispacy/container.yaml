@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/scispacy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scispacy
 latest:
-  0.5.5--pyhdfd78af_1: 
-    sha256:2da115e0234d050e9bfc293e29d410b2bbc9974c2d558550cdfa86a6fe5b5863
+  0.6.2--pyhdfd78af_0: 
+    sha256:bb008b2fbd581ea61bec9bf0bb2d6485067c0dffdfa70088281de66661475b52
 tags:
   0.5.5--pyhdfd78af_0: 
     sha256:b09ba53c88e6daa941d7f31af554c51750c493fdaafab66f161e46da16c6b7b4
   0.5.5--pyhdfd78af_1: 
     sha256:2da115e0234d050e9bfc293e29d410b2bbc9974c2d558550cdfa86a6fe5b5863
+  0.6.2--pyhdfd78af_0: 
+    sha256:bb008b2fbd581ea61bec9bf0bb2d6485067c0dffdfa70088281de66661475b52
 docker: quay.io/biocontainers/scispacy
 aliases:
   spacy: /usr/local/bin/spacy
