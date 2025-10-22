@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bamhash
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bamhash
 latest:
-  1.1--h35c04b2_9: 
-    sha256:91862de718c1a9f2df085cc67c28d35d3f4070c255c1ca78f977bc1160958e70
+  2.0--h35c04b2_0: 
+    sha256:85f6da841baf73e12e20a40de1024b2b5be859ce409c34617ea20a864769584a
 tags:
   1.1--h32c79c6_6: 
     sha256:d0b26d96a0026731feaa4351ebd5e4791f0aebe5836141d8702307f895627ae9
@@ -11,6 +11,8 @@ tags:
     sha256:e7345e46be2400fc59a2b61e22595d16545c17a77d12840ccdf18f738cce0c55
   1.1--h35c04b2_9: 
     sha256:91862de718c1a9f2df085cc67c28d35d3f4070c255c1ca78f977bc1160958e70
+  2.0--h35c04b2_0: 
+    sha256:85f6da841baf73e12e20a40de1024b2b5be859ce409c34617ea20a864769584a
 docker: quay.io/biocontainers/bamhash
 aliases:
   bamhash_checksum_bam: /usr/local/bin/bamhash_checksum_bam
