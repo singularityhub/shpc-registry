@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntcard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntcard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntcard/container.yaml"
-updated_at: "2025-10-21 03:14:09.630018"
+updated_at: "2025-10-22 03:20:30.108250"
 latest: "1.2.2--pl5321h077b44d_7"
 container_url: "https://biocontainers.pro/tools/ntcard"
 aliases:

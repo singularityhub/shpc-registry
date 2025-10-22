@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ezcharts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezcharts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezcharts/container.yaml"
-updated_at: "2025-10-21 03:32:07.085737"
-latest: "0.14.1--pyhdfd78af_0"
+updated_at: "2025-10-22 03:39:54.863999"
+latest: "0.15.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezcharts"
 aliases:
  - "ezcharts"
@@ -42,8 +42,9 @@ versions:
  - "0.13.1--pyhdfd78af_0"
  - "0.14.0--pyhdfd78af_0"
  - "0.14.1--pyhdfd78af_0"
+ - "0.15.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ezcharts"
-config: {"url": "https://biocontainers.pro/tools/ezcharts", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ezcharts", "latest": {"0.14.1--pyhdfd78af_0": "sha256:61666c1635fc89e79bba196115ae4669fe4c709105f14c5f0c90285b598680d9"}, "tags": {"0.10.2--pyhdfd78af_0": "sha256:e79ed572ab3ef06d2c9097b9ae3039b17a7e0684534b43fb36c6c59fd2d4555e", "0.11.2--pyhdfd78af_0": "sha256:47adaada7cf2ead65ce2a97a46f82fcbbf186287ed90a726780dd4c20d37be49", "0.13.1--pyhdfd78af_0": "sha256:be227e04d57b9fd63d5c62054b9b12108d2ed3964d9bda7988beb68b8c2ee69c", "0.14.0--pyhdfd78af_0": "sha256:9cae93415c25627e7fc63c4ddeac773f627835ba5c3208e189fb3354d293d1f6", "0.14.1--pyhdfd78af_0": "sha256:61666c1635fc89e79bba196115ae4669fe4c709105f14c5f0c90285b598680d9"}, "docker": "quay.io/biocontainers/ezcharts", "aliases": {"ezcharts": "/usr/local/bin/ezcharts", "pymsaviz": "/usr/local/bin/pymsaviz", "pysassc": "/usr/local/bin/pysassc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "bokeh": "/usr/local/bin/bokeh", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/ezcharts", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ezcharts", "latest": {"0.15.0--pyhdfd78af_0": "sha256:c3070de65f90ad533b88cc8fb68832c92b7e55bf0d9a0ba587bff6cf587a5276"}, "tags": {"0.10.2--pyhdfd78af_0": "sha256:e79ed572ab3ef06d2c9097b9ae3039b17a7e0684534b43fb36c6c59fd2d4555e", "0.11.2--pyhdfd78af_0": "sha256:47adaada7cf2ead65ce2a97a46f82fcbbf186287ed90a726780dd4c20d37be49", "0.13.1--pyhdfd78af_0": "sha256:be227e04d57b9fd63d5c62054b9b12108d2ed3964d9bda7988beb68b8c2ee69c", "0.14.0--pyhdfd78af_0": "sha256:9cae93415c25627e7fc63c4ddeac773f627835ba5c3208e189fb3354d293d1f6", "0.14.1--pyhdfd78af_0": "sha256:61666c1635fc89e79bba196115ae4669fe4c709105f14c5f0c90285b598680d9", "0.15.0--pyhdfd78af_0": "sha256:c3070de65f90ad533b88cc8fb68832c92b7e55bf0d9a0ba587bff6cf587a5276"}, "docker": "quay.io/biocontainers/ezcharts", "aliases": {"ezcharts": "/usr/local/bin/ezcharts", "pymsaviz": "/usr/local/bin/pymsaviz", "pysassc": "/usr/local/bin/pysassc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "bokeh": "/usr/local/bin/bokeh", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ezcharts.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/ezcharts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ezcharts:0.14.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ezcharts:0.15.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ezcharts/0.14.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ezcharts/0.14.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ezcharts/0.15.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ezcharts/0.15.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

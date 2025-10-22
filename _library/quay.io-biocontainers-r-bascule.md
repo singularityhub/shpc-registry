@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bascule"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bascule/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bascule/container.yaml"
-updated_at: "2025-10-21 03:17:35.003887"
+updated_at: "2025-10-22 03:24:14.629078"
 latest: "1.0.1--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-bascule"
 aliases:

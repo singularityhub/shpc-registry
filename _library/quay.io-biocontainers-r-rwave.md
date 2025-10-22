@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rwave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rwave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rwave/container.yaml"
-updated_at: "2025-10-21 03:32:47.435902"
+updated_at: "2025-10-22 03:40:37.101965"
 latest: "2.4--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rwave"
 aliases:

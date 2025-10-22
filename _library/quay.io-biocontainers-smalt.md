@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smalt/container.yaml"
-updated_at: "2025-10-21 03:49:36.751168"
+updated_at: "2025-10-22 03:58:29.300209"
 latest: "0.7.6--h577a1d6_2"
 container_url: "https://biocontainers.pro/tools/smalt"
 aliases:

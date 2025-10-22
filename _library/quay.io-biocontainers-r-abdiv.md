@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-abdiv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-abdiv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-abdiv/container.yaml"
-updated_at: "2025-10-21 03:35:11.461399"
+updated_at: "2025-10-22 03:43:10.091396"
 latest: "0.2.0--r44h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-abdiv"
 

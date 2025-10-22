@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bioperl-run"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bioperl-run/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bioperl-run/container.yaml"
-updated_at: "2025-10-21 03:56:31.016689"
+updated_at: "2025-10-22 04:05:44.640667"
 latest: "1.007003--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bioperl-run"
 aliases:

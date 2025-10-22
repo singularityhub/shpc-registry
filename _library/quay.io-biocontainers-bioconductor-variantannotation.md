@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-variantannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-variantannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-variantannotation/container.yaml"
-updated_at: "2025-10-21 03:51:22.844275"
+updated_at: "2025-10-22 04:00:20.826430"
 latest: "1.52.0--r44h15a9599_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-variantannotation"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytriangle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytriangle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytriangle/container.yaml"
-updated_at: "2025-10-21 03:12:32.562433"
+updated_at: "2025-10-22 03:18:38.987281"
 latest: "1.0.9--py312h0fa9677_10"
 container_url: "https://biocontainers.pro/tools/pytriangle"
 aliases:

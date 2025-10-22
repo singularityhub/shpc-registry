@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/visceral-evaluatesegmentation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/visceral-evaluatesegmentation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/visceral-evaluatesegmentation/container.yaml"
-updated_at: "2025-10-21 03:18:06.217931"
-latest: "2015.07.03--hc9558a2_1"
+updated_at: "2025-10-22 03:24:48.664143"
+latest: "2021.03.25--h287ed61_0"
 container_url: "https://biocontainers.pro/tools/visceral-evaluatesegmentation"
 aliases:
  - "EvaluateSegmentation"
@@ -22,8 +22,9 @@ aliases:
  - "h52gif"
 versions:
  - "2015.07.03--hc9558a2_1"
+ - "2021.03.25--h287ed61_0"
 description: "shpc-registry automated BioContainers addition for visceral-evaluatesegmentation"
-config: {"url": "https://biocontainers.pro/tools/visceral-evaluatesegmentation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for visceral-evaluatesegmentation", "latest": {"2015.07.03--hc9558a2_1": "sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32"}, "tags": {"2015.07.03--hc9558a2_1": "sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32"}, "docker": "quay.io/biocontainers/visceral-evaluatesegmentation", "aliases": {"EvaluateSegmentation": "/usr/local/bin/EvaluateSegmentation", "itkTestDriver": "/usr/local/bin/itkTestDriver", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif"}}
+config: {"url": "https://biocontainers.pro/tools/visceral-evaluatesegmentation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for visceral-evaluatesegmentation", "latest": {"2021.03.25--h287ed61_0": "sha256:871f5f20980b5d3d6336c7c677d02a29f029449bbc87cd13a5e96166c7f8d3ed"}, "tags": {"2015.07.03--hc9558a2_1": "sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32", "2021.03.25--h287ed61_0": "sha256:871f5f20980b5d3d6336c7c677d02a29f029449bbc87cd13a5e96166c7f8d3ed"}, "docker": "quay.io/biocontainers/visceral-evaluatesegmentation", "aliases": {"EvaluateSegmentation": "/usr/local/bin/EvaluateSegmentation", "itkTestDriver": "/usr/local/bin/itkTestDriver", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/visceral-evaluatesegmentation.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/visceral-evaluatesegmentation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/visceral-evaluatesegmentation:2015.07.03--hc9558a2_1
+$ shpc install quay.io/biocontainers/visceral-evaluatesegmentation:2021.03.25--h287ed61_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/visceral-evaluatesegmentation/2015.07.03--hc9558a2_1
-$ module help quay.io/biocontainers/visceral-evaluatesegmentation/2015.07.03--hc9558a2_1
+$ module load quay.io/biocontainers/visceral-evaluatesegmentation/2021.03.25--h287ed61_0
+$ module help quay.io/biocontainers/visceral-evaluatesegmentation/2021.03.25--h287ed61_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

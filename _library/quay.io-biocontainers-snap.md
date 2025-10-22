@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snap/container.yaml"
-updated_at: "2025-10-21 03:10:54.108919"
+updated_at: "2025-10-22 03:16:53.543846"
 latest: "2017_03_01--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/snap"
 

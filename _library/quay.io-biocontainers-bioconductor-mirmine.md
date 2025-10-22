@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirmine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirmine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirmine/container.yaml"
-updated_at: "2025-10-21 03:51:49.444069"
+updated_at: "2025-10-22 04:00:47.750656"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirmine"
 aliases:

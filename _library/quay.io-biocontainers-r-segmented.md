@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-segmented"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-segmented/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-segmented/container.yaml"
-updated_at: "2025-10-21 03:36:42.502839"
+updated_at: "2025-10-22 03:44:45.149927"
 latest: "0.5_1.4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-segmented"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panisa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panisa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panisa/container.yaml"
-updated_at: "2025-10-21 03:22:44.352977"
+updated_at: "2025-10-22 03:29:45.750827"
 latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panisa"
 aliases:

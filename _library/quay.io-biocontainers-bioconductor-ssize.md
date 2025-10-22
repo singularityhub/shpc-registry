@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ssize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ssize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ssize/container.yaml"
-updated_at: "2025-10-21 03:50:51.241128"
+updated_at: "2025-10-22 03:59:48.429561"
 latest: "1.80.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ssize"
 

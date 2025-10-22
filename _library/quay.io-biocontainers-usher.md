@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/usher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/usher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/usher/container.yaml"
-updated_at: "2025-10-21 03:44:54.244819"
-latest: "0.6.6--hdd55de9_3"
+updated_at: "2025-10-22 03:53:25.123988"
+latest: "0.6.6--hdd55de9_4"
 container_url: "https://biocontainers.pro/tools/usher"
 aliases:
  - "faToVcf"
@@ -46,8 +46,9 @@ versions:
  - "0.6.6--h719ac0c_0"
  - "0.6.6--h719ac0c_2"
  - "0.6.6--hdd55de9_3"
+ - "0.6.6--hdd55de9_4"
 description: "shpc-registry automated BioContainers addition for usher"
-config: {"url": "https://biocontainers.pro/tools/usher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for usher", "latest": {"0.6.6--hdd55de9_3": "sha256:d4899a2f12f645cc4e52d024fc3970e78ec5b98e44005758ff1c21fbac69e243"}, "tags": {"0.5.6--h99b1ad8_1": "sha256:fb77ffa6979e8f81565b2bd9644ae3fe14832614f604622a129b0b7c7ec53b99", "0.6.1--h99b1ad8_0": "sha256:1752c70af14993b7e3161b53a466d8c7941a05e46b1b065a7f9e1db14f9ce564", "0.5.6--h99b1ad8_2": "sha256:466e59fb2b183dce061b487cb587d269862833413f6ac68b14122eaeb970d2c2", "0.6.2--h99b1ad8_0": "sha256:0bf805d7489c4c62d20947d839e23104b2eada4fedf4977e8bfde35ea56d9d01", "0.6.2--hb389108_1": "sha256:52a2f9f38c58a69877ff90a677ae00b9899f5be9992814502e789c1c8111a299", "0.6.3--hb389108_0": "sha256:c1f383abb1a4e23bdd8d4f738f396ec99d0739fe9bfd3ff8c6f60bb0eec152a8", "0.6.3--hb389108_1": "sha256:8be2dc89c6499b44818639fb994931f66c1b8c0da345d568b84c90b87d83d29f", "0.6.4--h719ac0c_0": "sha256:d2421aeec2798bb6ac1277fa9c5614945426154a947956917138fd7ac9252fca", "0.6.6--h719ac0c_0": "sha256:67dd633f0d9904fda8124f7de3b89301d8ff80f0ca2db93be50201bad4fe9dd8", "0.6.6--h719ac0c_2": "sha256:aeaa8cc3e3d29e96a1dcdc2eeb16a342ca3c91d04b4defbb058e7d8c3397ef6c", "0.6.6--hdd55de9_3": "sha256:d4899a2f12f645cc4e52d024fc3970e78ec5b98e44005758ff1c21fbac69e243"}, "docker": "quay.io/biocontainers/usher", "aliases": {"faToVcf": "/usr/local/bin/faToVcf", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "matOptimize": "/usr/local/bin/matOptimize", "matUtils": "/usr/local/bin/matUtils", "ripples": "/usr/local/bin/ripples", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "usher": "/usr/local/bin/usher", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/usher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for usher", "latest": {"0.6.6--hdd55de9_4": "sha256:ea6a156f2df5a643e42161ec2087439239240f7f5f59fbbffa696573d8bc9d9f"}, "tags": {"0.5.6--h99b1ad8_1": "sha256:fb77ffa6979e8f81565b2bd9644ae3fe14832614f604622a129b0b7c7ec53b99", "0.6.1--h99b1ad8_0": "sha256:1752c70af14993b7e3161b53a466d8c7941a05e46b1b065a7f9e1db14f9ce564", "0.5.6--h99b1ad8_2": "sha256:466e59fb2b183dce061b487cb587d269862833413f6ac68b14122eaeb970d2c2", "0.6.2--h99b1ad8_0": "sha256:0bf805d7489c4c62d20947d839e23104b2eada4fedf4977e8bfde35ea56d9d01", "0.6.2--hb389108_1": "sha256:52a2f9f38c58a69877ff90a677ae00b9899f5be9992814502e789c1c8111a299", "0.6.3--hb389108_0": "sha256:c1f383abb1a4e23bdd8d4f738f396ec99d0739fe9bfd3ff8c6f60bb0eec152a8", "0.6.3--hb389108_1": "sha256:8be2dc89c6499b44818639fb994931f66c1b8c0da345d568b84c90b87d83d29f", "0.6.4--h719ac0c_0": "sha256:d2421aeec2798bb6ac1277fa9c5614945426154a947956917138fd7ac9252fca", "0.6.6--h719ac0c_0": "sha256:67dd633f0d9904fda8124f7de3b89301d8ff80f0ca2db93be50201bad4fe9dd8", "0.6.6--h719ac0c_2": "sha256:aeaa8cc3e3d29e96a1dcdc2eeb16a342ca3c91d04b4defbb058e7d8c3397ef6c", "0.6.6--hdd55de9_3": "sha256:d4899a2f12f645cc4e52d024fc3970e78ec5b98e44005758ff1c21fbac69e243", "0.6.6--hdd55de9_4": "sha256:ea6a156f2df5a643e42161ec2087439239240f7f5f59fbbffa696573d8bc9d9f"}, "docker": "quay.io/biocontainers/usher", "aliases": {"faToVcf": "/usr/local/bin/faToVcf", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "matOptimize": "/usr/local/bin/matOptimize", "matUtils": "/usr/local/bin/matUtils", "ripples": "/usr/local/bin/ripples", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "usher": "/usr/local/bin/usher", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/usher.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/usher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/usher:0.6.6--hdd55de9_3
+$ shpc install quay.io/biocontainers/usher:0.6.6--hdd55de9_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/usher/0.6.6--hdd55de9_3
-$ module help quay.io/biocontainers/usher/0.6.6--hdd55de9_3
+$ module load quay.io/biocontainers/usher/0.6.6--hdd55de9_4
+$ module help quay.io/biocontainers/usher/0.6.6--hdd55de9_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
