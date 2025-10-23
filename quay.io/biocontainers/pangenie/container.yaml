@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/pangenie
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pangenie
+latest:
+  4.2.1--h077b44d_0: 
+    sha256:db24bebb23958d0ecfe765dc73bae5bfea58970552561285832c823efc02e66a
+tags:
+  4.2.1--h077b44d_0: 
+    sha256:db24bebb23958d0ecfe765dc73bae5bfea58970552561285832c823efc02e66a
+docker: quay.io/biocontainers/pangenie
+aliases:
+  Analyze-UK: /usr/local/bin/Analyze-UK
+  PanGenie: /usr/local/bin/PanGenie
+  PanGenie-index: /usr/local/bin/PanGenie-index
+  PanGenie-sampling: /usr/local/bin/PanGenie-sampling
+  PanGenie-vcf: /usr/local/bin/PanGenie-vcf
+  jellyfish: /usr/local/bin/jellyfish
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
