@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/rearr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rearr
 latest:
-  1.0.1--h9948957_0: 
-    sha256:6226569326216c25733d53f7211f93053c0335ff0a9c5891e216a83fea9a69e7
+  1.0.3--h9948957_0: 
+    sha256:79f983ef0a6dd82e0ff1dbf6da9884c0f65cebbdb4d4231274dc3e21a6dc6767
 tags:
   1.0.0--h9948957_0: 
     sha256:e3328abb7bb1e1eadd7c562c865d9389b0c8664b77c2834fbee3e4abda842867
   1.0.1--h9948957_0: 
     sha256:6226569326216c25733d53f7211f93053c0335ff0a9c5891e216a83fea9a69e7
+  1.0.3--h9948957_0: 
+    sha256:79f983ef0a6dd82e0ff1dbf6da9884c0f65cebbdb4d4231274dc3e21a6dc6767
 docker: quay.io/biocontainers/rearr
 aliases:
   getSxCsvFileTarget.pl: /usr/local/bin/getSxCsvFileTarget.pl

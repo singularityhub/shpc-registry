@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/alcor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for alcor
 latest:
-  1.9--h077b44d_5: 
-    sha256:a12ea5cf23155c64baa454a95e40eff93b15916598cf7d6eaf7ddda1fd1c6c5d
+  1.9--h077b44d_6: 
+    sha256:6d17cb3af694fee9c396c90d1ac39abfc67009acd60eefdfea2d0626ca829d1b
 tags:
   1.9--hd03093a_0: 
     sha256:9020e36402d77479be5c2b04bed89420d63777c9f9c7adff0ee0f4d5269efe9a
@@ -15,6 +15,8 @@ tags:
     sha256:cf7eabdd7d81fb71195c970229b4f4d45848b7d797c790d86b00625a6c7019c1
   1.9--h077b44d_5: 
     sha256:a12ea5cf23155c64baa454a95e40eff93b15916598cf7d6eaf7ddda1fd1c6c5d
+  1.9--h077b44d_6: 
+    sha256:6d17cb3af694fee9c396c90d1ac39abfc67009acd60eefdfea2d0626ca829d1b
 docker: quay.io/biocontainers/alcor
 aliases:
   AlcoR: /usr/local/bin/AlcoR
