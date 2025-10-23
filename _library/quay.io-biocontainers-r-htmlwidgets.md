@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-htmlwidgets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htmlwidgets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-htmlwidgets/container.yaml"
-updated_at: "2025-10-22 03:53:37.876124"
+updated_at: "2025-10-23 03:44:06.040452"
 latest: "0.5--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-htmlwidgets"
 aliases:

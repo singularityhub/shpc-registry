@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-test-inter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-inter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-inter/container.yaml"
-updated_at: "2025-10-22 04:00:26.344286"
-latest: "1.10--pl5321hdfd78af_0"
+updated_at: "2025-10-23 03:50:38.676846"
+latest: "1.12--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-inter"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.09--pl5321hdfd78af_1"
  - "1.10--pl5321hdfd78af_0"
+ - "1.12--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-test-inter"
-config: {"url": "https://biocontainers.pro/tools/perl-test-inter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-inter", "latest": {"1.10--pl5321hdfd78af_0": "sha256:972cdfccb2cb49169718aca303efe4d654fdeaa5ebc590ffda479be02c9a5e18"}, "tags": {"1.09--pl5321hdfd78af_1": "sha256:a7eade56eba41fb3e29cac04014de8ceea2e2622362851469a18f62a87cdfa5a", "1.10--pl5321hdfd78af_0": "sha256:972cdfccb2cb49169718aca303efe4d654fdeaa5ebc590ffda479be02c9a5e18"}, "docker": "quay.io/biocontainers/perl-test-inter", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-test-inter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-inter", "latest": {"1.12--pl5321hdfd78af_0": "sha256:dba70d81ee86db74d2ca1dc0a503ffc2e484e50329f7c1f058a1a9f16987f052"}, "tags": {"1.09--pl5321hdfd78af_1": "sha256:a7eade56eba41fb3e29cac04014de8ceea2e2622362851469a18f62a87cdfa5a", "1.10--pl5321hdfd78af_0": "sha256:972cdfccb2cb49169718aca303efe4d654fdeaa5ebc590ffda479be02c9a5e18", "1.12--pl5321hdfd78af_0": "sha256:dba70d81ee86db74d2ca1dc0a503ffc2e484e50329f7c1f058a1a9f16987f052"}, "docker": "quay.io/biocontainers/perl-test-inter", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-inter.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-test-inter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-test-inter:1.10--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-test-inter:1.12--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-test-inter/1.10--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-test-inter/1.10--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-test-inter/1.12--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-test-inter/1.12--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

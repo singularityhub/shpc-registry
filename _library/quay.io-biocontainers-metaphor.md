@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaphor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaphor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaphor/container.yaml"
-updated_at: "2025-10-22 03:50:55.771145"
+updated_at: "2025-10-23 03:41:24.243541"
 latest: "1.7.14--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaphor"
 aliases:

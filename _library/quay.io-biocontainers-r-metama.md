@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metama/container.yaml"
-updated_at: "2025-10-22 03:26:16.881646"
+updated_at: "2025-10-23 03:17:52.921324"
 latest: "3.1.3--r44h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-metama"
 

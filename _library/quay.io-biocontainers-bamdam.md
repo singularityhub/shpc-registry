@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamdam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamdam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamdam/container.yaml"
-updated_at: "2025-10-22 03:32:41.475884"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2025-10-23 03:23:58.515366"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamdam"
 aliases:
  - "bamdam"
@@ -34,8 +34,9 @@ aliases:
 versions:
  - "0.2.0--pyhdfd78af_0"
  - "0.2.2--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bamdam"
-config: {"url": "https://biocontainers.pro/tools/bamdam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bamdam", "latest": {"0.2.2--pyhdfd78af_0": "sha256:6d099a62512c84c75ca785e70993787013686bd18f5cfb34bf4e17aa97ac732c"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:d430cd7bb0956e49731ba4a20ddff5cc2d59d8dc7233afde461ae34fb3e3616b", "0.2.2--pyhdfd78af_0": "sha256:6d099a62512c84c75ca785e70993787013686bd18f5cfb34bf4e17aa97ac732c"}, "docker": "quay.io/biocontainers/bamdam", "aliases": {"bamdam": "/usr/local/bin/bamdam", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/bamdam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bamdam", "latest": {"0.3.0--pyhdfd78af_0": "sha256:1ee389622060a9f4933d83fbf5668a855bb01d7033035d299456caf01f7e2b51"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:d430cd7bb0956e49731ba4a20ddff5cc2d59d8dc7233afde461ae34fb3e3616b", "0.2.2--pyhdfd78af_0": "sha256:6d099a62512c84c75ca785e70993787013686bd18f5cfb34bf4e17aa97ac732c", "0.3.0--pyhdfd78af_0": "sha256:1ee389622060a9f4933d83fbf5668a855bb01d7033035d299456caf01f7e2b51"}, "docker": "quay.io/biocontainers/bamdam", "aliases": {"bamdam": "/usr/local/bin/bamdam", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamdam.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/bamdam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamdam:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bamdam:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamdam/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/bamdam/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/bamdam/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/bamdam/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

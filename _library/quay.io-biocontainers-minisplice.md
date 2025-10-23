@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minisplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minisplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minisplice/container.yaml"
-updated_at: "2025-10-22 03:53:03.998027"
+updated_at: "2025-10-23 03:43:33.122757"
 latest: "0.4--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/minisplice"
 aliases:
