@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocinstaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocinstaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocinstaller/container.yaml"
-updated_at: "2025-10-23 03:26:29.424314"
+updated_at: "2025-10-24 03:21:08.337843"
 latest: "1.32.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocinstaller"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plinder/container.yaml"
-updated_at: "2025-10-23 03:19:45.032839"
+updated_at: "2025-10-24 03:14:54.497477"
 latest: "0.2.25--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/plinder"
 aliases:

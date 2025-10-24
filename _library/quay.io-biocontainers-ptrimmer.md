@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ptrimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ptrimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ptrimmer/container.yaml"
-updated_at: "2025-10-23 03:26:31.149141"
+updated_at: "2025-10-24 03:21:09.935825"
 latest: "1.4.0--h96c455f_1"
 container_url: "https://biocontainers.pro/tools/ptrimmer"
 aliases:

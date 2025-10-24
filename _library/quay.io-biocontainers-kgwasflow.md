@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kgwasflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kgwasflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kgwasflow/container.yaml"
-updated_at: "2025-10-23 03:09:49.683873"
+updated_at: "2025-10-24 03:05:56.383491"
 latest: "1.3.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/kgwasflow"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ye6100subbcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ye6100subbcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ye6100subbcdf/container.yaml"
-updated_at: "2025-10-23 03:55:22.779580"
+updated_at: "2025-10-24 03:47:52.051120"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ye6100subbcdf"
 

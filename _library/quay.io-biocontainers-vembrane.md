@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vembrane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vembrane/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vembrane/container.yaml"
-updated_at: "2025-10-23 03:22:22.999957"
-latest: "2.3.4--pyhdfd78af_0"
+updated_at: "2025-10-24 03:17:21.076263"
+latest: "2.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vembrane"
 aliases:
  - "vembrane"
@@ -35,8 +35,9 @@ versions:
  - "2.2.0--pyhdfd78af_0"
  - "2.1.0--pyhdfd78af_1"
  - "2.3.4--pyhdfd78af_0"
+ - "2.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vembrane"
-config: {"url": "https://biocontainers.pro/tools/vembrane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vembrane", "latest": {"2.3.4--pyhdfd78af_0": "sha256:96268ba804dbc481ee83f2b6b0a773a9491a3c3481b9185e1ff9f1ee10c17b1b"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4", "0.13.2--pyhdfd78af_0": "sha256:40197cbbd8207933838f2f3ce6854b94f5ccc005fd85486c7ef5cb8b611610d0", "0.12.1--pyhdfd78af_0": "sha256:686538f47f83714b97caea0542bce5d0b8bd5156858309645fcb82930b89f802", "0.11.2--pyhdfd78af_0": "sha256:489b3a09a0b561fe4e374138d3a3caf2db16b36589eaed3762da16263b244ae7", "0.10.1--pyhdfd78af_1": "sha256:890896de65e18e8d70780d17f43a9fc60e4e102c6f7540dd80988982a0b7f252", "0.14.0--pyhdfd78af_0": "sha256:c609e33edb333796dac2da1ba7e286a40835798cd3aec4a0c5c5c9c5267963fd", "1.0.0--pyhdfd78af_0": "sha256:739c07511e80f9f8c0d933b53d83c92dcd0d475f6ff5df0957871b6bf75122b2", "1.0.1--pyhdfd78af_0": "sha256:0858f8494566ec157eb70582fe20fcc5e4868682257927178a9cd6617a297104", "1.0.2--pyhdfd78af_0": "sha256:bbada4c8a4fb4715d296dd22ce6192e0a91ad2573c3fa58aead6101bb2651e00", "1.0.3--pyhdfd78af_0": "sha256:92a86106c56d1333eda013cb9120caeb8ee829d2c0e4f251b4fd8afdabec30d1", "1.0.4--pyhdfd78af_0": "sha256:fc63868466bf5599b76626b63988f04bba74cfd8eb4ae0dde6f5dfb81a7523ea", "1.0.5--pyhdfd78af_0": "sha256:0fc6bc5f39e40ac9a4106bb0ddaf2e1b367219a443e21b4120f9e984756fe4e2", "1.0.6--pyhdfd78af_0": "sha256:85b5f861e743c6cb39b3b887e346a48bf979be1d28ec84ea0f5b11b665f23a74", "1.0.7--pyhdfd78af_0": "sha256:b2a6ec54fb1176f2292a78667e536f9be4bb376341e42f778f50888425b92471", "2.1.0--pyhdfd78af_0": "sha256:bded042a507a2324a84867b124c074620e84e31402fc09f6fade409a17baf0ad", "2.0.0--pyhdfd78af_0": "sha256:1246c0ee2bb7eac3c5cd215d42e9d20b43590d3b47fbf05a6ccfea586901af7b", "2.2.0--pyhdfd78af_0": "sha256:0abac5a12a1efec2d5eb19d49eb64d7b6d672367c178353b52f1bb078bc19246", "2.1.0--pyhdfd78af_1": "sha256:9d67a0f7b46da61644edbcef4c952026fd53f7f081d6037b768a7e40486ee33e", "2.3.4--pyhdfd78af_0": "sha256:96268ba804dbc481ee83f2b6b0a773a9491a3c3481b9185e1ff9f1ee10c17b1b"}, "docker": "quay.io/biocontainers/vembrane", "aliases": {"vembrane": "/usr/local/bin/vembrane", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/vembrane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vembrane", "latest": {"2.4.0--pyhdfd78af_0": "sha256:5916f2e985c8f3ee5657c8ffde530319cf3f0a3a450c4e7fca0069642862dacb"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4", "0.13.2--pyhdfd78af_0": "sha256:40197cbbd8207933838f2f3ce6854b94f5ccc005fd85486c7ef5cb8b611610d0", "0.12.1--pyhdfd78af_0": "sha256:686538f47f83714b97caea0542bce5d0b8bd5156858309645fcb82930b89f802", "0.11.2--pyhdfd78af_0": "sha256:489b3a09a0b561fe4e374138d3a3caf2db16b36589eaed3762da16263b244ae7", "0.10.1--pyhdfd78af_1": "sha256:890896de65e18e8d70780d17f43a9fc60e4e102c6f7540dd80988982a0b7f252", "0.14.0--pyhdfd78af_0": "sha256:c609e33edb333796dac2da1ba7e286a40835798cd3aec4a0c5c5c9c5267963fd", "1.0.0--pyhdfd78af_0": "sha256:739c07511e80f9f8c0d933b53d83c92dcd0d475f6ff5df0957871b6bf75122b2", "1.0.1--pyhdfd78af_0": "sha256:0858f8494566ec157eb70582fe20fcc5e4868682257927178a9cd6617a297104", "1.0.2--pyhdfd78af_0": "sha256:bbada4c8a4fb4715d296dd22ce6192e0a91ad2573c3fa58aead6101bb2651e00", "1.0.3--pyhdfd78af_0": "sha256:92a86106c56d1333eda013cb9120caeb8ee829d2c0e4f251b4fd8afdabec30d1", "1.0.4--pyhdfd78af_0": "sha256:fc63868466bf5599b76626b63988f04bba74cfd8eb4ae0dde6f5dfb81a7523ea", "1.0.5--pyhdfd78af_0": "sha256:0fc6bc5f39e40ac9a4106bb0ddaf2e1b367219a443e21b4120f9e984756fe4e2", "1.0.6--pyhdfd78af_0": "sha256:85b5f861e743c6cb39b3b887e346a48bf979be1d28ec84ea0f5b11b665f23a74", "1.0.7--pyhdfd78af_0": "sha256:b2a6ec54fb1176f2292a78667e536f9be4bb376341e42f778f50888425b92471", "2.1.0--pyhdfd78af_0": "sha256:bded042a507a2324a84867b124c074620e84e31402fc09f6fade409a17baf0ad", "2.0.0--pyhdfd78af_0": "sha256:1246c0ee2bb7eac3c5cd215d42e9d20b43590d3b47fbf05a6ccfea586901af7b", "2.2.0--pyhdfd78af_0": "sha256:0abac5a12a1efec2d5eb19d49eb64d7b6d672367c178353b52f1bb078bc19246", "2.1.0--pyhdfd78af_1": "sha256:9d67a0f7b46da61644edbcef4c952026fd53f7f081d6037b768a7e40486ee33e", "2.3.4--pyhdfd78af_0": "sha256:96268ba804dbc481ee83f2b6b0a773a9491a3c3481b9185e1ff9f1ee10c17b1b", "2.4.0--pyhdfd78af_0": "sha256:5916f2e985c8f3ee5657c8ffde530319cf3f0a3a450c4e7fca0069642862dacb"}, "docker": "quay.io/biocontainers/vembrane", "aliases": {"vembrane": "/usr/local/bin/vembrane", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vembrane.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/vembrane
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vembrane:2.3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vembrane:2.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vembrane/2.3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/vembrane/2.3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/vembrane/2.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/vembrane/2.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

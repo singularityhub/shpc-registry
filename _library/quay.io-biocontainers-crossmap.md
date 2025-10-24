@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crossmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crossmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crossmap/container.yaml"
-updated_at: "2025-10-23 03:38:23.915227"
+updated_at: "2025-10-24 03:32:13.334734"
 latest: "0.7.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crossmap"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-abaenrichment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-abaenrichment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-abaenrichment/container.yaml"
-updated_at: "2025-10-23 03:46:23.750013"
+updated_at: "2025-10-24 03:39:28.870408"
 latest: "1.24.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-abaenrichment"
 aliases:

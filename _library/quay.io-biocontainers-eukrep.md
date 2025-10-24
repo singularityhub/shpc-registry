@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eukrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukrep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukrep/container.yaml"
-updated_at: "2025-10-23 03:34:57.910327"
+updated_at: "2025-10-24 03:29:03.013430"
 latest: "0.6.7--pyh7e72e81_3"
 container_url: "https://biocontainers.pro/tools/eukrep"
 aliases:

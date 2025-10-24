@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/sz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/sz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/sz/container.yaml"
-updated_at: "2025-10-23 03:05:54.941882"
+updated_at: "2025-10-24 03:02:27.066210"
 latest: "2.1.12"
 container_url: "https://github.com/orgs/autamus/packages/container/package/sz"
 aliases:
