@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hmftools-lilac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmftools-lilac
 latest:
-  1.7.2--hdfd78af_0: 
-    sha256:979d0d086b9a86d9f83c38807585df626ae6c7ed6199fff6113938d7094ad5a5
+  1.7.3--hdfd78af_0: 
+    sha256:3c044ef7a7f42a8ef8976fbb7916d6df4b2baa0c53aa7858f3cb67fb766723f8
 tags:
   1.1--hdfd78af_0: 
     sha256:35766b868db61564ca52afb6fa38aabcae51363fc87ab96cd93e9752688c3d08
@@ -17,6 +17,8 @@ tags:
     sha256:5a48073049d445a960ffe19b4169b01bdd6c789595b06b9f8c31d019c76c066a
   1.7.2--hdfd78af_0: 
     sha256:979d0d086b9a86d9f83c38807585df626ae6c7ed6199fff6113938d7094ad5a5
+  1.7.3--hdfd78af_0: 
+    sha256:3c044ef7a7f42a8ef8976fbb7916d6df4b2baa0c53aa7858f3cb67fb766723f8
 docker: quay.io/biocontainers/hmftools-lilac
 aliases:
   LILAC: /usr/local/bin/LILAC

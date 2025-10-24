@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/quickmirseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quickmirseq
 latest:
-  1.0.0--hdfd78af_0: 
-    sha256:aebbf7e0e58e500e32f6da410ccb6b3b20a818d120675dd81ebdb76d16ee8caa
+  1.0.0--hdfd78af_3: 
+    sha256:e723a0670d54505c01ca5b369c1132b728d9b1be2678b8b0158c12de03232dfa
 tags:
   1.0.0--hdfd78af_0: 
     sha256:aebbf7e0e58e500e32f6da410ccb6b3b20a818d120675dd81ebdb76d16ee8caa
+  1.0.0--hdfd78af_3: 
+    sha256:e723a0670d54505c01ca5b369c1132b728d9b1be2678b8b0158c12de03232dfa
 docker: quay.io/biocontainers/quickmirseq
 aliases:
   QuickMIRSeq-build.pl: /usr/local/bin/QuickMIRSeq-build.pl

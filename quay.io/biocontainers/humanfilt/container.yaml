@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/humanfilt
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for humanfilt
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:8ce173961cc5942f121da6be3b464be7a8f050eca07ce915c94587f4410c7d47
+  1.0.0--pyhdfd78af_0: 
+    sha256:7c27803b2c449b83deea437728701bc5085aad009873bd0017979287a1f80b09
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:8ce173961cc5942f121da6be3b464be7a8f050eca07ce915c94587f4410c7d47
+  1.0.0--pyhdfd78af_0: 
+    sha256:7c27803b2c449b83deea437728701bc5085aad009873bd0017979287a1f80b09
 docker: quay.io/biocontainers/humanfilt
 aliases:
   alignrandom.sh: /usr/local/bin/alignrandom.sh

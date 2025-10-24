@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/cutadapt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cutadapt
 latest:
-  5.1--py310h1fe012e_0: 
-    sha256:06f1e09aa8ae024814a76e183fd942a36414876ab57e3aca7aac16fabe885eb0
+  5.2--py311haab0aaa_0: 
+    sha256:95c04c2619f552a19951c928c16851c3efa48973b4653e60185a74ce6e50ef11
 tags:
   3.4--py38h4a8c8d9_1: 
     sha256:489eda33229f60e7ca8e0397f95c775d53d6f40fa0baed04386e3726d4e9e136
@@ -37,6 +37,8 @@ tags:
     sha256:1e2b72876d2bbd497c1e68267d34dcd67d7fcee8d83c3e2ea12f89030893f218
   5.1--py310h1fe012e_0: 
     sha256:06f1e09aa8ae024814a76e183fd942a36414876ab57e3aca7aac16fabe885eb0
+  5.2--py311haab0aaa_0: 
+    sha256:95c04c2619f552a19951c928c16851c3efa48973b4653e60185a74ce6e50ef11
 docker: quay.io/biocontainers/cutadapt
 aliases:
   cutadapt: /usr/local/bin/cutadapt
