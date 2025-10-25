@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/carpedeam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for carpedeam
 latest:
-  1.0.0--pl5321h6a68c12_0: 
-    sha256:8a9c3213abc0b5323e90af83f8d66cbc5917cbe4921394f5b6ce4de8ee8af023
+  1.0.1--hd6d6fdc_0: 
+    sha256:476a66e8d260667306cb0d00f9b060527b0de7c29d2bdc58c16c9da3bb7d875e
 tags:
   1.0.0--pl5321h6a68c12_0: 
     sha256:8a9c3213abc0b5323e90af83f8d66cbc5917cbe4921394f5b6ce4de8ee8af023
+  1.0.1--hd6d6fdc_0: 
+    sha256:476a66e8d260667306cb0d00f9b060527b0de7c29d2bdc58c16c9da3bb7d875e
 docker: quay.io/biocontainers/carpedeam
 aliases:
   carpedeam: /usr/local/bin/carpedeam

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/grz-check
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grz-check
 latest:
-  0.1.0--h3ec5717_0: 
-    sha256:4d4aef0ed678bd15499ed720e0b5c43bc31d316d116ca19ff073b805d684a55b
+  0.2.0--h3ec5717_0: 
+    sha256:10215f1f55020f47eeee8516944de73dba360e6b874391061868655e4ab68256
 tags:
   0.1.0--h3ec5717_0: 
     sha256:4d4aef0ed678bd15499ed720e0b5c43bc31d316d116ca19ff073b805d684a55b
+  0.2.0--h3ec5717_0: 
+    sha256:10215f1f55020f47eeee8516944de73dba360e6b874391061868655e4ab68256
 docker: quay.io/biocontainers/grz-check
 aliases:
   grz-check: /usr/local/bin/grz-check

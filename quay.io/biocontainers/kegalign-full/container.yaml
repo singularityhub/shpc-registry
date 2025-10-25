@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/kegalign-full
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kegalign-full
 latest:
-  0.1.2.7--hdfd78af_0: 
-    sha256:03841face06e71cea03fb1b63b5e72b352798a4bb188cf4f81d22d0374809cc8
+  0.1.2.8--hdfd78af_0: 
+    sha256:1cca674ff2cf97cdf98b8fb6c7fa1d15a27d1a57c2101b5dfe61ad8f725afccd
 tags:
   0.1.2.7--hdfd78af_0: 
     sha256:03841face06e71cea03fb1b63b5e72b352798a4bb188cf4f81d22d0374809cc8
+  0.1.2.8--hdfd78af_0: 
+    sha256:1cca674ff2cf97cdf98b8fb6c7fa1d15a27d1a57c2101b5dfe61ad8f725afccd
 docker: quay.io/biocontainers/kegalign-full
 aliases:
   bash: /usr/local/bin/bash

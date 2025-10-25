@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/corset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for corset
 latest:
-  1.09--hdcf5f25_4: 
-    sha256:2fdd3c566c12116e28358f636d1e65060a53f2ae42f59e530437980831d94369
+  1.09--h077b44d_6: 
+    sha256:02c5b334c51ac254a87fa2a90046e79dde76868ceb2141abf9585c0dd5838999
 tags:
   1.09--hd03093a_3: 
     sha256:b60f3da57f6a2b491ca3509e589d299402e536843b0d4a4885df94f357ad933a
   1.09--hdcf5f25_4: 
     sha256:2fdd3c566c12116e28358f636d1e65060a53f2ae42f59e530437980831d94369
+  1.09--h077b44d_6: 
+    sha256:02c5b334c51ac254a87fa2a90046e79dde76868ceb2141abf9585c0dd5838999
 docker: quay.io/biocontainers/corset
 aliases:
   corset: /usr/local/bin/corset
