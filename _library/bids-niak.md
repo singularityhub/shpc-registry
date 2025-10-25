@@ -4,14 +4,14 @@ name:  "bids/niak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/niak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/niak/container.yaml"
-updated_at: "2025-10-24 03:51:29.494916"
+updated_at: "2025-10-25 03:56:19.605435"
 latest: "latest"
 container_url: "https://hub.docker.com/r/bids/niak"
 
 versions:
  - "latest"
 description: "The neuroimaging analysis kit. Pipeline for preprocessing of fMRI and structural MRI scans http://niak.simexp-lab.org/ (https://github.com/BIDS-Apps/niak)"
-config: {"docker": "bids/niak", "latest": {"latest": "crane digest bids/niak:latest: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:bids/niak Type:repository]]"}, "tags": {"latest": "crane digest bids/niak:latest: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:bids/niak Type:repository]]"}, "filter": ["latest"], "maintainer": "@vsoch", "description": "The neuroimaging analysis kit. Pipeline for preprocessing of fMRI and structural MRI scans http://niak.simexp-lab.org/ (https://github.com/BIDS-Apps/niak)", "url": "https://hub.docker.com/r/bids/niak"}
+config: {"docker": "bids/niak", "latest": {"latest": "sha256:b1f6a71a6c440bf94ef6081d1b7a5c9576454ad9c98e629fbda357e702f75b3e"}, "tags": {"latest": "sha256:b1f6a71a6c440bf94ef6081d1b7a5c9576454ad9c98e629fbda357e702f75b3e"}, "filter": ["latest"], "maintainer": "@vsoch", "description": "The neuroimaging analysis kit. Pipeline for preprocessing of fMRI and structural MRI scans http://niak.simexp-lab.org/ (https://github.com/BIDS-Apps/niak)", "url": "https://hub.docker.com/r/bids/niak"}
 ---
 
 This module is a singularity container wrapper for bids/niak.

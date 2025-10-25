@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-lilac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-lilac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-lilac/container.yaml"
-updated_at: "2025-10-24 03:07:13.496045"
-latest: "1.7.2--hdfd78af_0"
+updated_at: "2025-10-25 03:09:32.108062"
+latest: "1.7.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-lilac"
 aliases:
  - "LILAC"
@@ -26,8 +26,9 @@ versions:
  - "1.6--hdfd78af_1"
  - "1.7.1--hdfd78af_0"
  - "1.7.2--hdfd78af_0"
+ - "1.7.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-lilac"
-config: {"url": "https://biocontainers.pro/tools/hmftools-lilac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-lilac", "latest": {"1.7.2--hdfd78af_0": "sha256:979d0d086b9a86d9f83c38807585df626ae6c7ed6199fff6113938d7094ad5a5"}, "tags": {"1.1--hdfd78af_0": "sha256:35766b868db61564ca52afb6fa38aabcae51363fc87ab96cd93e9752688c3d08", "1.4.2--hdfd78af_0": "sha256:970941e74a8f0d5dc08b0a5d011080e9be89a5cf78e00a0f46697547634fd12c", "1.6--hdfd78af_0": "sha256:3a39d9d65ae35276069f070ff52a7371a2b30d0b865a177e5762573a4963c20b", "1.6--hdfd78af_1": "sha256:c535626dc0e7fe0bd9a7187352b1a593ab0374008fcd79a1e8e2de600d1e8147", "1.7.1--hdfd78af_0": "sha256:5a48073049d445a960ffe19b4169b01bdd6c789595b06b9f8c31d019c76c066a", "1.7.2--hdfd78af_0": "sha256:979d0d086b9a86d9f83c38807585df626ae6c7ed6199fff6113938d7094ad5a5"}, "docker": "quay.io/biocontainers/hmftools-lilac", "aliases": {"LILAC": "/usr/local/bin/LILAC", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-lilac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-lilac", "latest": {"1.7.3--hdfd78af_0": "sha256:3c044ef7a7f42a8ef8976fbb7916d6df4b2baa0c53aa7858f3cb67fb766723f8"}, "tags": {"1.1--hdfd78af_0": "sha256:35766b868db61564ca52afb6fa38aabcae51363fc87ab96cd93e9752688c3d08", "1.4.2--hdfd78af_0": "sha256:970941e74a8f0d5dc08b0a5d011080e9be89a5cf78e00a0f46697547634fd12c", "1.6--hdfd78af_0": "sha256:3a39d9d65ae35276069f070ff52a7371a2b30d0b865a177e5762573a4963c20b", "1.6--hdfd78af_1": "sha256:c535626dc0e7fe0bd9a7187352b1a593ab0374008fcd79a1e8e2de600d1e8147", "1.7.1--hdfd78af_0": "sha256:5a48073049d445a960ffe19b4169b01bdd6c789595b06b9f8c31d019c76c066a", "1.7.2--hdfd78af_0": "sha256:979d0d086b9a86d9f83c38807585df626ae6c7ed6199fff6113938d7094ad5a5", "1.7.3--hdfd78af_0": "sha256:3c044ef7a7f42a8ef8976fbb7916d6df4b2baa0c53aa7858f3cb67fb766723f8"}, "docker": "quay.io/biocontainers/hmftools-lilac", "aliases": {"LILAC": "/usr/local/bin/LILAC", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-lilac.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/hmftools-lilac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-lilac:1.7.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-lilac:1.7.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-lilac/1.7.2--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-lilac/1.7.2--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-lilac/1.7.3--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-lilac/1.7.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

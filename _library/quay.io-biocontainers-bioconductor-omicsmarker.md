@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omicsmarker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicsmarker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicsmarker/container.yaml"
-updated_at: "2025-10-24 03:09:15.242312"
+updated_at: "2025-10-25 03:11:41.777124"
 latest: "1.19.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicsmarker"
 aliases:

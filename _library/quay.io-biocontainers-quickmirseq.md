@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quickmirseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quickmirseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quickmirseq/container.yaml"
-updated_at: "2025-10-24 03:19:32.586643"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2025-10-25 03:22:40.709309"
+latest: "1.0.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/quickmirseq"
 aliases:
  - "QuickMIRSeq-build.pl"
@@ -54,8 +54,9 @@ aliases:
  - "hwloc-gather-topology"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.0.0--hdfd78af_3"
 description: "singularity registry hpc automated addition for quickmirseq"
-config: {"url": "https://biocontainers.pro/tools/quickmirseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quickmirseq", "latest": {"1.0.0--hdfd78af_0": "sha256:aebbf7e0e58e500e32f6da410ccb6b3b20a818d120675dd81ebdb76d16ee8caa"}, "tags": {"1.0.0--hdfd78af_0": "sha256:aebbf7e0e58e500e32f6da410ccb6b3b20a818d120675dd81ebdb76d16ee8caa"}, "docker": "quay.io/biocontainers/quickmirseq", "aliases": {"QuickMIRSeq-build.pl": "/usr/local/bin/QuickMIRSeq-build.pl", "QuickMIRSeq-report.pl": "/usr/local/bin/QuickMIRSeq-report.pl", "QuickMIRSeq-report.sh": "/usr/local/bin/QuickMIRSeq-report.sh", "QuickMIRSeq-summay.sh": "/usr/local/bin/QuickMIRSeq-summay.sh", "QuickMIRSeq.pl": "/usr/local/bin/QuickMIRSeq.pl", "make_HTMLs.sh": "/usr/local/bin/make_HTMLs.sh", "merge-tRNA.pl": "/usr/local/bin/merge-tRNA.pl", "merge_smallRNA.pl": "/usr/local/bin/merge_smallRNA.pl", "mirnaSelect.pl": "/usr/local/bin/mirnaSelect.pl", "plot-53-offset.R": "/usr/local/bin/plot-53-offset.R", "plot-QuickMIRSeq-all.sh": "/usr/local/bin/plot-QuickMIRSeq-all.sh", "plot-QuickMIRSeq-summary.R": "/usr/local/bin/plot-QuickMIRSeq-summary.R", "plot-cut-adapter.R": "/usr/local/bin/plot-cut-adapter.R", "plot-joint-mapping.R": "/usr/local/bin/plot-joint-mapping.R", "plot-miR-corr.R": "/usr/local/bin/plot-miR-corr.R", "plot-readAnnot-distribution.R": "/usr/local/bin/plot-readAnnot-distribution.R", "plot-readLen-distribution.R": "/usr/local/bin/plot-readLen-distribution.R", "prepare_smallRNA_mRNA.sh": "/usr/local/bin/prepare_smallRNA_mRNA.sh", "run.config.template": "/usr/local/bin/run.config.template", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "cutadapt": "/usr/local/bin/cutadapt", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology"}}
+config: {"url": "https://biocontainers.pro/tools/quickmirseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quickmirseq", "latest": {"1.0.0--hdfd78af_3": "sha256:e723a0670d54505c01ca5b369c1132b728d9b1be2678b8b0158c12de03232dfa"}, "tags": {"1.0.0--hdfd78af_0": "sha256:aebbf7e0e58e500e32f6da410ccb6b3b20a818d120675dd81ebdb76d16ee8caa", "1.0.0--hdfd78af_3": "sha256:e723a0670d54505c01ca5b369c1132b728d9b1be2678b8b0158c12de03232dfa"}, "docker": "quay.io/biocontainers/quickmirseq", "aliases": {"QuickMIRSeq-build.pl": "/usr/local/bin/QuickMIRSeq-build.pl", "QuickMIRSeq-report.pl": "/usr/local/bin/QuickMIRSeq-report.pl", "QuickMIRSeq-report.sh": "/usr/local/bin/QuickMIRSeq-report.sh", "QuickMIRSeq-summay.sh": "/usr/local/bin/QuickMIRSeq-summay.sh", "QuickMIRSeq.pl": "/usr/local/bin/QuickMIRSeq.pl", "make_HTMLs.sh": "/usr/local/bin/make_HTMLs.sh", "merge-tRNA.pl": "/usr/local/bin/merge-tRNA.pl", "merge_smallRNA.pl": "/usr/local/bin/merge_smallRNA.pl", "mirnaSelect.pl": "/usr/local/bin/mirnaSelect.pl", "plot-53-offset.R": "/usr/local/bin/plot-53-offset.R", "plot-QuickMIRSeq-all.sh": "/usr/local/bin/plot-QuickMIRSeq-all.sh", "plot-QuickMIRSeq-summary.R": "/usr/local/bin/plot-QuickMIRSeq-summary.R", "plot-cut-adapter.R": "/usr/local/bin/plot-cut-adapter.R", "plot-joint-mapping.R": "/usr/local/bin/plot-joint-mapping.R", "plot-miR-corr.R": "/usr/local/bin/plot-miR-corr.R", "plot-readAnnot-distribution.R": "/usr/local/bin/plot-readAnnot-distribution.R", "plot-readLen-distribution.R": "/usr/local/bin/plot-readLen-distribution.R", "prepare_smallRNA_mRNA.sh": "/usr/local/bin/prepare_smallRNA_mRNA.sh", "run.config.template": "/usr/local/bin/run.config.template", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "cutadapt": "/usr/local/bin/cutadapt", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quickmirseq.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/quickmirseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quickmirseq:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/quickmirseq:1.0.0--hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quickmirseq/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/quickmirseq/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/quickmirseq/1.0.0--hdfd78af_3
+$ module help quay.io/biocontainers/quickmirseq/1.0.0--hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fusesom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fusesom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fusesom/container.yaml"
-updated_at: "2025-10-24 03:29:46.538839"
+updated_at: "2025-10-25 03:33:25.992296"
 latest: "1.8.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fusesom"
 aliases:

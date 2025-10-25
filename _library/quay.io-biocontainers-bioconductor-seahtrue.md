@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seahtrue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seahtrue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seahtrue/container.yaml"
-updated_at: "2025-10-24 03:29:45.482095"
+updated_at: "2025-10-25 03:33:24.856569"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seahtrue"
 aliases:
