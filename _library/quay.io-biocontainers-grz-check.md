@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/grz-check"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-check/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-check/container.yaml"
-updated_at: "2025-10-25 03:25:43.813229"
-latest: "0.1.0--h3ec5717_0"
+updated_at: "2025-10-26 03:34:20.839245"
+latest: "0.2.0--h3ec5717_0"
 container_url: "https://biocontainers.pro/tools/grz-check"
 aliases:
  - "grz-check"
 versions:
  - "0.1.0--h3ec5717_0"
+ - "0.2.0--h3ec5717_0"
 description: "singularity registry hpc automated addition for grz-check"
-config: {"url": "https://biocontainers.pro/tools/grz-check", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-check", "latest": {"0.1.0--h3ec5717_0": "sha256:4d4aef0ed678bd15499ed720e0b5c43bc31d316d116ca19ff073b805d684a55b"}, "tags": {"0.1.0--h3ec5717_0": "sha256:4d4aef0ed678bd15499ed720e0b5c43bc31d316d116ca19ff073b805d684a55b"}, "docker": "quay.io/biocontainers/grz-check", "aliases": {"grz-check": "/usr/local/bin/grz-check"}}
+config: {"url": "https://biocontainers.pro/tools/grz-check", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-check", "latest": {"0.2.0--h3ec5717_0": "sha256:10215f1f55020f47eeee8516944de73dba360e6b874391061868655e4ab68256"}, "tags": {"0.1.0--h3ec5717_0": "sha256:4d4aef0ed678bd15499ed720e0b5c43bc31d316d116ca19ff073b805d684a55b", "0.2.0--h3ec5717_0": "sha256:10215f1f55020f47eeee8516944de73dba360e6b874391061868655e4ab68256"}, "docker": "quay.io/biocontainers/grz-check", "aliases": {"grz-check": "/usr/local/bin/grz-check"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grz-check.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/grz-check
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grz-check:0.1.0--h3ec5717_0
+$ shpc install quay.io/biocontainers/grz-check:0.2.0--h3ec5717_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grz-check/0.1.0--h3ec5717_0
-$ module help quay.io/biocontainers/grz-check/0.1.0--h3ec5717_0
+$ module load quay.io/biocontainers/grz-check/0.2.0--h3ec5717_0
+$ module help quay.io/biocontainers/grz-check/0.2.0--h3ec5717_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

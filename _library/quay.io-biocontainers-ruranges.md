@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ruranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruranges/container.yaml"
-updated_at: "2025-10-25 03:16:52.018603"
-latest: "0.0.13--py312h570fbca_1"
+updated_at: "2025-10-26 03:25:26.956732"
+latest: "0.0.14--py312h570fbca_0"
 container_url: "https://biocontainers.pro/tools/ruranges"
 aliases:
  - "2to3-3.12"
@@ -15,8 +15,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.0.13--py312h570fbca_1"
+ - "0.0.14--py312h570fbca_0"
 description: "singularity registry hpc automated addition for ruranges"
-config: {"url": "https://biocontainers.pro/tools/ruranges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ruranges", "latest": {"0.0.13--py312h570fbca_1": "sha256:d60515b0c7eea697c51a87d88d4bea802b879f99f8ae9652b62690c01d302669"}, "tags": {"0.0.13--py312h570fbca_1": "sha256:d60515b0c7eea697c51a87d88d4bea802b879f99f8ae9652b62690c01d302669"}, "docker": "quay.io/biocontainers/ruranges", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/ruranges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ruranges", "latest": {"0.0.14--py312h570fbca_0": "sha256:0f7862a127ff915f7e2cfa905192c85e33f3f1e1e45ca3f71c6caf4aff4a6df0"}, "tags": {"0.0.13--py312h570fbca_1": "sha256:d60515b0c7eea697c51a87d88d4bea802b879f99f8ae9652b62690c01d302669", "0.0.14--py312h570fbca_0": "sha256:0f7862a127ff915f7e2cfa905192c85e33f3f1e1e45ca3f71c6caf4aff4a6df0"}, "docker": "quay.io/biocontainers/ruranges", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ruranges.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/ruranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ruranges:0.0.13--py312h570fbca_1
+$ shpc install quay.io/biocontainers/ruranges:0.0.14--py312h570fbca_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ruranges/0.0.13--py312h570fbca_1
-$ module help quay.io/biocontainers/ruranges/0.0.13--py312h570fbca_1
+$ module load quay.io/biocontainers/ruranges/0.0.14--py312h570fbca_0
+$ module help quay.io/biocontainers/ruranges/0.0.14--py312h570fbca_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

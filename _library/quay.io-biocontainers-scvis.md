@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scvis/container.yaml"
-updated_at: "2025-10-25 03:21:14.194724"
+updated_at: "2025-10-26 03:29:49.870481"
 latest: "0.1.0--scvis_0"
 container_url: "https://biocontainers.pro/tools/scvis"
 aliases:

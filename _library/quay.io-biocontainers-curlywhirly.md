@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/curlywhirly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/curlywhirly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/curlywhirly/container.yaml"
-updated_at: "2025-10-25 03:32:32.661965"
+updated_at: "2025-10-26 03:41:12.767548"
 latest: "1.17.08.31--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/curlywhirly"
 aliases:

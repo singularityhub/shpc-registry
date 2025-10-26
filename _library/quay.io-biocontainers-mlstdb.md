@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mlstdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlstdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlstdb/container.yaml"
-updated_at: "2025-10-25 03:50:54.026132"
-latest: "0.1.5--pyh7e72e81_0"
+updated_at: "2025-10-26 03:59:42.214143"
+latest: "0.1.6--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mlstdb"
 aliases:
  - "RNAconsensus"
@@ -50,8 +50,9 @@ aliases:
  - "blastclust"
 versions:
  - "0.1.5--pyh7e72e81_0"
+ - "0.1.6--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for mlstdb"
-config: {"url": "https://biocontainers.pro/tools/mlstdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mlstdb", "latest": {"0.1.5--pyh7e72e81_0": "sha256:3de53ec9a2316b0e44440a24d13e20e137268f023e9c7fa9bd18491eb90f0021"}, "tags": {"0.1.5--pyh7e72e81_0": "sha256:3de53ec9a2316b0e44440a24d13e20e137268f023e9c7fa9bd18491eb90f0021"}, "docker": "quay.io/biocontainers/mlstdb", "aliases": {"RNAconsensus": "/usr/local/bin/RNAconsensus", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "mlst": "/usr/local/bin/mlst", "mlst-ST_mini_genomes": "/usr/local/bin/mlst-ST_mini_genomes", "mlst-consistency_checker": "/usr/local/bin/mlst-consistency_checker", "mlst-download_pub_mlst": "/usr/local/bin/mlst-download_pub_mlst", "mlst-make_blast_db": "/usr/local/bin/mlst-make_blast_db", "mlst-show_seqs": "/usr/local/bin/mlst-show_seqs", "mlstdb": "/usr/local/bin/mlstdb", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "any2fasta": "/usr/local/bin/any2fasta", "TMalign": "/usr/local/bin/TMalign", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "RNAmultifold": "/usr/local/bin/RNAmultifold", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool", "sexp-conv": "/usr/local/bin/sexp-conv", "clustalo": "/usr/local/bin/clustalo", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust"}}
+config: {"url": "https://biocontainers.pro/tools/mlstdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mlstdb", "latest": {"0.1.6--pyh7e72e81_0": "sha256:328a8be07f68127eb27ed692989e7aa8395091c95416aac7a6fa0120ee7b7cd0"}, "tags": {"0.1.5--pyh7e72e81_0": "sha256:3de53ec9a2316b0e44440a24d13e20e137268f023e9c7fa9bd18491eb90f0021", "0.1.6--pyh7e72e81_0": "sha256:328a8be07f68127eb27ed692989e7aa8395091c95416aac7a6fa0120ee7b7cd0"}, "docker": "quay.io/biocontainers/mlstdb", "aliases": {"RNAconsensus": "/usr/local/bin/RNAconsensus", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "mlst": "/usr/local/bin/mlst", "mlst-ST_mini_genomes": "/usr/local/bin/mlst-ST_mini_genomes", "mlst-consistency_checker": "/usr/local/bin/mlst-consistency_checker", "mlst-download_pub_mlst": "/usr/local/bin/mlst-download_pub_mlst", "mlst-make_blast_db": "/usr/local/bin/mlst-make_blast_db", "mlst-show_seqs": "/usr/local/bin/mlst-show_seqs", "mlstdb": "/usr/local/bin/mlstdb", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "any2fasta": "/usr/local/bin/any2fasta", "TMalign": "/usr/local/bin/TMalign", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "RNAmultifold": "/usr/local/bin/RNAmultifold", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2", "ocsptool": "/usr/local/bin/ocsptool", "pkcs1-conv": "/usr/local/bin/pkcs1-conv", "psktool": "/usr/local/bin/psktool", "sexp-conv": "/usr/local/bin/sexp-conv", "clustalo": "/usr/local/bin/clustalo", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mlstdb.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/mlstdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mlstdb:0.1.5--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/mlstdb:0.1.6--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mlstdb/0.1.5--pyh7e72e81_0
-$ module help quay.io/biocontainers/mlstdb/0.1.5--pyh7e72e81_0
+$ module load quay.io/biocontainers/mlstdb/0.1.6--pyh7e72e81_0
+$ module help quay.io/biocontainers/mlstdb/0.1.6--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

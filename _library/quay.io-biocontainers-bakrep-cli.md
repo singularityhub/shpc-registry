@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bakrep-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bakrep-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bakrep-cli/container.yaml"
-updated_at: "2025-10-25 03:34:14.950441"
+updated_at: "2025-10-26 03:42:55.735092"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bakrep-cli"
 aliases:

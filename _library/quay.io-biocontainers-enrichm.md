@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enrichm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enrichm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enrichm/container.yaml"
-updated_at: "2025-10-25 03:52:38.231169"
+updated_at: "2025-10-26 04:01:27.494464"
 latest: "0.6.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enrichm"
 aliases:

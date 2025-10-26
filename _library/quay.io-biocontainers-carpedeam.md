@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/carpedeam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/carpedeam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/carpedeam/container.yaml"
-updated_at: "2025-10-25 03:52:27.428460"
-latest: "1.0.0--pl5321h6a68c12_0"
+updated_at: "2025-10-26 04:01:16.624035"
+latest: "1.0.1--hd6d6fdc_0"
 container_url: "https://biocontainers.pro/tools/carpedeam"
 aliases:
  - "carpedeam"
@@ -15,8 +15,9 @@ aliases:
  - "gawk"
 versions:
  - "1.0.0--pl5321h6a68c12_0"
+ - "1.0.1--hd6d6fdc_0"
 description: "singularity registry hpc automated addition for carpedeam"
-config: {"url": "https://biocontainers.pro/tools/carpedeam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for carpedeam", "latest": {"1.0.0--pl5321h6a68c12_0": "sha256:8a9c3213abc0b5323e90af83f8d66cbc5917cbe4921394f5b6ce4de8ee8af023"}, "tags": {"1.0.0--pl5321h6a68c12_0": "sha256:8a9c3213abc0b5323e90af83f8d66cbc5917cbe4921394f5b6ce4de8ee8af023"}, "docker": "quay.io/biocontainers/carpedeam", "aliases": {"carpedeam": "/usr/local/bin/carpedeam", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk"}}
+config: {"url": "https://biocontainers.pro/tools/carpedeam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for carpedeam", "latest": {"1.0.1--hd6d6fdc_0": "sha256:476a66e8d260667306cb0d00f9b060527b0de7c29d2bdc58c16c9da3bb7d875e"}, "tags": {"1.0.0--pl5321h6a68c12_0": "sha256:8a9c3213abc0b5323e90af83f8d66cbc5917cbe4921394f5b6ce4de8ee8af023", "1.0.1--hd6d6fdc_0": "sha256:476a66e8d260667306cb0d00f9b060527b0de7c29d2bdc58c16c9da3bb7d875e"}, "docker": "quay.io/biocontainers/carpedeam", "aliases": {"carpedeam": "/usr/local/bin/carpedeam", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/carpedeam.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/carpedeam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/carpedeam:1.0.0--pl5321h6a68c12_0
+$ shpc install quay.io/biocontainers/carpedeam:1.0.1--hd6d6fdc_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/carpedeam/1.0.0--pl5321h6a68c12_0
-$ module help quay.io/biocontainers/carpedeam/1.0.0--pl5321h6a68c12_0
+$ module load quay.io/biocontainers/carpedeam/1.0.1--hd6d6fdc_0
+$ module help quay.io/biocontainers/carpedeam/1.0.1--hd6d6fdc_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

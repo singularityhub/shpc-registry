@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kegalign-full"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kegalign-full/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kegalign-full/container.yaml"
-updated_at: "2025-10-25 03:17:16.695340"
-latest: "0.1.2.7--hdfd78af_0"
+updated_at: "2025-10-26 03:25:51.561120"
+latest: "0.1.2.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kegalign-full"
 aliases:
  - "bash"
@@ -48,8 +48,9 @@ aliases:
  - "base32"
 versions:
  - "0.1.2.7--hdfd78af_0"
+ - "0.1.2.8--hdfd78af_0"
 description: "singularity registry hpc automated addition for kegalign-full"
-config: {"url": "https://biocontainers.pro/tools/kegalign-full", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kegalign-full", "latest": {"0.1.2.7--hdfd78af_0": "sha256:03841face06e71cea03fb1b63b5e72b352798a4bb188cf4f81d22d0374809cc8"}, "tags": {"0.1.2.7--hdfd78af_0": "sha256:03841face06e71cea03fb1b63b5e72b352798a4bb188cf4f81d22d0374809cc8"}, "docker": "quay.io/biocontainers/kegalign-full", "aliases": {"bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "diagonal_partition.py": "/usr/local/bin/diagonal_partition.py", "kegalign": "/usr/local/bin/kegalign", "lastz": "/usr/local/bin/lastz", "lastz-cmd.ini": "/usr/local/bin/lastz-cmd.ini", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "mbuffer": "/usr/local/bin/mbuffer", "package_output.py": "/usr/local/bin/package_output.py", "run_kegalign": "/usr/local/bin/run_kegalign", "run_lastz_tarball.py": "/usr/local/bin/run_lastz_tarball.py", "runner.py": "/usr/local/bin/runner.py", "time": "/usr/local/bin/time", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "faToTwoBit": "/usr/local/bin/faToTwoBit", "annot-tsv": "/usr/local/bin/annot-tsv", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32"}}
+config: {"url": "https://biocontainers.pro/tools/kegalign-full", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kegalign-full", "latest": {"0.1.2.8--hdfd78af_0": "sha256:1cca674ff2cf97cdf98b8fb6c7fa1d15a27d1a57c2101b5dfe61ad8f725afccd"}, "tags": {"0.1.2.7--hdfd78af_0": "sha256:03841face06e71cea03fb1b63b5e72b352798a4bb188cf4f81d22d0374809cc8", "0.1.2.8--hdfd78af_0": "sha256:1cca674ff2cf97cdf98b8fb6c7fa1d15a27d1a57c2101b5dfe61ad8f725afccd"}, "docker": "quay.io/biocontainers/kegalign-full", "aliases": {"bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "diagonal_partition.py": "/usr/local/bin/diagonal_partition.py", "kegalign": "/usr/local/bin/kegalign", "lastz": "/usr/local/bin/lastz", "lastz-cmd.ini": "/usr/local/bin/lastz-cmd.ini", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "mbuffer": "/usr/local/bin/mbuffer", "package_output.py": "/usr/local/bin/package_output.py", "run_kegalign": "/usr/local/bin/run_kegalign", "run_lastz_tarball.py": "/usr/local/bin/run_lastz_tarball.py", "runner.py": "/usr/local/bin/runner.py", "time": "/usr/local/bin/time", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "gawkbug": "/usr/local/bin/gawkbug", "faToTwoBit": "/usr/local/bin/faToTwoBit", "annot-tsv": "/usr/local/bin/annot-tsv", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kegalign-full.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/kegalign-full
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kegalign-full:0.1.2.7--hdfd78af_0
+$ shpc install quay.io/biocontainers/kegalign-full:0.1.2.8--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kegalign-full/0.1.2.7--hdfd78af_0
-$ module help quay.io/biocontainers/kegalign-full/0.1.2.7--hdfd78af_0
+$ module load quay.io/biocontainers/kegalign-full/0.1.2.8--hdfd78af_0
+$ module help quay.io/biocontainers/kegalign-full/0.1.2.8--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

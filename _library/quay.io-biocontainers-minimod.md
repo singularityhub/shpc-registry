@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minimod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimod/container.yaml"
-updated_at: "2025-10-25 03:10:20.017541"
+updated_at: "2025-10-26 03:18:53.179843"
 latest: "0.4.0--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/minimod"
 aliases:

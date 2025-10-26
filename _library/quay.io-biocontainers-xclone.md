@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xclone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xclone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xclone/container.yaml"
-updated_at: "2025-10-25 03:29:19.928681"
+updated_at: "2025-10-26 03:37:58.503729"
 latest: "0.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/xclone"
 aliases:

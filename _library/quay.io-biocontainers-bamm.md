@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamm/container.yaml"
-updated_at: "2025-10-25 03:15:43.666847"
+updated_at: "2025-10-26 03:24:18.499674"
 latest: "1.7.3--py312hdcc493e_15"
 container_url: "https://biocontainers.pro/tools/bamm"
 aliases:

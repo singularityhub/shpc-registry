@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigwig-nim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigwig-nim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigwig-nim/container.yaml"
-updated_at: "2025-10-25 03:39:25.730031"
+updated_at: "2025-10-26 03:48:09.066075"
 latest: "0.0.3--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/bigwig-nim"
 aliases:
