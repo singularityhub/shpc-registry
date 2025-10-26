@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/trycycler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trycycler
 latest:
-  0.5.5--pyhdfd78af_1: 
-    sha256:e7130b6c9952434372f795e4c85d635d712862f661ffe7a48cceed6b3ad463b0
+  0.5.6--pyhdfd78af_0: 
+    sha256:d8fb392da8cf41ef67343f930e5d2745ed238bcfe7c7b45a9c3cabc6d9dbf4ba
 tags:
   0.5.3--pyhdfd78af_0: 
     sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935
@@ -13,6 +13,8 @@ tags:
     sha256:0569cd4d2deb6cf752a2d7c55992c73b4f6f98c7782b97a04af9a605eddd6f31
   0.5.5--pyhdfd78af_1: 
     sha256:e7130b6c9952434372f795e4c85d635d712862f661ffe7a48cceed6b3ad463b0
+  0.5.6--pyhdfd78af_0: 
+    sha256:d8fb392da8cf41ef67343f930e5d2745ed238bcfe7c7b45a9c3cabc6d9dbf4ba
 docker: quay.io/biocontainers/trycycler
 aliases:
   miniasm: /usr/local/bin/miniasm
