@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biocparallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocparallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocparallel/container.yaml"
-updated_at: "2025-10-26 03:33:12.259320"
+updated_at: "2025-10-27 03:43:13.705766"
 latest: "1.40.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocparallel"
 aliases:

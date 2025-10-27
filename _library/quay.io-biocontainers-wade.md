@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wade"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wade/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wade/container.yaml"
-updated_at: "2025-10-26 03:59:10.433616"
-latest: "0.2.6--r41hdfd78af_1"
+updated_at: "2025-10-27 04:09:57.739155"
+latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wade"
 aliases:
  - "CA.pm"
@@ -20,8 +20,9 @@ aliases:
  - "readme.pdf"
 versions:
  - "0.2.6--r41hdfd78af_1"
+ - "1.2.0--r44hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for wade"
-config: {"url": "https://biocontainers.pro/tools/wade", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wade", "latest": {"0.2.6--r41hdfd78af_1": "sha256:c59f80c6bd4e53f018c9fedc616ce1cc0715a40cb7bcade55708358ab7129242"}, "tags": {"0.2.6--r41hdfd78af_1": "sha256:c59f80c6bd4e53f018c9fedc616ce1cc0715a40cb7bcade55708358ab7129242"}, "docker": "quay.io/biocontainers/wade", "aliases": {"CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
+config: {"url": "https://biocontainers.pro/tools/wade", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wade", "latest": {"1.2.0--r44hdfd78af_0": "sha256:27cd28f2b5c36d5f191795a273df8e519bea32c38e4d05700f83eeef0bff9aea"}, "tags": {"0.2.6--r41hdfd78af_1": "sha256:c59f80c6bd4e53f018c9fedc616ce1cc0715a40cb7bcade55708358ab7129242", "1.2.0--r44hdfd78af_0": "sha256:27cd28f2b5c36d5f191795a273df8e519bea32c38e4d05700f83eeef0bff9aea"}, "docker": "quay.io/biocontainers/wade", "aliases": {"CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wade.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/wade
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wade:0.2.6--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/wade:1.2.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wade/0.2.6--r41hdfd78af_1
-$ module help quay.io/biocontainers/wade/0.2.6--r41hdfd78af_1
+$ module load quay.io/biocontainers/wade/1.2.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/wade/1.2.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

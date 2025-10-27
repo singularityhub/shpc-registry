@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexynesis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexynesis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexynesis/container.yaml"
-updated_at: "2025-10-26 03:13:38.384554"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2025-10-27 03:23:24.840295"
+latest: "1.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flexynesis"
 aliases:
  - "ase"
@@ -59,8 +59,9 @@ versions:
  - "0.2.20--pyhdfd78af_0"
  - "1.1.1--pyhdfd78af_0"
  - "1.0.8--pyhdfd78af_0"
+ - "1.1.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flexynesis"
-config: {"url": "https://biocontainers.pro/tools/flexynesis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexynesis", "latest": {"1.1.1--pyhdfd78af_0": "sha256:2ded3fc363b3cb52efcd7daa4e6dad89c9a60a0fc81982127523f86ec1474cc9"}, "tags": {"0.2.10--pyhdfd78af_0": "sha256:9cbe49d59a866b3233408384a9a2887a78b6a00d1f049c456a9930de05e5f390", "0.2.12--pyhdfd78af_0": "sha256:03ac884178a773b2330091749c860e8be5d06d97c2c8fe8b8601f0bddc55afa6", "0.2.14--pyhdfd78af_0": "sha256:65066d20ed3d89ad6e9993365aac9cc52e14815f900b569a43c90d3a4e4b614d", "0.2.16--pyhdfd78af_0": "sha256:4914ec12507597c8a95a6d14d861feade5dfc3caaac5870f7d84dc6e8eda668c", "0.2.17--pyhdfd78af_0": "sha256:dbb3591048143d8e0ac5bc0c1f7951158b70600325ebcec1a1462e93101be40c", "0.2.18--pyhdfd78af_0": "sha256:11977c5f88f77cbb07233bfdeff0616f29aae9d1702d818af8d0605d348c5f43", "0.2.20--pyhdfd78af_0": "sha256:892d0fd4e25753cbcc3d9123071d92501ae5a5d5f53dde8a8d38e07b2395f73d", "1.1.1--pyhdfd78af_0": "sha256:2ded3fc363b3cb52efcd7daa4e6dad89c9a60a0fc81982127523f86ec1474cc9", "1.0.8--pyhdfd78af_0": "sha256:ce45b0168be67d0782cd95c6937874001c3850f1d3d16dcd145c65d219555ae4"}, "docker": "quay.io/biocontainers/flexynesis", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "community": "/usr/local/bin/community", "debugpy": "/usr/local/bin/debugpy", "fabric": "/usr/local/bin/fabric", "flexynesis": "/usr/local/bin/flexynesis", "flexynesis-cli": "/usr/local/bin/flexynesis-cli", "lightning": "/usr/local/bin/lightning", "papermill": "/usr/local/bin/papermill", "pyaml": "/usr/local/bin/pyaml", "rav1e": "/usr/local/bin/rav1e", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "tiffcomment": "/usr/local/bin/tiffcomment", "jupyter-execute": "/usr/local/bin/jupyter-execute", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin"}}
+config: {"url": "https://biocontainers.pro/tools/flexynesis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexynesis", "latest": {"1.1.4--pyhdfd78af_0": "sha256:a151daa0702a831ee2375193480f3ad1ebf1d5d728065c1e6e47d2696ce15925"}, "tags": {"0.2.10--pyhdfd78af_0": "sha256:9cbe49d59a866b3233408384a9a2887a78b6a00d1f049c456a9930de05e5f390", "0.2.12--pyhdfd78af_0": "sha256:03ac884178a773b2330091749c860e8be5d06d97c2c8fe8b8601f0bddc55afa6", "0.2.14--pyhdfd78af_0": "sha256:65066d20ed3d89ad6e9993365aac9cc52e14815f900b569a43c90d3a4e4b614d", "0.2.16--pyhdfd78af_0": "sha256:4914ec12507597c8a95a6d14d861feade5dfc3caaac5870f7d84dc6e8eda668c", "0.2.17--pyhdfd78af_0": "sha256:dbb3591048143d8e0ac5bc0c1f7951158b70600325ebcec1a1462e93101be40c", "0.2.18--pyhdfd78af_0": "sha256:11977c5f88f77cbb07233bfdeff0616f29aae9d1702d818af8d0605d348c5f43", "0.2.20--pyhdfd78af_0": "sha256:892d0fd4e25753cbcc3d9123071d92501ae5a5d5f53dde8a8d38e07b2395f73d", "1.1.1--pyhdfd78af_0": "sha256:2ded3fc363b3cb52efcd7daa4e6dad89c9a60a0fc81982127523f86ec1474cc9", "1.0.8--pyhdfd78af_0": "sha256:ce45b0168be67d0782cd95c6937874001c3850f1d3d16dcd145c65d219555ae4", "1.1.4--pyhdfd78af_0": "sha256:a151daa0702a831ee2375193480f3ad1ebf1d5d728065c1e6e47d2696ce15925"}, "docker": "quay.io/biocontainers/flexynesis", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "community": "/usr/local/bin/community", "debugpy": "/usr/local/bin/debugpy", "fabric": "/usr/local/bin/fabric", "flexynesis": "/usr/local/bin/flexynesis", "flexynesis-cli": "/usr/local/bin/flexynesis-cli", "lightning": "/usr/local/bin/lightning", "papermill": "/usr/local/bin/papermill", "pyaml": "/usr/local/bin/pyaml", "rav1e": "/usr/local/bin/rav1e", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "tiffcomment": "/usr/local/bin/tiffcomment", "jupyter-execute": "/usr/local/bin/jupyter-execute", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexynesis.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/flexynesis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexynesis:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flexynesis:1.1.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexynesis/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/flexynesis/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/flexynesis/1.1.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/flexynesis/1.1.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

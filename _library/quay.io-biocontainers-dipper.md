@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dipper/container.yaml"
-updated_at: "2025-10-26 03:20:58.355733"
-latest: "0.1.1--h5ca1c30_0"
+updated_at: "2025-10-27 03:30:58.217042"
+latest: "0.1.2--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/dipper"
 aliases:
  - "dipper"
 versions:
  - "0.1.1--h5ca1c30_0"
+ - "0.1.2--h5ca1c30_0"
 description: "singularity registry hpc automated addition for dipper"
-config: {"url": "https://biocontainers.pro/tools/dipper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dipper", "latest": {"0.1.1--h5ca1c30_0": "sha256:ccdabf6bdaa2097dbc28f12368bdafee1a1cce083c31b345e812359d8b6c1426"}, "tags": {"0.1.1--h5ca1c30_0": "sha256:ccdabf6bdaa2097dbc28f12368bdafee1a1cce083c31b345e812359d8b6c1426"}, "docker": "quay.io/biocontainers/dipper", "aliases": {"dipper": "/usr/local/bin/dipper"}}
+config: {"url": "https://biocontainers.pro/tools/dipper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dipper", "latest": {"0.1.2--h5ca1c30_0": "sha256:e4f75ffaddbbdf5ffa484f5e23305144321f02c451f2cd3099ebb08a5d333325"}, "tags": {"0.1.1--h5ca1c30_0": "sha256:ccdabf6bdaa2097dbc28f12368bdafee1a1cce083c31b345e812359d8b6c1426", "0.1.2--h5ca1c30_0": "sha256:e4f75ffaddbbdf5ffa484f5e23305144321f02c451f2cd3099ebb08a5d333325"}, "docker": "quay.io/biocontainers/dipper", "aliases": {"dipper": "/usr/local/bin/dipper"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dipper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dipper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dipper:0.1.1--h5ca1c30_0
+$ shpc install quay.io/biocontainers/dipper:0.1.2--h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dipper/0.1.1--h5ca1c30_0
-$ module help quay.io/biocontainers/dipper/0.1.1--h5ca1c30_0
+$ module load quay.io/biocontainers/dipper/0.1.2--h5ca1c30_0
+$ module help quay.io/biocontainers/dipper/0.1.2--h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

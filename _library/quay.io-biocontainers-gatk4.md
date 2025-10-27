@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gatk4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatk4/container.yaml"
-updated_at: "2025-10-26 03:20:34.323043"
-latest: "4.6.2.0--py310hdfd78af_0"
+updated_at: "2025-10-27 03:30:33.991824"
+latest: "4.6.2.0--py310hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gatk4"
 aliases:
  - "gatk"
@@ -18,8 +18,9 @@ versions:
  - "4.2.6.1--py36hdfd78af_1"
  - "4.6.1.0--py310hdfd78af_0"
  - "4.6.2.0--py310hdfd78af_0"
+ - "4.6.2.0--py310hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for gatk4"
-config: {"url": "https://biocontainers.pro/tools/gatk4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk4", "latest": {"4.6.2.0--py310hdfd78af_0": "sha256:0f7383dfb2ce6d46fbad374838e2aa09e4ce74acd27469fd27f278ff399bf0d4"}, "tags": {"4.1.9.0--py39_0": "sha256:7b0b112b595861b140cbebdec5a0534bea9c40ef8bea4b3927fcea7ec53f5f57", "4.2.5.0--hdfd78af_0": "sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21", "4.5.0.0--py36hdfd78af_0": "sha256:6cbaf094204d22734c04122933fa12eb208d6cc639ab6e4ae8af315381682847", "4.4.0.0--py36hdfd78af_0": "sha256:31fd0f00431b92ab4a59906e1959b9cfea346e2996de2f7a1e999774b43c2ba1", "4.3.0.0--py36hdfd78af_0": "sha256:49f91bc0fcb704271c18a519715bf161141c0a00be4cf49c7ef2866de1f59a46", "4.2.6.1--py36hdfd78af_1": "sha256:34b762bbe035e62c34dfd72fc21095b2f4b57fc14bfb1dc3ec128c3ee4dee8c2", "4.6.1.0--py310hdfd78af_0": "sha256:42a736f8ce06092f50b77a2614318b52324e8862aa7517542ee95e8238b5105b", "4.6.2.0--py310hdfd78af_0": "sha256:0f7383dfb2ce6d46fbad374838e2aa09e4ce74acd27469fd27f278ff399bf0d4"}, "docker": "quay.io/biocontainers/gatk4", "aliases": {"gatk": "/usr/local/bin/gatk"}}
+config: {"url": "https://biocontainers.pro/tools/gatk4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk4", "latest": {"4.6.2.0--py310hdfd78af_1": "sha256:7311332e4d565d2356bbc0540cf582b505d1969a5f088a2c065302b13b10f5ee"}, "tags": {"4.1.9.0--py39_0": "sha256:7b0b112b595861b140cbebdec5a0534bea9c40ef8bea4b3927fcea7ec53f5f57", "4.2.5.0--hdfd78af_0": "sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21", "4.5.0.0--py36hdfd78af_0": "sha256:6cbaf094204d22734c04122933fa12eb208d6cc639ab6e4ae8af315381682847", "4.4.0.0--py36hdfd78af_0": "sha256:31fd0f00431b92ab4a59906e1959b9cfea346e2996de2f7a1e999774b43c2ba1", "4.3.0.0--py36hdfd78af_0": "sha256:49f91bc0fcb704271c18a519715bf161141c0a00be4cf49c7ef2866de1f59a46", "4.2.6.1--py36hdfd78af_1": "sha256:34b762bbe035e62c34dfd72fc21095b2f4b57fc14bfb1dc3ec128c3ee4dee8c2", "4.6.1.0--py310hdfd78af_0": "sha256:42a736f8ce06092f50b77a2614318b52324e8862aa7517542ee95e8238b5105b", "4.6.2.0--py310hdfd78af_0": "sha256:0f7383dfb2ce6d46fbad374838e2aa09e4ce74acd27469fd27f278ff399bf0d4", "4.6.2.0--py310hdfd78af_1": "sha256:7311332e4d565d2356bbc0540cf582b505d1969a5f088a2c065302b13b10f5ee"}, "docker": "quay.io/biocontainers/gatk4", "aliases": {"gatk": "/usr/local/bin/gatk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gatk4.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/gatk4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gatk4:4.6.2.0--py310hdfd78af_0
+$ shpc install quay.io/biocontainers/gatk4:4.6.2.0--py310hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gatk4/4.6.2.0--py310hdfd78af_0
-$ module help quay.io/biocontainers/gatk4/4.6.2.0--py310hdfd78af_0
+$ module load quay.io/biocontainers/gatk4/4.6.2.0--py310hdfd78af_1
+$ module help quay.io/biocontainers/gatk4/4.6.2.0--py310hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

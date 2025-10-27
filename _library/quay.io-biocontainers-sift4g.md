@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sift4g"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sift4g/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sift4g/container.yaml"
-updated_at: "2025-10-26 03:56:06.734998"
-latest: "2.0.0--hdbdd923_6"
+updated_at: "2025-10-27 04:06:52.664819"
+latest: "2.0.0--h503566f_8"
 container_url: "https://biocontainers.pro/tools/sift4g"
 aliases:
  - "sift4g"
 versions:
  - "2.0.0--h87f3376_4"
  - "2.0.0--hdbdd923_6"
+ - "2.0.0--h503566f_8"
 description: "shpc-registry automated BioContainers addition for sift4g"
-config: {"url": "https://biocontainers.pro/tools/sift4g", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sift4g", "latest": {"2.0.0--hdbdd923_6": "sha256:83a64f2c493a5f9568db706c79f5a907a7baa03072467bb55cf9979e95d07c19"}, "tags": {"2.0.0--h87f3376_4": "sha256:cfa96b310d3bafaa0788eb9cfbcb2d8420f2319d11ea47337f19f15444b8672d", "2.0.0--hdbdd923_6": "sha256:83a64f2c493a5f9568db706c79f5a907a7baa03072467bb55cf9979e95d07c19"}, "docker": "quay.io/biocontainers/sift4g", "aliases": {"sift4g": "/usr/local/bin/sift4g"}}
+config: {"url": "https://biocontainers.pro/tools/sift4g", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sift4g", "latest": {"2.0.0--h503566f_8": "sha256:b91f2170b4cdc222f2802efafdc7ff740cbe03d30f394a2166cd5007dedba5d2"}, "tags": {"2.0.0--h87f3376_4": "sha256:cfa96b310d3bafaa0788eb9cfbcb2d8420f2319d11ea47337f19f15444b8672d", "2.0.0--hdbdd923_6": "sha256:83a64f2c493a5f9568db706c79f5a907a7baa03072467bb55cf9979e95d07c19", "2.0.0--h503566f_8": "sha256:b91f2170b4cdc222f2802efafdc7ff740cbe03d30f394a2166cd5007dedba5d2"}, "docker": "quay.io/biocontainers/sift4g", "aliases": {"sift4g": "/usr/local/bin/sift4g"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sift4g.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sift4g
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sift4g:2.0.0--hdbdd923_6
+$ shpc install quay.io/biocontainers/sift4g:2.0.0--h503566f_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sift4g/2.0.0--hdbdd923_6
-$ module help quay.io/biocontainers/sift4g/2.0.0--hdbdd923_6
+$ module load quay.io/biocontainers/sift4g/2.0.0--h503566f_8
+$ module help quay.io/biocontainers/sift4g/2.0.0--h503566f_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

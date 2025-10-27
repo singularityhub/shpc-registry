@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scoup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scoup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scoup/container.yaml"
-updated_at: "2025-10-26 03:40:26.351533"
+updated_at: "2025-10-27 03:50:41.569472"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scoup"
 aliases:

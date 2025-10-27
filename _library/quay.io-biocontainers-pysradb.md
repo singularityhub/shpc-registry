@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pysradb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysradb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysradb/container.yaml"
-updated_at: "2025-10-26 03:38:23.139997"
-latest: "2.3.0--pyhdfd78af_0"
+updated_at: "2025-10-27 03:48:33.156016"
+latest: "2.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pysradb"
 aliases:
  - "pysradb"
@@ -29,8 +29,10 @@ versions:
  - "2.2.1--pyhdfd78af_0"
  - "2.2.2--pyhdfd78af_0"
  - "2.3.0--pyhdfd78af_0"
+ - "2.5.1--pyhdfd78af_0"
+ - "2.4.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pysradb"
-config: {"url": "https://biocontainers.pro/tools/pysradb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pysradb", "latest": {"2.3.0--pyhdfd78af_0": "sha256:9c7b395c89bdf983605fabd609e45129442e0dcf431ca451f7b1a42acb1aaec5"}, "tags": {"1.4.2--pyhdfd78af_0": "sha256:738d4d5e3b9e28446ad4470809d7ea40b4d7c0ca0a899ad947700184ff823168", "2.0.0--pyhdfd78af_0": "sha256:3869ebeac1cdec0a7d044469dcffa72b29fbf4ca6f88e2ac12d82d5c21387c81", "2.0.1--pyhdfd78af_0": "sha256:780b839d6492bcbbc64c4d3d0e514877dbf30f622c94556be3e1b18fb343ab49", "2.0.2--pyhdfd78af_0": "sha256:58c1cca30def5fce62859f6a82dea37a22c63170c573ae538350c100fcda8dad", "2.1.0--pyhdfd78af_0": "sha256:05c8b98e351a1dc361ecabf7f6b595991a4884044006e7c8d0d127d8063489e5", "2.2.0--pyhdfd78af_0": "sha256:9242812c9bc28667c9214675bd8eaf9ee5206bc42ef9891c842ed99343327085", "2.2.1--pyhdfd78af_0": "sha256:a056f16be8b6f7e1477becaa77fc29b1a1de014cb444f5e9d119d4f4423de6eb", "2.2.2--pyhdfd78af_0": "sha256:b386baa9862fe6061947a09fc8792031486bb43a39f502935c7245b0ff3bfc34", "2.3.0--pyhdfd78af_0": "sha256:9c7b395c89bdf983605fabd609e45129442e0dcf431ca451f7b1a42acb1aaec5"}, "docker": "quay.io/biocontainers/pysradb", "aliases": {"pysradb": "/usr/local/bin/pysradb", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pysradb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pysradb", "latest": {"2.5.1--pyhdfd78af_0": "sha256:df2a37be6dccf6e07a7667fc6df5a3ab6f75abfe90fa27ded96fd2ec5f927654"}, "tags": {"1.4.2--pyhdfd78af_0": "sha256:738d4d5e3b9e28446ad4470809d7ea40b4d7c0ca0a899ad947700184ff823168", "2.0.0--pyhdfd78af_0": "sha256:3869ebeac1cdec0a7d044469dcffa72b29fbf4ca6f88e2ac12d82d5c21387c81", "2.0.1--pyhdfd78af_0": "sha256:780b839d6492bcbbc64c4d3d0e514877dbf30f622c94556be3e1b18fb343ab49", "2.0.2--pyhdfd78af_0": "sha256:58c1cca30def5fce62859f6a82dea37a22c63170c573ae538350c100fcda8dad", "2.1.0--pyhdfd78af_0": "sha256:05c8b98e351a1dc361ecabf7f6b595991a4884044006e7c8d0d127d8063489e5", "2.2.0--pyhdfd78af_0": "sha256:9242812c9bc28667c9214675bd8eaf9ee5206bc42ef9891c842ed99343327085", "2.2.1--pyhdfd78af_0": "sha256:a056f16be8b6f7e1477becaa77fc29b1a1de014cb444f5e9d119d4f4423de6eb", "2.2.2--pyhdfd78af_0": "sha256:b386baa9862fe6061947a09fc8792031486bb43a39f502935c7245b0ff3bfc34", "2.3.0--pyhdfd78af_0": "sha256:9c7b395c89bdf983605fabd609e45129442e0dcf431ca451f7b1a42acb1aaec5", "2.5.1--pyhdfd78af_0": "sha256:df2a37be6dccf6e07a7667fc6df5a3ab6f75abfe90fa27ded96fd2ec5f927654", "2.4.1--pyhdfd78af_0": "sha256:034fb7436eaf0243e3374d889c00df9bd978e231a05c115bc4a4d4611d51bf1a"}, "docker": "quay.io/biocontainers/pysradb", "aliases": {"pysradb": "/usr/local/bin/pysradb", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pysradb.
@@ -45,7 +47,7 @@ $ shpc install quay.io/biocontainers/pysradb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pysradb:2.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pysradb:2.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pysradb/2.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pysradb/2.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pysradb/2.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pysradb/2.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

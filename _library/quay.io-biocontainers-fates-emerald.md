@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fates-emerald"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fates-emerald/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fates-emerald/container.yaml"
-updated_at: "2025-10-26 03:26:07.892036"
+updated_at: "2025-10-27 03:36:08.905907"
 latest: "2.0.1"
 container_url: "https://biocontainers.pro/tools/fates-emerald"
 

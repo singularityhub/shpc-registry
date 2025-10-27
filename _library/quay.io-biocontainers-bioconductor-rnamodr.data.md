@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnamodr.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnamodr.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnamodr.data/container.yaml"
-updated_at: "2025-10-26 03:45:02.051150"
+updated_at: "2025-10-27 03:55:35.787002"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnamodr.data"
 

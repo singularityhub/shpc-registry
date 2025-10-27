@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pod5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pod5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pod5/container.yaml"
-updated_at: "2025-10-26 03:18:50.325328"
+updated_at: "2025-10-27 03:28:45.934233"
 latest: "0.3.33--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pod5"
 aliases:
