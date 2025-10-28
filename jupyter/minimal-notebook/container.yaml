@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: Jupyter Minimal Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2023-10-20': 
-    sha256:1c4c8b6c7c27059c353d4e80523c2696e34723fde67d27418873ebeb42032551
+  '2023-10-20': 'crane digest jupyter/minimal-notebook:2023-10-20: TOOMANYREQUESTS:
+    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
   '4.0': sha256:6f9d189494fe091700681eb39b429dfe1420ad0717697c2e2293779fcb80cd1e
   latest: 
@@ -64,12 +64,12 @@ tags:
     sha256:2a4c3b723dcdb5a3238a8b058d269c23caf1eb839b16d1228901d665a49a2929
   '2023-08-28': 
     sha256:5208b1f4151b8ebc2877535d62889d1d69737185ca6e0023cdd72108fdaa2159
-  '2023-07-31': 
-    sha256:b4b7db94fa21102a4dc804f4a0b9d72a4ac51128317a9a7bafd7e88368dbbcf6
-  '2023-09-25': 
-    sha256:d8e1e43a7c155dc3cd9281f687a459dee22f6e0b8709fae280da9e43d5756bbf
-  '2023-10-20': 
-    sha256:1c4c8b6c7c27059c353d4e80523c2696e34723fde67d27418873ebeb42032551
+  '2023-07-31': 'crane digest jupyter/minimal-notebook:2023-07-31: TOOMANYREQUESTS:
+    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  '2023-09-25': 'crane digest jupyter/minimal-notebook:2023-09-25: TOOMANYREQUESTS:
+    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  '2023-10-20': 'crane digest jupyter/minimal-notebook:2023-10-20: TOOMANYREQUESTS:
+    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 features:
   home: true
 aliases:

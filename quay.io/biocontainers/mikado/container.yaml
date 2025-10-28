@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mikado
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mikado
 latest:
-  2.3.4--py310ha14a713_0: 
-    sha256:eb6238107c78079f752d8fcf9c41472eef3953660caecb46d5dd601c80ef4213
+  2.3.4--py310h8ea774a_2: 
+    sha256:dd6f5a2a2d7fdbab73c835cd0f49bd1444ecaddf8e4cd96fbf0fe24f5ecf5f22
 tags:
   2.2.4--py39h70b41aa_0: 
     sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea
@@ -11,6 +11,8 @@ tags:
     sha256:eb6238107c78079f752d8fcf9c41472eef3953660caecb46d5dd601c80ef4213
   2.2.5--py39h70b41aa_0: 
     sha256:a495f251c4f068b2a6d91e8615e763e4443fe15447a0da25c442c05003d12f76
+  2.3.4--py310h8ea774a_2: 
+    sha256:dd6f5a2a2d7fdbab73c835cd0f49bd1444ecaddf8e4cd96fbf0fe24f5ecf5f22
 docker: quay.io/biocontainers/mikado
 aliases:
   add_transcript_feature_to_gtf.py: 
