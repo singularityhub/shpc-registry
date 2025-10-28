@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sereal-decoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sereal-decoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sereal-decoder/container.yaml"
-updated_at: "2025-10-27 04:13:47.033517"
+updated_at: "2025-10-28 04:03:07.038963"
 latest: "5.004--pl5321h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/perl-sereal-decoder"
 aliases:

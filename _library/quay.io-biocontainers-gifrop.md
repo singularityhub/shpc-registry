@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gifrop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gifrop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gifrop/container.yaml"
-updated_at: "2025-10-27 04:01:01.490695"
+updated_at: "2025-10-28 03:49:41.670359"
 latest: "0.0.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gifrop"
 aliases:

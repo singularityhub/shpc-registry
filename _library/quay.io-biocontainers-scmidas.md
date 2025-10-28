@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scmidas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scmidas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scmidas/container.yaml"
-updated_at: "2025-10-27 03:47:27.981579"
+updated_at: "2025-10-28 03:35:56.959526"
 latest: "0.1.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scmidas"
 aliases:

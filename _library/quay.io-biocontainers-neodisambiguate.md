@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neodisambiguate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neodisambiguate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neodisambiguate/container.yaml"
-updated_at: "2025-10-27 03:50:58.776610"
+updated_at: "2025-10-28 03:39:32.694144"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/neodisambiguate"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bufferedmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bufferedmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bufferedmatrix/container.yaml"
-updated_at: "2025-10-27 03:30:56.498569"
+updated_at: "2025-10-28 03:18:36.295729"
 latest: "1.70.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bufferedmatrix"
 

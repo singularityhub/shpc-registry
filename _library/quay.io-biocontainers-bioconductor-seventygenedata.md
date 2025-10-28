@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seventygenedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seventygenedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seventygenedata/container.yaml"
-updated_at: "2025-10-27 03:40:52.713672"
+updated_at: "2025-10-28 03:29:07.269053"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seventygenedata"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maxquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maxquant/container.yaml"
-updated_at: "2025-10-27 03:26:17.238463"
+updated_at: "2025-10-28 03:13:53.033607"
 latest: "2.0.3.0--py310hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/maxquant"
 aliases:

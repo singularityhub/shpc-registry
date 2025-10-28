@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellpose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellpose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellpose/container.yaml"
-updated_at: "2025-10-27 03:35:14.159054"
+updated_at: "2025-10-28 03:23:07.034542"
 latest: "3.1.0"
 container_url: "https://biocontainers.pro/tools/cellpose"
 aliases:

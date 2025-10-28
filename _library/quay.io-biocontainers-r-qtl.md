@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qtl/container.yaml"
-updated_at: "2025-10-27 03:25:37.738475"
+updated_at: "2025-10-28 03:13:11.807864"
 latest: "1.41_6--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-qtl"
 

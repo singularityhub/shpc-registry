@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ddquint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ddquint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ddquint/container.yaml"
-updated_at: "2025-10-27 03:56:05.148376"
+updated_at: "2025-10-28 03:44:36.001731"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ddquint"
 aliases:

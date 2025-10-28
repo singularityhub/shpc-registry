@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parsimonious"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parsimonious/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parsimonious/container.yaml"
-updated_at: "2025-10-27 03:27:01.707630"
+updated_at: "2025-10-28 03:14:38.526828"
 latest: "0.10.0"
 container_url: "https://biocontainers.pro/tools/parsimonious"
 aliases:

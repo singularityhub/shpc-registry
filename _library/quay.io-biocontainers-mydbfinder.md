@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mydbfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mydbfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mydbfinder/container.yaml"
-updated_at: "2025-10-27 03:48:02.356339"
+updated_at: "2025-10-28 03:36:32.328433"
 latest: "1.0.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mydbfinder"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-codedepends"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-codedepends/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-codedepends/container.yaml"
-updated_at: "2025-10-27 04:15:03.164640"
+updated_at: "2025-10-28 04:04:28.001749"
 latest: "0.6.6--r44h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-codedepends"
 aliases:

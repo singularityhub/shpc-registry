@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypgx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypgx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypgx/container.yaml"
-updated_at: "2025-10-27 03:29:47.921207"
+updated_at: "2025-10-28 03:17:26.839662"
 latest: "0.25.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pypgx"
 aliases:

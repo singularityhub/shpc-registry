@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phylosignal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phylosignal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phylosignal/container.yaml"
-updated_at: "2025-10-27 03:30:22.990546"
+updated_at: "2025-10-28 03:18:01.741023"
 latest: "1.2--r351h29659fb_3"
 container_url: "https://biocontainers.pro/tools/r-phylosignal"
 aliases:

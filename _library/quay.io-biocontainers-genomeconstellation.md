@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomeconstellation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomeconstellation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomeconstellation/container.yaml"
-updated_at: "2025-10-27 03:47:45.628267"
+updated_at: "2025-10-28 03:36:15.173529"
 latest: "0.21.1--h077b44d_7"
 container_url: "https://biocontainers.pro/tools/genomeconstellation"
 aliases:
