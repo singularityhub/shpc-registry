@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zavolan-multiqc-plugins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zavolan-multiqc-plugins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zavolan-multiqc-plugins/container.yaml"
-updated_at: "2025-10-28 03:52:49.248482"
+updated_at: "2025-10-29 03:56:37.127463"
 latest: "1.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/zavolan-multiqc-plugins"
 aliases:

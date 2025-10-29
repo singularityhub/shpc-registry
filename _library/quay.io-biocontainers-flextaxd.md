@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flextaxd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flextaxd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flextaxd/container.yaml"
-updated_at: "2025-10-28 03:19:22.411066"
+updated_at: "2025-10-29 03:26:25.965789"
 latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flextaxd"
 aliases:

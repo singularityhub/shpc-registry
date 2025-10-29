@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sscocaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sscocaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sscocaller/container.yaml"
-updated_at: "2025-10-28 03:56:29.464829"
+updated_at: "2025-10-29 03:59:54.966912"
 latest: "0.2.2--hda81887_4"
 container_url: "https://biocontainers.pro/tools/sscocaller"
 aliases:

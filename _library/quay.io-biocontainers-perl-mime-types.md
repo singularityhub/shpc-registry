@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mime-types"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mime-types/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mime-types/container.yaml"
-updated_at: "2025-10-28 04:01:54.732804"
+updated_at: "2025-10-29 04:04:47.547042"
 latest: "2.29--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mime-types"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/td2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/td2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/td2/container.yaml"
-updated_at: "2025-10-28 04:05:09.688099"
+updated_at: "2025-10-29 04:07:42.721023"
 latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/td2"
 aliases:

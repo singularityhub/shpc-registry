@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/varpubs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varpubs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varpubs/container.yaml"
-updated_at: "2025-10-28 04:00:43.413267"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2025-10-29 04:03:43.599365"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varpubs"
 aliases:
  - "distro"
@@ -30,8 +30,10 @@ aliases:
 versions:
  - "0.1.2--pyhdfd78af_0"
  - "0.2.1--pyhdfd78af_0"
+ - "0.3.1--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for varpubs"
-config: {"url": "https://biocontainers.pro/tools/varpubs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for varpubs", "latest": {"0.2.1--pyhdfd78af_0": "sha256:f194a6de34dcd2e7521db416632e8e90be13caf85abed2baf42068e20564eb32"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:4c6823f336b7acea1116461c11e171567a44af78213180884e3920c1a45c1125", "0.2.1--pyhdfd78af_0": "sha256:f194a6de34dcd2e7521db416632e8e90be13caf85abed2baf42068e20564eb32"}, "docker": "quay.io/biocontainers/varpubs", "aliases": {"distro": "/usr/local/bin/distro", "openai": "/usr/local/bin/openai", "varpubs": "/usr/local/bin/varpubs", "ref-cache": "/usr/local/bin/ref-cache", "httpx": "/usr/local/bin/httpx", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "annot-tsv": "/usr/local/bin/annot-tsv", "humanfriendly": "/usr/local/bin/humanfriendly", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/varpubs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for varpubs", "latest": {"0.3.1--pyhdfd78af_0": "sha256:97614ab42fdf79405d9d9cb2752113deec8d11381258f5c866a4a447def2c277"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:4c6823f336b7acea1116461c11e171567a44af78213180884e3920c1a45c1125", "0.2.1--pyhdfd78af_0": "sha256:f194a6de34dcd2e7521db416632e8e90be13caf85abed2baf42068e20564eb32", "0.3.1--pyhdfd78af_0": "sha256:97614ab42fdf79405d9d9cb2752113deec8d11381258f5c866a4a447def2c277", "0.2.2--pyhdfd78af_0": "sha256:a3b0392a9bf7f6b5aa4f94c9ec6be88ced5c75d65cd23c2b1b69c0d3b0f8a0f9"}, "docker": "quay.io/biocontainers/varpubs", "aliases": {"distro": "/usr/local/bin/distro", "openai": "/usr/local/bin/openai", "varpubs": "/usr/local/bin/varpubs", "ref-cache": "/usr/local/bin/ref-cache", "httpx": "/usr/local/bin/httpx", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "annot-tsv": "/usr/local/bin/annot-tsv", "humanfriendly": "/usr/local/bin/humanfriendly", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varpubs.
@@ -46,7 +48,7 @@ $ shpc install quay.io/biocontainers/varpubs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/varpubs:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/varpubs:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/varpubs/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/varpubs/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/varpubs/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/varpubs/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

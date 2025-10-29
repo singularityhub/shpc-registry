@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sushi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sushi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sushi/container.yaml"
-updated_at: "2025-10-28 04:04:16.658260"
+updated_at: "2025-10-29 04:06:55.206151"
 latest: "1.31.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sushi"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/focus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/focus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/focus/container.yaml"
-updated_at: "2025-10-28 03:58:06.952754"
+updated_at: "2025-10-29 04:01:23.298759"
 latest: "1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/focus"
 aliases:
