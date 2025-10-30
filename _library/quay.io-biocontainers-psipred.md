@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psipred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psipred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psipred/container.yaml"
-updated_at: "2025-10-29 04:03:55.621216"
+updated_at: "2025-10-30 04:02:14.190539"
 latest: "4.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/psipred"
 aliases:
