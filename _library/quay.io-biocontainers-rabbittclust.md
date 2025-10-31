@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rabbittclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rabbittclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rabbittclust/container.yaml"
-updated_at: "2025-10-30 03:39:51.195115"
+updated_at: "2025-10-31 03:38:57.855051"
 latest: "2.3.0--h43eeafb_0"
 container_url: "https://biocontainers.pro/tools/rabbittclust"
 aliases:

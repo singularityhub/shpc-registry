@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqyclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqyclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqyclean/container.yaml"
-updated_at: "2025-10-30 03:18:24.189511"
+updated_at: "2025-10-31 03:17:46.687915"
 latest: "1.10.09--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/seqyclean"
 aliases:

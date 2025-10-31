@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chexmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chexmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chexmix/container.yaml"
-updated_at: "2025-10-30 03:14:37.726712"
+updated_at: "2025-10-31 03:14:08.007290"
 latest: "0.52--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chexmix"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mzspeclib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mzspeclib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mzspeclib/container.yaml"
-updated_at: "2025-10-30 03:23:16.644283"
+updated_at: "2025-10-31 03:22:30.245368"
 latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mzspeclib"
 aliases:
