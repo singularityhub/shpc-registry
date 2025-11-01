@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pmmrcalculator
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pmmrcalculator
 latest:
-  1.1.0--hdfd78af_0: 
-    sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac
+  1.1.0--hdfd78af_1: 
+    sha256:799ee51e126f43f23ad404e017a76ee860ed4ec2a5f981ed9daa7cbb5b8e1fb9
 tags:
   1.1.0--hdfd78af_0: 
     sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac
+  1.1.0--hdfd78af_1: 
+    sha256:799ee51e126f43f23ad404e017a76ee860ed4ec2a5f981ed9daa7cbb5b8e1fb9
 docker: quay.io/biocontainers/pmmrcalculator
 aliases:
   pmmrcalculator: /usr/local/bin/pmmrcalculator

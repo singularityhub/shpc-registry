@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/regain-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for regain-cli
 latest:
-  1.6.2--pyhdfd78af_0: 
-    sha256:fa6cfcaab71eea4fb15cc8290e9237b6a7905bc1a148e6aff38730c714ab12b4
+  1.7.1--pyhdfd78af_0: 
+    sha256:8d82cbcd5eebb44999c09a2e74156b94d50982b9b28b8a04e15c1ba27654e9a9
 tags:
   1.6.2--pyhdfd78af_0: 
     sha256:fa6cfcaab71eea4fb15cc8290e9237b6a7905bc1a148e6aff38730c714ab12b4
+  1.7.1--pyhdfd78af_0: 
+    sha256:8d82cbcd5eebb44999c09a2e74156b94d50982b9b28b8a04e15c1ba27654e9a9
+  1.6.3--pyhdfd78af_0: 
+    sha256:5f914d4e20aed077d01c422c2a41ee74b9aa44761b529000b097c21a442f840f
 docker: quay.io/biocontainers/regain-cli
 aliases:
   amrfinder_index: /usr/local/bin/amrfinder_index

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/vcf2cytosure
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcf2cytosure
 latest:
-  0.9.1--pyh7cba7a3_1: 
-    sha256:3058adaf2ef1e65082d536a25de6b232500b798f824ebd0b09ece316f55caaf0
+  0.9.3--pyh7e72e81_0: 
+    sha256:03b2cc5b5875e5a413fa92619f5a00f1e1fb4d44c33c80da2d52140a51f5ec30
 tags:
   0.9.1--pyh7cba7a3_1: 
     sha256:3058adaf2ef1e65082d536a25de6b232500b798f824ebd0b09ece316f55caaf0
+  0.9.3--pyh7e72e81_0: 
+    sha256:03b2cc5b5875e5a413fa92619f5a00f1e1fb4d44c33c80da2d52140a51f5ec30
 docker: quay.io/biocontainers/vcf2cytosure
 aliases:
   vcf2cytosure: /usr/local/bin/vcf2cytosure

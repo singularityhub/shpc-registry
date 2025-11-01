@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/augur
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for augur
 latest:
-  31.5.0--pyhdfd78af_0: 
-    sha256:2ce42b2c0c2d8ef0c66bf82313c61c50248c3a80d14e4ea33a6da4004d477dd9
+  32.0.0--pyhdfd78af_0: 
+    sha256:83e42092de1c9eec3909c3d5fc7c2bddf2aa15be461f1d876265e44d4250e3e3
 tags:
   9.0.0--py_1: 
     sha256:b50216d6d9feda2fa8e54fd976d596c5b58410b98aede1419fe54525203a337b
@@ -77,6 +77,8 @@ tags:
     sha256:bea03ad56c42df437573285645bd1a3a0fb965269374eb851b88e8dd39b9febf
   31.5.0--pyhdfd78af_0: 
     sha256:2ce42b2c0c2d8ef0c66bf82313c61c50248c3a80d14e4ea33a6da4004d477dd9
+  32.0.0--pyhdfd78af_0: 
+    sha256:83e42092de1c9eec3909c3d5fc7c2bddf2aa15be461f1d876265e44d4250e3e3
 docker: quay.io/biocontainers/augur
 aliases:
   augur: /usr/local/bin/augur

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/mimi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mimi
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:8c19ef7db5e28f3463823dd63249bf83db991bb42346303be5f97de47ef9945b
+  1.0.4--pyhdfd78af_0: 
+    sha256:38446eb83d51ab212bae792d8439dae0cfaca8b8b3076ff1eecf112890f011d6
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:9a5940ef0375972dae3c12565c84362ece0fd0009a0816b7e131967bb44c1132
   1.0.2--pyhdfd78af_0: 
     sha256:8c19ef7db5e28f3463823dd63249bf83db991bb42346303be5f97de47ef9945b
+  1.0.4--pyhdfd78af_0: 
+    sha256:38446eb83d51ab212bae792d8439dae0cfaca8b8b3076ff1eecf112890f011d6
 docker: quay.io/biocontainers/mimi
 aliases:
   mimi_cache_create: /usr/local/bin/mimi_cache_create

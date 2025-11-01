@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hymet
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hymet
 latest:
-  1.0.0--hdfd78af_0: 
-    sha256:b8d234f8c558d326cbe6c4efea2335d052f41c6be60a9b20c450d12e9eae5c91
+  1.2.1--hdfd78af_0: 
+    sha256:792af8b01b740b75f03a85a0f440a58246e4cc3329f5964819c87bc73967a22e
 tags:
   1.0.0--hdfd78af_0: 
     sha256:b8d234f8c558d326cbe6c4efea2335d052f41c6be60a9b20c450d12e9eae5c91
+  1.2.1--hdfd78af_0: 
+    sha256:792af8b01b740b75f03a85a0f440a58246e4cc3329f5964819c87bc73967a22e
 docker: quay.io/biocontainers/hymet
 aliases:
   config.pl: /usr/local/bin/config.pl

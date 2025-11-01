@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/centrosome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for centrosome
 latest:
-  1.3.1--py312h2973bf2_0: 
-    sha256:03723ce6b90161a1d40d8a9dbcf7b440a0eb511c709cbf2ed497f789d99c6a56
+  1.3.2--py39h8931b72_0: 
+    sha256:83f9cc504c2d68a18e121016038a99e0661e5f7f2012fa801daa1a5d6f449058
 tags:
   1.2.1--py39h919a90d_0: 
     sha256:c69100fcbd1f8a78542dccfee785dc7109eb0f80ba82c17e4b5ee7d717bff89d
@@ -23,6 +23,8 @@ tags:
     sha256:09f88311f3c370422ce6622b4ec55482f793cc032fca94287fad55d09596f7c6
   1.3.1--py312h2973bf2_0: 
     sha256:03723ce6b90161a1d40d8a9dbcf7b440a0eb511c709cbf2ed497f789d99c6a56
+  1.3.2--py39h8931b72_0: 
+    sha256:83f9cc504c2d68a18e121016038a99e0661e5f7f2012fa801daa1a5d6f449058
 docker: quay.io/biocontainers/centrosome
 aliases:
   aomdec: /usr/local/bin/aomdec
