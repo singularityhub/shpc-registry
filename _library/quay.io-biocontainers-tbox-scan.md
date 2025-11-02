@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tbox-scan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbox-scan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbox-scan/container.yaml"
-updated_at: "2025-11-01 04:05:41.269675"
+updated_at: "2025-11-02 04:10:09.978664"
 latest: "1.0.2--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/tbox-scan"
 aliases:

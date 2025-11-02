@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcf2cytosure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2cytosure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2cytosure/container.yaml"
-updated_at: "2025-11-01 03:35:20.166864"
-latest: "0.9.1--pyh7cba7a3_1"
+updated_at: "2025-11-02 03:39:24.174395"
+latest: "0.9.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/vcf2cytosure"
 aliases:
  - "vcf2cytosure"
@@ -24,8 +24,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.9.1--pyh7cba7a3_1"
+ - "0.9.3--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for vcf2cytosure"
-config: {"url": "https://biocontainers.pro/tools/vcf2cytosure", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf2cytosure", "latest": {"0.9.1--pyh7cba7a3_1": "sha256:3058adaf2ef1e65082d536a25de6b232500b798f824ebd0b09ece316f55caaf0"}, "tags": {"0.9.1--pyh7cba7a3_1": "sha256:3058adaf2ef1e65082d536a25de6b232500b798f824ebd0b09ece316f55caaf0"}, "docker": "quay.io/biocontainers/vcf2cytosure", "aliases": {"vcf2cytosure": "/usr/local/bin/vcf2cytosure", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/vcf2cytosure", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf2cytosure", "latest": {"0.9.3--pyh7e72e81_0": "sha256:03b2cc5b5875e5a413fa92619f5a00f1e1fb4d44c33c80da2d52140a51f5ec30"}, "tags": {"0.9.1--pyh7cba7a3_1": "sha256:3058adaf2ef1e65082d536a25de6b232500b798f824ebd0b09ece316f55caaf0", "0.9.3--pyh7e72e81_0": "sha256:03b2cc5b5875e5a413fa92619f5a00f1e1fb4d44c33c80da2d52140a51f5ec30"}, "docker": "quay.io/biocontainers/vcf2cytosure", "aliases": {"vcf2cytosure": "/usr/local/bin/vcf2cytosure", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf2cytosure.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/vcf2cytosure
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf2cytosure:0.9.1--pyh7cba7a3_1
+$ shpc install quay.io/biocontainers/vcf2cytosure:0.9.3--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf2cytosure/0.9.1--pyh7cba7a3_1
-$ module help quay.io/biocontainers/vcf2cytosure/0.9.1--pyh7cba7a3_1
+$ module load quay.io/biocontainers/vcf2cytosure/0.9.3--pyh7e72e81_0
+$ module help quay.io/biocontainers/vcf2cytosure/0.9.3--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

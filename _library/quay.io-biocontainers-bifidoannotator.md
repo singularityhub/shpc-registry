@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bifidoannotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bifidoannotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bifidoannotator/container.yaml"
-updated_at: "2025-11-01 03:37:28.516152"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2025-11-02 03:41:31.501526"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bifidoannotator"
 aliases:
  - "bifidoAnnotator"
@@ -37,8 +37,9 @@ aliases:
  - "opj_dump"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bifidoannotator"
-config: {"url": "https://biocontainers.pro/tools/bifidoannotator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bifidoannotator", "latest": {"1.0.1--pyhdfd78af_0": "sha256:465ecc5e75a950dfcccda500d86166358ad931007b848f4cfa1d6fdad19d6b20"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:465ecc5e75a950dfcccda500d86166358ad931007b848f4cfa1d6fdad19d6b20"}, "docker": "quay.io/biocontainers/bifidoannotator", "aliases": {"bifidoAnnotator": "/usr/local/bin/bifidoAnnotator", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aria2c": "/usr/local/bin/aria2c", "mmseqs": "/usr/local/bin/mmseqs", "gawkbug": "/usr/local/bin/gawkbug", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/bifidoannotator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bifidoannotator", "latest": {"1.0.2--pyhdfd78af_0": "sha256:57a61796ddc5795d916eb80e08649e7c0bf77fb590f16d57f33eaa09a7adf46f"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:465ecc5e75a950dfcccda500d86166358ad931007b848f4cfa1d6fdad19d6b20", "1.0.2--pyhdfd78af_0": "sha256:57a61796ddc5795d916eb80e08649e7c0bf77fb590f16d57f33eaa09a7adf46f"}, "docker": "quay.io/biocontainers/bifidoannotator", "aliases": {"bifidoAnnotator": "/usr/local/bin/bifidoAnnotator", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aria2c": "/usr/local/bin/aria2c", "mmseqs": "/usr/local/bin/mmseqs", "gawkbug": "/usr/local/bin/gawkbug", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bifidoannotator.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/bifidoannotator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bifidoannotator:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bifidoannotator:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bifidoannotator/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/bifidoannotator/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/bifidoannotator/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/bifidoannotator/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

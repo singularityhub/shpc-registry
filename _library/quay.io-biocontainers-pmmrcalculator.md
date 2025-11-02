@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pmmrcalculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmmrcalculator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmmrcalculator/container.yaml"
-updated_at: "2025-11-01 03:21:15.481894"
-latest: "1.1.0--hdfd78af_0"
+updated_at: "2025-11-02 03:25:19.215935"
+latest: "1.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pmmrcalculator"
 aliases:
  - "pmmrcalculator"
@@ -20,8 +20,9 @@ aliases:
  - "pyvenv"
 versions:
  - "1.1.0--hdfd78af_0"
+ - "1.1.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for pmmrcalculator"
-config: {"url": "https://biocontainers.pro/tools/pmmrcalculator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmmrcalculator", "latest": {"1.1.0--hdfd78af_0": "sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac"}, "tags": {"1.1.0--hdfd78af_0": "sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac"}, "docker": "quay.io/biocontainers/pmmrcalculator", "aliases": {"pmmrcalculator": "/usr/local/bin/pmmrcalculator", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pmmrcalculator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmmrcalculator", "latest": {"1.1.0--hdfd78af_1": "sha256:799ee51e126f43f23ad404e017a76ee860ed4ec2a5f981ed9daa7cbb5b8e1fb9"}, "tags": {"1.1.0--hdfd78af_0": "sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac", "1.1.0--hdfd78af_1": "sha256:799ee51e126f43f23ad404e017a76ee860ed4ec2a5f981ed9daa7cbb5b8e1fb9"}, "docker": "quay.io/biocontainers/pmmrcalculator", "aliases": {"pmmrcalculator": "/usr/local/bin/pmmrcalculator", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pmmrcalculator.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pmmrcalculator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pmmrcalculator:1.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/pmmrcalculator:1.1.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pmmrcalculator/1.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/pmmrcalculator/1.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/pmmrcalculator/1.1.0--hdfd78af_1
+$ module help quay.io/biocontainers/pmmrcalculator/1.1.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

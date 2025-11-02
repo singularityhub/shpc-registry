@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cner/container.yaml"
-updated_at: "2025-11-01 03:28:49.331059"
+updated_at: "2025-11-02 03:32:53.233710"
 latest: "1.43.0--r44h15a9599_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cner"
 

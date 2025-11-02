@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hymet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hymet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hymet/container.yaml"
-updated_at: "2025-11-01 03:31:06.511256"
-latest: "1.0.0--hdfd78af_0"
+updated_at: "2025-11-02 03:35:09.507038"
+latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hymet"
 aliases:
  - "config.pl"
@@ -51,8 +51,9 @@ aliases:
  - "wget"
 versions:
  - "1.0.0--hdfd78af_0"
+ - "1.2.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for hymet"
-config: {"url": "https://biocontainers.pro/tools/hymet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hymet", "latest": {"1.0.0--hdfd78af_0": "sha256:b8d234f8c558d326cbe6c4efea2335d052f41c6be60a9b20c450d12e9eae5c91"}, "tags": {"1.0.0--hdfd78af_0": "sha256:b8d234f8c558d326cbe6c4efea2335d052f41c6be60a9b20c450d12e9eae5c91"}, "docker": "quay.io/biocontainers/hymet", "aliases": {"config.pl": "/usr/local/bin/config.pl", "csvclean": "/usr/local/bin/csvclean", "csvcut": "/usr/local/bin/csvcut", "csvformat": "/usr/local/bin/csvformat", "csvgrep": "/usr/local/bin/csvgrep", "csvjoin": "/usr/local/bin/csvjoin", "csvjson": "/usr/local/bin/csvjson", "csvlook": "/usr/local/bin/csvlook", "csvpy": "/usr/local/bin/csvpy", "csvsort": "/usr/local/bin/csvsort", "csvsql": "/usr/local/bin/csvsql", "csvstack": "/usr/local/bin/csvstack", "csvstat": "/usr/local/bin/csvstat", "hymet": "/usr/local/bin/hymet", "hymet-config": "/usr/local/bin/hymet-config", "in2csv": "/usr/local/bin/in2csv", "main.pl": "/usr/local/bin/main.pl", "sql2csv": "/usr/local/bin/sql2csv", "slugify": "/usr/local/bin/slugify", "runxlrd.py": "/usr/local/bin/runxlrd.py", "pybabel": "/usr/local/bin/pybabel", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "idn2": "/usr/local/bin/idn2", "tqdm": "/usr/local/bin/tqdm", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/hymet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hymet", "latest": {"1.2.1--hdfd78af_0": "sha256:792af8b01b740b75f03a85a0f440a58246e4cc3329f5964819c87bc73967a22e"}, "tags": {"1.0.0--hdfd78af_0": "sha256:b8d234f8c558d326cbe6c4efea2335d052f41c6be60a9b20c450d12e9eae5c91", "1.2.1--hdfd78af_0": "sha256:792af8b01b740b75f03a85a0f440a58246e4cc3329f5964819c87bc73967a22e"}, "docker": "quay.io/biocontainers/hymet", "aliases": {"config.pl": "/usr/local/bin/config.pl", "csvclean": "/usr/local/bin/csvclean", "csvcut": "/usr/local/bin/csvcut", "csvformat": "/usr/local/bin/csvformat", "csvgrep": "/usr/local/bin/csvgrep", "csvjoin": "/usr/local/bin/csvjoin", "csvjson": "/usr/local/bin/csvjson", "csvlook": "/usr/local/bin/csvlook", "csvpy": "/usr/local/bin/csvpy", "csvsort": "/usr/local/bin/csvsort", "csvsql": "/usr/local/bin/csvsql", "csvstack": "/usr/local/bin/csvstack", "csvstat": "/usr/local/bin/csvstat", "hymet": "/usr/local/bin/hymet", "hymet-config": "/usr/local/bin/hymet-config", "in2csv": "/usr/local/bin/in2csv", "main.pl": "/usr/local/bin/main.pl", "sql2csv": "/usr/local/bin/sql2csv", "slugify": "/usr/local/bin/slugify", "runxlrd.py": "/usr/local/bin/runxlrd.py", "pybabel": "/usr/local/bin/pybabel", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "idn2": "/usr/local/bin/idn2", "tqdm": "/usr/local/bin/tqdm", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hymet.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/hymet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hymet:1.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/hymet:1.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hymet/1.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/hymet/1.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/hymet/1.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/hymet/1.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

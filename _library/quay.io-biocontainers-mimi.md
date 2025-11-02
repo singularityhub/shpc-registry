@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mimi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mimi/container.yaml"
-updated_at: "2025-11-01 03:48:48.498361"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2025-11-02 03:53:03.856727"
+latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mimi"
 aliases:
  - "mimi_cache_create"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "1.0.1--pyhdfd78af_0"
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mimi"
-config: {"url": "https://biocontainers.pro/tools/mimi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mimi", "latest": {"1.0.2--pyhdfd78af_0": "sha256:8c19ef7db5e28f3463823dd63249bf83db991bb42346303be5f97de47ef9945b"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:9a5940ef0375972dae3c12565c84362ece0fd0009a0816b7e131967bb44c1132", "1.0.2--pyhdfd78af_0": "sha256:8c19ef7db5e28f3463823dd63249bf83db991bb42346303be5f97de47ef9945b"}, "docker": "quay.io/biocontainers/mimi", "aliases": {"mimi_cache_create": "/usr/local/bin/mimi_cache_create", "mimi_cache_dump": "/usr/local/bin/mimi_cache_dump", "mimi_hmdb_extract": "/usr/local/bin/mimi_hmdb_extract", "mimi_kegg_extract": "/usr/local/bin/mimi_kegg_extract", "mimi_mass_analysis": "/usr/local/bin/mimi_mass_analysis", "pyjson5": "/usr/local/bin/pyjson5", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/mimi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mimi", "latest": {"1.0.4--pyhdfd78af_0": "sha256:38446eb83d51ab212bae792d8439dae0cfaca8b8b3076ff1eecf112890f011d6"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:9a5940ef0375972dae3c12565c84362ece0fd0009a0816b7e131967bb44c1132", "1.0.2--pyhdfd78af_0": "sha256:8c19ef7db5e28f3463823dd63249bf83db991bb42346303be5f97de47ef9945b", "1.0.4--pyhdfd78af_0": "sha256:38446eb83d51ab212bae792d8439dae0cfaca8b8b3076ff1eecf112890f011d6"}, "docker": "quay.io/biocontainers/mimi", "aliases": {"mimi_cache_create": "/usr/local/bin/mimi_cache_create", "mimi_cache_dump": "/usr/local/bin/mimi_cache_dump", "mimi_hmdb_extract": "/usr/local/bin/mimi_hmdb_extract", "mimi_kegg_extract": "/usr/local/bin/mimi_kegg_extract", "mimi_mass_analysis": "/usr/local/bin/mimi_mass_analysis", "pyjson5": "/usr/local/bin/pyjson5", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mimi.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/mimi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mimi:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mimi:1.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mimi/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/mimi/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/mimi/1.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/mimi/1.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

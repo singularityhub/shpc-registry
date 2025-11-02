@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hmm/container.yaml"
-updated_at: "2025-11-01 03:17:30.573715"
+updated_at: "2025-11-02 03:21:30.500718"
 latest: "1.0.2--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-hmm"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.0.2--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for r-hmm"
-config: {"url": "https://biocontainers.pro/tools/r-hmm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-hmm", "latest": {"1.0.2--r44hdfd78af_0": "sha256:a01696f2cebe6f54817a26caa53f61ddf4c6330656a11ea2db1754a87cb751de"}, "tags": {"1.0.2--r44hdfd78af_0": "sha256:a01696f2cebe6f54817a26caa53f61ddf4c6330656a11ea2db1754a87cb751de"}, "docker": "quay.io/biocontainers/r-hmm", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-hmm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-hmm", "latest": {"1.0.2--r44hdfd78af_0": "sha256:153cde43c476e293c0f4cd4ac7bb5dcafe5e8a51b3300e3f6080ce3bb0bee663"}, "tags": {"1.0.2--r44hdfd78af_0": "sha256:153cde43c476e293c0f4cd4ac7bb5dcafe5e8a51b3300e3f6080ce3bb0bee663"}, "docker": "quay.io/biocontainers/r-hmm", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hmm.
