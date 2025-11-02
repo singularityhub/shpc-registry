@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nordic
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nordic
 latest:
-  2.7.0--py312h9c9b0c2_0: 
-    sha256:d4a0da94106bdf7e064925e493ce498649cf86723b0f5a4a7e86dc2867403bab
+  2.7.1--py311h8ddd9a4_0: 
+    sha256:2cfea517595dabdb5b43aaf5404ea5cd6025a11fb9bc4fafd9d098fb565d7410
 tags:
   2.4.4--py38hc387825_0: 
     sha256:3d8d2196e200e6dca8c0f6230e61c5a717384f4bb1669a16cf201cf9e2b61032
@@ -17,6 +17,8 @@ tags:
     sha256:49ad5fe66db914e7138b65836612c1f4f0a4eb196e4d97ca3cbda3780edd5144
   2.7.0--py312h9c9b0c2_0: 
     sha256:d4a0da94106bdf7e064925e493ce498649cf86723b0f5a4a7e86dc2867403bab
+  2.7.1--py311h8ddd9a4_0: 
+    sha256:2cfea517595dabdb5b43aaf5404ea5cd6025a11fb9bc4fafd9d098fb565d7410
 docker: quay.io/biocontainers/nordic
 aliases:
   bonesis-attractors: /usr/local/bin/bonesis-attractors

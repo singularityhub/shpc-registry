@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/transtermhp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for transtermhp
 latest:
-  2.09--h2d50403_1: 
-    sha256:310af5ac72c3c29d3872a87e42fdc0fef95e52eab045d8cd4b7f31efb80f4916
+  2.09--h9948957_2: 
+    sha256:fc6fe0404be9340a883ec7a7b90415dfc3826c2bca7333a0314335c7bfee2d03
 tags:
   2.09--h2d50403_1: 
     sha256:310af5ac72c3c29d3872a87e42fdc0fef95e52eab045d8cd4b7f31efb80f4916
+  2.09--h9948957_2: 
+    sha256:fc6fe0404be9340a883ec7a7b90415dfc3826c2bca7333a0314335c7bfee2d03
 docker: quay.io/biocontainers/transtermhp
 aliases:
   2ndscore: /usr/local/bin/2ndscore
