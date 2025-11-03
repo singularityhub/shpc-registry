@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scprep/container.yaml"
-updated_at: "2025-11-02 03:36:26.862451"
-latest: "1.2.3--pyhdfd78af_0"
+updated_at: "2025-11-03 03:38:31.610119"
+latest: "1.2.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scprep"
 aliases:
  - "f2py3.10"
@@ -19,8 +19,9 @@ versions:
  - "1.2.1--pyhdfd78af_0"
  - "1.2.2--pyhdfd78af_0"
  - "1.2.3--pyhdfd78af_0"
+ - "1.2.3--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for scprep"
-config: {"url": "https://biocontainers.pro/tools/scprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scprep", "latest": {"1.2.3--pyhdfd78af_0": "sha256:fef4f934b60c3e22b450fd2433bdd3e1f8595bda88c369c06fb160f49e6d5eca"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:961df1e2457d29eb2134989ed43a43e7f4f5338fd17e9a28660473453dd4f2ad", "1.2.2--pyhdfd78af_0": "sha256:350e5f81dc86af2189edf5e92e81782fdab8528f78b4af84e94025cbe4abdd47", "1.2.3--pyhdfd78af_0": "sha256:fef4f934b60c3e22b450fd2433bdd3e1f8595bda88c369c06fb160f49e6d5eca"}, "docker": "quay.io/biocontainers/scprep", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/scprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scprep", "latest": {"1.2.3--pyhdfd78af_1": "sha256:edebcaed59663015d35a5aea1d5ec5e06f092650b49cef174e829252c3d25c76"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:961df1e2457d29eb2134989ed43a43e7f4f5338fd17e9a28660473453dd4f2ad", "1.2.2--pyhdfd78af_0": "sha256:350e5f81dc86af2189edf5e92e81782fdab8528f78b4af84e94025cbe4abdd47", "1.2.3--pyhdfd78af_0": "sha256:fef4f934b60c3e22b450fd2433bdd3e1f8595bda88c369c06fb160f49e6d5eca", "1.2.3--pyhdfd78af_1": "sha256:edebcaed59663015d35a5aea1d5ec5e06f092650b49cef174e829252c3d25c76"}, "docker": "quay.io/biocontainers/scprep", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scprep.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/scprep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scprep:1.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scprep:1.2.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scprep/1.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/scprep/1.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/scprep/1.2.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/scprep/1.2.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

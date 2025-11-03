@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/transtermhp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transtermhp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transtermhp/container.yaml"
-updated_at: "2025-11-02 03:25:01.674399"
-latest: "2.09--h2d50403_1"
+updated_at: "2025-11-03 03:27:05.815338"
+latest: "2.09--h9948957_2"
 container_url: "https://biocontainers.pro/tools/transtermhp"
 aliases:
  - "2ndscore"
@@ -15,8 +15,9 @@ aliases:
  - "transterm"
 versions:
  - "2.09--h2d50403_1"
+ - "2.09--h9948957_2"
 description: "shpc-registry automated BioContainers addition for transtermhp"
-config: {"url": "https://biocontainers.pro/tools/transtermhp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transtermhp", "latest": {"2.09--h2d50403_1": "sha256:310af5ac72c3c29d3872a87e42fdc0fef95e52eab045d8cd4b7f31efb80f4916"}, "tags": {"2.09--h2d50403_1": "sha256:310af5ac72c3c29d3872a87e42fdc0fef95e52eab045d8cd4b7f31efb80f4916"}, "docker": "quay.io/biocontainers/transtermhp", "aliases": {"2ndscore": "/usr/local/bin/2ndscore", "calibrate.sh": "/usr/local/bin/calibrate.sh", "make_expterm.py": "/usr/local/bin/make_expterm.py", "mfold_rna.sh": "/usr/local/bin/mfold_rna.sh", "transterm": "/usr/local/bin/transterm"}}
+config: {"url": "https://biocontainers.pro/tools/transtermhp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transtermhp", "latest": {"2.09--h9948957_2": "sha256:fc6fe0404be9340a883ec7a7b90415dfc3826c2bca7333a0314335c7bfee2d03"}, "tags": {"2.09--h2d50403_1": "sha256:310af5ac72c3c29d3872a87e42fdc0fef95e52eab045d8cd4b7f31efb80f4916", "2.09--h9948957_2": "sha256:fc6fe0404be9340a883ec7a7b90415dfc3826c2bca7333a0314335c7bfee2d03"}, "docker": "quay.io/biocontainers/transtermhp", "aliases": {"2ndscore": "/usr/local/bin/2ndscore", "calibrate.sh": "/usr/local/bin/calibrate.sh", "make_expterm.py": "/usr/local/bin/make_expterm.py", "mfold_rna.sh": "/usr/local/bin/mfold_rna.sh", "transterm": "/usr/local/bin/transterm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transtermhp.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/transtermhp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transtermhp:2.09--h2d50403_1
+$ shpc install quay.io/biocontainers/transtermhp:2.09--h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transtermhp/2.09--h2d50403_1
-$ module help quay.io/biocontainers/transtermhp/2.09--h2d50403_1
+$ module load quay.io/biocontainers/transtermhp/2.09--h9948957_2
+$ module help quay.io/biocontainers/transtermhp/2.09--h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

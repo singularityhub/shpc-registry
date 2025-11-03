@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mouse4302barcodevecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mouse4302barcodevecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mouse4302barcodevecs/container.yaml"
-updated_at: "2025-11-02 03:48:13.667570"
+updated_at: "2025-11-03 03:50:12.782656"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mouse4302barcodevecs"
 

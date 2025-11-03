@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nordic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nordic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nordic/container.yaml"
-updated_at: "2025-11-02 03:55:39.310481"
-latest: "2.7.0--py312h9c9b0c2_0"
+updated_at: "2025-11-03 03:57:38.787995"
+latest: "2.7.1--py311h8ddd9a4_0"
 container_url: "https://biocontainers.pro/tools/nordic"
 aliases:
  - "bonesis-attractors"
@@ -55,8 +55,9 @@ versions:
  - "2.5.0--py311h9fd004d_1"
  - "2.6.0--py310h8ea774a_0"
  - "2.7.0--py312h9c9b0c2_0"
+ - "2.7.1--py311h8ddd9a4_0"
 description: "singularity registry hpc automated addition for nordic"
-config: {"url": "https://biocontainers.pro/tools/nordic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nordic", "latest": {"2.7.0--py312h9c9b0c2_0": "sha256:d4a0da94106bdf7e064925e493ce498649cf86723b0f5a4a7e86dc2867403bab"}, "tags": {"2.4.4--py38hc387825_0": "sha256:3d8d2196e200e6dca8c0f6230e61c5a717384f4bb1669a16cf201cf9e2b61032", "2.4.4--py39he5231b2_0": "sha256:9e6c5d889a9938a45b08d9040ad2078cb933157c594d9d27db889f77bf51bf3b", "2.5.0--py312h4e2a44a_0": "sha256:b4f64741d8b338537db3947dcf2f5b921392a6f3364bc2d7da2a41dc00feb6a5", "2.5.0--py311h9fd004d_1": "sha256:5aaa49353baaaf85240966b0067e2e86d1026004af0f8d4b5534915b8b46aeac", "2.6.0--py310h8ea774a_0": "sha256:49ad5fe66db914e7138b65836612c1f4f0a4eb196e4d97ca3cbda3780edd5144", "2.7.0--py312h9c9b0c2_0": "sha256:d4a0da94106bdf7e064925e493ce498649cf86723b0f5a4a7e86dc2867403bab"}, "docker": "quay.io/biocontainers/nordic", "aliases": {"bonesis-attractors": "/usr/local/bin/bonesis-attractors", "bonesis-reprogramming": "/usr/local/bin/bonesis-reprogramming", "bonesis-utils": "/usr/local/bin/bonesis-utils", "clasp": "/usr/local/bin/clasp", "clingo": "/usr/local/bin/clingo", "concat": "/usr/local/bin/concat", "gct2gctx": "/usr/local/bin/gct2gctx", "gctx2gct": "/usr/local/bin/gctx2gct", "gringo": "/usr/local/bin/gringo", "lpconvert": "/usr/local/bin/lpconvert", "mpbn": "/usr/local/bin/mpbn", "mpbn-sim": "/usr/local/bin/mpbn-sim", "qnorm": "/usr/local/bin/qnorm", "reify": "/usr/local/bin/reify", "subset": "/usr/local/bin/subset", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "numba": "/usr/local/bin/numba", "hb-info": "/usr/local/bin/hb-info", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps"}}
+config: {"url": "https://biocontainers.pro/tools/nordic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nordic", "latest": {"2.7.1--py311h8ddd9a4_0": "sha256:2cfea517595dabdb5b43aaf5404ea5cd6025a11fb9bc4fafd9d098fb565d7410"}, "tags": {"2.4.4--py38hc387825_0": "sha256:3d8d2196e200e6dca8c0f6230e61c5a717384f4bb1669a16cf201cf9e2b61032", "2.4.4--py39he5231b2_0": "sha256:9e6c5d889a9938a45b08d9040ad2078cb933157c594d9d27db889f77bf51bf3b", "2.5.0--py312h4e2a44a_0": "sha256:b4f64741d8b338537db3947dcf2f5b921392a6f3364bc2d7da2a41dc00feb6a5", "2.5.0--py311h9fd004d_1": "sha256:5aaa49353baaaf85240966b0067e2e86d1026004af0f8d4b5534915b8b46aeac", "2.6.0--py310h8ea774a_0": "sha256:49ad5fe66db914e7138b65836612c1f4f0a4eb196e4d97ca3cbda3780edd5144", "2.7.0--py312h9c9b0c2_0": "sha256:d4a0da94106bdf7e064925e493ce498649cf86723b0f5a4a7e86dc2867403bab", "2.7.1--py311h8ddd9a4_0": "sha256:2cfea517595dabdb5b43aaf5404ea5cd6025a11fb9bc4fafd9d098fb565d7410"}, "docker": "quay.io/biocontainers/nordic", "aliases": {"bonesis-attractors": "/usr/local/bin/bonesis-attractors", "bonesis-reprogramming": "/usr/local/bin/bonesis-reprogramming", "bonesis-utils": "/usr/local/bin/bonesis-utils", "clasp": "/usr/local/bin/clasp", "clingo": "/usr/local/bin/clingo", "concat": "/usr/local/bin/concat", "gct2gctx": "/usr/local/bin/gct2gctx", "gctx2gct": "/usr/local/bin/gctx2gct", "gringo": "/usr/local/bin/gringo", "lpconvert": "/usr/local/bin/lpconvert", "mpbn": "/usr/local/bin/mpbn", "mpbn-sim": "/usr/local/bin/mpbn-sim", "qnorm": "/usr/local/bin/qnorm", "reify": "/usr/local/bin/reify", "subset": "/usr/local/bin/subset", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "numba": "/usr/local/bin/numba", "hb-info": "/usr/local/bin/hb-info", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts", "transform": "/usr/local/bin/transform", "rsvg-convert": "/usr/local/bin/rsvg-convert", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nordic.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/nordic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nordic:2.7.0--py312h9c9b0c2_0
+$ shpc install quay.io/biocontainers/nordic:2.7.1--py311h8ddd9a4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nordic/2.7.0--py312h9c9b0c2_0
-$ module help quay.io/biocontainers/nordic/2.7.0--py312h9c9b0c2_0
+$ module load quay.io/biocontainers/nordic/2.7.1--py311h8ddd9a4_0
+$ module help quay.io/biocontainers/nordic/2.7.1--py311h8ddd9a4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
