@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bin2cell
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bin2cell
 latest:
-  0.3.3--pyhdfd78af_0: 
-    sha256:4a0c3dffa0645701dce2ffe101ec1ee9efafc3396f6d063c6f32e8fb251d0cba
+  0.3.4--pyhdfd78af_0: 
+    sha256:2eba2da069498f0449e082821559a2ca2e663925518be3e387e8eafc7e880ab4
 tags:
   0.3.3--pyhdfd78af_0: 
     sha256:4a0c3dffa0645701dce2ffe101ec1ee9efafc3396f6d063c6f32e8fb251d0cba
+  0.3.4--pyhdfd78af_0: 
+    sha256:2eba2da069498f0449e082821559a2ca2e663925518be3e387e8eafc7e880ab4
 docker: quay.io/biocontainers/bin2cell
 aliases:
   androiddeployqt6: /usr/local/bin/androiddeployqt6

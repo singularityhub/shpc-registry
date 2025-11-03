@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/msisensor2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for msisensor2
 latest:
-  0.1--h077b44d_3: 
-    sha256:a56c7424e80d5054155f9a2671f80c82a53abb951f8b66d49f00447132532b87
+  0.1--h077b44d_4: 
+    sha256:81d3d7fb08b109ccc8f3a060dc8031b99c330d4fb76fd01aeb1c516c6721ccfe
 tags:
   0.1--hd03093a_0: 
     sha256:b01f4a2f7938d42047bdb94a4f2c97dbf26bd53464ad1b82f811f037e3ea3f1d
@@ -11,6 +11,8 @@ tags:
     sha256:8148cf73d4f98270858358bacad3f391c72dae93582b8baf4e789141fa6ac8de
   0.1--h077b44d_3: 
     sha256:a56c7424e80d5054155f9a2671f80c82a53abb951f8b66d49f00447132532b87
+  0.1--h077b44d_4: 
+    sha256:81d3d7fb08b109ccc8f3a060dc8031b99c330d4fb76fd01aeb1c516c6721ccfe
 docker: quay.io/biocontainers/msisensor2
 aliases:
   msisensor2: /usr/local/bin/msisensor2
