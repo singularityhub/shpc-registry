@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/preface"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/preface/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/preface/container.yaml"
-updated_at: "2025-11-03 04:06:36.087252"
+updated_at: "2025-11-04 03:58:54.998861"
 latest: "0.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/preface"
 aliases:

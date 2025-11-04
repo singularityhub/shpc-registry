@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-fatal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-fatal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-fatal/container.yaml"
-updated_at: "2025-11-03 04:07:03.452308"
+updated_at: "2025-11-04 03:59:22.611017"
 latest: "0.016--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-fatal"
 aliases:

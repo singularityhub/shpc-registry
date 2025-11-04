@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/f5c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/f5c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/f5c/container.yaml"
-updated_at: "2025-11-03 04:09:31.798254"
-latest: "1.5--hee927d3_2"
+updated_at: "2025-11-04 04:01:49.963318"
+latest: "1.6--hee927d3_0"
 container_url: "https://biocontainers.pro/tools/f5c"
 aliases:
  - "f5c"
@@ -29,8 +29,9 @@ versions:
  - "1.5--h56e2c18_1"
  - "1.5--hee927d3_2"
  - "1.2--hee927d3_4"
+ - "1.6--hee927d3_0"
 description: "shpc-registry automated BioContainers addition for f5c"
-config: {"url": "https://biocontainers.pro/tools/f5c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for f5c", "latest": {"1.5--hee927d3_2": "sha256:6189a52250799862eeca0bd8284669af5dc648e98d3dfb22945e308ad6f7b885"}, "tags": {"1.1--h0326b38_1": "sha256:b491cfafa553e03de8e7eae3a7782d72dbe89c6821ddb9ba1cceffac75b18c4c", "1.2--h500492e_2": "sha256:2657c0828b00543f4bea74fd504a008d9e28d1dc9a03cd6fa190aaac442a6fde", "1.3--h500492e_0": "sha256:ceb3cc5c306e2b3827baa273c2ed26be10c511706162cb01e7718ec3ce0792e3", "1.4--h500492e_0": "sha256:f236b6f01f142d784afbd2f7865162a09ff361d728f210bf483b65a9d6f2119e", "1.4--h56e2c18_1": "sha256:5ee16b38bec16fb9e8f4edbec472aea4682f98a43cd6bcbb0b1135d8e8f2986e", "1.2--h56e2c18_3": "sha256:625e58023bd8c428e464da6d1d9d118cc90fc70234bf25cd1c0821c9254fc71a", "1.5--h56e2c18_1": "sha256:1223c2dbf16e3c6622143fcbfb8a036397d7236e106e492f9e9d34c2dcd31264", "1.5--hee927d3_2": "sha256:6189a52250799862eeca0bd8284669af5dc648e98d3dfb22945e308ad6f7b885", "1.2--hee927d3_4": "sha256:77e7c3ce30173f2a846c0c529dee2f944b5098eb04e3123f2ab862d8b97c0eb9"}, "docker": "quay.io/biocontainers/f5c", "aliases": {"f5c": "/usr/local/bin/f5c", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/f5c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for f5c", "latest": {"1.6--hee927d3_0": "sha256:db426d7d6fa093c4eae329418842613efba94c79334313c33f5f72443925e046"}, "tags": {"1.1--h0326b38_1": "sha256:b491cfafa553e03de8e7eae3a7782d72dbe89c6821ddb9ba1cceffac75b18c4c", "1.2--h500492e_2": "sha256:2657c0828b00543f4bea74fd504a008d9e28d1dc9a03cd6fa190aaac442a6fde", "1.3--h500492e_0": "sha256:ceb3cc5c306e2b3827baa273c2ed26be10c511706162cb01e7718ec3ce0792e3", "1.4--h500492e_0": "sha256:f236b6f01f142d784afbd2f7865162a09ff361d728f210bf483b65a9d6f2119e", "1.4--h56e2c18_1": "sha256:5ee16b38bec16fb9e8f4edbec472aea4682f98a43cd6bcbb0b1135d8e8f2986e", "1.2--h56e2c18_3": "sha256:625e58023bd8c428e464da6d1d9d118cc90fc70234bf25cd1c0821c9254fc71a", "1.5--h56e2c18_1": "sha256:1223c2dbf16e3c6622143fcbfb8a036397d7236e106e492f9e9d34c2dcd31264", "1.5--hee927d3_2": "sha256:6189a52250799862eeca0bd8284669af5dc648e98d3dfb22945e308ad6f7b885", "1.2--hee927d3_4": "sha256:77e7c3ce30173f2a846c0c529dee2f944b5098eb04e3123f2ab862d8b97c0eb9", "1.6--hee927d3_0": "sha256:db426d7d6fa093c4eae329418842613efba94c79334313c33f5f72443925e046"}, "docker": "quay.io/biocontainers/f5c", "aliases": {"f5c": "/usr/local/bin/f5c", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/f5c.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/f5c
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/f5c:1.5--hee927d3_2
+$ shpc install quay.io/biocontainers/f5c:1.6--hee927d3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/f5c/1.5--hee927d3_2
-$ module help quay.io/biocontainers/f5c/1.5--hee927d3_2
+$ module load quay.io/biocontainers/f5c/1.6--hee927d3_0
+$ module help quay.io/biocontainers/f5c/1.6--hee927d3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

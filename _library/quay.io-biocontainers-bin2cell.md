@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bin2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bin2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bin2cell/container.yaml"
-updated_at: "2025-11-03 04:12:11.372366"
-latest: "0.3.3--pyhdfd78af_0"
+updated_at: "2025-11-04 04:04:30.280186"
+latest: "0.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bin2cell"
 aliases:
  - "androiddeployqt6"
@@ -70,8 +70,9 @@ aliases:
  - "ldapdelete"
 versions:
  - "0.3.3--pyhdfd78af_0"
+ - "0.3.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bin2cell"
-config: {"url": "https://biocontainers.pro/tools/bin2cell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bin2cell", "latest": {"0.3.3--pyhdfd78af_0": "sha256:4a0c3dffa0645701dce2ffe101ec1ee9efafc3396f6d063c6f32e8fb251d0cba"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:4a0c3dffa0645701dce2ffe101ec1ee9efafc3396f6d063c6f32e8fb251d0cba"}, "docker": "quay.io/biocontainers/bin2cell", "aliases": {"androiddeployqt6": "/usr/local/bin/androiddeployqt6", "assistant6": "/usr/local/bin/assistant6", "care_predict": "/usr/local/bin/care_predict", "designer6": "/usr/local/bin/designer6", "exr2aces": "/usr/local/bin/exr2aces", "exrenvmap": "/usr/local/bin/exrenvmap", "exrheader": "/usr/local/bin/exrheader", "exrinfo": "/usr/local/bin/exrinfo", "exrmakepreview": "/usr/local/bin/exrmakepreview", "exrmaketiled": "/usr/local/bin/exrmaketiled", "exrmanifest": "/usr/local/bin/exrmanifest", "exrmetrics": "/usr/local/bin/exrmetrics", "exrmultipart": "/usr/local/bin/exrmultipart", "exrmultiview": "/usr/local/bin/exrmultiview", "exrstdattr": "/usr/local/bin/exrstdattr", "ffplay": "/usr/local/bin/ffplay", "linguist6": "/usr/local/bin/linguist6", "pixeltool6": "/usr/local/bin/pixeltool6", "qdbus6": "/usr/local/bin/qdbus6", "qdbusviewer6": "/usr/local/bin/qdbusviewer6", "qdistancefieldgenerator6": "/usr/local/bin/qdistancefieldgenerator6", "qdoc6": "/usr/local/bin/qdoc6", "qmake6": "/usr/local/bin/qmake6", "qml6": "/usr/local/bin/qml6", "qmleasing6": "/usr/local/bin/qmleasing6", "qmlls6": "/usr/local/bin/qmlls6", "qmlpreview6": "/usr/local/bin/qmlpreview6", "qmlscene6": "/usr/local/bin/qmlscene6", "qt6.conf": "/usr/local/bin/qt6.conf", "qtdiag6": "/usr/local/bin/qtdiag6", "qtplugininfo6": "/usr/local/bin/qtplugininfo6", "sdl2-config": "/usr/local/bin/sdl2-config", "stardist-predict2d": "/usr/local/bin/stardist-predict2d", "stardist-predict3d": "/usr/local/bin/stardist-predict3d", "zarr": "/usr/local/bin/zarr", "jiv": "/usr/local/bin/jiv", "opencv_model_diagnostics": "/usr/local/bin/opencv_model_diagnostics", "opencv_annotation": "/usr/local/bin/opencv_annotation", "opencv_interactive-calibration": "/usr/local/bin/opencv_interactive-calibration", "opencv_version": "/usr/local/bin/opencv_version", "opencv_visualisation": "/usr/local/bin/opencv_visualisation", "opencv_waldboost_detector": "/usr/local/bin/opencv_waldboost_detector", "setup_vars_opencv4.sh": "/usr/local/bin/setup_vars_opencv4.sh", "imgcmp": "/usr/local/bin/imgcmp", "imginfo": "/usr/local/bin/imginfo", "jasper": "/usr/local/bin/jasper", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "cllayerinfo": "/usr/local/bin/cllayerinfo", "pax11publish": "/usr/local/bin/pax11publish", "flatc": "/usr/local/bin/flatc", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "x264": "/usr/local/bin/x264", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete"}}
+config: {"url": "https://biocontainers.pro/tools/bin2cell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bin2cell", "latest": {"0.3.4--pyhdfd78af_0": "sha256:2eba2da069498f0449e082821559a2ca2e663925518be3e387e8eafc7e880ab4"}, "tags": {"0.3.3--pyhdfd78af_0": "sha256:4a0c3dffa0645701dce2ffe101ec1ee9efafc3396f6d063c6f32e8fb251d0cba", "0.3.4--pyhdfd78af_0": "sha256:2eba2da069498f0449e082821559a2ca2e663925518be3e387e8eafc7e880ab4"}, "docker": "quay.io/biocontainers/bin2cell", "aliases": {"androiddeployqt6": "/usr/local/bin/androiddeployqt6", "assistant6": "/usr/local/bin/assistant6", "care_predict": "/usr/local/bin/care_predict", "designer6": "/usr/local/bin/designer6", "exr2aces": "/usr/local/bin/exr2aces", "exrenvmap": "/usr/local/bin/exrenvmap", "exrheader": "/usr/local/bin/exrheader", "exrinfo": "/usr/local/bin/exrinfo", "exrmakepreview": "/usr/local/bin/exrmakepreview", "exrmaketiled": "/usr/local/bin/exrmaketiled", "exrmanifest": "/usr/local/bin/exrmanifest", "exrmetrics": "/usr/local/bin/exrmetrics", "exrmultipart": "/usr/local/bin/exrmultipart", "exrmultiview": "/usr/local/bin/exrmultiview", "exrstdattr": "/usr/local/bin/exrstdattr", "ffplay": "/usr/local/bin/ffplay", "linguist6": "/usr/local/bin/linguist6", "pixeltool6": "/usr/local/bin/pixeltool6", "qdbus6": "/usr/local/bin/qdbus6", "qdbusviewer6": "/usr/local/bin/qdbusviewer6", "qdistancefieldgenerator6": "/usr/local/bin/qdistancefieldgenerator6", "qdoc6": "/usr/local/bin/qdoc6", "qmake6": "/usr/local/bin/qmake6", "qml6": "/usr/local/bin/qml6", "qmleasing6": "/usr/local/bin/qmleasing6", "qmlls6": "/usr/local/bin/qmlls6", "qmlpreview6": "/usr/local/bin/qmlpreview6", "qmlscene6": "/usr/local/bin/qmlscene6", "qt6.conf": "/usr/local/bin/qt6.conf", "qtdiag6": "/usr/local/bin/qtdiag6", "qtplugininfo6": "/usr/local/bin/qtplugininfo6", "sdl2-config": "/usr/local/bin/sdl2-config", "stardist-predict2d": "/usr/local/bin/stardist-predict2d", "stardist-predict3d": "/usr/local/bin/stardist-predict3d", "zarr": "/usr/local/bin/zarr", "jiv": "/usr/local/bin/jiv", "opencv_model_diagnostics": "/usr/local/bin/opencv_model_diagnostics", "opencv_annotation": "/usr/local/bin/opencv_annotation", "opencv_interactive-calibration": "/usr/local/bin/opencv_interactive-calibration", "opencv_version": "/usr/local/bin/opencv_version", "opencv_visualisation": "/usr/local/bin/opencv_visualisation", "opencv_waldboost_detector": "/usr/local/bin/opencv_waldboost_detector", "setup_vars_opencv4.sh": "/usr/local/bin/setup_vars_opencv4.sh", "imgcmp": "/usr/local/bin/imgcmp", "imginfo": "/usr/local/bin/imginfo", "jasper": "/usr/local/bin/jasper", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "cllayerinfo": "/usr/local/bin/cllayerinfo", "pax11publish": "/usr/local/bin/pax11publish", "flatc": "/usr/local/bin/flatc", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "x264": "/usr/local/bin/x264", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bin2cell.
@@ -86,7 +87,7 @@ $ shpc install quay.io/biocontainers/bin2cell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bin2cell:0.3.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bin2cell:0.3.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -98,8 +99,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bin2cell/0.3.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/bin2cell/0.3.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/bin2cell/0.3.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/bin2cell/0.3.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/micro_razers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/micro_razers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/micro_razers/container.yaml"
-updated_at: "2025-11-03 03:32:32.512883"
+updated_at: "2025-11-04 03:24:57.006312"
 latest: "1.0.6--haf24da9_8"
 container_url: "https://biocontainers.pro/tools/micro_razers"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emirge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emirge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emirge/container.yaml"
-updated_at: "2025-11-03 04:11:05.536838"
+updated_at: "2025-11-04 04:03:24.781295"
 latest: "0.61.1--py27h30f897e_7"
 container_url: "https://biocontainers.pro/tools/emirge"
 aliases:

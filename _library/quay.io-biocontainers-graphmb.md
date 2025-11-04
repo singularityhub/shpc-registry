@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphmb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphmb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphmb/container.yaml"
-updated_at: "2025-11-03 03:35:31.337971"
+updated_at: "2025-11-04 03:27:54.448739"
 latest: "0.2.5--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/graphmb"
 aliases:

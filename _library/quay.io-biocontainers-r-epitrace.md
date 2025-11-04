@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-epitrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-epitrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-epitrace/container.yaml"
-updated_at: "2025-11-03 03:31:51.483959"
+updated_at: "2025-11-04 03:24:15.803279"
 latest: "0.0.1.3--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-epitrace"
 aliases:

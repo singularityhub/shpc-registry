@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popins2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popins2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popins2/container.yaml"
-updated_at: "2025-11-03 03:33:51.801080"
+updated_at: "2025-11-04 03:26:15.390524"
 latest: "0.13.0--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/popins2"
 aliases:
