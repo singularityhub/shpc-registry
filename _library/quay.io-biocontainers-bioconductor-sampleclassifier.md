@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sampleclassifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sampleclassifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sampleclassifier/container.yaml"
-updated_at: "2025-11-04 03:25:10.729264"
+updated_at: "2025-11-05 03:26:19.348828"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sampleclassifier"
 aliases:

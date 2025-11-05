@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sorted_nearest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sorted_nearest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sorted_nearest/container.yaml"
-updated_at: "2025-11-04 03:50:38.536404"
+updated_at: "2025-11-05 03:51:45.858740"
 latest: "0.0.39--py311haab0aaa_6"
 container_url: "https://biocontainers.pro/tools/sorted_nearest"
 aliases:

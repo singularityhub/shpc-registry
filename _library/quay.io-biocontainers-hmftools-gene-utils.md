@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-gene-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-gene-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-gene-utils/container.yaml"
-updated_at: "2025-11-04 03:35:54.490096"
+updated_at: "2025-11-05 03:37:03.349256"
 latest: "1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-gene-utils"
 aliases:

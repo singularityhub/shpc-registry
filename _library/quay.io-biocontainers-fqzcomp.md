@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fqzcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqzcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqzcomp/container.yaml"
-updated_at: "2025-11-04 03:28:15.321503"
+updated_at: "2025-11-05 03:29:23.363559"
 latest: "4.6--h077b44d_6"
 container_url: "https://biocontainers.pro/tools/fqzcomp"
 aliases:

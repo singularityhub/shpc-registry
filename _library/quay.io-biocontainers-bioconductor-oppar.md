@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oppar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oppar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oppar/container.yaml"
-updated_at: "2025-11-04 03:19:39.099705"
+updated_at: "2025-11-05 03:20:55.334340"
 latest: "1.34.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-oppar"
 aliases:

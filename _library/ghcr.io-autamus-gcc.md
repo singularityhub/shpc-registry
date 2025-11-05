@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gcc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gcc/container.yaml"
-updated_at: "2025-11-04 03:13:06.030150"
+updated_at: "2025-11-05 03:14:33.645778"
 latest: "12.2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gcc"
 aliases:

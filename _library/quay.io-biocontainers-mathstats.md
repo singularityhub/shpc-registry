@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mathstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mathstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mathstats/container.yaml"
-updated_at: "2025-11-04 03:20:42.598784"
+updated_at: "2025-11-05 03:21:57.219172"
 latest: "0.2.6.5--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/mathstats"
 aliases:

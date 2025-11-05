@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-limma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-limma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-limma/container.yaml"
-updated_at: "2025-11-04 03:49:08.871677"
+updated_at: "2025-11-05 03:50:15.122641"
 latest: "3.62.1--r44h15a9599_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-limma"
 

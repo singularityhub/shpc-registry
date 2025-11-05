@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lumiratall.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumiratall.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumiratall.db/container.yaml"
-updated_at: "2025-11-04 03:54:16.595761"
+updated_at: "2025-11-05 03:55:26.137332"
 latest: "1.22.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumiratall.db"
 

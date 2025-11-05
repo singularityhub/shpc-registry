@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kinamine_y_shaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kinamine_y_shaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kinamine_y_shaker/container.yaml"
-updated_at: "2025-11-04 03:13:32.299833"
+updated_at: "2025-11-05 03:14:59.800722"
 latest: "1.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/kinamine_y_shaker"
 aliases:
