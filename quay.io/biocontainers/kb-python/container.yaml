@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/kb-python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kb-python
 latest:
-  0.29.5--pyhdfd78af_0: 
-    sha256:d9585a1a0aff8e4e9d0cf61e09d9f4ff0bdb8374eae0ae0a1f6b757a89a740ac
+  0.30.0--pyh7e72e81_0: 
+    sha256:97a60056c260a4248bcc7bb6409525397027811d5f416810f0b7c37801a9d4b9
 tags:
   0.27.3--pyhdfd78af_0: 
     sha256:cdfb73adb53db24d183a03951c8ae2bfacaa37c1fe64bad57ebff4c0cf0c834a
@@ -23,6 +23,8 @@ tags:
     sha256:9304597edb15fa4fe20ddb223e6cf448ead0e6373ca862d48c631050d0cc7bef
   0.29.5--pyhdfd78af_0: 
     sha256:d9585a1a0aff8e4e9d0cf61e09d9f4ff0bdb8374eae0ae0a1f6b757a89a740ac
+  0.30.0--pyh7e72e81_0: 
+    sha256:97a60056c260a4248bcc7bb6409525397027811d5f416810f0b7c37801a9d4b9
 docker: quay.io/biocontainers/kb-python
 aliases:
   bustools: /usr/local/bin/bustools

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/get_pangenes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for get_pangenes
 latest:
-  1.3--hdfd78af_0: 
-    sha256:ea1d99fc533d739bdaab97292416d8d05f33fe248ad00a25ae5a54db81abf64e
+  20250904--hdfd78af_0: 
+    sha256:93b63de63ce8556747cc3bd490c3090bece905fe32fbe65e2f464067bfe5d32d
 tags:
   1.3--hdfd78af_0: 
     sha256:ea1d99fc533d739bdaab97292416d8d05f33fe248ad00a25ae5a54db81abf64e
+  20250904--hdfd78af_0: 
+    sha256:93b63de63ce8556747cc3bd490c3090bece905fe32fbe65e2f464067bfe5d32d
 docker: quay.io/biocontainers/get_pangenes
 aliases:
   CHANGES.txt: /usr/local/bin/CHANGES.txt

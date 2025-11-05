@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/flumutdb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flumutdb
 latest:
-  6.4--pyhdfd78af_0: 
-    sha256:de99b692851a836b822fa8e5213011605f66115bad634a50895ef9f5d225e1e1
+  6.5--pyhdfd78af_0: 
+    sha256:80d508346dddda4ce94e64eecc8b85c835184fe39c8f4cd6d1910c726cdd9d6b
 tags:
   6.1--pyhdfd78af_0: 
     sha256:4b8dd40f8f7e47be5b44a0b59978107f4053603582f30434f2b4424349b8308b
@@ -13,6 +13,8 @@ tags:
     sha256:4767c71fa0e55ff923a8fe61fbd32cb3edd25cc3dfa8058d09be6ba14489c01e
   6.4--pyhdfd78af_0: 
     sha256:de99b692851a836b822fa8e5213011605f66115bad634a50895ef9f5d225e1e1
+  6.5--pyhdfd78af_0: 
+    sha256:80d508346dddda4ce94e64eecc8b85c835184fe39c8f4cd6d1910c726cdd9d6b
 docker: quay.io/biocontainers/flumutdb
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12
