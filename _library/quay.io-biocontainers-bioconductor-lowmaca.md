@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lowmaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lowmaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lowmaca/container.yaml"
-updated_at: "2025-11-06 04:07:40.897089"
+updated_at: "2025-11-06 04:37:38.372094"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lowmaca"
 aliases:
