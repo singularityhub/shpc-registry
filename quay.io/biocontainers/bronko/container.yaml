@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/bronko
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bronko
+latest:
+  0.0.3--h4349ce8_0: 
+    sha256:89f0d5a50e69445254b8d0de16e6b7f04beb470d470ad17d396d32d5694f77e0
+tags:
+  0.0.3--h4349ce8_0: 
+    sha256:89f0d5a50e69445254b8d0de16e6b7f04beb470d470ad17d396d32d5694f77e0
+docker: quay.io/biocontainers/bronko
+aliases:
+  bronko: /usr/local/bin/bronko
+  py_kmc_dump.py: /usr/local/bin/py_kmc_dump.py
+  kmc_dump: /usr/local/bin/kmc_dump
+  kmc: /usr/local/bin/kmc
+  kmc_tools: /usr/local/bin/kmc_tools
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

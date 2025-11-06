@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/cutefc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cutefc
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:c9ce3f3f8a5335b062880fdd5681c35b1adc2b11d1599114207d805af4ef0fd8
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:c9ce3f3f8a5335b062880fdd5681c35b1adc2b11d1599114207d805af4ef0fd8
+docker: quay.io/biocontainers/cutefc
+aliases:
+  cuteFC: /usr/local/bin/cuteFC
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config

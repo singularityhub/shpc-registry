@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/snakemake-logger-plugin-snkmt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  snakemake-logger-plugin-snkmt
+latest:
+  0.1.5--pyhdfd78af_0: 
+    sha256:8057a99b64c44577191a22ad3148b339c687b8746058b226a79c757b4a72021a
+tags:
+  0.1.5--pyhdfd78af_0: 
+    sha256:8057a99b64c44577191a22ad3148b339c687b8746058b226a79c757b4a72021a
+docker: quay.io/biocontainers/snakemake-logger-plugin-snkmt
+aliases:
+  snkmt: /usr/local/bin/snkmt
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  alembic: /usr/local/bin/alembic
+  typer: /usr/local/bin/typer
+  mako-render: /usr/local/bin/mako-render
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize

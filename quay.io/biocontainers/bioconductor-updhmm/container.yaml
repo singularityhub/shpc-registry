@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/bioconductor-updhmm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-updhmm
+latest:
+  1.6.0--r44hdfd78af_0: 
+    sha256:22e88c1c9ed95c908e739b90f3bbb705932e644565ff126d660ae6057c0c93a1
+tags:
+  1.6.0--r44hdfd78af_0: 
+    sha256:22e88c1c9ed95c908e739b90f3bbb705932e644565ff126d660ae6057c0c93a1
+docker: quay.io/biocontainers/bioconductor-updhmm
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

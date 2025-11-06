@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/assembly_uploader
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for assembly_uploader
+latest:
+  1.3.2--pyhdfd78af_0: 
+    sha256:511f296f5d3620abf95384b1dd33b42b9a4efce64ee86af4516a2d9413b8d637
+tags:
+  1.3.2--pyhdfd78af_0: 
+    sha256:511f296f5d3620abf95384b1dd33b42b9a4efce64ee86af4516a2d9413b8d637
+docker: quay.io/biocontainers/assembly_uploader
+aliases:
+  assembly_manifest: /usr/local/bin/assembly_manifest
+  release_study: /usr/local/bin/release_study
+  study_xmls: /usr/local/bin/study_xmls
+  submit_study: /usr/local/bin/submit_study
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  normalizer: /usr/local/bin/normalizer

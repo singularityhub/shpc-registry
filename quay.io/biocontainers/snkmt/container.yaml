@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/snkmt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snkmt
+latest:
+  0.2.3--pyhdfd78af_0: 
+    sha256:945eaaf87c0a45e7183757d2bcee0521c7e9b14203e96559edb800a4ff5c85b0
+tags:
+  0.2.3--pyhdfd78af_0: 
+    sha256:945eaaf87c0a45e7183757d2bcee0521c7e9b14203e96559edb800a4ff5c85b0
+docker: quay.io/biocontainers/snkmt
+aliases:
+  snkmt: /usr/local/bin/snkmt
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  alembic: /usr/local/bin/alembic
+  typer: /usr/local/bin/typer
+  mako-render: /usr/local/bin/mako-render
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize

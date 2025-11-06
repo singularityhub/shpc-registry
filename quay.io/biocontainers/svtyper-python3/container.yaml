@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/svtyper-python3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for svtyper-python3
+latest:
+  0.7.1--pyhdfd78af_0: 
+    sha256:53df7b2f434dabbc6435172b4e50febe59e94f1a439c228373316f6c1743d651
+tags:
+  0.7.1--pyhdfd78af_0: 
+    sha256:53df7b2f434dabbc6435172b4e50febe59e94f1a439c228373316f6c1743d651
+docker: quay.io/biocontainers/svtyper-python3
+aliases:
+  lib_stats.R: /usr/local/bin/lib_stats.R
+  sv_classifier.py: /usr/local/bin/sv_classifier.py
+  svtyper: /usr/local/bin/svtyper
+  svtyper-sso: /usr/local/bin/svtyper-sso
+  update_info.py: /usr/local/bin/update_info.py
+  vcf_allele_freq.py: /usr/local/bin/vcf_allele_freq.py
+  vcf_group_multiline.py: /usr/local/bin/vcf_group_multiline.py
+  vcf_modify_header.py: /usr/local/bin/vcf_modify_header.py
+  vcf_paste.py: /usr/local/bin/vcf_paste.py
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
