@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kb-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kb-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kb-python/container.yaml"
-updated_at: "2025-11-05 03:44:46.865112"
-latest: "0.29.5--pyhdfd78af_0"
+updated_at: "2025-11-06 03:48:06.831275"
+latest: "0.30.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/kb-python"
 aliases:
  - "bustools"
@@ -35,8 +35,9 @@ versions:
  - "0.29.1--pyhdfd78af_0"
  - "0.29.3--pyhdfd78af_0"
  - "0.29.5--pyhdfd78af_0"
+ - "0.30.0--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for kb-python"
-config: {"url": "https://biocontainers.pro/tools/kb-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kb-python", "latest": {"0.29.5--pyhdfd78af_0": "sha256:d9585a1a0aff8e4e9d0cf61e09d9f4ff0bdb8374eae0ae0a1f6b757a89a740ac"}, "tags": {"0.27.3--pyhdfd78af_0": "sha256:cdfb73adb53db24d183a03951c8ae2bfacaa37c1fe64bad57ebff4c0cf0c834a", "0.27.3--pyhdfd78af_1": "sha256:ec22f7e4d0cbb1f0e4856d7de62a8c82f106d2897c940c50f2394da1ea58af63", "0.28.0--pyhdfd78af_0": "sha256:4b8b9588b00f694342401daad1ba384cd04fd3ee5ac1413ab18c90652161b833", "0.28.1--pyhdfd78af_0": "sha256:bd2193b1a024ca1cc03af72a64fbffd874d7973b2972229c0174205bfc5c78d8", "0.28.2--pyhdfd78af_0": "sha256:eb9c7f93fe47ed2ce57cee452dc0e8bc4142aeba12cb376b29d0d7efaf4e4700", "0.28.2--pyhdfd78af_2": "sha256:4b5ff9a8f7387c9614d45aeccdd077c68a4de53a0e5aa97ab06e445e3b84eab7", "0.29.1--pyhdfd78af_0": "sha256:7bac25a30feb697a63fe525cb56716c7a3868789169259666d044082a4981492", "0.29.3--pyhdfd78af_0": "sha256:9304597edb15fa4fe20ddb223e6cf448ead0e6373ca862d48c631050d0cc7bef", "0.29.5--pyhdfd78af_0": "sha256:d9585a1a0aff8e4e9d0cf61e09d9f4ff0bdb8374eae0ae0a1f6b757a89a740ac"}, "docker": "quay.io/biocontainers/kb-python", "aliases": {"bustools": "/usr/local/bin/bustools", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "kallisto": "/usr/local/bin/kallisto", "kb": "/usr/local/bin/kb", "loompy": "/usr/local/bin/loompy", "shortuuid": "/usr/local/bin/shortuuid", "scanpy": "/usr/local/bin/scanpy", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "pybabel": "/usr/local/bin/pybabel"}}
+config: {"url": "https://biocontainers.pro/tools/kb-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kb-python", "latest": {"0.30.0--pyh7e72e81_0": "sha256:97a60056c260a4248bcc7bb6409525397027811d5f416810f0b7c37801a9d4b9"}, "tags": {"0.27.3--pyhdfd78af_0": "sha256:cdfb73adb53db24d183a03951c8ae2bfacaa37c1fe64bad57ebff4c0cf0c834a", "0.27.3--pyhdfd78af_1": "sha256:ec22f7e4d0cbb1f0e4856d7de62a8c82f106d2897c940c50f2394da1ea58af63", "0.28.0--pyhdfd78af_0": "sha256:4b8b9588b00f694342401daad1ba384cd04fd3ee5ac1413ab18c90652161b833", "0.28.1--pyhdfd78af_0": "sha256:bd2193b1a024ca1cc03af72a64fbffd874d7973b2972229c0174205bfc5c78d8", "0.28.2--pyhdfd78af_0": "sha256:eb9c7f93fe47ed2ce57cee452dc0e8bc4142aeba12cb376b29d0d7efaf4e4700", "0.28.2--pyhdfd78af_2": "sha256:4b5ff9a8f7387c9614d45aeccdd077c68a4de53a0e5aa97ab06e445e3b84eab7", "0.29.1--pyhdfd78af_0": "sha256:7bac25a30feb697a63fe525cb56716c7a3868789169259666d044082a4981492", "0.29.3--pyhdfd78af_0": "sha256:9304597edb15fa4fe20ddb223e6cf448ead0e6373ca862d48c631050d0cc7bef", "0.29.5--pyhdfd78af_0": "sha256:d9585a1a0aff8e4e9d0cf61e09d9f4ff0bdb8374eae0ae0a1f6b757a89a740ac", "0.30.0--pyh7e72e81_0": "sha256:97a60056c260a4248bcc7bb6409525397027811d5f416810f0b7c37801a9d4b9"}, "docker": "quay.io/biocontainers/kb-python", "aliases": {"bustools": "/usr/local/bin/bustools", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "kallisto": "/usr/local/bin/kallisto", "kb": "/usr/local/bin/kb", "loompy": "/usr/local/bin/loompy", "shortuuid": "/usr/local/bin/shortuuid", "scanpy": "/usr/local/bin/scanpy", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "pybabel": "/usr/local/bin/pybabel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kb-python.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/kb-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kb-python:0.29.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kb-python:0.30.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kb-python/0.29.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/kb-python/0.29.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/kb-python/0.30.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/kb-python/0.30.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

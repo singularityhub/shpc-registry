@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/srf-n-trf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srf-n-trf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srf-n-trf/container.yaml"
-updated_at: "2025-11-05 03:33:38.095542"
-latest: "0.1.1--h4349ce8_0"
+updated_at: "2025-11-06 03:36:53.066327"
+latest: "0.1.2--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/srf-n-trf"
 aliases:
  - "srf-n-trf"
 versions:
  - "0.1.1--h4349ce8_0"
+ - "0.1.2--h4349ce8_0"
 description: "singularity registry hpc automated addition for srf-n-trf"
-config: {"url": "https://biocontainers.pro/tools/srf-n-trf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for srf-n-trf", "latest": {"0.1.1--h4349ce8_0": "sha256:dd242691f5c1899f4efa24a7fea54bcec70a3d26767b523c88db29cd94db07ad"}, "tags": {"0.1.1--h4349ce8_0": "sha256:dd242691f5c1899f4efa24a7fea54bcec70a3d26767b523c88db29cd94db07ad"}, "docker": "quay.io/biocontainers/srf-n-trf", "aliases": {"srf-n-trf": "/usr/local/bin/srf-n-trf"}}
+config: {"url": "https://biocontainers.pro/tools/srf-n-trf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for srf-n-trf", "latest": {"0.1.2--h4349ce8_0": "sha256:40f98914d7ab1ae9338f171c22e58230b002325f3853fa5bdce7e03087c45c6d"}, "tags": {"0.1.1--h4349ce8_0": "sha256:dd242691f5c1899f4efa24a7fea54bcec70a3d26767b523c88db29cd94db07ad", "0.1.2--h4349ce8_0": "sha256:40f98914d7ab1ae9338f171c22e58230b002325f3853fa5bdce7e03087c45c6d"}, "docker": "quay.io/biocontainers/srf-n-trf", "aliases": {"srf-n-trf": "/usr/local/bin/srf-n-trf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/srf-n-trf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/srf-n-trf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/srf-n-trf:0.1.1--h4349ce8_0
+$ shpc install quay.io/biocontainers/srf-n-trf:0.1.2--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/srf-n-trf/0.1.1--h4349ce8_0
-$ module help quay.io/biocontainers/srf-n-trf/0.1.1--h4349ce8_0
+$ module load quay.io/biocontainers/srf-n-trf/0.1.2--h4349ce8_0
+$ module help quay.io/biocontainers/srf-n-trf/0.1.2--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
