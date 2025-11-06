@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/votuderep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for votuderep
+latest:
+  0.6.0--pyhdfd78af_0: 
+    sha256:b852ebc1846d7c9642adce43d9bbb193f3d2cb3547e6d90b6a9e62f25e857ca2
+tags:
+  0.6.0--pyhdfd78af_0: 
+    sha256:b852ebc1846d7c9642adce43d9bbb193f3d2cb3547e6d90b6a9e62f25e857ca2
+docker: quay.io/biocontainers/votuderep
+aliases:
+  SeqCountHelper: /usr/local/bin/SeqCountHelper
+  byteshift: /usr/local/bin/byteshift
+  dadaist2-mergeseqs: /usr/local/bin/dadaist2-mergeseqs
+  fu-16Sregion: /usr/local/bin/fu-16Sregion
+  fu-cov: /usr/local/bin/fu-cov
+  fu-homocomp: /usr/local/bin/fu-homocomp
+  fu-index: /usr/local/bin/fu-index
+  fu-msa: /usr/local/bin/fu-msa
+  fu-multirelabel: /usr/local/bin/fu-multirelabel
+  fu-nanotags: /usr/local/bin/fu-nanotags
+  fu-orf: /usr/local/bin/fu-orf
+  fu-pecheck: /usr/local/bin/fu-pecheck
+  fu-primers: /usr/local/bin/fu-primers
+  fu-readtope: /usr/local/bin/fu-readtope
+  fu-secheck: /usr/local/bin/fu-secheck
+  fu-shred: /usr/local/bin/fu-shred
+  fu-split: /usr/local/bin/fu-split
+  fu-sw: /usr/local/bin/fu-sw
+  fu-tabcheck: /usr/local/bin/fu-tabcheck
+  fu-virfilter: /usr/local/bin/fu-virfilter
+  seqfu: /usr/local/bin/seqfu
+  votuderep: /usr/local/bin/votuderep
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  pyfastx: /usr/local/bin/pyfastx
+  rich-click: /usr/local/bin/rich-click
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits

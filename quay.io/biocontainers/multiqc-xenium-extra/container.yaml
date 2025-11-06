@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/multiqc-xenium-extra
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  multiqc-xenium-extra
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:12a32e1399ab0fb005d44289a780243879381aa746c3ac94a0cd07e7db4c1752
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:12a32e1399ab0fb005d44289a780243879381aa746c3ac94a0cd07e7db4c1752
+docker: quay.io/biocontainers/multiqc-xenium-extra
+aliases:
+  crc32c: /usr/local/bin/crc32c
+  zarr: /usr/local/bin/zarr
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  dotenv: /usr/local/bin/dotenv
+  multiqc: /usr/local/bin/multiqc
+  rich-click: /usr/local/bin/rich-click
+  h5fuse: /usr/local/bin/h5fuse
+  scanpy: /usr/local/bin/scanpy
+  coloredlogs: /usr/local/bin/coloredlogs
+  markdown-it: /usr/local/bin/markdown-it
+  humanfriendly: /usr/local/bin/humanfriendly
+  markdown_py: /usr/local/bin/markdown_py
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib

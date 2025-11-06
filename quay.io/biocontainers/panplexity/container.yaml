@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/panplexity
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panplexity
+latest:
+  0.1.1--h3ab6199_0: 
+    sha256:be0db8be5267a2a7c9dfc9c96e8395f198cfb51f942c9903c2e2cf1ad0a2e154
+tags:
+  0.1.1--h3ab6199_0: 
+    sha256:be0db8be5267a2a7c9dfc9c96e8395f198cfb51f942c9903c2e2cf1ad0a2e154
+docker: quay.io/biocontainers/panplexity
+aliases:
+  panplexity: /usr/local/bin/panplexity

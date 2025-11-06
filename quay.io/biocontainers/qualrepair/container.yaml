@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/qualrepair
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for qualrepair
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:c260a3821a2ea14f1703ce7cee55a0bbe56550656e2be6188f9352ff5fa072e2
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:c260a3821a2ea14f1703ce7cee55a0bbe56550656e2be6188f9352ff5fa072e2
+docker: quay.io/biocontainers/qualrepair
+aliases:
+  qualrepair: /usr/local/bin/qualrepair
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

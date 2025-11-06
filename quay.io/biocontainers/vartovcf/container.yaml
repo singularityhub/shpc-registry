@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/vartovcf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vartovcf
+latest:
+  1.0.0--h3ab6199_0: 
+    sha256:a1d04979df624d88262a718034a31f1d2cda175d79e1c2a0d5346c1a127afbb7
+tags:
+  1.0.0--h3ab6199_0: 
+    sha256:a1d04979df624d88262a718034a31f1d2cda175d79e1c2a0d5346c1a127afbb7
+docker: quay.io/biocontainers/vartovcf
+aliases:
+  vartovcf: /usr/local/bin/vartovcf

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/py_nucflag
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for py_nucflag
+latest:
+  0.1.3--py310hec43fc7_0: 
+    sha256:35dc9b0b788ebd83eda26dac597f2fac5d53222601e39d3530b0cfe3c4bb7f15
+tags:
+  0.1.3--py310hec43fc7_0: 
+    sha256:35dc9b0b788ebd83eda26dac597f2fac5d53222601e39d3530b0cfe3c4bb7f15
+docker: quay.io/biocontainers/py_nucflag
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/metawrap-assembly
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metawrap-assembly
+latest:
+  1.3.0--hdfd78af_3: 
+    sha256:07270c50213e8f892faa135637312e0955d4bec2251370df051074d3e9d81521
+tags:
+  1.3.0--hdfd78af_3: 
+    sha256:07270c50213e8f892faa135637312e0955d4bec2251370df051074d3e9d81521
+docker: quay.io/biocontainers/metawrap-assembly
+aliases:
+  bdf2gdfont.PLS: /usr/local/bin/bdf2gdfont.PLS
+  config-metawrap: /usr/local/bin/config-metawrap
+  cvtbdf.pl: /usr/local/bin/cvtbdf.pl
+  megahit_asm_core: /usr/local/bin/megahit_asm_core
+  megahit_sdbg_build: /usr/local/bin/megahit_sdbg_build
+  metaWRAP: /usr/local/bin/metaWRAP
+  metawrap: /usr/local/bin/metawrap
+  pl2bat.pl: /usr/local/bin/pl2bat.pl
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  icarus.py: /usr/local/bin/icarus.py
+  metaquast: /usr/local/bin/metaquast
+  metaquast.py: /usr/local/bin/metaquast.py
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  quast: /usr/local/bin/quast
+  quast-download-busco: /usr/local/bin/quast-download-busco
+  quast-download-gridss: /usr/local/bin/quast-download-gridss
+  quast-download-silva: /usr/local/bin/quast-download-silva
+  quast-lg.py: /usr/local/bin/quast-lg.py
+  quast.py: /usr/local/bin/quast.py
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
