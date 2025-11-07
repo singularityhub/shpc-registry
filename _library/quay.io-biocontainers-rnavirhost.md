@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnavirhost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnavirhost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnavirhost/container.yaml"
-updated_at: "2025-11-06 04:25:01.476621"
+updated_at: "2025-11-07 03:51:44.506839"
 latest: "1.0.5--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/rnavirhost"
 aliases:

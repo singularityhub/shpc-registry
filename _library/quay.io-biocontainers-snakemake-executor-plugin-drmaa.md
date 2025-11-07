@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-drmaa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-drmaa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-drmaa/container.yaml"
-updated_at: "2025-11-06 04:04:37.674207"
+updated_at: "2025-11-07 03:30:47.775055"
 latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-drmaa"
 aliases:

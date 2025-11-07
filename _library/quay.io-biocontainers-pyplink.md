@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyplink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyplink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyplink/container.yaml"
-updated_at: "2025-11-06 04:26:56.197183"
+updated_at: "2025-11-07 03:53:41.597884"
 latest: "1.3.7--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pyplink"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-agprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-agprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-agprobe/container.yaml"
-updated_at: "2025-11-06 03:59:53.136735"
+updated_at: "2025-11-07 03:25:59.678340"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-agprobe"
 
