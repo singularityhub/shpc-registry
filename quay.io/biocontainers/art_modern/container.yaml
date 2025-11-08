@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/art_modern
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for art_modern
 latest:
-  1.1.8--h5a011d0_0: 
-    sha256:904f35a36c74a28d68969feff4700f99891e3dbb74dbdc5efbe7b3dff4cbb6e2
+  1.2.0--h5a011d0_0: 
+    sha256:6d8781dc24d5aa87ebcb7b29d000873dc57bc6c9e53269a1ecb7d23bdfa96e48
 tags:
   1.1.4--py310h275bdba_0: 
     sha256:c0106d301bc4a43df5c7a693eae3ad574d2e5ef13bf58955315075d796cb8386
   1.1.8--h5a011d0_0: 
     sha256:904f35a36c74a28d68969feff4700f99891e3dbb74dbdc5efbe7b3dff4cbb6e2
+  1.2.0--h5a011d0_0: 
+    sha256:6d8781dc24d5aa87ebcb7b29d000873dc57bc6c9e53269a1ecb7d23bdfa96e48
+  1.1.10--h5a011d0_0: 
+    sha256:4280881e598c054e860578483a4f73b202916c8134e8413eb2a80e8749996b80
 docker: quay.io/biocontainers/art_modern
 aliases:
   art_modern: /usr/local/bin/art_modern

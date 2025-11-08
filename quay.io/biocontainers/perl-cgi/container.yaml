@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/perl-cgi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-cgi
 latest:
-  4.70--pl5321h7b50bb2_0: 
-    sha256:d36e7da471101a0f9136c55f6bbf496c751cc369d5a0ba07c8290108358e147b
+  4.71--pl5321h7b50bb2_0: 
+    sha256:365604f30324acdbf2e9077efc49381093b6a628a37c20ea1c3672806ab542a3
 tags:
   4.54--pl5321hec16e2b_1: 
     sha256:447db43794c1be154b87efacf3fd69c5aec24cd1173f2cd20059582e038ef192
@@ -25,6 +25,8 @@ tags:
     sha256:d36e7da471101a0f9136c55f6bbf496c751cc369d5a0ba07c8290108358e147b
   4.69--pl5321h7b50bb2_0: 
     sha256:5595914e8388fba2121bf6d93f09b2342c502da9b5d87bbdbba957eb1acd3531
+  4.71--pl5321h7b50bb2_0: 
+    sha256:365604f30324acdbf2e9077efc49381093b6a628a37c20ea1c3672806ab542a3
 docker: quay.io/biocontainers/perl-cgi
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

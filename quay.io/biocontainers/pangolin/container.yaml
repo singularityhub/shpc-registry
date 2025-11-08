@@ -15,6 +15,8 @@ tags:
     sha256:d18ba33d96a7258c90d16048a917e22df29c63e261acc82b2c16b8750e1950c7
   4.0.6--pyhdfd78af_1: 
     sha256:936e336b54a71f8b726b2b74689c382a069acdcafde2af8a647c1d6f94acef3e
+  4.3.2--pyhdfd78af_0: 
+    sha256:31250a062125bdd9a09e638e25d918da9d7caabbac3722dde51d803fc9d05001
 docker: quay.io/biocontainers/pangolin
 aliases:
   constellations: /usr/local/bin/constellations

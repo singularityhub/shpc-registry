@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fraser
 latest:
-  2.2.0--r44he5774e6_0: 
-    sha256:b52c5878deb244f69eb26ef05ec36cdf257db3cdfe07a179a08f4be96c5c26c1
+  2.4.6--r44he5774e6_0: 
+    sha256:be5199d7bc581d14a3da0675415523cfc737dc175e7525afa54ae8eeb413d488
 tags:
   1.6.1--r41hc247a5b_2: 
     sha256:96a57a428bd816e508ffe1bfeeed028ebb58019aead777fc56354873699abbbb
@@ -20,4 +20,6 @@ tags:
     sha256:355493fc464ff74f75dd5ac0b37a1874e5161da766fec960904ffdd0e66b48ba
   2.2.0--r44he5774e6_0: 
     sha256:b52c5878deb244f69eb26ef05ec36cdf257db3cdfe07a179a08f4be96c5c26c1
+  2.4.6--r44he5774e6_0: 
+    sha256:be5199d7bc581d14a3da0675415523cfc737dc175e7525afa54ae8eeb413d488
 docker: quay.io/biocontainers/bioconductor-fraser
