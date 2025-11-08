@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bifrost-httr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bifrost-httr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bifrost-httr/container.yaml"
-updated_at: "2025-11-07 03:50:04.294581"
+updated_at: "2025-11-08 03:41:11.442582"
 latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bifrost-httr"
 aliases:

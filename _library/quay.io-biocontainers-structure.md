@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/structure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/structure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/structure/container.yaml"
-updated_at: "2025-11-07 03:20:16.474391"
+updated_at: "2025-11-08 03:12:18.937870"
 latest: "2.3.4--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/structure"
 aliases:

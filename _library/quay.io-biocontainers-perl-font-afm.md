@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-font-afm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-font-afm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-font-afm/container.yaml"
-updated_at: "2025-11-07 03:43:53.769365"
+updated_at: "2025-11-08 03:35:19.241649"
 latest: "1.20--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-font-afm"
 aliases:

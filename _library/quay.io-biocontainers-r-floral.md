@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-floral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-floral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-floral/container.yaml"
-updated_at: "2025-11-07 03:24:49.200869"
+updated_at: "2025-11-08 03:16:54.257084"
 latest: "0.5.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-floral"
 aliases:

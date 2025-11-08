@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/athena_meta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/athena_meta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/athena_meta/container.yaml"
-updated_at: "2025-11-07 03:21:07.077105"
+updated_at: "2025-11-08 03:13:11.882856"
 latest: "1.3--py_1"
 container_url: "https://biocontainers.pro/tools/athena_meta"
 aliases:

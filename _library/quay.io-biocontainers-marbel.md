@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/marbel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marbel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marbel/container.yaml"
-updated_at: "2025-11-07 03:39:47.624413"
+updated_at: "2025-11-08 03:31:24.203042"
 latest: "0.2.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/marbel"
 aliases:

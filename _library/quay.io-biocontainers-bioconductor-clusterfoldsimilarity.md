@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clusterfoldsimilarity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clusterfoldsimilarity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clusterfoldsimilarity/container.yaml"
-updated_at: "2025-11-07 03:14:54.020429"
+updated_at: "2025-11-08 03:06:54.552713"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clusterfoldsimilarity"
 aliases:
