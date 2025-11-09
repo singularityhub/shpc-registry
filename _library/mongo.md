@@ -4,8 +4,8 @@ name:  "mongo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mongo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/mongo/container.yaml"
-updated_at: "2025-11-08 03:57:52.106778"
-latest: "8.0-rc"
+updated_at: "2025-11-09 04:08:46.038469"
+latest: "8.2"
 container_url: "https://hub.docker.com/r/_/mongo"
 aliases:
  - "mongo"
@@ -42,8 +42,9 @@ versions:
  - "8.0-rc"
  - "8"
  - "8.0"
+ - "8.2"
 description: "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata."
-config: {"docker": "mongo", "url": "https://hub.docker.com/r/_/mongo", "maintainer": "@vsoch", "description": "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata.", "filter": ["^(?!.*nano).*$", "^(?!.*windows).*$"], "latest": {"8.0-rc": "sha256:1ec3487225faeda865a970887cca1e794a40130e071adc4e871596f62aff5f5e"}, "tags": {"4.4.5-bionic": "sha256:cc8bb8711114fa726ca641f5644791d3d43bdd2c95dac541a5fa2c90a2e6e972", "4.4.6-bionic": "sha256:3d0e6df9fd5bc42cbf8ef8bc9e6c4e78f6f26c7157dbd7bdec72d202ab8ebe3a", "5.0.0-focal": "sha256:21aa30c16cf1f92c68890cefc612357bf856f94678cc4bfc0ef26bdeb7c34ad0", "5.0.0-rc1-focal": "sha256:238ca9b76e3034377a38be3dac927bd3920634c3af68053be000739c15106cec", "5.0.2": "sha256:58ea1bc09f269a9b85b7e1fae83b7505952aaa521afaaca4131f558955743842", "5.0.3": "sha256:4088649f737cf704deaf350ccd5ad8045552c5a0f8a5a2e81c1c23e280db2d80", "5.0.4": "sha256:cf9f5df5419319390cc3b5d9abfc2d0d0b149b3e04a6c9936990129e3e29b579", "5.0.5": "sha256:079089900e9511a782a59a4276046835189720eb668088869d147d1145cebe14", "5.0.6": "sha256:fed6248ae0bb0d54c0448eb786c87120737eedc522172ee1536ad47789782348", "latest": "sha256:41e48e703c413df7befc6aa9f3ac93583d17bc770fe8dd8ea848ef7136c3327f", "5": "sha256:54bcd8da3ea5eec561b68c605046c55c6b304387dc4c2bf5b3a5f5064fbb7495", "5.0": "sha256:54bcd8da3ea5eec561b68c605046c55c6b304387dc4c2bf5b3a5f5064fbb7495", "4": "sha256:52c42cbab240b3c5b1748582cc13ef46d521ddacae002bbbda645cebed270ec0", "4.9-rc": "sha256:36b78340b10ff47a37428cae7481caf894db191bd2fdebe1834f3b0328d48320", "4.4": "sha256:52c42cbab240b3c5b1748582cc13ef46d521ddacae002bbbda645cebed270ec0", "6": "sha256:fd1645a22ca9898b2a0bf88558506d42b04306cee31e06168a734cd6d34dd892", "6.0": "sha256:fd1645a22ca9898b2a0bf88558506d42b04306cee31e06168a734cd6d34dd892", "7.0-rc": "sha256:eb32981c72e4a5e600cbb91777f8ca89750b5ef837908f8eac817a26639a5474", "7": "sha256:062ee16916ad234f6a4e276e8905e22803c206c2e0711c3f90aec722bf641aa6", "7.0": "sha256:062ee16916ad234f6a4e276e8905e22803c206c2e0711c3f90aec722bf641aa6", "8.0-rc": "sha256:1ec3487225faeda865a970887cca1e794a40130e071adc4e871596f62aff5f5e", "8": "sha256:41e48e703c413df7befc6aa9f3ac93583d17bc770fe8dd8ea848ef7136c3327f", "8.0": "sha256:41e48e703c413df7befc6aa9f3ac93583d17bc770fe8dd8ea848ef7136c3327f"}, "aliases": {"mongo": "/usr/bin/mongo", "mongod": "/usr/bin/mongod", "mongodump": "/usr/bin/mongodump", "mongoexport": "/usr/bin/mongoexport", "mongofiles": "/usr/bin/mongofiles", "mongoimport": "/usr/bin/mongoimport", "mongos": "/usr/bin/mongos", "mongostat": "/usr/bin/mongostat", "mongostore": "/usr/bin/mongorestore", "mongotop": "/usr/bin/mongotop"}}
+config: {"docker": "mongo", "url": "https://hub.docker.com/r/_/mongo", "maintainer": "@vsoch", "description": "MongoDB is a free and open-source cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schemata.", "filter": ["^(?!.*nano).*$", "^(?!.*windows).*$"], "latest": {"8.2": "crane digest mongo:8.2: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "tags": {"4.4.5-bionic": "sha256:cc8bb8711114fa726ca641f5644791d3d43bdd2c95dac541a5fa2c90a2e6e972", "4.4.6-bionic": "sha256:3d0e6df9fd5bc42cbf8ef8bc9e6c4e78f6f26c7157dbd7bdec72d202ab8ebe3a", "5.0.0-focal": "sha256:21aa30c16cf1f92c68890cefc612357bf856f94678cc4bfc0ef26bdeb7c34ad0", "5.0.0-rc1-focal": "sha256:238ca9b76e3034377a38be3dac927bd3920634c3af68053be000739c15106cec", "5.0.2": "sha256:58ea1bc09f269a9b85b7e1fae83b7505952aaa521afaaca4131f558955743842", "5.0.3": "sha256:4088649f737cf704deaf350ccd5ad8045552c5a0f8a5a2e81c1c23e280db2d80", "5.0.4": "sha256:cf9f5df5419319390cc3b5d9abfc2d0d0b149b3e04a6c9936990129e3e29b579", "5.0.5": "sha256:079089900e9511a782a59a4276046835189720eb668088869d147d1145cebe14", "5.0.6": "sha256:fed6248ae0bb0d54c0448eb786c87120737eedc522172ee1536ad47789782348", "latest": "sha256:86835e8da0f94efd61334decb320fa43e8a60027688cbd856bf29d065b470338", "5": "sha256:54bcd8da3ea5eec561b68c605046c55c6b304387dc4c2bf5b3a5f5064fbb7495", "5.0": "sha256:54bcd8da3ea5eec561b68c605046c55c6b304387dc4c2bf5b3a5f5064fbb7495", "4": "crane digest mongo:4: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "4.9-rc": "crane digest mongo:4.9-rc: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "4.4": "crane digest mongo:4.4: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "6": "crane digest mongo:6: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "6.0": "crane digest mongo:6.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "7.0-rc": "crane digest mongo:7.0-rc: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "7": "crane digest mongo:7: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "7.0": "crane digest mongo:7.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "8.0-rc": "crane digest mongo:8.0-rc: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "8": "crane digest mongo:8: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "8.0": "crane digest mongo:8.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "8.2": "crane digest mongo:8.2: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "aliases": {"mongo": "/usr/bin/mongo", "mongod": "/usr/bin/mongod", "mongodump": "/usr/bin/mongodump", "mongoexport": "/usr/bin/mongoexport", "mongofiles": "/usr/bin/mongofiles", "mongoimport": "/usr/bin/mongoimport", "mongos": "/usr/bin/mongos", "mongostat": "/usr/bin/mongostat", "mongostore": "/usr/bin/mongorestore", "mongotop": "/usr/bin/mongotop"}}
 ---
 
 This module is a singularity container wrapper for mongo.
@@ -58,7 +59,7 @@ $ shpc install mongo
 Or a specific version:
 
 ```bash
-$ shpc install mongo:8.0-rc
+$ shpc install mongo:8.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load mongo/8.0-rc
-$ module help mongo/8.0-rc
+$ module load mongo/8.2
+$ module help mongo/8.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

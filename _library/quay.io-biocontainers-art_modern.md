@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/art_modern"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/art_modern/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/art_modern/container.yaml"
-updated_at: "2025-11-08 03:22:57.882148"
-latest: "1.1.8--h5a011d0_0"
+updated_at: "2025-11-09 03:33:56.541520"
+latest: "1.2.0--h5a011d0_0"
 container_url: "https://biocontainers.pro/tools/art_modern"
 aliases:
  - "art_modern"
@@ -17,8 +17,10 @@ aliases:
 versions:
  - "1.1.4--py310h275bdba_0"
  - "1.1.8--h5a011d0_0"
+ - "1.2.0--h5a011d0_0"
+ - "1.1.10--h5a011d0_0"
 description: "singularity registry hpc automated addition for art_modern"
-config: {"url": "https://biocontainers.pro/tools/art_modern", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for art_modern", "latest": {"1.1.8--h5a011d0_0": "sha256:904f35a36c74a28d68969feff4700f99891e3dbb74dbdc5efbe7b3dff4cbb6e2"}, "tags": {"1.1.4--py310h275bdba_0": "sha256:c0106d301bc4a43df5c7a693eae3ad574d2e5ef13bf58955315075d796cb8386", "1.1.8--h5a011d0_0": "sha256:904f35a36c74a28d68969feff4700f99891e3dbb74dbdc5efbe7b3dff4cbb6e2"}, "docker": "quay.io/biocontainers/art_modern", "aliases": {"art_modern": "/usr/local/bin/art_modern", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/art_modern", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for art_modern", "latest": {"1.2.0--h5a011d0_0": "sha256:6d8781dc24d5aa87ebcb7b29d000873dc57bc6c9e53269a1ecb7d23bdfa96e48"}, "tags": {"1.1.4--py310h275bdba_0": "sha256:c0106d301bc4a43df5c7a693eae3ad574d2e5ef13bf58955315075d796cb8386", "1.1.8--h5a011d0_0": "sha256:904f35a36c74a28d68969feff4700f99891e3dbb74dbdc5efbe7b3dff4cbb6e2", "1.2.0--h5a011d0_0": "sha256:6d8781dc24d5aa87ebcb7b29d000873dc57bc6c9e53269a1ecb7d23bdfa96e48", "1.1.10--h5a011d0_0": "sha256:4280881e598c054e860578483a4f73b202916c8134e8413eb2a80e8749996b80"}, "docker": "quay.io/biocontainers/art_modern", "aliases": {"art_modern": "/usr/local/bin/art_modern", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/art_modern.
@@ -33,7 +35,7 @@ $ shpc install quay.io/biocontainers/art_modern
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/art_modern:1.1.8--h5a011d0_0
+$ shpc install quay.io/biocontainers/art_modern:1.2.0--h5a011d0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/art_modern/1.1.8--h5a011d0_0
-$ module help quay.io/biocontainers/art_modern/1.1.8--h5a011d0_0
+$ module load quay.io/biocontainers/art_modern/1.2.0--h5a011d0_0
+$ module help quay.io/biocontainers/art_modern/1.2.0--h5a011d0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

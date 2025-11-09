@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/architeuthis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/architeuthis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/architeuthis/container.yaml"
-updated_at: "2025-11-08 03:10:49.360673"
+updated_at: "2025-11-09 03:21:25.166346"
 latest: "0.4.0--he881be0_0"
 container_url: "https://biocontainers.pro/tools/architeuthis"
 aliases:

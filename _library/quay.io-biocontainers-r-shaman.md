@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-shaman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shaman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shaman/container.yaml"
-updated_at: "2025-11-08 03:19:16.292668"
+updated_at: "2025-11-09 03:30:03.791405"
 latest: "2.0--r44hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/r-shaman"
 aliases:

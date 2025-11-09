@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-loomexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-loomexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-loomexperiment/container.yaml"
-updated_at: "2025-11-08 03:20:40.601948"
+updated_at: "2025-11-09 03:31:33.649615"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-loomexperiment"
 aliases:
