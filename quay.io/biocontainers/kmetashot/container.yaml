@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/kmetashot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kmetashot
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:0fca785d3b665da873397ff11fdb33758a92ba076c208fef78f699be05f7082f
+  2.0--pyh7e72e81_1: 
+    sha256:54b0ba2cde50e40aef89af20016d36ad17233251913ba54c7226f55a351d528f
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:0fca785d3b665da873397ff11fdb33758a92ba076c208fef78f699be05f7082f
+  2.0--pyh7e72e81_1: 
+    sha256:54b0ba2cde50e40aef89af20016d36ad17233251913ba54c7226f55a351d528f
 docker: quay.io/biocontainers/kmetashot
 aliases:
   kmetashot: /usr/local/bin/kmetashot
