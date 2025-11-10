@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mgnifyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mgnifyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mgnifyr/container.yaml"
-updated_at: "2025-11-09 04:05:57.748741"
+updated_at: "2025-11-10 04:11:18.180818"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mgnifyr"
 aliases:

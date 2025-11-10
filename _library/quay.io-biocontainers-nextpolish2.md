@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nextpolish2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextpolish2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextpolish2/container.yaml"
-updated_at: "2025-11-09 03:50:11.545692"
-latest: "0.2.1--h74ec884_3"
+updated_at: "2025-11-10 03:55:31.126016"
+latest: "0.2.2--h74ec884_0"
 container_url: "https://biocontainers.pro/tools/nextpolish2"
 aliases:
  - "nextPolish2"
@@ -16,8 +16,9 @@ versions:
  - "0.2.1--h5c23e0d_1"
  - "0.2.1--hcdda2d0_2"
  - "0.2.1--h74ec884_3"
+ - "0.2.2--h74ec884_0"
 description: "singularity registry hpc automated addition for nextpolish2"
-config: {"url": "https://biocontainers.pro/tools/nextpolish2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nextpolish2", "latest": {"0.2.1--h74ec884_3": "sha256:43b749cda7a34eb0a9798433cf4f426ce99b7caf08b1eec339f8c733d0f1b43c"}, "tags": {"0.1.0--hd03093a_0": "sha256:365eec84cc21ecfcc17dad88441c6126b95720f14d9da45bedc22126a09772f7", "0.2.0--hdcf5f25_0": "sha256:ab3c298a7fc7bc309f75b00f017c23efb57694077ede017dd6e471e8e6b6cabe", "0.2.1--h5c23e0d_1": "sha256:745502812cb406e9450f696037b5a42953104bee5f0bd72bfd2acf44e734c4f9", "0.2.1--hcdda2d0_2": "sha256:139ee09d62512c7d60b7a054b03b6224d3ac001bc6884dc7a97bcaac44779076", "0.2.1--h74ec884_3": "sha256:43b749cda7a34eb0a9798433cf4f426ce99b7caf08b1eec339f8c733d0f1b43c"}, "docker": "quay.io/biocontainers/nextpolish2", "aliases": {"nextPolish2": "/usr/local/bin/nextPolish2", "yak": "/usr/local/bin/yak"}}
+config: {"url": "https://biocontainers.pro/tools/nextpolish2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nextpolish2", "latest": {"0.2.2--h74ec884_0": "sha256:cfb31ff9e41cad907f470915a5b016cd4cc239994ec10b504ec00db00c88fa8a"}, "tags": {"0.1.0--hd03093a_0": "sha256:365eec84cc21ecfcc17dad88441c6126b95720f14d9da45bedc22126a09772f7", "0.2.0--hdcf5f25_0": "sha256:ab3c298a7fc7bc309f75b00f017c23efb57694077ede017dd6e471e8e6b6cabe", "0.2.1--h5c23e0d_1": "sha256:745502812cb406e9450f696037b5a42953104bee5f0bd72bfd2acf44e734c4f9", "0.2.1--hcdda2d0_2": "sha256:139ee09d62512c7d60b7a054b03b6224d3ac001bc6884dc7a97bcaac44779076", "0.2.1--h74ec884_3": "sha256:43b749cda7a34eb0a9798433cf4f426ce99b7caf08b1eec339f8c733d0f1b43c", "0.2.2--h74ec884_0": "sha256:cfb31ff9e41cad907f470915a5b016cd4cc239994ec10b504ec00db00c88fa8a"}, "docker": "quay.io/biocontainers/nextpolish2", "aliases": {"nextPolish2": "/usr/local/bin/nextPolish2", "yak": "/usr/local/bin/yak"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextpolish2.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/nextpolish2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nextpolish2:0.2.1--h74ec884_3
+$ shpc install quay.io/biocontainers/nextpolish2:0.2.2--h74ec884_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nextpolish2/0.2.1--h74ec884_3
-$ module help quay.io/biocontainers/nextpolish2/0.2.1--h74ec884_3
+$ module load quay.io/biocontainers/nextpolish2/0.2.2--h74ec884_0
+$ module help quay.io/biocontainers/nextpolish2/0.2.2--h74ec884_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

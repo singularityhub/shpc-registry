@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nwkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nwkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nwkit/container.yaml"
-updated_at: "2025-11-09 03:58:55.155952"
+updated_at: "2025-11-10 04:04:14.887956"
 latest: "0.17.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nwkit"
 aliases:

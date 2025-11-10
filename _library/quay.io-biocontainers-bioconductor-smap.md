@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-smap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-smap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-smap/container.yaml"
-updated_at: "2025-11-09 03:33:06.452095"
+updated_at: "2025-11-10 03:38:39.996580"
 latest: "1.66.0--r44h3df3fcb_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-smap"
 

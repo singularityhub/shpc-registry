@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-findbin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-findbin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-findbin/container.yaml"
-updated_at: "2025-11-09 03:36:40.954721"
+updated_at: "2025-11-10 03:42:14.044908"
 latest: "1.54--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-findbin"
 

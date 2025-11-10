@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rsweep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsweep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsweep/container.yaml"
-updated_at: "2025-11-09 03:37:43.859007"
+updated_at: "2025-11-10 03:43:16.374705"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsweep"
 

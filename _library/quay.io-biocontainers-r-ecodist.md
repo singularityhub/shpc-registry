@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ecodist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ecodist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ecodist/container.yaml"
-updated_at: "2025-11-09 03:31:19.183091"
+updated_at: "2025-11-10 03:36:58.044103"
 latest: "2.0.1--r351h96ca727_3"
 container_url: "https://biocontainers.pro/tools/r-ecodist"
 aliases:

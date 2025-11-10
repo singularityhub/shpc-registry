@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmetashot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmetashot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmetashot/container.yaml"
-updated_at: "2025-11-09 03:17:04.365037"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2025-11-10 03:23:05.573255"
+latest: "2.0--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/kmetashot"
 aliases:
  - "kmetashot"
@@ -36,8 +36,9 @@ aliases:
  - "h5mkgrp"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "2.0--pyh7e72e81_1"
 description: "singularity registry hpc automated addition for kmetashot"
-config: {"url": "https://biocontainers.pro/tools/kmetashot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmetashot", "latest": {"0.1.0--pyhdfd78af_0": "sha256:0fca785d3b665da873397ff11fdb33758a92ba076c208fef78f699be05f7082f"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:0fca785d3b665da873397ff11fdb33758a92ba076c208fef78f699be05f7082f"}, "docker": "quay.io/biocontainers/kmetashot", "aliases": {"kmetashot": "/usr/local/bin/kmetashot", "h5fuse": "/usr/local/bin/h5fuse", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "h5delete": "/usr/local/bin/h5delete", "numpy-config": "/usr/local/bin/numpy-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp"}}
+config: {"url": "https://biocontainers.pro/tools/kmetashot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmetashot", "latest": {"2.0--pyh7e72e81_1": "sha256:54b0ba2cde50e40aef89af20016d36ad17233251913ba54c7226f55a351d528f"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:0fca785d3b665da873397ff11fdb33758a92ba076c208fef78f699be05f7082f", "2.0--pyh7e72e81_1": "sha256:54b0ba2cde50e40aef89af20016d36ad17233251913ba54c7226f55a351d528f"}, "docker": "quay.io/biocontainers/kmetashot", "aliases": {"kmetashot": "/usr/local/bin/kmetashot", "h5fuse": "/usr/local/bin/h5fuse", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "h5delete": "/usr/local/bin/h5delete", "numpy-config": "/usr/local/bin/numpy-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmetashot.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/kmetashot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmetashot:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kmetashot:2.0--pyh7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmetashot/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/kmetashot/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/kmetashot/2.0--pyh7e72e81_1
+$ module help quay.io/biocontainers/kmetashot/2.0--pyh7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
