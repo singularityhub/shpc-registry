@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sccaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sccaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sccaf/container.yaml"
-updated_at: "2025-11-10 03:38:49.388190"
+updated_at: "2025-11-11 03:32:09.671011"
 latest: "0.0.10--py_0"
 container_url: "https://biocontainers.pro/tools/sccaf"
 aliases:

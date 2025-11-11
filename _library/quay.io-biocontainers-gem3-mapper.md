@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gem3-mapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gem3-mapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gem3-mapper/container.yaml"
-updated_at: "2025-11-10 03:43:51.058672"
+updated_at: "2025-11-11 03:36:50.552765"
 latest: "3.6.1--hb1d24b7_13"
 container_url: "https://biocontainers.pro/tools/gem3-mapper"
 aliases:

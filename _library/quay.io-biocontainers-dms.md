@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dms/container.yaml"
-updated_at: "2025-11-10 03:59:59.672684"
+updated_at: "2025-11-11 03:51:52.901899"
 latest: "1.1--h9948957_2"
 container_url: "https://biocontainers.pro/tools/dms"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf2maf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2maf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2maf/container.yaml"
-updated_at: "2025-11-10 04:03:25.396850"
+updated_at: "2025-11-11 03:55:03.994792"
 latest: "1.6.22--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/vcf2maf"
 aliases:

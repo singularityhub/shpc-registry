@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-leaktrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-leaktrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-leaktrace/container.yaml"
-updated_at: "2025-11-10 03:40:28.536431"
+updated_at: "2025-11-11 03:33:41.888148"
 latest: "0.17--pl5321hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/perl-test-leaktrace"
 aliases:

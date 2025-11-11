@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-borealis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-borealis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-borealis/container.yaml"
-updated_at: "2025-11-10 03:41:50.723341"
+updated_at: "2025-11-11 03:34:58.763929"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-borealis"
 aliases:

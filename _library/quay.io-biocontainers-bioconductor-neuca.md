@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-neuca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-neuca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-neuca/container.yaml"
-updated_at: "2025-11-10 04:06:01.880828"
+updated_at: "2025-11-11 03:57:30.089177"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-neuca"
 
