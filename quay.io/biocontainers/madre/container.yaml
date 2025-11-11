@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/madre
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for madre
 latest:
-  0.0.4--pyhdfd78af_0: 
-    sha256:5cf7ea6c568efcebc2d193f8370c92dfbade18b0829098acc578edd90a54b228
+  0.0.5--pyhdfd78af_0: 
+    sha256:3ef428fd0e98cd7d0da8f8aeae95658b47809ca365839c6a3543a8670593cd47
 tags:
   0.0.4--pyhdfd78af_0: 
     sha256:5cf7ea6c568efcebc2d193f8370c92dfbade18b0829098acc578edd90a54b228
+  0.0.5--pyhdfd78af_0: 
+    sha256:3ef428fd0e98cd7d0da8f8aeae95658b47809ca365839c6a3543a8670593cd47
 docker: quay.io/biocontainers/madre
 aliases:
   calculate-abundances: /usr/local/bin/calculate-abundances

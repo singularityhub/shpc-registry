@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-module-corelist
 latest:
-  5.20250923--pl5321hdfd78af_0: 
-    sha256:95bb02327df2e3eb88a23f96c9ab2342083714164e49dbde5721a9ba5051b96a
+  5.20251022--pl5321hdfd78af_0: 
+    sha256:8411e4d539425c65726d6067cba793b234fefaa0e1ac7f1cbbdb2e58e5f40cc4
 tags:
   5.20220620--pl5321hdfd78af_0: 
     sha256:8fbf203956ca52543bd5756676fe67fac8674acabb92c1dace18a2b873779b0e
@@ -22,6 +22,8 @@ tags:
     sha256:cca4ca4d875444374c995aeca55b34617655509477d84eaa001c01302854af86
   5.20250923--pl5321hdfd78af_0: 
     sha256:95bb02327df2e3eb88a23f96c9ab2342083714164e49dbde5721a9ba5051b96a
+  5.20251022--pl5321hdfd78af_0: 
+    sha256:8411e4d539425c65726d6067cba793b234fefaa0e1ac7f1cbbdb2e58e5f40cc4
 docker: quay.io/biocontainers/perl-module-corelist
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/fastreer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastreer
 latest:
-  2.0.0--pyhdfd78af_1: 
-    sha256:e7a02d35a5a75f9cfeea707a7abee80558cb664602f3e635f90418dc8b40ee71
+  2.1.2--pyhdfd78af_0: 
+    sha256:0b44f66030d8bae17323c90d021e826e00ebca4c25b947ce46c3fe75d50e47f4
 tags:
   1.13.30--pyhdfd78af_0: 
     sha256:9260d4c2e8107be41af346651feb85446b516322f50ec96cf85674a871eede31
   2.0.0--pyhdfd78af_1: 
     sha256:e7a02d35a5a75f9cfeea707a7abee80558cb664602f3e635f90418dc8b40ee71
+  2.1.2--pyhdfd78af_0: 
+    sha256:0b44f66030d8bae17323c90d021e826e00ebca4c25b947ce46c3fe75d50e47f4
 docker: quay.io/biocontainers/fastreer
 aliases:
   fastreeR: /usr/local/bin/fastreeR

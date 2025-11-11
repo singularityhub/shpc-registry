@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-http-message
 latest:
-  7.00--pl5321hdfd78af_0: 
-    sha256:832b7f956109ab0cb66e31087ae76bb104e4766440c9b9f8cb3f617a9132bc09
+  7.01--pl5321hdfd78af_0: 
+    sha256:6687865ce7db332beb97465650f5c472dc7871a68545603c48ab0ffcb8497fcb
 tags:
   6.36--pl5321hdfd78af_0: 
     sha256:483526150eb891029e698e8de2845d1eb5a9bd71e47df10b460b7945082a3981
@@ -12,6 +12,8 @@ tags:
     sha256:832b7f956109ab0cb66e31087ae76bb104e4766440c9b9f8cb3f617a9132bc09
   6.44--pl5321hdfd78af_0: 
     sha256:5bb7c832cc41be15fe2810007e983131b7508c3cb314fed444e8e52324b172af
+  7.01--pl5321hdfd78af_0: 
+    sha256:6687865ce7db332beb97465650f5c472dc7871a68545603c48ab0ffcb8497fcb
 docker: quay.io/biocontainers/perl-http-message
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
