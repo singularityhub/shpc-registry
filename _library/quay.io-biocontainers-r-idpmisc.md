@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-idpmisc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-idpmisc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-idpmisc/container.yaml"
-updated_at: "2025-11-11 03:46:56.874906"
+updated_at: "2025-11-12 03:47:50.659549"
 latest: "1.1.17--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-idpmisc"
 aliases:

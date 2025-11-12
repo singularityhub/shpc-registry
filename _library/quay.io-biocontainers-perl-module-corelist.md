@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-module-corelist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-corelist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-corelist/container.yaml"
-updated_at: "2025-11-11 03:31:12.941996"
-latest: "5.20250923--pl5321hdfd78af_0"
+updated_at: "2025-11-12 03:31:02.434152"
+latest: "5.20251022--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-module-corelist"
 aliases:
  - "perl5.32.1"
@@ -19,8 +19,9 @@ versions:
  - "5.20250720--pl5321hdfd78af_0"
  - "5.20250820--pl5321hdfd78af_0"
  - "5.20250923--pl5321hdfd78af_0"
+ - "5.20251022--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-module-corelist"
-config: {"url": "https://biocontainers.pro/tools/perl-module-corelist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-corelist", "latest": {"5.20250923--pl5321hdfd78af_0": "sha256:95bb02327df2e3eb88a23f96c9ab2342083714164e49dbde5721a9ba5051b96a"}, "tags": {"5.20220620--pl5321hdfd78af_0": "sha256:8fbf203956ca52543bd5756676fe67fac8674acabb92c1dace18a2b873779b0e", "5.20250702--pl5321hdfd78af_0": "sha256:5457bec1bfa8fcdf7631e7aaf11f8091f8eafdf35f9039693bde9accc9e91d2e", "5.20250528--pl5321hdfd78af_0": "sha256:7b92e1fa262f3be576aa622788eb54b5eee15f426b30f6a02a7b28ec631f15b3", "5.20230220--pl5321hdfd78af_0": "sha256:b655594d650f57cd344cdef061dd74508069c979695f414d2b7b1adb9a08b5fc", "5.20250803--pl5321hdfd78af_0": "sha256:83a27c483dc0246edd4f5a609c0a25bf68c4699da027084e56cfc5193451a60e", "5.20250720--pl5321hdfd78af_0": "sha256:a96ae401f0117b73c586ad8f9619a54d0377faa6be4f395130d50598864d4d1d", "5.20250820--pl5321hdfd78af_0": "sha256:cca4ca4d875444374c995aeca55b34617655509477d84eaa001c01302854af86", "5.20250923--pl5321hdfd78af_0": "sha256:95bb02327df2e3eb88a23f96c9ab2342083714164e49dbde5721a9ba5051b96a"}, "docker": "quay.io/biocontainers/perl-module-corelist", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-module-corelist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-corelist", "latest": {"5.20251022--pl5321hdfd78af_0": "sha256:8411e4d539425c65726d6067cba793b234fefaa0e1ac7f1cbbdb2e58e5f40cc4"}, "tags": {"5.20220620--pl5321hdfd78af_0": "sha256:8fbf203956ca52543bd5756676fe67fac8674acabb92c1dace18a2b873779b0e", "5.20250702--pl5321hdfd78af_0": "sha256:5457bec1bfa8fcdf7631e7aaf11f8091f8eafdf35f9039693bde9accc9e91d2e", "5.20250528--pl5321hdfd78af_0": "sha256:7b92e1fa262f3be576aa622788eb54b5eee15f426b30f6a02a7b28ec631f15b3", "5.20230220--pl5321hdfd78af_0": "sha256:b655594d650f57cd344cdef061dd74508069c979695f414d2b7b1adb9a08b5fc", "5.20250803--pl5321hdfd78af_0": "sha256:83a27c483dc0246edd4f5a609c0a25bf68c4699da027084e56cfc5193451a60e", "5.20250720--pl5321hdfd78af_0": "sha256:a96ae401f0117b73c586ad8f9619a54d0377faa6be4f395130d50598864d4d1d", "5.20250820--pl5321hdfd78af_0": "sha256:cca4ca4d875444374c995aeca55b34617655509477d84eaa001c01302854af86", "5.20250923--pl5321hdfd78af_0": "sha256:95bb02327df2e3eb88a23f96c9ab2342083714164e49dbde5721a9ba5051b96a", "5.20251022--pl5321hdfd78af_0": "sha256:8411e4d539425c65726d6067cba793b234fefaa0e1ac7f1cbbdb2e58e5f40cc4"}, "docker": "quay.io/biocontainers/perl-module-corelist", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-module-corelist.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/perl-module-corelist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-module-corelist:5.20250923--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-module-corelist:5.20251022--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-module-corelist/5.20250923--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-module-corelist/5.20250923--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-module-corelist/5.20251022--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-module-corelist/5.20251022--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

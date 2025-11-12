@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-http-message"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-message/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-message/container.yaml"
-updated_at: "2025-11-11 03:39:03.023289"
-latest: "7.00--pl5321hdfd78af_0"
+updated_at: "2025-11-12 03:39:20.473080"
+latest: "7.01--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-message"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "6.36--pl5321hdfd78af_0"
  - "7.00--pl5321hdfd78af_0"
  - "6.44--pl5321hdfd78af_0"
+ - "7.01--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-http-message"
-config: {"url": "https://biocontainers.pro/tools/perl-http-message", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-message", "latest": {"7.00--pl5321hdfd78af_0": "sha256:832b7f956109ab0cb66e31087ae76bb104e4766440c9b9f8cb3f617a9132bc09"}, "tags": {"6.36--pl5321hdfd78af_0": "sha256:483526150eb891029e698e8de2845d1eb5a9bd71e47df10b460b7945082a3981", "7.00--pl5321hdfd78af_0": "sha256:832b7f956109ab0cb66e31087ae76bb104e4766440c9b9f8cb3f617a9132bc09", "6.44--pl5321hdfd78af_0": "sha256:5bb7c832cc41be15fe2810007e983131b7508c3cb314fed444e8e52324b172af"}, "docker": "quay.io/biocontainers/perl-http-message", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-http-message", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-message", "latest": {"7.01--pl5321hdfd78af_0": "sha256:6687865ce7db332beb97465650f5c472dc7871a68545603c48ab0ffcb8497fcb"}, "tags": {"6.36--pl5321hdfd78af_0": "sha256:483526150eb891029e698e8de2845d1eb5a9bd71e47df10b460b7945082a3981", "7.00--pl5321hdfd78af_0": "sha256:832b7f956109ab0cb66e31087ae76bb104e4766440c9b9f8cb3f617a9132bc09", "6.44--pl5321hdfd78af_0": "sha256:5bb7c832cc41be15fe2810007e983131b7508c3cb314fed444e8e52324b172af", "7.01--pl5321hdfd78af_0": "sha256:6687865ce7db332beb97465650f5c472dc7871a68545603c48ab0ffcb8497fcb"}, "docker": "quay.io/biocontainers/perl-http-message", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-http-message.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-http-message
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-http-message:7.00--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-http-message:7.01--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-http-message/7.00--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-http-message/7.00--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-http-message/7.01--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-http-message/7.01--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

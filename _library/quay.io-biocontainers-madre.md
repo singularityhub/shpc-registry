@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/madre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/madre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/madre/container.yaml"
-updated_at: "2025-11-11 03:31:04.381166"
-latest: "0.0.4--pyhdfd78af_0"
+updated_at: "2025-11-12 03:30:52.942656"
+latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/madre"
 aliases:
  - "calculate-abundances"
@@ -19,8 +19,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.0.4--pyhdfd78af_0"
+ - "0.0.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for madre"
-config: {"url": "https://biocontainers.pro/tools/madre", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for madre", "latest": {"0.0.4--pyhdfd78af_0": "sha256:5cf7ea6c568efcebc2d193f8370c92dfbade18b0829098acc578edd90a54b228"}, "tags": {"0.0.4--pyhdfd78af_0": "sha256:5cf7ea6c568efcebc2d193f8370c92dfbade18b0829098acc578edd90a54b228"}, "docker": "quay.io/biocontainers/madre", "aliases": {"calculate-abundances": "/usr/local/bin/calculate-abundances", "database-reduction": "/usr/local/bin/database-reduction", "madre": "/usr/local/bin/madre", "read-classification": "/usr/local/bin/read-classification", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/madre", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for madre", "latest": {"0.0.5--pyhdfd78af_0": "sha256:3ef428fd0e98cd7d0da8f8aeae95658b47809ca365839c6a3543a8670593cd47"}, "tags": {"0.0.4--pyhdfd78af_0": "sha256:5cf7ea6c568efcebc2d193f8370c92dfbade18b0829098acc578edd90a54b228", "0.0.5--pyhdfd78af_0": "sha256:3ef428fd0e98cd7d0da8f8aeae95658b47809ca365839c6a3543a8670593cd47"}, "docker": "quay.io/biocontainers/madre", "aliases": {"calculate-abundances": "/usr/local/bin/calculate-abundances", "database-reduction": "/usr/local/bin/database-reduction", "madre": "/usr/local/bin/madre", "read-classification": "/usr/local/bin/read-classification", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/madre.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/madre
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/madre:0.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/madre:0.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/madre/0.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/madre/0.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/madre/0.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/madre/0.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

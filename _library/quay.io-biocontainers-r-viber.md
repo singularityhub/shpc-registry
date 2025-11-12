@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-viber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-viber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-viber/container.yaml"
-updated_at: "2025-11-11 03:30:11.860441"
+updated_at: "2025-11-12 03:29:54.602371"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-viber"
 aliases:

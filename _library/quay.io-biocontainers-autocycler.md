@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autocycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autocycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autocycler/container.yaml"
-updated_at: "2025-11-11 03:35:24.499368"
+updated_at: "2025-11-12 03:35:28.907063"
 latest: "0.5.2--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/autocycler"
 aliases:

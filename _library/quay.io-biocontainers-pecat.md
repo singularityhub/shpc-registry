@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pecat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pecat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pecat/container.yaml"
-updated_at: "2025-11-11 03:23:33.191456"
+updated_at: "2025-11-12 03:22:35.633650"
 latest: "0.0.3--hdb21b49_2"
 container_url: "https://biocontainers.pro/tools/pecat"
 aliases:
