@@ -11,8 +11,8 @@ tags:
     sha256:e845470a05d348b642911ae2cbfca2a9df260c8f5d5ac5e22d96ba9ac557a70e
   '2022-04-05': 
     sha256:359d683a3bb6170092a88073eb5ced9887fe0546cdaff2ec17ca22b5649c7cf2
-  '2022-03-28': 
-    sha256:2a998dd7d8372da07ef9d73b2e7afe1805cba6ca443d55887f3dc56d6fc7e256
+  '2022-03-28': 'crane digest jupyter/r-notebook:2022-03-28: TOOMANYREQUESTS: You
+    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
   '2022-02-28': 'crane digest jupyter/r-notebook:2022-02-28: TOOMANYREQUESTS: You
     have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
   '2022-01-31': 'crane digest jupyter/r-notebook:2022-01-31: TOOMANYREQUESTS: You

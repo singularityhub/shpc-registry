@@ -4,7 +4,7 @@ maintainer: '@vsoch'
 description: Solr is the popular, blazing-fast, open source enterprise search 
   platform built on Apache Lucene™.
 latest:
-  '9.9': 'crane digest solr:9.9: TOOMANYREQUESTS: You have reached your unauthenticated
+  '9.10': 'crane digest solr:9.10: TOOMANYREQUESTS: You have reached your unauthenticated
     pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
   8.8.2-slim: 
@@ -19,18 +19,24 @@ tags:
   8.11.1: 
     sha256:8c5f7881cebb283d8230203db2083eef2a64d604d0f6020d74de63e2645f0aec
   latest: 
-    sha256:474f49c476d6742e1387d08971fb23f4bdbdf547c753838522e0c1a5cf07f044
+    sha256:9765bae3bf17d872b8f2caa95bdff13da30b4d35c3007c49d76352ac35023342
   '8': sha256:122a041ef84b9567336ebfd7769512fc21a476cee740ce7b06c5971fd7055710
   '8.11': 
     sha256:122a041ef84b9567336ebfd7769512fc21a476cee740ce7b06c5971fd7055710
   '8.10': 
     sha256:dff43964cd5ca52199fe015a51bd2d1de37b8f82fbdeffaa266d4f9f7ef56fa7
-  '8.9': sha256:857cb9fadcc4dae9d20405d60eff3762a13b2bcfc33898628716df8f91b01ee8
-  '8.8': sha256:cb946e325f1372b86b70dbdccc4f050655f63d9f678f645bf508088704349363
-  '9': sha256:474f49c476d6742e1387d08971fb23f4bdbdf547c753838522e0c1a5cf07f044
-  '9.0': sha256:5103aea19a40a3462f612cd816d8ba6d0f58ff3ff5bf3930298393068797e83d
-  '9.1': sha256:8e97c5151e169763c4f786dec78e48063fa74245dcab2650a446214553adb89f
-  '9.2': sha256:c7d2485fb31e5acdda15c4b22fb9765d233875afd1bca51422dfc6ab7049748d
+  '8.9': 'crane digest solr:8.9: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '8.8': 'crane digest solr:8.8: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '9': 'crane digest solr:9: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '9.0': 'crane digest solr:9.0: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '9.1': 'crane digest solr:9.1: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '9.2': 'crane digest solr:9.2: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
   '9.3': 'crane digest solr:9.3: TOOMANYREQUESTS: You have reached your unauthenticated
     pull rate limit. https://www.docker.com/increase-rate-limit'
   '9.4': 'crane digest solr:9.4: TOOMANYREQUESTS: You have reached your unauthenticated
@@ -44,6 +50,8 @@ tags:
   '9.8': 'crane digest solr:9.8: TOOMANYREQUESTS: You have reached your unauthenticated
     pull rate limit. https://www.docker.com/increase-rate-limit'
   '9.9': 'crane digest solr:9.9: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '9.10': 'crane digest solr:9.10: TOOMANYREQUESTS: You have reached your unauthenticated
     pull rate limit. https://www.docker.com/increase-rate-limit'
 aliases:
   post: /opt/solr/bin/post
