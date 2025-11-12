@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/loomxpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for loomxpy
+latest:
+  0.4.2--pyhdfd78af_0: 
+    sha256:f47d1c25be116941c07b317ec72903fbf172342bf8798e2dd1636c16e335c72e
+tags:
+  0.4.2--pyhdfd78af_0: 
+    sha256:f47d1c25be116941c07b317ec72903fbf172342bf8798e2dd1636c16e335c72e
+docker: quay.io/biocontainers/loomxpy
+aliases:
+  arboreto_with_multiprocessing.py: 
+    /usr/local/bin/arboreto_with_multiprocessing.py
+  csv2loom: /usr/local/bin/csv2loom
+  db2feather: /usr/local/bin/db2feather
+  gmt2regions: /usr/local/bin/gmt2regions
+  invertdb: /usr/local/bin/invertdb
+  loomxpy: /usr/local/bin/loomxpy
+  pyscenic: /usr/local/bin/pyscenic
+  loompy: /usr/local/bin/loompy
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  h2benchmark: /usr/local/bin/h2benchmark
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  get_gprof: /usr/local/bin/get_gprof
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastishadow: /usr/local/bin/elastishadow
+  dask: /usr/local/bin/dask
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  h5fuse: /usr/local/bin/h5fuse
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  bokeh: /usr/local/bin/bokeh
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
