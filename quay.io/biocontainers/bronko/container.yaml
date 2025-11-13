@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bronko
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bronko
 latest:
-  0.0.3--h4349ce8_0: 
-    sha256:89f0d5a50e69445254b8d0de16e6b7f04beb470d470ad17d396d32d5694f77e0
+  0.1.0--h4349ce8_0: 
+    sha256:f3251e2d918d6a58adfe315e01cd85c42c6bf1cfa08c882f5e6bb678eda89b79
 tags:
   0.0.3--h4349ce8_0: 
     sha256:89f0d5a50e69445254b8d0de16e6b7f04beb470d470ad17d396d32d5694f77e0
+  0.1.0--h4349ce8_0: 
+    sha256:f3251e2d918d6a58adfe315e01cd85c42c6bf1cfa08c882f5e6bb678eda89b79
 docker: quay.io/biocontainers/bronko
 aliases:
   bronko: /usr/local/bin/bronko

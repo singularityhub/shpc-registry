@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   submission-excel2xml
 latest:
-  3.5--hdfd78af_0: 
-    sha256:d6a9d774234ebf050616233f015de4c69869b22277322cdd4ef837752c93477c
+  3.6.2--hdfd78af_0: 
+    sha256:13ec1a6fffb14170c752f5b839766be43314fec96ac9f99bea368f2dac222885
 tags:
   2.0.0--hf0b54c8_0: 
     sha256:8ffffb5c7df8e42f9b2ae583325e0e7619a7b8354f7434d4624560c10dd3bd07
@@ -28,6 +28,8 @@ tags:
     sha256:d9dd10d3c907e906de991f3a8cffbb7ec9545de314b312232271574db5d9ccc3
   3.5--hdfd78af_0: 
     sha256:d6a9d774234ebf050616233f015de4c69869b22277322cdd4ef837752c93477c
+  3.6.2--hdfd78af_0: 
+    sha256:13ec1a6fffb14170c752f5b839766be43314fec96ac9f99bea368f2dac222885
 docker: quay.io/biocontainers/submission-excel2xml
 aliases:
   addr2line: /usr/local/bin/addr2line

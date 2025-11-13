@@ -11,6 +11,8 @@ tags:
     sha256:dd0b35a792afb005a99540d713a5df07ee7de1a8b7ef4722214128a36ae2b9e4
   2.2--h9948957_6: 
     sha256:dfe4c40a4833449eaaada9929409e3eadff17da17d31102260791c68c3a80f6f
+  2.2--h9948957_7: 
+    sha256:aeaf89a993c9b99d876be7502d1c3910bfe3a9e1248bba43784c022ce52ded21
 docker: quay.io/biocontainers/bamcmp
 aliases:
   bamcmp: /usr/local/bin/bamcmp

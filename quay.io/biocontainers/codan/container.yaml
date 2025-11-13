@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/codan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for codan
 latest:
-  1.2--h9ee0642_0: 
-    sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b
+  1.2--hdfd78af_1: 
+    sha256:483b9ededc5d85912db535da82cd1b5a75eb762e19bcfea65b8d14dcd6f53145
 tags:
   1.2--h9ee0642_0: 
     sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b
+  1.2--hdfd78af_1: 
+    sha256:483b9ededc5d85912db535da82cd1b5a75eb762e19bcfea65b8d14dcd6f53145
 docker: quay.io/biocontainers/codan
 aliases:
   codan.py: /usr/local/bin/codan.py

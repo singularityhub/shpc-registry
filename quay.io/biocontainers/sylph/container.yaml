@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sylph
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sylph
 latest:
-  0.8.1--ha6fb395_0: 
-    sha256:45dceee15ba690023312509b1947d7e194af84f76c726da63d78ec15892da284
+  0.9.0--ha6fb395_0: 
+    sha256:a938d5cdc77457d084b4689e9d9d2fa7791e8d7a0e209c76e9909b85bc6f2c15
 tags:
   0.0.2--h4ac6f70_0: 
     sha256:e6fa763794572d58c513e5111e11c9950003ce74b35bb321a90b89c321acd37c
@@ -33,6 +33,8 @@ tags:
     sha256:b59b6fd4707351a0c392bd6178ab89430e4fd889f708b1b8d1f0fba25419bea5
   0.8.1--ha6fb395_0: 
     sha256:45dceee15ba690023312509b1947d7e194af84f76c726da63d78ec15892da284
+  0.9.0--ha6fb395_0: 
+    sha256:a938d5cdc77457d084b4689e9d9d2fa7791e8d7a0e209c76e9909b85bc6f2c15
 docker: quay.io/biocontainers/sylph
 aliases:
   sylph: /usr/local/bin/sylph

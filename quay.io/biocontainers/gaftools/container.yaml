@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gaftools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gaftools
 latest:
-  1.2.1--pyhdfd78af_0: 
-    sha256:b703b0b30c644b5a5eab1cf960265b276a774534293f4da0b29ee26ea6e50f5a
+  1.3.0--pyhdfd78af_0: 
+    sha256:6fe920e1ee21b931fbc9ea67a042c8b1ac7dbef761b0c569df348e93725a99f0
 tags:
   1.1.1--pyhdfd78af_0: 
     sha256:84db7821dfb33fe732fb3d7a9423fe64aff8013bf8f1eb79bfcc0a3b21549402
@@ -13,6 +13,8 @@ tags:
     sha256:2888d7dd35bec0a3b5d05a7e2f9aa370548b31e27a337b3ce191b133121d1dbb
   1.2.1--pyhdfd78af_0: 
     sha256:b703b0b30c644b5a5eab1cf960265b276a774534293f4da0b29ee26ea6e50f5a
+  1.3.0--pyhdfd78af_0: 
+    sha256:6fe920e1ee21b931fbc9ea67a042c8b1ac7dbef761b0c569df348e93725a99f0
 docker: quay.io/biocontainers/gaftools
 aliases:
   gaftools: /usr/local/bin/gaftools

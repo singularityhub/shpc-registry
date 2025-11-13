@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/aardvark
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aardvark
 latest:
-  0.8.1--h4349ce8_1: 
-    sha256:d031876c6627c068d893a5e32120cba48fe7f50e928850049cbe8cb6af7a0705
+  0.9.0--h4349ce8_0: 
+    sha256:3bba494689e67e7596be913cc240eb6523b1bd080e28de0afaf461665ec5784c
 tags:
   0.7.3--h4349ce8_0: 
     sha256:bcac1d1cdd20da85b3d71aecb4349273879024cde2c57ec83ed4ee688bd13b52
@@ -13,6 +13,8 @@ tags:
     sha256:1e0b5a564ddc66895b9204233c8abd5ee63d263107aaf689f4a7521de2010797
   0.8.1--h4349ce8_1: 
     sha256:d031876c6627c068d893a5e32120cba48fe7f50e928850049cbe8cb6af7a0705
+  0.9.0--h4349ce8_0: 
+    sha256:3bba494689e67e7596be913cc240eb6523b1bd080e28de0afaf461665ec5784c
 docker: quay.io/biocontainers/aardvark
 aliases:
   aardvark: /usr/local/bin/aardvark
