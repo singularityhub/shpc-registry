@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/checkatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkatlas/container.yaml"
-updated_at: "2025-11-12 03:41:41.537968"
-latest: "0.6.0--pyhdfd78af_0"
+updated_at: "2025-11-13 03:43:54.140079"
+latest: "0.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkatlas"
 aliases:
  - "checkatlas"
@@ -51,8 +51,9 @@ versions:
  - "0.4.17--pyhdfd78af_0"
  - "0.5.6--pyhdfd78af_0"
  - "0.6.0--pyhdfd78af_0"
+ - "0.7.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for checkatlas"
-config: {"url": "https://biocontainers.pro/tools/checkatlas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for checkatlas", "latest": {"0.6.0--pyhdfd78af_0": "sha256:08a8328a5c1cc68878511e539323eb5562f9b3d26aa0f4894bd28be77a400755"}, "tags": {"0.4.2--pyhdfd78af_0": "sha256:36e53f3615f7a959d69f702f1bee3e73a1d6566df1f103590bc2fab82c9861ee", "0.4.17--pyhdfd78af_0": "sha256:dc1937c4b26f162b0c175a5564445b534b24ad7db7d0b2a17459d32ff2f88588", "0.5.6--pyhdfd78af_0": "sha256:e9771277362c31f690ac0f7efb067853214d0c500d69bbec4e033e275c81cc17", "0.6.0--pyhdfd78af_0": "sha256:08a8328a5c1cc68878511e539323eb5562f9b3d26aa0f4894bd28be77a400755"}, "docker": "quay.io/biocontainers/checkatlas", "aliases": {"checkatlas": "/usr/local/bin/checkatlas", "checkatlas-workflow": "/usr/local/bin/checkatlas-workflow", "dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "rocm-smi": "/usr/local/bin/rocm-smi", "virtualenv": "/usr/local/bin/virtualenv", "h5delete": "/usr/local/bin/h5delete", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "doesitcache": "/usr/local/bin/doesitcache", "aec": "/usr/local/bin/aec", "pycc": "/usr/local/bin/pycc", "hb-info": "/usr/local/bin/hb-info", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "tjbench": "/usr/local/bin/tjbench", "jsonschema": "/usr/local/bin/jsonschema", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets"}}
+config: {"url": "https://biocontainers.pro/tools/checkatlas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for checkatlas", "latest": {"0.7.1--pyhdfd78af_0": "sha256:149e59fcf3d9bfe78601515cba02fc2057b1a4d3f34136f5cdcc57c9938edf0a"}, "tags": {"0.4.2--pyhdfd78af_0": "sha256:36e53f3615f7a959d69f702f1bee3e73a1d6566df1f103590bc2fab82c9861ee", "0.4.17--pyhdfd78af_0": "sha256:dc1937c4b26f162b0c175a5564445b534b24ad7db7d0b2a17459d32ff2f88588", "0.5.6--pyhdfd78af_0": "sha256:e9771277362c31f690ac0f7efb067853214d0c500d69bbec4e033e275c81cc17", "0.6.0--pyhdfd78af_0": "sha256:08a8328a5c1cc68878511e539323eb5562f9b3d26aa0f4894bd28be77a400755", "0.7.1--pyhdfd78af_0": "sha256:149e59fcf3d9bfe78601515cba02fc2057b1a4d3f34136f5cdcc57c9938edf0a"}, "docker": "quay.io/biocontainers/checkatlas", "aliases": {"checkatlas": "/usr/local/bin/checkatlas", "checkatlas-workflow": "/usr/local/bin/checkatlas-workflow", "dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "rocm-smi": "/usr/local/bin/rocm-smi", "virtualenv": "/usr/local/bin/virtualenv", "h5delete": "/usr/local/bin/h5delete", "scanpy": "/usr/local/bin/scanpy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "doesitcache": "/usr/local/bin/doesitcache", "aec": "/usr/local/bin/aec", "pycc": "/usr/local/bin/pycc", "hb-info": "/usr/local/bin/hb-info", "numba": "/usr/local/bin/numba", "natsort": "/usr/local/bin/natsort", "tjbench": "/usr/local/bin/tjbench", "jsonschema": "/usr/local/bin/jsonschema", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/checkatlas.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/checkatlas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/checkatlas:0.6.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/checkatlas:0.7.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/checkatlas/0.6.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/checkatlas/0.6.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/checkatlas/0.7.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/checkatlas/0.7.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

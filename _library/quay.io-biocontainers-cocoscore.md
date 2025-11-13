@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cocoscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cocoscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cocoscore/container.yaml"
-updated_at: "2025-11-12 03:33:56.113145"
-latest: "1.0.0--py_0"
+updated_at: "2025-11-13 03:36:05.414689"
+latest: "1.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cocoscore"
 aliases:
  - "fasttext"
@@ -21,8 +21,9 @@ aliases:
  - "glacier"
 versions:
  - "1.0.0--py_0"
+ - "1.0.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for cocoscore"
-config: {"url": "https://biocontainers.pro/tools/cocoscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cocoscore", "latest": {"1.0.0--py_0": "sha256:21027e006cf4c4d407327e9c29881a0dd5bc193d988da03a4846caef06ff5569"}, "tags": {"1.0.0--py_0": "sha256:21027e006cf4c4d407327e9c29881a0dd5bc193d988da03a4846caef06ff5569"}, "docker": "quay.io/biocontainers/cocoscore", "aliases": {"fasttext": "/usr/local/bin/fasttext", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/cocoscore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cocoscore", "latest": {"1.0.0--pyhdfd78af_1": "sha256:b0f46a00a5a992a344c8f0f16f20dfcf1734342e80fc56578b370bd83d68e7cb"}, "tags": {"1.0.0--py_0": "sha256:21027e006cf4c4d407327e9c29881a0dd5bc193d988da03a4846caef06ff5569", "1.0.0--pyhdfd78af_1": "sha256:b0f46a00a5a992a344c8f0f16f20dfcf1734342e80fc56578b370bd83d68e7cb"}, "docker": "quay.io/biocontainers/cocoscore", "aliases": {"fasttext": "/usr/local/bin/fasttext", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cocoscore.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/cocoscore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cocoscore:1.0.0--py_0
+$ shpc install quay.io/biocontainers/cocoscore:1.0.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cocoscore/1.0.0--py_0
-$ module help quay.io/biocontainers/cocoscore/1.0.0--py_0
+$ module load quay.io/biocontainers/cocoscore/1.0.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/cocoscore/1.0.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

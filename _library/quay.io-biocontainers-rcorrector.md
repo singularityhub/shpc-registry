@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rcorrector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rcorrector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rcorrector/container.yaml"
-updated_at: "2025-11-12 03:38:48.146767"
+updated_at: "2025-11-13 03:41:00.323163"
 latest: "1.0.7--pl5321h5ca1c30_2"
 container_url: "https://biocontainers.pro/tools/rcorrector"
 aliases:

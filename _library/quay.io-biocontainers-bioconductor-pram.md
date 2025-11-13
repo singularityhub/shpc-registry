@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pram/container.yaml"
-updated_at: "2025-11-12 03:59:05.350905"
+updated_at: "2025-11-13 04:00:55.653989"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pram"
 aliases:

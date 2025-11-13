@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bird_tool_utils_python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bird_tool_utils_python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bird_tool_utils_python/container.yaml"
-updated_at: "2025-11-12 03:32:12.127159"
+updated_at: "2025-11-13 03:34:20.083582"
 latest: "0.6.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/bird_tool_utils_python"
 aliases:

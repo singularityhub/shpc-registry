@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-buscorrect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-buscorrect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-buscorrect/container.yaml"
-updated_at: "2025-11-12 03:40:54.606681"
+updated_at: "2025-11-13 03:43:07.145164"
 latest: "1.24.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-buscorrect"
 aliases:

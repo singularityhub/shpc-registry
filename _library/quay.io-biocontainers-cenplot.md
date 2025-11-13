@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cenplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cenplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cenplot/container.yaml"
-updated_at: "2025-11-12 04:01:04.789129"
+updated_at: "2025-11-13 04:03:04.760036"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cenplot"
 aliases:

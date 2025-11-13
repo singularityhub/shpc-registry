@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcistarget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcistarget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcistarget/container.yaml"
-updated_at: "2025-11-12 03:57:36.395435"
+updated_at: "2025-11-13 03:59:25.192608"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcistarget"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-basicauth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-basicauth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-basicauth/container.yaml"
-updated_at: "2025-11-12 04:01:08.440009"
+updated_at: "2025-11-13 04:03:08.503803"
 latest: "0.2.0--py36_0"
 container_url: "https://biocontainers.pro/tools/flask-basicauth"
 aliases:

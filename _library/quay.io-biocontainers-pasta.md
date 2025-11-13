@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pasta/container.yaml"
-updated_at: "2025-11-12 03:48:13.147801"
+updated_at: "2025-11-13 03:50:17.715213"
 latest: "1.9.3--py312hccd54bf_0"
 container_url: "https://biocontainers.pro/tools/pasta"
 aliases:
