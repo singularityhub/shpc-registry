@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/codan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codan/container.yaml"
-updated_at: "2025-11-13 03:25:24.269865"
-latest: "1.2--h9ee0642_0"
+updated_at: "2025-11-14 03:24:06.503555"
+latest: "1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/codan"
 aliases:
  - "codan.py"
@@ -24,8 +24,9 @@ aliases:
  - "bp_blast2tree.pl"
 versions:
  - "1.2--h9ee0642_0"
+ - "1.2--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for codan"
-config: {"url": "https://biocontainers.pro/tools/codan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codan", "latest": {"1.2--h9ee0642_0": "sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b"}, "tags": {"1.2--h9ee0642_0": "sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b"}, "docker": "quay.io/biocontainers/codan", "aliases": {"codan.py": "/usr/local/bin/codan.py", "fasta_to_tops": "/usr/local/bin/fasta_to_tops", "predict": "/usr/local/bin/predict", "tops-viterbi_decoding": "/usr/local/bin/tops-viterbi_decoding", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl"}}
+config: {"url": "https://biocontainers.pro/tools/codan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codan", "latest": {"1.2--hdfd78af_1": "sha256:483b9ededc5d85912db535da82cd1b5a75eb762e19bcfea65b8d14dcd6f53145"}, "tags": {"1.2--h9ee0642_0": "sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b", "1.2--hdfd78af_1": "sha256:483b9ededc5d85912db535da82cd1b5a75eb762e19bcfea65b8d14dcd6f53145"}, "docker": "quay.io/biocontainers/codan", "aliases": {"codan.py": "/usr/local/bin/codan.py", "fasta_to_tops": "/usr/local/bin/fasta_to_tops", "predict": "/usr/local/bin/predict", "tops-viterbi_decoding": "/usr/local/bin/tops-viterbi_decoding", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/codan.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/codan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/codan:1.2--h9ee0642_0
+$ shpc install quay.io/biocontainers/codan:1.2--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/codan/1.2--h9ee0642_0
-$ module help quay.io/biocontainers/codan/1.2--h9ee0642_0
+$ module load quay.io/biocontainers/codan/1.2--hdfd78af_1
+$ module help quay.io/biocontainers/codan/1.2--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

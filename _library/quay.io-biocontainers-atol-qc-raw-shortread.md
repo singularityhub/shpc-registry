@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/atol-qc-raw-shortread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-qc-raw-shortread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-qc-raw-shortread/container.yaml"
-updated_at: "2025-11-13 03:28:16.896305"
-latest: "0.1.5--pyhdfd78af_0"
+updated_at: "2025-11-14 03:26:58.566747"
+latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-qc-raw-shortread"
 aliases:
  - "atol-qc-raw-shortread"
@@ -40,8 +40,9 @@ aliases:
 versions:
  - "0.1.4--pyhdfd78af_0"
  - "0.1.5--pyhdfd78af_0"
+ - "0.1.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for atol-qc-raw-shortread"
-config: {"url": "https://biocontainers.pro/tools/atol-qc-raw-shortread", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for atol-qc-raw-shortread", "latest": {"0.1.5--pyhdfd78af_0": "sha256:6a0bd0ab6410175b5234d882b5ec6b2d16a147f71c73a495fa20f1d526cc6c84"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:89999f471c257cf6455c2cffe40fd4307eab90e41696843b952467847bfa3b07", "0.1.5--pyhdfd78af_0": "sha256:6a0bd0ab6410175b5234d882b5ec6b2d16a147f71c73a495fa20f1d526cc6c84"}, "docker": "quay.io/biocontainers/atol-qc-raw-shortread", "aliases": {"atol-qc-raw-shortread": "/usr/local/bin/atol-qc-raw-shortread", "jnativescan": "/usr/local/bin/jnativescan", "phc": "/usr/local/bin/phc", "process_step_logs": "/usr/local/bin/process_step_logs", "eido": "/usr/local/bin/eido", "typer": "/usr/local/bin/typer", "kmutate.sh": "/usr/local/bin/kmutate.sh", "ref-cache": "/usr/local/bin/ref-cache", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh"}}
+config: {"url": "https://biocontainers.pro/tools/atol-qc-raw-shortread", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for atol-qc-raw-shortread", "latest": {"0.1.7--pyhdfd78af_0": "sha256:00b38e0a5627384691684cee494a91aec3f693ce0bab19f953de5aba99c8aba7"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:89999f471c257cf6455c2cffe40fd4307eab90e41696843b952467847bfa3b07", "0.1.5--pyhdfd78af_0": "sha256:6a0bd0ab6410175b5234d882b5ec6b2d16a147f71c73a495fa20f1d526cc6c84", "0.1.7--pyhdfd78af_0": "sha256:00b38e0a5627384691684cee494a91aec3f693ce0bab19f953de5aba99c8aba7"}, "docker": "quay.io/biocontainers/atol-qc-raw-shortread", "aliases": {"atol-qc-raw-shortread": "/usr/local/bin/atol-qc-raw-shortread", "jnativescan": "/usr/local/bin/jnativescan", "phc": "/usr/local/bin/phc", "process_step_logs": "/usr/local/bin/process_step_logs", "eido": "/usr/local/bin/eido", "typer": "/usr/local/bin/typer", "kmutate.sh": "/usr/local/bin/kmutate.sh", "ref-cache": "/usr/local/bin/ref-cache", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/atol-qc-raw-shortread.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/atol-qc-raw-shortread
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/atol-qc-raw-shortread:0.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/atol-qc-raw-shortread:0.1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/atol-qc-raw-shortread/0.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/atol-qc-raw-shortread/0.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/atol-qc-raw-shortread/0.1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/atol-qc-raw-shortread/0.1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

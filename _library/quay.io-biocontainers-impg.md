@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/impg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/impg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/impg/container.yaml"
-updated_at: "2025-11-13 03:31:02.323986"
-latest: "0.3.2--hdb3fbb7_0"
+updated_at: "2025-11-14 03:29:42.761677"
+latest: "0.3.3--hdb3fbb7_0"
 container_url: "https://biocontainers.pro/tools/impg"
 aliases:
  - "impg"
@@ -17,8 +17,9 @@ versions:
  - "0.2.4--h4349ce8_0"
  - "0.3.1--hdb3fbb7_0"
  - "0.3.2--hdb3fbb7_0"
+ - "0.3.3--hdb3fbb7_0"
 description: "singularity registry hpc automated addition for impg"
-config: {"url": "https://biocontainers.pro/tools/impg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for impg", "latest": {"0.3.2--hdb3fbb7_0": "sha256:a3524e88cef7b157b13973e5497b0d53bf2374ba46e63b69857871a9137a2a90"}, "tags": {"0.2.0--h4349ce8_0": "sha256:6cdafc0ab3c61e21416922011fd5a3a0a4c1d747503bacd3d9f70e6fa99b02ae", "0.2.1--h4349ce8_1": "sha256:45a731507d9680cac61e31f33d479310148c8d3e1e4bc4393e38af3a2f715536", "0.2.2--h4349ce8_0": "sha256:4c19a6002e7cc5b66d61b7bcabff34cfc890662c96ea3be9fb0372eca0854609", "0.2.3--h4349ce8_0": "sha256:24e8904aa2859293cca9e86a94677b574ae9e8cd3d6f8fb28001f8676c4c8696", "0.2.4--h4349ce8_0": "sha256:b127f2217178572093eae767deff34de2c13396ea962d3bfbb0c3776939d087e", "0.3.1--hdb3fbb7_0": "sha256:3d689da8e8a23e85c6003f55014b84958b4bd17ca5372efff36702ae679dc047", "0.3.2--hdb3fbb7_0": "sha256:a3524e88cef7b157b13973e5497b0d53bf2374ba46e63b69857871a9137a2a90"}, "docker": "quay.io/biocontainers/impg", "aliases": {"impg": "/usr/local/bin/impg"}}
+config: {"url": "https://biocontainers.pro/tools/impg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for impg", "latest": {"0.3.3--hdb3fbb7_0": "sha256:7eb0189e6ad83dd172793d99d3e5fd9e884ef8ecf63d1f8ff3c4fb17c947065b"}, "tags": {"0.2.0--h4349ce8_0": "sha256:6cdafc0ab3c61e21416922011fd5a3a0a4c1d747503bacd3d9f70e6fa99b02ae", "0.2.1--h4349ce8_1": "sha256:45a731507d9680cac61e31f33d479310148c8d3e1e4bc4393e38af3a2f715536", "0.2.2--h4349ce8_0": "sha256:4c19a6002e7cc5b66d61b7bcabff34cfc890662c96ea3be9fb0372eca0854609", "0.2.3--h4349ce8_0": "sha256:24e8904aa2859293cca9e86a94677b574ae9e8cd3d6f8fb28001f8676c4c8696", "0.2.4--h4349ce8_0": "sha256:b127f2217178572093eae767deff34de2c13396ea962d3bfbb0c3776939d087e", "0.3.1--hdb3fbb7_0": "sha256:3d689da8e8a23e85c6003f55014b84958b4bd17ca5372efff36702ae679dc047", "0.3.2--hdb3fbb7_0": "sha256:a3524e88cef7b157b13973e5497b0d53bf2374ba46e63b69857871a9137a2a90", "0.3.3--hdb3fbb7_0": "sha256:7eb0189e6ad83dd172793d99d3e5fd9e884ef8ecf63d1f8ff3c4fb17c947065b"}, "docker": "quay.io/biocontainers/impg", "aliases": {"impg": "/usr/local/bin/impg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/impg.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/impg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/impg:0.3.2--hdb3fbb7_0
+$ shpc install quay.io/biocontainers/impg:0.3.3--hdb3fbb7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/impg/0.3.2--hdb3fbb7_0
-$ module help quay.io/biocontainers/impg/0.3.2--hdb3fbb7_0
+$ module load quay.io/biocontainers/impg/0.3.3--hdb3fbb7_0
+$ module help quay.io/biocontainers/impg/0.3.3--hdb3fbb7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

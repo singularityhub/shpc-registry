@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bronko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bronko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bronko/container.yaml"
-updated_at: "2025-11-13 04:00:30.716954"
-latest: "0.0.3--h4349ce8_0"
+updated_at: "2025-11-14 03:58:59.346857"
+latest: "0.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/bronko"
 aliases:
  - "bronko"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.0.3--h4349ce8_0"
+ - "0.1.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for bronko"
-config: {"url": "https://biocontainers.pro/tools/bronko", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bronko", "latest": {"0.0.3--h4349ce8_0": "sha256:89f0d5a50e69445254b8d0de16e6b7f04beb470d470ad17d396d32d5694f77e0"}, "tags": {"0.0.3--h4349ce8_0": "sha256:89f0d5a50e69445254b8d0de16e6b7f04beb470d470ad17d396d32d5694f77e0"}, "docker": "quay.io/biocontainers/bronko", "aliases": {"bronko": "/usr/local/bin/bronko", "py_kmc_dump.py": "/usr/local/bin/py_kmc_dump.py", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc": "/usr/local/bin/kmc", "kmc_tools": "/usr/local/bin/kmc_tools", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bronko", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bronko", "latest": {"0.1.0--h4349ce8_0": "sha256:f3251e2d918d6a58adfe315e01cd85c42c6bf1cfa08c882f5e6bb678eda89b79"}, "tags": {"0.0.3--h4349ce8_0": "sha256:89f0d5a50e69445254b8d0de16e6b7f04beb470d470ad17d396d32d5694f77e0", "0.1.0--h4349ce8_0": "sha256:f3251e2d918d6a58adfe315e01cd85c42c6bf1cfa08c882f5e6bb678eda89b79"}, "docker": "quay.io/biocontainers/bronko", "aliases": {"bronko": "/usr/local/bin/bronko", "py_kmc_dump.py": "/usr/local/bin/py_kmc_dump.py", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc": "/usr/local/bin/kmc", "kmc_tools": "/usr/local/bin/kmc_tools", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bronko.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bronko
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bronko:0.0.3--h4349ce8_0
+$ shpc install quay.io/biocontainers/bronko:0.1.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bronko/0.0.3--h4349ce8_0
-$ module help quay.io/biocontainers/bronko/0.0.3--h4349ce8_0
+$ module load quay.io/biocontainers/bronko/0.1.0--h4349ce8_0
+$ module help quay.io/biocontainers/bronko/0.1.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
