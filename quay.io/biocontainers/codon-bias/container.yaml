@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/codon-bias
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for codon-bias
+latest:
+  0.3.5--pyhdfd78af_0: 
+    sha256:749c7f9e093f161282915c10bad74e0fb4f1e91d2550a0e960e4dd1aa42ea170
+tags:
+  0.3.5--pyhdfd78af_0: 
+    sha256:749c7f9e093f161282915c10bad74e0fb4f1e91d2550a0e960e4dd1aa42ea170
+docker: quay.io/biocontainers/codon-bias
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  get_gprof: /usr/local/bin/get_gprof
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  numpy-config: /usr/local/bin/numpy-config

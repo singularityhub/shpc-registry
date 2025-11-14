@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/pycistarget
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pycistarget
+latest:
+  1.1--pyhdfd78af_0: 
+    sha256:135b23e5a648aa2f728bfdb416966e077232ec3adc06bb833466714117563d67
+tags:
+  1.1--pyhdfd78af_0: 
+    sha256:135b23e5a648aa2f728bfdb416966e077232ec3adc06bb833466714117563d67
+docker: quay.io/biocontainers/pycistarget
+aliases:
+  pycistarget: /usr/local/bin/pycistarget
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  h2benchmark: /usr/local/bin/h2benchmark
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastishadow: /usr/local/bin/elastishadow
+  h5fuse: /usr/local/bin/h5fuse
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  ipython3: /usr/local/bin/ipython3
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
