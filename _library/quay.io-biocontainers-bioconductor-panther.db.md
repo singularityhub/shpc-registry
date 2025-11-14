@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-panther.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-panther.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-panther.db/container.yaml"
-updated_at: "2025-11-14 03:44:09.087471"
+updated_at: "2025-11-14 05:04:22.806973"
 latest: "1.0.12--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-panther.db"
 aliases:

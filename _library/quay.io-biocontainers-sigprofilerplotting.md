@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sigprofilerplotting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigprofilerplotting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigprofilerplotting/container.yaml"
-updated_at: "2025-11-14 03:30:02.652348"
+updated_at: "2025-11-14 04:49:31.930252"
 latest: "1.4.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sigprofilerplotting"
 aliases:
