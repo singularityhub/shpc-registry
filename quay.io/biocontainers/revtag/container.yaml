@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/revtag
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for revtag
+latest:
+  1.0.0--h3ab6199_0: 
+    sha256:c32da90acadd2f736b5175b53ef6c2c5c14856e529167abf45ebb2c7fd9c3397
+tags:
+  1.0.0--h3ab6199_0: 
+    sha256:c32da90acadd2f736b5175b53ef6c2c5c14856e529167abf45ebb2c7fd9c3397
+docker: quay.io/biocontainers/revtag
+aliases:
+  revtag: /usr/local/bin/revtag
