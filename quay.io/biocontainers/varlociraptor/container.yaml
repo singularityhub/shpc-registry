@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/varlociraptor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for varlociraptor
 latest:
-  8.8.1--ha8ac579_0: 
-    sha256:c83bcd53aabb3b778a8d04464637eb2f98e782418444c50ad39070548154c909
+  8.9.0--ha8ac579_0: 
+    sha256:35b0374aedaad3f6c77f3bbf090fd7fa454f9bde8036ec0d65ed669e98479750
 tags:
   4.1.1--hd302352_0: 
     sha256:9500634306b22a73461702cf1ae68aabc2ad10c51f4661f0f5d99ab8cdb1802c
@@ -35,6 +35,10 @@ tags:
     sha256:a5de492d38dbfc8f334cc90f375f6dc3e8dbe9adc75ffdd833be44c70748f16a
   8.8.1--ha8ac579_0: 
     sha256:c83bcd53aabb3b778a8d04464637eb2f98e782418444c50ad39070548154c909
+  8.9.0--ha8ac579_0: 
+    sha256:35b0374aedaad3f6c77f3bbf090fd7fa454f9bde8036ec0d65ed669e98479750
+  8.8.2--ha8ac579_0: 
+    sha256:0fd1416c2206c4de2d809488e5f09820fe64b9588199c6563553cf1a1db0031d
 docker: quay.io/biocontainers/varlociraptor
 aliases:
   varlociraptor: /usr/local/bin/varlociraptor

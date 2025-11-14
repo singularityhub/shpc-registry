@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: An interpreted, high-level and general-purpose programming 
   language.
 latest:
-  3.15-rc: 
-    sha256:d9b15cb5deadebe89c8801b38cd5a615413ff27b02ca8660d2e46f215e63eae9
+  3.15-rc: 'crane digest python:3.15-rc: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
   3.9.2-alpine: 
     sha256:f046c06388c0721961fe5c9b6184d2f8aeb7eb01b39601babab06cfd975dae01
@@ -23,28 +23,28 @@ tags:
     sha256:3aae21920963df3205fba69826cc07fcf2fad91f9e062add921766b36e89e6e8
   3.10.0a7-alpine: 
     sha256:9b7958e47cd5bd4d092c3b28802493ad1870bce988b2f6ff97f6c81d96fcda80
-  '3.9': sha256:ace56aa808ac8bea1ebbb13b0eb99fb15b135b98ed2a90e6fdeb66aca1ccfd3b
-  '3': sha256:049247cbb7ce998685d780c9d5325781a7429bc6693bbfab86bcb8e36e7a059e
+  '3.9': sha256:da5aee29682d12a6649f51c8d6f15b87deb3e6c524b923c41d0cb3304d07c913
+  '3': sha256:e6b1f7011589cc717a5112e6fdb56217e9e734a57e4cb50216e912b068b392a8
   3.11-rc: 
     sha256:871f5e5c05f66bfa5b22f506a60774dbd45fc65fd309d23e856ab124a7cbb17b
   '3.10': 
-    sha256:2c8b447084a66ca457489f23580a3ed99695aaa88ba4ec381a40afd3d7ef2e68
-  3.12-rc: 
-    sha256:5cd18b1cf43ccc797ec20fadc9f9307bc709b7edca41675ff0c6eafd94479d9d
-  '3.11': 
-    sha256:a2bd92ce584000ca1a93aea40b7afa138171e8e2bfba59d2ac2ac26c44ae6ba4
-  '3.12': 
-    sha256:21d856289d29a2d422292d45e33c8058a7eec64d889769123538e057621b3e52
-  3.13-rc: 
-    sha256:0ef44132d83d097528a8b47bfaedc7d6e1deea69ada0827bf954812454d4ec5f
-  3.14-rc: 
-    sha256:97f66310042cc7cdc56e60b33c7a362f3aafe49185c655e27d66501072af30c2
-  '3.13': 
-    sha256:4889af0e45f04b7c5dd741421a1280919499d38d3125d714b69fa86b23b1052a
-  3.15-rc: 
-    sha256:d9b15cb5deadebe89c8801b38cd5a615413ff27b02ca8660d2e46f215e63eae9
-  '3.14': 
-    sha256:049247cbb7ce998685d780c9d5325781a7429bc6693bbfab86bcb8e36e7a059e
+    sha256:e944d95e7277b5888479cc4bcd6cec63e3128fec9ec4c6ef099be470d89b54d4
+  3.12-rc: 'crane digest python:3.12-rc: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '3.11': 'crane digest python:3.11: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '3.12': 'crane digest python:3.12: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  3.13-rc: 'crane digest python:3.13-rc: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  3.14-rc: 'crane digest python:3.14-rc: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '3.13': 'crane digest python:3.13: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  3.15-rc: 'crane digest python:3.15-rc: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '3.14': 'crane digest python:3.14: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
 filter:
 - 3[.]*
 - ^(?!.*alpine).*$

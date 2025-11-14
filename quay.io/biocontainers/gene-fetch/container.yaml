@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gene-fetch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gene-fetch
 latest:
-  1.0.17--pyhdfd78af_0: 
-    sha256:f49c302ca33c9382931a4ad605814257d08f7a25cb507fb38e426fa0e16eba3c
+  1.0.18--pyhdfd78af_0: 
+    sha256:29fa2aab733bbcc7288a72b180dcadacb8199081701fc8cb43ceddd5a7dd40ad
 tags:
   1.0.11--pyh7e72e81_0: 
     sha256:af4403a41ff513ce177292f0845abf0371948dec425bbdde42f12227cbb8dc84
@@ -13,6 +13,8 @@ tags:
     sha256:ded99c7bdbb9cfebb621bd8942747927caeffe100feb3e43fe32500212b06c7e
   1.0.17--pyhdfd78af_0: 
     sha256:f49c302ca33c9382931a4ad605814257d08f7a25cb507fb38e426fa0e16eba3c
+  1.0.18--pyhdfd78af_0: 
+    sha256:29fa2aab733bbcc7288a72b180dcadacb8199081701fc8cb43ceddd5a7dd40ad
 docker: quay.io/biocontainers/gene-fetch
 aliases:
   gene-fetch: /usr/local/bin/gene-fetch

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/nwkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nwkit
 latest:
-  0.17.2--pyhdfd78af_0: 
-    sha256:3422279958d34579db0306d8c4a7738234ad2bb802dc54ce8e71cad01dea7a45
+  0.18.2--pyhdfd78af_0: 
+    sha256:3f8e848459ad6a8a362176b7cce2a4289a488d115cce0c559ce8dac9dff1494e
 tags:
   0.17.2--pyhdfd78af_0: 
     sha256:3422279958d34579db0306d8c4a7738234ad2bb802dc54ce8e71cad01dea7a45
+  0.18.2--pyhdfd78af_0: 
+    sha256:3f8e848459ad6a8a362176b7cce2a4289a488d115cce0c559ce8dac9dff1494e
 docker: quay.io/biocontainers/nwkit
 aliases:
   nwkit: /usr/local/bin/nwkit
