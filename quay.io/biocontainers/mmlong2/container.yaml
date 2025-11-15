@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mmlong2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mmlong2
 latest:
-  1.1.0--hdfd78af_0: 
-    sha256:85cc7da31da607f38fa6e2bb645b72a37bffff4d3ac600c29811539a80c7cc92
+  1.2.1--hdfd78af_1: 
+    sha256:46e697587bb35dbbafa4630cb970b2cc1315d6e17893b877117754dedef06854
 tags:
   1.1.0--hdfd78af_0: 
     sha256:85cc7da31da607f38fa6e2bb645b72a37bffff4d3ac600c29811539a80c7cc92
+  1.2.1--hdfd78af_1: 
+    sha256:46e697587bb35dbbafa4630cb970b2cc1315d6e17893b877117754dedef06854
 docker: quay.io/biocontainers/mmlong2
 aliases:
   amr_report: /usr/local/bin/amr_report

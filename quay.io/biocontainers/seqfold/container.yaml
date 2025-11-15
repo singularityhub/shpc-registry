@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/seqfold
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seqfold
 latest:
-  0.7.17--pyhdfd78af_0: 
-    sha256:a4a58f46c9f6ff9a0ea36bab8cfd6809d2b5ac115f7d94ac99a328c5b52b9671
+  0.9.0--pyhdfd78af_0: 
+    sha256:51aceef14d254dd488d9c59f707a1877c0c298cf153a28c6b93d6dc8a2ea17b7
 tags:
   0.7.17--pyhdfd78af_0: 
     sha256:a4a58f46c9f6ff9a0ea36bab8cfd6809d2b5ac115f7d94ac99a328c5b52b9671
+  0.9.0--pyhdfd78af_0: 
+    sha256:51aceef14d254dd488d9c59f707a1877c0c298cf153a28c6b93d6dc8a2ea17b7
 docker: quay.io/biocontainers/seqfold
 aliases:
   seqfold: /usr/local/bin/seqfold
