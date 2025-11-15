@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-stag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-stag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-stag/container.yaml"
-updated_at: "2025-11-14 05:19:23.308630"
+updated_at: "2025-11-15 03:54:11.427579"
 latest: "0.14--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-data-stag"
 aliases:

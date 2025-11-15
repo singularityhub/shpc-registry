@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cressent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cressent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cressent/container.yaml"
-updated_at: "2025-11-14 05:17:22.624451"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2025-11-15 03:52:10.187208"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cressent"
 aliases:
  - "bed2fasta"
@@ -62,8 +62,9 @@ aliases:
  - "fasta-hamming-enrich"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cressent"
-config: {"url": "https://biocontainers.pro/tools/cressent", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cressent", "latest": {"1.0.0--pyhdfd78af_0": "sha256:2bf6ecf5f918f9a1c18b3f2f37a440a0624246e14617b09efc2692c7af0a653c"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:2bf6ecf5f918f9a1c18b3f2f37a440a0624246e14617b09efc2692c7af0a653c"}, "docker": "quay.io/biocontainers/cressent", "aliases": {"bed2fasta": "/usr/local/bin/bed2fasta", "centrimo-plots": "/usr/local/bin/centrimo-plots", "cressent": "/usr/local/bin/cressent", "derangement": "/usr/local/bin/derangement", "dtc": "/usr/local/bin/dtc", "fasta-file-indexer": "/usr/local/bin/fasta-file-indexer", "fasta-holdout-set": "/usr/local/bin/fasta-holdout-set", "fasta-re-match": "/usr/local/bin/fasta-re-match", "iqtree3": "/usr/local/bin/iqtree3", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "prosite2meme": "/usr/local/bin/prosite2meme", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "sea": "/usr/local/bin/sea", "simplepp": "/usr/local/bin/simplepp", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "tgene": "/usr/local/bin/tgene", "tts": "/usr/local/bin/tts", "xstreme": "/usr/local/bin/xstreme", "xstreme_html_to_tsv": "/usr/local/bin/xstreme_html_to_tsv", "corepack": "/usr/local/bin/corepack", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip", "compute-prior-dist": "/usr/local/bin/compute-prior-dist", "compute-uniform-priors": "/usr/local/bin/compute-uniform-priors", "create-priors": "/usr/local/bin/create-priors", "dreme": "/usr/local/bin/dreme", "dreme_xml_to_html": "/usr/local/bin/dreme_xml_to_html", "dreme_xml_to_txt": "/usr/local/bin/dreme_xml_to_txt", "dust": "/usr/local/bin/dust", "elm2meme": "/usr/local/bin/elm2meme", "fasta-center": "/usr/local/bin/fasta-center", "fasta-dinucleotide-shuffle": "/usr/local/bin/fasta-dinucleotide-shuffle", "fasta-fetch": "/usr/local/bin/fasta-fetch", "fasta-get-markov": "/usr/local/bin/fasta-get-markov", "fasta-grep": "/usr/local/bin/fasta-grep", "fasta-hamming-enrich": "/usr/local/bin/fasta-hamming-enrich"}}
+config: {"url": "https://biocontainers.pro/tools/cressent", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cressent", "latest": {"1.0.2--pyhdfd78af_0": "sha256:575ca47d3409e4f18466bbbbdc4ee6ca5131daad734564ef38ba46754619e27f"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:2bf6ecf5f918f9a1c18b3f2f37a440a0624246e14617b09efc2692c7af0a653c", "1.0.2--pyhdfd78af_0": "sha256:575ca47d3409e4f18466bbbbdc4ee6ca5131daad734564ef38ba46754619e27f"}, "docker": "quay.io/biocontainers/cressent", "aliases": {"bed2fasta": "/usr/local/bin/bed2fasta", "centrimo-plots": "/usr/local/bin/centrimo-plots", "cressent": "/usr/local/bin/cressent", "derangement": "/usr/local/bin/derangement", "dtc": "/usr/local/bin/dtc", "fasta-file-indexer": "/usr/local/bin/fasta-file-indexer", "fasta-holdout-set": "/usr/local/bin/fasta-holdout-set", "fasta-re-match": "/usr/local/bin/fasta-re-match", "iqtree3": "/usr/local/bin/iqtree3", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "prosite2meme": "/usr/local/bin/prosite2meme", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "sea": "/usr/local/bin/sea", "simplepp": "/usr/local/bin/simplepp", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "tgene": "/usr/local/bin/tgene", "tts": "/usr/local/bin/tts", "xstreme": "/usr/local/bin/xstreme", "xstreme_html_to_tsv": "/usr/local/bin/xstreme_html_to_tsv", "corepack": "/usr/local/bin/corepack", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip", "compute-prior-dist": "/usr/local/bin/compute-prior-dist", "compute-uniform-priors": "/usr/local/bin/compute-uniform-priors", "create-priors": "/usr/local/bin/create-priors", "dreme": "/usr/local/bin/dreme", "dreme_xml_to_html": "/usr/local/bin/dreme_xml_to_html", "dreme_xml_to_txt": "/usr/local/bin/dreme_xml_to_txt", "dust": "/usr/local/bin/dust", "elm2meme": "/usr/local/bin/elm2meme", "fasta-center": "/usr/local/bin/fasta-center", "fasta-dinucleotide-shuffle": "/usr/local/bin/fasta-dinucleotide-shuffle", "fasta-fetch": "/usr/local/bin/fasta-fetch", "fasta-get-markov": "/usr/local/bin/fasta-get-markov", "fasta-grep": "/usr/local/bin/fasta-grep", "fasta-hamming-enrich": "/usr/local/bin/fasta-hamming-enrich"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cressent.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/cressent
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cressent:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cressent:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cressent/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cressent/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cressent/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/cressent/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

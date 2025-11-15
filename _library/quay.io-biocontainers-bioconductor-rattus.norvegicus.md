@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rattus.norvegicus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rattus.norvegicus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rattus.norvegicus/container.yaml"
-updated_at: "2025-11-14 05:03:47.697327"
+updated_at: "2025-11-15 03:39:01.215935"
 latest: "1.3.1--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-rattus.norvegicus"
 

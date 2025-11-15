@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yame/container.yaml"
-updated_at: "2025-11-14 04:54:47.319874"
+updated_at: "2025-11-15 03:30:06.914718"
 latest: "1.0.5--h96c455f_0"
 container_url: "https://biocontainers.pro/tools/yame"
 aliases:

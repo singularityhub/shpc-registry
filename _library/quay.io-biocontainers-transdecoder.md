@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transdecoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transdecoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transdecoder/container.yaml"
-updated_at: "2025-11-14 05:16:54.304200"
+updated_at: "2025-11-15 03:51:41.529928"
 latest: "5.7.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/transdecoder"
 aliases:

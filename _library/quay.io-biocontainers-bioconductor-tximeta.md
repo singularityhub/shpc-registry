@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tximeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tximeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tximeta/container.yaml"
-updated_at: "2025-11-14 05:08:11.780186"
+updated_at: "2025-11-15 03:43:15.557303"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tximeta"
 aliases:

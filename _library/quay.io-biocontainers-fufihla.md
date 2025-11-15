@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fufihla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fufihla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fufihla/container.yaml"
-updated_at: "2025-11-14 04:52:09.962474"
+updated_at: "2025-11-15 03:27:28.639236"
 latest: "0.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fufihla"
 aliases:

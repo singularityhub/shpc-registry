@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wes.1kg.wugsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wes.1kg.wugsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wes.1kg.wugsc/container.yaml"
-updated_at: "2025-11-14 04:52:26.313048"
+updated_at: "2025-11-15 03:27:45.404608"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wes.1kg.wugsc"
 

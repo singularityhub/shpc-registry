@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scdotplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scdotplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scdotplot/container.yaml"
-updated_at: "2025-11-14 05:04:49.660968"
+updated_at: "2025-11-15 03:40:00.796799"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scdotplot"
 aliases:

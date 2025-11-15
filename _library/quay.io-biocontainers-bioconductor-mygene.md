@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mygene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mygene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mygene/container.yaml"
-updated_at: "2025-11-14 04:55:56.974903"
+updated_at: "2025-11-15 03:31:16.541898"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mygene"
 
