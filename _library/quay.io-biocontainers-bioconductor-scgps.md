@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scgps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scgps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scgps/container.yaml"
-updated_at: "2025-11-15 03:38:28.358778"
+updated_at: "2025-11-16 03:47:48.702443"
 latest: "1.20.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scgps"
 

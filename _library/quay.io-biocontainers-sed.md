@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sed/container.yaml"
-updated_at: "2025-11-15 03:55:21.896006"
+updated_at: "2025-11-16 04:04:00.207204"
 latest: "4.8"
 container_url: "https://biocontainers.pro/tools/sed"
 aliases:

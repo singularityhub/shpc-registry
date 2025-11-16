@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqfold/container.yaml"
-updated_at: "2025-11-15 03:21:43.675503"
-latest: "0.7.17--pyhdfd78af_0"
+updated_at: "2025-11-16 03:32:04.054232"
+latest: "0.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqfold"
 aliases:
  - "seqfold"
@@ -17,8 +17,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.7.17--pyhdfd78af_0"
+ - "0.9.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for seqfold"
-config: {"url": "https://biocontainers.pro/tools/seqfold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqfold", "latest": {"0.7.17--pyhdfd78af_0": "sha256:a4a58f46c9f6ff9a0ea36bab8cfd6809d2b5ac115f7d94ac99a328c5b52b9671"}, "tags": {"0.7.17--pyhdfd78af_0": "sha256:a4a58f46c9f6ff9a0ea36bab8cfd6809d2b5ac115f7d94ac99a328c5b52b9671"}, "docker": "quay.io/biocontainers/seqfold", "aliases": {"seqfold": "/usr/local/bin/seqfold", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/seqfold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqfold", "latest": {"0.9.0--pyhdfd78af_0": "sha256:51aceef14d254dd488d9c59f707a1877c0c298cf153a28c6b93d6dc8a2ea17b7"}, "tags": {"0.7.17--pyhdfd78af_0": "sha256:a4a58f46c9f6ff9a0ea36bab8cfd6809d2b5ac115f7d94ac99a328c5b52b9671", "0.9.0--pyhdfd78af_0": "sha256:51aceef14d254dd488d9c59f707a1877c0c298cf153a28c6b93d6dc8a2ea17b7"}, "docker": "quay.io/biocontainers/seqfold", "aliases": {"seqfold": "/usr/local/bin/seqfold", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqfold.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/seqfold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqfold:0.7.17--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/seqfold:0.9.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqfold/0.7.17--pyhdfd78af_0
-$ module help quay.io/biocontainers/seqfold/0.7.17--pyhdfd78af_0
+$ module load quay.io/biocontainers/seqfold/0.9.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/seqfold/0.9.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

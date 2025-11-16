@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/devider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/devider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/devider/container.yaml"
-updated_at: "2025-11-15 03:58:54.029498"
+updated_at: "2025-11-16 04:07:18.795275"
 latest: "0.0.1--ha6fb395_2"
 container_url: "https://biocontainers.pro/tools/devider"
 aliases:

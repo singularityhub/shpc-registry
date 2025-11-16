@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mmlong2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmlong2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmlong2/container.yaml"
-updated_at: "2025-11-15 03:54:24.432581"
-latest: "1.1.0--hdfd78af_0"
+updated_at: "2025-11-16 04:03:04.794968"
+latest: "1.2.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mmlong2"
 aliases:
  - "amr_report"
@@ -75,8 +75,9 @@ aliases:
  - "jsonl2xml"
 versions:
  - "1.1.0--hdfd78af_0"
+ - "1.2.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for mmlong2"
-config: {"url": "https://biocontainers.pro/tools/mmlong2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmlong2", "latest": {"1.1.0--hdfd78af_0": "sha256:85cc7da31da607f38fa6e2bb645b72a37bffff4d3ac600c29811539a80c7cc92"}, "tags": {"1.1.0--hdfd78af_0": "sha256:85cc7da31da607f38fa6e2bb645b72a37bffff4d3ac600c29811539a80c7cc92"}, "docker": "quay.io/biocontainers/mmlong2", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_index": "/usr/local/bin/amrfinder_index", "amrfinder_update": "/usr/local/bin/amrfinder_update", "bsmp2info": "/usr/local/bin/bsmp2info", "cnitool": "/usr/local/bin/cnitool", "dna_mutation": "/usr/local/bin/dna_mutation", "eido": "/usr/local/bin/eido", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "gff_check": "/usr/local/bin/gff_check", "just-top-hits": "/usr/local/bin/just-top-hits", "mksquashfs": "/usr/local/bin/mksquashfs", "mmlong2": "/usr/local/bin/mmlong2", "mmlong2-lite-config.yaml": "/usr/local/bin/mmlong2-lite-config.yaml", "mmlong2-lite.smk": "/usr/local/bin/mmlong2-lite.smk", "mmlong2-proc-config.yaml": "/usr/local/bin/mmlong2-proc-config.yaml", "mmlong2-proc.smk": "/usr/local/bin/mmlong2-proc.smk", "pv": "/usr/local/bin/pv", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "systematic-mutations": "/usr/local/bin/systematic-mutations", "unsquashfs": "/usr/local/bin/unsquashfs", "zenodo_get": "/usr/local/bin/zenodo_get", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges", "gm2segs": "/usr/local/bin/gm2segs", "ini2xml": "/usr/local/bin/ini2xml", "jsonl2xml": "/usr/local/bin/jsonl2xml"}}
+config: {"url": "https://biocontainers.pro/tools/mmlong2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mmlong2", "latest": {"1.2.1--hdfd78af_1": "sha256:46e697587bb35dbbafa4630cb970b2cc1315d6e17893b877117754dedef06854"}, "tags": {"1.1.0--hdfd78af_0": "sha256:85cc7da31da607f38fa6e2bb645b72a37bffff4d3ac600c29811539a80c7cc92", "1.2.1--hdfd78af_1": "sha256:46e697587bb35dbbafa4630cb970b2cc1315d6e17893b877117754dedef06854"}, "docker": "quay.io/biocontainers/mmlong2", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_index": "/usr/local/bin/amrfinder_index", "amrfinder_update": "/usr/local/bin/amrfinder_update", "bsmp2info": "/usr/local/bin/bsmp2info", "cnitool": "/usr/local/bin/cnitool", "dna_mutation": "/usr/local/bin/dna_mutation", "eido": "/usr/local/bin/eido", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "gff_check": "/usr/local/bin/gff_check", "just-top-hits": "/usr/local/bin/just-top-hits", "mksquashfs": "/usr/local/bin/mksquashfs", "mmlong2": "/usr/local/bin/mmlong2", "mmlong2-lite-config.yaml": "/usr/local/bin/mmlong2-lite-config.yaml", "mmlong2-lite.smk": "/usr/local/bin/mmlong2-lite.smk", "mmlong2-proc-config.yaml": "/usr/local/bin/mmlong2-proc-config.yaml", "mmlong2-proc.smk": "/usr/local/bin/mmlong2-proc.smk", "pv": "/usr/local/bin/pv", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "systematic-mutations": "/usr/local/bin/systematic-mutations", "unsquashfs": "/usr/local/bin/unsquashfs", "zenodo_get": "/usr/local/bin/zenodo_get", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa", "gbf2ref": "/usr/local/bin/gbf2ref", "gm2ranges": "/usr/local/bin/gm2ranges", "gm2segs": "/usr/local/bin/gm2segs", "ini2xml": "/usr/local/bin/ini2xml", "jsonl2xml": "/usr/local/bin/jsonl2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mmlong2.
@@ -91,7 +92,7 @@ $ shpc install quay.io/biocontainers/mmlong2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mmlong2:1.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/mmlong2:1.2.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -103,8 +104,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mmlong2/1.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/mmlong2/1.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/mmlong2/1.2.1--hdfd78af_1
+$ module help quay.io/biocontainers/mmlong2/1.2.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
