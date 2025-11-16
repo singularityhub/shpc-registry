@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/stringmeup
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stringmeup
 latest:
-  0.1.4--py_0: 
-    sha256:ed4532481bfb79914905895604d184e77b37025451440d1534b9a49ece1f72e0
+  0.1.5--pyhdfd78af_0: 
+    sha256:0039dd66d60d901eccd50ef2306fb6dba8c82e6d7deaf367b37cf59bc40d2658
 tags:
   0.1.4--py_0: 
     sha256:ed4532481bfb79914905895604d184e77b37025451440d1534b9a49ece1f72e0
+  0.1.5--pyhdfd78af_0: 
+    sha256:0039dd66d60d901eccd50ef2306fb6dba8c82e6d7deaf367b37cf59bc40d2658
 docker: quay.io/biocontainers/stringmeup
 aliases:
   stringmeup: /usr/local/bin/stringmeup

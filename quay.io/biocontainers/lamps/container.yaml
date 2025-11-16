@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/lamps
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lamps
 latest:
-  1.0.3--pyhdfd78af_0: 
-    sha256:d79d0f679dca8ef89fee3c005cd7f3e345bd58fa8a669081eed2f7996d2c13ab
+  1.0.4--pyhdfd78af_0: 
+    sha256:d303cffb64756bbe592a4468d7cb098a77494a6f36d132e57dc38ed559fb7cf6
 tags:
   1.0.3--pyhdfd78af_0: 
     sha256:d79d0f679dca8ef89fee3c005cd7f3e345bd58fa8a669081eed2f7996d2c13ab
+  1.0.4--pyhdfd78af_0: 
+    sha256:d303cffb64756bbe592a4468d7cb098a77494a6f36d132e57dc38ed559fb7cf6
 docker: quay.io/biocontainers/lamps
 aliases:
   android_deploy.py: /usr/local/bin/android_deploy.py

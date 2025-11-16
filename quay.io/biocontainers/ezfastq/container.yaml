@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ezfastq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ezfastq
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:3ba12b080c19b74ad1cd2f410fa7a0a0e6a806836ab85261fbd69804dd146b01
+  0.1.2--pyhdfd78af_0: 
+    sha256:5369beac80b15cd9466ac487bc62460011b8365f2e10c801d31b94bc165d6086
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:3ba12b080c19b74ad1cd2f410fa7a0a0e6a806836ab85261fbd69804dd146b01
+  0.1.2--pyhdfd78af_0: 
+    sha256:5369beac80b15cd9466ac487bc62460011b8365f2e10c801d31b94bc165d6086
 docker: quay.io/biocontainers/ezfastq
 aliases:
   ezfastq: /usr/local/bin/ezfastq
