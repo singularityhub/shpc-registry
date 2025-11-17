@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/art_modern-openmpi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for art_modern-openmpi
+latest:
+  1.2.0--haa063eb_0: 
+    sha256:43b3903bf10542c694a14d2e84ba406199b0fb6da400046b0af5ea07f5eb3332
+tags:
+  1.2.0--haa063eb_0: 
+    sha256:43b3903bf10542c694a14d2e84ba406199b0fb6da400046b0af5ea07f5eb3332
+docker: quay.io/biocontainers/art_modern-openmpi
+aliases:
+  art_modern-mpi: /usr/local/bin/art_modern-mpi
+  art_profile_builder-mpi: /usr/local/bin/art_profile_builder-mpi
+  ref-cache: /usr/local/bin/ref-cache
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server
+  ortecc: /usr/local/bin/ortecc
+  orted: /usr/local/bin/orted
+  orterun: /usr/local/bin/orterun
+  mpiCC: /usr/local/bin/mpiCC

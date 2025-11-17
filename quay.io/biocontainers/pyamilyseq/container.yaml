@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/pyamilyseq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyamilyseq
+latest:
+  1.3.2--pyhdfd78af_0: 
+    sha256:204722a2128f73b80075b22a37a57ec21869f9c6f4255a2eb57004d156731595
+tags:
+  1.3.2--pyhdfd78af_0: 
+    sha256:204722a2128f73b80075b22a37a57ec21869f9c6f4255a2eb57004d156731595
+docker: quay.io/biocontainers/pyamilyseq
+aliases:
+  Group-Extractor: /usr/local/bin/Group-Extractor
+  Group-Splitter: /usr/local/bin/Group-Splitter
+  Group-Summary: /usr/local/bin/Group-Summary
+  PyamilySeq: /usr/local/bin/PyamilySeq
+  Seq-Combiner: /usr/local/bin/Seq-Combiner
+  Seq-Extractor: /usr/local/bin/Seq-Extractor
+  Seq-Finder: /usr/local/bin/Seq-Finder
+  compare-contree-singletrees: /usr/local/bin/compare-contree-singletrees
+  compare-rf: /usr/local/bin/compare-rf
+  compute-singletrees-rf: /usr/local/bin/compute-singletrees-rf
+  group-extractor: /usr/local/bin/group-extractor
+  group-splitter: /usr/local/bin/group-splitter
+  group-summary: /usr/local/bin/group-summary
+  pyamilyseq: /usr/local/bin/pyamilyseq
+  seq-combiner: /usr/local/bin/seq-combiner
+  seq-extractor: /usr/local/bin/seq-extractor
+  seq-finder: /usr/local/bin/seq-finder
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

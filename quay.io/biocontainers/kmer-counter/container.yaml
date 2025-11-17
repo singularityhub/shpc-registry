@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kmer-counter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kmer-counter
+latest:
+  0.1.2--h4349ce8_0: 
+    sha256:b2927b1a68b82182113c60dc64a830b682953c33b56de5a191ad0f285f40aec9
+tags:
+  0.1.2--h4349ce8_0: 
+    sha256:b2927b1a68b82182113c60dc64a830b682953c33b56de5a191ad0f285f40aec9
+docker: quay.io/biocontainers/kmer-counter
+aliases:
+  kmer-counter: /usr/local/bin/kmer-counter

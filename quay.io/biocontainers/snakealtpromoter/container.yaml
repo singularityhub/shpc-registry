@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/snakealtpromoter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snakealtpromoter
+latest:
+  1.0.5--pyhdfd78af_0: 
+    sha256:f263dc9c765a29233afce9507a8a6da81fdd35f1eeb2845c136d7f04ab6fe681
+tags:
+  1.0.5--pyhdfd78af_0: 
+    sha256:f263dc9c765a29233afce9507a8a6da81fdd35f1eeb2845c136d7f04ab6fe681
+docker: quay.io/biocontainers/snakealtpromoter
+aliases:
+  Genomesetup: /usr/local/bin/Genomesetup
+  Snakealtpromoter: /usr/local/bin/Snakealtpromoter
+  phc: /usr/local/bin/phc
+  sap: /usr/local/bin/sap
+  sap-ui: /usr/local/bin/sap-ui
+  streamlit: /usr/local/bin/streamlit
+  streamlit.cmd: /usr/local/bin/streamlit.cmd
+  watchmedo: /usr/local/bin/watchmedo
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  h2benchmark: /usr/local/bin/h2benchmark
+  eido: /usr/local/bin/eido
+  typer: /usr/local/bin/typer
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastishadow: /usr/local/bin/elastishadow
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  yte: /usr/local/bin/yte
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
