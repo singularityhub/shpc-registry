@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bwtk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bwtk
+latest:
+  1.8.1--h9990f68_0: 
+    sha256:0fa18ce25d0b93f877eb02359b616404abaa8319eb900939f87af0d6dc5c3a93
+tags:
+  1.8.1--h9990f68_0: 
+    sha256:0fa18ce25d0b93f877eb02359b616404abaa8319eb900939f87af0d6dc5c3a93
+docker: quay.io/biocontainers/bwtk
+aliases:
+  bwtk: /usr/local/bin/bwtk

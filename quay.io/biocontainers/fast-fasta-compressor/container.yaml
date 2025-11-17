@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/fast-fasta-compressor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  fast-fasta-compressor
+latest:
+  1.0--h9948957_0: 
+    sha256:ce78868d5dbc1d694008335be208aa798c832436e0b5ac2a46449f68d1820128
+tags:
+  1.0--h9948957_0: 
+    sha256:ce78868d5dbc1d694008335be208aa798c832436e0b5ac2a46449f68d1820128
+docker: quay.io/biocontainers/fast-fasta-compressor
+aliases:
+  ffc: /usr/local/bin/ffc

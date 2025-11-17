@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/isoformcheck
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for isoformcheck
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:6e4bd50ae18b618b6c5a98eac72f23c2e529b1630da9ab95e0efd67a141ed1d7
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:6e4bd50ae18b618b6c5a98eac72f23c2e529b1630da9ab95e0efd67a141ed1d7
+docker: quay.io/biocontainers/isoformcheck
+aliases:
+  IsoformCheck: /usr/local/bin/IsoformCheck
+  agc: /usr/local/bin/agc
+  liftoff: /usr/local/bin/liftoff
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  faidx: /usr/local/bin/faidx
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
