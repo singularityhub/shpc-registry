@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-reassemble-bins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-reassemble-bins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-reassemble-bins/container.yaml"
-updated_at: "2025-11-17 03:37:24.326027"
+updated_at: "2025-11-17 04:28:56.783394"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-reassemble-bins"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/odose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/odose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/odose/container.yaml"
-updated_at: "2025-11-17 03:30:02.060589"
+updated_at: "2025-11-17 04:21:24.796269"
 latest: "1.0--py27_0"
 container_url: "https://biocontainers.pro/tools/odose"
 aliases:

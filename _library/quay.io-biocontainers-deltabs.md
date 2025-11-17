@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deltabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deltabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deltabs/container.yaml"
-updated_at: "2025-11-17 03:25:24.773649"
+updated_at: "2025-11-17 04:16:34.907132"
 latest: "0.1--2"
 container_url: "https://biocontainers.pro/tools/deltabs"
 aliases:

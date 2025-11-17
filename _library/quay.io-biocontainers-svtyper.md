@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svtyper/container.yaml"
-updated_at: "2025-11-17 03:52:14.584818"
+updated_at: "2025-11-17 04:44:54.030731"
 latest: "0.7.1--py_0"
 container_url: "https://biocontainers.pro/tools/svtyper"
 aliases:

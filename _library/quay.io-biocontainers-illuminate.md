@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/illuminate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/illuminate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/illuminate/container.yaml"
-updated_at: "2025-11-17 03:56:29.392844"
+updated_at: "2025-11-17 04:49:16.823405"
 latest: "0.6.3--py35_0"
 container_url: "https://biocontainers.pro/tools/illuminate"
 aliases:

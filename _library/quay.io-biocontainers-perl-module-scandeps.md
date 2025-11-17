@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-scandeps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-scandeps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-scandeps/container.yaml"
-updated_at: "2025-11-17 03:33:35.594099"
+updated_at: "2025-11-17 04:25:03.079834"
 latest: "1.37--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-module-scandeps"
 aliases:

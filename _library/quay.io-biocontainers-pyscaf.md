@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyscaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyscaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyscaf/container.yaml"
-updated_at: "2025-11-17 03:42:32.586595"
+updated_at: "2025-11-17 04:34:25.963462"
 latest: "0.12a4--py_3"
 container_url: "https://biocontainers.pro/tools/pyscaf"
 aliases:

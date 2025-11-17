@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/discasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/discasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/discasm/container.yaml"
-updated_at: "2025-11-17 03:37:13.531083"
+updated_at: "2025-11-17 04:28:45.217475"
 latest: "0.1.3--1"
 container_url: "https://biocontainers.pro/tools/discasm"
 aliases:

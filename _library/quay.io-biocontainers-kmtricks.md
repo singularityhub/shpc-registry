@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmtricks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmtricks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmtricks/container.yaml"
-updated_at: "2025-11-17 03:56:16.000779"
+updated_at: "2025-11-17 04:49:03.360517"
 latest: "1.4.0--h8b7377a_0"
 container_url: "https://biocontainers.pro/tools/kmtricks"
 aliases:

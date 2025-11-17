@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virdig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virdig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virdig/container.yaml"
-updated_at: "2025-11-17 03:29:38.147317"
+updated_at: "2025-11-17 04:20:59.780049"
 latest: "1.0.0--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/virdig"
 aliases:

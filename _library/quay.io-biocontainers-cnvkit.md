@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnvkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnvkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnvkit/container.yaml"
-updated_at: "2025-11-17 03:41:29.212326"
+updated_at: "2025-11-17 04:33:18.535021"
 latest: "0.9.12--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cnvkit"
 aliases:
