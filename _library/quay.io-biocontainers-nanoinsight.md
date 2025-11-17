@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoinsight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoinsight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoinsight/container.yaml"
-updated_at: "2025-11-16 03:59:24.161943"
+updated_at: "2025-11-17 03:58:12.014029"
 latest: "0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanoinsight"
 aliases:

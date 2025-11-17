@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-birte"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-birte/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-birte/container.yaml"
-updated_at: "2025-11-16 04:03:09.106267"
+updated_at: "2025-11-17 04:02:09.724768"
 latest: "1.18.0--r351h60f5b57_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-birte"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/stringmeup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stringmeup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stringmeup/container.yaml"
-updated_at: "2025-11-16 03:35:38.939833"
-latest: "0.1.4--py_0"
+updated_at: "2025-11-17 03:33:57.198006"
+latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stringmeup"
 aliases:
  - "stringmeup"
@@ -16,8 +16,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.1.4--py_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for stringmeup"
-config: {"url": "https://biocontainers.pro/tools/stringmeup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stringmeup", "latest": {"0.1.4--py_0": "sha256:ed4532481bfb79914905895604d184e77b37025451440d1534b9a49ece1f72e0"}, "tags": {"0.1.4--py_0": "sha256:ed4532481bfb79914905895604d184e77b37025451440d1534b9a49ece1f72e0"}, "docker": "quay.io/biocontainers/stringmeup", "aliases": {"stringmeup": "/usr/local/bin/stringmeup", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/stringmeup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stringmeup", "latest": {"0.1.5--pyhdfd78af_0": "sha256:0039dd66d60d901eccd50ef2306fb6dba8c82e6d7deaf367b37cf59bc40d2658"}, "tags": {"0.1.4--py_0": "sha256:ed4532481bfb79914905895604d184e77b37025451440d1534b9a49ece1f72e0", "0.1.5--pyhdfd78af_0": "sha256:0039dd66d60d901eccd50ef2306fb6dba8c82e6d7deaf367b37cf59bc40d2658"}, "docker": "quay.io/biocontainers/stringmeup", "aliases": {"stringmeup": "/usr/local/bin/stringmeup", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stringmeup.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/stringmeup
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/stringmeup:0.1.4--py_0
+$ shpc install quay.io/biocontainers/stringmeup:0.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/stringmeup/0.1.4--py_0
-$ module help quay.io/biocontainers/stringmeup/0.1.4--py_0
+$ module load quay.io/biocontainers/stringmeup/0.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/stringmeup/0.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

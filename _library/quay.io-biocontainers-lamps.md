@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lamps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lamps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lamps/container.yaml"
-updated_at: "2025-11-16 03:49:52.915930"
-latest: "1.0.3--pyhdfd78af_0"
+updated_at: "2025-11-17 03:48:25.984887"
+latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lamps"
 aliases:
  - "android_deploy.py"
@@ -77,8 +77,9 @@ aliases:
  - "dbus-test-tool"
 versions:
  - "1.0.3--pyhdfd78af_0"
+ - "1.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for lamps"
-config: {"url": "https://biocontainers.pro/tools/lamps", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lamps", "latest": {"1.0.3--pyhdfd78af_0": "sha256:d79d0f679dca8ef89fee3c005cd7f3e345bd58fa8a669081eed2f7996d2c13ab"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:d79d0f679dca8ef89fee3c005cd7f3e345bd58fa8a669081eed2f7996d2c13ab"}, "docker": "quay.io/biocontainers/lamps", "aliases": {"android_deploy.py": "/usr/local/bin/android_deploy.py", "androiddeployqt6": "/usr/local/bin/androiddeployqt6", "assistant6": "/usr/local/bin/assistant6", "deploy.py": "/usr/local/bin/deploy.py", "designer6": "/usr/local/bin/designer6", "lamp": "/usr/local/bin/lamp", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "linguist6": "/usr/local/bin/linguist6", "metaobjectdump.py": "/usr/local/bin/metaobjectdump.py", "pixeltool6": "/usr/local/bin/pixeltool6", "project.py": "/usr/local/bin/project.py", "pyside6-rcc": "/usr/local/bin/pyside6-rcc", "pyside6-uic": "/usr/local/bin/pyside6-uic", "qdbus6": "/usr/local/bin/qdbus6", "qdbusviewer6": "/usr/local/bin/qdbusviewer6", "qdistancefieldgenerator6": "/usr/local/bin/qdistancefieldgenerator6", "qdoc6": "/usr/local/bin/qdoc6", "qmake6": "/usr/local/bin/qmake6", "qml.py": "/usr/local/bin/qml.py", "qml6": "/usr/local/bin/qml6", "qmleasing6": "/usr/local/bin/qmleasing6", "qmlls6": "/usr/local/bin/qmlls6", "qmlpreview6": "/usr/local/bin/qmlpreview6", "qmlscene6": "/usr/local/bin/qmlscene6", "qt6.conf": "/usr/local/bin/qt6.conf", "qtdiag6": "/usr/local/bin/qtdiag6", "qtplugininfo6": "/usr/local/bin/qtplugininfo6", "qtpy2cpp.py": "/usr/local/bin/qtpy2cpp.py", "requirements-android.txt": "/usr/local/bin/requirements-android.txt", "shiboken6": "/usr/local/bin/shiboken6", "shiboken_tool.py": "/usr/local/bin/shiboken_tool.py", "wayland-scanner": "/usr/local/bin/wayland-scanner", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "runxlrd.py": "/usr/local/bin/runxlrd.py", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "natsort": "/usr/local/bin/natsort", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
+config: {"url": "https://biocontainers.pro/tools/lamps", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lamps", "latest": {"1.0.4--pyhdfd78af_0": "sha256:d303cffb64756bbe592a4468d7cb098a77494a6f36d132e57dc38ed559fb7cf6"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:d79d0f679dca8ef89fee3c005cd7f3e345bd58fa8a669081eed2f7996d2c13ab", "1.0.4--pyhdfd78af_0": "sha256:d303cffb64756bbe592a4468d7cb098a77494a6f36d132e57dc38ed559fb7cf6"}, "docker": "quay.io/biocontainers/lamps", "aliases": {"android_deploy.py": "/usr/local/bin/android_deploy.py", "androiddeployqt6": "/usr/local/bin/androiddeployqt6", "assistant6": "/usr/local/bin/assistant6", "deploy.py": "/usr/local/bin/deploy.py", "designer6": "/usr/local/bin/designer6", "lamp": "/usr/local/bin/lamp", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "linguist6": "/usr/local/bin/linguist6", "metaobjectdump.py": "/usr/local/bin/metaobjectdump.py", "pixeltool6": "/usr/local/bin/pixeltool6", "project.py": "/usr/local/bin/project.py", "pyside6-rcc": "/usr/local/bin/pyside6-rcc", "pyside6-uic": "/usr/local/bin/pyside6-uic", "qdbus6": "/usr/local/bin/qdbus6", "qdbusviewer6": "/usr/local/bin/qdbusviewer6", "qdistancefieldgenerator6": "/usr/local/bin/qdistancefieldgenerator6", "qdoc6": "/usr/local/bin/qdoc6", "qmake6": "/usr/local/bin/qmake6", "qml.py": "/usr/local/bin/qml.py", "qml6": "/usr/local/bin/qml6", "qmleasing6": "/usr/local/bin/qmleasing6", "qmlls6": "/usr/local/bin/qmlls6", "qmlpreview6": "/usr/local/bin/qmlpreview6", "qmlscene6": "/usr/local/bin/qmlscene6", "qt6.conf": "/usr/local/bin/qt6.conf", "qtdiag6": "/usr/local/bin/qtdiag6", "qtplugininfo6": "/usr/local/bin/qtplugininfo6", "qtpy2cpp.py": "/usr/local/bin/qtpy2cpp.py", "requirements-android.txt": "/usr/local/bin/requirements-android.txt", "shiboken6": "/usr/local/bin/shiboken6", "shiboken_tool.py": "/usr/local/bin/shiboken_tool.py", "wayland-scanner": "/usr/local/bin/wayland-scanner", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "runxlrd.py": "/usr/local/bin/runxlrd.py", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "natsort": "/usr/local/bin/natsort", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lamps.
@@ -93,7 +94,7 @@ $ shpc install quay.io/biocontainers/lamps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lamps:1.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/lamps:1.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -105,8 +106,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lamps/1.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/lamps/1.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/lamps/1.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/lamps/1.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

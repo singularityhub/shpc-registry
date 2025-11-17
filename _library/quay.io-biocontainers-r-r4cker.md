@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r4cker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r4cker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r4cker/container.yaml"
-updated_at: "2025-11-16 03:36:06.201159"
+updated_at: "2025-11-17 03:34:25.386837"
 latest: "1.0--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-r4cker"
 aliases:
