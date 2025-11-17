@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/meta-neuro
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for meta-neuro
 latest:
-  2.0.0--py311h62e25fe_0: 
-    sha256:8b3205f49c7484342ad7ff07c3c61c719e995ab3ba2efa318c6ee90c3be0fe2f
+  2.0.1--py313h47f2c4e_0: 
+    sha256:6d02f52a6a3c9bc90dd37461e99c05b8a42186a1850262574d8b9bebdd2c0857
 tags:
   1.0.0--py310haf7471d_0: 
     sha256:2afc7b7dd54d54bf67bd673ee6cbef3b2f38b4311f2e18378d2973341adf725a
@@ -13,6 +13,8 @@ tags:
     sha256:41118c107b4f661314bdc0bf273a2194432896a9972ce31f865797a4eec12593
   2.0.0--py311h62e25fe_0: 
     sha256:8b3205f49c7484342ad7ff07c3c61c719e995ab3ba2efa318c6ee90c3be0fe2f
+  2.0.1--py313h47f2c4e_0: 
+    sha256:6d02f52a6a3c9bc90dd37461e99c05b8a42186a1850262574d8b9bebdd2c0857
 docker: quay.io/biocontainers/meta-neuro
 aliases:
   asn1Coding: /usr/local/bin/asn1Coding

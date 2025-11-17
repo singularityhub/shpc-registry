@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/parnas
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for parnas
 latest:
-  0.1.7--pyhdfd78af_0: 
-    sha256:bdd885fdfbfeac1cfed08f7218033f181985248f4f35eb3b25ce3f167d29f29f
+  0.1.7--pyhdfd78af_1: 
+    sha256:30f7ff30e2166bec866d9e9ef34cc6bba2616a338dded0d3c755e2d269348591
 tags:
   0.1.6--pyhdfd78af_0: 
     sha256:789ac9b584d95b127b3cd00aeb77170356740c0ccd04c2c2c0d70f54460f0504
   0.1.7--pyhdfd78af_0: 
     sha256:bdd885fdfbfeac1cfed08f7218033f181985248f4f35eb3b25ce3f167d29f29f
+  0.1.7--pyhdfd78af_1: 
+    sha256:30f7ff30e2166bec866d9e9ef34cc6bba2616a338dded0d3c755e2d269348591
 docker: quay.io/biocontainers/parnas
 aliases:
   parnas: /usr/local/bin/parnas

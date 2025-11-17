@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/locityper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for locityper
 latest:
-  1.2.0--ha6fb395_0: 
-    sha256:ac762fe218ec221621dd822128cba0c6e9d5bec8f76cffa450ec182ff35e46d7
+  1.2.1--ha6fb395_0: 
+    sha256:d94a8b1c7348245934952bebce89e120bba0dc645371c7b51e967af71e157e33
 tags:
   0.13.4--h919a2d8_0: 
     sha256:3b6d6735d168f151a5e756c026b9441a2408a52bf06e852f8846ce9dfebd766e
@@ -33,6 +33,8 @@ tags:
     sha256:58086634b7afd9a4c5ece477b163df7440182461cd37945973e5750dc34a38e1
   1.2.0--ha6fb395_0: 
     sha256:ac762fe218ec221621dd822128cba0c6e9d5bec8f76cffa450ec182ff35e46d7
+  1.2.1--ha6fb395_0: 
+    sha256:d94a8b1c7348245934952bebce89e120bba0dc645371c7b51e967af71e157e33
 docker: quay.io/biocontainers/locityper
 aliases:
   locityper: /usr/local/bin/locityper

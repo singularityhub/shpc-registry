@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyhmmsearch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyhmmsearch
 latest:
-  2025.9.5--pyh7e72e81_0: 
-    sha256:6e2bff5090173518d5db59e745906b8c11e24dad00c9560a0b398e7da137307b
+  2025.10.23.post1--pyh7e72e81_0: 
+    sha256:175c90d7ceae75d8dba34a7f4eb32b0346b9de604e50f656c71f86f98739ded9
 tags:
   2024.10.20--pyh7e72e81_0: 
     sha256:94883c85ae516ea270416d3265cc89dbb33a617016263538ae6fb55662df636a
@@ -11,6 +11,8 @@ tags:
     sha256:6e2bff5090173518d5db59e745906b8c11e24dad00c9560a0b398e7da137307b
   2025.1.23--pyh7e72e81_0: 
     sha256:a6af2e7f471d631ae72a5520266fd2ade19a2262f86f82447d891e4a0701e1f0
+  2025.10.23.post1--pyh7e72e81_0: 
+    sha256:175c90d7ceae75d8dba34a7f4eb32b0346b9de604e50f656c71f86f98739ded9
 docker: quay.io/biocontainers/pyhmmsearch
 aliases:
   pyhmmsearch: /usr/local/bin/pyhmmsearch
