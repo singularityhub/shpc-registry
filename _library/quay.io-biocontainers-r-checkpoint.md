@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-checkpoint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-checkpoint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-checkpoint/container.yaml"
-updated_at: "2025-11-17 04:11:58.327433"
+updated_at: "2025-11-18 03:16:49.848780"
 latest: "0.4.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-checkpoint"
 aliases:

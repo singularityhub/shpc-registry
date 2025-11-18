@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-svgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-svgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-svgui/container.yaml"
-updated_at: "2025-11-17 04:12:36.916640"
+updated_at: "2025-11-18 03:17:28.821255"
 latest: "0.9_55--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-svgui"
 aliases:

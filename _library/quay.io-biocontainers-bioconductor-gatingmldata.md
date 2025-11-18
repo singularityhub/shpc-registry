@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gatingmldata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gatingmldata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gatingmldata/container.yaml"
-updated_at: "2025-11-17 04:53:47.580075"
+updated_at: "2025-11-18 03:57:41.514517"
 latest: "2.37.1--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gatingmldata"
 

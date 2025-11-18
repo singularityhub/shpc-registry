@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyhmmsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyhmmsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyhmmsearch/container.yaml"
-updated_at: "2025-11-17 04:27:59.924202"
-latest: "2025.9.5--pyh7e72e81_0"
+updated_at: "2025-11-18 03:32:48.356163"
+latest: "2025.10.23.post1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pyhmmsearch"
 aliases:
  - "pyhmmsearch"
@@ -22,8 +22,9 @@ versions:
  - "2024.10.20--pyh7e72e81_0"
  - "2025.9.5--pyh7e72e81_0"
  - "2025.1.23--pyh7e72e81_0"
+ - "2025.10.23.post1--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for pyhmmsearch"
-config: {"url": "https://biocontainers.pro/tools/pyhmmsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyhmmsearch", "latest": {"2025.9.5--pyh7e72e81_0": "sha256:6e2bff5090173518d5db59e745906b8c11e24dad00c9560a0b398e7da137307b"}, "tags": {"2024.10.20--pyh7e72e81_0": "sha256:94883c85ae516ea270416d3265cc89dbb33a617016263538ae6fb55662df636a", "2025.9.5--pyh7e72e81_0": "sha256:6e2bff5090173518d5db59e745906b8c11e24dad00c9560a0b398e7da137307b", "2025.1.23--pyh7e72e81_0": "sha256:a6af2e7f471d631ae72a5520266fd2ade19a2262f86f82447d891e4a0701e1f0"}, "docker": "quay.io/biocontainers/pyhmmsearch", "aliases": {"pyhmmsearch": "/usr/local/bin/pyhmmsearch", "reformat_pyhmmsearch": "/usr/local/bin/reformat_pyhmmsearch", "serialize_hmm_models": "/usr/local/bin/serialize_hmm_models", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/pyhmmsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyhmmsearch", "latest": {"2025.10.23.post1--pyh7e72e81_0": "sha256:175c90d7ceae75d8dba34a7f4eb32b0346b9de604e50f656c71f86f98739ded9"}, "tags": {"2024.10.20--pyh7e72e81_0": "sha256:94883c85ae516ea270416d3265cc89dbb33a617016263538ae6fb55662df636a", "2025.9.5--pyh7e72e81_0": "sha256:6e2bff5090173518d5db59e745906b8c11e24dad00c9560a0b398e7da137307b", "2025.1.23--pyh7e72e81_0": "sha256:a6af2e7f471d631ae72a5520266fd2ade19a2262f86f82447d891e4a0701e1f0", "2025.10.23.post1--pyh7e72e81_0": "sha256:175c90d7ceae75d8dba34a7f4eb32b0346b9de604e50f656c71f86f98739ded9"}, "docker": "quay.io/biocontainers/pyhmmsearch", "aliases": {"pyhmmsearch": "/usr/local/bin/pyhmmsearch", "reformat_pyhmmsearch": "/usr/local/bin/reformat_pyhmmsearch", "serialize_hmm_models": "/usr/local/bin/serialize_hmm_models", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyhmmsearch.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pyhmmsearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyhmmsearch:2025.9.5--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/pyhmmsearch:2025.10.23.post1--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyhmmsearch/2025.9.5--pyh7e72e81_0
-$ module help quay.io/biocontainers/pyhmmsearch/2025.9.5--pyh7e72e81_0
+$ module load quay.io/biocontainers/pyhmmsearch/2025.10.23.post1--pyh7e72e81_0
+$ module help quay.io/biocontainers/pyhmmsearch/2025.10.23.post1--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metagraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagraph/container.yaml"
-updated_at: "2025-11-17 04:19:22.978952"
-latest: "0.4.3--h6959450_0"
+updated_at: "2025-11-18 03:24:06.206356"
+latest: "0.4.5--haea4672_0"
 container_url: "https://biocontainers.pro/tools/metagraph"
 aliases:
  - "metagraph"
@@ -23,8 +23,9 @@ versions:
  - "0.3.6--hf159946_3"
  - "0.3.6--he309521_4"
  - "0.4.3--h6959450_0"
+ - "0.4.5--haea4672_0"
 description: "shpc-registry automated BioContainers addition for metagraph"
-config: {"url": "https://biocontainers.pro/tools/metagraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagraph", "latest": {"0.4.3--h6959450_0": "sha256:2f2be5c1a5230bb6dca6cbe914822591d694719816152cb5e2bd0434deaee460"}, "tags": {"0.3.6--h15c59b9_1": "sha256:38e254af4c68bf6d0a68b45f198e813d3fa2182c870a569631fc5c7912f50914", "0.3.6--ha1a87e0_2": "sha256:542ff7cf6cb69599cddfc7e86c8cd7c44d854dbe07d152b77626f16c40404799", "0.3.6--hf159946_3": "sha256:c6e02d79938a7397ded44be9e39242f85164ae6aef08c87eeac5e609c1e677d6", "0.3.6--he309521_4": "sha256:83eced243a0bada475d1201acc104081459666a16fd3cb43f59b5d18dd204e2d", "0.4.3--h6959450_0": "sha256:2f2be5c1a5230bb6dca6cbe914822591d694719816152cb5e2bd0434deaee460"}, "docker": "quay.io/biocontainers/metagraph", "aliases": {"metagraph": "/usr/local/bin/metagraph", "metagraph_DNA": "/usr/local/bin/metagraph_DNA", "metagraph_Protein": "/usr/local/bin/metagraph_Protein", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/metagraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagraph", "latest": {"0.4.5--haea4672_0": "sha256:928fc8e0f44ccdc45681aa891c518b823d06436a49ed8f3f1ab4b69c323f045d"}, "tags": {"0.3.6--h15c59b9_1": "sha256:38e254af4c68bf6d0a68b45f198e813d3fa2182c870a569631fc5c7912f50914", "0.3.6--ha1a87e0_2": "sha256:542ff7cf6cb69599cddfc7e86c8cd7c44d854dbe07d152b77626f16c40404799", "0.3.6--hf159946_3": "sha256:c6e02d79938a7397ded44be9e39242f85164ae6aef08c87eeac5e609c1e677d6", "0.3.6--he309521_4": "sha256:83eced243a0bada475d1201acc104081459666a16fd3cb43f59b5d18dd204e2d", "0.4.3--h6959450_0": "sha256:2f2be5c1a5230bb6dca6cbe914822591d694719816152cb5e2bd0434deaee460", "0.4.5--haea4672_0": "sha256:928fc8e0f44ccdc45681aa891c518b823d06436a49ed8f3f1ab4b69c323f045d"}, "docker": "quay.io/biocontainers/metagraph", "aliases": {"metagraph": "/usr/local/bin/metagraph", "metagraph_DNA": "/usr/local/bin/metagraph_DNA", "metagraph_Protein": "/usr/local/bin/metagraph_Protein", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metagraph.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/metagraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metagraph:0.4.3--h6959450_0
+$ shpc install quay.io/biocontainers/metagraph:0.4.5--haea4672_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metagraph/0.4.3--h6959450_0
-$ module help quay.io/biocontainers/metagraph/0.4.3--h6959450_0
+$ module load quay.io/biocontainers/metagraph/0.4.5--haea4672_0
+$ module help quay.io/biocontainers/metagraph/0.4.5--haea4672_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
