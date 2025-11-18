@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/shorttracks
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for shorttracks
 latest:
-  1.2--hdfd78af_0: 
-    sha256:b49cb270bd681a9a4e2a975b98bdb02a2b7aeda7d4775fbc6c3cccbd2c2b803b
+  1.3--hdfd78af_0: 
+    sha256:81dc447b31b9aea81de5a44a0cdc20d1b0cab873d6d2ca8304651f86f089f589
 tags:
   0.1--hdfd78af_0: 
     sha256:36a3d5c020c29cf0527bef4d2fa4c2ae7440d56111ae4174a5b9bc222bd625a6
@@ -11,6 +11,8 @@ tags:
     sha256:6ebefe1eb86b55883e8efcb7bbc65e3d32ab92fcf41c99fac72236803956ef13
   1.2--hdfd78af_0: 
     sha256:b49cb270bd681a9a4e2a975b98bdb02a2b7aeda7d4775fbc6c3cccbd2c2b803b
+  1.3--hdfd78af_0: 
+    sha256:81dc447b31b9aea81de5a44a0cdc20d1b0cab873d6d2ca8304651f86f089f589
 docker: quay.io/biocontainers/shorttracks
 aliases:
   ShortTracks: /usr/local/bin/ShortTracks

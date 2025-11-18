@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pbjasmine
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pbjasmine
 latest:
-  2.4.0--h9948957_1: 
-    sha256:5d6c15a9a78a46d366be90810b649159cec85b64baad431b0cae94b697d3d58d
+  2.7.99--h9948957_0: 
+    sha256:173a8ccfba9b11f460a6d232882816b80ef33755aceddb95077da8951f7d9507
 tags:
   2.0.0--h9ee0642_0: 
     sha256:9f3c11eb6b1ecdd813e1eac0ea52b417512cfe79a13bbaa0748c654143c3b853
@@ -11,6 +11,8 @@ tags:
     sha256:445e55300c6793608f8eb5306dbba86a3584faeb1976208209ad79ef0eab3770
   2.4.0--h9948957_1: 
     sha256:5d6c15a9a78a46d366be90810b649159cec85b64baad431b0cae94b697d3d58d
+  2.7.99--h9948957_0: 
+    sha256:173a8ccfba9b11f460a6d232882816b80ef33755aceddb95077da8951f7d9507
 docker: quay.io/biocontainers/pbjasmine
 aliases:
   jasmine: /usr/local/bin/jasmine
