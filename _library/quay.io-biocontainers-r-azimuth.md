@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-azimuth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-azimuth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-azimuth/container.yaml"
-updated_at: "2025-11-18 03:24:53.999666"
+updated_at: "2025-11-19 03:24:41.228863"
 latest: "0.5.0--r44h503566f_2"
 container_url: "https://biocontainers.pro/tools/r-azimuth"
 aliases:

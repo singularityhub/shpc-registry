@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fegenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fegenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fegenie/container.yaml"
-updated_at: "2025-11-18 03:37:15.991877"
+updated_at: "2025-11-19 03:37:20.815223"
 latest: "1.2--py311r40hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/fegenie"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathprintgeodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathprintgeodata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathprintgeodata/container.yaml"
-updated_at: "2025-11-18 04:07:20.142062"
+updated_at: "2025-11-19 04:08:33.264286"
 latest: "1.20.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathprintgeodata"
 aliases:

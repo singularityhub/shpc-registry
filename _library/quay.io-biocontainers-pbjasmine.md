@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pbjasmine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbjasmine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbjasmine/container.yaml"
-updated_at: "2025-11-18 03:16:56.869339"
-latest: "2.4.0--h9948957_1"
+updated_at: "2025-11-19 03:16:31.543975"
+latest: "2.7.99--h9948957_0"
 container_url: "https://biocontainers.pro/tools/pbjasmine"
 aliases:
  - "jasmine"
@@ -13,8 +13,9 @@ versions:
  - "2.0.0--h9ee0642_0"
  - "2.4.0--h4ac6f70_0"
  - "2.4.0--h9948957_1"
+ - "2.7.99--h9948957_0"
 description: "singularity registry hpc automated addition for pbjasmine"
-config: {"url": "https://biocontainers.pro/tools/pbjasmine", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbjasmine", "latest": {"2.4.0--h9948957_1": "sha256:5d6c15a9a78a46d366be90810b649159cec85b64baad431b0cae94b697d3d58d"}, "tags": {"2.0.0--h9ee0642_0": "sha256:9f3c11eb6b1ecdd813e1eac0ea52b417512cfe79a13bbaa0748c654143c3b853", "2.4.0--h4ac6f70_0": "sha256:445e55300c6793608f8eb5306dbba86a3584faeb1976208209ad79ef0eab3770", "2.4.0--h9948957_1": "sha256:5d6c15a9a78a46d366be90810b649159cec85b64baad431b0cae94b697d3d58d"}, "docker": "quay.io/biocontainers/pbjasmine", "aliases": {"jasmine": "/usr/local/bin/jasmine"}}
+config: {"url": "https://biocontainers.pro/tools/pbjasmine", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pbjasmine", "latest": {"2.7.99--h9948957_0": "sha256:173a8ccfba9b11f460a6d232882816b80ef33755aceddb95077da8951f7d9507"}, "tags": {"2.0.0--h9ee0642_0": "sha256:9f3c11eb6b1ecdd813e1eac0ea52b417512cfe79a13bbaa0748c654143c3b853", "2.4.0--h4ac6f70_0": "sha256:445e55300c6793608f8eb5306dbba86a3584faeb1976208209ad79ef0eab3770", "2.4.0--h9948957_1": "sha256:5d6c15a9a78a46d366be90810b649159cec85b64baad431b0cae94b697d3d58d", "2.7.99--h9948957_0": "sha256:173a8ccfba9b11f460a6d232882816b80ef33755aceddb95077da8951f7d9507"}, "docker": "quay.io/biocontainers/pbjasmine", "aliases": {"jasmine": "/usr/local/bin/jasmine"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbjasmine.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/pbjasmine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pbjasmine:2.4.0--h9948957_1
+$ shpc install quay.io/biocontainers/pbjasmine:2.7.99--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pbjasmine/2.4.0--h9948957_1
-$ module help quay.io/biocontainers/pbjasmine/2.4.0--h9948957_1
+$ module load quay.io/biocontainers/pbjasmine/2.7.99--h9948957_0
+$ module help quay.io/biocontainers/pbjasmine/2.7.99--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

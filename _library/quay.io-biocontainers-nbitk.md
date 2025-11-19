@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nbitk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nbitk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nbitk/container.yaml"
-updated_at: "2025-11-18 04:07:42.658501"
-latest: "0.7.2--pyh1f0d9b5_0"
+updated_at: "2025-11-19 04:08:56.599851"
+latest: "0.7.3--pyh1f0d9b5_0"
 container_url: "https://biocontainers.pro/tools/nbitk"
 aliases:
  - "dbicadmin"
@@ -50,8 +50,9 @@ versions:
  - "0.5.12--pyhdfd78af_0"
  - "0.7.2--pyh1f0d9b5_0"
  - "0.6.7--pyh1f0d9b5_0"
+ - "0.7.3--pyh1f0d9b5_0"
 description: "singularity registry hpc automated addition for nbitk"
-config: {"url": "https://biocontainers.pro/tools/nbitk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nbitk", "latest": {"0.7.2--pyh1f0d9b5_0": "sha256:efa1dfa08937b4508104c3151af1067361fc18a19f5e7c7c9135e071201baf8a"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:e20c585af9b573310817d8584e1eec1ef3c91cf2c9a022b65b2bb1de1aec11ef", "0.5.0--pyhdfd78af_0": "sha256:7814fc3683b940785bd488a53f454143eb3a37f34f2e721ba448d4105be98b63", "0.4.0--pyhdfd78af_0": "sha256:21300f75b03a43a5495a1132a5e70f1f9b14d83a4e6c135efd8fc4dc39855389", "0.3.3--pyhdfd78af_0": "sha256:523a62e72c300835ea5dfee1c55b5c16bdb396c6258a220ba70b597d16a83601", "0.5.1--pyhdfd78af_0": "sha256:fb083374e4c5942127f3da2a7c180eabf4852a3034826758718b432de0ac8a4d", "0.5.7--pyhdfd78af_0": "sha256:a3434d58acb24363a663167fa65fa294b6c97e09ce15bd139df023cb15fc6670", "0.5.10--pyhdfd78af_0": "sha256:6af57a3db07be3f21c6142f4aacb4bda886bec51b0549360dbf9e552dc08e68e", "0.6.4--pyh1f0d9b5_0": "sha256:da493b89cfa9cf62ae09896c9a6d8d5015e9ab363a17dbc87b1bcb4bcd233b96", "0.5.12--pyhdfd78af_0": "sha256:ce291fad2b8b7a6bc2d2b901bbf225de8ec7eb3c65951aede24a348e62bcd989", "0.7.2--pyh1f0d9b5_0": "sha256:efa1dfa08937b4508104c3151af1067361fc18a19f5e7c7c9135e071201baf8a", "0.6.7--pyh1f0d9b5_0": "sha256:5336c4e351387cc18d3175f10f7a3938bf938f94a58488fc78e4d1b4057e1465"}, "docker": "quay.io/biocontainers/nbitk", "aliases": {"dbicadmin": "/usr/local/bin/dbicadmin", "megatree-loader": "/usr/local/bin/megatree-loader", "megatree-ncbi-loader": "/usr/local/bin/megatree-ncbi-loader", "megatree-phylotree-loader": "/usr/local/bin/megatree-phylotree-loader", "megatree-pruner": "/usr/local/bin/megatree-pruner", "esdcompat": "/usr/local/bin/esdcompat", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "qpaeq": "/usr/local/bin/qpaeq", "jackd": "/usr/local/bin/jackd", "pacmd": "/usr/local/bin/pacmd", "pasuspender": "/usr/local/bin/pasuspender", "pulseaudio": "/usr/local/bin/pulseaudio", "vsearch": "/usr/local/bin/vsearch", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "cutadapt": "/usr/local/bin/cutadapt", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc"}}
+config: {"url": "https://biocontainers.pro/tools/nbitk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nbitk", "latest": {"0.7.3--pyh1f0d9b5_0": "sha256:19f6ad7d2260fb9e224a9604e3dbac5a3329d3e5cbc0d16e39d797b7a10bdb65"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:e20c585af9b573310817d8584e1eec1ef3c91cf2c9a022b65b2bb1de1aec11ef", "0.5.0--pyhdfd78af_0": "sha256:7814fc3683b940785bd488a53f454143eb3a37f34f2e721ba448d4105be98b63", "0.4.0--pyhdfd78af_0": "sha256:21300f75b03a43a5495a1132a5e70f1f9b14d83a4e6c135efd8fc4dc39855389", "0.3.3--pyhdfd78af_0": "sha256:523a62e72c300835ea5dfee1c55b5c16bdb396c6258a220ba70b597d16a83601", "0.5.1--pyhdfd78af_0": "sha256:fb083374e4c5942127f3da2a7c180eabf4852a3034826758718b432de0ac8a4d", "0.5.7--pyhdfd78af_0": "sha256:a3434d58acb24363a663167fa65fa294b6c97e09ce15bd139df023cb15fc6670", "0.5.10--pyhdfd78af_0": "sha256:6af57a3db07be3f21c6142f4aacb4bda886bec51b0549360dbf9e552dc08e68e", "0.6.4--pyh1f0d9b5_0": "sha256:da493b89cfa9cf62ae09896c9a6d8d5015e9ab363a17dbc87b1bcb4bcd233b96", "0.5.12--pyhdfd78af_0": "sha256:ce291fad2b8b7a6bc2d2b901bbf225de8ec7eb3c65951aede24a348e62bcd989", "0.7.2--pyh1f0d9b5_0": "sha256:efa1dfa08937b4508104c3151af1067361fc18a19f5e7c7c9135e071201baf8a", "0.6.7--pyh1f0d9b5_0": "sha256:5336c4e351387cc18d3175f10f7a3938bf938f94a58488fc78e4d1b4057e1465", "0.7.3--pyh1f0d9b5_0": "sha256:19f6ad7d2260fb9e224a9604e3dbac5a3329d3e5cbc0d16e39d797b7a10bdb65"}, "docker": "quay.io/biocontainers/nbitk", "aliases": {"dbicadmin": "/usr/local/bin/dbicadmin", "megatree-loader": "/usr/local/bin/megatree-loader", "megatree-ncbi-loader": "/usr/local/bin/megatree-ncbi-loader", "megatree-phylotree-loader": "/usr/local/bin/megatree-phylotree-loader", "megatree-pruner": "/usr/local/bin/megatree-pruner", "esdcompat": "/usr/local/bin/esdcompat", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "qpaeq": "/usr/local/bin/qpaeq", "jackd": "/usr/local/bin/jackd", "pacmd": "/usr/local/bin/pacmd", "pasuspender": "/usr/local/bin/pasuspender", "pulseaudio": "/usr/local/bin/pulseaudio", "vsearch": "/usr/local/bin/vsearch", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "cutadapt": "/usr/local/bin/cutadapt", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nbitk.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/nbitk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nbitk:0.7.2--pyh1f0d9b5_0
+$ shpc install quay.io/biocontainers/nbitk:0.7.3--pyh1f0d9b5_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nbitk/0.7.2--pyh1f0d9b5_0
-$ module help quay.io/biocontainers/nbitk/0.7.2--pyh1f0d9b5_0
+$ module load quay.io/biocontainers/nbitk/0.7.3--pyh1f0d9b5_0
+$ module help quay.io/biocontainers/nbitk/0.7.3--pyh1f0d9b5_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nabor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nabor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nabor/container.yaml"
-updated_at: "2025-11-18 04:01:01.585826"
+updated_at: "2025-11-19 04:01:59.391948"
 latest: "0.5.0--r40_5"
 container_url: "https://biocontainers.pro/tools/r-nabor"
 aliases:

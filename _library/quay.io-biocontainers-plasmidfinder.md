@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plasmidfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidfinder/container.yaml"
-updated_at: "2025-11-18 03:18:35.856029"
-latest: "2.1.6--py310hdfd78af_1"
+updated_at: "2025-11-19 03:18:13.822662"
+latest: "2.1.6--py314hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/plasmidfinder"
 aliases:
  - "download-db.sh"
@@ -26,8 +26,9 @@ aliases:
  - "csv2xml"
 versions:
  - "2.1.6--py310hdfd78af_1"
+ - "2.1.6--py314hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for plasmidfinder"
-config: {"url": "https://biocontainers.pro/tools/plasmidfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasmidfinder", "latest": {"2.1.6--py310hdfd78af_1": "sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3"}, "tags": {"2.1.6--py310hdfd78af_1": "sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3"}, "docker": "quay.io/biocontainers/plasmidfinder", "aliases": {"download-db.sh": "/usr/local/bin/download-db.sh", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "plasmidfinder.py": "/usr/local/bin/plasmidfinder.py", "tabulate": "/usr/local/bin/tabulate", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml"}}
+config: {"url": "https://biocontainers.pro/tools/plasmidfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasmidfinder", "latest": {"2.1.6--py314hdfd78af_2": "sha256:94082907128bd572e82836eb635f2e3aca1309a9ca705876a196b7b4e6782d4f"}, "tags": {"2.1.6--py310hdfd78af_1": "sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3", "2.1.6--py314hdfd78af_2": "sha256:94082907128bd572e82836eb635f2e3aca1309a9ca705876a196b7b4e6782d4f"}, "docker": "quay.io/biocontainers/plasmidfinder", "aliases": {"download-db.sh": "/usr/local/bin/download-db.sh", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "plasmidfinder.py": "/usr/local/bin/plasmidfinder.py", "tabulate": "/usr/local/bin/tabulate", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasmidfinder.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/plasmidfinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plasmidfinder:2.1.6--py310hdfd78af_1
+$ shpc install quay.io/biocontainers/plasmidfinder:2.1.6--py314hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plasmidfinder/2.1.6--py310hdfd78af_1
-$ module help quay.io/biocontainers/plasmidfinder/2.1.6--py310hdfd78af_1
+$ module load quay.io/biocontainers/plasmidfinder/2.1.6--py314hdfd78af_2
+$ module help quay.io/biocontainers/plasmidfinder/2.1.6--py314hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

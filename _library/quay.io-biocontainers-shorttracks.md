@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shorttracks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shorttracks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shorttracks/container.yaml"
-updated_at: "2025-11-18 04:08:03.153056"
-latest: "1.2--hdfd78af_0"
+updated_at: "2025-11-19 04:09:17.643358"
+latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shorttracks"
 aliases:
  - "ShortTracks"
@@ -38,8 +38,9 @@ versions:
  - "0.1--hdfd78af_0"
  - "1.1--hdfd78af_0"
  - "1.2--hdfd78af_0"
+ - "1.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for shorttracks"
-config: {"url": "https://biocontainers.pro/tools/shorttracks", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shorttracks", "latest": {"1.2--hdfd78af_0": "sha256:b49cb270bd681a9a4e2a975b98bdb02a2b7aeda7d4775fbc6c3cccbd2c2b803b"}, "tags": {"0.1--hdfd78af_0": "sha256:36a3d5c020c29cf0527bef4d2fa4c2ae7440d56111ae4174a5b9bc222bd625a6", "1.1--hdfd78af_0": "sha256:6ebefe1eb86b55883e8efcb7bbc65e3d32ab92fcf41c99fac72236803956ef13", "1.2--hdfd78af_0": "sha256:b49cb270bd681a9a4e2a975b98bdb02a2b7aeda7d4775fbc6c3cccbd2c2b803b"}, "docker": "quay.io/biocontainers/shorttracks", "aliases": {"ShortTracks": "/usr/local/bin/ShortTracks", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "wigToBigWig": "/usr/local/bin/wigToBigWig", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl"}}
+config: {"url": "https://biocontainers.pro/tools/shorttracks", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shorttracks", "latest": {"1.3--hdfd78af_0": "sha256:81dc447b31b9aea81de5a44a0cdc20d1b0cab873d6d2ca8304651f86f089f589"}, "tags": {"0.1--hdfd78af_0": "sha256:36a3d5c020c29cf0527bef4d2fa4c2ae7440d56111ae4174a5b9bc222bd625a6", "1.1--hdfd78af_0": "sha256:6ebefe1eb86b55883e8efcb7bbc65e3d32ab92fcf41c99fac72236803956ef13", "1.2--hdfd78af_0": "sha256:b49cb270bd681a9a4e2a975b98bdb02a2b7aeda7d4775fbc6c3cccbd2c2b803b", "1.3--hdfd78af_0": "sha256:81dc447b31b9aea81de5a44a0cdc20d1b0cab873d6d2ca8304651f86f089f589"}, "docker": "quay.io/biocontainers/shorttracks", "aliases": {"ShortTracks": "/usr/local/bin/ShortTracks", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "wigToBigWig": "/usr/local/bin/wigToBigWig", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shorttracks.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/shorttracks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shorttracks:1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/shorttracks:1.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shorttracks/1.2--hdfd78af_0
-$ module help quay.io/biocontainers/shorttracks/1.2--hdfd78af_0
+$ module load quay.io/biocontainers/shorttracks/1.3--hdfd78af_0
+$ module help quay.io/biocontainers/shorttracks/1.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

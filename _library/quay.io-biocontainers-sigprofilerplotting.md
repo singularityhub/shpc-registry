@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sigprofilerplotting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigprofilerplotting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigprofilerplotting/container.yaml"
-updated_at: "2025-11-18 03:29:23.839063"
-latest: "1.4.1--pyhdfd78af_1"
+updated_at: "2025-11-19 03:29:15.162189"
+latest: "1.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sigprofilerplotting"
 aliases:
  - "SigProfilerPlotting"
@@ -36,8 +36,9 @@ versions:
  - "1.4.0--pyhdfd78af_0"
  - "1.4.1--pyhdfd78af_0"
  - "1.4.1--pyhdfd78af_1"
+ - "1.4.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sigprofilerplotting"
-config: {"url": "https://biocontainers.pro/tools/sigprofilerplotting", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sigprofilerplotting", "latest": {"1.4.1--pyhdfd78af_1": "sha256:2cefbf261deb90fc79a53602f1e2c390ac8709f1ef59462453a35aeb7bf2a0a4"}, "tags": {"1.3.21--pyh7cba7a3_0": "sha256:6ec878dbef7f0abde400e60507df8a27b034bfe32a9eaf2ed5749c2dddf53f42", "1.3.22--pyh7cba7a3_0": "sha256:7ef9ab3c485a077ab0a645917e3ffc8aee76433bd232702a82e12f7ab53558ca", "1.3.23--pyh7cba7a3_0": "sha256:db5d935a0077f7415960767da0daae7f3ef492dffeb769dbf6600480085dcefc", "1.3.24--pyhdfd78af_0": "sha256:2d1b9d6eb6ad375fe6c6530745926dafae073f7e652bbecb0e517ba25b5b12af", "1.4.0--pyhdfd78af_0": "sha256:2be80bef34dd6a91fad93b3ccf4e2017eeb06bcbbea2f012eede1ba9b49bc8ab", "1.4.1--pyhdfd78af_0": "sha256:ddd9fc92e4bdf2cc0a33895087c648100a646057306c58932983913940a8df0b", "1.4.1--pyhdfd78af_1": "sha256:2cefbf261deb90fc79a53602f1e2c390ac8709f1ef59462453a35aeb7bf2a0a4"}, "docker": "quay.io/biocontainers/sigprofilerplotting", "aliases": {"SigProfilerPlotting": "/usr/local/bin/SigProfilerPlotting", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/sigprofilerplotting", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sigprofilerplotting", "latest": {"1.4.2--pyhdfd78af_0": "sha256:efc511150eb93968798540bea141ac10fb0514642f3ceb773ba86d53aea1f0bc"}, "tags": {"1.3.21--pyh7cba7a3_0": "sha256:6ec878dbef7f0abde400e60507df8a27b034bfe32a9eaf2ed5749c2dddf53f42", "1.3.22--pyh7cba7a3_0": "sha256:7ef9ab3c485a077ab0a645917e3ffc8aee76433bd232702a82e12f7ab53558ca", "1.3.23--pyh7cba7a3_0": "sha256:db5d935a0077f7415960767da0daae7f3ef492dffeb769dbf6600480085dcefc", "1.3.24--pyhdfd78af_0": "sha256:2d1b9d6eb6ad375fe6c6530745926dafae073f7e652bbecb0e517ba25b5b12af", "1.4.0--pyhdfd78af_0": "sha256:2be80bef34dd6a91fad93b3ccf4e2017eeb06bcbbea2f012eede1ba9b49bc8ab", "1.4.1--pyhdfd78af_0": "sha256:ddd9fc92e4bdf2cc0a33895087c648100a646057306c58932983913940a8df0b", "1.4.1--pyhdfd78af_1": "sha256:2cefbf261deb90fc79a53602f1e2c390ac8709f1ef59462453a35aeb7bf2a0a4", "1.4.2--pyhdfd78af_0": "sha256:efc511150eb93968798540bea141ac10fb0514642f3ceb773ba86d53aea1f0bc"}, "docker": "quay.io/biocontainers/sigprofilerplotting", "aliases": {"SigProfilerPlotting": "/usr/local/bin/SigProfilerPlotting", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sigprofilerplotting.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/sigprofilerplotting
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sigprofilerplotting:1.4.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/sigprofilerplotting:1.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sigprofilerplotting/1.4.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/sigprofilerplotting/1.4.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/sigprofilerplotting/1.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/sigprofilerplotting/1.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

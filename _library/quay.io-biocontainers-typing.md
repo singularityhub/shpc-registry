@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/typing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/typing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/typing/container.yaml"
-updated_at: "2025-11-18 03:48:11.562724"
+updated_at: "2025-11-19 03:48:39.621329"
 latest: "3.5.2.2--py36_0"
 container_url: "https://biocontainers.pro/tools/typing"
 aliases:

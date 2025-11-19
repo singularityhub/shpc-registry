@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyjess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyjess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyjess/container.yaml"
-updated_at: "2025-11-18 04:06:10.003828"
-latest: "0.7.0--py311haab0aaa_0"
+updated_at: "2025-11-19 04:07:20.475668"
+latest: "0.8.0--py312h0fa9677_0"
 container_url: "https://biocontainers.pro/tools/pyjess"
 aliases:
  - "2to3-3.10"
@@ -21,8 +21,9 @@ versions:
  - "0.7.0--py311haab0aaa_0"
  - "0.6.0--py311haab0aaa_0"
  - "0.5.2--py312h0fa9677_0"
+ - "0.8.0--py312h0fa9677_0"
 description: "singularity registry hpc automated addition for pyjess"
-config: {"url": "https://biocontainers.pro/tools/pyjess", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyjess", "latest": {"0.7.0--py311haab0aaa_0": "sha256:9d87b71520af0ed8fc561a2f34a498cb54cdbbc38fb4a9c8057d39f038953955"}, "tags": {"0.3.3--py310h7c593f9_0": "sha256:b26497d8f602038b90bb66a07137110953ecd733058059ee33f8957532284aa0", "0.3.3--py38h0020b31_0": "sha256:e40a1c8e68ab0a5c92a382aa0abeb69b881e337eba6f3a3a878ac5842b6d5d9d", "0.4.1--py310h1fe012e_1": "sha256:54cffc78a64f4d4803b2219d6bb7220c48f9707134f1e3ac464457fd0bfbe70c", "0.5.0--py39hbcbf7aa_0": "sha256:f0a77b55084dd444d8485896ec656e6a1858d5f67637d535fdd1e796aef880ee", "0.7.0--py311haab0aaa_0": "sha256:9d87b71520af0ed8fc561a2f34a498cb54cdbbc38fb4a9c8057d39f038953955", "0.6.0--py311haab0aaa_0": "sha256:4d3b20ce9fcad839a24289ad1c9c03b0e6bbe4b8aa881640c9480b325d739487", "0.5.2--py312h0fa9677_0": "sha256:29c2e5818211bdc2228885ad5c215bbf30744241bc84acb254002eb9965d24e3"}, "docker": "quay.io/biocontainers/pyjess", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyjess", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyjess", "latest": {"0.8.0--py312h0fa9677_0": "sha256:483aa788d4fac59d06c04d7ae962d8de444eb7339bd135c321095c4e6ad5b5e5"}, "tags": {"0.3.3--py310h7c593f9_0": "sha256:b26497d8f602038b90bb66a07137110953ecd733058059ee33f8957532284aa0", "0.3.3--py38h0020b31_0": "sha256:e40a1c8e68ab0a5c92a382aa0abeb69b881e337eba6f3a3a878ac5842b6d5d9d", "0.4.1--py310h1fe012e_1": "sha256:54cffc78a64f4d4803b2219d6bb7220c48f9707134f1e3ac464457fd0bfbe70c", "0.5.0--py39hbcbf7aa_0": "sha256:f0a77b55084dd444d8485896ec656e6a1858d5f67637d535fdd1e796aef880ee", "0.7.0--py311haab0aaa_0": "sha256:9d87b71520af0ed8fc561a2f34a498cb54cdbbc38fb4a9c8057d39f038953955", "0.6.0--py311haab0aaa_0": "sha256:4d3b20ce9fcad839a24289ad1c9c03b0e6bbe4b8aa881640c9480b325d739487", "0.5.2--py312h0fa9677_0": "sha256:29c2e5818211bdc2228885ad5c215bbf30744241bc84acb254002eb9965d24e3", "0.8.0--py312h0fa9677_0": "sha256:483aa788d4fac59d06c04d7ae962d8de444eb7339bd135c321095c4e6ad5b5e5"}, "docker": "quay.io/biocontainers/pyjess", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyjess.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pyjess
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyjess:0.7.0--py311haab0aaa_0
+$ shpc install quay.io/biocontainers/pyjess:0.8.0--py312h0fa9677_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyjess/0.7.0--py311haab0aaa_0
-$ module help quay.io/biocontainers/pyjess/0.7.0--py311haab0aaa_0
+$ module load quay.io/biocontainers/pyjess/0.8.0--py312h0fa9677_0
+$ module help quay.io/biocontainers/pyjess/0.8.0--py312h0fa9677_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
