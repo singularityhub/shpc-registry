@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/metaxaqr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metaxaqr
+latest:
+  3.0rc1.1--py314pl5321hdfd78af_0: 
+    sha256:31d8fc942b714d93594806d6bd6b58801783c5341748d14bc87a19d8a7c16812
+tags:
+  3.0rc1.1--py314pl5321hdfd78af_0: 
+    sha256:31d8fc942b714d93594806d6bd6b58801783c5341748d14bc87a19d8a7c16812
+docker: quay.io/biocontainers/metaxaqr
+aliases:
+  get_fasta: /usr/local/bin/get_fasta
+  metaxaQR: /usr/local/bin/metaxaQR
+  metaxaQR_c: /usr/local/bin/metaxaQR_c
+  metaxaQR_dbb: /usr/local/bin/metaxaQR_dbb
+  metaxaQR_dc: /usr/local/bin/metaxaQR_dc
+  metaxaQR_install_database: /usr/local/bin/metaxaQR_install_database
+  metaxaQR_rf: /usr/local/bin/metaxaQR_rf
+  metaxaQR_si: /usr/local/bin/metaxaQR_si
+  metaxaQR_ttt: /usr/local/bin/metaxaQR_ttt
+  metaxaQR_uc: /usr/local/bin/metaxaQR_uc
+  metaxaQR_x: /usr/local/bin/metaxaQR_x
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  vsearch: /usr/local/bin/vsearch
+  gawkbug: /usr/local/bin/gawkbug
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  orte-clean: /usr/local/bin/orte-clean
