@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pastrami"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pastrami/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pastrami/container.yaml"
-updated_at: "2025-11-19 04:00:30.899295"
-latest: "1.0.0--pyh67a8953_0"
+updated_at: "2025-11-20 03:51:31.987407"
+latest: "1.0.1--pyh67a8953_0"
 container_url: "https://biocontainers.pro/tools/pastrami"
 aliases:
  - "pastrami.py"
@@ -27,8 +27,9 @@ aliases:
 versions:
  - "0.9.6--pyhdfd78af_0"
  - "1.0.0--pyh67a8953_0"
+ - "1.0.1--pyh67a8953_0"
 description: "singularity registry hpc automated addition for pastrami"
-config: {"url": "https://biocontainers.pro/tools/pastrami", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pastrami", "latest": {"1.0.0--pyh67a8953_0": "sha256:56034fc83d62abbe07f1efe458e1c52837eee99f21d8753ca0ed73845f5a5243"}, "tags": {"0.9.6--pyhdfd78af_0": "sha256:1d84add1a8456f1d981435406ee06b64b42fd85ee3dee037fc5e7b0981805bd2", "1.0.0--pyh67a8953_0": "sha256:56034fc83d62abbe07f1efe458e1c52837eee99f21d8753ca0ed73845f5a5243"}, "docker": "quay.io/biocontainers/pastrami", "aliases": {"pastrami.py": "/usr/local/bin/pastrami.py", "pathos_connect": "/usr/local/bin/pathos_connect", "plink2": "/usr/local/bin/plink2", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pastrami", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pastrami", "latest": {"1.0.1--pyh67a8953_0": "sha256:11f07eec7b21c97795656686d05553f5a27e557b41df7360fe0bfe3786dcbdd9"}, "tags": {"0.9.6--pyhdfd78af_0": "sha256:1d84add1a8456f1d981435406ee06b64b42fd85ee3dee037fc5e7b0981805bd2", "1.0.0--pyh67a8953_0": "sha256:56034fc83d62abbe07f1efe458e1c52837eee99f21d8753ca0ed73845f5a5243", "1.0.1--pyh67a8953_0": "sha256:11f07eec7b21c97795656686d05553f5a27e557b41df7360fe0bfe3786dcbdd9"}, "docker": "quay.io/biocontainers/pastrami", "aliases": {"pastrami.py": "/usr/local/bin/pastrami.py", "pathos_connect": "/usr/local/bin/pathos_connect", "plink2": "/usr/local/bin/plink2", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pastrami.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/pastrami
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pastrami:1.0.0--pyh67a8953_0
+$ shpc install quay.io/biocontainers/pastrami:1.0.1--pyh67a8953_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pastrami/1.0.0--pyh67a8953_0
-$ module help quay.io/biocontainers/pastrami/1.0.0--pyh67a8953_0
+$ module load quay.io/biocontainers/pastrami/1.0.1--pyh67a8953_0
+$ module help quay.io/biocontainers/pastrami/1.0.1--pyh67a8953_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

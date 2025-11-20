@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cutesv-ol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutesv-ol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutesv-ol/container.yaml"
-updated_at: "2025-11-19 03:15:23.457580"
-latest: "1.0.1--py312h7b50bb2_0"
+updated_at: "2025-11-20 03:13:02.786353"
+latest: "1.0.2--py312h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/cutesv-ol"
 aliases:
  - "cuteSV"
@@ -37,8 +37,9 @@ aliases:
  - "md5fa"
 versions:
  - "1.0.1--py312h7b50bb2_0"
+ - "1.0.2--py312h7b50bb2_0"
 description: "singularity registry hpc automated addition for cutesv-ol"
-config: {"url": "https://biocontainers.pro/tools/cutesv-ol", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cutesv-ol", "latest": {"1.0.1--py312h7b50bb2_0": "sha256:414fece20009e00887412928592502efab3870fe92cff4b395869b781d61e28b"}, "tags": {"1.0.1--py312h7b50bb2_0": "sha256:414fece20009e00887412928592502efab3870fe92cff4b395869b781d61e28b"}, "docker": "quay.io/biocontainers/cutesv-ol", "aliases": {"cuteSV": "/usr/local/bin/cuteSV", "cuteSV_ONLINE": "/usr/local/bin/cuteSV_ONLINE", "watchmedo": "/usr/local/bin/watchmedo", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/cutesv-ol", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cutesv-ol", "latest": {"1.0.2--py312h7b50bb2_0": "sha256:fdbce0b2ccc71bd8fbe0420033ee92791a9a502b841f3ddf50c1c137ca313d3d"}, "tags": {"1.0.1--py312h7b50bb2_0": "sha256:414fece20009e00887412928592502efab3870fe92cff4b395869b781d61e28b", "1.0.2--py312h7b50bb2_0": "sha256:fdbce0b2ccc71bd8fbe0420033ee92791a9a502b841f3ddf50c1c137ca313d3d"}, "docker": "quay.io/biocontainers/cutesv-ol", "aliases": {"cuteSV": "/usr/local/bin/cuteSV", "cuteSV_ONLINE": "/usr/local/bin/cuteSV_ONLINE", "watchmedo": "/usr/local/bin/watchmedo", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cutesv-ol.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/cutesv-ol
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cutesv-ol:1.0.1--py312h7b50bb2_0
+$ shpc install quay.io/biocontainers/cutesv-ol:1.0.2--py312h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cutesv-ol/1.0.1--py312h7b50bb2_0
-$ module help quay.io/biocontainers/cutesv-ol/1.0.1--py312h7b50bb2_0
+$ module load quay.io/biocontainers/cutesv-ol/1.0.2--py312h7b50bb2_0
+$ module help quay.io/biocontainers/cutesv-ol/1.0.2--py312h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scnorm/container.yaml"
-updated_at: "2025-11-19 03:46:00.210851"
+updated_at: "2025-11-20 03:39:15.160207"
 latest: "1.28.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scnorm"
 aliases:
