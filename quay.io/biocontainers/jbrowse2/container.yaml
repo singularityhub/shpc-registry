@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/jbrowse2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jbrowse2
 latest:
-  3.6.5--h71b9176_0: 
-    sha256:1b1383150d93406634800f3af8dcad8b14807d7a3694c84005287bf2f8579efb
+  3.7.0--h71b9176_0: 
+    sha256:1f4006294631dd445370700ff69e90d8af92306f36dbaaad192284c34a565bf4
 tags:
   1.7.9--h9d45583_0: 
     sha256:d9346d8b6e01a4572dfca6ba912bb5e6d6b3c7abe64f8ae9bc26ea5b81e0f9fc
@@ -63,6 +63,8 @@ tags:
     sha256:48189b824e3e94e22b38d2c60c6cd04240f3f0b8a2acec90f9b1d0613a2923f2
   3.6.5--h71b9176_0: 
     sha256:1b1383150d93406634800f3af8dcad8b14807d7a3694c84005287bf2f8579efb
+  3.7.0--h71b9176_0: 
+    sha256:1f4006294631dd445370700ff69e90d8af92306f36dbaaad192284c34a565bf4
 docker: quay.io/biocontainers/jbrowse2
 aliases:
   check-disorder.pl: /usr/local/bin/check-disorder.pl

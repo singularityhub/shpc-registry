@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   snakemake-storage-plugin-fs
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:97263874f5317255fa886b560355c1d034a9a9b7091be980306cbb7bf43128d2
+  1.1.3--pyhdfd78af_0: 
+    sha256:075e6f06431771a699f41acd3dabf27f4fb6954988ba8646df3be209123f6a5e
 tags:
   0.1.5--pyhdfd78af_0: 
     sha256:7d97f360f4ecc89fbb706d35d6b848b1af9476d2f0e1cd9290aaad8687e47eb7
@@ -26,6 +26,8 @@ tags:
     sha256:8d38ccf9105fbe281ea8c280a1c64595cc861837a2b8322380e27a36a368b654
   1.1.2--pyhdfd78af_0: 
     sha256:97263874f5317255fa886b560355c1d034a9a9b7091be980306cbb7bf43128d2
+  1.1.3--pyhdfd78af_0: 
+    sha256:075e6f06431771a699f41acd3dabf27f4fb6954988ba8646df3be209123f6a5e
 docker: quay.io/biocontainers/snakemake-storage-plugin-fs
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12
