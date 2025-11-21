@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/debwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/debwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/debwt/container.yaml"
-updated_at: "2025-11-20 03:36:11.157262"
+updated_at: "2025-11-21 03:41:06.777014"
 latest: "1.0.1--h577a1d6_8"
 container_url: "https://biocontainers.pro/tools/debwt"
 aliases:

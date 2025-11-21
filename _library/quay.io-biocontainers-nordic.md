@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nordic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nordic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nordic/container.yaml"
-updated_at: "2025-11-20 03:45:35.725518"
+updated_at: "2025-11-21 03:51:59.769318"
 latest: "2.7.1--py311h8ddd9a4_0"
 container_url: "https://biocontainers.pro/tools/nordic"
 aliases:
