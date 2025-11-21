@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-diffbind
 latest:
-  3.16.0--r44h77050f0_0: 
-    sha256:3db3aec41722c4cf5c3c882eda3815b1a148b79d49b72b7084367c9a24984c70
+  3.16.0--r44h77050f0_1: 
+    sha256:819b7c2b33c38afde139aba00971846cd4ff28d6fb8edd7fcdeb7865abd94027
 tags:
   3.4.11--r41hc247a5b_1: 
     sha256:6c4dc11db8dbe34f4bd342b1f711548c25546414b82adfac52a2e7b7d498062b
@@ -18,4 +18,6 @@ tags:
     sha256:9c65c7f18a9a3a26e7ef906f13413a9f9d758a8769b44fed8439c70e84618ee7
   3.16.0--r44h77050f0_0: 
     sha256:3db3aec41722c4cf5c3c882eda3815b1a148b79d49b72b7084367c9a24984c70
+  3.16.0--r44h77050f0_1: 
+    sha256:819b7c2b33c38afde139aba00971846cd4ff28d6fb8edd7fcdeb7865abd94027
 docker: quay.io/biocontainers/bioconductor-diffbind

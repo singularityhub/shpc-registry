@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/circminer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for circminer
 latest:
-  0.4.2--h5ca1c30_5: 
-    sha256:257168c11741511ef42b570603a115baa1c46b8e7e090e88eae9b9dd19fef734
+  0.4.2--h5ca1c30_6: 
+    sha256:23ddbb8de4f9aebaafecd84f7a728132cf1bcb3f5f96c940a7b692cd99b736a1
 tags:
   0.4.2--h5b5514e_2: 
     sha256:437d7a122f01e68697752befc8a60e2f081bff0e47709b88e66e62169538c5e6
@@ -11,6 +11,8 @@ tags:
     sha256:b709db8edac328de358c2a82ebc6842f1de9ca161cbb95eb04932c74b585d681
   0.4.2--h5ca1c30_5: 
     sha256:257168c11741511ef42b570603a115baa1c46b8e7e090e88eae9b9dd19fef734
+  0.4.2--h5ca1c30_6: 
+    sha256:23ddbb8de4f9aebaafecd84f7a728132cf1bcb3f5f96c940a7b692cd99b736a1
 docker: quay.io/biocontainers/circminer
 aliases:
   circminer: /usr/local/bin/circminer

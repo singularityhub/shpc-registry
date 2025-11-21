@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pybbi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pybbi
 latest:
-  0.4.1--py311h02cc751_2: 
-    sha256:a95c19ef0003d8a08f8c43cde42ddabb9926a8ee074ef5cb508896e453bfc5c8
+  0.4.2--py39h2d95d83_0: 
+    sha256:fd9ae5687c5443478fe47e8d0c203d960dc2806ee1b2fe00a5742a0716544a2b
 tags:
   0.3.2--py38hc5a206b_1: 
     sha256:694a45b3be12e2576aca8557bb23764a25954d86bd062386d7e5871b019feec2
@@ -23,6 +23,8 @@ tags:
     sha256:78328493ddc28f4107dbe6ec4f63ecd1c03b331ace33d6cffc54e11089d2e065
   0.4.1--py311h02cc751_2: 
     sha256:a95c19ef0003d8a08f8c43cde42ddabb9926a8ee074ef5cb508896e453bfc5c8
+  0.4.2--py39h2d95d83_0: 
+    sha256:fd9ae5687c5443478fe47e8d0c203d960dc2806ee1b2fe00a5742a0716544a2b
 docker: quay.io/biocontainers/pybbi
 aliases:
   f2py3.8: /usr/local/bin/f2py3.8

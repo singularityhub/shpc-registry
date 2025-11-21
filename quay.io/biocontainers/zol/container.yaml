@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/zol
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for zol
 latest:
-  1.6.11--py311he264feb_0: 
-    sha256:0c5bfabbfb56e6220f26fdde86c7a0788c698536937769b739856125a29bcf6e
+  1.6.14--py312hf731ba3_0: 
+    sha256:bf213c1be983cb0c360c68dc62cfa940d18a29151094b2bb729d3864a06f2580
 tags:
   1.2.7--py310h30d9df9_0: 
     sha256:e6fecbf5fb5bcd06df49b8a06e02f19b49046af79a05d377e66a845834e78258
@@ -55,6 +55,8 @@ tags:
     sha256:6ad9db50dd6dffe37ea6cc3cdb769fa92d67920432039d7094d46f8c2d72303e
   1.6.11--py311he264feb_0: 
     sha256:0c5bfabbfb56e6220f26fdde86c7a0788c698536937769b739856125a29bcf6e
+  1.6.14--py312hf731ba3_0: 
+    sha256:bf213c1be983cb0c360c68dc62cfa940d18a29151094b2bb729d3864a06f2580
 docker: quay.io/biocontainers/zol
 aliases:
   HYPHYMPI: /usr/local/bin/HYPHYMPI

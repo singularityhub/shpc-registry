@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/abritamr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abritamr
 latest:
-  1.0.19--pyhdfd78af_0: 
-    sha256:54391ebb310e3560d05370758de5f8688c38cbcd67b9e0014a18f1add3ee4e3f
+  1.0.20--pyh5707d69_0: 
+    sha256:cad5af32434127150d2c3747ee3d86314f41ce61d20bbfbf624a9632b6cd85fd
 tags:
   1.0.9--hdfd78af_0: 
     sha256:548ef2995e2e0ab8f09f81cc1f31e1d59463fcbf47494382d181fdbdc2fb8faf
@@ -23,6 +23,8 @@ tags:
     sha256:a0dd43c22a14b815e44fd4767a07b044745f3d41a1aeaf4eb08cacd3f8f239a8
   1.0.19--pyhdfd78af_0: 
     sha256:54391ebb310e3560d05370758de5f8688c38cbcd67b9e0014a18f1add3ee4e3f
+  1.0.20--pyh5707d69_0: 
+    sha256:cad5af32434127150d2c3747ee3d86314f41ce61d20bbfbf624a9632b6cd85fd
 docker: quay.io/biocontainers/abritamr
 aliases:
   abriTAMR: /usr/local/bin/abriTAMR

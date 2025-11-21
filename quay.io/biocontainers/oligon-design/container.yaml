@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/oligon-design
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for oligon-design
 latest:
-  0.4.0--py313hdfd78af_0: 
-    sha256:1ca6880f7a95fd17bc8c393aaed0935eb947ef97f34ddbb953f109a5e37b2133
+  1.0.0--py314hdfd78af_0: 
+    sha256:78d02631cfa23bae471e7f276017e6fd37af81fac3439540c477af5c682cceca
 tags:
   0.4.0--py313hdfd78af_0: 
     sha256:1ca6880f7a95fd17bc8c393aaed0935eb947ef97f34ddbb953f109a5e37b2133
+  1.0.0--py314hdfd78af_0: 
+    sha256:78d02631cfa23bae471e7f276017e6fd37af81fac3439540c477af5c682cceca
 docker: quay.io/biocontainers/oligon-design
 aliases:
   agrep: /usr/local/bin/agrep
