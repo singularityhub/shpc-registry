@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-blobology"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-blobology/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-blobology/container.yaml"
-updated_at: "2025-11-21 03:58:19.137774"
+updated_at: "2025-11-21 16:19:03.031172"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-blobology"
 aliases:

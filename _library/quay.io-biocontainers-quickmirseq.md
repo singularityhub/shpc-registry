@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quickmirseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quickmirseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quickmirseq/container.yaml"
-updated_at: "2025-11-21 03:32:53.064670"
+updated_at: "2025-11-21 15:54:08.974973"
 latest: "1.0.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/quickmirseq"
 aliases:

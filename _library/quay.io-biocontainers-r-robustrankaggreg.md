@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-robustrankaggreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-robustrankaggreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-robustrankaggreg/container.yaml"
-updated_at: "2025-11-21 03:54:03.162205"
+updated_at: "2025-11-21 16:14:46.578602"
 latest: "1.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-robustrankaggreg"
 aliases:

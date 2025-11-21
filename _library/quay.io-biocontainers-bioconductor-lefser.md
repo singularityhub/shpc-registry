@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lefser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lefser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lefser/container.yaml"
-updated_at: "2025-11-21 03:40:26.635234"
+updated_at: "2025-11-21 16:01:33.433681"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lefser"
 

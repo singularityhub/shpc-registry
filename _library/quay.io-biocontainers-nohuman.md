@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nohuman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nohuman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nohuman/container.yaml"
-updated_at: "2025-11-21 03:40:29.208621"
+updated_at: "2025-11-21 16:01:36.022756"
 latest: "0.5.0--hbbf5808_0"
 container_url: "https://biocontainers.pro/tools/nohuman"
 aliases:

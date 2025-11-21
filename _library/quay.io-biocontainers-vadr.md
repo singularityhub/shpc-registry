@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vadr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vadr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vadr/container.yaml"
-updated_at: "2025-11-21 03:53:58.734614"
+updated_at: "2025-11-21 16:14:42.251917"
 latest: "1.6.4--pl5321h031d066_0"
 container_url: "https://biocontainers.pro/tools/vadr"
 aliases:
