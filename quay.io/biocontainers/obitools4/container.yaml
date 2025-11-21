@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/obitools4
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for obitools4
+latest:
+  4.4.0--h6e5cb0d_0: 
+    sha256:d5eba1ae26193ac84eb53db23d1b5cd495a633b00ff3f4405d399e860ea3159a
+tags:
+  4.4.0--h6e5cb0d_0: 
+    sha256:d5eba1ae26193ac84eb53db23d1b5cd495a633b00ff3f4405d399e860ea3159a
+docker: quay.io/biocontainers/obitools4
+aliases:
+  obiannotate: /usr/local/bin/obiannotate
+  obiclean: /usr/local/bin/obiclean
+  obicleandb: /usr/local/bin/obicleandb
+  obicomplement: /usr/local/bin/obicomplement
+  obiconsensus: /usr/local/bin/obiconsensus
+  obiconvert: /usr/local/bin/obiconvert
+  obicount: /usr/local/bin/obicount
+  obicsv: /usr/local/bin/obicsv
+  obidemerge: /usr/local/bin/obidemerge
+  obidistribute: /usr/local/bin/obidistribute
+  obigrep: /usr/local/bin/obigrep
+  obijoin: /usr/local/bin/obijoin
+  obikmermatch: /usr/local/bin/obikmermatch
+  obikmersimcount: /usr/local/bin/obikmersimcount
+  obilandmark: /usr/local/bin/obilandmark
+  obimatrix: /usr/local/bin/obimatrix
+  obimicrosat: /usr/local/bin/obimicrosat
+  obimultiplex: /usr/local/bin/obimultiplex
+  obipairing: /usr/local/bin/obipairing
+  obipcr: /usr/local/bin/obipcr
+  obireffamidx: /usr/local/bin/obireffamidx
+  obirefidx: /usr/local/bin/obirefidx
+  obiscript: /usr/local/bin/obiscript
+  obisplit: /usr/local/bin/obisplit
+  obisummary: /usr/local/bin/obisummary
+  obitag: /usr/local/bin/obitag
+  obitagpcr: /usr/local/bin/obitagpcr
+  obitaxonomy: /usr/local/bin/obitaxonomy
+  obiuniq: /usr/local/bin/obiuniq
