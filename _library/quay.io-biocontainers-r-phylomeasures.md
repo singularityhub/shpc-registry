@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phylomeasures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phylomeasures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phylomeasures/container.yaml"
-updated_at: "2025-11-21 15:39:32.311922"
+updated_at: "2025-11-22 03:11:14.636236"
 latest: "2.1--r44h40dc89f_10"
 container_url: "https://biocontainers.pro/tools/r-phylomeasures"
 

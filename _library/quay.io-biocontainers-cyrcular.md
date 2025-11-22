@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cyrcular"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyrcular/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyrcular/container.yaml"
-updated_at: "2025-11-21 16:07:28.475955"
+updated_at: "2025-11-22 03:39:48.684136"
 latest: "0.3.0--ha8ac579_1"
 container_url: "https://biocontainers.pro/tools/cyrcular"
 aliases:

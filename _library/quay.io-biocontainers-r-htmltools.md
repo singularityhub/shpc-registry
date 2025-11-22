@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-htmltools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htmltools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-htmltools/container.yaml"
-updated_at: "2025-11-21 16:03:11.332137"
+updated_at: "2025-11-22 03:35:28.110838"
 latest: "0.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-htmltools"
 aliases:

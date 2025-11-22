@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ggmsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggmsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggmsa/container.yaml"
-updated_at: "2025-11-21 15:58:19.718431"
+updated_at: "2025-11-22 03:30:31.438149"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggmsa"
 aliases:

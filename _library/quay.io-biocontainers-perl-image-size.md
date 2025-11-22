@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-image-size"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-image-size/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-image-size/container.yaml"
-updated_at: "2025-11-21 16:07:21.926566"
+updated_at: "2025-11-22 03:39:42.026049"
 latest: "3.300--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-image-size"
 aliases:

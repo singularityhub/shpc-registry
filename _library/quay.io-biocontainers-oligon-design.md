@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oligon-design"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligon-design/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oligon-design/container.yaml"
-updated_at: "2025-11-21 16:04:21.123108"
-latest: "0.4.0--py313hdfd78af_0"
+updated_at: "2025-11-22 03:36:38.845219"
+latest: "1.0.0--py314hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/oligon-design"
 aliases:
  - "agrep"
@@ -73,8 +73,9 @@ aliases:
  - "orterun"
 versions:
  - "0.4.0--py313hdfd78af_0"
+ - "1.0.0--py314hdfd78af_0"
 description: "singularity registry hpc automated addition for oligon-design"
-config: {"url": "https://biocontainers.pro/tools/oligon-design", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oligon-design", "latest": {"0.4.0--py313hdfd78af_0": "sha256:1ca6880f7a95fd17bc8c393aaed0935eb947ef97f34ddbb953f109a5e37b2133"}, "tags": {"0.4.0--py313hdfd78af_0": "sha256:1ca6880f7a95fd17bc8c393aaed0935eb947ef97f34ddbb953f109a5e37b2133"}, "docker": "quay.io/biocontainers/oligon-design", "aliases": {"agrep": "/usr/local/bin/agrep", "alignOligo": "/usr/local/bin/alignOligo", "alignmentConsensus": "/usr/local/bin/alignmentConsensus", "bindLogs": "/usr/local/bin/bindLogs", "breakFasta": "/usr/local/bin/breakFasta", "buildcast": "/usr/local/bin/buildcast", "cast": "/usr/local/bin/cast", "detailed2table": "/usr/local/bin/detailed2table", "fastaChangeBases": "/usr/local/bin/fastaChangeBases", "fastaRevCom": "/usr/local/bin/fastaRevCom", "filterLog": "/usr/local/bin/filterLog", "findOligo": "/usr/local/bin/findOligo", "flex": "/usr/local/bin/flex", "flex++": "/usr/local/bin/flex++", "getHomologRegion": "/usr/local/bin/getHomologRegion", "getHomologStats": "/usr/local/bin/getHomologStats", "getMismatchSeq": "/usr/local/bin/getMismatchSeq", "glimpse": "/usr/local/bin/glimpse", "glimpseindex": "/usr/local/bin/glimpseindex", "glimpseserver": "/usr/local/bin/glimpseserver", "hairPins": "/usr/local/bin/hairPins", "identifyRegions": "/usr/local/bin/identifyRegions", "logStats": "/usr/local/bin/logStats", "m4": "/usr/local/bin/m4", "multi2linefasta": "/usr/local/bin/multi2linefasta", "oligoNdesign": "/usr/local/bin/oligoNdesign", "oligoNtest": "/usr/local/bin/oligoNtest", "rateAccess": "/usr/local/bin/rateAccess", "selectLog": "/usr/local/bin/selectLog", "selfDimer": "/usr/local/bin/selfDimer", "sequenceSelect": "/usr/local/bin/sequenceSelect", "table2fasta": "/usr/local/bin/table2fasta", "tbuild": "/usr/local/bin/tbuild", "testOligo": "/usr/local/bin/testOligo", "testThorough": "/usr/local/bin/testThorough", "trimRegion": "/usr/local/bin/trimRegion", "uncast": "/usr/local/bin/uncast", "wgconvert": "/usr/local/bin/wgconvert", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "gawkbug": "/usr/local/bin/gawkbug", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun"}}
+config: {"url": "https://biocontainers.pro/tools/oligon-design", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oligon-design", "latest": {"1.0.0--py314hdfd78af_0": "sha256:78d02631cfa23bae471e7f276017e6fd37af81fac3439540c477af5c682cceca"}, "tags": {"0.4.0--py313hdfd78af_0": "sha256:1ca6880f7a95fd17bc8c393aaed0935eb947ef97f34ddbb953f109a5e37b2133", "1.0.0--py314hdfd78af_0": "sha256:78d02631cfa23bae471e7f276017e6fd37af81fac3439540c477af5c682cceca"}, "docker": "quay.io/biocontainers/oligon-design", "aliases": {"agrep": "/usr/local/bin/agrep", "alignOligo": "/usr/local/bin/alignOligo", "alignmentConsensus": "/usr/local/bin/alignmentConsensus", "bindLogs": "/usr/local/bin/bindLogs", "breakFasta": "/usr/local/bin/breakFasta", "buildcast": "/usr/local/bin/buildcast", "cast": "/usr/local/bin/cast", "detailed2table": "/usr/local/bin/detailed2table", "fastaChangeBases": "/usr/local/bin/fastaChangeBases", "fastaRevCom": "/usr/local/bin/fastaRevCom", "filterLog": "/usr/local/bin/filterLog", "findOligo": "/usr/local/bin/findOligo", "flex": "/usr/local/bin/flex", "flex++": "/usr/local/bin/flex++", "getHomologRegion": "/usr/local/bin/getHomologRegion", "getHomologStats": "/usr/local/bin/getHomologStats", "getMismatchSeq": "/usr/local/bin/getMismatchSeq", "glimpse": "/usr/local/bin/glimpse", "glimpseindex": "/usr/local/bin/glimpseindex", "glimpseserver": "/usr/local/bin/glimpseserver", "hairPins": "/usr/local/bin/hairPins", "identifyRegions": "/usr/local/bin/identifyRegions", "logStats": "/usr/local/bin/logStats", "m4": "/usr/local/bin/m4", "multi2linefasta": "/usr/local/bin/multi2linefasta", "oligoNdesign": "/usr/local/bin/oligoNdesign", "oligoNtest": "/usr/local/bin/oligoNtest", "rateAccess": "/usr/local/bin/rateAccess", "selectLog": "/usr/local/bin/selectLog", "selfDimer": "/usr/local/bin/selfDimer", "sequenceSelect": "/usr/local/bin/sequenceSelect", "table2fasta": "/usr/local/bin/table2fasta", "tbuild": "/usr/local/bin/tbuild", "testOligo": "/usr/local/bin/testOligo", "testThorough": "/usr/local/bin/testThorough", "trimRegion": "/usr/local/bin/trimRegion", "uncast": "/usr/local/bin/uncast", "wgconvert": "/usr/local/bin/wgconvert", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "gawkbug": "/usr/local/bin/gawkbug", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oligon-design.
@@ -89,7 +90,7 @@ $ shpc install quay.io/biocontainers/oligon-design
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oligon-design:0.4.0--py313hdfd78af_0
+$ shpc install quay.io/biocontainers/oligon-design:1.0.0--py314hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -101,8 +102,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oligon-design/0.4.0--py313hdfd78af_0
-$ module help quay.io/biocontainers/oligon-design/0.4.0--py313hdfd78af_0
+$ module load quay.io/biocontainers/oligon-design/1.0.0--py314hdfd78af_0
+$ module help quay.io/biocontainers/oligon-design/1.0.0--py314hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

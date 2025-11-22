@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deacon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deacon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deacon/container.yaml"
-updated_at: "2025-11-21 15:58:49.306040"
-latest: "0.12.0--h4349ce8_0"
+updated_at: "2025-11-22 03:31:01.706070"
+latest: "0.13.2--h7ef3eeb_1"
 container_url: "https://biocontainers.pro/tools/deacon"
 aliases:
  - "deacon"
@@ -22,8 +22,9 @@ versions:
  - "0.10.0--h4349ce8_0"
  - "0.12.0--h4349ce8_0"
  - "0.11.0--h4349ce8_0"
+ - "0.13.2--h7ef3eeb_1"
 description: "singularity registry hpc automated addition for deacon"
-config: {"url": "https://biocontainers.pro/tools/deacon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deacon", "latest": {"0.12.0--h4349ce8_0": "sha256:aaec4465d7126e84687ef968623463aaea661719ab38da16008bd63ecb6a7d9c"}, "tags": {"0.1.0--h4349ce8_0": "sha256:22d6f9e7ada423cef2f4dbf54ce9f9dcf5916dbec64d7fd32944528d39f360d6", "0.3.0--h4349ce8_0": "sha256:14f3d7c7cf75f0fc81dc1194587236f76de34d872ab8168c39599e7ff6409872", "0.2.0--h4349ce8_0": "sha256:6143d3962e4109e76db9b944d81cc5b1aecf50dbc5c3d41780b207af2ed58dee", "0.5.0--h4349ce8_0": "sha256:300356398d8f0236022a867060d66e4904d581840b303a4d1f9bc89b12c2a3d8", "0.4.0--h4349ce8_0": "sha256:0a8da50af9f3e564f4aa012c4fed9238a409eba4487d743505644db14b8842d1", "0.7.0--h4349ce8_0": "sha256:a835f759b8c167127bd44f9b60a548fbe94c14dcc7ac10dd69584d5dba940a65", "0.6.0--h4349ce8_0": "sha256:dd6453573c6e285b343baa0b89351e36a40d8809745ab67f04bfb7452f5cc698", "0.9.0--h4349ce8_0": "sha256:a426959600bc2146ac5b4b30f925ff4d3dc8982dbf6a7fe45544303dd5335064", "0.8.1--h4349ce8_0": "sha256:80de276d9b20bc883aaf50d9917f95b3b4cd5620d2023fe4f7589cc3fba7fd07", "0.10.0--h4349ce8_0": "sha256:9a24785b972f70784490f81989d2f6f2c1881f7e831c331ba89a988d0c515827", "0.12.0--h4349ce8_0": "sha256:aaec4465d7126e84687ef968623463aaea661719ab38da16008bd63ecb6a7d9c", "0.11.0--h4349ce8_0": "sha256:783f11b084a94ce7ddd7590a1b6b44132dbae36496ddfb7d95a18fd91834a9d7"}, "docker": "quay.io/biocontainers/deacon", "aliases": {"deacon": "/usr/local/bin/deacon"}}
+config: {"url": "https://biocontainers.pro/tools/deacon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deacon", "latest": {"0.13.2--h7ef3eeb_1": "sha256:070b596f5420fb5517ad05e60e37c8e7ec1837d929abd9d691d65e3a10547fd6"}, "tags": {"0.1.0--h4349ce8_0": "sha256:22d6f9e7ada423cef2f4dbf54ce9f9dcf5916dbec64d7fd32944528d39f360d6", "0.3.0--h4349ce8_0": "sha256:14f3d7c7cf75f0fc81dc1194587236f76de34d872ab8168c39599e7ff6409872", "0.2.0--h4349ce8_0": "sha256:6143d3962e4109e76db9b944d81cc5b1aecf50dbc5c3d41780b207af2ed58dee", "0.5.0--h4349ce8_0": "sha256:300356398d8f0236022a867060d66e4904d581840b303a4d1f9bc89b12c2a3d8", "0.4.0--h4349ce8_0": "sha256:0a8da50af9f3e564f4aa012c4fed9238a409eba4487d743505644db14b8842d1", "0.7.0--h4349ce8_0": "sha256:a835f759b8c167127bd44f9b60a548fbe94c14dcc7ac10dd69584d5dba940a65", "0.6.0--h4349ce8_0": "sha256:dd6453573c6e285b343baa0b89351e36a40d8809745ab67f04bfb7452f5cc698", "0.9.0--h4349ce8_0": "sha256:a426959600bc2146ac5b4b30f925ff4d3dc8982dbf6a7fe45544303dd5335064", "0.8.1--h4349ce8_0": "sha256:80de276d9b20bc883aaf50d9917f95b3b4cd5620d2023fe4f7589cc3fba7fd07", "0.10.0--h4349ce8_0": "sha256:9a24785b972f70784490f81989d2f6f2c1881f7e831c331ba89a988d0c515827", "0.12.0--h4349ce8_0": "sha256:aaec4465d7126e84687ef968623463aaea661719ab38da16008bd63ecb6a7d9c", "0.11.0--h4349ce8_0": "sha256:783f11b084a94ce7ddd7590a1b6b44132dbae36496ddfb7d95a18fd91834a9d7", "0.13.2--h7ef3eeb_1": "sha256:070b596f5420fb5517ad05e60e37c8e7ec1837d929abd9d691d65e3a10547fd6"}, "docker": "quay.io/biocontainers/deacon", "aliases": {"deacon": "/usr/local/bin/deacon"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deacon.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/deacon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deacon:0.12.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/deacon:0.13.2--h7ef3eeb_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deacon/0.12.0--h4349ce8_0
-$ module help quay.io/biocontainers/deacon/0.12.0--h4349ce8_0
+$ module load quay.io/biocontainers/deacon/0.13.2--h7ef3eeb_1
+$ module help quay.io/biocontainers/deacon/0.13.2--h7ef3eeb_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

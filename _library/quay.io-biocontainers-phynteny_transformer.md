@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phynteny_transformer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phynteny_transformer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phynteny_transformer/container.yaml"
-updated_at: "2025-11-21 15:36:20.373222"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2025-11-22 03:07:59.245751"
+latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phynteny_transformer"
 aliases:
  - "compute_confidence"
@@ -46,8 +46,9 @@ aliases:
  - "orc-scan"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for phynteny_transformer"
-config: {"url": "https://biocontainers.pro/tools/phynteny_transformer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phynteny_transformer", "latest": {"0.1.2--pyhdfd78af_0": "sha256:6bcebe9f43553ebc8036c6100933facd7d4193a1249d633364509f7d4056cf67"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:6bcebe9f43553ebc8036c6100933facd7d4193a1249d633364509f7d4056cf67"}, "docker": "quay.io/biocontainers/phynteny_transformer", "aliases": {"compute_confidence": "/usr/local/bin/compute_confidence", "datasets-cli": "/usr/local/bin/datasets-cli", "generate_training_data": "/usr/local/bin/generate_training_data", "huggingface-cli": "/usr/local/bin/huggingface-cli", "install_models": "/usr/local/bin/install_models", "phynteny_transformer": "/usr/local/bin/phynteny_transformer", "tiny-agents": "/usr/local/bin/tiny-agents", "train_model": "/usr/local/bin/train_model", "transformers": "/usr/local/bin/transformers", "transformers-cli": "/usr/local/bin/transformers-cli", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "pybind11-config": "/usr/local/bin/pybind11-config", "get_gprof": "/usr/local/bin/get_gprof", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
+config: {"url": "https://biocontainers.pro/tools/phynteny_transformer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phynteny_transformer", "latest": {"0.1.3--pyhdfd78af_0": "sha256:b254483a374ba7c0c84a5789396c3d8cc5cb20cbcf7c9f45f6ecbbed5f6a128d"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:6bcebe9f43553ebc8036c6100933facd7d4193a1249d633364509f7d4056cf67", "0.1.3--pyhdfd78af_0": "sha256:b254483a374ba7c0c84a5789396c3d8cc5cb20cbcf7c9f45f6ecbbed5f6a128d"}, "docker": "quay.io/biocontainers/phynteny_transformer", "aliases": {"compute_confidence": "/usr/local/bin/compute_confidence", "datasets-cli": "/usr/local/bin/datasets-cli", "generate_training_data": "/usr/local/bin/generate_training_data", "huggingface-cli": "/usr/local/bin/huggingface-cli", "install_models": "/usr/local/bin/install_models", "phynteny_transformer": "/usr/local/bin/phynteny_transformer", "tiny-agents": "/usr/local/bin/tiny-agents", "train_model": "/usr/local/bin/train_model", "transformers": "/usr/local/bin/transformers", "transformers-cli": "/usr/local/bin/transformers-cli", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "pybind11-config": "/usr/local/bin/pybind11-config", "get_gprof": "/usr/local/bin/get_gprof", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phynteny_transformer.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/phynteny_transformer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phynteny_transformer:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phynteny_transformer:0.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phynteny_transformer/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/phynteny_transformer/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/phynteny_transformer/0.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/phynteny_transformer/0.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

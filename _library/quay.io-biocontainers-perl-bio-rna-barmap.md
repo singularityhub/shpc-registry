@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-rna-barmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-rna-barmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-rna-barmap/container.yaml"
-updated_at: "2025-11-21 16:26:29.384975"
+updated_at: "2025-11-22 03:59:01.366801"
 latest: "0.04--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-rna-barmap"
 aliases:

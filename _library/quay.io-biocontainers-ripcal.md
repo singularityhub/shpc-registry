@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ripcal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ripcal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ripcal/container.yaml"
-updated_at: "2025-11-21 15:45:28.498825"
+updated_at: "2025-11-22 03:17:18.036922"
 latest: "2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ripcal"
 aliases:

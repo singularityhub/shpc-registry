@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gwas.bayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwas.bayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwas.bayes/container.yaml"
-updated_at: "2025-11-21 15:58:04.436813"
+updated_at: "2025-11-22 03:30:15.977485"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwas.bayes"
 

@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/datascience-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/datascience-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/datascience-notebook/container.yaml"
-updated_at: "2025-11-21 15:36:15.667791"
+updated_at: "2025-11-22 03:07:54.645988"
 latest: "2025-11-10"
 container_url: "https://quay.io/repository/jupyter/datascience-notebook"
 aliases:

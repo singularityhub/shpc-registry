@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tciaclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tciaclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tciaclient/container.yaml"
-updated_at: "2025-11-21 16:07:36.485050"
+updated_at: "2025-11-22 03:39:56.804377"
 latest: "0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tciaclient"
 aliases:
