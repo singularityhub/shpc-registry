@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/wget
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wget
 latest:
-  1.21.4: 
-    sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52
+  1.25.0: 
+    sha256:48b418e977fe2dd4e94ee97a21670f7f9e41a3be86ab79091e23d2578c0fc68b
 tags:
   1.20.1: 
     sha256:7e5ba9e87a25c43cafea117ca3f3a7b4f6126115449b501c77b44d1fbf2c7a18
   1.21.4: 
     sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52
+  1.25.0: 
+    sha256:48b418e977fe2dd4e94ee97a21670f7f9e41a3be86ab79091e23d2578c0fc68b
 docker: quay.io/biocontainers/wget
 aliases:
   wget: /usr/local/bin/wget
