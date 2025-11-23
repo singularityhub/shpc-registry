@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-densityclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-densityclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-densityclust/container.yaml"
-updated_at: "2025-11-22 03:11:25.650282"
+updated_at: "2025-11-23 03:43:15.673810"
 latest: "0.2.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-densityclust"
 aliases:

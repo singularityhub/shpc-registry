@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mp-est"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mp-est/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mp-est/container.yaml"
-updated_at: "2025-11-22 03:39:35.414222"
-latest: "3.0.0--h7b50bb2_3"
+updated_at: "2025-11-23 04:11:24.794761"
+latest: "3.1.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/mp-est"
 aliases:
  - "mpest"
@@ -14,8 +14,9 @@ versions:
  - "3.0.0--h031d066_1"
  - "3.0.0--h7b50bb2_2"
  - "3.0.0--h7b50bb2_3"
+ - "3.1.0--h7b50bb2_0"
 description: "singularity registry hpc automated addition for mp-est"
-config: {"url": "https://biocontainers.pro/tools/mp-est", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mp-est", "latest": {"3.0.0--h7b50bb2_3": "sha256:e6ed73bda6e9c2e96757511b370276b03e0a26e7f65d4573df1c0db824419fa6"}, "tags": {"3.0.0--hec16e2b_0": "sha256:4ef7a6819f4fc28f2bbe10eda327f53f9249f1bc1747a773572854b05d8cc043", "3.0.0--h031d066_1": "sha256:27d3c57bd36cee6b57bcf885c217d4560c2ee50d79b4571f7ed58424f432c59a", "3.0.0--h7b50bb2_2": "sha256:2cad84a4b724a15b68aca3e36cdbc56ae37288171904022f62a648edcf2dfd8e", "3.0.0--h7b50bb2_3": "sha256:e6ed73bda6e9c2e96757511b370276b03e0a26e7f65d4573df1c0db824419fa6"}, "docker": "quay.io/biocontainers/mp-est", "aliases": {"mpest": "/usr/local/bin/mpest"}}
+config: {"url": "https://biocontainers.pro/tools/mp-est", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mp-est", "latest": {"3.1.0--h7b50bb2_0": "sha256:7e89a9a6acbad4de022b601b168faec7e23cbe1be936d012a6f7c0e9fe6dd666"}, "tags": {"3.0.0--hec16e2b_0": "sha256:4ef7a6819f4fc28f2bbe10eda327f53f9249f1bc1747a773572854b05d8cc043", "3.0.0--h031d066_1": "sha256:27d3c57bd36cee6b57bcf885c217d4560c2ee50d79b4571f7ed58424f432c59a", "3.0.0--h7b50bb2_2": "sha256:2cad84a4b724a15b68aca3e36cdbc56ae37288171904022f62a648edcf2dfd8e", "3.0.0--h7b50bb2_3": "sha256:e6ed73bda6e9c2e96757511b370276b03e0a26e7f65d4573df1c0db824419fa6", "3.1.0--h7b50bb2_0": "sha256:7e89a9a6acbad4de022b601b168faec7e23cbe1be936d012a6f7c0e9fe6dd666"}, "docker": "quay.io/biocontainers/mp-est", "aliases": {"mpest": "/usr/local/bin/mpest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mp-est.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mp-est
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mp-est:3.0.0--h7b50bb2_3
+$ shpc install quay.io/biocontainers/mp-est:3.1.0--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mp-est/3.0.0--h7b50bb2_3
-$ module help quay.io/biocontainers/mp-est/3.0.0--h7b50bb2_3
+$ module load quay.io/biocontainers/mp-est/3.1.0--h7b50bb2_0
+$ module help quay.io/biocontainers/mp-est/3.1.0--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

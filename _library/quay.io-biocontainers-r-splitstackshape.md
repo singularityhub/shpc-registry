@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-splitstackshape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-splitstackshape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-splitstackshape/container.yaml"
-updated_at: "2025-11-22 03:53:49.345057"
+updated_at: "2025-11-23 04:25:54.313951"
 latest: "1.4.2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-splitstackshape"
 aliases:

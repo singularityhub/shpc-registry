@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-millefy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-millefy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-millefy/container.yaml"
-updated_at: "2025-11-22 03:08:19.177425"
+updated_at: "2025-11-23 03:40:12.358527"
 latest: "0.1.9--r43h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/r-millefy"
 aliases:

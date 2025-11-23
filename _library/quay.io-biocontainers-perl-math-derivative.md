@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-derivative"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-derivative/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-derivative/container.yaml"
-updated_at: "2025-11-22 03:42:52.098987"
+updated_at: "2025-11-23 04:14:50.341105"
 latest: "1.01--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-math-derivative"
 aliases:

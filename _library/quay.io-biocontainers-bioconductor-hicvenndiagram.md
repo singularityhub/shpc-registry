@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicvenndiagram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicvenndiagram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicvenndiagram/container.yaml"
-updated_at: "2025-11-22 03:10:35.890584"
+updated_at: "2025-11-23 03:42:26.103814"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicvenndiagram"
 aliases:

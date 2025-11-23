@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellbench"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellbench/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellbench/container.yaml"
-updated_at: "2025-11-22 03:56:38.365650"
+updated_at: "2025-11-23 04:28:48.445942"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellbench"
 aliases:

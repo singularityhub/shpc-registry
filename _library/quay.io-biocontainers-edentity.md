@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/edentity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edentity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edentity/container.yaml"
-updated_at: "2025-11-22 03:30:50.108289"
+updated_at: "2025-11-23 04:02:33.255225"
 latest: "1.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/edentity"
 aliases:
