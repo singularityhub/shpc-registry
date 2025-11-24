@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maxit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maxit/container.yaml"
-updated_at: "2025-11-23 03:55:14.816106"
+updated_at: "2025-11-24 03:43:24.434159"
 latest: "11.300--h503566f_0"
 container_url: "https://biocontainers.pro/tools/maxit"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/showali"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/showali/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/showali/container.yaml"
-updated_at: "2025-11-23 04:13:54.424308"
+updated_at: "2025-11-24 04:01:55.915073"
 latest: "1.0.1--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/showali"
 aliases:

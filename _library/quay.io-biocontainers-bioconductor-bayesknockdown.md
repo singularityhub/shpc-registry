@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bayesknockdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bayesknockdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bayesknockdown/container.yaml"
-updated_at: "2025-11-23 03:51:57.101032"
+updated_at: "2025-11-24 03:40:03.709650"
 latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bayesknockdown"
 aliases:

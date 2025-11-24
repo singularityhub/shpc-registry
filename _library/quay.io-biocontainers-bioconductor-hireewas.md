@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hireewas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hireewas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hireewas/container.yaml"
-updated_at: "2025-11-23 03:47:51.554990"
+updated_at: "2025-11-24 03:35:56.574934"
 latest: "1.20.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hireewas"
 aliases:

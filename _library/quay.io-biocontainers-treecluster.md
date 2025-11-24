@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treecluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treecluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treecluster/container.yaml"
-updated_at: "2025-11-23 03:53:42.025239"
-latest: "1.0.4--pyh7cba7a3_0"
+updated_at: "2025-11-24 03:41:51.238392"
+latest: "1.0.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/treecluster"
 aliases:
  - "TreeCluster.py"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "1.0.3--pyh3252c3a_0"
  - "1.0.4--pyh7cba7a3_0"
+ - "1.0.5--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for treecluster"
-config: {"url": "https://biocontainers.pro/tools/treecluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treecluster", "latest": {"1.0.4--pyh7cba7a3_0": "sha256:9b85cc4901b16fea5d3023fa2600e6c1efd7fb38938c67165e6267cc74cacb5c"}, "tags": {"1.0.3--pyh3252c3a_0": "sha256:1584f1aad9d10b9b3c5cbb6f1da0c1c98cf3358fa7fdc5f66348e7ff475a2b11", "1.0.4--pyh7cba7a3_0": "sha256:9b85cc4901b16fea5d3023fa2600e6c1efd7fb38938c67165e6267cc74cacb5c"}, "docker": "quay.io/biocontainers/treecluster", "aliases": {"TreeCluster.py": "/usr/local/bin/TreeCluster.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/treecluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treecluster", "latest": {"1.0.5--pyh7e72e81_0": "sha256:a3d6215564b20237f1b13b2542a81051bcf164346059b72a36b4d23ca183c658"}, "tags": {"1.0.3--pyh3252c3a_0": "sha256:1584f1aad9d10b9b3c5cbb6f1da0c1c98cf3358fa7fdc5f66348e7ff475a2b11", "1.0.4--pyh7cba7a3_0": "sha256:9b85cc4901b16fea5d3023fa2600e6c1efd7fb38938c67165e6267cc74cacb5c", "1.0.5--pyh7e72e81_0": "sha256:a3d6215564b20237f1b13b2542a81051bcf164346059b72a36b4d23ca183c658"}, "docker": "quay.io/biocontainers/treecluster", "aliases": {"TreeCluster.py": "/usr/local/bin/TreeCluster.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treecluster.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/treecluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treecluster:1.0.4--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/treecluster:1.0.5--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treecluster/1.0.4--pyh7cba7a3_0
-$ module help quay.io/biocontainers/treecluster/1.0.4--pyh7cba7a3_0
+$ module load quay.io/biocontainers/treecluster/1.0.5--pyh7e72e81_0
+$ module help quay.io/biocontainers/treecluster/1.0.5--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

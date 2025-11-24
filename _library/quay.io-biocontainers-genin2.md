@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genin2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genin2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genin2/container.yaml"
-updated_at: "2025-11-23 03:49:01.651972"
-latest: "2.1.3--pyhdfd78af_0"
+updated_at: "2025-11-24 03:37:07.033497"
+latest: "2.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genin2"
 aliases:
  - "genin2"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "2.1.2--pyhdfd78af_0"
  - "2.1.3--pyhdfd78af_0"
+ - "2.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for genin2"
-config: {"url": "https://biocontainers.pro/tools/genin2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genin2", "latest": {"2.1.3--pyhdfd78af_0": "sha256:3c1323da02de46feb9591548bd71f819bc4929754ec17eebde3a95b2477e6e3f"}, "tags": {"2.1.2--pyhdfd78af_0": "sha256:6e7a89b10fda980cd8e73c411b3210101205fb02e304dd18cbca2d7466ac95fb", "2.1.3--pyhdfd78af_0": "sha256:3c1323da02de46feb9591548bd71f819bc4929754ec17eebde3a95b2477e6e3f"}, "docker": "quay.io/biocontainers/genin2", "aliases": {"genin2": "/usr/local/bin/genin2", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/genin2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genin2", "latest": {"2.1.5--pyhdfd78af_0": "sha256:abda48eaff17ef82ba16f07d3732644c6f178baf794ae6afbc0ae2e24f5a20f8"}, "tags": {"2.1.2--pyhdfd78af_0": "sha256:6e7a89b10fda980cd8e73c411b3210101205fb02e304dd18cbca2d7466ac95fb", "2.1.3--pyhdfd78af_0": "sha256:3c1323da02de46feb9591548bd71f819bc4929754ec17eebde3a95b2477e6e3f", "2.1.5--pyhdfd78af_0": "sha256:abda48eaff17ef82ba16f07d3732644c6f178baf794ae6afbc0ae2e24f5a20f8"}, "docker": "quay.io/biocontainers/genin2", "aliases": {"genin2": "/usr/local/bin/genin2", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genin2.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/genin2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genin2:2.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/genin2:2.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genin2/2.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/genin2/2.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/genin2/2.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/genin2/2.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnftools/container.yaml"
-updated_at: "2025-11-23 03:44:32.004832"
-latest: "0.3.1.3--py36_0"
+updated_at: "2025-11-24 03:32:36.385675"
+latest: "0.4.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rnftools"
 aliases:
  - "art_454"
@@ -36,8 +36,9 @@ aliases:
  - "basename"
 versions:
  - "0.3.1.3--py36_0"
+ - "0.4.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rnftools"
-config: {"url": "https://biocontainers.pro/tools/rnftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnftools", "latest": {"0.3.1.3--py36_0": "sha256:6b653dec6b2f867df473b639953c92ebacc2d059ae9b7056291f3ccec8ac941e"}, "tags": {"0.3.1.3--py36_0": "sha256:6b653dec6b2f867df473b639953c92ebacc2d059ae9b7056291f3ccec8ac941e"}, "docker": "quay.io/biocontainers/rnftools", "aliases": {"art_454": "/usr/local/bin/art_454", "art_SOLiD": "/usr/local/bin/art_SOLiD", "art_illumina": "/usr/local/bin/art_illumina", "cairosvg": "/usr/local/bin/cairosvg", "curesim": "/usr/local/bin/curesim", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "mason_frag_sequencing": "/usr/local/bin/mason_frag_sequencing", "mason_genome": "/usr/local/bin/mason_genome", "mason_materializer": "/usr/local/bin/mason_materializer", "mason_methylation": "/usr/local/bin/mason_methylation", "mason_simulator": "/usr/local/bin/mason_simulator", "mason_splicing": "/usr/local/bin/mason_splicing", "mason_variator": "/usr/local/bin/mason_variator", "rnftools": "/usr/local/bin/rnftools", "svg42pdf": "/usr/local/bin/svg42pdf", "gnuplot": "/usr/local/bin/gnuplot", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename"}}
+config: {"url": "https://biocontainers.pro/tools/rnftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnftools", "latest": {"0.4.0.0--pyhdfd78af_0": "sha256:8d1aee585e397d6d575309c9dc36ce8d2c2fd77bcfc283455e57846ecb3d3062"}, "tags": {"0.3.1.3--py36_0": "sha256:6b653dec6b2f867df473b639953c92ebacc2d059ae9b7056291f3ccec8ac941e", "0.4.0.0--pyhdfd78af_0": "sha256:8d1aee585e397d6d575309c9dc36ce8d2c2fd77bcfc283455e57846ecb3d3062"}, "docker": "quay.io/biocontainers/rnftools", "aliases": {"art_454": "/usr/local/bin/art_454", "art_SOLiD": "/usr/local/bin/art_SOLiD", "art_illumina": "/usr/local/bin/art_illumina", "cairosvg": "/usr/local/bin/cairosvg", "curesim": "/usr/local/bin/curesim", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "mason_frag_sequencing": "/usr/local/bin/mason_frag_sequencing", "mason_genome": "/usr/local/bin/mason_genome", "mason_materializer": "/usr/local/bin/mason_materializer", "mason_methylation": "/usr/local/bin/mason_methylation", "mason_simulator": "/usr/local/bin/mason_simulator", "mason_splicing": "/usr/local/bin/mason_splicing", "mason_variator": "/usr/local/bin/mason_variator", "rnftools": "/usr/local/bin/rnftools", "svg42pdf": "/usr/local/bin/svg42pdf", "gnuplot": "/usr/local/bin/gnuplot", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnftools.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/rnftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnftools:0.3.1.3--py36_0
+$ shpc install quay.io/biocontainers/rnftools:0.4.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnftools/0.3.1.3--py36_0
-$ module help quay.io/biocontainers/rnftools/0.3.1.3--py36_0
+$ module load quay.io/biocontainers/rnftools/0.4.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/rnftools/0.4.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hardklor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hardklor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hardklor/container.yaml"
-updated_at: "2025-11-23 03:40:28.827559"
+updated_at: "2025-11-24 03:28:24.293920"
 latest: "2.3.2--h503566f_6"
 container_url: "https://biocontainers.pro/tools/hardklor"
 aliases:

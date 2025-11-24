@@ -4,8 +4,8 @@ name:  "quay.io/jupyter/minimal-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/minimal-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/minimal-notebook/container.yaml"
-updated_at: "2025-11-23 03:39:46.878568"
-latest: "2025-10-21"
+updated_at: "2025-11-24 03:27:40.904551"
+latest: "2025-11-20"
 container_url: "https://quay.io/repository/jupyter/minimal-notebook"
 aliases:
  - "run-notebook"
@@ -19,8 +19,11 @@ versions:
  - "2025-09-15"
  - "2025-08-25"
  - "2025-07-28"
+ - "2025-11-20"
+ - "2025-10-27"
+ - "2025-09-30"
 description: "Jupyter Minimal Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/minimal-notebook", "url": "https://quay.io/repository/jupyter/minimal-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Minimal Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-10-21": "sha256:5ce9db63d08e37ea4ff425e445d3a29e610bd2b031997d1a3cae0b835cfb5f03"}, "tags": {"latest": "sha256:5ce9db63d08e37ea4ff425e445d3a29e610bd2b031997d1a3cae0b835cfb5f03", "2025-05-30": "sha256:b1e5df5d0147db361f004f898700feffc80a58d09bca567bb93395945a30a8a2", "2025-06-23": "sha256:5e4e24ca25cf1a76c322792fc7915d9839f216867da89f1a1e18e71c9279972a", "2025-08-18": "sha256:83b6d0b5da37638d0957f812a07707e4e25ce44227c64588395c124140f96831", "2025-09-23": "sha256:f5c19ac74a97d8ead52a494d3d1208aa35101f4ba02d2e03c80063e3b8dc129b", "2025-10-21": "sha256:5ce9db63d08e37ea4ff425e445d3a29e610bd2b031997d1a3cae0b835cfb5f03", "2025-09-15": "sha256:f4b1950fffd01fef0b46ed8b3a4cf790bb8d89a8a295d4b2ed2789199f69ef8a", "2025-08-25": "sha256:1de4c9a7e52c2268beb011fe4146a02dd78c42fd428f73147fa9cf13fd6dbc77", "2025-07-28": "sha256:8ba77869d9e10eb0d8544c8359416efbe4185e00e99489e40cb029ad79a6c11c"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/minimal-notebook", "url": "https://quay.io/repository/jupyter/minimal-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Minimal Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-11-20": "sha256:e87c3727bd85c6427b0ace27482acf42c873d90cc0381db3b68fabb684e0e5ba"}, "tags": {"latest": "sha256:e87c3727bd85c6427b0ace27482acf42c873d90cc0381db3b68fabb684e0e5ba", "2025-05-30": "sha256:b1e5df5d0147db361f004f898700feffc80a58d09bca567bb93395945a30a8a2", "2025-06-23": "sha256:5e4e24ca25cf1a76c322792fc7915d9839f216867da89f1a1e18e71c9279972a", "2025-08-18": "sha256:83b6d0b5da37638d0957f812a07707e4e25ce44227c64588395c124140f96831", "2025-09-23": "sha256:f5c19ac74a97d8ead52a494d3d1208aa35101f4ba02d2e03c80063e3b8dc129b", "2025-10-21": "sha256:5ce9db63d08e37ea4ff425e445d3a29e610bd2b031997d1a3cae0b835cfb5f03", "2025-09-15": "sha256:f4b1950fffd01fef0b46ed8b3a4cf790bb8d89a8a295d4b2ed2789199f69ef8a", "2025-08-25": "sha256:1de4c9a7e52c2268beb011fe4146a02dd78c42fd428f73147fa9cf13fd6dbc77", "2025-07-28": "sha256:8ba77869d9e10eb0d8544c8359416efbe4185e00e99489e40cb029ad79a6c11c", "2025-11-20": "sha256:e87c3727bd85c6427b0ace27482acf42c873d90cc0381db3b68fabb684e0e5ba", "2025-10-27": "sha256:291d59447816307a0d5deaa8bd6a322cce1194c4dbafe0521077c835be9ac7fc", "2025-09-30": "sha256:40d4175df5ccbf92e648d422d2a4fe511f373aa3e1b1c0404ac68f029463ea3b"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/minimal-notebook.
@@ -35,7 +38,7 @@ $ shpc install quay.io/jupyter/minimal-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/minimal-notebook:2025-10-21
+$ shpc install quay.io/jupyter/minimal-notebook:2025-11-20
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/minimal-notebook/2025-10-21
-$ module help quay.io/jupyter/minimal-notebook/2025-10-21
+$ module load quay.io/jupyter/minimal-notebook/2025-11-20
+$ module help quay.io/jupyter/minimal-notebook/2025-11-20
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

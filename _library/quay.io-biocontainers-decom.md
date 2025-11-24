@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/decom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decom/container.yaml"
-updated_at: "2025-11-23 03:57:10.317443"
+updated_at: "2025-11-24 03:45:14.298683"
 latest: "0.0.32--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/decom"
 aliases:

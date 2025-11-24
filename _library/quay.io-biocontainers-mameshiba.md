@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mameshiba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mameshiba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mameshiba/container.yaml"
-updated_at: "2025-11-23 04:11:22.042794"
+updated_at: "2025-11-24 03:59:26.457156"
 latest: "0.7.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mameshiba"
 aliases:

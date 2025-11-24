@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-poppr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-poppr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-poppr/container.yaml"
-updated_at: "2025-11-23 04:25:09.298756"
+updated_at: "2025-11-24 04:13:25.733888"
 latest: "2.8.5--r40h516909a_1"
 container_url: "https://biocontainers.pro/tools/r-poppr"
 aliases:

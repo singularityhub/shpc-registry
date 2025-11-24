@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proteomm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteomm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteomm/container.yaml"
-updated_at: "2025-11-23 03:43:36.586917"
+updated_at: "2025-11-24 03:31:39.638710"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteomm"
 aliases:

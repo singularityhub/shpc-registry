@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/axe-demultiplexer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/axe-demultiplexer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/axe-demultiplexer/container.yaml"
-updated_at: "2025-11-23 03:40:44.497106"
+updated_at: "2025-11-24 03:28:40.575756"
 latest: "0.3.3--h3a4d415_0"
 container_url: "https://biocontainers.pro/tools/axe-demultiplexer"
 aliases:

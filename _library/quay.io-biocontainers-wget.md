@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wget/container.yaml"
-updated_at: "2025-11-23 04:01:00.145817"
-latest: "1.21.4"
+updated_at: "2025-11-24 03:49:02.120341"
+latest: "1.25.0"
 container_url: "https://biocontainers.pro/tools/wget"
 aliases:
  - "wget"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.20.1"
  - "1.21.4"
+ - "1.25.0"
 description: "shpc-registry automated BioContainers addition for wget"
-config: {"url": "https://biocontainers.pro/tools/wget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wget", "latest": {"1.21.4": "sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52"}, "tags": {"1.20.1": "sha256:7e5ba9e87a25c43cafea117ca3f3a7b4f6126115449b501c77b44d1fbf2c7a18", "1.21.4": "sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52"}, "docker": "quay.io/biocontainers/wget", "aliases": {"wget": "/usr/local/bin/wget", "idn2": "/usr/local/bin/idn2"}}
+config: {"url": "https://biocontainers.pro/tools/wget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wget", "latest": {"1.25.0": "sha256:48b418e977fe2dd4e94ee97a21670f7f9e41a3be86ab79091e23d2578c0fc68b"}, "tags": {"1.20.1": "sha256:7e5ba9e87a25c43cafea117ca3f3a7b4f6126115449b501c77b44d1fbf2c7a18", "1.21.4": "sha256:ff07d6bcfaeb5a906b3a7bad41a00187b7e90a7b271ff982136208191fc1bd52", "1.25.0": "sha256:48b418e977fe2dd4e94ee97a21670f7f9e41a3be86ab79091e23d2578c0fc68b"}, "docker": "quay.io/biocontainers/wget", "aliases": {"wget": "/usr/local/bin/wget", "idn2": "/usr/local/bin/idn2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wget.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/wget
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wget:1.21.4
+$ shpc install quay.io/biocontainers/wget:1.25.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wget/1.21.4
-$ module help quay.io/biocontainers/wget/1.21.4
+$ module load quay.io/biocontainers/wget/1.25.0
+$ module help quay.io/biocontainers/wget/1.25.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

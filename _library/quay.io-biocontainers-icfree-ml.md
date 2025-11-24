@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/icfree-ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icfree-ml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/icfree-ml/container.yaml"
-updated_at: "2025-11-23 04:18:47.929331"
+updated_at: "2025-11-24 04:06:57.932112"
 latest: "2.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/icfree-ml"
 aliases:

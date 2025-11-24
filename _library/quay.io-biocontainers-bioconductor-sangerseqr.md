@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sangerseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sangerseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sangerseqr/container.yaml"
-updated_at: "2025-11-23 04:03:49.504814"
+updated_at: "2025-11-24 03:51:52.426548"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sangerseqr"
 

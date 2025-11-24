@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-requiresinternet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-requiresinternet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-requiresinternet/container.yaml"
-updated_at: "2025-11-23 04:12:17.892276"
+updated_at: "2025-11-24 04:00:20.888939"
 latest: "0.05--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-requiresinternet"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38/container.yaml"
-updated_at: "2025-11-23 03:59:06.152378"
+updated_at: "2025-11-24 03:47:08.752001"
 latest: "0.99.20--r41hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp151.grch38"
 aliases:

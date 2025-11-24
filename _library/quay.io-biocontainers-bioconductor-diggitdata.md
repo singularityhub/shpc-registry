@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diggitdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diggitdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diggitdata/container.yaml"
-updated_at: "2025-11-23 04:29:49.067147"
+updated_at: "2025-11-24 04:18:01.881112"
 latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diggitdata"
 

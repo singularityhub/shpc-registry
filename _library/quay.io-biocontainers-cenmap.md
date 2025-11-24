@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cenmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cenmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cenmap/container.yaml"
-updated_at: "2025-11-23 04:25:51.768950"
-latest: "1.0.4--h577a1d6_2"
+updated_at: "2025-11-24 04:14:09.195749"
+latest: "1.1.0--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/cenmap"
 aliases:
  - "bigRmskAlignBed.as"
@@ -67,8 +67,9 @@ aliases:
 versions:
  - "1.0.4--h577a1d6_1"
  - "1.0.4--h577a1d6_2"
+ - "1.1.0--h577a1d6_0"
 description: "singularity registry hpc automated addition for cenmap"
-config: {"url": "https://biocontainers.pro/tools/cenmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cenmap", "latest": {"1.0.4--h577a1d6_2": "sha256:f3e7617f81d5b68150076e68e43e16b1a6acd45f2f8a8b97ad5301a3ccd4e449"}, "tags": {"1.0.4--h577a1d6_1": "sha256:5372e0ed0bda3f45e6df0f3736ffe5844acdf6d4d13698c5ae84f97c9df95be4", "1.0.4--h577a1d6_2": "sha256:f3e7617f81d5b68150076e68e43e16b1a6acd45f2f8a8b97ad5301a3ccd4e449"}, "docker": "quay.io/biocontainers/cenmap", "aliases": {"bigRmskAlignBed.as": "/usr/local/bin/bigRmskAlignBed.as", "bigRmskBed.as": "/usr/local/bin/bigRmskBed.as", "blast_formatter_vdb": "/usr/local/bin/blast_formatter_vdb", "blast_vdb_cmd": "/usr/local/bin/blast_vdb_cmd", "cenmap": "/usr/local/bin/cenmap", "cenplot": "/usr/local/bin/cenplot", "censtats": "/usr/local/bin/censtats", "combineRMFiles.pl": "/usr/local/bin/combineRMFiles.pl", "find": "/usr/local/bin/find", "h2benchmark": "/usr/local/bin/h2benchmark", "locate": "/usr/local/bin/locate", "makeclusterdb": "/usr/local/bin/makeclusterdb", "modkit": "/usr/local/bin/modkit", "nucflag": "/usr/local/bin/nucflag", "pbmm2": "/usr/local/bin/pbmm2", "phc": "/usr/local/bin/phc", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "rb": "/usr/local/bin/rb", "renumberRMFiles.pl": "/usr/local/bin/renumberRMFiles.pl", "rmToTrackHub.pl": "/usr/local/bin/rmToTrackHub.pl", "rustybam": "/usr/local/bin/rustybam", "srf": "/usr/local/bin/srf", "srf-n-trf": "/usr/local/bin/srf-n-trf", "srfutils.js": "/usr/local/bin/srfutils.js", "stringdecomposer": "/usr/local/bin/stringdecomposer", "trf-mod": "/usr/local/bin/trf-mod", "updatedb": "/usr/local/bin/updatedb", "xargs": "/usr/local/bin/xargs", "zless": "/usr/local/bin/zless", "maskFile.pl": "/usr/local/bin/maskFile.pl", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "bam2bed": "/usr/local/bin/bam2bed", "bam2bed_gnuParallel": "/usr/local/bin/bam2bed_gnuParallel", "bam2bed_sge": "/usr/local/bin/bam2bed_sge", "bam2bed_slurm": "/usr/local/bin/bam2bed_slurm", "bam2starch": "/usr/local/bin/bam2starch", "bam2starch_gnuParallel": "/usr/local/bin/bam2starch_gnuParallel", "bam2starch_sge": "/usr/local/bin/bam2starch_sge", "bam2starch_slurm": "/usr/local/bin/bam2starch_slurm"}}
+config: {"url": "https://biocontainers.pro/tools/cenmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cenmap", "latest": {"1.1.0--h577a1d6_0": "sha256:119a0829847c919ebe94cf466509c2e659bcaf3e8201e0735e2893bfaccdc01a"}, "tags": {"1.0.4--h577a1d6_1": "sha256:5372e0ed0bda3f45e6df0f3736ffe5844acdf6d4d13698c5ae84f97c9df95be4", "1.0.4--h577a1d6_2": "sha256:f3e7617f81d5b68150076e68e43e16b1a6acd45f2f8a8b97ad5301a3ccd4e449", "1.1.0--h577a1d6_0": "sha256:119a0829847c919ebe94cf466509c2e659bcaf3e8201e0735e2893bfaccdc01a"}, "docker": "quay.io/biocontainers/cenmap", "aliases": {"bigRmskAlignBed.as": "/usr/local/bin/bigRmskAlignBed.as", "bigRmskBed.as": "/usr/local/bin/bigRmskBed.as", "blast_formatter_vdb": "/usr/local/bin/blast_formatter_vdb", "blast_vdb_cmd": "/usr/local/bin/blast_vdb_cmd", "cenmap": "/usr/local/bin/cenmap", "cenplot": "/usr/local/bin/cenplot", "censtats": "/usr/local/bin/censtats", "combineRMFiles.pl": "/usr/local/bin/combineRMFiles.pl", "find": "/usr/local/bin/find", "h2benchmark": "/usr/local/bin/h2benchmark", "locate": "/usr/local/bin/locate", "makeclusterdb": "/usr/local/bin/makeclusterdb", "modkit": "/usr/local/bin/modkit", "nucflag": "/usr/local/bin/nucflag", "pbmm2": "/usr/local/bin/pbmm2", "phc": "/usr/local/bin/phc", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "rb": "/usr/local/bin/rb", "renumberRMFiles.pl": "/usr/local/bin/renumberRMFiles.pl", "rmToTrackHub.pl": "/usr/local/bin/rmToTrackHub.pl", "rustybam": "/usr/local/bin/rustybam", "srf": "/usr/local/bin/srf", "srf-n-trf": "/usr/local/bin/srf-n-trf", "srfutils.js": "/usr/local/bin/srfutils.js", "stringdecomposer": "/usr/local/bin/stringdecomposer", "trf-mod": "/usr/local/bin/trf-mod", "updatedb": "/usr/local/bin/updatedb", "xargs": "/usr/local/bin/xargs", "zless": "/usr/local/bin/zless", "maskFile.pl": "/usr/local/bin/maskFile.pl", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "DupMasker": "/usr/local/bin/DupMasker", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "bam2bed": "/usr/local/bin/bam2bed", "bam2bed_gnuParallel": "/usr/local/bin/bam2bed_gnuParallel", "bam2bed_sge": "/usr/local/bin/bam2bed_sge", "bam2bed_slurm": "/usr/local/bin/bam2bed_slurm", "bam2starch": "/usr/local/bin/bam2starch", "bam2starch_gnuParallel": "/usr/local/bin/bam2starch_gnuParallel", "bam2starch_sge": "/usr/local/bin/bam2starch_sge", "bam2starch_slurm": "/usr/local/bin/bam2starch_slurm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cenmap.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/cenmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cenmap:1.0.4--h577a1d6_2
+$ shpc install quay.io/biocontainers/cenmap:1.1.0--h577a1d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cenmap/1.0.4--h577a1d6_2
-$ module help quay.io/biocontainers/cenmap/1.0.4--h577a1d6_2
+$ module load quay.io/biocontainers/cenmap/1.1.0--h577a1d6_0
+$ module help quay.io/biocontainers/cenmap/1.1.0--h577a1d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

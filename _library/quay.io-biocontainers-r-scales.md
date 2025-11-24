@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scales"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scales/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scales/container.yaml"
-updated_at: "2025-11-23 04:32:09.818871"
+updated_at: "2025-11-24 04:20:25.487350"
 latest: "0.4.1--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-scales"
 aliases:

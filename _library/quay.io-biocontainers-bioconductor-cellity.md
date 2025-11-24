@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellity/container.yaml"
-updated_at: "2025-11-23 04:22:59.036859"
+updated_at: "2025-11-24 04:11:13.317162"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellity"
 

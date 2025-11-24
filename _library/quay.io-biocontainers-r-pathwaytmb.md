@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pathwaytmb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pathwaytmb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pathwaytmb/container.yaml"
-updated_at: "2025-11-23 04:15:20.389975"
+updated_at: "2025-11-24 04:03:24.311280"
 latest: "0.1.3--r44h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-pathwaytmb"
 aliases:
