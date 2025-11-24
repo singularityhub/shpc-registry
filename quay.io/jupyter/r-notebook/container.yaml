@@ -3,11 +3,11 @@ url: https://quay.io/repository/jupyter/r-notebook
 maintainer: '@HasseJohansen'
 description: Jupyter R Notebook from https://github.com/jupyter/docker-stacks
 latest:
-  '2025-10-21': 
-    sha256:121ed2f270eaeefe255138821fc6ff7fb4ea9be00e8b9789888c4cb042c2c654
+  '2025-11-24': 
+    sha256:69560a6949e149bd1d4aeb5ccdc088e8dc1b4c74f0d31287e3747aa6776fc003
 tags:
   latest: 
-    sha256:121ed2f270eaeefe255138821fc6ff7fb4ea9be00e8b9789888c4cb042c2c654
+    sha256:69560a6949e149bd1d4aeb5ccdc088e8dc1b4c74f0d31287e3747aa6776fc003
   '2025-06-02': 
     sha256:1cfec8732d6b8eaf891e6b3ea1a6844e50a90a1bf3d012e7d463869efd713093
   '2025-06-23': 
@@ -30,6 +30,10 @@ tags:
     sha256:87cc45eba17dfd6a2ea43e79bee4a9e75f22bc37a6f098634bb4bdef45088306
   '2025-07-28': 
     sha256:006007eb2f8613ad4c7b21f8f9ad3baba91e4ed28b879e1e40e2d027b2a0618c
+  '2025-11-24': 
+    sha256:69560a6949e149bd1d4aeb5ccdc088e8dc1b4c74f0d31287e3747aa6776fc003
+  '2025-09-29': 
+    sha256:d81e81da1975801c8a03e6c97469626a56d78188827f829b3ce68e729720c0fd
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

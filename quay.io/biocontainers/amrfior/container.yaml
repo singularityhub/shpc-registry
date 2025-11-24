@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/amrfior
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for amrfior
 latest:
-  0.2.3--pyhdfd78af_0: 
-    sha256:b6ffbba9c1f3956fb7113d69f4d0f385ae189f16c52a7a60f35ba7690986ea32
+  0.5.0--pyhdfd78af_0: 
+    sha256:5a52bee216bbe004422e05ac62d60e94a3240e8be744e7dbcfbee69b54fab03e
 tags:
   0.2.3--pyhdfd78af_0: 
     sha256:b6ffbba9c1f3956fb7113d69f4d0f385ae189f16c52a7a60f35ba7690986ea32
+  0.5.0--pyhdfd78af_0: 
+    sha256:5a52bee216bbe004422e05ac62d60e94a3240e8be744e7dbcfbee69b54fab03e
+  0.4.1--pyhdfd78af_0: 
+    sha256:fde7c6fed83dee8d15044d00c01fdc627018349bd5501166a8791b6bd2bfe729
 docker: quay.io/biocontainers/amrfior
 aliases:
   AMRfior: /usr/local/bin/AMRfior
