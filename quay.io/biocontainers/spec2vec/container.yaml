@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/spec2vec
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spec2vec
 latest:
-  0.8.0--pyhdfd78af_1: 
-    sha256:55d9c0483a43c25f6bc52d41b731ea174a8952c7961170708eb3c1be2de26de8
+  0.9.1--pyhdfd78af_0: 
+    sha256:cbc188d90e1c61b2cf6da5867547c4184d76f169f9ea88ab9a4e7489b1531a07
 tags:
   0.8.0--pyhdfd78af_0: 
     sha256:d5d1ccf339ba77f061787671c56f388b07d29a45e4e7902674af0fd68716fc45
   0.8.0--pyhdfd78af_1: 
     sha256:55d9c0483a43c25f6bc52d41b731ea174a8952c7961170708eb3c1be2de26de8
+  0.9.1--pyhdfd78af_0: 
+    sha256:cbc188d90e1c61b2cf6da5867547c4184d76f169f9ea88ab9a4e7489b1531a07
 docker: quay.io/biocontainers/spec2vec
 aliases:
   tjbench: /usr/local/bin/tjbench

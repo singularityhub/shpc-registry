@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/seqkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqkit
 latest:
-  2.10.1--he881be0_0: 
-    sha256:fbc9b1d536fab653a3f54cb92c13ced505d994e4811918a44315fd4123fa492b
+  2.11.0--he881be0_0: 
+    sha256:68d36cb416f3e1973c7fb6da557a84cea22859ef9fd26f1ee257cc8d6fa06ba1
 tags:
   2.3.1--h9ee0642_0: 
     sha256:2f3cb2be9909165a153e9b9bef2956d1d7ef7ee4c6f08984ff07f7562c3d7327
@@ -31,6 +31,8 @@ tags:
     sha256:0134eb157551d988a266889b33dfdd78b566a7494d93b2af2b5746e5b7cb3ad6
   2.10.1--he881be0_0: 
     sha256:fbc9b1d536fab653a3f54cb92c13ced505d994e4811918a44315fd4123fa492b
+  2.11.0--he881be0_0: 
+    sha256:68d36cb416f3e1973c7fb6da557a84cea22859ef9fd26f1ee257cc8d6fa06ba1
 docker: quay.io/biocontainers/seqkit
 aliases:
   seqkit: /usr/local/bin/seqkit

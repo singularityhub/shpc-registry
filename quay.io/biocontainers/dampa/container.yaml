@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/dampa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dampa
 latest:
-  0.1.4--pyhdfd78af_0: 
-    sha256:eead4dd0cad15a3baec795e32b49e659ffdfb7304fa140480b13be43c46e3f3f
+  0.2.0--pyhdfd78af_0: 
+    sha256:4dde998206a8f7a50b266882f6b62e25bba85b680129756e36f8a431b76721b5
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:6dad9a2713725ebc92f8b117cb8633672f4052997bcfb0cf7972356dc49db9e8
   0.1.4--pyhdfd78af_0: 
     sha256:eead4dd0cad15a3baec795e32b49e659ffdfb7304fa140480b13be43c46e3f3f
+  0.2.0--pyhdfd78af_0: 
+    sha256:4dde998206a8f7a50b266882f6b62e25bba85b680129756e36f8a431b76721b5
 docker: quay.io/biocontainers/dampa
 aliases:
   dampa: /usr/local/bin/dampa

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/tiberius
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tiberius
 latest:
-  1.1.6--pyhdfd78af_0: 
-    sha256:bd3074e908c3c1996ee357af3e940aa94c1380896a449bfece24116bff9df118
+  1.1.7--pyhdfd78af_0: 
+    sha256:39525972ccbc1c9ac850d309aa5fc760b14093e212e851b3f44664a939bf4c8c
 tags:
   1.0.0--pyh7e72e81_0: 
     sha256:54f5b47779f81f85817cb53be173594d30b6982f3244eb796a710e6e191a9cd1
@@ -11,6 +11,8 @@ tags:
     sha256:10d8cf3e70206123f573dd77193d310a0679c00dcff19e142330b1453a552dca
   1.1.6--pyhdfd78af_0: 
     sha256:bd3074e908c3c1996ee357af3e940aa94c1380896a449bfece24116bff9df118
+  1.1.7--pyhdfd78af_0: 
+    sha256:39525972ccbc1c9ac850d309aa5fc760b14093e212e851b3f44664a939bf4c8c
 docker: quay.io/biocontainers/tiberius
 aliases:
   annotation_gtf.py: /usr/local/bin/annotation_gtf.py

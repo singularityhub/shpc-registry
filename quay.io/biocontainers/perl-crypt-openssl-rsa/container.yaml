@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-crypt-openssl-rsa
 latest:
-  0.35--pl5321hc234bb7_0: 
-    sha256:62d71cad44c9baa6a5b26602eb39b4bed5c67667a882826de693da25a6c1f452
+  0.37--pl5321hc234bb7_0: 
+    sha256:db0f7525b56c18fa7d19ec944ccbdf4c9c88abb84f4d57797692c8b27676da54
 tags:
   0.33--pl5321h1f4ba0c_1: 
     sha256:d2440949b98ff36889e3d6dcfb466bec8d3af09f2cd6811d7b12765c448bdc9e
@@ -18,6 +18,8 @@ tags:
     sha256:62d71cad44c9baa6a5b26602eb39b4bed5c67667a882826de693da25a6c1f452
   0.34--pl5321hc234bb7_0: 
     sha256:706c416122b50b4c73b98211edd470d4a7f9f80f39ed557116938b3cc47276c1
+  0.37--pl5321hc234bb7_0: 
+    sha256:db0f7525b56c18fa7d19ec944ccbdf4c9c88abb84f4d57797692c8b27676da54
 docker: quay.io/biocontainers/perl-crypt-openssl-rsa
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1
