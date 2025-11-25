@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gsort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gsort/container.yaml"
-updated_at: "2025-11-24 03:31:56.080509"
-latest: "0.1.4--h9ee0642_1"
+updated_at: "2025-11-25 03:22:38.205145"
+latest: "0.1.5--he881be0_0"
 container_url: "https://biocontainers.pro/tools/gsort"
 aliases:
  - "gsort"
 versions:
  - "0.1.4--h9ee0642_1"
+ - "0.1.5--he881be0_0"
 description: "shpc-registry automated BioContainers addition for gsort"
-config: {"url": "https://biocontainers.pro/tools/gsort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gsort", "latest": {"0.1.4--h9ee0642_1": "sha256:541997a3c49e03dd7ea26de2f144830636f0f9b378ff04ae12a6c82d1f9f9d03"}, "tags": {"0.1.4--h9ee0642_1": "sha256:541997a3c49e03dd7ea26de2f144830636f0f9b378ff04ae12a6c82d1f9f9d03"}, "docker": "quay.io/biocontainers/gsort", "aliases": {"gsort": "/usr/local/bin/gsort"}}
+config: {"url": "https://biocontainers.pro/tools/gsort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gsort", "latest": {"0.1.5--he881be0_0": "sha256:687f4de55a488080648413daec3d05d80e87ae25c73cdaa189dc9c7365cfebb5"}, "tags": {"0.1.4--h9ee0642_1": "sha256:541997a3c49e03dd7ea26de2f144830636f0f9b378ff04ae12a6c82d1f9f9d03", "0.1.5--he881be0_0": "sha256:687f4de55a488080648413daec3d05d80e87ae25c73cdaa189dc9c7365cfebb5"}, "docker": "quay.io/biocontainers/gsort", "aliases": {"gsort": "/usr/local/bin/gsort"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gsort.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gsort
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gsort:0.1.4--h9ee0642_1
+$ shpc install quay.io/biocontainers/gsort:0.1.5--he881be0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gsort/0.1.4--h9ee0642_1
-$ module help quay.io/biocontainers/gsort/0.1.4--h9ee0642_1
+$ module load quay.io/biocontainers/gsort/0.1.5--he881be0_0
+$ module help quay.io/biocontainers/gsort/0.1.5--he881be0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

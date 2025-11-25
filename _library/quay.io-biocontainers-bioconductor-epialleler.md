@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epialleler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epialleler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epialleler/container.yaml"
-updated_at: "2025-11-24 03:41:22.852036"
+updated_at: "2025-11-25 03:32:11.934711"
 latest: "1.14.0--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epialleler"
 

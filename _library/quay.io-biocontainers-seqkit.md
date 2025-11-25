@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqkit/container.yaml"
-updated_at: "2025-11-24 03:38:39.991333"
+updated_at: "2025-11-25 03:29:30.790301"
 latest: "2.10.1--he881be0_0"
 container_url: "https://biocontainers.pro/tools/seqkit"
 aliases:

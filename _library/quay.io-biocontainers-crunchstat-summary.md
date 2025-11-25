@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crunchstat-summary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crunchstat-summary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crunchstat-summary/container.yaml"
-updated_at: "2025-11-24 03:57:07.404333"
-latest: "3.1.2--pyhdfd78af_0"
+updated_at: "2025-11-25 03:47:49.290783"
+latest: "3.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crunchstat-summary"
 aliases:
  - "arv-copy"
@@ -31,8 +31,9 @@ aliases:
  - "normalizer"
 versions:
  - "3.1.2--pyhdfd78af_0"
+ - "3.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for crunchstat-summary"
-config: {"url": "https://biocontainers.pro/tools/crunchstat-summary", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crunchstat-summary", "latest": {"3.1.2--pyhdfd78af_0": "sha256:5c519257e99a5ed22796075726c0e905a5c93f8d60a56ebf0b20828604a37833"}, "tags": {"3.1.2--pyhdfd78af_0": "sha256:5c519257e99a5ed22796075726c0e905a5c93f8d60a56ebf0b20828604a37833"}, "docker": "quay.io/biocontainers/crunchstat-summary", "aliases": {"arv-copy": "/usr/local/bin/arv-copy", "arv-federation-migrate": "/usr/local/bin/arv-federation-migrate", "arv-get": "/usr/local/bin/arv-get", "arv-keepdocker": "/usr/local/bin/arv-keepdocker", "arv-ls": "/usr/local/bin/arv-ls", "arv-normalize": "/usr/local/bin/arv-normalize", "arv-put": "/usr/local/bin/arv-put", "arv-ws": "/usr/local/bin/arv-ws", "crunchstat-summary": "/usr/local/bin/crunchstat-summary", "websockets": "/usr/local/bin/websockets", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/crunchstat-summary", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crunchstat-summary", "latest": {"3.2.0--pyhdfd78af_0": "sha256:0c0bdff65528564206bd648fd5c63c31cac9315ce3f1addf4f14aea5d86d958d"}, "tags": {"3.1.2--pyhdfd78af_0": "sha256:5c519257e99a5ed22796075726c0e905a5c93f8d60a56ebf0b20828604a37833", "3.2.0--pyhdfd78af_0": "sha256:0c0bdff65528564206bd648fd5c63c31cac9315ce3f1addf4f14aea5d86d958d"}, "docker": "quay.io/biocontainers/crunchstat-summary", "aliases": {"arv-copy": "/usr/local/bin/arv-copy", "arv-federation-migrate": "/usr/local/bin/arv-federation-migrate", "arv-get": "/usr/local/bin/arv-get", "arv-keepdocker": "/usr/local/bin/arv-keepdocker", "arv-ls": "/usr/local/bin/arv-ls", "arv-normalize": "/usr/local/bin/arv-normalize", "arv-put": "/usr/local/bin/arv-put", "arv-ws": "/usr/local/bin/arv-ws", "crunchstat-summary": "/usr/local/bin/crunchstat-summary", "websockets": "/usr/local/bin/websockets", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign", "pyrsa-verify": "/usr/local/bin/pyrsa-verify", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crunchstat-summary.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/crunchstat-summary
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crunchstat-summary:3.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/crunchstat-summary:3.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crunchstat-summary/3.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/crunchstat-summary/3.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/crunchstat-summary/3.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/crunchstat-summary/3.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

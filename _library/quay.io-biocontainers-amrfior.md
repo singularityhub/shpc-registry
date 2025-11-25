@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amrfior"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amrfior/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amrfior/container.yaml"
-updated_at: "2025-11-24 04:11:20.479431"
-latest: "0.2.3--pyhdfd78af_0"
+updated_at: "2025-11-25 04:01:33.007175"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amrfior"
 aliases:
  - "AMRfior"
@@ -37,8 +37,10 @@ aliases:
  - "bsmp2info"
 versions:
  - "0.2.3--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for amrfior"
-config: {"url": "https://biocontainers.pro/tools/amrfior", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amrfior", "latest": {"0.2.3--pyhdfd78af_0": "sha256:b6ffbba9c1f3956fb7113d69f4d0f385ae189f16c52a7a60f35ba7690986ea32"}, "tags": {"0.2.3--pyhdfd78af_0": "sha256:b6ffbba9c1f3956fb7113d69f4d0f385ae189f16c52a7a60f35ba7690986ea32"}, "docker": "quay.io/biocontainers/amrfior", "aliases": {"AMRfior": "/usr/local/bin/AMRfior", "amrfior": "/usr/local/bin/amrfior", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "ref-cache": "/usr/local/bin/ref-cache", "bsmp2info": "/usr/local/bin/bsmp2info"}}
+config: {"url": "https://biocontainers.pro/tools/amrfior", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amrfior", "latest": {"0.5.0--pyhdfd78af_0": "sha256:5a52bee216bbe004422e05ac62d60e94a3240e8be744e7dbcfbee69b54fab03e"}, "tags": {"0.2.3--pyhdfd78af_0": "sha256:b6ffbba9c1f3956fb7113d69f4d0f385ae189f16c52a7a60f35ba7690986ea32", "0.5.0--pyhdfd78af_0": "sha256:5a52bee216bbe004422e05ac62d60e94a3240e8be744e7dbcfbee69b54fab03e", "0.4.1--pyhdfd78af_0": "sha256:fde7c6fed83dee8d15044d00c01fdc627018349bd5501166a8791b6bd2bfe729"}, "docker": "quay.io/biocontainers/amrfior", "aliases": {"AMRfior": "/usr/local/bin/AMRfior", "amrfior": "/usr/local/bin/amrfior", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "ref-cache": "/usr/local/bin/ref-cache", "bsmp2info": "/usr/local/bin/bsmp2info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amrfior.
@@ -53,7 +55,7 @@ $ shpc install quay.io/biocontainers/amrfior
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amrfior:0.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/amrfior:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amrfior/0.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/amrfior/0.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/amrfior/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/amrfior/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

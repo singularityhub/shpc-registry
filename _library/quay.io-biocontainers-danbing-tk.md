@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/danbing-tk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/danbing-tk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/danbing-tk/container.yaml"
-updated_at: "2025-11-24 03:37:54.646827"
+updated_at: "2025-11-25 03:28:45.196967"
 latest: "1.3.2.5--h9948957_0"
 container_url: "https://biocontainers.pro/tools/danbing-tk"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-plsgenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-plsgenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-plsgenomics/container.yaml"
-updated_at: "2025-11-24 03:51:05.163202"
+updated_at: "2025-11-25 03:41:56.855027"
 latest: "1.5_2--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-plsgenomics"
 aliases:

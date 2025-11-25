@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-crypt-rc4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-crypt-rc4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-crypt-rc4/container.yaml"
-updated_at: "2025-11-24 03:53:54.728549"
+updated_at: "2025-11-25 03:44:43.969241"
 latest: "2.02--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-crypt-rc4"
 aliases:
