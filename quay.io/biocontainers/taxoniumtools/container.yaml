@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/taxoniumtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for taxoniumtools
+latest:
+  2.1.17--pyhdfd78af_0: 
+    sha256:12b17365885e385707f487c4a87c36f59e3c3ceb2393d477006dc34a624c52d7
+tags:
+  2.1.17--pyhdfd78af_0: 
+    sha256:12b17365885e385707f487c4a87c36f59e3c3ceb2393d477006dc34a624c52d7
+docker: quay.io/biocontainers/taxoniumtools
+aliases:
+  inv: /usr/local/bin/inv
+  invoke: /usr/local/bin/invoke
+  newick_to_taxonium: /usr/local/bin/newick_to_taxonium
+  usher_to_taxonium: /usr/local/bin/usher_to_taxonium
+  view_taxonium: /usr/local/bin/view_taxonium
+  wsdump: /usr/local/bin/wsdump
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign
+  pyrsa-verify: /usr/local/bin/pyrsa-verify
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  protoc: /usr/local/bin/protoc
+  normalizer: /usr/local/bin/normalizer
