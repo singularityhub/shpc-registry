@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/telogator2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for telogator2
+latest:
+  2.2.2--pyhdfd78af_0: 
+    sha256:001b2ec84ce9b44b253fdce159c4355892fac40b33371ab427b003eba1e502b6
+tags:
+  2.2.2--pyhdfd78af_0: 
+    sha256:001b2ec84ce9b44b253fdce159c4355892fac40b33371ab427b003eba1e502b6
+docker: quay.io/biocontainers/telogator2
+aliases:
+  telogator2: /usr/local/bin/telogator2
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
