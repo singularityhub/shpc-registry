@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/barbell
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for barbell
+latest:
+  0.3.0--hc1c3326_0: 
+    sha256:ad9b13a629725e52188f31a0f1f84eeb7c8ad3b67d32c5443f52bc57da815fb7
+tags:
+  0.3.0--hc1c3326_0: 
+    sha256:ad9b13a629725e52188f31a0f1f84eeb7c8ad3b67d32c5443f52bc57da815fb7
+docker: quay.io/biocontainers/barbell
+aliases:
+  barbell: /usr/local/bin/barbell
