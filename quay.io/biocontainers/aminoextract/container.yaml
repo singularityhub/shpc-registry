@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/aminoextract
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aminoextract
 latest:
-  0.4.0--pyhdfd78af_0: 
-    sha256:2e8b36fc89a75c1a1d5676bd3337b1f84543bb9a1dd49f13f91fe904ea453863
+  0.4.1--pyhdfd78af_0: 
+    sha256:88648bb1e6ed99552236c30ee5616cf1b07cf8428853da172e290b9077380d9b
 tags:
   0.2.1--pyhdfd78af_0: 
     sha256:5c559c2dbd9ec2b624fffb75b5518764c5f861f3f6de3d059644fafb3ba76a32
@@ -11,6 +11,8 @@ tags:
     sha256:3c5f240f0415f03cd402efc6bbabcb981711d71597e0d3bc7d946bef539e1cbc
   0.4.0--pyhdfd78af_0: 
     sha256:2e8b36fc89a75c1a1d5676bd3337b1f84543bb9a1dd49f13f91fe904ea453863
+  0.4.1--pyhdfd78af_0: 
+    sha256:88648bb1e6ed99552236c30ee5616cf1b07cf8428853da172e290b9077380d9b
 docker: quay.io/biocontainers/aminoextract
 aliases:
   AminoExtract: /usr/local/bin/AminoExtract

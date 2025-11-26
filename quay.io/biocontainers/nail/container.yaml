@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nail
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nail
 latest:
-  0.4.0--h4349ce8_0: 
-    sha256:fbd4fee71cdf448391cd4dd66100ac33d982775e25ab38e376024c07852e0ed8
+  0.4.0--h4349ce8_1: 
+    sha256:09bb02327d890f1af81b897ccfb71e5b3f78f526bb8c73295ebe08f21e36ec21
 tags:
   0.3.0--h4349ce8_0: 
     sha256:54e47136c7445593ec40965b74d74f4473a6a6bac447c8364e1c884960f7d43c
@@ -11,6 +11,8 @@ tags:
     sha256:f9c8f1bd41f2a0561bb2d4ce640ebffc4a671c5ae52ba140b49225cd72487e6e
   0.4.0--h4349ce8_0: 
     sha256:fbd4fee71cdf448391cd4dd66100ac33d982775e25ab38e376024c07852e0ed8
+  0.4.0--h4349ce8_1: 
+    sha256:09bb02327d890f1af81b897ccfb71e5b3f78f526bb8c73295ebe08f21e36ec21
 docker: quay.io/biocontainers/nail
 aliases:
   nail: /usr/local/bin/nail

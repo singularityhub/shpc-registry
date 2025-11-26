@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/assembly_uploader
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for assembly_uploader
 latest:
-  1.3.2--pyhdfd78af_0: 
-    sha256:511f296f5d3620abf95384b1dd33b42b9a4efce64ee86af4516a2d9413b8d637
+  1.3.5--pyhdfd78af_0: 
+    sha256:29122839a72fc3ec06fdc443a35b0d2dc099ed5796bc86d7da1c7b2e034811e6
 tags:
   1.3.2--pyhdfd78af_0: 
     sha256:511f296f5d3620abf95384b1dd33b42b9a4efce64ee86af4516a2d9413b8d637
+  1.3.5--pyhdfd78af_0: 
+    sha256:29122839a72fc3ec06fdc443a35b0d2dc099ed5796bc86d7da1c7b2e034811e6
 docker: quay.io/biocontainers/assembly_uploader
 aliases:
   assembly_manifest: /usr/local/bin/assembly_manifest
