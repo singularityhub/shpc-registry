@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spec2vec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spec2vec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spec2vec/container.yaml"
-updated_at: "2025-11-25 04:05:53.636063"
-latest: "0.8.0--pyhdfd78af_1"
+updated_at: "2025-11-26 04:07:42.701296"
+latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spec2vec"
 aliases:
  - "tjbench"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.8.0--pyhdfd78af_0"
  - "0.8.0--pyhdfd78af_1"
+ - "0.9.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for spec2vec"
-config: {"url": "https://biocontainers.pro/tools/spec2vec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spec2vec", "latest": {"0.8.0--pyhdfd78af_1": "sha256:55d9c0483a43c25f6bc52d41b731ea174a8952c7961170708eb3c1be2de26de8"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:d5d1ccf339ba77f061787671c56f388b07d29a45e4e7902674af0fd68716fc45", "0.8.0--pyhdfd78af_1": "sha256:55d9c0483a43c25f6bc52d41b731ea174a8952c7961170708eb3c1be2de26de8"}, "docker": "quay.io/biocontainers/spec2vec", "aliases": {"tjbench": "/usr/local/bin/tjbench", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/spec2vec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spec2vec", "latest": {"0.9.1--pyhdfd78af_0": "sha256:cbc188d90e1c61b2cf6da5867547c4184d76f169f9ea88ab9a4e7489b1531a07"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:d5d1ccf339ba77f061787671c56f388b07d29a45e4e7902674af0fd68716fc45", "0.8.0--pyhdfd78af_1": "sha256:55d9c0483a43c25f6bc52d41b731ea174a8952c7961170708eb3c1be2de26de8", "0.9.1--pyhdfd78af_0": "sha256:cbc188d90e1c61b2cf6da5867547c4184d76f169f9ea88ab9a4e7489b1531a07"}, "docker": "quay.io/biocontainers/spec2vec", "aliases": {"tjbench": "/usr/local/bin/tjbench", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "brotli": "/usr/local/bin/brotli", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spec2vec.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/spec2vec
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spec2vec:0.8.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/spec2vec:0.9.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spec2vec/0.8.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/spec2vec/0.8.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/spec2vec/0.9.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/spec2vec/0.9.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ctxcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctxcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctxcore/container.yaml"
-updated_at: "2025-11-25 03:31:15.695741"
-latest: "0.2.0--pyh7e72e81_0"
+updated_at: "2025-11-26 03:31:46.358005"
+latest: "0.2.0--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/ctxcore"
 aliases:
  - "protoc-25.3.0"
@@ -35,8 +35,9 @@ aliases:
  - "grpc_ruby_plugin"
 versions:
  - "0.2.0--pyh7e72e81_0"
+ - "0.2.0--pyh7e72e81_1"
 description: "singularity registry hpc automated addition for ctxcore"
-config: {"url": "https://biocontainers.pro/tools/ctxcore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ctxcore", "latest": {"0.2.0--pyh7e72e81_0": "sha256:d6f8a458de97c9cfd32fee57824e32f23c730397c9d90ab375ba2ae75c1c8df4"}, "tags": {"0.2.0--pyh7e72e81_0": "sha256:d6f8a458de97c9cfd32fee57824e32f23c730397c9d90ab375ba2ae75c1c8df4"}, "docker": "quay.io/biocontainers/ctxcore", "aliases": {"protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "numpy-config": "/usr/local/bin/numpy-config", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "numba": "/usr/local/bin/numba", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/ctxcore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ctxcore", "latest": {"0.2.0--pyh7e72e81_1": "sha256:33920ba099b8d03e5dcc404b074f9ef47b6b56110ba65ddf77974adc9d9ddb96"}, "tags": {"0.2.0--pyh7e72e81_0": "sha256:d6f8a458de97c9cfd32fee57824e32f23c730397c9d90ab375ba2ae75c1c8df4", "0.2.0--pyh7e72e81_1": "sha256:33920ba099b8d03e5dcc404b074f9ef47b6b56110ba65ddf77974adc9d9ddb96"}, "docker": "quay.io/biocontainers/ctxcore", "aliases": {"protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "numpy-config": "/usr/local/bin/numpy-config", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "numba": "/usr/local/bin/numba", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ctxcore.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/ctxcore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ctxcore:0.2.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/ctxcore:0.2.0--pyh7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ctxcore/0.2.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/ctxcore/0.2.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/ctxcore/0.2.0--pyh7e72e81_1
+$ module help quay.io/biocontainers/ctxcore/0.2.0--pyh7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

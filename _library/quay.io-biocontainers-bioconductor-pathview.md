@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathview/container.yaml"
-updated_at: "2025-11-25 04:07:59.275533"
+updated_at: "2025-11-26 04:09:52.165380"
 latest: "1.42.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathview"
 aliases:

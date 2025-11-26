@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telr/container.yaml"
-updated_at: "2025-11-25 04:04:47.477978"
+updated_at: "2025-11-26 04:06:35.758706"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telr"
 aliases:

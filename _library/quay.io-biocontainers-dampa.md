@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dampa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dampa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dampa/container.yaml"
-updated_at: "2025-11-25 03:35:19.196248"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2025-11-26 03:35:59.962628"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dampa"
 aliases:
  - "dampa"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.1.1--pyhdfd78af_0"
  - "0.1.4--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dampa"
-config: {"url": "https://biocontainers.pro/tools/dampa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dampa", "latest": {"0.1.4--pyhdfd78af_0": "sha256:eead4dd0cad15a3baec795e32b49e659ffdfb7304fa140480b13be43c46e3f3f"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:6dad9a2713725ebc92f8b117cb8633672f4052997bcfb0cf7972356dc49db9e8", "0.1.4--pyhdfd78af_0": "sha256:eead4dd0cad15a3baec795e32b49e659ffdfb7304fa140480b13be43c46e3f3f"}, "docker": "quay.io/biocontainers/dampa", "aliases": {"dampa": "/usr/local/bin/dampa", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "vsearch": "/usr/local/bin/vsearch", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record"}}
+config: {"url": "https://biocontainers.pro/tools/dampa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dampa", "latest": {"0.2.0--pyhdfd78af_0": "sha256:4dde998206a8f7a50b266882f6b62e25bba85b680129756e36f8a431b76721b5"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:6dad9a2713725ebc92f8b117cb8633672f4052997bcfb0cf7972356dc49db9e8", "0.1.4--pyhdfd78af_0": "sha256:eead4dd0cad15a3baec795e32b49e659ffdfb7304fa140480b13be43c46e3f3f", "0.2.0--pyhdfd78af_0": "sha256:4dde998206a8f7a50b266882f6b62e25bba85b680129756e36f8a431b76721b5"}, "docker": "quay.io/biocontainers/dampa", "aliases": {"dampa": "/usr/local/bin/dampa", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "vsearch": "/usr/local/bin/vsearch", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dampa.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/dampa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dampa:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dampa:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dampa/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/dampa/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/dampa/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/dampa/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
