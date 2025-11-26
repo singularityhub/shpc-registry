@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/polyat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for polyat
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:b14dc249ab0c24c763b5268de71dd265f2a57e6e9b95268201bfc6663445e800
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:b14dc249ab0c24c763b5268de71dd265f2a57e6e9b95268201bfc6663445e800
+docker: quay.io/biocontainers/polyat
+aliases:
+  polyat: /usr/local/bin/polyat
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
