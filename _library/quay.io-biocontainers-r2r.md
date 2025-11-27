@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r2r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r2r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r2r/container.yaml"
-updated_at: "2025-11-26 03:54:05.521984"
+updated_at: "2025-11-27 03:49:56.741728"
 latest: "1.0.6--pl5321h503566f_5"
 container_url: "https://biocontainers.pro/tools/r2r"
 aliases:

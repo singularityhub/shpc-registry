@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/assembly_uploader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assembly_uploader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assembly_uploader/container.yaml"
-updated_at: "2025-11-26 03:26:05.377999"
-latest: "1.3.2--pyhdfd78af_0"
+updated_at: "2025-11-27 03:22:33.946710"
+latest: "1.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/assembly_uploader"
 aliases:
  - "assembly_manifest"
@@ -19,8 +19,9 @@ aliases:
  - "normalizer"
 versions:
  - "1.3.2--pyhdfd78af_0"
+ - "1.3.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for assembly_uploader"
-config: {"url": "https://biocontainers.pro/tools/assembly_uploader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for assembly_uploader", "latest": {"1.3.2--pyhdfd78af_0": "sha256:511f296f5d3620abf95384b1dd33b42b9a4efce64ee86af4516a2d9413b8d637"}, "tags": {"1.3.2--pyhdfd78af_0": "sha256:511f296f5d3620abf95384b1dd33b42b9a4efce64ee86af4516a2d9413b8d637"}, "docker": "quay.io/biocontainers/assembly_uploader", "aliases": {"assembly_manifest": "/usr/local/bin/assembly_manifest", "release_study": "/usr/local/bin/release_study", "study_xmls": "/usr/local/bin/study_xmls", "submit_study": "/usr/local/bin/submit_study", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/assembly_uploader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for assembly_uploader", "latest": {"1.3.5--pyhdfd78af_0": "sha256:29122839a72fc3ec06fdc443a35b0d2dc099ed5796bc86d7da1c7b2e034811e6"}, "tags": {"1.3.2--pyhdfd78af_0": "sha256:511f296f5d3620abf95384b1dd33b42b9a4efce64ee86af4516a2d9413b8d637", "1.3.5--pyhdfd78af_0": "sha256:29122839a72fc3ec06fdc443a35b0d2dc099ed5796bc86d7da1c7b2e034811e6"}, "docker": "quay.io/biocontainers/assembly_uploader", "aliases": {"assembly_manifest": "/usr/local/bin/assembly_manifest", "release_study": "/usr/local/bin/release_study", "study_xmls": "/usr/local/bin/study_xmls", "submit_study": "/usr/local/bin/submit_study", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/assembly_uploader.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/assembly_uploader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/assembly_uploader:1.3.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/assembly_uploader:1.3.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/assembly_uploader/1.3.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/assembly_uploader/1.3.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/assembly_uploader/1.3.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/assembly_uploader/1.3.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

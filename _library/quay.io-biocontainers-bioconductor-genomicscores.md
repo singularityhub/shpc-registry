@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicscores"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicscores/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicscores/container.yaml"
-updated_at: "2025-11-26 03:50:43.082413"
+updated_at: "2025-11-27 03:46:41.332689"
 latest: "2.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicscores"
 

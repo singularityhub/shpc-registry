@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-pave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-pave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-pave/container.yaml"
-updated_at: "2025-11-26 03:35:59.388007"
-latest: "1.8--hdfd78af_1"
+updated_at: "2025-11-27 03:32:01.933859"
+latest: "1.8.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-pave"
 aliases:
  - "pave"
@@ -42,8 +42,9 @@ versions:
  - "1.8--hdfd78af_0"
  - "1.8--hdfd78af_1"
  - "1.8.1--hdfd78af_0"
+ - "1.8.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-pave"
-config: {"url": "https://biocontainers.pro/tools/hmftools-pave", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-pave", "latest": {"1.8--hdfd78af_1": "sha256:8f6c54b79aabcdd4c98ef7fd5d3f3f5629fb06aec95cdaea0a77338f9c921ad0"}, "tags": {"1.4.1--hdfd78af_0": "sha256:0e40fd4d0473989a57508ffee6e00bf555c46c9a89732a1f27c0c2bb79f38552", "1.6--hdfd78af_0": "sha256:f16a3dbc070932b1fdc60e55415d3e5bd40aea655a7d841fb744170e3c857d86", "1.7_beta--hdfd78af_0": "sha256:01bc703f051b8c95ddb979dec503095ad53baa0339f22da95e2deacf4555a014", "1.7_beta--hdfd78af_2": "sha256:56f5ac6c020a60b745808106c2bb3b8f5fe73ff0cf192ddef8f21b69c058ca4a", "1.8--hdfd78af_0": "sha256:bb8ed116869700c65150850ce0fa45d217f5ba3d918b8fa524fe91af59d15c63", "1.8--hdfd78af_1": "sha256:8f6c54b79aabcdd4c98ef7fd5d3f3f5629fb06aec95cdaea0a77338f9c921ad0", "1.8.1--hdfd78af_0": "sha256:1e7b9983caf32b9fc0c07437f55c4d1aa2d8cab4bb17fec0c9767886d3fdcf11"}, "docker": "quay.io/biocontainers/hmftools-pave", "aliases": {"pave": "/usr/local/bin/pave", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-pave", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-pave", "latest": {"1.8.2--hdfd78af_0": "sha256:ac93b4930e0cadd3a2d846f31483244fd1745f41f6ea4eb2485f9023946a8fce"}, "tags": {"1.4.1--hdfd78af_0": "sha256:0e40fd4d0473989a57508ffee6e00bf555c46c9a89732a1f27c0c2bb79f38552", "1.6--hdfd78af_0": "sha256:f16a3dbc070932b1fdc60e55415d3e5bd40aea655a7d841fb744170e3c857d86", "1.7_beta--hdfd78af_0": "sha256:01bc703f051b8c95ddb979dec503095ad53baa0339f22da95e2deacf4555a014", "1.7_beta--hdfd78af_2": "sha256:56f5ac6c020a60b745808106c2bb3b8f5fe73ff0cf192ddef8f21b69c058ca4a", "1.8--hdfd78af_0": "sha256:bb8ed116869700c65150850ce0fa45d217f5ba3d918b8fa524fe91af59d15c63", "1.8--hdfd78af_1": "sha256:8f6c54b79aabcdd4c98ef7fd5d3f3f5629fb06aec95cdaea0a77338f9c921ad0", "1.8.1--hdfd78af_0": "sha256:1e7b9983caf32b9fc0c07437f55c4d1aa2d8cab4bb17fec0c9767886d3fdcf11", "1.8.2--hdfd78af_0": "sha256:ac93b4930e0cadd3a2d846f31483244fd1745f41f6ea4eb2485f9023946a8fce"}, "docker": "quay.io/biocontainers/hmftools-pave", "aliases": {"pave": "/usr/local/bin/pave", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo", "jmap": "/usr/local/bin/jmap", "jps": "/usr/local/bin/jps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-pave.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/hmftools-pave
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-pave:1.8--hdfd78af_1
+$ shpc install quay.io/biocontainers/hmftools-pave:1.8.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-pave/1.8--hdfd78af_1
-$ module help quay.io/biocontainers/hmftools-pave/1.8--hdfd78af_1
+$ module load quay.io/biocontainers/hmftools-pave/1.8.2--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-pave/1.8.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

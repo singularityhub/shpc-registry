@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/halla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/halla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/halla/container.yaml"
-updated_at: "2025-11-26 03:25:36.945377"
-latest: "0.8.17--py36_0"
+updated_at: "2025-11-27 03:22:06.887878"
+latest: "0.8.40--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/halla"
 aliases:
  - "halla"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "0.8.17--py36_0"
  - "0.8.17--py27_0"
+ - "0.8.40--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for halla"
-config: {"url": "https://biocontainers.pro/tools/halla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for halla", "latest": {"0.8.17--py36_0": "sha256:ebd931b2ac3e799d6c9d9334483ddc088538161ea23e146ade37fcb2ae1ec920"}, "tags": {"0.8.17--py36_0": "sha256:ebd931b2ac3e799d6c9d9334483ddc088538161ea23e146ade37fcb2ae1ec920", "0.8.17--py27_0": "sha256:239c35baf60a7ffae46528f7bd1d3c562f473909082287230a7d24a47066108c"}, "docker": "quay.io/biocontainers/halla", "aliases": {"halla": "/usr/local/bin/halla", "halladata": "/usr/local/bin/halladata", "hallagram": "/usr/local/bin/hallagram", "hallascatter": "/usr/local/bin/hallascatter", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "f2py3.6": "/usr/local/bin/f2py3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo"}}
+config: {"url": "https://biocontainers.pro/tools/halla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for halla", "latest": {"0.8.40--pyhdfd78af_0": "sha256:f2f37d276216f14ef6d5549ea802172bdfb82aa24f7ecdefe683b6d85afd5009"}, "tags": {"0.8.17--py36_0": "sha256:ebd931b2ac3e799d6c9d9334483ddc088538161ea23e146ade37fcb2ae1ec920", "0.8.17--py27_0": "sha256:239c35baf60a7ffae46528f7bd1d3c562f473909082287230a7d24a47066108c", "0.8.40--pyhdfd78af_0": "sha256:f2f37d276216f14ef6d5549ea802172bdfb82aa24f7ecdefe683b6d85afd5009"}, "docker": "quay.io/biocontainers/halla", "aliases": {"halla": "/usr/local/bin/halla", "halladata": "/usr/local/bin/halladata", "hallagram": "/usr/local/bin/hallagram", "hallascatter": "/usr/local/bin/hallascatter", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "f2py3.6": "/usr/local/bin/f2py3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/halla.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/halla
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/halla:0.8.17--py36_0
+$ shpc install quay.io/biocontainers/halla:0.8.40--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/halla/0.8.17--py36_0
-$ module help quay.io/biocontainers/halla/0.8.17--py36_0
+$ module load quay.io/biocontainers/halla/0.8.40--pyhdfd78af_0
+$ module help quay.io/biocontainers/halla/0.8.40--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

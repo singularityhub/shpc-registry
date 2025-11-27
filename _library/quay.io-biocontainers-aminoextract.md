@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aminoextract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aminoextract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aminoextract/container.yaml"
-updated_at: "2025-11-26 04:12:46.442732"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2025-11-27 04:08:04.603995"
+latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aminoextract"
 aliases:
  - "AminoExtract"
@@ -23,8 +23,9 @@ versions:
  - "0.2.1--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_0"
  - "0.4.0--pyhdfd78af_0"
+ - "0.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for aminoextract"
-config: {"url": "https://biocontainers.pro/tools/aminoextract", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aminoextract", "latest": {"0.4.0--pyhdfd78af_0": "sha256:2e8b36fc89a75c1a1d5676bd3337b1f84543bb9a1dd49f13f91fe904ea453863"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:5c559c2dbd9ec2b624fffb75b5518764c5f861f3f6de3d059644fafb3ba76a32", "0.3.1--pyhdfd78af_0": "sha256:3c5f240f0415f03cd402efc6bbabcb981711d71597e0d3bc7d946bef539e1cbc", "0.4.0--pyhdfd78af_0": "sha256:2e8b36fc89a75c1a1d5676bd3337b1f84543bb9a1dd49f13f91fe904ea453863"}, "docker": "quay.io/biocontainers/aminoextract", "aliases": {"AminoExtract": "/usr/local/bin/AminoExtract", "aminoextract": "/usr/local/bin/aminoextract", "markdown-it": "/usr/local/bin/markdown-it", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pygmentize": "/usr/local/bin/pygmentize", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/aminoextract", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aminoextract", "latest": {"0.4.1--pyhdfd78af_0": "sha256:88648bb1e6ed99552236c30ee5616cf1b07cf8428853da172e290b9077380d9b"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:5c559c2dbd9ec2b624fffb75b5518764c5f861f3f6de3d059644fafb3ba76a32", "0.3.1--pyhdfd78af_0": "sha256:3c5f240f0415f03cd402efc6bbabcb981711d71597e0d3bc7d946bef539e1cbc", "0.4.0--pyhdfd78af_0": "sha256:2e8b36fc89a75c1a1d5676bd3337b1f84543bb9a1dd49f13f91fe904ea453863", "0.4.1--pyhdfd78af_0": "sha256:88648bb1e6ed99552236c30ee5616cf1b07cf8428853da172e290b9077380d9b"}, "docker": "quay.io/biocontainers/aminoextract", "aliases": {"AminoExtract": "/usr/local/bin/AminoExtract", "aminoextract": "/usr/local/bin/aminoextract", "markdown-it": "/usr/local/bin/markdown-it", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "pygmentize": "/usr/local/bin/pygmentize", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aminoextract.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/aminoextract
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aminoextract:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/aminoextract:0.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aminoextract/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/aminoextract/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/aminoextract/0.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/aminoextract/0.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
