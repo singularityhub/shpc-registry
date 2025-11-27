@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/kompot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kompot
+latest:
+  0.6.0--pyhdfd78af_0: 
+    sha256:b37b831125a71daeee386938332f95d8b4ca6ca1f0f1ea152e309f70be809285
+tags:
+  0.6.0--pyhdfd78af_0: 
+    sha256:b37b831125a71daeee386938332f95d8b4ca6ca1f0f1ea152e309f70be809285
+docker: quay.io/biocontainers/kompot
+aliases:
+  crc32c: /usr/local/bin/crc32c
+  kompot: /usr/local/bin/kompot
+  mellon-test: /usr/local/bin/mellon-test
+  zarr: /usr/local/bin/zarr
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  h5fuse: /usr/local/bin/h5fuse
+  igraph: /usr/local/bin/igraph
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  h5delete: /usr/local/bin/h5delete
+  natsort: /usr/local/bin/natsort
+  numba: /usr/local/bin/numba
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
