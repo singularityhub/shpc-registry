@@ -2,8 +2,7 @@ url: https://biocontainers.pro/tools/trimal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trimal
 latest:
-  1.5.0--h4ac6f70_1: 
-    sha256:484e5cea3ff9952ea7c6b5493e18b978b80643d16090da606b486f04a348cdb3
+  '1.5': sha256:0bcf6070586ada1a6f974b04d46908340166dcb383ad32519ed4831ca2b1d14e
 tags:
   1.4.1--h9f5acd7_6: 
     sha256:a0e5f37ed058270b0ff00d7f683df2fbc65423822267848b2bae1a9ffe197b0c
@@ -18,6 +17,8 @@ tags:
   '1.5': sha256:0bcf6070586ada1a6f974b04d46908340166dcb383ad32519ed4831ca2b1d14e
   1.5.0--h9948957_2: 
     sha256:4d6c233657e7ca152d21f19dee203b9589ae1c9f75c29b762f307fc08fbbb2e0
+  1.5.1--h9948957_0: 
+    sha256:2ddc872b92ac2634961cdd1f234d2d7779fccbd03b8c717e0bbbfe74dc7fb4dd
 docker: quay.io/biocontainers/trimal
 aliases:
   trimal: /usr/local/bin/trimal

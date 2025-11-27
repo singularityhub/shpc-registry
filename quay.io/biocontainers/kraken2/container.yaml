@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/kraken2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kraken2
 latest:
-  2.14--pl5321h077b44d_0: 
-    sha256:bb8bc0cf086413faf02715d060457f6078ff271f6d18d54b2734d740ac27e2d6
+  2.17.1--pl5321h077b44d_0: 
+    sha256:c5eb4764f23e9db975cbc3e545d330e1fe468307f5e59a99c0ce8f4c1f6f09e2
 tags:
   2.1.2--pl5321h9f5acd7_2: 
     sha256:2208f6895251786e2a673789a3242d62873ac9e10d0edb40213e97ef7c92e980
@@ -27,6 +27,8 @@ tags:
     sha256:3fc4bff398ade0eba6674cc60d1de4879a26ec0e8f0ef0c27dc8decbed167db4
   2.1.6--pl5321h077b44d_0: 
     sha256:e34b3c44d75897c6ef640fbccbc49427a1ad60ec0e51388c255055c8f0ad1c66
+  2.17.1--pl5321h077b44d_0: 
+    sha256:c5eb4764f23e9db975cbc3e545d330e1fe468307f5e59a99c0ce8f4c1f6f09e2
 docker: quay.io/biocontainers/kraken2
 aliases:
   kraken2: /usr/local/bin/kraken2

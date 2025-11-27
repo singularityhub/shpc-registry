@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/vqbg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vqbg
 latest:
-  1.0.1--h884bc47_0: 
-    sha256:f7f9d59736afca3e26ed7c91b2c6c5cd651e5b509a80556e27cb5f69a91027de
+  1.0.2--h884bc47_0: 
+    sha256:af51368f7e86c785e040c0539368045ff1ac5dffcc30cf13a8188ecf8a6d7173
 tags:
   1.0.1--h884bc47_0: 
     sha256:f7f9d59736afca3e26ed7c91b2c6c5cd651e5b509a80556e27cb5f69a91027de
+  1.0.2--h884bc47_0: 
+    sha256:af51368f7e86c785e040c0539368045ff1ac5dffcc30cf13a8188ecf8a6d7173
 docker: quay.io/biocontainers/vqbg
 aliases:
   VQBG: /usr/local/bin/VQBG

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   mgnify-pipelines-toolkit
 latest:
-  1.3.0--pyhdfd78af_0: 
-    sha256:7cda03e1c38ed3a4c7a4acf35e984a41dc1b9960b4a10d6428080d69582f51c5
+  1.4.6--pyhdfd78af_0: 
+    sha256:bed7b7d51861904f4629020920ee0159857f69ce2cd0e10b6379584d2c599f97
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:2c88d8620818ec1a05a9943ea7328d1a4c10cbd5557756441e880ea511dbc7e0
@@ -50,6 +50,8 @@ tags:
     sha256:7cda03e1c38ed3a4c7a4acf35e984a41dc1b9960b4a10d6428080d69582f51c5
   1.2.11--pyhdfd78af_0: 
     sha256:b2a175da41f8cdda985dce23ede1a7b944ebaf99bdedd15d51b739f4377adc7c
+  1.4.6--pyhdfd78af_0: 
+    sha256:bed7b7d51861904f4629020920ee0159857f69ce2cd0e10b6379584d2c599f97
 docker: quay.io/biocontainers/mgnify-pipelines-toolkit
 aliases:
   are_there_primers: /usr/local/bin/are_there_primers
