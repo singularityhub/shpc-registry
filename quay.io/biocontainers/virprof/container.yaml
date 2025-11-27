@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/virprof
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for virprof
+latest:
+  0.9.2--pyhdfd78af_0: 
+    sha256:3da4c300ac3ecdb5c6c128ca2630d5464bc75b281c91009f88778647a925f24e
+tags:
+  0.9.2--pyhdfd78af_0: 
+    sha256:3da4c300ac3ecdb5c6c128ca2630d5464bc75b281c91009f88778647a925f24e
+docker: quay.io/biocontainers/virprof
+aliases:
+  distro: /usr/local/bin/distro
+  inv: /usr/local/bin/inv
+  invoke: /usr/local/bin/invoke
+  menuinst: /usr/local/bin/menuinst
+  phc: /usr/local/bin/phc
+  prc_write_irodsA.py: /usr/local/bin/prc_write_irodsA.py
+  setuptools-scm: /usr/local/bin/setuptools-scm
+  virprof: /usr/local/bin/virprof
+  ymp: /usr/local/bin/ymp
+  jsondiff: /usr/local/bin/jsondiff
+  jsonpatch: /usr/local/bin/jsonpatch
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  jsonpointer: /usr/local/bin/jsonpointer
+  archspec: /usr/local/bin/archspec
+  eido: /usr/local/bin/eido
+  mamba-package: /usr/local/bin/mamba-package
+  mamba: /usr/local/bin/mamba
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  bsdunzip: /usr/local/bin/bsdunzip
+  conda2solv: /usr/local/bin/conda2solv
+  dumpsolv: /usr/local/bin/dumpsolv
+  installcheck: /usr/local/bin/installcheck
+  mergesolv: /usr/local/bin/mergesolv
+  repo2solv: /usr/local/bin/repo2solv
+  testsolv: /usr/local/bin/testsolv
+  typer: /usr/local/bin/typer
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  conda-env: /usr/local/bin/conda-env
+  cph: /usr/local/bin/cph
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
