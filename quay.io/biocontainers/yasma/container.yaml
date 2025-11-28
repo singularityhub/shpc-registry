@@ -1,0 +1,106 @@
+url: https://biocontainers.pro/tools/yasma
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for yasma
+latest:
+  1.0.1--pyh7e72e81_0: 
+    sha256:2649d68b075c5e5f5c29b3be97b2f8f6568343204e5a02dd555f4978a215be4f
+tags:
+  1.0.1--pyh7e72e81_0: 
+    sha256:2649d68b075c5e5f5c29b3be97b2f8f6568343204e5a02dd555f4978a215be4f
+docker: quay.io/biocontainers/yasma
+aliases:
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  abi-dump.3: /usr/local/bin/abi-dump.3
+  abi-dump.3.2.1: /usr/local/bin/abi-dump.3.2.1
+  align-info.3: /usr/local/bin/align-info.3
+  align-info.3.2.1: /usr/local/bin/align-info.3.2.1
+  cache-mgr.3: /usr/local/bin/cache-mgr.3
+  cache-mgr.3.2.1: /usr/local/bin/cache-mgr.3.2.1
+  check-corrupt: /usr/local/bin/check-corrupt
+  check-corrupt.3: /usr/local/bin/check-corrupt.3
+  check-corrupt.3.2.1: /usr/local/bin/check-corrupt.3.2.1
+  fasterq-dump-orig.3.2.1: /usr/local/bin/fasterq-dump-orig.3.2.1
+  fasterq-dump.3: /usr/local/bin/fasterq-dump.3
+  fasterq-dump.3.2.1: /usr/local/bin/fasterq-dump.3.2.1
+  fastq-dump-orig.3.2.1: /usr/local/bin/fastq-dump-orig.3.2.1
+  fastq-dump.3: /usr/local/bin/fastq-dump.3
+  fastq-dump.3.2.1: /usr/local/bin/fastq-dump.3.2.1
+  illumina-dump.3: /usr/local/bin/illumina-dump.3
+  illumina-dump.3.2.1: /usr/local/bin/illumina-dump.3.2.1
+  kdbmeta.3: /usr/local/bin/kdbmeta.3
+  kdbmeta.3.2.1: /usr/local/bin/kdbmeta.3.2.1
+  ngs-pileup: /usr/local/bin/ngs-pileup
+  ngs-pileup.3: /usr/local/bin/ngs-pileup.3
+  ngs-pileup.3.2.1: /usr/local/bin/ngs-pileup.3.2.1
+  prefetch-orig.3.2.1: /usr/local/bin/prefetch-orig.3.2.1
+  prefetch.3: /usr/local/bin/prefetch.3
+  prefetch.3.2.1: /usr/local/bin/prefetch.3.2.1
+  pypprint: /usr/local/bin/pypprint
+  rcexplain.3: /usr/local/bin/rcexplain.3
+  rcexplain.3.2.1: /usr/local/bin/rcexplain.3.2.1
+  ref-variation: /usr/local/bin/ref-variation
+  ref-variation.3: /usr/local/bin/ref-variation.3
+  ref-variation.3.2.1: /usr/local/bin/ref-variation.3.2.1
+  sam-dump-orig.3.2.1: /usr/local/bin/sam-dump-orig.3.2.1
+  sam-dump.3: /usr/local/bin/sam-dump.3
+  sam-dump.3.2.1: /usr/local/bin/sam-dump.3.2.1
+  sff-dump.3: /usr/local/bin/sff-dump.3
+  sff-dump.3.2.1: /usr/local/bin/sff-dump.3.2.1
+  sra-info: /usr/local/bin/sra-info
+  sra-info.3: /usr/local/bin/sra-info.3
+  sra-info.3.2.1: /usr/local/bin/sra-info.3.2.1
+  sra-pileup-orig.3.2.1: /usr/local/bin/sra-pileup-orig.3.2.1
+  sra-pileup.3: /usr/local/bin/sra-pileup.3
+  sra-pileup.3.2.1: /usr/local/bin/sra-pileup.3.2.1
+  sra-search: /usr/local/bin/sra-search
+  sra-search.3: /usr/local/bin/sra-search.3
+  sra-search.3.2.1: /usr/local/bin/sra-search.3.2.1
+  sra-stat.3: /usr/local/bin/sra-stat.3
+  sra-stat.3.2.1: /usr/local/bin/sra-stat.3.2.1
+  srapath-orig.3.2.1: /usr/local/bin/srapath-orig.3.2.1
+  srapath.3: /usr/local/bin/srapath.3
+  srapath.3.2.1: /usr/local/bin/srapath.3.2.1
+  sratools.3: /usr/local/bin/sratools.3
+  sratools.3.2.1: /usr/local/bin/sratools.3.2.1
+  test-sra.3: /usr/local/bin/test-sra.3
+  test-sra.3.2.1: /usr/local/bin/test-sra.3.2.1
+  var-expand: /usr/local/bin/var-expand
+  var-expand.3: /usr/local/bin/var-expand.3
+  var-expand.3.2.1: /usr/local/bin/var-expand.3.2.1
+  vdb-config.3: /usr/local/bin/vdb-config.3
+  vdb-config.3.2.1: /usr/local/bin/vdb-config.3.2.1
+  vdb-decrypt.3: /usr/local/bin/vdb-decrypt.3
+  vdb-decrypt.3.2.1: /usr/local/bin/vdb-decrypt.3.2.1
+  vdb-dump-orig.3.2.1: /usr/local/bin/vdb-dump-orig.3.2.1
+  vdb-dump.3: /usr/local/bin/vdb-dump.3
+  vdb-dump.3.2.1: /usr/local/bin/vdb-dump.3.2.1
+  vdb-encrypt.3: /usr/local/bin/vdb-encrypt.3
+  vdb-encrypt.3.2.1: /usr/local/bin/vdb-encrypt.3.2.1
+  vdb-validate.3: /usr/local/bin/vdb-validate.3
+  vdb-validate.3.2.1: /usr/local/bin/vdb-validate.3.2.1
+  yasma: /usr/local/bin/yasma
+  fasterq-dump-orig: /usr/local/bin/fasterq-dump-orig
+  fastq-dump-orig: /usr/local/bin/fastq-dump-orig
+  prefetch-orig: /usr/local/bin/prefetch-orig
+  sam-dump-orig: /usr/local/bin/sam-dump-orig
+  sra-pileup-orig: /usr/local/bin/sra-pileup-orig
+  srapath-orig: /usr/local/bin/srapath-orig
+  sratools: /usr/local/bin/sratools
+  abi-dump: /usr/local/bin/abi-dump
+  align-info: /usr/local/bin/align-info
+  cache-mgr: /usr/local/bin/cache-mgr
+  fasterq-dump: /usr/local/bin/fasterq-dump
+  fastq-dump: /usr/local/bin/fastq-dump
+  illumina-dump: /usr/local/bin/illumina-dump
+  kdbmeta: /usr/local/bin/kdbmeta
+  prefetch: /usr/local/bin/prefetch
+  rcexplain: /usr/local/bin/rcexplain
+  sam-dump: /usr/local/bin/sam-dump
+  sff-dump: /usr/local/bin/sff-dump
+  sra-pileup: /usr/local/bin/sra-pileup
+  sra-stat: /usr/local/bin/sra-stat
+  srapath: /usr/local/bin/srapath
+  test-sra: /usr/local/bin/test-sra
+  vdb-config: /usr/local/bin/vdb-config
+  vdb-decrypt: /usr/local/bin/vdb-decrypt
+  vdb-dump: /usr/local/bin/vdb-dump

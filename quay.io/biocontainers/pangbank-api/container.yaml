@@ -1,0 +1,26 @@
+url: https://biocontainers.pro/tools/pangbank-api
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pangbank-api
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:f55ba8e5e551ad24359f5329e9dee5f281c0c0ac617477287f6e954683fd2c1d
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:f55ba8e5e551ad24359f5329e9dee5f281c0c0ac617477287f6e954683fd2c1d
+docker: quay.io/biocontainers/pangbank-api
+aliases:
+  email_validator: /usr/local/bin/email_validator
+  fastapi: /usr/local/bin/fastapi
+  pangbank_db: /usr/local/bin/pangbank_db
+  uvicorn: /usr/local/bin/uvicorn
+  watchfiles: /usr/local/bin/watchfiles
+  websockets: /usr/local/bin/websockets
+  dotenv: /usr/local/bin/dotenv
+  typer: /usr/local/bin/typer
+  httpx: /usr/local/bin/httpx
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize

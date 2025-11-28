@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/igdtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for igdtools
+latest:
+  2.6--py310h275bdba_0: 
+    sha256:37ee10a1fb2f841fb6334d4da3b22dffc41fef28b11e7a92b2c969b318fd6963
+tags:
+  2.6--py310h275bdba_0: 
+    sha256:37ee10a1fb2f841fb6334d4da3b22dffc41fef28b11e7a92b2c969b318fd6963
+docker: quay.io/biocontainers/igdtools
+aliases:
+  igdtools: /usr/local/bin/igdtools
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
