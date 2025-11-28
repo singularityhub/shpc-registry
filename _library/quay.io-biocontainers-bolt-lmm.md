@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bolt-lmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bolt-lmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bolt-lmm/container.yaml"
-updated_at: "2025-11-27 03:28:28.988887"
-latest: "2.3.4--hbe668fe_0"
+updated_at: "2025-11-28 03:27:40.275571"
+latest: "2.5--h15e0e67_0"
 container_url: "https://biocontainers.pro/tools/bolt-lmm"
 aliases:
  - "bolt"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "2.3.4--hbe668fe_0"
+ - "2.5--h15e0e67_0"
 description: "shpc-registry automated BioContainers addition for bolt-lmm"
-config: {"url": "https://biocontainers.pro/tools/bolt-lmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bolt-lmm", "latest": {"2.3.4--hbe668fe_0": "sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8"}, "tags": {"2.3.4--hbe668fe_0": "sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8"}, "docker": "quay.io/biocontainers/bolt-lmm", "aliases": {"bolt": "/usr/local/bin/bolt", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/bolt-lmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bolt-lmm", "latest": {"2.5--h15e0e67_0": "sha256:01c109e53f54bc4f7d27b272735294caa18eac7523ebebe23f75770e391da1e2"}, "tags": {"2.3.4--hbe668fe_0": "sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8", "2.5--h15e0e67_0": "sha256:01c109e53f54bc4f7d27b272735294caa18eac7523ebebe23f75770e391da1e2"}, "docker": "quay.io/biocontainers/bolt-lmm", "aliases": {"bolt": "/usr/local/bin/bolt", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bolt-lmm.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bolt-lmm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bolt-lmm:2.3.4--hbe668fe_0
+$ shpc install quay.io/biocontainers/bolt-lmm:2.5--h15e0e67_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bolt-lmm/2.3.4--hbe668fe_0
-$ module help quay.io/biocontainers/bolt-lmm/2.3.4--hbe668fe_0
+$ module load quay.io/biocontainers/bolt-lmm/2.5--h15e0e67_0
+$ module help quay.io/biocontainers/bolt-lmm/2.5--h15e0e67_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

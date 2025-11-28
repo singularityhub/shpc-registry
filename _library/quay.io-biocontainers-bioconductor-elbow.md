@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-elbow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-elbow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-elbow/container.yaml"
-updated_at: "2025-11-27 03:18:12.368514"
+updated_at: "2025-11-28 03:17:41.653788"
 latest: "1.26.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-elbow"
 aliases:

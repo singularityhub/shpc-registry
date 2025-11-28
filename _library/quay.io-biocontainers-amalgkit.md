@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amalgkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amalgkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amalgkit/container.yaml"
-updated_at: "2025-11-27 03:22:05.963174"
-latest: "0.12.19--pyh7e72e81_0"
+updated_at: "2025-11-28 03:21:28.278767"
+latest: "0.12.20--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amalgkit"
 aliases:
  - "amalgkit"
@@ -21,8 +21,9 @@ versions:
  - "0.12.15--pyhdfd78af_0"
  - "0.12.16--pyh7e72e81_0"
  - "0.12.19--pyh7e72e81_0"
+ - "0.12.20--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for amalgkit"
-config: {"url": "https://biocontainers.pro/tools/amalgkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amalgkit", "latest": {"0.12.19--pyh7e72e81_0": "sha256:6fe0929cd08b1194107bc136da512f6206461be40df1a2cf2685d00b3afcba50"}, "tags": {"0.12.15--pyhdfd78af_0": "sha256:5c83ae36b4d5d8a690a9d845e6c9b80a26eacd28caa9d768ec569041021a88d8", "0.12.16--pyh7e72e81_0": "sha256:12683ea018e55aaea4112d2c5937283bdf8bba0b002951d6bc847b995ea4942b", "0.12.19--pyh7e72e81_0": "sha256:6fe0929cd08b1194107bc136da512f6206461be40df1a2cf2685d00b3afcba50"}, "docker": "quay.io/biocontainers/amalgkit", "aliases": {"amalgkit": "/usr/local/bin/amalgkit", "numpy-config": "/usr/local/bin/numpy-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/amalgkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amalgkit", "latest": {"0.12.20--pyhdfd78af_0": "sha256:d27ff1c48c6fbaf32e5c222a14e5ce9e3bc49494618dc2b6523aff55a5ac7bad"}, "tags": {"0.12.15--pyhdfd78af_0": "sha256:5c83ae36b4d5d8a690a9d845e6c9b80a26eacd28caa9d768ec569041021a88d8", "0.12.16--pyh7e72e81_0": "sha256:12683ea018e55aaea4112d2c5937283bdf8bba0b002951d6bc847b995ea4942b", "0.12.19--pyh7e72e81_0": "sha256:6fe0929cd08b1194107bc136da512f6206461be40df1a2cf2685d00b3afcba50", "0.12.20--pyhdfd78af_0": "sha256:d27ff1c48c6fbaf32e5c222a14e5ce9e3bc49494618dc2b6523aff55a5ac7bad"}, "docker": "quay.io/biocontainers/amalgkit", "aliases": {"amalgkit": "/usr/local/bin/amalgkit", "numpy-config": "/usr/local/bin/numpy-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amalgkit.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/amalgkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amalgkit:0.12.19--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/amalgkit:0.12.20--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amalgkit/0.12.19--pyh7e72e81_0
-$ module help quay.io/biocontainers/amalgkit/0.12.19--pyh7e72e81_0
+$ module load quay.io/biocontainers/amalgkit/0.12.20--pyhdfd78af_0
+$ module help quay.io/biocontainers/amalgkit/0.12.20--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

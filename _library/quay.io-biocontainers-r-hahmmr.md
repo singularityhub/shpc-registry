@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hahmmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hahmmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hahmmr/container.yaml"
-updated_at: "2025-11-27 04:06:35.366515"
+updated_at: "2025-11-28 04:05:41.683292"
 latest: "1.0.0--r44h40dc89f_0"
 container_url: "https://biocontainers.pro/tools/r-hahmmr"
 aliases:

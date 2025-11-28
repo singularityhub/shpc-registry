@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ctyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctyper/container.yaml"
-updated_at: "2025-11-27 03:51:43.450973"
-latest: "1.0.1--h5ca1c30_0"
+updated_at: "2025-11-28 03:50:43.426070"
+latest: "1.0.5--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/ctyper"
 aliases:
  - "ctyper"
@@ -15,8 +15,9 @@ aliases:
  - "tabix"
 versions:
  - "1.0.1--h5ca1c30_0"
+ - "1.0.5--h5ca1c30_0"
 description: "singularity registry hpc automated addition for ctyper"
-config: {"url": "https://biocontainers.pro/tools/ctyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ctyper", "latest": {"1.0.1--h5ca1c30_0": "sha256:7671efb5395f16e30a75ca1486f06b81cd46b73816085402558d097b2bbb8555"}, "tags": {"1.0.1--h5ca1c30_0": "sha256:7671efb5395f16e30a75ca1486f06b81cd46b73816085402558d097b2bbb8555"}, "docker": "quay.io/biocontainers/ctyper", "aliases": {"ctyper": "/usr/local/bin/ctyper", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/ctyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ctyper", "latest": {"1.0.5--h5ca1c30_0": "sha256:a28ce87a6d3704c60bb4e0e82802f1e1ec50db3d69e2df5758106e1ad8b6aa1d"}, "tags": {"1.0.1--h5ca1c30_0": "sha256:7671efb5395f16e30a75ca1486f06b81cd46b73816085402558d097b2bbb8555", "1.0.5--h5ca1c30_0": "sha256:a28ce87a6d3704c60bb4e0e82802f1e1ec50db3d69e2df5758106e1ad8b6aa1d"}, "docker": "quay.io/biocontainers/ctyper", "aliases": {"ctyper": "/usr/local/bin/ctyper", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ctyper.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/ctyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ctyper:1.0.1--h5ca1c30_0
+$ shpc install quay.io/biocontainers/ctyper:1.0.5--h5ca1c30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ctyper/1.0.1--h5ca1c30_0
-$ module help quay.io/biocontainers/ctyper/1.0.1--h5ca1c30_0
+$ module load quay.io/biocontainers/ctyper/1.0.5--h5ca1c30_0
+$ module help quay.io/biocontainers/ctyper/1.0.5--h5ca1c30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

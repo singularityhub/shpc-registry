@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msbackendmgf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendmgf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendmgf/container.yaml"
-updated_at: "2025-11-27 03:27:15.871522"
+updated_at: "2025-11-28 03:26:27.593783"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendmgf"
 

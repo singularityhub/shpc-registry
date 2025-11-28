@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sadie-antibody"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sadie-antibody/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sadie-antibody/container.yaml"
-updated_at: "2025-11-27 03:50:32.482905"
+updated_at: "2025-11-28 03:49:33.927724"
 latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sadie-antibody"
 aliases:

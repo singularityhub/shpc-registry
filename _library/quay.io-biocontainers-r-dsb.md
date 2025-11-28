@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-dsb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dsb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dsb/container.yaml"
-updated_at: "2025-11-27 03:38:12.030267"
-latest: "2.0.0--r44h3121a25_0"
+updated_at: "2025-11-28 03:37:08.506874"
+latest: "2.0.1--r44h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-dsb"
 aliases:
  - "pcre2posix_test"
@@ -15,8 +15,9 @@ versions:
  - "1.0.3--r43h3121a25_0"
  - "1.0.4--r43h3121a25_0"
  - "2.0.0--r44h3121a25_0"
+ - "2.0.1--r44h3121a25_0"
 description: "singularity registry hpc automated addition for r-dsb"
-config: {"url": "https://biocontainers.pro/tools/r-dsb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-dsb", "latest": {"2.0.0--r44h3121a25_0": "sha256:6e7fd258f22f5308d8648a8aa1e072b2f26614aa2f47f2a48268f3f35abc05c3"}, "tags": {"1.0.3--r43h3121a25_0": "sha256:e7c6f521bd579f43ef39152cb88de5fbee1205cdd18b32ab81eaddbd73c70d6a", "1.0.4--r43h3121a25_0": "sha256:7eb72959b19e203026d7b24f991ce447ed31e02926f1464f9b1e5deb94996fd9", "2.0.0--r44h3121a25_0": "sha256:6e7fd258f22f5308d8648a8aa1e072b2f26614aa2f47f2a48268f3f35abc05c3"}, "docker": "quay.io/biocontainers/r-dsb", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-dsb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-dsb", "latest": {"2.0.1--r44h3121a25_0": "sha256:94249ced702c6c5960e7e73f2ae321a07d164217f19096e5333fa1f88a0e5b34"}, "tags": {"1.0.3--r43h3121a25_0": "sha256:e7c6f521bd579f43ef39152cb88de5fbee1205cdd18b32ab81eaddbd73c70d6a", "1.0.4--r43h3121a25_0": "sha256:7eb72959b19e203026d7b24f991ce447ed31e02926f1464f9b1e5deb94996fd9", "2.0.0--r44h3121a25_0": "sha256:6e7fd258f22f5308d8648a8aa1e072b2f26614aa2f47f2a48268f3f35abc05c3", "2.0.1--r44h3121a25_0": "sha256:94249ced702c6c5960e7e73f2ae321a07d164217f19096e5333fa1f88a0e5b34"}, "docker": "quay.io/biocontainers/r-dsb", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dsb.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/r-dsb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dsb:2.0.0--r44h3121a25_0
+$ shpc install quay.io/biocontainers/r-dsb:2.0.1--r44h3121a25_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dsb/2.0.0--r44h3121a25_0
-$ module help quay.io/biocontainers/r-dsb/2.0.0--r44h3121a25_0
+$ module load quay.io/biocontainers/r-dsb/2.0.1--r44h3121a25_0
+$ module help quay.io/biocontainers/r-dsb/2.0.1--r44h3121a25_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

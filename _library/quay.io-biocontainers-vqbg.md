@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/vqbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vqbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vqbg/container.yaml"
-updated_at: "2025-11-27 04:04:48.374892"
-latest: "1.0.1--h884bc47_0"
+updated_at: "2025-11-28 04:03:56.146485"
+latest: "1.0.2--h884bc47_0"
 container_url: "https://biocontainers.pro/tools/vqbg"
 aliases:
  - "VQBG"
  - "glpsol"
 versions:
  - "1.0.1--h884bc47_0"
+ - "1.0.2--h884bc47_0"
 description: "singularity registry hpc automated addition for vqbg"
-config: {"url": "https://biocontainers.pro/tools/vqbg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vqbg", "latest": {"1.0.1--h884bc47_0": "sha256:f7f9d59736afca3e26ed7c91b2c6c5cd651e5b509a80556e27cb5f69a91027de"}, "tags": {"1.0.1--h884bc47_0": "sha256:f7f9d59736afca3e26ed7c91b2c6c5cd651e5b509a80556e27cb5f69a91027de"}, "docker": "quay.io/biocontainers/vqbg", "aliases": {"VQBG": "/usr/local/bin/VQBG", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/vqbg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vqbg", "latest": {"1.0.2--h884bc47_0": "sha256:af51368f7e86c785e040c0539368045ff1ac5dffcc30cf13a8188ecf8a6d7173"}, "tags": {"1.0.1--h884bc47_0": "sha256:f7f9d59736afca3e26ed7c91b2c6c5cd651e5b509a80556e27cb5f69a91027de", "1.0.2--h884bc47_0": "sha256:af51368f7e86c785e040c0539368045ff1ac5dffcc30cf13a8188ecf8a6d7173"}, "docker": "quay.io/biocontainers/vqbg", "aliases": {"VQBG": "/usr/local/bin/VQBG", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vqbg.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/vqbg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vqbg:1.0.1--h884bc47_0
+$ shpc install quay.io/biocontainers/vqbg:1.0.2--h884bc47_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vqbg/1.0.1--h884bc47_0
-$ module help quay.io/biocontainers/vqbg/1.0.1--h884bc47_0
+$ module load quay.io/biocontainers/vqbg/1.0.2--h884bc47_0
+$ module help quay.io/biocontainers/vqbg/1.0.2--h884bc47_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

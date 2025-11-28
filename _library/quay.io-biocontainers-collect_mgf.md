@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/collect_mgf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collect_mgf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/collect_mgf/container.yaml"
-updated_at: "2025-11-27 03:27:23.874987"
-latest: "1.0--h7b50bb2_6"
+updated_at: "2025-11-28 03:26:35.344161"
+latest: "1.0--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/collect_mgf"
 aliases:
  - "collect_mgf"
@@ -13,8 +13,9 @@ versions:
  - "1.0--hec16e2b_3"
  - "1.0--h031d066_5"
  - "1.0--h7b50bb2_6"
+ - "1.0--h7b50bb2_7"
 description: "shpc-registry automated BioContainers addition for collect_mgf"
-config: {"url": "https://biocontainers.pro/tools/collect_mgf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collect_mgf", "latest": {"1.0--h7b50bb2_6": "sha256:32e35d70664e1370f007eee2fb86b3896fc0f1985910c58e7d72285e496aa9fa"}, "tags": {"1.0--hec16e2b_3": "sha256:c65a4f373bda875cd2c457946670d30d44f4f7485a84fcb53ed159fc8eeb2bd1", "1.0--h031d066_5": "sha256:db072db8aa13159c7a2fc873f4eabbc1c07e260ef1bff3b69f894ca0031d9b9c", "1.0--h7b50bb2_6": "sha256:32e35d70664e1370f007eee2fb86b3896fc0f1985910c58e7d72285e496aa9fa"}, "docker": "quay.io/biocontainers/collect_mgf", "aliases": {"collect_mgf": "/usr/local/bin/collect_mgf"}}
+config: {"url": "https://biocontainers.pro/tools/collect_mgf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collect_mgf", "latest": {"1.0--h7b50bb2_7": "sha256:8b4027b3468549c05edb847504b33efb1ecb1e6102d61b19f511b9b0daee34f8"}, "tags": {"1.0--hec16e2b_3": "sha256:c65a4f373bda875cd2c457946670d30d44f4f7485a84fcb53ed159fc8eeb2bd1", "1.0--h031d066_5": "sha256:db072db8aa13159c7a2fc873f4eabbc1c07e260ef1bff3b69f894ca0031d9b9c", "1.0--h7b50bb2_6": "sha256:32e35d70664e1370f007eee2fb86b3896fc0f1985910c58e7d72285e496aa9fa", "1.0--h7b50bb2_7": "sha256:8b4027b3468549c05edb847504b33efb1ecb1e6102d61b19f511b9b0daee34f8"}, "docker": "quay.io/biocontainers/collect_mgf", "aliases": {"collect_mgf": "/usr/local/bin/collect_mgf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/collect_mgf.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/collect_mgf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/collect_mgf:1.0--h7b50bb2_6
+$ shpc install quay.io/biocontainers/collect_mgf:1.0--h7b50bb2_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/collect_mgf/1.0--h7b50bb2_6
-$ module help quay.io/biocontainers/collect_mgf/1.0--h7b50bb2_6
+$ module load quay.io/biocontainers/collect_mgf/1.0--h7b50bb2_7
+$ module help quay.io/biocontainers/collect_mgf/1.0--h7b50bb2_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

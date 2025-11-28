@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enhjoerning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enhjoerning/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enhjoerning/container.yaml"
-updated_at: "2025-11-27 03:28:22.566871"
+updated_at: "2025-11-28 03:27:34.016108"
 latest: "2.3.0--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/enhjoerning"
 aliases:
