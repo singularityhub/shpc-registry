@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/compare-reads
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for compare-reads
 latest:
-  0.0.1--py27h14c3975_0: 
-    sha256:fc6ffd5e8e63739529c3cc9f829258c5ab0b1e47435d4fe4eec55c8906d3134e
+  0.0.1--py310h1fe012e_2: 
+    sha256:f0b56d5c98dea43788d8c141b67641afb93a8a21d62cf3c4717f99959b6b1f15
 tags:
   0.0.1--py27h14c3975_0: 
     sha256:fc6ffd5e8e63739529c3cc9f829258c5ab0b1e47435d4fe4eec55c8906d3134e
   0.0.1--py36h14c3975_0: 
     sha256:aa518a45f230aad23ecc1168920368ccbb024f09ea01cef77766ce6dd80f0517
+  0.0.1--py310h1fe012e_2: 
+    sha256:f0b56d5c98dea43788d8c141b67641afb93a8a21d62cf3c4717f99959b6b1f15
 docker: quay.io/biocontainers/compare-reads
 aliases:
   guess-ploidy.py: /usr/local/bin/guess-ploidy.py

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ropebwt3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ropebwt3
 latest:
-  3.9--h577a1d6_0: 
-    sha256:28ec8331937447530d2f899fca0148fd506bca959814e082dae6e647d4d55785
+  3.10--h577a1d6_0: 
+    sha256:4ab51f1039820eb14f72195d64c875f892787b6f980939ec4e7b07c90d80f381
 tags:
   3.3--he4a0461_0: 
     sha256:7ba285cd082f69e33c6d43d5a7e6d369a328780dd4e3c7f36ae4c3c075f27746
@@ -19,6 +19,8 @@ tags:
     sha256:2afd17e53c3386c1c44992b562673873bb468e1ebad252bec4edf21d4cbbed4f
   3.9--h577a1d6_0: 
     sha256:28ec8331937447530d2f899fca0148fd506bca959814e082dae6e647d4d55785
+  3.10--h577a1d6_0: 
+    sha256:4ab51f1039820eb14f72195d64c875f892787b6f980939ec4e7b07c90d80f381
 docker: quay.io/biocontainers/ropebwt3
 aliases:
   ropebwt3: /usr/local/bin/ropebwt3

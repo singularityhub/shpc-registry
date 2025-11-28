@@ -1,10 +1,10 @@
 docker: poldracklab/mriqc
 latest:
-  0.16.1: 'crane digest poldracklab/mriqc:0.16.1: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  0.16.1: 
+    sha256:cbaeda87ca5f7a0f86816ac4a56fc28fef0ac88f392be7a9037371f8d7f48e53
 tags:
-  0.16.1: 'crane digest poldracklab/mriqc:0.16.1: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  0.16.1: 
+    sha256:cbaeda87ca5f7a0f86816ac4a56fc28fef0ac88f392be7a9037371f8d7f48e53
 filter:
 - 2[.]*
 maintainer: '@vsoch'

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/poseidon-trident
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for poseidon-trident
 latest:
-  1.6.7.1--hebebf5b_0: 
-    sha256:584629adb66c7047d2eaf235b08847ca8beef24d3f66412c72ade04487bdaed2
+  1.6.7.1--hebebf5b_1: 
+    sha256:e5f63fd8ababe264b8a86a300b3b6d18dc57deba14b7062b719a37771390e54e
 tags:
   0.28.0--h9325052_0: 
     sha256:3a6f2f51c9322434446b730231f9310ec146579f708287b1e88a97c53de1120f
@@ -31,6 +31,8 @@ tags:
     sha256:60ebf184ffcba168d4884c4ae917f50d8643878d1823192ab9832b6b42999c6f
   1.6.7.1--hebebf5b_0: 
     sha256:584629adb66c7047d2eaf235b08847ca8beef24d3f66412c72ade04487bdaed2
+  1.6.7.1--hebebf5b_1: 
+    sha256:e5f63fd8ababe264b8a86a300b3b6d18dc57deba14b7062b719a37771390e54e
 docker: quay.io/biocontainers/poseidon-trident
 aliases:
   trident: /usr/local/bin/trident

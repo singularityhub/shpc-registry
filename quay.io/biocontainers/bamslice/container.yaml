@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bamslice
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bamslice
 latest:
-  0.1.0--h67a98e6_0: 
-    sha256:bd2c89bfe07f8f2f385b236bd5f5918d002ba77d7c457287c92950b71e7922a9
+  0.1.6--h67a98e6_0: 
+    sha256:e240f0657bf7a4aee451fa7508fc6a90a4c0366d836d1de5719e263747717268
 tags:
   0.1.0--h67a98e6_0: 
     sha256:bd2c89bfe07f8f2f385b236bd5f5918d002ba77d7c457287c92950b71e7922a9
+  0.1.6--h67a98e6_0: 
+    sha256:e240f0657bf7a4aee451fa7508fc6a90a4c0366d836d1de5719e263747717268
 docker: quay.io/biocontainers/bamslice
 aliases:
   bamslice: /usr/local/bin/bamslice

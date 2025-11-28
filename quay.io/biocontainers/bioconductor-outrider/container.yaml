@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-outrider
 latest:
-  1.24.0--r44he5774e6_0: 
-    sha256:5444b1cf692381cc5feaa4fdb8b09739a17085e6c4db99c73009682de908b98f
+  1.26.3--r44he5774e6_0: 
+    sha256:a74c4304a05d61fc4fe7ad3db7bbacd7e6b24e30973dca4b520ef02e4175a2f7
 tags:
   1.8.0--r40h399db7b_1: 
     sha256:649ebc8f3b5e92668a5500a95876a5b16e47a9d665f4df7234f79280c98380fc
@@ -24,6 +24,8 @@ tags:
     sha256:b6ee3c11fa7325bce06c29c297a6ee173a00ceafaeaa7a4d41f3bd18d3f180bd
   1.24.0--r44he5774e6_0: 
     sha256:5444b1cf692381cc5feaa4fdb8b09739a17085e6c4db99c73009682de908b98f
+  1.26.3--r44he5774e6_0: 
+    sha256:a74c4304a05d61fc4fe7ad3db7bbacd7e6b24e30973dca4b520ef02e4175a2f7
 docker: quay.io/biocontainers/bioconductor-outrider
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

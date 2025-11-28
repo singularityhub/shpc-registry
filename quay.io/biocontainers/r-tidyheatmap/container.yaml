@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-tidyheatmap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-tidyheatmap
 latest:
-  1.12.2--r44h3121a25_0: 
-    sha256:47072dac44a3bbe73373925ca81cf55da33b162b8f07ebf163ac32583d600688
+  1.13.1--r44h3121a25_0: 
+    sha256:717940da28a25c3eb0c899773839d0f1da2b3c4ac6ba90616f7ae71bffb1e183
 tags:
   1.8.1--r42h3121a25_1: 
     sha256:d1ad44848753d459dfca2871b05a69a4988585f6f10faac4a0c06d09af1f526e
@@ -17,4 +17,6 @@ tags:
     sha256:ce4b25648357c10574ca446e3f525114f245a97a114a7080dfac6f903c3870ee
   1.12.2--r44h3121a25_0: 
     sha256:47072dac44a3bbe73373925ca81cf55da33b162b8f07ebf163ac32583d600688
+  1.13.1--r44h3121a25_0: 
+    sha256:717940da28a25c3eb0c899773839d0f1da2b3c4ac6ba90616f7ae71bffb1e183
 docker: quay.io/biocontainers/r-tidyheatmap
