@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyslim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyslim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyslim/container.yaml"
-updated_at: "2025-11-29 02:42:37.913387"
+updated_at: "2025-11-29 03:38:49.654873"
 latest: "0.401--py_0"
 container_url: "https://biocontainers.pro/tools/pyslim"
 aliases:

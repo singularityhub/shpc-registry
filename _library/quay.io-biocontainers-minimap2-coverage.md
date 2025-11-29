@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minimap2-coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimap2-coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimap2-coverage/container.yaml"
-updated_at: "2025-11-29 02:21:25.560418"
+updated_at: "2025-11-29 03:16:27.227640"
 latest: "1.2.0c--h577a1d6_4"
 container_url: "https://biocontainers.pro/tools/minimap2-coverage"
 aliases:

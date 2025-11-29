@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mtsv-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtsv-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtsv-tools/container.yaml"
-updated_at: "2025-11-29 02:47:43.315711"
+updated_at: "2025-11-29 03:44:12.393103"
 latest: "2.0.2--h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/mtsv-tools"
 aliases:

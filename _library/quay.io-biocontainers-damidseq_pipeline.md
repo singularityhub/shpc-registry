@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/damidseq_pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/damidseq_pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/damidseq_pipeline/container.yaml"
-updated_at: "2025-11-29 02:34:08.506973"
+updated_at: "2025-11-29 03:29:53.132145"
 latest: "1.6.2--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/damidseq_pipeline"
 aliases:

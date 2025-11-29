@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/zfp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/zfp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/zfp/container.yaml"
-updated_at: "2025-11-29 02:19:57.229303"
+updated_at: "2025-11-29 03:14:53.867027"
 latest: "0.5.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/zfp"
 

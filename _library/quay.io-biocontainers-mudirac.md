@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mudirac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mudirac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mudirac/container.yaml"
-updated_at: "2025-11-29 02:33:48.929891"
+updated_at: "2025-11-29 03:29:32.584695"
 latest: "1.0.1"
 container_url: "https://biocontainers.pro/tools/mudirac"
 aliases:

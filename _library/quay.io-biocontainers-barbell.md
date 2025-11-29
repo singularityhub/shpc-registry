@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barbell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barbell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barbell/container.yaml"
-updated_at: "2025-11-29 02:43:56.924147"
+updated_at: "2025-11-29 03:40:13.499748"
 latest: "0.3.0--hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/barbell"
 aliases:

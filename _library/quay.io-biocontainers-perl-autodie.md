@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-autodie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-autodie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-autodie/container.yaml"
-updated_at: "2025-11-29 02:45:58.431454"
+updated_at: "2025-11-29 03:42:21.719088"
 latest: "2.37--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-autodie"
 aliases:

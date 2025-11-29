@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-readr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-readr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-readr/container.yaml"
-updated_at: "2025-11-29 02:52:53.462024"
+updated_at: "2025-11-29 03:49:41.380779"
 latest: "1.3.1"
 container_url: "https://biocontainers.pro/tools/r-readr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-assembly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-assembly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-assembly/container.yaml"
-updated_at: "2025-11-29 02:46:01.042256"
+updated_at: "2025-11-29 03:42:24.461800"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-assembly"
 aliases:

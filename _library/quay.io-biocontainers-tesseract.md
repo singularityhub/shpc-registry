@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tesseract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tesseract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tesseract/container.yaml"
-updated_at: "2025-11-29 02:32:45.936110"
+updated_at: "2025-11-29 03:28:26.710791"
 latest: "5.5.1"
 container_url: "https://biocontainers.pro/tools/tesseract"
 aliases:

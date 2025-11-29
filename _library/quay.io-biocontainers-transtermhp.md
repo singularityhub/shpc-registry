@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transtermhp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transtermhp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transtermhp/container.yaml"
-updated_at: "2025-11-29 02:26:18.295864"
+updated_at: "2025-11-29 03:21:37.265245"
 latest: "2.09--h9948957_2"
 container_url: "https://biocontainers.pro/tools/transtermhp"
 aliases:

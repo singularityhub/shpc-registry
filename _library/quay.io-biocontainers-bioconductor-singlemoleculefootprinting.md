@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-singlemoleculefootprinting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlemoleculefootprinting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlemoleculefootprinting/container.yaml"
-updated_at: "2025-11-29 02:50:55.990957"
+updated_at: "2025-11-29 03:47:36.896518"
 latest: "2.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlemoleculefootprinting"
 
