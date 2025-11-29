@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/tagdust2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tagdust2
+latest:
+  2.33.1--h503566f_0: 
+    sha256:ec917d64096166ef79c397ffea1ace92c481db0a64808aef5553d59eebc75f46
+tags:
+  2.33.1--h503566f_0: 
+    sha256:ec917d64096166ef79c397ffea1ace92c481db0a64808aef5553d59eebc75f46
+docker: quay.io/biocontainers/tagdust2
+aliases:
+  evalres: /usr/local/bin/evalres
+  merge: /usr/local/bin/merge
+  rename_qiime: /usr/local/bin/rename_qiime
+  simreads: /usr/local/bin/simreads
+  tagdust: /usr/local/bin/tagdust

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/sassy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sassy
+latest:
+  0.1.8--h4349ce8_0: 
+    sha256:fc0d405bac26d99f5256ca822af4e085285fa68d8b2e873fd6562058d865aeab
+tags:
+  0.1.8--h4349ce8_0: 
+    sha256:fc0d405bac26d99f5256ca822af4e085285fa68d8b2e873fd6562058d865aeab
+docker: quay.io/biocontainers/sassy
+aliases:
+  sassy: /usr/local/bin/sassy

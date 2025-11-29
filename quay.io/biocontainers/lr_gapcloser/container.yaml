@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/lr_gapcloser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lr_gapcloser
+latest:
+  1.0--pl5321hdfd78af_0: 
+    sha256:58f8b2c747066be261e3366e98349be0190f8d7ac107e9ee33e639aee407c4af
+tags:
+  1.0--pl5321hdfd78af_0: 
+    sha256:58f8b2c747066be261e3366e98349be0190f8d7ac107e9ee33e639aee407c4af
+docker: quay.io/biocontainers/lr_gapcloser
+aliases:
+  LR_Gapcloser.sh: /usr/local/bin/LR_Gapcloser.sh
+  best-match-LR.pl: /usr/local/bin/best-match-LR.pl
+  block_align.pl: /usr/local/bin/block_align.pl
+  change_case_fasta.pl: /usr/local/bin/change_case_fasta.pl
+  complete_retriver.pl: /usr/local/bin/complete_retriver.pl
+  complete_substitute_limiter.pl: /usr/local/bin/complete_substitute_limiter.pl
+  complete_ultimate_elect.pl: /usr/local/bin/complete_ultimate_elect.pl
+  coverage_calculator.pl: /usr/local/bin/coverage_calculator.pl
+  coverage_filter.pl: /usr/local/bin/coverage_filter.pl
+  find_sequnce_file.pl: /usr/local/bin/find_sequnce_file.pl
+  form_sequence.pl: /usr/local/bin/form_sequence.pl
+  format_fa.pl: /usr/local/bin/format_fa.pl
+  further_partial_select.pl: /usr/local/bin/further_partial_select.pl
+  gap_bridging.pl: /usr/local/bin/gap_bridging.pl
+  gap_finder.pl: /usr/local/bin/gap_finder.pl
+  group_partial.pl: /usr/local/bin/group_partial.pl
+  info_formatter.pl: /usr/local/bin/info_formatter.pl
+  info_pacify.pl: /usr/local/bin/info_pacify.pl
+  join_LRlength.pl: /usr/local/bin/join_LRlength.pl
+  last_Drepeat.pl: /usr/local/bin/last_Drepeat.pl
+  partial_ultimate_elect.pl: /usr/local/bin/partial_ultimate_elect.pl
+  remove_wrong3.pl: /usr/local/bin/remove_wrong3.pl
+  retrieve-unique-alignment.pl: /usr/local/bin/retrieve-unique-alignment.pl
+  retriever_backfill.pl: /usr/local/bin/retriever_backfill.pl
+  same_filter.pl: /usr/local/bin/same_filter.pl
+  tag_alignment_filter.pl: /usr/local/bin/tag_alignment_filter.pl
+  tag_distance_filter_classify.pl: 
+    /usr/local/bin/tag_distance_filter_classify.pl
+  tag_generator.pl: /usr/local/bin/tag_generator.pl
+  tag_orientation_corrector.pl: /usr/local/bin/tag_orientation_corrector.pl
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  sdust: /usr/local/bin/sdust
+  bwa: /usr/local/bin/bwa
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2

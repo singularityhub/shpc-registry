@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/curve-curator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for curve-curator
+latest:
+  0.6.0--pyhdfd78af_0: 
+    sha256:a081a00c8a02b7a77a612d995da6dc5bd8fac277e8855b156b181d50d3ef6c86
+tags:
+  0.6.0--pyhdfd78af_0: 
+    sha256:a081a00c8a02b7a77a612d995da6dc5bd8fac277e8855b156b181d50d3ef6c86
+docker: quay.io/biocontainers/curve-curator
+aliases:
+  CurveCurator: /usr/local/bin/CurveCurator
+  bokeh: /usr/local/bin/bokeh
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
