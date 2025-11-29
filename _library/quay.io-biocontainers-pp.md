@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pp/container.yaml"
-updated_at: "2025-11-28 03:59:38.514768"
+updated_at: "2025-11-29 03:04:47.910768"
 latest: "1.6.5--py_2"
 container_url: "https://biocontainers.pro/tools/pp"
 

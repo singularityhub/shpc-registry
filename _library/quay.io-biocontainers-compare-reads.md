@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/compare-reads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/compare-reads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/compare-reads/container.yaml"
-updated_at: "2025-11-28 03:49:44.932058"
-latest: "0.0.1--py27h14c3975_0"
+updated_at: "2025-11-29 02:55:11.776852"
+latest: "0.0.1--py310h1fe012e_2"
 container_url: "https://biocontainers.pro/tools/compare-reads"
 aliases:
  - "guess-ploidy.py"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.0.1--py27h14c3975_0"
  - "0.0.1--py36h14c3975_0"
+ - "0.0.1--py310h1fe012e_2"
 description: "shpc-registry automated BioContainers addition for compare-reads"
-config: {"url": "https://biocontainers.pro/tools/compare-reads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for compare-reads", "latest": {"0.0.1--py27h14c3975_0": "sha256:fc6ffd5e8e63739529c3cc9f829258c5ab0b1e47435d4fe4eec55c8906d3134e"}, "tags": {"0.0.1--py27h14c3975_0": "sha256:fc6ffd5e8e63739529c3cc9f829258c5ab0b1e47435d4fe4eec55c8906d3134e", "0.0.1--py36h14c3975_0": "sha256:aa518a45f230aad23ecc1168920368ccbb024f09ea01cef77766ce6dd80f0517"}, "docker": "quay.io/biocontainers/compare-reads", "aliases": {"guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
+config: {"url": "https://biocontainers.pro/tools/compare-reads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for compare-reads", "latest": {"0.0.1--py310h1fe012e_2": "sha256:f0b56d5c98dea43788d8c141b67641afb93a8a21d62cf3c4717f99959b6b1f15"}, "tags": {"0.0.1--py27h14c3975_0": "sha256:fc6ffd5e8e63739529c3cc9f829258c5ab0b1e47435d4fe4eec55c8906d3134e", "0.0.1--py36h14c3975_0": "sha256:aa518a45f230aad23ecc1168920368ccbb024f09ea01cef77766ce6dd80f0517", "0.0.1--py310h1fe012e_2": "sha256:f0b56d5c98dea43788d8c141b67641afb93a8a21d62cf3c4717f99959b6b1f15"}, "docker": "quay.io/biocontainers/compare-reads", "aliases": {"guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/compare-reads.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/compare-reads
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/compare-reads:0.0.1--py27h14c3975_0
+$ shpc install quay.io/biocontainers/compare-reads:0.0.1--py310h1fe012e_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/compare-reads/0.0.1--py27h14c3975_0
-$ module help quay.io/biocontainers/compare-reads/0.0.1--py27h14c3975_0
+$ module load quay.io/biocontainers/compare-reads/0.0.1--py310h1fe012e_2
+$ module help quay.io/biocontainers/compare-reads/0.0.1--py310h1fe012e_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

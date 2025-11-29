@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ropebwt3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ropebwt3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ropebwt3/container.yaml"
-updated_at: "2025-11-28 03:59:20.623828"
-latest: "3.9--h577a1d6_0"
+updated_at: "2025-11-29 03:04:30.128827"
+latest: "3.10--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/ropebwt3"
 aliases:
  - "ropebwt3"
@@ -17,8 +17,9 @@ versions:
  - "3.5--he4a0461_0"
  - "3.8--he4a0461_0"
  - "3.9--h577a1d6_0"
+ - "3.10--h577a1d6_0"
 description: "singularity registry hpc automated addition for ropebwt3"
-config: {"url": "https://biocontainers.pro/tools/ropebwt3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ropebwt3", "latest": {"3.9--h577a1d6_0": "sha256:28ec8331937447530d2f899fca0148fd506bca959814e082dae6e647d4d55785"}, "tags": {"3.3--he4a0461_0": "sha256:7ba285cd082f69e33c6d43d5a7e6d369a328780dd4e3c7f36ae4c3c075f27746", "3.4--he4a0461_0": "sha256:1e9568f4f8be49dd25e025a07b8f9d34d1487bdbc78149f6c635ed2a3a4c890f", "3.7--he4a0461_0": "sha256:1d06ac02cf1d7d5057577289f5e9c287c988a08b9e8a146be6e227241ee31226", "3.6--he4a0461_0": "sha256:6b67309e6a1739400dc72b612ad7a514f87e1fcb840881ec8dd5868f989c7632", "3.5--he4a0461_0": "sha256:c4ac6e5f23e0db0733334c6a51b10035e867dc047a6c4e3663ed1704053a2279", "3.8--he4a0461_0": "sha256:2afd17e53c3386c1c44992b562673873bb468e1ebad252bec4edf21d4cbbed4f", "3.9--h577a1d6_0": "sha256:28ec8331937447530d2f899fca0148fd506bca959814e082dae6e647d4d55785"}, "docker": "quay.io/biocontainers/ropebwt3", "aliases": {"ropebwt3": "/usr/local/bin/ropebwt3"}}
+config: {"url": "https://biocontainers.pro/tools/ropebwt3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ropebwt3", "latest": {"3.10--h577a1d6_0": "sha256:4ab51f1039820eb14f72195d64c875f892787b6f980939ec4e7b07c90d80f381"}, "tags": {"3.3--he4a0461_0": "sha256:7ba285cd082f69e33c6d43d5a7e6d369a328780dd4e3c7f36ae4c3c075f27746", "3.4--he4a0461_0": "sha256:1e9568f4f8be49dd25e025a07b8f9d34d1487bdbc78149f6c635ed2a3a4c890f", "3.7--he4a0461_0": "sha256:1d06ac02cf1d7d5057577289f5e9c287c988a08b9e8a146be6e227241ee31226", "3.6--he4a0461_0": "sha256:6b67309e6a1739400dc72b612ad7a514f87e1fcb840881ec8dd5868f989c7632", "3.5--he4a0461_0": "sha256:c4ac6e5f23e0db0733334c6a51b10035e867dc047a6c4e3663ed1704053a2279", "3.8--he4a0461_0": "sha256:2afd17e53c3386c1c44992b562673873bb468e1ebad252bec4edf21d4cbbed4f", "3.9--h577a1d6_0": "sha256:28ec8331937447530d2f899fca0148fd506bca959814e082dae6e647d4d55785", "3.10--h577a1d6_0": "sha256:4ab51f1039820eb14f72195d64c875f892787b6f980939ec4e7b07c90d80f381"}, "docker": "quay.io/biocontainers/ropebwt3", "aliases": {"ropebwt3": "/usr/local/bin/ropebwt3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ropebwt3.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/ropebwt3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ropebwt3:3.9--h577a1d6_0
+$ shpc install quay.io/biocontainers/ropebwt3:3.10--h577a1d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ropebwt3/3.9--h577a1d6_0
-$ module help quay.io/biocontainers/ropebwt3/3.9--h577a1d6_0
+$ module load quay.io/biocontainers/ropebwt3/3.10--h577a1d6_0
+$ module help quay.io/biocontainers/ropebwt3/3.10--h577a1d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

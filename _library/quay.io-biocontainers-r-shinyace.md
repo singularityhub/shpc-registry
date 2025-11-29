@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-shinyace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shinyace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shinyace/container.yaml"
-updated_at: "2025-11-28 03:22:59.767392"
+updated_at: "2025-11-29 02:28:28.141987"
 latest: "0.2.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-shinyace"
 aliases:

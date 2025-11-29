@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/straglr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/straglr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/straglr/container.yaml"
-updated_at: "2025-11-28 03:20:28.783305"
-latest: "1.5.5--pyhdfd78af_0"
+updated_at: "2025-11-29 02:25:56.105499"
+latest: "1.5.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/straglr"
 aliases:
  - "pathos_connect"
@@ -34,8 +34,9 @@ versions:
  - "1.5.3--pyhdfd78af_0"
  - "1.5.4--pyhdfd78af_0"
  - "1.5.5--pyhdfd78af_0"
+ - "1.5.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for straglr"
-config: {"url": "https://biocontainers.pro/tools/straglr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for straglr", "latest": {"1.5.5--pyhdfd78af_0": "sha256:0cc1498ddb96f250dbd7eb13ac9458a5af3789d92a773098fe892a1385ea3a3d"}, "tags": {"1.3.0--pyhdfd78af_0": "sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627", "1.4.0--pyhdfd78af_0": "sha256:07f275460d28286002daf3aa54de02a533f5a3406b1874f75c0bcf96813da913", "1.4.1--pyhdfd78af_0": "sha256:373914b663a4391e4bc479e891e2c1de0a8b2d41fdfe8fad85a492342a370875", "1.5.0--pyhdfd78af_0": "sha256:0d9477ef1e67c635d2c3c7a1c21d32fa25716a7d9b44f15ab4b9aaee11814be1", "1.5.1--pyhdfd78af_0": "sha256:76285ea0c8ae0b30a9e68edcd660aff450b053c4df658697e45e99fdeda6e7b9", "1.5.2--pyhdfd78af_0": "sha256:a29ef7d2aa2227d1ac86b25c85814cf8e0d2b3827fe668e6090d58afe5334218", "1.5.3--pyhdfd78af_0": "sha256:6c0af17e1fbbd2e338f0dcea928bfb6ab6b8a89007267f25ba04e5f75d2a1ab1", "1.5.4--pyhdfd78af_0": "sha256:7e5bb743af661d93777771bbd43cddcb0adcce287bd0de1cf5ca77f058eb5651", "1.5.5--pyhdfd78af_0": "sha256:0cc1498ddb96f250dbd7eb13ac9458a5af3789d92a773098fe892a1385ea3a3d"}, "docker": "quay.io/biocontainers/straglr", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "straglr.py": "/usr/local/bin/straglr.py", "straglr_compare.py": "/usr/local/bin/straglr_compare.py", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table"}}
+config: {"url": "https://biocontainers.pro/tools/straglr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for straglr", "latest": {"1.5.6--pyhdfd78af_0": "sha256:af7f8b79773f0419543744d7a15d080a972b5f3090fb100231dacb7d060c7c63"}, "tags": {"1.3.0--pyhdfd78af_0": "sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627", "1.4.0--pyhdfd78af_0": "sha256:07f275460d28286002daf3aa54de02a533f5a3406b1874f75c0bcf96813da913", "1.4.1--pyhdfd78af_0": "sha256:373914b663a4391e4bc479e891e2c1de0a8b2d41fdfe8fad85a492342a370875", "1.5.0--pyhdfd78af_0": "sha256:0d9477ef1e67c635d2c3c7a1c21d32fa25716a7d9b44f15ab4b9aaee11814be1", "1.5.1--pyhdfd78af_0": "sha256:76285ea0c8ae0b30a9e68edcd660aff450b053c4df658697e45e99fdeda6e7b9", "1.5.2--pyhdfd78af_0": "sha256:a29ef7d2aa2227d1ac86b25c85814cf8e0d2b3827fe668e6090d58afe5334218", "1.5.3--pyhdfd78af_0": "sha256:6c0af17e1fbbd2e338f0dcea928bfb6ab6b8a89007267f25ba04e5f75d2a1ab1", "1.5.4--pyhdfd78af_0": "sha256:7e5bb743af661d93777771bbd43cddcb0adcce287bd0de1cf5ca77f058eb5651", "1.5.5--pyhdfd78af_0": "sha256:0cc1498ddb96f250dbd7eb13ac9458a5af3789d92a773098fe892a1385ea3a3d", "1.5.6--pyhdfd78af_0": "sha256:af7f8b79773f0419543744d7a15d080a972b5f3090fb100231dacb7d060c7c63"}, "docker": "quay.io/biocontainers/straglr", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "straglr.py": "/usr/local/bin/straglr.py", "straglr_compare.py": "/usr/local/bin/straglr_compare.py", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/straglr.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/straglr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/straglr:1.5.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/straglr:1.5.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/straglr/1.5.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/straglr/1.5.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/straglr/1.5.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/straglr/1.5.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

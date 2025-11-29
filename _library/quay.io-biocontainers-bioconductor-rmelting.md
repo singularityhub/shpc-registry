@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rmelting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmelting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmelting/container.yaml"
-updated_at: "2025-11-28 03:18:08.073380"
+updated_at: "2025-11-29 02:23:34.894667"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmelting"
 aliases:

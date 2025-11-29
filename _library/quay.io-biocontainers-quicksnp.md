@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quicksnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quicksnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quicksnp/container.yaml"
-updated_at: "2025-11-28 03:38:23.465787"
+updated_at: "2025-11-29 02:44:04.129110"
 latest: "1.0.1--py311hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/quicksnp"
 aliases:

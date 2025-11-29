@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-cider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-cider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-cider/container.yaml"
-updated_at: "2025-11-28 03:21:26.586667"
-latest: "1.0.4--hdfd78af_0"
+updated_at: "2025-11-29 02:26:54.393885"
+latest: "1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-cider"
 aliases:
  - "cider"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "1.0.3--hdfd78af_0"
  - "1.0.4--hdfd78af_0"
+ - "1.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-cider"
-config: {"url": "https://biocontainers.pro/tools/hmftools-cider", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-cider", "latest": {"1.0.4--hdfd78af_0": "sha256:d60679f747cd871713442bef9db677e3da6a437a227878da356fadc351d88ed8"}, "tags": {"1.0.3--hdfd78af_0": "sha256:e8a9c169b5480d3f036d54a476d0ca54158853e11ebe5b85ab40ee29d3b349de", "1.0.4--hdfd78af_0": "sha256:d60679f747cd871713442bef9db677e3da6a437a227878da356fadc351d88ed8"}, "docker": "quay.io/biocontainers/hmftools-cider", "aliases": {"cider": "/usr/local/bin/cider", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-cider", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-cider", "latest": {"1.1--hdfd78af_0": "sha256:5a9a33e6724c77ddafe551271df214a00d080e8f00ca38a020ea23d68f12b57a"}, "tags": {"1.0.3--hdfd78af_0": "sha256:e8a9c169b5480d3f036d54a476d0ca54158853e11ebe5b85ab40ee29d3b349de", "1.0.4--hdfd78af_0": "sha256:d60679f747cd871713442bef9db677e3da6a437a227878da356fadc351d88ed8", "1.1--hdfd78af_0": "sha256:5a9a33e6724c77ddafe551271df214a00d080e8f00ca38a020ea23d68f12b57a"}, "docker": "quay.io/biocontainers/hmftools-cider", "aliases": {"cider": "/usr/local/bin/cider", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-cider.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/hmftools-cider
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-cider:1.0.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-cider:1.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-cider/1.0.4--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-cider/1.0.4--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-cider/1.1--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-cider/1.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

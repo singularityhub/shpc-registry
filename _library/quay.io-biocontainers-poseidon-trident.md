@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/poseidon-trident"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poseidon-trident/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poseidon-trident/container.yaml"
-updated_at: "2025-11-28 04:05:59.701466"
-latest: "1.6.7.1--hebebf5b_0"
+updated_at: "2025-11-29 03:11:09.391502"
+latest: "1.6.7.1--hebebf5b_1"
 container_url: "https://biocontainers.pro/tools/poseidon-trident"
 aliases:
  - "trident"
@@ -23,8 +23,9 @@ versions:
  - "1.5.7.0--hebebf5b_1"
  - "1.6.2.1--hebebf5b_0"
  - "1.6.7.1--hebebf5b_0"
+ - "1.6.7.1--hebebf5b_1"
 description: "shpc-registry automated BioContainers addition for poseidon-trident"
-config: {"url": "https://biocontainers.pro/tools/poseidon-trident", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poseidon-trident", "latest": {"1.6.7.1--hebebf5b_0": "sha256:584629adb66c7047d2eaf235b08847ca8beef24d3f66412c72ade04487bdaed2"}, "tags": {"0.28.0--h9325052_0": "sha256:3a6f2f51c9322434446b730231f9310ec146579f708287b1e88a97c53de1120f", "1.1.6.0--h9325052_0": "sha256:8286f010e2227d0bcd3440e173e34b07c0c841ebaab0f0fd5fbd0bb73266e62d", "1.1.11.0--h9325052_0": "sha256:0b7450aeb4bfa7ff55621f6c5196cca92d5b527b7f70469291f9c2eb5ecf0ea0", "1.1.11.0--hf48d1a7_2": "sha256:4b8134739174c485a3e31037012fe6a6d4d9a16684c1089e175c2f3091a2560a", "1.2.0.0--hf48d1a7_0": "sha256:6f16c48ddf20972ae397c8604f4ce38abfaef6cf8194583d57b03be4f2c65dea", "1.3.0.4--hf48d1a7_0": "sha256:c15a7190a15cf5836e2b037222d58aca6a63309f339d52fce8579a0e1e928d38", "1.4.1.0--hf48d1a7_0": "sha256:67bda2d5f42e80066169c662e8bede1154a763cbee080ffd2dd9d7182b9c8252", "1.5.0.1--hf48d1a7_0": "sha256:569a1440d53aaf4f0af44989a6dd5910927eef9c981f1d4a9a56fdba5d3fdcd7", "1.5.4.0--hf48d1a7_0": "sha256:fe00d69e76885fbe4abebfc968be0cd886621d51e5b18384eb42c3a15ade0755", "1.5.7.0--hf48d1a7_0": "sha256:3dfd62cb219122a933c8ab8c9b0923699653d9165019f22d141b2b5fad01f5d4", "1.5.7.0--hebebf5b_1": "sha256:7af1c32030998818abacb84675f767a3c4854ce5d1999b6d26439dc28e9c93f5", "1.6.2.1--hebebf5b_0": "sha256:60ebf184ffcba168d4884c4ae917f50d8643878d1823192ab9832b6b42999c6f", "1.6.7.1--hebebf5b_0": "sha256:584629adb66c7047d2eaf235b08847ca8beef24d3f66412c72ade04487bdaed2"}, "docker": "quay.io/biocontainers/poseidon-trident", "aliases": {"trident": "/usr/local/bin/trident"}}
+config: {"url": "https://biocontainers.pro/tools/poseidon-trident", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poseidon-trident", "latest": {"1.6.7.1--hebebf5b_1": "sha256:e5f63fd8ababe264b8a86a300b3b6d18dc57deba14b7062b719a37771390e54e"}, "tags": {"0.28.0--h9325052_0": "sha256:3a6f2f51c9322434446b730231f9310ec146579f708287b1e88a97c53de1120f", "1.1.6.0--h9325052_0": "sha256:8286f010e2227d0bcd3440e173e34b07c0c841ebaab0f0fd5fbd0bb73266e62d", "1.1.11.0--h9325052_0": "sha256:0b7450aeb4bfa7ff55621f6c5196cca92d5b527b7f70469291f9c2eb5ecf0ea0", "1.1.11.0--hf48d1a7_2": "sha256:4b8134739174c485a3e31037012fe6a6d4d9a16684c1089e175c2f3091a2560a", "1.2.0.0--hf48d1a7_0": "sha256:6f16c48ddf20972ae397c8604f4ce38abfaef6cf8194583d57b03be4f2c65dea", "1.3.0.4--hf48d1a7_0": "sha256:c15a7190a15cf5836e2b037222d58aca6a63309f339d52fce8579a0e1e928d38", "1.4.1.0--hf48d1a7_0": "sha256:67bda2d5f42e80066169c662e8bede1154a763cbee080ffd2dd9d7182b9c8252", "1.5.0.1--hf48d1a7_0": "sha256:569a1440d53aaf4f0af44989a6dd5910927eef9c981f1d4a9a56fdba5d3fdcd7", "1.5.4.0--hf48d1a7_0": "sha256:fe00d69e76885fbe4abebfc968be0cd886621d51e5b18384eb42c3a15ade0755", "1.5.7.0--hf48d1a7_0": "sha256:3dfd62cb219122a933c8ab8c9b0923699653d9165019f22d141b2b5fad01f5d4", "1.5.7.0--hebebf5b_1": "sha256:7af1c32030998818abacb84675f767a3c4854ce5d1999b6d26439dc28e9c93f5", "1.6.2.1--hebebf5b_0": "sha256:60ebf184ffcba168d4884c4ae917f50d8643878d1823192ab9832b6b42999c6f", "1.6.7.1--hebebf5b_0": "sha256:584629adb66c7047d2eaf235b08847ca8beef24d3f66412c72ade04487bdaed2", "1.6.7.1--hebebf5b_1": "sha256:e5f63fd8ababe264b8a86a300b3b6d18dc57deba14b7062b719a37771390e54e"}, "docker": "quay.io/biocontainers/poseidon-trident", "aliases": {"trident": "/usr/local/bin/trident"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poseidon-trident.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/poseidon-trident
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/poseidon-trident:1.6.7.1--hebebf5b_0
+$ shpc install quay.io/biocontainers/poseidon-trident:1.6.7.1--hebebf5b_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/poseidon-trident/1.6.7.1--hebebf5b_0
-$ module help quay.io/biocontainers/poseidon-trident/1.6.7.1--hebebf5b_0
+$ module load quay.io/biocontainers/poseidon-trident/1.6.7.1--hebebf5b_1
+$ module help quay.io/biocontainers/poseidon-trident/1.6.7.1--hebebf5b_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

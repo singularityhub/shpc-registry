@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/pytorch-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/pytorch-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/pytorch-notebook/container.yaml"
-updated_at: "2025-11-28 03:14:44.330768"
+updated_at: "2025-11-29 02:20:08.905337"
 latest: "2025-10-06"
 container_url: "https://quay.io/repository/jupyter/pytorch-notebook"
 aliases:
