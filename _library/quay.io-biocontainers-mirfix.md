@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirfix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirfix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirfix/container.yaml"
-updated_at: "2025-11-29 03:22:30.925898"
+updated_at: "2025-11-30 03:46:48.432529"
 latest: "2.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mirfix"
 aliases:

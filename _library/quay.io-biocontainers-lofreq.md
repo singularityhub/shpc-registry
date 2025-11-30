@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lofreq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lofreq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lofreq/container.yaml"
-updated_at: "2025-11-29 03:20:27.254878"
+updated_at: "2025-11-30 03:44:48.292549"
 latest: "2.1.5--py311hce89694_15"
 container_url: "https://biocontainers.pro/tools/lofreq"
 aliases:

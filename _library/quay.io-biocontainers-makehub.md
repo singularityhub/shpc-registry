@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/makehub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/makehub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/makehub/container.yaml"
-updated_at: "2025-11-29 03:26:34.687824"
+updated_at: "2025-11-30 03:50:46.395237"
 latest: "1.0.8--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/makehub"
 aliases:

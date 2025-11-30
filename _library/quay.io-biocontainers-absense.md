@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/absense"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/absense/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/absense/container.yaml"
-updated_at: "2025-11-29 03:43:31.733809"
+updated_at: "2025-11-30 04:07:28.233494"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/absense"
 aliases:

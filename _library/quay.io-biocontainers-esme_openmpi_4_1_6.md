@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esme_openmpi_4_1_6"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_openmpi_4_1_6/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_openmpi_4_1_6/container.yaml"
-updated_at: "2025-11-29 03:27:00.944116"
+updated_at: "2025-11-30 03:51:12.095258"
 latest: "1.0.0--openmpi_h3286a4a_0"
 container_url: "https://biocontainers.pro/tools/esme_openmpi_4_1_6"
 aliases:

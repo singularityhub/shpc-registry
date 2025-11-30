@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pftools/container.yaml"
-updated_at: "2025-11-29 03:20:42.821459"
+updated_at: "2025-11-30 03:45:03.414427"
 latest: "3.2.13--pl5321r44hcf78210_0"
 container_url: "https://biocontainers.pro/tools/pftools"
 aliases:

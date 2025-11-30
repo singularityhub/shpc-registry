@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-assorthead"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-assorthead/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-assorthead/container.yaml"
-updated_at: "2025-11-29 04:05:24.022410"
+updated_at: "2025-11-30 04:29:02.682383"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-assorthead"
 aliases:

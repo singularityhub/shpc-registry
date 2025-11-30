@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-peca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-peca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-peca/container.yaml"
-updated_at: "2025-11-29 03:53:39.233811"
+updated_at: "2025-11-30 04:17:28.647514"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-peca"
 

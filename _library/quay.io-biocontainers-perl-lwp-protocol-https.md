@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-lwp-protocol-https"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lwp-protocol-https/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lwp-protocol-https/container.yaml"
-updated_at: "2025-11-29 04:05:00.824693"
+updated_at: "2025-11-30 04:28:39.996987"
 latest: "6.14--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-lwp-protocol-https"
 aliases:

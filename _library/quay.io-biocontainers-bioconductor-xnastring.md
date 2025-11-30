@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xnastring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xnastring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xnastring/container.yaml"
-updated_at: "2025-11-29 03:44:16.086232"
+updated_at: "2025-11-30 04:08:12.095379"
 latest: "1.14.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xnastring"
 aliases:
