@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/argh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/argh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/argh/container.yaml"
-updated_at: "2025-11-30 04:09:11.024796"
+updated_at: "2025-12-01 04:24:07.564912"
 latest: "0.26.2--py36_0"
 container_url: "https://biocontainers.pro/tools/argh"
 aliases:

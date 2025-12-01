@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brooklyn_plot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brooklyn_plot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/brooklyn_plot/container.yaml"
-updated_at: "2025-11-30 04:25:25.727376"
+updated_at: "2025-12-01 04:40:28.320824"
 latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/brooklyn_plot"
 aliases:

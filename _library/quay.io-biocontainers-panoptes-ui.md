@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panoptes-ui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panoptes-ui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panoptes-ui/container.yaml"
-updated_at: "2025-11-30 04:07:52.994410"
+updated_at: "2025-12-01 04:22:49.213702"
 latest: "0.2.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/panoptes-ui"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rjchallis-assembly-stats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rjchallis-assembly-stats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rjchallis-assembly-stats/container.yaml"
-updated_at: "2025-11-30 04:04:37.374890"
+updated_at: "2025-12-01 04:19:35.750342"
 latest: "17.02--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rjchallis-assembly-stats"
 aliases:

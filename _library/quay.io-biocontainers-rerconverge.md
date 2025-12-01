@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rerconverge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rerconverge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rerconverge/container.yaml"
-updated_at: "2025-11-30 04:27:38.732830"
+updated_at: "2025-12-01 04:42:39.218029"
 latest: "0.3.0--r44h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/rerconverge"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxburst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxburst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxburst/container.yaml"
-updated_at: "2025-11-30 04:14:00.595970"
+updated_at: "2025-12-01 04:28:56.316265"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxburst"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/migraine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/migraine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/migraine/container.yaml"
-updated_at: "2025-11-30 04:29:46.268792"
+updated_at: "2025-12-01 04:44:47.257836"
 latest: "0.6.0--h9948957_4"
 container_url: "https://biocontainers.pro/tools/migraine"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sagx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sagx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sagx/container.yaml"
-updated_at: "2025-11-30 04:01:59.712365"
+updated_at: "2025-12-01 04:16:57.260320"
 latest: "1.64.0--r40hd029910_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-sagx"
 aliases:

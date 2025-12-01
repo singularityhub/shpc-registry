@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dream-stellar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dream-stellar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dream-stellar/container.yaml"
-updated_at: "2025-11-30 03:46:47.840299"
+updated_at: "2025-12-01 04:01:39.975911"
 latest: "2.1.0--haf24da9_0"
 container_url: "https://biocontainers.pro/tools/dream-stellar"
 aliases:

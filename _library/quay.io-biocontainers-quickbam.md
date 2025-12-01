@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quickbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quickbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quickbam/container.yaml"
-updated_at: "2025-11-30 03:44:01.112011"
+updated_at: "2025-12-01 03:59:01.061932"
 latest: "1.0.0--h4f9202f_1"
 container_url: "https://biocontainers.pro/tools/quickbam"
 aliases:

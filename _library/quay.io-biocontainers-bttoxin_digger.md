@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bttoxin_digger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bttoxin_digger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bttoxin_digger/container.yaml"
-updated_at: "2025-11-30 04:18:36.630823"
+updated_at: "2025-12-01 04:33:30.537088"
 latest: "1.0.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bttoxin_digger"
 aliases:

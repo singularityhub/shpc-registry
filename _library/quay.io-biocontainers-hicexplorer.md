@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hicexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hicexplorer/container.yaml"
-updated_at: "2025-11-30 03:56:30.230423"
+updated_at: "2025-12-01 04:11:25.797608"
 latest: "3.7.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hicexplorer"
 aliases:

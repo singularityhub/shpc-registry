@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/xz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/xz/container.yaml"
-updated_at: "2025-11-30 03:38:34.207027"
+updated_at: "2025-12-01 03:53:48.897386"
 latest: "5.2.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xz"
 aliases:

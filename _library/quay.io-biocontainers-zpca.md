@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zpca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zpca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zpca/container.yaml"
-updated_at: "2025-11-30 03:51:14.785486"
+updated_at: "2025-12-01 04:06:02.239258"
 latest: "0.8.3.post1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/zpca"
 aliases:

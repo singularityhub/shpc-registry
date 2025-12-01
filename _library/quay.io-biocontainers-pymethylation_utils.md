@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymethylation_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymethylation_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymethylation_utils/container.yaml"
-updated_at: "2025-11-30 04:03:47.037658"
+updated_at: "2025-12-01 04:18:45.421892"
 latest: "0.5.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pymethylation_utils"
 aliases:

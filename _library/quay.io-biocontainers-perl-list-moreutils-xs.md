@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-list-moreutils-xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-list-moreutils-xs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-list-moreutils-xs/container.yaml"
-updated_at: "2025-11-30 03:52:36.399139"
+updated_at: "2025-12-01 04:07:26.627200"
 latest: "0.430--pl5321h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/perl-list-moreutils-xs"
 aliases:

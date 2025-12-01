@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deblur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deblur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deblur/container.yaml"
-updated_at: "2025-11-30 04:24:09.730079"
+updated_at: "2025-12-01 04:39:09.872030"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deblur"
 aliases:

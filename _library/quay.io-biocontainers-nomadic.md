@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nomadic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nomadic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nomadic/container.yaml"
-updated_at: "2025-11-30 03:51:53.209910"
+updated_at: "2025-12-01 04:06:41.475936"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nomadic"
 aliases:

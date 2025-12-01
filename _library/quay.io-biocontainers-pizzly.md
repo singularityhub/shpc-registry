@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pizzly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pizzly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pizzly/container.yaml"
-updated_at: "2025-11-30 03:44:08.057184"
+updated_at: "2025-12-01 03:59:07.626099"
 latest: "0.37.3--h470a237_3"
 container_url: "https://biocontainers.pro/tools/pizzly"
 aliases:

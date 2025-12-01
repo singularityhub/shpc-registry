@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/narfmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/narfmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/narfmap/container.yaml"
-updated_at: "2025-11-30 03:59:24.967934"
+updated_at: "2025-12-01 04:14:25.461290"
 latest: "1.4.2--h43eeafb_1"
 container_url: "https://biocontainers.pro/tools/narfmap"
 aliases:

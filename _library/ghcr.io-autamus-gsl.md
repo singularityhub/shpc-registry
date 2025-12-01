@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gsl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gsl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gsl/container.yaml"
-updated_at: "2025-11-30 03:38:32.739137"
+updated_at: "2025-12-01 03:53:47.487111"
 latest: "2.7"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gsl"
 aliases:

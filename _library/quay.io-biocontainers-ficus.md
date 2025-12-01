@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ficus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ficus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ficus/container.yaml"
-updated_at: "2025-11-30 04:02:37.712364"
+updated_at: "2025-12-01 04:17:35.156312"
 latest: "0.5--pyh864c0ab_4"
 container_url: "https://biocontainers.pro/tools/ficus"
 aliases:
