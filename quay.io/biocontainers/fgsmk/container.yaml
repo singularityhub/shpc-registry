@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/fgsmk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fgsmk
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:eb441bcab5b5421f8c757265704bab47a7dc9f7be9416d65baf73abf7dcdbf2f
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:eb441bcab5b5421f8c757265704bab47a7dc9f7be9416d65baf73abf7dcdbf2f
+docker: quay.io/biocontainers/fgsmk
+aliases:
+  phc: /usr/local/bin/phc
+  eido: /usr/local/bin/eido
+  typer: /usr/local/bin/typer
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  yte: /usr/local/bin/yte
+  plac_runner.py: /usr/local/bin/plac_runner.py
+  coloredlogs: /usr/local/bin/coloredlogs
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  markdown-it: /usr/local/bin/markdown-it
+  snakemake: /usr/local/bin/snakemake
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  humanfriendly: /usr/local/bin/humanfriendly
+  tabulate: /usr/local/bin/tabulate
+  jupyter-trust: /usr/local/bin/jupyter-trust

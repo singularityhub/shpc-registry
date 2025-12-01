@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/rattle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rattle
+latest:
+  1.0--h5ca1c30_0: 
+    sha256:f43ae7fd0e20eac760edee42d04702c98efccf4d06a4cbc621df1e90a62c38b3
+tags:
+  1.0--h5ca1c30_0: 
+    sha256:f43ae7fd0e20eac760edee42d04702c98efccf4d06a4cbc621df1e90a62c38b3
+docker: quay.io/biocontainers/rattle
+aliases:
+  rattle: /usr/local/bin/rattle
