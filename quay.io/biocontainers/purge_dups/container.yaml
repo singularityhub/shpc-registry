@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/purge_dups
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for purge_dups
 latest:
-  1.2.6--h577a1d6_2: 
-    sha256:40300568fa354a3209435f402f75761c3cee39a8529fd761ed33fd67ff06abb8
+  1.2.6--h577a1d6_3: 
+    sha256:2430395e45f446be0c765297148789c9542ec9b3c8f07add9da76143de6d8db2
 tags:
   1.2.6--h7132678_0: 
     sha256:37b9aa9084c2486c98159830170a94a403e07c1a7760d45bbe2c4b4c3edb3696
@@ -11,6 +11,8 @@ tags:
     sha256:52094ca5831f19e9b410949bce3ce7c410bd9fd21cd4392e22ca68cf9b708ab4
   1.2.6--h577a1d6_2: 
     sha256:40300568fa354a3209435f402f75761c3cee39a8529fd761ed33fd67ff06abb8
+  1.2.6--h577a1d6_3: 
+    sha256:2430395e45f446be0c765297148789c9542ec9b3c8f07add9da76143de6d8db2
 docker: quay.io/biocontainers/purge_dups
 aliases:
   calcuts: /usr/local/bin/calcuts

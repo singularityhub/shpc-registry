@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-config-autoconf
 latest:
-  0.320--pl5321h7b50bb2_3: 
-    sha256:5c978da37e0e65af2dd15b37db92d8a4c644b5d35aa4e3c0e2c5688fe21331e0
+  0.320--pl5321h7b50bb2_4: 
+    sha256:543d343a8da467227f9d578e376d0df3d6939352f3a799307b96d9c81cc05b2e
 tags:
   0.320--pl5321hec16e2b_1: 
     sha256:3ab164305261354c2e0b3df279a466ac5043770c1eeaa269d916976a2cedfba5
@@ -12,6 +12,8 @@ tags:
     sha256:e68ad2c299219bb05ffcff50a8632363825f1011a16557a376ce48f1e8365c59
   0.320--pl5321h7b50bb2_3: 
     sha256:5c978da37e0e65af2dd15b37db92d8a4c644b5d35aa4e3c0e2c5688fe21331e0
+  0.320--pl5321h7b50bb2_4: 
+    sha256:543d343a8da467227f9d578e376d0df3d6939352f3a799307b96d9c81cc05b2e
 docker: quay.io/biocontainers/perl-config-autoconf
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

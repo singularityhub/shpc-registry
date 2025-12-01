@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/clearcut
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clearcut
 latest:
-  1.0.9--h7b50bb2_7: 
-    sha256:7b40f29bedd6e2f9f333ddf45f993cf4aa3b02ffc3f4b12636eded9a5e3b2657
+  1.0.9--h7b50bb2_8: 
+    sha256:dc6861043b91bcbd55077667d2aaeea9649a2cbd442a006d7ec72671887d4223
 tags:
   1.0.9--hec16e2b_4: 
     sha256:3301cd7dff0967d52a44b23f79cc6c6c4ce141d57110c19ca74f59f9db256e41
@@ -11,6 +11,8 @@ tags:
     sha256:5bcc4d0be237284834b07870efa0146680816657a50502a2ecf0f3e56b966239
   1.0.9--h7b50bb2_7: 
     sha256:7b40f29bedd6e2f9f333ddf45f993cf4aa3b02ffc3f4b12636eded9a5e3b2657
+  1.0.9--h7b50bb2_8: 
+    sha256:dc6861043b91bcbd55077667d2aaeea9649a2cbd442a006d7ec72671887d4223
 docker: quay.io/biocontainers/clearcut
 aliases:
   clearcut: /usr/local/bin/clearcut

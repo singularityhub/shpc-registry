@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/lsabgc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lsabgc
 latest:
-  1.1.9--pyhdfd78af_0: 
-    sha256:47cc85f77fa9df48eb6cde4a385203c74594c83c0d1c3ca91b6264b1d0488f07
+  1.1.10--pyhdfd78af_0: 
+    sha256:70b4d6de4bdd2379d59047ce570b76cf13198f35bc9586e13edfba79f0f4dca1
 tags:
   1.0.5--pyh7e72e81_0: 
     sha256:59344015d94d3d2475aa5912131dcc3a8af2dbaee765b47db964e902383d9ff9
@@ -23,6 +23,8 @@ tags:
     sha256:8b23b1f4d18771fe2a9626331f77c3447e366d28f50312d60ad791dbff14da0a
   1.1.9--pyhdfd78af_0: 
     sha256:47cc85f77fa9df48eb6cde4a385203c74594c83c0d1c3ca91b6264b1d0488f07
+  1.1.10--pyhdfd78af_0: 
+    sha256:70b4d6de4bdd2379d59047ce570b76cf13198f35bc9586e13edfba79f0f4dca1
 docker: quay.io/biocontainers/lsabgc
 aliases:
   GSeeF: /usr/local/bin/GSeeF

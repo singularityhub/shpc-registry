@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hifiasm_meta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hifiasm_meta
 latest:
-  hamtv0.3.3--h5ca1c30_0: 
-    sha256:7bff0152ad71da4dab404f92289a0ffca4c5abb75b4426f100bcd0cd30c7b8c4
+  hamtv0.3.5--h5ca1c30_0: 
+    sha256:e1a7294c09ce2eaa31ed8bbc2b39fd1753310be1b3725979738588ee5e57e681
 tags:
   hamtv0.3--h5b5514e_1: 
     sha256:776514c78ca278f86cadebc71a9a0fb43d31959b55d795c5888e5784b9a1e0f9
@@ -15,6 +15,8 @@ tags:
     sha256:4ca0575c48b8f6f5e12765c721f32d54a40309aaa4436a6061c77d3635a78f62
   hamtv0.3.3--h5ca1c30_0: 
     sha256:7bff0152ad71da4dab404f92289a0ffca4c5abb75b4426f100bcd0cd30c7b8c4
+  hamtv0.3.5--h5ca1c30_0: 
+    sha256:e1a7294c09ce2eaa31ed8bbc2b39fd1753310be1b3725979738588ee5e57e681
 docker: quay.io/biocontainers/hifiasm_meta
 aliases:
   hifiasm_meta: /usr/local/bin/hifiasm_meta
