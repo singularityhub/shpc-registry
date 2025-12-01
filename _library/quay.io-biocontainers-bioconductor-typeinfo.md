@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-typeinfo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-typeinfo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-typeinfo/container.yaml"
-updated_at: "2025-12-01 04:39:35.995030"
+updated_at: "2025-12-01 05:50:06.705750"
 latest: "1.68.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-typeinfo"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/schemarefinery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schemarefinery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schemarefinery/container.yaml"
-updated_at: "2025-12-01 04:28:39.281102"
+updated_at: "2025-12-01 05:39:06.728113"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/schemarefinery"
 aliases:

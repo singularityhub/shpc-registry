@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-amlmapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-amlmapr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-amlmapr/container.yaml"
-updated_at: "2025-12-01 04:30:01.260727"
+updated_at: "2025-12-01 05:40:30.194278"
 latest: "0.1.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-amlmapr"
 aliases:
