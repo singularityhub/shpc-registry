@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/floco
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for floco
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:03c92e8f2b195b7920ddec116bdffedf0b3fd3e13755a874d74c9c94d0b2c8f1
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:03c92e8f2b195b7920ddec116bdffedf0b3fd3e13755a874d74c9c94d0b2c8f1
+docker: quay.io/biocontainers/floco
+aliases:
+  floco: /usr/local/bin/floco
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

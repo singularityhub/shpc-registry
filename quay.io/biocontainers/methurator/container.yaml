@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/methurator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for methurator
+latest:
+  0.1.5--pyhdfd78af_0: 
+    sha256:dfde9f4023d6a0718de19c6f61499a597e1b85bc7ea9085137460f93a9e92c85
+tags:
+  0.1.5--pyhdfd78af_0: 
+    sha256:dfde9f4023d6a0718de19c6f61499a597e1b85bc7ea9085137460f93a9e92c85
+docker: quay.io/biocontainers/methurator
+aliases:
+  MethylDackel: /usr/local/bin/MethylDackel
+  methurator: /usr/local/bin/methurator
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  rich-click: /usr/local/bin/rich-click
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  markdown-it: /usr/local/bin/markdown-it
+  annot-tsv: /usr/local/bin/annot-tsv
+  faidx: /usr/local/bin/faidx
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  pygmentize: /usr/local/bin/pygmentize
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge

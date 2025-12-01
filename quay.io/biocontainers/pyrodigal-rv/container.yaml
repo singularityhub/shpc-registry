@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/pyrodigal-rv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyrodigal-rv
+latest:
+  0.1.0--pyh7e72e81_0: 
+    sha256:0608fe0f96bbf42e7db6cd77f0c730ab36b5861eb1841eee014dd9edd6d3de12
+tags:
+  0.1.0--pyh7e72e81_0: 
+    sha256:0608fe0f96bbf42e7db6cd77f0c730ab36b5861eb1841eee014dd9edd6d3de12
+docker: quay.io/biocontainers/pyrodigal-rv
+aliases:
+  pyrodigal-rv: /usr/local/bin/pyrodigal-rv
+  archspec: /usr/local/bin/archspec
+  pyrodigal: /usr/local/bin/pyrodigal
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
