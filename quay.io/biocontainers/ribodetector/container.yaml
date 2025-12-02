@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ribodetector
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ribodetector
 latest:
-  0.3.1--pyhdfd78af_0: 
-    sha256:26603de3c35a07d0659e30222173f04adbc9bc6fc2c18a9b6eaa39f026da75de
+  0.3.2--pyhdfd78af_0: 
+    sha256:3a8d444969295da8c271214350c91be4f672dae1b2a727bba3c64ee2ac6f97cc
 tags:
   0.2.7--pyhdfd78af_0: 
     sha256:392b96c2b930172d9c43ba932ef0b470bc98294d1888a38531bca696ad1db786
@@ -15,6 +15,8 @@ tags:
     sha256:0a05cfa9ce8745490697441ede8608ddfd6db51d683ed7830cc4920b88756bc1
   0.3.1--pyhdfd78af_0: 
     sha256:26603de3c35a07d0659e30222173f04adbc9bc6fc2c18a9b6eaa39f026da75de
+  0.3.2--pyhdfd78af_0: 
+    sha256:3a8d444969295da8c271214350c91be4f672dae1b2a727bba3c64ee2ac6f97cc
 docker: quay.io/biocontainers/ribodetector
 aliases:
   onnxruntime_test: /usr/local/bin/onnxruntime_test

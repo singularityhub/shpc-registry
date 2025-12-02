@@ -3,9 +3,11 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   diamond_add_taxonomy
 latest:
-  0.1.2--py36_0: 
-    sha256:7b0f7563ce951f96b303fd3443c803fca46bd9935ba761e3585d259713544720
+  0.1.2--pyhdfd78af_1: 
+    sha256:ec62bfa90d8a9b36b9872025fcc52fc9d44bdbf50b170f88f65b2b3f3ac77162
 tags:
   0.1.2--py36_0: 
     sha256:7b0f7563ce951f96b303fd3443c803fca46bd9935ba761e3585d259713544720
+  0.1.2--pyhdfd78af_1: 
+    sha256:ec62bfa90d8a9b36b9872025fcc52fc9d44bdbf50b170f88f65b2b3f3ac77162
 docker: quay.io/biocontainers/diamond_add_taxonomy

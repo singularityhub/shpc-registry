@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/fufihla
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fufihla
 latest:
-  0.1.0--hdfd78af_0: 
-    sha256:afdd613f6b65bd7b5c67b7be9b35cb753d45fbf68cd4a9c1580947a18f56e6a6
+  0.2.3--hdfd78af_0: 
+    sha256:b12f62fd50c47884691d0576a6224f51c06c1fa044a39f03d769b44b8c2d2add
 tags:
   0.1.0--hdfd78af_0: 
     sha256:afdd613f6b65bd7b5c67b7be9b35cb753d45fbf68cd4a9c1580947a18f56e6a6
+  0.2.3--hdfd78af_0: 
+    sha256:b12f62fd50c47884691d0576a6224f51c06c1fa044a39f03d769b44b8c2d2add
 docker: quay.io/biocontainers/fufihla
 aliases:
   fufihla: /usr/local/bin/fufihla
