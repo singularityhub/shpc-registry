@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/kompot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kompot
 latest:
-  0.6.0--pyhdfd78af_0: 
-    sha256:b37b831125a71daeee386938332f95d8b4ca6ca1f0f1ea152e309f70be809285
+  0.6.2--pyhdfd78af_0: 
+    sha256:1f2bad9a123411f89fc66703819ca4e60c1e07515aeca692e60f7c5684c07c69
 tags:
   0.6.0--pyhdfd78af_0: 
     sha256:b37b831125a71daeee386938332f95d8b4ca6ca1f0f1ea152e309f70be809285
+  0.6.2--pyhdfd78af_0: 
+    sha256:1f2bad9a123411f89fc66703819ca4e60c1e07515aeca692e60f7c5684c07c69
 docker: quay.io/biocontainers/kompot
 aliases:
   crc32c: /usr/local/bin/crc32c
