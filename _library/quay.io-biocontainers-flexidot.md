@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flexidot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexidot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexidot/container.yaml"
-updated_at: "2025-12-01 05:08:36.754168"
-latest: "2.0.1--pyhdfd78af_0"
+updated_at: "2025-12-03 03:26:17.642805"
+latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flexidot"
 aliases:
  - "flexidot"
@@ -34,8 +34,9 @@ aliases:
  - "opj_dump"
 versions:
  - "2.0.1--pyhdfd78af_0"
+ - "2.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flexidot"
-config: {"url": "https://biocontainers.pro/tools/flexidot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexidot", "latest": {"2.0.1--pyhdfd78af_0": "sha256:f5a2ec77691a437585998d6e283f8e349a744c05872506ac6485b88485857859"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:f5a2ec77691a437585998d6e283f8e349a744c05872506ac6485b88485857859"}, "docker": "quay.io/biocontainers/flexidot", "aliases": {"flexidot": "/usr/local/bin/flexidot", "browse": "/usr/local/bin/browse", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/flexidot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flexidot", "latest": {"2.0.2--pyhdfd78af_0": "sha256:0da5602f5b0c17aed8d747aa8c798a1a28bf5378773e92abb638cdd4af97d089"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:f5a2ec77691a437585998d6e283f8e349a744c05872506ac6485b88485857859", "2.0.2--pyhdfd78af_0": "sha256:0da5602f5b0c17aed8d747aa8c798a1a28bf5378773e92abb638cdd4af97d089"}, "docker": "quay.io/biocontainers/flexidot", "aliases": {"flexidot": "/usr/local/bin/flexidot", "browse": "/usr/local/bin/browse", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flexidot.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/flexidot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flexidot:2.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flexidot:2.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flexidot/2.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/flexidot/2.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/flexidot/2.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/flexidot/2.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcfdist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfdist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfdist/container.yaml"
-updated_at: "2025-12-01 05:48:57.671801"
+updated_at: "2025-12-03 04:05:17.668451"
 latest: "2.4.0--h84372a0_0"
 container_url: "https://biocontainers.pro/tools/vcfdist"
 aliases:

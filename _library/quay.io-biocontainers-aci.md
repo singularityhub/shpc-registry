@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aci/container.yaml"
-updated_at: "2025-12-01 05:44:15.998575"
-latest: "1.15.250702--pyhdfd78af_0"
+updated_at: "2025-12-03 04:00:30.009227"
+latest: "1.45.251125--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aci"
 aliases:
  - "aci"
@@ -32,8 +32,9 @@ versions:
  - "1.2.20231229--pyhdfd78af_0"
  - "1.4.20240116--pyhdfd78af_0"
  - "1.15.250702--pyhdfd78af_0"
+ - "1.45.251125--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for aci"
-config: {"url": "https://biocontainers.pro/tools/aci", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aci", "latest": {"1.15.250702--pyhdfd78af_0": "sha256:6a1f6beaf84e64da4b1b4da8848da064e860ee48e74ac80a73eb14be16ed1309"}, "tags": {"1.2.20231229--pyhdfd78af_0": "sha256:4778aec20107bfdaab26a0be853be151b239e955a9d793259b617713abfec63a", "1.4.20240116--pyhdfd78af_0": "sha256:d47bf0f851463ccfa373621bbe5119303f6f3bf94afd938775b4352d6de184e7", "1.15.250702--pyhdfd78af_0": "sha256:6a1f6beaf84e64da4b1b4da8848da064e860ee48e74ac80a73eb14be16ed1309"}, "docker": "quay.io/biocontainers/aci", "aliases": {"aci": "/usr/local/bin/aci", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/aci", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aci", "latest": {"1.45.251125--pyhdfd78af_0": "sha256:ce1572c3bc2c2a263ec7905815820f663f83eae7b95071275ddb76c57c1e6d7d"}, "tags": {"1.2.20231229--pyhdfd78af_0": "sha256:4778aec20107bfdaab26a0be853be151b239e955a9d793259b617713abfec63a", "1.4.20240116--pyhdfd78af_0": "sha256:d47bf0f851463ccfa373621bbe5119303f6f3bf94afd938775b4352d6de184e7", "1.15.250702--pyhdfd78af_0": "sha256:6a1f6beaf84e64da4b1b4da8848da064e860ee48e74ac80a73eb14be16ed1309", "1.45.251125--pyhdfd78af_0": "sha256:ce1572c3bc2c2a263ec7905815820f663f83eae7b95071275ddb76c57c1e6d7d"}, "docker": "quay.io/biocontainers/aci", "aliases": {"aci": "/usr/local/bin/aci", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aci.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/aci
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aci:1.15.250702--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/aci:1.45.251125--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aci/1.15.250702--pyhdfd78af_0
-$ module help quay.io/biocontainers/aci/1.15.250702--pyhdfd78af_0
+$ module load quay.io/biocontainers/aci/1.45.251125--pyhdfd78af_0
+$ module help quay.io/biocontainers/aci/1.45.251125--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

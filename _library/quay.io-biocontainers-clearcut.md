@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clearcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clearcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clearcut/container.yaml"
-updated_at: "2025-12-01 05:29:22.943343"
-latest: "1.0.9--h7b50bb2_7"
+updated_at: "2025-12-03 03:46:04.719630"
+latest: "1.0.9--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/clearcut"
 aliases:
  - "clearcut"
@@ -13,8 +13,9 @@ versions:
  - "1.0.9--hec16e2b_4"
  - "1.0.9--h031d066_6"
  - "1.0.9--h7b50bb2_7"
+ - "1.0.9--h7b50bb2_8"
 description: "shpc-registry automated BioContainers addition for clearcut"
-config: {"url": "https://biocontainers.pro/tools/clearcut", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clearcut", "latest": {"1.0.9--h7b50bb2_7": "sha256:7b40f29bedd6e2f9f333ddf45f993cf4aa3b02ffc3f4b12636eded9a5e3b2657"}, "tags": {"1.0.9--hec16e2b_4": "sha256:3301cd7dff0967d52a44b23f79cc6c6c4ce141d57110c19ca74f59f9db256e41", "1.0.9--h031d066_6": "sha256:5bcc4d0be237284834b07870efa0146680816657a50502a2ecf0f3e56b966239", "1.0.9--h7b50bb2_7": "sha256:7b40f29bedd6e2f9f333ddf45f993cf4aa3b02ffc3f4b12636eded9a5e3b2657"}, "docker": "quay.io/biocontainers/clearcut", "aliases": {"clearcut": "/usr/local/bin/clearcut"}}
+config: {"url": "https://biocontainers.pro/tools/clearcut", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clearcut", "latest": {"1.0.9--h7b50bb2_8": "sha256:dc6861043b91bcbd55077667d2aaeea9649a2cbd442a006d7ec72671887d4223"}, "tags": {"1.0.9--hec16e2b_4": "sha256:3301cd7dff0967d52a44b23f79cc6c6c4ce141d57110c19ca74f59f9db256e41", "1.0.9--h031d066_6": "sha256:5bcc4d0be237284834b07870efa0146680816657a50502a2ecf0f3e56b966239", "1.0.9--h7b50bb2_7": "sha256:7b40f29bedd6e2f9f333ddf45f993cf4aa3b02ffc3f4b12636eded9a5e3b2657", "1.0.9--h7b50bb2_8": "sha256:dc6861043b91bcbd55077667d2aaeea9649a2cbd442a006d7ec72671887d4223"}, "docker": "quay.io/biocontainers/clearcut", "aliases": {"clearcut": "/usr/local/bin/clearcut"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clearcut.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/clearcut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clearcut:1.0.9--h7b50bb2_7
+$ shpc install quay.io/biocontainers/clearcut:1.0.9--h7b50bb2_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clearcut/1.0.9--h7b50bb2_7
-$ module help quay.io/biocontainers/clearcut/1.0.9--h7b50bb2_7
+$ module load quay.io/biocontainers/clearcut/1.0.9--h7b50bb2_8
+$ module help quay.io/biocontainers/clearcut/1.0.9--h7b50bb2_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

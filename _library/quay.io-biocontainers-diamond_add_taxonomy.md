@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/diamond_add_taxonomy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diamond_add_taxonomy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diamond_add_taxonomy/container.yaml"
-updated_at: "2025-12-01 05:41:23.308201"
-latest: "0.1.2--py36_0"
+updated_at: "2025-12-03 03:57:39.913093"
+latest: "0.1.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/diamond_add_taxonomy"
 
 versions:
  - "0.1.2--py36_0"
+ - "0.1.2--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for diamond_add_taxonomy"
-config: {"url": "https://biocontainers.pro/tools/diamond_add_taxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diamond_add_taxonomy", "latest": {"0.1.2--py36_0": "sha256:7b0f7563ce951f96b303fd3443c803fca46bd9935ba761e3585d259713544720"}, "tags": {"0.1.2--py36_0": "sha256:7b0f7563ce951f96b303fd3443c803fca46bd9935ba761e3585d259713544720"}, "docker": "quay.io/biocontainers/diamond_add_taxonomy"}
+config: {"url": "https://biocontainers.pro/tools/diamond_add_taxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diamond_add_taxonomy", "latest": {"0.1.2--pyhdfd78af_1": "sha256:ec62bfa90d8a9b36b9872025fcc52fc9d44bdbf50b170f88f65b2b3f3ac77162"}, "tags": {"0.1.2--py36_0": "sha256:7b0f7563ce951f96b303fd3443c803fca46bd9935ba761e3585d259713544720", "0.1.2--pyhdfd78af_1": "sha256:ec62bfa90d8a9b36b9872025fcc52fc9d44bdbf50b170f88f65b2b3f3ac77162"}, "docker": "quay.io/biocontainers/diamond_add_taxonomy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/diamond_add_taxonomy.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/diamond_add_taxonomy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/diamond_add_taxonomy:0.1.2--py36_0
+$ shpc install quay.io/biocontainers/diamond_add_taxonomy:0.1.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/diamond_add_taxonomy/0.1.2--py36_0
-$ module help quay.io/biocontainers/diamond_add_taxonomy/0.1.2--py36_0
+$ module load quay.io/biocontainers/diamond_add_taxonomy/0.1.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/diamond_add_taxonomy/0.1.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

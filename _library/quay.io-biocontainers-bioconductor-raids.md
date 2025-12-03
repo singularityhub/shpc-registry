@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-raids"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raids/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raids/container.yaml"
-updated_at: "2025-12-01 05:36:25.894255"
+updated_at: "2025-12-03 03:52:49.361332"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-raids"
 aliases:

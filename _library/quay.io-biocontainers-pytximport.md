@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytximport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytximport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytximport/container.yaml"
-updated_at: "2025-12-01 05:33:26.550946"
+updated_at: "2025-12-03 03:50:00.600625"
 latest: "0.12.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pytximport"
 aliases:

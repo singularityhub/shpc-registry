@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fufihla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fufihla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fufihla/container.yaml"
-updated_at: "2025-12-01 05:21:02.714899"
-latest: "0.1.0--hdfd78af_0"
+updated_at: "2025-12-03 03:37:56.396006"
+latest: "0.2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fufihla"
 aliases:
  - "fufihla"
@@ -41,8 +41,9 @@ aliases:
  - "vcfutils.pl"
 versions:
  - "0.1.0--hdfd78af_0"
+ - "0.2.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for fufihla"
-config: {"url": "https://biocontainers.pro/tools/fufihla", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fufihla", "latest": {"0.1.0--hdfd78af_0": "sha256:afdd613f6b65bd7b5c67b7be9b35cb753d45fbf68cd4a9c1580947a18f56e6a6"}, "tags": {"0.1.0--hdfd78af_0": "sha256:afdd613f6b65bd7b5c67b7be9b35cb753d45fbf68cd4a9c1580947a18f56e6a6"}, "docker": "quay.io/biocontainers/fufihla", "aliases": {"fufihla": "/usr/local/bin/fufihla", "fufihla-ref-prep": "/usr/local/bin/fufihla-ref-prep", "gff2gff": "/usr/local/bin/gff2gff", "longcallD": "/usr/local/bin/longcallD", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "ref-cache": "/usr/local/bin/ref-cache", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "seqtk": "/usr/local/bin/seqtk", "gff2gff.py": "/usr/local/bin/gff2gff.py", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "sdust": "/usr/local/bin/sdust", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "minimap2": "/usr/local/bin/minimap2", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
+config: {"url": "https://biocontainers.pro/tools/fufihla", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fufihla", "latest": {"0.2.3--hdfd78af_0": "sha256:b12f62fd50c47884691d0576a6224f51c06c1fa044a39f03d769b44b8c2d2add"}, "tags": {"0.1.0--hdfd78af_0": "sha256:afdd613f6b65bd7b5c67b7be9b35cb753d45fbf68cd4a9c1580947a18f56e6a6", "0.2.3--hdfd78af_0": "sha256:b12f62fd50c47884691d0576a6224f51c06c1fa044a39f03d769b44b8c2d2add"}, "docker": "quay.io/biocontainers/fufihla", "aliases": {"fufihla": "/usr/local/bin/fufihla", "fufihla-ref-prep": "/usr/local/bin/fufihla-ref-prep", "gff2gff": "/usr/local/bin/gff2gff", "longcallD": "/usr/local/bin/longcallD", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "ref-cache": "/usr/local/bin/ref-cache", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "seqtk": "/usr/local/bin/seqtk", "gff2gff.py": "/usr/local/bin/gff2gff.py", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "sdust": "/usr/local/bin/sdust", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "minimap2": "/usr/local/bin/minimap2", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fufihla.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/fufihla
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fufihla:0.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/fufihla:0.2.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fufihla/0.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/fufihla/0.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/fufihla/0.2.3--hdfd78af_0
+$ module help quay.io/biocontainers/fufihla/0.2.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
