@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/sketchlib
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sketchlib
+latest:
+  0.2.4--h4349ce8_0: 
+    sha256:e6ce9753d8c82609a7a80801d58d5ef7d2277f9c9bb5164acff2403f12148bac
+tags:
+  0.2.4--h4349ce8_0: 
+    sha256:e6ce9753d8c82609a7a80801d58d5ef7d2277f9c9bb5164acff2403f12148bac
+docker: quay.io/biocontainers/sketchlib
+aliases:
+  sketchlib: /usr/local/bin/sketchlib
