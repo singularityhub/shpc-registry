@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amalgkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amalgkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amalgkit/container.yaml"
-updated_at: "2025-12-03 03:28:15.369810"
+updated_at: "2025-12-04 03:29:54.783298"
 latest: "0.12.20--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amalgkit"
 aliases:

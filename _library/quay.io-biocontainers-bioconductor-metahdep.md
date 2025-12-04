@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metahdep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metahdep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metahdep/container.yaml"
-updated_at: "2025-12-03 04:10:36.728539"
+updated_at: "2025-12-04 04:11:13.044600"
 latest: "1.64.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metahdep"
 

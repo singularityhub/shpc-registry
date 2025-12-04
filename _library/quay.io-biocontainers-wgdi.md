@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wgdi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgdi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgdi/container.yaml"
-updated_at: "2025-12-03 03:32:40.455840"
-latest: "0.74--pyhdfd78af_0"
+updated_at: "2025-12-04 03:34:12.160810"
+latest: "0.75--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wgdi"
 aliases:
  - "divvier"
@@ -32,8 +32,9 @@ versions:
  - "0.71--pyhdfd78af_0"
  - "0.7--pyhdfd78af_1"
  - "0.74--pyhdfd78af_0"
+ - "0.75--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for wgdi"
-config: {"url": "https://biocontainers.pro/tools/wgdi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgdi", "latest": {"0.74--pyhdfd78af_0": "sha256:39559e4d5992bafe1f0e700b7d9505b01ac620bc28095335a680b6eb8653fd38"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf", "0.6.2--pyhdfd78af_0": "sha256:250504ee7e5846d3ae2065002cd372f0b59b531142a83d7c5730574466805c77", "0.6.3--pyhdfd78af_0": "sha256:eaa1a7be35d4c2aa306c9fc48daf798aab7c20bf8df9a6aec3d33353fc7c1abe", "0.6.4--pyhdfd78af_0": "sha256:798431848dd975f1a6e8ac80911729b06dd54d41a887d0d27e3654d217376b84", "0.6.5--pyhdfd78af_0": "sha256:66c016c9a432849cda3ec17e3d07be338c1d17c0249b5ce2cfdb1ba37d300083", "0.72--pyhdfd78af_0": "sha256:a6e06c9176cd4c3538269e3b86a74d22c95435ede781bb918a6e62bdefd0b3b7", "0.71--pyhdfd78af_0": "sha256:e9aa6b58bbb29d99918bb80fbce4a4374c8fb1991a8544964f9ed18431f1dad7", "0.7--pyhdfd78af_1": "sha256:ed202ce70542b9174abf839a7bf74fd87b6d950d71443a4d925063df946ffd0a", "0.74--pyhdfd78af_0": "sha256:39559e4d5992bafe1f0e700b7d9505b01ac620bc28095335a680b6eb8653fd38"}, "docker": "quay.io/biocontainers/wgdi", "aliases": {"divvier": "/usr/local/bin/divvier", "iqtree2": "/usr/local/bin/iqtree2", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "wgdi": "/usr/local/bin/wgdi", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree": "/usr/local/bin/iqtree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "muscle": "/usr/local/bin/muscle", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
+config: {"url": "https://biocontainers.pro/tools/wgdi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgdi", "latest": {"0.75--pyhdfd78af_0": "sha256:5ff6f37b02231977bfedd4dccb50a2caceae0cd297c4d9a1b75f79084da9ebda"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf", "0.6.2--pyhdfd78af_0": "sha256:250504ee7e5846d3ae2065002cd372f0b59b531142a83d7c5730574466805c77", "0.6.3--pyhdfd78af_0": "sha256:eaa1a7be35d4c2aa306c9fc48daf798aab7c20bf8df9a6aec3d33353fc7c1abe", "0.6.4--pyhdfd78af_0": "sha256:798431848dd975f1a6e8ac80911729b06dd54d41a887d0d27e3654d217376b84", "0.6.5--pyhdfd78af_0": "sha256:66c016c9a432849cda3ec17e3d07be338c1d17c0249b5ce2cfdb1ba37d300083", "0.72--pyhdfd78af_0": "sha256:a6e06c9176cd4c3538269e3b86a74d22c95435ede781bb918a6e62bdefd0b3b7", "0.71--pyhdfd78af_0": "sha256:e9aa6b58bbb29d99918bb80fbce4a4374c8fb1991a8544964f9ed18431f1dad7", "0.7--pyhdfd78af_1": "sha256:ed202ce70542b9174abf839a7bf74fd87b6d950d71443a4d925063df946ffd0a", "0.74--pyhdfd78af_0": "sha256:39559e4d5992bafe1f0e700b7d9505b01ac620bc28095335a680b6eb8653fd38", "0.75--pyhdfd78af_0": "sha256:5ff6f37b02231977bfedd4dccb50a2caceae0cd297c4d9a1b75f79084da9ebda"}, "docker": "quay.io/biocontainers/wgdi", "aliases": {"divvier": "/usr/local/bin/divvier", "iqtree2": "/usr/local/bin/iqtree2", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "wgdi": "/usr/local/bin/wgdi", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree": "/usr/local/bin/iqtree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "muscle": "/usr/local/bin/muscle", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wgdi.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/wgdi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wgdi:0.74--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/wgdi:0.75--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wgdi/0.74--pyhdfd78af_0
-$ module help quay.io/biocontainers/wgdi/0.74--pyhdfd78af_0
+$ module load quay.io/biocontainers/wgdi/0.75--pyhdfd78af_0
+$ module help quay.io/biocontainers/wgdi/0.75--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

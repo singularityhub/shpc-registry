@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/altamisa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/altamisa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/altamisa/container.yaml"
-updated_at: "2025-12-03 03:50:09.445899"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2025-12-04 03:51:20.000682"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/altamisa"
 aliases:
  - "isatab2dot"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "0.2.9--pyhdfd78af_0"
  - "0.3.0--pyhdfd78af_0"
+ - "0.3.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for altamisa"
-config: {"url": "https://biocontainers.pro/tools/altamisa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for altamisa", "latest": {"0.3.0--pyhdfd78af_0": "sha256:d69b91f49aff346dd43c4fd279be8749570a1e3d86f4daea21fbc7cedc6642d4"}, "tags": {"0.2.9--pyhdfd78af_0": "sha256:e857a7752e2bd13d1a3e9e1636791075114e00be07f19766b23fcff575d45d08", "0.3.0--pyhdfd78af_0": "sha256:d69b91f49aff346dd43c4fd279be8749570a1e3d86f4daea21fbc7cedc6642d4"}, "docker": "quay.io/biocontainers/altamisa", "aliases": {"isatab2dot": "/usr/local/bin/isatab2dot", "isatab2isatab": "/usr/local/bin/isatab2isatab", "isatab_validate": "/usr/local/bin/isatab_validate", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/altamisa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for altamisa", "latest": {"0.3.1--pyhdfd78af_0": "sha256:9e0c446fe1ab5f91a1226ac6b50c351c4e54a6860e1f16d77f81d4d8e6708945"}, "tags": {"0.2.9--pyhdfd78af_0": "sha256:e857a7752e2bd13d1a3e9e1636791075114e00be07f19766b23fcff575d45d08", "0.3.0--pyhdfd78af_0": "sha256:d69b91f49aff346dd43c4fd279be8749570a1e3d86f4daea21fbc7cedc6642d4", "0.3.1--pyhdfd78af_0": "sha256:9e0c446fe1ab5f91a1226ac6b50c351c4e54a6860e1f16d77f81d4d8e6708945"}, "docker": "quay.io/biocontainers/altamisa", "aliases": {"isatab2dot": "/usr/local/bin/isatab2dot", "isatab2isatab": "/usr/local/bin/isatab2isatab", "isatab_validate": "/usr/local/bin/isatab_validate", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/altamisa.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/altamisa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/altamisa:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/altamisa:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/altamisa/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/altamisa/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/altamisa/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/altamisa/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

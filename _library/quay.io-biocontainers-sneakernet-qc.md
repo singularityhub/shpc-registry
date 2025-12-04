@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sneakernet-qc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sneakernet-qc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sneakernet-qc/container.yaml"
-updated_at: "2025-12-03 04:14:18.772089"
+updated_at: "2025-12-04 04:14:48.454596"
 latest: "0.27.2--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sneakernet-qc"
 aliases:

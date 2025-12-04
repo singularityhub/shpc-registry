@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kompot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kompot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kompot/container.yaml"
-updated_at: "2025-12-03 03:35:32.330032"
-latest: "0.6.0--pyhdfd78af_0"
+updated_at: "2025-12-04 03:37:03.393417"
+latest: "0.6.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kompot"
 aliases:
  - "crc32c"
@@ -39,8 +39,9 @@ aliases:
  - "grpc_php_plugin"
 versions:
  - "0.6.0--pyhdfd78af_0"
+ - "0.6.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for kompot"
-config: {"url": "https://biocontainers.pro/tools/kompot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kompot", "latest": {"0.6.0--pyhdfd78af_0": "sha256:b37b831125a71daeee386938332f95d8b4ca6ca1f0f1ea152e309f70be809285"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:b37b831125a71daeee386938332f95d8b4ca6ca1f0f1ea152e309f70be809285"}, "docker": "quay.io/biocontainers/kompot", "aliases": {"crc32c": "/usr/local/bin/crc32c", "kompot": "/usr/local/bin/kompot", "mellon-test": "/usr/local/bin/mellon-test", "zarr": "/usr/local/bin/zarr", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "h5fuse": "/usr/local/bin/h5fuse", "igraph": "/usr/local/bin/igraph", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "numba": "/usr/local/bin/numba", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/kompot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kompot", "latest": {"0.6.2--pyhdfd78af_0": "sha256:1f2bad9a123411f89fc66703819ca4e60c1e07515aeca692e60f7c5684c07c69"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:b37b831125a71daeee386938332f95d8b4ca6ca1f0f1ea152e309f70be809285", "0.6.2--pyhdfd78af_0": "sha256:1f2bad9a123411f89fc66703819ca4e60c1e07515aeca692e60f7c5684c07c69"}, "docker": "quay.io/biocontainers/kompot", "aliases": {"crc32c": "/usr/local/bin/crc32c", "kompot": "/usr/local/bin/kompot", "mellon-test": "/usr/local/bin/mellon-test", "zarr": "/usr/local/bin/zarr", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "h5fuse": "/usr/local/bin/h5fuse", "igraph": "/usr/local/bin/igraph", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5delete": "/usr/local/bin/h5delete", "natsort": "/usr/local/bin/natsort", "numba": "/usr/local/bin/numba", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kompot.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/kompot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kompot:0.6.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kompot:0.6.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kompot/0.6.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/kompot/0.6.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/kompot/0.6.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/kompot/0.6.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

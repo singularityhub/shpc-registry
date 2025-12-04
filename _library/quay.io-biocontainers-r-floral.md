@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-floral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-floral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-floral/container.yaml"
-updated_at: "2025-12-03 03:32:32.039906"
-latest: "0.5.0--r44hdfd78af_0"
+updated_at: "2025-12-04 03:34:03.643240"
+latest: "0.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-floral"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "0.4.0--r44hdfd78af_0"
  - "0.5.0--r44hdfd78af_0"
+ - "0.6.0--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for r-floral"
-config: {"url": "https://biocontainers.pro/tools/r-floral", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-floral", "latest": {"0.5.0--r44hdfd78af_0": "sha256:86036923d7c093a8289d2b98f44cf285531ae003230033833d0ff14c74eca03a"}, "tags": {"0.4.0--r44hdfd78af_0": "sha256:cc3137b78429850f34b290bf50b2b4c9848ac2d64e625c9ca4e06437edbfc39d", "0.5.0--r44hdfd78af_0": "sha256:86036923d7c093a8289d2b98f44cf285531ae003230033833d0ff14c74eca03a"}, "docker": "quay.io/biocontainers/r-floral", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-floral", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-floral", "latest": {"0.6.0--r44hdfd78af_0": "sha256:b3723a7827c39932a523567c28751f5517928e1901eb8ca848e16c5c5ba15c08"}, "tags": {"0.4.0--r44hdfd78af_0": "sha256:cc3137b78429850f34b290bf50b2b4c9848ac2d64e625c9ca4e06437edbfc39d", "0.5.0--r44hdfd78af_0": "sha256:86036923d7c093a8289d2b98f44cf285531ae003230033833d0ff14c74eca03a", "0.6.0--r44hdfd78af_0": "sha256:b3723a7827c39932a523567c28751f5517928e1901eb8ca848e16c5c5ba15c08"}, "docker": "quay.io/biocontainers/r-floral", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-floral.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/r-floral
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-floral:0.5.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/r-floral:0.6.0--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-floral/0.5.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/r-floral/0.5.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/r-floral/0.6.0--r44hdfd78af_0
+$ module help quay.io/biocontainers/r-floral/0.6.0--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

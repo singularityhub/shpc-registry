@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tidysinglecellexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidysinglecellexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidysinglecellexperiment/container.yaml"
-updated_at: "2025-12-03 03:54:35.623680"
+updated_at: "2025-12-04 03:55:39.875307"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidysinglecellexperiment"
 
