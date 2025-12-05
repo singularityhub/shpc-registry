@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phold
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phold
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:e3e47b30cafb4fc0a7a0d589da18b5e9243f13cdc19aa61690fc063658cb9b92
+  1.1.0--pyhdfd78af_0: 
+    sha256:942b8e0f77e9600e1d2de72fa95a1a09c61f4864451774802db61414cb3376e2
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:00db34243685025e9ba54c5b21be551e26a21c97ddd8e3d7d575c21b7e923696
@@ -13,6 +13,8 @@ tags:
     sha256:6d771df337e74c26a10db2e38012b3e43bc7e6fdd1adedbc2c8fdea7b64fbb27
   1.0.0--pyhdfd78af_0: 
     sha256:e3e47b30cafb4fc0a7a0d589da18b5e9243f13cdc19aa61690fc063658cb9b92
+  1.1.0--pyhdfd78af_0: 
+    sha256:942b8e0f77e9600e1d2de72fa95a1a09c61f4864451774802db61414cb3376e2
 docker: quay.io/biocontainers/phold
 aliases:
   archspec: /usr/local/bin/archspec

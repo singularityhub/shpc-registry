@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/deepchopper-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deepchopper-cli
 latest:
-  1.2.6--py310h9e6395a_1: 
-    sha256:deb2dd6ef82e6ab231f5a8d107f2a03e39643a7f9bac451b789922012e89c2f1
+  1.2.9--py310h9e6395a_0: 
+    sha256:35e677c4515c00efb7ff0e3b98ffe3a166d178ccd034c9b7b06845665a31f18e
 tags:
   1.2.5--py310h77ce02f_0: 
     sha256:ad0ca174164b9d4541528956992cf9b6740de0b961eb60649f093885cf7f89ef
@@ -13,6 +13,8 @@ tags:
     sha256:ce203f9353082f9c5a59c3c841eada0a9123336ae07959869a3b0e8a32bbeec8
   1.2.6--py310h9e6395a_1: 
     sha256:deb2dd6ef82e6ab231f5a8d107f2a03e39643a7f9bac451b789922012e89c2f1
+  1.2.9--py310h9e6395a_0: 
+    sha256:35e677c4515c00efb7ff0e3b98ffe3a166d178ccd034c9b7b06845665a31f18e
 docker: quay.io/biocontainers/deepchopper-cli
 aliases:
   deepchopper-chop: /usr/local/bin/deepchopper-chop

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/lassensus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lassensus
 latest:
-  0.0.3--pyhdfd78af_0: 
-    sha256:2d709dd05afb4257b58bcede8ff8add975d745dd06468b1920f7ea08f093c901
+  0.0.5--pyhdfd78af_0: 
+    sha256:530cd2c6a13891f66b060402e9b62a9e3a5936b0aabf4a9e95f09997a8aeb4c8
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:1543ab0eb1e6f0c76a552ae43cfbe7f2180fa00391fcbf496b4d1c1cc5b6ed5a
   0.0.3--pyhdfd78af_0: 
     sha256:2d709dd05afb4257b58bcede8ff8add975d745dd06468b1920f7ea08f093c901
+  0.0.5--pyhdfd78af_0: 
+    sha256:530cd2c6a13891f66b060402e9b62a9e3a5936b0aabf4a9e95f09997a8aeb4c8
 docker: quay.io/biocontainers/lassensus
 aliases:
   demux_fast5: /usr/local/bin/demux_fast5

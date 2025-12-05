@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/inmoose
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for inmoose
 latest:
-  0.8.1--py39h8931b72_0: 
-    sha256:9d2ec649f0c232eca0557bd84dc7fe468e1ea683635079e8efa316e1731d8b37
+  0.9.0--py311hc1104ee_0: 
+    sha256:d908f54098d1dff99d8aca1587b5c8cf996124185b3dcb149b367f9181e90fc1
 tags:
   0.7.2--py310h24e864b_0: 
     sha256:d9d26e4f79894185c6093f4b6de6334758cfb9fdb0fc964204a026040389b67f
@@ -19,6 +19,8 @@ tags:
     sha256:cbfb93d9a44908e051c899efc9bcc9cacd6f1eed193a7611581bd684465c8cd5
   0.8.1--py39h8931b72_0: 
     sha256:9d2ec649f0c232eca0557bd84dc7fe468e1ea683635079e8efa316e1731d8b37
+  0.9.0--py311hc1104ee_0: 
+    sha256:d908f54098d1dff99d8aca1587b5c8cf996124185b3dcb149b367f9181e90fc1
 docker: quay.io/biocontainers/inmoose
 aliases:
   qconvex: /usr/local/bin/qconvex

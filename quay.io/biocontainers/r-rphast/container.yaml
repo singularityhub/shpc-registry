@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-rphast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rphast
 latest:
-  1.6.11--r45hb7dc0eb_0: 
-    sha256:ddff80f5082b701d5801fb48641b94f23e295280e563569ab0f47130de306471
+  1.6.11--r45hb7dc0eb_1: 
+    sha256:8a7ae3776c3f05b682eacf7b0b38b057708b5bfcac94f3455242757c84c911a3
 tags:
   1.6.9--r41h73dbb54_7: 
     sha256:a987114ef42127b565a94bb535ec4d6765d92013d474d60a2cbc7302ddd2bc81
@@ -13,4 +13,6 @@ tags:
     sha256:0e541eae8d8982e69284bb67ca95735e97c328b3fa21e8460be0701c51d27678
   1.6.11--r45hb7dc0eb_0: 
     sha256:ddff80f5082b701d5801fb48641b94f23e295280e563569ab0f47130de306471
+  1.6.11--r45hb7dc0eb_1: 
+    sha256:8a7ae3776c3f05b682eacf7b0b38b057708b5bfcac94f3455242757c84c911a3
 docker: quay.io/biocontainers/r-rphast

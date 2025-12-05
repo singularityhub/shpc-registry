@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hmftools-gene-utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-gene-utils
 latest:
-  1.2--hdfd78af_0: 
-    sha256:c51f3d4838f0defbc16535c5778ff5a5b49ab27491d8bba9a41d2e28ca2fd776
+  1.3--hdfd78af_0: 
+    sha256:d7055bdecfb99dd625d4d75058a9ac3f9457bbd3a88c3e62d76404c88c5ca66e
 tags:
   1.2--hdfd78af_0: 
     sha256:c51f3d4838f0defbc16535c5778ff5a5b49ab27491d8bba9a41d2e28ca2fd776
+  1.3--hdfd78af_0: 
+    sha256:d7055bdecfb99dd625d4d75058a9ac3f9457bbd3a88c3e62d76404c88c5ca66e
 docker: quay.io/biocontainers/hmftools-gene-utils
 aliases:
   gene-utils: /usr/local/bin/gene-utils

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bowtie2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bowtie2
 latest:
-  2.5.4--he96a11b_6: 
-    sha256:c1dd0e8f7d10d1e65352b5cc474889fb06cb62260d2f3e13f98cfbb64e3abeb1
+  2.5.4--he96a11b_7: 
+    sha256:0f9ba15963c5d9ae86775ac137d517f0afe4feb3cbd1d3f444e979d86ad9c1d0
 tags:
   2.3.5.1--py37he513fc3_0: 
     sha256:361034b738118d023b5ed35b070458864f23bf63de09017ac30d08ff48a815b0
@@ -25,6 +25,8 @@ tags:
     sha256:9fe350904d11ac1266615e01a82eb783d3543074456b2893a34fccad8f652aab
   2.5.4--he96a11b_6: 
     sha256:c1dd0e8f7d10d1e65352b5cc474889fb06cb62260d2f3e13f98cfbb64e3abeb1
+  2.5.4--he96a11b_7: 
+    sha256:0f9ba15963c5d9ae86775ac137d517f0afe4feb3cbd1d3f444e979d86ad9c1d0
 docker: quay.io/biocontainers/bowtie2
 aliases:
   bowtie2: /usr/local/bin/bowtie2
