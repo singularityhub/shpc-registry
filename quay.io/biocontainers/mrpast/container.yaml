@@ -1,0 +1,29 @@
+url: https://biocontainers.pro/tools/mrpast
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mrpast
+latest:
+  0.2--py310ha1cbcee_0: 
+    sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a
+tags:
+  0.2--py310ha1cbcee_0: 
+    sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a
+docker: quay.io/biocontainers/mrpast
+aliases:
+  demes: /usr/local/bin/demes
+  mrpast: /usr/local/bin/mrpast
+  msp: /usr/local/bin/msp
+  mspms: /usr/local/bin/mspms
+  tskit: /usr/local/bin/tskit
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  tabulate: /usr/local/bin/tabulate
+  jsonschema: /usr/local/bin/jsonschema
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
