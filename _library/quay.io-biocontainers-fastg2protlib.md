@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastg2protlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastg2protlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastg2protlib/container.yaml"
-updated_at: "2025-12-04 03:23:43.513350"
+updated_at: "2025-12-05 03:22:10.111718"
 latest: "1.0.2--py_0"
 container_url: "https://biocontainers.pro/tools/fastg2protlib"
 aliases:
