@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gdcrnatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdcrnatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdcrnatools/container.yaml"
-updated_at: "2025-12-05 03:30:16.100353"
+updated_at: "2025-12-05 03:31:43.966895"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdcrnatools"
 aliases:
