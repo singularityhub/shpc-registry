@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vartovcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vartovcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vartovcf/container.yaml"
-updated_at: "2025-12-05 03:51:06.964860"
-latest: "1.0.0--h3ab6199_0"
+updated_at: "2025-12-06 03:41:47.770369"
+latest: "1.1.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/vartovcf"
 aliases:
  - "vartovcf"
 versions:
  - "1.0.0--h3ab6199_0"
+ - "1.1.0--h3ab6199_0"
 description: "singularity registry hpc automated addition for vartovcf"
-config: {"url": "https://biocontainers.pro/tools/vartovcf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vartovcf", "latest": {"1.0.0--h3ab6199_0": "sha256:a1d04979df624d88262a718034a31f1d2cda175d79e1c2a0d5346c1a127afbb7"}, "tags": {"1.0.0--h3ab6199_0": "sha256:a1d04979df624d88262a718034a31f1d2cda175d79e1c2a0d5346c1a127afbb7"}, "docker": "quay.io/biocontainers/vartovcf", "aliases": {"vartovcf": "/usr/local/bin/vartovcf"}}
+config: {"url": "https://biocontainers.pro/tools/vartovcf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vartovcf", "latest": {"1.1.0--h3ab6199_0": "sha256:57de69b6c963544abde92150518e49000c94c924e63e9b73dd15fa14fae68bd6"}, "tags": {"1.0.0--h3ab6199_0": "sha256:a1d04979df624d88262a718034a31f1d2cda175d79e1c2a0d5346c1a127afbb7", "1.1.0--h3ab6199_0": "sha256:57de69b6c963544abde92150518e49000c94c924e63e9b73dd15fa14fae68bd6"}, "docker": "quay.io/biocontainers/vartovcf", "aliases": {"vartovcf": "/usr/local/bin/vartovcf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vartovcf.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/vartovcf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vartovcf:1.0.0--h3ab6199_0
+$ shpc install quay.io/biocontainers/vartovcf:1.1.0--h3ab6199_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vartovcf/1.0.0--h3ab6199_0
-$ module help quay.io/biocontainers/vartovcf/1.0.0--h3ab6199_0
+$ module load quay.io/biocontainers/vartovcf/1.1.0--h3ab6199_0
+$ module help quay.io/biocontainers/vartovcf/1.1.0--h3ab6199_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-gene-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-gene-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-gene-utils/container.yaml"
-updated_at: "2025-12-05 03:45:27.131421"
-latest: "1.2--hdfd78af_0"
+updated_at: "2025-12-06 03:35:58.325035"
+latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-gene-utils"
 aliases:
  - "gene-utils"
@@ -36,8 +36,9 @@ aliases:
  - "jinfo"
 versions:
  - "1.2--hdfd78af_0"
+ - "1.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-gene-utils"
-config: {"url": "https://biocontainers.pro/tools/hmftools-gene-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-gene-utils", "latest": {"1.2--hdfd78af_0": "sha256:c51f3d4838f0defbc16535c5778ff5a5b49ab27491d8bba9a41d2e28ca2fd776"}, "tags": {"1.2--hdfd78af_0": "sha256:c51f3d4838f0defbc16535c5778ff5a5b49ab27491d8bba9a41d2e28ca2fd776"}, "docker": "quay.io/biocontainers/hmftools-gene-utils", "aliases": {"gene-utils": "/usr/local/bin/gene-utils", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-gene-utils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-gene-utils", "latest": {"1.3--hdfd78af_0": "sha256:d7055bdecfb99dd625d4d75058a9ac3f9457bbd3a88c3e62d76404c88c5ca66e"}, "tags": {"1.2--hdfd78af_0": "sha256:c51f3d4838f0defbc16535c5778ff5a5b49ab27491d8bba9a41d2e28ca2fd776", "1.3--hdfd78af_0": "sha256:d7055bdecfb99dd625d4d75058a9ac3f9457bbd3a88c3e62d76404c88c5ca66e"}, "docker": "quay.io/biocontainers/hmftools-gene-utils", "aliases": {"gene-utils": "/usr/local/bin/gene-utils", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-gene-utils.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/hmftools-gene-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-gene-utils:1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-gene-utils:1.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-gene-utils/1.2--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-gene-utils/1.2--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-gene-utils/1.3--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-gene-utils/1.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cistrome_beta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cistrome_beta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cistrome_beta/container.yaml"
-updated_at: "2025-12-05 04:02:20.487075"
-latest: "1.0.7--py27h9801fc8_5"
+updated_at: "2025-12-06 03:53:15.961829"
+latest: "1.0.7--py27h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/cistrome_beta"
 aliases:
  - "BETA"
@@ -21,8 +21,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "1.0.7--py27h9801fc8_5"
+ - "1.0.7--py27h7b50bb2_6"
 description: "shpc-registry automated BioContainers addition for cistrome_beta"
-config: {"url": "https://biocontainers.pro/tools/cistrome_beta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cistrome_beta", "latest": {"1.0.7--py27h9801fc8_5": "sha256:ced86bf344fec552d67f2ad02cee0f8cfc7ab4b8a396c596c4d30409b72f83ca"}, "tags": {"1.0.7--py27h9801fc8_5": "sha256:ced86bf344fec552d67f2ad02cee0f8cfc7ab4b8a396c596c4d30409b72f83ca"}, "docker": "quay.io/biocontainers/cistrome_beta", "aliases": {"BETA": "/usr/local/bin/BETA", "misp": "/usr/local/bin/misp", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/cistrome_beta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cistrome_beta", "latest": {"1.0.7--py27h7b50bb2_6": "sha256:a2de3da8fe2e3a61090cb7fc771ab9fb645564eeaa6b0b8b0dfe449e9349cc04"}, "tags": {"1.0.7--py27h9801fc8_5": "sha256:ced86bf344fec552d67f2ad02cee0f8cfc7ab4b8a396c596c4d30409b72f83ca", "1.0.7--py27h7b50bb2_6": "sha256:a2de3da8fe2e3a61090cb7fc771ab9fb645564eeaa6b0b8b0dfe449e9349cc04"}, "docker": "quay.io/biocontainers/cistrome_beta", "aliases": {"BETA": "/usr/local/bin/BETA", "misp": "/usr/local/bin/misp", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cistrome_beta.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/cistrome_beta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cistrome_beta:1.0.7--py27h9801fc8_5
+$ shpc install quay.io/biocontainers/cistrome_beta:1.0.7--py27h7b50bb2_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cistrome_beta/1.0.7--py27h9801fc8_5
-$ module help quay.io/biocontainers/cistrome_beta/1.0.7--py27h9801fc8_5
+$ module load quay.io/biocontainers/cistrome_beta/1.0.7--py27h7b50bb2_6
+$ module help quay.io/biocontainers/cistrome_beta/1.0.7--py27h7b50bb2_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

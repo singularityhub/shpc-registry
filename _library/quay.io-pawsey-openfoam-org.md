@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/openfoam-org"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/openfoam-org/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/openfoam-org/container.yaml"
-updated_at: "2025-12-05 03:22:48.007870"
+updated_at: "2025-12-06 03:13:11.742222"
 latest: "12"
 container_url: "https://quay.io/repository/pawsey/openfoam-org"
 

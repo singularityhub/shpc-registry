@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-liebermanaidenhic2009"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-liebermanaidenhic2009/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-liebermanaidenhic2009/container.yaml"
-updated_at: "2025-12-05 03:41:35.162605"
+updated_at: "2025-12-06 03:32:02.392572"
 latest: "0.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-liebermanaidenhic2009"
 

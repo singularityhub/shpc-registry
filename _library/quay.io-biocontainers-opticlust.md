@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/opticlust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opticlust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opticlust/container.yaml"
-updated_at: "2025-12-05 04:10:37.940133"
-latest: "0.4.2--pyhdfd78af_0"
+updated_at: "2025-12-06 04:01:43.239586"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/opticlust"
 aliases:
  - "igraph"
@@ -37,8 +37,10 @@ versions:
  - "0.3.0--pyhdfd78af_0"
  - "0.4.1--pyhdfd78af_0"
  - "0.4.2--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
+ - "0.4.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for opticlust"
-config: {"url": "https://biocontainers.pro/tools/opticlust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for opticlust", "latest": {"0.4.2--pyhdfd78af_0": "sha256:0200069f10669932b19ede84e17907c57c33bcc561c2d10f68c734d0db8d5f6d"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:ea0ae61adef65a5890f47f353058900e561b74f7f4ae810c15d73c5576840a04", "0.4.1--pyhdfd78af_0": "sha256:2550ceda49ec89b2ce6c0ee197be34b6639d228a5c6cb47ba0bd2fa27faa1bee", "0.4.2--pyhdfd78af_0": "sha256:0200069f10669932b19ede84e17907c57c33bcc561c2d10f68c734d0db8d5f6d"}, "docker": "quay.io/biocontainers/opticlust", "aliases": {"igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "numpy-config": "/usr/local/bin/numpy-config", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
+config: {"url": "https://biocontainers.pro/tools/opticlust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for opticlust", "latest": {"0.5.0--pyhdfd78af_0": "sha256:a32b59236b5b58a06b4444f9b1313a6a17ccd340415eb14022031f23203c02d9"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:ea0ae61adef65a5890f47f353058900e561b74f7f4ae810c15d73c5576840a04", "0.4.1--pyhdfd78af_0": "sha256:2550ceda49ec89b2ce6c0ee197be34b6639d228a5c6cb47ba0bd2fa27faa1bee", "0.4.2--pyhdfd78af_0": "sha256:0200069f10669932b19ede84e17907c57c33bcc561c2d10f68c734d0db8d5f6d", "0.5.0--pyhdfd78af_0": "sha256:a32b59236b5b58a06b4444f9b1313a6a17ccd340415eb14022031f23203c02d9", "0.4.3--pyhdfd78af_0": "sha256:bcedf4d88427b446973de38a1e8af8e6db8bd5e8912424fb30aab03af4f9e5cc"}, "docker": "quay.io/biocontainers/opticlust", "aliases": {"igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "numpy-config": "/usr/local/bin/numpy-config", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/opticlust.
@@ -53,7 +55,7 @@ $ shpc install quay.io/biocontainers/opticlust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/opticlust:0.4.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/opticlust:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/opticlust/0.4.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/opticlust/0.4.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/opticlust/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/opticlust/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

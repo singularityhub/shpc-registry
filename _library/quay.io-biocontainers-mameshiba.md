@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mameshiba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mameshiba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mameshiba/container.yaml"
-updated_at: "2025-12-05 03:53:52.450652"
-latest: "0.7.1--hdfd78af_0"
+updated_at: "2025-12-06 03:44:39.539296"
+latest: "0.8.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mameshiba"
 aliases:
  - "flattenGTF"
@@ -50,8 +50,9 @@ versions:
  - "0.6.2--hdfd78af_0"
  - "0.6.3--hdfd78af_0"
  - "0.7.1--hdfd78af_0"
+ - "0.8.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for mameshiba"
-config: {"url": "https://biocontainers.pro/tools/mameshiba", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mameshiba", "latest": {"0.7.1--hdfd78af_0": "sha256:ddaa9ca5124b6553e1b2784ac01ed43d548973f421d5ea2b25e1ce9080fa108e"}, "tags": {"0.6.1--hdfd78af_0": "sha256:612e140f521d43fe33add47e3345da618d6a8fa333e554c7dc7c9cbbe9c92e02", "0.6.2--hdfd78af_0": "sha256:39f085d57bf2c508f5aece56e77001a7f6ee25667ed09093c92ca7080d52a8fc", "0.6.3--hdfd78af_0": "sha256:c7a7192a6b35e8c882b2da0b1bec08f5c3becb9290b47f04f481606bb2c020b0", "0.7.1--hdfd78af_0": "sha256:ddaa9ca5124b6553e1b2784ac01ed43d548973f421d5ea2b25e1ce9080fa108e"}, "docker": "quay.io/biocontainers/mameshiba", "aliases": {"flattenGTF": "/usr/local/bin/flattenGTF", "genRandomReads": "/usr/local/bin/genRandomReads", "prepDE.py": "/usr/local/bin/prepDE.py", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "regtools": "/usr/local/bin/regtools", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "shiba.py": "/usr/local/bin/shiba.py", "stringtie": "/usr/local/bin/stringtie", "sublong": "/usr/local/bin/sublong", "subread-fullscan": "/usr/local/bin/subread-fullscan", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "scanpy": "/usr/local/bin/scanpy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "annot-tsv": "/usr/local/bin/annot-tsv", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info"}}
+config: {"url": "https://biocontainers.pro/tools/mameshiba", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mameshiba", "latest": {"0.8.1--hdfd78af_0": "sha256:5da72b4814b5d1f5e15287c28e5539a526711b56892afe5dc8541146c0ebec82"}, "tags": {"0.6.1--hdfd78af_0": "sha256:612e140f521d43fe33add47e3345da618d6a8fa333e554c7dc7c9cbbe9c92e02", "0.6.2--hdfd78af_0": "sha256:39f085d57bf2c508f5aece56e77001a7f6ee25667ed09093c92ca7080d52a8fc", "0.6.3--hdfd78af_0": "sha256:c7a7192a6b35e8c882b2da0b1bec08f5c3becb9290b47f04f481606bb2c020b0", "0.7.1--hdfd78af_0": "sha256:ddaa9ca5124b6553e1b2784ac01ed43d548973f421d5ea2b25e1ce9080fa108e", "0.8.1--hdfd78af_0": "sha256:5da72b4814b5d1f5e15287c28e5539a526711b56892afe5dc8541146c0ebec82"}, "docker": "quay.io/biocontainers/mameshiba", "aliases": {"flattenGTF": "/usr/local/bin/flattenGTF", "genRandomReads": "/usr/local/bin/genRandomReads", "prepDE.py": "/usr/local/bin/prepDE.py", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "regtools": "/usr/local/bin/regtools", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "shiba.py": "/usr/local/bin/shiba.py", "stringtie": "/usr/local/bin/stringtie", "sublong": "/usr/local/bin/sublong", "subread-fullscan": "/usr/local/bin/subread-fullscan", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "scanpy": "/usr/local/bin/scanpy", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "annot-tsv": "/usr/local/bin/annot-tsv", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mameshiba.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/mameshiba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mameshiba:0.7.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/mameshiba:0.8.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mameshiba/0.7.1--hdfd78af_0
-$ module help quay.io/biocontainers/mameshiba/0.7.1--hdfd78af_0
+$ module load quay.io/biocontainers/mameshiba/0.8.1--hdfd78af_0
+$ module help quay.io/biocontainers/mameshiba/0.8.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

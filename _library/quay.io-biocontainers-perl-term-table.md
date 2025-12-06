@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-term-table"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-table/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-table/container.yaml"
-updated_at: "2025-12-05 03:30:20.612912"
-latest: "0.025--pl5321hdfd78af_0"
+updated_at: "2025-12-06 03:20:44.005062"
+latest: "0.028--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-term-table"
 aliases:
  - "perl5.32.1"
@@ -16,8 +16,10 @@ versions:
  - "0.023--pl5321hdfd78af_0"
  - "0.024--pl5321hdfd78af_0"
  - "0.025--pl5321hdfd78af_0"
+ - "0.028--pl5321hdfd78af_0"
+ - "0.027--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-term-table"
-config: {"url": "https://biocontainers.pro/tools/perl-term-table", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-table", "latest": {"0.025--pl5321hdfd78af_0": "sha256:f44fa26af40f09883e1b432407e83f8c0dc5397392f353e2b448b828bbae769b"}, "tags": {"0.016--pl5321hdfd78af_0": "sha256:1401ac2a3897abd57a3d26fc53b17622c129a400552092f6fa91b3dbfced7953", "0.022--pl5321hdfd78af_0": "sha256:7717080bc84ffb5f5c73dd86270bd5b782d30d9e3e19d3a00b83a0ca93814013", "0.023--pl5321hdfd78af_0": "sha256:a85210a8454604ec0e6cde798b4fd63406e87a13de2d2abf8a1fa430819eebff", "0.024--pl5321hdfd78af_0": "sha256:5b4af0bf8e34dc978156c3a7534c4da256b4a0722d9b07b3c127835ccd01f848", "0.025--pl5321hdfd78af_0": "sha256:f44fa26af40f09883e1b432407e83f8c0dc5397392f353e2b448b828bbae769b"}, "docker": "quay.io/biocontainers/perl-term-table", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-term-table", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-table", "latest": {"0.028--pl5321hdfd78af_0": "sha256:9b750dab3b1d8a16038a3ebc1d51df135b50d389ed67adb5cb6f1ff519026083"}, "tags": {"0.016--pl5321hdfd78af_0": "sha256:1401ac2a3897abd57a3d26fc53b17622c129a400552092f6fa91b3dbfced7953", "0.022--pl5321hdfd78af_0": "sha256:7717080bc84ffb5f5c73dd86270bd5b782d30d9e3e19d3a00b83a0ca93814013", "0.023--pl5321hdfd78af_0": "sha256:a85210a8454604ec0e6cde798b4fd63406e87a13de2d2abf8a1fa430819eebff", "0.024--pl5321hdfd78af_0": "sha256:5b4af0bf8e34dc978156c3a7534c4da256b4a0722d9b07b3c127835ccd01f848", "0.025--pl5321hdfd78af_0": "sha256:f44fa26af40f09883e1b432407e83f8c0dc5397392f353e2b448b828bbae769b", "0.028--pl5321hdfd78af_0": "sha256:9b750dab3b1d8a16038a3ebc1d51df135b50d389ed67adb5cb6f1ff519026083", "0.027--pl5321hdfd78af_0": "sha256:650b1dbb2cda934005c4aef2bd3dcfa95d7663acd2ed985e60a6f249d611190f"}, "docker": "quay.io/biocontainers/perl-term-table", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-term-table.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/perl-term-table
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-term-table:0.025--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-term-table:0.028--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-term-table/0.025--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-term-table/0.025--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-term-table/0.028--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-term-table/0.028--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

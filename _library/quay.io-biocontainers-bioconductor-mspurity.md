@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mspurity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mspurity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mspurity/container.yaml"
-updated_at: "2025-12-05 03:44:24.227136"
-latest: "1.32.0--r44he5774e6_1"
+updated_at: "2025-12-06 03:34:53.948436"
+latest: "1.32.0--r44he5774e6_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-mspurity"
 aliases:
  - "gif2hdf"
@@ -30,8 +30,9 @@ versions:
  - "1.28.0--r43hf17093f_0"
  - "1.32.0--r44he5774e6_0"
  - "1.32.0--r44he5774e6_1"
+ - "1.32.0--r44he5774e6_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-mspurity"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mspurity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mspurity", "latest": {"1.32.0--r44he5774e6_1": "sha256:13f1136172f5e9f52399b1083105ff26e94402d860938822e338c4f228111881"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:44a3ba3daaa7ffe28acf1db407804f652eb74cd9ff861660d96f9c92a7984ccd", "1.24.0--r42hc247a5b_0": "sha256:04caf9524d31c0180f0a62953a5932ed3f3aa158f626b64da177bc5239bdbfe4", "1.20.0--r41hc247a5b_2": "sha256:730afa6518958f3279637587ee40f28498fd02b9f2e8e70ae703a29f0a942b9b", "1.18.0--r41h399db7b_0": "sha256:7f6bed8fa7ef95a86c4e1f5d0b9a41c2924c7348238af203c9413d1b326adfbf", "1.16.2--r40h399db7b_1": "sha256:054eac3b88f952633c1d28311015ccece8b6e37b7e313b7cf332604357caa749", "1.14.0--r40h5f743cb_0": "sha256:07045d4afc68261b3bba161c0c45e6e2631672f2812fb745dab40c00ffb96c45", "1.24.0--r42hf17093f_1": "sha256:92c9d492e309ea3c32f78cbcf7f8b78e5a56b1723d0dd9654c0dd42abddfc871", "1.26.0--r43hf17093f_0": "sha256:a1aebda7b15c489baa005c5d0756c33ec9d649889400a3b6580762001280ecc1", "1.28.0--r43hf17093f_0": "sha256:67b40329cb0d01383e0080ff93c0dee3caa697a93c018ddea6948025263c6c75", "1.32.0--r44he5774e6_0": "sha256:67b2c3d84f14ac0beed2bb01d0b540fad2dc0626d63677450f212105aa92693a", "1.32.0--r44he5774e6_1": "sha256:13f1136172f5e9f52399b1083105ff26e94402d860938822e338c4f228111881"}, "docker": "quay.io/biocontainers/bioconductor-mspurity", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mspurity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mspurity", "latest": {"1.32.0--r44he5774e6_2": "sha256:cdc6f3a099d9b4532fc9ee18fc300e8ff81800be055890f1f051fb008070f00d"}, "tags": {"1.8.1--r351hf484d3e_0": "sha256:44a3ba3daaa7ffe28acf1db407804f652eb74cd9ff861660d96f9c92a7984ccd", "1.24.0--r42hc247a5b_0": "sha256:04caf9524d31c0180f0a62953a5932ed3f3aa158f626b64da177bc5239bdbfe4", "1.20.0--r41hc247a5b_2": "sha256:730afa6518958f3279637587ee40f28498fd02b9f2e8e70ae703a29f0a942b9b", "1.18.0--r41h399db7b_0": "sha256:7f6bed8fa7ef95a86c4e1f5d0b9a41c2924c7348238af203c9413d1b326adfbf", "1.16.2--r40h399db7b_1": "sha256:054eac3b88f952633c1d28311015ccece8b6e37b7e313b7cf332604357caa749", "1.14.0--r40h5f743cb_0": "sha256:07045d4afc68261b3bba161c0c45e6e2631672f2812fb745dab40c00ffb96c45", "1.24.0--r42hf17093f_1": "sha256:92c9d492e309ea3c32f78cbcf7f8b78e5a56b1723d0dd9654c0dd42abddfc871", "1.26.0--r43hf17093f_0": "sha256:a1aebda7b15c489baa005c5d0756c33ec9d649889400a3b6580762001280ecc1", "1.28.0--r43hf17093f_0": "sha256:67b40329cb0d01383e0080ff93c0dee3caa697a93c018ddea6948025263c6c75", "1.32.0--r44he5774e6_0": "sha256:67b2c3d84f14ac0beed2bb01d0b540fad2dc0626d63677450f212105aa92693a", "1.32.0--r44he5774e6_1": "sha256:13f1136172f5e9f52399b1083105ff26e94402d860938822e338c4f228111881", "1.32.0--r44he5774e6_2": "sha256:cdc6f3a099d9b4532fc9ee18fc300e8ff81800be055890f1f051fb008070f00d"}, "docker": "quay.io/biocontainers/bioconductor-mspurity", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mspurity.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mspurity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mspurity:1.32.0--r44he5774e6_1
+$ shpc install quay.io/biocontainers/bioconductor-mspurity:1.32.0--r44he5774e6_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mspurity/1.32.0--r44he5774e6_1
-$ module help quay.io/biocontainers/bioconductor-mspurity/1.32.0--r44he5774e6_1
+$ module load quay.io/biocontainers/bioconductor-mspurity/1.32.0--r44he5774e6_2
+$ module help quay.io/biocontainers/bioconductor-mspurity/1.32.0--r44he5774e6_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

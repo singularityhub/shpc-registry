@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-camera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-camera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-camera/container.yaml"
-updated_at: "2025-12-05 03:33:18.077315"
+updated_at: "2025-12-06 03:23:41.724420"
 latest: "1.62.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-camera"
 aliases:

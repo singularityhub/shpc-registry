@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rfmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rfmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rfmix/container.yaml"
-updated_at: "2025-12-05 03:49:21.439725"
-latest: "2.03.r0.9505bfa--h503566f_7"
+updated_at: "2025-12-06 03:39:58.311940"
+latest: "2.03.r0.9505bfa--h503566f_8"
 container_url: "https://biocontainers.pro/tools/rfmix"
 aliases:
  - "rfmix"
@@ -15,8 +15,9 @@ versions:
  - "2.03.r0.9505bfa--hdbdd923_5"
  - "2.03.r0.9505bfa--h503566f_6"
  - "2.03.r0.9505bfa--h503566f_7"
+ - "2.03.r0.9505bfa--h503566f_8"
 description: "shpc-registry automated BioContainers addition for rfmix"
-config: {"url": "https://biocontainers.pro/tools/rfmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rfmix", "latest": {"2.03.r0.9505bfa--h503566f_7": "sha256:a99c3c417b42753ac3211fb008c4db9f3a045371959685553633f84ddf5cf4b6"}, "tags": {"2.03.r0.9505bfa--h87f3376_3": "sha256:d86bf897af37bd05d4b933597ee9e6b07117e76d946f65439986f0a5609eb005", "2.03.r0.9505bfa--hdbdd923_5": "sha256:b2c59b85ebe24f9518ae88aa1e6364184da5da4d5941e238d5bc404d64d452d8", "2.03.r0.9505bfa--h503566f_6": "sha256:0ec1ff6d297723fe4cdd6ceb76e70c415c550d3bbaa2857f324066cc9d5341cb", "2.03.r0.9505bfa--h503566f_7": "sha256:a99c3c417b42753ac3211fb008c4db9f3a045371959685553633f84ddf5cf4b6"}, "docker": "quay.io/biocontainers/rfmix", "aliases": {"rfmix": "/usr/local/bin/rfmix", "simulate": "/usr/local/bin/simulate"}}
+config: {"url": "https://biocontainers.pro/tools/rfmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rfmix", "latest": {"2.03.r0.9505bfa--h503566f_8": "sha256:4931322a6ef8697d9909beda0f27bb87ee77b6827c7d813581c84f5a650e1659"}, "tags": {"2.03.r0.9505bfa--h87f3376_3": "sha256:d86bf897af37bd05d4b933597ee9e6b07117e76d946f65439986f0a5609eb005", "2.03.r0.9505bfa--hdbdd923_5": "sha256:b2c59b85ebe24f9518ae88aa1e6364184da5da4d5941e238d5bc404d64d452d8", "2.03.r0.9505bfa--h503566f_6": "sha256:0ec1ff6d297723fe4cdd6ceb76e70c415c550d3bbaa2857f324066cc9d5341cb", "2.03.r0.9505bfa--h503566f_7": "sha256:a99c3c417b42753ac3211fb008c4db9f3a045371959685553633f84ddf5cf4b6", "2.03.r0.9505bfa--h503566f_8": "sha256:4931322a6ef8697d9909beda0f27bb87ee77b6827c7d813581c84f5a650e1659"}, "docker": "quay.io/biocontainers/rfmix", "aliases": {"rfmix": "/usr/local/bin/rfmix", "simulate": "/usr/local/bin/simulate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rfmix.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/rfmix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rfmix:2.03.r0.9505bfa--h503566f_7
+$ shpc install quay.io/biocontainers/rfmix:2.03.r0.9505bfa--h503566f_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rfmix/2.03.r0.9505bfa--h503566f_7
-$ module help quay.io/biocontainers/rfmix/2.03.r0.9505bfa--h503566f_7
+$ module load quay.io/biocontainers/rfmix/2.03.r0.9505bfa--h503566f_8
+$ module help quay.io/biocontainers/rfmix/2.03.r0.9505bfa--h503566f_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
