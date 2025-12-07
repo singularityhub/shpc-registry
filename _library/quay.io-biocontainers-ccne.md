@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ccne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccne/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccne/container.yaml"
-updated_at: "2025-12-06 03:36:13.307939"
+updated_at: "2025-12-07 04:02:44.191172"
 latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ccne"
 aliases:

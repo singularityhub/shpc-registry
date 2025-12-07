@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ymp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ymp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ymp/container.yaml"
-updated_at: "2025-12-06 03:13:48.783139"
+updated_at: "2025-12-07 03:40:23.525941"
 latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ymp"
 

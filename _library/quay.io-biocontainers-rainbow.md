@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rainbow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rainbow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rainbow/container.yaml"
-updated_at: "2025-12-06 03:13:46.205144"
+updated_at: "2025-12-07 03:40:20.892801"
 latest: "2.0.4--pl5321h7b50bb2_11"
 container_url: "https://biocontainers.pro/tools/rainbow"
 aliases:

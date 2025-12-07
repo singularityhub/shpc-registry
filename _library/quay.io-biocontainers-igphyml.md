@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igphyml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igphyml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igphyml/container.yaml"
-updated_at: "2025-12-06 03:18:01.895263"
+updated_at: "2025-12-07 03:44:40.943166"
 latest: "1.1.5--h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/igphyml"
 aliases:

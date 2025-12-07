@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhesuscdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhesuscdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhesuscdf/container.yaml"
-updated_at: "2025-12-06 04:04:43.353068"
+updated_at: "2025-12-07 04:31:33.408666"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhesuscdf"
 

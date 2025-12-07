@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cgdv17"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cgdv17/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cgdv17/container.yaml"
-updated_at: "2025-12-06 03:21:32.264532"
+updated_at: "2025-12-07 03:48:22.305988"
 latest: "0.28.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cgdv17"
 aliases:

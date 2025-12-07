@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrad/container.yaml"
-updated_at: "2025-12-06 04:03:04.335279"
+updated_at: "2025-12-07 04:29:52.633551"
 latest: "3.0.66--py_3"
 container_url: "https://biocontainers.pro/tools/pyrad"
 aliases:
