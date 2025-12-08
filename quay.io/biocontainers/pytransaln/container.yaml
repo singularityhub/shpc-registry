@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pytransaln
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pytransaln
 latest:
-  0.2.1--pyh7cba7a3_0: 
-    sha256:c76c2df3d603abf76a56387c4e5d3899737e03fc23a944bf836f7a4a82c6730b
+  0.2.2--pyh7e72e81_0: 
+    sha256:a877c7b5a9971925635bde177a89b60dad511e9b0bef8f17b26a8ad3d03783f0
 tags:
   0.2.1--pyh7cba7a3_0: 
     sha256:c76c2df3d603abf76a56387c4e5d3899737e03fc23a944bf836f7a4a82c6730b
+  0.2.2--pyh7e72e81_0: 
+    sha256:a877c7b5a9971925635bde177a89b60dad511e9b0bef8f17b26a8ad3d03783f0
 docker: quay.io/biocontainers/pytransaln
 aliases:
   pytransaln: /usr/local/bin/pytransaln

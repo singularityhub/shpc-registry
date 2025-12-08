@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/galaxy-schema
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for galaxy-schema
 latest:
-  25.0.3--pyhdfd78af_0: 
-    sha256:12ec51b5b810223cdcccb0dbd76a51d0bb1343fa2605507be21d1604f2221324
+  25.0.4--pyhdfd78af_0: 
+    sha256:901dc64b8f87b1b567884e7a0962ffba54854e6d6f265d098359147714317bae
 tags:
   24.1.1--pyhdfd78af_0: 
     sha256:c768479edc284c9b23fe1ee8d3b17b7f26c4ec68b68e979443c8d43444f0d482
@@ -25,6 +25,8 @@ tags:
     sha256:fd40ef838f6999b83ef6dfc44dc8905b54b9513c3c9541477438308a4e22269d
   25.0.3--pyhdfd78af_0: 
     sha256:12ec51b5b810223cdcccb0dbd76a51d0bb1343fa2605507be21d1604f2221324
+  25.0.4--pyhdfd78af_0: 
+    sha256:901dc64b8f87b1b567884e7a0962ffba54854e6d6f265d098359147714317bae
 docker: quay.io/biocontainers/galaxy-schema
 aliases:
   cheetah: /usr/local/bin/cheetah

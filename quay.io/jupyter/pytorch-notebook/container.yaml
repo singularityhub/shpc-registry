@@ -4,11 +4,11 @@ maintainer: '@HasseJohansen'
 description: Jupyter PyTorch Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2025-10-06': 
-    sha256:82be75bc629f95562e291a8edf87420ad23a7e9a9aa390d016958647e7244585
+  '2025-12-08': 
+    sha256:708ba3afeb4478ddfb09f0db0a1b3864aef7168176990cec5d2d50b064a31f95
 tags:
   latest: 
-    sha256:e2c52a7716ab2d46f4c31a888e561f1836555872e5773fb9ec094ea78c98f5ce
+    sha256:708ba3afeb4478ddfb09f0db0a1b3864aef7168176990cec5d2d50b064a31f95
   '2025-06-02': 
     sha256:39c64d643a377cab73e03ff2d161879a6b8b360271247645de96aeb12fa86c31
   cuda12-2025-06-02: 
@@ -53,6 +53,10 @@ tags:
     sha256:2a873f1853d4d0617762b3ddee9649541c3273bcb824e45e1ffc7f39d26e009f
   '2025-08-25': 
     sha256:5b67b29df549c484a49d499ea8c7e26cc19a60e9121bafaa4de3c562c8064147
+  '2025-12-08': 
+    sha256:708ba3afeb4478ddfb09f0db0a1b3864aef7168176990cec5d2d50b064a31f95
+  '2025-03-12': 
+    sha256:bcd30ec5ea08d375a1d444d3a1c6908bd543c68349f92c09b0c108121ba74706
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 
