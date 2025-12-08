@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/darkprofiler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for darkprofiler
+latest:
+  0.1.3--pyhdfd78af_0: 
+    sha256:6c77c05605b6774d278c07863b8e627a5185c83462e7a2520d11ebfbf08f7d40
+tags:
+  0.1.3--pyhdfd78af_0: 
+    sha256:6c77c05605b6774d278c07863b8e627a5185c83462e7a2520d11ebfbf08f7d40
+docker: quay.io/biocontainers/darkprofiler
+aliases:
+  darkprofiler: /usr/local/bin/darkprofiler
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/mylotools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mylotools
+latest:
+  2.0.0--pyh7e72e81_0: 
+    sha256:668f7d17f99f9a52011bbebcc516d196c70f0079e4aca2f4922954e1bedbb921
+tags:
+  2.0.0--pyh7e72e81_0: 
+    sha256:668f7d17f99f9a52011bbebcc516d196c70f0079e4aca2f4922954e1bedbb921
+docker: quay.io/biocontainers/mylotools
+aliases:
+  mylotools: /usr/local/bin/mylotools
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

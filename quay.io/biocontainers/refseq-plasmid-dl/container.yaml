@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/refseq-plasmid-dl
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for refseq-plasmid-dl
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:d51820842f5e12091b43fb03292b469d538958238128d2f8e31b474aada2d3b9
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:d51820842f5e12091b43fb03292b469d538958238128d2f8e31b474aada2d3b9
+docker: quay.io/biocontainers/refseq-plasmid-dl
+aliases:
+  refseq-plasmid-dl: /usr/local/bin/refseq-plasmid-dl
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

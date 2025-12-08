@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/amaranth-assembler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for amaranth-assembler
+latest:
+  0.1.0--h5ca1c30_0: 
+    sha256:f7d3aeffb72ecb96393c7f258d2f23b9ce2e9448be01770845b708b7e56bdcc5
+tags:
+  0.1.0--h5ca1c30_0: 
+    sha256:f7d3aeffb72ecb96393c7f258d2f23b9ce2e9448be01770845b708b7e56bdcc5
+docker: quay.io/biocontainers/amaranth-assembler
+aliases:
+  amaranth: /usr/local/bin/amaranth
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

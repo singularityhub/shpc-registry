@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/r-efglmh
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-efglmh
+latest:
+  0.1.0--r45hdfd78af_0: 
+    sha256:3b70bf64f921052bf76181e775f6fb8c1aca6dc37a2615b10306d57f00549b95
+tags:
+  0.1.0--r45hdfd78af_0: 
+    sha256:3b70bf64f921052bf76181e775f6fb8c1aca6dc37a2615b10306d57f00549b95
+docker: quay.io/biocontainers/r-efglmh
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

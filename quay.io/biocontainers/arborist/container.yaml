@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/arborist
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for arborist
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:da0ba3b204a6ebf6b56ae218bbadda932b7f423141e5cf4f2c1274479fd2542e
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:da0ba3b204a6ebf6b56ae218bbadda932b7f423141e5cf4f2c1274479fd2542e
+docker: quay.io/biocontainers/arborist
+aliases:
+  arborist: /usr/local/bin/arborist
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  xkbcli: /usr/local/bin/xkbcli
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf
+  gts2oogl: /usr/local/bin/gts2oogl
+  gts2stl: /usr/local/bin/gts2stl
+  gtscheck: /usr/local/bin/gtscheck
+  gtscompare: /usr/local/bin/gtscompare
+  gtstemplate: /usr/local/bin/gtstemplate
+  stl2gts: /usr/local/bin/stl2gts
+  transform: /usr/local/bin/transform
+  rsvg-convert: /usr/local/bin/rsvg-convert
+  gtk-update-icon-cache: /usr/local/bin/gtk-update-icon-cache
+  numba: /usr/local/bin/numba
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
