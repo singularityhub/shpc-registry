@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-srap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-srap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-srap/container.yaml"
-updated_at: "2025-12-07 04:31:43.590014"
+updated_at: "2025-12-08 04:17:08.373390"
 latest: "1.27.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-srap"
 aliases:

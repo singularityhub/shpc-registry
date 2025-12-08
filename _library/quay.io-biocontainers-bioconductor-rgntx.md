@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgntx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgntx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgntx/container.yaml"
-updated_at: "2025-12-07 04:04:36.233429"
+updated_at: "2025-12-08 03:50:28.114108"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgntx"
 aliases:

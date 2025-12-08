@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sspace_basic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sspace_basic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sspace_basic/container.yaml"
-updated_at: "2025-12-07 04:00:59.560172"
+updated_at: "2025-12-08 03:46:52.834261"
 latest: "2.1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/sspace_basic"
 aliases:
