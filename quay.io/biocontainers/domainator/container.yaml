@@ -1,0 +1,70 @@
+url: https://biocontainers.pro/tools/domainator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for domainator
+latest:
+  0.8.0--pyhdfd78af_0: 
+    sha256:9eb55b6904374040b04c9c34b7942a5968c4e044f4826310a548d2abdcce0057
+tags:
+  0.8.0--pyhdfd78af_0: 
+    sha256:9eb55b6904374040b04c9c34b7942a5968c4e044f4826310a548d2abdcce0057
+docker: quay.io/biocontainers/domainator
+aliases:
+  build_projection.py: /usr/local/bin/build_projection.py
+  build_ssn.py: /usr/local/bin/build_ssn.py
+  build_tree.py: /usr/local/bin/build_tree.py
+  color_genbank.py: /usr/local/bin/color_genbank.py
+  color_table_to_legend.py: /usr/local/bin/color_table_to_legend.py
+  compare_contigs.py: /usr/local/bin/compare_contigs.py
+  deduplicate_genbank.py: /usr/local/bin/deduplicate_genbank.py
+  domain_search.py: /usr/local/bin/domain_search.py
+  domainate.py: /usr/local/bin/domainate.py
+  domainator_db_download.py: /usr/local/bin/domainator_db_download.py
+  domainator_server: /usr/local/bin/domainator_server
+  enum_report.py: /usr/local/bin/enum_report.py
+  extract_domains.py: /usr/local/bin/extract_domains.py
+  extract_peptides.py: /usr/local/bin/extract_peptides.py
+  extract_unannotated.py: /usr/local/bin/extract_unannotated.py
+  filter_domains.py: /usr/local/bin/filter_domains.py
+  genbank_to_fasta.py: /usr/local/bin/genbank_to_fasta.py
+  hist: /usr/local/bin/hist
+  hmmer_build.py: /usr/local/bin/hmmer_build.py
+  hmmer_compare.py: /usr/local/bin/hmmer_compare.py
+  hmmer_report.py: /usr/local/bin/hmmer_report.py
+  hmmer_search.py: /usr/local/bin/hmmer_search.py
+  hmmer_select.py: /usr/local/bin/hmmer_select.py
+  matrix_report.py: /usr/local/bin/matrix_report.py
+  partition_seqfile.py: /usr/local/bin/partition_seqfile.py
+  plot_contigs.py: /usr/local/bin/plot_contigs.py
+  scatter: /usr/local/bin/scatter
+  select_by_cds.py: /usr/local/bin/select_by_cds.py
+  select_by_contig.py: /usr/local/bin/select_by_contig.py
+  seq_dist.py: /usr/local/bin/seq_dist.py
+  summary_report.py: /usr/local/bin/summary_report.py
+  transform_matrix.py: /usr/local/bin/transform_matrix.py
+  trim_contigs.py: /usr/local/bin/trim_contigs.py
+  usearch: /usr/local/bin/usearch
+  archspec: /usr/local/bin/archspec
+  pyrodigal: /usr/local/bin/pyrodigal
+  cd-hit-clstr_2_blm8.pl: /usr/local/bin/cd-hit-clstr_2_blm8.pl
+  FET.pl: /usr/local/bin/FET.pl
+  clstr_list.pl: /usr/local/bin/clstr_list.pl
+  clstr_list_sort.pl: /usr/local/bin/clstr_list_sort.pl
+  cd-hit: /usr/local/bin/cd-hit
+  cd-hit-2d: /usr/local/bin/cd-hit-2d
+  cd-hit-2d-para.pl: /usr/local/bin/cd-hit-2d-para.pl
+  cd-hit-454: /usr/local/bin/cd-hit-454
+  cd-hit-div: /usr/local/bin/cd-hit-div
+  cd-hit-div.pl: /usr/local/bin/cd-hit-div.pl
+  cd-hit-est-2d: /usr/local/bin/cd-hit-est-2d
+  cd-hit-para.pl: /usr/local/bin/cd-hit-para.pl
+  clstr2tree.pl: /usr/local/bin/clstr2tree.pl
+  clstr2txt.pl: /usr/local/bin/clstr2txt.pl
+  clstr2xml.pl: /usr/local/bin/clstr2xml.pl
+  clstr_cut.pl: /usr/local/bin/clstr_cut.pl
+  clstr_merge.pl: /usr/local/bin/clstr_merge.pl
+  clstr_merge_noorder.pl: /usr/local/bin/clstr_merge_noorder.pl
+  clstr_quality_eval.pl: /usr/local/bin/clstr_quality_eval.pl
+  clstr_quality_eval_by_link.pl: /usr/local/bin/clstr_quality_eval_by_link.pl
+  clstr_reduce.pl: /usr/local/bin/clstr_reduce.pl
+  clstr_renumber.pl: /usr/local/bin/clstr_renumber.pl
+  clstr_rep.pl: /usr/local/bin/clstr_rep.pl

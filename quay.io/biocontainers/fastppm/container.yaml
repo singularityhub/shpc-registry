@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/fastppm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastppm
+latest:
+  1.1.1--py310h184ae93_0: 
+    sha256:b0de2eb3b14ece3fa71973d8a9e415ccff9849dbb4ab4592af144b4202c38367
+tags:
+  1.1.1--py310h184ae93_0: 
+    sha256:b0de2eb3b14ece3fa71973d8a9e415ccff9849dbb4ab4592af144b4202c38367
+docker: quay.io/biocontainers/fastppm
+aliases:
+  fastppm-cli: /usr/local/bin/fastppm-cli
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

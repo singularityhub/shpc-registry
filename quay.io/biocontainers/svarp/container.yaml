@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/svarp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for svarp
+latest:
+  1.0.1--h077b44d_0: 
+    sha256:81f4a3100d54f9cf8af1743decdb766ecc2a870d647039f435ecb2cd60176532
+tags:
+  1.0.1--h077b44d_0: 
+    sha256:81f4a3100d54f9cf8af1743decdb766ecc2a870d647039f435ecb2cd60176532
+docker: quay.io/biocontainers/svarp
+aliases:
+  GraphAligner: /usr/local/bin/GraphAligner
+  svarp: /usr/local/bin/svarp
+  svarp-wtdbg2: /usr/local/bin/svarp-wtdbg2
+  jemalloc-config: /usr/local/bin/jemalloc-config
+  jeprof: /usr/local/bin/jeprof
+  jemalloc.sh: /usr/local/bin/jemalloc.sh
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  ref-cache: /usr/local/bin/ref-cache
+  bamtools: /usr/local/bin/bamtools
+  annot-tsv: /usr/local/bin/annot-tsv
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  protoc: /usr/local/bin/protoc
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
