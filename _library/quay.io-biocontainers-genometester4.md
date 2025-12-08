@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genometester4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genometester4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genometester4/container.yaml"
-updated_at: "2025-12-08 04:07:37.715294"
+updated_at: "2025-12-08 05:27:21.434661"
 latest: "4.0--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/genometester4"
 aliases:

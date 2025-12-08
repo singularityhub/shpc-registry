@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agfusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agfusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agfusion/container.yaml"
-updated_at: "2025-12-08 03:42:34.448221"
+updated_at: "2025-12-08 05:03:08.318759"
 latest: "1.252--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/agfusion"
 aliases:

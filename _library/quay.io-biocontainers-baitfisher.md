@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baitfisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baitfisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baitfisher/container.yaml"
-updated_at: "2025-12-08 03:35:44.547386"
+updated_at: "2025-12-08 04:56:31.984922"
 latest: "1.0--h9948957_8"
 container_url: "https://biocontainers.pro/tools/baitfisher"
 aliases:

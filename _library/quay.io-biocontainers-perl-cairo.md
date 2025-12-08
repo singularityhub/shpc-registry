@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-cairo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cairo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cairo/container.yaml"
-updated_at: "2025-12-08 03:40:18.255097"
+updated_at: "2025-12-08 05:00:56.881346"
 latest: "1.109--pl5321hb0b1468_2"
 container_url: "https://biocontainers.pro/tools/perl-cairo"
 aliases:

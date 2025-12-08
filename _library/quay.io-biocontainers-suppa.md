@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/suppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/suppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/suppa/container.yaml"
-updated_at: "2025-12-08 03:46:00.037730"
+updated_at: "2025-12-08 05:06:26.719173"
 latest: "2.3--py_2"
 container_url: "https://biocontainers.pro/tools/suppa"
 aliases:

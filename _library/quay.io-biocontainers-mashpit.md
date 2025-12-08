@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mashpit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashpit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mashpit/container.yaml"
-updated_at: "2025-12-08 03:38:54.534563"
+updated_at: "2025-12-08 04:59:35.506200"
 latest: "0.9.10--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mashpit"
 aliases:

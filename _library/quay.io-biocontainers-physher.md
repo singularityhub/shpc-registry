@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/physher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/physher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/physher/container.yaml"
-updated_at: "2025-12-08 03:29:49.782502"
+updated_at: "2025-12-08 04:50:49.662658"
 latest: "2.0.1--h4656aac_3"
 container_url: "https://biocontainers.pro/tools/physher"
 aliases:

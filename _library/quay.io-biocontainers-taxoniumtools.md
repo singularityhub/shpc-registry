@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxoniumtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxoniumtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxoniumtools/container.yaml"
-updated_at: "2025-12-08 04:03:58.996851"
+updated_at: "2025-12-08 05:23:48.851211"
 latest: "2.1.17--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxoniumtools"
 aliases:
