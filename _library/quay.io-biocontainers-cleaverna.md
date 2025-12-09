@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cleaverna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cleaverna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cleaverna/container.yaml"
-updated_at: "2025-12-08 04:52:38.667654"
+updated_at: "2025-12-09 03:28:13.630714"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cleaverna"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biodist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodist/container.yaml"
-updated_at: "2025-12-08 05:28:59.020757"
+updated_at: "2025-12-09 04:05:47.507959"
 latest: "1.78.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodist"
 

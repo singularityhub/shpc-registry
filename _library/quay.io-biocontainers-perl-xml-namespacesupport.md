@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-namespacesupport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-namespacesupport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-namespacesupport/container.yaml"
-updated_at: "2025-12-08 04:48:19.972280"
+updated_at: "2025-12-09 03:23:47.229135"
 latest: "1.12--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-xml-namespacesupport"
 aliases:

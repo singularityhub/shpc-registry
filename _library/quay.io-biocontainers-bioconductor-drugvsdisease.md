@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-drugvsdisease"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drugvsdisease/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drugvsdisease/container.yaml"
-updated_at: "2025-12-08 05:06:26.440635"
+updated_at: "2025-12-09 03:42:27.475116"
 latest: "2.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drugvsdisease"
 

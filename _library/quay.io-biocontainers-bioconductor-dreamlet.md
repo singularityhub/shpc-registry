@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dreamlet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dreamlet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dreamlet/container.yaml"
-updated_at: "2025-12-08 05:32:48.316796"
+updated_at: "2025-12-09 04:09:45.694418"
 latest: "1.6.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dreamlet"
 aliases:

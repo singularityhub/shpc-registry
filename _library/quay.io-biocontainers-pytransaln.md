@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pytransaln"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytransaln/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytransaln/container.yaml"
-updated_at: "2025-12-08 05:13:29.172817"
-latest: "0.2.1--pyh7cba7a3_0"
+updated_at: "2025-12-09 03:49:44.178843"
+latest: "0.2.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pytransaln"
 aliases:
  - "pytransaln"
@@ -30,8 +30,9 @@ aliases:
  - "transicc"
 versions:
  - "0.2.1--pyh7cba7a3_0"
+ - "0.2.2--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for pytransaln"
-config: {"url": "https://biocontainers.pro/tools/pytransaln", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytransaln", "latest": {"0.2.1--pyh7cba7a3_0": "sha256:c76c2df3d603abf76a56387c4e5d3899737e03fc23a944bf836f7a4a82c6730b"}, "tags": {"0.2.1--pyh7cba7a3_0": "sha256:c76c2df3d603abf76a56387c4e5d3899737e03fc23a944bf836f7a4a82c6730b"}, "docker": "quay.io/biocontainers/pytransaln", "aliases": {"pytransaln": "/usr/local/bin/pytransaln", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
+config: {"url": "https://biocontainers.pro/tools/pytransaln", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pytransaln", "latest": {"0.2.2--pyh7e72e81_0": "sha256:a877c7b5a9971925635bde177a89b60dad511e9b0bef8f17b26a8ad3d03783f0"}, "tags": {"0.2.1--pyh7cba7a3_0": "sha256:c76c2df3d603abf76a56387c4e5d3899737e03fc23a944bf836f7a4a82c6730b", "0.2.2--pyh7e72e81_0": "sha256:a877c7b5a9971925635bde177a89b60dad511e9b0bef8f17b26a8ad3d03783f0"}, "docker": "quay.io/biocontainers/pytransaln", "aliases": {"pytransaln": "/usr/local/bin/pytransaln", "tjbench": "/usr/local/bin/tjbench", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc", "transicc": "/usr/local/bin/transicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytransaln.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/pytransaln
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pytransaln:0.2.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pytransaln:0.2.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pytransaln/0.2.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pytransaln/0.2.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pytransaln/0.2.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/pytransaln/0.2.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

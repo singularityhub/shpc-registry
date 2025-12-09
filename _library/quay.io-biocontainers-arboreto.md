@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/arboreto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arboreto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arboreto/container.yaml"
-updated_at: "2025-12-08 05:27:57.289912"
-latest: "0.1.6--pyh3252c3a_0"
+updated_at: "2025-12-09 04:04:43.415977"
+latest: "0.1.6--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/arboreto"
 aliases:
  - "dask-scheduler"
@@ -20,8 +20,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.1.6--pyh3252c3a_0"
+ - "0.1.6--pyh7e72e81_1"
 description: "shpc-registry automated BioContainers addition for arboreto"
-config: {"url": "https://biocontainers.pro/tools/arboreto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arboreto", "latest": {"0.1.6--pyh3252c3a_0": "sha256:584dd5abce8674ef0816ba11e42f1e8be015bdcea0402a54e37a471907e7dca7"}, "tags": {"0.1.6--pyh3252c3a_0": "sha256:584dd5abce8674ef0816ba11e42f1e8be015bdcea0402a54e37a471907e7dca7"}, "docker": "quay.io/biocontainers/arboreto", "aliases": {"dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bokeh": "/usr/local/bin/bokeh", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/arboreto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arboreto", "latest": {"0.1.6--pyh7e72e81_1": "sha256:9df5834b7a8102bdb85113822c9b470cef87363f9a5639832e426c3dd83c11c1"}, "tags": {"0.1.6--pyh3252c3a_0": "sha256:584dd5abce8674ef0816ba11e42f1e8be015bdcea0402a54e37a471907e7dca7", "0.1.6--pyh7e72e81_1": "sha256:9df5834b7a8102bdb85113822c9b470cef87363f9a5639832e426c3dd83c11c1"}, "docker": "quay.io/biocontainers/arboreto", "aliases": {"dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bokeh": "/usr/local/bin/bokeh", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arboreto.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/arboreto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/arboreto:0.1.6--pyh3252c3a_0
+$ shpc install quay.io/biocontainers/arboreto:0.1.6--pyh7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/arboreto/0.1.6--pyh3252c3a_0
-$ module help quay.io/biocontainers/arboreto/0.1.6--pyh3252c3a_0
+$ module load quay.io/biocontainers/arboreto/0.1.6--pyh7e72e81_1
+$ module help quay.io/biocontainers/arboreto/0.1.6--pyh7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

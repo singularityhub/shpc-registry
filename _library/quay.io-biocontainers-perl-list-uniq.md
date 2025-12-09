@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-list-uniq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-list-uniq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-list-uniq/container.yaml"
-updated_at: "2025-12-08 05:32:13.806456"
+updated_at: "2025-12-09 04:09:09.783164"
 latest: "0.23--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-list-uniq"
 aliases:

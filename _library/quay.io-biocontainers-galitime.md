@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galitime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galitime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galitime/container.yaml"
-updated_at: "2025-12-08 05:33:05.110577"
+updated_at: "2025-12-09 04:10:03.135854"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galitime"
 aliases:

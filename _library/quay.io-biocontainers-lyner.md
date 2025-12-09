@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lyner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lyner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lyner/container.yaml"
-updated_at: "2025-12-08 05:09:59.371900"
+updated_at: "2025-12-09 03:46:07.465291"
 latest: "0.4.3--py_0"
 container_url: "https://biocontainers.pro/tools/lyner"
 aliases:

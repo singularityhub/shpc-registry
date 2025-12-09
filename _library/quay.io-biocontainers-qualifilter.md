@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qualifilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qualifilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qualifilter/container.yaml"
-updated_at: "2025-12-08 05:10:47.885302"
+updated_at: "2025-12-09 03:46:57.331529"
 latest: "1.0.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/qualifilter"
 aliases:

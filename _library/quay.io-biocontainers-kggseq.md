@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kggseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kggseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kggseq/container.yaml"
-updated_at: "2025-12-08 05:23:43.828405"
+updated_at: "2025-12-09 04:00:21.196262"
 latest: "1.1--0"
 container_url: "https://biocontainers.pro/tools/kggseq"
 aliases:

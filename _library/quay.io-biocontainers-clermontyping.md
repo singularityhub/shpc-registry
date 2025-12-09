@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clermontyping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clermontyping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clermontyping/container.yaml"
-updated_at: "2025-12-08 05:16:49.584342"
+updated_at: "2025-12-09 03:53:11.688010"
 latest: "24.02--py312hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/clermontyping"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/verticall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verticall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verticall/container.yaml"
-updated_at: "2025-12-08 05:12:23.651652"
+updated_at: "2025-12-09 03:48:36.326970"
 latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/verticall"
 aliases:

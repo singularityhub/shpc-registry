@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydna_repeatfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydna_repeatfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydna_repeatfinder/container.yaml"
-updated_at: "2025-12-08 05:04:48.498278"
+updated_at: "2025-12-09 03:40:46.313528"
 latest: "0.2.9--py312hf731ba3_2"
 container_url: "https://biocontainers.pro/tools/pydna_repeatfinder"
 aliases:

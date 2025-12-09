@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakedeploy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakedeploy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakedeploy/container.yaml"
-updated_at: "2025-12-08 04:57:40.909692"
+updated_at: "2025-12-09 03:33:27.086530"
 latest: "0.15.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakedeploy"
 aliases:

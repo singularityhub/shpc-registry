@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metabolights-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabolights-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabolights-utils/container.yaml"
-updated_at: "2025-12-08 05:07:10.626562"
+updated_at: "2025-12-09 03:43:13.225827"
 latest: "1.4.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metabolights-utils"
 aliases:

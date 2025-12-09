@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crnsimulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crnsimulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crnsimulator/container.yaml"
-updated_at: "2025-12-08 04:53:31.479847"
+updated_at: "2025-12-09 03:29:08.064164"
 latest: "0.9--pyh5bfb8f1_0"
 container_url: "https://biocontainers.pro/tools/crnsimulator"
 aliases:

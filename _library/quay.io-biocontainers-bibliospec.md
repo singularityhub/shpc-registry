@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bibliospec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bibliospec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bibliospec/container.yaml"
-updated_at: "2025-12-08 05:32:45.526864"
+updated_at: "2025-12-09 04:09:42.787645"
 latest: "1.0--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/bibliospec"
 aliases:
