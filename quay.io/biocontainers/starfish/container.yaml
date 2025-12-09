@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/starfish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for starfish
 latest:
-  0.3.3--pyhdfd78af_0: 
-    sha256:46537d4d146c8045c18033940764c337b597d077e81ce9d26cc16913e7c818c7
+  0.3.4--pyhdfd78af_0: 
+    sha256:fdc0bea578d77e6ffd4d020fe05ba9a7cf0e32c17a8a88f760b9a1a88d4a75bd
 tags:
   0.2.2--pyhdfd78af_0: 
     sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3
@@ -15,6 +15,8 @@ tags:
     sha256:ab4a1785754c5a7afca9bc05381badee51554b5984dfa4c2ac0cd78809b0dad9
   0.3.3--pyhdfd78af_0: 
     sha256:46537d4d146c8045c18033940764c337b597d077e81ce9d26cc16913e7c818c7
+  0.3.4--pyhdfd78af_0: 
+    sha256:fdc0bea578d77e6ffd4d020fe05ba9a7cf0e32c17a8a88f760b9a1a88d4a75bd
 docker: quay.io/biocontainers/starfish
 aliases:
   isympy: /usr/local/bin/isympy
