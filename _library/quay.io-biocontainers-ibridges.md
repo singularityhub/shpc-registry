@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ibridges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ibridges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ibridges/container.yaml"
-updated_at: "2025-12-09 03:41:59.054505"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2025-12-10 03:45:17.546544"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ibridges"
 aliases:
  - "ibridges"
@@ -21,8 +21,9 @@ versions:
  - "1.5.1--pyhdfd78af_0"
  - "2.0.0--pyhdfd78af_0"
  - "1.5.2--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ibridges"
-config: {"url": "https://biocontainers.pro/tools/ibridges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ibridges", "latest": {"2.0.0--pyhdfd78af_0": "sha256:88fca1c431b63a181ed6d17d8c103dc0b136dd4d210f593757bcc1cd03797d5d"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:0c003705e6f3e74318052e10815b82221ff4b18c6ad9029d8d71c6faaf90e6ad", "1.3.0--pyhdfd78af_0": "sha256:e66ea37c2a223f2211b9dc4bdc185b7393cce0d8a7b7da66f1196935872b3967", "1.5.0--pyhdfd78af_0": "sha256:0ebb972cf668e86e58dff0556ba18a0ed68e33f3a5f2651415b25c781e2ae319", "1.5.1--pyhdfd78af_0": "sha256:e1c1b15a4c0a64ff3a53500d5200eb8f7c5b531ce8a4df7a4f1e8e0e84519234", "2.0.0--pyhdfd78af_0": "sha256:88fca1c431b63a181ed6d17d8c103dc0b136dd4d210f593757bcc1cd03797d5d", "1.5.2--pyhdfd78af_0": "sha256:51d004eb631581d8940d281fc8c6016055e04feeaf2fddcc05a919dd6232bf9c"}, "docker": "quay.io/biocontainers/ibridges", "aliases": {"ibridges": "/usr/local/bin/ibridges", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/ibridges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ibridges", "latest": {"2.0.1--pyhdfd78af_0": "sha256:2b891879e6b8b4d140dc03fe2fbd7cee899bdc0cbe3b3c6effafd191a7926f70"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:0c003705e6f3e74318052e10815b82221ff4b18c6ad9029d8d71c6faaf90e6ad", "1.3.0--pyhdfd78af_0": "sha256:e66ea37c2a223f2211b9dc4bdc185b7393cce0d8a7b7da66f1196935872b3967", "1.5.0--pyhdfd78af_0": "sha256:0ebb972cf668e86e58dff0556ba18a0ed68e33f3a5f2651415b25c781e2ae319", "1.5.1--pyhdfd78af_0": "sha256:e1c1b15a4c0a64ff3a53500d5200eb8f7c5b531ce8a4df7a4f1e8e0e84519234", "2.0.0--pyhdfd78af_0": "sha256:88fca1c431b63a181ed6d17d8c103dc0b136dd4d210f593757bcc1cd03797d5d", "1.5.2--pyhdfd78af_0": "sha256:51d004eb631581d8940d281fc8c6016055e04feeaf2fddcc05a919dd6232bf9c", "2.0.1--pyhdfd78af_0": "sha256:2b891879e6b8b4d140dc03fe2fbd7cee899bdc0cbe3b3c6effafd191a7926f70"}, "docker": "quay.io/biocontainers/ibridges", "aliases": {"ibridges": "/usr/local/bin/ibridges", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ibridges.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ibridges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ibridges:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ibridges:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ibridges/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/ibridges/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/ibridges/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ibridges/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

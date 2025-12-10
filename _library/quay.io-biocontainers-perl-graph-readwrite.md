@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-graph-readwrite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graph-readwrite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graph-readwrite/container.yaml"
-updated_at: "2025-12-09 03:58:27.684606"
+updated_at: "2025-12-10 04:01:12.103199"
 latest: "2.10--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-graph-readwrite"
 aliases:

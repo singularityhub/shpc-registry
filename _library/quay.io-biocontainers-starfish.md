@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/starfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/starfish/container.yaml"
-updated_at: "2025-12-09 03:51:38.743407"
-latest: "0.3.3--pyhdfd78af_0"
+updated_at: "2025-12-10 03:54:37.786221"
+latest: "0.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/starfish"
 aliases:
  - "isympy"
@@ -29,8 +29,9 @@ versions:
  - "0.3.1--pyhdfd78af_0"
  - "0.3.2--pyhdfd78af_0"
  - "0.3.3--pyhdfd78af_0"
+ - "0.3.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for starfish"
-config: {"url": "https://biocontainers.pro/tools/starfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for starfish", "latest": {"0.3.3--pyhdfd78af_0": "sha256:46537d4d146c8045c18033940764c337b597d077e81ce9d26cc16913e7c818c7"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3", "0.3.0--pyhdfd78af_0": "sha256:63438fa37dfc7e9d4572e1639a9b5657e439029be2733beac78ee827efcfa3d0", "0.3.1--pyhdfd78af_0": "sha256:eea9f50b668c1a87c4b5ff62054fb0335846bc5506aa5a09deb5d7c2d89601c8", "0.3.2--pyhdfd78af_0": "sha256:ab4a1785754c5a7afca9bc05381badee51554b5984dfa4c2ac0cd78809b0dad9", "0.3.3--pyhdfd78af_0": "sha256:46537d4d146c8045c18033940764c337b597d077e81ce9d26cc16913e7c818c7"}, "docker": "quay.io/biocontainers/starfish", "aliases": {"isympy": "/usr/local/bin/isympy", "slicedimage": "/usr/local/bin/slicedimage", "starfish": "/usr/local/bin/starfish", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
+config: {"url": "https://biocontainers.pro/tools/starfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for starfish", "latest": {"0.3.4--pyhdfd78af_0": "sha256:fdc0bea578d77e6ffd4d020fe05ba9a7cf0e32c17a8a88f760b9a1a88d4a75bd"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3", "0.3.0--pyhdfd78af_0": "sha256:63438fa37dfc7e9d4572e1639a9b5657e439029be2733beac78ee827efcfa3d0", "0.3.1--pyhdfd78af_0": "sha256:eea9f50b668c1a87c4b5ff62054fb0335846bc5506aa5a09deb5d7c2d89601c8", "0.3.2--pyhdfd78af_0": "sha256:ab4a1785754c5a7afca9bc05381badee51554b5984dfa4c2ac0cd78809b0dad9", "0.3.3--pyhdfd78af_0": "sha256:46537d4d146c8045c18033940764c337b597d077e81ce9d26cc16913e7c818c7", "0.3.4--pyhdfd78af_0": "sha256:fdc0bea578d77e6ffd4d020fe05ba9a7cf0e32c17a8a88f760b9a1a88d4a75bd"}, "docker": "quay.io/biocontainers/starfish", "aliases": {"isympy": "/usr/local/bin/isympy", "slicedimage": "/usr/local/bin/slicedimage", "starfish": "/usr/local/bin/starfish", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/starfish.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/starfish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/starfish:0.3.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/starfish:0.3.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/starfish/0.3.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/starfish/0.3.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/starfish/0.3.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/starfish/0.3.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

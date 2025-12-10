@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/addeam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/addeam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/addeam/container.yaml"
-updated_at: "2025-12-09 04:01:07.334327"
+updated_at: "2025-12-10 04:03:45.747118"
 latest: "1.0.0--py313h1510ab2_0"
 container_url: "https://biocontainers.pro/tools/addeam"
 aliases:

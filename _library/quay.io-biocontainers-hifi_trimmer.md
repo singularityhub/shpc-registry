@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hifi_trimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifi_trimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifi_trimmer/container.yaml"
-updated_at: "2025-12-09 03:39:57.480646"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2025-12-10 03:43:19.495531"
+latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hifi_trimmer"
 aliases:
  - "hifi_trimmer"
@@ -19,8 +19,9 @@ versions:
  - "1.2.2--pyhdfd78af_0"
  - "1.2.3--pyhdfd78af_0"
  - "2.0.0--pyhdfd78af_0"
+ - "2.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hifi_trimmer"
-config: {"url": "https://biocontainers.pro/tools/hifi_trimmer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hifi_trimmer", "latest": {"2.0.0--pyhdfd78af_0": "sha256:e9061bc5a16afe84cd6fb907f31c66f74b0e5e08f238414b427454932803d6ac"}, "tags": {"1.2.2--pyhdfd78af_0": "sha256:32c3a98532c86642074c7ebd09cd71c37dba8c23e2ee7332740bdc94c36b7b38", "1.2.3--pyhdfd78af_0": "sha256:faa335ffe8a4f652519801f55f0987d099a7576090e4334389adbc7d2c661242", "2.0.0--pyhdfd78af_0": "sha256:e9061bc5a16afe84cd6fb907f31c66f74b0e5e08f238414b427454932803d6ac"}, "docker": "quay.io/biocontainers/hifi_trimmer", "aliases": {"hifi_trimmer": "/usr/local/bin/hifi_trimmer", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/hifi_trimmer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hifi_trimmer", "latest": {"2.1.0--pyhdfd78af_0": "sha256:954d249075acea1c677d858c421dde5c5d9ffc3f63879b49d6fcb158b9d84d80"}, "tags": {"1.2.2--pyhdfd78af_0": "sha256:32c3a98532c86642074c7ebd09cd71c37dba8c23e2ee7332740bdc94c36b7b38", "1.2.3--pyhdfd78af_0": "sha256:faa335ffe8a4f652519801f55f0987d099a7576090e4334389adbc7d2c661242", "2.0.0--pyhdfd78af_0": "sha256:e9061bc5a16afe84cd6fb907f31c66f74b0e5e08f238414b427454932803d6ac", "2.1.0--pyhdfd78af_0": "sha256:954d249075acea1c677d858c421dde5c5d9ffc3f63879b49d6fcb158b9d84d80"}, "docker": "quay.io/biocontainers/hifi_trimmer", "aliases": {"hifi_trimmer": "/usr/local/bin/hifi_trimmer", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hifi_trimmer.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/hifi_trimmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hifi_trimmer:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hifi_trimmer:2.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hifi_trimmer/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/hifi_trimmer/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/hifi_trimmer/2.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/hifi_trimmer/2.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reditools3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reditools3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reditools3/container.yaml"
-updated_at: "2025-12-09 04:07:51.031065"
-latest: "3.4--pyhdfd78af_0"
+updated_at: "2025-12-10 04:10:14.438460"
+latest: "3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reditools3"
 aliases:
  - "idle3.13"
@@ -14,8 +14,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "3.4--pyhdfd78af_0"
+ - "3.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for reditools3"
-config: {"url": "https://biocontainers.pro/tools/reditools3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reditools3", "latest": {"3.4--pyhdfd78af_0": "sha256:d67429dc33b033a99540b779dc4f1a594f4f2d6962eca2241e5249ba47eebd28"}, "tags": {"3.4--pyhdfd78af_0": "sha256:d67429dc33b033a99540b779dc4f1a594f4f2d6962eca2241e5249ba47eebd28"}, "docker": "quay.io/biocontainers/reditools3", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/reditools3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reditools3", "latest": {"3.5--pyhdfd78af_0": "sha256:f87bda0dd08088c8db234a254f712a0603ff7218b152fe04c234608159a3cef1"}, "tags": {"3.4--pyhdfd78af_0": "sha256:d67429dc33b033a99540b779dc4f1a594f4f2d6962eca2241e5249ba47eebd28", "3.5--pyhdfd78af_0": "sha256:f87bda0dd08088c8db234a254f712a0603ff7218b152fe04c234608159a3cef1"}, "docker": "quay.io/biocontainers/reditools3", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reditools3.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/reditools3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reditools3:3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/reditools3:3.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reditools3/3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/reditools3/3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/reditools3/3.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/reditools3/3.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
