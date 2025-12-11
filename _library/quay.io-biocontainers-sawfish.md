@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sawfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sawfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sawfish/container.yaml"
-updated_at: "2025-12-10 03:26:32.970599"
+updated_at: "2025-12-11 03:28:34.682772"
 latest: "2.1.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/sawfish"
 aliases:

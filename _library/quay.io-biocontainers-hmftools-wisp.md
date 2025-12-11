@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-wisp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-wisp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-wisp/container.yaml"
-updated_at: "2025-12-10 03:56:24.301499"
+updated_at: "2025-12-11 03:57:44.922190"
 latest: "1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-wisp"
 aliases:

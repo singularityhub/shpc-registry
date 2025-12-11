@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffutr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffutr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffutr/container.yaml"
-updated_at: "2025-12-10 03:51:57.947299"
+updated_at: "2025-12-11 03:53:21.392155"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffutr"
 
