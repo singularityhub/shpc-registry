@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hmftools-purple
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmftools-purple
 latest:
-  4.2--hdfd78af_0: 
-    sha256:056d079f05d98b6792350da96c8a15ab55854fe431fb54d7ee39df69422b0c06
+  4.3--hdfd78af_0: 
+    sha256:05111af27e991bada515f53e1a1034433bade2380b7d81fb3507bdd02f7b8dfb
 tags:
   3.6--hdfd78af_0: 
     sha256:677d1b3509a70b16dd502a7cc44302c9e8282de9371f6af07c41ec2f7d7269fb
@@ -19,6 +19,8 @@ tags:
     sha256:03a7621484f5d48398df99e6f99f5ea7ee78274a123ab4c6a9d05c7441a91919
   4.2--hdfd78af_0: 
     sha256:056d079f05d98b6792350da96c8a15ab55854fe431fb54d7ee39df69422b0c06
+  4.3--hdfd78af_0: 
+    sha256:05111af27e991bada515f53e1a1034433bade2380b7d81fb3507bdd02f7b8dfb
 docker: quay.io/biocontainers/hmftools-purple
 aliases:
   PURPLE: /usr/local/bin/PURPLE

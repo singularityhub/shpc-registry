@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ampligone
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ampligone
 latest:
-  2.0.1--pyhdfd78af_0: 
-    sha256:098da74b04871de521747aea91a406ebdfcf3b881c17ba4c258c183e6bdc6900
+  2.0.2--pyhdfd78af_0: 
+    sha256:91866910da224fcaf5c00f2c736e4dd284c6febdaa5409d3e710169c483fef3c
 tags:
   1.2.0--pyhdfd78af_0: 
     sha256:97c157dc60a970a2497baa887f651818a2a17b1f6265a1ca3fdcdc1157ec1aea
@@ -15,6 +15,8 @@ tags:
     sha256:a57a3c5ff3564eb390007af4efa32e6da7da8c64f44a3dcc1298e3c67e8ff8ff
   2.0.1--pyhdfd78af_0: 
     sha256:098da74b04871de521747aea91a406ebdfcf3b881c17ba4c258c183e6bdc6900
+  2.0.2--pyhdfd78af_0: 
+    sha256:91866910da224fcaf5c00f2c736e4dd284c6febdaa5409d3e710169c483fef3c
 docker: quay.io/biocontainers/ampligone
 aliases:
   AmpliGone: /usr/local/bin/AmpliGone

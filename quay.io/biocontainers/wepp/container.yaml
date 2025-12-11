@@ -7,6 +7,8 @@ latest:
 tags:
   0.1.4.1--h3cc91ff_0: 
     sha256:b6b1b8894a85143ee2748ac99cc767e6633d75c86d575c5e4a0f194c9c889459
+  0.1.4.1--h8c6bde3_0: 
+    sha256:48cc4325ffc87e0f3d4718941bdf68485ff3bc19b3c82f3f465ce702a65445cc
 docker: quay.io/biocontainers/wepp
 aliases:
   distro: /usr/local/bin/distro

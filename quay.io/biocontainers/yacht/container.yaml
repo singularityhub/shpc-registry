@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/yacht
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for yacht
 latest:
-  1.3.1--py311h9948957_0: 
-    sha256:f4f4f021df9712759ca889e8e2cc9f08db7df56d8945ae74b2611e1cb6705fde
+  1.3.2--py311h9948957_0: 
+    sha256:dddaa11fca7650aa203744f29e5da90e2284531b2c348df3267c44951427dc01
 tags:
   1.1.0--pyhdfd78af_0: 
     sha256:413e313bfb1140a54dea1159b3e88d81f003dabcab3deba2370a05dd5a685004
@@ -17,6 +17,8 @@ tags:
     sha256:61ad52763b6fd81fb09eb53a32df773ebeaacfbbdd64eaf93a1d085cae1d8be8
   1.3.1--py311h9948957_0: 
     sha256:f4f4f021df9712759ca889e8e2cc9f08db7df56d8945ae74b2611e1cb6705fde
+  1.3.2--py311h9948957_0: 
+    sha256:dddaa11fca7650aa203744f29e5da90e2284531b2c348df3267c44951427dc01
 docker: quay.io/biocontainers/yacht
 aliases:
   codecov: /usr/local/bin/codecov

@@ -20,14 +20,14 @@ tags:
     sha256:b1a3a20958ddbbd2ad7c169c8d40c7a2d0d6a23d53380ff2b9aee876e14f8630
   3.9.5: sha256:3b3f7b55be78e1b3c7330671ffc3f5e3670f66f040a4a429109a7f56c90464dc
   3.9.8: sha256:19e69a7a65fa6b1d0a5c658bad8ec03d2c9900a98ebbc744c34d49179ff517bf
-  3.9.10: 'crane digest rabbitmq:3.9.10: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  3.9.11: 'crane digest rabbitmq:3.9.11: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  3.9.13: 'crane digest rabbitmq:3.9.13: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  latest: 'crane digest rabbitmq:latest: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
+  3.9.10: 
+    sha256:0d862496f77a3bd377eb5de437411a4388885f0f0c2452291e97a85bc89df87a
+  3.9.11: 
+    sha256:884146137011519524d506a12687127f3d2c7c37c2cc11206dc72c59bedea5e2
+  3.9.13: 
+    sha256:f5c8c7fd99e4c88527276df319556fdcb56e4d289614c5fefda5ee8d17c5ea89
+  latest: 
+    sha256:9ccaa287bf8457b69b1bb0b138aa05c7313b369e966ab463df57d1d09822be7c
   '3': 'crane digest rabbitmq:3: TOOMANYREQUESTS: You have reached your unauthenticated
     pull rate limit. https://www.docker.com/increase-rate-limit'
   3.10-rc: 'crane digest rabbitmq:3.10-rc: TOOMANYREQUESTS: You have reached your
