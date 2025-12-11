@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/dartunifrac-gpu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dartunifrac-gpu
+latest:
+  0.2.7--hd7384ae_0: 
+    sha256:6b61192e7260b101ecf65dc1bfd37656042ee5f91280719aee173bd68eafd3db
+tags:
+  0.2.7--hd7384ae_0: 
+    sha256:6b61192e7260b101ecf65dc1bfd37656042ee5f91280719aee173bd68eafd3db
+docker: quay.io/biocontainers/dartunifrac-gpu
+aliases:
+  dartunifrac-cuda: /usr/local/bin/dartunifrac-cuda
+  striped_unifrac: /usr/local/bin/striped_unifrac

@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/metawrap-binning
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metawrap-binning
+latest:
+  1.3.0: sha256:c0bc5e9af1036a75b22342f32846df7724898ad8a878f1886c96e3a743b13400
+tags:
+  1.3.0: sha256:c0bc5e9af1036a75b22342f32846df7724898ad8a878f1886c96e3a743b13400
+docker: quay.io/biocontainers/metawrap-binning
+aliases:
+  aggregateBinDepths.pl: /usr/local/bin/aggregateBinDepths.pl
+  aggregateContigOverlapsByBin.pl: 
+    /usr/local/bin/aggregateContigOverlapsByBin.pl
+  concoct: /usr/local/bin/concoct
+  concoct_coverage_table.py: /usr/local/bin/concoct_coverage_table.py
+  concoct_refine: /usr/local/bin/concoct_refine
+  contigOverlaps: /usr/local/bin/contigOverlaps
+  cut_up_fasta.py: /usr/local/bin/cut_up_fasta.py
+  extract_fasta_bins.py: /usr/local/bin/extract_fasta_bins.py
+  jgi_summarize_bam_contig_depths: 
+    /usr/local/bin/jgi_summarize_bam_contig_depths
+  merge_cutup_clustering.py: /usr/local/bin/merge_cutup_clustering.py
+  metabat: /usr/local/bin/metabat
+  metabat1: /usr/local/bin/metabat1
+  metabat2: /usr/local/bin/metabat2
+  runMetaBat.sh: /usr/local/bin/runMetaBat.sh
+  run_MaxBin.pl: /usr/local/bin/run_MaxBin.pl
+  bazel-scan.py: /usr/local/bin/bazel-scan.py
+  config-metawrap: /usr/local/bin/config-metawrap
+  fa2fq: /usr/local/bin/fa2fq
+  filter_blat: /usr/local/bin/filter_blat
+  filter_contigs: /usr/local/bin/filter_contigs
+  filterfa: /usr/local/bin/filterfa
+  idba: /usr/local/bin/idba
+  idba_hybrid: /usr/local/bin/idba_hybrid
+  idba_tran: /usr/local/bin/idba_tran
+  idba_tran_test: /usr/local/bin/idba_tran_test
+  idba_ud: /usr/local/bin/idba_ud
+  metaWRAP: /usr/local/bin/metaWRAP
+  metawrap: /usr/local/bin/metawrap
+  parallel_blat: /usr/local/bin/parallel_blat
+  parallel_rna_blat: /usr/local/bin/parallel_rna_blat
+  print_graph: /usr/local/bin/print_graph
+  raw_n50: /usr/local/bin/raw_n50
+  run-unittest.py: /usr/local/bin/run-unittest.py
+  sample_reads: /usr/local/bin/sample_reads
+  scaffold: /usr/local/bin/scaffold
+  scan.py: /usr/local/bin/scan.py
+  shuffle_reads: /usr/local/bin/shuffle_reads
+  sim_reads: /usr/local/bin/sim_reads
+  sim_reads_tran: /usr/local/bin/sim_reads_tran
+  sort_psl: /usr/local/bin/sort_psl
