@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/enhancedsppider
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for enhancedsppider
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:5809013e76497c7a206592fbf8c179e5840c1092b210f56d12edb4ec4da86e85
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:5809013e76497c7a206592fbf8c179e5840c1092b210f56d12edb4ec4da86e85
+docker: quay.io/biocontainers/enhancedsppider
+aliases:
+  combineRefGenomes: /usr/local/bin/combineRefGenomes
+  extractReadsBySpecies: /usr/local/bin/extractReadsBySpecies
+  sppIDer: /usr/local/bin/sppIDer
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  ref-cache: /usr/local/bin/ref-cache
+  seqtk: /usr/local/bin/seqtk
+  annot-tsv: /usr/local/bin/annot-tsv
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
