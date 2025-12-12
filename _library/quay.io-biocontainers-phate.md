@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phate/container.yaml"
-updated_at: "2025-12-11 04:55:53.073891"
-latest: "1.0.11--pyhdfd78af_0"
+updated_at: "2025-12-12 04:13:09.076109"
+latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phate"
 aliases:
  - "fonttools"
@@ -23,8 +23,9 @@ versions:
  - "1.0.9--pyhdfd78af_0"
  - "1.0.10--pyhdfd78af_0"
  - "1.0.11--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for phate"
-config: {"url": "https://biocontainers.pro/tools/phate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phate", "latest": {"1.0.11--pyhdfd78af_0": "sha256:11afdc927cbbf68d6b2046ee694d7fef2e758edd3dd15e4bc162bb48f100e73c"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:2bf4a6fd6d23962168cbe375d77c1a17b4469682771c5774ff09c6d51431a6db", "1.0.9--pyhdfd78af_0": "sha256:406e930e9c07c15b4a5fe6ccb0ad6d6a064d9ad2f129f87c8894d5b863198b03", "1.0.10--pyhdfd78af_0": "sha256:8d9169608e94b5627775243a890d9eab290361b6d7f8a07ad57312478421b4f8", "1.0.11--pyhdfd78af_0": "sha256:11afdc927cbbf68d6b2046ee694d7fef2e758edd3dd15e4bc162bb48f100e73c"}, "docker": "quay.io/biocontainers/phate", "aliases": {"fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
+config: {"url": "https://biocontainers.pro/tools/phate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phate", "latest": {"2.0.0--pyhdfd78af_0": "sha256:dee94327be688e727fb318316693f55200fa7ade7ed3324dfff81ac260b256cf"}, "tags": {"1.0.8--pyhdfd78af_0": "sha256:2bf4a6fd6d23962168cbe375d77c1a17b4469682771c5774ff09c6d51431a6db", "1.0.9--pyhdfd78af_0": "sha256:406e930e9c07c15b4a5fe6ccb0ad6d6a064d9ad2f129f87c8894d5b863198b03", "1.0.10--pyhdfd78af_0": "sha256:8d9169608e94b5627775243a890d9eab290361b6d7f8a07ad57312478421b4f8", "1.0.11--pyhdfd78af_0": "sha256:11afdc927cbbf68d6b2046ee694d7fef2e758edd3dd15e4bc162bb48f100e73c", "2.0.0--pyhdfd78af_0": "sha256:dee94327be688e727fb318316693f55200fa7ade7ed3324dfff81ac260b256cf"}, "docker": "quay.io/biocontainers/phate", "aliases": {"fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phate.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/phate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phate:1.0.11--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phate:2.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phate/1.0.11--pyhdfd78af_0
-$ module help quay.io/biocontainers/phate/1.0.11--pyhdfd78af_0
+$ module load quay.io/biocontainers/phate/2.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/phate/2.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

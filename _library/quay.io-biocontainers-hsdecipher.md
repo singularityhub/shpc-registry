@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hsdecipher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hsdecipher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hsdecipher/container.yaml"
-updated_at: "2025-12-11 04:50:52.248881"
+updated_at: "2025-12-12 04:08:19.688513"
 latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hsdecipher"
 aliases:

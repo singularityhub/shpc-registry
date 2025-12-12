@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/covid-spike-classification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covid-spike-classification/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/covid-spike-classification/container.yaml"
-updated_at: "2025-12-11 04:28:35.977782"
+updated_at: "2025-12-12 03:46:58.688739"
 latest: "0.6.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/covid-spike-classification"
 aliases:

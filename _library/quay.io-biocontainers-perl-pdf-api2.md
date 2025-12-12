@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pdf-api2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pdf-api2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pdf-api2/container.yaml"
-updated_at: "2025-12-11 04:10:29.527408"
+updated_at: "2025-12-12 03:28:25.153796"
 latest: "2.043--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pdf-api2"
 aliases:

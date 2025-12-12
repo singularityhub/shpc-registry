@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ena-dl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ena-dl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ena-dl/container.yaml"
-updated_at: "2025-12-11 04:20:23.894559"
+updated_at: "2025-12-12 03:38:53.384031"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ena-dl"
 aliases:

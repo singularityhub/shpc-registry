@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jmztab-m"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jmztab-m/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jmztab-m/container.yaml"
-updated_at: "2025-12-11 04:58:34.890059"
+updated_at: "2025-12-12 04:15:55.639750"
 latest: "1.0.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/jmztab-m"
 aliases:

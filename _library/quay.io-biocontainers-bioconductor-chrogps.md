@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chrogps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chrogps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chrogps/container.yaml"
-updated_at: "2025-12-11 04:35:32.091796"
+updated_at: "2025-12-12 03:53:42.461942"
 latest: "2.4.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chrogps"
 aliases:

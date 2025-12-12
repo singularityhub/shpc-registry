@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scran-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scran-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scran-cli/container.yaml"
-updated_at: "2025-12-11 04:41:46.523939"
+updated_at: "2025-12-12 03:59:36.750048"
 latest: "v0.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scran-cli"
 aliases:

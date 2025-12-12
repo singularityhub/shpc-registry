@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/yacht"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yacht/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yacht/container.yaml"
-updated_at: "2025-12-11 04:19:11.378558"
-latest: "1.3.1--py311h9948957_0"
+updated_at: "2025-12-12 03:37:44.704012"
+latest: "1.3.2--py311h9948957_0"
 container_url: "https://biocontainers.pro/tools/yacht"
 aliases:
  - "codecov"
@@ -45,8 +45,9 @@ versions:
  - "1.2.3--pyhdc42f0e_0"
  - "1.3.0--py311h4ac6f70_1"
  - "1.3.1--py311h9948957_0"
+ - "1.3.2--py311h9948957_0"
 description: "singularity registry hpc automated addition for yacht"
-config: {"url": "https://biocontainers.pro/tools/yacht", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for yacht", "latest": {"1.3.1--py311h9948957_0": "sha256:f4f4f021df9712759ca889e8e2cc9f08db7df56d8945ae74b2611e1cb6705fde"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:413e313bfb1140a54dea1159b3e88d81f003dabcab3deba2370a05dd5a685004", "1.2.1--pyhca03a8a_0": "sha256:666b501ff9383ef9cb58e3d45fb4b4190ab5d021dc5ee662ffeaab05f6e87f43", "1.2.2--pyhca03a8a_0": "sha256:550533a6e44bdfcaea1ff636949f42d2d965659e160a7ead2568bcb5ab5703f2", "1.2.3--pyhdc42f0e_0": "sha256:0c3398c50f13d192a009acfcf9f9f88196d85d66791b4a3076dd750a870d889f", "1.3.0--py311h4ac6f70_1": "sha256:61ad52763b6fd81fb09eb53a32df773ebeaacfbbdd64eaf93a1d085cae1d8be8", "1.3.1--py311h9948957_0": "sha256:f4f4f021df9712759ca889e8e2cc9f08db7df56d8945ae74b2611e1cb6705fde"}, "docker": "quay.io/biocontainers/yacht", "aliases": {"codecov": "/usr/local/bin/codecov", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "sourmash": "/usr/local/bin/sourmash", "taxonkit": "/usr/local/bin/taxonkit", "yacht": "/usr/local/bin/yacht", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "coverage": "/usr/local/bin/coverage", "screed": "/usr/local/bin/screed", "biom": "/usr/local/bin/biom", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "h5delete": "/usr/local/bin/h5delete", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "tjbench": "/usr/local/bin/tjbench", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5"}}
+config: {"url": "https://biocontainers.pro/tools/yacht", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for yacht", "latest": {"1.3.2--py311h9948957_0": "sha256:dddaa11fca7650aa203744f29e5da90e2284531b2c348df3267c44951427dc01"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:413e313bfb1140a54dea1159b3e88d81f003dabcab3deba2370a05dd5a685004", "1.2.1--pyhca03a8a_0": "sha256:666b501ff9383ef9cb58e3d45fb4b4190ab5d021dc5ee662ffeaab05f6e87f43", "1.2.2--pyhca03a8a_0": "sha256:550533a6e44bdfcaea1ff636949f42d2d965659e160a7ead2568bcb5ab5703f2", "1.2.3--pyhdc42f0e_0": "sha256:0c3398c50f13d192a009acfcf9f9f88196d85d66791b4a3076dd750a870d889f", "1.3.0--py311h4ac6f70_1": "sha256:61ad52763b6fd81fb09eb53a32df773ebeaacfbbdd64eaf93a1d085cae1d8be8", "1.3.1--py311h9948957_0": "sha256:f4f4f021df9712759ca889e8e2cc9f08db7df56d8945ae74b2611e1cb6705fde", "1.3.2--py311h9948957_0": "sha256:dddaa11fca7650aa203744f29e5da90e2284531b2c348df3267c44951427dc01"}, "docker": "quay.io/biocontainers/yacht", "aliases": {"codecov": "/usr/local/bin/codecov", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "sourmash": "/usr/local/bin/sourmash", "taxonkit": "/usr/local/bin/taxonkit", "yacht": "/usr/local/bin/yacht", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "coverage": "/usr/local/bin/coverage", "screed": "/usr/local/bin/screed", "biom": "/usr/local/bin/biom", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "h5delete": "/usr/local/bin/h5delete", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "tjbench": "/usr/local/bin/tjbench", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yacht.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/yacht
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yacht:1.3.1--py311h9948957_0
+$ shpc install quay.io/biocontainers/yacht:1.3.2--py311h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yacht/1.3.1--py311h9948957_0
-$ module help quay.io/biocontainers/yacht/1.3.1--py311h9948957_0
+$ module load quay.io/biocontainers/yacht/1.3.2--py311h9948957_0
+$ module help quay.io/biocontainers/yacht/1.3.2--py311h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bindash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bindash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bindash/container.yaml"
-updated_at: "2025-12-11 04:10:53.560095"
+updated_at: "2025-12-12 03:28:51.827727"
 latest: "2.6--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/bindash"
 aliases:

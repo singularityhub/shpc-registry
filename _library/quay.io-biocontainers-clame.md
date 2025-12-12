@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clame/container.yaml"
-updated_at: "2025-12-11 04:59:42.848616"
-latest: "1.0--he1b5a44_1"
+updated_at: "2025-12-12 04:17:03.924971"
+latest: "1.0--h503566f_3"
 container_url: "https://biocontainers.pro/tools/clame"
 aliases:
  - "binning"
@@ -14,8 +14,9 @@ aliases:
  - "mapping"
 versions:
  - "1.0--he1b5a44_1"
+ - "1.0--h503566f_3"
 description: "shpc-registry automated BioContainers addition for clame"
-config: {"url": "https://biocontainers.pro/tools/clame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clame", "latest": {"1.0--he1b5a44_1": "sha256:1bcbdfe0d6a46941f48f832083d57d046c81d47d85c35c8cd7f2edff08043c3a"}, "tags": {"1.0--he1b5a44_1": "sha256:1bcbdfe0d6a46941f48f832083d57d046c81d47d85c35c8cd7f2edff08043c3a"}, "docker": "quay.io/biocontainers/clame", "aliases": {"binning": "/usr/local/bin/binning", "clame": "/usr/local/bin/clame", "genFm9": "/usr/local/bin/genFm9", "mapping": "/usr/local/bin/mapping"}}
+config: {"url": "https://biocontainers.pro/tools/clame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clame", "latest": {"1.0--h503566f_3": "sha256:d4039078f45f47c0b048aeaa3a25a0f9ea72d7e255e37bc520ec4b132b8ceb32"}, "tags": {"1.0--he1b5a44_1": "sha256:1bcbdfe0d6a46941f48f832083d57d046c81d47d85c35c8cd7f2edff08043c3a", "1.0--h503566f_3": "sha256:d4039078f45f47c0b048aeaa3a25a0f9ea72d7e255e37bc520ec4b132b8ceb32"}, "docker": "quay.io/biocontainers/clame", "aliases": {"binning": "/usr/local/bin/binning", "clame": "/usr/local/bin/clame", "genFm9": "/usr/local/bin/genFm9", "mapping": "/usr/local/bin/mapping"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clame.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/clame
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clame:1.0--he1b5a44_1
+$ shpc install quay.io/biocontainers/clame:1.0--h503566f_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clame/1.0--he1b5a44_1
-$ module help quay.io/biocontainers/clame/1.0--he1b5a44_1
+$ module load quay.io/biocontainers/clame/1.0--h503566f_3
+$ module help quay.io/biocontainers/clame/1.0--h503566f_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

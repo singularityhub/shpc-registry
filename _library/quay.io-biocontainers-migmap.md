@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/migmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/migmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/migmap/container.yaml"
-updated_at: "2025-12-11 04:35:34.704165"
+updated_at: "2025-12-12 03:53:44.959065"
 latest: "1.0.3--hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/migmap"
 aliases:
