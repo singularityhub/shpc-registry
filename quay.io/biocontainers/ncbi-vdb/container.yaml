@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ncbi-vdb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ncbi-vdb
 latest:
-  3.2.1--h9948957_0: 
-    sha256:c34660fca49363faaa59e806b321102510117bfac390f030a1ec2faab2142478
+  3.3.0--h9948957_0: 
+    sha256:4015a1c72d8c6046314a2d3807b8c2306702a4aead782f057006bf8d021ab2e6
 tags:
   3.0.0--pl5321h87f3376_0: 
     sha256:3b6375b7218a284bb56576729f38aa69f5a0ee208535f90fbfbc21022e71057d
@@ -39,4 +39,6 @@ tags:
     sha256:34631b136039158623326832e263ae7c7bd97091fb5c76dcf1883df1467bd967
   3.2.1--h9948957_0: 
     sha256:c34660fca49363faaa59e806b321102510117bfac390f030a1ec2faab2142478
+  3.3.0--h9948957_0: 
+    sha256:4015a1c72d8c6046314a2d3807b8c2306702a4aead782f057006bf8d021ab2e6
 docker: quay.io/biocontainers/ncbi-vdb

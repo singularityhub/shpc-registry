@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/olga
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for olga
 latest:
-  1.2.4--pyh7cba7a3_0: 
-    sha256:afa5cd08d9aa2be6e5771b76decdf04a6b7b3db092e03483383f905d36563dfa
+  1.3.0--pyh7e72e81_0: 
+    sha256:c2858b676efe000c242e371b4ce036ba280e858739c79c63ef1328864405376e
 tags:
   1.2.4--pyh7cba7a3_0: 
     sha256:afa5cd08d9aa2be6e5771b76decdf04a6b7b3db092e03483383f905d36563dfa
+  1.3.0--pyh7e72e81_0: 
+    sha256:c2858b676efe000c242e371b4ce036ba280e858739c79c63ef1328864405376e
 docker: quay.io/biocontainers/olga
 aliases:
   olga-compute_pgen: /usr/local/bin/olga-compute_pgen
