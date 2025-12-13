@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-raggedexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raggedexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raggedexperiment/container.yaml"
-updated_at: "2025-12-12 03:53:56.606028"
+updated_at: "2025-12-13 03:45:24.230175"
 latest: "1.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-raggedexperiment"
 aliases:

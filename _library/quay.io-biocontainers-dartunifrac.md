@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dartunifrac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dartunifrac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dartunifrac/container.yaml"
-updated_at: "2025-12-12 04:03:42.371881"
-latest: "0.2.6--h3dc2dae_0"
+updated_at: "2025-12-13 03:55:31.280426"
+latest: "0.2.7--h3dc2dae_0"
 container_url: "https://biocontainers.pro/tools/dartunifrac"
 aliases:
  - "dartunifrac"
@@ -14,8 +14,9 @@ versions:
  - "0.2.3--h3ab6199_0"
  - "0.2.5--h3dc2dae_0"
  - "0.2.6--h3dc2dae_0"
+ - "0.2.7--h3dc2dae_0"
 description: "singularity registry hpc automated addition for dartunifrac"
-config: {"url": "https://biocontainers.pro/tools/dartunifrac", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dartunifrac", "latest": {"0.2.6--h3dc2dae_0": "sha256:ea6f3191a74b7e42f3e262ca474b51a6cb455f8fda4398fb966aa7705fdd3927"}, "tags": {"0.2.3--h3ab6199_0": "sha256:43589b888cd2003e40093f81513a8fb32a2626291204461e8da5d7d3d4d808b2", "0.2.5--h3dc2dae_0": "sha256:f8a2f5851a71b0358b2f6baa0c03ef7c236bb52623e598807b30b4e734869f8a", "0.2.6--h3dc2dae_0": "sha256:ea6f3191a74b7e42f3e262ca474b51a6cb455f8fda4398fb966aa7705fdd3927"}, "docker": "quay.io/biocontainers/dartunifrac", "aliases": {"dartunifrac": "/usr/local/bin/dartunifrac", "striped_unifrac": "/usr/local/bin/striped_unifrac"}}
+config: {"url": "https://biocontainers.pro/tools/dartunifrac", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dartunifrac", "latest": {"0.2.7--h3dc2dae_0": "sha256:e1c3300346233f4c407823384bd50cd938c7e55545830f9cae1b42005f0e9986"}, "tags": {"0.2.3--h3ab6199_0": "sha256:43589b888cd2003e40093f81513a8fb32a2626291204461e8da5d7d3d4d808b2", "0.2.5--h3dc2dae_0": "sha256:f8a2f5851a71b0358b2f6baa0c03ef7c236bb52623e598807b30b4e734869f8a", "0.2.6--h3dc2dae_0": "sha256:ea6f3191a74b7e42f3e262ca474b51a6cb455f8fda4398fb966aa7705fdd3927", "0.2.7--h3dc2dae_0": "sha256:e1c3300346233f4c407823384bd50cd938c7e55545830f9cae1b42005f0e9986"}, "docker": "quay.io/biocontainers/dartunifrac", "aliases": {"dartunifrac": "/usr/local/bin/dartunifrac", "striped_unifrac": "/usr/local/bin/striped_unifrac"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dartunifrac.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/dartunifrac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dartunifrac:0.2.6--h3dc2dae_0
+$ shpc install quay.io/biocontainers/dartunifrac:0.2.7--h3dc2dae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dartunifrac/0.2.6--h3dc2dae_0
-$ module help quay.io/biocontainers/dartunifrac/0.2.6--h3dc2dae_0
+$ module load quay.io/biocontainers/dartunifrac/0.2.7--h3dc2dae_0
+$ module help quay.io/biocontainers/dartunifrac/0.2.7--h3dc2dae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

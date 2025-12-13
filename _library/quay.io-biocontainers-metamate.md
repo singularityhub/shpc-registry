@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metamate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metamate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metamate/container.yaml"
-updated_at: "2025-12-12 04:18:09.678518"
-latest: "0.4.3--pyr43h7cba7a3_0"
+updated_at: "2025-12-13 04:10:03.182946"
+latest: "0.5.0--pyr44h7e72e81_0"
 container_url: "https://biocontainers.pro/tools/metamate"
 aliases:
  - "bbcrisprfinder.sh"
@@ -52,8 +52,9 @@ aliases:
  - "cutgff.sh"
 versions:
  - "0.4.3--pyr43h7cba7a3_0"
+ - "0.5.0--pyr44h7e72e81_0"
 description: "singularity registry hpc automated addition for metamate"
-config: {"url": "https://biocontainers.pro/tools/metamate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metamate", "latest": {"0.4.3--pyr43h7cba7a3_0": "sha256:62636f645bc5ab4ff56584d92df922175ff6b23288dc42b281e0316a624ed28a"}, "tags": {"0.4.3--pyr43h7cba7a3_0": "sha256:62636f645bc5ab4ff56584d92df922175ff6b23288dc42b281e0316a624ed28a"}, "docker": "quay.io/biocontainers/metamate", "aliases": {"bbcrisprfinder.sh": "/usr/local/bin/bbcrisprfinder.sh", "bbsort.sh": "/usr/local/bin/bbsort.sh", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "checkstrand.sh": "/usr/local/bin/checkstrand.sh", "copyfile.sh": "/usr/local/bin/copyfile.sh", "countbarcodes2.sh": "/usr/local/bin/countbarcodes2.sh", "countduplicates.sh": "/usr/local/bin/countduplicates.sh", "filtertranslate": "/usr/local/bin/filtertranslate", "findrepeats.sh": "/usr/local/bin/findrepeats.sh", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "maketree.R": "/usr/local/bin/maketree.R", "metaMATE": "/usr/local/bin/metaMATE", "metamate": "/usr/local/bin/metamate", "netfilter.sh": "/usr/local/bin/netfilter.sh", "scoresequence.sh": "/usr/local/bin/scoresequence.sh", "seqtovec.sh": "/usr/local/bin/seqtovec.sh", "train.sh": "/usr/local/bin/train.sh", "gawkbug": "/usr/local/bin/gawkbug", "Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "annot-tsv": "/usr/local/bin/annot-tsv", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh", "consensus.sh": "/usr/local/bin/consensus.sh", "cutgff.sh": "/usr/local/bin/cutgff.sh"}}
+config: {"url": "https://biocontainers.pro/tools/metamate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metamate", "latest": {"0.5.0--pyr44h7e72e81_0": "sha256:a3ac9992f35f238c084baff1ff43fd15a3d3917aaaa93ab59e047b99b70d8ffe"}, "tags": {"0.4.3--pyr43h7cba7a3_0": "sha256:62636f645bc5ab4ff56584d92df922175ff6b23288dc42b281e0316a624ed28a", "0.5.0--pyr44h7e72e81_0": "sha256:a3ac9992f35f238c084baff1ff43fd15a3d3917aaaa93ab59e047b99b70d8ffe"}, "docker": "quay.io/biocontainers/metamate", "aliases": {"bbcrisprfinder.sh": "/usr/local/bin/bbcrisprfinder.sh", "bbsort.sh": "/usr/local/bin/bbsort.sh", "bloomfilterparser.sh": "/usr/local/bin/bloomfilterparser.sh", "checkstrand.sh": "/usr/local/bin/checkstrand.sh", "copyfile.sh": "/usr/local/bin/copyfile.sh", "countbarcodes2.sh": "/usr/local/bin/countbarcodes2.sh", "countduplicates.sh": "/usr/local/bin/countduplicates.sh", "filtertranslate": "/usr/local/bin/filtertranslate", "findrepeats.sh": "/usr/local/bin/findrepeats.sh", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "maketree.R": "/usr/local/bin/maketree.R", "metaMATE": "/usr/local/bin/metaMATE", "metamate": "/usr/local/bin/metamate", "netfilter.sh": "/usr/local/bin/netfilter.sh", "scoresequence.sh": "/usr/local/bin/scoresequence.sh", "seqtovec.sh": "/usr/local/bin/seqtovec.sh", "train.sh": "/usr/local/bin/train.sh", "gawkbug": "/usr/local/bin/gawkbug", "Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "annot-tsv": "/usr/local/bin/annot-tsv", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "bbcms.sh": "/usr/local/bin/bbcms.sh", "bloomfilter.sh": "/usr/local/bin/bloomfilter.sh", "callgenes.sh": "/usr/local/bin/callgenes.sh", "comparegff.sh": "/usr/local/bin/comparegff.sh", "consensus.sh": "/usr/local/bin/consensus.sh", "cutgff.sh": "/usr/local/bin/cutgff.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metamate.
@@ -68,7 +69,7 @@ $ shpc install quay.io/biocontainers/metamate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metamate:0.4.3--pyr43h7cba7a3_0
+$ shpc install quay.io/biocontainers/metamate:0.5.0--pyr44h7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +81,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metamate/0.4.3--pyr43h7cba7a3_0
-$ module help quay.io/biocontainers/metamate/0.4.3--pyr43h7cba7a3_0
+$ module load quay.io/biocontainers/metamate/0.5.0--pyr44h7e72e81_0
+$ module help quay.io/biocontainers/metamate/0.5.0--pyr44h7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

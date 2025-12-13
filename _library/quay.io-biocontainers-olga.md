@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/olga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/olga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/olga/container.yaml"
-updated_at: "2025-12-12 03:56:31.073367"
-latest: "1.2.4--pyh7cba7a3_0"
+updated_at: "2025-12-13 03:48:05.707535"
+latest: "1.3.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/olga"
 aliases:
  - "olga-compute_pgen"
@@ -17,8 +17,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.2.4--pyh7cba7a3_0"
+ - "1.3.0--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for olga"
-config: {"url": "https://biocontainers.pro/tools/olga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for olga", "latest": {"1.2.4--pyh7cba7a3_0": "sha256:afa5cd08d9aa2be6e5771b76decdf04a6b7b3db092e03483383f905d36563dfa"}, "tags": {"1.2.4--pyh7cba7a3_0": "sha256:afa5cd08d9aa2be6e5771b76decdf04a6b7b3db092e03483383f905d36563dfa"}, "docker": "quay.io/biocontainers/olga", "aliases": {"olga-compute_pgen": "/usr/local/bin/olga-compute_pgen", "olga-generate_sequences": "/usr/local/bin/olga-generate_sequences", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/olga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for olga", "latest": {"1.3.0--pyh7e72e81_0": "sha256:c2858b676efe000c242e371b4ce036ba280e858739c79c63ef1328864405376e"}, "tags": {"1.2.4--pyh7cba7a3_0": "sha256:afa5cd08d9aa2be6e5771b76decdf04a6b7b3db092e03483383f905d36563dfa", "1.3.0--pyh7e72e81_0": "sha256:c2858b676efe000c242e371b4ce036ba280e858739c79c63ef1328864405376e"}, "docker": "quay.io/biocontainers/olga", "aliases": {"olga-compute_pgen": "/usr/local/bin/olga-compute_pgen", "olga-generate_sequences": "/usr/local/bin/olga-generate_sequences", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/olga.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/olga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/olga:1.2.4--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/olga:1.3.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/olga/1.2.4--pyh7cba7a3_0
-$ module help quay.io/biocontainers/olga/1.2.4--pyh7cba7a3_0
+$ module load quay.io/biocontainers/olga/1.3.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/olga/1.3.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

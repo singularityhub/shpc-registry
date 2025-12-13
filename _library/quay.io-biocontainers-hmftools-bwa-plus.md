@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-bwa-plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-bwa-plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-bwa-plus/container.yaml"
-updated_at: "2025-12-12 03:34:12.766214"
+updated_at: "2025-12-13 03:25:43.701692"
 latest: "1.0.0--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/hmftools-bwa-plus"
 aliases:

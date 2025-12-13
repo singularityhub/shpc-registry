@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyscenic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyscenic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyscenic/container.yaml"
-updated_at: "2025-12-12 03:45:00.935843"
-latest: "0.12.1--pyhdfd78af_0"
+updated_at: "2025-12-13 03:36:13.495561"
+latest: "0.12.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pyscenic"
 aliases:
  - "arboreto_with_multiprocessing.py"
@@ -44,8 +44,9 @@ aliases:
  - "orc-statistics"
 versions:
  - "0.12.1--pyhdfd78af_0"
+ - "0.12.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for pyscenic"
-config: {"url": "https://biocontainers.pro/tools/pyscenic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyscenic", "latest": {"0.12.1--pyhdfd78af_0": "sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100"}, "tags": {"0.12.1--pyhdfd78af_0": "sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100"}, "docker": "quay.io/biocontainers/pyscenic", "aliases": {"arboreto_with_multiprocessing.py": "/usr/local/bin/arboreto_with_multiprocessing.py", "checksum-profile": "/usr/local/bin/checksum-profile", "csv2loom": "/usr/local/bin/csv2loom", "db2feather": "/usr/local/bin/db2feather", "elastishadow": "/usr/local/bin/elastishadow", "gmt2regions": "/usr/local/bin/gmt2regions", "invertdb": "/usr/local/bin/invertdb", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "pyscenic": "/usr/local/bin/pyscenic", "loompy": "/usr/local/bin/loompy", "get_gprof": "/usr/local/bin/get_gprof", "dask": "/usr/local/bin/dask", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "bokeh": "/usr/local/bin/bokeh", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics"}}
+config: {"url": "https://biocontainers.pro/tools/pyscenic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyscenic", "latest": {"0.12.1--pyhdfd78af_1": "sha256:1ad2bc9951eae3b613a26c170f60c738884ab54a12758cfb0b85f6e2e1f11b0d"}, "tags": {"0.12.1--pyhdfd78af_0": "sha256:a1208c7819123026617ccb0ca823550515b5b7d138b748097020177b86062100", "0.12.1--pyhdfd78af_1": "sha256:1ad2bc9951eae3b613a26c170f60c738884ab54a12758cfb0b85f6e2e1f11b0d"}, "docker": "quay.io/biocontainers/pyscenic", "aliases": {"arboreto_with_multiprocessing.py": "/usr/local/bin/arboreto_with_multiprocessing.py", "checksum-profile": "/usr/local/bin/checksum-profile", "csv2loom": "/usr/local/bin/csv2loom", "db2feather": "/usr/local/bin/db2feather", "elastishadow": "/usr/local/bin/elastishadow", "gmt2regions": "/usr/local/bin/gmt2regions", "invertdb": "/usr/local/bin/invertdb", "protoc-27.5.0": "/usr/local/bin/protoc-27.5.0", "pyscenic": "/usr/local/bin/pyscenic", "loompy": "/usr/local/bin/loompy", "get_gprof": "/usr/local/bin/get_gprof", "dask": "/usr/local/bin/dask", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "bokeh": "/usr/local/bin/bokeh", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyscenic.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/pyscenic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyscenic:0.12.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyscenic:0.12.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyscenic/0.12.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyscenic/0.12.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyscenic/0.12.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/pyscenic/0.12.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaxaqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaxaqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaxaqr/container.yaml"
-updated_at: "2025-12-12 03:55:02.874517"
-latest: "3.0rc1.1--py314pl5321hdfd78af_0"
+updated_at: "2025-12-13 03:46:33.399994"
+latest: "3.0rc2--py314pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaxaqr"
 aliases:
  - "get_fasta"
@@ -46,8 +46,9 @@ aliases:
  - "orte-clean"
 versions:
  - "3.0rc1.1--py314pl5321hdfd78af_0"
+ - "3.0rc2--py314pl5321hdfd78af_0"
 description: "singularity registry hpc automated addition for metaxaqr"
-config: {"url": "https://biocontainers.pro/tools/metaxaqr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metaxaqr", "latest": {"3.0rc1.1--py314pl5321hdfd78af_0": "sha256:31d8fc942b714d93594806d6bd6b58801783c5341748d14bc87a19d8a7c16812"}, "tags": {"3.0rc1.1--py314pl5321hdfd78af_0": "sha256:31d8fc942b714d93594806d6bd6b58801783c5341748d14bc87a19d8a7c16812"}, "docker": "quay.io/biocontainers/metaxaqr", "aliases": {"get_fasta": "/usr/local/bin/get_fasta", "metaxaQR": "/usr/local/bin/metaxaQR", "metaxaQR_c": "/usr/local/bin/metaxaQR_c", "metaxaQR_dbb": "/usr/local/bin/metaxaQR_dbb", "metaxaQR_dc": "/usr/local/bin/metaxaQR_dc", "metaxaQR_install_database": "/usr/local/bin/metaxaQR_install_database", "metaxaQR_rf": "/usr/local/bin/metaxaQR_rf", "metaxaQR_si": "/usr/local/bin/metaxaQR_si", "metaxaQR_ttt": "/usr/local/bin/metaxaQR_ttt", "metaxaQR_uc": "/usr/local/bin/metaxaQR_uc", "metaxaQR_x": "/usr/local/bin/metaxaQR_x", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "vsearch": "/usr/local/bin/vsearch", "gawkbug": "/usr/local/bin/gawkbug", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean"}}
+config: {"url": "https://biocontainers.pro/tools/metaxaqr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metaxaqr", "latest": {"3.0rc2--py314pl5321hdfd78af_0": "sha256:b85a9c48b2140f67ceb08d8dc8167a482d6f202520ff1b63121aa80b6f412cd6"}, "tags": {"3.0rc1.1--py314pl5321hdfd78af_0": "sha256:31d8fc942b714d93594806d6bd6b58801783c5341748d14bc87a19d8a7c16812", "3.0rc2--py314pl5321hdfd78af_0": "sha256:b85a9c48b2140f67ceb08d8dc8167a482d6f202520ff1b63121aa80b6f412cd6"}, "docker": "quay.io/biocontainers/metaxaqr", "aliases": {"get_fasta": "/usr/local/bin/get_fasta", "metaxaQR": "/usr/local/bin/metaxaQR", "metaxaQR_c": "/usr/local/bin/metaxaQR_c", "metaxaQR_dbb": "/usr/local/bin/metaxaQR_dbb", "metaxaQR_dc": "/usr/local/bin/metaxaQR_dc", "metaxaQR_install_database": "/usr/local/bin/metaxaQR_install_database", "metaxaQR_rf": "/usr/local/bin/metaxaQR_rf", "metaxaQR_si": "/usr/local/bin/metaxaQR_si", "metaxaQR_ttt": "/usr/local/bin/metaxaQR_ttt", "metaxaQR_uc": "/usr/local/bin/metaxaQR_uc", "metaxaQR_x": "/usr/local/bin/metaxaQR_x", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "vsearch": "/usr/local/bin/vsearch", "gawkbug": "/usr/local/bin/gawkbug", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaxaqr.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/metaxaqr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaxaqr:3.0rc1.1--py314pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/metaxaqr:3.0rc2--py314pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaxaqr/3.0rc1.1--py314pl5321hdfd78af_0
-$ module help quay.io/biocontainers/metaxaqr/3.0rc1.1--py314pl5321hdfd78af_0
+$ module load quay.io/biocontainers/metaxaqr/3.0rc2--py314pl5321hdfd78af_0
+$ module help quay.io/biocontainers/metaxaqr/3.0rc2--py314pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

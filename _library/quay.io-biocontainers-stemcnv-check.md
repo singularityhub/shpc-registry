@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stemcnv-check"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stemcnv-check/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stemcnv-check/container.yaml"
-updated_at: "2025-12-12 04:04:49.160376"
+updated_at: "2025-12-13 03:56:40.454989"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stemcnv-check"
 aliases:

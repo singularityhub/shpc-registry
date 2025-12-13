@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qckitfastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qckitfastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qckitfastq/container.yaml"
-updated_at: "2025-12-12 03:44:02.949024"
+updated_at: "2025-12-13 03:35:14.454396"
 latest: "1.22.0--r44h77050f0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qckitfastq"
 aliases:
