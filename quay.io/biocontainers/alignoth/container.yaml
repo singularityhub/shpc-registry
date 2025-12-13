@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/alignoth
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for alignoth
 latest:
-  1.4.0--h1520f10_0: 
-    sha256:406be98d440b929a090abc78fbc0e36ecb39f07bc2c7d32bf52437667f51c971
+  1.4.1--h1520f10_0: 
+    sha256:f1521d5f97815dc58d4f9c19f2751a8b5e7d7061f6e496bb9d3211655d320e3b
 tags:
   0.7.0--h02737ae_0: 
     sha256:4faa632928afff6b8b32b42890cde8c0f8e47a3432ed02d110432df8de51b1d9
@@ -59,6 +59,8 @@ tags:
     sha256:cbab5ef06b7763a0057b478b37895492e74ca60c890a1a14e28ef708ef7c2256
   1.0.2--h1520f10_0: 
     sha256:fa9b94788fa285ae332843039d03de2763f197966a1c1bf425b3ca0532f95da1
+  1.4.1--h1520f10_0: 
+    sha256:f1521d5f97815dc58d4f9c19f2751a8b5e7d7061f6e496bb9d3211655d320e3b
 docker: quay.io/biocontainers/alignoth
 aliases:
   alignoth: /usr/local/bin/alignoth

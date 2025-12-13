@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/novoloci
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for novoloci
 latest:
-  0.4--hdfd78af_0: 
-    sha256:c145576f5db7ee88a12ee0f458926758c0f7cb6d88a2051dcfbdc87a6af1fa47
+  0.5--hdfd78af_0: 
+    sha256:7dc5d760e55099bfebcbfa906d9db02a1cb29a3711a3649d27864d51e69bf8e9
 tags:
   0.3--hdfd78af_0: 
     sha256:3a698910b0403059979225f4115a15994b41291dfbe34bc8af28aa8a9f69bbc9
   0.4--hdfd78af_0: 
     sha256:c145576f5db7ee88a12ee0f458926758c0f7cb6d88a2051dcfbdc87a6af1fa47
+  0.5--hdfd78af_0: 
+    sha256:7dc5d760e55099bfebcbfa906d9db02a1cb29a3711a3649d27864d51e69bf8e9
 docker: quay.io/biocontainers/novoloci
 aliases:
   archive-nlmnlp: /usr/local/bin/archive-nlmnlp

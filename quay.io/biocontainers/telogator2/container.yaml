@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/telogator2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for telogator2
 latest:
-  2.2.2--pyhdfd78af_0: 
-    sha256:001b2ec84ce9b44b253fdce159c4355892fac40b33371ab427b003eba1e502b6
+  2.2.3--pyhdfd78af_0: 
+    sha256:13aef11f49a9ac9cdc9c8da21c960674643206e5f0f99d3896dd78a616aa1163
 tags:
   2.2.2--pyhdfd78af_0: 
     sha256:001b2ec84ce9b44b253fdce159c4355892fac40b33371ab427b003eba1e502b6
+  2.2.3--pyhdfd78af_0: 
+    sha256:13aef11f49a9ac9cdc9c8da21c960674643206e5f0f99d3896dd78a616aa1163
 docker: quay.io/biocontainers/telogator2
 aliases:
   telogator2: /usr/local/bin/telogator2

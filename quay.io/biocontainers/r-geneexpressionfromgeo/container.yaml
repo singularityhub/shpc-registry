@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   r-geneexpressionfromgeo
 latest:
-  1.2--r44h3121a25_0: 
-    sha256:9624472ed9a9fd65f1317792cbca9b87f22eea1a7b7687d7791c0b5fdb160caa
+  1.3--r44h3121a25_0: 
+    sha256:3e61795b4dce1904980f96844905313231ff92a08bbf62809700cc10d790f268
 tags:
   0.9--r42h3121a25_1: 
     sha256:9e49045d32ac6249902939049687050ad408656fb79f3003ea816d783528212a
@@ -14,6 +14,8 @@ tags:
     sha256:0221fb45ae138b955b79b4062659233419128f29d49ebfcb39c63dc8fd7b0c68
   1.2--r44h3121a25_0: 
     sha256:9624472ed9a9fd65f1317792cbca9b87f22eea1a7b7687d7791c0b5fdb160caa
+  1.3--r44h3121a25_0: 
+    sha256:3e61795b4dce1904980f96844905313231ff92a08bbf62809700cc10d790f268
 docker: quay.io/biocontainers/r-geneexpressionfromgeo
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
