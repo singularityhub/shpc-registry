@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/baktfold
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for baktfold
 latest:
-  0.0.2--pyhdfd78af_0: 
-    sha256:9a4dd05c764d91ce8a58687d0c6970c6ce730e5bd17949014a24a929da53e01b
+  0.0.3--pyhdfd78af_0: 
+    sha256:77c18ed0dda0eca905ec8f087e041b24fd03aed7bee1c2f3cfb42bae2984537e
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:9a4dd05c764d91ce8a58687d0c6970c6ce730e5bd17949014a24a929da53e01b
+  0.0.3--pyhdfd78af_0: 
+    sha256:77c18ed0dda0eca905ec8f087e041b24fd03aed7bee1c2f3cfb42bae2984537e
 docker: quay.io/biocontainers/baktfold
 aliases:
   baktfold: /usr/local/bin/baktfold

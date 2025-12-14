@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/needletail
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for needletail
 latest:
-  0.7.0--py39hfa26904_0: 
-    sha256:3eda0a7cc17ff17a6eaf26dd6e76b3b3289258b5dacb355f74a24018a40eab25
+  0.7.1--py311hb6b3792_0: 
+    sha256:965a0e0cdea4732ce855dc6e94efd6320a4bda69d26911023ec0859bd2225c19
 tags:
   0.6.1--py310hc7d9715_0: 
     sha256:55a341b1a7ef16606832f4aa3b2aedc2f49f7e67dc1f220410c6eccc92f917fc
@@ -15,6 +15,8 @@ tags:
     sha256:4916a16ad9879b692d012874d2a0d13b1c738bb751a0c6c1a8361028d1f98a16
   0.7.0--py39hfa26904_0: 
     sha256:3eda0a7cc17ff17a6eaf26dd6e76b3b3289258b5dacb355f74a24018a40eab25
+  0.7.1--py311hb6b3792_0: 
+    sha256:965a0e0cdea4732ce855dc6e94efd6320a4bda69d26911023ec0859bd2225c19
 docker: quay.io/biocontainers/needletail
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

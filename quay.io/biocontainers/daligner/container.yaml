@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/daligner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for daligner
 latest:
-  1.0.20230620--h7b50bb2_1: 
-    sha256:26f6987ec43861cf1af563add41c0428f010c47f4a408c54c11c5afafa2847c3
+  2.0.20240118--h7b50bb2_0: 
+    sha256:75be4a1118d8a4ad99a5cfdce578fd600d888ef0ec873994a639d86be63a6899
 tags:
   1.0p2--h470a237_1: 
     sha256:31555c02cbd76d66b687b916be23403eacb50ef7d6a92931e6b480a2a23a9980
@@ -17,6 +17,8 @@ tags:
     sha256:7f3ea0156a4baff089acca0ccd86b9aa35be8ad0564f9d0e82db7a3c9a3ea959
   1.0.20230620--h7b50bb2_1: 
     sha256:26f6987ec43861cf1af563add41c0428f010c47f4a408c54c11c5afafa2847c3
+  2.0.20240118--h7b50bb2_0: 
+    sha256:75be4a1118d8a4ad99a5cfdce578fd600d888ef0ec873994a639d86be63a6899
 docker: quay.io/biocontainers/daligner
 aliases:
   HPC.daligner: /usr/local/bin/HPC.daligner

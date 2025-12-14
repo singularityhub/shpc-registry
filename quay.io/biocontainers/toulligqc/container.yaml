@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/toulligqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for toulligqc
 latest:
-  2.7.1--pyhdfd78af_0: 
-    sha256:0a921ad2eb512b02e07ef07094f52bb55086da8937952b0fed0e20d9e424e70b
+  2.7.1--pyhdfd78af_1: 
+    sha256:7ce6622fdd705d25d3b7366b1a3d1829ac1bd36a7edfd53fd3a9689ca1b1fb28
 tags:
   2.2.2--pyhdfd78af_0: 
     sha256:57b6eb1361c01302a4182e0ecb71de2fa16331a5e002be1e0018076896785560
@@ -21,6 +21,8 @@ tags:
     sha256:0a921ad2eb512b02e07ef07094f52bb55086da8937952b0fed0e20d9e424e70b
   2.5.6--pyhdfd78af_0: 
     sha256:0eb81d26798f4b710fbaedfef8157edfc3baedc1c58eda3ac93a29f48884fa96
+  2.7.1--pyhdfd78af_1: 
+    sha256:7ce6622fdd705d25d3b7366b1a3d1829ac1bd36a7edfd53fd3a9689ca1b1fb28
 docker: quay.io/biocontainers/toulligqc
 aliases:
   toulligqc: /usr/local/bin/toulligqc
