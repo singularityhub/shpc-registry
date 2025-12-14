@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-purple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-purple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-purple/container.yaml"
-updated_at: "2025-12-13 03:51:33.399675"
+updated_at: "2025-12-14 04:16:27.846629"
 latest: "4.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-purple"
 aliases:

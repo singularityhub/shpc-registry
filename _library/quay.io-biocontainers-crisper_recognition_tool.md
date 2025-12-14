@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crisper_recognition_tool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisper_recognition_tool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crisper_recognition_tool/container.yaml"
-updated_at: "2025-12-13 03:21:29.492787"
+updated_at: "2025-12-14 03:44:55.658339"
 latest: "1.2--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/crisper_recognition_tool"
 aliases:

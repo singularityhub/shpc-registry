@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cleanifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cleanifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cleanifier/container.yaml"
-updated_at: "2025-12-13 04:06:21.051612"
-latest: "1.1.4--pyhdfd78af_0"
+updated_at: "2025-12-14 04:31:49.760418"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cleanifier"
 aliases:
  - "cleanifier"
@@ -31,8 +31,9 @@ versions:
  - "1.1.2--pyhdfd78af_0"
  - "1.1.3--pyhdfd78af_0"
  - "1.1.4--pyhdfd78af_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cleanifier"
-config: {"url": "https://biocontainers.pro/tools/cleanifier", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cleanifier", "latest": {"1.1.4--pyhdfd78af_0": "sha256:15b37a8ad5e49d9cae3dd198da8f00b8a0e79b140db58ff75800804b730ff7a2"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:b19e6e1042ab803192c38ab2a6d0b729ece5a129c3656b3068264e647fde3b00", "1.0.0--pyhdfd78af_0": "sha256:06e9b6a7c845d193e8691474abedd20f9b7c4fbf1f6400627394bc2bd6c30441", "0.2.1--pyhdfd78af_0": "sha256:b912c2c2e283a7250e2de9915cfa0bab34b85885870305b321d75a033c427251", "1.1.0--pyhdfd78af_0": "sha256:22f5d969f8d997d14bf71f674d32a4580d46e69407ce7e4443e8921f874eed2b", "1.0.1--pyhdfd78af_0": "sha256:051291c632f34594fb21ca9d808158f95c0dd031721220a98e15956f9f7cabe1", "1.1.2--pyhdfd78af_0": "sha256:850d21d5042678aa185117bc666af1f790e1ff730c77f2dc3b126edd4a468663", "1.1.3--pyhdfd78af_0": "sha256:7bf69c50c0797928db5686acb91f3b4b2bee2f53dca7bd21015ac4f3a2f01d1f", "1.1.4--pyhdfd78af_0": "sha256:15b37a8ad5e49d9cae3dd198da8f00b8a0e79b140db58ff75800804b730ff7a2"}, "docker": "quay.io/biocontainers/cleanifier", "aliases": {"cleanifier": "/usr/local/bin/cleanifier", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "numba": "/usr/local/bin/numba", "jsonschema": "/usr/local/bin/jsonschema", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/cleanifier", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cleanifier", "latest": {"1.2.0--pyhdfd78af_0": "sha256:4b7f1e10b760736fe483c7093b9793fc16b04b742eaeec8ababa0f84bc47ad5d"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:b19e6e1042ab803192c38ab2a6d0b729ece5a129c3656b3068264e647fde3b00", "1.0.0--pyhdfd78af_0": "sha256:06e9b6a7c845d193e8691474abedd20f9b7c4fbf1f6400627394bc2bd6c30441", "0.2.1--pyhdfd78af_0": "sha256:b912c2c2e283a7250e2de9915cfa0bab34b85885870305b321d75a033c427251", "1.1.0--pyhdfd78af_0": "sha256:22f5d969f8d997d14bf71f674d32a4580d46e69407ce7e4443e8921f874eed2b", "1.0.1--pyhdfd78af_0": "sha256:051291c632f34594fb21ca9d808158f95c0dd031721220a98e15956f9f7cabe1", "1.1.2--pyhdfd78af_0": "sha256:850d21d5042678aa185117bc666af1f790e1ff730c77f2dc3b126edd4a468663", "1.1.3--pyhdfd78af_0": "sha256:7bf69c50c0797928db5686acb91f3b4b2bee2f53dca7bd21015ac4f3a2f01d1f", "1.1.4--pyhdfd78af_0": "sha256:15b37a8ad5e49d9cae3dd198da8f00b8a0e79b140db58ff75800804b730ff7a2", "1.2.0--pyhdfd78af_0": "sha256:4b7f1e10b760736fe483c7093b9793fc16b04b742eaeec8ababa0f84bc47ad5d"}, "docker": "quay.io/biocontainers/cleanifier", "aliases": {"cleanifier": "/usr/local/bin/cleanifier", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "numba": "/usr/local/bin/numba", "jsonschema": "/usr/local/bin/jsonschema", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cleanifier.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/cleanifier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cleanifier:1.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cleanifier:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cleanifier/1.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/cleanifier/1.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/cleanifier/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/cleanifier/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

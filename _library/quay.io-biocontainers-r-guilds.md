@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-guilds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-guilds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-guilds/container.yaml"
-updated_at: "2025-12-13 04:00:03.168040"
+updated_at: "2025-12-14 04:25:17.248302"
 latest: "1.3--r351h80f5a37_1"
 container_url: "https://biocontainers.pro/tools/r-guilds"
 aliases:

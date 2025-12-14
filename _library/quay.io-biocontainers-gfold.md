@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfold/container.yaml"
-updated_at: "2025-12-13 03:35:30.335275"
+updated_at: "2025-12-14 03:59:46.737269"
 latest: "1.1.4--gsl2.2_2"
 container_url: "https://biocontainers.pro/tools/gfold"
 aliases:

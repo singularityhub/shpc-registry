@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/telogator2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telogator2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telogator2/container.yaml"
-updated_at: "2025-12-13 03:50:59.717522"
-latest: "2.2.2--pyhdfd78af_0"
+updated_at: "2025-12-14 04:15:52.774954"
+latest: "2.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telogator2"
 aliases:
  - "telogator2"
@@ -36,8 +36,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.2.2--pyhdfd78af_0"
+ - "2.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for telogator2"
-config: {"url": "https://biocontainers.pro/tools/telogator2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for telogator2", "latest": {"2.2.2--pyhdfd78af_0": "sha256:001b2ec84ce9b44b253fdce159c4355892fac40b33371ab427b003eba1e502b6"}, "tags": {"2.2.2--pyhdfd78af_0": "sha256:001b2ec84ce9b44b253fdce159c4355892fac40b33371ab427b003eba1e502b6"}, "docker": "quay.io/biocontainers/telogator2", "aliases": {"telogator2": "/usr/local/bin/telogator2", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/telogator2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for telogator2", "latest": {"2.2.3--pyhdfd78af_0": "sha256:13aef11f49a9ac9cdc9c8da21c960674643206e5f0f99d3896dd78a616aa1163"}, "tags": {"2.2.2--pyhdfd78af_0": "sha256:001b2ec84ce9b44b253fdce159c4355892fac40b33371ab427b003eba1e502b6", "2.2.3--pyhdfd78af_0": "sha256:13aef11f49a9ac9cdc9c8da21c960674643206e5f0f99d3896dd78a616aa1163"}, "docker": "quay.io/biocontainers/telogator2", "aliases": {"telogator2": "/usr/local/bin/telogator2", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/telogator2.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/telogator2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/telogator2:2.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/telogator2:2.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/telogator2/2.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/telogator2/2.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/telogator2/2.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/telogator2/2.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

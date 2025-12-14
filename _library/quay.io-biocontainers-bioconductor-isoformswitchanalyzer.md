@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-isoformswitchanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isoformswitchanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isoformswitchanalyzer/container.yaml"
-updated_at: "2025-12-13 03:39:37.161939"
+updated_at: "2025-12-14 04:04:06.849388"
 latest: "2.6.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isoformswitchanalyzer"
 aliases:

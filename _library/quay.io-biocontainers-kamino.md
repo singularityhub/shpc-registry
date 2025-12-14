@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/kamino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kamino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kamino/container.yaml"
-updated_at: "2025-12-13 03:42:20.886156"
-latest: "0.1.0--h4349ce8_0"
+updated_at: "2025-12-14 04:06:56.902116"
+latest: "0.2.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/kamino"
 aliases:
  - "kamino"
 versions:
  - "0.1.0--h4349ce8_0"
+ - "0.2.1--h4349ce8_0"
 description: "singularity registry hpc automated addition for kamino"
-config: {"url": "https://biocontainers.pro/tools/kamino", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kamino", "latest": {"0.1.0--h4349ce8_0": "sha256:025c7be0e57601396ba7b63358aacf41d86801db099e46a854e6824090fae136"}, "tags": {"0.1.0--h4349ce8_0": "sha256:025c7be0e57601396ba7b63358aacf41d86801db099e46a854e6824090fae136"}, "docker": "quay.io/biocontainers/kamino", "aliases": {"kamino": "/usr/local/bin/kamino"}}
+config: {"url": "https://biocontainers.pro/tools/kamino", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kamino", "latest": {"0.2.1--h4349ce8_0": "sha256:5ab413d58487d018a805b4273320a341ac2f43503fe03055b7f036fe066fe704"}, "tags": {"0.1.0--h4349ce8_0": "sha256:025c7be0e57601396ba7b63358aacf41d86801db099e46a854e6824090fae136", "0.2.1--h4349ce8_0": "sha256:5ab413d58487d018a805b4273320a341ac2f43503fe03055b7f036fe066fe704"}, "docker": "quay.io/biocontainers/kamino", "aliases": {"kamino": "/usr/local/bin/kamino"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kamino.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/kamino
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kamino:0.1.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/kamino:0.2.1--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kamino/0.1.0--h4349ce8_0
-$ module help quay.io/biocontainers/kamino/0.1.0--h4349ce8_0
+$ module load quay.io/biocontainers/kamino/0.2.1--h4349ce8_0
+$ module help quay.io/biocontainers/kamino/0.2.1--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

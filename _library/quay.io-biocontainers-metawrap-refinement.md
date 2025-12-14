@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-refinement"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-refinement/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-refinement/container.yaml"
-updated_at: "2025-12-13 03:52:08.062437"
+updated_at: "2025-12-14 04:17:04.097355"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-refinement"
 aliases:

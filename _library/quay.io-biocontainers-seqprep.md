@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqprep/container.yaml"
-updated_at: "2025-12-13 04:03:35.114682"
-latest: "1.3.2--h577a1d6_9"
+updated_at: "2025-12-14 04:28:57.775352"
+latest: "1.3.2--h577a1d6_10"
 container_url: "https://biocontainers.pro/tools/seqprep"
 aliases:
  - "SeqPrep"
@@ -14,8 +14,9 @@ versions:
  - "1.3.2--h7132678_7"
  - "1.3.2--he4a0461_8"
  - "1.3.2--h577a1d6_9"
+ - "1.3.2--h577a1d6_10"
 description: "shpc-registry automated BioContainers addition for seqprep"
-config: {"url": "https://biocontainers.pro/tools/seqprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqprep", "latest": {"1.3.2--h577a1d6_9": "sha256:b030abf2af00f2a1913a757ef71cc5285d90babc6f44c0d3f502498cf1cadb3a"}, "tags": {"1.3.2--h7132678_6": "sha256:621b50d9033079d3bbce7713649c5ab86cbe84e4be6ac6b6dddeabbcc8efb600", "1.3.2--h7132678_7": "sha256:a76cffac092cabd5c05fef0c2b94e85617b024596990aa569f8e507b228e538e", "1.3.2--he4a0461_8": "sha256:b068a390b4488d8b5a698496948f6dba22440558c1722018874e68a9afea69f3", "1.3.2--h577a1d6_9": "sha256:b030abf2af00f2a1913a757ef71cc5285d90babc6f44c0d3f502498cf1cadb3a"}, "docker": "quay.io/biocontainers/seqprep", "aliases": {"SeqPrep": "/usr/local/bin/SeqPrep"}}
+config: {"url": "https://biocontainers.pro/tools/seqprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqprep", "latest": {"1.3.2--h577a1d6_10": "sha256:7a4552e3741b2d60c9e21bf2985044e07ea87d57215a7446e0801163d548e358"}, "tags": {"1.3.2--h7132678_6": "sha256:621b50d9033079d3bbce7713649c5ab86cbe84e4be6ac6b6dddeabbcc8efb600", "1.3.2--h7132678_7": "sha256:a76cffac092cabd5c05fef0c2b94e85617b024596990aa569f8e507b228e538e", "1.3.2--he4a0461_8": "sha256:b068a390b4488d8b5a698496948f6dba22440558c1722018874e68a9afea69f3", "1.3.2--h577a1d6_9": "sha256:b030abf2af00f2a1913a757ef71cc5285d90babc6f44c0d3f502498cf1cadb3a", "1.3.2--h577a1d6_10": "sha256:7a4552e3741b2d60c9e21bf2985044e07ea87d57215a7446e0801163d548e358"}, "docker": "quay.io/biocontainers/seqprep", "aliases": {"SeqPrep": "/usr/local/bin/SeqPrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqprep.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/seqprep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqprep:1.3.2--h577a1d6_9
+$ shpc install quay.io/biocontainers/seqprep:1.3.2--h577a1d6_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqprep/1.3.2--h577a1d6_9
-$ module help quay.io/biocontainers/seqprep/1.3.2--h577a1d6_9
+$ module load quay.io/biocontainers/seqprep/1.3.2--h577a1d6_10
+$ module help quay.io/biocontainers/seqprep/1.3.2--h577a1d6_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

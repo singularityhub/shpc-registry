@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msprime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msprime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msprime/container.yaml"
-updated_at: "2025-12-13 03:30:11.810227"
+updated_at: "2025-12-14 03:54:11.589605"
 latest: "0.4.0--py34_gsl1.16_2"
 container_url: "https://biocontainers.pro/tools/msprime"
 aliases:

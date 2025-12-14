@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eskrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eskrim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eskrim/container.yaml"
-updated_at: "2025-12-13 03:51:46.382077"
+updated_at: "2025-12-14 04:16:41.691274"
 latest: "1.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eskrim"
 aliases:

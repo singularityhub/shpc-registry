@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staphb_toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphb_toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphb_toolkit/container.yaml"
-updated_at: "2025-12-13 03:54:11.359987"
+updated_at: "2025-12-14 04:19:10.767643"
 latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphb_toolkit"
 aliases:

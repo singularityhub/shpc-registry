@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tagdust2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tagdust2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tagdust2/container.yaml"
-updated_at: "2025-12-13 03:34:27.185333"
+updated_at: "2025-12-14 03:58:40.274269"
 latest: "2.33.1--h503566f_0"
 container_url: "https://biocontainers.pro/tools/tagdust2"
 aliases:

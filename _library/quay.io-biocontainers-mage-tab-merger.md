@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mage-tab-merger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mage-tab-merger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mage-tab-merger/container.yaml"
-updated_at: "2025-12-13 03:31:54.947583"
+updated_at: "2025-12-14 03:56:00.359757"
 latest: "0.0.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mage-tab-merger"
 aliases:

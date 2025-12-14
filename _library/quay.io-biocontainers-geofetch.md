@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/geofetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geofetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geofetch/container.yaml"
-updated_at: "2025-12-13 04:11:05.729165"
-latest: "0.12.8--pyhdfd78af_0"
+updated_at: "2025-12-14 04:36:48.679303"
+latest: "0.12.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/geofetch"
 aliases:
  - "f2py3.11"
@@ -35,8 +35,9 @@ versions:
  - "0.12.6--pyh7cba7a3_0"
  - "0.12.7--pyh7e72e81_0"
  - "0.12.8--pyhdfd78af_0"
+ - "0.12.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for geofetch"
-config: {"url": "https://biocontainers.pro/tools/geofetch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for geofetch", "latest": {"0.12.8--pyhdfd78af_0": "sha256:55efff7bebf1c560233e3d18c634ceef5c7c30e0aa37112021216d75f91f2e44"}, "tags": {"0.12.0--pyh7cba7a3_0": "sha256:9518cba6862d92fc62ebb645b7dd21d4a155606348b92857289c72c4a11139d3", "0.12.1--pyh7cba7a3_0": "sha256:b279b8bbd2e86aa2d4f9ae6988967174586d6f4072723050276e8433a60c66c5", "0.12.2--pyh7cba7a3_0": "sha256:3ad10795812fcb36434b6fea3a6ceb9bca3a8f12ea4e1951427c8e3a49965dde", "0.12.3--pyh7cba7a3_0": "sha256:461e7da8c7b8ad084b7c7462863ef312e544cd46fa63293cee9db3a18564b8d4", "0.12.4--pyh7cba7a3_0": "sha256:d2f16142b813cbade7a2b4f0b15665cc8a20c2a21971f5a3e97a3f80124b2124", "0.12.5--pyh7cba7a3_0": "sha256:85082cd9ce15713cb99f74013b3df592fa580bfd347100c47f78cfbfd305fcb8", "0.12.6--pyh7cba7a3_0": "sha256:6f515af2cb87c3e4f7918b9a8dce1698ec574d355d688a2d1b0b931c427ec032", "0.12.7--pyh7e72e81_0": "sha256:c83da03a73f4fd18ef537fe6f7280a8b7402353bbb8ae39242bbf003f1798e78", "0.12.8--pyhdfd78af_0": "sha256:55efff7bebf1c560233e3d18c634ceef5c7c30e0aa37112021216d75f91f2e44"}, "docker": "quay.io/biocontainers/geofetch", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "geofetch": "/usr/local/bin/geofetch", "markdown-it": "/usr/local/bin/markdown-it", "sraconvert": "/usr/local/bin/sraconvert", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/geofetch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for geofetch", "latest": {"0.12.9--pyhdfd78af_0": "sha256:8d674071303ae8cd383a28f26e14e604e4605a729a5617a832a0e4b003365606"}, "tags": {"0.12.0--pyh7cba7a3_0": "sha256:9518cba6862d92fc62ebb645b7dd21d4a155606348b92857289c72c4a11139d3", "0.12.1--pyh7cba7a3_0": "sha256:b279b8bbd2e86aa2d4f9ae6988967174586d6f4072723050276e8433a60c66c5", "0.12.2--pyh7cba7a3_0": "sha256:3ad10795812fcb36434b6fea3a6ceb9bca3a8f12ea4e1951427c8e3a49965dde", "0.12.3--pyh7cba7a3_0": "sha256:461e7da8c7b8ad084b7c7462863ef312e544cd46fa63293cee9db3a18564b8d4", "0.12.4--pyh7cba7a3_0": "sha256:d2f16142b813cbade7a2b4f0b15665cc8a20c2a21971f5a3e97a3f80124b2124", "0.12.5--pyh7cba7a3_0": "sha256:85082cd9ce15713cb99f74013b3df592fa580bfd347100c47f78cfbfd305fcb8", "0.12.6--pyh7cba7a3_0": "sha256:6f515af2cb87c3e4f7918b9a8dce1698ec574d355d688a2d1b0b931c427ec032", "0.12.7--pyh7e72e81_0": "sha256:c83da03a73f4fd18ef537fe6f7280a8b7402353bbb8ae39242bbf003f1798e78", "0.12.8--pyhdfd78af_0": "sha256:55efff7bebf1c560233e3d18c634ceef5c7c30e0aa37112021216d75f91f2e44", "0.12.9--pyhdfd78af_0": "sha256:8d674071303ae8cd383a28f26e14e604e4605a729a5617a832a0e4b003365606"}, "docker": "quay.io/biocontainers/geofetch", "aliases": {"f2py3.11": "/usr/local/bin/f2py3.11", "geofetch": "/usr/local/bin/geofetch", "markdown-it": "/usr/local/bin/markdown-it", "sraconvert": "/usr/local/bin/sraconvert", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/geofetch.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/geofetch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/geofetch:0.12.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/geofetch:0.12.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/geofetch/0.12.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/geofetch/0.12.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/geofetch/0.12.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/geofetch/0.12.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

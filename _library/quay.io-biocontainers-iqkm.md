@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iqkm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iqkm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iqkm/container.yaml"
-updated_at: "2025-12-13 03:40:18.991694"
+updated_at: "2025-12-14 04:04:50.115166"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/iqkm"
 aliases:

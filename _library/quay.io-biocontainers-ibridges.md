@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ibridges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ibridges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ibridges/container.yaml"
-updated_at: "2025-12-13 03:38:51.096920"
+updated_at: "2025-12-14 04:03:18.604720"
 latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ibridges"
 aliases:

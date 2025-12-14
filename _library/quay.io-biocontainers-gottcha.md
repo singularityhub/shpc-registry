@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gottcha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gottcha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gottcha/container.yaml"
-updated_at: "2025-12-13 04:01:44.020785"
+updated_at: "2025-12-14 04:27:02.546285"
 latest: "1.0--pl526_2"
 container_url: "https://biocontainers.pro/tools/gottcha"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metabolabpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabolabpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabolabpy/container.yaml"
-updated_at: "2025-12-13 03:46:37.519961"
+updated_at: "2025-12-14 04:11:20.656266"
 latest: "0.9.84--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metabolabpy"
 aliases:
