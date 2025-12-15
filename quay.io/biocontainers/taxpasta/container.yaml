@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/taxpasta
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for taxpasta
 latest:
-  0.7.0--pyhdfd78af_0: 
-    sha256:b30223832825c3914a413a3d06e7e5db0cb0a828d49d962f6d5da071c1258ea3
+  0.7.0--pyhdfd78af_1: 
+    sha256:16056440031ddf60b52ae09f3e098134962b3c6a1f0199f9c1788bd2f456aecc
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:a43b13ba645ed13e6774e98b2a3cf698c134eebeec029c4fca783defbbc0ead9
@@ -23,6 +23,8 @@ tags:
     sha256:5855f7c68d0a36e18e6996415cfaedb3ee2f48a797fb53e6688125a05369cf35
   0.7.0--pyhdfd78af_0: 
     sha256:b30223832825c3914a413a3d06e7e5db0cb0a828d49d962f6d5da071c1258ea3
+  0.7.0--pyhdfd78af_1: 
+    sha256:16056440031ddf60b52ae09f3e098134962b3c6a1f0199f9c1788bd2f456aecc
 docker: quay.io/biocontainers/taxpasta
 aliases:
   depinfo: /usr/local/bin/depinfo

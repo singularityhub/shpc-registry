@@ -7,6 +7,8 @@ latest:
 tags:
   1.1.1--py310h184ae93_0: 
     sha256:b0de2eb3b14ece3fa71973d8a9e415ccff9849dbb4ab4592af144b4202c38367
+  1.1.1--py39h2de1943_0: 
+    sha256:a108fe65f6c32d2be34501ead3545a290c972116fecb3de2c92428e49a8f9b5d
 docker: quay.io/biocontainers/fastppm
 aliases:
   fastppm-cli: /usr/local/bin/fastppm-cli
