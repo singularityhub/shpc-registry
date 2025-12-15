@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/needletail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/needletail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/needletail/container.yaml"
-updated_at: "2025-12-14 04:13:50.413722"
-latest: "0.7.0--py39hfa26904_0"
+updated_at: "2025-12-15 04:17:51.939147"
+latest: "0.7.1--py311hb6b3792_0"
 container_url: "https://biocontainers.pro/tools/needletail"
 aliases:
  - "2to3-3.10"
@@ -19,8 +19,9 @@ versions:
  - "0.6.2--py311hb6b3792_0"
  - "0.6.3--py39hfa26904_0"
  - "0.7.0--py39hfa26904_0"
+ - "0.7.1--py311hb6b3792_0"
 description: "singularity registry hpc automated addition for needletail"
-config: {"url": "https://biocontainers.pro/tools/needletail", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for needletail", "latest": {"0.7.0--py39hfa26904_0": "sha256:3eda0a7cc17ff17a6eaf26dd6e76b3b3289258b5dacb355f74a24018a40eab25"}, "tags": {"0.6.1--py310hc7d9715_0": "sha256:55a341b1a7ef16606832f4aa3b2aedc2f49f7e67dc1f220410c6eccc92f917fc", "0.6.1--py39hfa26904_0": "sha256:85ee4348754bdb341218b00169e70cd460a3d9fc7347a0733b19d46a8244c539", "0.6.2--py311hb6b3792_0": "sha256:599a6e1f563e11abf3499d4d8eb2509b2cf60a5c131329571f3a90967f380b04", "0.6.3--py39hfa26904_0": "sha256:4916a16ad9879b692d012874d2a0d13b1c738bb751a0c6c1a8361028d1f98a16", "0.7.0--py39hfa26904_0": "sha256:3eda0a7cc17ff17a6eaf26dd6e76b3b3289258b5dacb355f74a24018a40eab25"}, "docker": "quay.io/biocontainers/needletail", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/needletail", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for needletail", "latest": {"0.7.1--py311hb6b3792_0": "sha256:965a0e0cdea4732ce855dc6e94efd6320a4bda69d26911023ec0859bd2225c19"}, "tags": {"0.6.1--py310hc7d9715_0": "sha256:55a341b1a7ef16606832f4aa3b2aedc2f49f7e67dc1f220410c6eccc92f917fc", "0.6.1--py39hfa26904_0": "sha256:85ee4348754bdb341218b00169e70cd460a3d9fc7347a0733b19d46a8244c539", "0.6.2--py311hb6b3792_0": "sha256:599a6e1f563e11abf3499d4d8eb2509b2cf60a5c131329571f3a90967f380b04", "0.6.3--py39hfa26904_0": "sha256:4916a16ad9879b692d012874d2a0d13b1c738bb751a0c6c1a8361028d1f98a16", "0.7.0--py39hfa26904_0": "sha256:3eda0a7cc17ff17a6eaf26dd6e76b3b3289258b5dacb355f74a24018a40eab25", "0.7.1--py311hb6b3792_0": "sha256:965a0e0cdea4732ce855dc6e94efd6320a4bda69d26911023ec0859bd2225c19"}, "docker": "quay.io/biocontainers/needletail", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/needletail.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/needletail
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/needletail:0.7.0--py39hfa26904_0
+$ shpc install quay.io/biocontainers/needletail:0.7.1--py311hb6b3792_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/needletail/0.7.0--py39hfa26904_0
-$ module help quay.io/biocontainers/needletail/0.7.0--py39hfa26904_0
+$ module load quay.io/biocontainers/needletail/0.7.1--py311hb6b3792_0
+$ module help quay.io/biocontainers/needletail/0.7.1--py311hb6b3792_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genome-uploader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genome-uploader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genome-uploader/container.yaml"
-updated_at: "2025-12-14 03:55:42.263514"
-latest: "2.5.0--pyhdfd78af_0"
+updated_at: "2025-12-15 03:59:08.624926"
+latest: "2.5.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/genome-uploader"
 aliases:
  - "ena-webin-cli"
@@ -39,8 +39,9 @@ versions:
  - "2.3.4--pyhdfd78af_0"
  - "2.4.0--pyhdfd78af_0"
  - "2.5.0--pyhdfd78af_0"
+ - "2.5.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for genome-uploader"
-config: {"url": "https://biocontainers.pro/tools/genome-uploader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genome-uploader", "latest": {"2.5.0--pyhdfd78af_0": "sha256:2f24f5430b10711744d94265ee514d8a151a9875d2ef4b75d3377f55466c6d07"}, "tags": {"2.3.4--pyhdfd78af_0": "sha256:ec820d0723caa96a0e6912b01a8564a01e60928867e1fabbcbb0bb679fa7f4bc", "2.4.0--pyhdfd78af_0": "sha256:38475d21f54e4e23b40eab7f2a5ba6fb2aa3f0ca84ba9e28c9db64a408450502", "2.5.0--pyhdfd78af_0": "sha256:2f24f5430b10711744d94265ee514d8a151a9875d2ef4b75d3377f55466c6d07"}, "docker": "quay.io/biocontainers/genome-uploader", "aliases": {"ena-webin-cli": "/usr/local/bin/ena-webin-cli", "genome_upload": "/usr/local/bin/genome_upload", "dotenv": "/usr/local/bin/dotenv", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "f2py3.10": "/usr/local/bin/f2py3.10", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
+config: {"url": "https://biocontainers.pro/tools/genome-uploader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genome-uploader", "latest": {"2.5.1--pyhdfd78af_1": "sha256:2603bdd789b5c02a56ede63d96108c94a8d0a3a8fa9084446583179c788da808"}, "tags": {"2.3.4--pyhdfd78af_0": "sha256:ec820d0723caa96a0e6912b01a8564a01e60928867e1fabbcbb0bb679fa7f4bc", "2.4.0--pyhdfd78af_0": "sha256:38475d21f54e4e23b40eab7f2a5ba6fb2aa3f0ca84ba9e28c9db64a408450502", "2.5.0--pyhdfd78af_0": "sha256:2f24f5430b10711744d94265ee514d8a151a9875d2ef4b75d3377f55466c6d07", "2.5.1--pyhdfd78af_1": "sha256:2603bdd789b5c02a56ede63d96108c94a8d0a3a8fa9084446583179c788da808"}, "docker": "quay.io/biocontainers/genome-uploader", "aliases": {"ena-webin-cli": "/usr/local/bin/ena-webin-cli", "genome_upload": "/usr/local/bin/genome_upload", "dotenv": "/usr/local/bin/dotenv", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "f2py3.10": "/usr/local/bin/f2py3.10", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genome-uploader.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/genome-uploader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genome-uploader:2.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/genome-uploader:2.5.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genome-uploader/2.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/genome-uploader/2.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/genome-uploader/2.5.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/genome-uploader/2.5.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

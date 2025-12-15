@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/baktfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baktfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baktfold/container.yaml"
-updated_at: "2025-12-14 04:07:14.792143"
-latest: "0.0.2--pyhdfd78af_0"
+updated_at: "2025-12-15 04:11:02.626807"
+latest: "0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/baktfold"
 aliases:
  - "baktfold"
@@ -48,8 +48,9 @@ aliases:
  - "get_objgraph"
 versions:
  - "0.0.2--pyhdfd78af_0"
+ - "0.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for baktfold"
-config: {"url": "https://biocontainers.pro/tools/baktfold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for baktfold", "latest": {"0.0.2--pyhdfd78af_0": "sha256:9a4dd05c764d91ce8a58687d0c6970c6ce730e5bd17949014a24a929da53e01b"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:9a4dd05c764d91ce8a58687d0c6970c6ce730e5bd17949014a24a929da53e01b"}, "docker": "quay.io/biocontainers/baktfold", "aliases": {"baktfold": "/usr/local/bin/baktfold", "datasets-cli": "/usr/local/bin/datasets-cli", "foldseek": "/usr/local/bin/foldseek", "hf": "/usr/local/bin/hf", "spm_decode": "/usr/local/bin/spm_decode", "spm_encode": "/usr/local/bin/spm_encode", "spm_export_vocab": "/usr/local/bin/spm_export_vocab", "spm_normalize": "/usr/local/bin/spm_normalize", "spm_train": "/usr/local/bin/spm_train", "tiny-agents": "/usr/local/bin/tiny-agents", "transformers": "/usr/local/bin/transformers", "transformers-cli": "/usr/local/bin/transformers-cli", "xxh3sum": "/usr/local/bin/xxh3sum", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "h2benchmark": "/usr/local/bin/h2benchmark", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "get_gprof": "/usr/local/bin/get_gprof", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "aria2c": "/usr/local/bin/aria2c", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "h5fuse": "/usr/local/bin/h5fuse", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "gawkbug": "/usr/local/bin/gawkbug", "get_objgraph": "/usr/local/bin/get_objgraph"}}
+config: {"url": "https://biocontainers.pro/tools/baktfold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for baktfold", "latest": {"0.0.3--pyhdfd78af_0": "sha256:77c18ed0dda0eca905ec8f087e041b24fd03aed7bee1c2f3cfb42bae2984537e"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:9a4dd05c764d91ce8a58687d0c6970c6ce730e5bd17949014a24a929da53e01b", "0.0.3--pyhdfd78af_0": "sha256:77c18ed0dda0eca905ec8f087e041b24fd03aed7bee1c2f3cfb42bae2984537e"}, "docker": "quay.io/biocontainers/baktfold", "aliases": {"baktfold": "/usr/local/bin/baktfold", "datasets-cli": "/usr/local/bin/datasets-cli", "foldseek": "/usr/local/bin/foldseek", "hf": "/usr/local/bin/hf", "spm_decode": "/usr/local/bin/spm_decode", "spm_encode": "/usr/local/bin/spm_encode", "spm_export_vocab": "/usr/local/bin/spm_export_vocab", "spm_normalize": "/usr/local/bin/spm_normalize", "spm_train": "/usr/local/bin/spm_train", "tiny-agents": "/usr/local/bin/tiny-agents", "transformers": "/usr/local/bin/transformers", "transformers-cli": "/usr/local/bin/transformers-cli", "xxh3sum": "/usr/local/bin/xxh3sum", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "h2benchmark": "/usr/local/bin/h2benchmark", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "get_gprof": "/usr/local/bin/get_gprof", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "aria2c": "/usr/local/bin/aria2c", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "h5fuse": "/usr/local/bin/h5fuse", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "gawkbug": "/usr/local/bin/gawkbug", "get_objgraph": "/usr/local/bin/get_objgraph"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/baktfold.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/baktfold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/baktfold:0.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/baktfold:0.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/baktfold/0.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/baktfold/0.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/baktfold/0.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/baktfold/0.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

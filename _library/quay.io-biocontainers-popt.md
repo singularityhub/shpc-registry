@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popt/container.yaml"
-updated_at: "2025-12-14 04:03:02.515963"
+updated_at: "2025-12-15 04:06:41.349754"
 latest: "1.16--1"
 container_url: "https://biocontainers.pro/tools/popt"
 

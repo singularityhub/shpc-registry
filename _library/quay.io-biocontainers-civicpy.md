@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/civicpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/civicpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/civicpy/container.yaml"
-updated_at: "2025-12-14 03:47:27.528664"
-latest: "5.0.0--pyhdfd78af_0"
+updated_at: "2025-12-15 03:50:44.440038"
+latest: "5.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/civicpy"
 aliases:
  - "civicpy"
@@ -23,8 +23,9 @@ versions:
  - "3.1.2--pyhdfd78af_0"
  - "4.1.0--pyhdfd78af_0"
  - "5.0.0--pyhdfd78af_0"
+ - "5.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for civicpy"
-config: {"url": "https://biocontainers.pro/tools/civicpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for civicpy", "latest": {"5.0.0--pyhdfd78af_0": "sha256:3a26ddff9941dc73c28e9395b372e54e6f59b1f94fe3af419a9e1ef806086711"}, "tags": {"3.0.0--py310hdfd78af_0": "sha256:24aaf3160c6a9bfafb459345bc2869c972c4391b617fd0f079865785743b1b2d", "4.0.0--pyhdfd78af_0": "sha256:5023cf6c5c51e95b36e3cbabb101a41bf58da78603c1fc81d494d8a595e41edb", "3.1.2--pyhdfd78af_0": "sha256:d92436c92e0fdcfc7ed012d8d6bb87b740bc0a2958dfaba6329783d724effed2", "4.1.0--pyhdfd78af_0": "sha256:d3e5e27545af404e44fe372ae139be6f7b496f13dfd14ab29f0354e1852eaeae", "5.0.0--pyhdfd78af_0": "sha256:3a26ddff9941dc73c28e9395b372e54e6f59b1f94fe3af419a9e1ef806086711"}, "docker": "quay.io/biocontainers/civicpy", "aliases": {"civicpy": "/usr/local/bin/civicpy", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/civicpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for civicpy", "latest": {"5.1.0--pyhdfd78af_0": "sha256:af80a89bc78a37a9c96d90f73a359c0e1555c825e9af4b35ae1ee300a6200840"}, "tags": {"3.0.0--py310hdfd78af_0": "sha256:24aaf3160c6a9bfafb459345bc2869c972c4391b617fd0f079865785743b1b2d", "4.0.0--pyhdfd78af_0": "sha256:5023cf6c5c51e95b36e3cbabb101a41bf58da78603c1fc81d494d8a595e41edb", "3.1.2--pyhdfd78af_0": "sha256:d92436c92e0fdcfc7ed012d8d6bb87b740bc0a2958dfaba6329783d724effed2", "4.1.0--pyhdfd78af_0": "sha256:d3e5e27545af404e44fe372ae139be6f7b496f13dfd14ab29f0354e1852eaeae", "5.0.0--pyhdfd78af_0": "sha256:3a26ddff9941dc73c28e9395b372e54e6f59b1f94fe3af419a9e1ef806086711", "5.1.0--pyhdfd78af_0": "sha256:af80a89bc78a37a9c96d90f73a359c0e1555c825e9af4b35ae1ee300a6200840"}, "docker": "quay.io/biocontainers/civicpy", "aliases": {"civicpy": "/usr/local/bin/civicpy", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/civicpy.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/civicpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/civicpy:5.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/civicpy:5.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/civicpy/5.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/civicpy/5.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/civicpy/5.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/civicpy/5.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

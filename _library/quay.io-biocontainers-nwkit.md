@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nwkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nwkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nwkit/container.yaml"
-updated_at: "2025-12-14 04:26:46.506631"
-latest: "0.18.2--pyhdfd78af_0"
+updated_at: "2025-12-15 04:31:15.041059"
+latest: "0.18.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/nwkit"
 aliases:
  - "nwkit"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "0.17.2--pyhdfd78af_0"
  - "0.18.2--pyhdfd78af_0"
+ - "0.18.2--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for nwkit"
-config: {"url": "https://biocontainers.pro/tools/nwkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nwkit", "latest": {"0.18.2--pyhdfd78af_0": "sha256:3f8e848459ad6a8a362176b7cce2a4289a488d115cce0c559ce8dac9dff1494e"}, "tags": {"0.17.2--pyhdfd78af_0": "sha256:3422279958d34579db0306d8c4a7738234ad2bb802dc54ce8e71cad01dea7a45", "0.18.2--pyhdfd78af_0": "sha256:3f8e848459ad6a8a362176b7cce2a4289a488d115cce0c559ce8dac9dff1494e"}, "docker": "quay.io/biocontainers/nwkit", "aliases": {"nwkit": "/usr/local/bin/nwkit", "pax11publish": "/usr/local/bin/pax11publish", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam"}}
+config: {"url": "https://biocontainers.pro/tools/nwkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nwkit", "latest": {"0.18.2--pyhdfd78af_1": "sha256:aca72eece1fce8d61471a210adc34551fc8717a543278d6ab94983cf64d05572"}, "tags": {"0.17.2--pyhdfd78af_0": "sha256:3422279958d34579db0306d8c4a7738234ad2bb802dc54ce8e71cad01dea7a45", "0.18.2--pyhdfd78af_0": "sha256:3f8e848459ad6a8a362176b7cce2a4289a488d115cce0c559ce8dac9dff1494e", "0.18.2--pyhdfd78af_1": "sha256:aca72eece1fce8d61471a210adc34551fc8717a543278d6ab94983cf64d05572"}, "docker": "quay.io/biocontainers/nwkit", "aliases": {"nwkit": "/usr/local/bin/nwkit", "pax11publish": "/usr/local/bin/pax11publish", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "balsam": "/usr/local/bin/balsam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nwkit.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/nwkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nwkit:0.18.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nwkit:0.18.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nwkit/0.18.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/nwkit/0.18.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/nwkit/0.18.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/nwkit/0.18.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/srnapipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srnapipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srnapipe/container.yaml"
-updated_at: "2025-12-14 04:20:24.625911"
+updated_at: "2025-12-15 04:24:36.185758"
 latest: "1.2.1--pl5321r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/srnapipe"
 aliases:

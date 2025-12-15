@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/methurator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methurator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methurator/container.yaml"
-updated_at: "2025-12-14 04:15:18.651688"
-latest: "0.1.5--pyhdfd78af_0"
+updated_at: "2025-12-15 04:19:22.384383"
+latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methurator"
 aliases:
  - "MethylDackel"
@@ -37,8 +37,9 @@ aliases:
  - "pyftmerge"
 versions:
  - "0.1.5--pyhdfd78af_0"
+ - "0.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for methurator"
-config: {"url": "https://biocontainers.pro/tools/methurator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methurator", "latest": {"0.1.5--pyhdfd78af_0": "sha256:dfde9f4023d6a0718de19c6f61499a597e1b85bc7ea9085137460f93a9e92c85"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:dfde9f4023d6a0718de19c6f61499a597e1b85bc7ea9085137460f93a9e92c85"}, "docker": "quay.io/biocontainers/methurator", "aliases": {"MethylDackel": "/usr/local/bin/MethylDackel", "methurator": "/usr/local/bin/methurator", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "rich-click": "/usr/local/bin/rich-click", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "markdown-it": "/usr/local/bin/markdown-it", "annot-tsv": "/usr/local/bin/annot-tsv", "faidx": "/usr/local/bin/faidx", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "pygmentize": "/usr/local/bin/pygmentize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
+config: {"url": "https://biocontainers.pro/tools/methurator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for methurator", "latest": {"0.1.6--pyhdfd78af_0": "sha256:8a09d20fe97dc1abab7bca027391ae26e2c397485ab7e48cd7a9e8d2760ad6a4"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:dfde9f4023d6a0718de19c6f61499a597e1b85bc7ea9085137460f93a9e92c85", "0.1.6--pyhdfd78af_0": "sha256:8a09d20fe97dc1abab7bca027391ae26e2c397485ab7e48cd7a9e8d2760ad6a4"}, "docker": "quay.io/biocontainers/methurator", "aliases": {"MethylDackel": "/usr/local/bin/MethylDackel", "methurator": "/usr/local/bin/methurator", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "rich-click": "/usr/local/bin/rich-click", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "markdown-it": "/usr/local/bin/markdown-it", "annot-tsv": "/usr/local/bin/annot-tsv", "faidx": "/usr/local/bin/faidx", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "pygmentize": "/usr/local/bin/pygmentize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methurator.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/methurator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/methurator:0.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/methurator:0.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/methurator/0.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/methurator/0.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/methurator/0.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/methurator/0.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/itolapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itolapi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itolapi/container.yaml"
-updated_at: "2025-12-14 04:00:56.537753"
-latest: "4.1.5--pyhdfd78af_0"
+updated_at: "2025-12-15 04:04:32.622254"
+latest: "4.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/itolapi"
 aliases:
  - "itol.py"
@@ -22,8 +22,9 @@ versions:
  - "4.1.2--pyhdfd78af_0"
  - "4.1.4--pyhdfd78af_0"
  - "4.1.5--pyhdfd78af_0"
+ - "4.1.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for itolapi"
-config: {"url": "https://biocontainers.pro/tools/itolapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itolapi", "latest": {"4.1.5--pyhdfd78af_0": "sha256:f7baacd82b18410ab5f16565f09791a41cc4352c7758944fbe570273380476cf"}, "tags": {"4.1.0--pyhdfd78af_0": "sha256:838b9352c44c9ccae46e3117888c95b0349bcf3fd78061842cb45584d6a9c256", "4.1.2--pyhdfd78af_0": "sha256:b9b49f0a02df283d7d2e5957712aefb47d1741c381f1390f2004b38234863c36", "4.1.4--pyhdfd78af_0": "sha256:423d881f17da1591172e16e5b0ee3d68ec138e155ef8e88cf8d2e6af08428e87", "4.1.5--pyhdfd78af_0": "sha256:f7baacd82b18410ab5f16565f09791a41cc4352c7758944fbe570273380476cf"}, "docker": "quay.io/biocontainers/itolapi", "aliases": {"itol.py": "/usr/local/bin/itol.py", "itolexport.py": "/usr/local/bin/itolexport.py", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/itolapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itolapi", "latest": {"4.1.6--pyhdfd78af_0": "sha256:849870769d061b217ae251601292074f143e5e8797afa8a746531428f575d001"}, "tags": {"4.1.0--pyhdfd78af_0": "sha256:838b9352c44c9ccae46e3117888c95b0349bcf3fd78061842cb45584d6a9c256", "4.1.2--pyhdfd78af_0": "sha256:b9b49f0a02df283d7d2e5957712aefb47d1741c381f1390f2004b38234863c36", "4.1.4--pyhdfd78af_0": "sha256:423d881f17da1591172e16e5b0ee3d68ec138e155ef8e88cf8d2e6af08428e87", "4.1.5--pyhdfd78af_0": "sha256:f7baacd82b18410ab5f16565f09791a41cc4352c7758944fbe570273380476cf", "4.1.6--pyhdfd78af_0": "sha256:849870769d061b217ae251601292074f143e5e8797afa8a746531428f575d001"}, "docker": "quay.io/biocontainers/itolapi", "aliases": {"itol.py": "/usr/local/bin/itol.py", "itolexport.py": "/usr/local/bin/itolexport.py", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itolapi.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/itolapi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/itolapi:4.1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/itolapi:4.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/itolapi/4.1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/itolapi/4.1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/itolapi/4.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/itolapi/4.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

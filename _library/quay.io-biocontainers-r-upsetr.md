@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-upsetr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-upsetr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-upsetr/container.yaml"
-updated_at: "2025-12-14 04:30:05.688431"
+updated_at: "2025-12-15 04:34:43.586908"
 latest: "1.0.3--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-upsetr"
 aliases:

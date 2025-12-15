@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/daligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/daligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/daligner/container.yaml"
-updated_at: "2025-12-14 04:20:02.394043"
-latest: "1.0.20230620--h7b50bb2_1"
+updated_at: "2025-12-15 04:24:13.386137"
+latest: "2.0.20240118--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/daligner"
 aliases:
  - "HPC.daligner"
@@ -25,8 +25,9 @@ versions:
  - "1.0.20200322--h031d066_4"
  - "1.0.20230620--h031d066_0"
  - "1.0.20230620--h7b50bb2_1"
+ - "2.0.20240118--h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for daligner"
-config: {"url": "https://biocontainers.pro/tools/daligner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for daligner", "latest": {"1.0.20230620--h7b50bb2_1": "sha256:26f6987ec43861cf1af563add41c0428f010c47f4a408c54c11c5afafa2847c3"}, "tags": {"1.0p2--h470a237_1": "sha256:31555c02cbd76d66b687b916be23403eacb50ef7d6a92931e6b480a2a23a9980", "1.0.20200322--hec16e2b_2": "sha256:328449639c1e5b3d1d97ab2edea4b9e51ab3d523b53ec249a153c579ef877186", "1.0.20200322--hec16e2b_3": "sha256:48d65260d900316fe5c0be86a38fa60bb6adac0853c6fca5c1787ae1ea9594c4", "1.0.20200322--h031d066_4": "sha256:0133b75e96165e69ffc58a80587605666aac9ef8eb7c09727d2f9d1d728a577f", "1.0.20230620--h031d066_0": "sha256:7f3ea0156a4baff089acca0ccd86b9aa35be8ad0564f9d0e82db7a3c9a3ea959", "1.0.20230620--h7b50bb2_1": "sha256:26f6987ec43861cf1af563add41c0428f010c47f4a408c54c11c5afafa2847c3"}, "docker": "quay.io/biocontainers/daligner", "aliases": {"HPC.daligner": "/usr/local/bin/HPC.daligner", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAdump": "/usr/local/bin/LAdump", "LAindex": "/usr/local/bin/LAindex", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "daligner": "/usr/local/bin/daligner"}}
+config: {"url": "https://biocontainers.pro/tools/daligner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for daligner", "latest": {"2.0.20240118--h7b50bb2_0": "sha256:75be4a1118d8a4ad99a5cfdce578fd600d888ef0ec873994a639d86be63a6899"}, "tags": {"1.0p2--h470a237_1": "sha256:31555c02cbd76d66b687b916be23403eacb50ef7d6a92931e6b480a2a23a9980", "1.0.20200322--hec16e2b_2": "sha256:328449639c1e5b3d1d97ab2edea4b9e51ab3d523b53ec249a153c579ef877186", "1.0.20200322--hec16e2b_3": "sha256:48d65260d900316fe5c0be86a38fa60bb6adac0853c6fca5c1787ae1ea9594c4", "1.0.20200322--h031d066_4": "sha256:0133b75e96165e69ffc58a80587605666aac9ef8eb7c09727d2f9d1d728a577f", "1.0.20230620--h031d066_0": "sha256:7f3ea0156a4baff089acca0ccd86b9aa35be8ad0564f9d0e82db7a3c9a3ea959", "1.0.20230620--h7b50bb2_1": "sha256:26f6987ec43861cf1af563add41c0428f010c47f4a408c54c11c5afafa2847c3", "2.0.20240118--h7b50bb2_0": "sha256:75be4a1118d8a4ad99a5cfdce578fd600d888ef0ec873994a639d86be63a6899"}, "docker": "quay.io/biocontainers/daligner", "aliases": {"HPC.daligner": "/usr/local/bin/HPC.daligner", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAdump": "/usr/local/bin/LAdump", "LAindex": "/usr/local/bin/LAindex", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "daligner": "/usr/local/bin/daligner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/daligner.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/daligner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/daligner:1.0.20230620--h7b50bb2_1
+$ shpc install quay.io/biocontainers/daligner:2.0.20240118--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/daligner/1.0.20230620--h7b50bb2_1
-$ module help quay.io/biocontainers/daligner/1.0.20230620--h7b50bb2_1
+$ module load quay.io/biocontainers/daligner/2.0.20240118--h7b50bb2_0
+$ module help quay.io/biocontainers/daligner/2.0.20240118--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

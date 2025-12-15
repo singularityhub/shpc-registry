@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crisprbowtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprbowtie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprbowtie/container.yaml"
-updated_at: "2025-12-14 03:47:29.977956"
+updated_at: "2025-12-15 03:50:46.889971"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprbowtie"
 aliases:
