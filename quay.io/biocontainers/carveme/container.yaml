@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/carveme
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for carveme
 latest:
-  1.6.6--pyhdfd78af_0: 
-    sha256:3c969235f1697018435cc254f790cbbb5b7547bb0d4b8954662166428857ca11
+  1.6.6--pyhdfd78af_1: 
+    sha256:daccf93e2987c18127991e1454be0a207c4f0e28eb7af59749c73a5f53de2f1f
 tags:
   1.6.1--pyhdfd78af_0: 
     sha256:422ffcdb5339416ae0595217b1ba2ddd5dbf8387c7224c03db807d02e0a8aba9
@@ -13,6 +13,8 @@ tags:
     sha256:5b758e9de85b3e4c20a69e0269440c5c7d05d4a742cbe9a0e7924786d04f3f55
   1.6.6--pyhdfd78af_0: 
     sha256:3c969235f1697018435cc254f790cbbb5b7547bb0d4b8954662166428857ca11
+  1.6.6--pyhdfd78af_1: 
+    sha256:daccf93e2987c18127991e1454be0a207c4f0e28eb7af59749c73a5f53de2f1f
 docker: quay.io/biocontainers/carveme
 aliases:
   acpl: /usr/local/bin/acpl

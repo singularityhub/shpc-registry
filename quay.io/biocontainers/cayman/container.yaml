@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cayman
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cayman
 latest:
-  0.10.1--pyh7e72e81_0: 
-    sha256:9621a35c9d81210b02a8771fde810bf48b4d616a7215d0efa9d3d55bc27f73c0
+  0.10.2--pyh7e72e81_0: 
+    sha256:a3a94cef7cd2332a88f751be1e600806e643badef3453ef92ec7f6539519c5d5
 tags:
   0.10.1--pyh7e72e81_0: 
     sha256:9621a35c9d81210b02a8771fde810bf48b4d616a7215d0efa9d3d55bc27f73c0
+  0.10.2--pyh7e72e81_0: 
+    sha256:a3a94cef7cd2332a88f751be1e600806e643badef3453ef92ec7f6539519c5d5
 docker: quay.io/biocontainers/cayman
 aliases:
   cayman: /usr/local/bin/cayman

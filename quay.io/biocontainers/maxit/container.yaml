@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/maxit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for maxit
 latest:
-  11.300--h503566f_0: 
-    sha256:a05ca36d8e75ac514555ef81c671345ba9d3775daf2a341326d2bde4477499ce
+  11.400--h503566f_0: 
+    sha256:6199ff151d8c1a5d295663fca05589b8719fe0f3c9de4cbb869fb7c6b6ac40c5
 tags:
   11.200--hdbdd923_0: 
     sha256:08e70c831fa55c86958d9a0baeb81b7fc2803d6142e37deb01ee981b8a066cf8
@@ -15,6 +15,8 @@ tags:
     sha256:111dad0b5e4c2afa7e076c758dd47ced69174ffc0d31de4d72e75b7ea6cabe0c
   11.300--h503566f_0: 
     sha256:a05ca36d8e75ac514555ef81c671345ba9d3775daf2a341326d2bde4477499ce
+  11.400--h503566f_0: 
+    sha256:6199ff151d8c1a5d295663fca05589b8719fe0f3c9de4cbb869fb7c6b6ac40c5
 docker: quay.io/biocontainers/maxit
 aliases:
   generate_assembly_cif_file: /usr/local/bin/generate_assembly_cif_file

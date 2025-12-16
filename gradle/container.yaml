@@ -5,7 +5,7 @@ description: Gradle is a build tool with a focus on build automation and support
   for multi-language development.
 latest:
   9-jdk-lts-and-current-corretto-al2023: 
-    sha256:20b3504c5adfbff86dd7cd1428848ce7b355dc8096ce2bbe2dfeb9aedbb7e6ac
+    sha256:cf21ea4e0e2f4493896570dbabc2d1809ef97b5b51fe032e93065691f5da1506
 tags:
   7.0.0-hotspot: 
     sha256:cef49a7bdb0c53dc0d64ed24f375fb0fdd6e3489d0b4fcd393f0c8c09be11320
@@ -22,7 +22,7 @@ tags:
   7.3.3: sha256:8d037a3bd86fc48b591ad778d6eb6130e641bad1be546923e6d097a7ad7708eb
   7.4.0: sha256:5248d0e8f7f6ad2095c3a053d5461daa17b02097410f0e9f6397f8f4dedc34bf
   latest: 
-    sha256:b327495a1b2295fdecc107f93ca30ea1b324c8f1350b08124f9a65782c5cdbf1
+    sha256:3dec978fd14b3dc1083dfbeedfab9dd9da3d23bbb1a5d1e8b618b88e1ea3d35d
   '7': sha256:bef5c89ba30cedc1f233ccbdba2799d815fd82e5782d724c8351b1831e69ab84
   7-jdk17: 
     sha256:bef5c89ba30cedc1f233ccbdba2799d815fd82e5782d724c8351b1831e69ab84
@@ -67,16 +67,16 @@ tags:
     sha256:2968ab57ef9379b6e67eb9c5b25602d0068a5c754098c4939d00e35e8390a297
   8-jdk23-alpine: 
     sha256:2deae0129d5d2659e5aa890138420398708c7ab54250985bbfb08046611d8e27
-  '9': sha256:b327495a1b2295fdecc107f93ca30ea1b324c8f1350b08124f9a65782c5cdbf1
+  '9': sha256:3dec978fd14b3dc1083dfbeedfab9dd9da3d23bbb1a5d1e8b618b88e1ea3d35d
   9-jdk24: 
     sha256:953074cd7f2c535927c780ed42bf3b18d0740a1704400d20163c8830197e0f82
   9-jdk-21-and-24: 
     sha256:117301c857529dcce8a55c025a7d3973563b030b67dd04fa4bdf908a074f5f98
   9-jdk-lts-and-current-corretto-al2023: 
-    sha256:20b3504c5adfbff86dd7cd1428848ce7b355dc8096ce2bbe2dfeb9aedbb7e6ac
+    sha256:cf21ea4e0e2f4493896570dbabc2d1809ef97b5b51fe032e93065691f5da1506
   9-jdk17: 
-    sha256:d3d579e4f3c3177144bc169dcdd9f07078c5ea3168947d65c60ee7f5cc61a8b1
+    sha256:8f5815b9d93d947a41e1d34d91f36dc613da498519910e43c2138fe541e675c6
   9-jdk-25-and-25: 
-    sha256:758d47dd2202a34b74d22fddd108e3d5ca87af2540e4e5d89094bcc8b024ca4a
+    sha256:40b608e2eef9de9493c0617971b15ed029abce498f1cd858992f6952b2fd1baf
 aliases:
   gradle: /usr/bin/gradle
