@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastppm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastppm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastppm/container.yaml"
-updated_at: "2025-12-15 04:27:19.269019"
+updated_at: "2025-12-16 04:06:24.103129"
 latest: "1.1.1--py310h184ae93_0"
 container_url: "https://biocontainers.pro/tools/fastppm"
 aliases:
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.1.1--py310h184ae93_0"
+ - "1.1.1--py39h2de1943_0"
 description: "singularity registry hpc automated addition for fastppm"
-config: {"url": "https://biocontainers.pro/tools/fastppm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastppm", "latest": {"1.1.1--py310h184ae93_0": "sha256:b0de2eb3b14ece3fa71973d8a9e415ccff9849dbb4ab4592af144b4202c38367"}, "tags": {"1.1.1--py310h184ae93_0": "sha256:b0de2eb3b14ece3fa71973d8a9e415ccff9849dbb4ab4592af144b4202c38367"}, "docker": "quay.io/biocontainers/fastppm", "aliases": {"fastppm-cli": "/usr/local/bin/fastppm-cli", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastppm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastppm", "latest": {"1.1.1--py310h184ae93_0": "sha256:b0de2eb3b14ece3fa71973d8a9e415ccff9849dbb4ab4592af144b4202c38367"}, "tags": {"1.1.1--py310h184ae93_0": "sha256:b0de2eb3b14ece3fa71973d8a9e415ccff9849dbb4ab4592af144b4202c38367", "1.1.1--py39h2de1943_0": "sha256:a108fe65f6c32d2be34501ead3545a290c972116fecb3de2c92428e49a8f9b5d"}, "docker": "quay.io/biocontainers/fastppm", "aliases": {"fastppm-cli": "/usr/local/bin/fastppm-cli", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastppm.

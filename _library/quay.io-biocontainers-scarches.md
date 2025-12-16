@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scarches"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scarches/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scarches/container.yaml"
-updated_at: "2025-12-15 04:21:25.314603"
+updated_at: "2025-12-16 04:01:00.250129"
 latest: "0.6.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/scarches"
 aliases:

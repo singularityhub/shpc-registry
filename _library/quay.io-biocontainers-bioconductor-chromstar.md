@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromstar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromstar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromstar/container.yaml"
-updated_at: "2025-12-15 04:34:38.018852"
+updated_at: "2025-12-16 04:13:00.735539"
 latest: "1.28.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromstar"
 aliases:

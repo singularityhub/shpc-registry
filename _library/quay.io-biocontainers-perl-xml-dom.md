@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-dom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-dom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-dom/container.yaml"
-updated_at: "2025-12-15 04:28:45.657136"
+updated_at: "2025-12-16 04:07:41.736553"
 latest: "1.46--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-xml-dom"
 

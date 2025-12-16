@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geneticsped"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneticsped/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneticsped/container.yaml"
-updated_at: "2025-12-15 04:04:24.922679"
+updated_at: "2025-12-16 03:45:30.895609"
 latest: "1.68.0--r44h81e381d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneticsped"
 

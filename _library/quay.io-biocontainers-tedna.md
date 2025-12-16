@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/tedna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tedna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tedna/container.yaml"
-updated_at: "2025-12-15 04:20:56.875469"
-latest: "1.2.2--hfc679d8_2"
+updated_at: "2025-12-16 04:00:34.199748"
+latest: "1.3.1--h503566f_0"
 container_url: "https://biocontainers.pro/tools/tedna"
 aliases:
  - "tedna"
 versions:
  - "1.2.2--hfc679d8_2"
+ - "1.3.1--h503566f_0"
 description: "shpc-registry automated BioContainers addition for tedna"
-config: {"url": "https://biocontainers.pro/tools/tedna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tedna", "latest": {"1.2.2--hfc679d8_2": "sha256:8acadbc22abb9937a9ba83bce0d4a0e5743b3f243e28a7d4eb7c3222ab3cce7d"}, "tags": {"1.2.2--hfc679d8_2": "sha256:8acadbc22abb9937a9ba83bce0d4a0e5743b3f243e28a7d4eb7c3222ab3cce7d"}, "docker": "quay.io/biocontainers/tedna", "aliases": {"tedna": "/usr/local/bin/tedna"}}
+config: {"url": "https://biocontainers.pro/tools/tedna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tedna", "latest": {"1.3.1--h503566f_0": "sha256:c96ca2bb71ba9b7f78ff1a39d9d3f3591766d76bfb9aecc07120a770a2dcc2aa"}, "tags": {"1.2.2--hfc679d8_2": "sha256:8acadbc22abb9937a9ba83bce0d4a0e5743b3f243e28a7d4eb7c3222ab3cce7d", "1.3.1--h503566f_0": "sha256:c96ca2bb71ba9b7f78ff1a39d9d3f3591766d76bfb9aecc07120a770a2dcc2aa"}, "docker": "quay.io/biocontainers/tedna", "aliases": {"tedna": "/usr/local/bin/tedna"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tedna.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/tedna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tedna:1.2.2--hfc679d8_2
+$ shpc install quay.io/biocontainers/tedna:1.3.1--h503566f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tedna/1.2.2--hfc679d8_2
-$ module help quay.io/biocontainers/tedna/1.2.2--hfc679d8_2
+$ module load quay.io/biocontainers/tedna/1.3.1--h503566f_0
+$ module help quay.io/biocontainers/tedna/1.3.1--h503566f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-onassis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-onassis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-onassis/container.yaml"
-updated_at: "2025-12-15 04:12:28.748869"
+updated_at: "2025-12-16 03:52:49.020522"
 latest: "1.12.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-onassis"
 aliases:

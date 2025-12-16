@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tobias"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tobias/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tobias/container.yaml"
-updated_at: "2025-12-15 03:55:26.798200"
-latest: "0.17.2--py312hc9302aa_0"
+updated_at: "2025-12-16 03:37:17.462385"
+latest: "0.17.3--py39hff726c5_1"
 container_url: "https://biocontainers.pro/tools/tobias"
 aliases:
  - "TOBIAS"
@@ -43,8 +43,9 @@ versions:
  - "0.17.1--py310h20b60a1_0"
  - "0.17.1--py39hff726c5_1"
  - "0.17.2--py312hc9302aa_0"
+ - "0.17.3--py39hff726c5_1"
 description: "shpc-registry automated BioContainers addition for tobias"
-config: {"url": "https://biocontainers.pro/tools/tobias", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tobias", "latest": {"0.17.2--py312hc9302aa_0": "sha256:a487bdac0f904fae5a20dc0509c58f2e1fe5ef5e89b3ac4f64b0b1fb6aa72dd6"}, "tags": {"0.9.0--py36hc1659b7_0": "sha256:ff6d292e80d07210c077d855e8cf45a87f8e0f8f120885b3fad2a4242460f2d5", "0.13.0--py36h4f025d9_0": "sha256:248678d29f151ff297b5b41feaa86d28ab7c3dfe3c08605c19dd9a28003eb570", "0.12.12--py36h4f025d9_0": "sha256:1b1c9ba97db7f468e7d9151d1bcbd1b900d6f1772a62a443f8672a2e12e6a1df", "0.11.6--py36h29c9776_1": "sha256:09780107398b644439cddd1540e6fe3d25e68c6c287355617b3db8f52236e51c", "0.16.1--py38h24c8ff8_0": "sha256:80bd64e937b4340a45d61815ff2ab8a54a3e0f19642543e29e9850673930643d", "0.15.1--py39hec7c8de_0": "sha256:584903685163c108e6df1f0f322eb04d9ca8b99edfe1ede00aece41a81feef1d", "0.13.3--py36h40b2fa4_0": "sha256:e0393232d20a74f526c0ff2e32613dd29f1bffb4458653b88c3af1ed5026785d", "0.12.12--py37h77a2a36_0": "sha256:a2f031d8309e28d9a9d96659ded3b51cdffa4e9b25238e972eb28c1a825e80b0", "0.11.6--py37h97743b1_1": "sha256:5cf6e3564718adb1e9ddf3e0e315d3a586c81479a602fd0fb4d20d854b913b2a", "0.16.1--py312h1f1cfbb_1": "sha256:6f225384747616d0311414c08c665c66a2b9b2fba7b6e4a7655e64a65b27f2db", "0.17.0--py312h1f1cfbb_0": "sha256:f7108889ba25136ac44186460741c3a9d5eeb99805c54876930053d97d8b163a", "0.17.1--py310h20b60a1_0": "sha256:8ce2fd1eef3eb9f0a5e0e14005ecb31eee35732b657fa792568f1a44cb20f847", "0.17.1--py39hff726c5_1": "sha256:49646231f21f08dca4d97f7fc370dfdff6e8a8bf31bbcf0bd73d0d0b526b5e05", "0.17.2--py312hc9302aa_0": "sha256:a487bdac0f904fae5a20dc0509c58f2e1fe5ef5e89b3ac4f64b0b1fb6aa72dd6"}, "docker": "quay.io/biocontainers/tobias", "aliases": {"TOBIAS": "/usr/local/bin/TOBIAS", "ccache-swig": "/usr/local/bin/ccache-swig", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "filter_important_factors.py": "/usr/local/bin/filter_important_factors.py", "moods-dna.py": "/usr/local/bin/moods-dna.py", "svist4get": "/usr/local/bin/svist4get", "svist4get_copier": "/usr/local/bin/svist4get_copier", "swig": "/usr/local/bin/swig", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "vba_extract.py": "/usr/local/bin/vba_extract.py", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py"}}
+config: {"url": "https://biocontainers.pro/tools/tobias", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tobias", "latest": {"0.17.3--py39hff726c5_1": "sha256:485aafb1edfb38aea3f6e19eea6e094bd76f42a5492c83a1f2eba7518d08402b"}, "tags": {"0.9.0--py36hc1659b7_0": "sha256:ff6d292e80d07210c077d855e8cf45a87f8e0f8f120885b3fad2a4242460f2d5", "0.13.0--py36h4f025d9_0": "sha256:248678d29f151ff297b5b41feaa86d28ab7c3dfe3c08605c19dd9a28003eb570", "0.12.12--py36h4f025d9_0": "sha256:1b1c9ba97db7f468e7d9151d1bcbd1b900d6f1772a62a443f8672a2e12e6a1df", "0.11.6--py36h29c9776_1": "sha256:09780107398b644439cddd1540e6fe3d25e68c6c287355617b3db8f52236e51c", "0.16.1--py38h24c8ff8_0": "sha256:80bd64e937b4340a45d61815ff2ab8a54a3e0f19642543e29e9850673930643d", "0.15.1--py39hec7c8de_0": "sha256:584903685163c108e6df1f0f322eb04d9ca8b99edfe1ede00aece41a81feef1d", "0.13.3--py36h40b2fa4_0": "sha256:e0393232d20a74f526c0ff2e32613dd29f1bffb4458653b88c3af1ed5026785d", "0.12.12--py37h77a2a36_0": "sha256:a2f031d8309e28d9a9d96659ded3b51cdffa4e9b25238e972eb28c1a825e80b0", "0.11.6--py37h97743b1_1": "sha256:5cf6e3564718adb1e9ddf3e0e315d3a586c81479a602fd0fb4d20d854b913b2a", "0.16.1--py312h1f1cfbb_1": "sha256:6f225384747616d0311414c08c665c66a2b9b2fba7b6e4a7655e64a65b27f2db", "0.17.0--py312h1f1cfbb_0": "sha256:f7108889ba25136ac44186460741c3a9d5eeb99805c54876930053d97d8b163a", "0.17.1--py310h20b60a1_0": "sha256:8ce2fd1eef3eb9f0a5e0e14005ecb31eee35732b657fa792568f1a44cb20f847", "0.17.1--py39hff726c5_1": "sha256:49646231f21f08dca4d97f7fc370dfdff6e8a8bf31bbcf0bd73d0d0b526b5e05", "0.17.2--py312hc9302aa_0": "sha256:a487bdac0f904fae5a20dc0509c58f2e1fe5ef5e89b3ac4f64b0b1fb6aa72dd6", "0.17.3--py39hff726c5_1": "sha256:485aafb1edfb38aea3f6e19eea6e094bd76f42a5492c83a1f2eba7518d08402b"}, "docker": "quay.io/biocontainers/tobias", "aliases": {"TOBIAS": "/usr/local/bin/TOBIAS", "ccache-swig": "/usr/local/bin/ccache-swig", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "filter_important_factors.py": "/usr/local/bin/filter_important_factors.py", "moods-dna.py": "/usr/local/bin/moods-dna.py", "svist4get": "/usr/local/bin/svist4get", "svist4get_copier": "/usr/local/bin/svist4get_copier", "swig": "/usr/local/bin/swig", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "vba_extract.py": "/usr/local/bin/vba_extract.py", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tobias.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/tobias
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tobias:0.17.2--py312hc9302aa_0
+$ shpc install quay.io/biocontainers/tobias:0.17.3--py39hff726c5_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tobias/0.17.2--py312hc9302aa_0
-$ module help quay.io/biocontainers/tobias/0.17.2--py312hc9302aa_0
+$ module load quay.io/biocontainers/tobias/0.17.3--py39hff726c5_1
+$ module help quay.io/biocontainers/tobias/0.17.3--py39hff726c5_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

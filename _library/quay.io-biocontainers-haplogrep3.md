@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplogrep3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplogrep3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplogrep3/container.yaml"
-updated_at: "2025-12-15 04:28:51.118210"
+updated_at: "2025-12-16 04:07:46.542375"
 latest: "3.2.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/haplogrep3"
 aliases:
