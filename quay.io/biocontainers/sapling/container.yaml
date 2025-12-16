@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/sapling
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sapling
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:4330ff5d810f5d9f034d3e30802bbf0b4869095e3870f535fe23a60e42ff398a
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:4330ff5d810f5d9f034d3e30802bbf0b4869095e3870f535fe23a60e42ff398a
+docker: quay.io/biocontainers/sapling
+aliases:
+  fastppm-cli: /usr/local/bin/fastppm-cli
+  sapling: /usr/local/bin/sapling
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm

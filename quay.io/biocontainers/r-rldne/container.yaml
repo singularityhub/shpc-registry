@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/r-rldne
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-rldne
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:31d3aeb318036a1ee4048430fa414fafdaa25e9940643304e079c6d83bdb1076
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:31d3aeb318036a1ee4048430fa414fafdaa25e9940643304e079c6d83bdb1076
+docker: quay.io/biocontainers/r-rldne
+aliases:
+  Ne2-1L: /usr/local/bin/Ne2-1L
+  git2: /usr/local/bin/git2
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
