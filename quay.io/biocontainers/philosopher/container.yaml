@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/philosopher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for philosopher
 latest:
-  5.1.0--he881be0_0: 
-    sha256:d01addf8bb3b65259225cc94be6b618b360cde754342b59ff2b099a93f6987d2
+  5.1.2--he881be0_0: 
+    sha256:dd75261a5e0323b1736e5193f94107ecdb38428231b283c93707638f25b8b37e
 tags:
   5.1.0--he881be0_0: 
     sha256:d01addf8bb3b65259225cc94be6b618b360cde754342b59ff2b099a93f6987d2
+  5.1.2--he881be0_0: 
+    sha256:dd75261a5e0323b1736e5193f94107ecdb38428231b283c93707638f25b8b37e
 docker: quay.io/biocontainers/philosopher
 aliases:
   philosopher: /usr/local/bin/philosopher

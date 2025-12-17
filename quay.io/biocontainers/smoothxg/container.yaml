@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/smoothxg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smoothxg
 latest:
-  0.8.2--h2fa790d_0: 
-    sha256:cac7c56cde00cf81cbf9c42fabbe78710ac4fd61b97fcb377ecc529a1838fa75
+  0.8.2--h2fa790d_1: 
+    sha256:0083a7e34c6c3593bda8aac04af3be94ce3167947dcf4d75d85a3c0655fffd18
 tags:
   0.6.5--hfb1f815_2: 
     sha256:c4c82cbbf83b65d767c3f6af2b8a6fb5894ddb828d75d1a7f94da3224b2299ea
@@ -27,6 +27,8 @@ tags:
     sha256:0a5e3ce04d21f69d55137297556228924eb5274b1aaec916c76abe791d344bb9
   0.8.2--h2fa790d_0: 
     sha256:cac7c56cde00cf81cbf9c42fabbe78710ac4fd61b97fcb377ecc529a1838fa75
+  0.8.2--h2fa790d_1: 
+    sha256:0083a7e34c6c3593bda8aac04af3be94ce3167947dcf4d75d85a3c0655fffd18
 docker: quay.io/biocontainers/smoothxg
 aliases:
   smoothxg: /usr/local/bin/smoothxg

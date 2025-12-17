@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fasttree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fasttree
 latest:
-  2.2.0--h7b50bb2_0: 
-    sha256:42ddb1c41c5f91cd752daab9deb170ff45a61dbd7abf75fb8fb0c13a38300433
+  2.2.0--h7b50bb2_1: 
+    sha256:42254db98f25a1d289aaa0e14a5c87f9fd5830f469acf2b6a7e24eb240a5a874
 tags:
   2.1.9--2: 
     sha256:1ba40dd44d1185648df082abd3b9ce18887b02cdbd40482ccf952d317e6d40e7
@@ -19,6 +19,8 @@ tags:
     sha256:0c7537252e91111dc75b51b9fca687fdbd9f70507d4663cf930269ae0cfa7884
   2.2.0--h7b50bb2_0: 
     sha256:42ddb1c41c5f91cd752daab9deb170ff45a61dbd7abf75fb8fb0c13a38300433
+  2.2.0--h7b50bb2_1: 
+    sha256:42254db98f25a1d289aaa0e14a5c87f9fd5830f469acf2b6a7e24eb240a5a874
 docker: quay.io/biocontainers/fasttree
 aliases:
   FastTree: /usr/local/bin/FastTree

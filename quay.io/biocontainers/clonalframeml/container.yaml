@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/clonalframeml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clonalframeml
 latest:
-  1.13--h9948957_1: 
-    sha256:a21ebe3dd21f3296ce2bbd4d756aa20bdbe3a6350aa8ff5864cdd4c3770b29ec
+  1.13--h9948957_2: 
+    sha256:3f9404195c1031dae0d3e40ca5713f35a33113f5578bfeb67f7e0448c5f9e650
 tags:
   1.12--h9f5acd7_2: 
     sha256:e77baeb614d82f8364bd5f47a5a7604e9fad570818843f63095359dfd10216a2
@@ -13,6 +13,8 @@ tags:
     sha256:d58ea1bc8170d738430814bb704394bb3e804d7c117ff315820359f4e0aa7a39
   1.13--h9948957_1: 
     sha256:a21ebe3dd21f3296ce2bbd4d756aa20bdbe3a6350aa8ff5864cdd4c3770b29ec
+  1.13--h9948957_2: 
+    sha256:3f9404195c1031dae0d3e40ca5713f35a33113f5578bfeb67f7e0448c5f9e650
 docker: quay.io/biocontainers/clonalframeml
 aliases:
   ClonalFrameML: /usr/local/bin/ClonalFrameML

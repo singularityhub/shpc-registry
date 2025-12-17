@@ -7,6 +7,8 @@ latest:
 tags:
   0.2--py310ha1cbcee_0: 
     sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a
+  0.2--py312h8f4af18_0: 
+    sha256:cb1642f83f7fcfe33976830c45c7986744978b060630f5ff2af3d675de1b1ad1
 docker: quay.io/biocontainers/mrpast
 aliases:
   demes: /usr/local/bin/demes
