@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-base-convert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-base-convert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-base-convert/container.yaml"
-updated_at: "2025-12-16 04:06:03.730435"
+updated_at: "2025-12-17 04:02:07.506586"
 latest: "0.13--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-math-base-convert"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fastica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fastica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fastica/container.yaml"
-updated_at: "2025-12-16 03:51:00.212726"
+updated_at: "2025-12-17 03:46:54.568608"
 latest: "1.2_0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-fastica"
 aliases:

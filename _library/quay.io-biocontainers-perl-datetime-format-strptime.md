@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-datetime-format-strptime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
-updated_at: "2025-12-16 04:00:10.507196"
-latest: "1.79--pl5321hdfd78af_0"
+updated_at: "2025-12-17 03:56:10.717058"
+latest: "1.80--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-datetime-format-strptime"
 aliases:
  - "package-stash-conflicts"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.75--pl5321hdfd78af_1"
  - "1.79--pl5321hdfd78af_0"
+ - "1.80--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-datetime-format-strptime"
-config: {"url": "https://biocontainers.pro/tools/perl-datetime-format-strptime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime-format-strptime", "latest": {"1.79--pl5321hdfd78af_0": "sha256:2d94ad3ca555701b75ac8ba2c16b149ae5b9c78fc05387f5cf2d7bc38d68c49c"}, "tags": {"1.75--pl5321hdfd78af_1": "sha256:f9276d1203dda67800326f095cf59f6abbea838a08b84d89a64fe1a3956e84ae", "1.79--pl5321hdfd78af_0": "sha256:2d94ad3ca555701b75ac8ba2c16b149ae5b9c78fc05387f5cf2d7bc38d68c49c"}, "docker": "quay.io/biocontainers/perl-datetime-format-strptime", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-datetime-format-strptime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime-format-strptime", "latest": {"1.80--pl5321hdfd78af_0": "sha256:d72d6c528ee3f012e7429b30d4aa9a11dba39251d07fa85afe99e59b7dfc59a3"}, "tags": {"1.75--pl5321hdfd78af_1": "sha256:f9276d1203dda67800326f095cf59f6abbea838a08b84d89a64fe1a3956e84ae", "1.79--pl5321hdfd78af_0": "sha256:2d94ad3ca555701b75ac8ba2c16b149ae5b9c78fc05387f5cf2d7bc38d68c49c", "1.80--pl5321hdfd78af_0": "sha256:d72d6c528ee3f012e7429b30d4aa9a11dba39251d07fa85afe99e59b7dfc59a3"}, "docker": "quay.io/biocontainers/perl-datetime-format-strptime", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-datetime-format-strptime.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-datetime-format-strptime
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-datetime-format-strptime:1.79--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-datetime-format-strptime:1.80--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-datetime-format-strptime/1.79--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-datetime-format-strptime/1.79--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-datetime-format-strptime/1.80--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-datetime-format-strptime/1.80--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tissuumaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tissuumaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tissuumaps/container.yaml"
-updated_at: "2025-12-16 04:12:25.459132"
+updated_at: "2025-12-17 04:08:31.745849"
 latest: "3.2.1.14--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/tissuumaps"
 aliases:

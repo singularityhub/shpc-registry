@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fcscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fcscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fcscan/container.yaml"
-updated_at: "2025-12-16 04:04:12.581830"
+updated_at: "2025-12-17 04:00:14.986541"
 latest: "1.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fcscan"
 

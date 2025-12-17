@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gapgom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gapgom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gapgom/container.yaml"
-updated_at: "2025-12-16 04:10:16.622788"
+updated_at: "2025-12-17 04:06:23.275161"
 latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gapgom"
 aliases:
