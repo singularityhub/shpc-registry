@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ltr_finder_parallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_finder_parallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_finder_parallel/container.yaml"
-updated_at: "2025-12-17 04:06:09.413166"
+updated_at: "2025-12-17 16:12:17.273876"
 latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ltr_finder_parallel"
 aliases:
