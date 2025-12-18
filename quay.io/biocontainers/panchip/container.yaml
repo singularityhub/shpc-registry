@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/panchip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panchip
+latest:
+  3.0.14--py312h7e72e81_0: 
+    sha256:813a4da1c26b61b4daa8ef892c21062281e24705ae5ac0e321ced0e8005b7483
+tags:
+  3.0.14--py312h7e72e81_0: 
+    sha256:813a4da1c26b61b4daa8ef892c21062281e24705ae5ac0e321ced0e8005b7483
+docker: quay.io/biocontainers/panchip
+aliases:
+  panchip: /usr/local/bin/panchip
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  gawkbug: /usr/local/bin/gawkbug
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df
+  dir: /usr/local/bin/dir

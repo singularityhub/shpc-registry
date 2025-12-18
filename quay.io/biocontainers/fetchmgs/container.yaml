@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/fetchmgs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fetchmgs
+latest:
+  2.1.2--pyh7e72e81_0: 
+    sha256:8716c2a03b951f6d17f73f8a233c008aaf4a9ead388e65f3942f12157878d344
+tags:
+  2.1.2--pyh7e72e81_0: 
+    sha256:8716c2a03b951f6d17f73f8a233c008aaf4a9ead388e65f3942f12157878d344
+docker: quay.io/biocontainers/fetchmgs
+aliases:
+  fetchMGs: /usr/local/bin/fetchMGs
+  archspec: /usr/local/bin/archspec
+  pyrodigal: /usr/local/bin/pyrodigal
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm

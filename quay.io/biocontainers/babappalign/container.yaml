@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/babappalign
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for babappalign
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:11b7926ed77fa26729af5b3886160f35f8087bc740e0cc3caa2a924b747b7a9e
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:11b7926ed77fa26729af5b3886160f35f8087bc740e0cc3caa2a924b747b7a9e
+docker: quay.io/biocontainers/babappalign
+aliases:
+  babappalign: /usr/local/bin/babappalign
+  babappascore: /usr/local/bin/babappascore
+  xxh3sum: /usr/local/bin/xxh3sum
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum
+  isympy: /usr/local/bin/isympy
+  torchrun: /usr/local/bin/torchrun
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  protoc: /usr/local/bin/protoc
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer
