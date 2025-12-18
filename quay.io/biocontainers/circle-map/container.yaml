@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/circle-map
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for circle-map
 latest:
-  1.1.4--pyh5e36f6f_2: 
-    sha256:16fb81f33404141e1fa32d61ba96ececbebe61c918698ca0117e738ee7c15bf5
+  1.1.4--pyh7e72e81_3: 
+    sha256:e3ea529d3f406996dbb6a967aa0e820093ef3fc5590cc01c9645754107dbbb1f
 tags:
   1.1.4--pyh5e36f6f_2: 
     sha256:16fb81f33404141e1fa32d61ba96ececbebe61c918698ca0117e738ee7c15bf5
+  1.1.4--pyh7e72e81_3: 
+    sha256:e3ea529d3f406996dbb6a967aa0e820093ef3fc5590cc01c9645754107dbbb1f
 docker: quay.io/biocontainers/circle-map
 aliases:
   Circle-Map: /usr/local/bin/Circle-Map

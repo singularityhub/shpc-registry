@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/spapros
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spapros
 latest:
-  0.1.5: sha256:b79ed5b311e7cb1c94d253e1426b9a81e885e8638ca8369b8831a14ed4d24cf6
+  0.1.6--pyhdfd78af_0: 
+    sha256:0c7155977df178f651b9851f5f0bfdd97ee43bdc7fd20aebd0d79b3c72f79036
 tags:
   0.1.5: sha256:b79ed5b311e7cb1c94d253e1426b9a81e885e8638ca8369b8831a14ed4d24cf6
+  0.1.6--pyhdfd78af_0: 
+    sha256:0c7155977df178f651b9851f5f0bfdd97ee43bdc7fd20aebd0d79b3c72f79036
 docker: quay.io/biocontainers/spapros
 aliases:
   bandit: /usr/local/bin/bandit

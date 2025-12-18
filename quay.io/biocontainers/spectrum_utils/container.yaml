@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/spectrum_utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spectrum_utils
 latest:
-  0.4.2--pyhdfd78af_0: 
-    sha256:befd05a0853d305c7c4c15d0e077d0236ca4976253b50004bdc1e4b6d95be950
+  0.5.0--pyhdfd78af_0: 
+    sha256:ca08b5d46fe452374b0e72ccfe0d1504171eac0ffbc3ee8987d8db2cc18540c6
 tags:
   0.4.1--pyhdfd78af_0: 
     sha256:45459d22a493021f0d988ef7d09b8fefe63947cd0a98e2418d26883c254b2700
   0.4.2--pyhdfd78af_0: 
     sha256:befd05a0853d305c7c4c15d0e077d0236ca4976253b50004bdc1e4b6d95be950
+  0.5.0--pyhdfd78af_0: 
+    sha256:ca08b5d46fe452374b0e72ccfe0d1504171eac0ffbc3ee8987d8db2cc18540c6
 docker: quay.io/biocontainers/spectrum_utils
 aliases:
   x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
