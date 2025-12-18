@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mrpast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mrpast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mrpast/container.yaml"
-updated_at: "2025-12-17 15:35:29.869548"
+updated_at: "2025-12-18 03:29:23.690871"
 latest: "0.2--py310ha1cbcee_0"
 container_url: "https://biocontainers.pro/tools/mrpast"
 aliases:
@@ -28,8 +28,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.2--py310ha1cbcee_0"
+ - "0.2--py312h8f4af18_0"
 description: "singularity registry hpc automated addition for mrpast"
-config: {"url": "https://biocontainers.pro/tools/mrpast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mrpast", "latest": {"0.2--py310ha1cbcee_0": "sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a"}, "tags": {"0.2--py310ha1cbcee_0": "sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a"}, "docker": "quay.io/biocontainers/mrpast", "aliases": {"demes": "/usr/local/bin/demes", "mrpast": "/usr/local/bin/mrpast", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "tabulate": "/usr/local/bin/tabulate", "jsonschema": "/usr/local/bin/jsonschema", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/mrpast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mrpast", "latest": {"0.2--py310ha1cbcee_0": "sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a"}, "tags": {"0.2--py310ha1cbcee_0": "sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a", "0.2--py312h8f4af18_0": "sha256:cb1642f83f7fcfe33976830c45c7986744978b060630f5ff2af3d675de1b1ad1"}, "docker": "quay.io/biocontainers/mrpast", "aliases": {"demes": "/usr/local/bin/demes", "mrpast": "/usr/local/bin/mrpast", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "tabulate": "/usr/local/bin/tabulate", "jsonschema": "/usr/local/bin/jsonschema", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mrpast.

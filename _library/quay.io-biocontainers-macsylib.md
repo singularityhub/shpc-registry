@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/macsylib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macsylib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macsylib/container.yaml"
-updated_at: "2025-12-17 16:11:39.942524"
-latest: "1.0.3--pyhdfd78af_0"
+updated_at: "2025-12-18 04:08:10.213755"
+latest: "1.0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/macsylib"
 aliases:
  - "msl_data"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.0.1--pyhdfd78af_0"
  - "1.0.3--pyhdfd78af_0"
+ - "1.0.4--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for macsylib"
-config: {"url": "https://biocontainers.pro/tools/macsylib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for macsylib", "latest": {"1.0.3--pyhdfd78af_0": "sha256:a58a388847122a917d523743b5512a3fd4f655851c4453a5c65431f4e6eee9a1"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:b4ed97b7b41bf18630d8011c41a5f8c6c98db0a2559cba27dd5f594243964568", "1.0.3--pyhdfd78af_0": "sha256:a58a388847122a917d523743b5512a3fd4f655851c4453a5c65431f4e6eee9a1"}, "docker": "quay.io/biocontainers/macsylib", "aliases": {"msl_data": "/usr/local/bin/msl_data", "msl_profile": "/usr/local/bin/msl_profile", "scalar": "/usr/local/bin/scalar", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server"}}
+config: {"url": "https://biocontainers.pro/tools/macsylib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for macsylib", "latest": {"1.0.4--pyhdfd78af_1": "sha256:10c5dada185bc0cf828ec0bc8c62b35928a538f9f1354d6202ab0b71c25bdac2"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:b4ed97b7b41bf18630d8011c41a5f8c6c98db0a2559cba27dd5f594243964568", "1.0.3--pyhdfd78af_0": "sha256:a58a388847122a917d523743b5512a3fd4f655851c4453a5c65431f4e6eee9a1", "1.0.4--pyhdfd78af_1": "sha256:10c5dada185bc0cf828ec0bc8c62b35928a538f9f1354d6202ab0b71c25bdac2"}, "docker": "quay.io/biocontainers/macsylib", "aliases": {"msl_data": "/usr/local/bin/msl_data", "msl_profile": "/usr/local/bin/msl_profile", "scalar": "/usr/local/bin/scalar", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/macsylib.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/macsylib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/macsylib:1.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/macsylib:1.0.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/macsylib/1.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/macsylib/1.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/macsylib/1.0.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/macsylib/1.0.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/align_trim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/align_trim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/align_trim/container.yaml"
-updated_at: "2025-12-17 15:52:24.843975"
+updated_at: "2025-12-18 03:47:53.045272"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/align_trim"
 aliases:

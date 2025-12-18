@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clonalframeml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clonalframeml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clonalframeml/container.yaml"
-updated_at: "2025-12-17 15:50:53.593328"
-latest: "1.13--h9948957_1"
+updated_at: "2025-12-18 03:46:14.007090"
+latest: "1.13--h9948957_2"
 container_url: "https://biocontainers.pro/tools/clonalframeml"
 aliases:
  - "ClonalFrameML"
@@ -14,8 +14,9 @@ versions:
  - "1.12--h4ac6f70_4"
  - "1.13--h4ac6f70_0"
  - "1.13--h9948957_1"
+ - "1.13--h9948957_2"
 description: "shpc-registry automated BioContainers addition for clonalframeml"
-config: {"url": "https://biocontainers.pro/tools/clonalframeml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clonalframeml", "latest": {"1.13--h9948957_1": "sha256:a21ebe3dd21f3296ce2bbd4d756aa20bdbe3a6350aa8ff5864cdd4c3770b29ec"}, "tags": {"1.12--h9f5acd7_2": "sha256:e77baeb614d82f8364bd5f47a5a7604e9fad570818843f63095359dfd10216a2", "1.12--h4ac6f70_4": "sha256:cad83cd06985e9a0437da72445da60a02853cc2b053c25b3463d5fb5e5c033d4", "1.13--h4ac6f70_0": "sha256:d58ea1bc8170d738430814bb704394bb3e804d7c117ff315820359f4e0aa7a39", "1.13--h9948957_1": "sha256:a21ebe3dd21f3296ce2bbd4d756aa20bdbe3a6350aa8ff5864cdd4c3770b29ec"}, "docker": "quay.io/biocontainers/clonalframeml", "aliases": {"ClonalFrameML": "/usr/local/bin/ClonalFrameML"}}
+config: {"url": "https://biocontainers.pro/tools/clonalframeml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clonalframeml", "latest": {"1.13--h9948957_2": "sha256:3f9404195c1031dae0d3e40ca5713f35a33113f5578bfeb67f7e0448c5f9e650"}, "tags": {"1.12--h9f5acd7_2": "sha256:e77baeb614d82f8364bd5f47a5a7604e9fad570818843f63095359dfd10216a2", "1.12--h4ac6f70_4": "sha256:cad83cd06985e9a0437da72445da60a02853cc2b053c25b3463d5fb5e5c033d4", "1.13--h4ac6f70_0": "sha256:d58ea1bc8170d738430814bb704394bb3e804d7c117ff315820359f4e0aa7a39", "1.13--h9948957_1": "sha256:a21ebe3dd21f3296ce2bbd4d756aa20bdbe3a6350aa8ff5864cdd4c3770b29ec", "1.13--h9948957_2": "sha256:3f9404195c1031dae0d3e40ca5713f35a33113f5578bfeb67f7e0448c5f9e650"}, "docker": "quay.io/biocontainers/clonalframeml", "aliases": {"ClonalFrameML": "/usr/local/bin/ClonalFrameML"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clonalframeml.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/clonalframeml
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clonalframeml:1.13--h9948957_1
+$ shpc install quay.io/biocontainers/clonalframeml:1.13--h9948957_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clonalframeml/1.13--h9948957_1
-$ module help quay.io/biocontainers/clonalframeml/1.13--h9948957_1
+$ module load quay.io/biocontainers/clonalframeml/1.13--h9948957_2
+$ module help quay.io/biocontainers/clonalframeml/1.13--h9948957_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/philosopher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/philosopher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/philosopher/container.yaml"
-updated_at: "2025-12-17 15:58:55.577231"
-latest: "5.1.0--he881be0_0"
+updated_at: "2025-12-18 03:54:36.131517"
+latest: "5.1.2--he881be0_0"
 container_url: "https://biocontainers.pro/tools/philosopher"
 aliases:
  - "philosopher"
 versions:
  - "5.1.0--he881be0_0"
+ - "5.1.2--he881be0_0"
 description: "singularity registry hpc automated addition for philosopher"
-config: {"url": "https://biocontainers.pro/tools/philosopher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for philosopher", "latest": {"5.1.0--he881be0_0": "sha256:d01addf8bb3b65259225cc94be6b618b360cde754342b59ff2b099a93f6987d2"}, "tags": {"5.1.0--he881be0_0": "sha256:d01addf8bb3b65259225cc94be6b618b360cde754342b59ff2b099a93f6987d2"}, "docker": "quay.io/biocontainers/philosopher", "aliases": {"philosopher": "/usr/local/bin/philosopher"}}
+config: {"url": "https://biocontainers.pro/tools/philosopher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for philosopher", "latest": {"5.1.2--he881be0_0": "sha256:dd75261a5e0323b1736e5193f94107ecdb38428231b283c93707638f25b8b37e"}, "tags": {"5.1.0--he881be0_0": "sha256:d01addf8bb3b65259225cc94be6b618b360cde754342b59ff2b099a93f6987d2", "5.1.2--he881be0_0": "sha256:dd75261a5e0323b1736e5193f94107ecdb38428231b283c93707638f25b8b37e"}, "docker": "quay.io/biocontainers/philosopher", "aliases": {"philosopher": "/usr/local/bin/philosopher"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/philosopher.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/philosopher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/philosopher:5.1.0--he881be0_0
+$ shpc install quay.io/biocontainers/philosopher:5.1.2--he881be0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/philosopher/5.1.0--he881be0_0
-$ module help quay.io/biocontainers/philosopher/5.1.0--he881be0_0
+$ module load quay.io/biocontainers/philosopher/5.1.2--he881be0_0
+$ module help quay.io/biocontainers/philosopher/5.1.2--he881be0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
