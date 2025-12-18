@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/kmindex
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kmindex
+latest:
+  0.6.0--h668145b_1: 
+    sha256:af736c828c2da24cde3706ff65930162a1a62677bf25652c07f022e7f63b205a
+tags:
+  0.6.0--h668145b_1: 
+    sha256:af736c828c2da24cde3706ff65930162a1a62677bf25652c07f022e7f63b205a
+docker: quay.io/biocontainers/kmindex
+aliases:
+  kmindex: /usr/local/bin/kmindex
+  kmindex-server: /usr/local/bin/kmindex-server
+  kmtricks: /usr/local/bin/kmtricks

@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/bigmag
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bigmag
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:f0db388304b1fcc8d87ac7c94145c0efd689df79bdd182e13122be388cb7b3d7
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:f0db388304b1fcc8d87ac7c94145c0efd689df79bdd182e13122be388cb7b3d7
+docker: quay.io/biocontainers/bigmag
+aliases:
+  bigmag: /usr/local/bin/bigmag
+  bigmag-lite: /usr/local/bin/bigmag-lite
+  dash-update-components: /usr/local/bin/dash-update-components
+  geo2fastq: /usr/local/bin/geo2fastq
+  gunicorn: /usr/local/bin/gunicorn
+  plotly: /usr/local/bin/plotly
+  parmed: /usr/local/bin/parmed
+  renderer: /usr/local/bin/renderer
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  flask: /usr/local/bin/flask
+  tabulate: /usr/local/bin/tabulate
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  jsonschema: /usr/local/bin/jsonschema
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer

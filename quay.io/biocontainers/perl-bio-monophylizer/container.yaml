@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/perl-bio-monophylizer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  perl-bio-monophylizer
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:48bc185cd8c69ec021839aeb0fe5c89c35b0f53ec2946b8594ac97c3cc4c41e5
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:48bc185cd8c69ec021839aeb0fe5c89c35b0f53ec2946b8594ac97c3cc4c41e5
+docker: quay.io/biocontainers/perl-bio-monophylizer
+aliases:
+  monophylizer.pl: /usr/local/bin/monophylizer.pl
+  imgsize: /usr/local/bin/imgsize
+  xml_grep: /usr/local/bin/xml_grep
+  xml_merge: /usr/local/bin/xml_merge
+  xml_pp: /usr/local/bin/xml_pp
+  xml_spellcheck: /usr/local/bin/xml_spellcheck
+  xml_split: /usr/local/bin/xml_split
+  webtidy: /usr/local/bin/webtidy
+  tidyp: /usr/local/bin/tidyp
+  tpage: /usr/local/bin/tpage
+  ttree: /usr/local/bin/ttree
+  bdf2gdfont.pl: /usr/local/bin/bdf2gdfont.pl
+  htmltree: /usr/local/bin/htmltree
+  lwp-download: /usr/local/bin/lwp-download
+  lwp-dump: /usr/local/bin/lwp-dump
+  lwp-mirror: /usr/local/bin/lwp-mirror
+  lwp-request: /usr/local/bin/lwp-request
+  bdftogd: /usr/local/bin/bdftogd
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif
+  gdparttopng: /usr/local/bin/gdparttopng
+  gdtopng: /usr/local/bin/gdtopng
+  giftogd2: /usr/local/bin/giftogd2
+  pngtogd: /usr/local/bin/pngtogd
