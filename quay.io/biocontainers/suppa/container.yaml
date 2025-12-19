@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/suppa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for suppa
 latest:
-  2.3--py_2: 
-    sha256:caed21dee20f0851dd51ef4e5a0b992c914c00d547e2c1bf89980c14d8cc7fe8
+  2.4--pyhdfd78af_0: 
+    sha256:773303ca9fa522bd1abbd476ae2a6779ec66bfa7be35a1476c25a56157ff1389
 tags:
   2.3--py_2: 
     sha256:caed21dee20f0851dd51ef4e5a0b992c914c00d547e2c1bf89980c14d8cc7fe8
+  2.4--pyhdfd78af_0: 
+    sha256:773303ca9fa522bd1abbd476ae2a6779ec66bfa7be35a1476c25a56157ff1389
 docker: quay.io/biocontainers/suppa
 aliases:
   eventClusterer.py: /usr/local/bin/eventClusterer.py

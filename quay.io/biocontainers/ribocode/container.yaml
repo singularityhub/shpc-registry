@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/ribocode
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ribocode
 latest:
-  1.2.15--pyhfa5458b_0: 
-    sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195
+  1.2.15--pyhdc42f0e_1: 
+    sha256:e1272634918c90c5ad61a5801953620793f91b4e41bbc9322e64df7871662286
 tags:
   1.2.9--py36_0: 
     sha256:9c51c9626ea7b8b1159cdb9ec88d252565a02eda28318636e4bdec848f0d761d
   1.2.15--pyhfa5458b_0: 
     sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195
+  1.2.15--pyhdc42f0e_1: 
+    sha256:e1272634918c90c5ad61a5801953620793f91b4e41bbc9322e64df7871662286
 docker: quay.io/biocontainers/ribocode
 aliases:
   GTFupdate: /usr/local/bin/GTFupdate

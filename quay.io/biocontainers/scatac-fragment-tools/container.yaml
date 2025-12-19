@@ -8,6 +8,8 @@ latest:
 tags:
   0.1.4--py310h9e6395a_0: 
     sha256:ab59ea7241bda97a92ef9a5e9b3ac08f841dd962089bdab9488abec65ccfa60c
+  0.1.4--py39hf1f7959_0: 
+    sha256:6b3205071400c96e432d9882694b087690a4fff7529e6894f2ffea9307939e2a
 docker: quay.io/biocontainers/scatac-fragment-tools
 aliases:
   scatac_fragment_tools: /usr/local/bin/scatac_fragment_tools

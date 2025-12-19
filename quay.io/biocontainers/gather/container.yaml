@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/gather
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gather
 latest:
-  0.1.0--pyh7e72e81_0: 
-    sha256:942a1f99f0848d84d7520776686ab15f82d6f12fa97f51f622e1c1016c75a347
+  1.0.1--pyh7e72e81_0: 
+    sha256:4c008e497a22126faff5f5848c27b57bad0dc81017886ee5ec1c579e2b50d947
 tags:
   0.1.0--pyh7e72e81_0: 
     sha256:942a1f99f0848d84d7520776686ab15f82d6f12fa97f51f622e1c1016c75a347
+  1.0.1--pyh7e72e81_0: 
+    sha256:4c008e497a22126faff5f5848c27b57bad0dc81017886ee5ec1c579e2b50d947
+  0.1.1--pyh7e72e81_0: 
+    sha256:1eebacc29477068ffd18053d8715526461ba4e11bee3774a70515089c3ab4715
 docker: quay.io/biocontainers/gather
 aliases:
   10x-asm: /usr/local/bin/10x-asm
