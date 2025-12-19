@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/viralrecall
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for viralrecall
+latest:
+  3.0.1--pyhdfd78af_0: 
+    sha256:2593fecd6f8213fa591ca4ed0df6d30f48edcca7e22455cf4e3d09918868c1e8
+tags:
+  3.0.1--pyhdfd78af_0: 
+    sha256:2593fecd6f8213fa591ca4ed0df6d30f48edcca7e22455cf4e3d09918868c1e8
+docker: quay.io/biocontainers/viralrecall
+aliases:
+  pyrodigal-gv: /usr/local/bin/pyrodigal-gv
+  viralrecall: /usr/local/bin/viralrecall
+  viralrecall_database: /usr/local/bin/viralrecall_database
+  archspec: /usr/local/bin/archspec
+  pyrodigal: /usr/local/bin/pyrodigal
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress

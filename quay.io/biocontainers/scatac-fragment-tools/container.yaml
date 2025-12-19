@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/scatac-fragment-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  scatac-fragment-tools
+latest:
+  0.1.4--py310h9e6395a_0: 
+    sha256:ab59ea7241bda97a92ef9a5e9b3ac08f841dd962089bdab9488abec65ccfa60c
+tags:
+  0.1.4--py310h9e6395a_0: 
+    sha256:ab59ea7241bda97a92ef9a5e9b3ac08f841dd962089bdab9488abec65ccfa60c
+docker: quay.io/biocontainers/scatac-fragment-tools
+aliases:
+  scatac_fragment_tools: /usr/local/bin/scatac_fragment_tools
+  h2benchmark: /usr/local/bin/h2benchmark
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastishadow: /usr/local/bin/elastishadow
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  markdown-it: /usr/local/bin/markdown-it
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
