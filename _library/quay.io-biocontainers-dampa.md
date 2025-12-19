@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dampa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dampa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dampa/container.yaml"
-updated_at: "2025-12-19 03:43:18.256011"
+updated_at: "2025-12-19 05:16:18.549552"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dampa"
 aliases:

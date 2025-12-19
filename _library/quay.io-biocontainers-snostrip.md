@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snostrip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snostrip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snostrip/container.yaml"
-updated_at: "2025-12-19 04:08:35.465046"
+updated_at: "2025-12-19 05:41:55.446546"
 latest: "2.0.2--pl5321h503566f_6"
 container_url: "https://biocontainers.pro/tools/snostrip"
 aliases:

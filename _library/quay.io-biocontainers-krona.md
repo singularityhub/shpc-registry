@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krona"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krona/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krona/container.yaml"
-updated_at: "2025-12-19 03:35:41.272917"
+updated_at: "2025-12-19 05:08:27.636106"
 latest: "2.8--pl5262hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/krona"
 aliases:

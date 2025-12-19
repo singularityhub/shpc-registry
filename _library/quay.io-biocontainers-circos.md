@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circos/container.yaml"
-updated_at: "2025-12-19 03:33:12.874901"
+updated_at: "2025-12-19 05:05:54.910777"
 latest: "0.69.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/circos"
 

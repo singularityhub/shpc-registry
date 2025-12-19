@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhesus.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhesus.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhesus.db0/container.yaml"
-updated_at: "2025-12-19 03:36:50.259254"
+updated_at: "2025-12-19 05:09:39.969043"
 latest: "3.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhesus.db0"
 aliases:

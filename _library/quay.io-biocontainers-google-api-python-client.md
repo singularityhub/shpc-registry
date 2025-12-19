@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/google-api-python-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/google-api-python-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/google-api-python-client/container.yaml"
-updated_at: "2025-12-19 03:46:41.318765"
+updated_at: "2025-12-19 05:19:44.798009"
 latest: "1.4.2--py27_0"
 container_url: "https://biocontainers.pro/tools/google-api-python-client"
 aliases:

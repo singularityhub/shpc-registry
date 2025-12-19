@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fatslim_biobb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fatslim_biobb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fatslim_biobb/container.yaml"
-updated_at: "2025-12-19 03:53:45.852789"
+updated_at: "2025-12-19 05:26:53.128415"
 latest: "0.2.2--py310h1fe012e_0"
 container_url: "https://biocontainers.pro/tools/fatslim_biobb"
 aliases:

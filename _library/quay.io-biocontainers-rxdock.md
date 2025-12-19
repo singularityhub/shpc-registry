@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rxdock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rxdock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rxdock/container.yaml"
-updated_at: "2025-12-19 03:27:42.194676"
+updated_at: "2025-12-19 05:00:11.358385"
 latest: "2013.1.1_148c5bd1--pl5321h8ea774a_3"
 container_url: "https://biocontainers.pro/tools/rxdock"
 aliases:

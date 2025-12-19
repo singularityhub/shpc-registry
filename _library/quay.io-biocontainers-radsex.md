@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/radsex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/radsex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/radsex/container.yaml"
-updated_at: "2025-12-19 03:49:33.561464"
+updated_at: "2025-12-19 05:22:39.125935"
 latest: "1.2.0--h43eeafb_3"
 container_url: "https://biocontainers.pro/tools/radsex"
 aliases:

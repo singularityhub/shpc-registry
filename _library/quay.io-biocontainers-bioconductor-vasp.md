@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vasp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vasp/container.yaml"
-updated_at: "2025-12-19 04:09:46.429450"
+updated_at: "2025-12-19 05:43:06.924050"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vasp"
 
