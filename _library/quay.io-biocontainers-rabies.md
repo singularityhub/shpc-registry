@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rabies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rabies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rabies/container.yaml"
-updated_at: "2025-12-18 04:01:02.903740"
+updated_at: "2025-12-19 04:01:06.831088"
 latest: "0.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rabies"
 aliases:

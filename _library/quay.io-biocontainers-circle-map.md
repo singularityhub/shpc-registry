@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/circle-map"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circle-map/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circle-map/container.yaml"
-updated_at: "2025-12-18 04:18:37.804238"
-latest: "1.1.4--pyh5e36f6f_2"
+updated_at: "2025-12-19 04:17:36.086476"
+latest: "1.1.4--pyh7e72e81_3"
 container_url: "https://biocontainers.pro/tools/circle-map"
 aliases:
  - "Circle-Map"
@@ -21,8 +21,9 @@ aliases:
  - "bedToIgv"
 versions:
  - "1.1.4--pyh5e36f6f_2"
+ - "1.1.4--pyh7e72e81_3"
 description: "shpc-registry automated BioContainers addition for circle-map"
-config: {"url": "https://biocontainers.pro/tools/circle-map", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circle-map", "latest": {"1.1.4--pyh5e36f6f_2": "sha256:16fb81f33404141e1fa32d61ba96ececbebe61c918698ca0117e738ee7c15bf5"}, "tags": {"1.1.4--pyh5e36f6f_2": "sha256:16fb81f33404141e1fa32d61ba96ececbebe61c918698ca0117e738ee7c15bf5"}, "docker": "quay.io/biocontainers/circle-map", "aliases": {"Circle-Map": "/usr/local/bin/Circle-Map", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "tqdm": "/usr/local/bin/tqdm", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
+config: {"url": "https://biocontainers.pro/tools/circle-map", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circle-map", "latest": {"1.1.4--pyh7e72e81_3": "sha256:e3ea529d3f406996dbb6a967aa0e820093ef3fc5590cc01c9645754107dbbb1f"}, "tags": {"1.1.4--pyh5e36f6f_2": "sha256:16fb81f33404141e1fa32d61ba96ececbebe61c918698ca0117e738ee7c15bf5", "1.1.4--pyh7e72e81_3": "sha256:e3ea529d3f406996dbb6a967aa0e820093ef3fc5590cc01c9645754107dbbb1f"}, "docker": "quay.io/biocontainers/circle-map", "aliases": {"Circle-Map": "/usr/local/bin/Circle-Map", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "tqdm": "/usr/local/bin/tqdm", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circle-map.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/circle-map
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/circle-map:1.1.4--pyh5e36f6f_2
+$ shpc install quay.io/biocontainers/circle-map:1.1.4--pyh7e72e81_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/circle-map/1.1.4--pyh5e36f6f_2
-$ module help quay.io/biocontainers/circle-map/1.1.4--pyh5e36f6f_2
+$ module load quay.io/biocontainers/circle-map/1.1.4--pyh7e72e81_3
+$ module help quay.io/biocontainers/circle-map/1.1.4--pyh7e72e81_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

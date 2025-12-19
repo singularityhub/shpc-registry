@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-base64"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-base64/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-base64/container.yaml"
-updated_at: "2025-12-18 03:48:31.687317"
+updated_at: "2025-12-19 03:49:24.348782"
 latest: "1.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-base64"
 aliases:

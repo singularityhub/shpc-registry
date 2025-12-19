@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spapros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spapros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spapros/container.yaml"
-updated_at: "2025-12-18 03:34:33.527362"
-latest: "0.1.5"
+updated_at: "2025-12-19 03:36:53.023201"
+latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spapros"
 aliases:
  - "bandit"
@@ -44,8 +44,9 @@ aliases:
  - "h5tools_test_utils"
 versions:
  - "0.1.5"
+ - "0.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for spapros"
-config: {"url": "https://biocontainers.pro/tools/spapros", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spapros", "latest": {"0.1.5": "sha256:b79ed5b311e7cb1c94d253e1426b9a81e885e8638ca8369b8831a14ed4d24cf6"}, "tags": {"0.1.5": "sha256:b79ed5b311e7cb1c94d253e1426b9a81e885e8638ca8369b8831a14ed4d24cf6"}, "docker": "quay.io/biocontainers/spapros", "aliases": {"bandit": "/usr/local/bin/bandit", "bandit-baseline": "/usr/local/bin/bandit-baseline", "bandit-config-generator": "/usr/local/bin/bandit-config-generator", "debugpy": "/usr/local/bin/debugpy", "nox": "/usr/local/bin/nox", "spapros": "/usr/local/bin/spapros", "tox": "/usr/local/bin/tox", "tox-to-nox": "/usr/local/bin/tox-to-nox", "virtualenv": "/usr/local/bin/virtualenv", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pbr": "/usr/local/bin/pbr", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils"}}
+config: {"url": "https://biocontainers.pro/tools/spapros", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spapros", "latest": {"0.1.6--pyhdfd78af_0": "sha256:0c7155977df178f651b9851f5f0bfdd97ee43bdc7fd20aebd0d79b3c72f79036"}, "tags": {"0.1.5": "sha256:b79ed5b311e7cb1c94d253e1426b9a81e885e8638ca8369b8831a14ed4d24cf6", "0.1.6--pyhdfd78af_0": "sha256:0c7155977df178f651b9851f5f0bfdd97ee43bdc7fd20aebd0d79b3c72f79036"}, "docker": "quay.io/biocontainers/spapros", "aliases": {"bandit": "/usr/local/bin/bandit", "bandit-baseline": "/usr/local/bin/bandit-baseline", "bandit-config-generator": "/usr/local/bin/bandit-config-generator", "debugpy": "/usr/local/bin/debugpy", "nox": "/usr/local/bin/nox", "spapros": "/usr/local/bin/spapros", "tox": "/usr/local/bin/tox", "tox-to-nox": "/usr/local/bin/tox-to-nox", "virtualenv": "/usr/local/bin/virtualenv", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pbr": "/usr/local/bin/pbr", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spapros.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/spapros
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spapros:0.1.5
+$ shpc install quay.io/biocontainers/spapros:0.1.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spapros/0.1.5
-$ module help quay.io/biocontainers/spapros/0.1.5
+$ module load quay.io/biocontainers/spapros/0.1.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/spapros/0.1.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

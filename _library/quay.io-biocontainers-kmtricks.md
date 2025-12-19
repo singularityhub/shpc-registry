@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kmtricks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmtricks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmtricks/container.yaml"
-updated_at: "2025-12-18 04:03:17.295266"
-latest: "1.4.0--h8b7377a_0"
+updated_at: "2025-12-19 04:03:12.593486"
+latest: "1.5.1--h22625ea_0"
 container_url: "https://biocontainers.pro/tools/kmtricks"
 aliases:
  - "kmtricks"
@@ -13,8 +13,9 @@ aliases:
  - "kmtricksp"
 versions:
  - "1.4.0--h8b7377a_0"
+ - "1.5.1--h22625ea_0"
 description: "singularity registry hpc automated addition for kmtricks"
-config: {"url": "https://biocontainers.pro/tools/kmtricks", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmtricks", "latest": {"1.4.0--h8b7377a_0": "sha256:89138f7ae98572df7c3cbef49a8eb31c160d17d167cd203608e6385d199f1084"}, "tags": {"1.4.0--h8b7377a_0": "sha256:89138f7ae98572df7c3cbef49a8eb31c160d17d167cd203608e6385d199f1084"}, "docker": "quay.io/biocontainers/kmtricks", "aliases": {"kmtricks": "/usr/local/bin/kmtricks", "kmtricks-socks": "/usr/local/bin/kmtricks-socks", "kmtricksp": "/usr/local/bin/kmtricksp"}}
+config: {"url": "https://biocontainers.pro/tools/kmtricks", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kmtricks", "latest": {"1.5.1--h22625ea_0": "sha256:ab0dc13ce5e071ec843e3ec9a6147c7e0301a1226f556e462f54ee95eb9c7cdb"}, "tags": {"1.4.0--h8b7377a_0": "sha256:89138f7ae98572df7c3cbef49a8eb31c160d17d167cd203608e6385d199f1084", "1.5.1--h22625ea_0": "sha256:ab0dc13ce5e071ec843e3ec9a6147c7e0301a1226f556e462f54ee95eb9c7cdb"}, "docker": "quay.io/biocontainers/kmtricks", "aliases": {"kmtricks": "/usr/local/bin/kmtricks", "kmtricks-socks": "/usr/local/bin/kmtricks-socks", "kmtricksp": "/usr/local/bin/kmtricksp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmtricks.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/kmtricks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kmtricks:1.4.0--h8b7377a_0
+$ shpc install quay.io/biocontainers/kmtricks:1.5.1--h22625ea_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kmtricks/1.4.0--h8b7377a_0
-$ module help quay.io/biocontainers/kmtricks/1.4.0--h8b7377a_0
+$ module load quay.io/biocontainers/kmtricks/1.5.1--h22625ea_0
+$ module help quay.io/biocontainers/kmtricks/1.5.1--h22625ea_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
