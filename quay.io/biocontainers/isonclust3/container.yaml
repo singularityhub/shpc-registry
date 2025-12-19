@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/isonclust3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for isonclust3
+latest:
+  0.3.0--h4349ce8_0: 
+    sha256:e930b850b289f5b69a4131aa1d0da4424aeed459897ac9780871542365bd1f3b
+tags:
+  0.3.0--h4349ce8_0: 
+    sha256:e930b850b289f5b69a4131aa1d0da4424aeed459897ac9780871542365bd1f3b
+docker: quay.io/biocontainers/isonclust3
+aliases:
+  isONclust3: /usr/local/bin/isONclust3

@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/enzymm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for enzymm
+latest:
+  0.3.1--pyhdfd78af_0: 
+    sha256:756058e43825668c68b3f3146ecda8ada522ddacea3310413de94cec2fa43f73
+tags:
+  0.3.1--pyhdfd78af_0: 
+    sha256:756058e43825668c68b3f3146ecda8ada522ddacea3310413de94cec2fa43f73
+docker: quay.io/biocontainers/enzymm
+aliases:
+  enzymm: /usr/local/bin/enzymm
+  pyjess: /usr/local/bin/pyjess
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
