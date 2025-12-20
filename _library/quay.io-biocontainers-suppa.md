@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/suppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/suppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/suppa/container.yaml"
-updated_at: "2025-12-19 05:19:57.293198"
-latest: "2.3--py_2"
+updated_at: "2025-12-20 03:38:34.394824"
+latest: "2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/suppa"
 aliases:
  - "eventClusterer.py"
@@ -28,8 +28,9 @@ aliases:
  - "pyvenv"
 versions:
  - "2.3--py_2"
+ - "2.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for suppa"
-config: {"url": "https://biocontainers.pro/tools/suppa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for suppa", "latest": {"2.3--py_2": "sha256:caed21dee20f0851dd51ef4e5a0b992c914c00d547e2c1bf89980c14d8cc7fe8"}, "tags": {"2.3--py_2": "sha256:caed21dee20f0851dd51ef4e5a0b992c914c00d547e2c1bf89980c14d8cc7fe8"}, "docker": "quay.io/biocontainers/suppa", "aliases": {"eventClusterer.py": "/usr/local/bin/eventClusterer.py", "eventGenerator.py": "/usr/local/bin/eventGenerator.py", "fileMerger.py": "/usr/local/bin/fileMerger.py", "multipleFieldSelection.py": "/usr/local/bin/multipleFieldSelection.py", "psiCalculator.py": "/usr/local/bin/psiCalculator.py", "psiPerGene.py": "/usr/local/bin/psiPerGene.py", "significanceCalculator.py": "/usr/local/bin/significanceCalculator.py", "suppa.py": "/usr/local/bin/suppa.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/suppa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for suppa", "latest": {"2.4--pyhdfd78af_0": "sha256:773303ca9fa522bd1abbd476ae2a6779ec66bfa7be35a1476c25a56157ff1389"}, "tags": {"2.3--py_2": "sha256:caed21dee20f0851dd51ef4e5a0b992c914c00d547e2c1bf89980c14d8cc7fe8", "2.4--pyhdfd78af_0": "sha256:773303ca9fa522bd1abbd476ae2a6779ec66bfa7be35a1476c25a56157ff1389"}, "docker": "quay.io/biocontainers/suppa", "aliases": {"eventClusterer.py": "/usr/local/bin/eventClusterer.py", "eventGenerator.py": "/usr/local/bin/eventGenerator.py", "fileMerger.py": "/usr/local/bin/fileMerger.py", "multipleFieldSelection.py": "/usr/local/bin/multipleFieldSelection.py", "psiCalculator.py": "/usr/local/bin/psiCalculator.py", "psiPerGene.py": "/usr/local/bin/psiPerGene.py", "significanceCalculator.py": "/usr/local/bin/significanceCalculator.py", "suppa.py": "/usr/local/bin/suppa.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/suppa.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/suppa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/suppa:2.3--py_2
+$ shpc install quay.io/biocontainers/suppa:2.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/suppa/2.3--py_2
-$ module help quay.io/biocontainers/suppa/2.3--py_2
+$ module load quay.io/biocontainers/suppa/2.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/suppa/2.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

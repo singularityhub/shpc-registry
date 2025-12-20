@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rsemmed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsemmed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsemmed/container.yaml"
-updated_at: "2025-12-19 05:15:00.435703"
+updated_at: "2025-12-20 03:33:40.371950"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsemmed"
 

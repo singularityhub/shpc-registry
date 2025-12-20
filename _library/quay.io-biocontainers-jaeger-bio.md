@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jaeger-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jaeger-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jaeger-bio/container.yaml"
-updated_at: "2025-12-19 05:18:46.936612"
+updated_at: "2025-12-20 03:37:24.999599"
 latest: "1.1.30--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jaeger-bio"
 aliases:

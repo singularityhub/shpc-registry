@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-surfaltr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-surfaltr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-surfaltr/container.yaml"
-updated_at: "2025-12-19 05:05:33.574240"
+updated_at: "2025-12-20 03:24:17.712270"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-surfaltr"
 

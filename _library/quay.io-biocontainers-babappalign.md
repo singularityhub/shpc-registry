@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/babappalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/babappalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/babappalign/container.yaml"
-updated_at: "2025-12-19 05:22:25.663924"
+updated_at: "2025-12-20 03:41:01.997644"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/babappalign"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oxbow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oxbow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oxbow/container.yaml"
-updated_at: "2025-12-19 05:04:13.724210"
+updated_at: "2025-12-20 03:22:58.174743"
 latest: "0.5.1--py310hec43fc7_0"
 container_url: "https://biocontainers.pro/tools/oxbow"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metapop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metapop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metapop/container.yaml"
-updated_at: "2025-12-19 05:24:29.432978"
+updated_at: "2025-12-20 03:43:04.852487"
 latest: "1.0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metapop"
 aliases:

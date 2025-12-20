@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-phylo-forest-dbtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-phylo-forest-dbtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-phylo-forest-dbtree/container.yaml"
-updated_at: "2025-12-19 05:43:35.728764"
+updated_at: "2025-12-20 04:02:01.580093"
 latest: "0.58--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-bio-phylo-forest-dbtree"
 aliases:

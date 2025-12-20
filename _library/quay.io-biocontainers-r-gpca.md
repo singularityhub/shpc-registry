@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gpca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gpca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gpca/container.yaml"
-updated_at: "2025-12-19 05:11:43.663579"
+updated_at: "2025-12-20 03:30:24.627237"
 latest: "1.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-gpca"
 aliases:

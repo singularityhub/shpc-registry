@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irissv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irissv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irissv/container.yaml"
-updated_at: "2025-12-19 05:43:27.794749"
+updated_at: "2025-12-20 04:01:53.685787"
 latest: "1.0.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/irissv"
 aliases:

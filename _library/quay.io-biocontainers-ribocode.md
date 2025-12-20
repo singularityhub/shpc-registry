@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ribocode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribocode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribocode/container.yaml"
-updated_at: "2025-12-19 05:11:12.682819"
-latest: "1.2.15--pyhfa5458b_0"
+updated_at: "2025-12-20 03:29:53.830236"
+latest: "1.2.15--pyhdc42f0e_1"
 container_url: "https://biocontainers.pro/tools/ribocode"
 aliases:
  - "GTFupdate"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "1.2.9--py36_0"
  - "1.2.15--pyhfa5458b_0"
+ - "1.2.15--pyhdc42f0e_1"
 description: "shpc-registry automated BioContainers addition for ribocode"
-config: {"url": "https://biocontainers.pro/tools/ribocode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribocode", "latest": {"1.2.15--pyhfa5458b_0": "sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195"}, "tags": {"1.2.9--py36_0": "sha256:9c51c9626ea7b8b1159cdb9ec88d252565a02eda28318636e4bdec848f0d761d", "1.2.15--pyhfa5458b_0": "sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195"}, "docker": "quay.io/biocontainers/ribocode", "aliases": {"GTFupdate": "/usr/local/bin/GTFupdate", "ORFcount": "/usr/local/bin/ORFcount", "RiboCode": "/usr/local/bin/RiboCode", "RiboCode_onestep": "/usr/local/bin/RiboCode_onestep", "metaplots": "/usr/local/bin/metaplots", "plot_orf_density": "/usr/local/bin/plot_orf_density", "prepare_transcripts": "/usr/local/bin/prepare_transcripts", "pyfasta": "/usr/local/bin/pyfasta", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py"}}
+config: {"url": "https://biocontainers.pro/tools/ribocode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribocode", "latest": {"1.2.15--pyhdc42f0e_1": "sha256:e1272634918c90c5ad61a5801953620793f91b4e41bbc9322e64df7871662286"}, "tags": {"1.2.9--py36_0": "sha256:9c51c9626ea7b8b1159cdb9ec88d252565a02eda28318636e4bdec848f0d761d", "1.2.15--pyhfa5458b_0": "sha256:639d557367b237bd2bfac63f94fed0a47bb952e0de9068140583651fa8d1b195", "1.2.15--pyhdc42f0e_1": "sha256:e1272634918c90c5ad61a5801953620793f91b4e41bbc9322e64df7871662286"}, "docker": "quay.io/biocontainers/ribocode", "aliases": {"GTFupdate": "/usr/local/bin/GTFupdate", "ORFcount": "/usr/local/bin/ORFcount", "RiboCode": "/usr/local/bin/RiboCode", "RiboCode_onestep": "/usr/local/bin/RiboCode_onestep", "metaplots": "/usr/local/bin/metaplots", "plot_orf_density": "/usr/local/bin/plot_orf_density", "prepare_transcripts": "/usr/local/bin/prepare_transcripts", "pyfasta": "/usr/local/bin/pyfasta", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribocode.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/ribocode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ribocode:1.2.15--pyhfa5458b_0
+$ shpc install quay.io/biocontainers/ribocode:1.2.15--pyhdc42f0e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ribocode/1.2.15--pyhfa5458b_0
-$ module help quay.io/biocontainers/ribocode/1.2.15--pyhfa5458b_0
+$ module load quay.io/biocontainers/ribocode/1.2.15--pyhdc42f0e_1
+$ module help quay.io/biocontainers/ribocode/1.2.15--pyhdc42f0e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

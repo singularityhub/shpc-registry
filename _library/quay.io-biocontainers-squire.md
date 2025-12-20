@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/squire"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squire/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squire/container.yaml"
-updated_at: "2025-12-19 05:32:26.125232"
+updated_at: "2025-12-20 03:50:57.810275"
 latest: "0.9.9.92--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/squire"
 aliases:

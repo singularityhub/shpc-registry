@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rvertnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rvertnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rvertnet/container.yaml"
-updated_at: "2025-12-19 05:13:01.683724"
+updated_at: "2025-12-20 03:31:42.334454"
 latest: "0.7.0--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-rvertnet"
 aliases:

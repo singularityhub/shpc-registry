@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jacusa2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jacusa2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jacusa2/container.yaml"
-updated_at: "2025-12-19 05:35:09.603460"
-latest: "2.1.15--hdfd78af_0"
+updated_at: "2025-12-20 03:53:40.057725"
+latest: "2.1.16--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jacusa2"
 aliases:
  - "JACUSA2"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "2.0.4--hdfd78af_0"
  - "2.1.15--hdfd78af_0"
+ - "2.1.16--hdfd78af_0"
 description: "singularity registry hpc automated addition for jacusa2"
-config: {"url": "https://biocontainers.pro/tools/jacusa2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jacusa2", "latest": {"2.1.15--hdfd78af_0": "sha256:0b09fb1a9b462600b6f688a3a02712bb1bd69e380bef77ff57a8d7e67a742e4c"}, "tags": {"2.0.4--hdfd78af_0": "sha256:b5ef72acf2cd9e1a13c754a2699bb08c7c274c513c2e1338b7077f7367f201a1", "2.1.15--hdfd78af_0": "sha256:0b09fb1a9b462600b6f688a3a02712bb1bd69e380bef77ff57a8d7e67a742e4c"}, "docker": "quay.io/biocontainers/jacusa2", "aliases": {"JACUSA2": "/usr/local/bin/JACUSA2", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd", "schemagen": "/usr/local/bin/schemagen", "servertool": "/usr/local/bin/servertool", "tnameserv": "/usr/local/bin/tnameserv", "wsgen": "/usr/local/bin/wsgen", "wsimport": "/usr/local/bin/wsimport", "xjc": "/usr/local/bin/xjc", "jfr": "/usr/local/bin/jfr", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps"}}
+config: {"url": "https://biocontainers.pro/tools/jacusa2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for jacusa2", "latest": {"2.1.16--hdfd78af_0": "sha256:28428337703ebb874b3fd704c0479df1be6704d45436a10ea5b7c74381fec433"}, "tags": {"2.0.4--hdfd78af_0": "sha256:b5ef72acf2cd9e1a13c754a2699bb08c7c274c513c2e1338b7077f7367f201a1", "2.1.15--hdfd78af_0": "sha256:0b09fb1a9b462600b6f688a3a02712bb1bd69e380bef77ff57a8d7e67a742e4c", "2.1.16--hdfd78af_0": "sha256:28428337703ebb874b3fd704c0479df1be6704d45436a10ea5b7c74381fec433"}, "docker": "quay.io/biocontainers/jacusa2", "aliases": {"JACUSA2": "/usr/local/bin/JACUSA2", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd", "schemagen": "/usr/local/bin/schemagen", "servertool": "/usr/local/bin/servertool", "tnameserv": "/usr/local/bin/tnameserv", "wsgen": "/usr/local/bin/wsgen", "wsimport": "/usr/local/bin/wsimport", "xjc": "/usr/local/bin/xjc", "jfr": "/usr/local/bin/jfr", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic", "rmid": "/usr/local/bin/rmid", "unpack200": "/usr/local/bin/unpack200", "jdeps": "/usr/local/bin/jdeps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jacusa2.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/jacusa2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jacusa2:2.1.15--hdfd78af_0
+$ shpc install quay.io/biocontainers/jacusa2:2.1.16--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jacusa2/2.1.15--hdfd78af_0
-$ module help quay.io/biocontainers/jacusa2/2.1.15--hdfd78af_0
+$ module load quay.io/biocontainers/jacusa2/2.1.16--hdfd78af_0
+$ module help quay.io/biocontainers/jacusa2/2.1.16--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
