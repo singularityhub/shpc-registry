@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/libopenms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libopenms
 latest:
-  3.4.1--hdd6e20e_1: 
-    sha256:d5cd2d90efe58bf3779546cc26a8604b20bc051bcf7ba487f7d4af462833a2b1
+  3.5.0--hdd6e20e_0: 
+    sha256:bdf328e76d6c64d1f9990c8001aa3d2989e9e94b5aafab399f52ffa543182852
 tags:
   2.8.0--h7ca0330_3: 
     sha256:a33b2779973c820f1a2c311949f9c8b3cbb6196fa8ac4a0b4e3bdaf90833d729
@@ -35,6 +35,8 @@ tags:
     sha256:454b05610f964a270e9309f100dbfa7be15cc5ca0079ebc3eb4facfb71dd2490
   3.4.1--hdd6e20e_1: 
     sha256:d5cd2d90efe58bf3779546cc26a8604b20bc051bcf7ba487f7d4af462833a2b1
+  3.5.0--hdd6e20e_0: 
+    sha256:bdf328e76d6c64d1f9990c8001aa3d2989e9e94b5aafab399f52ffa543182852
 docker: quay.io/biocontainers/libopenms
 aliases:
   CreateDOMDocument: /usr/local/bin/CreateDOMDocument

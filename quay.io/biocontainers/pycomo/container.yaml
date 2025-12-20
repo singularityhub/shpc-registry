@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pycomo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pycomo
 latest:
-  0.2.8--pyhdfd78af_0: 
-    sha256:92afb64a59a0d3e6f4cf821a2b9871d885e4bdae0f93f9fd68631863f093e007
+  0.2.9--pyhdfd78af_0: 
+    sha256:6f5403ffa327a52af10bdbed7db990442659e0bd812e6aa502218f665aaf0183
 tags:
   0.1.3--pyhdfd78af_0: 
     sha256:a68079badaf138cb255457842f8d2185e1aadeb8691403c405ce0e904eb365b3
@@ -15,6 +15,8 @@ tags:
     sha256:c775a30405ea2f7b14af45a04f1ea02d1c0af46a4761480beae99e767e8b6545
   0.2.8--pyhdfd78af_0: 
     sha256:92afb64a59a0d3e6f4cf821a2b9871d885e4bdae0f93f9fd68631863f093e007
+  0.2.9--pyhdfd78af_0: 
+    sha256:6f5403ffa327a52af10bdbed7db990442659e0bd812e6aa502218f665aaf0183
 docker: quay.io/biocontainers/pycomo
 aliases:
   depinfo: /usr/local/bin/depinfo

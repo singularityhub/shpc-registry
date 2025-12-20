@@ -7,6 +7,8 @@ latest:
 tags:
   2.4--py310h275bdba_0: 
     sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9
+  2.4--py39h475c85d_0: 
+    sha256:34931c2d4311ce89a20d1c19974a9503162fd2210ddf6132b8f31a5f541d0d0d
 docker: quay.io/biocontainers/pygrgl
 aliases:
   grg: /usr/local/bin/grg

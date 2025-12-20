@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sipros
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sipros
 latest:
-  5.0--hdfd78af_0: 
-    sha256:b88095eba953521c418b5e6cebd8e52ede80dbffe97a547f0fe1c0c283d792de
+  5.0.1--hdfd78af_1: 
+    sha256:68b4a005ba72c078bc3d146858b8efd4595491d5661548797ac0d609d81ac308
 tags:
   4.01--hdfd78af_0: 
     sha256:9fa6d9d642eba6a678b76774a2b47e10426201fc06b3a0dfabf893702f88b831
@@ -11,6 +11,8 @@ tags:
     sha256:65e08cd356d0f6310e9ce027c768bd4b829424f2be23f4878f56d836e612b4fe
   5.0--hdfd78af_0: 
     sha256:b88095eba953521c418b5e6cebd8e52ede80dbffe97a547f0fe1c0c283d792de
+  5.0.1--hdfd78af_1: 
+    sha256:68b4a005ba72c078bc3d146858b8efd4595491d5661548797ac0d609d81ac308
 docker: quay.io/biocontainers/sipros
 aliases:
   EnsembleScripts_sipros_ensemble_filtering: 

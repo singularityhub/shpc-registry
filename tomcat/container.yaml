@@ -6,8 +6,8 @@ description: Apache Tomcat is an open source implementation of the Java Servlet
 filter:
 - ^(?!jdk1[1-7]).*$
 latest:
-  11-jdk25: 'crane digest tomcat:11-jdk25: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  11-jdk25: 
+    sha256:689475f36b76708f19cc939d2d18689de23dd41abdb9e1693c60410cbb7361d6
 tags:
   10.0.5-jdk11-adoptopenjdk-hotspot: 
     sha256:a7418f29d3dd7ad20bcf052b3b6dc2777d118344286c6374bc447fb217a97c08
@@ -20,27 +20,28 @@ tags:
   10.1.0: 
     sha256:741cbf2fb47000cf9d231657d1440c5e96dca9bb9175a985501d153cd6ae875d
   latest: 
-    sha256:3d41d69cc052d14ed03211520d15a6391e426cecc041b66715b4e32710bf4f72
-  '10': sha256:0e7a4ed4094a76f0fa2083ec5c759685e845540180a5def48b0c494f0bc4b470
+    sha256:689475f36b76708f19cc939d2d18689de23dd41abdb9e1693c60410cbb7361d6
+  '10': sha256:4b2a232e2b9505c8d96150686b6504f97a61233bd376ba2d60c9c467fd474664
   10-jdk17: 
-    sha256:d2cd0027e6b828ad8a5ff7693a20d972f16af0139f7fcecafa0797b31809863e
-  10-jdk16: 'crane digest tomcat:10-jdk16: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  10-jdk15: 'crane digest tomcat:10-jdk15: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  10-jdk14: 'crane digest tomcat:10-jdk14: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '11.0': 'crane digest tomcat:11.0: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  10-jdk21-openjdk: 'crane digest tomcat:10-jdk21-openjdk: TOOMANYREQUESTS: You have
-    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  10-jdk21: 'crane digest tomcat:10-jdk21: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '11': 'crane digest tomcat:11: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  11-jdk21: 'crane digest tomcat:11-jdk21: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  11-jdk17: 'crane digest tomcat:11-jdk17: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  11-jdk25: 'crane digest tomcat:11-jdk25: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+    sha256:1c3896808980e90cd874809df16a1e086fa4da79c93bcce3cc6d0effca6e6a1d
+  10-jdk16: 
+    sha256:06894e19b914a4e491580d54091ac248d53b0c4c474ff9e55e97e27d9adb45d5
+  10-jdk15: 
+    sha256:822bc61a43b972b5f784af5f8f40ce077399c06cfa724fc1cd60ea687f5d9828
+  10-jdk14: 
+    sha256:e97bde5b2bba850a96ba59b5500e9448216c989c0061a4e7e5c8d9d64185a36e
+  '11.0': 
+    sha256:689475f36b76708f19cc939d2d18689de23dd41abdb9e1693c60410cbb7361d6
+  10-jdk21-openjdk: 
+    sha256:33e5dab5e662882c87c87813a5a4709c9cc918b7388304b60781c0521ca6e7f2
+  10-jdk21: 
+    sha256:ba7b93ce3f2e0c8c83914c390c10be99b553817c157fab6b43ec85fd6374cf6f
+  '11': sha256:689475f36b76708f19cc939d2d18689de23dd41abdb9e1693c60410cbb7361d6
+  11-jdk21: 
+    sha256:8c905aacac879bcfdbf67ac82acb3244aae13c15848bf633cd49463d46692f24
+  11-jdk17: 
+    sha256:f3c91c25276c915557f0d6979c96d4416473b6134187989d2bb587962076d589
+  11-jdk25: 
+    sha256:689475f36b76708f19cc939d2d18689de23dd41abdb9e1693c60410cbb7361d6
+  10-jdk25: 
+    sha256:4b2a232e2b9505c8d96150686b6504f97a61233bd376ba2d60c9c467fd474664

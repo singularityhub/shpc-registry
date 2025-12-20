@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mitorsaw
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mitorsaw
 latest:
-  0.2.6--h9ee0642_0: 
-    sha256:cd3ec7c77dc84913e5dea0b514c87ab183b37fd73dd7d4a57bc0555955551927
+  0.2.7--h9ee0642_0: 
+    sha256:115eb23313416fffa8916e1f5f7dc929236f7f0f6eb7c72aafeba1a0443c509f
 tags:
   0.1.1--h9ee0642_0: 
     sha256:3bcb9800424bba8aedc1c5ba137dcb127758faa3463f24307aab00d733d8a090
@@ -17,6 +17,8 @@ tags:
     sha256:a0ac8790c48497e7b51ee6a527f65620c25f29db9c768b94e6c19f17c8f55c56
   0.2.6--h9ee0642_0: 
     sha256:cd3ec7c77dc84913e5dea0b514c87ab183b37fd73dd7d4a57bc0555955551927
+  0.2.7--h9ee0642_0: 
+    sha256:115eb23313416fffa8916e1f5f7dc929236f7f0f6eb7c72aafeba1a0443c509f
 docker: quay.io/biocontainers/mitorsaw
 aliases:
   mitorsaw: /usr/local/bin/mitorsaw

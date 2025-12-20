@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ezomero
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ezomero
 latest:
-  3.2.1--pyhdfd78af_0: 
-    sha256:342c2a280da9edc828b2e3b70223f50118a990262fbb179e5eb9ab9e1b5ed43f
+  3.2.2--pyhdfd78af_0: 
+    sha256:bca3c3eca7bbfc7bd15e6ddde5e1cb7f3e8e2218d9f8d2e90f0d39e33ce86717
 tags:
   2.1.0--pyhdfd78af_0: 
     sha256:9f270a55b84a7c1af963e8d9d262f9da7c49668861a89c2fcc8a44c79141d97e
@@ -17,6 +17,8 @@ tags:
     sha256:83e1b1c07fb22560f5cdcde76817d77b1fee71a06d997e6cd824de3f945b1264
   3.2.1--pyhdfd78af_0: 
     sha256:342c2a280da9edc828b2e3b70223f50118a990262fbb179e5eb9ab9e1b5ed43f
+  3.2.2--pyhdfd78af_0: 
+    sha256:bca3c3eca7bbfc7bd15e6ddde5e1cb7f3e8e2218d9f8d2e90f0d39e33ce86717
 docker: quay.io/biocontainers/ezomero
 aliases:
   omero: /usr/local/bin/omero
