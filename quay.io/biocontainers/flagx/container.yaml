@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/flagx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flagx
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:5589941de4f12972e5c98142e4da687cceaf13a78186afc036bf1f2d711b2a14
+  0.2.0--pyhdfd78af_0: 
+    sha256:d264ee15092d72c9ef7554111d867f258423944626d1a1159aa0345d2215dfd1
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:5589941de4f12972e5c98142e4da687cceaf13a78186afc036bf1f2d711b2a14
+  0.2.0--pyhdfd78af_0: 
+    sha256:d264ee15092d72c9ef7554111d867f258423944626d1a1159aa0345d2215dfd1
 docker: quay.io/biocontainers/flagx
 aliases:
   datashader: /usr/local/bin/datashader

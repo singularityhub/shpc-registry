@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pyfasta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyfasta
 latest:
-  0.5.2--py_1: 
-    sha256:f51e6b55352ce8088b2f9860c76f28d0a4e9b54091f8d718f0f078b15709a4eb
+  0.5.2--pyhdfd78af_2: 
+    sha256:2d73a285eb28102e6fbeff95795ce787d34a768b7fa7198e79dbf03a5c8718f2
 tags:
   0.5.2--py_1: 
     sha256:f51e6b55352ce8088b2f9860c76f28d0a4e9b54091f8d718f0f078b15709a4eb
+  0.5.2--pyhdfd78af_2: 
+    sha256:2d73a285eb28102e6fbeff95795ce787d34a768b7fa7198e79dbf03a5c8718f2
 docker: quay.io/biocontainers/pyfasta
 aliases:
   pyfasta: /usr/local/bin/pyfasta

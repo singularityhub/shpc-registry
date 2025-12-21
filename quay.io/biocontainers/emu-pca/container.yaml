@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/emu-pca
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for emu-pca
 latest:
-  1.4.0--py311h93dcfea_0: 
-    sha256:2c606195fe03d6b1f99d67f3c42e123d108aa4fd337495bcfcda0d2c463190a4
+  1.5.0--py310h20b60a1_0: 
+    sha256:320dbd89fa1cb7a7f5f27051743364d3ecc36dfa5ea36d928c29680f0f3cef05
 tags:
   1.0--py310h581d4b6_1: 
     sha256:fa78041d8e23d2d0b5a3fac6235bf3f62ddab1f24763c31a19e7251dc3d49376
@@ -19,6 +19,10 @@ tags:
     sha256:48dab8fe8d0c7d3cd4ffbf88fee9941b2c1574fb77153fd48c969dc39506bcc8
   1.4.0--py311h93dcfea_0: 
     sha256:2c606195fe03d6b1f99d67f3c42e123d108aa4fd337495bcfcda0d2c463190a4
+  1.5.0--py310h20b60a1_0: 
+    sha256:320dbd89fa1cb7a7f5f27051743364d3ecc36dfa5ea36d928c29680f0f3cef05
+  1.4.1--py310h20b60a1_0: 
+    sha256:4b3da85b55cf5d8d5c2502b9bec553c488cbd4fe16728a2736ff0989169afdc5
 docker: quay.io/biocontainers/emu-pca
 aliases:
   emu: /usr/local/bin/emu

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ezcharts
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ezcharts
 latest:
-  0.15.0--pyhdfd78af_0: 
-    sha256:c3070de65f90ad533b88cc8fb68832c92b7e55bf0d9a0ba587bff6cf587a5276
+  0.15.2--pyhdfd78af_0: 
+    sha256:cb32b505c811293e5e12cb6d47a559515ce5af47e3c01bb6b5eec33f0dad34aa
 tags:
   0.10.2--pyhdfd78af_0: 
     sha256:e79ed572ab3ef06d2c9097b9ae3039b17a7e0684534b43fb36c6c59fd2d4555e
@@ -17,6 +17,8 @@ tags:
     sha256:61666c1635fc89e79bba196115ae4669fe4c709105f14c5f0c90285b598680d9
   0.15.0--pyhdfd78af_0: 
     sha256:c3070de65f90ad533b88cc8fb68832c92b7e55bf0d9a0ba587bff6cf587a5276
+  0.15.2--pyhdfd78af_0: 
+    sha256:cb32b505c811293e5e12cb6d47a559515ce5af47e3c01bb6b5eec33f0dad34aa
 docker: quay.io/biocontainers/ezcharts
 aliases:
   ezcharts: /usr/local/bin/ezcharts

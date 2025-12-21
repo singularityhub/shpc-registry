@@ -4,7 +4,7 @@ maintainer: '@vsoch'
 description: Elasticsearch is a powerful open source search and analytics engine
   that makes data easy to explore.
 latest:
-  9.2.1: 'crane digest elasticsearch:9.2.1: TOOMANYREQUESTS: You have reached your
+  9.2.3: 'crane digest elasticsearch:9.2.3: TOOMANYREQUESTS: You have reached your
     unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
   7.12.0: 
@@ -37,45 +37,60 @@ tags:
   7.17.4: 
     sha256:529b3cfec4354beda158c6c7f2f8015cbdc9432a48c1d63e824d6fd728f30db2
   8.3.1: sha256:bad94c9a0180cb4e6e81f09da4d510a761fec9fcba92c34af703233d3b615aea
-  8.2.3: sha256:f1363868e19aa721355f387a8e79a33496c56fb525d37bc27e032a5c1e540b1e
-  7.17.5: 
-    sha256:473c4c41654e5cf201a10291a38646eb3c4019a2c88532a2b66468d2e851b473
-  8.4.0: sha256:8e25bf1dcb35c3af54607dc0619ec3fbabc58830d3db856624bb1637b11a6e42
-  8.3.3: sha256:966ce0b0266b41dafb4739c4ce18fb7ed434723d0e9f21d9520d4e6f2cdda2e1
-  8.4.1: sha256:7dd81b0af4aa916cf58373d5befaad56f89b96dd5582ced9f63879ed2650802c
-  8.4.2: sha256:2145d5f6bf5bd623ec49346dea619a35224062532ca762a7c150115e9bca20b8
-  8.5.3: sha256:47c8ece048c9625b72b2f3fb6ea5eda5c6e918afe80f6bf5d474160cb28867fc
-  8.4.3: sha256:bb72a5788e156171b111d2fc21825d007f235c3314295aa86d0ef500678923bd
-  8.6.0: sha256:12d0ff50b96a53d2a8e103ba2e0e69187babc3dcf8bdc88788d019cdebb75c0c
-  8.6.1: sha256:6242ee491ce3bbdb60543ae31e095630da00a413fa7d3885966a0642734bb69d
-  8.6.2: sha256:93bc71907ca0e6e3b4f181e0dc850b90bb6cb2686c2778def0b8542398983c28
-  8.7.0: sha256:53e51bde90897d77fdbc53677331504bbbdcc788cb7aadcd8fe707a77733dbb5
-  8.7.1: sha256:160814e5972521291420c29edf4c0348b8591ac9235156f0dbf34befcf362825
-  8.8.1: sha256:e31753d052509353f99be86892bf5c65a070805aadbb295d1b3128163061ea68
-  8.10.1: 
-    sha256:097d6efc50c7a7eb2201b3f95be37f88217fefb5a3fef1548d63383f9201f862
-  8.9.2: sha256:38082e945768e8e98fc0d828c810baf0b63d58ddc9059db2a62e4c293e44e817
-  8.8.2: sha256:acb934176519afa01f195e06b6085a5159401be37cdd70c2fbcd04890581e41b
-  8.10.2: 
-    sha256:53efb4ba72e1c71c8223ee8d8de6537e8d992ad6cc8fcdf5dd944be93b6ab814
-  8.11.1: 
-    sha256:e9b31098201dc40200d7c445f328845d77e9cbb4fe0b38219d989462a9a4280a
-  8.10.4: 
-    sha256:180a0b356c6d1b5ae49063aac79e7b0be4ff4b3394070be986a207e367235822
-  8.11.3: 
-    sha256:58a3a280935d830215802322e9a0373faaacdfd646477aa7e718939c2f29292a
-  8.12.0: 
-    sha256:2529e4b8062e4b9f0a31bea3ee797a58dae4cfe2d2b5879b4a1b03250c7ad31c
-  8.11.4: 
-    sha256:0092c4086c3e0bc491293835566943a7fd22776c7c75b3f6bb1bc6905779e79a
-  8.12.1: 
-    sha256:8c18a68f086b0935c56a7d6fb02e602fc0e2265a31668c6679c7d159a302b1c1
-  8.12.2: 
-    sha256:1d183abc10a89d49a9a7c8c9aeebc32bbd9de91782b4b3d39a1318469f5ad8c3
-  8.13.0: 
-    sha256:9d1cd1491778aceca4490de7ec9f205c3633a277df15473e1ea507d13a5270c6
-  8.13.4: 
-    sha256:869aaaef33c8f318cd2905065dbd06275c6073b36d49434cfeeea0271ca67c21
+  8.2.3: 'crane digest elasticsearch:8.2.3: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  7.17.5: 'crane digest elasticsearch:7.17.5: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.4.0: 'crane digest elasticsearch:8.4.0: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.3.3: 'crane digest elasticsearch:8.3.3: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.4.1: 'crane digest elasticsearch:8.4.1: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.4.2: 'crane digest elasticsearch:8.4.2: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.5.3: 'crane digest elasticsearch:8.5.3: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.4.3: 'crane digest elasticsearch:8.4.3: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.6.0: 'crane digest elasticsearch:8.6.0: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.6.1: 'crane digest elasticsearch:8.6.1: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.6.2: 'crane digest elasticsearch:8.6.2: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.7.0: 'crane digest elasticsearch:8.7.0: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.7.1: 'crane digest elasticsearch:8.7.1: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.8.1: 'crane digest elasticsearch:8.8.1: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.10.1: 'crane digest elasticsearch:8.10.1: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.9.2: 'crane digest elasticsearch:8.9.2: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.8.2: 'crane digest elasticsearch:8.8.2: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.10.2: 'crane digest elasticsearch:8.10.2: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.11.1: 'crane digest elasticsearch:8.11.1: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.10.4: 'crane digest elasticsearch:8.10.4: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.11.3: 'crane digest elasticsearch:8.11.3: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.12.0: 'crane digest elasticsearch:8.12.0: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.11.4: 'crane digest elasticsearch:8.11.4: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.12.1: 'crane digest elasticsearch:8.12.1: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.12.2: 'crane digest elasticsearch:8.12.2: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.13.0: 'crane digest elasticsearch:8.13.0: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.13.4: 'crane digest elasticsearch:8.13.4: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
   8.14.1: 'crane digest elasticsearch:8.14.1: TOOMANYREQUESTS: You have reached your
     unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
   8.14.3: 'crane digest elasticsearch:8.14.3: TOOMANYREQUESTS: You have reached your
@@ -158,6 +173,12 @@ tags:
     unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
   8.19.7: 'crane digest elasticsearch:8.19.7: TOOMANYREQUESTS: You have reached your
     unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  9.2.3: 'crane digest elasticsearch:9.2.3: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  9.1.9: 'crane digest elasticsearch:9.1.9: TOOMANYREQUESTS: You have reached your
+    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.19.9: 
+    sha256:dee84085936b5b5fc3a6d322ff7545c939f99269b2d94bf19ea4af968893bbc4
 aliases:
   elasticsearch: /usr/share/elasticsearch/bin/elasticsearch
   elasticsearch-certgen: /usr/share/elasticsearch/bin/elasticsearch-certgen

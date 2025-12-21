@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/svarp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svarp
 latest:
-  1.0.1--h077b44d_0: 
-    sha256:81f4a3100d54f9cf8af1743decdb766ecc2a870d647039f435ecb2cd60176532
+  1.1.1--h077b44d_0: 
+    sha256:17f621b4631dd86a955cbd931ff9673bf14fd1417e8476998107269b2c4181e2
 tags:
   1.0.1--h077b44d_0: 
     sha256:81f4a3100d54f9cf8af1743decdb766ecc2a870d647039f435ecb2cd60176532
+  1.1.1--h077b44d_0: 
+    sha256:17f621b4631dd86a955cbd931ff9673bf14fd1417e8476998107269b2c4181e2
 docker: quay.io/biocontainers/svarp
 aliases:
   GraphAligner: /usr/local/bin/GraphAligner

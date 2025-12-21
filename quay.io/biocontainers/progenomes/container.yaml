@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/progenomes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for progenomes
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:58d1d46554adfbfa9bd99e6e3dbcde6aba680026e51f089924b08e63257fc02b
+  0.3.0--pyhdfd78af_0: 
+    sha256:2c8449dbaa544392a619d9df10c15741f1b53ab584c83628835ec3d107899da5
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:58d1d46554adfbfa9bd99e6e3dbcde6aba680026e51f089924b08e63257fc02b
+  0.3.0--pyhdfd78af_0: 
+    sha256:2c8449dbaa544392a619d9df10c15741f1b53ab584c83628835ec3d107899da5
 docker: quay.io/biocontainers/progenomes
 aliases:
   progenomes: /usr/local/bin/progenomes
