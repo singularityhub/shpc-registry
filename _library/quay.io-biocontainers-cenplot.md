@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cenplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cenplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cenplot/container.yaml"
-updated_at: "2025-12-20 04:03:24.305035"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2025-12-21 04:29:53.075942"
+latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cenplot"
 aliases:
  - "cenplot"
@@ -36,8 +36,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.1.4--pyhdfd78af_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cenplot"
-config: {"url": "https://biocontainers.pro/tools/cenplot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cenplot", "latest": {"0.1.4--pyhdfd78af_0": "sha256:2042bb687dd29775501f7afa2de00c4f222571801505a883c9662c8a22c59152"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:2042bb687dd29775501f7afa2de00c4f222571801505a883c9662c8a22c59152"}, "docker": "quay.io/biocontainers/cenplot", "aliases": {"cenplot": "/usr/local/bin/cenplot", "censtats": "/usr/local/bin/censtats", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/cenplot", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cenplot", "latest": {"0.1.5--pyhdfd78af_0": "sha256:0792f65d4c30e292fe0e6ebdedf3051dd4f6e567f739351a5b21d17ddbb6e7a3"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:2042bb687dd29775501f7afa2de00c4f222571801505a883c9662c8a22c59152", "0.1.5--pyhdfd78af_0": "sha256:0792f65d4c30e292fe0e6ebdedf3051dd4f6e567f739351a5b21d17ddbb6e7a3"}, "docker": "quay.io/biocontainers/cenplot", "aliases": {"cenplot": "/usr/local/bin/cenplot", "censtats": "/usr/local/bin/censtats", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cenplot.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/cenplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cenplot:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cenplot:0.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cenplot/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/cenplot/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/cenplot/0.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/cenplot/0.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

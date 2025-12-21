@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakefmt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakefmt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakefmt/container.yaml"
-updated_at: "2025-12-20 03:34:06.996691"
+updated_at: "2025-12-21 03:58:42.894717"
 latest: "0.11.2--pyha6daafd_0"
 container_url: "https://biocontainers.pro/tools/snakefmt"
 aliases:

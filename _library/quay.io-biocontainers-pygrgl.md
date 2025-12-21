@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygrgl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygrgl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygrgl/container.yaml"
-updated_at: "2025-12-20 03:47:09.027405"
+updated_at: "2025-12-21 04:12:36.835682"
 latest: "2.4--py310h275bdba_0"
 container_url: "https://biocontainers.pro/tools/pygrgl"
 aliases:
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.4--py310h275bdba_0"
+ - "2.4--py39h475c85d_0"
 description: "singularity registry hpc automated addition for pygrgl"
-config: {"url": "https://biocontainers.pro/tools/pygrgl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygrgl", "latest": {"2.4--py310h275bdba_0": "sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9"}, "tags": {"2.4--py310h275bdba_0": "sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9"}, "docker": "quay.io/biocontainers/pygrgl", "aliases": {"grg": "/usr/local/bin/grg", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pygrgl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygrgl", "latest": {"2.4--py310h275bdba_0": "sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9"}, "tags": {"2.4--py310h275bdba_0": "sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9", "2.4--py39h475c85d_0": "sha256:34931c2d4311ce89a20d1c19974a9503162fd2210ddf6132b8f31a5f541d0d0d"}, "docker": "quay.io/biocontainers/pygrgl", "aliases": {"grg": "/usr/local/bin/grg", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygrgl.
