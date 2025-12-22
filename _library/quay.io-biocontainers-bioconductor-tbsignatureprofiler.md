@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tbsignatureprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tbsignatureprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tbsignatureprofiler/container.yaml"
-updated_at: "2025-12-22 04:33:32.292305"
+updated_at: "2025-12-22 05:52:13.642394"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tbsignatureprofiler"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cleanifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cleanifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cleanifier/container.yaml"
-updated_at: "2025-12-22 04:34:03.563218"
+updated_at: "2025-12-22 05:52:42.038888"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cleanifier"
 aliases:

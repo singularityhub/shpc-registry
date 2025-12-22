@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epytope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epytope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epytope/container.yaml"
-updated_at: "2025-12-22 04:19:13.646641"
+updated_at: "2025-12-22 05:38:15.845314"
 latest: "3.3.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/epytope"
 aliases:

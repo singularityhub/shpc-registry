@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strawc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strawc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strawc/container.yaml"
-updated_at: "2025-12-22 04:09:04.564200"
+updated_at: "2025-12-22 05:27:51.132914"
 latest: "0.0.2.1--py312h7de72ed_6"
 container_url: "https://biocontainers.pro/tools/strawc"
 aliases:

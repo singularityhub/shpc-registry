@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ogstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ogstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ogstools/container.yaml"
-updated_at: "2025-12-22 04:09:35.474878"
+updated_at: "2025-12-22 05:28:22.152533"
 latest: "0.4.0"
 container_url: "https://biocontainers.pro/tools/ogstools"
 aliases:

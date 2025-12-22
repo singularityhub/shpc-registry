@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/carveme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/carveme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/carveme/container.yaml"
-updated_at: "2025-12-22 04:09:51.401201"
+updated_at: "2025-12-22 05:28:38.217643"
 latest: "1.6.6--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/carveme"
 aliases:

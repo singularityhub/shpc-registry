@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirtrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirtrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirtrace/container.yaml"
-updated_at: "2025-12-22 04:28:16.991464"
+updated_at: "2025-12-22 05:47:13.230429"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mirtrace"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genodsp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genodsp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genodsp/container.yaml"
-updated_at: "2025-12-22 04:10:50.082900"
+updated_at: "2025-12-22 05:29:37.918844"
 latest: "0.0.10--h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/genodsp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cormotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cormotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cormotif/container.yaml"
-updated_at: "2025-12-22 04:12:43.803035"
+updated_at: "2025-12-22 05:31:32.930603"
 latest: "1.52.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cormotif"
 

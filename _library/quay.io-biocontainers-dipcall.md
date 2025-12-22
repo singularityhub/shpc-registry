@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dipcall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dipcall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dipcall/container.yaml"
-updated_at: "2025-12-22 04:36:08.950029"
+updated_at: "2025-12-22 05:54:20.565746"
 latest: "0.3--0"
 container_url: "https://biocontainers.pro/tools/dipcall"
 aliases:

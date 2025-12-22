@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/curves"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/curves/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/curves/container.yaml"
-updated_at: "2025-12-22 03:48:46.184323"
+updated_at: "2025-12-22 05:07:00.960543"
 latest: "3.0.3--h70c14e6_1"
 container_url: "https://biocontainers.pro/tools/curves"
 aliases:

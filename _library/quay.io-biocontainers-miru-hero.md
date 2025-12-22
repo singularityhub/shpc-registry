@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/miru-hero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miru-hero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miru-hero/container.yaml"
-updated_at: "2025-12-22 04:05:09.487166"
+updated_at: "2025-12-22 05:23:57.770046"
 latest: "0.10.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/miru-hero"
 aliases:

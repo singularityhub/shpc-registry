@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pdatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pdatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pdatk/container.yaml"
-updated_at: "2025-12-22 04:00:24.258237"
+updated_at: "2025-12-22 05:19:02.087125"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pdatk"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaxa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaxa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaxa/container.yaml"
-updated_at: "2025-12-22 04:26:22.175549"
+updated_at: "2025-12-22 05:45:23.940301"
 latest: "2.2.3--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/metaxa"
 aliases:
