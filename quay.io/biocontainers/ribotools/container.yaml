@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ribotools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ribotools
 latest:
-  1.0.4--pyhdfd78af_0: 
-    sha256:efb6d084e132c0aa29d891d4116c6ac1635a085f56212304edaa558e5241337d
+  2.0.0--pyhdfd78af_0: 
+    sha256:7ed9d27e188e252385686f5295e8036576aaa6bbe4600b560577aa8bb0463c1a
 tags:
   1.0.4--pyhdfd78af_0: 
     sha256:efb6d084e132c0aa29d891d4116c6ac1635a085f56212304edaa558e5241337d
+  2.0.0--pyhdfd78af_0: 
+    sha256:7ed9d27e188e252385686f5295e8036576aaa6bbe4600b560577aa8bb0463c1a
 docker: quay.io/biocontainers/ribotools
 aliases:
   STAR-avx: /usr/local/bin/STAR-avx
