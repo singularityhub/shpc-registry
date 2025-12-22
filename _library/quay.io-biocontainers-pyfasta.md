@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyfasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfasta/container.yaml"
-updated_at: "2025-12-21 03:43:37.156982"
-latest: "0.5.2--py_1"
+updated_at: "2025-12-22 03:47:39.667001"
+latest: "0.5.2--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/pyfasta"
 aliases:
  - "pyfasta"
@@ -21,8 +21,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.5.2--py_1"
+ - "0.5.2--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for pyfasta"
-config: {"url": "https://biocontainers.pro/tools/pyfasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfasta", "latest": {"0.5.2--py_1": "sha256:f51e6b55352ce8088b2f9860c76f28d0a4e9b54091f8d718f0f078b15709a4eb"}, "tags": {"0.5.2--py_1": "sha256:f51e6b55352ce8088b2f9860c76f28d0a4e9b54091f8d718f0f078b15709a4eb"}, "docker": "quay.io/biocontainers/pyfasta", "aliases": {"pyfasta": "/usr/local/bin/pyfasta", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pyfasta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfasta", "latest": {"0.5.2--pyhdfd78af_2": "sha256:2d73a285eb28102e6fbeff95795ce787d34a768b7fa7198e79dbf03a5c8718f2"}, "tags": {"0.5.2--py_1": "sha256:f51e6b55352ce8088b2f9860c76f28d0a4e9b54091f8d718f0f078b15709a4eb", "0.5.2--pyhdfd78af_2": "sha256:2d73a285eb28102e6fbeff95795ce787d34a768b7fa7198e79dbf03a5c8718f2"}, "docker": "quay.io/biocontainers/pyfasta", "aliases": {"pyfasta": "/usr/local/bin/pyfasta", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfasta.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/pyfasta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyfasta:0.5.2--py_1
+$ shpc install quay.io/biocontainers/pyfasta:0.5.2--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyfasta/0.5.2--py_1
-$ module help quay.io/biocontainers/pyfasta/0.5.2--py_1
+$ module load quay.io/biocontainers/pyfasta/0.5.2--pyhdfd78af_2
+$ module help quay.io/biocontainers/pyfasta/0.5.2--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

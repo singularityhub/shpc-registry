@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextstrain-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextstrain-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextstrain-cli/container.yaml"
-updated_at: "2025-12-21 04:32:20.621028"
+updated_at: "2025-12-22 04:35:14.052004"
 latest: "10.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nextstrain-cli"
 aliases:

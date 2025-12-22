@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flagx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flagx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flagx/container.yaml"
-updated_at: "2025-12-21 04:17:52.298420"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2025-12-22 04:20:20.181439"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flagx"
 aliases:
  - "datashader"
@@ -40,8 +40,9 @@ aliases:
  - "h5delete"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flagx"
-config: {"url": "https://biocontainers.pro/tools/flagx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flagx", "latest": {"0.1.0--pyhdfd78af_0": "sha256:5589941de4f12972e5c98142e4da687cceaf13a78186afc036bf1f2d711b2a14"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:5589941de4f12972e5c98142e4da687cceaf13a78186afc036bf1f2d711b2a14"}, "docker": "quay.io/biocontainers/flagx", "aliases": {"datashader": "/usr/local/bin/datashader", "flagx": "/usr/local/bin/flagx", "nbproject": "/usr/local/bin/nbproject", "pyct": "/usr/local/bin/pyct", "zarr": "/usr/local/bin/zarr", "h5fuse": "/usr/local/bin/h5fuse", "scanpy": "/usr/local/bin/scanpy", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete"}}
+config: {"url": "https://biocontainers.pro/tools/flagx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flagx", "latest": {"0.2.0--pyhdfd78af_0": "sha256:d264ee15092d72c9ef7554111d867f258423944626d1a1159aa0345d2215dfd1"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:5589941de4f12972e5c98142e4da687cceaf13a78186afc036bf1f2d711b2a14", "0.2.0--pyhdfd78af_0": "sha256:d264ee15092d72c9ef7554111d867f258423944626d1a1159aa0345d2215dfd1"}, "docker": "quay.io/biocontainers/flagx", "aliases": {"datashader": "/usr/local/bin/datashader", "flagx": "/usr/local/bin/flagx", "nbproject": "/usr/local/bin/nbproject", "pyct": "/usr/local/bin/pyct", "zarr": "/usr/local/bin/zarr", "h5fuse": "/usr/local/bin/h5fuse", "scanpy": "/usr/local/bin/scanpy", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "h5delete": "/usr/local/bin/h5delete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flagx.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/flagx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flagx:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flagx:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flagx/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/flagx/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/flagx/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/flagx/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

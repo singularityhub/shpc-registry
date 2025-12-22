@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ncdfflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncdfflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncdfflow/container.yaml"
-updated_at: "2025-12-21 04:21:44.316557"
+updated_at: "2025-12-22 04:24:07.874510"
 latest: "2.52.0--r44h77050f0_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncdfflow"
 

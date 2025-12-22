@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathwaysplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathwaysplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathwaysplice/container.yaml"
-updated_at: "2025-12-21 04:18:34.562344"
+updated_at: "2025-12-22 04:21:00.386028"
 latest: "1.10.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathwaysplice"
 aliases:

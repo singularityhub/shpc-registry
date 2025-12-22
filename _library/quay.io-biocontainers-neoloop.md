@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neoloop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neoloop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neoloop/container.yaml"
-updated_at: "2025-12-21 04:13:50.570477"
+updated_at: "2025-12-22 04:16:29.571020"
 latest: "0.4.3.post2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/neoloop"
 aliases:

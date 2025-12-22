@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svarp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svarp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svarp/container.yaml"
-updated_at: "2025-12-21 03:49:56.138877"
-latest: "1.0.1--h077b44d_0"
+updated_at: "2025-12-22 03:53:39.297029"
+latest: "1.1.1--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/svarp"
 aliases:
  - "GraphAligner"
@@ -38,8 +38,9 @@ aliases:
  - "maq2sam-long"
 versions:
  - "1.0.1--h077b44d_0"
+ - "1.1.1--h077b44d_0"
 description: "singularity registry hpc automated addition for svarp"
-config: {"url": "https://biocontainers.pro/tools/svarp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svarp", "latest": {"1.0.1--h077b44d_0": "sha256:81f4a3100d54f9cf8af1743decdb766ecc2a870d647039f435ecb2cd60176532"}, "tags": {"1.0.1--h077b44d_0": "sha256:81f4a3100d54f9cf8af1743decdb766ecc2a870d647039f435ecb2cd60176532"}, "docker": "quay.io/biocontainers/svarp", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner", "svarp": "/usr/local/bin/svarp", "svarp-wtdbg2": "/usr/local/bin/svarp-wtdbg2", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "ref-cache": "/usr/local/bin/ref-cache", "bamtools": "/usr/local/bin/bamtools", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "protoc": "/usr/local/bin/protoc", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
+config: {"url": "https://biocontainers.pro/tools/svarp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svarp", "latest": {"1.1.1--h077b44d_0": "sha256:17f621b4631dd86a955cbd931ff9673bf14fd1417e8476998107269b2c4181e2"}, "tags": {"1.0.1--h077b44d_0": "sha256:81f4a3100d54f9cf8af1743decdb766ecc2a870d647039f435ecb2cd60176532", "1.1.1--h077b44d_0": "sha256:17f621b4631dd86a955cbd931ff9673bf14fd1417e8476998107269b2c4181e2"}, "docker": "quay.io/biocontainers/svarp", "aliases": {"GraphAligner": "/usr/local/bin/GraphAligner", "svarp": "/usr/local/bin/svarp", "svarp-wtdbg2": "/usr/local/bin/svarp-wtdbg2", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "ref-cache": "/usr/local/bin/ref-cache", "bamtools": "/usr/local/bin/bamtools", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "protoc": "/usr/local/bin/protoc", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svarp.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/svarp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svarp:1.0.1--h077b44d_0
+$ shpc install quay.io/biocontainers/svarp:1.1.1--h077b44d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svarp/1.0.1--h077b44d_0
-$ module help quay.io/biocontainers/svarp/1.0.1--h077b44d_0
+$ module load quay.io/biocontainers/svarp/1.1.1--h077b44d_0
+$ module help quay.io/biocontainers/svarp/1.1.1--h077b44d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

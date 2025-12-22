@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcftools-gtc2vcf-plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools-gtc2vcf-plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools-gtc2vcf-plugin/container.yaml"
-updated_at: "2025-12-21 03:52:37.066913"
+updated_at: "2025-12-22 03:56:10.494645"
 latest: "1.22--hb66fcc3_0"
 container_url: "https://biocontainers.pro/tools/bcftools-gtc2vcf-plugin"
 aliases:

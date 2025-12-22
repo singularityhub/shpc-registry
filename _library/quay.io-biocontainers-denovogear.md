@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/denovogear"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/denovogear/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/denovogear/container.yaml"
-updated_at: "2025-12-21 04:18:30.100663"
+updated_at: "2025-12-22 04:20:56.173133"
 latest: "1.1.1--boost1.60_0"
 container_url: "https://biocontainers.pro/tools/denovogear"
 aliases:

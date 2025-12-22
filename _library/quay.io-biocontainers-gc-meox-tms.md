@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gc-meox-tms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gc-meox-tms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gc-meox-tms/container.yaml"
-updated_at: "2025-12-21 04:05:27.935043"
+updated_at: "2025-12-22 04:08:31.810265"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gc-meox-tms"
 aliases:

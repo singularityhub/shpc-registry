@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgmql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgmql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgmql/container.yaml"
-updated_at: "2025-12-21 04:10:03.841683"
+updated_at: "2025-12-22 04:12:54.505612"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgmql"
 aliases:

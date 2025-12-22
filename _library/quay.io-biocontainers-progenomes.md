@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/progenomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/progenomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/progenomes/container.yaml"
-updated_at: "2025-12-21 03:48:34.423570"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2025-12-22 03:52:21.888030"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/progenomes"
 aliases:
  - "progenomes"
@@ -36,8 +36,9 @@ aliases:
  - "orc-metadata"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for progenomes"
-config: {"url": "https://biocontainers.pro/tools/progenomes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for progenomes", "latest": {"0.2.0--pyhdfd78af_0": "sha256:58d1d46554adfbfa9bd99e6e3dbcde6aba680026e51f089924b08e63257fc02b"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:58d1d46554adfbfa9bd99e6e3dbcde6aba680026e51f089924b08e63257fc02b"}, "docker": "quay.io/biocontainers/progenomes", "aliases": {"progenomes": "/usr/local/bin/progenomes", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata"}}
+config: {"url": "https://biocontainers.pro/tools/progenomes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for progenomes", "latest": {"0.3.0--pyhdfd78af_0": "sha256:2c8449dbaa544392a619d9df10c15741f1b53ab584c83628835ec3d107899da5"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:58d1d46554adfbfa9bd99e6e3dbcde6aba680026e51f089924b08e63257fc02b", "0.3.0--pyhdfd78af_0": "sha256:2c8449dbaa544392a619d9df10c15741f1b53ab584c83628835ec3d107899da5"}, "docker": "quay.io/biocontainers/progenomes", "aliases": {"progenomes": "/usr/local/bin/progenomes", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/progenomes.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/progenomes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/progenomes:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/progenomes:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/progenomes/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/progenomes/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/progenomes/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/progenomes/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggmsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggmsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggmsa/container.yaml"
-updated_at: "2025-12-21 04:04:18.542957"
+updated_at: "2025-12-22 04:07:23.272531"
 latest: "1.0.2--r44h3121a25_4"
 container_url: "https://biocontainers.pro/tools/r-ggmsa"
 aliases:
