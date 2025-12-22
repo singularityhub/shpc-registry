@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/density-fitness
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for density-fitness
+latest:
+  1.2.0--h077b44d_0: 
+    sha256:316527108db6ca8615d6fef361226f5f40904eeb89ede3b8fd4d1d956132b54d
+tags:
+  1.2.0--h077b44d_0: 
+    sha256:316527108db6ca8615d6fef361226f5f40904eeb89ede3b8fd4d1d956132b54d
+docker: quay.io/biocontainers/density-fitness
+aliases:
+  density-fitness: /usr/local/bin/density-fitness
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin

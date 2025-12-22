@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/portello
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for portello
+latest:
+  0.6.1--h9ee0642_0: 
+    sha256:def24ca1ee5438abf60cd1918e373231730242dc54cb5f509e52c6030a81e656
+tags:
+  0.6.1--h9ee0642_0: 
+    sha256:def24ca1ee5438abf60cd1918e373231730242dc54cb5f509e52c6030a81e656
+docker: quay.io/biocontainers/portello
+aliases:
+  portello: /usr/local/bin/portello
