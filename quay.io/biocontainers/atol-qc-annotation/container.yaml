@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/atol-qc-annotation
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for atol-qc-annotation
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:b554cc6c8d0cb1d5eb56d685cd1ab34395ea5cdc9a42a374b6886e5ce0b9bcb2
+  0.1.4--pyhdfd78af_0: 
+    sha256:e56e0c0c9377edb8b50c0aeb6bc26c93ab9ea53dc85a4ddb659535f49b5b79e7
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:b554cc6c8d0cb1d5eb56d685cd1ab34395ea5cdc9a42a374b6886e5ce0b9bcb2
+  0.1.4--pyhdfd78af_0: 
+    sha256:e56e0c0c9377edb8b50c0aeb6bc26c93ab9ea53dc85a4ddb659535f49b5b79e7
 docker: quay.io/biocontainers/atol-qc-annotation
 aliases:
   agat: /usr/local/bin/agat

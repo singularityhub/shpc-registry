@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/cenmap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cenmap
 latest:
-  1.1.0--h577a1d6_0: 
-    sha256:119a0829847c919ebe94cf466509c2e659bcaf3e8201e0735e2893bfaccdc01a
+  1.1.1--h577a1d6_0: 
+    sha256:0bf5c47d6df750d096fd4d07768b21a3c6f7f1598c335634b769aa729fc75ef4
 tags:
   1.0.4--h577a1d6_1: 
     sha256:5372e0ed0bda3f45e6df0f3736ffe5844acdf6d4d13698c5ae84f97c9df95be4
@@ -11,6 +11,8 @@ tags:
     sha256:f3e7617f81d5b68150076e68e43e16b1a6acd45f2f8a8b97ad5301a3ccd4e449
   1.1.0--h577a1d6_0: 
     sha256:119a0829847c919ebe94cf466509c2e659bcaf3e8201e0735e2893bfaccdc01a
+  1.1.1--h577a1d6_0: 
+    sha256:0bf5c47d6df750d096fd4d07768b21a3c6f7f1598c335634b769aa729fc75ef4
 docker: quay.io/biocontainers/cenmap
 aliases:
   bigRmskAlignBed.as: /usr/local/bin/bigRmskAlignBed.as

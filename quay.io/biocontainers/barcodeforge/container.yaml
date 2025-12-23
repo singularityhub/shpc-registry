@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/barcodeforge
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for barcodeforge
 latest:
-  1.1.1--pyhdfd78af_0: 
-    sha256:fb0fd0fbe7e53a4fdb6e8a46d1ca0423123b4e5c0d77d90e9d1a36809332e6e3
+  1.1.2--pyhdfd78af_0: 
+    sha256:345c49d9d1974f607442d6e956c5684ee2f31349d96b16ed412b87a896ef259c
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:8968127dbd4f8d45f9f676bf1749225e73c9c80261d13079ff3872341803a982
   1.1.1--pyhdfd78af_0: 
     sha256:fb0fd0fbe7e53a4fdb6e8a46d1ca0423123b4e5c0d77d90e9d1a36809332e6e3
+  1.1.2--pyhdfd78af_0: 
+    sha256:345c49d9d1974f607442d6e956c5684ee2f31349d96b16ed412b87a896ef259c
 docker: quay.io/biocontainers/barcodeforge
 aliases:
   augur: /usr/local/bin/augur

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mantis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mantis
 latest:
-  0.2--h2e03b76_3: 
-    sha256:9c9911ccc4264f0b91d763d588453b3ad078169592df0e1bf3e30b2e656a2a51
+  0.2--h4a1dfb3_4: 
+    sha256:d04fdf0caf77f8d967d4daf9dc849770acd2e1fad52e12961155a827c0763a75
 tags:
   0.2--h2e03b76_3: 
     sha256:9c9911ccc4264f0b91d763d588453b3ad078169592df0e1bf3e30b2e656a2a51
+  0.2--h4a1dfb3_4: 
+    sha256:d04fdf0caf77f8d967d4daf9dc849770acd2e1fad52e12961155a827c0763a75
 docker: quay.io/biocontainers/mantis
 aliases:
   mantis: /usr/local/bin/mantis
