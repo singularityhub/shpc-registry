@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/goalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goalign/container.yaml"
-updated_at: "2025-12-22 05:44:08.751615"
-latest: "0.3.9--h9ee0642_0"
+updated_at: "2025-12-23 04:10:18.668999"
+latest: "0.4.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/goalign"
 aliases:
  - "goalign"
@@ -16,8 +16,9 @@ versions:
  - "0.3.7--h9ee0642_0"
  - "0.3.8--h9ee0642_0"
  - "0.3.9--h9ee0642_0"
+ - "0.4.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for goalign"
-config: {"url": "https://biocontainers.pro/tools/goalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goalign", "latest": {"0.3.9--h9ee0642_0": "sha256:fdba3cca4bf4eea9cc5b917ae2d0a8902b10611c8ceab32fa2e3f4b593a87219"}, "tags": {"0.3.5--h4b4d50d_1": "sha256:6e4e94a717a283c00bcedb937a6d4a38939253f0124e52225a29b341b0cde1dd", "0.3.6--h9ee0642_0": "sha256:2279c6da8d61d3e2c55fda80ecc6aeb595ebd525867b787800d40d032db42012", "0.3.7--h9ee0642_0": "sha256:fabebc9f56a370b4577ff163fd213646f53e6f43ffa64745cf8ed13b7b7208e4", "0.3.8--h9ee0642_0": "sha256:5b9be0a9444f80e1c3db293699b624117d918ed4f7edeeea4fcc43db70e03a4d", "0.3.9--h9ee0642_0": "sha256:fdba3cca4bf4eea9cc5b917ae2d0a8902b10611c8ceab32fa2e3f4b593a87219"}, "docker": "quay.io/biocontainers/goalign", "aliases": {"goalign": "/usr/local/bin/goalign", "goalign_test.sh": "/usr/local/bin/goalign_test.sh"}}
+config: {"url": "https://biocontainers.pro/tools/goalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goalign", "latest": {"0.4.0--h9ee0642_0": "sha256:94ae982a2210e2adbbc9196a3ecba9ece1a5da750aedc4187eb0b4cc8d61b752"}, "tags": {"0.3.5--h4b4d50d_1": "sha256:6e4e94a717a283c00bcedb937a6d4a38939253f0124e52225a29b341b0cde1dd", "0.3.6--h9ee0642_0": "sha256:2279c6da8d61d3e2c55fda80ecc6aeb595ebd525867b787800d40d032db42012", "0.3.7--h9ee0642_0": "sha256:fabebc9f56a370b4577ff163fd213646f53e6f43ffa64745cf8ed13b7b7208e4", "0.3.8--h9ee0642_0": "sha256:5b9be0a9444f80e1c3db293699b624117d918ed4f7edeeea4fcc43db70e03a4d", "0.3.9--h9ee0642_0": "sha256:fdba3cca4bf4eea9cc5b917ae2d0a8902b10611c8ceab32fa2e3f4b593a87219", "0.4.0--h9ee0642_0": "sha256:94ae982a2210e2adbbc9196a3ecba9ece1a5da750aedc4187eb0b4cc8d61b752"}, "docker": "quay.io/biocontainers/goalign", "aliases": {"goalign": "/usr/local/bin/goalign", "goalign_test.sh": "/usr/local/bin/goalign_test.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/goalign.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/goalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/goalign:0.3.9--h9ee0642_0
+$ shpc install quay.io/biocontainers/goalign:0.4.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/goalign/0.3.9--h9ee0642_0
-$ module help quay.io/biocontainers/goalign/0.3.9--h9ee0642_0
+$ module load quay.io/biocontainers/goalign/0.4.0--h9ee0642_0
+$ module help quay.io/biocontainers/goalign/0.4.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

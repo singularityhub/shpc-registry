@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bifidoannotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bifidoannotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bifidoannotator/container.yaml"
-updated_at: "2025-12-22 05:27:49.384693"
+updated_at: "2025-12-23 03:53:46.568836"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bifidoannotator"
 aliases:

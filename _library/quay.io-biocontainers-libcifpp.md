@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/libcifpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libcifpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libcifpp/container.yaml"
-updated_at: "2025-12-22 05:17:30.052798"
-latest: "9.0.5--hddb1751_0"
+updated_at: "2025-12-23 03:43:28.156370"
+latest: "9.0.5--hddb1751_1"
 container_url: "https://biocontainers.pro/tools/libcifpp"
 
 versions:
@@ -26,8 +26,9 @@ versions:
  - "9.0.2--hddb1751_0"
  - "9.0.4--hddb1751_0"
  - "9.0.5--hddb1751_0"
+ - "9.0.5--hddb1751_1"
 description: "singularity registry hpc automated addition for libcifpp"
-config: {"url": "https://biocontainers.pro/tools/libcifpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libcifpp", "latest": {"9.0.5--hddb1751_0": "sha256:364e7ce5f0909cd645eaa2f3168e9b96a8cbf0e75bffe7f1e7a18d05b467dbc9"}, "tags": {"5.0.0--h46c59ee_0": "sha256:339abdd36e61aeb29221d0de8d0ceb05f96eec657ca3ffb0d4ba86cb568f2734", "5.0.0--hd9a51b5_2": "sha256:f5870c8cea236d1e532de1024f55ec92a8b0b29cc2e4e55b2b5609cf42578cef", "7.0.4--h2202e69_0": "sha256:6111bbf564d63390387efc6c9652b409594587ab8fdd120169463ed5e21b8142", "7.0.4--h43eeafb_1": "sha256:d6b7ca791e5c1d30fd8797323dd8b6599bc3df4f1c0d82ce094cd7f997691798", "7.0.5--h43eeafb_0": "sha256:99f1431883aa04214e90d2ea50f43efa974a997b91d108d433b30f90f017bb25", "7.0.7--h43eeafb_0": "sha256:764fc4263a884bed707e77270fe40679ca1c9ee5fa733e89125a48fd5c8e9406", "7.0.8--h43eeafb_0": "sha256:87c7d72bebf5c377fcdce79252fd803073ded26ff39c00fbef1e6f75247bc890", "7.0.8--h5ca1c30_1": "sha256:51bd6c53b5eb965b52c17876f07c5fab7285db327ca6cb10ea5cf5feb531541f", "7.0.9--h5ca1c30_0": "sha256:43f38159e1b4d75b00e84f7ba4a03cdff88ae5183addcf05b750914e286e3c71", "8.0.0--h077b44d_1": "sha256:b235831f02df3a672dbb7aee27519817f1a8d67659a3b376df1829e9da524375", "8.0.1--h077b44d_0": "sha256:567ef1285c1046d712643266fc2c09a3dd7e4bd0000dcc515f60c53a175b5a8b", "8.0.1--h077b44d_3": "sha256:188bc743a6edf8dc2658670bfb8784feae557a20ba1836ea4ed633d12a1c959b", "8.0.1--h077b44d_5": "sha256:a341ab8151a8cebd92ae36a0e201242ee8123b4e500d9a050c9959a4cf3b48f8", "7.0.9--h077b44d_3": "sha256:e4542c5dd0c17b24eb6ed0d32316298a55f8a81946799cc321daf4c87158de76", "9.0.2--hddb1751_0": "sha256:33c099874a802b3526bdc5be086296fea07e76feaddbcd223d4e58281e0e9e62", "9.0.4--hddb1751_0": "sha256:1fa3d68a297884084bff2d70e8b9bfa2251e5b23bfeb387989769939e4eeaf97", "9.0.5--hddb1751_0": "sha256:364e7ce5f0909cd645eaa2f3168e9b96a8cbf0e75bffe7f1e7a18d05b467dbc9"}, "docker": "quay.io/biocontainers/libcifpp"}
+config: {"url": "https://biocontainers.pro/tools/libcifpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libcifpp", "latest": {"9.0.5--hddb1751_1": "sha256:f6ab28670ba92ee64ae7d54061d97cba21df5bb83f9dcd36dede894d9a88c550"}, "tags": {"5.0.0--h46c59ee_0": "sha256:339abdd36e61aeb29221d0de8d0ceb05f96eec657ca3ffb0d4ba86cb568f2734", "5.0.0--hd9a51b5_2": "sha256:f5870c8cea236d1e532de1024f55ec92a8b0b29cc2e4e55b2b5609cf42578cef", "7.0.4--h2202e69_0": "sha256:6111bbf564d63390387efc6c9652b409594587ab8fdd120169463ed5e21b8142", "7.0.4--h43eeafb_1": "sha256:d6b7ca791e5c1d30fd8797323dd8b6599bc3df4f1c0d82ce094cd7f997691798", "7.0.5--h43eeafb_0": "sha256:99f1431883aa04214e90d2ea50f43efa974a997b91d108d433b30f90f017bb25", "7.0.7--h43eeafb_0": "sha256:764fc4263a884bed707e77270fe40679ca1c9ee5fa733e89125a48fd5c8e9406", "7.0.8--h43eeafb_0": "sha256:87c7d72bebf5c377fcdce79252fd803073ded26ff39c00fbef1e6f75247bc890", "7.0.8--h5ca1c30_1": "sha256:51bd6c53b5eb965b52c17876f07c5fab7285db327ca6cb10ea5cf5feb531541f", "7.0.9--h5ca1c30_0": "sha256:43f38159e1b4d75b00e84f7ba4a03cdff88ae5183addcf05b750914e286e3c71", "8.0.0--h077b44d_1": "sha256:b235831f02df3a672dbb7aee27519817f1a8d67659a3b376df1829e9da524375", "8.0.1--h077b44d_0": "sha256:567ef1285c1046d712643266fc2c09a3dd7e4bd0000dcc515f60c53a175b5a8b", "8.0.1--h077b44d_3": "sha256:188bc743a6edf8dc2658670bfb8784feae557a20ba1836ea4ed633d12a1c959b", "8.0.1--h077b44d_5": "sha256:a341ab8151a8cebd92ae36a0e201242ee8123b4e500d9a050c9959a4cf3b48f8", "7.0.9--h077b44d_3": "sha256:e4542c5dd0c17b24eb6ed0d32316298a55f8a81946799cc321daf4c87158de76", "9.0.2--hddb1751_0": "sha256:33c099874a802b3526bdc5be086296fea07e76feaddbcd223d4e58281e0e9e62", "9.0.4--hddb1751_0": "sha256:1fa3d68a297884084bff2d70e8b9bfa2251e5b23bfeb387989769939e4eeaf97", "9.0.5--hddb1751_0": "sha256:364e7ce5f0909cd645eaa2f3168e9b96a8cbf0e75bffe7f1e7a18d05b467dbc9", "9.0.5--hddb1751_1": "sha256:f6ab28670ba92ee64ae7d54061d97cba21df5bb83f9dcd36dede894d9a88c550"}, "docker": "quay.io/biocontainers/libcifpp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libcifpp.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/libcifpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libcifpp:9.0.5--hddb1751_0
+$ shpc install quay.io/biocontainers/libcifpp:9.0.5--hddb1751_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libcifpp/9.0.5--hddb1751_0
-$ module help quay.io/biocontainers/libcifpp/9.0.5--hddb1751_0
+$ module load quay.io/biocontainers/libcifpp/9.0.5--hddb1751_1
+$ module help quay.io/biocontainers/libcifpp/9.0.5--hddb1751_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

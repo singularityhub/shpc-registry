@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/montreal-forced-aligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/montreal-forced-aligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/montreal-forced-aligner/container.yaml"
-updated_at: "2025-12-22 05:40:40.022986"
+updated_at: "2025-12-23 04:06:49.038757"
 latest: "3.3.8"
 container_url: "https://biocontainers.pro/tools/montreal-forced-aligner"
 aliases:

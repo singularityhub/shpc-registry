@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ecopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecopy/container.yaml"
-updated_at: "2025-12-22 05:48:52.307923"
+updated_at: "2025-12-23 04:15:06.915120"
 latest: "0.1.2.2--py35h470a237_1"
 container_url: "https://biocontainers.pro/tools/ecopy"
 

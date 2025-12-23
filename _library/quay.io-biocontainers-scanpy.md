@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanpy/container.yaml"
-updated_at: "2025-12-22 05:28:31.564658"
+updated_at: "2025-12-23 03:54:30.016390"
 latest: "1.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scanpy"
 
