@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/flair
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for flair
 latest:
-  2.2.0--pyhdfd78af_0: 
-    sha256:bba7f6e75104a1de0e70338ccfd3610b7db703a88159b4c53503e8e00a4f576f
+  3.0.0b1--pyhdfd78af_0: 
+    sha256:ff89ee45caacfeda2ab05c49028214066aeaaf141eeef0a514c88c095d689806
 tags:
   1.6.4--pyhdfd78af_0: 
     sha256:5de2354fa7fe9cb8e65048f82ca4bbb190bc813c74ffc60cc1df12f02d0b87b8
@@ -17,6 +17,8 @@ tags:
     sha256:0b34f0a98deb350854fbaf63b73e9be1403943a8bb5ad97fe8a42079ff13bcb9
   2.2.0--pyhdfd78af_0: 
     sha256:bba7f6e75104a1de0e70338ccfd3610b7db703a88159b4c53503e8e00a4f576f
+  3.0.0b1--pyhdfd78af_0: 
+    sha256:ff89ee45caacfeda2ab05c49028214066aeaaf141eeef0a514c88c095d689806
 docker: quay.io/biocontainers/flair
 aliases:
   bam2Bed12: /usr/local/bin/bam2Bed12

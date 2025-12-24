@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/syny
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for syny
 latest:
-  1.3.0--py312pl5321h7e72e81_0: 
-    sha256:edeb1ed2f6b104fac3870275d5fccfcf8cf4de17cbae46aec38ff925b1dc43a0
+  1.3.1--py312pl5321h7e72e81_0: 
+    sha256:5077ad6cd4bdbd9bf260d8ac11616e4ce137525119e126a6753ce92a3ecd2d8b
 tags:
   1.1a--py310pl5321h7cba7a3_0: 
     sha256:c027b916c244e091035032d6a44c4ad34f76252e6c4dcef8ac4551d002d4668b
@@ -13,6 +13,8 @@ tags:
     sha256:d8e88a697f8bdb8b90e6cb520b9ede1566b2ba96b1b5b64bd1a77d355efe2101
   1.3.0--py312pl5321h7e72e81_0: 
     sha256:edeb1ed2f6b104fac3870275d5fccfcf8cf4de17cbae46aec38ff925b1dc43a0
+  1.3.1--py312pl5321h7e72e81_0: 
+    sha256:5077ad6cd4bdbd9bf260d8ac11616e4ce137525119e126a6753ce92a3ecd2d8b
 docker: quay.io/biocontainers/syny
 aliases:
   Arabidopsis.sh: /usr/local/bin/Arabidopsis.sh

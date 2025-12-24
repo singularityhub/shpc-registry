@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/massdash
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for massdash
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:6008a34124019183370f2dd138a803b6e969b5a06262ef1aed436819fbee2c8f
+  0.1.1--pyhdfd78af_0: 
+    sha256:db1d8e336c5b44dd0deaa87490a394200c36b914c281c6fce764ea345e111579
 tags:
   0.0.6--pyh7cba7a3_0: 
     sha256:dd4a313954ad507e11b81a96b5432ee9dd7907a021fd37612a59d2498344aa30
@@ -13,6 +13,8 @@ tags:
     sha256:fc666e5f337704c8d9e2d4ea022cf92f01828ffa5bb62bbd8c52280785960d95
   0.1.0--pyhdfd78af_0: 
     sha256:6008a34124019183370f2dd138a803b6e969b5a06262ef1aed436819fbee2c8f
+  0.1.1--pyhdfd78af_0: 
+    sha256:db1d8e336c5b44dd0deaa87490a394200c36b914c281c6fce764ea345e111579
 docker: quay.io/biocontainers/massdash
 aliases:
   genl-ctrl-list: /usr/local/bin/genl-ctrl-list
