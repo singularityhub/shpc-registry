@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/requests-cache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests-cache/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests-cache/container.yaml"
-updated_at: "2025-12-23 03:34:27.415070"
+updated_at: "2025-12-24 03:31:43.671212"
 latest: "0.4.10--py35_0"
 container_url: "https://biocontainers.pro/tools/requests-cache"
 aliases:

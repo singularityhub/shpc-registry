@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clair3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clair3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clair3/container.yaml"
-updated_at: "2025-12-23 03:36:43.802986"
+updated_at: "2025-12-24 03:33:55.582437"
 latest: "1.2.0--py310h779eee5_0"
 container_url: "https://biocontainers.pro/tools/clair3"
 aliases:

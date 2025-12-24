@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mantis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mantis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mantis/container.yaml"
-updated_at: "2025-12-23 03:54:05.566316"
-latest: "0.2--h2e03b76_3"
+updated_at: "2025-12-24 03:50:41.099199"
+latest: "0.2--h4a1dfb3_4"
 container_url: "https://biocontainers.pro/tools/mantis"
 aliases:
  - "mantis"
 versions:
  - "0.2--h2e03b76_3"
+ - "0.2--h4a1dfb3_4"
 description: "shpc-registry automated BioContainers addition for mantis"
-config: {"url": "https://biocontainers.pro/tools/mantis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mantis", "latest": {"0.2--h2e03b76_3": "sha256:9c9911ccc4264f0b91d763d588453b3ad078169592df0e1bf3e30b2e656a2a51"}, "tags": {"0.2--h2e03b76_3": "sha256:9c9911ccc4264f0b91d763d588453b3ad078169592df0e1bf3e30b2e656a2a51"}, "docker": "quay.io/biocontainers/mantis", "aliases": {"mantis": "/usr/local/bin/mantis"}}
+config: {"url": "https://biocontainers.pro/tools/mantis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mantis", "latest": {"0.2--h4a1dfb3_4": "sha256:d04fdf0caf77f8d967d4daf9dc849770acd2e1fad52e12961155a827c0763a75"}, "tags": {"0.2--h2e03b76_3": "sha256:9c9911ccc4264f0b91d763d588453b3ad078169592df0e1bf3e30b2e656a2a51", "0.2--h4a1dfb3_4": "sha256:d04fdf0caf77f8d967d4daf9dc849770acd2e1fad52e12961155a827c0763a75"}, "docker": "quay.io/biocontainers/mantis", "aliases": {"mantis": "/usr/local/bin/mantis"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mantis.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mantis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mantis:0.2--h2e03b76_3
+$ shpc install quay.io/biocontainers/mantis:0.2--h4a1dfb3_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mantis/0.2--h2e03b76_3
-$ module help quay.io/biocontainers/mantis/0.2--h2e03b76_3
+$ module load quay.io/biocontainers/mantis/0.2--h4a1dfb3_4
+$ module help quay.io/biocontainers/mantis/0.2--h4a1dfb3_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

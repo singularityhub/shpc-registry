@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sampei"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sampei/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sampei/container.yaml"
-updated_at: "2025-12-23 04:19:59.591064"
+updated_at: "2025-12-24 04:15:20.015151"
 latest: "0.0.9--py_0"
 container_url: "https://biocontainers.pro/tools/sampei"
 aliases:

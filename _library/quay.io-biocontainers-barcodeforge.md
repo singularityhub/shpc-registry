@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/barcodeforge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barcodeforge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barcodeforge/container.yaml"
-updated_at: "2025-12-23 03:46:01.615016"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2025-12-24 03:42:53.802315"
+latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/barcodeforge"
 aliases:
  - "augur"
@@ -62,8 +62,9 @@ aliases:
 versions:
  - "1.0.0--pyhdfd78af_0"
  - "1.1.1--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for barcodeforge"
-config: {"url": "https://biocontainers.pro/tools/barcodeforge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for barcodeforge", "latest": {"1.1.1--pyhdfd78af_0": "sha256:fb0fd0fbe7e53a4fdb6e8a46d1ca0423123b4e5c0d77d90e9d1a36809332e6e3"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:8968127dbd4f8d45f9f676bf1749225e73c9c80261d13079ff3872341803a982", "1.1.1--pyhdfd78af_0": "sha256:fb0fd0fbe7e53a4fdb6e8a46d1ca0423123b4e5c0d77d90e9d1a36809332e6e3"}, "docker": "quay.io/biocontainers/barcodeforge", "aliases": {"augur": "/usr/local/bin/augur", "barcodeforge": "/usr/local/bin/barcodeforge", "bottle.py": "/usr/local/bin/bottle.py", "dsdp5": "/usr/local/bin/dsdp5", "ete4": "/usr/local/bin/ete4", "faToVcf": "/usr/local/bin/faToVcf", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "matOptimize": "/usr/local/bin/matOptimize", "matUtils": "/usr/local/bin/matUtils", "ripples": "/usr/local/bin/ripples", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "stringify": "/usr/local/bin/stringify", "sumlabels": "/usr/local/bin/sumlabels", "sumtrees": "/usr/local/bin/sumtrees", "treetime": "/usr/local/bin/treetime", "usher": "/usr/local/bin/usher", "vcftools": "/usr/local/bin/vcftools", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert", "vcf-fix-newlines": "/usr/local/bin/vcf-fix-newlines", "vcf-fix-ploidy": "/usr/local/bin/vcf-fix-ploidy", "vcf-indel-stats": "/usr/local/bin/vcf-indel-stats", "vcf-isec": "/usr/local/bin/vcf-isec", "vcf-merge": "/usr/local/bin/vcf-merge", "vcf-phased-join": "/usr/local/bin/vcf-phased-join", "vcf-query": "/usr/local/bin/vcf-query", "vcf-shuffle-cols": "/usr/local/bin/vcf-shuffle-cols", "vcf-sort": "/usr/local/bin/vcf-sort", "vcf-stats": "/usr/local/bin/vcf-stats", "vcf-subset": "/usr/local/bin/vcf-subset", "vcf-to-tab": "/usr/local/bin/vcf-to-tab", "vcf-tstv": "/usr/local/bin/vcf-tstv", "vcf-validator": "/usr/local/bin/vcf-validator", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1"}}
+config: {"url": "https://biocontainers.pro/tools/barcodeforge", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for barcodeforge", "latest": {"1.1.2--pyhdfd78af_0": "sha256:345c49d9d1974f607442d6e956c5684ee2f31349d96b16ed412b87a896ef259c"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:8968127dbd4f8d45f9f676bf1749225e73c9c80261d13079ff3872341803a982", "1.1.1--pyhdfd78af_0": "sha256:fb0fd0fbe7e53a4fdb6e8a46d1ca0423123b4e5c0d77d90e9d1a36809332e6e3", "1.1.2--pyhdfd78af_0": "sha256:345c49d9d1974f607442d6e956c5684ee2f31349d96b16ed412b87a896ef259c"}, "docker": "quay.io/biocontainers/barcodeforge", "aliases": {"augur": "/usr/local/bin/augur", "barcodeforge": "/usr/local/bin/barcodeforge", "bottle.py": "/usr/local/bin/bottle.py", "dsdp5": "/usr/local/bin/dsdp5", "ete4": "/usr/local/bin/ete4", "faToVcf": "/usr/local/bin/faToVcf", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "matOptimize": "/usr/local/bin/matOptimize", "matUtils": "/usr/local/bin/matUtils", "ripples": "/usr/local/bin/ripples", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "stringify": "/usr/local/bin/stringify", "sumlabels": "/usr/local/bin/sumlabels", "sumtrees": "/usr/local/bin/sumtrees", "treetime": "/usr/local/bin/treetime", "usher": "/usr/local/bin/usher", "vcftools": "/usr/local/bin/vcftools", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert", "vcf-fix-newlines": "/usr/local/bin/vcf-fix-newlines", "vcf-fix-ploidy": "/usr/local/bin/vcf-fix-ploidy", "vcf-indel-stats": "/usr/local/bin/vcf-indel-stats", "vcf-isec": "/usr/local/bin/vcf-isec", "vcf-merge": "/usr/local/bin/vcf-merge", "vcf-phased-join": "/usr/local/bin/vcf-phased-join", "vcf-query": "/usr/local/bin/vcf-query", "vcf-shuffle-cols": "/usr/local/bin/vcf-shuffle-cols", "vcf-sort": "/usr/local/bin/vcf-sort", "vcf-stats": "/usr/local/bin/vcf-stats", "vcf-subset": "/usr/local/bin/vcf-subset", "vcf-to-tab": "/usr/local/bin/vcf-to-tab", "vcf-tstv": "/usr/local/bin/vcf-tstv", "vcf-validator": "/usr/local/bin/vcf-validator", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/barcodeforge.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/barcodeforge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/barcodeforge:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/barcodeforge:1.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/barcodeforge/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/barcodeforge/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/barcodeforge/1.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/barcodeforge/1.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

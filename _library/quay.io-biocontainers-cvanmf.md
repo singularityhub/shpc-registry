@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cvanmf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cvanmf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cvanmf/container.yaml"
-updated_at: "2025-12-23 03:36:21.374746"
+updated_at: "2025-12-24 03:33:34.402181"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cvanmf"
 aliases:

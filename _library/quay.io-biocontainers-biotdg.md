@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biotdg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biotdg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biotdg/container.yaml"
-updated_at: "2025-12-23 04:10:40.771586"
+updated_at: "2025-12-24 04:06:33.130256"
 latest: "0.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/biotdg"
 aliases:
