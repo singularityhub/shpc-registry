@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-isobar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isobar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isobar/container.yaml"
-updated_at: "2025-12-24 03:32:03.581616"
+updated_at: "2025-12-25 03:43:12.236615"
 latest: "1.52.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isobar"
 

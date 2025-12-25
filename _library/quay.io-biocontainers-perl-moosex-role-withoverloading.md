@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-role-withoverloading"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-role-withoverloading/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-role-withoverloading/container.yaml"
-updated_at: "2025-12-24 04:01:23.017274"
+updated_at: "2025-12-25 04:09:52.625037"
 latest: "0.17--pl5321h9948957_6"
 container_url: "https://biocontainers.pro/tools/perl-moosex-role-withoverloading"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/altex-be"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/altex-be/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/altex-be/container.yaml"
-updated_at: "2025-12-24 04:17:47.569743"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2025-12-25 04:24:56.806866"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/altex-be"
 aliases:
  - "altex-be"
@@ -36,8 +36,9 @@ aliases:
  - "mergeBed"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for altex-be"
-config: {"url": "https://biocontainers.pro/tools/altex-be", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for altex-be", "latest": {"1.0.2--pyhdfd78af_0": "sha256:77196629f605ec487db3bffd002aa168ac05b5f887369b9aa61ac447f885d6c7"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:77196629f605ec487db3bffd002aa168ac05b5f887369b9aa61ac447f885d6c7"}, "docker": "quay.io/biocontainers/altex-be", "aliases": {"altex-be": "/usr/local/bin/altex-be", "numpy-config": "/usr/local/bin/numpy-config", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed"}}
+config: {"url": "https://biocontainers.pro/tools/altex-be", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for altex-be", "latest": {"1.0.3--pyhdfd78af_0": "sha256:b97ab097dadf320cba3f88d596fad34ce7c5af7fc60fd078690ebaef1268799d"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:77196629f605ec487db3bffd002aa168ac05b5f887369b9aa61ac447f885d6c7", "1.0.3--pyhdfd78af_0": "sha256:b97ab097dadf320cba3f88d596fad34ce7c5af7fc60fd078690ebaef1268799d"}, "docker": "quay.io/biocontainers/altex-be", "aliases": {"altex-be": "/usr/local/bin/altex-be", "numpy-config": "/usr/local/bin/numpy-config", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed", "complementBed": "/usr/local/bin/complementBed", "coverageBed": "/usr/local/bin/coverageBed", "expandCols": "/usr/local/bin/expandCols", "fastaFromBed": "/usr/local/bin/fastaFromBed", "flankBed": "/usr/local/bin/flankBed", "genomeCoverageBed": "/usr/local/bin/genomeCoverageBed", "getOverlap": "/usr/local/bin/getOverlap", "groupBy": "/usr/local/bin/groupBy", "intersectBed": "/usr/local/bin/intersectBed", "linksBed": "/usr/local/bin/linksBed", "mapBed": "/usr/local/bin/mapBed", "maskFastaFromBed": "/usr/local/bin/maskFastaFromBed", "mergeBed": "/usr/local/bin/mergeBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/altex-be.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/altex-be
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/altex-be:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/altex-be:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/altex-be/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/altex-be/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/altex-be/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/altex-be/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alabaster.ranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alabaster.ranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alabaster.ranges/container.yaml"
-updated_at: "2025-12-24 03:51:12.365701"
+updated_at: "2025-12-25 04:00:33.588309"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alabaster.ranges"
 aliases:
