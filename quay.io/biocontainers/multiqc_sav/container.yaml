@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/multiqc_sav
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for multiqc_sav
 latest:
-  0.0.3--pyh5e36f6f_0: 
-    sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896
+  0.2.0--pyh7e72e81_0: 
+    sha256:20f11759fbf27317b471e54e071f9b6cfc7fa150a2bf282ca8084a5cc399a553
 tags:
   0.0.3--pyh5e36f6f_0: 
     sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896
+  0.2.0--pyh7e72e81_0: 
+    sha256:20f11759fbf27317b471e54e071f9b6cfc7fa150a2bf282ca8084a5cc399a553
 docker: quay.io/biocontainers/multiqc_sav
 aliases:
   interop_aggregate: /usr/local/bin/interop_aggregate
