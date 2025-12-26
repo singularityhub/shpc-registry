@@ -4,8 +4,8 @@ name:  "bids/validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/validator/container.yaml"
-updated_at: "2025-12-25 04:26:34.444741"
-latest: "2.2.3"
+updated_at: "2025-12-26 04:26:16.073064"
+latest: "2.5.6"
 container_url: "https://hub.docker.com/r/bids/validator"
 aliases:
  - "bids-validator"
@@ -24,8 +24,10 @@ versions:
  - "2.2.0"
  - "2.1.1"
  - "2.2.3"
+ - "2.5.6"
+ - "2.2.6"
 description: "A validator for BIDS (Brain Imaging Data Structure) datasets."
-config: {"docker": "bids/validator", "url": "https://hub.docker.com/r/bids/validator", "maintainer": "@vsoch", "description": "A validator for BIDS (Brain Imaging Data Structure) datasets.", "latest": {"2.2.3": "crane digest bids/validator:2.2.3: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "tags": {"latest": "sha256:cd372eba5ae5345e3a3bc49ce2ac22f6be94b9261fba8283c3e0f46c1655b49e", "v1.7.0": "sha256:51c9481b357448cc2138909e03dfa8e053d424d5e776e94dbec929aeb96f9563", "v1.7.1": "sha256:d07b847f26e77e842abfd5b964f8553eb458ca796f4f0f5d1ca8d9290552ac2c", "v1.7.3-dev.0": "sha256:48d468d43b72ebb67014b33927171742d299c54c3e1c1db263a161b8917ca077", "v1.7.4-dev.0": "sha256:ab01a4d1105dd71d336d045e5787994299d66c927f2a42e231dde510c9c48a9a", "v1.8.1-dev.0": "sha256:8940256846cf4a98645760c6a03e5ee9686bdadfbbabfa8ed5f4a3e47fb0c910", "v1.8.5": "sha256:a2b52f99dd4571079bbe7547acaba3f6689b074de90e25fb85175568d2026705", "v1.8.9": "sha256:ee3d031f5096ace592fedfe87a095b4b634edcc5a8f464783034168257db90c0", "v1.9.2": "sha256:0c15cecae3919db5a14d43495cb2f2663b04c7f6cb049b7fdcfec3102284fe36", "2.1.0": "sha256:345eaf3684ac8d99d537b4f0c2fc810e0944fe417a4f44e74fd4241affa28e94", "2.0.11": "sha256:295e99ad5fd92dd6798e0497b5c83ff6e6b7840eea48e6e9c827dba8ec607571", "2.2.0": "crane digest bids/validator:2.2.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.1.1": "crane digest bids/validator:2.1.1: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.2.3": "crane digest bids/validator:2.2.3: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "filter": ["v*"], "aliases": {"bids-validator": "/usr/local/bin/bids-validator"}}
+config: {"docker": "bids/validator", "url": "https://hub.docker.com/r/bids/validator", "maintainer": "@vsoch", "description": "A validator for BIDS (Brain Imaging Data Structure) datasets.", "latest": {"2.5.6": "crane digest bids/validator:2.5.6: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "tags": {"latest": "sha256:9dfffd2b77fd3331a9d6b790a44ad6e2878780c1d3bfbd30b7dc5d4d6114245d", "v1.7.0": "sha256:51c9481b357448cc2138909e03dfa8e053d424d5e776e94dbec929aeb96f9563", "v1.7.1": "sha256:d07b847f26e77e842abfd5b964f8553eb458ca796f4f0f5d1ca8d9290552ac2c", "v1.7.3-dev.0": "crane digest bids/validator:v1.7.3-dev.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "v1.7.4-dev.0": "crane digest bids/validator:v1.7.4-dev.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "v1.8.1-dev.0": "crane digest bids/validator:v1.8.1-dev.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "v1.8.5": "crane digest bids/validator:v1.8.5: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "v1.8.9": "crane digest bids/validator:v1.8.9: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "v1.9.2": "crane digest bids/validator:v1.9.2: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.1.0": "crane digest bids/validator:2.1.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.0.11": "crane digest bids/validator:2.0.11: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.2.0": "crane digest bids/validator:2.2.0: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.1.1": "crane digest bids/validator:2.1.1: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.2.3": "crane digest bids/validator:2.2.3: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.5.6": "crane digest bids/validator:2.5.6: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.2.6": "crane digest bids/validator:2.2.6: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "filter": ["v*"], "aliases": {"bids-validator": "/usr/local/bin/bids-validator"}}
 ---
 
 This module is a singularity container wrapper for bids/validator.
@@ -40,7 +42,7 @@ $ shpc install bids/validator
 Or a specific version:
 
 ```bash
-$ shpc install bids/validator:2.2.3
+$ shpc install bids/validator:2.5.6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/validator/2.2.3
-$ module help bids/validator/2.2.3
+$ module load bids/validator/2.5.6
+$ module help bids/validator/2.5.6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

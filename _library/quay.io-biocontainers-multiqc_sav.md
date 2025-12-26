@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multiqc_sav"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc_sav/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc_sav/container.yaml"
-updated_at: "2025-12-25 04:07:22.421541"
-latest: "0.0.3--pyh5e36f6f_0"
+updated_at: "2025-12-26 04:02:56.815755"
+latest: "0.2.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/multiqc_sav"
 aliases:
  - "interop_aggregate"
@@ -32,8 +32,9 @@ aliases:
  - "ttx"
 versions:
  - "0.0.3--pyh5e36f6f_0"
+ - "0.2.0--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for multiqc_sav"
-config: {"url": "https://biocontainers.pro/tools/multiqc_sav", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiqc_sav", "latest": {"0.0.3--pyh5e36f6f_0": "sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896"}, "tags": {"0.0.3--pyh5e36f6f_0": "sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896"}, "docker": "quay.io/biocontainers/multiqc_sav", "aliases": {"interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "multiqc": "/usr/local/bin/multiqc", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown_py": "/usr/local/bin/markdown_py", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
+config: {"url": "https://biocontainers.pro/tools/multiqc_sav", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiqc_sav", "latest": {"0.2.0--pyh7e72e81_0": "sha256:20f11759fbf27317b471e54e071f9b6cfc7fa150a2bf282ca8084a5cc399a553"}, "tags": {"0.0.3--pyh5e36f6f_0": "sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896", "0.2.0--pyh7e72e81_0": "sha256:20f11759fbf27317b471e54e071f9b6cfc7fa150a2bf282ca8084a5cc399a553"}, "docker": "quay.io/biocontainers/multiqc_sav", "aliases": {"interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "multiqc": "/usr/local/bin/multiqc", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown_py": "/usr/local/bin/markdown_py", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multiqc_sav.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/multiqc_sav
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multiqc_sav:0.0.3--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/multiqc_sav:0.2.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multiqc_sav/0.0.3--pyh5e36f6f_0
-$ module help quay.io/biocontainers/multiqc_sav/0.0.3--pyh5e36f6f_0
+$ module load quay.io/biocontainers/multiqc_sav/0.2.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/multiqc_sav/0.2.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

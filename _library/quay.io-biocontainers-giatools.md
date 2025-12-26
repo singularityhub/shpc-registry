@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/giatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/giatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/giatools/container.yaml"
-updated_at: "2025-12-25 03:49:27.649144"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2025-12-26 03:41:08.598077"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/giatools"
 aliases:
  - "SvtAv1DecApp"
@@ -44,8 +44,10 @@ versions:
  - "0.3.2--pyhdfd78af_0"
  - "0.4.0--pyhdfd78af_0"
  - "0.4.1--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
+ - "0.5.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for giatools"
-config: {"url": "https://biocontainers.pro/tools/giatools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for giatools", "latest": {"0.4.1--pyhdfd78af_0": "sha256:1d5f256455831e5eb935bb4d4c548f7de1a917d92eeb1e64388d36bfe5f0bbb6"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:724daa314753502508037844637a3f3341b1647b0744dd9c58cd97b3e7301fbe", "0.1.2--pyhdfd78af_0": "sha256:4dc7ef94e5be20890da9693870c6a86b76c697b4bf9af93d9707a19cc2ca4893", "0.2--pyhdfd78af_0": "sha256:a2ed215250bd2416df14354ed06cd78917733db51be8431478a983a22f1975c1", "0.3.1--pyhdfd78af_0": "sha256:4b0565f121e585049c916b1eb318e4e5b3d0aef0784e85cac5909f8460a20c4d", "0.3.2--pyhdfd78af_0": "sha256:0ca2d96919a23a76716c76ca68d1d27d630584f5ccb8a92d526518829e7ab8f7", "0.4.0--pyhdfd78af_0": "sha256:e6d7132bc42f4ac1cb67b50df5be5260d16c0912bdbc81f549066e21adb3fe75", "0.4.1--pyhdfd78af_0": "sha256:1d5f256455831e5eb935bb4d4c548f7de1a917d92eeb1e64388d36bfe5f0bbb6"}, "docker": "quay.io/biocontainers/giatools", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "rav1e": "/usr/local/bin/rav1e", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/giatools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for giatools", "latest": {"0.6.0--pyhdfd78af_0": "sha256:73b0d99ab87590d5da264fc7dac25b25843c337c1c9f563516e78a6d7133f092"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:724daa314753502508037844637a3f3341b1647b0744dd9c58cd97b3e7301fbe", "0.1.2--pyhdfd78af_0": "sha256:4dc7ef94e5be20890da9693870c6a86b76c697b4bf9af93d9707a19cc2ca4893", "0.2--pyhdfd78af_0": "sha256:a2ed215250bd2416df14354ed06cd78917733db51be8431478a983a22f1975c1", "0.3.1--pyhdfd78af_0": "sha256:4b0565f121e585049c916b1eb318e4e5b3d0aef0784e85cac5909f8460a20c4d", "0.3.2--pyhdfd78af_0": "sha256:0ca2d96919a23a76716c76ca68d1d27d630584f5ccb8a92d526518829e7ab8f7", "0.4.0--pyhdfd78af_0": "sha256:e6d7132bc42f4ac1cb67b50df5be5260d16c0912bdbc81f549066e21adb3fe75", "0.4.1--pyhdfd78af_0": "sha256:1d5f256455831e5eb935bb4d4c548f7de1a917d92eeb1e64388d36bfe5f0bbb6", "0.6.0--pyhdfd78af_0": "sha256:73b0d99ab87590d5da264fc7dac25b25843c337c1c9f563516e78a6d7133f092", "0.5.2--pyhdfd78af_0": "sha256:a2163c8b25f01ceb744d6cf272d655285f97bafc44c5e37eeb71a64c8df47c37"}, "docker": "quay.io/biocontainers/giatools", "aliases": {"SvtAv1DecApp": "/usr/local/bin/SvtAv1DecApp", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "rav1e": "/usr/local/bin/rav1e", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/giatools.
@@ -60,7 +62,7 @@ $ shpc install quay.io/biocontainers/giatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/giatools:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/giatools:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/giatools/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/giatools/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/giatools/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/giatools/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

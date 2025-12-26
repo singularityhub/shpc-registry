@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/afwdist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afwdist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/afwdist/container.yaml"
-updated_at: "2025-12-25 03:46:13.177870"
+updated_at: "2025-12-26 03:37:12.356812"
 latest: "1.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/afwdist"
 aliases:
