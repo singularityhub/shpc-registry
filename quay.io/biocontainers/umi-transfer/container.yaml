@@ -2,14 +2,16 @@ url: https://biocontainers.pro/tools/umi-transfer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for umi-transfer
 latest:
-  1.5.0--hc1c3326_1: 
-    sha256:92638b075daa0c5b669df3949115c7491ceee40a1ba9e3f0ff0b4cff11ae9451
+  1.6.0--hc1c3326_0: 
+    sha256:e05c50696ebd256bc56147db48bf1571826c57be446aa47f6b78b817efd58cfa
 tags:
   1.0.0: sha256:af15b8502f9f7ea504e5f7f2372a7148bcb9bf97612530753a046e2726b115dd
   1.5.0--h715e4b3_0: 
     sha256:7136e272636ec65bf37a0223e916bc803120adcecd8b4699bfb836b2d95ed99a
   1.5.0--hc1c3326_1: 
     sha256:92638b075daa0c5b669df3949115c7491ceee40a1ba9e3f0ff0b4cff11ae9451
+  1.6.0--hc1c3326_0: 
+    sha256:e05c50696ebd256bc56147db48bf1571826c57be446aa47f6b78b817efd58cfa
 docker: quay.io/biocontainers/umi-transfer
 aliases:
   umi-transfer: /usr/local/bin/umi-transfer

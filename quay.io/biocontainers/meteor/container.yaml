@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/meteor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for meteor
 latest:
-  2.0.21--pyhdfd78af_0: 
-    sha256:02f31bf7c440a435e253ede409619379325c36a0d708fbb70685ff4c2c7e4736
+  2.0.22--pyhdfd78af_0: 
+    sha256:f04bf38ff646958ff89631a7abf3903bce01a731b173f61228386dfa00f15c13
 tags:
   2.0.9--pyhdfd78af_0: 
     sha256:d7ca9a666b1061c61d01ccda207e0d48742499604f42a547662f8d79d3c22da8
@@ -23,6 +23,8 @@ tags:
     sha256:d2517370dacab3891b06d5d9060dfdd5099dc25baded750c5fdf2bf99ff00828
   2.0.21--pyhdfd78af_0: 
     sha256:02f31bf7c440a435e253ede409619379325c36a0d708fbb70685ff4c2c7e4736
+  2.0.22--pyhdfd78af_0: 
+    sha256:f04bf38ff646958ff89631a7abf3903bce01a731b173f61228386dfa00f15c13
 docker: quay.io/biocontainers/meteor
 aliases:
   genl-ctrl-list: /usr/local/bin/genl-ctrl-list

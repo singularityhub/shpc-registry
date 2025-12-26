@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/fatslim_biobb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fatslim_biobb
 latest:
-  0.2.2--py310h1fe012e_0: 
-    sha256:5e69489102e016b2a7971ff50a0774d05471c6792909fb4d0b0250a506fbe9f7
+  0.2.2--py39hbcbf7aa_1: 
+    sha256:a11c223fd2515643033c24f67874c3573f154a985fbe24fe990be8ce8410e8a2
 tags:
   0.2.2--py310h1fe012e_0: 
     sha256:5e69489102e016b2a7971ff50a0774d05471c6792909fb4d0b0250a506fbe9f7
+  0.2.2--py39hbcbf7aa_1: 
+    sha256:a11c223fd2515643033c24f67874c3573f154a985fbe24fe990be8ce8410e8a2
 docker: quay.io/biocontainers/fatslim_biobb
 aliases:
   fatslim: /usr/local/bin/fatslim

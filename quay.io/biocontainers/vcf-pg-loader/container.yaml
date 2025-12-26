@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/vcf-pg-loader
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcf-pg-loader
 latest:
-  0.5.1--pyhdfd78af_0: 
-    sha256:8bcead91bbc27527f390404c414134de71debfe33f9bb771ef43a52b96a435fd
+  0.5.4--pyhdfd78af_0: 
+    sha256:52b5a3596e84512246578faa41f1b84dc54d3ed7cb360844f7f939fdaad98b61
 tags:
   0.5.1--pyhdfd78af_0: 
     sha256:8bcead91bbc27527f390404c414134de71debfe33f9bb771ef43a52b96a435fd
+  0.5.4--pyhdfd78af_0: 
+    sha256:52b5a3596e84512246578faa41f1b84dc54d3ed7cb360844f7f939fdaad98b61
 docker: quay.io/biocontainers/vcf-pg-loader
 aliases:
   inv: /usr/local/bin/inv

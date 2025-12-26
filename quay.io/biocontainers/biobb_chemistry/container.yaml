@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_chemistry
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_chemistry
 latest:
-  5.1.0--pyhdfd78af_1: 
-    sha256:d6fe7c4ea562eb35379acd750c0b06f1e664ea4de084ee31b52bfcfc9937eabb
+  5.2.0--pyhdfd78af_0: 
+    sha256:75800299bc056836400a18f0bc750ca3ee6683e9c9befc2490de146539af4b8e
 tags:
   3.8.0--pyhdfd78af_1: 
     sha256:bad347e11995e7143a91672419f4a9a9a5244905cddbde7b18e1fa9270dd6e5d
@@ -23,6 +23,8 @@ tags:
     sha256:8ba352cc4805c9fa44aa32362c744520bf106e480493d8372f20279cb2aab6ed
   5.1.0--pyhdfd78af_1: 
     sha256:d6fe7c4ea562eb35379acd750c0b06f1e664ea4de084ee31b52bfcfc9937eabb
+  5.2.0--pyhdfd78af_0: 
+    sha256:75800299bc056836400a18f0bc750ca3ee6683e9c9befc2490de146539af4b8e
 docker: quay.io/biocontainers/biobb_chemistry
 aliases:
   AddToBox: /usr/local/bin/AddToBox
