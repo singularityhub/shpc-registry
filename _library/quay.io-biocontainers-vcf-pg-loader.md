@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcf-pg-loader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf-pg-loader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf-pg-loader/container.yaml"
-updated_at: "2025-12-26 03:52:48.603143"
-latest: "0.5.1--pyhdfd78af_0"
+updated_at: "2025-12-27 03:48:13.473386"
+latest: "0.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf-pg-loader"
 aliases:
  - "inv"
@@ -32,8 +32,9 @@ aliases:
  - "tabix"
 versions:
  - "0.5.1--pyhdfd78af_0"
+ - "0.5.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for vcf-pg-loader"
-config: {"url": "https://biocontainers.pro/tools/vcf-pg-loader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf-pg-loader", "latest": {"0.5.1--pyhdfd78af_0": "sha256:8bcead91bbc27527f390404c414134de71debfe33f9bb771ef43a52b96a435fd"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:8bcead91bbc27527f390404c414134de71debfe33f9bb771ef43a52b96a435fd"}, "docker": "quay.io/biocontainers/vcf-pg-loader", "aliases": {"inv": "/usr/local/bin/inv", "invoke": "/usr/local/bin/invoke", "vcf-pg-loader": "/usr/local/bin/vcf-pg-loader", "wsdump": "/usr/local/bin/wsdump", "typer": "/usr/local/bin/typer", "cyvcf2": "/usr/local/bin/cyvcf2", "ref-cache": "/usr/local/bin/ref-cache", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "annot-tsv": "/usr/local/bin/annot-tsv", "humanfriendly": "/usr/local/bin/humanfriendly", "numpy-config": "/usr/local/bin/numpy-config", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/vcf-pg-loader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf-pg-loader", "latest": {"0.5.4--pyhdfd78af_0": "sha256:52b5a3596e84512246578faa41f1b84dc54d3ed7cb360844f7f939fdaad98b61"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:8bcead91bbc27527f390404c414134de71debfe33f9bb771ef43a52b96a435fd", "0.5.4--pyhdfd78af_0": "sha256:52b5a3596e84512246578faa41f1b84dc54d3ed7cb360844f7f939fdaad98b61"}, "docker": "quay.io/biocontainers/vcf-pg-loader", "aliases": {"inv": "/usr/local/bin/inv", "invoke": "/usr/local/bin/invoke", "vcf-pg-loader": "/usr/local/bin/vcf-pg-loader", "wsdump": "/usr/local/bin/wsdump", "typer": "/usr/local/bin/typer", "cyvcf2": "/usr/local/bin/cyvcf2", "ref-cache": "/usr/local/bin/ref-cache", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "annot-tsv": "/usr/local/bin/annot-tsv", "humanfriendly": "/usr/local/bin/humanfriendly", "numpy-config": "/usr/local/bin/numpy-config", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf-pg-loader.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/vcf-pg-loader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf-pg-loader:0.5.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vcf-pg-loader:0.5.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf-pg-loader/0.5.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/vcf-pg-loader/0.5.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/vcf-pg-loader/0.5.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/vcf-pg-loader/0.5.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

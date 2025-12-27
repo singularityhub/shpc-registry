@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/subread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/subread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/subread/container.yaml"
-updated_at: "2025-12-26 03:36:56.667684"
+updated_at: "2025-12-27 03:34:00.312427"
 latest: "2.1.1--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/subread"
 aliases:

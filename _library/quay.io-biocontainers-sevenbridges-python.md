@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sevenbridges-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sevenbridges-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sevenbridges-python/container.yaml"
-updated_at: "2025-12-26 03:59:24.835217"
+updated_at: "2025-12-27 03:54:08.386330"
 latest: "2.11.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sevenbridges-python"
 aliases:

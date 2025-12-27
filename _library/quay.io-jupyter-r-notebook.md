@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/r-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/r-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/r-notebook/container.yaml"
-updated_at: "2025-12-26 03:28:53.265218"
+updated_at: "2025-12-27 03:26:45.731518"
 latest: "2025-12-22"
 container_url: "https://quay.io/repository/jupyter/r-notebook"
 aliases:

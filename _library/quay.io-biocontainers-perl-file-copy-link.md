@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-copy-link"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-copy-link/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-copy-link/container.yaml"
-updated_at: "2025-12-26 04:12:29.452046"
+updated_at: "2025-12-27 04:05:54.182780"
 latest: "0.140--pl5321h031d066_6"
 container_url: "https://biocontainers.pro/tools/perl-file-copy-link"
 aliases:
