@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pybedlite
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pybedlite
 latest:
-  1.1.0--py39hbcbf7aa_0: 
-    sha256:d32b13d2dbe7b4831d6756993d5e0bb6e0c622feecbdac355fddce1bc5a97a51
+  1.1.0--pyhdfd78af_1: 
+    sha256:077c314ae95ac07dae17d3ee70b72ab9022487235f56fd72f76c278e70126b4a
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:500efc9947d7803c722c39c20aceb840154ddbce2eed46a95050584343a0ec06
@@ -25,6 +25,8 @@ tags:
     sha256:c47e7a41b4c41cd49e7b9942d88d62b1e5d0eb9af74fd7a6e0290362d4d8a92d
   1.1.0--py39hbcbf7aa_0: 
     sha256:d32b13d2dbe7b4831d6756993d5e0bb6e0c622feecbdac355fddce1bc5a97a51
+  1.1.0--pyhdfd78af_1: 
+    sha256:077c314ae95ac07dae17d3ee70b72ab9022487235f56fd72f76c278e70126b4a
 docker: quay.io/biocontainers/pybedlite
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/elastic-blast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for elastic-blast
 latest:
-  1.4.0--pyhdfd78af_0: 
-    sha256:172e8a1e389c1f08772cb61801d1a0bda16dad64f2d49eb3a74a5ad9063b1f0c
+  1.5.0--pyhdfd78af_0: 
+    sha256:532e8be1f7d1aac53f20763bb1b225b4b0ee5427b8464ef9a2121d17895a8201
 tags:
   0.2.7--pyhdfd78af_0: 
     sha256:ea42cbd2ebc5e67f491242aca9806b69e81e59c535785d727a58e29d5f722f80
@@ -19,6 +19,8 @@ tags:
     sha256:2bc9879fc0ed3af30caa2a1877441c660bc73f0271c9272cbb30293e3e848e36
   1.4.0--pyhdfd78af_0: 
     sha256:172e8a1e389c1f08772cb61801d1a0bda16dad64f2d49eb3a74a5ad9063b1f0c
+  1.5.0--pyhdfd78af_0: 
+    sha256:532e8be1f7d1aac53f20763bb1b225b4b0ee5427b8464ef9a2121d17895a8201
 docker: quay.io/biocontainers/elastic-blast
 aliases:
   aws: /usr/local/bin/aws

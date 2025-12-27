@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/coreprofiler
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for coreprofiler
 latest:
-  1.1.8--pyhdfd78af_0: 
-    sha256:e0c4bd4a25f5c64bc7313a908538a68767b6165e26378a8eeeeca959fcf2e62c
+  2.0.0--pyhdfd78af_0: 
+    sha256:f65cd27a45cc94d144601c5c749dd9997b027a1506dc8307d4e0a030eec7d069
 tags:
   1.1.1--pyhdfd78af_0: 
     sha256:3407831dcf06b6716d32c74d67e12bed0f1894130919993acfc79b1f0af8527b
@@ -15,6 +15,10 @@ tags:
     sha256:7d587ed98a0c6bbec3e7e30cb881716377b489ec2152481cc102d0704a937d4d
   1.1.8--pyhdfd78af_0: 
     sha256:e0c4bd4a25f5c64bc7313a908538a68767b6165e26378a8eeeeca959fcf2e62c
+  2.0.0--pyhdfd78af_0: 
+    sha256:f65cd27a45cc94d144601c5c749dd9997b027a1506dc8307d4e0a030eec7d069
+  1.1.9--pyhdfd78af_0: 
+    sha256:00b044a56ac57dc1de7f7d1a8fb7f026c6903035eeb965101ea58669143cfc83
 docker: quay.io/biocontainers/coreprofiler
 aliases:
   bio: /usr/local/bin/bio
