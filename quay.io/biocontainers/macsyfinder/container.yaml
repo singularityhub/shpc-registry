@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/macsyfinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for macsyfinder
 latest:
-  2.1.5--pyhdfd78af_0: 
-    sha256:45b4671a7ef02651b6c2d9fb268df5f50942c10b95d65d231070db900f7ff807
+  2.1.6--pyhdfd78af_0: 
+    sha256:f94c360383d89258701b58f9093dc5db7c8c5b81ec522e0f7c19fa60e552969a
 tags:
   2.1--pyh7cba7a3_0: 
     sha256:fd961ced95ba3a908b9bd7d69913b3897a5bf20b34586243a2a6a5a0743e79ab
@@ -19,6 +19,8 @@ tags:
     sha256:8b4457556d079a32d1e22577ddb351c1f82037da1febf3b68e0c65fc94d42622
   2.1.5--pyhdfd78af_0: 
     sha256:45b4671a7ef02651b6c2d9fb268df5f50942c10b95d65d231070db900f7ff807
+  2.1.6--pyhdfd78af_0: 
+    sha256:f94c360383d89258701b58f9093dc5db7c8c5b81ec522e0f7c19fa60e552969a
 docker: quay.io/biocontainers/macsyfinder
 aliases:
   macsyconfig: /usr/local/bin/macsyconfig

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sphae
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sphae
 latest:
-  1.5.2--pyhdfd78af_0: 
-    sha256:69d0220c35704a22c0267311e9a7e37e039da64046ff7a6ffb35321e9e451398
+  1.5.3--pyhdfd78af_0: 
+    sha256:b18e90b590a8fcca18089dc02a82a869248173129803e866131db02fb451ec34
 tags:
   1.3.1--pyhdfd78af_0: 
     sha256:f261123a9c41acf766cb61b6ed11eabbb91a2a9c9d792c9fc6176d77ddd09968
@@ -23,6 +23,8 @@ tags:
     sha256:692f863d22719aaef5dfb814606077b5cfce1aebd14f878521fb72ed620c12f6
   1.5.2--pyhdfd78af_0: 
     sha256:69d0220c35704a22c0267311e9a7e37e039da64046ff7a6ffb35321e9e451398
+  1.5.3--pyhdfd78af_0: 
+    sha256:b18e90b590a8fcca18089dc02a82a869248173129803e866131db02fb451ec34
 docker: quay.io/biocontainers/sphae
 aliases:
   jsondiff: /usr/local/bin/jsondiff

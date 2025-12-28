@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/shiba
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for shiba
 latest:
-  0.8.0--py312hdfd78af_0: 
-    sha256:dc51fe08cc3e16a14005456d86467fb19797b305408b96b31774b52200ed8a45
+  0.8.1--py312hdfd78af_0: 
+    sha256:92f2c44dec54437b234f3e53bdbb48e31f00f1f6a3849296dbb9c04d4233e963
 tags:
   0.6.1--py313hdfd78af_0: 
     sha256:504a469d9fefc584a465b2360d3d2ddf51c65298eaa012cae310379b826e1a9c
@@ -15,6 +15,8 @@ tags:
     sha256:87abbe5df253a34d2ed551f078e471de299196ea93dbe16e1a12ac00e01706b2
   0.8.0--py312hdfd78af_0: 
     sha256:dc51fe08cc3e16a14005456d86467fb19797b305408b96b31774b52200ed8a45
+  0.8.1--py312hdfd78af_0: 
+    sha256:92f2c44dec54437b234f3e53bdbb48e31f00f1f6a3849296dbb9c04d4233e963
 docker: quay.io/biocontainers/shiba
 aliases:
   flattenGTF: /usr/local/bin/flattenGTF
