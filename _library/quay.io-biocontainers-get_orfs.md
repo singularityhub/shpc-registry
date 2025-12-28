@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/get_orfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/get_orfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/get_orfs/container.yaml"
-updated_at: "2025-12-27 03:42:43.140033"
+updated_at: "2025-12-28 04:07:30.670508"
 latest: "1.1.0--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/get_orfs"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/epa-ng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epa-ng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epa-ng/container.yaml"
-updated_at: "2025-12-27 03:59:05.634146"
-latest: "0.3.8--h077b44d_6"
+updated_at: "2025-12-28 04:24:01.394765"
+latest: "0.3.8--h077b44d_7"
 container_url: "https://biocontainers.pro/tools/epa-ng"
 aliases:
  - "epa-ng"
@@ -14,8 +14,9 @@ versions:
  - "0.3.8--hdcf5f25_4"
  - "0.3.8--h077b44d_5"
  - "0.3.8--h077b44d_6"
+ - "0.3.8--h077b44d_7"
 description: "shpc-registry automated BioContainers addition for epa-ng"
-config: {"url": "https://biocontainers.pro/tools/epa-ng", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epa-ng", "latest": {"0.3.8--h077b44d_6": "sha256:cec5f7f1daaff90820dc8345e45a656d1d9b21d2d46e34c31fa823a0352875ba"}, "tags": {"0.3.8--hd03093a_2": "sha256:9e7a04e04cde0a2ae52646be7bacfdb846cd025a52c9edae304acbf7ea8f8539", "0.3.8--hdcf5f25_4": "sha256:53a5bae5754c49e746717ce91924ac21ed9853fb6f823fc17efb96a0c71c3634", "0.3.8--h077b44d_5": "sha256:3ae79e85641239a35d85b5e54ded4393f635b47e0b28873a4fc5369f7b217154", "0.3.8--h077b44d_6": "sha256:cec5f7f1daaff90820dc8345e45a656d1d9b21d2d46e34c31fa823a0352875ba"}, "docker": "quay.io/biocontainers/epa-ng", "aliases": {"epa-ng": "/usr/local/bin/epa-ng"}}
+config: {"url": "https://biocontainers.pro/tools/epa-ng", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epa-ng", "latest": {"0.3.8--h077b44d_7": "sha256:f569c5542dbb980c349f70ad20cacd9409dc5ba11567403c621944dd10060c81"}, "tags": {"0.3.8--hd03093a_2": "sha256:9e7a04e04cde0a2ae52646be7bacfdb846cd025a52c9edae304acbf7ea8f8539", "0.3.8--hdcf5f25_4": "sha256:53a5bae5754c49e746717ce91924ac21ed9853fb6f823fc17efb96a0c71c3634", "0.3.8--h077b44d_5": "sha256:3ae79e85641239a35d85b5e54ded4393f635b47e0b28873a4fc5369f7b217154", "0.3.8--h077b44d_6": "sha256:cec5f7f1daaff90820dc8345e45a656d1d9b21d2d46e34c31fa823a0352875ba", "0.3.8--h077b44d_7": "sha256:f569c5542dbb980c349f70ad20cacd9409dc5ba11567403c621944dd10060c81"}, "docker": "quay.io/biocontainers/epa-ng", "aliases": {"epa-ng": "/usr/local/bin/epa-ng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epa-ng.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/epa-ng
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epa-ng:0.3.8--h077b44d_6
+$ shpc install quay.io/biocontainers/epa-ng:0.3.8--h077b44d_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epa-ng/0.3.8--h077b44d_6
-$ module help quay.io/biocontainers/epa-ng/0.3.8--h077b44d_6
+$ module load quay.io/biocontainers/epa-ng/0.3.8--h077b44d_7
+$ module help quay.io/biocontainers/epa-ng/0.3.8--h077b44d_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chira/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chira/container.yaml"
-updated_at: "2025-12-27 03:47:57.690689"
+updated_at: "2025-12-28 04:12:47.818869"
 latest: "1.4.3--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/chira"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/avro-python2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/avro-python2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/avro-python2/container.yaml"
-updated_at: "2025-12-27 04:01:06.761031"
+updated_at: "2025-12-28 04:26:03.230640"
 latest: "1.9.0--py_0"
 container_url: "https://biocontainers.pro/tools/avro-python2"
 aliases:

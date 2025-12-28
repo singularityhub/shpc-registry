@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-globals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-globals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-globals/container.yaml"
-updated_at: "2025-12-27 03:47:15.964183"
+updated_at: "2025-12-28 04:12:05.920929"
 latest: "0.7.1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-globals"
 aliases:

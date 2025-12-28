@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sbpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sbpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sbpipe/container.yaml"
-updated_at: "2025-12-27 03:59:42.028024"
+updated_at: "2025-12-28 04:24:38.186198"
 latest: "4.21.0--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/sbpipe"
 aliases:

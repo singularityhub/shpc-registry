@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abyss-k128"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abyss-k128/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abyss-k128/container.yaml"
-updated_at: "2025-12-27 04:07:25.329676"
+updated_at: "2025-12-28 04:32:23.125362"
 latest: "2.0.2--boost1.64_2"
 container_url: "https://biocontainers.pro/tools/abyss-k128"
 

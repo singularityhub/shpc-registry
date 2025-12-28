@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methylmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylmap/container.yaml"
-updated_at: "2025-12-27 04:07:27.593182"
+updated_at: "2025-12-28 04:32:25.448273"
 latest: "0.5.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methylmap"
 aliases:

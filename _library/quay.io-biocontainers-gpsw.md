@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gpsw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gpsw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gpsw/container.yaml"
-updated_at: "2025-12-27 03:57:13.025885"
+updated_at: "2025-12-28 04:22:07.565529"
 latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gpsw"
 aliases:

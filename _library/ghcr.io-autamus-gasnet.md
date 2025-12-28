@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gasnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gasnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gasnet/container.yaml"
-updated_at: "2025-12-27 03:26:21.777161"
+updated_at: "2025-12-28 03:51:03.703657"
 latest: "2022.9.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gasnet"
 aliases:

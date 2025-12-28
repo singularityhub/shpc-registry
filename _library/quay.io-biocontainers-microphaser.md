@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/microphaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microphaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/microphaser/container.yaml"
-updated_at: "2025-12-27 03:42:17.197263"
+updated_at: "2025-12-28 04:07:04.671643"
 latest: "0.8.0--hdc3fcad_2"
 container_url: "https://biocontainers.pro/tools/microphaser"
 aliases:

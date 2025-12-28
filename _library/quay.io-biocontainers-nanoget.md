@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanoget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoget/container.yaml"
-updated_at: "2025-12-27 04:14:45.931411"
-latest: "1.19.3--pyhdfd78af_0"
+updated_at: "2025-12-28 04:39:46.330071"
+latest: "1.19.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanoget"
 aliases:
  - "f2py3.6"
@@ -27,8 +27,9 @@ versions:
  - "1.14.0--py_0"
  - "1.19.1--pyhdfd78af_0"
  - "1.19.3--pyhdfd78af_0"
+ - "1.19.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nanoget"
-config: {"url": "https://biocontainers.pro/tools/nanoget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoget", "latest": {"1.19.3--pyhdfd78af_0": "sha256:6a355ee32c5c45428cf785a569c3901a530c6931a84452ad0a999b7ce77e7a95"}, "tags": {"1.9.1--py_0": "sha256:99f3aca169ce5c2abb869ce0661ebc6af3279da2cbb340347df38609bacdbc94", "1.18.1--pyhdfd78af_0": "sha256:c67b8ebc80aa83cdd8e84ab1fd4337c39c3ed9ab8eb82123075f553fa3efbfb9", "1.17.0--pyhdfd78af_0": "sha256:15cdc20082be71bf770727b28718544eba87ccfc62f0071eebe35f8ea52760a6", "1.16.1--py_0": "sha256:b4a009499d518713f2591052177bcf9968551bf5f0b652fb89ba6fec2097e565", "1.15.0--py_0": "sha256:49d5d1e2fd5d2b4f45d383a6826e61e196a106cc7713b0b5a941961c6e3791ae", "1.14.0--py_0": "sha256:9278ebb959277d4e20317012b1787ec58cc038c88e9dd8d6c7b035ccf622579f", "1.19.1--pyhdfd78af_0": "sha256:7d4077c8be7df712c226bff91fad7a664c8073622360e4b0a7208544b275a9ae", "1.19.3--pyhdfd78af_0": "sha256:6a355ee32c5c45428cf785a569c3901a530c6931a84452ad0a999b7ce77e7a95"}, "docker": "quay.io/biocontainers/nanoget", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
+config: {"url": "https://biocontainers.pro/tools/nanoget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoget", "latest": {"1.19.4--pyhdfd78af_0": "sha256:9db1138e8c59192688ff7034de73ac65e3f558b28e00eedbf4af0ae8401fe28a"}, "tags": {"1.9.1--py_0": "sha256:99f3aca169ce5c2abb869ce0661ebc6af3279da2cbb340347df38609bacdbc94", "1.18.1--pyhdfd78af_0": "sha256:c67b8ebc80aa83cdd8e84ab1fd4337c39c3ed9ab8eb82123075f553fa3efbfb9", "1.17.0--pyhdfd78af_0": "sha256:15cdc20082be71bf770727b28718544eba87ccfc62f0071eebe35f8ea52760a6", "1.16.1--py_0": "sha256:b4a009499d518713f2591052177bcf9968551bf5f0b652fb89ba6fec2097e565", "1.15.0--py_0": "sha256:49d5d1e2fd5d2b4f45d383a6826e61e196a106cc7713b0b5a941961c6e3791ae", "1.14.0--py_0": "sha256:9278ebb959277d4e20317012b1787ec58cc038c88e9dd8d6c7b035ccf622579f", "1.19.1--pyhdfd78af_0": "sha256:7d4077c8be7df712c226bff91fad7a664c8073622360e4b0a7208544b275a9ae", "1.19.3--pyhdfd78af_0": "sha256:6a355ee32c5c45428cf785a569c3901a530c6931a84452ad0a999b7ce77e7a95", "1.19.4--pyhdfd78af_0": "sha256:9db1138e8c59192688ff7034de73ac65e3f558b28e00eedbf4af0ae8401fe28a"}, "docker": "quay.io/biocontainers/nanoget", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoget.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/nanoget
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanoget:1.19.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nanoget:1.19.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanoget/1.19.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/nanoget/1.19.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/nanoget/1.19.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/nanoget/1.19.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

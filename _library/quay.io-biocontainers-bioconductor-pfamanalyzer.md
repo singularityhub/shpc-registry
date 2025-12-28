@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pfamanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pfamanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pfamanalyzer/container.yaml"
-updated_at: "2025-12-27 03:58:34.325910"
+updated_at: "2025-12-28 04:23:29.901087"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pfamanalyzer"
 aliases:

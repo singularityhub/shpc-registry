@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bgeedb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bgeedb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bgeedb/container.yaml"
-updated_at: "2025-12-27 03:55:30.111113"
+updated_at: "2025-12-28 04:20:23.809357"
 latest: "2.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bgeedb"
 aliases:

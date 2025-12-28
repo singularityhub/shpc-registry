@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drop/container.yaml"
-updated_at: "2025-12-27 04:07:50.806234"
+updated_at: "2025-12-28 04:32:48.765541"
 latest: "1.5.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/drop"
 aliases:

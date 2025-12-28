@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepdetails"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepdetails/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepdetails/container.yaml"
-updated_at: "2025-12-27 03:57:36.618159"
-latest: "0.0.1rc2--pyhdfd78af_0"
+updated_at: "2025-12-28 04:22:31.455960"
+latest: "0.1.1rc1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepdetails"
 aliases:
  - "deepdetails"
@@ -47,8 +47,9 @@ aliases:
 versions:
  - "0.0.1rc1--pyhdfd78af_0"
  - "0.0.1rc2--pyhdfd78af_0"
+ - "0.1.1rc1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for deepdetails"
-config: {"url": "https://biocontainers.pro/tools/deepdetails", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepdetails", "latest": {"0.0.1rc2--pyhdfd78af_0": "sha256:4cc34a3417ba4e7ffe2c18740b27f409ed237ce75274d58fbb5ed84481620d24"}, "tags": {"0.0.1rc1--pyhdfd78af_0": "sha256:619f544a60f1b8cd456192d923949ceda567d918faaf4b9370dfb1e9258e9901", "0.0.1rc2--pyhdfd78af_0": "sha256:4cc34a3417ba4e7ffe2c18740b27f409ed237ce75274d58fbb5ed84481620d24"}, "docker": "quay.io/biocontainers/deepdetails", "aliases": {"deepdetails": "/usr/local/bin/deepdetails", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "wandb": "/usr/local/bin/wandb", "wb": "/usr/local/bin/wb", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "tensorboard": "/usr/local/bin/tensorboard", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir"}}
+config: {"url": "https://biocontainers.pro/tools/deepdetails", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deepdetails", "latest": {"0.1.1rc1--pyhdfd78af_0": "sha256:3e0d2155fbabd9b8c569990275f25406774fd140cce7bc0cd34a9f2c56562355"}, "tags": {"0.0.1rc1--pyhdfd78af_0": "sha256:619f544a60f1b8cd456192d923949ceda567d918faaf4b9370dfb1e9258e9901", "0.0.1rc2--pyhdfd78af_0": "sha256:4cc34a3417ba4e7ffe2c18740b27f409ed237ce75274d58fbb5ed84481620d24", "0.1.1rc1--pyhdfd78af_0": "sha256:3e0d2155fbabd9b8c569990275f25406774fd140cce7bc0cd34a9f2c56562355"}, "docker": "quay.io/biocontainers/deepdetails", "aliases": {"deepdetails": "/usr/local/bin/deepdetails", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "wandb": "/usr/local/bin/wandb", "wb": "/usr/local/bin/wb", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "tensorboard": "/usr/local/bin/tensorboard", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepdetails.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/deepdetails
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepdetails:0.0.1rc2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/deepdetails:0.1.1rc1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepdetails/0.0.1rc2--pyhdfd78af_0
-$ module help quay.io/biocontainers/deepdetails/0.0.1rc2--pyhdfd78af_0
+$ module load quay.io/biocontainers/deepdetails/0.1.1rc1--pyhdfd78af_0
+$ module help quay.io/biocontainers/deepdetails/0.1.1rc1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

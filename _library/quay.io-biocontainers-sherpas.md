@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sherpas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sherpas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sherpas/container.yaml"
-updated_at: "2025-12-27 03:42:18.884982"
+updated_at: "2025-12-28 04:07:06.378216"
 latest: "1.0.2--h9948957_6"
 container_url: "https://biocontainers.pro/tools/sherpas"
 aliases:

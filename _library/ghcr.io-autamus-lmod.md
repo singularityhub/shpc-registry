@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/lmod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/lmod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/lmod/container.yaml"
-updated_at: "2025-12-27 03:26:16.441798"
+updated_at: "2025-12-28 03:50:58.319193"
 latest: "8.6.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/lmod"
 aliases:

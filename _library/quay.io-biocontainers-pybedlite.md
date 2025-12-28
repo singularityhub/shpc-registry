@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pybedlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedlite/container.yaml"
-updated_at: "2025-12-27 03:52:34.534634"
-latest: "1.1.0--py39hbcbf7aa_0"
+updated_at: "2025-12-28 04:17:27.115611"
+latest: "1.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pybedlite"
 aliases:
  - "2to3-3.10"
@@ -25,8 +25,9 @@ versions:
  - "1.0.0--py310h1fe012e_2"
  - "1.0.0--py310h1fe012e_3"
  - "1.1.0--py39hbcbf7aa_0"
+ - "1.1.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for pybedlite"
-config: {"url": "https://biocontainers.pro/tools/pybedlite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybedlite", "latest": {"1.1.0--py39hbcbf7aa_0": "sha256:d32b13d2dbe7b4831d6756993d5e0bb6e0c622feecbdac355fddce1bc5a97a51"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:500efc9947d7803c722c39c20aceb840154ddbce2eed46a95050584343a0ec06", "0.0.3--pyhdfd78af_0": "sha256:55f09d10d9490ac54400883b3a322a00df5046e78a30c43ee7e7f9ed66ae6ddd", "0.0.4--py38he5da3d1_0": "sha256:b66f2812958e8c9383d983d288166b114eab9cfb0722724bc74bf829a2bf54cb", "0.0.4--py39hf95cd2a_0": "sha256:59879ccc4dbf0b0405d24dd2865aba71114ea9ff5ccd63d0847185819f9517a3", "0.1.0--py38he5da3d1_0": "sha256:aab591ef8b23934bc419ca88a87ef05c9461321c46c1229d00cda46b6486d0ad", "0.1.0--py39hff71179_1": "sha256:9c01093a77aca4a8098f6f746d1d9dd9c0182d8a303e2c4f9ff3501c9aed09e6", "1.0.0--py311hdad781d_1": "sha256:55e8b72b678462c362f526cd8d60b508513d58ca7564885f9ffb6da69cbf001e", "1.0.0--py310h1fe012e_2": "sha256:cb3f79661160dad8e57200698b0ceb49680daa4d83711b10a74840cbd220e55c", "1.0.0--py310h1fe012e_3": "sha256:c47e7a41b4c41cd49e7b9942d88d62b1e5d0eb9af74fd7a6e0290362d4d8a92d", "1.1.0--py39hbcbf7aa_0": "sha256:d32b13d2dbe7b4831d6756993d5e0bb6e0c622feecbdac355fddce1bc5a97a51"}, "docker": "quay.io/biocontainers/pybedlite", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pybedlite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pybedlite", "latest": {"1.1.0--pyhdfd78af_1": "sha256:077c314ae95ac07dae17d3ee70b72ab9022487235f56fd72f76c278e70126b4a"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:500efc9947d7803c722c39c20aceb840154ddbce2eed46a95050584343a0ec06", "0.0.3--pyhdfd78af_0": "sha256:55f09d10d9490ac54400883b3a322a00df5046e78a30c43ee7e7f9ed66ae6ddd", "0.0.4--py38he5da3d1_0": "sha256:b66f2812958e8c9383d983d288166b114eab9cfb0722724bc74bf829a2bf54cb", "0.0.4--py39hf95cd2a_0": "sha256:59879ccc4dbf0b0405d24dd2865aba71114ea9ff5ccd63d0847185819f9517a3", "0.1.0--py38he5da3d1_0": "sha256:aab591ef8b23934bc419ca88a87ef05c9461321c46c1229d00cda46b6486d0ad", "0.1.0--py39hff71179_1": "sha256:9c01093a77aca4a8098f6f746d1d9dd9c0182d8a303e2c4f9ff3501c9aed09e6", "1.0.0--py311hdad781d_1": "sha256:55e8b72b678462c362f526cd8d60b508513d58ca7564885f9ffb6da69cbf001e", "1.0.0--py310h1fe012e_2": "sha256:cb3f79661160dad8e57200698b0ceb49680daa4d83711b10a74840cbd220e55c", "1.0.0--py310h1fe012e_3": "sha256:c47e7a41b4c41cd49e7b9942d88d62b1e5d0eb9af74fd7a6e0290362d4d8a92d", "1.1.0--py39hbcbf7aa_0": "sha256:d32b13d2dbe7b4831d6756993d5e0bb6e0c622feecbdac355fddce1bc5a97a51", "1.1.0--pyhdfd78af_1": "sha256:077c314ae95ac07dae17d3ee70b72ab9022487235f56fd72f76c278e70126b4a"}, "docker": "quay.io/biocontainers/pybedlite", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybedlite.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/pybedlite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pybedlite:1.1.0--py39hbcbf7aa_0
+$ shpc install quay.io/biocontainers/pybedlite:1.1.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pybedlite/1.1.0--py39hbcbf7aa_0
-$ module help quay.io/biocontainers/pybedlite/1.1.0--py39hbcbf7aa_0
+$ module load quay.io/biocontainers/pybedlite/1.1.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/pybedlite/1.1.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

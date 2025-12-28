@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepsig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepsig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepsig/container.yaml"
-updated_at: "2025-12-27 03:31:38.240540"
+updated_at: "2025-12-28 03:56:21.896834"
 latest: "1.2.5--pyhca03a8a_1"
 container_url: "https://biocontainers.pro/tools/deepsig"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samsift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samsift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samsift/container.yaml"
-updated_at: "2025-12-27 04:17:55.653673"
+updated_at: "2025-12-28 04:42:57.040206"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samsift"
 aliases:

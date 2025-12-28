@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigsi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigsi/container.yaml"
-updated_at: "2025-12-27 03:35:51.037914"
+updated_at: "2025-12-28 04:00:36.071494"
 latest: "0.3.1--py_0"
 container_url: "https://biocontainers.pro/tools/bigsi"
 aliases:
