@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-airpart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-airpart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-airpart/container.yaml"
-updated_at: "2025-12-29 04:04:18.383612"
+updated_at: "2025-12-29 04:28:38.249826"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-airpart"
 

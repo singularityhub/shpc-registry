@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-derfinderdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-derfinderdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-derfinderdata/container.yaml"
-updated_at: "2025-12-29 04:42:34.917012"
+updated_at: "2025-12-29 05:04:55.257255"
 latest: "2.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-derfinderdata"
 aliases:

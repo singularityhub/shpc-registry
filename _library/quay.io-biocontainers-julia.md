@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/julia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/julia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/julia/container.yaml"
-updated_at: "2025-12-29 04:28:38.165452"
+updated_at: "2025-12-29 04:51:42.333842"
 latest: "1.10"
 container_url: "https://biocontainers.pro/tools/julia"
 aliases:
