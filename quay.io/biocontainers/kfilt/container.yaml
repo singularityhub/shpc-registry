@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kfilt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kfilt
+latest:
+  0.1.1--he881be0_0: 
+    sha256:1b6a77f7c875b433d07e3b5158c6181fc399fd4a141df9a42943475e158830f5
+tags:
+  0.1.1--he881be0_0: 
+    sha256:1b6a77f7c875b433d07e3b5158c6181fc399fd4a141df9a42943475e158830f5
+docker: quay.io/biocontainers/kfilt
+aliases:
+  kfilt: /usr/local/bin/kfilt
