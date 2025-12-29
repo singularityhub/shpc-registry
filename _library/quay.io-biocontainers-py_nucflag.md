@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/py_nucflag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py_nucflag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py_nucflag/container.yaml"
-updated_at: "2025-12-28 04:04:31.916330"
-latest: "0.1.4--py39h5b94c0b_0"
+updated_at: "2025-12-29 04:06:21.789912"
+latest: "0.1.6--py311h5e00ca1_0"
 container_url: "https://biocontainers.pro/tools/py_nucflag"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.1.3--py310hec43fc7_0"
  - "0.1.4--py39h5b94c0b_0"
+ - "0.1.6--py311h5e00ca1_0"
 description: "singularity registry hpc automated addition for py_nucflag"
-config: {"url": "https://biocontainers.pro/tools/py_nucflag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for py_nucflag", "latest": {"0.1.4--py39h5b94c0b_0": "sha256:829e6f7553e9481a7d8335e08f0fadd2fdfbfc4afbcfaeaa7dae0a2386da4ff1"}, "tags": {"0.1.3--py310hec43fc7_0": "sha256:35dc9b0b788ebd83eda26dac597f2fac5d53222601e39d3530b0cfe3c4bb7f15", "0.1.4--py39h5b94c0b_0": "sha256:829e6f7553e9481a7d8335e08f0fadd2fdfbfc4afbcfaeaa7dae0a2386da4ff1"}, "docker": "quay.io/biocontainers/py_nucflag", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/py_nucflag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for py_nucflag", "latest": {"0.1.6--py311h5e00ca1_0": "sha256:d90329dfdfc92bdc02ef8f96bdc7c024ad785eb33589da7b8815825c46ee9884"}, "tags": {"0.1.3--py310hec43fc7_0": "sha256:35dc9b0b788ebd83eda26dac597f2fac5d53222601e39d3530b0cfe3c4bb7f15", "0.1.4--py39h5b94c0b_0": "sha256:829e6f7553e9481a7d8335e08f0fadd2fdfbfc4afbcfaeaa7dae0a2386da4ff1", "0.1.6--py311h5e00ca1_0": "sha256:d90329dfdfc92bdc02ef8f96bdc7c024ad785eb33589da7b8815825c46ee9884"}, "docker": "quay.io/biocontainers/py_nucflag", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/py_nucflag.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/py_nucflag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/py_nucflag:0.1.4--py39h5b94c0b_0
+$ shpc install quay.io/biocontainers/py_nucflag:0.1.6--py311h5e00ca1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/py_nucflag/0.1.4--py39h5b94c0b_0
-$ module help quay.io/biocontainers/py_nucflag/0.1.4--py39h5b94c0b_0
+$ module load quay.io/biocontainers/py_nucflag/0.1.6--py311h5e00ca1_0
+$ module help quay.io/biocontainers/py_nucflag/0.1.6--py311h5e00ca1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

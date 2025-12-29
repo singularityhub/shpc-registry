@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mogaaap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mogaaap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mogaaap/container.yaml"
-updated_at: "2025-12-28 04:33:59.018359"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2025-12-29 04:37:29.581011"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mogaaap"
 aliases:
  - "MoGAAAP"
@@ -50,8 +50,9 @@ aliases:
  - "clp"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mogaaap"
-config: {"url": "https://biocontainers.pro/tools/mogaaap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mogaaap", "latest": {"1.0.2--pyhdfd78af_0": "sha256:e164e38e909d35481c5f6efa733eb022bcc8a7babcf91c5dd93ad6febe0668fa"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:e164e38e909d35481c5f6efa733eb022bcc8a7babcf91c5dd93ad6febe0668fa"}, "docker": "quay.io/biocontainers/mogaaap", "aliases": {"MoGAAAP": "/usr/local/bin/MoGAAAP", "apptainer": "/usr/local/bin/apptainer", "cnitool": "/usr/local/bin/cnitool", "fuse-overlayfs": "/usr/local/bin/fuse-overlayfs", "mksquashfs": "/usr/local/bin/mksquashfs", "mount.fuse3": "/usr/local/bin/mount.fuse3", "phc": "/usr/local/bin/phc", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "squashfuse": "/usr/local/bin/squashfuse", "squashfuse_ll": "/usr/local/bin/squashfuse_ll", "unsquashfs": "/usr/local/bin/unsquashfs", "typer": "/usr/local/bin/typer", "eido": "/usr/local/bin/eido", "bsdunzip": "/usr/local/bin/bsdunzip", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
+config: {"url": "https://biocontainers.pro/tools/mogaaap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mogaaap", "latest": {"1.1.0--pyhdfd78af_0": "sha256:177334722df59176a92fda9b91ed422acec3b9689a83b4222bf1de92491a46a0"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:e164e38e909d35481c5f6efa733eb022bcc8a7babcf91c5dd93ad6febe0668fa", "1.1.0--pyhdfd78af_0": "sha256:177334722df59176a92fda9b91ed422acec3b9689a83b4222bf1de92491a46a0"}, "docker": "quay.io/biocontainers/mogaaap", "aliases": {"MoGAAAP": "/usr/local/bin/MoGAAAP", "apptainer": "/usr/local/bin/apptainer", "cnitool": "/usr/local/bin/cnitool", "fuse-overlayfs": "/usr/local/bin/fuse-overlayfs", "mksquashfs": "/usr/local/bin/mksquashfs", "mount.fuse3": "/usr/local/bin/mount.fuse3", "phc": "/usr/local/bin/phc", "run-singularity": "/usr/local/bin/run-singularity", "scmp_sys_resolver": "/usr/local/bin/scmp_sys_resolver", "singularity": "/usr/local/bin/singularity", "sqfscat": "/usr/local/bin/sqfscat", "sqfstar": "/usr/local/bin/sqfstar", "squashfuse": "/usr/local/bin/squashfuse", "squashfuse_ll": "/usr/local/bin/squashfuse_ll", "unsquashfs": "/usr/local/bin/unsquashfs", "typer": "/usr/local/bin/typer", "eido": "/usr/local/bin/eido", "bsdunzip": "/usr/local/bin/bsdunzip", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mogaaap.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/mogaaap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mogaaap:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mogaaap:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mogaaap/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/mogaaap/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/mogaaap/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/mogaaap/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

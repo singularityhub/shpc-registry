@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sphae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sphae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sphae/container.yaml"
-updated_at: "2025-12-28 04:09:48.381905"
-latest: "1.5.2--pyhdfd78af_0"
+updated_at: "2025-12-29 04:11:56.425329"
+latest: "1.5.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sphae"
 aliases:
  - "jsondiff"
@@ -47,8 +47,9 @@ versions:
  - "1.4.6--pyhdfd78af_0"
  - "1.4.8--pyhdfd78af_0"
  - "1.5.2--pyhdfd78af_0"
+ - "1.5.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sphae"
-config: {"url": "https://biocontainers.pro/tools/sphae", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sphae", "latest": {"1.5.2--pyhdfd78af_0": "sha256:69d0220c35704a22c0267311e9a7e37e039da64046ff7a6ffb35321e9e451398"}, "tags": {"1.3.1--pyhdfd78af_0": "sha256:f261123a9c41acf766cb61b6ed11eabbb91a2a9c9d792c9fc6176d77ddd09968", "1.3.2--pyhdfd78af_0": "sha256:79abbf06dcae22eb436d8951efc81b44aa49e936818409c872413d06d5f80e02", "1.3.4--pyhdfd78af_0": "sha256:1af6874d02e899bf9926f175164ceac9623bcde2b88e3bbb6a500d89eaaf61ac", "1.4.2--pyhdfd78af_0": "sha256:782ec482a1daec0775818aaa2c915287e119e52c8d40234a2d6eee127ea1ef61", "1.4.4--pyhdfd78af_0": "sha256:d75707cfb8c8cdae10008052ab10041b8748acc149978a907f75f143f39bfec7", "1.4.5--pyhdfd78af_0": "sha256:8f2f5045d73fe0a15b8dcdd83c201fe4546ffd044679571734a8870d8d47cdc4", "1.4.6--pyhdfd78af_0": "sha256:773b0af1213b249a7425f02be71253ec40261e5b7b70fe13b2715fc041e9e6fb", "1.4.8--pyhdfd78af_0": "sha256:692f863d22719aaef5dfb814606077b5cfce1aebd14f878521fb72ed620c12f6", "1.5.2--pyhdfd78af_0": "sha256:69d0220c35704a22c0267311e9a7e37e039da64046ff7a6ffb35321e9e451398"}, "docker": "quay.io/biocontainers/sphae", "aliases": {"jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "sphae": "/usr/local/bin/sphae", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
+config: {"url": "https://biocontainers.pro/tools/sphae", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sphae", "latest": {"1.5.3--pyhdfd78af_0": "sha256:b18e90b590a8fcca18089dc02a82a869248173129803e866131db02fb451ec34"}, "tags": {"1.3.1--pyhdfd78af_0": "sha256:f261123a9c41acf766cb61b6ed11eabbb91a2a9c9d792c9fc6176d77ddd09968", "1.3.2--pyhdfd78af_0": "sha256:79abbf06dcae22eb436d8951efc81b44aa49e936818409c872413d06d5f80e02", "1.3.4--pyhdfd78af_0": "sha256:1af6874d02e899bf9926f175164ceac9623bcde2b88e3bbb6a500d89eaaf61ac", "1.4.2--pyhdfd78af_0": "sha256:782ec482a1daec0775818aaa2c915287e119e52c8d40234a2d6eee127ea1ef61", "1.4.4--pyhdfd78af_0": "sha256:d75707cfb8c8cdae10008052ab10041b8748acc149978a907f75f143f39bfec7", "1.4.5--pyhdfd78af_0": "sha256:8f2f5045d73fe0a15b8dcdd83c201fe4546ffd044679571734a8870d8d47cdc4", "1.4.6--pyhdfd78af_0": "sha256:773b0af1213b249a7425f02be71253ec40261e5b7b70fe13b2715fc041e9e6fb", "1.4.8--pyhdfd78af_0": "sha256:692f863d22719aaef5dfb814606077b5cfce1aebd14f878521fb72ed620c12f6", "1.5.2--pyhdfd78af_0": "sha256:69d0220c35704a22c0267311e9a7e37e039da64046ff7a6ffb35321e9e451398", "1.5.3--pyhdfd78af_0": "sha256:b18e90b590a8fcca18089dc02a82a869248173129803e866131db02fb451ec34"}, "docker": "quay.io/biocontainers/sphae", "aliases": {"jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "sphae": "/usr/local/bin/sphae", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sphae.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/sphae
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sphae:1.5.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sphae:1.5.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sphae/1.5.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/sphae/1.5.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/sphae/1.5.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/sphae/1.5.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

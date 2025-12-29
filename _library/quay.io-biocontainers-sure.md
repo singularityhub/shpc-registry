@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sure/container.yaml"
-updated_at: "2025-12-28 04:07:12.860222"
+updated_at: "2025-12-29 04:09:12.070199"
 latest: "2.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sure"
 aliases:

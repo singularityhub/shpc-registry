@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deeplcretrainer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeplcretrainer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeplcretrainer/container.yaml"
-updated_at: "2025-12-28 04:11:31.387967"
+updated_at: "2025-12-29 04:13:44.807176"
 latest: "1.0.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/deeplcretrainer"
 aliases:

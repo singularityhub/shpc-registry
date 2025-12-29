@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metilene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metilene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metilene/container.yaml"
-updated_at: "2025-12-28 04:08:42.024619"
-latest: "0.2.8--h7b50bb2_6"
+updated_at: "2025-12-29 04:10:46.269000"
+latest: "0.2.9--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/metilene"
 aliases:
  - "metilene"
@@ -28,8 +28,9 @@ versions:
  - "0.2.8--h7b50bb2_4"
  - "0.2.8--h7b50bb2_5"
  - "0.2.8--h7b50bb2_6"
+ - "0.2.9--h7b50bb2_0"
 description: "shpc-registry automated BioContainers addition for metilene"
-config: {"url": "https://biocontainers.pro/tools/metilene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metilene", "latest": {"0.2.8--h7b50bb2_6": "sha256:4cf0e958fe6f19a5c3af16b070c1448dfa0457f83cdbd8869c18cdbc4163fc0d"}, "tags": {"0.2.8--hec16e2b_2": "sha256:a32860d56312ec89f0e1c0b522563b14462adca62c4eb080c7e688cd2266f90c", "0.2.8--h031d066_3": "sha256:2433d6b67256896664c1fb97aab8188ecb250e3d24d021e734a5a31986cc6135", "0.2.8--h7b50bb2_4": "sha256:e13cc86a5f8a48158fd5fa3d944c55946577d61597bce2ebc4378db18868d975", "0.2.8--h7b50bb2_5": "sha256:e80841632d59c60617c70356d56fa890221110dfa0a658bf4393d0a188643103", "0.2.8--h7b50bb2_6": "sha256:4cf0e958fe6f19a5c3af16b070c1448dfa0457f83cdbd8869c18cdbc4163fc0d"}, "docker": "quay.io/biocontainers/metilene", "aliases": {"metilene": "/usr/local/bin/metilene", "metilene_input.pl": "/usr/local/bin/metilene_input.pl", "metilene_output.R": "/usr/local/bin/metilene_output.R", "metilene_output.pl": "/usr/local/bin/metilene_output.pl", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed"}}
+config: {"url": "https://biocontainers.pro/tools/metilene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metilene", "latest": {"0.2.9--h7b50bb2_0": "sha256:240c250200cf091e43bd248e5b884dceb3547eb8053cfba080171de82c3abc04"}, "tags": {"0.2.8--hec16e2b_2": "sha256:a32860d56312ec89f0e1c0b522563b14462adca62c4eb080c7e688cd2266f90c", "0.2.8--h031d066_3": "sha256:2433d6b67256896664c1fb97aab8188ecb250e3d24d021e734a5a31986cc6135", "0.2.8--h7b50bb2_4": "sha256:e13cc86a5f8a48158fd5fa3d944c55946577d61597bce2ebc4378db18868d975", "0.2.8--h7b50bb2_5": "sha256:e80841632d59c60617c70356d56fa890221110dfa0a658bf4393d0a188643103", "0.2.8--h7b50bb2_6": "sha256:4cf0e958fe6f19a5c3af16b070c1448dfa0457f83cdbd8869c18cdbc4163fc0d", "0.2.9--h7b50bb2_0": "sha256:240c250200cf091e43bd248e5b884dceb3547eb8053cfba080171de82c3abc04"}, "docker": "quay.io/biocontainers/metilene", "aliases": {"metilene": "/usr/local/bin/metilene", "metilene_input.pl": "/usr/local/bin/metilene_input.pl", "metilene_output.R": "/usr/local/bin/metilene_output.R", "metilene_output.pl": "/usr/local/bin/metilene_output.pl", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metilene.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/metilene
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metilene:0.2.8--h7b50bb2_6
+$ shpc install quay.io/biocontainers/metilene:0.2.9--h7b50bb2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metilene/0.2.8--h7b50bb2_6
-$ module help quay.io/biocontainers/metilene/0.2.8--h7b50bb2_6
+$ module load quay.io/biocontainers/metilene/0.2.9--h7b50bb2_0
+$ module help quay.io/biocontainers/metilene/0.2.9--h7b50bb2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

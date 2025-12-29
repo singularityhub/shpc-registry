@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap/container.yaml"
-updated_at: "2025-12-28 04:39:18.058587"
+updated_at: "2025-12-29 04:43:08.526071"
 latest: "1.2--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/metawrap"
 
