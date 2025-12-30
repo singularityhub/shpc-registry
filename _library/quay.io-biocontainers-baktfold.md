@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baktfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baktfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baktfold/container.yaml"
-updated_at: "2025-12-29 04:40:50.560708"
+updated_at: "2025-12-30 04:04:12.392853"
 latest: "0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/baktfold"
 aliases:

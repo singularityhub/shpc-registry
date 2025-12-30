@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-compartmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-compartmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-compartmap/container.yaml"
-updated_at: "2025-12-29 04:18:38.526983"
+updated_at: "2025-12-30 03:42:21.962524"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-compartmap"
 aliases:

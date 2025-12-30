@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/table2asn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/table2asn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/table2asn/container.yaml"
-updated_at: "2025-12-29 04:38:13.291317"
+updated_at: "2025-12-30 04:01:39.384622"
 latest: "1.28.1179--he45da00_1"
 container_url: "https://biocontainers.pro/tools/table2asn"
 aliases:

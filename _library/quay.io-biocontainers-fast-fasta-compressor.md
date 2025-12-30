@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fast-fasta-compressor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast-fasta-compressor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast-fasta-compressor/container.yaml"
-updated_at: "2025-12-29 04:30:00.519801"
+updated_at: "2025-12-30 03:53:24.791013"
 latest: "1.0--h9948957_0"
 container_url: "https://biocontainers.pro/tools/fast-fasta-compressor"
 aliases:

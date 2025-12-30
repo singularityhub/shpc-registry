@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-atlasrdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atlasrdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atlasrdf/container.yaml"
-updated_at: "2025-12-29 04:58:51.809539"
+updated_at: "2025-12-30 04:22:06.399155"
 latest: "1.12.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atlasrdf"
 aliases:

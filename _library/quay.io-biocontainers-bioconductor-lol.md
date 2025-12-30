@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lol/container.yaml"
-updated_at: "2025-12-29 04:36:46.623833"
+updated_at: "2025-12-30 04:00:13.260157"
 latest: "1.34.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lol"
 aliases:
