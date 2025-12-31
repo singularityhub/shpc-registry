@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-misctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-misctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-misctools/container.yaml"
-updated_at: "2025-12-30 04:10:53.273987"
+updated_at: "2025-12-31 04:07:26.948009"
 latest: "0.6_22--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-misctools"
 aliases:

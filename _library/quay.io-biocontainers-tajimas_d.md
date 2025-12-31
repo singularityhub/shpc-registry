@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tajimas_d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tajimas_d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tajimas_d/container.yaml"
-updated_at: "2025-12-30 04:07:51.495150"
+updated_at: "2025-12-31 04:04:42.081967"
 latest: "2.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tajimas_d"
 aliases:

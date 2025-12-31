@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dig2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dig2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dig2/container.yaml"
-updated_at: "2025-12-30 04:18:06.165457"
+updated_at: "2025-12-31 04:14:02.847754"
 latest: "1.0--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/dig2"
 aliases:

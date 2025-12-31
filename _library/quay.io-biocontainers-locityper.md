@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/locityper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/locityper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/locityper/container.yaml"
-updated_at: "2025-12-30 04:24:53.537761"
+updated_at: "2025-12-31 04:20:23.813879"
 latest: "1.2.1--ha6fb395_1"
 container_url: "https://biocontainers.pro/tools/locityper"
 aliases:

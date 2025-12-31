@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapdenovo2-gapcloser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapdenovo2-gapcloser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapdenovo2-gapcloser/container.yaml"
-updated_at: "2025-12-30 03:42:40.437266"
+updated_at: "2025-12-31 03:41:09.277203"
 latest: "1.12--h077b44d_3"
 container_url: "https://biocontainers.pro/tools/soapdenovo2-gapcloser"
 aliases:

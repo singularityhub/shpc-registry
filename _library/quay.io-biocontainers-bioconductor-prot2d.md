@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prot2d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prot2d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prot2d/container.yaml"
-updated_at: "2025-12-30 04:20:47.319384"
+updated_at: "2025-12-31 04:16:33.728899"
 latest: "1.20.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prot2d"
 aliases:

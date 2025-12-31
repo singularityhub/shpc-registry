@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rukki"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rukki/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rukki/container.yaml"
-updated_at: "2025-12-30 04:02:28.028428"
+updated_at: "2025-12-31 03:59:36.948417"
 latest: "0.3.0--ha6fb395_1"
 container_url: "https://biocontainers.pro/tools/rukki"
 aliases:

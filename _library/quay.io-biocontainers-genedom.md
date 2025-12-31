@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genedom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genedom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genedom/container.yaml"
-updated_at: "2025-12-30 04:11:50.946730"
+updated_at: "2025-12-31 04:08:20.711635"
 latest: "0.2.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/genedom"
 aliases:

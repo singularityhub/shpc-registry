@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaquast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaquast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnaquast/container.yaml"
-updated_at: "2025-12-30 03:42:27.213635"
+updated_at: "2025-12-31 03:40:56.677450"
 latest: "2.3.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/rnaquast"
 aliases:

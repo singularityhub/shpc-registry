@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-amber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-amber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-amber/container.yaml"
-updated_at: "2025-12-30 03:58:40.506990"
+updated_at: "2025-12-31 03:56:11.793128"
 latest: "4.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-amber"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phist/container.yaml"
-updated_at: "2025-12-30 03:48:37.984482"
+updated_at: "2025-12-31 03:46:46.642668"
 latest: "1.0.0--py311h2de2dd3_1"
 container_url: "https://biocontainers.pro/tools/phist"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-car"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-car/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-car/container.yaml"
-updated_at: "2025-12-30 04:25:26.090807"
+updated_at: "2025-12-31 04:20:54.018289"
 latest: "2.1_4--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-car"
 aliases:
