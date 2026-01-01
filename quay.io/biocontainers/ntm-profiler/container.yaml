@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ntm-profiler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ntm-profiler
 latest:
-  0.6.1--pyhdfd78af_0: 
-    sha256:f8f5eda67c3be39b3a0391554b6359c49a10604c999fe7aeb80e62c440b0d9f3
+  0.8.0--pyhdfd78af_0: 
+    sha256:350ff4269f5dc863c2197b4f888d9219cc95b8c46c43a402ebf576b973a0c711
 tags:
   0.2.1--pyhdfd78af_0: 
     sha256:47c9986c4aab4708c3d460fb3d9b7905781be6d3e0b72771841a365de0c68788
@@ -19,6 +19,10 @@ tags:
     sha256:e8de8b6cd3689bd28a0f83d7b9bac16eb54f23c97633a26c026949d6d759cdfb
   0.6.1--pyhdfd78af_0: 
     sha256:f8f5eda67c3be39b3a0391554b6359c49a10604c999fe7aeb80e62c440b0d9f3
+  0.8.0--pyhdfd78af_0: 
+    sha256:350ff4269f5dc863c2197b4f888d9219cc95b8c46c43a402ebf576b973a0c711
+  0.7.0--pyhdfd78af_0: 
+    sha256:334446142a10e99a8740594489fc5fd60d829b77219689e2ff7931bf25bb1d33
 docker: quay.io/biocontainers/ntm-profiler
 aliases:
   add_dummy_AD.py: /usr/local/bin/add_dummy_AD.py

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   python-intervaltree
 latest:
-  3.1.0--pyh864c0ab_0: 
-    sha256:fc483eb5a8fc713e59feae199633f68e74bebd2941be5e7bb535b273be2322b5
+  3.2.0--pyh7e72e81_0: 
+    sha256:91bf257ccea9a4697e691b2b3f1d85886b2a7c3718aafb839fad73d065f70c54
 tags:
   3.1.0--pyh864c0ab_0: 
     sha256:fc483eb5a8fc713e59feae199633f68e74bebd2941be5e7bb535b273be2322b5
+  3.2.0--pyh7e72e81_0: 
+    sha256:91bf257ccea9a4697e691b2b3f1d85886b2a7c3718aafb839fad73d065f70c54
 docker: quay.io/biocontainers/python-intervaltree
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

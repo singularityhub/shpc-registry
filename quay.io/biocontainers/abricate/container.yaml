@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/abricate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for abricate
 latest:
-  1.0.1--h05cac1d_3: 
-    sha256:e63b96f92ca214fce80cdf5e7247f3dbeb1b5a4f4057b8717916d5b3566db8c1
+  1.2.0--h05cac1d_0: 
+    sha256:2d0fa0f27ff800b8d4217a79df36de9a756cdb42f30fb79dc30323ceca7c4ec2
 tags:
   1.0.1--ha8f3691_1: 
     sha256:9de8b0d3edb97f9946ac8d57e2a1207d48801ae7a3b1f263f0a0e5773904451e
@@ -11,6 +11,8 @@ tags:
     sha256:3e40ec72d3fcb4352cda27fb71adbe73f0e6cb215cb337dc3ba44c809754ec93
   1.0.1--h05cac1d_3: 
     sha256:e63b96f92ca214fce80cdf5e7247f3dbeb1b5a4f4057b8717916d5b3566db8c1
+  1.2.0--h05cac1d_0: 
+    sha256:2d0fa0f27ff800b8d4217a79df36de9a756cdb42f30fb79dc30323ceca7c4ec2
 docker: quay.io/biocontainers/abricate
 aliases:
   abricate: /usr/local/bin/abricate
