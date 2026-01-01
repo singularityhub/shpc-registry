@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methyvimdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methyvimdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methyvimdata/container.yaml"
-updated_at: "2025-12-31 04:24:41.666554"
+updated_at: "2026-01-01 04:44:59.639722"
 latest: "1.12.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-methyvimdata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomic_regions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomic_regions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomic_regions/container.yaml"
-updated_at: "2025-12-31 04:20:06.784624"
+updated_at: "2026-01-01 04:39:59.621058"
 latest: "0.0.10--py_0"
 container_url: "https://biocontainers.pro/tools/genomic_regions"
 aliases:

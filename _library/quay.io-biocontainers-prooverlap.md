@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prooverlap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prooverlap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prooverlap/container.yaml"
-updated_at: "2025-12-31 04:08:25.636577"
+updated_at: "2026-01-01 04:26:31.338704"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prooverlap"
 aliases:

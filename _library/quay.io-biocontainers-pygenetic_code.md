@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygenetic_code"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygenetic_code/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygenetic_code/container.yaml"
-updated_at: "2025-12-31 04:00:56.864176"
+updated_at: "2026-01-01 04:17:50.936836"
 latest: "0.20.0--py312he4a0461_0"
 container_url: "https://biocontainers.pro/tools/pygenetic_code"
 aliases:
