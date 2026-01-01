@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite/container.yaml"
-updated_at: "2026-01-01 04:46:16.728864"
+updated_at: "2026-01-01 07:52:21.256251"
 latest: "0.0.3--pl5321hf0dce44_3"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-command-plugin-logger-sqlite"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intervene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intervene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intervene/container.yaml"
-updated_at: "2026-01-01 03:58:26.940490"
+updated_at: "2026-01-01 07:05:36.811422"
 latest: "0.6.5--pyh3252c3a_1"
 container_url: "https://biocontainers.pro/tools/intervene"
 aliases:

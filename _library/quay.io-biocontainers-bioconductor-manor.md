@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-manor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-manor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-manor/container.yaml"
-updated_at: "2026-01-01 04:46:20.935677"
+updated_at: "2026-01-01 07:52:25.520456"
 latest: "1.78.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-manor"
 

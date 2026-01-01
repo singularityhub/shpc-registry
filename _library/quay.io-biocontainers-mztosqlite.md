@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mztosqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mztosqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mztosqlite/container.yaml"
-updated_at: "2026-01-01 04:44:17.035682"
+updated_at: "2026-01-01 07:50:19.997839"
 latest: "2.1.1--py312h7e72e81_2"
 container_url: "https://biocontainers.pro/tools/mztosqlite"
 aliases:

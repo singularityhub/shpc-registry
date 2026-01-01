@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mkdesigner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mkdesigner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mkdesigner/container.yaml"
-updated_at: "2026-01-01 04:17:27.792247"
+updated_at: "2026-01-01 07:24:31.931599"
 latest: "0.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mkdesigner"
 aliases:

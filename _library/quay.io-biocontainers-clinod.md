@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clinod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clinod/container.yaml"
-updated_at: "2026-01-01 04:33:35.206286"
+updated_at: "2026-01-01 07:39:47.323646"
 latest: "1.3--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/clinod"
 aliases:

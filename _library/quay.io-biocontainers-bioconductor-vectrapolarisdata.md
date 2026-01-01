@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vectrapolarisdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vectrapolarisdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vectrapolarisdata/container.yaml"
-updated_at: "2026-01-01 04:33:31.288537"
+updated_at: "2026-01-01 07:39:43.711141"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vectrapolarisdata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-compress-bgzf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-compress-bgzf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-compress-bgzf/container.yaml"
-updated_at: "2026-01-01 04:36:40.386307"
+updated_at: "2026-01-01 07:42:46.656038"
 latest: "0.005--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-compress-bgzf"
 aliases:

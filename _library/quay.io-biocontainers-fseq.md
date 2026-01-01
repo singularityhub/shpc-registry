@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fseq/container.yaml"
-updated_at: "2026-01-01 04:22:58.524145"
+updated_at: "2026-01-01 07:29:46.474088"
 latest: "1.84--py36pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/fseq"
 aliases:

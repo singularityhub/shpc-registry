@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-filter-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-filter-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-filter-simple/container.yaml"
-updated_at: "2026-01-01 04:14:57.049620"
+updated_at: "2026-01-01 07:22:02.885088"
 latest: "0.91--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-filter-simple"
 aliases:

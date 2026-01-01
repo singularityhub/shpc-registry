@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genview/container.yaml"
-updated_at: "2026-01-01 04:36:52.476294"
+updated_at: "2026-01-01 07:42:57.881833"
 latest: "0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genview"
 aliases:

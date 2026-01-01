@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidplots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidplots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidplots/container.yaml"
-updated_at: "2026-01-01 03:56:22.181247"
+updated_at: "2026-01-01 07:03:32.813701"
 latest: "0.7.4--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidplots"
 
