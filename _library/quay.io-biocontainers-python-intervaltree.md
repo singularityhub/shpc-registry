@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-intervaltree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-intervaltree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-intervaltree/container.yaml"
-updated_at: "2026-01-01 07:26:17.748699"
-latest: "3.1.0--pyh864c0ab_0"
+updated_at: "2026-01-02 04:08:36.729427"
+latest: "3.2.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/python-intervaltree"
 aliases:
  - "2to3-3.8"
@@ -15,8 +15,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "3.1.0--pyh864c0ab_0"
+ - "3.2.0--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for python-intervaltree"
-config: {"url": "https://biocontainers.pro/tools/python-intervaltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-intervaltree", "latest": {"3.1.0--pyh864c0ab_0": "sha256:fc483eb5a8fc713e59feae199633f68e74bebd2941be5e7bb535b273be2322b5"}, "tags": {"3.1.0--pyh864c0ab_0": "sha256:fc483eb5a8fc713e59feae199633f68e74bebd2941be5e7bb535b273be2322b5"}, "docker": "quay.io/biocontainers/python-intervaltree", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/python-intervaltree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-intervaltree", "latest": {"3.2.0--pyh7e72e81_0": "sha256:91bf257ccea9a4697e691b2b3f1d85886b2a7c3718aafb839fad73d065f70c54"}, "tags": {"3.1.0--pyh864c0ab_0": "sha256:fc483eb5a8fc713e59feae199633f68e74bebd2941be5e7bb535b273be2322b5", "3.2.0--pyh7e72e81_0": "sha256:91bf257ccea9a4697e691b2b3f1d85886b2a7c3718aafb839fad73d065f70c54"}, "docker": "quay.io/biocontainers/python-intervaltree", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-intervaltree.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/python-intervaltree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-intervaltree:3.1.0--pyh864c0ab_0
+$ shpc install quay.io/biocontainers/python-intervaltree:3.2.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-intervaltree/3.1.0--pyh864c0ab_0
-$ module help quay.io/biocontainers/python-intervaltree/3.1.0--pyh864c0ab_0
+$ module load quay.io/biocontainers/python-intervaltree/3.2.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/python-intervaltree/3.2.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

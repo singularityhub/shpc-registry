@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alphamissenser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alphamissenser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alphamissenser/container.yaml"
-updated_at: "2026-01-01 07:07:09.523626"
+updated_at: "2026-01-02 03:49:50.095471"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alphamissenser"
 aliases:

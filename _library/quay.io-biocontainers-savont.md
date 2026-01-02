@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/savont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/savont/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/savont/container.yaml"
-updated_at: "2026-01-01 07:24:30.327115"
-latest: "0.1.0--ha6fb395_0"
+updated_at: "2026-01-02 04:06:49.808514"
+latest: "0.2.0--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/savont"
 aliases:
  - "savont"
 versions:
  - "0.1.0--ha6fb395_0"
+ - "0.2.0--ha6fb395_0"
 description: "singularity registry hpc automated addition for savont"
-config: {"url": "https://biocontainers.pro/tools/savont", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for savont", "latest": {"0.1.0--ha6fb395_0": "sha256:ed450e9088ca08e176f238e97befa900b313693de8108c95865f7026ccd70ba8"}, "tags": {"0.1.0--ha6fb395_0": "sha256:ed450e9088ca08e176f238e97befa900b313693de8108c95865f7026ccd70ba8"}, "docker": "quay.io/biocontainers/savont", "aliases": {"savont": "/usr/local/bin/savont"}}
+config: {"url": "https://biocontainers.pro/tools/savont", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for savont", "latest": {"0.2.0--ha6fb395_0": "sha256:368628945e378ba7c5227993eab88c77430ea9bc545d81c873f29bca978dfe4b"}, "tags": {"0.1.0--ha6fb395_0": "sha256:ed450e9088ca08e176f238e97befa900b313693de8108c95865f7026ccd70ba8", "0.2.0--ha6fb395_0": "sha256:368628945e378ba7c5227993eab88c77430ea9bc545d81c873f29bca978dfe4b"}, "docker": "quay.io/biocontainers/savont", "aliases": {"savont": "/usr/local/bin/savont"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/savont.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/savont
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/savont:0.1.0--ha6fb395_0
+$ shpc install quay.io/biocontainers/savont:0.2.0--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/savont/0.1.0--ha6fb395_0
-$ module help quay.io/biocontainers/savont/0.1.0--ha6fb395_0
+$ module load quay.io/biocontainers/savont/0.2.0--ha6fb395_0
+$ module help quay.io/biocontainers/savont/0.2.0--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
