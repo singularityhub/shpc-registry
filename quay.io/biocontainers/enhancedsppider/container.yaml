@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/enhancedsppider
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for enhancedsppider
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:5809013e76497c7a206592fbf8c179e5840c1092b210f56d12edb4ec4da86e85
+  0.2.2--pyhdfd78af_0: 
+    sha256:fa4207bf3cedeaf36defd1b0a60f8bd2c5a4b4a388bd40db828d5b7ceb1c1704
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:5809013e76497c7a206592fbf8c179e5840c1092b210f56d12edb4ec4da86e85
+  0.2.2--pyhdfd78af_0: 
+    sha256:fa4207bf3cedeaf36defd1b0a60f8bd2c5a4b4a388bd40db828d5b7ceb1c1704
 docker: quay.io/biocontainers/enhancedsppider
 aliases:
   combineRefGenomes: /usr/local/bin/combineRefGenomes

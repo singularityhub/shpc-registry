@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   multiqc-xenium-extra
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:12a32e1399ab0fb005d44289a780243879381aa746c3ac94a0cd07e7db4c1752
+  1.0.2--pyhdfd78af_0: 
+    sha256:29109dcd33b307b806ab55c30e38e4dcbe8d8c973c2608c2b307c9b7b65f572e
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:12a32e1399ab0fb005d44289a780243879381aa746c3ac94a0cd07e7db4c1752
+  1.0.2--pyhdfd78af_0: 
+    sha256:29109dcd33b307b806ab55c30e38e4dcbe8d8c973c2608c2b307c9b7b65f572e
 docker: quay.io/biocontainers/multiqc-xenium-extra
 aliases:
   crc32c: /usr/local/bin/crc32c

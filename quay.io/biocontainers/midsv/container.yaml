@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/midsv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for midsv
 latest:
-  0.11.1--pyhdfd78af_0: 
-    sha256:755d92a3e284b6f68e0eed128977f146d4f46acaf10a7482464c55f9e1a85f2f
+  0.13.0--pyhdfd78af_0: 
+    sha256:cc9249caf25886cd945cbeb902760fde92b2697131570b4adb90f035fe65a6fe
 tags:
   0.8.2--pyhdfd78af_0: 
     sha256:b6afdfda084882fadf693f739c637d37d1e7d7786b4027905ce157b449079dd1
@@ -19,6 +19,8 @@ tags:
     sha256:01f1d20988ec5572937a2d76f02eda1a27e29160bd281dbd4d36665f3895cee3
   0.11.1--pyhdfd78af_0: 
     sha256:755d92a3e284b6f68e0eed128977f146d4f46acaf10a7482464c55f9e1a85f2f
+  0.13.0--pyhdfd78af_0: 
+    sha256:cc9249caf25886cd945cbeb902760fde92b2697131570b4adb90f035fe65a6fe
 docker: quay.io/biocontainers/midsv
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11
