@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xtropicaliscdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xtropicaliscdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xtropicaliscdf/container.yaml"
-updated_at: "2026-01-02 03:50:10.781227"
+updated_at: "2026-01-03 03:31:53.227938"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-xtropicaliscdf"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylics/container.yaml"
-updated_at: "2026-01-02 04:34:05.531405"
+updated_at: "2026-01-03 04:15:11.755769"
 latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylics"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mcscanx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mcscanx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mcscanx/container.yaml"
-updated_at: "2026-01-02 03:59:42.354700"
+updated_at: "2026-01-03 03:41:14.569995"
 latest: "1.0.0--h9948957_0"
 container_url: "https://biocontainers.pro/tools/mcscanx"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spectraql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spectraql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spectraql/container.yaml"
-updated_at: "2026-01-02 04:16:58.300716"
+updated_at: "2026-01-03 03:58:17.046628"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spectraql"
 aliases:

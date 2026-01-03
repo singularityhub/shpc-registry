@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v79/container.yaml"
-updated_at: "2026-01-02 04:12:23.620968"
+updated_at: "2026-01-03 03:53:46.571312"
 latest: "2.99.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.rnorvegicus.v79"
 

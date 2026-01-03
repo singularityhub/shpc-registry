@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genmod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genmod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genmod/container.yaml"
-updated_at: "2026-01-02 03:51:17.289985"
-latest: "3.10.1--pyh7e72e81_0"
+updated_at: "2026-01-03 03:32:58.388198"
+latest: "3.10.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/genmod"
 aliases:
  - "genmod"
@@ -26,8 +26,9 @@ versions:
  - "3.9--pyhdfd78af_0"
  - "3.10--pyh7e72e81_0"
  - "3.10.1--pyh7e72e81_0"
+ - "3.10.2--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for genmod"
-config: {"url": "https://biocontainers.pro/tools/genmod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genmod", "latest": {"3.10.1--pyh7e72e81_0": "sha256:cdd2f952cd3c8070c6ab70eb55bc36475d8d24f383508090bee9b99445e63ee9"}, "tags": {"3.7.4--pyh5e36f6f_0": "sha256:6be47a76892f05bcc2754a9c3d25ecda406e2a3b3ac6b4b7fd58ca14402d8ec9", "3.8.0--pyh7cba7a3_0": "sha256:481b1da36c3782afb2c0f6b01f5a403a7856e17c2358e7bad0e54dbfbfb8b540", "3.8.1--pyh7cba7a3_0": "sha256:a22671c4b065627741977e7bbbcc2b6fc87c33aefcb30c8b775b77728541eef2", "3.8.2--pyhdfd78af_0": "sha256:216b9d376b3573013fa6daa3852176296deecc96dbf8ff0182fae84dc3051f23", "3.8.3--pyhdfd78af_0": "sha256:dfa19490669f89a9a3292b0a327c33321e0775b4b6c763cc4df1e52f7f1f378a", "3.9--pyhdfd78af_0": "sha256:21d5e6759f4f67e844ed4e133c6483e6e1c4857cdac2ce0df6544694417c8d3d", "3.10--pyh7e72e81_0": "sha256:abed43f1bb8ecdd0611fcd206771e71bfb1b0a0ba835c9c3b8e6c3c3fcb404b0", "3.10.1--pyh7e72e81_0": "sha256:cdd2f952cd3c8070c6ab70eb55bc36475d8d24f383508090bee9b99445e63ee9"}, "docker": "quay.io/biocontainers/genmod", "aliases": {"genmod": "/usr/local/bin/genmod", "ped_parser": "/usr/local/bin/ped_parser", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/genmod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genmod", "latest": {"3.10.2--pyh7e72e81_0": "sha256:3db9033c81b7cf232c92d6753390333a6e51db0596e050f70583827e0172d933"}, "tags": {"3.7.4--pyh5e36f6f_0": "sha256:6be47a76892f05bcc2754a9c3d25ecda406e2a3b3ac6b4b7fd58ca14402d8ec9", "3.8.0--pyh7cba7a3_0": "sha256:481b1da36c3782afb2c0f6b01f5a403a7856e17c2358e7bad0e54dbfbfb8b540", "3.8.1--pyh7cba7a3_0": "sha256:a22671c4b065627741977e7bbbcc2b6fc87c33aefcb30c8b775b77728541eef2", "3.8.2--pyhdfd78af_0": "sha256:216b9d376b3573013fa6daa3852176296deecc96dbf8ff0182fae84dc3051f23", "3.8.3--pyhdfd78af_0": "sha256:dfa19490669f89a9a3292b0a327c33321e0775b4b6c763cc4df1e52f7f1f378a", "3.9--pyhdfd78af_0": "sha256:21d5e6759f4f67e844ed4e133c6483e6e1c4857cdac2ce0df6544694417c8d3d", "3.10--pyh7e72e81_0": "sha256:abed43f1bb8ecdd0611fcd206771e71bfb1b0a0ba835c9c3b8e6c3c3fcb404b0", "3.10.1--pyh7e72e81_0": "sha256:cdd2f952cd3c8070c6ab70eb55bc36475d8d24f383508090bee9b99445e63ee9", "3.10.2--pyh7e72e81_0": "sha256:3db9033c81b7cf232c92d6753390333a6e51db0596e050f70583827e0172d933"}, "docker": "quay.io/biocontainers/genmod", "aliases": {"genmod": "/usr/local/bin/genmod", "ped_parser": "/usr/local/bin/ped_parser", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genmod.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/genmod
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genmod:3.10.1--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/genmod:3.10.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genmod/3.10.1--pyh7e72e81_0
-$ module help quay.io/biocontainers/genmod/3.10.1--pyh7e72e81_0
+$ module load quay.io/biocontainers/genmod/3.10.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/genmod/3.10.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

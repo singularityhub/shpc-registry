@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/codan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codan/container.yaml"
-updated_at: "2026-01-02 03:51:32.744912"
+updated_at: "2026-01-03 03:33:13.585638"
 latest: "1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/codan"
 aliases:

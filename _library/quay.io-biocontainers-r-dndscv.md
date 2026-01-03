@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dndscv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dndscv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dndscv/container.yaml"
-updated_at: "2026-01-02 04:21:16.919027"
+updated_at: "2026-01-03 04:02:32.821367"
 latest: "0.1.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-dndscv"
 aliases:

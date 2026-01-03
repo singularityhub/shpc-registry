@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytransaln"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytransaln/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytransaln/container.yaml"
-updated_at: "2026-01-02 04:11:31.383945"
+updated_at: "2026-01-03 03:52:55.326799"
 latest: "0.2.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pytransaln"
 aliases:

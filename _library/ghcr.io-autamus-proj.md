@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/proj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/proj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/proj/container.yaml"
-updated_at: "2026-01-02 03:43:49.065600"
+updated_at: "2026-01-03 03:25:38.221824"
 latest: "8.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/proj"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mspbwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mspbwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mspbwt/container.yaml"
-updated_at: "2026-01-02 04:14:34.253183"
+updated_at: "2026-01-03 03:55:55.428542"
 latest: "0.1.1--r44h503566f_1"
 container_url: "https://biocontainers.pro/tools/r-mspbwt"
 aliases:

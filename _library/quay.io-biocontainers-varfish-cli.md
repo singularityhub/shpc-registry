@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varfish-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varfish-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varfish-cli/container.yaml"
-updated_at: "2026-01-02 04:19:54.626857"
+updated_at: "2026-01-03 04:01:11.560232"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varfish-cli"
 aliases:

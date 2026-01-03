@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/giatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/giatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/giatools/container.yaml"
-updated_at: "2026-01-02 03:55:14.563602"
+updated_at: "2026-01-03 03:36:51.888034"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/giatools"
 aliases:

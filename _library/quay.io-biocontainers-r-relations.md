@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-relations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-relations/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-relations/container.yaml"
-updated_at: "2026-01-02 04:14:33.117678"
+updated_at: "2026-01-03 03:55:54.304068"
 latest: "0.6_6--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-relations"
 aliases:

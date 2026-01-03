@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multiqc-xenium-extra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc-xenium-extra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc-xenium-extra/container.yaml"
-updated_at: "2026-01-02 03:50:55.221191"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2026-01-03 03:32:36.789140"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multiqc-xenium-extra"
 aliases:
  - "crc32c"
@@ -37,8 +37,9 @@ aliases:
  - "hwloc-distrib"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for multiqc-xenium-extra"
-config: {"url": "https://biocontainers.pro/tools/multiqc-xenium-extra", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multiqc-xenium-extra", "latest": {"1.0.1--pyhdfd78af_0": "sha256:12a32e1399ab0fb005d44289a780243879381aa746c3ac94a0cd07e7db4c1752"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:12a32e1399ab0fb005d44289a780243879381aa746c3ac94a0cd07e7db4c1752"}, "docker": "quay.io/biocontainers/multiqc-xenium-extra", "aliases": {"crc32c": "/usr/local/bin/crc32c", "zarr": "/usr/local/bin/zarr", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "dotenv": "/usr/local/bin/dotenv", "multiqc": "/usr/local/bin/multiqc", "rich-click": "/usr/local/bin/rich-click", "h5fuse": "/usr/local/bin/h5fuse", "scanpy": "/usr/local/bin/scanpy", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown_py": "/usr/local/bin/markdown_py", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib"}}
+config: {"url": "https://biocontainers.pro/tools/multiqc-xenium-extra", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for multiqc-xenium-extra", "latest": {"1.0.2--pyhdfd78af_0": "sha256:29109dcd33b307b806ab55c30e38e4dcbe8d8c973c2608c2b307c9b7b65f572e"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:12a32e1399ab0fb005d44289a780243879381aa746c3ac94a0cd07e7db4c1752", "1.0.2--pyhdfd78af_0": "sha256:29109dcd33b307b806ab55c30e38e4dcbe8d8c973c2608c2b307c9b7b65f572e"}, "docker": "quay.io/biocontainers/multiqc-xenium-extra", "aliases": {"crc32c": "/usr/local/bin/crc32c", "zarr": "/usr/local/bin/zarr", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "dotenv": "/usr/local/bin/dotenv", "multiqc": "/usr/local/bin/multiqc", "rich-click": "/usr/local/bin/rich-click", "h5fuse": "/usr/local/bin/h5fuse", "scanpy": "/usr/local/bin/scanpy", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown-it": "/usr/local/bin/markdown-it", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown_py": "/usr/local/bin/markdown_py", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multiqc-xenium-extra.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/multiqc-xenium-extra
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multiqc-xenium-extra:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/multiqc-xenium-extra:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multiqc-xenium-extra/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/multiqc-xenium-extra/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/multiqc-xenium-extra/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/multiqc-xenium-extra/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

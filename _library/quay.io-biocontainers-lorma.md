@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lorma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lorma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lorma/container.yaml"
-updated_at: "2026-01-02 04:03:40.292703"
+updated_at: "2026-01-03 03:45:09.401784"
 latest: "0.4--2"
 container_url: "https://biocontainers.pro/tools/lorma"
 aliases:

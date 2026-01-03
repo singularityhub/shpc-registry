@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-leidenbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-leidenbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-leidenbase/container.yaml"
-updated_at: "2026-01-02 04:06:01.132428"
+updated_at: "2026-01-03 03:47:28.970967"
 latest: "0.1.31--r44hf1f7472_0"
 container_url: "https://biocontainers.pro/tools/r-leidenbase"
 
