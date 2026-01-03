@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/jalview
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jalview
 latest:
-  2.11.5.0--hdfd78af_0: 
-    sha256:862f7013098a2f17f2a1f85eb46debf566b9e80a3777a5113db26c5005aff46c
+  2.11.5.1--hdfd78af_0: 
+    sha256:6e544afb8a012b179947dcac9665a15cef2a71c688f001b4388ca31365dbc764
 tags:
   2.11.2.4--hdfd78af_0: 
     sha256:d2ee7d5c9d85a0c676de8e2f87a8dd627d5a63773b6e8b57b695c38a5ae4377b
@@ -21,6 +21,8 @@ tags:
     sha256:9dca8fbde5c38559b78f36b2d255ce66b19510dd14e751b4044e7dc739c364c2
   2.11.5.0--hdfd78af_0: 
     sha256:862f7013098a2f17f2a1f85eb46debf566b9e80a3777a5113db26c5005aff46c
+  2.11.5.1--hdfd78af_0: 
+    sha256:6e544afb8a012b179947dcac9665a15cef2a71c688f001b4388ca31365dbc764
 docker: quay.io/biocontainers/jalview
 aliases:
   jalview: /usr/local/bin/jalview

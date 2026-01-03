@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/longcalld
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for longcalld
 latest:
-  0.0.7--h7d57edc_0: 
-    sha256:a2ddfba2415edcf5865c21b91c041b5e045a8ba13c7b4f27ffb12d336290d67b
+  0.0.8--h7d57edc_0: 
+    sha256:6503c4bcb2bf60c84e6e79b076793260fb1f8ce83ce3a0aaf96a072eb791b0bd
 tags:
   0.0.4--h7d57edc_0: 
     sha256:2faac568a800c57b996353c203c1c4bce9a50b498ee1ce40a7c8ecc4fa261455
@@ -13,6 +13,8 @@ tags:
     sha256:d0e9c50119a43b3ef5d17142d0794da44991aab06bf86f2eded5c91af4d730c9
   0.0.7--h7d57edc_0: 
     sha256:a2ddfba2415edcf5865c21b91c041b5e045a8ba13c7b4f27ffb12d336290d67b
+  0.0.8--h7d57edc_0: 
+    sha256:6503c4bcb2bf60c84e6e79b076793260fb1f8ce83ce3a0aaf96a072eb791b0bd
 docker: quay.io/biocontainers/longcalld
 aliases:
   longcallD: /usr/local/bin/longcallD

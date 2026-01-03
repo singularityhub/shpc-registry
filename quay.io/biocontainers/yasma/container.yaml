@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/yasma
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for yasma
 latest:
-  1.0.1--pyh7e72e81_0: 
-    sha256:2649d68b075c5e5f5c29b3be97b2f8f6568343204e5a02dd555f4978a215be4f
+  1.1.0--pyh7e72e81_0: 
+    sha256:3382aea4ddc55249a6ce568e797ae80edd6e93b8cc5642dd6c2482bab7ec1688
 tags:
   1.0.1--pyh7e72e81_0: 
     sha256:2649d68b075c5e5f5c29b3be97b2f8f6568343204e5a02dd555f4978a215be4f
+  1.1.0--pyh7e72e81_0: 
+    sha256:3382aea4ddc55249a6ce568e797ae80edd6e93b8cc5642dd6c2482bab7ec1688
 docker: quay.io/biocontainers/yasma
 aliases:
   RNAconsensus: /usr/local/bin/RNAconsensus

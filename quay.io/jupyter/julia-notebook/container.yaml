@@ -4,11 +4,11 @@ maintainer: '@HasseJohansen'
 description: Jupyter Julia Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2025-12-03': 
-    sha256:59d98f166bd833f09be57a05b99fad58498b35bc76f52734617ce45f80f5fbfe
+  '2025-12-31': 
+    sha256:5ba5e8e9f618eaa7567c902c001f9ee656007b7d97161c4389a1e9209bef2132
 tags:
   latest: 
-    sha256:59d98f166bd833f09be57a05b99fad58498b35bc76f52734617ce45f80f5fbfe
+    sha256:5ba5e8e9f618eaa7567c902c001f9ee656007b7d97161c4389a1e9209bef2132
   '2025-05-30': 
     sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee
   '2025-06-30': 
@@ -27,6 +27,12 @@ tags:
     sha256:b2852c53b56bfd73ee43bf4c30633a954e93f2baaf25a5c8bdec456b9a94e167
   '2025-09-22': 
     sha256:cacaff91ce73c02e6319d81336285bf59642811529a69f054963571426618897
+  '2025-12-31': 
+    sha256:5ba5e8e9f618eaa7567c902c001f9ee656007b7d97161c4389a1e9209bef2132
+  '2025-11-29': 
+    sha256:50979fd069712a9a4dd42f46c35e5adc924bd68b8d5e6813ef5369cdecbf2177
+  '2025-10-27': 
+    sha256:be55ce756bc101f16b5858962d988300d086ca69f645078f9c245bdc7af50857
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 
