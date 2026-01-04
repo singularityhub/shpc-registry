@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-singler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singler/container.yaml"
-updated_at: "2026-01-03 03:52:27.127807"
+updated_at: "2026-01-04 04:20:41.246034"
 latest: "2.8.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-singler"
 

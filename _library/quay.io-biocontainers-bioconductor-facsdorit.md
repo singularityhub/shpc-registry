@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-facsdorit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-facsdorit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-facsdorit/container.yaml"
-updated_at: "2026-01-03 04:01:11.277730"
+updated_at: "2026-01-04 04:29:20.417530"
 latest: "1.30.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-facsdorit"
 aliases:

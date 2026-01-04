@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moni"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moni/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moni/container.yaml"
-updated_at: "2026-01-03 03:58:34.838001"
+updated_at: "2026-01-04 04:26:44.264587"
 latest: "0.2.2--py310h026fc6c_1"
 container_url: "https://biocontainers.pro/tools/moni"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/neodisambiguate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neodisambiguate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neodisambiguate/container.yaml"
-updated_at: "2026-01-03 03:53:02.669986"
-latest: "1.1.0--hdfd78af_0"
+updated_at: "2026-01-04 04:21:16.093045"
+latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/neodisambiguate"
 aliases:
  - "neodisambiguate"
@@ -36,8 +36,9 @@ aliases:
  - "jdb"
 versions:
  - "1.1.0--hdfd78af_0"
+ - "1.1.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for neodisambiguate"
-config: {"url": "https://biocontainers.pro/tools/neodisambiguate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for neodisambiguate", "latest": {"1.1.0--hdfd78af_0": "sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955"}, "tags": {"1.1.0--hdfd78af_0": "sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955"}, "docker": "quay.io/biocontainers/neodisambiguate", "aliases": {"neodisambiguate": "/usr/local/bin/neodisambiguate", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "tjbench": "/usr/local/bin/tjbench", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb"}}
+config: {"url": "https://biocontainers.pro/tools/neodisambiguate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for neodisambiguate", "latest": {"1.1.1--hdfd78af_0": "sha256:f532a0abfc2e36732c60bb7613333b066ed0d8849369aaee002e0740f58f0962"}, "tags": {"1.1.0--hdfd78af_0": "sha256:bdd727d772e714c42cc2b5455f34fa75147211ae7b6aa2f11e3c171937904955", "1.1.1--hdfd78af_0": "sha256:f532a0abfc2e36732c60bb7613333b066ed0d8849369aaee002e0740f58f0962"}, "docker": "quay.io/biocontainers/neodisambiguate", "aliases": {"neodisambiguate": "/usr/local/bin/neodisambiguate", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "tjbench": "/usr/local/bin/tjbench", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/neodisambiguate.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/neodisambiguate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/neodisambiguate:1.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/neodisambiguate:1.1.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/neodisambiguate/1.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/neodisambiguate/1.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/neodisambiguate/1.1.1--hdfd78af_0
+$ module help quay.io/biocontainers/neodisambiguate/1.1.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

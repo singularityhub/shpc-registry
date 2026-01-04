@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grzctl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grzctl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grzctl/container.yaml"
-updated_at: "2026-01-03 03:41:57.904063"
-latest: "1.3.0--pyhdfd78af_0"
+updated_at: "2026-01-04 04:10:20.508849"
+latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grzctl"
 aliases:
  - "crypt4gh"
@@ -37,8 +37,9 @@ versions:
  - "1.3.0--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_0"
  - "1.0.1--pyhdfd78af_0"
+ - "1.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for grzctl"
-config: {"url": "https://biocontainers.pro/tools/grzctl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grzctl", "latest": {"1.3.0--pyhdfd78af_0": "sha256:d6f22d7a5296a2c781b1662e2ebb5eab39c61c6c1bc73438a8ca88a3cd2e4692"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:a9a6307776305d81b2b511b80066ce6441297210ebf67e7c7dbe95539fa24296", "0.2.2--pyhdfd78af_0": "sha256:b7e07bbb412fa24b6f7b2cb5ad81582f9a377190248e21ac9b0a5d6d17040181", "0.3.0--pyhdfd78af_0": "sha256:5338687ef69c8e561509c939aa6f03c4b66309970f9078bdeed775f58839d84e", "0.2.6--pyhdfd78af_0": "sha256:1282f09759e7b47b8cc5bbec86c7321954d9a337da4cb9c56da945a83f3e5636", "0.5.0--pyhdfd78af_0": "sha256:a06f379914f80893425ceb0ddf8833b88daf553cdd77bf27fbba21797b03de75", "0.4.0--pyhdfd78af_0": "sha256:3b1d1ca64c3d615c4c551c17c6a77e0289d785a71024db82bbaf98b7136613b3", "0.6.0--pyhdfd78af_0": "sha256:651d67a87d25f23260d7907740d4cc3ab7d73e8e044e9810966db1f5e415f5f7", "1.3.0--pyhdfd78af_0": "sha256:d6f22d7a5296a2c781b1662e2ebb5eab39c61c6c1bc73438a8ca88a3cd2e4692", "1.2.0--pyhdfd78af_0": "sha256:4150f87fdb786b84cf429d8cdcd426f2107fe79083834f2d30ecb843145360d7", "1.0.1--pyhdfd78af_0": "sha256:81a4a4ff930c9b09b22b9e309d8efbffcf590a0b808fbd4cf25d02b555fe595e"}, "docker": "quay.io/biocontainers/grzctl", "aliases": {"crypt4gh": "/usr/local/bin/crypt4gh", "crypt4gh-keygen": "/usr/local/bin/crypt4gh-keygen", "grz-cli": "/usr/local/bin/grz-cli", "grzctl": "/usr/local/bin/grzctl", "alembic": "/usr/local/bin/alembic", "dotenv": "/usr/local/bin/dotenv", "mako-render": "/usr/local/bin/mako-render", "markdown-it": "/usr/local/bin/markdown-it", "jp.py": "/usr/local/bin/jp.py", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/grzctl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grzctl", "latest": {"1.4.0--pyhdfd78af_0": "sha256:17231aacc477d6095b9ef06df6357f1e8308edc91bde719756646991fdbc8958"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:a9a6307776305d81b2b511b80066ce6441297210ebf67e7c7dbe95539fa24296", "0.2.2--pyhdfd78af_0": "sha256:b7e07bbb412fa24b6f7b2cb5ad81582f9a377190248e21ac9b0a5d6d17040181", "0.3.0--pyhdfd78af_0": "sha256:5338687ef69c8e561509c939aa6f03c4b66309970f9078bdeed775f58839d84e", "0.2.6--pyhdfd78af_0": "sha256:1282f09759e7b47b8cc5bbec86c7321954d9a337da4cb9c56da945a83f3e5636", "0.5.0--pyhdfd78af_0": "sha256:a06f379914f80893425ceb0ddf8833b88daf553cdd77bf27fbba21797b03de75", "0.4.0--pyhdfd78af_0": "sha256:3b1d1ca64c3d615c4c551c17c6a77e0289d785a71024db82bbaf98b7136613b3", "0.6.0--pyhdfd78af_0": "sha256:651d67a87d25f23260d7907740d4cc3ab7d73e8e044e9810966db1f5e415f5f7", "1.3.0--pyhdfd78af_0": "sha256:d6f22d7a5296a2c781b1662e2ebb5eab39c61c6c1bc73438a8ca88a3cd2e4692", "1.2.0--pyhdfd78af_0": "sha256:4150f87fdb786b84cf429d8cdcd426f2107fe79083834f2d30ecb843145360d7", "1.0.1--pyhdfd78af_0": "sha256:81a4a4ff930c9b09b22b9e309d8efbffcf590a0b808fbd4cf25d02b555fe595e", "1.4.0--pyhdfd78af_0": "sha256:17231aacc477d6095b9ef06df6357f1e8308edc91bde719756646991fdbc8958"}, "docker": "quay.io/biocontainers/grzctl", "aliases": {"crypt4gh": "/usr/local/bin/crypt4gh", "crypt4gh-keygen": "/usr/local/bin/crypt4gh-keygen", "grz-cli": "/usr/local/bin/grz-cli", "grzctl": "/usr/local/bin/grzctl", "alembic": "/usr/local/bin/alembic", "dotenv": "/usr/local/bin/dotenv", "mako-render": "/usr/local/bin/mako-render", "markdown-it": "/usr/local/bin/markdown-it", "jp.py": "/usr/local/bin/jp.py", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grzctl.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/grzctl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grzctl:1.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/grzctl:1.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grzctl/1.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/grzctl/1.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/grzctl/1.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/grzctl/1.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

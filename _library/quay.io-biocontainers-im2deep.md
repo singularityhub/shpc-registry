@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/im2deep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/im2deep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/im2deep/container.yaml"
-updated_at: "2026-01-03 03:49:30.004676"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2026-01-04 04:17:47.651249"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/im2deep"
 aliases:
  - "deeplc"
@@ -49,8 +49,9 @@ versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.3--pyhdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for im2deep"
-config: {"url": "https://biocontainers.pro/tools/im2deep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for im2deep", "latest": {"1.1.0--pyhdfd78af_0": "sha256:5bba462e112d6dd5e7e14d58836b93a326bbeb8d749af24eb1614d41e273c764"}, "tags": {"0.1.7--pyhdfd78af_0": "sha256:884702964f92c2025e0183122cc4f342fad4da4f23da11c174da894679f738c3", "0.1.8--pyhdfd78af_0": "sha256:22dfbfa3bd1bdfc540ff8fb13102b5555e28c51ea2a9b59bb9ca6f256c883681", "0.1.9--pyhdfd78af_0": "sha256:5df8b5b56bf6b900395b51c5df975703f92b6e2953a2990db74857a277ad933c", "0.2.0--pyhdfd78af_0": "sha256:be67dbf6e464428caa9f935e67c43dedae4a839ae87dfe9cd2dfdc96343eb5fb", "0.3.1--pyhdfd78af_0": "sha256:3c2826542955647dc93c494ef4451b892889ece4f57dff7b2abfe9f3241d018f", "0.3.1--pyhdfd78af_1": "sha256:8bb6d322fa60ecc5a480e09466c71b0d5a27537839d605c258b1c2d59468471a", "1.0.2--pyhdfd78af_0": "sha256:46dcdabf8cc81ab19d5e18fe0cd8e032b45c23cc775fe4fbad6560dbd1ea3aea", "1.0.3--pyhdfd78af_0": "sha256:dce8ed842a74ebfdb7871186714bc356daa995010b294d1b334da1c50bcf4780", "1.1.0--pyhdfd78af_0": "sha256:5bba462e112d6dd5e7e14d58836b93a326bbeb8d749af24eb1614d41e273c764"}, "docker": "quay.io/biocontainers/im2deep", "aliases": {"deeplc": "/usr/local/bin/deeplc", "deeplc-gui": "/usr/local/bin/deeplc-gui", "im2deep": "/usr/local/bin/im2deep", "progressbar": "/usr/local/bin/progressbar", "psm-utils": "/usr/local/bin/psm-utils", "psm_utils": "/usr/local/bin/psm_utils", "flatc": "/usr/local/bin/flatc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "markdown-it": "/usr/local/bin/markdown-it", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "h5delete": "/usr/local/bin/h5delete", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/im2deep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for im2deep", "latest": {"1.1.1--pyhdfd78af_0": "sha256:41324912078de9add00203641d30ebbb168d5cd60dd3a969b2c9ce9a3be5bd45"}, "tags": {"0.1.7--pyhdfd78af_0": "sha256:884702964f92c2025e0183122cc4f342fad4da4f23da11c174da894679f738c3", "0.1.8--pyhdfd78af_0": "sha256:22dfbfa3bd1bdfc540ff8fb13102b5555e28c51ea2a9b59bb9ca6f256c883681", "0.1.9--pyhdfd78af_0": "sha256:5df8b5b56bf6b900395b51c5df975703f92b6e2953a2990db74857a277ad933c", "0.2.0--pyhdfd78af_0": "sha256:be67dbf6e464428caa9f935e67c43dedae4a839ae87dfe9cd2dfdc96343eb5fb", "0.3.1--pyhdfd78af_0": "sha256:3c2826542955647dc93c494ef4451b892889ece4f57dff7b2abfe9f3241d018f", "0.3.1--pyhdfd78af_1": "sha256:8bb6d322fa60ecc5a480e09466c71b0d5a27537839d605c258b1c2d59468471a", "1.0.2--pyhdfd78af_0": "sha256:46dcdabf8cc81ab19d5e18fe0cd8e032b45c23cc775fe4fbad6560dbd1ea3aea", "1.0.3--pyhdfd78af_0": "sha256:dce8ed842a74ebfdb7871186714bc356daa995010b294d1b334da1c50bcf4780", "1.1.0--pyhdfd78af_0": "sha256:5bba462e112d6dd5e7e14d58836b93a326bbeb8d749af24eb1614d41e273c764", "1.1.1--pyhdfd78af_0": "sha256:41324912078de9add00203641d30ebbb168d5cd60dd3a969b2c9ce9a3be5bd45"}, "docker": "quay.io/biocontainers/im2deep", "aliases": {"deeplc": "/usr/local/bin/deeplc", "deeplc-gui": "/usr/local/bin/deeplc-gui", "im2deep": "/usr/local/bin/im2deep", "progressbar": "/usr/local/bin/progressbar", "psm-utils": "/usr/local/bin/psm-utils", "psm_utils": "/usr/local/bin/psm_utils", "flatc": "/usr/local/bin/flatc", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "markdown-it": "/usr/local/bin/markdown-it", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "h5delete": "/usr/local/bin/h5delete", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/im2deep.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/im2deep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/im2deep:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/im2deep:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/im2deep/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/im2deep/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/im2deep/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/im2deep/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
