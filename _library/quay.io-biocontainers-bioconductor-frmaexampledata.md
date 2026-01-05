@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-frmaexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-frmaexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-frmaexampledata/container.yaml"
-updated_at: "2026-01-05 04:29:42.808601"
+updated_at: "2026-01-05 06:12:23.419101"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-frmaexampledata"
 

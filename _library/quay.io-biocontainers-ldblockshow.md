@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ldblockshow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ldblockshow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ldblockshow/container.yaml"
-updated_at: "2026-01-05 04:14:44.068635"
+updated_at: "2026-01-05 05:56:21.428323"
 latest: "1.41--pl5321h077b44d_0"
 container_url: "https://biocontainers.pro/tools/ldblockshow"
 aliases:

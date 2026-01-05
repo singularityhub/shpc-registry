@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-olingui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-olingui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-olingui/container.yaml"
-updated_at: "2026-01-05 04:21:51.100691"
+updated_at: "2026-01-05 06:03:44.610027"
 latest: "1.80.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-olingui"
 

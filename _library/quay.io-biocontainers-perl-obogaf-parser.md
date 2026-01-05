@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-obogaf-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-obogaf-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-obogaf-parser/container.yaml"
-updated_at: "2026-01-05 04:01:33.026456"
+updated_at: "2026-01-05 05:42:08.722909"
 latest: "1.373--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-obogaf-parser"
 aliases:

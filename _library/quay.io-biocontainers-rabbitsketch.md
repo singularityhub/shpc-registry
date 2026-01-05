@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rabbitsketch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rabbitsketch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rabbitsketch/container.yaml"
-updated_at: "2026-01-05 04:26:58.033845"
+updated_at: "2026-01-05 06:09:22.260559"
 latest: "0.1.1--py39h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/rabbitsketch"
 aliases:

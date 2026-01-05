@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/umap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umap/container.yaml"
-updated_at: "2026-01-05 04:31:39.167827"
+updated_at: "2026-01-05 06:14:40.147654"
 latest: "1.1.1--pyh1687a27_0"
 container_url: "https://biocontainers.pro/tools/umap"
 aliases:

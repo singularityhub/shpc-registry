@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gramm4r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gramm4r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gramm4r/container.yaml"
-updated_at: "2026-01-05 04:07:17.239582"
+updated_at: "2026-01-05 05:48:20.955555"
 latest: "1.4.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-gramm4r"
 aliases:

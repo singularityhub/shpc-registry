@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-lock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-lock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-lock/container.yaml"
-updated_at: "2026-01-05 04:35:00.629635"
+updated_at: "2026-01-05 06:18:45.587375"
 latest: "1.03--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-data-lock"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/censtats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/censtats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/censtats/container.yaml"
-updated_at: "2026-01-05 04:40:47.605770"
+updated_at: "2026-01-05 06:25:53.789942"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/censtats"
 aliases:
