@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cardelino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cardelino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cardelino/container.yaml"
-updated_at: "2026-01-04 04:11:22.992752"
+updated_at: "2026-01-05 04:15:59.115254"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cardelino"
 aliases:

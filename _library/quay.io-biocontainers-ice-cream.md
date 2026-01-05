@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ice-cream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ice-cream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ice-cream/container.yaml"
-updated_at: "2026-01-04 03:57:46.976354"
+updated_at: "2026-01-05 04:02:52.491650"
 latest: "2.0.0--pyh10911b7_0"
 container_url: "https://biocontainers.pro/tools/ice-cream"
 aliases:

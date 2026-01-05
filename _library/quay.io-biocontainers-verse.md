@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/verse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verse/container.yaml"
-updated_at: "2026-01-04 04:01:48.985410"
+updated_at: "2026-01-05 04:06:47.259102"
 latest: "0.1.5--h577a1d6_9"
 container_url: "https://biocontainers.pro/tools/verse"
 aliases:

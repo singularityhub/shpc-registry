@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multiclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multiclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multiclust/container.yaml"
-updated_at: "2026-01-04 04:06:04.254894"
+updated_at: "2026-01-05 04:10:56.582893"
 latest: "1.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multiclust"
 aliases:

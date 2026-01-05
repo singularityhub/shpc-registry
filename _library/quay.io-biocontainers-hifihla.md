@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hifihla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifihla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifihla/container.yaml"
-updated_at: "2026-01-04 04:37:14.007558"
+updated_at: "2026-01-05 04:40:58.343301"
 latest: "0.3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hifihla"
 aliases:

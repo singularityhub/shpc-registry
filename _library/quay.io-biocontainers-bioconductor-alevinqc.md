@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alevinqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alevinqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alevinqc/container.yaml"
-updated_at: "2026-01-04 04:02:57.114070"
+updated_at: "2026-01-05 04:07:55.111256"
 latest: "1.18.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alevinqc"
 aliases:
