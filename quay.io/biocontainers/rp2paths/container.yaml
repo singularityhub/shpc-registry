@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/rp2paths
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rp2paths
 latest:
-  2.0.0: sha256:ec6a31afb488064bad44ab16faabd488aa9c28eea92e51f29e9b8317fb709989
+  2.1.4: sha256:f1976e112bf431856582d5e3e3e79f10fade9798e997861e58bdfccce4527ca0
 tags:
   1.5.0: sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7
   1.5.1: sha256:57a1be4e3d35ac6edca5565cd051e516bbedf2558e1c276224a5d16ef18631da
   2.0.0: sha256:ec6a31afb488064bad44ab16faabd488aa9c28eea92e51f29e9b8317fb709989
+  2.1.4: sha256:f1976e112bf431856582d5e3e3e79f10fade9798e997861e58bdfccce4527ca0
 docker: quay.io/biocontainers/rp2paths
 aliases:
   cxpm: /usr/local/bin/cxpm

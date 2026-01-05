@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_dna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_dna
 latest:
-  5.1.0--pyhdfd78af_0: 
-    sha256:5bf4767161ad3c24d8df62c31ec4a14ad6f7fcfdde514517c1a60a9771c3e96a
+  5.2.0--pyhdfd78af_0: 
+    sha256:2ac80ed546e6a353d7021af2cc53717c0dbee58d3515259f964814f74b4487be
 tags:
   3.8.2--pyhdfd78af_1: 
     sha256:daf6f49dab082a939cef507fb8cf6f8b542182d51b7429936754c03e2af70fe8
@@ -23,6 +23,8 @@ tags:
     sha256:b0306260a4fdafc23dd9a28fecc36e6358e23c2e3a3bdba9694378800b13125a
   5.1.0--pyhdfd78af_0: 
     sha256:5bf4767161ad3c24d8df62c31ec4a14ad6f7fcfdde514517c1a60a9771c3e96a
+  5.2.0--pyhdfd78af_0: 
+    sha256:2ac80ed546e6a353d7021af2cc53717c0dbee58d3515259f964814f74b4487be
 docker: quay.io/biocontainers/biobb_dna
 aliases:
   AddToBox: /usr/local/bin/AddToBox

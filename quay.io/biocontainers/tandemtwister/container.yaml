@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tandemtwister
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tandemtwister
 latest:
-  0.1.0--h9948957_0: 
-    sha256:bbfdb62ed1bd8bc44af642268e70822f66361d1bf813503aac402027aa34275d
+  0.2.0--h9948957_0: 
+    sha256:d4a70c9fab88444c8c4ef6ee38265339c6d221cb21936129fc6eeafeb82d6568
 tags:
   0.1.0--h9948957_0: 
     sha256:bbfdb62ed1bd8bc44af642268e70822f66361d1bf813503aac402027aa34275d
+  0.2.0--h9948957_0: 
+    sha256:d4a70c9fab88444c8c4ef6ee38265339c6d221cb21936129fc6eeafeb82d6568
 docker: quay.io/biocontainers/tandemtwister
 aliases:
   mlpack_adaboost: /usr/local/bin/mlpack_adaboost

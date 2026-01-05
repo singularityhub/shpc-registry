@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/saccharis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for saccharis
 latest:
-  2.0.4--pyh7e72e81_0: 
-    sha256:df3c120868e9c1f789d4d16d49c737f9a00343625acd728444ff89311a22e701
+  2.0.5--pyh7e72e81_0: 
+    sha256:04674cc8da6ffbcb36f50783c6a55ed45efe325eb9a12fe1e89504740f003345
 tags:
   2.0.0.dev18--pyh7cba7a3_0: 
     sha256:b92c8dd0fd53dad9f8df94dfddb77931c844300e321e22fac9afc40383f3d17b
@@ -21,6 +21,8 @@ tags:
     sha256:03acd5f3da0be6316dc30047a049295c94ee36c3b813fcec65f158bc3ed91736
   2.0.4--pyh7e72e81_0: 
     sha256:df3c120868e9c1f789d4d16d49c737f9a00343625acd728444ff89311a22e701
+  2.0.5--pyh7e72e81_0: 
+    sha256:04674cc8da6ffbcb36f50783c6a55ed45efe325eb9a12fe1e89504740f003345
 docker: quay.io/biocontainers/saccharis
 aliases:
   dotenv: /usr/local/bin/dotenv
