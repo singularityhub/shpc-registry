@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rificomparative"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rificomparative/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rificomparative/container.yaml"
-updated_at: "2026-01-05 05:54:38.768842"
+updated_at: "2026-01-06 03:56:41.393183"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rificomparative"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rp2paths"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rp2paths/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rp2paths/container.yaml"
-updated_at: "2026-01-05 06:25:35.292209"
-latest: "2.0.0"
+updated_at: "2026-01-06 04:25:10.611986"
+latest: "2.1.4"
 container_url: "https://biocontainers.pro/tools/rp2paths"
 aliases:
  - "cxpm"
@@ -22,8 +22,9 @@ versions:
  - "1.5.0"
  - "1.5.1"
  - "2.0.0"
+ - "2.1.4"
 description: "shpc-registry automated BioContainers addition for rp2paths"
-config: {"url": "https://biocontainers.pro/tools/rp2paths", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rp2paths", "latest": {"2.0.0": "sha256:ec6a31afb488064bad44ab16faabd488aa9c28eea92e51f29e9b8317fb709989"}, "tags": {"1.5.0": "sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7", "1.5.1": "sha256:57a1be4e3d35ac6edca5565cd051e516bbedf2558e1c276224a5d16ef18631da", "2.0.0": "sha256:ec6a31afb488064bad44ab16faabd488aa9c28eea92e51f29e9b8317fb709989"}, "docker": "quay.io/biocontainers/rp2paths", "aliases": {"cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins"}}
+config: {"url": "https://biocontainers.pro/tools/rp2paths", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rp2paths", "latest": {"2.1.4": "sha256:f1976e112bf431856582d5e3e3e79f10fade9798e997861e58bdfccce4527ca0"}, "tags": {"1.5.0": "sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7", "1.5.1": "sha256:57a1be4e3d35ac6edca5565cd051e516bbedf2558e1c276224a5d16ef18631da", "2.0.0": "sha256:ec6a31afb488064bad44ab16faabd488aa9c28eea92e51f29e9b8317fb709989", "2.1.4": "sha256:f1976e112bf431856582d5e3e3e79f10fade9798e997861e58bdfccce4527ca0"}, "docker": "quay.io/biocontainers/rp2paths", "aliases": {"cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rp2paths.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/rp2paths
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rp2paths:2.0.0
+$ shpc install quay.io/biocontainers/rp2paths:2.1.4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rp2paths/2.0.0
-$ module help quay.io/biocontainers/rp2paths/2.0.0
+$ module load quay.io/biocontainers/rp2paths/2.1.4
+$ module help quay.io/biocontainers/rp2paths/2.1.4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

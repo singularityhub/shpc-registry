@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riboseq-rust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboseq-rust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboseq-rust/container.yaml"
-updated_at: "2026-01-05 06:17:29.976627"
+updated_at: "2026-01-06 04:18:10.429383"
 latest: "1.2--1"
 container_url: "https://biocontainers.pro/tools/riboseq-rust"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdst/container.yaml"
-updated_at: "2026-01-05 05:48:46.531683"
+updated_at: "2026-01-06 03:50:57.233050"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cdst"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ancestry_hmm-s"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ancestry_hmm-s/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ancestry_hmm-s/container.yaml"
-updated_at: "2026-01-05 05:41:43.632889"
+updated_at: "2026-01-06 03:44:08.992607"
 latest: "0.9.0.2--h9948957_6"
 container_url: "https://biocontainers.pro/tools/ancestry_hmm-s"
 aliases:

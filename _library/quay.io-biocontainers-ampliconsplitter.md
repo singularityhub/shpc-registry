@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ampliconsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampliconsplitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampliconsplitter/container.yaml"
-updated_at: "2026-01-05 06:04:55.978698"
+updated_at: "2026-01-06 04:06:44.208926"
 latest: "1.9.22--h9948957_0"
 container_url: "https://biocontainers.pro/tools/ampliconsplitter"
 aliases:

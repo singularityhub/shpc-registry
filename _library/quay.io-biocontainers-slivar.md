@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/slivar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slivar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slivar/container.yaml"
-updated_at: "2026-01-05 05:51:30.463882"
-latest: "0.3.2--h5f107b1_0"
+updated_at: "2026-01-06 03:53:34.296929"
+latest: "0.3.3--h5f107b1_0"
 container_url: "https://biocontainers.pro/tools/slivar"
 aliases:
  - "pslivar"
@@ -18,8 +18,9 @@ versions:
  - "0.3.1--h4e814b3_0"
  - "0.3.1--h4e814b3_1"
  - "0.3.2--h5f107b1_0"
+ - "0.3.3--h5f107b1_0"
 description: "shpc-registry automated BioContainers addition for slivar"
-config: {"url": "https://biocontainers.pro/tools/slivar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slivar", "latest": {"0.3.2--h5f107b1_0": "sha256:61000bec89964b2c880ab446b03495c9baa322c6be0cf4cf8d665cab56e83a9f"}, "tags": {"0.2.7--h2eeb373_0": "sha256:2b821cf760c580d6a4da342129a0039706f1d6be335dcf3ef9f649fdc1232b10", "0.2.8--h2eeb373_0": "sha256:0ecd57e5a35977964d0394aa6b7a30039df11b3d74efcd28267d023bb81369b3", "0.2.9--h2eeb373_0": "sha256:cc2a9a52e1f67dc70d10a4fe493cb04adbc4d746601aad11684eddf5767bc13d", "0.3.0--h4e814b3_2": "sha256:c4cc630488cf9cb9a1ca9ab167e29e7785e8f952110a5e39bfa1ea14554da4c0", "0.3.1--h4e814b3_0": "sha256:73ac6d40a879131cc081ba0f77ca1c6c6729be2e950dbcc7745540ca32aa0081", "0.3.1--h4e814b3_1": "sha256:d38b17c15644f2944f50b9a7554f5c51e25cbb0b6ae11bacde83470ebb3b24ba", "0.3.2--h5f107b1_0": "sha256:61000bec89964b2c880ab446b03495c9baa322c6be0cf4cf8d665cab56e83a9f"}, "docker": "quay.io/biocontainers/slivar", "aliases": {"pslivar": "/usr/local/bin/pslivar", "slivar": "/usr/local/bin/slivar"}}
+config: {"url": "https://biocontainers.pro/tools/slivar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slivar", "latest": {"0.3.3--h5f107b1_0": "sha256:022983265c768bcee6f2a8ae622be91e3ec16b1c3e446bc6b22a45d9d0320614"}, "tags": {"0.2.7--h2eeb373_0": "sha256:2b821cf760c580d6a4da342129a0039706f1d6be335dcf3ef9f649fdc1232b10", "0.2.8--h2eeb373_0": "sha256:0ecd57e5a35977964d0394aa6b7a30039df11b3d74efcd28267d023bb81369b3", "0.2.9--h2eeb373_0": "sha256:cc2a9a52e1f67dc70d10a4fe493cb04adbc4d746601aad11684eddf5767bc13d", "0.3.0--h4e814b3_2": "sha256:c4cc630488cf9cb9a1ca9ab167e29e7785e8f952110a5e39bfa1ea14554da4c0", "0.3.1--h4e814b3_0": "sha256:73ac6d40a879131cc081ba0f77ca1c6c6729be2e950dbcc7745540ca32aa0081", "0.3.1--h4e814b3_1": "sha256:d38b17c15644f2944f50b9a7554f5c51e25cbb0b6ae11bacde83470ebb3b24ba", "0.3.2--h5f107b1_0": "sha256:61000bec89964b2c880ab446b03495c9baa322c6be0cf4cf8d665cab56e83a9f", "0.3.3--h5f107b1_0": "sha256:022983265c768bcee6f2a8ae622be91e3ec16b1c3e446bc6b22a45d9d0320614"}, "docker": "quay.io/biocontainers/slivar", "aliases": {"pslivar": "/usr/local/bin/pslivar", "slivar": "/usr/local/bin/slivar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slivar.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/slivar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/slivar:0.3.2--h5f107b1_0
+$ shpc install quay.io/biocontainers/slivar:0.3.3--h5f107b1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/slivar/0.3.2--h5f107b1_0
-$ module help quay.io/biocontainers/slivar/0.3.2--h5f107b1_0
+$ module load quay.io/biocontainers/slivar/0.3.3--h5f107b1_0
+$ module help quay.io/biocontainers/slivar/0.3.3--h5f107b1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

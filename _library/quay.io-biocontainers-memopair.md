@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/memopair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/memopair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/memopair/container.yaml"
-updated_at: "2026-01-05 05:40:14.643025"
+updated_at: "2026-01-06 03:42:43.958413"
 latest: "0.1.6--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/memopair"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-monophylizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-monophylizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-monophylizer/container.yaml"
-updated_at: "2026-01-05 05:55:34.913067"
+updated_at: "2026-01-06 03:57:36.636863"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-monophylizer"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dcmtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dcmtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dcmtk/container.yaml"
-updated_at: "2026-01-05 05:54:41.325586"
+updated_at: "2026-01-06 03:56:43.945999"
 latest: "3.6.7--h92a7bdf_0"
 container_url: "https://biocontainers.pro/tools/dcmtk"
 aliases:

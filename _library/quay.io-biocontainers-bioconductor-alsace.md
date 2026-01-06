@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alsace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alsace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alsace/container.yaml"
-updated_at: "2026-01-05 05:43:40.992268"
+updated_at: "2026-01-06 03:46:00.683976"
 latest: "1.30.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alsace"
 

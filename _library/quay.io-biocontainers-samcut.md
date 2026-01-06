@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samcut/container.yaml"
-updated_at: "2026-01-05 06:05:30.581106"
+updated_at: "2026-01-06 04:07:16.747405"
 latest: "0.1.1--h9948957_3"
 container_url: "https://biocontainers.pro/tools/samcut"
 aliases:

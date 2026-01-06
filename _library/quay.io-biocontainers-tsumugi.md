@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tsumugi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tsumugi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tsumugi/container.yaml"
-updated_at: "2026-01-05 05:58:53.975881"
+updated_at: "2026-01-06 04:00:54.586838"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tsumugi"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cotan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cotan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cotan/container.yaml"
-updated_at: "2026-01-05 06:14:49.288480"
+updated_at: "2026-01-06 04:15:50.480310"
 latest: "2.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cotan"
 

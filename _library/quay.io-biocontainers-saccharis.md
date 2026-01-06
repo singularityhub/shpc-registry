@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/saccharis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saccharis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saccharis/container.yaml"
-updated_at: "2026-01-05 06:13:54.182003"
-latest: "2.0.4--pyh7e72e81_0"
+updated_at: "2026-01-06 04:15:02.722562"
+latest: "2.0.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/saccharis"
 aliases:
  - "dotenv"
@@ -56,8 +56,9 @@ versions:
  - "2.0.1.dev21--pyh7e72e81_6"
  - "2.0.2--pyh7e72e81_1"
  - "2.0.4--pyh7e72e81_0"
+ - "2.0.5--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for saccharis"
-config: {"url": "https://biocontainers.pro/tools/saccharis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for saccharis", "latest": {"2.0.4--pyh7e72e81_0": "sha256:df3c120868e9c1f789d4d16d49c737f9a00343625acd728444ff89311a22e701"}, "tags": {"2.0.0.dev18--pyh7cba7a3_0": "sha256:b92c8dd0fd53dad9f8df94dfddb77931c844300e321e22fac9afc40383f3d17b", "2.0.0.dev19--pyh7cba7a3_7": "sha256:80261b1b938c39d7c1e13055ffde50e2eed8b974d16d84308e6afedb9db8b8a2", "2.0.0.dev21--pyh7cba7a3_2": "sha256:9148c20f6e9fa6b949535b3cffec8c454cfa2ec59de38f3393d543b8b8fa1913", "2.0.1--pyhdfd78af_0": "sha256:69a5cad271c0348a430db4e8634ac80472a7f86d2a3a79a6f54b74a68a21307c", "2.0.1.dev21--pyhdfd78af_0": "sha256:ab0f1df0c3479d7a39bc60787024f4a84311a110f2693dfc6c09206e010e304c", "2.0.1.dev21--pyh7e72e81_6": "sha256:fe8dd8f873c85c5ef949bb95b1e41dd44767fe0535ab89a60bdf133e0c9700c5", "2.0.2--pyh7e72e81_1": "sha256:03acd5f3da0be6316dc30047a049295c94ee36c3b813fcec65f158bc3ed91736", "2.0.4--pyh7e72e81_0": "sha256:df3c120868e9c1f789d4d16d49c737f9a00343625acd728444ff89311a22e701"}, "docker": "quay.io/biocontainers/saccharis", "aliases": {"dotenv": "/usr/local/bin/dotenv", "hb-info": "/usr/local/bin/hb-info", "hmmscan_parser.py": "/usr/local/bin/hmmscan_parser.py", "modeltest-ng": "/usr/local/bin/modeltest-ng", "modeltest-ng-mpi": "/usr/local/bin/modeltest-ng-mpi", "run_dbcan": "/usr/local/bin/run_dbcan", "saccharis": "/usr/local/bin/saccharis", "saccharis-gui": "/usr/local/bin/saccharis-gui", "saccharis.add_family_category": "/usr/local/bin/saccharis.add_family_category", "saccharis.make_family_files": "/usr/local/bin/saccharis.make_family_files", "saccharis.prune_seqs": "/usr/local/bin/saccharis.prune_seqs", "saccharis.rename_user_file": "/usr/local/bin/saccharis.rename_user_file", "saccharis.screen_cazome": "/usr/local/bin/saccharis.screen_cazome", "saccharis.show_family_categories": "/usr/local/bin/saccharis.show_family_categories", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug"}}
+config: {"url": "https://biocontainers.pro/tools/saccharis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for saccharis", "latest": {"2.0.5--pyh7e72e81_0": "sha256:04674cc8da6ffbcb36f50783c6a55ed45efe325eb9a12fe1e89504740f003345"}, "tags": {"2.0.0.dev18--pyh7cba7a3_0": "sha256:b92c8dd0fd53dad9f8df94dfddb77931c844300e321e22fac9afc40383f3d17b", "2.0.0.dev19--pyh7cba7a3_7": "sha256:80261b1b938c39d7c1e13055ffde50e2eed8b974d16d84308e6afedb9db8b8a2", "2.0.0.dev21--pyh7cba7a3_2": "sha256:9148c20f6e9fa6b949535b3cffec8c454cfa2ec59de38f3393d543b8b8fa1913", "2.0.1--pyhdfd78af_0": "sha256:69a5cad271c0348a430db4e8634ac80472a7f86d2a3a79a6f54b74a68a21307c", "2.0.1.dev21--pyhdfd78af_0": "sha256:ab0f1df0c3479d7a39bc60787024f4a84311a110f2693dfc6c09206e010e304c", "2.0.1.dev21--pyh7e72e81_6": "sha256:fe8dd8f873c85c5ef949bb95b1e41dd44767fe0535ab89a60bdf133e0c9700c5", "2.0.2--pyh7e72e81_1": "sha256:03acd5f3da0be6316dc30047a049295c94ee36c3b813fcec65f158bc3ed91736", "2.0.4--pyh7e72e81_0": "sha256:df3c120868e9c1f789d4d16d49c737f9a00343625acd728444ff89311a22e701", "2.0.5--pyh7e72e81_0": "sha256:04674cc8da6ffbcb36f50783c6a55ed45efe325eb9a12fe1e89504740f003345"}, "docker": "quay.io/biocontainers/saccharis", "aliases": {"dotenv": "/usr/local/bin/dotenv", "hb-info": "/usr/local/bin/hb-info", "hmmscan_parser.py": "/usr/local/bin/hmmscan_parser.py", "modeltest-ng": "/usr/local/bin/modeltest-ng", "modeltest-ng-mpi": "/usr/local/bin/modeltest-ng-mpi", "run_dbcan": "/usr/local/bin/run_dbcan", "saccharis": "/usr/local/bin/saccharis", "saccharis-gui": "/usr/local/bin/saccharis-gui", "saccharis.add_family_category": "/usr/local/bin/saccharis.add_family_category", "saccharis.make_family_files": "/usr/local/bin/saccharis.make_family_files", "saccharis.prune_seqs": "/usr/local/bin/saccharis.prune_seqs", "saccharis.rename_user_file": "/usr/local/bin/saccharis.rename_user_file", "saccharis.screen_cazome": "/usr/local/bin/saccharis.screen_cazome", "saccharis.show_family_categories": "/usr/local/bin/saccharis.show_family_categories", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "dumpsexp": "/usr/local/bin/dumpsexp", "gpg-error": "/usr/local/bin/gpg-error", "gpgrt-config": "/usr/local/bin/gpgrt-config", "hmac256": "/usr/local/bin/hmac256", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "yat2m": "/usr/local/bin/yat2m", "lame": "/usr/local/bin/lame", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "getfattr": "/usr/local/bin/getfattr", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/saccharis.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/saccharis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/saccharis:2.0.4--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/saccharis:2.0.5--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/saccharis/2.0.4--pyh7e72e81_0
-$ module help quay.io/biocontainers/saccharis/2.0.4--pyh7e72e81_0
+$ module load quay.io/biocontainers/saccharis/2.0.5--pyh7e72e81_0
+$ module help quay.io/biocontainers/saccharis/2.0.5--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

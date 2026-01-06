@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mashmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mashmap/container.yaml"
-updated_at: "2026-01-05 05:54:06.213233"
+updated_at: "2026-01-06 03:56:08.819330"
 latest: "3.1.3--pl5321hb4818e0_2"
 container_url: "https://biocontainers.pro/tools/mashmap"
 aliases:

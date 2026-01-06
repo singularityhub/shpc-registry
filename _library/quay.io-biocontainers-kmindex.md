@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmindex/container.yaml"
-updated_at: "2026-01-05 06:15:38.839875"
+updated_at: "2026-01-06 04:16:33.511513"
 latest: "0.6.0--h668145b_1"
 container_url: "https://biocontainers.pro/tools/kmindex"
 aliases:

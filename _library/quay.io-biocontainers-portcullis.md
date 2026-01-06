@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/portcullis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/portcullis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/portcullis/container.yaml"
-updated_at: "2026-01-05 06:19:42.587318"
+updated_at: "2026-01-06 04:20:06.068957"
 latest: "1.2.4--py39hc87ae8a_4"
 container_url: "https://biocontainers.pro/tools/portcullis"
 aliases:

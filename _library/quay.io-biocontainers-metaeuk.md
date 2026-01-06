@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaeuk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaeuk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaeuk/container.yaml"
-updated_at: "2026-01-05 05:49:41.171320"
+updated_at: "2026-01-06 03:51:50.078813"
 latest: "7.bba0d80--pl5321hd6d6fdc_2"
 container_url: "https://biocontainers.pro/tools/metaeuk"
 aliases:

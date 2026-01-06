@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/miniasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miniasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miniasm/container.yaml"
-updated_at: "2026-01-05 06:09:56.829958"
+updated_at: "2026-01-06 04:11:23.101323"
 latest: "0.3_r179--h7132678_3"
 container_url: "https://biocontainers.pro/tools/miniasm"
 aliases:

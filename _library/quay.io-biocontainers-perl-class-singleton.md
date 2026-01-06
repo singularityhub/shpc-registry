@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-singleton"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-singleton/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-singleton/container.yaml"
-updated_at: "2026-01-05 05:56:42.917353"
+updated_at: "2026-01-06 03:58:43.859800"
 latest: "1.6--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-class-singleton"
 aliases:

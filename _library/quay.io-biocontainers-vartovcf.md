@@ -4,16 +4,19 @@ name:  "quay.io/biocontainers/vartovcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vartovcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vartovcf/container.yaml"
-updated_at: "2026-01-05 06:08:52.549368"
-latest: "1.1.0--h3ab6199_0"
+updated_at: "2026-01-06 04:10:25.498474"
+latest: "1.4.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/vartovcf"
 aliases:
  - "vartovcf"
 versions:
  - "1.0.0--h3ab6199_0"
  - "1.1.0--h3ab6199_0"
+ - "1.4.0--h3ab6199_0"
+ - "1.3.0--h3ab6199_0"
+ - "1.2.0--h3ab6199_0"
 description: "singularity registry hpc automated addition for vartovcf"
-config: {"url": "https://biocontainers.pro/tools/vartovcf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vartovcf", "latest": {"1.1.0--h3ab6199_0": "sha256:57de69b6c963544abde92150518e49000c94c924e63e9b73dd15fa14fae68bd6"}, "tags": {"1.0.0--h3ab6199_0": "sha256:a1d04979df624d88262a718034a31f1d2cda175d79e1c2a0d5346c1a127afbb7", "1.1.0--h3ab6199_0": "sha256:57de69b6c963544abde92150518e49000c94c924e63e9b73dd15fa14fae68bd6"}, "docker": "quay.io/biocontainers/vartovcf", "aliases": {"vartovcf": "/usr/local/bin/vartovcf"}}
+config: {"url": "https://biocontainers.pro/tools/vartovcf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vartovcf", "latest": {"1.4.0--h3ab6199_0": "sha256:e9fbea1e3f2983ef7e062afa7a3b575a9afbdb095c4d08b8245edfe19a5bf13a"}, "tags": {"1.0.0--h3ab6199_0": "sha256:a1d04979df624d88262a718034a31f1d2cda175d79e1c2a0d5346c1a127afbb7", "1.1.0--h3ab6199_0": "sha256:57de69b6c963544abde92150518e49000c94c924e63e9b73dd15fa14fae68bd6", "1.4.0--h3ab6199_0": "sha256:e9fbea1e3f2983ef7e062afa7a3b575a9afbdb095c4d08b8245edfe19a5bf13a", "1.3.0--h3ab6199_0": "sha256:2b6c8ef4d3adcea64ff54c12559da43ce0e91f985f7a3620acdadcda113f270a", "1.2.0--h3ab6199_0": "sha256:98485c5fb345fc7972c201f888be1724e677970aee6176d4c7ab1b7327d25a08"}, "docker": "quay.io/biocontainers/vartovcf", "aliases": {"vartovcf": "/usr/local/bin/vartovcf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vartovcf.
@@ -28,7 +31,7 @@ $ shpc install quay.io/biocontainers/vartovcf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vartovcf:1.1.0--h3ab6199_0
+$ shpc install quay.io/biocontainers/vartovcf:1.4.0--h3ab6199_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vartovcf/1.1.0--h3ab6199_0
-$ module help quay.io/biocontainers/vartovcf/1.1.0--h3ab6199_0
+$ module load quay.io/biocontainers/vartovcf/1.4.0--h3ab6199_0
+$ module help quay.io/biocontainers/vartovcf/1.4.0--h3ab6199_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

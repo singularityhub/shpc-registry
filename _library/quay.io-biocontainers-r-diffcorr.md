@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-diffcorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-diffcorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-diffcorr/container.yaml"
-updated_at: "2026-01-05 05:48:47.129579"
+updated_at: "2026-01-06 03:50:57.806607"
 latest: "0.4.5--r44h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-diffcorr"
 

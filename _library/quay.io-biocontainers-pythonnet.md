@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pythonnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pythonnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pythonnet/container.yaml"
-updated_at: "2026-01-05 06:31:27.689200"
+updated_at: "2026-01-06 04:30:23.488945"
 latest: "2.3.0--py27_1"
 container_url: "https://biocontainers.pro/tools/pythonnet"
 aliases:

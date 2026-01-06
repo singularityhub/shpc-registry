@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-socket-ssl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-socket-ssl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-socket-ssl/container.yaml"
-updated_at: "2026-01-05 05:50:17.855501"
+updated_at: "2026-01-06 03:52:24.763161"
 latest: "2.074--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-io-socket-ssl"
 aliases:
