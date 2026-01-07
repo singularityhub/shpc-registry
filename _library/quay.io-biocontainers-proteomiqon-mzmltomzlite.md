@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomiqon-mzmltomzlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-mzmltomzlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-mzmltomzlite/container.yaml"
-updated_at: "2026-01-06 03:52:46.036129"
+updated_at: "2026-01-07 03:54:24.252651"
 latest: "0.0.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-mzmltomzlite"
 aliases:

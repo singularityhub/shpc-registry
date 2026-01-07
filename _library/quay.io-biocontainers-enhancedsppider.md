@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enhancedsppider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enhancedsppider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enhancedsppider/container.yaml"
-updated_at: "2026-01-06 03:49:14.511036"
+updated_at: "2026-01-07 03:50:35.184846"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enhancedsppider"
 aliases:

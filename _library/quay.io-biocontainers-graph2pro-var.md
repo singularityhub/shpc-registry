@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graph2pro-var"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graph2pro-var/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graph2pro-var/container.yaml"
-updated_at: "2026-01-06 03:53:17.963449"
+updated_at: "2026-01-07 03:54:58.664072"
 latest: "1.0.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/graph2pro-var"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dropletutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dropletutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dropletutils/container.yaml"
-updated_at: "2026-01-06 04:02:09.423490"
+updated_at: "2026-01-07 04:04:08.157533"
 latest: "1.26.0--r44h77050f0_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dropletutils"
 aliases:
