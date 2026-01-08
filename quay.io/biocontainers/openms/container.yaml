@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/openms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for openms
 latest:
-  3.4.1--h81ffffe_1: 
-    sha256:f87a2b6b876748db3616eef0b118223af5d3031f9ca9abe7c66423070092454e
+  3.5.0--h78fb946_0: 
+    sha256:665df95060bdb8144ac45b83ea5da6d7c43d30fd169069078daa2d51f4e4f0c2
 tags:
   2.8.0--h7ca0330_3: 
     sha256:37623d295f4fa1808a1e92e31f2ebe402bcb733208a2d05218e31748f0d543d5
@@ -31,4 +31,6 @@ tags:
     sha256:a3d6f8117989cd8a899b95e7655075ccb5340644a452653f17c3ed1d9cc2c14d
   3.4.1--h81ffffe_1: 
     sha256:f87a2b6b876748db3616eef0b118223af5d3031f9ca9abe7c66423070092454e
+  3.5.0--h78fb946_0: 
+    sha256:665df95060bdb8144ac45b83ea5da6d7c43d30fd169069078daa2d51f4e4f0c2
 docker: quay.io/biocontainers/openms
