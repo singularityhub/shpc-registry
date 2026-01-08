@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bttoxin_scanner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bttoxin_scanner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bttoxin_scanner/container.yaml"
-updated_at: "2026-01-07 03:53:08.881020"
+updated_at: "2026-01-08 03:52:18.750197"
 latest: "2.0.1--0"
 container_url: "https://biocontainers.pro/tools/bttoxin_scanner"
 aliases:

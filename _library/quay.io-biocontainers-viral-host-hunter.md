@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viral-host-hunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral-host-hunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viral-host-hunter/container.yaml"
-updated_at: "2026-01-07 04:37:06.380640"
+updated_at: "2026-01-08 04:33:42.626471"
 latest: "0.1.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viral-host-hunter"
 aliases:

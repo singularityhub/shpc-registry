@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sharg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sharg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sharg/container.yaml"
-updated_at: "2026-01-07 03:52:18.036922"
+updated_at: "2026-01-08 03:51:33.557158"
 latest: "1.1.1--h9948957_1"
 container_url: "https://biocontainers.pro/tools/sharg"
 

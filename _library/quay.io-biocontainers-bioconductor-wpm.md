@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wpm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wpm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wpm/container.yaml"
-updated_at: "2026-01-07 03:51:50.886975"
+updated_at: "2026-01-08 03:51:09.166291"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wpm"
 

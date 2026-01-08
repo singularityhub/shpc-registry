@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyonsite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyonsite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyonsite/container.yaml"
-updated_at: "2026-01-07 03:49:14.748029"
+updated_at: "2026-01-08 03:48:47.244296"
 latest: "0.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyonsite"
 aliases:

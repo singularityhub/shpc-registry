@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isoplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isoplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isoplot/container.yaml"
-updated_at: "2026-01-07 04:32:18.870843"
+updated_at: "2026-01-08 04:29:15.683378"
 latest: "1.3.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/isoplot"
 aliases:

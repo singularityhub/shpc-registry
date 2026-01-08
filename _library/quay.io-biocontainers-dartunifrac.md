@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dartunifrac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dartunifrac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dartunifrac/container.yaml"
-updated_at: "2026-01-07 04:21:06.263222"
+updated_at: "2026-01-08 04:18:47.232605"
 latest: "0.2.7--h3dc2dae_0"
 container_url: "https://biocontainers.pro/tools/dartunifrac"
 aliases:

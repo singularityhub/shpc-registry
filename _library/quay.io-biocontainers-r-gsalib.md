@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gsalib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gsalib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gsalib/container.yaml"
-updated_at: "2026-01-07 04:34:13.139868"
+updated_at: "2026-01-08 04:31:01.456671"
 latest: "2.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gsalib"
 aliases:

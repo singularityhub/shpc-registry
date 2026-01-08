@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcfexpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfexpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfexpress/container.yaml"
-updated_at: "2026-01-07 04:12:58.329336"
+updated_at: "2026-01-08 04:11:13.664103"
 latest: "0.3.4--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/vcfexpress"
 aliases:

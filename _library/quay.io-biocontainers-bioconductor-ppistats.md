@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ppistats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ppistats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ppistats/container.yaml"
-updated_at: "2026-01-07 04:12:53.502001"
+updated_at: "2026-01-08 04:11:09.198389"
 latest: "1.60.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ppistats"
 

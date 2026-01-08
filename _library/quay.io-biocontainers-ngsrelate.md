@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngsrelate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsrelate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsrelate/container.yaml"
-updated_at: "2026-01-07 03:55:10.987443"
+updated_at: "2026-01-08 03:54:12.335917"
 latest: "2.0--hea85c65_0"
 container_url: "https://biocontainers.pro/tools/ngsrelate"
 aliases:

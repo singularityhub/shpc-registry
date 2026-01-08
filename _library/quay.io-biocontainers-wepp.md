@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wepp/container.yaml"
-updated_at: "2026-01-07 04:32:56.477342"
+updated_at: "2026-01-08 04:29:50.610820"
 latest: "0.1.4.1--h3cc91ff_0"
 container_url: "https://biocontainers.pro/tools/wepp"
 aliases:
