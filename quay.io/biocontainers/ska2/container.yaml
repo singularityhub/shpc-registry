@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ska2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ska2
 latest:
-  0.5.0--h4349ce8_0: 
-    sha256:63ee672c66f5d18544a1c252fac59ee8af73d74bb92776ce4d07f43ae9f0bdf4
+  0.5.1--h4349ce8_0: 
+    sha256:80f919087a65438ac909d48dec51ea7c1682593d2b5bb704042e07cccde1ce9f
 tags:
   0.2.0--h4349ce8_0: 
     sha256:ac907e8f690bb947459c83e6a793a8b4baf053207e9f5de06d0dd43f3ae05ca1
@@ -41,6 +41,8 @@ tags:
     sha256:31811c4b47dd949ab145ce3919785231fdd209e3de537ae3a6b36ecbc074d112
   0.5.0--h4349ce8_0: 
     sha256:63ee672c66f5d18544a1c252fac59ee8af73d74bb92776ce4d07f43ae9f0bdf4
+  0.5.1--h4349ce8_0: 
+    sha256:80f919087a65438ac909d48dec51ea7c1682593d2b5bb704042e07cccde1ce9f
 docker: quay.io/biocontainers/ska2
 aliases:
   ska: /usr/local/bin/ska

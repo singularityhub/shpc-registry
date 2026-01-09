@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/deepnog
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deepnog
 latest:
-  1.2.3--pyh3252c3a_1: 
-    sha256:02093134a3896469e933407d8ef7136d9361bed30ed06d0e70243fecdcdf501d
+  1.2.4--pyh7e72e81_0: 
+    sha256:7f6f881d3700b6c38cd489502e56fec2bd8e00702badf2b1771cf530a59a417b
 tags:
   1.2.3--pyh3252c3a_1: 
     sha256:02093134a3896469e933407d8ef7136d9361bed30ed06d0e70243fecdcdf501d
+  1.2.4--pyh7e72e81_0: 
+    sha256:7f6f881d3700b6c38cd489502e56fec2bd8e00702badf2b1771cf530a59a417b
 docker: quay.io/biocontainers/deepnog
 aliases:
   deepnog: /usr/local/bin/deepnog
