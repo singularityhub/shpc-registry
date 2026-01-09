@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bismark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bismark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bismark/container.yaml"
-updated_at: "2026-01-08 03:45:15.419995"
+updated_at: "2026-01-09 03:45:53.025045"
 latest: "0.25.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bismark"
 aliases:

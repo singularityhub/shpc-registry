@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf-pg-loader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf-pg-loader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf-pg-loader/container.yaml"
-updated_at: "2026-01-08 04:04:36.170570"
+updated_at: "2026-01-09 04:05:57.473175"
 latest: "0.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf-pg-loader"
 aliases:

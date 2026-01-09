@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-inter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-inter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-inter/container.yaml"
-updated_at: "2026-01-08 04:26:08.875239"
+updated_at: "2026-01-09 04:28:08.251130"
 latest: "1.12--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-inter"
 aliases:

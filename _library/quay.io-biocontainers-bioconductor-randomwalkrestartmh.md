@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-randomwalkrestartmh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-randomwalkrestartmh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-randomwalkrestartmh/container.yaml"
-updated_at: "2026-01-08 04:00:48.669578"
+updated_at: "2026-01-09 04:02:04.843611"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-randomwalkrestartmh"
 aliases:

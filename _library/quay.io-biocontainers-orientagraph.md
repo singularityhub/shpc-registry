@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orientagraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orientagraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orientagraph/container.yaml"
-updated_at: "2026-01-08 03:43:35.139484"
+updated_at: "2026-01-09 03:44:07.710156"
 latest: "1.1--hb66fcc3_6"
 container_url: "https://biocontainers.pro/tools/orientagraph"
 aliases:

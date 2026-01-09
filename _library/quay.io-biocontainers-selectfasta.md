@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selectfasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selectfasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selectfasta/container.yaml"
-updated_at: "2026-01-08 03:48:00.805590"
+updated_at: "2026-01-09 03:48:47.106280"
 latest: "3.1--h503566f_1"
 container_url: "https://biocontainers.pro/tools/selectfasta"
 aliases:

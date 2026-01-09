@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pb-assembly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-assembly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-assembly/container.yaml"
-updated_at: "2026-01-08 03:59:37.683918"
+updated_at: "2026-01-09 04:00:53.534607"
 latest: "0.0.8--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pb-assembly"
 aliases:

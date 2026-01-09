@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bygul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bygul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bygul/container.yaml"
-updated_at: "2026-01-08 04:25:16.489692"
+updated_at: "2026-01-09 04:27:14.505783"
 latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bygul"
 aliases:

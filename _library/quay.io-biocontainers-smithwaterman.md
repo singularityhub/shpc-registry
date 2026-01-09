@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smithwaterman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smithwaterman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smithwaterman/container.yaml"
-updated_at: "2026-01-08 04:28:38.998952"
+updated_at: "2026-01-09 04:30:39.549720"
 latest: "1.0.0--h9948957_0"
 container_url: "https://biocontainers.pro/tools/smithwaterman"
 aliases:

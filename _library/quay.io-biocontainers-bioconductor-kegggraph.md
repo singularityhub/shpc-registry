@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kegggraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kegggraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kegggraph/container.yaml"
-updated_at: "2026-01-08 04:25:45.532318"
+updated_at: "2026-01-09 04:27:44.573711"
 latest: "1.66.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kegggraph"
 

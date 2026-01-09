@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sample_grouping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sample_grouping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sample_grouping/container.yaml"
-updated_at: "2026-01-08 03:56:07.737928"
+updated_at: "2026-01-09 03:57:13.933071"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sample_grouping"
 aliases:

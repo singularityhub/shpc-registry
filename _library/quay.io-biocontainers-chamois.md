@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chamois"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chamois/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chamois/container.yaml"
-updated_at: "2026-01-08 04:21:39.568373"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2026-01-09 04:23:32.549383"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chamois"
 aliases:
  - "chamois"
@@ -36,8 +36,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for chamois"
-config: {"url": "https://biocontainers.pro/tools/chamois", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chamois", "latest": {"0.1.3--pyhdfd78af_0": "sha256:0ba70c99f044eef2f128c660aa9fe7ce7a072ae105ebc281929a145ba7d9ee71"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:0ba70c99f044eef2f128c660aa9fe7ce7a072ae105ebc281929a145ba7d9ee71"}, "docker": "quay.io/biocontainers/chamois", "aliases": {"chamois": "/usr/local/bin/chamois", "archspec": "/usr/local/bin/archspec", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "pyrodigal": "/usr/local/bin/pyrodigal", "h5fuse": "/usr/local/bin/h5fuse", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5delete": "/usr/local/bin/h5delete", "pg_config": "/usr/local/bin/pg_config", "natsort": "/usr/local/bin/natsort", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/chamois", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chamois", "latest": {"0.2.0--pyhdfd78af_0": "sha256:322546dda06cc9fdb7ceadd9d54e65a92420c430b94c8cf32af86f6f90d641a4"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:0ba70c99f044eef2f128c660aa9fe7ce7a072ae105ebc281929a145ba7d9ee71", "0.2.0--pyhdfd78af_0": "sha256:322546dda06cc9fdb7ceadd9d54e65a92420c430b94c8cf32af86f6f90d641a4"}, "docker": "quay.io/biocontainers/chamois", "aliases": {"chamois": "/usr/local/bin/chamois", "archspec": "/usr/local/bin/archspec", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "pyrodigal": "/usr/local/bin/pyrodigal", "h5fuse": "/usr/local/bin/h5fuse", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "h5delete": "/usr/local/bin/h5delete", "pg_config": "/usr/local/bin/pg_config", "natsort": "/usr/local/bin/natsort", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chamois.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/chamois
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chamois:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/chamois:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chamois/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/chamois/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/chamois/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/chamois/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

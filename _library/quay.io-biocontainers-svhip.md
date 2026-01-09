@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svhip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svhip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svhip/container.yaml"
-updated_at: "2026-01-08 03:43:40.778311"
+updated_at: "2026-01-09 03:44:13.506612"
 latest: "1.0.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svhip"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cleangeostreamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cleangeostreamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cleangeostreamr/container.yaml"
-updated_at: "2026-01-08 03:58:07.055242"
+updated_at: "2026-01-09 03:59:21.646394"
 latest: "1.0.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-cleangeostreamr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rseqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rseqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rseqc/container.yaml"
-updated_at: "2026-01-08 04:10:59.094716"
+updated_at: "2026-01-09 04:12:32.510565"
 latest: "5.0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rseqc"
 aliases:

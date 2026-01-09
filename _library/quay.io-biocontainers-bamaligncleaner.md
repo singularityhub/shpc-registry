@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamaligncleaner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamaligncleaner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamaligncleaner/container.yaml"
-updated_at: "2026-01-08 04:07:15.919456"
+updated_at: "2026-01-09 04:08:40.330862"
 latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamaligncleaner"
 aliases:

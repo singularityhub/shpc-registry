@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecoliasv2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecoliasv2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecoliasv2cdf/container.yaml"
-updated_at: "2026-01-08 03:47:55.783859"
+updated_at: "2026-01-09 03:48:41.886242"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecoliasv2cdf"
 
