@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deepnog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepnog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepnog/container.yaml"
-updated_at: "2026-01-09 04:28:19.588545"
-latest: "1.2.3--pyh3252c3a_1"
+updated_at: "2026-01-10 04:11:06.865962"
+latest: "1.2.4--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/deepnog"
 aliases:
  - "deepnog"
@@ -21,8 +21,9 @@ aliases:
  - "idle3.7"
 versions:
  - "1.2.3--pyh3252c3a_1"
+ - "1.2.4--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for deepnog"
-config: {"url": "https://biocontainers.pro/tools/deepnog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepnog", "latest": {"1.2.3--pyh3252c3a_1": "sha256:02093134a3896469e933407d8ef7136d9361bed30ed06d0e70243fecdcdf501d"}, "tags": {"1.2.3--pyh3252c3a_1": "sha256:02093134a3896469e933407d8ef7136d9361bed30ed06d0e70243fecdcdf501d"}, "docker": "quay.io/biocontainers/deepnog", "aliases": {"deepnog": "/usr/local/bin/deepnog", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7"}}
+config: {"url": "https://biocontainers.pro/tools/deepnog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepnog", "latest": {"1.2.4--pyh7e72e81_0": "sha256:7f6f881d3700b6c38cd489502e56fec2bd8e00702badf2b1771cf530a59a417b"}, "tags": {"1.2.3--pyh3252c3a_1": "sha256:02093134a3896469e933407d8ef7136d9361bed30ed06d0e70243fecdcdf501d", "1.2.4--pyh7e72e81_0": "sha256:7f6f881d3700b6c38cd489502e56fec2bd8e00702badf2b1771cf530a59a417b"}, "docker": "quay.io/biocontainers/deepnog", "aliases": {"deepnog": "/usr/local/bin/deepnog", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "tensorboard": "/usr/local/bin/tensorboard", "markdown_py": "/usr/local/bin/markdown_py", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepnog.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/deepnog
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deepnog:1.2.3--pyh3252c3a_1
+$ shpc install quay.io/biocontainers/deepnog:1.2.4--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deepnog/1.2.3--pyh3252c3a_1
-$ module help quay.io/biocontainers/deepnog/1.2.3--pyh3252c3a_1
+$ module load quay.io/biocontainers/deepnog/1.2.4--pyh7e72e81_0
+$ module help quay.io/biocontainers/deepnog/1.2.4--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

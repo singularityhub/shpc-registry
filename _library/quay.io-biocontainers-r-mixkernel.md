@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mixkernel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mixkernel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mixkernel/container.yaml"
-updated_at: "2026-01-09 04:13:24.660957"
+updated_at: "2026-01-10 03:56:38.053654"
 latest: "0.9--r43h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-mixkernel"
 

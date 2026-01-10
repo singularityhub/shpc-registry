@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flagx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flagx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flagx/container.yaml"
-updated_at: "2026-01-09 04:18:23.336533"
+updated_at: "2026-01-10 04:01:27.049441"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flagx"
 aliases:

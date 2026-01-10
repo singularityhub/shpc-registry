@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-difflogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-difflogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-difflogo/container.yaml"
-updated_at: "2026-01-09 04:18:35.701230"
+updated_at: "2026-01-10 04:01:38.814083"
 latest: "2.30.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-difflogo"
 aliases:

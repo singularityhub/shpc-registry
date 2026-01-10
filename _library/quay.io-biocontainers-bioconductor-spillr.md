@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spillr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spillr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spillr/container.yaml"
-updated_at: "2026-01-09 04:35:20.695842"
+updated_at: "2026-01-10 04:18:10.260262"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spillr"
 aliases:
