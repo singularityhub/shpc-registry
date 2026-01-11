@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/voronota
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for voronota
 latest:
-  1.29.4415--h5755088_0: 
-    sha256:b3f447474f747977a49d07db8a149773f74d47d0a2fc8c67ab79203d933ef5ad
+  1.29.4602--h5755088_0: 
+    sha256:a1826ce9a7ee2957f531a84f3d7c148cc72dad9330571bc14a5c4f95017ac3f0
 tags:
   1.29.4370--h5755088_0: 
     sha256:89afab0cbb88ae37fb7991c097ef394af61f9dd376d1c04e5f51a0b18bb1849d
@@ -11,6 +11,8 @@ tags:
     sha256:262cb703d4e6393cf038f882731f684f3eb020100d712b006ed55a7514da2f03
   1.29.4415--h5755088_0: 
     sha256:b3f447474f747977a49d07db8a149773f74d47d0a2fc8c67ab79203d933ef5ad
+  1.29.4602--h5755088_0: 
+    sha256:a1826ce9a7ee2957f531a84f3d7c148cc72dad9330571bc14a5c4f95017ac3f0
 docker: quay.io/biocontainers/voronota
 aliases:
   glewinfo: /usr/local/bin/glewinfo

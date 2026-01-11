@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_pmx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_pmx
 latest:
-  5.1.0--pyhdfd78af_0: 
-    sha256:04d088c86d6063ddb5474543a3817e25fc567ff76f35ce372fdab0175c5e3359
+  5.2.1--pyhdfd78af_0: 
+    sha256:f4843fe45e6824adc94bebbdee07d5eb3231ba31c052727db86a3ce688f428ba
 tags:
   3.8.1--pyhdfd78af_0: 
     sha256:c25e06f154b5294239498065229e08b4dc736a2f3a0f81cc67d0632d57007b78
@@ -17,6 +17,8 @@ tags:
     sha256:54b6cbe5c31e70b9098aad095ea20103c08b09deb71574d8d080fcc7784486ed
   5.1.0--pyhdfd78af_0: 
     sha256:04d088c86d6063ddb5474543a3817e25fc567ff76f35ce372fdab0175c5e3359
+  5.2.1--pyhdfd78af_0: 
+    sha256:f4843fe45e6824adc94bebbdee07d5eb3231ba31c052727db86a3ce688f428ba
 docker: quay.io/biocontainers/biobb_pmx
 aliases:
   pmx: /usr/local/bin/pmx
