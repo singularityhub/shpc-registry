@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ddipy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ddipy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ddipy/container.yaml"
-updated_at: "2026-01-10 04:10:26.263472"
+updated_at: "2026-01-11 04:37:28.148630"
 latest: "0.0.5--py_0"
 container_url: "https://biocontainers.pro/tools/ddipy"
 aliases:

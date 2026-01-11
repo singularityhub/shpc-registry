@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-data-inheritable"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-data-inheritable/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-data-inheritable/container.yaml"
-updated_at: "2026-01-10 03:36:35.259664"
+updated_at: "2026-01-11 04:02:50.648856"
 latest: "0.09--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-class-data-inheritable"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pggb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pggb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pggb/container.yaml"
-updated_at: "2026-01-10 04:04:49.287221"
+updated_at: "2026-01-11 04:31:41.107715"
 latest: "0.7.4--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pggb"
 aliases:

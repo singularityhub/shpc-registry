@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ensembl-genomio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ensembl-genomio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ensembl-genomio/container.yaml"
-updated_at: "2026-01-10 03:50:57.079456"
+updated_at: "2026-01-11 04:17:45.873739"
 latest: "1.6.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ensembl-genomio"
 aliases:

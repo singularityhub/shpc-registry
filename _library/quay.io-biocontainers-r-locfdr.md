@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-locfdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-locfdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-locfdr/container.yaml"
-updated_at: "2026-01-10 03:29:02.867014"
+updated_at: "2026-01-11 03:54:55.559542"
 latest: "1.1_8--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-locfdr"
 aliases:

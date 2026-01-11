@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmetl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmetl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmetl/container.yaml"
-updated_at: "2026-01-10 03:54:15.692390"
+updated_at: "2026-01-11 04:21:03.296382"
 latest: "1.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/rmetl"
 aliases:

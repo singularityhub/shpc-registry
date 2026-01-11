@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iterativebmasurv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iterativebmasurv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iterativebmasurv/container.yaml"
-updated_at: "2026-01-10 03:32:01.783205"
+updated_at: "2026-01-11 03:58:04.191437"
 latest: "1.64.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iterativebmasurv"
 

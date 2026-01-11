@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/interval-binning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/interval-binning/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/interval-binning/container.yaml"
-updated_at: "2026-01-10 04:08:42.734439"
+updated_at: "2026-01-11 04:35:40.807236"
 latest: "1.0.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/interval-binning"
 aliases:

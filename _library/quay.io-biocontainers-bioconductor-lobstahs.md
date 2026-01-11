@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lobstahs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lobstahs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lobstahs/container.yaml"
-updated_at: "2026-01-10 04:19:01.157315"
+updated_at: "2026-01-11 04:46:07.479063"
 latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lobstahs"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/megatron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megatron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megatron/container.yaml"
-updated_at: "2026-01-10 04:12:10.436542"
+updated_at: "2026-01-11 04:39:15.217891"
 latest: "0.1a--py_0"
 container_url: "https://biocontainers.pro/tools/megatron"
 aliases:

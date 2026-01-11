@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sarscov2formatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sarscov2formatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sarscov2formatter/container.yaml"
-updated_at: "2026-01-10 03:51:55.567687"
+updated_at: "2026-01-11 04:18:44.134022"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sarscov2formatter"
 aliases:

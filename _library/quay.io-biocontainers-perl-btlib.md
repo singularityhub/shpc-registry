@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-btlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-btlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-btlib/container.yaml"
-updated_at: "2026-01-10 04:10:49.809672"
+updated_at: "2026-01-11 04:37:52.603350"
 latest: "0.19--0"
 container_url: "https://biocontainers.pro/tools/perl-btlib"
 aliases:

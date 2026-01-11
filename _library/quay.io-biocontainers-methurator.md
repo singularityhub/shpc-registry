@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methurator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methurator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methurator/container.yaml"
-updated_at: "2026-01-10 03:58:40.029786"
+updated_at: "2026-01-11 04:25:25.719083"
 latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methurator"
 aliases:

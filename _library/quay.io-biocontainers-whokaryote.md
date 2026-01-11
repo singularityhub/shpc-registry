@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/whokaryote"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/whokaryote/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/whokaryote/container.yaml"
-updated_at: "2026-01-10 04:15:57.067533"
+updated_at: "2026-01-11 04:43:09.114352"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/whokaryote"
 aliases:
