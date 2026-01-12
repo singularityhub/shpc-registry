@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/profile_dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/profile_dists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/profile_dists/container.yaml"
-updated_at: "2026-01-11 04:45:53.238613"
+updated_at: "2026-01-12 04:43:47.172942"
 latest: "1.0.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/profile_dists"
 aliases:

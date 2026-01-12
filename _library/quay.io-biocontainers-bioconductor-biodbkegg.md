@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biodbkegg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodbkegg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbkegg/container.yaml"
-updated_at: "2026-01-11 04:09:13.882917"
+updated_at: "2026-01-12 04:07:54.041066"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodbkegg"
 

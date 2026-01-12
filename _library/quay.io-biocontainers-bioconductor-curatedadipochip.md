@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedadipochip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedadipochip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedadipochip/container.yaml"
-updated_at: "2026-01-11 04:17:29.695319"
+updated_at: "2026-01-12 04:15:56.213695"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedadipochip"
 aliases:

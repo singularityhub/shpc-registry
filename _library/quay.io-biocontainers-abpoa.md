@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abpoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abpoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abpoa/container.yaml"
-updated_at: "2026-01-11 04:29:48.897659"
+updated_at: "2026-01-12 04:28:11.925735"
 latest: "1.5.5--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/abpoa"
 aliases:

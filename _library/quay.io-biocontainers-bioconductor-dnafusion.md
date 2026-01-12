@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dnafusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dnafusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dnafusion/container.yaml"
-updated_at: "2026-01-11 04:27:46.446305"
+updated_at: "2026-01-12 04:26:12.953312"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dnafusion"
 aliases:

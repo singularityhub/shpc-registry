@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/f5c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/f5c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/f5c/container.yaml"
-updated_at: "2026-01-11 04:43:06.557851"
+updated_at: "2026-01-12 04:41:03.527626"
 latest: "1.6--hee927d3_0"
 container_url: "https://biocontainers.pro/tools/f5c"
 aliases:

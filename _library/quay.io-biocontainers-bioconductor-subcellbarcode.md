@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-subcellbarcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-subcellbarcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-subcellbarcode/container.yaml"
-updated_at: "2026-01-11 04:18:32.210828"
+updated_at: "2026-01-12 04:16:58.904714"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-subcellbarcode"
 aliases:

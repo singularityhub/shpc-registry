@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wepp/container.yaml"
-updated_at: "2026-01-11 04:41:48.759180"
-latest: "0.1.4.1--h3cc91ff_0"
+updated_at: "2026-01-12 04:39:47.158034"
+latest: "0.1.5--h8c6bde3_0"
 container_url: "https://biocontainers.pro/tools/wepp"
 aliases:
  - "distro"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "0.1.4.1--h3cc91ff_0"
  - "0.1.4.1--h8c6bde3_0"
+ - "0.1.5--h8c6bde3_0"
 description: "singularity registry hpc automated addition for wepp"
-config: {"url": "https://biocontainers.pro/tools/wepp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wepp", "latest": {"0.1.4.1--h3cc91ff_0": "sha256:b6b1b8894a85143ee2748ac99cc767e6633d75c86d575c5e4a0f194c9c889459"}, "tags": {"0.1.4.1--h3cc91ff_0": "sha256:b6b1b8894a85143ee2748ac99cc767e6633d75c86d575c5e4a0f194c9c889459", "0.1.4.1--h8c6bde3_0": "sha256:48cc4325ffc87e0f3d4718941bdf68485ff3bc19b3c82f3f465ce702a65445cc"}, "docker": "quay.io/biocontainers/wepp", "aliases": {"distro": "/usr/local/bin/distro", "menuinst": "/usr/local/bin/menuinst", "wepp": "/usr/local/bin/wepp", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "mpiexec.gforker": "/usr/local/bin/mpiexec.gforker", "corepack": "/usr/local/bin/corepack", "npx": "/usr/local/bin/npx", "jsonpointer": "/usr/local/bin/jsonpointer", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "archspec": "/usr/local/bin/archspec", "mamba-package": "/usr/local/bin/mamba-package", "bsdunzip": "/usr/local/bin/bsdunzip", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt"}}
+config: {"url": "https://biocontainers.pro/tools/wepp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wepp", "latest": {"0.1.5--h8c6bde3_0": "sha256:cf42c45458201ed04d7968a384262c373db1f46afeadfacbce7a2bce8e78fd06"}, "tags": {"0.1.4.1--h3cc91ff_0": "sha256:b6b1b8894a85143ee2748ac99cc767e6633d75c86d575c5e4a0f194c9c889459", "0.1.4.1--h8c6bde3_0": "sha256:48cc4325ffc87e0f3d4718941bdf68485ff3bc19b3c82f3f465ce702a65445cc", "0.1.5--h8c6bde3_0": "sha256:cf42c45458201ed04d7968a384262c373db1f46afeadfacbce7a2bce8e78fd06"}, "docker": "quay.io/biocontainers/wepp", "aliases": {"distro": "/usr/local/bin/distro", "menuinst": "/usr/local/bin/menuinst", "wepp": "/usr/local/bin/wepp", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "mpiexec.gforker": "/usr/local/bin/mpiexec.gforker", "corepack": "/usr/local/bin/corepack", "npx": "/usr/local/bin/npx", "jsonpointer": "/usr/local/bin/jsonpointer", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "archspec": "/usr/local/bin/archspec", "mamba-package": "/usr/local/bin/mamba-package", "bsdunzip": "/usr/local/bin/bsdunzip", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wepp.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/wepp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wepp:0.1.4.1--h3cc91ff_0
+$ shpc install quay.io/biocontainers/wepp:0.1.5--h8c6bde3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wepp/0.1.4.1--h3cc91ff_0
-$ module help quay.io/biocontainers/wepp/0.1.4.1--h3cc91ff_0
+$ module load quay.io/biocontainers/wepp/0.1.5--h8c6bde3_0
+$ module help quay.io/biocontainers/wepp/0.1.5--h8c6bde3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
