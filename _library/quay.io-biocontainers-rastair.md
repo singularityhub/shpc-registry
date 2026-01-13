@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rastair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rastair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rastair/container.yaml"
-updated_at: "2026-01-12 04:29:12.947103"
+updated_at: "2026-01-13 04:20:19.424459"
 latest: "0.8.2--r44h4349ce8_2"
 container_url: "https://biocontainers.pro/tools/rastair"
 aliases:

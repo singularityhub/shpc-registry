@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-phyext2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phyext2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phyext2/container.yaml"
-updated_at: "2026-01-12 04:16:58.624121"
+updated_at: "2026-01-13 04:07:03.878840"
 latest: "0.0.4--r43h3121a25_9"
 container_url: "https://biocontainers.pro/tools/r-phyext2"
 aliases:

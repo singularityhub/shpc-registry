@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tfmpvalue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tfmpvalue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tfmpvalue/container.yaml"
-updated_at: "2026-01-12 04:13:30.003286"
+updated_at: "2026-01-13 04:03:19.554797"
 latest: "0.0.6--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-tfmpvalue"
 aliases:

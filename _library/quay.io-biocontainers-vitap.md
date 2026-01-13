@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vitap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vitap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vitap/container.yaml"
-updated_at: "2026-01-12 04:21:52.521043"
-latest: "1.7--pyh7e72e81_1"
+updated_at: "2026-01-13 04:12:20.193479"
+latest: "1.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vitap"
 aliases:
  - "VITAP"
@@ -41,8 +41,9 @@ versions:
  - "1.5--pyh7e72e81_0"
  - "1.7--pyh7e72e81_1"
  - "1.7.1--pyh7e72e81_0"
+ - "1.10--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for vitap"
-config: {"url": "https://biocontainers.pro/tools/vitap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vitap", "latest": {"1.7--pyh7e72e81_1": "sha256:97c23e032e2f31bcf1eed0a87402e42b6dcf0bd9f384cb7c3b3ac320de222442"}, "tags": {"1.5--pyh7e72e81_0": "sha256:507c230b06028459c242790604f846e7dff693bbb255c0c725d317088424cc25", "1.7--pyh7e72e81_1": "sha256:97c23e032e2f31bcf1eed0a87402e42b6dcf0bd9f384cb7c3b3ac320de222442", "1.7.1--pyh7e72e81_0": "sha256:cf875d69407809b5f8a2d77519d4d896e58e89afbd29937117df309639830bb8"}, "docker": "quay.io/biocontainers/vitap", "aliases": {"VITAP": "/usr/local/bin/VITAP", "VITAP_assignment_20240731.py": "/usr/local/bin/VITAP_assignment_20240731.py", "VITAP_upd_20240325.py": "/usr/local/bin/VITAP_upd_20240325.py", "prodigal-gv": "/usr/local/bin/prodigal-gv", "numpy-config": "/usr/local/bin/numpy-config", "seqkit": "/usr/local/bin/seqkit", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "test_pcre": "/usr/local/bin/test_pcre", "diamond": "/usr/local/bin/diamond", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl"}}
+config: {"url": "https://biocontainers.pro/tools/vitap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vitap", "latest": {"1.10--pyhdfd78af_0": "sha256:dc5ae998f8bded2c8df70f23805e439fea875d9e755968f4ee86cee1847f6dd7"}, "tags": {"1.5--pyh7e72e81_0": "sha256:507c230b06028459c242790604f846e7dff693bbb255c0c725d317088424cc25", "1.7--pyh7e72e81_1": "sha256:97c23e032e2f31bcf1eed0a87402e42b6dcf0bd9f384cb7c3b3ac320de222442", "1.7.1--pyh7e72e81_0": "sha256:cf875d69407809b5f8a2d77519d4d896e58e89afbd29937117df309639830bb8", "1.10--pyhdfd78af_0": "sha256:dc5ae998f8bded2c8df70f23805e439fea875d9e755968f4ee86cee1847f6dd7"}, "docker": "quay.io/biocontainers/vitap", "aliases": {"VITAP": "/usr/local/bin/VITAP", "VITAP_assignment_20240731.py": "/usr/local/bin/VITAP_assignment_20240731.py", "VITAP_upd_20240325.py": "/usr/local/bin/VITAP_upd_20240325.py", "prodigal-gv": "/usr/local/bin/prodigal-gv", "numpy-config": "/usr/local/bin/numpy-config", "seqkit": "/usr/local/bin/seqkit", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "test_pcre": "/usr/local/bin/test_pcre", "diamond": "/usr/local/bin/diamond", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vitap.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/vitap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vitap:1.7--pyh7e72e81_1
+$ shpc install quay.io/biocontainers/vitap:1.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vitap/1.7--pyh7e72e81_1
-$ module help quay.io/biocontainers/vitap/1.7--pyh7e72e81_1
+$ module load quay.io/biocontainers/vitap/1.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/vitap/1.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

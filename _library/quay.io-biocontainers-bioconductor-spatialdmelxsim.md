@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spatialdmelxsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spatialdmelxsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spatialdmelxsim/container.yaml"
-updated_at: "2026-01-12 04:23:16.098202"
+updated_at: "2026-01-13 04:13:51.110139"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spatialdmelxsim"
 

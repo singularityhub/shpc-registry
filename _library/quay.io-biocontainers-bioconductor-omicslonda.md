@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omicslonda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicslonda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicslonda/container.yaml"
-updated_at: "2026-01-12 04:38:10.094948"
+updated_at: "2026-01-13 04:29:57.835139"
 latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicslonda"
 aliases:

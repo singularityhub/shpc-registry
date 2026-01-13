@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedatlasqueryr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedatlasqueryr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedatlasqueryr/container.yaml"
-updated_at: "2026-01-12 04:28:49.115780"
+updated_at: "2026-01-13 04:19:53.498624"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedatlasqueryr"
 aliases:
