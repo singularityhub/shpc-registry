@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fragpipe
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fragpipe
 latest:
-  23.1--hdfd78af_0: 
-    sha256:c75997a3b35087249bc01517b0e6d71d0ad8a8bc5952330f64ef0068020bc580
+  24.0--hdfd78af_0: 
+    sha256:075b72f0aa577f5b5939b4890b897c6e72626e98ed1b5e7a79a6b3f8cb7f790e
 tags:
   20.0--hdfd78af_0: 
     sha256:bd821a40d7cea6a4d9e098c5bcdb99cb34658ad223a98216841dbc3eede418a4
@@ -19,6 +19,8 @@ tags:
     sha256:98e21a65da977c7b313a3fdc1f209eda19340b2331dd344a4b8d0f1de7914656
   23.1--hdfd78af_0: 
     sha256:c75997a3b35087249bc01517b0e6d71d0ad8a8bc5952330f64ef0068020bc580
+  24.0--hdfd78af_0: 
+    sha256:075b72f0aa577f5b5939b4890b897c6e72626e98ed1b5e7a79a6b3f8cb7f790e
 docker: quay.io/biocontainers/fragpipe
 aliases:
   csc-dim: /usr/local/bin/csc-dim
