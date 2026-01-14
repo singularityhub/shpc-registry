@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fragpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fragpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fragpipe/container.yaml"
-updated_at: "2026-01-13 04:28:36.245586"
-latest: "23.1--hdfd78af_0"
+updated_at: "2026-01-14 04:36:48.225753"
+latest: "24.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fragpipe"
 aliases:
  - "csc-dim"
@@ -50,8 +50,9 @@ versions:
  - "22.0--hdfd78af_0"
  - "23.0--hdfd78af_0"
  - "23.1--hdfd78af_0"
+ - "24.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for fragpipe"
-config: {"url": "https://biocontainers.pro/tools/fragpipe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fragpipe", "latest": {"23.1--hdfd78af_0": "sha256:c75997a3b35087249bc01517b0e6d71d0ad8a8bc5952330f64ef0068020bc580"}, "tags": {"20.0--hdfd78af_0": "sha256:bd821a40d7cea6a4d9e098c5bcdb99cb34658ad223a98216841dbc3eede418a4", "20.0--hdfd78af_2": "sha256:6a4592367bd83d410a53b0a6a744864b76375893ff1af23c5a47ba427e0e3eff", "20.0--hdfd78af_3": "sha256:22d4c6e006136c073b8914ff99149bdd14d49c5198278a3ba6915e5c1dba7798", "20.0--hdfd78af_4": "sha256:e5bfaff4260912092ac83f63618de1f07fe7b3dc8add1c05bd363927c391ccb5", "22.0--hdfd78af_0": "sha256:a8361803a91a1194d4301a090dc940391ff303a1e07ec689771c5a37d512306d", "23.0--hdfd78af_0": "sha256:98e21a65da977c7b313a3fdc1f209eda19340b2331dd344a4b8d0f1de7914656", "23.1--hdfd78af_0": "sha256:c75997a3b35087249bc01517b0e6d71d0ad8a8bc5952330f64ef0068020bc580"}, "docker": "quay.io/biocontainers/fragpipe", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "fragpipe": "/usr/local/bin/fragpipe", "ionquant": "/usr/local/bin/ionquant", "monograph": "/usr/local/bin/monograph", "msfragger": "/usr/local/bin/msfragger", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "philosopher": "/usr/local/bin/philosopher", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
+config: {"url": "https://biocontainers.pro/tools/fragpipe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fragpipe", "latest": {"24.0--hdfd78af_0": "sha256:075b72f0aa577f5b5939b4890b897c6e72626e98ed1b5e7a79a6b3f8cb7f790e"}, "tags": {"20.0--hdfd78af_0": "sha256:bd821a40d7cea6a4d9e098c5bcdb99cb34658ad223a98216841dbc3eede418a4", "20.0--hdfd78af_2": "sha256:6a4592367bd83d410a53b0a6a744864b76375893ff1af23c5a47ba427e0e3eff", "20.0--hdfd78af_3": "sha256:22d4c6e006136c073b8914ff99149bdd14d49c5198278a3ba6915e5c1dba7798", "20.0--hdfd78af_4": "sha256:e5bfaff4260912092ac83f63618de1f07fe7b3dc8add1c05bd363927c391ccb5", "22.0--hdfd78af_0": "sha256:a8361803a91a1194d4301a090dc940391ff303a1e07ec689771c5a37d512306d", "23.0--hdfd78af_0": "sha256:98e21a65da977c7b313a3fdc1f209eda19340b2331dd344a4b8d0f1de7914656", "23.1--hdfd78af_0": "sha256:c75997a3b35087249bc01517b0e6d71d0ad8a8bc5952330f64ef0068020bc580", "24.0--hdfd78af_0": "sha256:075b72f0aa577f5b5939b4890b897c6e72626e98ed1b5e7a79a6b3f8cb7f790e"}, "docker": "quay.io/biocontainers/fragpipe", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "fragpipe": "/usr/local/bin/fragpipe", "ionquant": "/usr/local/bin/ionquant", "monograph": "/usr/local/bin/monograph", "msfragger": "/usr/local/bin/msfragger", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "philosopher": "/usr/local/bin/philosopher", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fragpipe.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/fragpipe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fragpipe:23.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/fragpipe:24.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fragpipe/23.1--hdfd78af_0
-$ module help quay.io/biocontainers/fragpipe/23.1--hdfd78af_0
+$ module load quay.io/biocontainers/fragpipe/24.0--hdfd78af_0
+$ module help quay.io/biocontainers/fragpipe/24.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

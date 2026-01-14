@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-procoil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-procoil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-procoil/container.yaml"
-updated_at: "2026-01-13 04:24:34.994160"
+updated_at: "2026-01-14 04:32:57.090980"
 latest: "2.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-procoil"
 

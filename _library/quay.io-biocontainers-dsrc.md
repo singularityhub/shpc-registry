@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dsrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dsrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dsrc/container.yaml"
-updated_at: "2026-01-13 04:11:03.210545"
+updated_at: "2026-01-14 04:19:58.065493"
 latest: "2015.06.04--h077b44d_10"
 container_url: "https://biocontainers.pro/tools/dsrc"
 aliases:

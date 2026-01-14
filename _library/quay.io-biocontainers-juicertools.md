@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/juicertools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/juicertools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/juicertools/container.yaml"
-updated_at: "2026-01-13 03:50:42.852484"
+updated_at: "2026-01-14 04:00:21.089803"
 latest: "2.20.00--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/juicertools"
 aliases:

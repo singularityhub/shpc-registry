@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bit-vector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bit-vector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bit-vector/container.yaml"
-updated_at: "2026-01-13 04:02:01.265140"
+updated_at: "2026-01-14 04:11:17.972107"
 latest: "7.4--pl5321h77fc8f9_4"
 container_url: "https://biocontainers.pro/tools/perl-bit-vector"
 aliases:

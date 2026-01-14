@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sketchlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sketchlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sketchlib/container.yaml"
-updated_at: "2026-01-13 03:55:18.960247"
+updated_at: "2026-01-14 04:04:48.304926"
 latest: "0.2.4--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/sketchlib"
 aliases:

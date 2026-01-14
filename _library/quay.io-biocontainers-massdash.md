@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/massdash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/massdash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/massdash/container.yaml"
-updated_at: "2026-01-13 03:45:19.364112"
+updated_at: "2026-01-14 03:55:06.220376"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/massdash"
 aliases:

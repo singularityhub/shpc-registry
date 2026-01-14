@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/visor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/visor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/visor/container.yaml"
-updated_at: "2026-01-13 03:57:42.127879"
+updated_at: "2026-01-14 04:07:07.380078"
 latest: "1.1.2.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/visor"
 aliases:
