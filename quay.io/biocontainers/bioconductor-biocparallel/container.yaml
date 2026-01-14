@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biocparallel
 latest:
-  1.40.0--r44he5774e6_1: 
-    sha256:bd5734c3dcc4a4af3d7394e7397f1c74e54db39a905fe71a5486e58eaa38e4d4
+  1.44.0--r45he5774e6_0: 
+    sha256:f544349fcfd8dca67fe5bfad22a5aae1e40d38d10d9462f80fdac795acf48e76
 tags:
   1.6.6--r3.3.2_1: 
     sha256:b507011cb24b4b81a3f0fbc9ef3db51fe0220a51ef8af3308b719ae475730e61
@@ -32,6 +32,8 @@ tags:
     sha256:20c5871bed40d37659141e92e04d27d08493b4c4c434a2486746bc6d0edd89ff
   1.40.0--r44he5774e6_1: 
     sha256:bd5734c3dcc4a4af3d7394e7397f1c74e54db39a905fe71a5486e58eaa38e4d4
+  1.44.0--r45he5774e6_0: 
+    sha256:f544349fcfd8dca67fe5bfad22a5aae1e40d38d10d9462f80fdac795acf48e76
 docker: quay.io/biocontainers/bioconductor-biocparallel
 aliases:
   uconv: /usr/local/bin/uconv

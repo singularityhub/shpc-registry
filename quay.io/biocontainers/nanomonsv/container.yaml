@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nanomonsv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanomonsv
 latest:
-  0.8.0--pyhdfd78af_0: 
-    sha256:a4e1d1ce9a75a0dcc0025137e8e506edc721039535a76048c83c4a3f8f6e5298
+  0.8.1--pyhdfd78af_0: 
+    sha256:ec32cccdc569c35b612e4b240aac67954f8130f84453016591102af0d7ed4c75
 tags:
   0.5.0--pyhdfd78af_0: 
     sha256:b6a2fee29c637f006eecf7a10f9a9f4190467441ed02a04bfe6d297636f6f793
@@ -17,6 +17,8 @@ tags:
     sha256:e3ab7c1d8ec0e42e6581fc0769400940b4a50e40c65d32c3386af3caadeced00
   0.8.0--pyhdfd78af_0: 
     sha256:a4e1d1ce9a75a0dcc0025137e8e506edc721039535a76048c83c4a3f8f6e5298
+  0.8.1--pyhdfd78af_0: 
+    sha256:ec32cccdc569c35b612e4b240aac67954f8130f84453016591102af0d7ed4c75
 docker: quay.io/biocontainers/nanomonsv
 aliases:
   DateRepeats: /usr/local/bin/DateRepeats

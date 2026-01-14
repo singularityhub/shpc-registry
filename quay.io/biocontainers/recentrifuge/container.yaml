@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/recentrifuge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for recentrifuge
 latest:
-  1.16.1--pyhdfd78af_0: 
-    sha256:49d3ee12a13bd4f054831ee6c18ab414655472140685d411650a08f64752dffa
+  2.0.0--pyhdfd78af_0: 
+    sha256:56fdec4f03dccf5a13f08ca88b704d1314c737512dbcfb7797e08fc8cbe4b32f
 tags:
   1.9.1--pyhdfd78af_0: 
     sha256:32f8a055bd0ae507e7ce8c84fba2100b7a6554e36e8d7ca320367bbabd527897
@@ -29,6 +29,8 @@ tags:
     sha256:56ad1b506ec3f3f44e1f5f549f0444b7a7b79b4d99982fa7bccc9f242f005bf5
   1.16.1--pyhdfd78af_0: 
     sha256:49d3ee12a13bd4f054831ee6c18ab414655472140685d411650a08f64752dffa
+  2.0.0--pyhdfd78af_0: 
+    sha256:56fdec4f03dccf5a13f08ca88b704d1314c737512dbcfb7797e08fc8cbe4b32f
 docker: quay.io/biocontainers/recentrifuge
 aliases:
   rcf: /usr/local/bin/rcf
