@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-iranges
 latest:
-  2.40.0--r44h3df3fcb_2: 
-    sha256:e8d735ed02b242333dce7f9d62e3bc435384c0a746e1c9a58a8b613e78a2643f
+  2.44.0--r45h3df3fcb_0: 
+    sha256:c56fae8ade52c5ebf1241d87e883c5ee64bff82a90de47c88797eb7d9ab753bd
 tags:
   2.8.2--r3.4.1_0: 
     sha256:f9d49b713213a18ba612174c310c9586113bfd13e2982b7983ab5a92a1b126af
@@ -30,6 +30,8 @@ tags:
     sha256:8bed16b8cd752605819c8768e852c7fa9dc22ecb75acc8f0b4361a529f26c7f2
   2.40.0--r44h3df3fcb_2: 
     sha256:e8d735ed02b242333dce7f9d62e3bc435384c0a746e1c9a58a8b613e78a2643f
+  2.44.0--r45h3df3fcb_0: 
+    sha256:c56fae8ade52c5ebf1241d87e883c5ee64bff82a90de47c88797eb7d9ab753bd
 docker: quay.io/biocontainers/bioconductor-iranges
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

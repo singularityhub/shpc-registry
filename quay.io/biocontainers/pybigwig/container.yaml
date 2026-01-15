@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pybigwig
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pybigwig
 latest:
-  0.3.24--py311hd8c7dd8_0: 
-    sha256:ca5ac92c2abe4983cd630f95dbeff8c359693e8ab7ba00e74ae0d5d7aa89acd9
+  0.3.25--py39h956d262_0: 
+    sha256:7e35edcfb45055b0ba5580fa34fda2d4a4f0cb62b5764b8b5de0c88783361619
 tags:
   0.3.9--np113py35_0: 
     sha256:0e824284363490ccb389b0d1eb417056508e806fea6d5c762494323e31e2ae2a
@@ -19,6 +19,8 @@ tags:
     sha256:7440383ba51640b94ba6360e4c08b01cfb4aeb33c555807845fe352cec73e67e
   0.3.24--py311hd8c7dd8_0: 
     sha256:ca5ac92c2abe4983cd630f95dbeff8c359693e8ab7ba00e74ae0d5d7aa89acd9
+  0.3.25--py39h956d262_0: 
+    sha256:7e35edcfb45055b0ba5580fa34fda2d4a4f0cb62b5764b8b5de0c88783361619
 docker: quay.io/biocontainers/pybigwig
 aliases:
   2to3-3.5: /usr/local/bin/2to3-3.5
