@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ssm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ssm/container.yaml"
-updated_at: "2026-01-14 04:23:35.071569"
+updated_at: "2026-01-15 04:16:29.711794"
 latest: "1.4--h503566f_1"
 container_url: "https://biocontainers.pro/tools/ssm"
 aliases:

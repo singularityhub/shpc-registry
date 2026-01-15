@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metagxpancreas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagxpancreas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagxpancreas/container.yaml"
-updated_at: "2026-01-14 04:38:15.322844"
+updated_at: "2026-01-15 04:31:22.962746"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagxpancreas"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/devider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/devider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/devider/container.yaml"
-updated_at: "2026-01-14 04:39:33.293757"
-latest: "0.0.1--ha6fb395_2"
+updated_at: "2026-01-15 04:32:43.211824"
+latest: "0.0.1--ha6fb395_3"
 container_url: "https://biocontainers.pro/tools/devider"
 aliases:
  - "devider"
@@ -45,8 +45,9 @@ aliases:
 versions:
  - "0.0.1--h919a2d8_1"
  - "0.0.1--ha6fb395_2"
+ - "0.0.1--ha6fb395_3"
 description: "singularity registry hpc automated addition for devider"
-config: {"url": "https://biocontainers.pro/tools/devider", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for devider", "latest": {"0.0.1--ha6fb395_2": "sha256:10303b656b6c282613c2363d5df449ca7a30f9208cb3c7bf9319191b4a896572"}, "tags": {"0.0.1--h919a2d8_1": "sha256:b1e7d68a367677bd767e6965d8b6ff38ef0b5e7882217b81f7ef5537ead6504c", "0.0.1--ha6fb395_2": "sha256:10303b656b6c282613c2363d5df449ca7a30f9208cb3c7bf9319191b4a896572"}, "docker": "quay.io/biocontainers/devider", "aliases": {"devider": "/usr/local/bin/devider", "haplotag_bam": "/usr/local/bin/haplotag_bam", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "run_devider_pipeline": "/usr/local/bin/run_devider_pipeline", "write_contig_headers_vcf.py": "/usr/local/bin/write_contig_headers_vcf.py", "annot-tsv": "/usr/local/bin/annot-tsv", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl"}}
+config: {"url": "https://biocontainers.pro/tools/devider", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for devider", "latest": {"0.0.1--ha6fb395_3": "sha256:ddb6ae8b37bf4a1f600b5fdd832dfe5190f78b278f5be5ea2669b7428b42a5aa"}, "tags": {"0.0.1--h919a2d8_1": "sha256:b1e7d68a367677bd767e6965d8b6ff38ef0b5e7882217b81f7ef5537ead6504c", "0.0.1--ha6fb395_2": "sha256:10303b656b6c282613c2363d5df449ca7a30f9208cb3c7bf9319191b4a896572", "0.0.1--ha6fb395_3": "sha256:ddb6ae8b37bf4a1f600b5fdd832dfe5190f78b278f5be5ea2669b7428b42a5aa"}, "docker": "quay.io/biocontainers/devider", "aliases": {"devider": "/usr/local/bin/devider", "haplotag_bam": "/usr/local/bin/haplotag_bam", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "run_devider_pipeline": "/usr/local/bin/run_devider_pipeline", "write_contig_headers_vcf.py": "/usr/local/bin/write_contig_headers_vcf.py", "annot-tsv": "/usr/local/bin/annot-tsv", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/devider.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/devider
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/devider:0.0.1--ha6fb395_2
+$ shpc install quay.io/biocontainers/devider:0.0.1--ha6fb395_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/devider/0.0.1--ha6fb395_2
-$ module help quay.io/biocontainers/devider/0.0.1--ha6fb395_2
+$ module load quay.io/biocontainers/devider/0.0.1--ha6fb395_3
+$ module help quay.io/biocontainers/devider/0.0.1--ha6fb395_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

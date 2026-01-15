@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/locarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/locarna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/locarna/container.yaml"
-updated_at: "2026-01-14 03:57:23.452037"
+updated_at: "2026-01-15 03:50:58.608338"
 latest: "2.0.1--pl5321h9948957_2"
 container_url: "https://biocontainers.pro/tools/locarna"
 aliases:

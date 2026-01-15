@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jms-metabolite-services"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jms-metabolite-services/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jms-metabolite-services/container.yaml"
-updated_at: "2026-01-14 04:11:32.490254"
+updated_at: "2026-01-15 04:04:53.616262"
 latest: "0.5.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jms-metabolite-services"
 aliases:

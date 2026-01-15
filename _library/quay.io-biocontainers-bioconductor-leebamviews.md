@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-leebamviews"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-leebamviews/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-leebamviews/container.yaml"
-updated_at: "2026-01-14 04:22:05.137145"
+updated_at: "2026-01-15 04:15:03.033522"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-leebamviews"
 

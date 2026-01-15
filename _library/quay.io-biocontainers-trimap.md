@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trimap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimap/container.yaml"
-updated_at: "2026-01-14 04:11:28.407623"
+updated_at: "2026-01-15 04:04:49.474674"
 latest: "1.0.15--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/trimap"
 aliases:

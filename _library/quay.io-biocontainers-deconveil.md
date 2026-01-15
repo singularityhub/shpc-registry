@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deconveil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deconveil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deconveil/container.yaml"
-updated_at: "2026-01-14 04:38:39.743473"
+updated_at: "2026-01-15 04:31:48.359805"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deconveil"
 aliases:

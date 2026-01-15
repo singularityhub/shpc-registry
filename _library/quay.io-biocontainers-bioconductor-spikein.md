@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spikein"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spikein/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spikein/container.yaml"
-updated_at: "2026-01-14 04:17:36.733977"
+updated_at: "2026-01-15 04:10:44.802174"
 latest: "1.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spikein"
 

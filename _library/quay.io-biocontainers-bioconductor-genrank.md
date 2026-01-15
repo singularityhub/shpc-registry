@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genrank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genrank/container.yaml"
-updated_at: "2026-01-14 03:59:42.596872"
+updated_at: "2026-01-15 03:53:16.476086"
 latest: "1.15.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genrank"
 aliases:

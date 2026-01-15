@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbsurv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbsurv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbsurv/container.yaml"
-updated_at: "2026-01-14 04:27:19.843458"
+updated_at: "2026-01-15 04:20:20.611210"
 latest: "2.64.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbsurv"
 

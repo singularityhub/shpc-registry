@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phenotest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenotest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenotest/container.yaml"
-updated_at: "2026-01-14 04:34:21.181946"
+updated_at: "2026-01-15 04:27:21.432447"
 latest: "1.54.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenotest"
 
