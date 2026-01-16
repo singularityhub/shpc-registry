@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/rhinotype
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rhinotype
+latest:
+  2.0.0--pyhdfd78af_0: 
+    sha256:dab6dffa9b2132648c4cb62686a798fef9aa772d1fe9bfcbabca39c52223537c
+tags:
+  2.0.0--pyhdfd78af_0: 
+    sha256:dab6dffa9b2132648c4cb62686a798fef9aa772d1fe9bfcbabca39c52223537c
+docker: quay.io/biocontainers/rhinotype
+aliases:
+  rhinotype: /usr/local/bin/rhinotype
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  gawkbug: /usr/local/bin/gawkbug
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi
+  mafft-distance: /usr/local/bin/mafft-distance
+  mafft-einsi: /usr/local/bin/mafft-einsi
+  mafft-fftns: /usr/local/bin/mafft-fftns
+  mafft-fftnsi: /usr/local/bin/mafft-fftnsi
+  mafft-ginsi: /usr/local/bin/mafft-ginsi
+  mafft-homologs.rb: /usr/local/bin/mafft-homologs.rb
+  mafft-linsi: /usr/local/bin/mafft-linsi
+  mafft-nwns: /usr/local/bin/mafft-nwns
+  mafft-nwnsi: /usr/local/bin/mafft-nwnsi
+  mafft-profile: /usr/local/bin/mafft-profile
+  mafft-qinsi: /usr/local/bin/mafft-qinsi
+  mafft-xinsi: /usr/local/bin/mafft-xinsi
+  nwns: /usr/local/bin/nwns
