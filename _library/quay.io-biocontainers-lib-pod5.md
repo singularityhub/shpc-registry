@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lib-pod5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lib-pod5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lib-pod5/container.yaml"
-updated_at: "2026-01-15 04:14:06.419323"
+updated_at: "2026-01-16 04:13:30.672150"
 latest: "0.3.33--py311h25590d1_0"
 container_url: "https://biocontainers.pro/tools/lib-pod5"
 aliases:
