@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/viralrecall
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viralrecall
 latest:
-  3.0.1--pyhdfd78af_0: 
-    sha256:2593fecd6f8213fa591ca4ed0df6d30f48edcca7e22455cf4e3d09918868c1e8
+  3.0.2--pyhdfd78af_0: 
+    sha256:7c0583af76ec0dcee75495424fd58b22333e285a1f51700417b7a4528b7206bb
 tags:
   3.0.1--pyhdfd78af_0: 
     sha256:2593fecd6f8213fa591ca4ed0df6d30f48edcca7e22455cf4e3d09918868c1e8
+  3.0.2--pyhdfd78af_0: 
+    sha256:7c0583af76ec0dcee75495424fd58b22333e285a1f51700417b7a4528b7206bb
 docker: quay.io/biocontainers/viralrecall
 aliases:
   pyrodigal-gv: /usr/local/bin/pyrodigal-gv
