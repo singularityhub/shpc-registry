@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-anndatar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-anndatar
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:492593d94c56ea7583f6a9d3ab4369288b61e839af4237945d27255f63d8bbe0
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:492593d94c56ea7583f6a9d3ab4369288b61e839af4237945d27255f63d8bbe0
+docker: quay.io/biocontainers/bioconductor-anndatar
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
