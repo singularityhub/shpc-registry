@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dropseq_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropseq_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dropseq_tools/container.yaml"
-updated_at: "2026-01-16 04:11:58.101562"
+updated_at: "2026-01-17 03:54:18.476521"
 latest: "3.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dropseq_tools"
 aliases:

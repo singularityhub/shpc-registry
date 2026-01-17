@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viralrecall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viralrecall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viralrecall/container.yaml"
-updated_at: "2026-01-16 04:09:16.491118"
-latest: "3.0.1--pyhdfd78af_0"
+updated_at: "2026-01-17 03:51:33.668216"
+latest: "3.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viralrecall"
 aliases:
  - "pyrodigal-gv"
@@ -38,8 +38,9 @@ aliases:
  - "opj_compress"
 versions:
  - "3.0.1--pyhdfd78af_0"
+ - "3.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for viralrecall"
-config: {"url": "https://biocontainers.pro/tools/viralrecall", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viralrecall", "latest": {"3.0.1--pyhdfd78af_0": "sha256:2593fecd6f8213fa591ca4ed0df6d30f48edcca7e22455cf4e3d09918868c1e8"}, "tags": {"3.0.1--pyhdfd78af_0": "sha256:2593fecd6f8213fa591ca4ed0df6d30f48edcca7e22455cf4e3d09918868c1e8"}, "docker": "quay.io/biocontainers/viralrecall", "aliases": {"pyrodigal-gv": "/usr/local/bin/pyrodigal-gv", "viralrecall": "/usr/local/bin/viralrecall", "viralrecall_database": "/usr/local/bin/viralrecall_database", "archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress"}}
+config: {"url": "https://biocontainers.pro/tools/viralrecall", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viralrecall", "latest": {"3.0.2--pyhdfd78af_0": "sha256:7c0583af76ec0dcee75495424fd58b22333e285a1f51700417b7a4528b7206bb"}, "tags": {"3.0.1--pyhdfd78af_0": "sha256:2593fecd6f8213fa591ca4ed0df6d30f48edcca7e22455cf4e3d09918868c1e8", "3.0.2--pyhdfd78af_0": "sha256:7c0583af76ec0dcee75495424fd58b22333e285a1f51700417b7a4528b7206bb"}, "docker": "quay.io/biocontainers/viralrecall", "aliases": {"pyrodigal-gv": "/usr/local/bin/pyrodigal-gv", "viralrecall": "/usr/local/bin/viralrecall", "viralrecall_database": "/usr/local/bin/viralrecall_database", "archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viralrecall.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/viralrecall
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viralrecall:3.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/viralrecall:3.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viralrecall/3.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/viralrecall/3.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/viralrecall/3.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/viralrecall/3.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

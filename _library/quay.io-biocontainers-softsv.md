@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/softsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/softsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/softsv/container.yaml"
-updated_at: "2026-01-16 04:35:14.984061"
+updated_at: "2026-01-17 04:17:47.289342"
 latest: "1.4.2--hb891895_0"
 container_url: "https://biocontainers.pro/tools/softsv"
 aliases:

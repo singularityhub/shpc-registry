@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autodock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autodock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autodock/container.yaml"
-updated_at: "2026-01-16 04:24:24.082208"
+updated_at: "2026-01-17 04:06:57.810623"
 latest: "4.2.6--h9948957_4"
 container_url: "https://biocontainers.pro/tools/autodock"
 aliases:

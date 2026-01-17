@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbipa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbipa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbipa/container.yaml"
-updated_at: "2026-01-16 04:07:43.909587"
+updated_at: "2026-01-17 03:50:01.765150"
 latest: "1.8.0--h1104d80_3"
 container_url: "https://biocontainers.pro/tools/pbipa"
 aliases:

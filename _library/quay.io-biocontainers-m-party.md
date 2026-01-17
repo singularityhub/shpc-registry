@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/m-party"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/m-party/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/m-party/container.yaml"
-updated_at: "2026-01-16 04:02:42.568277"
+updated_at: "2026-01-17 03:45:00.600368"
 latest: "0.2.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/m-party"
 aliases:

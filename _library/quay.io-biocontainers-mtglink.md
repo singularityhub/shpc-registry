@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mtglink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtglink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtglink/container.yaml"
-updated_at: "2026-01-16 04:12:42.143327"
+updated_at: "2026-01-17 03:55:03.789814"
 latest: "2.4.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mtglink"
 aliases:

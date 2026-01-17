@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-strictconstructor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-strictconstructor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-strictconstructor/container.yaml"
-updated_at: "2026-01-16 04:18:19.745923"
+updated_at: "2026-01-17 04:00:53.387380"
 latest: "0.21--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-moosex-strictconstructor"
 aliases:

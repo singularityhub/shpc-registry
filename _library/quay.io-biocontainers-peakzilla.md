@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peakzilla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peakzilla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peakzilla/container.yaml"
-updated_at: "2026-01-16 04:01:20.382194"
+updated_at: "2026-01-17 03:43:40.579870"
 latest: "1.0--py_2"
 container_url: "https://biocontainers.pro/tools/peakzilla"
 aliases:

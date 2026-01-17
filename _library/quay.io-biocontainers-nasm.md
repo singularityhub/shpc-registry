@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nasm/container.yaml"
-updated_at: "2026-01-16 04:00:49.642854"
+updated_at: "2026-01-17 03:43:10.419695"
 latest: "2.11.08--0"
 container_url: "https://biocontainers.pro/tools/nasm"
 aliases:

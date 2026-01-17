@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-illuminahumanmethylation450kprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminahumanmethylation450kprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminahumanmethylation450kprobe/container.yaml"
-updated_at: "2026-01-16 03:56:31.004219"
+updated_at: "2026-01-17 03:38:55.220174"
 latest: "2.0.6--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminahumanmethylation450kprobe"
 

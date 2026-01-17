@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/amulety"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amulety/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amulety/container.yaml"
-updated_at: "2026-01-16 03:51:50.086781"
-latest: "2.1--pyh6d73907_0"
+updated_at: "2026-01-17 03:34:14.860662"
+latest: "2.1.1--pyh6d73907_0"
 container_url: "https://biocontainers.pro/tools/amulety"
 aliases:
  - "amulety"
@@ -49,8 +49,9 @@ versions:
  - "1.1--pyhdfd78af_0"
  - "2.0--pyh6d73907_1"
  - "2.1--pyh6d73907_0"
+ - "2.1.1--pyh6d73907_0"
 description: "singularity registry hpc automated addition for amulety"
-config: {"url": "https://biocontainers.pro/tools/amulety", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amulety", "latest": {"2.1--pyh6d73907_0": "sha256:66117f5a69b89da6735e7f698928cffbfcad97c7648af212b2c570fa171ae1fa"}, "tags": {"1.0--pyhdfd78af_0": "sha256:9cfa7bdabc2580c19af48bb0041add7ae229008695d14478ce0d3ccdf67b5d4c", "1.1--pyhdfd78af_0": "sha256:db119affcb183d4937d3dd58265f05959ce7d58f7c9cfdbc51b3e7601c81e160", "2.0--pyh6d73907_1": "sha256:13e5105bd5a9cdb9931cce4da886f21e72557a5ba5edf3c8ddc7ec340d34a499", "2.1--pyh6d73907_0": "sha256:66117f5a69b89da6735e7f698928cffbfcad97c7648af212b2c570fa171ae1fa"}, "docker": "quay.io/biocontainers/amulety", "aliases": {"amulety": "/usr/local/bin/amulety", "datasets-cli": "/usr/local/bin/datasets-cli", "huggingface-cli": "/usr/local/bin/huggingface-cli", "identify-cli": "/usr/local/bin/identify-cli", "nodeenv": "/usr/local/bin/nodeenv", "pre-commit": "/usr/local/bin/pre-commit", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "transformers-cli": "/usr/local/bin/transformers-cli", "typer": "/usr/local/bin/typer", "xxh3sum": "/usr/local/bin/xxh3sum", "virtualenv": "/usr/local/bin/virtualenv", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "pybind11-config": "/usr/local/bin/pybind11-config", "get_gprof": "/usr/local/bin/get_gprof", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "markdown-it": "/usr/local/bin/markdown-it", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
+config: {"url": "https://biocontainers.pro/tools/amulety", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amulety", "latest": {"2.1.1--pyh6d73907_0": "sha256:152e932684a3253e3511e23cad20294aec76c3cc06735a67551002c8684f3069"}, "tags": {"1.0--pyhdfd78af_0": "sha256:9cfa7bdabc2580c19af48bb0041add7ae229008695d14478ce0d3ccdf67b5d4c", "1.1--pyhdfd78af_0": "sha256:db119affcb183d4937d3dd58265f05959ce7d58f7c9cfdbc51b3e7601c81e160", "2.0--pyh6d73907_1": "sha256:13e5105bd5a9cdb9931cce4da886f21e72557a5ba5edf3c8ddc7ec340d34a499", "2.1--pyh6d73907_0": "sha256:66117f5a69b89da6735e7f698928cffbfcad97c7648af212b2c570fa171ae1fa", "2.1.1--pyh6d73907_0": "sha256:152e932684a3253e3511e23cad20294aec76c3cc06735a67551002c8684f3069"}, "docker": "quay.io/biocontainers/amulety", "aliases": {"amulety": "/usr/local/bin/amulety", "datasets-cli": "/usr/local/bin/datasets-cli", "huggingface-cli": "/usr/local/bin/huggingface-cli", "identify-cli": "/usr/local/bin/identify-cli", "nodeenv": "/usr/local/bin/nodeenv", "pre-commit": "/usr/local/bin/pre-commit", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "transformers-cli": "/usr/local/bin/transformers-cli", "typer": "/usr/local/bin/typer", "xxh3sum": "/usr/local/bin/xxh3sum", "virtualenv": "/usr/local/bin/virtualenv", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "pybind11-config": "/usr/local/bin/pybind11-config", "get_gprof": "/usr/local/bin/get_gprof", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "markdown-it": "/usr/local/bin/markdown-it", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amulety.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/amulety
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amulety:2.1--pyh6d73907_0
+$ shpc install quay.io/biocontainers/amulety:2.1.1--pyh6d73907_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amulety/2.1--pyh6d73907_0
-$ module help quay.io/biocontainers/amulety/2.1--pyh6d73907_0
+$ module load quay.io/biocontainers/amulety/2.1.1--pyh6d73907_0
+$ module help quay.io/biocontainers/amulety/2.1.1--pyh6d73907_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

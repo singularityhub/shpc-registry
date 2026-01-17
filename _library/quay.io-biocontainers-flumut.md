@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flumut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flumut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flumut/container.yaml"
-updated_at: "2026-01-16 04:02:00.833190"
+updated_at: "2026-01-17 03:44:19.902878"
 latest: "0.6.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flumut"
 aliases:

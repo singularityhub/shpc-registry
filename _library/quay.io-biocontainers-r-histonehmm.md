@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-histonehmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-histonehmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-histonehmm/container.yaml"
-updated_at: "2026-01-16 04:00:06.252427"
+updated_at: "2026-01-17 03:42:27.362378"
 latest: "1.8--r44hb2a3317_8"
 container_url: "https://biocontainers.pro/tools/r-histonehmm"
 aliases:

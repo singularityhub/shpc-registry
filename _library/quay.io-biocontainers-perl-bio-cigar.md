@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-cigar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-cigar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-cigar/container.yaml"
-updated_at: "2026-01-16 03:53:45.066752"
+updated_at: "2026-01-17 03:36:09.009136"
 latest: "1.01--pl5321hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/perl-bio-cigar"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zipstrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zipstrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zipstrain/container.yaml"
-updated_at: "2026-01-16 04:22:23.123795"
-latest: "0.2.10--pyhdfd78af_0"
+updated_at: "2026-01-17 04:04:58.674059"
+latest: "0.2.21--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/zipstrain"
 aliases:
  - "zipstrain"
@@ -38,8 +38,9 @@ versions:
  - "0.1.7--pyhdfd78af_0"
  - "0.2.10--pyhdfd78af_0"
  - "0.1.8--pyhdfd78af_0"
+ - "0.2.21--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for zipstrain"
-config: {"url": "https://biocontainers.pro/tools/zipstrain", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zipstrain", "latest": {"0.2.10--pyhdfd78af_0": "sha256:a9a922bee9cc473c023f30d42ba4c392667f0edc91d62265315daea26337e05b"}, "tags": {"0.1.7--pyhdfd78af_0": "sha256:62d0291f0b911ed895e5b4794b8a10c582565ee40e69e41e1a7509702675d1e8", "0.2.10--pyhdfd78af_0": "sha256:a9a922bee9cc473c023f30d42ba4c392667f0edc91d62265315daea26337e05b", "0.1.8--pyhdfd78af_0": "sha256:31db47279e2292df75bb67b64ce1bd79fa521df214f9ef28172ddcc70e5cf289"}, "docker": "quay.io/biocontainers/zipstrain", "aliases": {"zipstrain": "/usr/local/bin/zipstrain", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "ref-cache": "/usr/local/bin/ref-cache", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
+config: {"url": "https://biocontainers.pro/tools/zipstrain", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zipstrain", "latest": {"0.2.21--pyhdfd78af_0": "sha256:f140df0863fbbe1a8e59070aee48b7bc335ccef030827172ed9789754bec6998"}, "tags": {"0.1.7--pyhdfd78af_0": "sha256:62d0291f0b911ed895e5b4794b8a10c582565ee40e69e41e1a7509702675d1e8", "0.2.10--pyhdfd78af_0": "sha256:a9a922bee9cc473c023f30d42ba4c392667f0edc91d62265315daea26337e05b", "0.1.8--pyhdfd78af_0": "sha256:31db47279e2292df75bb67b64ce1bd79fa521df214f9ef28172ddcc70e5cf289", "0.2.21--pyhdfd78af_0": "sha256:f140df0863fbbe1a8e59070aee48b7bc335ccef030827172ed9789754bec6998"}, "docker": "quay.io/biocontainers/zipstrain", "aliases": {"zipstrain": "/usr/local/bin/zipstrain", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "ref-cache": "/usr/local/bin/ref-cache", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zipstrain.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/zipstrain
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zipstrain:0.2.10--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/zipstrain:0.2.21--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zipstrain/0.2.10--pyhdfd78af_0
-$ module help quay.io/biocontainers/zipstrain/0.2.10--pyhdfd78af_0
+$ module load quay.io/biocontainers/zipstrain/0.2.21--pyhdfd78af_0
+$ module help quay.io/biocontainers/zipstrain/0.2.21--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

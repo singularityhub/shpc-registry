@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grz-check"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-check/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-check/container.yaml"
-updated_at: "2026-01-16 04:05:23.120496"
+updated_at: "2026-01-17 03:47:40.872642"
 latest: "0.2.1--h3ec5717_0"
 container_url: "https://biocontainers.pro/tools/grz-check"
 aliases:

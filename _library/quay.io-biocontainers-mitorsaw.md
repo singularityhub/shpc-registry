@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mitorsaw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitorsaw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitorsaw/container.yaml"
-updated_at: "2026-01-16 03:57:54.201757"
+updated_at: "2026-01-17 03:40:17.257425"
 latest: "0.2.7--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/mitorsaw"
 aliases:

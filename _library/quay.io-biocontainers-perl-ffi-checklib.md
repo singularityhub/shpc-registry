@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ffi-checklib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ffi-checklib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ffi-checklib/container.yaml"
-updated_at: "2026-01-16 04:31:37.492482"
+updated_at: "2026-01-17 04:14:13.850249"
 latest: "0.31--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-ffi-checklib"
 aliases:

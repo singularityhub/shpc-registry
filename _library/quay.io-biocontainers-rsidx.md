@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rsidx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsidx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsidx/container.yaml"
-updated_at: "2026-01-16 04:00:55.570792"
+updated_at: "2026-01-17 03:43:16.199774"
 latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rsidx"
 aliases:
