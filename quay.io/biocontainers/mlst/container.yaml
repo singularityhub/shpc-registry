@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mlst
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mlst
 latest:
-  2.25.0--hdfd78af_0: 
-    sha256:e3da7ad580fae661251d1f62d505789a7c353bc83be8850e603516468daaa153
+  2.32.2--hdfd78af_0: 
+    sha256:edabb5b276e07e8eed9e4af2ef43503576222b3b09486e4d8772bf23ee05545b
 tags:
   2.9--hec16e2b_4: 
     sha256:be2e48b3a98515ac8807941984271e7d90ef686c7188c6f1f481d8efe443b20b
@@ -21,6 +21,10 @@ tags:
     sha256:5e32de82da1ab6df5ded7b6852178af0b86fa42f0e9c6305ad8cf1b28dd7c08d
   2.25.0--hdfd78af_0: 
     sha256:e3da7ad580fae661251d1f62d505789a7c353bc83be8850e603516468daaa153
+  2.32.2--hdfd78af_0: 
+    sha256:edabb5b276e07e8eed9e4af2ef43503576222b3b09486e4d8772bf23ee05545b
+  2.28.1--hdfd78af_0: 
+    sha256:d9fc8715e57f70d0f164849937aebab4c58ba766781dcf3d7eec98b804ba8dce
 docker: quay.io/biocontainers/mlst
 aliases:
   mlst: /usr/local/bin/mlst

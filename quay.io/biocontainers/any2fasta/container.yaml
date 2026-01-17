@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/any2fasta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for any2fasta
 latest:
-  0.4.2--hdfd78af_3: 
-    sha256:50441698f1f483b4139562d3d5a47ad7e67f926737c265e3bf5b31211ffe1620
+  0.8.1--hdfd78af_0: 
+    sha256:e616df15d7233d1e97f450de33e9a64ab0f2b9a501570de749eb3aa3fc70bf06
 tags:
   0.4.2--hdfd78af_3: 
     sha256:50441698f1f483b4139562d3d5a47ad7e67f926737c265e3bf5b31211ffe1620
+  0.8.1--hdfd78af_0: 
+    sha256:e616df15d7233d1e97f450de33e9a64ab0f2b9a501570de749eb3aa3fc70bf06
+  0.6.2--hdfd78af_0: 
+    sha256:81945d3a7241901bfb1e763bb42aa3eb9b7bd5bc98738b56f18ac2fb5605db95
 docker: quay.io/biocontainers/any2fasta
 aliases:
   any2fasta: /usr/local/bin/any2fasta
