@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sr2silo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sr2silo
 latest:
-  1.6.1--pyhdfd78af_0: 
-    sha256:ac8329abde54bbbfb2aa3acc4d282eea9db3507f110a76d5bd3963ffba55cf55
+  1.7.0--pyhdfd78af_0: 
+    sha256:881aa9fd4b6551378065f7a9b89b6f3082716f3dd7ff23d8103129c732692760
 tags:
   0.0.4--pyhdfd78af_0: 
     sha256:7fc220fe537894206e614a1d40223ca962249d41978dea86d07a15b17fb6e77b
@@ -29,6 +29,8 @@ tags:
     sha256:5dae4cab48ec278e1380d3b0410423b42ced73c5453db26e03669bedce93df44
   1.6.1--pyhdfd78af_0: 
     sha256:ac8329abde54bbbfb2aa3acc4d282eea9db3507f110a76d5bd3963ffba55cf55
+  1.7.0--pyhdfd78af_0: 
+    sha256:881aa9fd4b6551378065f7a9b89b6f3082716f3dd7ff23d8103129c732692760
 docker: quay.io/biocontainers/sr2silo
 aliases:
   jdiff: /usr/local/bin/jdiff

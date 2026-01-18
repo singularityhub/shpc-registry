@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_gromacs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_gromacs
 latest:
-  5.1.2--pyhdfd78af_0: 
-    sha256:b56ed361beed8109599eb7bf0be6c98eef9de6c73f38b9035ca02ae86268a40a
+  5.2.0--pyhdfd78af_0: 
+    sha256:ca9022450ca5c299c42de974a37e79bcec2700946a1fe10bc4fe57bbe75a3595
 tags:
   3.9.0--pyhdfd78af_0: 
     sha256:d9247e19a9b29d6e64312c8775d4b4061587cfea87144110eadcd312dfce4538
@@ -21,6 +21,8 @@ tags:
     sha256:5e28c11b4e8c8672520afe09e819a8efbd0369ba6c347682560b2278bc28c6a2
   5.1.2--pyhdfd78af_0: 
     sha256:b56ed361beed8109599eb7bf0be6c98eef9de6c73f38b9035ca02ae86268a40a
+  5.2.0--pyhdfd78af_0: 
+    sha256:ca9022450ca5c299c42de974a37e79bcec2700946a1fe10bc4fe57bbe75a3595
 docker: quay.io/biocontainers/biobb_gromacs
 aliases:
   append_ligand: /usr/local/bin/append_ligand

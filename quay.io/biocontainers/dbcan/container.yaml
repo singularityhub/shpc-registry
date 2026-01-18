@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/dbcan
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dbcan
 latest:
-  5.2.1--pyhdfd78af_0: 
-    sha256:0c4e7e3d40a2ff371d43b09e78e680b5081e5b64b7d87e234471d6b32c02753d
+  5.2.4--pyhdfd78af_0: 
+    sha256:49b79e1025c7f0bedf7c9de672feeb1d51d25e36755cd80f21e74be47f15efb9
 tags:
   3.0.7--pyh5e36f6f_0: 
     sha256:dab7762a6123f938b5eab617a97e19f110d27b742d016e8aae42fdaa75d16943
@@ -25,6 +25,8 @@ tags:
     sha256:d8cfd2187a88d1ee3ea2f23d4f2e1c619a6ace63a329a0482465cb67b9152457
   5.2.1--pyhdfd78af_0: 
     sha256:0c4e7e3d40a2ff371d43b09e78e680b5081e5b64b7d87e234471d6b32c02753d
+  5.2.4--pyhdfd78af_0: 
+    sha256:49b79e1025c7f0bedf7c9de672feeb1d51d25e36755cd80f21e74be47f15efb9
 docker: quay.io/biocontainers/dbcan
 aliases:
   hmmscan_parser.py: /usr/local/bin/hmmscan_parser.py
