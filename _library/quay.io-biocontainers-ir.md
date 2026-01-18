@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ir/container.yaml"
-updated_at: "2026-01-17 03:35:17.774238"
+updated_at: "2026-01-18 03:58:25.940569"
 latest: "2.8.0--h7b50bb2_8"
 container_url: "https://biocontainers.pro/tools/ir"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sage-proteomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sage-proteomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sage-proteomics/container.yaml"
-updated_at: "2026-01-17 04:11:08.569891"
+updated_at: "2026-01-18 04:33:27.894662"
 latest: "0.14.7--hc1c3326_2"
 container_url: "https://biocontainers.pro/tools/sage-proteomics"
 aliases:

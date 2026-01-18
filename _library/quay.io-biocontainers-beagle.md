@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beagle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beagle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beagle/container.yaml"
-updated_at: "2026-01-17 04:15:23.373070"
+updated_at: "2026-01-18 04:37:39.222818"
 latest: "5.5_27Feb25.75f--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beagle"
 aliases:

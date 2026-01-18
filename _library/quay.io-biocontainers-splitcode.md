@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/splitcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splitcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splitcode/container.yaml"
-updated_at: "2026-01-17 04:06:18.929563"
+updated_at: "2026-01-18 04:28:40.900975"
 latest: "0.31.6--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/splitcode"
 aliases:

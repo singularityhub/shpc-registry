@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/babappalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/babappalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/babappalign/container.yaml"
-updated_at: "2026-01-17 03:49:19.674283"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-01-18 04:12:16.826375"
+latest: "1.1.3--py313h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/babappalign"
 aliases:
  - "babappalign"
@@ -31,8 +31,9 @@ aliases:
  - "normalizer"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.3--py313h9ee0642_0"
 description: "singularity registry hpc automated addition for babappalign"
-config: {"url": "https://biocontainers.pro/tools/babappalign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for babappalign", "latest": {"1.0.0--pyhdfd78af_0": "sha256:11b7926ed77fa26729af5b3886160f35f8087bc740e0cc3caa2a924b747b7a9e"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:11b7926ed77fa26729af5b3886160f35f8087bc740e0cc3caa2a924b747b7a9e"}, "docker": "quay.io/biocontainers/babappalign", "aliases": {"babappalign": "/usr/local/bin/babappalign", "babappascore": "/usr/local/bin/babappascore", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/babappalign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for babappalign", "latest": {"1.1.3--py313h9ee0642_0": "sha256:47a0483805c13a2e0640268d4be4f0c77e150b98f06cf67996d9b880e09d5f95"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:11b7926ed77fa26729af5b3886160f35f8087bc740e0cc3caa2a924b747b7a9e", "1.1.3--py313h9ee0642_0": "sha256:47a0483805c13a2e0640268d4be4f0c77e150b98f06cf67996d9b880e09d5f95"}, "docker": "quay.io/biocontainers/babappalign", "aliases": {"babappalign": "/usr/local/bin/babappalign", "babappascore": "/usr/local/bin/babappascore", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "protoc": "/usr/local/bin/protoc", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/babappalign.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/babappalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/babappalign:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/babappalign:1.1.3--py313h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/babappalign/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/babappalign/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/babappalign/1.1.3--py313h9ee0642_0
+$ module help quay.io/biocontainers/babappalign/1.1.3--py313h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

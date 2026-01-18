@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-envisionquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-envisionquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-envisionquery/container.yaml"
-updated_at: "2026-01-17 04:00:49.336070"
+updated_at: "2026-01-18 04:23:18.113447"
 latest: "1.38.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-envisionquery"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rann/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rann/container.yaml"
-updated_at: "2026-01-17 04:18:57.632764"
+updated_at: "2026-01-18 04:41:10.609976"
 latest: "2.5--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rann"
 aliases:

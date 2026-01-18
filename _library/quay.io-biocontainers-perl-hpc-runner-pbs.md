@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-pbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-pbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-pbs/container.yaml"
-updated_at: "2026-01-17 04:02:14.505066"
+updated_at: "2026-01-18 04:24:38.199270"
 latest: "0.12--0"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-pbs"
 aliases:

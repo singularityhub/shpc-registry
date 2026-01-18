@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/idr-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/idr-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/idr-py/container.yaml"
-updated_at: "2026-01-17 03:44:50.665831"
+updated_at: "2026-01-18 04:07:50.893224"
 latest: "0.4.2--py_0"
 container_url: "https://biocontainers.pro/tools/idr-py"
 aliases:

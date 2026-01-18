@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/tensorflow-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/tensorflow-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/tensorflow-notebook/container.yaml"
-updated_at: "2026-01-17 03:26:17.182855"
+updated_at: "2026-01-18 03:49:37.450614"
 latest: "cuda-b74418220768"
 container_url: "https://quay.io/repository/jupyter/tensorflow-notebook"
 aliases:
@@ -21,8 +21,9 @@ versions:
  - "cuda-b74418220768"
  - "cuda-ac8453913caf"
  - "cuda-aabaa5807262"
+ - "cuda-81917185ba75"
 description: "Jupyter TensorFlow Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/tensorflow-notebook", "url": "https://quay.io/repository/jupyter/tensorflow-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter TensorFlow Notebook from https://github.com/jupyter/docker-stacks", "latest": {"cuda-b74418220768": "sha256:6104812c40306416b261d0bdded3a5c3130ab8fbeb6a249f1637476926d68599"}, "tags": {"latest": "sha256:931ae120065715014e33220bc5813a0bc1e97f329251d395919e5209494bd2bd", "2025-06-02": "sha256:fcd545494caf7ea38d531512784d380c3efa4c13e635071fc914d7d80ac4f5b6", "cuda-2025-06-02": "sha256:99496ed0740f617341cc6578da68c69b746828f5145a9d76bc1d2188ece34d3f", "cuda-latest": "sha256:a6f265d99223efef5a1fea85dda35ef43f66549ae80071d66cd7c52b7e14c5f8", "cuda-388066466d85": "sha256:d8b4f1d67dd6170ef8eff302c22d91e04ea1074ddd3788e9712634e7fa6e1412", "cuda-e57047801c3d": "sha256:d6b79dc162df12bc1d5ee078985fdc5fc3bba9a79e82c52b1763a17c51267d23", "cuda-afdc8061196e": "sha256:de4ef91b24f70718c1eb2500d7a31f623f7f276647e34ca80b860ca93382c133", "cuda-dcecb3155619": "sha256:88368171db064ba1c525b74163f7fdab5c09152a22c32635fc4e8b3e7e25d0b5", "cuda-b74418220768": "sha256:6104812c40306416b261d0bdded3a5c3130ab8fbeb6a249f1637476926d68599", "cuda-ac8453913caf": "sha256:93cca0b900f954e4ad6ce3fc9e26defa31bdd7860450a21851864099fd1d1839", "cuda-aabaa5807262": "sha256:13402ab4a90cc23bfd163175bbfb467620530ebcb61489e96c16106bb7b2146b"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/tensorflow-notebook", "url": "https://quay.io/repository/jupyter/tensorflow-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter TensorFlow Notebook from https://github.com/jupyter/docker-stacks", "latest": {"cuda-b74418220768": "sha256:6104812c40306416b261d0bdded3a5c3130ab8fbeb6a249f1637476926d68599"}, "tags": {"latest": "sha256:993feb935e06c669a4d2026069e4deaf5de1499e2b5cf1aa7d8d125eae72ff37", "2025-06-02": "sha256:fcd545494caf7ea38d531512784d380c3efa4c13e635071fc914d7d80ac4f5b6", "cuda-2025-06-02": "sha256:99496ed0740f617341cc6578da68c69b746828f5145a9d76bc1d2188ece34d3f", "cuda-latest": "sha256:61fa0418d0075c8462d919aa9ded0f0edae312f87271e3108b273c90b3af4aa3", "cuda-388066466d85": "sha256:d8b4f1d67dd6170ef8eff302c22d91e04ea1074ddd3788e9712634e7fa6e1412", "cuda-e57047801c3d": "sha256:d6b79dc162df12bc1d5ee078985fdc5fc3bba9a79e82c52b1763a17c51267d23", "cuda-afdc8061196e": "sha256:de4ef91b24f70718c1eb2500d7a31f623f7f276647e34ca80b860ca93382c133", "cuda-dcecb3155619": "sha256:88368171db064ba1c525b74163f7fdab5c09152a22c32635fc4e8b3e7e25d0b5", "cuda-b74418220768": "sha256:6104812c40306416b261d0bdded3a5c3130ab8fbeb6a249f1637476926d68599", "cuda-ac8453913caf": "sha256:93cca0b900f954e4ad6ce3fc9e26defa31bdd7860450a21851864099fd1d1839", "cuda-aabaa5807262": "sha256:13402ab4a90cc23bfd163175bbfb467620530ebcb61489e96c16106bb7b2146b", "cuda-81917185ba75": "sha256:96b4f84d136f28f004a14908f41ab7726aaf07c36b2637f0badf2d246e3fab3a"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/tensorflow-notebook.

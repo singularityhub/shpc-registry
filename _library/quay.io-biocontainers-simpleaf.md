@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simpleaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simpleaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simpleaf/container.yaml"
-updated_at: "2026-01-17 04:02:37.843157"
+updated_at: "2026-01-18 04:25:01.620290"
 latest: "0.19.5--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/simpleaf"
 aliases:

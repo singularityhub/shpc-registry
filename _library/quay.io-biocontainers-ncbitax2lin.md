@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbitax2lin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbitax2lin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbitax2lin/container.yaml"
-updated_at: "2026-01-17 03:37:07.227433"
+updated_at: "2026-01-18 04:00:12.473458"
 latest: "3.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ncbitax2lin"
 aliases:

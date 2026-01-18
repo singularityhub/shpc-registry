@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bronko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bronko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bronko/container.yaml"
-updated_at: "2026-01-17 04:10:28.364811"
+updated_at: "2026-01-18 04:32:48.623882"
 latest: "0.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/bronko"
 aliases:

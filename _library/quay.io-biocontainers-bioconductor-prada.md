@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prada"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prada/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prada/container.yaml"
-updated_at: "2026-01-17 03:28:03.956970"
+updated_at: "2026-01-18 03:51:21.979847"
 latest: "1.63.0--r40h037d062_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prada"
 aliases:

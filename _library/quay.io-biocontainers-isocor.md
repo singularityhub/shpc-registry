@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isocor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isocor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isocor/container.yaml"
-updated_at: "2026-01-17 03:45:11.972671"
+updated_at: "2026-01-18 04:08:11.579462"
 latest: "2.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isocor"
 aliases:

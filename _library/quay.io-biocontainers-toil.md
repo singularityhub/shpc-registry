@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/toil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/toil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/toil/container.yaml"
-updated_at: "2026-01-17 04:02:03.322216"
+updated_at: "2026-01-18 04:24:27.299115"
 latest: "7.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/toil"
 aliases:

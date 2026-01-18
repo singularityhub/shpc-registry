@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/odgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/odgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/odgi/container.yaml"
-updated_at: "2026-01-17 03:40:51.076138"
-latest: "0.9.3--h077b44d_0"
+updated_at: "2026-01-18 04:03:54.283369"
+latest: "0.9.4--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/odgi"
 aliases:
  - "odgi"
@@ -36,8 +36,9 @@ versions:
  - "0.9.1--py39h475c85d_0"
  - "0.9.2--py39h475c85d_0"
  - "0.9.3--h077b44d_0"
+ - "0.9.4--h077b44d_0"
 description: "shpc-registry automated BioContainers addition for odgi"
-config: {"url": "https://biocontainers.pro/tools/odgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for odgi", "latest": {"0.9.3--h077b44d_0": "sha256:e62028db238f34a1d26c1c8305d9e2f5f5f2608e3d4e452efbd468fb6b1b435e"}, "tags": {"v0.3--py36h8b12597_0": "sha256:1c2f5509378972e116f35ec672feea0cfaf9b940f4feef807235dd91975f9f7d", "0.7.2--py39h2add14b_1": "sha256:b5c38e28fb36084a52e311e642cdf6c8c10a515211bb19ceecb17ffb0437ed44", "0.6.3--py39h2add14b_1": "sha256:217a98d601a2c2068ba515d86ce835bb328262257634895b451b1332e2ae5f9b", "0.4.1--py36h61628e2_1": "sha256:3ff2613f3894075263f2dedf0e0d49227717168661898b8d6605b5b46e066430", "0.3--py36hd181a71_1": "sha256:09a73f020c4483325e01cefd7e67291fde8d9af9a6bf1eda2c143ba0c8c40757", "0.8.6--py310h6cc9453_0": "sha256:976b3413c95ea5210063fa57ff10440800f9080eb197b8c8aa70361f421d429b", "0.7.3--py39h2add14b_1": "sha256:bbc56e03fdb356d071a007d300790f4b1e9330111776a4b31d72afcd99c779f8", "0.6.3--py36hcac48a8_1": "sha256:6ff430cedf04030fdb893a0e3284f4ac962a8056f924a56400a11c7391146abe", "0.4.1--py38h8e3bb3f_1": "sha256:c109c4d5c30df735c15a0d45533795f105507af83297e09c03bfda3ee5c194c4", "0.3--py38h8162308_1": "sha256:e4d081044909db90bc3c3eacc0e734c415a07469783727bb3a3e09bf822e5550", "0.8.6--py310hdf79db3_1": "sha256:804005aa667f63e043587347687358588b6e81c7c221f8d60d6c526e1df1b849", "0.8.6--py312hc60241a_2": "sha256:b8aa75b92ee750d026500f2110dcc677fea5a22bd19645b24f54f7089a562cf3", "0.9.0--py312ha1f7cf2_0": "sha256:0ca6e3703e74c56b63035a9275c11ac874ef6613564dbd156722e3fcf302f411", "0.9.0--py312h5e9d817_1": "sha256:af5029caa1cfad1691ecfcf47fef7bcc55a7b184f24261bb2f6fcfefe7192d2a", "0.9.1--py39h475c85d_0": "sha256:f27ae92330dfd7a8c78389c1728f68f6af69ac08b968fe2358908698b4ce139a", "0.9.2--py39h475c85d_0": "sha256:7eb163deefdc7f4c7cc94a8d306abeb98398d14a6cf35184cd3e1fe123db50c9", "0.9.3--h077b44d_0": "sha256:e62028db238f34a1d26c1c8305d9e2f5f5f2608e3d4e452efbd468fb6b1b435e"}, "docker": "quay.io/biocontainers/odgi", "aliases": {"odgi": "/usr/local/bin/odgi", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/odgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for odgi", "latest": {"0.9.4--h077b44d_0": "sha256:20f70608a427b99bc3dde21d96f6fa4b02ef2d0b5b7fa66c3bdf820fb9f27ea6"}, "tags": {"v0.3--py36h8b12597_0": "sha256:1c2f5509378972e116f35ec672feea0cfaf9b940f4feef807235dd91975f9f7d", "0.7.2--py39h2add14b_1": "sha256:b5c38e28fb36084a52e311e642cdf6c8c10a515211bb19ceecb17ffb0437ed44", "0.6.3--py39h2add14b_1": "sha256:217a98d601a2c2068ba515d86ce835bb328262257634895b451b1332e2ae5f9b", "0.4.1--py36h61628e2_1": "sha256:3ff2613f3894075263f2dedf0e0d49227717168661898b8d6605b5b46e066430", "0.3--py36hd181a71_1": "sha256:09a73f020c4483325e01cefd7e67291fde8d9af9a6bf1eda2c143ba0c8c40757", "0.8.6--py310h6cc9453_0": "sha256:976b3413c95ea5210063fa57ff10440800f9080eb197b8c8aa70361f421d429b", "0.7.3--py39h2add14b_1": "sha256:bbc56e03fdb356d071a007d300790f4b1e9330111776a4b31d72afcd99c779f8", "0.6.3--py36hcac48a8_1": "sha256:6ff430cedf04030fdb893a0e3284f4ac962a8056f924a56400a11c7391146abe", "0.4.1--py38h8e3bb3f_1": "sha256:c109c4d5c30df735c15a0d45533795f105507af83297e09c03bfda3ee5c194c4", "0.3--py38h8162308_1": "sha256:e4d081044909db90bc3c3eacc0e734c415a07469783727bb3a3e09bf822e5550", "0.8.6--py310hdf79db3_1": "sha256:804005aa667f63e043587347687358588b6e81c7c221f8d60d6c526e1df1b849", "0.8.6--py312hc60241a_2": "sha256:b8aa75b92ee750d026500f2110dcc677fea5a22bd19645b24f54f7089a562cf3", "0.9.0--py312ha1f7cf2_0": "sha256:0ca6e3703e74c56b63035a9275c11ac874ef6613564dbd156722e3fcf302f411", "0.9.0--py312h5e9d817_1": "sha256:af5029caa1cfad1691ecfcf47fef7bcc55a7b184f24261bb2f6fcfefe7192d2a", "0.9.1--py39h475c85d_0": "sha256:f27ae92330dfd7a8c78389c1728f68f6af69ac08b968fe2358908698b4ce139a", "0.9.2--py39h475c85d_0": "sha256:7eb163deefdc7f4c7cc94a8d306abeb98398d14a6cf35184cd3e1fe123db50c9", "0.9.3--h077b44d_0": "sha256:e62028db238f34a1d26c1c8305d9e2f5f5f2608e3d4e452efbd468fb6b1b435e", "0.9.4--h077b44d_0": "sha256:20f70608a427b99bc3dde21d96f6fa4b02ef2d0b5b7fa66c3bdf820fb9f27ea6"}, "docker": "quay.io/biocontainers/odgi", "aliases": {"odgi": "/usr/local/bin/odgi", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/odgi.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/odgi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/odgi:0.9.3--h077b44d_0
+$ shpc install quay.io/biocontainers/odgi:0.9.4--h077b44d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/odgi/0.9.3--h077b44d_0
-$ module help quay.io/biocontainers/odgi/0.9.3--h077b44d_0
+$ module load quay.io/biocontainers/odgi/0.9.4--h077b44d_0
+$ module help quay.io/biocontainers/odgi/0.9.4--h077b44d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

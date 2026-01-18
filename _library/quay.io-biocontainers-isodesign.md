@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isodesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isodesign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isodesign/container.yaml"
-updated_at: "2026-01-17 03:51:51.559309"
+updated_at: "2026-01-18 04:14:45.934493"
 latest: "2.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isodesign"
 aliases:

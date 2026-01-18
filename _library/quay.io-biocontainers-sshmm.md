@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sshmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sshmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sshmm/container.yaml"
-updated_at: "2026-01-17 03:40:58.193694"
+updated_at: "2026-01-18 04:04:01.493905"
 latest: "1.0.7--py27he4fc25b_4"
 container_url: "https://biocontainers.pro/tools/sshmm"
 aliases:
