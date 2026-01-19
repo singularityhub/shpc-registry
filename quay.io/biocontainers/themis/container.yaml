@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/themis
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for themis
+latest:
+  0.1.0--py314h0cb7dc8_0: 
+    sha256:674ee540661f79dfd1da035581882cd1f00fc1380684a3c2081dea57e65a7da4
+tags:
+  0.1.0--py314h0cb7dc8_0: 
+    sha256:674ee540661f79dfd1da035581882cd1f00fc1380684a3c2081dea57e65a7da4
+docker: quay.io/biocontainers/themis
+aliases:
+  cmp: /usr/local/bin/cmp
+  diff: /usr/local/bin/diff
+  diff3: /usr/local/bin/diff3
+  find: /usr/local/bin/find
+  ganon: /usr/local/bin/ganon
+  ganon-build: /usr/local/bin/ganon-build
+  ganon-classify: /usr/local/bin/ganon-classify
+  ganon-get-seq-info.sh: /usr/local/bin/ganon-get-seq-info.sh
+  ganon-report: /usr/local/bin/ganon-report
+  genome_updater.sh: /usr/local/bin/genome_updater.sh
+  ggcat: /usr/local/bin/ggcat
+  locate: /usr/local/bin/locate
+  raptor: /usr/local/bin/raptor
+  raptor_avx2: /usr/local/bin/raptor_avx2
+  raptor_avx512: /usr/local/bin/raptor_avx512
+  raptor_none: /usr/local/bin/raptor_none
+  raptor_sse2: /usr/local/bin/raptor_sse2
+  raptor_sse4.2: /usr/local/bin/raptor_sse4.2
+  sdiff: /usr/local/bin/sdiff
+  themis: /usr/local/bin/themis
+  updatedb: /usr/local/bin/updatedb
+  xargs: /usr/local/bin/xargs
+  bc: /usr/local/bin/bc
+  dc: /usr/local/bin/dc
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  fastp: /usr/local/bin/fastp
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  tar: /usr/local/bin/tar
+  gawkbug: /usr/local/bin/gawkbug
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
