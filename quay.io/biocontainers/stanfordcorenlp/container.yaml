@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/stanfordcorenlp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for stanfordcorenlp
+latest:
+  3.9.1.1: 
+    sha256:3f0527949961bfec78b3c2c7910565cc4bef00fedd3827d98e9cb306f7a872f0
+tags:
+  3.9.1.1: 
+    sha256:3f0527949961bfec78b3c2c7910565cc4bef00fedd3827d98e9cb306f7a872f0
+docker: quay.io/biocontainers/stanfordcorenlp
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  normalizer: /usr/local/bin/normalizer
