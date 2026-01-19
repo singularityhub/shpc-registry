@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fa-lint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fa-lint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fa-lint/container.yaml"
-updated_at: "2026-01-19 04:06:51.371947"
+updated_at: "2026-01-19 05:01:34.061549"
 latest: "1.2.0--he881be0_0"
 container_url: "https://biocontainers.pro/tools/fa-lint"
 aliases:

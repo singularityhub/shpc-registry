@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/squirrel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squirrel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squirrel/container.yaml"
-updated_at: "2026-01-19 04:15:59.519732"
+updated_at: "2026-01-19 05:10:36.640786"
 latest: "1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/squirrel"
 aliases:
