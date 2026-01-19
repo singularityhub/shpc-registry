@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mdp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mdp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mdp/container.yaml"
-updated_at: "2026-01-18 04:03:14.359890"
+updated_at: "2026-01-19 04:08:39.630602"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mdp"
 aliases:

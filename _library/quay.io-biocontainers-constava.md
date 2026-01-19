@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/constava"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/constava/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/constava/container.yaml"
-updated_at: "2026-01-18 04:00:31.317345"
+updated_at: "2026-01-19 04:05:53.057480"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/constava"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gmgc-mapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmgc-mapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmgc-mapper/container.yaml"
-updated_at: "2026-01-18 03:56:23.408742"
+updated_at: "2026-01-19 04:01:29.832307"
 latest: "0.2.0--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/gmgc-mapper"
 aliases:

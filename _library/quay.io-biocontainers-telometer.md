@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telometer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telometer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telometer/container.yaml"
-updated_at: "2026-01-18 04:37:21.907372"
+updated_at: "2026-01-19 04:43:28.230723"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telometer"
 aliases:

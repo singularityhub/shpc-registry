@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cladeomatic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cladeomatic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cladeomatic/container.yaml"
-updated_at: "2026-01-18 04:16:10.787128"
+updated_at: "2026-01-19 04:21:52.242977"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cladeomatic"
 aliases:

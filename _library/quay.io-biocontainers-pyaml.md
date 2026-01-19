@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyaml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyaml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyaml/container.yaml"
-updated_at: "2026-01-18 04:32:13.293799"
+updated_at: "2026-01-19 04:38:12.496684"
 latest: "15.8.2--py36_0"
 container_url: "https://biocontainers.pro/tools/pyaml"
 aliases:

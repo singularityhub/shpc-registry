@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-docopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-docopt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-docopt/container.yaml"
-updated_at: "2026-01-18 04:02:06.411582"
+updated_at: "2026-01-19 04:07:30.771465"
 latest: "0.4.3.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-docopt"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnagilentdesign028282.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnagilentdesign028282.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnagilentdesign028282.db/container.yaml"
-updated_at: "2026-01-18 04:10:44.726977"
+updated_at: "2026-01-19 04:16:20.716638"
 latest: "3.2.3--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnagilentdesign028282.db"
 

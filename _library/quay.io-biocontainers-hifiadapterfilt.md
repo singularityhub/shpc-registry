@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hifiadapterfilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hifiadapterfilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hifiadapterfilt/container.yaml"
-updated_at: "2026-01-18 03:57:41.663497"
+updated_at: "2026-01-19 04:02:53.663947"
 latest: "3.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hifiadapterfilt"
 aliases:

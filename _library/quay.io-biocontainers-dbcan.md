@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dbcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dbcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dbcan/container.yaml"
-updated_at: "2026-01-18 04:17:43.835051"
-latest: "5.2.1--pyhdfd78af_0"
+updated_at: "2026-01-19 04:23:25.531233"
+latest: "5.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dbcan"
 aliases:
  - "hmmscan_parser.py"
@@ -46,8 +46,9 @@ versions:
  - "5.1.2--pyhdfd78af_0"
  - "5.1.2--pyhdfd78af_1"
  - "5.2.1--pyhdfd78af_0"
+ - "5.2.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for dbcan"
-config: {"url": "https://biocontainers.pro/tools/dbcan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dbcan", "latest": {"5.2.1--pyhdfd78af_0": "sha256:0c4e7e3d40a2ff371d43b09e78e680b5081e5b64b7d87e234471d6b32c02753d"}, "tags": {"3.0.7--pyh5e36f6f_0": "sha256:dab7762a6123f938b5eab617a97e19f110d27b742d016e8aae42fdaa75d16943", "4.0.0--pyh7cba7a3_0": "sha256:f8ad75de58337c9add8bb9137ba271ecc1fb20be1d1ea9bf29273edc1b50fcf5", "4.1.3--pyhdfd78af_0": "sha256:028df1186eb8afe657d756549ec7ecb305235ac571b60b8f7d069159430eec1d", "4.1.4--pyhdfd78af_0": "sha256:e63ca5e302c63b24245d4c5a6a8ff81a9d405255c7fac8f3dd8196fe5ff9c48b", "4.1.4--pyhdfd78af_1": "sha256:4cd2df96fcc7ed445d75c8860d0dc46f728fe934e4d619c259bb32d7538e6c44", "5.0.4--pyhdfd78af_0": "sha256:f559bc06b2d49f726fcb4d803dd6b1919e1a62f9f02e21ad069d303bc70e4bfe", "5.0.6--pyhdfd78af_0": "sha256:ebd6362449b61f7a7b9f83e157abade58b8b0ccf25eb4a1f9279ddaf41781ca3", "5.1.2--pyhdfd78af_0": "sha256:7fc07c0070d36904bee7aac9ac7c25d8b77ae366623a97bcfc0ae0eb4c6f1cf4", "5.1.2--pyhdfd78af_1": "sha256:d8cfd2187a88d1ee3ea2f23d4f2e1c619a6ace63a329a0482465cb67b9152457", "5.2.1--pyhdfd78af_0": "sha256:0c4e7e3d40a2ff371d43b09e78e680b5081e5b64b7d87e234471d6b32c02753d"}, "docker": "quay.io/biocontainers/dbcan", "aliases": {"hmmscan_parser.py": "/usr/local/bin/hmmscan_parser.py", "run_dbcan": "/usr/local/bin/run_dbcan", "diamond": "/usr/local/bin/diamond", "natsort": "/usr/local/bin/natsort", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw", "esl-translate": "/usr/local/bin/esl-translate"}}
+config: {"url": "https://biocontainers.pro/tools/dbcan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dbcan", "latest": {"5.2.4--pyhdfd78af_0": "sha256:49b79e1025c7f0bedf7c9de672feeb1d51d25e36755cd80f21e74be47f15efb9"}, "tags": {"3.0.7--pyh5e36f6f_0": "sha256:dab7762a6123f938b5eab617a97e19f110d27b742d016e8aae42fdaa75d16943", "4.0.0--pyh7cba7a3_0": "sha256:f8ad75de58337c9add8bb9137ba271ecc1fb20be1d1ea9bf29273edc1b50fcf5", "4.1.3--pyhdfd78af_0": "sha256:028df1186eb8afe657d756549ec7ecb305235ac571b60b8f7d069159430eec1d", "4.1.4--pyhdfd78af_0": "sha256:e63ca5e302c63b24245d4c5a6a8ff81a9d405255c7fac8f3dd8196fe5ff9c48b", "4.1.4--pyhdfd78af_1": "sha256:4cd2df96fcc7ed445d75c8860d0dc46f728fe934e4d619c259bb32d7538e6c44", "5.0.4--pyhdfd78af_0": "sha256:f559bc06b2d49f726fcb4d803dd6b1919e1a62f9f02e21ad069d303bc70e4bfe", "5.0.6--pyhdfd78af_0": "sha256:ebd6362449b61f7a7b9f83e157abade58b8b0ccf25eb4a1f9279ddaf41781ca3", "5.1.2--pyhdfd78af_0": "sha256:7fc07c0070d36904bee7aac9ac7c25d8b77ae366623a97bcfc0ae0eb4c6f1cf4", "5.1.2--pyhdfd78af_1": "sha256:d8cfd2187a88d1ee3ea2f23d4f2e1c619a6ace63a329a0482465cb67b9152457", "5.2.1--pyhdfd78af_0": "sha256:0c4e7e3d40a2ff371d43b09e78e680b5081e5b64b7d87e234471d6b32c02753d", "5.2.4--pyhdfd78af_0": "sha256:49b79e1025c7f0bedf7c9de672feeb1d51d25e36755cd80f21e74be47f15efb9"}, "docker": "quay.io/biocontainers/dbcan", "aliases": {"hmmscan_parser.py": "/usr/local/bin/hmmscan_parser.py", "run_dbcan": "/usr/local/bin/run_dbcan", "diamond": "/usr/local/bin/diamond", "natsort": "/usr/local/bin/natsort", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat", "esl-sfetch": "/usr/local/bin/esl-sfetch", "esl-shuffle": "/usr/local/bin/esl-shuffle", "esl-ssdraw": "/usr/local/bin/esl-ssdraw", "esl-translate": "/usr/local/bin/esl-translate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dbcan.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/dbcan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dbcan:5.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/dbcan:5.2.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dbcan/5.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/dbcan/5.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/dbcan/5.2.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/dbcan/5.2.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

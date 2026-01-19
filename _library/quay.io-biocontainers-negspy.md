@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/negspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/negspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/negspy/container.yaml"
-updated_at: "2026-01-18 04:20:43.443244"
+updated_at: "2026-01-19 04:26:24.396555"
 latest: "0.2.24--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/negspy"
 aliases:

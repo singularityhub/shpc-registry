@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-poplarcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-poplarcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-poplarcdf/container.yaml"
-updated_at: "2026-01-18 04:19:29.707093"
+updated_at: "2026-01-19 04:25:10.633701"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-poplarcdf"
 

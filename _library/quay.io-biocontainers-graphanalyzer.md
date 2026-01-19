@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphanalyzer/container.yaml"
-updated_at: "2026-01-18 04:00:30.746724"
+updated_at: "2026-01-19 04:05:52.444565"
 latest: "1.6.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/graphanalyzer"
 aliases:

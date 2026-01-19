@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rappdirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rappdirs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rappdirs/container.yaml"
-updated_at: "2026-01-18 04:17:44.971239"
+updated_at: "2026-01-19 04:23:26.685191"
 latest: "0.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rappdirs"
 aliases:
