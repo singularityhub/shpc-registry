@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-rldne
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-rldne
 latest:
-  1.0.0--r45hdfd78af_0: 
-    sha256:31d3aeb318036a1ee4048430fa414fafdaa25e9940643304e079c6d83bdb1076
+  1.0.0--r45hdfd78af_1: 
+    sha256:b56863c51ead724c76ad8252b7673175b847aaf3174d20c3ae1809e912c96405
 tags:
   1.0.0--r45hdfd78af_0: 
     sha256:31d3aeb318036a1ee4048430fa414fafdaa25e9940643304e079c6d83bdb1076
+  1.0.0--r45hdfd78af_1: 
+    sha256:b56863c51ead724c76ad8252b7673175b847aaf3174d20c3ae1809e912c96405
 docker: quay.io/biocontainers/r-rldne
 aliases:
   Ne2-1L: /usr/local/bin/Ne2-1L
