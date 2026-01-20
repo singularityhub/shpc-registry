@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaplex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaplex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaplex/container.yaml"
-updated_at: "2026-01-19 05:20:52.557660"
+updated_at: "2026-01-20 04:19:08.142040"
 latest: "1.1.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/metaplex"
 aliases:

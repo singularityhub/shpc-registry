@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/optilcms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/optilcms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/optilcms/container.yaml"
-updated_at: "2026-01-19 05:21:05.281135"
+updated_at: "2026-01-20 04:19:20.857113"
 latest: "1.1.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/optilcms"
 aliases:

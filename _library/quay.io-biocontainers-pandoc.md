@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pandoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandoc/container.yaml"
-updated_at: "2026-01-19 05:36:08.039037"
+updated_at: "2026-01-20 04:34:08.090049"
 latest: "2.1.3--0"
 container_url: "https://biocontainers.pro/tools/pandoc"
 aliases:

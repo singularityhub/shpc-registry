@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bellavista"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bellavista/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bellavista/container.yaml"
-updated_at: "2026-01-19 05:33:45.630775"
+updated_at: "2026-01-20 04:31:47.606142"
 latest: "0.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bellavista"
 aliases:

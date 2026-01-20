@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathtools/container.yaml"
-updated_at: "2026-01-19 04:55:44.437772"
+updated_at: "2026-01-20 03:54:21.923877"
 latest: "0.1.2--py35_0"
 container_url: "https://biocontainers.pro/tools/pathtools"
 aliases:

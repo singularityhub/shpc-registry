@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-indac.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-indac.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-indac.db/container.yaml"
-updated_at: "2026-01-19 04:52:51.021944"
+updated_at: "2026-01-20 03:51:29.657534"
 latest: "3.2.3--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-indac.db"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/umi-transfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umi-transfer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umi-transfer/container.yaml"
-updated_at: "2026-01-19 04:59:33.102309"
+updated_at: "2026-01-20 03:58:06.048537"
 latest: "1.6.0--hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/umi-transfer"
 aliases:

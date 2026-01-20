@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyfastg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastg/container.yaml"
-updated_at: "2026-01-19 05:08:30.015351"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-01-20 04:06:58.490827"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyfastg"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,9 @@ aliases:
  - "python3.1"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pyfastg"
-config: {"url": "https://biocontainers.pro/tools/pyfastg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyfastg", "latest": {"0.1.0--pyhdfd78af_0": "sha256:80e805cb94947aaa143d3977d394deff18f7eb0f7e20e933e6bf4e3dade6561d"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:80e805cb94947aaa143d3977d394deff18f7eb0f7e20e933e6bf4e3dade6561d"}, "docker": "quay.io/biocontainers/pyfastg", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/pyfastg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyfastg", "latest": {"0.2.0--pyhdfd78af_0": "sha256:1bb719e930dc6af6e20eba736c9872148cfd058d8d7fa9d12cbf9260b570ca4d"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:80e805cb94947aaa143d3977d394deff18f7eb0f7e20e933e6bf4e3dade6561d", "0.2.0--pyhdfd78af_0": "sha256:1bb719e930dc6af6e20eba736c9872148cfd058d8d7fa9d12cbf9260b570ca4d"}, "docker": "quay.io/biocontainers/pyfastg", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfastg.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pyfastg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyfastg:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyfastg:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyfastg/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyfastg/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyfastg/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyfastg/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

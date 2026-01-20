@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ascent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ascent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/ascent/container.yaml"
-updated_at: "2026-01-19 04:49:07.811284"
+updated_at: "2026-01-20 03:47:52.343551"
 latest: "0.7.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ascent"
 

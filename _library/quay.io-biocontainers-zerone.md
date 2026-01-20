@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zerone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zerone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zerone/container.yaml"
-updated_at: "2026-01-19 05:30:51.854131"
+updated_at: "2026-01-20 04:28:58.647047"
 latest: "1.0--h577a1d6_9"
 container_url: "https://biocontainers.pro/tools/zerone"
 aliases:

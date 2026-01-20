@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crb-blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crb-blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crb-blast/container.yaml"
-updated_at: "2026-01-19 05:04:15.534695"
+updated_at: "2026-01-20 04:02:46.235035"
 latest: "0.6.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crb-blast"
 aliases:

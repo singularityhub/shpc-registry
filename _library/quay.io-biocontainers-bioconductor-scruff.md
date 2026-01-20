@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scruff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scruff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scruff/container.yaml"
-updated_at: "2026-01-19 04:54:46.014013"
+updated_at: "2026-01-20 03:53:21.768340"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scruff"
 aliases:

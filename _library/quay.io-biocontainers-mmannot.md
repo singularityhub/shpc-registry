@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmannot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmannot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmannot/container.yaml"
-updated_at: "2026-01-19 05:04:44.716954"
+updated_at: "2026-01-20 04:03:16.896669"
 latest: "1.1--h077b44d_3"
 container_url: "https://biocontainers.pro/tools/mmannot"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biosniff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biosniff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biosniff/container.yaml"
-updated_at: "2026-01-19 05:34:26.336149"
+updated_at: "2026-01-20 04:32:28.013172"
 latest: "1.0.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/biosniff"
 aliases:

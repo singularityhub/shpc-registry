@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pretextmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextmap/container.yaml"
-updated_at: "2026-01-19 05:18:38.954096"
+updated_at: "2026-01-20 04:16:55.569973"
 latest: "0.1.9--h9948957_4"
 container_url: "https://biocontainers.pro/tools/pretextmap"
 aliases:

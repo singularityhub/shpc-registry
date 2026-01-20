@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gather"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gather/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gather/container.yaml"
-updated_at: "2026-01-19 05:25:22.966349"
-latest: "1.0.1--pyh7e72e81_0"
+updated_at: "2026-01-20 04:23:34.907734"
+latest: "1.0.1--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/gather"
 aliases:
  - "10x-asm"
@@ -41,8 +41,9 @@ versions:
  - "0.1.0--pyh7e72e81_0"
  - "1.0.1--pyh7e72e81_0"
  - "0.1.1--pyh7e72e81_0"
+ - "1.0.1--pyh7e72e81_1"
 description: "singularity registry hpc automated addition for gather"
-config: {"url": "https://biocontainers.pro/tools/gather", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gather", "latest": {"1.0.1--pyh7e72e81_0": "sha256:4c008e497a22126faff5f5848c27b57bad0dc81017886ee5ec1c579e2b50d947"}, "tags": {"0.1.0--pyh7e72e81_0": "sha256:942a1f99f0848d84d7520776686ab15f82d6f12fa97f51f622e1c1016c75a347", "1.0.1--pyh7e72e81_0": "sha256:4c008e497a22126faff5f5848c27b57bad0dc81017886ee5ec1c579e2b50d947", "0.1.1--pyh7e72e81_0": "sha256:1eebacc29477068ffd18053d8715526461ba4e11bee3774a70515089c3ab4715"}, "docker": "quay.io/biocontainers/gather", "aliases": {"10x-asm": "/usr/local/bin/10x-asm", "bcalm": "/usr/local/bin/bcalm", "postproc": "/usr/local/bin/postproc", "sc-asm": "/usr/local/bin/sc-asm", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "pygmentize": "/usr/local/bin/pygmentize", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "h5cc": "/usr/local/bin/h5cc", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress"}}
+config: {"url": "https://biocontainers.pro/tools/gather", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gather", "latest": {"1.0.1--pyh7e72e81_1": "sha256:331187494311bfc72c3a0c3abd740e4b0df0654879f95ce03546b255c2beb612"}, "tags": {"0.1.0--pyh7e72e81_0": "sha256:942a1f99f0848d84d7520776686ab15f82d6f12fa97f51f622e1c1016c75a347", "1.0.1--pyh7e72e81_0": "sha256:4c008e497a22126faff5f5848c27b57bad0dc81017886ee5ec1c579e2b50d947", "0.1.1--pyh7e72e81_0": "sha256:1eebacc29477068ffd18053d8715526461ba4e11bee3774a70515089c3ab4715", "1.0.1--pyh7e72e81_1": "sha256:331187494311bfc72c3a0c3abd740e4b0df0654879f95ce03546b255c2beb612"}, "docker": "quay.io/biocontainers/gather", "aliases": {"10x-asm": "/usr/local/bin/10x-asm", "bcalm": "/usr/local/bin/bcalm", "postproc": "/usr/local/bin/postproc", "sc-asm": "/usr/local/bin/sc-asm", "markdown-it": "/usr/local/bin/markdown-it", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "pygmentize": "/usr/local/bin/pygmentize", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "h5cc": "/usr/local/bin/h5cc", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gather.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/gather
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gather:1.0.1--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/gather:1.0.1--pyh7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gather/1.0.1--pyh7e72e81_0
-$ module help quay.io/biocontainers/gather/1.0.1--pyh7e72e81_0
+$ module load quay.io/biocontainers/gather/1.0.1--pyh7e72e81_1
+$ module help quay.io/biocontainers/gather/1.0.1--pyh7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

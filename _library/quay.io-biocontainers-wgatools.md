@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wgatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgatools/container.yaml"
-updated_at: "2026-01-19 05:00:43.293345"
+updated_at: "2026-01-20 03:59:15.328528"
 latest: "1.0.0--hf6a8760_0"
 container_url: "https://biocontainers.pro/tools/wgatools"
 aliases:

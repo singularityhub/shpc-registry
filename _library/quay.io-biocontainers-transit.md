@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/transit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transit/container.yaml"
-updated_at: "2026-01-19 05:30:05.969044"
-latest: "3.3.19--pyhdfd78af_0"
+updated_at: "2026-01-20 04:28:13.806452"
+latest: "3.3.20--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/transit"
 aliases:
  - "tpp"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "3.2.3--pyhdfd78af_0"
  - "3.3.19--pyhdfd78af_0"
+ - "3.3.20--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for transit"
-config: {"url": "https://biocontainers.pro/tools/transit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transit", "latest": {"3.3.19--pyhdfd78af_0": "sha256:99a8d25d4677ae97825a25214db7794842a657888f55598be81471c0320ee36b"}, "tags": {"3.2.3--pyhdfd78af_0": "sha256:423dd80c1ec97b4aa09a4f9c50bf7e038f6ad069e5a64fd51971f55168f6ee0a", "3.3.19--pyhdfd78af_0": "sha256:99a8d25d4677ae97825a25214db7794842a657888f55598be81471c0320ee36b"}, "docker": "quay.io/biocontainers/transit", "aliases": {"tpp": "/usr/local/bin/tpp", "transit": "/usr/local/bin/transit", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/transit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transit", "latest": {"3.3.20--pyhdfd78af_0": "sha256:493b5d7a649d53ec1ca9f3c3c811410cb9954e25ab5cf09de5c5a3e18fa9ad64"}, "tags": {"3.2.3--pyhdfd78af_0": "sha256:423dd80c1ec97b4aa09a4f9c50bf7e038f6ad069e5a64fd51971f55168f6ee0a", "3.3.19--pyhdfd78af_0": "sha256:99a8d25d4677ae97825a25214db7794842a657888f55598be81471c0320ee36b", "3.3.20--pyhdfd78af_0": "sha256:493b5d7a649d53ec1ca9f3c3c811410cb9954e25ab5cf09de5c5a3e18fa9ad64"}, "docker": "quay.io/biocontainers/transit", "aliases": {"tpp": "/usr/local/bin/tpp", "transit": "/usr/local/bin/transit", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transit.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/transit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transit:3.3.19--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/transit:3.3.20--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transit/3.3.19--pyhdfd78af_0
-$ module help quay.io/biocontainers/transit/3.3.19--pyhdfd78af_0
+$ module load quay.io/biocontainers/transit/3.3.20--pyhdfd78af_0
+$ module help quay.io/biocontainers/transit/3.3.20--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

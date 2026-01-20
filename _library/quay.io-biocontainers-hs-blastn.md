@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hs-blastn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hs-blastn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hs-blastn/container.yaml"
-updated_at: "2026-01-19 05:30:35.680909"
+updated_at: "2026-01-20 04:28:42.837647"
 latest: "0.0.5--h9948957_6"
 container_url: "https://biocontainers.pro/tools/hs-blastn"
 aliases:

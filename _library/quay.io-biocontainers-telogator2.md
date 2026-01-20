@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telogator2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telogator2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telogator2/container.yaml"
-updated_at: "2026-01-19 05:21:36.061974"
+updated_at: "2026-01-20 04:19:51.675972"
 latest: "2.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telogator2"
 aliases:

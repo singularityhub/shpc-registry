@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-exomecopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-exomecopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-exomecopy/container.yaml"
-updated_at: "2026-01-19 05:23:23.892165"
+updated_at: "2026-01-20 04:21:37.867601"
 latest: "1.48.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-exomecopy"
 

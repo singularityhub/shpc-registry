@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanosim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanosim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanosim/container.yaml"
-updated_at: "2026-01-19 05:24:41.611292"
+updated_at: "2026-01-20 04:22:54.069678"
 latest: "3.2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanosim"
 
