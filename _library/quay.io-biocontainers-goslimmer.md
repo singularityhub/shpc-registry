@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goslimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goslimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goslimmer/container.yaml"
-updated_at: "2026-01-20 04:15:09.410038"
+updated_at: "2026-01-21 04:15:07.241746"
 latest: "1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/goslimmer"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnv-vcf2json"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnv-vcf2json/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnv-vcf2json/container.yaml"
-updated_at: "2026-01-20 04:15:52.038752"
+updated_at: "2026-01-21 04:15:51.053883"
 latest: "2.0.0"
 container_url: "https://biocontainers.pro/tools/cnv-vcf2json"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rifi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rifi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rifi/container.yaml"
-updated_at: "2026-01-20 04:39:30.509906"
+updated_at: "2026-01-21 04:40:07.452367"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rifi"
 aliases:

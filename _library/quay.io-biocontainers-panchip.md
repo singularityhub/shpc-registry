@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panchip/container.yaml"
-updated_at: "2026-01-20 03:56:52.939605"
+updated_at: "2026-01-21 03:56:32.874997"
 latest: "3.0.14--py312h7e72e81_0"
 container_url: "https://biocontainers.pro/tools/panchip"
 aliases:

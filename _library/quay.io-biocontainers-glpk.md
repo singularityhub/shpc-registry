@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glpk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glpk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glpk/container.yaml"
-updated_at: "2026-01-20 04:19:15.481187"
+updated_at: "2026-01-21 04:19:19.560561"
 latest: "4.57--0"
 container_url: "https://biocontainers.pro/tools/glpk"
 aliases:

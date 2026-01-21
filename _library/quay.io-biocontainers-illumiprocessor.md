@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/illumiprocessor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/illumiprocessor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/illumiprocessor/container.yaml"
-updated_at: "2026-01-20 04:09:49.829658"
+updated_at: "2026-01-21 04:09:43.671702"
 latest: "2.10--py_0"
 container_url: "https://biocontainers.pro/tools/illumiprocessor"
 aliases:

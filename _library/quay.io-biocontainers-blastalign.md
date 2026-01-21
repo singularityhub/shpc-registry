@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blastalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blastalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blastalign/container.yaml"
-updated_at: "2026-01-20 04:11:15.855838"
+updated_at: "2026-01-21 04:11:13.398374"
 latest: "1.4--h031d066_8"
 container_url: "https://biocontainers.pro/tools/blastalign"
 aliases:

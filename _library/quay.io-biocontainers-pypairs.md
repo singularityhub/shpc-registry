@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypairs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypairs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypairs/container.yaml"
-updated_at: "2026-01-20 03:50:25.823772"
+updated_at: "2026-01-21 03:50:01.210353"
 latest: "3.2.3--py_0"
 container_url: "https://biocontainers.pro/tools/pypairs"
 aliases:

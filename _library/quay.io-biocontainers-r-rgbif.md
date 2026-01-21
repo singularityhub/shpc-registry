@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rgbif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rgbif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rgbif/container.yaml"
-updated_at: "2026-01-20 03:49:44.778021"
+updated_at: "2026-01-21 03:49:19.107895"
 latest: "1.3.0--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-rgbif"
 aliases:

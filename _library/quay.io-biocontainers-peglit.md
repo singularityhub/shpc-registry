@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peglit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peglit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peglit/container.yaml"
-updated_at: "2026-01-20 04:03:43.449254"
+updated_at: "2026-01-21 04:03:27.088775"
 latest: "1.1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/peglit"
 aliases:

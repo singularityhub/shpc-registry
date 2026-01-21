@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pomoxis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pomoxis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pomoxis/container.yaml"
-updated_at: "2026-01-20 04:37:13.071833"
+updated_at: "2026-01-21 04:37:45.081628"
 latest: "0.3.16--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pomoxis"
 aliases:

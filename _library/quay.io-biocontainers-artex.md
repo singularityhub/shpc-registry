@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/artex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/artex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/artex/container.yaml"
-updated_at: "2026-01-20 04:16:01.349902"
+updated_at: "2026-01-21 04:16:00.597622"
 latest: "0.2.0--py39h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/artex"
 aliases:

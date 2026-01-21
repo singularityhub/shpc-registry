@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mogene.1.0.st.v1frmavecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mogene.1.0.st.v1frmavecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mogene.1.0.st.v1frmavecs/container.yaml"
-updated_at: "2026-01-20 04:20:30.985326"
+updated_at: "2026-01-21 04:20:37.159263"
 latest: "1.1.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mogene.1.0.st.v1frmavecs"
 

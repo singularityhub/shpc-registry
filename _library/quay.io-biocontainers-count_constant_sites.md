@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/count_constant_sites"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/count_constant_sites/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/count_constant_sites/container.yaml"
-updated_at: "2026-01-20 03:52:03.635502"
+updated_at: "2026-01-21 03:51:42.873710"
 latest: "0.1.1--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/count_constant_sites"
 aliases:

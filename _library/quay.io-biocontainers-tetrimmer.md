@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tetrimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetrimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tetrimmer/container.yaml"
-updated_at: "2026-01-20 04:16:07.295598"
+updated_at: "2026-01-21 04:16:06.690306"
 latest: "1.6.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tetrimmer"
 aliases:

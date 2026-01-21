@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/json_collect_data_source"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/json_collect_data_source/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/json_collect_data_source/container.yaml"
-updated_at: "2026-01-20 04:24:00.110078"
+updated_at: "2026-01-21 04:24:11.875803"
 latest: "1.0.1--2"
 container_url: "https://biocontainers.pro/tools/json_collect_data_source"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stanfordcorenlp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stanfordcorenlp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stanfordcorenlp/container.yaml"
-updated_at: "2026-01-20 04:28:04.426159"
+updated_at: "2026-01-21 04:28:20.638440"
 latest: "3.9.1.1"
 container_url: "https://biocontainers.pro/tools/stanfordcorenlp"
 aliases:
