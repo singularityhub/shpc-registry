@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/mothur
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mothur
 latest:
-  1.48.3--h11ba690_0: 
-    sha256:e18bbb3a2db602e1114742d2b31ccd60414c242270e6b462d47395e9d1f49ff5
+  1.48.5--h11ba690_0: 
+    sha256:446faf92656e4097ccbf6d71f9965b13cd8361f84f043b81d90eff571baf226c
 tags:
   1.48.0--h9f4bb92_2: 
     sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c
   1.48.3--h11ba690_0: 
     sha256:e18bbb3a2db602e1114742d2b31ccd60414c242270e6b462d47395e9d1f49ff5
+  1.48.5--h11ba690_0: 
+    sha256:446faf92656e4097ccbf6d71f9965b13cd8361f84f043b81d90eff571baf226c
 docker: quay.io/biocontainers/mothur
 aliases:
   abi-dump.2.9.6: /usr/local/bin/abi-dump.2.9.6
