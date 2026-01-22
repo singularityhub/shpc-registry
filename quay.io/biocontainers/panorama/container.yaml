@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/panorama
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for panorama
 latest:
-  0.5.0--pyhdfd78af_0: 
-    sha256:3b08a1ff06973876cc7719bab7379c66e4c85d74e245c16b75260895b1bdf255
+  1.0.0--pyhdfd78af_0: 
+    sha256:663e4ba06b39c171228088cf04486213d2e4f3eb9df0f31f897a84a5b679d230
 tags:
   0.5.0--pyhdfd78af_0: 
     sha256:3b08a1ff06973876cc7719bab7379c66e4c85d74e245c16b75260895b1bdf255
+  1.0.0--pyhdfd78af_0: 
+    sha256:663e4ba06b39c171228088cf04486213d2e4f3eb9df0f31f897a84a5b679d230
 docker: quay.io/biocontainers/panorama
 aliases:
   geckodriver: /usr/local/bin/geckodriver

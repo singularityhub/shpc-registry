@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bamdam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bamdam
 latest:
-  0.4.2--pyhdfd78af_0: 
-    sha256:5397f2457043d091c226d3422a42f61b94427f24bd5bf7066841dc5eb853cf10
+  0.4.3--pyhdfd78af_0: 
+    sha256:f48adf4a00d585f82bae3fa329f0425e3078be81183bf920d2cf6fde946d1434
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:d430cd7bb0956e49731ba4a20ddff5cc2d59d8dc7233afde461ae34fb3e3616b
@@ -13,6 +13,8 @@ tags:
     sha256:1ee389622060a9f4933d83fbf5668a855bb01d7033035d299456caf01f7e2b51
   0.4.2--pyhdfd78af_0: 
     sha256:5397f2457043d091c226d3422a42f61b94427f24bd5bf7066841dc5eb853cf10
+  0.4.3--pyhdfd78af_0: 
+    sha256:f48adf4a00d585f82bae3fa329f0425e3078be81183bf920d2cf6fde946d1434
 docker: quay.io/biocontainers/bamdam
 aliases:
   bamdam: /usr/local/bin/bamdam
