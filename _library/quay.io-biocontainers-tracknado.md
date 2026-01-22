@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tracknado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tracknado/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tracknado/container.yaml"
-updated_at: "2026-01-21 04:06:24.819687"
-latest: "0.2.4--pyhdfd78af_0"
+updated_at: "2026-01-22 04:10:27.294770"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tracknado"
 aliases:
  - "cookiecutter"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "0.2.3--pyhdfd78af_0"
  - "0.2.4--pyhdfd78af_0"
+ - "0.3.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tracknado"
-config: {"url": "https://biocontainers.pro/tools/tracknado", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tracknado", "latest": {"0.2.4--pyhdfd78af_0": "sha256:6739e3868471ac857dbd432dcc9e2497b5af2c0e77bf276d3f5ab1764a942233"}, "tags": {"0.2.3--pyhdfd78af_0": "sha256:28cc0622966ce1a73c58e3f1521aed6bd328a6fe9b8f654ea0003e5dd44d886f", "0.2.4--pyhdfd78af_0": "sha256:6739e3868471ac857dbd432dcc9e2497b5af2c0e77bf276d3f5ab1764a942233"}, "docker": "quay.io/biocontainers/tracknado", "aliases": {"cookiecutter": "/usr/local/bin/cookiecutter", "slugify": "/usr/local/bin/slugify", "tracknado": "/usr/local/bin/tracknado", "markdown-it": "/usr/local/bin/markdown-it", "docutils": "/usr/local/bin/docutils", "f2py3.11": "/usr/local/bin/f2py3.11", "rst2html4.py": "/usr/local/bin/rst2html4.py", "tjbench": "/usr/local/bin/tjbench", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py", "rstpep2html.py": "/usr/local/bin/rstpep2html.py", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "chardetect": "/usr/local/bin/chardetect", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
+config: {"url": "https://biocontainers.pro/tools/tracknado", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tracknado", "latest": {"0.3.1--pyhdfd78af_0": "sha256:044ca5486f073e0db9adb79eb75e0b80819e7258800693e14cde75c58a3ae622"}, "tags": {"0.2.3--pyhdfd78af_0": "sha256:28cc0622966ce1a73c58e3f1521aed6bd328a6fe9b8f654ea0003e5dd44d886f", "0.2.4--pyhdfd78af_0": "sha256:6739e3868471ac857dbd432dcc9e2497b5af2c0e77bf276d3f5ab1764a942233", "0.3.1--pyhdfd78af_0": "sha256:044ca5486f073e0db9adb79eb75e0b80819e7258800693e14cde75c58a3ae622"}, "docker": "quay.io/biocontainers/tracknado", "aliases": {"cookiecutter": "/usr/local/bin/cookiecutter", "slugify": "/usr/local/bin/slugify", "tracknado": "/usr/local/bin/tracknado", "markdown-it": "/usr/local/bin/markdown-it", "docutils": "/usr/local/bin/docutils", "f2py3.11": "/usr/local/bin/f2py3.11", "rst2html4.py": "/usr/local/bin/rst2html4.py", "tjbench": "/usr/local/bin/tjbench", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py", "rst2xetex.py": "/usr/local/bin/rst2xetex.py", "rst2xml.py": "/usr/local/bin/rst2xml.py", "rstpep2html.py": "/usr/local/bin/rstpep2html.py", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "chardetect": "/usr/local/bin/chardetect", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tracknado.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/tracknado
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tracknado:0.2.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tracknado:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tracknado/0.2.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/tracknado/0.2.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/tracknado/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/tracknado/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mothur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mothur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mothur/container.yaml"
-updated_at: "2026-01-21 03:51:52.165398"
-latest: "1.48.3--h11ba690_0"
+updated_at: "2026-01-22 03:55:59.824543"
+latest: "1.48.5--h11ba690_0"
 container_url: "https://biocontainers.pro/tools/mothur"
 aliases:
  - "abi-dump.2.9.6"
@@ -53,8 +53,9 @@ aliases:
 versions:
  - "1.48.0--h9f4bb92_2"
  - "1.48.3--h11ba690_0"
+ - "1.48.5--h11ba690_0"
 description: "shpc-registry automated BioContainers addition for mothur"
-config: {"url": "https://biocontainers.pro/tools/mothur", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mothur", "latest": {"1.48.3--h11ba690_0": "sha256:e18bbb3a2db602e1114742d2b31ccd60414c242270e6b462d47395e9d1f49ff5"}, "tags": {"1.48.0--h9f4bb92_2": "sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c", "1.48.3--h11ba690_0": "sha256:e18bbb3a2db602e1114742d2b31ccd60414c242270e6b462d47395e9d1f49ff5"}, "docker": "quay.io/biocontainers/mothur", "aliases": {"abi-dump.2.9.6": "/usr/local/bin/abi-dump.2.9.6", "align-info.2.9.6": "/usr/local/bin/align-info.2.9.6", "bam-load.2.9.6": "/usr/local/bin/bam-load.2.9.6", "cache-mgr.2.9.6": "/usr/local/bin/cache-mgr.2.9.6", "cg-load.2.9.6": "/usr/local/bin/cg-load.2.9.6", "fasterq-dump.2.9.6": "/usr/local/bin/fasterq-dump.2.9.6", "fastq-dump.2.9.6": "/usr/local/bin/fastq-dump.2.9.6", "illumina-dump.2.9.6": "/usr/local/bin/illumina-dump.2.9.6", "kar.2.9.6": "/usr/local/bin/kar.2.9.6", "kdbmeta.2.9.6": "/usr/local/bin/kdbmeta.2.9.6", "kget.2.9.6": "/usr/local/bin/kget.2.9.6", "latf-load.2.9.6": "/usr/local/bin/latf-load.2.9.6", "mothur": "/usr/local/bin/mothur", "prefetch.2.9.6": "/usr/local/bin/prefetch.2.9.6", "rcexplain.2.9.6": "/usr/local/bin/rcexplain.2.9.6", "sam-dump.2.9.6": "/usr/local/bin/sam-dump.2.9.6", "sff-dump.2.9.6": "/usr/local/bin/sff-dump.2.9.6", "sra-pileup.2.9.6": "/usr/local/bin/sra-pileup.2.9.6", "sra-sort.2.9.6": "/usr/local/bin/sra-sort.2.9.6", "sra-stat.2.9.6": "/usr/local/bin/sra-stat.2.9.6", "srapath.2.9.6": "/usr/local/bin/srapath.2.9.6", "test-sra.2.9.6": "/usr/local/bin/test-sra.2.9.6", "uchime": "/usr/local/bin/uchime", "vdb-config.2.9.6": "/usr/local/bin/vdb-config.2.9.6", "vdb-copy.2.9.6": "/usr/local/bin/vdb-copy.2.9.6", "vdb-decrypt.2.9.6": "/usr/local/bin/vdb-decrypt.2.9.6", "vdb-dump.2.9.6": "/usr/local/bin/vdb-dump.2.9.6", "vdb-encrypt.2.9.6": "/usr/local/bin/vdb-encrypt.2.9.6", "vdb-lock.2.9.6": "/usr/local/bin/vdb-lock.2.9.6", "vdb-passwd.2.9.6": "/usr/local/bin/vdb-passwd.2.9.6", "vdb-unlock.2.9.6": "/usr/local/bin/vdb-unlock.2.9.6", "vdb-validate.2.9.6": "/usr/local/bin/vdb-validate.2.9.6", "abi-dump.2": "/usr/local/bin/abi-dump.2", "align-info.2": "/usr/local/bin/align-info.2", "bam-load.2": "/usr/local/bin/bam-load.2", "cache-mgr.2": "/usr/local/bin/cache-mgr.2", "cg-load.2": "/usr/local/bin/cg-load.2", "fasterq-dump.2": "/usr/local/bin/fasterq-dump.2", "fastq-dump.2": "/usr/local/bin/fastq-dump.2", "illumina-dump.2": "/usr/local/bin/illumina-dump.2", "kar.2": "/usr/local/bin/kar.2", "kdbmeta.2": "/usr/local/bin/kdbmeta.2"}}
+config: {"url": "https://biocontainers.pro/tools/mothur", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mothur", "latest": {"1.48.5--h11ba690_0": "sha256:446faf92656e4097ccbf6d71f9965b13cd8361f84f043b81d90eff571baf226c"}, "tags": {"1.48.0--h9f4bb92_2": "sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c", "1.48.3--h11ba690_0": "sha256:e18bbb3a2db602e1114742d2b31ccd60414c242270e6b462d47395e9d1f49ff5", "1.48.5--h11ba690_0": "sha256:446faf92656e4097ccbf6d71f9965b13cd8361f84f043b81d90eff571baf226c"}, "docker": "quay.io/biocontainers/mothur", "aliases": {"abi-dump.2.9.6": "/usr/local/bin/abi-dump.2.9.6", "align-info.2.9.6": "/usr/local/bin/align-info.2.9.6", "bam-load.2.9.6": "/usr/local/bin/bam-load.2.9.6", "cache-mgr.2.9.6": "/usr/local/bin/cache-mgr.2.9.6", "cg-load.2.9.6": "/usr/local/bin/cg-load.2.9.6", "fasterq-dump.2.9.6": "/usr/local/bin/fasterq-dump.2.9.6", "fastq-dump.2.9.6": "/usr/local/bin/fastq-dump.2.9.6", "illumina-dump.2.9.6": "/usr/local/bin/illumina-dump.2.9.6", "kar.2.9.6": "/usr/local/bin/kar.2.9.6", "kdbmeta.2.9.6": "/usr/local/bin/kdbmeta.2.9.6", "kget.2.9.6": "/usr/local/bin/kget.2.9.6", "latf-load.2.9.6": "/usr/local/bin/latf-load.2.9.6", "mothur": "/usr/local/bin/mothur", "prefetch.2.9.6": "/usr/local/bin/prefetch.2.9.6", "rcexplain.2.9.6": "/usr/local/bin/rcexplain.2.9.6", "sam-dump.2.9.6": "/usr/local/bin/sam-dump.2.9.6", "sff-dump.2.9.6": "/usr/local/bin/sff-dump.2.9.6", "sra-pileup.2.9.6": "/usr/local/bin/sra-pileup.2.9.6", "sra-sort.2.9.6": "/usr/local/bin/sra-sort.2.9.6", "sra-stat.2.9.6": "/usr/local/bin/sra-stat.2.9.6", "srapath.2.9.6": "/usr/local/bin/srapath.2.9.6", "test-sra.2.9.6": "/usr/local/bin/test-sra.2.9.6", "uchime": "/usr/local/bin/uchime", "vdb-config.2.9.6": "/usr/local/bin/vdb-config.2.9.6", "vdb-copy.2.9.6": "/usr/local/bin/vdb-copy.2.9.6", "vdb-decrypt.2.9.6": "/usr/local/bin/vdb-decrypt.2.9.6", "vdb-dump.2.9.6": "/usr/local/bin/vdb-dump.2.9.6", "vdb-encrypt.2.9.6": "/usr/local/bin/vdb-encrypt.2.9.6", "vdb-lock.2.9.6": "/usr/local/bin/vdb-lock.2.9.6", "vdb-passwd.2.9.6": "/usr/local/bin/vdb-passwd.2.9.6", "vdb-unlock.2.9.6": "/usr/local/bin/vdb-unlock.2.9.6", "vdb-validate.2.9.6": "/usr/local/bin/vdb-validate.2.9.6", "abi-dump.2": "/usr/local/bin/abi-dump.2", "align-info.2": "/usr/local/bin/align-info.2", "bam-load.2": "/usr/local/bin/bam-load.2", "cache-mgr.2": "/usr/local/bin/cache-mgr.2", "cg-load.2": "/usr/local/bin/cg-load.2", "fasterq-dump.2": "/usr/local/bin/fasterq-dump.2", "fastq-dump.2": "/usr/local/bin/fastq-dump.2", "illumina-dump.2": "/usr/local/bin/illumina-dump.2", "kar.2": "/usr/local/bin/kar.2", "kdbmeta.2": "/usr/local/bin/kdbmeta.2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mothur.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/mothur
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mothur:1.48.3--h11ba690_0
+$ shpc install quay.io/biocontainers/mothur:1.48.5--h11ba690_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mothur/1.48.3--h11ba690_0
-$ module help quay.io/biocontainers/mothur/1.48.3--h11ba690_0
+$ module load quay.io/biocontainers/mothur/1.48.5--h11ba690_0
+$ module help quay.io/biocontainers/mothur/1.48.5--h11ba690_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
