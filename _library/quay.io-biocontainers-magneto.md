@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/magneto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magneto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magneto/container.yaml"
-updated_at: "2026-01-22 04:23:34.250904"
-latest: "1.5--pyhdfd78af_0"
+updated_at: "2026-01-23 04:18:50.323674"
+latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magneto"
 aliases:
  - "distro"
@@ -42,8 +42,9 @@ versions:
  - "1.3--pyhdfd78af_1"
  - "1.4--pyhdfd78af_0"
  - "1.5--pyhdfd78af_0"
+ - "1.5.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for magneto"
-config: {"url": "https://biocontainers.pro/tools/magneto", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for magneto", "latest": {"1.5--pyhdfd78af_0": "sha256:1b4591c41a0d788f586f8c7bf5ba5e5da13090509f9d681aa755e438d560c382"}, "tags": {"1.3--pyhdfd78af_0": "sha256:8855a35cf491223ccb3fcf8fbc45f0f3b5e816c6c0fc0a7fda64e98002e31fdc", "1.3--pyhdfd78af_1": "sha256:0da8e02077afde76b410cc209f4f5bcf4848a17c920435868b3243b9a3f95dee", "1.4--pyhdfd78af_0": "sha256:009fa2a64943b735e33264933d6b58fa9dc5e20ac2a130a0c346789faf3deece", "1.5--pyhdfd78af_0": "sha256:1b4591c41a0d788f586f8c7bf5ba5e5da13090509f9d681aa755e438d560c382"}, "docker": "quay.io/biocontainers/magneto", "aliases": {"distro": "/usr/local/bin/distro", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "magneto": "/usr/local/bin/magneto", "archspec": "/usr/local/bin/archspec", "bsdunzip": "/usr/local/bin/bsdunzip", "jsonpointer": "/usr/local/bin/jsonpointer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio"}}
+config: {"url": "https://biocontainers.pro/tools/magneto", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for magneto", "latest": {"1.5.1--pyhdfd78af_0": "sha256:9670459b3cc322d245c0af579cb4361aba5b444cbe5d8586f47dd56ae768ca89"}, "tags": {"1.3--pyhdfd78af_0": "sha256:8855a35cf491223ccb3fcf8fbc45f0f3b5e816c6c0fc0a7fda64e98002e31fdc", "1.3--pyhdfd78af_1": "sha256:0da8e02077afde76b410cc209f4f5bcf4848a17c920435868b3243b9a3f95dee", "1.4--pyhdfd78af_0": "sha256:009fa2a64943b735e33264933d6b58fa9dc5e20ac2a130a0c346789faf3deece", "1.5--pyhdfd78af_0": "sha256:1b4591c41a0d788f586f8c7bf5ba5e5da13090509f9d681aa755e438d560c382", "1.5.1--pyhdfd78af_0": "sha256:9670459b3cc322d245c0af579cb4361aba5b444cbe5d8586f47dd56ae768ca89"}, "docker": "quay.io/biocontainers/magneto", "aliases": {"distro": "/usr/local/bin/distro", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "magneto": "/usr/local/bin/magneto", "archspec": "/usr/local/bin/archspec", "bsdunzip": "/usr/local/bin/bsdunzip", "jsonpointer": "/usr/local/bin/jsonpointer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/magneto.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/magneto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/magneto:1.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/magneto:1.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/magneto/1.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/magneto/1.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/magneto/1.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/magneto/1.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

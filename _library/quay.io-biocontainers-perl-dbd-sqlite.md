@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-dbd-sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbd-sqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbd-sqlite/container.yaml"
-updated_at: "2026-01-22 04:03:40.781020"
-latest: "1.76--pl5321h7b50bb2_2"
+updated_at: "2026-01-23 03:58:52.505266"
+latest: "1.78--pl5321h6709bd3_0"
 container_url: "https://biocontainers.pro/tools/perl-dbd-sqlite"
 aliases:
  - "dbilogstrip"
@@ -20,8 +20,9 @@ versions:
  - "1.76--pl5321h7b50bb2_1"
  - "1.72--pl5321h031d066_2"
  - "1.76--pl5321h7b50bb2_2"
+ - "1.78--pl5321h6709bd3_0"
 description: "shpc-registry automated BioContainers addition for perl-dbd-sqlite"
-config: {"url": "https://biocontainers.pro/tools/perl-dbd-sqlite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-sqlite", "latest": {"1.76--pl5321h7b50bb2_2": "sha256:f530fe969da7d4961ac16f8d7382d36361012e7f669aea32c85d9c50a6276660"}, "tags": {"1.70--pl5321hec16e2b_2": "sha256:6ddfa524aa249c46d9759dfed87fec14e56daf4d552b0ceceb641678c4005175", "1.72--pl5321hec16e2b_0": "sha256:4c426fc9712c12eacc5ee874e4962ab525b35dbafedff7ffa87113d114ef12e1", "1.72--pl5321h031d066_1": "sha256:69d7ff5863eeb51726e5054c56dbb9ef01823606a315b7ae92cad1e0e05593cb", "1.76--pl5321h7b50bb2_1": "sha256:9df5bdaad2fe9a5293facc96949d6d8547a94669268bcb93391a37f08ea1c8f2", "1.72--pl5321h031d066_2": "sha256:a092650c29394ec1bfcd93d900f5612a80f82155f9237cf002433114ed7f4638", "1.76--pl5321h7b50bb2_2": "sha256:f530fe969da7d4961ac16f8d7382d36361012e7f669aea32c85d9c50a6276660"}, "docker": "quay.io/biocontainers/perl-dbd-sqlite", "aliases": {"dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-dbd-sqlite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-sqlite", "latest": {"1.78--pl5321h6709bd3_0": "sha256:72830b92bfbbc6f715b108fd0a46bd353d507c32c8957f9412122d0f34a059b1"}, "tags": {"1.70--pl5321hec16e2b_2": "sha256:6ddfa524aa249c46d9759dfed87fec14e56daf4d552b0ceceb641678c4005175", "1.72--pl5321hec16e2b_0": "sha256:4c426fc9712c12eacc5ee874e4962ab525b35dbafedff7ffa87113d114ef12e1", "1.72--pl5321h031d066_1": "sha256:69d7ff5863eeb51726e5054c56dbb9ef01823606a315b7ae92cad1e0e05593cb", "1.76--pl5321h7b50bb2_1": "sha256:9df5bdaad2fe9a5293facc96949d6d8547a94669268bcb93391a37f08ea1c8f2", "1.72--pl5321h031d066_2": "sha256:a092650c29394ec1bfcd93d900f5612a80f82155f9237cf002433114ed7f4638", "1.76--pl5321h7b50bb2_2": "sha256:f530fe969da7d4961ac16f8d7382d36361012e7f669aea32c85d9c50a6276660", "1.78--pl5321h6709bd3_0": "sha256:72830b92bfbbc6f715b108fd0a46bd353d507c32c8957f9412122d0f34a059b1"}, "docker": "quay.io/biocontainers/perl-dbd-sqlite", "aliases": {"dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-dbd-sqlite.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/perl-dbd-sqlite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-dbd-sqlite:1.76--pl5321h7b50bb2_2
+$ shpc install quay.io/biocontainers/perl-dbd-sqlite:1.78--pl5321h6709bd3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-dbd-sqlite/1.76--pl5321h7b50bb2_2
-$ module help quay.io/biocontainers/perl-dbd-sqlite/1.76--pl5321h7b50bb2_2
+$ module load quay.io/biocontainers/perl-dbd-sqlite/1.78--pl5321h6709bd3_0
+$ module help quay.io/biocontainers/perl-dbd-sqlite/1.78--pl5321h6709bd3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

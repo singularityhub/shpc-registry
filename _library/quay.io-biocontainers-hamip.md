@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hamip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hamip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hamip/container.yaml"
-updated_at: "2026-01-22 03:54:52.922128"
+updated_at: "2026-01-23 03:49:43.649508"
 latest: "0.0.3.2--py_0"
 container_url: "https://biocontainers.pro/tools/hamip"
 aliases:

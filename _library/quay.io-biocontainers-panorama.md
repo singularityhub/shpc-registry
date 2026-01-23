@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/panorama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panorama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panorama/container.yaml"
-updated_at: "2026-01-22 03:57:43.368697"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2026-01-23 03:52:37.541202"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panorama"
 aliases:
  - "geckodriver"
@@ -39,8 +39,9 @@ aliases:
  - "bokeh"
 versions:
  - "0.5.0--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for panorama"
-config: {"url": "https://biocontainers.pro/tools/panorama", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panorama", "latest": {"0.5.0--pyhdfd78af_0": "sha256:3b08a1ff06973876cc7719bab7379c66e4c85d74e245c16b75260895b1bdf255"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:3b08a1ff06973876cc7719bab7379c66e4c85d74e245c16b75260895b1bdf255"}, "docker": "quay.io/biocontainers/panorama", "aliases": {"geckodriver": "/usr/local/bin/geckodriver", "panorama": "/usr/local/bin/panorama", "ppanggolin": "/usr/local/bin/ppanggolin", "selenium-manager": "/usr/local/bin/selenium-manager", "archspec": "/usr/local/bin/archspec", "wsdump": "/usr/local/bin/wsdump", "cpuinfo": "/usr/local/bin/cpuinfo", "pyrodigal": "/usr/local/bin/pyrodigal", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aragorn": "/usr/local/bin/aragorn", "aria2c": "/usr/local/bin/aria2c", "h5fuse": "/usr/local/bin/h5fuse", "mmseqs": "/usr/local/bin/mmseqs", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat", "gawkbug": "/usr/local/bin/gawkbug", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "bokeh": "/usr/local/bin/bokeh"}}
+config: {"url": "https://biocontainers.pro/tools/panorama", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panorama", "latest": {"1.0.0--pyhdfd78af_0": "sha256:663e4ba06b39c171228088cf04486213d2e4f3eb9df0f31f897a84a5b679d230"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:3b08a1ff06973876cc7719bab7379c66e4c85d74e245c16b75260895b1bdf255", "1.0.0--pyhdfd78af_0": "sha256:663e4ba06b39c171228088cf04486213d2e4f3eb9df0f31f897a84a5b679d230"}, "docker": "quay.io/biocontainers/panorama", "aliases": {"geckodriver": "/usr/local/bin/geckodriver", "panorama": "/usr/local/bin/panorama", "ppanggolin": "/usr/local/bin/ppanggolin", "selenium-manager": "/usr/local/bin/selenium-manager", "archspec": "/usr/local/bin/archspec", "wsdump": "/usr/local/bin/wsdump", "cpuinfo": "/usr/local/bin/cpuinfo", "pyrodigal": "/usr/local/bin/pyrodigal", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aragorn": "/usr/local/bin/aragorn", "aria2c": "/usr/local/bin/aria2c", "h5fuse": "/usr/local/bin/h5fuse", "mmseqs": "/usr/local/bin/mmseqs", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat", "gawkbug": "/usr/local/bin/gawkbug", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "bokeh": "/usr/local/bin/bokeh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panorama.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/panorama
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/panorama:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/panorama:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/panorama/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/panorama/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/panorama/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/panorama/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

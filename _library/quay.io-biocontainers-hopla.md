@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hopla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hopla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hopla/container.yaml"
-updated_at: "2026-01-22 03:56:01.275190"
+updated_at: "2026-01-23 03:50:52.653704"
 latest: "1.2.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hopla"
 aliases:

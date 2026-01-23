@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cartools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cartools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cartools/container.yaml"
-updated_at: "2026-01-22 04:39:44.565425"
+updated_at: "2026-01-23 04:34:04.764640"
 latest: "1.1.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/cartools"
 aliases:

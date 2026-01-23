@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanorama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanorama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanorama/container.yaml"
-updated_at: "2026-01-22 04:43:29.414781"
+updated_at: "2026-01-23 04:37:27.999757"
 latest: "1.7.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scanorama"
 aliases:

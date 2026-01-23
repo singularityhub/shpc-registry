@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sereal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sereal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sereal/container.yaml"
-updated_at: "2026-01-22 04:02:33.574692"
+updated_at: "2026-01-23 03:57:41.994087"
 latest: "5.004--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-sereal"
 

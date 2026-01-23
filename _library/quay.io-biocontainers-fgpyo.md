@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fgpyo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgpyo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgpyo/container.yaml"
-updated_at: "2026-01-22 04:10:19.268514"
+updated_at: "2026-01-23 04:05:49.682157"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fgpyo"
 aliases:

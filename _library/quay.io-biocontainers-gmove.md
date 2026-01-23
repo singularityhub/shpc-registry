@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gmove"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmove/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmove/container.yaml"
-updated_at: "2026-01-22 04:42:49.263902"
+updated_at: "2026-01-23 04:36:51.077305"
 latest: "1.3--h9948957_0"
 container_url: "https://biocontainers.pro/tools/gmove"
 aliases:

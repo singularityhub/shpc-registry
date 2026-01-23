@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genbank_to"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genbank_to/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genbank_to/container.yaml"
-updated_at: "2026-01-22 04:36:59.492766"
-latest: "0.42--pyhdfd78af_0"
+updated_at: "2026-01-23 04:31:33.632408"
+latest: "0.54--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genbank_to"
 aliases:
  - "genbank_to"
@@ -36,8 +36,9 @@ aliases:
  - "get_scores_in_intervals.py"
 versions:
  - "0.42--pyhdfd78af_0"
+ - "0.54--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for genbank_to"
-config: {"url": "https://biocontainers.pro/tools/genbank_to", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genbank_to", "latest": {"0.42--pyhdfd78af_0": "sha256:fea8afcc66e51a0ca9d19af31f45e8872b0fccf02f6755ba4ec7c405c3de5432"}, "tags": {"0.42--pyhdfd78af_0": "sha256:fea8afcc66e51a0ca9d19af31f45e8872b0fccf02f6755ba4ec7c405c3de5432"}, "docker": "quay.io/biocontainers/genbank_to", "aliases": {"genbank_to": "/usr/local/bin/genbank_to", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py", "bed_count_overlapping.py": "/usr/local/bin/bed_count_overlapping.py", "bed_coverage.py": "/usr/local/bin/bed_coverage.py", "bed_coverage_by_interval.py": "/usr/local/bin/bed_coverage_by_interval.py", "bed_diff_basewise_summary.py": "/usr/local/bin/bed_diff_basewise_summary.py", "bed_extend_to.py": "/usr/local/bin/bed_extend_to.py", "bed_intersect.py": "/usr/local/bin/bed_intersect.py", "bed_intersect_basewise.py": "/usr/local/bin/bed_intersect_basewise.py", "bed_merge_overlapping.py": "/usr/local/bin/bed_merge_overlapping.py", "bed_rand_intersect.py": "/usr/local/bin/bed_rand_intersect.py", "bed_subtract_basewise.py": "/usr/local/bin/bed_subtract_basewise.py", "bnMapper.py": "/usr/local/bin/bnMapper.py", "div_snp_table_chr.py": "/usr/local/bin/div_snp_table_chr.py", "find_in_sorted_file.py": "/usr/local/bin/find_in_sorted_file.py", "gene_fourfold_sites.py": "/usr/local/bin/gene_fourfold_sites.py", "get_scores_in_intervals.py": "/usr/local/bin/get_scores_in_intervals.py"}}
+config: {"url": "https://biocontainers.pro/tools/genbank_to", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genbank_to", "latest": {"0.54--pyhdfd78af_0": "sha256:9c694164b298dfd5036e711b59bed0cd1e151012b87173e29d58a4e279a0f945"}, "tags": {"0.42--pyhdfd78af_0": "sha256:fea8afcc66e51a0ca9d19af31f45e8872b0fccf02f6755ba4ec7c405c3de5432", "0.54--pyhdfd78af_0": "sha256:9c694164b298dfd5036e711b59bed0cd1e151012b87173e29d58a4e279a0f945"}, "docker": "quay.io/biocontainers/genbank_to", "aliases": {"genbank_to": "/usr/local/bin/genbank_to", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py", "bed_count_overlapping.py": "/usr/local/bin/bed_count_overlapping.py", "bed_coverage.py": "/usr/local/bin/bed_coverage.py", "bed_coverage_by_interval.py": "/usr/local/bin/bed_coverage_by_interval.py", "bed_diff_basewise_summary.py": "/usr/local/bin/bed_diff_basewise_summary.py", "bed_extend_to.py": "/usr/local/bin/bed_extend_to.py", "bed_intersect.py": "/usr/local/bin/bed_intersect.py", "bed_intersect_basewise.py": "/usr/local/bin/bed_intersect_basewise.py", "bed_merge_overlapping.py": "/usr/local/bin/bed_merge_overlapping.py", "bed_rand_intersect.py": "/usr/local/bin/bed_rand_intersect.py", "bed_subtract_basewise.py": "/usr/local/bin/bed_subtract_basewise.py", "bnMapper.py": "/usr/local/bin/bnMapper.py", "div_snp_table_chr.py": "/usr/local/bin/div_snp_table_chr.py", "find_in_sorted_file.py": "/usr/local/bin/find_in_sorted_file.py", "gene_fourfold_sites.py": "/usr/local/bin/gene_fourfold_sites.py", "get_scores_in_intervals.py": "/usr/local/bin/get_scores_in_intervals.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genbank_to.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/genbank_to
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genbank_to:0.42--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/genbank_to:0.54--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genbank_to/0.42--pyhdfd78af_0
-$ module help quay.io/biocontainers/genbank_to/0.42--pyhdfd78af_0
+$ module load quay.io/biocontainers/genbank_to/0.54--pyhdfd78af_0
+$ module help quay.io/biocontainers/genbank_to/0.54--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

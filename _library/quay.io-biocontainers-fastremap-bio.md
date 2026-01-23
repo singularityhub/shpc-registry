@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastremap-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastremap-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastremap-bio/container.yaml"
-updated_at: "2026-01-22 04:03:44.811304"
+updated_at: "2026-01-23 03:58:56.769553"
 latest: "1.0.0--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/fastremap-bio"
 aliases:
