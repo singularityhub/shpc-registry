@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/svpg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svpg
 latest:
-  1.3.0--pyhdfd78af_0: 
-    sha256:ecccfb6a9dc119955e6c591e0c77d304f58356d888873a25757f3006e1e5329a
+  1.4.1--pyhdfd78af_0: 
+    sha256:7458a0328a93ab900492166d261f8ec5c824008bd75159bcafc664e3a8fb8f71
 tags:
   1.1--pyhdfd78af_0: 
     sha256:9be6a35128aff2fb0f2136643a7208639565ea9356b4ef7eab9c3107f6bed485
@@ -11,6 +11,8 @@ tags:
     sha256:9973639f198f86fc5ca0c080d980d6520f565a54d27c122beddfa0dca68d7b78
   1.3.0--pyhdfd78af_0: 
     sha256:ecccfb6a9dc119955e6c591e0c77d304f58356d888873a25757f3006e1e5329a
+  1.4.1--pyhdfd78af_0: 
+    sha256:7458a0328a93ab900492166d261f8ec5c824008bd75159bcafc664e3a8fb8f71
 docker: quay.io/biocontainers/svpg
 aliases:
   svpg: /usr/local/bin/svpg
