@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-evaluomer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-evaluomer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-evaluomer/container.yaml"
-updated_at: "2026-01-23 04:07:40.765680"
+updated_at: "2026-01-24 04:00:00.332331"
 latest: "1.18.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-evaluomer"
 aliases:

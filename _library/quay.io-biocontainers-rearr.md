@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rearr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rearr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rearr/container.yaml"
-updated_at: "2026-01-23 04:05:14.602645"
-latest: "1.0.4--h9948957_0"
+updated_at: "2026-01-24 03:57:39.530684"
+latest: "1.0.11--h9948957_0"
 container_url: "https://biocontainers.pro/tools/rearr"
 aliases:
  - "getSxCsvFileTarget.pl"
@@ -41,8 +41,9 @@ versions:
  - "1.0.1--h9948957_0"
  - "1.0.3--h9948957_0"
  - "1.0.4--h9948957_0"
+ - "1.0.11--h9948957_0"
 description: "singularity registry hpc automated addition for rearr"
-config: {"url": "https://biocontainers.pro/tools/rearr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rearr", "latest": {"1.0.4--h9948957_0": "sha256:16447c3177f5352010f838c5ac8bb469c45c6ac0ffd73ff56e84e949ef1b83ce"}, "tags": {"1.0.0--h9948957_0": "sha256:e3328abb7bb1e1eadd7c562c865d9389b0c8664b77c2834fbee3e4abda842867", "1.0.1--h9948957_0": "sha256:6226569326216c25733d53f7211f93053c0335ff0a9c5891e216a83fea9a69e7", "1.0.3--h9948957_0": "sha256:79f983ef0a6dd82e0ff1dbf6da9884c0f65cebbdb4d4231274dc3e21a6dc6767", "1.0.4--h9948957_0": "sha256:16447c3177f5352010f838c5ac8bb469c45c6ac0ffd73ff56e84e949ef1b83ce"}, "docker": "quay.io/biocontainers/rearr", "aliases": {"getSxCsvFileTarget.pl": "/usr/local/bin/getSxCsvFileTarget.pl", "getSxRefFile.pl": "/usr/local/bin/getSxRefFile.pl", "rearrangement": "/usr/local/bin/rearrangement", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "cutadapt": "/usr/local/bin/cutadapt", "gawkbug": "/usr/local/bin/gawkbug", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "annot-tsv": "/usr/local/bin/annot-tsv", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "numpy-config": "/usr/local/bin/numpy-config", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed"}}
+config: {"url": "https://biocontainers.pro/tools/rearr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rearr", "latest": {"1.0.11--h9948957_0": "sha256:78428bad1e3858417fc7c4cb12bde0fabf8e44cd7864b864af2aafd7105921ac"}, "tags": {"1.0.0--h9948957_0": "sha256:e3328abb7bb1e1eadd7c562c865d9389b0c8664b77c2834fbee3e4abda842867", "1.0.1--h9948957_0": "sha256:6226569326216c25733d53f7211f93053c0335ff0a9c5891e216a83fea9a69e7", "1.0.3--h9948957_0": "sha256:79f983ef0a6dd82e0ff1dbf6da9884c0f65cebbdb4d4231274dc3e21a6dc6767", "1.0.4--h9948957_0": "sha256:16447c3177f5352010f838c5ac8bb469c45c6ac0ffd73ff56e84e949ef1b83ce", "1.0.11--h9948957_0": "sha256:78428bad1e3858417fc7c4cb12bde0fabf8e44cd7864b864af2aafd7105921ac"}, "docker": "quay.io/biocontainers/rearr", "aliases": {"getSxCsvFileTarget.pl": "/usr/local/bin/getSxCsvFileTarget.pl", "getSxRefFile.pl": "/usr/local/bin/getSxRefFile.pl", "rearrangement": "/usr/local/bin/rearrangement", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "cutadapt": "/usr/local/bin/cutadapt", "gawkbug": "/usr/local/bin/gawkbug", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "annot-tsv": "/usr/local/bin/annot-tsv", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "numpy-config": "/usr/local/bin/numpy-config", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rearr.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/rearr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rearr:1.0.4--h9948957_0
+$ shpc install quay.io/biocontainers/rearr:1.0.11--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rearr/1.0.4--h9948957_0
-$ module help quay.io/biocontainers/rearr/1.0.4--h9948957_0
+$ module load quay.io/biocontainers/rearr/1.0.11--h9948957_0
+$ module help quay.io/biocontainers/rearr/1.0.11--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

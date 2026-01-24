@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/malva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/malva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/malva/container.yaml"
-updated_at: "2026-01-23 04:33:10.333887"
+updated_at: "2026-01-24 04:24:20.046374"
 latest: "2.0.0--h7071971_4"
 container_url: "https://biocontainers.pro/tools/malva"
 aliases:

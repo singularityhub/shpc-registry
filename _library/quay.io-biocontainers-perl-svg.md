@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-svg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-svg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-svg/container.yaml"
-updated_at: "2026-01-23 03:49:00.172175"
+updated_at: "2026-01-24 03:42:12.886320"
 latest: "2.87--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-svg"
 

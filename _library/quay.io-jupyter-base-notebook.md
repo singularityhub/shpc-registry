@@ -4,8 +4,8 @@ name:  "quay.io/jupyter/base-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/base-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/base-notebook/container.yaml"
-updated_at: "2026-01-23 03:46:39.816056"
-latest: "2025-12-22"
+updated_at: "2026-01-24 03:39:55.882534"
+latest: "2026-01-19"
 container_url: "https://quay.io/repository/jupyter/base-notebook"
 aliases:
  - "run-notebook"
@@ -26,8 +26,9 @@ versions:
  - "2025-11-29"
  - "2025-10-27"
  - "2025-09-30"
+ - "2026-01-19"
 description: "Jupyter Base Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/base-notebook", "url": "https://quay.io/repository/jupyter/base-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Base Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-12-22": "sha256:1a855e0babbd07ab75616a7afdea335d7d2b444e4e2a743a21695fe97873b157"}, "tags": {"latest": "sha256:1a855e0babbd07ab75616a7afdea335d7d2b444e4e2a743a21695fe97873b157", "2025-05-30": "sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04", "2025-06-23": "sha256:50b5bcbea649bebb20c450c512f75750d20e98a04b2e0a948337a13d14528fe4", "2025-08-18": "sha256:f2e2b6d7a348938ad6d4aeabb4953babd28ed18fda3ab60bccb14780ab9555de", "2025-06-16": "sha256:cfba03d4beff02257ab6fc4bc855a767ef44009dbb6661e93b1c0f4bdffd00a8", "2025-09-23": "sha256:57f10d10087e75157d0d1304ae7dfeb3c0224a09ca6ff0d1302aee9d6c0e84be", "2025-10-21": "sha256:1c565c1fb58fd67bbab1ac4a5250aa58fbdadf45206c1efdc242cce3402a03da", "2025-09-15": "sha256:71bd13aaf92fe98f9f138bc0267e529ba40221be44d90967afd21372f4951542", "2025-08-25": "sha256:e9222d8476431543c605f1f203654ef8f89f573cb169c2065e6b1aff8bbfa5b9", "2025-07-28": "sha256:ae76b2693b46c268f83f81fe593bb1dc93564ace1e4662dd55aca20fc73a9cab", "2025-11-20": "sha256:c6719c4ed65bcbd87615dbbd7e81b8a69fcb59d4050032ccb062d97b43a9009e", "2025-09-22": "sha256:c7abe6e3ec00b5d7be0e9c1bdce07a7dacb9ee299b16609cd8492713efae7d99", "2025-12-22": "sha256:1a855e0babbd07ab75616a7afdea335d7d2b444e4e2a743a21695fe97873b157", "2025-11-29": "sha256:313e6eb67f80836ab42805b857e9059c624b18b000b737d5035bf1acea991bd9", "2025-10-27": "sha256:929c9adc94c4ad2b729e5b0dbddd3677c36c4ab6391d6e58b6e666c39aa65673", "2025-09-30": "sha256:32e93ad3fce95ae91b942fe810417a7fc1022b78e44fd708a33666896c1c982d"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/base-notebook", "url": "https://quay.io/repository/jupyter/base-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Base Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2026-01-19": "sha256:f92d23a89c673eca9607e027c1f66e4effb0b7dd1a968684d3b0a72b244d53d0"}, "tags": {"latest": "sha256:f92d23a89c673eca9607e027c1f66e4effb0b7dd1a968684d3b0a72b244d53d0", "2025-05-30": "sha256:da04e895f1ccd395827f3033023603daafad818e9815c22c1fdc5cb6bd523a04", "2025-06-23": "sha256:50b5bcbea649bebb20c450c512f75750d20e98a04b2e0a948337a13d14528fe4", "2025-08-18": "sha256:f2e2b6d7a348938ad6d4aeabb4953babd28ed18fda3ab60bccb14780ab9555de", "2025-06-16": "sha256:cfba03d4beff02257ab6fc4bc855a767ef44009dbb6661e93b1c0f4bdffd00a8", "2025-09-23": "sha256:57f10d10087e75157d0d1304ae7dfeb3c0224a09ca6ff0d1302aee9d6c0e84be", "2025-10-21": "sha256:1c565c1fb58fd67bbab1ac4a5250aa58fbdadf45206c1efdc242cce3402a03da", "2025-09-15": "sha256:71bd13aaf92fe98f9f138bc0267e529ba40221be44d90967afd21372f4951542", "2025-08-25": "sha256:e9222d8476431543c605f1f203654ef8f89f573cb169c2065e6b1aff8bbfa5b9", "2025-07-28": "sha256:ae76b2693b46c268f83f81fe593bb1dc93564ace1e4662dd55aca20fc73a9cab", "2025-11-20": "sha256:c6719c4ed65bcbd87615dbbd7e81b8a69fcb59d4050032ccb062d97b43a9009e", "2025-09-22": "sha256:c7abe6e3ec00b5d7be0e9c1bdce07a7dacb9ee299b16609cd8492713efae7d99", "2025-12-22": "sha256:1a855e0babbd07ab75616a7afdea335d7d2b444e4e2a743a21695fe97873b157", "2025-11-29": "sha256:313e6eb67f80836ab42805b857e9059c624b18b000b737d5035bf1acea991bd9", "2025-10-27": "sha256:929c9adc94c4ad2b729e5b0dbddd3677c36c4ab6391d6e58b6e666c39aa65673", "2025-09-30": "sha256:32e93ad3fce95ae91b942fe810417a7fc1022b78e44fd708a33666896c1c982d", "2026-01-19": "sha256:f92d23a89c673eca9607e027c1f66e4effb0b7dd1a968684d3b0a72b244d53d0"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/base-notebook.
@@ -42,7 +43,7 @@ $ shpc install quay.io/jupyter/base-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/base-notebook:2025-12-22
+$ shpc install quay.io/jupyter/base-notebook:2026-01-19
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/base-notebook/2025-12-22
-$ module help quay.io/jupyter/base-notebook/2025-12-22
+$ module load quay.io/jupyter/base-notebook/2026-01-19
+$ module help quay.io/jupyter/base-notebook/2026-01-19
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

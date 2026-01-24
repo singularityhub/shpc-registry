@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/svpg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svpg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svpg/container.yaml"
-updated_at: "2026-01-23 03:49:58.247106"
-latest: "1.3.0--pyhdfd78af_0"
+updated_at: "2026-01-24 03:43:09.588026"
+latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svpg"
 aliases:
  - "svpg"
@@ -19,8 +19,9 @@ versions:
  - "1.1--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_0"
  - "1.3.0--pyhdfd78af_0"
+ - "1.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for svpg"
-config: {"url": "https://biocontainers.pro/tools/svpg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svpg", "latest": {"1.3.0--pyhdfd78af_0": "sha256:ecccfb6a9dc119955e6c591e0c77d304f58356d888873a25757f3006e1e5329a"}, "tags": {"1.1--pyhdfd78af_0": "sha256:9be6a35128aff2fb0f2136643a7208639565ea9356b4ef7eab9c3107f6bed485", "1.2.0--pyhdfd78af_0": "sha256:9973639f198f86fc5ca0c080d980d6520f565a54d27c122beddfa0dca68d7b78", "1.3.0--pyhdfd78af_0": "sha256:ecccfb6a9dc119955e6c591e0c77d304f58356d888873a25757f3006e1e5329a"}, "docker": "quay.io/biocontainers/svpg", "aliases": {"svpg": "/usr/local/bin/svpg", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/svpg", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for svpg", "latest": {"1.4.1--pyhdfd78af_0": "sha256:7458a0328a93ab900492166d261f8ec5c824008bd75159bcafc664e3a8fb8f71"}, "tags": {"1.1--pyhdfd78af_0": "sha256:9be6a35128aff2fb0f2136643a7208639565ea9356b4ef7eab9c3107f6bed485", "1.2.0--pyhdfd78af_0": "sha256:9973639f198f86fc5ca0c080d980d6520f565a54d27c122beddfa0dca68d7b78", "1.3.0--pyhdfd78af_0": "sha256:ecccfb6a9dc119955e6c591e0c77d304f58356d888873a25757f3006e1e5329a", "1.4.1--pyhdfd78af_0": "sha256:7458a0328a93ab900492166d261f8ec5c824008bd75159bcafc664e3a8fb8f71"}, "docker": "quay.io/biocontainers/svpg", "aliases": {"svpg": "/usr/local/bin/svpg", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svpg.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/svpg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/svpg:1.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/svpg:1.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/svpg/1.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/svpg/1.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/svpg/1.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/svpg/1.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

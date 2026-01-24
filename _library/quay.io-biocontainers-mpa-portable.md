@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mpa-portable"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mpa-portable/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mpa-portable/container.yaml"
-updated_at: "2026-01-23 04:05:51.130193"
+updated_at: "2026-01-24 03:58:14.365679"
 latest: "2.0.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/mpa-portable"
 aliases:

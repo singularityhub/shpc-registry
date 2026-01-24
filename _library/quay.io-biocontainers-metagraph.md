@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metagraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagraph/container.yaml"
-updated_at: "2026-01-23 03:55:19.584111"
+updated_at: "2026-01-24 03:48:18.155417"
 latest: "0.5.0--haea4672_0"
 container_url: "https://biocontainers.pro/tools/metagraph"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-slingshot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-slingshot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-slingshot/container.yaml"
-updated_at: "2026-01-23 04:28:11.596963"
+updated_at: "2026-01-24 04:19:36.675174"
 latest: "2.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-slingshot"
 

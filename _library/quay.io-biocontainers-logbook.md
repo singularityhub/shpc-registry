@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/logbook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logbook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/logbook/container.yaml"
-updated_at: "2026-01-23 04:29:45.503856"
+updated_at: "2026-01-24 04:21:07.187951"
 latest: "1.4.3--py37h14c3975_0"
 container_url: "https://biocontainers.pro/tools/logbook"
 aliases:

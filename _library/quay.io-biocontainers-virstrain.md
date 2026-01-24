@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virstrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virstrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virstrain/container.yaml"
-updated_at: "2026-01-23 04:12:39.222082"
+updated_at: "2026-01-24 04:04:48.503382"
 latest: "1.17--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/virstrain"
 aliases:

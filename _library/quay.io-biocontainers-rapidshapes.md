@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rapidshapes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rapidshapes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rapidshapes/container.yaml"
-updated_at: "2026-01-23 03:48:26.493465"
+updated_at: "2026-01-24 03:41:40.397527"
 latest: "2.1.0--pl5321h9948957_2"
 container_url: "https://biocontainers.pro/tools/rapidshapes"
 aliases:

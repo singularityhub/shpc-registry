@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rsubread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsubread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsubread/container.yaml"
-updated_at: "2026-01-23 04:35:01.956533"
+updated_at: "2026-01-24 04:26:09.331712"
 latest: "2.16.0--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsubread"
 

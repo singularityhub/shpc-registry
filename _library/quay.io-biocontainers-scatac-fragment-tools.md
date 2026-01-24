@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scatac-fragment-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scatac-fragment-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scatac-fragment-tools/container.yaml"
-updated_at: "2026-01-23 04:01:18.270178"
+updated_at: "2026-01-24 03:53:57.945263"
 latest: "0.1.4--py310h9e6395a_0"
 container_url: "https://biocontainers.pro/tools/scatac-fragment-tools"
 aliases:

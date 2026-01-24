@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/godmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/godmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/godmd/container.yaml"
-updated_at: "2026-01-23 04:35:49.023212"
+updated_at: "2026-01-24 04:26:55.260600"
 latest: "1.7--hb2a3317_0"
 container_url: "https://biocontainers.pro/tools/godmd"
 aliases:

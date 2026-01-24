@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geoquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geoquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geoquery/container.yaml"
-updated_at: "2026-01-23 03:55:19.274135"
+updated_at: "2026-01-24 03:48:17.875724"
 latest: "2.74.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geoquery"
 

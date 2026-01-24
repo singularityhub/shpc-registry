@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phyclone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyclone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyclone/container.yaml"
-updated_at: "2026-01-23 04:24:19.077162"
-latest: "0.7.1--pyhdfd78af_0"
+updated_at: "2026-01-24 04:15:51.650082"
+latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phyclone"
 aliases:
  - "phyclone"
@@ -25,8 +25,9 @@ versions:
  - "0.6.0--pyhdfd78af_0"
  - "0.7.0--pyhdfd78af_0"
  - "0.7.1--pyhdfd78af_0"
+ - "0.8.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for phyclone"
-config: {"url": "https://biocontainers.pro/tools/phyclone", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phyclone", "latest": {"0.7.1--pyhdfd78af_0": "sha256:df0d99abd55ce2e75a43648c1289d276a07d3023f7e164a4ccb6d3e02626e715"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:88ed2c0d67872fa3ec34a418688123d4ffb665f86bcb34bf82116504b7ddcf8e", "0.6.0--pyhdfd78af_0": "sha256:f6724f8b5db9c8495bb7bea5b66935c1441a9864638236c5d3abfc2a4957a0a3", "0.7.0--pyhdfd78af_0": "sha256:3685e9ca7357e2a7b866a9b9ef6b1ab899a4e6a1af9d16ac6e86025e68afa169", "0.7.1--pyhdfd78af_0": "sha256:df0d99abd55ce2e75a43648c1289d276a07d3023f7e164a4ccb6d3e02626e715"}, "docker": "quay.io/biocontainers/phyclone", "aliases": {"phyclone": "/usr/local/bin/phyclone", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "numpy-config": "/usr/local/bin/numpy-config", "numba": "/usr/local/bin/numba", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/phyclone", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phyclone", "latest": {"0.8.0--pyhdfd78af_0": "sha256:92b658f28d1fd701aae9f9d8cc0f695880f00824ecafa67e7ec99e47b75745f6"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:88ed2c0d67872fa3ec34a418688123d4ffb665f86bcb34bf82116504b7ddcf8e", "0.6.0--pyhdfd78af_0": "sha256:f6724f8b5db9c8495bb7bea5b66935c1441a9864638236c5d3abfc2a4957a0a3", "0.7.0--pyhdfd78af_0": "sha256:3685e9ca7357e2a7b866a9b9ef6b1ab899a4e6a1af9d16ac6e86025e68afa169", "0.7.1--pyhdfd78af_0": "sha256:df0d99abd55ce2e75a43648c1289d276a07d3023f7e164a4ccb6d3e02626e715", "0.8.0--pyhdfd78af_0": "sha256:92b658f28d1fd701aae9f9d8cc0f695880f00824ecafa67e7ec99e47b75745f6"}, "docker": "quay.io/biocontainers/phyclone", "aliases": {"phyclone": "/usr/local/bin/phyclone", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "numpy-config": "/usr/local/bin/numpy-config", "numba": "/usr/local/bin/numba", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phyclone.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/phyclone
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phyclone:0.7.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phyclone:0.8.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phyclone/0.7.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/phyclone/0.7.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/phyclone/0.8.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/phyclone/0.8.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

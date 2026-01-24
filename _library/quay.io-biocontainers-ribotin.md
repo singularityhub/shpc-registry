@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribotin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotin/container.yaml"
-updated_at: "2026-01-23 04:34:32.060961"
+updated_at: "2026-01-24 04:25:39.971020"
 latest: "1.5--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/ribotin"
 aliases:

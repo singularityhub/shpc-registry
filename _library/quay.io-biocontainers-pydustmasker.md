@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pydustmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydustmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydustmasker/container.yaml"
-updated_at: "2026-01-23 03:50:04.283237"
-latest: "1.0.3--py310hc7d9715_0"
+updated_at: "2026-01-24 03:43:15.626068"
+latest: "2.0.0--py314hc948c43_0"
 container_url: "https://biocontainers.pro/tools/pydustmasker"
 aliases:
  - "2to3-3.10"
@@ -20,8 +20,9 @@ versions:
  - "1.0.0--py310hc7d9715_3"
  - "1.0.2--py310hc7d9715_0"
  - "1.0.3--py310hc7d9715_0"
+ - "2.0.0--py314hc948c43_0"
 description: "singularity registry hpc automated addition for pydustmasker"
-config: {"url": "https://biocontainers.pro/tools/pydustmasker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydustmasker", "latest": {"1.0.3--py310hc7d9715_0": "sha256:a189a6545edccd18743e7adf1e960f5c1e679d9af1e6d4991d63a1be67dcd212"}, "tags": {"1.0.0--py310h7c593f9_0": "sha256:99dff24cc7577a7d1e88fbdbf22ef477bcc16c84f56436c90f51089fe62f19cb", "1.0.0--py38h0020b31_1": "sha256:37282d928f8b2448186ce89feeef7dfa13d2a8afc874fbd34b4a5d0888523865", "1.0.0--py310h1fe012e_2": "sha256:4a3044e99e0d1858d6d6736a23a9bccc84470dd02f787d8795460219b2c26deb", "1.0.0--py310hc7d9715_3": "sha256:c34fdde1c43b0263c50876ec1c8ab5a054dfd7edae1a2d79fd936917dbf341a0", "1.0.2--py310hc7d9715_0": "sha256:462e9245ebfe56ba41274cc8be4e10fa3aaf4d68dcab12e53046c370d15d65fd", "1.0.3--py310hc7d9715_0": "sha256:a189a6545edccd18743e7adf1e960f5c1e679d9af1e6d4991d63a1be67dcd212"}, "docker": "quay.io/biocontainers/pydustmasker", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pydustmasker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydustmasker", "latest": {"2.0.0--py314hc948c43_0": "sha256:05d0ae7ab272114394b43686b656826efa194a8dbb2b52e77c6ccb1c641d93a2"}, "tags": {"1.0.0--py310h7c593f9_0": "sha256:99dff24cc7577a7d1e88fbdbf22ef477bcc16c84f56436c90f51089fe62f19cb", "1.0.0--py38h0020b31_1": "sha256:37282d928f8b2448186ce89feeef7dfa13d2a8afc874fbd34b4a5d0888523865", "1.0.0--py310h1fe012e_2": "sha256:4a3044e99e0d1858d6d6736a23a9bccc84470dd02f787d8795460219b2c26deb", "1.0.0--py310hc7d9715_3": "sha256:c34fdde1c43b0263c50876ec1c8ab5a054dfd7edae1a2d79fd936917dbf341a0", "1.0.2--py310hc7d9715_0": "sha256:462e9245ebfe56ba41274cc8be4e10fa3aaf4d68dcab12e53046c370d15d65fd", "1.0.3--py310hc7d9715_0": "sha256:a189a6545edccd18743e7adf1e960f5c1e679d9af1e6d4991d63a1be67dcd212", "2.0.0--py314hc948c43_0": "sha256:05d0ae7ab272114394b43686b656826efa194a8dbb2b52e77c6ccb1c641d93a2"}, "docker": "quay.io/biocontainers/pydustmasker", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydustmasker.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/pydustmasker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pydustmasker:1.0.3--py310hc7d9715_0
+$ shpc install quay.io/biocontainers/pydustmasker:2.0.0--py314hc948c43_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pydustmasker/1.0.3--py310hc7d9715_0
-$ module help quay.io/biocontainers/pydustmasker/1.0.3--py310hc7d9715_0
+$ module load quay.io/biocontainers/pydustmasker/2.0.0--py314hc948c43_0
+$ module help quay.io/biocontainers/pydustmasker/2.0.0--py314hc948c43_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
