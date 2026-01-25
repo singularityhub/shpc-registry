@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnabridge-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnabridge-align/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnabridge-align/container.yaml"
-updated_at: "2026-01-24 04:21:58.149516"
+updated_at: "2026-01-25 04:44:38.699372"
 latest: "1.0.1--h5ca1c30_9"
 container_url: "https://biocontainers.pro/tools/rnabridge-align"
 aliases:

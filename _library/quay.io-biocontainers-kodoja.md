@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kodoja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kodoja/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kodoja/container.yaml"
-updated_at: "2026-01-24 04:12:41.945067"
+updated_at: "2026-01-25 04:34:08.348151"
 latest: "0.0.10--0"
 container_url: "https://biocontainers.pro/tools/kodoja"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sigprofilerextractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigprofilerextractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigprofilerextractor/container.yaml"
-updated_at: "2026-01-24 04:25:04.140803"
-latest: "1.2.5--pyhdfd78af_0"
+updated_at: "2026-01-25 04:48:05.541743"
+latest: "1.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sigprofilerextractor"
 aliases:
  - "SigProfilerAssignment"
@@ -50,8 +50,9 @@ versions:
  - "1.2.3--pyhdfd78af_0"
  - "1.2.4--pyhdfd78af_0"
  - "1.2.5--pyhdfd78af_0"
+ - "1.2.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sigprofilerextractor"
-config: {"url": "https://biocontainers.pro/tools/sigprofilerextractor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sigprofilerextractor", "latest": {"1.2.5--pyhdfd78af_0": "sha256:2c2e6b35c878c18bf57a49e2ff87ec2aebda839076ee5f8956a2194bf674f6aa"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:4645554aef7f52c03fd17ec204f03522616caf365ec859b31a0ec12281c1db52", "1.2.2--pyhdfd78af_0": "sha256:62b92f3cbe2a16f3f3590cc3acaca7c89860adf7fa1e42d1897edb2219721923", "1.2.3--pyhdfd78af_0": "sha256:24b772bf3b7a6038a8a2e33471904edaecd6049278b7cb3623aaed2513087f93", "1.2.4--pyhdfd78af_0": "sha256:c33c7c3c300e66986ad4894c7f065be7a67fe6c466a1a2a95869c444063f7d12", "1.2.5--pyhdfd78af_0": "sha256:2c2e6b35c878c18bf57a49e2ff87ec2aebda839076ee5f8956a2194bf674f6aa"}, "docker": "quay.io/biocontainers/sigprofilerextractor", "aliases": {"SigProfilerAssignment": "/usr/local/bin/SigProfilerAssignment", "SigProfilerExtractor": "/usr/local/bin/SigProfilerExtractor", "SigProfilerMatrixGenerator": "/usr/local/bin/SigProfilerMatrixGenerator", "SigProfilerPlotting": "/usr/local/bin/SigProfilerPlotting", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "pdfsig": "/usr/local/bin/pdfsig", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm", "pdftops": "/usr/local/bin/pdftops", "pdftotext": "/usr/local/bin/pdftotext", "pdfunite": "/usr/local/bin/pdfunite", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13"}}
+config: {"url": "https://biocontainers.pro/tools/sigprofilerextractor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sigprofilerextractor", "latest": {"1.2.6--pyhdfd78af_0": "sha256:b271d1e3c3caabd1f3560a77c2cd65f9a7e2a5e18193b05ade33de5116465d17"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:4645554aef7f52c03fd17ec204f03522616caf365ec859b31a0ec12281c1db52", "1.2.2--pyhdfd78af_0": "sha256:62b92f3cbe2a16f3f3590cc3acaca7c89860adf7fa1e42d1897edb2219721923", "1.2.3--pyhdfd78af_0": "sha256:24b772bf3b7a6038a8a2e33471904edaecd6049278b7cb3623aaed2513087f93", "1.2.4--pyhdfd78af_0": "sha256:c33c7c3c300e66986ad4894c7f065be7a67fe6c466a1a2a95869c444063f7d12", "1.2.5--pyhdfd78af_0": "sha256:2c2e6b35c878c18bf57a49e2ff87ec2aebda839076ee5f8956a2194bf674f6aa", "1.2.6--pyhdfd78af_0": "sha256:b271d1e3c3caabd1f3560a77c2cd65f9a7e2a5e18193b05ade33de5116465d17"}, "docker": "quay.io/biocontainers/sigprofilerextractor", "aliases": {"SigProfilerAssignment": "/usr/local/bin/SigProfilerAssignment", "SigProfilerExtractor": "/usr/local/bin/SigProfilerExtractor", "SigProfilerMatrixGenerator": "/usr/local/bin/SigProfilerMatrixGenerator", "SigProfilerPlotting": "/usr/local/bin/SigProfilerPlotting", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "pdfsig": "/usr/local/bin/pdfsig", "pdfattach": "/usr/local/bin/pdfattach", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm", "pdftops": "/usr/local/bin/pdftops", "pdftotext": "/usr/local/bin/pdftotext", "pdfunite": "/usr/local/bin/pdfunite", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sigprofilerextractor.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/sigprofilerextractor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sigprofilerextractor:1.2.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sigprofilerextractor:1.2.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sigprofilerextractor/1.2.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/sigprofilerextractor/1.2.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/sigprofilerextractor/1.2.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/sigprofilerextractor/1.2.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

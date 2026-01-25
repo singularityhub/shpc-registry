@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sfedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sfedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sfedata/container.yaml"
-updated_at: "2026-01-24 04:15:45.932683"
+updated_at: "2026-01-25 04:37:34.315690"
 latest: "1.4.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sfedata"
 aliases:

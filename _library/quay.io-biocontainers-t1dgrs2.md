@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/t1dgrs2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/t1dgrs2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/t1dgrs2/container.yaml"
-updated_at: "2026-01-24 04:08:47.930409"
+updated_at: "2026-01-25 04:29:43.650517"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/t1dgrs2"
 aliases:

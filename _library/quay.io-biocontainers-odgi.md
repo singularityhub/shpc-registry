@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/odgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/odgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/odgi/container.yaml"
-updated_at: "2026-01-24 03:54:19.361142"
+updated_at: "2026-01-25 04:14:03.084960"
 latest: "0.9.4--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/odgi"
 aliases:

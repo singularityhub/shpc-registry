@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goalign/container.yaml"
-updated_at: "2026-01-24 04:18:31.682752"
+updated_at: "2026-01-25 04:40:38.500267"
 latest: "0.4.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/goalign"
 aliases:

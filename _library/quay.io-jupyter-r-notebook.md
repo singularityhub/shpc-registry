@@ -4,8 +4,8 @@ name:  "quay.io/jupyter/r-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/r-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/r-notebook/container.yaml"
-updated_at: "2026-01-24 03:39:56.460583"
-latest: "2025-12-22"
+updated_at: "2026-01-25 03:58:24.501411"
+latest: "2026-01-19"
 container_url: "https://quay.io/repository/jupyter/r-notebook"
 aliases:
  - "run-notebook"
@@ -28,8 +28,9 @@ versions:
  - "2025-11-29"
  - "2025-10-27"
  - "2025-09-30"
+ - "2026-01-19"
 description: "Jupyter R Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/r-notebook", "url": "https://quay.io/repository/jupyter/r-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter R Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-12-22": "sha256:5224888f884f42041480d997f1b7c1f9ea43b7576951c000a15c8a8c9ca1c245"}, "tags": {"latest": "sha256:5224888f884f42041480d997f1b7c1f9ea43b7576951c000a15c8a8c9ca1c245", "2025-06-02": "sha256:1cfec8732d6b8eaf891e6b3ea1a6844e50a90a1bf3d012e7d463869efd713093", "2025-06-23": "sha256:0c2d79320666490af2f9da1b072d1a8ae54cb49fd314d32bdb15631140b01103", "2025-07-21": "sha256:1d1b8104db0d372fe5a069f9441919de28a481d7660dffb1522fa8ac704a025b", "2025-06-30": "sha256:6186d4db7cf4af13a473987bb59c0e0bbf9912b6b64b36b4ea25e7c3bc4a574a", "2025-08-18": "sha256:f486264bdbe74b906bcb7edb6ed19f6dfed50eb8a743720e59e8379e5f598e81", "2025-07-07": "sha256:9c054c26494cfbdd1e12db686d35e514fd760c2b81821a8794c8044fd301d77d", "2025-09-23": "sha256:e4ccb7dee3c6484216ee653a6ad407c9227a008289e5fe330b52c4c272013e3f", "2025-10-21": "sha256:121ed2f270eaeefe255138821fc6ff7fb4ea9be00e8b9789888c4cb042c2c654", "2025-09-22": "sha256:7ffa5c3fd9dd8454960035e6fbb68770ac5d8d6dac001dfddc5c3acf6fc34b86", "2025-08-25": "sha256:87cc45eba17dfd6a2ea43e79bee4a9e75f22bc37a6f098634bb4bdef45088306", "2025-07-28": "sha256:006007eb2f8613ad4c7b21f8f9ad3baba91e4ed28b879e1e40e2d027b2a0618c", "2025-11-24": "sha256:69560a6949e149bd1d4aeb5ccdc088e8dc1b4c74f0d31287e3747aa6776fc003", "2025-09-29": "sha256:d81e81da1975801c8a03e6c97469626a56d78188827f829b3ce68e729720c0fd", "2025-12-22": "sha256:5224888f884f42041480d997f1b7c1f9ea43b7576951c000a15c8a8c9ca1c245", "2025-11-29": "sha256:833afd79c442b1c32747a788d400b03dd79c0b154d8cdd4cc11ee7d1b34b4050", "2025-10-27": "sha256:b432ed253e0128ae7b13a0f5562e87176eba6ba33e56cb1122b041594b09b18f", "2025-09-30": "sha256:fed36f0494ace1ee3efbae2801029b0fe2a8b077cacde219b2d89ad4861f5458"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/r-notebook", "url": "https://quay.io/repository/jupyter/r-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter R Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2026-01-19": "sha256:104b4c46731c3357b6501299a65041a6ca568692b37234daad9b52274aecdfb2"}, "tags": {"latest": "sha256:104b4c46731c3357b6501299a65041a6ca568692b37234daad9b52274aecdfb2", "2025-06-02": "sha256:1cfec8732d6b8eaf891e6b3ea1a6844e50a90a1bf3d012e7d463869efd713093", "2025-06-23": "sha256:0c2d79320666490af2f9da1b072d1a8ae54cb49fd314d32bdb15631140b01103", "2025-07-21": "sha256:1d1b8104db0d372fe5a069f9441919de28a481d7660dffb1522fa8ac704a025b", "2025-06-30": "sha256:6186d4db7cf4af13a473987bb59c0e0bbf9912b6b64b36b4ea25e7c3bc4a574a", "2025-08-18": "sha256:f486264bdbe74b906bcb7edb6ed19f6dfed50eb8a743720e59e8379e5f598e81", "2025-07-07": "sha256:9c054c26494cfbdd1e12db686d35e514fd760c2b81821a8794c8044fd301d77d", "2025-09-23": "sha256:e4ccb7dee3c6484216ee653a6ad407c9227a008289e5fe330b52c4c272013e3f", "2025-10-21": "sha256:121ed2f270eaeefe255138821fc6ff7fb4ea9be00e8b9789888c4cb042c2c654", "2025-09-22": "sha256:7ffa5c3fd9dd8454960035e6fbb68770ac5d8d6dac001dfddc5c3acf6fc34b86", "2025-08-25": "sha256:87cc45eba17dfd6a2ea43e79bee4a9e75f22bc37a6f098634bb4bdef45088306", "2025-07-28": "sha256:006007eb2f8613ad4c7b21f8f9ad3baba91e4ed28b879e1e40e2d027b2a0618c", "2025-11-24": "sha256:69560a6949e149bd1d4aeb5ccdc088e8dc1b4c74f0d31287e3747aa6776fc003", "2025-09-29": "sha256:d81e81da1975801c8a03e6c97469626a56d78188827f829b3ce68e729720c0fd", "2025-12-22": "sha256:5224888f884f42041480d997f1b7c1f9ea43b7576951c000a15c8a8c9ca1c245", "2025-11-29": "sha256:833afd79c442b1c32747a788d400b03dd79c0b154d8cdd4cc11ee7d1b34b4050", "2025-10-27": "sha256:b432ed253e0128ae7b13a0f5562e87176eba6ba33e56cb1122b041594b09b18f", "2025-09-30": "sha256:fed36f0494ace1ee3efbae2801029b0fe2a8b077cacde219b2d89ad4861f5458", "2026-01-19": "sha256:104b4c46731c3357b6501299a65041a6ca568692b37234daad9b52274aecdfb2"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/r-notebook.
@@ -44,7 +45,7 @@ $ shpc install quay.io/jupyter/r-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/r-notebook:2025-12-22
+$ shpc install quay.io/jupyter/r-notebook:2026-01-19
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/r-notebook/2025-12-22
-$ module help quay.io/jupyter/r-notebook/2025-12-22
+$ module load quay.io/jupyter/r-notebook/2026-01-19
+$ module help quay.io/jupyter/r-notebook/2026-01-19
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/leehom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leehom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leehom/container.yaml"
-updated_at: "2026-01-24 04:08:37.408654"
+updated_at: "2026-01-25 04:29:32.286800"
 latest: "1.2.15--hdc46a4b_6"
 container_url: "https://biocontainers.pro/tools/leehom"
 aliases:

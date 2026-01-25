@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgelib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgelib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgelib/container.yaml"
-updated_at: "2026-01-24 04:13:44.373511"
+updated_at: "2026-01-25 04:35:16.893015"
 latest: "0.7.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cgelib"
 aliases:

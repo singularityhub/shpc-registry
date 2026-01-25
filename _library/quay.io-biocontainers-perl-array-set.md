@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-array-set"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-array-set/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-array-set/container.yaml"
-updated_at: "2026-01-24 04:17:52.365476"
+updated_at: "2026-01-25 04:39:54.749685"
 latest: "0.063--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-array-set"
 aliases:

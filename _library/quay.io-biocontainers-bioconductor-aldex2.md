@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aldex2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aldex2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aldex2/container.yaml"
-updated_at: "2026-01-24 03:44:36.721329"
+updated_at: "2026-01-25 04:03:37.586731"
 latest: "1.38.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aldex2"
 aliases:

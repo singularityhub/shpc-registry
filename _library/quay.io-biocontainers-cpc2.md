@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cpc2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpc2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpc2/container.yaml"
-updated_at: "2026-01-24 04:09:51.590358"
+updated_at: "2026-01-25 04:30:53.258408"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cpc2"
 aliases:

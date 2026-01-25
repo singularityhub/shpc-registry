@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-data-dump"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-dump/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-dump/container.yaml"
-updated_at: "2026-01-24 04:13:48.904083"
+updated_at: "2026-01-25 04:35:21.841033"
 latest: "1.25--pl5321h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/perl-data-dump"
 aliases:
