@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/giatools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for giatools
 latest:
-  0.6.0--pyhdfd78af_0: 
-    sha256:73b0d99ab87590d5da264fc7dac25b25843c337c1c9f563516e78a6d7133f092
+  0.7.3--pyhdfd78af_0: 
+    sha256:6a4aa4e97ceb1e72cd10ea3a841d30cfecfe48aab3af022c3b8e75d596d89bde
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:724daa314753502508037844637a3f3341b1647b0744dd9c58cd97b3e7301fbe
@@ -23,6 +23,8 @@ tags:
     sha256:73b0d99ab87590d5da264fc7dac25b25843c337c1c9f563516e78a6d7133f092
   0.5.2--pyhdfd78af_0: 
     sha256:a2163c8b25f01ceb744d6cf272d655285f97bafc44c5e37eeb71a64c8df47c37
+  0.7.3--pyhdfd78af_0: 
+    sha256:6a4aa4e97ceb1e72cd10ea3a841d30cfecfe48aab3af022c3b8e75d596d89bde
 docker: quay.io/biocontainers/giatools
 aliases:
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp

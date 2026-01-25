@@ -38,46 +38,46 @@ tags:
     sha256:e75cb1b69cbc4194bf22a7d3216b001972ef84b92449a283b03aaf7064bcc118
   '2022-10-31': 
     sha256:a79b6a40dc54e0bf1ca9f5a585f2a6efd06a6eed9f93750ee93ed98a2ef384c6
-  '2022-12-19': 'crane digest jupyter/scipy-notebook:2022-12-19: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2022-11-28': 'crane digest jupyter/scipy-notebook:2022-11-28: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-01-24': 'crane digest jupyter/scipy-notebook:2023-01-24: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2022-12-30': 'crane digest jupyter/scipy-notebook:2022-12-30: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-02-20': 'crane digest jupyter/scipy-notebook:2023-02-20: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-01-30': 'crane digest jupyter/scipy-notebook:2023-01-30: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-03-20': 'crane digest jupyter/scipy-notebook:2023-03-20: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-02-28': 'crane digest jupyter/scipy-notebook:2023-02-28: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-04-24': 'crane digest jupyter/scipy-notebook:2023-04-24: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-03-27': 'crane digest jupyter/scipy-notebook:2023-03-27: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-05-25': 'crane digest jupyter/scipy-notebook:2023-05-25: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-04-27': 'crane digest jupyter/scipy-notebook:2023-04-27: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-06-23': 'crane digest jupyter/scipy-notebook:2023-06-23: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-05-30': 'crane digest jupyter/scipy-notebook:2023-05-30: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-07-25': 'crane digest jupyter/scipy-notebook:2023-07-25: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-06-29': 'crane digest jupyter/scipy-notebook:2023-06-29: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-08-25': 'crane digest jupyter/scipy-notebook:2023-08-25: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-07-31': 'crane digest jupyter/scipy-notebook:2023-07-31: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-09-25': 'crane digest jupyter/scipy-notebook:2023-09-25: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '2023-08-28': 'crane digest jupyter/scipy-notebook:2023-08-28: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  '2022-12-19': 
+    sha256:41a5eff21bcee17f2a916c7249cd8544658c6447b88083f0290753fef00486c6
+  '2022-11-28': 
+    sha256:e5895d35fc482db22c0bb19b8485935bcabecfb414acf6ee8ec9f3d62c3f40bd
+  '2023-01-24': 
+    sha256:52abdd6f7ecb85f9054a97b4e838169250b06af59dcd6922dfbca31941429d5c
+  '2022-12-30': 
+    sha256:548d131372481816c5c126f578cb212c1ed57dbc73c3c85be7ac8bca65f85a51
+  '2023-02-20': 
+    sha256:39001013292ae723e183f856f21e230c98b0a96f61af26a1e755741040133fbc
+  '2023-01-30': 
+    sha256:d309b719420e9319a5a06bbc41c42df665436893b480bdf0b15c256e4638babf
+  '2023-03-20': 
+    sha256:354f884490a4991306cef5b9798c4f4c2da81745aef91c5570f1baa291de75ea
+  '2023-02-28': 
+    sha256:65a78e7a51bc9584414e36a61735937a2ee092eff6815e6e38c01e4c5e72bc2d
+  '2023-04-24': 
+    sha256:2035a5157c7fd199b884eb30449682359c82ad75c5a26742ebf6aeb08ceb93f7
+  '2023-03-27': 
+    sha256:7a144455200808d68ba448fc126745a4a601fc312425cb53995b852090fda380
+  '2023-05-25': 
+    sha256:1a9690d4b93d81915aa9cb51cf2d83ee140149268949aa5c76431418c5c117b0
+  '2023-04-27': 
+    sha256:dc04d8fad24cd4ac555db0c6d3652ecd7b6255798a8328ffe62848ecd59f813b
+  '2023-06-23': 
+    sha256:3d01536a4dd7122c2398735b8f3ca7bbf551f50796a16eab64b5746381303331
+  '2023-05-30': 
+    sha256:fda677c76b1be21772094c75432f1d3288ffcebc3da7ebd2ac6813dd17272f08
+  '2023-07-25': 
+    sha256:d5b8b55f5ac380016f314122ae3fa97f0196ebd8653f279e31c787f38575744f
+  '2023-06-29': 
+    sha256:bef52244a0264e97eb404250ccb2321bf8c6f65220762048d4030a3713b9682c
+  '2023-08-25': 
+    sha256:71660da9cc4253dc88779440f3c401e67664936bead2aa9b76c8d2b638c7fe07
+  '2023-07-31': 
+    sha256:90c8f2aa5e52b6ca0a2d104fda1b4b93c36dba94324ef9d16ce0e51cb2045202
+  '2023-09-25': 
+    sha256:8325f36f962d186fb3460478fc973cb0a4db5aa9687f427cd6e31ccb0bacaf12
+  '2023-08-28': 
+    sha256:6d18809e63b22500da14e0eee7dabb7db63374f6c0619fe17668310833a0ac57
   '2023-10-20': 'crane digest jupyter/scipy-notebook:2023-10-20: TOOMANYREQUESTS:
     You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 aliases:

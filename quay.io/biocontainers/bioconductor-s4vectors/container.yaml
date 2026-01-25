@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-s4vectors
 latest:
-  0.44.0--r44h3df3fcb_1: 
-    sha256:68e0bcab0089f8501c3127ef1ecd7b80d6a669092b6e1c30e0f4e9b446ff5ca8
+  0.48.0--r45h3df3fcb_0: 
+    sha256:e1b4d4dd5cec100276d54819c892f727535bdf3414fd523141810f7f5d35157a
 tags:
   0.9.0--r3.3.1_0: 
     sha256:c438cddbc73859fcfe13f6152b9f6e73282a9c90e177266eba6f457ca8e64847
@@ -30,6 +30,8 @@ tags:
     sha256:11f222ad239e8d63ae4b2239eec0716c3d842c5fc9e670ed66b2c19e06204a3e
   0.44.0--r44h3df3fcb_1: 
     sha256:68e0bcab0089f8501c3127ef1ecd7b80d6a669092b6e1c30e0f4e9b446ff5ca8
+  0.48.0--r45h3df3fcb_0: 
+    sha256:e1b4d4dd5cec100276d54819c892f727535bdf3414fd523141810f7f5d35157a
 docker: quay.io/biocontainers/bioconductor-s4vectors
 aliases:
   pngcp: /usr/local/bin/pngcp

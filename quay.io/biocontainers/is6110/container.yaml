@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/is6110
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for is6110
 latest:
-  0.4.0--pyh7e72e81_0: 
-    sha256:9e5c697ca657bf7d86f3367e76dfde9e76e4092cd8478503aa31a0790ccf083c
+  0.5.0--pyh7e72e81_0: 
+    sha256:8b8c4df1b9972af94e3dcd5482d7d67b3a2725cdf61fcb843892a254d667d7ac
 tags:
   0.4.0--pyh7e72e81_0: 
     sha256:9e5c697ca657bf7d86f3367e76dfde9e76e4092cd8478503aa31a0790ccf083c
+  0.5.0--pyh7e72e81_0: 
+    sha256:8b8c4df1b9972af94e3dcd5482d7d67b3a2725cdf61fcb843892a254d667d7ac
 docker: quay.io/biocontainers/is6110
 aliases:
   extract-clipped-reads: /usr/local/bin/extract-clipped-reads

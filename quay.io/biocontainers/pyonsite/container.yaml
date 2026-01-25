@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pyonsite
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyonsite
 latest:
-  0.0.1--pyhdfd78af_0: 
-    sha256:9b1b9e196eccd6aae8ffe3005b951f5471d464dd925a3a94c05b3b1de0eee810
+  0.0.2--pyhdfd78af_0: 
+    sha256:0698b39f2b78028412df3431f48ce7c91e7661191deab6cf527512b74e7eeab8
 tags:
   0.0.1--pyhdfd78af_0: 
     sha256:9b1b9e196eccd6aae8ffe3005b951f5471d464dd925a3a94c05b3b1de0eee810
+  0.0.2--pyhdfd78af_0: 
+    sha256:0698b39f2b78028412df3431f48ce7c91e7661191deab6cf527512b74e7eeab8
 docker: quay.io/biocontainers/pyonsite
 aliases:
   androiddeployqt6: /usr/local/bin/androiddeployqt6
