@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/admixtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/admixtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/admixtools/container.yaml"
-updated_at: "2026-01-26 04:14:31.768692"
+updated_at: "2026-01-26 04:35:48.617346"
 latest: "8.0.2--h75d7a4a_0"
 container_url: "https://biocontainers.pro/tools/admixtools"
 aliases:

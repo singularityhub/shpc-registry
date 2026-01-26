@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-recetox-xmsannotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-recetox-xmsannotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-xmsannotator/container.yaml"
-updated_at: "2026-01-26 04:06:30.330099"
+updated_at: "2026-01-26 04:28:28.448223"
 latest: "0.10.0--r42h78b79e7_1"
 container_url: "https://biocontainers.pro/tools/r-recetox-xmsannotator"
 aliases:
