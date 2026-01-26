@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bubblefinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bubblefinder
+latest:
+  1.0.3--h503566f_0: 
+    sha256:3bafccf2c2c3b7b667bf56105b6323058fbd5da9969fa31e33e8c7ec934c9487
+tags:
+  1.0.3--h503566f_0: 
+    sha256:3bafccf2c2c3b7b667bf56105b6323058fbd5da9969fa31e33e8c7ec934c9487
+docker: quay.io/biocontainers/bubblefinder
+aliases:
+  BubbleFinder: /usr/local/bin/BubbleFinder
+  snarls_bf: /usr/local/bin/snarls_bf
