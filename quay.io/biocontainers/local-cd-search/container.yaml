@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/local-cd-search
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for local-cd-search
 latest:
-  0.3.0--pyhdfd78af_0: 
-    sha256:abf22216ebbdbe87e51663b12768b5ea57668f111f7c4cac5b066fa46c71b0ad
+  0.3.1--pyhdfd78af_0: 
+    sha256:b8f31325911c2b8c2c07dde12dad625785e3f45e177974edf3b4286e52b766e1
 tags:
   0.3.0--pyhdfd78af_0: 
     sha256:abf22216ebbdbe87e51663b12768b5ea57668f111f7c4cac5b066fa46c71b0ad
+  0.3.1--pyhdfd78af_0: 
+    sha256:b8f31325911c2b8c2c07dde12dad625785e3f45e177974edf3b4286e52b766e1
 docker: quay.io/biocontainers/local-cd-search
 aliases:
   local-cd-search: /usr/local/bin/local-cd-search

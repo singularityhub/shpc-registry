@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/gmm-demux
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gmm-demux
 latest:
-  0.2.2.3--pyh7cba7a3_0: 
-    sha256:f69abf68d19ba6a8e653a69b75360c25ab5af36c75fb580df70bdbf900f96f56
+  0.2.2.3--pyh7e72e81_1: 
+    sha256:3c9bc7d5c8eef000a9b3c9711ab41c3f1e622ac2cfcaba3a597cfb906bea5e9e
 tags:
   0.2.2.3--pyh7cba7a3_0: 
     sha256:f69abf68d19ba6a8e653a69b75360c25ab5af36c75fb580df70bdbf900f96f56
+  0.2.2.3--pyh7e72e81_1: 
+    sha256:3c9bc7d5c8eef000a9b3c9711ab41c3f1e622ac2cfcaba3a597cfb906bea5e9e
 docker: quay.io/biocontainers/gmm-demux
 aliases:
   GMM-demux: /usr/local/bin/GMM-demux
