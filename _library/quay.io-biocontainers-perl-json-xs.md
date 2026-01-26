@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-json-xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-xs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-xs/container.yaml"
-updated_at: "2026-01-25 04:07:33.058964"
+updated_at: "2026-01-26 04:09:17.364122"
 latest: "4.04--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/perl-json-xs"
 aliases:

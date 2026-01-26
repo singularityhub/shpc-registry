@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/htstream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htstream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htstream/container.yaml"
-updated_at: "2026-01-25 04:32:57.168374"
+updated_at: "2026-01-26 04:33:08.402573"
 latest: "1.4.1--hbefcdb2_2"
 container_url: "https://biocontainers.pro/tools/htstream"
 aliases:

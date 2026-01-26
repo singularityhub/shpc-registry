@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/is6110"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/is6110/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/is6110/container.yaml"
-updated_at: "2026-01-25 04:47:31.686556"
-latest: "0.4.0--pyh7e72e81_0"
+updated_at: "2026-01-26 04:46:19.121427"
+latest: "0.5.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/is6110"
 aliases:
  - "extract-clipped-reads"
@@ -37,8 +37,9 @@ aliases:
  - "samtools.pl"
 versions:
  - "0.4.0--pyh7e72e81_0"
+ - "0.5.0--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for is6110"
-config: {"url": "https://biocontainers.pro/tools/is6110", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for is6110", "latest": {"0.4.0--pyh7e72e81_0": "sha256:9e5c697ca657bf7d86f3367e76dfde9e76e4092cd8478503aa31a0790ccf083c"}, "tags": {"0.4.0--pyh7e72e81_0": "sha256:9e5c697ca657bf7d86f3367e76dfde9e76e4092cd8478503aa31a0790ccf083c"}, "docker": "quay.io/biocontainers/is6110", "aliases": {"extract-clipped-reads": "/usr/local/bin/extract-clipped-reads", "is6110": "/usr/local/bin/is6110", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl"}}
+config: {"url": "https://biocontainers.pro/tools/is6110", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for is6110", "latest": {"0.5.0--pyh7e72e81_0": "sha256:8b8c4df1b9972af94e3dcd5482d7d67b3a2725cdf61fcb843892a254d667d7ac"}, "tags": {"0.4.0--pyh7e72e81_0": "sha256:9e5c697ca657bf7d86f3367e76dfde9e76e4092cd8478503aa31a0790ccf083c", "0.5.0--pyh7e72e81_0": "sha256:8b8c4df1b9972af94e3dcd5482d7d67b3a2725cdf61fcb843892a254d667d7ac"}, "docker": "quay.io/biocontainers/is6110", "aliases": {"extract-clipped-reads": "/usr/local/bin/extract-clipped-reads", "is6110": "/usr/local/bin/is6110", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "tqdm": "/usr/local/bin/tqdm", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/is6110.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/is6110
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/is6110:0.4.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/is6110:0.5.0--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/is6110/0.4.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/is6110/0.4.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/is6110/0.5.0--pyh7e72e81_0
+$ module help quay.io/biocontainers/is6110/0.5.0--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

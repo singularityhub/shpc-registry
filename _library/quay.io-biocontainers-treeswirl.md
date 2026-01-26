@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treeswirl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treeswirl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treeswirl/container.yaml"
-updated_at: "2026-01-25 04:52:02.520201"
+updated_at: "2026-01-26 04:50:24.330542"
 latest: "2.0.0--h778a338_0"
 container_url: "https://biocontainers.pro/tools/treeswirl"
 aliases:

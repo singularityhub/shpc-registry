@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/covar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/covar/container.yaml"
-updated_at: "2026-01-25 04:40:09.105638"
-latest: "0.2.0--h3dc2dae_1"
+updated_at: "2026-01-26 04:39:44.694647"
+latest: "0.3.0--h3dc2dae_0"
 container_url: "https://biocontainers.pro/tools/covar"
 aliases:
  - "covar"
 versions:
  - "0.2.0--h3dc2dae_1"
+ - "0.3.0--h3dc2dae_0"
 description: "singularity registry hpc automated addition for covar"
-config: {"url": "https://biocontainers.pro/tools/covar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for covar", "latest": {"0.2.0--h3dc2dae_1": "sha256:e3ef45c91617372eb882ec4fcd20950b912149f71f7939e2f9e77d6337ce8d95"}, "tags": {"0.2.0--h3dc2dae_1": "sha256:e3ef45c91617372eb882ec4fcd20950b912149f71f7939e2f9e77d6337ce8d95"}, "docker": "quay.io/biocontainers/covar", "aliases": {"covar": "/usr/local/bin/covar"}}
+config: {"url": "https://biocontainers.pro/tools/covar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for covar", "latest": {"0.3.0--h3dc2dae_0": "sha256:a01f396dac3d5248353ea58ca7da7c7ceb4ce2816fc92ea59f39706e03b1bf8b"}, "tags": {"0.2.0--h3dc2dae_1": "sha256:e3ef45c91617372eb882ec4fcd20950b912149f71f7939e2f9e77d6337ce8d95", "0.3.0--h3dc2dae_0": "sha256:a01f396dac3d5248353ea58ca7da7c7ceb4ce2816fc92ea59f39706e03b1bf8b"}, "docker": "quay.io/biocontainers/covar", "aliases": {"covar": "/usr/local/bin/covar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/covar.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/covar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/covar:0.2.0--h3dc2dae_1
+$ shpc install quay.io/biocontainers/covar:0.3.0--h3dc2dae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/covar/0.2.0--h3dc2dae_1
-$ module help quay.io/biocontainers/covar/0.2.0--h3dc2dae_1
+$ module load quay.io/biocontainers/covar/0.3.0--h3dc2dae_0
+$ module help quay.io/biocontainers/covar/0.3.0--h3dc2dae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyonsite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyonsite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyonsite/container.yaml"
-updated_at: "2026-01-25 04:04:41.040041"
-latest: "0.0.1--pyhdfd78af_0"
+updated_at: "2026-01-26 04:06:40.860300"
+latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyonsite"
 aliases:
  - "androiddeployqt6"
@@ -59,8 +59,9 @@ aliases:
  - "SAX2Print"
 versions:
  - "0.0.1--pyhdfd78af_0"
+ - "0.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pyonsite"
-config: {"url": "https://biocontainers.pro/tools/pyonsite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyonsite", "latest": {"0.0.1--pyhdfd78af_0": "sha256:9b1b9e196eccd6aae8ffe3005b951f5471d464dd925a3a94c05b3b1de0eee810"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:9b1b9e196eccd6aae8ffe3005b951f5471d464dd925a3a94c05b3b1de0eee810"}, "docker": "quay.io/biocontainers/pyonsite", "aliases": {"androiddeployqt6": "/usr/local/bin/androiddeployqt6", "ascore": "/usr/local/bin/ascore", "assistant6": "/usr/local/bin/assistant6", "designer6": "/usr/local/bin/designer6", "linguist6": "/usr/local/bin/linguist6", "lucxor": "/usr/local/bin/lucxor", "onsite": "/usr/local/bin/onsite", "phospho-scoring": "/usr/local/bin/phospho-scoring", "phosphors": "/usr/local/bin/phosphors", "phosphors-scoring": "/usr/local/bin/phosphors-scoring", "pixeltool6": "/usr/local/bin/pixeltool6", "qdbus6": "/usr/local/bin/qdbus6", "qdbusviewer6": "/usr/local/bin/qdbusviewer6", "qdistancefieldgenerator6": "/usr/local/bin/qdistancefieldgenerator6", "qdoc6": "/usr/local/bin/qdoc6", "qmake6": "/usr/local/bin/qmake6", "qml6": "/usr/local/bin/qml6", "qmleasing6": "/usr/local/bin/qmleasing6", "qmlls6": "/usr/local/bin/qmlls6", "qmlpreview6": "/usr/local/bin/qmlpreview6", "qmlscene6": "/usr/local/bin/qmlscene6", "qt6.conf": "/usr/local/bin/qt6.conf", "qtdiag6": "/usr/local/bin/qtdiag6", "qtplugininfo6": "/usr/local/bin/qtplugininfo6", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "wayland-scanner": "/usr/local/bin/wayland-scanner", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
+config: {"url": "https://biocontainers.pro/tools/pyonsite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyonsite", "latest": {"0.0.2--pyhdfd78af_0": "sha256:0698b39f2b78028412df3431f48ce7c91e7661191deab6cf527512b74e7eeab8"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:9b1b9e196eccd6aae8ffe3005b951f5471d464dd925a3a94c05b3b1de0eee810", "0.0.2--pyhdfd78af_0": "sha256:0698b39f2b78028412df3431f48ce7c91e7661191deab6cf527512b74e7eeab8"}, "docker": "quay.io/biocontainers/pyonsite", "aliases": {"androiddeployqt6": "/usr/local/bin/androiddeployqt6", "ascore": "/usr/local/bin/ascore", "assistant6": "/usr/local/bin/assistant6", "designer6": "/usr/local/bin/designer6", "linguist6": "/usr/local/bin/linguist6", "lucxor": "/usr/local/bin/lucxor", "onsite": "/usr/local/bin/onsite", "phospho-scoring": "/usr/local/bin/phospho-scoring", "phosphors": "/usr/local/bin/phosphors", "phosphors-scoring": "/usr/local/bin/phosphors-scoring", "pixeltool6": "/usr/local/bin/pixeltool6", "qdbus6": "/usr/local/bin/qdbus6", "qdbusviewer6": "/usr/local/bin/qdbusviewer6", "qdistancefieldgenerator6": "/usr/local/bin/qdistancefieldgenerator6", "qdoc6": "/usr/local/bin/qdoc6", "qmake6": "/usr/local/bin/qmake6", "qml6": "/usr/local/bin/qml6", "qmleasing6": "/usr/local/bin/qmleasing6", "qmlls6": "/usr/local/bin/qmlls6", "qmlpreview6": "/usr/local/bin/qmlpreview6", "qmlscene6": "/usr/local/bin/qmlscene6", "qt6.conf": "/usr/local/bin/qt6.conf", "qtdiag6": "/usr/local/bin/qtdiag6", "qtplugininfo6": "/usr/local/bin/qtplugininfo6", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "wayland-scanner": "/usr/local/bin/wayland-scanner", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyonsite.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/pyonsite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyonsite:0.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyonsite:0.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyonsite/0.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyonsite/0.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyonsite/0.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyonsite/0.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
