@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ldrtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ldrtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ldrtools/container.yaml"
-updated_at: "2026-01-26 04:47:29.477645"
+updated_at: "2026-01-27 04:18:49.065385"
 latest: "0.2_1--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-ldrtools"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqmap/container.yaml"
-updated_at: "2026-01-26 04:52:35.372565"
+updated_at: "2026-01-27 04:24:42.221267"
 latest: "2.46.0--r40h037d062_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqmap"
 aliases:

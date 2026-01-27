@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sainsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sainsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sainsc/container.yaml"
-updated_at: "2026-01-26 05:08:10.033653"
+updated_at: "2026-01-27 04:41:59.384341"
 latest: "0.3.1--py311h5e00ca1_0"
 container_url: "https://biocontainers.pro/tools/sainsc"
 aliases:

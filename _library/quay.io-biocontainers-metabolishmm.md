@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metabolishmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabolishmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabolishmm/container.yaml"
-updated_at: "2026-01-26 04:50:16.957825"
+updated_at: "2026-01-27 04:22:02.036143"
 latest: "2.22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metabolishmm"
 aliases:

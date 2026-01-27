@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gmm-demux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmm-demux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmm-demux/container.yaml"
-updated_at: "2026-01-26 04:48:13.822043"
-latest: "0.2.2.3--pyh7cba7a3_0"
+updated_at: "2026-01-27 04:19:39.783143"
+latest: "0.2.2.3--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/gmm-demux"
 aliases:
  - "GMM-demux"
@@ -17,8 +17,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "0.2.2.3--pyh7cba7a3_0"
+ - "0.2.2.3--pyh7e72e81_1"
 description: "singularity registry hpc automated addition for gmm-demux"
-config: {"url": "https://biocontainers.pro/tools/gmm-demux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gmm-demux", "latest": {"0.2.2.3--pyh7cba7a3_0": "sha256:f69abf68d19ba6a8e653a69b75360c25ab5af36c75fb580df70bdbf900f96f56"}, "tags": {"0.2.2.3--pyh7cba7a3_0": "sha256:f69abf68d19ba6a8e653a69b75360c25ab5af36c75fb580df70bdbf900f96f56"}, "docker": "quay.io/biocontainers/gmm-demux", "aliases": {"GMM-demux": "/usr/local/bin/GMM-demux", "tabulate": "/usr/local/bin/tabulate", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/gmm-demux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gmm-demux", "latest": {"0.2.2.3--pyh7e72e81_1": "sha256:3c9bc7d5c8eef000a9b3c9711ab41c3f1e622ac2cfcaba3a597cfb906bea5e9e"}, "tags": {"0.2.2.3--pyh7cba7a3_0": "sha256:f69abf68d19ba6a8e653a69b75360c25ab5af36c75fb580df70bdbf900f96f56", "0.2.2.3--pyh7e72e81_1": "sha256:3c9bc7d5c8eef000a9b3c9711ab41c3f1e622ac2cfcaba3a597cfb906bea5e9e"}, "docker": "quay.io/biocontainers/gmm-demux", "aliases": {"GMM-demux": "/usr/local/bin/GMM-demux", "tabulate": "/usr/local/bin/tabulate", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gmm-demux.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/gmm-demux
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gmm-demux:0.2.2.3--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/gmm-demux:0.2.2.3--pyh7e72e81_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gmm-demux/0.2.2.3--pyh7cba7a3_0
-$ module help quay.io/biocontainers/gmm-demux/0.2.2.3--pyh7cba7a3_0
+$ module load quay.io/biocontainers/gmm-demux/0.2.2.3--pyh7e72e81_1
+$ module help quay.io/biocontainers/gmm-demux/0.2.2.3--pyh7e72e81_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

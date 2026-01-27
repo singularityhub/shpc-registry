@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qualifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qualifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qualifier/container.yaml"
-updated_at: "2026-01-26 04:38:28.612392"
+updated_at: "2026-01-27 04:08:35.954318"
 latest: "1.29.1--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qualifier"
 aliases:

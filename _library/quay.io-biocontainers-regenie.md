@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/regenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/regenie/container.yaml"
-updated_at: "2026-01-26 04:49:47.547061"
+updated_at: "2026-01-27 04:21:27.308265"
 latest: "4.1.2--he9e75c4_0"
 container_url: "https://biocontainers.pro/tools/regenie"
 aliases:

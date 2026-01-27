@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pkgdeptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pkgdeptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pkgdeptools/container.yaml"
-updated_at: "2026-01-26 04:35:58.588741"
+updated_at: "2026-01-27 04:05:37.391336"
 latest: "1.63.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pkgdeptools"
 

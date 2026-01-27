@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rtk/container.yaml"
-updated_at: "2026-01-26 04:45:45.175764"
+updated_at: "2026-01-27 04:16:54.216027"
 latest: "0.93.2--h077b44d_6"
 container_url: "https://biocontainers.pro/tools/rtk"
 aliases:

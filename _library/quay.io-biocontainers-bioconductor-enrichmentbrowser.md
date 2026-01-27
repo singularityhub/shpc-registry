@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enrichmentbrowser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichmentbrowser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichmentbrowser/container.yaml"
-updated_at: "2026-01-26 04:27:17.298682"
+updated_at: "2026-01-27 03:55:52.428582"
 latest: "2.36.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichmentbrowser"
 

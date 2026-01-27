@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dunn.test"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dunn.test/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dunn.test/container.yaml"
-updated_at: "2026-01-26 04:56:19.935032"
+updated_at: "2026-01-27 04:28:56.716220"
 latest: "1.3.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-dunn.test"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/local-cd-search"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/local-cd-search/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/local-cd-search/container.yaml"
-updated_at: "2026-01-26 05:07:48.993206"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2026-01-27 04:41:37.406149"
+latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/local-cd-search"
 aliases:
  - "local-cd-search"
@@ -36,8 +36,9 @@ aliases:
  - "bsmp2info"
 versions:
  - "0.3.0--pyhdfd78af_0"
+ - "0.3.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for local-cd-search"
-config: {"url": "https://biocontainers.pro/tools/local-cd-search", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for local-cd-search", "latest": {"0.3.0--pyhdfd78af_0": "sha256:abf22216ebbdbe87e51663b12768b5ea57668f111f7c4cac5b066fa46c71b0ad"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:abf22216ebbdbe87e51663b12768b5ea57668f111f7c4cac5b066fa46c71b0ad"}, "docker": "quay.io/biocontainers/local-cd-search", "aliases": {"local-cd-search": "/usr/local/bin/local-cd-search", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "rich-click": "/usr/local/bin/rich-click", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "bsmp2info": "/usr/local/bin/bsmp2info"}}
+config: {"url": "https://biocontainers.pro/tools/local-cd-search", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for local-cd-search", "latest": {"0.3.1--pyhdfd78af_0": "sha256:b8f31325911c2b8c2c07dde12dad625785e3f45e177974edf3b4286e52b766e1"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:abf22216ebbdbe87e51663b12768b5ea57668f111f7c4cac5b066fa46c71b0ad", "0.3.1--pyhdfd78af_0": "sha256:b8f31325911c2b8c2c07dde12dad625785e3f45e177974edf3b4286e52b766e1"}, "docker": "quay.io/biocontainers/local-cd-search", "aliases": {"local-cd-search": "/usr/local/bin/local-cd-search", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "rich-click": "/usr/local/bin/rich-click", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "bsmp2info": "/usr/local/bin/bsmp2info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/local-cd-search.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/local-cd-search
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/local-cd-search:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/local-cd-search:0.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/local-cd-search/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/local-cd-search/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/local-cd-search/0.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/local-cd-search/0.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
