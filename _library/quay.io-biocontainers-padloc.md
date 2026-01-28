@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/padloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/padloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/padloc/container.yaml"
-updated_at: "2026-01-27 04:10:25.917819"
+updated_at: "2026-01-28 04:07:35.380713"
 latest: "2.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/padloc"
 aliases:

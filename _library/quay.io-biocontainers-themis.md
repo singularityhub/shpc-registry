@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/themis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/themis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/themis/container.yaml"
-updated_at: "2026-01-27 04:33:07.681770"
+updated_at: "2026-01-28 04:30:58.319725"
 latest: "0.1.0--py314h0cb7dc8_0"
 container_url: "https://biocontainers.pro/tools/themis"
 aliases:

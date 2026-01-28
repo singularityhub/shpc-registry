@@ -4,7 +4,7 @@ name:  "amdih/namd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/namd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/namd/container.yaml"
-updated_at: "2026-01-27 04:45:58.069907"
+updated_at: "2026-01-28 04:44:16.089135"
 latest: "2.15a2-20211101"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/namd"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "2.15a2-20211101"
  - "2.15a2"
 description: "NAMD is a molecular dynamics package designed for simulating the movement of biomolecules over time."
-config: {"docker": "amdih/namd", "url": "https://www.amd.com/en/technologies/infinity-hub/namd", "description": "NAMD is a molecular dynamics package designed for simulating the movement of biomolecules over time.", "maintainer": "@cristiandipietrantonio", "latest": {"2.15a2-20211101": "sha256:b85122abb64ed3db9ee2981eadb88ef6262eaa7f116cdadbe7f35df12be4f3c0"}, "tags": {"2.15a2-20211101": "sha256:b85122abb64ed3db9ee2981eadb88ef6262eaa7f116cdadbe7f35df12be4f3c0", "2.15a2": "sha256:f516c3a214bdcbabbf8d0302872ecf4f9904a3a99415f2ee597c1a02721366d6"}, "aliases": [{"name": "charmrun", "command": "/opt/namd/bin/charmrun"}, {"name": "namd2", "command": "/opt/namd/bin/namd2"}]}
+config: {"docker": "amdih/namd", "url": "https://www.amd.com/en/technologies/infinity-hub/namd", "description": "NAMD is a molecular dynamics package designed for simulating the movement of biomolecules over time.", "maintainer": "@cristiandipietrantonio", "latest": {"2.15a2-20211101": "crane digest amdih/namd:2.15a2-20211101: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "tags": {"2.15a2-20211101": "crane digest amdih/namd:2.15a2-20211101: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2.15a2": "crane digest amdih/namd:2.15a2: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "aliases": [{"name": "charmrun", "command": "/opt/namd/bin/charmrun"}, {"name": "namd2", "command": "/opt/namd/bin/namd2"}]}
 ---
 
 This module is a singularity container wrapper for amdih/namd.

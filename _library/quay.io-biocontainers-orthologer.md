@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orthologer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthologer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthologer/container.yaml"
-updated_at: "2026-01-27 04:03:18.483566"
-latest: "3.8.2--py312hf097cbd_0"
+updated_at: "2026-01-28 04:00:59.422598"
+latest: "3.9.0--py312hf097cbd_0"
 container_url: "https://biocontainers.pro/tools/orthologer"
 aliases:
  - "bash"
@@ -58,8 +58,9 @@ versions:
  - "3.7.1--py311hf097cbd_0"
  - "3.8.1--py312hf097cbd_0"
  - "3.8.2--py312hf097cbd_0"
+ - "3.9.0--py312hf097cbd_0"
 description: "singularity registry hpc automated addition for orthologer"
-config: {"url": "https://biocontainers.pro/tools/orthologer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orthologer", "latest": {"3.8.2--py312hf097cbd_0": "sha256:9d7b1ebaa2162b1d46acbbf0afcc7008251bbee2ae19ea48740e68c8cfd5961f"}, "tags": {"3.3.2--hdbdd923_0": "sha256:6c844bf2348c886a4f3d67edb36b1ac293afcad320a0b15f56d2a6b394f2973e", "3.4.1--hdbdd923_0": "sha256:9cec8a5d1ffec5b143c65a6fe42c03ac73ed37eb173fb07fcd794522ec9413ae", "3.5.0--hdbdd923_0": "sha256:ea4bbd663fb06aa2f36f974ebf4c6735ae147deb176f411feb09f2df08c0f825", "3.4.2--hdbdd923_0": "sha256:eea2c7bbd1f46c71a6de8be7c5b18b303cecaef526c260f2b5e4bc3c16c29d7b", "3.5.0--h503566f_1": "sha256:b32d4805820234b80859addb5da7940dc39f8fe15c0d0ad21aa7b64a51566bf5", "3.7.1--py311hf097cbd_0": "sha256:0070c14991c25c2d51003bcc0a0a45a79ee93b50f8978dc06ed289e9fdb0217d", "3.8.1--py312hf097cbd_0": "sha256:642e32da7663b8ba5fb1036e59fbaa6a90acf5895c6a8d59e3a18b2d1fc18423", "3.8.2--py312hf097cbd_0": "sha256:9d7b1ebaa2162b1d46acbbf0afcc7008251bbee2ae19ea48740e68c8cfd5961f"}, "docker": "quay.io/biocontainers/orthologer", "aliases": {"bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "brhclus": "/usr/local/bin/brhclus", "build_import_file": "/usr/local/bin/build_import_file", "cmpclus": "/usr/local/bin/cmpclus", "evolrate": "/usr/local/bin/evolrate", "extractpairs": "/usr/local/bin/extractpairs", "findbrh": "/usr/local/bin/findbrh", "getclus": "/usr/local/bin/getclus", "getinpar": "/usr/local/bin/getinpar", "indexdb": "/usr/local/bin/indexdb", "mergeinpar": "/usr/local/bin/mergeinpar", "orthologer": "/usr/local/bin/orthologer", "orthomapper": "/usr/local/bin/orthomapper", "splitgenes": "/usr/local/bin/splitgenes", "statclus": "/usr/local/bin/statclus", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "rsync-ssl": "/usr/local/bin/rsync-ssl", "aria2c": "/usr/local/bin/aria2c", "rsync": "/usr/local/bin/rsync", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme"}}
+config: {"url": "https://biocontainers.pro/tools/orthologer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orthologer", "latest": {"3.9.0--py312hf097cbd_0": "sha256:0339cb2c950b3161e04236ff673a9abb0a1324329b533a885df99b8704c852c2"}, "tags": {"3.3.2--hdbdd923_0": "sha256:6c844bf2348c886a4f3d67edb36b1ac293afcad320a0b15f56d2a6b394f2973e", "3.4.1--hdbdd923_0": "sha256:9cec8a5d1ffec5b143c65a6fe42c03ac73ed37eb173fb07fcd794522ec9413ae", "3.5.0--hdbdd923_0": "sha256:ea4bbd663fb06aa2f36f974ebf4c6735ae147deb176f411feb09f2df08c0f825", "3.4.2--hdbdd923_0": "sha256:eea2c7bbd1f46c71a6de8be7c5b18b303cecaef526c260f2b5e4bc3c16c29d7b", "3.5.0--h503566f_1": "sha256:b32d4805820234b80859addb5da7940dc39f8fe15c0d0ad21aa7b64a51566bf5", "3.7.1--py311hf097cbd_0": "sha256:0070c14991c25c2d51003bcc0a0a45a79ee93b50f8978dc06ed289e9fdb0217d", "3.8.1--py312hf097cbd_0": "sha256:642e32da7663b8ba5fb1036e59fbaa6a90acf5895c6a8d59e3a18b2d1fc18423", "3.8.2--py312hf097cbd_0": "sha256:9d7b1ebaa2162b1d46acbbf0afcc7008251bbee2ae19ea48740e68c8cfd5961f", "3.9.0--py312hf097cbd_0": "sha256:0339cb2c950b3161e04236ff673a9abb0a1324329b533a885df99b8704c852c2"}, "docker": "quay.io/biocontainers/orthologer", "aliases": {"bash": "/usr/local/bin/bash", "bashbug": "/usr/local/bin/bashbug", "brhclus": "/usr/local/bin/brhclus", "build_import_file": "/usr/local/bin/build_import_file", "cmpclus": "/usr/local/bin/cmpclus", "evolrate": "/usr/local/bin/evolrate", "extractpairs": "/usr/local/bin/extractpairs", "findbrh": "/usr/local/bin/findbrh", "getclus": "/usr/local/bin/getclus", "getinpar": "/usr/local/bin/getinpar", "indexdb": "/usr/local/bin/indexdb", "mergeinpar": "/usr/local/bin/mergeinpar", "orthologer": "/usr/local/bin/orthologer", "orthomapper": "/usr/local/bin/orthomapper", "splitgenes": "/usr/local/bin/splitgenes", "statclus": "/usr/local/bin/statclus", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "rsync-ssl": "/usr/local/bin/rsync-ssl", "aria2c": "/usr/local/bin/aria2c", "rsync": "/usr/local/bin/rsync", "gawk-5.3.0": "/usr/local/bin/gawk-5.3.0", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orthologer.
@@ -74,7 +75,7 @@ $ shpc install quay.io/biocontainers/orthologer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orthologer:3.8.2--py312hf097cbd_0
+$ shpc install quay.io/biocontainers/orthologer:3.9.0--py312hf097cbd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -86,8 +87,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orthologer/3.8.2--py312hf097cbd_0
-$ module help quay.io/biocontainers/orthologer/3.8.2--py312hf097cbd_0
+$ module load quay.io/biocontainers/orthologer/3.9.0--py312hf097cbd_0
+$ module help quay.io/biocontainers/orthologer/3.9.0--py312hf097cbd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

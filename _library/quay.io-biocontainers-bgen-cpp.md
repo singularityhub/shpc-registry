@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bgen-cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bgen-cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bgen-cpp/container.yaml"
-updated_at: "2026-01-27 04:24:35.215710"
+updated_at: "2026-01-28 04:21:59.811439"
 latest: "1.1.7--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/bgen-cpp"
 aliases:

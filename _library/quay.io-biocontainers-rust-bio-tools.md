@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rust-bio-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-bio-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-bio-tools/container.yaml"
-updated_at: "2026-01-27 04:20:43.444736"
+updated_at: "2026-01-28 04:18:02.991886"
 latest: "0.42.2--h5c46d4b_3"
 container_url: "https://biocontainers.pro/tools/rust-bio-tools"
 aliases:

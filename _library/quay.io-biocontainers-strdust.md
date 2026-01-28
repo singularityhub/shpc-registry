@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strdust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strdust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strdust/container.yaml"
-updated_at: "2026-01-27 04:31:55.655256"
-latest: "0.13.0--hcdda2d0_0"
+updated_at: "2026-01-28 04:29:42.464047"
+latest: "0.14.0--hcdda2d0_0"
 container_url: "https://biocontainers.pro/tools/strdust"
 aliases:
  - "STRdust"
@@ -15,8 +15,9 @@ versions:
  - "0.11.1--hcdda2d0_0"
  - "0.11.4--hcdda2d0_0"
  - "0.13.0--hcdda2d0_0"
+ - "0.14.0--hcdda2d0_0"
 description: "singularity registry hpc automated addition for strdust"
-config: {"url": "https://biocontainers.pro/tools/strdust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strdust", "latest": {"0.13.0--hcdda2d0_0": "sha256:f8ef134564d0712052ecd782862c73124c6a91b0b95b0356423971a1884078e3"}, "tags": {"0.8.0--h5c23e0d_0": "sha256:7c2da9969be4bebb9baf48905367875696e507c76bc40a14214f023da63db81b", "0.8.2--h5c23e0d_0": "sha256:6ac7f136b26e82a4edc81bd905cd69d70305faa861023c6a59cbec017dc77a70", "0.11.1--hcdda2d0_0": "sha256:0176c7ace834fd29f116927991433a62d23bf39b4a5d4210221edf73c2f6710b", "0.11.4--hcdda2d0_0": "sha256:2cddc5a329a654f7791824996a4dd5776e040964af694283ddc1ec7ec0d832c2", "0.13.0--hcdda2d0_0": "sha256:f8ef134564d0712052ecd782862c73124c6a91b0b95b0356423971a1884078e3"}, "docker": "quay.io/biocontainers/strdust", "aliases": {"STRdust": "/usr/local/bin/STRdust"}}
+config: {"url": "https://biocontainers.pro/tools/strdust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strdust", "latest": {"0.14.0--hcdda2d0_0": "sha256:e7053bee294d8a5224973364421e1c07d1bc875884a855cdfe368297c82094b6"}, "tags": {"0.8.0--h5c23e0d_0": "sha256:7c2da9969be4bebb9baf48905367875696e507c76bc40a14214f023da63db81b", "0.8.2--h5c23e0d_0": "sha256:6ac7f136b26e82a4edc81bd905cd69d70305faa861023c6a59cbec017dc77a70", "0.11.1--hcdda2d0_0": "sha256:0176c7ace834fd29f116927991433a62d23bf39b4a5d4210221edf73c2f6710b", "0.11.4--hcdda2d0_0": "sha256:2cddc5a329a654f7791824996a4dd5776e040964af694283ddc1ec7ec0d832c2", "0.13.0--hcdda2d0_0": "sha256:f8ef134564d0712052ecd782862c73124c6a91b0b95b0356423971a1884078e3", "0.14.0--hcdda2d0_0": "sha256:e7053bee294d8a5224973364421e1c07d1bc875884a855cdfe368297c82094b6"}, "docker": "quay.io/biocontainers/strdust", "aliases": {"STRdust": "/usr/local/bin/STRdust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strdust.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/strdust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strdust:0.13.0--hcdda2d0_0
+$ shpc install quay.io/biocontainers/strdust:0.14.0--hcdda2d0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strdust/0.13.0--hcdda2d0_0
-$ module help quay.io/biocontainers/strdust/0.13.0--hcdda2d0_0
+$ module load quay.io/biocontainers/strdust/0.14.0--hcdda2d0_0
+$ module help quay.io/biocontainers/strdust/0.14.0--hcdda2d0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

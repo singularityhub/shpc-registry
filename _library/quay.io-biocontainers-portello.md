@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/portello"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/portello/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/portello/container.yaml"
-updated_at: "2026-01-27 04:39:22.236770"
-latest: "0.6.1--h9ee0642_0"
+updated_at: "2026-01-28 04:37:35.244005"
+latest: "0.7.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/portello"
 aliases:
  - "portello"
 versions:
  - "0.6.1--h9ee0642_0"
+ - "0.7.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for portello"
-config: {"url": "https://biocontainers.pro/tools/portello", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for portello", "latest": {"0.6.1--h9ee0642_0": "sha256:def24ca1ee5438abf60cd1918e373231730242dc54cb5f509e52c6030a81e656"}, "tags": {"0.6.1--h9ee0642_0": "sha256:def24ca1ee5438abf60cd1918e373231730242dc54cb5f509e52c6030a81e656"}, "docker": "quay.io/biocontainers/portello", "aliases": {"portello": "/usr/local/bin/portello"}}
+config: {"url": "https://biocontainers.pro/tools/portello", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for portello", "latest": {"0.7.0--h9ee0642_0": "sha256:c3ef615a6debbc4a7cdc2cb2e694dbf9d845971407c4876e2407970c0a94c3bb"}, "tags": {"0.6.1--h9ee0642_0": "sha256:def24ca1ee5438abf60cd1918e373231730242dc54cb5f509e52c6030a81e656", "0.7.0--h9ee0642_0": "sha256:c3ef615a6debbc4a7cdc2cb2e694dbf9d845971407c4876e2407970c0a94c3bb"}, "docker": "quay.io/biocontainers/portello", "aliases": {"portello": "/usr/local/bin/portello"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/portello.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/portello
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/portello:0.6.1--h9ee0642_0
+$ shpc install quay.io/biocontainers/portello:0.7.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/portello/0.6.1--h9ee0642_0
-$ module help quay.io/biocontainers/portello/0.6.1--h9ee0642_0
+$ module load quay.io/biocontainers/portello/0.7.0--h9ee0642_0
+$ module help quay.io/biocontainers/portello/0.7.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

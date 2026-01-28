@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hisat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hisat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hisat2/container.yaml"
-updated_at: "2026-01-27 04:01:22.708192"
-latest: "2.2.1--h503566f_8"
+updated_at: "2026-01-28 03:59:08.911396"
+latest: "2.2.2--h503566f_0"
 container_url: "https://biocontainers.pro/tools/hisat2"
 aliases:
  - "extract_exons.py"
@@ -38,8 +38,9 @@ versions:
  - "2.2.1--hdbdd923_6"
  - "2.2.1--hdbdd923_7"
  - "2.2.1--h503566f_8"
+ - "2.2.2--h503566f_0"
 description: "shpc-registry automated BioContainers addition for hisat2"
-config: {"url": "https://biocontainers.pro/tools/hisat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hisat2", "latest": {"2.2.1--h503566f_8": "sha256:718704d6194e9a17f32505d05a630c0df7b193ab24e5a827712d11355ac4f179"}, "tags": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6", "2.2.1--hdbdd923_6": "sha256:fa7d2f1afff4c054ee1a57cf37b396b4eb97e54b7a201056c678c5d8c546c89b", "2.2.1--hdbdd923_7": "sha256:e280e9812f5263b73b5e1c2c909e957703cd967357457f33ff8418e7ce58884b", "2.2.1--h503566f_8": "sha256:718704d6194e9a17f32505d05a630c0df7b193ab24e5a827712d11355ac4f179"}, "docker": "quay.io/biocontainers/hisat2", "aliases": {"extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/hisat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hisat2", "latest": {"2.2.2--h503566f_0": "sha256:8170709af57fd3fb89eed560e6cddd3827cd97a5385565c0598d4a16c4a9a83f"}, "tags": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6", "2.2.1--hdbdd923_6": "sha256:fa7d2f1afff4c054ee1a57cf37b396b4eb97e54b7a201056c678c5d8c546c89b", "2.2.1--hdbdd923_7": "sha256:e280e9812f5263b73b5e1c2c909e957703cd967357457f33ff8418e7ce58884b", "2.2.1--h503566f_8": "sha256:718704d6194e9a17f32505d05a630c0df7b193ab24e5a827712d11355ac4f179", "2.2.2--h503566f_0": "sha256:8170709af57fd3fb89eed560e6cddd3827cd97a5385565c0598d4a16c4a9a83f"}, "docker": "quay.io/biocontainers/hisat2", "aliases": {"extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hisat2.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/hisat2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hisat2:2.2.1--h503566f_8
+$ shpc install quay.io/biocontainers/hisat2:2.2.2--h503566f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hisat2/2.2.1--h503566f_8
-$ module help quay.io/biocontainers/hisat2/2.2.1--h503566f_8
+$ module load quay.io/biocontainers/hisat2/2.2.2--h503566f_0
+$ module help quay.io/biocontainers/hisat2/2.2.2--h503566f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

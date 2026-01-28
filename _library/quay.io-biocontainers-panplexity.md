@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panplexity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panplexity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panplexity/container.yaml"
-updated_at: "2026-01-27 03:56:51.100538"
+updated_at: "2026-01-28 03:54:38.957548"
 latest: "0.1.1--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/panplexity"
 aliases:

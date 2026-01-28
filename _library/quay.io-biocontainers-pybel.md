@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybel/container.yaml"
-updated_at: "2026-01-27 04:04:01.696486"
+updated_at: "2026-01-28 04:01:39.641386"
 latest: "0.13.2--py_0"
 container_url: "https://biocontainers.pro/tools/pybel"
 aliases:
