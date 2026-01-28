@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/schemarefinery
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for schemarefinery
 latest:
-  0.4.0--pyhdfd78af_0: 
-    sha256:181407b726624799356b938f433d97ece60a01b9b69be4b2b61c093a064035f2
+  0.5.0--pyhdfd78af_0: 
+    sha256:761e965586b0a5968d4fecf1393b1a02cae3090313d5d11c2fd25f0e2c238c8b
 tags:
   0.4.0--pyhdfd78af_0: 
     sha256:181407b726624799356b938f433d97ece60a01b9b69be4b2b61c093a064035f2
+  0.5.0--pyhdfd78af_0: 
+    sha256:761e965586b0a5968d4fecf1393b1a02cae3090313d5d11c2fd25f0e2c238c8b
 docker: quay.io/biocontainers/schemarefinery
 aliases:
   SR: /usr/local/bin/SR

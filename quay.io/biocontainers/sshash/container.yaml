@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/sshash
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sshash
 latest:
-  4.0.0--haf24da9_0: 
-    sha256:83d971cf857b249dd2227c84a63028289a1a24afffdc6e8c38c9003c8dd2800a
+  5.0.0--haf24da9_0: 
+    sha256:07f8c6d54609c6c588699c54c1d91345f8faa6cd3068558534e8cd191c177468
 tags:
   4.0.0--haf24da9_0: 
     sha256:83d971cf857b249dd2227c84a63028289a1a24afffdc6e8c38c9003c8dd2800a
+  5.0.0--haf24da9_0: 
+    sha256:07f8c6d54609c6c588699c54c1d91345f8faa6cd3068558534e8cd191c177468
 docker: quay.io/biocontainers/sshash
 aliases:
   sshash: /usr/local/bin/sshash
