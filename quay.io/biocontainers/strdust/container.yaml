@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/strdust
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strdust
 latest:
-  0.13.0--hcdda2d0_0: 
-    sha256:f8ef134564d0712052ecd782862c73124c6a91b0b95b0356423971a1884078e3
+  0.14.0--hcdda2d0_0: 
+    sha256:e7053bee294d8a5224973364421e1c07d1bc875884a855cdfe368297c82094b6
 tags:
   0.8.0--h5c23e0d_0: 
     sha256:7c2da9969be4bebb9baf48905367875696e507c76bc40a14214f023da63db81b
@@ -15,6 +15,8 @@ tags:
     sha256:2cddc5a329a654f7791824996a4dd5776e040964af694283ddc1ec7ec0d832c2
   0.13.0--hcdda2d0_0: 
     sha256:f8ef134564d0712052ecd782862c73124c6a91b0b95b0356423971a1884078e3
+  0.14.0--hcdda2d0_0: 
+    sha256:e7053bee294d8a5224973364421e1c07d1bc875884a855cdfe368297c82094b6
 docker: quay.io/biocontainers/strdust
 aliases:
   STRdust: /usr/local/bin/STRdust

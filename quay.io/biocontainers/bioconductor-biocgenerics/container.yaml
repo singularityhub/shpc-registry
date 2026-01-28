@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biocgenerics
 latest:
-  0.56.0--r45hdfd78af_0: 
-    sha256:cc83f8d4560c7c54ae49817951da26eff10541932faf643f794a34b9fc134b1e
+  0.56.0--r45hdfd78af_1: 
+    sha256:536eda1534d2b189ead5b5e0a34c9cdc46eb26154beb5f4e0400884230a4dc82
 tags:
   0.40.0--r41hdfd78af_0: 
     sha256:6b845ba3261f517db4e9410d3359f40d7ce5a9f27e3ea45f15e17ccbb872951d
@@ -20,4 +20,6 @@ tags:
     sha256:e79bd37d896a0fbabe0f3db562b3f88d312cfa17b1fac696bf49181086b8250d
   0.56.0--r45hdfd78af_0: 
     sha256:cc83f8d4560c7c54ae49817951da26eff10541932faf643f794a34b9fc134b1e
+  0.56.0--r45hdfd78af_1: 
+    sha256:536eda1534d2b189ead5b5e0a34c9cdc46eb26154beb5f4e0400884230a4dc82
 docker: quay.io/biocontainers/bioconductor-biocgenerics

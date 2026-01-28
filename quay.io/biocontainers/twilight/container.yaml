@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/twilight
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for twilight
 latest:
-  0.2.3--h6bb9b41_0: 
-    sha256:e6684be3b8deccb68003cde7c2d242f52f39f3dae2c2f8169406d7ba76877d5e
+  0.2.3--h6bb9b41_1: 
+    sha256:d4a583f71d65009425f907105dbaedf79a919ace78db388bebbd7278a47fa606
 tags:
   0.1.1--h5ca1c30_0: 
     sha256:5f9fc2cf6f69becab69808399ecc7b236dc7addb60733ff5ff0c7fadff604e8d
@@ -23,6 +23,8 @@ tags:
     sha256:3070eb896e72f75b48a9ddcf509e292ebe0b95068e64b293340e28b178449624
   0.2.3--h6bb9b41_0: 
     sha256:e6684be3b8deccb68003cde7c2d242f52f39f3dae2c2f8169406d7ba76877d5e
+  0.2.3--h6bb9b41_1: 
+    sha256:d4a583f71d65009425f907105dbaedf79a919ace78db388bebbd7278a47fa606
 docker: quay.io/biocontainers/twilight
 aliases:
   twilight: /usr/local/bin/twilight

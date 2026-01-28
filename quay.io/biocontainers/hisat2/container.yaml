@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hisat2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hisat2
 latest:
-  2.2.1--h503566f_8: 
-    sha256:718704d6194e9a17f32505d05a630c0df7b193ab24e5a827712d11355ac4f179
+  2.2.2--h503566f_0: 
+    sha256:8170709af57fd3fb89eed560e6cddd3827cd97a5385565c0598d4a16c4a9a83f
 tags:
   2.2.1--h87f3376_4: 
     sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6
@@ -13,6 +13,8 @@ tags:
     sha256:e280e9812f5263b73b5e1c2c909e957703cd967357457f33ff8418e7ce58884b
   2.2.1--h503566f_8: 
     sha256:718704d6194e9a17f32505d05a630c0df7b193ab24e5a827712d11355ac4f179
+  2.2.2--h503566f_0: 
+    sha256:8170709af57fd3fb89eed560e6cddd3827cd97a5385565c0598d4a16c4a9a83f
 docker: quay.io/biocontainers/hisat2
 aliases:
   extract_exons.py: /usr/local/bin/extract_exons.py
