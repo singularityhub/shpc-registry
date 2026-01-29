@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dendropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dendropy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dendropy/container.yaml"
-updated_at: "2026-01-28 03:49:51.819743"
+updated_at: "2026-01-29 04:11:27.793613"
 latest: "5.0.8--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dendropy"
 aliases:

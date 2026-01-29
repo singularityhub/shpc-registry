@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tiberius"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiberius/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiberius/container.yaml"
-updated_at: "2026-01-28 04:24:36.311175"
+updated_at: "2026-01-29 04:46:15.691568"
 latest: "1.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tiberius"
 aliases:

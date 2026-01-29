@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/malder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/malder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/malder/container.yaml"
-updated_at: "2026-01-28 04:15:26.403974"
+updated_at: "2026-01-29 04:37:43.976483"
 latest: "1.0.1e83d4e--he3c7034_8"
 container_url: "https://biocontainers.pro/tools/malder"
 aliases:

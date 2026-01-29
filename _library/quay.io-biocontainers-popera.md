@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popera/container.yaml"
-updated_at: "2026-01-28 04:20:03.836456"
+updated_at: "2026-01-29 04:42:07.801653"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/popera"
 aliases:

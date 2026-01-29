@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bags"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bags/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bags/container.yaml"
-updated_at: "2026-01-28 04:21:26.362327"
+updated_at: "2026-01-29 04:43:22.136299"
 latest: "2.46.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bags"
 

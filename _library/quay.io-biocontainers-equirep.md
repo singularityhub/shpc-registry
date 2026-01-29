@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/equirep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/equirep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/equirep/container.yaml"
-updated_at: "2026-01-28 04:11:22.420562"
+updated_at: "2026-01-29 04:33:49.741195"
 latest: "1.0.0--h9948957_0"
 container_url: "https://biocontainers.pro/tools/equirep"
 aliases:

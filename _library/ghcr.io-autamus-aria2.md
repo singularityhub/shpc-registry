@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/aria2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/aria2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/aria2/container.yaml"
-updated_at: "2026-01-28 03:48:45.590854"
+updated_at: "2026-01-29 04:10:14.342669"
 latest: "1.36.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/aria2"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bamslice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamslice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamslice/container.yaml"
-updated_at: "2026-01-28 03:55:00.577982"
-latest: "0.1.6--h67a98e6_0"
+updated_at: "2026-01-29 04:16:44.799245"
+latest: "0.1.7--h67a98e6_0"
 container_url: "https://biocontainers.pro/tools/bamslice"
 aliases:
  - "bamslice"
 versions:
  - "0.1.0--h67a98e6_0"
  - "0.1.6--h67a98e6_0"
+ - "0.1.7--h67a98e6_0"
 description: "singularity registry hpc automated addition for bamslice"
-config: {"url": "https://biocontainers.pro/tools/bamslice", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bamslice", "latest": {"0.1.6--h67a98e6_0": "sha256:e240f0657bf7a4aee451fa7508fc6a90a4c0366d836d1de5719e263747717268"}, "tags": {"0.1.0--h67a98e6_0": "sha256:bd2c89bfe07f8f2f385b236bd5f5918d002ba77d7c457287c92950b71e7922a9", "0.1.6--h67a98e6_0": "sha256:e240f0657bf7a4aee451fa7508fc6a90a4c0366d836d1de5719e263747717268"}, "docker": "quay.io/biocontainers/bamslice", "aliases": {"bamslice": "/usr/local/bin/bamslice"}}
+config: {"url": "https://biocontainers.pro/tools/bamslice", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bamslice", "latest": {"0.1.7--h67a98e6_0": "sha256:8b757ab6f48c61713f8f9c6cc445dba1457341186d7036553b22ae4070085c84"}, "tags": {"0.1.0--h67a98e6_0": "sha256:bd2c89bfe07f8f2f385b236bd5f5918d002ba77d7c457287c92950b71e7922a9", "0.1.6--h67a98e6_0": "sha256:e240f0657bf7a4aee451fa7508fc6a90a4c0366d836d1de5719e263747717268", "0.1.7--h67a98e6_0": "sha256:8b757ab6f48c61713f8f9c6cc445dba1457341186d7036553b22ae4070085c84"}, "docker": "quay.io/biocontainers/bamslice", "aliases": {"bamslice": "/usr/local/bin/bamslice"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamslice.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bamslice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamslice:0.1.6--h67a98e6_0
+$ shpc install quay.io/biocontainers/bamslice:0.1.7--h67a98e6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamslice/0.1.6--h67a98e6_0
-$ module help quay.io/biocontainers/bamslice/0.1.6--h67a98e6_0
+$ module load quay.io/biocontainers/bamslice/0.1.7--h67a98e6_0
+$ module help quay.io/biocontainers/bamslice/0.1.7--h67a98e6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffhic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffhic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffhic/container.yaml"
-updated_at: "2026-01-28 04:19:35.948011"
+updated_at: "2026-01-29 04:41:41.319653"
 latest: "1.30.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffhic"
 

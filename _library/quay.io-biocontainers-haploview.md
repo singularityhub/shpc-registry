@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haploview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haploview/container.yaml"
-updated_at: "2026-01-28 04:15:34.210340"
+updated_at: "2026-01-29 04:37:51.420507"
 latest: "4.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/haploview"
 aliases:

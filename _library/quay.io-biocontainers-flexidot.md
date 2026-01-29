@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flexidot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexidot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexidot/container.yaml"
-updated_at: "2026-01-28 03:54:24.026931"
+updated_at: "2026-01-29 04:16:06.884981"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flexidot"
 aliases:

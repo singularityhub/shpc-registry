@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msamtools/container.yaml"
-updated_at: "2026-01-28 04:17:46.964644"
+updated_at: "2026-01-29 04:39:57.315519"
 latest: "1.1.3--h577a1d6_1"
 container_url: "https://biocontainers.pro/tools/msamtools"
 aliases:

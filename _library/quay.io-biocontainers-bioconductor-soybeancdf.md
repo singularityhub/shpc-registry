@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-soybeancdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-soybeancdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-soybeancdf/container.yaml"
-updated_at: "2026-01-28 04:31:32.445244"
+updated_at: "2026-01-29 04:52:49.818739"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-soybeancdf"
 

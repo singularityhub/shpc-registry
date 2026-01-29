@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia-hpcvis/paraview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
-updated_at: "2026-01-28 03:48:20.918851"
+updated_at: "2026-01-29 04:09:46.635307"
 latest: "egl-5.6.0rc3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sbg-cwl-runner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sbg-cwl-runner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sbg-cwl-runner/container.yaml"
-updated_at: "2026-01-28 04:05:05.845158"
+updated_at: "2026-01-29 04:27:22.832897"
 latest: "2018.11--py_1"
 container_url: "https://biocontainers.pro/tools/sbg-cwl-runner"
 aliases:

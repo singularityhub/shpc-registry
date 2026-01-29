@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sshash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sshash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sshash/container.yaml"
-updated_at: "2026-01-28 04:11:29.102595"
-latest: "4.0.0--haf24da9_0"
+updated_at: "2026-01-29 04:33:56.502630"
+latest: "5.0.0--haf24da9_0"
 container_url: "https://biocontainers.pro/tools/sshash"
 aliases:
  - "sshash"
 versions:
  - "4.0.0--haf24da9_0"
+ - "5.0.0--haf24da9_0"
 description: "singularity registry hpc automated addition for sshash"
-config: {"url": "https://biocontainers.pro/tools/sshash", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sshash", "latest": {"4.0.0--haf24da9_0": "sha256:83d971cf857b249dd2227c84a63028289a1a24afffdc6e8c38c9003c8dd2800a"}, "tags": {"4.0.0--haf24da9_0": "sha256:83d971cf857b249dd2227c84a63028289a1a24afffdc6e8c38c9003c8dd2800a"}, "docker": "quay.io/biocontainers/sshash", "aliases": {"sshash": "/usr/local/bin/sshash"}}
+config: {"url": "https://biocontainers.pro/tools/sshash", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sshash", "latest": {"5.0.0--haf24da9_0": "sha256:07f8c6d54609c6c588699c54c1d91345f8faa6cd3068558534e8cd191c177468"}, "tags": {"4.0.0--haf24da9_0": "sha256:83d971cf857b249dd2227c84a63028289a1a24afffdc6e8c38c9003c8dd2800a", "5.0.0--haf24da9_0": "sha256:07f8c6d54609c6c588699c54c1d91345f8faa6cd3068558534e8cd191c177468"}, "docker": "quay.io/biocontainers/sshash", "aliases": {"sshash": "/usr/local/bin/sshash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sshash.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sshash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sshash:4.0.0--haf24da9_0
+$ shpc install quay.io/biocontainers/sshash:5.0.0--haf24da9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sshash/4.0.0--haf24da9_0
-$ module help quay.io/biocontainers/sshash/4.0.0--haf24da9_0
+$ module load quay.io/biocontainers/sshash/5.0.0--haf24da9_0
+$ module help quay.io/biocontainers/sshash/5.0.0--haf24da9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

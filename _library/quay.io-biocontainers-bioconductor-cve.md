@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cve/container.yaml"
-updated_at: "2026-01-28 04:37:32.827275"
+updated_at: "2026-01-29 04:58:36.101507"
 latest: "1.11.2--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cve"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpgenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpgenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpgenie/container.yaml"
-updated_at: "2026-01-28 04:09:15.004398"
+updated_at: "2026-01-29 04:31:40.938470"
 latest: "1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/snpgenie"
 aliases:

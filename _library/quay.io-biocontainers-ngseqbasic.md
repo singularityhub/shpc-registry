@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngseqbasic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngseqbasic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngseqbasic/container.yaml"
-updated_at: "2026-01-28 04:28:35.954624"
+updated_at: "2026-01-29 04:50:06.113177"
 latest: "20.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngseqbasic"
 aliases:

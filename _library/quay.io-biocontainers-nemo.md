@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nemo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nemo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nemo/container.yaml"
-updated_at: "2026-01-28 04:35:10.943328"
+updated_at: "2026-01-29 04:56:17.871639"
 latest: "2.3.51--h1c77041_2"
 container_url: "https://biocontainers.pro/tools/nemo"
 

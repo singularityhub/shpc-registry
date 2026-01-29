@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/schemarefinery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schemarefinery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schemarefinery/container.yaml"
-updated_at: "2026-01-28 04:23:26.256167"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2026-01-29 04:45:10.374125"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/schemarefinery"
 aliases:
  - "SR"
@@ -62,8 +62,9 @@ aliases:
  - "download-pmc"
 versions:
  - "0.4.0--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for schemarefinery"
-config: {"url": "https://biocontainers.pro/tools/schemarefinery", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for schemarefinery", "latest": {"0.4.0--pyhdfd78af_0": "sha256:181407b726624799356b938f433d97ece60a01b9b69be4b2b61c093a064035f2"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:181407b726624799356b938f433d97ece60a01b9b69be4b2b61c093a064035f2"}, "docker": "quay.io/biocontainers/schemarefinery", "aliases": {"SR": "/usr/local/bin/SR", "SchemaRefinery": "/usr/local/bin/SchemaRefinery", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "chewBBACA.py": "/usr/local/bin/chewBBACA.py", "chewie": "/usr/local/bin/chewie", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "rqw": "/usr/local/bin/rqw", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gawkbug": "/usr/local/bin/gawkbug", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc"}}
+config: {"url": "https://biocontainers.pro/tools/schemarefinery", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for schemarefinery", "latest": {"0.5.0--pyhdfd78af_0": "sha256:761e965586b0a5968d4fecf1393b1a02cae3090313d5d11c2fd25f0e2c238c8b"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:181407b726624799356b938f433d97ece60a01b9b69be4b2b61c093a064035f2", "0.5.0--pyhdfd78af_0": "sha256:761e965586b0a5968d4fecf1393b1a02cae3090313d5d11c2fd25f0e2c238c8b"}, "docker": "quay.io/biocontainers/schemarefinery", "aliases": {"SR": "/usr/local/bin/SR", "SchemaRefinery": "/usr/local/bin/SchemaRefinery", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "chewBBACA.py": "/usr/local/bin/chewBBACA.py", "chewie": "/usr/local/bin/chewie", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "rqw": "/usr/local/bin/rqw", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gawkbug": "/usr/local/bin/gawkbug", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/schemarefinery.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/schemarefinery
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/schemarefinery:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/schemarefinery:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/schemarefinery/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/schemarefinery/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/schemarefinery/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/schemarefinery/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
