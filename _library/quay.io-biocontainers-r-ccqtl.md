@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ccqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ccqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ccqtl/container.yaml"
-updated_at: "2026-01-29 04:42:08.371796"
+updated_at: "2026-01-30 04:42:36.620130"
 latest: "0.0.1_beta.2--r42h4ac6f70_1"
 container_url: "https://biocontainers.pro/tools/r-ccqtl"
 aliases:

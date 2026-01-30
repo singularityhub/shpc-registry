@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tspair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tspair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tspair/container.yaml"
-updated_at: "2026-01-29 04:32:23.385811"
+updated_at: "2026-01-30 04:33:03.019138"
 latest: "1.52.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-tspair"
 
