@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jamm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jamm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jamm/container.yaml"
-updated_at: "2026-01-30 04:21:35.202192"
+updated_at: "2026-01-31 04:17:56.457860"
 latest: "1.0.8.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/jamm"
 aliases:

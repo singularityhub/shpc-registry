@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dupchecker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dupchecker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dupchecker/container.yaml"
-updated_at: "2026-01-30 04:21:59.344574"
+updated_at: "2026-01-31 04:18:21.065324"
 latest: "1.25.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dupchecker"
 aliases:

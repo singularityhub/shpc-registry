@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pb-cpg-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-cpg-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-cpg-tools/container.yaml"
-updated_at: "2026-01-30 05:05:08.412552"
+updated_at: "2026-01-31 05:03:07.847478"
 latest: "3.0.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pb-cpg-tools"
 aliases:

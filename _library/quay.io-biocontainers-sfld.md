@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sfld"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sfld/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sfld/container.yaml"
-updated_at: "2026-01-30 04:50:01.293128"
+updated_at: "2026-01-31 04:47:39.071236"
 latest: "1.1--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/sfld"
 aliases:
