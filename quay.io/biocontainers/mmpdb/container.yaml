@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/mmpdb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mmpdb
+latest:
+  3.1.4--pyhdfd78af_0: 
+    sha256:f29c18481945f16ea3e5435f4d1653feb391bcbf1a70b7e74ae37c0b584f4774
+tags:
+  3.1.4--pyhdfd78af_0: 
+    sha256:f29c18481945f16ea3e5435f4d1653feb391bcbf1a70b7e74ae37c0b584f4774
+docker: quay.io/biocontainers/mmpdb
+aliases:
+  mmpdb: /usr/local/bin/mmpdb
+  pwiz: /usr/local/bin/pwiz
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  pg_config: /usr/local/bin/pg_config
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
