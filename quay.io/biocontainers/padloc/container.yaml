@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/padloc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for padloc
 latest:
-  2.0.0--hdfd78af_0: 
-    sha256:21fdf46bb90ca125621d66d8c6fdbc6ac664c14f6c4d5c1e7cfd61f1100ebb68
+  2.0.0--hdfd78af_1: 
+    sha256:57dc14167c536f17c4ef2c9aed9ffa972a68a1087640e9079f128c4fd4493aca
 tags:
   2.0.0--hdfd78af_0: 
     sha256:21fdf46bb90ca125621d66d8c6fdbc6ac664c14f6c4d5c1e7cfd61f1100ebb68
+  2.0.0--hdfd78af_1: 
+    sha256:57dc14167c536f17c4ef2c9aed9ffa972a68a1087640e9079f128c4fd4493aca
 docker: quay.io/biocontainers/padloc
 aliases:
   padloc: /usr/local/bin/padloc
