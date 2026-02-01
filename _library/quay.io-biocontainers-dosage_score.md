@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dosage_score"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dosage_score/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dosage_score/container.yaml"
-updated_at: "2026-01-31 04:49:02.055889"
+updated_at: "2026-02-01 05:11:30.364437"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dosage_score"
 aliases:

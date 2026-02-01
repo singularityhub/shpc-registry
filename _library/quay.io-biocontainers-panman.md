@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panman/container.yaml"
-updated_at: "2026-01-31 04:54:02.867280"
+updated_at: "2026-02-01 05:16:23.961651"
 latest: "0.1.4--hac847a2_0"
 container_url: "https://biocontainers.pro/tools/panman"
 aliases:
