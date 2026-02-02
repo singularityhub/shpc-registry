@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snp2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp2cell/container.yaml"
-updated_at: "2026-02-01 04:33:46.692941"
+updated_at: "2026-02-02 04:29:08.364131"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snp2cell"
 aliases:

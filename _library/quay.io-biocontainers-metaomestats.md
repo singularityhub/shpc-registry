@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaomestats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaomestats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaomestats/container.yaml"
-updated_at: "2026-02-01 04:39:07.310102"
+updated_at: "2026-02-02 04:34:31.425465"
 latest: "0.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/metaomestats"
 aliases:

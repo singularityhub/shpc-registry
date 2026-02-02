@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tecount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tecount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tecount/container.yaml"
-updated_at: "2026-02-01 04:59:21.596961"
+updated_at: "2026-02-02 04:55:03.745294"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tecount"
 aliases:

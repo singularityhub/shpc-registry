@@ -4,7 +4,7 @@ name:  "bids/tracula"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/tracula/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/tracula/container.yaml"
-updated_at: "2026-02-01 05:25:42.587929"
+updated_at: "2026-02-02 05:21:34.272322"
 latest: "v6.0.0-5"
 container_url: "https://hub.docker.com/r/bids/tracula"
 

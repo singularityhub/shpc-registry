@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/padloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/padloc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/padloc/container.yaml"
-updated_at: "2026-02-01 04:50:45.614087"
-latest: "2.0.0--hdfd78af_0"
+updated_at: "2026-02-02 04:46:19.681476"
+latest: "2.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/padloc"
 aliases:
  - "padloc"
@@ -37,8 +37,9 @@ aliases:
  - "esl-seqstat"
 versions:
  - "2.0.0--hdfd78af_0"
+ - "2.0.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for padloc"
-config: {"url": "https://biocontainers.pro/tools/padloc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for padloc", "latest": {"2.0.0--hdfd78af_0": "sha256:21fdf46bb90ca125621d66d8c6fdbc6ac664c14f6c4d5c1e7cfd61f1100ebb68"}, "tags": {"2.0.0--hdfd78af_0": "sha256:21fdf46bb90ca125621d66d8c6fdbc6ac664c14f6c4d5c1e7cfd61f1100ebb68"}, "docker": "quay.io/biocontainers/padloc", "aliases": {"padloc": "/usr/local/bin/padloc", "padloc.R": "/usr/local/bin/padloc.R", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat"}}
+config: {"url": "https://biocontainers.pro/tools/padloc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for padloc", "latest": {"2.0.0--hdfd78af_1": "sha256:57dc14167c536f17c4ef2c9aed9ffa972a68a1087640e9079f128c4fd4493aca"}, "tags": {"2.0.0--hdfd78af_0": "sha256:21fdf46bb90ca125621d66d8c6fdbc6ac664c14f6c4d5c1e7cfd61f1100ebb68", "2.0.0--hdfd78af_1": "sha256:57dc14167c536f17c4ef2c9aed9ffa972a68a1087640e9079f128c4fd4493aca"}, "docker": "quay.io/biocontainers/padloc", "aliases": {"padloc": "/usr/local/bin/padloc", "padloc.R": "/usr/local/bin/padloc.R", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge", "esl-alipid": "/usr/local/bin/esl-alipid", "esl-alirev": "/usr/local/bin/esl-alirev", "esl-alistat": "/usr/local/bin/esl-alistat", "esl-compalign": "/usr/local/bin/esl-compalign", "esl-compstruct": "/usr/local/bin/esl-compstruct", "esl-construct": "/usr/local/bin/esl-construct", "esl-histplot": "/usr/local/bin/esl-histplot", "esl-mask": "/usr/local/bin/esl-mask", "esl-selectn": "/usr/local/bin/esl-selectn", "esl-seqrange": "/usr/local/bin/esl-seqrange", "esl-seqstat": "/usr/local/bin/esl-seqstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/padloc.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/padloc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/padloc:2.0.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/padloc:2.0.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/padloc/2.0.0--hdfd78af_0
-$ module help quay.io/biocontainers/padloc/2.0.0--hdfd78af_0
+$ module load quay.io/biocontainers/padloc/2.0.0--hdfd78af_1
+$ module help quay.io/biocontainers/padloc/2.0.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

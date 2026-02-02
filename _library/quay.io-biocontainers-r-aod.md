@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-aod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aod/container.yaml"
-updated_at: "2026-02-01 04:55:09.615507"
+updated_at: "2026-02-02 04:50:48.468653"
 latest: "1.3--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-aod"
 aliases:

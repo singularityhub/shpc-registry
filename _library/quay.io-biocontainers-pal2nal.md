@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pal2nal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pal2nal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pal2nal/container.yaml"
-updated_at: "2026-02-01 04:34:13.630799"
+updated_at: "2026-02-02 04:29:36.419197"
 latest: "14.1--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/pal2nal"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panaln"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panaln/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panaln/container.yaml"
-updated_at: "2026-02-01 04:35:44.851963"
+updated_at: "2026-02-02 04:31:09.750726"
 latest: "2.09--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/panaln"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yapsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
-updated_at: "2026-02-01 04:40:27.209796"
+updated_at: "2026-02-02 04:35:50.154800"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yapsa"
 aliases:

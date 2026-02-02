@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dlcpar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dlcpar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dlcpar/container.yaml"
-updated_at: "2026-02-01 04:56:18.079611"
+updated_at: "2026-02-02 04:51:57.893196"
 latest: "1.0--py_2"
 container_url: "https://biocontainers.pro/tools/dlcpar"
 aliases:

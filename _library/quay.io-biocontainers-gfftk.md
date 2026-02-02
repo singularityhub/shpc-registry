@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfftk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfftk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfftk/container.yaml"
-updated_at: "2026-02-01 05:18:27.970736"
+updated_at: "2026-02-02 05:14:18.282072"
 latest: "25.6.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gfftk"
 aliases:

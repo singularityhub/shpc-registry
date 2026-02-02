@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/secapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/secapr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/secapr/container.yaml"
-updated_at: "2026-02-01 04:50:30.070711"
+updated_at: "2026-02-02 04:46:03.777113"
 latest: "2.2.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/secapr"
 aliases:

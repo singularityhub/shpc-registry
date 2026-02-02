@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rust-gtars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-gtars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-gtars/container.yaml"
-updated_at: "2026-02-01 04:47:03.447430"
+updated_at: "2026-02-02 04:42:32.812100"
 latest: "0.5.1--h885253a_0"
 container_url: "https://biocontainers.pro/tools/rust-gtars"
 aliases:

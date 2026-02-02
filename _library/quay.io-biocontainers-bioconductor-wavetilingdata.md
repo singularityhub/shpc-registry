@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wavetilingdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wavetilingdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wavetilingdata/container.yaml"
-updated_at: "2026-02-01 04:36:53.810780"
+updated_at: "2026-02-02 04:32:19.842754"
 latest: "1.26.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-wavetilingdata"
 aliases:

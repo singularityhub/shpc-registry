@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapdia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapdia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapdia/container.yaml"
-updated_at: "2026-02-01 05:15:22.731647"
+updated_at: "2026-02-02 05:11:15.108634"
 latest: "3.1.0--h503566f_7"
 container_url: "https://biocontainers.pro/tools/mapdia"
 aliases:

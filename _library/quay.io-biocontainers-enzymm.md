@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzymm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzymm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzymm/container.yaml"
-updated_at: "2026-02-01 04:49:43.670901"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2026-02-02 04:45:16.966040"
+latest: "0.3.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/enzymm"
 aliases:
  - "enzymm"
@@ -19,8 +19,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.3.1--pyhdfd78af_0"
+ - "0.3.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for enzymm"
-config: {"url": "https://biocontainers.pro/tools/enzymm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzymm", "latest": {"0.3.1--pyhdfd78af_0": "sha256:756058e43825668c68b3f3146ecda8ada522ddacea3310413de94cec2fa43f73"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:756058e43825668c68b3f3146ecda8ada522ddacea3310413de94cec2fa43f73"}, "docker": "quay.io/biocontainers/enzymm", "aliases": {"enzymm": "/usr/local/bin/enzymm", "pyjess": "/usr/local/bin/pyjess", "markdown-it": "/usr/local/bin/markdown-it", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzymm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzymm", "latest": {"0.3.1--pyhdfd78af_1": "sha256:da9f84353f1e68ecb97d8cbbb5f00defd6d17f8601ebf1a9e3266a47fc0716de"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:756058e43825668c68b3f3146ecda8ada522ddacea3310413de94cec2fa43f73", "0.3.1--pyhdfd78af_1": "sha256:da9f84353f1e68ecb97d8cbbb5f00defd6d17f8601ebf1a9e3266a47fc0716de"}, "docker": "quay.io/biocontainers/enzymm", "aliases": {"enzymm": "/usr/local/bin/enzymm", "pyjess": "/usr/local/bin/pyjess", "markdown-it": "/usr/local/bin/markdown-it", "pygmentize": "/usr/local/bin/pygmentize", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzymm.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/enzymm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzymm:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzymm:0.3.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzymm/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzymm/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzymm/0.3.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/enzymm/0.3.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

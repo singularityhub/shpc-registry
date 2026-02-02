@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/purge_haplotigs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/purge_haplotigs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/purge_haplotigs/container.yaml"
-updated_at: "2026-02-01 05:18:06.837711"
+updated_at: "2026-02-02 05:13:57.327410"
 latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/purge_haplotigs"
 aliases:

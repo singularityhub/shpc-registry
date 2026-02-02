@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/basenji"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/basenji/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/basenji/container.yaml"
-updated_at: "2026-02-01 04:56:46.352878"
+updated_at: "2026-02-02 04:52:26.178155"
 latest: "0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/basenji"
 aliases:

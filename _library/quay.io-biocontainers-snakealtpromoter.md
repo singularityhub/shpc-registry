@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakealtpromoter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakealtpromoter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakealtpromoter/container.yaml"
-updated_at: "2026-02-01 04:42:19.487914"
+updated_at: "2026-02-02 04:37:44.320317"
 latest: "1.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakealtpromoter"
 aliases:

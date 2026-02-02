@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/structure-threader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/structure-threader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/structure-threader/container.yaml"
-updated_at: "2026-02-01 04:59:57.374486"
+updated_at: "2026-02-02 04:55:39.743158"
 latest: "1.3.11--py313hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/structure-threader"
 aliases:
