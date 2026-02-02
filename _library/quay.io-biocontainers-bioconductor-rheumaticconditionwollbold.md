@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rheumaticconditionwollbold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rheumaticconditionwollbold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rheumaticconditionwollbold/container.yaml"
-updated_at: "2026-02-02 04:48:04.024040"
+updated_at: "2026-02-02 12:26:59.436040"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rheumaticconditionwollbold"
 

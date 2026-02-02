@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gseapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gseapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gseapy/container.yaml"
-updated_at: "2026-02-02 04:45:05.496057"
+updated_at: "2026-02-02 12:24:02.616013"
 latest: "1.1.11--py39h5b94c0b_0"
 container_url: "https://biocontainers.pro/tools/gseapy"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amplicontyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplicontyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplicontyper/container.yaml"
-updated_at: "2026-02-02 04:38:25.235777"
+updated_at: "2026-02-02 12:17:24.974422"
 latest: "0.1.29--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amplicontyper"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aniso8601"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aniso8601/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aniso8601/container.yaml"
-updated_at: "2026-02-02 04:51:37.583583"
+updated_at: "2026-02-02 12:30:28.613861"
 latest: "1.1.0--py36_0"
 container_url: "https://biocontainers.pro/tools/aniso8601"
 aliases:

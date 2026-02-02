@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chetah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chetah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chetah/container.yaml"
-updated_at: "2026-02-02 04:28:11.209214"
+updated_at: "2026-02-02 12:07:14.675329"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chetah"
 
