@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/flexidot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flexidot
 latest:
-  2.0.2--pyhdfd78af_0: 
-    sha256:0da5602f5b0c17aed8d747aa8c798a1a28bf5378773e92abb638cdd4af97d089
+  2.1.0--pyhdfd78af_0: 
+    sha256:892891f7474816e2155691fcbe87c82751845ebc6129d7b8701711ffead804ca
 tags:
   2.0.1--pyhdfd78af_0: 
     sha256:f5a2ec77691a437585998d6e283f8e349a744c05872506ac6485b88485857859
   2.0.2--pyhdfd78af_0: 
     sha256:0da5602f5b0c17aed8d747aa8c798a1a28bf5378773e92abb638cdd4af97d089
+  2.1.0--pyhdfd78af_0: 
+    sha256:892891f7474816e2155691fcbe87c82751845ebc6129d7b8701711ffead804ca
 docker: quay.io/biocontainers/flexidot
 aliases:
   flexidot: /usr/local/bin/flexidot

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_vs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_vs
 latest:
-  5.1.0--pyhdfd78af_0: 
-    sha256:4ae5d361b20fba93d73fbb7989b0f9cb724475aa54737a3505f3c244b3f47de0
+  5.2.0--pyhdfd78af_0: 
+    sha256:71089909686aac4a1af45809dca4b43c6cf707166eb09c1daa427274373991e1
 tags:
   3.8.1--pyhdfd78af_0: 
     sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf
@@ -21,6 +21,8 @@ tags:
     sha256:444d5aa344f2040fe6fcd67262cf7ed890e243984a1343b739659493535e7013
   5.1.0--pyhdfd78af_0: 
     sha256:4ae5d361b20fba93d73fbb7989b0f9cb724475aa54737a3505f3c244b3f47de0
+  5.2.0--pyhdfd78af_0: 
+    sha256:71089909686aac4a1af45809dca4b43c6cf707166eb09c1daa427274373991e1
 docker: quay.io/biocontainers/biobb_vs
 aliases:
   autodock_vina_run: /usr/local/bin/autodock_vina_run

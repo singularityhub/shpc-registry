@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/owl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for owl
 latest:
-  0.4.0--h9ee0642_0: 
-    sha256:3315a6b162219d319260f4fdd155814e844409d53d6975026726fbbae918c483
+  0.4.0--h9ee0642_1: 
+    sha256:094e3f6f09f31da54bd3599ec47cc72ab1d0de8ffe4e387b63025dd9e52e22e7
 tags:
   0.4.0--h9ee0642_0: 
     sha256:3315a6b162219d319260f4fdd155814e844409d53d6975026726fbbae918c483
+  0.4.0--h9ee0642_1: 
+    sha256:094e3f6f09f31da54bd3599ec47cc72ab1d0de8ffe4e387b63025dd9e52e22e7
 docker: quay.io/biocontainers/owl
 aliases:
   owl: /usr/local/bin/owl
