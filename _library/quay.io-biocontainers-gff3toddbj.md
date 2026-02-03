@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gff3toddbj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gff3toddbj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gff3toddbj/container.yaml"
-updated_at: "2026-02-02 12:17:06.610086"
-latest: "0.4.0--pyh5e36f6f_0"
+updated_at: "2026-02-03 04:29:20.532730"
+latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gff3toddbj"
 aliases:
  - "compare-ddbj"
@@ -26,8 +26,9 @@ aliases:
  - "bed_count_by_interval.py"
 versions:
  - "0.4.0--pyh5e36f6f_0"
+ - "0.4.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gff3toddbj"
-config: {"url": "https://biocontainers.pro/tools/gff3toddbj", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gff3toddbj", "latest": {"0.4.0--pyh5e36f6f_0": "sha256:d8b0ebd5392bfd00f5cf42f7ebfc56c56cba0fdff9a4e964769f3767228c42b8"}, "tags": {"0.4.0--pyh5e36f6f_0": "sha256:d8b0ebd5392bfd00f5cf42f7ebfc56c56cba0fdff9a4e964769f3767228c42b8"}, "docker": "quay.io/biocontainers/gff3toddbj", "aliases": {"compare-ddbj": "/usr/local/bin/compare-ddbj", "genbank-to-ddbj": "/usr/local/bin/genbank-to-ddbj", "gff3-to-ddbj": "/usr/local/bin/gff3-to-ddbj", "list-products": "/usr/local/bin/list-products", "normalize-entry-names": "/usr/local/bin/normalize-entry-names", "split-fasta": "/usr/local/bin/split-fasta", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/gff3toddbj", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gff3toddbj", "latest": {"0.4.3--pyhdfd78af_0": "sha256:249292fe056ba6961448d75adbd076703594ee8a48c9191d522ba3f052484b17"}, "tags": {"0.4.0--pyh5e36f6f_0": "sha256:d8b0ebd5392bfd00f5cf42f7ebfc56c56cba0fdff9a4e964769f3767228c42b8", "0.4.3--pyhdfd78af_0": "sha256:249292fe056ba6961448d75adbd076703594ee8a48c9191d522ba3f052484b17"}, "docker": "quay.io/biocontainers/gff3toddbj", "aliases": {"compare-ddbj": "/usr/local/bin/compare-ddbj", "genbank-to-ddbj": "/usr/local/bin/genbank-to-ddbj", "gff3-to-ddbj": "/usr/local/bin/gff3-to-ddbj", "list-products": "/usr/local/bin/list-products", "normalize-entry-names": "/usr/local/bin/normalize-entry-names", "split-fasta": "/usr/local/bin/split-fasta", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gff3toddbj.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/gff3toddbj
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gff3toddbj:0.4.0--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/gff3toddbj:0.4.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gff3toddbj/0.4.0--pyh5e36f6f_0
-$ module help quay.io/biocontainers/gff3toddbj/0.4.0--pyh5e36f6f_0
+$ module load quay.io/biocontainers/gff3toddbj/0.4.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/gff3toddbj/0.4.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

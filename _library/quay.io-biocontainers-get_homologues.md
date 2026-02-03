@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/get_homologues"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/get_homologues/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/get_homologues/container.yaml"
-updated_at: "2026-02-02 12:36:18.319511"
+updated_at: "2026-02-03 04:49:00.817576"
 latest: "3.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/get_homologues"
 aliases:

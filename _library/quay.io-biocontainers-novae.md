@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/novae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novae/container.yaml"
-updated_at: "2026-02-02 12:33:07.491121"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2026-02-03 04:45:44.332220"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/novae"
 aliases:
  - "ase"
@@ -62,8 +62,9 @@ versions:
  - "0.2.4--pyhdfd78af_0"
  - "1.0.0--pyhdfd78af_0"
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for novae"
-config: {"url": "https://biocontainers.pro/tools/novae", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for novae", "latest": {"1.0.1--pyhdfd78af_0": "sha256:51b28bdbb6c1334913edc78ccc94a48b2fcb70c28b2e46b172ab42e876847437"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:39f922e00500a9bc6601f799c6edd77adec841a391a740025feb0b5851edb7ec", "0.2.4--pyhdfd78af_0": "sha256:7641488f723b5f6bf23a6ee74c85983fd87298dd6d8eb0495b248ee7db526356", "1.0.0--pyhdfd78af_0": "sha256:a80d3cb74dad41cb5436b140f87c56cf6c22250a77e73af8bffe15202c48dbe4", "1.0.1--pyhdfd78af_0": "sha256:51b28bdbb6c1334913edc78ccc94a48b2fcb70c28b2e46b172ab42e876847437"}, "docker": "quay.io/biocontainers/novae", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "fabric": "/usr/local/bin/fabric", "h5fuse": "/usr/local/bin/h5fuse", "huggingface-cli": "/usr/local/bin/huggingface-cli", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "lightning": "/usr/local/bin/lightning", "protoc-28.2.0": "/usr/local/bin/protoc-28.2.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "trimesh": "/usr/local/bin/trimesh", "rav1e": "/usr/local/bin/rav1e", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe"}}
+config: {"url": "https://biocontainers.pro/tools/novae", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for novae", "latest": {"1.0.2--pyhdfd78af_0": "sha256:8644b53f82656cb1a8d63760ff57d925b10262548f54d30a2c9a1406e20a5073"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:39f922e00500a9bc6601f799c6edd77adec841a391a740025feb0b5851edb7ec", "0.2.4--pyhdfd78af_0": "sha256:7641488f723b5f6bf23a6ee74c85983fd87298dd6d8eb0495b248ee7db526356", "1.0.0--pyhdfd78af_0": "sha256:a80d3cb74dad41cb5436b140f87c56cf6c22250a77e73af8bffe15202c48dbe4", "1.0.1--pyhdfd78af_0": "sha256:51b28bdbb6c1334913edc78ccc94a48b2fcb70c28b2e46b172ab42e876847437", "1.0.2--pyhdfd78af_0": "sha256:8644b53f82656cb1a8d63760ff57d925b10262548f54d30a2c9a1406e20a5073"}, "docker": "quay.io/biocontainers/novae", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "fabric": "/usr/local/bin/fabric", "h5fuse": "/usr/local/bin/h5fuse", "huggingface-cli": "/usr/local/bin/huggingface-cli", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "lightning": "/usr/local/bin/lightning", "protoc-28.2.0": "/usr/local/bin/protoc-28.2.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "trimesh": "/usr/local/bin/trimesh", "rav1e": "/usr/local/bin/rav1e", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/novae.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/novae
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/novae:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/novae:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/novae/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/novae/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/novae/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/novae/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

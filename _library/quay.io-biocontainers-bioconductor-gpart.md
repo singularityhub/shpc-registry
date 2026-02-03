@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gpart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gpart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gpart/container.yaml"
-updated_at: "2026-02-02 12:52:05.253059"
+updated_at: "2026-02-03 05:05:20.260363"
 latest: "1.12.0--r41h399db7b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gpart"
 aliases:

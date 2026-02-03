@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/singlem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/singlem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/singlem/container.yaml"
-updated_at: "2026-02-02 12:17:59.091433"
-latest: "0.20.3--pyhdfd78af_0"
+updated_at: "2026-02-03 04:30:14.957960"
+latest: "0.20.3--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/singlem"
 aliases:
  - "AbstractPlot.py"
@@ -45,8 +45,9 @@ versions:
  - "0.18.3--pyhdfd78af_0"
  - "0.19.0--pyhdfd78af_0"
  - "0.20.3--pyhdfd78af_0"
+ - "0.20.3--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for singlem"
-config: {"url": "https://biocontainers.pro/tools/singlem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for singlem", "latest": {"0.20.3--pyhdfd78af_0": "sha256:80512d0137f24989a3ccfac19d9b432946fe6d4ea91abbb81615936e2f3a593b"}, "tags": {"0.13.2--pyhdfd78af_2": "sha256:1c353c5f0cc33cc9db5ec18b4cd414f10f25b1bd31a9fb9764277e4c8557ff77", "0.14.0--pyhdfd78af_0": "sha256:6c3f3bd4093dcfa37ec9ec755657643fe95519d425e6d706fc7a8c4d73dfffa3", "0.15.0--pyhdfd78af_0": "sha256:cb966c532aece3477216b2c832a962ac9e4f0b1d98447eeb63ea034f7d74bf9f", "0.16.0--pyhdfd78af_0": "sha256:1ca52985b690c42c69cf6fbecf743d2af0479ad231c5acd76dfdeaf0d28a3f91", "0.15.1--pyhdfd78af_0": "sha256:6393e47e5a67e44694b99ab689b1a2eef1a9e0372ad5e84ea36419043345d9a8", "0.18.0--pyhdfd78af_0": "sha256:28b5c1a2ccf9c32e0a7b1b878af2578a5bf03599f055bdb470bca05af93c9c16", "0.17.0--pyhdfd78af_0": "sha256:a1bcd7193b8a87734e779fc35b2962cf6aafc0169780dc60c80a91675a48f4be", "0.18.2--pyhdfd78af_0": "sha256:5d3b64c79ed23b73b3e16a79a51785585adb420c478f5023a70ec64c79681f79", "0.18.3--pyhdfd78af_0": "sha256:3f9cfcb0dc58eab699487bfed651910e5fea40071c2070b7130b6fe830d85ddb", "0.19.0--pyhdfd78af_0": "sha256:008db31f3b5d7ff459f07bf2b63dadc323b89a7bb14ece063a8a2aee060435e9", "0.20.3--pyhdfd78af_0": "sha256:80512d0137f24989a3ccfac19d9b432946fe6d4ea91abbb81615936e2f3a593b"}, "docker": "quay.io/biocontainers/singlem", "aliases": {"AbstractPlot.py": "/usr/local/bin/AbstractPlot.py", "ExpressBetaDiversity": "/usr/local/bin/ExpressBetaDiversity", "convertToEBD.py": "/usr/local/bin/convertToEBD.py", "convertToFullMatrix.py": "/usr/local/bin/convertToFullMatrix.py", "faker": "/usr/local/bin/faker", "graftM": "/usr/local/bin/graftM", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "mfqe": "/usr/local/bin/mfqe", "orator": "/usr/local/bin/orator", "orfm": "/usr/local/bin/orfm", "pcoaPlot.py": "/usr/local/bin/pcoaPlot.py", "singlem": "/usr/local/bin/singlem", "smafa": "/usr/local/bin/smafa", "taxit": "/usr/local/bin/taxit", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
+config: {"url": "https://biocontainers.pro/tools/singlem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for singlem", "latest": {"0.20.3--pyhdfd78af_2": "sha256:2982e10f23d87e90e9213f258cb2349c0f19b58213e40902347f7849f9eeb7db"}, "tags": {"0.13.2--pyhdfd78af_2": "sha256:1c353c5f0cc33cc9db5ec18b4cd414f10f25b1bd31a9fb9764277e4c8557ff77", "0.14.0--pyhdfd78af_0": "sha256:6c3f3bd4093dcfa37ec9ec755657643fe95519d425e6d706fc7a8c4d73dfffa3", "0.15.0--pyhdfd78af_0": "sha256:cb966c532aece3477216b2c832a962ac9e4f0b1d98447eeb63ea034f7d74bf9f", "0.16.0--pyhdfd78af_0": "sha256:1ca52985b690c42c69cf6fbecf743d2af0479ad231c5acd76dfdeaf0d28a3f91", "0.15.1--pyhdfd78af_0": "sha256:6393e47e5a67e44694b99ab689b1a2eef1a9e0372ad5e84ea36419043345d9a8", "0.18.0--pyhdfd78af_0": "sha256:28b5c1a2ccf9c32e0a7b1b878af2578a5bf03599f055bdb470bca05af93c9c16", "0.17.0--pyhdfd78af_0": "sha256:a1bcd7193b8a87734e779fc35b2962cf6aafc0169780dc60c80a91675a48f4be", "0.18.2--pyhdfd78af_0": "sha256:5d3b64c79ed23b73b3e16a79a51785585adb420c478f5023a70ec64c79681f79", "0.18.3--pyhdfd78af_0": "sha256:3f9cfcb0dc58eab699487bfed651910e5fea40071c2070b7130b6fe830d85ddb", "0.19.0--pyhdfd78af_0": "sha256:008db31f3b5d7ff459f07bf2b63dadc323b89a7bb14ece063a8a2aee060435e9", "0.20.3--pyhdfd78af_0": "sha256:80512d0137f24989a3ccfac19d9b432946fe6d4ea91abbb81615936e2f3a593b", "0.20.3--pyhdfd78af_2": "sha256:2982e10f23d87e90e9213f258cb2349c0f19b58213e40902347f7849f9eeb7db"}, "docker": "quay.io/biocontainers/singlem", "aliases": {"AbstractPlot.py": "/usr/local/bin/AbstractPlot.py", "ExpressBetaDiversity": "/usr/local/bin/ExpressBetaDiversity", "convertToEBD.py": "/usr/local/bin/convertToEBD.py", "convertToFullMatrix.py": "/usr/local/bin/convertToFullMatrix.py", "faker": "/usr/local/bin/faker", "graftM": "/usr/local/bin/graftM", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "mfqe": "/usr/local/bin/mfqe", "orator": "/usr/local/bin/orator", "orfm": "/usr/local/bin/orfm", "pcoaPlot.py": "/usr/local/bin/pcoaPlot.py", "singlem": "/usr/local/bin/singlem", "smafa": "/usr/local/bin/smafa", "taxit": "/usr/local/bin/taxit", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage", "ktImportEC": "/usr/local/bin/ktImportEC", "ktImportFCP": "/usr/local/bin/ktImportFCP"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/singlem.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/singlem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/singlem:0.20.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/singlem:0.20.3--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/singlem/0.20.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/singlem/0.20.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/singlem/0.20.3--pyhdfd78af_2
+$ module help quay.io/biocontainers/singlem/0.20.3--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/owl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/owl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/owl/container.yaml"
-updated_at: "2026-02-02 12:18:48.490768"
-latest: "0.4.0--h9ee0642_0"
+updated_at: "2026-02-03 04:31:05.444996"
+latest: "0.4.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/owl"
 aliases:
  - "owl"
 versions:
  - "0.4.0--h9ee0642_0"
+ - "0.4.0--h9ee0642_1"
 description: "singularity registry hpc automated addition for owl"
-config: {"url": "https://biocontainers.pro/tools/owl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for owl", "latest": {"0.4.0--h9ee0642_0": "sha256:3315a6b162219d319260f4fdd155814e844409d53d6975026726fbbae918c483"}, "tags": {"0.4.0--h9ee0642_0": "sha256:3315a6b162219d319260f4fdd155814e844409d53d6975026726fbbae918c483"}, "docker": "quay.io/biocontainers/owl", "aliases": {"owl": "/usr/local/bin/owl"}}
+config: {"url": "https://biocontainers.pro/tools/owl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for owl", "latest": {"0.4.0--h9ee0642_1": "sha256:094e3f6f09f31da54bd3599ec47cc72ab1d0de8ffe4e387b63025dd9e52e22e7"}, "tags": {"0.4.0--h9ee0642_0": "sha256:3315a6b162219d319260f4fdd155814e844409d53d6975026726fbbae918c483", "0.4.0--h9ee0642_1": "sha256:094e3f6f09f31da54bd3599ec47cc72ab1d0de8ffe4e387b63025dd9e52e22e7"}, "docker": "quay.io/biocontainers/owl", "aliases": {"owl": "/usr/local/bin/owl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/owl.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/owl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/owl:0.4.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/owl:0.4.0--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/owl/0.4.0--h9ee0642_0
-$ module help quay.io/biocontainers/owl/0.4.0--h9ee0642_0
+$ module load quay.io/biocontainers/owl/0.4.0--h9ee0642_1
+$ module help quay.io/biocontainers/owl/0.4.0--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
