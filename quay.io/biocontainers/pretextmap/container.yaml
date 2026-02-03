@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pretextmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pretextmap
 latest:
-  0.1.9--h9948957_4: 
-    sha256:7d25faef12eccb15508573e215a05a892c14e3e1a01cc7a8045b03612fd08c78
+  0.2.3--h9948957_0: 
+    sha256:93a9108f2cb31f617e8043b2ca2fe3574d5ee72cfb869277df4fe6c1adf55b56
 tags:
   0.1.9--h9f5acd7_1: 
     sha256:2ea29e078166daa95ea28d500cd2df46eec77cebc9d100ed986f797e3a282ae1
@@ -11,6 +11,8 @@ tags:
     sha256:f154ad10859562ffea6cbaec96764d0c454ee74a82f0b5cacd1edc1a6375c739
   0.1.9--h9948957_4: 
     sha256:7d25faef12eccb15508573e215a05a892c14e3e1a01cc7a8045b03612fd08c78
+  0.2.3--h9948957_0: 
+    sha256:93a9108f2cb31f617e8043b2ca2fe3574d5ee72cfb869277df4fe6c1adf55b56
 docker: quay.io/biocontainers/pretextmap
 aliases:
   PretextMap: /usr/local/bin/PretextMap

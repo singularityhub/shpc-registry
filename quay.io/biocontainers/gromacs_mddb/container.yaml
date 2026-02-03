@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/gromacs_mddb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gromacs_mddb
 latest:
-  2025.3--h61c8354_1: 
-    sha256:62530e0155d837cec852ed5efa07673a51340c51e69a0eef4a55b9a07255f0c3
+  2025.3--h61c8354_3: 
+    sha256:f3368e1593414dd434b5e713c8d71d9bb6e21fd20e7116bde43f1949ffe578aa
 tags:
   2025.3--h61c8354_0: 
     sha256:dd344b45b49e5ef7d65d2e4f84ce5605c61a9e748515f71533ee7b9c6421e097
   2025.3--h61c8354_1: 
     sha256:62530e0155d837cec852ed5efa07673a51340c51e69a0eef4a55b9a07255f0c3
+  2025.3--h61c8354_3: 
+    sha256:f3368e1593414dd434b5e713c8d71d9bb6e21fd20e7116bde43f1949ffe578aa
 docker: quay.io/biocontainers/gromacs_mddb
 aliases:
   GMXRC: /usr/local/bin/GMXRC

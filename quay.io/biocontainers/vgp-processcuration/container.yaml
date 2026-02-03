@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/vgp-processcuration
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vgp-processcuration
 latest:
-  1.0--pyhdfd78af_0: 
-    sha256:7ec76f6fff97e40ff3d656c7454f45f8a684e058a961c7009c414819ee29d0df
+  1.1--pyhdfd78af_0: 
+    sha256:f6a8eb71c14ca947887982e68509438d77b6addcb42da76b63b5aa51c545a15e
 tags:
   1.0--pyhdfd78af_0: 
     sha256:7ec76f6fff97e40ff3d656c7454f45f8a684e058a961c7009c414819ee29d0df
+  1.1--pyhdfd78af_0: 
+    sha256:f6a8eb71c14ca947887982e68509438d77b6addcb42da76b63b5aa51c545a15e
 docker: quay.io/biocontainers/vgp-processcuration
 aliases:
   chromosome_assignment: /usr/local/bin/chromosome_assignment

@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/sed
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sed
 latest:
-  '4.8': sha256:662193598f523ed45056fe71556377fc42e6d53a9b7b807421050475a630fc5a
+  '4.9': sha256:36f216f26dafce1c7ea43eaa6652fba60d83e72b6a7181801ad08d071bdbb7ba
 tags:
   4.7.0: sha256:cae5cdb96d0480c92fc2162ea63955877694512542a33cd6b345d9e5be4b07e7
   '4.8': sha256:662193598f523ed45056fe71556377fc42e6d53a9b7b807421050475a630fc5a
+  '4.9': sha256:36f216f26dafce1c7ea43eaa6652fba60d83e72b6a7181801ad08d071bdbb7ba
 docker: quay.io/biocontainers/sed
 aliases:
   sed: /usr/local/bin/sed
