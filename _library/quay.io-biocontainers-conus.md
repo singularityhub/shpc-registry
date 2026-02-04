@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/conus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conus/container.yaml"
-updated_at: "2026-02-03 05:05:00.705143"
+updated_at: "2026-02-04 04:59:34.049744"
 latest: "1.0--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/conus"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isonclust3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isonclust3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isonclust3/container.yaml"
-updated_at: "2026-02-03 05:11:18.213699"
+updated_at: "2026-02-04 05:05:41.060758"
 latest: "0.3.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/isonclust3"
 aliases:

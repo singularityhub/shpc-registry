@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/sed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sed/container.yaml"
-updated_at: "2026-02-03 05:04:24.938327"
-latest: "4.8"
+updated_at: "2026-02-04 04:58:59.239763"
+latest: "4.9"
 container_url: "https://biocontainers.pro/tools/sed"
 aliases:
  - "sed"
 versions:
  - "4.7.0"
  - "4.8"
+ - "4.9"
 description: "shpc-registry automated BioContainers addition for sed"
-config: {"url": "https://biocontainers.pro/tools/sed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sed", "latest": {"4.8": "sha256:662193598f523ed45056fe71556377fc42e6d53a9b7b807421050475a630fc5a"}, "tags": {"4.7.0": "sha256:cae5cdb96d0480c92fc2162ea63955877694512542a33cd6b345d9e5be4b07e7", "4.8": "sha256:662193598f523ed45056fe71556377fc42e6d53a9b7b807421050475a630fc5a"}, "docker": "quay.io/biocontainers/sed", "aliases": {"sed": "/usr/local/bin/sed"}}
+config: {"url": "https://biocontainers.pro/tools/sed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sed", "latest": {"4.9": "sha256:36f216f26dafce1c7ea43eaa6652fba60d83e72b6a7181801ad08d071bdbb7ba"}, "tags": {"4.7.0": "sha256:cae5cdb96d0480c92fc2162ea63955877694512542a33cd6b345d9e5be4b07e7", "4.8": "sha256:662193598f523ed45056fe71556377fc42e6d53a9b7b807421050475a630fc5a", "4.9": "sha256:36f216f26dafce1c7ea43eaa6652fba60d83e72b6a7181801ad08d071bdbb7ba"}, "docker": "quay.io/biocontainers/sed", "aliases": {"sed": "/usr/local/bin/sed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sed.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/sed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sed:4.8
+$ shpc install quay.io/biocontainers/sed:4.9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sed/4.8
-$ module help quay.io/biocontainers/sed/4.8
+$ module load quay.io/biocontainers/sed/4.9
+$ module help quay.io/biocontainers/sed/4.9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

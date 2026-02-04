@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drhip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drhip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drhip/container.yaml"
-updated_at: "2026-02-03 04:53:59.872330"
+updated_at: "2026-02-04 04:48:38.186812"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drhip"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/jupyter/julia-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/julia-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/julia-notebook/container.yaml"
-updated_at: "2026-02-03 04:19:11.147701"
-latest: "2025-12-31"
+updated_at: "2026-02-04 04:14:09.444131"
+latest: "2026-02-03"
 container_url: "https://quay.io/repository/jupyter/julia-notebook"
 aliases:
  - "run-notebook"
@@ -23,8 +23,9 @@ versions:
  - "2025-12-31"
  - "2025-11-29"
  - "2025-10-27"
+ - "2026-02-03"
 description: "Jupyter Julia Notebook from https://github.com/jupyter/docker-stacks"
-config: {"docker": "quay.io/jupyter/julia-notebook", "url": "https://quay.io/repository/jupyter/julia-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Julia Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2025-12-31": "sha256:5ba5e8e9f618eaa7567c902c001f9ee656007b7d97161c4389a1e9209bef2132"}, "tags": {"latest": "sha256:5ba5e8e9f618eaa7567c902c001f9ee656007b7d97161c4389a1e9209bef2132", "2025-05-30": "sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee", "2025-06-30": "sha256:85812ed3ee9b29a3937f95314abd427bdf904f1cd21e4de1d0696e48c5786caf", "2025-07-28": "sha256:5b7cd17b85b51e5153314840e30bd4240c1b1691ffb599a931ce94b0c75afaa7", "2025-08-25": "sha256:1f2f657acf9ad0c2d7e14a838dfb554992a1e5f3696014366fd9dacd2ab06e6a", "2025-09-30": "sha256:0617dcbcf9e2d9d27d67a0ca15d91e364cce40932ce311757acab4aa65328525", "2025-11-03": "sha256:ecd7b4a4d4af8ca53042573b87a8c6556cd036576a965b5c06cedc44b447ef3c", "2025-12-03": "sha256:59d98f166bd833f09be57a05b99fad58498b35bc76f52734617ce45f80f5fbfe", "2025-11-24": "sha256:b2852c53b56bfd73ee43bf4c30633a954e93f2baaf25a5c8bdec456b9a94e167", "2025-09-22": "sha256:cacaff91ce73c02e6319d81336285bf59642811529a69f054963571426618897", "2025-12-31": "sha256:5ba5e8e9f618eaa7567c902c001f9ee656007b7d97161c4389a1e9209bef2132", "2025-11-29": "sha256:50979fd069712a9a4dd42f46c35e5adc924bd68b8d5e6813ef5369cdecbf2177", "2025-10-27": "sha256:be55ce756bc101f16b5858962d988300d086ca69f645078f9c245bdc7af50857"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
+config: {"docker": "quay.io/jupyter/julia-notebook", "url": "https://quay.io/repository/jupyter/julia-notebook", "maintainer": "@HasseJohansen", "description": "Jupyter Julia Notebook from https://github.com/jupyter/docker-stacks", "latest": {"2026-02-03": "sha256:0b89ab70d74034591df19ae1dfa5d7e111d20228f5aab06696122070e51865ee"}, "tags": {"latest": "sha256:0b89ab70d74034591df19ae1dfa5d7e111d20228f5aab06696122070e51865ee", "2025-05-30": "sha256:9792324e1f10544aa7c56b79852129f131a09e86ce40cd64d7bcf63dc6e588ee", "2025-06-30": "sha256:85812ed3ee9b29a3937f95314abd427bdf904f1cd21e4de1d0696e48c5786caf", "2025-07-28": "sha256:5b7cd17b85b51e5153314840e30bd4240c1b1691ffb599a931ce94b0c75afaa7", "2025-08-25": "sha256:1f2f657acf9ad0c2d7e14a838dfb554992a1e5f3696014366fd9dacd2ab06e6a", "2025-09-30": "sha256:0617dcbcf9e2d9d27d67a0ca15d91e364cce40932ce311757acab4aa65328525", "2025-11-03": "sha256:ecd7b4a4d4af8ca53042573b87a8c6556cd036576a965b5c06cedc44b447ef3c", "2025-12-03": "sha256:59d98f166bd833f09be57a05b99fad58498b35bc76f52734617ce45f80f5fbfe", "2025-11-24": "sha256:b2852c53b56bfd73ee43bf4c30633a954e93f2baaf25a5c8bdec456b9a94e167", "2025-09-22": "sha256:cacaff91ce73c02e6319d81336285bf59642811529a69f054963571426618897", "2025-12-31": "sha256:5ba5e8e9f618eaa7567c902c001f9ee656007b7d97161c4389a1e9209bef2132", "2025-11-29": "sha256:50979fd069712a9a4dd42f46c35e5adc924bd68b8d5e6813ef5369cdecbf2177", "2025-10-27": "sha256:be55ce756bc101f16b5858962d988300d086ca69f645078f9c245bdc7af50857", "2026-02-03": "sha256:0b89ab70d74034591df19ae1dfa5d7e111d20228f5aab06696122070e51865ee"}, "aliases": [{"name": "run-notebook", "command": "jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 0.0.0.0"}]}
 ---
 
 This module is a singularity container wrapper for quay.io/jupyter/julia-notebook.
@@ -39,7 +40,7 @@ $ shpc install quay.io/jupyter/julia-notebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/jupyter/julia-notebook:2025-12-31
+$ shpc install quay.io/jupyter/julia-notebook:2026-02-03
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/jupyter/julia-notebook/2025-12-31
-$ module help quay.io/jupyter/julia-notebook/2025-12-31
+$ module load quay.io/jupyter/julia-notebook/2026-02-03
+$ module help quay.io/jupyter/julia-notebook/2026-02-03
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

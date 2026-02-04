@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vgp-processcuration"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vgp-processcuration/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vgp-processcuration/container.yaml"
-updated_at: "2026-02-03 04:21:03.625134"
-latest: "1.0--pyhdfd78af_0"
+updated_at: "2026-02-04 04:16:04.579387"
+latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vgp-processcuration"
 aliases:
  - "chromosome_assignment"
@@ -22,8 +22,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0--pyhdfd78af_0"
+ - "1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for vgp-processcuration"
-config: {"url": "https://biocontainers.pro/tools/vgp-processcuration", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vgp-processcuration", "latest": {"1.0--pyhdfd78af_0": "sha256:7ec76f6fff97e40ff3d656c7454f45f8a684e058a961c7009c414819ee29d0df"}, "tags": {"1.0--pyhdfd78af_0": "sha256:7ec76f6fff97e40ff3d656c7454f45f8a684e058a961c7009c414819ee29d0df"}, "docker": "quay.io/biocontainers/vgp-processcuration", "aliases": {"chromosome_assignment": "/usr/local/bin/chromosome_assignment", "chromosome_assignment.py": "/usr/local/bin/chromosome_assignment.py", "sak_generation": "/usr/local/bin/sak_generation", "sak_generation.py": "/usr/local/bin/sak_generation.py", "split_agp": "/usr/local/bin/split_agp", "split_agp.py": "/usr/local/bin/split_agp.py", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "natsort": "/usr/local/bin/natsort", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/vgp-processcuration", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vgp-processcuration", "latest": {"1.1--pyhdfd78af_0": "sha256:f6a8eb71c14ca947887982e68509438d77b6addcb42da76b63b5aa51c545a15e"}, "tags": {"1.0--pyhdfd78af_0": "sha256:7ec76f6fff97e40ff3d656c7454f45f8a684e058a961c7009c414819ee29d0df", "1.1--pyhdfd78af_0": "sha256:f6a8eb71c14ca947887982e68509438d77b6addcb42da76b63b5aa51c545a15e"}, "docker": "quay.io/biocontainers/vgp-processcuration", "aliases": {"chromosome_assignment": "/usr/local/bin/chromosome_assignment", "chromosome_assignment.py": "/usr/local/bin/chromosome_assignment.py", "sak_generation": "/usr/local/bin/sak_generation", "sak_generation.py": "/usr/local/bin/sak_generation.py", "split_agp": "/usr/local/bin/split_agp", "split_agp.py": "/usr/local/bin/split_agp.py", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "natsort": "/usr/local/bin/natsort", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vgp-processcuration.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/vgp-processcuration
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vgp-processcuration:1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vgp-processcuration:1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vgp-processcuration/1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/vgp-processcuration/1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/vgp-processcuration/1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/vgp-processcuration/1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

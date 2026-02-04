@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/art_modern-openmpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/art_modern-openmpi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/art_modern-openmpi/container.yaml"
-updated_at: "2026-02-03 04:23:10.536975"
+updated_at: "2026-02-04 04:18:12.879608"
 latest: "1.3.3--h572f19f_0"
 container_url: "https://biocontainers.pro/tools/art_modern-openmpi"
 aliases:
