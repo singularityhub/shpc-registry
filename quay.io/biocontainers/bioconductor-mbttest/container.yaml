@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mbttest
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:e96a557b978ffdbe296a181f3bbf83177e73ee72577899ac5cd6052ff0ec5119
+  1.38.0--r45hdfd78af_0: 
+    sha256:d2636c7bfdb0f9b5d3b17d9ba7e1166ae19c236c5ce8f8ecf1af8347e826208d
 tags:
   1.8.1--r341_0: 
     sha256:4b53074fd66ec647cb8159caf201ed978f6d21918e6c7b54b909383a86623a59
@@ -24,6 +24,8 @@ tags:
     sha256:d0203626a2001c7d7a73eefbbbf9376f677a197b80c1eece630db5bdf06354fa
   1.34.0--r44hdfd78af_0: 
     sha256:e96a557b978ffdbe296a181f3bbf83177e73ee72577899ac5cd6052ff0ec5119
+  1.38.0--r45hdfd78af_0: 
+    sha256:d2636c7bfdb0f9b5d3b17d9ba7e1166ae19c236c5ce8f8ecf1af8347e826208d
 docker: quay.io/biocontainers/bioconductor-mbttest
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nf-core
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nf-core
 latest:
-  3.5.1--pyhdfd78af_0: 
-    sha256:33f71a4dae3bd920fd56d8b4936ab50f7e27123ca763753d05c13dfd2e8dd54d
+  3.5.2--pyhdfd78af_0: 
+    sha256:a5b1f4a7e80a8e789f738e76fe660d5be71d4f4d5ede53c42a2b0e08a2c5e960
 tags:
   2.6--pyh7cba7a3_1: 
     sha256:e93a47ded9e18567f695e8610846f32f935c1db44ac5c5b03ab51ece3e8c5735
@@ -41,6 +41,8 @@ tags:
     sha256:33f71a4dae3bd920fd56d8b4936ab50f7e27123ca763753d05c13dfd2e8dd54d
   3.4.1--pyhdfd78af_1: 
     sha256:cf8aa28f26f23b46cceee35ae72bdbadf773294cc6a4c5e7fb62b898a233b1e9
+  3.5.2--pyhdfd78af_0: 
+    sha256:a5b1f4a7e80a8e789f738e76fe660d5be71d4f4d5ede53c42a2b0e08a2c5e960
 docker: quay.io/biocontainers/nf-core
 aliases:
   cheetah: /usr/local/bin/cheetah
