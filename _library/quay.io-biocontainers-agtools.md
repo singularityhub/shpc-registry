@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agtools/container.yaml"
-updated_at: "2026-02-04 04:15:29.854686"
+updated_at: "2026-02-05 04:19:43.870160"
 latest: "1.0.2--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agtools"
 aliases:

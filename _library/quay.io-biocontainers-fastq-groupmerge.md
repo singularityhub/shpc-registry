@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-groupmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-groupmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-groupmerge/container.yaml"
-updated_at: "2026-02-04 04:44:21.337292"
+updated_at: "2026-02-05 04:47:34.244477"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fastq-groupmerge"
 aliases:

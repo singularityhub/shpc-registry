@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/consensify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/consensify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/consensify/container.yaml"
-updated_at: "2026-02-04 04:35:06.801976"
+updated_at: "2026-02-05 04:38:26.069829"
 latest: "2.4.0--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/consensify"
 aliases:

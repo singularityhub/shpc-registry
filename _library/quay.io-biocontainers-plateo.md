@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plateo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plateo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plateo/container.yaml"
-updated_at: "2026-02-04 04:46:05.887486"
+updated_at: "2026-02-05 04:49:18.581514"
 latest: "0.3.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/plateo"
 aliases:

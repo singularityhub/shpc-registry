@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viromeqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viromeqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viromeqc/container.yaml"
-updated_at: "2026-02-04 04:47:02.835706"
+updated_at: "2026-02-05 04:50:18.365218"
 latest: "1.0.2--py310h7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/viromeqc"
 aliases:

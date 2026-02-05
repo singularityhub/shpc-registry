@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scdblfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scdblfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scdblfinder/container.yaml"
-updated_at: "2026-02-04 04:55:58.767915"
+updated_at: "2026-02-05 04:59:13.488517"
 latest: "1.23.4--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scdblfinder"
 aliases:
