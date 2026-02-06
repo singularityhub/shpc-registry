@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbhoover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbhoover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbhoover/container.yaml"
-updated_at: "2026-02-05 04:28:51.482850"
+updated_at: "2026-02-06 04:28:35.468120"
 latest: "1.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pbhoover"
 aliases:

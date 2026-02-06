@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pantools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pantools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pantools/container.yaml"
-updated_at: "2026-02-05 05:00:38.067603"
+updated_at: "2026-02-06 04:59:03.492835"
 latest: "4.3.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pantools"
 aliases:

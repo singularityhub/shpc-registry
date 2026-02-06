@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blaze2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blaze2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blaze2/container.yaml"
-updated_at: "2026-02-05 05:01:03.210055"
+updated_at: "2026-02-06 04:59:28.221881"
 latest: "2.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/blaze2"
 aliases:

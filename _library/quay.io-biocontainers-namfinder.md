@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/namfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/namfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/namfinder/container.yaml"
-updated_at: "2026-02-05 04:37:06.552405"
+updated_at: "2026-02-06 04:36:44.938504"
 latest: "0.1.3--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/namfinder"
 aliases:

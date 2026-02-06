@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bloodgen3module"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bloodgen3module/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bloodgen3module/container.yaml"
-updated_at: "2026-02-05 04:37:04.011815"
+updated_at: "2026-02-06 04:36:42.488607"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bloodgen3module"
 aliases:

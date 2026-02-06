@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/egglib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/egglib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/egglib/container.yaml"
-updated_at: "2026-02-05 04:34:45.654868"
-latest: "3.5.2--py311hdaf34ae_0"
+updated_at: "2026-02-06 04:34:27.360199"
+latest: "3.6.0--py310h9b84884_0"
 container_url: "https://biocontainers.pro/tools/egglib"
 aliases:
  - "2to3-3.9"
@@ -27,8 +27,9 @@ versions:
  - "3.3.4--py311h8ddd9a4_1"
  - "3.3.5--py39he88f293_0"
  - "3.5.2--py311hdaf34ae_0"
+ - "3.6.0--py310h9b84884_0"
 description: "shpc-registry automated BioContainers addition for egglib"
-config: {"url": "https://biocontainers.pro/tools/egglib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for egglib", "latest": {"3.5.2--py311hdaf34ae_0": "sha256:c11a30372485bf44491a47647bd1779fc299ede046d121adb27414098b3c9a5f"}, "tags": {"3.1.0--py39h67e14b5_0": "sha256:0ff5dff7c486b29ca4a5fb2056cfb13f0866741787a52f149c5a09771ab567d2", "3.1.0--py310h068649b_3": "sha256:2c1d187ece5e8c87426d6b409120c03d7ea6346bdbab21bc63b7754340497dde", "3.3.0--py39he10ea66_0": "sha256:4213333e055817b10b3523b6007773d27b58eaded2f963ffed08a8601a8a4b3a", "3.3.1--py310h068649b_0": "sha256:a1e392f249242c9da7ae760558ae63c873fc8779b51d6115056c60bf4fe63872", "3.3.2--py38hcbe9525_0": "sha256:653003e16f59ba40454ee6c5c3a55a9f49080332dafd6f36950c2db1cef9c8b7", "3.3.2--py39he10ea66_0": "sha256:eb2e7d76484c9e91e7fc50ae00be0385a29cefdaa3ac489c57737416d643a83d", "3.1.0--py39he10ea66_3": "sha256:78a7f47d038730020ab96371645596f0ca6f64add8c0f1a34daee0a4999e12fb", "3.3.2--py311h9f068be_1": "sha256:947a9fe7b0285984e2ab638dd21fa619deba969ec5293ea8eb2e7768268782cc", "3.3.3--py39h0dd7abe_1": "sha256:35670ebfdb129c8bfda02373cd002cb06c8cbbebb280e6c5d1c888afad4707f3", "3.3.4--py39h0dd7abe_0": "sha256:48e5f8bf187eac18f2bd784d1e45642e7451eadd266e7d83fc47524f0360f496", "3.3.4--py311h8ddd9a4_1": "sha256:5303e9c62f1f9c36c635bdf5c95b556087c399accccf8df6ccece8be50f5c4b5", "3.3.5--py39he88f293_0": "sha256:5e725419dc97168e66fe0321fe29c64ee4644df0417998021148013babc7d04f", "3.5.2--py311hdaf34ae_0": "sha256:c11a30372485bf44491a47647bd1779fc299ede046d121adb27414098b3c9a5f"}, "docker": "quay.io/biocontainers/egglib", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/egglib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for egglib", "latest": {"3.6.0--py310h9b84884_0": "sha256:a41cb810029f2f63c87dca125f81725f0e22db6a96d54613f0e54f381f7954d7"}, "tags": {"3.1.0--py39h67e14b5_0": "sha256:0ff5dff7c486b29ca4a5fb2056cfb13f0866741787a52f149c5a09771ab567d2", "3.1.0--py310h068649b_3": "sha256:2c1d187ece5e8c87426d6b409120c03d7ea6346bdbab21bc63b7754340497dde", "3.3.0--py39he10ea66_0": "sha256:4213333e055817b10b3523b6007773d27b58eaded2f963ffed08a8601a8a4b3a", "3.3.1--py310h068649b_0": "sha256:a1e392f249242c9da7ae760558ae63c873fc8779b51d6115056c60bf4fe63872", "3.3.2--py38hcbe9525_0": "sha256:653003e16f59ba40454ee6c5c3a55a9f49080332dafd6f36950c2db1cef9c8b7", "3.3.2--py39he10ea66_0": "sha256:eb2e7d76484c9e91e7fc50ae00be0385a29cefdaa3ac489c57737416d643a83d", "3.1.0--py39he10ea66_3": "sha256:78a7f47d038730020ab96371645596f0ca6f64add8c0f1a34daee0a4999e12fb", "3.3.2--py311h9f068be_1": "sha256:947a9fe7b0285984e2ab638dd21fa619deba969ec5293ea8eb2e7768268782cc", "3.3.3--py39h0dd7abe_1": "sha256:35670ebfdb129c8bfda02373cd002cb06c8cbbebb280e6c5d1c888afad4707f3", "3.3.4--py39h0dd7abe_0": "sha256:48e5f8bf187eac18f2bd784d1e45642e7451eadd266e7d83fc47524f0360f496", "3.3.4--py311h8ddd9a4_1": "sha256:5303e9c62f1f9c36c635bdf5c95b556087c399accccf8df6ccece8be50f5c4b5", "3.3.5--py39he88f293_0": "sha256:5e725419dc97168e66fe0321fe29c64ee4644df0417998021148013babc7d04f", "3.5.2--py311hdaf34ae_0": "sha256:c11a30372485bf44491a47647bd1779fc299ede046d121adb27414098b3c9a5f", "3.6.0--py310h9b84884_0": "sha256:a41cb810029f2f63c87dca125f81725f0e22db6a96d54613f0e54f381f7954d7"}, "docker": "quay.io/biocontainers/egglib", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/egglib.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/egglib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/egglib:3.5.2--py311hdaf34ae_0
+$ shpc install quay.io/biocontainers/egglib:3.6.0--py310h9b84884_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/egglib/3.5.2--py311hdaf34ae_0
-$ module help quay.io/biocontainers/egglib/3.5.2--py311hdaf34ae_0
+$ module load quay.io/biocontainers/egglib/3.6.0--py310h9b84884_0
+$ module help quay.io/biocontainers/egglib/3.6.0--py310h9b84884_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

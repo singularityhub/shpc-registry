@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-htscluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htscluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-htscluster/container.yaml"
-updated_at: "2026-02-05 04:42:43.304383"
+updated_at: "2026-02-06 04:42:12.284042"
 latest: "2.0.11--r44h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-htscluster"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phosr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phosr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phosr/container.yaml"
-updated_at: "2026-02-05 04:38:58.905799"
+updated_at: "2026-02-06 04:38:35.079354"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phosr"
 

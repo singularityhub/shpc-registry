@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tripr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tripr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tripr/container.yaml"
-updated_at: "2026-02-05 04:42:14.712238"
+updated_at: "2026-02-06 04:41:44.361641"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tripr"
 
