@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/contatester"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contatester/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contatester/container.yaml"
-updated_at: "2026-02-06 04:53:02.842045"
+updated_at: "2026-02-07 04:47:13.522252"
 latest: "1.0.0--py311r44he3b539c_4"
 container_url: "https://biocontainers.pro/tools/contatester"
 aliases:

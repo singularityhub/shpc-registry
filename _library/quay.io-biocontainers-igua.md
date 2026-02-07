@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igua"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igua/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igua/container.yaml"
-updated_at: "2026-02-06 04:34:33.392978"
+updated_at: "2026-02-07 04:28:18.837304"
 latest: "0.1.0--py310hec43fc7_0"
 container_url: "https://biocontainers.pro/tools/igua"
 aliases:

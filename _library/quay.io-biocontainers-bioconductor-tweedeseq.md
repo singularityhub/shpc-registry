@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tweedeseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tweedeseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tweedeseq/container.yaml"
-updated_at: "2026-02-06 04:19:12.164819"
+updated_at: "2026-02-07 04:12:35.459286"
 latest: "1.52.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tweedeseq"
 

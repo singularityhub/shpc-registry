@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytopipelinegui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytopipelinegui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytopipelinegui/container.yaml"
-updated_at: "2026-02-06 04:37:03.414583"
+updated_at: "2026-02-07 04:30:52.391647"
 latest: "1.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytopipelinegui"
 aliases:
