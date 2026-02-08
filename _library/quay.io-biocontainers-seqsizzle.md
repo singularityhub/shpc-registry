@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqsizzle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqsizzle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqsizzle/container.yaml"
-updated_at: "2026-02-07 04:17:55.736420"
-latest: "0.3.0--h790517f_0"
+updated_at: "2026-02-08 04:42:05.307521"
+latest: "0.4.1--h790517f_0"
 container_url: "https://biocontainers.pro/tools/seqsizzle"
 aliases:
  - "seqsizzle"
@@ -14,8 +14,9 @@ versions:
  - "0.1.5--h790517f_1"
  - "0.2.0--h790517f_0"
  - "0.3.0--h790517f_0"
+ - "0.4.1--h790517f_0"
 description: "singularity registry hpc automated addition for seqsizzle"
-config: {"url": "https://biocontainers.pro/tools/seqsizzle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqsizzle", "latest": {"0.3.0--h790517f_0": "sha256:81cf4294230bc5ab503a8f03d90f9bb43119ecf13e7a5dfd8caaef7a950dde66"}, "tags": {"0.1.4--h8bd2d3b_0": "sha256:7e2c45fbcf4d6059307b8e16c78d5a6959da1e40f28cdaae2ab3a650ea49d931", "0.1.5--h790517f_1": "sha256:e2efaf873809abd976ec09a5dc7e82fc3adcbfebf659be3cd332d8658b5ee868", "0.2.0--h790517f_0": "sha256:fc75f10fa8c91cda1d8c99eee61e788b3a72428a18fe0eab2dd514ee75204939", "0.3.0--h790517f_0": "sha256:81cf4294230bc5ab503a8f03d90f9bb43119ecf13e7a5dfd8caaef7a950dde66"}, "docker": "quay.io/biocontainers/seqsizzle", "aliases": {"seqsizzle": "/usr/local/bin/seqsizzle"}}
+config: {"url": "https://biocontainers.pro/tools/seqsizzle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqsizzle", "latest": {"0.4.1--h790517f_0": "sha256:552a0b67347140f96eeddc1bb6bde522004b5e1cae60ff6c68685ccf4af42308"}, "tags": {"0.1.4--h8bd2d3b_0": "sha256:7e2c45fbcf4d6059307b8e16c78d5a6959da1e40f28cdaae2ab3a650ea49d931", "0.1.5--h790517f_1": "sha256:e2efaf873809abd976ec09a5dc7e82fc3adcbfebf659be3cd332d8658b5ee868", "0.2.0--h790517f_0": "sha256:fc75f10fa8c91cda1d8c99eee61e788b3a72428a18fe0eab2dd514ee75204939", "0.3.0--h790517f_0": "sha256:81cf4294230bc5ab503a8f03d90f9bb43119ecf13e7a5dfd8caaef7a950dde66", "0.4.1--h790517f_0": "sha256:552a0b67347140f96eeddc1bb6bde522004b5e1cae60ff6c68685ccf4af42308"}, "docker": "quay.io/biocontainers/seqsizzle", "aliases": {"seqsizzle": "/usr/local/bin/seqsizzle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqsizzle.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/seqsizzle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqsizzle:0.3.0--h790517f_0
+$ shpc install quay.io/biocontainers/seqsizzle:0.4.1--h790517f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqsizzle/0.3.0--h790517f_0
-$ module help quay.io/biocontainers/seqsizzle/0.3.0--h790517f_0
+$ module load quay.io/biocontainers/seqsizzle/0.4.1--h790517f_0
+$ module help quay.io/biocontainers/seqsizzle/0.4.1--h790517f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
