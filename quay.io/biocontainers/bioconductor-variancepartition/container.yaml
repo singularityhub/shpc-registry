@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-variancepartition
 latest:
-  1.36.2--r44hdfd78af_0: 
-    sha256:06e44f339ffdbb8ca7c77aca2b072faf346b1a6e7f57e4f6d91935792c6008c1
+  1.40.1--r45hdfd78af_0: 
+    sha256:aa1f00f14536a208f7698b753cef87364521e0aad7adecaf61060f0880e44c3a
 tags:
   1.8.1--r3.4.1_0: 
     sha256:ed9a4f0082e31bf0e7d5234f7dd38cc2404024e5a867fc7663e87dafa09341db
@@ -24,6 +24,8 @@ tags:
     sha256:95c5c2f1d6229be81dd30fcb6a4fe745872fbe2d0494e2e294dc85054a77a9d5
   1.36.2--r44hdfd78af_0: 
     sha256:06e44f339ffdbb8ca7c77aca2b072faf346b1a6e7f57e4f6d91935792c6008c1
+  1.40.1--r45hdfd78af_0: 
+    sha256:aa1f00f14536a208f7698b753cef87364521e0aad7adecaf61060f0880e44c3a
 docker: quay.io/biocontainers/bioconductor-variancepartition
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

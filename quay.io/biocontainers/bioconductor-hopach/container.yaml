@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hopach
 latest:
-  2.66.0--r44h3df3fcb_0: 
-    sha256:2a6098869899a67349eb333ac47b9d195f6efae11450cbcd7a195d2e0fabfeac
+  2.70.0--r45h01b2380_0: 
+    sha256:9dd1076ecdde023b603482e149c7a3a6f3afcccd5406e1814196d26ca42e6a3c
 tags:
   2.54.0--r41hc0cfd56_2: 
     sha256:a9ada561104f5a197859106c33e5f516830d3e3a3b5611382cc851179ef083c1
@@ -18,4 +18,6 @@ tags:
     sha256:b817c173d876f7f324f518ebdd764563cba62263bdcbfe2e1aa08729c1ed160a
   2.66.0--r44h3df3fcb_0: 
     sha256:2a6098869899a67349eb333ac47b9d195f6efae11450cbcd7a195d2e0fabfeac
+  2.70.0--r45h01b2380_0: 
+    sha256:9dd1076ecdde023b603482e149c7a3a6f3afcccd5406e1814196d26ca42e6a3c
 docker: quay.io/biocontainers/bioconductor-hopach

@@ -8,7 +8,8 @@ filter:
 - ^(?!.*nano).*$
 - ^(?!.*windows).*$
 latest:
-  '8.2': sha256:6f55a078e025aa29fea2826c82f67ff2f774b82efd816c4c30bbfe67904f0bb8
+  '8.2': 'crane digest mongo:8.2: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
   4.4.5-bionic: 
     sha256:cc8bb8711114fa726ca641f5644791d3d43bdd2c95dac541a5fa2c90a2e6e972
@@ -39,9 +40,12 @@ tags:
   '7.0': sha256:606f8e029603330411a7dd10b5ffd50eefc297fc80cee89f10a455e496a76ae7
   8.0-rc: 
     sha256:d6529193fc33700bcad259c5100f72d5163971d8f27605950ba4984fc3e3b5c5
-  '8': sha256:6f55a078e025aa29fea2826c82f67ff2f774b82efd816c4c30bbfe67904f0bb8
-  '8.0': sha256:ea2d3389d685f1cbd41cbad8c9d0fb1a7448ede26263cde4e5e61aa9050d7783
-  '8.2': sha256:6f55a078e025aa29fea2826c82f67ff2f774b82efd816c4c30bbfe67904f0bb8
+  '8': 'crane digest mongo:8: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '8.0': 'crane digest mongo:8.0: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  '8.2': 'crane digest mongo:8.2: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
 aliases:
   mongo: /usr/bin/mongo
   mongod: /usr/bin/mongod
