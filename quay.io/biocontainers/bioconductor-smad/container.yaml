@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-smad
 latest:
-  1.22.0--r44he5774e6_0: 
-    sha256:87eb83587044edd3909117bc86caeea54f6dd348996a6f8c40d1a1ea2688fc4d
+  1.26.0--r45ha27e39d_0: 
+    sha256:9e1d966bf623e16e8df3102165d02d3d11cbdad1b375d2d4129a6e098d9bc643
 tags:
   1.8.0--r41h399db7b_0: 
     sha256:a2b707a2eda3cb2c1e7763d528aaae9c7b7ce23a11e21b34909c80ca43d5b0a0
@@ -20,6 +20,8 @@ tags:
     sha256:485c3a53a99f21ec0f51f4e9908f78ce88c707f99b8463cf1f61d5cb6391197e
   1.22.0--r44he5774e6_0: 
     sha256:87eb83587044edd3909117bc86caeea54f6dd348996a6f8c40d1a1ea2688fc4d
+  1.26.0--r45ha27e39d_0: 
+    sha256:9e1d966bf623e16e8df3102165d02d3d11cbdad1b375d2d4129a6e098d9bc643
 docker: quay.io/biocontainers/bioconductor-smad
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

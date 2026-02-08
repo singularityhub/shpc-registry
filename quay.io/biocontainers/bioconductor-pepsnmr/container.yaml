@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pepsnmr
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:07ad973ffd92e13b543f0c39ab1196a6a170d4f2e51c8894aa035e411cb0b1d1
+  1.28.0--r45hdfd78af_0: 
+    sha256:0a5b4d74a12aa65eb35d9e02da073bb9c89138016d89d76c3841f8566b691a22
 tags:
   1.8.1--r40hdfd78af_0: 
     sha256:13d4abb1f5d7723fc898b4dc91e8d00a4ead606cc8e751a6efe5ea1866444651
@@ -20,6 +20,8 @@ tags:
     sha256:eadf612098a36dddff07cd8a071e9b1de71d8154728c121c2043b21d2678100a
   1.24.0--r44hdfd78af_0: 
     sha256:07ad973ffd92e13b543f0c39ab1196a6a170d4f2e51c8894aa035e411cb0b1d1
+  1.28.0--r45hdfd78af_0: 
+    sha256:0a5b4d74a12aa65eb35d9e02da073bb9c89138016d89d76c3841f8566b691a22
 docker: quay.io/biocontainers/bioconductor-pepsnmr
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

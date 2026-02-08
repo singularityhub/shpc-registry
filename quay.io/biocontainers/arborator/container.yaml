@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/arborator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for arborator
 latest:
-  1.2.0--pyhdfd78af_1: 
-    sha256:182cf7e6bc03af47fb4a57c293345a5cc5abfd8cd3557dfac67472e6de821cd0
+  1.2.2--pyhdfd78af_0: 
+    sha256:7fdab308740e7fedf11a8d1bc9ecef2fa7e2dc85bb8e69650307f48efbbdcec9
 tags:
   1.0.0--pyhdfd78af_1: 
     sha256:be154ce9cdd3f34454de606e699b7a7b0d301698f360c71244089af8875fd71e
@@ -21,6 +21,8 @@ tags:
     sha256:20cff7136b53acd3f1516c6abb1e66df0699f35adba30351d7976fa5945ffeb8
   1.2.0--pyhdfd78af_1: 
     sha256:182cf7e6bc03af47fb4a57c293345a5cc5abfd8cd3557dfac67472e6de821cd0
+  1.2.2--pyhdfd78af_0: 
+    sha256:7fdab308740e7fedf11a8d1bc9ecef2fa7e2dc85bb8e69650307f48efbbdcec9
 docker: quay.io/biocontainers/arborator
 aliases:
   arborator: /usr/local/bin/arborator

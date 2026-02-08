@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bambu
 latest:
-  3.8.3--r44he5774e6_0: 
-    sha256:85968f03c600034c733f6ccdfd99539b8f292f8f1e9599f800ac89ee356f74ee
+  3.12.1--r44he5774e6_0: 
+    sha256:dfcd325f5a19aec607d48c3cc429e682a87b30a01aaef419cea9616dd9b07c6c
 tags:
   2.0.6--r41hc247a5b_1: 
     sha256:dc456fb2c0abfeb865104670cade38e62205daeb15347b24fe5c3f0d4d9b93d5
@@ -26,6 +26,8 @@ tags:
     sha256:9688f819bac4b77956dc7e1d9fdd3a87443ce860662ee6a28774a335f28e3e3c
   3.8.3--r44he5774e6_0: 
     sha256:85968f03c600034c733f6ccdfd99539b8f292f8f1e9599f800ac89ee356f74ee
+  3.12.1--r44he5774e6_0: 
+    sha256:dfcd325f5a19aec607d48c3cc429e682a87b30a01aaef419cea9616dd9b07c6c
 docker: quay.io/biocontainers/bioconductor-bambu
 aliases:
   xgboost: /usr/local/bin/xgboost

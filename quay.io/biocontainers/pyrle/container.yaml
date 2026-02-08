@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyrle
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyrle
 latest:
-  0.0.42--py310h1fe012e_1: 
-    sha256:a84382c569b6223197d0146c63d32bc5df8292e8ab7be44b0a11ec7c233e2dae
+  0.0.43--py311haab0aaa_0: 
+    sha256:eb3bc6a7e852cc9e85cddf0a2a3e6fc6f0563a2bc2f03b17855f29bfd2327542
 tags:
   0.0.35--py36h91eb985_1: 
     sha256:89769f0c752b33dcb5fdd8dc20b1d6992071fdc2859cea01090c5ef05366e96a
@@ -21,6 +21,8 @@ tags:
     sha256:a73ad0f2d332f419d93cdee18c8d2e7c7017315a9c170411b10df37e8c1b125c
   0.0.42--py310h1fe012e_1: 
     sha256:a84382c569b6223197d0146c63d32bc5df8292e8ab7be44b0a11ec7c233e2dae
+  0.0.43--py311haab0aaa_0: 
+    sha256:eb3bc6a7e852cc9e85cddf0a2a3e6fc6f0563a2bc2f03b17855f29bfd2327542
 docker: quay.io/biocontainers/pyrle
 aliases:
   tabulate: /usr/local/bin/tabulate

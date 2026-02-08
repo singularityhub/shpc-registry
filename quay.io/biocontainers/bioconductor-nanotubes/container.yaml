@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nanotubes
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:14eecd7ba827d751110ce0b39b9397d18556bcba68504924ed037d0de6e0d538
+  1.26.0--r45hdfd78af_0: 
+    sha256:a0d47333476d092067b357b77cc71adfb47bef54d5e1e75c56ca8f7e299e9fa4
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:787cbddfc0a4a20cf31d8a187eb490fd0223e12fff70a21d42bacd9a11f298f8
@@ -18,6 +18,8 @@ tags:
     sha256:b7b06c4619dcfec1d53b92bf3ad900d32775629231e7a19f194351c1a1d9a350
   1.22.0--r44hdfd78af_0: 
     sha256:14eecd7ba827d751110ce0b39b9397d18556bcba68504924ed037d0de6e0d538
+  1.26.0--r45hdfd78af_0: 
+    sha256:a0d47333476d092067b357b77cc71adfb47bef54d5e1e75c56ca8f7e299e9fa4
 docker: quay.io/biocontainers/bioconductor-nanotubes
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

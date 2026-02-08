@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/esviritu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for esviritu
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:66b86ecb35a5655a27e99d4999bcc75f02ef581607109a8756cc7fc7abbf72af
+  1.1.6--pyhdfd78af_0: 
+    sha256:edeb9ba82a1f3b94df87c6670451c6819b2b0669415052b296d4266b0466e056
 tags:
   0.2.2--pyhdfd78af_0: 
     sha256:70cb2f1d48c8079a36d3cb43b781305b300f9f9b4115664b1cc69115eaa1f04e
@@ -19,6 +19,8 @@ tags:
     sha256:e3ff02a58c53a5bba0941876a3dd6150873b5f5cfd9095ceddd8db519a1aa77d
   1.1.2--pyhdfd78af_0: 
     sha256:66b86ecb35a5655a27e99d4999bcc75f02ef581607109a8756cc7fc7abbf72af
+  1.1.6--pyhdfd78af_0: 
+    sha256:edeb9ba82a1f3b94df87c6670451c6819b2b0669415052b296d4266b0466e056
 docker: quay.io/biocontainers/esviritu
 aliases:
   EsViritu: /usr/local/bin/EsViritu

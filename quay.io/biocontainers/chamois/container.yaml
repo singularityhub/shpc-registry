@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/chamois
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chamois
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:322546dda06cc9fdb7ceadd9d54e65a92420c430b94c8cf32af86f6f90d641a4
+  0.2.1--pyhdfd78af_0: 
+    sha256:4dd25203fdd3097ab53fadfc1a0ed584b4c7a2050511d03acc8cc1e2a927faaa
 tags:
   0.1.3--pyhdfd78af_0: 
     sha256:0ba70c99f044eef2f128c660aa9fe7ce7a072ae105ebc281929a145ba7d9ee71
   0.2.0--pyhdfd78af_0: 
     sha256:322546dda06cc9fdb7ceadd9d54e65a92420c430b94c8cf32af86f6f90d641a4
+  0.2.1--pyhdfd78af_0: 
+    sha256:4dd25203fdd3097ab53fadfc1a0ed584b4c7a2050511d03acc8cc1e2a927faaa
 docker: quay.io/biocontainers/chamois
 aliases:
   chamois: /usr/local/bin/chamois

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-xmapbridge
 latest:
-  1.64.0--r44hdfd78af_0: 
-    sha256:a52133645531ab1231c540f4351fa48d97fd24b8f80785f25e4a5938a5267003
+  1.68.0--r45hdfd78af_0: 
+    sha256:05f470d62aeccc6ead0ad37c201a66534b028de08833cdc71b2cca88c3267196
 tags:
   1.52.0--r41hdfd78af_0: 
     sha256:38b24f3bc130a05fa96a0ac6781dcb144c3a12779cb36206404eadd54d302e01
@@ -16,4 +16,6 @@ tags:
     sha256:40e2de00d42ea4dd3e39a49ec015035c6cbbb4c41c537a3d1d358d53d8ff2cd1
   1.64.0--r44hdfd78af_0: 
     sha256:a52133645531ab1231c540f4351fa48d97fd24b8f80785f25e4a5938a5267003
+  1.68.0--r45hdfd78af_0: 
+    sha256:05f470d62aeccc6ead0ad37c201a66534b028de08833cdc71b2cca88c3267196
 docker: quay.io/biocontainers/bioconductor-xmapbridge

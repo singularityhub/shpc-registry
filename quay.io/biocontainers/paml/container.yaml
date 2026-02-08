@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/paml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for paml
 latest:
-  4.10.9--h7b50bb2_1: 
-    sha256:d651adc0452e5d24a9d0523102890dc172275d001f399ef8f46a12634c635165
+  4.10.10--h7b50bb2_0: 
+    sha256:58be7299d61c4cd9ade478b770b0c78a34e432bba9e815584d8ae5363e86cffa
 tags:
   4.9--hec16e2b_7: 
     sha256:8a4612423d8664ba34989e4e085b7cd0ea9f9b730bac67d97bf61745768d5020
@@ -21,6 +21,8 @@ tags:
     sha256:b80e239f38c6850a10dc07328338a9dd67cedfe577d5553aa398d7fdd4adc0a5
   4.10.9--h7b50bb2_1: 
     sha256:d651adc0452e5d24a9d0523102890dc172275d001f399ef8f46a12634c635165
+  4.10.10--h7b50bb2_0: 
+    sha256:58be7299d61c4cd9ade478b770b0c78a34e432bba9e815584d8ae5363e86cffa
 docker: quay.io/biocontainers/paml
 aliases:
   baseml: /usr/local/bin/baseml

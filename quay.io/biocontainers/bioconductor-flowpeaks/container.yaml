@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowpeaks
 latest:
-  1.52.0--r44h310a8c3_0: 
-    sha256:e2a5576c4702148ad769c6a17052dd7a04afe6ec666912ae1f16d02b36449440
+  1.56.0--r45h1ca3914_0: 
+    sha256:b1f3a773dcf6767da9b4c205656d2396e0b026949c32a854cb5f81cd65352dfb
 tags:
   1.40.0--r41hd4b0f26_3: 
     sha256:c70678760e26f13209281686175015c3dd2f8aa6bc155840984ddd88915bf57c
@@ -20,4 +20,6 @@ tags:
     sha256:a524a6cf9d947a9bce03301af4026c335cb29c592ca9ea97bb8dac7ffebe44f7
   1.52.0--r44h310a8c3_0: 
     sha256:e2a5576c4702148ad769c6a17052dd7a04afe6ec666912ae1f16d02b36449440
+  1.56.0--r45h1ca3914_0: 
+    sha256:b1f3a773dcf6767da9b4c205656d2396e0b026949c32a854cb5f81cd65352dfb
 docker: quay.io/biocontainers/bioconductor-flowpeaks
