@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-hvp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-hvp
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:aee7945f4653b0a4268969076121143f39668b6e6ee259b2a9c210adf9214183
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:aee7945f4653b0a4268969076121143f39668b6e6ee259b2a9c210adf9214183
+docker: quay.io/biocontainers/bioconductor-hvp
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
