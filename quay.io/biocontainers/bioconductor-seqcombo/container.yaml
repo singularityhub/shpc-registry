@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-seqcombo
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:3b77f116ffd4632f981f432be4f8884d3f38170ae2f4c77140440df1d961a4fb
+  1.32.0--r45hdfd78af_0: 
+    sha256:34494466d633d88ce86bda3fe6adcbab9e035dd1a635a2f45762956957c2906c
 tags:
   1.8.0--r36_0: 
     sha256:f84a76a7d16777ad075e517ea8933dc7adf9386c2d429c717022c726b05c5013
@@ -24,6 +24,8 @@ tags:
     sha256:5b11805017572e680173beaa7a92fd097643e2cfd5ca113eb7a31a75674bdbba
   1.28.0--r44hdfd78af_0: 
     sha256:3b77f116ffd4632f981f432be4f8884d3f38170ae2f4c77140440df1d961a4fb
+  1.32.0--r45hdfd78af_0: 
+    sha256:34494466d633d88ce86bda3fe6adcbab9e035dd1a635a2f45762956957c2906c
 docker: quay.io/biocontainers/bioconductor-seqcombo
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

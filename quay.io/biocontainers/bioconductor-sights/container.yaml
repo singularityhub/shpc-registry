@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sights
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:816f7995390c472614423564c15a2c5425235e747c28b1af8d42d0fb646307aa
+  1.36.0--r45hdfd78af_0: 
+    sha256:e2d2a3f6117eb0e0d14288ed5230f1fa8535fa645085905def35b58f4a5a7082
 tags:
   1.8.1--r351_0: 
     sha256:e38d89c641d36ad9272e5f12b6a91255230602caa3b5e4c430387191c85b28f1
@@ -24,6 +24,8 @@ tags:
     sha256:7bf39acaf0152ccc6ee30b007a85499c0abfb95232fb818b2cde7d36d55ea0d6
   1.32.0--r44hdfd78af_0: 
     sha256:816f7995390c472614423564c15a2c5425235e747c28b1af8d42d0fb646307aa
+  1.36.0--r45hdfd78af_0: 
+    sha256:e2d2a3f6117eb0e0d14288ed5230f1fa8535fa645085905def35b58f4a5a7082
 docker: quay.io/biocontainers/bioconductor-sights
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

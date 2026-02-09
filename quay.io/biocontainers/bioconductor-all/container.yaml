@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-all
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-all
 latest:
-  1.48.0--r44hdfd78af_0: 
-    sha256:1cd930a21e1a0c2a1fc38eb5aa3d999814273670ae3e88a2d42ebd41b32f888a
+  1.52.0--r45hdfd78af_0: 
+    sha256:55f6427e80cf7b21be727d55244e22e14079f71c7d95f74cd4775aa599401e23
 tags:
   1.36.0--r41hdfd78af_1: 
     sha256:e54f51e777e71d85e8477a906600ff3c12aedac42d7c3483632a7cc6102d8992
@@ -15,4 +15,6 @@ tags:
     sha256:e6db8ca4fb223b35c04ab339b3400703ae6ef61eb67425e5cc2e3ff2767e4d37
   1.48.0--r44hdfd78af_0: 
     sha256:1cd930a21e1a0c2a1fc38eb5aa3d999814273670ae3e88a2d42ebd41b32f888a
+  1.52.0--r45hdfd78af_0: 
+    sha256:55f6427e80cf7b21be727d55244e22e14079f71c7d95f74cd4775aa599401e23
 docker: quay.io/biocontainers/bioconductor-all

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tirank
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tirank
 latest:
-  0.1.3--pyhdfd78af_0: 
-    sha256:6cc1bba0d3371079cd75a2e98206f2dcb541bffe578f76c17418e0b7399f66c7
+  1.0.2--pyhdfd78af_1: 
+    sha256:8ef77c2fcecd3210b68b3e72c0afc804e1f01530472a6056d4944a1944f5294e
 tags:
   0.1.3--pyhdfd78af_0: 
     sha256:6cc1bba0d3371079cd75a2e98206f2dcb541bffe578f76c17418e0b7399f66c7
+  1.0.2--pyhdfd78af_1: 
+    sha256:8ef77c2fcecd3210b68b3e72c0afc804e1f01530472a6056d4944a1944f5294e
 docker: quay.io/biocontainers/tirank
 aliases:
   crc32c: /usr/local/bin/crc32c

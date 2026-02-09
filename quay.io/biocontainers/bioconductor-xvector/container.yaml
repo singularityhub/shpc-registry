@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-xvector
 latest:
-  0.46.0--r44h15a9599_2: 
-    sha256:2f71e4597e17e47511fde203d2f13af49c771ce1a6f45cb9d00bea5554b4f083
+  0.50.0--r45h01b2380_0: 
+    sha256:707f1450fd82c5d6c4557373d3ca985dbd8e5ca83919e887cebc5d3926817d98
 tags:
   0.34.0--r41hc0cfd56_2: 
     sha256:0d5fa322944c3a1c44b9c19cb5c5f817666a438f3abc6c1c6d99671ec26ae39c
@@ -22,4 +22,6 @@ tags:
     sha256:afbb2afdd899d0871c33ecad2c337ccaeec6d63bf08ade3b9437eaa6da114bc4
   0.46.0--r44h15a9599_2: 
     sha256:2f71e4597e17e47511fde203d2f13af49c771ce1a6f45cb9d00bea5554b4f083
+  0.50.0--r45h01b2380_0: 
+    sha256:707f1450fd82c5d6c4557373d3ca985dbd8e5ca83919e887cebc5d3926817d98
 docker: quay.io/biocontainers/bioconductor-xvector

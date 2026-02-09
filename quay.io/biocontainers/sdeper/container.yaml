@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sdeper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sdeper
 latest:
-  1.7.1--pyhdfd78af_0: 
-    sha256:6773a19a79ca6fb6f29150c1bd0925e3a58a26728528bfabce99e9d6f9cad933
+  2.0.0--pyhdfd78af_0: 
+    sha256:b49ca41a532a7070b35c2c020eef8febe8d90b5c1c117794b1e7953dd4bad6c8
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:9ea1667a51e75f8d746964008d2062c4bd17e97e4191c439420cf6ccc76f53de
@@ -29,6 +29,8 @@ tags:
     sha256:6773a19a79ca6fb6f29150c1bd0925e3a58a26728528bfabce99e9d6f9cad933
   1.6.4--pyhdfd78af_1: 
     sha256:3322763b4efd3c4466548a81c98e8ce1f81dab0341defa56c6be24e720c9b36c
+  2.0.0--pyhdfd78af_0: 
+    sha256:b49ca41a532a7070b35c2c020eef8febe8d90b5c1c117794b1e7953dd4bad6c8
 docker: quay.io/biocontainers/sdeper
 aliases:
   runDeconvolution: /usr/local/bin/runDeconvolution

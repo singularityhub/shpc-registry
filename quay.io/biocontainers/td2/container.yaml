@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/td2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for td2
 latest:
-  1.0.6--pyhdfd78af_0: 
-    sha256:7e7a7fe54ce170d91a76451b4122955ee3861310af61799be8faf834060911ca
+  1.0.7--pyhdfd78af_0: 
+    sha256:317f37a5ebc08db93e4fa0193696e1349e5a6f09145c63a6a4403e59d452c307
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:2bee39edc32f62c985581cd45b1026cb17a46f6af95ded77c9e7faa5a4181f6b
@@ -11,6 +11,8 @@ tags:
     sha256:fdc82cad9544d430a9960157aae6c919f40e23a6cffcc3c2a19a9d0a31cd750c
   1.0.6--pyhdfd78af_0: 
     sha256:7e7a7fe54ce170d91a76451b4122955ee3861310af61799be8faf834060911ca
+  1.0.7--pyhdfd78af_0: 
+    sha256:317f37a5ebc08db93e4fa0193696e1349e5a6f09145c63a6a4403e59d452c307
 docker: quay.io/biocontainers/td2
 aliases:
   TD2: /usr/local/bin/TD2

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cqn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cqn
 latest:
-  1.52.0--r44hdfd78af_0: 
-    sha256:f5e16c24f7d3c692935a9971eeb09e4a8e1af4bcc9ea2fbc15687eac31f1ee37
+  1.56.0--r45hdfd78af_0: 
+    sha256:8bc0f65e6237b675847ddb8d72700ae276275acdd7237729dc4beff1bb6ac3ff
 tags:
   1.40.0--r41hdfd78af_0: 
     sha256:e304ca5915d0112ffd5ccf22e201b585572bbe7e1cc970269e91a909a97af146
@@ -15,4 +15,6 @@ tags:
     sha256:4f4ba2189477ca7492b8770ff1b8cfd24dce07e4fd280352c041dd7df2ca9637
   1.52.0--r44hdfd78af_0: 
     sha256:f5e16c24f7d3c692935a9971eeb09e4a8e1af4bcc9ea2fbc15687eac31f1ee37
+  1.56.0--r45hdfd78af_0: 
+    sha256:8bc0f65e6237b675847ddb8d72700ae276275acdd7237729dc4beff1bb6ac3ff
 docker: quay.io/biocontainers/bioconductor-cqn

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-depinfer
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:08e46b471e2fd58ddcba3e8346c6c03a9aac117cc66f8d8b5de13b96aafe2085
+  1.14.0--r45hdfd78af_0: 
+    sha256:6af796d70910a3e5f003f5ee3d12635ae1420c3c09f600a2c44e3a9ac450f5ca
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:f17079d2fb3e663f9ef57d4a473f5d70b88979370817c401fc77e3f9a481a929
@@ -14,4 +14,6 @@ tags:
     sha256:90da36bfadf4e7e6dea15037d099cf058328f7a8765edbc2d3dc1104ada547dc
   1.10.0--r44hdfd78af_0: 
     sha256:08e46b471e2fd58ddcba3e8346c6c03a9aac117cc66f8d8b5de13b96aafe2085
+  1.14.0--r45hdfd78af_0: 
+    sha256:6af796d70910a3e5f003f5ee3d12635ae1420c3c09f600a2c44e3a9ac450f5ca
 docker: quay.io/biocontainers/bioconductor-depinfer

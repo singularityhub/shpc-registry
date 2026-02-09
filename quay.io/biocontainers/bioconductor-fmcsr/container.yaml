@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fmcsr
 latest:
-  1.48.0--r44he5774e6_0: 
-    sha256:f6ab346990a6691fccdf41c66b369ac8423adfa983098e3e380be952ce996ba4
+  1.52.0--r45ha27e39d_0: 
+    sha256:5ff769e325abc77a9810fa09628ec3f81c724ce68a17b7b3c9a32db65909baf7
 tags:
   1.36.0--r41hc247a5b_2: 
     sha256:042cde91e3d0b262e80e0852d811d3d465c90417fe2a34329529ec214b212e12
@@ -18,6 +18,8 @@ tags:
     sha256:87a8945801baaaa62b84815e532cb6daf68e5d8a234facac5f8a153b585f2b2c
   1.48.0--r44he5774e6_0: 
     sha256:f6ab346990a6691fccdf41c66b369ac8423adfa983098e3e380be952ce996ba4
+  1.52.0--r45ha27e39d_0: 
+    sha256:5ff769e325abc77a9810fa09628ec3f81c724ce68a17b7b3c9a32db65909baf7
 docker: quay.io/biocontainers/bioconductor-fmcsr
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

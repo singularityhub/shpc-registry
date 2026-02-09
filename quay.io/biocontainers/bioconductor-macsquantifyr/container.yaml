@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-macsquantifyr
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:f1fdda1aa08c4eb6dcae5b4b37fecbb3efb102a31f3dd930e930db9cdcc2414b
+  1.24.0--r45hdfd78af_0: 
+    sha256:73513d7a4764a6c6192ac84854d79d61e0e75346ff459a4d45ec208dee006716
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:feef60fa7cca6143b9ed90f86afed1d4e7b0949d085aa9e2a5c9aa9574838caf
@@ -16,6 +16,8 @@ tags:
     sha256:e6c6d54ed0070b6181bee00cdb9d2d6097c7cd73213880a6831e750c05fb8552
   1.20.0--r44hdfd78af_0: 
     sha256:f1fdda1aa08c4eb6dcae5b4b37fecbb3efb102a31f3dd930e930db9cdcc2414b
+  1.24.0--r45hdfd78af_0: 
+    sha256:73513d7a4764a6c6192ac84854d79d61e0e75346ff459a4d45ec208dee006716
 docker: quay.io/biocontainers/bioconductor-macsquantifyr
 aliases:
   pandoc: /usr/local/bin/pandoc

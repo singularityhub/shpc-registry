@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-heatplus
 latest:
-  3.14.0--r44hdfd78af_0: 
-    sha256:d7c3e3f211bf4973ee79e5db67790066eac844e35732bb4246545b56b9efee30
+  3.18.0--r45hdfd78af_0: 
+    sha256:0aee2892ea5885e3ed12220e8af07f315f18277d6caaec652b39f9eea4d610f1
 tags:
   3.2.0--r41hdfd78af_0: 
     sha256:af996e312aa757687d68478acb516f6dd1efaf8e917791ec2876ff37302e61c8
@@ -16,4 +16,6 @@ tags:
     sha256:8471c2dd14a5c2781e12b57d8c922c05920211e4b2b5ab4e3e144a7dde291b3f
   3.14.0--r44hdfd78af_0: 
     sha256:d7c3e3f211bf4973ee79e5db67790066eac844e35732bb4246545b56b9efee30
+  3.18.0--r45hdfd78af_0: 
+    sha256:0aee2892ea5885e3ed12220e8af07f315f18277d6caaec652b39f9eea4d610f1
 docker: quay.io/biocontainers/bioconductor-heatplus

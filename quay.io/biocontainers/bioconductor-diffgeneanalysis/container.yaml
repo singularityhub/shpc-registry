@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-diffgeneanalysis
 latest:
-  1.88.0--r44hdfd78af_0: 
-    sha256:3cb02c95d3a18dc38cbe1d403887281746f40fbf799d256fac2ffb58b47166b8
+  1.92.0--r45hdfd78af_0: 
+    sha256:cc25c991fd18fd8b8b7c108233f67a5b04031ec3fd7c97dd6860dfb4b92db443
 tags:
   1.76.0--r41hdfd78af_0: 
     sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5
@@ -16,4 +16,6 @@ tags:
     sha256:b4beca502cf7c7519aaa156fb7d737e7a18c86f97fba37580f3f836dcb3bf713
   1.88.0--r44hdfd78af_0: 
     sha256:3cb02c95d3a18dc38cbe1d403887281746f40fbf799d256fac2ffb58b47166b8
+  1.92.0--r45hdfd78af_0: 
+    sha256:cc25c991fd18fd8b8b7c108233f67a5b04031ec3fd7c97dd6860dfb4b92db443
 docker: quay.io/biocontainers/bioconductor-diffgeneanalysis

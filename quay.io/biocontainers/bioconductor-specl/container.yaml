@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-specl
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:5d70a3efe4e7480220fac63c9f054fb70283793d8d433a2cd3adca12db09201d
+  1.44.0--r45hdfd78af_0: 
+    sha256:52c7fc67902a18858265a6fe6d525355e3129f21f43acc4cb72f222ab511dedd
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:fb954288febd70853e5cd2d5015011dc91132d9305b8c458026a0be50426ec27
@@ -16,4 +16,6 @@ tags:
     sha256:578b1c5078719fd52159e44c6cbf1bda57b64bd3f83afff01c82e2142ef704f8
   1.40.0--r44hdfd78af_0: 
     sha256:5d70a3efe4e7480220fac63c9f054fb70283793d8d433a2cd3adca12db09201d
+  1.44.0--r45hdfd78af_0: 
+    sha256:52c7fc67902a18858265a6fe6d525355e3129f21f43acc4cb72f222ab511dedd
 docker: quay.io/biocontainers/bioconductor-specl

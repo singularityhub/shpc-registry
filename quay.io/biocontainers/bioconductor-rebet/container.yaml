@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rebet
 latest:
-  1.24.0--r44h3df3fcb_0: 
-    sha256:d08552edad6cf7b7fc281d1bf2461fca7d9a2dffb8fd77a2c2431780811d515c
+  1.28.0--r45h01b2380_0: 
+    sha256:136cd74769189b26eb0e0d54cf983c327c2e9a70171cb527ee2ca66ece0f0ac4
 tags:
   1.8.0--r40hd029910_1: 
     sha256:dfe0d0a6acdf391425d5b21de2fbd1b591d543ac79399fb919b9d514ee07cd02
@@ -22,6 +22,8 @@ tags:
     sha256:b5edc0105adaeeaebf6cdf8859694567b7d4af8bed0001f9ebc64152df6bd185
   1.24.0--r44h3df3fcb_0: 
     sha256:d08552edad6cf7b7fc281d1bf2461fca7d9a2dffb8fd77a2c2431780811d515c
+  1.28.0--r45h01b2380_0: 
+    sha256:136cd74769189b26eb0e0d54cf983c327c2e9a70171cb527ee2ca66ece0f0ac4
 docker: quay.io/biocontainers/bioconductor-rebet
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

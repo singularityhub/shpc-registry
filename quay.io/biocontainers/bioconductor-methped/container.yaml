@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-methped
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:490dabe0f8d7405be6edb863ec23ed5a9a9f863be1d893ce25686131c22378fc
+  1.38.0--r45hdfd78af_0: 
+    sha256:f1da5b79e1b0301f9ec036c894d7d6cf68ca0a4be0434ae937e595b6571ca9b5
 tags:
   1.8.0--r341_0: 
     sha256:f8d7964d496481b253bde2010352a2b2841300c6091984e288a60fdd125cf2e9
@@ -24,6 +24,8 @@ tags:
     sha256:97fe8581159f2702b0c0fb83eadeda6105c6a99a9b88dd9dba017c6bcf806bca
   1.34.0--r44hdfd78af_0: 
     sha256:490dabe0f8d7405be6edb863ec23ed5a9a9f863be1d893ce25686131c22378fc
+  1.38.0--r45hdfd78af_0: 
+    sha256:f1da5b79e1b0301f9ec036c894d7d6cf68ca0a4be0434ae937e595b6571ca9b5
 docker: quay.io/biocontainers/bioconductor-methped
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config
