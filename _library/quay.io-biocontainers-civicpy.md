@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/civicpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/civicpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/civicpy/container.yaml"
-updated_at: "2026-02-08 04:40:29.376150"
+updated_at: "2026-02-09 04:35:22.792868"
 latest: "5.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/civicpy"
 aliases:

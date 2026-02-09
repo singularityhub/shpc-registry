@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svarp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svarp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svarp/container.yaml"
-updated_at: "2026-02-08 04:43:00.294756"
+updated_at: "2026-02-09 04:37:49.722067"
 latest: "1.1.1--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/svarp"
 aliases:

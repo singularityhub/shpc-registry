@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/splash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/splash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/splash/container.yaml"
-updated_at: "2026-02-08 04:56:26.248346"
+updated_at: "2026-02-09 04:50:56.909190"
 latest: "2.11.0--py313h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/splash"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastafunk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastafunk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastafunk/container.yaml"
-updated_at: "2026-02-08 04:53:37.161863"
+updated_at: "2026-02-09 04:48:11.839530"
 latest: "0.1.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/fastafunk"
 aliases:
