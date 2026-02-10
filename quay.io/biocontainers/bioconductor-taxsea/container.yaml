@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-taxsea
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-taxsea
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:cb0869432b443c63eeb27b58aec44970faf3c209014561d2b0f16a776b2d20ef
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:cb0869432b443c63eeb27b58aec44970faf3c209014561d2b0f16a776b2d20ef
+docker: quay.io/biocontainers/bioconductor-taxsea
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

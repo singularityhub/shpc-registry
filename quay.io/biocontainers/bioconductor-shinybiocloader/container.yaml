@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-shinybiocloader
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-shinybiocloader
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:517e57b28945fbb25348fcbcc953e9fad79ea4dc09ed5530cb79c20f464bca99
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:517e57b28945fbb25348fcbcc953e9fad79ea4dc09ed5530cb79c20f464bca99
+docker: quay.io/biocontainers/bioconductor-shinybiocloader
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
