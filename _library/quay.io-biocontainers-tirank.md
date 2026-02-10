@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tirank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tirank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tirank/container.yaml"
-updated_at: "2026-02-09 04:45:45.716179"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2026-02-10 04:49:22.283088"
+latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tirank"
 aliases:
  - "crc32c"
@@ -42,8 +42,9 @@ aliases:
  - "scanpy"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for tirank"
-config: {"url": "https://biocontainers.pro/tools/tirank", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tirank", "latest": {"0.1.3--pyhdfd78af_0": "sha256:6cc1bba0d3371079cd75a2e98206f2dcb541bffe578f76c17418e0b7399f66c7"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:6cc1bba0d3371079cd75a2e98206f2dcb541bffe578f76c17418e0b7399f66c7"}, "docker": "quay.io/biocontainers/tirank", "aliases": {"crc32c": "/usr/local/bin/crc32c", "dash-update-components": "/usr/local/bin/dash-update-components", "gseapy": "/usr/local/bin/gseapy", "hf": "/usr/local/bin/hf", "optuna": "/usr/local/bin/optuna", "tiny-agents": "/usr/local/bin/tiny-agents", "zarr": "/usr/local/bin/zarr", "dec265": "/usr/local/bin/dec265", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "alembic": "/usr/local/bin/alembic", "renderer": "/usr/local/bin/renderer", "dash-generate-components": "/usr/local/bin/dash-generate-components", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "x265": "/usr/local/bin/x265", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "mako-render": "/usr/local/bin/mako-render", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "flask": "/usr/local/bin/flask", "h5fuse": "/usr/local/bin/h5fuse", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "scanpy": "/usr/local/bin/scanpy"}}
+config: {"url": "https://biocontainers.pro/tools/tirank", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tirank", "latest": {"1.0.2--pyhdfd78af_1": "sha256:8ef77c2fcecd3210b68b3e72c0afc804e1f01530472a6056d4944a1944f5294e"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:6cc1bba0d3371079cd75a2e98206f2dcb541bffe578f76c17418e0b7399f66c7", "1.0.2--pyhdfd78af_1": "sha256:8ef77c2fcecd3210b68b3e72c0afc804e1f01530472a6056d4944a1944f5294e"}, "docker": "quay.io/biocontainers/tirank", "aliases": {"crc32c": "/usr/local/bin/crc32c", "dash-update-components": "/usr/local/bin/dash-update-components", "gseapy": "/usr/local/bin/gseapy", "hf": "/usr/local/bin/hf", "optuna": "/usr/local/bin/optuna", "tiny-agents": "/usr/local/bin/tiny-agents", "zarr": "/usr/local/bin/zarr", "dec265": "/usr/local/bin/dec265", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "alembic": "/usr/local/bin/alembic", "renderer": "/usr/local/bin/renderer", "dash-generate-components": "/usr/local/bin/dash-generate-components", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "x265": "/usr/local/bin/x265", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "mako-render": "/usr/local/bin/mako-render", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "flask": "/usr/local/bin/flask", "h5fuse": "/usr/local/bin/h5fuse", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "scanpy": "/usr/local/bin/scanpy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tirank.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/tirank
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tirank:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tirank:1.0.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tirank/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/tirank/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/tirank/1.0.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/tirank/1.0.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
