@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bioconductor-polytect
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-polytect
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:d3e55c9f5b43344e9cdde7438f89283c61e8e456b95d74f08bc24240c1a0dd3a
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:d3e55c9f5b43344e9cdde7438f89283c61e8e456b95d74f08bc24240c1a0dd3a
+docker: quay.io/biocontainers/bioconductor-polytect
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

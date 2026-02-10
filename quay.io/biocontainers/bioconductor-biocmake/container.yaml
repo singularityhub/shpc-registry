@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-biocmake
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-biocmake
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:0994e48ea08115cf60a835d47131102cb79b2ec38dd7de77bb6124c69c29108c
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:0994e48ea08115cf60a835d47131102cb79b2ec38dd7de77bb6124c69c29108c
+docker: quay.io/biocontainers/bioconductor-biocmake
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

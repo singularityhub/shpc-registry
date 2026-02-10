@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-limpa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-limpa
+latest:
+  1.2.5--r45hdfd78af_0: 
+    sha256:099595b31201f53e8de790ba34fb610d44c0074d5178e87572289326f8dd3b16
+tags:
+  1.2.5--r45hdfd78af_0: 
+    sha256:099595b31201f53e8de790ba34fb610d44c0074d5178e87572289326f8dd3b16
+docker: quay.io/biocontainers/bioconductor-limpa
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
