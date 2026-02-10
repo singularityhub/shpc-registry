@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gdc-client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdc-client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdc-client/container.yaml"
-updated_at: "2026-02-10 04:43:21.432149"
+updated_at: "2026-02-10 23:07:24.585172"
 latest: "2.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gdc-client"
 aliases:

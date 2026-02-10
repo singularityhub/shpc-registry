@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orthoflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthoflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthoflow/container.yaml"
-updated_at: "2026-02-10 04:54:35.714330"
+updated_at: "2026-02-10 23:18:50.429308"
 latest: "0.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orthoflow"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msi/container.yaml"
-updated_at: "2026-02-10 05:19:25.878147"
+updated_at: "2026-02-10 23:44:02.974765"
 latest: "0.3.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msi"
 aliases:

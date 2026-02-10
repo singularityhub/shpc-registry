@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanoget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoget/container.yaml"
-updated_at: "2026-02-10 05:21:47.795605"
+updated_at: "2026-02-10 23:46:27.231574"
 latest: "1.19.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanoget"
 aliases:

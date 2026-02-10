@@ -4,7 +4,7 @@ name:  "bids/mrtrix3_connectome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/mrtrix3_connectome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/mrtrix3_connectome/container.yaml"
-updated_at: "2026-02-10 05:25:13.486361"
+updated_at: "2026-02-10 23:49:56.064984"
 latest: "chrisfilo-patch-1"
 container_url: "https://hub.docker.com/r/bids/mrtrix3_connectome"
 

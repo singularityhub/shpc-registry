@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tbb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbb/container.yaml"
-updated_at: "2026-02-10 05:14:50.637330"
+updated_at: "2026-02-10 23:39:24.171970"
 latest: "4.4_20150728--0"
 container_url: "https://biocontainers.pro/tools/tbb"
 

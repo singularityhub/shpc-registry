@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cbea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbea/container.yaml"
-updated_at: "2026-02-10 05:18:47.280268"
+updated_at: "2026-02-10 23:43:23.860836"
 latest: "1.3.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbea"
 aliases:

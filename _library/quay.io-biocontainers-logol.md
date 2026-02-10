@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/logol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/logol/container.yaml"
-updated_at: "2026-02-10 04:37:14.977792"
+updated_at: "2026-02-10 23:01:15.112684"
 latest: "1.7.8--2"
 container_url: "https://biocontainers.pro/tools/logol"
 aliases:

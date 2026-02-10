@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf-annotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf-annotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf-annotator/container.yaml"
-updated_at: "2026-02-10 05:15:57.448605"
+updated_at: "2026-02-10 23:40:31.883850"
 latest: "0.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf-annotator"
 aliases:
