@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arrayexpresshts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arrayexpresshts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arrayexpresshts/container.yaml"
-updated_at: "2026-02-10 23:30:37.208364"
+updated_at: "2026-02-11 05:08:55.423890"
 latest: "1.44.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-arrayexpresshts"
 aliases:

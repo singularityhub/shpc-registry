@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-archr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-archr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-archr/container.yaml"
-updated_at: "2026-02-10 22:59:55.141301"
+updated_at: "2026-02-11 04:34:42.603328"
 latest: "1.0.3--r44h503566f_4"
 container_url: "https://biocontainers.pro/tools/r-archr"
 aliases:

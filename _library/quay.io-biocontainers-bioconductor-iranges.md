@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iranges/container.yaml"
-updated_at: "2026-02-10 23:25:16.264655"
+updated_at: "2026-02-11 05:02:44.969574"
 latest: "2.44.0--r45h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iranges"
 aliases:

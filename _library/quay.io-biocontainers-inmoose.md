@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/inmoose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inmoose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inmoose/container.yaml"
-updated_at: "2026-02-10 23:28:45.650319"
+updated_at: "2026-02-11 05:06:47.502456"
 latest: "0.9.1--py311hc1104ee_0"
 container_url: "https://biocontainers.pro/tools/inmoose"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scte"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scte/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scte/container.yaml"
-updated_at: "2026-02-10 23:40:47.656224"
+updated_at: "2026-02-11 05:20:24.353176"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scte"
 aliases:

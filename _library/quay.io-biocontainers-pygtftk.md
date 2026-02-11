@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygtftk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygtftk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygtftk/container.yaml"
-updated_at: "2026-02-10 23:37:11.103409"
+updated_at: "2026-02-11 05:16:13.529890"
 latest: "1.6.2--py39heed1e64_5"
 container_url: "https://biocontainers.pro/tools/pygtftk"
 aliases:

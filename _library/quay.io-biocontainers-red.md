@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/red"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/red/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/red/container.yaml"
-updated_at: "2026-02-10 23:14:28.470366"
+updated_at: "2026-02-11 04:50:14.985044"
 latest: "2018.09.10--h9948957_3"
 container_url: "https://biocontainers.pro/tools/red"
 aliases:

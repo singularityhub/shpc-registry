@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taranis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taranis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taranis/container.yaml"
-updated_at: "2026-02-10 23:28:20.044305"
+updated_at: "2026-02-11 05:06:17.859982"
 latest: "2.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taranis"
 aliases:

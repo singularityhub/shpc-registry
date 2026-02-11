@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svtopovz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svtopovz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svtopovz/container.yaml"
-updated_at: "2026-02-10 23:31:22.586796"
+updated_at: "2026-02-11 05:09:47.019897"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svtopovz"
 aliases:

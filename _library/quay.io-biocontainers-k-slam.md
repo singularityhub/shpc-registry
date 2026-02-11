@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/k-slam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/k-slam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/k-slam/container.yaml"
-updated_at: "2026-02-10 23:30:19.738109"
+updated_at: "2026-02-11 05:08:35.828422"
 latest: "1.0--1"
 container_url: "https://biocontainers.pro/tools/k-slam"
 aliases:

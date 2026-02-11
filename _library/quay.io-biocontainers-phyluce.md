@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyluce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyluce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyluce/container.yaml"
-updated_at: "2026-02-10 23:49:05.847543"
+updated_at: "2026-02-11 05:30:11.318708"
 latest: "1.6.8--py_0"
 container_url: "https://biocontainers.pro/tools/phyluce"
 aliases:

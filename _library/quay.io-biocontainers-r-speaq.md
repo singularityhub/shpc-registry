@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-speaq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-speaq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-speaq/container.yaml"
-updated_at: "2026-02-10 23:49:15.421124"
+updated_at: "2026-02-11 05:30:22.556730"
 latest: "2.7.0--r44h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-speaq"
 

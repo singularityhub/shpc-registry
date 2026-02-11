@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lumibarnes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumibarnes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumibarnes/container.yaml"
-updated_at: "2026-02-10 23:25:19.340859"
+updated_at: "2026-02-11 05:02:48.482283"
 latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumibarnes"
 

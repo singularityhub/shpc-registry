@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpomatic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpomatic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpomatic/container.yaml"
-updated_at: "2026-02-10 23:40:54.414627"
+updated_at: "2026-02-11 05:20:32.116832"
 latest: "1.0--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/snpomatic"
 aliases:
