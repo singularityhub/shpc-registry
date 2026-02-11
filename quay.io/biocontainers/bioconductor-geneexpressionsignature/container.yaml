@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geneexpressionsignature
 latest:
-  1.52.0--r44hdfd78af_0: 
-    sha256:19a9105c1e30128b25e5b2d6a013115b23d0b8a51d13f8f1eb42a3a223b9cb26
+  1.56.0--r45hdfd78af_0: 
+    sha256:04356d9e82ae36e2a76a5c5c406e6b14b3a4268aa4dfa6efd1a502707bc59ae3
 tags:
   1.40.0--r41hdfd78af_0: 
     sha256:ffc3d3959577ee10876bb6ec2cd4cdda6febaf86350a5c68966c96133ce8aac5
@@ -16,4 +16,6 @@ tags:
     sha256:09338efdfad2dd2e897cef3b4f7d626068c8b647858d50cf0d38f9809b320427
   1.52.0--r44hdfd78af_0: 
     sha256:19a9105c1e30128b25e5b2d6a013115b23d0b8a51d13f8f1eb42a3a223b9cb26
+  1.56.0--r45hdfd78af_0: 
+    sha256:04356d9e82ae36e2a76a5c5c406e6b14b3a4268aa4dfa6efd1a502707bc59ae3
 docker: quay.io/biocontainers/bioconductor-geneexpressionsignature

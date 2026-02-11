@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-encodexplorerdata
 latest:
-  0.99.5--r44hdfd78af_9: 
-    sha256:51445744302950ec7f52171a6b3728f94319ff7311a202a0a0f7087abf2d9a9a
+  0.99.5--r45hdfd78af_10: 
+    sha256:5bde42a74ccd6ae337c13c269511e52129e71860336b08cf7b691146e9f9f10e
 tags:
   0.99.5--r41hdfd78af_5: 
     sha256:4474650f03b23a056f473ea7078f5150ee687527468d4a8588a376d230172c7c
@@ -16,4 +16,6 @@ tags:
     sha256:beb16303cf682fa8027a12ef992c73148ca43f7dc6831db864be905778d03f48
   0.99.5--r44hdfd78af_9: 
     sha256:51445744302950ec7f52171a6b3728f94319ff7311a202a0a0f7087abf2d9a9a
+  0.99.5--r45hdfd78af_10: 
+    sha256:5bde42a74ccd6ae337c13c269511e52129e71860336b08cf7b691146e9f9f10e
 docker: quay.io/biocontainers/bioconductor-encodexplorerdata

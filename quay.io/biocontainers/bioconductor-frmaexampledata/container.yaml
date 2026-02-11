@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-frmaexampledata
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:2231266516d06e0fba08e7814335a89193287df83606ce98938e09a2315ad408
+  1.46.0--r45hdfd78af_0: 
+    sha256:02ef71766698356d667bfc8b125acdf39c6a6abdaad7726d5337336f66aa1a03
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:dfc734ac7dfe7c46f171284b02a74cfa5666153ce8cf6e7b282b6c2e397b5477
@@ -16,4 +16,6 @@ tags:
     sha256:c06ef0efa77679d6a812be174a5e1e7e9271363973049a2658e52e660af73ac8
   1.42.0--r44hdfd78af_0: 
     sha256:2231266516d06e0fba08e7814335a89193287df83606ce98938e09a2315ad408
+  1.46.0--r45hdfd78af_0: 
+    sha256:02ef71766698356d667bfc8b125acdf39c6a6abdaad7726d5337336f66aa1a03
 docker: quay.io/biocontainers/bioconductor-frmaexampledata

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-macrophage
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:67c6611863aab694446bb1b553c202a3940916995f525e30dff03ddba958a524
+  1.26.0--r45hdfd78af_0: 
+    sha256:6bb35c8614276cc1266048edba079e2d187264683cbb65b01dae8af9e4550542
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:a65aecdc5484813a54475e62750831432c13aba622d608333d95798319befa0f
@@ -18,6 +18,8 @@ tags:
     sha256:4234a6e571c1226b54c7b3eea7f7d8eeaf713d614454099237e9baef052950f3
   1.22.0--r44hdfd78af_0: 
     sha256:67c6611863aab694446bb1b553c202a3940916995f525e30dff03ddba958a524
+  1.26.0--r45hdfd78af_0: 
+    sha256:6bb35c8614276cc1266048edba079e2d187264683cbb65b01dae8af9e4550542
 docker: quay.io/biocontainers/bioconductor-macrophage
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

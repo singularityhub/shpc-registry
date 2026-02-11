@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-cytomem
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:9bbb30842dbf71b709397fca1ffaf517f435b0462f3c59ddb624c6f3e43f4ebc
+  1.14.0--r45hdfd78af_0: 
+    sha256:0045e3c23ba100e51b0ab787782f8282cbe17e990cd9bc34c5f30bdf8ba8d5c5
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:654b50f73222bc0ff6e75ff2cd9e97077f79f6ce1310e9c3900c6c2d3ef52876
@@ -14,4 +14,6 @@ tags:
     sha256:3209540c03c70f06843bae8852634c6bc7608d1c07cc2a6de2ff35d5d71735ca
   1.10.0--r44hdfd78af_0: 
     sha256:9bbb30842dbf71b709397fca1ffaf517f435b0462f3c59ddb624c6f3e43f4ebc
+  1.14.0--r45hdfd78af_0: 
+    sha256:0045e3c23ba100e51b0ab787782f8282cbe17e990cd9bc34c5f30bdf8ba8d5c5
 docker: quay.io/biocontainers/bioconductor-cytomem

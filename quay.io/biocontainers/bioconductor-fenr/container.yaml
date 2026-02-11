@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/bioconductor-fenr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-fenr
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:6eb6a3acb1ecced5ac8634af33d00b4f587ce01445b5630eedba5b29ad55f1aa
+  1.8.1--r45hdfd78af_0: 
+    sha256:983be9e3d1bdd86f2394df364e515e7eefac855b5426f8d66695975f87f6fa5b
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:6d1aa0f158936bc919848f281323ec6e233fd979ba17c83392c5878222e7d85e
   1.4.0--r44hdfd78af_0: 
     sha256:6eb6a3acb1ecced5ac8634af33d00b4f587ce01445b5630eedba5b29ad55f1aa
+  1.8.1--r45hdfd78af_0: 
+    sha256:983be9e3d1bdd86f2394df364e515e7eefac855b5426f8d66695975f87f6fa5b
 docker: quay.io/biocontainers/bioconductor-fenr
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

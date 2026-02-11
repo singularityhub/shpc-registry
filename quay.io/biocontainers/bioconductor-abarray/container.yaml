@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-abarray
 latest:
-  1.74.0--r44hdfd78af_0: 
-    sha256:076ab0af91e5a95fed16d8f7ce6d8f62b4e37c222f3bf2949d9cd3364227b509
+  1.78.0--r45hdfd78af_0: 
+    sha256:88d996846e8c6f9d55da073a8f393c1e84e18d867158ae6c192431feac8f8f54
 tags:
   1.62.0--r41hdfd78af_0: 
     sha256:137a9d0885b497ca9fac7d4bea9112004367014e3ef8499be38968edb9de63d4
@@ -16,4 +16,6 @@ tags:
     sha256:f000475e704babb9d973176070ec48a67f9ff111a50bcc41d822f856950f6542
   1.74.0--r44hdfd78af_0: 
     sha256:076ab0af91e5a95fed16d8f7ce6d8f62b4e37c222f3bf2949d9cd3364227b509
+  1.78.0--r45hdfd78af_0: 
+    sha256:88d996846e8c6f9d55da073a8f393c1e84e18d867158ae6c192431feac8f8f54
 docker: quay.io/biocontainers/bioconductor-abarray

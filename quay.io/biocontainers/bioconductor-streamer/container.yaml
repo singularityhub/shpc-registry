@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-streamer
 latest:
-  1.52.0--r44h3df3fcb_0: 
-    sha256:47425dd901e4dea7550b11ec84e8360a9748782dc8b5db59159eb73fc7fa2dc6
+  1.56.0--r45h01b2380_0: 
+    sha256:217924cbce484fc9fe59eb174ce8a7d9cc0051a4813fc322a7a8c1b0e9fdbd0c
 tags:
   1.40.0--r41hc0cfd56_2: 
     sha256:acb2801c86ce7a05513b7acd766bc8f96f85b26178579da76d322a40fdc78eaa
@@ -18,4 +18,6 @@ tags:
     sha256:5b362c93af5de3654ed9931b447dc2c513e71463aa626dde4c5271ae6346a304
   1.52.0--r44h3df3fcb_0: 
     sha256:47425dd901e4dea7550b11ec84e8360a9748782dc8b5db59159eb73fc7fa2dc6
+  1.56.0--r45h01b2380_0: 
+    sha256:217924cbce484fc9fe59eb174ce8a7d9cc0051a4813fc322a7a8c1b0e9fdbd0c
 docker: quay.io/biocontainers/bioconductor-streamer

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/deconveil
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deconveil
 latest:
-  0.1.4--pyhdfd78af_0: 
-    sha256:60bd8074c1e4127286aaa19962349194d32e60920f5e80e610043c265027d921
+  0.2.0--pyhdfd78af_0: 
+    sha256:f01839c0e0595f47ff57d3af0a171aeae0568fc50df4a984e804653b61bbbf1b
 tags:
   0.1.4--pyhdfd78af_0: 
     sha256:60bd8074c1e4127286aaa19962349194d32e60920f5e80e610043c265027d921
+  0.2.0--pyhdfd78af_0: 
+    sha256:f01839c0e0595f47ff57d3af0a171aeae0568fc50df4a984e804653b61bbbf1b
 docker: quay.io/biocontainers/deconveil
 aliases:
   debugpy-adapter: /usr/local/bin/debugpy-adapter

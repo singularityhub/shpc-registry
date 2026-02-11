@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geneticsped
 latest:
-  1.68.0--r44h81e381d_0: 
-    sha256:aefba8b65c311a9f8207e3589c09f806a0102fe2574cf6a962138419e841fe4d
+  1.72.0--r45h9e4a190_0: 
+    sha256:15cbc7d91bf25fb9055353c8dd1961500a2123ee935726b7f091f504e5bf7d23
 tags:
   1.56.0--r41h38f54d8_2: 
     sha256:f1eec506d1fd6f2e369b2e8eea8f3d8f49693ef08952429ee63676de432e2277
@@ -20,4 +20,6 @@ tags:
     sha256:4412826da0b7c5d177855c06a578849eb0aeb49aca68f1daa407fb02eac7d1e3
   1.68.0--r44h81e381d_0: 
     sha256:aefba8b65c311a9f8207e3589c09f806a0102fe2574cf6a962138419e841fe4d
+  1.72.0--r45h9e4a190_0: 
+    sha256:15cbc7d91bf25fb9055353c8dd1961500a2123ee935726b7f091f504e5bf7d23
 docker: quay.io/biocontainers/bioconductor-geneticsped

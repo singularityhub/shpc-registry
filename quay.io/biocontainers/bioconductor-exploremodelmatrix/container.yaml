@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-exploremodelmatrix
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:cafec1491956c4952a1f9a39494d0961259eabd4e0e7c0a7a82bbdc74a445b2f
+  1.22.0--r45hdfd78af_0: 
+    sha256:3d8ca6647317e2df8aec80690ddd74d147d4b1e9bffead485513918b731fa881
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:4ec7ee7288a004b15f6eb5ba137d167a5755a245171f27baa8b1270edb581b78
@@ -16,4 +16,6 @@ tags:
     sha256:e428fdd4f4d2d3e570c00946ac6bd69c49a2032ad0c9066d09534265adcae39e
   1.18.0--r44hdfd78af_0: 
     sha256:cafec1491956c4952a1f9a39494d0961259eabd4e0e7c0a7a82bbdc74a445b2f
+  1.22.0--r45hdfd78af_0: 
+    sha256:3d8ca6647317e2df8aec80690ddd74d147d4b1e9bffead485513918b731fa881
 docker: quay.io/biocontainers/bioconductor-exploremodelmatrix

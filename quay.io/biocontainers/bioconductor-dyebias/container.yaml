@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dyebias
 latest:
-  1.66.0--r44hdfd78af_0: 
-    sha256:8afe9039e4c9f1c9a93a00e7ada66484bcfcfde735c8f8df7e2942398afddb8d
+  1.70.0--r45hdfd78af_0: 
+    sha256:ee880f56ef1221bc0b88df0a54374be311444f1212a8c057ed763b04192fd887
 tags:
   1.54.0--r41hdfd78af_0: 
     sha256:877bf3671d81b59e05891bfab1f859b1ec8944b7d74678743ea466d3815e0d0b
@@ -16,4 +16,6 @@ tags:
     sha256:b8c27e2346bad4287e38923c2a8e13016b301d52a0316fb3b0b4b6f0ac1956fb
   1.66.0--r44hdfd78af_0: 
     sha256:8afe9039e4c9f1c9a93a00e7ada66484bcfcfde735c8f8df7e2942398afddb8d
+  1.70.0--r45hdfd78af_0: 
+    sha256:ee880f56ef1221bc0b88df0a54374be311444f1212a8c057ed763b04192fd887
 docker: quay.io/biocontainers/bioconductor-dyebias

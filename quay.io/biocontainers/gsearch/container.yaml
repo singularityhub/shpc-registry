@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gsearch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gsearch
 latest:
-  0.3.3--hafc0c1d_0: 
-    sha256:9ba395e26a6082b895e5b7f42d2e0486091819f7c08580b5bcd328ceca82498d
+  0.3.4--hafc0c1d_0: 
+    sha256:e8e3839806d4540fb47e223622ebf14ebfda76cfe323b628213aa88c6e4b41c5
 tags:
   0.0.12--h87f3376_0: 
     sha256:f84d5cb4c00788fe4166ae40cc5caf9bc23550ea9cd655a0e830ba23583fec43
@@ -37,6 +37,8 @@ tags:
     sha256:d42a27761527bdd6b645df54f03c123cb5a3beb44bece8fedbbc40c765dcd0b0
   0.3.3--hafc0c1d_0: 
     sha256:9ba395e26a6082b895e5b7f42d2e0486091819f7c08580b5bcd328ceca82498d
+  0.3.4--hafc0c1d_0: 
+    sha256:e8e3839806d4540fb47e223622ebf14ebfda76cfe323b628213aa88c6e4b41c5
 docker: quay.io/biocontainers/gsearch
 aliases:
   request: /usr/local/bin/request

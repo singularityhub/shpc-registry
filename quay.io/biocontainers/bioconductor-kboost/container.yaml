@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-kboost
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:43d5fbc955c18be88384c6f0240b3e25b51341f91384cab3b307a9840600476f
+  1.18.0--r45hdfd78af_0: 
+    sha256:a3fdc475157e2ec113f67db935c68a925d12d8227da8c0949b814eb64fef2abd
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:02b99844bf80d95006c91bacbd7b2781e915d75a07f1822e7003c89f99cfbd80
@@ -16,4 +16,6 @@ tags:
     sha256:787fe532958a32290abfb370f1fb76f6dbbaf64d494db6f0ca162b55ac6c0d6a
   1.14.0--r44hdfd78af_0: 
     sha256:43d5fbc955c18be88384c6f0240b3e25b51341f91384cab3b307a9840600476f
+  1.18.0--r45hdfd78af_0: 
+    sha256:a3fdc475157e2ec113f67db935c68a925d12d8227da8c0949b814eb64fef2abd
 docker: quay.io/biocontainers/bioconductor-kboost
