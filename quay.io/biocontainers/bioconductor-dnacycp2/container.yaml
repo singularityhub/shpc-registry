@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-dnacycp2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-dnacycp2
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:cba8ab31d1e6fad2d1bc66eca0da74958c79b7d5601fda3d1af5d0cad83775c4
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:cba8ab31d1e6fad2d1bc66eca0da74958c79b7d5601fda3d1af5d0cad83775c4
+docker: quay.io/biocontainers/bioconductor-dnacycp2
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

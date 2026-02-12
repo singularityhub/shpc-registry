@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-gcptools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-gcptools
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:bdf496c641b721f83abfe2f9af0ec402856b020865aeac614b6133c5352cfe10
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:bdf496c641b721f83abfe2f9af0ec402856b020865aeac614b6133c5352cfe10
+docker: quay.io/biocontainers/bioconductor-gcptools
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

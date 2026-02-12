@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-msstatsresponse
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-msstatsresponse
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:4687d6a04c15e6535e7843b4bb2e29cd95d265149642e7b77ec915e42061aa2a
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:4687d6a04c15e6535e7843b4bb2e29cd95d265149642e7b77ec915e42061aa2a
+docker: quay.io/biocontainers/bioconductor-msstatsresponse
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

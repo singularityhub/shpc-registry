@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-rawdiag
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-rawdiag
+latest:
+  1.6.0--r45hdfd78af_0: 
+    sha256:524084fdc74326dc74d1f2549532249f32c5b3fe9b5238d679a75b90b3886765
+tags:
+  1.6.0--r45hdfd78af_0: 
+    sha256:524084fdc74326dc74d1f2549532249f32c5b3fe9b5238d679a75b90b3886765
+docker: quay.io/biocontainers/bioconductor-rawdiag
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
