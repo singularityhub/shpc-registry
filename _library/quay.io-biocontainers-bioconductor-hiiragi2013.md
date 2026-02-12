@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hiiragi2013"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hiiragi2013/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hiiragi2013/container.yaml"
-updated_at: "2026-02-12 05:04:28.214569"
+updated_at: "2026-02-12 05:48:04.124942"
 latest: "1.41.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hiiragi2013"
 
