@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mirtarrnaseq
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:ac7a2d8de6c4bf2c44969dce478aae31afd16178a80a25c785a1df3ba356936e
+  1.18.0--r45hdfd78af_0: 
+    sha256:015a4af43e77f7a0a2328cb6ba735d7350f4a0e8bd2cfdd781e95ea0a8564e82
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:f151033b7a5c465d3cebe78fa38dde21f77f0f7a2d54e222849ff3bd70db0408
@@ -16,4 +16,6 @@ tags:
     sha256:3fd8e99987485ec299988debadc574119b8262709a1eac0e5a6dd7194c0d21f4
   1.14.0--r44hdfd78af_0: 
     sha256:ac7a2d8de6c4bf2c44969dce478aae31afd16178a80a25c785a1df3ba356936e
+  1.18.0--r45hdfd78af_0: 
+    sha256:015a4af43e77f7a0a2328cb6ba735d7350f4a0e8bd2cfdd781e95ea0a8564e82
 docker: quay.io/biocontainers/bioconductor-mirtarrnaseq

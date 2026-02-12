@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mina
 latest:
-  1.14.0--r44he5774e6_0: 
-    sha256:9d37ad1d9798d80ef737dffc19807dd13f457826098cf3582f678be711d49573
+  1.18.0--r45ha27e39d_0: 
+    sha256:8dcbba3a5e4e2f41b232a1c2e7e7e22933500a7c51d72252b0e4f7e5125038f6
 tags:
   1.2.0--r41hc247a5b_2: 
     sha256:a1f5d5bc1d4201740e3f73aa86767f1e81e11ae5afec1f0cd528a8981fd72ff8
@@ -18,4 +18,6 @@ tags:
     sha256:dd8e714bac9d19ffb4d7a3e039c4294e61f8a5a5667a54f8ea125ba2008d9588
   1.14.0--r44he5774e6_0: 
     sha256:9d37ad1d9798d80ef737dffc19807dd13f457826098cf3582f678be711d49573
+  1.18.0--r45ha27e39d_0: 
+    sha256:8dcbba3a5e4e2f41b232a1c2e7e7e22933500a7c51d72252b0e4f7e5125038f6
 docker: quay.io/biocontainers/bioconductor-mina

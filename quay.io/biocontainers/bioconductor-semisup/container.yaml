@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-semisup
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:dd6e6eea2fdd4236f8da0bfcecb237a777ae199644cadc737a936f31e2a42f86
+  1.34.0--r45hdfd78af_0: 
+    sha256:868c5331cb574e008288a586c878c2b58e76ca2032334b568db1df13f6e519eb
 tags:
   1.8.0--r36_1: 
     sha256:908e6aa7d0972558ea83ee5f04484c4bb8407cff3762071d7cd27774a5699a0c
@@ -24,6 +24,8 @@ tags:
     sha256:2da6265fd89f26d22b66eb3f5426b297286ef5b9728800e4a4f3685caca029c1
   1.30.0--r44hdfd78af_0: 
     sha256:dd6e6eea2fdd4236f8da0bfcecb237a777ae199644cadc737a936f31e2a42f86
+  1.34.0--r45hdfd78af_0: 
+    sha256:868c5331cb574e008288a586c878c2b58e76ca2032334b568db1df13f6e519eb
 docker: quay.io/biocontainers/bioconductor-semisup
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-alphabeta
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:e2e7b61f57c32fc41e8f51341a902e65afdb80b06d7be130c814be76e0fbeb6e
+  1.24.0--r45hdfd78af_0: 
+    sha256:540b732db5ad8c3c224ebee66a3133a28b911aba6d9fb3d0bcabb04cc481cb8c
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:7d3ac256292b1f2dea7ff49f2fd11b978cbf76101c9017aeb2bd180ad6d70ce0
@@ -16,4 +16,6 @@ tags:
     sha256:f1953cf9cc8c467ecdc00fe0fec8eed5ce15f7882a0e3f60a4399c8c6f46a378
   1.20.0--r44hdfd78af_0: 
     sha256:e2e7b61f57c32fc41e8f51341a902e65afdb80b06d7be130c814be76e0fbeb6e
+  1.24.0--r45hdfd78af_0: 
+    sha256:540b732db5ad8c3c224ebee66a3133a28b911aba6d9fb3d0bcabb04cc481cb8c
 docker: quay.io/biocontainers/bioconductor-alphabeta

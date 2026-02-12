@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-isanalytics
 latest:
-  1.12.0--r43hdfd78af_0: 
-    sha256:d0a6e373f84413233c8c4b2dcd3ece4786cf758a27115dc95e2aa78d041180d9
+  1.20.1--r45hdfd78af_0: 
+    sha256:9f15dafaa0f4a902c1dd5f2fe35364011a5679049ba2e65037703e66d12cc7d3
 tags:
   1.4.1--r41hdfd78af_0: 
     sha256:8a57b1287c5f118ffbbc69e851a2b2bd69c74b33f53c28deea433660914367b5
@@ -14,4 +14,6 @@ tags:
     sha256:5bd376a83fa7912e57838ed2336dd2041363e10070b923a942cc92ad9563081e
   1.12.0--r43hdfd78af_0: 
     sha256:d0a6e373f84413233c8c4b2dcd3ece4786cf758a27115dc95e2aa78d041180d9
+  1.20.1--r45hdfd78af_0: 
+    sha256:9f15dafaa0f4a902c1dd5f2fe35364011a5679049ba2e65037703e66d12cc7d3
 docker: quay.io/biocontainers/bioconductor-isanalytics

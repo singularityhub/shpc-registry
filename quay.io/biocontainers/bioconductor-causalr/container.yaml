@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-causalr
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:b1fb67908be7e5381db8b88654d40cf34f939f60d907d893d070e4261eadb9f8
+  1.42.0--r45hdfd78af_0: 
+    sha256:2cfebe19a650c71c998844a3797f89493c0814ea8dba4c7fb5a36ae1dfeaa2af
 tags:
   1.8.0--r3.3.2_0: 
     sha256:bf0860d48aaadc782374aac2707d716dfe8e10d0986a3aee130df28927626eac
@@ -24,6 +24,8 @@ tags:
     sha256:22696ea58dd720173d14c1465d5e7ac3740fc5b1c2b89cc73b69b6a97b39148f
   1.38.0--r44hdfd78af_0: 
     sha256:b1fb67908be7e5381db8b88654d40cf34f939f60d907d893d070e4261eadb9f8
+  1.42.0--r45hdfd78af_0: 
+    sha256:2cfebe19a650c71c998844a3797f89493c0814ea8dba4c7fb5a36ae1dfeaa2af
 docker: quay.io/biocontainers/bioconductor-causalr
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

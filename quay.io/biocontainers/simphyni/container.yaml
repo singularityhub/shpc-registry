@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/simphyni
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for simphyni
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:15d03baca04497840c13951acdbdb2061214081ceb884272571f9b9f289f4a3e
+  1.0.2--pyhdfd78af_0: 
+    sha256:c2b8d4fb4365a7959c66b03c50dc72e6ca6abba3beed6b9fbd52fddb03cb7afe
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:15d03baca04497840c13951acdbdb2061214081ceb884272571f9b9f289f4a3e
+  1.0.2--pyhdfd78af_0: 
+    sha256:c2b8d4fb4365a7959c66b03c50dc72e6ca6abba3beed6b9fbd52fddb03cb7afe
 docker: quay.io/biocontainers/simphyni
 aliases:
   geomap: /usr/local/bin/geomap

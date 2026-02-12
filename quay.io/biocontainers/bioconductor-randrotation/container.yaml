@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-randrotation
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:0413a31ecbe456d831b4f8c32437c8160d05b7622a56213da2cfce48bcda2604
+  1.22.0--r45hdfd78af_0: 
+    sha256:30499a21e45dd7ef74e3a1c2b0817d23c21d72d63c8817939a4e046680b716c9
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:786dab0b38caa583502e90dddd40c06191d971ed7d232bbac4ce9754284b4776
@@ -16,4 +16,6 @@ tags:
     sha256:519f2c058ba9f6289e6a106d10e12bf3feaed02e77ae33142b05354d8aaa311f
   1.18.0--r44hdfd78af_0: 
     sha256:0413a31ecbe456d831b4f8c32437c8160d05b7622a56213da2cfce48bcda2604
+  1.22.0--r45hdfd78af_0: 
+    sha256:30499a21e45dd7ef74e3a1c2b0817d23c21d72d63c8817939a4e046680b716c9
 docker: quay.io/biocontainers/bioconductor-randrotation

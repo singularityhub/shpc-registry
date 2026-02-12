@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scfeaturefilter
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:85b6dde10a276733638e87ca6d1cb7c7d42841970d585dfb2aa03a60008ba94f
+  1.30.0--r45hdfd78af_0: 
+    sha256:275310ab9d4126f5e76c758c3e78e89534e8753587ea0e9a85e7be0d2fd42a35
 tags:
   1.8.0--r40_0: 
     sha256:32cb8d9631e93f975f625ef36cd13fd9501a20927aef5bb9a09657f688581922
@@ -22,6 +22,8 @@ tags:
     sha256:b5da868fb1d0c6ab17716be37c359a4d4982c0555c545459e3f2d063280c4ab9
   1.26.0--r44hdfd78af_0: 
     sha256:85b6dde10a276733638e87ca6d1cb7c7d42841970d585dfb2aa03a60008ba94f
+  1.30.0--r45hdfd78af_0: 
+    sha256:275310ab9d4126f5e76c758c3e78e89534e8753587ea0e9a85e7be0d2fd42a35
 docker: quay.io/biocontainers/bioconductor-scfeaturefilter
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
