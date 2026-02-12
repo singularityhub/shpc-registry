@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-seqinfo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-seqinfo
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:70dbd4cee976c958e2f7a9277888606771bbb2ed3d3a25cd56e9b1ca8ffcbd53
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:70dbd4cee976c958e2f7a9277888606771bbb2ed3d3a25cd56e9b1ca8ffcbd53
+docker: quay.io/biocontainers/bioconductor-seqinfo
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
