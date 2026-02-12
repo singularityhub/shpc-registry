@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deconveil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deconveil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deconveil/container.yaml"
-updated_at: "2026-02-11 05:24:23.470109"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2026-02-12 05:16:07.614039"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deconveil"
 aliases:
  - "debugpy-adapter"
@@ -44,8 +44,9 @@ aliases:
  - "jupyter-trust"
 versions:
  - "0.1.4--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for deconveil"
-config: {"url": "https://biocontainers.pro/tools/deconveil", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deconveil", "latest": {"0.1.4--pyhdfd78af_0": "sha256:60bd8074c1e4127286aaa19962349194d32e60920f5e80e610043c265027d921"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:60bd8074c1e4127286aaa19962349194d32e60920f5e80e610043c265027d921"}, "docker": "quay.io/biocontainers/deconveil", "aliases": {"debugpy-adapter": "/usr/local/bin/debugpy-adapter", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "jupyter-server": "/usr/local/bin/jupyter-server", "pyjson5": "/usr/local/bin/pyjson5", "zarr": "/usr/local/bin/zarr", "debugpy": "/usr/local/bin/debugpy", "jupyter-console": "/usr/local/bin/jupyter-console", "jsonpointer": "/usr/local/bin/jsonpointer", "wsdump": "/usr/local/bin/wsdump", "send2trash": "/usr/local/bin/send2trash", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "httpx": "/usr/local/bin/httpx", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "h5fuse": "/usr/local/bin/h5fuse", "pybabel": "/usr/local/bin/pybabel", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
+config: {"url": "https://biocontainers.pro/tools/deconveil", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deconveil", "latest": {"0.2.0--pyhdfd78af_0": "sha256:f01839c0e0595f47ff57d3af0a171aeae0568fc50df4a984e804653b61bbbf1b"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:60bd8074c1e4127286aaa19962349194d32e60920f5e80e610043c265027d921", "0.2.0--pyhdfd78af_0": "sha256:f01839c0e0595f47ff57d3af0a171aeae0568fc50df4a984e804653b61bbbf1b"}, "docker": "quay.io/biocontainers/deconveil", "aliases": {"debugpy-adapter": "/usr/local/bin/debugpy-adapter", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "jupyter-server": "/usr/local/bin/jupyter-server", "pyjson5": "/usr/local/bin/pyjson5", "zarr": "/usr/local/bin/zarr", "debugpy": "/usr/local/bin/debugpy", "jupyter-console": "/usr/local/bin/jupyter-console", "jsonpointer": "/usr/local/bin/jsonpointer", "wsdump": "/usr/local/bin/wsdump", "send2trash": "/usr/local/bin/send2trash", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "httpx": "/usr/local/bin/httpx", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "h5fuse": "/usr/local/bin/h5fuse", "pybabel": "/usr/local/bin/pybabel", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "curve_keygen": "/usr/local/bin/curve_keygen", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deconveil.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/deconveil
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deconveil:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/deconveil:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deconveil/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/deconveil/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/deconveil/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/deconveil/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

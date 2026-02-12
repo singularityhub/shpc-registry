@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cytomem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytomem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytomem/container.yaml"
-updated_at: "2026-02-11 05:19:39.183564"
-latest: "1.10.0--r44hdfd78af_0"
+updated_at: "2026-02-12 05:11:59.706263"
+latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytomem"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
  - "1.10.0--r44hdfd78af_0"
+ - "1.14.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cytomem"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytomem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytomem", "latest": {"1.10.0--r44hdfd78af_0": "sha256:9bbb30842dbf71b709397fca1ffaf517f435b0462f3c59ddb624c6f3e43f4ebc"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:654b50f73222bc0ff6e75ff2cd9e97077f79f6ce1310e9c3900c6c2d3ef52876", "1.4.0--r43hdfd78af_0": "sha256:44e6f8532458c463e816ab9dca8afa3b6cf3413cd4e3e376fe1976f7f8f39f89", "1.6.0--r43hdfd78af_0": "sha256:3209540c03c70f06843bae8852634c6bc7608d1c07cc2a6de2ff35d5d71735ca", "1.10.0--r44hdfd78af_0": "sha256:9bbb30842dbf71b709397fca1ffaf517f435b0462f3c59ddb624c6f3e43f4ebc"}, "docker": "quay.io/biocontainers/bioconductor-cytomem"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytomem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytomem", "latest": {"1.14.0--r45hdfd78af_0": "sha256:0045e3c23ba100e51b0ab787782f8282cbe17e990cd9bc34c5f30bdf8ba8d5c5"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:654b50f73222bc0ff6e75ff2cd9e97077f79f6ce1310e9c3900c6c2d3ef52876", "1.4.0--r43hdfd78af_0": "sha256:44e6f8532458c463e816ab9dca8afa3b6cf3413cd4e3e376fe1976f7f8f39f89", "1.6.0--r43hdfd78af_0": "sha256:3209540c03c70f06843bae8852634c6bc7608d1c07cc2a6de2ff35d5d71735ca", "1.10.0--r44hdfd78af_0": "sha256:9bbb30842dbf71b709397fca1ffaf517f435b0462f3c59ddb624c6f3e43f4ebc", "1.14.0--r45hdfd78af_0": "sha256:0045e3c23ba100e51b0ab787782f8282cbe17e990cd9bc34c5f30bdf8ba8d5c5"}, "docker": "quay.io/biocontainers/bioconductor-cytomem"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytomem.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytomem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytomem:1.10.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytomem:1.14.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytomem/1.10.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytomem/1.10.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytomem/1.14.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytomem/1.14.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

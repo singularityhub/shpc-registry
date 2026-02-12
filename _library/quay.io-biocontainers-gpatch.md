@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gpatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gpatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gpatch/container.yaml"
-updated_at: "2026-02-11 04:35:39.009871"
-latest: "0.3.8--pyhdfd78af_0"
+updated_at: "2026-02-12 04:30:10.928399"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gpatch"
 aliases:
  - "GPatch"
@@ -19,8 +19,9 @@ versions:
  - "0.3.5--pyhdfd78af_0"
  - "0.3.6--pyhdfd78af_0"
  - "0.3.8--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gpatch"
-config: {"url": "https://biocontainers.pro/tools/gpatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gpatch", "latest": {"0.3.8--pyhdfd78af_0": "sha256:0bd7ecd2fe4fda431966549e9550c6a5dfac9ec2e22af3f3ce1bdfded63a3364"}, "tags": {"0.3.5--pyhdfd78af_0": "sha256:8713a529453f71b61283855c3daadb9ae0f1154a151773d5e14c9b7428021eb2", "0.3.6--pyhdfd78af_0": "sha256:76ddf1ea602608a4a21fe7e857bb185554dd3c153be19a785889c6c22d21e21d", "0.3.8--pyhdfd78af_0": "sha256:0bd7ecd2fe4fda431966549e9550c6a5dfac9ec2e22af3f3ce1bdfded63a3364"}, "docker": "quay.io/biocontainers/gpatch", "aliases": {"GPatch": "/usr/local/bin/GPatch", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/gpatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gpatch", "latest": {"0.4.0--pyhdfd78af_0": "sha256:3fa252379f8bb97a56ab919273e9632a30231e7e0411348e4d4cd5372e0f35e4"}, "tags": {"0.3.5--pyhdfd78af_0": "sha256:8713a529453f71b61283855c3daadb9ae0f1154a151773d5e14c9b7428021eb2", "0.3.6--pyhdfd78af_0": "sha256:76ddf1ea602608a4a21fe7e857bb185554dd3c153be19a785889c6c22d21e21d", "0.3.8--pyhdfd78af_0": "sha256:0bd7ecd2fe4fda431966549e9550c6a5dfac9ec2e22af3f3ce1bdfded63a3364", "0.4.0--pyhdfd78af_0": "sha256:3fa252379f8bb97a56ab919273e9632a30231e7e0411348e4d4cd5372e0f35e4"}, "docker": "quay.io/biocontainers/gpatch", "aliases": {"GPatch": "/usr/local/bin/GPatch", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gpatch.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/gpatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gpatch:0.3.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gpatch:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gpatch/0.3.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/gpatch/0.3.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/gpatch/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/gpatch/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

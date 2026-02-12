@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-encodexplorerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-encodexplorerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-encodexplorerdata/container.yaml"
-updated_at: "2026-02-11 04:54:43.301506"
-latest: "0.99.5--r44hdfd78af_9"
+updated_at: "2026-02-12 04:48:36.679816"
+latest: "0.99.5--r45hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-encodexplorerdata"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "0.99.5--r43hdfd78af_7"
  - "0.99.5--r43hdfd78af_8"
  - "0.99.5--r44hdfd78af_9"
+ - "0.99.5--r45hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-encodexplorerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-encodexplorerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-encodexplorerdata", "latest": {"0.99.5--r44hdfd78af_9": "sha256:51445744302950ec7f52171a6b3728f94319ff7311a202a0a0f7087abf2d9a9a"}, "tags": {"0.99.5--r41hdfd78af_5": "sha256:4474650f03b23a056f473ea7078f5150ee687527468d4a8588a376d230172c7c", "0.99.5--r42hdfd78af_6": "sha256:947c0aa3ea53f592371a01ee83c711e32b77e4c1fbce397b9c2ce49d688a707e", "0.99.5--r43hdfd78af_7": "sha256:31e430920bd86557ed8cee3d786a49d28431174695f33052d307a39ded7d2b41", "0.99.5--r43hdfd78af_8": "sha256:beb16303cf682fa8027a12ef992c73148ca43f7dc6831db864be905778d03f48", "0.99.5--r44hdfd78af_9": "sha256:51445744302950ec7f52171a6b3728f94319ff7311a202a0a0f7087abf2d9a9a"}, "docker": "quay.io/biocontainers/bioconductor-encodexplorerdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-encodexplorerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-encodexplorerdata", "latest": {"0.99.5--r45hdfd78af_10": "sha256:5bde42a74ccd6ae337c13c269511e52129e71860336b08cf7b691146e9f9f10e"}, "tags": {"0.99.5--r41hdfd78af_5": "sha256:4474650f03b23a056f473ea7078f5150ee687527468d4a8588a376d230172c7c", "0.99.5--r42hdfd78af_6": "sha256:947c0aa3ea53f592371a01ee83c711e32b77e4c1fbce397b9c2ce49d688a707e", "0.99.5--r43hdfd78af_7": "sha256:31e430920bd86557ed8cee3d786a49d28431174695f33052d307a39ded7d2b41", "0.99.5--r43hdfd78af_8": "sha256:beb16303cf682fa8027a12ef992c73148ca43f7dc6831db864be905778d03f48", "0.99.5--r44hdfd78af_9": "sha256:51445744302950ec7f52171a6b3728f94319ff7311a202a0a0f7087abf2d9a9a", "0.99.5--r45hdfd78af_10": "sha256:5bde42a74ccd6ae337c13c269511e52129e71860336b08cf7b691146e9f9f10e"}, "docker": "quay.io/biocontainers/bioconductor-encodexplorerdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-encodexplorerdata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-encodexplorerdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-encodexplorerdata:0.99.5--r44hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-encodexplorerdata:0.99.5--r45hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-encodexplorerdata/0.99.5--r44hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-encodexplorerdata/0.99.5--r44hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-encodexplorerdata/0.99.5--r45hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-encodexplorerdata/0.99.5--r45hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

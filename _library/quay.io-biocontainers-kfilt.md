@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kfilt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kfilt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kfilt/container.yaml"
-updated_at: "2026-02-11 05:13:58.931498"
+updated_at: "2026-02-12 05:06:46.902060"
 latest: "0.1.1--he881be0_0"
 container_url: "https://biocontainers.pro/tools/kfilt"
 aliases:

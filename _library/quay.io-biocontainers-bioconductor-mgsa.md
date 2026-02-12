@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mgsa/container.yaml"
-updated_at: "2026-02-11 04:45:39.468233"
+updated_at: "2026-02-12 04:40:22.388011"
 latest: "1.58.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mgsa"
 

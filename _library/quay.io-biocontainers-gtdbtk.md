@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtdbtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtdbtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtdbtk/container.yaml"
-updated_at: "2026-02-11 05:07:16.902032"
+updated_at: "2026-02-12 05:00:14.413479"
 latest: "2.6.1--pyh1f0d9b5_2"
 container_url: "https://biocontainers.pro/tools/gtdbtk"
 aliases:
