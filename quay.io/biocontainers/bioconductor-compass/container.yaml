@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-compass
 latest:
-  1.44.0--r44he5774e6_0: 
-    sha256:650858d354f72ed3e886f18cadfd4a4e81cd1c0b7437adab24180e80d7fff7dd
+  1.48.0--r45ha27e39d_0: 
+    sha256:ea288cb3b3aa3769e4520dab31eb32fcd405b747961636e40129443be1552cf7
 tags:
   1.32.0--r41hc247a5b_2: 
     sha256:e50c8ace23b8dc4056ffe80c8b706784de8475fe2a528a99c0b57adfccf46127
@@ -20,6 +20,8 @@ tags:
     sha256:0e5499811981ac30cb52d4107bd26108df14ca15d7130b8a026e4da5755396e0
   1.44.0--r44he5774e6_0: 
     sha256:650858d354f72ed3e886f18cadfd4a4e81cd1c0b7437adab24180e80d7fff7dd
+  1.48.0--r45ha27e39d_0: 
+    sha256:ea288cb3b3aa3769e4520dab31eb32fcd405b747961636e40129443be1552cf7
 docker: quay.io/biocontainers/bioconductor-compass
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

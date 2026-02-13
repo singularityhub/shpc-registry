@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-arrmdata
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:1096f2a83ca54b5e6f0ab0b024150a20ac39d7dc963bdb0e23d71ad4f5ef9ef5
+  1.46.0--r45hdfd78af_0: 
+    sha256:dd217471be29b48535f19ebd56b3fe9591502d0af39521f9d9f61335f5dafb93
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:d439ab215ae781076d0af48839816e5f655b3c51f75d7ea45c99db5c1bb42bde
@@ -16,4 +16,6 @@ tags:
     sha256:f56fe7010caf3dd16731f92752a7549a61b4cc6d30d9599b7f9e8e8e5dcad4c5
   1.42.0--r44hdfd78af_0: 
     sha256:1096f2a83ca54b5e6f0ab0b024150a20ac39d7dc963bdb0e23d71ad4f5ef9ef5
+  1.46.0--r45hdfd78af_0: 
+    sha256:dd217471be29b48535f19ebd56b3fe9591502d0af39521f9d9f61335f5dafb93
 docker: quay.io/biocontainers/bioconductor-arrmdata

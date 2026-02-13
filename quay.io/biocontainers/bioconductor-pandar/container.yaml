@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pandar
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:ce61438a688cff8053a87059d0838d233330148fdb331d69a19b93e5cba1b52b
+  1.42.0--r45hdfd78af_0: 
+    sha256:00c4fe732c59c8bc5e5563f17bf6963cc18c046600fdbaf67310b137e979062c
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:bb51fff2fd55848beb3e4b242126b25bb0bb0cd57e529d41bd2d29b6523b304e
@@ -16,4 +16,6 @@ tags:
     sha256:fc9cb31c980580252517a9b66e04c8efd64340274d98ef0c45e3f18d3c407d85
   1.38.0--r44hdfd78af_0: 
     sha256:ce61438a688cff8053a87059d0838d233330148fdb331d69a19b93e5cba1b52b
+  1.42.0--r45hdfd78af_0: 
+    sha256:00c4fe732c59c8bc5e5563f17bf6963cc18c046600fdbaf67310b137e979062c
 docker: quay.io/biocontainers/bioconductor-pandar

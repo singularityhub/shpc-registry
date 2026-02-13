@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hicdatahumanimr90
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:f0a29194b9cb7ab18e5e14513289a5cfe79dfe03e5181dbfcbdc2a0be6187e97
+  1.30.0--r45hdfd78af_0: 
+    sha256:fb03fd36c50508e7f42f54c304a9c0a7e20009d56db0b8b1ea0fe54d5ba13996
 tags:
   1.9.0--r40_0: 
     sha256:4b9ffd74d0632411440597d5af1ac298cf68d69442a08681374a58fe6250df8d
@@ -22,6 +22,8 @@ tags:
     sha256:69bcccd8ac0f1bc6e1cb6372ee48820a51788b8cdbe88f8fc4404b1b1473107d
   1.26.0--r44hdfd78af_0: 
     sha256:f0a29194b9cb7ab18e5e14513289a5cfe79dfe03e5181dbfcbdc2a0be6187e97
+  1.30.0--r45hdfd78af_0: 
+    sha256:fb03fd36c50508e7f42f54c304a9c0a7e20009d56db0b8b1ea0fe54d5ba13996
 docker: quay.io/biocontainers/bioconductor-hicdatahumanimr90
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

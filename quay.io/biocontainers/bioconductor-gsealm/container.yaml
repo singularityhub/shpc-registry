@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gsealm
 latest:
-  1.66.0--r44hdfd78af_0: 
-    sha256:07ffb5776c055f054e7cffdc004d8d18f8879144b515d9b873d46a80fa475806
+  1.70.0--r45hdfd78af_0: 
+    sha256:a821dc3bcdc84f3e155ccef08436cdd93481b136c31419b657abd2d934be9bbb
 tags:
   1.54.0--r41hdfd78af_0: 
     sha256:3ca0af58143953b265751753c97d585ba8f3b7969678647996eb48a7486e735f
@@ -16,4 +16,6 @@ tags:
     sha256:3806402b51c4992f30769991ed980db629c4a8656f8fb91e7f54cbc1a7f67cfb
   1.66.0--r44hdfd78af_0: 
     sha256:07ffb5776c055f054e7cffdc004d8d18f8879144b515d9b873d46a80fa475806
+  1.70.0--r45hdfd78af_0: 
+    sha256:a821dc3bcdc84f3e155ccef08436cdd93481b136c31419b657abd2d934be9bbb
 docker: quay.io/biocontainers/bioconductor-gsealm

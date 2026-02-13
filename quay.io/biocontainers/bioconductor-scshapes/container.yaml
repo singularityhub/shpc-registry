@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scshapes
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:f9addd0a0482caabefbae750e59f50e74013d9e37d2207384c9e09ba96a7492f
+  1.16.0--r45hdfd78af_0: 
+    sha256:603619bfd5d7b90389ca61c164c0bd01d4ab7874231b70002e520533cb5ed4fc
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:f7be7ced7ebdec3ff1e62e3e095a0c6acffd875108485f0456028cb16723c210
@@ -16,4 +16,6 @@ tags:
     sha256:361c1b09d509660b81fcf84e0744623fc95d878c9c4d8be69ab33e9a35f854dd
   1.12.0--r44hdfd78af_0: 
     sha256:f9addd0a0482caabefbae750e59f50e74013d9e37d2207384c9e09ba96a7492f
+  1.16.0--r45hdfd78af_0: 
+    sha256:603619bfd5d7b90389ca61c164c0bd01d4ab7874231b70002e520533cb5ed4fc
 docker: quay.io/biocontainers/bioconductor-scshapes

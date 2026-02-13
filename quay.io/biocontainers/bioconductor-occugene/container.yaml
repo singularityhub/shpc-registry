@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-occugene
 latest:
-  1.66.0--r44hdfd78af_0: 
-    sha256:e27c0aa7a9f8c2c070ed61c3d08af42fe6641b188d79a5feb1c74bd1b8da021c
+  1.70.0--r45hdfd78af_0: 
+    sha256:d5120fef8e6fb36176fa43d7fecad3446e19508135d95634f63de8fb191d0af9
 tags:
   1.54.0--r41hdfd78af_0: 
     sha256:760936c64cb848488d5be6ab1ba36462af9b3493511e8a9a864562e898a9a9d4
@@ -16,4 +16,6 @@ tags:
     sha256:3e18720d899a24845a41a820b657696f4e90457b10a05ca42ceeda6173e40b66
   1.66.0--r44hdfd78af_0: 
     sha256:e27c0aa7a9f8c2c070ed61c3d08af42fe6641b188d79a5feb1c74bd1b8da021c
+  1.70.0--r45hdfd78af_0: 
+    sha256:d5120fef8e6fb36176fa43d7fecad3446e19508135d95634f63de8fb191d0af9
 docker: quay.io/biocontainers/bioconductor-occugene

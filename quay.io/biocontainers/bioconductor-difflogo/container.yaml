@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-difflogo
 latest:
-  2.30.0--r44hdfd78af_0: 
-    sha256:d8ef96d19046ed0e87e0972581ac24763771059a1d0e6c5d0427143f4b086fd9
+  2.34.0--r45hdfd78af_0: 
+    sha256:33b05ac8a4ef0d383a3defd160369093324d5ac6712b573f583e25e56ee55570
 tags:
   2.8.0--r36_1: 
     sha256:82ac8f2c818a7a7672de5c59c4645aa75028cc7a55342d601e485d8b065960f1
@@ -24,6 +24,8 @@ tags:
     sha256:05fb38858c0bc3b04a1272585bf59f0abc72822c58983ec59ac234a139625d86
   2.30.0--r44hdfd78af_0: 
     sha256:d8ef96d19046ed0e87e0972581ac24763771059a1d0e6c5d0427143f4b086fd9
+  2.34.0--r45hdfd78af_0: 
+    sha256:33b05ac8a4ef0d383a3defd160369093324d5ac6712b573f583e25e56ee55570
 docker: quay.io/biocontainers/bioconductor-difflogo
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
