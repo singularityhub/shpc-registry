@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bsubtilisprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bsubtilisprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bsubtilisprobe/container.yaml"
-updated_at: "2026-02-12 05:20:51.049459"
+updated_at: "2026-02-13 05:04:44.969345"
 latest: "2.18.0--r43hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-bsubtilisprobe"
 

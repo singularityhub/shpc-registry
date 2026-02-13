@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spacexr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spacexr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spacexr/container.yaml"
-updated_at: "2026-02-12 05:49:40.288159"
+updated_at: "2026-02-13 05:02:28.437472"
 latest: "2.2.1--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-spacexr"
 aliases:

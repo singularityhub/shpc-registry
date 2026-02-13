@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mini3di"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mini3di/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mini3di/container.yaml"
-updated_at: "2026-02-12 05:19:09.417999"
+updated_at: "2026-02-13 04:49:39.332789"
 latest: "0.2.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mini3di"
 aliases:

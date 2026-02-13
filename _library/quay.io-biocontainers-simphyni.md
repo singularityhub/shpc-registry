@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/simphyni"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simphyni/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simphyni/container.yaml"
-updated_at: "2026-02-12 05:24:37.339322"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-02-13 04:59:09.378920"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/simphyni"
 aliases:
  - "geomap"
@@ -42,8 +42,9 @@ aliases:
  - "rst2xml"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for simphyni"
-config: {"url": "https://biocontainers.pro/tools/simphyni", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for simphyni", "latest": {"1.0.0--pyhdfd78af_0": "sha256:15d03baca04497840c13951acdbdb2061214081ceb884272571f9b9f289f4a3e"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:15d03baca04497840c13951acdbdb2061214081ceb884272571f9b9f289f4a3e"}, "docker": "quay.io/biocontainers/simphyni", "aliases": {"geomap": "/usr/local/bin/geomap", "itol": "/usr/local/bin/itol", "itolexport": "/usr/local/bin/itolexport", "name_tree": "/usr/local/bin/name_tree", "pastml": "/usr/local/bin/pastml", "simphyni": "/usr/local/bin/simphyni", "transition_counter": "/usr/local/bin/transition_counter", "phc": "/usr/local/bin/phc", "pax11publish": "/usr/local/bin/pax11publish", "eido": "/usr/local/bin/eido", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml"}}
+config: {"url": "https://biocontainers.pro/tools/simphyni", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for simphyni", "latest": {"1.0.2--pyhdfd78af_0": "sha256:c2b8d4fb4365a7959c66b03c50dc72e6ca6abba3beed6b9fbd52fddb03cb7afe"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:15d03baca04497840c13951acdbdb2061214081ceb884272571f9b9f289f4a3e", "1.0.2--pyhdfd78af_0": "sha256:c2b8d4fb4365a7959c66b03c50dc72e6ca6abba3beed6b9fbd52fddb03cb7afe"}, "docker": "quay.io/biocontainers/simphyni", "aliases": {"geomap": "/usr/local/bin/geomap", "itol": "/usr/local/bin/itol", "itolexport": "/usr/local/bin/itolexport", "name_tree": "/usr/local/bin/name_tree", "pastml": "/usr/local/bin/pastml", "simphyni": "/usr/local/bin/simphyni", "transition_counter": "/usr/local/bin/transition_counter", "phc": "/usr/local/bin/phc", "pax11publish": "/usr/local/bin/pax11publish", "eido": "/usr/local/bin/eido", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simphyni.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/simphyni
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simphyni:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/simphyni:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simphyni/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/simphyni/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/simphyni/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/simphyni/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

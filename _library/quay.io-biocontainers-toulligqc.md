@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/toulligqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/toulligqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/toulligqc/container.yaml"
-updated_at: "2026-02-12 05:58:17.290817"
+updated_at: "2026-02-13 04:44:46.437735"
 latest: "2.7.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/toulligqc"
 aliases:

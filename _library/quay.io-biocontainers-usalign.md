@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/usalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/usalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/usalign/container.yaml"
-updated_at: "2026-02-12 05:33:56.402409"
+updated_at: "2026-02-13 04:59:36.146903"
 latest: "20241201--h503566f_0"
 container_url: "https://biocontainers.pro/tools/usalign"
 aliases:

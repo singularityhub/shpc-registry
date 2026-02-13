@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gypsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gypsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gypsum/container.yaml"
-updated_at: "2026-02-12 05:48:02.134660"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-02-13 05:08:39.289910"
+latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gypsum"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-gypsum"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gypsum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gypsum", "latest": {"1.2.0--r44hdfd78af_0": "sha256:6c9150d892f4eb60f3df279c323871effda5f5232a8661c7cefe247d05eedc3c"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:6c9150d892f4eb60f3df279c323871effda5f5232a8661c7cefe247d05eedc3c"}, "docker": "quay.io/biocontainers/bioconductor-gypsum", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gypsum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gypsum", "latest": {"1.6.0--r45hdfd78af_0": "sha256:22b2296b8e9893cb1f3531a2f71d822ce0782d15df52861ac8f177fb3e4ac0bd"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:6c9150d892f4eb60f3df279c323871effda5f5232a8661c7cefe247d05eedc3c", "1.6.0--r45hdfd78af_0": "sha256:22b2296b8e9893cb1f3531a2f71d822ce0782d15df52861ac8f177fb3e4ac0bd"}, "docker": "quay.io/biocontainers/bioconductor-gypsum", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gypsum.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gypsum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gypsum:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gypsum:1.6.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gypsum/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gypsum/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gypsum/1.6.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gypsum/1.6.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

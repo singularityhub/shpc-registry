@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snpchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snpchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snpchip/container.yaml"
-updated_at: "2026-02-12 05:32:31.920558"
+updated_at: "2026-02-13 04:58:51.588415"
 latest: "2.32.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snpchip"
 aliases:
