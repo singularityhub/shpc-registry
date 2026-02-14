@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-image-exiftool
 latest:
-  13.44--pl5321hdfd78af_0: 
-    sha256:2aaa2e42f9d7d3c7f539b4732b67bb4147a5822716b255f2764c58e2f10ddc6f
+  13.50--pl5321hdfd78af_0: 
+    sha256:ddd68134928f06826a94ee0ec7b315b4ad25e4b1a4938080f7d6bcde69074fd6
 tags:
   12.42--pl5321hdfd78af_0: 
     sha256:22d34da34949fc4ae338ae70d782c0331280173e1f4c20b0e49404e7d3ded2ab
@@ -20,6 +20,8 @@ tags:
     sha256:cc43f9a199046669648767e94f3a761e0029043ba31aad60631c3f702fd089fc
   13.44--pl5321hdfd78af_0: 
     sha256:2aaa2e42f9d7d3c7f539b4732b67bb4147a5822716b255f2764c58e2f10ddc6f
+  13.50--pl5321hdfd78af_0: 
+    sha256:ddd68134928f06826a94ee0ec7b315b4ad25e4b1a4938080f7d6bcde69074fd6
 docker: quay.io/biocontainers/perl-image-exiftool
 aliases:
   exiftool: /usr/local/bin/exiftool

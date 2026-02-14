@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mbamethyl
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:500ca62cee16faf384cdd8ab0b041dfdc2670f490fdb773d92777cfba76a311c
+  1.44.0--r45hdfd78af_0: 
+    sha256:faa10f0cde372631bd11e30752db540218773fd11e59cc395f0e2a3c8b5261ee
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:7b316bf7a4b160dfbaff749e09e9c1bc3bfa22a53e7505be7987f680fb4d9a83
@@ -16,4 +16,6 @@ tags:
     sha256:bfb70375a485c801cb1dc6f5f72ef629b5b4da577a545d71304085c418e6741c
   1.40.0--r44hdfd78af_0: 
     sha256:500ca62cee16faf384cdd8ab0b041dfdc2670f490fdb773d92777cfba76a311c
+  1.44.0--r45hdfd78af_0: 
+    sha256:faa10f0cde372631bd11e30752db540218773fd11e59cc395f0e2a3c8b5261ee
 docker: quay.io/biocontainers/bioconductor-mbamethyl

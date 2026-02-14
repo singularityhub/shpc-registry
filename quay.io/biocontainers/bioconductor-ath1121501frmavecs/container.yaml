@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-ath1121501frmavecs
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:29a4ef1e873e7de89e128cf3c098cb0e9b64037765bc13a91439af5af55485ed
+  1.0.0--r45hdfd78af_1: 
+    sha256:3182b3f6a927502e992b3d43fd67bd09c50a4e9d2c30cc88694a0c8fc0a66722
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:29a4ef1e873e7de89e128cf3c098cb0e9b64037765bc13a91439af5af55485ed
+  1.0.0--r45hdfd78af_1: 
+    sha256:3182b3f6a927502e992b3d43fd67bd09c50a4e9d2c30cc88694a0c8fc0a66722
 docker: quay.io/biocontainers/bioconductor-ath1121501frmavecs
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

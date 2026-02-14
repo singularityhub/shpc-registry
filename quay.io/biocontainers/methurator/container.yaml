@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/methurator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for methurator
 latest:
-  0.1.8--pyhdfd78af_0: 
-    sha256:61fc814d22119ca5b1ddacd153a2d864f9fb5ba31ed31e6d82ba05a121423f36
+  2.1.1--pyhdfd78af_0: 
+    sha256:24cb5a69c291f207ace2fa2240046697d102b1af5c1ac1ca9bd971f39996c359
 tags:
   0.1.5--pyhdfd78af_0: 
     sha256:dfde9f4023d6a0718de19c6f61499a597e1b85bc7ea9085137460f93a9e92c85
@@ -11,6 +11,10 @@ tags:
     sha256:8a09d20fe97dc1abab7bca027391ae26e2c397485ab7e48cd7a9e8d2760ad6a4
   0.1.8--pyhdfd78af_0: 
     sha256:61fc814d22119ca5b1ddacd153a2d864f9fb5ba31ed31e6d82ba05a121423f36
+  2.1.1--pyhdfd78af_0: 
+    sha256:24cb5a69c291f207ace2fa2240046697d102b1af5c1ac1ca9bd971f39996c359
+  2.0.0--pyhdfd78af_0: 
+    sha256:3d341dbe28d56674303bd9cc73bb92cdc9094e406680cc166b3da2814f224a2a
 docker: quay.io/biocontainers/methurator
 aliases:
   MethylDackel: /usr/local/bin/MethylDackel

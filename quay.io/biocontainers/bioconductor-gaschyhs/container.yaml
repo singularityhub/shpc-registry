@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gaschyhs
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:b44018009e9bd4ff7e20cce578372514a3347956a8cce7e501a5a9494fec909d
+  1.48.0--r45hdfd78af_0: 
+    sha256:0d07d4ca2654da6f4a74a08774efbeb4c9df3564fd4f0a4e84f3d773de3edba1
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:802c68c746eaebda337ba0daad1ff75a09287391c5a13d7ec4027e18bfd69afc
@@ -16,4 +16,6 @@ tags:
     sha256:26e7bdac48e37dd8ad9201ead5d9d2d90097cc6ea4244c24fc8894ec59a23efb
   1.44.0--r44hdfd78af_0: 
     sha256:b44018009e9bd4ff7e20cce578372514a3347956a8cce7e501a5a9494fec909d
+  1.48.0--r45hdfd78af_0: 
+    sha256:0d07d4ca2654da6f4a74a08774efbeb4c9df3564fd4f0a4e84f3d773de3edba1
 docker: quay.io/biocontainers/bioconductor-gaschyhs

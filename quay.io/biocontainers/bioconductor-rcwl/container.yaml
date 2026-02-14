@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rcwl
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:f7b35f0cacf179ebe0f43c0593bf226a3cee18360807585545e00bb38ab4d158
+  1.26.0--r45hdfd78af_0: 
+    sha256:130c70418f6855bb429b73d664066b4a3adbc0d24d69b31343b58283f6969be1
 tags:
   1.8.0--py39r41hdfd78af_0: 
     sha256:b7d2bea3b22496203db712b155e407db8573a7aa923880773aff87163b852df6
@@ -18,6 +18,8 @@ tags:
     sha256:1c5f6ae73d20fc05b5b919cf94cb822a3fa748d914e3abee92e38da2f147e92b
   1.22.0--r44hdfd78af_0: 
     sha256:f7b35f0cacf179ebe0f43c0593bf226a3cee18360807585545e00bb38ab4d158
+  1.26.0--r45hdfd78af_0: 
+    sha256:130c70418f6855bb429b73d664066b4a3adbc0d24d69b31343b58283f6969be1
 docker: quay.io/biocontainers/bioconductor-rcwl
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

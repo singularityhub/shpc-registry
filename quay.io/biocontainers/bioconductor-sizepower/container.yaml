@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sizepower
 latest:
-  1.76.0--r44hdfd78af_0: 
-    sha256:be896a0f6c71fe1af06316de9947afa84fcdecde8453f57ce6f8c62a9a838cf1
+  1.80.0--r45hdfd78af_0: 
+    sha256:a219cfb5d568b95b9b400139d80f7fdc76c17e269f5fac5f91fda05840f3cb84
 tags:
   1.64.0--r41hdfd78af_0: 
     sha256:66198589383d67b8c39e2b10257ae0018172b038b96ad8397de8a78a31f011c1
@@ -16,4 +16,6 @@ tags:
     sha256:a490d1f202aca74c17f87ff53006bdfbbb1ec54e16e0d88b9d72571f595bc0ba
   1.76.0--r44hdfd78af_0: 
     sha256:be896a0f6c71fe1af06316de9947afa84fcdecde8453f57ce6f8c62a9a838cf1
+  1.80.0--r45hdfd78af_0: 
+    sha256:a219cfb5d568b95b9b400139d80f7fdc76c17e269f5fac5f91fda05840f3cb84
 docker: quay.io/biocontainers/bioconductor-sizepower

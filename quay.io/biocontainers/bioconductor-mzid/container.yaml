@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mzid
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:0f6bb2cf0aae67a4851c2074a48ec7b5cf183f5e120df2fa931782452c1157a5
+  1.48.0--r45hdfd78af_0: 
+    sha256:4930a9eeef30d0febcd7a80f183ed8d5c00bc38acf09f455a11fb0aefd28003b
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:7fa835b0665dfb3a6c44cc8c2340067e6cd20fb2a5725424413336eec1fd4f69
@@ -16,4 +16,6 @@ tags:
     sha256:facfa90197e7702638db28c8b4c6777b2846efb0914271bf0ff3634ea2e6c6aa
   1.44.0--r44hdfd78af_0: 
     sha256:0f6bb2cf0aae67a4851c2074a48ec7b5cf183f5e120df2fa931782452c1157a5
+  1.48.0--r45hdfd78af_0: 
+    sha256:4930a9eeef30d0febcd7a80f183ed8d5c00bc38acf09f455a11fb0aefd28003b
 docker: quay.io/biocontainers/bioconductor-mzid

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tsumugi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tsumugi
 latest:
-  0.5.0--pyhdfd78af_0: 
-    sha256:d021114f7f607dc3ae75227f0f53046525c57c63ffa1c209a1793fdee766147d
+  1.0.2--pyhdfd78af_0: 
+    sha256:951782735ba5b7d978ee077a9c3efb2254ee0f2bed91f8b11fb337710ff4d8df
 tags:
   0.5.0--pyhdfd78af_0: 
     sha256:d021114f7f607dc3ae75227f0f53046525c57c63ffa1c209a1793fdee766147d
+  1.0.2--pyhdfd78af_0: 
+    sha256:951782735ba5b7d978ee077a9c3efb2254ee0f2bed91f8b11fb337710ff4d8df
 docker: quay.io/biocontainers/tsumugi
 aliases:
   tsumugi: /usr/local/bin/tsumugi

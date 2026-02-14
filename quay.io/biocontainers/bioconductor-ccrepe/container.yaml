@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ccrepe
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:bdf12fe38826c3cd0289793d53a0dddc9bd235e8e192450c0a9d8c7663a0002d
+  1.46.0--r45hdfd78af_0: 
+    sha256:9cbc86713d5f4cc5d3ba5070beeecd98c5b6b1b5b45af063e30a0fc8f904993a
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:bbb16f069adfe3ecb2b651f119b9e25957b7ea2e22d223ff9f831bfed3729144
@@ -14,4 +14,6 @@ tags:
     sha256:969b9e39d83b3b8a5e6678b382c20c2da7a2f042f5ebbec487e3d3786345f4cb
   1.42.0--r44hdfd78af_0: 
     sha256:bdf12fe38826c3cd0289793d53a0dddc9bd235e8e192450c0a9d8c7663a0002d
+  1.46.0--r45hdfd78af_0: 
+    sha256:9cbc86713d5f4cc5d3ba5070beeecd98c5b6b1b5b45af063e30a0fc8f904993a
 docker: quay.io/biocontainers/bioconductor-ccrepe

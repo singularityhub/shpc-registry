@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hyper
 latest:
-  2.4.0--r44hdfd78af_0: 
-    sha256:d13816a14881dbfd36693143c2813f8e04be76127abc0bc15ec1090f0efdffb8
+  2.8.2--r45hdfd78af_0: 
+    sha256:c3e47ffd88e7354fd2692eb6056e3a812413088813c55ebb953593a01b8b1698
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:0b163476a3c66ecd48d81d9440bc0eb902a6cc162077688a8b0f9ba5371c85e4
@@ -16,6 +16,8 @@ tags:
     sha256:964b03f75a160e2faa35caece309dadc67095b12feabdd1b9a664ad7b98b74a7
   2.4.0--r44hdfd78af_0: 
     sha256:d13816a14881dbfd36693143c2813f8e04be76127abc0bc15ec1090f0efdffb8
+  2.8.2--r45hdfd78af_0: 
+    sha256:c3e47ffd88e7354fd2692eb6056e3a812413088813c55ebb953593a01b8b1698
 docker: quay.io/biocontainers/bioconductor-hyper
 aliases:
   pandoc: /usr/local/bin/pandoc

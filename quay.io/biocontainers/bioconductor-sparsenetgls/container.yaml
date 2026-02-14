@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sparsenetgls
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:6af286fed46df53be67fcd484d55ce7fc08678fc3853e1ab228b4a56e21219e0
+  1.28.0--r45hdfd78af_0: 
+    sha256:60e943375149c1b60152f79932e3398d1f57a1d94e28798d15490e83edf50632
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:e4e92b80181eaf234f3f1e3b9d2dfa7a43412c526055aa5d1008dd2edceb77a8
@@ -20,6 +20,8 @@ tags:
     sha256:7022d20870c2d06e8297dd1e319cbadd4367477db9d68e20815854f380fc5436
   1.24.0--r44hdfd78af_0: 
     sha256:6af286fed46df53be67fcd484d55ce7fc08678fc3853e1ab228b4a56e21219e0
+  1.28.0--r45hdfd78af_0: 
+    sha256:60e943375149c1b60152f79932e3398d1f57a1d94e28798d15490e83edf50632
 docker: quay.io/biocontainers/bioconductor-sparsenetgls
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

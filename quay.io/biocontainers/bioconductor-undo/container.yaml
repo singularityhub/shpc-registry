@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-undo
 latest:
-  1.48.0--r44hdfd78af_0: 
-    sha256:317527714bf0e6c842cd8a3b2a1196e03e8d5ea5e9dd49fd08ddb193a89030a3
+  1.52.0--r45hdfd78af_0: 
+    sha256:7cee5e9c728910c8082d1185705ee9c7edcf4e2548616346010128b4f3ec4a65
 tags:
   1.36.0--r41hdfd78af_0: 
     sha256:59829ff2fb8c48ae429a37d8cb98313fe7dbdbfe8435ab5a789adc611d1afc0c
@@ -16,4 +16,6 @@ tags:
     sha256:df0c930a86dfd55372528b3eece28a998d7909f6dd578719c23351f88d0501f7
   1.48.0--r44hdfd78af_0: 
     sha256:317527714bf0e6c842cd8a3b2a1196e03e8d5ea5e9dd49fd08ddb193a89030a3
+  1.52.0--r45hdfd78af_0: 
+    sha256:7cee5e9c728910c8082d1185705ee9c7edcf4e2548616346010128b4f3ec4a65
 docker: quay.io/biocontainers/bioconductor-undo
