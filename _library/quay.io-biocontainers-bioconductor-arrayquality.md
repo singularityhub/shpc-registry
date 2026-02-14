@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-arrayquality"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arrayquality/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arrayquality/container.yaml"
-updated_at: "2026-02-13 04:54:38.103562"
-latest: "1.84.0--r44hdfd78af_0"
+updated_at: "2026-02-14 04:45:20.178081"
+latest: "1.88.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arrayquality"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.78.0--r43hdfd78af_0"
  - "1.80.0--r43hdfd78af_0"
  - "1.84.0--r44hdfd78af_0"
+ - "1.88.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-arrayquality"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-arrayquality", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-arrayquality", "latest": {"1.84.0--r44hdfd78af_0": "sha256:1fb51469f8f92f2d73171c87791cdb52b540923633e8dba08f58983214274cfe"}, "tags": {"1.72.0--r41hdfd78af_0": "sha256:8bd66fdac9aca46503289a4082916ffa13b77a4dc7716c7776a4eed9d0597286", "1.76.0--r42hdfd78af_0": "sha256:f8ef453e7bdcd88c5f433314f464b1b20368f663d297bb919a170eb5658688c8", "1.78.0--r43hdfd78af_0": "sha256:c3891f488169ed40929a06bfad55c12fa0b3233a377f8ba71aca9350ed75a0d1", "1.80.0--r43hdfd78af_0": "sha256:48a580c9411dccd657d4530a5cdd3467f79271288b052f6577f0a86afca2bbba", "1.84.0--r44hdfd78af_0": "sha256:1fb51469f8f92f2d73171c87791cdb52b540923633e8dba08f58983214274cfe"}, "docker": "quay.io/biocontainers/bioconductor-arrayquality"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-arrayquality", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-arrayquality", "latest": {"1.88.0--r45hdfd78af_0": "sha256:305da41cb841226d041b27753846558d534a5a91ac7cefa846e2c462c8e9a3ac"}, "tags": {"1.72.0--r41hdfd78af_0": "sha256:8bd66fdac9aca46503289a4082916ffa13b77a4dc7716c7776a4eed9d0597286", "1.76.0--r42hdfd78af_0": "sha256:f8ef453e7bdcd88c5f433314f464b1b20368f663d297bb919a170eb5658688c8", "1.78.0--r43hdfd78af_0": "sha256:c3891f488169ed40929a06bfad55c12fa0b3233a377f8ba71aca9350ed75a0d1", "1.80.0--r43hdfd78af_0": "sha256:48a580c9411dccd657d4530a5cdd3467f79271288b052f6577f0a86afca2bbba", "1.84.0--r44hdfd78af_0": "sha256:1fb51469f8f92f2d73171c87791cdb52b540923633e8dba08f58983214274cfe", "1.88.0--r45hdfd78af_0": "sha256:305da41cb841226d041b27753846558d534a5a91ac7cefa846e2c462c8e9a3ac"}, "docker": "quay.io/biocontainers/bioconductor-arrayquality"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-arrayquality.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-arrayquality
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-arrayquality:1.84.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-arrayquality:1.88.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-arrayquality/1.84.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-arrayquality/1.84.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-arrayquality/1.88.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-arrayquality/1.88.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

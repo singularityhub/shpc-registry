@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pmcmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pmcmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pmcmr/container.yaml"
-updated_at: "2026-02-13 04:45:19.318778"
+updated_at: "2026-02-14 04:35:33.430627"
 latest: "4.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-pmcmr"
 aliases:

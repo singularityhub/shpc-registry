@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aardvark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aardvark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aardvark/container.yaml"
-updated_at: "2026-02-13 04:35:20.562814"
-latest: "0.10.3--h4349ce8_0"
+updated_at: "2026-02-14 04:24:56.567026"
+latest: "0.10.4--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/aardvark"
 aliases:
  - "aardvark"
@@ -16,8 +16,9 @@ versions:
  - "0.8.1--h4349ce8_1"
  - "0.9.0--h4349ce8_0"
  - "0.10.3--h4349ce8_0"
+ - "0.10.4--h4349ce8_0"
 description: "singularity registry hpc automated addition for aardvark"
-config: {"url": "https://biocontainers.pro/tools/aardvark", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aardvark", "latest": {"0.10.3--h4349ce8_0": "sha256:df969c2fa95531e6bc9da0a601c8d8533c52cc1a3dc7fd673ba47feb1438a171"}, "tags": {"0.7.3--h4349ce8_0": "sha256:bcac1d1cdd20da85b3d71aecb4349273879024cde2c57ec83ed4ee688bd13b52", "0.7.4--h4349ce8_0": "sha256:a474c90d66b249e802e2366341fb82212c2dcd9e4a80daf3b22db1c57ff278fd", "0.8.0--h4349ce8_0": "sha256:1e0b5a564ddc66895b9204233c8abd5ee63d263107aaf689f4a7521de2010797", "0.8.1--h4349ce8_1": "sha256:d031876c6627c068d893a5e32120cba48fe7f50e928850049cbe8cb6af7a0705", "0.9.0--h4349ce8_0": "sha256:3bba494689e67e7596be913cc240eb6523b1bd080e28de0afaf461665ec5784c", "0.10.3--h4349ce8_0": "sha256:df969c2fa95531e6bc9da0a601c8d8533c52cc1a3dc7fd673ba47feb1438a171"}, "docker": "quay.io/biocontainers/aardvark", "aliases": {"aardvark": "/usr/local/bin/aardvark"}}
+config: {"url": "https://biocontainers.pro/tools/aardvark", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aardvark", "latest": {"0.10.4--h4349ce8_0": "sha256:193664ecb70b0d75504d43606551f0ad583b690f9ac5842a920fe2940f07f5d1"}, "tags": {"0.7.3--h4349ce8_0": "sha256:bcac1d1cdd20da85b3d71aecb4349273879024cde2c57ec83ed4ee688bd13b52", "0.7.4--h4349ce8_0": "sha256:a474c90d66b249e802e2366341fb82212c2dcd9e4a80daf3b22db1c57ff278fd", "0.8.0--h4349ce8_0": "sha256:1e0b5a564ddc66895b9204233c8abd5ee63d263107aaf689f4a7521de2010797", "0.8.1--h4349ce8_1": "sha256:d031876c6627c068d893a5e32120cba48fe7f50e928850049cbe8cb6af7a0705", "0.9.0--h4349ce8_0": "sha256:3bba494689e67e7596be913cc240eb6523b1bd080e28de0afaf461665ec5784c", "0.10.3--h4349ce8_0": "sha256:df969c2fa95531e6bc9da0a601c8d8533c52cc1a3dc7fd673ba47feb1438a171", "0.10.4--h4349ce8_0": "sha256:193664ecb70b0d75504d43606551f0ad583b690f9ac5842a920fe2940f07f5d1"}, "docker": "quay.io/biocontainers/aardvark", "aliases": {"aardvark": "/usr/local/bin/aardvark"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aardvark.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/aardvark
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aardvark:0.10.3--h4349ce8_0
+$ shpc install quay.io/biocontainers/aardvark:0.10.4--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aardvark/0.10.3--h4349ce8_0
-$ module help quay.io/biocontainers/aardvark/0.10.3--h4349ce8_0
+$ module load quay.io/biocontainers/aardvark/0.10.4--h4349ce8_0
+$ module help quay.io/biocontainers/aardvark/0.10.4--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

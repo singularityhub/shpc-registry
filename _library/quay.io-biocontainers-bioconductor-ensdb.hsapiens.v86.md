@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.hsapiens.v86/container.yaml"
-updated_at: "2026-02-13 05:11:11.412706"
+updated_at: "2026-02-14 05:02:23.303264"
 latest: "2.99.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v86"
 

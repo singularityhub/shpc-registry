@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pcangsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcangsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcangsd/container.yaml"
-updated_at: "2026-02-13 05:13:30.071030"
+updated_at: "2026-02-14 05:04:42.725980"
 latest: "1.36.4--py310h8ea774a_0"
 container_url: "https://biocontainers.pro/tools/pcangsd"
 aliases:

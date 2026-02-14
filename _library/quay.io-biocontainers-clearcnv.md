@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clearcnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clearcnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clearcnv/container.yaml"
-updated_at: "2026-02-13 05:08:50.056016"
+updated_at: "2026-02-14 05:00:02.556759"
 latest: "0.306--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clearcnv"
 aliases:

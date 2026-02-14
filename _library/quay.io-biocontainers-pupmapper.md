@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pupmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pupmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pupmapper/container.yaml"
-updated_at: "2026-02-13 04:54:06.972274"
+updated_at: "2026-02-14 04:44:47.217383"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pupmapper"
 aliases:

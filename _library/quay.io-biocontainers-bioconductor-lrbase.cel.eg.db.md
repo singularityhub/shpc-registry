@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lrbase.cel.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lrbase.cel.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lrbase.cel.eg.db/container.yaml"
-updated_at: "2026-02-13 04:57:17.495332"
+updated_at: "2026-02-14 04:48:08.079725"
 latest: "1.2.0--r40hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-lrbase.cel.eg.db"
 aliases:

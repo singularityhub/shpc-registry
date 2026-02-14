@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/connor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/connor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/connor/container.yaml"
-updated_at: "2026-02-13 05:13:38.301369"
+updated_at: "2026-02-14 05:04:50.912776"
 latest: "0.6--py27_2"
 container_url: "https://biocontainers.pro/tools/connor"
 aliases:

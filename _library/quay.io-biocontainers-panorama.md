@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panorama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panorama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panorama/container.yaml"
-updated_at: "2026-02-13 04:35:12.703252"
+updated_at: "2026-02-14 04:24:48.255570"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/panorama"
 aliases:

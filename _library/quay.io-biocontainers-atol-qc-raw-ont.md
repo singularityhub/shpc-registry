@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atol-qc-raw-ont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-qc-raw-ont/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-qc-raw-ont/container.yaml"
-updated_at: "2026-02-13 04:27:55.731522"
+updated_at: "2026-02-14 04:17:07.081552"
 latest: "0.1.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-qc-raw-ont"
 aliases:

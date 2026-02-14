@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirmachine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirmachine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirmachine/container.yaml"
-updated_at: "2026-02-13 05:02:35.631210"
+updated_at: "2026-02-14 04:53:34.633098"
 latest: "0.3.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mirmachine"
 aliases:

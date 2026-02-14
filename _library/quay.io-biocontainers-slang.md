@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slang/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slang/container.yaml"
-updated_at: "2026-02-13 05:12:16.371816"
+updated_at: "2026-02-14 05:03:29.226182"
 latest: "2.3.0--hd3527cb_3"
 container_url: "https://biocontainers.pro/tools/slang"
 aliases:

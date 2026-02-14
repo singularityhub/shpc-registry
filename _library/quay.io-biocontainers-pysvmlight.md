@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pysvmlight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysvmlight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysvmlight/container.yaml"
-updated_at: "2026-02-13 04:33:25.037569"
+updated_at: "2026-02-14 04:22:53.249015"
 latest: "0.4--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/pysvmlight"
 aliases:

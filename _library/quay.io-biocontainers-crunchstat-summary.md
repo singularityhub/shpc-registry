@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crunchstat-summary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crunchstat-summary/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crunchstat-summary/container.yaml"
-updated_at: "2026-02-13 04:41:06.180543"
+updated_at: "2026-02-14 04:31:05.418692"
 latest: "3.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crunchstat-summary"
 aliases:

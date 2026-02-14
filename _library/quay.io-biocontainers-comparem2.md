@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/comparem2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/comparem2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/comparem2/container.yaml"
-updated_at: "2026-02-13 05:04:58.655046"
+updated_at: "2026-02-14 04:56:04.365073"
 latest: "2.16.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/comparem2"
 aliases:

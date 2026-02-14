@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repeatafterme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatafterme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repeatafterme/container.yaml"
-updated_at: "2026-02-13 05:12:50.687416"
+updated_at: "2026-02-14 05:04:03.447335"
 latest: "0.0.7--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/repeatafterme"
 aliases:

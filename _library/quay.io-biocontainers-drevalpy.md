@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/drevalpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drevalpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drevalpy/container.yaml"
-updated_at: "2026-02-13 04:58:50.435480"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2026-02-14 04:49:46.124100"
+latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drevalpy"
 aliases:
  - "CurveCurator"
@@ -48,8 +48,9 @@ aliases:
  - "oshcc"
 versions:
  - "1.4.0--pyhdfd78af_0"
+ - "1.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for drevalpy"
-config: {"url": "https://biocontainers.pro/tools/drevalpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for drevalpy", "latest": {"1.4.0--pyhdfd78af_0": "sha256:00d3e78ae2625fcb08520717f2780941d161ce8e46289847e0f16a532f1a8f37"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:00d3e78ae2625fcb08520717f2780941d161ce8e46289847e0f16a532f1a8f37"}, "docker": "quay.io/biocontainers/drevalpy", "aliases": {"CurveCurator": "/usr/local/bin/CurveCurator", "Ray": "/usr/local/bin/Ray", "drevalpy": "/usr/local/bin/drevalpy", "drevalpy-report": "/usr/local/bin/drevalpy-report", "dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "findpython": "/usr/local/bin/findpython", "pbs-install": "/usr/local/bin/pbs-install", "poetry": "/usr/local/bin/poetry", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "trove-classifiers": "/usr/local/bin/trove-classifiers", "pkginfo": "/usr/local/bin/pkginfo", "virtualenv": "/usr/local/bin/virtualenv", "keyring": "/usr/local/bin/keyring", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "pybind11-config": "/usr/local/bin/pybind11-config", "httpx": "/usr/local/bin/httpx", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "doesitcache": "/usr/local/bin/doesitcache", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "bokeh": "/usr/local/bin/bokeh", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc"}}
+config: {"url": "https://biocontainers.pro/tools/drevalpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for drevalpy", "latest": {"1.4.1--pyhdfd78af_0": "sha256:42cfe248877c3b365c9102139d7af2c4b5f03ecadaa958cc0c542c448ef3ae9e"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:00d3e78ae2625fcb08520717f2780941d161ce8e46289847e0f16a532f1a8f37", "1.4.1--pyhdfd78af_0": "sha256:42cfe248877c3b365c9102139d7af2c4b5f03ecadaa958cc0c542c448ef3ae9e"}, "docker": "quay.io/biocontainers/drevalpy", "aliases": {"CurveCurator": "/usr/local/bin/CurveCurator", "Ray": "/usr/local/bin/Ray", "drevalpy": "/usr/local/bin/drevalpy", "drevalpy-report": "/usr/local/bin/drevalpy-report", "dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "findpython": "/usr/local/bin/findpython", "pbs-install": "/usr/local/bin/pbs-install", "poetry": "/usr/local/bin/poetry", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "trove-classifiers": "/usr/local/bin/trove-classifiers", "pkginfo": "/usr/local/bin/pkginfo", "virtualenv": "/usr/local/bin/virtualenv", "keyring": "/usr/local/bin/keyring", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "pybind11-config": "/usr/local/bin/pybind11-config", "httpx": "/usr/local/bin/httpx", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "doesitcache": "/usr/local/bin/doesitcache", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "bokeh": "/usr/local/bin/bokeh", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/drevalpy.
@@ -64,7 +65,7 @@ $ shpc install quay.io/biocontainers/drevalpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/drevalpy:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/drevalpy:1.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/drevalpy/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/drevalpy/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/drevalpy/1.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/drevalpy/1.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

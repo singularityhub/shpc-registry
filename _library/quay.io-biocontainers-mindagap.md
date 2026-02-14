@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mindagap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mindagap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mindagap/container.yaml"
-updated_at: "2026-02-13 04:30:49.954188"
+updated_at: "2026-02-14 04:20:08.630137"
 latest: "0.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mindagap"
 aliases:
