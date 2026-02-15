@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-somnibus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-somnibus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-somnibus/container.yaml"
-updated_at: "2026-02-14 05:04:04.026362"
+updated_at: "2026-02-15 05:13:13.219023"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-somnibus"
 

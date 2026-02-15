@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tsumugi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tsumugi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tsumugi/container.yaml"
-updated_at: "2026-02-14 04:56:18.226032"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2026-02-15 05:05:39.152479"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tsumugi"
 aliases:
  - "tsumugi"
@@ -17,8 +17,9 @@ aliases:
  - "tqdm"
 versions:
  - "0.5.0--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tsumugi"
-config: {"url": "https://biocontainers.pro/tools/tsumugi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tsumugi", "latest": {"0.5.0--pyhdfd78af_0": "sha256:d021114f7f607dc3ae75227f0f53046525c57c63ffa1c209a1793fdee766147d"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:d021114f7f607dc3ae75227f0f53046525c57c63ffa1c209a1793fdee766147d"}, "docker": "quay.io/biocontainers/tsumugi", "aliases": {"tsumugi": "/usr/local/bin/tsumugi", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/tsumugi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tsumugi", "latest": {"1.0.2--pyhdfd78af_0": "sha256:951782735ba5b7d978ee077a9c3efb2254ee0f2bed91f8b11fb337710ff4d8df"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:d021114f7f607dc3ae75227f0f53046525c57c63ffa1c209a1793fdee766147d", "1.0.2--pyhdfd78af_0": "sha256:951782735ba5b7d978ee077a9c3efb2254ee0f2bed91f8b11fb337710ff4d8df"}, "docker": "quay.io/biocontainers/tsumugi", "aliases": {"tsumugi": "/usr/local/bin/tsumugi", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tsumugi.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/tsumugi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tsumugi:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tsumugi:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tsumugi/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/tsumugi/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/tsumugi/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/tsumugi/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

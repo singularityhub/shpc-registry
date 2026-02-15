@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-error"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-error/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-error/container.yaml"
-updated_at: "2026-02-14 04:34:32.112022"
+updated_at: "2026-02-15 04:45:08.671774"
 latest: "0.17030--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-error"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-wgcna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wgcna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wgcna/container.yaml"
-updated_at: "2026-02-14 04:43:37.296244"
+updated_at: "2026-02-15 04:53:41.398795"
 latest: "1.74--r44h40dc89f_0"
 container_url: "https://biocontainers.pro/tools/r-wgcna"
 

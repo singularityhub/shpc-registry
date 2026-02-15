@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/collectl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collectl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/collectl/container.yaml"
-updated_at: "2026-02-14 05:01:24.865834"
-latest: "4.3.20.1--pl5321h05cac1d_0"
+updated_at: "2026-02-15 05:10:36.536433"
+latest: "4.3.20.2--pl5321h05cac1d_0"
 container_url: "https://biocontainers.pro/tools/collectl"
 aliases:
  - "collectl"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "4.0.4--pl5.22.0_3"
  - "4.3.20.1--pl5321h05cac1d_0"
+ - "4.3.20.2--pl5321h05cac1d_0"
 description: "shpc-registry automated BioContainers addition for collectl"
-config: {"url": "https://biocontainers.pro/tools/collectl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collectl", "latest": {"4.3.20.1--pl5321h05cac1d_0": "sha256:859051b2e3151f66425a8319d7487d87044f45494675459fd36b9796a2367365"}, "tags": {"4.0.4--pl5.22.0_3": "sha256:8db3314952f1e1c1d75c9e29daa770c0aa1c2ab2b66ac11b79bf3b117db143c0", "4.3.20.1--pl5321h05cac1d_0": "sha256:859051b2e3151f66425a8319d7487d87044f45494675459fd36b9796a2367365"}, "docker": "quay.io/biocontainers/collectl", "aliases": {"collectl": "/usr/local/bin/collectl", "colmux": "/usr/local/bin/colmux", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/collectl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collectl", "latest": {"4.3.20.2--pl5321h05cac1d_0": "sha256:89f31c09bb2a84ff002b027486f9358184bffa3d984d75a21d33c39e55ab6487"}, "tags": {"4.0.4--pl5.22.0_3": "sha256:8db3314952f1e1c1d75c9e29daa770c0aa1c2ab2b66ac11b79bf3b117db143c0", "4.3.20.1--pl5321h05cac1d_0": "sha256:859051b2e3151f66425a8319d7487d87044f45494675459fd36b9796a2367365", "4.3.20.2--pl5321h05cac1d_0": "sha256:89f31c09bb2a84ff002b027486f9358184bffa3d984d75a21d33c39e55ab6487"}, "docker": "quay.io/biocontainers/collectl", "aliases": {"collectl": "/usr/local/bin/collectl", "colmux": "/usr/local/bin/colmux", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/collectl.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/collectl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/collectl:4.3.20.1--pl5321h05cac1d_0
+$ shpc install quay.io/biocontainers/collectl:4.3.20.2--pl5321h05cac1d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/collectl/4.3.20.1--pl5321h05cac1d_0
-$ module help quay.io/biocontainers/collectl/4.3.20.1--pl5321h05cac1d_0
+$ module load quay.io/biocontainers/collectl/4.3.20.2--pl5321h05cac1d_0
+$ module help quay.io/biocontainers/collectl/4.3.20.2--pl5321h05cac1d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

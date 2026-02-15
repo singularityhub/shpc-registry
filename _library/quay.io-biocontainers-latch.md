@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/latch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/latch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/latch/container.yaml"
-updated_at: "2026-02-14 04:14:53.702155"
+updated_at: "2026-02-15 04:26:51.176575"
 latest: "2.67.22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/latch"
 aliases:

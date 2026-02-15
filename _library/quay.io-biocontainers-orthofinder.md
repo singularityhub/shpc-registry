@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orthofinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthofinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthofinder/container.yaml"
-updated_at: "2026-02-14 05:07:22.575518"
+updated_at: "2026-02-15 05:16:28.525258"
 latest: "3.1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/orthofinder"
 aliases:

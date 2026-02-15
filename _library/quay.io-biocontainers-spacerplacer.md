@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spacerplacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spacerplacer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spacerplacer/container.yaml"
-updated_at: "2026-02-14 05:00:23.954601"
+updated_at: "2026-02-15 05:09:36.238745"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spacerplacer"
 aliases:

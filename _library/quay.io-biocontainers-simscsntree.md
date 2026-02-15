@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simscsntree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simscsntree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simscsntree/container.yaml"
-updated_at: "2026-02-14 04:47:17.623202"
+updated_at: "2026-02-15 04:57:08.305027"
 latest: "0.0.9--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/simscsntree"
 aliases:

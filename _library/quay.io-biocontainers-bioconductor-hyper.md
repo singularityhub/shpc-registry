@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hyper/container.yaml"
-updated_at: "2026-02-14 04:27:53.159921"
-latest: "2.4.0--r44hdfd78af_0"
+updated_at: "2026-02-15 04:38:58.116686"
+latest: "2.8.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hyper"
 aliases:
  - "pandoc"
@@ -16,8 +16,9 @@ versions:
  - "1.10.0--r41hdfd78af_0"
  - "2.0.0--r43hdfd78af_0"
  - "2.4.0--r44hdfd78af_0"
+ - "2.8.2--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hyper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hyper", "latest": {"2.4.0--r44hdfd78af_0": "sha256:d13816a14881dbfd36693143c2813f8e04be76127abc0bc15ec1090f0efdffb8"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:0b163476a3c66ecd48d81d9440bc0eb902a6cc162077688a8b0f9ba5371c85e4", "1.14.0--r42hdfd78af_0": "sha256:8b7a8e000e78fcfa6f3242e2d17bd577921e73a6570f2d7d369f483d6370f9db", "1.10.0--r41hdfd78af_0": "sha256:73b95b67e3e04a0d6bd143936135295457a761fca3b0eaeadac0f0658efb5beb", "2.0.0--r43hdfd78af_0": "sha256:964b03f75a160e2faa35caece309dadc67095b12feabdd1b9a664ad7b98b74a7", "2.4.0--r44hdfd78af_0": "sha256:d13816a14881dbfd36693143c2813f8e04be76127abc0bc15ec1090f0efdffb8"}, "docker": "quay.io/biocontainers/bioconductor-hyper", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hyper", "latest": {"2.8.2--r45hdfd78af_0": "sha256:c3e47ffd88e7354fd2692eb6056e3a812413088813c55ebb953593a01b8b1698"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:0b163476a3c66ecd48d81d9440bc0eb902a6cc162077688a8b0f9ba5371c85e4", "1.14.0--r42hdfd78af_0": "sha256:8b7a8e000e78fcfa6f3242e2d17bd577921e73a6570f2d7d369f483d6370f9db", "1.10.0--r41hdfd78af_0": "sha256:73b95b67e3e04a0d6bd143936135295457a761fca3b0eaeadac0f0658efb5beb", "2.0.0--r43hdfd78af_0": "sha256:964b03f75a160e2faa35caece309dadc67095b12feabdd1b9a664ad7b98b74a7", "2.4.0--r44hdfd78af_0": "sha256:d13816a14881dbfd36693143c2813f8e04be76127abc0bc15ec1090f0efdffb8", "2.8.2--r45hdfd78af_0": "sha256:c3e47ffd88e7354fd2692eb6056e3a812413088813c55ebb953593a01b8b1698"}, "docker": "quay.io/biocontainers/bioconductor-hyper", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hyper.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hyper:2.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hyper:2.8.2--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hyper/2.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hyper/2.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hyper/2.8.2--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hyper/2.8.2--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dexus/container.yaml"
-updated_at: "2026-02-14 05:00:46.138997"
+updated_at: "2026-02-15 05:09:58.222144"
 latest: "1.30.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dexus"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-grain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-grain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-grain/container.yaml"
-updated_at: "2026-02-14 05:01:21.387835"
+updated_at: "2026-02-15 05:10:33.086453"
 latest: "1.4.5--r44h40dc89f_1"
 container_url: "https://biocontainers.pro/tools/r-grain"
 

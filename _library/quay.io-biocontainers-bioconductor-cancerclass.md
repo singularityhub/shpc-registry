@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cancerclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cancerclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cancerclass/container.yaml"
-updated_at: "2026-02-14 04:38:09.801279"
-latest: "1.50.0--r44h3df3fcb_0"
+updated_at: "2026-02-15 04:48:33.469311"
+latest: "1.54.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cancerclass"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.44.0--r43ha9d7317_0"
  - "1.46.0--r43ha9d7317_0"
  - "1.50.0--r44h3df3fcb_0"
+ - "1.54.0--r45h01b2380_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cancerclass"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cancerclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cancerclass", "latest": {"1.50.0--r44h3df3fcb_0": "sha256:dc7d9249b8ecfb418240d0816f57f150e71d08f1592b10074741acec9fed3dff"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:bdd51d5e9f36e8612b70a74b9c3ea95467ed697120de6cb32648a4ac576b6f18", "1.42.0--r42hc0cfd56_0": "sha256:1cf7f5e119e7904c5b2d9690866f72d57120d1a0a993cd6d62e7bcf16075a303", "1.42.0--r42ha9d7317_1": "sha256:7261ce1ab6d163d557bf7caf9e9cac322276f4f4009d32f5a5d8035efe2192ff", "1.44.0--r43ha9d7317_0": "sha256:c7142c3fc61632e479cd7f82bf4e3db2ce15996ab5c665923152ee78ce072b39", "1.46.0--r43ha9d7317_0": "sha256:7079ddac6cf63dd33cb208bd03bd00b67668dd501916e1d09829646a74d70dfb", "1.50.0--r44h3df3fcb_0": "sha256:dc7d9249b8ecfb418240d0816f57f150e71d08f1592b10074741acec9fed3dff"}, "docker": "quay.io/biocontainers/bioconductor-cancerclass"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cancerclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cancerclass", "latest": {"1.54.0--r45h01b2380_0": "sha256:4fa09d18ce4df7033f2bebb6b7cef67987d00c8465d958761a26b253db7a7494"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:bdd51d5e9f36e8612b70a74b9c3ea95467ed697120de6cb32648a4ac576b6f18", "1.42.0--r42hc0cfd56_0": "sha256:1cf7f5e119e7904c5b2d9690866f72d57120d1a0a993cd6d62e7bcf16075a303", "1.42.0--r42ha9d7317_1": "sha256:7261ce1ab6d163d557bf7caf9e9cac322276f4f4009d32f5a5d8035efe2192ff", "1.44.0--r43ha9d7317_0": "sha256:c7142c3fc61632e479cd7f82bf4e3db2ce15996ab5c665923152ee78ce072b39", "1.46.0--r43ha9d7317_0": "sha256:7079ddac6cf63dd33cb208bd03bd00b67668dd501916e1d09829646a74d70dfb", "1.50.0--r44h3df3fcb_0": "sha256:dc7d9249b8ecfb418240d0816f57f150e71d08f1592b10074741acec9fed3dff", "1.54.0--r45h01b2380_0": "sha256:4fa09d18ce4df7033f2bebb6b7cef67987d00c8465d958761a26b253db7a7494"}, "docker": "quay.io/biocontainers/bioconductor-cancerclass"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cancerclass.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cancerclass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cancerclass:1.50.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-cancerclass:1.54.0--r45h01b2380_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cancerclass/1.50.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-cancerclass/1.50.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-cancerclass/1.54.0--r45h01b2380_0
+$ module help quay.io/biocontainers/bioconductor-cancerclass/1.54.0--r45h01b2380_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

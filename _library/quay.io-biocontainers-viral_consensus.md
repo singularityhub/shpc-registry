@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viral_consensus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral_consensus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viral_consensus/container.yaml"
-updated_at: "2026-02-14 04:22:02.932691"
-latest: "1.0.0--hcf1f8c1_0"
+updated_at: "2026-02-15 04:33:32.714482"
+latest: "1.0.1--hcf1f8c1_0"
 container_url: "https://biocontainers.pro/tools/viral_consensus"
 aliases:
  - "viral_consensus"
@@ -17,8 +17,9 @@ versions:
  - "0.0.5--h43eeafb_1"
  - "0.0.6--h43eeafb_1"
  - "1.0.0--hcf1f8c1_0"
+ - "1.0.1--hcf1f8c1_0"
 description: "singularity registry hpc automated addition for viral_consensus"
-config: {"url": "https://biocontainers.pro/tools/viral_consensus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viral_consensus", "latest": {"1.0.0--hcf1f8c1_0": "sha256:b13056a49003b4d4869b0656a841bc995193fac188504aca90d2c1763391b463"}, "tags": {"0.0.4--h0033a41_0": "sha256:1081f2581f356e22ebf2dee2097b36e3fb2b275f2c0af027896ef0fc077b75a6", "0.0.5--h43eeafb_1": "sha256:ad90e76e004e772440ca4a0bcf9c5ff26b37f60d804cfa81b026f8ce8c6a0b6e", "0.0.6--h43eeafb_1": "sha256:9302b322b5584987e06d34e97603a6038aeda0cd263d5befd94a6b8ec11ac2e0", "1.0.0--hcf1f8c1_0": "sha256:b13056a49003b4d4869b0656a841bc995193fac188504aca90d2c1763391b463"}, "docker": "quay.io/biocontainers/viral_consensus", "aliases": {"viral_consensus": "/usr/local/bin/viral_consensus", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/viral_consensus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viral_consensus", "latest": {"1.0.1--hcf1f8c1_0": "sha256:0fe7b230e214e213996d839238e9298415789b36f88da52cc8d281c729f21da7"}, "tags": {"0.0.4--h0033a41_0": "sha256:1081f2581f356e22ebf2dee2097b36e3fb2b275f2c0af027896ef0fc077b75a6", "0.0.5--h43eeafb_1": "sha256:ad90e76e004e772440ca4a0bcf9c5ff26b37f60d804cfa81b026f8ce8c6a0b6e", "0.0.6--h43eeafb_1": "sha256:9302b322b5584987e06d34e97603a6038aeda0cd263d5befd94a6b8ec11ac2e0", "1.0.0--hcf1f8c1_0": "sha256:b13056a49003b4d4869b0656a841bc995193fac188504aca90d2c1763391b463", "1.0.1--hcf1f8c1_0": "sha256:0fe7b230e214e213996d839238e9298415789b36f88da52cc8d281c729f21da7"}, "docker": "quay.io/biocontainers/viral_consensus", "aliases": {"viral_consensus": "/usr/local/bin/viral_consensus", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viral_consensus.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/viral_consensus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viral_consensus:1.0.0--hcf1f8c1_0
+$ shpc install quay.io/biocontainers/viral_consensus:1.0.1--hcf1f8c1_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viral_consensus/1.0.0--hcf1f8c1_0
-$ module help quay.io/biocontainers/viral_consensus/1.0.0--hcf1f8c1_0
+$ module load quay.io/biocontainers/viral_consensus/1.0.1--hcf1f8c1_0
+$ module help quay.io/biocontainers/viral_consensus/1.0.1--hcf1f8c1_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
