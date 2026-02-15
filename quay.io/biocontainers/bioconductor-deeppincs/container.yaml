@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-deeppincs
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:db0cebe186b9dcb65d3dab495b976a1f92a8253f7991723f25176f3921ab97f7
+  1.18.0--r45hdfd78af_0: 
+    sha256:f7447102186772dd01ac5e1ea1940720c804e1889e0881fea8862d1c862b9f40
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:cc1424a98a83df94adac8ccba7c59440be6bd5b5ae9e222b8b4b18185e2f1c4a
@@ -16,6 +16,8 @@ tags:
     sha256:36f28d8cff957f17a9764b79eb3a5033957fa201addda44083c85e59accce47a
   1.14.0--r44hdfd78af_0: 
     sha256:db0cebe186b9dcb65d3dab495b976a1f92a8253f7991723f25176f3921ab97f7
+  1.18.0--r45hdfd78af_0: 
+    sha256:f7447102186772dd01ac5e1ea1940720c804e1889e0881fea8862d1c862b9f40
 docker: quay.io/biocontainers/bioconductor-deeppincs
 aliases:
   jfr: /usr/local/bin/jfr

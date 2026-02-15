@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biobroom
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:fe021df8065b526d349fd3465b85c43d29b9d698c8ed6f8a86c626bc7bc3557d
+  1.42.0--r45hdfd78af_0: 
+    sha256:41cec3c910fccd303fd1328819a8387c226f396a6b759d5be799b70e67d3a8e6
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:aad711b2d8b9b9896b32959ce792ff8312a1f266d607390fbdfb6cbb1616588e
@@ -16,4 +16,6 @@ tags:
     sha256:23d87b933c104d3de4c6f58933fa1d8294b6bdd3ae1e4c24945a3a1cbf4384c5
   1.38.0--r44hdfd78af_0: 
     sha256:fe021df8065b526d349fd3465b85c43d29b9d698c8ed6f8a86c626bc7bc3557d
+  1.42.0--r45hdfd78af_0: 
+    sha256:41cec3c910fccd303fd1328819a8387c226f396a6b759d5be799b70e67d3a8e6
 docker: quay.io/biocontainers/bioconductor-biobroom

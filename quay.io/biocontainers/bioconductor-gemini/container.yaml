@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gemini
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:e383384a01b6dab2ed11b4c77cd3fd181a3af8f43aefbd3ccc8379c01f4b3023
+  1.24.0--r45hdfd78af_0: 
+    sha256:fd444e84d3ae74d5cb3e859f5b59b52cf74e2e0cd8dad021fef4a31ba9ce6471
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:07cf68c9fce8a2476caa77fc95e9352dd02374aca8875dda51e046e137ab2f3c
@@ -16,4 +16,6 @@ tags:
     sha256:0989a88f0248fe469be6fe068b4e7976711cad688ab32037cdc5c7410547c5af
   1.20.0--r44hdfd78af_0: 
     sha256:e383384a01b6dab2ed11b4c77cd3fd181a3af8f43aefbd3ccc8379c01f4b3023
+  1.24.0--r45hdfd78af_0: 
+    sha256:fd444e84d3ae74d5cb3e859f5b59b52cf74e2e0cd8dad021fef4a31ba9ce6471
 docker: quay.io/biocontainers/bioconductor-gemini

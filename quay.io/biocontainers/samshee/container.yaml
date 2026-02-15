@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/samshee
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for samshee
 latest:
-  0.2.12--pyhdfd78af_0: 
-    sha256:f92ea7de482f52f73df1264ec213b21a13be081f33d87adb82c49f806c7a44cd
+  0.2.13--pyhdfd78af_0: 
+    sha256:d8c796d6334e1ffe5c63f014804569afd1d3eac55270baf77df676cc23bd1abc
 tags:
   0.2.1--pyhdfd78af_0: 
     sha256:6c61dab83f761d86dbf4a2e7210ed44bf2b36cc79cc1b7466f14570935976454
@@ -21,6 +21,8 @@ tags:
     sha256:c83aeeb28aaa92d091e02a96439ed759cdff54c550e70245fc4a79edbeb068eb
   0.2.12--pyhdfd78af_0: 
     sha256:f92ea7de482f52f73df1264ec213b21a13be081f33d87adb82c49f806c7a44cd
+  0.2.13--pyhdfd78af_0: 
+    sha256:d8c796d6334e1ffe5c63f014804569afd1d3eac55270baf77df676cc23bd1abc
 docker: quay.io/biocontainers/samshee
 aliases:
   idle3.13: /usr/local/bin/idle3.13

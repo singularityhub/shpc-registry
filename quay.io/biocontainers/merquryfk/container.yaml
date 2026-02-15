@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/merquryfk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for merquryfk
 latest:
-  1.1.3--h71df26d_0: 
-    sha256:fb3fac1cb5e121f6d9365595e719fdf0ae9dce42953a1ae0ee27b9b2ecb7fe65
+  1.2--h71df26d_1: 
+    sha256:2ac673f18863a3967170fc81f55041dd885c14713adbf1ed78284fe3513ed03e
 tags:
   1.0.0--h4ef89c6_1: 
     sha256:9c3fa6a6f3755992f93fc303cf4233bce1aef75ecb5e10be7c6dca50d136905d
@@ -15,6 +15,8 @@ tags:
     sha256:5f36a489e62c81d0584236cb0b90c8ad11c318ad14dfb89caa461770aad629ec
   1.1.3--h71df26d_0: 
     sha256:fb3fac1cb5e121f6d9365595e719fdf0ae9dce42953a1ae0ee27b9b2ecb7fe65
+  1.2--h71df26d_1: 
+    sha256:2ac673f18863a3967170fc81f55041dd885c14713adbf1ed78284fe3513ed03e
 docker: quay.io/biocontainers/merquryfk
 aliases:
   ASMplot: /usr/local/bin/ASMplot

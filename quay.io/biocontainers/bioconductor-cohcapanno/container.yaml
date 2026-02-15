@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cohcapanno
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:12071763c055354ae863ae553920816ca8753f594cff228c100bd1b667dcec8b
+  1.46.0--r45hdfd78af_0: 
+    sha256:e256a1debc7eb968145d70d2eb8366e0037e4630659d571eb8068e4ab6abe5ef
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:5485c1cfebbde03e7437ed27b0af364e8fb363a0a739c2af2fb9f42e692a8a44
@@ -18,4 +18,6 @@ tags:
     sha256:8655aec1b5bfc10ffbe96e5e09d99f46c205a0f9d0b352cb743c63771fd59bd2
   1.42.0--r44hdfd78af_0: 
     sha256:12071763c055354ae863ae553920816ca8753f594cff228c100bd1b667dcec8b
+  1.46.0--r45hdfd78af_0: 
+    sha256:e256a1debc7eb968145d70d2eb8366e0037e4630659d571eb8068e4ab6abe5ef
 docker: quay.io/biocontainers/bioconductor-cohcapanno

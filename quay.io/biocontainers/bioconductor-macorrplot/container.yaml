@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-macorrplot
 latest:
-  1.76.0--r44hdfd78af_0: 
-    sha256:ac23cfca46361cfde9e05fa7fb1807bc69d87cc9f5c55b8127ecf75ed0748efd
+  1.80.0--r45hdfd78af_0: 
+    sha256:c64fcf9d25904c09bc7462cf8139dc20519ddcabc9e0479d508add41d16bb7eb
 tags:
   1.64.0--r41hdfd78af_0: 
     sha256:b56c70fb4e363e6bd87cf3228a58fbd67e651ba6d03540b841058fed346e2bc6
@@ -16,4 +16,6 @@ tags:
     sha256:5e346e51e4fdab164fa8f5e601f9d4f411905d961fc45b369ba7b0229fde11c6
   1.76.0--r44hdfd78af_0: 
     sha256:ac23cfca46361cfde9e05fa7fb1807bc69d87cc9f5c55b8127ecf75ed0748efd
+  1.80.0--r45hdfd78af_0: 
+    sha256:c64fcf9d25904c09bc7462cf8139dc20519ddcabc9e0479d508add41d16bb7eb
 docker: quay.io/biocontainers/bioconductor-macorrplot

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/msstitch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for msstitch
 latest:
-  3.17--pyhdfd78af_0: 
-    sha256:035c27ead23b249d9b86c7ebf0b79e85fda788019ae1dc36ef0b89aa77c21551
+  3.18--pyhdfd78af_0: 
+    sha256:a2f9921a4c1077c256fb72ef7fdce29eeee76162f59005680023de0d6f03bfb5
 tags:
   3.9--pyhdfd78af_0: 
     sha256:22c86ee8f362099c0081c2af88e669429bffcb07ca7b0764c65a4cc749ea0015
@@ -23,6 +23,8 @@ tags:
     sha256:2811254656851e3868c81af2caa8b7a1b1b8f1d7c07dc07f06bcb969a8a9f955
   3.17--pyhdfd78af_0: 
     sha256:035c27ead23b249d9b86c7ebf0b79e85fda788019ae1dc36ef0b89aa77c21551
+  3.18--pyhdfd78af_0: 
+    sha256:a2f9921a4c1077c256fb72ef7fdce29eeee76162f59005680023de0d6f03bfb5
 docker: quay.io/biocontainers/msstitch
 aliases:
   msstitch: /usr/local/bin/msstitch

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-spikeli
 latest:
-  2.66.0--r44hdfd78af_0: 
-    sha256:68efc5374e997d78aa8d7fc057558ed07bb5c1d32def15faa7169473d4646994
+  2.70.0--r45hdfd78af_0: 
+    sha256:0c12cbf7a01d25e7074faf07692f65dab9b5d9bf88295ef5429a405e48152686
 tags:
   2.54.0--r41hdfd78af_0: 
     sha256:93bb96bcbb331d11f56071a27a63e25ff1136b93aeee1fead3d08262080b4c29
@@ -16,4 +16,6 @@ tags:
     sha256:1be99f451723d1040c01a3ade543ef4ee24a7a22a1fab08b80f3909458343107
   2.66.0--r44hdfd78af_0: 
     sha256:68efc5374e997d78aa8d7fc057558ed07bb5c1d32def15faa7169473d4646994
+  2.70.0--r45hdfd78af_0: 
+    sha256:0c12cbf7a01d25e7074faf07692f65dab9b5d9bf88295ef5429a405e48152686
 docker: quay.io/biocontainers/bioconductor-spikeli

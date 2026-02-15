@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-immunotation
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:222ab2a80d975b1ae347aa0038d8194e0c9b9bfa5365483f89b8ee8d42c6eb3f
+  1.18.0--r45hdfd78af_0: 
+    sha256:207d17cd98e49a237fcf68a0c4aa5f7eaad58dedf66e67f6b44d0438dd4636e4
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:b732c09d77e45f841d3fdf45aa6f56e44e61ed5cd818ac5ea460912c05044e41
@@ -16,4 +16,6 @@ tags:
     sha256:506f47ed0f4d2e9e275bae650d84b5d6cd205a6f5a54faf6a826879ed5d8f507
   1.14.0--r44hdfd78af_0: 
     sha256:222ab2a80d975b1ae347aa0038d8194e0c9b9bfa5365483f89b8ee8d42c6eb3f
+  1.18.0--r45hdfd78af_0: 
+    sha256:207d17cd98e49a237fcf68a0c4aa5f7eaad58dedf66e67f6b44d0438dd4636e4
 docker: quay.io/biocontainers/bioconductor-immunotation

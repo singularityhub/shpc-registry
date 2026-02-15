@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-keggandmetacoredzpathwaysgeo
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:458474bc11ede744899095f5cda022454a63200761214b3c4fec1288b265ac72
+  1.30.0--r45hdfd78af_0: 
+    sha256:93be74b88eaceb335581d7b9dd946048e2fa84a739576a7f6367e3a1221fef51
 tags:
   1.9.0--r40_0: 
     sha256:f1d718a90b99123199ab8673e855e07727de2dce9e4970c2440cba4f00e94d89
@@ -22,6 +22,8 @@ tags:
     sha256:b5977da188268af35aa0b681efaf2b70bd4cbe80b831d9e1fccd323bc655d52b
   1.26.0--r44hdfd78af_0: 
     sha256:458474bc11ede744899095f5cda022454a63200761214b3c4fec1288b265ac72
+  1.30.0--r45hdfd78af_0: 
+    sha256:93be74b88eaceb335581d7b9dd946048e2fa84a739576a7f6367e3a1221fef51
 docker: quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

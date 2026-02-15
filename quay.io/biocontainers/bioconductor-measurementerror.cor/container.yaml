@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-measurementerror.cor
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:f5a8ade6c07c8dbfdec4fa884c1ffb8fa0b8572bf85be9f71db39c2863aef27a
+  1.82.0--r45hdfd78af_0: 
+    sha256:931bbbdfc78e567319389c47210b3140e2f2365d4a42fc8babde1f78419e7884
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:e73e8cfc007d43f29c6cff440db323ab24ebebfe13067043d99bf0b5a7ec88e7
@@ -16,4 +16,6 @@ tags:
     sha256:189717aeec823e6f313597e1b52d5db2d2f793423dbac9d1724861183d882283
   1.78.0--r44hdfd78af_0: 
     sha256:f5a8ade6c07c8dbfdec4fa884c1ffb8fa0b8572bf85be9f71db39c2863aef27a
+  1.82.0--r45hdfd78af_0: 
+    sha256:931bbbdfc78e567319389c47210b3140e2f2365d4a42fc8babde1f78419e7884
 docker: quay.io/biocontainers/bioconductor-measurementerror.cor

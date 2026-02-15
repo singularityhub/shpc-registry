@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chopsticks
 latest:
-  1.72.0--r44h3df3fcb_0: 
-    sha256:63ad61a654a031bb40c9824e4ab6c4484144b7469baf513a237a49ded2ea93f2
+  1.76.0--r45h01b2380_0: 
+    sha256:a749423ba62f2fdbb98c494dd81c401dec62676da20dcc4f3f43af93296ecd87
 tags:
   1.60.0--r41hc0cfd56_2: 
     sha256:4f26615e2b0594ffd9b4da49d540f99e3098a9ea8a5cdda50cfefa42ed71acca
@@ -20,4 +20,6 @@ tags:
     sha256:84188f46670b9feab74bc197b3ea57f8693bb8e1d45912b090eb918893514ca6
   1.72.0--r44h3df3fcb_0: 
     sha256:63ad61a654a031bb40c9824e4ab6c4484144b7469baf513a237a49ded2ea93f2
+  1.76.0--r45h01b2380_0: 
+    sha256:a749423ba62f2fdbb98c494dd81c401dec62676da20dcc4f3f43af93296ecd87
 docker: quay.io/biocontainers/bioconductor-chopsticks

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gdsfmt
 latest:
-  1.42.0--r44he5774e6_0: 
-    sha256:6d454e4f6f09c3784cc30318e500c42bffd9ffd6bcd0e49062f9c4a30127fda0
+  1.46.0--r45h093b6e0_0: 
+    sha256:f4563b3cd52505e78da8d38c99c87117982f60773675173a5a16e150993d11e3
 tags:
   1.30.0--r41hc247a5b_2: 
     sha256:0c7c2360e51f3db0eac67d90fb795ae238c2a4c81eec1d1dccfbc60d70c8b034
@@ -20,4 +20,6 @@ tags:
     sha256:661f71b394acf2b4f6e868a037fd896cf187fc04bcb46659832c911a3fe61df3
   1.42.0--r44he5774e6_0: 
     sha256:6d454e4f6f09c3784cc30318e500c42bffd9ffd6bcd0e49062f9c4a30127fda0
+  1.46.0--r45h093b6e0_0: 
+    sha256:f4563b3cd52505e78da8d38c99c87117982f60773675173a5a16e150993d11e3
 docker: quay.io/biocontainers/bioconductor-gdsfmt
