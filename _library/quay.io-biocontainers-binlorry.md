@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binlorry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binlorry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binlorry/container.yaml"
-updated_at: "2026-02-15 04:46:09.382894"
+updated_at: "2026-02-16 04:49:09.720010"
 latest: "1.3.1--py_0"
 container_url: "https://biocontainers.pro/tools/binlorry"
 aliases:

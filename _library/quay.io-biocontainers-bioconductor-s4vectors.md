@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-s4vectors"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-s4vectors/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-s4vectors/container.yaml"
-updated_at: "2026-02-15 05:09:10.794927"
+updated_at: "2026-02-16 05:12:03.550652"
 latest: "0.48.0--r45h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-s4vectors"
 aliases:

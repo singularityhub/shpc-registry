@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neffy-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neffy-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neffy-cli/container.yaml"
-updated_at: "2026-02-15 04:47:56.991772"
+updated_at: "2026-02-16 04:50:57.197089"
 latest: "0.1.1--h9948957_0"
 container_url: "https://biocontainers.pro/tools/neffy-cli"
 aliases:

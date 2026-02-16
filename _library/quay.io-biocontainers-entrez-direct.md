@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/entrez-direct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/entrez-direct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/entrez-direct/container.yaml"
-updated_at: "2026-02-15 04:33:07.611520"
+updated_at: "2026-02-16 04:36:12.709089"
 latest: "24.0--he881be0_0"
 container_url: "https://biocontainers.pro/tools/entrez-direct"
 aliases:

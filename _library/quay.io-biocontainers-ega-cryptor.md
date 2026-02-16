@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ega-cryptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ega-cryptor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ega-cryptor/container.yaml"
-updated_at: "2026-02-15 04:27:09.370012"
+updated_at: "2026-02-16 04:30:16.278648"
 latest: "2.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ega-cryptor"
 aliases:

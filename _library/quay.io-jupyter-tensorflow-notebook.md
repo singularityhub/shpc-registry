@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/tensorflow-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/tensorflow-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/tensorflow-notebook/container.yaml"
-updated_at: "2026-02-15 04:26:08.695819"
+updated_at: "2026-02-16 04:29:15.798574"
 latest: "cuda-b74418220768"
 container_url: "https://quay.io/repository/jupyter/tensorflow-notebook"
 aliases:

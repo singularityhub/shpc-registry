@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tree/container.yaml"
-updated_at: "2026-02-15 04:50:40.973436"
+updated_at: "2026-02-16 04:53:40.565646"
 latest: "5.07--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-html-tree"
 aliases:

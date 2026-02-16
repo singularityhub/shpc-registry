@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pantax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pantax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pantax/container.yaml"
-updated_at: "2026-02-15 04:38:21.113462"
+updated_at: "2026-02-16 04:41:24.306988"
 latest: "2.0.1--py310h3e1df6f_1"
 container_url: "https://biocontainers.pro/tools/pantax"
 aliases:

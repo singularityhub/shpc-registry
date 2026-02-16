@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/concoct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/concoct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/concoct/container.yaml"
-updated_at: "2026-02-15 04:41:43.578195"
+updated_at: "2026-02-16 04:44:45.367495"
 latest: "1.1.0--py311hdfb91c2_8"
 container_url: "https://biocontainers.pro/tools/concoct"
 aliases:

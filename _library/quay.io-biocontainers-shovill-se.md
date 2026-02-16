@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shovill-se"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shovill-se/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shovill-se/container.yaml"
-updated_at: "2026-02-15 04:58:46.356617"
+updated_at: "2026-02-16 05:01:43.815880"
 latest: "1.1.0se--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/shovill-se"
 aliases:

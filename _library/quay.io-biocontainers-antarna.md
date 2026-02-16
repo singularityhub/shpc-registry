@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/antarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/antarna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/antarna/container.yaml"
-updated_at: "2026-02-15 04:44:40.604473"
+updated_at: "2026-02-16 04:47:41.377473"
 latest: "2.0.1.2--py27_0"
 container_url: "https://biocontainers.pro/tools/antarna"
 aliases:

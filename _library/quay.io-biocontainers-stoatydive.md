@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stoatydive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stoatydive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stoatydive/container.yaml"
-updated_at: "2026-02-15 04:39:16.668623"
+updated_at: "2026-02-16 04:42:19.433939"
 latest: "1.1.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/stoatydive"
 aliases:

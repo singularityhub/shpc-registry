@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mgu74bcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mgu74bcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mgu74bcdf/container.yaml"
-updated_at: "2026-02-15 04:42:06.148783"
+updated_at: "2026-02-16 04:45:07.782716"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mgu74bcdf"
 

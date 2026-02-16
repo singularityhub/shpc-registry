@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsean/container.yaml"
-updated_at: "2026-02-15 04:59:14.908039"
+updated_at: "2026-02-16 05:02:12.216147"
 latest: "1.26.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsean"
 aliases:

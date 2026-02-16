@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/melon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/melon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/melon/container.yaml"
-updated_at: "2026-02-15 04:30:02.091844"
+updated_at: "2026-02-16 04:33:08.344976"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/melon"
 aliases:

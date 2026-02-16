@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tcfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tcfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tcfinder/container.yaml"
-updated_at: "2026-02-15 05:05:21.255204"
+updated_at: "2026-02-16 05:08:15.407176"
 latest: "1.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/tcfinder"
 aliases:

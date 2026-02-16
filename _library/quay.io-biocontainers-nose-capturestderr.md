@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nose-capturestderr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nose-capturestderr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nose-capturestderr/container.yaml"
-updated_at: "2026-02-15 04:44:21.071828"
+updated_at: "2026-02-16 04:47:21.867731"
 latest: "1.2--py27_0"
 container_url: "https://biocontainers.pro/tools/nose-capturestderr"
 aliases:

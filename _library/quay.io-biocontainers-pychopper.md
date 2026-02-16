@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pychopper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pychopper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pychopper/container.yaml"
-updated_at: "2026-02-15 04:50:38.682707"
+updated_at: "2026-02-16 04:53:38.272080"
 latest: "2.7.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pychopper"
 aliases:

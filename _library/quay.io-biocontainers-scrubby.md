@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scrubby"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scrubby/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scrubby/container.yaml"
-updated_at: "2026-02-15 04:48:58.289088"
+updated_at: "2026-02-16 04:51:58.306605"
 latest: "0.2.1--h715e4b3_0"
 container_url: "https://biocontainers.pro/tools/scrubby"
 aliases:

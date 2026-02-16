@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/asqcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/asqcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/asqcan/container.yaml"
-updated_at: "2026-02-15 04:31:44.777846"
+updated_at: "2026-02-16 04:34:50.194107"
 latest: "0.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/asqcan"
 aliases:

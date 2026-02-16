@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/netmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/netmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/netmd/container.yaml"
-updated_at: "2026-02-15 04:42:01.814884"
+updated_at: "2026-02-16 04:45:03.465731"
 latest: "1.0.3--pyh3c853c9_0"
 container_url: "https://biocontainers.pro/tools/netmd"
 aliases:

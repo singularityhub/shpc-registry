@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kingfisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kingfisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kingfisher/container.yaml"
-updated_at: "2026-02-15 05:07:58.297999"
+updated_at: "2026-02-16 05:10:51.456288"
 latest: "0.4.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/kingfisher"
 aliases:

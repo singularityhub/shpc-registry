@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyamilyseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyamilyseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyamilyseq/container.yaml"
-updated_at: "2026-02-15 04:27:40.785818"
+updated_at: "2026-02-16 04:30:47.606014"
 latest: "1.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyamilyseq"
 aliases:

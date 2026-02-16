@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gather"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gather/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gather/container.yaml"
-updated_at: "2026-02-15 05:15:30.399112"
+updated_at: "2026-02-16 05:18:21.401801"
 latest: "1.0.1--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/gather"
 aliases:

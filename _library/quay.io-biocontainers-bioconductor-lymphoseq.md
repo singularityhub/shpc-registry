@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lymphoseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lymphoseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lymphoseq/container.yaml"
-updated_at: "2026-02-15 04:36:27.057390"
+updated_at: "2026-02-16 04:39:30.863717"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lymphoseq"
 

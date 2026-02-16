@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ruffus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruffus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruffus/container.yaml"
-updated_at: "2026-02-15 04:53:57.227025"
+updated_at: "2026-02-16 04:56:55.743107"
 latest: "2.8.4--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/ruffus"
 aliases:

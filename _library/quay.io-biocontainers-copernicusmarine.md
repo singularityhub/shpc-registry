@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/copernicusmarine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/copernicusmarine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/copernicusmarine/container.yaml"
-updated_at: "2026-02-15 05:06:38.113130"
+updated_at: "2026-02-16 05:09:31.982430"
 latest: "1.3.3"
 container_url: "https://biocontainers.pro/tools/copernicusmarine"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phu/container.yaml"
-updated_at: "2026-02-15 05:15:33.279984"
+updated_at: "2026-02-16 05:18:24.265539"
 latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phu"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phynteny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phynteny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phynteny/container.yaml"
-updated_at: "2026-02-15 05:11:02.531136"
+updated_at: "2026-02-16 05:13:55.024364"
 latest: "0.1.13--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/phynteny"
 aliases:

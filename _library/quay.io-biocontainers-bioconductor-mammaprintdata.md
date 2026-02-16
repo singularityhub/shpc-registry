@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mammaprintdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mammaprintdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mammaprintdata/container.yaml"
-updated_at: "2026-02-15 04:46:20.941754"
-latest: "1.42.0--r44hdfd78af_0"
+updated_at: "2026-02-16 04:49:21.189035"
+latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mammaprintdata"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.42.0--r44hdfd78af_0"
+ - "1.46.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mammaprintdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mammaprintdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mammaprintdata", "latest": {"1.42.0--r44hdfd78af_0": "sha256:3aead71c0723ac74074619a65c8bedaec87eb3466f175cfd8d0c0a7e2fcfda5a"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:2ac9bce957340ddde14dad8f888e7cf284c59597c5ba5c3e6f5a431c7d1aae7c", "1.33.0--r42hdfd78af_0": "sha256:c48fe32bcad53344ba47b351e1c83001d5fa45e4ce65e9f1ffe5c9ba4b5ad1bd", "1.36.0--r43hdfd78af_0": "sha256:62d46cbcff0d63632f52777d6fa03611b10c0966328458bb2ec59e38c3f83d18", "1.38.0--r43hdfd78af_0": "sha256:971a61505e6058872dda0fc47d0ce247a5826c3e640723a513c79bd22df041e1", "1.42.0--r44hdfd78af_0": "sha256:3aead71c0723ac74074619a65c8bedaec87eb3466f175cfd8d0c0a7e2fcfda5a"}, "docker": "quay.io/biocontainers/bioconductor-mammaprintdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mammaprintdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mammaprintdata", "latest": {"1.46.0--r45hdfd78af_0": "sha256:fe82deb7fa860d8b83ba85c2e5056b819ca647d521e2981bc16fbe76f20e5562"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:2ac9bce957340ddde14dad8f888e7cf284c59597c5ba5c3e6f5a431c7d1aae7c", "1.33.0--r42hdfd78af_0": "sha256:c48fe32bcad53344ba47b351e1c83001d5fa45e4ce65e9f1ffe5c9ba4b5ad1bd", "1.36.0--r43hdfd78af_0": "sha256:62d46cbcff0d63632f52777d6fa03611b10c0966328458bb2ec59e38c3f83d18", "1.38.0--r43hdfd78af_0": "sha256:971a61505e6058872dda0fc47d0ce247a5826c3e640723a513c79bd22df041e1", "1.42.0--r44hdfd78af_0": "sha256:3aead71c0723ac74074619a65c8bedaec87eb3466f175cfd8d0c0a7e2fcfda5a", "1.46.0--r45hdfd78af_0": "sha256:fe82deb7fa860d8b83ba85c2e5056b819ca647d521e2981bc16fbe76f20e5562"}, "docker": "quay.io/biocontainers/bioconductor-mammaprintdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mammaprintdata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mammaprintdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mammaprintdata:1.42.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mammaprintdata:1.46.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mammaprintdata/1.42.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mammaprintdata/1.42.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mammaprintdata/1.46.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mammaprintdata/1.46.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

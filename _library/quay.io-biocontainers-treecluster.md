@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treecluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treecluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treecluster/container.yaml"
-updated_at: "2026-02-15 04:27:36.134281"
+updated_at: "2026-02-16 04:30:42.985878"
 latest: "1.0.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/treecluster"
 aliases:

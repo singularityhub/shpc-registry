@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kractor/container.yaml"
-updated_at: "2026-02-15 05:18:34.354391"
+updated_at: "2026-02-16 05:21:24.468915"
 latest: "2.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/kractor"
 aliases:

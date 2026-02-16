@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bolt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bolt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bolt/container.yaml"
-updated_at: "2026-02-15 04:25:31.772259"
+updated_at: "2026-02-16 04:28:39.361685"
 latest: "2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bolt"
 

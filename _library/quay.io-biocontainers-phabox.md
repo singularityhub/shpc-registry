@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phabox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phabox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phabox/container.yaml"
-updated_at: "2026-02-15 05:08:31.548600"
+updated_at: "2026-02-16 05:11:24.487803"
 latest: "2.1.13--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phabox"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-macorrplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macorrplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macorrplot/container.yaml"
-updated_at: "2026-02-15 04:47:04.573677"
-latest: "1.76.0--r44hdfd78af_0"
+updated_at: "2026-02-16 04:50:04.793189"
+latest: "1.80.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macorrplot"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.70.0--r43hdfd78af_0"
  - "1.72.0--r43hdfd78af_0"
  - "1.76.0--r44hdfd78af_0"
+ - "1.80.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-macorrplot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-macorrplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-macorrplot", "latest": {"1.76.0--r44hdfd78af_0": "sha256:ac23cfca46361cfde9e05fa7fb1807bc69d87cc9f5c55b8127ecf75ed0748efd"}, "tags": {"1.64.0--r41hdfd78af_0": "sha256:b56c70fb4e363e6bd87cf3228a58fbd67e651ba6d03540b841058fed346e2bc6", "1.68.0--r42hdfd78af_0": "sha256:2ed226994dbfeae00c1b31570f58ca034f4cb89bc1fc57ef3d929ce57228b7d8", "1.70.0--r43hdfd78af_0": "sha256:4116e8ab5d18d3acf34ade946bb18985745127e01892987bddb991fde0d3c99a", "1.72.0--r43hdfd78af_0": "sha256:5e346e51e4fdab164fa8f5e601f9d4f411905d961fc45b369ba7b0229fde11c6", "1.76.0--r44hdfd78af_0": "sha256:ac23cfca46361cfde9e05fa7fb1807bc69d87cc9f5c55b8127ecf75ed0748efd"}, "docker": "quay.io/biocontainers/bioconductor-macorrplot"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-macorrplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-macorrplot", "latest": {"1.80.0--r45hdfd78af_0": "sha256:c64fcf9d25904c09bc7462cf8139dc20519ddcabc9e0479d508add41d16bb7eb"}, "tags": {"1.64.0--r41hdfd78af_0": "sha256:b56c70fb4e363e6bd87cf3228a58fbd67e651ba6d03540b841058fed346e2bc6", "1.68.0--r42hdfd78af_0": "sha256:2ed226994dbfeae00c1b31570f58ca034f4cb89bc1fc57ef3d929ce57228b7d8", "1.70.0--r43hdfd78af_0": "sha256:4116e8ab5d18d3acf34ade946bb18985745127e01892987bddb991fde0d3c99a", "1.72.0--r43hdfd78af_0": "sha256:5e346e51e4fdab164fa8f5e601f9d4f411905d961fc45b369ba7b0229fde11c6", "1.76.0--r44hdfd78af_0": "sha256:ac23cfca46361cfde9e05fa7fb1807bc69d87cc9f5c55b8127ecf75ed0748efd", "1.80.0--r45hdfd78af_0": "sha256:c64fcf9d25904c09bc7462cf8139dc20519ddcabc9e0479d508add41d16bb7eb"}, "docker": "quay.io/biocontainers/bioconductor-macorrplot"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-macorrplot.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-macorrplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-macorrplot:1.76.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-macorrplot:1.80.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-macorrplot/1.76.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-macorrplot/1.76.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-macorrplot/1.80.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-macorrplot/1.80.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
