@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/pubgator
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pubgator
+latest:
+  0.3.0--pyhdfd78af_0: 
+    sha256:8893b2ff86d08ad4986b67a49644200a23063049a6be3e9bc7fb7a8f2be5c8c0
+tags:
+  0.3.0--pyhdfd78af_0: 
+    sha256:8893b2ff86d08ad4986b67a49644200a23063049a6be3e9bc7fb7a8f2be5c8c0
+docker: quay.io/biocontainers/pubgator
+aliases:
+  bioc-split: /usr/local/bin/bioc-split
+  brat2bioc: /usr/local/bin/brat2bioc
+  httpx: /usr/local/bin/httpx
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  tqdm: /usr/local/bin/tqdm

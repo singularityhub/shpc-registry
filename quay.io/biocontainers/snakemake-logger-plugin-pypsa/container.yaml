@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/snakemake-logger-plugin-pypsa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  snakemake-logger-plugin-pypsa
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:ae41940eccfed7a128425fcef9e3787dd3f2ab134ae96457ec6e12531ad10b7e
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:ae41940eccfed7a128425fcef9e3787dd3f2ab134ae96457ec6e12531ad10b7e
+docker: quay.io/biocontainers/snakemake-logger-plugin-pypsa
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

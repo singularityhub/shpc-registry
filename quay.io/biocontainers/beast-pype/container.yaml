@@ -1,0 +1,171 @@
+url: https://biocontainers.pro/tools/beast-pype
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for beast-pype
+latest:
+  0.2.2--pyhdfd78af_0: 
+    sha256:2570dbb9904545a700ba45ce03e87d97b8a4656adaca9fea999a900b8fa84e54
+tags:
+  0.2.2--pyhdfd78af_0: 
+    sha256:2570dbb9904545a700ba45ce03e87d97b8a4656adaca9fea999a900b8fa84e54
+docker: quay.io/biocontainers/beast-pype
+aliases:
+  aa-compare.py: /usr/local/bin/aa-compare.py
+  aa-info.py: /usr/local/bin/aa-info.py
+  aa-to-dna.py: /usr/local/bin/aa-to-dna.py
+  aa-to-properties.py: /usr/local/bin/aa-to-properties.py
+  adaptor-distances.py: /usr/local/bin/adaptor-distances.py
+  alignment-panel-civ.py: /usr/local/bin/alignment-panel-civ.py
+  alignments-per-read.py: /usr/local/bin/alignments-per-read.py
+  applauncher: /usr/local/bin/applauncher
+  beast: /usr/local/bin/beast
+  beast2-xml-version.py: /usr/local/bin/beast2-xml-version.py
+  beast2-xml.py: /usr/local/bin/beast2-xml.py
+  beast_pype: /usr/local/bin/beast_pype
+  beauti: /usr/local/bin/beauti
+  bit-score-to-e-value.py: /usr/local/bin/bit-score-to-e-value.py
+  cat-json-blast-records.py: /usr/local/bin/cat-json-blast-records.py
+  check-fasta-json-blast-consistency.py: 
+    /usr/local/bin/check-fasta-json-blast-consistency.py
+  codon-distance.py: /usr/local/bin/codon-distance.py
+  combine-sequences.py: /usr/local/bin/combine-sequences.py
+  compare-aa-sequences.py: /usr/local/bin/compare-aa-sequences.py
+  compare-consensuses.py: /usr/local/bin/compare-consensuses.py
+  compare-sequences.py: /usr/local/bin/compare-sequences.py
+  convert-blast-xml-to-json.py: /usr/local/bin/convert-blast-xml-to-json.py
+  convert-diamond-to-json.py: /usr/local/bin/convert-diamond-to-json.py
+  convert-diamond-to-sam.py: /usr/local/bin/convert-diamond-to-sam.py
+  convert-sam-to-fastq.sh: /usr/local/bin/convert-sam-to-fastq.sh
+  create-newick-relabeling-output.py: 
+    /usr/local/bin/create-newick-relabeling-output.py
+  curate-tree-ete3.py: /usr/local/bin/curate-tree-ete3.py
+  curate-trees.py: /usr/local/bin/curate-trees.py
+  dark-matter-version.py: /usr/local/bin/dark-matter-version.py
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  densitree: /usr/local/bin/densitree
+  describe-protein-database.py: /usr/local/bin/describe-protein-database.py
+  dna-to-aa.py: /usr/local/bin/dna-to-aa.py
+  download-genbank.sh: /usr/local/bin/download-genbank.sh
+  download-refseq-viral-fasta.sh: /usr/local/bin/download-refseq-viral-fasta.sh
+  download-refseq-viral-gbff.sh: /usr/local/bin/download-refseq-viral-gbff.sh
+  e-value-to-bit-score.py: /usr/local/bin/e-value-to-bit-score.py
+  extract-ORFs.py: /usr/local/bin/extract-ORFs.py
+  fasta-base-indices.py: /usr/local/bin/fasta-base-indices.py
+  fasta-count-chars.py: /usr/local/bin/fasta-count-chars.py
+  fasta-count.py: /usr/local/bin/fasta-count.py
+  fasta-coverage.py: /usr/local/bin/fasta-coverage.py
+  fasta-diff.sh: /usr/local/bin/fasta-diff.sh
+  fasta-find.py: /usr/local/bin/fasta-find.py
+  fasta-identity-table.py: /usr/local/bin/fasta-identity-table.py
+  fasta-ids.py: /usr/local/bin/fasta-ids.py
+  fasta-join.py: /usr/local/bin/fasta-join.py
+  fasta-lengths.py: /usr/local/bin/fasta-lengths.py
+  fasta-match-offsets.py: /usr/local/bin/fasta-match-offsets.py
+  fasta-sequences.py: /usr/local/bin/fasta-sequences.py
+  fasta-sort.py: /usr/local/bin/fasta-sort.py
+  fasta-split-by-id.py: /usr/local/bin/fasta-split-by-id.py
+  fasta-split-by-length.py: /usr/local/bin/fasta-split-by-length.py
+  fasta-split.py: /usr/local/bin/fasta-split.py
+  fasta-subset.py: /usr/local/bin/fasta-subset.py
+  fasta-subtraction.py: /usr/local/bin/fasta-subtraction.py
+  fasta-to-phylip.py: /usr/local/bin/fasta-to-phylip.py
+  fasta-translate.py: /usr/local/bin/fasta-translate.py
+  fasta-variable-sites.py: /usr/local/bin/fasta-variable-sites.py
+  fastq-set-quality.py: /usr/local/bin/fastq-set-quality.py
+  filter-fasta-by-complexity.py: /usr/local/bin/filter-fasta-by-complexity.py
+  filter-fasta-by-taxonomy.py: /usr/local/bin/filter-fasta-by-taxonomy.py
+  filter-fasta.py: /usr/local/bin/filter-fasta.py
+  filter-hits-to-fasta.py: /usr/local/bin/filter-hits-to-fasta.py
+  filter-reads-alignments.py: /usr/local/bin/filter-reads-alignments.py
+  filter-sam.py: /usr/local/bin/filter-sam.py
+  format-fasta.py: /usr/local/bin/format-fasta.py
+  genbank-grep.py: /usr/local/bin/genbank-grep.py
+  genome-protein-summary.py: /usr/local/bin/genome-protein-summary.py
+  get-features.py: /usr/local/bin/get-features.py
+  get-hosts.py: /usr/local/bin/get-hosts.py
+  get-reads.py: /usr/local/bin/get-reads.py
+  get-taxonomy.py: /usr/local/bin/get-taxonomy.py
+  graph-evalues.py: /usr/local/bin/graph-evalues.py
+  ids.py: /usr/local/bin/ids.py
+  iqtree3: /usr/local/bin/iqtree3
+  jlpm: /usr/local/bin/jlpm
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  local-align.py: /usr/local/bin/local-align.py
+  loganalyser: /usr/local/bin/loganalyser
+  logcombiner: /usr/local/bin/logcombiner
+  make-consensus.py: /usr/local/bin/make-consensus.py
+  make-fasta-database.py: /usr/local/bin/make-fasta-database.py
+  make-protein-database.py: /usr/local/bin/make-protein-database.py
+  msa-find-and-extract.py: /usr/local/bin/msa-find-and-extract.py
+  ncbi-fetch-id.py: /usr/local/bin/ncbi-fetch-id.py
+  newick-to-ascii.py: /usr/local/bin/newick-to-ascii.py
+  noninteractive-alignment-panel.py: 
+    /usr/local/bin/noninteractive-alignment-panel.py
+  packagemanager: /usr/local/bin/packagemanager
+  papermill: /usr/local/bin/papermill
+  parse-genbank-flat-file.py: /usr/local/bin/parse-genbank-flat-file.py
+  plot-references-by-inter-read-distance.py: 
+    /usr/local/bin/plot-references-by-inter-read-distance.py
+  plot-windowed-identity.py: /usr/local/bin/plot-windowed-identity.py
+  position-summary.py: /usr/local/bin/position-summary.py
+  pre-commit.sh: /usr/local/bin/pre-commit.sh
+  print-read-lengths.py: /usr/local/bin/print-read-lengths.py
+  proteins-to-pathogens-civ.py: /usr/local/bin/proteins-to-pathogens-civ.py
+  proteins-to-pathogens.py: /usr/local/bin/proteins-to-pathogens.py
+  pyjson5: /usr/local/bin/pyjson5
+  randomize-fasta.py: /usr/local/bin/randomize-fasta.py
+  read-blast-json.py: /usr/local/bin/read-blast-json.py
+  read-blast-xml.py: /usr/local/bin/read-blast-xml.py
+  reference-read-scores-to-JSON.py: 
+    /usr/local/bin/reference-read-scores-to-JSON.py
+  relabel-newick-tree.py: /usr/local/bin/relabel-newick-tree.py
+  remove-alrt-from-tree.py: /usr/local/bin/remove-alrt-from-tree.py
+  reverse-complement.py: /usr/local/bin/reverse-complement.py
+  run-bowtie2.py: /usr/local/bin/run-bowtie2.py
+  run-bwa.py: /usr/local/bin/run-bwa.py
+  sam-coverage-depth.py: /usr/local/bin/sam-coverage-depth.py
+  sam-coverage.py: /usr/local/bin/sam-coverage.py
+  sam-reference-read-counts.py: /usr/local/bin/sam-reference-read-counts.py
+  sam-references.py: /usr/local/bin/sam-references.py
+  sam-to-fasta-alignment.py: /usr/local/bin/sam-to-fasta-alignment.py
+  sff-to-fastq.py: /usr/local/bin/sff-to-fastq.py
+  simple-consensus.py: /usr/local/bin/simple-consensus.py
+  split-fasta-by-adaptors.py: /usr/local/bin/split-fasta-by-adaptors.py
+  subset-protein-database.py: /usr/local/bin/subset-protein-database.py
+  summarize-fasta-bases.py: /usr/local/bin/summarize-fasta-bases.py
+  summarize-reads.py: /usr/local/bin/summarize-reads.py
+  translate.py: /usr/local/bin/translate.py
+  tree-info.py: /usr/local/bin/tree-info.py
+  treeannotator: /usr/local/bin/treeannotator
+  treetime: /usr/local/bin/treetime
+  trim-primers.py: /usr/local/bin/trim-primers.py
+  trim-reads.py: /usr/local/bin/trim-reads.py
+  window-split-alignment.py: /usr/local/bin/window-split-alignment.py
+  write-htcondor-job-spec.py: /usr/local/bin/write-htcondor-job-spec.py
+  filetype: /usr/local/bin/filetype
+  jupyter-server: /usr/local/bin/jupyter-server
+  sumlabels: /usr/local/bin/sumlabels
+  sumtrees: /usr/local/bin/sumtrees
+  debugpy: /usr/local/bin/debugpy
+  jupyter-console: /usr/local/bin/jupyter-console
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  jsonpointer: /usr/local/bin/jsonpointer
+  pax11publish: /usr/local/bin/pax11publish
+  wsdump: /usr/local/bin/wsdump
+  send2trash: /usr/local/bin/send2trash
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami

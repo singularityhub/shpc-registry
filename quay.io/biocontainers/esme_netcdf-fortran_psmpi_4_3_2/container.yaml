@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/esme_netcdf-fortran_psmpi_4_3_2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_netcdf-fortran_psmpi_4_3_2
+latest:
+  4.6.2--h52398bf_0: 
+    sha256:dad6a09f6d42ed6ad8c6355921c29bc310761af024a771fd05dbcb919e13dc41
+tags:
+  4.6.2--h52398bf_0: 
+    sha256:dad6a09f6d42ed6ad8c6355921c29bc310761af024a771fd05dbcb919e13dc41
+docker: quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2
+aliases:
+  nc4print: /usr/local/bin/nc4print
+  ocprint: /usr/local/bin/ocprint
+  chacl: /usr/local/bin/chacl
+  getfacl: /usr/local/bin/getfacl
+  setfacl: /usr/local/bin/setfacl
+  cdfdiff: /usr/local/bin/cdfdiff
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version
+  h5pcc: /usr/local/bin/h5pcc
+  h5perf: /usr/local/bin/h5perf
+  h5pfc: /usr/local/bin/h5pfc
+  ph5diff: /usr/local/bin/ph5diff
+  nf-config: /usr/local/bin/nf-config
+  attr: /usr/local/bin/attr
+  getfattr: /usr/local/bin/getfattr
+  setfattr: /usr/local/bin/setfattr
+  nc-config: /usr/local/bin/nc-config
+  nccopy: /usr/local/bin/nccopy
+  ncdump: /usr/local/bin/ncdump
+  ncgen: /usr/local/bin/ncgen

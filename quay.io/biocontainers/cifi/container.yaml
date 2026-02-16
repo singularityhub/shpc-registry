@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/cifi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cifi
+latest:
+  0.2.3--py310hfc0ef84_0: 
+    sha256:1866992ce8ecb12dbd48f7df7e5466a2db1ce40d9c5a90f2beee8c787c103da4
+tags:
+  0.2.3--py310hfc0ef84_0: 
+    sha256:1866992ce8ecb12dbd48f7df7e5466a2db1ce40d9c5a90f2beee8c787c103da4
+docker: quay.io/biocontainers/cifi
+aliases:
+  cifi: /usr/local/bin/cifi
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

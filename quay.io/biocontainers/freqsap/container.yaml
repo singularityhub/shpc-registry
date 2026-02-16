@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/freqsap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for freqsap
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:27fc6dcd2d9ee1dae92fec8178e2bfef930836825b28df050fa70664d4690b20
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:27fc6dcd2d9ee1dae92fec8178e2bfef930836825b28df050fa70664d4690b20
+docker: quay.io/biocontainers/freqsap
+aliases:
+  freqsap: /usr/local/bin/freqsap
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  normalizer: /usr/local/bin/normalizer

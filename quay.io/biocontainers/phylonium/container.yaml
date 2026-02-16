@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/phylonium
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phylonium
+latest:
+  1.7--hde5307d_0: 
+    sha256:6757b05d48fc58fee90f553f5cf69e86d98e46287a781e37e0b6c3472161d1f4
+tags:
+  1.7--hde5307d_0: 
+    sha256:6757b05d48fc58fee90f553f5cf69e86d98e46287a781e37e0b6c3472161d1f4
+docker: quay.io/biocontainers/phylonium
+aliases:
+  phylonium: /usr/local/bin/phylonium

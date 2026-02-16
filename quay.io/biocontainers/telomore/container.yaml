@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/telomore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for telomore
+latest:
+  0.4.1--pyhdfd78af_0: 
+    sha256:ccff223601ddd7afbe735fac03b7c5056e2a0cdb8695a14711b1406cb73c7270
+tags:
+  0.4.1--pyhdfd78af_0: 
+    sha256:ccff223601ddd7afbe735fac03b7c5056e2a0cdb8695a14711b1406cb73c7270
+docker: quay.io/biocontainers/telomore
+aliases:
+  fasta-nr: /usr/local/bin/fasta-nr
+  lamassemble: /usr/local/bin/lamassemble
+  maf-cut: /usr/local/bin/maf-cut
+  maf-linked: /usr/local/bin/maf-linked
+  telomore: /usr/local/bin/telomore
+  fastq-interleave: /usr/local/bin/fastq-interleave
+  last-dotplot: /usr/local/bin/last-dotplot
+  last-map-probs: /usr/local/bin/last-map-probs
+  last-pair-probs: /usr/local/bin/last-pair-probs
+  last-postmask: /usr/local/bin/last-postmask
+  last-split: /usr/local/bin/last-split
+  last-train: /usr/local/bin/last-train
+  lastal: /usr/local/bin/lastal
+  lastdb: /usr/local/bin/lastdb
+  maf-convert: /usr/local/bin/maf-convert
+  maf-join: /usr/local/bin/maf-join
+  maf-sort: /usr/local/bin/maf-sort
+  maf-swap: /usr/local/bin/maf-swap
+  parallel-fasta: /usr/local/bin/parallel-fasta
+  parallel-fastq: /usr/local/bin/parallel-fastq
+  last-merge-batches: /usr/local/bin/last-merge-batches
+  xmlget: /usr/local/bin/xmlget
+  xmltext: /usr/local/bin/xmltext
+  aaindexextract: /usr/local/bin/aaindexextract
+  abiview: /usr/local/bin/abiview
+  acdgalaxy: /usr/local/bin/acdgalaxy
+  acdlog: /usr/local/bin/acdlog
+  acdpretty: /usr/local/bin/acdpretty
+  acdtable: /usr/local/bin/acdtable
+  acdtrace: /usr/local/bin/acdtrace

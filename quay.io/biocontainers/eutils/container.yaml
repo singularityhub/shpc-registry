@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/eutils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eutils
+latest:
+  0.6.1--pyhdfd78af_1: 
+    sha256:08f1df66831177a520cdc76c54bf2b4e96b834fec6733190d1d37251b4a61b68
+tags:
+  0.6.1--pyhdfd78af_1: 
+    sha256:08f1df66831177a520cdc76c54bf2b4e96b834fec6733190d1d37251b4a61b68
+docker: quay.io/biocontainers/eutils
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  normalizer: /usr/local/bin/normalizer
