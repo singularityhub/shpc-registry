@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hmmcopy
 latest:
-  1.48.0--r44h3df3fcb_1: 
-    sha256:bb4fc52bf8b028c192ab3293da819a3486b40a1ea9589013f69a55f4adaf2eb2
+  1.52.0--r45h01b2380_0: 
+    sha256:562afdadf5750efcc0c9e8f43b1c91995ec2052f45ab4d0c3e9e3b1ab777102e
 tags:
   1.36.0--r41hc0cfd56_2: 
     sha256:cc8d9c0d15af0412738d16b6c0084274fe8eb2ab6a63f7f53624e29023fcb172
@@ -20,4 +20,6 @@ tags:
     sha256:d4808c78372a06dac3027e0c61a32814a6c3cc9b2e42258af46743de76c37afd
   1.48.0--r44h3df3fcb_1: 
     sha256:bb4fc52bf8b028c192ab3293da819a3486b40a1ea9589013f69a55f4adaf2eb2
+  1.52.0--r45h01b2380_0: 
+    sha256:562afdadf5750efcc0c9e8f43b1c91995ec2052f45ab4d0c3e9e3b1ab777102e
 docker: quay.io/biocontainers/bioconductor-hmmcopy

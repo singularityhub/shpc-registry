@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rwikipathways
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:0376f9f67d2bc40dae7e3439baba9014607f28fe2e414976336d0e8e8bc3c894
+  1.30.0--r45hdfd78af_1: 
+    sha256:7dfe4c7ef9b081e52bcb27ee29fa872c7e7d3b2722110ec44b0d1a7ae6a52200
 tags:
   1.8.2--r40_0: 
     sha256:3c4943d789edcfbcc28045a1df557c41c60ebe876fa02f32680ef0d5a256d8d2
@@ -24,6 +24,8 @@ tags:
     sha256:9882622265d3acd63a9e657cd620f8728aa087cb61ce98a8e7330f4d3d79caca
   1.30.0--r44hdfd78af_0: 
     sha256:0376f9f67d2bc40dae7e3439baba9014607f28fe2e414976336d0e8e8bc3c894
+  1.30.0--r45hdfd78af_1: 
+    sha256:7dfe4c7ef9b081e52bcb27ee29fa872c7e7d3b2722110ec44b0d1a7ae6a52200
 docker: quay.io/biocontainers/bioconductor-rwikipathways
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

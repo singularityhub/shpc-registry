@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-a4preproc
 latest:
-  1.54.0--r44hdfd78af_0: 
-    sha256:3cbcea915f13e31e53407b4b0265d2cd84d1eac1661657efaad06703f13a3e52
+  1.58.0--r45hdfd78af_0: 
+    sha256:962cb583803917a4afc5102cfedaec7c8478689e00de4479274f9f5272603d12
 tags:
   1.42.0--r41hdfd78af_0: 
     sha256:ae935cba2cfd9540eefd618092636b7c82c832035d0ed9ecc804e5a456540dd4
@@ -16,4 +16,6 @@ tags:
     sha256:9df0759771efb45f0df0315fe7a2becd7e84d56fb0acf2659a2d29763aa302c4
   1.54.0--r44hdfd78af_0: 
     sha256:3cbcea915f13e31e53407b4b0265d2cd84d1eac1661657efaad06703f13a3e52
+  1.58.0--r45hdfd78af_0: 
+    sha256:962cb583803917a4afc5102cfedaec7c8478689e00de4479274f9f5272603d12
 docker: quay.io/biocontainers/bioconductor-a4preproc

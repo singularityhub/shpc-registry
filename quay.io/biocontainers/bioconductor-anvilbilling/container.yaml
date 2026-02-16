@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-anvilbilling
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:23869126047d253013095871c25240f5c608f0d0ee716487b65f70a60a2aa733
+  1.20.0--r45hdfd78af_0: 
+    sha256:5ab34bf5d209e62b08383b96c475c6faef25727191df24b205206f1ebdcb0fb8
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:716ba39d17a0505c332775698ca850de9ec9dfc5553cfcd0c58bbe20f5637b3b
@@ -16,4 +16,6 @@ tags:
     sha256:b90d1e7418678040889b1c8e4e3857dc79a99e6e8622328be9f331ea59b8f665
   1.16.0--r44hdfd78af_0: 
     sha256:23869126047d253013095871c25240f5c608f0d0ee716487b65f70a60a2aa733
+  1.20.0--r45hdfd78af_0: 
+    sha256:5ab34bf5d209e62b08383b96c475c6faef25727191df24b205206f1ebdcb0fb8
 docker: quay.io/biocontainers/bioconductor-anvilbilling

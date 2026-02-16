@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dvddata
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:ed6b4a3ba4c1d5c2685bfd9f92ad8152d3187804c29f82778ce6c3cd47c30f5a
+  1.46.0--r45hdfd78af_0: 
+    sha256:b05d39f24431be9f17b51a4ea051c6a1fb57b223a000f95a80cf727512146f3d
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:56ce7efc91f34603c04bc9526cdf8a041d732e47aa3df7854cc2586f07fc7b35
@@ -16,4 +16,6 @@ tags:
     sha256:40f03a1b353465882dfaccbc71e426f15e806a32b41226fdaec4ad4e9883e0bc
   1.42.0--r44hdfd78af_0: 
     sha256:ed6b4a3ba4c1d5c2685bfd9f92ad8152d3187804c29f82778ce6c3cd47c30f5a
+  1.46.0--r45hdfd78af_0: 
+    sha256:b05d39f24431be9f17b51a4ea051c6a1fb57b223a000f95a80cf727512146f3d
 docker: quay.io/biocontainers/bioconductor-dvddata

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-inpower
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:377ed44a1ef49666efe0ca75796f45449d85755d893893441ff5b692c41359b3
+  1.46.0--r45hdfd78af_0: 
+    sha256:ff2e17f90a40eda8aa902862a73628ff97e08d557219b2df5640c8ef004fc0a8
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:94c8addeb3f9ff6c82803f462fd03879c158a0fd43205d7a54262971b9f99c77
@@ -16,4 +16,6 @@ tags:
     sha256:a25b09a04ce775b227df7b15af378366e6d6a1151bbfc8431b5f5570dbf39aba
   1.42.0--r44hdfd78af_0: 
     sha256:377ed44a1ef49666efe0ca75796f45449d85755d893893441ff5b692c41359b3
+  1.46.0--r45hdfd78af_0: 
+    sha256:ff2e17f90a40eda8aa902862a73628ff97e08d557219b2df5640c8ef004fc0a8
 docker: quay.io/biocontainers/bioconductor-inpower

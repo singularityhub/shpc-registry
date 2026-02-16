@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-massspecwavelet
 latest:
-  1.72.0--r44h3df3fcb_0: 
-    sha256:293c7f5bb5e6b503e3f2ceb021e2329b28bd728b8ad1b5eda2cf864e5d8c4b2b
+  1.76.0--r45h01b2380_0: 
+    sha256:f1a9d5ee07b653126c50432b10378326fc5983db5f9d10296e134de122275cf9
 tags:
   1.60.1--r41hc0cfd56_0: 
     sha256:2512be2726fc609d5fb75f41e717d5cfa9a103540c6a25a140b44d7476e005f9
@@ -20,4 +20,6 @@ tags:
     sha256:04477ecd11a321352b48a543ead20e3bcde0f432ab422c8aee66c7080d8e067b
   1.72.0--r44h3df3fcb_0: 
     sha256:293c7f5bb5e6b503e3f2ceb021e2329b28bd728b8ad1b5eda2cf864e5d8c4b2b
+  1.76.0--r45h01b2380_0: 
+    sha256:f1a9d5ee07b653126c50432b10378326fc5983db5f9d10296e134de122275cf9
 docker: quay.io/biocontainers/bioconductor-massspecwavelet

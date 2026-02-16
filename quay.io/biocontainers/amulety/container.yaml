@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/amulety
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for amulety
 latest:
-  2.1.1--pyh6d73907_0: 
-    sha256:152e932684a3253e3511e23cad20294aec76c3cc06735a67551002c8684f3069
+  2.1.2--pyh6d73907_0: 
+    sha256:12a733c8a936f881c10f98f06fb2cccb18af5af05e5bdf1d9cac7316c7e990f7
 tags:
   1.0--pyhdfd78af_0: 
     sha256:9cfa7bdabc2580c19af48bb0041add7ae229008695d14478ce0d3ccdf67b5d4c
@@ -15,6 +15,8 @@ tags:
     sha256:66117f5a69b89da6735e7f698928cffbfcad97c7648af212b2c570fa171ae1fa
   2.1.1--pyh6d73907_0: 
     sha256:152e932684a3253e3511e23cad20294aec76c3cc06735a67551002c8684f3069
+  2.1.2--pyh6d73907_0: 
+    sha256:12a733c8a936f881c10f98f06fb2cccb18af5af05e5bdf1d9cac7316c7e990f7
 docker: quay.io/biocontainers/amulety
 aliases:
   amulety: /usr/local/bin/amulety

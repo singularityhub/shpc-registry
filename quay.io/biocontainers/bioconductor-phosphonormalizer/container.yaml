@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-phosphonormalizer
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:da684034f7c73d49f02ddd7742e50b78a6957cf056db9b707c41f3ea747c1da4
+  1.34.0--r45hdfd78af_0: 
+    sha256:0c40e29203f24b80f8c6037bc5ecf45640609d0172ea10b3f4d5fe95998b0c00
 tags:
   1.8.0--r36_1: 
     sha256:0dca0b17320d758506d82a001d677456bce030025419fa8830f479a6a4a2a3b4
@@ -24,6 +24,8 @@ tags:
     sha256:0afea823097734c6bbcbd255b6de348feabcffbee056fc2a30eae988056b9d0e
   1.30.0--r44hdfd78af_0: 
     sha256:da684034f7c73d49f02ddd7742e50b78a6957cf056db9b707c41f3ea747c1da4
+  1.34.0--r45hdfd78af_0: 
+    sha256:0c40e29203f24b80f8c6037bc5ecf45640609d0172ea10b3f4d5fe95998b0c00
 docker: quay.io/biocontainers/bioconductor-phosphonormalizer
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

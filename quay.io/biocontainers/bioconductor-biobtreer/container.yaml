@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biobtreer
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:6081cfc8af36cbabe99f9e5334ae4df458f451ca505a18d6f50c4ba6bc2ba097
+  1.22.0--r45hdfd78af_0: 
+    sha256:b1482fc5490c22733b35a95eb7d21e963546e8cc9f868f253adb6f90bd957027
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:9dbda507303a3aaab53f775f57e33ee27771ed9961d33e102fca97e2668b65c8
@@ -16,4 +16,6 @@ tags:
     sha256:1421a480f5d2d9f7af8c1aa4fa6705323db53ba5ace61a67bad31b9698814aa7
   1.18.0--r44hdfd78af_0: 
     sha256:6081cfc8af36cbabe99f9e5334ae4df458f451ca505a18d6f50c4ba6bc2ba097
+  1.22.0--r45hdfd78af_0: 
+    sha256:b1482fc5490c22733b35a95eb7d21e963546e8cc9f868f253adb6f90bd957027
 docker: quay.io/biocontainers/bioconductor-biobtreer

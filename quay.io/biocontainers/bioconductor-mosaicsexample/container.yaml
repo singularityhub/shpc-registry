@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mosaicsexample
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:d9c41789518b5afb7fb2f65d8b10da6a76b337e5919fb97fc4da94c669fd27c7
+  1.48.0--r45hdfd78af_0: 
+    sha256:b27f3f639a7a7c74c21f73753535adc09f069c2391ba068e87043bcc7e7d2d29
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:eb78e6f170399adab1ee79e414e75cdb8aedf60b5a4553d18c8ee8630ac4526a
@@ -16,4 +16,6 @@ tags:
     sha256:8db0ad0cd97539ccc24678df5289c961c5cabdb8cef86c7ae4489e72a3967d3a
   1.44.0--r44hdfd78af_0: 
     sha256:d9c41789518b5afb7fb2f65d8b10da6a76b337e5919fb97fc4da94c669fd27c7
+  1.48.0--r45hdfd78af_0: 
+    sha256:b27f3f639a7a7c74c21f73753535adc09f069c2391ba068e87043bcc7e7d2d29
 docker: quay.io/biocontainers/bioconductor-mosaicsexample
