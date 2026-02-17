@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/cellpyability
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cellpyability
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:ddb722d6ba62ffd1dd1f452c912172ba82140248fe10fab15372e948da0eaeeb
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:ddb722d6ba62ffd1dd1f452c912172ba82140248fe10fab15372e948da0eaeeb
+docker: quay.io/biocontainers/cellpyability
+aliases:
+  cellpyability: /usr/local/bin/cellpyability
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

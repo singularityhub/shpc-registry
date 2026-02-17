@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/alphafetcher
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alphafetcher
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:88e62a40670c87fd76d49a4cd06e7cf7717e4fd882389c19d0bf4d57d4e8c687
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:88e62a40670c87fd76d49a4cd06e7cf7717e4fd882389c19d0bf4d57d4e8c687
+docker: quay.io/biocontainers/alphafetcher
+aliases:
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

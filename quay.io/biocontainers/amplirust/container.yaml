@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/amplirust
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for amplirust
+latest:
+  0.1.2--h3ab6199_0: 
+    sha256:3b21f47cf198c46e32c69fd25f5a024ce3eca0d782a57d23e792164f541f62d2
+tags:
+  0.1.2--h3ab6199_0: 
+    sha256:3b21f47cf198c46e32c69fd25f5a024ce3eca0d782a57d23e792164f541f62d2
+docker: quay.io/biocontainers/amplirust
+aliases:
+  amplirust: /usr/local/bin/amplirust

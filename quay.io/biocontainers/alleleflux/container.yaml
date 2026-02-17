@@ -1,0 +1,72 @@
+url: https://biocontainers.pro/tools/alleleflux
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alleleflux
+latest:
+  0.1.14--pyhdfd78af_0: 
+    sha256:d7108a434d3e938a1054c34e35e8085bb63a9a319ed91b1bb5d1052d591f2d6c
+tags:
+  0.1.14--pyhdfd78af_0: 
+    sha256:d7108a434d3e938a1054c34e35e8085bb63a9a319ed91b1bb5d1052d591f2d6c
+docker: quay.io/biocontainers/alleleflux
+aliases:
+  alleleflux: /usr/local/bin/alleleflux
+  alleleflux-add-bam-path: /usr/local/bin/alleleflux-add-bam-path
+  alleleflux-allele-freq: /usr/local/bin/alleleflux-allele-freq
+  alleleflux-cmh: /usr/local/bin/alleleflux-cmh
+  alleleflux-cmh-scores: /usr/local/bin/alleleflux-cmh-scores
+  alleleflux-copy-profiles: /usr/local/bin/alleleflux-copy-profiles
+  alleleflux-coverage-allele-stats: 
+    /usr/local/bin/alleleflux-coverage-allele-stats
+  alleleflux-create-mag-mapping: /usr/local/bin/alleleflux-create-mag-mapping
+  alleleflux-dnds-from-timepoints: 
+    /usr/local/bin/alleleflux-dnds-from-timepoints
+  alleleflux-eligibility: /usr/local/bin/alleleflux-eligibility
+  alleleflux-gene-scores: /usr/local/bin/alleleflux-gene-scores
+  alleleflux-list-mags: /usr/local/bin/alleleflux-list-mags
+  alleleflux-lmm: /usr/local/bin/alleleflux-lmm
+  alleleflux-metadata: /usr/local/bin/alleleflux-metadata
+  alleleflux-outliers: /usr/local/bin/alleleflux-outliers
+  alleleflux-p-value-summary: /usr/local/bin/alleleflux-p-value-summary
+  alleleflux-plot-trajectories: /usr/local/bin/alleleflux-plot-trajectories
+  alleleflux-positions-qc: /usr/local/bin/alleleflux-positions-qc
+  alleleflux-prepare-metadata: /usr/local/bin/alleleflux-prepare-metadata
+  alleleflux-preprocess-between-groups: 
+    /usr/local/bin/alleleflux-preprocess-between-groups
+  alleleflux-preprocess-within-group: 
+    /usr/local/bin/alleleflux-preprocess-within-group
+  alleleflux-preprocessing-eligibility: 
+    /usr/local/bin/alleleflux-preprocessing-eligibility
+  alleleflux-profile: /usr/local/bin/alleleflux-profile
+  alleleflux-qc: /usr/local/bin/alleleflux-qc
+  alleleflux-scores: /usr/local/bin/alleleflux-scores
+  alleleflux-single-sample: /usr/local/bin/alleleflux-single-sample
+  alleleflux-taxa-scores: /usr/local/bin/alleleflux-taxa-scores
+  alleleflux-terminal-nucleotide: /usr/local/bin/alleleflux-terminal-nucleotide
+  alleleflux-track-alleles: /usr/local/bin/alleleflux-track-alleles
+  alleleflux-two-sample-paired: /usr/local/bin/alleleflux-two-sample-paired
+  alleleflux-two-sample-unpaired: /usr/local/bin/alleleflux-two-sample-unpaired
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  yte: /usr/local/bin/yte
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  snakemake: /usr/local/bin/snakemake
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  humanfriendly: /usr/local/bin/humanfriendly
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  tabulate: /usr/local/bin/tabulate
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay

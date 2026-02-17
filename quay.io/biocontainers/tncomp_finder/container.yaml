@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/tncomp_finder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tncomp_finder
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:c9af6bdf919e12f63d23d57a0640ca09556ad70a11341fea6298cfe864b4432d
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:c9af6bdf919e12f63d23d57a0640ca09556ad70a11341fea6298cfe864b4432d
+docker: quay.io/biocontainers/tncomp_finder
+aliases:
+  TnComp_finder.py: /usr/local/bin/TnComp_finder.py
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  archive-nihocc: /usr/local/bin/archive-nihocc

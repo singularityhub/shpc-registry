@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/metapub
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metapub
+latest:
+  0.6.4--pyhdfd78af_1: 
+    sha256:1825bb648e5a919adcc68b4d8a9706e0d595fa50e727d0b72ae5a4baf688af1b
+tags:
+  0.6.4--pyhdfd78af_1: 
+    sha256:1825bb648e5a919adcc68b4d8a9706e0d595fa50e727d0b72ae5a4baf688af1b
+docker: quay.io/biocontainers/metapub
+aliases:
+  metapub-registry: /usr/local/bin/metapub-registry
+  metapub_build_registry: /usr/local/bin/metapub_build_registry
+  ncbi_health_check: /usr/local/bin/ncbi_health_check
+  pubmed_article: /usr/local/bin/pubmed_article
+  unidecode: /usr/local/bin/unidecode
+  httpx: /usr/local/bin/httpx
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  convert: /usr/local/bin/convert
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  tabulate: /usr/local/bin/tabulate
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

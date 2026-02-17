@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/synth-pdb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for synth-pdb
+latest:
+  1.16.0--pyhdfd78af_0: 
+    sha256:73800666cce77bbb094fa9b883a91b1625880696582f48ae101b55571d74d46d
+tags:
+  1.16.0--pyhdfd78af_0: 
+    sha256:73800666cce77bbb094fa9b883a91b1625880696582f48ae101b55571d74d46d
+docker: quay.io/biocontainers/synth-pdb
+aliases:
+  synth-pdb: /usr/local/bin/synth-pdb
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer

@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/r-graphstatsr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-graphstatsr
+latest:
+  2.6.1--r44hdfd78af_0: 
+    sha256:d58cfa5d07a4a0cb3652b06aa13bc1d045c60494df922938fdb8ab7e1f7665f9
+tags:
+  2.6.1--r44hdfd78af_0: 
+    sha256:d58cfa5d07a4a0cb3652b06aa13bc1d045c60494df922938fdb8ab7e1f7665f9
+docker: quay.io/biocontainers/r-graphstatsr
+aliases:
+  git2: /usr/local/bin/git2
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info

@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/guacamole-bio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for guacamole-bio
+latest:
+  1.0.3--pyh7e72e81_0: 
+    sha256:c900a69bcc807e0878b1667a7ebc519c518854ac468e168d4c7c3b93da8dbf09
+tags:
+  1.0.3--pyh7e72e81_0: 
+    sha256:c900a69bcc807e0878b1667a7ebc519c518854ac468e168d4c7c3b93da8dbf09
+docker: quay.io/biocontainers/guacamole-bio
+aliases:
+  create-reference-dist: /usr/local/bin/create-reference-dist
+  dsdp5: /usr/local/bin/dsdp5
+  guacamole: /usr/local/bin/guacamole
+  cmpfillin: /usr/local/bin/cmpfillin
+  gpmetis: /usr/local/bin/gpmetis
+  graphchk: /usr/local/bin/graphchk
+  m2gmetis: /usr/local/bin/m2gmetis
+  mpmetis: /usr/local/bin/mpmetis
+  ndmetis: /usr/local/bin/ndmetis
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  glpsol: /usr/local/bin/glpsol
+  numpy-config: /usr/local/bin/numpy-config

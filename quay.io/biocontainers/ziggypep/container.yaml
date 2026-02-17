@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ziggypep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ziggypep
+latest:
+  0.3.1--hdfd78af_0: 
+    sha256:e900b5d91c8e1d0861a656bd2f507d4d1649fe1857013130209e623cc06604b6
+tags:
+  0.3.1--hdfd78af_0: 
+    sha256:e900b5d91c8e1d0861a656bd2f507d4d1649fe1857013130209e623cc06604b6
+docker: quay.io/biocontainers/ziggypep
+aliases:
+  ziggypep: /usr/local/bin/ziggypep

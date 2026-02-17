@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/spectrseqtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spectrseqtools
+latest:
+  0.1.2--pyh7e72e81_0: 
+    sha256:e22cfb6f1d070c72e790c34af4e8d7491ad07d25726a4bb64e833ea3ab565977
+tags:
+  0.1.2--pyh7e72e81_0: 
+    sha256:e22cfb6f1d070c72e790c34af4e8d7491ad07d25726a4bb64e833ea3ab565977
+docker: quay.io/biocontainers/spectrseqtools
+aliases:
+  aprofutil: /usr/local/bin/aprofutil
+  idzip: /usr/local/bin/idzip
+  mono-hang-watchdog: /usr/local/bin/mono-hang-watchdog
+  ms-deisotope: /usr/local/bin/ms-deisotope
+  ms-index: /usr/local/bin/ms-index
+  ms-view: /usr/local/bin/ms-view
+  spectrseqtools: /usr/local/bin/spectrseqtools
+  csc: /usr/local/bin/csc
+  csi: /usr/local/bin/csi
+  illinkanalyzer: /usr/local/bin/illinkanalyzer
+  vbc: /usr/local/bin/vbc
+  mono-package-runtime: /usr/local/bin/mono-package-runtime
+  sgen-grep-binprot: /usr/local/bin/sgen-grep-binprot
+  al: /usr/local/bin/al
+  al2: /usr/local/bin/al2
+  caspol: /usr/local/bin/caspol
+  cccheck: /usr/local/bin/cccheck
+  ccrewrite: /usr/local/bin/ccrewrite
+  cert-sync: /usr/local/bin/cert-sync
+  cert2spc: /usr/local/bin/cert2spc
+  certmgr: /usr/local/bin/certmgr
+  chktrust: /usr/local/bin/chktrust
+  crlupdate: /usr/local/bin/crlupdate
+  csharp: /usr/local/bin/csharp
+  dmcs: /usr/local/bin/dmcs
+  dtd2rng: /usr/local/bin/dtd2rng
+  dtd2xsd: /usr/local/bin/dtd2xsd
+  gacutil: /usr/local/bin/gacutil
+  gacutil2: /usr/local/bin/gacutil2
+  genxs: /usr/local/bin/genxs
+  httpcfg: /usr/local/bin/httpcfg
+  ikdasm: /usr/local/bin/ikdasm

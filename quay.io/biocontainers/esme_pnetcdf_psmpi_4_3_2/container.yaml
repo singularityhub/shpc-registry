@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/esme_pnetcdf_psmpi_4_3_2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  esme_pnetcdf_psmpi_4_3_2
+latest:
+  1.14.1--hb2a3317_0: 
+    sha256:61fe166953281d73bbeb008864de3da2419948d609f9b5e7fb7a6848b0a7ccc8
+tags:
+  1.14.1--hb2a3317_0: 
+    sha256:61fe166953281d73bbeb008864de3da2419948d609f9b5e7fb7a6848b0a7ccc8
+docker: quay.io/biocontainers/esme_pnetcdf_psmpi_4_3_2
+aliases:
+  cdfdiff: /usr/local/bin/cdfdiff
+  ncmpidiff: /usr/local/bin/ncmpidiff
+  ncmpidump: /usr/local/bin/ncmpidump
+  ncmpigen: /usr/local/bin/ncmpigen
+  ncoffsets: /usr/local/bin/ncoffsets
+  ncvalidator: /usr/local/bin/ncvalidator
+  pnetcdf-config: /usr/local/bin/pnetcdf-config
+  pnetcdf_version: /usr/local/bin/pnetcdf_version

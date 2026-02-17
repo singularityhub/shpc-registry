@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/diamondonpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for diamondonpy
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:c16476aa426a0b66429bf39648fcbc29c2f2670df4cc9aadf8eb653f2a0e4263
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:c16476aa426a0b66429bf39648fcbc29c2f2670df4cc9aadf8eb653f2a0e4263
+docker: quay.io/biocontainers/diamondonpy
+aliases:
+  diamondonpy: /usr/local/bin/diamondonpy
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  diamond: /usr/local/bin/diamond
+  numpy-config: /usr/local/bin/numpy-config

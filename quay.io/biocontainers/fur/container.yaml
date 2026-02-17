@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/fur
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fur
+latest:
+  4.3--hb9cd612_0: 
+    sha256:3720e4286a73b2596b05709ecbd3a51e99c78e62b95de46f8d8924dd11547b90
+tags:
+  4.3--hb9cd612_0: 
+    sha256:3720e4286a73b2596b05709ecbd3a51e99c78e62b95de46f8d8924dd11547b90
+docker: quay.io/biocontainers/fur
+aliases:
+  cleanSeq: /usr/local/bin/cleanSeq
+  fur: /usr/local/bin/fur
+  madis: /usr/local/bin/madis
+  makeFurDb: /usr/local/bin/makeFurDb
+  phylonium: /usr/local/bin/phylonium
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  stream: /usr/local/bin/stream

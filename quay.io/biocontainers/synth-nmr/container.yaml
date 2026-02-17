@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/synth-nmr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for synth-nmr
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:42aeba33c9723fae009100eb93e00b5d00521d03192acafdd6ba221083ed19c6
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:42aeba33c9723fae009100eb93e00b5d00521d03192acafdd6ba221083ed19c6
+docker: quay.io/biocontainers/synth-nmr
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer

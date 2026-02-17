@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/bsaseq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bsaseq
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:03c4cff2ae5e885049e070b1371873403aeb7904799cdc6ee03c8641ebd3faf9
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:03c4cff2ae5e885049e070b1371873403aeb7904799cdc6ee03c8641ebd3faf9
+docker: quay.io/biocontainers/bsaseq
+aliases:
+  bsaseq: /usr/local/bin/bsaseq
+  cyvcf2: /usr/local/bin/cyvcf2
+  ref-cache: /usr/local/bin/ref-cache
+  coloredlogs: /usr/local/bin/coloredlogs
+  markdown-it: /usr/local/bin/markdown-it
+  humanfriendly: /usr/local/bin/humanfriendly
+  annot-tsv: /usr/local/bin/annot-tsv
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  htsfile: /usr/local/bin/htsfile

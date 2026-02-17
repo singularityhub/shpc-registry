@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bammap2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bammap2
+latest:
+  0.1.5--h54198d6_0: 
+    sha256:8ffb0dfcf55ba4559b644ad5bc404d8a65907576c65f18e920c7d87656aa55ca
+tags:
+  0.1.5--h54198d6_0: 
+    sha256:8ffb0dfcf55ba4559b644ad5bc404d8a65907576c65f18e920c7d87656aa55ca
+docker: quay.io/biocontainers/bammap2
+aliases:
+  bammap2: /usr/local/bin/bammap2

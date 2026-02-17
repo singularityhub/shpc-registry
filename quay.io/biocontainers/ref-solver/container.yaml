@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/ref-solver
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ref-solver
+latest:
+  0.1.0--h4349ce8_0: 
+    sha256:d8eb423760aae9f238a9d1c1d82f600bd285767dd33094a68b26f76862412282
+tags:
+  0.1.0--h4349ce8_0: 
+    sha256:d8eb423760aae9f238a9d1c1d82f600bd285767dd33094a68b26f76862412282
+docker: quay.io/biocontainers/ref-solver
+aliases:
+  ref-solver: /usr/local/bin/ref-solver

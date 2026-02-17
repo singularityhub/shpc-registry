@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/metapointfinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metapointfinder
+latest:
+  1.01--py314r44hdfd78af_0: 
+    sha256:817a6f3c24793af406a686590212bb5b137bb1e881498edf178c4ef9757095ca
+tags:
+  1.01--py314r44hdfd78af_0: 
+    sha256:817a6f3c24793af406a686590212bb5b137bb1e881498edf178c4ef9757095ca
+docker: quay.io/biocontainers/metapointfinder
+aliases:
+  metapointfinder.py: /usr/local/bin/metapointfinder.py
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  diamond: /usr/local/bin/diamond
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  idn2: /usr/local/bin/idn2
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  wget: /usr/local/bin/wget
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

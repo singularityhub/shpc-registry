@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/evehap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for evehap
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:ad6978b629ed7843d98b80dd3a766d5786f53b11b50af1cd6a00a5c841897574
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:ad6978b629ed7843d98b80dd3a766d5786f53b11b50af1cd6a00a5c841897574
+docker: quay.io/biocontainers/evehap
+aliases:
+  evehap: /usr/local/bin/evehap
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config

@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/eastr-cpp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eastr-cpp
+latest:
+  2.0.2--h5ca1c30_0: 
+    sha256:b7e7a410dc5c4dc2376b5f33b78b38fbd7bf1620ed8bc9a9e0a6c2a985652f06
+tags:
+  2.0.2--h5ca1c30_0: 
+    sha256:b7e7a410dc5c4dc2376b5f33b78b38fbd7bf1620ed8bc9a9e0a6c2a985652f06
+docker: quay.io/biocontainers/eastr-cpp
+aliases:
+  eastr: /usr/local/bin/eastr
+  ref-cache: /usr/local/bin/ref-cache
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
