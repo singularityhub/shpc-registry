@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rastair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rastair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rastair/container.yaml"
-updated_at: "2026-02-16 04:35:33.607737"
-latest: "0.8.2--r44h4349ce8_2"
+updated_at: "2026-02-17 04:30:23.482426"
+latest: "2.0.0--h03e3cfe_0"
 container_url: "https://biocontainers.pro/tools/rastair"
 aliases:
  - "rastair"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "0.8.2--r44h4349ce8_0"
  - "0.8.2--r44h4349ce8_2"
+ - "2.0.0--h03e3cfe_0"
 description: "singularity registry hpc automated addition for rastair"
-config: {"url": "https://biocontainers.pro/tools/rastair", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rastair", "latest": {"0.8.2--r44h4349ce8_2": "sha256:3657bb00893f725d91ae2ab2fc32821f0a9ca4fa43c175ee1237fc58ba67fc8c"}, "tags": {"0.8.2--r44h4349ce8_0": "sha256:b349f261cee1824a94469d78524bdb4f22e40a0df7e10a5e394e264e680366f3", "0.8.2--r44h4349ce8_2": "sha256:3657bb00893f725d91ae2ab2fc32821f0a9ca4fa43c175ee1237fc58ba67fc8c"}, "docker": "quay.io/biocontainers/rastair", "aliases": {"rastair": "/usr/local/bin/rastair", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/rastair", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rastair", "latest": {"2.0.0--h03e3cfe_0": "sha256:77f0ee4ab18711b9f30bd0b98e3f0a269ac2d3a5117dfaadf9ca5b258eeef671"}, "tags": {"0.8.2--r44h4349ce8_0": "sha256:b349f261cee1824a94469d78524bdb4f22e40a0df7e10a5e394e264e680366f3", "0.8.2--r44h4349ce8_2": "sha256:3657bb00893f725d91ae2ab2fc32821f0a9ca4fa43c175ee1237fc58ba67fc8c", "2.0.0--h03e3cfe_0": "sha256:77f0ee4ab18711b9f30bd0b98e3f0a269ac2d3a5117dfaadf9ca5b258eeef671"}, "docker": "quay.io/biocontainers/rastair", "aliases": {"rastair": "/usr/local/bin/rastair", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rastair.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/rastair
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rastair:0.8.2--r44h4349ce8_2
+$ shpc install quay.io/biocontainers/rastair:2.0.0--h03e3cfe_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rastair/0.8.2--r44h4349ce8_2
-$ module help quay.io/biocontainers/rastair/0.8.2--r44h4349ce8_2
+$ module load quay.io/biocontainers/rastair/2.0.0--h03e3cfe_0
+$ module help quay.io/biocontainers/rastair/2.0.0--h03e3cfe_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

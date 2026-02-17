@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reduce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reduce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reduce/container.yaml"
-updated_at: "2026-02-16 04:35:57.757317"
+updated_at: "2026-02-17 04:30:48.040857"
 latest: "4.15--py39h2de1943_4"
 container_url: "https://biocontainers.pro/tools/reduce"
 aliases:

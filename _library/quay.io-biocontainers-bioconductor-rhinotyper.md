@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rhinotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhinotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhinotyper/container.yaml"
-updated_at: "2026-02-16 04:42:27.204898"
+updated_at: "2026-02-17 04:37:24.606189"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhinotyper"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scxmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scxmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scxmatch/container.yaml"
-updated_at: "2026-02-16 05:13:11.861268"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-02-17 05:08:47.446824"
+latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scxmatch"
 aliases:
  - "gtk-builder-tool"
@@ -42,8 +42,9 @@ versions:
  - "0.0.2--pyhdfd78af_0"
  - "0.0.3--pyhdfd78af_0"
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scxmatch"
-config: {"url": "https://biocontainers.pro/tools/scxmatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scxmatch", "latest": {"0.1.0--pyhdfd78af_0": "sha256:24266df1d8b5a8560b419eba5028c67b5b2cef32a9697e58a1b339b655d9d121"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:d0abdcf417ff12cd11545d7db4f1ac37ed42f5210d663033672cd62f8804a797", "0.0.3--pyhdfd78af_0": "sha256:74eb0a7c9890273b6b76fe0c3f3806caf7d74c6ac33d027f7bf9577999516b79", "0.1.0--pyhdfd78af_0": "sha256:24266df1d8b5a8560b419eba5028c67b5b2cef32a9697e58a1b339b655d9d121"}, "docker": "quay.io/biocontainers/scxmatch", "aliases": {"gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "wayland-scanner": "/usr/local/bin/wayland-scanner", "h5fuse": "/usr/local/bin/h5fuse", "scanpy": "/usr/local/bin/scanpy", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "xkbcli": "/usr/local/bin/xkbcli", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch"}}
+config: {"url": "https://biocontainers.pro/tools/scxmatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scxmatch", "latest": {"0.1.1--pyhdfd78af_0": "sha256:16bf902e4f06f625fa50cf5e509b583826797c9c95cee5f38f2838131866c71a"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:d0abdcf417ff12cd11545d7db4f1ac37ed42f5210d663033672cd62f8804a797", "0.0.3--pyhdfd78af_0": "sha256:74eb0a7c9890273b6b76fe0c3f3806caf7d74c6ac33d027f7bf9577999516b79", "0.1.0--pyhdfd78af_0": "sha256:24266df1d8b5a8560b419eba5028c67b5b2cef32a9697e58a1b339b655d9d121", "0.1.1--pyhdfd78af_0": "sha256:16bf902e4f06f625fa50cf5e509b583826797c9c95cee5f38f2838131866c71a"}, "docker": "quay.io/biocontainers/scxmatch", "aliases": {"gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "wayland-scanner": "/usr/local/bin/wayland-scanner", "h5fuse": "/usr/local/bin/h5fuse", "scanpy": "/usr/local/bin/scanpy", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "xkbcli": "/usr/local/bin/xkbcli", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scxmatch.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/scxmatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scxmatch:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scxmatch:0.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scxmatch/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/scxmatch/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/scxmatch/0.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/scxmatch/0.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
