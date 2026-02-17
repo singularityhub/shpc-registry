@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/psqtl
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for psqtl
+latest:
+  1.3.7--hdfd78af_0: 
+    sha256:8132a05f5140dafa70b220fb285731576371588831f409cfbc87e1e8ce17b6ac
+tags:
+  1.3.7--hdfd78af_0: 
+    sha256:8132a05f5140dafa70b220fb285731576371588831f409cfbc87e1e8ce17b6ac
+docker: quay.io/biocontainers/psqtl
+aliases:
+  gff2gff: /usr/local/bin/gff2gff
+  psQTL_post: /usr/local/bin/psQTL_post
+  psQTL_post.py: /usr/local/bin/psQTL_post.py
+  psQTL_prep: /usr/local/bin/psQTL_prep
+  psQTL_prep.py: /usr/local/bin/psQTL_prep.py
+  psQTL_proc: /usr/local/bin/psQTL_proc
+  psQTL_proc.py: /usr/local/bin/psQTL_proc.py
+  roh-viz: /usr/local/bin/roh-viz
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  androiddeployqt6: /usr/local/bin/androiddeployqt6
+  assistant6: /usr/local/bin/assistant6
+  designer6: /usr/local/bin/designer6
+  linguist6: /usr/local/bin/linguist6
+  pixeltool6: /usr/local/bin/pixeltool6
+  qdbus6: /usr/local/bin/qdbus6
+  qdbusviewer6: /usr/local/bin/qdbusviewer6
+  qdistancefieldgenerator6: /usr/local/bin/qdistancefieldgenerator6
+  qdoc6: /usr/local/bin/qdoc6
+  qmake6: /usr/local/bin/qmake6
+  qml6: /usr/local/bin/qml6
+  qmleasing6: /usr/local/bin/qmleasing6
+  qmlls6: /usr/local/bin/qmlls6
+  qmlpreview6: /usr/local/bin/qmlpreview6
+  qmlscene6: /usr/local/bin/qmlscene6
+  qt6.conf: /usr/local/bin/qt6.conf
+  qtdiag6: /usr/local/bin/qtdiag6
+  qtplugininfo6: /usr/local/bin/qtplugininfo6
+  vt: /usr/local/bin/vt
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn

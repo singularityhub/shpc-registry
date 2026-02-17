@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/r-galaxyr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-galaxyr
+latest:
+  0.1.0: sha256:07ccb4446a905c26a94d6abf95dac1839167d98212e5532f6f102b2a0850c0ad
+tags:
+  0.1.0: sha256:07ccb4446a905c26a94d6abf95dac1839167d98212e5532f6f102b2a0850c0ad
+docker: quay.io/biocontainers/r-galaxyr
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

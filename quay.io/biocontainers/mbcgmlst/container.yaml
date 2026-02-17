@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/mbcgmlst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mbcgmlst
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:7b31014529687042f00c0be665bc62044bcea1e6423119579c4c2704283a3e50
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:7b31014529687042f00c0be665bc62044bcea1e6423119579c4c2704283a3e50
+docker: quay.io/biocontainers/mbcgmlst
+aliases:
+  mbcgmlst: /usr/local/bin/mbcgmlst
+  mbcgmlst-gui: /usr/local/bin/mbcgmlst-gui
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2

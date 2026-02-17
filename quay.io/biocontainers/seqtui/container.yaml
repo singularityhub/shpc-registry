@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/seqtui
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seqtui
+latest:
+  0.1.1--hc1c3326_0: 
+    sha256:028251b48afdbeb89aaf90fcbec0f3be1f29b9b79b96ae3fa74e693bfeecf99b
+tags:
+  0.1.1--hc1c3326_0: 
+    sha256:028251b48afdbeb89aaf90fcbec0f3be1f29b9b79b96ae3fa74e693bfeecf99b
+docker: quay.io/biocontainers/seqtui
+aliases:
+  seqtui: /usr/local/bin/seqtui

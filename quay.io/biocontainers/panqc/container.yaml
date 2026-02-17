@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/panqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panqc
+latest:
+  0.0.4--pyh106432d_0: 
+    sha256:4eb64f92318e5a9934a48fb231df9c49dbda1c3efbd390c4552be9bf91f61487
+tags:
+  0.0.4--pyh106432d_0: 
+    sha256:4eb64f92318e5a9934a48fb231df9c49dbda1c3efbd390c4552be9bf91f61487
+docker: quay.io/biocontainers/panqc
+aliases:
+  panqc: /usr/local/bin/panqc
+  screed: /usr/local/bin/screed
+  minimap2.py: /usr/local/bin/minimap2.py
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

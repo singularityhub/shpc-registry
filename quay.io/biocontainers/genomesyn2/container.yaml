@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/genomesyn2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genomesyn2
+latest:
+  1.1.0--hdfd78af_0: 
+    sha256:fbc575403a7c188c7496fcc0a0ac8ee38e0d0f31c2920fc03f77988448e39ef4
+tags:
+  1.1.0--hdfd78af_0: 
+    sha256:fbc575403a7c188c7496fcc0a0ac8ee38e0d0f31c2920fc03f77988448e39ef4
+docker: quay.io/biocontainers/genomesyn2
+aliases:
+  GenomeSyn2: /usr/local/bin/GenomeSyn2
+  GenomeSyn2.pl: /usr/local/bin/GenomeSyn2.pl
+  cairosvg: /usr/local/bin/cairosvg
+  extract_mRNA_protein.info.pl: /usr/local/bin/extract_mRNA_protein.info.pl
+  merge_synteny_info.pl: /usr/local/bin/merge_synteny_info.pl
+  minimap2_paf2tsv.pl: /usr/local/bin/minimap2_paf2tsv.pl
+  mummer_coords2tsv.pl: /usr/local/bin/mummer_coords2tsv.pl
+  run_blastp.sh: /usr/local/bin/run_blastp.sh
+  run_diamond.sh: /usr/local/bin/run_diamond.sh
+  run_minimap2.sh: /usr/local/bin/run_minimap2.sh
+  run_mmseqs.sh: /usr/local/bin/run_mmseqs.sh
+  run_mummer.sh: /usr/local/bin/run_mummer.sh
+  syntax_suggest: /usr/local/bin/syntax_suggest
+  yaggo: /usr/local/bin/yaggo
+  gffread: /usr/local/bin/gffread
+  rbs: /usr/local/bin/rbs
+  rdbg: /usr/local/bin/rdbg
+  typeprof: /usr/local/bin/typeprof
+  racc: /usr/local/bin/racc
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini

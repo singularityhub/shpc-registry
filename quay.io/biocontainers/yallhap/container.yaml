@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/yallhap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for yallhap
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:27458d7a76fa8077cd8648a71d1296f41cef5c61868474eac7521b831e650515
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:27458d7a76fa8077cd8648a71d1296f41cef5c61868474eac7521b831e650515
+docker: quay.io/biocontainers/yallhap
+aliases:
+  yallHap: /usr/local/bin/yallHap
+  yallhap: /usr/local/bin/yallhap
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer

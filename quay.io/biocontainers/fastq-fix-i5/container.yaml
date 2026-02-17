@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastq-fix-i5
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastq-fix-i5
+latest:
+  1.0.0--h4349ce8_0: 
+    sha256:10ff0eb48ce3fa5ce3cc0111bad23a29713fdfd1aeace51141b7fd0b22daf9fe
+tags:
+  1.0.0--h4349ce8_0: 
+    sha256:10ff0eb48ce3fa5ce3cc0111bad23a29713fdfd1aeace51141b7fd0b22daf9fe
+docker: quay.io/biocontainers/fastq-fix-i5
+aliases:
+  fastq-fix-i5: /usr/local/bin/fastq-fix-i5

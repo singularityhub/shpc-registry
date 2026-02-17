@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/raxtax
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for raxtax
+latest:
+  1.5.0--h4349ce8_1: 
+    sha256:92ef91d706f682e418259bad51e00b13c6c7f87eee40d19e9003bd7611e09906
+tags:
+  1.5.0--h4349ce8_1: 
+    sha256:92ef91d706f682e418259bad51e00b13c6c7f87eee40d19e9003bd7611e09906
+docker: quay.io/biocontainers/raxtax
+aliases:
+  raxtax: /usr/local/bin/raxtax

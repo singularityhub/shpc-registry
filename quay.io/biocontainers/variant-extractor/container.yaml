@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/variant-extractor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for variant-extractor
+latest:
+  5.0.0--pyh7e72e81_0: 
+    sha256:d0912967bc09c41ebea7f4a6b48bad9124591338460266a64e205f00b5d29de0
+tags:
+  5.0.0--pyh7e72e81_0: 
+    sha256:d0912967bc09c41ebea7f4a6b48bad9124591338460266a64e205f00b5d29de0
+docker: quay.io/biocontainers/variant-extractor
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

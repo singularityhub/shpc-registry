@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/nirvana
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nirvana
+latest:
+  3.18.1--hdfd78af_1: 
+    sha256:00e9b4d403e0c64e61aa5a2e376b0b9ec5ac444b4cb8cf91c7e05a406ee537c0
+tags:
+  3.18.1--hdfd78af_1: 
+    sha256:00e9b4d403e0c64e61aa5a2e376b0b9ec5ac444b4cb8cf91c7e05a406ee537c0
+docker: quay.io/biocontainers/nirvana
+aliases:
+  Downloader: /usr/local/bin/Downloader
+  Nirvana: /usr/local/bin/Nirvana
+  dotnet: /usr/local/bin/dotnet
+  lttng-gen-tp: /usr/local/bin/lttng-gen-tp

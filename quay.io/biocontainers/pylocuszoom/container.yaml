@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/pylocuszoom
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pylocuszoom
+latest:
+  1.3.2--pyhdfd78af_0: 
+    sha256:56a1f17eab1c468e9d030117d740babd478f58490c73474422b4e7c5b2e0a696
+tags:
+  1.3.2--pyhdfd78af_0: 
+    sha256:56a1f17eab1c468e9d030117d740babd478f58490c73474422b4e7c5b2e0a696
+docker: quay.io/biocontainers/pylocuszoom
+aliases:
+  choreo_diagnose: /usr/local/bin/choreo_diagnose
+  choreo_get_chrome: /usr/local/bin/choreo_get_chrome
+  kaleido_get_chrome: /usr/local/bin/kaleido_get_chrome
+  kaleido_mocker: /usr/local/bin/kaleido_mocker
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  bokeh: /usr/local/bin/bokeh
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress

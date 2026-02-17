@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/phyloblitz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phyloblitz
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:f71b6ad8457c98ed9677fdec0b90506b54a009e99559fa80324eafe49ea6faee
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:f71b6ad8457c98ed9677fdec0b90506b54a009e99559fa80324eafe49ea6faee
+docker: quay.io/biocontainers/phyloblitz
+aliases:
+  isONclust3: /usr/local/bin/isONclust3
+  phyloblitz: /usr/local/bin/phyloblitz
+  pymcl: /usr/local/bin/pymcl
+  spoa: /usr/local/bin/spoa
+  pyfastx: /usr/local/bin/pyfastx
+  rich-click: /usr/local/bin/rich-click
+  markdown-it: /usr/local/bin/markdown-it
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

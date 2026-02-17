@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/stainwarpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for stainwarpy
+latest:
+  0.2.4--pyhdfd78af_0: 
+    sha256:bc9f20c31618ca55dfd5d499ff01e8d0dceb7ad4c39d6ddbe7662f237cfaf30a
+tags:
+  0.2.4--pyhdfd78af_0: 
+    sha256:bc9f20c31618ca55dfd5d499ff01e8d0dceb7ad4c39d6ddbe7662f237cfaf30a
+docker: quay.io/biocontainers/stainwarpy
+aliases:
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  stainwarpy: /usr/local/bin/stainwarpy
+  typer: /usr/local/bin/typer
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12

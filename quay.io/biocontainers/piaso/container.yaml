@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/piaso
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for piaso
+latest:
+  1.0.3--pyhdfd78af_0: 
+    sha256:98bb750b02890736bcb2d8b8dfb1acc3e25db4251881cd93c6de110c00757f59
+tags:
+  1.0.3--pyhdfd78af_0: 
+    sha256:98bb750b02890736bcb2d8b8dfb1acc3e25db4251881cd93c6de110c00757f59
+docker: quay.io/biocontainers/piaso
+aliases:
+  session-info: /usr/local/bin/session-info
+  zarr: /usr/local/bin/zarr
+  h5fuse: /usr/local/bin/h5fuse
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  scanpy: /usr/local/bin/scanpy
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
