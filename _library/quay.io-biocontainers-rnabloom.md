@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnabloom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnabloom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnabloom/container.yaml"
-updated_at: "2026-02-17 05:47:11.293176"
+updated_at: "2026-02-17 18:40:02.161245"
 latest: "2.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rnabloom"
 aliases:

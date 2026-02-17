@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metapub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metapub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metapub/container.yaml"
-updated_at: "2026-02-17 05:47:25.262702"
+updated_at: "2026-02-17 18:40:15.889414"
 latest: "0.6.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metapub"
 aliases:

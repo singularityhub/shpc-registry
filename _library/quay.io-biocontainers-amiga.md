@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amiga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amiga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amiga/container.yaml"
-updated_at: "2026-02-17 05:23:46.422294"
+updated_at: "2026-02-17 18:17:13.015512"
 latest: "3.0.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/amiga"
 aliases:

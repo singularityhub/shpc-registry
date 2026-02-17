@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rldne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rldne/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rldne/container.yaml"
-updated_at: "2026-02-17 05:51:20.910332"
+updated_at: "2026-02-17 18:44:06.477645"
 latest: "1.0.0--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-rldne"
 aliases:

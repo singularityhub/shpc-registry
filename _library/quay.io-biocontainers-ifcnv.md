@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ifcnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ifcnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ifcnv/container.yaml"
-updated_at: "2026-02-17 05:54:51.946785"
+updated_at: "2026-02-17 18:47:32.937842"
 latest: "0.2.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ifcnv"
 aliases:
