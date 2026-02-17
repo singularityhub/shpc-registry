@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/get_pangenes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/get_pangenes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/get_pangenes/container.yaml"
-updated_at: "2026-02-17 04:56:34.730762"
+updated_at: "2026-02-17 05:39:54.811541"
 latest: "20250904--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/get_pangenes"
 aliases:
