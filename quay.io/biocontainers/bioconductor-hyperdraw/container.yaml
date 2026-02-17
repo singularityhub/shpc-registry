@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hyperdraw
 latest:
-  1.58.0--r44h46c88eb_0: 
-    sha256:06cebfa0d45d2c0e7ba64e9f8fce58866e2d26802a175b5a23c55fb836940a0a
+  1.62.0--r45hef64f4b_0: 
+    sha256:9e31df6bb180f08dc22d8aa666ebdf8e95d431935cf260c86b007a0966f1913b
 tags:
   1.46.0--r41hcb05c77_1: 
     sha256:a818c82afe8b9caa7dd679092ca377994d540831d66b96c249b607b061753c45
@@ -20,6 +20,8 @@ tags:
     sha256:7f190d1321e4741748461cc9dbc3b4793132d9267a2c5fe33df6e1312912262b
   1.58.0--r44h46c88eb_0: 
     sha256:06cebfa0d45d2c0e7ba64e9f8fce58866e2d26802a175b5a23c55fb836940a0a
+  1.62.0--r45hef64f4b_0: 
+    sha256:9e31df6bb180f08dc22d8aa666ebdf8e95d431935cf260c86b007a0966f1913b
 docker: quay.io/biocontainers/bioconductor-hyperdraw
 aliases:
   diffimg: /usr/local/bin/diffimg

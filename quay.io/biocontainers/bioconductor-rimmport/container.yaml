@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rimmport
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:28c8b92eb4cd3d9bff27f7bf06aa8d2491be60be530a9b964096d8622dcf35be
+  1.38.0--r45hdfd78af_0: 
+    sha256:f2fb4c2a2dd79c97fd6214f71b33eed6c7adf0f87ba0fe729aa492929e2361a5
 tags:
   1.8.0--r341_0: 
     sha256:175915a6039c3dd55039dc458d526683a130b8392b875b713e6cbcebf93af4e7
@@ -24,6 +24,8 @@ tags:
     sha256:342ea4f57e95074d19f6ec1b342b891412603f58f525e0841a73dece6d236cf8
   1.34.0--r44hdfd78af_0: 
     sha256:28c8b92eb4cd3d9bff27f7bf06aa8d2491be60be530a9b964096d8622dcf35be
+  1.38.0--r45hdfd78af_0: 
+    sha256:f2fb4c2a2dd79c97fd6214f71b33eed6c7adf0f87ba0fe729aa492929e2361a5
 docker: quay.io/biocontainers/bioconductor-rimmport
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

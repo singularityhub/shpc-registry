@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mirbaseconverter
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:3ea6361189db50d6be6c020877125162033173f3d769f7f51ff757dfac86d019
+  1.34.0--r45hdfd78af_0: 
+    sha256:f2f7a43fb56604b7d77775b7dd03e3bfc967eeaa0a25c11dbbc55194e2c854f4
 tags:
   1.8.0--r36_1: 
     sha256:f12dbec51e4827a70077820ebd49070bbd2af88cb18476c18acd456545a3aa48
@@ -22,6 +22,8 @@ tags:
     sha256:a6a1cb98f83be20b145dab71ca72ec2115510bb3055e5cb9534ecd33b49a1137
   1.30.0--r44hdfd78af_0: 
     sha256:3ea6361189db50d6be6c020877125162033173f3d769f7f51ff757dfac86d019
+  1.34.0--r45hdfd78af_0: 
+    sha256:f2f7a43fb56604b7d77775b7dd03e3bfc967eeaa0a25c11dbbc55194e2c854f4
 docker: quay.io/biocontainers/bioconductor-mirbaseconverter
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

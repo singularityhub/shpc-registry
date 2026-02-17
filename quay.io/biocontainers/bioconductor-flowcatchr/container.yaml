@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowcatchr
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:f295a82a8bd019103acddfed5fafaba829b4d5bf6cc995fb94b5001973129c43
+  1.44.0--r45hdfd78af_0: 
+    sha256:ef6f58f06ef36f9aa42f237bfa75221b1ccdb12d8c935ecf4ae62af559132735
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:54907d72ea55fc409fd35dbd86dbd236ac7450b5cff61bbef17670dd35aa4c9f
@@ -16,6 +16,8 @@ tags:
     sha256:9e5ec4edd841f8ffc7b0d88544d137262320ab9061f28e430c8b8aa6ce6c4800
   1.40.0--r44hdfd78af_0: 
     sha256:f295a82a8bd019103acddfed5fafaba829b4d5bf6cc995fb94b5001973129c43
+  1.44.0--r45hdfd78af_0: 
+    sha256:ef6f58f06ef36f9aa42f237bfa75221b1ccdb12d8c935ecf4ae62af559132735
 docker: quay.io/biocontainers/bioconductor-flowcatchr
 aliases:
   x86_64-conda-linux-gnu-pkg-config: 

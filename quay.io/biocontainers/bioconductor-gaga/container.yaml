@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gaga
 latest:
-  2.52.0--r44h3df3fcb_0: 
-    sha256:376e33b9f53b126d519371f9501e7fe572c8d726ae0f9e4b5129c56a30c6a0ec
+  2.56.0--r45h01b2380_0: 
+    sha256:1fe85af78bbb7d04392ac53ec7a3457b4148927f0fa2bd992637c2b1128d69dc
 tags:
   2.40.0--r41hc0cfd56_2: 
     sha256:5d557f824ecf3ff50b48db774c6eaa1fdcac09cdcff1781befb03033d6b7a53b
@@ -20,4 +20,6 @@ tags:
     sha256:a72b295c7c2f5d00cda30dd1062ecc2cab5944a6bbc33c37ac44bdf61424e6b2
   2.52.0--r44h3df3fcb_0: 
     sha256:376e33b9f53b126d519371f9501e7fe572c8d726ae0f9e4b5129c56a30c6a0ec
+  2.56.0--r45h01b2380_0: 
+    sha256:1fe85af78bbb7d04392ac53ec7a3457b4148927f0fa2bd992637c2b1128d69dc
 docker: quay.io/biocontainers/bioconductor-gaga

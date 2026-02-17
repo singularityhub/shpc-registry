@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-macsdata
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:afedeae5a80675d300a0fea828e12ebbf08489e5de5654a59c14a6b3dab762b4
+  1.18.0--r45hdfd78af_0: 
+    sha256:d0220c1b610917cc9038b1b425c353d4a5ba32a5f03102b27ade7ca66f4140f2
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:8d246380d29382da93d960731c03f2fb8148a5fd09f683161c962a9560faad60
@@ -16,4 +16,6 @@ tags:
     sha256:008c69e7294053d5605aba16557195362ae255df5b9fe75dfb3759eef478b8bb
   1.14.0--r44hdfd78af_0: 
     sha256:afedeae5a80675d300a0fea828e12ebbf08489e5de5654a59c14a6b3dab762b4
+  1.18.0--r45hdfd78af_0: 
+    sha256:d0220c1b610917cc9038b1b425c353d4a5ba32a5f03102b27ade7ca66f4140f2
 docker: quay.io/biocontainers/bioconductor-macsdata

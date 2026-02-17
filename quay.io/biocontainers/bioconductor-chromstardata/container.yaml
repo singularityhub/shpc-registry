@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chromstardata
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:3456dc90dc4239ceedd9a0b727af5f86bc57c74b30871199fad9533563b68a2d
+  1.36.0--r45hdfd78af_0: 
+    sha256:091472b848e818511ef19ccae33c335e7814d57166801e4933c532dcafe53a90
 tags:
   1.8.0--r351_0: 
     sha256:0f50633e0469a1169940f69de16cd9f754492ade6d195f9eac883acb87839bfb
@@ -24,6 +24,8 @@ tags:
     sha256:903dffab3f71cb914ce36900984fa1d005a57ae845f66e29239fa1fd1bd0bc6d
   1.32.0--r44hdfd78af_0: 
     sha256:3456dc90dc4239ceedd9a0b727af5f86bc57c74b30871199fad9533563b68a2d
+  1.36.0--r45hdfd78af_0: 
+    sha256:091472b848e818511ef19ccae33c335e7814d57166801e4933c532dcafe53a90
 docker: quay.io/biocontainers/bioconductor-chromstardata
 aliases:
   wget: /usr/local/bin/wget

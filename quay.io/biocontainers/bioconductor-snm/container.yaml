@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-snm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-snm
 latest:
-  1.54.0--r44hdfd78af_0: 
-    sha256:9d7b9ba6b99ce389c49620bcb187ef068f9be5a33ae782c8c0caa13ff77d3e75
+  1.58.0--r45hdfd78af_0: 
+    sha256:777f229cc016f2f142100464c84c1f4056351b81726369f09d3f500d09c834b3
 tags:
   1.42.0--r41hdfd78af_0: 
     sha256:4e52013794b9f54445f95174d71194fa608395d527d607243977478164061fc7
@@ -15,4 +15,6 @@ tags:
     sha256:29b69084f15d9a987a407ead1c5efc8fb2236674d239661a228dacf4c03910ae
   1.54.0--r44hdfd78af_0: 
     sha256:9d7b9ba6b99ce389c49620bcb187ef068f9be5a33ae782c8c0caa13ff77d3e75
+  1.58.0--r45hdfd78af_0: 
+    sha256:777f229cc016f2f142100464c84c1f4056351b81726369f09d3f500d09c834b3
 docker: quay.io/biocontainers/bioconductor-snm

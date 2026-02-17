@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-convert
 latest:
-  1.82.0--r44hdfd78af_0: 
-    sha256:9ba4ce7b6a4d3553bbaa383e5671bb2a3249b82b097e5c7b0bc9bbff5a665f58
+  1.86.0--r45hdfd78af_0: 
+    sha256:ae519694dee141166235a5f93090cffb3f265b541a4d2185f5c546bb761a928b
 tags:
   1.70.0--r41hdfd78af_0: 
     sha256:9eeb0b510b0f8c994feb75d9b2c37a7df19aed4a3fdd274cc567593c51197a53
@@ -16,4 +16,6 @@ tags:
     sha256:5cc33d63cfd08449d5e58b32f9cd4d9904512794e3ef94546e543ea78c93cbd7
   1.82.0--r44hdfd78af_0: 
     sha256:9ba4ce7b6a4d3553bbaa383e5671bb2a3249b82b097e5c7b0bc9bbff5a665f58
+  1.86.0--r45hdfd78af_0: 
+    sha256:ae519694dee141166235a5f93090cffb3f265b541a4d2185f5c546bb761a928b
 docker: quay.io/biocontainers/bioconductor-convert

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-deltagseg
 latest:
-  1.46.0--r44hdfd78af_0: 
-    sha256:6dfffcc0046af18e4d78833c52ea38535ef95360af6c36600f0db4618701cb76
+  1.50.0--r45hdfd78af_0: 
+    sha256:2b2af38413382c949727c523cdc2c9b65ae4b359ab2a35a61a47e052ad32de0d
 tags:
   1.34.0--r41hdfd78af_0: 
     sha256:278985f76cba1478a7e382e213edf950a907ed9daa699f7699d7cf845000e15a
@@ -16,4 +16,6 @@ tags:
     sha256:121c22178cd89f3d72879b0ac5de9020097ddcaab3ec6a222d2b62e3a72abd45
   1.46.0--r44hdfd78af_0: 
     sha256:6dfffcc0046af18e4d78833c52ea38535ef95360af6c36600f0db4618701cb76
+  1.50.0--r45hdfd78af_0: 
+    sha256:2b2af38413382c949727c523cdc2c9b65ae4b359ab2a35a61a47e052ad32de0d
 docker: quay.io/biocontainers/bioconductor-deltagseg

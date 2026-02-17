@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-stemhypoxia
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:09b41be1dec94682f25ef3570cc7a1aaead9cc013459822b823a25a7c40a41cd
+  1.46.0--r45hdfd78af_0: 
+    sha256:0d04458e097c5d2ca4eedc10150361149a64d83bf934a10d4786122903039328
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:ba5c2e397d731b1cc4d38102d931df8373c70b892b2bac45111dab8e1bf81a74
@@ -16,4 +16,6 @@ tags:
     sha256:30e7802ba96debc204d6930dba435dc72712a1104a0a4ab2a1039dca7bf2f180
   1.42.0--r44hdfd78af_0: 
     sha256:09b41be1dec94682f25ef3570cc7a1aaead9cc013459822b823a25a7c40a41cd
+  1.46.0--r45hdfd78af_0: 
+    sha256:0d04458e097c5d2ca4eedc10150361149a64d83bf934a10d4786122903039328
 docker: quay.io/biocontainers/bioconductor-stemhypoxia

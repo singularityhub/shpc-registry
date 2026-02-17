@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gigsea
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:5580d3a62c424e5501aa54291e3cbaf30606e1851ee0cb367f31994f64b7f7df
+  1.28.0--r45hdfd78af_0: 
+    sha256:27077bef6aecc81b43110faac955c3e3d08fc547fa602c27248386cb946030d1
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:a0488f30cbb6b9b1eff220d1df52266f1634a15ec50c3ff047e5cc582dcdd53d
@@ -20,6 +20,8 @@ tags:
     sha256:fef975c6f7d5f2e2f2d35660ca9e0f3a968edae6f099a8a038c7a939dd38fe37
   1.24.0--r44hdfd78af_0: 
     sha256:5580d3a62c424e5501aa54291e3cbaf30606e1851ee0cb367f31994f64b7f7df
+  1.28.0--r45hdfd78af_0: 
+    sha256:27077bef6aecc81b43110faac955c3e3d08fc547fa602c27248386cb946030d1
 docker: quay.io/biocontainers/bioconductor-gigsea
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

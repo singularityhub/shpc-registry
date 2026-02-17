@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geneoverlap
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:33abf6a1fe9d0bf103c005b26caf8da312f21f9c7087eb97116b962c3fd10741
+  1.46.0--r45hdfd78af_0: 
+    sha256:63a16262e110e710a1f5c435a9227a31adc75353e77529d2ce10828874ce2986
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:8d877a09ba1e49f8d4a3a2c9529feeb7e4179ecf8b91a42e628a1729ab87041b
@@ -16,4 +16,6 @@ tags:
     sha256:4dcf12eabf4785868589ecf4aa3db5c2c5b7af47ddffff2c86def030eb5b7a62
   1.42.0--r44hdfd78af_0: 
     sha256:33abf6a1fe9d0bf103c005b26caf8da312f21f9c7087eb97116b962c3fd10741
+  1.46.0--r45hdfd78af_0: 
+    sha256:63a16262e110e710a1f5c435a9227a31adc75353e77529d2ce10828874ce2986
 docker: quay.io/biocontainers/bioconductor-geneoverlap

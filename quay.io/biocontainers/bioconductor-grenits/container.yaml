@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-grenits
 latest:
-  1.58.0--r44he5774e6_0: 
-    sha256:53e6116be3f5c885dea539ce231a3d2852f15132c2bec04f769b056eece8fa90
+  1.62.0--r45ha27e39d_0: 
+    sha256:98ec8821107bd5e1b1d466c9b7021edffde2558381f3384805bccc87459aa00d
 tags:
   1.46.0--r41hc247a5b_2: 
     sha256:9eedd228f06739543da98366fea04072544032ff9b0ed210baa4453acd6e8e12
@@ -18,4 +18,6 @@ tags:
     sha256:9ae34204f9c70d1cc1576ea40be16dcaee0a08aebc0c43e78b655a677d058c29
   1.58.0--r44he5774e6_0: 
     sha256:53e6116be3f5c885dea539ce231a3d2852f15132c2bec04f769b056eece8fa90
+  1.62.0--r45ha27e39d_0: 
+    sha256:98ec8821107bd5e1b1d466c9b7021edffde2558381f3384805bccc87459aa00d
 docker: quay.io/biocontainers/bioconductor-grenits

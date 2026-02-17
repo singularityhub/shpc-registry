@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-prostatecancerstockholm
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:2603ae8c9b899ac9e0831a72f2a37bac7148fca5ea8fdefd14852f0529ebcb8e
+  1.38.0--r45hdfd78af_0: 
+    sha256:757d3fdb8e63f94b530951c11969158c13d2c609569c5de18d792f10ba2df41e
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:1e0fb9c4e1ca359b2d3e81e3453211c0e76f02c1b0e43e80019bd54217a8ded5
@@ -16,4 +16,6 @@ tags:
     sha256:4f71d9491aab762acc4e47893e32209de44f23b9741f973bbec4440e680fb959
   1.34.0--r44hdfd78af_0: 
     sha256:2603ae8c9b899ac9e0831a72f2a37bac7148fca5ea8fdefd14852f0529ebcb8e
+  1.38.0--r45hdfd78af_0: 
+    sha256:757d3fdb8e63f94b530951c11969158c13d2c609569c5de18d792f10ba2df41e
 docker: quay.io/biocontainers/bioconductor-prostatecancerstockholm

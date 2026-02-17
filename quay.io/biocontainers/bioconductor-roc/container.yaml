@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-roc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-roc
 latest:
-  1.82.0--r44he5774e6_0: 
-    sha256:c3e1316d3cd9ecb477a279f98a3a15765abef331ab1d1d898602ba6673be4ce3
+  1.86.0--r45ha27e39d_0: 
+    sha256:80f2aeea677f6f322645b9d3c3b3195dd32deb06822ae4324ab8876deb58320f
 tags:
   1.70.0--r41hc247a5b_2: 
     sha256:8c0f071fb9135c2db7b5f626b18e8df17ab2c5de7c26ba9f5de9a6bd24abe850
@@ -19,4 +19,6 @@ tags:
     sha256:c791af16ce0ff6313da79443adc9aec785165e033a0f6a5dffcb8256c4cf57a2
   1.82.0--r44he5774e6_0: 
     sha256:c3e1316d3cd9ecb477a279f98a3a15765abef331ab1d1d898602ba6673be4ce3
+  1.86.0--r45ha27e39d_0: 
+    sha256:80f2aeea677f6f322645b9d3c3b3195dd32deb06822ae4324ab8876deb58320f
 docker: quay.io/biocontainers/bioconductor-roc

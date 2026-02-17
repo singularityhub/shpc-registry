@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-podcall
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:78f666508e0ba9d71f2a154c80480cbd2410b80136f5132677d1b72ac0e8a9df
+  1.18.0--r45hdfd78af_0: 
+    sha256:b11d19c413008dbe3fdfafe475fb540ee719b9267676c0a4cbdd8b0dc38f06a4
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:a2bf33133c0bb4b0e859bd9f569810faea70f5eece1a9fc62ac16aa53ad8370a
@@ -16,4 +16,6 @@ tags:
     sha256:b3df770f39d685e50827ee7a6a8b0999cabc698171087811e601f976f2fcb6bb
   1.14.0--r44hdfd78af_0: 
     sha256:78f666508e0ba9d71f2a154c80480cbd2410b80136f5132677d1b72ac0e8a9df
+  1.18.0--r45hdfd78af_0: 
+    sha256:b11d19c413008dbe3fdfafe475fb540ee719b9267676c0a4cbdd8b0dc38f06a4
 docker: quay.io/biocontainers/bioconductor-podcall

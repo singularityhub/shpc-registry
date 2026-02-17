@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ompbam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ompbam
 latest:
-  1.10.0--r44he5774e6_0: 
-    sha256:f4499f38d1e02679c1822d90500e7d331ec0953b57a2cebbdf09cc87a4807cec
+  1.14.0--r45ha27e39d_0: 
+    sha256:a4b84fb780713436380162c08862ea461a9feee4eba5598d8908f5bd090009ed
 tags:
   1.2.0--r42hc247a5b_0: 
     sha256:bbd78db9870b497796cc8fd86f2b5994e34895f4adcb306b9f4d54f089706e7d
@@ -15,4 +15,6 @@ tags:
     sha256:470c37a4a17adcc128a6083761b79fd433f1746d535122a959c055912f332908
   1.10.0--r44he5774e6_0: 
     sha256:f4499f38d1e02679c1822d90500e7d331ec0953b57a2cebbdf09cc87a4807cec
+  1.14.0--r45ha27e39d_0: 
+    sha256:a4b84fb780713436380162c08862ea461a9feee4eba5598d8908f5bd090009ed
 docker: quay.io/biocontainers/bioconductor-ompbam

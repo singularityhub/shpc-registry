@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ritandata
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:83a82d13556c61a63a01d8cb260534482c4dc435826ddba47f2e8cf2dad948be
+  1.34.0--r45hdfd78af_0: 
+    sha256:98f0e89f933b3ff9aac99079462d8dd027073fadf7377ff31770837904314848
 tags:
   1.8.0--r36_1: 
     sha256:ec237d79ecd4463198108ba7024a8d53eb7b353f40e7e6ac93f62ec5562e00fd
@@ -24,6 +24,8 @@ tags:
     sha256:32a56081a8b1dbfb553581eaf8c9e321ac01aa6224b542fc47d94b8c9a1c9523
   1.30.0--r44hdfd78af_0: 
     sha256:83a82d13556c61a63a01d8cb260534482c4dc435826ddba47f2e8cf2dad948be
+  1.34.0--r45hdfd78af_0: 
+    sha256:98f0e89f933b3ff9aac99079462d8dd027073fadf7377ff31770837904314848
 docker: quay.io/biocontainers/bioconductor-ritandata
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
