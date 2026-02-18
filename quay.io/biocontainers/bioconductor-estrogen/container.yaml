@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-estrogen
 latest:
-  1.52.0--r44hdfd78af_0: 
-    sha256:89927aa38b560203bf5744f296c496b4c61bcec968fe78a6933b2c97eb9ba256
+  1.56.0--r45hdfd78af_0: 
+    sha256:3f731016c31924a2beafea1d24d949161ce1c3e22e64a4b8a6fce085af58e095
 tags:
   1.40.0--r41hdfd78af_1: 
     sha256:6ac882777f9ddd07a2a089d857adc991a55c2205e5511861456e2118e10c3f11
@@ -16,4 +16,6 @@ tags:
     sha256:292e59d161887e76c21ae352db52731f9ea0ee07d0d33d5ec98db1f6d2c9a655
   1.52.0--r44hdfd78af_0: 
     sha256:89927aa38b560203bf5744f296c496b4c61bcec968fe78a6933b2c97eb9ba256
+  1.56.0--r45hdfd78af_0: 
+    sha256:3f731016c31924a2beafea1d24d949161ce1c3e22e64a4b8a6fce085af58e095
 docker: quay.io/biocontainers/bioconductor-estrogen

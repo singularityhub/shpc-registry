@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-aseb
 latest:
-  1.50.0--r44he5774e6_1: 
-    sha256:bb58065157fc85aa3e0cd15cdd8b10126a00722c915cc3e30754c37013e4b211
+  1.54.0--r45ha27e39d_0: 
+    sha256:681ad82e5317ffe05d253b51b73860ca2d9f70d35dbca64dbe8385c7c63407f0
 tags:
   1.38.0--r41hc247a5b_2: 
     sha256:f64337773f4b0abad28752dbe802bd072206344d04d30023d531297948246296
@@ -20,4 +20,6 @@ tags:
     sha256:fe3494042687d95bb92928190a10fe9e77378739ed7fe738a46cb3377daf8782
   1.50.0--r44he5774e6_1: 
     sha256:bb58065157fc85aa3e0cd15cdd8b10126a00722c915cc3e30754c37013e4b211
+  1.54.0--r45ha27e39d_0: 
+    sha256:681ad82e5317ffe05d253b51b73860ca2d9f70d35dbca64dbe8385c7c63407f0
 docker: quay.io/biocontainers/bioconductor-aseb

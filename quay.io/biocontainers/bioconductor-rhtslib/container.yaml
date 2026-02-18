@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rhtslib
 latest:
-  3.2.0--r44h15a9599_2: 
-    sha256:a1b571741232285372e43427faf43b6291ee28733590c7959af9c2ec2ea9a3e5
+  3.6.0--r45h01b2380_0: 
+    sha256:3099e1f6ebdbc32e58bf1add9bcb32c0093d8ed277e59f64e04f0b1458f1dd19
 tags:
   1.8.0--r3.4.1_0: 
     sha256:d6d7e3c6ab8cad002c625c878caac47e6b621925a238734f1da866aee5fd0201
@@ -32,6 +32,8 @@ tags:
     sha256:0dc434bc33da672579cd07d63865fcae5e461c401996b46716e0fed1af5b6afa
   3.2.0--r44h15a9599_2: 
     sha256:a1b571741232285372e43427faf43b6291ee28733590c7959af9c2ec2ea9a3e5
+  3.6.0--r45h01b2380_0: 
+    sha256:3099e1f6ebdbc32e58bf1add9bcb32c0093d8ed277e59f64e04f0b1458f1dd19
 docker: quay.io/biocontainers/bioconductor-rhtslib
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

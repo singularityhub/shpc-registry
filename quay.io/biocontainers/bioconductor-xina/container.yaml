@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-xina
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:e170ab637e07a4dbe69b02517b57b371aff2d38d6212667a26ce873a277a5149
+  1.28.0--r45hdfd78af_0: 
+    sha256:07d715b5b3ddb017768a85f3134f903e8e3c8ae5826084d0fa2b46d19becf3c8
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:9803f0d47ab8e00723b69666edc245290ab9413dd0d65264b88f02072dbb2ce6
@@ -20,6 +20,8 @@ tags:
     sha256:ef24bbf8d5a13e30f483d49b3e09e0bbef6e568f74ef00b5e6f124c1ee1013a5
   1.24.0--r44hdfd78af_0: 
     sha256:e170ab637e07a4dbe69b02517b57b371aff2d38d6212667a26ce873a277a5149
+  1.28.0--r45hdfd78af_0: 
+    sha256:07d715b5b3ddb017768a85f3134f903e8e3c8ae5826084d0fa2b46d19becf3c8
 docker: quay.io/biocontainers/bioconductor-xina
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

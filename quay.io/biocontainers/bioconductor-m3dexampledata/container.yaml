@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-m3dexampledata
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:c4292c677d074040f1987b68c90a152eb9e748a506f206caac2f4ab4141808cd
+  1.36.0--r45hdfd78af_0: 
+    sha256:789850e25dc405c69d4b6e373a794e5ced169ea718098e80dd093fd77c7a5a7d
 tags:
   1.8.0--r351_0: 
     sha256:06d2d545f5a920fccb3d0c0f14819b567f46538646bf7ef85c6a064b8f98fec5
@@ -24,6 +24,8 @@ tags:
     sha256:0e7c887ff0bfa63b8b28caa3d434de7605da71200edf09aecb8767562eeaea7c
   1.32.0--r44hdfd78af_0: 
     sha256:c4292c677d074040f1987b68c90a152eb9e748a506f206caac2f4ab4141808cd
+  1.36.0--r45hdfd78af_0: 
+    sha256:789850e25dc405c69d4b6e373a794e5ced169ea718098e80dd093fd77c7a5a7d
 docker: quay.io/biocontainers/bioconductor-m3dexampledata
 aliases:
   wget: /usr/local/bin/wget

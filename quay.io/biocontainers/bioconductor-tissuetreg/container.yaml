@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tissuetreg
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:90f4644e0963b92b8c0be013cd0956838c3413f2a6666bd3447563d6469fe2da
+  1.30.0--r45hdfd78af_0: 
+    sha256:fe7cd5609254188eb4d5bc9a43177b4f9276df4d3ebadc91c713f1f2246f5970
 tags:
   1.9.0--r40_0: 
     sha256:081fa4ca20a6b746ec4c5ec7d0af5769aa814d6be35746496b92f44f7a3f26e6
@@ -22,6 +22,8 @@ tags:
     sha256:eefb08b8dc85fc4bca526b6ef4fb721500b82388a8a2e93b4955f42b73e42bd5
   1.26.0--r44hdfd78af_0: 
     sha256:90f4644e0963b92b8c0be013cd0956838c3413f2a6666bd3447563d6469fe2da
+  1.30.0--r45hdfd78af_0: 
+    sha256:fe7cd5609254188eb4d5bc9a43177b4f9276df4d3ebadc91c713f1f2246f5970
 docker: quay.io/biocontainers/bioconductor-tissuetreg
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

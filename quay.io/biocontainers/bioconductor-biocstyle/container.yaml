@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biocstyle
 latest:
-  2.34.0--r44hdfd78af_0: 
-    sha256:4c7b68e1ad397cca926c678584034531de448022efb8e7c8279f2be8046de04d
+  2.38.0--r45hdfd78af_0: 
+    sha256:93cf3f523de1eda6e3d1eec0c3621eeabe51c53dc837fee2d7f6e0e9a05e9640
 tags:
   2.8.2--r351_0: 
     sha256:74faf82e5477a3b996d8aba6d2d557b483871c002e64ffea851dffa22c9e8636
@@ -24,6 +24,8 @@ tags:
     sha256:0aff3d7bf80819b484aacb1fedc67e4cb77466e2a79b610b3df2a755e7bb3442
   2.34.0--r44hdfd78af_0: 
     sha256:4c7b68e1ad397cca926c678584034531de448022efb8e7c8279f2be8046de04d
+  2.38.0--r45hdfd78af_0: 
+    sha256:93cf3f523de1eda6e3d1eec0c3621eeabe51c53dc837fee2d7f6e0e9a05e9640
 docker: quay.io/biocontainers/bioconductor-biocstyle
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

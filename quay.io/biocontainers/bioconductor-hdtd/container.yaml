@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hdtd
 latest:
-  1.40.0--r44he5774e6_0: 
-    sha256:141c37a8348e03246136620ffd71950add3f9108292da99f68f698de59c91c13
+  1.44.0--r45ha27e39d_0: 
+    sha256:496e89ade7740a773d781d2fb4ceb5a25bb92cbffbb9984130eaef21ed1e667e
 tags:
   1.28.0--r41hc247a5b_2: 
     sha256:ac44a5366106295c7e0a27e655a7c96cc62213290f9c493d41dd9169490787e2
@@ -18,4 +18,6 @@ tags:
     sha256:312a12bfb8821e77c9c67aa1f1d99c8f30ecb7f8ed50d9a17643b035b76177e9
   1.40.0--r44he5774e6_0: 
     sha256:141c37a8348e03246136620ffd71950add3f9108292da99f68f698de59c91c13
+  1.44.0--r45ha27e39d_0: 
+    sha256:496e89ade7740a773d781d2fb4ceb5a25bb92cbffbb9984130eaef21ed1e667e
 docker: quay.io/biocontainers/bioconductor-hdtd

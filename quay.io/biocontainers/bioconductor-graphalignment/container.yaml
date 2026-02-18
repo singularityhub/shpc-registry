@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-graphalignment
 latest:
-  1.70.0--r44h3df3fcb_0: 
-    sha256:b42ea3e5c90c7e92294345092cc67d45238aea78d05b4364ce3487b13f3a7ba6
+  1.74.0--r45h01b2380_0: 
+    sha256:89eb2d9cd18037b3f92460649e69b21f9a3ec10c7c2332fd67f83e52940764e8
 tags:
   1.58.0--r41hc0cfd56_2: 
     sha256:ed5eb1a24c546d2d320f780dbeb3c1762fa76e8f48149abd42e61a36c39ec824
@@ -18,4 +18,6 @@ tags:
     sha256:182db7f3bded31fc27f2e1bd7c982bcccb0944042bd19a3251e3d810c148dd52
   1.70.0--r44h3df3fcb_0: 
     sha256:b42ea3e5c90c7e92294345092cc67d45238aea78d05b4364ce3487b13f3a7ba6
+  1.74.0--r45h01b2380_0: 
+    sha256:89eb2d9cd18037b3f92460649e69b21f9a3ec10c7c2332fd67f83e52940764e8
 docker: quay.io/biocontainers/bioconductor-graphalignment

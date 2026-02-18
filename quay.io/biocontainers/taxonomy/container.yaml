@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/taxonomy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for taxonomy
 latest:
-  0.10.2--py310h9e6395a_0: 
-    sha256:14f0b1588eaa3aaebc505c7a5019aa6e52bb8b59b29ce9e08f9472255013c154
+  0.10.3--py310h7e03b2b_0: 
+    sha256:83e22085f100cb4a2d1488f552c7a21e5ee82e9fa0a39b98bad053cd0b725c0f
 tags:
   0.9.0--py39hbf8eff0_0: 
     sha256:df1f9c27aa0e002acd8ed0422170005175424855ae697197f0bde3eb00c9a0c4
@@ -23,6 +23,8 @@ tags:
     sha256:b3980661210b60f3ece3de8fa025ae63094fad4ab046c6b9abe6bd41879e422a
   0.10.2--py310h9e6395a_0: 
     sha256:14f0b1588eaa3aaebc505c7a5019aa6e52bb8b59b29ce9e08f9472255013c154
+  0.10.3--py310h7e03b2b_0: 
+    sha256:83e22085f100cb4a2d1488f552c7a21e5ee82e9fa0a39b98bad053cd0b725c0f
 docker: quay.io/biocontainers/taxonomy
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

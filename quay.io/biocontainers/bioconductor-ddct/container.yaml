@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ddct
 latest:
-  1.62.0--r44hdfd78af_0: 
-    sha256:74c61a41fbb2b655d43f5a0daa82741d67161b62273f34f9186a1f06bc0a13a8
+  1.66.0--r45hdfd78af_0: 
+    sha256:9072099f52d4373d88edf79403b744c37ee15d4c2192feff03bd21fb1d5a08ee
 tags:
   1.50.0--r41hdfd78af_0: 
     sha256:783b21596d8be4d1aad55aacda5e7db86188939ca2f859c67c4f37abf02f3837
@@ -16,4 +16,6 @@ tags:
     sha256:d314202cc3d4d3d656b6533a22fd6f983d054f10410cae34d3fbf68114952b65
   1.62.0--r44hdfd78af_0: 
     sha256:74c61a41fbb2b655d43f5a0daa82741d67161b62273f34f9186a1f06bc0a13a8
+  1.66.0--r45hdfd78af_0: 
+    sha256:9072099f52d4373d88edf79403b744c37ee15d4c2192feff03bd21fb1d5a08ee
 docker: quay.io/biocontainers/bioconductor-ddct
