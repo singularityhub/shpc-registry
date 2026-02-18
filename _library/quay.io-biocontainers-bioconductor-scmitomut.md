@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scmitomut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmitomut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmitomut/container.yaml"
-updated_at: "2026-02-17 18:03:13.888488"
-latest: "1.2.0--r44he5774e6_0"
+updated_at: "2026-02-18 04:28:25.570459"
+latest: "1.6.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmitomut"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44he5774e6_0"
+ - "1.6.0--r45ha27e39d_0"
 description: "singularity registry hpc automated addition for bioconductor-scmitomut"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scmitomut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scmitomut", "latest": {"1.2.0--r44he5774e6_0": "sha256:a46a28f79c8b8a78e4b5cce55a79e52e52f6a2d0fd513952b7d8a69523e278a8"}, "tags": {"1.2.0--r44he5774e6_0": "sha256:a46a28f79c8b8a78e4b5cce55a79e52e52f6a2d0fd513952b7d8a69523e278a8"}, "docker": "quay.io/biocontainers/bioconductor-scmitomut", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scmitomut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scmitomut", "latest": {"1.6.0--r45ha27e39d_0": "sha256:aa30f667cd73e002bfb0515b3dc98b4070c2a879ae8936647ad77f07f4c2533e"}, "tags": {"1.2.0--r44he5774e6_0": "sha256:a46a28f79c8b8a78e4b5cce55a79e52e52f6a2d0fd513952b7d8a69523e278a8", "1.6.0--r45ha27e39d_0": "sha256:aa30f667cd73e002bfb0515b3dc98b4070c2a879ae8936647ad77f07f4c2533e"}, "docker": "quay.io/biocontainers/bioconductor-scmitomut", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scmitomut.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scmitomut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scmitomut:1.2.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-scmitomut:1.6.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scmitomut/1.2.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-scmitomut/1.2.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-scmitomut/1.6.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-scmitomut/1.6.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

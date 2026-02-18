@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-podcall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-podcall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-podcall/container.yaml"
-updated_at: "2026-02-17 18:12:24.216444"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-02-18 04:38:12.151140"
+latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-podcall"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_1"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-podcall"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-podcall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-podcall", "latest": {"1.14.0--r44hdfd78af_0": "sha256:78f666508e0ba9d71f2a154c80480cbd2410b80136f5132677d1b72ac0e8a9df"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a2bf33133c0bb4b0e859bd9f569810faea70f5eece1a9fc62ac16aa53ad8370a", "1.6.0--r42hdfd78af_0": "sha256:04c03cf7b56deec125cd8f37f80227753b91224e51a0be31e2f3c61f52f70396", "1.8.0--r43hdfd78af_0": "sha256:d849c3a4ab2b3edb955020047ca41f40ccf4e594a90cc54c70e50926f9dfc830", "1.10.0--r43hdfd78af_1": "sha256:b3df770f39d685e50827ee7a6a8b0999cabc698171087811e601f976f2fcb6bb", "1.14.0--r44hdfd78af_0": "sha256:78f666508e0ba9d71f2a154c80480cbd2410b80136f5132677d1b72ac0e8a9df"}, "docker": "quay.io/biocontainers/bioconductor-podcall"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-podcall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-podcall", "latest": {"1.18.0--r45hdfd78af_0": "sha256:b11d19c413008dbe3fdfafe475fb540ee719b9267676c0a4cbdd8b0dc38f06a4"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a2bf33133c0bb4b0e859bd9f569810faea70f5eece1a9fc62ac16aa53ad8370a", "1.6.0--r42hdfd78af_0": "sha256:04c03cf7b56deec125cd8f37f80227753b91224e51a0be31e2f3c61f52f70396", "1.8.0--r43hdfd78af_0": "sha256:d849c3a4ab2b3edb955020047ca41f40ccf4e594a90cc54c70e50926f9dfc830", "1.10.0--r43hdfd78af_1": "sha256:b3df770f39d685e50827ee7a6a8b0999cabc698171087811e601f976f2fcb6bb", "1.14.0--r44hdfd78af_0": "sha256:78f666508e0ba9d71f2a154c80480cbd2410b80136f5132677d1b72ac0e8a9df", "1.18.0--r45hdfd78af_0": "sha256:b11d19c413008dbe3fdfafe475fb540ee719b9267676c0a4cbdd8b0dc38f06a4"}, "docker": "quay.io/biocontainers/bioconductor-podcall"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-podcall.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-podcall
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-podcall:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-podcall:1.18.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-podcall/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-podcall/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-podcall/1.18.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-podcall/1.18.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

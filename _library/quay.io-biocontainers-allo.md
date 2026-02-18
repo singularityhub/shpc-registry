@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/allo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/allo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/allo/container.yaml"
-updated_at: "2026-02-17 18:53:11.363373"
+updated_at: "2026-02-18 05:20:42.045717"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/allo"
 aliases:

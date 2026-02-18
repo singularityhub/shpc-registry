@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-stemhypoxia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stemhypoxia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stemhypoxia/container.yaml"
-updated_at: "2026-02-17 18:44:30.678121"
-latest: "1.42.0--r44hdfd78af_0"
+updated_at: "2026-02-18 05:11:41.119045"
+latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stemhypoxia"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.42.0--r44hdfd78af_0"
+ - "1.46.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-stemhypoxia"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stemhypoxia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stemhypoxia", "latest": {"1.42.0--r44hdfd78af_0": "sha256:09b41be1dec94682f25ef3570cc7a1aaead9cc013459822b823a25a7c40a41cd"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:ba5c2e397d731b1cc4d38102d931df8373c70b892b2bac45111dab8e1bf81a74", "1.33.0--r42hdfd78af_0": "sha256:420b3baad0cf6ee828af128f36ada6e02f04613940190fc8ffd493fbdd8aa2dd", "1.36.0--r43hdfd78af_0": "sha256:07f5fe59f3a563f9fc65abd6681c8a0936da803b02d4f9e6e48ea107562cdb8f", "1.38.0--r43hdfd78af_0": "sha256:30e7802ba96debc204d6930dba435dc72712a1104a0a4ab2a1039dca7bf2f180", "1.42.0--r44hdfd78af_0": "sha256:09b41be1dec94682f25ef3570cc7a1aaead9cc013459822b823a25a7c40a41cd"}, "docker": "quay.io/biocontainers/bioconductor-stemhypoxia"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stemhypoxia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stemhypoxia", "latest": {"1.46.0--r45hdfd78af_0": "sha256:0d04458e097c5d2ca4eedc10150361149a64d83bf934a10d4786122903039328"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:ba5c2e397d731b1cc4d38102d931df8373c70b892b2bac45111dab8e1bf81a74", "1.33.0--r42hdfd78af_0": "sha256:420b3baad0cf6ee828af128f36ada6e02f04613940190fc8ffd493fbdd8aa2dd", "1.36.0--r43hdfd78af_0": "sha256:07f5fe59f3a563f9fc65abd6681c8a0936da803b02d4f9e6e48ea107562cdb8f", "1.38.0--r43hdfd78af_0": "sha256:30e7802ba96debc204d6930dba435dc72712a1104a0a4ab2a1039dca7bf2f180", "1.42.0--r44hdfd78af_0": "sha256:09b41be1dec94682f25ef3570cc7a1aaead9cc013459822b823a25a7c40a41cd", "1.46.0--r45hdfd78af_0": "sha256:0d04458e097c5d2ca4eedc10150361149a64d83bf934a10d4786122903039328"}, "docker": "quay.io/biocontainers/bioconductor-stemhypoxia"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stemhypoxia.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-stemhypoxia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-stemhypoxia:1.42.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-stemhypoxia:1.46.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-stemhypoxia/1.42.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-stemhypoxia/1.42.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-stemhypoxia/1.46.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-stemhypoxia/1.46.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

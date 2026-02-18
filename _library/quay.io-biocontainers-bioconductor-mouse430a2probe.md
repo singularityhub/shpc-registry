@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mouse430a2probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mouse430a2probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mouse430a2probe/container.yaml"
-updated_at: "2026-02-17 18:27:01.193743"
+updated_at: "2026-02-18 04:53:30.593934"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mouse430a2probe"
 

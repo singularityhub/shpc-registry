@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viewbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viewbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viewbs/container.yaml"
-updated_at: "2026-02-17 18:13:09.717404"
+updated_at: "2026-02-18 04:39:00.260542"
 latest: "0.1.11--pl5321h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/viewbs"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/seqan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqan/container.yaml"
-updated_at: "2026-02-17 18:01:52.377526"
-latest: "2.4.0--hdfd78af_2"
+updated_at: "2026-02-18 04:26:56.899191"
+latest: "2.5.2--h168b838_0"
 container_url: "https://biocontainers.pro/tools/seqan"
 
 versions:
  - "2.4.0--hdfd78af_2"
+ - "2.5.2--h168b838_0"
 description: "shpc-registry automated BioContainers addition for seqan"
-config: {"url": "https://biocontainers.pro/tools/seqan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqan", "latest": {"2.4.0--hdfd78af_2": "sha256:d92f889632c39a6438079133750e46e8bfd96862db3d0a1cc56dab53bcdd0ef2"}, "tags": {"2.4.0--hdfd78af_2": "sha256:d92f889632c39a6438079133750e46e8bfd96862db3d0a1cc56dab53bcdd0ef2"}, "docker": "quay.io/biocontainers/seqan"}
+config: {"url": "https://biocontainers.pro/tools/seqan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqan", "latest": {"2.5.2--h168b838_0": "sha256:954dc481b4531dfecc3b36761c5a93ceca317ca361d8274942c479eec58fb9ed"}, "tags": {"2.4.0--hdfd78af_2": "sha256:d92f889632c39a6438079133750e46e8bfd96862db3d0a1cc56dab53bcdd0ef2", "2.5.2--h168b838_0": "sha256:954dc481b4531dfecc3b36761c5a93ceca317ca361d8274942c479eec58fb9ed"}, "docker": "quay.io/biocontainers/seqan"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqan.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/seqan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqan:2.4.0--hdfd78af_2
+$ shpc install quay.io/biocontainers/seqan:2.5.2--h168b838_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqan/2.4.0--hdfd78af_2
-$ module help quay.io/biocontainers/seqan/2.4.0--hdfd78af_2
+$ module load quay.io/biocontainers/seqan/2.5.2--h168b838_0
+$ module help quay.io/biocontainers/seqan/2.5.2--h168b838_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

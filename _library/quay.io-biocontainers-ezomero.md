@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ezomero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezomero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezomero/container.yaml"
-updated_at: "2026-02-17 18:22:27.197728"
+updated_at: "2026-02-18 04:48:43.966147"
 latest: "3.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezomero"
 aliases:

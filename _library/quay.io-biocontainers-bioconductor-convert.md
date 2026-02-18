@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-convert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-convert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-convert/container.yaml"
-updated_at: "2026-02-17 18:51:53.405008"
-latest: "1.82.0--r44hdfd78af_0"
+updated_at: "2026-02-18 05:19:21.779891"
+latest: "1.86.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-convert"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.76.0--r43hdfd78af_0"
  - "1.78.0--r43hdfd78af_0"
  - "1.82.0--r44hdfd78af_0"
+ - "1.86.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-convert"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-convert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-convert", "latest": {"1.82.0--r44hdfd78af_0": "sha256:9ba4ce7b6a4d3553bbaa383e5671bb2a3249b82b097e5c7b0bc9bbff5a665f58"}, "tags": {"1.70.0--r41hdfd78af_0": "sha256:9eeb0b510b0f8c994feb75d9b2c37a7df19aed4a3fdd274cc567593c51197a53", "1.74.0--r42hdfd78af_0": "sha256:ae0476b172b742267f4dfd41b0a6ae378a7068c99f024f1299b2e20253895488", "1.76.0--r43hdfd78af_0": "sha256:8a48867950f0a99cc222777b2add9c87ac2287f2ca242ce2e16830a7271dffff", "1.78.0--r43hdfd78af_0": "sha256:5cc33d63cfd08449d5e58b32f9cd4d9904512794e3ef94546e543ea78c93cbd7", "1.82.0--r44hdfd78af_0": "sha256:9ba4ce7b6a4d3553bbaa383e5671bb2a3249b82b097e5c7b0bc9bbff5a665f58"}, "docker": "quay.io/biocontainers/bioconductor-convert"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-convert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-convert", "latest": {"1.86.0--r45hdfd78af_0": "sha256:ae519694dee141166235a5f93090cffb3f265b541a4d2185f5c546bb761a928b"}, "tags": {"1.70.0--r41hdfd78af_0": "sha256:9eeb0b510b0f8c994feb75d9b2c37a7df19aed4a3fdd274cc567593c51197a53", "1.74.0--r42hdfd78af_0": "sha256:ae0476b172b742267f4dfd41b0a6ae378a7068c99f024f1299b2e20253895488", "1.76.0--r43hdfd78af_0": "sha256:8a48867950f0a99cc222777b2add9c87ac2287f2ca242ce2e16830a7271dffff", "1.78.0--r43hdfd78af_0": "sha256:5cc33d63cfd08449d5e58b32f9cd4d9904512794e3ef94546e543ea78c93cbd7", "1.82.0--r44hdfd78af_0": "sha256:9ba4ce7b6a4d3553bbaa383e5671bb2a3249b82b097e5c7b0bc9bbff5a665f58", "1.86.0--r45hdfd78af_0": "sha256:ae519694dee141166235a5f93090cffb3f265b541a4d2185f5c546bb761a928b"}, "docker": "quay.io/biocontainers/bioconductor-convert"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-convert.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-convert
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-convert:1.82.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-convert:1.86.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-convert/1.82.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-convert/1.82.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-convert/1.86.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-convert/1.86.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

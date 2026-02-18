@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-seahtrue"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seahtrue/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seahtrue/container.yaml"
-updated_at: "2026-02-17 18:39:59.596515"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-02-18 05:07:00.207685"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seahtrue"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-seahtrue"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seahtrue", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-seahtrue", "latest": {"1.0.0--r44hdfd78af_0": "sha256:080113ec08e0f42afd39311c1271d364e5057b848e90c32b737adb865e4d02fc"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:080113ec08e0f42afd39311c1271d364e5057b848e90c32b737adb865e4d02fc"}, "docker": "quay.io/biocontainers/bioconductor-seahtrue", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seahtrue", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-seahtrue", "latest": {"1.4.0--r45hdfd78af_0": "sha256:5c700e24950f10bec5a33a0e55b843da960cf1666f0fddeb2555d2c854f40ed4"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:080113ec08e0f42afd39311c1271d364e5057b848e90c32b737adb865e4d02fc", "1.4.0--r45hdfd78af_0": "sha256:5c700e24950f10bec5a33a0e55b843da960cf1666f0fddeb2555d2c854f40ed4"}, "docker": "quay.io/biocontainers/bioconductor-seahtrue", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seahtrue.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-seahtrue
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-seahtrue:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-seahtrue:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-seahtrue/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-seahtrue/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-seahtrue/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-seahtrue/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

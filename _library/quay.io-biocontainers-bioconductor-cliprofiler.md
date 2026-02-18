@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cliprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cliprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cliprofiler/container.yaml"
-updated_at: "2026-02-17 18:30:50.689634"
+updated_at: "2026-02-18 04:57:29.642514"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cliprofiler"
 
