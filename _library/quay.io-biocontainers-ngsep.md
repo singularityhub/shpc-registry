@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngsep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsep/container.yaml"
-updated_at: "2026-02-18 04:26:53.447468"
+updated_at: "2026-02-19 04:25:31.827568"
 latest: "4.0.1--0"
 container_url: "https://biocontainers.pro/tools/ngsep"
 aliases:

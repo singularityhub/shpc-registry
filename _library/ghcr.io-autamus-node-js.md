@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/node-js"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/node-js/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/node-js/container.yaml"
-updated_at: "2026-02-18 04:25:47.922035"
+updated_at: "2026-02-19 04:24:26.586518"
 latest: "15.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/node-js"
 aliases:

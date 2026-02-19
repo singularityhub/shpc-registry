@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-openstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-openstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-openstats/container.yaml"
-updated_at: "2026-02-18 05:15:13.755392"
-latest: "1.18.0--r44hdfd78af_0"
+updated_at: "2026-02-19 05:13:10.822229"
+latest: "1.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-openstats"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -24,8 +24,9 @@ versions:
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.18.0--r44hdfd78af_0"
+ - "1.22.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-openstats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-openstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-openstats", "latest": {"1.18.0--r44hdfd78af_0": "sha256:65cd76b9fc1769809021d00b37e1d65c92a434bc9b708ef643b0d08249dd366d"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99", "1.10.0--r42hdfd78af_0": "sha256:b26d57fe7ea3d131f0629990ecded74eecfedee746b48ee944629ec98685b2a9", "1.12.0--r43hdfd78af_0": "sha256:b8d5e0afad9481b5a1e82d9deff3c9d7a9467fbd101d7e943dbe600ce9c41cff", "1.14.0--r43hdfd78af_0": "sha256:3dc82dcb55378a1bc6d4da70f2953bb9cee626d643f5bab8435b65cce3dcac3c", "1.18.0--r44hdfd78af_0": "sha256:65cd76b9fc1769809021d00b37e1d65c92a434bc9b708ef643b0d08249dd366d"}, "docker": "quay.io/biocontainers/bioconductor-openstats", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-openstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-openstats", "latest": {"1.22.0--r45hdfd78af_0": "sha256:ca03f6772814c4240d16fd06f1c876fc6a56190d3252f438cb254d7b6c23752b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99", "1.10.0--r42hdfd78af_0": "sha256:b26d57fe7ea3d131f0629990ecded74eecfedee746b48ee944629ec98685b2a9", "1.12.0--r43hdfd78af_0": "sha256:b8d5e0afad9481b5a1e82d9deff3c9d7a9467fbd101d7e943dbe600ce9c41cff", "1.14.0--r43hdfd78af_0": "sha256:3dc82dcb55378a1bc6d4da70f2953bb9cee626d643f5bab8435b65cce3dcac3c", "1.18.0--r44hdfd78af_0": "sha256:65cd76b9fc1769809021d00b37e1d65c92a434bc9b708ef643b0d08249dd366d", "1.22.0--r45hdfd78af_0": "sha256:ca03f6772814c4240d16fd06f1c876fc6a56190d3252f438cb254d7b6c23752b"}, "docker": "quay.io/biocontainers/bioconductor-openstats", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-openstats.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-openstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-openstats:1.18.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-openstats:1.22.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-openstats/1.18.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-openstats/1.18.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-openstats/1.22.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-openstats/1.22.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

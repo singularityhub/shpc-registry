@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qgrs-cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qgrs-cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qgrs-cpp/container.yaml"
-updated_at: "2026-02-18 05:14:14.738684"
+updated_at: "2026-02-19 05:12:12.239390"
 latest: "1.0--hdbdd923_4"
 container_url: "https://biocontainers.pro/tools/qgrs-cpp"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pycov3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycov3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycov3/container.yaml"
-updated_at: "2026-02-18 05:18:55.917385"
-latest: "2.1.0--pyh7cba7a3_0"
+updated_at: "2026-02-19 05:16:51.694116"
+latest: "2.1.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pycov3"
 aliases:
  - "pycov3"
@@ -16,8 +16,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "2.1.0--pyh7cba7a3_0"
+ - "2.1.1--pyh7e72e81_0"
 description: "singularity registry hpc automated addition for pycov3"
-config: {"url": "https://biocontainers.pro/tools/pycov3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pycov3", "latest": {"2.1.0--pyh7cba7a3_0": "sha256:f148ffcab338e673a5c7230de5e6a75e1cd04dadc15622d1fe27bf31d36ff65b"}, "tags": {"2.1.0--pyh7cba7a3_0": "sha256:f148ffcab338e673a5c7230de5e6a75e1cd04dadc15622d1fe27bf31d36ff65b"}, "docker": "quay.io/biocontainers/pycov3", "aliases": {"pycov3": "/usr/local/bin/pycov3", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/pycov3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pycov3", "latest": {"2.1.1--pyh7e72e81_0": "sha256:a7648566e36ed3fb682a1a6f99a542fe3383e967029deb53b6ab583340ddee22"}, "tags": {"2.1.0--pyh7cba7a3_0": "sha256:f148ffcab338e673a5c7230de5e6a75e1cd04dadc15622d1fe27bf31d36ff65b", "2.1.1--pyh7e72e81_0": "sha256:a7648566e36ed3fb682a1a6f99a542fe3383e967029deb53b6ab583340ddee22"}, "docker": "quay.io/biocontainers/pycov3", "aliases": {"pycov3": "/usr/local/bin/pycov3", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycov3.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/pycov3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pycov3:2.1.0--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/pycov3:2.1.1--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pycov3/2.1.0--pyh7cba7a3_0
-$ module help quay.io/biocontainers/pycov3/2.1.0--pyh7cba7a3_0
+$ module load quay.io/biocontainers/pycov3/2.1.1--pyh7e72e81_0
+$ module help quay.io/biocontainers/pycov3/2.1.1--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

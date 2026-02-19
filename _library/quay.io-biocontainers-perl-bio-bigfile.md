@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-bigfile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-bigfile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-bigfile/container.yaml"
-updated_at: "2026-02-18 04:40:19.293449"
+updated_at: "2026-02-19 04:38:33.411072"
 latest: "1.07--pl5321h41f7678_7"
 container_url: "https://biocontainers.pro/tools/perl-bio-bigfile"
 aliases:

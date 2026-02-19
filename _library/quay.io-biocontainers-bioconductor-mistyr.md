@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mistyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mistyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mistyr/container.yaml"
-updated_at: "2026-02-18 05:13:58.891529"
+updated_at: "2026-02-19 05:11:56.848875"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mistyr"
 

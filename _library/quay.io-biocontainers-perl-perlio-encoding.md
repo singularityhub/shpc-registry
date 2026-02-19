@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-perlio-encoding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perlio-encoding/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perlio-encoding/container.yaml"
-updated_at: "2026-02-18 04:49:37.328989"
+updated_at: "2026-02-19 04:47:49.199390"
 latest: "0.18--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-perlio-encoding"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxsbp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxsbp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxsbp/container.yaml"
-updated_at: "2026-02-18 05:19:53.220592"
+updated_at: "2026-02-19 05:17:49.294511"
 latest: "1.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/taxsbp"
 aliases:

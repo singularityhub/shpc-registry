@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psauron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psauron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psauron/container.yaml"
-updated_at: "2026-02-18 04:41:05.728291"
+updated_at: "2026-02-19 04:39:19.395019"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psauron"
 aliases:

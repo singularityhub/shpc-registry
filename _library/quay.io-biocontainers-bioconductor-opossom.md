@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-opossom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-opossom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-opossom/container.yaml"
-updated_at: "2026-02-18 05:08:09.866890"
+updated_at: "2026-02-19 05:06:12.652277"
 latest: "2.24.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-opossom"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popoolation2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popoolation2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popoolation2/container.yaml"
-updated_at: "2026-02-18 05:05:40.204278"
+updated_at: "2026-02-19 05:03:43.494980"
 latest: "1.201--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/popoolation2"
 aliases:

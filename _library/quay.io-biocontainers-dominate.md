@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dominate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dominate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dominate/container.yaml"
-updated_at: "2026-02-18 04:28:11.462290"
+updated_at: "2026-02-19 04:26:45.871338"
 latest: "2.1.16--py36_0"
 container_url: "https://biocontainers.pro/tools/dominate"
 aliases:

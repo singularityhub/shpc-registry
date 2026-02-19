@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aptardi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aptardi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aptardi/container.yaml"
-updated_at: "2026-02-18 04:31:12.643306"
+updated_at: "2026-02-19 04:29:42.045834"
 latest: "1.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/aptardi"
 aliases:

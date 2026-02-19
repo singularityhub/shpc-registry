@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-clustirr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clustirr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clustirr/container.yaml"
-updated_at: "2026-02-18 04:50:47.148604"
-latest: "1.4.0--r44he5774e6_0"
+updated_at: "2026-02-19 04:48:58.903215"
+latest: "1.8.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clustirr"
 aliases:
  - "pcre2posix_test"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.4.0--r44he5774e6_0"
+ - "1.8.0--r45ha27e39d_0"
 description: "singularity registry hpc automated addition for bioconductor-clustirr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clustirr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-clustirr", "latest": {"1.4.0--r44he5774e6_0": "sha256:901cecd2c18e709090c998f3047ef0bd8f1cf0a3f83779af6d6e694b1b1394cc"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:0731b5bdb457e465bce8b64838c9eedeabf3dc640d314a13c94d97d7b4fbfca5", "1.4.0--r44he5774e6_0": "sha256:901cecd2c18e709090c998f3047ef0bd8f1cf0a3f83779af6d6e694b1b1394cc"}, "docker": "quay.io/biocontainers/bioconductor-clustirr", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "glpsol": "/usr/local/bin/glpsol", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clustirr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-clustirr", "latest": {"1.8.0--r45ha27e39d_0": "sha256:de3b6d0951101e5bbf7115b62aa3ccda908c4256cf05ea1a356f5523ecf52175"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:0731b5bdb457e465bce8b64838c9eedeabf3dc640d314a13c94d97d7b4fbfca5", "1.4.0--r44he5774e6_0": "sha256:901cecd2c18e709090c998f3047ef0bd8f1cf0a3f83779af6d6e694b1b1394cc", "1.8.0--r45ha27e39d_0": "sha256:de3b6d0951101e5bbf7115b62aa3ccda908c4256cf05ea1a356f5523ecf52175"}, "docker": "quay.io/biocontainers/bioconductor-clustirr", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "glpsol": "/usr/local/bin/glpsol", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clustirr.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clustirr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clustirr:1.4.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-clustirr:1.8.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clustirr/1.4.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-clustirr/1.4.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-clustirr/1.8.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-clustirr/1.8.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

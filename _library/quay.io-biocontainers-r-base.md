@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-base/container.yaml"
-updated_at: "2026-02-18 05:07:47.793230"
+updated_at: "2026-02-19 05:05:50.831323"
 latest: "4.4.1"
 container_url: "https://biocontainers.pro/tools/r-base"
 

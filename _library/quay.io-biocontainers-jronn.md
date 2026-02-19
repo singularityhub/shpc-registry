@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jronn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jronn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jronn/container.yaml"
-updated_at: "2026-02-18 05:09:30.885589"
+updated_at: "2026-02-19 05:07:32.689309"
 latest: "7.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/jronn"
 aliases:

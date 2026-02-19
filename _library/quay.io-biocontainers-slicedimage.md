@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slicedimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slicedimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slicedimage/container.yaml"
-updated_at: "2026-02-18 04:41:20.764726"
+updated_at: "2026-02-19 04:39:34.089969"
 latest: "3.1.2--py_0"
 container_url: "https://biocontainers.pro/tools/slicedimage"
 aliases:

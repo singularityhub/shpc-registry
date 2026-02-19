@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bubblegun"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bubblegun/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bubblegun/container.yaml"
-updated_at: "2026-02-18 04:26:03.016693"
-latest: "1.1.10--pyhdfd78af_0"
+updated_at: "2026-02-19 04:24:41.796651"
+latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bubblegun"
 aliases:
  - "BubbleGun"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.1.9--pyhdfd78af_0"
  - "1.1.10--pyhdfd78af_0"
+ - "1.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bubblegun"
-config: {"url": "https://biocontainers.pro/tools/bubblegun", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bubblegun", "latest": {"1.1.10--pyhdfd78af_0": "sha256:76b4bb42d54fd8fe1de74e1a3b2489798c7599e922817d8562633f40d68c685a"}, "tags": {"1.1.9--pyhdfd78af_0": "sha256:3569e8c3d13ce376bbfa1358cfc6d20a75649b06f7106c040028b43785fd12c2", "1.1.10--pyhdfd78af_0": "sha256:76b4bb42d54fd8fe1de74e1a3b2489798c7599e922817d8562633f40d68c685a"}, "docker": "quay.io/biocontainers/bubblegun", "aliases": {"BubbleGun": "/usr/local/bin/BubbleGun", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/bubblegun", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bubblegun", "latest": {"1.2.0--pyhdfd78af_0": "sha256:abd6b3e6e5f71425c22cdfe5bd7cb056c80bd396807d7ec9e429628fd241f49e"}, "tags": {"1.1.9--pyhdfd78af_0": "sha256:3569e8c3d13ce376bbfa1358cfc6d20a75649b06f7106c040028b43785fd12c2", "1.1.10--pyhdfd78af_0": "sha256:76b4bb42d54fd8fe1de74e1a3b2489798c7599e922817d8562633f40d68c685a", "1.2.0--pyhdfd78af_0": "sha256:abd6b3e6e5f71425c22cdfe5bd7cb056c80bd396807d7ec9e429628fd241f49e"}, "docker": "quay.io/biocontainers/bubblegun", "aliases": {"BubbleGun": "/usr/local/bin/BubbleGun", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bubblegun.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bubblegun
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bubblegun:1.1.10--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bubblegun:1.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bubblegun/1.1.10--pyhdfd78af_0
-$ module help quay.io/biocontainers/bubblegun/1.1.10--pyhdfd78af_0
+$ module load quay.io/biocontainers/bubblegun/1.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/bubblegun/1.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

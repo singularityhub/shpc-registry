@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pcagopromoter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcagopromoter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcagopromoter/container.yaml"
-updated_at: "2026-02-18 04:58:33.011244"
+updated_at: "2026-02-19 04:56:41.083937"
 latest: "1.30.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcagopromoter"
 

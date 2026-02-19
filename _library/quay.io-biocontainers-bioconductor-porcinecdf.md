@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-porcinecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-porcinecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-porcinecdf/container.yaml"
-updated_at: "2026-02-18 04:28:04.211488"
+updated_at: "2026-02-19 04:26:39.138545"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-porcinecdf"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pytest-marks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-marks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-marks/container.yaml"
-updated_at: "2026-02-18 05:05:51.082325"
+updated_at: "2026-02-19 05:03:54.272226"
 latest: "0.4--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-marks"
 aliases:

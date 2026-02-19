@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libquo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libquo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/libquo/container.yaml"
-updated_at: "2026-02-18 04:25:22.713365"
+updated_at: "2026-02-19 04:24:01.337967"
 latest: "1.3.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libquo"
 aliases:

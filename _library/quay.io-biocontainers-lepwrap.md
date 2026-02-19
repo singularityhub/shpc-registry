@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lepwrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lepwrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lepwrap/container.yaml"
-updated_at: "2026-02-18 05:02:04.540637"
+updated_at: "2026-02-19 05:00:10.440296"
 latest: "5.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lepwrap"
 aliases:

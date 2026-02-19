@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplocheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplocheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplocheck/container.yaml"
-updated_at: "2026-02-18 05:20:12.878986"
+updated_at: "2026-02-19 05:18:08.885904"
 latest: "1.3.3--h2a3209d_2"
 container_url: "https://biocontainers.pro/tools/haplocheck"
 aliases:

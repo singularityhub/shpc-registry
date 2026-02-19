@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nxtrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nxtrim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nxtrim/container.yaml"
-updated_at: "2026-02-18 04:49:13.718740"
+updated_at: "2026-02-19 04:47:25.764964"
 latest: "0.4.3--h077b44d_5"
 container_url: "https://biocontainers.pro/tools/nxtrim"
 aliases:

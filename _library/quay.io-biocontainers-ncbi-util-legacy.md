@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-util-legacy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-util-legacy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-util-legacy/container.yaml"
-updated_at: "2026-02-18 05:17:45.927493"
+updated_at: "2026-02-19 05:15:41.400926"
 latest: "6.1--h0e27e84_3"
 container_url: "https://biocontainers.pro/tools/ncbi-util-legacy"
 aliases:

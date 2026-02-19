@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-clinfun"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-clinfun/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-clinfun/container.yaml"
-updated_at: "2026-02-18 05:20:46.476784"
+updated_at: "2026-02-19 05:18:42.467977"
 latest: "1.0.15--r40h9bbef5b_0"
 container_url: "https://biocontainers.pro/tools/r-clinfun"
 aliases:
