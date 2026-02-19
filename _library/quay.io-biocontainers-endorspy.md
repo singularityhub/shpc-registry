@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/endorspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/endorspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/endorspy/container.yaml"
-updated_at: "2026-02-19 04:38:36.916416"
+updated_at: "2026-02-19 07:06:42.544214"
 latest: "1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/endorspy"
 aliases:

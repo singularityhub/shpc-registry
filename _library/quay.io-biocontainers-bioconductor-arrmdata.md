@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arrmdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arrmdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arrmdata/container.yaml"
-updated_at: "2026-02-19 04:46:08.347676"
+updated_at: "2026-02-19 07:14:15.177554"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arrmdata"
 

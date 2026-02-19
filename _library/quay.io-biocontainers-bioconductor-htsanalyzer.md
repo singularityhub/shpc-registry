@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htsanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htsanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htsanalyzer/container.yaml"
-updated_at: "2026-02-19 05:09:58.671552"
+updated_at: "2026-02-19 07:38:24.125319"
 latest: "2.38.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-htsanalyzer"
 aliases:

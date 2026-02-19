@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sub-identify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-identify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-identify/container.yaml"
-updated_at: "2026-02-19 05:17:04.811168"
+updated_at: "2026-02-19 07:45:38.671381"
 latest: "0.14--pl5321hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/perl-sub-identify"
 aliases:

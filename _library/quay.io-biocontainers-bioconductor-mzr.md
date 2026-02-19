@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mzr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mzr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mzr/container.yaml"
-updated_at: "2026-02-19 04:56:57.092908"
+updated_at: "2026-02-19 07:25:06.587632"
 latest: "2.40.0--r44he5774e6_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mzr"
 aliases:

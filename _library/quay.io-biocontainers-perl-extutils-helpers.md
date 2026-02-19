@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-helpers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-helpers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-helpers/container.yaml"
-updated_at: "2026-02-19 04:33:27.838054"
+updated_at: "2026-02-19 07:01:31.585206"
 latest: "0.026--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-helpers"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/subset-bam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/subset-bam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/subset-bam/container.yaml"
-updated_at: "2026-02-19 05:03:07.757613"
+updated_at: "2026-02-19 07:31:21.445534"
 latest: "1.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/subset-bam"
 aliases:

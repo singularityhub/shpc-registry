@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-quorts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-quorts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-quorts/container.yaml"
-updated_at: "2026-02-19 05:11:46.595297"
+updated_at: "2026-02-19 07:40:14.019430"
 latest: "1.3.0--r341_1"
 container_url: "https://biocontainers.pro/tools/r-quorts"
 aliases:

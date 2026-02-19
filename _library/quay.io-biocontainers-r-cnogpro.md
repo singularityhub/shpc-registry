@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-cnogpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cnogpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cnogpro/container.yaml"
-updated_at: "2026-02-19 05:09:15.508703"
+updated_at: "2026-02-19 07:37:40.658976"
 latest: "1.1--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-cnogpro"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kipoi_veff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kipoi_veff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kipoi_veff/container.yaml"
-updated_at: "2026-02-19 05:10:34.564306"
+updated_at: "2026-02-19 07:39:00.720442"
 latest: "0.3.1--pyh145b6a8_1"
 container_url: "https://biocontainers.pro/tools/kipoi_veff"
 aliases:
