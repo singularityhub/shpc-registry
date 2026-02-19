@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ecolitk
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:cdad29ea973a4bb42df32b18b951f60c2efb7da813d6816079c0b5287261c17c
+  1.82.0--r45h1f0d9b5_0: 
+    sha256:57b2c921d7890ed1806b4ece53ea4fed621831033d92377b2a60b9bf4d3a265c
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:09070fd67b133009372797f5246fcfa11c2e00b0baff508e42b0f1dc6e71de0b
@@ -16,4 +16,6 @@ tags:
     sha256:34b92e4af1bcaa3938f01f686f0d07166245dae1665a6916864c619139ed7808
   1.78.0--r44hdfd78af_0: 
     sha256:cdad29ea973a4bb42df32b18b951f60c2efb7da813d6816079c0b5287261c17c
+  1.82.0--r45h1f0d9b5_0: 
+    sha256:57b2c921d7890ed1806b4ece53ea4fed621831033d92377b2a60b9bf4d3a265c
 docker: quay.io/biocontainers/bioconductor-ecolitk

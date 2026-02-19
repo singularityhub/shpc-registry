@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hapfabia
 latest:
-  1.48.0--r44h3df3fcb_0: 
-    sha256:d76bf107631f715a3258cdf042f15806040f44f81ee4c4fc48559a5782b8724c
+  1.52.0--r45h01b2380_0: 
+    sha256:7f1020b63ab113230e6985d6bd13056989a733ae3ece384ffb46b8c276da5125
 tags:
   1.36.0--r41hc0cfd56_2: 
     sha256:c4e92ea65ba47de1f41aab6dd1f80a2e2fcb214cc820459ef38d57947b376802
@@ -18,4 +18,6 @@ tags:
     sha256:6bef3340961c518dd9ceafdc61015f8a37550218489ec96f7050b65801ee1063
   1.48.0--r44h3df3fcb_0: 
     sha256:d76bf107631f715a3258cdf042f15806040f44f81ee4c4fc48559a5782b8724c
+  1.52.0--r45h01b2380_0: 
+    sha256:7f1020b63ab113230e6985d6bd13056989a733ae3ece384ffb46b8c276da5125
 docker: quay.io/biocontainers/bioconductor-hapfabia

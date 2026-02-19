@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-netresponse
 latest:
-  1.66.0--r44h3df3fcb_0: 
-    sha256:8df3d0d5c60e6a74277e078b8217bdf68a46172f02813e401be15db2013507d7
+  1.70.0--r45h01b2380_0: 
+    sha256:494a2d287642932244d39581fec217bfcf074e1163a57005a3eed3f57452566d
 tags:
   1.54.0--r41hc0cfd56_2: 
     sha256:bf4efbf2697e6dad1d7f1d263d14fae9dbd374f96369867fef1840962d2e3f20
@@ -20,6 +20,8 @@ tags:
     sha256:637d73efd9861d2d7c4667e5ef46a8c1c6e59dcc5a059f6a240683983a46ceb9
   1.66.0--r44h3df3fcb_0: 
     sha256:8df3d0d5c60e6a74277e078b8217bdf68a46172f02813e401be15db2013507d7
+  1.70.0--r45h01b2380_0: 
+    sha256:494a2d287642932244d39581fec217bfcf074e1163a57005a3eed3f57452566d
 docker: quay.io/biocontainers/bioconductor-netresponse
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

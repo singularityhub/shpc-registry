@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pickgene
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:1a3de3e398ba45bf84e5ea89bb14c85124a79b97028afa82890fdaeb7eaaf6aa
+  1.82.0--r45hdfd78af_0: 
+    sha256:4a35ce56c02fdabb711f599b7bb7755d46dcf969c1e7a3ee48ccae768e84c400
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:200ab601e7bbe83d6f36e1534e1d9b8e7645950383919baed374d60e7261e47c
@@ -16,4 +16,6 @@ tags:
     sha256:b06149d7f3756be55689811124de2f32c87d24ae64688fb5e0b07ca55a7a7e01
   1.78.0--r44hdfd78af_0: 
     sha256:1a3de3e398ba45bf84e5ea89bb14c85124a79b97028afa82890fdaeb7eaaf6aa
+  1.82.0--r45hdfd78af_0: 
+    sha256:4a35ce56c02fdabb711f599b7bb7755d46dcf969c1e7a3ee48ccae768e84c400
 docker: quay.io/biocontainers/bioconductor-pickgene

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-anf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-anf
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:272f2a24e40f4a863c8663bf58169863db046dd474905bc0ed58395dafc4379c
+  1.32.0--r45hdfd78af_0: 
+    sha256:b6ddb60812c3403b1808f1c3165a182002ae03133b754d708d08c358dc2ee6cf
 tags:
   1.8.0--r36_0: 
     sha256:b424740cc517d537475f65bd4b39f2b9fedc5604c99e7bd10c7547575a718d3e
@@ -21,6 +21,8 @@ tags:
     sha256:02d99b575617684a862ce59091bebfa1d275759195a3e4c90ce4a1b1896bc3eb
   1.28.0--r44hdfd78af_0: 
     sha256:272f2a24e40f4a863c8663bf58169863db046dd474905bc0ed58395dafc4379c
+  1.32.0--r45hdfd78af_0: 
+    sha256:b6ddb60812c3403b1808f1c3165a182002ae03133b754d708d08c358dc2ee6cf
 docker: quay.io/biocontainers/bioconductor-anf
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

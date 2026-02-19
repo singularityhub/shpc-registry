@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rankprod
 latest:
-  3.32.0--r44hdfd78af_0: 
-    sha256:3e0796e9dd8ea17c6c381fc3afac98c27dce4601b2bbfadb23ea92b991179c24
+  3.36.0--r45hdfd78af_0: 
+    sha256:f2dcd2d5da0d338465de590000a18b22c05077bcfed7d85e8ea642d24aa1748e
 tags:
   3.8.0--r351_0: 
     sha256:81b558de4430f097f5f8fbb380db046f9691b9bcd2e0c7944ee73b22b98438e1
@@ -24,4 +24,6 @@ tags:
     sha256:23cb4b52c498a7f4410de81ef403e4e589bc39681cedc64efcb89c37d77a423e
   3.32.0--r44hdfd78af_0: 
     sha256:3e0796e9dd8ea17c6c381fc3afac98c27dce4601b2bbfadb23ea92b991179c24
+  3.36.0--r45hdfd78af_0: 
+    sha256:f2dcd2d5da0d338465de590000a18b22c05077bcfed7d85e8ea642d24aa1748e
 docker: quay.io/biocontainers/bioconductor-rankprod

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-santa
 latest:
-  2.42.0--r44h3df3fcb_0: 
-    sha256:2f3473d58f0eb57ccbcc435bb7b7bfe6c340d0398303add9c755ebd0b60c8b5a
+  2.46.0--r45h01b2380_0: 
+    sha256:9bfd7dbe708c6c216d6de7842d7c0e28f75e77c3a4810a2b02b50568d41b58d3
 tags:
   2.30.0--r41hc0cfd56_2: 
     sha256:c1446254ca0e49aa8bc386edfe9fcf1964aa736f5814860331d17e9347ebdd1a
@@ -18,6 +18,8 @@ tags:
     sha256:848f60cca1e63bbb22ddae3a4051b94178ca9dc7be5cfaa35444560224d341e2
   2.42.0--r44h3df3fcb_0: 
     sha256:2f3473d58f0eb57ccbcc435bb7b7bfe6c340d0398303add9c755ebd0b60c8b5a
+  2.46.0--r45h01b2380_0: 
+    sha256:9bfd7dbe708c6c216d6de7842d7c0e28f75e77c3a4810a2b02b50568d41b58d3
 docker: quay.io/biocontainers/bioconductor-santa
 aliases:
   glpsol: /usr/local/bin/glpsol
