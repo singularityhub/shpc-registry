@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/isopedia
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for isopedia
+latest:
+  1.6.5--hf679fb9_0: 
+    sha256:a92e7a29dfe3b13fcde16181d123ec6b03199d528875be8bcdb053e3ff151077
+tags:
+  1.6.5--hf679fb9_0: 
+    sha256:a92e7a29dfe3b13fcde16181d123ec6b03199d528875be8bcdb053e3ff151077
+docker: quay.io/biocontainers/isopedia
+aliases:
+  isopedia: /usr/local/bin/isopedia
+  isopedia-splice-viz.py: /usr/local/bin/isopedia-splice-viz.py
+  isopedia-tools: /usr/local/bin/isopedia-tools
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
