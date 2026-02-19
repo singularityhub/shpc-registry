@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/repermulize
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for repermulize
+latest:
+  1.0--r42hdfd78af_0: 
+    sha256:f667fb5b1cfdf646671fcf89295e25e0fb02113062ec09dce00c8274f7cd81b1
+tags:
+  1.0--r42hdfd78af_0: 
+    sha256:f667fb5b1cfdf646671fcf89295e25e0fb02113062ec09dce00c8274f7cd81b1
+docker: quay.io/biocontainers/repermulize
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
