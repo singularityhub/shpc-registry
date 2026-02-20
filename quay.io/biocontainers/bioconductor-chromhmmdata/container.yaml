@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chromhmmdata
 latest:
-  0.99.2--r44hdfd78af_5: 
-    sha256:c9cb4c726b40766891dc0a259855accebcb5498d712fdf0c7a2c6f0c3cfd64bd
+  0.99.2--r45hdfd78af_6: 
+    sha256:129aacb1cf0e4dcb82d27c92db85f98c8701b1b7835df387e34371a10b70e179
 tags:
   0.99.2--r41hdfd78af_1: 
     sha256:98c45eb5ce87ad8dd746a4a9746ff879cfe19c04eb40ba5ba8f2f8487a330935
@@ -16,4 +16,6 @@ tags:
     sha256:fba9023cf9bb5dafa8a9aca74ec94e13a71a1239985902fcbdb99fc529700350
   0.99.2--r44hdfd78af_5: 
     sha256:c9cb4c726b40766891dc0a259855accebcb5498d712fdf0c7a2c6f0c3cfd64bd
+  0.99.2--r45hdfd78af_6: 
+    sha256:129aacb1cf0e4dcb82d27c92db85f98c8701b1b7835df387e34371a10b70e179
 docker: quay.io/biocontainers/bioconductor-chromhmmdata

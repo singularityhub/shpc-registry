@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cellmigration
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:ff8871d6ef85c7b3c8ddc2d73c44b821ee3161fe04f5c1275ca31de2e4f2b855
+  1.18.0--r45hdfd78af_0: 
+    sha256:6ca683b01c6927ba5b79684f13fd498450522075af57e4b696c64c985cd53f34
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:e696eab412b7757e4b5f2869f54a4e6eef98fd2d7840c4332129596688438dc0
@@ -16,4 +16,6 @@ tags:
     sha256:8b1ebac0e4ca9959c42dcdd040488f170a772234d5fe262428d83c13dae8e58d
   1.14.0--r44hdfd78af_0: 
     sha256:ff8871d6ef85c7b3c8ddc2d73c44b821ee3161fe04f5c1275ca31de2e4f2b855
+  1.18.0--r45hdfd78af_0: 
+    sha256:6ca683b01c6927ba5b79684f13fd498450522075af57e4b696c64c985cd53f34
 docker: quay.io/biocontainers/bioconductor-cellmigration

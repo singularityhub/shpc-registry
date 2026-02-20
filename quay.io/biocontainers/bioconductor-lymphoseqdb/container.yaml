@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lymphoseqdb
 latest:
-  0.99.2--r44hdfd78af_13: 
-    sha256:3decf987aceacfd41f93096c0a51edf4c6325e2c049b59f454b3a2c62c68dcbf
+  0.99.2--r45hdfd78af_14: 
+    sha256:cce7a53658b455e1389e1ef1a755f262489d51637240aba82a97a9837686a558
 tags:
   0.99.2--r41hdfd78af_9: 
     sha256:103f70f01cb108bd40de2f8b00ecd2b56ffc27c6f73438234b7ecad2ce4b3dc6
@@ -16,4 +16,6 @@ tags:
     sha256:3ff489129ec8ebd41dd3056f4f8b46a644b7e718a43f9b06a5ff3b1cf33d5c83
   0.99.2--r44hdfd78af_13: 
     sha256:3decf987aceacfd41f93096c0a51edf4c6325e2c049b59f454b3a2c62c68dcbf
+  0.99.2--r45hdfd78af_14: 
+    sha256:cce7a53658b455e1389e1ef1a755f262489d51637240aba82a97a9837686a558
 docker: quay.io/biocontainers/bioconductor-lymphoseqdb

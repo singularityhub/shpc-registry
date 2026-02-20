@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ggpa
 latest:
-  1.18.0--r44he5774e6_0: 
-    sha256:9572977e88c98ff87fe7d02aad853e6f26b834d46ba16952bc41d08973feb75e
+  1.22.0--r45ha27e39d_0: 
+    sha256:4e556b7763c68e2fbe181bde975f01215472ac34be96a593db4bc611548dc03a
 tags:
   1.6.0--r41hc247a5b_2: 
     sha256:ed8655a9ff4c69795eaf44d23052dae88b3b3a6e9ad65f3ce041b4a5e59be7c8
@@ -18,4 +18,6 @@ tags:
     sha256:53c0f65512ae10baa3883934dad7552af7fa16c748f4e4f4b23b83ec11326a8e
   1.18.0--r44he5774e6_0: 
     sha256:9572977e88c98ff87fe7d02aad853e6f26b834d46ba16952bc41d08973feb75e
+  1.22.0--r45ha27e39d_0: 
+    sha256:4e556b7763c68e2fbe181bde975f01215472ac34be96a593db4bc611548dc03a
 docker: quay.io/biocontainers/bioconductor-ggpa

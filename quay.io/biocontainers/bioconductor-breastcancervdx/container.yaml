@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-breastcancervdx
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:1a4a2359a41cc96da6ec0f2fdb07feb1283df0170c618b3e6be3b63000de37f5
+  1.48.0--r45hdfd78af_0: 
+    sha256:356905bb627b35541c0b57ebcaed95ebedef6c527173112c96cfede2d7aac280
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:c760db37de16a22d5a6dd79680d8e1d7ec7c1bd79c775d1796b6c5ea6805b7f7
@@ -18,4 +18,6 @@ tags:
     sha256:5d25a975aabaf71c0fbce60d8c3458e84f567b8ea81da567d172d60c25f28dad
   1.44.0--r44hdfd78af_0: 
     sha256:1a4a2359a41cc96da6ec0f2fdb07feb1283df0170c618b3e6be3b63000de37f5
+  1.48.0--r45hdfd78af_0: 
+    sha256:356905bb627b35541c0b57ebcaed95ebedef6c527173112c96cfede2d7aac280
 docker: quay.io/biocontainers/bioconductor-breastcancervdx

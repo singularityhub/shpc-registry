@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/r-numbat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-numbat
 latest:
-  1.5.1--r44h40dc89f_0: 
-    sha256:d9fe36700c9f6c1640e604c4d809963023d180532f38e4fc8f07144739163972
+  1.5.2--r44h40dc89f_0: 
+    sha256:3e18d7fb86b6ead410ffa46e009f80b345c5b34f15fd09b22559e5bc7c1df698
 tags:
   1.4.2--r44h40dc89f_0: 
     sha256:57b1c310dbf89162633e408ca9b96a5202d7663fd9fbe70105bd483cf6ceac2d
   1.5.1--r44h40dc89f_0: 
     sha256:d9fe36700c9f6c1640e604c4d809963023d180532f38e4fc8f07144739163972
+  1.5.2--r44h40dc89f_0: 
+    sha256:3e18d7fb86b6ead410ffa46e009f80b345c5b34f15fd09b22559e5bc7c1df698
 docker: quay.io/biocontainers/r-numbat
 aliases:
   idle3.14: /usr/local/bin/idle3.14

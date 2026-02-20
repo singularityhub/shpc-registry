@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gpls
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:16d682db4b87b229177fdb53dd4750170ab0fa7faab9ca109b7e067d29962132
+  1.82.0--r45hdfd78af_0: 
+    sha256:5ccca8afe6457ffd002da826ab3ad68c0b59d464bd576bce78dd1b386efde929
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:6b08bcf5d21e61147468eccbd5f1a44dcf56bd26109327bcbc81450cd74e1495
@@ -16,4 +16,6 @@ tags:
     sha256:c4fb17033c053f598135552ce493b36dfcdbb57a341723083fca3dd6206a3060
   1.78.0--r44hdfd78af_0: 
     sha256:16d682db4b87b229177fdb53dd4750170ab0fa7faab9ca109b7e067d29962132
+  1.82.0--r45hdfd78af_0: 
+    sha256:5ccca8afe6457ffd002da826ab3ad68c0b59d464bd576bce78dd1b386efde929
 docker: quay.io/biocontainers/bioconductor-gpls

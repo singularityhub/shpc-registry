@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-wrench
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:d92681f624a49c4f5f9ad7d52c1e51f80c057544871382a49080679e4c526d58
+  1.28.0--r45hdfd78af_0: 
+    sha256:ce8d5d7abaf16b2b7e12b7c52df9a868de3381c4ef7e55dc380ad43c28684c92
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:af5b9eee8db39b7e4fcee50f87e3e34ab81596582aeb60d6247877732181794b
@@ -20,6 +20,8 @@ tags:
     sha256:15e5adb53cb2e17536695ec38b811fb650a3e413ebf904bc28a69837bfdc4042
   1.24.0--r44hdfd78af_0: 
     sha256:d92681f624a49c4f5f9ad7d52c1e51f80c057544871382a49080679e4c526d58
+  1.28.0--r45hdfd78af_0: 
+    sha256:ce8d5d7abaf16b2b7e12b7c52df9a868de3381c4ef7e55dc380ad43c28684c92
 docker: quay.io/biocontainers/bioconductor-wrench
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

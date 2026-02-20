@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tcgacrcmrna
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:613481b95509416b227411ac815b79e432646e6e4cdbb42ca8f00487a4628e1d
+  1.30.0--r45hdfd78af_0: 
+    sha256:73b9e787ac419c951e460daa09d8d3c714a862f867b45a7c787049dde64839fe
 tags:
   1.9.0--r40_0: 
     sha256:5443dfe2ac3f2398959cce08325a870fff818701829339a5ee9f3e9762607150
@@ -22,6 +22,8 @@ tags:
     sha256:13a9ba4ca444b5e9e8fe1e969654457226b5338b8cc0b6b0e585921b58f8c75f
   1.26.0--r44hdfd78af_0: 
     sha256:613481b95509416b227411ac815b79e432646e6e4cdbb42ca8f00487a4628e1d
+  1.30.0--r45hdfd78af_0: 
+    sha256:73b9e787ac419c951e460daa09d8d3c714a862f867b45a7c787049dde64839fe
 docker: quay.io/biocontainers/bioconductor-tcgacrcmrna
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

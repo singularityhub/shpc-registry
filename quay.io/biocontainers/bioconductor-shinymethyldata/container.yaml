@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-shinymethyldata
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:00561677ceff3a0881ca8be5ed143ec4fc2088507bf5b0f1d4e08723cbfef270
+  1.30.0--r45hdfd78af_0: 
+    sha256:26685b0ddc65f5478eaf2965364396e77b34f07abcac65e875ca0fd467fb2e6d
 tags:
   1.9.0--r40_0: 
     sha256:01635ba91ffa3b891fdadde837242c16b228c6badb6a4779d8cb56f1a0713546
@@ -22,6 +22,8 @@ tags:
     sha256:267e4e851f10022556b91e050af6b5327fa40913fd3b18e4cce350ab7d9955cb
   1.26.0--r44hdfd78af_0: 
     sha256:00561677ceff3a0881ca8be5ed143ec4fc2088507bf5b0f1d4e08723cbfef270
+  1.30.0--r45hdfd78af_0: 
+    sha256:26685b0ddc65f5478eaf2965364396e77b34f07abcac65e875ca0fd467fb2e6d
 docker: quay.io/biocontainers/bioconductor-shinymethyldata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

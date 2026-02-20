@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-topconfects
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:8acb4575598f4bbf7d2d4cb861e804198c947d7b7ccee87ff4060e1f6e359ab1
+  1.26.0--r45hdfd78af_0: 
+    sha256:0c14efc8d240ee7d4ded3f77618d3534a36c29a11c52a1a3f4b7cb14d7228e8b
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:b58f263fecfac8ee2f0345b2c5a739f445f330286fb718213b7818a19dfd251d
@@ -18,6 +18,8 @@ tags:
     sha256:553d684e10637fbdf22f5e3c5132eeb8d6b4ca416ef93a3b5a461790636815ec
   1.22.0--r44hdfd78af_0: 
     sha256:8acb4575598f4bbf7d2d4cb861e804198c947d7b7ccee87ff4060e1f6e359ab1
+  1.26.0--r45hdfd78af_0: 
+    sha256:0c14efc8d240ee7d4ded3f77618d3534a36c29a11c52a1a3f4b7cb14d7228e8b
 docker: quay.io/biocontainers/bioconductor-topconfects
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

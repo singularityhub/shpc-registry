@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-copyhelper
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:c291f60897ae2ed14e929dce475cbdbc318e01a23ce9b599fd30b601539809f4
+  1.42.0--r45hdfd78af_0: 
+    sha256:2695c509061ad6c0082644ac3a508f40fae0831f92a5d932b1b885fb029d2b11
 tags:
   1.26.0--r41hdfd78af_1: 
     sha256:0f5763cfaf27bcfd469950f45f9f33e406698ac17e38dd87ab66c44afcfcd66a
@@ -18,4 +18,6 @@ tags:
     sha256:218232293f5871efc9333af28ba4c94d038b588200573eee1d68c9d9fa2427c5
   1.38.0--r44hdfd78af_0: 
     sha256:c291f60897ae2ed14e929dce475cbdbc318e01a23ce9b599fd30b601539809f4
+  1.42.0--r45hdfd78af_0: 
+    sha256:2695c509061ad6c0082644ac3a508f40fae0831f92a5d932b1b885fb029d2b11
 docker: quay.io/biocontainers/bioconductor-copyhelper

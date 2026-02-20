@@ -7,6 +7,8 @@ latest:
 tags:
   0.1.8--py310hbcdfcc8_0: 
     sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254
+  0.1.8--py311h39195ad_0: 
+    sha256:aeb894b6d3d11aa087076c31362eff5b8ad377f266df1a8b4d0459ef7742144b
 docker: quay.io/biocontainers/zna
 aliases:
   zna: /usr/local/bin/zna

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-siggenes
 latest:
-  1.80.0--r44hdfd78af_0: 
-    sha256:a7ad09e17fa3825ba809dc978eb6a72ca23361a8ce3bcc4375e1dd4e61f7649a
+  1.84.0--r45hdfd78af_0: 
+    sha256:77b74cb4dbc3d8e889a16a3f0b6c02bbb2bd910b5844874c2f76bb6646e9a8b0
 tags:
   1.68.0--r41hdfd78af_0: 
     sha256:63f8adf23b59e7b9cfe87dec801fe501301e6523303a45751faa347021520a7b
@@ -16,4 +16,6 @@ tags:
     sha256:1e48cbc51da758cc1651d9bc3350e522b6c7349d4874062dcff0a10900fab31a
   1.80.0--r44hdfd78af_0: 
     sha256:a7ad09e17fa3825ba809dc978eb6a72ca23361a8ce3bcc4375e1dd4e61f7649a
+  1.84.0--r45hdfd78af_0: 
+    sha256:77b74cb4dbc3d8e889a16a3f0b6c02bbb2bd910b5844874c2f76bb6646e9a8b0
 docker: quay.io/biocontainers/bioconductor-siggenes

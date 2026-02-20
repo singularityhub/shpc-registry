@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genesummary
 latest:
-  0.99.6--r44hdfd78af_1: 
-    sha256:a32e2b7789fce84f36e12f4649efc5dfbf54850ccc8768669b06ffc01ee8af6e
+  0.99.6--r45hdfd78af_2: 
+    sha256:de23cc457841f26686be5c740339416bef2a1298abec80c2f62fe8fb570988c2
 tags:
   0.99.3--r41hdfd78af_1: 
     sha256:75fede957c04d01042e582d65353bcd84eb9985a71add115b8af2111afcfd25e
@@ -16,4 +16,6 @@ tags:
     sha256:e3bc2bfe29c2dc24569d2ad2003994150658ebcad640fa367cbfb8137d322b47
   0.99.6--r44hdfd78af_1: 
     sha256:a32e2b7789fce84f36e12f4649efc5dfbf54850ccc8768669b06ffc01ee8af6e
+  0.99.6--r45hdfd78af_2: 
+    sha256:de23cc457841f26686be5c740339416bef2a1298abec80c2f62fe8fb570988c2
 docker: quay.io/biocontainers/bioconductor-genesummary

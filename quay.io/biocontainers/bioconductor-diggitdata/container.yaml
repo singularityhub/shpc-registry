@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-diggitdata
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:9e9e82693f9028dc71222c3da1b1ccbe396ae140219a31b5883067a7d7ba38ec
+  1.42.0--r45hdfd78af_0: 
+    sha256:ad60d7161aa12207e721f91f04fc8ed2468e2dfc8b473c783ed3bb55abcd6477
 tags:
   1.26.0--r41hdfd78af_1: 
     sha256:eac7649680789b8e03d22a903721a563fc57bb3340c8129da2a600da74799e53
@@ -16,4 +16,6 @@ tags:
     sha256:5c684de7939d84e7868da3baeda9bbac79879d9006d5c0201cffa0cc64f60281
   1.38.0--r44hdfd78af_0: 
     sha256:9e9e82693f9028dc71222c3da1b1ccbe396ae140219a31b5883067a7d7ba38ec
+  1.42.0--r45hdfd78af_0: 
+    sha256:ad60d7161aa12207e721f91f04fc8ed2468e2dfc8b473c783ed3bb55abcd6477
 docker: quay.io/biocontainers/bioconductor-diggitdata

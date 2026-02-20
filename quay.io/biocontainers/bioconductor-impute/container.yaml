@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-impute
 latest:
-  1.80.0--r44h4d5c4aa_1: 
-    sha256:2c8d54beeb749b03edd4caf06cc219639366fb2a3fce74c397c163a97f794914
+  1.84.0--r45h63f16b7_0: 
+    sha256:450abb111edde785b9fecee3ced03a694c6cba2dd3d84c8598b96bb051cf77fa
 tags:
   1.68.0--r41hefde4a7_2: 
     sha256:12ed9015057c455610ded717c4608a1e931187d0f109bc19b2b6f72643f95fbf
@@ -22,4 +22,6 @@ tags:
     sha256:6580a756ad38daff0fd1be47e387963c1261e53cfc251e151f2b88d7c3f2f2ed
   1.80.0--r44h4d5c4aa_1: 
     sha256:2c8d54beeb749b03edd4caf06cc219639366fb2a3fce74c397c163a97f794914
+  1.84.0--r45h63f16b7_0: 
+    sha256:450abb111edde785b9fecee3ced03a694c6cba2dd3d84c8598b96bb051cf77fa
 docker: quay.io/biocontainers/bioconductor-impute

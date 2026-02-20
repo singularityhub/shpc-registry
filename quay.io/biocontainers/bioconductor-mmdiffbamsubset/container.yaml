@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mmdiffbamsubset
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:49a63529e93dbfe2df86fad2bc123c288475db5fa004d781da1ca3f848b8dd04
+  1.46.0--r45hdfd78af_0: 
+    sha256:43211cc520571ac0bc1c0231a875eb59aeeb08ac2128e243b6bca9a1621f5c40
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:f653ec8d9ef3e26a4ac10f8e694f8ec653463fb84974b10a3b1a2552f03eb598
@@ -16,4 +16,6 @@ tags:
     sha256:0be267efa57c3c4b2d854390cc43eb2cd5583ce1ef6908ecd7e55efd7e9feb29
   1.42.0--r44hdfd78af_0: 
     sha256:49a63529e93dbfe2df86fad2bc123c288475db5fa004d781da1ca3f848b8dd04
+  1.46.0--r45hdfd78af_0: 
+    sha256:43211cc520571ac0bc1c0231a875eb59aeeb08ac2128e243b6bca9a1621f5c40
 docker: quay.io/biocontainers/bioconductor-mmdiffbamsubset
