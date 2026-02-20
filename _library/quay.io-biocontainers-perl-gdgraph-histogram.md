@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-gdgraph-histogram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gdgraph-histogram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gdgraph-histogram/container.yaml"
-updated_at: "2026-02-19 07:03:11.255801"
+updated_at: "2026-02-20 05:08:05.169640"
 latest: "1.1--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-gdgraph-histogram"
 aliases:

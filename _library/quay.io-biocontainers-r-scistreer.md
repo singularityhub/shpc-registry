@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-scistreer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scistreer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scistreer/container.yaml"
-updated_at: "2026-02-19 06:57:22.846482"
-latest: "1.2.0--r44h40dc89f_0"
+updated_at: "2026-02-20 05:03:57.580750"
+latest: "1.2.1--r44h40dc89f_0"
 container_url: "https://biocontainers.pro/tools/r-scistreer"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -28,8 +28,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44h40dc89f_0"
+ - "1.2.1--r44h40dc89f_0"
 description: "singularity registry hpc automated addition for r-scistreer"
-config: {"url": "https://biocontainers.pro/tools/r-scistreer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-scistreer", "latest": {"1.2.0--r44h40dc89f_0": "sha256:a4c1fe5d3cfcc34c51d7223c29807a8497f3230a1f954fb618439c5b70000fd6"}, "tags": {"1.2.0--r44h40dc89f_0": "sha256:a4c1fe5d3cfcc34c51d7223c29807a8497f3230a1f954fb618439c5b70000fd6"}, "docker": "quay.io/biocontainers/r-scistreer", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-scistreer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-scistreer", "latest": {"1.2.1--r44h40dc89f_0": "sha256:890e9ff0e96df6c991d972160929b22b4d76a4a62af93035e320f3b4e6914264"}, "tags": {"1.2.0--r44h40dc89f_0": "sha256:a4c1fe5d3cfcc34c51d7223c29807a8497f3230a1f954fb618439c5b70000fd6", "1.2.1--r44h40dc89f_0": "sha256:890e9ff0e96df6c991d972160929b22b4d76a4a62af93035e320f3b4e6914264"}, "docker": "quay.io/biocontainers/r-scistreer", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "glpsol": "/usr/local/bin/glpsol", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scistreer.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/r-scistreer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-scistreer:1.2.0--r44h40dc89f_0
+$ shpc install quay.io/biocontainers/r-scistreer:1.2.1--r44h40dc89f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-scistreer/1.2.0--r44h40dc89f_0
-$ module help quay.io/biocontainers/r-scistreer/1.2.0--r44h40dc89f_0
+$ module load quay.io/biocontainers/r-scistreer/1.2.1--r44h40dc89f_0
+$ module help quay.io/biocontainers/r-scistreer/1.2.1--r44h40dc89f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

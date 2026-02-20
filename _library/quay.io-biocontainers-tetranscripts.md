@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tetranscripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetranscripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tetranscripts/container.yaml"
-updated_at: "2026-02-19 07:26:46.546356"
+updated_at: "2026-02-20 04:45:23.753127"
 latest: "2.2.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/tetranscripts"
 aliases:

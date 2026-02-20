@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-anf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anf/container.yaml"
-updated_at: "2026-02-19 07:07:28.910000"
-latest: "1.28.0--r44hdfd78af_0"
+updated_at: "2026-02-20 04:20:32.743819"
+latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anf"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.10.0--r40_0"
  - "1.22.0--r43hdfd78af_0"
  - "1.28.0--r44hdfd78af_0"
+ - "1.32.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-anf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-anf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anf", "latest": {"1.28.0--r44hdfd78af_0": "sha256:272f2a24e40f4a863c8663bf58169863db046dd474905bc0ed58395dafc4379c"}, "tags": {"1.8.0--r36_0": "sha256:b424740cc517d537475f65bd4b39f2b9fedc5604c99e7bd10c7547575a718d3e", "1.20.0--r42hdfd78af_0": "sha256:945af4fb86a1368d469cc96f668e99e751649a7e75cdf0e2451cbef7ca3d7b01", "1.16.0--r41hdfd78af_0": "sha256:2273e38add583c5333b956d1d9c60e335e739e5116be33e5123dabb64eced26c", "1.13.0--r41hdfd78af_0": "sha256:570439ac75198fb517eb206a4e3f2b3b9fb686fd16a0fcda137608268451ce27", "1.12.0--r40hdfd78af_1": "sha256:2c72a4d8a333bd0f0aa007faebff725ad8dc8f9306c5fb6a3831f564b85bea05", "1.10.0--r40_0": "sha256:88af65098da5757a9166720e58338ba1845141949342d3a1296d8358d68c09bc", "1.22.0--r43hdfd78af_0": "sha256:02d99b575617684a862ce59091bebfa1d275759195a3e4c90ce4a1b1896bc3eb", "1.28.0--r44hdfd78af_0": "sha256:272f2a24e40f4a863c8663bf58169863db046dd474905bc0ed58395dafc4379c"}, "docker": "quay.io/biocontainers/bioconductor-anf", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-anf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anf", "latest": {"1.32.0--r45hdfd78af_0": "sha256:b6ddb60812c3403b1808f1c3165a182002ae03133b754d708d08c358dc2ee6cf"}, "tags": {"1.8.0--r36_0": "sha256:b424740cc517d537475f65bd4b39f2b9fedc5604c99e7bd10c7547575a718d3e", "1.20.0--r42hdfd78af_0": "sha256:945af4fb86a1368d469cc96f668e99e751649a7e75cdf0e2451cbef7ca3d7b01", "1.16.0--r41hdfd78af_0": "sha256:2273e38add583c5333b956d1d9c60e335e739e5116be33e5123dabb64eced26c", "1.13.0--r41hdfd78af_0": "sha256:570439ac75198fb517eb206a4e3f2b3b9fb686fd16a0fcda137608268451ce27", "1.12.0--r40hdfd78af_1": "sha256:2c72a4d8a333bd0f0aa007faebff725ad8dc8f9306c5fb6a3831f564b85bea05", "1.10.0--r40_0": "sha256:88af65098da5757a9166720e58338ba1845141949342d3a1296d8358d68c09bc", "1.22.0--r43hdfd78af_0": "sha256:02d99b575617684a862ce59091bebfa1d275759195a3e4c90ce4a1b1896bc3eb", "1.28.0--r44hdfd78af_0": "sha256:272f2a24e40f4a863c8663bf58169863db046dd474905bc0ed58395dafc4379c", "1.32.0--r45hdfd78af_0": "sha256:b6ddb60812c3403b1808f1c3165a182002ae03133b754d708d08c358dc2ee6cf"}, "docker": "quay.io/biocontainers/bioconductor-anf", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-anf.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-anf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-anf:1.28.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-anf:1.32.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-anf/1.28.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-anf/1.28.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-anf/1.32.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-anf/1.32.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

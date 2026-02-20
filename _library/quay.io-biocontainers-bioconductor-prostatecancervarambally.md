@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-prostatecancervarambally"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostatecancervarambally/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostatecancervarambally/container.yaml"
-updated_at: "2026-02-19 06:58:14.051808"
-latest: "1.34.0--r44hdfd78af_0"
+updated_at: "2026-02-20 04:58:00.333455"
+latest: "1.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostatecancervarambally"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.34.0--r44hdfd78af_0"
+ - "1.38.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prostatecancervarambally"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prostatecancervarambally", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostatecancervarambally", "latest": {"1.34.0--r44hdfd78af_0": "sha256:4d1866d195f7779a3796d4859633a48b1a5c01fc4c3b96d303b361ce7b48fcca"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:cf62f25a049f839bb6e5720445d3d1676b94d8ea39c63c488678978f4c784b7f", "1.26.0--r42hdfd78af_0": "sha256:87a534a2c6fd75b256c074e316ad73f63732fdf63caa5a33da826671612a49f0", "1.28.0--r43hdfd78af_0": "sha256:689963344fc7460a9e2c8ba6387262e6bfd55e2ba003ef5e75f00b2852163986", "1.30.0--r43hdfd78af_0": "sha256:6fc20767b30c91790d44eea57f624b8c60fc827ba3d88e4fa591d8d7419dd087", "1.34.0--r44hdfd78af_0": "sha256:4d1866d195f7779a3796d4859633a48b1a5c01fc4c3b96d303b361ce7b48fcca"}, "docker": "quay.io/biocontainers/bioconductor-prostatecancervarambally"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prostatecancervarambally", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostatecancervarambally", "latest": {"1.38.0--r45hdfd78af_0": "sha256:f30eba9bf15f6e3189a2aaad16c59e7742b0d14eaf766b5be5047ed1af2d4a28"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:cf62f25a049f839bb6e5720445d3d1676b94d8ea39c63c488678978f4c784b7f", "1.26.0--r42hdfd78af_0": "sha256:87a534a2c6fd75b256c074e316ad73f63732fdf63caa5a33da826671612a49f0", "1.28.0--r43hdfd78af_0": "sha256:689963344fc7460a9e2c8ba6387262e6bfd55e2ba003ef5e75f00b2852163986", "1.30.0--r43hdfd78af_0": "sha256:6fc20767b30c91790d44eea57f624b8c60fc827ba3d88e4fa591d8d7419dd087", "1.34.0--r44hdfd78af_0": "sha256:4d1866d195f7779a3796d4859633a48b1a5c01fc4c3b96d303b361ce7b48fcca", "1.38.0--r45hdfd78af_0": "sha256:f30eba9bf15f6e3189a2aaad16c59e7742b0d14eaf766b5be5047ed1af2d4a28"}, "docker": "quay.io/biocontainers/bioconductor-prostatecancervarambally"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prostatecancervarambally.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-prostatecancervarambally
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-prostatecancervarambally:1.34.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-prostatecancervarambally:1.38.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-prostatecancervarambally/1.34.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-prostatecancervarambally/1.34.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-prostatecancervarambally/1.38.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-prostatecancervarambally/1.38.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/readfq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/readfq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/readfq/container.yaml"
-updated_at: "2026-02-19 06:58:21.732456"
+updated_at: "2026-02-20 04:22:43.005914"
 latest: "2015.08.30--h577a1d6_7"
 container_url: "https://biocontainers.pro/tools/readfq"
 aliases:

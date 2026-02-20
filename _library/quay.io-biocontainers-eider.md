@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eider/container.yaml"
-updated_at: "2026-02-19 07:28:10.444581"
-latest: "0.1--hdfd78af_0"
+updated_at: "2026-02-20 04:47:27.463962"
+latest: "0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eider"
 aliases:
  - "eider"
@@ -36,8 +36,9 @@ aliases:
  - "jinfo"
 versions:
  - "0.1--hdfd78af_0"
+ - "0.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for eider"
-config: {"url": "https://biocontainers.pro/tools/eider", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eider", "latest": {"0.1--hdfd78af_0": "sha256:3911cc881f0152f2886050aac279a9d87ae300262ffa6240061af8fcea9d85d0"}, "tags": {"0.1--hdfd78af_0": "sha256:3911cc881f0152f2886050aac279a9d87ae300262ffa6240061af8fcea9d85d0"}, "docker": "quay.io/biocontainers/eider", "aliases": {"eider": "/usr/local/bin/eider", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/eider", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eider", "latest": {"0.3--hdfd78af_0": "sha256:7e425c5a4cacb7e94c07085dcb3cd5d2e248c9b4afc035fe19ab9b7220553ff1"}, "tags": {"0.1--hdfd78af_0": "sha256:3911cc881f0152f2886050aac279a9d87ae300262ffa6240061af8fcea9d85d0", "0.3--hdfd78af_0": "sha256:7e425c5a4cacb7e94c07085dcb3cd5d2e248c9b4afc035fe19ab9b7220553ff1"}, "docker": "quay.io/biocontainers/eider", "aliases": {"eider": "/usr/local/bin/eider", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eider.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/eider
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eider:0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/eider:0.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eider/0.1--hdfd78af_0
-$ module help quay.io/biocontainers/eider/0.1--hdfd78af_0
+$ module load quay.io/biocontainers/eider/0.3--hdfd78af_0
+$ module help quay.io/biocontainers/eider/0.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

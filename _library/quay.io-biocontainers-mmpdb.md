@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmpdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmpdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mmpdb/container.yaml"
-updated_at: "2026-02-19 07:16:01.183984"
+updated_at: "2026-02-20 05:09:20.182772"
 latest: "3.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mmpdb"
 aliases:

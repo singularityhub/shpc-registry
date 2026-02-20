@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/barbell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barbell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barbell/container.yaml"
-updated_at: "2026-02-19 07:21:49.451517"
-latest: "0.3.0--hc1c3326_0"
+updated_at: "2026-02-20 04:43:51.275205"
+latest: "0.3.1--hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/barbell"
 aliases:
  - "barbell"
 versions:
  - "0.3.0--hc1c3326_0"
+ - "0.3.1--hc1c3326_0"
 description: "singularity registry hpc automated addition for barbell"
-config: {"url": "https://biocontainers.pro/tools/barbell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for barbell", "latest": {"0.3.0--hc1c3326_0": "sha256:ad9b13a629725e52188f31a0f1f84eeb7c8ad3b67d32c5443f52bc57da815fb7"}, "tags": {"0.3.0--hc1c3326_0": "sha256:ad9b13a629725e52188f31a0f1f84eeb7c8ad3b67d32c5443f52bc57da815fb7"}, "docker": "quay.io/biocontainers/barbell", "aliases": {"barbell": "/usr/local/bin/barbell"}}
+config: {"url": "https://biocontainers.pro/tools/barbell", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for barbell", "latest": {"0.3.1--hc1c3326_0": "sha256:3adbbd94b4a137b6be9ef922c334d44a6d868ceeb3553fe03960b90cdbfabfac"}, "tags": {"0.3.0--hc1c3326_0": "sha256:ad9b13a629725e52188f31a0f1f84eeb7c8ad3b67d32c5443f52bc57da815fb7", "0.3.1--hc1c3326_0": "sha256:3adbbd94b4a137b6be9ef922c334d44a6d868ceeb3553fe03960b90cdbfabfac"}, "docker": "quay.io/biocontainers/barbell", "aliases": {"barbell": "/usr/local/bin/barbell"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/barbell.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/barbell
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/barbell:0.3.0--hc1c3326_0
+$ shpc install quay.io/biocontainers/barbell:0.3.1--hc1c3326_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/barbell/0.3.0--hc1c3326_0
-$ module help quay.io/biocontainers/barbell/0.3.0--hc1c3326_0
+$ module load quay.io/biocontainers/barbell/0.3.1--hc1c3326_0
+$ module help quay.io/biocontainers/barbell/0.3.1--hc1c3326_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

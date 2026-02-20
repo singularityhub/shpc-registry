@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dpcstruct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dpcstruct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dpcstruct/container.yaml"
-updated_at: "2026-02-19 07:21:21.894667"
+updated_at: "2026-02-20 04:19:16.143863"
 latest: "0.1.1--h9948957_0"
 container_url: "https://biocontainers.pro/tools/dpcstruct"
 aliases:
