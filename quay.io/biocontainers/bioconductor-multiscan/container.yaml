@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-multiscan
 latest:
-  1.66.0--r44h3df3fcb_0: 
-    sha256:fac1be4d0ebb9c4a382c27ba096e4bd1363bef9e4f14728e13fc1047cb750615
+  1.70.0--r45h01b2380_0: 
+    sha256:b5515adfeaf8f17d8179b64624e36b3b0ed36ef18f52809420a76258f7a20e2b
 tags:
   1.54.0--r41hc0cfd56_2: 
     sha256:c0f78e8a360775039917d59e1ea66c22dbb6ee3fb69d7c334501259df6b6b374
@@ -18,4 +18,6 @@ tags:
     sha256:6a2a038e9f5c7fcda0ae07e58f2ceb291e39f150e8f336e0934886588983b40e
   1.66.0--r44h3df3fcb_0: 
     sha256:fac1be4d0ebb9c4a382c27ba096e4bd1363bef9e4f14728e13fc1047cb750615
+  1.70.0--r45h01b2380_0: 
+    sha256:b5515adfeaf8f17d8179b64624e36b3b0ed36ef18f52809420a76258f7a20e2b
 docker: quay.io/biocontainers/bioconductor-multiscan

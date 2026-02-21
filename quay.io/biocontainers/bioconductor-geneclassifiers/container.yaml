@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geneclassifiers
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:11bafd5c0553665a1de0c9e09824820f7f3da4ff6704b72689d58fd553f614c6
+  1.34.0--r45hdfd78af_0: 
+    sha256:f8e4c150572388057f01d6c10d5eb57efc7d4382b3b129afaf1f64cce7a02d2f
 tags:
   1.8.0--r36_1: 
     sha256:1cde63b7a8da2e58fe2d188b4702ff2a2fe8eb3385364cca6939ad85feb8feb0
@@ -24,6 +24,8 @@ tags:
     sha256:53700de8d62e6f37d9d7305382b7fc29c10aa980857d7534b6e2e0503aeecb90
   1.30.0--r44hdfd78af_0: 
     sha256:11bafd5c0553665a1de0c9e09824820f7f3da4ff6704b72689d58fd553f614c6
+  1.34.0--r45hdfd78af_0: 
+    sha256:f8e4c150572388057f01d6c10d5eb57efc7d4382b3b129afaf1f64cce7a02d2f
 docker: quay.io/biocontainers/bioconductor-geneclassifiers
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

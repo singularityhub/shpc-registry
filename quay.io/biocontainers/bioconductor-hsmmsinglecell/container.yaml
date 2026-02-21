@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hsmmsinglecell
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:26b932ee91a3502483b82a4459275ffbaa74e54213d0a0739747d8ee74f62086
+  1.30.0--r45hdfd78af_0: 
+    sha256:203916f64d531ef771836500c2f0280a17c1f048d2c9eacfd2e8ab88f27ca520
 tags:
   1.9.0--r40_0: 
     sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120
@@ -24,6 +24,8 @@ tags:
     sha256:4e2d7d12726bb2bbc783a33b5b7cd7de81eda9e0a9becb84079c107d0169ec77
   1.26.0--r44hdfd78af_0: 
     sha256:26b932ee91a3502483b82a4459275ffbaa74e54213d0a0739747d8ee74f62086
+  1.30.0--r45hdfd78af_0: 
+    sha256:203916f64d531ef771836500c2f0280a17c1f048d2c9eacfd2e8ab88f27ca520
 docker: quay.io/biocontainers/bioconductor-hsmmsinglecell
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

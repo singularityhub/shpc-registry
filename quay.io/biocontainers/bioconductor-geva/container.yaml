@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geva
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:2cdf99d8547f785c217d478d18950b5b3d8ea86b4e2bc060bf355c845421ee3c
+  1.18.0--r45hdfd78af_0: 
+    sha256:c594f5f1bfeca105c9896b38dc41a6a29a7bdeecf52f27d853c712f225c55cd3
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:3bc85396a228782fecc837d99e89b11b34657945592b81344a24ad86c517e05d
@@ -16,4 +16,6 @@ tags:
     sha256:a26f469b6bfceb8d6edc29aad6ef3e0b2685ee9c4b515675579cfd2670e7c206
   1.14.0--r44hdfd78af_0: 
     sha256:2cdf99d8547f785c217d478d18950b5b3d8ea86b4e2bc060bf355c845421ee3c
+  1.18.0--r45hdfd78af_0: 
+    sha256:c594f5f1bfeca105c9896b38dc41a6a29a7bdeecf52f27d853c712f225c55cd3
 docker: quay.io/biocontainers/bioconductor-geva

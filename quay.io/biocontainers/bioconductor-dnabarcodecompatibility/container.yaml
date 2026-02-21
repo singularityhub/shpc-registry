@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dnabarcodecompatibility
 latest:
-  1.22.0--r44he5774e6_0: 
-    sha256:1fa062065847178696f7b28ea71e0a3f60e72d765470a36b5a22b693d160a63c
+  1.26.0--r45ha27e39d_0: 
+    sha256:621eaa32247c9b1cd8e3c746fa10416aa0396ef786b319937392c0bcab794000
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:ca15e279d05f7933c34b8a073ddc86c680da31a6eda83d4aa9942e3d540d120a
@@ -18,6 +18,8 @@ tags:
     sha256:dc3b2fccc6c0ac5998c4eeaec4d496bbe661693061d5744d911152c3107a4d82
   1.22.0--r44he5774e6_0: 
     sha256:1fa062065847178696f7b28ea71e0a3f60e72d765470a36b5a22b693d160a63c
+  1.26.0--r45ha27e39d_0: 
+    sha256:621eaa32247c9b1cd8e3c746fa10416aa0396ef786b319937392c0bcab794000
 docker: quay.io/biocontainers/bioconductor-dnabarcodecompatibility
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pseqsid
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pseqsid
 latest:
-  1.0.2--h4349ce8_0: 
-    sha256:7d431bd1dfb55e91e64111828b1fcd666481d2d02e5dcbf54edc0efabccfc6a9
+  1.1.0--h4349ce8_0: 
+    sha256:8e28f53787301bde3d3a15dc38fd1fdf829536511e6ebb96e96a1930d1bfb34a
 tags:
   1.0.2--h4349ce8_0: 
     sha256:7d431bd1dfb55e91e64111828b1fcd666481d2d02e5dcbf54edc0efabccfc6a9
+  1.1.0--h4349ce8_0: 
+    sha256:8e28f53787301bde3d3a15dc38fd1fdf829536511e6ebb96e96a1930d1bfb34a
 docker: quay.io/biocontainers/pseqsid
 aliases:
   pseqsid: /usr/local/bin/pseqsid

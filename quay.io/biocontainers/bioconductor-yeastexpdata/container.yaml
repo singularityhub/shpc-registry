@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-yeastexpdata
 latest:
-  0.52.0--r44hdfd78af_0: 
-    sha256:bd1bab6203d657c58fac2028b635c87d9f77f197d494c4e774785b04d180fcbb
+  0.56.0--r45hdfd78af_0: 
+    sha256:e6897adf3a35bf12a9ac361559dd82d18adb5dc10d98fb05dcf4d427df41121b
 tags:
   0.40.0--r41hdfd78af_1: 
     sha256:b91cbc19e73158a8903f5b9edd5d86117f8e88e86e277af80ae5dac2e78f1af8
@@ -16,4 +16,6 @@ tags:
     sha256:b4b696a48a7d931d64fe0366e46b472af92f297dab8c69505e10763d2f5ad9da
   0.52.0--r44hdfd78af_0: 
     sha256:bd1bab6203d657c58fac2028b635c87d9f77f197d494c4e774785b04d180fcbb
+  0.56.0--r45hdfd78af_0: 
+    sha256:e6897adf3a35bf12a9ac361559dd82d18adb5dc10d98fb05dcf4d427df41121b
 docker: quay.io/biocontainers/bioconductor-yeastexpdata

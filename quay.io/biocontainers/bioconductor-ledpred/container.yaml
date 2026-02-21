@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ledpred
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:b81b0b3e9cbab360fc6db28c7ea094f81eb217f2a5f0fb4c8ee2af7316fb6662
+  1.44.0--r45hdfd78af_0: 
+    sha256:cf8c911678ad6fa5f2ccb4b1c774daf68565d4580ca80599115b811e45ec06e1
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:e281bd5747c43cad35127502852d92e6f1ba9ad9423cc0ccd912c71bd95749c0
@@ -16,4 +16,6 @@ tags:
     sha256:0a22d3664a5ea35e009d7beaf6f080b9d021e944d75cb921c9def431405177e8
   1.40.0--r44hdfd78af_0: 
     sha256:b81b0b3e9cbab360fc6db28c7ea094f81eb217f2a5f0fb4c8ee2af7316fb6662
+  1.44.0--r45hdfd78af_0: 
+    sha256:cf8c911678ad6fa5f2ccb4b1c774daf68565d4580ca80599115b811e45ec06e1
 docker: quay.io/biocontainers/bioconductor-ledpred

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ebimage
 latest:
-  4.48.0--r44he5774e6_0: 
-    sha256:8699a8aa032250c3f3ee596a59fdabe873f46cfa88778c316b0869381a212c06
+  4.52.0--r45ha27e39d_0: 
+    sha256:5f51e4b294e74ff8adc1ab84c82e016eda03ca7524b93224f8f306eac9a745a0
 tags:
   4.36.0--r41hc247a5b_2: 
     sha256:3a4318c3c88f06c470f967aae5473b2524d9067cba30077d65ee81a9eddac5cc
@@ -20,6 +20,8 @@ tags:
     sha256:28ac170e96da222c3e3ab10f200ba16e2c9fbc114d3d937cbf058489ed768f8f
   4.48.0--r44he5774e6_0: 
     sha256:8699a8aa032250c3f3ee596a59fdabe873f46cfa88778c316b0869381a212c06
+  4.52.0--r45ha27e39d_0: 
+    sha256:5f51e4b294e74ff8adc1ab84c82e016eda03ca7524b93224f8f306eac9a745a0
 docker: quay.io/biocontainers/bioconductor-ebimage
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-acde
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:72385e4562fec8a81f6bd098b5e8a15f7977b56285400608ca363c9093593aa5
+  1.40.0--r45hdfd78af_0: 
+    sha256:89b8246fcf877f8a02bea1561cdb851eddffc640ec59c22e566755ae952a462a
 tags:
   1.8.0--r3.4.1_0: 
     sha256:85c9befe514ef5e7682f4b96518eaa7f32b1a28a307794c3ef80760ac0cff0d9
@@ -24,6 +24,8 @@ tags:
     sha256:00ae3777c2ff184fbc870d669f054e20b27269bae281a6dab6915c480f9735a8
   1.36.0--r44hdfd78af_0: 
     sha256:72385e4562fec8a81f6bd098b5e8a15f7977b56285400608ca363c9093593aa5
+  1.40.0--r45hdfd78af_0: 
+    sha256:89b8246fcf877f8a02bea1561cdb851eddffc640ec59c22e566755ae952a462a
 docker: quay.io/biocontainers/bioconductor-acde
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

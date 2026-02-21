@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-asicsdata
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:64f4b2f1895461ca1ff322fa0c753eabe772aa542a5ce4dc2a0995ac1b9980b1
+  1.30.0--r45hdfd78af_0: 
+    sha256:1247f17f4019f381a2c3ee52ca14c8067ee6645bb53c5d022118c087006d9c07
 tags:
   1.8.0--r40_0: 
     sha256:51be5dff203b0d988470541e9809b84d1e007084bf57392170aa3a562002c1f1
@@ -20,6 +20,8 @@ tags:
     sha256:5938864b5f07f969db5489e5190fd2ffc4248860f9e80b3f23f619d5206c9ae6
   1.26.0--r44hdfd78af_0: 
     sha256:64f4b2f1895461ca1ff322fa0c753eabe772aa542a5ce4dc2a0995ac1b9980b1
+  1.30.0--r45hdfd78af_0: 
+    sha256:1247f17f4019f381a2c3ee52ca14c8067ee6645bb53c5d022118c087006d9c07
 docker: quay.io/biocontainers/bioconductor-asicsdata
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-yeastnagalakshmi
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:8e32476d9360dc8018a24be32508efe82e809abc09f6679eb77f00c845bd5362
+  1.46.0--r45hdfd78af_0: 
+    sha256:713490190b45b6dab31bfc9aaa3326fe98f439e4213385ed0d84bbfad61502ef
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:c42f199c52ea7add017438d034ef1771e6d3d30c8ce38f7764f3e8611a60371e
@@ -16,4 +16,6 @@ tags:
     sha256:2362946b41cbaaf454b57085c8a4d7b6cbb49b5e10389e0390870bb973323c99
   1.42.0--r44hdfd78af_0: 
     sha256:8e32476d9360dc8018a24be32508efe82e809abc09f6679eb77f00c845bd5362
+  1.46.0--r45hdfd78af_0: 
+    sha256:713490190b45b6dab31bfc9aaa3326fe98f439e4213385ed0d84bbfad61502ef
 docker: quay.io/biocontainers/bioconductor-yeastnagalakshmi

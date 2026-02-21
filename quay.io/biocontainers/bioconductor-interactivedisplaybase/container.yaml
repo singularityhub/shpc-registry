@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-interactivedisplaybase
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:8aecc52b7ff28181e3f8bbf9c2730fc17029ce9344090fb97899047daaff9feb
+  1.48.0--r45hdfd78af_0: 
+    sha256:496369254984119bbc0e0a66c684f1f0e849a23f78e2f1228515e0d3e07159e1
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:78dccc73ae8c866a2ec5d7a7c8a0fdcc66ef3514cb800ca83ee2d3c0f49299a3
@@ -16,4 +16,6 @@ tags:
     sha256:de15d0588ed673e06ea35f5faf9fd5573253a9845d6b2792dc40afe5ff72a9c6
   1.44.0--r44hdfd78af_0: 
     sha256:8aecc52b7ff28181e3f8bbf9c2730fc17029ce9344090fb97899047daaff9feb
+  1.48.0--r45hdfd78af_0: 
+    sha256:496369254984119bbc0e0a66c684f1f0e849a23f78e2f1228515e0d3e07159e1
 docker: quay.io/biocontainers/bioconductor-interactivedisplaybase
