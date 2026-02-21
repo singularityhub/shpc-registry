@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lukasa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lukasa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lukasa/container.yaml"
-updated_at: "2026-02-20 04:44:49.536833"
+updated_at: "2026-02-21 04:35:07.576536"
 latest: "0.15.0--py310hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lukasa"
 aliases:

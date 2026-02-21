@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/squeegee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squeegee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squeegee/container.yaml"
-updated_at: "2026-02-20 05:14:07.623567"
+updated_at: "2026-02-21 05:02:18.857687"
 latest: "0.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/squeegee"
 aliases:

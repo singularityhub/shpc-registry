@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cosnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosnet/container.yaml"
-updated_at: "2026-02-20 05:10:16.100203"
-latest: "1.40.0--r44h3df3fcb_0"
+updated_at: "2026-02-21 04:58:45.800267"
+latest: "1.44.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosnet"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.34.0--r43ha9d7317_0"
  - "1.36.0--r43ha9d7317_0"
  - "1.40.0--r44h3df3fcb_0"
+ - "1.44.0--r45h01b2380_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cosnet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cosnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosnet", "latest": {"1.40.0--r44h3df3fcb_0": "sha256:c515102c6bfcb05ee31c93cff497a28982696e609f6acde2405b56f9c336dd68"}, "tags": {"1.28.0--r41hc0cfd56_2": "sha256:0fc108595369f2deb733488ddf82fec0dbb25cfd001a112f8c6e0dff37492a44", "1.32.0--r42hc0cfd56_0": "sha256:5efe6bc543296dfd9c0ea82fe5c9fc0fe3161ddcba7d411a2720395681fdee86", "1.32.0--r42ha9d7317_2": "sha256:9d5da30c0aa5b9203a7b5e237962a2493c46f82aee2378def1423bbe21ca3e98", "1.34.0--r43ha9d7317_0": "sha256:66f9e98b5a5fb3124afe2abe3391df29c73b3261da05151f864608690719e9bc", "1.36.0--r43ha9d7317_0": "sha256:f8b30b815adfed977ec54b06c6658839058b898c3893498e2243561ad346bf68", "1.40.0--r44h3df3fcb_0": "sha256:c515102c6bfcb05ee31c93cff497a28982696e609f6acde2405b56f9c336dd68"}, "docker": "quay.io/biocontainers/bioconductor-cosnet"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cosnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosnet", "latest": {"1.44.0--r45h01b2380_0": "sha256:13449820301f3220ae8f3c6aa46dc59246a3fbf7ad6218eed4486f3c6f28ab67"}, "tags": {"1.28.0--r41hc0cfd56_2": "sha256:0fc108595369f2deb733488ddf82fec0dbb25cfd001a112f8c6e0dff37492a44", "1.32.0--r42hc0cfd56_0": "sha256:5efe6bc543296dfd9c0ea82fe5c9fc0fe3161ddcba7d411a2720395681fdee86", "1.32.0--r42ha9d7317_2": "sha256:9d5da30c0aa5b9203a7b5e237962a2493c46f82aee2378def1423bbe21ca3e98", "1.34.0--r43ha9d7317_0": "sha256:66f9e98b5a5fb3124afe2abe3391df29c73b3261da05151f864608690719e9bc", "1.36.0--r43ha9d7317_0": "sha256:f8b30b815adfed977ec54b06c6658839058b898c3893498e2243561ad346bf68", "1.40.0--r44h3df3fcb_0": "sha256:c515102c6bfcb05ee31c93cff497a28982696e609f6acde2405b56f9c336dd68", "1.44.0--r45h01b2380_0": "sha256:13449820301f3220ae8f3c6aa46dc59246a3fbf7ad6218eed4486f3c6f28ab67"}, "docker": "quay.io/biocontainers/bioconductor-cosnet"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cosnet.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cosnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cosnet:1.40.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-cosnet:1.44.0--r45h01b2380_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cosnet/1.40.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-cosnet/1.40.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-cosnet/1.44.0--r45h01b2380_0
+$ module help quay.io/biocontainers/bioconductor-cosnet/1.44.0--r45h01b2380_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

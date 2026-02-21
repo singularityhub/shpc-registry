@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mulder2012"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mulder2012/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mulder2012/container.yaml"
-updated_at: "2026-02-20 05:09:54.948783"
+updated_at: "2026-02-21 04:58:26.860320"
 latest: "0.26.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mulder2012"
 aliases:

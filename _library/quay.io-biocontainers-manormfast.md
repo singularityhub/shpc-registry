@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/manormfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/manormfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/manormfast/container.yaml"
-updated_at: "2026-02-20 04:28:38.276682"
+updated_at: "2026-02-21 04:19:36.196124"
 latest: "0.1.2--py36_1"
 container_url: "https://biocontainers.pro/tools/manormfast"
 aliases:

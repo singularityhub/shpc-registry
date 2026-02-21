@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zna/container.yaml"
-updated_at: "2026-02-20 04:33:29.135539"
+updated_at: "2026-02-21 04:24:08.931825"
 latest: "0.1.8--py310hbcdfcc8_0"
 container_url: "https://biocontainers.pro/tools/zna"
 aliases:
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.8--py310hbcdfcc8_0"
+ - "0.1.8--py311h39195ad_0"
 description: "singularity registry hpc automated addition for zna"
-config: {"url": "https://biocontainers.pro/tools/zna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zna", "latest": {"0.1.8--py310hbcdfcc8_0": "sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254"}, "tags": {"0.1.8--py310hbcdfcc8_0": "sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254"}, "docker": "quay.io/biocontainers/zna", "aliases": {"zna": "/usr/local/bin/zna", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/zna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zna", "latest": {"0.1.8--py310hbcdfcc8_0": "sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254"}, "tags": {"0.1.8--py310hbcdfcc8_0": "sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254", "0.1.8--py311h39195ad_0": "sha256:aeb894b6d3d11aa087076c31362eff5b8ad377f266df1a8b4d0459ef7742144b"}, "docker": "quay.io/biocontainers/zna", "aliases": {"zna": "/usr/local/bin/zna", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zna.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylornn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylornn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylornn/container.yaml"
-updated_at: "2026-02-20 04:21:00.209151"
+updated_at: "2026-02-21 04:12:27.477716"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylornn"
 aliases:

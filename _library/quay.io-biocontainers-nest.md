@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nest/container.yaml"
-updated_at: "2026-02-20 05:03:00.803052"
+updated_at: "2026-02-21 04:52:06.096578"
 latest: "2.14.0--py35h060fc9d_3"
 container_url: "https://biocontainers.pro/tools/nest"
 

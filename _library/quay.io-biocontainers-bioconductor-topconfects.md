@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-topconfects"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topconfects/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topconfects/container.yaml"
-updated_at: "2026-02-20 04:50:53.992205"
-latest: "1.22.0--r44hdfd78af_0"
+updated_at: "2026-02-21 04:40:49.132155"
+latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-topconfects"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "1.16.0--r43hdfd78af_0"
  - "1.18.0--r43hdfd78af_0"
  - "1.22.0--r44hdfd78af_0"
+ - "1.26.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-topconfects"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-topconfects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topconfects", "latest": {"1.22.0--r44hdfd78af_0": "sha256:8acb4575598f4bbf7d2d4cb861e804198c947d7b7ccee87ff4060e1f6e359ab1"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b58f263fecfac8ee2f0345b2c5a739f445f330286fb718213b7818a19dfd251d", "1.14.0--r42hdfd78af_0": "sha256:33295ff46b7d8456c28ee5adf743341847c44b3d94addbb7983cbd708a416ce4", "1.10.0--r41hdfd78af_0": "sha256:2e08200c00c3b7698c24b43141e2e2b2f13a21935c009c95ffc6b27f3515ca7e", "1.16.0--r43hdfd78af_0": "sha256:325a10042f260ec6b3da23078daf891ffa87246a1d9f236ab863d3464cd723d2", "1.18.0--r43hdfd78af_0": "sha256:553d684e10637fbdf22f5e3c5132eeb8d6b4ca416ef93a3b5a461790636815ec", "1.22.0--r44hdfd78af_0": "sha256:8acb4575598f4bbf7d2d4cb861e804198c947d7b7ccee87ff4060e1f6e359ab1"}, "docker": "quay.io/biocontainers/bioconductor-topconfects", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-topconfects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topconfects", "latest": {"1.26.0--r45hdfd78af_0": "sha256:0c14efc8d240ee7d4ded3f77618d3534a36c29a11c52a1a3f4b7cb14d7228e8b"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b58f263fecfac8ee2f0345b2c5a739f445f330286fb718213b7818a19dfd251d", "1.14.0--r42hdfd78af_0": "sha256:33295ff46b7d8456c28ee5adf743341847c44b3d94addbb7983cbd708a416ce4", "1.10.0--r41hdfd78af_0": "sha256:2e08200c00c3b7698c24b43141e2e2b2f13a21935c009c95ffc6b27f3515ca7e", "1.16.0--r43hdfd78af_0": "sha256:325a10042f260ec6b3da23078daf891ffa87246a1d9f236ab863d3464cd723d2", "1.18.0--r43hdfd78af_0": "sha256:553d684e10637fbdf22f5e3c5132eeb8d6b4ca416ef93a3b5a461790636815ec", "1.22.0--r44hdfd78af_0": "sha256:8acb4575598f4bbf7d2d4cb861e804198c947d7b7ccee87ff4060e1f6e359ab1", "1.26.0--r45hdfd78af_0": "sha256:0c14efc8d240ee7d4ded3f77618d3534a36c29a11c52a1a3f4b7cb14d7228e8b"}, "docker": "quay.io/biocontainers/bioconductor-topconfects", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-topconfects.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-topconfects
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-topconfects:1.22.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-topconfects:1.26.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-topconfects/1.22.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-topconfects/1.22.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-topconfects/1.26.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-topconfects/1.26.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

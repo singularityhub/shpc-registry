@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orforise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orforise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orforise/container.yaml"
-updated_at: "2026-02-20 04:40:43.967878"
+updated_at: "2026-02-21 04:31:10.486562"
 latest: "1.6.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orforise"
 aliases:

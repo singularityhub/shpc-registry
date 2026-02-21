@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seacells"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seacells/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seacells/container.yaml"
-updated_at: "2026-02-20 04:59:43.127740"
+updated_at: "2026-02-21 04:49:00.930622"
 latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seacells"
 aliases:

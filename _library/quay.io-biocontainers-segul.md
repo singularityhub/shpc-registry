@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/segul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segul/container.yaml"
-updated_at: "2026-02-20 04:27:36.117762"
-latest: "0.22.1--hc1c3326_1"
+updated_at: "2026-02-21 04:18:37.689704"
+latest: "0.23.2--hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/segul"
 aliases:
  - "segul"
@@ -13,8 +13,9 @@ versions:
  - "0.21.3--h715e4b3_0"
  - "0.22.1--h715e4b3_0"
  - "0.22.1--hc1c3326_1"
+ - "0.23.2--hc1c3326_0"
 description: "singularity registry hpc automated addition for segul"
-config: {"url": "https://biocontainers.pro/tools/segul", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for segul", "latest": {"0.22.1--hc1c3326_1": "sha256:6920bb1c2ec4a821c4c252ffd296e997e7908577e96ec47b8590d3ec2462046d"}, "tags": {"0.21.3--h715e4b3_0": "sha256:84e5ccd7a6bccc02c48feab836a459c85ece8caa5ae5c5afb7c961c7bfc63bb5", "0.22.1--h715e4b3_0": "sha256:d9bd75dbbdc637b769e4975154a338ae787c7c5d2d7f8486a4875308d324e502", "0.22.1--hc1c3326_1": "sha256:6920bb1c2ec4a821c4c252ffd296e997e7908577e96ec47b8590d3ec2462046d"}, "docker": "quay.io/biocontainers/segul", "aliases": {"segul": "/usr/local/bin/segul"}}
+config: {"url": "https://biocontainers.pro/tools/segul", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for segul", "latest": {"0.23.2--hc1c3326_0": "sha256:033440e3c9776e9d8c5be2c846a2e060efd5cd5af3d690246678faacb5214e56"}, "tags": {"0.21.3--h715e4b3_0": "sha256:84e5ccd7a6bccc02c48feab836a459c85ece8caa5ae5c5afb7c961c7bfc63bb5", "0.22.1--h715e4b3_0": "sha256:d9bd75dbbdc637b769e4975154a338ae787c7c5d2d7f8486a4875308d324e502", "0.22.1--hc1c3326_1": "sha256:6920bb1c2ec4a821c4c252ffd296e997e7908577e96ec47b8590d3ec2462046d", "0.23.2--hc1c3326_0": "sha256:033440e3c9776e9d8c5be2c846a2e060efd5cd5af3d690246678faacb5214e56"}, "docker": "quay.io/biocontainers/segul", "aliases": {"segul": "/usr/local/bin/segul"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/segul.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/segul
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/segul:0.22.1--hc1c3326_1
+$ shpc install quay.io/biocontainers/segul:0.23.2--hc1c3326_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/segul/0.22.1--hc1c3326_1
-$ module help quay.io/biocontainers/segul/0.22.1--hc1c3326_1
+$ module load quay.io/biocontainers/segul/0.23.2--hc1c3326_0
+$ module help quay.io/biocontainers/segul/0.23.2--hc1c3326_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

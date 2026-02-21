@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dartunifrac-gpu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dartunifrac-gpu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dartunifrac-gpu/container.yaml"
-updated_at: "2026-02-20 04:24:22.256784"
+updated_at: "2026-02-21 04:15:37.971560"
 latest: "0.2.7--hd7384ae_0"
 container_url: "https://biocontainers.pro/tools/dartunifrac-gpu"
 aliases:

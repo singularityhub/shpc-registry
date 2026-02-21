@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methpipe/container.yaml"
-updated_at: "2026-02-20 04:24:41.061775"
+updated_at: "2026-02-21 04:15:55.402869"
 latest: "5.0.1--h76b9af2_6"
 container_url: "https://biocontainers.pro/tools/methpipe"
 aliases:

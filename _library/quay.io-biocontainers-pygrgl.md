@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pygrgl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygrgl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygrgl/container.yaml"
-updated_at: "2026-02-20 04:49:36.074862"
-latest: "2.4--py310h275bdba_0"
+updated_at: "2026-02-21 04:39:36.527606"
+latest: "2.6--py310h275bdba_0"
 container_url: "https://biocontainers.pro/tools/pygrgl"
 aliases:
  - "grg"
@@ -18,8 +18,10 @@ aliases:
 versions:
  - "2.4--py310h275bdba_0"
  - "2.4--py39h475c85d_0"
+ - "2.6--py310h275bdba_0"
+ - "2.5--py39h475c85d_0"
 description: "singularity registry hpc automated addition for pygrgl"
-config: {"url": "https://biocontainers.pro/tools/pygrgl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygrgl", "latest": {"2.4--py310h275bdba_0": "sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9"}, "tags": {"2.4--py310h275bdba_0": "sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9", "2.4--py39h475c85d_0": "sha256:34931c2d4311ce89a20d1c19974a9503162fd2210ddf6132b8f31a5f541d0d0d"}, "docker": "quay.io/biocontainers/pygrgl", "aliases": {"grg": "/usr/local/bin/grg", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pygrgl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygrgl", "latest": {"2.6--py310h275bdba_0": "sha256:e22c8eda56c97934632f557af83270d2f03dd3f09f29ccac7aa547913231fe2a"}, "tags": {"2.4--py310h275bdba_0": "sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9", "2.4--py39h475c85d_0": "sha256:34931c2d4311ce89a20d1c19974a9503162fd2210ddf6132b8f31a5f541d0d0d", "2.6--py310h275bdba_0": "sha256:e22c8eda56c97934632f557af83270d2f03dd3f09f29ccac7aa547913231fe2a", "2.5--py39h475c85d_0": "sha256:9294cec1ac4c9066965626bc905039cd04f53ba644059c8328b3aaf039bf6d8c"}, "docker": "quay.io/biocontainers/pygrgl", "aliases": {"grg": "/usr/local/bin/grg", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygrgl.
@@ -34,7 +36,7 @@ $ shpc install quay.io/biocontainers/pygrgl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pygrgl:2.4--py310h275bdba_0
+$ shpc install quay.io/biocontainers/pygrgl:2.6--py310h275bdba_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pygrgl/2.4--py310h275bdba_0
-$ module help quay.io/biocontainers/pygrgl/2.4--py310h275bdba_0
+$ module load quay.io/biocontainers/pygrgl/2.6--py310h275bdba_0
+$ module help quay.io/biocontainers/pygrgl/2.6--py310h275bdba_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

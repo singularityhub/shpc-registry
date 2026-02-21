@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgrc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgrc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgrc/container.yaml"
-updated_at: "2026-02-20 04:48:19.092545"
+updated_at: "2026-02-21 04:38:22.935000"
 latest: "2.0.2--h9948957_1"
 container_url: "https://biocontainers.pro/tools/pgrc"
 aliases:

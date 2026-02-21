@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dbgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dbgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dbgraph/container.yaml"
-updated_at: "2026-02-20 04:37:39.886847"
+updated_at: "2026-02-21 04:28:15.393319"
 latest: "1.0.0--h9948957_2"
 container_url: "https://biocontainers.pro/tools/dbgraph"
 aliases:
