@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parnas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parnas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parnas/container.yaml"
-updated_at: "2026-02-21 05:00:34.539436"
+updated_at: "2026-02-22 05:12:37.365139"
 latest: "0.1.7--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/parnas"
 aliases:

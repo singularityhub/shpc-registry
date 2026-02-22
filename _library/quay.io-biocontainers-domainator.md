@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/domainator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/domainator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/domainator/container.yaml"
-updated_at: "2026-02-21 04:31:18.411005"
+updated_at: "2026-02-22 04:43:07.332296"
 latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/domainator"
 aliases:

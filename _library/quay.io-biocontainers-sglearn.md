@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sglearn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sglearn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sglearn/container.yaml"
-updated_at: "2026-02-21 04:53:37.678099"
+updated_at: "2026-02-22 05:05:25.583566"
 latest: "1.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sglearn"
 aliases:

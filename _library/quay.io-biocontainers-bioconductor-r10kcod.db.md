@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-r10kcod.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-r10kcod.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-r10kcod.db/container.yaml"
-updated_at: "2026-02-21 04:59:30.835929"
+updated_at: "2026-02-22 05:11:31.476701"
 latest: "3.4.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-r10kcod.db"
 

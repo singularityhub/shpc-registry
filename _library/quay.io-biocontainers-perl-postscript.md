@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-postscript"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-postscript/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-postscript/container.yaml"
-updated_at: "2026-02-21 04:59:47.514170"
+updated_at: "2026-02-22 05:11:48.573739"
 latest: "0.06--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-postscript"
 aliases:

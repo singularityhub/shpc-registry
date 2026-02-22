@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pseqsid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pseqsid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pseqsid/container.yaml"
-updated_at: "2026-02-21 04:39:58.122825"
-latest: "1.0.2--h4349ce8_0"
+updated_at: "2026-02-22 04:51:39.408125"
+latest: "1.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/pseqsid"
 aliases:
  - "pseqsid"
 versions:
  - "1.0.2--h4349ce8_0"
+ - "1.1.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for pseqsid"
-config: {"url": "https://biocontainers.pro/tools/pseqsid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pseqsid", "latest": {"1.0.2--h4349ce8_0": "sha256:7d431bd1dfb55e91e64111828b1fcd666481d2d02e5dcbf54edc0efabccfc6a9"}, "tags": {"1.0.2--h4349ce8_0": "sha256:7d431bd1dfb55e91e64111828b1fcd666481d2d02e5dcbf54edc0efabccfc6a9"}, "docker": "quay.io/biocontainers/pseqsid", "aliases": {"pseqsid": "/usr/local/bin/pseqsid"}}
+config: {"url": "https://biocontainers.pro/tools/pseqsid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pseqsid", "latest": {"1.1.0--h4349ce8_0": "sha256:8e28f53787301bde3d3a15dc38fd1fdf829536511e6ebb96e96a1930d1bfb34a"}, "tags": {"1.0.2--h4349ce8_0": "sha256:7d431bd1dfb55e91e64111828b1fcd666481d2d02e5dcbf54edc0efabccfc6a9", "1.1.0--h4349ce8_0": "sha256:8e28f53787301bde3d3a15dc38fd1fdf829536511e6ebb96e96a1930d1bfb34a"}, "docker": "quay.io/biocontainers/pseqsid", "aliases": {"pseqsid": "/usr/local/bin/pseqsid"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pseqsid.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pseqsid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pseqsid:1.0.2--h4349ce8_0
+$ shpc install quay.io/biocontainers/pseqsid:1.1.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pseqsid/1.0.2--h4349ce8_0
-$ module help quay.io/biocontainers/pseqsid/1.0.2--h4349ce8_0
+$ module load quay.io/biocontainers/pseqsid/1.1.0--h4349ce8_0
+$ module help quay.io/biocontainers/pseqsid/1.1.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

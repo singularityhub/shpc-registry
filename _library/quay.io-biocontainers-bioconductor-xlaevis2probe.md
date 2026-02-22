@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xlaevis2probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xlaevis2probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xlaevis2probe/container.yaml"
-updated_at: "2026-02-21 04:24:07.524411"
+updated_at: "2026-02-22 04:35:58.345501"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-xlaevis2probe"
 

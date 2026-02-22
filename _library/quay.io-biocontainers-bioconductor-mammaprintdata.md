@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mammaprintdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mammaprintdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mammaprintdata/container.yaml"
-updated_at: "2026-02-21 04:53:08.466392"
+updated_at: "2026-02-22 05:04:55.463927"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mammaprintdata"
 

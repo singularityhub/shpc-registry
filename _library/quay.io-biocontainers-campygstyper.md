@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/campygstyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/campygstyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/campygstyper/container.yaml"
-updated_at: "2026-02-21 04:56:17.021168"
+updated_at: "2026-02-22 05:08:09.530974"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/campygstyper"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/swalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swalign/container.yaml"
-updated_at: "2026-02-21 04:33:28.003694"
+updated_at: "2026-02-22 04:45:13.508270"
 latest: "0.3.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/swalign"
 aliases:

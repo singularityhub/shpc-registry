@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ruby"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ruby/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/ruby/container.yaml"
-updated_at: "2026-02-21 04:09:44.743219"
+updated_at: "2026-02-22 04:21:24.116219"
 latest: "3.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ruby"
 aliases:
