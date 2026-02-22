@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-epivizrserver
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:3af7be02bd797f24b82d1f40cd2fa4d0706bc5fab8a1b7347aaf21a256a8369a
+  1.38.0--r45hdfd78af_0: 
+    sha256:3a2a3113397cc5f05d4b8a881266b00acf173f18f4c138361ce1b1868a17c653
 tags:
   1.8.1--r341_0: 
     sha256:11cf2df2b1ade0fd102bed690e860de1e9d3a7c58b7a9a99f6f4577ca82bcdae
@@ -24,6 +24,8 @@ tags:
     sha256:8dd4c78e0337f26d486a55f28ee24f4a945bdf97f87da6542b91dd64009dfa29
   1.34.0--r44hdfd78af_0: 
     sha256:3af7be02bd797f24b82d1f40cd2fa4d0706bc5fab8a1b7347aaf21a256a8369a
+  1.38.0--r45hdfd78af_0: 
+    sha256:3a2a3113397cc5f05d4b8a881266b00acf173f18f4c138361ce1b1868a17c653
 docker: quay.io/biocontainers/bioconductor-epivizrserver
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

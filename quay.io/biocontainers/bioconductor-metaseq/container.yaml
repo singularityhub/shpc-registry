@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metaseq
 latest:
-  1.46.0--r44he5774e6_0: 
-    sha256:2bcacdabcea0dffdcdfd30962fe0320ffcb9b25abce5ed21369714c5e4690e9d
+  1.50.0--r45ha27e39d_0: 
+    sha256:878b0913c0379fab2a7f2553af18e35a203b155a761be569e044cf4c02291134
 tags:
   1.34.0--r41hc247a5b_2: 
     sha256:0d2003b258093e7989c6c350a28a1b500c3129ac1e94d27b1dae5e97f8807af0
@@ -20,4 +20,6 @@ tags:
     sha256:254cd7ea959f0f62bef775d95a3901120fe2009fe0d611493606bc2178f1b05b
   1.46.0--r44he5774e6_0: 
     sha256:2bcacdabcea0dffdcdfd30962fe0320ffcb9b25abce5ed21369714c5e4690e9d
+  1.50.0--r45ha27e39d_0: 
+    sha256:878b0913c0379fab2a7f2553af18e35a203b155a761be569e044cf4c02291134
 docker: quay.io/biocontainers/bioconductor-metaseq

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-easyreporting
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:dfb8d9389a244df3401e53fa572a3e14c4b50f229084682e6ecddd6297891be7
+  1.22.0--r45hdfd78af_0: 
+    sha256:a409a1f71f9d9b1fa744e3f116359664551a2c172e9474b609270a3906d6209f
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:8b9bfa934772943797b94c086f0ea13d39d5a4085d934677c666a2c314641c55
@@ -16,6 +16,8 @@ tags:
     sha256:7f397e8bad95b164da59b3a60c1363e06a91cc5966cf7268e9cc9afee003def3
   1.18.0--r44hdfd78af_0: 
     sha256:dfb8d9389a244df3401e53fa572a3e14c4b50f229084682e6ecddd6297891be7
+  1.22.0--r45hdfd78af_0: 
+    sha256:a409a1f71f9d9b1fa744e3f116359664551a2c172e9474b609270a3906d6209f
 docker: quay.io/biocontainers/bioconductor-easyreporting
 aliases:
   pandoc: /usr/local/bin/pandoc

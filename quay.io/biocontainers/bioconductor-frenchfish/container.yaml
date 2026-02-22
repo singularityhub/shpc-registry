@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-frenchfish
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:8bd8b5a7ee873d4f913dede606069830f185bf35e194ae6d1f8c1964885bff53
+  1.22.0--r45hdfd78af_0: 
+    sha256:da9166b8037209b1ab9a4f5e583b70623745a15da4c4c620ee003baa756c20ae
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:cb888657c3371e8a23a076c5297a9fcf39f6d0995e8657f021dd3a445c4557f3
@@ -16,4 +16,6 @@ tags:
     sha256:c3ce76b3d07e6e965897e0f4cd8fd9d17b766bf1004c02953fb4f88de0607374
   1.18.0--r44hdfd78af_0: 
     sha256:8bd8b5a7ee873d4f913dede606069830f185bf35e194ae6d1f8c1964885bff53
+  1.22.0--r45hdfd78af_0: 
+    sha256:da9166b8037209b1ab9a4f5e583b70623745a15da4c4c620ee003baa756c20ae
 docker: quay.io/biocontainers/bioconductor-frenchfish

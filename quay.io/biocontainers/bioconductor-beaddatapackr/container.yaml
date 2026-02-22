@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-beaddatapackr
 latest:
-  1.58.0--r44h3df3fcb_1: 
-    sha256:78ecb76cb3987d1facf685f1a965a81b184265db90cb2839c2af203022520d32
+  1.62.0--r45h01b2380_0: 
+    sha256:4b66d698db99358f357c5f1a9f7bf6135c73e4e730077b9e8cd472848ca4b927
 tags:
   1.46.0--r41hc0cfd56_2: 
     sha256:5b38e003be90ae8fcd4e39b816476d86e9aca1f165a56cf627610b14c15eaad7
@@ -20,4 +20,6 @@ tags:
     sha256:99d2e79812dc7b9095b821184be536b3bd265923bd4d667f2ff809fb76b1746c
   1.58.0--r44h3df3fcb_1: 
     sha256:78ecb76cb3987d1facf685f1a965a81b184265db90cb2839c2af203022520d32
+  1.62.0--r45h01b2380_0: 
+    sha256:4b66d698db99358f357c5f1a9f7bf6135c73e4e730077b9e8cd472848ca4b927
 docker: quay.io/biocontainers/bioconductor-beaddatapackr

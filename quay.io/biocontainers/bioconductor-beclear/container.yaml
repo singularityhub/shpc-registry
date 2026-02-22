@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-beclear
 latest:
-  2.22.0--r44he5774e6_0: 
-    sha256:c4c5b3c3c42db987de0aea0f325b228ae6170126cff6b69b540e8184c9cb1647
+  2.26.0--r45ha27e39d_0: 
+    sha256:2f1b447bd0e126602ae7f4f0705337ffedcd47e5fa7897f335f491ba9ca5f47d
 tags:
   2.8.0--r41h399db7b_0: 
     sha256:1f935f7433b9cda2a8620fe7252a010a71a995cefb30e79bed1417e1e1bae19e
@@ -22,6 +22,8 @@ tags:
     sha256:aac403097e355819942e247970baf6bce49ee0d385757e0e240f027ef23ad347
   2.22.0--r44he5774e6_0: 
     sha256:c4c5b3c3c42db987de0aea0f325b228ae6170126cff6b69b540e8184c9cb1647
+  2.26.0--r45ha27e39d_0: 
+    sha256:2f1b447bd0e126602ae7f4f0705337ffedcd47e5fa7897f335f491ba9ca5f47d
 docker: quay.io/biocontainers/bioconductor-beclear
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

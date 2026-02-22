@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-cardinalio
 latest:
-  1.4.0--r44he5774e6_0: 
-    sha256:7fcfbece986d3dbb2662a57247ce45f00a9137942d3899b6a578c40227dc3b46
+  1.8.0--r45ha27e39d_0: 
+    sha256:b242452d19ac16aa51be03600ea6021ddf1c5246b6b8ee132eff82536e93f02a
 tags:
   1.0.0--r43hf17093f_0: 
     sha256:fa9946e98a19269e62a9605231608f5ec9cca0eba41e83b62d1a244c11ca72f9
   1.4.0--r44he5774e6_0: 
     sha256:7fcfbece986d3dbb2662a57247ce45f00a9137942d3899b6a578c40227dc3b46
+  1.8.0--r45ha27e39d_0: 
+    sha256:b242452d19ac16aa51be03600ea6021ddf1c5246b6b8ee132eff82536e93f02a
 docker: quay.io/biocontainers/bioconductor-cardinalio
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

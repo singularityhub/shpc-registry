@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-snprelate
 latest:
-  1.40.0--r44he5774e6_0: 
-    sha256:7a3ace2612d7c889a128aa22e7bcb709d9a0541778c7aa7b494e0fee115afa1b
+  1.44.0--r45ha27e39d_0: 
+    sha256:20da7dea4ba0097a145c120bef40451a35a391e646e5ece58b1c7a5ff99fe290
 tags:
   1.28.0--r41hc247a5b_2: 
     sha256:a0c466bb78c868af1fa6d89a4d565fc75f8796aeb93042504e76e052eabffc4d
@@ -20,4 +20,6 @@ tags:
     sha256:ec023a6adefe2f6aac3df0d212e4f5a500fe02c5ef5d105af50c3ec87bcd50c7
   1.40.0--r44he5774e6_0: 
     sha256:7a3ace2612d7c889a128aa22e7bcb709d9a0541778c7aa7b494e0fee115afa1b
+  1.44.0--r45ha27e39d_0: 
+    sha256:20da7dea4ba0097a145c120bef40451a35a391e646e5ece58b1c7a5ff99fe290
 docker: quay.io/biocontainers/bioconductor-snprelate

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-limma
 latest:
-  3.62.1--r44h15a9599_1: 
-    sha256:d7a479f4708c1d10cb4ff0b06a21bababe3bb3a6078a5937e0accff23d8862c8
+  3.66.0--r45h01b2380_0: 
+    sha256:17f6fc23773dcc1ec541cd02a791bec595a8c0735b91c291faf29343218eb0ba
 tags:
   3.50.3--r41hc0cfd56_0: 
     sha256:ebe08bf8c6a098e89b76c5d79b0f6067da6b41971b6ef6b1c6fb0a5ce74e6eea
@@ -24,4 +24,6 @@ tags:
     sha256:142f005da938f5e1de8ebe7f12a0bdccb83568faeb555414ee1c14d2774fc1c9
   3.62.1--r44h15a9599_1: 
     sha256:d7a479f4708c1d10cb4ff0b06a21bababe3bb3a6078a5937e0accff23d8862c8
+  3.66.0--r45h01b2380_0: 
+    sha256:17f6fc23773dcc1ec541cd02a791bec595a8c0735b91c291faf29343218eb0ba
 docker: quay.io/biocontainers/bioconductor-limma

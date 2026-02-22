@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metid
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:36999cfe76bca39668d4e245cd10e101f83c73003af7d0cb41f661028f949811
+  1.28.0--r45hdfd78af_0: 
+    sha256:8a944dd697b2e94d5c10d7a0495e73fb24efd119bf3f4d43406f6a37f32ded93
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:5e124a960b80554a44f27fa121def07d2722075aa18a5e515152a478f1454d5e
@@ -20,6 +20,8 @@ tags:
     sha256:7ed394d5831d9472240c442f3a38f267683ab8846377abf64526cd782d636e01
   1.24.0--r44hdfd78af_0: 
     sha256:36999cfe76bca39668d4e245cd10e101f83c73003af7d0cb41f661028f949811
+  1.28.0--r45hdfd78af_0: 
+    sha256:8a944dd697b2e94d5c10d7a0495e73fb24efd119bf3f4d43406f6a37f32ded93
 docker: quay.io/biocontainers/bioconductor-metid
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

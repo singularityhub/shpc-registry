@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-informeasure
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:b020232a4f36e3fc1599fe732270558610b33d8ba079859604b4cbafad136a5f
+  1.20.0--r45hdfd78af_0: 
+    sha256:2ee1df7652b7602004f32bcaae5b0c7b5fef39ba3e5913f09ee3a8ef10d716ec
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:9f2dcaf2c6bb83c2f03d92cf4b0c242f88baca0f4e0d7e13b3db9851a837ee75
@@ -14,4 +14,6 @@ tags:
     sha256:133137f247cad11790a8784c19f35054b723f0e75817a7c1e28fa7c6097e5937
   1.16.0--r44hdfd78af_0: 
     sha256:b020232a4f36e3fc1599fe732270558610b33d8ba079859604b4cbafad136a5f
+  1.20.0--r45hdfd78af_0: 
+    sha256:2ee1df7652b7602004f32bcaae5b0c7b5fef39ba3e5913f09ee3a8ef10d716ec
 docker: quay.io/biocontainers/bioconductor-informeasure

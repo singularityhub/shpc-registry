@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-modcon
 latest:
-  1.14.0--pl5321r44hdfd78af_0: 
-    sha256:f1dc8343f39ddf236920cefa6734197d2378858ab9011eb8f41620ff88e20b0c
+  1.18.0--pl5321r45hdfd78af_0: 
+    sha256:ce66066ef02a14bf996fb5703ee29d348fc16f8a5b1d055b4af8bdfa87d43eea
 tags:
   1.2.0--pl5321r41hdfd78af_0: 
     sha256:79002c2588c382953e90830021d9f0c4ee7642c402c01a317fb796cd869dbf0f
@@ -16,6 +16,8 @@ tags:
     sha256:60c6e447e4004e323f994e09ed2d4ed1941ba0bd08573f86f380273516d84b60
   1.14.0--pl5321r44hdfd78af_0: 
     sha256:f1dc8343f39ddf236920cefa6734197d2378858ab9011eb8f41620ff88e20b0c
+  1.18.0--pl5321r45hdfd78af_0: 
+    sha256:ce66066ef02a14bf996fb5703ee29d348fc16f8a5b1d055b4af8bdfa87d43eea
 docker: quay.io/biocontainers/bioconductor-modcon
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

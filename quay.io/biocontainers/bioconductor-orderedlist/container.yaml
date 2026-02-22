@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-orderedlist
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:fa0875c71909ac89a6eff2c2954dbc26e37f1e61119c2412ebf3f4c90ce55755
+  1.82.0--r45hdfd78af_0: 
+    sha256:bd6f6ba5f0ec68215e2780e533f84192aa1f1572f723e22146e9a744a6a3d016
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:8de59ef1eda6e750f91055f6b850a54c571a542501d80449c7f91b31f8e71d3b
@@ -16,4 +16,6 @@ tags:
     sha256:74162b5a5476cc59c8bf6428deb0947738f56416fc698a2cc9a80717b8fe542a
   1.78.0--r44hdfd78af_0: 
     sha256:fa0875c71909ac89a6eff2c2954dbc26e37f1e61119c2412ebf3f4c90ce55755
+  1.82.0--r45hdfd78af_0: 
+    sha256:bd6f6ba5f0ec68215e2780e533f84192aa1f1572f723e22146e9a744a6a3d016
 docker: quay.io/biocontainers/bioconductor-orderedlist

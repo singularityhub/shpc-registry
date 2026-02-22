@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cytodx
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:ecf7b5d4f733e8a4f971587ca7f6f0cae26a7cab1e022106b4c612db268215f5
+  1.30.0--r45hdfd78af_0: 
+    sha256:8f83c6e1f7a54a33bb13b0d98630de98fc7d19b58d9598bdd02ee8b5f05de675
 tags:
   1.8.0--r40_0: 
     sha256:bf344b421bee276471a2073336742f9858f8204c9b6a0ac8ee518ca974ed901e
@@ -22,6 +22,8 @@ tags:
     sha256:48c273568e55cc335f02afbc3b5ca658780bd0ae7576c8c87d2bf3a94aa818e7
   1.26.0--r44hdfd78af_0: 
     sha256:ecf7b5d4f733e8a4f971587ca7f6f0cae26a7cab1e022106b4c612db268215f5
+  1.30.0--r45hdfd78af_0: 
+    sha256:8f83c6e1f7a54a33bb13b0d98630de98fc7d19b58d9598bdd02ee8b5f05de675
 docker: quay.io/biocontainers/bioconductor-cytodx
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

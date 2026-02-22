@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-twilight
 latest:
-  1.82.0--r44h3df3fcb_0: 
-    sha256:66b8bc2334b82e18cade0d3d3bbf45cdc46a3d2c021d5ee84123cbeb9215409a
+  1.86.0--r45h01b2380_0: 
+    sha256:704b2ff0473b7abf10d65354bbce9f43964bd6f904beb9149bf3839314067875
 tags:
   1.70.0--r41hc0cfd56_2: 
     sha256:85a3e35535a9c21b1c26e8118383160b96d6c1595e9da612df71a64317bee280
@@ -18,4 +18,6 @@ tags:
     sha256:c20e9b1a587ccc6f536858c5f201040c71f0a48ad49f739a305feb063cf8613d
   1.82.0--r44h3df3fcb_0: 
     sha256:66b8bc2334b82e18cade0d3d3bbf45cdc46a3d2c021d5ee84123cbeb9215409a
+  1.86.0--r45h01b2380_0: 
+    sha256:704b2ff0473b7abf10d65354bbce9f43964bd6f904beb9149bf3839314067875
 docker: quay.io/biocontainers/bioconductor-twilight
