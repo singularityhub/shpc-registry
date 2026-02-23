@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/base-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/base-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/base-notebook/container.yaml"
-updated_at: "2026-02-23 04:28:20.884912"
+updated_at: "2026-02-23 05:54:04.520680"
 latest: "2026-01-19"
 container_url: "https://quay.io/repository/jupyter/base-notebook"
 aliases:

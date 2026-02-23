@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vsclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vsclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vsclust/container.yaml"
-updated_at: "2026-02-23 04:30:10.201261"
+updated_at: "2026-02-23 05:55:53.349351"
 latest: "1.8.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vsclust"
 aliases:
