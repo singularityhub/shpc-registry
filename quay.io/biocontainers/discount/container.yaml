@@ -1,0 +1,74 @@
+url: https://biocontainers.pro/tools/discount
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for discount
+latest:
+  3.0.1--hdfd78af_0: 
+    sha256:3900bbae668fc68d44bd212d20e72ea5f959d014ca271a79a923f86288686af8
+tags:
+  3.0.1--hdfd78af_0: 
+    sha256:3900bbae668fc68d44bd212d20e72ea5f959d014ca271a79a923f86288686af8
+docker: quay.io/biocontainers/discount
+aliases:
+  beeline: /usr/local/bin/beeline
+  beeline.cmd: /usr/local/bin/beeline.cmd
+  discount-aws.sh: /usr/local/bin/discount-aws.sh
+  discount-gcloud.sh: /usr/local/bin/discount-gcloud.sh
+  discount-shell.sh: /usr/local/bin/discount-shell.sh
+  discount.sh: /usr/local/bin/discount.sh
+  docker-image-tool.sh: /usr/local/bin/docker-image-tool.sh
+  find-spark-home: /usr/local/bin/find-spark-home
+  find-spark-home.cmd: /usr/local/bin/find-spark-home.cmd
+  find_spark_home.py: /usr/local/bin/find_spark_home.py
+  load-spark-env.cmd: /usr/local/bin/load-spark-env.cmd
+  load-spark-env.sh: /usr/local/bin/load-spark-env.sh
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  pyspark: /usr/local/bin/pyspark
+  pyspark.cmd: /usr/local/bin/pyspark.cmd
+  pyspark2.cmd: /usr/local/bin/pyspark2.cmd
+  run-example: /usr/local/bin/run-example
+  run-example.cmd: /usr/local/bin/run-example.cmd
+  spark-class: /usr/local/bin/spark-class
+  spark-class.cmd: /usr/local/bin/spark-class.cmd
+  spark-class2.cmd: /usr/local/bin/spark-class2.cmd
+  spark-connect-shell: /usr/local/bin/spark-connect-shell
+  spark-shell: /usr/local/bin/spark-shell
+  spark-shell.cmd: /usr/local/bin/spark-shell.cmd
+  spark-shell2.cmd: /usr/local/bin/spark-shell2.cmd
+  spark-sql: /usr/local/bin/spark-sql
+  spark-sql.cmd: /usr/local/bin/spark-sql.cmd
+  spark-sql2.cmd: /usr/local/bin/spark-sql2.cmd
+  spark-submit: /usr/local/bin/spark-submit
+  spark-submit.cmd: /usr/local/bin/spark-submit.cmd
+  spark-submit2.cmd: /usr/local/bin/spark-submit2.cmd
+  sparkR: /usr/local/bin/sparkR
+  sparkR.cmd: /usr/local/bin/sparkR.cmd
+  sparkR2.cmd: /usr/local/bin/sparkR2.cmd
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastishadow: /usr/local/bin/elastishadow
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  jwebserver: /usr/local/bin/jwebserver
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl: /usr/local/bin/elasticurl
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  jpackage: /usr/local/bin/jpackage
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin

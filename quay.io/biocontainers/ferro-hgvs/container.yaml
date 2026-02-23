@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/ferro-hgvs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ferro-hgvs
+latest:
+  0.1.0--h521612f_0: 
+    sha256:1d94d0a5714b06d99a43240166b13a3cdea6b70322492125f7c411be5959b76d
+tags:
+  0.1.0--h521612f_0: 
+    sha256:1d94d0a5714b06d99a43240166b13a3cdea6b70322492125f7c411be5959b76d
+docker: quay.io/biocontainers/ferro-hgvs
+aliases:
+  ferro: /usr/local/bin/ferro
+  ferro-benchmark: /usr/local/bin/ferro-benchmark

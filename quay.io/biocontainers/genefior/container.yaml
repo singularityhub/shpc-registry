@@ -1,0 +1,48 @@
+url: https://biocontainers.pro/tools/genefior
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genefior
+latest:
+  0.6.0--pyhdfd78af_0: 
+    sha256:dc731613fc40fc85886b3cef21f0588b225523be8bc7b6a39ece64f6792d3cb3
+tags:
+  0.6.0--pyhdfd78af_0: 
+    sha256:dc731613fc40fc85886b3cef21f0588b225523be8bc7b6a39ece64f6792d3cb3
+docker: quay.io/biocontainers/genefior
+aliases:
+  AMRFior: /usr/local/bin/AMRFior
+  AMRfior: /usr/local/bin/AMRfior
+  GeneFior: /usr/local/bin/GeneFior
+  GeneFior-Gene-Stats: /usr/local/bin/GeneFior-Gene-Stats
+  GeneFior-Recompute: /usr/local/bin/GeneFior-Recompute
+  GeneFior-gene-stats: /usr/local/bin/GeneFior-gene-stats
+  GeneFior-recompute: /usr/local/bin/GeneFior-recompute
+  amrfior: /usr/local/bin/amrfior
+  geneFior: /usr/local/bin/geneFior
+  genefior: /usr/local/bin/genefior
+  genefior-gene-stats: /usr/local/bin/genefior-gene-stats
+  genefior-recompute: /usr/local/bin/genefior-recompute
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  aria2c: /usr/local/bin/aria2c
+  ref-cache: /usr/local/bin/ref-cache
+  mmseqs: /usr/local/bin/mmseqs
+  seqtk: /usr/local/bin/seqtk
+  bsmp2info: /usr/local/bin/bsmp2info

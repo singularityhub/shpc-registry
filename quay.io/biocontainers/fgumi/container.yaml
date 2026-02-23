@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/fgumi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fgumi
+latest:
+  0.1.0--h54198d6_0: 
+    sha256:35257dabe1ec92f04ac93fd3e5341e412b7aefd123f49a7323a80112fc058d11
+tags:
+  0.1.0--h54198d6_0: 
+    sha256:35257dabe1ec92f04ac93fd3e5341e412b7aefd123f49a7323a80112fc058d11
+docker: quay.io/biocontainers/fgumi
+aliases:
+  fgumi: /usr/local/bin/fgumi
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
