@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sepp/container.yaml"
-updated_at: "2026-02-22 04:52:20.444062"
-latest: "4.5.6--py311haab0aaa_1"
+updated_at: "2026-02-23 04:58:32.437381"
+latest: "4.5.6--py312h87e0c26_4"
 container_url: "https://biocontainers.pro/tools/sepp"
 
 versions:
@@ -19,8 +19,9 @@ versions:
  - "4.5.5--py310h9ee0642_2"
  - "4.5.5--py310h1fe012e_3"
  - "4.5.6--py311haab0aaa_1"
+ - "4.5.6--py312h87e0c26_4"
 description: "shpc-registry automated BioContainers addition for sepp"
-config: {"url": "https://biocontainers.pro/tools/sepp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp", "latest": {"4.5.6--py311haab0aaa_1": "sha256:c2ba2b6df44437e04c3082c5bdb3eb92aeae05ee62f5b9047627ea2871b77d0f"}, "tags": {"v4.5.0--py37_0": "sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707", "4.5.1--py37he4bd417_1": "sha256:4c8d644c35724da9b40c63cf5b23a0a01290a0b05460c7d4c01d3b7cef83e055", "4.5.1--py37h9ee0642_2": "sha256:2a3b3440beb035b3306958a47b7d4f7b8315725f18698e86f40cc0d70de8574b", "4.5.1--py37h9ee0642_3": "sha256:45d72609b92a6d458b1d398b148f9e295f11ff65430bd19372d0f6527d6ded09", "4.5.1--py38h9ee0642_4": "sha256:05f6efdee773ddab222ba6a2bce472fe098224fb00ba82c1695363d55b9d60e3", "4.5.4--py310h9ee0642_1": "sha256:cecafad7924bf258b8ffb14e2ae36cbb2222dea041a831231de352bed6b3e262", "4.5.5--py310h9ee0642_0": "sha256:b1d43360360d9d2eeea1d46a43135840709fa07e09dedd58139436c107c3d62f", "4.5.5--py310h9ee0642_2": "sha256:c7b9e275ea5bcbc5047e6cc6c0e6a76a27ba97934e90ec241e7c2eb1e338ad51", "4.5.5--py310h1fe012e_3": "sha256:460974dde20c67038a5e2d986beb82cd68e966e47c133ae6f04594674bbdb091", "4.5.6--py311haab0aaa_1": "sha256:c2ba2b6df44437e04c3082c5bdb3eb92aeae05ee62f5b9047627ea2871b77d0f"}, "docker": "quay.io/biocontainers/sepp"}
+config: {"url": "https://biocontainers.pro/tools/sepp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp", "latest": {"4.5.6--py312h87e0c26_4": "sha256:e1340f97f75369a7fa58bdafd847cfc0e693cce2d9baaa03bb6a35a4c879dd15"}, "tags": {"v4.5.0--py37_0": "sha256:eb84a051d18e3ce745f75022ae81cb5c81b078e6064254879b76ab268870e707", "4.5.1--py37he4bd417_1": "sha256:4c8d644c35724da9b40c63cf5b23a0a01290a0b05460c7d4c01d3b7cef83e055", "4.5.1--py37h9ee0642_2": "sha256:2a3b3440beb035b3306958a47b7d4f7b8315725f18698e86f40cc0d70de8574b", "4.5.1--py37h9ee0642_3": "sha256:45d72609b92a6d458b1d398b148f9e295f11ff65430bd19372d0f6527d6ded09", "4.5.1--py38h9ee0642_4": "sha256:05f6efdee773ddab222ba6a2bce472fe098224fb00ba82c1695363d55b9d60e3", "4.5.4--py310h9ee0642_1": "sha256:cecafad7924bf258b8ffb14e2ae36cbb2222dea041a831231de352bed6b3e262", "4.5.5--py310h9ee0642_0": "sha256:b1d43360360d9d2eeea1d46a43135840709fa07e09dedd58139436c107c3d62f", "4.5.5--py310h9ee0642_2": "sha256:c7b9e275ea5bcbc5047e6cc6c0e6a76a27ba97934e90ec241e7c2eb1e338ad51", "4.5.5--py310h1fe012e_3": "sha256:460974dde20c67038a5e2d986beb82cd68e966e47c133ae6f04594674bbdb091", "4.5.6--py311haab0aaa_1": "sha256:c2ba2b6df44437e04c3082c5bdb3eb92aeae05ee62f5b9047627ea2871b77d0f", "4.5.6--py312h87e0c26_4": "sha256:e1340f97f75369a7fa58bdafd847cfc0e693cce2d9baaa03bb6a35a4c879dd15"}, "docker": "quay.io/biocontainers/sepp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sepp.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/sepp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sepp:4.5.6--py311haab0aaa_1
+$ shpc install quay.io/biocontainers/sepp:4.5.6--py312h87e0c26_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sepp/4.5.6--py311haab0aaa_1
-$ module help quay.io/biocontainers/sepp/4.5.6--py311haab0aaa_1
+$ module load quay.io/biocontainers/sepp/4.5.6--py312h87e0c26_4
+$ module help quay.io/biocontainers/sepp/4.5.6--py312h87e0c26_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

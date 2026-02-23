@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-samtools/container.yaml"
-updated_at: "2026-02-22 04:49:10.710462"
+updated_at: "2026-02-23 04:55:21.486961"
 latest: "1.43--pl5321h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/perl-bio-samtools"
 aliases:

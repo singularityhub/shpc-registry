@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-comapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-comapr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-comapr/container.yaml"
-updated_at: "2026-02-22 04:55:37.664044"
+updated_at: "2026-02-23 05:01:49.184828"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-comapr"
 aliases:

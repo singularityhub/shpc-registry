@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ahpathbankdbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahpathbankdbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahpathbankdbs/container.yaml"
-updated_at: "2026-02-22 04:40:19.893530"
+updated_at: "2026-02-23 04:46:35.067604"
 latest: "0.99.5--r43hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahpathbankdbs"
 

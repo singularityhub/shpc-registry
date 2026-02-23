@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vitap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vitap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vitap/container.yaml"
-updated_at: "2026-02-22 04:51:27.667722"
+updated_at: "2026-02-23 04:57:37.834219"
 latest: "1.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vitap"
 aliases:

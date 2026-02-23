@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-modcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-modcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-modcon/container.yaml"
-updated_at: "2026-02-22 04:46:35.136474"
-latest: "1.14.0--pl5321r44hdfd78af_0"
+updated_at: "2026-02-23 04:52:46.916384"
+latest: "1.18.0--pl5321r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-modcon"
 aliases:
  - "perl5.32.1"
@@ -16,8 +16,9 @@ versions:
  - "1.8.0--pl5321r43hdfd78af_0"
  - "1.10.0--pl5321r43hdfd78af_0"
  - "1.14.0--pl5321r44hdfd78af_0"
+ - "1.18.0--pl5321r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-modcon"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-modcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-modcon", "latest": {"1.14.0--pl5321r44hdfd78af_0": "sha256:f1dc8343f39ddf236920cefa6734197d2378858ab9011eb8f41620ff88e20b0c"}, "tags": {"1.2.0--pl5321r41hdfd78af_0": "sha256:79002c2588c382953e90830021d9f0c4ee7642c402c01a317fb796cd869dbf0f", "1.6.0--pl5321r42hdfd78af_0": "sha256:4eebebf930d8d55fe35cefd8a6688917f5e230ba305de85c68bd9b236e2eebc2", "1.8.0--pl5321r43hdfd78af_0": "sha256:9162602ff504a0e5c23b112c10d97ddea9a841cdf99f38e4fcc0e43110395b1d", "1.10.0--pl5321r43hdfd78af_0": "sha256:60c6e447e4004e323f994e09ed2d4ed1941ba0bd08573f86f380273516d84b60", "1.14.0--pl5321r44hdfd78af_0": "sha256:f1dc8343f39ddf236920cefa6734197d2378858ab9011eb8f41620ff88e20b0c"}, "docker": "quay.io/biocontainers/bioconductor-modcon", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-modcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-modcon", "latest": {"1.18.0--pl5321r45hdfd78af_0": "sha256:ce66066ef02a14bf996fb5703ee29d348fc16f8a5b1d055b4af8bdfa87d43eea"}, "tags": {"1.2.0--pl5321r41hdfd78af_0": "sha256:79002c2588c382953e90830021d9f0c4ee7642c402c01a317fb796cd869dbf0f", "1.6.0--pl5321r42hdfd78af_0": "sha256:4eebebf930d8d55fe35cefd8a6688917f5e230ba305de85c68bd9b236e2eebc2", "1.8.0--pl5321r43hdfd78af_0": "sha256:9162602ff504a0e5c23b112c10d97ddea9a841cdf99f38e4fcc0e43110395b1d", "1.10.0--pl5321r43hdfd78af_0": "sha256:60c6e447e4004e323f994e09ed2d4ed1941ba0bd08573f86f380273516d84b60", "1.14.0--pl5321r44hdfd78af_0": "sha256:f1dc8343f39ddf236920cefa6734197d2378858ab9011eb8f41620ff88e20b0c", "1.18.0--pl5321r45hdfd78af_0": "sha256:ce66066ef02a14bf996fb5703ee29d348fc16f8a5b1d055b4af8bdfa87d43eea"}, "docker": "quay.io/biocontainers/bioconductor-modcon", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-modcon.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-modcon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-modcon:1.14.0--pl5321r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-modcon:1.18.0--pl5321r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-modcon/1.14.0--pl5321r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-modcon/1.14.0--pl5321r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-modcon/1.18.0--pl5321r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-modcon/1.18.0--pl5321r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

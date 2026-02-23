@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mutyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutyper/container.yaml"
-updated_at: "2026-02-22 05:09:37.551664"
-latest: "1.0.2--py311haab0aaa_2"
+updated_at: "2026-02-23 05:15:40.645390"
+latest: "1.0.2--py311h26ae33e_3"
 container_url: "https://biocontainers.pro/tools/mutyper"
 aliases:
  - "mutyper"
@@ -30,8 +30,9 @@ versions:
  - "1.0.2--py310h7c593f9_0"
  - "1.0.2--py38h0020b31_1"
  - "1.0.2--py311haab0aaa_2"
+ - "1.0.2--py311h26ae33e_3"
 description: "singularity registry hpc automated addition for mutyper"
-config: {"url": "https://biocontainers.pro/tools/mutyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mutyper", "latest": {"1.0.2--py311haab0aaa_2": "sha256:4908bfb156685974950fc4b9c7234c36c09836d50336051cfb434ceeba6167a9"}, "tags": {"1.0.2--py310h7c593f9_0": "sha256:23b6e93589ee1a43cbb0d6d8cb202f14e398330161ae5b56d201d829768dbee0", "1.0.2--py38h0020b31_1": "sha256:7ca99cf339667101576c605f5f240f876a02be0fcc6db639b44109e50c5414e0", "1.0.2--py311haab0aaa_2": "sha256:4908bfb156685974950fc4b9c7234c36c09836d50336051cfb434ceeba6167a9"}, "docker": "quay.io/biocontainers/mutyper", "aliases": {"mutyper": "/usr/local/bin/mutyper", "cyvcf2": "/usr/local/bin/cyvcf2", "annot-tsv": "/usr/local/bin/annot-tsv", "numpy-config": "/usr/local/bin/numpy-config", "coloredlogs": "/usr/local/bin/coloredlogs", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "humanfriendly": "/usr/local/bin/humanfriendly", "faidx": "/usr/local/bin/faidx", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/mutyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mutyper", "latest": {"1.0.2--py311h26ae33e_3": "sha256:4f876feed9aaae01f18bcaefa1c034bf33bb8f93deada830ac85887cb707a487"}, "tags": {"1.0.2--py310h7c593f9_0": "sha256:23b6e93589ee1a43cbb0d6d8cb202f14e398330161ae5b56d201d829768dbee0", "1.0.2--py38h0020b31_1": "sha256:7ca99cf339667101576c605f5f240f876a02be0fcc6db639b44109e50c5414e0", "1.0.2--py311haab0aaa_2": "sha256:4908bfb156685974950fc4b9c7234c36c09836d50336051cfb434ceeba6167a9", "1.0.2--py311h26ae33e_3": "sha256:4f876feed9aaae01f18bcaefa1c034bf33bb8f93deada830ac85887cb707a487"}, "docker": "quay.io/biocontainers/mutyper", "aliases": {"mutyper": "/usr/local/bin/mutyper", "cyvcf2": "/usr/local/bin/cyvcf2", "annot-tsv": "/usr/local/bin/annot-tsv", "numpy-config": "/usr/local/bin/numpy-config", "coloredlogs": "/usr/local/bin/coloredlogs", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "humanfriendly": "/usr/local/bin/humanfriendly", "faidx": "/usr/local/bin/faidx", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mutyper.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/mutyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mutyper:1.0.2--py311haab0aaa_2
+$ shpc install quay.io/biocontainers/mutyper:1.0.2--py311h26ae33e_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mutyper/1.0.2--py311haab0aaa_2
-$ module help quay.io/biocontainers/mutyper/1.0.2--py311haab0aaa_2
+$ module load quay.io/biocontainers/mutyper/1.0.2--py311h26ae33e_3
+$ module help quay.io/biocontainers/mutyper/1.0.2--py311h26ae33e_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

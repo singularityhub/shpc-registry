@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylonium"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylonium/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylonium/container.yaml"
-updated_at: "2026-02-22 04:59:40.426784"
+updated_at: "2026-02-23 05:05:48.285042"
 latest: "1.7--hde5307d_0"
 container_url: "https://biocontainers.pro/tools/phylonium"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fmsb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fmsb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fmsb/container.yaml"
-updated_at: "2026-02-22 05:11:15.440649"
+updated_at: "2026-02-23 05:17:17.159407"
 latest: "0.6.3--r36h6115d3f_4"
 container_url: "https://biocontainers.pro/tools/r-fmsb"
 aliases:

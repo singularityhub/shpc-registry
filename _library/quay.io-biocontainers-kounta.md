@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kounta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kounta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kounta/container.yaml"
-updated_at: "2026-02-22 05:01:37.152988"
+updated_at: "2026-02-23 05:07:43.950128"
 latest: "0.2.3--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/kounta"
 aliases:

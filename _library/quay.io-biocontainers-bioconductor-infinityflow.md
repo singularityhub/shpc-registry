@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-infinityflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-infinityflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-infinityflow/container.yaml"
-updated_at: "2026-02-22 05:13:54.628487"
-latest: "1.12.0--r43hdfd78af_0"
+updated_at: "2026-02-23 05:19:55.493449"
+latest: "1.20.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-infinityflow"
 aliases:
  - "xgboost"
@@ -13,8 +13,9 @@ versions:
  - "1.4.0--r41hdfd78af_0"
  - "1.8.0--r42hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
+ - "1.20.2--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-infinityflow"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-infinityflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-infinityflow", "latest": {"1.12.0--r43hdfd78af_0": "sha256:194a05fd5a103a9b06adea52adb48f39c87a9f8728d49d09f59475c80b67f5ff"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:90943639ecd5452486b16b401d3b96ccefe5bdcae2d71d7edaed564a1fa39482", "1.8.0--r42hdfd78af_0": "sha256:f200f2550fdaf45800ab3f57edf1622b759e87bce8b7c443fed33f9066e6923c", "1.12.0--r43hdfd78af_0": "sha256:194a05fd5a103a9b06adea52adb48f39c87a9f8728d49d09f59475c80b67f5ff"}, "docker": "quay.io/biocontainers/bioconductor-infinityflow", "aliases": {"xgboost": "/usr/local/bin/xgboost"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-infinityflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-infinityflow", "latest": {"1.20.2--r45hdfd78af_0": "sha256:0f2c0a1185e8b490e7fec19c03739566636a7acc134e283640a4e6edbb85bb98"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:90943639ecd5452486b16b401d3b96ccefe5bdcae2d71d7edaed564a1fa39482", "1.8.0--r42hdfd78af_0": "sha256:f200f2550fdaf45800ab3f57edf1622b759e87bce8b7c443fed33f9066e6923c", "1.12.0--r43hdfd78af_0": "sha256:194a05fd5a103a9b06adea52adb48f39c87a9f8728d49d09f59475c80b67f5ff", "1.20.2--r45hdfd78af_0": "sha256:0f2c0a1185e8b490e7fec19c03739566636a7acc134e283640a4e6edbb85bb98"}, "docker": "quay.io/biocontainers/bioconductor-infinityflow", "aliases": {"xgboost": "/usr/local/bin/xgboost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-infinityflow.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-infinityflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-infinityflow:1.12.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-infinityflow:1.20.2--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-infinityflow/1.12.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-infinityflow/1.12.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-infinityflow/1.20.2--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-infinityflow/1.20.2--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

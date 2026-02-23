@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gdrtestdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdrtestdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdrtestdata/container.yaml"
-updated_at: "2026-02-22 05:10:36.934616"
-latest: "1.4.0--r44hdfd78af_0"
+updated_at: "2026-02-23 05:16:39.656476"
+latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdrtestdata"
 aliases:
  - "pcre2posix_test"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.4.0--r44hdfd78af_0"
+ - "1.8.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-gdrtestdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gdrtestdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gdrtestdata", "latest": {"1.4.0--r44hdfd78af_0": "sha256:97f70a3e74ae828c261f2954da5777c89490a191814cc1b851d36ce4034905d2"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:6d2df32a2a61998abadb4062a7a7b3f81a25ad271e2fc478183d9bda16f2b1f0", "1.4.0--r44hdfd78af_0": "sha256:97f70a3e74ae828c261f2954da5777c89490a191814cc1b851d36ce4034905d2"}, "docker": "quay.io/biocontainers/bioconductor-gdrtestdata", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gdrtestdata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gdrtestdata", "latest": {"1.8.0--r45hdfd78af_0": "sha256:27ba2dc6bfc83d25058760292b2de37603514f9f1789da0c33d440c288e77def"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:6d2df32a2a61998abadb4062a7a7b3f81a25ad271e2fc478183d9bda16f2b1f0", "1.4.0--r44hdfd78af_0": "sha256:97f70a3e74ae828c261f2954da5777c89490a191814cc1b851d36ce4034905d2", "1.8.0--r45hdfd78af_0": "sha256:27ba2dc6bfc83d25058760292b2de37603514f9f1789da0c33d440c288e77def"}, "docker": "quay.io/biocontainers/bioconductor-gdrtestdata", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gdrtestdata.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gdrtestdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gdrtestdata:1.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gdrtestdata:1.8.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gdrtestdata/1.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gdrtestdata/1.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gdrtestdata/1.8.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gdrtestdata/1.8.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

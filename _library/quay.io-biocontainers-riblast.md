@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riblast/container.yaml"
-updated_at: "2026-02-22 05:12:45.925914"
+updated_at: "2026-02-23 05:18:47.125125"
 latest: "1.2.0--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/riblast"
 aliases:

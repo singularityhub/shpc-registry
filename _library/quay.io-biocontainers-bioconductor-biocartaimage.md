@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biocartaimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocartaimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocartaimage/container.yaml"
-updated_at: "2026-02-22 05:05:47.139931"
-latest: "1.4.0--r44hdfd78af_0"
+updated_at: "2026-02-23 05:11:53.422179"
+latest: "1.8.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocartaimage"
 aliases:
  - "pcre2posix_test"
@@ -36,8 +36,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.4.0--r44hdfd78af_0"
+ - "1.8.1--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-biocartaimage"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocartaimage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biocartaimage", "latest": {"1.4.0--r44hdfd78af_0": "sha256:0cb90477b4d1ed6ca099fc883977a447f77842bd42e77e103249a46c7950589c"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:ea85b280ac09928f745e71bb45488887215a5011266dc659b77972b5d57aad62", "1.4.0--r44hdfd78af_0": "sha256:0cb90477b4d1ed6ca099fc883977a447f77842bd42e77e103249a46c7950589c"}, "docker": "quay.io/biocontainers/bioconductor-biocartaimage", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "convert": "/usr/local/bin/convert", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocartaimage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biocartaimage", "latest": {"1.8.1--r45hdfd78af_0": "sha256:1a2706f950733b8a8db0a14c35e063ca22e0a5f704272c806b3fd80e22913b44"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:ea85b280ac09928f745e71bb45488887215a5011266dc659b77972b5d57aad62", "1.4.0--r44hdfd78af_0": "sha256:0cb90477b4d1ed6ca099fc883977a447f77842bd42e77e103249a46c7950589c", "1.8.1--r45hdfd78af_0": "sha256:1a2706f950733b8a8db0a14c35e063ca22e0a5f704272c806b3fd80e22913b44"}, "docker": "quay.io/biocontainers/bioconductor-biocartaimage", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage", "convert": "/usr/local/bin/convert", "pkg-config": "/usr/local/bin/pkg-config", "pkg-config.bin": "/usr/local/bin/pkg-config.bin", "stream": "/usr/local/bin/stream", "compare": "/usr/local/bin/compare", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocartaimage.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocartaimage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocartaimage:1.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biocartaimage:1.8.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocartaimage/1.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biocartaimage/1.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biocartaimage/1.8.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biocartaimage/1.8.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

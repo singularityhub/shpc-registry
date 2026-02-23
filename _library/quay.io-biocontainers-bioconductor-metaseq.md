@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metaseq/container.yaml"
-updated_at: "2026-02-22 05:00:33.676772"
-latest: "1.46.0--r44he5774e6_0"
+updated_at: "2026-02-23 05:06:41.416604"
+latest: "1.50.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metaseq"
 
 versions:
@@ -16,8 +16,9 @@ versions:
  - "1.42.0--r43hf17093f_0"
  - "1.42.0--r43hf17093f_1"
  - "1.46.0--r44he5774e6_0"
+ - "1.50.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metaseq", "latest": {"1.46.0--r44he5774e6_0": "sha256:2bcacdabcea0dffdcdfd30962fe0320ffcb9b25abce5ed21369714c5e4690e9d"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:0d2003b258093e7989c6c350a28a1b500c3129ac1e94d27b1dae5e97f8807af0", "1.38.0--r42hc247a5b_0": "sha256:b98d8b751d98885fee17468dc843ce0f201775ff20ec02242c008c74d040fe63", "1.38.0--r42hf17093f_1": "sha256:f23c154b947ccfa567d6a0d561451f384e146d1579914cd706fadf533f856949", "1.40.0--r43hf17093f_0": "sha256:dcd6b2afd685757d0e17855d824f1a9d21f97e8b0ec54ab89fa81d7c20ee70f8", "1.42.0--r43hf17093f_0": "sha256:69671f714e3668ab7e564db68ba2e19b50f703eeb6d7d7f6a76ed6768a034d45", "1.42.0--r43hf17093f_1": "sha256:254cd7ea959f0f62bef775d95a3901120fe2009fe0d611493606bc2178f1b05b", "1.46.0--r44he5774e6_0": "sha256:2bcacdabcea0dffdcdfd30962fe0320ffcb9b25abce5ed21369714c5e4690e9d"}, "docker": "quay.io/biocontainers/bioconductor-metaseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metaseq", "latest": {"1.50.0--r45ha27e39d_0": "sha256:878b0913c0379fab2a7f2553af18e35a203b155a761be569e044cf4c02291134"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:0d2003b258093e7989c6c350a28a1b500c3129ac1e94d27b1dae5e97f8807af0", "1.38.0--r42hc247a5b_0": "sha256:b98d8b751d98885fee17468dc843ce0f201775ff20ec02242c008c74d040fe63", "1.38.0--r42hf17093f_1": "sha256:f23c154b947ccfa567d6a0d561451f384e146d1579914cd706fadf533f856949", "1.40.0--r43hf17093f_0": "sha256:dcd6b2afd685757d0e17855d824f1a9d21f97e8b0ec54ab89fa81d7c20ee70f8", "1.42.0--r43hf17093f_0": "sha256:69671f714e3668ab7e564db68ba2e19b50f703eeb6d7d7f6a76ed6768a034d45", "1.42.0--r43hf17093f_1": "sha256:254cd7ea959f0f62bef775d95a3901120fe2009fe0d611493606bc2178f1b05b", "1.46.0--r44he5774e6_0": "sha256:2bcacdabcea0dffdcdfd30962fe0320ffcb9b25abce5ed21369714c5e4690e9d", "1.50.0--r45ha27e39d_0": "sha256:878b0913c0379fab2a7f2553af18e35a203b155a761be569e044cf4c02291134"}, "docker": "quay.io/biocontainers/bioconductor-metaseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metaseq.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metaseq:1.46.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-metaseq:1.50.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metaseq/1.46.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-metaseq/1.46.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-metaseq/1.50.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-metaseq/1.50.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

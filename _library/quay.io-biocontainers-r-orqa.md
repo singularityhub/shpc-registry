@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-orqa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-orqa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-orqa/container.yaml"
-updated_at: "2026-02-22 05:07:25.383864"
+updated_at: "2026-02-23 05:13:30.417838"
 latest: "0.2.1--r44h40dc89f_11"
 container_url: "https://biocontainers.pro/tools/r-orqa"
 

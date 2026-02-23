@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/predictosaurus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/predictosaurus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/predictosaurus/container.yaml"
-updated_at: "2026-02-22 04:43:03.573423"
-latest: "0.7.4--hcb96839_0"
+updated_at: "2026-02-23 04:49:16.669083"
+latest: "0.8.3--hbcba35e_0"
 container_url: "https://biocontainers.pro/tools/predictosaurus"
 aliases:
  - "predictosaurus"
@@ -19,8 +19,9 @@ versions:
  - "0.6.0--hcb96839_0"
  - "0.5.0--hcb96839_0"
  - "0.7.4--hcb96839_0"
+ - "0.8.3--hbcba35e_0"
 description: "singularity registry hpc automated addition for predictosaurus"
-config: {"url": "https://biocontainers.pro/tools/predictosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for predictosaurus", "latest": {"0.7.4--hcb96839_0": "sha256:8d4e6cb8bdd15068893b5f2981a157433d41cfcfbc9d41d2124999ed16d9ecdf"}, "tags": {"0.2.2--hcb96839_0": "sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8", "0.2.6--hcb96839_0": "sha256:5b55b9230c15f7522e9cc28cae31174e0017a09f8dd05b5b1a17430e5d321462", "0.2.9--hcb96839_0": "sha256:b7f0dbe4ace67b6641a193141ffcdcba43897b0b7a624b1131f2f06799a973ca", "0.2.10--hcb96839_0": "sha256:e80342be635429d7a5a54f69d028ffcd83fefb31da37485603d03ed76f9e6f65", "0.3.2--hcb96839_0": "sha256:387aba70be685e80e480e25508dcb82e04d026c6b9521c7e2302e3973611f0b3", "0.4.2--hcb96839_0": "sha256:47509b683eff4a319bd63bd8388348465282c46bdb6ca291aee525c4e2d113f5", "0.6.0--hcb96839_0": "sha256:d5d61fda412516e81688e84af8ed100b88c1fbe76783af5b439e306b71134c79", "0.5.0--hcb96839_0": "sha256:b0148243f80c6faa8559220339b00d8ef0225bf59717ddaec96990697bf16441", "0.7.4--hcb96839_0": "sha256:8d4e6cb8bdd15068893b5f2981a157433d41cfcfbc9d41d2124999ed16d9ecdf"}, "docker": "quay.io/biocontainers/predictosaurus", "aliases": {"predictosaurus": "/usr/local/bin/predictosaurus"}}
+config: {"url": "https://biocontainers.pro/tools/predictosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for predictosaurus", "latest": {"0.8.3--hbcba35e_0": "sha256:038d9f657c4b52ab2c8985aa929486e871babdc67b374bd525c4858621e88430"}, "tags": {"0.2.2--hcb96839_0": "sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8", "0.2.6--hcb96839_0": "sha256:5b55b9230c15f7522e9cc28cae31174e0017a09f8dd05b5b1a17430e5d321462", "0.2.9--hcb96839_0": "sha256:b7f0dbe4ace67b6641a193141ffcdcba43897b0b7a624b1131f2f06799a973ca", "0.2.10--hcb96839_0": "sha256:e80342be635429d7a5a54f69d028ffcd83fefb31da37485603d03ed76f9e6f65", "0.3.2--hcb96839_0": "sha256:387aba70be685e80e480e25508dcb82e04d026c6b9521c7e2302e3973611f0b3", "0.4.2--hcb96839_0": "sha256:47509b683eff4a319bd63bd8388348465282c46bdb6ca291aee525c4e2d113f5", "0.6.0--hcb96839_0": "sha256:d5d61fda412516e81688e84af8ed100b88c1fbe76783af5b439e306b71134c79", "0.5.0--hcb96839_0": "sha256:b0148243f80c6faa8559220339b00d8ef0225bf59717ddaec96990697bf16441", "0.7.4--hcb96839_0": "sha256:8d4e6cb8bdd15068893b5f2981a157433d41cfcfbc9d41d2124999ed16d9ecdf", "0.8.3--hbcba35e_0": "sha256:038d9f657c4b52ab2c8985aa929486e871babdc67b374bd525c4858621e88430"}, "docker": "quay.io/biocontainers/predictosaurus", "aliases": {"predictosaurus": "/usr/local/bin/predictosaurus"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/predictosaurus.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/predictosaurus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/predictosaurus:0.7.4--hcb96839_0
+$ shpc install quay.io/biocontainers/predictosaurus:0.8.3--hbcba35e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/predictosaurus/0.7.4--hcb96839_0
-$ module help quay.io/biocontainers/predictosaurus/0.7.4--hcb96839_0
+$ module load quay.io/biocontainers/predictosaurus/0.8.3--hbcba35e_0
+$ module help quay.io/biocontainers/predictosaurus/0.8.3--hbcba35e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
