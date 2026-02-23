@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/dart-adna
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dart-adna
+latest:
+  1.0.4--ha27dd3b_0: 
+    sha256:ae9b897ef1eb5b79536750f4343a444abdb90f97f1885baf27a4d2ca77b5e073
+tags:
+  1.0.4--ha27dd3b_0: 
+    sha256:ae9b897ef1eb5b79536750f4343a444abdb90f97f1885baf27a4d2ca77b5e073
+docker: quay.io/biocontainers/dart-adna
+aliases:
+  dart: /usr/local/bin/dart

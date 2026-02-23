@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/ssw-py
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ssw-py
+latest:
+  1.0.1--py310h7c10099_0: 
+    sha256:517e0d8b8cae745d68cf1e9f72d7fad2ce896f38ca9da394019da60719484be9
+tags:
+  1.0.1--py310h7c10099_0: 
+    sha256:517e0d8b8cae745d68cf1e9f72d7fad2ce896f38ca9da394019da60719484be9
+docker: quay.io/biocontainers/ssw-py
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
