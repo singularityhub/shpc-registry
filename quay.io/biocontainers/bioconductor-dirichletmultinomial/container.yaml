@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dirichletmultinomial
 latest:
-  1.48.0--r44h34769fb_1: 
-    sha256:1050fa8eea96d61aed2337cef8ac466dd27c859a43659fc948ceaba90a4a8767
+  1.52.0--r45h57f0213_0: 
+    sha256:7d1e3ff52f9b8ebb5d9eb87643716c827a81e546a188c3708fee7da124436ed7
 tags:
   1.36.0--r41hda872b5_3: 
     sha256:255216cfe4681869fe889960d05b957dfe3ac2cecc8f37babb15e02cf3725c32
@@ -22,4 +22,6 @@ tags:
     sha256:b03e022a024d22806e29bd9c103b7884c87dbbfac91c980a8c4e071d6d252e48
   1.48.0--r44h34769fb_1: 
     sha256:1050fa8eea96d61aed2337cef8ac466dd27c859a43659fc948ceaba90a4a8767
+  1.52.0--r45h57f0213_0: 
+    sha256:7d1e3ff52f9b8ebb5d9eb87643716c827a81e546a188c3708fee7da124436ed7
 docker: quay.io/biocontainers/bioconductor-dirichletmultinomial

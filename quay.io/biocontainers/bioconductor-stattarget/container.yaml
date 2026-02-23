@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-stattarget
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:7aa5917c5d6162de7b95c1abdce445a0377724ed1230c62c96d823c215689f06
+  1.40.0--r45hdfd78af_0: 
+    sha256:a32ccafa0a08654f0e104e54931b1f92000ac7b420b5bcbb4e8e4c00b31e8183
 tags:
   1.24.0--r41hdfd78af_0: 
     sha256:aaa0f8b11f40823242ec21e4e8e8a33a83312e77cde7c4e3eadcfadc21aee90d
@@ -16,4 +16,6 @@ tags:
     sha256:2b635fdecaf480e8df1d962e7b981900ab6ccf49b8dac957efea9f3c3e408954
   1.36.0--r44hdfd78af_0: 
     sha256:7aa5917c5d6162de7b95c1abdce445a0377724ed1230c62c96d823c215689f06
+  1.40.0--r45hdfd78af_0: 
+    sha256:a32ccafa0a08654f0e104e54931b1f92000ac7b420b5bcbb4e8e4c00b31e8183
 docker: quay.io/biocontainers/bioconductor-stattarget

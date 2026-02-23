@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/copernicusmarine
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for copernicusmarine
 latest:
-  1.3.3: sha256:3a15a936c632bcd17cfdf844e7d25394515e5c3ceb72f69938ce35573d1efee3
+  2.3.0: sha256:b18e658d1735f4d1cc1cc3c11c95555d1c1ba43df459681c87d8c7be8ff3ca63
 tags:
   1.3.3: sha256:3a15a936c632bcd17cfdf844e7d25394515e5c3ceb72f69938ce35573d1efee3
+  2.3.0: sha256:b18e658d1735f4d1cc1cc3c11c95555d1c1ba43df459681c87d8c7be8ff3ca63
 docker: quay.io/biocontainers/copernicusmarine
 aliases:
   cachier: /usr/local/bin/cachier

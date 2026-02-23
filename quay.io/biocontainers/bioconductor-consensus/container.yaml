@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-consensus
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:1147c9cabc0f6519b0d11676a5906d9098b9587df3b7c8ef25cc3e98118dd8fb
+  1.28.0--r45hdfd78af_0: 
+    sha256:6839b626b31dd22429e0027c52f7d71cd27fad34c54f1c0f2973cc54b8f1d62f
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:cf7a2d20740da9fda17c945dc8bbf2cd305f1f208da68c3ef6bbc5333790ab4d
@@ -20,6 +20,8 @@ tags:
     sha256:6f31631dd653854b18c65069d4070a8d4b1ca9dd15d097577052c0edd22ffef4
   1.24.0--r44hdfd78af_0: 
     sha256:1147c9cabc0f6519b0d11676a5906d9098b9587df3b7c8ef25cc3e98118dd8fb
+  1.28.0--r45hdfd78af_0: 
+    sha256:6839b626b31dd22429e0027c52f7d71cd27fad34c54f1c0f2973cc54b8f1d62f
 docker: quay.io/biocontainers/bioconductor-consensus
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

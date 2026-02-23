@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-illuminadatatestfiles
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:b31a58418c51e55e0db32ec8649e0fb4df60581849d4650cb20e04d41a1e07e2
+  1.48.0--r45hdfd78af_0: 
+    sha256:f76e8a1429ce2d85d292e71b587f430477b701bc2dc95af5db34f083d7b3541a
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:5c1057145f4010b558883a2e4d010093aa223ab5196600e46b9592011be423e6
@@ -16,4 +16,6 @@ tags:
     sha256:1f01704a6599a8d8844da3908031f80abf330c729a9f58469e1b3ababe988a51
   1.44.0--r44hdfd78af_0: 
     sha256:b31a58418c51e55e0db32ec8649e0fb4df60581849d4650cb20e04d41a1e07e2
+  1.48.0--r45hdfd78af_0: 
+    sha256:f76e8a1429ce2d85d292e71b587f430477b701bc2dc95af5db34f083d7b3541a
 docker: quay.io/biocontainers/bioconductor-illuminadatatestfiles

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-empiricalbrownsmethod
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:14873c4ad4137417358cb7050733e9653809bde51c6147a36d3e8ccd3204ffb7
+  1.38.0--r45hdfd78af_0: 
+    sha256:ca9d64e40a636c4ab83767880ad0ce0d40f84ceaa5c2ab3711163940c2f8738f
 tags:
   1.8.0--r341_0: 
     sha256:d19c9b41d39ad5ec3105fa37f645c9394bba25139d49bb48775f13b32b9f9ebf
@@ -24,6 +24,8 @@ tags:
     sha256:fa82c500099876fdf1569674d6dc4cdb6be23b684c88583dc72b9c69c85e60b5
   1.34.0--r44hdfd78af_0: 
     sha256:14873c4ad4137417358cb7050733e9653809bde51c6147a36d3e8ccd3204ffb7
+  1.38.0--r45hdfd78af_0: 
+    sha256:ca9d64e40a636c4ab83767880ad0ce0d40f84ceaa5c2ab3711163940c2f8738f
 docker: quay.io/biocontainers/bioconductor-empiricalbrownsmethod
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

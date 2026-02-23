@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/vvv2_display
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vvv2_display
 latest:
-  0.2.4.0--pyhdfd78af_0: 
-    sha256:9dcb768ae41f350abdd3ec69be23e71ee3375496fe0cd37cd009c586a1553fc2
+  0.2.5.0--pyhdfd78af_0: 
+    sha256:5dd2d16287b51009aff9bfe799b6ff0927dc498ae85f263cfa4723f1e661c38a
 tags:
   0.2.1--pyhdfd78af_0: 
     sha256:8dee685ecc5e356091ac3de6c40f8f7d35461b99c0cff682245c794068ad3221
@@ -19,6 +19,8 @@ tags:
     sha256:fa1d1b950c922fee76aa928d376f9e360600e2330cc4e821141420b5866ac8eb
   0.2.4.0--pyhdfd78af_0: 
     sha256:9dcb768ae41f350abdd3ec69be23e71ee3375496fe0cd37cd009c586a1553fc2
+  0.2.5.0--pyhdfd78af_0: 
+    sha256:5dd2d16287b51009aff9bfe799b6ff0927dc498ae85f263cfa4723f1e661c38a
 docker: quay.io/biocontainers/vvv2_display
 aliases:
   convert_tbl2json.py: /usr/local/bin/convert_tbl2json.py

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pirate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pirate
 latest:
-  1.0.5--hdfd78af_0: 
-    sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0
+  1.0.5--hdfd78af_3: 
+    sha256:ee4ae77a459c22927f58519a611b5a4b5faf6e903b97e2f36217be8b1c60f56d
 tags:
   1.0.5--hdfd78af_0: 
     sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0
+  1.0.5--hdfd78af_3: 
+    sha256:ee4ae77a459c22927f58519a611b5a4b5faf6e903b97e2f36217be8b1c60f56d
 docker: quay.io/biocontainers/pirate
 aliases:
   PIRATE: /usr/local/bin/PIRATE

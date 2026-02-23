@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tkwidgets
 latest:
-  1.84.0--r44hdfd78af_0: 
-    sha256:ea8025cdf4014337f811984aa54d40b99a33a9cb5746090870027d1d320f8407
+  1.88.0--r45hdfd78af_0: 
+    sha256:ab01eab419112171e03ab5dbd8e9ff71c0283974dd6a63ece5b19fb70fad5353
 tags:
   1.72.0--r41hdfd78af_0: 
     sha256:94d8de59347395eb14b9bea42df2beacc1717ff276da54be4794218db5c2f1be
@@ -16,4 +16,6 @@ tags:
     sha256:4346a5b54a53d068167f370b398b3e864de141c5509f3e569ef661153f428276
   1.84.0--r44hdfd78af_0: 
     sha256:ea8025cdf4014337f811984aa54d40b99a33a9cb5746090870027d1d320f8407
+  1.88.0--r45hdfd78af_0: 
+    sha256:ab01eab419112171e03ab5dbd8e9ff71c0283974dd6a63ece5b19fb70fad5353
 docker: quay.io/biocontainers/bioconductor-tkwidgets
