@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genomewidesnp6crlmm
 latest:
-  1.0.7--r44hdfd78af_13: 
-    sha256:c80b5903ac617b15bf13f12f82544f4212dba9bd3b110e207c7550e4f0037a02
+  1.0.7--r45hdfd78af_14: 
+    sha256:ac15e9d69a68f5dbf8a08e4b899e28e5572515f356bae0b04837265084919444
 tags:
   1.0.7--r41hdfd78af_9: 
     sha256:f445455a18f9d4be1183c9010b41085ac54391c28bdda59d5247828b1bc99a3c
@@ -16,4 +16,6 @@ tags:
     sha256:6c4b451068e43e005ef9090a7b53c89274a717022905809cfe01984aaeb28282
   1.0.7--r44hdfd78af_13: 
     sha256:c80b5903ac617b15bf13f12f82544f4212dba9bd3b110e207c7550e4f0037a02
+  1.0.7--r45hdfd78af_14: 
+    sha256:ac15e9d69a68f5dbf8a08e4b899e28e5572515f356bae0b04837265084919444
 docker: quay.io/biocontainers/bioconductor-genomewidesnp6crlmm

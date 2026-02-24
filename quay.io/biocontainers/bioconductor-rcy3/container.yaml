@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rcy3
 latest:
-  2.26.0--r44hdfd78af_0: 
-    sha256:4161090c06edcde067387ddb90e08fe0fb0db2f167ac357638ad7a0ea00f2736
+  2.30.1--r45hdfd78af_0: 
+    sha256:98601fcb6efb5fe6d7219d9238d01bd1006ae2bf9c9047d1a8957768e3a34717
 tags:
   2.8.0--r40_0: 
     sha256:9a1ec4012f6876d669c81aa550a8ee1203b753f967de00b7447c9faf89ee9812
@@ -22,6 +22,8 @@ tags:
     sha256:0a7a21b24bd1d18168a66b3ca476dcf1d02e7412b0e353628a90002029e2d55e
   2.26.0--r44hdfd78af_0: 
     sha256:4161090c06edcde067387ddb90e08fe0fb0db2f167ac357638ad7a0ea00f2736
+  2.30.1--r45hdfd78af_0: 
+    sha256:98601fcb6efb5fe6d7219d9238d01bd1006ae2bf9c9047d1a8957768e3a34717
 docker: quay.io/biocontainers/bioconductor-rcy3
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

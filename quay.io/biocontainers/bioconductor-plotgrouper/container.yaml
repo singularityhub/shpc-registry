@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-plotgrouper
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:f322d90181d112718ba5e7f5cd2df9f9c7851d8c4dc8baa92bec6aabc5509f5a
+  1.28.0--r45hdfd78af_0: 
+    sha256:1235d66bc30e2f07bd7c59ca3cc48547369d6a2ede85f988ce0eb8110c5f7d10
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:8deff548cec9b68298a6fe70b72c8d69dad2b6c7491daf6204c023eb1709617c
@@ -18,6 +18,8 @@ tags:
     sha256:73bbb06bce6cf4c3d9c83d548a6f185a6ef974a0b32f0ee393e9e336a80bcb59
   1.24.0--r44hdfd78af_0: 
     sha256:f322d90181d112718ba5e7f5cd2df9f9c7851d8c4dc8baa92bec6aabc5509f5a
+  1.28.0--r45hdfd78af_0: 
+    sha256:1235d66bc30e2f07bd7c59ca3cc48547369d6a2ede85f988ce0eb8110c5f7d10
 docker: quay.io/biocontainers/bioconductor-plotgrouper
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

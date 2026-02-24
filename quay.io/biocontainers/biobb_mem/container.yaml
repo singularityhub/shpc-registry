@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_mem
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_mem
 latest:
-  5.2.0--pyh7e72e81_0: 
-    sha256:557e1b94863537ca80547c19608ba23bda8168a56594fa97b56bf166c4b7e76a
+  5.2.1--pyh7e72e81_0: 
+    sha256:07833c6c9a2691c94286ac645f1a88cf9737a34bfc55ad85fe5ce9df30b50180
 tags:
   5.0.1--pyhdfd78af_0: 
     sha256:06d6904e98af19ef27157dbfca1cad5ba3773a7b892972647a436b2709444e9c
@@ -25,6 +25,8 @@ tags:
     sha256:557e1b94863537ca80547c19608ba23bda8168a56594fa97b56bf166c4b7e76a
   5.1.2--pyh7e72e81_0: 
     sha256:1e0d5627a392ad8ea48582629963cba7ebfaaad1fa505c6868b3e070ce279763
+  5.2.1--pyh7e72e81_0: 
+    sha256:07833c6c9a2691c94286ac645f1a88cf9737a34bfc55ad85fe5ce9df30b50180
 docker: quay.io/biocontainers/biobb_mem
 aliases:
   AddToBox: /usr/local/bin/AddToBox

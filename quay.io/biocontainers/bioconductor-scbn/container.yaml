@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scbn
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:1f6de54251f7fbd8c771a6b65702479646a6cefe47231a067b27aa9fdfa0583f
+  1.28.0--r45hdfd78af_0: 
+    sha256:106c87d4a20c0b008338061d80146d23ec45e193e996a99977781fe2d1faf9ba
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:9040066586c7db50bb765db2ecf63f2028a13a95d7587c06ee61acd0db15629b
@@ -20,6 +20,8 @@ tags:
     sha256:e2a0f7b92f5c9d90a4687ed3bc408c9a42c198e3d7b8f06ef9ff04b482f9051d
   1.24.0--r44hdfd78af_0: 
     sha256:1f6de54251f7fbd8c771a6b65702479646a6cefe47231a067b27aa9fdfa0583f
+  1.28.0--r45hdfd78af_0: 
+    sha256:106c87d4a20c0b008338061d80146d23ec45e193e996a99977781fe2d1faf9ba
 docker: quay.io/biocontainers/bioconductor-scbn
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

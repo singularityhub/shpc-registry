@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-humancytosnp12v2p1hcrlmm
 latest:
-  1.0.1--r44hdfd78af_13: 
-    sha256:def68bc92c5b5f2625519481a54da89dc5259318f577c61ebd4ba26b4e9276fc
+  1.0.1--r45hdfd78af_14: 
+    sha256:bb2bc3934f07d5bcc011aa8949add73634a97fbf2ac8b4374c3e8548dc2020cb
 tags:
   1.0.1--r41hdfd78af_9: 
     sha256:d4263a908c63775addab11b179c4e9fae1b2021cc3d774a02c5270b3841e8e48
@@ -16,4 +16,6 @@ tags:
     sha256:203b059e9991634e2fea08e779c11a56e101dc3b322ce36a2887295aae7d73ae
   1.0.1--r44hdfd78af_13: 
     sha256:def68bc92c5b5f2625519481a54da89dc5259318f577c61ebd4ba26b4e9276fc
+  1.0.1--r45hdfd78af_14: 
+    sha256:bb2bc3934f07d5bcc011aa8949add73634a97fbf2ac8b4374c3e8548dc2020cb
 docker: quay.io/biocontainers/bioconductor-humancytosnp12v2p1hcrlmm

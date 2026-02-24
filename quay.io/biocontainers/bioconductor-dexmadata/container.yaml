@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dexmadata
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:bcdcbb7eafab43bce577a6636afcd00ee089b64ea257c8b6fcc1a3a5fa2161fd
+  1.18.0--r45hdfd78af_0: 
+    sha256:dc615fcfd2e8416e337ef8fd5b8b6d78259d97b63e92b25c83c9e31b16edd2f5
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:0b44750cfadb17adec6a22adf72d816dfbcd56c9ac843c7928b11db610f0e2b7
@@ -16,4 +16,6 @@ tags:
     sha256:fd9c0ddb9d50885b9c2f8f53bfbd6fe35936bedf2a38294691d52abaa7927d51
   1.14.0--r44hdfd78af_0: 
     sha256:bcdcbb7eafab43bce577a6636afcd00ee089b64ea257c8b6fcc1a3a5fa2161fd
+  1.18.0--r45hdfd78af_0: 
+    sha256:dc615fcfd2e8416e337ef8fd5b8b6d78259d97b63e92b25c83c9e31b16edd2f5
 docker: quay.io/biocontainers/bioconductor-dexmadata

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-antiprofiles
 latest:
-  1.46.0--r44hdfd78af_0: 
-    sha256:73de0f3407cb575d1093f7956a23032a1d2c6a1652f15a540061ed50998ffd9a
+  1.50.0--r45hdfd78af_0: 
+    sha256:8408390ba19aff268cc93d4fa843678971e4988c2ac590f2e4ad43ecce177c8d
 tags:
   1.34.0--r41hdfd78af_0: 
     sha256:c1d2f26b12d11d187420a33f548bba066a13f5c700fda11643f23f93a65481dc
@@ -16,4 +16,6 @@ tags:
     sha256:a3ab29170f5ece30d0f2edc8653ea6b9ed464be2b919f96883ffccf54b4e32f3
   1.46.0--r44hdfd78af_0: 
     sha256:73de0f3407cb575d1093f7956a23032a1d2c6a1652f15a540061ed50998ffd9a
+  1.50.0--r45hdfd78af_0: 
+    sha256:8408390ba19aff268cc93d4fa843678971e4988c2ac590f2e4ad43ecce177c8d
 docker: quay.io/biocontainers/bioconductor-antiprofiles

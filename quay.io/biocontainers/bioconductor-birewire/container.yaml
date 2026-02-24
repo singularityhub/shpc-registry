@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-birewire
 latest:
-  3.38.0--r44h3df3fcb_0: 
-    sha256:4de2f008644651803d43c1a3c36c619db2ebe8b64e748a325078349dfacc3392
+  3.41.0--r45h01b2380_0: 
+    sha256:a8df484f4b336578073dadacfdba571f21e20612f95775e11925e606dbff2b17
 tags:
   3.26.5--r41hc0cfd56_0: 
     sha256:47dba4ddd32a66dda80ba63e8886a6d250a2a911a85a20ed5321f613b249eed4
@@ -18,6 +18,8 @@ tags:
     sha256:b894240fc47e895dece4ff860b8d51bd72e7406aabad9fed2b81a60b43a14913
   3.38.0--r44h3df3fcb_0: 
     sha256:4de2f008644651803d43c1a3c36c619db2ebe8b64e748a325078349dfacc3392
+  3.41.0--r45h01b2380_0: 
+    sha256:a8df484f4b336578073dadacfdba571f21e20612f95775e11925e606dbff2b17
 docker: quay.io/biocontainers/bioconductor-birewire
 aliases:
   glpsol: /usr/local/bin/glpsol

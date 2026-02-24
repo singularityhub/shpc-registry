@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-isocorrector
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:ca68d1aff3017abd9e72dbed7f43cb1716d0f7b0b8e701d3cc6065e099bd6b74
+  1.28.0--r45hdfd78af_0: 
+    sha256:9c37f65d9bca52c3e7a74fd5eedb9a0541ea4297c460b95eb331f9dd588e6e08
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:cda629db51a26d99ea103063b26a5c4164beb48e21c987229cb5c5b57b5079dc
@@ -20,6 +20,8 @@ tags:
     sha256:8483b59036b320521574ca5238ef01d4e58e7728062838f5358bf49ae3e691ab
   1.24.0--r44hdfd78af_0: 
     sha256:ca68d1aff3017abd9e72dbed7f43cb1716d0f7b0b8e701d3cc6065e099bd6b74
+  1.28.0--r45hdfd78af_0: 
+    sha256:9c37f65d9bca52c3e7a74fd5eedb9a0541ea4297c460b95eb331f9dd588e6e08
 docker: quay.io/biocontainers/bioconductor-isocorrector
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

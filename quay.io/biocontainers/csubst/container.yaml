@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/csubst
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for csubst
 latest:
-  1.4.20--py310ha6711e0_1: 
-    sha256:2bef3a2a818db7cd45d199a400580cac441ff4602727f7779fc429726f90eff3
+  1.8.0--py313h8a86a6f_0: 
+    sha256:691d9ce963e4892f1fda19ad84a89dd65a60b805cef89477f11d3538508cb721
 tags:
   1.4.0--py310hc1935f2_0: 
     sha256:81a4f8998d9a2ef7a7c6d95b7fb71563959ae644d9b0f493a49b57a9db0cfb70
@@ -13,6 +13,8 @@ tags:
     sha256:87d36198338e3f420440b9e0af1ad1403ddc23ea2eb6e6a11e6b505fe3f08882
   1.4.20--py310ha6711e0_1: 
     sha256:2bef3a2a818db7cd45d199a400580cac441ff4602727f7779fc429726f90eff3
+  1.8.0--py313h8a86a6f_0: 
+    sha256:691d9ce963e4892f1fda19ad84a89dd65a60b805cef89477f11d3538508cb721
 docker: quay.io/biocontainers/csubst
 aliases:
   csubst: /usr/local/bin/csubst

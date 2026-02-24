@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ctcf
 latest:
-  0.99.11--r44hdfd78af_2: 
-    sha256:74e0446c21259bd9e610b4a7978702f98320256a2b429a822a13da558783d6fb
+  0.99.13--r45hdfd78af_0: 
+    sha256:6ec5266a2f1196962c5d0925e6aaf14759707655cca79a8adb1bfd69b8c56de4
 tags:
   0.99.4--r41hdfd78af_1: 
     sha256:244a8c5eefdf79c541aa02e9a94d7db57cbf7f7b89b5d0485fe86cfeb960fc9e
@@ -16,4 +16,6 @@ tags:
     sha256:3cba5642ebb7906fccd23ab2516846e7306da6406e2dcffd1313cab07f362477
   0.99.11--r44hdfd78af_2: 
     sha256:74e0446c21259bd9e610b4a7978702f98320256a2b429a822a13da558783d6fb
+  0.99.13--r45hdfd78af_0: 
+    sha256:6ec5266a2f1196962c5d0925e6aaf14759707655cca79a8adb1bfd69b8c56de4
 docker: quay.io/biocontainers/bioconductor-ctcf

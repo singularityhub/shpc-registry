@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/altex-be
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for altex-be
 latest:
-  1.0.5--pyhdfd78af_0: 
-    sha256:d15452d33cb5fcb9d98556814f5e115678f32d1238bda6d48b74d5cd25dad692
+  1.0.6--pyhdfd78af_0: 
+    sha256:5756a8662fb3dc122ef8dc0ebfb8d45d32c5974675846beb1025b7142fdfd4d3
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:77196629f605ec487db3bffd002aa168ac05b5f887369b9aa61ac447f885d6c7
@@ -11,6 +11,8 @@ tags:
     sha256:b97ab097dadf320cba3f88d596fad34ce7c5af7fc60fd078690ebaef1268799d
   1.0.5--pyhdfd78af_0: 
     sha256:d15452d33cb5fcb9d98556814f5e115678f32d1238bda6d48b74d5cd25dad692
+  1.0.6--pyhdfd78af_0: 
+    sha256:5756a8662fb3dc122ef8dc0ebfb8d45d32c5974675846beb1025b7142fdfd4d3
 docker: quay.io/biocontainers/altex-be
 aliases:
   altex-be: /usr/local/bin/altex-be

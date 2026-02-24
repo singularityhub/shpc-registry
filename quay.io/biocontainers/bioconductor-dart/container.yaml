@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dart
 latest:
-  1.54.0--r44hdfd78af_0: 
-    sha256:c11a3b5054bb74d6936beb0a9b6ccdba3078a4d4fd01d5c380ca83f630c7e858
+  1.58.0--r45hdfd78af_0: 
+    sha256:08dffc5b31950cfc7f31eaf4ccde2b1e77e41bc32e4b17b90a1d56e5498a84d5
 tags:
   1.42.0--r41hdfd78af_0: 
     sha256:ba1c94d776946dc27fb1fca85ff57779c380f8bdd762883ca6b4060874e395a3
@@ -16,4 +16,6 @@ tags:
     sha256:5f282e6cf8045c1fa7a1d10b49bd22a794c57f5f1927c17a0b426d80a85a2c2c
   1.54.0--r44hdfd78af_0: 
     sha256:c11a3b5054bb74d6936beb0a9b6ccdba3078a4d4fd01d5c380ca83f630c7e858
+  1.58.0--r45hdfd78af_0: 
+    sha256:08dffc5b31950cfc7f31eaf4ccde2b1e77e41bc32e4b17b90a1d56e5498a84d5
 docker: quay.io/biocontainers/bioconductor-dart
