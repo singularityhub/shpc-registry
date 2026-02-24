@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hwriter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hwriter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hwriter/container.yaml"
-updated_at: "2026-02-23 06:18:42.772526"
+updated_at: "2026-02-24 04:44:46.958082"
 latest: "1.3.2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-hwriter"
 aliases:

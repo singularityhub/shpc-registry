@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/kanpig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kanpig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kanpig/container.yaml"
-updated_at: "2026-02-23 06:43:43.160137"
-latest: "1.1.0--ha6fb395_1"
+updated_at: "2026-02-24 05:06:27.506102"
+latest: "2.0.2--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/kanpig"
 aliases:
  - "kanpig"
 versions:
  - "1.1.0--ha6fb395_1"
+ - "2.0.2--ha6fb395_0"
 description: "singularity registry hpc automated addition for kanpig"
-config: {"url": "https://biocontainers.pro/tools/kanpig", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kanpig", "latest": {"1.1.0--ha6fb395_1": "sha256:470885468c68bd966fdecaacbe488d21f725bb9f66732dbb633558a36190bab6"}, "tags": {"1.1.0--ha6fb395_1": "sha256:470885468c68bd966fdecaacbe488d21f725bb9f66732dbb633558a36190bab6"}, "docker": "quay.io/biocontainers/kanpig", "aliases": {"kanpig": "/usr/local/bin/kanpig"}}
+config: {"url": "https://biocontainers.pro/tools/kanpig", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kanpig", "latest": {"2.0.2--ha6fb395_0": "sha256:94b5b97305c70a4eb55c61713d24132aa7380cda9aecb032d5b6e6d820248a4e"}, "tags": {"1.1.0--ha6fb395_1": "sha256:470885468c68bd966fdecaacbe488d21f725bb9f66732dbb633558a36190bab6", "2.0.2--ha6fb395_0": "sha256:94b5b97305c70a4eb55c61713d24132aa7380cda9aecb032d5b6e6d820248a4e"}, "docker": "quay.io/biocontainers/kanpig", "aliases": {"kanpig": "/usr/local/bin/kanpig"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kanpig.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/kanpig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kanpig:1.1.0--ha6fb395_1
+$ shpc install quay.io/biocontainers/kanpig:2.0.2--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kanpig/1.1.0--ha6fb395_1
-$ module help quay.io/biocontainers/kanpig/1.1.0--ha6fb395_1
+$ module load quay.io/biocontainers/kanpig/2.0.2--ha6fb395_0
+$ module help quay.io/biocontainers/kanpig/2.0.2--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

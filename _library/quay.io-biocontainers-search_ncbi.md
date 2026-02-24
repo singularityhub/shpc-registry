@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/search_ncbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/search_ncbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/search_ncbi/container.yaml"
-updated_at: "2026-02-23 06:35:21.918484"
+updated_at: "2026-02-24 04:59:21.850317"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/search_ncbi"
 aliases:

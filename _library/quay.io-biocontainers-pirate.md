@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pirate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pirate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pirate/container.yaml"
-updated_at: "2026-02-23 06:37:34.700398"
-latest: "1.0.5--hdfd78af_0"
+updated_at: "2026-02-24 05:01:16.081608"
+latest: "1.0.5--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/pirate"
 aliases:
  - "PIRATE"
@@ -35,8 +35,9 @@ aliases:
  - "mcxassemble"
 versions:
  - "1.0.5--hdfd78af_0"
+ - "1.0.5--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for pirate"
-config: {"url": "https://biocontainers.pro/tools/pirate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pirate", "latest": {"1.0.5--hdfd78af_0": "sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0"}, "tags": {"1.0.5--hdfd78af_0": "sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0"}, "docker": "quay.io/biocontainers/pirate", "aliases": {"PIRATE": "/usr/local/bin/PIRATE", "PIRATE_to_Rtab.pl": "/usr/local/bin/PIRATE_to_Rtab.pl", "PIRATE_to_roary.pl": "/usr/local/bin/PIRATE_to_roary.pl", "analyse_blast_outputs.pl": "/usr/local/bin/analyse_blast_outputs.pl", "analyse_loci_list.pl": "/usr/local/bin/analyse_loci_list.pl", "annotate_treeWAS_output.pl": "/usr/local/bin/annotate_treeWAS_output.pl", "convert_to_distmat.pl": "/usr/local/bin/convert_to_distmat.pl", "convert_to_treeWAS.pl": "/usr/local/bin/convert_to_treeWAS.pl", "create_pangenome_alignment_aa.pl": "/usr/local/bin/create_pangenome_alignment_aa.pl", "pangenome_variants_to_treeWAS.pl": "/usr/local/bin/pangenome_variants_to_treeWAS.pl", "paralogs_to_Rtab.pl": "/usr/local/bin/paralogs_to_Rtab.pl", "select_representative": "/usr/local/bin/select_representative", "subsample_outputs.pl": "/usr/local/bin/subsample_outputs.pl", "subset_alignments.pl": "/usr/local/bin/subset_alignments.pl", "unique_sequences.pl": "/usr/local/bin/unique_sequences.pl", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
+config: {"url": "https://biocontainers.pro/tools/pirate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pirate", "latest": {"1.0.5--hdfd78af_3": "sha256:ee4ae77a459c22927f58519a611b5a4b5faf6e903b97e2f36217be8b1c60f56d"}, "tags": {"1.0.5--hdfd78af_0": "sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0", "1.0.5--hdfd78af_3": "sha256:ee4ae77a459c22927f58519a611b5a4b5faf6e903b97e2f36217be8b1c60f56d"}, "docker": "quay.io/biocontainers/pirate", "aliases": {"PIRATE": "/usr/local/bin/PIRATE", "PIRATE_to_Rtab.pl": "/usr/local/bin/PIRATE_to_Rtab.pl", "PIRATE_to_roary.pl": "/usr/local/bin/PIRATE_to_roary.pl", "analyse_blast_outputs.pl": "/usr/local/bin/analyse_blast_outputs.pl", "analyse_loci_list.pl": "/usr/local/bin/analyse_loci_list.pl", "annotate_treeWAS_output.pl": "/usr/local/bin/annotate_treeWAS_output.pl", "convert_to_distmat.pl": "/usr/local/bin/convert_to_distmat.pl", "convert_to_treeWAS.pl": "/usr/local/bin/convert_to_treeWAS.pl", "create_pangenome_alignment_aa.pl": "/usr/local/bin/create_pangenome_alignment_aa.pl", "pangenome_variants_to_treeWAS.pl": "/usr/local/bin/pangenome_variants_to_treeWAS.pl", "paralogs_to_Rtab.pl": "/usr/local/bin/paralogs_to_Rtab.pl", "select_representative": "/usr/local/bin/select_representative", "subsample_outputs.pl": "/usr/local/bin/subsample_outputs.pl", "subset_alignments.pl": "/usr/local/bin/subset_alignments.pl", "unique_sequences.pl": "/usr/local/bin/unique_sequences.pl", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pirate.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/pirate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pirate:1.0.5--hdfd78af_0
+$ shpc install quay.io/biocontainers/pirate:1.0.5--hdfd78af_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pirate/1.0.5--hdfd78af_0
-$ module help quay.io/biocontainers/pirate/1.0.5--hdfd78af_0
+$ module load quay.io/biocontainers/pirate/1.0.5--hdfd78af_3
+$ module help quay.io/biocontainers/pirate/1.0.5--hdfd78af_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

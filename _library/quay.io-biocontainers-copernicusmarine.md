@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/copernicusmarine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/copernicusmarine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/copernicusmarine/container.yaml"
-updated_at: "2026-02-23 06:14:11.418280"
-latest: "1.3.3"
+updated_at: "2026-02-24 04:40:47.038714"
+latest: "2.3.0"
 container_url: "https://biocontainers.pro/tools/copernicusmarine"
 aliases:
  - "cachier"
@@ -43,8 +43,9 @@ aliases:
  - "hdp"
 versions:
  - "1.3.3"
+ - "2.3.0"
 description: "singularity registry hpc automated addition for copernicusmarine"
-config: {"url": "https://biocontainers.pro/tools/copernicusmarine", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for copernicusmarine", "latest": {"1.3.3": "sha256:3a15a936c632bcd17cfdf844e7d25394515e5c3ceb72f69938ce35573d1efee3"}, "tags": {"1.3.3": "sha256:3a15a936c632bcd17cfdf844e7d25394515e5c3ceb72f69938ce35573d1efee3"}, "docker": "quay.io/biocontainers/copernicusmarine", "aliases": {"cachier": "/usr/local/bin/cachier", "copernicusmarine": "/usr/local/bin/copernicusmarine", "h5fuse": "/usr/local/bin/h5fuse", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "pysemver": "/usr/local/bin/pysemver", "watchmedo": "/usr/local/bin/watchmedo", "dask": "/usr/local/bin/dask", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "jp.py": "/usr/local/bin/jp.py", "h5delete": "/usr/local/bin/h5delete", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp"}}
+config: {"url": "https://biocontainers.pro/tools/copernicusmarine", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for copernicusmarine", "latest": {"2.3.0": "sha256:b18e658d1735f4d1cc1cc3c11c95555d1c1ba43df459681c87d8c7be8ff3ca63"}, "tags": {"1.3.3": "sha256:3a15a936c632bcd17cfdf844e7d25394515e5c3ceb72f69938ce35573d1efee3", "2.3.0": "sha256:b18e658d1735f4d1cc1cc3c11c95555d1c1ba43df459681c87d8c7be8ff3ca63"}, "docker": "quay.io/biocontainers/copernicusmarine", "aliases": {"cachier": "/usr/local/bin/cachier", "copernicusmarine": "/usr/local/bin/copernicusmarine", "h5fuse": "/usr/local/bin/h5fuse", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "pysemver": "/usr/local/bin/pysemver", "watchmedo": "/usr/local/bin/watchmedo", "dask": "/usr/local/bin/dask", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "jp.py": "/usr/local/bin/jp.py", "h5delete": "/usr/local/bin/h5delete", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp", "hdfed": "/usr/local/bin/hdfed", "hdfimport": "/usr/local/bin/hdfimport", "hdfls": "/usr/local/bin/hdfls", "hdfpack": "/usr/local/bin/hdfpack", "hdftopal": "/usr/local/bin/hdftopal", "hdftor8": "/usr/local/bin/hdftor8", "hdfunpac": "/usr/local/bin/hdfunpac", "hdiff": "/usr/local/bin/hdiff", "hdp": "/usr/local/bin/hdp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/copernicusmarine.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/copernicusmarine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/copernicusmarine:1.3.3
+$ shpc install quay.io/biocontainers/copernicusmarine:2.3.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/copernicusmarine/1.3.3
-$ module help quay.io/biocontainers/copernicusmarine/1.3.3
+$ module load quay.io/biocontainers/copernicusmarine/2.3.0
+$ module help quay.io/biocontainers/copernicusmarine/2.3.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gubbins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gubbins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gubbins/container.yaml"
-updated_at: "2026-02-23 06:30:41.939282"
+updated_at: "2026-02-24 04:55:19.461021"
 latest: "3.4--py310pl5321h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/gubbins"
 aliases:

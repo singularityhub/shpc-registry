@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/godmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/godmd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/godmd/container.yaml"
-updated_at: "2026-02-23 06:41:55.389175"
-latest: "1.7--hb2a3317_0"
+updated_at: "2026-02-24 05:04:54.365600"
+latest: "1.8--hb569540_0"
 container_url: "https://biocontainers.pro/tools/godmd"
 aliases:
  - "discrete"
@@ -23,8 +23,9 @@ versions:
  - "1.0.0--h80bf7fa_4"
  - "1.6--h99f0acc_0"
  - "1.7--hb2a3317_0"
+ - "1.8--hb569540_0"
 description: "shpc-registry automated BioContainers addition for godmd"
-config: {"url": "https://biocontainers.pro/tools/godmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for godmd", "latest": {"1.7--hb2a3317_0": "sha256:667f572e8c453d0a0b4cd54acd19b1011584d55af6b5baf7271d0ac118808ee2"}, "tags": {"1.0.0--hcce0283_4": "sha256:a974e1954075f0cd735d404c9f4146fe2b736246101da36797516dd75021de1c", "1.0.0--h80bf7fa_4": "sha256:17067dd31227fb3fd2ebfe9e416ef529a15d35a172dd38802d804d1c02ade271", "1.6--h99f0acc_0": "sha256:0b5c521e8a815d2d415532c98cb4f4b637e0b39afe360ba554cfb024e526cc34", "1.7--hb2a3317_0": "sha256:667f572e8c453d0a0b4cd54acd19b1011584d55af6b5baf7271d0ac118808ee2"}, "docker": "quay.io/biocontainers/godmd", "aliases": {"discrete": "/usr/local/bin/discrete", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/godmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for godmd", "latest": {"1.8--hb569540_0": "sha256:e124e94211a41128818c9030bc70f1fbe9348403a809573627406efc7119fb3b"}, "tags": {"1.0.0--hcce0283_4": "sha256:a974e1954075f0cd735d404c9f4146fe2b736246101da36797516dd75021de1c", "1.0.0--h80bf7fa_4": "sha256:17067dd31227fb3fd2ebfe9e416ef529a15d35a172dd38802d804d1c02ade271", "1.6--h99f0acc_0": "sha256:0b5c521e8a815d2d415532c98cb4f4b637e0b39afe360ba554cfb024e526cc34", "1.7--hb2a3317_0": "sha256:667f572e8c453d0a0b4cd54acd19b1011584d55af6b5baf7271d0ac118808ee2", "1.8--hb569540_0": "sha256:e124e94211a41128818c9030bc70f1fbe9348403a809573627406efc7119fb3b"}, "docker": "quay.io/biocontainers/godmd", "aliases": {"discrete": "/usr/local/bin/discrete", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/godmd.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/godmd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/godmd:1.7--hb2a3317_0
+$ shpc install quay.io/biocontainers/godmd:1.8--hb569540_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/godmd/1.7--hb2a3317_0
-$ module help quay.io/biocontainers/godmd/1.7--hb2a3317_0
+$ module load quay.io/biocontainers/godmd/1.8--hb569540_0
+$ module help quay.io/biocontainers/godmd/1.8--hb569540_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

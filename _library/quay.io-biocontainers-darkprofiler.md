@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/darkprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/darkprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/darkprofiler/container.yaml"
-updated_at: "2026-02-23 06:22:17.063446"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2026-02-24 04:47:58.807478"
+latest: "0.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/darkprofiler"
 aliases:
  - "darkprofiler"
@@ -31,8 +31,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.2.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for darkprofiler"
-config: {"url": "https://biocontainers.pro/tools/darkprofiler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for darkprofiler", "latest": {"0.1.3--pyhdfd78af_0": "sha256:6c77c05605b6774d278c07863b8e627a5185c83462e7a2520d11ebfbf08f7d40"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:6c77c05605b6774d278c07863b8e627a5185c83462e7a2520d11ebfbf08f7d40"}, "docker": "quay.io/biocontainers/darkprofiler", "aliases": {"darkprofiler": "/usr/local/bin/darkprofiler", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/darkprofiler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for darkprofiler", "latest": {"0.2.6--pyhdfd78af_0": "sha256:da950f3faa347926012a3bb1904dcef3950040adabae7671152eaa2c9388c5ad"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:6c77c05605b6774d278c07863b8e627a5185c83462e7a2520d11ebfbf08f7d40", "0.2.6--pyhdfd78af_0": "sha256:da950f3faa347926012a3bb1904dcef3950040adabae7671152eaa2c9388c5ad"}, "docker": "quay.io/biocontainers/darkprofiler", "aliases": {"darkprofiler": "/usr/local/bin/darkprofiler", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/darkprofiler.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/darkprofiler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/darkprofiler:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/darkprofiler:0.2.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/darkprofiler/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/darkprofiler/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/darkprofiler/0.2.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/darkprofiler/0.2.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
