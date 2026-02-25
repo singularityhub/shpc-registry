@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fantom3and4cage
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:b09e847cc4111055ebb1473f5916627beef1b7edccdf733e62d88b22dafa64bd
+  1.46.0--r45hdfd78af_0: 
+    sha256:c3dd5a0a328db00560551780d2983b9af03b21b9f036b031858afdd211d78a17
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:d3bda7169fd4282497bca0f181633f04aa950b6c26501b955f690fa899517581
@@ -16,4 +16,6 @@ tags:
     sha256:b3bcb17e4aff97368d197a892347dc37a9ea27ea101d857f11f05f047e0fdc9d
   1.42.0--r44hdfd78af_0: 
     sha256:b09e847cc4111055ebb1473f5916627beef1b7edccdf733e62d88b22dafa64bd
+  1.46.0--r45hdfd78af_0: 
+    sha256:c3dd5a0a328db00560551780d2983b9af03b21b9f036b031858afdd211d78a17
 docker: quay.io/biocontainers/bioconductor-fantom3and4cage

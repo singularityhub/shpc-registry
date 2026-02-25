@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tronco
 latest:
-  2.38.0--r44hdfd78af_0: 
-    sha256:ef9057d1535eed6e5ca26559be47a5eeef2c774ffb684b434d1bca7f204f944c
+  2.42.0--r45hdfd78af_0: 
+    sha256:6cbbc4e784524ab460b61fd640668b324e4b3c016104ac93acec118d39670eda
 tags:
   2.26.0--r41hdfd78af_0: 
     sha256:66b2cad56fb0163745fa2224d682100d6c3722d48f4e5056bdffaeb29e471f2e
@@ -16,4 +16,6 @@ tags:
     sha256:8ad5fd6858f3e2e3893d6baa189e2efa6afcef091d2880a40911ef5fba5e2367
   2.38.0--r44hdfd78af_0: 
     sha256:ef9057d1535eed6e5ca26559be47a5eeef2c774ffb684b434d1bca7f204f944c
+  2.42.0--r45hdfd78af_0: 
+    sha256:6cbbc4e784524ab460b61fd640668b324e4b3c016104ac93acec118d39670eda
 docker: quay.io/biocontainers/bioconductor-tronco

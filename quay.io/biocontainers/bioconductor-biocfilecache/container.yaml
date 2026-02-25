@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biocfilecache
 latest:
-  2.14.0--r44hdfd78af_0: 
-    sha256:c94a4bf15777514b2185afa829e9eca85c7ef90d5ee8dbfa1ee77e3d1168e420
+  3.0.0--r45hdfd78af_0: 
+    sha256:4fa9f0ccb9526bf67d462c1daea107cd3ff1a220e7293a8ed2778ad97cdda2f3
 tags:
   2.2.0--r41hdfd78af_0: 
     sha256:d006b4aa631d00d582f6a6cd9a41a3b1f7e3c16fac781cfe22aa12cf251d4ca8
@@ -16,4 +16,6 @@ tags:
     sha256:6b528c0dc7d8e26fb9f2f8af2bf1b521ef9d7e177996bc9d41cd5a791b5d0ac0
   2.14.0--r44hdfd78af_0: 
     sha256:c94a4bf15777514b2185afa829e9eca85c7ef90d5ee8dbfa1ee77e3d1168e420
+  3.0.0--r45hdfd78af_0: 
+    sha256:4fa9f0ccb9526bf67d462c1daea107cd3ff1a220e7293a8ed2778ad97cdda2f3
 docker: quay.io/biocontainers/bioconductor-biocfilecache

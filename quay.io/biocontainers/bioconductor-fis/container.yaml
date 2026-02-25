@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-fis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fis
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:38df2f98ec1e670361992118bcc625662e70fbf90e0b886c0de75f545e47cca2
+  1.38.0--r45hdfd78af_0: 
+    sha256:b97bb9dd1934dc978426928bd52181758de9910c6fa671256598e69819b7be62
 tags:
   1.8.0--r341_0: 
     sha256:9eefe183780a84e6600b34cd484ca4152d5b02ad7ad615fcdcbb78b5d968e994
@@ -23,6 +23,8 @@ tags:
     sha256:bb83ca9043bc5953df98b451761840cc65dd4fd0a0957bc5b4ac43437a183bb3
   1.34.0--r44hdfd78af_0: 
     sha256:38df2f98ec1e670361992118bcc625662e70fbf90e0b886c0de75f545e47cca2
+  1.38.0--r45hdfd78af_0: 
+    sha256:b97bb9dd1934dc978426928bd52181758de9910c6fa671256598e69819b7be62
 docker: quay.io/biocontainers/bioconductor-fis
 aliases:
   wget: /usr/local/bin/wget

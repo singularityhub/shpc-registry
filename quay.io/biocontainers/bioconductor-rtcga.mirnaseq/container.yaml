@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rtcga.mirnaseq
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:1dd536e3d4505e56b1f6a537c0403177d085c1acb627116338846cd26bf91800
+  1.38.0--r45hdfd78af_0: 
+    sha256:63382370bcef8ed13041065c5951b859b7688d37cb0551eb93569d3ca93df72d
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9
@@ -16,6 +16,8 @@ tags:
     sha256:698b921271a14f5ccb0e8e1b8118415e0768a1388e5fbebba69c57e60dabe4f7
   1.34.0--r44hdfd78af_0: 
     sha256:1dd536e3d4505e56b1f6a537c0403177d085c1acb627116338846cd26bf91800
+  1.38.0--r45hdfd78af_0: 
+    sha256:63382370bcef8ed13041065c5951b859b7688d37cb0551eb93569d3ca93df72d
 docker: quay.io/biocontainers/bioconductor-rtcga.mirnaseq
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

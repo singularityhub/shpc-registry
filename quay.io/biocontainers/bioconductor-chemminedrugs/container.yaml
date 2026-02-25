@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chemminedrugs
 latest:
-  1.0.2--r44hdfd78af_13: 
-    sha256:ab3237f09d44a6cb366ae12c971e725565947ef46c7a6c107408283cd1b8dcdc
+  1.0.2--r45hdfd78af_14: 
+    sha256:93adee0b7f55f4e7ce811cdff7e734eb44cd7bc868a2107364f357db930b4cf2
 tags:
   1.0.2--r41hdfd78af_9: 
     sha256:80d3f58de9f95c35f4273abc831ea79b0c1a3ee554632529e26469725e42fc7e
@@ -16,6 +16,8 @@ tags:
     sha256:320c614102848f108773745ca5322e21aad6bdb36455e4fe79d57470a1673c7d
   1.0.2--r44hdfd78af_13: 
     sha256:ab3237f09d44a6cb366ae12c971e725565947ef46c7a6c107408283cd1b8dcdc
+  1.0.2--r45hdfd78af_14: 
+    sha256:93adee0b7f55f4e7ce811cdff7e734eb44cd7bc868a2107364f357db930b4cf2
 docker: quay.io/biocontainers/bioconductor-chemminedrugs
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

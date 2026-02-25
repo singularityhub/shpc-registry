@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ruvcorr
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:d40bad1524287fb87d3a64d3af2bb0bed72971dc2ae907c8e166bb578ef48a81
+  1.42.0--r45hdfd78af_0: 
+    sha256:a1a3625981b0cf779aaa7c8223c14c9be7e7782274b5b3ff0a55efb2a0ac3928
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:5f086031f5a59afd9bec21fe56428c0448e792cf05f17f80a516add6deab8055
@@ -16,4 +16,6 @@ tags:
     sha256:915f620d8c13e23ec0ac2008d75a28afeb518670f0d34ac71551d7758b54e42d
   1.38.0--r44hdfd78af_0: 
     sha256:d40bad1524287fb87d3a64d3af2bb0bed72971dc2ae907c8e166bb578ef48a81
+  1.42.0--r45hdfd78af_0: 
+    sha256:a1a3625981b0cf779aaa7c8223c14c9be7e7782274b5b3ff0a55efb2a0ac3928
 docker: quay.io/biocontainers/bioconductor-ruvcorr

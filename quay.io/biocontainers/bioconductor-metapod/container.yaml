@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metapod
 latest:
-  1.14.0--r44he5774e6_1: 
-    sha256:d751e1ce5820a16caf7fa1aa5bd32fcb80c6b3431d4c9907bcb852b715bc05a2
+  1.18.0--r45ha27e39d_0: 
+    sha256:7c229b37f640e2b873506bf55f51caa4bd43e889e1b37a01ff8b5b3500207009
 tags:
   1.2.0--r41hc247a5b_2: 
     sha256:928cf849fb46ac357439fb25740455b265e0bc4f18a250a8b4a56b546de4cb26
@@ -24,4 +24,6 @@ tags:
     sha256:41a2653985d93853814c96484568462ea4a903fca7257a88fbc24052b55eafe1
   1.14.0--r44he5774e6_1: 
     sha256:d751e1ce5820a16caf7fa1aa5bd32fcb80c6b3431d4c9907bcb852b715bc05a2
+  1.18.0--r45ha27e39d_0: 
+    sha256:7c229b37f640e2b873506bf55f51caa4bd43e889e1b37a01ff8b5b3500207009
 docker: quay.io/biocontainers/bioconductor-metapod

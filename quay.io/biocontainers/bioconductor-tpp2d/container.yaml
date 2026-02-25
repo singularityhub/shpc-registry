@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tpp2d
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:d0c2f599614ad659f48d53bbf0d1db2b756d6a81cde21763867e0055d9730fb7
+  1.26.0--r45hdfd78af_0: 
+    sha256:ec42f8108a54ee6b3dee4657218ccd47a2913b396ea5b135fd97add0b12af2b8
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:15dd708a4d92bbf7632d953a33f2c3471bd4cd46006d1228aa7275a5b8e67cfd
@@ -18,6 +18,8 @@ tags:
     sha256:247ef4dbcdf6d4dccc67ce24ef0c26c64c50fb6805a04dc3503f788f3f34a1f2
   1.22.0--r44hdfd78af_0: 
     sha256:d0c2f599614ad659f48d53bbf0d1db2b756d6a81cde21763867e0055d9730fb7
+  1.26.0--r45hdfd78af_0: 
+    sha256:ec42f8108a54ee6b3dee4657218ccd47a2913b396ea5b135fd97add0b12af2b8
 docker: quay.io/biocontainers/bioconductor-tpp2d
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 
