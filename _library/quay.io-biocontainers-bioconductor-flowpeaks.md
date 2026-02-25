@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowpeaks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowpeaks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowpeaks/container.yaml"
-updated_at: "2026-02-24 04:46:55.028415"
+updated_at: "2026-02-25 04:51:29.232507"
 latest: "1.56.0--r45h1ca3914_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowpeaks"
 

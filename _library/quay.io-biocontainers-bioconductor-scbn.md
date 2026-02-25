@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scbn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scbn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scbn/container.yaml"
-updated_at: "2026-02-24 05:08:26.001719"
-latest: "1.24.0--r44hdfd78af_0"
+updated_at: "2026-02-25 05:15:27.624975"
+latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scbn"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_1"
  - "1.24.0--r44hdfd78af_0"
+ - "1.28.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scbn"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scbn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scbn", "latest": {"1.24.0--r44hdfd78af_0": "sha256:1f6de54251f7fbd8c771a6b65702479646a6cefe47231a067b27aa9fdfa0583f"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9040066586c7db50bb765db2ecf63f2028a13a95d7587c06ee61acd0db15629b", "1.16.0--r42hdfd78af_0": "sha256:c6787060db4f1686296e1783ad287a5a938904a2a3241f047dbcd82dd0bd0bf9", "1.12.0--r41hdfd78af_0": "sha256:442ed5b0f161397beed42323442e9056cd39b7dffe9abdcc1be688fbfafbc651", "1.10.0--r41hdfd78af_0": "sha256:85597e47cdbe5f36677cae520b9ec0785d5445e6554f924d9b9433ab632f13c9", "1.18.0--r43hdfd78af_0": "sha256:7f0c3b13f8dea194af8a585b645c2edc8509240ced8c994041e8c7121bb8547e", "1.20.0--r43hdfd78af_1": "sha256:e2a0f7b92f5c9d90a4687ed3bc408c9a42c198e3d7b8f06ef9ff04b482f9051d", "1.24.0--r44hdfd78af_0": "sha256:1f6de54251f7fbd8c771a6b65702479646a6cefe47231a067b27aa9fdfa0583f"}, "docker": "quay.io/biocontainers/bioconductor-scbn", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scbn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scbn", "latest": {"1.28.0--r45hdfd78af_0": "sha256:106c87d4a20c0b008338061d80146d23ec45e193e996a99977781fe2d1faf9ba"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9040066586c7db50bb765db2ecf63f2028a13a95d7587c06ee61acd0db15629b", "1.16.0--r42hdfd78af_0": "sha256:c6787060db4f1686296e1783ad287a5a938904a2a3241f047dbcd82dd0bd0bf9", "1.12.0--r41hdfd78af_0": "sha256:442ed5b0f161397beed42323442e9056cd39b7dffe9abdcc1be688fbfafbc651", "1.10.0--r41hdfd78af_0": "sha256:85597e47cdbe5f36677cae520b9ec0785d5445e6554f924d9b9433ab632f13c9", "1.18.0--r43hdfd78af_0": "sha256:7f0c3b13f8dea194af8a585b645c2edc8509240ced8c994041e8c7121bb8547e", "1.20.0--r43hdfd78af_1": "sha256:e2a0f7b92f5c9d90a4687ed3bc408c9a42c198e3d7b8f06ef9ff04b482f9051d", "1.24.0--r44hdfd78af_0": "sha256:1f6de54251f7fbd8c771a6b65702479646a6cefe47231a067b27aa9fdfa0583f", "1.28.0--r45hdfd78af_0": "sha256:106c87d4a20c0b008338061d80146d23ec45e193e996a99977781fe2d1faf9ba"}, "docker": "quay.io/biocontainers/bioconductor-scbn", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scbn.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scbn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scbn:1.24.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scbn:1.28.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scbn/1.24.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scbn/1.24.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scbn/1.28.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scbn/1.28.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/julia-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/julia-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/julia-notebook/container.yaml"
-updated_at: "2026-02-24 04:22:52.132548"
+updated_at: "2026-02-25 04:24:38.868259"
 latest: "2026-02-03"
 container_url: "https://quay.io/repository/jupyter/julia-notebook"
 aliases:

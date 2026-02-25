@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atol-genome-launcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-genome-launcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-genome-launcher/container.yaml"
-updated_at: "2026-02-24 04:42:44.777814"
+updated_at: "2026-02-25 04:46:48.763133"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-genome-launcher"
 aliases:

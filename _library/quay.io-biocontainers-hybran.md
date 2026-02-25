@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hybran"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hybran/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hybran/container.yaml"
-updated_at: "2026-02-24 05:01:20.149753"
+updated_at: "2026-02-25 05:07:32.039008"
 latest: "1.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hybran"
 aliases:

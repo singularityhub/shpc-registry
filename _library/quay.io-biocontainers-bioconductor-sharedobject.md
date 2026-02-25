@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sharedobject"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sharedobject/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sharedobject/container.yaml"
-updated_at: "2026-02-24 04:33:11.525543"
-latest: "1.20.0--r44he5774e6_0"
+updated_at: "2026-02-25 04:36:09.525871"
+latest: "1.24.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sharedobject"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.12.0--r42hf17093f_1"
  - "1.16.0--r43hf17093f_0"
  - "1.20.0--r44he5774e6_0"
+ - "1.24.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sharedobject"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sharedobject", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sharedobject", "latest": {"1.20.0--r44he5774e6_0": "sha256:dad0afe940acfd03e5d2e73755e0b7cc80fcac37f5dfdeafeb143344c89243de"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:3a776b57ef04f6d7f56c91011c4fa27b69fc832ad2a2d3b037ae8f6e40f5810c", "1.12.0--r42hc247a5b_0": "sha256:f9ddc2c7dfdb9c42c781a0f718e31afb0005a0231e8acdba223231f0729fdb7c", "1.12.0--r42hf17093f_1": "sha256:442469d43c1aaab50d97545d1d5603c285cb86c918a8a3842e1afad0d1a72a7e", "1.16.0--r43hf17093f_0": "sha256:3be284e8a2eddb65d6d4d90d7e8b295ed66577853a763f4d124aa2d440aa4e0b", "1.20.0--r44he5774e6_0": "sha256:dad0afe940acfd03e5d2e73755e0b7cc80fcac37f5dfdeafeb143344c89243de"}, "docker": "quay.io/biocontainers/bioconductor-sharedobject"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sharedobject", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sharedobject", "latest": {"1.24.0--r45ha27e39d_0": "sha256:622fd450031221670b0d523bd5e055c192c6e64f0b71eab8a516dd6843c5dfbb"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:3a776b57ef04f6d7f56c91011c4fa27b69fc832ad2a2d3b037ae8f6e40f5810c", "1.12.0--r42hc247a5b_0": "sha256:f9ddc2c7dfdb9c42c781a0f718e31afb0005a0231e8acdba223231f0729fdb7c", "1.12.0--r42hf17093f_1": "sha256:442469d43c1aaab50d97545d1d5603c285cb86c918a8a3842e1afad0d1a72a7e", "1.16.0--r43hf17093f_0": "sha256:3be284e8a2eddb65d6d4d90d7e8b295ed66577853a763f4d124aa2d440aa4e0b", "1.20.0--r44he5774e6_0": "sha256:dad0afe940acfd03e5d2e73755e0b7cc80fcac37f5dfdeafeb143344c89243de", "1.24.0--r45ha27e39d_0": "sha256:622fd450031221670b0d523bd5e055c192c6e64f0b71eab8a516dd6843c5dfbb"}, "docker": "quay.io/biocontainers/bioconductor-sharedobject"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sharedobject.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sharedobject
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sharedobject:1.20.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-sharedobject:1.24.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sharedobject/1.20.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-sharedobject/1.20.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-sharedobject/1.24.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-sharedobject/1.24.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

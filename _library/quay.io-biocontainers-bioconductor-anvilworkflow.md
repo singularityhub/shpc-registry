@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-anvilworkflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilworkflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilworkflow/container.yaml"
-updated_at: "2026-02-24 04:37:20.306941"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-02-25 04:40:46.565385"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilworkflow"
 aliases:
  - "hb-info"
@@ -15,8 +15,9 @@ versions:
  - "1.0.1--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-anvilworkflow"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-anvilworkflow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-anvilworkflow", "latest": {"1.6.0--r44hdfd78af_0": "sha256:8de578cc2fdf7c2072e702e572d9feb080b0625391307e1d1057d1a1a0709fe4"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:545c7c9d6f650abc1ee9ca023bb9e08ee6f7c446271c4e802fbe57c20928f49c", "1.2.0--r43hdfd78af_0": "sha256:b9b2777980a1406afaa2acce297b904a8b8f74de6e26f97106f8adf5f6c24d3e", "1.6.0--r44hdfd78af_0": "sha256:8de578cc2fdf7c2072e702e572d9feb080b0625391307e1d1057d1a1a0709fe4"}, "docker": "quay.io/biocontainers/bioconductor-anvilworkflow", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-anvilworkflow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-anvilworkflow", "latest": {"1.10.0--r45hdfd78af_0": "sha256:5e698c2b1dbbc46588644c382a8fd2eaefe7f3141de691e27eddbe47561ce8c7"}, "tags": {"1.0.1--r43hdfd78af_0": "sha256:545c7c9d6f650abc1ee9ca023bb9e08ee6f7c446271c4e802fbe57c20928f49c", "1.2.0--r43hdfd78af_0": "sha256:b9b2777980a1406afaa2acce297b904a8b8f74de6e26f97106f8adf5f6c24d3e", "1.6.0--r44hdfd78af_0": "sha256:8de578cc2fdf7c2072e702e572d9feb080b0625391307e1d1057d1a1a0709fe4", "1.10.0--r45hdfd78af_0": "sha256:5e698c2b1dbbc46588644c382a8fd2eaefe7f3141de691e27eddbe47561ce8c7"}, "docker": "quay.io/biocontainers/bioconductor-anvilworkflow", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-anvilworkflow.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-anvilworkflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-anvilworkflow:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-anvilworkflow:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-anvilworkflow/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-anvilworkflow/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-anvilworkflow/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-anvilworkflow/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsalightning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsalightning/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsalightning/container.yaml"
-updated_at: "2026-02-24 04:53:19.494281"
+updated_at: "2026-02-25 04:58:36.614241"
 latest: "1.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsalightning"
 aliases:

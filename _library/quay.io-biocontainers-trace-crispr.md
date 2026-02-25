@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trace-crispr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trace-crispr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trace-crispr/container.yaml"
-updated_at: "2026-02-24 04:27:46.240702"
+updated_at: "2026-02-25 04:30:06.190426"
 latest: "0.4.0--pyh84498cf_0"
 container_url: "https://biocontainers.pro/tools/trace-crispr"
 aliases:

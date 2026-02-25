@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-anvilbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilbase/container.yaml"
-updated_at: "2026-02-24 04:46:23.029294"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-02-25 04:50:53.445153"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilbase"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-anvilbase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-anvilbase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-anvilbase", "latest": {"1.0.0--r44hdfd78af_0": "sha256:832a94bc55c719eda13f287eb9fba93d28ec892b3238a78a2ab752ffea8d57e4"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:832a94bc55c719eda13f287eb9fba93d28ec892b3238a78a2ab752ffea8d57e4"}, "docker": "quay.io/biocontainers/bioconductor-anvilbase", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-anvilbase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-anvilbase", "latest": {"1.4.0--r45hdfd78af_0": "sha256:29407384bf5de9db6d518e9d42e32b25dd9a8aeb65b4221a5ab7a76cc7704d03"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:832a94bc55c719eda13f287eb9fba93d28ec892b3238a78a2ab752ffea8d57e4", "1.4.0--r45hdfd78af_0": "sha256:29407384bf5de9db6d518e9d42e32b25dd9a8aeb65b4221a5ab7a76cc7704d03"}, "docker": "quay.io/biocontainers/bioconductor-anvilbase", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-anvilbase.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-anvilbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-anvilbase:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-anvilbase:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-anvilbase/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-anvilbase/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-anvilbase/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-anvilbase/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

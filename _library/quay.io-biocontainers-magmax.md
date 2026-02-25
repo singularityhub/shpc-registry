@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/magmax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magmax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magmax/container.yaml"
-updated_at: "2026-02-24 04:47:50.708181"
-latest: "1.2.0--ha6fb395_0"
+updated_at: "2026-02-25 04:52:31.174512"
+latest: "1.3.0--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/magmax"
 aliases:
  - "binspreader"
@@ -44,8 +44,9 @@ versions:
  - "1.0.0--ha6fb395_0"
  - "1.1.0--ha6fb395_0"
  - "1.2.0--ha6fb395_0"
+ - "1.3.0--ha6fb395_0"
 description: "singularity registry hpc automated addition for magmax"
-config: {"url": "https://biocontainers.pro/tools/magmax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for magmax", "latest": {"1.2.0--ha6fb395_0": "sha256:51e79be0beb0da6d1e3cf0047d55498f5afedf50d24496344531fd27623080f2"}, "tags": {"1.0.0--ha6fb395_0": "sha256:c20f5a6e0285ca137290c5084c3804c63674772d4d67d159a88c2a31363b1486", "1.1.0--ha6fb395_0": "sha256:156eda80fc7120e04a82e78b61de98da367440c04999e2b6d0174bea671a4992", "1.2.0--ha6fb395_0": "sha256:51e79be0beb0da6d1e3cf0047d55498f5afedf50d24496344531fd27623080f2"}, "docker": "quay.io/biocontainers/magmax", "aliases": {"binspreader": "/usr/local/bin/binspreader", "magmax": "/usr/local/bin/magmax", "pathracer": "/usr/local/bin/pathracer", "pathracer-seq-fs": "/usr/local/bin/pathracer-seq-fs", "skani": "/usr/local/bin/skani", "spades-gfa-split": "/usr/local/bin/spades-gfa-split", "spades-hpc": "/usr/local/bin/spades-hpc", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "spaligner": "/usr/local/bin/spaligner", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "seqtk": "/usr/local/bin/seqtk", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC"}}
+config: {"url": "https://biocontainers.pro/tools/magmax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for magmax", "latest": {"1.3.0--ha6fb395_0": "sha256:89f8e122c0e719a76d93fbc5c4321e0c2cfd296fa528090cdcaa83994544bd02"}, "tags": {"1.0.0--ha6fb395_0": "sha256:c20f5a6e0285ca137290c5084c3804c63674772d4d67d159a88c2a31363b1486", "1.1.0--ha6fb395_0": "sha256:156eda80fc7120e04a82e78b61de98da367440c04999e2b6d0174bea671a4992", "1.2.0--ha6fb395_0": "sha256:51e79be0beb0da6d1e3cf0047d55498f5afedf50d24496344531fd27623080f2", "1.3.0--ha6fb395_0": "sha256:89f8e122c0e719a76d93fbc5c4321e0c2cfd296fa528090cdcaa83994544bd02"}, "docker": "quay.io/biocontainers/magmax", "aliases": {"binspreader": "/usr/local/bin/binspreader", "magmax": "/usr/local/bin/magmax", "pathracer": "/usr/local/bin/pathracer", "pathracer-seq-fs": "/usr/local/bin/pathracer-seq-fs", "skani": "/usr/local/bin/skani", "spades-gfa-split": "/usr/local/bin/spades-gfa-split", "spades-hpc": "/usr/local/bin/spades-hpc", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "spaligner": "/usr/local/bin/spaligner", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "seqtk": "/usr/local/bin/seqtk", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/magmax.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/magmax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/magmax:1.2.0--ha6fb395_0
+$ shpc install quay.io/biocontainers/magmax:1.3.0--ha6fb395_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/magmax/1.2.0--ha6fb395_0
-$ module help quay.io/biocontainers/magmax/1.2.0--ha6fb395_0
+$ module load quay.io/biocontainers/magmax/1.3.0--ha6fb395_0
+$ module help quay.io/biocontainers/magmax/1.3.0--ha6fb395_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

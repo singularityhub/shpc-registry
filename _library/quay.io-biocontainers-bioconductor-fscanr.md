@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fscanr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fscanr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fscanr/container.yaml"
-updated_at: "2026-02-24 04:28:49.833889"
+updated_at: "2026-02-25 04:31:17.169135"
 latest: "1.10.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fscanr"
 
