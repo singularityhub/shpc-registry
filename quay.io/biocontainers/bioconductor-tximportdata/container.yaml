@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tximportdata
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:7ff340333bcf8c8444fa5f4c19683fc49a5c066a47c0ce2fd0e314d33b212d96
+  1.38.0--r45hdfd78af_0: 
+    sha256:3fef22015ae6a8e6271b3adbca6d72946e647bb10d3a0365ddf03cf5f52ac0ac
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:d77a156fb317956ea698f58e2e9ce1e549ddd473581a4d9e6725886d63e86d02
@@ -16,4 +16,6 @@ tags:
     sha256:e0e3caf0513adf62e82635f1eaadebed1d3e120c549d81fac713180eb0191871
   1.34.0--r44hdfd78af_0: 
     sha256:7ff340333bcf8c8444fa5f4c19683fc49a5c066a47c0ce2fd0e314d33b212d96
+  1.38.0--r45hdfd78af_0: 
+    sha256:3fef22015ae6a8e6271b3adbca6d72946e647bb10d3a0365ddf03cf5f52ac0ac
 docker: quay.io/biocontainers/bioconductor-tximportdata

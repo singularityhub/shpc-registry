@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowmerge
 latest:
-  2.54.0--r44hdfd78af_0: 
-    sha256:2bac51ae6963a4e9f2f12de91e17cbcfa1c37547f8af080bb7c5d904390865bb
+  2.58.0--r45h575d39b_0: 
+    sha256:842bc78956083bcee8ef7548acb4049cb171c04776d2cac8780d86fb2d9d2e09
 tags:
   2.40.0--r41hdfd78af_0: 
     sha256:46190eb2cc7985afea40b6494d42b2077e89942686bd0b9d1386264cdf66dfa5
@@ -16,6 +16,8 @@ tags:
     sha256:97205351570c402beac048461781b8359e90b46eea05de3692f66e7ca5591848
   2.54.0--r44hdfd78af_0: 
     sha256:2bac51ae6963a4e9f2f12de91e17cbcfa1c37547f8af080bb7c5d904390865bb
+  2.58.0--r45h575d39b_0: 
+    sha256:842bc78956083bcee8ef7548acb4049cb171c04776d2cac8780d86fb2d9d2e09
 docker: quay.io/biocontainers/bioconductor-flowmerge
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/captus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for captus
 latest:
-  1.6.1--pyh05cac1d_0: 
-    sha256:56460ce585cc37c796c5f288307e804c239b5ddc480c69e792b75b7471d451cf
+  1.6.3--pyh05cac1d_0: 
+    sha256:d6e3ebfd9b56fa94888419bfec111b9704509e7a3c2e897d314ed205cb053663
 tags:
   0.9.91--pyhdfd78af_0: 
     sha256:7b81e5c5d4241d3021b84032a0b38bee159a998528c212a7db6ab9a6d5656ee9
@@ -53,6 +53,8 @@ tags:
     sha256:5e917b68c7c5f7dc6675cbeec0d6a53db243337c00adb7934f20bb0b1de1832d
   1.6.1--pyh05cac1d_0: 
     sha256:56460ce585cc37c796c5f288307e804c239b5ddc480c69e792b75b7471d451cf
+  1.6.3--pyh05cac1d_0: 
+    sha256:d6e3ebfd9b56fa94888419bfec111b9704509e7a3c2e897d314ed205cb053663
 docker: quay.io/biocontainers/captus
 aliases:
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mscoreutils
 latest:
-  1.18.0--r44he5774e6_1: 
-    sha256:a122551a9db27fa84d0af95e4f18cae0f48dc6c7135dec6934d48125bc1f10ac
+  1.22.1--r45ha27e39d_0: 
+    sha256:a548c8af550af4e117b48c730bf7641e4d2b1941d430a3c72a1818f748b9649e
 tags:
   1.6.2--r41hc247a5b_0: 
     sha256:27e654ec2ffcf65573f539bbf0d203a93b154bac6a51a4161f24ca5eb7c6f150
@@ -22,4 +22,6 @@ tags:
     sha256:636cfe6492289d6eb405b63b907d3f39164ec613ebc3b209dae2a915b9d1f810
   1.18.0--r44he5774e6_1: 
     sha256:a122551a9db27fa84d0af95e4f18cae0f48dc6c7135dec6934d48125bc1f10ac
+  1.22.1--r45ha27e39d_0: 
+    sha256:a548c8af550af4e117b48c730bf7641e4d2b1941d430a3c72a1818f748b9649e
 docker: quay.io/biocontainers/bioconductor-mscoreutils

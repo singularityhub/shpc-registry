@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-frgepistasis
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:f6a5446c2fd18f6a322d4c87f85f7fd8e2d92a6179768f71e4a449170ae8ae4e
+  1.46.0--r45hdfd78af_0: 
+    sha256:34f063ac4e4ac01038593669f72b7a32393b4c992d674e622a52e6bcd09bd3d2
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:1b4b0e0a300e10fd8add93e4fcadae550142053d3d6faea41b3c520e55805971
@@ -16,4 +16,6 @@ tags:
     sha256:33c4bafc372f758d1e0a2717b4aef0f022e400a96fde9579f50307a6c8a1b7b4
   1.42.0--r44hdfd78af_0: 
     sha256:f6a5446c2fd18f6a322d4c87f85f7fd8e2d92a6179768f71e4a449170ae8ae4e
+  1.46.0--r45hdfd78af_0: 
+    sha256:34f063ac4e4ac01038593669f72b7a32393b4c992d674e622a52e6bcd09bd3d2
 docker: quay.io/biocontainers/bioconductor-frgepistasis

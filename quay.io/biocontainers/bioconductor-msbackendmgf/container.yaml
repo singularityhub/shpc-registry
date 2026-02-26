@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-msbackendmgf
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:e4850981d55f6cd18922b8fe5f59c92bbc47cc352b884b16b85d292bc7499682
+  1.18.0--r45hdfd78af_0: 
+    sha256:a31ad0193b59e527ff9cd93b5bc05b18f23d5487de7ad2f5adb9bc028038f577
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:01bca8120dc8beb568dd87e2ed516df30a609e52be1c63bbb38d9e0662b3c8a0
@@ -16,4 +16,6 @@ tags:
     sha256:5f60e85b5f063a7933b447925633e1c784e8d90b2d9279f150a39f99569264f1
   1.14.0--r44hdfd78af_0: 
     sha256:e4850981d55f6cd18922b8fe5f59c92bbc47cc352b884b16b85d292bc7499682
+  1.18.0--r45hdfd78af_0: 
+    sha256:a31ad0193b59e527ff9cd93b5bc05b18f23d5487de7ad2f5adb9bc028038f577
 docker: quay.io/biocontainers/bioconductor-msbackendmgf

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hpaanalyze
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:e7ef586fb6647463074667d6a1c553e1fd7788e0b778b50247ded10a85cf2b52
+  1.28.0--r45hdfd78af_0: 
+    sha256:5316f034c2e92b2af8146ec860c96ff29bf8cb6649b094d5b81dbb6fe3440968
 tags:
   1.8.1--r40hdfd78af_0: 
     sha256:9c4ca679c787cb7d2e8b09acebeef7a8b0ab4592b027623cfcd112fa3fc41eb5
@@ -20,6 +20,8 @@ tags:
     sha256:c05d3213e840a305183e747296b52eb8f1469f1b46e7499b2213963208bdfe85
   1.24.0--r44hdfd78af_0: 
     sha256:e7ef586fb6647463074667d6a1c553e1fd7788e0b778b50247ded10a85cf2b52
+  1.28.0--r45hdfd78af_0: 
+    sha256:5316f034c2e92b2af8146ec860c96ff29bf8cb6649b094d5b81dbb6fe3440968
 docker: quay.io/biocontainers/bioconductor-hpaanalyze
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

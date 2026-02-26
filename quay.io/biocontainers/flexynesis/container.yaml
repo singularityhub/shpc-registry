@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/flexynesis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flexynesis
 latest:
-  1.1.6--pyhdfd78af_0: 
-    sha256:33bd5e160ded01357ae90f201eda580ea7f3a6fb4ec49ef759af33b9fa37cce8
+  1.1.7--pyhdfd78af_0: 
+    sha256:21b55bd1745824d476907f7e1dc282649563af174363d03a2cbb93b83f37af11
 tags:
   0.2.10--pyhdfd78af_0: 
     sha256:9cbe49d59a866b3233408384a9a2887a78b6a00d1f049c456a9930de05e5f390
@@ -27,6 +27,8 @@ tags:
     sha256:a151daa0702a831ee2375193480f3ad1ebf1d5d728065c1e6e47d2696ce15925
   1.1.6--pyhdfd78af_0: 
     sha256:33bd5e160ded01357ae90f201eda580ea7f3a6fb4ec49ef759af33b9fa37cce8
+  1.1.7--pyhdfd78af_0: 
+    sha256:21b55bd1745824d476907f7e1dc282649563af174363d03a2cbb93b83f37af11
 docker: quay.io/biocontainers/flexynesis
 aliases:
   ase: /usr/local/bin/ase

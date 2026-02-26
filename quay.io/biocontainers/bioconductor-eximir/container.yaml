@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-eximir
 latest:
-  2.48.0--r44hdfd78af_0: 
-    sha256:ec76e3096139d868cd0fc31c75850b672b4f59e4a8649b84e5c424ba68c24f29
+  2.52.0--r45hdfd78af_0: 
+    sha256:ebc92add3d12647fc0ef33a9d1b581bce08220e15e17832c87c73d14a7d0740a
 tags:
   2.36.0--r41hdfd78af_0: 
     sha256:545c9e82cf70919e1723a0514f17121b7b7521e9bb63d7b98a3f6d3402f21536
@@ -16,4 +16,6 @@ tags:
     sha256:4128a197a53da557dc5bbcfaff96e84e3931aa790e4223148c2cc2246e9b8c8b
   2.48.0--r44hdfd78af_0: 
     sha256:ec76e3096139d868cd0fc31c75850b672b4f59e4a8649b84e5c424ba68c24f29
+  2.52.0--r45hdfd78af_0: 
+    sha256:ebc92add3d12647fc0ef33a9d1b581bce08220e15e17832c87c73d14a7d0740a
 docker: quay.io/biocontainers/bioconductor-eximir

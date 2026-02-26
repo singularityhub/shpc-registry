@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-rbioformats
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:ad638e996cbf7ad6cd0cc1ce8552d4fe16cb1dae5680d7259606a7c7ffe5167d
+  1.10.0--r45hdfd78af_0: 
+    sha256:41afae34587c4ed4684da80ce8d701a90ae20c7a9850dc8f5108ba842eb4b872
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:c928f548a80bbe8c4e19ae837327878f564b50460efac3295cfc563dedf4b391
@@ -12,6 +12,8 @@ tags:
     sha256:3540f0a4e22199c336de5077a6243d4d600fc61e3aa46b6d8cd903f5851d93aa
   1.6.0--r44hdfd78af_0: 
     sha256:ad638e996cbf7ad6cd0cc1ce8552d4fe16cb1dae5680d7259606a7c7ffe5167d
+  1.10.0--r45hdfd78af_0: 
+    sha256:41afae34587c4ed4684da80ce8d701a90ae20c7a9850dc8f5108ba842eb4b872
 docker: quay.io/biocontainers/bioconductor-rbioformats
 aliases:
   jwebserver: /usr/local/bin/jwebserver
