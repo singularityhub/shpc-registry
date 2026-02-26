@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bwa-fastalign
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bwa-fastalign
+latest:
+  1.0.0--hb7acf71_0: 
+    sha256:8cc24a716b8267f9829a9ca55a960b8d01517fef93c79f51950bd1aafe06630b
+tags:
+  1.0.0--hb7acf71_0: 
+    sha256:8cc24a716b8267f9829a9ca55a960b8d01517fef93c79f51950bd1aafe06630b
+docker: quay.io/biocontainers/bwa-fastalign
+aliases:
+  bwa-fastalign: /usr/local/bin/bwa-fastalign

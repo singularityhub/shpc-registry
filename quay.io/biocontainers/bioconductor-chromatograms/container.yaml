@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-chromatograms
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-chromatograms
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:93a98cb212f74e5465f37b3b6428ab6c4be3cff6b666192182d1e826c034f645
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:93a98cb212f74e5465f37b3b6428ab6c4be3cff6b666192182d1e826c034f645
+docker: quay.io/biocontainers/bioconductor-chromatograms
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

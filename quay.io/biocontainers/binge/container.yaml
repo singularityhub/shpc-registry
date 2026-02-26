@@ -1,0 +1,82 @@
+url: https://biocontainers.pro/tools/binge
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for binge
+latest:
+  1.1.0--hdfd78af_0: 
+    sha256:d212bb253ae15f743701b2178d1fb5dfe714fd178e9b2fa1a0fc694e0e77fd54
+tags:
+  1.1.0--hdfd78af_0: 
+    sha256:d212bb253ae15f743701b2178d1fb5dfe714fd178e9b2fa1a0fc694e0e77fd54
+docker: quay.io/biocontainers/binge
+aliases:
+  BINge: /usr/local/bin/BINge
+  BINge.py: /usr/local/bin/BINge.py
+  BINge_post: /usr/local/bin/BINge_post
+  BINge_post.py: /usr/local/bin/BINge_post.py
+  append_sff: /usr/local/bin/append_sff
+  convert_trace: /usr/local/bin/convert_trace
+  cram_dump: /usr/local/bin/cram_dump
+  cram_filter: /usr/local/bin/cram_filter
+  cram_index: /usr/local/bin/cram_index
+  cram_size: /usr/local/bin/cram_size
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  extract_fastq: /usr/local/bin/extract_fastq
+  extract_qual: /usr/local/bin/extract_qual
+  extract_seq: /usr/local/bin/extract_seq
+  get_comment: /usr/local/bin/get_comment
+  gff3_exons: /usr/local/bin/gff3_exons
+  gmap_cat: /usr/local/bin/gmap_cat
+  gtf_exons: /usr/local/bin/gtf_exons
+  hash_exp: /usr/local/bin/hash_exp
+  hash_extract: /usr/local/bin/hash_extract
+  hash_list: /usr/local/bin/hash_list
+  hash_sff: /usr/local/bin/hash_sff
+  hash_tar: /usr/local/bin/hash_tar
+  index_tar: /usr/local/bin/index_tar
+  indexdb_cat: /usr/local/bin/indexdb_cat
+  io_lib-config: /usr/local/bin/io_lib-config
+  makeSCF: /usr/local/bin/makeSCF
+  scf_dump: /usr/local/bin/scf_dump
+  scf_info: /usr/local/bin/scf_info
+  scf_update: /usr/local/bin/scf_update
+  scram_flagstat: /usr/local/bin/scram_flagstat
+  scram_merge: /usr/local/bin/scram_merge
+  scram_pileup: /usr/local/bin/scram_pileup
+  scram_test: /usr/local/bin/scram_test
+  scramble: /usr/local/bin/scramble
+  srf2fasta: /usr/local/bin/srf2fasta
+  srf2fastq: /usr/local/bin/srf2fastq
+  srf_dump_all: /usr/local/bin/srf_dump_all
+  srf_extract_hash: /usr/local/bin/srf_extract_hash
+  srf_extract_linear: /usr/local/bin/srf_extract_linear
+  srf_filter: /usr/local/bin/srf_filter
+  srf_index_hash: /usr/local/bin/srf_index_hash
+  srf_info: /usr/local/bin/srf_info
+  srf_list: /usr/local/bin/srf_list
+  trace_dump: /usr/local/bin/trace_dump
+  ztr_dump: /usr/local/bin/ztr_dump
+  compare_gos.py: /usr/local/bin/compare_gos.py
+  gmap.nosimd: /usr/local/bin/gmap.nosimd
+  gmapl.nosimd: /usr/local/bin/gmapl.nosimd
+  go_plot.py: /usr/local/bin/go_plot.py
+  gsnap.nosimd: /usr/local/bin/gsnap.nosimd
+  gsnapl.nosimd: /usr/local/bin/gsnapl.nosimd
+  ncbi_gene_results_to_python.py: /usr/local/bin/ncbi_gene_results_to_python.py
+  prt_terms.py: /usr/local/bin/prt_terms.py
+  wr_hier.py: /usr/local/bin/wr_hier.py
+  wr_sections.py: /usr/local/bin/wr_sections.py
+  fetch_associations.py: /usr/local/bin/fetch_associations.py
+  find_enrichment.py: /usr/local/bin/find_enrichment.py
+  map_to_slim.py: /usr/local/bin/map_to_slim.py
+  plot_go_term.py: /usr/local/bin/plot_go_term.py
+  trindex: /usr/local/bin/trindex
+  atoiindex: /usr/local/bin/atoiindex
+  cmetindex: /usr/local/bin/cmetindex
+  cpuid: /usr/local/bin/cpuid
+  dbsnp_iit: /usr/local/bin/dbsnp_iit
+  ensembl_genes: /usr/local/bin/ensembl_genes
+  fa_coords: /usr/local/bin/fa_coords
+  get-genome: /usr/local/bin/get-genome
+  gff3_genes: /usr/local/bin/gff3_genes
+  gff3_introns: /usr/local/bin/gff3_introns
+  gff3_splicesites: /usr/local/bin/gff3_splicesites

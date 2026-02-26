@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/aastk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for aastk
+latest:
+  0.1.0--pyh1f0d9b5_0: 
+    sha256:c46b95eee6a8b9a4e0b17e628c8eb2c302c210cbc47d08501ff7a971b7b7ddc6
+tags:
+  0.1.0--pyh1f0d9b5_0: 
+    sha256:c46b95eee6a8b9a4e0b17e628c8eb2c302c210cbc47d08501ff7a971b7b7ddc6
+docker: quay.io/biocontainers/aastk
+aliases:
+  aastk: /usr/local/bin/aastk
+  seqkit: /usr/local/bin/seqkit
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  diamond: /usr/local/bin/diamond
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

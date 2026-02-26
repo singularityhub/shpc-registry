@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/itsxrust
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for itsxrust
+latest:
+  0.1.0--h4349ce8_0: 
+    sha256:98fa4f7f0a9d719f96cc2facb8f7194f2119c083bd0c25e4c9a1fa0920e33b29
+tags:
+  0.1.0--h4349ce8_0: 
+    sha256:98fa4f7f0a9d719f96cc2facb8f7194f2119c083bd0c25e4c9a1fa0920e33b29
+docker: quay.io/biocontainers/itsxrust
+aliases:
+  itsxrust: /usr/local/bin/itsxrust
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server
+  ortecc: /usr/local/bin/ortecc
+  orted: /usr/local/bin/orted
+  orterun: /usr/local/bin/orterun
+  mpiCC: /usr/local/bin/mpiCC
+  ompi_info: /usr/local/bin/ompi_info

@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/raccoon
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for raccoon
+latest:
+  1.0--pyhdfd78af_0: 
+    sha256:6c112fb154be2fb82fd4218e01887544339cddfaaa7e69abf2dec54bf2ab3f83
+tags:
+  1.0--pyhdfd78af_0: 
+    sha256:6c112fb154be2fb82fd4218e01887544339cddfaaa7e69abf2dec54bf2ab3f83
+docker: quay.io/biocontainers/raccoon
+aliases:
+  raccoon: /usr/local/bin/raccoon
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  tjbench: /usr/local/bin/tjbench
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
