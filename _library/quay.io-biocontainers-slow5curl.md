@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/slow5curl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slow5curl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slow5curl/container.yaml"
-updated_at: "2026-02-25 05:01:03.963726"
-latest: "0.2.1--h86e5fe9_1"
+updated_at: "2026-02-26 05:12:37.735794"
+latest: "0.3.0--h86e5fe9_0"
 container_url: "https://biocontainers.pro/tools/slow5curl"
 aliases:
  - "slow5curl"
@@ -13,8 +13,9 @@ versions:
  - "0.2.0--h9bb4366_0"
  - "0.2.1--h9bb4366_0"
  - "0.2.1--h86e5fe9_1"
+ - "0.3.0--h86e5fe9_0"
 description: "singularity registry hpc automated addition for slow5curl"
-config: {"url": "https://biocontainers.pro/tools/slow5curl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for slow5curl", "latest": {"0.2.1--h86e5fe9_1": "sha256:57c48d4dcc8c2888f27ee0e36612135f618f5d369b3b0b95ba5b5ed442d4c4c5"}, "tags": {"0.2.0--h9bb4366_0": "sha256:591438316c6fa7ffd31bea7f30450160206d8fadc4ea639aaa192b44a1a67426", "0.2.1--h9bb4366_0": "sha256:da3b9817c5bd6cf4a510b00bab17380055a0730808ea2e4f11dd5d588186b8ea", "0.2.1--h86e5fe9_1": "sha256:57c48d4dcc8c2888f27ee0e36612135f618f5d369b3b0b95ba5b5ed442d4c4c5"}, "docker": "quay.io/biocontainers/slow5curl", "aliases": {"slow5curl": "/usr/local/bin/slow5curl"}}
+config: {"url": "https://biocontainers.pro/tools/slow5curl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for slow5curl", "latest": {"0.3.0--h86e5fe9_0": "sha256:375a62deb3f82e793e236bcd3b039dec8887e86490821f06eb9757ce66773e2a"}, "tags": {"0.2.0--h9bb4366_0": "sha256:591438316c6fa7ffd31bea7f30450160206d8fadc4ea639aaa192b44a1a67426", "0.2.1--h9bb4366_0": "sha256:da3b9817c5bd6cf4a510b00bab17380055a0730808ea2e4f11dd5d588186b8ea", "0.2.1--h86e5fe9_1": "sha256:57c48d4dcc8c2888f27ee0e36612135f618f5d369b3b0b95ba5b5ed442d4c4c5", "0.3.0--h86e5fe9_0": "sha256:375a62deb3f82e793e236bcd3b039dec8887e86490821f06eb9757ce66773e2a"}, "docker": "quay.io/biocontainers/slow5curl", "aliases": {"slow5curl": "/usr/local/bin/slow5curl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slow5curl.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/slow5curl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/slow5curl:0.2.1--h86e5fe9_1
+$ shpc install quay.io/biocontainers/slow5curl:0.3.0--h86e5fe9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/slow5curl/0.2.1--h86e5fe9_1
-$ module help quay.io/biocontainers/slow5curl/0.2.1--h86e5fe9_1
+$ module load quay.io/biocontainers/slow5curl/0.3.0--h86e5fe9_0
+$ module help quay.io/biocontainers/slow5curl/0.3.0--h86e5fe9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

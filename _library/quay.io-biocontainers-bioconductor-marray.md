@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-marray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-marray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-marray/container.yaml"
-updated_at: "2026-02-25 05:01:16.597410"
-latest: "1.84.0--r44hdfd78af_0"
+updated_at: "2026-02-26 05:11:05.821134"
+latest: "1.88.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-marray"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.78.0--r43hdfd78af_0"
  - "1.80.0--r43hdfd78af_0"
  - "1.84.0--r44hdfd78af_0"
+ - "1.88.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-marray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-marray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-marray", "latest": {"1.84.0--r44hdfd78af_0": "sha256:d384f13566062677a5f02e3766da993d7877c75628d960e12a58529bd8843f07"}, "tags": {"1.72.0--r41hdfd78af_0": "sha256:bb2b868330759250b7e81819bfea134b4e18508836a67c85b7c200d9415f7427", "1.76.0--r42hdfd78af_0": "sha256:18fc58bb48d1f92aced2614e0b40d3598b9c5c1df688ab38a3da5244d7883f2e", "1.78.0--r43hdfd78af_0": "sha256:35b7689ca986dcc0c6f720feb3a12d1d674298bd2fcce2db803493dceebde4d9", "1.80.0--r43hdfd78af_0": "sha256:7221d0f1f16ee7ae2b7a5a2262beb5a59cea06fc2b7ef5ad6cc1a527bd899dac", "1.84.0--r44hdfd78af_0": "sha256:d384f13566062677a5f02e3766da993d7877c75628d960e12a58529bd8843f07"}, "docker": "quay.io/biocontainers/bioconductor-marray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-marray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-marray", "latest": {"1.88.0--r45hdfd78af_0": "sha256:618fde254718d448e8c0681f857156bb73f55e930ad1c94a17c9f7c5d99546d9"}, "tags": {"1.72.0--r41hdfd78af_0": "sha256:bb2b868330759250b7e81819bfea134b4e18508836a67c85b7c200d9415f7427", "1.76.0--r42hdfd78af_0": "sha256:18fc58bb48d1f92aced2614e0b40d3598b9c5c1df688ab38a3da5244d7883f2e", "1.78.0--r43hdfd78af_0": "sha256:35b7689ca986dcc0c6f720feb3a12d1d674298bd2fcce2db803493dceebde4d9", "1.80.0--r43hdfd78af_0": "sha256:7221d0f1f16ee7ae2b7a5a2262beb5a59cea06fc2b7ef5ad6cc1a527bd899dac", "1.84.0--r44hdfd78af_0": "sha256:d384f13566062677a5f02e3766da993d7877c75628d960e12a58529bd8843f07", "1.88.0--r45hdfd78af_0": "sha256:618fde254718d448e8c0681f857156bb73f55e930ad1c94a17c9f7c5d99546d9"}, "docker": "quay.io/biocontainers/bioconductor-marray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-marray.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-marray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-marray:1.84.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-marray:1.88.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-marray/1.84.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-marray/1.84.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-marray/1.88.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-marray/1.88.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

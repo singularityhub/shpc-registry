@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prolocdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prolocdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prolocdata/container.yaml"
-updated_at: "2026-02-25 05:10:59.974687"
+updated_at: "2026-02-26 04:44:56.110117"
 latest: "1.44.0--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-prolocdata"
 aliases:

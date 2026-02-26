@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ibbig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ibbig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ibbig/container.yaml"
-updated_at: "2026-02-25 04:32:03.337409"
-latest: "1.50.0--r44h3df3fcb_0"
+updated_at: "2026-02-26 04:30:35.112108"
+latest: "1.54.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ibbig"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.44.0--r43ha9d7317_0"
  - "1.46.0--r43ha9d7317_1"
  - "1.50.0--r44h3df3fcb_0"
+ - "1.54.0--r45h01b2380_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ibbig"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ibbig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ibbig", "latest": {"1.50.0--r44h3df3fcb_0": "sha256:ca6640e8a73b1866bf6e86743a49fb4ededccdbb7019e51a56effbc22cbd04a2"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:994235508f631d362eb2f2c55c57c9592c704d762059223a513155b83cd9853d", "1.42.0--r42hc0cfd56_0": "sha256:8adfd78d9444c1553b7abee5d2e36009c3cae8449910e9e914b940813565ab73", "1.42.0--r42ha9d7317_2": "sha256:f96b4e707d1a205e73b7e67c19f3c660944fd14742b2cefa02cf78a6c28e410b", "1.44.0--r43ha9d7317_0": "sha256:e6391efd1629eba0296da282dbaaba18c3dbe5f97cf1612cb9c543997d161375", "1.46.0--r43ha9d7317_1": "sha256:bfacb350bb72eca4f3b54e74293ba8d33869c3abd17529c67982fde48fb51c95", "1.50.0--r44h3df3fcb_0": "sha256:ca6640e8a73b1866bf6e86743a49fb4ededccdbb7019e51a56effbc22cbd04a2"}, "docker": "quay.io/biocontainers/bioconductor-ibbig"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ibbig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ibbig", "latest": {"1.54.0--r45h01b2380_0": "sha256:d8291e0d9005f583609e15c696dceba69bd580d5167af5d9a3d050075fdf67c8"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:994235508f631d362eb2f2c55c57c9592c704d762059223a513155b83cd9853d", "1.42.0--r42hc0cfd56_0": "sha256:8adfd78d9444c1553b7abee5d2e36009c3cae8449910e9e914b940813565ab73", "1.42.0--r42ha9d7317_2": "sha256:f96b4e707d1a205e73b7e67c19f3c660944fd14742b2cefa02cf78a6c28e410b", "1.44.0--r43ha9d7317_0": "sha256:e6391efd1629eba0296da282dbaaba18c3dbe5f97cf1612cb9c543997d161375", "1.46.0--r43ha9d7317_1": "sha256:bfacb350bb72eca4f3b54e74293ba8d33869c3abd17529c67982fde48fb51c95", "1.50.0--r44h3df3fcb_0": "sha256:ca6640e8a73b1866bf6e86743a49fb4ededccdbb7019e51a56effbc22cbd04a2", "1.54.0--r45h01b2380_0": "sha256:d8291e0d9005f583609e15c696dceba69bd580d5167af5d9a3d050075fdf67c8"}, "docker": "quay.io/biocontainers/bioconductor-ibbig"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ibbig.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ibbig
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ibbig:1.50.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-ibbig:1.54.0--r45h01b2380_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ibbig/1.50.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-ibbig/1.50.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-ibbig/1.54.0--r45h01b2380_0
+$ module help quay.io/biocontainers/bioconductor-ibbig/1.54.0--r45h01b2380_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

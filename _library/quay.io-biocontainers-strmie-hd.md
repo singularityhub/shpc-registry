@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strmie-hd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strmie-hd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strmie-hd/container.yaml"
-updated_at: "2026-02-25 05:05:39.043685"
+updated_at: "2026-02-26 04:51:49.641194"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/strmie-hd"
 aliases:

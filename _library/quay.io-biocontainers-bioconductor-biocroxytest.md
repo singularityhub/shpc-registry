@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biocroxytest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocroxytest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocroxytest/container.yaml"
-updated_at: "2026-02-25 04:33:53.111561"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-02-26 04:50:10.354556"
+latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocroxytest"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-biocroxytest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocroxytest", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biocroxytest", "latest": {"1.2.0--r44hdfd78af_0": "sha256:16ce509f1da9e0090b41dfc705877b1d1e4f8c738738350d9d3efbfafb0750ca"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:16ce509f1da9e0090b41dfc705877b1d1e4f8c738738350d9d3efbfafb0750ca"}, "docker": "quay.io/biocontainers/bioconductor-biocroxytest", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocroxytest", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-biocroxytest", "latest": {"1.6.0--r45hdfd78af_0": "sha256:930c19c7e8bc826fa981389dcf050f9b971e9de8bf5f3d252144a31e17621d25"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:16ce509f1da9e0090b41dfc705877b1d1e4f8c738738350d9d3efbfafb0750ca", "1.6.0--r45hdfd78af_0": "sha256:930c19c7e8bc826fa981389dcf050f9b971e9de8bf5f3d252144a31e17621d25"}, "docker": "quay.io/biocontainers/bioconductor-biocroxytest", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocroxytest.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocroxytest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocroxytest:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biocroxytest:1.6.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocroxytest/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biocroxytest/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biocroxytest/1.6.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biocroxytest/1.6.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mantelcorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mantelcorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mantelcorr/container.yaml"
-updated_at: "2026-02-25 04:40:03.566876"
-latest: "1.76.0--r44hdfd78af_0"
+updated_at: "2026-02-26 05:09:55.077122"
+latest: "1.80.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mantelcorr"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.70.0--r43hdfd78af_0"
  - "1.72.0--r43hdfd78af_0"
  - "1.76.0--r44hdfd78af_0"
+ - "1.80.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mantelcorr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mantelcorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mantelcorr", "latest": {"1.76.0--r44hdfd78af_0": "sha256:8e32be2ae2e6950d30d1ecf45086ee9fc5a63a8be72ceabe90ee2b4fb115e16e"}, "tags": {"1.64.0--r41hdfd78af_0": "sha256:2f3aa333cf02c6c13f3f0fe2c7dfe25e7fbcf1a4dde4e254e8833e6ffc3fbd06", "1.68.0--r42hdfd78af_0": "sha256:513c387d02929505ea70a0a34338a54122cc279a93cbb8dcd72d9f711f218423", "1.70.0--r43hdfd78af_0": "sha256:fe1f99c65fb6feb1e71896362336d105a18e72c490a4b61cc3631dff891911ea", "1.72.0--r43hdfd78af_0": "sha256:3b5acfd965bda08b82395e8dd535beb374604f915d523d75d4a06138af571bb0", "1.76.0--r44hdfd78af_0": "sha256:8e32be2ae2e6950d30d1ecf45086ee9fc5a63a8be72ceabe90ee2b4fb115e16e"}, "docker": "quay.io/biocontainers/bioconductor-mantelcorr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mantelcorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mantelcorr", "latest": {"1.80.0--r45hdfd78af_0": "sha256:039d10c5ef7f1ce285e9848400efb73de06c20716a47315a9b3f8022793fc6bb"}, "tags": {"1.64.0--r41hdfd78af_0": "sha256:2f3aa333cf02c6c13f3f0fe2c7dfe25e7fbcf1a4dde4e254e8833e6ffc3fbd06", "1.68.0--r42hdfd78af_0": "sha256:513c387d02929505ea70a0a34338a54122cc279a93cbb8dcd72d9f711f218423", "1.70.0--r43hdfd78af_0": "sha256:fe1f99c65fb6feb1e71896362336d105a18e72c490a4b61cc3631dff891911ea", "1.72.0--r43hdfd78af_0": "sha256:3b5acfd965bda08b82395e8dd535beb374604f915d523d75d4a06138af571bb0", "1.76.0--r44hdfd78af_0": "sha256:8e32be2ae2e6950d30d1ecf45086ee9fc5a63a8be72ceabe90ee2b4fb115e16e", "1.80.0--r45hdfd78af_0": "sha256:039d10c5ef7f1ce285e9848400efb73de06c20716a47315a9b3f8022793fc6bb"}, "docker": "quay.io/biocontainers/bioconductor-mantelcorr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mantelcorr.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mantelcorr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mantelcorr:1.76.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mantelcorr:1.80.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mantelcorr/1.76.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mantelcorr/1.76.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mantelcorr/1.80.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mantelcorr/1.80.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msbackendrawfilereader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendrawfilereader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendrawfilereader/container.yaml"
-updated_at: "2026-02-25 04:55:16.090209"
+updated_at: "2026-02-26 04:58:09.444414"
 latest: "1.8.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendrawfilereader"
 aliases:

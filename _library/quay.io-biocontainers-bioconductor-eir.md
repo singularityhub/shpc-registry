@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-eir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eir/container.yaml"
-updated_at: "2026-02-25 05:13:58.481479"
-latest: "1.46.0--r44he5774e6_0"
+updated_at: "2026-02-26 04:27:22.917873"
+latest: "1.50.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eir"
 aliases:
  - "rsvg-convert"
@@ -20,8 +20,9 @@ versions:
  - "1.40.0--r43hf17093f_0"
  - "1.42.0--r43hf17093f_0"
  - "1.46.0--r44he5774e6_0"
+ - "1.50.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-eir"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-eir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eir", "latest": {"1.46.0--r44he5774e6_0": "sha256:7fa158df8b5d437aefbad74ba6eb386896488f642cedde6ef03c44b5e8767e85"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:2fbb2bc95428289a24ddce95824f0dbde014016fcbf66d18a78411c7501f1e64", "1.38.0--r42hc247a5b_0": "sha256:7b1c86afdea6e0cd60ab278ff18da230f439a3dfb493623eca205876cc7af2b7", "1.38.0--r42hf17093f_1": "sha256:e9a7d64cfafbc68d9c108d0aad21858b7f87c4d4c909b6acaeb07edac32fdd3a", "1.40.0--r43hf17093f_0": "sha256:b60efadd200bef6dd8263704ddc5c348e49bae5bf6ef2be73d9744f2ade81b65", "1.42.0--r43hf17093f_0": "sha256:4b248dbc8e8759eca50220bb9ee234990367ef84493daa7ea71da6bc6ad72af0", "1.46.0--r44he5774e6_0": "sha256:7fa158df8b5d437aefbad74ba6eb386896488f642cedde6ef03c44b5e8767e85"}, "docker": "quay.io/biocontainers/bioconductor-eir", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-eir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eir", "latest": {"1.50.0--r45ha27e39d_0": "sha256:ce4591e60d2b629814f202de26a70f69c8f90ac27e8b9aa8f698004bd5774cd1"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:2fbb2bc95428289a24ddce95824f0dbde014016fcbf66d18a78411c7501f1e64", "1.38.0--r42hc247a5b_0": "sha256:7b1c86afdea6e0cd60ab278ff18da230f439a3dfb493623eca205876cc7af2b7", "1.38.0--r42hf17093f_1": "sha256:e9a7d64cfafbc68d9c108d0aad21858b7f87c4d4c909b6acaeb07edac32fdd3a", "1.40.0--r43hf17093f_0": "sha256:b60efadd200bef6dd8263704ddc5c348e49bae5bf6ef2be73d9744f2ade81b65", "1.42.0--r43hf17093f_0": "sha256:4b248dbc8e8759eca50220bb9ee234990367ef84493daa7ea71da6bc6ad72af0", "1.46.0--r44he5774e6_0": "sha256:7fa158df8b5d437aefbad74ba6eb386896488f642cedde6ef03c44b5e8767e85", "1.50.0--r45ha27e39d_0": "sha256:ce4591e60d2b629814f202de26a70f69c8f90ac27e8b9aa8f698004bd5774cd1"}, "docker": "quay.io/biocontainers/bioconductor-eir", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-eir.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-eir
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-eir:1.46.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-eir:1.50.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-eir/1.46.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-eir/1.46.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-eir/1.50.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-eir/1.50.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

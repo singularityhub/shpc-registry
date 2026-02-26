@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/npyscreen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/npyscreen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/npyscreen/container.yaml"
-updated_at: "2026-02-25 05:04:18.640895"
-latest: "4.10.5--pyh864c0ab_3"
+updated_at: "2026-02-26 04:43:32.997492"
+latest: "5.0.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/npyscreen"
 aliases:
  - "2to3-3.8"
@@ -15,8 +15,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "4.10.5--pyh864c0ab_3"
+ - "5.0.2--pyh7e72e81_0"
 description: "shpc-registry automated BioContainers addition for npyscreen"
-config: {"url": "https://biocontainers.pro/tools/npyscreen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for npyscreen", "latest": {"4.10.5--pyh864c0ab_3": "sha256:756761161e67a69e3e409ab5cbf8b3757b1f2d8e29d5f8dc6ed44e93fa6b981d"}, "tags": {"4.10.5--pyh864c0ab_3": "sha256:756761161e67a69e3e409ab5cbf8b3757b1f2d8e29d5f8dc6ed44e93fa6b981d"}, "docker": "quay.io/biocontainers/npyscreen", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/npyscreen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for npyscreen", "latest": {"5.0.2--pyh7e72e81_0": "sha256:e9d6b326e220c305b38308d331a0dc37a5dc99e82657ee66df9dc661d8a948c1"}, "tags": {"4.10.5--pyh864c0ab_3": "sha256:756761161e67a69e3e409ab5cbf8b3757b1f2d8e29d5f8dc6ed44e93fa6b981d", "5.0.2--pyh7e72e81_0": "sha256:e9d6b326e220c305b38308d331a0dc37a5dc99e82657ee66df9dc661d8a948c1"}, "docker": "quay.io/biocontainers/npyscreen", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/npyscreen.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/npyscreen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/npyscreen:4.10.5--pyh864c0ab_3
+$ shpc install quay.io/biocontainers/npyscreen:5.0.2--pyh7e72e81_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/npyscreen/4.10.5--pyh864c0ab_3
-$ module help quay.io/biocontainers/npyscreen/4.10.5--pyh864c0ab_3
+$ module load quay.io/biocontainers/npyscreen/5.0.2--pyh7e72e81_0
+$ module help quay.io/biocontainers/npyscreen/5.0.2--pyh7e72e81_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

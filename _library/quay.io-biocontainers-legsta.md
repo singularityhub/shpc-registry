@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/legsta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/legsta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/legsta/container.yaml"
-updated_at: "2026-02-25 04:26:02.327372"
-latest: "0.5.1--hdfd78af_2"
+updated_at: "2026-02-26 05:13:28.900134"
+latest: "0.5.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/legsta"
 aliases:
  - "gfPcr"
@@ -17,8 +17,9 @@ aliases:
  - "streamzip"
 versions:
  - "0.5.1--hdfd78af_2"
+ - "0.5.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for legsta"
-config: {"url": "https://biocontainers.pro/tools/legsta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for legsta", "latest": {"0.5.1--hdfd78af_2": "sha256:af7e0130449459de66f65b9b305caae35987bddd181953ca2653f4ac1cff2072"}, "tags": {"0.5.1--hdfd78af_2": "sha256:af7e0130449459de66f65b9b305caae35987bddd181953ca2653f4ac1cff2072"}, "docker": "quay.io/biocontainers/legsta", "aliases": {"gfPcr": "/usr/local/bin/gfPcr", "gfServer": "/usr/local/bin/gfServer", "isPcr": "/usr/local/bin/isPcr", "legsta": "/usr/local/bin/legsta", "any2fasta": "/usr/local/bin/any2fasta", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/legsta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for legsta", "latest": {"0.5.2--hdfd78af_0": "sha256:b6c3e94f2ff650b8455d3383be9cbfb18d8f3d6e16db76fbcc72c8e48e3b84c0"}, "tags": {"0.5.1--hdfd78af_2": "sha256:af7e0130449459de66f65b9b305caae35987bddd181953ca2653f4ac1cff2072", "0.5.2--hdfd78af_0": "sha256:b6c3e94f2ff650b8455d3383be9cbfb18d8f3d6e16db76fbcc72c8e48e3b84c0"}, "docker": "quay.io/biocontainers/legsta", "aliases": {"gfPcr": "/usr/local/bin/gfPcr", "gfServer": "/usr/local/bin/gfServer", "isPcr": "/usr/local/bin/isPcr", "legsta": "/usr/local/bin/legsta", "any2fasta": "/usr/local/bin/any2fasta", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/legsta.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/legsta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/legsta:0.5.1--hdfd78af_2
+$ shpc install quay.io/biocontainers/legsta:0.5.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/legsta/0.5.1--hdfd78af_2
-$ module help quay.io/biocontainers/legsta/0.5.1--hdfd78af_2
+$ module load quay.io/biocontainers/legsta/0.5.2--hdfd78af_0
+$ module help quay.io/biocontainers/legsta/0.5.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
