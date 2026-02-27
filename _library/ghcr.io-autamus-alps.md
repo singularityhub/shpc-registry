@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/alps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/alps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/alps/container.yaml"
-updated_at: "2026-02-26 04:36:08.432644"
+updated_at: "2026-02-27 04:16:43.264365"
 latest: "2.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/alps"
 aliases:

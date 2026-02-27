@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-eximir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eximir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eximir/container.yaml"
-updated_at: "2026-02-26 05:15:34.431251"
-latest: "2.48.0--r44hdfd78af_0"
+updated_at: "2026-02-27 04:58:46.277182"
+latest: "2.52.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eximir"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.42.0--r43hdfd78af_0"
  - "2.44.0--r43hdfd78af_0"
  - "2.48.0--r44hdfd78af_0"
+ - "2.52.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-eximir"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-eximir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eximir", "latest": {"2.48.0--r44hdfd78af_0": "sha256:ec76e3096139d868cd0fc31c75850b672b4f59e4a8649b84e5c424ba68c24f29"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:545c9e82cf70919e1723a0514f17121b7b7521e9bb63d7b98a3f6d3402f21536", "2.40.0--r42hdfd78af_0": "sha256:f0e41171f4dceb2550055552eae6e83a1209e621ba2075d1c2f9a0d7eea0d2e7", "2.42.0--r43hdfd78af_0": "sha256:db856a5ecd407a5819a6968744bac21c83fc60f3ba002864481fdd895770bb11", "2.44.0--r43hdfd78af_0": "sha256:4128a197a53da557dc5bbcfaff96e84e3931aa790e4223148c2cc2246e9b8c8b", "2.48.0--r44hdfd78af_0": "sha256:ec76e3096139d868cd0fc31c75850b672b4f59e4a8649b84e5c424ba68c24f29"}, "docker": "quay.io/biocontainers/bioconductor-eximir"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-eximir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eximir", "latest": {"2.52.0--r45hdfd78af_0": "sha256:ebc92add3d12647fc0ef33a9d1b581bce08220e15e17832c87c73d14a7d0740a"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:545c9e82cf70919e1723a0514f17121b7b7521e9bb63d7b98a3f6d3402f21536", "2.40.0--r42hdfd78af_0": "sha256:f0e41171f4dceb2550055552eae6e83a1209e621ba2075d1c2f9a0d7eea0d2e7", "2.42.0--r43hdfd78af_0": "sha256:db856a5ecd407a5819a6968744bac21c83fc60f3ba002864481fdd895770bb11", "2.44.0--r43hdfd78af_0": "sha256:4128a197a53da557dc5bbcfaff96e84e3931aa790e4223148c2cc2246e9b8c8b", "2.48.0--r44hdfd78af_0": "sha256:ec76e3096139d868cd0fc31c75850b672b4f59e4a8649b84e5c424ba68c24f29", "2.52.0--r45hdfd78af_0": "sha256:ebc92add3d12647fc0ef33a9d1b581bce08220e15e17832c87c73d14a7d0740a"}, "docker": "quay.io/biocontainers/bioconductor-eximir"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-eximir.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-eximir
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-eximir:2.48.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-eximir:2.52.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-eximir/2.48.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-eximir/2.48.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-eximir/2.52.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-eximir/2.52.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

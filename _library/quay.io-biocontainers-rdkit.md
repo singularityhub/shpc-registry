@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdkit/container.yaml"
-updated_at: "2026-02-26 05:03:08.591711"
+updated_at: "2026-02-27 04:45:45.493076"
 latest: "2021.03.4"
 container_url: "https://biocontainers.pro/tools/rdkit"
 aliases:

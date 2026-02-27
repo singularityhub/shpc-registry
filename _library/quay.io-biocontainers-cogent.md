@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cogent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cogent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cogent/container.yaml"
-updated_at: "2026-02-26 04:59:05.399994"
+updated_at: "2026-02-27 04:41:27.495741"
 latest: "1.9--py27h9801fc8_4"
 container_url: "https://biocontainers.pro/tools/cogent"
 aliases:

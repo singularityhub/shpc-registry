@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metameta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metameta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metameta/container.yaml"
-updated_at: "2026-02-26 05:04:18.504129"
+updated_at: "2026-02-27 04:46:59.799423"
 latest: "1.2.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/metameta"
 aliases:

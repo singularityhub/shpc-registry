@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rbioformats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbioformats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbioformats/container.yaml"
-updated_at: "2026-02-26 04:51:13.564984"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-02-27 04:33:08.511467"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbioformats"
 aliases:
  - "jwebserver"
@@ -38,8 +38,9 @@ versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-rbioformats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbioformats", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rbioformats", "latest": {"1.6.0--r44hdfd78af_0": "sha256:ad638e996cbf7ad6cd0cc1ce8552d4fe16cb1dae5680d7259606a7c7ffe5167d"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:c928f548a80bbe8c4e19ae837327878f564b50460efac3295cfc563dedf4b391", "1.2.0--r43hdfd78af_0": "sha256:3540f0a4e22199c336de5077a6243d4d600fc61e3aa46b6d8cd903f5851d93aa", "1.6.0--r44hdfd78af_0": "sha256:ad638e996cbf7ad6cd0cc1ce8552d4fe16cb1dae5680d7259606a7c7ffe5167d"}, "docker": "quay.io/biocontainers/bioconductor-rbioformats", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "hb-info": "/usr/local/bin/hb-info", "jpackage": "/usr/local/bin/jpackage", "tjbench": "/usr/local/bin/tjbench", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "pandoc": "/usr/local/bin/pandoc", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbioformats", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rbioformats", "latest": {"1.10.0--r45hdfd78af_0": "sha256:41afae34587c4ed4684da80ce8d701a90ae20c7a9850dc8f5108ba842eb4b872"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:c928f548a80bbe8c4e19ae837327878f564b50460efac3295cfc563dedf4b391", "1.2.0--r43hdfd78af_0": "sha256:3540f0a4e22199c336de5077a6243d4d600fc61e3aa46b6d8cd903f5851d93aa", "1.6.0--r44hdfd78af_0": "sha256:ad638e996cbf7ad6cd0cc1ce8552d4fe16cb1dae5680d7259606a7c7ffe5167d", "1.10.0--r45hdfd78af_0": "sha256:41afae34587c4ed4684da80ce8d701a90ae20c7a9850dc8f5108ba842eb4b872"}, "docker": "quay.io/biocontainers/bioconductor-rbioformats", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "hb-info": "/usr/local/bin/hb-info", "jpackage": "/usr/local/bin/jpackage", "tjbench": "/usr/local/bin/tjbench", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "pandoc": "/usr/local/bin/pandoc", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbioformats.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rbioformats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rbioformats:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rbioformats:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rbioformats/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rbioformats/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rbioformats/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rbioformats/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

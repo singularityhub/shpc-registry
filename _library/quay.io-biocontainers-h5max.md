@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/h5max"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/h5max/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/h5max/container.yaml"
-updated_at: "2026-02-26 05:26:23.677723"
+updated_at: "2026-02-27 05:10:43.745152"
 latest: "0.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/h5max"
 aliases:

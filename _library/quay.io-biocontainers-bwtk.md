@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwtk/container.yaml"
-updated_at: "2026-02-26 04:51:45.745117"
+updated_at: "2026-02-27 04:33:42.047266"
 latest: "1.8.1--h9990f68_0"
 container_url: "https://biocontainers.pro/tools/bwtk"
 aliases:

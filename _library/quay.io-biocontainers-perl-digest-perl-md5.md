@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-digest-perl-md5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-digest-perl-md5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-digest-perl-md5/container.yaml"
-updated_at: "2026-02-26 04:41:55.464261"
-latest: "1.9--pl5321hdfd78af_2"
+updated_at: "2026-02-27 04:23:05.784916"
+latest: "1.91--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-digest-perl-md5"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.9--pl5321hdfd78af_2"
+ - "1.91--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-digest-perl-md5"
-config: {"url": "https://biocontainers.pro/tools/perl-digest-perl-md5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-digest-perl-md5", "latest": {"1.9--pl5321hdfd78af_2": "sha256:2129fb3fd64c841300abbfbca94e3931bec4ba79de12ee7c076c556d8181d2dc"}, "tags": {"1.9--pl5321hdfd78af_2": "sha256:2129fb3fd64c841300abbfbca94e3931bec4ba79de12ee7c076c556d8181d2dc"}, "docker": "quay.io/biocontainers/perl-digest-perl-md5", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-digest-perl-md5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-digest-perl-md5", "latest": {"1.91--pl5321hdfd78af_0": "sha256:ee6f3016b7b2696897ab147decea6970593de3c7032b6137eb34a68fdf16b669"}, "tags": {"1.9--pl5321hdfd78af_2": "sha256:2129fb3fd64c841300abbfbca94e3931bec4ba79de12ee7c076c556d8181d2dc", "1.91--pl5321hdfd78af_0": "sha256:ee6f3016b7b2696897ab147decea6970593de3c7032b6137eb34a68fdf16b669"}, "docker": "quay.io/biocontainers/perl-digest-perl-md5", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-digest-perl-md5.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-digest-perl-md5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-digest-perl-md5:1.9--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/perl-digest-perl-md5:1.91--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-digest-perl-md5/1.9--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/perl-digest-perl-md5/1.9--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/perl-digest-perl-md5/1.91--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-digest-perl-md5/1.91--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

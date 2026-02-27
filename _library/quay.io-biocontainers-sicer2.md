@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sicer2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sicer2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sicer2/container.yaml"
-updated_at: "2026-02-26 04:46:40.776395"
-latest: "1.0.3--py39hec7c8de_3"
+updated_at: "2026-02-27 04:28:17.353528"
+latest: "2.1.0--py310h1f9203e_0"
 container_url: "https://biocontainers.pro/tools/sicer2"
 aliases:
  - "recognicer"
@@ -26,8 +26,9 @@ versions:
  - "1.0.3--py37h37892f8_2"
  - "1.0.3--py39hec7c8de_3"
  - "1.0.3--py310hd6be1da_3"
+ - "2.1.0--py310h1f9203e_0"
 description: "shpc-registry automated BioContainers addition for sicer2"
-config: {"url": "https://biocontainers.pro/tools/sicer2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sicer2", "latest": {"1.0.3--py39hec7c8de_3": "sha256:66ef5033bc9a0d02a02525a23733c054bd9daf988d19d91ab5703ad4591b7b7b"}, "tags": {"1.0.3--py37h37892f8_2": "sha256:d5e957a3d4b01a6cbe55117151fbbd664d261524c1f367585b31c1123980cf9f", "1.0.3--py39hec7c8de_3": "sha256:66ef5033bc9a0d02a02525a23733c054bd9daf988d19d91ab5703ad4591b7b7b", "1.0.3--py310hd6be1da_3": "sha256:c9be73869b8b3d115f9dea4a8220c22a36b921b83eb840b20a4bbcc6f7a40d1e"}, "docker": "quay.io/biocontainers/sicer2", "aliases": {"recognicer": "/usr/local/bin/recognicer", "recognicer_df": "/usr/local/bin/recognicer_df", "sicer": "/usr/local/bin/sicer", "sicer_df": "/usr/local/bin/sicer_df", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/sicer2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sicer2", "latest": {"2.1.0--py310h1f9203e_0": "sha256:37c795c9277de9cb3db33ebba4ba3f43ae0e6516301d3e8a14255053e46aa6be"}, "tags": {"1.0.3--py37h37892f8_2": "sha256:d5e957a3d4b01a6cbe55117151fbbd664d261524c1f367585b31c1123980cf9f", "1.0.3--py39hec7c8de_3": "sha256:66ef5033bc9a0d02a02525a23733c054bd9daf988d19d91ab5703ad4591b7b7b", "1.0.3--py310hd6be1da_3": "sha256:c9be73869b8b3d115f9dea4a8220c22a36b921b83eb840b20a4bbcc6f7a40d1e", "2.1.0--py310h1f9203e_0": "sha256:37c795c9277de9cb3db33ebba4ba3f43ae0e6516301d3e8a14255053e46aa6be"}, "docker": "quay.io/biocontainers/sicer2", "aliases": {"recognicer": "/usr/local/bin/recognicer", "recognicer_df": "/usr/local/bin/recognicer_df", "sicer": "/usr/local/bin/sicer", "sicer_df": "/usr/local/bin/sicer_df", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sicer2.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/sicer2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sicer2:1.0.3--py39hec7c8de_3
+$ shpc install quay.io/biocontainers/sicer2:2.1.0--py310h1f9203e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sicer2/1.0.3--py39hec7c8de_3
-$ module help quay.io/biocontainers/sicer2/1.0.3--py39hec7c8de_3
+$ module load quay.io/biocontainers/sicer2/2.1.0--py310h1f9203e_0
+$ module help quay.io/biocontainers/sicer2/2.1.0--py310h1f9203e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

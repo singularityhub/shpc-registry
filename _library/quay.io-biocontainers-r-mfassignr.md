@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mfassignr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mfassignr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mfassignr/container.yaml"
-updated_at: "2026-02-26 04:37:53.235417"
+updated_at: "2026-02-27 04:18:38.613193"
 latest: "1.1.2--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-mfassignr"
 aliases:

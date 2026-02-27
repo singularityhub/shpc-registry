@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sugarcaneprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sugarcaneprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sugarcaneprobe/container.yaml"
-updated_at: "2026-02-26 05:14:44.939074"
+updated_at: "2026-02-27 04:57:54.708873"
 latest: "2.18.0--r44hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-sugarcaneprobe"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mbgc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mbgc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mbgc/container.yaml"
-updated_at: "2026-02-26 05:00:15.601436"
-latest: "2.1--h9948957_0"
+updated_at: "2026-02-27 04:42:42.365013"
+latest: "2.1.1--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/mbgc"
 aliases:
  - "mbgc"
@@ -17,8 +17,9 @@ versions:
  - "2.0.1--h4ac6f70_1"
  - "2.0.1--h9948957_2"
  - "2.1--h9948957_0"
+ - "2.1.1--hd63eeec_0"
 description: "shpc-registry automated BioContainers addition for mbgc"
-config: {"url": "https://biocontainers.pro/tools/mbgc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mbgc", "latest": {"2.1--h9948957_0": "sha256:2540c0ac7d2fb63636b12547e7d11e1003c4c37ad64b56adb4dc2228882fbf5e"}, "tags": {"1.2.1--h9f5acd7_1": "sha256:98e821540be1bd54912c3e3475921d619ae651b482d4a06058ec9002dd9044f6", "1.2.1--h4ac6f70_3": "sha256:e9acba885079d6ad1353f6a6577c2c61cb39609fb94e48b179c7074b3118b5bb", "2.0--h4ac6f70_0": "sha256:367110953356f713322f8244277abd015301e824d9175a7f6ebe93c779b8ee8b", "2.0.1--h4ac6f70_0": "sha256:88342798e7a43a016b28ca6f4a6965b4e073ba0ea46fd0daa45f72e5c62536a4", "2.0.1--h4ac6f70_1": "sha256:38bf8ed0ede5d968a1dcd04e5e40f0b2cbcd0c25a933a3dcdfaf39c98f41ee84", "2.0.1--h9948957_2": "sha256:31142bbe7b703673d79592ce3431458a456ff1f04fce3350d2a39d5429e99e3a", "2.1--h9948957_0": "sha256:2540c0ac7d2fb63636b12547e7d11e1003c4c37ad64b56adb4dc2228882fbf5e"}, "docker": "quay.io/biocontainers/mbgc", "aliases": {"mbgc": "/usr/local/bin/mbgc"}}
+config: {"url": "https://biocontainers.pro/tools/mbgc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mbgc", "latest": {"2.1.1--hd63eeec_0": "sha256:16756e1b47f3d1aac806c1e167d1b0a77b8d8207b27a20153428de5e0f01ca79"}, "tags": {"1.2.1--h9f5acd7_1": "sha256:98e821540be1bd54912c3e3475921d619ae651b482d4a06058ec9002dd9044f6", "1.2.1--h4ac6f70_3": "sha256:e9acba885079d6ad1353f6a6577c2c61cb39609fb94e48b179c7074b3118b5bb", "2.0--h4ac6f70_0": "sha256:367110953356f713322f8244277abd015301e824d9175a7f6ebe93c779b8ee8b", "2.0.1--h4ac6f70_0": "sha256:88342798e7a43a016b28ca6f4a6965b4e073ba0ea46fd0daa45f72e5c62536a4", "2.0.1--h4ac6f70_1": "sha256:38bf8ed0ede5d968a1dcd04e5e40f0b2cbcd0c25a933a3dcdfaf39c98f41ee84", "2.0.1--h9948957_2": "sha256:31142bbe7b703673d79592ce3431458a456ff1f04fce3350d2a39d5429e99e3a", "2.1--h9948957_0": "sha256:2540c0ac7d2fb63636b12547e7d11e1003c4c37ad64b56adb4dc2228882fbf5e", "2.1.1--hd63eeec_0": "sha256:16756e1b47f3d1aac806c1e167d1b0a77b8d8207b27a20153428de5e0f01ca79"}, "docker": "quay.io/biocontainers/mbgc", "aliases": {"mbgc": "/usr/local/bin/mbgc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mbgc.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/mbgc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mbgc:2.1--h9948957_0
+$ shpc install quay.io/biocontainers/mbgc:2.1.1--hd63eeec_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mbgc/2.1--h9948957_0
-$ module help quay.io/biocontainers/mbgc/2.1--h9948957_0
+$ module load quay.io/biocontainers/mbgc/2.1.1--hd63eeec_0
+$ module help quay.io/biocontainers/mbgc/2.1.1--hd63eeec_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

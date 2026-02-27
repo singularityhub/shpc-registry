@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/askocli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/askocli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/askocli/container.yaml"
-updated_at: "2026-02-26 04:53:25.830545"
+updated_at: "2026-02-27 04:35:25.185516"
 latest: "0.5--py_0"
 container_url: "https://biocontainers.pro/tools/askocli"
 aliases:

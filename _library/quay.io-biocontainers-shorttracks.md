@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shorttracks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shorttracks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shorttracks/container.yaml"
-updated_at: "2026-02-26 05:27:25.879006"
+updated_at: "2026-02-27 05:11:51.735016"
 latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shorttracks"
 aliases:

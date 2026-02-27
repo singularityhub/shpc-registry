@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/iq-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/iq-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/iq-tree/container.yaml"
-updated_at: "2026-02-26 04:35:32.637517"
+updated_at: "2026-02-27 04:16:04.126139"
 latest: "2.1.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/iq-tree"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tibble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tibble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tibble/container.yaml"
-updated_at: "2026-02-26 04:42:48.949817"
+updated_at: "2026-02-27 04:24:04.875504"
 latest: "1.2--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-tibble"
 aliases:

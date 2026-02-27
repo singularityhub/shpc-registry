@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mugaexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mugaexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mugaexampledata/container.yaml"
-updated_at: "2026-02-26 05:09:10.204048"
+updated_at: "2026-02-27 04:52:08.076866"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mugaexampledata"
 aliases:

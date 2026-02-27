@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omnipathr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omnipathr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omnipathr/container.yaml"
-updated_at: "2026-02-26 04:55:19.002630"
+updated_at: "2026-02-27 04:37:26.284142"
 latest: "3.10.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omnipathr"
 

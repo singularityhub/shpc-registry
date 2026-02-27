@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/optbuild"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/optbuild/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/optbuild/container.yaml"
-updated_at: "2026-02-26 04:51:30.520457"
+updated_at: "2026-02-27 04:33:26.026833"
 latest: "0.2.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/optbuild"
 aliases:
