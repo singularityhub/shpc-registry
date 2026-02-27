@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowtime
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:67d6427e0305095ca00e7c3569c35e2770c0da0924c8be00e03c90e71baec411
+  1.34.0--r45hdfd78af_0: 
+    sha256:6b79c6f4b7633f60864fc1bd4b982a0b497ded3dfaca9d78a0ffb0e5d9030348
 tags:
   1.8.0--r36_1: 
     sha256:10353a9f7267122f3286f7f062884d99775b9ac766bc019367548a8313b1d8df
@@ -24,6 +24,8 @@ tags:
     sha256:dea9ce52237f0e6e03678ce6f80e00504bc6749621decbddf885f05d56cf6d6b
   1.30.0--r44hdfd78af_0: 
     sha256:67d6427e0305095ca00e7c3569c35e2770c0da0924c8be00e03c90e71baec411
+  1.34.0--r45hdfd78af_0: 
+    sha256:6b79c6f4b7633f60864fc1bd4b982a0b497ded3dfaca9d78a0ffb0e5d9030348
 docker: quay.io/biocontainers/bioconductor-flowtime
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

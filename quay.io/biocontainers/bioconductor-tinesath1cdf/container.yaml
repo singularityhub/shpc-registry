@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tinesath1cdf
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:b7d45d1209c671be8ee7ddbd03479fb7dce951f6327116f51e5896f74793f02c
+  1.48.0--r45hdfd78af_0: 
+    sha256:4cd5a9fbcad83c40c8c65375846c75b42ade78eff38927344c4e5ae007463375
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:f3ba60fbf58ceca383f7465d23c7c1639bef611ae825b1eee0286339f2ee567e
@@ -18,4 +18,6 @@ tags:
     sha256:9a88983ee8bcd033bbdff2e44a5ea3c3120a3ca0220e231871900144f8ee6ed6
   1.44.0--r44hdfd78af_0: 
     sha256:b7d45d1209c671be8ee7ddbd03479fb7dce951f6327116f51e5896f74793f02c
+  1.48.0--r45hdfd78af_0: 
+    sha256:4cd5a9fbcad83c40c8c65375846c75b42ade78eff38927344c4e5ae007463375
 docker: quay.io/biocontainers/bioconductor-tinesath1cdf

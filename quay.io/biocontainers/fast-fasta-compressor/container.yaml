@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   fast-fasta-compressor
 latest:
-  1.0--h9948957_0: 
-    sha256:ce78868d5dbc1d694008335be208aa798c832436e0b5ac2a46449f68d1820128
+  1.1--hd63eeec_0: 
+    sha256:0be3a1c9a265b937a4b3e7fd91905c5f4380677e211e71f982a310abb93b1349
 tags:
   1.0--h9948957_0: 
     sha256:ce78868d5dbc1d694008335be208aa798c832436e0b5ac2a46449f68d1820128
+  1.1--hd63eeec_0: 
+    sha256:0be3a1c9a265b937a4b3e7fd91905c5f4380677e211e71f982a310abb93b1349
 docker: quay.io/biocontainers/fast-fasta-compressor
 aliases:
   ffc: /usr/local/bin/ffc

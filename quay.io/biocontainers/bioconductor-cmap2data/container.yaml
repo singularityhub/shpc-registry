@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cmap2data
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:29b0c0b24086e5917d3479485d91556adbe017cf3b5e068df5b83222279d40a7
+  1.46.0--r45hdfd78af_0: 
+    sha256:bd201852b3a22b2d4094c47001d539d3b4a6feb5e3ef25aa7d09aadf381278e0
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:87fe33287ab75d5d775053d5e3a71d3ff45c343507b60b85afd1e71434922f49
@@ -18,4 +18,6 @@ tags:
     sha256:f2f47df2c8af9a8d359cfc2290c503e8c00c680215888b22367d6e1ecbb17a3a
   1.42.0--r44hdfd78af_0: 
     sha256:29b0c0b24086e5917d3479485d91556adbe017cf3b5e068df5b83222279d40a7
+  1.46.0--r45hdfd78af_0: 
+    sha256:bd201852b3a22b2d4094c47001d539d3b4a6feb5e3ef25aa7d09aadf381278e0
 docker: quay.io/biocontainers/bioconductor-cmap2data

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-paircompviz
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:835918a4efdf2a34dd9e50d131ad2d39c32b2d14f432f6bb85f36d4e70650d63
+  1.48.0--r45hdfd78af_0: 
+    sha256:52da75809a73c2753b91af309f18e64faf11500d8f2ce565a51827748a1a062a
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:6fbc26b645a1d0c47241bd06a0ea03577ed91693b1288bf0169c7324a764f1c5
@@ -16,4 +16,6 @@ tags:
     sha256:ce08c6b92a325bcdeea4ca5627373acbc9879acdfb503c37eef5347a85d9ae8e
   1.44.0--r44hdfd78af_0: 
     sha256:835918a4efdf2a34dd9e50d131ad2d39c32b2d14f432f6bb85f36d4e70650d63
+  1.48.0--r45hdfd78af_0: 
+    sha256:52da75809a73c2753b91af309f18e64faf11500d8f2ce565a51827748a1a062a
 docker: quay.io/biocontainers/bioconductor-paircompviz

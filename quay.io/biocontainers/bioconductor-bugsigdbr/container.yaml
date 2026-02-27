@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bugsigdbr
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:60705b10710b5b51f18d6be82121f52e2a3ec33a864702a56c5254a724fd608e
+  1.16.2--r45hdfd78af_0: 
+    sha256:61ab6926f2a129f081632d449b83da8d5b7debce9c3f1a9299d4f5805aed95d2
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:0632fdc6278b6c74f057bc1ffb8075717e96ebfc4ebc8ba35fc8b128eebb4ecd
@@ -16,4 +16,6 @@ tags:
     sha256:80af0663a800a4aac9e73218bedaf5acc050bfa4c61e6a75aa5e01bccad5a115
   1.12.0--r44hdfd78af_0: 
     sha256:60705b10710b5b51f18d6be82121f52e2a3ec33a864702a56c5254a724fd608e
+  1.16.2--r45hdfd78af_0: 
+    sha256:61ab6926f2a129f081632d449b83da8d5b7debce9c3f1a9299d4f5805aed95d2
 docker: quay.io/biocontainers/bioconductor-bugsigdbr

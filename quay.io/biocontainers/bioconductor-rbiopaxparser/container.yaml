@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rbiopaxparser
 latest:
-  2.46.0--r44hdfd78af_0: 
-    sha256:139322350b085f145803ad4d377edc749fcff81853f23cb45fb8d4f522caf47d
+  2.50.0--r45hdfd78af_0: 
+    sha256:af94dc696a12f39284383768c8bd53c3538842faac8c47938315bb5c1033f6b7
 tags:
   2.34.0--r41hdfd78af_0: 
     sha256:26d4caad7dad9b5cf8686b7e425ac58b8591f64a4d860b17bf4acf22aea137cf
@@ -16,4 +16,6 @@ tags:
     sha256:196a37cc4cbc4a7112bffc9ab1f04777d387db149e345dfdc35833faae18b2f7
   2.46.0--r44hdfd78af_0: 
     sha256:139322350b085f145803ad4d377edc749fcff81853f23cb45fb8d4f522caf47d
+  2.50.0--r45hdfd78af_0: 
+    sha256:af94dc696a12f39284383768c8bd53c3538842faac8c47938315bb5c1033f6b7
 docker: quay.io/biocontainers/bioconductor-rbiopaxparser

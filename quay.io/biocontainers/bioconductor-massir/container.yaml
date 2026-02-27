@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-massir
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:b91f695f532f777ab3a5f01da5ab328a927d60481ad7dc70e2a822a8560b0e7f
+  1.46.0--r45hdfd78af_0: 
+    sha256:15019a0c72930bea13ae0c9db8d259c29479bf565bbb430b77bcf8460ab4fd0d
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:d132c1f741d7ba3da557af179447c4f8c48630e9a70b59a9873784ec351e66e0
@@ -16,4 +16,6 @@ tags:
     sha256:650d5f67558f57a05635007819ce329f29835e47db979a95f0ed2fde107c286a
   1.42.0--r44hdfd78af_0: 
     sha256:b91f695f532f777ab3a5f01da5ab328a927d60481ad7dc70e2a822a8560b0e7f
+  1.46.0--r45hdfd78af_0: 
+    sha256:15019a0c72930bea13ae0c9db8d259c29479bf565bbb430b77bcf8460ab4fd0d
 docker: quay.io/biocontainers/bioconductor-massir

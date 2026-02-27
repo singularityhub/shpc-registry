@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   cfdna-biomarkersearch
 latest:
-  0.1.1--hdfd78af_0: 
-    sha256:2bcee13b8ea7db00b28f163818566203e199ae7529c4d6b2fbf70adfb82e00f7
+  0.1.3--hdfd78af_0: 
+    sha256:5cfeb50c2c9f9c0bc5f78bfdca4cbb609225e3c6d147a03eadee668ef560e378
 tags:
   0.1.1--hdfd78af_0: 
     sha256:2bcee13b8ea7db00b28f163818566203e199ae7529c4d6b2fbf70adfb82e00f7
+  0.1.3--hdfd78af_0: 
+    sha256:5cfeb50c2c9f9c0bc5f78bfdca4cbb609225e3c6d147a03eadee668ef560e378
 docker: quay.io/biocontainers/cfdna-biomarkersearch
 aliases:
   dirmngr: /usr/local/bin/dirmngr

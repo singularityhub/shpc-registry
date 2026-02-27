@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-plier
 latest:
-  1.76.0--r44he5774e6_0: 
-    sha256:a044262c8763af4172e8ff6ef39c8cd0b5bbc46ae22aba066ee962fd83c25d13
+  1.80.0--r45ha27e39d_0: 
+    sha256:931b9f212f8dfe1116b3cd041e23b77653cc613c612d71727d9112fc52599a7d
 tags:
   1.64.0--r41hc247a5b_2: 
     sha256:fa4633ab3af277edfe4106608abacdcccbb3d6532fa4ff60ce39b02870f769d7
@@ -18,4 +18,6 @@ tags:
     sha256:1ef38f9e95f3bd37265dbe1a6d78ac77707ae00415257569d617e0e5120d3bb3
   1.76.0--r44he5774e6_0: 
     sha256:a044262c8763af4172e8ff6ef39c8cd0b5bbc46ae22aba066ee962fd83c25d13
+  1.80.0--r45ha27e39d_0: 
+    sha256:931b9f212f8dfe1116b3cd041e23b77653cc613c612d71727d9112fc52599a7d
 docker: quay.io/biocontainers/bioconductor-plier

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-seqlogo
 latest:
-  1.72.0--r44hdfd78af_0: 
-    sha256:93b4ccacf97bf59932c1f77a147932ad497924158740406ed35765706c5e83bb
+  1.76.0--r45hdfd78af_0: 
+    sha256:49abf3df5f49e11412761c965f4de2bde4cbe9a67fad067393e2461bd4cae7c3
 tags:
   1.60.0--r41hdfd78af_0: 
     sha256:1a5e29c8e58bd3c51c763ee58530227e0a7783bc6214d4df3267df68ef047550
@@ -16,4 +16,6 @@ tags:
     sha256:1fae4df94b7deeac509c7b30f83ad72adcfe5e59abf161376a588367e008d7b4
   1.72.0--r44hdfd78af_0: 
     sha256:93b4ccacf97bf59932c1f77a147932ad497924158740406ed35765706c5e83bb
+  1.76.0--r45hdfd78af_0: 
+    sha256:49abf3df5f49e11412761c965f4de2bde4cbe9a67fad067393e2461bd4cae7c3
 docker: quay.io/biocontainers/bioconductor-seqlogo

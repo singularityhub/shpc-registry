@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gcatest
 latest:
-  2.6.0--r44hdfd78af_0: 
-    sha256:01c4b8ba55820fa6c332b6639fdddf39b1ec9384d33986acf88137b389344c63
+  2.10.0--r45hdfd78af_0: 
+    sha256:429e710733c26c38f3027a0e6f849acccde0b47289acd5a3c2dcb4000090f424
 tags:
   1.8.0--r3.4.1_0: 
     sha256:929a4a2ea858ee2b86c1152b42643a7a3b45145e5f2483094726f325770647fe
@@ -26,6 +26,8 @@ tags:
     sha256:c4b8e52bbdaf6a945f493a9a1797837d58f3cf2be864b41ec586ea9e4ad4a960
   2.6.0--r44hdfd78af_0: 
     sha256:01c4b8ba55820fa6c332b6639fdddf39b1ec9384d33986acf88137b389344c63
+  2.10.0--r45hdfd78af_0: 
+    sha256:429e710733c26c38f3027a0e6f849acccde0b47289acd5a3c2dcb4000090f424
 docker: quay.io/biocontainers/bioconductor-gcatest
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

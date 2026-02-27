@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-proper
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:718940d75643137155b271b78e1d72e20cf1b0f0d861c7d52596f8f2db9a19fb
+  1.42.0--r45hdfd78af_0: 
+    sha256:0649ce88b402b097cd244a042e322132da171a8985efdb98e97be567610b9aa7
 tags:
   1.8.0--r3.3.2_0: 
     sha256:0f479b0a92622f89b0106fa8a7f65f1e647d7d3016a5328ad523015069775386
@@ -24,6 +24,8 @@ tags:
     sha256:b2e2aa641098d9504d52d6d6c248a579e076e72551421c58e63c73f156fd2a7e
   1.38.0--r44hdfd78af_0: 
     sha256:718940d75643137155b271b78e1d72e20cf1b0f0d861c7d52596f8f2db9a19fb
+  1.42.0--r45hdfd78af_0: 
+    sha256:0649ce88b402b097cd244a042e322132da171a8985efdb98e97be567610b9aa7
 docker: quay.io/biocontainers/bioconductor-proper
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

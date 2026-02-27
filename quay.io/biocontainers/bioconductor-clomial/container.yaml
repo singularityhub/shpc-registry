@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-clomial
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:deb6114d11c2ba565bc4bb3d930c8b451fb9ee12160f4a4060ffc9eb5d7d3ecb
+  1.46.0--r45hdfd78af_0: 
+    sha256:340293f50815ccffd65ee00f7a0901fdb0ab84e6ef2310e026ed33d6b6ddade8
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:26d7d2d3b6d8b3a46ab2c600964fb7f66fe316c9d710880c85cf20085017592d
@@ -16,4 +16,6 @@ tags:
     sha256:16686488f6c5f866251b1c4680ce2de3f5ab5e4af9626d3f18c0aa880d5ffcc2
   1.42.0--r44hdfd78af_0: 
     sha256:deb6114d11c2ba565bc4bb3d930c8b451fb9ee12160f4a4060ffc9eb5d7d3ecb
+  1.46.0--r45hdfd78af_0: 
+    sha256:340293f50815ccffd65ee00f7a0901fdb0ab84e6ef2310e026ed33d6b6ddade8
 docker: quay.io/biocontainers/bioconductor-clomial

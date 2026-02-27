@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowcut
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:156574dc13f9959dbf76d77d5f07fa04071fdcf143dabb9e5ac1f693bddb7799
+  1.20.0--r45hdfd78af_0: 
+    sha256:1d678de02d09abf4fc2f17ec657c9ca25e52e95c2ed27eb99a60e335e75efd63
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:06982b6e2d8666f508fd4d321fdbab9806ff09c46d85a52a019790bceb136419
@@ -16,6 +16,8 @@ tags:
     sha256:c8f36b481890a855b746676ea5f5b86ffd1ee5433af813624300c5f114f792bf
   1.16.0--r44hdfd78af_0: 
     sha256:156574dc13f9959dbf76d77d5f07fa04071fdcf143dabb9e5ac1f693bddb7799
+  1.20.0--r45hdfd78af_0: 
+    sha256:1d678de02d09abf4fc2f17ec657c9ca25e52e95c2ed27eb99a60e335e75efd63
 docker: quay.io/biocontainers/bioconductor-flowcut
 aliases:
   geosop: /usr/local/bin/geosop

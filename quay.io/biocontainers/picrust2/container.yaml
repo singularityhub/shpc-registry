@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/picrust2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for picrust2
 latest:
-  2.6.3--pyhdfd78af_1: 
-    sha256:4488be1f1fa6cf3317930ff2e9a660200e5efaf7f0810cdaf3bf2f02284e3088
+  2.6.3--pyhdfd78af_2: 
+    sha256:80c500862c9a93af8358db07a8a42ade4426356ae3acf90aa2664db8c3109572
 tags:
   2.5.0--pyhdfd78af_0: 
     sha256:067e227408ccc5618708756109a29e04c02750b7fe5c23d236db34f6d018de2c
@@ -25,6 +25,8 @@ tags:
     sha256:df5941e4faf12fdc332ab8bc5decdab106a545a3e5d39c393d3471d1bc064cf9
   2.6.3--pyhdfd78af_1: 
     sha256:4488be1f1fa6cf3317930ff2e9a660200e5efaf7f0810cdaf3bf2f02284e3088
+  2.6.3--pyhdfd78af_2: 
+    sha256:80c500862c9a93af8358db07a8a42ade4426356ae3acf90aa2664db8c3109572
 docker: quay.io/biocontainers/picrust2
 aliases:
   add_descriptions.py: /usr/local/bin/add_descriptions.py

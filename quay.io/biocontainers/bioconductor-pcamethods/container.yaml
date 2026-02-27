@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pcamethods
 latest:
-  1.98.0--r44he5774e6_1: 
-    sha256:fbffdfb482a86c0daeb2984ecbe75176057ff7f4e2f873c3bd96a5cc427fd627
+  2.2.0--r45ha27e39d_0: 
+    sha256:a87ae9d96fe59ba67df5bc8f15df855a9e0b8c7fc104d27fd9b2f025583253a1
 tags:
   1.86.0--r41hc247a5b_2: 
     sha256:defd5b0c6820b00d1c6564fe3d52f5f870c5716530a4d46ce5a89713841555cb
@@ -22,4 +22,6 @@ tags:
     sha256:fe4bd8ebb33e063458768909f44c2ea6e807860ff9afdd4af7b3ae4fe8b67c17
   1.98.0--r44he5774e6_1: 
     sha256:fbffdfb482a86c0daeb2984ecbe75176057ff7f4e2f873c3bd96a5cc427fd627
+  2.2.0--r45ha27e39d_0: 
+    sha256:a87ae9d96fe59ba67df5bc8f15df855a9e0b8c7fc104d27fd9b2f025583253a1
 docker: quay.io/biocontainers/bioconductor-pcamethods

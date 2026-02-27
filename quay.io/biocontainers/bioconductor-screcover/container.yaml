@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-screcover
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:ff656de38134d0f285cc722e7954d09f4d111b6f488131755982713963f0f4b0
+  1.26.0--r45hdfd78af_0: 
+    sha256:ffc5378a950c313e467f9bc2f5fdbb82908871290e18a6b46737341f3c7b01e9
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:a9c4cbbb53c78b7bbfc8f06f0aeb9de38091e2ea814242b9b7566e55bed507c4
@@ -18,6 +18,8 @@ tags:
     sha256:a8289ab9525560d6a715ce30287210ba630d06020ba2b443b054e49f7f08393f
   1.22.0--r44hdfd78af_0: 
     sha256:ff656de38134d0f285cc722e7954d09f4d111b6f488131755982713963f0f4b0
+  1.26.0--r45hdfd78af_0: 
+    sha256:ffc5378a950c313e467f9bc2f5fdbb82908871290e18a6b46737341f3c7b01e9
 docker: quay.io/biocontainers/bioconductor-screcover
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

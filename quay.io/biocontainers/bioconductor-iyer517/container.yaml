@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-iyer517
 latest:
-  1.48.0--r44hdfd78af_0: 
-    sha256:4521cd0eb9fe7c21814a8f6f3ad5382b92e4a57421d9febf9f7ff0f207c42148
+  1.52.0--r45hdfd78af_0: 
+    sha256:62ddedc079298dd9152cd8f3f5ee112d49f03427826724d9f1f8d948e55997cf
 tags:
   1.36.0--r41hdfd78af_1: 
     sha256:2d9263ce73b9452818da9870ca405e604852bf461a81cad3c8eab212c7816ec2
@@ -16,4 +16,6 @@ tags:
     sha256:751041e6159ec47febe7dc143252abd75548ab1f8b8a4446238b47985ff58a53
   1.48.0--r44hdfd78af_0: 
     sha256:4521cd0eb9fe7c21814a8f6f3ad5382b92e4a57421d9febf9f7ff0f207c42148
+  1.52.0--r45hdfd78af_0: 
+    sha256:62ddedc079298dd9152cd8f3f5ee112d49f03427826724d9f1f8d948e55997cf
 docker: quay.io/biocontainers/bioconductor-iyer517

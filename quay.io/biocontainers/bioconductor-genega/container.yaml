@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genega
 latest:
-  1.56.0--r44hdfd78af_0: 
-    sha256:9debec9708ba0940920ca18e864d3c49491b4141f310648ff9f01fd4a61043f6
+  1.60.0--r45hdfd78af_0: 
+    sha256:2ceaea4b4a5c68eb5546b476e70aeee07989e272d66a73bdcd747d44fd99fd13
 tags:
   1.44.0--r41hdfd78af_0: 
     sha256:aab4f0174e4f2607662a3002907f06384361abb9f3537f8717e0c0ada7df7cda
@@ -14,4 +14,6 @@ tags:
     sha256:238225371b75915f4cfdaad59a99295f0b85cebec591159e581a344f91b8a5d8
   1.56.0--r44hdfd78af_0: 
     sha256:9debec9708ba0940920ca18e864d3c49491b4141f310648ff9f01fd4a61043f6
+  1.60.0--r45hdfd78af_0: 
+    sha256:2ceaea4b4a5c68eb5546b476e70aeee07989e272d66a73bdcd747d44fd99fd13
 docker: quay.io/biocontainers/bioconductor-genega
