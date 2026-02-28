@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cellscape
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:1575bf7003bac9e1e8f4b8bed130bc206a27f1c9ce7bc3334c1bec5ec79af555
+  1.34.0--r45hdfd78af_0: 
+    sha256:5f4e8cba6ddc6ee5ef84aa37e7eb116894761d30bee708d381f60a01a9c41e20
 tags:
   1.8.0--r36_1: 
     sha256:88473180c8d54f76d8526e31d2901c40b5a4a1f98e57194d34f88914290bb656
@@ -22,6 +22,8 @@ tags:
     sha256:da7f9e540bc102c43f38c156b6005eea0593c1478d806dfc23e8553d95a9a1df
   1.30.0--r44hdfd78af_0: 
     sha256:1575bf7003bac9e1e8f4b8bed130bc206a27f1c9ce7bc3334c1bec5ec79af555
+  1.34.0--r45hdfd78af_0: 
+    sha256:5f4e8cba6ddc6ee5ef84aa37e7eb116894761d30bee708d381f60a01a9c41e20
 docker: quay.io/biocontainers/bioconductor-cellscape
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

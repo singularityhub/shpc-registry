@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cormotif
 latest:
-  1.52.0--r44hdfd78af_0: 
-    sha256:e9ec294981c98ead5ff4dda73cdc834b8c2586b75680a888a2ecda8270c319df
+  1.56.0--r45hdfd78af_0: 
+    sha256:8c751e8bf79cb0feafcb8c03159040d48013f1ca8f6cb5a56c90923c07c0d8cb
 tags:
   1.40.0--r41hdfd78af_0: 
     sha256:6e567a6b3f510fb6e38c4191b7a45bdb8f033048cce236483c2788f487b7a82d
@@ -16,4 +16,6 @@ tags:
     sha256:d356868024e59de0116be57776a6d783bf26e7666b1b67745e489502f440fd8d
   1.52.0--r44hdfd78af_0: 
     sha256:e9ec294981c98ead5ff4dda73cdc834b8c2586b75680a888a2ecda8270c319df
+  1.56.0--r45hdfd78af_0: 
+    sha256:8c751e8bf79cb0feafcb8c03159040d48013f1ca8f6cb5a56c90923c07c0d8cb
 docker: quay.io/biocontainers/bioconductor-cormotif

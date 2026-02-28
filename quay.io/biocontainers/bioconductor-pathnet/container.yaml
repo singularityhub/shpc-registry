@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pathnet
 latest:
-  1.46.0--r44hdfd78af_0: 
-    sha256:11797d6a974d869b76ad2e760394fa3c3b4bd7f1615f5600dd8b2ef558104beb
+  1.50.0--r45hdfd78af_0: 
+    sha256:79a96c544bc0bee4a5bb5e11dfb03b79ff210c29935a87b2ed1cfbf5619f32bf
 tags:
   1.34.0--r41hdfd78af_0: 
     sha256:c853379d2f678e6c1f89d51e8f887f84c8ecc61ed9403f0b899b6f79308521a3
@@ -16,4 +16,6 @@ tags:
     sha256:14a2e57bc271a94e894060b6cc619e29ae5a863d4a383052223df5e14ca843fe
   1.46.0--r44hdfd78af_0: 
     sha256:11797d6a974d869b76ad2e760394fa3c3b4bd7f1615f5600dd8b2ef558104beb
+  1.50.0--r45hdfd78af_0: 
+    sha256:79a96c544bc0bee4a5bb5e11dfb03b79ff210c29935a87b2ed1cfbf5619f32bf
 docker: quay.io/biocontainers/bioconductor-pathnet

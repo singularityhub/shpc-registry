@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-venndetail
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:fa106f03fe3ad3cd1be599dadde214f2613121e84ca17ac2b1c1cbbccc150aa5
+  1.26.0--r45hdfd78af_0: 
+    sha256:1c04e140501b83f84ad5a5efe9deea566df71b845b1b0fe7e328251fa744db19
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:85bf8cedb7ceb2b075e07f95f73d36a7cef6f6f1d37103835630b82e0cb898d9
@@ -18,6 +18,8 @@ tags:
     sha256:433eda57a2472735fbb1b43f975a11ed1e657004df2bf63873bae317c07236c3
   1.22.0--r44hdfd78af_0: 
     sha256:fa106f03fe3ad3cd1be599dadde214f2613121e84ca17ac2b1c1cbbccc150aa5
+  1.26.0--r45hdfd78af_0: 
+    sha256:1c04e140501b83f84ad5a5efe9deea566df71b845b1b0fe7e328251fa744db19
 docker: quay.io/biocontainers/bioconductor-venndetail
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gcspikelite
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:d3fc34227667ce3eb4ae68d747f401374d4092439568e2bf4b59a65c0f52f3a6
+  1.48.0--r45hdfd78af_0: 
+    sha256:9eb6db048a3d251b42552e25f72c85efda850cd8248c1340063385c91430857b
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:0ec23b2d8a7bd2bd6c478e185b3b7c80d30cfe84b7fa32f027a01287861422f8
@@ -18,4 +18,6 @@ tags:
     sha256:d6e37ce7e1b395b15543e0579718bb3a4db6887551db8333a63f2be03ec31dc4
   1.44.0--r44hdfd78af_0: 
     sha256:d3fc34227667ce3eb4ae68d747f401374d4092439568e2bf4b59a65c0f52f3a6
+  1.48.0--r45hdfd78af_0: 
+    sha256:9eb6db048a3d251b42552e25f72c85efda850cd8248c1340063385c91430857b
 docker: quay.io/biocontainers/bioconductor-gcspikelite

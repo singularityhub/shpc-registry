@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tximport
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:6efb4bb81597e6eb447acc848bf8f552702901ca319151c36b9c9b3f5cd7d9a3
+  1.38.2--r45hdfd78af_0: 
+    sha256:b81a6536a594d5d730a43015a44e28ccdf5047d43e35ac4198bdfe2aa17207c6
 tags:
   1.8.0--r341_0: 
     sha256:cd7ad8c6ca7093311d0472b1f9c481bed2ac9c92b9c1697cde6d3365fd83bcfc
@@ -24,6 +24,8 @@ tags:
     sha256:3a6663ff73393808dba1a4da38138d51aab592026712251c70ee74ffedf85356
   1.34.0--r44hdfd78af_0: 
     sha256:6efb4bb81597e6eb447acc848bf8f552702901ca319151c36b9c9b3f5cd7d9a3
+  1.38.2--r45hdfd78af_0: 
+    sha256:b81a6536a594d5d730a43015a44e28ccdf5047d43e35ac4198bdfe2aa17207c6
 docker: quay.io/biocontainers/bioconductor-tximport
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

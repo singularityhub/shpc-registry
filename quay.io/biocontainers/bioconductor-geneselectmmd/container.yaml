@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geneselectmmd
 latest:
-  2.50.0--r44h4d5c4aa_0: 
-    sha256:594e2a2ba3227d18a8433c8531cdcfcbd8bae076f51ab70fb99393ea23db2139
+  2.54.0--r45h63f16b7_0: 
+    sha256:fbe73fc1a541c3e3877175c0151f9f3e89fcfe115d97c85a2205bd83ff64ac91
 tags:
   2.38.0--r41hefde4a7_2: 
     sha256:c026841908538cef63e573b92c066440f73543d1d41a8912dbfc245404479851
@@ -20,4 +20,6 @@ tags:
     sha256:4396d2aa2ee3cb5f3d979792a2ba1ef86bfb18ef1a313a1f3b2947e2b5af4b7f
   2.50.0--r44h4d5c4aa_0: 
     sha256:594e2a2ba3227d18a8433c8531cdcfcbd8bae076f51ab70fb99393ea23db2139
+  2.54.0--r45h63f16b7_0: 
+    sha256:fbe73fc1a541c3e3877175c0151f9f3e89fcfe115d97c85a2205bd83ff64ac91
 docker: quay.io/biocontainers/bioconductor-geneselectmmd

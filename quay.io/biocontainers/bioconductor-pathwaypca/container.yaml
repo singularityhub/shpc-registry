@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pathwaypca
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:0589c615a8cb21290af84301e7990eb208ca04926abe8070176d0eeab1d87eb7
+  1.26.0--r45hdfd78af_0: 
+    sha256:e8f4b02c59c1aab84ccf24ffe3c6587d26c4931ccc17ec00ab873af81a769702
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:aa800f8a0aaa1f192fbf31e092c404ff26447e35add0638e4f9294c533c0a734
@@ -18,6 +18,8 @@ tags:
     sha256:6dbfb60c0f473590abdcd321903893832dc24926a129dd97b20652753741f91f
   1.22.0--r44hdfd78af_0: 
     sha256:0589c615a8cb21290af84301e7990eb208ca04926abe8070176d0eeab1d87eb7
+  1.26.0--r45hdfd78af_0: 
+    sha256:e8f4b02c59c1aab84ccf24ffe3c6587d26c4931ccc17ec00ab873af81a769702
 docker: quay.io/biocontainers/bioconductor-pathwaypca
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-bugphyzz
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:cfd3f5cb42127d60e4b3c7721aff2099390d8abe06f75b5e7a445c8770514a78
+  1.4.0--r45hdfd78af_0: 
+    sha256:36721683a6afb05d8fd6062b1f77df041c5bc8e0a1d08ab515bfcea39e95297b
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:cfd3f5cb42127d60e4b3c7721aff2099390d8abe06f75b5e7a445c8770514a78
+  1.4.0--r45hdfd78af_0: 
+    sha256:36721683a6afb05d8fd6062b1f77df041c5bc8e0a1d08ab515bfcea39e95297b
 docker: quay.io/biocontainers/bioconductor-bugphyzz
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

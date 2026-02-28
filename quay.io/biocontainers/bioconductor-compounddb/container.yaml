@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-compounddb
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:c3e3c7d136ca9218e891615d74280e45ec717ff210fc3f0fc465629e0d18c8ca
+  1.14.2--r45hdfd78af_0: 
+    sha256:707d7d9fecbe8c47f77f127f676b85c4c6822c1486e70042dafe9e82c2ae8a87
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:969c55825893fcf6a6ab891762fb37496ac9e243e65658fd10a52aab95a86627
@@ -14,6 +14,8 @@ tags:
     sha256:118574695a076b9be9a58fe5a215c2f2e7a77ebd5ec977cc8703a1420d6b37b1
   1.10.0--r44hdfd78af_0: 
     sha256:c3e3c7d136ca9218e891615d74280e45ec717ff210fc3f0fc465629e0d18c8ca
+  1.14.2--r45hdfd78af_0: 
+    sha256:707d7d9fecbe8c47f77f127f676b85c4c6822c1486e70042dafe9e82c2ae8a87
 docker: quay.io/biocontainers/bioconductor-compounddb
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

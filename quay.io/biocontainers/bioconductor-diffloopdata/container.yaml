@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-diffloopdata
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:31800546c3b068542ffd640877750f71ed9fd98112769a5f9220b1de10d4c1d1
+  1.38.0--r45hdfd78af_0: 
+    sha256:22eefd4f2094e4f88116bd2bf8f198720839dba0d41d67c6492b78985f4cc2bb
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:fdbb54ba14770c47aed0de81da2003546587a533a09e06f5b98603032c4a0222
@@ -16,4 +16,6 @@ tags:
     sha256:c4181e290376975fe96026559aaba9d4e92f8d45d0b804839b608d7ae1268453
   1.34.0--r44hdfd78af_0: 
     sha256:31800546c3b068542ffd640877750f71ed9fd98112769a5f9220b1de10d4c1d1
+  1.38.0--r45hdfd78af_0: 
+    sha256:22eefd4f2094e4f88116bd2bf8f198720839dba0d41d67c6492b78985f4cc2bb
 docker: quay.io/biocontainers/bioconductor-diffloopdata

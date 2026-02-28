@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_haddock
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biobb_haddock
 latest:
-  5.2.0--pyhdfd78af_0: 
-    sha256:9c2d2fbc53801146c7258abfb13cab8c110f8e07c0f3b8aaf0d3e0fb6b597087
+  5.2.0--pyh106432d_1: 
+    sha256:d8ae9d232bdaeba3019af9b6edc0ee544dd3c9860cc9560851337e096e0bf1ac
 tags:
   4.2.1--pyhdfd78af_0: 
     sha256:f7e0fa46658ff87f63569da48104cd10a83b0ba453a950be1c6473e0ba8ab335
@@ -19,6 +19,8 @@ tags:
     sha256:82d90d0474cc377b8fe57c05691aec92ff1950d11cc65fe9d5a5f04651ca7fc3
   5.2.0--pyhdfd78af_0: 
     sha256:9c2d2fbc53801146c7258abfb13cab8c110f8e07c0f3b8aaf0d3e0fb6b597087
+  5.2.0--pyh106432d_1: 
+    sha256:d8ae9d232bdaeba3019af9b6edc0ee544dd3c9860cc9560851337e096e0bf1ac
 docker: quay.io/biocontainers/biobb_haddock
 aliases:
   capri_eval: /usr/local/bin/capri_eval

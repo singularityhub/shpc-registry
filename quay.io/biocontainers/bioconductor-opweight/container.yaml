@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-opweight
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:f7bcd75412d1d3d5fa58a7017d455639b29ac120d6153f78dc7db05cee0bdbc0
+  1.32.0--r45hdfd78af_0: 
+    sha256:9ed6b0017ddaa17611db0dae30f7c28550d52bb250dd1e2255b7cee874b43ded
 tags:
   1.8.0--r36_0: 
     sha256:9351fe1a1b9f3811fc1bb649f7898453e1757d895e49215a3f003dea068ac576
@@ -24,6 +24,8 @@ tags:
     sha256:bb69d56852e9e433d58983b0df1328a27268a4f17d0e408d171e6556bb3aabfc
   1.28.0--r44hdfd78af_0: 
     sha256:f7bcd75412d1d3d5fa58a7017d455639b29ac120d6153f78dc7db05cee0bdbc0
+  1.32.0--r45hdfd78af_0: 
+    sha256:9ed6b0017ddaa17611db0dae30f7c28550d52bb250dd1e2255b7cee874b43ded
 docker: quay.io/biocontainers/bioconductor-opweight
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

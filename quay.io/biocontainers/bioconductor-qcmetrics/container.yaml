@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-qcmetrics
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:87d2c9e49a3d54d2dc5d4fadbf6f5c27a7264d422df93d234a693ce3a58d4939
+  1.48.0--r45hdfd78af_0: 
+    sha256:b34000c79de3d6124b76c12ca48d4124354923ff6743375189bbb30528afc6de
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:9be664a2c5ccc626fd29c76b393dbaa5efe048ec216ec1bea1a836aa4645d255
@@ -16,6 +16,8 @@ tags:
     sha256:377459b24a3b4b48e172218ca90a367057a2ab526a6aa5e617c6d90ddc296949
   1.44.0--r44hdfd78af_0: 
     sha256:87d2c9e49a3d54d2dc5d4fadbf6f5c27a7264d422df93d234a693ce3a58d4939
+  1.48.0--r45hdfd78af_0: 
+    sha256:b34000c79de3d6124b76c12ca48d4124354923ff6743375189bbb30528afc6de
 docker: quay.io/biocontainers/bioconductor-qcmetrics
 aliases:
   pandoc: /usr/local/bin/pandoc

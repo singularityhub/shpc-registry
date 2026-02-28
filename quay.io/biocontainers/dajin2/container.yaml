@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/dajin2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dajin2
 latest:
-  0.7.4--pyhdfd78af_0: 
-    sha256:d0c4cc1ab1c7ba1c4b547b0d6d05fdee08a10a015e3b44f152042850ae1cc344
+  0.9.0--pyhdfd78af_0: 
+    sha256:370d0348d36342666ff8a47a64075c0108563a1406cc516eeedc762cedb33143
 tags:
   0.3.1--pyh7cba7a3_0: 
     sha256:7fad451d45ba307d325fe1c43b996cfdc5f3c36b8d8736e03ccb31c5c5659d5b
@@ -47,6 +47,10 @@ tags:
     sha256:d3d15d491f0715ccb69effc70eed3ee743b79b1aa7bb771e029d2a3e27331d7f
   0.7.4--pyhdfd78af_0: 
     sha256:d0c4cc1ab1c7ba1c4b547b0d6d05fdee08a10a015e3b44f152042850ae1cc344
+  0.9.0--pyhdfd78af_0: 
+    sha256:370d0348d36342666ff8a47a64075c0108563a1406cc516eeedc762cedb33143
+  0.8.0--pyhdfd78af_0: 
+    sha256:d7edf6d229ca3cea9cc2a6e7f0b4996a5caea3b32d19d2ca2b4bf9ab32256329
 docker: quay.io/biocontainers/dajin2
 aliases:
   DAJIN2: /usr/local/bin/DAJIN2

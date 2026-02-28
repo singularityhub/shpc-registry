@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-profilescoredist
 latest:
-  1.34.0--r44he5774e6_0: 
-    sha256:f81a23b6b0fa2b77cc247de8124a69664b3def5862eb443184862ab174b3fbd2
+  1.38.0--r45ha27e39d_0: 
+    sha256:2adb0f373c64cfb4ae876c15f20b4d78452945d7cbdd656caf71b56617882f28
 tags:
   1.22.0--r41hc247a5b_2: 
     sha256:9b61066b22ad81ec823e1bc8f5cdff4cca3a5bd34ca014bbb6d7a63dc7d7d7e7
@@ -18,4 +18,6 @@ tags:
     sha256:f3e45ef484709b7d9661e3e03e15391502ed8c32e762b5d8b7a1d28320fda8d7
   1.34.0--r44he5774e6_0: 
     sha256:f81a23b6b0fa2b77cc247de8124a69664b3def5862eb443184862ab174b3fbd2
+  1.38.0--r45ha27e39d_0: 
+    sha256:2adb0f373c64cfb4ae876c15f20b4d78452945d7cbdd656caf71b56617882f28
 docker: quay.io/biocontainers/bioconductor-profilescoredist

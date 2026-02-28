@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-microrna
 latest:
-  1.64.0--r44he5774e6_1: 
-    sha256:40147fbaa0687ff8b7253b4fd08b75272ad47e4ee721922d3c04697382ccfbf3
+  1.68.0--r45ha27e39d_0: 
+    sha256:0f149746a9ca4749f72159d3b6dd4332bd115658afe8be987a126dfe6dfd249f
 tags:
   1.52.0--r41hc247a5b_2: 
     sha256:d196c507e23c7465156333dc220b9c4ce6fba3128c6b5b0f6e6ed291125c9bb8
@@ -20,4 +20,6 @@ tags:
     sha256:a77fc76a73fa2432fa47c5260ed8c6840a3e5f54274a465c0df8d34f891b1dd5
   1.64.0--r44he5774e6_1: 
     sha256:40147fbaa0687ff8b7253b4fd08b75272ad47e4ee721922d3c04697382ccfbf3
+  1.68.0--r45ha27e39d_0: 
+    sha256:0f149746a9ca4749f72159d3b6dd4332bd115658afe8be987a126dfe6dfd249f
 docker: quay.io/biocontainers/bioconductor-microrna

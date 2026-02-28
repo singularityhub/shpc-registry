@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-phantasuslite
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:854d22de71697322388b835af66a5828cc95e6b1f838eff3b7663b03cd954d7c
+  1.8.0--r45hdfd78af_0: 
+    sha256:0b7e08f6775acb2ebb336c56b5b5e947cb8029e978274be94217b9319428ae15
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:845f5c3af8cbc033b8c67aae773eb8bfe663d3833054d7776b5575777e515eaa
   1.4.0--r44hdfd78af_0: 
     sha256:854d22de71697322388b835af66a5828cc95e6b1f838eff3b7663b03cd954d7c
+  1.8.0--r45hdfd78af_0: 
+    sha256:0b7e08f6775acb2ebb336c56b5b5e947cb8029e978274be94217b9319428ae15
 docker: quay.io/biocontainers/bioconductor-phantasuslite
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

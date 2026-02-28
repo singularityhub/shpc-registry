@@ -32,4 +32,6 @@ tags:
     sha256:f70e30279b16eb1026bd5ba6dbd4b3d465e0a9bbe1e236e920c45ee3dbc71005
   1.56.0--r44hdfd78af_0: 
     sha256:668790efb6d5c0aac4b89e72347fe6339b76f84fab7ba8020b5dac7f67d6ce2b
+  1.60.0--r45hdfd78af_0: 
+    sha256:e41dfbc86e882aa4bca1b292d3408240acdfed14cecf917896e80527c14f9ac7
 docker: quay.io/biocontainers/bioconductor-ntw

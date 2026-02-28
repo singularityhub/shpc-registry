@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tmixclust
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:b26cad0478ba2b86d19e50977448003e0b8fd1c88ef6ea78c6f217551ea3b506
+  1.32.0--r45hdfd78af_0: 
+    sha256:de9f12c36987357dbde3c4dd822766911baea1ab915e29b580b914f7e72f3ab9
 tags:
   1.8.0--r36_0: 
     sha256:8971c204008a64e797a795dea3dc11582bd9ba732aad994a5bf78d439ec6fd31
@@ -24,6 +24,8 @@ tags:
     sha256:65bb66474799a31ac3aa7c29f8c0f77e40015eb8f284d966457d4aaa8b181d14
   1.28.0--r44hdfd78af_0: 
     sha256:b26cad0478ba2b86d19e50977448003e0b8fd1c88ef6ea78c6f217551ea3b506
+  1.32.0--r45hdfd78af_0: 
+    sha256:de9f12c36987357dbde3c4dd822766911baea1ab915e29b580b914f7e72f3ab9
 docker: quay.io/biocontainers/bioconductor-tmixclust
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

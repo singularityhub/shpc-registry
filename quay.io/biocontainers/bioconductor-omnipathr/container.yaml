@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-omnipathr
 latest:
-  3.10.1--r43hdfd78af_0: 
-    sha256:b6d9a518f30c69ff9b8020905209faec50babbc5f7931f211ec5233fd5927178
+  3.18.4--r45hdfd78af_0: 
+    sha256:4a58ad2d96c3888df165a417796452d7a8d235bbedfdc092d573902d738245cb
 tags:
   3.2.0--r41hdfd78af_0: 
     sha256:d86bb0da85b36c95bd578d8e83a9247cdfa4b6929054a6be7d6cbb2653abb153
@@ -14,4 +14,6 @@ tags:
     sha256:35f1cad9e2a7df0f0f7975adce14a158e77d47d8731877d659fb62a5c609560c
   3.10.1--r43hdfd78af_0: 
     sha256:b6d9a518f30c69ff9b8020905209faec50babbc5f7931f211ec5233fd5927178
+  3.18.4--r45hdfd78af_0: 
+    sha256:4a58ad2d96c3888df165a417796452d7a8d235bbedfdc092d573902d738245cb
 docker: quay.io/biocontainers/bioconductor-omnipathr

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lowmacaannotation
 latest:
-  0.99.3--r44hdfd78af_13: 
-    sha256:5dbe55750673db4d5e936983de9a8974ef769e4df05f056e419aa4b7d517e3ff
+  0.99.3--r45hdfd78af_14: 
+    sha256:380f953ced0cd743f5be274021e93f7b7d44ccca7cc2bfccb91438429dcadbf3
 tags:
   0.99.3--r41hdfd78af_9: 
     sha256:dbc4ab06b35d462c65a2be4019c2f51985707801243c33dd3ada3d9714fcf6eb
@@ -16,4 +16,6 @@ tags:
     sha256:ee4eede6c7d19f2002833a434aab1bd9767f20ffb23cc758f691c6c065499bb2
   0.99.3--r44hdfd78af_13: 
     sha256:5dbe55750673db4d5e936983de9a8974ef769e4df05f056e419aa4b7d517e3ff
+  0.99.3--r45hdfd78af_14: 
+    sha256:380f953ced0cd743f5be274021e93f7b7d44ccca7cc2bfccb91438429dcadbf3
 docker: quay.io/biocontainers/bioconductor-lowmacaannotation

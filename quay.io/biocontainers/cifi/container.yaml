@@ -7,6 +7,8 @@ latest:
 tags:
   0.2.3--py310hfc0ef84_0: 
     sha256:1866992ce8ecb12dbd48f7df7e5466a2db1ce40d9c5a90f2beee8c787c103da4
+  0.2.3--py313h5565187_0: 
+    sha256:21918cd188e00c4778d2dd3898a0cf516f222bd7a39c0072841f23822e915ad3
 docker: quay.io/biocontainers/cifi
 aliases:
   cifi: /usr/local/bin/cifi

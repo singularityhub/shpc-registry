@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mipp
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:734c43395808c532d5afc9fcbe7b7226267452e7a6600f5a3efbf4459602b7cf
+  1.82.0--r45hdfd78af_0: 
+    sha256:a79ba8ce46e8e673f18d942d5505e0bb2b71a1130e6308082a6750f098e7463b
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:ae855691fbcbf91c170ebb3a705c342960e4c39f7adce4bb71643f8d4368dd8a
@@ -16,4 +16,6 @@ tags:
     sha256:08985674f3a7ea71bff308db60527a814e287d69aa685d6fdcf8e305c4ade8c0
   1.78.0--r44hdfd78af_0: 
     sha256:734c43395808c532d5afc9fcbe7b7226267452e7a6600f5a3efbf4459602b7cf
+  1.82.0--r45hdfd78af_0: 
+    sha256:a79ba8ce46e8e673f18d942d5505e0bb2b71a1130e6308082a6750f098e7463b
 docker: quay.io/biocontainers/bioconductor-mipp

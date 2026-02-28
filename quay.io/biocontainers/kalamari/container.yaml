@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/kalamari
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kalamari
 latest:
-  5.8.0--pl5321hdfd78af_0: 
-    sha256:eac6895626550b9395c9726ad0e8fff0555d0975a956c4db203f6c494530da1d
+  5.8.3--pl5321hdfd78af_1: 
+    sha256:dadbf86231c07b195cf3c3eefdbc4226015b8eb05a12c6eafb3923b390a7a4a6
 tags:
   5.3.2--pl5321h031d066_0: 
     sha256:b2e2f18951be4b6e6e0b070bcc8187e2083471289e029f29342b0b1758e7e410
@@ -25,6 +25,8 @@ tags:
     sha256:0179b6af3f79fc99ce98597cff3a1a9976c6d861f599529f66a0fe60b6bb3357
   5.8.0--pl5321hdfd78af_0: 
     sha256:eac6895626550b9395c9726ad0e8fff0555d0975a956c4db203f6c494530da1d
+  5.8.3--pl5321hdfd78af_1: 
+    sha256:dadbf86231c07b195cf3c3eefdbc4226015b8eb05a12c6eafb3923b390a7a4a6
 docker: quay.io/biocontainers/kalamari
 aliases:
   archive-ncbinlp: /usr/local/bin/archive-ncbinlp
