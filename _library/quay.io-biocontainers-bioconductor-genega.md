@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genega"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genega/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genega/container.yaml"
-updated_at: "2026-02-27 04:57:29.490692"
-latest: "1.56.0--r44hdfd78af_0"
+updated_at: "2026-02-28 04:39:01.586025"
+latest: "1.60.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genega"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.48.0--r42hdfd78af_0"
  - "1.52.0--r43hdfd78af_0"
  - "1.56.0--r44hdfd78af_0"
+ - "1.60.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genega"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genega", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genega", "latest": {"1.56.0--r44hdfd78af_0": "sha256:9debec9708ba0940920ca18e864d3c49491b4141f310648ff9f01fd4a61043f6"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:aab4f0174e4f2607662a3002907f06384361abb9f3537f8717e0c0ada7df7cda", "1.48.0--r42hdfd78af_0": "sha256:3e688616b99ad4af9cffa50ede5093dbbae1b21d2a827758abc9249dff278f54", "1.52.0--r43hdfd78af_0": "sha256:238225371b75915f4cfdaad59a99295f0b85cebec591159e581a344f91b8a5d8", "1.56.0--r44hdfd78af_0": "sha256:9debec9708ba0940920ca18e864d3c49491b4141f310648ff9f01fd4a61043f6"}, "docker": "quay.io/biocontainers/bioconductor-genega"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genega", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genega", "latest": {"1.60.0--r45hdfd78af_0": "sha256:2ceaea4b4a5c68eb5546b476e70aeee07989e272d66a73bdcd747d44fd99fd13"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:aab4f0174e4f2607662a3002907f06384361abb9f3537f8717e0c0ada7df7cda", "1.48.0--r42hdfd78af_0": "sha256:3e688616b99ad4af9cffa50ede5093dbbae1b21d2a827758abc9249dff278f54", "1.52.0--r43hdfd78af_0": "sha256:238225371b75915f4cfdaad59a99295f0b85cebec591159e581a344f91b8a5d8", "1.56.0--r44hdfd78af_0": "sha256:9debec9708ba0940920ca18e864d3c49491b4141f310648ff9f01fd4a61043f6", "1.60.0--r45hdfd78af_0": "sha256:2ceaea4b4a5c68eb5546b476e70aeee07989e272d66a73bdcd747d44fd99fd13"}, "docker": "quay.io/biocontainers/bioconductor-genega"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genega.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genega
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genega:1.56.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genega:1.60.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genega/1.56.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genega/1.56.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genega/1.60.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genega/1.60.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

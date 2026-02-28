@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-timescape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timescape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timescape/container.yaml"
-updated_at: "2026-02-27 04:57:07.491838"
-latest: "1.30.0--r44hdfd78af_0"
+updated_at: "2026-02-28 04:38:38.813829"
+latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-timescape"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.30.0--r44hdfd78af_0"
+ - "1.34.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-timescape"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-timescape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timescape", "latest": {"1.30.0--r44hdfd78af_0": "sha256:3ac6d1414b91ff37549a093c8c01f8df4df8658bf67ac81e61fb2620d3b774c1"}, "tags": {"1.8.0--r36_1": "sha256:b5b714791f386a931a904407b2fc7a2e0801bfe8191071199eb7e01f1788a1ab", "1.22.0--r42hdfd78af_0": "sha256:fab12303f5ca49eca65ff8d785150881691a738cd600099597d9908349ef666a", "1.18.0--r41hdfd78af_0": "sha256:ef26295da100918b9c4f7ac4d594c90e722be39fd2f52213afa36224454c8273", "1.16.0--r41hdfd78af_0": "sha256:fd756250573378adb53dafaf92557076ef3c98ba281a2aebc852adad98c9bf31", "1.14.0--r40hdfd78af_1": "sha256:fc97a91afcac046fd5e013de6707348a8e1ce19f249949201dfd167d3f35151e", "1.12.0--r40_0": "sha256:8bf0e59965c6ab9cb2c5a3f1fc766d6b2df59c39c877e988bd9d14775ae31fe6", "1.24.0--r43hdfd78af_0": "sha256:051100d2127dd91d570e96bfdfb7640494b83b1e708409659b8ac00c1bc30bc9", "1.26.0--r43hdfd78af_0": "sha256:271210a841f327e3cc0c9226694fa929048b9afa5721282ef1111d9c586561f6", "1.30.0--r44hdfd78af_0": "sha256:3ac6d1414b91ff37549a093c8c01f8df4df8658bf67ac81e61fb2620d3b774c1"}, "docker": "quay.io/biocontainers/bioconductor-timescape", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-timescape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timescape", "latest": {"1.34.0--r45hdfd78af_0": "sha256:2ffdd383c392f8defd4e8486bb6aed8af7dcef4f34b8b9e66f99f18afea54a49"}, "tags": {"1.8.0--r36_1": "sha256:b5b714791f386a931a904407b2fc7a2e0801bfe8191071199eb7e01f1788a1ab", "1.22.0--r42hdfd78af_0": "sha256:fab12303f5ca49eca65ff8d785150881691a738cd600099597d9908349ef666a", "1.18.0--r41hdfd78af_0": "sha256:ef26295da100918b9c4f7ac4d594c90e722be39fd2f52213afa36224454c8273", "1.16.0--r41hdfd78af_0": "sha256:fd756250573378adb53dafaf92557076ef3c98ba281a2aebc852adad98c9bf31", "1.14.0--r40hdfd78af_1": "sha256:fc97a91afcac046fd5e013de6707348a8e1ce19f249949201dfd167d3f35151e", "1.12.0--r40_0": "sha256:8bf0e59965c6ab9cb2c5a3f1fc766d6b2df59c39c877e988bd9d14775ae31fe6", "1.24.0--r43hdfd78af_0": "sha256:051100d2127dd91d570e96bfdfb7640494b83b1e708409659b8ac00c1bc30bc9", "1.26.0--r43hdfd78af_0": "sha256:271210a841f327e3cc0c9226694fa929048b9afa5721282ef1111d9c586561f6", "1.30.0--r44hdfd78af_0": "sha256:3ac6d1414b91ff37549a093c8c01f8df4df8658bf67ac81e61fb2620d3b774c1", "1.34.0--r45hdfd78af_0": "sha256:2ffdd383c392f8defd4e8486bb6aed8af7dcef4f34b8b9e66f99f18afea54a49"}, "docker": "quay.io/biocontainers/bioconductor-timescape", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-timescape.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-timescape
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-timescape:1.30.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-timescape:1.34.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-timescape/1.30.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-timescape/1.30.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-timescape/1.34.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-timescape/1.34.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

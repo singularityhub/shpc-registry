@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tooldistillator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tooldistillator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tooldistillator/container.yaml"
-updated_at: "2026-02-27 05:08:11.792504"
+updated_at: "2026-02-28 04:49:08.199442"
 latest: "0.8.4.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/tooldistillator"
 aliases:

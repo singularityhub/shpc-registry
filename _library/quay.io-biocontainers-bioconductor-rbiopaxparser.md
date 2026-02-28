@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rbiopaxparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbiopaxparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbiopaxparser/container.yaml"
-updated_at: "2026-02-27 04:23:57.816830"
-latest: "2.46.0--r44hdfd78af_0"
+updated_at: "2026-02-28 04:05:58.659543"
+latest: "2.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbiopaxparser"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.40.0--r43hdfd78af_0"
  - "2.42.0--r43hdfd78af_0"
  - "2.46.0--r44hdfd78af_0"
+ - "2.50.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rbiopaxparser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbiopaxparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbiopaxparser", "latest": {"2.46.0--r44hdfd78af_0": "sha256:139322350b085f145803ad4d377edc749fcff81853f23cb45fb8d4f522caf47d"}, "tags": {"2.34.0--r41hdfd78af_0": "sha256:26d4caad7dad9b5cf8686b7e425ac58b8591f64a4d860b17bf4acf22aea137cf", "2.38.0--r42hdfd78af_0": "sha256:2ebcfbcb6d66f90a3bdffd7f0b0ac6e72f5ee576a626d03a990dafc2f7cc8e68", "2.40.0--r43hdfd78af_0": "sha256:93d56c5fb8025ea413d0c8f90fb93effe6dc1d0104b4ca18d3b0c06769f2e055", "2.42.0--r43hdfd78af_0": "sha256:196a37cc4cbc4a7112bffc9ab1f04777d387db149e345dfdc35833faae18b2f7", "2.46.0--r44hdfd78af_0": "sha256:139322350b085f145803ad4d377edc749fcff81853f23cb45fb8d4f522caf47d"}, "docker": "quay.io/biocontainers/bioconductor-rbiopaxparser"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbiopaxparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbiopaxparser", "latest": {"2.50.0--r45hdfd78af_0": "sha256:af94dc696a12f39284383768c8bd53c3538842faac8c47938315bb5c1033f6b7"}, "tags": {"2.34.0--r41hdfd78af_0": "sha256:26d4caad7dad9b5cf8686b7e425ac58b8591f64a4d860b17bf4acf22aea137cf", "2.38.0--r42hdfd78af_0": "sha256:2ebcfbcb6d66f90a3bdffd7f0b0ac6e72f5ee576a626d03a990dafc2f7cc8e68", "2.40.0--r43hdfd78af_0": "sha256:93d56c5fb8025ea413d0c8f90fb93effe6dc1d0104b4ca18d3b0c06769f2e055", "2.42.0--r43hdfd78af_0": "sha256:196a37cc4cbc4a7112bffc9ab1f04777d387db149e345dfdc35833faae18b2f7", "2.46.0--r44hdfd78af_0": "sha256:139322350b085f145803ad4d377edc749fcff81853f23cb45fb8d4f522caf47d", "2.50.0--r45hdfd78af_0": "sha256:af94dc696a12f39284383768c8bd53c3538842faac8c47938315bb5c1033f6b7"}, "docker": "quay.io/biocontainers/bioconductor-rbiopaxparser"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbiopaxparser.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rbiopaxparser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rbiopaxparser:2.46.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rbiopaxparser:2.50.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rbiopaxparser/2.46.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rbiopaxparser/2.46.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rbiopaxparser/2.50.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rbiopaxparser/2.50.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

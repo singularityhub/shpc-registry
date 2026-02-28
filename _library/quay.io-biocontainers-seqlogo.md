@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqlogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqlogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqlogo/container.yaml"
-updated_at: "2026-02-27 04:58:58.601672"
-latest: "5.29.9--pyhdfd78af_0"
+updated_at: "2026-02-28 04:40:29.899386"
+latest: "5.29.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqlogo"
 aliases:
  - "transformseq"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "5.29.8--py_0"
  - "5.29.9--pyhdfd78af_0"
+ - "5.29.11--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for seqlogo"
-config: {"url": "https://biocontainers.pro/tools/seqlogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqlogo", "latest": {"5.29.9--pyhdfd78af_0": "sha256:388f998ddfda4b7c7b9902a3f9d3de4fc35a59bf0ed2b55ea281d18b026df1a7"}, "tags": {"5.29.8--py_0": "sha256:b1a477d345da2dbeb2c47f560cc75648aca2ef585d6d8c1906efc94e28f51b0d", "5.29.9--pyhdfd78af_0": "sha256:388f998ddfda4b7c7b9902a3f9d3de4fc35a59bf0ed2b55ea281d18b026df1a7"}, "docker": "quay.io/biocontainers/seqlogo", "aliases": {"transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp"}}
+config: {"url": "https://biocontainers.pro/tools/seqlogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqlogo", "latest": {"5.29.11--pyhdfd78af_0": "sha256:18ae085ee49d559fb5e309988b717a8dbefa9eafa8b8b14677eec71c0cd4143a"}, "tags": {"5.29.8--py_0": "sha256:b1a477d345da2dbeb2c47f560cc75648aca2ef585d6d8c1906efc94e28f51b0d", "5.29.9--pyhdfd78af_0": "sha256:388f998ddfda4b7c7b9902a3f9d3de4fc35a59bf0ed2b55ea281d18b026df1a7", "5.29.11--pyhdfd78af_0": "sha256:18ae085ee49d559fb5e309988b717a8dbefa9eafa8b8b14677eec71c0cd4143a"}, "docker": "quay.io/biocontainers/seqlogo", "aliases": {"transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqlogo.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/seqlogo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqlogo:5.29.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/seqlogo:5.29.11--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqlogo/5.29.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/seqlogo/5.29.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/seqlogo/5.29.11--pyhdfd78af_0
+$ module help quay.io/biocontainers/seqlogo/5.29.11--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

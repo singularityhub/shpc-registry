@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fxtract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fxtract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fxtract/container.yaml"
-updated_at: "2026-02-27 05:11:48.317788"
+updated_at: "2026-02-28 04:52:33.230650"
 latest: "2.4--hc29b5fc_3"
 container_url: "https://biocontainers.pro/tools/fxtract"
 aliases:

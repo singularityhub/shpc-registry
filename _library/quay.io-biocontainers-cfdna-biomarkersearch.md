@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cfdna-biomarkersearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cfdna-biomarkersearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cfdna-biomarkersearch/container.yaml"
-updated_at: "2026-02-27 04:28:26.093101"
-latest: "0.1.1--hdfd78af_0"
+updated_at: "2026-02-28 04:10:15.328756"
+latest: "0.1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cfdna-biomarkersearch"
 aliases:
  - "dirmngr"
@@ -55,8 +55,9 @@ aliases:
  - "jwebserver"
 versions:
  - "0.1.1--hdfd78af_0"
+ - "0.1.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for cfdna-biomarkersearch"
-config: {"url": "https://biocontainers.pro/tools/cfdna-biomarkersearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cfdna-biomarkersearch", "latest": {"0.1.1--hdfd78af_0": "sha256:2bcee13b8ea7db00b28f163818566203e199ae7529c4d6b2fbf70adfb82e00f7"}, "tags": {"0.1.1--hdfd78af_0": "sha256:2bcee13b8ea7db00b28f163818566203e199ae7529c4d6b2fbf70adfb82e00f7"}, "docker": "quay.io/biocontainers/cfdna-biomarkersearch", "aliases": {"dirmngr": "/usr/local/bin/dirmngr", "dirmngr-client": "/usr/local/bin/dirmngr-client", "gpg": "/usr/local/bin/gpg", "gpg-agent": "/usr/local/bin/gpg-agent", "gpg-authcode-sign.sh": "/usr/local/bin/gpg-authcode-sign.sh", "gpg-card": "/usr/local/bin/gpg-card", "gpg-connect-agent": "/usr/local/bin/gpg-connect-agent", "gpg-mail-tube": "/usr/local/bin/gpg-mail-tube", "gpg-wks-client": "/usr/local/bin/gpg-wks-client", "gpg-wks-server": "/usr/local/bin/gpg-wks-server", "gpgconf": "/usr/local/bin/gpgconf", "gpgparsemail": "/usr/local/bin/gpgparsemail", "gpgscm": "/usr/local/bin/gpgscm", "gpgsm": "/usr/local/bin/gpgsm", "gpgsplit": "/usr/local/bin/gpgsplit", "gpgtar": "/usr/local/bin/gpgtar", "gpgv": "/usr/local/bin/gpgv", "jnativescan": "/usr/local/bin/jnativescan", "kbxutil": "/usr/local/bin/kbxutil", "watchgnupg": "/usr/local/bin/watchgnupg", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "multiqc": "/usr/local/bin/multiqc", "dotenv": "/usr/local/bin/dotenv", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "biom": "/usr/local/bin/biom", "rich-click": "/usr/local/bin/rich-click", "dumpsexp": "/usr/local/bin/dumpsexp", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "fastqc": "/usr/local/bin/fastqc", "trimmomatic": "/usr/local/bin/trimmomatic", "ref-cache": "/usr/local/bin/ref-cache", "tar": "/usr/local/bin/tar", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jwebserver": "/usr/local/bin/jwebserver"}}
+config: {"url": "https://biocontainers.pro/tools/cfdna-biomarkersearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cfdna-biomarkersearch", "latest": {"0.1.3--hdfd78af_0": "sha256:5cfeb50c2c9f9c0bc5f78bfdca4cbb609225e3c6d147a03eadee668ef560e378"}, "tags": {"0.1.1--hdfd78af_0": "sha256:2bcee13b8ea7db00b28f163818566203e199ae7529c4d6b2fbf70adfb82e00f7", "0.1.3--hdfd78af_0": "sha256:5cfeb50c2c9f9c0bc5f78bfdca4cbb609225e3c6d147a03eadee668ef560e378"}, "docker": "quay.io/biocontainers/cfdna-biomarkersearch", "aliases": {"dirmngr": "/usr/local/bin/dirmngr", "dirmngr-client": "/usr/local/bin/dirmngr-client", "gpg": "/usr/local/bin/gpg", "gpg-agent": "/usr/local/bin/gpg-agent", "gpg-authcode-sign.sh": "/usr/local/bin/gpg-authcode-sign.sh", "gpg-card": "/usr/local/bin/gpg-card", "gpg-connect-agent": "/usr/local/bin/gpg-connect-agent", "gpg-mail-tube": "/usr/local/bin/gpg-mail-tube", "gpg-wks-client": "/usr/local/bin/gpg-wks-client", "gpg-wks-server": "/usr/local/bin/gpg-wks-server", "gpgconf": "/usr/local/bin/gpgconf", "gpgparsemail": "/usr/local/bin/gpgparsemail", "gpgscm": "/usr/local/bin/gpgscm", "gpgsm": "/usr/local/bin/gpgsm", "gpgsplit": "/usr/local/bin/gpgsplit", "gpgtar": "/usr/local/bin/gpgtar", "gpgv": "/usr/local/bin/gpgv", "jnativescan": "/usr/local/bin/jnativescan", "kbxutil": "/usr/local/bin/kbxutil", "watchgnupg": "/usr/local/bin/watchgnupg", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "multiqc": "/usr/local/bin/multiqc", "dotenv": "/usr/local/bin/dotenv", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "biom": "/usr/local/bin/biom", "rich-click": "/usr/local/bin/rich-click", "dumpsexp": "/usr/local/bin/dumpsexp", "hmac256": "/usr/local/bin/hmac256", "mpicalc": "/usr/local/bin/mpicalc", "fastqc": "/usr/local/bin/fastqc", "trimmomatic": "/usr/local/bin/trimmomatic", "ref-cache": "/usr/local/bin/ref-cache", "tar": "/usr/local/bin/tar", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jwebserver": "/usr/local/bin/jwebserver"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cfdna-biomarkersearch.
@@ -71,7 +72,7 @@ $ shpc install quay.io/biocontainers/cfdna-biomarkersearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cfdna-biomarkersearch:0.1.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/cfdna-biomarkersearch:0.1.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -83,8 +84,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cfdna-biomarkersearch/0.1.1--hdfd78af_0
-$ module help quay.io/biocontainers/cfdna-biomarkersearch/0.1.1--hdfd78af_0
+$ module load quay.io/biocontainers/cfdna-biomarkersearch/0.1.3--hdfd78af_0
+$ module help quay.io/biocontainers/cfdna-biomarkersearch/0.1.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

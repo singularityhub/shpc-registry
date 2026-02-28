@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hilbertcurve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hilbertcurve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hilbertcurve/container.yaml"
-updated_at: "2026-02-27 05:00:27.125792"
-latest: "2.0.0--r44he5774e6_0"
+updated_at: "2026-02-28 04:41:56.582957"
+latest: "2.4.2--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hilbertcurve"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
  - "2.0.0--r44he5774e6_0"
+ - "2.4.2--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hilbertcurve"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hilbertcurve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hilbertcurve", "latest": {"2.0.0--r44he5774e6_0": "sha256:4ba65aabebb9bdd52bed077289c5fd5600fbd5aadf9fe49dd417fbc8580211f8"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:dbb2b77da3b55e190f036d0b25968ccad01a3a41183382b9be4b568fbba76425", "1.28.0--r42hdfd78af_0": "sha256:f54a8e8cbb9686674af24aff82c81edce42b90b966f702a906ce39b3467b7234", "1.30.0--r43hdfd78af_0": "sha256:83d3dd2c89ee58cfd6d612bd5e8bc265766bb679eba4eb2b993612aba96bd2e6", "1.32.0--r43hdfd78af_0": "sha256:80a306007aadb33936e2a6b1f8335c17e2fb7589a5e5d6bc0c5097be5ea8d21a", "2.0.0--r44he5774e6_0": "sha256:4ba65aabebb9bdd52bed077289c5fd5600fbd5aadf9fe49dd417fbc8580211f8"}, "docker": "quay.io/biocontainers/bioconductor-hilbertcurve"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hilbertcurve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hilbertcurve", "latest": {"2.4.2--r45ha27e39d_0": "sha256:d54564fd139480270fe8919a241bd02c4d3e1a493aa0716582283ebb10fa800c"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:dbb2b77da3b55e190f036d0b25968ccad01a3a41183382b9be4b568fbba76425", "1.28.0--r42hdfd78af_0": "sha256:f54a8e8cbb9686674af24aff82c81edce42b90b966f702a906ce39b3467b7234", "1.30.0--r43hdfd78af_0": "sha256:83d3dd2c89ee58cfd6d612bd5e8bc265766bb679eba4eb2b993612aba96bd2e6", "1.32.0--r43hdfd78af_0": "sha256:80a306007aadb33936e2a6b1f8335c17e2fb7589a5e5d6bc0c5097be5ea8d21a", "2.0.0--r44he5774e6_0": "sha256:4ba65aabebb9bdd52bed077289c5fd5600fbd5aadf9fe49dd417fbc8580211f8", "2.4.2--r45ha27e39d_0": "sha256:d54564fd139480270fe8919a241bd02c4d3e1a493aa0716582283ebb10fa800c"}, "docker": "quay.io/biocontainers/bioconductor-hilbertcurve"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hilbertcurve.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hilbertcurve
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hilbertcurve:2.0.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-hilbertcurve:2.4.2--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hilbertcurve/2.0.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-hilbertcurve/2.0.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-hilbertcurve/2.4.2--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-hilbertcurve/2.4.2--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

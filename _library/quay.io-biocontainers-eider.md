@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eider/container.yaml"
-updated_at: "2026-02-27 04:53:28.793459"
+updated_at: "2026-02-28 04:35:01.050589"
 latest: "0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eider"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fast-fasta-compressor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast-fasta-compressor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast-fasta-compressor/container.yaml"
-updated_at: "2026-02-27 04:21:52.849826"
-latest: "1.0--h9948957_0"
+updated_at: "2026-02-28 04:03:59.585652"
+latest: "1.1--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/fast-fasta-compressor"
 aliases:
  - "ffc"
 versions:
  - "1.0--h9948957_0"
+ - "1.1--hd63eeec_0"
 description: "singularity registry hpc automated addition for fast-fasta-compressor"
-config: {"url": "https://biocontainers.pro/tools/fast-fasta-compressor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fast-fasta-compressor", "latest": {"1.0--h9948957_0": "sha256:ce78868d5dbc1d694008335be208aa798c832436e0b5ac2a46449f68d1820128"}, "tags": {"1.0--h9948957_0": "sha256:ce78868d5dbc1d694008335be208aa798c832436e0b5ac2a46449f68d1820128"}, "docker": "quay.io/biocontainers/fast-fasta-compressor", "aliases": {"ffc": "/usr/local/bin/ffc"}}
+config: {"url": "https://biocontainers.pro/tools/fast-fasta-compressor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fast-fasta-compressor", "latest": {"1.1--hd63eeec_0": "sha256:0be3a1c9a265b937a4b3e7fd91905c5f4380677e211e71f982a310abb93b1349"}, "tags": {"1.0--h9948957_0": "sha256:ce78868d5dbc1d694008335be208aa798c832436e0b5ac2a46449f68d1820128", "1.1--hd63eeec_0": "sha256:0be3a1c9a265b937a4b3e7fd91905c5f4380677e211e71f982a310abb93b1349"}, "docker": "quay.io/biocontainers/fast-fasta-compressor", "aliases": {"ffc": "/usr/local/bin/ffc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fast-fasta-compressor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fast-fasta-compressor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fast-fasta-compressor:1.0--h9948957_0
+$ shpc install quay.io/biocontainers/fast-fasta-compressor:1.1--hd63eeec_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fast-fasta-compressor/1.0--h9948957_0
-$ module help quay.io/biocontainers/fast-fasta-compressor/1.0--h9948957_0
+$ module load quay.io/biocontainers/fast-fasta-compressor/1.1--hd63eeec_0
+$ module help quay.io/biocontainers/fast-fasta-compressor/1.1--hd63eeec_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

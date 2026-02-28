@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dfplyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dfplyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dfplyr/container.yaml"
-updated_at: "2026-02-27 04:53:23.796704"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-02-28 04:34:56.073082"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dfplyr"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-dfplyr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dfplyr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-dfplyr", "latest": {"1.0.0--r44hdfd78af_0": "sha256:6a058276b2ac25af34cd55e8f84b3535d74521c0faff65345d71dabf891c5a2c"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:6a058276b2ac25af34cd55e8f84b3535d74521c0faff65345d71dabf891c5a2c"}, "docker": "quay.io/biocontainers/bioconductor-dfplyr", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dfplyr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-dfplyr", "latest": {"1.4.0--r45hdfd78af_0": "sha256:27424e6e42a0bc91bb9d191e506d05310896afbbc35575d67007470e9624b4de"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:6a058276b2ac25af34cd55e8f84b3535d74521c0faff65345d71dabf891c5a2c", "1.4.0--r45hdfd78af_0": "sha256:27424e6e42a0bc91bb9d191e506d05310896afbbc35575d67007470e9624b4de"}, "docker": "quay.io/biocontainers/bioconductor-dfplyr", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dfplyr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dfplyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dfplyr:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dfplyr:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dfplyr/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dfplyr/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dfplyr/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dfplyr/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
