@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cifi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cifi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cifi/container.yaml"
-updated_at: "2026-02-28 04:03:10.851795"
+updated_at: "2026-03-01 04:30:22.073571"
 latest: "0.2.3--py310hfc0ef84_0"
 container_url: "https://biocontainers.pro/tools/cifi"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.2.3--py310hfc0ef84_0"
+ - "0.2.3--py313h5565187_0"
 description: "singularity registry hpc automated addition for cifi"
-config: {"url": "https://biocontainers.pro/tools/cifi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cifi", "latest": {"0.2.3--py310hfc0ef84_0": "sha256:1866992ce8ecb12dbd48f7df7e5466a2db1ce40d9c5a90f2beee8c787c103da4"}, "tags": {"0.2.3--py310hfc0ef84_0": "sha256:1866992ce8ecb12dbd48f7df7e5466a2db1ce40d9c5a90f2beee8c787c103da4"}, "docker": "quay.io/biocontainers/cifi", "aliases": {"cifi": "/usr/local/bin/cifi", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/cifi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cifi", "latest": {"0.2.3--py310hfc0ef84_0": "sha256:1866992ce8ecb12dbd48f7df7e5466a2db1ce40d9c5a90f2beee8c787c103da4"}, "tags": {"0.2.3--py310hfc0ef84_0": "sha256:1866992ce8ecb12dbd48f7df7e5466a2db1ce40d9c5a90f2beee8c787c103da4", "0.2.3--py313h5565187_0": "sha256:21918cd188e00c4778d2dd3898a0cf516f222bd7a39c0072841f23822e915ad3"}, "docker": "quay.io/biocontainers/cifi", "aliases": {"cifi": "/usr/local/bin/cifi", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cifi.

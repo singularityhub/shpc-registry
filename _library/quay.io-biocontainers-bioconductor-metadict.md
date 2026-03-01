@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metadict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metadict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metadict/container.yaml"
-updated_at: "2026-02-28 04:19:42.011765"
+updated_at: "2026-03-01 04:47:02.560708"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metadict"
 aliases:
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "1.0.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-metadict"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metadict", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-metadict", "latest": {"1.0.0--r45hdfd78af_0": "sha256:c3a567f0932871e7601d88db9739e79c3af0dc849a0f05c999d9046e4b540eb9"}, "tags": {"1.0.0--r45hdfd78af_0": "sha256:c3a567f0932871e7601d88db9739e79c3af0dc849a0f05c999d9046e4b540eb9"}, "docker": "quay.io/biocontainers/bioconductor-metadict", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "glpsol": "/usr/local/bin/glpsol", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metadict", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-metadict", "latest": {"1.0.0--r45hdfd78af_0": "sha256:84076a964ef77a75aed6c67d9a8ac6e5d3221c0325803bf17bf2b7baf70b910b"}, "tags": {"1.0.0--r45hdfd78af_0": "sha256:84076a964ef77a75aed6c67d9a8ac6e5d3221c0325803bf17bf2b7baf70b910b"}, "docker": "quay.io/biocontainers/bioconductor-metadict", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "glpsol": "/usr/local/bin/glpsol", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metadict.

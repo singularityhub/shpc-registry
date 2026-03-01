@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scatterhatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scatterhatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scatterhatch/container.yaml"
-updated_at: "2026-02-28 04:30:39.317903"
-latest: "1.12.0--r44hdfd78af_0"
+updated_at: "2026-03-01 04:57:46.104103"
+latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scatterhatch"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.12.0--r44hdfd78af_0"
+ - "1.16.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scatterhatch"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scatterhatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scatterhatch", "latest": {"1.12.0--r44hdfd78af_0": "sha256:474a9dd8d3079b126a084ba1b8af6b55f18320afc4324d4920f62783b6dd4d0a"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:60d37428a786ec23268a39bd7ae9006b7c5b5ae2f95cda4367173b7019aa96a9", "1.4.0--r42hdfd78af_0": "sha256:37a0f1aa381e4cb1d15ee5021467e40fcd8b12edcba938c1e5225c586cd11e07", "1.6.0--r43hdfd78af_0": "sha256:76745888bbb56dd11ab912aafab6c9295ac09cfabdc9b2d44434bab7e86e29ef", "1.8.0--r43hdfd78af_0": "sha256:aa4520f0831badc334b0da9055db7b9b1b4da22c74da223bb9d88b178f84c491", "1.12.0--r44hdfd78af_0": "sha256:474a9dd8d3079b126a084ba1b8af6b55f18320afc4324d4920f62783b6dd4d0a"}, "docker": "quay.io/biocontainers/bioconductor-scatterhatch"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scatterhatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scatterhatch", "latest": {"1.16.0--r45hdfd78af_0": "sha256:71406a27f03a0262b221630e11b999989ec40741686e31e4fa20b4ceb4ad5603"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:60d37428a786ec23268a39bd7ae9006b7c5b5ae2f95cda4367173b7019aa96a9", "1.4.0--r42hdfd78af_0": "sha256:37a0f1aa381e4cb1d15ee5021467e40fcd8b12edcba938c1e5225c586cd11e07", "1.6.0--r43hdfd78af_0": "sha256:76745888bbb56dd11ab912aafab6c9295ac09cfabdc9b2d44434bab7e86e29ef", "1.8.0--r43hdfd78af_0": "sha256:aa4520f0831badc334b0da9055db7b9b1b4da22c74da223bb9d88b178f84c491", "1.12.0--r44hdfd78af_0": "sha256:474a9dd8d3079b126a084ba1b8af6b55f18320afc4324d4920f62783b6dd4d0a", "1.16.0--r45hdfd78af_0": "sha256:71406a27f03a0262b221630e11b999989ec40741686e31e4fa20b4ceb4ad5603"}, "docker": "quay.io/biocontainers/bioconductor-scatterhatch"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scatterhatch.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scatterhatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scatterhatch:1.12.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scatterhatch:1.16.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scatterhatch/1.12.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scatterhatch/1.12.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scatterhatch/1.16.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scatterhatch/1.16.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

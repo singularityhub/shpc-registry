@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cormotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cormotif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cormotif/container.yaml"
-updated_at: "2026-02-28 04:27:14.760722"
-latest: "1.52.0--r44hdfd78af_0"
+updated_at: "2026-03-01 04:54:26.877555"
+latest: "1.56.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cormotif"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.46.0--r43hdfd78af_0"
  - "1.48.0--r43hdfd78af_0"
  - "1.52.0--r44hdfd78af_0"
+ - "1.56.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cormotif"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cormotif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cormotif", "latest": {"1.52.0--r44hdfd78af_0": "sha256:e9ec294981c98ead5ff4dda73cdc834b8c2586b75680a888a2ecda8270c319df"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:6e567a6b3f510fb6e38c4191b7a45bdb8f033048cce236483c2788f487b7a82d", "1.44.0--r42hdfd78af_0": "sha256:ee34acdaad50d37d0b9f0114011a223a686ab62619f40c72909794cbfd50d755", "1.46.0--r43hdfd78af_0": "sha256:a46ad1e0a0e4e56643770f75751c8ec96465cb626baf8902a2b8047d7e9e8520", "1.48.0--r43hdfd78af_0": "sha256:d356868024e59de0116be57776a6d783bf26e7666b1b67745e489502f440fd8d", "1.52.0--r44hdfd78af_0": "sha256:e9ec294981c98ead5ff4dda73cdc834b8c2586b75680a888a2ecda8270c319df"}, "docker": "quay.io/biocontainers/bioconductor-cormotif"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cormotif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cormotif", "latest": {"1.56.0--r45hdfd78af_0": "sha256:8c751e8bf79cb0feafcb8c03159040d48013f1ca8f6cb5a56c90923c07c0d8cb"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:6e567a6b3f510fb6e38c4191b7a45bdb8f033048cce236483c2788f487b7a82d", "1.44.0--r42hdfd78af_0": "sha256:ee34acdaad50d37d0b9f0114011a223a686ab62619f40c72909794cbfd50d755", "1.46.0--r43hdfd78af_0": "sha256:a46ad1e0a0e4e56643770f75751c8ec96465cb626baf8902a2b8047d7e9e8520", "1.48.0--r43hdfd78af_0": "sha256:d356868024e59de0116be57776a6d783bf26e7666b1b67745e489502f440fd8d", "1.52.0--r44hdfd78af_0": "sha256:e9ec294981c98ead5ff4dda73cdc834b8c2586b75680a888a2ecda8270c319df", "1.56.0--r45hdfd78af_0": "sha256:8c751e8bf79cb0feafcb8c03159040d48013f1ca8f6cb5a56c90923c07c0d8cb"}, "docker": "quay.io/biocontainers/bioconductor-cormotif"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cormotif.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cormotif
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cormotif:1.52.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cormotif:1.56.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cormotif/1.52.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cormotif/1.52.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cormotif/1.56.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cormotif/1.56.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
