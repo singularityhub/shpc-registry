@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-levi
 latest:
-  1.24.0--r44he5774e6_0: 
-    sha256:bf7db720086fef035b347b95e5c3bcefdf089423e8d8bfd941ce950d294a2575
+  1.28.0--r45ha27e39d_0: 
+    sha256:928c4de8734c86a2f278a2a94289b6574542fea1176edf7b8e531ec7f8643882
 tags:
   1.8.0--r40h399db7b_1: 
     sha256:9091bb30d944faafa6efa40b297de725a578dfa8052712364e48184efaeee11e
@@ -22,6 +22,8 @@ tags:
     sha256:26447bf51051ba0f574847d6002bc558ffb5e2dd3527cedb6f6a054cbb059e6b
   1.24.0--r44he5774e6_0: 
     sha256:bf7db720086fef035b347b95e5c3bcefdf089423e8d8bfd941ce950d294a2575
+  1.28.0--r45ha27e39d_0: 
+    sha256:928c4de8734c86a2f278a2a94289b6574542fea1176edf7b8e531ec7f8643882
 docker: quay.io/biocontainers/bioconductor-levi
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

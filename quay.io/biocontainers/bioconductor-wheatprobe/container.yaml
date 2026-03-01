@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-wheatprobe
 latest:
-  2.18.0--r44hdfd78af_14: 
-    sha256:6e175f02ed1dd9289500203a2d4d50b4f25bcf781b39d5ff652a257dd2c25f91
+  2.18.0--r45hdfd78af_15: 
+    sha256:cedb70aa10f9145fb6451b5ae9fb3c421908bec284dbe6eddc70eec5fafab96a
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:444bc9708fc582c5b519ca4fbdb92fcc829faf9af66cbfa31450581eba8a89bb
@@ -18,4 +18,6 @@ tags:
     sha256:1e2b662538907e0d78e27ddd4fbbfda6d4fc3b78b015454fc29a99d923cba675
   2.18.0--r44hdfd78af_14: 
     sha256:6e175f02ed1dd9289500203a2d4d50b4f25bcf781b39d5ff652a257dd2c25f91
+  2.18.0--r45hdfd78af_15: 
+    sha256:cedb70aa10f9145fb6451b5ae9fb3c421908bec284dbe6eddc70eec5fafab96a
 docker: quay.io/biocontainers/bioconductor-wheatprobe

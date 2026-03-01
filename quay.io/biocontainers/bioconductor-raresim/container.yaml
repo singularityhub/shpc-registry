@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-raresim
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:dd0fd61d4324528a4386e8389b15ad4e04aa89df80a242f2b08599dc5299c3d9
+  1.14.0--r45hdfd78af_0: 
+    sha256:20b3d1d9167359f7ae5812ad3864b8e60bad08e2557d7a2c81ff018a190fd8be
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:eb013cfff1d54cab646263acbd551375c1207db74c128f30175450182961e532
@@ -14,6 +14,8 @@ tags:
     sha256:945321a6556099045047befdfae83373892eb37ad556cbc25d5988729cc27172
   1.10.0--r44hdfd78af_0: 
     sha256:dd0fd61d4324528a4386e8389b15ad4e04aa89df80a242f2b08599dc5299c3d9
+  1.14.0--r45hdfd78af_0: 
+    sha256:20b3d1d9167359f7ae5812ad3864b8e60bad08e2557d7a2c81ff018a190fd8be
 docker: quay.io/biocontainers/bioconductor-raresim
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

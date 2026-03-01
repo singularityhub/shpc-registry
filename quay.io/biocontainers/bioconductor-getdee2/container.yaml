@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-getdee2
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:48ac02b0fd5ff630ded9b391e47f88f75600f67f5c10265f1a30d4adf0d4f411
+  1.20.0--r45hdfd78af_0: 
+    sha256:a5623465615aa840e06caf649b084aab2c74c2f34e84e3f9f652310e50114357
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:0841799d0e9366d5b18a1f29ddabffa855507af52b7781df31fc07fc30b4ef94
@@ -16,4 +16,6 @@ tags:
     sha256:6e15dd41e9414921db6419eb257d48e6660f8248252928e7979010fbf9139906
   1.16.0--r44hdfd78af_0: 
     sha256:48ac02b0fd5ff630ded9b391e47f88f75600f67f5c10265f1a30d4adf0d4f411
+  1.20.0--r45hdfd78af_0: 
+    sha256:a5623465615aa840e06caf649b084aab2c74c2f34e84e3f9f652310e50114357
 docker: quay.io/biocontainers/bioconductor-getdee2

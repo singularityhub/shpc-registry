@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-timerquant
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:1e2756ba23c493ffbec6cfafaaaf36912ab7fb9477b294c9242b1f0e719dd35d
+  1.39.0--r45hdfd78af_0: 
+    sha256:03fc469cd5219b8ed4753fca4457970f704730f09b36d5895b37842db643ef50
 tags:
   1.24.0--r41hdfd78af_1: 
     sha256:e48b927fe50ee8c5d92a043adb506e340888e520766cc2bf7456445e025a8520
@@ -16,4 +16,6 @@ tags:
     sha256:0501e675129bb551d28ef2e8e17bf4f083f77a0988381a9472408cc795053623
   1.36.0--r44hdfd78af_0: 
     sha256:1e2756ba23c493ffbec6cfafaaaf36912ab7fb9477b294c9242b1f0e719dd35d
+  1.39.0--r45hdfd78af_0: 
+    sha256:03fc469cd5219b8ed4753fca4457970f704730f09b36d5895b37842db643ef50
 docker: quay.io/biocontainers/bioconductor-timerquant

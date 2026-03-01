@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-qmtools
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:9c940b69462a65f215b0533e5883dea95df614eae35fb9d32bff04bcbb83d370
+  1.14.0--r45hdfd78af_0: 
+    sha256:69df6b403eee9e43190e4d1b00314220d3d3d42582472f6c24e611f6440fdaeb
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:bfe4270e8930cf3d9e5316b2fbbe62ae91dfef0ed2b372ff1b773dbb7f207c27
@@ -14,6 +14,8 @@ tags:
     sha256:8262f1e88145cc04b262ce371c0e7431f3c1d3465e239a036961ee7455dbf9a6
   1.10.0--r44hdfd78af_0: 
     sha256:9c940b69462a65f215b0533e5883dea95df614eae35fb9d32bff04bcbb83d370
+  1.14.0--r45hdfd78af_0: 
+    sha256:69df6b403eee9e43190e4d1b00314220d3d3d42582472f6c24e611f6440fdaeb
 docker: quay.io/biocontainers/bioconductor-qmtools
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

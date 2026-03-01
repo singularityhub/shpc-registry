@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-minet
 latest:
-  3.64.0--r44he5774e6_0: 
-    sha256:847e50b895e6aa78e7bb63273cf58410bee4f8e21625e42d8e2f8a6988940d26
+  3.68.0--r45ha27e39d_0: 
+    sha256:f9fd4aad778aa012affb43cbf954ce0ac27f25d86dc6dc05e930c635068a66be
 tags:
   3.52.0--r41hc247a5b_2: 
     sha256:4181941308d592f74492ee9f275e3eb0ef8871167bf5c03c35c691141aefaab9
@@ -20,4 +20,6 @@ tags:
     sha256:8940f0441b850cb022e824dd5ff3cfb9669f66d9f650132fdeef09255a7a9de1
   3.64.0--r44he5774e6_0: 
     sha256:847e50b895e6aa78e7bb63273cf58410bee4f8e21625e42d8e2f8a6988940d26
+  3.68.0--r45ha27e39d_0: 
+    sha256:f9fd4aad778aa012affb43cbf954ce0ac27f25d86dc6dc05e930c635068a66be
 docker: quay.io/biocontainers/bioconductor-minet

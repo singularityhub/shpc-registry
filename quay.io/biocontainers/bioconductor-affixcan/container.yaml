@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-affixcan
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:68f260bbd3810d422eb327080b78efe8902b83100127c5de598c4e59e8ff2959
+  1.28.0--r45hdfd78af_0: 
+    sha256:0bb53d7a49a20ee9ade52d6a9f2e8a53287791bd67aebfb581afcdc09f04771f
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:9b97fb2c5e95086120e87c377952052fb26b816f66de09c27abfb1a3cbc75c83
@@ -20,6 +20,8 @@ tags:
     sha256:af5c02fd34960e567f0d04da4a2fccd26dc895971b25e1c48b9f233535f8c85a
   1.24.0--r44hdfd78af_0: 
     sha256:68f260bbd3810d422eb327080b78efe8902b83100127c5de598c4e59e8ff2959
+  1.28.0--r45hdfd78af_0: 
+    sha256:0bb53d7a49a20ee9ade52d6a9f2e8a53287791bd67aebfb581afcdc09f04771f
 docker: quay.io/biocontainers/bioconductor-affixcan
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

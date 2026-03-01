@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-eds
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-eds
 latest:
-  1.8.0--r44h77050f0_0: 
-    sha256:d46b0fb13140212fcc69c9ad7d70f5ffb40f2b8c754d6a03a3219adca08c46d6
+  1.12.0--r45ha27e39d_0: 
+    sha256:b3d3467e30e031d8685a988519f68f8a9371cf18e1a2a1c83ef0b12410dbd94f
 tags:
   1.0.0--r42hc247a5b_0: 
     sha256:efa21a1e35c167b58584d770a79297ba6ba96b49e6aac7fd7face2afe9aae86d
@@ -15,4 +15,6 @@ tags:
     sha256:554f98ba7ef68870596db01b9c1d60a501934a114a95be7f881c26cbd9bacc8e
   1.8.0--r44h77050f0_0: 
     sha256:d46b0fb13140212fcc69c9ad7d70f5ffb40f2b8c754d6a03a3219adca08c46d6
+  1.12.0--r45ha27e39d_0: 
+    sha256:b3d3467e30e031d8685a988519f68f8a9371cf18e1a2a1c83ef0b12410dbd94f
 docker: quay.io/biocontainers/bioconductor-eds

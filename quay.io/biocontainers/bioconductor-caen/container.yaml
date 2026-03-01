@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-caen
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:be73a52d069ccac3961b415f1af2c7cbea4c213516970ced325173969c0e2080
+  1.18.0--r45hdfd78af_0: 
+    sha256:9b43ac318fae9b98b0b885ce49215116acbb5cce06905992a25a4f420159750d
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:7ebb971bf58ad294c9ae1226713ce66facc1820440374a0be7e5880954a8b93d
@@ -16,4 +16,6 @@ tags:
     sha256:a76f73975c621976a780191c1efc802803cb6575112f7ae80ca97efdc0ab0c05
   1.14.0--r44hdfd78af_0: 
     sha256:be73a52d069ccac3961b415f1af2c7cbea4c213516970ced325173969c0e2080
+  1.18.0--r45hdfd78af_0: 
+    sha256:9b43ac318fae9b98b0b885ce49215116acbb5cce06905992a25a4f420159750d
 docker: quay.io/biocontainers/bioconductor-caen

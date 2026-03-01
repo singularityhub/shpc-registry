@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/domainator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for domainator
 latest:
-  0.8.0--pyhdfd78af_0: 
-    sha256:9eb55b6904374040b04c9c34b7942a5968c4e044f4826310a548d2abdcce0057
+  0.8.1--pyhdfd78af_0: 
+    sha256:3a46793f2576ef70d2479feaca0b2c1ee6fe20af4b537d7cfbc5015aa53a7a24
 tags:
   0.8.0--pyhdfd78af_0: 
     sha256:9eb55b6904374040b04c9c34b7942a5968c4e044f4826310a548d2abdcce0057
+  0.8.1--pyhdfd78af_0: 
+    sha256:3a46793f2576ef70d2479feaca0b2c1ee6fe20af4b537d7cfbc5015aa53a7a24
 docker: quay.io/biocontainers/domainator
 aliases:
   build_projection.py: /usr/local/bin/build_projection.py

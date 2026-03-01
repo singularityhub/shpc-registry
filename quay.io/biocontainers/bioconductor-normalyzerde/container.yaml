@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-normalyzerde
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:323179a300da630f940b33e2d6c4da049c8f8e7c688f2fb7d94183529d318540
+  1.28.0--r45hdfd78af_0: 
+    sha256:37d8874662d285ffc799a65fa20d9eb4d0cbd58e353f26789f45c9776b38cefe
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a
@@ -20,6 +20,8 @@ tags:
     sha256:8b2c43efeefea7ee2577d4fed68dfb90f8b21f177a35e407cf79a73334a0c7c4
   1.24.0--r44hdfd78af_0: 
     sha256:323179a300da630f940b33e2d6c4da049c8f8e7c688f2fb7d94183529d318540
+  1.28.0--r45hdfd78af_0: 
+    sha256:37d8874662d285ffc799a65fa20d9eb4d0cbd58e353f26789f45c9776b38cefe
 docker: quay.io/biocontainers/bioconductor-normalyzerde
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

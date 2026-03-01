@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-orthogene
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:c36f94ec1cc2300c95e342114966bc4259ef24d535b101eca19a8f63285bf028
+  1.16.1--r45hdfd78af_0: 
+    sha256:264c2290090d99c65bbb12c184e63a76deb2f4101582bd8d9bcad1a9a349b265
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:77f45e481512165040cd650ae80b9ddb76bb32fc3d07cd9598f3fd866d699b34
@@ -16,4 +16,6 @@ tags:
     sha256:58480c1380a779f21cd5660e842b3f5a1b35ed2fa3cc6dc1761d59f64f9a3cdd
   1.12.0--r44hdfd78af_0: 
     sha256:c36f94ec1cc2300c95e342114966bc4259ef24d535b101eca19a8f63285bf028
+  1.16.1--r45hdfd78af_0: 
+    sha256:264c2290090d99c65bbb12c184e63a76deb2f4101582bd8d9bcad1a9a349b265
 docker: quay.io/biocontainers/bioconductor-orthogene

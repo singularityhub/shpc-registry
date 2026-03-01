@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-raggedexperiment
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:1bfc5c623d3a7a3d81b5c090fb1f934dc566886d7bcb475fe5b5b1609d31d6eb
+  1.34.0--r45hdfd78af_0: 
+    sha256:8e97f8967840b601cce9a89896a4ba2c3cb6fc325aa3fc727dfd900ba40604ba
 tags:
   1.8.0--r36_1: 
     sha256:b5f76f56cef62c55fed83dcb726492ce3943d2c88fa67c19b37dbe9881afafc8
@@ -26,6 +26,8 @@ tags:
     sha256:f1191c6b25fef70af455a4cbf0c86958cf03aa73095f4fcb87a9ab79c4b82236
   1.30.0--r44hdfd78af_0: 
     sha256:1bfc5c623d3a7a3d81b5c090fb1f934dc566886d7bcb475fe5b5b1609d31d6eb
+  1.34.0--r45hdfd78af_0: 
+    sha256:8e97f8967840b601cce9a89896a4ba2c3cb6fc325aa3fc727dfd900ba40604ba
 docker: quay.io/biocontainers/bioconductor-raggedexperiment
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

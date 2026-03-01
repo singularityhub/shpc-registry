@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cmap
 latest:
-  1.15.1--r44hdfd78af_16: 
-    sha256:85094bf35373347381789f4d48104b2e5dd5ec57fac690a4c869bb60b9c8899e
+  1.15.1--r45hdfd78af_17: 
+    sha256:10eb95d18caf22a77cf57e490024e2f8bc5b5f3c66a39f43e94b557a919a7fbc
 tags:
   1.15.1--r40hdfd78af_9: 
     sha256:e9bbaa68cc1d35e8c91394485bab68b3c82f6803c5a41470cb973d0a6bafe702
@@ -18,6 +18,8 @@ tags:
     sha256:e38028367e78880d8719134efc4db55542501e283352d3accd1b5ad3a97c3d3f
   1.15.1--r44hdfd78af_16: 
     sha256:85094bf35373347381789f4d48104b2e5dd5ec57fac690a4c869bb60b9c8899e
+  1.15.1--r45hdfd78af_17: 
+    sha256:10eb95d18caf22a77cf57e490024e2f8bc5b5f3c66a39f43e94b557a919a7fbc
 docker: quay.io/biocontainers/bioconductor-cmap
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

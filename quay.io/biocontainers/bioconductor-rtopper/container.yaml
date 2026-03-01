@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rtopper
 latest:
-  1.52.0--r44hdfd78af_0: 
-    sha256:0fb6ac669151c4afdfb064796051641d84b48a51e5edf789bcff717c650059d9
+  1.56.0--r45hdfd78af_0: 
+    sha256:a9127e7fc38a4a9ef925a38422d1ddcd49c3412d0e4d1530a364f3b9bd35fd31
 tags:
   1.40.0--r41hdfd78af_0: 
     sha256:f919f93b0789c688f78313a37d5572c1abb9dbd35d305c20998e565d150a6c43
@@ -16,4 +16,6 @@ tags:
     sha256:ee4c25f3378e8608536fffa6206da8acbfe50eb70e8f1d29298f9b9b6dc03b8b
   1.52.0--r44hdfd78af_0: 
     sha256:0fb6ac669151c4afdfb064796051641d84b48a51e5edf789bcff717c650059d9
+  1.56.0--r45hdfd78af_0: 
+    sha256:a9127e7fc38a4a9ef925a38422d1ddcd49c3412d0e4d1530a364f3b9bd35fd31
 docker: quay.io/biocontainers/bioconductor-rtopper

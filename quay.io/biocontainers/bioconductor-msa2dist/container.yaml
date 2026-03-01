@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-msa2dist
 latest:
-  1.10.0--r44he5774e6_1: 
-    sha256:7b5bfe73a74e524eca645ee2f90a60a9af160415dc322021dc866803ade4f167
+  1.14.0--r45ha27e39d_0: 
+    sha256:f0ab5dae90cbaac3c61df92dc2d864400ae6cac9bc7822df639cc20515bd91cc
 tags:
   1.2.0--r42hc247a5b_0: 
     sha256:1dd799411e07ca515b652a5fcae1cb92911c404bc3235166d43ff67913c82a46
@@ -18,6 +18,8 @@ tags:
     sha256:820ce512e6b81fb9ba153f6fd33067a2b55893b2f6c94b65bad756638c95b8a6
   1.10.0--r44he5774e6_1: 
     sha256:7b5bfe73a74e524eca645ee2f90a60a9af160415dc322021dc866803ade4f167
+  1.14.0--r45ha27e39d_0: 
+    sha256:f0ab5dae90cbaac3c61df92dc2d864400ae6cac9bc7822df639cc20515bd91cc
 docker: quay.io/biocontainers/bioconductor-msa2dist
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

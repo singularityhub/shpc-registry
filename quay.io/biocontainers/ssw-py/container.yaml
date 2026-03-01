@@ -7,6 +7,8 @@ latest:
 tags:
   1.0.1--py310h7c10099_0: 
     sha256:517e0d8b8cae745d68cf1e9f72d7fad2ce896f38ca9da394019da60719484be9
+  1.0.1--py313h8c92656_0: 
+    sha256:8b836c6bc942e84f5b3d16f8e8ada8d95caf4f05e462f308d3cbdf127c2640f0
 docker: quay.io/biocontainers/ssw-py
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

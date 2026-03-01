@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/squigulator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for squigulator
 latest:
-  0.4.0--h5ca1c30_2: 
-    sha256:f52a9c8ca957e64f44cc43ee6b1472833ba6dc97fc63bbe577a6bcacc4ab252e
+  0.5.0--h7f5d12c_0: 
+    sha256:fea9adc9787e2b8b850bf534cdd61ab5180567ffb98dc4cde14935f6cd334735
 tags:
   0.2.0--h5b5514e_0: 
     sha256:8b5af8cb0b36a2afb2c9c7d44e3cbdff7415a5dc9b90e353d899b9cfa34b3644
@@ -19,6 +19,8 @@ tags:
     sha256:dea4f045fa5ea8746a05dc027dfd86eaa0edc4e04e614c64848a6d28c4c481be
   0.4.0--h5ca1c30_2: 
     sha256:f52a9c8ca957e64f44cc43ee6b1472833ba6dc97fc63bbe577a6bcacc4ab252e
+  0.5.0--h7f5d12c_0: 
+    sha256:fea9adc9787e2b8b850bf534cdd61ab5180567ffb98dc4cde14935f6cd334735
 docker: quay.io/biocontainers/squigulator
 aliases:
   squigulator: /usr/local/bin/squigulator

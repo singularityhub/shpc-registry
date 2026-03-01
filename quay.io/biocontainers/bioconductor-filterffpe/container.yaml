@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-filterffpe
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:f42556e8c45f5fc7d63d7d9a228809f2114435c424e0a4bfda02823eb840598e
+  1.20.0--r45hdfd78af_0: 
+    sha256:d858896e17c6787b551831cba2f9a58eed4006aae9fde07b53433f143c5b18c9
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:43e253a3e683428a422f93acddeeea027d2fe10a25b5e581bab4823ccf6ca82d
@@ -16,4 +16,6 @@ tags:
     sha256:365f0dcbba6b11304115ea2a94cf1388311c7398dfce434d5fa63f97c0bf64ca
   1.16.0--r44hdfd78af_0: 
     sha256:f42556e8c45f5fc7d63d7d9a228809f2114435c424e0a4bfda02823eb840598e
+  1.20.0--r45hdfd78af_0: 
+    sha256:d858896e17c6787b551831cba2f9a58eed4006aae9fde07b53433f143c5b18c9
 docker: quay.io/biocontainers/bioconductor-filterffpe

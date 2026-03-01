@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowchic
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:47456a3db1c8376cf7d6011686a538fa6822ff97e69e4dbbfc4db1629da8555b
+  1.44.0--r45hdfd78af_0: 
+    sha256:e4dd44a4ab9f2b207584a528f369d5ebf6df2c1de6c621d0d1e32210115fab86
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:397446aac112b11e7e37f1d78a85b362c0471d9cf40faf55d7eba34443ee5ca0
@@ -16,6 +16,8 @@ tags:
     sha256:d27daf3dbd512dfa86c8c3739bb0f42ca9d1fdf5204ef42c3e6003c2b9d89449
   1.40.0--r44hdfd78af_0: 
     sha256:47456a3db1c8376cf7d6011686a538fa6822ff97e69e4dbbfc4db1629da8555b
+  1.44.0--r45hdfd78af_0: 
+    sha256:e4dd44a4ab9f2b207584a528f369d5ebf6df2c1de6c621d0d1e32210115fab86
 docker: quay.io/biocontainers/bioconductor-flowchic
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

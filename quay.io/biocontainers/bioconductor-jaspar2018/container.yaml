@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-jaspar2018
 latest:
-  1.1.1--r44hdfd78af_14: 
-    sha256:afa33bc6c1a5b973be6999c2264223be640bd9a815d5049809c5e03d2bb8a463
+  1.1.1--r45hdfd78af_15: 
+    sha256:25c8eddeab36d4be2b25af0d8d977ceae723ce2a195d763bb3f2af27d7cb9290
 tags:
   1.1.1--r41hdfd78af_9: 
     sha256:0c1156523c2fe1a0960597e2591ad3d6f612d991dee427d611169979d03ad147
@@ -18,4 +18,6 @@ tags:
     sha256:c3253ef96228dd07bc42ddbe40f265d4096e99694cf7b6155255bbaf942a7e7c
   1.1.1--r44hdfd78af_14: 
     sha256:afa33bc6c1a5b973be6999c2264223be640bd9a815d5049809c5e03d2bb8a463
+  1.1.1--r45hdfd78af_15: 
+    sha256:25c8eddeab36d4be2b25af0d8d977ceae723ce2a195d763bb3f2af27d7cb9290
 docker: quay.io/biocontainers/bioconductor-jaspar2018

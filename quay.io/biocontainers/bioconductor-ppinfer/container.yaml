@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ppinfer
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:d39ef7353faca4b5fa4107833b4af8f60a694eda58d8119a95d207e32c62c49e
+  1.36.0--r45hdfd78af_0: 
+    sha256:c8c6475fd64e3a1af7560e531916e78b1eaebf4738aee3185bc511ed9dbd9e91
 tags:
   1.8.1--r351_0: 
     sha256:c88342501fbc722a6a6eb6d71239bcb93f8f79dcf3ab3929e684b799b0d09586
@@ -26,6 +26,8 @@ tags:
     sha256:f0a2ff5548cf52fb841af7b96456a5429bec814655e1935b71d10d42807a422e
   1.32.0--r44hdfd78af_0: 
     sha256:d39ef7353faca4b5fa4107833b4af8f60a694eda58d8119a95d207e32c62c49e
+  1.36.0--r45hdfd78af_0: 
+    sha256:c8c6475fd64e3a1af7560e531916e78b1eaebf4738aee3185bc511ed9dbd9e91
 docker: quay.io/biocontainers/bioconductor-ppinfer
 aliases:
   wget: /usr/local/bin/wget

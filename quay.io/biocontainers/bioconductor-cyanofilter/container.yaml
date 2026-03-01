@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cyanofilter
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:79fb6e83ada19b121c35a94368a6fbbc2baf911217a07ce316ae16bb8f338a78
+  1.18.0--r45hdfd78af_0: 
+    sha256:0dc15898e89a641d6701fdb811e12dce0281446d5b2ceb14f4ae33510b1f0b4e
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:cec3a76eeca3b237a7b5c5ae6d96d6dd6c6230c6ab6a977798782e8f462422d4
@@ -16,6 +16,8 @@ tags:
     sha256:15db4a02f74bc821e2b1de88e70478ffa883c46635064e47f2663e236c1bedc7
   1.14.0--r44hdfd78af_0: 
     sha256:79fb6e83ada19b121c35a94368a6fbbc2baf911217a07ce316ae16bb8f338a78
+  1.18.0--r45hdfd78af_0: 
+    sha256:0dc15898e89a641d6701fdb811e12dce0281446d5b2ceb14f4ae33510b1f0b4e
 docker: quay.io/biocontainers/bioconductor-cyanofilter
 aliases:
   geosop: /usr/local/bin/geosop

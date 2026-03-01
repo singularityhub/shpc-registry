@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gnet2
 latest:
-  1.18.0--r43hf17093f_1: 
-    sha256:c79d8a72bbfc8d539cfa74772c56e90187e833f4b103ce9fb075cfd21ad1a253
+  1.26.0--r45ha27e39d_0: 
+    sha256:ba6db7332102d81cb3c584ae06a61e5f1e24015ea69a29b2c0d9dd3cd889ea0e
 tags:
   1.8.0--r41h399db7b_0: 
     sha256:cea6a8005017e23d09c1fdddaaae3bb2621e709062668e1220b47a6787fa6e12
@@ -20,6 +20,8 @@ tags:
     sha256:7c412abdb5e3232127283fd29f7e480eaf5fc02999de19f28a79701efa11a6fb
   1.18.0--r43hf17093f_1: 
     sha256:c79d8a72bbfc8d539cfa74772c56e90187e833f4b103ce9fb075cfd21ad1a253
+  1.26.0--r45ha27e39d_0: 
+    sha256:ba6db7332102d81cb3c584ae06a61e5f1e24015ea69a29b2c0d9dd3cd889ea0e
 docker: quay.io/biocontainers/bioconductor-gnet2
 aliases:
   xgboost: /usr/local/bin/xgboost

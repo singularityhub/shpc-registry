@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-multimir
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:6765f458b8482e8b7ca12723380537758df52af605786f78dc1684f59b0cf3ce
+  1.32.0--r45hdfd78af_0: 
+    sha256:83600c029eb6fc52289289047fbb34644faa9a6963d6660bd56e620e6e5ae7d1
 tags:
   1.6.0--r36_1: 
     sha256:9f517d9bf37c5c28ed52230b71075e475059b6269245b5f7f410425c8b678daf
@@ -24,6 +24,8 @@ tags:
     sha256:a7809034218c0418b93772a80418cf391a06b2d33966a83ace91ad7b2e93a6cf
   1.28.0--r44hdfd78af_0: 
     sha256:6765f458b8482e8b7ca12723380537758df52af605786f78dc1684f59b0cf3ce
+  1.32.0--r45hdfd78af_0: 
+    sha256:83600c029eb6fc52289289047fbb34644faa9a6963d6660bd56e620e6e5ae7d1
 docker: quay.io/biocontainers/bioconductor-multimir
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

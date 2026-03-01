@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mgu74cprobe
 latest:
-  2.18.0--r44hdfd78af_14: 
-    sha256:2f54508dc415e080c4f4959161f03cb028c4b09b23810bc1a264322044426cb9
+  2.18.0--r45hdfd78af_15: 
+    sha256:bd2e1621d6d357993575dea003caa8bf3a98b7de84e677e4b0bf278534531b6f
 tags:
   2.18.0--r41hdfd78af_8: 
     sha256:d67e3e7247a52753cc3bebc9cfef4ef1b1ee5643108968249accc7cf3b7a7717
@@ -18,6 +18,8 @@ tags:
     sha256:b189fed2c4ff33a8861dbeab42c565a40c661e68b8d9a289c4a79c135940bc33
   2.18.0--r44hdfd78af_14: 
     sha256:2f54508dc415e080c4f4959161f03cb028c4b09b23810bc1a264322044426cb9
+  2.18.0--r45hdfd78af_15: 
+    sha256:bd2e1621d6d357993575dea003caa8bf3a98b7de84e677e4b0bf278534531b6f
 docker: quay.io/biocontainers/bioconductor-mgu74cprobe
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

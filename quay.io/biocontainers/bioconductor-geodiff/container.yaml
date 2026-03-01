@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geodiff
 latest:
-  1.12.0--r44he5774e6_0: 
-    sha256:ed41f4833062714047e47d0786391a7a41c44ba1f48b4d4f5b500e7890d7e198
+  1.16.0--r45ha27e39d_0: 
+    sha256:dee407a2b95ad5a4741863da9e3347ae8bf268a0347a9b5a3b4c1d1eb6df728d
 tags:
   1.0.0--r41hc247a5b_2: 
     sha256:c5814543fc876cf7a5e65fc27792ff2e8d8bb021570a4cc3cbe678c8c3e521b7
@@ -18,6 +18,8 @@ tags:
     sha256:0f9fa2bebb81f2057628e9805cad90c8ff9eb3ae9b2d503535deeb9f6875a1bd
   1.12.0--r44he5774e6_0: 
     sha256:ed41f4833062714047e47d0786391a7a41c44ba1f48b4d4f5b500e7890d7e198
+  1.16.0--r45ha27e39d_0: 
+    sha256:dee407a2b95ad5a4741863da9e3347ae8bf268a0347a9b5a3b4c1d1eb6df728d
 docker: quay.io/biocontainers/bioconductor-geodiff
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-treeandleaf
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:d7ff837afdc7e187f4d72bcc23b4817c71135ead3e7126b4b2ab736c34611549
+  1.22.0--r45hdfd78af_0: 
+    sha256:d520242d3a5547ac45811ac750745988340a356401fbfb34c356e3d03bb65698
 tags:
   1.6.1--r41hdfd78af_0: 
     sha256:f22b244ff9cc1c0131b940dffa1b949eb3f7280c799ec0f3eef8d2f4c991d793
@@ -16,4 +16,6 @@ tags:
     sha256:51e5dd9d542d7c5e81ad1cfc32aadd26c394621819af72f87ad8ea30e7ebd0f6
   1.18.0--r44hdfd78af_0: 
     sha256:d7ff837afdc7e187f4d72bcc23b4817c71135ead3e7126b4b2ab736c34611549
+  1.22.0--r45hdfd78af_0: 
+    sha256:d520242d3a5547ac45811ac750745988340a356401fbfb34c356e3d03bb65698
 docker: quay.io/biocontainers/bioconductor-treeandleaf

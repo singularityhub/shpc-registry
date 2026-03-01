@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-icens
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:58d6bc4f9f55602b95f0b3d264dbf32b6228f48dc1ecedf7dc2e01db8b7341ec
+  1.82.0--r45hdfd78af_0: 
+    sha256:11ee2587d7b01f653a9ae59c51ce07141e8bc204fd7bc030cd90bb38b34c4dc6
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:2229bbad90473854767686694d3bb49f3e2dd24c6e58dc8f506b1f298512b68c
@@ -16,4 +16,6 @@ tags:
     sha256:a78a26f2daff7194aca1f2d146bc889bfa37159c936ee2f99e83fc567d87d3c1
   1.78.0--r44hdfd78af_0: 
     sha256:58d6bc4f9f55602b95f0b3d264dbf32b6228f48dc1ecedf7dc2e01db8b7341ec
+  1.82.0--r45hdfd78af_0: 
+    sha256:11ee2587d7b01f653a9ae59c51ce07141e8bc204fd7bc030cd90bb38b34c4dc6
 docker: quay.io/biocontainers/bioconductor-icens
