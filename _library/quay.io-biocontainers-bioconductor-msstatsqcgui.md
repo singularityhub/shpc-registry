@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msstatsqcgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatsqcgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatsqcgui/container.yaml"
-updated_at: "2026-03-02 04:35:11.928871"
+updated_at: "2026-03-02 04:56:09.270045"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatsqcgui"
 aliases:
