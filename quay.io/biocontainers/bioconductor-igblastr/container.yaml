@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-igblastr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-igblastr
+latest:
+  1.0.11--r45hdfd78af_0: 
+    sha256:055267351cea46d365ee47abbfad4dd77add26fd221b0489697a21ea4791af4e
+tags:
+  1.0.11--r45hdfd78af_0: 
+    sha256:055267351cea46d365ee47abbfad4dd77add26fd221b0489697a21ea4791af4e
+docker: quay.io/biocontainers/bioconductor-igblastr
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

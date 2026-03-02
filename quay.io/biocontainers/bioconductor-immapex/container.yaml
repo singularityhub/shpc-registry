@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-immapex
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-immapex
+latest:
+  1.4.3--r45ha27e39d_0: 
+    sha256:0cd5af0c58ddea4b82c450e7334e41cc4349e109bb03f82f670446c4bac5dac8
+tags:
+  1.4.3--r45ha27e39d_0: 
+    sha256:0cd5af0c58ddea4b82c450e7334e41cc4349e109bb03f82f670446c4bac5dac8
+docker: quay.io/biocontainers/bioconductor-immapex
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

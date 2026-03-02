@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-cigarillo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-cigarillo
+latest:
+  1.0.0--r45h01b2380_0: 
+    sha256:b3233e5da7159dd1430ecd6ca1e496581c65d34eb1da86a013c375dd67d370b5
+tags:
+  1.0.0--r45h01b2380_0: 
+    sha256:b3233e5da7159dd1430ecd6ca1e496581c65d34eb1da86a013c375dd67d370b5
+docker: quay.io/biocontainers/bioconductor-cigarillo
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

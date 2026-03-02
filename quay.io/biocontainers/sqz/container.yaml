@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/sqz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sqz
+latest:
+  0.2.0--h4349ce8_0: 
+    sha256:9e89a1eae2b1cfe90788d2156bc59d13dd5cee747e3bc1b8de98bafb81427b73
+tags:
+  0.2.0--h4349ce8_0: 
+    sha256:9e89a1eae2b1cfe90788d2156bc59d13dd5cee747e3bc1b8de98bafb81427b73
+docker: quay.io/biocontainers/sqz
+aliases:
+  sqz: /usr/local/bin/sqz

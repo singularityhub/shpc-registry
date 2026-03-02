@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bioconductor-geyser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-geyser
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:55cbe1df63a3151ea8d80ec9767e3f36fb67192d00cc63379e9997f78443891e
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:55cbe1df63a3151ea8d80ec9767e3f36fb67192d00cc63379e9997f78443891e
+docker: quay.io/biocontainers/bioconductor-geyser
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

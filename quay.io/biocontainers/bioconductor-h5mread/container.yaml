@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-h5mread
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-h5mread
+latest:
+  1.2.1--r45h01b2380_0: 
+    sha256:3e2a77bb7161051565d698097a76b15265cd885bdb8f448511b1d7b68dff9405
+tags:
+  1.2.1--r45h01b2380_0: 
+    sha256:3e2a77bb7161051565d698097a76b15265cd885bdb8f448511b1d7b68dff9405
+docker: quay.io/biocontainers/bioconductor-h5mread
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

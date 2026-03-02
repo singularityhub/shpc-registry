@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-breastsubtyper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-breastsubtyper
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:2d9a714adaa51334319a76097a0e282afa04818ed84a3822f84556ec4aa77db1
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:2d9a714adaa51334319a76097a0e282afa04818ed84a3822f84556ec4aa77db1
+docker: quay.io/biocontainers/bioconductor-breastsubtyper
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
