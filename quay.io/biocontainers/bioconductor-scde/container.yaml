@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scde
 latest:
-  2.34.0--r44he5774e6_0: 
-    sha256:de2a419e8d01bc267aa4fd3359d54429a0546bece3019e27e496b07c18ea2ce8
+  2.38.0--r45ha27e39d_0: 
+    sha256:7b36b7a1d91936cd5a55c7680b5895752d9fae36c242d84fd9b3c7b9639eb904
 tags:
   2.8.0--r351hfc679d8_0: 
     sha256:a5b92fef9324b2b9b85a2bfcfdc4fa550c2e796c259dd3192add2636c9fd781b
@@ -28,4 +28,6 @@ tags:
     sha256:fd80d4a4c999e94e96cb9c89c39c21e1a7c0008b555b7168c688af84e94e6add
   2.34.0--r44he5774e6_0: 
     sha256:de2a419e8d01bc267aa4fd3359d54429a0546bece3019e27e496b07c18ea2ce8
+  2.38.0--r45ha27e39d_0: 
+    sha256:7b36b7a1d91936cd5a55c7680b5895752d9fae36c242d84fd9b3c7b9639eb904
 docker: quay.io/biocontainers/bioconductor-scde

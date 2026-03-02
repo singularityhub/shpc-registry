@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/foldtree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for foldtree
 latest:
-  1.1.0rc2--pyh106432d_0: 
-    sha256:443f931e998fbd66a390425c8bacc71cd97e9aa68fb12f2751a9f8290d056740
+  1.1.0rc2--pyh106432d_1: 
+    sha256:ff330f1876c439910d766eed0f8b568e5a8d611ef3a0ec7da095d8922fcaf2c4
 tags:
   1.1.0rc2--pyh106432d_0: 
     sha256:443f931e998fbd66a390425c8bacc71cd97e9aa68fb12f2751a9f8290d056740
+  1.1.0rc2--pyh106432d_1: 
+    sha256:ff330f1876c439910d766eed0f8b568e5a8d611ef3a0ec7da095d8922fcaf2c4
 docker: quay.io/biocontainers/foldtree
 aliases:
   apisearch: /usr/local/bin/apisearch

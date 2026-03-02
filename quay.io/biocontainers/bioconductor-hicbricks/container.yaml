@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hicbricks
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:13c65dc3ca936dabff1df933f876b7e91cd58d19467783c8ca76d27b8f5c2b3a
+  1.28.0--r45hdfd78af_0: 
+    sha256:8293975c857131d4b4d099357622fbd802b5f4a72a2974433efd361983769f55
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:2fbeb2e4b144eaf77215f4e0e31ffa51192e4e25f1073fcbb47581d8b7923103
@@ -20,6 +20,8 @@ tags:
     sha256:4febd9678917592162c76322186b2b44fdacb674bf4d0246d4ce9055324225c2
   1.24.0--r44hdfd78af_0: 
     sha256:13c65dc3ca936dabff1df933f876b7e91cd58d19467783c8ca76d27b8f5c2b3a
+  1.28.0--r45hdfd78af_0: 
+    sha256:8293975c857131d4b4d099357622fbd802b5f4a72a2974433efd361983769f55
 docker: quay.io/biocontainers/bioconductor-hicbricks
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

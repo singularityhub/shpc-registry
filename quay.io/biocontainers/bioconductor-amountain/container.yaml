@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-amountain
 latest:
-  1.32.0--r44h34769fb_0: 
-    sha256:98b588537e452ae276a0235bf735e33fd9ef67c7cdf221b758c25a518df0cfb1
+  1.36.0--r45h57f0213_0: 
+    sha256:cbbf3e669f024451b1b364bddff07250c49a9b879fb6c3f18c2bf3bd7acde84e
 tags:
   1.8.0--r351ha21c8aa_0: 
     sha256:7e99f4f237104540a1d35da14a330ac8bc42c18f76426a6e20ba5e2f335ad4db
@@ -30,6 +30,8 @@ tags:
     sha256:2bb5adbdc0e91a4ba268a6516e940717252108d9184c0d2a0b5bf27e68a42519
   1.32.0--r44h34769fb_0: 
     sha256:98b588537e452ae276a0235bf735e33fd9ef67c7cdf221b758c25a518df0cfb1
+  1.36.0--r45h57f0213_0: 
+    sha256:cbbf3e669f024451b1b364bddff07250c49a9b879fb6c3f18c2bf3bd7acde84e
 docker: quay.io/biocontainers/bioconductor-amountain
 aliases:
   c89: /usr/local/bin/c89

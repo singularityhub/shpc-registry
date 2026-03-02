@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-splicingfactory
 latest:
-  1.18.0--r44hdfd78af_1: 
-    sha256:3ba64f217e3629d0ee382d5914b6c4eead39e9dfec2d02bc0174046c5bb9a48a
+  1.18.0--r45hdfd78af_2: 
+    sha256:305b16850adb2460c9cd166e732065e4d52cb7de6d51881a2d286a72c783802c
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:22d5b3e37ad08070b1bb355dd341198ccdbe151ef4a676524ad0bd951662a97c
@@ -18,4 +18,6 @@ tags:
     sha256:fcb69f7088ce58d969c50835114a3b760d2ae55f4157536e55549743564a9ca4
   1.18.0--r44hdfd78af_1: 
     sha256:3ba64f217e3629d0ee382d5914b6c4eead39e9dfec2d02bc0174046c5bb9a48a
+  1.18.0--r45hdfd78af_2: 
+    sha256:305b16850adb2460c9cd166e732065e4d52cb7de6d51881a2d286a72c783802c
 docker: quay.io/biocontainers/bioconductor-splicingfactory

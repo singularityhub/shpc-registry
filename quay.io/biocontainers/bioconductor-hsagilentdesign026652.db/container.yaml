@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hsagilentdesign026652.db
 latest:
-  3.2.3--r44hdfd78af_13: 
-    sha256:1ed02724c76adc114cd56d564aae7805949734f8334b2aec3c2d23571f08e20e
+  3.2.3--r45hdfd78af_14: 
+    sha256:bd551057756583ece5bc88d1cfeca6d0b4c737464cd5c1ea27c41e9c7ab280e9
 tags:
   3.2.3--r41hdfd78af_9: 
     sha256:fb9f7d352404ca27d3cba76f2ccb535d135adf4d200690efe4ca4108b39391a0
@@ -16,4 +16,6 @@ tags:
     sha256:44a9f1063e97f6b956999d680f650ee8d8a140864a9e3dca22041db67f1eb1c2
   3.2.3--r44hdfd78af_13: 
     sha256:1ed02724c76adc114cd56d564aae7805949734f8334b2aec3c2d23571f08e20e
+  3.2.3--r45hdfd78af_14: 
+    sha256:bd551057756583ece5bc88d1cfeca6d0b4c737464cd5c1ea27c41e9c7ab280e9
 docker: quay.io/biocontainers/bioconductor-hsagilentdesign026652.db

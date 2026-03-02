@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rrbsdata
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:18506d5774458694c471cae93959480e1b60be354aca42de8ebe46569e8979ee
+  1.30.0--r45hdfd78af_0: 
+    sha256:fa8de828f92607d109004bdc48f41a516d412f182bb7003ae7bd0dedc744ed29
 tags:
   1.8.0--r40_0: 
     sha256:889dc016cbf743d72de36f1233e097cbae051cdfdef6242c68d6c0c823acb2ea
@@ -22,6 +22,8 @@ tags:
     sha256:d1c34d1d04dcaae6570e9ba70eaad14a5fb265e260a00994bdc286524fb59c7f
   1.26.0--r44hdfd78af_0: 
     sha256:18506d5774458694c471cae93959480e1b60be354aca42de8ebe46569e8979ee
+  1.30.0--r45hdfd78af_0: 
+    sha256:fa8de828f92607d109004bdc48f41a516d412f182bb7003ae7bd0dedc744ed29
 docker: quay.io/biocontainers/bioconductor-rrbsdata
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

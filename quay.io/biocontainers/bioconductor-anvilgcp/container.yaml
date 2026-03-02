@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-anvilgcp
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:32ccf893e1aff34f3293ad8294dd12f03b6b4b11260f3adf64231d678f185b5d
+  1.4.1--r45hdfd78af_0: 
+    sha256:174dcf9c5ffb26b060f60cf6fec8bc7161a37aa1301ee3a56e5d5028e0111366
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:32ccf893e1aff34f3293ad8294dd12f03b6b4b11260f3adf64231d678f185b5d
+  1.4.1--r45hdfd78af_0: 
+    sha256:174dcf9c5ffb26b060f60cf6fec8bc7161a37aa1301ee3a56e5d5028e0111366
 docker: quay.io/biocontainers/bioconductor-anvilgcp
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-prebsdata
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:638e185da0e5890b773c4a1029e81ef64b9d75133524ac8ac861ce2863b84700
+  1.46.0--r45hdfd78af_0: 
+    sha256:d83c152f959d7b5c10324b21bab038aeb0f65e627aa06fbd338288312e606d68
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17
@@ -16,4 +16,6 @@ tags:
     sha256:59ed01d9fab1870c8c0b68b6f3d1347454fd32e276efc7a06993ef6ee2baed53
   1.42.0--r44hdfd78af_0: 
     sha256:638e185da0e5890b773c4a1029e81ef64b9d75133524ac8ac861ce2863b84700
+  1.46.0--r45hdfd78af_0: 
+    sha256:d83c152f959d7b5c10324b21bab038aeb0f65e627aa06fbd338288312e606d68
 docker: quay.io/biocontainers/bioconductor-prebsdata

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pgca
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:05473979b799fbc6d3954f5806101c806d9b63eed2dd2dbc9d19bc769462e448
+  1.34.0--r45hdfd78af_0: 
+    sha256:a65d9d3f8ee34a2e4858f2c10348692c5b28282cc4794d5c59e1490959ea3219
 tags:
   1.8.0--r36_1: 
     sha256:a3bf761b789d6be8f0ce17747bf0c617a9e18b764907809631f607ff0efde027
@@ -26,6 +26,8 @@ tags:
     sha256:6af703930cfa2d8c81ff5f841294d69180bb7e049237e9271a6b133c8411c601
   1.30.0--r44hdfd78af_0: 
     sha256:05473979b799fbc6d3954f5806101c806d9b63eed2dd2dbc9d19bc769462e448
+  1.34.0--r45hdfd78af_0: 
+    sha256:a65d9d3f8ee34a2e4858f2c10348692c5b28282cc4794d5c59e1490959ea3219
 docker: quay.io/biocontainers/bioconductor-pgca
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

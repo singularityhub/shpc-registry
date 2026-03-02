@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-human1mv1ccrlmm
 latest:
-  1.0.3--r44hdfd78af_13: 
-    sha256:aced07d63bfe01ac4a165133969e8c114468cf6c44c87e84acdd3eb078a50ee1
+  1.0.3--r45hdfd78af_14: 
+    sha256:5c702b3ddd8f39a78a8bb3345a2c305e90a0175dce70ac8c2c609236cfc1956e
 tags:
   1.0.3--r41hdfd78af_9: 
     sha256:79545daefaabd131fa225cd471d9e0fc602a8ee435a84a4f6cbadb7e3a8ed0fb
@@ -16,4 +16,6 @@ tags:
     sha256:5a76fb3f7653f9021027e64a02084d7bae0a0057a027bbca5415c2771dbeb7a3
   1.0.3--r44hdfd78af_13: 
     sha256:aced07d63bfe01ac4a165133969e8c114468cf6c44c87e84acdd3eb078a50ee1
+  1.0.3--r45hdfd78af_14: 
+    sha256:5c702b3ddd8f39a78a8bb3345a2c305e90a0175dce70ac8c2c609236cfc1956e
 docker: quay.io/biocontainers/bioconductor-human1mv1ccrlmm

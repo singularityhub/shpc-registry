@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-zebrafishprobe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:58809adc05fd5ca45759743d0a6e71f9fc4e8f67f2d13b4546ef389193cdbc40
+  2.18.0--r45hdfd78af_14: 
+    sha256:9082ef7177d66580e3aa7249405e7024280a40959b6af377e948a57ccfe71e9f
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:43edb27a668d10ab3c064d2de7dc35710154390d96e4b94462a83fab2e9baa9f
@@ -16,4 +16,6 @@ tags:
     sha256:180beefdf6ddccbd4d42c3a024628f85702223683246ee3e9525b957e3199c11
   2.18.0--r44hdfd78af_13: 
     sha256:58809adc05fd5ca45759743d0a6e71f9fc4e8f67f2d13b4546ef389193cdbc40
+  2.18.0--r45hdfd78af_14: 
+    sha256:9082ef7177d66580e3aa7249405e7024280a40959b6af377e948a57ccfe71e9f
 docker: quay.io/biocontainers/bioconductor-zebrafishprobe

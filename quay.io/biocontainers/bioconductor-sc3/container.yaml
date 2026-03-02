@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sc3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sc3
 latest:
-  1.34.0--r44he5774e6_0: 
-    sha256:11ee5a88e002d4093f62de7b37bd3edd8bfbcb4f1ee442315329635e3293d7b9
+  1.38.0--r45ha27e39d_0: 
+    sha256:321c89ceefa5884812413bcdc8e6ca92b5bba31b7c0fe3a82e1539c7b9bccd90
 tags:
   1.8.0--r351hfc679d8_0: 
     sha256:40020cd9ccb21371b170c25abd47776733865bd131e2d3c317932d93a8adf50b
@@ -27,4 +27,6 @@ tags:
     sha256:9745f73f184e303ffa5146e0bd51e49510ac09cea216fc3c1b7a7a83bb1ff014
   1.34.0--r44he5774e6_0: 
     sha256:11ee5a88e002d4093f62de7b37bd3edd8bfbcb4f1ee442315329635e3293d7b9
+  1.38.0--r45ha27e39d_0: 
+    sha256:321c89ceefa5884812413bcdc8e6ca92b5bba31b7c0fe3a82e1539c7b9bccd90
 docker: quay.io/biocontainers/bioconductor-sc3

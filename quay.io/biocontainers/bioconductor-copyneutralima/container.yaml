@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-copyneutralima
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:ea09269ebb30f4ee57975e01f9bfdb3a66b483f77c679bf754635838e11a4578
+  1.28.0--r45hdfd78af_0: 
+    sha256:9a51e5dde37df0178dbd7e7e46e184bf15c7bd5d45408105768a469ca5658466
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:0728f30629f1046cfb6e6595cd460cf524628a5a62b399a134101f4eb424ce36
@@ -20,6 +20,8 @@ tags:
     sha256:9163a5b07908553f627bb84f72a4d7222142de30553f9fe1a925d8112fa1ffe4
   1.24.0--r44hdfd78af_0: 
     sha256:ea09269ebb30f4ee57975e01f9bfdb3a66b483f77c679bf754635838e11a4578
+  1.28.0--r45hdfd78af_0: 
+    sha256:9a51e5dde37df0178dbd7e7e46e184bf15c7bd5d45408105768a469ca5658466
 docker: quay.io/biocontainers/bioconductor-copyneutralima
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

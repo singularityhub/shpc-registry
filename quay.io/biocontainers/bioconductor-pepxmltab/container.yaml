@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pepxmltab
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:42fa0e3d0bacaecc438d8e15c4586101c72eb8a93b83359b6570ed802dba9968
+  1.44.0--r45hdfd78af_0: 
+    sha256:8fc15bc6d40704f31a0be631595373ef63427374c441f53a44c5114d63f53ada
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:d993130a9ebefe27f21b66a878de618f12ef6285b7f5e2cbe652754364ac1094
@@ -16,4 +16,6 @@ tags:
     sha256:79a90157529c57acd6809e0c012c1ec38e50adbbd2898453c54170a0a86686f3
   1.40.0--r44hdfd78af_0: 
     sha256:42fa0e3d0bacaecc438d8e15c4586101c72eb8a93b83359b6570ed802dba9968
+  1.44.0--r45hdfd78af_0: 
+    sha256:8fc15bc6d40704f31a0be631595373ef63427374c441f53a44c5114d63f53ada
 docker: quay.io/biocontainers/bioconductor-pepxmltab

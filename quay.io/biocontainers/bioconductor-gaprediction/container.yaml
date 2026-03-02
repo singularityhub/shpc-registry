@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gaprediction
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:33edbdfe63ae4e2af16c32451d8eec5ee3ccf88bf090e0cb679945fc7141cbfa
+  1.36.0--r45hdfd78af_0: 
+    sha256:46dc10f9c3a5d1d9ffb679bd56a7a0e7e1c2fa4aa57d7b2219f95f477b51d46a
 tags:
   1.8.1--r351_0: 
     sha256:6f344251bf56a0d8373da1acccd33b0b946035dc0a32f1d54190f095ce4160d3
@@ -26,6 +26,8 @@ tags:
     sha256:2145f1f16065c1342ba64c25e04ad4884b8890b3319a5bf2847c3a5b043a0143
   1.32.0--r44hdfd78af_0: 
     sha256:33edbdfe63ae4e2af16c32451d8eec5ee3ccf88bf090e0cb679945fc7141cbfa
+  1.36.0--r45hdfd78af_0: 
+    sha256:46dc10f9c3a5d1d9ffb679bd56a7a0e7e1c2fa4aa57d7b2219f95f477b51d46a
 docker: quay.io/biocontainers/bioconductor-gaprediction
 aliases:
   c89: /usr/local/bin/c89

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-derfinderhelper
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:f855572330a89345be22925533cc0d2b3ca2707a0cdfa895313a1627f8453e84
+  1.44.0--r45hdfd78af_0: 
+    sha256:02aafbcca9e960b6f1909352a468d61163731c8b45f65300f1d960be434606d0
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:0acb46969279e7a03686928a608ad058c517a39bea879e5ea509879a631d0a85
@@ -16,4 +16,6 @@ tags:
     sha256:bc69f54686524ec677ba7dbb6f2fdc7b5a2490f768af3817c9d98f6dee58da98
   1.40.0--r44hdfd78af_0: 
     sha256:f855572330a89345be22925533cc0d2b3ca2707a0cdfa895313a1627f8453e84
+  1.44.0--r45hdfd78af_0: 
+    sha256:02aafbcca9e960b6f1909352a468d61163731c8b45f65300f1d960be434606d0
 docker: quay.io/biocontainers/bioconductor-derfinderhelper

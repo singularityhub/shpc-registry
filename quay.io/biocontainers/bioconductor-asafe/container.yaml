@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-asafe
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:24ac86f4cd6d7c8099ed95eca84c8e6f5d460b4430128e5ef0a070198fd0ce73
+  1.36.0--r45hdfd78af_0: 
+    sha256:fb84998d7cc8355333d45235c267ef60396a3c92fc693de8b2eccc0a68c67828
 tags:
   1.8.0--r351_0: 
     sha256:28a3cd50148674cc60a105edc160c8a96ad3e68225ab3c92600d228ee84b8759
@@ -26,6 +26,8 @@ tags:
     sha256:4b61550e5d85c881e83bb129fe8d7e981b1ac46f279fdd25bb1bf94eafe4706b
   1.32.0--r44hdfd78af_0: 
     sha256:24ac86f4cd6d7c8099ed95eca84c8e6f5d460b4430128e5ef0a070198fd0ce73
+  1.36.0--r45hdfd78af_0: 
+    sha256:fb84998d7cc8355333d45235c267ef60396a3c92fc693de8b2eccc0a68c67828
 docker: quay.io/biocontainers/bioconductor-asafe
 aliases:
   c89: /usr/local/bin/c89

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-structstrings
 latest:
-  1.22.0--r44h3df3fcb_0: 
-    sha256:9233d28d0cb11e001dc6a7b95c0bc4988536beb164a61c2f98bd74fc862c9d52
+  1.26.0--r45h01b2380_0: 
+    sha256:c9a0b5038e15fb57f75d4d37552e90b49005ff2ee1483233adca3206867e2ebb
 tags:
   1.8.0--r41hd029910_0: 
     sha256:8dda416ccf29528ff7e21c963eb1bef7291227a0c3f87d73460d0ed7c8d20705
@@ -20,6 +20,8 @@ tags:
     sha256:71c77d71a5cdd43a5eb5e0e973be212ce19b8c0d8c58753e937c0c1e35f2579d
   1.22.0--r44h3df3fcb_0: 
     sha256:9233d28d0cb11e001dc6a7b95c0bc4988536beb164a61c2f98bd74fc862c9d52
+  1.26.0--r45h01b2380_0: 
+    sha256:c9a0b5038e15fb57f75d4d37552e90b49005ff2ee1483233adca3206867e2ebb
 docker: quay.io/biocontainers/bioconductor-structstrings
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

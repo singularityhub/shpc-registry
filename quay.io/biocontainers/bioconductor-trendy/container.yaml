@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-trendy
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:1eb41ef6b20e315637339240ee569f2d4a3a61432c263b2931e452a88db1ce91
+  1.32.0--r45hdfd78af_0: 
+    sha256:6c4aaaa0a6ad38bb697c6d47ff28e5031fc181d826c6e2f38a1981d5ab9c9983
 tags:
   1.8.0--r36_0: 
     sha256:9174307b6f00993cf0eb70c483f1f93c363a6a066a9bed57e30597b24f41867c
@@ -24,6 +24,8 @@ tags:
     sha256:79a15585018e36b3e45fe9536c1c2555c3f3a52fd22860463524accdfec21625
   1.28.0--r44hdfd78af_0: 
     sha256:1eb41ef6b20e315637339240ee569f2d4a3a61432c263b2931e452a88db1ce91
+  1.32.0--r45hdfd78af_0: 
+    sha256:6c4aaaa0a6ad38bb697c6d47ff28e5031fc181d826c6e2f38a1981d5ab9c9983
 docker: quay.io/biocontainers/bioconductor-trendy
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

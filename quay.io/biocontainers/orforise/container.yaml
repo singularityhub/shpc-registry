@@ -3,10 +3,10 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orforise
 latest:
   1.6.6--pyhdfd78af_0: 
-    sha256:55772faf8835e9f8dac547559716aa27ed7631000793e2623e5360d87fa0d4c7
+    sha256:dab9aa067941204418dd4a671f922cfee9bdb448256b946e12c8869fb7edde2f
 tags:
   1.6.6--pyhdfd78af_0: 
-    sha256:55772faf8835e9f8dac547559716aa27ed7631000793e2623e5360d87fa0d4c7
+    sha256:dab9aa067941204418dd4a671f922cfee9bdb448256b946e12c8869fb7edde2f
 docker: quay.io/biocontainers/orforise
 aliases:
   Aggregate-Compare: /usr/local/bin/Aggregate-Compare

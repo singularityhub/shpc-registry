@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biomvcclass
 latest:
-  1.74.0--r44hdfd78af_0: 
-    sha256:fa3cbda2b15fb85ae2cd43284d4072a9e653591b8e3575177e831b37930cf96c
+  1.78.0--r45hdfd78af_0: 
+    sha256:8c548cf1fd2d8cde48509b876e63faf380f0f847f8ef7682f8a91068df3ed5ec
 tags:
   1.62.0--r41hdfd78af_0: 
     sha256:426881bda542ea1753f45173d9641091dd30c29889b7c7ec688d7b83e7d32ea5
@@ -16,4 +16,6 @@ tags:
     sha256:94207b4d4e0c0545d8cac7cb8354586f9a8253c93c27081d2974ca1b0b5419bf
   1.74.0--r44hdfd78af_0: 
     sha256:fa3cbda2b15fb85ae2cd43284d4072a9e653591b8e3575177e831b37930cf96c
+  1.78.0--r45hdfd78af_0: 
+    sha256:8c548cf1fd2d8cde48509b876e63faf380f0f847f8ef7682f8a91068df3ed5ec
 docker: quay.io/biocontainers/bioconductor-biomvcclass

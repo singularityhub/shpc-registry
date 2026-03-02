@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-htscluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-htscluster
 latest:
-  2.0.11--r44h3342da4_1: 
-    sha256:4e355cba45e98a1fd7c7204318cd3f5c1c8db0d64655d228baa817c39406edf9
+  2.0.11--r45h3342da4_2: 
+    sha256:bf093f780b2e92af37831313e81f87af784be2e5160b7a5c63ed7e2bb3b2408e
 tags:
   2.0.8--r41h3342da4_5: 
     sha256:041d08fd25b3b730f6f826ade813c4a55cc0043b4166890c25f2d37aacad3301
@@ -17,6 +17,8 @@ tags:
     sha256:070b45336408c6dcd87f5e15582bde49afe89b824876a4bbf9d9aa3eba479fa4
   2.0.11--r44h3342da4_1: 
     sha256:4e355cba45e98a1fd7c7204318cd3f5c1c8db0d64655d228baa817c39406edf9
+  2.0.11--r45h3342da4_2: 
+    sha256:bf093f780b2e92af37831313e81f87af784be2e5160b7a5c63ed7e2bb3b2408e
 docker: quay.io/biocontainers/r-htscluster
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

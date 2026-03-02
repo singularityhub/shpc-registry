@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-grasp2db
 latest:
-  1.1.0--r44hdfd78af_14: 
-    sha256:61db6e8bced652228f3763b492c58c5c0a476d342916ca503bcdb427d26484d9
+  1.1.1--r45hdfd78af_0: 
+    sha256:5d3ce23463782950f9022f53cf31361c9716ab78f105b8b2827e901db99dfb29
 tags:
   1.1.0--r41hdfd78af_9: 
     sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3
@@ -18,4 +18,6 @@ tags:
     sha256:a1e825dd87ccdc48567c298e05bc4cf33d02b8b9180d62fdf35d1ee6589c467e
   1.1.0--r44hdfd78af_14: 
     sha256:61db6e8bced652228f3763b492c58c5c0a476d342916ca503bcdb427d26484d9
+  1.1.1--r45hdfd78af_0: 
+    sha256:5d3ce23463782950f9022f53cf31361c9716ab78f105b8b2827e901db99dfb29
 docker: quay.io/biocontainers/bioconductor-grasp2db

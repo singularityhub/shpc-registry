@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ipyrad
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ipyrad
 latest:
-  0.9.107--pyhdfd78af_0: 
-    sha256:58e22157e322b7682063fda5c6254884bccb77362657b238e235e2e8baefefae
+  0.9.108--pyhdfd78af_0: 
+    sha256:da02279f1a899934c9bcf88861032853489d6c1b347fe6bf924c6823dbbed94b
 tags:
   0.9.8--py_0: 
     sha256:3cdfb58c8f08d08ff2cc3df2d594dac892cb2f107941f0b15b15800626de427d
@@ -27,6 +27,8 @@ tags:
     sha256:cfec2118416f0e5c6408d0e5566ac4a4e8a222757eb4d89415f0f35f706de5e5
   0.9.107--pyhdfd78af_0: 
     sha256:58e22157e322b7682063fda5c6254884bccb77362657b238e235e2e8baefefae
+  0.9.108--pyhdfd78af_0: 
+    sha256:da02279f1a899934c9bcf88861032853489d6c1b347fe6bf924c6823dbbed94b
 docker: quay.io/biocontainers/ipyrad
 aliases:
   ipcluster: /usr/local/bin/ipcluster

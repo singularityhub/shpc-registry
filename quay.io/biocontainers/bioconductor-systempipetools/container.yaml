@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-systempipetools
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:d7bdffaed1c4c32c363e4f89c8830f59def59a2e88a523cf888ef1b8f6f25b52
+  1.18.0--r45hdfd78af_0: 
+    sha256:d6aa23c5b9949c5f0aba2af5f3ae6e7b1e0e07a551bbd4c196618b8d2017e8b9
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:4686cd35f8d2e1febf2467a2abebbe3def4705c3e3f2171649e0fc62f32f0aea
@@ -16,4 +16,6 @@ tags:
     sha256:78f9035bba7ebf2c731839f98e04289e9b70d3355f7ed151bfe42c9dbc86ef8a
   1.14.0--r44hdfd78af_0: 
     sha256:d7bdffaed1c4c32c363e4f89c8830f59def59a2e88a523cf888ef1b8f6f25b52
+  1.18.0--r45hdfd78af_0: 
+    sha256:d6aa23c5b9949c5f0aba2af5f3ae6e7b1e0e07a551bbd4c196618b8d2017e8b9
 docker: quay.io/biocontainers/bioconductor-systempipetools

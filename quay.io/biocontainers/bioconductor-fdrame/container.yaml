@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fdrame
 latest:
-  1.78.0--r44h3df3fcb_0: 
-    sha256:3d0e844ae0b0a819e604871e3376e73bbd666dcfcf529f441c7bcefbf8a898d1
+  1.82.0--r45h01b2380_0: 
+    sha256:02f8c7175b9612dec13164c5d67e1c7072eb2e44818e163d6cb8fd02353ef722
 tags:
   1.66.0--r41hc0cfd56_2: 
     sha256:d794d14fe3eb4ffb17e694ce1c96f9758a4fe0628a2b4afb37b31e9347a75a80
@@ -18,4 +18,6 @@ tags:
     sha256:0bf58c0a1e848cce461e6dc619a09db13c7d580137f17ab2258631984180f9dd
   1.78.0--r44h3df3fcb_0: 
     sha256:3d0e844ae0b0a819e604871e3376e73bbd666dcfcf529f441c7bcefbf8a898d1
+  1.82.0--r45h01b2380_0: 
+    sha256:02f8c7175b9612dec13164c5d67e1c7072eb2e44818e163d6cb8fd02353ef722
 docker: quay.io/biocontainers/bioconductor-fdrame

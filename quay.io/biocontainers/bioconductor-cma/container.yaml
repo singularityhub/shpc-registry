@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cma
 latest:
-  1.64.0--r44hdfd78af_0: 
-    sha256:971cce69dd9e74e217cba202b6d6ff0256d5eed09bc3a946164e4d83e62b75cd
+  1.68.0--r45hdfd78af_0: 
+    sha256:4ba07d1b118bb9a54d45c2d287c98e455a35a7e9f28784bde4bb509ba28e9a7c
 tags:
   1.52.0--r41hdfd78af_0: 
     sha256:f4a42a8593f1a8bfea726902a12e253bdee67edddc01a72050a6daa56431c309
@@ -15,4 +15,6 @@ tags:
     sha256:220d40eca9cea11debe7422bc2a3918ca0885145f190849ed26ca5eb4a858d55
   1.64.0--r44hdfd78af_0: 
     sha256:971cce69dd9e74e217cba202b6d6ff0256d5eed09bc3a946164e4d83e62b75cd
+  1.68.0--r45hdfd78af_0: 
+    sha256:4ba07d1b118bb9a54d45c2d287c98e455a35a7e9f28784bde4bb509ba28e9a7c
 docker: quay.io/biocontainers/bioconductor-cma
