@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-jaspar2018"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jaspar2018/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jaspar2018/container.yaml"
-updated_at: "2026-03-01 05:04:56.322085"
-latest: "1.1.1--r44hdfd78af_14"
+updated_at: "2026-03-02 04:57:20.705274"
+latest: "1.1.1--r45hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-jaspar2018"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.1.1--r43hdfd78af_12"
  - "1.1.1--r43hdfd78af_13"
  - "1.1.1--r44hdfd78af_14"
+ - "1.1.1--r45hdfd78af_15"
 description: "shpc-registry automated BioContainers addition for bioconductor-jaspar2018"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2018", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2018", "latest": {"1.1.1--r44hdfd78af_14": "sha256:afa33bc6c1a5b973be6999c2264223be640bd9a815d5049809c5e03d2bb8a463"}, "tags": {"1.1.1--r41hdfd78af_9": "sha256:0c1156523c2fe1a0960597e2591ad3d6f612d991dee427d611169979d03ad147", "1.1.1--r41hdfd78af_10": "sha256:07564c3abd9023ce9bf6a65ac11b7bbb1ea359a337e9fdfff14c23627669cbee", "1.1.1--r42hdfd78af_11": "sha256:ff36bf60f5fd3906e7e069c8bb0b4e5512d2f1dccfc3c2bcbc6e92f9069e166a", "1.1.1--r43hdfd78af_12": "sha256:54bcdcc058f4a2bcea2ed432ee7fea1eaaf56205cfe2f25e877ec014b2125979", "1.1.1--r43hdfd78af_13": "sha256:c3253ef96228dd07bc42ddbe40f265d4096e99694cf7b6155255bbaf942a7e7c", "1.1.1--r44hdfd78af_14": "sha256:afa33bc6c1a5b973be6999c2264223be640bd9a815d5049809c5e03d2bb8a463"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2018"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2018", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2018", "latest": {"1.1.1--r45hdfd78af_15": "sha256:25c8eddeab36d4be2b25af0d8d977ceae723ce2a195d763bb3f2af27d7cb9290"}, "tags": {"1.1.1--r41hdfd78af_9": "sha256:0c1156523c2fe1a0960597e2591ad3d6f612d991dee427d611169979d03ad147", "1.1.1--r41hdfd78af_10": "sha256:07564c3abd9023ce9bf6a65ac11b7bbb1ea359a337e9fdfff14c23627669cbee", "1.1.1--r42hdfd78af_11": "sha256:ff36bf60f5fd3906e7e069c8bb0b4e5512d2f1dccfc3c2bcbc6e92f9069e166a", "1.1.1--r43hdfd78af_12": "sha256:54bcdcc058f4a2bcea2ed432ee7fea1eaaf56205cfe2f25e877ec014b2125979", "1.1.1--r43hdfd78af_13": "sha256:c3253ef96228dd07bc42ddbe40f265d4096e99694cf7b6155255bbaf942a7e7c", "1.1.1--r44hdfd78af_14": "sha256:afa33bc6c1a5b973be6999c2264223be640bd9a815d5049809c5e03d2bb8a463", "1.1.1--r45hdfd78af_15": "sha256:25c8eddeab36d4be2b25af0d8d977ceae723ce2a195d763bb3f2af27d7cb9290"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2018"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-jaspar2018.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-jaspar2018
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-jaspar2018:1.1.1--r44hdfd78af_14
+$ shpc install quay.io/biocontainers/bioconductor-jaspar2018:1.1.1--r45hdfd78af_15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-jaspar2018/1.1.1--r44hdfd78af_14
-$ module help quay.io/biocontainers/bioconductor-jaspar2018/1.1.1--r44hdfd78af_14
+$ module load quay.io/biocontainers/bioconductor-jaspar2018/1.1.1--r45hdfd78af_15
+$ module help quay.io/biocontainers/bioconductor-jaspar2018/1.1.1--r45hdfd78af_15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

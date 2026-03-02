@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pdb2fasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdb2fasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pdb2fasta/container.yaml"
-updated_at: "2026-03-01 04:46:27.677849"
+updated_at: "2026-03-02 04:38:13.883863"
 latest: "1.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/pdb2fasta"
 aliases:

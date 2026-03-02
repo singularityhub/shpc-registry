@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gtrellis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gtrellis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gtrellis/container.yaml"
-updated_at: "2026-03-01 04:39:47.265309"
-latest: "1.38.0--r44hdfd78af_0"
+updated_at: "2026-03-02 04:31:28.912529"
+latest: "1.42.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gtrellis"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.32.0--r43hdfd78af_0"
  - "1.34.0--r43hdfd78af_0"
  - "1.38.0--r44hdfd78af_0"
+ - "1.42.1--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gtrellis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gtrellis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gtrellis", "latest": {"1.38.0--r44hdfd78af_0": "sha256:490b5ad4070dee636b22b3e73b2848f167b63e272abd81cb7c946c61dcb6ee9c"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:38a955a59deaff9985782d0440e8f69ed5139eef9a46ff55bd22443d889a2a0d", "1.30.0--r42hdfd78af_0": "sha256:c41ca8ab9078f9abb6b5a2197474d484e5971f89f7fa0e3d05d2efd8c21d5ace", "1.32.0--r43hdfd78af_0": "sha256:cfd7239fe136ab1e26b47b0332e2d96459c13e9ffc1938caa79236dfb3cc0767", "1.34.0--r43hdfd78af_0": "sha256:b947c4c4d6125771c2ea75860445dd59afe30e6885492d3d7615574d0a49f36b", "1.38.0--r44hdfd78af_0": "sha256:490b5ad4070dee636b22b3e73b2848f167b63e272abd81cb7c946c61dcb6ee9c"}, "docker": "quay.io/biocontainers/bioconductor-gtrellis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gtrellis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gtrellis", "latest": {"1.42.1--r45hdfd78af_0": "sha256:b436b55bfab61538979c187f7e9fd5de60642038c09dc84095d0865aed49475a"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:38a955a59deaff9985782d0440e8f69ed5139eef9a46ff55bd22443d889a2a0d", "1.30.0--r42hdfd78af_0": "sha256:c41ca8ab9078f9abb6b5a2197474d484e5971f89f7fa0e3d05d2efd8c21d5ace", "1.32.0--r43hdfd78af_0": "sha256:cfd7239fe136ab1e26b47b0332e2d96459c13e9ffc1938caa79236dfb3cc0767", "1.34.0--r43hdfd78af_0": "sha256:b947c4c4d6125771c2ea75860445dd59afe30e6885492d3d7615574d0a49f36b", "1.38.0--r44hdfd78af_0": "sha256:490b5ad4070dee636b22b3e73b2848f167b63e272abd81cb7c946c61dcb6ee9c", "1.42.1--r45hdfd78af_0": "sha256:b436b55bfab61538979c187f7e9fd5de60642038c09dc84095d0865aed49475a"}, "docker": "quay.io/biocontainers/bioconductor-gtrellis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gtrellis.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gtrellis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gtrellis:1.38.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gtrellis:1.42.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gtrellis/1.38.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gtrellis/1.38.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gtrellis/1.42.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gtrellis/1.42.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

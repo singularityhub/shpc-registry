@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowchic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowchic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowchic/container.yaml"
-updated_at: "2026-03-01 04:58:09.032399"
-latest: "1.40.0--r44hdfd78af_0"
+updated_at: "2026-03-02 04:50:21.754704"
+latest: "1.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowchic"
 aliases:
  - "fftw-wisdom"
@@ -18,8 +18,9 @@ versions:
  - "1.34.0--r43hdfd78af_0"
  - "1.36.0--r43hdfd78af_0"
  - "1.40.0--r44hdfd78af_0"
+ - "1.44.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowchic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowchic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowchic", "latest": {"1.40.0--r44hdfd78af_0": "sha256:47456a3db1c8376cf7d6011686a538fa6822ff97e69e4dbbfc4db1629da8555b"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:397446aac112b11e7e37f1d78a85b362c0471d9cf40faf55d7eba34443ee5ca0", "1.32.0--r42hdfd78af_0": "sha256:b3a93d5e910722f78fe74e615709987cec811b3d03db9785c24cf1a7250210de", "1.34.0--r43hdfd78af_0": "sha256:c035f64f9b65af6a5c145dc2f08f8b457295c135eeaca5932428257f66ba839b", "1.36.0--r43hdfd78af_0": "sha256:d27daf3dbd512dfa86c8c3739bb0f42ca9d1fdf5204ef42c3e6003c2b9d89449", "1.40.0--r44hdfd78af_0": "sha256:47456a3db1c8376cf7d6011686a538fa6822ff97e69e4dbbfc4db1629da8555b"}, "docker": "quay.io/biocontainers/bioconductor-flowchic", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowchic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowchic", "latest": {"1.44.0--r45hdfd78af_0": "sha256:e4dd44a4ab9f2b207584a528f369d5ebf6df2c1de6c621d0d1e32210115fab86"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:397446aac112b11e7e37f1d78a85b362c0471d9cf40faf55d7eba34443ee5ca0", "1.32.0--r42hdfd78af_0": "sha256:b3a93d5e910722f78fe74e615709987cec811b3d03db9785c24cf1a7250210de", "1.34.0--r43hdfd78af_0": "sha256:c035f64f9b65af6a5c145dc2f08f8b457295c135eeaca5932428257f66ba839b", "1.36.0--r43hdfd78af_0": "sha256:d27daf3dbd512dfa86c8c3739bb0f42ca9d1fdf5204ef42c3e6003c2b9d89449", "1.40.0--r44hdfd78af_0": "sha256:47456a3db1c8376cf7d6011686a538fa6822ff97e69e4dbbfc4db1629da8555b", "1.44.0--r45hdfd78af_0": "sha256:e4dd44a4ab9f2b207584a528f369d5ebf6df2c1de6c621d0d1e32210115fab86"}, "docker": "quay.io/biocontainers/bioconductor-flowchic", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowchic.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowchic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowchic:1.40.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowchic:1.44.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowchic/1.40.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowchic/1.40.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowchic/1.44.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowchic/1.44.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

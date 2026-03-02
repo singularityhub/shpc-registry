@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqcovarimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqcovarimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqcovarimpute/container.yaml"
-updated_at: "2026-03-01 04:48:26.663269"
-latest: "1.4.0--r44hdfd78af_0"
+updated_at: "2026-03-02 04:40:21.146177"
+latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqcovarimpute"
 aliases:
  - "pcre2posix_test"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.0.2--r43hdfd78af_0"
  - "1.4.0--r44hdfd78af_0"
+ - "1.8.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-rnaseqcovarimpute"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqcovarimpute", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rnaseqcovarimpute", "latest": {"1.4.0--r44hdfd78af_0": "sha256:274946c46e03844309b7deaa089b46e985a3ef4b1227a9e7e1d7dadfad3d3e6b"}, "tags": {"1.0.2--r43hdfd78af_0": "sha256:829eb535d62afa5ad195c189c27d0a750bf9608d16f4c1436b67706a83184cd0", "1.4.0--r44hdfd78af_0": "sha256:274946c46e03844309b7deaa089b46e985a3ef4b1227a9e7e1d7dadfad3d3e6b"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqcovarimpute", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqcovarimpute", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rnaseqcovarimpute", "latest": {"1.8.0--r45hdfd78af_0": "sha256:3d0bdad68873fe4754d112da79b43a18d77df2635279d2a2c1dc1ad5e29ea8fa"}, "tags": {"1.0.2--r43hdfd78af_0": "sha256:829eb535d62afa5ad195c189c27d0a750bf9608d16f4c1436b67706a83184cd0", "1.4.0--r44hdfd78af_0": "sha256:274946c46e03844309b7deaa089b46e985a3ef4b1227a9e7e1d7dadfad3d3e6b", "1.8.0--r45hdfd78af_0": "sha256:3d0bdad68873fe4754d112da79b43a18d77df2635279d2a2c1dc1ad5e29ea8fa"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqcovarimpute", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaseqcovarimpute.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnaseqcovarimpute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnaseqcovarimpute:1.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnaseqcovarimpute:1.8.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnaseqcovarimpute/1.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnaseqcovarimpute/1.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnaseqcovarimpute/1.8.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnaseqcovarimpute/1.8.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

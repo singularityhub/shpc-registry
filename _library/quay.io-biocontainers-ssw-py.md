@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ssw-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssw-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ssw-py/container.yaml"
-updated_at: "2026-03-01 04:57:45.248261"
+updated_at: "2026-03-02 04:49:56.470655"
 latest: "1.0.1--py310h7c10099_0"
 container_url: "https://biocontainers.pro/tools/ssw-py"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.0.1--py310h7c10099_0"
+ - "1.0.1--py313h8c92656_0"
 description: "singularity registry hpc automated addition for ssw-py"
-config: {"url": "https://biocontainers.pro/tools/ssw-py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ssw-py", "latest": {"1.0.1--py310h7c10099_0": "sha256:517e0d8b8cae745d68cf1e9f72d7fad2ce896f38ca9da394019da60719484be9"}, "tags": {"1.0.1--py310h7c10099_0": "sha256:517e0d8b8cae745d68cf1e9f72d7fad2ce896f38ca9da394019da60719484be9"}, "docker": "quay.io/biocontainers/ssw-py", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/ssw-py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ssw-py", "latest": {"1.0.1--py310h7c10099_0": "sha256:517e0d8b8cae745d68cf1e9f72d7fad2ce896f38ca9da394019da60719484be9"}, "tags": {"1.0.1--py310h7c10099_0": "sha256:517e0d8b8cae745d68cf1e9f72d7fad2ce896f38ca9da394019da60719484be9", "1.0.1--py313h8c92656_0": "sha256:8b836c6bc942e84f5b3d16f8e8ada8d95caf4f05e462f308d3cbdf127c2640f0"}, "docker": "quay.io/biocontainers/ssw-py", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ssw-py.

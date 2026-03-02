@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iscc-sum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iscc-sum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iscc-sum/container.yaml"
-updated_at: "2026-03-01 04:50:47.720440"
+updated_at: "2026-03-02 04:42:46.966983"
 latest: "0.1.0--py314hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/iscc-sum"
 aliases:
