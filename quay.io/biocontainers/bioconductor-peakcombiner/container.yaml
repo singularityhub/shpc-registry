@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-peakcombiner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-peakcombiner
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:c1ebd99fd4db4f4f59b2a4f8f13c12e4a02d17504e15b10861c5a7ef11fb6684
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:c1ebd99fd4db4f4f59b2a4f8f13c12e4a02d17504e15b10861c5a7ef11fb6684
+docker: quay.io/biocontainers/bioconductor-peakcombiner
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

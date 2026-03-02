@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/atol-reference-data-lookups
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  atol-reference-data-lookups
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:fdf9c8edb45759bf7a7a045665a8772d5f9a562590a465d18cc8b173f3ff28c2
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:fdf9c8edb45759bf7a7a045665a8772d5f9a562590a465d18cc8b173f3ff28c2
+docker: quay.io/biocontainers/atol-reference-data-lookups
+aliases:
+  atol-reference-data-lookups: /usr/local/bin/atol-reference-data-lookups
+  get-remote-files: /usr/local/bin/get-remote-files
+  phc: /usr/local/bin/phc
+  eido: /usr/local/bin/eido
+  biom: /usr/local/bin/biom
+  typer: /usr/local/bin/typer
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  h5fuse: /usr/local/bin/h5fuse
+  yte: /usr/local/bin/yte
+  coloredlogs: /usr/local/bin/coloredlogs
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  snakemake: /usr/local/bin/snakemake
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  markdown-it: /usr/local/bin/markdown-it
+  humanfriendly: /usr/local/bin/humanfriendly
+  jupyter-trust: /usr/local/bin/jupyter-trust

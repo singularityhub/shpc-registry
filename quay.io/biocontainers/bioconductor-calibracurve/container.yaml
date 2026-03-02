@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-calibracurve
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-calibracurve
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:6209e0977c06cccbcb7423cc3952e6bdcffa7c81ae098525410b28262dc487b1
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:6209e0977c06cccbcb7423cc3952e6bdcffa7c81ae098525410b28262dc487b1
+docker: quay.io/biocontainers/bioconductor-calibracurve
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

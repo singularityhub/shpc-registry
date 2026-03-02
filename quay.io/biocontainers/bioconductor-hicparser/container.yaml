@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-hicparser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-hicparser
+latest:
+  1.2.0--r45ha27e39d_0: 
+    sha256:4f8b6ff12102ef6527a0b1a02a79c056bb83a6216b829f8f5fba37d39e8a8c1d
+tags:
+  1.2.0--r45ha27e39d_0: 
+    sha256:4f8b6ff12102ef6527a0b1a02a79c056bb83a6216b829f8f5fba37d39e8a8c1d
+docker: quay.io/biocontainers/bioconductor-hicparser
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

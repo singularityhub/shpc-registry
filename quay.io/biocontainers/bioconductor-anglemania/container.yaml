@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-anglemania
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-anglemania
+latest:
+  1.0.0--r45ha27e39d_0: 
+    sha256:bb838b98acb4db5a276b55230e40224f2f0162b5bd4da566e625d305937685ae
+tags:
+  1.0.0--r45ha27e39d_0: 
+    sha256:bb838b98acb4db5a276b55230e40224f2f0162b5bd4da566e625d305937685ae
+docker: quay.io/biocontainers/bioconductor-anglemania
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

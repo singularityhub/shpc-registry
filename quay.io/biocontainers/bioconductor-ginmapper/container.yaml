@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-ginmapper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-ginmapper
+latest:
+  1.6.0--r45hdfd78af_0: 
+    sha256:dd8888ba4d70973df53dd75b12af3281348c0cba611cfe09f89f26add92d5f88
+tags:
+  1.6.0--r45hdfd78af_0: 
+    sha256:dd8888ba4d70973df53dd75b12af3281348c0cba611cfe09f89f26add92d5f88
+docker: quay.io/biocontainers/bioconductor-ginmapper
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

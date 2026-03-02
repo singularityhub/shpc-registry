@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/peptdeep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for peptdeep
+latest:
+  1.4.1--pyhdfd78af_1: 
+    sha256:4931f9ccb6302a5a89501661b8dc51439877c0b64df8c25a4f3e0ce69b87fbc2
+tags:
+  1.4.1--pyhdfd78af_1: 
+    sha256:4931f9ccb6302a5a89501661b8dc51439877c0b64df8c25a4f3e0ce69b87fbc2
+docker: quay.io/biocontainers/peptdeep
+aliases:
+  alpharaw: /usr/local/bin/alpharaw
+  alphatims: /usr/local/bin/alphatims
+  hf: /usr/local/bin/hf
+  peptdeep: /usr/local/bin/peptdeep
+  tiny-agents: /usr/local/bin/tiny-agents
+  transformers: /usr/local/bin/transformers
+  xxh3sum: /usr/local/bin/xxh3sum
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  protoc-25.3.0: /usr/local/bin/protoc-25.3.0
+  typer: /usr/local/bin/typer
+  httpx: /usr/local/bin/httpx
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum
+  convert-caffe2-to-onnx: /usr/local/bin/convert-caffe2-to-onnx
+  convert-onnx-to-caffe2: /usr/local/bin/convert-onnx-to-caffe2
+  isympy: /usr/local/bin/isympy
+  torchrun: /usr/local/bin/torchrun
+  h5fuse: /usr/local/bin/h5fuse

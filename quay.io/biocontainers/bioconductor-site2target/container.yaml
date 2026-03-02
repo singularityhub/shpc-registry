@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-site2target
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-site2target
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:fd6731699191601bf229805139701e647d371b0cfdced092a7eadab174dcd29f
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:fd6731699191601bf229805139701e647d371b0cfdced092a7eadab174dcd29f
+docker: quay.io/biocontainers/bioconductor-site2target
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

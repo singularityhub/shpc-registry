@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-findips
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-findips
+latest:
+  1.6.0--r45hdfd78af_0: 
+    sha256:02feda37134a9bdbff7d6d2abd170d6e6e9c913cfc812aa71437ad993b86898f
+tags:
+  1.6.0--r45hdfd78af_0: 
+    sha256:02feda37134a9bdbff7d6d2abd170d6e6e9c913cfc812aa71437ad993b86898f
+docker: quay.io/biocontainers/bioconductor-findips
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-deedeeexperiment
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-deedeeexperiment
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:3f27ce9b9f3e870a2535e48929d0aa0485fe439d6452fcaf25368f7036e19033
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:3f27ce9b9f3e870a2535e48929d0aa0485fe439d6452fcaf25368f7036e19033
+docker: quay.io/biocontainers/bioconductor-deedeeexperiment
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
