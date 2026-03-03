@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-grasp2db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grasp2db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grasp2db/container.yaml"
-updated_at: "2026-03-02 05:26:34.404954"
-latest: "1.1.0--r44hdfd78af_14"
+updated_at: "2026-03-03 05:06:23.189851"
+latest: "1.1.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grasp2db"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.1.0--r43hdfd78af_12"
  - "1.1.0--r43hdfd78af_13"
  - "1.1.0--r44hdfd78af_14"
+ - "1.1.1--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-grasp2db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-grasp2db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grasp2db", "latest": {"1.1.0--r44hdfd78af_14": "sha256:61db6e8bced652228f3763b492c58c5c0a476d342916ca503bcdb427d26484d9"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3", "1.1.0--r41hdfd78af_10": "sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659", "1.1.0--r42hdfd78af_11": "sha256:c7566a5280af864a124f494f2936520a0e636b8725f5340296087f205d53c506", "1.1.0--r43hdfd78af_12": "sha256:c346d3be0610a6fcd93b3acddc9e47de46766feaf87510d7e79c6022600ded3c", "1.1.0--r43hdfd78af_13": "sha256:a1e825dd87ccdc48567c298e05bc4cf33d02b8b9180d62fdf35d1ee6589c467e", "1.1.0--r44hdfd78af_14": "sha256:61db6e8bced652228f3763b492c58c5c0a476d342916ca503bcdb427d26484d9"}, "docker": "quay.io/biocontainers/bioconductor-grasp2db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-grasp2db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grasp2db", "latest": {"1.1.1--r45hdfd78af_0": "sha256:5d3ce23463782950f9022f53cf31361c9716ab78f105b8b2827e901db99dfb29"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3", "1.1.0--r41hdfd78af_10": "sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659", "1.1.0--r42hdfd78af_11": "sha256:c7566a5280af864a124f494f2936520a0e636b8725f5340296087f205d53c506", "1.1.0--r43hdfd78af_12": "sha256:c346d3be0610a6fcd93b3acddc9e47de46766feaf87510d7e79c6022600ded3c", "1.1.0--r43hdfd78af_13": "sha256:a1e825dd87ccdc48567c298e05bc4cf33d02b8b9180d62fdf35d1ee6589c467e", "1.1.0--r44hdfd78af_14": "sha256:61db6e8bced652228f3763b492c58c5c0a476d342916ca503bcdb427d26484d9", "1.1.1--r45hdfd78af_0": "sha256:5d3ce23463782950f9022f53cf31361c9716ab78f105b8b2827e901db99dfb29"}, "docker": "quay.io/biocontainers/bioconductor-grasp2db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-grasp2db.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-grasp2db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-grasp2db:1.1.0--r44hdfd78af_14
+$ shpc install quay.io/biocontainers/bioconductor-grasp2db:1.1.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-grasp2db/1.1.0--r44hdfd78af_14
-$ module help quay.io/biocontainers/bioconductor-grasp2db/1.1.0--r44hdfd78af_14
+$ module load quay.io/biocontainers/bioconductor-grasp2db/1.1.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-grasp2db/1.1.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

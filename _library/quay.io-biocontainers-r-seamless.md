@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-seamless"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seamless/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seamless/container.yaml"
-updated_at: "2026-03-02 04:50:49.170807"
+updated_at: "2026-03-03 04:30:23.417020"
 latest: "0.1.1--r44h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-seamless"
 

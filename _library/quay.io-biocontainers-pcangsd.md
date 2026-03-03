@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pcangsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcangsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcangsd/container.yaml"
-updated_at: "2026-03-02 05:28:55.510411"
-latest: "1.36.4--py310h8ea774a_0"
+updated_at: "2026-03-03 05:08:45.312371"
+latest: "1.36.4--py313h5d164f8_1"
 container_url: "https://biocontainers.pro/tools/pcangsd"
 aliases:
  - "pcangsd"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "1.36.4--py310h8ea774a_0"
  - "1.36.4--py311h8ddd9a4_0"
+ - "1.36.4--py313h5d164f8_1"
 description: "singularity registry hpc automated addition for pcangsd"
-config: {"url": "https://biocontainers.pro/tools/pcangsd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcangsd", "latest": {"1.36.4--py310h8ea774a_0": "sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745"}, "tags": {"1.36.4--py310h8ea774a_0": "sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745", "1.36.4--py311h8ddd9a4_0": "sha256:1e284c6aa693c620bc7fd26ac6ba2e56313c6355abedcdd348e9a0b09392a92d"}, "docker": "quay.io/biocontainers/pcangsd", "aliases": {"pcangsd": "/usr/local/bin/pcangsd", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pcangsd", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pcangsd", "latest": {"1.36.4--py313h5d164f8_1": "sha256:7ceb404b263bb19eead238afebbdee29b7f8bf9ec5898984243be32735c946d1"}, "tags": {"1.36.4--py310h8ea774a_0": "sha256:eb67596fe1742b8cf0dc8d62501242375f9d2793b8010218af8ba0938ad69745", "1.36.4--py311h8ddd9a4_0": "sha256:1e284c6aa693c620bc7fd26ac6ba2e56313c6355abedcdd348e9a0b09392a92d", "1.36.4--py313h5d164f8_1": "sha256:7ceb404b263bb19eead238afebbdee29b7f8bf9ec5898984243be32735c946d1"}, "docker": "quay.io/biocontainers/pcangsd", "aliases": {"pcangsd": "/usr/local/bin/pcangsd", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pcangsd.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/pcangsd
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pcangsd:1.36.4--py310h8ea774a_0
+$ shpc install quay.io/biocontainers/pcangsd:1.36.4--py313h5d164f8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pcangsd/1.36.4--py310h8ea774a_0
-$ module help quay.io/biocontainers/pcangsd/1.36.4--py310h8ea774a_0
+$ module load quay.io/biocontainers/pcangsd/1.36.4--py313h5d164f8_1
+$ module help quay.io/biocontainers/pcangsd/1.36.4--py313h5d164f8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

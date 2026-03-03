@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orforise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orforise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orforise/container.yaml"
-updated_at: "2026-03-02 05:12:52.058468"
+updated_at: "2026-03-03 04:52:51.613713"
 latest: "1.6.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orforise"
 aliases:
@@ -30,7 +30,7 @@ aliases:
 versions:
  - "1.6.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for orforise"
-config: {"url": "https://biocontainers.pro/tools/orforise", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orforise", "latest": {"1.6.6--pyhdfd78af_0": "sha256:55772faf8835e9f8dac547559716aa27ed7631000793e2623e5360d87fa0d4c7"}, "tags": {"1.6.6--pyhdfd78af_0": "sha256:55772faf8835e9f8dac547559716aa27ed7631000793e2623e5360d87fa0d4c7"}, "docker": "quay.io/biocontainers/orforise", "aliases": {"Aggregate-Compare": "/usr/local/bin/Aggregate-Compare", "Annotation-Compare": "/usr/local/bin/Annotation-Compare", "Annotation-Intersector": "/usr/local/bin/Annotation-Intersector", "Convert-To-GFF": "/usr/local/bin/Convert-To-GFF", "GFF-Adder": "/usr/local/bin/GFF-Adder", "List-Tools": "/usr/local/bin/List-Tools", "StORForise": "/usr/local/bin/StORForise", "aggregate-compare": "/usr/local/bin/aggregate-compare", "annotation-compare": "/usr/local/bin/annotation-compare", "annotation-intersector": "/usr/local/bin/annotation-intersector", "convert-to-gff": "/usr/local/bin/convert-to-gff", "gff-adder": "/usr/local/bin/gff-adder", "list-tools": "/usr/local/bin/list-tools", "storforise": "/usr/local/bin/storforise", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/orforise", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orforise", "latest": {"1.6.6--pyhdfd78af_0": "sha256:dab9aa067941204418dd4a671f922cfee9bdb448256b946e12c8869fb7edde2f"}, "tags": {"1.6.6--pyhdfd78af_0": "sha256:dab9aa067941204418dd4a671f922cfee9bdb448256b946e12c8869fb7edde2f"}, "docker": "quay.io/biocontainers/orforise", "aliases": {"Aggregate-Compare": "/usr/local/bin/Aggregate-Compare", "Annotation-Compare": "/usr/local/bin/Annotation-Compare", "Annotation-Intersector": "/usr/local/bin/Annotation-Intersector", "Convert-To-GFF": "/usr/local/bin/Convert-To-GFF", "GFF-Adder": "/usr/local/bin/GFF-Adder", "List-Tools": "/usr/local/bin/List-Tools", "StORForise": "/usr/local/bin/StORForise", "aggregate-compare": "/usr/local/bin/aggregate-compare", "annotation-compare": "/usr/local/bin/annotation-compare", "annotation-intersector": "/usr/local/bin/annotation-intersector", "convert-to-gff": "/usr/local/bin/convert-to-gff", "gff-adder": "/usr/local/bin/gff-adder", "list-tools": "/usr/local/bin/list-tools", "storforise": "/usr/local/bin/storforise", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orforise.

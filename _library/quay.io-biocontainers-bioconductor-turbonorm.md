@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-turbonorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-turbonorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-turbonorm/container.yaml"
-updated_at: "2026-03-02 04:49:23.972695"
+updated_at: "2026-03-03 04:28:54.208705"
 latest: "1.54.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-turbonorm"
 

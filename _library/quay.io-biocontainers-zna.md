@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zna/container.yaml"
-updated_at: "2026-03-02 05:07:49.144353"
+updated_at: "2026-03-03 04:47:54.823285"
 latest: "0.1.8--py310hbcdfcc8_0"
 container_url: "https://biocontainers.pro/tools/zna"
 aliases:

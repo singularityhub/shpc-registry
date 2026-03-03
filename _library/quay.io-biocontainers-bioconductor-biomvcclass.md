@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-biomvcclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biomvcclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biomvcclass/container.yaml"
-updated_at: "2026-03-02 05:03:57.784854"
-latest: "1.74.0--r44hdfd78af_0"
+updated_at: "2026-03-03 04:44:06.480865"
+latest: "1.78.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biomvcclass"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.68.0--r43hdfd78af_0"
  - "1.70.0--r43hdfd78af_0"
  - "1.74.0--r44hdfd78af_0"
+ - "1.78.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biomvcclass"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biomvcclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biomvcclass", "latest": {"1.74.0--r44hdfd78af_0": "sha256:fa3cbda2b15fb85ae2cd43284d4072a9e653591b8e3575177e831b37930cf96c"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:426881bda542ea1753f45173d9641091dd30c29889b7c7ec688d7b83e7d32ea5", "1.66.0--r42hdfd78af_0": "sha256:d6ba934786aefc0bc6a6816cccf3cf22528a08ad7edfdc78383e6f98078ea865", "1.68.0--r43hdfd78af_0": "sha256:6b262eb97b1716e29cfc2a93dec87967d682edab49427409944f31e3d601e4cb", "1.70.0--r43hdfd78af_0": "sha256:94207b4d4e0c0545d8cac7cb8354586f9a8253c93c27081d2974ca1b0b5419bf", "1.74.0--r44hdfd78af_0": "sha256:fa3cbda2b15fb85ae2cd43284d4072a9e653591b8e3575177e831b37930cf96c"}, "docker": "quay.io/biocontainers/bioconductor-biomvcclass"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biomvcclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biomvcclass", "latest": {"1.78.0--r45hdfd78af_0": "sha256:8c548cf1fd2d8cde48509b876e63faf380f0f847f8ef7682f8a91068df3ed5ec"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:426881bda542ea1753f45173d9641091dd30c29889b7c7ec688d7b83e7d32ea5", "1.66.0--r42hdfd78af_0": "sha256:d6ba934786aefc0bc6a6816cccf3cf22528a08ad7edfdc78383e6f98078ea865", "1.68.0--r43hdfd78af_0": "sha256:6b262eb97b1716e29cfc2a93dec87967d682edab49427409944f31e3d601e4cb", "1.70.0--r43hdfd78af_0": "sha256:94207b4d4e0c0545d8cac7cb8354586f9a8253c93c27081d2974ca1b0b5419bf", "1.74.0--r44hdfd78af_0": "sha256:fa3cbda2b15fb85ae2cd43284d4072a9e653591b8e3575177e831b37930cf96c", "1.78.0--r45hdfd78af_0": "sha256:8c548cf1fd2d8cde48509b876e63faf380f0f847f8ef7682f8a91068df3ed5ec"}, "docker": "quay.io/biocontainers/bioconductor-biomvcclass"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biomvcclass.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biomvcclass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biomvcclass:1.74.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biomvcclass:1.78.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biomvcclass/1.74.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biomvcclass/1.74.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biomvcclass/1.78.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biomvcclass/1.78.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

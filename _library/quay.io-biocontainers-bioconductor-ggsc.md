@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ggsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggsc/container.yaml"
-updated_at: "2026-03-02 05:29:00.523337"
-latest: "1.4.0--r44he5774e6_0"
+updated_at: "2026-03-03 05:08:50.421523"
+latest: "1.8.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggsc"
 aliases:
  - "pcre2posix_test"
@@ -30,8 +30,9 @@ aliases:
 versions:
  - "1.0.2--r43hf17093f_0"
  - "1.4.0--r44he5774e6_0"
+ - "1.8.0--r45ha27e39d_0"
 description: "singularity registry hpc automated addition for bioconductor-ggsc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggsc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ggsc", "latest": {"1.4.0--r44he5774e6_0": "sha256:f3593aedd0fe896ac97e1507a13f643ff1005c236cf14e996f691e0d75b20261"}, "tags": {"1.0.2--r43hf17093f_0": "sha256:94abfe7023e7f7439cc421299d10efa61ea95288aeb6685dc2e536addf8e0ef0", "1.4.0--r44he5774e6_0": "sha256:f3593aedd0fe896ac97e1507a13f643ff1005c236cf14e996f691e0d75b20261"}, "docker": "quay.io/biocontainers/bioconductor-ggsc", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggsc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ggsc", "latest": {"1.8.0--r45ha27e39d_0": "sha256:8c893c7d1bc68693e3b66dd9f1418c7482c12645d459b759778eaab66f20e202"}, "tags": {"1.0.2--r43hf17093f_0": "sha256:94abfe7023e7f7439cc421299d10efa61ea95288aeb6685dc2e536addf8e0ef0", "1.4.0--r44he5774e6_0": "sha256:f3593aedd0fe896ac97e1507a13f643ff1005c236cf14e996f691e0d75b20261", "1.8.0--r45ha27e39d_0": "sha256:8c893c7d1bc68693e3b66dd9f1418c7482c12645d459b759778eaab66f20e202"}, "docker": "quay.io/biocontainers/bioconductor-ggsc", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggsc.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ggsc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ggsc:1.4.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-ggsc:1.8.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ggsc/1.4.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-ggsc/1.4.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-ggsc/1.8.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-ggsc/1.8.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-midashla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-midashla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-midashla/container.yaml"
-updated_at: "2026-03-02 04:47:26.836790"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-03-03 04:26:53.742270"
+latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-midashla"
 aliases:
  - "pandoc"
@@ -15,8 +15,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-midashla"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-midashla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-midashla", "latest": {"1.14.0--r44hdfd78af_0": "sha256:126a3d3dd1c9c26da21bac20419f7e6e521611e133890f0801851affd0f07475"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:bb09bba92e2f7ff0d0f569626d6b9f4144c9fa26efa1e7a5216385606e61566a", "1.6.0--r42hdfd78af_0": "sha256:ac5fe44e45fd1e99c7d77f85a6abe61110cb01fcd13b3555c1ef0727785cedfe", "1.8.0--r43hdfd78af_0": "sha256:69e2beb8657623077c2fc532cc78c4365f06430d006293407609edb8efc7566f", "1.10.0--r43hdfd78af_0": "sha256:04b310ebe5396900d89ebd8e06e5c69534ae28f1611a0041bf23b35ca79db8b9", "1.14.0--r44hdfd78af_0": "sha256:126a3d3dd1c9c26da21bac20419f7e6e521611e133890f0801851affd0f07475"}, "docker": "quay.io/biocontainers/bioconductor-midashla", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-midashla", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-midashla", "latest": {"1.18.0--r45hdfd78af_0": "sha256:659881ec32b6ffbd15d0914c3a604673e7ba56fe0b97acc7bd1187719b3a1918"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:bb09bba92e2f7ff0d0f569626d6b9f4144c9fa26efa1e7a5216385606e61566a", "1.6.0--r42hdfd78af_0": "sha256:ac5fe44e45fd1e99c7d77f85a6abe61110cb01fcd13b3555c1ef0727785cedfe", "1.8.0--r43hdfd78af_0": "sha256:69e2beb8657623077c2fc532cc78c4365f06430d006293407609edb8efc7566f", "1.10.0--r43hdfd78af_0": "sha256:04b310ebe5396900d89ebd8e06e5c69534ae28f1611a0041bf23b35ca79db8b9", "1.14.0--r44hdfd78af_0": "sha256:126a3d3dd1c9c26da21bac20419f7e6e521611e133890f0801851affd0f07475", "1.18.0--r45hdfd78af_0": "sha256:659881ec32b6ffbd15d0914c3a604673e7ba56fe0b97acc7bd1187719b3a1918"}, "docker": "quay.io/biocontainers/bioconductor-midashla", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-midashla.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-midashla
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-midashla:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-midashla:1.18.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-midashla/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-midashla/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-midashla/1.18.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-midashla/1.18.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

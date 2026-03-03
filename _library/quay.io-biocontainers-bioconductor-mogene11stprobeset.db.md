@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mogene11stprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mogene11stprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mogene11stprobeset.db/container.yaml"
-updated_at: "2026-03-02 04:46:09.655788"
-latest: "8.8.0--r44hdfd78af_5"
+updated_at: "2026-03-03 04:25:34.740698"
+latest: "8.8.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-mogene11stprobeset.db"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "8.8.0--r43hdfd78af_3"
  - "8.8.0--r43hdfd78af_4"
  - "8.8.0--r44hdfd78af_5"
+ - "8.8.0--r45hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for bioconductor-mogene11stprobeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mogene11stprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mogene11stprobeset.db", "latest": {"8.8.0--r44hdfd78af_5": "sha256:e1b49bf05a3aae6a80bbf69b1eb72862ad17c0e3521129de200982d010efd4e5"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:81fa451799b76a73b5e0dc4bccb39809e7fa03cd97c6686f9c49ebd7b2d5b230", "8.8.0--r42hdfd78af_2": "sha256:223f2edd1a819e95748e0a68278f7598abbc8c448f645941ba5f66bac7772f8a", "8.8.0--r43hdfd78af_3": "sha256:b6e2ad8420f90054db513f6743e6a43edc209c27dd851f4cc717784aa1ffc358", "8.8.0--r43hdfd78af_4": "sha256:2e957a96fed3723910fef9514e4ba394924cae3cffb28dc9c4176169a868da65", "8.8.0--r44hdfd78af_5": "sha256:e1b49bf05a3aae6a80bbf69b1eb72862ad17c0e3521129de200982d010efd4e5"}, "docker": "quay.io/biocontainers/bioconductor-mogene11stprobeset.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mogene11stprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mogene11stprobeset.db", "latest": {"8.8.0--r45hdfd78af_6": "sha256:edff13a57a14b3abf266f296c37b3b24bf71e11e8543b70659b5a97610d31a99"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:81fa451799b76a73b5e0dc4bccb39809e7fa03cd97c6686f9c49ebd7b2d5b230", "8.8.0--r42hdfd78af_2": "sha256:223f2edd1a819e95748e0a68278f7598abbc8c448f645941ba5f66bac7772f8a", "8.8.0--r43hdfd78af_3": "sha256:b6e2ad8420f90054db513f6743e6a43edc209c27dd851f4cc717784aa1ffc358", "8.8.0--r43hdfd78af_4": "sha256:2e957a96fed3723910fef9514e4ba394924cae3cffb28dc9c4176169a868da65", "8.8.0--r44hdfd78af_5": "sha256:e1b49bf05a3aae6a80bbf69b1eb72862ad17c0e3521129de200982d010efd4e5", "8.8.0--r45hdfd78af_6": "sha256:edff13a57a14b3abf266f296c37b3b24bf71e11e8543b70659b5a97610d31a99"}, "docker": "quay.io/biocontainers/bioconductor-mogene11stprobeset.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mogene11stprobeset.db.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mogene11stprobeset.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mogene11stprobeset.db:8.8.0--r44hdfd78af_5
+$ shpc install quay.io/biocontainers/bioconductor-mogene11stprobeset.db:8.8.0--r45hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mogene11stprobeset.db/8.8.0--r44hdfd78af_5
-$ module help quay.io/biocontainers/bioconductor-mogene11stprobeset.db/8.8.0--r44hdfd78af_5
+$ module load quay.io/biocontainers/bioconductor-mogene11stprobeset.db/8.8.0--r45hdfd78af_6
+$ module help quay.io/biocontainers/bioconductor-mogene11stprobeset.db/8.8.0--r45hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

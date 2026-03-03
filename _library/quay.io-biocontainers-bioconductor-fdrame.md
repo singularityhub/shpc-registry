@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fdrame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdrame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdrame/container.yaml"
-updated_at: "2026-03-02 05:04:55.381968"
-latest: "1.78.0--r44h3df3fcb_0"
+updated_at: "2026-03-03 04:45:03.483810"
+latest: "1.82.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdrame"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.72.0--r43ha9d7317_1"
  - "1.74.0--r43ha9d7317_1"
  - "1.78.0--r44h3df3fcb_0"
+ - "1.82.0--r45h01b2380_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fdrame"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fdrame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdrame", "latest": {"1.78.0--r44h3df3fcb_0": "sha256:3d0e844ae0b0a819e604871e3376e73bbd666dcfcf529f441c7bcefbf8a898d1"}, "tags": {"1.66.0--r41hc0cfd56_2": "sha256:d794d14fe3eb4ffb17e694ce1c96f9758a4fe0628a2b4afb37b31e9347a75a80", "1.70.0--r42hc0cfd56_0": "sha256:605530d62f299f7038896709cf76176daf031cb31348264c76455bd4b5796f07", "1.70.0--r42ha9d7317_2": "sha256:ffa3d02bb29fcfb3132a68c730f59c9a51082dc1d42d23fef13f16aca2229ade", "1.72.0--r43ha9d7317_1": "sha256:78e7ff30c2851b4bc4f1b122b83f8cfaf50378f6f12fdad5a0d390ef62cf4a87", "1.74.0--r43ha9d7317_1": "sha256:0bf58c0a1e848cce461e6dc619a09db13c7d580137f17ab2258631984180f9dd", "1.78.0--r44h3df3fcb_0": "sha256:3d0e844ae0b0a819e604871e3376e73bbd666dcfcf529f441c7bcefbf8a898d1"}, "docker": "quay.io/biocontainers/bioconductor-fdrame"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fdrame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdrame", "latest": {"1.82.0--r45h01b2380_0": "sha256:02f8c7175b9612dec13164c5d67e1c7072eb2e44818e163d6cb8fd02353ef722"}, "tags": {"1.66.0--r41hc0cfd56_2": "sha256:d794d14fe3eb4ffb17e694ce1c96f9758a4fe0628a2b4afb37b31e9347a75a80", "1.70.0--r42hc0cfd56_0": "sha256:605530d62f299f7038896709cf76176daf031cb31348264c76455bd4b5796f07", "1.70.0--r42ha9d7317_2": "sha256:ffa3d02bb29fcfb3132a68c730f59c9a51082dc1d42d23fef13f16aca2229ade", "1.72.0--r43ha9d7317_1": "sha256:78e7ff30c2851b4bc4f1b122b83f8cfaf50378f6f12fdad5a0d390ef62cf4a87", "1.74.0--r43ha9d7317_1": "sha256:0bf58c0a1e848cce461e6dc619a09db13c7d580137f17ab2258631984180f9dd", "1.78.0--r44h3df3fcb_0": "sha256:3d0e844ae0b0a819e604871e3376e73bbd666dcfcf529f441c7bcefbf8a898d1", "1.82.0--r45h01b2380_0": "sha256:02f8c7175b9612dec13164c5d67e1c7072eb2e44818e163d6cb8fd02353ef722"}, "docker": "quay.io/biocontainers/bioconductor-fdrame"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fdrame.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fdrame
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fdrame:1.78.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-fdrame:1.82.0--r45h01b2380_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fdrame/1.78.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-fdrame/1.78.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-fdrame/1.82.0--r45h01b2380_0
+$ module help quay.io/biocontainers/bioconductor-fdrame/1.82.0--r45h01b2380_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

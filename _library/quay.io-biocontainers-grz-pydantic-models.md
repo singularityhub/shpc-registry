@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grz-pydantic-models"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-pydantic-models/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-pydantic-models/container.yaml"
-updated_at: "2026-03-02 05:25:21.988572"
+updated_at: "2026-03-03 05:05:09.627127"
 latest: "2.5.0--pyh0648b3f_0"
 container_url: "https://biocontainers.pro/tools/grz-pydantic-models"
 aliases:

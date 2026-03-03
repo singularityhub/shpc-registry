@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpbp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpbp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpbp/container.yaml"
-updated_at: "2026-03-02 05:11:01.625438"
+updated_at: "2026-03-03 04:51:05.370183"
 latest: "4.0.1--py311he264feb_0"
 container_url: "https://biocontainers.pro/tools/rpbp"
 aliases:
