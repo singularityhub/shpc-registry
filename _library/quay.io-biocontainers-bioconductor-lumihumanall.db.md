@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lumihumanall.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumihumanall.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumihumanall.db/container.yaml"
-updated_at: "2026-03-05 04:40:33.166093"
+updated_at: "2026-03-05 04:58:40.356688"
 latest: "1.22.0--r44hdfd78af_16"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumihumanall.db"
 aliases:

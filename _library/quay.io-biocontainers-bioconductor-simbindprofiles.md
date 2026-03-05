@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simbindprofiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simbindprofiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simbindprofiles/container.yaml"
-updated_at: "2026-03-05 04:30:11.557914"
+updated_at: "2026-03-05 04:48:19.069752"
 latest: "1.40.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simbindprofiles"
 

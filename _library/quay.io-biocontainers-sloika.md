@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sloika"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sloika/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sloika/container.yaml"
-updated_at: "2026-03-05 04:55:27.072771"
+updated_at: "2026-03-05 05:13:39.840284"
 latest: "2.0.1--np112_0"
 container_url: "https://biocontainers.pro/tools/sloika"
 aliases:
