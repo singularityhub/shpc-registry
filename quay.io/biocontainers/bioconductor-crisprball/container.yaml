@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bioconductor-crisprball
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-crisprball
+latest:
+  1.6.0--r45hdfd78af_0: 
+    sha256:2ae03f3362613e75ecc4cf6c70ff2f61b5d8ae76435e85549c111787e43da6d0
+tags:
+  1.6.0--r45hdfd78af_0: 
+    sha256:2ae03f3362613e75ecc4cf6c70ff2f61b5d8ae76435e85549c111787e43da6d0
+docker: quay.io/biocontainers/bioconductor-crisprball
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/pretextannotate
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pretextannotate
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:d3fc8ec321c002decbdf84912a8ed8a65a690da40de9cfd50226fe68b686d2a8
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:d3fc8ec321c002decbdf84912a8ed8a65a690da40de9cfd50226fe68b686d2a8
+docker: quay.io/biocontainers/pretextannotate
+aliases:
+  pretextannotate: /usr/local/bin/pretextannotate
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
+  tjbench: /usr/local/bin/tjbench

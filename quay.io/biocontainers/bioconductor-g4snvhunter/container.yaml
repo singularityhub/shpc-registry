@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-g4snvhunter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-g4snvhunter
+latest:
+  1.2.0--r45ha27e39d_0: 
+    sha256:e1a79d6c79510dd475fa23803907c519794ca7367d2d12751836069bd0af7692
+tags:
+  1.2.0--r45ha27e39d_0: 
+    sha256:e1a79d6c79510dd475fa23803907c519794ca7367d2d12751836069bd0af7692
+docker: quay.io/biocontainers/bioconductor-g4snvhunter
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

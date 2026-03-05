@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/bioconductor-geometrid
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-geometrid
+latest:
+  1.4.1--r45h575d39b_0: 
+    sha256:496b4c5fbc02730e5b11551ee940be3e295ad692a952bb3827b3348942558bd7
+tags:
+  1.4.1--r45h575d39b_0: 
+    sha256:496b4c5fbc02730e5b11551ee940be3e295ad692a952bb3827b3348942558bd7
+docker: quay.io/biocontainers/bioconductor-geometrid
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

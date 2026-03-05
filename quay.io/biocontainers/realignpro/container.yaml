@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/realignpro
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for realignpro
+latest:
+  0.1.1--pyh106432d_0: 
+    sha256:77dcf96110d1333324c9c1b3f3e24b631daf59db7717fc8982e430d2e843befd
+tags:
+  0.1.1--pyh106432d_0: 
+    sha256:77dcf96110d1333324c9c1b3f3e24b631daf59db7717fc8982e430d2e843befd
+docker: quay.io/biocontainers/realignpro
+aliases:
+  lastz_32: /usr/local/bin/lastz_32
+  lastz_40: /usr/local/bin/lastz_40
+  realignpro: /usr/local/bin/realignpro
+  lastz: /usr/local/bin/lastz
+  lastz_D: /usr/local/bin/lastz_D
+  ref-cache: /usr/local/bin/ref-cache
+  muscle: /usr/local/bin/muscle
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  annot-tsv: /usr/local/bin/annot-tsv
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  numpy-config: /usr/local/bin/numpy-config
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short

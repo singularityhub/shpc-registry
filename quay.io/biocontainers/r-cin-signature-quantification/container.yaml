@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/r-cin-signature-quantification
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  r-cin-signature-quantification
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:6089918f2906d8c329a7d2a7cc63e141cc4c2299c02181ef8637537602016ac2
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:6089918f2906d8c329a7d2a7cc63e141cc4c2299c02181ef8637537602016ac2
+docker: quay.io/biocontainers/r-cin-signature-quantification
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

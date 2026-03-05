@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-bioc.gff
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-bioc.gff
+latest:
+  1.0.0--r45h01b2380_0: 
+    sha256:e0803cc12c73f9d17a40a6f86b9627d1747197b0d69c6c2386f51ad8ece4aafc
+tags:
+  1.0.0--r45h01b2380_0: 
+    sha256:e0803cc12c73f9d17a40a6f86b9627d1747197b0d69c6c2386f51ad8ece4aafc
+docker: quay.io/biocontainers/bioconductor-bioc.gff
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

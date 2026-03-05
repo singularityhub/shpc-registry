@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bioconductor-coralysis
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-coralysis
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:5dc0be9642f4b0d37cf11d564ac2972cd0ee34caaf387600f6a759ab3414f0ad
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:5dc0be9642f4b0d37cf11d564ac2972cd0ee34caaf387600f6a759ab3414f0ad
+docker: quay.io/biocontainers/bioconductor-coralysis
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

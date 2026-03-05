@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-batchsvg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-batchsvg
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:ebc85fc3619841d58ef42b208cae88821772844e22a345212121fd49d0d89311
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:ebc85fc3619841d58ef42b208cae88821772844e22a345212121fd49d0d89311
+docker: quay.io/biocontainers/bioconductor-batchsvg
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

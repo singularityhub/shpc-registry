@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/cellitac
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cellitac
+latest:
+  1.0.4--pyhdfd78af_0: 
+    sha256:deee6a17b13c6c907c4bb20af1514b9bcd4ab0d475fc0b464ba86412bbaacf04
+tags:
+  1.0.4--pyhdfd78af_0: 
+    sha256:deee6a17b13c6c907c4bb20af1514b9bcd4ab0d475fc0b464ba86412bbaacf04
+docker: quay.io/biocontainers/cellitac
+aliases:
+  cellitac: /usr/local/bin/cellitac
+  cellitac-model: /usr/local/bin/cellitac-model
+  cellitac-preprocess: /usr/local/bin/cellitac-preprocess
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  h5fuse: /usr/local/bin/h5fuse
+  pandoc-server: /usr/local/bin/pandoc-server
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  h5delete: /usr/local/bin/h5delete
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
