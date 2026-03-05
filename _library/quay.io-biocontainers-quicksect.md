@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quicksect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quicksect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quicksect/container.yaml"
-updated_at: "2026-03-04 04:46:06.593377"
+updated_at: "2026-03-05 00:46:04.561555"
 latest: "0.2.2--py312h0fa9677_11"
 container_url: "https://biocontainers.pro/tools/quicksect"
 aliases:

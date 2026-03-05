@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xtropicalisprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xtropicalisprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xtropicalisprobe/container.yaml"
-updated_at: "2026-03-04 04:18:13.140903"
+updated_at: "2026-03-05 00:20:17.016235"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-xtropicalisprobe"
 

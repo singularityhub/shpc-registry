@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/watchdog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/watchdog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/watchdog/container.yaml"
-updated_at: "2026-03-04 04:44:31.845983"
+updated_at: "2026-03-05 00:44:42.147044"
 latest: "0.8.3--py36_0"
 container_url: "https://biocontainers.pro/tools/watchdog"
 

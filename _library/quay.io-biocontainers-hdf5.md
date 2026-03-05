@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hdf5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hdf5/container.yaml"
-updated_at: "2026-03-04 04:54:26.617443"
+updated_at: "2026-03-05 00:53:23.019531"
 latest: "1.10.4"
 container_url: "https://biocontainers.pro/tools/hdf5"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genarise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genarise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genarise/container.yaml"
-updated_at: "2026-03-04 04:54:31.236195"
+updated_at: "2026-03-05 00:53:27.352931"
 latest: "1.86.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genarise"
 

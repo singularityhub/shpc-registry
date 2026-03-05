@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngsutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsutils/container.yaml"
-updated_at: "2026-03-04 04:17:35.889581"
+updated_at: "2026-03-05 00:19:40.870065"
 latest: "0.5.9--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/ngsutils"
 aliases:

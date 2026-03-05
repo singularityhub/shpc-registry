@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-confessdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-confessdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-confessdata/container.yaml"
-updated_at: "2026-03-04 04:46:29.441423"
+updated_at: "2026-03-05 00:46:24.461042"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-confessdata"
 

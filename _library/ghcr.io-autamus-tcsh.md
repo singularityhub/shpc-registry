@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/tcsh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/tcsh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/tcsh/container.yaml"
-updated_at: "2026-03-04 04:12:32.280323"
+updated_at: "2026-03-05 00:14:45.816270"
 latest: "6.24.00"
 container_url: "https://github.com/orgs/autamus/packages/container/package/tcsh"
 aliases:

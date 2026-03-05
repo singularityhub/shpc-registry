@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-slurper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-slurper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-slurper/container.yaml"
-updated_at: "2026-03-04 04:49:02.797486"
+updated_at: "2026-03-05 00:48:39.254212"
 latest: "0.014--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-slurper"
 aliases:

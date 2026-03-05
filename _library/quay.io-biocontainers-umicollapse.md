@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/umicollapse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umicollapse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/umicollapse/container.yaml"
-updated_at: "2026-03-04 04:59:18.678887"
+updated_at: "2026-03-05 00:57:53.324656"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/umicollapse"
 aliases:
