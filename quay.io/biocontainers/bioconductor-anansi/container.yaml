@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-anansi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-anansi
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:3859e6374e1b03bb121f41fe8e238538f2e84fa18b3181b6c96972a6e9240f0e
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:3859e6374e1b03bb121f41fe8e238538f2e84fa18b3181b6c96972a6e9240f0e
+docker: quay.io/biocontainers/bioconductor-anansi
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

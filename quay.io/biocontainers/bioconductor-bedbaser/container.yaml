@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bioconductor-bedbaser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-bedbaser
+latest:
+  1.2.4--r45hdfd78af_0: 
+    sha256:ea0503fa00d931c9c7ad5a22c1425d3762ab3995b4f2bafad735eb09123f5565
+tags:
+  1.2.4--r45hdfd78af_0: 
+    sha256:ea0503fa00d931c9c7ad5a22c1425d3762ab3995b4f2bafad735eb09123f5565
+docker: quay.io/biocontainers/bioconductor-bedbaser
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

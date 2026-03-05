@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bioconductor-blase
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-blase
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:2ca02d7571c81d128814d6b26781a3f5bdfebe9a370eb864bd0671f0a4143048
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:2ca02d7571c81d128814d6b26781a3f5bdfebe9a370eb864bd0671f0a4143048
+docker: quay.io/biocontainers/bioconductor-blase
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

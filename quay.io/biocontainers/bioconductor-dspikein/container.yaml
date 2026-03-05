@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/bioconductor-dspikein
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-dspikein
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:646a2e7582a680a7003086743b73a52460187247a630e7b1393066d3bb8e8faf
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:646a2e7582a680a7003086743b73a52460187247a630e7b1393066d3bb8e8faf
+docker: quay.io/biocontainers/bioconductor-dspikein
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

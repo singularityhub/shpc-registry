@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-ccafe
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-ccafe
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:ad0a047307004eedfe049ccae079c8ad9132850ddd354b242cc21f497f798e22
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:ad0a047307004eedfe049ccae079c8ad9132850ddd354b242cc21f497f798e22
+docker: quay.io/biocontainers/bioconductor-ccafe
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

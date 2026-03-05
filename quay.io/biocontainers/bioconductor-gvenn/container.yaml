@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-gvenn
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-gvenn
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:f988685d52648230bbac40324a2dfc60d2a7ef2e6491bb5e3a39c339138e6063
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:f988685d52648230bbac40324a2dfc60d2a7ef2e6491bb5e3a39c339138e6063
+docker: quay.io/biocontainers/bioconductor-gvenn
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
