@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plothic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plothic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plothic/container.yaml"
-updated_at: "2026-03-05 01:03:42.429851"
+updated_at: "2026-03-05 05:08:23.884940"
 latest: "1.0.0--pyh5707d69_0"
 container_url: "https://biocontainers.pro/tools/plothic"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/freqsap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/freqsap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/freqsap/container.yaml"
-updated_at: "2026-03-05 00:18:23.526186"
+updated_at: "2026-03-05 04:19:45.878970"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/freqsap"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vpt-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vpt-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vpt-core/container.yaml"
-updated_at: "2026-03-05 00:54:54.439990"
+updated_at: "2026-03-05 04:58:53.877136"
 latest: "1.2.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/vpt-core"
 aliases:
