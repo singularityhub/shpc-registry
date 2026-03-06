@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epipwr.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epipwr.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epipwr.data/container.yaml"
-updated_at: "2026-03-05 04:36:54.988869"
+updated_at: "2026-03-06 04:15:30.830696"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epipwr.data"
 aliases:

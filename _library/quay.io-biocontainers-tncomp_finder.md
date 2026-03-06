@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tncomp_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tncomp_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tncomp_finder/container.yaml"
-updated_at: "2026-03-05 04:42:30.097975"
+updated_at: "2026-03-06 04:20:42.088653"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tncomp_finder"
 aliases:
