@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cosmosr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosmosr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosmosr/container.yaml"
-updated_at: "2026-03-06 04:52:36.430406"
+updated_at: "2026-03-07 04:48:14.306198"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosmosr"
 aliases:

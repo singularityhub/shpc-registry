@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ciri-full"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ciri-full/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ciri-full/container.yaml"
-updated_at: "2026-03-06 04:56:45.415591"
+updated_at: "2026-03-07 04:52:32.547489"
 latest: "2.1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ciri-full"
 aliases:

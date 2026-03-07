@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mags-visualization"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mags-visualization/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mags-visualization/container.yaml"
-updated_at: "2026-03-06 04:17:46.413683"
+updated_at: "2026-03-07 04:10:22.402447"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mags-visualization"
 aliases:

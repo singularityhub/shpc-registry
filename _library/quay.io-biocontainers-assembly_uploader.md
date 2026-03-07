@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assembly_uploader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assembly_uploader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assembly_uploader/container.yaml"
-updated_at: "2026-03-06 04:27:26.726149"
+updated_at: "2026-03-07 04:21:05.529361"
 latest: "1.3.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/assembly_uploader"
 aliases:

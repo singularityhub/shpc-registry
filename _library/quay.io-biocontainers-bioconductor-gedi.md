@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gedi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gedi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gedi/container.yaml"
-updated_at: "2026-03-06 04:29:46.383441"
+updated_at: "2026-03-07 04:23:41.271878"
 latest: "1.6.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gedi"
 aliases:
