@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-compress-raw-bzip2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-compress-raw-bzip2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-compress-raw-bzip2/container.yaml"
-updated_at: "2026-03-07 04:58:34.610291"
+updated_at: "2026-03-08 05:05:58.904188"
 latest: "2.201--pl5321h87f3376_1"
 container_url: "https://biocontainers.pro/tools/perl-compress-raw-bzip2"
 aliases:

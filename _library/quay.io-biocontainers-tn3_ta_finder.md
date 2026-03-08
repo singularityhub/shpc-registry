@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tn3_ta_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tn3_ta_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tn3_ta_finder/container.yaml"
-updated_at: "2026-03-07 04:26:07.573108"
+updated_at: "2026-03-08 04:35:15.112816"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tn3_ta_finder"
 aliases:

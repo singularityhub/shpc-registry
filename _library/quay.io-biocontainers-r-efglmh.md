@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-efglmh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-efglmh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-efglmh/container.yaml"
-updated_at: "2026-03-07 04:35:06.890349"
+updated_at: "2026-03-08 04:43:53.490805"
 latest: "0.1.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-efglmh"
 aliases:

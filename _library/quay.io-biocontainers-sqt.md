@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqt/container.yaml"
-updated_at: "2026-03-07 04:08:01.422492"
+updated_at: "2026-03-08 04:17:59.702805"
 latest: "0.8.0--py310h4b81fae_5"
 container_url: "https://biocontainers.pro/tools/sqt"
 aliases:
