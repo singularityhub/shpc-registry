@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/polyat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polyat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polyat/container.yaml"
-updated_at: "2026-03-08 04:31:28.036351"
+updated_at: "2026-03-09 04:39:55.255200"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/polyat"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-contibait"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-contibait/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-contibait/container.yaml"
-updated_at: "2026-03-08 04:59:35.655165"
+updated_at: "2026-03-09 05:07:32.229939"
 latest: "1.30.0--r43hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-contibait"
 aliases:

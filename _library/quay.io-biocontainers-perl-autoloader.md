@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-autoloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-autoloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-autoloader/container.yaml"
-updated_at: "2026-03-08 04:59:04.184975"
+updated_at: "2026-03-09 05:07:01.967114"
 latest: "5.74--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-autoloader"
 aliases:

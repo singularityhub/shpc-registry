@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplotype-lso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplotype-lso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplotype-lso/container.yaml"
-updated_at: "2026-03-08 04:51:28.034733"
+updated_at: "2026-03-09 04:59:38.794581"
 latest: "0.4.4--pyhdfd78af_4"
 container_url: "https://biocontainers.pro/tools/haplotype-lso"
 aliases:

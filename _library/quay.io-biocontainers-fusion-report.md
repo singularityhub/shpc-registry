@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fusion-report"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusion-report/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusion-report/container.yaml"
-updated_at: "2026-03-08 04:24:23.561150"
+updated_at: "2026-03-09 04:32:26.295358"
 latest: "4.0.1--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fusion-report"
 aliases:
