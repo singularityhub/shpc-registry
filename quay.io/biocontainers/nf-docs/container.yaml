@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/nf-docs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nf-docs
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:a47fd77791917cf1b35af3665f05e82800bcc7526674432596efcb1e70ff9422
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:a47fd77791917cf1b35af3665f05e82800bcc7526674432596efcb1e70ff9422
+docker: quay.io/biocontainers/nf-docs
+aliases:
+  nf-docs: /usr/local/bin/nf-docs
+  nf-docs-tailwind: /usr/local/bin/nf-docs-tailwind
+  rich-click: /usr/local/bin/rich-click
+  httpx: /usr/local/bin/httpx
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  markdown_py: /usr/local/bin/markdown_py
+  markdown-it: /usr/local/bin/markdown-it
+  pygmentize: /usr/local/bin/pygmentize

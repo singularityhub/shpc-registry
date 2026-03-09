@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-looking4clusters
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-looking4clusters
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:497bf926703f28f6d6700fde737814335bb35e63b7036079b60f8633ce3fbe5a
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:497bf926703f28f6d6700fde737814335bb35e63b7036079b60f8633ce3fbe5a
+docker: quay.io/biocontainers/bioconductor-looking4clusters
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
