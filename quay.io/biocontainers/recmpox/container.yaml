@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/recmpox
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for recmpox
 latest:
-  0.0.2--pyhdfd78af_0: 
-    sha256:d0c42b861ef150a858a932d4f97e58758897352ae1e5533273687ac2565a0b07
+  0.0.3--pyhdfd78af_0: 
+    sha256:5016a4f6ac0843fb9b86a8394a0921cddacffa68e475569b0292df3e43becf81
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:d0c42b861ef150a858a932d4f97e58758897352ae1e5533273687ac2565a0b07
+  0.0.3--pyhdfd78af_0: 
+    sha256:5016a4f6ac0843fb9b86a8394a0921cddacffa68e475569b0292df3e43becf81
 docker: quay.io/biocontainers/recmpox
 aliases:
   clade.smk: /usr/local/bin/clade.smk

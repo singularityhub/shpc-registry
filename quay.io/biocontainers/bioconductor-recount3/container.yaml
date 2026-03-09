@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-recount3
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:b5b342d9f6d9c89c359cfa866ebc6e4089e959b98ce27b06ef665c0ae6fce516
+  1.20.0--r45hdfd78af_0: 
+    sha256:2d95ec7ec75ff3bf6d754908faf37139b4cdc8e762af4c3c5cdbef51bd30c07a
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:58c52b92e30b0ee218fd79532538b92a88254e04c744d28c636137fb687685fe
@@ -16,4 +16,6 @@ tags:
     sha256:1c2a0a26acf07ce712a017b0e1826f46f8f349bf9a202f10b82d1ff3307238e2
   1.16.0--r44hdfd78af_0: 
     sha256:b5b342d9f6d9c89c359cfa866ebc6e4089e959b98ce27b06ef665c0ae6fce516
+  1.20.0--r45hdfd78af_0: 
+    sha256:2d95ec7ec75ff3bf6d754908faf37139b4cdc8e762af4c3c5cdbef51bd30c07a
 docker: quay.io/biocontainers/bioconductor-recount3

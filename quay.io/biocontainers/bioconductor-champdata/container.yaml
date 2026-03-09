@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-champdata
 latest:
-  2.38.0--r44hdfd78af_0: 
-    sha256:ee7aae5bc71e820f58c0c3fae31b2000163fe51339d5492a8b5db638fb4d689f
+  2.42.0--r45hdfd78af_0: 
+    sha256:323dd829bf2d89c552b8824d2833738ef62e4343308eeb027996d92913b9e10f
 tags:
   2.26.0--r41hdfd78af_1: 
     sha256:47517caecacd1453fb2e1861df56d87c803cf66cc1b6c2e27a542d636798d4d5
@@ -16,4 +16,6 @@ tags:
     sha256:e93522579481778c71762f5f53d79b88119e9f8ca59862074bcd7c87fe2c776e
   2.38.0--r44hdfd78af_0: 
     sha256:ee7aae5bc71e820f58c0c3fae31b2000163fe51339d5492a8b5db638fb4d689f
+  2.42.0--r45hdfd78af_0: 
+    sha256:323dd829bf2d89c552b8824d2833738ef62e4343308eeb027996d92913b9e10f
 docker: quay.io/biocontainers/bioconductor-champdata

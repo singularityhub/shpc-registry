@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tweedeseqcountdata
 latest:
-  1.38.0--r43hdfd78af_0: 
-    sha256:79b1185bddbe5ba2ebcf19ff9d10827576b2d8010d39d2507def5ee5d8f335dd
+  1.48.0--r45hdfd78af_0: 
+    sha256:03596d2ae79c54691f4167c71c4560c38ecd4525e0bd90ad43c61eb2fb2a935a
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:0a063dfb7e484d887023a4ff33b8bd38c6afcdc8b4851d4c048da779648dbf40
@@ -12,4 +12,6 @@ tags:
     sha256:d240cbf12ced94353a9d3ddf02269e5f36b1603e0875a6ec6193d59b85ef69e2
   1.38.0--r43hdfd78af_0: 
     sha256:79b1185bddbe5ba2ebcf19ff9d10827576b2d8010d39d2507def5ee5d8f335dd
+  1.48.0--r45hdfd78af_0: 
+    sha256:03596d2ae79c54691f4167c71c4560c38ecd4525e0bd90ad43c61eb2fb2a935a
 docker: quay.io/biocontainers/bioconductor-tweedeseqcountdata

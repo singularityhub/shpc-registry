@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-camutqc
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:d10df548d77b05b59b93ac7fcf7974a72834291f5d1f5cf40e6284dc273f2c2c
+  1.6.0--r45hdfd78af_0: 
+    sha256:515f2a51b668489417e7c6e4f55c02c94937b7e4ae4b5298e4e4e9b0a3c4b88a
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:d10df548d77b05b59b93ac7fcf7974a72834291f5d1f5cf40e6284dc273f2c2c
+  1.6.0--r45hdfd78af_0: 
+    sha256:515f2a51b668489417e7c6e4f55c02c94937b7e4ae4b5298e4e4e9b0a3c4b88a
 docker: quay.io/biocontainers/bioconductor-camutqc
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

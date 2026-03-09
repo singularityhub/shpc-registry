@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-hybridexpress
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:2696b47445b142afb81aba53c4037fc3ca6817505526fcefb33bfdd975e25580
+  1.6.0--r45hdfd78af_0: 
+    sha256:ba80d54622a8e5f3d5a28d648949c9d8472ddf2e1608f9ebe00540e8b037a561
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:2696b47445b142afb81aba53c4037fc3ca6817505526fcefb33bfdd975e25580
+  1.6.0--r45hdfd78af_0: 
+    sha256:ba80d54622a8e5f3d5a28d648949c9d8472ddf2e1608f9ebe00540e8b037a561
 docker: quay.io/biocontainers/bioconductor-hybridexpress
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

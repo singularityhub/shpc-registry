@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pth2o2lipids
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:eaf5faac39b17208143ef0a961c861f29445a61887eabf72df965f3e900b4744
+  1.36.0--r45hdfd78af_0: 
+    sha256:7fcd182c33074135cec48605369aab38ec5ab9c9627363918ebda5c2f1e930a3
 tags:
   1.8.0--r351_0: 
     sha256:65d736345ea83ea61ad6ac3e9a34795bb1e0ba7e33f2e72e91f101bb956b0ac9
@@ -24,6 +24,8 @@ tags:
     sha256:b4a145d809a6f9694d83ce2615dd36059618123587ba1b4e6cedf9d2ed033383
   1.32.0--r44hdfd78af_0: 
     sha256:eaf5faac39b17208143ef0a961c861f29445a61887eabf72df965f3e900b4744
+  1.36.0--r45hdfd78af_0: 
+    sha256:7fcd182c33074135cec48605369aab38ec5ab9c9627363918ebda5c2f1e930a3
 docker: quay.io/biocontainers/bioconductor-pth2o2lipids
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

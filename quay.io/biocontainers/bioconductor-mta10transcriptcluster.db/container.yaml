@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mta10transcriptcluster.db
 latest:
-  8.8.0--r44hdfd78af_5: 
-    sha256:91ac891db4aafbb57f0d973e8708c44c1f0fc8effc51247349334b3d2c373ce8
+  8.8.0--r45hdfd78af_6: 
+    sha256:89ae9d49875aa80af46e518875c8b8d7eaddbd4016940b84dbaed35946631644
 tags:
   8.8.0--r41hdfd78af_1: 
     sha256:15a68da7557976b5025c4b6b4ccc206362b7e1d91651755dbff547be8d8abbc4
@@ -16,4 +16,6 @@ tags:
     sha256:40717a0c472d52bbed51951b23a62e08353d90045bce60f3a0622f2c8dab01c5
   8.8.0--r44hdfd78af_5: 
     sha256:91ac891db4aafbb57f0d973e8708c44c1f0fc8effc51247349334b3d2c373ce8
+  8.8.0--r45hdfd78af_6: 
+    sha256:89ae9d49875aa80af46e518875c8b8d7eaddbd4016940b84dbaed35946631644
 docker: quay.io/biocontainers/bioconductor-mta10transcriptcluster.db

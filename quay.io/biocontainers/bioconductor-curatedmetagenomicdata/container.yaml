@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-curatedmetagenomicdata
 latest:
-  3.14.0--r44hdfd78af_0: 
-    sha256:7be266b234ffab567258ce3aba5e180cd0427860970db2f3a39b5587fbbe613b
+  3.18.0--r45hdfd78af_0: 
+    sha256:d2bb3ca47b4ec8daf015baadcbae6e42807dfe37285c4bd0b6b41b26534ef748
 tags:
   3.4.1--r41hdfd78af_0: 
     sha256:d3c247b75974daf12767e546f3e13d3112804af86d2a7d045066e9644e11b28e
@@ -16,4 +16,6 @@ tags:
     sha256:baef849ee5f897bf0a5a0c9c0989f47b992178c3d2a6b30040716f987c1b1e29
   3.14.0--r44hdfd78af_0: 
     sha256:7be266b234ffab567258ce3aba5e180cd0427860970db2f3a39b5587fbbe613b
+  3.18.0--r45hdfd78af_0: 
+    sha256:d2bb3ca47b4ec8daf015baadcbae6e42807dfe37285c4bd0b6b41b26534ef748
 docker: quay.io/biocontainers/bioconductor-curatedmetagenomicdata

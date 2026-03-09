@@ -11,6 +11,8 @@ tags:
     sha256:e1346cc324d2ea89eaaf6c2339fb91a531c967081b3d771eae9d9978c836c352
   2.0a0--pl5321r41hdfd78af_0: 
     sha256:c5563435a3975f0d2ed3dbd621ee9911e6b2f84e928b1c7d26f0750851ac7917
+  2.0.0--r42hdfd78af_0: 
+    sha256:f19f4603c64155c763b98244a9523180daf30af74ce96758bc0fd1fe4ac7c562
 docker: quay.io/biocontainers/phylogenize
 aliases:
   git2: /usr/local/bin/git2

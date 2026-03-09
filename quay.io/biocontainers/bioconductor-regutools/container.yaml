@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-regutools
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:98c04b5afc3918736c8ed121250da5b8a2d1777e57f3e63995e1c0586a3e42d2
+  1.22.0--r45hdfd78af_0: 
+    sha256:d6ad47dd194229fb3674cd1b0bd91e7a265aee940b7e5d2bab12a084ea0b6847
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:3a5cee7cd010df6f78fb623eb2e520667c6c2e484374a59d6ff33989b2253c0f
@@ -16,6 +16,8 @@ tags:
     sha256:b526c6242e4d977a9b2cbb43ba9cf9fd5e8fb2c0bb7bbf9f342073998cc9f6e1
   1.18.0--r44hdfd78af_0: 
     sha256:98c04b5afc3918736c8ed121250da5b8a2d1777e57f3e63995e1c0586a3e42d2
+  1.22.0--r45hdfd78af_0: 
+    sha256:d6ad47dd194229fb3674cd1b0bd91e7a265aee940b7e5d2bab12a084ea0b6847
 docker: quay.io/biocontainers/bioconductor-regutools
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-magar
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:d8fdf426e725d9aea909640661b1ebbcb5f1b33d1fd3e047709424ed9273e2ec
+  1.18.0--r45hdfd78af_0: 
+    sha256:4e0ecaa286d79e8b60befd2a84e4fabc9af865ec6a75b27905b702753415068f
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:b19900d28ddbf17807f6050b5ef613da101d7f942b39ae37f527a19376a4b39e
@@ -16,6 +16,8 @@ tags:
     sha256:13fee3320a296b0ff15cb132b9dd5c29bc775982930c8fd46666942c87979403
   1.14.0--r44hdfd78af_0: 
     sha256:d8fdf426e725d9aea909640661b1ebbcb5f1b33d1fd3e047709424ed9273e2ec
+  1.18.0--r45hdfd78af_0: 
+    sha256:4e0ecaa286d79e8b60befd2a84e4fabc9af865ec6a75b27905b702753415068f
 docker: quay.io/biocontainers/bioconductor-magar
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

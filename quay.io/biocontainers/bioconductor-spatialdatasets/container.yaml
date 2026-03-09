@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-spatialdatasets
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:ff6e8ebd709fa26a932837938a2f5b98c176241fad6a74c8ffa73e617c32c2d2
+  1.8.0--r45hdfd78af_0: 
+    sha256:cbf9453575cc17eb4bfcd24e4c328c3eddab85627c508a133e3c7b1ff2a95423
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:a9b0536ff2f5b587588578f18c74769ac643db6880c31a0b2c0c07bdc689e78d
   1.4.0--r44hdfd78af_0: 
     sha256:ff6e8ebd709fa26a932837938a2f5b98c176241fad6a74c8ffa73e617c32c2d2
+  1.8.0--r45hdfd78af_0: 
+    sha256:cbf9453575cc17eb4bfcd24e4c328c3eddab85627c508a133e3c7b1ff2a95423
 docker: quay.io/biocontainers/bioconductor-spatialdatasets
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

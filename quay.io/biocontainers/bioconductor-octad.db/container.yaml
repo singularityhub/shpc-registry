@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-octad.db
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:8a055deea973510ce456929f7db6d8820983172ee4a33b09a9a88df43a08a7be
+  1.12.0--r45hdfd78af_0: 
+    sha256:b961a3fea8a6be16dfb0618e15ffe3f0a79574f83832e1ca4ac5ce42baa79706
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:31ef4c7620253b11f3e65e6049a95228ceae4f93b92f1c78d68e4ab9910cb672
@@ -14,6 +14,8 @@ tags:
     sha256:f32c98b693d95e2f64f95a2a16b02d6058d8da0b94676c735726f79db636dfdc
   1.8.0--r44hdfd78af_0: 
     sha256:8a055deea973510ce456929f7db6d8820983172ee4a33b09a9a88df43a08a7be
+  1.12.0--r45hdfd78af_0: 
+    sha256:b961a3fea8a6be16dfb0618e15ffe3f0a79574f83832e1ca4ac5ce42baa79706
 docker: quay.io/biocontainers/bioconductor-octad.db
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

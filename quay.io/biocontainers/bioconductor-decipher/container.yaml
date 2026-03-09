@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-decipher
 latest:
-  3.2.0--r44h3df3fcb_1: 
-    sha256:21ad588664a50b608d48a1332a586875b54bb305564bbc6414069ffaec093791
+  3.6.0--r45h01b2380_0: 
+    sha256:29fbc277bd9d9ecf43032813d721aef370abc4fe308d90e1e319be7a27e14b6e
 tags:
   2.8.1--r351h470a237_0: 
     sha256:3635172330f8bafce5894111fb0ef15d78ee0b777dbb6d530cf5995dd8a9a786
@@ -30,4 +30,6 @@ tags:
     sha256:1911b48b7b82d821fbdbfbdef0c5dd640dc945c94d84d618502763b768fcbfeb
   3.2.0--r44h3df3fcb_1: 
     sha256:21ad588664a50b608d48a1332a586875b54bb305564bbc6414069ffaec093791
+  3.6.0--r45h01b2380_0: 
+    sha256:29fbc277bd9d9ecf43032813d721aef370abc4fe308d90e1e319be7a27e14b6e
 docker: quay.io/biocontainers/bioconductor-decipher

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gwasurvivr
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:c6439d0a5de87f67f9bb80093a13739c4c3b5e787a9f8823a4082b6821709ea5
+  1.28.0--r45hdfd78af_0: 
+    sha256:6a76d1c0ae9b24072dc065d655d791dd5ec94f64522e45fba57d1a7cf686419b
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:b785e7a00fc9992cf568d2e5cc2c0527f24293614cd7173f72f1c0ff3ee0a32f
@@ -20,6 +20,8 @@ tags:
     sha256:bd980d97404d2c88e3b42eeaae467dce53be986b70654359f0b5f6193837e96e
   1.24.0--r44hdfd78af_0: 
     sha256:c6439d0a5de87f67f9bb80093a13739c4c3b5e787a9f8823a4082b6821709ea5
+  1.28.0--r45hdfd78af_0: 
+    sha256:6a76d1c0ae9b24072dc065d655d791dd5ec94f64522e45fba57d1a7cf686419b
 docker: quay.io/biocontainers/bioconductor-gwasurvivr
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

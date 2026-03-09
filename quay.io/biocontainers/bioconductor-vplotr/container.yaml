@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-vplotr
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:837eb787904f0d42d1e6b134c1f581eb6faf1cef4b81cf45a579c6a110184acd
+  1.20.0--r45hdfd78af_0: 
+    sha256:18d253378048d79fba0156e12e879d04eb0e9c45904f34bd14b218f9cbe52870
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:eb9697bbd8daba492c48a0f6b16350ca6d1f086e9d674e8c09e7e303f23a02a1
@@ -16,4 +16,6 @@ tags:
     sha256:e1c65869be65a22e459b50c5d38796e547e51a4e29b70dd972f1c3b27bd15f09
   1.16.0--r44hdfd78af_0: 
     sha256:837eb787904f0d42d1e6b134c1f581eb6faf1cef4b81cf45a579c6a110184acd
+  1.20.0--r45hdfd78af_0: 
+    sha256:18d253378048d79fba0156e12e879d04eb0e9c45904f34bd14b218f9cbe52870
 docker: quay.io/biocontainers/bioconductor-vplotr

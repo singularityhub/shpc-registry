@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-reactome.db
 latest:
-  1.89.0--r44hdfd78af_0: 
-    sha256:5f8f40b635b097831c1868d5784ca6c3d0cb5f8aed2d8ffae80f3ef3ea608a52
+  1.95.0--r45hdfd78af_0: 
+    sha256:45624f1b290274dfb5eb7d524a119d99d59e1e744183009d174cb37dacb3d034
 tags:
   1.77.0--r41hdfd78af_1: 
     sha256:2301f2cfeb35b701854b62f300fcd8d3ec55a4f9356e68d2ae3e52f5b634e9ce
@@ -16,4 +16,6 @@ tags:
     sha256:259c7fa0ab5fce898c0734a4f378776564b22bc0e1b65f97b917884aebd318e5
   1.89.0--r44hdfd78af_0: 
     sha256:5f8f40b635b097831c1868d5784ca6c3d0cb5f8aed2d8ffae80f3ef3ea608a52
+  1.95.0--r45hdfd78af_0: 
+    sha256:45624f1b290274dfb5eb7d524a119d99d59e1e744183009d174cb37dacb3d034
 docker: quay.io/biocontainers/bioconductor-reactome.db

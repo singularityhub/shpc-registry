@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bluster
 latest:
-  1.16.0--r44he5774e6_1: 
-    sha256:a5b1952586480b3db1616c4deac880ec43157e9c0da6533d98474be4c5172b1f
+  1.20.0--r45ha27e39d_0: 
+    sha256:ddcb367ce91a25262b37cab262e7ad941d3b4bf3f1de2fe41becb0d48d78a341
 tags:
   1.4.0--r41hc247a5b_2: 
     sha256:fcb086716e9c7006fb46c9d012b59dacf803d5d60745487b99cbe2a1d532598e
@@ -22,6 +22,8 @@ tags:
     sha256:ae8179cda9523eadde976c3aab6f900c657e80c23e3cdc72e6d1930c6d85907c
   1.16.0--r44he5774e6_1: 
     sha256:a5b1952586480b3db1616c4deac880ec43157e9c0da6533d98474be4c5172b1f
+  1.20.0--r45ha27e39d_0: 
+    sha256:ddcb367ce91a25262b37cab262e7ad941d3b4bf3f1de2fe41becb0d48d78a341
 docker: quay.io/biocontainers/bioconductor-bluster
 aliases:
   glpsol: /usr/local/bin/glpsol

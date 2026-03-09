@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ggcyto
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:330743a927edaf5c8b4711792a1ac8a0031b0963f6b69074d0af88e71c4ec31f
+  1.38.1--r45hdfd78af_0: 
+    sha256:634a7cb441534dab1fd843f1190442e7c4214099f615c09665eb388df3891fd4
 tags:
   1.8.2--r351_0: 
     sha256:4633715e0953a21bc2ce3aa822674cfe71e2572f9370314ad919b69e8ef5de2a
@@ -24,4 +24,6 @@ tags:
     sha256:7182467ecdde8c02879f21072c02023c596261fbfa064a8bfc7c799bb97755c0
   1.34.0--r44hdfd78af_0: 
     sha256:330743a927edaf5c8b4711792a1ac8a0031b0963f6b69074d0af88e71c4ec31f
+  1.38.1--r45hdfd78af_0: 
+    sha256:634a7cb441534dab1fd843f1190442e7c4214099f615c09665eb388df3891fd4
 docker: quay.io/biocontainers/bioconductor-ggcyto

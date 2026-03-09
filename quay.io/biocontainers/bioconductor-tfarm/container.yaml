@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tfarm
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:41316c7b75fd3ec1bc7840f89b7f13f11df59f95d5b42acde17f36b7c9e1d0e1
+  1.32.0--r45hdfd78af_0: 
+    sha256:92e4b6302ef269d467f3e9f4f5e29224418b2801e470e92ab98c9806e6a1150b
 tags:
   1.6.0--r36_1: 
     sha256:efad0a4422495c86aacbbe43e0e0de33b101d5e28b90b4bca7fc3162f3a1f968
@@ -24,6 +24,8 @@ tags:
     sha256:a131a36c3f6580702ef6e4fdc70d67b7bf925d929b9cfbd4ab7d85603197eea0
   1.28.0--r44hdfd78af_0: 
     sha256:41316c7b75fd3ec1bc7840f89b7f13f11df59f95d5b42acde17f36b7c9e1d0e1
+  1.32.0--r45hdfd78af_0: 
+    sha256:92e4b6302ef269d467f3e9f4f5e29224418b2801e470e92ab98c9806e6a1150b
 docker: quay.io/biocontainers/bioconductor-tfarm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

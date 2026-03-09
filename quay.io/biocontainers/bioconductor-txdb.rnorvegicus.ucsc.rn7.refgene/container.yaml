@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene
 latest:
-  3.15.0--r44hdfd78af_3: 
-    sha256:43d2cd4840be080420b55dd6b1170ed6facf854e1594a4e731099653b99d5d62
+  3.15.0--r45hdfd78af_4: 
+    sha256:ccee696ff8b791c7e67ceb57eb3e41f2d001fb1c9518571e87264ad9195cfdfd
 tags:
   3.14.0--r41hdfd78af_1: 
     sha256:8d90988103e34742340152e702ec987931788771f7a601e53d39a4c5a7986e7b
@@ -17,4 +17,6 @@ tags:
     sha256:4a0b3ef637835d127afdf5936cd5dbc23a41d796ba374d4b12e569454ae2e9d8
   3.15.0--r44hdfd78af_3: 
     sha256:43d2cd4840be080420b55dd6b1170ed6facf854e1594a4e731099653b99d5d62
+  3.15.0--r45hdfd78af_4: 
+    sha256:ccee696ff8b791c7e67ceb57eb3e41f2d001fb1c9518571e87264ad9195cfdfd
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn7.refgene

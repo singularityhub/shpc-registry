@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-piuma
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-piuma
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:0b66be812af64afeb735b75cb01e38a78662a3d9f4f39d7e14fae9106235f6a7
+  1.5.0--r45hdfd78af_0: 
+    sha256:717146e15c27af5ba408eaff4b21302ef1fe0fba8e0173a9ccbf0f9be36cc256
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:0b66be812af64afeb735b75cb01e38a78662a3d9f4f39d7e14fae9106235f6a7
+  1.5.0--r45hdfd78af_0: 
+    sha256:717146e15c27af5ba408eaff4b21302ef1fe0fba8e0173a9ccbf0f9be36cc256
 docker: quay.io/biocontainers/bioconductor-piuma
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

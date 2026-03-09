@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-modstrings
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:4483e8457646d157040371d16701c3f9ddfa6b97d961d0257cf310b4e7716256
+  1.26.0--r45hdfd78af_0: 
+    sha256:d9b5d721c60470b6adbd7d903f916c366cf258de29a6e6d3b4292e2e56a330ef
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:1f8d6a297c6273424676bc4c52972d74620763c18e0a496ef900c50f4076d0af
@@ -18,6 +18,8 @@ tags:
     sha256:9596433c18f332717392743d05a9405e0d3189acc8f6effb4e03c95f2ccbf9e2
   1.22.0--r44hdfd78af_0: 
     sha256:4483e8457646d157040371d16701c3f9ddfa6b97d961d0257cf310b4e7716256
+  1.26.0--r45hdfd78af_0: 
+    sha256:d9b5d721c60470b6adbd7d903f916c366cf258de29a6e6d3b4292e2e56a330ef
 docker: quay.io/biocontainers/bioconductor-modstrings
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

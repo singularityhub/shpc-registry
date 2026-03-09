@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-holofoodr
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:799eafcad3dc5c1f5c51984d6e4f5d30cd964f2a88f7fced990a67ca4aa04722
+  1.4.0--r45hdfd78af_0: 
+    sha256:29e8dcfd2979239fa221cce5567718f8ac089a93ef03e35a6e7f110b2de1b73f
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:799eafcad3dc5c1f5c51984d6e4f5d30cd964f2a88f7fced990a67ca4aa04722
+  1.4.0--r45hdfd78af_0: 
+    sha256:29e8dcfd2979239fa221cce5567718f8ac089a93ef03e35a6e7f110b2de1b73f
 docker: quay.io/biocontainers/bioconductor-holofoodr
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

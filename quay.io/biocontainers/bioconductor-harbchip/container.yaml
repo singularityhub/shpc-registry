@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-harbchip
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:14df8e019063844fd1de18a34f84068e1ce4a97e94fc8dec47821d7ea3e1d750
+  1.48.0--r45hdfd78af_0: 
+    sha256:22d6c5c298c12f63b4b5bda0cd09548c8e23a5946dbaa88e7d59c70c08cee954
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:b96e33d5e1626f8d2072f019e2945f0cdc123b3e9bf80c4397325d316f7da66c
@@ -16,4 +16,6 @@ tags:
     sha256:102469365daad3045cb2a878eb8435ead781d2ad083617216860e3517e91ac89
   1.44.0--r44hdfd78af_0: 
     sha256:14df8e019063844fd1de18a34f84068e1ce4a97e94fc8dec47821d7ea3e1d750
+  1.48.0--r45hdfd78af_0: 
+    sha256:22d6c5c298c12f63b4b5bda0cd09548c8e23a5946dbaa88e7d59c70c08cee954
 docker: quay.io/biocontainers/bioconductor-harbchip

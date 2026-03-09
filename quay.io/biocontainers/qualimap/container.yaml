@@ -11,6 +11,8 @@ tags:
     sha256:36be9207972ef1fa6ba5eb362d5719beb353186b1c8b22621f27f706f7dbf05a
   2.3--hdfd78af_0: 
     sha256:49d81e27bf995d0ef72ae46c79c22c8c779e21573cd76f7b60cf3f73af61b087
+  2.2.2c--hdfd78af_2: 
+    sha256:caccbd0c25b4610eb6a20968ade70820134040409f9338aefe829583b1755fe2
 docker: quay.io/biocontainers/qualimap
 aliases:
   qualimap: /usr/local/bin/qualimap

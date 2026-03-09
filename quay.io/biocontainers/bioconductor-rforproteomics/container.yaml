@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rforproteomics
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:f5fc0ca506f5812dc9c6460f27fc39a74dac1743658d2770a70d360acaaa19d2
+  1.48.0--r45hdfd78af_0: 
+    sha256:06f954b13beb4752128ac9cb6a4bbd7ead6ceedb403c21bf0c5299d08b567712
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:3e28c86bd45fe66eb28d7008a6f804da61445965ac5626d549b5c3f986edcd05
@@ -16,6 +16,8 @@ tags:
     sha256:dde87bb9926114d38d62da00b37f5cd9e1bcf5c62ab3af2eec62bc1d9b04da45
   1.44.0--r44hdfd78af_0: 
     sha256:f5fc0ca506f5812dc9c6460f27fc39a74dac1743658d2770a70d360acaaa19d2
+  1.48.0--r45hdfd78af_0: 
+    sha256:06f954b13beb4752128ac9cb6a4bbd7ead6ceedb403c21bf0c5299d08b567712
 docker: quay.io/biocontainers/bioconductor-rforproteomics
 aliases:
   zipcmp: /usr/local/bin/zipcmp

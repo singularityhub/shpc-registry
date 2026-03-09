@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tximeta
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:1814ce7a30714716fd93e4bea625e6d5a96e7cefda8303fc23172b71b9dd40cb
+  1.28.2--r45hdfd78af_0: 
+    sha256:e28b925ec637ca819d3aac445f6b5e2990fec5ac8bc00ceb2db4d932da0565ac
 tags:
   1.8.4--r40hdfd78af_0: 
     sha256:84285e575ff948971eea7975a7495a1495f7217666ef615854d3dfaa2f5028f0
@@ -24,6 +24,8 @@ tags:
     sha256:9f2a9d39cf4813b3b5f5eac46760a572c3638326a00bba5cd41e25bb96ff1935
   1.24.0--r44hdfd78af_0: 
     sha256:1814ce7a30714716fd93e4bea625e6d5a96e7cefda8303fc23172b71b9dd40cb
+  1.28.2--r45hdfd78af_0: 
+    sha256:e28b925ec637ca819d3aac445f6b5e2990fec5ac8bc00ceb2db4d932da0565ac
 docker: quay.io/biocontainers/bioconductor-tximeta
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

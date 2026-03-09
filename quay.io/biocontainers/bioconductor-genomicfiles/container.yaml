@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genomicfiles
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:63a184f7dac2a44c50ae7f43c98f6d8cf0076b338e2e20e252784575434d8239
+  1.46.0--r45hdfd78af_0: 
+    sha256:047f6e9663e7efd07dd3bceec3bdd1bd1b1d473f41254e26a84f4a061c809d6e
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:53a55fbfec93e6d687b51846a3e3192d480538be19a1a8b5eaf8ac8372c1f3b2
@@ -16,4 +16,6 @@ tags:
     sha256:a9af8f4843529cf842844b9975864a92fc4839896e3cf722b59f51d5c78d6e00
   1.42.0--r44hdfd78af_0: 
     sha256:63a184f7dac2a44c50ae7f43c98f6d8cf0076b338e2e20e252784575434d8239
+  1.46.0--r45hdfd78af_0: 
+    sha256:047f6e9663e7efd07dd3bceec3bdd1bd1b1d473f41254e26a84f4a061c809d6e
 docker: quay.io/biocontainers/bioconductor-genomicfiles

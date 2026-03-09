@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ifaa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ifaa
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:23ce474902994bf335eeab2710fb769dc7b429f72276edfc98b22d1ad35d6582
+  1.12.0--r45hdfd78af_0: 
+    sha256:e2916a9c49824d6a5d2ffcc718de85aa35d0bcfd122dd6e9ffeae1bcc0e7b716
 tags:
   1.2.0--r43hdfd78af_0: 
     sha256:fac7507ae7a9f0425ac729be23046815e55e2aaffe201f09ad41f78223d4ddec
@@ -11,6 +11,8 @@ tags:
     sha256:460c5bd9dc19e385a2fe06fcfe63a3a9802fe45d389ea5139a4b4af58414e0cc
   1.8.0--r44hdfd78af_0: 
     sha256:23ce474902994bf335eeab2710fb769dc7b429f72276edfc98b22d1ad35d6582
+  1.12.0--r45hdfd78af_0: 
+    sha256:e2916a9c49824d6a5d2ffcc718de85aa35d0bcfd122dd6e9ffeae1bcc0e7b716
 docker: quay.io/biocontainers/bioconductor-ifaa
 aliases:
   hb-info: /usr/local/bin/hb-info

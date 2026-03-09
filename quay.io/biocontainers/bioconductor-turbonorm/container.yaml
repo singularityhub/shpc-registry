@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-turbonorm
 latest:
-  1.54.0--r44h3df3fcb_0: 
-    sha256:b74c237110c04acc02c69178fb9e83244832fbe8bb079f8784798aa669977d99
+  1.58.0--r45h01b2380_0: 
+    sha256:fc4b13d1b0b9b0c710909967fa003ad23919e3fc810cf96ee2b2f778669227e7
 tags:
   1.42.0--r41hc0cfd56_2: 
     sha256:6c8c83fb3f1bfdc51bdfdd03c289fffb2ed70bbc9b88c1a70f53fd291cb3ad59
@@ -18,4 +18,6 @@ tags:
     sha256:36f18c36cbe4e17917fdcf440733bd3ab85ab461b6b423be2651c250a319e161
   1.54.0--r44h3df3fcb_0: 
     sha256:b74c237110c04acc02c69178fb9e83244832fbe8bb079f8784798aa669977d99
+  1.58.0--r45h01b2380_0: 
+    sha256:fc4b13d1b0b9b0c710909967fa003ad23919e3fc810cf96ee2b2f778669227e7
 docker: quay.io/biocontainers/bioconductor-turbonorm

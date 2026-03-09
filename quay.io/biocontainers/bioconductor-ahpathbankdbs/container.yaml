@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ahpathbankdbs
 latest:
-  0.99.5--r43hdfd78af_5: 
-    sha256:b0be4625d6ac683b650419d5aebd0fd950ff4936dd4c3ce0b604b861c4ce5532
+  0.99.5--r45hdfd78af_7: 
+    sha256:eb22fbad9f0b258e5888af98857637a3d990271d27cbf3114e88cb0d9bc6db32
 tags:
   0.99.5--r41hdfd78af_2: 
     sha256:567ecb8989f79ce36d7cce929135cee42fc9289e1bcf7df406cd9caec8696069
@@ -14,4 +14,6 @@ tags:
     sha256:d0a6ed567d1d4f127acd6503640f6b6557a50cd81a5a216add859ebbaf6d2af2
   0.99.5--r43hdfd78af_5: 
     sha256:b0be4625d6ac683b650419d5aebd0fd950ff4936dd4c3ce0b604b861c4ce5532
+  0.99.5--r45hdfd78af_7: 
+    sha256:eb22fbad9f0b258e5888af98857637a3d990271d27cbf3114e88cb0d9bc6db32
 docker: quay.io/biocontainers/bioconductor-ahpathbankdbs

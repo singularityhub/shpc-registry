@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-regionalst
 latest:
-  1.0.1--r43hdfd78af_0: 
-    sha256:3c75cf0fed5976366a41e1895519b887aa394bfab7fe4def37bb6ea915657b76
+  1.8.0--r45hdfd78af_0: 
+    sha256:30639b10df9675736c243fddd0cf8cf6b2cf0b12402e4a3af03367d10d5f96c4
 tags:
   1.0.1--r43hdfd78af_0: 
     sha256:3c75cf0fed5976366a41e1895519b887aa394bfab7fe4def37bb6ea915657b76
+  1.8.0--r45hdfd78af_0: 
+    sha256:30639b10df9675736c243fddd0cf8cf6b2cf0b12402e4a3af03367d10d5f96c4
 docker: quay.io/biocontainers/bioconductor-regionalst
 aliases:
   xgboost: /usr/local/bin/xgboost

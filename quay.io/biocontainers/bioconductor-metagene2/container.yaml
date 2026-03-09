@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metagene2
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:8aa9d62f917ec2f1f9a38c3415604a7d120f8adb3591078c4f574dd56391beda
+  1.26.0--r45hdfd78af_0: 
+    sha256:900363e1fb3169aa914e692080f957edeed5c81d35ec22d358fc06d821fb5652
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:b43c0809e0da7df9a0a36d593af52bee4425a2fe01fcf2cf6d005887e228eef9
@@ -18,6 +18,8 @@ tags:
     sha256:a113fd4d73c38e58541483988a55236fdba5bae1621daf657fbb492e7244dc22
   1.22.0--r44hdfd78af_0: 
     sha256:8aa9d62f917ec2f1f9a38c3415604a7d120f8adb3591078c4f574dd56391beda
+  1.26.0--r45hdfd78af_0: 
+    sha256:900363e1fb3169aa914e692080f957edeed5c81d35ec22d358fc06d821fb5652
 docker: quay.io/biocontainers/bioconductor-metagene2
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

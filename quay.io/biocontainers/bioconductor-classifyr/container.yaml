@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-classifyr
 latest:
-  3.10.0--r44he5774e6_0: 
-    sha256:d4f4eb0e221fc100ec1f11a49cc602683ed4a1ca4329e524169cf2c63cf018d6
+  3.14.0--r45ha27e39d_0: 
+    sha256:dd6a10edd32789ebe055b1feb9911cbfd41a95e6297df0d8147341b919ec6306
 tags:
   2.8.0--r40_0: 
     sha256:f14cdb92ef54f296956a34c84ff3b51c062697fce76667c9a0108c67999c134c
@@ -24,6 +24,8 @@ tags:
     sha256:dc48aaa906a25de89abacdbf426d3c3b1736ecfa2be3d5d9952c39d36976f617
   3.10.0--r44he5774e6_0: 
     sha256:d4f4eb0e221fc100ec1f11a49cc602683ed4a1ca4329e524169cf2c63cf018d6
+  3.14.0--r45ha27e39d_0: 
+    sha256:dd6a10edd32789ebe055b1feb9911cbfd41a95e6297df0d8147341b919ec6306
 docker: quay.io/biocontainers/bioconductor-classifyr
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

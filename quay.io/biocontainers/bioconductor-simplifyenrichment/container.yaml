@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-simplifyenrichment
 latest:
-  2.0.0--r44hdfd78af_0: 
-    sha256:d32d03f39944fe4769e81a5e8a35ea2902476d2bfdb81e5d3fc0ba8ef9016658
+  2.4.1--r45hdfd78af_0: 
+    sha256:28340d5684b7bd151c8219a2cb21cb9e3501c315c30c7a42b3c76746c751121b
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:63dbc2701b9e1ed8fceebf4bec87ef86294e0598300932bcf7ab66828cab7d4c
@@ -16,4 +16,6 @@ tags:
     sha256:07f5c5eaaf12f4ef4866cf92f4cee2508778e3aa7bfca86532b78a7a4b878e71
   2.0.0--r44hdfd78af_0: 
     sha256:d32d03f39944fe4769e81a5e8a35ea2902476d2bfdb81e5d3fc0ba8ef9016658
+  2.4.1--r45hdfd78af_0: 
+    sha256:28340d5684b7bd151c8219a2cb21cb9e3501c315c30c7a42b3c76746c751121b
 docker: quay.io/biocontainers/bioconductor-simplifyenrichment

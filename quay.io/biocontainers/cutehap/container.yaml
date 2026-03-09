@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cutehap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cutehap
 latest:
-  1.0.3--py312h7b50bb2_0: 
-    sha256:8026d76035eea46f9b5e580f2721ed6d4109ae860c7df6cc518e0d4b9e7910ef
+  1.0.4--py312h87e0c26_0: 
+    sha256:cb27a16c868562ecaae3fb1094c5b4247e88cd7caa7cca1ea1c04bb0f36f48ca
 tags:
   1.0.3--py312h7b50bb2_0: 
     sha256:8026d76035eea46f9b5e580f2721ed6d4109ae860c7df6cc518e0d4b9e7910ef
+  1.0.4--py312h87e0c26_0: 
+    sha256:cb27a16c868562ecaae3fb1094c5b4247e88cd7caa7cca1ea1c04bb0f36f48ca
 docker: quay.io/biocontainers/cutehap
 aliases:
   cuteHap: /usr/local/bin/cuteHap

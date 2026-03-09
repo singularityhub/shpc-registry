@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scatac.explorer
 latest:
-  1.12.1--r44hdfd78af_0: 
-    sha256:711c424e6a9a797c15d300efb203fdecac176feb9f6869d28c064251bdb46c85
+  1.16.0--r45hdfd78af_0: 
+    sha256:7913e84dabc2c701ec5c29fd0b413c84ad035d9d013ebef6236b2adf7b138caa
 tags:
   1.0.1--r41hdfd78af_1: 
     sha256:29edc141012c44c9bdd7c0c93bf90e071cf49e47bf80f3d3f053b5bb71b63fc5
@@ -16,4 +16,6 @@ tags:
     sha256:eb38ee527f5a48f9cac5d21d4c77adb0321c18051710d7c19f0bb3dc89541e5a
   1.12.1--r44hdfd78af_0: 
     sha256:711c424e6a9a797c15d300efb203fdecac176feb9f6869d28c064251bdb46c85
+  1.16.0--r45hdfd78af_0: 
+    sha256:7913e84dabc2c701ec5c29fd0b413c84ad035d9d013ebef6236b2adf7b138caa
 docker: quay.io/biocontainers/bioconductor-scatac.explorer
