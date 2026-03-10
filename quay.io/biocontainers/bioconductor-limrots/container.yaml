@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-limrots
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-limrots
+latest:
+  1.2.8--r45hdfd78af_0: 
+    sha256:e90937596140c583ef089ee725fa5f0cb8df91229d709fc062e0aecb3e479538
+tags:
+  1.2.8--r45hdfd78af_0: 
+    sha256:e90937596140c583ef089ee725fa5f0cb8df91229d709fc062e0aecb3e479538
+docker: quay.io/biocontainers/bioconductor-limrots
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

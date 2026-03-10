@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-lipidtrend
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-lipidtrend
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:59fe2107221a36f4a649dec94e6ca9e1a46202de7bfd5fd59b45354e6227a1c2
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:59fe2107221a36f4a649dec94e6ca9e1a46202de7bfd5fd59b45354e6227a1c2
+docker: quay.io/biocontainers/bioconductor-lipidtrend
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
