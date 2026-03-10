@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quantms-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantms-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quantms-utils/container.yaml"
-updated_at: "2026-03-10 04:27:36.727106"
+updated_at: "2026-03-10 04:40:39.008647"
 latest: "0.0.24--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/quantms-utils"
 aliases:

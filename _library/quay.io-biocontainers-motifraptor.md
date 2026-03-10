@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/motifraptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/motifraptor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/motifraptor/container.yaml"
-updated_at: "2026-03-10 04:52:54.544532"
+updated_at: "2026-03-10 05:06:22.692969"
 latest: "0.3.0--py36h40b2fa4_5"
 container_url: "https://biocontainers.pro/tools/motifraptor"
 aliases:

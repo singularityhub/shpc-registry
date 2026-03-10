@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.hs.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.hs.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.hs.eg.db/container.yaml"
-updated_at: "2026-03-10 04:31:53.367525"
+updated_at: "2026-03-10 04:44:56.171040"
 latest: "3.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.hs.eg.db"
 aliases:

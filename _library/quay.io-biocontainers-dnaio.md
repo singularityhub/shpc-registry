@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnaio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnaio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnaio/container.yaml"
-updated_at: "2026-03-10 04:16:04.778514"
+updated_at: "2026-03-10 04:28:53.266972"
 latest: "1.2.3--py313h031d066_0"
 container_url: "https://biocontainers.pro/tools/dnaio"
 aliases:

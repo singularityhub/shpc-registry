@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xengsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xengsort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xengsort/container.yaml"
-updated_at: "2026-03-10 04:56:17.417585"
+updated_at: "2026-03-10 05:09:36.192113"
 latest: "2.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/xengsort"
 aliases:
