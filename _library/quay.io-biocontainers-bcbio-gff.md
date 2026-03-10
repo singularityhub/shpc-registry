@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbio-gff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio-gff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio-gff/container.yaml"
-updated_at: "2026-03-09 04:50:58.234563"
+updated_at: "2026-03-10 04:39:20.704767"
 latest: "0.7.1--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bcbio-gff"
 aliases:

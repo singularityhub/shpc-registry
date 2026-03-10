@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cutehap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutehap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutehap/container.yaml"
-updated_at: "2026-03-09 05:00:02.757437"
-latest: "1.0.3--py312h7b50bb2_0"
+updated_at: "2026-03-10 04:48:22.443663"
+latest: "1.0.4--py312h87e0c26_0"
 container_url: "https://biocontainers.pro/tools/cutehap"
 aliases:
  - "cuteHap"
@@ -20,8 +20,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.0.3--py312h7b50bb2_0"
+ - "1.0.4--py312h87e0c26_0"
 description: "singularity registry hpc automated addition for cutehap"
-config: {"url": "https://biocontainers.pro/tools/cutehap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cutehap", "latest": {"1.0.3--py312h7b50bb2_0": "sha256:8026d76035eea46f9b5e580f2721ed6d4109ae860c7df6cc518e0d4b9e7910ef"}, "tags": {"1.0.3--py312h7b50bb2_0": "sha256:8026d76035eea46f9b5e580f2721ed6d4109ae860c7df6cc518e0d4b9e7910ef"}, "docker": "quay.io/biocontainers/cutehap", "aliases": {"cuteHap": "/usr/local/bin/cuteHap", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/cutehap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cutehap", "latest": {"1.0.4--py312h87e0c26_0": "sha256:cb27a16c868562ecaae3fb1094c5b4247e88cd7caa7cca1ea1c04bb0f36f48ca"}, "tags": {"1.0.3--py312h7b50bb2_0": "sha256:8026d76035eea46f9b5e580f2721ed6d4109ae860c7df6cc518e0d4b9e7910ef", "1.0.4--py312h87e0c26_0": "sha256:cb27a16c868562ecaae3fb1094c5b4247e88cd7caa7cca1ea1c04bb0f36f48ca"}, "docker": "quay.io/biocontainers/cutehap", "aliases": {"cuteHap": "/usr/local/bin/cuteHap", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cutehap.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/cutehap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cutehap:1.0.3--py312h7b50bb2_0
+$ shpc install quay.io/biocontainers/cutehap:1.0.4--py312h87e0c26_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cutehap/1.0.3--py312h7b50bb2_0
-$ module help quay.io/biocontainers/cutehap/1.0.3--py312h7b50bb2_0
+$ module load quay.io/biocontainers/cutehap/1.0.4--py312h87e0c26_0
+$ module help quay.io/biocontainers/cutehap/1.0.4--py312h87e0c26_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

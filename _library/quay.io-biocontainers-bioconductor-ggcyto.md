@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ggcyto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggcyto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggcyto/container.yaml"
-updated_at: "2026-03-09 04:28:33.945213"
-latest: "1.34.0--r44hdfd78af_0"
+updated_at: "2026-03-10 04:18:22.638779"
+latest: "1.38.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggcyto"
 
 versions:
@@ -18,8 +18,9 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.34.0--r44hdfd78af_0"
+ - "1.38.1--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ggcyto"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggcyto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggcyto", "latest": {"1.34.0--r44hdfd78af_0": "sha256:330743a927edaf5c8b4711792a1ac8a0031b0963f6b69074d0af88e71c4ec31f"}, "tags": {"1.8.2--r351_0": "sha256:4633715e0953a21bc2ce3aa822674cfe71e2572f9370314ad919b69e8ef5de2a", "1.26.0--r42hdfd78af_0": "sha256:d0066f66e8f0005338c55876ee14456c3bbdc7916e1ef787cf71830932ec6165", "1.22.0--r41hdfd78af_0": "sha256:65f987da1fc57a70364d6e4a4ad2299012d07a91f47252722a340ac408a1daac", "1.20.0--r41hdfd78af_0": "sha256:357e45b7fc73e9230482b61ebcd131d30ed407cfbe1e130bcc16af00f3d2d926", "1.18.0--r40hdfd78af_1": "sha256:06ab331fe0308c9c012cacd896e5541446e3072c324406f7e83e0957a9b17673", "1.16.0--r40_0": "sha256:224ec8d998637f72f63de9b4ab60b1f8bcad340153f70a02cb8331be3cb470ad", "1.28.0--r43hdfd78af_0": "sha256:bade921444d11fed2ca0b2a242c19515b385daec297c6f7726450d9b3752935c", "1.30.0--r43hdfd78af_0": "sha256:7182467ecdde8c02879f21072c02023c596261fbfa064a8bfc7c799bb97755c0", "1.34.0--r44hdfd78af_0": "sha256:330743a927edaf5c8b4711792a1ac8a0031b0963f6b69074d0af88e71c4ec31f"}, "docker": "quay.io/biocontainers/bioconductor-ggcyto"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggcyto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggcyto", "latest": {"1.38.1--r45hdfd78af_0": "sha256:634a7cb441534dab1fd843f1190442e7c4214099f615c09665eb388df3891fd4"}, "tags": {"1.8.2--r351_0": "sha256:4633715e0953a21bc2ce3aa822674cfe71e2572f9370314ad919b69e8ef5de2a", "1.26.0--r42hdfd78af_0": "sha256:d0066f66e8f0005338c55876ee14456c3bbdc7916e1ef787cf71830932ec6165", "1.22.0--r41hdfd78af_0": "sha256:65f987da1fc57a70364d6e4a4ad2299012d07a91f47252722a340ac408a1daac", "1.20.0--r41hdfd78af_0": "sha256:357e45b7fc73e9230482b61ebcd131d30ed407cfbe1e130bcc16af00f3d2d926", "1.18.0--r40hdfd78af_1": "sha256:06ab331fe0308c9c012cacd896e5541446e3072c324406f7e83e0957a9b17673", "1.16.0--r40_0": "sha256:224ec8d998637f72f63de9b4ab60b1f8bcad340153f70a02cb8331be3cb470ad", "1.28.0--r43hdfd78af_0": "sha256:bade921444d11fed2ca0b2a242c19515b385daec297c6f7726450d9b3752935c", "1.30.0--r43hdfd78af_0": "sha256:7182467ecdde8c02879f21072c02023c596261fbfa064a8bfc7c799bb97755c0", "1.34.0--r44hdfd78af_0": "sha256:330743a927edaf5c8b4711792a1ac8a0031b0963f6b69074d0af88e71c4ec31f", "1.38.1--r45hdfd78af_0": "sha256:634a7cb441534dab1fd843f1190442e7c4214099f615c09665eb388df3891fd4"}, "docker": "quay.io/biocontainers/bioconductor-ggcyto"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggcyto.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ggcyto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ggcyto:1.34.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ggcyto:1.38.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ggcyto/1.34.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ggcyto/1.34.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ggcyto/1.38.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ggcyto/1.38.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

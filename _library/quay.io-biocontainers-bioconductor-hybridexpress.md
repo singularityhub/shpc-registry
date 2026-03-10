@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hybridexpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hybridexpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hybridexpress/container.yaml"
-updated_at: "2026-03-09 05:02:44.761985"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-03-10 04:51:07.084769"
+latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hybridexpress"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -26,8 +26,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-hybridexpress"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hybridexpress", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-hybridexpress", "latest": {"1.2.0--r44hdfd78af_0": "sha256:2696b47445b142afb81aba53c4037fc3ca6817505526fcefb33bfdd975e25580"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:2696b47445b142afb81aba53c4037fc3ca6817505526fcefb33bfdd975e25580"}, "docker": "quay.io/biocontainers/bioconductor-hybridexpress", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hybridexpress", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-hybridexpress", "latest": {"1.6.0--r45hdfd78af_0": "sha256:ba80d54622a8e5f3d5a28d648949c9d8472ddf2e1608f9ebe00540e8b037a561"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:2696b47445b142afb81aba53c4037fc3ca6817505526fcefb33bfdd975e25580", "1.6.0--r45hdfd78af_0": "sha256:ba80d54622a8e5f3d5a28d648949c9d8472ddf2e1608f9ebe00540e8b037a561"}, "docker": "quay.io/biocontainers/bioconductor-hybridexpress", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hybridexpress.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hybridexpress
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hybridexpress:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hybridexpress:1.6.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hybridexpress/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hybridexpress/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hybridexpress/1.6.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hybridexpress/1.6.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openbabel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openbabel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openbabel/container.yaml"
-updated_at: "2026-03-09 04:25:19.757807"
+updated_at: "2026-03-10 04:15:32.833642"
 latest: "3.1.1"
 container_url: "https://biocontainers.pro/tools/openbabel"
 aliases:

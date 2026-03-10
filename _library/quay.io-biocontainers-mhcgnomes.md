@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mhcgnomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhcgnomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhcgnomes/container.yaml"
-updated_at: "2026-03-09 04:40:58.597201"
-latest: "2.0--pyh7e72e81_0"
+updated_at: "2026-03-10 04:29:55.411168"
+latest: "2.0.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/mhcgnomes"
 aliases:
  - "f2py3.9"
@@ -18,8 +18,9 @@ versions:
  - "1.8.4--pyh7cba7a3_0"
  - "1.8.6--pyh7cba7a3_0"
  - "2.0--pyh7e72e81_0"
+ - "2.0.2--pyh106432d_0"
 description: "singularity registry hpc automated addition for mhcgnomes"
-config: {"url": "https://biocontainers.pro/tools/mhcgnomes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mhcgnomes", "latest": {"2.0--pyh7e72e81_0": "sha256:83acd7b5bdee07be35a39f05b7fede06c324cfdd5714550a834ca3e1d3cb0169"}, "tags": {"1.8.4--pyh7cba7a3_0": "sha256:14dd2760511144b2d4ed7a2aa397144543f0b125d9b863e296bb777fe79b1c75", "1.8.6--pyh7cba7a3_0": "sha256:63eceabba32c9cb3dc5afa58fb88c5b0bc571c83777cdcc613dd299097bc556b", "2.0--pyh7e72e81_0": "sha256:83acd7b5bdee07be35a39f05b7fede06c324cfdd5714550a834ca3e1d3cb0169"}, "docker": "quay.io/biocontainers/mhcgnomes", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/mhcgnomes", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mhcgnomes", "latest": {"2.0.2--pyh106432d_0": "sha256:20f04c96909805845970004d2bd581393807a18948d77eaf4669b8462ab86436"}, "tags": {"1.8.4--pyh7cba7a3_0": "sha256:14dd2760511144b2d4ed7a2aa397144543f0b125d9b863e296bb777fe79b1c75", "1.8.6--pyh7cba7a3_0": "sha256:63eceabba32c9cb3dc5afa58fb88c5b0bc571c83777cdcc613dd299097bc556b", "2.0--pyh7e72e81_0": "sha256:83acd7b5bdee07be35a39f05b7fede06c324cfdd5714550a834ca3e1d3cb0169", "2.0.2--pyh106432d_0": "sha256:20f04c96909805845970004d2bd581393807a18948d77eaf4669b8462ab86436"}, "docker": "quay.io/biocontainers/mhcgnomes", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mhcgnomes.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/mhcgnomes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mhcgnomes:2.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/mhcgnomes:2.0.2--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mhcgnomes/2.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/mhcgnomes/2.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/mhcgnomes/2.0.2--pyh106432d_0
+$ module help quay.io/biocontainers/mhcgnomes/2.0.2--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

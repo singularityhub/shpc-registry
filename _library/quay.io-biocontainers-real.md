@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/real"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/real/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/real/container.yaml"
-updated_at: "2026-03-09 04:52:04.941114"
+updated_at: "2026-03-10 04:40:27.079062"
 latest: "1.0--he941832_1"
 container_url: "https://biocontainers.pro/tools/real"
 aliases:

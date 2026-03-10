@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/longphase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longphase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longphase/container.yaml"
-updated_at: "2026-03-09 04:36:54.767806"
-latest: "2.0--h13024bc_0"
+updated_at: "2026-03-10 04:26:08.190171"
+latest: "2.0.1--hfc4162c_0"
 container_url: "https://biocontainers.pro/tools/longphase"
 aliases:
  - "longphase"
 versions:
  - "1.7.3--hf5e1c6e_0"
  - "2.0--h13024bc_0"
+ - "2.0.1--hfc4162c_0"
 description: "singularity registry hpc automated addition for longphase"
-config: {"url": "https://biocontainers.pro/tools/longphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for longphase", "latest": {"2.0--h13024bc_0": "sha256:ba5c3115aa2e1482bc5ab3cebe80554f760b400299e26cd22a80189340aa57d6"}, "tags": {"1.7.3--hf5e1c6e_0": "sha256:4a4f9fbd14ea325b9d7d4310d1df8fe7940b80cc8daed1907355919e15e6e457", "2.0--h13024bc_0": "sha256:ba5c3115aa2e1482bc5ab3cebe80554f760b400299e26cd22a80189340aa57d6"}, "docker": "quay.io/biocontainers/longphase", "aliases": {"longphase": "/usr/local/bin/longphase"}}
+config: {"url": "https://biocontainers.pro/tools/longphase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for longphase", "latest": {"2.0.1--hfc4162c_0": "sha256:9d416b9062d32e68b07f85ae23c01944a04d31cbfd1821afa0bb74cd1ac75075"}, "tags": {"1.7.3--hf5e1c6e_0": "sha256:4a4f9fbd14ea325b9d7d4310d1df8fe7940b80cc8daed1907355919e15e6e457", "2.0--h13024bc_0": "sha256:ba5c3115aa2e1482bc5ab3cebe80554f760b400299e26cd22a80189340aa57d6", "2.0.1--hfc4162c_0": "sha256:9d416b9062d32e68b07f85ae23c01944a04d31cbfd1821afa0bb74cd1ac75075"}, "docker": "quay.io/biocontainers/longphase", "aliases": {"longphase": "/usr/local/bin/longphase"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longphase.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/longphase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/longphase:2.0--h13024bc_0
+$ shpc install quay.io/biocontainers/longphase:2.0.1--hfc4162c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/longphase/2.0--h13024bc_0
-$ module help quay.io/biocontainers/longphase/2.0--h13024bc_0
+$ module load quay.io/biocontainers/longphase/2.0.1--hfc4162c_0
+$ module help quay.io/biocontainers/longphase/2.0.1--hfc4162c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

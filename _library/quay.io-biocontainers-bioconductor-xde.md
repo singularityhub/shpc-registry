@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-xde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
-updated_at: "2026-03-09 05:02:43.337796"
-latest: "2.52.0--r44he5774e6_0"
+updated_at: "2026-03-10 04:51:05.655255"
+latest: "2.56.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xde"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2.46.0--r43hf17093f_0"
  - "2.48.0--r43hf17093f_0"
  - "2.52.0--r44he5774e6_0"
+ - "2.56.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xde", "latest": {"2.52.0--r44he5774e6_0": "sha256:2b24c77aa5873e3d00f69ae4a27ab36ed00b262e6fdfe466f93840b98b67890f"}, "tags": {"2.40.0--r41hc247a5b_2": "sha256:18d5059127324925ae95f5aad649294a426bdacac7f55cba62ff92ec754e5490", "2.44.0--r42hc247a5b_0": "sha256:fbafa31d3882b685ae9df295f964a67f2d3a48c90b939d5bf624a3ea3b1582c1", "2.44.0--r42hf17093f_1": "sha256:7955bf9f1d8e6ccf11c5998084fb024a27222f90996bbeec82370ef26c30f47c", "2.46.0--r43hf17093f_0": "sha256:2906f6a7f01d9a453fcb0feba703bb1552bf152861e97744cc984679fe27909a", "2.48.0--r43hf17093f_0": "sha256:36ed2c4ce8151b766a0ddb858d86d2f78163aa2cdc68bd41fe002b14e0096bc1", "2.52.0--r44he5774e6_0": "sha256:2b24c77aa5873e3d00f69ae4a27ab36ed00b262e6fdfe466f93840b98b67890f"}, "docker": "quay.io/biocontainers/bioconductor-xde"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xde", "latest": {"2.56.0--r45ha27e39d_0": "sha256:1eb39a065558f964e29affb88ca799e8a7a73e19af78f960d4bde949063c4868"}, "tags": {"2.40.0--r41hc247a5b_2": "sha256:18d5059127324925ae95f5aad649294a426bdacac7f55cba62ff92ec754e5490", "2.44.0--r42hc247a5b_0": "sha256:fbafa31d3882b685ae9df295f964a67f2d3a48c90b939d5bf624a3ea3b1582c1", "2.44.0--r42hf17093f_1": "sha256:7955bf9f1d8e6ccf11c5998084fb024a27222f90996bbeec82370ef26c30f47c", "2.46.0--r43hf17093f_0": "sha256:2906f6a7f01d9a453fcb0feba703bb1552bf152861e97744cc984679fe27909a", "2.48.0--r43hf17093f_0": "sha256:36ed2c4ce8151b766a0ddb858d86d2f78163aa2cdc68bd41fe002b14e0096bc1", "2.52.0--r44he5774e6_0": "sha256:2b24c77aa5873e3d00f69ae4a27ab36ed00b262e6fdfe466f93840b98b67890f", "2.56.0--r45ha27e39d_0": "sha256:1eb39a065558f964e29affb88ca799e8a7a73e19af78f960d4bde949063c4868"}, "docker": "quay.io/biocontainers/bioconductor-xde"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xde.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xde
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xde:2.52.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-xde:2.56.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xde/2.52.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-xde/2.52.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-xde/2.56.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-xde/2.56.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

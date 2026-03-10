@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-curatedbladderdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedbladderdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedbladderdata/container.yaml"
-updated_at: "2026-03-09 04:37:06.783618"
-latest: "1.42.0--r44hdfd78af_0"
+updated_at: "2026-03-10 04:26:19.471615"
+latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedbladderdata"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.36.0--r43hdfd78af_0"
  - "1.38.0--r43hdfd78af_0"
  - "1.42.0--r44hdfd78af_0"
+ - "1.46.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-curatedbladderdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedbladderdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedbladderdata", "latest": {"1.42.0--r44hdfd78af_0": "sha256:d23d8d7c0b0b73af9486d7fd0ae4bacae4fbed56ca55a07daca656b2d4777070"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:ed4a523db9f37dbc89890af9c08c7ce51e7adef1395ab07d12439796c69c2a22", "1.34.0--r42hdfd78af_0": "sha256:a9d62a2e0c14fca3943e1b119782af31c1f5ac6a5e27a123b5f1e22db5016d11", "1.36.0--r43hdfd78af_0": "sha256:8aeb7b004d69f12749d1781b313f79c72710c871f4a0893fb26b76d8403115a2", "1.38.0--r43hdfd78af_0": "sha256:f38084c3ed6788b759ac2bde0c5dda9364d9f56b5c353ebd692c9c85936e935f", "1.42.0--r44hdfd78af_0": "sha256:d23d8d7c0b0b73af9486d7fd0ae4bacae4fbed56ca55a07daca656b2d4777070"}, "docker": "quay.io/biocontainers/bioconductor-curatedbladderdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedbladderdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedbladderdata", "latest": {"1.46.0--r45hdfd78af_0": "sha256:4db6ab1a1865aff0494346110daf1dba26b405e449241935bd3f0fe103228c77"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:ed4a523db9f37dbc89890af9c08c7ce51e7adef1395ab07d12439796c69c2a22", "1.34.0--r42hdfd78af_0": "sha256:a9d62a2e0c14fca3943e1b119782af31c1f5ac6a5e27a123b5f1e22db5016d11", "1.36.0--r43hdfd78af_0": "sha256:8aeb7b004d69f12749d1781b313f79c72710c871f4a0893fb26b76d8403115a2", "1.38.0--r43hdfd78af_0": "sha256:f38084c3ed6788b759ac2bde0c5dda9364d9f56b5c353ebd692c9c85936e935f", "1.42.0--r44hdfd78af_0": "sha256:d23d8d7c0b0b73af9486d7fd0ae4bacae4fbed56ca55a07daca656b2d4777070", "1.46.0--r45hdfd78af_0": "sha256:4db6ab1a1865aff0494346110daf1dba26b405e449241935bd3f0fe103228c77"}, "docker": "quay.io/biocontainers/bioconductor-curatedbladderdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-curatedbladderdata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-curatedbladderdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-curatedbladderdata:1.42.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-curatedbladderdata:1.46.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-curatedbladderdata/1.42.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-curatedbladderdata/1.42.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-curatedbladderdata/1.46.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-curatedbladderdata/1.46.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

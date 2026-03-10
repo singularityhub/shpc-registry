@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fem/container.yaml"
-updated_at: "2026-03-09 05:04:52.008336"
+updated_at: "2026-03-10 04:53:17.703062"
 latest: "3.15.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fem"
 aliases:

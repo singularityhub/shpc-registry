@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gdal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gdal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gdal/container.yaml"
-updated_at: "2026-03-09 04:22:03.073489"
+updated_at: "2026-03-10 04:12:41.190911"
 latest: "3.4.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gdal"
 aliases:

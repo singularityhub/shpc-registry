@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/relocate2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/relocate2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/relocate2/container.yaml"
-updated_at: "2026-03-09 04:39:19.729575"
+updated_at: "2026-03-10 04:28:23.912733"
 latest: "2.0.1--hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/relocate2"
 aliases:

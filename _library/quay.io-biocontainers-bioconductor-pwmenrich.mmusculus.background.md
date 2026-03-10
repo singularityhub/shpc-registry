@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background/container.yaml"
-updated_at: "2026-03-09 04:38:44.157294"
-latest: "4.40.0--r44hdfd78af_0"
+updated_at: "2026-03-10 04:27:50.386283"
+latest: "4.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pwmenrich.mmusculus.background"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "4.34.0--r43hdfd78af_0"
  - "4.36.0--r43hdfd78af_0"
  - "4.40.0--r44hdfd78af_0"
+ - "4.44.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pwmenrich.mmusculus.background"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pwmenrich.mmusculus.background", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pwmenrich.mmusculus.background", "latest": {"4.40.0--r44hdfd78af_0": "sha256:dfa2ba8f5ecb1599c38214d89e2aac46214d430199e6be836ef66a78640a0069"}, "tags": {"4.28.0--r41hdfd78af_1": "sha256:6e1c1d74f9cb2b4daedcdf66529325069306b60080e350683d84a55a758aab57", "4.32.0--r42hdfd78af_0": "sha256:b774c181620c2009fe37a04884a3b4b4d7ecabad7f122094b1207a8df1e3820f", "4.34.0--r43hdfd78af_0": "sha256:bd212b9874f833eccee01dc000e02d14e67d0cbab6531d22b175f900ae8e3888", "4.36.0--r43hdfd78af_0": "sha256:9ffbb7a764a8d85ace4a22d6c5cd67a1bc75ebae1ba9ef2b9dc259717b7f13f6", "4.40.0--r44hdfd78af_0": "sha256:dfa2ba8f5ecb1599c38214d89e2aac46214d430199e6be836ef66a78640a0069"}, "docker": "quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pwmenrich.mmusculus.background", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pwmenrich.mmusculus.background", "latest": {"4.44.0--r45hdfd78af_0": "sha256:30633bd3ba23c5f930beb4e924ffe19f22231c5b6644724dc600f3f2de041e4b"}, "tags": {"4.28.0--r41hdfd78af_1": "sha256:6e1c1d74f9cb2b4daedcdf66529325069306b60080e350683d84a55a758aab57", "4.32.0--r42hdfd78af_0": "sha256:b774c181620c2009fe37a04884a3b4b4d7ecabad7f122094b1207a8df1e3820f", "4.34.0--r43hdfd78af_0": "sha256:bd212b9874f833eccee01dc000e02d14e67d0cbab6531d22b175f900ae8e3888", "4.36.0--r43hdfd78af_0": "sha256:9ffbb7a764a8d85ace4a22d6c5cd67a1bc75ebae1ba9ef2b9dc259717b7f13f6", "4.40.0--r44hdfd78af_0": "sha256:dfa2ba8f5ecb1599c38214d89e2aac46214d430199e6be836ef66a78640a0069", "4.44.0--r45hdfd78af_0": "sha256:30633bd3ba23c5f930beb4e924ffe19f22231c5b6644724dc600f3f2de041e4b"}, "docker": "quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background:4.40.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background:4.44.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background/4.40.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background/4.40.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background/4.44.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background/4.44.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

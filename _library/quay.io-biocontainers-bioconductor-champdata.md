@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-champdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-champdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-champdata/container.yaml"
-updated_at: "2026-03-09 04:54:22.064048"
-latest: "2.38.0--r44hdfd78af_0"
+updated_at: "2026-03-10 04:42:43.783945"
+latest: "2.42.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-champdata"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.32.0--r43hdfd78af_0"
  - "2.34.0--r43hdfd78af_0"
  - "2.38.0--r44hdfd78af_0"
+ - "2.42.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-champdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-champdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-champdata", "latest": {"2.38.0--r44hdfd78af_0": "sha256:ee7aae5bc71e820f58c0c3fae31b2000163fe51339d5492a8b5db638fb4d689f"}, "tags": {"2.26.0--r41hdfd78af_1": "sha256:47517caecacd1453fb2e1861df56d87c803cf66cc1b6c2e27a542d636798d4d5", "2.30.0--r42hdfd78af_0": "sha256:e83632a053a49d4cc55d21bf4801e5fac5213e3b2ed51038b89bc547b3b5f874", "2.32.0--r43hdfd78af_0": "sha256:9c329bbe7a8faacc9e9796b6d777b42ddf0634b0b9d7728c09be78b1e8546af9", "2.34.0--r43hdfd78af_0": "sha256:e93522579481778c71762f5f53d79b88119e9f8ca59862074bcd7c87fe2c776e", "2.38.0--r44hdfd78af_0": "sha256:ee7aae5bc71e820f58c0c3fae31b2000163fe51339d5492a8b5db638fb4d689f"}, "docker": "quay.io/biocontainers/bioconductor-champdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-champdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-champdata", "latest": {"2.42.0--r45hdfd78af_0": "sha256:323dd829bf2d89c552b8824d2833738ef62e4343308eeb027996d92913b9e10f"}, "tags": {"2.26.0--r41hdfd78af_1": "sha256:47517caecacd1453fb2e1861df56d87c803cf66cc1b6c2e27a542d636798d4d5", "2.30.0--r42hdfd78af_0": "sha256:e83632a053a49d4cc55d21bf4801e5fac5213e3b2ed51038b89bc547b3b5f874", "2.32.0--r43hdfd78af_0": "sha256:9c329bbe7a8faacc9e9796b6d777b42ddf0634b0b9d7728c09be78b1e8546af9", "2.34.0--r43hdfd78af_0": "sha256:e93522579481778c71762f5f53d79b88119e9f8ca59862074bcd7c87fe2c776e", "2.38.0--r44hdfd78af_0": "sha256:ee7aae5bc71e820f58c0c3fae31b2000163fe51339d5492a8b5db638fb4d689f", "2.42.0--r45hdfd78af_0": "sha256:323dd829bf2d89c552b8824d2833738ef62e4343308eeb027996d92913b9e10f"}, "docker": "quay.io/biocontainers/bioconductor-champdata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-champdata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-champdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-champdata:2.38.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-champdata:2.42.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-champdata/2.38.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-champdata/2.38.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-champdata/2.42.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-champdata/2.42.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

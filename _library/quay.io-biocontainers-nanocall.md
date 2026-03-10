@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanocall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanocall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanocall/container.yaml"
-updated_at: "2026-03-09 04:57:14.974112"
+updated_at: "2026-03-10 04:45:35.146733"
 latest: "v0.7.4--h0d531b0_4"
 container_url: "https://biocontainers.pro/tools/nanocall"
 aliases:

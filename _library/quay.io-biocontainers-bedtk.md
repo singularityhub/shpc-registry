@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bedtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bedtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bedtk/container.yaml"
-updated_at: "2026-03-09 04:54:41.853852"
+updated_at: "2026-03-10 04:43:03.530387"
 latest: "0.0.r25.dirty--he4a0461_4"
 container_url: "https://biocontainers.pro/tools/bedtk"
 aliases:

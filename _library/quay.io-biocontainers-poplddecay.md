@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/poplddecay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poplddecay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poplddecay/container.yaml"
-updated_at: "2026-03-09 04:54:08.119858"
+updated_at: "2026-03-10 04:42:30.087580"
 latest: "3.43--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/poplddecay"
 aliases:

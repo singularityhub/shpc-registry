@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gcs-oauth2-boto-plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcs-oauth2-boto-plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcs-oauth2-boto-plugin/container.yaml"
-updated_at: "2026-03-09 05:03:53.459686"
+updated_at: "2026-03-10 04:52:16.721218"
 latest: "1.9--py27_1"
 container_url: "https://biocontainers.pro/tools/gcs-oauth2-boto-plugin"
 aliases:
