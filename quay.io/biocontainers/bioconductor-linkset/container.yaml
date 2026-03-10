@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-linkset
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-linkset
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:812d9c323b81076150f16df106d15586bd1ca6ec3fd708acd9aaab1d5fa6140a
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:812d9c323b81076150f16df106d15586bd1ca6ec3fd708acd9aaab1d5fa6140a
+docker: quay.io/biocontainers/bioconductor-linkset
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
