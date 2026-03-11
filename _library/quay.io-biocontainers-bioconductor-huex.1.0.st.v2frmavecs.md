@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-huex.1.0.st.v2frmavecs/container.yaml"
-updated_at: "2026-03-10 04:42:38.068823"
+updated_at: "2026-03-11 04:30:11.785115"
 latest: "1.1.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-huex.1.0.st.v2frmavecs"
 

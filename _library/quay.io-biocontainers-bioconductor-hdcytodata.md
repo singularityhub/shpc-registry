@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hdcytodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hdcytodata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hdcytodata/container.yaml"
-updated_at: "2026-03-10 05:18:06.813218"
+updated_at: "2026-03-11 05:05:40.507264"
 latest: "1.26.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hdcytodata"
 aliases:

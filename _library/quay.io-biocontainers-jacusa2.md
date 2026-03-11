@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jacusa2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jacusa2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jacusa2/container.yaml"
-updated_at: "2026-03-10 05:17:49.822670"
+updated_at: "2026-03-11 05:05:23.667460"
 latest: "2.1.16--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jacusa2"
 aliases:
