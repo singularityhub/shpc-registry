@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genomicscores
 latest:
-  2.18.0--r44hdfd78af_0: 
-    sha256:c70dcc1718a12fc4f28c19d3cd69f837c78ff36753ec9210eabed521fe632649
+  2.22.0--r45hdfd78af_0: 
+    sha256:1c285ce6703f9606ecbd8320fc8fe59fb3112ba9fb0b5112ff8aa367b51c9279
 tags:
   2.6.0--r41hdfd78af_0: 
     sha256:85e37c88267e15433747d682dd3bf636e7c6ecdc6399c88d1b3f3e06d01c2def
@@ -16,4 +16,6 @@ tags:
     sha256:9052f8de1f55be392d3822200745905f18c11fa8b2665fd6dde57ab739db0caf
   2.18.0--r44hdfd78af_0: 
     sha256:c70dcc1718a12fc4f28c19d3cd69f837c78ff36753ec9210eabed521fe632649
+  2.22.0--r45hdfd78af_0: 
+    sha256:1c285ce6703f9606ecbd8320fc8fe59fb3112ba9fb0b5112ff8aa367b51c9279
 docker: quay.io/biocontainers/bioconductor-genomicscores

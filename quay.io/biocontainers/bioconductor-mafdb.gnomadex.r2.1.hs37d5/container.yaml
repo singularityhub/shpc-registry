@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mafdb.gnomadex.r2.1.hs37d5
 latest:
-  3.10.0--r44hdfd78af_10: 
-    sha256:cf93ca8050ad064d85ae5cb585fa168104d559d9a8748ef02076902942e790ea
+  3.10.0--r45hdfd78af_11: 
+    sha256:f3476aa68dab850676fe8283bdba6ac5fbab59b834fd7b9119b330d3968f1610
 tags:
   3.8.0--r36_2: 
     sha256:f57ab2f7a409efe243022836d84a5317ed8f49abd92704003693155c24bc8622
@@ -16,6 +16,8 @@ tags:
     sha256:3aa9971573287827b032ed77c87ee8f5f96cdea0a075ab6ea788aaefa418c3c6
   3.10.0--r44hdfd78af_10: 
     sha256:cf93ca8050ad064d85ae5cb585fa168104d559d9a8748ef02076902942e790ea
+  3.10.0--r45hdfd78af_11: 
+    sha256:f3476aa68dab850676fe8283bdba6ac5fbab59b834fd7b9119b330d3968f1610
 docker: quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.hs37d5
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

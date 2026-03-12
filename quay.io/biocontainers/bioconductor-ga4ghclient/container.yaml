@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ga4ghclient
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:e1cf53bcf914de6b777e7a909bca4f4fe23c4dc1299ecd05194d9db9df179622
+  1.34.0--r45hdfd78af_0: 
+    sha256:15ba68fc0b100b68f951eacbeead337235a55fc5325469554aa3d434ea9f000f
 tags:
   1.8.0--r36_1: 
     sha256:590d237eb6213a8f175d161731f17b1a800ecd66defb4ed5c52e4ff002642e83
@@ -24,6 +24,8 @@ tags:
     sha256:d4c744f79995d06b7eccb2c0d9818a6faca89c1448f7a35621d6e4b0dc07f197
   1.30.0--r44hdfd78af_0: 
     sha256:e1cf53bcf914de6b777e7a909bca4f4fe23c4dc1299ecd05194d9db9df179622
+  1.34.0--r45hdfd78af_0: 
+    sha256:15ba68fc0b100b68f951eacbeead337235a55fc5325469554aa3d434ea9f000f
 docker: quay.io/biocontainers/bioconductor-ga4ghclient
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

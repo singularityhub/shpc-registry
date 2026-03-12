@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pasilla
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:163a286b9f501fe2cf5be867ebb8c7fd8c2f1d5b25f1fe6932e37aa0dc7d95c3
+  1.38.0--r45hdfd78af_0: 
+    sha256:94337c02b646f301598dfecf8f60bb68c89a64acfc0474a40023956ca4a5200a
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:7bef8bee94b66a37dcc53d3e9405762c0b3b2630185a4cad2dd067c944cfa157
@@ -16,4 +16,6 @@ tags:
     sha256:f5c98135e801908516e92c384f806b051f2c193d752d338e7c7df7cbfc998f68
   1.34.0--r44hdfd78af_0: 
     sha256:163a286b9f501fe2cf5be867ebb8c7fd8c2f1d5b25f1fe6932e37aa0dc7d95c3
+  1.38.0--r45hdfd78af_0: 
+    sha256:94337c02b646f301598dfecf8f60bb68c89a64acfc0474a40023956ca4a5200a
 docker: quay.io/biocontainers/bioconductor-pasilla

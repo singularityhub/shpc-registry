@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-ssnappy
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:fcd939395d363ea5005a3960094ba8771df90dc1041a4dcaded825f7e1468653
+  1.14.0--r45hdfd78af_0: 
+    sha256:b96cae2b1a63c76d43e81094e7a997e4f96b8429974c2d4f58d8e9df2f7c0858
 tags:
   1.2.0--r42hc247a5b_0: 
     sha256:e02460654175fd55bbe3aa556b13c0927a09c99221215aa75000b421b3f60696
@@ -16,6 +16,8 @@ tags:
     sha256:a139390812375fefccdaf923164255dbf4c2cbc250d557f6246a33a8ae2b2805
   1.10.0--r44hdfd78af_0: 
     sha256:fcd939395d363ea5005a3960094ba8771df90dc1041a4dcaded825f7e1468653
+  1.14.0--r45hdfd78af_0: 
+    sha256:b96cae2b1a63c76d43e81094e7a997e4f96b8429974c2d4f58d8e9df2f7c0858
 docker: quay.io/biocontainers/bioconductor-ssnappy
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-biomartr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-biomartr
 latest:
-  1.0.7--r44h3342da4_2: 
-    sha256:6bb34ee288779091f1fff22fde68128c007fff5208908bf5fb7e34ccae6f994b
+  1.0.7--r45h3342da4_3: 
+    sha256:7cb2de5ac46c23db8ef5f07db484aa4bf81ec7c9df87b55365040144847b5b0c
 tags:
   1.0.2--r41h3342da4_0: 
     sha256:c4135b83551875e0260531672bb71d2edcaad5ae544a6a3424c80540d30d687f
@@ -21,4 +21,6 @@ tags:
     sha256:1402068cd9afed715cb7a976ae8ebdbd77a88fde8032055c26de1c8f50106f8e
   1.0.7--r44h3342da4_2: 
     sha256:6bb34ee288779091f1fff22fde68128c007fff5208908bf5fb7e34ccae6f994b
+  1.0.7--r45h3342da4_3: 
+    sha256:7cb2de5ac46c23db8ef5f07db484aa4bf81ec7c9df87b55365040144847b5b0c
 docker: quay.io/biocontainers/r-biomartr

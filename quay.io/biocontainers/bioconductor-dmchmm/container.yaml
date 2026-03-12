@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dmchmm
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:f0e45ea6eeee23402bf8c9813d601c71c56538c4d2284aba858fd3c41b1ced0b
+  1.32.0--r45hdfd78af_0: 
+    sha256:0d051ac2c304546cfb71ee9488a715f6d5dc5a7f7f4f611919247f86ae7bfb8b
 tags:
   1.8.0--r36_0: 
     sha256:5fa635339b2e3390a562f5e633a7eaf7ae1700f6a83f541e75dc6368b6fae494
@@ -24,6 +24,8 @@ tags:
     sha256:59aee73f0f98535ad35e4b904af3572cc0b8a89f3f0fd4d12b4cf3b97abbd0a9
   1.28.0--r44hdfd78af_0: 
     sha256:f0e45ea6eeee23402bf8c9813d601c71c56538c4d2284aba858fd3c41b1ced0b
+  1.32.0--r45hdfd78af_0: 
+    sha256:0d051ac2c304546cfb71ee9488a715f6d5dc5a7f7f4f611919247f86ae7bfb8b
 docker: quay.io/biocontainers/bioconductor-dmchmm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-singler
 latest:
-  2.8.0--r44he5774e6_1: 
-    sha256:829286f9b8dd6120dfdda2ba188300d33b8d64c936268b233cb00f74df766939
+  2.12.0--r45ha27e39d_0: 
+    sha256:7f8d98508c7e3d3f6ff6cbea9885eb0b54b50a7ac8faa8dd4c6cbd33566d3a44
 tags:
   1.8.1--r41hc247a5b_1: 
     sha256:975b3f41bd94a141dcce611a08c76bfde66df15e9ae466360fe5faa750ace46c
@@ -20,4 +20,6 @@ tags:
     sha256:9e67ed12125292830a4fc343c27ac4e6a3f87a5377bf2778b3cd4547e2fb39b6
   2.8.0--r44he5774e6_1: 
     sha256:829286f9b8dd6120dfdda2ba188300d33b8d64c936268b233cb00f74df766939
+  2.12.0--r45ha27e39d_0: 
+    sha256:7f8d98508c7e3d3f6ff6cbea9885eb0b54b50a7ac8faa8dd4c6cbd33566d3a44
 docker: quay.io/biocontainers/bioconductor-singler

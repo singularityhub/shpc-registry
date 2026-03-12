@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-frmatools
 latest:
-  1.58.0--r44hdfd78af_0: 
-    sha256:f992615912c0dd7cd443c54c443ea842b26607eadb218c2c9dfb4b82712c76e6
+  1.62.0--r45hdfd78af_0: 
+    sha256:58f53f2cc41149042cc9436a426baeedb116ef5e06eb273207fc266a26ce1720
 tags:
   1.46.0--r41hdfd78af_0: 
     sha256:568b8a453f6f91450c4e2eb78b162a10046113515daa126afb3028eff696018c
@@ -16,4 +16,6 @@ tags:
     sha256:a424ca3123c4528d2e761125d7829b1252b4c15aeeceba190cb959d5d712adaa
   1.58.0--r44hdfd78af_0: 
     sha256:f992615912c0dd7cd443c54c443ea842b26607eadb218c2c9dfb4b82712c76e6
+  1.62.0--r45hdfd78af_0: 
+    sha256:58f53f2cc41149042cc9436a426baeedb116ef5e06eb273207fc266a26ce1720
 docker: quay.io/biocontainers/bioconductor-frmatools

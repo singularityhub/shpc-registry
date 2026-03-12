@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-preda
 latest:
-  1.52.0--r44hdfd78af_0: 
-    sha256:af2d3987f982d50ef565deef000d576740b94a209573952153ebe47cd5866f26
+  1.56.0--r45hdfd78af_0: 
+    sha256:c904b0b061209f94bd0609b3d8ad025c8f1e6a4dff08c1ad0af8403cc79215b8
 tags:
   1.40.0--r41hdfd78af_0: 
     sha256:0a90e3fda741b42c6c87bfb6952567e5354e91c3e62494f7af75cbf716fb9043
@@ -16,4 +16,6 @@ tags:
     sha256:92f83c23c465cb0985e58da406ad481c89f623b616c684fbf6f510740f40e47a
   1.52.0--r44hdfd78af_0: 
     sha256:af2d3987f982d50ef565deef000d576740b94a209573952153ebe47cd5866f26
+  1.56.0--r45hdfd78af_0: 
+    sha256:c904b0b061209f94bd0609b3d8ad025c8f1e6a4dff08c1ad0af8403cc79215b8
 docker: quay.io/biocontainers/bioconductor-preda

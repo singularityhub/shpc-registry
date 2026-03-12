@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cnvgsa
 latest:
-  1.50.0--r44hdfd78af_0: 
-    sha256:fa2c52552e3e474e7eb9ba5721aa4250258ea864fa88f11d36f9c8aa60727157
+  1.54.0--r45hdfd78af_0: 
+    sha256:226af088f5f869e513573f8b342a75097705bfb73d801dc17e34237f2da2527b
 tags:
   1.38.0--r41hdfd78af_0: 
     sha256:6c72e0d34bfdaa3b5e7d72707fdac4968c65040e3f331a8ddf8a6e7b406b76ce
@@ -16,4 +16,6 @@ tags:
     sha256:f6548bbaea104ab54b9db7d5c602b338217ab67779d2ea787fb7fa1637fd89f4
   1.50.0--r44hdfd78af_0: 
     sha256:fa2c52552e3e474e7eb9ba5721aa4250258ea864fa88f11d36f9c8aa60727157
+  1.54.0--r45hdfd78af_0: 
+    sha256:226af088f5f869e513573f8b342a75097705bfb73d801dc17e34237f2da2527b
 docker: quay.io/biocontainers/bioconductor-cnvgsa

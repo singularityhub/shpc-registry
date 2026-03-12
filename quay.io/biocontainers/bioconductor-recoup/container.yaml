@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-recoup
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:658749a92f36548a33c2834d6d61f5263fce03c0187b8d48ad700278068177a9
+  1.38.0--r45hdfd78af_0: 
+    sha256:39faa754edcd34306b083eb0edac3de8348e81960eae3816a85aef9b596576e8
 tags:
   1.8.0--r341_0: 
     sha256:48f13e9e049f6aecf2d86b1cf48716a40751357e5d89f7840acd6d1b02368037
@@ -24,6 +24,8 @@ tags:
     sha256:8cc55ec605fdb16a90dadc556763582d03dc7f6ba9c4c8329ea4ca4da9d582eb
   1.34.0--r44hdfd78af_0: 
     sha256:658749a92f36548a33c2834d6d61f5263fce03c0187b8d48ad700278068177a9
+  1.38.0--r45hdfd78af_0: 
+    sha256:39faa754edcd34306b083eb0edac3de8348e81960eae3816a85aef9b596576e8
 docker: quay.io/biocontainers/bioconductor-recoup
 aliases:
   wget: /usr/local/bin/wget

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genomicdatacommons
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:a40672e02a997a76e7fb15a7f1022bc1419c084955f51d9f86c6a6e2b644dfbc
+  1.34.1--r45hdfd78af_0: 
+    sha256:4ec3ffebe8d661da24cdac322a679a67961084be91acb32f548e71e11c6233bf
 tags:
   1.8.0--r36_1: 
     sha256:f640311607c59d5a03e7e7f94b9eaea90a5d48449e1511a8ca76f7f7dfeab0be
@@ -24,6 +24,8 @@ tags:
     sha256:f86602768e3cbecf34c5e15445ff0db702b5b6ba3af79c1c26323fc132d576b6
   1.30.0--r44hdfd78af_0: 
     sha256:a40672e02a997a76e7fb15a7f1022bc1419c084955f51d9f86c6a6e2b644dfbc
+  1.34.1--r45hdfd78af_0: 
+    sha256:4ec3ffebe8d661da24cdac322a679a67961084be91acb32f548e71e11c6233bf
 docker: quay.io/biocontainers/bioconductor-genomicdatacommons
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

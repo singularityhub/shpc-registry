@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-imputelcmd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-imputelcmd
 latest:
-  2.1--r44h3342da4_3: 
-    sha256:6f47f6cf2dfb0c7525dfa91643aac5c8bd0b4a63832e7ea0b56c6ac4b01dcf07
+  2.1--r45h3342da4_4: 
+    sha256:22a993d02bf5b6f2921c211c10e8d528e40ac0368a0a4780a15325e59e9b304f
 tags:
   2.1--r41h3342da4_0: 
     sha256:8e72a79befe6e598ed2abed2cd14e03175864f4ae580a4aeaf3769be7fe61694
@@ -13,4 +13,6 @@ tags:
     sha256:664a4ce121cd696f5e2f62fbf186d60e44df0bea1c3652ffcd3f03eb9806fa71
   2.1--r44h3342da4_3: 
     sha256:6f47f6cf2dfb0c7525dfa91643aac5c8bd0b4a63832e7ea0b56c6ac4b01dcf07
+  2.1--r45h3342da4_4: 
+    sha256:22a993d02bf5b6f2921c211c10e8d528e40ac0368a0a4780a15325e59e9b304f
 docker: quay.io/biocontainers/r-imputelcmd

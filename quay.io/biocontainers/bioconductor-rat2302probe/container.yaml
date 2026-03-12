@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rat2302probe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:5e53c2d36552131eb34dcd53f6952883e844dfae2b5c8659e69ea494840ca709
+  2.18.0--r45hdfd78af_14: 
+    sha256:656b77cdd5548f3d37da3b4beb87ef9f46be2eb023da126a5dc70dbea10c2557
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:a9ec47a45ba1027f2dc1809fd2fca14f5db937b9bc54563ae3732c841dbaf004
@@ -16,4 +16,6 @@ tags:
     sha256:f430f6ae9a790f0a7557584d70897c87986dd06246ff1cabab6c4cb70dabc73f
   2.18.0--r44hdfd78af_13: 
     sha256:5e53c2d36552131eb34dcd53f6952883e844dfae2b5c8659e69ea494840ca709
+  2.18.0--r45hdfd78af_14: 
+    sha256:656b77cdd5548f3d37da3b4beb87ef9f46be2eb023da126a5dc70dbea10c2557
 docker: quay.io/biocontainers/bioconductor-rat2302probe

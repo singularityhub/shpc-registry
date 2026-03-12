@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mast
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:4fc4f79cda697bd574b57d951d37ec18c2eb252cec1a2ff01803babb05478241
+  1.36.0--r45hdfd78af_0: 
+    sha256:0e630ac41590243b2d47fe01025bf25c5f6a4d7fd2fb98c95ed826f7faf68eb7
 tags:
   1.8.1--r351_0: 
     sha256:0f40ff71c5e10189574ae0da8a7ec14d2a534e7fc87451c5247fec738000d52e
@@ -24,6 +24,8 @@ tags:
     sha256:dcc50d8e40111d01f27d5d1aa18e283b116d843852b769b43e91547928191859
   1.32.0--r44hdfd78af_0: 
     sha256:4fc4f79cda697bd574b57d951d37ec18c2eb252cec1a2ff01803babb05478241
+  1.36.0--r45hdfd78af_0: 
+    sha256:0e630ac41590243b2d47fe01025bf25c5f6a4d7fd2fb98c95ed826f7faf68eb7
 docker: quay.io/biocontainers/bioconductor-mast
 aliases:
   wget: /usr/local/bin/wget

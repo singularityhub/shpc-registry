@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-airpart
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:227ba8a4f17549eecc21986459f61f2cd6bb507c1ae005e553f9791fba3483eb
+  1.18.0--r45hdfd78af_0: 
+    sha256:70ed933d822c4fa694832fb043028333abde8a9bbfc9b41988495fc26e776440
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:3115dbcd8ed70620d9a51f3092def1d1b14842f0b030540fa886aded2ec2995f
@@ -16,4 +16,6 @@ tags:
     sha256:9dbc11e1be146104562795c6d2776b3769009a8a73e870d8771acc8a71d9721a
   1.14.0--r44hdfd78af_0: 
     sha256:227ba8a4f17549eecc21986459f61f2cd6bb507c1ae005e553f9791fba3483eb
+  1.18.0--r45hdfd78af_0: 
+    sha256:70ed933d822c4fa694832fb043028333abde8a9bbfc9b41988495fc26e776440
 docker: quay.io/biocontainers/bioconductor-airpart

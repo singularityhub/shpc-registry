@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mimager
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:4ed7182c9311f9022e90506792019ef012cad0b751c661b88be0b4ff42163962
+  1.34.0--r45hdfd78af_0: 
+    sha256:3f4a79233de5d9a799cda5ffd7e334f9c8dcf41515a04f265d2490ef2266abf7
 tags:
   1.8.0--r36_1: 
     sha256:3827c21fffe6fda5af54efc53567e21a15ecf30b67869551eb1668006c75039c
@@ -24,6 +24,8 @@ tags:
     sha256:bd54ea439be0daf79ccd9df57b84c74f3f660a31ab6a3adb68ab079a9665b19b
   1.30.0--r44hdfd78af_0: 
     sha256:4ed7182c9311f9022e90506792019ef012cad0b751c661b88be0b4ff42163962
+  1.34.0--r45hdfd78af_0: 
+    sha256:3f4a79233de5d9a799cda5ffd7e334f9c8dcf41515a04f265d2490ef2266abf7
 docker: quay.io/biocontainers/bioconductor-mimager
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

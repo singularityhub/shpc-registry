@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-catalyst
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:03141dc0eac02729a184d4f4c3485dbdf20f264e548025c03ef9a938eae73e22
+  1.34.1--r45hdfd78af_0: 
+    sha256:687be459bc992f52f430937a4c33e876706f34afd1c44356555b8352112d6568
 tags:
   1.8.6--r36_0: 
     sha256:04d26ad4939f1420ff7e63887904fd1b55e42b95e35a678f7626d8f233502ed3
@@ -24,6 +24,8 @@ tags:
     sha256:250db31df55d22d86d009dd7053aaf630fa9cf73285dae256e630bf7f7bb509b
   1.30.0--r44hdfd78af_0: 
     sha256:03141dc0eac02729a184d4f4c3485dbdf20f264e548025c03ef9a938eae73e22
+  1.34.1--r45hdfd78af_0: 
+    sha256:687be459bc992f52f430937a4c33e876706f34afd1c44356555b8352112d6568
 docker: quay.io/biocontainers/bioconductor-catalyst
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

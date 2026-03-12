@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-omadb
 latest:
-  2.22.0--r44hdfd78af_0: 
-    sha256:f0719d5dcdd25827030945643b79ed1a8d9249db3bb3457899107d59e2e552a8
+  2.26.0--r45hdfd78af_0: 
+    sha256:0898f53c828c3c474d69e26e3471529c350d707fe0587d7a9a916459289fdf52
 tags:
   2.8.0--r41hdfd78af_0: 
     sha256:444daa83ed6f186265cd969fbc0e8a52209a837904e0539cad0f749acaeda2ae
@@ -18,6 +18,8 @@ tags:
     sha256:9fcf456f00e30c47927ba8a52ed44691c99fa6a8cf7b45bb5f5d3d5a683020f6
   2.22.0--r44hdfd78af_0: 
     sha256:f0719d5dcdd25827030945643b79ed1a8d9249db3bb3457899107d59e2e552a8
+  2.26.0--r45hdfd78af_0: 
+    sha256:0898f53c828c3c474d69e26e3471529c350d707fe0587d7a9a916459289fdf52
 docker: quay.io/biocontainers/bioconductor-omadb
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-phantasus
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:f4439a7f614f5f496ed5852af6f2ee3aacce11c1b1b758dc6fef7625e3092fc6
+  1.30.0--r45hdfd78af_0: 
+    sha256:52a903a2b89578638fc61e49c838660c2c4bdeb23f76888cb7a71432c6b54c84
 tags:
   1.8.0--r40_0: 
     sha256:389e202ac322433c1ae8d923ba9ce01012c87a488d1e45eda6806ea59d610157
@@ -22,6 +22,8 @@ tags:
     sha256:7926eba9f0a29700d3f6affdedec18795387b341cd2cc9c67a77b300d26a5e35
   1.26.0--r44hdfd78af_0: 
     sha256:f4439a7f614f5f496ed5852af6f2ee3aacce11c1b1b758dc6fef7625e3092fc6
+  1.30.0--r45hdfd78af_0: 
+    sha256:52a903a2b89578638fc61e49c838660c2c4bdeb23f76888cb7a71432c6b54c84
 docker: quay.io/biocontainers/bioconductor-phantasus
 aliases:
   protoc: /usr/local/bin/protoc

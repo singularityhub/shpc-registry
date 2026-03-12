@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lace
 latest:
-  2.10.0--r44hdfd78af_0: 
-    sha256:15dc3d039968271b8202c2b079eb3b8dfb008fb6dd60283e2b9bb80fdb34b428
+  2.14.0--r45hdfd78af_0: 
+    sha256:6c67472125275343087f6454ef19d067af830507a57c80232ac182f62764437a
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:8ae85d97e6b6c2582a75c811bedb146c1108b3edeaa46a63be73b3d25a1cbf5d
@@ -16,4 +16,6 @@ tags:
     sha256:a5e0e2baf4d41fe8cabd1c91b0be2991e295cd0220f6d04a5015f5b27bd7ef68
   2.10.0--r44hdfd78af_0: 
     sha256:15dc3d039968271b8202c2b079eb3b8dfb008fb6dd60283e2b9bb80fdb34b428
+  2.14.0--r45hdfd78af_0: 
+    sha256:6c67472125275343087f6454ef19d067af830507a57c80232ac182f62764437a
 docker: quay.io/biocontainers/bioconductor-lace

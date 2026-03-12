@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ensdb.hsapiens.v75
 latest:
-  2.99.0--r44hdfd78af_16: 
-    sha256:2adb6d3be5195b824a1d892da4b089d931ccced9b0ea21fb2a67141d299e3c2b
+  2.99.0--r45hdfd78af_17: 
+    sha256:14b6ccb2ee3047d0d5bbc0d5eee80bf7bea43a5d84ce8e1f909535448157881b
 tags:
   2.99.0--r40hdfd78af_9: 
     sha256:0af9ffae60af053bd2d6c2bc5bdedd02d5539fd0b7aa2558848957919b90c319
@@ -16,6 +16,8 @@ tags:
     sha256:92df4c082d6a925dd05b3ba004dfa57a9f4b1d988ebd8081db3f2479260e2506
   2.99.0--r44hdfd78af_16: 
     sha256:2adb6d3be5195b824a1d892da4b089d931ccced9b0ea21fb2a67141d299e3c2b
+  2.99.0--r45hdfd78af_17: 
+    sha256:14b6ccb2ee3047d0d5bbc0d5eee80bf7bea43a5d84ce8e1f909535448157881b
 docker: quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hicdcplus
 latest:
-  1.14.0--r44h77050f0_0: 
-    sha256:5753f49530799cfd6be53591e122f57a3a76c6d95798f468ff7f764dcf0be8d1
+  1.18.0--r45ha27e39d_0: 
+    sha256:9b5270bb541e2547a2226fe463503627eee6aa20d1edba137c38607a714c4f42
 tags:
   1.2.1--r41hc247a5b_1: 
     sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd
@@ -18,6 +18,8 @@ tags:
     sha256:5f3036b077c50aac66f103a29a6f2996959e9aa144ead61dc4cd498bc01866f8
   1.14.0--r44h77050f0_0: 
     sha256:5753f49530799cfd6be53591e122f57a3a76c6d95798f468ff7f764dcf0be8d1
+  1.18.0--r45ha27e39d_0: 
+    sha256:9b5270bb541e2547a2226fe463503627eee6aa20d1edba137c38607a714c4f42
 docker: quay.io/biocontainers/bioconductor-hicdcplus
 aliases:
   glpsol: /usr/local/bin/glpsol

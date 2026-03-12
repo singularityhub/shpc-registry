@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-singlecellmultimodal
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:21f7750fbc2f84102c2bdfa63f03811770eded44761bfd7cd987b1f428b8aea4
+  1.22.0--r45hdfd78af_0: 
+    sha256:66ebc702e7f150e3246383ca078adec4621047f17f8bba7fa15d441095c0be29
 tags:
   1.6.0--r41hdfd78af_1: 
     sha256:2461e862ee6aad6ef7584ece349f9c72f87e976fb954eb8c77cebd6c58be63c2
@@ -16,6 +16,8 @@ tags:
     sha256:87b18df097315090144f5570d198c5a69b81f98ede96797d048bd08f64cae885
   1.18.0--r44hdfd78af_0: 
     sha256:21f7750fbc2f84102c2bdfa63f03811770eded44761bfd7cd987b1f428b8aea4
+  1.22.0--r45hdfd78af_0: 
+    sha256:66ebc702e7f150e3246383ca078adec4621047f17f8bba7fa15d441095c0be29
 docker: quay.io/biocontainers/bioconductor-singlecellmultimodal
 aliases:
   x86_64-conda-linux-gnu-pkg-config: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-methylkit
 latest:
-  1.32.0--r44h77050f0_0: 
-    sha256:297ffee2149453173141ccb9dcd10ebb4ed4a2d0b37283a0942eb2a2a4ebb013
+  1.36.0--r45ha27e39d_0: 
+    sha256:3bc5ec3aa01cc26a6437b8477829c19b31c6d906186cabf3fc1f73886131f621
 tags:
   1.8.1--r351hf484d3e_0: 
     sha256:c6e8b2f6ac1098afb763a365c428ffd87f8697c76988adb49db5a3b3e74bab97
@@ -26,6 +26,8 @@ tags:
     sha256:40a26dd0292c28c132452b1d434a91ebcbcf8a5d1d2d8203ed2d1b6b67ab8dfc
   1.32.0--r44h77050f0_0: 
     sha256:297ffee2149453173141ccb9dcd10ebb4ed4a2d0b37283a0942eb2a2a4ebb013
+  1.36.0--r45ha27e39d_0: 
+    sha256:3bc5ec3aa01cc26a6437b8477829c19b31c6d906186cabf3fc1f73886131f621
 docker: quay.io/biocontainers/bioconductor-methylkit
 aliases:
   wget: /usr/local/bin/wget

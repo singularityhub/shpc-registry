@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tabulamurisdata
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:9bfbdb3c343bf2ba8d7272a27146eb3b8a25462f2c6b28946bc4c4b73175c4e0
+  1.28.0--r45hdfd78af_0: 
+    sha256:6df2df62088024a6e9e7855a0dd59904ce4fdb357e884baa82f889920825debd
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:9abed4edeb2be03b4cd4fd9e3fdb3d860419b4581ac3fb0ed720e2945b4b0855
@@ -20,6 +20,8 @@ tags:
     sha256:2a7fb60ae12b1716e06566c640a20ee454f2e80d34df8bf684318c7149e10bf6
   1.24.0--r44hdfd78af_0: 
     sha256:9bfbdb3c343bf2ba8d7272a27146eb3b8a25462f2c6b28946bc4c4b73175c4e0
+  1.28.0--r45hdfd78af_0: 
+    sha256:6df2df62088024a6e9e7855a0dd59904ce4fdb357e884baa82f889920825debd
 docker: quay.io/biocontainers/bioconductor-tabulamurisdata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

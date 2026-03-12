@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-drosgenome1cdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:f608be01d294e40cd21955181ab5dce5f2b51c873c5bc1c9d1de119d434d6c09
+  2.18.0--r45hdfd78af_14: 
+    sha256:ff935f39c25ac6b8e09c30dd6fe15624ca1319113bc79a04d7c1f4888b661e82
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:700058eb6f84fedc88d16c46cef6b88aee24fabe7d25e3e90d6c5f74b28c8851
@@ -16,4 +16,6 @@ tags:
     sha256:9252113f585e9b2e5eb6e3f041e97cd70f1c0ea80d7137260c8c44bcfb17f375
   2.18.0--r44hdfd78af_13: 
     sha256:f608be01d294e40cd21955181ab5dce5f2b51c873c5bc1c9d1de119d434d6c09
+  2.18.0--r45hdfd78af_14: 
+    sha256:ff935f39c25ac6b8e09c30dd6fe15624ca1319113bc79a04d7c1f4888b661e82
 docker: quay.io/biocontainers/bioconductor-drosgenome1cdf

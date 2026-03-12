@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ctrap
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:1160c1fc98e4d94f633edfa4d8e6d765fd975ec0579ea3abc5084159dbaddcfd
+  1.28.0--r45hdfd78af_0: 
+    sha256:5af599dd4f5ebfb1028ba6ff9717c4efa9b108903a3567f9322d60a3b0e1b573
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:4caaf1bc57b6f492dbf92bbd654d6d0723ace99116c1d72090ddb432f6b0102b
@@ -20,6 +20,8 @@ tags:
     sha256:e8d68366a232e3f198e99538371943db3d510c97b0773370824aa1619cc7343b
   1.24.0--r44hdfd78af_0: 
     sha256:1160c1fc98e4d94f633edfa4d8e6d765fd975ec0579ea3abc5084159dbaddcfd
+  1.28.0--r45hdfd78af_0: 
+    sha256:5af599dd4f5ebfb1028ba6ff9717c4efa9b108903a3567f9322d60a3b0e1b573
 docker: quay.io/biocontainers/bioconductor-ctrap
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

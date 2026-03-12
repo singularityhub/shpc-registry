@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-annotatr
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:d95c7a797690a0267020ecfb829303b709b91ccfc78fe114fd01c321fe82e531
+  1.36.0--r45hdfd78af_0: 
+    sha256:dcb11875c4674bbd4d2a8563721457eec0b63cca03467b2da5fed001f5552274
 tags:
   1.8.0--r351_0: 
     sha256:2d898b3a0a54d7714ab6b7a5275d3ffdb9f9173d9c929572a35d14366eee948f
@@ -24,6 +24,8 @@ tags:
     sha256:b3cd759182d49b1ccab5e0e25e073f244ab5e97a80d7d0ac56c46225a0c21294
   1.32.0--r44hdfd78af_0: 
     sha256:d95c7a797690a0267020ecfb829303b709b91ccfc78fe114fd01c321fe82e531
+  1.36.0--r45hdfd78af_0: 
+    sha256:dcb11875c4674bbd4d2a8563721457eec0b63cca03467b2da5fed001f5552274
 docker: quay.io/biocontainers/bioconductor-annotatr
 aliases:
   wget: /usr/local/bin/wget

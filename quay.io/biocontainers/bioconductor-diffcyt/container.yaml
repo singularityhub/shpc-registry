@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-diffcyt
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:64b6e9323a22aeb7aeeb1c2ccc3aa16668e355f104e4b68805006e977242268f
+  1.30.0--r45hdfd78af_0: 
+    sha256:09d3187748b51e3ec846ca97979ca1d9121cc9cf18c7360fce07060fb9012b34
 tags:
   1.8.6--r40_0: 
     sha256:5e5209d0e5f92cbc2e9b84ab8c20dabc6396df4810d5cca5a64aa4cefc3048c1
@@ -22,6 +22,8 @@ tags:
     sha256:9ce0943627712f966f3890586a7bdb72bd30aa339d8e8c581076322ab8b072c3
   1.26.0--r44hdfd78af_0: 
     sha256:64b6e9323a22aeb7aeeb1c2ccc3aa16668e355f104e4b68805006e977242268f
+  1.30.0--r45hdfd78af_0: 
+    sha256:09d3187748b51e3ec846ca97979ca1d9121cc9cf18c7360fce07060fb9012b34
 docker: quay.io/biocontainers/bioconductor-diffcyt
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
