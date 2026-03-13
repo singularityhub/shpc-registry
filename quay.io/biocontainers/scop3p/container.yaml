@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/scop3p
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scop3p
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:1a4be0ca72b0d17be7ef0f4b52c1351dcb557dde1a44e06d9a83ca83d7e20875
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:1a4be0ca72b0d17be7ef0f4b52c1351dcb557dde1a44e06d9a83ca83d7e20875
+docker: quay.io/biocontainers/scop3p
+aliases:
+  scop3p: /usr/local/bin/scop3p
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  normalizer: /usr/local/bin/normalizer

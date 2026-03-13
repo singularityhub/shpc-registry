@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bioconductor-mutscan
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-mutscan
+latest:
+  1.0.0--r45ha27e39d_0: 
+    sha256:c4427ef46975f888254f596ce0933bf6d1cf89fc80ef50053cc0578df83502dd
+tags:
+  1.0.0--r45ha27e39d_0: 
+    sha256:c4427ef46975f888254f596ce0933bf6d1cf89fc80ef50053cc0578df83502dd
+docker: quay.io/biocontainers/bioconductor-mutscan
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/nomnom
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nomnom
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:835e71fefbaff52ded42e1384a2b3d7dd1bcc60325ba20e759d2112ee935cbd6
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:835e71fefbaff52ded42e1384a2b3d7dd1bcc60325ba20e759d2112ee935cbd6
+docker: quay.io/biocontainers/nomnom
+aliases:
+  cat-numbers: /usr/local/bin/cat-numbers
+  compact-json: /usr/local/bin/compact-json
+  csv2numbers: /usr/local/bin/csv2numbers
+  csv2ods: /usr/local/bin/csv2ods
+  mailodf: /usr/local/bin/mailodf
+  nomnom: /usr/local/bin/nomnom
+  odf2mht: /usr/local/bin/odf2mht
+  odf2xhtml: /usr/local/bin/odf2xhtml
+  odf2xml: /usr/local/bin/odf2xml
+  odfimgimport: /usr/local/bin/odfimgimport
+  odflint: /usr/local/bin/odflint
+  odfmeta: /usr/local/bin/odfmeta
+  odfoutline: /usr/local/bin/odfoutline
+  odfuserfield: /usr/local/bin/odfuserfield
+  unpack-numbers: /usr/local/bin/unpack-numbers
+  xml2odf: /usr/local/bin/xml2odf
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config

@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/bioconductor-miadash
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-miadash
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:dcff37c32c92e064d8d976e8f4daea8cccb6a0528ef011802173e1ab9305b6be
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:dcff37c32c92e064d8d976e8f4daea8cccb6a0528ef011802173e1ab9305b6be
+docker: quay.io/biocontainers/bioconductor-miadash
+aliases:
+  git2: /usr/local/bin/git2
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

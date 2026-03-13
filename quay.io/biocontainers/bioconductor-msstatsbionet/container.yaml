@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/bioconductor-msstatsbionet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-msstatsbionet
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:85d5e5349a3b610b182c5a28d1209465a7a32dfb889d8b1dce8920a112191516
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:85d5e5349a3b610b182c5a28d1209465a7a32dfb889d8b1dce8920a112191516
+docker: quay.io/biocontainers/bioconductor-msstatsbionet
+aliases:
+  python3.14t: /usr/local/bin/python3.14t
+  python3.14t-config: /usr/local/bin/python3.14t-config
+  Cytoscape: /usr/local/bin/Cytoscape
+  cytoscape.sh: /usr/local/bin/cytoscape.sh
+  gen_vmoptions.sh: /usr/local/bin/gen_vmoptions.sh
+  curve_keygen: /usr/local/bin/curve_keygen
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jpackage: /usr/local/bin/jpackage
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver

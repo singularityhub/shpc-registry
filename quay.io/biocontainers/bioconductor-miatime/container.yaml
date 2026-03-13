@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bioconductor-miatime
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-miatime
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:c35c2739b04a9fd6d1c06642197319936fc3aa4215c849c8f5aaa70d7c4e1b5f
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:c35c2739b04a9fd6d1c06642197319936fc3aa4215c849c8f5aaa70d7c4e1b5f
+docker: quay.io/biocontainers/bioconductor-miatime
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

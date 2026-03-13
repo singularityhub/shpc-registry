@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/bioconductor-mspms
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-mspms
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:eec6f8178f3871e3693809be2900ac32577646ab3b3dc248a81f10c8bb5eb1f1
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:eec6f8178f3871e3693809be2900ac32577646ab3b3dc248a81f10c8bb5eb1f1
+docker: quay.io/biocontainers/bioconductor-mspms
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

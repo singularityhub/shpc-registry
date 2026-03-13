@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-picb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-picb
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:77b1d8ce106f9f0756b2d453b851db6d06a17037d22a38d9a52e9829f7d9ac2f
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:77b1d8ce106f9f0756b2d453b851db6d06a17037d22a38d9a52e9829f7d9ac2f
+docker: quay.io/biocontainers/bioconductor-picb
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
