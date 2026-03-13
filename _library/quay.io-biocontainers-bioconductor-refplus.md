@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-refplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-refplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-refplus/container.yaml"
-updated_at: "2026-03-11 04:43:20.202503"
+updated_at: "2026-03-13 04:46:19.615565"
 latest: "1.70.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-refplus"
 

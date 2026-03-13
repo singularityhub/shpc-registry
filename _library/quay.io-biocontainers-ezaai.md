@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ezaai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezaai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezaai/container.yaml"
-updated_at: "2026-03-11 04:50:59.410434"
+updated_at: "2026-03-13 04:54:04.127104"
 latest: "1.2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezaai"
 aliases:

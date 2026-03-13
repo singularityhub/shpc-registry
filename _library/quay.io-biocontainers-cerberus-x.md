@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cerberus-x"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cerberus-x/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cerberus-x/container.yaml"
-updated_at: "2026-03-11 04:55:59.695123"
+updated_at: "2026-03-13 04:59:22.803974"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cerberus-x"
 aliases:

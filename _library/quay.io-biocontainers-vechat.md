@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vechat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vechat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vechat/container.yaml"
-updated_at: "2026-03-11 05:00:02.752328"
+updated_at: "2026-03-13 05:03:44.556797"
 latest: "1.1.1--hdcf5f25_1"
 container_url: "https://biocontainers.pro/tools/vechat"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-preda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-preda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-preda/container.yaml"
-updated_at: "2026-03-11 04:55:05.251471"
-latest: "1.52.0--r44hdfd78af_0"
+updated_at: "2026-03-13 04:58:25.165449"
+latest: "1.56.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-preda"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.46.0--r43hdfd78af_0"
  - "1.48.0--r43hdfd78af_0"
  - "1.52.0--r44hdfd78af_0"
+ - "1.56.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-preda"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-preda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-preda", "latest": {"1.52.0--r44hdfd78af_0": "sha256:af2d3987f982d50ef565deef000d576740b94a209573952153ebe47cd5866f26"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:0a90e3fda741b42c6c87bfb6952567e5354e91c3e62494f7af75cbf716fb9043", "1.44.0--r42hdfd78af_0": "sha256:795fd7cd35000fa3a22a6ad20baf63530b92c5306d5298eae17d4453a502549a", "1.46.0--r43hdfd78af_0": "sha256:fd7dc7a697e6f92a0822edd3a21c069018fb628ca0c13836c922cb0e3e7ed1b9", "1.48.0--r43hdfd78af_0": "sha256:92f83c23c465cb0985e58da406ad481c89f623b616c684fbf6f510740f40e47a", "1.52.0--r44hdfd78af_0": "sha256:af2d3987f982d50ef565deef000d576740b94a209573952153ebe47cd5866f26"}, "docker": "quay.io/biocontainers/bioconductor-preda"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-preda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-preda", "latest": {"1.56.0--r45hdfd78af_0": "sha256:c904b0b061209f94bd0609b3d8ad025c8f1e6a4dff08c1ad0af8403cc79215b8"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:0a90e3fda741b42c6c87bfb6952567e5354e91c3e62494f7af75cbf716fb9043", "1.44.0--r42hdfd78af_0": "sha256:795fd7cd35000fa3a22a6ad20baf63530b92c5306d5298eae17d4453a502549a", "1.46.0--r43hdfd78af_0": "sha256:fd7dc7a697e6f92a0822edd3a21c069018fb628ca0c13836c922cb0e3e7ed1b9", "1.48.0--r43hdfd78af_0": "sha256:92f83c23c465cb0985e58da406ad481c89f623b616c684fbf6f510740f40e47a", "1.52.0--r44hdfd78af_0": "sha256:af2d3987f982d50ef565deef000d576740b94a209573952153ebe47cd5866f26", "1.56.0--r45hdfd78af_0": "sha256:c904b0b061209f94bd0609b3d8ad025c8f1e6a4dff08c1ad0af8403cc79215b8"}, "docker": "quay.io/biocontainers/bioconductor-preda"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-preda.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-preda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-preda:1.52.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-preda:1.56.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-preda/1.52.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-preda/1.52.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-preda/1.56.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-preda/1.56.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

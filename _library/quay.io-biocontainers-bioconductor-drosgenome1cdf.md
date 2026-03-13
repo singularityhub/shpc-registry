@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-drosgenome1cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drosgenome1cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drosgenome1cdf/container.yaml"
-updated_at: "2026-03-11 05:03:48.032073"
-latest: "2.18.0--r44hdfd78af_13"
+updated_at: "2026-03-13 05:07:41.742981"
+latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-drosgenome1cdf"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.18.0--r43hdfd78af_11"
  - "2.18.0--r43hdfd78af_12"
  - "2.18.0--r44hdfd78af_13"
+ - "2.18.0--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-drosgenome1cdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drosgenome1cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drosgenome1cdf", "latest": {"2.18.0--r44hdfd78af_13": "sha256:f608be01d294e40cd21955181ab5dce5f2b51c873c5bc1c9d1de119d434d6c09"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:700058eb6f84fedc88d16c46cef6b88aee24fabe7d25e3e90d6c5f74b28c8851", "2.18.0--r42hdfd78af_10": "sha256:d7b72ce0ccfb3216cd975c07d755dab8f0c0d113728f5664d6edf0fbfba4e72c", "2.18.0--r43hdfd78af_11": "sha256:d0266e01ac2a3e4ff18611ffb0436ebe7f63efa5693e0ed1d408e904ca4b6be1", "2.18.0--r43hdfd78af_12": "sha256:9252113f585e9b2e5eb6e3f041e97cd70f1c0ea80d7137260c8c44bcfb17f375", "2.18.0--r44hdfd78af_13": "sha256:f608be01d294e40cd21955181ab5dce5f2b51c873c5bc1c9d1de119d434d6c09"}, "docker": "quay.io/biocontainers/bioconductor-drosgenome1cdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drosgenome1cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drosgenome1cdf", "latest": {"2.18.0--r45hdfd78af_14": "sha256:ff935f39c25ac6b8e09c30dd6fe15624ca1319113bc79a04d7c1f4888b661e82"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:700058eb6f84fedc88d16c46cef6b88aee24fabe7d25e3e90d6c5f74b28c8851", "2.18.0--r42hdfd78af_10": "sha256:d7b72ce0ccfb3216cd975c07d755dab8f0c0d113728f5664d6edf0fbfba4e72c", "2.18.0--r43hdfd78af_11": "sha256:d0266e01ac2a3e4ff18611ffb0436ebe7f63efa5693e0ed1d408e904ca4b6be1", "2.18.0--r43hdfd78af_12": "sha256:9252113f585e9b2e5eb6e3f041e97cd70f1c0ea80d7137260c8c44bcfb17f375", "2.18.0--r44hdfd78af_13": "sha256:f608be01d294e40cd21955181ab5dce5f2b51c873c5bc1c9d1de119d434d6c09", "2.18.0--r45hdfd78af_14": "sha256:ff935f39c25ac6b8e09c30dd6fe15624ca1319113bc79a04d7c1f4888b661e82"}, "docker": "quay.io/biocontainers/bioconductor-drosgenome1cdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drosgenome1cdf.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-drosgenome1cdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-drosgenome1cdf:2.18.0--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-drosgenome1cdf:2.18.0--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-drosgenome1cdf/2.18.0--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-drosgenome1cdf/2.18.0--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-drosgenome1cdf/2.18.0--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-drosgenome1cdf/2.18.0--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

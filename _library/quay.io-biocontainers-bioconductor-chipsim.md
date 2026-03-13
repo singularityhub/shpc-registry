@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipsim/container.yaml"
-updated_at: "2026-03-11 04:57:58.641613"
-latest: "1.60.0--r44hdfd78af_0"
+updated_at: "2026-03-13 05:01:30.514263"
+latest: "1.64.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipsim"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.54.0--r43hdfd78af_0"
  - "1.56.0--r43hdfd78af_0"
  - "1.60.0--r44hdfd78af_0"
+ - "1.64.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipsim", "latest": {"1.60.0--r44hdfd78af_0": "sha256:ee6194026bfcdbc539da38a45bf5a13be878a087fb945af9b7fa01a54b63443a"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:df5f587d74984d77cc811bc77628a64f6645c5811277b7a5ff7770546ba80f46", "1.52.0--r42hdfd78af_0": "sha256:1de0af055c5dc58ff762cb17ae8faca7e1063442ee94bf84588fd87e0645a9f1", "1.54.0--r43hdfd78af_0": "sha256:cce07854d3ac7b58d425a4e8d30427c12117bc3d195937a887da679298cf123d", "1.56.0--r43hdfd78af_0": "sha256:c2d1b2ca2fa2f1128743131bd77d5eec8e70dac44daed9673ecff9ab07209d84", "1.60.0--r44hdfd78af_0": "sha256:ee6194026bfcdbc539da38a45bf5a13be878a087fb945af9b7fa01a54b63443a"}, "docker": "quay.io/biocontainers/bioconductor-chipsim"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipsim", "latest": {"1.64.0--r45hdfd78af_0": "sha256:b4707bac69b236a3909fdf7072e6f97671992926fae4f2d77ed8826606d09c08"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:df5f587d74984d77cc811bc77628a64f6645c5811277b7a5ff7770546ba80f46", "1.52.0--r42hdfd78af_0": "sha256:1de0af055c5dc58ff762cb17ae8faca7e1063442ee94bf84588fd87e0645a9f1", "1.54.0--r43hdfd78af_0": "sha256:cce07854d3ac7b58d425a4e8d30427c12117bc3d195937a887da679298cf123d", "1.56.0--r43hdfd78af_0": "sha256:c2d1b2ca2fa2f1128743131bd77d5eec8e70dac44daed9673ecff9ab07209d84", "1.60.0--r44hdfd78af_0": "sha256:ee6194026bfcdbc539da38a45bf5a13be878a087fb945af9b7fa01a54b63443a", "1.64.0--r45hdfd78af_0": "sha256:b4707bac69b236a3909fdf7072e6f97671992926fae4f2d77ed8826606d09c08"}, "docker": "quay.io/biocontainers/bioconductor-chipsim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipsim.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chipsim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chipsim:1.60.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chipsim:1.64.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chipsim/1.60.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chipsim/1.60.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chipsim/1.64.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chipsim/1.64.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

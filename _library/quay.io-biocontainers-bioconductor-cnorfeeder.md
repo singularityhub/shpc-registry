@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnorfeeder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnorfeeder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnorfeeder/container.yaml"
-updated_at: "2026-03-11 04:35:46.414485"
+updated_at: "2026-03-13 04:38:48.262474"
 latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnorfeeder"
 aliases:

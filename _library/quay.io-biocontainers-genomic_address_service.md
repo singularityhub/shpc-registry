@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomic_address_service"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomic_address_service/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomic_address_service/container.yaml"
-updated_at: "2026-03-11 05:02:05.685703"
+updated_at: "2026-03-13 05:05:53.887364"
 latest: "0.1.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/genomic_address_service"
 aliases:

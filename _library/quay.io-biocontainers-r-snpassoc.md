@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-snpassoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-snpassoc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-snpassoc/container.yaml"
-updated_at: "2026-03-11 05:05:47.264957"
+updated_at: "2026-03-13 05:09:42.929524"
 latest: "1.9_2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-snpassoc"
 aliases:

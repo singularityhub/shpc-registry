@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-archive-extract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-archive-extract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-archive-extract/container.yaml"
-updated_at: "2026-03-11 04:28:17.044200"
+updated_at: "2026-03-13 04:31:10.298224"
 latest: "0.88--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-archive-extract"
 aliases:

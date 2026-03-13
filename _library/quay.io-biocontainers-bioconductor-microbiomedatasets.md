@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-microbiomedatasets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiomedatasets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiomedatasets/container.yaml"
-updated_at: "2026-03-11 04:48:48.619487"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-03-13 04:51:49.903998"
+latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiomedatasets"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-microbiomedatasets"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiomedatasets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiomedatasets", "latest": {"1.14.0--r44hdfd78af_0": "sha256:4e761c619c6c0d74f42aa942d63314bf11d0d0fe05809ad501c80489a74a0522"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:588aab014b525964c9cb5e62e383f415bc351ac5d63230163ebe3e7395e5db35", "1.6.0--r42hdfd78af_0": "sha256:90668fa6cf90465676a459388aa4d1be877042c6ff4e4a70595d4655ddc0ba11", "1.8.0--r43hdfd78af_0": "sha256:ed5d343e1b768daacd09a819e8aee6b52a8ea0284cf58953989b8c7d15349f24", "1.10.0--r43hdfd78af_0": "sha256:b84decbda96b9dc3d132d9648d65316f20e76215643f5e09d90c3c08b2c0cb74", "1.14.0--r44hdfd78af_0": "sha256:4e761c619c6c0d74f42aa942d63314bf11d0d0fe05809ad501c80489a74a0522"}, "docker": "quay.io/biocontainers/bioconductor-microbiomedatasets"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiomedatasets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiomedatasets", "latest": {"1.18.0--r45hdfd78af_0": "sha256:0b2a828c9180bd20bbfe1dbe0c5f7f5083d8d7ab36b758a27a15b1d9bb8269f1"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:588aab014b525964c9cb5e62e383f415bc351ac5d63230163ebe3e7395e5db35", "1.6.0--r42hdfd78af_0": "sha256:90668fa6cf90465676a459388aa4d1be877042c6ff4e4a70595d4655ddc0ba11", "1.8.0--r43hdfd78af_0": "sha256:ed5d343e1b768daacd09a819e8aee6b52a8ea0284cf58953989b8c7d15349f24", "1.10.0--r43hdfd78af_0": "sha256:b84decbda96b9dc3d132d9648d65316f20e76215643f5e09d90c3c08b2c0cb74", "1.14.0--r44hdfd78af_0": "sha256:4e761c619c6c0d74f42aa942d63314bf11d0d0fe05809ad501c80489a74a0522", "1.18.0--r45hdfd78af_0": "sha256:0b2a828c9180bd20bbfe1dbe0c5f7f5083d8d7ab36b758a27a15b1d9bb8269f1"}, "docker": "quay.io/biocontainers/bioconductor-microbiomedatasets"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-microbiomedatasets.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-microbiomedatasets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-microbiomedatasets:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-microbiomedatasets:1.18.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-microbiomedatasets/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-microbiomedatasets/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-microbiomedatasets/1.18.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-microbiomedatasets/1.18.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
