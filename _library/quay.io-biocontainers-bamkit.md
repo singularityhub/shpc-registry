@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamkit/container.yaml"
-updated_at: "2026-03-13 04:48:31.554116"
+updated_at: "2026-03-13 16:56:21.905715"
 latest: "16.07.26--py_0"
 container_url: "https://biocontainers.pro/tools/bamkit"
 aliases:
