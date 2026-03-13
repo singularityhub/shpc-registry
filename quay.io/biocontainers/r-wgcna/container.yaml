@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-wgcna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-wgcna
 latest:
-  1.74--r44h40dc89f_0: 
-    sha256:4867d30cdc13850627daa6250df71750a19b5bd5b2786a35f9667a1fba888d43
+  1.74--r45h0df16ae_1: 
+    sha256:a71f0c422b52743efc6777cb335ed67aa3194ad2909ad59b961c52fbf1e8af8e
 tags:
   1.71--r41hecf12ef_0: 
     sha256:cf8283be7ca15cb9cd473d76baebdc0ba3d0b46b14a89ec1334095c36d3f2f7e
@@ -21,4 +21,6 @@ tags:
     sha256:9c536ff91b438c55468cbaa3e923f3fcc6c4d51d8f85bc21529bd72ba6d01500
   1.74--r44h40dc89f_0: 
     sha256:4867d30cdc13850627daa6250df71750a19b5bd5b2786a35f9667a1fba888d43
+  1.74--r45h0df16ae_1: 
+    sha256:a71f0c422b52743efc6777cb335ed67aa3194ad2909ad59b961c52fbf1e8af8e
 docker: quay.io/biocontainers/r-wgcna

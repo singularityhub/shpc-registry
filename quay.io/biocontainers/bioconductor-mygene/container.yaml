@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mygene
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:f8bb709841850ed928b4623bc8567c93a63f4fde172c8a6c3e40d3d00cd0a128
+  1.46.0--r45hdfd78af_0: 
+    sha256:198c870357c86b80bf10c17cf848d2a04910b99b56d51861a055378c21fe9d42
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:efeaf564c12d756f95a4b0e35a7add88b80ed4a3cb56b8130441aebf3d2efe9e
@@ -16,4 +16,6 @@ tags:
     sha256:363122d541be879b61af7e5b161b624a3d03215aa0e141d86ccf40cc184c28d6
   1.42.0--r44hdfd78af_0: 
     sha256:f8bb709841850ed928b4623bc8567c93a63f4fde172c8a6c3e40d3d00cd0a128
+  1.46.0--r45hdfd78af_0: 
+    sha256:198c870357c86b80bf10c17cf848d2a04910b99b56d51861a055378c21fe9d42
 docker: quay.io/biocontainers/bioconductor-mygene

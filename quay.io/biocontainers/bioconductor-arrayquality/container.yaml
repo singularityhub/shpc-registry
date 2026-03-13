@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for
   bioconductor-arrayquality
 latest:
   1.88.0--r45hdfd78af_0: 
-    sha256:305da41cb841226d041b27753846558d534a5a91ac7cefa846e2c462c8e9a3ac
+    sha256:d0dbc7eff33a6f10b564066a7faf9a815b177fcc9396849d5fff04a4dce6976a
 tags:
   1.72.0--r41hdfd78af_0: 
     sha256:8bd66fdac9aca46503289a4082916ffa13b77a4dc7716c7776a4eed9d0597286
@@ -17,5 +17,5 @@ tags:
   1.84.0--r44hdfd78af_0: 
     sha256:1fb51469f8f92f2d73171c87791cdb52b540923633e8dba08f58983214274cfe
   1.88.0--r45hdfd78af_0: 
-    sha256:305da41cb841226d041b27753846558d534a5a91ac7cefa846e2c462c8e9a3ac
+    sha256:d0dbc7eff33a6f10b564066a7faf9a815b177fcc9396849d5fff04a4dce6976a
 docker: quay.io/biocontainers/bioconductor-arrayquality

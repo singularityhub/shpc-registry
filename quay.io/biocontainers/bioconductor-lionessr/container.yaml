@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lionessr
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:164a54ea1d4456c544afbde467e228f9ff8241ad6fed77bec8b7120a54177296
+  1.24.0--r45hdfd78af_0: 
+    sha256:f82d4cc32b54988c687d16ebcaf11b9f5fc620c7cad89eff41b0d84fdbabbe5d
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:61130e02720d338c5a492e6562931de28f4720006a91dcbe05d9f11956ff4426
@@ -16,4 +16,6 @@ tags:
     sha256:71abbf9e773b9e73c13e595cb23d1952aa5765ba44e39a72251e175503e41b80
   1.20.0--r44hdfd78af_0: 
     sha256:164a54ea1d4456c544afbde467e228f9ff8241ad6fed77bec8b7120a54177296
+  1.24.0--r45hdfd78af_0: 
+    sha256:f82d4cc32b54988c687d16ebcaf11b9f5fc620c7cad89eff41b0d84fdbabbe5d
 docker: quay.io/biocontainers/bioconductor-lionessr

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geneplotter
 latest:
-  1.84.0--r44hdfd78af_0: 
-    sha256:b4b03492bc7b1a9311379c4396673a4c2f25efd5a72ab4b23aede8b5159897b6
+  1.88.0--r45hdfd78af_0: 
+    sha256:257d1eef9a5206229031241d11c4be727af4c5a33b3413708558ae32ac66a190
 tags:
   1.72.0--r41hdfd78af_0: 
     sha256:c8e2f7c835d703fd2acc94d3301eeb3054481bf2499ca27e7cf9ac03bb1fb4c1
@@ -16,4 +16,6 @@ tags:
     sha256:5579a79f62132cae56f97f1dbd1d7d966989af990a43cf19cbddcf083186af3f
   1.84.0--r44hdfd78af_0: 
     sha256:b4b03492bc7b1a9311379c4396673a4c2f25efd5a72ab4b23aede8b5159897b6
+  1.88.0--r45hdfd78af_0: 
+    sha256:257d1eef9a5206229031241d11c4be727af4c5a33b3413708558ae32ac66a190
 docker: quay.io/biocontainers/bioconductor-geneplotter

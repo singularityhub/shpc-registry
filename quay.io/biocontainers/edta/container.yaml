@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/edta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for edta
 latest:
-  2.2.2--hdfd78af_1: 
-    sha256:785303baae29a741b780eb72b8e239e3bd35a2cf702855a378a25f96b59f7de0
+  2.3.0--hdfd78af_0: 
+    sha256:6dfb5313b05caf4d6cafa724d6c5a95365e0471adee29005c42a338dfdf358c5
 tags:
   2.1.0--hdfd78af_1: 
     sha256:4fac4caac4af6dc8eeea6ae09af464f9379fa704c6f2f9dd705687759dab5925
@@ -13,6 +13,8 @@ tags:
     sha256:d8453d33127dab4ccfc91dcd5d83316bfed2268deb8215dcb76e976192578501
   2.2.2--hdfd78af_1: 
     sha256:785303baae29a741b780eb72b8e239e3bd35a2cf702855a378a25f96b59f7de0
+  2.3.0--hdfd78af_0: 
+    sha256:6dfb5313b05caf4d6cafa724d6c5a95365e0471adee29005c42a338dfdf358c5
 docker: quay.io/biocontainers/edta
 aliases:
   BuildDatabase: /usr/local/bin/BuildDatabase

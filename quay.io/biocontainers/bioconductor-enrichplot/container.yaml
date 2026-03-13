@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-enrichplot
 latest:
-  1.26.1--r44hdfd78af_0: 
-    sha256:93c4d12a39070ea97ba82aa9ad53fce187a32852cb3a8478cefada0c7552bfd9
+  1.30.4--r45hdfd78af_0: 
+    sha256:66ab87abf06a008b17cd0e6eef3c3eedcf302575fc6afb647ed7aaf75bd0b90c
 tags:
   1.8.1--r40_0: 
     sha256:a93ee7cd49c5cd502f995c32314a170e68ee9847998ca538036c62cfa36d6872
@@ -22,6 +22,8 @@ tags:
     sha256:89cb5fffdab6e63f38efb7d2f691dd11411fb3137e512d62864324f611e0ab8c
   1.26.1--r44hdfd78af_0: 
     sha256:93c4d12a39070ea97ba82aa9ad53fce187a32852cb3a8478cefada0c7552bfd9
+  1.30.4--r45hdfd78af_0: 
+    sha256:66ab87abf06a008b17cd0e6eef3c3eedcf302575fc6afb647ed7aaf75bd0b90c
 docker: quay.io/biocontainers/bioconductor-enrichplot
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

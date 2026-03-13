@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nbamseq
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:38d6df21e1c3d89c23d019dc5bcb431d73f796e9d2502b977d933a43cf1f9055
+  1.26.0--r45hdfd78af_0: 
+    sha256:88c725a5cbbc9648bb9f43dd08a2169ee53253ef25d69a31b1b0a4fe21f32213
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:b81384b64857c72bbb4dd2840a884b84f455fc30e28542abad6b281d0894cfe8
@@ -18,6 +18,8 @@ tags:
     sha256:4392cd7eafa33e929e41e127c84d7be8ad8d6cee7173bd89b396634f5f5145e3
   1.22.0--r44hdfd78af_0: 
     sha256:38d6df21e1c3d89c23d019dc5bcb431d73f796e9d2502b977d933a43cf1f9055
+  1.26.0--r45hdfd78af_0: 
+    sha256:88c725a5cbbc9648bb9f43dd08a2169ee53253ef25d69a31b1b0a4fe21f32213
 docker: quay.io/biocontainers/bioconductor-nbamseq
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

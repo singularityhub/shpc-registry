@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-karyoploter
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:4fd360ba05c5355a823480caf4d184e316b6794150e0e8ee0023b91f11cc06f7
+  1.36.0--r45hdfd78af_0: 
+    sha256:f8819e181586fd28e2b6780766ae646822432960353d3edc977b74fafa6571c2
 tags:
   1.8.5--r351_0: 
     sha256:8f70dcc11b6f51debd3e19aa751b3323ad6259b7bf60dc1597c94e8dc27a864c
@@ -24,6 +24,8 @@ tags:
     sha256:c2e7c5bcfd97af3891503afa43bba8bf756a749a1aa1c8238eb63af31e4b2ec2
   1.32.0--r44hdfd78af_0: 
     sha256:4fd360ba05c5355a823480caf4d184e316b6794150e0e8ee0023b91f11cc06f7
+  1.36.0--r45hdfd78af_0: 
+    sha256:f8819e181586fd28e2b6780766ae646822432960353d3edc977b74fafa6571c2
 docker: quay.io/biocontainers/bioconductor-karyoploter
 aliases:
   wget: /usr/local/bin/wget

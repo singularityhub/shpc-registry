@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/kamino
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kamino
 latest:
-  0.7.0--h4349ce8_0: 
-    sha256:69fcaaa473c6597e36b8328b075c5e7c454e1ee77d5650c40d33d6114dd5f273
+  0.8.0--h4349ce8_0: 
+    sha256:c429b265ebb289a652616dc6ac85f2d9ff4ffc79dc5565d59f13097d55371c51
 tags:
   0.1.0--h4349ce8_0: 
     sha256:025c7be0e57601396ba7b63358aacf41d86801db099e46a854e6824090fae136
@@ -19,6 +19,8 @@ tags:
     sha256:dd6423003c9636ce2e3eb813a7abc27c24d52025f0b7c82f08524fe20a9f5196
   0.3.0--h4349ce8_0: 
     sha256:ab7a3b694fcca684af22249235b2c30e60364d9844ca78986551412556ede476
+  0.8.0--h4349ce8_0: 
+    sha256:c429b265ebb289a652616dc6ac85f2d9ff4ffc79dc5565d59f13097d55371c51
 docker: quay.io/biocontainers/kamino
 aliases:
   kamino: /usr/local/bin/kamino

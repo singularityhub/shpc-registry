@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scry
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:3c33e1062e541fd3e1ee66d79955dcbae87adc4ed8986920d9b90d991fb7200e
+  1.22.0--r45hdfd78af_0: 
+    sha256:098e756a0622906f1a64044632f69be7271856d855f649f4ebab9b78b8c35c21
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:b5d08ac130b03338bfea30b929b648e73fb1b2fa28e663b83b3a485b52c9a830
@@ -16,4 +16,6 @@ tags:
     sha256:34b37838c514a4fefcd6a59fcaf959d0511820e4aa395c63a0bbc726ac80f2eb
   1.18.0--r44hdfd78af_0: 
     sha256:3c33e1062e541fd3e1ee66d79955dcbae87adc4ed8986920d9b90d991fb7200e
+  1.22.0--r45hdfd78af_0: 
+    sha256:098e756a0622906f1a64044632f69be7271856d855f649f4ebab9b78b8c35c21
 docker: quay.io/biocontainers/bioconductor-scry

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fieldeffectcrc
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:00374dcc82c523bf306fecbff40dbde6a21a144673f4440cfa8f3cf401f3de4f
+  1.20.0--r45hdfd78af_0: 
+    sha256:c3a32115f9cd5b0474504cd2c5707fba9cac2f41fb3580eb28b8e41b6704cab9
 tags:
   1.4.0--r41hdfd78af_1: 
     sha256:d7adafb22ce5db3227d397f0246623148e7216b25c230591f89bd27ca30ad297
@@ -16,6 +16,8 @@ tags:
     sha256:d8e7ebd54bc4df87166dd523273c956c95c7fadb802c1cfcb16186334240db6c
   1.16.0--r44hdfd78af_0: 
     sha256:00374dcc82c523bf306fecbff40dbde6a21a144673f4440cfa8f3cf401f3de4f
+  1.20.0--r45hdfd78af_0: 
+    sha256:c3a32115f9cd5b0474504cd2c5707fba9cac2f41fb3580eb28b8e41b6704cab9
 docker: quay.io/biocontainers/bioconductor-fieldeffectcrc
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

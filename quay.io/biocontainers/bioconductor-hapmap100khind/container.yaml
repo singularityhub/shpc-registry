@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hapmap100khind
 latest:
-  1.48.0--r44hdfd78af_0: 
-    sha256:3adffca122f346009b13503668896a8ccc59fc976e02acd97a9e099280b2ec0a
+  1.52.0--r45hdfd78af_0: 
+    sha256:cb4fa27e54136eb77f48d384733ec2c827e8baef7ba3ee39866a3d67a5c4baa9
 tags:
   1.36.0--r41hdfd78af_1: 
     sha256:b02c9bd0550c389e5f4de67deb905c2b85d1655f97a4e38ff25f89ce67385bb0
@@ -16,4 +16,6 @@ tags:
     sha256:c9d80df411b019532d828800e554c2cf54012f0a61473bef94c608b11418321d
   1.48.0--r44hdfd78af_0: 
     sha256:3adffca122f346009b13503668896a8ccc59fc976e02acd97a9e099280b2ec0a
+  1.52.0--r45hdfd78af_0: 
+    sha256:cb4fa27e54136eb77f48d384733ec2c827e8baef7ba3ee39866a3d67a5c4baa9
 docker: quay.io/biocontainers/bioconductor-hapmap100khind

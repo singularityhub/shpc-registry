@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/planemo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for planemo
 latest:
-  0.75.37--pyhdfd78af_0: 
-    sha256:4ba41fd8fa9b655a70a142c06380595187c8ce7acc469177daf5db54809a496a
+  0.75.40--pyhdfd78af_0: 
+    sha256:63a6ab99b8cb7e8a767223d7196662592ee793b2a292d6ceb6d25919b90b7e14
 tags:
   0.74.9--pyhdfd78af_0: 
     sha256:b777ca1dd23f0a8a4c71a44cdfd52ace07153e9b87fc261012a993c468e4ec45
@@ -41,6 +41,8 @@ tags:
     sha256:862a5ea75119de51c3ae7a6b1418130beb8aae2406b4da7845ae15f18b9b33d0
   0.75.37--pyhdfd78af_0: 
     sha256:4ba41fd8fa9b655a70a142c06380595187c8ce7acc469177daf5db54809a496a
+  0.75.40--pyhdfd78af_0: 
+    sha256:63a6ab99b8cb7e8a767223d7196662592ee793b2a292d6ceb6d25919b90b7e14
 docker: quay.io/biocontainers/planemo
 aliases:
   bagit.py: /usr/local/bin/bagit.py

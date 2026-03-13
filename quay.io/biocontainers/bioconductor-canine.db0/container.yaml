@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-canine.db0
 latest:
-  3.20.0--r44hdfd78af_0: 
-    sha256:2f4ea9619a21e0b28e48fb86f1effbfaa8e29300552e246426ff5329a43da7aa
+  3.22.0--r45hdfd78af_0: 
+    sha256:e799da5eb21a135213fbea8d7feed3b5519365e74df59227fc181827f9f0cff9
 tags:
   3.8.2--r36_1: 
     sha256:8451eca5e679b12daae623eea6ed109cb13890652528de71597b3c0dae657b16
@@ -24,6 +24,8 @@ tags:
     sha256:c071fa745227a4ecd3eaabb01aa4b51669176fe3363bf9d49b513f7231698f2e
   3.20.0--r44hdfd78af_0: 
     sha256:2f4ea9619a21e0b28e48fb86f1effbfaa8e29300552e246426ff5329a43da7aa
+  3.22.0--r45hdfd78af_0: 
+    sha256:e799da5eb21a135213fbea8d7feed3b5519365e74df59227fc181827f9f0cff9
 docker: quay.io/biocontainers/bioconductor-canine.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

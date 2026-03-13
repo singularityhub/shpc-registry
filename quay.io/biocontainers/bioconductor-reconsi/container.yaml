@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-reconsi
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:52b5e7b11afa2830b25860eef0faeec6153733df0540c65ca24329878b69d7cf
+  1.22.0--r45hdfd78af_0: 
+    sha256:359dac8fb925558ab13495e0d1c13abe164375ef7b2643844cb99c4007443530
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:440d8025f41dfbaa8ea875ad294bab2cc7399569c15ae5f212c64fd0c3299c5f
@@ -16,4 +16,6 @@ tags:
     sha256:5328721e089dbf1018643ddbd83acfb7bb53c40eaa4df6ce21229fb792cca9f0
   1.18.0--r44hdfd78af_0: 
     sha256:52b5e7b11afa2830b25860eef0faeec6153733df0540c65ca24329878b69d7cf
+  1.22.0--r45hdfd78af_0: 
+    sha256:359dac8fb925558ab13495e0d1c13abe164375ef7b2643844cb99c4007443530
 docker: quay.io/biocontainers/bioconductor-reconsi

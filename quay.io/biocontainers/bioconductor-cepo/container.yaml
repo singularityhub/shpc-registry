@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cepo
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:72ae5b8befb8b07fb62a7bf2fa2e47695a28b94d87c36494f3b4052caa7e4dfc
+  1.16.0--r45hdfd78af_0: 
+    sha256:dbda179d834bad5a80852f8606c6299f06c4727539db4f556f27c121d1d2e006
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:7dd78404848a525171bf6096cba013414497708793b021ea7ffd15c8c3644ca4
@@ -14,4 +14,6 @@ tags:
     sha256:891d28a6cdf6fd66e3b55a558810b2a6c0060c20c1a231b229eb0ef99f9cb047
   1.12.0--r44hdfd78af_0: 
     sha256:72ae5b8befb8b07fb62a7bf2fa2e47695a28b94d87c36494f3b4052caa7e4dfc
+  1.16.0--r45hdfd78af_0: 
+    sha256:dbda179d834bad5a80852f8606c6299f06c4727539db4f556f27c121d1d2e006
 docker: quay.io/biocontainers/bioconductor-cepo

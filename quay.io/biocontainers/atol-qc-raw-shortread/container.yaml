@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   atol-qc-raw-shortread
 latest:
-  0.2.1--pyhdfd78af_0: 
-    sha256:7de6acc65611d69e1df87df0d688c86413bd898bba35f8a7eb3092d3c3eeb4d3
+  0.3.0--pyhdfd78af_0: 
+    sha256:68b23cc1b50bfa17bcf65d836674a0c7d9e7b8163b8f08926dc806d84e959cbc
 tags:
   0.1.4--pyhdfd78af_0: 
     sha256:89999f471c257cf6455c2cffe40fd4307eab90e41696843b952467847bfa3b07
@@ -14,6 +14,10 @@ tags:
     sha256:00b38e0a5627384691684cee494a91aec3f693ce0bab19f953de5aba99c8aba7
   0.2.1--pyhdfd78af_0: 
     sha256:7de6acc65611d69e1df87df0d688c86413bd898bba35f8a7eb3092d3c3eeb4d3
+  0.3.0--pyhdfd78af_0: 
+    sha256:68b23cc1b50bfa17bcf65d836674a0c7d9e7b8163b8f08926dc806d84e959cbc
+  0.2.2--pyhdfd78af_0: 
+    sha256:8b672e2f7f2e0f13aed96462f6d3c5455be8019d39d8c0f6ebd7d2308a08c0b4
 docker: quay.io/biocontainers/atol-qc-raw-shortread
 aliases:
   atol-qc-raw-shortread: /usr/local/bin/atol-qc-raw-shortread

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rgreat
 latest:
-  2.8.0--r44he5774e6_0: 
-    sha256:bef7e05e3d5112d65765656e4f3fd532f2e8d542c365efb77aac830c4e7318c0
+  2.12.2--r45ha27e39d_0: 
+    sha256:dce446d468cfdb0cb7f244082c07d39d76859908cf72d92dc68f69341294e2ca
 tags:
   1.8.0--r3.4.1_0: 
     sha256:68eefaae3e3bbed529957988c208480f2ebbc663d2318e7e5c3cdcc22ea97696
@@ -26,6 +26,8 @@ tags:
     sha256:68a0905fcf4eaf4b479c27ff186dd8ce58ea33688d980cd0358aec2c0a44178e
   2.8.0--r44he5774e6_0: 
     sha256:bef7e05e3d5112d65765656e4f3fd532f2e8d542c365efb77aac830c4e7318c0
+  2.12.2--r45ha27e39d_0: 
+    sha256:dce446d468cfdb0cb7f244082c07d39d76859908cf72d92dc68f69341294e2ca
 docker: quay.io/biocontainers/bioconductor-rgreat
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-duoclustering2018
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:b498f766d82b90dbe3ea15972d5ffa30427701692de9783bd2d7d67d7bc168ef
+  1.28.0--r45hdfd78af_0: 
+    sha256:d8c4fe125bf3341dc5ffc355492d96d259b574d8138cc05577fe52d5b445f4f6
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:83ae9e0b916cac4eeeb10d6e973fff2af28731a387b89bf8642b87e2b389c8b4
@@ -20,6 +20,8 @@ tags:
     sha256:485c5f5c68ad900adf0d8ac91985ca72c3987061ca0887ccf47ef61b595c8a42
   1.24.0--r44hdfd78af_0: 
     sha256:b498f766d82b90dbe3ea15972d5ffa30427701692de9783bd2d7d67d7bc168ef
+  1.28.0--r45hdfd78af_0: 
+    sha256:d8c4fe125bf3341dc5ffc355492d96d259b574d8138cc05577fe52d5b445f4f6
 docker: quay.io/biocontainers/bioconductor-duoclustering2018
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

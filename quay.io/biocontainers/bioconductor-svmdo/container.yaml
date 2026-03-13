@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-svmdo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-svmdo
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:c1092f795b758160aa2438adb99c91abab815eac0ef28f708b07ae46db431c69
+  1.10.0--r45hdfd78af_0: 
+    sha256:dd0eb01f804887904b797df5f7a2da5dbc4daebb5de43f2849c31b57664f93b5
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:09d06e876b2bdf0203628216ef34b105a62ee94ed2651c9f00b56c5838ef4fc6
@@ -11,6 +11,8 @@ tags:
     sha256:11f132f206f36a56e1a4362a8f29de3f6340eb736d9bc47f2789203d5eac766a
   1.6.0--r44hdfd78af_0: 
     sha256:c1092f795b758160aa2438adb99c91abab815eac0ef28f708b07ae46db431c69
+  1.10.0--r45hdfd78af_0: 
+    sha256:dd0eb01f804887904b797df5f7a2da5dbc4daebb5de43f2849c31b57664f93b5
 docker: quay.io/biocontainers/bioconductor-svmdo
 aliases:
   git2: /usr/local/bin/git2

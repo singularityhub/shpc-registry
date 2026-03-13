@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ddpcrclust
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:abad140626202f9ab19d8c0abffb07b6d2c157d836d1edc043cfc7b7a3f78475
+  1.30.0--r45hdfd78af_0: 
+    sha256:89535b8928a57bf77e81c5b1d14e1826e5622489282e2c250eb9faa37d34d747
 tags:
   1.8.0--r40_0: 
     sha256:c552ef9cc5d7b0dc19ada482549b15140e9ff82043134d82d277e3c4527d696d
@@ -22,6 +22,8 @@ tags:
     sha256:220c92e7037ce7c3e6d28e3acaba7295353d6632a588a50cf9f8962422c66cdd
   1.26.0--r44hdfd78af_0: 
     sha256:abad140626202f9ab19d8c0abffb07b6d2c157d836d1edc043cfc7b7a3f78475
+  1.30.0--r45hdfd78af_0: 
+    sha256:89535b8928a57bf77e81c5b1d14e1826e5622489282e2c250eb9faa37d34d747
 docker: quay.io/biocontainers/bioconductor-ddpcrclust
 aliases:
   geos-config: /usr/local/bin/geos-config

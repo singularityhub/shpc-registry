@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-synaptome.data
 latest:
-  0.99.6--r44hdfd78af_3: 
-    sha256:861dd6c16e5470cce9275cfa077237f01bf7a275b71afc1d5f287de64dc9ef71
+  0.99.6--r45hdfd78af_4: 
+    sha256:ec4a7201f23deb0712118463948190bd796e1c6f51bdd2fa1bbc2fbedfbae995
 tags:
   0.99.3--r41hdfd78af_1: 
     sha256:1e00ed83147a4dda8fe9660e8592de2e38087a23d05d4c50bcc47fe8fe732b9a
@@ -16,4 +16,6 @@ tags:
     sha256:209e24633cce4880700281cd742d3430eba587cad7fe530cb81e65e436269758
   0.99.6--r44hdfd78af_3: 
     sha256:861dd6c16e5470cce9275cfa077237f01bf7a275b71afc1d5f287de64dc9ef71
+  0.99.6--r45hdfd78af_4: 
+    sha256:ec4a7201f23deb0712118463948190bd796e1c6f51bdd2fa1bbc2fbedfbae995
 docker: quay.io/biocontainers/bioconductor-synaptome.data

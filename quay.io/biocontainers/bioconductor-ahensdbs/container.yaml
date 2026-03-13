@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ahensdbs
 latest:
-  1.1.10--r43hdfd78af_0: 
-    sha256:c2d37d0906ef324996e9a9f091d8475bfd8d02915f8174d8d56fd6d8da02d329
+  1.7.0--r45hdfd78af_0: 
+    sha256:4d61244c1793759b322b551f0ee52654e2e7cf4a263b6b0afcec786d6258c309
 tags:
   1.1.4--r41hdfd78af_1: 
     sha256:583c44f40f9c41fdba2cec7f162dc73a4447f34efef07b25ed020b5566f21b91
@@ -14,4 +14,6 @@ tags:
     sha256:ba0ad0401e5975f71f38aab8461b693855ff5ebc24a796ad39b2c3b3523bb522
   1.1.10--r43hdfd78af_0: 
     sha256:c2d37d0906ef324996e9a9f091d8475bfd8d02915f8174d8d56fd6d8da02d329
+  1.7.0--r45hdfd78af_0: 
+    sha256:4d61244c1793759b322b551f0ee52654e2e7cf4a263b6b0afcec786d6258c309
 docker: quay.io/biocontainers/bioconductor-ahensdbs

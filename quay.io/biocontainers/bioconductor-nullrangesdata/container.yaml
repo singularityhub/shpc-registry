@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nullrangesdata
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:e25298858101d4a91a8a0deda505a7368663dc55a624da4e0612baade28172ce
+  1.16.0--r45hdfd78af_0: 
+    sha256:3593bdbf8ba07cd9daaff1b0cf03b85c49e002936c1aee5e1f2ab78fce6e967c
 tags:
   1.0.0--r41hdfd78af_1: 
     sha256:897069788213acf60d8430292d3f72d2757fe26e576c890d1dc05acacce414ee
@@ -16,4 +16,6 @@ tags:
     sha256:eca99db4810035501df763db873466366d55ec20d80e8b306ff587fdc4762a56
   1.12.0--r44hdfd78af_0: 
     sha256:e25298858101d4a91a8a0deda505a7368663dc55a624da4e0612baade28172ce
+  1.16.0--r45hdfd78af_0: 
+    sha256:3593bdbf8ba07cd9daaff1b0cf03b85c49e002936c1aee5e1f2ab78fce6e967c
 docker: quay.io/biocontainers/bioconductor-nullrangesdata

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dada2
 latest:
-  1.34.0--r44he5774e6_2: 
-    sha256:64580af72a35a3ba07447c8b10e8bcf28a9f12ce7298e315c89df485d78354a2
+  1.38.0--r45ha27e39d_0: 
+    sha256:a51eeb35b252786cabe0653c3ef88ff6075fa7115f5442a7153c039e79d54d32
 tags:
   1.8.0--r351hfc679d8_0: 
     sha256:7d48ee7fc9ffbcc6d0fd8820db0aa34d01419058a8b203cdd6f874a3458a9e77
@@ -34,6 +34,8 @@ tags:
     sha256:00db8aab94d8508c848fc96647142bde005b0ea8d34577917169046f33eae91e
   1.34.0--r44he5774e6_2: 
     sha256:64580af72a35a3ba07447c8b10e8bcf28a9f12ce7298e315c89df485d78354a2
+  1.38.0--r45ha27e39d_0: 
+    sha256:a51eeb35b252786cabe0653c3ef88ff6075fa7115f5442a7153c039e79d54d32
 docker: quay.io/biocontainers/bioconductor-dada2
 aliases:
   wget: /usr/local/bin/wget

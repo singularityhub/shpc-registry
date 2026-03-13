@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scds
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:23a5c395b9a0e6151b9367794ff8546bfc8137531545f64e95dd902eacc90dc1
+  1.26.0--r45hdfd78af_0: 
+    sha256:bf56b4c8645347e9443fc942167c6cb619cb6a1ca10e416501cf569432d97fab
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:585d0673c91046bebe748ff2084e2e880778adc8f3e0c32b769fdf75df9b86d1
@@ -18,6 +18,8 @@ tags:
     sha256:a3c946c62163f8d76d8b547c352bfa9e5899061320597165e4ba4eae3eb11759
   1.22.0--r44hdfd78af_0: 
     sha256:23a5c395b9a0e6151b9367794ff8546bfc8137531545f64e95dd902eacc90dc1
+  1.26.0--r45hdfd78af_0: 
+    sha256:bf56b4c8645347e9443fc942167c6cb619cb6a1ca10e416501cf569432d97fab
 docker: quay.io/biocontainers/bioconductor-scds
 aliases:
   xgboost: /usr/local/bin/xgboost

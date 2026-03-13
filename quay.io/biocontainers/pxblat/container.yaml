@@ -3,7 +3,7 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pxblat
 latest:
   1.2.8--py311h93bbee8_1: 
-    sha256:eeb1d2f0bd14e0cd6e3013f5b48da3256fd47c977115f5109628ab9f07d0ee49
+    sha256:caad47da62ebb039c389371188b5bd637d4d7c847d39d9bea8f36152155b33ba
 tags:
   0.2.0--py310hfb835a5_0: 
     sha256:b8c5e94848b1931754d6a32e21ff6b7d1b5ac7aa9ef18a31828bc0f492c886e4
@@ -36,7 +36,9 @@ tags:
   1.2.8--py310h275bdba_0: 
     sha256:2bae01ed1b2307366e23fcc47ea77ee7f8cf7f1534d034cdaf3cec743e725628
   1.2.8--py311h93bbee8_1: 
-    sha256:eeb1d2f0bd14e0cd6e3013f5b48da3256fd47c977115f5109628ab9f07d0ee49
+    sha256:caad47da62ebb039c389371188b5bd637d4d7c847d39d9bea8f36152155b33ba
+  1.2.8--py310h5850263_1: 
+    sha256:b027117859ae4024ec51a387387a02ff259fec0126d6ab064ff54ed093cf35cf
 docker: quay.io/biocontainers/pxblat
 aliases:
   pxblat: /usr/local/bin/pxblat

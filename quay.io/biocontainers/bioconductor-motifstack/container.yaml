@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-motifstack
 latest:
-  1.50.0--r44hdfd78af_0: 
-    sha256:1b1b21e273fdd2773e9d923cd8dc78b1023c4d0c09c011647ecaf22942a97fe4
+  1.54.0--r45hdfd78af_0: 
+    sha256:fb5a409b7242d02006acc79d5ff54f08a7aca67e391e74a0a74b6ff7eaa09063
 tags:
   1.38.0--r41hdfd78af_0: 
     sha256:e00b080fe28dd4d7935ae911687935b35d00aac42b529fd6d9e604b47dc397ef
@@ -16,4 +16,6 @@ tags:
     sha256:651bb48ccc09ff47b496f44c6ecb6bd3c71a3335f383e44c20158c59b3862e2b
   1.50.0--r44hdfd78af_0: 
     sha256:1b1b21e273fdd2773e9d923cd8dc78b1023c4d0c09c011647ecaf22942a97fe4
+  1.54.0--r45hdfd78af_0: 
+    sha256:fb5a409b7242d02006acc79d5ff54f08a7aca67e391e74a0a74b6ff7eaa09063
 docker: quay.io/biocontainers/bioconductor-motifstack

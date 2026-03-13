@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-animalcules
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:8f3794c8df314ebd9eb1e68e1f7f333caeb0bda78881d4ad4725bc7634f05331
+  1.26.0--r45hdfd78af_0: 
+    sha256:42daa5f9c172c65e2e3f547b7469701b9082541ced674b9143e117ffdaa90391
 tags:
   1.6.0--r40hdfd78af_1: 
     sha256:03581664e1b390a4a2ff74a76dda38f0a2ae074644307333552809c2dc4636da
@@ -16,6 +16,8 @@ tags:
     sha256:960156b155f487729a0103ab50177398586616a6e00b71314889836b2bfcc735
   1.22.0--r44hdfd78af_0: 
     sha256:8f3794c8df314ebd9eb1e68e1f7f333caeb0bda78881d4ad4725bc7634f05331
+  1.26.0--r45hdfd78af_0: 
+    sha256:42daa5f9c172c65e2e3f547b7469701b9082541ced674b9143e117ffdaa90391
 docker: quay.io/biocontainers/bioconductor-animalcules
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9
