@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/r-openebgm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-openebgm
+latest:
+  0.9.1--r45h3342da4_0: 
+    sha256:872f3ad3a65ddbd15c640cecbb9f048f28624500b73270ae81247d1979923bd9
+tags:
+  0.9.1--r45h3342da4_0: 
+    sha256:872f3ad3a65ddbd15c640cecbb9f048f28624500b73270ae81247d1979923bd9
+docker: quay.io/biocontainers/r-openebgm
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-mobilerna
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-mobilerna
+latest:
+  1.6.1--r45hdfd78af_0: 
+    sha256:ed4bc32495e2adc3acfd24dc774075aa5c47d091eea4063c36a7400a6b01444d
+tags:
+  1.6.1--r45hdfd78af_0: 
+    sha256:ed4bc32495e2adc3acfd24dc774075aa5c47d091eea4063c36a7400a6b01444d
+docker: quay.io/biocontainers/bioconductor-mobilerna
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

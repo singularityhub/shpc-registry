@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-faers
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-faers
+latest:
+  1.6.0--r45hdfd78af_0: 
+    sha256:3de4ef138969daabcc1a6daaf732ff38067e386b2fd430c65336aceb38175bb0
+tags:
+  1.6.0--r45hdfd78af_0: 
+    sha256:3de4ef138969daabcc1a6daaf732ff38067e386b2fd430c65336aceb38175bb0
+docker: quay.io/biocontainers/bioconductor-faers
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

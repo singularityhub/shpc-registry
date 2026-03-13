@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/gnk_fastasort
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gnk_fastasort
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:9b1918c550bf7ba0674597358abed566c7878ca26146cbb72a0d5c1d51ea85c0
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:9b1918c550bf7ba0674597358abed566c7878ca26146cbb72a0d5c1d51ea85c0
+docker: quay.io/biocontainers/gnk_fastasort
+aliases:
+  fastasort: /usr/local/bin/fastasort
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/r-sched
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-sched
+latest:
+  1.0.3--r45h3342da4_0: 
+    sha256:e326928a593fe4a46c3521809f06a324212a706ce1d9e8abd80e2a84d760171b
+tags:
+  1.0.3--r45h3342da4_0: 
+    sha256:e326928a593fe4a46c3521809f06a324212a706ce1d9e8abd80e2a84d760171b
+docker: quay.io/biocontainers/r-sched
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

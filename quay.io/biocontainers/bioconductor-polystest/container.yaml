@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bioconductor-polystest
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-polystest
+latest:
+  1.4.0--r45hdfd78af_0: 
+    sha256:9209a479dbbcfa0f105d2199394fd4634ec7cbec9a4574d7861358ffb2a56898
+tags:
+  1.4.0--r45hdfd78af_0: 
+    sha256:9209a479dbbcfa0f105d2199394fd4634ec7cbec9a4574d7861358ffb2a56898
+docker: quay.io/biocontainers/bioconductor-polystest
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

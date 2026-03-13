@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bioconductor-pmscanr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-pmscanr
+latest:
+  1.0.1--pl5321r45hdfd78af_0: 
+    sha256:0c4458271371be22a5832c05b85c60addeb38802821b8f8faf52a34aec952782
+tags:
+  1.0.1--pl5321r45hdfd78af_0: 
+    sha256:0c4458271371be22a5832c05b85c60addeb38802821b8f8faf52a34aec952782
+docker: quay.io/biocontainers/bioconductor-pmscanr
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

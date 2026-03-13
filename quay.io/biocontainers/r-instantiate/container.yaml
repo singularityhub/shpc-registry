@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/r-instantiate
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-instantiate
+latest:
+  0.2.3--r45hf7ecca6_0: 
+    sha256:7e1f5b866e3c66e8bfd1229f8777ebbbca488d90445f8b779da11d154f456099
+tags:
+  0.2.3--r45hf7ecca6_0: 
+    sha256:7e1f5b866e3c66e8bfd1229f8777ebbbca488d90445f8b779da11d154f456099
+docker: quay.io/biocontainers/r-instantiate
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-notamestats
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-notamestats
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:3a9583e244a0fc988dc1b6d3a3c0652c3873d09319c8489a09c594a1b26c2732
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:3a9583e244a0fc988dc1b6d3a3c0652c3873d09319c8489a09c594a1b26c2732
+docker: quay.io/biocontainers/bioconductor-notamestats
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

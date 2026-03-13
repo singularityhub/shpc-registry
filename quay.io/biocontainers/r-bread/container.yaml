@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/r-bread
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-bread
+latest:
+  0.4.1--r45h3342da4_0: 
+    sha256:7546128a754244d1be671204ffc72eaa271de080a9c0ab971f9e3cf56e153fb8
+tags:
+  0.4.1--r45h3342da4_0: 
+    sha256:7546128a754244d1be671204ffc72eaa271de080a9c0ab971f9e3cf56e153fb8
+docker: quay.io/biocontainers/r-bread
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
