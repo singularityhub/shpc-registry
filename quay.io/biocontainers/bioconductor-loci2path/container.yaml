@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-loci2path
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:cd6a3e80d53127c05f8c1aaf11d8348d625771f6f5877472f4928b9ec5fa2274
+  1.30.0--r45hdfd78af_0: 
+    sha256:614024f6de1d494c3ceb4e47f64d865a97726cd160ececa2f6fa049a7c954a19
 tags:
   1.8.0--r40_0: 
     sha256:2b1cc4fdfe687df9ff9219ba34ab84902a55010b3ded5fe6e7d30692fdfd12d7
@@ -22,6 +22,8 @@ tags:
     sha256:dc537ac49d4b90824b8f02ad47d8be306361ba23e5450c5b1466c3793c18d678
   1.26.0--r44hdfd78af_0: 
     sha256:cd6a3e80d53127c05f8c1aaf11d8348d625771f6f5877472f4928b9ec5fa2274
+  1.30.0--r45hdfd78af_0: 
+    sha256:614024f6de1d494c3ceb4e47f64d865a97726cd160ececa2f6fa049a7c954a19
 docker: quay.io/biocontainers/bioconductor-loci2path
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

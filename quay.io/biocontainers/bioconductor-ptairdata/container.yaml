@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ptairdata
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:8af12f50530781f9c7fd2b34c8ed692709d1900e75e76941d90980b23d1e02c0
+  1.18.0--r45hdfd78af_0: 
+    sha256:5bf6ae65ec7cbe764d61eb13087013f22f5386c18bc6be32c5b43fcaae22b65a
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:4b42b65d750e09c19f95782e12ae50abe2e624eb1aed5fa03ade9f5abf2eb808
@@ -16,4 +16,6 @@ tags:
     sha256:a2bbe6bc7b223c5676f96170736cc30780c45f9917450b944a7605c482eeb2c9
   1.14.0--r44hdfd78af_0: 
     sha256:8af12f50530781f9c7fd2b34c8ed692709d1900e75e76941d90980b23d1e02c0
+  1.18.0--r45hdfd78af_0: 
+    sha256:5bf6ae65ec7cbe764d61eb13087013f22f5386c18bc6be32c5b43fcaae22b65a
 docker: quay.io/biocontainers/bioconductor-ptairdata

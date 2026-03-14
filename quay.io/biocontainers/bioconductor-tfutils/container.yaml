@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tfutils
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:1ee1653b39d78cfe34799dd228d73f8e3b02e21e661bc2232ef2f75716e3db29
+  1.30.0--r45hdfd78af_0: 
+    sha256:91ba3fbeb0fd09b02eaadd257b5aed515f207f78e8bfc672f95357b6bb3bd1e6
 tags:
   1.8.0--r40_0: 
     sha256:23256792ffbbc4665f3d8c9cb0ae41ac30afde168f62ffc97804870ea11e35c9
@@ -22,6 +22,8 @@ tags:
     sha256:d24bf2e258d54acc98ea0121cfb12f34f50e309dbf4e81ce6e2ea960f09358e5
   1.26.0--r44hdfd78af_0: 
     sha256:1ee1653b39d78cfe34799dd228d73f8e3b02e21e661bc2232ef2f75716e3db29
+  1.30.0--r45hdfd78af_0: 
+    sha256:91ba3fbeb0fd09b02eaadd257b5aed515f207f78e8bfc672f95357b6bb3bd1e6
 docker: quay.io/biocontainers/bioconductor-tfutils
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

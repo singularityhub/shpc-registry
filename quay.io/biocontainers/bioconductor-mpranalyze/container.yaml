@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mpranalyze
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:b3e8e14d4837f43cc66bf07ffdd05952dabf18f7e8a9b93f3eb69e70dc34717f
+  1.28.0--r45hdfd78af_0: 
+    sha256:1ec455f0fbc3759c175ea981a0bae4297acc5be468d966df4aa8255c4fb1d770
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:a4d8d593d82bb3143a2a6f34918b152cbef6e95e1a6aa8430684f983d6773b94
@@ -20,6 +20,8 @@ tags:
     sha256:22f1232771f5db146974204fd9311569fa3f4a70081474631531d435af3f4ed8
   1.24.0--r44hdfd78af_0: 
     sha256:b3e8e14d4837f43cc66bf07ffdd05952dabf18f7e8a9b93f3eb69e70dc34717f
+  1.28.0--r45hdfd78af_0: 
+    sha256:1ec455f0fbc3759c175ea981a0bae4297acc5be468d966df4aa8255c4fb1d770
 docker: quay.io/biocontainers/bioconductor-mpranalyze
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

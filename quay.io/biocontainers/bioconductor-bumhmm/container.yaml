@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bumhmm
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:2165d10c1763fcf2c1a28a6cae4a3c2b5f06a6c3a45100dcbf336933cfc43ac3
+  1.34.0--r45hdfd78af_0: 
+    sha256:ba064bfbc6df8832ae76d327fa949d4c693b87100f24532ecc90001d40739327
 tags:
   1.8.0--r36_1: 
     sha256:7812af0cbc9b7261e8856dcd631d645266b604dc378efb42df207862765b2031
@@ -24,6 +24,8 @@ tags:
     sha256:fe7918d9f15f69ba15bedf3dc786dae758b98945e265eb0443cf563571878211
   1.30.0--r44hdfd78af_0: 
     sha256:2165d10c1763fcf2c1a28a6cae4a3c2b5f06a6c3a45100dcbf336933cfc43ac3
+  1.34.0--r45hdfd78af_0: 
+    sha256:ba064bfbc6df8832ae76d327fa949d4c693b87100f24532ecc90001d40739327
 docker: quay.io/biocontainers/bioconductor-bumhmm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

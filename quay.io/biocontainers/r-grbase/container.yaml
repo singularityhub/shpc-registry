@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-grbase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-grbase
 latest:
-  2.0.3--r44h9757b4a_1: 
-    sha256:df01e5474e8301fabc609426013669f9efa7002eed0c2932122719c176265ac1
+  2.0.3--r45h27b97c1_2: 
+    sha256:b9b9241e1d5b9ce366ffa64bba08fcbff8398b742e75cdadaad5d62ec01ee592
 tags:
   1.8_6.7--r41h930fe3c_2: 
     sha256:51bc8563430fac095fc0474d55215cb4fd74746f06eb80d9dae7685caf799531
@@ -21,4 +21,6 @@ tags:
     sha256:2d6ece859cc5eb18586d32dc4703be237f9e02080d21dbd6308ab52f763da1ae
   2.0.3--r44h9757b4a_1: 
     sha256:df01e5474e8301fabc609426013669f9efa7002eed0c2932122719c176265ac1
+  2.0.3--r45h27b97c1_2: 
+    sha256:b9b9241e1d5b9ce366ffa64bba08fcbff8398b742e75cdadaad5d62ec01ee592
 docker: quay.io/biocontainers/r-grbase

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ecoliasv2cdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:0ce518d0ea227ab34da2f9dbefa8bdb3aec29f9bffe4ce6e807c5c6038f19b5a
+  2.18.0--r45hdfd78af_14: 
+    sha256:57483d6a17d71219f3d4a8305b12dea597ab58efc3de27e2a62d991e79e4f0b0
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:d1d0d7be1e4044727b064fc23d0f7cd1d2ef549a1128c49da2462f091849e60e
@@ -16,4 +16,6 @@ tags:
     sha256:cc9894ede7abbb164de7d8f5228d125864c68c456b50bf498e4c5099097acfee
   2.18.0--r44hdfd78af_13: 
     sha256:0ce518d0ea227ab34da2f9dbefa8bdb3aec29f9bffe4ce6e807c5c6038f19b5a
+  2.18.0--r45hdfd78af_14: 
+    sha256:57483d6a17d71219f3d4a8305b12dea597ab58efc3de27e2a62d991e79e4f0b0
 docker: quay.io/biocontainers/bioconductor-ecoliasv2cdf

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-wavcluster
 latest:
-  2.40.0--r44hdfd78af_0: 
-    sha256:5c806afe7eea711c710e97c72356a50500a2bd66e2643f07afe707f180bc13ed
+  2.44.0--r45hdfd78af_0: 
+    sha256:ebb9e97feeff97b79ffa7a95b00d25a97a2d5b077914f3718e49357dd0fb28e9
 tags:
   2.28.0--r41hdfd78af_0: 
     sha256:1ef5ef0be5ffff0074ee06ee69fcbaa960df625305810f903f475051b3118d8d
@@ -16,4 +16,6 @@ tags:
     sha256:0dd544d30a203c67b6b00e992126efd6601b8829339612e072906fcac70032f5
   2.40.0--r44hdfd78af_0: 
     sha256:5c806afe7eea711c710e97c72356a50500a2bd66e2643f07afe707f180bc13ed
+  2.44.0--r45hdfd78af_0: 
+    sha256:ebb9e97feeff97b79ffa7a95b00d25a97a2d5b077914f3718e49357dd0fb28e9
 docker: quay.io/biocontainers/bioconductor-wavcluster

@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for
   bioconductor-compcoder
 latest:
   1.46.0--r45hdfd78af_0: 
-    sha256:996afac47ccba6cbcd3eb022e22cb1a48f89faa2a791ecab6cdcfac8feba6495
+    sha256:ae664094dc0e71cb850b9d81a9f7e32760e53b2a4070b824ec2ccaec2e8c5cee
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:b84d1af6e7b19cc865519d616fa574ffa43e8b6a1f86afa99333f4556d6b7165
@@ -17,5 +17,5 @@ tags:
   1.42.0--r44hdfd78af_0: 
     sha256:83438d01d2b89c9201f816dc7b8589baf77403c5391b00eb327b21dc5e7c514b
   1.46.0--r45hdfd78af_0: 
-    sha256:996afac47ccba6cbcd3eb022e22cb1a48f89faa2a791ecab6cdcfac8feba6495
+    sha256:ae664094dc0e71cb850b9d81a9f7e32760e53b2a4070b824ec2ccaec2e8c5cee
 docker: quay.io/biocontainers/bioconductor-compcoder

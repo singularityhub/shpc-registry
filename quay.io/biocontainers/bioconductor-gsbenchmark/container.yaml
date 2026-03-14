@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gsbenchmark
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:14cc50e454c84e7f8a314abdd36a310d776e84002b78481c9cc796e0e565315a
+  1.30.0--r45hdfd78af_0: 
+    sha256:c2b25d706c613528acd8f3a54cfd095ebeddc08af01cd6310dae9a1aaa48f2cc
 tags:
   1.9.0--r40_0: 
     sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e
@@ -22,6 +22,8 @@ tags:
     sha256:155d99d6e3e749a1f163c905d58919d17bce3a2303d69c5253b40f24591fb050
   1.26.0--r44hdfd78af_0: 
     sha256:14cc50e454c84e7f8a314abdd36a310d776e84002b78481c9cc796e0e565315a
+  1.30.0--r45hdfd78af_0: 
+    sha256:c2b25d706c613528acd8f3a54cfd095ebeddc08af01cd6310dae9a1aaa48f2cc
 docker: quay.io/biocontainers/bioconductor-gsbenchmark
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

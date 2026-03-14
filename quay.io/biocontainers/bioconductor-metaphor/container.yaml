@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-metaphor
 latest:
-  1.4.0--r43hdfd78af_0: 
-    sha256:a30c17b34fba772bd6bc53879c4f92d756a6b2d5d44ec81c28aa6bfcc0ff68f4
+  1.12.0--r45hdfd78af_0: 
+    sha256:15c1f897ad847bcbae90cff622f16cd960c95e33ce9e3c5847245501dc50a30d
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:b22bf8464cccae6b020b2c4cf7e186319112d1ff2b4b4934eaa62a08f7966bdb
@@ -12,6 +12,8 @@ tags:
     sha256:8a936facc63c53df508168c1e55e98779f241bfd8a5a717ab036d0ff341787cd
   1.4.0--r43hdfd78af_0: 
     sha256:a30c17b34fba772bd6bc53879c4f92d756a6b2d5d44ec81c28aa6bfcc0ff68f4
+  1.12.0--r45hdfd78af_0: 
+    sha256:15c1f897ad847bcbae90cff622f16cd960c95e33ce9e3c5847245501dc50a30d
 docker: quay.io/biocontainers/bioconductor-metaphor
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

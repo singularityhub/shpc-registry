@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-multicrispr
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:734b57f0bace550853a1c54fe0c45a1c7c6677738f1f2335dd9bf3e1fb4d978e
+  1.20.0--r45hdfd78af_0: 
+    sha256:4d69f0fa03f44cebc0d47afebaff01c8a182e79a87c9efd69333bb3224641074
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:029a74fd0d08f79d8c989706b8be30a957107938db5b7c3aed298c9a2c41837e
@@ -16,4 +16,6 @@ tags:
     sha256:5b9dd3ed26894c07da5f0018bd5bd8283b1f24951dcb222828aa82f3ea74bedd
   1.16.0--r44hdfd78af_0: 
     sha256:734b57f0bace550853a1c54fe0c45a1c7c6677738f1f2335dd9bf3e1fb4d978e
+  1.20.0--r45hdfd78af_0: 
+    sha256:4d69f0fa03f44cebc0d47afebaff01c8a182e79a87c9efd69333bb3224641074
 docker: quay.io/biocontainers/bioconductor-multicrispr

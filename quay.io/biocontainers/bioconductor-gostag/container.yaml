@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gostag
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:02cdfe45117b56f3cc4391b54607b4cbafaeadbe447f4c44f8fafb4cadf7d68c
+  1.34.0--r45hdfd78af_0: 
+    sha256:6bf1402ae3707e8a15017d03246aa29cc409fa143cd14feb0c320322573b2cb3
 tags:
   1.8.0--r36_1: 
     sha256:a0d2425e1115c99fa052fe87f5d9f38fe3cf7d4241dcea8ff13a0980f9de7533
@@ -24,6 +24,8 @@ tags:
     sha256:c55ba88b0eb3d8ccba13b838cde4f2d5a81e6f6e6071391916e824bdf7f3cdcc
   1.30.0--r44hdfd78af_0: 
     sha256:02cdfe45117b56f3cc4391b54607b4cbafaeadbe447f4c44f8fafb4cadf7d68c
+  1.34.0--r45hdfd78af_0: 
+    sha256:6bf1402ae3707e8a15017d03246aa29cc409fa143cd14feb0c320322573b2cb3
 docker: quay.io/biocontainers/bioconductor-gostag
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

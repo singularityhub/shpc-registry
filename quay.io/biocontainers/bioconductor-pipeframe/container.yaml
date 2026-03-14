@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pipeframe
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:f0b3bce62e820235716ca3c89848602c6adc45999360628b568f7b320d68aebe
+  1.26.0--r45hdfd78af_0: 
+    sha256:23eff1f280debd60b9b672a541250405fc9aebb84ea086eeda3049ea04790f5e
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:a4f15c26b109902bce1611a1d1c2a5a2bc0c837f45532123fdd42cc8890910e2
@@ -18,6 +18,8 @@ tags:
     sha256:1ec5e9d0d0d94a6feedde05228e20782380f9e3f9ad7cd33d8b0feb3dd675077
   1.22.0--r44hdfd78af_0: 
     sha256:f0b3bce62e820235716ca3c89848602c6adc45999360628b568f7b320d68aebe
+  1.26.0--r45hdfd78af_0: 
+    sha256:23eff1f280debd60b9b672a541250405fc9aebb84ea086eeda3049ea04790f5e
 docker: quay.io/biocontainers/bioconductor-pipeframe
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

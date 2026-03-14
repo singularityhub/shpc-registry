@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rvs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rvs
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:6812eea6ca724b65ef1c33182a7a6a91e096cb29238b708d08887fdacad4116e
+  1.32.0--r45hdfd78af_0: 
+    sha256:d586884cc11d2122885e8b6b19360fecab7efd0d577e8bba7fd554543df1213b
 tags:
   1.8.0--r36_0: 
     sha256:8b2f75adc8b10d3ea69f64b98719e82847e0fc85b43424e87b979fb32991fd58
@@ -23,6 +23,8 @@ tags:
     sha256:167ff2bc72576d559fe7a43caad3548131736ca3ebf8de4f1799539e22582ee4
   1.28.0--r44hdfd78af_0: 
     sha256:6812eea6ca724b65ef1c33182a7a6a91e096cb29238b708d08887fdacad4116e
+  1.32.0--r45hdfd78af_0: 
+    sha256:d586884cc11d2122885e8b6b19360fecab7efd0d577e8bba7fd554543df1213b
 docker: quay.io/biocontainers/bioconductor-rvs
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

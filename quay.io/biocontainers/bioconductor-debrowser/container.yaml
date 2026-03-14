@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-debrowser
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:77e01551368376d3b28867cfaf4ca7216d4fbdfef0a3db266ae754a53b9de087
+  1.38.0--r45hdfd78af_0: 
+    sha256:4177f10e2d6c13262e0f729a863f037425ff456bd6be524ce98bd9703a7c9408
 tags:
   1.22.1--r41hdfd78af_0: 
     sha256:c9c185ca8280f2c6ec3b2597614942d0b07a3261d4052c75d8b97017f2f5dede
@@ -16,4 +16,6 @@ tags:
     sha256:4f8f5eb848b77edb5b7ff9b3d24dcd04a77e14996402f7775093d7f1a03ae332
   1.34.0--r44hdfd78af_0: 
     sha256:77e01551368376d3b28867cfaf4ca7216d4fbdfef0a3db266ae754a53b9de087
+  1.38.0--r45hdfd78af_0: 
+    sha256:4177f10e2d6c13262e0f729a863f037425ff456bd6be524ce98bd9703a7c9408
 docker: quay.io/biocontainers/bioconductor-debrowser

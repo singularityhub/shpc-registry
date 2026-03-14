@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genebreak
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:b00a16a2e2cf7c3525c0eede5d045a23344573493d54b0e0428ba69f16d29243
+  1.40.0--r45hdfd78af_0: 
+    sha256:74628bb467413b1bcc10ece2b6813631bc7fcb59bef37daa91609d5589d88b15
 tags:
   1.8.0--r3.4.1_0: 
     sha256:1246bde2a2a338137812aca551bbb978a328abf53c5b11b3479597e5ecc3974d
@@ -24,6 +24,8 @@ tags:
     sha256:45eff483d03f7e1d298929fe554a0d4dee28d8e21252a9d771e36ea1a15d7926
   1.36.0--r44hdfd78af_0: 
     sha256:b00a16a2e2cf7c3525c0eede5d045a23344573493d54b0e0428ba69f16d29243
+  1.40.0--r45hdfd78af_0: 
+    sha256:74628bb467413b1bcc10ece2b6813631bc7fcb59bef37daa91609d5589d88b15
 docker: quay.io/biocontainers/bioconductor-genebreak
 aliases:
   wget: /usr/local/bin/wget

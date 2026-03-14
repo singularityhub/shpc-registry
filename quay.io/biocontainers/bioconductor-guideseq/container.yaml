@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-guideseq
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:90f9db5e90b09d118251a390f9cb08d95263287835f9d84664d0b87b42c6650a
+  1.40.0--r45hdfd78af_0: 
+    sha256:3f2d6e15a2adec555b36e530111b062dc321b732eca9c002c9cee5f4593aa3e7
 tags:
   1.8.0--r3.4.1_0: 
     sha256:97215afb004bdd2b59e4e5f972b6bdc228492eb9718815072266b211460f498e
@@ -24,6 +24,8 @@ tags:
     sha256:6fd80e4ed3045cdb240d6a748b83bcf75caae486a32927e7745e6e68161ce633
   1.36.0--r44hdfd78af_0: 
     sha256:90f9db5e90b09d118251a390f9cb08d95263287835f9d84664d0b87b42c6650a
+  1.40.0--r45hdfd78af_0: 
+    sha256:3f2d6e15a2adec555b36e530111b062dc321b732eca9c002c9cee5f4593aa3e7
 docker: quay.io/biocontainers/bioconductor-guideseq
 aliases:
   wget: /usr/local/bin/wget

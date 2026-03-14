@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-funtoonorm
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:202f8af77568142d25de735df8f7d61c49182befb317073964f2b6e7898751e0
+  1.34.0--r45hdfd78af_0: 
+    sha256:a67466b29867ddfff39a24da13a806730658ac5e2012fc2571a5beb755ab6843
 tags:
   1.8.0--r36_1: 
     sha256:2d4c42089298d13efeb5fa86859fdfc9d2901ded6087f8f37c9440b676246e7c
@@ -24,6 +24,8 @@ tags:
     sha256:5edd0b963f8969cd5e43c03adbf2457cced4c301ff9c58ddca784e2649da6fc0
   1.30.0--r44hdfd78af_0: 
     sha256:202f8af77568142d25de735df8f7d61c49182befb317073964f2b6e7898751e0
+  1.34.0--r45hdfd78af_0: 
+    sha256:a67466b29867ddfff39a24da13a806730658ac5e2012fc2571a5beb755ab6843
 docker: quay.io/biocontainers/bioconductor-funtoonorm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

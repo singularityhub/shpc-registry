@@ -4,11 +4,11 @@ maintainer: '@HasseJohansen'
 description: Jupyter SciPy Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2026-02-09': 
-    sha256:cb7f2a0260f4a0bfd3adbcd75d3868daa1ec97a3173a5a24c04d2477dc97ebd5
+  '2026-03-09': 
+    sha256:d04ca5d4ba4679e04c43797ad956b0e207af7181f73e4cec79ab3845dab44082
 tags:
   latest: 
-    sha256:cb7f2a0260f4a0bfd3adbcd75d3868daa1ec97a3173a5a24c04d2477dc97ebd5
+    sha256:d04ca5d4ba4679e04c43797ad956b0e207af7181f73e4cec79ab3845dab44082
   '2025-06-02': 
     sha256:08e4c32e10df101bcee46fba936b728721cf574c5d0153157c806dc96e56d8cf
   '2025-07-14': 
@@ -43,6 +43,10 @@ tags:
     sha256:e85eb2e008de1a8d3440593b503e1d49a31448add6e6bec1ee50d32ac6a0a5d7
   '2025-12-08': 
     sha256:b5cbe0c13433079259648db51a42924dffd333d05cda1e944617c53502903b6b
+  '2026-03-09': 
+    sha256:d04ca5d4ba4679e04c43797ad956b0e207af7181f73e4cec79ab3845dab44082
+  '2026-02-19': 
+    sha256:619da9fa70a48467d4060db1bb0f6c8f1f857b0e708ded0e2ac4b06ea139d689
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

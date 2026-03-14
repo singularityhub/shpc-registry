@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mu11ksubb.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:f8d4247285a16cc6ecc0f6e9309880055d4c1117387c9e81e57a9093e36f3b6f
+  3.13.0--r45hdfd78af_6: 
+    sha256:f05acffdd5a078e1172f1525186e99d76b4787c96d1ac0df9467dd6530832812
 tags:
   3.2.3--r41hdfd78af_7: 
     sha256:f9baa109ee4cc23fe5a21a1ba62db95ece9b0ca5ede1e62bb2d5f8fb4eeeb924
@@ -16,6 +16,8 @@ tags:
     sha256:45f9d4ecc913c388bb89d7b41937ffeda9afde57587cc0d2bb33166f19fdfef2
   3.13.0--r44hdfd78af_5: 
     sha256:f8d4247285a16cc6ecc0f6e9309880055d4c1117387c9e81e57a9093e36f3b6f
+  3.13.0--r45hdfd78af_6: 
+    sha256:f05acffdd5a078e1172f1525186e99d76b4787c96d1ac0df9467dd6530832812
 docker: quay.io/biocontainers/bioconductor-mu11ksubb.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

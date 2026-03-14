@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-imcdatasets
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:5262edaa9c687be08f1c9196107a38f377ec653a16762b67465eb5320663146a
+  1.18.0--r45hdfd78af_0: 
+    sha256:d60d8fd161af142e66b0283e4b53e7ff3eed72e0be058014beaa00cc8423426a
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:ae8e4c732143350b238928b8749cbbd9e8f4a21324304ed5ebb6de52393c1b33
@@ -16,6 +16,8 @@ tags:
     sha256:323d2b27a76b44ef056cfc73c7f220b07b5642fbb6ecbe90ce2a8c8836ed9e98
   1.14.0--r44hdfd78af_0: 
     sha256:5262edaa9c687be08f1c9196107a38f377ec653a16762b67465eb5320663146a
+  1.18.0--r45hdfd78af_0: 
+    sha256:d60d8fd161af142e66b0283e4b53e7ff3eed72e0be058014beaa00cc8423426a
 docker: quay.io/biocontainers/bioconductor-imcdatasets
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

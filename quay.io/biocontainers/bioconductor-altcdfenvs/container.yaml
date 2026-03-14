@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-altcdfenvs
 latest:
-  2.68.0--r44hdfd78af_0: 
-    sha256:9eca1900d748e0d13c77f7c1e137a73f213a0acfea421c33ca967d98bc238d69
+  2.72.0--r45hdfd78af_0: 
+    sha256:a2c2fe70c589d135c4d7d8026cbbef08f06e21e2736fccca31710047f93c0adb
 tags:
   2.56.0--r41hdfd78af_0: 
     sha256:e9bc1f4ef3f912f941b569f823a799783a6c51a40f284cc826fb27848b73fac2
@@ -16,4 +16,6 @@ tags:
     sha256:dc00c4a175ad92c179127823c3fd96682d1562c2e55c7416720ea4f6fe206b50
   2.68.0--r44hdfd78af_0: 
     sha256:9eca1900d748e0d13c77f7c1e137a73f213a0acfea421c33ca967d98bc238d69
+  2.72.0--r45hdfd78af_0: 
+    sha256:a2c2fe70c589d135c4d7d8026cbbef08f06e21e2736fccca31710047f93c0adb
 docker: quay.io/biocontainers/bioconductor-altcdfenvs

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-epitxdb.mm.mm10
 latest:
-  0.99.6--r44hdfd78af_8: 
-    sha256:7becd5f50574ad3ef691c089245174b37f1f5c6391ee917a3b7161d13f2c85b7
+  0.99.6--r45hdfd78af_9: 
+    sha256:d9b9867dbf33ebdda9728eab8e3c9e2ebcc4261d8212f55a5944682b22526cc3
 tags:
   0.99.6--r41hdfd78af_4: 
     sha256:f5e3ca6caf50db440e05110946f3507c4afbc4aae86daeec55bcf46cecb5b5c3
@@ -16,4 +16,6 @@ tags:
     sha256:09a51180020825e7ca296ab780b7244e9ce0160833bb8c55056bb01c69d2de74
   0.99.6--r44hdfd78af_8: 
     sha256:7becd5f50574ad3ef691c089245174b37f1f5c6391ee917a3b7161d13f2c85b7
+  0.99.6--r45hdfd78af_9: 
+    sha256:d9b9867dbf33ebdda9728eab8e3c9e2ebcc4261d8212f55a5944682b22526cc3
 docker: quay.io/biocontainers/bioconductor-epitxdb.mm.mm10
