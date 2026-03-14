@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-roseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roseq/container.yaml"
-updated_at: "2026-03-13 17:09:08.659221"
+updated_at: "2026-03-14 04:57:58.469590"
 latest: "1.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-roseq"
 
@@ -16,7 +16,7 @@ versions:
  - "1.18.0--r44hdfd78af_0"
  - "1.22.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-roseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-roseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-roseq", "latest": {"1.22.0--r45hdfd78af_0": "sha256:beb0d138f478f997625fa61b272c055f63dec1dad5c7d0157f1013ae2bedc154"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:2b7f302cda9030ec922b640794b5329e9d91f68a6d26749f2a195e36ac296429", "1.10.0--r42hdfd78af_0": "sha256:19a82e5b05d0ee69244076dc56588ee7f37c19b1969470ab94c0ae7d5a2f3443", "1.12.0--r43hdfd78af_0": "sha256:367ded239fd94b03762970d1e3f0b7c4f662b9b1fbaa3a348559be2740630885", "1.14.0--r43hdfd78af_0": "sha256:38886fbe8160d10bd30014974d1813f782b7c4e0e3f9c3698b08fb8dfb1f138b", "1.18.0--r44hdfd78af_0": "sha256:8313dccf1fd0ed533a43d4a1ae64490504e8e9af7af60d6ca3e981f29ee2c819", "1.22.0--r45hdfd78af_0": "sha256:beb0d138f478f997625fa61b272c055f63dec1dad5c7d0157f1013ae2bedc154"}, "docker": "quay.io/biocontainers/bioconductor-roseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-roseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-roseq", "latest": {"1.22.0--r45hdfd78af_0": "sha256:72734263290f6b6bf59f9899c049cd55af888288b7d9ada5bbdd41c4ee92f89b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:2b7f302cda9030ec922b640794b5329e9d91f68a6d26749f2a195e36ac296429", "1.10.0--r42hdfd78af_0": "sha256:19a82e5b05d0ee69244076dc56588ee7f37c19b1969470ab94c0ae7d5a2f3443", "1.12.0--r43hdfd78af_0": "sha256:367ded239fd94b03762970d1e3f0b7c4f662b9b1fbaa3a348559be2740630885", "1.14.0--r43hdfd78af_0": "sha256:38886fbe8160d10bd30014974d1813f782b7c4e0e3f9c3698b08fb8dfb1f138b", "1.18.0--r44hdfd78af_0": "sha256:8313dccf1fd0ed533a43d4a1ae64490504e8e9af7af60d6ca3e981f29ee2c819", "1.22.0--r45hdfd78af_0": "sha256:72734263290f6b6bf59f9899c049cd55af888288b7d9ada5bbdd41c4ee92f89b"}, "docker": "quay.io/biocontainers/bioconductor-roseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-roseq.

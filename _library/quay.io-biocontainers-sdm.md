@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sdm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sdm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sdm/container.yaml"
-updated_at: "2026-03-13 17:18:07.553644"
+updated_at: "2026-03-14 05:06:23.977071"
 latest: "3.11--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/sdm"
 aliases:

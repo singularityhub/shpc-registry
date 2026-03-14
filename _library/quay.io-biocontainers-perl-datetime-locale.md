@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-datetime-locale"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime-locale/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-locale/container.yaml"
-updated_at: "2026-03-13 16:37:30.190175"
+updated_at: "2026-03-14 04:27:32.640148"
 latest: "1.45--pl5321h9948957_1"
 container_url: "https://biocontainers.pro/tools/perl-datetime-locale"
 aliases:

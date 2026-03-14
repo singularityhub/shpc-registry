@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cimice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cimice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cimice/container.yaml"
-updated_at: "2026-03-13 16:26:27.414687"
+updated_at: "2026-03-14 04:16:49.230322"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cimice"
 
@@ -16,7 +16,7 @@ versions:
  - "1.14.0--r44hdfd78af_0"
  - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cimice"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cimice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cimice", "latest": {"1.18.0--r45hdfd78af_0": "sha256:511f8e1231f31270b2eca415d587f3db5c1da32bc1cc236e800911360b894d3c"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:95fd1d9e0d4c46b0172d8ffa457519b5de03a1f634efae3cd7956e66384b466a", "1.6.0--r42hdfd78af_0": "sha256:87d6d4c57e0decbb4ed552a00b1834fa577d5058de41421373fa4b1b94e597af", "1.8.0--r43hdfd78af_0": "sha256:533b22e2410fd630ce1e439f6d2e429585c78be40b8ae636cc1e343c7787a557", "1.10.0--r43hdfd78af_0": "sha256:f4b1d4f4465bd91caf03e6db2c2fb6ba52aeafc189d33e1959f653d5a1c25194", "1.14.0--r44hdfd78af_0": "sha256:280ffc9f3e1f34054c6f9c68b47ef2b0cc10eb4e5ffe7f467bb315350b210d92", "1.18.0--r45hdfd78af_0": "sha256:511f8e1231f31270b2eca415d587f3db5c1da32bc1cc236e800911360b894d3c"}, "docker": "quay.io/biocontainers/bioconductor-cimice"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cimice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cimice", "latest": {"1.18.0--r45hdfd78af_0": "sha256:12c672ee71dd096412fc077bc4e67bf49115ad20e5123adecf25fd934c66aef4"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:95fd1d9e0d4c46b0172d8ffa457519b5de03a1f634efae3cd7956e66384b466a", "1.6.0--r42hdfd78af_0": "sha256:87d6d4c57e0decbb4ed552a00b1834fa577d5058de41421373fa4b1b94e597af", "1.8.0--r43hdfd78af_0": "sha256:533b22e2410fd630ce1e439f6d2e429585c78be40b8ae636cc1e343c7787a557", "1.10.0--r43hdfd78af_0": "sha256:f4b1d4f4465bd91caf03e6db2c2fb6ba52aeafc189d33e1959f653d5a1c25194", "1.14.0--r44hdfd78af_0": "sha256:280ffc9f3e1f34054c6f9c68b47ef2b0cc10eb4e5ffe7f467bb315350b210d92", "1.18.0--r45hdfd78af_0": "sha256:12c672ee71dd096412fc077bc4e67bf49115ad20e5123adecf25fd934c66aef4"}, "docker": "quay.io/biocontainers/bioconductor-cimice"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cimice.

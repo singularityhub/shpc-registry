@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-liquidassociation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-liquidassociation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-liquidassociation/container.yaml"
-updated_at: "2026-03-13 17:18:34.736055"
+updated_at: "2026-03-14 05:06:49.413136"
 latest: "1.60.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-liquidassociation"
 

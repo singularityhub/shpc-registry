@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-outsplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-outsplice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-outsplice/container.yaml"
-updated_at: "2026-03-13 16:27:18.699897"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-03-14 04:17:38.468767"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-outsplice"
 aliases:
  - "hb-info"
@@ -29,8 +29,9 @@ versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-outsplice"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-outsplice", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-outsplice", "latest": {"1.6.0--r44hdfd78af_0": "sha256:da794a1dcbd10d7d0b4db50e616f0f0c787c903efc96782677f95a72daf9d50d"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:dac44c06fb38398a0b798c439f4667426f0e3a72c794137ea13c53bc6d3e99c7", "1.2.0--r43hdfd78af_0": "sha256:3298b7bc580265c2dd047ef5e23d80f1bc34e69dc82114f8678a27d7fc0cfa6f", "1.6.0--r44hdfd78af_0": "sha256:da794a1dcbd10d7d0b4db50e616f0f0c787c903efc96782677f95a72daf9d50d"}, "docker": "quay.io/biocontainers/bioconductor-outsplice", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-outsplice", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-outsplice", "latest": {"1.10.0--r45hdfd78af_0": "sha256:369ce1f4f505f0a0c2c616737599b158a98174450825ad4e8ba770720992ebb6"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:dac44c06fb38398a0b798c439f4667426f0e3a72c794137ea13c53bc6d3e99c7", "1.2.0--r43hdfd78af_0": "sha256:3298b7bc580265c2dd047ef5e23d80f1bc34e69dc82114f8678a27d7fc0cfa6f", "1.6.0--r44hdfd78af_0": "sha256:da794a1dcbd10d7d0b4db50e616f0f0c787c903efc96782677f95a72daf9d50d", "1.10.0--r45hdfd78af_0": "sha256:369ce1f4f505f0a0c2c616737599b158a98174450825ad4e8ba770720992ebb6"}, "docker": "quay.io/biocontainers/bioconductor-outsplice", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-outsplice.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-outsplice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-outsplice:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-outsplice:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-outsplice/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-outsplice/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-outsplice/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-outsplice/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

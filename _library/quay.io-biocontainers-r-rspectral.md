@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-rspectral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rspectral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rspectral/container.yaml"
-updated_at: "2026-03-13 16:45:55.579533"
-latest: "1.0.0.14--r44h40dc89f_0"
+updated_at: "2026-03-14 04:35:41.335674"
+latest: "1.0.0.14--r45h0df16ae_1"
 container_url: "https://biocontainers.pro/tools/r-rspectral"
 aliases:
  - "glpsol"
@@ -16,8 +16,9 @@ versions:
  - "1.0.0.10--r43h21a89ab_2"
  - "1.0.0.10--r44h40dc89f_3"
  - "1.0.0.14--r44h40dc89f_0"
+ - "1.0.0.14--r45h0df16ae_1"
 description: "singularity registry hpc automated addition for r-rspectral"
-config: {"url": "https://biocontainers.pro/tools/r-rspectral", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-rspectral", "latest": {"1.0.0.14--r44h40dc89f_0": "sha256:c36dbc0271f93bc9979fc69ab0c6c80c44501f24da301cc4ca9f3924593f1b38"}, "tags": {"1.0.0.9--r42hecf12ef_0": "sha256:51bcbb0ef8be98a4d7e7cf66c01748023d15960eb8e2cf1e56f85cd215dfb38c", "1.0.0.10--r42hecf12ef_0": "sha256:81c0e7f0ff02c61e0a7c02b5da1aae3780ae1ce8e01fa6edd13c66f05bf34767", "1.0.0.10--r42h21a89ab_1": "sha256:7dcddd2c7c2efa6b720170755464c06e2176721831da98a022ca242c444a34e0", "1.0.0.10--r43h21a89ab_2": "sha256:a322994baf921f4c26bd2932350f548cf1c83326c8c5d53ea4e3df6d38413a23", "1.0.0.10--r44h40dc89f_3": "sha256:535fdbfc8f2cbca9dd1c515863034a05b3beb6f144d1573ed4ec20c2cb9098e5", "1.0.0.14--r44h40dc89f_0": "sha256:c36dbc0271f93bc9979fc69ab0c6c80c44501f24da301cc4ca9f3924593f1b38"}, "docker": "quay.io/biocontainers/r-rspectral", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-rspectral", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-rspectral", "latest": {"1.0.0.14--r45h0df16ae_1": "sha256:3dd1530f13852771da7f6bd61d5f38007848cd3e15ee0b116a467ee85c614b4e"}, "tags": {"1.0.0.9--r42hecf12ef_0": "sha256:51bcbb0ef8be98a4d7e7cf66c01748023d15960eb8e2cf1e56f85cd215dfb38c", "1.0.0.10--r42hecf12ef_0": "sha256:81c0e7f0ff02c61e0a7c02b5da1aae3780ae1ce8e01fa6edd13c66f05bf34767", "1.0.0.10--r42h21a89ab_1": "sha256:7dcddd2c7c2efa6b720170755464c06e2176721831da98a022ca242c444a34e0", "1.0.0.10--r43h21a89ab_2": "sha256:a322994baf921f4c26bd2932350f548cf1c83326c8c5d53ea4e3df6d38413a23", "1.0.0.10--r44h40dc89f_3": "sha256:535fdbfc8f2cbca9dd1c515863034a05b3beb6f144d1573ed4ec20c2cb9098e5", "1.0.0.14--r44h40dc89f_0": "sha256:c36dbc0271f93bc9979fc69ab0c6c80c44501f24da301cc4ca9f3924593f1b38", "1.0.0.14--r45h0df16ae_1": "sha256:3dd1530f13852771da7f6bd61d5f38007848cd3e15ee0b116a467ee85c614b4e"}, "docker": "quay.io/biocontainers/r-rspectral", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rspectral.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/r-rspectral
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-rspectral:1.0.0.14--r44h40dc89f_0
+$ shpc install quay.io/biocontainers/r-rspectral:1.0.0.14--r45h0df16ae_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-rspectral/1.0.0.14--r44h40dc89f_0
-$ module help quay.io/biocontainers/r-rspectral/1.0.0.14--r44h40dc89f_0
+$ module load quay.io/biocontainers/r-rspectral/1.0.0.14--r45h0df16ae_1
+$ module help quay.io/biocontainers/r-rspectral/1.0.0.14--r45h0df16ae_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

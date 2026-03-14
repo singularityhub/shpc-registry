@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genenotebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genenotebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genenotebook/container.yaml"
-updated_at: "2026-03-13 16:50:17.186303"
-latest: "0.3.2--h4ac6f70_2"
+updated_at: "2026-03-14 04:39:57.872633"
+latest: "0.3.2--hd63eeec_3"
 container_url: "https://biocontainers.pro/tools/genenotebook"
 aliases:
  - "genenotebook"
@@ -30,8 +30,9 @@ versions:
  - "0.3.1--h9f5acd7_1"
  - "0.3.2--h9f5acd7_1"
  - "0.3.2--h4ac6f70_2"
+ - "0.3.2--hd63eeec_3"
 description: "shpc-registry automated BioContainers addition for genenotebook"
-config: {"url": "https://biocontainers.pro/tools/genenotebook", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genenotebook", "latest": {"0.3.2--h4ac6f70_2": "sha256:72dbe5395ab1000b34f9e8fd3f3b4ef35240c104ab49496889886a1e2a756d15"}, "tags": {"0.3.1--h9f5acd7_1": "sha256:a30f10d56d1312fe0385ff04c55967b7073e782d8b38ef204e6b954701b15c41", "0.3.2--h9f5acd7_1": "sha256:1c473e5447ab6b7f68af14002412fc5d3a2dc167008705707e31b90b1602fa91", "0.3.2--h4ac6f70_2": "sha256:72dbe5395ab1000b34f9e8fd3f3b4ef35240c104ab49496889886a1e2a756d15"}, "docker": "quay.io/biocontainers/genenotebook", "aliases": {"genenotebook": "/usr/local/bin/genenotebook", "install_compass": "/usr/local/bin/install_compass", "mongo": "/usr/local/bin/mongo", "mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/genenotebook", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genenotebook", "latest": {"0.3.2--hd63eeec_3": "sha256:16471c0ddb04a66544cccb089618975eaa50689d618e38ff4821fb63a03b7d0e"}, "tags": {"0.3.1--h9f5acd7_1": "sha256:a30f10d56d1312fe0385ff04c55967b7073e782d8b38ef204e6b954701b15c41", "0.3.2--h9f5acd7_1": "sha256:1c473e5447ab6b7f68af14002412fc5d3a2dc167008705707e31b90b1602fa91", "0.3.2--h4ac6f70_2": "sha256:72dbe5395ab1000b34f9e8fd3f3b4ef35240c104ab49496889886a1e2a756d15", "0.3.2--hd63eeec_3": "sha256:16471c0ddb04a66544cccb089618975eaa50689d618e38ff4821fb63a03b7d0e"}, "docker": "quay.io/biocontainers/genenotebook", "aliases": {"genenotebook": "/usr/local/bin/genenotebook", "install_compass": "/usr/local/bin/install_compass", "mongo": "/usr/local/bin/mongo", "mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genenotebook.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/genenotebook
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genenotebook:0.3.2--h4ac6f70_2
+$ shpc install quay.io/biocontainers/genenotebook:0.3.2--hd63eeec_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genenotebook/0.3.2--h4ac6f70_2
-$ module help quay.io/biocontainers/genenotebook/0.3.2--h4ac6f70_2
+$ module load quay.io/biocontainers/genenotebook/0.3.2--hd63eeec_3
+$ module help quay.io/biocontainers/genenotebook/0.3.2--hd63eeec_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

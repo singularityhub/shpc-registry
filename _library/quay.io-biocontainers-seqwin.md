@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/seqwin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqwin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqwin/container.yaml"
-updated_at: "2026-03-13 17:20:14.890437"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2026-03-14 05:08:23.914928"
+latest: "0.2.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/seqwin"
 aliases:
  - "archive-nlmnlp"
@@ -64,8 +64,9 @@ versions:
  - "0.2.0--pyhdfd78af_0"
  - "0.2.0--pyhdfd78af_1"
  - "0.2.1--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for seqwin"
-config: {"url": "https://biocontainers.pro/tools/seqwin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqwin", "latest": {"0.2.1--pyhdfd78af_0": "sha256:ca9b33beedd9aa418f1b143576c95021c64991401059a69b6727917f6f1062d6"}, "tags": {"0.1.0--pyhdfd78af_1": "sha256:4b6a1f9b718f1f3bb7b8fc45a781b1306f22caf47a3f93dadd64ae2c38fc7631", "0.1.0--pyhdfd78af_2": "sha256:c7078289d4dab95f201b0e8296974c0f766ef87cfc901a2e86cdf8c1c920598d", "0.2.0--pyhdfd78af_0": "sha256:61edc9d5534a78609ba88c1740c31762b8cb29868613c2f88d1531e9806f6f23", "0.2.0--pyhdfd78af_1": "sha256:fb03adbdee9006e3f1a0ff7fd874f68c5ff726178be68a3cad46baa332f87ec7", "0.2.1--pyhdfd78af_0": "sha256:ca9b33beedd9aa418f1b143576c95021c64991401059a69b6727917f6f1062d6"}, "docker": "quay.io/biocontainers/seqwin", "aliases": {"archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "lrz": "/usr/local/bin/lrz", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "randseq": "/usr/local/bin/randseq", "seqwin": "/usr/local/bin/seqwin", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "typer": "/usr/local/bin/typer", "ref-cache": "/usr/local/bin/ref-cache", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm"}}
+config: {"url": "https://biocontainers.pro/tools/seqwin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for seqwin", "latest": {"0.2.2--pyhdfd78af_1": "sha256:3860e2a7215713b0203d1f95ec25c6b89593b67c15ff5e36c4db08229bfa9fe3"}, "tags": {"0.1.0--pyhdfd78af_1": "sha256:4b6a1f9b718f1f3bb7b8fc45a781b1306f22caf47a3f93dadd64ae2c38fc7631", "0.1.0--pyhdfd78af_2": "sha256:c7078289d4dab95f201b0e8296974c0f766ef87cfc901a2e86cdf8c1c920598d", "0.2.0--pyhdfd78af_0": "sha256:61edc9d5534a78609ba88c1740c31762b8cb29868613c2f88d1531e9806f6f23", "0.2.0--pyhdfd78af_1": "sha256:fb03adbdee9006e3f1a0ff7fd874f68c5ff726178be68a3cad46baa332f87ec7", "0.2.1--pyhdfd78af_0": "sha256:ca9b33beedd9aa418f1b143576c95021c64991401059a69b6727917f6f1062d6", "0.2.2--pyhdfd78af_1": "sha256:3860e2a7215713b0203d1f95ec25c6b89593b67c15ff5e36c4db08229bfa9fe3"}, "docker": "quay.io/biocontainers/seqwin", "aliases": {"archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "lrz": "/usr/local/bin/lrz", "mi_bf_generate": "/usr/local/bin/mi_bf_generate", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "randseq": "/usr/local/bin/randseq", "seqwin": "/usr/local/bin/seqwin", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "typer": "/usr/local/bin/typer", "ref-cache": "/usr/local/bin/ref-cache", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqwin.
@@ -80,7 +81,7 @@ $ shpc install quay.io/biocontainers/seqwin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqwin:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/seqwin:0.2.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -92,8 +93,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqwin/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/seqwin/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/seqwin/0.2.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/seqwin/0.2.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

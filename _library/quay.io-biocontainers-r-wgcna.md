@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-wgcna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wgcna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wgcna/container.yaml"
-updated_at: "2026-03-13 16:53:19.189569"
-latest: "1.74--r44h40dc89f_0"
+updated_at: "2026-03-14 04:42:56.344787"
+latest: "1.74--r45h0df16ae_1"
 container_url: "https://biocontainers.pro/tools/r-wgcna"
 
 versions:
@@ -17,8 +17,9 @@ versions:
  - "1.73--r43h21a89ab_0"
  - "1.73--r44h40dc89f_1"
  - "1.74--r44h40dc89f_0"
+ - "1.74--r45h0df16ae_1"
 description: "shpc-registry automated BioContainers addition for r-wgcna"
-config: {"url": "https://biocontainers.pro/tools/r-wgcna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wgcna", "latest": {"1.74--r44h40dc89f_0": "sha256:4867d30cdc13850627daa6250df71750a19b5bd5b2786a35f9667a1fba888d43"}, "tags": {"1.71--r41hecf12ef_0": "sha256:cf8283be7ca15cb9cd473d76baebdc0ba3d0b46b14a89ec1334095c36d3f2f7e", "1.71--r42hecf12ef_2": "sha256:1ed10b40e891b9aeadfb004b4b2f5445117f7cd4bf45e54fef6131d20ea79361", "1.71--r42h21a89ab_3": "sha256:3a66fa88767dbc7647ee1a8445454100c4168e958d0e30f39b2e4b7addacc5d1", "1.71--r43h21a89ab_4": "sha256:115be8815c6f96bf494e45f124ce8b60f26ae987b2538da1f925cf44da3f7727", "1.71--r43h21a89ab_5": "sha256:6f3c184f6934062dd4a8f2472eb73060386656b7a97353017d2000ea9599841a", "1.73--r43h21a89ab_0": "sha256:7289b5a582e23b93c92ef4687847f299a3c5601c55b499045fc4075453d3360f", "1.73--r44h40dc89f_1": "sha256:9c536ff91b438c55468cbaa3e923f3fcc6c4d51d8f85bc21529bd72ba6d01500", "1.74--r44h40dc89f_0": "sha256:4867d30cdc13850627daa6250df71750a19b5bd5b2786a35f9667a1fba888d43"}, "docker": "quay.io/biocontainers/r-wgcna"}
+config: {"url": "https://biocontainers.pro/tools/r-wgcna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wgcna", "latest": {"1.74--r45h0df16ae_1": "sha256:a71f0c422b52743efc6777cb335ed67aa3194ad2909ad59b961c52fbf1e8af8e"}, "tags": {"1.71--r41hecf12ef_0": "sha256:cf8283be7ca15cb9cd473d76baebdc0ba3d0b46b14a89ec1334095c36d3f2f7e", "1.71--r42hecf12ef_2": "sha256:1ed10b40e891b9aeadfb004b4b2f5445117f7cd4bf45e54fef6131d20ea79361", "1.71--r42h21a89ab_3": "sha256:3a66fa88767dbc7647ee1a8445454100c4168e958d0e30f39b2e4b7addacc5d1", "1.71--r43h21a89ab_4": "sha256:115be8815c6f96bf494e45f124ce8b60f26ae987b2538da1f925cf44da3f7727", "1.71--r43h21a89ab_5": "sha256:6f3c184f6934062dd4a8f2472eb73060386656b7a97353017d2000ea9599841a", "1.73--r43h21a89ab_0": "sha256:7289b5a582e23b93c92ef4687847f299a3c5601c55b499045fc4075453d3360f", "1.73--r44h40dc89f_1": "sha256:9c536ff91b438c55468cbaa3e923f3fcc6c4d51d8f85bc21529bd72ba6d01500", "1.74--r44h40dc89f_0": "sha256:4867d30cdc13850627daa6250df71750a19b5bd5b2786a35f9667a1fba888d43", "1.74--r45h0df16ae_1": "sha256:a71f0c422b52743efc6777cb335ed67aa3194ad2909ad59b961c52fbf1e8af8e"}, "docker": "quay.io/biocontainers/r-wgcna"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-wgcna.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/r-wgcna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-wgcna:1.74--r44h40dc89f_0
+$ shpc install quay.io/biocontainers/r-wgcna:1.74--r45h0df16ae_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-wgcna/1.74--r44h40dc89f_0
-$ module help quay.io/biocontainers/r-wgcna/1.74--r44h40dc89f_0
+$ module load quay.io/biocontainers/r-wgcna/1.74--r45h0df16ae_1
+$ module help quay.io/biocontainers/r-wgcna/1.74--r45h0df16ae_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

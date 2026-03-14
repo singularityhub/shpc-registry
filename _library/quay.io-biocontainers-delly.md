@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/delly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delly/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/delly/container.yaml"
-updated_at: "2026-03-13 16:27:22.069059"
+updated_at: "2026-03-14 04:17:41.670551"
 latest: "1.5.0--h4d20210_0"
 container_url: "https://biocontainers.pro/tools/delly"
 aliases:

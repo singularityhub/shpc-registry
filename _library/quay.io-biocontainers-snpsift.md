@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpsift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpsift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpsift/container.yaml"
-updated_at: "2026-03-13 16:24:00.735016"
+updated_at: "2026-03-14 04:14:24.568285"
 latest: "5.4.0a--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snpsift"
 aliases:
@@ -25,8 +25,9 @@ versions:
  - "5.2--hdfd78af_0"
  - "5.3.0a--hdfd78af_0"
  - "5.4.0a--hdfd78af_0"
+ - "5.4.0c--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snpsift"
-config: {"url": "https://biocontainers.pro/tools/snpsift", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpsift", "latest": {"5.4.0a--hdfd78af_0": "sha256:83cdfbdae34502fa20a46e47d01f371960c483754693f334263d677759e0995b"}, "tags": {"5.1d--hdfd78af_0": "sha256:049babfac841d15a92d8febfc10a25f5aa109c9fe6670af35ea79583a1c78402", "5.1--hdfd78af_0": "sha256:be57b5ce5f1fa3cd517500cb3ade3a55c6379b01e73704ae6130d594ea55bc72", "5.2--hdfd78af_0": "sha256:599e98a362e32b122ebb519ff38ebd7e27533d0dd34d65b3e64e3a089c8f3770", "5.3.0a--hdfd78af_0": "sha256:460c05f132a31b2e33e48b48fd20c8a1b94a8c78146bf59ee52b2e0a5e4f9e6a", "5.4.0a--hdfd78af_0": "sha256:83cdfbdae34502fa20a46e47d01f371960c483754693f334263d677759e0995b"}, "docker": "quay.io/biocontainers/snpsift", "aliases": {"SnpSift": "/usr/local/bin/SnpSift", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/snpsift", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpsift", "latest": {"5.4.0a--hdfd78af_0": "sha256:83cdfbdae34502fa20a46e47d01f371960c483754693f334263d677759e0995b"}, "tags": {"5.1d--hdfd78af_0": "sha256:049babfac841d15a92d8febfc10a25f5aa109c9fe6670af35ea79583a1c78402", "5.1--hdfd78af_0": "sha256:be57b5ce5f1fa3cd517500cb3ade3a55c6379b01e73704ae6130d594ea55bc72", "5.2--hdfd78af_0": "sha256:599e98a362e32b122ebb519ff38ebd7e27533d0dd34d65b3e64e3a089c8f3770", "5.3.0a--hdfd78af_0": "sha256:460c05f132a31b2e33e48b48fd20c8a1b94a8c78146bf59ee52b2e0a5e4f9e6a", "5.4.0a--hdfd78af_0": "sha256:83cdfbdae34502fa20a46e47d01f371960c483754693f334263d677759e0995b", "5.4.0c--hdfd78af_0": "sha256:5683a819f59a36fec2eb0e9f6ca78a98494b200eb73a54dc6a1f6dcffb206e26"}, "docker": "quay.io/biocontainers/snpsift", "aliases": {"SnpSift": "/usr/local/bin/SnpSift", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snpsift.

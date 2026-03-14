@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snp-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-pipeline/container.yaml"
-updated_at: "2026-03-13 16:32:02.168077"
+updated_at: "2026-03-14 04:22:13.581744"
 latest: "2.2.1--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/snp-pipeline"
 aliases:

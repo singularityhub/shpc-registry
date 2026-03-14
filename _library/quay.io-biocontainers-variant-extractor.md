@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/variant-extractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variant-extractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variant-extractor/container.yaml"
-updated_at: "2026-03-13 17:04:10.191399"
+updated_at: "2026-03-14 04:53:16.835137"
 latest: "5.0.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/variant-extractor"
 aliases:

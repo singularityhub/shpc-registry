@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/krepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krepp/container.yaml"
-updated_at: "2026-03-13 16:25:38.591161"
-latest: "0.7.1--hdb29145_0"
+updated_at: "2026-03-14 04:16:01.290214"
+latest: "0.7.2--hdb29145_0"
 container_url: "https://biocontainers.pro/tools/krepp"
 aliases:
  - "krepp"
@@ -13,8 +13,9 @@ versions:
  - "0.5.1--h370f27c_0"
  - "0.6.0--h370f27c_0"
  - "0.7.1--hdb29145_0"
+ - "0.7.2--hdb29145_0"
 description: "singularity registry hpc automated addition for krepp"
-config: {"url": "https://biocontainers.pro/tools/krepp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for krepp", "latest": {"0.7.1--hdb29145_0": "sha256:553a2e5070594dfc91b7806de24454fe5f08d823cac04da05dff9dc3e9b0a03a"}, "tags": {"0.5.1--h370f27c_0": "sha256:af93e14f91c0a0c59008d0197df4c12f12bebb0eddc15e2a6cc89a1501a31ebd", "0.6.0--h370f27c_0": "sha256:7c8c0745f800b2fb5602348226be41c191db38c8dd5ded01a5a21dfbcc83ba2f", "0.7.1--hdb29145_0": "sha256:553a2e5070594dfc91b7806de24454fe5f08d823cac04da05dff9dc3e9b0a03a"}, "docker": "quay.io/biocontainers/krepp", "aliases": {"krepp": "/usr/local/bin/krepp"}}
+config: {"url": "https://biocontainers.pro/tools/krepp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for krepp", "latest": {"0.7.2--hdb29145_0": "sha256:de0c283ca9c7faf5ea7e32d3f7356e7bc0a78507b1f713e835709253739b3951"}, "tags": {"0.5.1--h370f27c_0": "sha256:af93e14f91c0a0c59008d0197df4c12f12bebb0eddc15e2a6cc89a1501a31ebd", "0.6.0--h370f27c_0": "sha256:7c8c0745f800b2fb5602348226be41c191db38c8dd5ded01a5a21dfbcc83ba2f", "0.7.1--hdb29145_0": "sha256:553a2e5070594dfc91b7806de24454fe5f08d823cac04da05dff9dc3e9b0a03a", "0.7.2--hdb29145_0": "sha256:de0c283ca9c7faf5ea7e32d3f7356e7bc0a78507b1f713e835709253739b3951"}, "docker": "quay.io/biocontainers/krepp", "aliases": {"krepp": "/usr/local/bin/krepp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krepp.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/krepp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/krepp:0.7.1--hdb29145_0
+$ shpc install quay.io/biocontainers/krepp:0.7.2--hdb29145_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/krepp/0.7.1--hdb29145_0
-$ module help quay.io/biocontainers/krepp/0.7.1--hdb29145_0
+$ module load quay.io/biocontainers/krepp/0.7.2--hdb29145_0
+$ module help quay.io/biocontainers/krepp/0.7.2--hdb29145_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

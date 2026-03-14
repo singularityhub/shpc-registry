@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpfbagr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpfbagr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpfbagr/container.yaml"
-updated_at: "2026-03-13 17:10:58.163620"
+updated_at: "2026-03-14 04:59:40.897152"
 latest: "2.2.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/rpfbagr"
 aliases:
