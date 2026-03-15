@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-padma
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:2b27f7d6b903a8e3d821e7c245709328c9d015a0acaf5dcfc27117bdc6a240c9
+  1.20.0--r45hdfd78af_0: 
+    sha256:14c350e404ae37c90ea491eb6204583878956e020a2ad60349aa77ba2e0169b7
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:f7dbcc311dcca77a125da90b0d1ff6de9f52d1e08ad7fdef57f4d1440f01e385
@@ -16,4 +16,6 @@ tags:
     sha256:3c820aedde57a2e9065b4d2767b058f180cd57b5eb4e7c5b8e1787038e6a18ef
   1.16.0--r44hdfd78af_0: 
     sha256:2b27f7d6b903a8e3d821e7c245709328c9d015a0acaf5dcfc27117bdc6a240c9
+  1.20.0--r45hdfd78af_0: 
+    sha256:14c350e404ae37c90ea491eb6204583878956e020a2ad60349aa77ba2e0169b7
 docker: quay.io/biocontainers/bioconductor-padma

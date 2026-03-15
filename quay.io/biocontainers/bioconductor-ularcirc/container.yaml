@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ularcirc
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:f642457942b92d945e3f232698e679801b55898d46fbe19195437a9e77f65790
+  1.28.0--r45hdfd78af_0: 
+    sha256:754e57ebed77b7f01fe6a45f601339d3e64cfd066f9b76357f11644ac60c6f5d
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:7b02aa301fa8c571248c17f6d91bbde30cafc7f2d820ddf52736138dde6b9da8
@@ -20,6 +20,8 @@ tags:
     sha256:93e49f47b4c504596be77cd4c2fb141b88e8f0423310a0f6069aeaf33a38d7f2
   1.24.0--r44hdfd78af_0: 
     sha256:f642457942b92d945e3f232698e679801b55898d46fbe19195437a9e77f65790
+  1.28.0--r45hdfd78af_0: 
+    sha256:754e57ebed77b7f01fe6a45f601339d3e64cfd066f9b76357f11644ac60c6f5d
 docker: quay.io/biocontainers/bioconductor-ularcirc
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

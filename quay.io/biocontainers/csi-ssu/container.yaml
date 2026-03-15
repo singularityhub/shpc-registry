@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/csi-ssu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for csi-ssu
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:bd90bae60af9fc81b1e562484ceaefd18a50d6f08f9d34a5a7eba794778a7c3d
+  1.0.2--pyhdfd78af_0: 
+    sha256:9dbc5c4dda724d41a6edc4c5ac30c3ea524e7b7b9937acd94b95fbe13acb8b50
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:bd90bae60af9fc81b1e562484ceaefd18a50d6f08f9d34a5a7eba794778a7c3d
+  1.0.2--pyhdfd78af_0: 
+    sha256:9dbc5c4dda724d41a6edc4c5ac30c3ea524e7b7b9937acd94b95fbe13acb8b50
 docker: quay.io/biocontainers/csi-ssu
 aliases:
   alignrandom.sh: /usr/local/bin/alignrandom.sh

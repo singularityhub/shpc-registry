@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rat2302.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:c6ac14cad662e67616971b2a2342137af15e1e84be1fd5651066b000be7230e4
+  3.13.0--r45hdfd78af_6: 
+    sha256:a06279af3a83061381d02fafa54a9443c145206297bd8dffa658a8529299c7f8
 tags:
   3.2.3--r41hdfd78af_7: 
     sha256:8b335980b08ed8328f55e42a4493ebb096666316166385fa0e73d3b47b81f419
@@ -16,6 +16,8 @@ tags:
     sha256:d8615a396d7da7ffa64130300c4cf8d8a379155356ecbdb3a09cfa9a364f9142
   3.13.0--r44hdfd78af_5: 
     sha256:c6ac14cad662e67616971b2a2342137af15e1e84be1fd5651066b000be7230e4
+  3.13.0--r45hdfd78af_6: 
+    sha256:a06279af3a83061381d02fafa54a9443c145206297bd8dffa658a8529299c7f8
 docker: quay.io/biocontainers/bioconductor-rat2302.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-panp
 latest:
-  1.76.0--r44hdfd78af_0: 
-    sha256:be9c2547a232a3e1be817d527f5b14f3edd6aa8d6f1c2491cd3a4670a100bcbd
+  1.80.0--r45hdfd78af_0: 
+    sha256:fffe1208bdb5ac6307be6995e72fa01e31dd2bd3e30c7b713bbf6fe15e82ebce
 tags:
   1.64.0--r41hdfd78af_0: 
     sha256:d420bfc23d539b3de01d43623806e8115e747d69d314d11e4de63333697cd4d7
@@ -16,4 +16,6 @@ tags:
     sha256:c6065a4ad0086f759e9e6a68a3e7bd5365b5b80037569f378d71eb162ce4410b
   1.76.0--r44hdfd78af_0: 
     sha256:be9c2547a232a3e1be817d527f5b14f3edd6aa8d6f1c2491cd3a4670a100bcbd
+  1.80.0--r45hdfd78af_0: 
+    sha256:fffe1208bdb5ac6307be6995e72fa01e31dd2bd3e30c7b713bbf6fe15e82ebce
 docker: quay.io/biocontainers/bioconductor-panp

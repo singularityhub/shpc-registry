@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geosubmission
 latest:
-  1.58.0--r44hdfd78af_0: 
-    sha256:35e175dda207ebbdc3762998e92e247ce05b50ae11962af15c6cb954db372be4
+  1.62.0--r45hdfd78af_0: 
+    sha256:a8b48e77928705527f00e255cc75602fb58abbdea1ec463f8dce0c9b70552d27
 tags:
   1.46.0--r41hdfd78af_0: 
     sha256:6aae8b86c44cfd518f51e280a97a32402381db6a8b0403c6e2b766bb4acc2ee3
@@ -16,4 +16,6 @@ tags:
     sha256:accd07ddf7eb61c7361e55b2fea8124a2181b19f84e25e0de9ccd8ca7dd5cf71
   1.58.0--r44hdfd78af_0: 
     sha256:35e175dda207ebbdc3762998e92e247ce05b50ae11962af15c6cb954db372be4
+  1.62.0--r45hdfd78af_0: 
+    sha256:a8b48e77928705527f00e255cc75602fb58abbdea1ec463f8dce0c9b70552d27
 docker: quay.io/biocontainers/bioconductor-geosubmission

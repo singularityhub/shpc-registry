@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fdb.ucsc.snp135common.hg19
 latest:
-  1.0.0--r44hdfd78af_13: 
-    sha256:9956b960453c30e2f9c104e8874cc0148db5cf8055015d8affebda27a008ded1
+  1.0.0--r45hdfd78af_14: 
+    sha256:9c5182d0de625505a6f5fefbf17b5d2eeee25987326ae780bf35ce5729ddb268
 tags:
   1.0.0--r41hdfd78af_9: 
     sha256:780422840664c5a2daa3f9fed1a1042e6443a34861db5eb769b849215dd5b3da
@@ -16,4 +16,6 @@ tags:
     sha256:153ce537e9b19a696ab55551a15105be4325d02be23292b731b4d00163e3d422
   1.0.0--r44hdfd78af_13: 
     sha256:9956b960453c30e2f9c104e8874cc0148db5cf8055015d8affebda27a008ded1
+  1.0.0--r45hdfd78af_14: 
+    sha256:9c5182d0de625505a6f5fefbf17b5d2eeee25987326ae780bf35ce5729ddb268
 docker: quay.io/biocontainers/bioconductor-fdb.ucsc.snp135common.hg19

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scnorm
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:30f7cd1b3d5e859a8552b573c9130c64e80d0b83b4c390eb6d23bfa72e057862
+  1.32.0--r45hdfd78af_0: 
+    sha256:53a4013b3de64a73cb8c253523ae70b0894e8ea1cc4734a8948a8ed80d789544
 tags:
   1.8.0--r36_0: 
     sha256:74e8fa0c6b1a38b1c413e741800ba1bdaca5e2943928753adbbad8e89e63b208
@@ -24,6 +24,8 @@ tags:
     sha256:e41d4dc68f9c4ec206c2e657e09d90afa2a8183279b39cfba67b919f34780789
   1.28.0--r44hdfd78af_0: 
     sha256:30f7cd1b3d5e859a8552b573c9130c64e80d0b83b4c390eb6d23bfa72e057862
+  1.32.0--r45hdfd78af_0: 
+    sha256:53a4013b3de64a73cb8c253523ae70b0894e8ea1cc4734a8948a8ed80d789544
 docker: quay.io/biocontainers/bioconductor-scnorm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

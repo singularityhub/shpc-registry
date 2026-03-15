@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-singscore
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:e8048dc23827ecdd9c663cb10b51db81b6fa9698c6c3a2e62aea44d0b33cf373
+  1.30.0--r45hdfd78af_0: 
+    sha256:57d571e298bfe634290cda76c0372b21c4e876607b1466aee2518c1bc5a5930a
 tags:
   1.8.0--r40_0: 
     sha256:ee2b434bc9bfcef2d2977ae77060d6132118ec58cf8d9ec02d67ae0576d6fecf
@@ -22,6 +22,8 @@ tags:
     sha256:8308c0678ff793a6f7c169e5bac483df8a1ae1beb0c4f93761412001f546875c
   1.26.0--r44hdfd78af_0: 
     sha256:e8048dc23827ecdd9c663cb10b51db81b6fa9698c6c3a2e62aea44d0b33cf373
+  1.30.0--r45hdfd78af_0: 
+    sha256:57d571e298bfe634290cda76c0372b21c4e876607b1466aee2518c1bc5a5930a
 docker: quay.io/biocontainers/bioconductor-singscore
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

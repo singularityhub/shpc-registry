@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-asurat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-asurat
 latest:
-  1.10.0--r44he5774e6_0: 
-    sha256:b5d53589aea852122ea5e65c6466f23fcf77e9de44037eda795682107f4e3076
+  1.14.0--r45ha27e39d_0: 
+    sha256:b51de211fbf868a4061272616b3c6acf8cbc029ce925dabe09f09db382269241
 tags:
   1.2.0--r42hc247a5b_0: 
     sha256:4a1e738127808b34580f1503c71165713c74dc923d1916d19fcf99534341af4e
@@ -17,6 +17,8 @@ tags:
     sha256:6312b24bdbafaeacee919f916ab206b0f9b4b0dd203164d806b8db1eb81e7c1e
   1.10.0--r44he5774e6_0: 
     sha256:b5d53589aea852122ea5e65c6466f23fcf77e9de44037eda795682107f4e3076
+  1.14.0--r45ha27e39d_0: 
+    sha256:b51de211fbf868a4061272616b3c6acf8cbc029ce925dabe09f09db382269241
 docker: quay.io/biocontainers/bioconductor-asurat
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

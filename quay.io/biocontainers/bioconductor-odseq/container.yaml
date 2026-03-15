@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-odseq
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:fb6c31b8055962b08bd32b3ece5f5e85ccf6d6f27098f78b58cd6e230a38267a
+  1.38.0--r45hdfd78af_0: 
+    sha256:f9121ae8fe402fc08b365cb0295b5df22e0f475d9707f5cd93787d4f98e50cb3
 tags:
   1.22.0--r41hdfd78af_0: 
     sha256:138e66d611190cb5a5396d28e54e6b2a105b333ae5aca443f611efa61f1a155e
@@ -16,4 +16,6 @@ tags:
     sha256:0faf58dd5fc08418d3c9257cc53177365043edd98aec56e0fe774f3ac9dac0a3
   1.34.0--r44hdfd78af_0: 
     sha256:fb6c31b8055962b08bd32b3ece5f5e85ccf6d6f27098f78b58cd6e230a38267a
+  1.38.0--r45hdfd78af_0: 
+    sha256:f9121ae8fe402fc08b365cb0295b5df22e0f475d9707f5cd93787d4f98e50cb3
 docker: quay.io/biocontainers/bioconductor-odseq

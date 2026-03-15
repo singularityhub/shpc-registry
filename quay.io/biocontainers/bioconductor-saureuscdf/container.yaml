@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-saureuscdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:c29abb4232d201441cb886bd6760f67f5f5633a90c07dedaea48fd3d1f91b802
+  2.18.0--r45hdfd78af_14: 
+    sha256:397937b00c6a27e1020f4f6eefd0e7a1cbc7140b7e6487660d7c8b4a4ba47cfe
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:589e9e85a501cf1747826441091c4f3c00baeb6f735405c024deb730697da284
@@ -16,4 +16,6 @@ tags:
     sha256:c3a63d6b0a1a64cdae071521672f276b56f0ea4dc1358264f8c37cb0b91cbaec
   2.18.0--r44hdfd78af_13: 
     sha256:c29abb4232d201441cb886bd6760f67f5f5633a90c07dedaea48fd3d1f91b802
+  2.18.0--r45hdfd78af_14: 
+    sha256:397937b00c6a27e1020f4f6eefd0e7a1cbc7140b7e6487660d7c8b4a4ba47cfe
 docker: quay.io/biocontainers/bioconductor-saureuscdf

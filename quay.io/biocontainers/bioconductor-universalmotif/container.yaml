@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-universalmotif
 latest:
-  1.24.0--r44he5774e6_1: 
-    sha256:8f5d7e1fdb928f805209c2b282b83f388e52c2f318fdeb8333f819ba925bdeed
+  1.28.0--r45ha27e39d_0: 
+    sha256:7e37c63c70f46babcaad40453d6ebe9e03eeb7e6c4af2ddd586478117249f416
 tags:
   1.8.3--r40h399db7b_0: 
     sha256:e67048bda7783467b120c6d37b18c6bb5aecd6fe27c1ae77fc458b2801f2d8aa
@@ -24,6 +24,8 @@ tags:
     sha256:c1dd77fd5e433bae80b7051d9752c3cb1c9a2bd1fee3e077ebd1b7203c900ed6
   1.24.0--r44he5774e6_1: 
     sha256:8f5d7e1fdb928f805209c2b282b83f388e52c2f318fdeb8333f819ba925bdeed
+  1.28.0--r45ha27e39d_0: 
+    sha256:7e37c63c70f46babcaad40453d6ebe9e03eeb7e6c4af2ddd586478117249f416
 docker: quay.io/biocontainers/bioconductor-universalmotif
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

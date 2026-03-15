@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-treesummarizedexperiment
 latest:
-  2.14.0--r44hdfd78af_0: 
-    sha256:38a27ff4cfac5014e6aa61169ad0e7e5477ec91c561a09c36551fba608a50250
+  2.18.0--r45hdfd78af_0: 
+    sha256:3a280d836198c4ead78c9d6806eb0206fe836fa8e7a06a66cf81e821b78466ce
 tags:
   2.2.0--r41hdfd78af_0: 
     sha256:07479a671c37ad4531b06b675e858f4d85f8171695c9654508346a506375e270
@@ -16,4 +16,6 @@ tags:
     sha256:c22b31d28e96f502b87530ebcd8c9f1256d9c7d23ba08a3b2e083ad2ad22a407
   2.14.0--r44hdfd78af_0: 
     sha256:38a27ff4cfac5014e6aa61169ad0e7e5477ec91c561a09c36551fba608a50250
+  2.18.0--r45hdfd78af_0: 
+    sha256:3a280d836198c4ead78c9d6806eb0206fe836fa8e7a06a66cf81e821b78466ce
 docker: quay.io/biocontainers/bioconductor-treesummarizedexperiment

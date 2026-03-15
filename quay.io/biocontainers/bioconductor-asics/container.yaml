@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-asics
 latest:
-  2.22.0--r44hdfd78af_0: 
-    sha256:ec965d5010ae6e8e7f62724928ca52a6c7655c4421695d5a761c66d4261938f9
+  2.26.0--r45hdfd78af_0: 
+    sha256:0dad2e38cbfb6d3ef19b8e34d0cd49965cb17628f5adc74fc81996b96753c3ff
 tags:
   2.8.0--r41hdfd78af_0: 
     sha256:a60ab0f921e328cf0fec906822a08f52c6d94d2c8ddb640bc53480b1b46a7a58
@@ -18,6 +18,8 @@ tags:
     sha256:d2950cbd9b189087f4c44b46b8081ff66092c3714ec0b81ad351f3bfbe7cd453
   2.22.0--r44hdfd78af_0: 
     sha256:ec965d5010ae6e8e7f62724928ca52a6c7655c4421695d5a761c66d4261938f9
+  2.26.0--r45hdfd78af_0: 
+    sha256:0dad2e38cbfb6d3ef19b8e34d0cd49965cb17628f5adc74fc81996b96753c3ff
 docker: quay.io/biocontainers/bioconductor-asics
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

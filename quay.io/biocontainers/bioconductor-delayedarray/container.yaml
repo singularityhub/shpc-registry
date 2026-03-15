@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-delayedarray
 latest:
-  0.32.0--r44h3df3fcb_1: 
-    sha256:f839034f9ad8ccf5d8db949d781abffa94da18a95e3fa05b5f735322f306ee74
+  0.36.0--r45h01b2380_0: 
+    sha256:fe9cdd3776e0f3d06277b825663f2343840dbe524d67e5c19d82ba15c7741143
 tags:
   0.8.0--r351h14c3975_0: 
     sha256:0b945d7155de70e961ddb914b596ccff70d76c9f0ca0b5360b48e0aa103ef01e
@@ -30,6 +30,8 @@ tags:
     sha256:58324711c5386b764682c6a6685dbaccf40438684e15decc9a4f19a42a02e460
   0.32.0--r44h3df3fcb_1: 
     sha256:f839034f9ad8ccf5d8db949d781abffa94da18a95e3fa05b5f735322f306ee74
+  0.36.0--r45h01b2380_0: 
+    sha256:fe9cdd3776e0f3d06277b825663f2343840dbe524d67e5c19d82ba15c7741143
 docker: quay.io/biocontainers/bioconductor-delayedarray
 aliases:
   c89: /usr/local/bin/c89

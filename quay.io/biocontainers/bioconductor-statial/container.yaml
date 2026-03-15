@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-statial
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:f38faff36f885be1236b5e507aed62f350c682fa877c040db7c574073845c2f0
+  1.12.0--r45hdfd78af_0: 
+    sha256:869d27a2d3cdf4d8a6d5ecd88b0b4baa1563dadfc52b1b842d64a87f7dcd2245
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:63d2895b3f00f52e7afc2fbc745022466509ccd4692262d2817781f8d46a8389
@@ -14,6 +14,8 @@ tags:
     sha256:be8735ba57473f8efee4b9e3027fc542f6389bb6a10b47ddb02fe28365b63d15
   1.8.0--r44hdfd78af_0: 
     sha256:f38faff36f885be1236b5e507aed62f350c682fa877c040db7c574073845c2f0
+  1.12.0--r45hdfd78af_0: 
+    sha256:869d27a2d3cdf4d8a6d5ecd88b0b4baa1563dadfc52b1b842d64a87f7dcd2245
 docker: quay.io/biocontainers/bioconductor-statial
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

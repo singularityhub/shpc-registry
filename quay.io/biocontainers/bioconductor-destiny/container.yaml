@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-destiny
 latest:
-  3.16.0--r43hf17093f_0: 
-    sha256:4b95e9c10e53c680e13b60fc71ab38e50577f5617477858aeb0bdf119efb501b
+  3.24.0--r45ha27e39d_0: 
+    sha256:4a03879f6d2670aff1897b0bea9b6e5dc2615668b76271ba5ee8951591e1354d
 tags:
   3.8.1--r41hc247a5b_1: 
     sha256:f41c42d632a80bcad7d537e9055f02b9a617421f022faaef8dac985af4dd7ca0
@@ -16,6 +16,8 @@ tags:
     sha256:6cde5f62e418e8fe8c92e4bdb2e36d3c2e7e2b44bceb8445731b562aac891403
   3.16.0--r43hf17093f_0: 
     sha256:4b95e9c10e53c680e13b60fc71ab38e50577f5617477858aeb0bdf119efb501b
+  3.24.0--r45ha27e39d_0: 
+    sha256:4a03879f6d2670aff1897b0bea9b6e5dc2615668b76271ba5ee8951591e1354d
 docker: quay.io/biocontainers/bioconductor-destiny
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

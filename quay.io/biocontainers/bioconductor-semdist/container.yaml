@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-semdist
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:8fa26042eae0176ce048f831573777947997469d44ea5171e2bbac471f737ef9
+  1.44.0--r45hdfd78af_0: 
+    sha256:49b3cbb96495f08d4b0ea2dba4f4a0325db038cf52378e99aa70f3ca8ae3f227
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:e988ab96f76f18f55c90e1d0fb74a028a325d45399ea82f7c41c8f31435ae25f
@@ -16,4 +16,6 @@ tags:
     sha256:3ff47050f80aba1c9a3fd769b9d71539db73b8e52049c9cd3a91cd1c441abfec
   1.40.0--r44hdfd78af_0: 
     sha256:8fa26042eae0176ce048f831573777947997469d44ea5171e2bbac471f737ef9
+  1.44.0--r45hdfd78af_0: 
+    sha256:49b3cbb96495f08d4b0ea2dba4f4a0325db038cf52378e99aa70f3ca8ae3f227
 docker: quay.io/biocontainers/bioconductor-semdist

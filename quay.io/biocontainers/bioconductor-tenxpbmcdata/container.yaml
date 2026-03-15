@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tenxpbmcdata
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:4a116db577c796062193d247f2fb934c7991ce849bba10584f10cd122c58b4a9
+  1.28.0--r45hdfd78af_0: 
+    sha256:a0b1b6a59d280df86d3b24d6aaf9eb762c400caf5ec92efc964b7c03d647ce31
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:f804ba7a7e2151819db3a885abbc2210ae8d038614e2a8c12941f1ad5cb6ee84
@@ -20,6 +20,8 @@ tags:
     sha256:4da4bcefca36f2f9111dabd55ad96370a0a00369112375d769e55a8604409080
   1.24.0--r44hdfd78af_0: 
     sha256:4a116db577c796062193d247f2fb934c7991ce849bba10584f10cd122c58b4a9
+  1.28.0--r45hdfd78af_0: 
+    sha256:a0b1b6a59d280df86d3b24d6aaf9eb762c400caf5ec92efc964b7c03d647ce31
 docker: quay.io/biocontainers/bioconductor-tenxpbmcdata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

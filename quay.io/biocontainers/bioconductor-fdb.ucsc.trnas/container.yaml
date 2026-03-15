@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fdb.ucsc.trnas
 latest:
-  1.0.1--r44hdfd78af_13: 
-    sha256:c9779272f1cf5fd578630f1c08aeec43960823f0744d9f920120d4fb16325a4f
+  1.0.1--r45hdfd78af_14: 
+    sha256:f950ba33af53781b3b435866f7acca2342b730b221149889cc3d30df80e4d91b
 tags:
   1.0.1--r41hdfd78af_9: 
     sha256:78f1ad565ff78166c336a43a03df41516e941ab2d5aca1de3112ca0c58b73828
@@ -16,4 +16,6 @@ tags:
     sha256:2d337632f113b45173d3a06b0d45a1137ec4fa3a7d6a651669b2b44feeaa4ba1
   1.0.1--r44hdfd78af_13: 
     sha256:c9779272f1cf5fd578630f1c08aeec43960823f0744d9f920120d4fb16325a4f
+  1.0.1--r45hdfd78af_14: 
+    sha256:f950ba33af53781b3b435866f7acca2342b730b221149889cc3d30df80e4d91b
 docker: quay.io/biocontainers/bioconductor-fdb.ucsc.trnas

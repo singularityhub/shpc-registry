@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-deformats
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:bce8ae89244dfe9360c792753cb11c24d008028a616e3bfa3ef0a647c2023622
+  1.38.0--r45hdfd78af_0: 
+    sha256:26b479b7a9377fd7cb97a351ba2caaf20a23ddcb46cf313076c4c8d7c361bebf
 tags:
   1.8.0--r341_0: 
     sha256:6beafffdfbd6125279b138c2a6a2a184a64c51728bf07294dc6c7661f6244e0b
@@ -24,6 +24,8 @@ tags:
     sha256:6ac2372d6a7c58c17f36e5873d938551a4f130985b088116b5dde921c1df2e05
   1.34.0--r44hdfd78af_0: 
     sha256:bce8ae89244dfe9360c792753cb11c24d008028a616e3bfa3ef0a647c2023622
+  1.38.0--r45hdfd78af_0: 
+    sha256:26b479b7a9377fd7cb97a351ba2caaf20a23ddcb46cf313076c4c8d7c361bebf
 docker: quay.io/biocontainers/bioconductor-deformats
 aliases:
   wget: /usr/local/bin/wget

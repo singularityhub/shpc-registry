@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-divergence
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:73e655095178629effe6cc28f5bffdbcf0599f092d34cba357dd28a40171866b
+  1.26.0--r45hdfd78af_0: 
+    sha256:9863f73f24b9cb967e2975238c179c0babf089325f9ba75269c31d525de3c720
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:b6eefa30bc8d3bfff867fc3f6da56af55c9d5f98fa5ddcdfd46f61f80be1a7e3
@@ -18,6 +18,8 @@ tags:
     sha256:eced0ac31a1d3c18e68238eafed6007ecea56d2a93756fce0a95f3f00c1da167
   1.22.0--r44hdfd78af_0: 
     sha256:73e655095178629effe6cc28f5bffdbcf0599f092d34cba357dd28a40171866b
+  1.26.0--r45hdfd78af_0: 
+    sha256:9863f73f24b9cb967e2975238c179c0babf089325f9ba75269c31d525de3c720
 docker: quay.io/biocontainers/bioconductor-divergence
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

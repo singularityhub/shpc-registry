@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dnashaper
 latest:
-  1.34.0--r44he5774e6_0: 
-    sha256:519464920a215bc1dc1b9451dc351f0aebf9cace50a69720bc803bb391bc2795
+  1.38.0--r45ha27e39d_0: 
+    sha256:6f7394ebab4857ccc81a7cd608237704d07b7f7a3a95fbc92dc008d0082145ce
 tags:
   1.8.0--r351hfc679d8_0: 
     sha256:41aa0a4b61655437b6ddf71b2bc9dfc703e03f57d4818b463095775f8c037973
@@ -26,6 +26,8 @@ tags:
     sha256:9d2a3f28d23f3d2176e3cd8a06f67e522f46954be853435474010217c4636fe1
   1.34.0--r44he5774e6_0: 
     sha256:519464920a215bc1dc1b9451dc351f0aebf9cace50a69720bc803bb391bc2795
+  1.38.0--r45ha27e39d_0: 
+    sha256:6f7394ebab4857ccc81a7cd608237704d07b7f7a3a95fbc92dc008d0082145ce
 docker: quay.io/biocontainers/bioconductor-dnashaper
 aliases:
   wget: /usr/local/bin/wget

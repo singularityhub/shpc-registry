@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-msgbsr
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:575e29d3601e7752a90fc8a716172638828d01fddce33a512165ec847fe1bf67
+  1.34.0--r45hdfd78af_0: 
+    sha256:9fbec789063133027f7178043dcbcbb5f5f14f9ebc3fcf9a226fff553d2a0239
 tags:
   1.8.0--r36_1: 
     sha256:8d79d72f040e7cc9228d8fff98b2fdc62cc4c9e98e014526d64176695089db4c
@@ -24,6 +24,8 @@ tags:
     sha256:e3e68a82ff6653bca8c449f40b9ddf59301c2ac7b54daa82c4b5738b7cd70271
   1.30.0--r44hdfd78af_0: 
     sha256:575e29d3601e7752a90fc8a716172638828d01fddce33a512165ec847fe1bf67
+  1.34.0--r45hdfd78af_0: 
+    sha256:9fbec789063133027f7178043dcbcbb5f5f14f9ebc3fcf9a226fff553d2a0239
 docker: quay.io/biocontainers/bioconductor-msgbsr
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

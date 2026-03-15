@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tartare
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:b4b526d631fcb2991d9baa7c09a6695be6f434af33da3103a25b8c2c8ec15e7d
+  1.24.0--r45hdfd78af_0: 
+    sha256:a68d6713c4d7de36c3bfa8d051868c8bc959924f8b92d98867e9a97c8ca3d5fb
 tags:
   1.8.0--r41hdfd78af_1: 
     sha256:72c99c967fb892ed3c7ba2988b89a2e138a24013c2c3b5293f5f62199e5a1822
@@ -16,4 +16,6 @@ tags:
     sha256:37306dacbf83a493a9b89aa7999d81c4c86b533b36f11b0ee08ac9e5e2d28373
   1.20.0--r44hdfd78af_0: 
     sha256:b4b526d631fcb2991d9baa7c09a6695be6f434af33da3103a25b8c2c8ec15e7d
+  1.24.0--r45hdfd78af_0: 
+    sha256:a68d6713c4d7de36c3bfa8d051868c8bc959924f8b92d98867e9a97c8ca3d5fb
 docker: quay.io/biocontainers/bioconductor-tartare

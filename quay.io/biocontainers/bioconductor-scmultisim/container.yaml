@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-scmultisim
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:0722377720cb4c62efe9f2f7500c2bc2d14c46c329c8f0b3790e9a175d0a34ee
+  1.6.0--r45hdfd78af_0: 
+    sha256:d07c835ad09e329b7fb41c2948cded2ef0fa4f79f8066477cf1b47ac92ced696
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:0722377720cb4c62efe9f2f7500c2bc2d14c46c329c8f0b3790e9a175d0a34ee
+  1.6.0--r45hdfd78af_0: 
+    sha256:d07c835ad09e329b7fb41c2948cded2ef0fa4f79f8066477cf1b47ac92ced696
 docker: quay.io/biocontainers/bioconductor-scmultisim
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

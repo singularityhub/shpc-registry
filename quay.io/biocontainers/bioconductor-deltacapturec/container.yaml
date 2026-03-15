@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-deltacapturec
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:36bbe14659ce7e4988255e510ec1ac9c49318aed809879c79e690a22760f50bf
+  1.24.0--r45hdfd78af_0: 
+    sha256:730a9838027e7bea769375c2134d0f445c3935e7b52f94db45bb9747acfc8ac0
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:cfa7254c4b730089da10272106e695dcf76ce1baa002051f1e9709d9a662175b
@@ -16,4 +16,6 @@ tags:
     sha256:b665789cc65afa39b10f1aeb4476a79df4c03b74016104c2e558c0cb14083418
   1.20.0--r44hdfd78af_0: 
     sha256:36bbe14659ce7e4988255e510ec1ac9c49318aed809879c79e690a22760f50bf
+  1.24.0--r45hdfd78af_0: 
+    sha256:730a9838027e7bea769375c2134d0f445c3935e7b52f94db45bb9747acfc8ac0
 docker: quay.io/biocontainers/bioconductor-deltacapturec
