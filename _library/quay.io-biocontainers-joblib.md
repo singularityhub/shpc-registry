@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/joblib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/joblib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/joblib/container.yaml"
-updated_at: "2026-03-14 04:43:00.429484"
+updated_at: "2026-03-15 05:07:18.007165"
 latest: "0.9.3--py36_0"
 container_url: "https://biocontainers.pro/tools/joblib"
 aliases:

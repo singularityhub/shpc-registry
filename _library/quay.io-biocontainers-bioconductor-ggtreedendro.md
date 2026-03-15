@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ggtreedendro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggtreedendro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggtreedendro/container.yaml"
-updated_at: "2026-03-14 04:59:40.602411"
-latest: "1.8.0--r44hdfd78af_0"
+updated_at: "2026-03-15 05:25:20.413970"
+latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggtreedendro"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.8.0--r44hdfd78af_0"
+ - "1.12.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-ggtreedendro"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggtreedendro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ggtreedendro", "latest": {"1.8.0--r44hdfd78af_0": "sha256:982f342c64e58a0d50538fd486701488a0fdee15f56e03283b5f22a70d71b318"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:a0bbf6b5ae886ac8b6fd0409f3a384fa4d5cfabd744fb186916d29475f34bd3d", "1.2.0--r43hdfd78af_0": "sha256:d6deba1a1da0a1d34de8499fe2ef8d663146429f90512de822bc311a6060e078", "1.4.0--r43hdfd78af_0": "sha256:3fa8b9fa26e8330f5267e6ec86a44acef2d5e40db4c7e958605828b71aa2f214", "1.8.0--r44hdfd78af_0": "sha256:982f342c64e58a0d50538fd486701488a0fdee15f56e03283b5f22a70d71b318"}, "docker": "quay.io/biocontainers/bioconductor-ggtreedendro"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggtreedendro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ggtreedendro", "latest": {"1.12.0--r45hdfd78af_0": "sha256:fc6bb9ac71fb1b8c82204a8cf6fabe92d119cc8148cb6861b08648cf76d4fcc6"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:a0bbf6b5ae886ac8b6fd0409f3a384fa4d5cfabd744fb186916d29475f34bd3d", "1.2.0--r43hdfd78af_0": "sha256:d6deba1a1da0a1d34de8499fe2ef8d663146429f90512de822bc311a6060e078", "1.4.0--r43hdfd78af_0": "sha256:3fa8b9fa26e8330f5267e6ec86a44acef2d5e40db4c7e958605828b71aa2f214", "1.8.0--r44hdfd78af_0": "sha256:982f342c64e58a0d50538fd486701488a0fdee15f56e03283b5f22a70d71b318", "1.12.0--r45hdfd78af_0": "sha256:fc6bb9ac71fb1b8c82204a8cf6fabe92d119cc8148cb6861b08648cf76d4fcc6"}, "docker": "quay.io/biocontainers/bioconductor-ggtreedendro"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggtreedendro.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ggtreedendro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ggtreedendro:1.8.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ggtreedendro:1.12.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ggtreedendro/1.8.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ggtreedendro/1.8.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ggtreedendro/1.12.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ggtreedendro/1.12.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

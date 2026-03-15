@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/corona_lineage_dynamics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/corona_lineage_dynamics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/corona_lineage_dynamics/container.yaml"
-updated_at: "2026-03-14 04:20:33.102079"
+updated_at: "2026-03-15 04:42:56.201634"
 latest: "0.1.7--r44h6a1216f_0"
 container_url: "https://biocontainers.pro/tools/corona_lineage_dynamics"
 aliases:

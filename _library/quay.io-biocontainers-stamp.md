@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stamp/container.yaml"
-updated_at: "2026-03-14 05:04:42.134918"
+updated_at: "2026-03-15 05:30:20.621512"
 latest: "2.1.3--py_2"
 container_url: "https://biocontainers.pro/tools/stamp"
 aliases:

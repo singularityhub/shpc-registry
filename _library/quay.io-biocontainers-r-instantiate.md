@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-instantiate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-instantiate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-instantiate/container.yaml"
-updated_at: "2026-03-14 04:34:16.734004"
+updated_at: "2026-03-15 04:57:45.102110"
 latest: "0.2.3--r45hf7ecca6_0"
 container_url: "https://biocontainers.pro/tools/r-instantiate"
 aliases:

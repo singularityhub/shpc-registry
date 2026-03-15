@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-signaturesearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-signaturesearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-signaturesearch/container.yaml"
-updated_at: "2026-03-14 04:48:50.454167"
-latest: "1.20.0--r44he5774e6_0"
+updated_at: "2026-03-15 05:13:34.799788"
+latest: "1.24.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-signaturesearch"
 aliases:
  - "glpsol"
@@ -16,8 +16,9 @@ versions:
  - "1.14.0--r43hf17093f_0"
  - "1.16.0--r43hf17093f_0"
  - "1.20.0--r44he5774e6_0"
+ - "1.24.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-signaturesearch"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-signaturesearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-signaturesearch", "latest": {"1.20.0--r44he5774e6_0": "sha256:37a9ef381ec995b03a1ff3ec29e56b47ef89862388e4f8142b26e0a44ee69bce"}, "tags": {"1.8.2--r41hc247a5b_1": "sha256:2fef21aac2d2c88704d657c70efdc3e7c3c8b56c2d8764c5e980f8caba4b528e", "1.12.0--r42hc247a5b_0": "sha256:c800242d61959872b6f7f265813e564fa91bbfcd01c8e524b916140f6f21e4cd", "1.12.0--r42hf17093f_1": "sha256:b23d68c1df756463b6523fe4f8636ece7d41251a778a27dd4298c194785716a8", "1.14.0--r43hf17093f_0": "sha256:715f95f6a3098d8ab81b9d996544bd93ebc30ec6a44d3c287102cb35ee315b24", "1.16.0--r43hf17093f_0": "sha256:8013546e6c14d4c83cf090521abadc623b7d5bed01f65de5826e2b7e6d8d6fe4", "1.20.0--r44he5774e6_0": "sha256:37a9ef381ec995b03a1ff3ec29e56b47ef89862388e4f8142b26e0a44ee69bce"}, "docker": "quay.io/biocontainers/bioconductor-signaturesearch", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-signaturesearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-signaturesearch", "latest": {"1.24.0--r45ha27e39d_0": "sha256:e11416e1f873bd56acd1a45a46364fe4ece028d704ee9609822388562345a3cd"}, "tags": {"1.8.2--r41hc247a5b_1": "sha256:2fef21aac2d2c88704d657c70efdc3e7c3c8b56c2d8764c5e980f8caba4b528e", "1.12.0--r42hc247a5b_0": "sha256:c800242d61959872b6f7f265813e564fa91bbfcd01c8e524b916140f6f21e4cd", "1.12.0--r42hf17093f_1": "sha256:b23d68c1df756463b6523fe4f8636ece7d41251a778a27dd4298c194785716a8", "1.14.0--r43hf17093f_0": "sha256:715f95f6a3098d8ab81b9d996544bd93ebc30ec6a44d3c287102cb35ee315b24", "1.16.0--r43hf17093f_0": "sha256:8013546e6c14d4c83cf090521abadc623b7d5bed01f65de5826e2b7e6d8d6fe4", "1.20.0--r44he5774e6_0": "sha256:37a9ef381ec995b03a1ff3ec29e56b47ef89862388e4f8142b26e0a44ee69bce", "1.24.0--r45ha27e39d_0": "sha256:e11416e1f873bd56acd1a45a46364fe4ece028d704ee9609822388562345a3cd"}, "docker": "quay.io/biocontainers/bioconductor-signaturesearch", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-signaturesearch.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-signaturesearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-signaturesearch:1.20.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-signaturesearch:1.24.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-signaturesearch/1.20.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-signaturesearch/1.20.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-signaturesearch/1.24.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-signaturesearch/1.24.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mdasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdasim/container.yaml"
-updated_at: "2026-03-14 04:21:11.445614"
+updated_at: "2026-03-15 04:43:36.973961"
 latest: "2.1.1--hf316886_7"
 container_url: "https://biocontainers.pro/tools/mdasim"
 aliases:

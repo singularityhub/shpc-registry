@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-compcoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-compcoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-compcoder/container.yaml"
-updated_at: "2026-03-14 04:27:18.515449"
+updated_at: "2026-03-15 04:50:08.789908"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-compcoder"
 
@@ -16,7 +16,7 @@ versions:
  - "1.42.0--r44hdfd78af_0"
  - "1.46.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-compcoder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-compcoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-compcoder", "latest": {"1.46.0--r45hdfd78af_0": "sha256:996afac47ccba6cbcd3eb022e22cb1a48f89faa2a791ecab6cdcfac8feba6495"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:b84d1af6e7b19cc865519d616fa574ffa43e8b6a1f86afa99333f4556d6b7165", "1.34.0--r42hdfd78af_0": "sha256:017ed3ce55b15f93c112ccd1debb795ab836840757c788b0b4c7664995984660", "1.36.2--r43hdfd78af_0": "sha256:a5572f48541621e8cbf6bfba09c18e47616b5614987106e84ede846c4d02a576", "1.38.0--r43hdfd78af_0": "sha256:454b7db3b6dc7cca1ad37aa1c5dd1664c86599734c3f5d16a237728755d3cc1e", "1.42.0--r44hdfd78af_0": "sha256:83438d01d2b89c9201f816dc7b8589baf77403c5391b00eb327b21dc5e7c514b", "1.46.0--r45hdfd78af_0": "sha256:996afac47ccba6cbcd3eb022e22cb1a48f89faa2a791ecab6cdcfac8feba6495"}, "docker": "quay.io/biocontainers/bioconductor-compcoder"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-compcoder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-compcoder", "latest": {"1.46.0--r45hdfd78af_0": "sha256:ae664094dc0e71cb850b9d81a9f7e32760e53b2a4070b824ec2ccaec2e8c5cee"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:b84d1af6e7b19cc865519d616fa574ffa43e8b6a1f86afa99333f4556d6b7165", "1.34.0--r42hdfd78af_0": "sha256:017ed3ce55b15f93c112ccd1debb795ab836840757c788b0b4c7664995984660", "1.36.2--r43hdfd78af_0": "sha256:a5572f48541621e8cbf6bfba09c18e47616b5614987106e84ede846c4d02a576", "1.38.0--r43hdfd78af_0": "sha256:454b7db3b6dc7cca1ad37aa1c5dd1664c86599734c3f5d16a237728755d3cc1e", "1.42.0--r44hdfd78af_0": "sha256:83438d01d2b89c9201f816dc7b8589baf77403c5391b00eb327b21dc5e7c514b", "1.46.0--r45hdfd78af_0": "sha256:ae664094dc0e71cb850b9d81a9f7e32760e53b2a4070b824ec2ccaec2e8c5cee"}, "docker": "quay.io/biocontainers/bioconductor-compcoder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-compcoder.

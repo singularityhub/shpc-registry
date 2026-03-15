@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphmap/container.yaml"
-updated_at: "2026-03-14 04:34:26.648272"
+updated_at: "2026-03-15 04:57:55.810351"
 latest: "0.6.4--hdcf5f25_0"
 container_url: "https://biocontainers.pro/tools/graphmap"
 aliases:

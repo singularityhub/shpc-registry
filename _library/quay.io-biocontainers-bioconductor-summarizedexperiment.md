@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-summarizedexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-summarizedexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-summarizedexperiment/container.yaml"
-updated_at: "2026-03-14 04:37:05.058547"
-latest: "1.36.0--r44hdfd78af_0"
+updated_at: "2026-03-15 05:00:51.140881"
+latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-summarizedexperiment"
 aliases:
  - "wget"
@@ -23,8 +23,9 @@ versions:
  - "1.30.2--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
  - "1.36.0--r44hdfd78af_0"
+ - "1.40.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-summarizedexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-summarizedexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-summarizedexperiment", "latest": {"1.36.0--r44hdfd78af_0": "sha256:e471201aa59667bf5f2318642b7229bdb02dc7d43c93e730b35d10bf02b541dc"}, "tags": {"1.8.0--r3.4.1_0": "sha256:f6b44de8416b50c7fb287ec38eea70fea4b28ede7cd63ebd620e3b0b4b6ff6a6", "1.28.0--r42hdfd78af_0": "sha256:e0028e886b4fb6a3ded31d03c8b1c53a4d6df5d9a18ec924c07afd73d16f5b7a", "1.24.0--r41hdfd78af_0": "sha256:d52a5e759c3fd8cfbc50cf8cd3f0afac915785948dd1c3831303e17c262708fa", "1.22.0--r41hdfd78af_0": "sha256:804a217535f76783f48c5eb6ea8afb9c987203f433c6345e7f608c0896cd77e7", "1.20.0--r40hdfd78af_1": "sha256:a5635fb3bc105632dd78f3ce83b413d6fe3c2051ca8dc109a6ae2079d73fd763", "1.18.1--r40_0": "sha256:70c154f9aee9152d9e03c474cd4b5e5eee5856cda5b62c46b10c4ae7932e763d", "1.30.2--r43hdfd78af_0": "sha256:486446c64c26a26308a23065f159501791964e3d6ebd2dc02c1b25d7550a19f3", "1.32.0--r43hdfd78af_0": "sha256:17fe194827b1e08aeda6e0505439aaec24e677a52d785da2f7d8b3ff35758687", "1.36.0--r44hdfd78af_0": "sha256:e471201aa59667bf5f2318642b7229bdb02dc7d43c93e730b35d10bf02b541dc"}, "docker": "quay.io/biocontainers/bioconductor-summarizedexperiment", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-summarizedexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-summarizedexperiment", "latest": {"1.40.0--r45hdfd78af_0": "sha256:1c6708964134ed047f6c8463221a4ba456da5de6286fa4b7631bf9acd82ae5a9"}, "tags": {"1.8.0--r3.4.1_0": "sha256:f6b44de8416b50c7fb287ec38eea70fea4b28ede7cd63ebd620e3b0b4b6ff6a6", "1.28.0--r42hdfd78af_0": "sha256:e0028e886b4fb6a3ded31d03c8b1c53a4d6df5d9a18ec924c07afd73d16f5b7a", "1.24.0--r41hdfd78af_0": "sha256:d52a5e759c3fd8cfbc50cf8cd3f0afac915785948dd1c3831303e17c262708fa", "1.22.0--r41hdfd78af_0": "sha256:804a217535f76783f48c5eb6ea8afb9c987203f433c6345e7f608c0896cd77e7", "1.20.0--r40hdfd78af_1": "sha256:a5635fb3bc105632dd78f3ce83b413d6fe3c2051ca8dc109a6ae2079d73fd763", "1.18.1--r40_0": "sha256:70c154f9aee9152d9e03c474cd4b5e5eee5856cda5b62c46b10c4ae7932e763d", "1.30.2--r43hdfd78af_0": "sha256:486446c64c26a26308a23065f159501791964e3d6ebd2dc02c1b25d7550a19f3", "1.32.0--r43hdfd78af_0": "sha256:17fe194827b1e08aeda6e0505439aaec24e677a52d785da2f7d8b3ff35758687", "1.36.0--r44hdfd78af_0": "sha256:e471201aa59667bf5f2318642b7229bdb02dc7d43c93e730b35d10bf02b541dc", "1.40.0--r45hdfd78af_0": "sha256:1c6708964134ed047f6c8463221a4ba456da5de6286fa4b7631bf9acd82ae5a9"}, "docker": "quay.io/biocontainers/bioconductor-summarizedexperiment", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-summarizedexperiment.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-summarizedexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-summarizedexperiment:1.36.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-summarizedexperiment:1.40.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-summarizedexperiment/1.36.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-summarizedexperiment/1.36.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-summarizedexperiment/1.40.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-summarizedexperiment/1.40.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

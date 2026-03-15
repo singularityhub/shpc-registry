@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/container.yaml"
-updated_at: "2026-03-14 04:47:23.053061"
-latest: "3.15.0--r44hdfd78af_3"
+updated_at: "2026-03-15 05:12:01.148656"
+latest: "3.15.0--r45hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.ensgene"
 aliases:
  - "gio-launch-desktop"
@@ -19,8 +19,9 @@ versions:
  - "3.15.0--r43hdfd78af_1"
  - "3.15.0--r43hdfd78af_2"
  - "3.15.0--r44hdfd78af_3"
+ - "3.15.0--r45hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.ensgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.ensgene", "latest": {"3.15.0--r44hdfd78af_3": "sha256:363a84f28715db9437e9ef139e93e3c24536ead020a4405257d695045fa2dc11"}, "tags": {"3.4.6--r36_2": "sha256:e91d96f962c1f04db6e0bc5206ab3fb9a8173469fbae0b6b524ecb9b60dabd92", "3.15.0--r42hdfd78af_0": "sha256:40c79f13ec2ba3ecaa60f27cccd2784713b1230048882dfe75258005050d0e31", "3.12.0--r41hdfd78af_4": "sha256:e8a608e6e2caee6666c5e81b342329cee5962e01df4f0ccff7ec6727218adb30", "3.11.0--r40_0": "sha256:8f1918e12dd22c9954df879b5264b2a1e3f9999e59587403c22a1dc4666121be", "3.15.0--r43hdfd78af_1": "sha256:7ed692ae3ecda5c0802844030b89f19e47629b1f2c5121c9d50fa2dac6d996b6", "3.15.0--r43hdfd78af_2": "sha256:59f7fa754cc8de2637cae2338fc454c3f7e817864c4d4ef05db675cc620f1966", "3.15.0--r44hdfd78af_3": "sha256:363a84f28715db9437e9ef139e93e3c24536ead020a4405257d695045fa2dc11"}, "docker": "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.ensgene", "latest": {"3.15.0--r45hdfd78af_4": "sha256:1e0665e9fcc81f992f37b7c856fc03444f0b4c66de1f6989fe68b0f75e7fd4b4"}, "tags": {"3.4.6--r36_2": "sha256:e91d96f962c1f04db6e0bc5206ab3fb9a8173469fbae0b6b524ecb9b60dabd92", "3.15.0--r42hdfd78af_0": "sha256:40c79f13ec2ba3ecaa60f27cccd2784713b1230048882dfe75258005050d0e31", "3.12.0--r41hdfd78af_4": "sha256:e8a608e6e2caee6666c5e81b342329cee5962e01df4f0ccff7ec6727218adb30", "3.11.0--r40_0": "sha256:8f1918e12dd22c9954df879b5264b2a1e3f9999e59587403c22a1dc4666121be", "3.15.0--r43hdfd78af_1": "sha256:7ed692ae3ecda5c0802844030b89f19e47629b1f2c5121c9d50fa2dac6d996b6", "3.15.0--r43hdfd78af_2": "sha256:59f7fa754cc8de2637cae2338fc454c3f7e817864c4d4ef05db675cc620f1966", "3.15.0--r44hdfd78af_3": "sha256:363a84f28715db9437e9ef139e93e3c24536ead020a4405257d695045fa2dc11", "3.15.0--r45hdfd78af_4": "sha256:1e0665e9fcc81f992f37b7c856fc03444f0b4c66de1f6989fe68b0f75e7fd4b4"}, "docker": "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene:3.15.0--r44hdfd78af_3
+$ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene:3.15.0--r45hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/3.15.0--r44hdfd78af_3
-$ module help quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/3.15.0--r44hdfd78af_3
+$ module load quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/3.15.0--r45hdfd78af_4
+$ module help quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/3.15.0--r45hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

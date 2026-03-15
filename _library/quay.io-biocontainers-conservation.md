@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/conservation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conservation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conservation/container.yaml"
-updated_at: "2026-03-14 04:51:49.730754"
+updated_at: "2026-03-15 05:16:46.814471"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/conservation"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-imcdatasets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imcdatasets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imcdatasets/container.yaml"
-updated_at: "2026-03-14 04:48:14.783257"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-03-15 05:12:56.683502"
+latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imcdatasets"
 aliases:
  - "pg_amcheck"
@@ -24,8 +24,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-imcdatasets"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-imcdatasets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imcdatasets", "latest": {"1.14.0--r44hdfd78af_0": "sha256:5262edaa9c687be08f1c9196107a38f377ec653a16762b67465eb5320663146a"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:ae8e4c732143350b238928b8749cbbd9e8f4a21324304ed5ebb6de52393c1b33", "1.6.0--r42hdfd78af_0": "sha256:98ad01d2d47e344410e8a9bdc12d3c2e206836951abcb310abb10f1a6369855b", "1.8.0--r43hdfd78af_0": "sha256:cb7451a3018c3048a543531e834f7262a7b449cab202c4aada6dff079a8bf080", "1.10.0--r43hdfd78af_0": "sha256:323d2b27a76b44ef056cfc73c7f220b07b5642fbb6ecbe90ce2a8c8836ed9e98", "1.14.0--r44hdfd78af_0": "sha256:5262edaa9c687be08f1c9196107a38f377ec653a16762b67465eb5320663146a"}, "docker": "quay.io/biocontainers/bioconductor-imcdatasets", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-imcdatasets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imcdatasets", "latest": {"1.18.0--r45hdfd78af_0": "sha256:d60d8fd161af142e66b0283e4b53e7ff3eed72e0be058014beaa00cc8423426a"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:ae8e4c732143350b238928b8749cbbd9e8f4a21324304ed5ebb6de52393c1b33", "1.6.0--r42hdfd78af_0": "sha256:98ad01d2d47e344410e8a9bdc12d3c2e206836951abcb310abb10f1a6369855b", "1.8.0--r43hdfd78af_0": "sha256:cb7451a3018c3048a543531e834f7262a7b449cab202c4aada6dff079a8bf080", "1.10.0--r43hdfd78af_0": "sha256:323d2b27a76b44ef056cfc73c7f220b07b5642fbb6ecbe90ce2a8c8836ed9e98", "1.14.0--r44hdfd78af_0": "sha256:5262edaa9c687be08f1c9196107a38f377ec653a16762b67465eb5320663146a", "1.18.0--r45hdfd78af_0": "sha256:d60d8fd161af142e66b0283e4b53e7ff3eed72e0be058014beaa00cc8423426a"}, "docker": "quay.io/biocontainers/bioconductor-imcdatasets", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-imcdatasets.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-imcdatasets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-imcdatasets:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-imcdatasets:1.18.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-imcdatasets/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-imcdatasets/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-imcdatasets/1.18.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-imcdatasets/1.18.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

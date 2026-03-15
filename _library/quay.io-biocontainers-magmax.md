@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magmax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magmax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magmax/container.yaml"
-updated_at: "2026-03-14 04:24:35.654162"
+updated_at: "2026-03-15 04:47:17.025795"
 latest: "1.3.0--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/magmax"
 aliases:

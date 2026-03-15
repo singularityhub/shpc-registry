@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rnaeditr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaeditr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaeditr/container.yaml"
-updated_at: "2026-03-14 04:42:33.948138"
-latest: "1.16.0--r44hdfd78af_0"
+updated_at: "2026-03-15 05:06:49.188000"
+latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaeditr"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.16.0--r44hdfd78af_0"
+ - "1.20.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaeditr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaeditr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaeditr", "latest": {"1.16.0--r44hdfd78af_0": "sha256:9dd41d712298b241014eb76a55b617fbb8e13105dad46b303cbb34d845941c9e"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:07f0bb7cf5ed2ea0ff5b17f904625e079c3c93788adfbd73f0753d3007b7ec12", "1.8.0--r42hdfd78af_0": "sha256:1bfa53ba3dc69a0e5ccd4542f2c09384974d36037cfe21cd81e8ec98d070409d", "1.10.0--r43hdfd78af_0": "sha256:13eb0ce6a44b36ff303f0a4288066c93b6a02746158663cc92eeec912ab63dd7", "1.12.0--r43hdfd78af_0": "sha256:bc8ba8eeabc402f5503a9965e46c16d6c83740a869761f4a29b64720ce3232b3", "1.16.0--r44hdfd78af_0": "sha256:9dd41d712298b241014eb76a55b617fbb8e13105dad46b303cbb34d845941c9e"}, "docker": "quay.io/biocontainers/bioconductor-rnaeditr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaeditr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaeditr", "latest": {"1.20.0--r45hdfd78af_0": "sha256:c9975abefaecbb46cb3c7db7c871ed19c795e19845f2c7a15daf3880595cc65c"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:07f0bb7cf5ed2ea0ff5b17f904625e079c3c93788adfbd73f0753d3007b7ec12", "1.8.0--r42hdfd78af_0": "sha256:1bfa53ba3dc69a0e5ccd4542f2c09384974d36037cfe21cd81e8ec98d070409d", "1.10.0--r43hdfd78af_0": "sha256:13eb0ce6a44b36ff303f0a4288066c93b6a02746158663cc92eeec912ab63dd7", "1.12.0--r43hdfd78af_0": "sha256:bc8ba8eeabc402f5503a9965e46c16d6c83740a869761f4a29b64720ce3232b3", "1.16.0--r44hdfd78af_0": "sha256:9dd41d712298b241014eb76a55b617fbb8e13105dad46b303cbb34d845941c9e", "1.20.0--r45hdfd78af_0": "sha256:c9975abefaecbb46cb3c7db7c871ed19c795e19845f2c7a15daf3880595cc65c"}, "docker": "quay.io/biocontainers/bioconductor-rnaeditr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaeditr.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnaeditr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnaeditr:1.16.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnaeditr:1.20.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnaeditr/1.16.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnaeditr/1.16.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnaeditr/1.20.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnaeditr/1.20.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-isva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-isva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-isva/container.yaml"
-updated_at: "2026-03-14 04:40:49.909448"
-latest: "1.9--r44h3342da4_7"
+updated_at: "2026-03-15 05:04:56.107865"
+latest: "1.9--r45h3342da4_8"
 container_url: "https://biocontainers.pro/tools/r-isva"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "1.9--r42h3342da4_5"
  - "1.9--r43h3342da4_6"
  - "1.9--r44h3342da4_7"
+ - "1.9--r45h3342da4_8"
 description: "shpc-registry automated BioContainers addition for r-isva"
-config: {"url": "https://biocontainers.pro/tools/r-isva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-isva", "latest": {"1.9--r44h3342da4_7": "sha256:2e40a292a5953297a923ad010b73f365414b88a31169842fec2d041649bfb598"}, "tags": {"1.9--r41h3342da4_4": "sha256:acbe4926dc06721ef7a7e1355e8012ee7ee4419ef9877231a13ef2010b870f04", "1.9--r42h3342da4_5": "sha256:5ce6abfc68e39133b7a47bc516ff3e25b8b1bce9dc0442ba1b782b07ccde08ef", "1.9--r43h3342da4_6": "sha256:b0903660e464823bc7c8d4e4cc75313f7b1c8c758adf64eff352f61e84cb75fc", "1.9--r44h3342da4_7": "sha256:2e40a292a5953297a923ad010b73f365414b88a31169842fec2d041649bfb598"}, "docker": "quay.io/biocontainers/r-isva", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-isva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-isva", "latest": {"1.9--r45h3342da4_8": "sha256:1d5d31b5b24bbc0b34b663dba1f9a7b8ff1c71746f1bd3487a378a66f4986765"}, "tags": {"1.9--r41h3342da4_4": "sha256:acbe4926dc06721ef7a7e1355e8012ee7ee4419ef9877231a13ef2010b870f04", "1.9--r42h3342da4_5": "sha256:5ce6abfc68e39133b7a47bc516ff3e25b8b1bce9dc0442ba1b782b07ccde08ef", "1.9--r43h3342da4_6": "sha256:b0903660e464823bc7c8d4e4cc75313f7b1c8c758adf64eff352f61e84cb75fc", "1.9--r44h3342da4_7": "sha256:2e40a292a5953297a923ad010b73f365414b88a31169842fec2d041649bfb598", "1.9--r45h3342da4_8": "sha256:1d5d31b5b24bbc0b34b663dba1f9a7b8ff1c71746f1bd3487a378a66f4986765"}, "docker": "quay.io/biocontainers/r-isva", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-isva.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-isva
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-isva:1.9--r44h3342da4_7
+$ shpc install quay.io/biocontainers/r-isva:1.9--r45h3342da4_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-isva/1.9--r44h3342da4_7
-$ module help quay.io/biocontainers/r-isva/1.9--r44h3342da4_7
+$ module load quay.io/biocontainers/r-isva/1.9--r45h3342da4_8
+$ module help quay.io/biocontainers/r-isva/1.9--r45h3342da4_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

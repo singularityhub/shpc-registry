@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcaspar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcaspar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcaspar/container.yaml"
-updated_at: "2026-03-14 04:53:55.196362"
+updated_at: "2026-03-15 05:19:09.074077"
 latest: "1.48.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcaspar"
 

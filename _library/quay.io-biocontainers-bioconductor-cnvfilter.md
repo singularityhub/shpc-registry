@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cnvfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnvfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnvfilter/container.yaml"
-updated_at: "2026-03-14 04:45:31.248435"
-latest: "1.20.0--r44hdfd78af_0"
+updated_at: "2026-03-15 05:10:01.366100"
+latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnvfilter"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.14.0--r43hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
  - "1.20.0--r44hdfd78af_0"
+ - "1.24.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnvfilter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnvfilter", "latest": {"1.20.0--r44hdfd78af_0": "sha256:9d515de62b7ea10c2fa75485502382244f8a290e200f88c76c291d9397f70ca7"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:87e1b922d36ac7add00aac9a152db5a98b688ef2b8757c843f9436c3c425a47a", "1.12.0--r42hdfd78af_0": "sha256:c0ab27d89a89044968d6242afb31747b1b376338e5b79b6b4f73bded6dd5175b", "1.14.0--r43hdfd78af_0": "sha256:bc5ef191805e47ed67ef03df469b5e7ff3428ba772184ecb8856d0ce4662398a", "1.16.0--r43hdfd78af_0": "sha256:1685ab01e8082af745f99bd0ad8bf0558e83a4f060eb08e99ccff70b20ec3b5d", "1.20.0--r44hdfd78af_0": "sha256:9d515de62b7ea10c2fa75485502382244f8a290e200f88c76c291d9397f70ca7"}, "docker": "quay.io/biocontainers/bioconductor-cnvfilter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnvfilter", "latest": {"1.24.0--r45hdfd78af_0": "sha256:653b70797b5007fea64e35eceacfc44981369ce239bf88fadf6001f9cf3454d3"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:87e1b922d36ac7add00aac9a152db5a98b688ef2b8757c843f9436c3c425a47a", "1.12.0--r42hdfd78af_0": "sha256:c0ab27d89a89044968d6242afb31747b1b376338e5b79b6b4f73bded6dd5175b", "1.14.0--r43hdfd78af_0": "sha256:bc5ef191805e47ed67ef03df469b5e7ff3428ba772184ecb8856d0ce4662398a", "1.16.0--r43hdfd78af_0": "sha256:1685ab01e8082af745f99bd0ad8bf0558e83a4f060eb08e99ccff70b20ec3b5d", "1.20.0--r44hdfd78af_0": "sha256:9d515de62b7ea10c2fa75485502382244f8a290e200f88c76c291d9397f70ca7", "1.24.0--r45hdfd78af_0": "sha256:653b70797b5007fea64e35eceacfc44981369ce239bf88fadf6001f9cf3454d3"}, "docker": "quay.io/biocontainers/bioconductor-cnvfilter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnvfilter.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnvfilter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnvfilter:1.20.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cnvfilter:1.24.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnvfilter/1.20.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cnvfilter/1.20.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cnvfilter/1.24.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cnvfilter/1.24.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

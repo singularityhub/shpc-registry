@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-qtlexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qtlexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qtlexperiment/container.yaml"
-updated_at: "2026-03-14 04:36:12.025504"
-latest: "1.4.0--r44hdfd78af_0"
+updated_at: "2026-03-15 04:59:50.241527"
+latest: "2.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qtlexperiment"
 aliases:
  - "pcre2posix_test"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.4.0--r44hdfd78af_0"
+ - "2.2.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-qtlexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qtlexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-qtlexperiment", "latest": {"1.4.0--r44hdfd78af_0": "sha256:08b2a312c654eb0414c77d8ff8b0dc1ab9eb3373baf2b18c8faca10cb8adac80"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:44f557a3d502d5e7d0757d5cadd0f832328daaecbd4f0df94a6508a306935afa", "1.4.0--r44hdfd78af_0": "sha256:08b2a312c654eb0414c77d8ff8b0dc1ab9eb3373baf2b18c8faca10cb8adac80"}, "docker": "quay.io/biocontainers/bioconductor-qtlexperiment", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qtlexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-qtlexperiment", "latest": {"2.2.0--r45hdfd78af_0": "sha256:cdf9e98b552e004b5780a9773ad3bc38a4baa6a6581c0817a810ceac802771b0"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:44f557a3d502d5e7d0757d5cadd0f832328daaecbd4f0df94a6508a306935afa", "1.4.0--r44hdfd78af_0": "sha256:08b2a312c654eb0414c77d8ff8b0dc1ab9eb3373baf2b18c8faca10cb8adac80", "2.2.0--r45hdfd78af_0": "sha256:cdf9e98b552e004b5780a9773ad3bc38a4baa6a6581c0817a810ceac802771b0"}, "docker": "quay.io/biocontainers/bioconductor-qtlexperiment", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qtlexperiment.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-qtlexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-qtlexperiment:1.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-qtlexperiment:2.2.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-qtlexperiment/1.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-qtlexperiment/1.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-qtlexperiment/2.2.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-qtlexperiment/2.2.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

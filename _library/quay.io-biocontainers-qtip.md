@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qtip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qtip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qtip/container.yaml"
-updated_at: "2026-03-14 05:07:55.512385"
+updated_at: "2026-03-15 05:33:39.612593"
 latest: "1.6.2--py36h7eb728f_1"
 container_url: "https://biocontainers.pro/tools/qtip"
 aliases:

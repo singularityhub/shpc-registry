@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genebreak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genebreak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genebreak/container.yaml"
-updated_at: "2026-03-14 04:36:00.934802"
-latest: "1.36.0--r44hdfd78af_0"
+updated_at: "2026-03-15 04:59:37.948567"
+latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genebreak"
 aliases:
  - "wget"
@@ -23,8 +23,9 @@ versions:
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
  - "1.36.0--r44hdfd78af_0"
+ - "1.40.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genebreak"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genebreak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genebreak", "latest": {"1.36.0--r44hdfd78af_0": "sha256:b00a16a2e2cf7c3525c0eede5d045a23344573493d54b0e0428ba69f16d29243"}, "tags": {"1.8.0--r3.4.1_0": "sha256:1246bde2a2a338137812aca551bbb978a328abf53c5b11b3479597e5ecc3974d", "1.28.0--r42hdfd78af_0": "sha256:110165ba83e5db04cde4e6e8d0c2d9a72860b425041042b8eab240654fffa109", "1.24.0--r41hdfd78af_0": "sha256:c4b886ea59239f45192e222f95fe44dbac70e657ba12e81955cbfbf35c18be86", "1.22.0--r41hdfd78af_0": "sha256:b7279dbdad2eb8931e635b9c782283f1c4f8036c2cee90ac23ea20cad90738c2", "1.20.0--r40hdfd78af_1": "sha256:402aab96dc37eff5fe8093d979b97f68881c4a9e7a4aec707f5c0450a393c228", "1.18.0--r40_0": "sha256:05a36e86fce468f9c9926b3a33a6fd08d36f244674fb62193a5859c617d8dd3b", "1.30.0--r43hdfd78af_0": "sha256:3fcbdf6f9ed9665dcfb968e7f9e2d1e961c962286d6e6df8a46c1c86e47e30e9", "1.32.0--r43hdfd78af_0": "sha256:45eff483d03f7e1d298929fe554a0d4dee28d8e21252a9d771e36ea1a15d7926", "1.36.0--r44hdfd78af_0": "sha256:b00a16a2e2cf7c3525c0eede5d045a23344573493d54b0e0428ba69f16d29243"}, "docker": "quay.io/biocontainers/bioconductor-genebreak", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genebreak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genebreak", "latest": {"1.40.0--r45hdfd78af_0": "sha256:74628bb467413b1bcc10ece2b6813631bc7fcb59bef37daa91609d5589d88b15"}, "tags": {"1.8.0--r3.4.1_0": "sha256:1246bde2a2a338137812aca551bbb978a328abf53c5b11b3479597e5ecc3974d", "1.28.0--r42hdfd78af_0": "sha256:110165ba83e5db04cde4e6e8d0c2d9a72860b425041042b8eab240654fffa109", "1.24.0--r41hdfd78af_0": "sha256:c4b886ea59239f45192e222f95fe44dbac70e657ba12e81955cbfbf35c18be86", "1.22.0--r41hdfd78af_0": "sha256:b7279dbdad2eb8931e635b9c782283f1c4f8036c2cee90ac23ea20cad90738c2", "1.20.0--r40hdfd78af_1": "sha256:402aab96dc37eff5fe8093d979b97f68881c4a9e7a4aec707f5c0450a393c228", "1.18.0--r40_0": "sha256:05a36e86fce468f9c9926b3a33a6fd08d36f244674fb62193a5859c617d8dd3b", "1.30.0--r43hdfd78af_0": "sha256:3fcbdf6f9ed9665dcfb968e7f9e2d1e961c962286d6e6df8a46c1c86e47e30e9", "1.32.0--r43hdfd78af_0": "sha256:45eff483d03f7e1d298929fe554a0d4dee28d8e21252a9d771e36ea1a15d7926", "1.36.0--r44hdfd78af_0": "sha256:b00a16a2e2cf7c3525c0eede5d045a23344573493d54b0e0428ba69f16d29243", "1.40.0--r45hdfd78af_0": "sha256:74628bb467413b1bcc10ece2b6813631bc7fcb59bef37daa91609d5589d88b15"}, "docker": "quay.io/biocontainers/bioconductor-genebreak", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genebreak.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genebreak
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genebreak:1.36.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genebreak:1.40.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genebreak/1.36.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genebreak/1.36.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genebreak/1.40.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genebreak/1.40.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

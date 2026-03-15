@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/pyspark-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/pyspark-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/pyspark-notebook/container.yaml"
-updated_at: "2026-03-14 04:14:17.686948"
+updated_at: "2026-03-15 04:36:13.952427"
 latest: "2026-02-16"
 container_url: "https://quay.io/repository/jupyter/pyspark-notebook"
 aliases:
