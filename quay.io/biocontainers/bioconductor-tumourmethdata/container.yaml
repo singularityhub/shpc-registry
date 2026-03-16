@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-tumourmethdata
 latest:
-  1.3.0--r44hdfd78af_0: 
-    sha256:86ff7154c7279dd78bc882066ccf619090bc010373c08aba1eccd04745068a05
+  1.8.0--r45hdfd78af_0: 
+    sha256:80de6fc129d14959097ae7595bbd2b192cba18127744953e5c1778490f00bd72
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:281fc818fc2e3d3b8f63a4ee60efce07339f30e8fbe87e720a5326ffdeae7147
   1.3.0--r44hdfd78af_0: 
     sha256:86ff7154c7279dd78bc882066ccf619090bc010373c08aba1eccd04745068a05
+  1.8.0--r45hdfd78af_0: 
+    sha256:80de6fc129d14959097ae7595bbd2b192cba18127744953e5c1778490f00bd72
 docker: quay.io/biocontainers/bioconductor-tumourmethdata
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

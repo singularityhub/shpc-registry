@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: Gradle is a build tool with a focus on build automation and support
   for multi-language development.
 latest:
-  9-jdk-lts-and-current-corretto-al2023: 'crane digest gradle:9-jdk-lts-and-current-corretto-al2023:
-    TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  9-jdk-lts-and-current-corretto-al2023: 
+    sha256:a3fe29618683522ef51dfb6c8ca621da27560fed28b76e24a0e58304801aa75b
 tags:
   7.0.0-hotspot: 
     sha256:cef49a7bdb0c53dc0d64ed24f375fb0fdd6e3489d0b4fcd393f0c8c09be11320
@@ -22,63 +22,63 @@ tags:
   7.3.3: sha256:8d037a3bd86fc48b591ad778d6eb6130e641bad1be546923e6d097a7ad7708eb
   7.4.0: sha256:5248d0e8f7f6ad2095c3a053d5461daa17b02097410f0e9f6397f8f4dedc34bf
   latest: 
-    sha256:54cd0e326acfaefb45322bd1e8a1ea1135e1b989c206af5dd6d88581f578eb51
-  '7': sha256:f59267414703a230aec08724bf06157293448cfd7278e9baf1b090ea259c714e
-  7-jdk17: 'crane digest gradle:7-jdk17: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  7-jdk16: 'crane digest gradle:7-jdk16: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  7-jdk11: 'crane digest gradle:7-jdk11: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  7-jdk-openj9: 'crane digest gradle:7-jdk-openj9: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  7-jdk18: 'crane digest gradle:7-jdk18: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  7-jdk19: 'crane digest gradle:7-jdk19: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '8': 'crane digest gradle:8: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk19: 'crane digest gradle:8-jdk19: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk17: 'crane digest gradle:8-jdk17: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk11: 'crane digest gradle:8-jdk11: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk8: 'crane digest gradle:8-jdk8: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk21: 'crane digest gradle:8-jdk21: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk20: 'crane digest gradle:8-jdk20: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk-21-and-22: 'crane digest gradle:8-jdk-21-and-22: TOOMANYREQUESTS: You have
-    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk22: 'crane digest gradle:8-jdk22: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk23: 'crane digest gradle:8-jdk23: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk-21-and-23-alpine: 'crane digest gradle:8-jdk-21-and-23-alpine: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk-lts-and-current-corretto-al2023: 'crane digest gradle:8-jdk-lts-and-current-corretto-al2023:
-    TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk-21-and-23: 'crane digest gradle:8-jdk-21-and-23: TOOMANYREQUESTS: You have
-    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk-21-and-24: 'crane digest gradle:8-jdk-21-and-24: TOOMANYREQUESTS: You have
-    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk24: 'crane digest gradle:8-jdk24: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8-jdk23-alpine: 'crane digest gradle:8-jdk23-alpine: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '9': 'crane digest gradle:9: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9-jdk24: 'crane digest gradle:9-jdk24: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9-jdk-21-and-24: 'crane digest gradle:9-jdk-21-and-24: TOOMANYREQUESTS: You have
-    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  9-jdk-lts-and-current-corretto-al2023: 'crane digest gradle:9-jdk-lts-and-current-corretto-al2023:
-    TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  9-jdk17: 'crane digest gradle:9-jdk17: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9-jdk-25-and-25: 'crane digest gradle:9-jdk-25-and-25: TOOMANYREQUESTS: You have
-    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+    sha256:6310c0f03a47a79e07645b40761cd135b46d511c09872aec8477dd147128e2e3
+  '7': sha256:4429c1984a9e31a1ac1273573b4c428933a9fd4b69236cadbe39b345e2184d55
+  7-jdk17: 
+    sha256:4429c1984a9e31a1ac1273573b4c428933a9fd4b69236cadbe39b345e2184d55
+  7-jdk16: 
+    sha256:f174c0dcf9a84b4035f1fcb62f0340ddc69c0b93320e0d35f097d20ce2ca89d5
+  7-jdk11: 
+    sha256:92eeafa6ad9213112b7711db44a7339edc2c520609ca13a16111d0d04b4e0cc3
+  7-jdk-openj9: 
+    sha256:acd908af42e1bee2f841eeac031d41317ab3fddcc3ec9d0d4e1cb4b28be24f5f
+  7-jdk18: 
+    sha256:f3c6308a57fa86af3c05ed1746cd041035074ed932cb9fecc0a0efedad35955e
+  7-jdk19: 
+    sha256:71af39c788a072e2ac641a4f87fa9d2a71fc46c017a5041c7aab3ff4fd36c666
+  '8': sha256:ea736e1c6347389c07c38c1d9b37c741a6ea320706b4e1535b18ba8659511da8
+  8-jdk19: 
+    sha256:c241e5fb467405a0388618854931d392af82cc22869e658f20a65e062a660550
+  8-jdk17: 
+    sha256:1ad0ceec1f44ceeeafbdb67fbe68e974e3ebbcb73b2a8622d64e869172a03c81
+  8-jdk11: 
+    sha256:10dd4bd3785808d0be201684e0a5e8ec4d1ac58dc2ce45def791ce10eb44dd9a
+  8-jdk8: 
+    sha256:fd272b26064dfff777716565e768c0d97a30f9b8b62de9f858f1998cd6faad9a
+  8-jdk21: 
+    sha256:ea736e1c6347389c07c38c1d9b37c741a6ea320706b4e1535b18ba8659511da8
+  8-jdk20: 
+    sha256:c4aec619101a1b52872ef6e9687797e8e36c0b44649046e95001a797bd4697c8
+  8-jdk-21-and-22: 
+    sha256:78e6a7c94a729be925ffd6aa65c14ae8cd6beeced3189da520778fbe245ff3d9
+  8-jdk22: 
+    sha256:6d83e27c9cdf45c7031539e55d2a15816c96e31633b360063c020c8021588729
+  8-jdk23: 
+    sha256:0f425ccb62f893bce5a79473c9fedb7cbeea54fdbb73137dbc38b4aaadce28f9
+  8-jdk-21-and-23-alpine: 
+    sha256:5e4e81be16c7d52628aab92f944fec90ebc94029b7926e530ac94b1527967c01
+  8-jdk-lts-and-current-corretto-al2023: 
+    sha256:59b5e7cfa20a138ae75a3423fd3a5f8c637a6a608013af586c0b758b39cbdcaf
+  8-jdk-21-and-23: 
+    sha256:efbced37dad6dd848ce8a9cc71246ac7e0c8b32d139248eb1982262e1e22ec4d
+  8-jdk-21-and-24: 
+    sha256:0012b3a986d815eeedc6a83377054d49741ecd86dfb3098bd9aded66936d3c2a
+  8-jdk24: 
+    sha256:2968ab57ef9379b6e67eb9c5b25602d0068a5c754098c4939d00e35e8390a297
+  8-jdk23-alpine: 
+    sha256:2deae0129d5d2659e5aa890138420398708c7ab54250985bbfb08046611d8e27
+  '9': sha256:6310c0f03a47a79e07645b40761cd135b46d511c09872aec8477dd147128e2e3
+  9-jdk24: 
+    sha256:953074cd7f2c535927c780ed42bf3b18d0740a1704400d20163c8830197e0f82
+  9-jdk-21-and-24: 
+    sha256:117301c857529dcce8a55c025a7d3973563b030b67dd04fa4bdf908a074f5f98
+  9-jdk-lts-and-current-corretto-al2023: 
+    sha256:a3fe29618683522ef51dfb6c8ca621da27560fed28b76e24a0e58304801aa75b
+  9-jdk17: 
+    sha256:9d27b2d0d7ffed90c365354b647227b5c36a5a6a2b56e96068367bb5521f8da2
+  9-jdk-25-and-25: 
+    sha256:595841886838f1a76ecee6c750840eac08659d95de16380c47c3c488d64380ca
+  9-jdk24-corretto-al2023: 
+    sha256:1cb07694eb53dfbb6a0f55204c3594260a19b08c827e8cc1755f00dbac038c80
 aliases:
   gradle: /usr/bin/gradle

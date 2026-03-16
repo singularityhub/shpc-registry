@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-illuminamousev2.db
 latest:
-  1.26.0--r44hdfd78af_18: 
-    sha256:0edaf87dd6d72cfe7ccd75044b298fa4cbfc57cf61189860ac5fd116b643202a
+  1.26.0--r45hdfd78af_19: 
+    sha256:0cfb22d1761bfb5d5c40e762db2c90b0c83c0b6828f56ada59d05e586e68bea5
 tags:
   1.26.0--r40_9: 
     sha256:3494bc4c37447c4bfe3828b0458fa471431ad30c2abb87e6d4511bd4b1d03acb
@@ -16,6 +16,8 @@ tags:
     sha256:477983f5b735c7120593e06dece4322e693d1e72d7b8cd9f6694d7580682e0f7
   1.26.0--r44hdfd78af_18: 
     sha256:0edaf87dd6d72cfe7ccd75044b298fa4cbfc57cf61189860ac5fd116b643202a
+  1.26.0--r45hdfd78af_19: 
+    sha256:0cfb22d1761bfb5d5c40e762db2c90b0c83c0b6828f56ada59d05e586e68bea5
 docker: quay.io/biocontainers/bioconductor-illuminamousev2.db
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

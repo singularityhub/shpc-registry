@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-copdsexualdimorphism.data
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:ace7e4cf3ee2872f6c0c64902770c0d198859974554401e1b6f996f22c199801
+  1.46.0--r45hdfd78af_0: 
+    sha256:4edee1001a476eecd3dc861705c4c7bd5a5750213b99a04a018fc9907d9a3643
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:8dae0cf09b7edc153098992d48f5ad975d5742ac871d03c21f034c357d4ffb5c
@@ -16,4 +16,6 @@ tags:
     sha256:c392c7290fa194a703b08ea97de35150ac822a556c56dcc7c6231d7945dcbce7
   1.42.0--r44hdfd78af_0: 
     sha256:ace7e4cf3ee2872f6c0c64902770c0d198859974554401e1b6f996f22c199801
+  1.46.0--r45hdfd78af_0: 
+    sha256:4edee1001a476eecd3dc861705c4c7bd5a5750213b99a04a018fc9907d9a3643
 docker: quay.io/biocontainers/bioconductor-copdsexualdimorphism.data

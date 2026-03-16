@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-atsnp
 latest:
-  1.22.0--r44he5774e6_0: 
-    sha256:d5f62be8cbe07fa9398138aab5e0959e0bd66fb7485d3b2151b1a4d0421d3d83
+  1.26.0--r45ha27e39d_0: 
+    sha256:45136eb21666d921c1cb0958af78103fda7681477688e474a322651d741b9366
 tags:
   1.8.0--r41h399db7b_0: 
     sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b
@@ -20,6 +20,8 @@ tags:
     sha256:f9856dcfe2f063b5dbbe9e6d40c3de69ab0afad0f9bca01a3fc6205d747323de
   1.22.0--r44he5774e6_0: 
     sha256:d5f62be8cbe07fa9398138aab5e0959e0bd66fb7485d3b2151b1a4d0421d3d83
+  1.26.0--r45ha27e39d_0: 
+    sha256:45136eb21666d921c1cb0958af78103fda7681477688e474a322651d741b9366
 docker: quay.io/biocontainers/bioconductor-atsnp
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

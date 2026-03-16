@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ye6100subbcdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:a49eb5b6a6814e9194699003caaec9c9387d17e6190c9a4a27041238284a4fea
+  2.18.0--r45hdfd78af_14: 
+    sha256:3937447227459ea27aca06ca64cdd691f02ff688000150fb893d56e40fb8049f
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:ef6710409b0ccd73da5143cb16280368dd7a6813cf64a5d390fee2b5a705c2e9
@@ -16,4 +16,6 @@ tags:
     sha256:f70658a0bdd3a072c3630908e0754d96e540dc620d259b6a93008cb96a042d03
   2.18.0--r44hdfd78af_13: 
     sha256:a49eb5b6a6814e9194699003caaec9c9387d17e6190c9a4a27041238284a4fea
+  2.18.0--r45hdfd78af_14: 
+    sha256:3937447227459ea27aca06ca64cdd691f02ff688000150fb893d56e40fb8049f
 docker: quay.io/biocontainers/bioconductor-ye6100subbcdf

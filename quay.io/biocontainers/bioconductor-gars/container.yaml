@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gars
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:888c851107e2725d8e44881c640c808a4f42eb3c602112d04a7fe6a36f090896
+  1.30.0--r45hdfd78af_0: 
+    sha256:1bc5d7a10474af38e9ec15fe743f40d388aaaf2eaf9303c3360e747c05b13b68
 tags:
   1.6.0--r36_0: 
     sha256:e2e9704c0bbe98af59bcf49242aac485dc2d7e4a8f60c9f6d3e52b8aa3084964
@@ -22,6 +22,8 @@ tags:
     sha256:5b7ebeb49a6e80a2da6aa43f09077a6cc1fe5e438448c4191158241f7fae265d
   1.26.0--r44hdfd78af_0: 
     sha256:888c851107e2725d8e44881c640c808a4f42eb3c602112d04a7fe6a36f090896
+  1.30.0--r45hdfd78af_0: 
+    sha256:1bc5d7a10474af38e9ec15fe743f40d388aaaf2eaf9303c3360e747c05b13b68
 docker: quay.io/biocontainers/bioconductor-gars
 aliases:
   extcheck: /usr/local/bin/extcheck

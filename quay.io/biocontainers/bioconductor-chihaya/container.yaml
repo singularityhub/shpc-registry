@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-chihaya
 latest:
-  1.2.0--r43hf17093f_0: 
-    sha256:3bfbe245ae6e04979ef83016f7cbe0cd81dfa48fcdfb230dc71eaaf8e783e115
+  1.10.0--r45ha27e39d_0: 
+    sha256:d9e2c77d521921ca8479b675b7cde9b6979bd6daa5791bed9673d57c2bb817d3
 tags:
   1.0.0--r43hf17093f_0: 
     sha256:02e3de6626bf00c71a7dd5412ebacaeb662bbeb77110e02728c8e343297e3c14
   1.2.0--r43hf17093f_0: 
     sha256:3bfbe245ae6e04979ef83016f7cbe0cd81dfa48fcdfb230dc71eaaf8e783e115
+  1.10.0--r45ha27e39d_0: 
+    sha256:d9e2c77d521921ca8479b675b7cde9b6979bd6daa5791bed9673d57c2bb817d3
 docker: quay.io/biocontainers/bioconductor-chihaya
 aliases:
   hb-info: /usr/local/bin/hb-info

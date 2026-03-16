@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-qplexanalyzer
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:abce9113c7bf59a29a916aeab0af673184cbfb91ad6a6720bfeb86be046109a2
+  1.28.2--r45hdfd78af_0: 
+    sha256:0c5f1d5f05bfb1a8a91131b32b7a42755c528afbeeadcf90f1d9f319d467ad2a
 tags:
   1.8.2--r40hdfd78af_0: 
     sha256:b2e7b35af521c93cc83db1ec015a59692d6a7b91d4f98f773afee89c5fbb1677
@@ -20,6 +20,8 @@ tags:
     sha256:494440058e6a60927a0f6e028d63e68a469d72c6f59bf346957b1298f7fcea22
   1.24.0--r44hdfd78af_0: 
     sha256:abce9113c7bf59a29a916aeab0af673184cbfb91ad6a6720bfeb86be046109a2
+  1.28.2--r45hdfd78af_0: 
+    sha256:0c5f1d5f05bfb1a8a91131b32b7a42755c528afbeeadcf90f1d9f319d467ad2a
 docker: quay.io/biocontainers/bioconductor-qplexanalyzer
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

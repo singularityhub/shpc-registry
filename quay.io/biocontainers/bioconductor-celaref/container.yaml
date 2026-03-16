@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-celaref
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:17f5910925e6db97763f978bd57ae81da8fddacd4c0e62388bcf954a04b4d9a3
+  1.28.0--r45hdfd78af_0: 
+    sha256:87e5eab77dadc35c593de68b474464d9cd88771c649b6b5cde05ef0b970cf0ef
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:64d3616ea70ba1d430d5be835ca3fb83564bc66cfb3c07da21801506f77beba2
@@ -20,6 +20,8 @@ tags:
     sha256:b2d39177bdd144379cea8601e2f264eaaf50fe59c0b5768dbd6b6a3f4307cda6
   1.24.0--r44hdfd78af_0: 
     sha256:17f5910925e6db97763f978bd57ae81da8fddacd4c0e62388bcf954a04b4d9a3
+  1.28.0--r45hdfd78af_0: 
+    sha256:87e5eab77dadc35c593de68b474464d9cd88771c649b6b5cde05ef0b970cf0ef
 docker: quay.io/biocontainers/bioconductor-celaref
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

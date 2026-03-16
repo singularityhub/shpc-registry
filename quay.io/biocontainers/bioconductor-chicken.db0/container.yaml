@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chicken.db0
 latest:
-  3.20.0--r44hdfd78af_0: 
-    sha256:a194852ff1c7eecab2114d638fb3073430b4d40f37a8859409ec9fb3c830cfa2
+  3.22.0--r45hdfd78af_0: 
+    sha256:a678ae67f600abe4f8fbc890c49010c18e3f5e443e06315d14e538d5528f159d
 tags:
   3.8.2--r36_1: 
     sha256:cae50be8fbe09339b8aec6cbfb57b5fbdbdbbf5f4e651b011f286f4c995e8df3
@@ -24,6 +24,8 @@ tags:
     sha256:ba4fdc34625f14a9732ecffeb11e3f717bc24de778a2de53b14a580a58c75aae
   3.20.0--r44hdfd78af_0: 
     sha256:a194852ff1c7eecab2114d638fb3073430b4d40f37a8859409ec9fb3c830cfa2
+  3.22.0--r45hdfd78af_0: 
+    sha256:a678ae67f600abe4f8fbc890c49010c18e3f5e443e06315d14e538d5528f159d
 docker: quay.io/biocontainers/bioconductor-chicken.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

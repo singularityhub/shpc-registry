@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ipddb
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:e803cb837adf16280010a5ace6048285a412e7ca9abe63e528fbfcf344780576
+  1.28.0--r45hdfd78af_0: 
+    sha256:bbf1f3f09ea83bc6e9aaa7e134f164b8b105dd39eeeb1a83af3361bfbd65e22a
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:91835ac77fcf2840c1ab73d9bcbc4414eb5af3abcba74a3162634b84b3dd775b
@@ -20,6 +20,8 @@ tags:
     sha256:cb5b7a0f894a947846021dfbaf18ac8d1b166ce49a236605dfe1a0073a06ddab
   1.24.0--r44hdfd78af_0: 
     sha256:e803cb837adf16280010a5ace6048285a412e7ca9abe63e528fbfcf344780576
+  1.28.0--r45hdfd78af_0: 
+    sha256:bbf1f3f09ea83bc6e9aaa7e134f164b8b105dd39eeeb1a83af3361bfbd65e22a
 docker: quay.io/biocontainers/bioconductor-ipddb
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-iseepathways
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:11092ff70ca314d36d78424472d7661b89a7ba72ab4fe315df86ba880a4eb9f6
+  1.8.0--r45hdfd78af_0: 
+    sha256:aa81c2f05ad49c1de06381e8c23f92621ed57c39562bfe00c042bdf44b2e3a86
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:8bb904366e5209bd619ae51dd60f4aac915e6bc05323b780292b8073a1daee65
   1.4.0--r44hdfd78af_0: 
     sha256:11092ff70ca314d36d78424472d7661b89a7ba72ab4fe315df86ba880a4eb9f6
+  1.8.0--r45hdfd78af_0: 
+    sha256:aa81c2f05ad49c1de06381e8c23f92621ed57c39562bfe00c042bdf44b2e3a86
 docker: quay.io/biocontainers/bioconductor-iseepathways
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-msstatsptm
 latest:
-  2.4.1--r43hf17093f_0: 
-    sha256:b2ffd939f06f3ec1b9f2dedbe1933cbec9582002f04d3165f967dcdf954fff57
+  2.12.0--r45ha27e39d_0: 
+    sha256:bd02b91b7ea332e74bbf04fa74079bf5f33974060e9a5e0432c9342a95776e65
 tags:
   1.4.2--r41hc247a5b_1: 
     sha256:62c963607b3966907a1c05be1f8493f90c79d2fa48dbf493e609e9843f09beef
@@ -16,6 +16,8 @@ tags:
     sha256:d22ce7af0f35c3611864ceb453f059d365cd6a0a27cc37837341905bdb640482
   2.4.1--r43hf17093f_0: 
     sha256:b2ffd939f06f3ec1b9f2dedbe1933cbec9582002f04d3165f967dcdf954fff57
+  2.12.0--r45ha27e39d_0: 
+    sha256:bd02b91b7ea332e74bbf04fa74079bf5f33974060e9a5e0432c9342a95776e65
 docker: quay.io/biocontainers/bioconductor-msstatsptm
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

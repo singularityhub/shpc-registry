@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chipexoqual
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:31699334c7c2751e21a4d08f05e4a784f239e76753d64e6fa10f5f6852851c37
+  1.34.0--r45hdfd78af_0: 
+    sha256:0e569d1d5a0c8150a2361a0d3c9146764d97242bb80cb35b07e5b91792cc260c
 tags:
   1.8.0--r36_1: 
     sha256:6e3b95bf0580c8783b0e1ea6d35aa4ef1da71394a059c41ea250fcffd80502e8
@@ -24,6 +24,8 @@ tags:
     sha256:ffe0935246f6757c2ea78f7b03ef6522c843c2c0fdfce4a65188b87f587bf6bc
   1.30.0--r44hdfd78af_0: 
     sha256:31699334c7c2751e21a4d08f05e4a784f239e76753d64e6fa10f5f6852851c37
+  1.34.0--r45hdfd78af_0: 
+    sha256:0e569d1d5a0c8150a2361a0d3c9146764d97242bb80cb35b07e5b91792cc260c
 docker: quay.io/biocontainers/bioconductor-chipexoqual
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

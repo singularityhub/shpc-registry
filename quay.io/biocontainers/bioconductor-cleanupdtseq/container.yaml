@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cleanupdtseq
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:2d5483ff87cf481de9fddfed4d7ad755b2131351b56bd1f8f27081c5c5755945
+  1.48.0--r45hdfd78af_0: 
+    sha256:a5f7017bf22ac3103b22aa16cc7e33195f922b2ad57a07a1f23de00672c36f55
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:8591744f7f053f53dc7b21efa54f484f65ac3dbb4d6163cc563c34dea5e6d173
@@ -16,4 +16,6 @@ tags:
     sha256:7ef3108e88d711e34a7d736d601e4784345ceb36d1a8dc07f269b34edb7e52c4
   1.44.0--r44hdfd78af_0: 
     sha256:2d5483ff87cf481de9fddfed4d7ad755b2131351b56bd1f8f27081c5c5755945
+  1.48.0--r45hdfd78af_0: 
+    sha256:a5f7017bf22ac3103b22aa16cc7e33195f922b2ad57a07a1f23de00672c36f55
 docker: quay.io/biocontainers/bioconductor-cleanupdtseq

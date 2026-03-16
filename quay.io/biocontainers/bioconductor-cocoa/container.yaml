@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cocoa
 latest:
-  2.20.0--r44hdfd78af_0: 
-    sha256:2190fced8fe66f20caf1fd424bfd52182750f8b94e11310c52269c0ee94fa583
+  2.24.0--r45hdfd78af_0: 
+    sha256:af94d2e0fad0c17ddb9d4c186e42bd3ba03c624ffb08f2a32c0cd4b976c44b15
 tags:
   2.8.0--r41hdfd78af_0: 
     sha256:53a384957f4f6f364a3fd94adf03e44039de5b7b322c1af9773198eca9a11a4a
@@ -16,4 +16,6 @@ tags:
     sha256:8a535283b09d2dc8ecdbd79cd2c452a19c1bea14567eff2782e2ab4b0842e98b
   2.20.0--r44hdfd78af_0: 
     sha256:2190fced8fe66f20caf1fd424bfd52182750f8b94e11310c52269c0ee94fa583
+  2.24.0--r45hdfd78af_0: 
+    sha256:af94d2e0fad0c17ddb9d4c186e42bd3ba03c624ffb08f2a32c0cd4b976c44b15
 docker: quay.io/biocontainers/bioconductor-cocoa

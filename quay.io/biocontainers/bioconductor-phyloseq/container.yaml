@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-phyloseq
 latest:
-  1.50.0--r44hdfd78af_0: 
-    sha256:c9120b7e9faa87cea8c7cccfb13de0eb7d67bfe14f30d40c167e82d006dcbfab
+  1.54.0--r45hdfd78af_0: 
+    sha256:1f383990fd4604a967b8bee20bc356e33f436d366286d5cc1695ce42a8140b77
 tags:
   1.38.0--r41hdfd78af_0: 
     sha256:8fc624578f508204af5738683a7388f896e8484b2edf41f077466baf70d3d739
@@ -16,4 +16,6 @@ tags:
     sha256:0c02efeec8dcfabcc970d9fe3cae374d72796945e0392f022c79f608441ab668
   1.50.0--r44hdfd78af_0: 
     sha256:c9120b7e9faa87cea8c7cccfb13de0eb7d67bfe14f30d40c167e82d006dcbfab
+  1.54.0--r45hdfd78af_0: 
+    sha256:1f383990fd4604a967b8bee20bc356e33f436d366286d5cc1695ce42a8140b77
 docker: quay.io/biocontainers/bioconductor-phyloseq

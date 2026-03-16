@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rtnduals
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:f6f54061ab43f28103a4e699eecddc95a95110607edf11bf8c2bd37f6a6b55c3
+  1.34.0--r45hdfd78af_0: 
+    sha256:58ef1d4dba7d1337b28429500a9193e9f230e3a4825cc5ed92bcaa4f5dc012f9
 tags:
   1.8.1--r36_0: 
     sha256:1c752bceb5025e1ef299c6c9c6d9569449bf097e985f392e08568172da642642
@@ -24,6 +24,8 @@ tags:
     sha256:bd17063c97c311990600e074e6469791db214d8a774738f7da5bb3a9859faed2
   1.30.0--r44hdfd78af_0: 
     sha256:f6f54061ab43f28103a4e699eecddc95a95110607edf11bf8c2bd37f6a6b55c3
+  1.34.0--r45hdfd78af_0: 
+    sha256:58ef1d4dba7d1337b28429500a9193e9f230e3a4825cc5ed92bcaa4f5dc012f9
 docker: quay.io/biocontainers/bioconductor-rtnduals
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

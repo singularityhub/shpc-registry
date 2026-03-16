@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-csdr
 latest:
-  1.12.0--r44he5774e6_0: 
-    sha256:7750a8aa73984e9c74575256c6e07ae51afb09aafbe4aa9cb715984aa08b9f7e
+  1.16.0--r45ha27e39d_0: 
+    sha256:41ea865526b3db4872e0950da3feca3d044caeeb91b1126476de83180a0aa407
 tags:
   1.0.0--r41hc247a5b_2: 
     sha256:4d600ac2a62cdf7f4cd5c9e195c2a91fd3628931ad015d9ace071335239e6806
@@ -18,4 +18,6 @@ tags:
     sha256:95fe762153aaed80b434fd6fcfbd2daf5f4cd53444f82e6f008184af553fb343
   1.12.0--r44he5774e6_0: 
     sha256:7750a8aa73984e9c74575256c6e07ae51afb09aafbe4aa9cb715984aa08b9f7e
+  1.16.0--r45ha27e39d_0: 
+    sha256:41ea865526b3db4872e0950da3feca3d044caeeb91b1126476de83180a0aa407
 docker: quay.io/biocontainers/bioconductor-csdr

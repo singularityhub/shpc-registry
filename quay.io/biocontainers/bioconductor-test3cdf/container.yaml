@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-test3cdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:2efc356f92d48d268c4763b0c86fc6def53afa971404d6e73b251b7f327b991e
+  2.18.0--r45hdfd78af_14: 
+    sha256:635ec94b5d3e0d90841be08a339e2c13c4a4b570c4b313d03c95af85139d49f0
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:b5fcea5595b4116d8430d92e3fa5fbe413a9c09ff8b821b00b1b1deea7985a14
@@ -16,4 +16,6 @@ tags:
     sha256:8a3fefaf0480c7fa24ed7f10a7a98dda8b6ad64c6d2c3bbe118aa3fb602bbbe8
   2.18.0--r44hdfd78af_13: 
     sha256:2efc356f92d48d268c4763b0c86fc6def53afa971404d6e73b251b7f327b991e
+  2.18.0--r45hdfd78af_14: 
+    sha256:635ec94b5d3e0d90841be08a339e2c13c4a4b570c4b313d03c95af85139d49f0
 docker: quay.io/biocontainers/bioconductor-test3cdf

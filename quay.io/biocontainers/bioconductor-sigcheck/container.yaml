@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sigcheck
 latest:
-  2.38.0--r44hdfd78af_0: 
-    sha256:f2e558cf5976f98e2d30f2766f5e67a058c956a28f6baf5154405596831da7e5
+  2.42.0--r45hdfd78af_0: 
+    sha256:9d28a94a32979426cce6d7a93368c41af9a15b655584a3139c5c6c47e3dbd7f0
 tags:
   2.26.0--r41hdfd78af_0: 
     sha256:3f87c9c98e5151a4d057496590f447788f269789dacabbc5be866c4d1bde1fba
@@ -16,4 +16,6 @@ tags:
     sha256:869632e3431163d3ff7110c7fb3404567f2949bab0e6c51a32ad29b40ca73f47
   2.38.0--r44hdfd78af_0: 
     sha256:f2e558cf5976f98e2d30f2766f5e67a058c956a28f6baf5154405596831da7e5
+  2.42.0--r45hdfd78af_0: 
+    sha256:9d28a94a32979426cce6d7a93368c41af9a15b655584a3139c5c6c47e3dbd7f0
 docker: quay.io/biocontainers/bioconductor-sigcheck

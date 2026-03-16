@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rmir.hsa
 latest:
-  1.0.5--r44hdfd78af_13: 
-    sha256:f93161948e1ea8df5c10647bd4f140905ece1e87f1f4f6ef856605396346342a
+  1.0.5--r45hdfd78af_14: 
+    sha256:cf4eee4b8601761b8e8e8c234a534a0336c1270fc48bc2c214dc5ee0f6cfd5fd
 tags:
   1.0.5--r41hdfd78af_9: 
     sha256:7a9263ae65f2cd638d4b7b007fe73589f9dd285921f321ec87da2261ae387a1a
@@ -16,4 +16,6 @@ tags:
     sha256:e55ab823f5c9c47f5b4ad5ad75074d255c725d639ff5ed939a9eb75cf573a9fe
   1.0.5--r44hdfd78af_13: 
     sha256:f93161948e1ea8df5c10647bd4f140905ece1e87f1f4f6ef856605396346342a
+  1.0.5--r45hdfd78af_14: 
+    sha256:cf4eee4b8601761b8e8e8c234a534a0336c1270fc48bc2c214dc5ee0f6cfd5fd
 docker: quay.io/biocontainers/bioconductor-rmir.hsa

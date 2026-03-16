@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-spieceasi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-spieceasi
 latest:
-  1.1.1--r44h503566f_6: 
-    sha256:deec2ee73f44b5b189059a328d13ddef74d3ba09a7efe6187f57499a75667748
+  1.1.1--r45hde5307d_7: 
+    sha256:f235f356204bd5262df9664af7d484032ea3075792837df0a808f2f876d25c91
 tags:
   1.1.1--r41h87f3376_1: 
     sha256:daae54f3a91d74b9444a97b0772ba11ca12dc2b477e6fa299b8f2d08b8ef7861
@@ -15,4 +15,6 @@ tags:
     sha256:6b830f4e88519513fa13432d3791aef43f128bfb8e8dc64a42969af424277cc0
   1.1.1--r44h503566f_6: 
     sha256:deec2ee73f44b5b189059a328d13ddef74d3ba09a7efe6187f57499a75667748
+  1.1.1--r45hde5307d_7: 
+    sha256:f235f356204bd5262df9664af7d484032ea3075792837df0a808f2f876d25c91
 docker: quay.io/biocontainers/r-spieceasi

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metabosignal
 latest:
-  1.32.0--r43hdfd78af_0: 
-    sha256:6e969d6eaf40df17017c017a9ea544a7480e50b35b3aafebd051cd7c82b67201
+  1.40.0--r45hdfd78af_0: 
+    sha256:20bdf127f609ce31c94e1fdcc3c4e0908a13829ece30a65c87d3af1c2e643fc5
 tags:
   1.8.0--r3.4.1_0: 
     sha256:307cabe6d234b4813737721e09e21ff4d2b49bbe5e50f012114ff872c444ca81
@@ -22,6 +22,8 @@ tags:
     sha256:3635207e74e25673ec8e0cc1b1d766103e7034d7d64b840058a6a9e9d5934bb5
   1.32.0--r43hdfd78af_0: 
     sha256:6e969d6eaf40df17017c017a9ea544a7480e50b35b3aafebd051cd7c82b67201
+  1.40.0--r45hdfd78af_0: 
+    sha256:20bdf127f609ce31c94e1fdcc3c4e0908a13829ece30a65c87d3af1c2e643fc5
 docker: quay.io/biocontainers/bioconductor-metabosignal
 aliases:
   wget: /usr/local/bin/wget

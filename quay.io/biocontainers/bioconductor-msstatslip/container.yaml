@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-msstatslip
 latest:
-  1.8.1--r43hf17093f_0: 
-    sha256:4b367dc830215d60f7a1b3b7e945c6d106dc698ffa832379896aa19ffbc830c1
+  1.16.0--r45ha27e39d_0: 
+    sha256:2ccf6a928cf23278dffab5fa408ec3c0d09ae5132ca9e7d21244d4d251128adf
 tags:
   1.0.0--r41hc247a5b_2: 
     sha256:bde8d6e764215212fac7e40948a345d5ba26aa58b379f6eb144f0bf771c50e41
@@ -16,6 +16,8 @@ tags:
     sha256:91e9043de59805be6edd1e93644473f62f6adc34e842b55dd14ecc46d8e698fb
   1.8.1--r43hf17093f_0: 
     sha256:4b367dc830215d60f7a1b3b7e945c6d106dc698ffa832379896aa19ffbc830c1
+  1.16.0--r45ha27e39d_0: 
+    sha256:2ccf6a928cf23278dffab5fa408ec3c0d09ae5132ca9e7d21244d4d251128adf
 docker: quay.io/biocontainers/bioconductor-msstatslip
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server
