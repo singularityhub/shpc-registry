@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bioconductor-dmgsea
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-dmgsea
+latest:
+  1.0.2--r45hdfd78af_0: 
+    sha256:c8ed08b11302a5459ced473ecbe71cf7863637cc6e24a710818ec4ab26009734
+tags:
+  1.0.2--r45hdfd78af_0: 
+    sha256:c8ed08b11302a5459ced473ecbe71cf7863637cc6e24a710818ec4ab26009734
+docker: quay.io/biocontainers/bioconductor-dmgsea
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
