@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-alien-build"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-alien-build/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-alien-build/container.yaml"
-updated_at: "2026-03-15 04:58:28.709884"
+updated_at: "2026-03-16 05:05:47.941426"
 latest: "2.84--pl5321h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/perl-alien-build"
 aliases:

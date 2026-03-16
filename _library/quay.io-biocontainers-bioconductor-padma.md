@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-padma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-padma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-padma/container.yaml"
-updated_at: "2026-03-15 05:01:30.816404"
-latest: "1.16.0--r44hdfd78af_0"
+updated_at: "2026-03-16 05:08:38.067600"
+latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-padma"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.16.0--r44hdfd78af_0"
+ - "1.20.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-padma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-padma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-padma", "latest": {"1.16.0--r44hdfd78af_0": "sha256:2b27f7d6b903a8e3d821e7c245709328c9d015a0acaf5dcfc27117bdc6a240c9"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:f7dbcc311dcca77a125da90b0d1ff6de9f52d1e08ad7fdef57f4d1440f01e385", "1.8.0--r42hdfd78af_0": "sha256:c98f57ea99a0e73f964117584a398de92b490ab68cbe31fd8a4b3df551c0e32b", "1.10.0--r43hdfd78af_0": "sha256:85681f5cfb589efcfb78717da304aeace92836a35f121eae3be89a80ef8cc427", "1.12.0--r43hdfd78af_0": "sha256:3c820aedde57a2e9065b4d2767b058f180cd57b5eb4e7c5b8e1787038e6a18ef", "1.16.0--r44hdfd78af_0": "sha256:2b27f7d6b903a8e3d821e7c245709328c9d015a0acaf5dcfc27117bdc6a240c9"}, "docker": "quay.io/biocontainers/bioconductor-padma"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-padma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-padma", "latest": {"1.20.0--r45hdfd78af_0": "sha256:14c350e404ae37c90ea491eb6204583878956e020a2ad60349aa77ba2e0169b7"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:f7dbcc311dcca77a125da90b0d1ff6de9f52d1e08ad7fdef57f4d1440f01e385", "1.8.0--r42hdfd78af_0": "sha256:c98f57ea99a0e73f964117584a398de92b490ab68cbe31fd8a4b3df551c0e32b", "1.10.0--r43hdfd78af_0": "sha256:85681f5cfb589efcfb78717da304aeace92836a35f121eae3be89a80ef8cc427", "1.12.0--r43hdfd78af_0": "sha256:3c820aedde57a2e9065b4d2767b058f180cd57b5eb4e7c5b8e1787038e6a18ef", "1.16.0--r44hdfd78af_0": "sha256:2b27f7d6b903a8e3d821e7c245709328c9d015a0acaf5dcfc27117bdc6a240c9", "1.20.0--r45hdfd78af_0": "sha256:14c350e404ae37c90ea491eb6204583878956e020a2ad60349aa77ba2e0169b7"}, "docker": "quay.io/biocontainers/bioconductor-padma"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-padma.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-padma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-padma:1.16.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-padma:1.20.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-padma/1.16.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-padma/1.16.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-padma/1.20.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-padma/1.20.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

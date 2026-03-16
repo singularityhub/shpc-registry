@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-reusedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reusedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reusedata/container.yaml"
-updated_at: "2026-03-15 04:51:00.200549"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-03-16 04:58:41.443605"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reusedata"
 aliases:
  - "corepack"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-reusedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reusedata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-reusedata", "latest": {"1.6.0--r44hdfd78af_0": "sha256:7f6b321e7a24da582720419db7c19361959cf77666120aef7272f75481ccf6c5"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:ba191ccbf12afd07007517b2d364aac967ff7765625fe3e03daefad18f396c3f", "1.6.0--r44hdfd78af_0": "sha256:7f6b321e7a24da582720419db7c19361959cf77666120aef7272f75481ccf6c5"}, "docker": "quay.io/biocontainers/bioconductor-reusedata", "aliases": {"corepack": "/usr/local/bin/corepack", "git2": "/usr/local/bin/git2", "npx": "/usr/local/bin/npx", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reusedata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-reusedata", "latest": {"1.10.0--r45hdfd78af_0": "sha256:7b4ba6b44e111514bd52d7099c6210b62eb1335cf527fb3d234dd9b640484895"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:ba191ccbf12afd07007517b2d364aac967ff7765625fe3e03daefad18f396c3f", "1.6.0--r44hdfd78af_0": "sha256:7f6b321e7a24da582720419db7c19361959cf77666120aef7272f75481ccf6c5", "1.10.0--r45hdfd78af_0": "sha256:7b4ba6b44e111514bd52d7099c6210b62eb1335cf527fb3d234dd9b640484895"}, "docker": "quay.io/biocontainers/bioconductor-reusedata", "aliases": {"corepack": "/usr/local/bin/corepack", "git2": "/usr/local/bin/git2", "npx": "/usr/local/bin/npx", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reusedata.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-reusedata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-reusedata:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-reusedata:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-reusedata/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-reusedata/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-reusedata/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-reusedata/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

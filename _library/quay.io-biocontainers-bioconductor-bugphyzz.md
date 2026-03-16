@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bugphyzz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bugphyzz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bugphyzz/container.yaml"
-updated_at: "2026-03-15 05:25:52.775171"
+updated_at: "2026-03-16 05:32:35.891757"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bugphyzz"
 aliases:

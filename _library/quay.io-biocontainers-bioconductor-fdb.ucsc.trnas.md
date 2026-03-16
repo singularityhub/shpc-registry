@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fdb.ucsc.trnas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdb.ucsc.trnas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdb.ucsc.trnas/container.yaml"
-updated_at: "2026-03-15 04:48:54.607732"
-latest: "1.0.1--r44hdfd78af_13"
+updated_at: "2026-03-16 04:56:37.952554"
+latest: "1.0.1--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdb.ucsc.trnas"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.0.1--r43hdfd78af_11"
  - "1.0.1--r43hdfd78af_12"
  - "1.0.1--r44hdfd78af_13"
+ - "1.0.1--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-fdb.ucsc.trnas"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fdb.ucsc.trnas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdb.ucsc.trnas", "latest": {"1.0.1--r44hdfd78af_13": "sha256:c9779272f1cf5fd578630f1c08aeec43960823f0744d9f920120d4fb16325a4f"}, "tags": {"1.0.1--r41hdfd78af_9": "sha256:78f1ad565ff78166c336a43a03df41516e941ab2d5aca1de3112ca0c58b73828", "1.0.1--r42hdfd78af_10": "sha256:7d413ca44e00c55ab3f786581bb560e0550aadd2e7cc145ba89d8667343b0ffd", "1.0.1--r43hdfd78af_11": "sha256:91618418996d28d0a3b3998ffc2e69bcb15ba01c316141da9a33816e1f47b6b5", "1.0.1--r43hdfd78af_12": "sha256:2d337632f113b45173d3a06b0d45a1137ec4fa3a7d6a651669b2b44feeaa4ba1", "1.0.1--r44hdfd78af_13": "sha256:c9779272f1cf5fd578630f1c08aeec43960823f0744d9f920120d4fb16325a4f"}, "docker": "quay.io/biocontainers/bioconductor-fdb.ucsc.trnas"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fdb.ucsc.trnas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fdb.ucsc.trnas", "latest": {"1.0.1--r45hdfd78af_14": "sha256:f950ba33af53781b3b435866f7acca2342b730b221149889cc3d30df80e4d91b"}, "tags": {"1.0.1--r41hdfd78af_9": "sha256:78f1ad565ff78166c336a43a03df41516e941ab2d5aca1de3112ca0c58b73828", "1.0.1--r42hdfd78af_10": "sha256:7d413ca44e00c55ab3f786581bb560e0550aadd2e7cc145ba89d8667343b0ffd", "1.0.1--r43hdfd78af_11": "sha256:91618418996d28d0a3b3998ffc2e69bcb15ba01c316141da9a33816e1f47b6b5", "1.0.1--r43hdfd78af_12": "sha256:2d337632f113b45173d3a06b0d45a1137ec4fa3a7d6a651669b2b44feeaa4ba1", "1.0.1--r44hdfd78af_13": "sha256:c9779272f1cf5fd578630f1c08aeec43960823f0744d9f920120d4fb16325a4f", "1.0.1--r45hdfd78af_14": "sha256:f950ba33af53781b3b435866f7acca2342b730b221149889cc3d30df80e4d91b"}, "docker": "quay.io/biocontainers/bioconductor-fdb.ucsc.trnas"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fdb.ucsc.trnas.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fdb.ucsc.trnas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fdb.ucsc.trnas:1.0.1--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-fdb.ucsc.trnas:1.0.1--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fdb.ucsc.trnas/1.0.1--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-fdb.ucsc.trnas/1.0.1--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-fdb.ucsc.trnas/1.0.1--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-fdb.ucsc.trnas/1.0.1--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

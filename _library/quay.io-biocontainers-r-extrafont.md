@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-extrafont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-extrafont/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-extrafont/container.yaml"
-updated_at: "2026-03-15 04:53:57.622808"
+updated_at: "2026-03-16 05:01:31.349267"
 latest: "0.17--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-extrafont"
 aliases:

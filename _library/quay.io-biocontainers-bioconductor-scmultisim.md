@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scmultisim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmultisim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmultisim/container.yaml"
-updated_at: "2026-03-15 05:12:49.471777"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-03-16 05:19:39.642796"
+latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmultisim"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -27,8 +27,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-scmultisim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scmultisim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scmultisim", "latest": {"1.2.0--r44hdfd78af_0": "sha256:0722377720cb4c62efe9f2f7500c2bc2d14c46c329c8f0b3790e9a175d0a34ee"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:0722377720cb4c62efe9f2f7500c2bc2d14c46c329c8f0b3790e9a175d0a34ee"}, "docker": "quay.io/biocontainers/bioconductor-scmultisim", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scmultisim", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scmultisim", "latest": {"1.6.0--r45hdfd78af_0": "sha256:d07c835ad09e329b7fb41c2948cded2ef0fa4f79f8066477cf1b47ac92ced696"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:0722377720cb4c62efe9f2f7500c2bc2d14c46c329c8f0b3790e9a175d0a34ee", "1.6.0--r45hdfd78af_0": "sha256:d07c835ad09e329b7fb41c2948cded2ef0fa4f79f8066477cf1b47ac92ced696"}, "docker": "quay.io/biocontainers/bioconductor-scmultisim", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scmultisim.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scmultisim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scmultisim:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scmultisim:1.6.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scmultisim/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scmultisim/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scmultisim/1.6.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scmultisim/1.6.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

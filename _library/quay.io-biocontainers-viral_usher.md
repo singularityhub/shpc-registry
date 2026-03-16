@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viral_usher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral_usher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viral_usher/container.yaml"
-updated_at: "2026-03-15 04:42:48.760715"
+updated_at: "2026-03-16 04:50:40.398291"
 latest: "0.10.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viral_usher"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fgsmk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgsmk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgsmk/container.yaml"
-updated_at: "2026-03-15 05:13:53.273115"
+updated_at: "2026-03-16 05:20:46.219766"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fgsmk"
 aliases:

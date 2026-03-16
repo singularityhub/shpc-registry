@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metabat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabat2/container.yaml"
-updated_at: "2026-03-15 04:41:43.623117"
+updated_at: "2026-03-16 04:49:36.426756"
 latest: "2.18--h6f16272_0"
 container_url: "https://biocontainers.pro/tools/metabat2"
 aliases:
