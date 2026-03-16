@@ -1,0 +1,35 @@
+url: https://biocontainers.pro/tools/bioconductor-scafari
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-scafari
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:8c23c36eb66da55999860a5b923ea9f1a5852ea08ddbebd85cf4e3556384f27e
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:8c23c36eb66da55999860a5b923ea9f1a5852ea08ddbebd85cf4e3556384f27e
+docker: quay.io/biocontainers/bioconductor-scafari
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
+  tomlq: /usr/local/bin/tomlq
+  xq: /usr/local/bin/xq
+  yq: /usr/local/bin/yq
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
