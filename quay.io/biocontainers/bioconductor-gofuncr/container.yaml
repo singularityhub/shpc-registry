@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gofuncr
 latest:
-  1.26.0--r44he5774e6_0: 
-    sha256:a75e6a89becbd6e4bdb48db4f1fe39566681721e30338d03b7fc9132b4063efb
+  1.30.0--r45ha27e39d_0: 
+    sha256:aea713c51f1d03579bc5ba5c4d1071ef3cbdae11de84bf47999525a0faab3450
 tags:
   1.8.0--r40h5f743cb_0: 
     sha256:161e71fa78b81f996ae0abbfb1672039e8d38cde564d9b8c2c6fc44d392aae6b
@@ -24,6 +24,8 @@ tags:
     sha256:b790b7c7ef7f772d4bef8cedd403cc44ac7dfd8f2d2c595323c7c7877c772e1d
   1.26.0--r44he5774e6_0: 
     sha256:a75e6a89becbd6e4bdb48db4f1fe39566681721e30338d03b7fc9132b4063efb
+  1.30.0--r45ha27e39d_0: 
+    sha256:aea713c51f1d03579bc5ba5c4d1071ef3cbdae11de84bf47999525a0faab3450
 docker: quay.io/biocontainers/bioconductor-gofuncr
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

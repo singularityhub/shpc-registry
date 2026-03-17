@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lumimouseall.db
 latest:
-  1.22.0--r44hdfd78af_13: 
-    sha256:f3d69c8be63c85fb40d13d3508f8c48ba09f1b03cdd25c850835e14057b5c0a8
+  1.22.0--r45hdfd78af_14: 
+    sha256:19657ab6a9ae8cbb17003a93a959cc30077a61e87ee6239cc645d46437528c90
 tags:
   1.22.0--r41hdfd78af_9: 
     sha256:265552b04065ab345fec13af65bffd564819ad9f410395748df42374a6c1bd4d
@@ -16,4 +16,6 @@ tags:
     sha256:eba8cd9017d9afc3f1993e1ee70d05a71d0af619650fdf83ef48b4ab8499fde4
   1.22.0--r44hdfd78af_13: 
     sha256:f3d69c8be63c85fb40d13d3508f8c48ba09f1b03cdd25c850835e14057b5c0a8
+  1.22.0--r45hdfd78af_14: 
+    sha256:19657ab6a9ae8cbb17003a93a959cc30077a61e87ee6239cc645d46437528c90
 docker: quay.io/biocontainers/bioconductor-lumimouseall.db

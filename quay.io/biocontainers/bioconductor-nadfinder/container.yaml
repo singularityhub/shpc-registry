@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nadfinder
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:b6b694a8f98ed483a577a9f0cb49ca135033f43596e44c02922b0908dfd3eafc
+  1.34.0--r45hdfd78af_0: 
+    sha256:d104a502341c3116f0c72eecb2a0cef5b20470f59537d585600ed30c2d0d950f
 tags:
   1.8.1--r36_0: 
     sha256:11477deba3fc8e79926acd97031d0fa1b55623213a6cde33fbc52e56fc930754
@@ -24,6 +24,8 @@ tags:
     sha256:52b75e459984a23a43cf49eec5b2dd53dffe35e5ce7ef07574cf81de2c3897af
   1.30.0--r44hdfd78af_0: 
     sha256:b6b694a8f98ed483a577a9f0cb49ca135033f43596e44c02922b0908dfd3eafc
+  1.34.0--r45hdfd78af_0: 
+    sha256:d104a502341c3116f0c72eecb2a0cef5b20470f59537d585600ed30c2d0d950f
 docker: quay.io/biocontainers/bioconductor-nadfinder
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

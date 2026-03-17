@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tabulamurissenisdata
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:74ff31dd84b0bcde3931c0a482b1e70af0bdf0b52da29ec0a301d16ede2c2498
+  1.16.0--r45hdfd78af_0: 
+    sha256:c5501776daf8a02a603456da89519ee1e08f1052fcff08f9d9d35aed2b4b1501
 tags:
   1.0.0--r41hdfd78af_1: 
     sha256:b310b585a4a1b0f2c0068823cfdb2e8e84dfe033b4dc5a38b5f219976c52192e
@@ -16,4 +16,6 @@ tags:
     sha256:c0f22ef832e92f23ac13197bb6e9d0a436ad13d486a040656c2c1d502a1b49b5
   1.12.0--r44hdfd78af_0: 
     sha256:74ff31dd84b0bcde3931c0a482b1e70af0bdf0b52da29ec0a301d16ede2c2498
+  1.16.0--r45hdfd78af_0: 
+    sha256:c5501776daf8a02a603456da89519ee1e08f1052fcff08f9d9d35aed2b4b1501
 docker: quay.io/biocontainers/bioconductor-tabulamurissenisdata

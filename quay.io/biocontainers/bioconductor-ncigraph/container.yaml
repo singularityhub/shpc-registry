@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ncigraph
 latest:
-  1.54.0--r44hdfd78af_0: 
-    sha256:086f614fd0eb8bca40b10644e6e1f665f732b8668d1fe4f8c3e7b3c64a103415
+  1.58.0--r45hdfd78af_0: 
+    sha256:0a46764e286f4fc9244834fbd575d8e382f01baf9b649effe8c498f2fcf51e7a
 tags:
   1.42.0--r41hdfd78af_0: 
     sha256:d88d8769677d521b1319af45186515bee1140c46853ee8e092935eda8afaba18
@@ -14,6 +14,8 @@ tags:
     sha256:6022c3598d02d454e353f622afa45cb71a83f93a1afc4ce472956cfc7e07e5b8
   1.54.0--r44hdfd78af_0: 
     sha256:086f614fd0eb8bca40b10644e6e1f665f732b8668d1fe4f8c3e7b3c64a103415
+  1.58.0--r45hdfd78af_0: 
+    sha256:0a46764e286f4fc9244834fbd575d8e382f01baf9b649effe8c498f2fcf51e7a
 docker: quay.io/biocontainers/bioconductor-ncigraph
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

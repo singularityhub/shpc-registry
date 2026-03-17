@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-porcine.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:8c91d7a200507fd2893ad97396cb6d3811bfc3f006e147541ad726b5c8f82f10
+  3.13.0--r45hdfd78af_6: 
+    sha256:4bb22adc1b1d25bdd65846d40d8ed8b8453e1a66e8dcdc1ce290bcb6396e192e
 tags:
   3.2.3--r41hdfd78af_8: 
     sha256:9ccebb0ddd6750a38056cff3d26213ee9b5fd77546a4fec4408194ed4ba2bc90
@@ -16,6 +16,8 @@ tags:
     sha256:f20ef57e254d897027b726c4abb0a0ca28bea73ad4ded6016822ebc34e7ae149
   3.13.0--r44hdfd78af_5: 
     sha256:8c91d7a200507fd2893ad97396cb6d3811bfc3f006e147541ad726b5c8f82f10
+  3.13.0--r45hdfd78af_6: 
+    sha256:4bb22adc1b1d25bdd65846d40d8ed8b8453e1a66e8dcdc1ce290bcb6396e192e
 docker: quay.io/biocontainers/bioconductor-porcine.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

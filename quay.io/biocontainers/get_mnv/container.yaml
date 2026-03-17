@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/get_mnv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for get_mnv
 latest:
-  1.0.0--ha7a4ace_1: 
-    sha256:1063eb6b98905f92e34b9f5dd7c2c59d164e9a88f71e1373a708a432dc20df95
+  1.0.1--hc863124_0: 
+    sha256:824cfc4317732f2eaff4043e5bec0ec318194e53e68188de22f1418e27b2b5e5
 tags:
   1.0.0--ha7a4ace_1: 
     sha256:1063eb6b98905f92e34b9f5dd7c2c59d164e9a88f71e1373a708a432dc20df95
+  1.0.1--hc863124_0: 
+    sha256:824cfc4317732f2eaff4043e5bec0ec318194e53e68188de22f1418e27b2b5e5
 docker: quay.io/biocontainers/get_mnv
 aliases:
   get_mnv: /usr/local/bin/get_mnv

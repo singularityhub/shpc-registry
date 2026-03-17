@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rnits
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:333438ab1c61a31eca4291614855c03e80ebabfab7ed6ff981cefc006d2eeec4
+  1.44.0--r45hdfd78af_0: 
+    sha256:94745aecd5cfb6a295d4bc6e31dda9c549e071cc5ed53b26208eae4653b7058d
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:306b3e369b56a82b1af8e7a9bb873445ebbe3f8ea14ac4bac1369268f7887770
@@ -14,4 +14,6 @@ tags:
     sha256:51ee5f1acb1afe8d3a8a2bc2587db68e03325d55586034ce51da64aab4502588
   1.40.0--r44hdfd78af_0: 
     sha256:333438ab1c61a31eca4291614855c03e80ebabfab7ed6ff981cefc006d2eeec4
+  1.44.0--r45hdfd78af_0: 
+    sha256:94745aecd5cfb6a295d4bc6e31dda9c549e071cc5ed53b26208eae4653b7058d
 docker: quay.io/biocontainers/bioconductor-rnits

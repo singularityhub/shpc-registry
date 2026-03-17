@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/metagraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metagraph
 latest:
-  0.5.0--haea4672_0: 
-    sha256:b3a6e464f80669021b37d66274e76b141e6b54b8cb752b68f0c0e4f91de04125
+  0.5.1--h99ae898_0: 
+    sha256:d03b5f67b3894e5714b3d28bf3f73d038c31c2c9c28baf38b5a950a36ff6485f
 tags:
   0.3.6--h15c59b9_1: 
     sha256:38e254af4c68bf6d0a68b45f198e813d3fa2182c870a569631fc5c7912f50914
@@ -19,6 +19,8 @@ tags:
     sha256:928fc8e0f44ccdc45681aa891c518b823d06436a49ed8f3f1ab4b69c323f045d
   0.5.0--haea4672_0: 
     sha256:b3a6e464f80669021b37d66274e76b141e6b54b8cb752b68f0c0e4f91de04125
+  0.5.1--h99ae898_0: 
+    sha256:d03b5f67b3894e5714b3d28bf3f73d038c31c2c9c28baf38b5a950a36ff6485f
 docker: quay.io/biocontainers/metagraph
 aliases:
   metagraph: /usr/local/bin/metagraph

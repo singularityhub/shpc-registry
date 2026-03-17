@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-granie
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-granie
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:a4b2f3a02dd56b8ed606d2c625572450041b3f908ece7497a61168f1651e674b
+  1.14.0--r45hdfd78af_0: 
+    sha256:f89c94fcfdbfbcc4da6b34ff658f88b0aa785af0146ca1347785452354c9e6ec
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:853e2eefd6cca90598ddb3e59b2a265c6a1b8ca3bcf2391cfc386796319f7881
@@ -13,6 +13,8 @@ tags:
     sha256:5089154e84721d475aafd52271924b2ea4ac4ca4e38d3d630dd79e9404d28796
   1.10.0--r44hdfd78af_0: 
     sha256:a4b2f3a02dd56b8ed606d2c625572450041b3f908ece7497a61168f1651e674b
+  1.14.0--r45hdfd78af_0: 
+    sha256:f89c94fcfdbfbcc4da6b34ff658f88b0aa785af0146ca1347785452354c9e6ec
 docker: quay.io/biocontainers/bioconductor-granie
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nugomm1a520177cdf
 latest:
-  3.4.0--r44hdfd78af_13: 
-    sha256:5c51aba5c675396022f6f1aa7e854a5bfe7c5b289eb4fc097b993b65db9e3f81
+  3.4.0--r45hdfd78af_14: 
+    sha256:9952dfc7c436a257f5057a000766f98cae139e62a5e048be8408fc0fe19d597c
 tags:
   3.4.0--r41hdfd78af_9: 
     sha256:ee772d0df926e85c344b836a691013e4ad312441a5d02a700f704d720260a868
@@ -16,4 +16,6 @@ tags:
     sha256:74c5ea98d1f6acec1e4e691786a32aed2c21ac7cadec0df9a3b467ee173e6d29
   3.4.0--r44hdfd78af_13: 
     sha256:5c51aba5c675396022f6f1aa7e854a5bfe7c5b289eb4fc097b993b65db9e3f81
+  3.4.0--r45hdfd78af_14: 
+    sha256:9952dfc7c436a257f5057a000766f98cae139e62a5e048be8408fc0fe19d597c
 docker: quay.io/biocontainers/bioconductor-nugomm1a520177cdf

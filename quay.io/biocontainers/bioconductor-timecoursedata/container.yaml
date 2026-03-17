@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-timecoursedata
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:bdbbfd28b32513fca5f81315544c21f1fb74adafb15e8bf40e797d5dfb6b7396
+  1.20.0--r45hdfd78af_0: 
+    sha256:a92a48056520caa74eb67fc07d73fada972d5c559cd45579738562e1be801da9
 tags:
   1.4.0--r41hdfd78af_1: 
     sha256:099c7849212b26eab5d0bdf263ff0a92b8bca943f591f896f3be015766611a58
@@ -16,4 +16,6 @@ tags:
     sha256:e72e26c71e659fb3b57c82c484c10a6cc9d74acf20245074b4f68585f1970163
   1.16.0--r44hdfd78af_0: 
     sha256:bdbbfd28b32513fca5f81315544c21f1fb74adafb15e8bf40e797d5dfb6b7396
+  1.20.0--r45hdfd78af_0: 
+    sha256:a92a48056520caa74eb67fc07d73fada972d5c559cd45579738562e1be801da9
 docker: quay.io/biocontainers/bioconductor-timecoursedata

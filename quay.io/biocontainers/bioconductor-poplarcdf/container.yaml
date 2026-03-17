@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-poplarcdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:fb9fa3037e991275d48972e5984c6a382c6a10ad01e5f8426f1e013dece8740c
+  2.18.0--r45hdfd78af_14: 
+    sha256:c5823bec223223dc8c3a145d99f86e74c6f4e9a2fc6ae349917106e2912b4115
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:8cced2db2c3a1426938de65f5dd7733605b2afaeb953e07a6eff4858e1c2e930
@@ -16,4 +16,6 @@ tags:
     sha256:242d2b6b3c54213e0a65389a0b155c5dc199e13beb1356698d8e41a4295feb8e
   2.18.0--r44hdfd78af_13: 
     sha256:fb9fa3037e991275d48972e5984c6a382c6a10ad01e5f8426f1e013dece8740c
+  2.18.0--r45hdfd78af_14: 
+    sha256:c5823bec223223dc8c3a145d99f86e74c6f4e9a2fc6ae349917106e2912b4115
 docker: quay.io/biocontainers/bioconductor-poplarcdf

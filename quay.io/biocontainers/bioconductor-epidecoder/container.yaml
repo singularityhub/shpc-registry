@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-epidecoder
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:2ffbbebcc4437a4a15929898a85dd40fbb38bb8a6176f8e6e3ffc38e7685125a
+  1.18.0--r45hdfd78af_0: 
+    sha256:36481a8f1e4be58f638c592948f440cf247c37d5e0d4fa1ce8ddd0d84937cf05
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:fb07681527bce5b83293058b4beb4be9951ae3bfbed5f361f626b8c0d628bf1d
@@ -16,4 +16,6 @@ tags:
     sha256:dac8cc1c0e89e682988c19cf27f8b4a43dc77d617932a2f3df3c4d6f80e5a254
   1.14.0--r44hdfd78af_0: 
     sha256:2ffbbebcc4437a4a15929898a85dd40fbb38bb8a6176f8e6e3ffc38e7685125a
+  1.18.0--r45hdfd78af_0: 
+    sha256:36481a8f1e4be58f638c592948f440cf247c37d5e0d4fa1ce8ddd0d84937cf05
 docker: quay.io/biocontainers/bioconductor-epidecoder

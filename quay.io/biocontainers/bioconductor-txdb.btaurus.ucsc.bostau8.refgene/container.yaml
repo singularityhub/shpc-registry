@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.btaurus.ucsc.bostau8.refgene
 latest:
-  3.12.0--r44hdfd78af_8: 
-    sha256:b320db105cd184bb587994e9c35728c60f8bc91adc9797f07b075e4ba623e82a
+  3.12.0--r45hdfd78af_9: 
+    sha256:27a2cce3f8cecaea05eef135910588149ea1b7d3cea92caaf4d32085619bdacc
 tags:
   3.4.6--r36_1: 
     sha256:650d3fda1744e55bca3a8935c8ef337d10d1b134f55d1f9c5fae629258a229c2
@@ -21,6 +21,8 @@ tags:
     sha256:f1c0997620230d4d9a1f0be66ec7dd0675e31fed42a498827e97bab1df76981f
   3.12.0--r44hdfd78af_8: 
     sha256:b320db105cd184bb587994e9c35728c60f8bc91adc9797f07b075e4ba623e82a
+  3.12.0--r45hdfd78af_9: 
+    sha256:27a2cce3f8cecaea05eef135910588149ea1b7d3cea92caaf4d32085619bdacc
 docker: quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

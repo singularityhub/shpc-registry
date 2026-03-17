@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-featseekr
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:5828b808b4cb90ff9014bc0d73998de3dcb9da5f2376d1750e1a65b914742115
+  1.10.0--r45hdfd78af_0: 
+    sha256:41dca1d0708d493927773d129987c0ac265d1733eb6ecfaac8c16b6e239f1ec0
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:c3638bd6f0a5a6d84ccf2a4ee21a10751613d4dd8392ce4ab31319f280a5f502
@@ -12,6 +12,8 @@ tags:
     sha256:98033a6fd8d9eba76ce40132e495a4f493157e0c8a825bfeeaa1dfcc1c3ec204
   1.6.0--r44hdfd78af_0: 
     sha256:5828b808b4cb90ff9014bc0d73998de3dcb9da5f2376d1750e1a65b914742115
+  1.10.0--r45hdfd78af_0: 
+    sha256:41dca1d0708d493927773d129987c0ac265d1733eb6ecfaac8c16b6e239f1ec0
 docker: quay.io/biocontainers/bioconductor-featseekr
 aliases:
   hb-info: /usr/local/bin/hb-info

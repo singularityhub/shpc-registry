@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scoreinvhap
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:c7381d410b0f02294c16d5603ddb0868d048154423f905102ba916915ef6d0f1
+  1.32.0--r45hdfd78af_0: 
+    sha256:706c47f7506a991b9e2fa9684a4591d43a74490460061e55d8f2c95ba534f243
 tags:
   1.8.0--r36_0: 
     sha256:6d69e542b16363213a6c3c679e8f7edcd88ff73a31f49e2666467d497b717f0f
@@ -24,6 +24,8 @@ tags:
     sha256:7bbec2d15519b675cd4cd29a759fc6626211727d839febca2752084336b480b1
   1.28.0--r44hdfd78af_0: 
     sha256:c7381d410b0f02294c16d5603ddb0868d048154423f905102ba916915ef6d0f1
+  1.32.0--r45hdfd78af_0: 
+    sha256:706c47f7506a991b9e2fa9684a4591d43a74490460061e55d8f2c95ba534f243
 docker: quay.io/biocontainers/bioconductor-scoreinvhap
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

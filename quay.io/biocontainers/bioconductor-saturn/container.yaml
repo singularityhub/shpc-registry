@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-saturn
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:4bac9570bf441eb45c6c37db3ec80cf36246b0e6e6d294ff1dcd28584086bdec
+  1.18.0--r45hdfd78af_0: 
+    sha256:fd16c8166bc1ec80307f56a05562080d1d7f351af8cd97a67b2762eb00ba20da
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:ff4efb4a8ae186a15af6df52a28d203859f6ba829cc796214b359a250ebc06bb
@@ -16,4 +16,6 @@ tags:
     sha256:75c1fe96b97e3720f7ee6df80014c89bc24fd1c087c959828ddf68f1390a8b5a
   1.14.0--r44hdfd78af_0: 
     sha256:4bac9570bf441eb45c6c37db3ec80cf36246b0e6e6d294ff1dcd28584086bdec
+  1.18.0--r45hdfd78af_0: 
+    sha256:fd16c8166bc1ec80307f56a05562080d1d7f351af8cd97a67b2762eb00ba20da
 docker: quay.io/biocontainers/bioconductor-saturn

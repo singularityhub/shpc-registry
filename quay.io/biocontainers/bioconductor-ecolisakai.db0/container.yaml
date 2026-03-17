@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ecolisakai.db0
 latest:
-  3.20.0--r44hdfd78af_0: 
-    sha256:a528eed597e706782e748b8cb1851d841e767a1b0a3b8d23e6d185a606eb7c4e
+  3.22.0--r45hdfd78af_0: 
+    sha256:a8e20ab8ed8dae7be2bbe366d5bf86c0ae802e66869e109536b83c31ec3de4d4
 tags:
   3.8.2--r36_1: 
     sha256:bc19545bf527a6de04f8aa30c0a907d467fa5effd09ac27cac9991086afb840e
@@ -24,6 +24,8 @@ tags:
     sha256:61afe00db5ed9bb829492a4e2fcdf12d688706742731a449445e9cd9a40906fc
   3.20.0--r44hdfd78af_0: 
     sha256:a528eed597e706782e748b8cb1851d841e767a1b0a3b8d23e6d185a606eb7c4e
+  3.22.0--r45hdfd78af_0: 
+    sha256:a8e20ab8ed8dae7be2bbe366d5bf86c0ae802e66869e109536b83c31ec3de4d4
 docker: quay.io/biocontainers/bioconductor-ecolisakai.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

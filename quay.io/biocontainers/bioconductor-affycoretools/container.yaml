@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-affycoretools
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:4fec6e1fd6ba3896e601f5c5e0d56d8fdb63bfdf145bbfbc9db6aee468f05b0d
+  1.82.0--r45hdfd78af_0: 
+    sha256:94dc71ed099163423b3b222cfac630868116f1f876ebd25cfcdcbdd93fc1b1ae
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:52a251ae058f236be6c33d0e6a1b2c638820e24e344bfd895d42b1d1d55a0554
@@ -16,4 +16,6 @@ tags:
     sha256:de4a915442c49f9f00f54119a70838ed244c7e9ff7601cb478d0162262c8b74e
   1.78.0--r44hdfd78af_0: 
     sha256:4fec6e1fd6ba3896e601f5c5e0d56d8fdb63bfdf145bbfbc9db6aee468f05b0d
+  1.82.0--r45hdfd78af_0: 
+    sha256:94dc71ed099163423b3b222cfac630868116f1f876ebd25cfcdcbdd93fc1b1ae
 docker: quay.io/biocontainers/bioconductor-affycoretools

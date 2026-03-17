@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mouse430a2cdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:5344b1cffb0e7c8282f9f402da0cd7cb6bee17ee75753002935eede9356c33b1
+  2.18.0--r45hdfd78af_14: 
+    sha256:048f3ce64201dd1aa07e427f84d3923f7559e6fdcfae75af4aba41344711b260
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:b250d611d0cfc740524083dfb3d33357bf3fa946473487ab795c010e184d2c8f
@@ -16,4 +16,6 @@ tags:
     sha256:e413b3c58a0aa45f6944bca4bae30a129f9179a1f94caab6a3f05d290b20cd3a
   2.18.0--r44hdfd78af_13: 
     sha256:5344b1cffb0e7c8282f9f402da0cd7cb6bee17ee75753002935eede9356c33b1
+  2.18.0--r45hdfd78af_14: 
+    sha256:048f3ce64201dd1aa07e427f84d3923f7559e6fdcfae75af4aba41344711b260
 docker: quay.io/biocontainers/bioconductor-mouse430a2cdf

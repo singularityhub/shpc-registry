@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hicdatalymphoblast
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:72d2085014d03df20d4f5f0ea853022b90ba34b7357b020a4c6516694ec3edf6
+  1.46.0--r45hdfd78af_0: 
+    sha256:390adaa19196d549a439f8d59c936fe81f91306cc9b94683e6e3f582cfe9ec26
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:45129e6c3847707dae936594ccaa2cf3fa4df57aa3586ab7efc07ef063e14df2
@@ -16,4 +16,6 @@ tags:
     sha256:e10661b6b187707633bd16792eeaa1d39a4fc0f539af93e471c6f9165b4ad0cc
   1.42.0--r44hdfd78af_0: 
     sha256:72d2085014d03df20d4f5f0ea853022b90ba34b7357b020a4c6516694ec3edf6
+  1.46.0--r45hdfd78af_0: 
+    sha256:390adaa19196d549a439f8d59c936fe81f91306cc9b94683e6e3f582cfe9ec26
 docker: quay.io/biocontainers/bioconductor-hicdatalymphoblast

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-canine2probe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:360f55441076eb6c6e9a97edfb085ffa16de30272bc79f6ffa2a1b8d270df433
+  2.18.0--r45hdfd78af_14: 
+    sha256:34ae3ade3fb6f234d682c1c36966fbb5877601cefd3e119c0ca5936670be03e7
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:55a66039c401b8402ec75b6033ed2f2a43789f1c8533e2dab78e2f67423c350f
@@ -16,4 +16,6 @@ tags:
     sha256:c83f0bd4ac00242c8c2522957df6c226a49cc2dd703ec37f336dc1463baca676
   2.18.0--r44hdfd78af_13: 
     sha256:360f55441076eb6c6e9a97edfb085ffa16de30272bc79f6ffa2a1b8d270df433
+  2.18.0--r45hdfd78af_14: 
+    sha256:34ae3ade3fb6f234d682c1c36966fbb5877601cefd3e119c0ca5936670be03e7
 docker: quay.io/biocontainers/bioconductor-canine2probe

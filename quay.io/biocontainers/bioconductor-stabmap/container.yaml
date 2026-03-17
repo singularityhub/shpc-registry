@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-stabmap
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:3828893bf8cfd99bb001d9537ab23bcd3484c5f85a194bc07235ac0b84ed4a15
+  1.4.0--r45hdfd78af_0: 
+    sha256:6a2f61383427cf4d9f354c5fb7f63b925703127fe3187a1046d233c63966bb92
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:3828893bf8cfd99bb001d9537ab23bcd3484c5f85a194bc07235ac0b84ed4a15
+  1.4.0--r45hdfd78af_0: 
+    sha256:6a2f61383427cf4d9f354c5fb7f63b925703127fe3187a1046d233c63966bb92
 docker: quay.io/biocontainers/bioconductor-stabmap
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

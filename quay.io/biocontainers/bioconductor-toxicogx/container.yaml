@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-toxicogx
 latest:
-  2.10.0--r44hdfd78af_0: 
-    sha256:5b6270932f13653b5315d62856d41c164b334eb66d731e9e4e59b97de5c6dcad
+  2.14.0--r45hdfd78af_0: 
+    sha256:3a13298241a18999bfd72425b3912daa8113e3f8281a2b65efe84aa308a19117
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:5f6559c9440b94724333799267a664af69dec234ac8db4535d67db427c958f40
@@ -16,4 +16,6 @@ tags:
     sha256:56f8596864bb52e200d9efa9f85f04ccdd9e22ae18c81895ddc1fbfd19801e69
   2.10.0--r44hdfd78af_0: 
     sha256:5b6270932f13653b5315d62856d41c164b334eb66d731e9e4e59b97de5c6dcad
+  2.14.0--r45hdfd78af_0: 
+    sha256:3a13298241a18999bfd72425b3912daa8113e3f8281a2b65efe84aa308a19117
 docker: quay.io/biocontainers/bioconductor-toxicogx

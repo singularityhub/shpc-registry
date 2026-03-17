@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-precisetad
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:f30515737a7f2fd443921d8ff8e3d5b72197dc9873f78a4b8c0bf073edcc67cf
+  1.20.0--r45hdfd78af_0: 
+    sha256:06351451e142e4e6554dad07a33782de13cbd0ece1e19d5834b185090e1e7b7b
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:c1b7900391104f8333f72a58e7efd3162e8cf4943981c672bcd32bdfacf6828a
@@ -16,4 +16,6 @@ tags:
     sha256:b4d4b911b5e3828cafb27d43b2566028e26bd9beffdfcc746fb9f38f525e0822
   1.16.0--r44hdfd78af_0: 
     sha256:f30515737a7f2fd443921d8ff8e3d5b72197dc9873f78a4b8c0bf073edcc67cf
+  1.20.0--r45hdfd78af_0: 
+    sha256:06351451e142e4e6554dad07a33782de13cbd0ece1e19d5834b185090e1e7b7b
 docker: quay.io/biocontainers/bioconductor-precisetad

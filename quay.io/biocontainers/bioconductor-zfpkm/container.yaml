@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-zfpkm
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:5f60874931c864a8843ae9e1b3e717d0f572ed1b51e3438a07270e060ad44b5a
+  1.32.0--r45hdfd78af_0: 
+    sha256:02761aa68b2aeab65dd3e18c19773225a46e1695753f546903ba4f79abfb0cbe
 tags:
   1.8.0--r36_0: 
     sha256:debbab980d418a8303768bf7246da86c30dd649ae99bf1ad0e24229d0f90ed71
@@ -24,6 +24,8 @@ tags:
     sha256:96d351b523f04afc5f97f4851b09e35106a4efbd3638890e10c914e5d6171464
   1.28.0--r44hdfd78af_0: 
     sha256:5f60874931c864a8843ae9e1b3e717d0f572ed1b51e3438a07270e060ad44b5a
+  1.32.0--r45hdfd78af_0: 
+    sha256:02761aa68b2aeab65dd3e18c19773225a46e1695753f546903ba4f79abfb0cbe
 docker: quay.io/biocontainers/bioconductor-zfpkm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

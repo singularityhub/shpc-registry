@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-powsc
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:aa40e71a75ba22417d9d7f837730ad9e1bfa3661c4a8fb23a8deb2fe12b78082
+  1.18.0--r45hdfd78af_0: 
+    sha256:6ea2f59e4cb1bdf3de7f8e9ddabd837eb0acd4ae0a4e6f99f0b353d6b49466d9
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:ceb8dde2ce5e6ca674cc442e347f32e4e3800e681782d331d0a39a4e06a1a09b
@@ -16,4 +16,6 @@ tags:
     sha256:bbc6f375ac3d0e79147d9b4db9376429474f661ad56ced62c53ee6287cb01df1
   1.14.0--r44hdfd78af_0: 
     sha256:aa40e71a75ba22417d9d7f837730ad9e1bfa3661c4a8fb23a8deb2fe12b78082
+  1.18.0--r45hdfd78af_0: 
+    sha256:6ea2f59e4cb1bdf3de7f8e9ddabd837eb0acd4ae0a4e6f99f0b353d6b49466d9
 docker: quay.io/biocontainers/bioconductor-powsc

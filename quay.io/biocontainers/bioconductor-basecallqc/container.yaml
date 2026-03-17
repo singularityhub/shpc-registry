@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-basecallqc
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:2a7849effcc7f5f977fa762c7e42a5a0074c0f4556aadb7136eea9d0e674c348
+  1.34.0--r45hdfd78af_0: 
+    sha256:8734381c36130dd92566cf1184d49407dc6814b6259288d9bb3e822542dfecaf
 tags:
   1.8.0--r36_1: 
     sha256:6916622399ba73ee0aef214146b7c78c59e62b78ba9972dc8f402e72027a0544
@@ -24,6 +24,8 @@ tags:
     sha256:6c07c03abbaa2ba49e4a479a26d2e65c5264010d8755fa9d794612ffa302d097
   1.30.0--r44hdfd78af_0: 
     sha256:2a7849effcc7f5f977fa762c7e42a5a0074c0f4556aadb7136eea9d0e674c348
+  1.34.0--r45hdfd78af_0: 
+    sha256:8734381c36130dd92566cf1184d49407dc6814b6259288d9bb3e822542dfecaf
 docker: quay.io/biocontainers/bioconductor-basecallqc
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

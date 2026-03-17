@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-norce
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:2266d898be3ef754b33416b7c412d957fc2a70842c776b2c1f49b95f25b928ea
+  1.22.0--r45hdfd78af_0: 
+    sha256:9b0812d4dd0de3944e4b74b7b1f88cd1dc1db3bebdec5cae631cf067d986307b
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:f68861adeda4b782b2c81a40473535d389364284093d921d346ad8e8809b9a8a
@@ -16,4 +16,6 @@ tags:
     sha256:cd7c443167c8528d79c1c186e752eeba16619daef535f5b90a7e4a25a5f65b62
   1.18.0--r44hdfd78af_0: 
     sha256:2266d898be3ef754b33416b7c412d957fc2a70842c776b2c1f49b95f25b928ea
+  1.22.0--r45hdfd78af_0: 
+    sha256:9b0812d4dd0de3944e4b74b7b1f88cd1dc1db3bebdec5cae631cf067d986307b
 docker: quay.io/biocontainers/bioconductor-norce

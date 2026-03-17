@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metagxbreast
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:62fb2b3af6702bd5fdfe0190ac807eccd1f18044c33ed6f2d02fe0d47faaa037
+  1.30.0--r45hdfd78af_0: 
+    sha256:da31f0457c22bcb80d183dc4887e6cb8baa3fbaa38e73f87b2477b1fa2538249
 tags:
   1.8.0--r40_0: 
     sha256:b4961ec55aff2acd9e94a482d11fe3ed698ecefcaaa3f01f56ea07a5cb71e7de
@@ -22,6 +22,8 @@ tags:
     sha256:419a6864567f39e53e30d58074ddfabbcfd6638adb504ee3efa92c4bc9d9967a
   1.26.0--r44hdfd78af_0: 
     sha256:62fb2b3af6702bd5fdfe0190ac807eccd1f18044c33ed6f2d02fe0d47faaa037
+  1.30.0--r45hdfd78af_0: 
+    sha256:da31f0457c22bcb80d183dc4887e6cb8baa3fbaa38e73f87b2477b1fa2538249
 docker: quay.io/biocontainers/bioconductor-metagxbreast
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

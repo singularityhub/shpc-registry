@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ccfindr
 latest:
-  1.22.0--r43h7c4fd5e_0: 
-    sha256:9eee3d9d7abf77bb104b8f21ce5286a0d15626dbced621d451e864000184421f
+  1.30.0--r45ha27e39d_0: 
+    sha256:e6f0c5b28260c3fa85d16395705513ec8210396d485e7fa23d8e063490318908
 tags:
   1.8.0--r40h5f743cb_0: 
     sha256:d073f895818d84225ac8b44392d728ebc910d066a9baf22d57f5faef239a8035
@@ -22,6 +22,8 @@ tags:
     sha256:dc22d8e2bd5a762204017e22aaa4b89c2dd7e10878d85dfd7cc4c37cbaf3e322
   1.22.0--r43h7c4fd5e_0: 
     sha256:9eee3d9d7abf77bb104b8f21ce5286a0d15626dbced621d451e864000184421f
+  1.30.0--r45ha27e39d_0: 
+    sha256:e6f0c5b28260c3fa85d16395705513ec8210396d485e7fa23d8e063490318908
 docker: quay.io/biocontainers/bioconductor-ccfindr
 aliases:
   aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl

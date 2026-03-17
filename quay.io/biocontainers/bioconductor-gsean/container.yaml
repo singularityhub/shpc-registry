@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gsean
 latest:
-  1.26.0--r44h3df3fcb_0: 
-    sha256:2625e320b620bde47ef593fd1cd9943034a8d52f1fe9569b13afcff2b9c3b6eb
+  1.30.0--r45h01b2380_0: 
+    sha256:f673484e998fee53953cd1ae0057ad2845e0e068478079e4ebb36e2124e826cd
 tags:
   1.8.0--r40_0: 
     sha256:a2a4cb7e0123975b9d12ba9c839a0ef986915c0fb8984bd1d7f54940c03e1458
@@ -24,6 +24,8 @@ tags:
     sha256:04160e053608b95c07a58f90be6255abbd4d33197eaf8addbc25219376186fe4
   1.26.0--r44h3df3fcb_0: 
     sha256:2625e320b620bde47ef593fd1cd9943034a8d52f1fe9569b13afcff2b9c3b6eb
+  1.30.0--r45h01b2380_0: 
+    sha256:f673484e998fee53953cd1ae0057ad2845e0e068478079e4ebb36e2124e826cd
 docker: quay.io/biocontainers/bioconductor-gsean
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-strandcheckr
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:aeeb549edbc806a9bcc91e76539814b3d99651d0a5f916e4c048c14a0bae292a
+  1.28.0--r45hdfd78af_0: 
+    sha256:2380e78cec63f3b80b8f852acc51bc5c34f68874842869d33897feff960d16da
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:d589b767d949ff44c1ffd68462dd4e7d5234860d7059bd0bf9764b80d8e116b1
@@ -20,6 +20,8 @@ tags:
     sha256:19082158060a9abc8884cb9eba2a700c2d477705d2b7937c5c5efdcf06f8260a
   1.24.0--r44hdfd78af_0: 
     sha256:aeeb549edbc806a9bcc91e76539814b3d99651d0a5f916e4c048c14a0bae292a
+  1.28.0--r45hdfd78af_0: 
+    sha256:2380e78cec63f3b80b8f852acc51bc5c34f68874842869d33897feff960d16da
 docker: quay.io/biocontainers/bioconductor-strandcheckr
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

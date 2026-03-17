@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ahpubmeddbs
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:f73ffb24175dc69b0fc5bdf51a8e9d6a100b922c11ca2938d29af605203f03b3
+  1.8.0--r45hdfd78af_1: 
+    sha256:c6b00fadc8dcbed0c87c523e4c517342c632f8f549b7e9406595d204e4b9a933
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:5f951d14bf9971f96d6d827cc1be5e2eb107719b43fcada50c96805c81b86caa
@@ -16,4 +16,6 @@ tags:
     sha256:f2db9172a4c55ea6684896bf8cb70254e6604c12640dab655587f5dffbcabe6e
   1.8.0--r44hdfd78af_0: 
     sha256:f73ffb24175dc69b0fc5bdf51a8e9d6a100b922c11ca2938d29af605203f03b3
+  1.8.0--r45hdfd78af_1: 
+    sha256:c6b00fadc8dcbed0c87c523e4c517342c632f8f549b7e9406595d204e4b9a933
 docker: quay.io/biocontainers/bioconductor-ahpubmeddbs

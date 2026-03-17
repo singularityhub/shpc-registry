@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gsvadata
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:6b3125fdd92f2b4d5721d85172601e30241789523582525995b2b4b076efeaed
+  1.46.0--r45hdfd78af_0: 
+    sha256:22b53342665bcd39ee5e9f96d4c71dcd648665a4011213f9812c100f9fb74c86
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:f639b52895e384cf2759943bee6ed76fb1f857fe23bc8990c4182658039f5082
@@ -16,4 +16,6 @@ tags:
     sha256:c567fd249385152bd4b2eac46ad6b619016e2e61a53fbfc8b6ea72a55b79d58c
   1.42.0--r44hdfd78af_0: 
     sha256:6b3125fdd92f2b4d5721d85172601e30241789523582525995b2b4b076efeaed
+  1.46.0--r45hdfd78af_0: 
+    sha256:22b53342665bcd39ee5e9f96d4c71dcd648665a4011213f9812c100f9fb74c86
 docker: quay.io/biocontainers/bioconductor-gsvadata

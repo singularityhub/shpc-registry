@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-surfaltr
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:662af7955dda42cd7973d564f457c7c303af53c4c9adab4a76bd2b21600e1a79
+  1.16.0--r45hdfd78af_0: 
+    sha256:3e906bdf4ec22c046cd8dc3a565dccde872225b6d887647a85c3d418a4acfe2d
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:8573b883470c3229652491205865a9f421e377ce67a1c8ad1316715040527c54
@@ -16,4 +16,6 @@ tags:
     sha256:5fd7191f7886fd51cbd07be3571ce73ca89c03332c47f3dbbeea0084683eaa31
   1.12.0--r44hdfd78af_0: 
     sha256:662af7955dda42cd7973d564f457c7c303af53c4c9adab4a76bd2b21600e1a79
+  1.16.0--r45hdfd78af_0: 
+    sha256:3e906bdf4ec22c046cd8dc3a565dccde872225b6d887647a85c3d418a4acfe2d
 docker: quay.io/biocontainers/bioconductor-surfaltr
