@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mothur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mothur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mothur/container.yaml"
-updated_at: "2026-03-16 05:40:45.002940"
+updated_at: "2026-03-17 05:14:56.847125"
 latest: "1.48.5--h11ba690_0"
 container_url: "https://biocontainers.pro/tools/mothur"
 aliases:

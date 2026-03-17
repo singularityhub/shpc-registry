@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-liger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-liger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-liger/container.yaml"
-updated_at: "2026-03-16 05:19:11.304195"
+updated_at: "2026-03-17 04:55:31.981774"
 latest: "2.2.1--r44h165a49b_0"
 container_url: "https://biocontainers.pro/tools/r-liger"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamslice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamslice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamslice/container.yaml"
-updated_at: "2026-03-16 05:30:00.282703"
+updated_at: "2026-03-17 05:05:18.558471"
 latest: "0.1.7--h67a98e6_0"
 container_url: "https://biocontainers.pro/tools/bamslice"
 aliases:

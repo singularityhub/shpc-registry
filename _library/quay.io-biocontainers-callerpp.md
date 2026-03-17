@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/callerpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/callerpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/callerpp/container.yaml"
-updated_at: "2026-03-16 05:02:48.064453"
+updated_at: "2026-03-17 04:40:09.604177"
 latest: "0.1.6--h503566f_2"
 container_url: "https://biocontainers.pro/tools/callerpp"
 aliases:

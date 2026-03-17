@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/irfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/irfinder/container.yaml"
-updated_at: "2026-03-16 04:57:14.937656"
+updated_at: "2026-03-17 04:34:58.826026"
 latest: "1.3.1--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/irfinder"
 aliases:

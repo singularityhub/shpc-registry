@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-megadepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-megadepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-megadepth/container.yaml"
-updated_at: "2026-03-16 05:10:47.034814"
-latest: "1.16.0--r44hdfd78af_0"
+updated_at: "2026-03-17 04:47:38.639466"
+latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-megadepth"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.16.0--r44hdfd78af_0"
+ - "1.20.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-megadepth"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-megadepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-megadepth", "latest": {"1.16.0--r44hdfd78af_0": "sha256:62d66a7f7d3bb2bef780f7c219f874516e7d92e0c5e4fc7b8c44ce3112a7a1b6"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:41b0c42750ccdbd3359d17ab7a3c5d98b145223cead3596102bf58645591c893", "1.8.0--r42hdfd78af_0": "sha256:8c7cef912305ebaa2e69c419f4d1664f5e307a052f45245dff75bebf343e421d", "1.10.0--r43hdfd78af_0": "sha256:f55ff02e50f3e57db3cf071d8172858dd5d4912a5e41356413952523b337abcd", "1.12.0--r43hdfd78af_0": "sha256:385aca100d41451f7ab36a9454775508e00925aa2eab48f67e46bbbde358b38c", "1.16.0--r44hdfd78af_0": "sha256:62d66a7f7d3bb2bef780f7c219f874516e7d92e0c5e4fc7b8c44ce3112a7a1b6"}, "docker": "quay.io/biocontainers/bioconductor-megadepth"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-megadepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-megadepth", "latest": {"1.20.0--r45hdfd78af_0": "sha256:3d16f5ea5832508e5bbdc378b387154ff5118f93807787a30a03aa42872eebbf"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:41b0c42750ccdbd3359d17ab7a3c5d98b145223cead3596102bf58645591c893", "1.8.0--r42hdfd78af_0": "sha256:8c7cef912305ebaa2e69c419f4d1664f5e307a052f45245dff75bebf343e421d", "1.10.0--r43hdfd78af_0": "sha256:f55ff02e50f3e57db3cf071d8172858dd5d4912a5e41356413952523b337abcd", "1.12.0--r43hdfd78af_0": "sha256:385aca100d41451f7ab36a9454775508e00925aa2eab48f67e46bbbde358b38c", "1.16.0--r44hdfd78af_0": "sha256:62d66a7f7d3bb2bef780f7c219f874516e7d92e0c5e4fc7b8c44ce3112a7a1b6", "1.20.0--r45hdfd78af_0": "sha256:3d16f5ea5832508e5bbdc378b387154ff5118f93807787a30a03aa42872eebbf"}, "docker": "quay.io/biocontainers/bioconductor-megadepth"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-megadepth.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-megadepth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-megadepth:1.16.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-megadepth:1.20.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-megadepth/1.16.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-megadepth/1.16.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-megadepth/1.20.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-megadepth/1.20.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

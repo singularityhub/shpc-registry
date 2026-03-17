@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-microbiomedasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiomedasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiomedasim/container.yaml"
-updated_at: "2026-03-16 04:55:24.412058"
-latest: "1.16.0--r43hdfd78af_0"
+updated_at: "2026-03-17 04:33:16.180955"
+latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiomedasim"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.12.0--r42hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.16.0--r43hdfd78af_0"
+ - "1.24.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-microbiomedasim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiomedasim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiomedasim", "latest": {"1.16.0--r43hdfd78af_0": "sha256:7b248e811619ba3f41018d8d3ee93e45b77d700c4b067d563c12b4e6142bd9db"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e962dd99bd9b53c849952db65ede852faac14774bc0f5ea4f11ff6393a026ef0", "1.12.0--r42hdfd78af_0": "sha256:a8659bcdc8665025c6e2727794987b64c2673cb135f7b9dd84329c4c5e1480d9", "1.14.0--r43hdfd78af_0": "sha256:b6310f8d2b75a418e6d4a75514db96c2e8f7ffb4730fff0f00ac93731e7a6670", "1.16.0--r43hdfd78af_0": "sha256:7b248e811619ba3f41018d8d3ee93e45b77d700c4b067d563c12b4e6142bd9db"}, "docker": "quay.io/biocontainers/bioconductor-microbiomedasim"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiomedasim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiomedasim", "latest": {"1.24.0--r45hdfd78af_0": "sha256:2d49cd1d5afc6feabc289e35f3993029231daa20e19dfe8df59a2fedbd9da54c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:e962dd99bd9b53c849952db65ede852faac14774bc0f5ea4f11ff6393a026ef0", "1.12.0--r42hdfd78af_0": "sha256:a8659bcdc8665025c6e2727794987b64c2673cb135f7b9dd84329c4c5e1480d9", "1.14.0--r43hdfd78af_0": "sha256:b6310f8d2b75a418e6d4a75514db96c2e8f7ffb4730fff0f00ac93731e7a6670", "1.16.0--r43hdfd78af_0": "sha256:7b248e811619ba3f41018d8d3ee93e45b77d700c4b067d563c12b4e6142bd9db", "1.24.0--r45hdfd78af_0": "sha256:2d49cd1d5afc6feabc289e35f3993029231daa20e19dfe8df59a2fedbd9da54c"}, "docker": "quay.io/biocontainers/bioconductor-microbiomedasim"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-microbiomedasim.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-microbiomedasim
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-microbiomedasim:1.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-microbiomedasim:1.24.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-microbiomedasim/1.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-microbiomedasim/1.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-microbiomedasim/1.24.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-microbiomedasim/1.24.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

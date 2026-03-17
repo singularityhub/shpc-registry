@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-trajectoryutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trajectoryutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trajectoryutils/container.yaml"
-updated_at: "2026-03-16 05:02:48.369487"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-03-17 04:40:09.890315"
+latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trajectoryutils"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trajectoryutils"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trajectoryutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trajectoryutils", "latest": {"1.14.0--r44hdfd78af_0": "sha256:904bc981d91b867aa53a307de1265304e2ddb2d246607e31a62d4b5352e85142"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d99f95c7da52371fea4cd36ab8299142c4b6a6ec289d9a09a33adc1d2d39f9f1", "1.6.0--r42hdfd78af_0": "sha256:080888683cc123b6fa30cbd4ec25a19daf52a14a486acf7c59be34c513c99f26", "1.8.0--r43hdfd78af_0": "sha256:94a1bfc83633e1f84c387ead3b1a02508e1487eb82c9e449e224be808cb59be3", "1.10.0--r43hdfd78af_0": "sha256:c7f92e9d9ba33bfbeccd7617dc33ba38219c4a3d0e5b6f97444c2266230d1819", "1.14.0--r44hdfd78af_0": "sha256:904bc981d91b867aa53a307de1265304e2ddb2d246607e31a62d4b5352e85142"}, "docker": "quay.io/biocontainers/bioconductor-trajectoryutils"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trajectoryutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trajectoryutils", "latest": {"1.18.0--r45hdfd78af_0": "sha256:b7f89ef8696b119c57dbb76fbd78a1e5c848b83b914e6f97169e044e399e2344"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d99f95c7da52371fea4cd36ab8299142c4b6a6ec289d9a09a33adc1d2d39f9f1", "1.6.0--r42hdfd78af_0": "sha256:080888683cc123b6fa30cbd4ec25a19daf52a14a486acf7c59be34c513c99f26", "1.8.0--r43hdfd78af_0": "sha256:94a1bfc83633e1f84c387ead3b1a02508e1487eb82c9e449e224be808cb59be3", "1.10.0--r43hdfd78af_0": "sha256:c7f92e9d9ba33bfbeccd7617dc33ba38219c4a3d0e5b6f97444c2266230d1819", "1.14.0--r44hdfd78af_0": "sha256:904bc981d91b867aa53a307de1265304e2ddb2d246607e31a62d4b5352e85142", "1.18.0--r45hdfd78af_0": "sha256:b7f89ef8696b119c57dbb76fbd78a1e5c848b83b914e6f97169e044e399e2344"}, "docker": "quay.io/biocontainers/bioconductor-trajectoryutils"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trajectoryutils.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trajectoryutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trajectoryutils:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-trajectoryutils:1.18.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trajectoryutils/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-trajectoryutils/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-trajectoryutils/1.18.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-trajectoryutils/1.18.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

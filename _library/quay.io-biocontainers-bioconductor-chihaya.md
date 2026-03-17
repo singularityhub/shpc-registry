@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chihaya"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chihaya/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chihaya/container.yaml"
-updated_at: "2026-03-16 05:20:48.225307"
-latest: "1.2.0--r43hf17093f_0"
+updated_at: "2026-03-17 04:56:57.825510"
+latest: "1.10.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chihaya"
 aliases:
  - "hb-info"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.0--r43hf17093f_0"
  - "1.2.0--r43hf17093f_0"
+ - "1.10.0--r45ha27e39d_0"
 description: "singularity registry hpc automated addition for bioconductor-chihaya"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chihaya", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-chihaya", "latest": {"1.2.0--r43hf17093f_0": "sha256:3bfbe245ae6e04979ef83016f7cbe0cd81dfa48fcdfb230dc71eaaf8e783e115"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:02e3de6626bf00c71a7dd5412ebacaeb662bbeb77110e02728c8e343297e3c14", "1.2.0--r43hf17093f_0": "sha256:3bfbe245ae6e04979ef83016f7cbe0cd81dfa48fcdfb230dc71eaaf8e783e115"}, "docker": "quay.io/biocontainers/bioconductor-chihaya", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chihaya", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-chihaya", "latest": {"1.10.0--r45ha27e39d_0": "sha256:d9e2c77d521921ca8479b675b7cde9b6979bd6daa5791bed9673d57c2bb817d3"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:02e3de6626bf00c71a7dd5412ebacaeb662bbeb77110e02728c8e343297e3c14", "1.2.0--r43hf17093f_0": "sha256:3bfbe245ae6e04979ef83016f7cbe0cd81dfa48fcdfb230dc71eaaf8e783e115", "1.10.0--r45ha27e39d_0": "sha256:d9e2c77d521921ca8479b675b7cde9b6979bd6daa5791bed9673d57c2bb817d3"}, "docker": "quay.io/biocontainers/bioconductor-chihaya", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chihaya.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chihaya
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chihaya:1.2.0--r43hf17093f_0
+$ shpc install quay.io/biocontainers/bioconductor-chihaya:1.10.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chihaya/1.2.0--r43hf17093f_0
-$ module help quay.io/biocontainers/bioconductor-chihaya/1.2.0--r43hf17093f_0
+$ module load quay.io/biocontainers/bioconductor-chihaya/1.10.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-chihaya/1.10.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

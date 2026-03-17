@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-algorithm-munkres"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-algorithm-munkres/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-algorithm-munkres/container.yaml"
-updated_at: "2026-03-16 04:48:52.907867"
+updated_at: "2026-03-17 04:27:17.787183"
 latest: "0.08--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-algorithm-munkres"
 aliases:

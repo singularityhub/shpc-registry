@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/salti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/salti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/salti/container.yaml"
-updated_at: "2026-03-16 05:09:26.066691"
+updated_at: "2026-03-17 04:46:22.811186"
 latest: "0.7.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/salti"
 aliases:

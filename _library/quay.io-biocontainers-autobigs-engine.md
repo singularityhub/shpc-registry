@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autobigs-engine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autobigs-engine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autobigs-engine/container.yaml"
-updated_at: "2026-03-16 04:55:29.907929"
+updated_at: "2026-03-17 04:33:21.159183"
 latest: "0.14.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/autobigs-engine"
 aliases:

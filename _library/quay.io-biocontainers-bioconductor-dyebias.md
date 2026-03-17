@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dyebias"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dyebias/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dyebias/container.yaml"
-updated_at: "2026-03-16 04:59:57.477610"
+updated_at: "2026-03-17 04:37:29.700470"
 latest: "1.70.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dyebias"
 

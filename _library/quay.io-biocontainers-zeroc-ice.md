@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zeroc-ice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zeroc-ice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zeroc-ice/container.yaml"
-updated_at: "2026-03-16 05:16:37.667661"
+updated_at: "2026-03-17 04:53:08.154008"
 latest: "3.7.1--py27hc3b63c6_1"
 container_url: "https://biocontainers.pro/tools/zeroc-ice"
 aliases:

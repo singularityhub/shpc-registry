@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-dist-checkconflicts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dist-checkconflicts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dist-checkconflicts/container.yaml"
-updated_at: "2026-03-16 05:27:19.352022"
+updated_at: "2026-03-17 05:02:53.183533"
 latest: "0.11--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-dist-checkconflicts"
 aliases:

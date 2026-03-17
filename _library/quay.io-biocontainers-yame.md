@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/yame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yame/container.yaml"
-updated_at: "2026-03-16 05:00:42.974418"
-latest: "1.0.5--h96c455f_0"
+updated_at: "2026-03-17 04:38:12.435028"
+latest: "1.8--ha83d96e_0"
 container_url: "https://biocontainers.pro/tools/yame"
 aliases:
  - "yame"
 versions:
  - "1.0.5--h96c455f_0"
+ - "1.8--ha83d96e_0"
 description: "singularity registry hpc automated addition for yame"
-config: {"url": "https://biocontainers.pro/tools/yame", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for yame", "latest": {"1.0.5--h96c455f_0": "sha256:ec031252221a2a8b223010270a3373bbca239c6b904c20bb05030a81806c41f4"}, "tags": {"1.0.5--h96c455f_0": "sha256:ec031252221a2a8b223010270a3373bbca239c6b904c20bb05030a81806c41f4"}, "docker": "quay.io/biocontainers/yame", "aliases": {"yame": "/usr/local/bin/yame"}}
+config: {"url": "https://biocontainers.pro/tools/yame", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for yame", "latest": {"1.8--ha83d96e_0": "sha256:b946ce3c62f7d08431f6df78dfaae8d4774dff7c101e41d11984e3d1cf7ada73"}, "tags": {"1.0.5--h96c455f_0": "sha256:ec031252221a2a8b223010270a3373bbca239c6b904c20bb05030a81806c41f4", "1.8--ha83d96e_0": "sha256:b946ce3c62f7d08431f6df78dfaae8d4774dff7c101e41d11984e3d1cf7ada73"}, "docker": "quay.io/biocontainers/yame", "aliases": {"yame": "/usr/local/bin/yame"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/yame.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/yame
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/yame:1.0.5--h96c455f_0
+$ shpc install quay.io/biocontainers/yame:1.8--ha83d96e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/yame/1.0.5--h96c455f_0
-$ module help quay.io/biocontainers/yame/1.0.5--h96c455f_0
+$ module load quay.io/biocontainers/yame/1.8--ha83d96e_0
+$ module help quay.io/biocontainers/yame/1.8--ha83d96e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

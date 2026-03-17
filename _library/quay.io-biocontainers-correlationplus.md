@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/correlationplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/correlationplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/correlationplus/container.yaml"
-updated_at: "2026-03-16 04:51:29.655836"
-latest: "0.2.1--pyh5e36f6f_0"
+updated_at: "2026-03-17 04:29:40.270837"
+latest: "0.2.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/correlationplus"
 aliases:
  - "correlationplus"
@@ -27,8 +27,9 @@ aliases:
  - "h4redeploy"
 versions:
  - "0.2.1--pyh5e36f6f_0"
+ - "0.2.3--pyh106432d_0"
 description: "shpc-registry automated BioContainers addition for correlationplus"
-config: {"url": "https://biocontainers.pro/tools/correlationplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for correlationplus", "latest": {"0.2.1--pyh5e36f6f_0": "sha256:77e2f3c9e1eecc8d98b5689fe20d416eb72a01be22c3ca864dce544572913d96"}, "tags": {"0.2.1--pyh5e36f6f_0": "sha256:77e2f3c9e1eecc8d98b5689fe20d416eb72a01be22c3ca864dce544572913d96"}, "docker": "quay.io/biocontainers/correlationplus", "aliases": {"correlationplus": "/usr/local/bin/correlationplus", "evol": "/usr/local/bin/evol", "gsd": "/usr/local/bin/gsd", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "prody": "/usr/local/bin/prody", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy"}}
+config: {"url": "https://biocontainers.pro/tools/correlationplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for correlationplus", "latest": {"0.2.3--pyh106432d_0": "sha256:46cddd14d5bf79e2890dbc670ed2ea6305355437c8ff5b204d35a97dc1911b47"}, "tags": {"0.2.1--pyh5e36f6f_0": "sha256:77e2f3c9e1eecc8d98b5689fe20d416eb72a01be22c3ca864dce544572913d96", "0.2.3--pyh106432d_0": "sha256:46cddd14d5bf79e2890dbc670ed2ea6305355437c8ff5b204d35a97dc1911b47"}, "docker": "quay.io/biocontainers/correlationplus", "aliases": {"correlationplus": "/usr/local/bin/correlationplus", "evol": "/usr/local/bin/evol", "gsd": "/usr/local/bin/gsd", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "prody": "/usr/local/bin/prody", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/correlationplus.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/correlationplus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/correlationplus:0.2.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/correlationplus:0.2.3--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/correlationplus/0.2.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/correlationplus/0.2.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/correlationplus/0.2.3--pyh106432d_0
+$ module help quay.io/biocontainers/correlationplus/0.2.3--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

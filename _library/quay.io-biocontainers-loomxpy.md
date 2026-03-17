@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/loomxpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/loomxpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/loomxpy/container.yaml"
-updated_at: "2026-03-16 05:32:41.755603"
+updated_at: "2026-03-17 05:07:43.512423"
 latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/loomxpy"
 aliases:
