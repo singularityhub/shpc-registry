@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/bioconductor-scqtltools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-scqtltools
+latest:
+  1.2.4--r45hdfd78af_0: 
+    sha256:f527ac043d48c9ad9e6bfc3a327452754d5f34d884fce4fac4c520976b2442f2
+tags:
+  1.2.4--r45hdfd78af_0: 
+    sha256:f527ac043d48c9ad9e6bfc3a327452754d5f34d884fce4fac4c520976b2442f2
+docker: quay.io/biocontainers/bioconductor-scqtltools
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

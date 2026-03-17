@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bioconductor-qrscore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-qrscore
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:9c89f1dcb62e382da763153138f2693c2400b7b1af97b8b106aa56bb9c2efa47
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:9c89f1dcb62e382da763153138f2693c2400b7b1af97b8b106aa56bb9c2efa47
+docker: quay.io/biocontainers/bioconductor-qrscore
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench

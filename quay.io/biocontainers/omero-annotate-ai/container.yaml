@@ -1,0 +1,102 @@
+url: https://biocontainers.pro/tools/omero-annotate-ai
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for omero-annotate-ai
+latest:
+  0.2.1--pyh106432d_0: 
+    sha256:786822a7d79df2ce73a2511648711f09c3558ec3dc0b20190785d0aea258455e
+tags:
+  0.2.1--pyh106432d_0: 
+    sha256:786822a7d79df2ce73a2511648711f09c3558ec3dc0b20190785d0aea258455e
+docker: quay.io/biocontainers/omero-annotate-ai
+aliases:
+  backend-test-tools: /usr/local/bin/backend-test-tools
+  bioimageio: /usr/local/bin/bioimageio
+  check-model: /usr/local/bin/check-model
+  check-node: /usr/local/bin/check-node
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  dimacs-solver: /usr/local/bin/dimacs-solver
+  dimacs-to-lgf: /usr/local/bin/dimacs-to-lgf
+  email_validator: /usr/local/bin/email_validator
+  exr2aces: /usr/local/bin/exr2aces
+  exrenvmap: /usr/local/bin/exrenvmap
+  exrheader: /usr/local/bin/exrheader
+  exrinfo: /usr/local/bin/exrinfo
+  exrmakepreview: /usr/local/bin/exrmakepreview
+  exrmaketiled: /usr/local/bin/exrmaketiled
+  exrmanifest: /usr/local/bin/exrmanifest
+  exrmetrics: /usr/local/bin/exrmetrics
+  exrmultipart: /usr/local/bin/exrmultipart
+  exrmultiview: /usr/local/bin/exrmultiview
+  exrstdattr: /usr/local/bin/exrstdattr
+  ffplay: /usr/local/bin/ffplay
+  glslang: /usr/local/bin/glslang
+  glslangValidator: /usr/local/bin/glslangValidator
+  glslc: /usr/local/bin/glslc
+  hf: /usr/local/bin/hf
+  lemon-0.x-to-1.x.sh: /usr/local/bin/lemon-0.x-to-1.x.sh
+  lgf-gen: /usr/local/bin/lgf-gen
+  micro_sam.annotator_2d: /usr/local/bin/micro_sam.annotator_2d
+  micro_sam.annotator_3d: /usr/local/bin/micro_sam.annotator_3d
+  micro_sam.annotator_tracking: /usr/local/bin/micro_sam.annotator_tracking
+  micro_sam.automatic_segmentation: 
+    /usr/local/bin/micro_sam.automatic_segmentation
+  micro_sam.benchmark_sam: /usr/local/bin/micro_sam.benchmark_sam
+  micro_sam.evaluate: /usr/local/bin/micro_sam.evaluate
+  micro_sam.image_series_annotator: 
+    /usr/local/bin/micro_sam.image_series_annotator
+  micro_sam.info: /usr/local/bin/micro_sam.info
+  micro_sam.precompute_embeddings: 
+    /usr/local/bin/micro_sam.precompute_embeddings
+  micro_sam.train: /usr/local/bin/micro_sam.train
+  mrcfile-header: /usr/local/bin/mrcfile-header
+  mrcfile-validate: /usr/local/bin/mrcfile-validate
+  napari: /usr/local/bin/napari
+  npe2: /usr/local/bin/npe2
+  numpydoc: /usr/local/bin/numpydoc
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  omero: /usr/local/bin/omero
+  onnxruntime_test: /usr/local/bin/onnxruntime_test
+  pint-convert: /usr/local/bin/pint-convert
+  pyproject-build: /usr/local/bin/pyproject-build
+  python-build: /usr/local/bin/python-build
+  qtpy: /usr/local/bin/qtpy
+  sdl2-config: /usr/local/bin/sdl2-config
+  slice2py: /usr/local/bin/slice2py
+  spirv-diff: /usr/local/bin/spirv-diff
+  tiny-agents: /usr/local/bin/tiny-agents
+  torch_em.export_bioimageio_model: 
+    /usr/local/bin/torch_em.export_bioimageio_model
+  torch_em.predict: /usr/local/bin/torch_em.predict
+  torch_em.predict_with_tiling: /usr/local/bin/torch_em.predict_with_tiling
+  torch_em.train_2d_unet: /usr/local/bin/torch_em.train_2d_unet
+  torch_em.train_3d_unet: /usr/local/bin/torch_em.train_3d_unet
+  torch_em.validate_checkpoint: /usr/local/bin/torch_em.validate_checkpoint
+  view_container: /usr/local/bin/view_container
+  vigra-config: /usr/local/bin/vigra-config
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint
+  spirv-objdump: /usr/local/bin/spirv-objdump
+  spirv-opt: /usr/local/bin/spirv-opt
+  spirv-reduce: /usr/local/bin/spirv-reduce
+  spirv-val: /usr/local/bin/spirv-val
+  qdoc6: /usr/local/bin/qdoc6
+  androiddeployqt6: /usr/local/bin/androiddeployqt6
+  assistant6: /usr/local/bin/assistant6
+  designer6: /usr/local/bin/designer6
+  distro: /usr/local/bin/distro
+  linguist6: /usr/local/bin/linguist6
+  pixeltool6: /usr/local/bin/pixeltool6
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  qdbus6: /usr/local/bin/qdbus6
+  qdbusviewer6: /usr/local/bin/qdbusviewer6
+  qdistancefieldgenerator6: /usr/local/bin/qdistancefieldgenerator6
+  qmake6: /usr/local/bin/qmake6
