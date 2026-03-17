@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bioconductor-notameviz
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-notameviz
+latest:
+  1.0.2--r45hdfd78af_0: 
+    sha256:5d0abadeabb8cc1c91ce8a86e8504fa034f9137267608629ed177fda1c83afca
+tags:
+  1.0.2--r45hdfd78af_0: 
+    sha256:5d0abadeabb8cc1c91ce8a86e8504fa034f9137267608629ed177fda1c83afca
+docker: quay.io/biocontainers/bioconductor-notameviz
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
