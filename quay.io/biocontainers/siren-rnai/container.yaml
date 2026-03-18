@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/siren-rnai
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for siren-rnai
+latest:
+  0.1.9--pyhdfd78af_0: 
+    sha256:0c7bc7f7fc38297cc027353d677e8048699138ce476bf16b1e1471aa1ebea18a
+tags:
+  0.1.9--pyhdfd78af_0: 
+    sha256:0c7bc7f7fc38297cc027353d677e8048699138ce476bf16b1e1471aa1ebea18a
+docker: quay.io/biocontainers/siren-rnai
+aliases:
+  RNAcalibrate: /usr/local/bin/RNAcalibrate
+  RNAeffective: /usr/local/bin/RNAeffective
+  RNAhybrid: /usr/local/bin/RNAhybrid
+  SIREN: /usr/local/bin/SIREN
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  bdftogd: /usr/local/bin/bdftogd
+  gd2copypal: /usr/local/bin/gd2copypal
+  gd2togif: /usr/local/bin/gd2togif
+  gd2topng: /usr/local/bin/gd2topng
+  gdcmpgif: /usr/local/bin/gdcmpgif
+  gdparttopng: /usr/local/bin/gdparttopng
+  gdtopng: /usr/local/bin/gdtopng
+  giftogd2: /usr/local/bin/giftogd2
+  pngtogd: /usr/local/bin/pngtogd
+  pngtogd2: /usr/local/bin/pngtogd2
+  webpng: /usr/local/bin/webpng
+  annotate: /usr/local/bin/annotate
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools

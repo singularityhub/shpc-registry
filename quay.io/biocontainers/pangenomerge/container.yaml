@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/pangenomerge
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pangenomerge
+latest:
+  0.9.0--pyh106432d_0: 
+    sha256:df67086f5ccde6a207ce5fe774b4dce4ae8f17f73c187bccf8a5ab335d2fe3df
+tags:
+  0.9.0--pyh106432d_0: 
+    sha256:df67086f5ccde6a207ce5fe774b4dce4ae8f17f73c187bccf8a5ab335d2fe3df
+docker: quay.io/biocontainers/pangenomerge
+aliases:
+  pangenomerge: /usr/local/bin/pangenomerge
+  aria2c: /usr/local/bin/aria2c
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  mmseqs: /usr/local/bin/mmseqs
+  gawkbug: /usr/local/bin/gawkbug
+  gawk: /usr/local/bin/gawk
+  awk: /usr/local/bin/awk
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/peakqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for peakqc
+latest:
+  0.1.6--pyh106432d_0: 
+    sha256:06cf205eaa9d3c8d646e2f2946394968a0d0b470450a1f367d8f13b391362db9
+tags:
+  0.1.6--pyh106432d_0: 
+    sha256:06cf205eaa9d3c8d646e2f2946394968a0d0b470450a1f367d8f13b391362db9
+docker: quay.io/biocontainers/peakqc
+aliases:
+  session-info: /usr/local/bin/session-info
+  session-info2: /usr/local/bin/session-info2
+  zarr: /usr/local/bin/zarr
+  scanpy: /usr/local/bin/scanpy
+  h5fuse: /usr/local/bin/h5fuse
+  natsort: /usr/local/bin/natsort
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  numba: /usr/local/bin/numba
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox

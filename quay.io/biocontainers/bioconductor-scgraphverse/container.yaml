@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bioconductor-scgraphverse
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-scgraphverse
+latest:
+  1.0.0--r45h01b2380_0: 
+    sha256:606ed43b32fecea99afe6c18904648348d3903b77d799fbc0a1172dbae3cb342
+tags:
+  1.0.0--r45h01b2380_0: 
+    sha256:606ed43b32fecea99afe6c18904648348d3903b77d799fbc0a1172dbae3cb342
+docker: quay.io/biocontainers/bioconductor-scgraphverse
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  glpsol: /usr/local/bin/glpsol
+  hb-info: /usr/local/bin/hb-info
+  tjbench: /usr/local/bin/tjbench
