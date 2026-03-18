@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cetf
 latest:
-  1.18.0--r44he5774e6_0: 
-    sha256:923531911ceda59d743766a9d04e6d7797576215fc02cc9d19677d106e276bea
+  1.22.0--r45ha27e39d_0: 
+    sha256:7c4a8c1839d6f59326f4d217f0e3c1f5a4074fabc9c4c65e95430cd640cac3f5
 tags:
   1.6.0--r41hc247a5b_2: 
     sha256:9c55d9f8096bc6564eff18b22e8cb05a11ddc23e9213f253f4f47e30baf9ee31
@@ -16,6 +16,8 @@ tags:
     sha256:e45482863cd703b3801b211069d7ed137f9cb73defc96a5a87b19725604c1681
   1.18.0--r44he5774e6_0: 
     sha256:923531911ceda59d743766a9d04e6d7797576215fc02cc9d19677d106e276bea
+  1.22.0--r45ha27e39d_0: 
+    sha256:7c4a8c1839d6f59326f4d217f0e3c1f5a4074fabc9c4c65e95430cd640cac3f5
 docker: quay.io/biocontainers/bioconductor-cetf
 aliases:
   Cytoscape: /usr/local/bin/Cytoscape

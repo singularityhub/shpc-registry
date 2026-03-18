@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-radiogx
 latest:
-  2.10.0--r44hdfd78af_0: 
-    sha256:fbd3d48f8357118e7cc6dd5bef18e2a5b90cfd9983ae2bf786dea1822e2a6409
+  2.14.0--r45hdfd78af_0: 
+    sha256:8170a60ebcbea6d96eaca9ded71456cef49743c4c592249a0cc863c1e259a241
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:acaeceeb1d430de49232c80700f89832dff4f94b9b1545bdd91c532878f9f0d7
@@ -16,4 +16,6 @@ tags:
     sha256:dbc8ef57c8204ac2c6f44ad41e3eab034458001593b1d1b5be61b48f9b453a3a
   2.10.0--r44hdfd78af_0: 
     sha256:fbd3d48f8357118e7cc6dd5bef18e2a5b90cfd9983ae2bf786dea1822e2a6409
+  2.14.0--r45hdfd78af_0: 
+    sha256:8170a60ebcbea6d96eaca9ded71456cef49743c4c592249a0cc863c1e259a241
 docker: quay.io/biocontainers/bioconductor-radiogx

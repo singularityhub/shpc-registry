@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-biodb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-biodb
 latest:
-  1.2.2--r43h4ac6f70_9: 
-    sha256:1cfcab01adb9e8ca22987175fd5136eb2b727c44a10f7625bff392f7743de12d
+  1.2.2--r45hd63eeec_10: 
+    sha256:cda293ee683d3ec5f98460f322e57860801c7fb361bef7d11dc49ad82113a14e
 tags:
   1.2.2--r41h9f5acd7_4: 
     sha256:9394e9103a7e7c0ae08468d52bc782c888493609a115eacb827bd29a6f6337f7
@@ -15,4 +15,6 @@ tags:
     sha256:3e936fc1a72dd7695e8bb1e4a43e81b94ec4615190741666428267f4de2135d7
   1.2.2--r43h4ac6f70_9: 
     sha256:1cfcab01adb9e8ca22987175fd5136eb2b727c44a10f7625bff392f7743de12d
+  1.2.2--r45hd63eeec_10: 
+    sha256:cda293ee683d3ec5f98460f322e57860801c7fb361bef7d11dc49ad82113a14e
 docker: quay.io/biocontainers/r-biodb

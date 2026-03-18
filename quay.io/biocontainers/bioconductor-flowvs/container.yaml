@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowvs
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:14f151c9234f8223a94b4b7d538de8d376a76b4e6855f772e49185919f750f4d
+  1.42.0--r45hdfd78af_0: 
+    sha256:dfc84bfd6d1ad3855be417b0319cfde22fbdb77774e12b25e6da17aac1120af9
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:fb17c462bac7cc5a099269be716dbe621fec44400cdf300117e6786ae2e17282
@@ -16,4 +16,6 @@ tags:
     sha256:0cba60d43e90e3dddd2a90f9b0091b9cd8bd8cb95851776b9a7ed3b1a3614cba
   1.38.0--r44hdfd78af_0: 
     sha256:14f151c9234f8223a94b4b7d538de8d376a76b4e6855f772e49185919f750f4d
+  1.42.0--r45hdfd78af_0: 
+    sha256:dfc84bfd6d1ad3855be417b0319cfde22fbdb77774e12b25e6da17aac1120af9
 docker: quay.io/biocontainers/bioconductor-flowvs

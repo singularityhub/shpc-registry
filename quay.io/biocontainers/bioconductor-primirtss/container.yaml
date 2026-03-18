@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-primirtss
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:f9e38d520afa74116e7c0f3d06568134a4f55ec32c5628d4c167e82a386a4428
+  1.28.0--r45hdfd78af_0: 
+    sha256:348a5e192da7cd2e757a458e7588c9420047ffcac316fda8e00eb0d6b8dfbccb
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:0e59aaa20e8d7f16e781aa8930fb8e81684da30abef594ec2415381b8a4a0418
@@ -20,6 +20,8 @@ tags:
     sha256:67a74b90b71ea792f7b823975a2da601205676633c851c0aff0784e228e07b60
   1.24.0--r44hdfd78af_0: 
     sha256:f9e38d520afa74116e7c0f3d06568134a4f55ec32c5628d4c167e82a386a4428
+  1.28.0--r45hdfd78af_0: 
+    sha256:348a5e192da7cd2e757a458e7588c9420047ffcac316fda8e00eb0d6b8dfbccb
 docker: quay.io/biocontainers/bioconductor-primirtss
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

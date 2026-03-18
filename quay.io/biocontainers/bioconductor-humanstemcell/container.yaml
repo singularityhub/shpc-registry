@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-humanstemcell
 latest:
-  0.46.0--r44hdfd78af_0: 
-    sha256:97e04e543866751fa33060ae512d249e486409be9dd31ca511498cd330232795
+  0.50.0--r45hdfd78af_0: 
+    sha256:3012005c74f550f71685bab50fdb3e8652e5095349f0dc08c2c8bf4188a97ecf
 tags:
   0.34.0--r41hdfd78af_1: 
     sha256:4b8d46e1d738ebd8470b72ea25dc9fff33b5f9e95cb3b26e5dbeac478da89f36
@@ -16,4 +16,6 @@ tags:
     sha256:8c0a681620a2c13bb594af8b96045f9f4ede8e8c97b3d3835bb09e439d883976
   0.46.0--r44hdfd78af_0: 
     sha256:97e04e543866751fa33060ae512d249e486409be9dd31ca511498cd330232795
+  0.50.0--r45hdfd78af_0: 
+    sha256:3012005c74f550f71685bab50fdb3e8652e5095349f0dc08c2c8bf4188a97ecf
 docker: quay.io/biocontainers/bioconductor-humanstemcell

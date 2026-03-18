@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mguatlas5k.db
 latest:
-  3.2.3--r44hdfd78af_13: 
-    sha256:79d7804e6bb380220e3feaf41343add9965f7329e1dc99a5ce9f30bf69449722
+  3.2.3--r45hdfd78af_14: 
+    sha256:db8970bbc09c3c9d46f2132b739e983140c3e5a3f6d0eb1f0968d3ae151bdb60
 tags:
   3.2.3--r41hdfd78af_9: 
     sha256:83747689c8ebeb20945ec4b617ff2c85adc70702ec9ef3ba04d25130f209e3ef
@@ -16,4 +16,6 @@ tags:
     sha256:468e53b147d63bed8276aa8401603f8b9cb7dcb2feb31a3b55fe9693688246d4
   3.2.3--r44hdfd78af_13: 
     sha256:79d7804e6bb380220e3feaf41343add9965f7329e1dc99a5ce9f30bf69449722
+  3.2.3--r45hdfd78af_14: 
+    sha256:db8970bbc09c3c9d46f2132b739e983140c3e5a3f6d0eb1f0968d3ae151bdb60
 docker: quay.io/biocontainers/bioconductor-mguatlas5k.db

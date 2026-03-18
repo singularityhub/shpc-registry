@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hilda
 latest:
-  1.20.0--r44he5774e6_0: 
-    sha256:3c4fc421581bef1f9390de397f8f0d5a8270917c5ad35d43037b93708bd7d847
+  1.24.0--r45ha27e39d_0: 
+    sha256:360b7a0e5c4f2a47a67ad09600c654a46161181049eecfbb77377a69f85e787a
 tags:
   1.8.0--r41hc247a5b_2: 
     sha256:e046c215a105ac93a409fc6292321bdcaad87c5c9e4fe8c47b58e0e30652414a
@@ -16,6 +16,8 @@ tags:
     sha256:3fce4429d75428c8ed52841e0d17bc19e86fad7375a2b0e4e4d84e979e5dda6d
   1.20.0--r44he5774e6_0: 
     sha256:3c4fc421581bef1f9390de397f8f0d5a8270917c5ad35d43037b93708bd7d847
+  1.24.0--r45ha27e39d_0: 
+    sha256:360b7a0e5c4f2a47a67ad09600c654a46161181049eecfbb77377a69f85e787a
 docker: quay.io/biocontainers/bioconductor-hilda
 aliases:
   jags: /usr/local/bin/jags

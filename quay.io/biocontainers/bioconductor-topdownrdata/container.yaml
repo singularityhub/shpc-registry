@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-topdownrdata
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:25fcf53570dce6952d27ef44ac5d0e47e738f9f58fb4fdd0280aff7d74c04954
+  1.32.0--r45hdfd78af_0: 
+    sha256:1759f054086d494126343fcdef17dd5b37297175d0c3245ba3c6967b9ad39e12
 tags:
   1.8.0--r36_0: 
     sha256:833620ee1ae58e5b0d5a9ea5a76b111cf60d815987d7258cc8b0011d583751f3
@@ -24,6 +24,8 @@ tags:
     sha256:e0a2b41bf871fa14392b2639ed10157941ae8d12d74341a6087edd0f4e11e74a
   1.28.0--r44hdfd78af_0: 
     sha256:25fcf53570dce6952d27ef44ac5d0e47e738f9f58fb4fdd0280aff7d74c04954
+  1.32.0--r45hdfd78af_0: 
+    sha256:1759f054086d494126343fcdef17dd5b37297175d0c3245ba3c6967b9ad39e12
 docker: quay.io/biocontainers/bioconductor-topdownrdata
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

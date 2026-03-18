@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-codelink
 latest:
-  1.74.0--r44hdfd78af_0: 
-    sha256:64af5bc16853b75f713c4b2bdb6c6231199d3284a5f8b49975705dc6b272e0c8
+  1.78.0--r45hdfd78af_0: 
+    sha256:4457766dd33d94f81b24e1a566cdcb28274513e3e0bbffe9c3e7fbe2f1da09c5
 tags:
   1.62.0--r41hdfd78af_0: 
     sha256:b4f12167519b0874e9e205216981e965c066cbfa0e9c4ee8a84f3f6124a7e1c9
@@ -16,4 +16,6 @@ tags:
     sha256:9bf63ebdb136bd5c6318079b8ae2a9290a6c263e228f008c4e107a9a1460eeaf
   1.74.0--r44hdfd78af_0: 
     sha256:64af5bc16853b75f713c4b2bdb6c6231199d3284a5f8b49975705dc6b272e0c8
+  1.78.0--r45hdfd78af_0: 
+    sha256:4457766dd33d94f81b24e1a566cdcb28274513e3e0bbffe9c3e7fbe2f1da09c5
 docker: quay.io/biocontainers/bioconductor-codelink

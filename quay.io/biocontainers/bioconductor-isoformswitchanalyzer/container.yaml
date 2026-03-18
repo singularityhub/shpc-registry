@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-isoformswitchanalyzer
 latest:
-  2.6.0--r44h3df3fcb_0: 
-    sha256:e2032633971399fdd5c3f46d5821bc5b75b3a8818f3ebf92528f16ee71602897
+  2.10.0--r45h01b2380_0: 
+    sha256:b0efd35a1aea270481635f9bbe5c14aabc806351e4b407afefffdf0e62b6eb3a
 tags:
   1.8.0--r36h516909a_0: 
     sha256:a70e561958ec117925f65bada01be2dd447f3af0d338d903c137dd1351c2ce1c
@@ -26,6 +26,8 @@ tags:
     sha256:dac85cb976a49c0c2ece30c92b4b0f38538e98d98710fd7ea2f94d47f7149783
   2.6.0--r44h3df3fcb_0: 
     sha256:e2032633971399fdd5c3f46d5821bc5b75b3a8818f3ebf92528f16ee71602897
+  2.10.0--r45h01b2380_0: 
+    sha256:b0efd35a1aea270481635f9bbe5c14aabc806351e4b407afefffdf0e62b6eb3a
 docker: quay.io/biocontainers/bioconductor-isoformswitchanalyzer
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

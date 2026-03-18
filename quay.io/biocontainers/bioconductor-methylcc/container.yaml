@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-methylcc
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:f48cdd9de1674652368be2b459d5fed6bb0a86876a87a8623a462df0340b2405
+  1.24.1--r45hdfd78af_0: 
+    sha256:537d8fceea42390f21b04ee52ccfdcb8950c0323a51fa1c26bea7bb50f211290
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:d789fbdb9a6bc8e20b5c0b3ff0a20c8f5d24589f6822c4b5958cff847235766c
@@ -16,6 +16,8 @@ tags:
     sha256:a3a128f9a626dd7af5be36385bc449952d5a24f22888a1888671dace501180ae
   1.20.0--r44hdfd78af_0: 
     sha256:f48cdd9de1674652368be2b459d5fed6bb0a86876a87a8623a462df0340b2405
+  1.24.1--r45hdfd78af_0: 
+    sha256:537d8fceea42390f21b04ee52ccfdcb8950c0323a51fa1c26bea7bb50f211290
 docker: quay.io/biocontainers/bioconductor-methylcc
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

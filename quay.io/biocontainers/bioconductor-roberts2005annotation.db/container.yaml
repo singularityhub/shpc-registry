@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-roberts2005annotation.db
 latest:
-  3.2.3--r44hdfd78af_13: 
-    sha256:36d0f9e09bdc2941c0c59faa283fc07ff327fa033ef43a82129d91b938ee4994
+  3.2.3--r45hdfd78af_14: 
+    sha256:76a3b57e89374de10b9fb951c178d3691db71e4990780397e49c0861d3517748
 tags:
   3.2.3--r41hdfd78af_9: 
     sha256:a09f042c60f941931a10bc6b822cff1250d5395cdc50d1d6e87163c20a25d18a
@@ -16,4 +16,6 @@ tags:
     sha256:7aa99e7b88c1aeb98614ca84e2fb89983aed5eb22640fa9dd30f90a244a129a7
   3.2.3--r44hdfd78af_13: 
     sha256:36d0f9e09bdc2941c0c59faa283fc07ff327fa033ef43a82129d91b938ee4994
+  3.2.3--r45hdfd78af_14: 
+    sha256:76a3b57e89374de10b9fb951c178d3691db71e4990780397e49c0861d3517748
 docker: quay.io/biocontainers/bioconductor-roberts2005annotation.db

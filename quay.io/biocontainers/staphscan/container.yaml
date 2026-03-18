@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/staphscan
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for staphscan
 latest:
-  0.1.2--pyhdfd78af_0: 
-    sha256:c353dc467dc4d27e0e77df6191e68b0a911e4698b69037136e7e27615d2f6a35
+  0.2.1--pyhdfd78af_0: 
+    sha256:a132db7a6c76cc0a7d8e9d04de74e2b94ec461b5be4f9f47402933b06d53e2e5
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:c353dc467dc4d27e0e77df6191e68b0a911e4698b69037136e7e27615d2f6a35
+  0.2.1--pyhdfd78af_0: 
+    sha256:a132db7a6c76cc0a7d8e9d04de74e2b94ec461b5be4f9f47402933b06d53e2e5
+  0.1.3--pyhdfd78af_0: 
+    sha256:b9179612f2ede6459d77e4b2489befb69527126bebe5367fd9506f8dd1657ea2
 docker: quay.io/biocontainers/staphscan
 aliases:
   staphscan: /usr/local/bin/staphscan

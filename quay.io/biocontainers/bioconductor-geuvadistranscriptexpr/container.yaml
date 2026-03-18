@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geuvadistranscriptexpr
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:86016ced2ada3874561ca0e5f09884d6653597cc8c3460ba8cd68be18384a816
+  1.38.0--r45hdfd78af_0: 
+    sha256:bc529d974c9638860519c5b8d8fadaa63148dcf1d67ddb0f1781b5db87db0782
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:81dca2db2783d0e7659b4b8b069e298b4d72034ace522f7c7f0979b4260d1c73
@@ -16,4 +16,6 @@ tags:
     sha256:78d2ef4001b8d24b58423d29aa7c258c4da25969e606090e0a6a7b7c3b60eb4a
   1.34.0--r44hdfd78af_0: 
     sha256:86016ced2ada3874561ca0e5f09884d6653597cc8c3460ba8cd68be18384a816
+  1.38.0--r45hdfd78af_0: 
+    sha256:bc529d974c9638860519c5b8d8fadaa63148dcf1d67ddb0f1781b5db87db0782
 docker: quay.io/biocontainers/bioconductor-geuvadistranscriptexpr

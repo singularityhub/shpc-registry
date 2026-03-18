@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-amaretto
 latest:
-  1.22.0--r44he5774e6_0: 
-    sha256:d54a0db3b250a5be71292c20dbf3d2ff4fe6e151acba7901c5846a8dc0d43b98
+  1.26.0--r45ha27e39d_0: 
+    sha256:250b661571139f8243776c993ef93463e38ef2f1ec73c0dbc780540a7e5ed562
 tags:
   1.8.0--r41h399db7b_0: 
     sha256:49355276bdea97b7e66499fe76661ebe36d729e51f05642cbb6f6e54279a198b
@@ -18,6 +18,8 @@ tags:
     sha256:4eb46292b93b839c6e60ea2ad823c8c2a1ffbf6d656490371f2a111ce8ac5525
   1.22.0--r44he5774e6_0: 
     sha256:d54a0db3b250a5be71292c20dbf3d2ff4fe6e151acba7901c5846a8dc0d43b98
+  1.26.0--r45ha27e39d_0: 
+    sha256:250b661571139f8243776c993ef93463e38ef2f1ec73c0dbc780540a7e5ed562
 docker: quay.io/biocontainers/bioconductor-amaretto
 aliases:
   pandoc: /usr/local/bin/pandoc

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lumiratall.db
 latest:
-  1.22.0--r44hdfd78af_13: 
-    sha256:c226e6113c1eefa67983f70e90478d590df24315b309cc32108838d535db85e6
+  1.22.0--r45hdfd78af_14: 
+    sha256:73d807735e15698999ef8dfea1d36f2071c11b4e1c4fc11089ecce5ee17dfb59
 tags:
   1.22.0--r41hdfd78af_9: 
     sha256:075ea54a967e0281f167808240ffe6aa8789b7a10e56db8b807d42adcf51e2be
@@ -16,4 +16,6 @@ tags:
     sha256:3afedfd1cfd80aa7653f55da922d897e7cbea4d0f82c64ccec98eb375b98a39b
   1.22.0--r44hdfd78af_13: 
     sha256:c226e6113c1eefa67983f70e90478d590df24315b309cc32108838d535db85e6
+  1.22.0--r45hdfd78af_14: 
+    sha256:73d807735e15698999ef8dfea1d36f2071c11b4e1c4fc11089ecce5ee17dfb59
 docker: quay.io/biocontainers/bioconductor-lumiratall.db

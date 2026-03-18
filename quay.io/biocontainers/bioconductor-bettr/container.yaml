@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-bettr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-bettr
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:52ba6a09f5463992d5dff8e7aa8c3bf93aaaf8d205398c1589bb1b0cb045ef0d
+  1.6.0--r45hdfd78af_0: 
+    sha256:bc6b131b4c5473e1fdf8bc6a483af497a39dc81d9be43c2a6c8b60ffb634d5c0
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:52ba6a09f5463992d5dff8e7aa8c3bf93aaaf8d205398c1589bb1b0cb045ef0d
+  1.6.0--r45hdfd78af_0: 
+    sha256:bc6b131b4c5473e1fdf8bc6a483af497a39dc81d9be43c2a6c8b60ffb634d5c0
 docker: quay.io/biocontainers/bioconductor-bettr
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

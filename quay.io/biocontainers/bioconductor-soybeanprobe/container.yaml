@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-soybeanprobe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:cfd7970492490b0cdf2dad11537312d31887e2023ae24e60f60bb94b0a12a7db
+  2.18.0--r45hdfd78af_14: 
+    sha256:71dcbd63198d6102e187c05f4dc9f7edd3a16ccab98c407a506f1929be221c2a
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:7359ed7d23d87323de396b142cedc67a4536be4626246e92ede1c4f2115e9737
@@ -16,4 +16,6 @@ tags:
     sha256:59c7d1d2ee7d5cef2e81a648886b0f3a2263a4aa6d2af799dcc2bc16af61bbb1
   2.18.0--r44hdfd78af_13: 
     sha256:cfd7970492490b0cdf2dad11537312d31887e2023ae24e60f60bb94b0a12a7db
+  2.18.0--r45hdfd78af_14: 
+    sha256:71dcbd63198d6102e187c05f4dc9f7edd3a16ccab98c407a506f1929be221c2a
 docker: quay.io/biocontainers/bioconductor-soybeanprobe

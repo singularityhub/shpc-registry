@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sugarcaneprobe
 latest:
-  2.18.0--r44hdfd78af_14: 
-    sha256:aa6270b391d32f4ef126cb9548168035bd23e3d0bb357f047fc59dddf3345495
+  2.18.0--r45hdfd78af_15: 
+    sha256:260ffd6bbe33a821034f2f75ab2671e1d79cb7c03b060c641fde1e8e6c55b2e6
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:53f28be5637da45715f7653550687debb1df806a6a5481b9471d398dbb372abd
@@ -16,4 +16,6 @@ tags:
     sha256:a008b1d5360622ed44fc832d30e98c22befd3ff88194fe425a866dceb1d2a0e5
   2.18.0--r44hdfd78af_14: 
     sha256:aa6270b391d32f4ef126cb9548168035bd23e3d0bb357f047fc59dddf3345495
+  2.18.0--r45hdfd78af_15: 
+    sha256:260ffd6bbe33a821034f2f75ab2671e1d79cb7c03b060c641fde1e8e6c55b2e6
 docker: quay.io/biocontainers/bioconductor-sugarcaneprobe

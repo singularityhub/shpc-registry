@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-phyloprofile
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:aa957a466d9321bcd877e85d9be9453e4a1c5a027299bfd66a9d5c195fbdfcbb
+  2.2.2--r45hdfd78af_0: 
+    sha256:363da1568c8e8765101894c2ac494f68400af8fd3f77c12249289ee8798fd6d8
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:ab3db1e4722d975de4a85b301e2601aa5584dd0579efc1cdacc443d6feb7f4c0
@@ -16,6 +16,8 @@ tags:
     sha256:f5ffe33a60f406c33b9ce36c08a1b8e933215d9ccbaef9f8692d975400d429d3
   1.20.0--r44hdfd78af_0: 
     sha256:aa957a466d9321bcd877e85d9be9453e4a1c5a027299bfd66a9d5c195fbdfcbb
+  2.2.2--r45hdfd78af_0: 
+    sha256:363da1568c8e8765101894c2ac494f68400af8fd3f77c12249289ee8798fd6d8
 docker: quay.io/biocontainers/bioconductor-phyloprofile
 aliases:
   pandoc: /usr/local/bin/pandoc

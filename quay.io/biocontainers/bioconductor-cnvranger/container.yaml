@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cnvranger
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:2a75e3fac3f293d08a96957b3fd1857e053412d77ee33b6d42ea3a1b0181dc67
+  1.26.0--r45hdfd78af_0: 
+    sha256:075c306c8c5a23372952b36796b1ff244f0e489f3fca33207088ff1fa781855a
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:cfb424da9abb5eadd1548300b1e32adf979cc6edd6f746664a4936cf7f508910
@@ -18,6 +18,8 @@ tags:
     sha256:62d6e0742f5c075b59b36e77d6e1e0672d566879f831f265e0ad9a6fbbddd674
   1.22.0--r44hdfd78af_0: 
     sha256:2a75e3fac3f293d08a96957b3fd1857e053412d77ee33b6d42ea3a1b0181dc67
+  1.26.0--r45hdfd78af_0: 
+    sha256:075c306c8c5a23372952b36796b1ff244f0e489f3fca33207088ff1fa781855a
 docker: quay.io/biocontainers/bioconductor-cnvranger
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

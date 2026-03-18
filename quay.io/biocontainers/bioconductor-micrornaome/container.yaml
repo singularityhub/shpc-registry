@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-micrornaome
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:c15a9e8ee3a646fcfb5dcff3939d8a78db9ab7f72f39a51c4d8429143be857da
+  1.32.0--r45hdfd78af_0: 
+    sha256:9e0382dd1e53d01744024d56d4042990a278d2681a82ac243c729e4cf155f270
 tags:
   1.8.0--r36_0: 
     sha256:0bdcdfbabef98067201c1c5255a433a6cfdebd8665e7bceda6d269220888db2c
@@ -24,6 +24,8 @@ tags:
     sha256:13b1b9bfd2bc64f6e1e9c50ba0630b4a76572de78016133eb11fb59ec61dd971
   1.28.0--r44hdfd78af_0: 
     sha256:c15a9e8ee3a646fcfb5dcff3939d8a78db9ab7f72f39a51c4d8429143be857da
+  1.32.0--r45hdfd78af_0: 
+    sha256:9e0382dd1e53d01744024d56d4042990a278d2681a82ac243c729e4cf155f270
 docker: quay.io/biocontainers/bioconductor-micrornaome
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

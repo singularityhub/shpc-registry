@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/plinder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plinder
 latest:
-  0.2.25--pyhdfd78af_3: 
-    sha256:79a90abd1ed7b6d9769a40d54d19637950eef8e559e801f114785fb0695af6c5
+  0.2.26--pyhdfd78af_0: 
+    sha256:7b250116a63009bbed6321a28f65bf38a71a828ad3927fd683834c13aef94db7
 tags:
   0.2.25--pyhdfd78af_1: 
     sha256:71abbc3f1f8050142071ff5a1ed515c1d9bcd860e431f3a8ecf1a6c380bc9d2d
   0.2.25--pyhdfd78af_3: 
     sha256:79a90abd1ed7b6d9769a40d54d19637950eef8e559e801f114785fb0695af6c5
+  0.2.26--pyhdfd78af_0: 
+    sha256:7b250116a63009bbed6321a28f65bf38a71a828ad3927fd683834c13aef94db7
 docker: quay.io/biocontainers/plinder
 aliases:
   build_dict_cli: /usr/local/bin/build_dict_cli

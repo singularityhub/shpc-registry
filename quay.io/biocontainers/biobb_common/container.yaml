@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_common
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_common
 latest:
-  5.2.1--pyhdfd78af_0: 
-    sha256:bb4853b80b4458e2fac24c03e892805abda7121cd94f120b4378bae401ce15b7
+  5.2.2--pyhdfd78af_0: 
+    sha256:0bba0c640dad07523dc28f3b7e3e13d2562531de222d1521ca43b025be177984
 tags:
   3.8.1--pyhdfd78af_0: 
     sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e
@@ -27,6 +27,8 @@ tags:
     sha256:412099fa589fde8e9a769a54f1401766e1f720089ad89c8725bd8f4be32a370b
   5.2.1--pyhdfd78af_0: 
     sha256:bb4853b80b4458e2fac24c03e892805abda7121cd94f120b4378bae401ce15b7
+  5.2.2--pyhdfd78af_0: 
+    sha256:0bba0c640dad07523dc28f3b7e3e13d2562531de222d1521ca43b025be177984
 docker: quay.io/biocontainers/biobb_common
 aliases:
   normalizer: /usr/local/bin/normalizer

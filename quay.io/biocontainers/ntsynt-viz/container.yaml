@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ntsynt-viz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ntsynt-viz
 latest:
-  1.0.1--hdfd78af_0: 
-    sha256:3da6486c8edeb1717f274068f9445d614319f820de49228e09dd2bdd3f879a2d
+  1.0.2--hdfd78af_1: 
+    sha256:0da3f3a1f7986fb9a8a2d0951823e20c3dc9477112926fb0e4c87720e90c990d
 tags:
   1.0.1--hdfd78af_0: 
     sha256:3da6486c8edeb1717f274068f9445d614319f820de49228e09dd2bdd3f879a2d
+  1.0.2--hdfd78af_1: 
+    sha256:0da3f3a1f7986fb9a8a2d0951823e20c3dc9477112926fb0e4c87720e90c990d
 docker: quay.io/biocontainers/ntsynt-viz
 aliases:
   convert_distance_matrix_to_phylip.py: 

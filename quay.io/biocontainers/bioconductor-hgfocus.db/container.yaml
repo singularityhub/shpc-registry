@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hgfocus.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:537f21628b66da2b23cdb218bdd9143886c657f90359e55bb6d71c2f0b8b25fc
+  3.13.0--r45hdfd78af_6: 
+    sha256:be570191c1ba5317a127afa4f75a39ccc98f241224486e606da83d47b07aec30
 tags:
   3.2.3--r41hdfd78af_7: 
     sha256:640c510a327ac0b2bcee8e78205f63cffaccdcf6822d9c264dc25c84dec8772d
@@ -16,6 +16,8 @@ tags:
     sha256:3fc7a1d067eb6e4e37bb373d8a8357c867c461eca22cef9deb453c8d1834d9f4
   3.13.0--r44hdfd78af_5: 
     sha256:537f21628b66da2b23cdb218bdd9143886c657f90359e55bb6d71c2f0b8b25fc
+  3.13.0--r45hdfd78af_6: 
+    sha256:be570191c1ba5317a127afa4f75a39ccc98f241224486e606da83d47b07aec30
 docker: quay.io/biocontainers/bioconductor-hgfocus.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 
