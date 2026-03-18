@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scanmirapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scanmirapp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scanmirapp/container.yaml"
-updated_at: "2026-03-17 04:30:14.153105"
-latest: "1.12.0--r44hdfd78af_0"
+updated_at: "2026-03-18 04:36:53.040821"
+latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scanmirapp"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.12.0--r44hdfd78af_0"
+ - "1.16.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scanmirapp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scanmirapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scanmirapp", "latest": {"1.12.0--r44hdfd78af_0": "sha256:005753b7b90a711b0e32d62e9bb189e8b0f4a1e0652173848f854a16d8bcb395"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:bc1fe122ed0ef9f206314e99d26c3daf3e79da2263ca0ab8dcbd25ebd096e7e4", "1.4.0--r42hdfd78af_0": "sha256:bdd79d2bdb4a197a69850dfe805395d3fd98cb0af43993853ff93345e63b69b6", "1.6.0--r43hdfd78af_0": "sha256:04f8cc989868a7c8328122c08fbc850d19124e4d457b6c81ae74378c6c5d40c0", "1.8.0--r43hdfd78af_0": "sha256:055c95fd83a9f5f36422976e734d1b9f55db213014d5ad2873ede3c005bb10ed", "1.12.0--r44hdfd78af_0": "sha256:005753b7b90a711b0e32d62e9bb189e8b0f4a1e0652173848f854a16d8bcb395"}, "docker": "quay.io/biocontainers/bioconductor-scanmirapp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scanmirapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scanmirapp", "latest": {"1.16.0--r45hdfd78af_0": "sha256:14d6307d5c06c3daf1f576f0cbfa1689cf094da918dceb7afc9aef33109a6895"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:bc1fe122ed0ef9f206314e99d26c3daf3e79da2263ca0ab8dcbd25ebd096e7e4", "1.4.0--r42hdfd78af_0": "sha256:bdd79d2bdb4a197a69850dfe805395d3fd98cb0af43993853ff93345e63b69b6", "1.6.0--r43hdfd78af_0": "sha256:04f8cc989868a7c8328122c08fbc850d19124e4d457b6c81ae74378c6c5d40c0", "1.8.0--r43hdfd78af_0": "sha256:055c95fd83a9f5f36422976e734d1b9f55db213014d5ad2873ede3c005bb10ed", "1.12.0--r44hdfd78af_0": "sha256:005753b7b90a711b0e32d62e9bb189e8b0f4a1e0652173848f854a16d8bcb395", "1.16.0--r45hdfd78af_0": "sha256:14d6307d5c06c3daf1f576f0cbfa1689cf094da918dceb7afc9aef33109a6895"}, "docker": "quay.io/biocontainers/bioconductor-scanmirapp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scanmirapp.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scanmirapp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scanmirapp:1.12.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scanmirapp:1.16.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scanmirapp/1.12.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scanmirapp/1.12.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scanmirapp/1.16.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scanmirapp/1.16.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

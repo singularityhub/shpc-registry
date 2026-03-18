@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sharkmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sharkmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sharkmer/container.yaml"
-updated_at: "2026-03-17 05:05:08.741805"
-latest: "1.0.1--h4349ce8_0"
+updated_at: "2026-03-18 05:16:30.427067"
+latest: "1.0.1--h4349ce8_1"
 container_url: "https://biocontainers.pro/tools/sharkmer"
 aliases:
  - "sharkmer"
 versions:
  - "1.0.1--h4349ce8_0"
+ - "1.0.1--h4349ce8_1"
 description: "singularity registry hpc automated addition for sharkmer"
-config: {"url": "https://biocontainers.pro/tools/sharkmer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sharkmer", "latest": {"1.0.1--h4349ce8_0": "sha256:1e969bb0e62b66dcf71b97db150e8b4f03511d25f9c63ae854ae219eafb67b40"}, "tags": {"1.0.1--h4349ce8_0": "sha256:1e969bb0e62b66dcf71b97db150e8b4f03511d25f9c63ae854ae219eafb67b40"}, "docker": "quay.io/biocontainers/sharkmer", "aliases": {"sharkmer": "/usr/local/bin/sharkmer"}}
+config: {"url": "https://biocontainers.pro/tools/sharkmer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sharkmer", "latest": {"1.0.1--h4349ce8_1": "sha256:744b4570fe61fc18393e8f82cd7383cec63149a80477647f2087f464baf752b2"}, "tags": {"1.0.1--h4349ce8_0": "sha256:1e969bb0e62b66dcf71b97db150e8b4f03511d25f9c63ae854ae219eafb67b40", "1.0.1--h4349ce8_1": "sha256:744b4570fe61fc18393e8f82cd7383cec63149a80477647f2087f464baf752b2"}, "docker": "quay.io/biocontainers/sharkmer", "aliases": {"sharkmer": "/usr/local/bin/sharkmer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sharkmer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sharkmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sharkmer:1.0.1--h4349ce8_0
+$ shpc install quay.io/biocontainers/sharkmer:1.0.1--h4349ce8_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sharkmer/1.0.1--h4349ce8_0
-$ module help quay.io/biocontainers/sharkmer/1.0.1--h4349ce8_0
+$ module load quay.io/biocontainers/sharkmer/1.0.1--h4349ce8_1
+$ module help quay.io/biocontainers/sharkmer/1.0.1--h4349ce8_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

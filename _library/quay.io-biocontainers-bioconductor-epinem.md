@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-epinem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epinem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epinem/container.yaml"
-updated_at: "2026-03-17 04:34:59.678133"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2026-03-18 04:42:23.108082"
+latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epinem"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.22.0--r42hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.34.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epinem"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epinem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epinem", "latest": {"1.26.0--r43hdfd78af_0": "sha256:99010340da8a158ceb080d9961be774b85251990207220dfadfedcf004a68417"}, "tags": {"1.18.0--r41hdfd78af_0": "sha256:a532d06a387e715c3a83ab945f52d749d9c7385913c7c8880e7f8a6f9f393220", "1.22.0--r42hdfd78af_0": "sha256:7ce333bfc28e508ebb06fed1e28dcef93da2219318788cda770d350678d331be", "1.24.0--r43hdfd78af_0": "sha256:fab27523ebd6158fafc5c24b16abe8447e1280160c76f6250b3e9071a9aa50c0", "1.26.0--r43hdfd78af_0": "sha256:99010340da8a158ceb080d9961be774b85251990207220dfadfedcf004a68417"}, "docker": "quay.io/biocontainers/bioconductor-epinem"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epinem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epinem", "latest": {"1.34.0--r45hdfd78af_0": "sha256:df9fc5b15844b1ee77ffa5925ec1b57e01d84692b6e36a6abb57b409bbc75d16"}, "tags": {"1.18.0--r41hdfd78af_0": "sha256:a532d06a387e715c3a83ab945f52d749d9c7385913c7c8880e7f8a6f9f393220", "1.22.0--r42hdfd78af_0": "sha256:7ce333bfc28e508ebb06fed1e28dcef93da2219318788cda770d350678d331be", "1.24.0--r43hdfd78af_0": "sha256:fab27523ebd6158fafc5c24b16abe8447e1280160c76f6250b3e9071a9aa50c0", "1.26.0--r43hdfd78af_0": "sha256:99010340da8a158ceb080d9961be774b85251990207220dfadfedcf004a68417", "1.34.0--r45hdfd78af_0": "sha256:df9fc5b15844b1ee77ffa5925ec1b57e01d84692b6e36a6abb57b409bbc75d16"}, "docker": "quay.io/biocontainers/bioconductor-epinem"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epinem.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epinem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epinem:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-epinem:1.34.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epinem/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-epinem/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-epinem/1.34.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-epinem/1.34.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

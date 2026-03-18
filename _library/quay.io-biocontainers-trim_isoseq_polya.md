@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trim_isoseq_polya"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trim_isoseq_polya/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trim_isoseq_polya/container.yaml"
-updated_at: "2026-03-17 05:10:48.088403"
+updated_at: "2026-03-18 05:23:06.272100"
 latest: "0.0.3--h7c8eefc_0"
 container_url: "https://biocontainers.pro/tools/trim_isoseq_polya"
 aliases:

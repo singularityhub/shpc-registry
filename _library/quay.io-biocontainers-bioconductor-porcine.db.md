@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-porcine.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-porcine.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-porcine.db/container.yaml"
-updated_at: "2026-03-17 05:14:35.336323"
-latest: "3.13.0--r44hdfd78af_5"
+updated_at: "2026-03-18 05:27:28.034357"
+latest: "3.13.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-porcine.db"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "3.13.0--r43hdfd78af_3"
  - "3.13.0--r43hdfd78af_4"
  - "3.13.0--r44hdfd78af_5"
+ - "3.13.0--r45hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for bioconductor-porcine.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-porcine.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-porcine.db", "latest": {"3.13.0--r44hdfd78af_5": "sha256:8c91d7a200507fd2893ad97396cb6d3811bfc3f006e147541ad726b5c8f82f10"}, "tags": {"3.2.3--r41hdfd78af_8": "sha256:9ccebb0ddd6750a38056cff3d26213ee9b5fd77546a4fec4408194ed4ba2bc90", "3.13.0--r42hdfd78af_2": "sha256:ecf2da4bcfb31c33755b2fa4ee66bbf0f823414e525c59fb7129a3100e41abad", "3.13.0--r43hdfd78af_3": "sha256:aa76576c631072bd721b67d7b5f74ff6d50af132217bf7a571e8263987436ac3", "3.13.0--r43hdfd78af_4": "sha256:f20ef57e254d897027b726c4abb0a0ca28bea73ad4ded6016822ebc34e7ae149", "3.13.0--r44hdfd78af_5": "sha256:8c91d7a200507fd2893ad97396cb6d3811bfc3f006e147541ad726b5c8f82f10"}, "docker": "quay.io/biocontainers/bioconductor-porcine.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-porcine.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-porcine.db", "latest": {"3.13.0--r45hdfd78af_6": "sha256:4bb22adc1b1d25bdd65846d40d8ed8b8453e1a66e8dcdc1ce290bcb6396e192e"}, "tags": {"3.2.3--r41hdfd78af_8": "sha256:9ccebb0ddd6750a38056cff3d26213ee9b5fd77546a4fec4408194ed4ba2bc90", "3.13.0--r42hdfd78af_2": "sha256:ecf2da4bcfb31c33755b2fa4ee66bbf0f823414e525c59fb7129a3100e41abad", "3.13.0--r43hdfd78af_3": "sha256:aa76576c631072bd721b67d7b5f74ff6d50af132217bf7a571e8263987436ac3", "3.13.0--r43hdfd78af_4": "sha256:f20ef57e254d897027b726c4abb0a0ca28bea73ad4ded6016822ebc34e7ae149", "3.13.0--r44hdfd78af_5": "sha256:8c91d7a200507fd2893ad97396cb6d3811bfc3f006e147541ad726b5c8f82f10", "3.13.0--r45hdfd78af_6": "sha256:4bb22adc1b1d25bdd65846d40d8ed8b8453e1a66e8dcdc1ce290bcb6396e192e"}, "docker": "quay.io/biocontainers/bioconductor-porcine.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-porcine.db.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-porcine.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-porcine.db:3.13.0--r44hdfd78af_5
+$ shpc install quay.io/biocontainers/bioconductor-porcine.db:3.13.0--r45hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-porcine.db/3.13.0--r44hdfd78af_5
-$ module help quay.io/biocontainers/bioconductor-porcine.db/3.13.0--r44hdfd78af_5
+$ module load quay.io/biocontainers/bioconductor-porcine.db/3.13.0--r45hdfd78af_6
+$ module help quay.io/biocontainers/bioconductor-porcine.db/3.13.0--r45hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

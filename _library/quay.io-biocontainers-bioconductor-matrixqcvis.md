@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-matrixqcvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matrixqcvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matrixqcvis/container.yaml"
-updated_at: "2026-03-17 04:47:24.012354"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-03-18 04:56:30.545971"
+latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matrixqcvis"
 aliases:
  - "pandoc"
@@ -15,8 +15,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-matrixqcvis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-matrixqcvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matrixqcvis", "latest": {"1.14.0--r44hdfd78af_0": "sha256:0af40aa40e92828ead1c83d3e5604144f5287de21949e23d397000f5ed72b328"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:c761f3590dbbb681d7a17d5383f56455ad70118e8d87ed533fdc87b2a84bc5aa", "1.6.0--r42hdfd78af_0": "sha256:1a87c7f911c0ddac076d68e814054f8af4fe38d5009510540fa3de46e6010fd5", "1.8.0--r43hdfd78af_0": "sha256:b78b4700f0126cb450bf352e68374abc9074a52f7ecda2a3d855189886647d7a", "1.10.0--r43hdfd78af_0": "sha256:2b9b320f8130e273562da75e9b0245b345dfbfab400a32ee7590b887986dddfd", "1.14.0--r44hdfd78af_0": "sha256:0af40aa40e92828ead1c83d3e5604144f5287de21949e23d397000f5ed72b328"}, "docker": "quay.io/biocontainers/bioconductor-matrixqcvis", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-matrixqcvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matrixqcvis", "latest": {"1.18.0--r45hdfd78af_0": "sha256:894332671fea01e4148ec637b77cf8625013a4441b219596ed0279f9f0164f30"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:c761f3590dbbb681d7a17d5383f56455ad70118e8d87ed533fdc87b2a84bc5aa", "1.6.0--r42hdfd78af_0": "sha256:1a87c7f911c0ddac076d68e814054f8af4fe38d5009510540fa3de46e6010fd5", "1.8.0--r43hdfd78af_0": "sha256:b78b4700f0126cb450bf352e68374abc9074a52f7ecda2a3d855189886647d7a", "1.10.0--r43hdfd78af_0": "sha256:2b9b320f8130e273562da75e9b0245b345dfbfab400a32ee7590b887986dddfd", "1.14.0--r44hdfd78af_0": "sha256:0af40aa40e92828ead1c83d3e5604144f5287de21949e23d397000f5ed72b328", "1.18.0--r45hdfd78af_0": "sha256:894332671fea01e4148ec637b77cf8625013a4441b219596ed0279f9f0164f30"}, "docker": "quay.io/biocontainers/bioconductor-matrixqcvis", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-matrixqcvis.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-matrixqcvis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-matrixqcvis:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-matrixqcvis:1.18.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-matrixqcvis/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-matrixqcvis/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-matrixqcvis/1.18.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-matrixqcvis/1.18.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

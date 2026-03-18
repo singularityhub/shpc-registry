@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mirscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirscore/container.yaml"
-updated_at: "2026-03-17 05:10:04.182013"
-latest: "0.3.4--hdfd78af_0"
+updated_at: "2026-03-18 05:22:16.204472"
+latest: "0.3.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mirscore"
 aliases:
  - "RNAconsensus"
@@ -41,8 +41,9 @@ versions:
  - "0.3.1--hdfd78af_0"
  - "0.3.2--hdfd78af_0"
  - "0.3.4--hdfd78af_0"
+ - "0.3.5--hdfd78af_0"
 description: "singularity registry hpc automated addition for mirscore"
-config: {"url": "https://biocontainers.pro/tools/mirscore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mirscore", "latest": {"0.3.4--hdfd78af_0": "sha256:9c4a1a7d218da961471d089743bc8f3c95bf641ab50581a6908e0f2d0929f315"}, "tags": {"0.3.0--hdfd78af_0": "sha256:fc7f9856831f67ca5a0f4c1f268d2e37a21014e6eed7cbaff838611a1df0ebb2", "0.3.1--hdfd78af_0": "sha256:6eced079ab7b3fa9b2eb4d1ef571226d9078f58cfcb345dc587c321b8169c7cb", "0.3.2--hdfd78af_0": "sha256:8abe8072ce80eb0c656834bf16a4acffacfb98f9e1874dbde7204b3aaa4efca6", "0.3.4--hdfd78af_0": "sha256:9c4a1a7d218da961471d089743bc8f3c95bf641ab50581a6908e0f2d0929f315"}, "docker": "quay.io/biocontainers/mirscore", "aliases": {"RNAconsensus": "/usr/local/bin/RNAconsensus", "hairpinHelper": "/usr/local/bin/hairpinHelper", "miRScore": "/usr/local/bin/miRScore", "RNAmultifold": "/usr/local/bin/RNAmultifold", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "cutadapt": "/usr/local/bin/cutadapt", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex"}}
+config: {"url": "https://biocontainers.pro/tools/mirscore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mirscore", "latest": {"0.3.5--hdfd78af_0": "sha256:7b3a65672a2b438a2e9ea7bf82a849c38cdc4d943ee187a7709682948aff1bf5"}, "tags": {"0.3.0--hdfd78af_0": "sha256:fc7f9856831f67ca5a0f4c1f268d2e37a21014e6eed7cbaff838611a1df0ebb2", "0.3.1--hdfd78af_0": "sha256:6eced079ab7b3fa9b2eb4d1ef571226d9078f58cfcb345dc587c321b8169c7cb", "0.3.2--hdfd78af_0": "sha256:8abe8072ce80eb0c656834bf16a4acffacfb98f9e1874dbde7204b3aaa4efca6", "0.3.4--hdfd78af_0": "sha256:9c4a1a7d218da961471d089743bc8f3c95bf641ab50581a6908e0f2d0929f315", "0.3.5--hdfd78af_0": "sha256:7b3a65672a2b438a2e9ea7bf82a849c38cdc4d943ee187a7709682948aff1bf5"}, "docker": "quay.io/biocontainers/mirscore", "aliases": {"RNAconsensus": "/usr/local/bin/RNAconsensus", "hairpinHelper": "/usr/local/bin/hairpinHelper", "miRScore": "/usr/local/bin/miRScore", "RNAmultifold": "/usr/local/bin/RNAmultifold", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "cutadapt": "/usr/local/bin/cutadapt", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mirscore.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/mirscore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mirscore:0.3.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/mirscore:0.3.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mirscore/0.3.4--hdfd78af_0
-$ module help quay.io/biocontainers/mirscore/0.3.4--hdfd78af_0
+$ module load quay.io/biocontainers/mirscore/0.3.5--hdfd78af_0
+$ module help quay.io/biocontainers/mirscore/0.3.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staphscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphscan/container.yaml"
-updated_at: "2026-03-17 04:26:12.340796"
+updated_at: "2026-03-18 04:32:18.326112"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphscan"
 aliases:

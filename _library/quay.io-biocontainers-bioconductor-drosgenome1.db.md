@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-drosgenome1.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drosgenome1.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drosgenome1.db/container.yaml"
-updated_at: "2026-03-17 04:58:44.859776"
-latest: "3.13.0--r44hdfd78af_5"
+updated_at: "2026-03-18 05:09:15.179847"
+latest: "3.13.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-drosgenome1.db"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -15,8 +15,9 @@ versions:
  - "3.13.0--r43hdfd78af_3"
  - "3.13.0--r43hdfd78af_4"
  - "3.13.0--r44hdfd78af_5"
+ - "3.13.0--r45hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for bioconductor-drosgenome1.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drosgenome1.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drosgenome1.db", "latest": {"3.13.0--r44hdfd78af_5": "sha256:0b6b8ce8d56dcafec39b6a62697e465bebc8e58dbbd5e23566f423b73653fa60"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:93f8f2f51bdc952fa9f7db6bd4d7c0b4fb36f6eeebe1a19575321942ec014295", "3.13.0--r42hdfd78af_2": "sha256:60368517cdf004aec345e7d0947bed7fe6b8444e2eeb8a72765c58ae0c53ec82", "3.13.0--r43hdfd78af_3": "sha256:bd50e9cde50ba2b339c44f5344e13e8438bcc54825b13f7510ea618c480644d6", "3.13.0--r43hdfd78af_4": "sha256:a54379a7634f265167b918c867d4fc3777a1520b515d0e916ae51bc91ab7ada8", "3.13.0--r44hdfd78af_5": "sha256:0b6b8ce8d56dcafec39b6a62697e465bebc8e58dbbd5e23566f423b73653fa60"}, "docker": "quay.io/biocontainers/bioconductor-drosgenome1.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drosgenome1.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drosgenome1.db", "latest": {"3.13.0--r45hdfd78af_6": "sha256:0acf755fc688462a91b07d9ef65682a05eb0badc94006d9c8902acc9640a9900"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:93f8f2f51bdc952fa9f7db6bd4d7c0b4fb36f6eeebe1a19575321942ec014295", "3.13.0--r42hdfd78af_2": "sha256:60368517cdf004aec345e7d0947bed7fe6b8444e2eeb8a72765c58ae0c53ec82", "3.13.0--r43hdfd78af_3": "sha256:bd50e9cde50ba2b339c44f5344e13e8438bcc54825b13f7510ea618c480644d6", "3.13.0--r43hdfd78af_4": "sha256:a54379a7634f265167b918c867d4fc3777a1520b515d0e916ae51bc91ab7ada8", "3.13.0--r44hdfd78af_5": "sha256:0b6b8ce8d56dcafec39b6a62697e465bebc8e58dbbd5e23566f423b73653fa60", "3.13.0--r45hdfd78af_6": "sha256:0acf755fc688462a91b07d9ef65682a05eb0badc94006d9c8902acc9640a9900"}, "docker": "quay.io/biocontainers/bioconductor-drosgenome1.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drosgenome1.db.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-drosgenome1.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-drosgenome1.db:3.13.0--r44hdfd78af_5
+$ shpc install quay.io/biocontainers/bioconductor-drosgenome1.db:3.13.0--r45hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-drosgenome1.db/3.13.0--r44hdfd78af_5
-$ module help quay.io/biocontainers/bioconductor-drosgenome1.db/3.13.0--r44hdfd78af_5
+$ module load quay.io/biocontainers/bioconductor-drosgenome1.db/3.13.0--r45hdfd78af_6
+$ module help quay.io/biocontainers/bioconductor-drosgenome1.db/3.13.0--r45hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

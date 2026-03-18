@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rigvf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rigvf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rigvf/container.yaml"
-updated_at: "2026-03-17 04:35:05.408633"
+updated_at: "2026-03-18 04:42:29.928100"
 latest: "1.2.3--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rigvf"
 aliases:

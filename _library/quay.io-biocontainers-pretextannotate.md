@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pretextannotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextannotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextannotate/container.yaml"
-updated_at: "2026-03-17 04:44:31.403879"
+updated_at: "2026-03-18 04:53:19.506701"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pretextannotate"
 aliases:

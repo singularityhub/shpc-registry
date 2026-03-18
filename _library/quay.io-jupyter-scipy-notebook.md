@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/scipy-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/scipy-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/scipy-notebook/container.yaml"
-updated_at: "2026-03-17 04:22:59.697148"
+updated_at: "2026-03-18 04:28:41.799440"
 latest: "2026-03-09"
 container_url: "https://quay.io/repository/jupyter/scipy-notebook"
 aliases:

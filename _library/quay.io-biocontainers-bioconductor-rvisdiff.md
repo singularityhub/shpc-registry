@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rvisdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rvisdiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rvisdiff/container.yaml"
-updated_at: "2026-03-17 05:00:37.364964"
+updated_at: "2026-03-18 05:11:22.136667"
 latest: "1.8.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rvisdiff"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.4.0--r44hdfd78af_0"
  - "1.8.1--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-rvisdiff"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rvisdiff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rvisdiff", "latest": {"1.8.1--r45hdfd78af_0": "sha256:2eb4a87220e2955504dd758cd8e5ebc5dbc76a525cc98860f147c31c68ea95ff"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:4a496db5e21df90ccdabd3d371327abd9011d0a94b58af3eefb20fd300e1674b", "1.4.0--r44hdfd78af_0": "sha256:04b47ee99c9e963ef3bddce28586a8f4c014fb9ec69b68e658b57f9dcf633f34", "1.8.1--r45hdfd78af_0": "sha256:2eb4a87220e2955504dd758cd8e5ebc5dbc76a525cc98860f147c31c68ea95ff"}, "docker": "quay.io/biocontainers/bioconductor-rvisdiff", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rvisdiff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-rvisdiff", "latest": {"1.8.1--r45hdfd78af_0": "sha256:fc716456b7ef77b8f43b918ee0fe2cfe3fd1e3ee8df655b8cb9ce43563aa475f"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:4a496db5e21df90ccdabd3d371327abd9011d0a94b58af3eefb20fd300e1674b", "1.4.0--r44hdfd78af_0": "sha256:04b47ee99c9e963ef3bddce28586a8f4c014fb9ec69b68e658b57f9dcf633f34", "1.8.1--r45hdfd78af_0": "sha256:fc716456b7ef77b8f43b918ee0fe2cfe3fd1e3ee8df655b8cb9ce43563aa475f"}, "docker": "quay.io/biocontainers/bioconductor-rvisdiff", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rvisdiff.

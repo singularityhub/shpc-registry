@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-mixkernel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mixkernel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mixkernel/container.yaml"
-updated_at: "2026-03-17 04:32:05.872167"
-latest: "0.9--r43h3342da4_0"
+updated_at: "2026-03-18 04:39:01.683572"
+latest: "0.9--r45h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-mixkernel"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "0.8--r42h3342da4_1"
  - "0.8--r43h3342da4_2"
  - "0.9--r43h3342da4_0"
+ - "0.9--r45h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-mixkernel"
-config: {"url": "https://biocontainers.pro/tools/r-mixkernel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mixkernel", "latest": {"0.9--r43h3342da4_0": "sha256:8868be61506b184f990f40f750bfd4c053b1dcb51ba7f61412e87fe96cfbf038"}, "tags": {"0.8--r41h3342da4_0": "sha256:1dcba1c67234799697602fc257841fef00f57041cc55fcc845bd3977d31009e4", "0.8--r42h3342da4_1": "sha256:225dce09dd46b47123e8bb972740bb85366baef811d8cb047e3148d1ba76968f", "0.8--r43h3342da4_2": "sha256:0e47a698d84ff6c6c09350a67da6b25dd3bc8abe65fe01dcafa3e74903231dec", "0.9--r43h3342da4_0": "sha256:8868be61506b184f990f40f750bfd4c053b1dcb51ba7f61412e87fe96cfbf038"}, "docker": "quay.io/biocontainers/r-mixkernel"}
+config: {"url": "https://biocontainers.pro/tools/r-mixkernel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-mixkernel", "latest": {"0.9--r45h3342da4_1": "sha256:7ae09e3ef2852c0734201dc593f2b5126fe275a12298d977da5a028e2b759084"}, "tags": {"0.8--r41h3342da4_0": "sha256:1dcba1c67234799697602fc257841fef00f57041cc55fcc845bd3977d31009e4", "0.8--r42h3342da4_1": "sha256:225dce09dd46b47123e8bb972740bb85366baef811d8cb047e3148d1ba76968f", "0.8--r43h3342da4_2": "sha256:0e47a698d84ff6c6c09350a67da6b25dd3bc8abe65fe01dcafa3e74903231dec", "0.9--r43h3342da4_0": "sha256:8868be61506b184f990f40f750bfd4c053b1dcb51ba7f61412e87fe96cfbf038", "0.9--r45h3342da4_1": "sha256:7ae09e3ef2852c0734201dc593f2b5126fe275a12298d977da5a028e2b759084"}, "docker": "quay.io/biocontainers/r-mixkernel"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-mixkernel.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-mixkernel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-mixkernel:0.9--r43h3342da4_0
+$ shpc install quay.io/biocontainers/r-mixkernel:0.9--r45h3342da4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-mixkernel/0.9--r43h3342da4_0
-$ module help quay.io/biocontainers/r-mixkernel/0.9--r43h3342da4_0
+$ module load quay.io/biocontainers/r-mixkernel/0.9--r45h3342da4_1
+$ module help quay.io/biocontainers/r-mixkernel/0.9--r45h3342da4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

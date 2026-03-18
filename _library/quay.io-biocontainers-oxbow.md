@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oxbow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oxbow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oxbow/container.yaml"
-updated_at: "2026-03-17 05:02:10.725583"
-latest: "0.5.1--py310hec43fc7_0"
+updated_at: "2026-03-18 05:13:05.741208"
+latest: "0.6.0--py313h63c9519_0"
 container_url: "https://biocontainers.pro/tools/oxbow"
 aliases:
  - "h2benchmark"
@@ -41,8 +41,10 @@ versions:
  - "0.4.1--py310hec43fc7_0"
  - "0.4.2--py311h5e00ca1_0"
  - "0.5.1--py310hec43fc7_0"
+ - "0.6.0--py313h63c9519_0"
+ - "0.5.2--py311h5e00ca1_0"
 description: "singularity registry hpc automated addition for oxbow"
-config: {"url": "https://biocontainers.pro/tools/oxbow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oxbow", "latest": {"0.5.1--py310hec43fc7_0": "sha256:d55c1c3b808bac5b01d4ccebfe0e5379299f9457baa1b6757fef0f96e35644e9"}, "tags": {"0.4.1--py310hec43fc7_0": "sha256:3d04b8843fe99bcec1853ffb693a152cdd61f9467e6aa78e653e2fd449756fb8", "0.4.2--py311h5e00ca1_0": "sha256:aab191f9a953e9e820700d9e93a90df1e3583349f44babb7e48ce98902a59f00", "0.5.1--py310hec43fc7_0": "sha256:d55c1c3b808bac5b01d4ccebfe0e5379299f9457baa1b6757fef0f96e35644e9"}, "docker": "quay.io/biocontainers/oxbow", "aliases": {"h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/oxbow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oxbow", "latest": {"0.6.0--py313h63c9519_0": "sha256:2e4f5dcbde661227f4b053a0d70d31446d40cf51b24c68462e3045d7e0eeac8a"}, "tags": {"0.4.1--py310hec43fc7_0": "sha256:3d04b8843fe99bcec1853ffb693a152cdd61f9467e6aa78e653e2fd449756fb8", "0.4.2--py311h5e00ca1_0": "sha256:aab191f9a953e9e820700d9e93a90df1e3583349f44babb7e48ce98902a59f00", "0.5.1--py310hec43fc7_0": "sha256:d55c1c3b808bac5b01d4ccebfe0e5379299f9457baa1b6757fef0f96e35644e9", "0.6.0--py313h63c9519_0": "sha256:2e4f5dcbde661227f4b053a0d70d31446d40cf51b24c68462e3045d7e0eeac8a", "0.5.2--py311h5e00ca1_0": "sha256:fa221553f47551813f12c6f71014a36a4a0bfdad2da2aed59e8d4b081eab07d7"}, "docker": "quay.io/biocontainers/oxbow", "aliases": {"h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oxbow.
@@ -57,7 +59,7 @@ $ shpc install quay.io/biocontainers/oxbow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oxbow:0.5.1--py310hec43fc7_0
+$ shpc install quay.io/biocontainers/oxbow:0.6.0--py313h63c9519_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oxbow/0.5.1--py310hec43fc7_0
-$ module help quay.io/biocontainers/oxbow/0.5.1--py310hec43fc7_0
+$ module load quay.io/biocontainers/oxbow/0.6.0--py313h63c9519_0
+$ module help quay.io/biocontainers/oxbow/0.6.0--py313h63c9519_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

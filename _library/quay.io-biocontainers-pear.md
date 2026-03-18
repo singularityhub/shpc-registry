@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pear"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pear/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pear/container.yaml"
-updated_at: "2026-03-17 05:13:18.095473"
+updated_at: "2026-03-18 05:25:57.900821"
 latest: "0.9.6--hb1d24b7_13"
 container_url: "https://biocontainers.pro/tools/pear"
 aliases:

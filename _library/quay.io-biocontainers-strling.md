@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strling/container.yaml"
-updated_at: "2026-03-17 04:46:52.189723"
+updated_at: "2026-03-18 04:55:55.641797"
 latest: "0.6.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/strling"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-probatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-probatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-probatch/container.yaml"
-updated_at: "2026-03-17 04:32:15.962600"
+updated_at: "2026-03-18 04:39:13.255894"
 latest: "1.13.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-probatch"
 aliases:

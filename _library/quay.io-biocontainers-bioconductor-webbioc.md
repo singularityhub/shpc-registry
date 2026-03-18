@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-webbioc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-webbioc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-webbioc/container.yaml"
-updated_at: "2026-03-17 04:34:40.012153"
+updated_at: "2026-03-18 04:42:00.290869"
 latest: "1.78.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-webbioc"
 

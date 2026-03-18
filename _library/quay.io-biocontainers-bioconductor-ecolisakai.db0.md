@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ecolisakai.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolisakai.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolisakai.db0/container.yaml"
-updated_at: "2026-03-17 04:25:17.324706"
-latest: "3.20.0--r44hdfd78af_0"
+updated_at: "2026-03-18 04:31:16.424416"
+latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolisakai.db0"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
  - "3.20.0--r44hdfd78af_0"
+ - "3.22.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecolisakai.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolisakai.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolisakai.db0", "latest": {"3.20.0--r44hdfd78af_0": "sha256:a528eed597e706782e748b8cb1851d841e767a1b0a3b8d23e6d185a606eb7c4e"}, "tags": {"3.8.2--r36_1": "sha256:bc19545bf527a6de04f8aa30c0a907d467fa5effd09ac27cac9991086afb840e", "3.16.0--r42hdfd78af_0": "sha256:118d41229c49fff12610a979f708eead94005d72d023409302f6820857a1df5d", "3.14.0--r41hdfd78af_1": "sha256:79d4126e107ac80e35d00d14330141704f72b8311a9e17fbc58e953eb118a908", "3.13.0--r41hdfd78af_0": "sha256:cb071b966ab78df67ea647e21fa60c1d6d8d19dbc19104938c10d9b9fc094dbd", "3.12.0--r40hdfd78af_1": "sha256:1610cca8682f3c8ce99c16e30bd5ea34dd90be5fd59e9ecb0aa092d90898a24c", "3.11.2--r40_0": "sha256:d1f7e0e00bf7728df247584b022d34689b3b6b9efa60410e4c655f4dc3832c6a", "3.17.0--r43hdfd78af_0": "sha256:67182944abd8331df6a7eebd0ae5c30decf4d2a6b630ce951a99385bd0f44dc3", "3.18.0--r43hdfd78af_0": "sha256:61afe00db5ed9bb829492a4e2fcdf12d688706742731a449445e9cd9a40906fc", "3.20.0--r44hdfd78af_0": "sha256:a528eed597e706782e748b8cb1851d841e767a1b0a3b8d23e6d185a606eb7c4e"}, "docker": "quay.io/biocontainers/bioconductor-ecolisakai.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolisakai.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolisakai.db0", "latest": {"3.22.0--r45hdfd78af_0": "sha256:a8e20ab8ed8dae7be2bbe366d5bf86c0ae802e66869e109536b83c31ec3de4d4"}, "tags": {"3.8.2--r36_1": "sha256:bc19545bf527a6de04f8aa30c0a907d467fa5effd09ac27cac9991086afb840e", "3.16.0--r42hdfd78af_0": "sha256:118d41229c49fff12610a979f708eead94005d72d023409302f6820857a1df5d", "3.14.0--r41hdfd78af_1": "sha256:79d4126e107ac80e35d00d14330141704f72b8311a9e17fbc58e953eb118a908", "3.13.0--r41hdfd78af_0": "sha256:cb071b966ab78df67ea647e21fa60c1d6d8d19dbc19104938c10d9b9fc094dbd", "3.12.0--r40hdfd78af_1": "sha256:1610cca8682f3c8ce99c16e30bd5ea34dd90be5fd59e9ecb0aa092d90898a24c", "3.11.2--r40_0": "sha256:d1f7e0e00bf7728df247584b022d34689b3b6b9efa60410e4c655f4dc3832c6a", "3.17.0--r43hdfd78af_0": "sha256:67182944abd8331df6a7eebd0ae5c30decf4d2a6b630ce951a99385bd0f44dc3", "3.18.0--r43hdfd78af_0": "sha256:61afe00db5ed9bb829492a4e2fcdf12d688706742731a449445e9cd9a40906fc", "3.20.0--r44hdfd78af_0": "sha256:a528eed597e706782e748b8cb1851d841e767a1b0a3b8d23e6d185a606eb7c4e", "3.22.0--r45hdfd78af_0": "sha256:a8e20ab8ed8dae7be2bbe366d5bf86c0ae802e66869e109536b83c31ec3de4d4"}, "docker": "quay.io/biocontainers/bioconductor-ecolisakai.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecolisakai.db0.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ecolisakai.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ecolisakai.db0:3.20.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ecolisakai.db0:3.22.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ecolisakai.db0/3.20.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ecolisakai.db0/3.20.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ecolisakai.db0/3.22.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ecolisakai.db0/3.22.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
