@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-epitxdb.sc.saccer3
 latest:
-  0.99.5--r44hdfd78af_6: 
-    sha256:5520322e398f641482afbeb87c315bd594762d7836a3be619de7267025c50f8a
+  0.99.5--r45hdfd78af_7: 
+    sha256:abf848fa3a5246dd1380dc62468fab946952417929f1bcb1b955c7f2ab78b75e
 tags:
   0.99.5--r41hdfd78af_2: 
     sha256:83fbdab38edc36892dd83a3030eef3462b9e33ec28f75e7fc318edd6c18c2b4a
@@ -16,4 +16,6 @@ tags:
     sha256:c1c5e1a950af6be5b032234f840babba694117683f8fdada3d9042bc6826d8ec
   0.99.5--r44hdfd78af_6: 
     sha256:5520322e398f641482afbeb87c315bd594762d7836a3be619de7267025c50f8a
+  0.99.5--r45hdfd78af_7: 
+    sha256:abf848fa3a5246dd1380dc62468fab946952417929f1bcb1b955c7f2ab78b75e
 docker: quay.io/biocontainers/bioconductor-epitxdb.sc.saccer3

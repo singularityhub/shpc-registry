@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rnasense
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:ff141949363ba7ba84925f6b9aa60e65e1e9317390e95f6b9ece3a16e74f049a
+  1.24.0--r45hdfd78af_0: 
+    sha256:b1ff5ccff9cc7604001410d5830ccaa4b06faf18640ca59e084d915f35868e1c
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:e181de18b69039c9695172122c42115d77e006c910e6fcff505bfacdb0ce72b9
@@ -16,4 +16,6 @@ tags:
     sha256:952e19854e98061766d40cc8f427fbbcb5f308e04d3c5b457dc8469323351a37
   1.20.0--r44hdfd78af_0: 
     sha256:ff141949363ba7ba84925f6b9aa60e65e1e9317390e95f6b9ece3a16e74f049a
+  1.24.0--r45hdfd78af_0: 
+    sha256:b1ff5ccff9cc7604001410d5830ccaa4b06faf18640ca59e084d915f35868e1c
 docker: quay.io/biocontainers/bioconductor-rnasense

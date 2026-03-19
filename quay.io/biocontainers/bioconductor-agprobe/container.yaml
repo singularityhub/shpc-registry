@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-agprobe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:803e45efc10c0689fdb33b567e8964f13870f12ea1741ec537e6f85bc12d19ea
+  2.18.0--r45hdfd78af_14: 
+    sha256:0775e8f1e883288cc696ccd1665b1a73f54dc56761e5daac2f5cc7d91a4e129e
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:3a49204e53bf60c0762ddcc6d776cb911e5e4b8572f1b56bdabe55216c78ab4e
@@ -16,4 +16,6 @@ tags:
     sha256:df535ad42d72ff855009bfe8f45ceca44b2e4255f55fdeee46fcc021d5fb63cf
   2.18.0--r44hdfd78af_13: 
     sha256:803e45efc10c0689fdb33b567e8964f13870f12ea1741ec537e6f85bc12d19ea
+  2.18.0--r45hdfd78af_14: 
+    sha256:0775e8f1e883288cc696ccd1665b1a73f54dc56761e5daac2f5cc7d91a4e129e
 docker: quay.io/biocontainers/bioconductor-agprobe

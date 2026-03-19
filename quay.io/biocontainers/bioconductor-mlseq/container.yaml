@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mlseq
 latest:
-  2.24.0--r44hdfd78af_0: 
-    sha256:4e03512fdeafd55eb316c0bf731524672153661a92c88d89d7a91ea0f14a924c
+  2.28.0--r45hdfd78af_0: 
+    sha256:f2df570abfb1029c248d60b56cdc65c09baa3b772de398cd6f53d32bd05dbcc5
 tags:
   2.8.0--r40hdfd78af_1: 
     sha256:f83763f03c34520e36941f38217c5314a9784ad6f1388cc6595c10853de23288
@@ -20,6 +20,8 @@ tags:
     sha256:4374dcf73c7e45f2b0bea3823067c5b29c2688a451b7bbded3847914f67cd909
   2.24.0--r44hdfd78af_0: 
     sha256:4e03512fdeafd55eb316c0bf731524672153661a92c88d89d7a91ea0f14a924c
+  2.28.0--r45hdfd78af_0: 
+    sha256:f2df570abfb1029c248d60b56cdc65c09baa3b772de398cd6f53d32bd05dbcc5
 docker: quay.io/biocontainers/bioconductor-mlseq
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

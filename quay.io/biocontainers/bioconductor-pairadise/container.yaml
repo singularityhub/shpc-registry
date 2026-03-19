@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pairadise
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:04b6adde34a06ad893cb44028e3c6cb4d553ebbed15456edae56f59d1075b521
+  1.26.0--r45hdfd78af_0: 
+    sha256:764be5051dd99db852ce83656b759dfb486b4cb2a29b70415505e61de05b700e
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:661802560e9fcbc01d251bd5e59aa4e7a2c2ab2044aebf1177ee5c92996c8b91
@@ -18,6 +18,8 @@ tags:
     sha256:d36cc807ef636a9f7da1f052cc14154414543a57f558eddd75b38f08465e0a2d
   1.22.0--r44hdfd78af_0: 
     sha256:04b6adde34a06ad893cb44028e3c6cb4d553ebbed15456edae56f59d1075b521
+  1.26.0--r45hdfd78af_0: 
+    sha256:764be5051dd99db852ce83656b759dfb486b4cb2a29b70415505e61de05b700e
 docker: quay.io/biocontainers/bioconductor-pairadise
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

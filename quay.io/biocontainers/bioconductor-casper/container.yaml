@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-casper
 latest:
-  2.40.0--r44he5774e6_0: 
-    sha256:1abf7278501f559e831de53ca4574e29df7570ccefc69b5fd33e073ec7700407
+  2.44.0--r45ha27e39d_0: 
+    sha256:891c52d4b2d478dce548da290d7662e4dece5171f55891134c77564d4a50a4bb
 tags:
   2.28.0--r41hc247a5b_2: 
     sha256:b433e51930c4e03a8bec6fa044fe6a44067b4a990e21d53f1e89cd34f56f3229
@@ -20,4 +20,6 @@ tags:
     sha256:dae52bc7f00b254a337149ee17150823490e510d87f17185a774027b8ab51f89
   2.40.0--r44he5774e6_0: 
     sha256:1abf7278501f559e831de53ca4574e29df7570ccefc69b5fd33e073ec7700407
+  2.44.0--r45ha27e39d_0: 
+    sha256:891c52d4b2d478dce548da290d7662e4dece5171f55891134c77564d4a50a4bb
 docker: quay.io/biocontainers/bioconductor-casper

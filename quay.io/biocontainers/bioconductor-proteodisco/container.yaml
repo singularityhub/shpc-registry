@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-proteodisco
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:8f15e3825252e9801c807131d21efca4534d63d4e5a4f48ea1be104e1b9a8c46
+  1.16.0--r45hdfd78af_0: 
+    sha256:9423ec42f7823333a6a0d5e1ac090004ddc6ec2ec16f50e75ce973d342b082ae
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:1ec748e5a167868599e65fc39e1c99562281c64f5266e9044f5843adb86f0f35
@@ -16,4 +16,6 @@ tags:
     sha256:5b76be3507ccfe6a2e97f129c143854b0a7b8932b0c55d7db08d3195d7a03203
   1.12.0--r44hdfd78af_0: 
     sha256:8f15e3825252e9801c807131d21efca4534d63d4e5a4f48ea1be104e1b9a8c46
+  1.16.0--r45hdfd78af_0: 
+    sha256:9423ec42f7823333a6a0d5e1ac090004ddc6ec2ec16f50e75ce973d342b082ae
 docker: quay.io/biocontainers/bioconductor-proteodisco

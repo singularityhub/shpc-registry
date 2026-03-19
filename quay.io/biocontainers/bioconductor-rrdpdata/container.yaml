@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rrdpdata
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:0e3dad53af99641cf83f02eb4c2b145a8057491ba64ec509ffdd94d027d4659c
+  1.30.0--r45hdfd78af_0: 
+    sha256:adff94c2671e941409986ffc6562a7df1feaf1df05e75d2fca1e485c7ad01ac9
 tags:
   1.8.0--r40_0: 
     sha256:05413fbf16b06cfa04eb338ccfb626c2c50081127dcc438f6c18e7d70b5e8458
@@ -22,6 +22,8 @@ tags:
     sha256:4047a43aae3d8ad864f033d0212c0e6cca6823e92abf0843695f7516644bd066
   1.26.0--r44hdfd78af_0: 
     sha256:0e3dad53af99641cf83f02eb4c2b145a8057491ba64ec509ffdd94d027d4659c
+  1.30.0--r45hdfd78af_0: 
+    sha256:adff94c2671e941409986ffc6562a7df1feaf1df05e75d2fca1e485c7ad01ac9
 docker: quay.io/biocontainers/bioconductor-rrdpdata
 aliases:
   jaotc: /usr/local/bin/jaotc

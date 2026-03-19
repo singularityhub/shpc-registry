@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biostrings
 latest:
-  2.74.0--r44h3df3fcb_1: 
-    sha256:64436a372e8bde3cfa7398b45b4fc596ad208e7b066767daa99661d36d0990a3
+  2.78.0--r45h01b2380_0: 
+    sha256:546b2791de9ef92385f7548cae7767f67a7b491a4e2991a4c2f169bb4d09320d
 tags:
   2.62.0--r41hc0cfd56_2: 
     sha256:38a4ef4ef521d979079946abc64b32a68ae0ffced7c4174cfc6c8df2a7026473
@@ -20,4 +20,6 @@ tags:
     sha256:3894d358fb5156ce4995d9e0ce6f341bd3dc825ceaf4942ee16f1df6c4a28fbe
   2.74.0--r44h3df3fcb_1: 
     sha256:64436a372e8bde3cfa7398b45b4fc596ad208e7b066767daa99661d36d0990a3
+  2.78.0--r45h01b2380_0: 
+    sha256:546b2791de9ef92385f7548cae7767f67a7b491a4e2991a4c2f169bb4d09320d
 docker: quay.io/biocontainers/bioconductor-biostrings

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-purecn
 latest:
-  2.12.0--r44hdfd78af_0: 
-    sha256:4a0fbd62cb2c623061182554a74f6cf32d517530ccf65e7308f2515d118f1658
+  2.16.0--r45hdfd78af_0: 
+    sha256:9872923c35485022df7dded041223a822b87357ce6f69b4afd145cc24c4a8665
 tags:
   2.0.2--r41hdfd78af_0: 
     sha256:a746e40a7f06b5491361003eaaade6c830e85e2365721461217373772f0a25c0
@@ -18,4 +18,6 @@ tags:
     sha256:f357151139aa9b04ba65f06db0d678558f814f37709af919db7937b1d8d72c2b
   2.12.0--r44hdfd78af_0: 
     sha256:4a0fbd62cb2c623061182554a74f6cf32d517530ccf65e7308f2515d118f1658
+  2.16.0--r45hdfd78af_0: 
+    sha256:9872923c35485022df7dded041223a822b87357ce6f69b4afd145cc24c4a8665
 docker: quay.io/biocontainers/bioconductor-purecn

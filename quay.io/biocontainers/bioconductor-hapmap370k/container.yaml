@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hapmap370k
 latest:
-  1.0.1--r44hdfd78af_13: 
-    sha256:8967bd57f2b9f23ddf53cffd60c60c0634ba94e7620856f69c347a82c023a3d8
+  1.0.1--r45hdfd78af_14: 
+    sha256:e63cbd2069bf55893de6daf59909ea2f341f9d461b084437740470f1e346fc16
 tags:
   1.0.1--r41hdfd78af_9: 
     sha256:146630de4755a052ca987bfe7230a4dd0694627bf3bfaddbb04313ed498da934
@@ -16,4 +16,6 @@ tags:
     sha256:a2a6abdbf629f3b90a480e52e0e79c67fcf6d421832b6454b07a8778b009a63c
   1.0.1--r44hdfd78af_13: 
     sha256:8967bd57f2b9f23ddf53cffd60c60c0634ba94e7620856f69c347a82c023a3d8
+  1.0.1--r45hdfd78af_14: 
+    sha256:e63cbd2069bf55893de6daf59909ea2f341f9d461b084437740470f1e346fc16
 docker: quay.io/biocontainers/bioconductor-hapmap370k

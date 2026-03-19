@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-oncomix
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:8b53be003656728edf5e7cc250690dcb228196368ab4dfc81b0b54e60bf7b3a2
+  1.32.0--r45hdfd78af_0: 
+    sha256:ea03cc58350051640246893709b78a71845741c2897c07429614892754d64820
 tags:
   1.8.0--r36_0: 
     sha256:f1ff4203c3d738ff815093f8bbec45a978cfcd3560266981f45522599de512a7
@@ -24,6 +24,8 @@ tags:
     sha256:be5f5433e2da1e402e131275a5717c367f3f1f9d97cb3db1cc68fcab2edfb78c
   1.28.0--r44hdfd78af_0: 
     sha256:8b53be003656728edf5e7cc250690dcb228196368ab4dfc81b0b54e60bf7b3a2
+  1.32.0--r45hdfd78af_0: 
+    sha256:ea03cc58350051640246893709b78a71845741c2897c07429614892754d64820
 docker: quay.io/biocontainers/bioconductor-oncomix
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

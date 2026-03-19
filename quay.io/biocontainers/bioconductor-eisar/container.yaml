@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-eisar
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:81611703335d3ef6019d441300c332ffcbb1bda78fa2fddbfe46448570cb5f06
+  1.22.1--r45hdfd78af_0: 
+    sha256:6f0bacf0b8d13f4b91b1cf5b090e1afeef206ad1eb05780b16107cf7d1973f31
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:cbb7a248c07968cd66daac9a8d4d4055ebfd88e0e8dd9fe1dd5ddd8061098e87
@@ -16,4 +16,6 @@ tags:
     sha256:3075c0638db97de97d54bcf04c1926ad97b84c1f6e9febfb76440302c14dcdf6
   1.18.0--r44hdfd78af_0: 
     sha256:81611703335d3ef6019d441300c332ffcbb1bda78fa2fddbfe46448570cb5f06
+  1.22.1--r45hdfd78af_0: 
+    sha256:6f0bacf0b8d13f4b91b1cf5b090e1afeef206ad1eb05780b16107cf7d1973f31
 docker: quay.io/biocontainers/bioconductor-eisar

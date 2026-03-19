@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-philr
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:941d98470c7b30f848758cc508cf06d5a2a9a220559de999ae1a0a447f367000
+  1.36.0--r45hdfd78af_0: 
+    sha256:0608a2f439bd61d2444c481ac5438c046270563dbdc36eed994fd44c37a7bee4
 tags:
   1.8.1--r351_0: 
     sha256:c506cfe3180c78102d4412bd54ebe3f93376fcc261a43d136118f0b36791a272
@@ -24,6 +24,8 @@ tags:
     sha256:dc81f155c6cdb65db7f8f113d1c1d4ad334388e9f93a78f38b028ae3ca78a506
   1.32.0--r44hdfd78af_0: 
     sha256:941d98470c7b30f848758cc508cf06d5a2a9a220559de999ae1a0a447f367000
+  1.36.0--r45hdfd78af_0: 
+    sha256:0608a2f439bd61d2444c481ac5438c046270563dbdc36eed994fd44c37a7bee4
 docker: quay.io/biocontainers/bioconductor-philr
 aliases:
   c89: /usr/local/bin/c89

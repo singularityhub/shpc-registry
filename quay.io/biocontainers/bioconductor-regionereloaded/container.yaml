@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-regionereloaded
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:bd5e0c38758d91da69cffb3267e28d1aaf258dc747671a4887a6ccaccace40f8
+  1.12.0--r45hdfd78af_0: 
+    sha256:67850d058a85a1e1c1de4d298921eca007d66e238fcfa37056c68bb8b703f50e
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:d60a1916465fb92aca3b6396510b8f5612ef9e51e5cf048aaffa33c475c017f1
@@ -14,6 +14,8 @@ tags:
     sha256:e2a10fb4f2df3269af318a70969d8e71b8fec023ac398d40bba02c9a75c92ede
   1.8.0--r44hdfd78af_0: 
     sha256:bd5e0c38758d91da69cffb3267e28d1aaf258dc747671a4887a6ccaccace40f8
+  1.12.0--r45hdfd78af_0: 
+    sha256:67850d058a85a1e1c1de4d298921eca007d66e238fcfa37056c68bb8b703f50e
 docker: quay.io/biocontainers/bioconductor-regionereloaded
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

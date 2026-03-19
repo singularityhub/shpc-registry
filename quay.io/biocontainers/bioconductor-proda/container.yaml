@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-proda
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:82d5ddbc663bd17bb85650c2087a3712d0ec49d5f47d9edf9ce39786d02b8582
+  1.24.0--r45hdfd78af_0: 
+    sha256:25c164ffe941bc48d40fa9585b4b8247770fccfa1968bab04ff31eb831bec6e0
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:d3044149ee65a893aae9e10f5ceb9c4f92e8bf6f1d43faf959279009d79f8778
@@ -16,4 +16,6 @@ tags:
     sha256:2eb87098f4e03cb11ac72d8894ebec916abe59e09b3fbbda53764e0ccaf2773e
   1.20.0--r44hdfd78af_0: 
     sha256:82d5ddbc663bd17bb85650c2087a3712d0ec49d5f47d9edf9ce39786d02b8582
+  1.24.0--r45hdfd78af_0: 
+    sha256:25c164ffe941bc48d40fa9585b4b8247770fccfa1968bab04ff31eb831bec6e0
 docker: quay.io/biocontainers/bioconductor-proda

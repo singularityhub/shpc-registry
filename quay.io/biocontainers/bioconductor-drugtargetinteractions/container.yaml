@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-drugtargetinteractions
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:f3db2503cc6b721e96e2011d6ed21ce08b53e3b3de202b4daa8423ef65be64e3
+  1.18.0--r45hdfd78af_0: 
+    sha256:620b85e5da5c5902ee51e4f77435a2b31fb4c43da9b053d28cc6f92355d73b07
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:f4a5fbcdf15387e7a12cbe49a425bba98057888b7b7efb1e9ebedc976f966bad
@@ -16,4 +16,6 @@ tags:
     sha256:2fa3c40a3a648bcfa3eb3db6ab5628f5cbb83c9fb6248fb8aaf3345841d0c41b
   1.14.0--r44hdfd78af_0: 
     sha256:f3db2503cc6b721e96e2011d6ed21ce08b53e3b3de202b4daa8423ef65be64e3
+  1.18.0--r45hdfd78af_0: 
+    sha256:620b85e5da5c5902ee51e4f77435a2b31fb4c43da9b053d28cc6f92355d73b07
 docker: quay.io/biocontainers/bioconductor-drugtargetinteractions

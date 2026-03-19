@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-dnazoodata
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:bc590703580c1ab0a98c75488e0b31813f83eca8a1b26afbac383a88401f056f
+  1.10.0--r45hdfd78af_0: 
+    sha256:4773e7ccf15ad17a627e26559b45a2c1126ec8fd0810a7545fc3acf97d5e2d0c
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:0841946927ad5d59709b8df9513d2b3d8951aaf53ba711dd7128f6f602fb7f8e
@@ -12,6 +12,8 @@ tags:
     sha256:f838b5f07873845bfc4bfed760681e693773195246d9c8cee98dfc463e72c823
   1.6.0--r44hdfd78af_0: 
     sha256:bc590703580c1ab0a98c75488e0b31813f83eca8a1b26afbac383a88401f056f
+  1.10.0--r45hdfd78af_0: 
+    sha256:4773e7ccf15ad17a627e26559b45a2c1126ec8fd0810a7545fc3acf97d5e2d0c
 docker: quay.io/biocontainers/bioconductor-dnazoodata
 aliases:
   hb-info: /usr/local/bin/hb-info

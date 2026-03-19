@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-u133x3p.db
 latest:
-  3.2.3--r44hdfd78af_13: 
-    sha256:a08a025768b4d779af48db6deca6ebe80e401ba01b5c415e7456101c98ebda34
+  3.2.3--r45hdfd78af_14: 
+    sha256:2823de6081ab95b859198b0518aa5c21c45405433f131cd435715eafb8ba97be
 tags:
   3.2.3--r41hdfd78af_9: 
     sha256:156484a9eb3d6f6b072a82a7a30c80b43257a55c6f21a9d32e894e6a7ca7fb8b
@@ -16,4 +16,6 @@ tags:
     sha256:50ac584b66e4f072e27762e35f65b16e034437cac7a5932d8e20daa5b9d4a376
   3.2.3--r44hdfd78af_13: 
     sha256:a08a025768b4d779af48db6deca6ebe80e401ba01b5c415e7456101c98ebda34
+  3.2.3--r45hdfd78af_14: 
+    sha256:2823de6081ab95b859198b0518aa5c21c45405433f131cd435715eafb8ba97be
 docker: quay.io/biocontainers/bioconductor-u133x3p.db

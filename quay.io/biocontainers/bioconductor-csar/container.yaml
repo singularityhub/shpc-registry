@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-csar
 latest:
-  1.58.0--r44h3df3fcb_0: 
-    sha256:d22108767c07611a96c6402483074ac9328a983a26948a354b25f843f2702e73
+  1.62.0--r45h01b2380_0: 
+    sha256:4bf496bafd613ccb7427dec502dd196868c6b6df09991420a419220e7c257a27
 tags:
   1.46.0--r41hc0cfd56_2: 
     sha256:48f7b04399c514fab7bb35ddd62affcefb8ed49b4c2194854eb0b5eb89bda879
@@ -20,4 +20,6 @@ tags:
     sha256:7e9efeb94ab9e10032e8b96fff3480437dd50bad7e363000aca2b147805f66f6
   1.58.0--r44h3df3fcb_0: 
     sha256:d22108767c07611a96c6402483074ac9328a983a26948a354b25f843f2702e73
+  1.62.0--r45h01b2380_0: 
+    sha256:4bf496bafd613ccb7427dec502dd196868c6b6df09991420a419220e7c257a27
 docker: quay.io/biocontainers/bioconductor-csar

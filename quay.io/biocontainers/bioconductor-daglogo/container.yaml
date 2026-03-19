@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-daglogo
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:fc7cdfc12ffdbce9b273ee639dbd1c7df3b44f7d657266028209e80810982072
+  1.48.0--r45hdfd78af_0: 
+    sha256:a2ac1487afef32bf4f17b6f2b94fe3b0a05fa6683b1eaf4214dfdb9cdac91944
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:d10773b3a7ce39127ac5e66af105cb840f8906c564cc716c67a46215d162ca7f
@@ -16,4 +16,6 @@ tags:
     sha256:8329b35b0b8abab50198df14ae6576e2cd1f1d037b7e067b1dd0195f8820b6ba
   1.44.0--r44hdfd78af_0: 
     sha256:fc7cdfc12ffdbce9b273ee639dbd1c7df3b44f7d657266028209e80810982072
+  1.48.0--r45hdfd78af_0: 
+    sha256:a2ac1487afef32bf4f17b6f2b94fe3b0a05fa6683b1eaf4214dfdb9cdac91944
 docker: quay.io/biocontainers/bioconductor-daglogo

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tbx20bamsubset
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:2728335fd9dbde893943c0f14b74f53b233f0b3b24510e5f8318f075f12de645
+  1.46.0--r45hdfd78af_0: 
+    sha256:2d76e6951f107ed34b9dae2e2340d65ce853576cbc951d047e8ac7ae02d68986
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:53beac5705ce8e2a9a5acf71b322ebd3d25072efcf858b4e366087bc0ed4a4be
@@ -16,4 +16,6 @@ tags:
     sha256:ca8c69a6944a30000c0bbdf4820937f5ff7de5d93f95b4630227b48c940ef540
   1.42.0--r44hdfd78af_0: 
     sha256:2728335fd9dbde893943c0f14b74f53b233f0b3b24510e5f8318f075f12de645
+  1.46.0--r45hdfd78af_0: 
+    sha256:2d76e6951f107ed34b9dae2e2340d65ce853576cbc951d047e8ac7ae02d68986
 docker: quay.io/biocontainers/bioconductor-tbx20bamsubset

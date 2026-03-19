@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ptairms
 latest:
-  1.14.0--r44he5774e6_0: 
-    sha256:77e283497966e49e7e166421f1ced97706d9f6627f6908ea6d2c2e455938ded3
+  1.18.0--r45ha27e39d_0: 
+    sha256:13b32a679bfe9d2ce7e70c4e4bcf0adbd947920d2574b3296d44139410661048
 tags:
   1.2.0--r41hc247a5b_2: 
     sha256:0d4d0a51f70e968c145f6adaa3c64dd5b5cc7134984e109480aca57c0632a6dc
@@ -18,6 +18,8 @@ tags:
     sha256:ff1bb9e6d5fe58f9d3500ddd81e5177ea3f76690663387ad4d350d2f5bdb0dc8
   1.14.0--r44he5774e6_0: 
     sha256:77e283497966e49e7e166421f1ced97706d9f6627f6908ea6d2c2e455938ded3
+  1.18.0--r45ha27e39d_0: 
+    sha256:13b32a679bfe9d2ce7e70c4e4bcf0adbd947920d2574b3296d44139410661048
 docker: quay.io/biocontainers/bioconductor-ptairms
 aliases:
   zipcmp: /usr/local/bin/zipcmp

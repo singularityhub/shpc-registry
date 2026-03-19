@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-bioga
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-bioga
 latest:
-  1.0.0--r44he5774e6_0: 
-    sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d
+  1.4.0--r45ha27e39d_0: 
+    sha256:f1f44543cf1fad9d82aef1f905314725b31decf211239fe4a9754435d2fefc39
 tags:
   1.0.0--r44he5774e6_0: 
     sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d
+  1.4.0--r45ha27e39d_0: 
+    sha256:f1f44543cf1fad9d82aef1f905314725b31decf211239fe4a9754435d2fefc39
 docker: quay.io/biocontainers/bioconductor-bioga
 aliases:
   cllayerinfo: /usr/local/bin/cllayerinfo

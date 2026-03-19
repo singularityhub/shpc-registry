@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cosmic.67
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:873b7361c6007ca8d582264f71bfca959d460eadfeedcaafff344156d9f58313
+  1.46.0--r45hdfd78af_0: 
+    sha256:67e21e2393c46a8846bfc67c75e36e54f4a67b4c85085160847c166940dc81f7
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:76e895768a0957ffb4af2a3da9627cb1f490dbd782966fd5c027d1b8d8020e92
@@ -16,4 +16,6 @@ tags:
     sha256:28b699a1a21a99ec1e3b8c2c8755a040d6f115b4ecc80e1d51ce42a440437cb5
   1.42.0--r44hdfd78af_0: 
     sha256:873b7361c6007ca8d582264f71bfca959d460eadfeedcaafff344156d9f58313
+  1.46.0--r45hdfd78af_0: 
+    sha256:67e21e2393c46a8846bfc67c75e36e54f4a67b4c85085160847c166940dc81f7
 docker: quay.io/biocontainers/bioconductor-cosmic.67

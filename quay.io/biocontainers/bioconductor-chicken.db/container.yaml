@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chicken.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:0a848eaa3bc6507a3871e0f6aefb718c8febac24c7e580bdae44fc979c8bdba8
+  3.13.0--r45hdfd78af_6: 
+    sha256:f2bdb62170c532d3bf25d77329b21ccfd08a7ae6d98129b2b67744884c12b082
 tags:
   3.2.3--r41hdfd78af_7: 
     sha256:c840d58d94e0fbef77f5473beba5b0bd8221402d4b0f32526d5c754d5af6611c
@@ -16,6 +16,8 @@ tags:
     sha256:c65ec2d08d553e342f0ee21642395d0f3b31383f28ff59e0a9c156104c03cf42
   3.13.0--r44hdfd78af_5: 
     sha256:0a848eaa3bc6507a3871e0f6aefb718c8febac24c7e580bdae44fc979c8bdba8
+  3.13.0--r45hdfd78af_6: 
+    sha256:f2bdb62170c532d3bf25d77329b21ccfd08a7ae6d98129b2b67744884c12b082
 docker: quay.io/biocontainers/bioconductor-chicken.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

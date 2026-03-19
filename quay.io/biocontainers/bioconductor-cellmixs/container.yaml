@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cellmixs
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:f5b4b849d439f62602b56dd75f4cc95bdce9924d4a3774b25d5ba6eec46a9976
+  1.26.0--r45hdfd78af_0: 
+    sha256:9dae9805ff3a327d207fcb036e5b1699222d94fcb918580fcf74a3522e940798
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:b8b39cbc552026a2ba902a10f94ab80b1831d78f861c4cce8dde9ef06e5c3b33
@@ -18,6 +18,8 @@ tags:
     sha256:edc653f92f67985da0557072f6847d363e2bf261abe142561ae96e29b88ae624
   1.22.0--r44hdfd78af_0: 
     sha256:f5b4b849d439f62602b56dd75f4cc95bdce9924d4a3774b25d5ba6eec46a9976
+  1.26.0--r45hdfd78af_0: 
+    sha256:9dae9805ff3a327d207fcb036e5b1699222d94fcb918580fcf74a3522e940798
 docker: quay.io/biocontainers/bioconductor-cellmixs
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

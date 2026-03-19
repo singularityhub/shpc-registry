@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyrodigal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyrodigal
 latest:
-  3.7.0--py311haab0aaa_0: 
-    sha256:5b8d14ffb84d7f0c4d0592959ae4d1db3ec4d3a97e825a575e738f84c7f48b9c
+  3.7.1--py312h247cb63_1: 
+    sha256:b00be204965759019a2a0b19267016e8e1dc53656ec00bb9468a9bae40083dd5
 tags:
   0.6.4--py36h91eb985_1: 
     sha256:7933d6030d97adc057449b3217a0b4b28b2ce3cdfda6f75ce5d8eaa1e4c8dd67
@@ -35,6 +35,8 @@ tags:
     sha256:fe1157fb3e078e95159b92384f72c2c72a5f3eb87ab4a9f777c5de37142f0776
   3.7.0--py311haab0aaa_0: 
     sha256:5b8d14ffb84d7f0c4d0592959ae4d1db3ec4d3a97e825a575e738f84c7f48b9c
+  3.7.1--py312h247cb63_1: 
+    sha256:b00be204965759019a2a0b19267016e8e1dc53656ec00bb9468a9bae40083dd5
 docker: quay.io/biocontainers/pyrodigal
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

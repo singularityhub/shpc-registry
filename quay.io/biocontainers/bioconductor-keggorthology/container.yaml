@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-keggorthology
 latest:
-  2.58.0--r44hdfd78af_0: 
-    sha256:07f57cf022aa07dbeae3ad4a5a106dca136a0add63957630c526d7d74b5df2e7
+  2.62.0--r45hdfd78af_0: 
+    sha256:41c0dd11487f3a7820dfb5f381425333fc905330866c7842aa2b61f87fd0b58f
 tags:
   2.46.0--r41hdfd78af_0: 
     sha256:b2e25a67727271337501c7e2317502ddedee477fea5d858a3ac800f4f5ff1cb3
@@ -16,4 +16,6 @@ tags:
     sha256:e11e52d9346ea713584d0eb329355120fade9eed9d384995d83a20cf2288add0
   2.58.0--r44hdfd78af_0: 
     sha256:07f57cf022aa07dbeae3ad4a5a106dca136a0add63957630c526d7d74b5df2e7
+  2.62.0--r45hdfd78af_0: 
+    sha256:41c0dd11487f3a7820dfb5f381425333fc905330866c7842aa2b61f87fd0b58f
 docker: quay.io/biocontainers/bioconductor-keggorthology

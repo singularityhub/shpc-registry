@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-clumsid
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:58a01493d1d9dcd5c17cc825b032474b112604bd377bc6ea2a7c995adec1ee54
+  1.26.0--r45hdfd78af_0: 
+    sha256:3d98a5e5b2b02a4d59c0aaa0c1983432650533b5fdd9de02ffed547681890086
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:0641f5886f083e28918c7d1581f016c703879fe763ba3cee9e90bb3281827822
@@ -18,6 +18,8 @@ tags:
     sha256:0d23b4869e66ddb98a862d7df51601caad21853ab06e38d171efda307f96b214
   1.22.0--r44hdfd78af_0: 
     sha256:58a01493d1d9dcd5c17cc825b032474b112604bd377bc6ea2a7c995adec1ee54
+  1.26.0--r45hdfd78af_0: 
+    sha256:3d98a5e5b2b02a4d59c0aaa0c1983432650533b5fdd9de02ffed547681890086
 docker: quay.io/biocontainers/bioconductor-clumsid
 aliases:
   zipcmp: /usr/local/bin/zipcmp

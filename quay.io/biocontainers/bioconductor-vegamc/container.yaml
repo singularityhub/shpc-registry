@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-vegamc
 latest:
-  3.44.0--r44h3df3fcb_0: 
-    sha256:4d42c2019c99015a76b7be68fe40b45827bd8ee414afe76332054693c9c044b9
+  3.48.0--r45h01b2380_0: 
+    sha256:5c593d9a0d0cf66b634d772135b80d868b447c51c89f69a0c50c8a111ae6a124
 tags:
   3.32.0--r41hc0cfd56_2: 
     sha256:1b40ecae1fd4f39679f129563b7287b702f0200ff80d1e94fd4738f6df5e2a31
@@ -18,4 +18,6 @@ tags:
     sha256:3190d2add6abe06bf7851bed01abf33831052b2e7816133add4bb40496d1e0a5
   3.44.0--r44h3df3fcb_0: 
     sha256:4d42c2019c99015a76b7be68fe40b45827bd8ee414afe76332054693c9c044b9
+  3.48.0--r45h01b2380_0: 
+    sha256:5c593d9a0d0cf66b634d772135b80d868b447c51c89f69a0c50c8a111ae6a124
 docker: quay.io/biocontainers/bioconductor-vegamc

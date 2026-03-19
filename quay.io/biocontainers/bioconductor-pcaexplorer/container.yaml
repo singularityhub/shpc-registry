@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pcaexplorer
 latest:
-  3.0.0--r44hdfd78af_0: 
-    sha256:f90cde8de3393e4778e480e9b210f1742607305b8b15d7ff0b069b163b5578a6
+  3.4.0--r45hdfd78af_0: 
+    sha256:bdffeb144f35504fb5b1cddc720b0611c145817fc35a227601e6e7e9195a161d
 tags:
   2.8.0--r351_0: 
     sha256:cbf0443273a9c61bbd917a2851b210351d6fbedc539fb5e0e2fa3c3e6541dfe1
@@ -24,6 +24,8 @@ tags:
     sha256:811ca985d1693ff98814034310db0179fabcf16dcbb9fd4aa135712129b0bee0
   3.0.0--r44hdfd78af_0: 
     sha256:f90cde8de3393e4778e480e9b210f1742607305b8b15d7ff0b069b163b5578a6
+  3.4.0--r45hdfd78af_0: 
+    sha256:bdffeb144f35504fb5b1cddc720b0611c145817fc35a227601e6e7e9195a161d
 docker: quay.io/biocontainers/bioconductor-pcaexplorer
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

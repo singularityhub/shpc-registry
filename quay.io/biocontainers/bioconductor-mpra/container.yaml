@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mpra
 latest:
-  1.28.0--r43hdfd78af_0: 
-    sha256:93258f840521d3e89178e63c354843454d98590d7d615f5971152e39ba6d6a45
+  1.32.0--r45hdfd78af_0: 
+    sha256:c1f0a9de93f73f39ad110cdf2c8d1c54264262ee6884e67d0325fbb0eba218f2
 tags:
   1.8.0--r36_0: 
     sha256:e79ec3cccbcbbf00a5a7d300c319b7b9163090762d863ada9c9bea539a61db6b
@@ -24,6 +24,8 @@ tags:
     sha256:b1a3702b4cd4e1f98d0529db064d2db6e7738ed3a2e976aa231e0f8e33245346
   1.28.0--r43hdfd78af_0: 
     sha256:93258f840521d3e89178e63c354843454d98590d7d615f5971152e39ba6d6a45
+  1.32.0--r45hdfd78af_0: 
+    sha256:c1f0a9de93f73f39ad110cdf2c8d1c54264262ee6884e67d0325fbb0eba218f2
 docker: quay.io/biocontainers/bioconductor-mpra
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-methylimp2
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:42c0dec017ebcd0099712dc157a29b9056db6bbd73db2c2e366d64dbdc499377
+  1.6.0--r45hdfd78af_0: 
+    sha256:827562f887e3a590e62fd22024ad54b28c5cebc8518987c07d437c65f8f7b20e
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:42c0dec017ebcd0099712dc157a29b9056db6bbd73db2c2e366d64dbdc499377
+  1.6.0--r45hdfd78af_0: 
+    sha256:827562f887e3a590e62fd22024ad54b28c5cebc8518987c07d437c65f8f7b20e
 docker: quay.io/biocontainers/bioconductor-methylimp2
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

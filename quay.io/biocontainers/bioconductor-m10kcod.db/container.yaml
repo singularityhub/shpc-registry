@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-m10kcod.db
 latest:
-  3.4.0--r44hdfd78af_13: 
-    sha256:0178d41abe921ec12270480dde9278f99437efde69e774888a0893d9f70949bd
+  3.4.0--r45hdfd78af_14: 
+    sha256:0635c98cb63b572b12cd2567be35f497264ed771ad3f8879b662fac01a27766d
 tags:
   3.4.0--r41hdfd78af_9: 
     sha256:90b2097e922c9e45f2b2d4276e2ad92a928882fbf26c8bf1bfe4537132389baa
@@ -16,4 +16,6 @@ tags:
     sha256:6a6a8e11ef3758a4b8531ca8cdeda844efe56d12957a45119aa9447f8e9140c0
   3.4.0--r44hdfd78af_13: 
     sha256:0178d41abe921ec12270480dde9278f99437efde69e774888a0893d9f70949bd
+  3.4.0--r45hdfd78af_14: 
+    sha256:0635c98cb63b572b12cd2567be35f497264ed771ad3f8879b662fac01a27766d
 docker: quay.io/biocontainers/bioconductor-m10kcod.db

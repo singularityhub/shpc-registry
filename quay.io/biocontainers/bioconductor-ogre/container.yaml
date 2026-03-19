@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ogre
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-ogre
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:82aabbca0f268c4ecf23b6f0d702d9422506b7dc742fe83a406184116d733980
+  1.14.0--r45hdfd78af_0: 
+    sha256:3aa5e53ce23f86e533203ec2c34b8a75ed8d953efb001349dc2f72592c244fc7
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:dd57e43fbca24d72b47394cc62613bd48862089ba9c4ab3ecae542cfaf784e6a
@@ -13,6 +13,8 @@ tags:
     sha256:4e85532e75d1280d5aa503b0fb9e9e7615b8cdd04eb6117a5734ab57f3a39580
   1.10.0--r44hdfd78af_0: 
     sha256:82aabbca0f268c4ecf23b6f0d702d9422506b7dc742fe83a406184116d733980
+  1.14.0--r45hdfd78af_0: 
+    sha256:3aa5e53ce23f86e533203ec2c34b8a75ed8d953efb001349dc2f72592c244fc7
 docker: quay.io/biocontainers/bioconductor-ogre
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

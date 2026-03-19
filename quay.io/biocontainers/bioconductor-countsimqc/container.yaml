@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-countsimqc
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:7d8e8c3669149ef28cbab627ab30d1b46b052ed06c54095a409ee455b9c8360a
+  1.28.0--r45hdfd78af_0: 
+    sha256:cf494938048dd21d0f8112bda8dac597574cb174e6fabeb38ef47c816fb6edb1
 tags:
   1.8.1--r40hdfd78af_0: 
     sha256:fdcbc1421ec94f767d3669b2d977d74f17a2e1c24db8b33634ec3e74a6128778
@@ -20,6 +20,8 @@ tags:
     sha256:6c5bcf9e1daaf1370730ee438dc89e8d1d7157f3ccb968ad9ba2f5a20de7aa5a
   1.24.0--r44hdfd78af_0: 
     sha256:7d8e8c3669149ef28cbab627ab30d1b46b052ed06c54095a409ee455b9c8360a
+  1.28.0--r45hdfd78af_0: 
+    sha256:cf494938048dd21d0f8112bda8dac597574cb174e6fabeb38ef47c816fb6edb1
 docker: quay.io/biocontainers/bioconductor-countsimqc
 aliases:
   pandoc: /usr/local/bin/pandoc

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tcgabiolinks
 latest:
-  2.34.0--r44hdfd78af_0: 
-    sha256:ff9ece5b47684669534da869a9030f9a192b96f882a19fc1e63bfbbaa37dc19c
+  2.38.0--r45hdfd78af_0: 
+    sha256:2fe0197dd1c52bce23763de7f2c7c350a8c32f78d3c2e6d2c6a8665de336f57c
 tags:
   2.8.4--r351_0: 
     sha256:35386c1ce6adbda60a899048cf57440758f8a5e4d08919b7648cd71aa045ae82
@@ -24,6 +24,8 @@ tags:
     sha256:7e8f6dd9eb9bccf32c82303f7bc551d68b1387f29d8d09333ddf9a8524011a56
   2.34.0--r44hdfd78af_0: 
     sha256:ff9ece5b47684669534da869a9030f9a192b96f882a19fc1e63bfbbaa37dc19c
+  2.38.0--r45hdfd78af_0: 
+    sha256:2fe0197dd1c52bce23763de7f2c7c350a8c32f78d3c2e6d2c6a8665de336f57c
 docker: quay.io/biocontainers/bioconductor-tcgabiolinks
 aliases:
   wget: /usr/local/bin/wget

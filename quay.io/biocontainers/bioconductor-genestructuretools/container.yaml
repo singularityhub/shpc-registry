@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genestructuretools
 latest:
-  1.22.0--r43hdfd78af_0: 
-    sha256:edd654b9f3e704586eaf5fbf483814b6b7624a7dc85707d0b1ea9d2a5278332e
+  1.30.0--r45hdfd78af_0: 
+    sha256:641ea8184e43196044d31fe29f59b6fd21507a64ec4343935fe061a58eba1327
 tags:
   1.8.0--r40_0: 
     sha256:6667cd7b4df5fb4b4e0fbe5d9e38c11a27069fff76b2914759dde5b5ee6c10ca
@@ -20,6 +20,8 @@ tags:
     sha256:c608f915421ca38dd6b00d96b00589270695ee863566e07cdfc083fab6e9cddc
   1.22.0--r43hdfd78af_0: 
     sha256:edd654b9f3e704586eaf5fbf483814b6b7624a7dc85707d0b1ea9d2a5278332e
+  1.30.0--r45hdfd78af_0: 
+    sha256:641ea8184e43196044d31fe29f59b6fd21507a64ec4343935fe061a58eba1327
 docker: quay.io/biocontainers/bioconductor-genestructuretools
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

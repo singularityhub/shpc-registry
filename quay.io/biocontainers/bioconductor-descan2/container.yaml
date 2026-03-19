@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-descan2
 latest:
-  1.26.0--r44he5774e6_0: 
-    sha256:f06fbfdeae90872daf60f93ae159bacd9e49915601c60ea5ac8ee1a6b7b9246a
+  1.30.0--r45ha27e39d_0: 
+    sha256:b051af5c8c7baa8ad2df22f60a37b93a712c936210f468751234027ba64edfdb
 tags:
   1.8.0--r40h5f743cb_0: 
     sha256:37641c2f246075aa60efea422e8ba3b677d69cc50aded25cd5a53ea421fdf77d
@@ -26,6 +26,8 @@ tags:
     sha256:657c6d2c531364aa2141f51ef24d3f7904a7ad493a4db73b6922fd1cfa882142
   1.26.0--r44he5774e6_0: 
     sha256:f06fbfdeae90872daf60f93ae159bacd9e49915601c60ea5ac8ee1a6b7b9246a
+  1.30.0--r45ha27e39d_0: 
+    sha256:b051af5c8c7baa8ad2df22f60a37b93a712c936210f468751234027ba64edfdb
 docker: quay.io/biocontainers/bioconductor-descan2
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
