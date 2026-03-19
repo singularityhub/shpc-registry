@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/scanpro
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scanpro
+latest:
+  0.4.0--pyh84cbfca_0: 
+    sha256:0b0a7687cd8dc42c1d4d3e49a155f16b866886403d7aca9f336be141711992c7
+tags:
+  0.4.0--pyh84cbfca_0: 
+    sha256:0b0a7687cd8dc42c1d4d3e49a155f16b866886403d7aca9f336be141711992c7
+docker: quay.io/biocontainers/scanpro
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/bioconductor-alabaster.sfe
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-alabaster.sfe
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:91422f356cab75a7e50bfd2b4e02d358b9fe8b7c4fc1142cab853a8d704224ff
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:91422f356cab75a7e50bfd2b4e02d358b9fe8b7c4fc1142cab853a8d704224ff
+docker: quay.io/biocontainers/bioconductor-alabaster.sfe
+aliases:
+  gdal: /usr/local/bin/gdal
+  jnativescan: /usr/local/bin/jnativescan
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  sozip: /usr/local/bin/sozip
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  h2benchmark: /usr/local/bin/h2benchmark
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  dec265: /usr/local/bin/dec265
+  bsdunzip: /usr/local/bin/bsdunzip
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  gdal_create: /usr/local/bin/gdal_create
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  checksum-profile: /usr/local/bin/checksum-profile

@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-seta
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-seta
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:706bdd15c3d9223edcdd79d678ef48907aae039c99b6f7231c5d2b5fb51f2eb5
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:706bdd15c3d9223edcdd79d678ef48907aae039c99b6f7231c5d2b5fb51f2eb5
+docker: quay.io/biocontainers/bioconductor-seta
+aliases:
+  glpsol: /usr/local/bin/glpsol
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

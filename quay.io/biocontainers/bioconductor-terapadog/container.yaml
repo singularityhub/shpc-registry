@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bioconductor-terapadog
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-terapadog
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:3d8f4f74d06255f0a224d726359a787e47f74f1c8d2ac6b70cc0673c4ffea862
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:3d8f4f74d06255f0a224d726359a787e47f74f1c8d2ac6b70cc0673c4ffea862
+docker: quay.io/biocontainers/bioconductor-terapadog
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info

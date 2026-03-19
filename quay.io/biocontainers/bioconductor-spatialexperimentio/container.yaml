@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/bioconductor-spatialexperimentio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-spatialexperimentio
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:581d52e7762557d46890d3559b36f898652bd5e64b337fbc9619eacd8393a145
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:581d52e7762557d46890d3559b36f898652bd5e64b337fbc9619eacd8393a145
+docker: quay.io/biocontainers/bioconductor-spatialexperimentio
+aliases:
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  h2benchmark: /usr/local/bin/h2benchmark
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  dec265: /usr/local/bin/dec265
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastishadow: /usr/local/bin/elastishadow
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  x265: /usr/local/bin/x265
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  dav1d: /usr/local/bin/dav1d
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  aomdec: /usr/local/bin/aomdec

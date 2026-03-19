@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bioconductor-splinedv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-splinedv
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:f79fe6f443defc231e8e8772e7b9f65594149f613d684dbedd7e63a76bb6c86a
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:f79fe6f443defc231e8e8772e7b9f65594149f613d684dbedd7e63a76bb6c86a
+docker: quay.io/biocontainers/bioconductor-splinedv
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bioconductor-spicey
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-spicey
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:54ed4aa72a8321b15f0132dd140f8bd6b2a5f231d3d74db4de78d3ee9be92284
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:54ed4aa72a8321b15f0132dd140f8bd6b2a5f231d3d74db4de78d3ee9be92284
+docker: quay.io/biocontainers/bioconductor-spicey
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

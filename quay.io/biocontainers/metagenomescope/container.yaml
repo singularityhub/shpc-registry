@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/metagenomescope
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metagenomescope
+latest:
+  1.1.0--pyh78e5384_0: 
+    sha256:4fc162dd4ddf51573a98af484c137d81477581361ca4b04e15dc666d7253dc75
+tags:
+  1.1.0--pyh78e5384_0: 
+    sha256:4fc162dd4ddf51573a98af484c137d81477581361ca4b04e15dc666d7253dc75
+docker: quay.io/biocontainers/metagenomescope
+aliases:
+  dash-update-components: /usr/local/bin/dash-update-components
+  gfapy-convert: /usr/local/bin/gfapy-convert
+  gfapy-mergelinear: /usr/local/bin/gfapy-mergelinear
+  gfapy-renumber: /usr/local/bin/gfapy-renumber
+  gfapy-validate: /usr/local/bin/gfapy-validate
+  mgsc: /usr/local/bin/mgsc
+  plotly: /usr/local/bin/plotly
+  renderer: /usr/local/bin/renderer
+  dash-generate-components: /usr/local/bin/dash-generate-components
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  flask: /usr/local/bin/flask
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  xkbcli: /usr/local/bin/xkbcli
+  diffimg: /usr/local/bin/diffimg
+  delaunay: /usr/local/bin/delaunay
+  gts-config: /usr/local/bin/gts-config
+  gts2dxf: /usr/local/bin/gts2dxf

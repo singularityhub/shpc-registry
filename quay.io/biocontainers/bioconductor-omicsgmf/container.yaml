@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/bioconductor-omicsgmf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-omicsgmf
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:c345adaf197b23f9baaed4e3548b32345d74d9d979beab1df806b1247ce8c31a
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:c345adaf197b23f9baaed4e3548b32345d74d9d979beab1df806b1247ce8c31a
+docker: quay.io/biocontainers/bioconductor-omicsgmf
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  glpsol: /usr/local/bin/glpsol
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  numpy-config: /usr/local/bin/numpy-config
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
