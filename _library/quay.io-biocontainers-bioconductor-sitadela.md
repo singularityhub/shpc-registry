@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sitadela"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sitadela/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sitadela/container.yaml"
-updated_at: "2026-03-18 04:39:25.602660"
+updated_at: "2026-03-19 04:37:20.447196"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sitadela"
 

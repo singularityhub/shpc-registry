@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/floco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/floco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/floco/container.yaml"
-updated_at: "2026-03-18 05:14:12.218685"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2026-03-19 05:09:58.985143"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/floco"
 aliases:
  - "floco"
@@ -16,8 +16,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for floco"
-config: {"url": "https://biocontainers.pro/tools/floco", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for floco", "latest": {"1.0.1--pyhdfd78af_0": "sha256:03c92e8f2b195b7920ddec116bdffedf0b3fd3e13755a874d74c9c94d0b2c8f1"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:03c92e8f2b195b7920ddec116bdffedf0b3fd3e13755a874d74c9c94d0b2c8f1"}, "docker": "quay.io/biocontainers/floco", "aliases": {"floco": "/usr/local/bin/floco", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/floco", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for floco", "latest": {"1.1.0--pyhdfd78af_0": "sha256:594c7f4f4a0bca67f4aadb6e4afa059d8c210de1f212eff8019e4e21e2445d32"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:03c92e8f2b195b7920ddec116bdffedf0b3fd3e13755a874d74c9c94d0b2c8f1", "1.1.0--pyhdfd78af_0": "sha256:594c7f4f4a0bca67f4aadb6e4afa059d8c210de1f212eff8019e4e21e2445d32"}, "docker": "quay.io/biocontainers/floco", "aliases": {"floco": "/usr/local/bin/floco", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/floco.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/floco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/floco:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/floco:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/floco/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/floco/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/floco/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/floco/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

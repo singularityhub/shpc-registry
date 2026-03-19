@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/toolshed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/toolshed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/toolshed/container.yaml"
-updated_at: "2026-03-18 04:32:02.907607"
-latest: "0.4.6--pyh864c0ab_3"
+updated_at: "2026-03-19 04:30:23.908894"
+latest: "0.4.8--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/toolshed"
 aliases:
  - "toolshed"
@@ -16,8 +16,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "0.4.6--pyh864c0ab_3"
+ - "0.4.8--pyh106432d_0"
 description: "shpc-registry automated BioContainers addition for toolshed"
-config: {"url": "https://biocontainers.pro/tools/toolshed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for toolshed", "latest": {"0.4.6--pyh864c0ab_3": "sha256:4a94487be250ca290573776f3bd776fa3e38c5e9da12b4e5fbd7abae4a4790b2"}, "tags": {"0.4.6--pyh864c0ab_3": "sha256:4a94487be250ca290573776f3bd776fa3e38c5e9da12b4e5fbd7abae4a4790b2"}, "docker": "quay.io/biocontainers/toolshed", "aliases": {"toolshed": "/usr/local/bin/toolshed", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/toolshed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for toolshed", "latest": {"0.4.8--pyh106432d_0": "sha256:cc8af320723893624b3303a3992a82d4779c8fad93899f214d94c1525d95f86b"}, "tags": {"0.4.6--pyh864c0ab_3": "sha256:4a94487be250ca290573776f3bd776fa3e38c5e9da12b4e5fbd7abae4a4790b2", "0.4.8--pyh106432d_0": "sha256:cc8af320723893624b3303a3992a82d4779c8fad93899f214d94c1525d95f86b"}, "docker": "quay.io/biocontainers/toolshed", "aliases": {"toolshed": "/usr/local/bin/toolshed", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/toolshed.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/toolshed
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/toolshed:0.4.6--pyh864c0ab_3
+$ shpc install quay.io/biocontainers/toolshed:0.4.8--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/toolshed/0.4.6--pyh864c0ab_3
-$ module help quay.io/biocontainers/toolshed/0.4.6--pyh864c0ab_3
+$ module load quay.io/biocontainers/toolshed/0.4.8--pyh106432d_0
+$ module help quay.io/biocontainers/toolshed/0.4.8--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-isva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-isva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-isva/container.yaml"
-updated_at: "2026-03-18 04:57:59.340165"
+updated_at: "2026-03-19 04:54:44.054055"
 latest: "1.9--r45h3342da4_8"
 container_url: "https://biocontainers.pro/tools/r-isva"
 aliases:

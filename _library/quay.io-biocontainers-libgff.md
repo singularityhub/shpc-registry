@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/libgff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgff/container.yaml"
-updated_at: "2026-03-18 04:49:28.102784"
-latest: "2.0.0--h077b44d_3"
+updated_at: "2026-03-19 04:46:41.698804"
+latest: "2.0.1--hf426362_0"
 container_url: "https://biocontainers.pro/tools/libgff"
 
 versions:
  - "2.0.0--hdcf5f25_1"
  - "2.0.0--h077b44d_2"
  - "2.0.0--h077b44d_3"
+ - "2.0.1--hf426362_0"
 description: "singularity registry hpc automated addition for libgff"
-config: {"url": "https://biocontainers.pro/tools/libgff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libgff", "latest": {"2.0.0--h077b44d_3": "sha256:a5550b92019507bb0689b4cd7e4744e4651fa6964d53f99d1b5dc13a69a79a1a"}, "tags": {"2.0.0--hdcf5f25_1": "sha256:b0c5240ace1f1803bbf5deb787d946f51734a04ba162ff51cc993a943bfadd6d", "2.0.0--h077b44d_2": "sha256:5b237df68d049a16820808b2f7fcb69c4c069cae7123a478805958970403f818", "2.0.0--h077b44d_3": "sha256:a5550b92019507bb0689b4cd7e4744e4651fa6964d53f99d1b5dc13a69a79a1a"}, "docker": "quay.io/biocontainers/libgff"}
+config: {"url": "https://biocontainers.pro/tools/libgff", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for libgff", "latest": {"2.0.1--hf426362_0": "sha256:66bca9906129d1749ac52ad89de5cc584317ba2b4783857c07cbf4bee86179aa"}, "tags": {"2.0.0--hdcf5f25_1": "sha256:b0c5240ace1f1803bbf5deb787d946f51734a04ba162ff51cc993a943bfadd6d", "2.0.0--h077b44d_2": "sha256:5b237df68d049a16820808b2f7fcb69c4c069cae7123a478805958970403f818", "2.0.0--h077b44d_3": "sha256:a5550b92019507bb0689b4cd7e4744e4651fa6964d53f99d1b5dc13a69a79a1a", "2.0.1--hf426362_0": "sha256:66bca9906129d1749ac52ad89de5cc584317ba2b4783857c07cbf4bee86179aa"}, "docker": "quay.io/biocontainers/libgff"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libgff.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/libgff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libgff:2.0.0--h077b44d_3
+$ shpc install quay.io/biocontainers/libgff:2.0.1--hf426362_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libgff/2.0.0--h077b44d_3
-$ module help quay.io/biocontainers/libgff/2.0.0--h077b44d_3
+$ module load quay.io/biocontainers/libgff/2.0.1--hf426362_0
+$ module help quay.io/biocontainers/libgff/2.0.1--hf426362_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

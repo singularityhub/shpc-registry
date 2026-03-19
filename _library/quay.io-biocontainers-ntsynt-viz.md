@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ntsynt-viz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntsynt-viz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntsynt-viz/container.yaml"
-updated_at: "2026-03-18 04:36:05.855557"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2026-03-19 04:34:13.779191"
+latest: "1.0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ntsynt-viz"
 aliases:
  - "convert_distance_matrix_to_phylip.py"
@@ -49,8 +49,9 @@ aliases:
  - "jupyter-trust"
 versions:
  - "1.0.1--hdfd78af_0"
+ - "1.0.2--hdfd78af_1"
 description: "singularity registry hpc automated addition for ntsynt-viz"
-config: {"url": "https://biocontainers.pro/tools/ntsynt-viz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntsynt-viz", "latest": {"1.0.1--hdfd78af_0": "sha256:3da6486c8edeb1717f274068f9445d614319f820de49228e09dd2bdd3f879a2d"}, "tags": {"1.0.1--hdfd78af_0": "sha256:3da6486c8edeb1717f274068f9445d614319f820de49228e09dd2bdd3f879a2d"}, "docker": "quay.io/biocontainers/ntsynt-viz", "aliases": {"convert_distance_matrix_to_phylip.py": "/usr/local/bin/convert_distance_matrix_to_phylip.py", "ntsynt_viz.py": "/usr/local/bin/ntsynt_viz.py", "ntsynt_viz.smk": "/usr/local/bin/ntsynt_viz.smk", "ntsynt_viz_distance_cladogram.R": "/usr/local/bin/ntsynt_viz_distance_cladogram.R", "ntsynt_viz_find_plot_nudges.py": "/usr/local/bin/ntsynt_viz_find_plot_nudges.py", "ntsynt_viz_format_blocks_gggenomes.py": "/usr/local/bin/ntsynt_viz_format_blocks_gggenomes.py", "ntsynt_viz_normalize_strands.py": "/usr/local/bin/ntsynt_viz_normalize_strands.py", "ntsynt_viz_output_orders.py": "/usr/local/bin/ntsynt_viz_output_orders.py", "ntsynt_viz_plot_synteny_blocks_ribbon_plot.R": "/usr/local/bin/ntsynt_viz_plot_synteny_blocks_ribbon_plot.R", "ntsynt_viz_sort_sequences.py": "/usr/local/bin/ntsynt_viz_sort_sequences.py", "ntsynt_viz_synteny_distance_estimation.py": "/usr/local/bin/ntsynt_viz_synteny_distance_estimation.py", "quicktree": "/usr/local/bin/quicktree", "rename_synteny_blocks.py": "/usr/local/bin/rename_synteny_blocks.py", "sort_ntsynt_blocks.py": "/usr/local/bin/sort_ntsynt_blocks.py", "phc": "/usr/local/bin/phc", "eido": "/usr/local/bin/eido", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "yte": "/usr/local/bin/yte", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "markdown-it": "/usr/local/bin/markdown-it", "humanfriendly": "/usr/local/bin/humanfriendly", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
+config: {"url": "https://biocontainers.pro/tools/ntsynt-viz", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ntsynt-viz", "latest": {"1.0.2--hdfd78af_1": "sha256:0da3f3a1f7986fb9a8a2d0951823e20c3dc9477112926fb0e4c87720e90c990d"}, "tags": {"1.0.1--hdfd78af_0": "sha256:3da6486c8edeb1717f274068f9445d614319f820de49228e09dd2bdd3f879a2d", "1.0.2--hdfd78af_1": "sha256:0da3f3a1f7986fb9a8a2d0951823e20c3dc9477112926fb0e4c87720e90c990d"}, "docker": "quay.io/biocontainers/ntsynt-viz", "aliases": {"convert_distance_matrix_to_phylip.py": "/usr/local/bin/convert_distance_matrix_to_phylip.py", "ntsynt_viz.py": "/usr/local/bin/ntsynt_viz.py", "ntsynt_viz.smk": "/usr/local/bin/ntsynt_viz.smk", "ntsynt_viz_distance_cladogram.R": "/usr/local/bin/ntsynt_viz_distance_cladogram.R", "ntsynt_viz_find_plot_nudges.py": "/usr/local/bin/ntsynt_viz_find_plot_nudges.py", "ntsynt_viz_format_blocks_gggenomes.py": "/usr/local/bin/ntsynt_viz_format_blocks_gggenomes.py", "ntsynt_viz_normalize_strands.py": "/usr/local/bin/ntsynt_viz_normalize_strands.py", "ntsynt_viz_output_orders.py": "/usr/local/bin/ntsynt_viz_output_orders.py", "ntsynt_viz_plot_synteny_blocks_ribbon_plot.R": "/usr/local/bin/ntsynt_viz_plot_synteny_blocks_ribbon_plot.R", "ntsynt_viz_sort_sequences.py": "/usr/local/bin/ntsynt_viz_sort_sequences.py", "ntsynt_viz_synteny_distance_estimation.py": "/usr/local/bin/ntsynt_viz_synteny_distance_estimation.py", "quicktree": "/usr/local/bin/quicktree", "rename_synteny_blocks.py": "/usr/local/bin/rename_synteny_blocks.py", "sort_ntsynt_blocks.py": "/usr/local/bin/sort_ntsynt_blocks.py", "phc": "/usr/local/bin/phc", "eido": "/usr/local/bin/eido", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "yte": "/usr/local/bin/yte", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "markdown-it": "/usr/local/bin/markdown-it", "humanfriendly": "/usr/local/bin/humanfriendly", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ntsynt-viz.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/ntsynt-viz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ntsynt-viz:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/ntsynt-viz:1.0.2--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ntsynt-viz/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/ntsynt-viz/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/ntsynt-viz/1.0.2--hdfd78af_1
+$ module help quay.io/biocontainers/ntsynt-viz/1.0.2--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bio2zarr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bio2zarr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bio2zarr/container.yaml"
-updated_at: "2026-03-18 04:36:01.748820"
-latest: "0.1.7--pyhdfd78af_0"
+updated_at: "2026-03-19 04:34:09.822396"
+latest: "0.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bio2zarr"
 aliases:
  - "plink2zarr"
@@ -32,8 +32,9 @@ aliases:
 versions:
  - "0.1.6--pyhdfd78af_0"
  - "0.1.7--pyhdfd78af_0"
+ - "0.1.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bio2zarr"
-config: {"url": "https://biocontainers.pro/tools/bio2zarr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bio2zarr", "latest": {"0.1.7--pyhdfd78af_0": "sha256:59b6a37705ff43e514b244a37fe5e0fc2a3c2e19e7e2d2ab183f1823e5bb19dc"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:ef111ecb4ec0ab7eb0766c1826fd9134e0bb081585209bdd9481f700835488f1", "0.1.7--pyhdfd78af_0": "sha256:59b6a37705ff43e514b244a37fe5e0fc2a3c2e19e7e2d2ab183f1823e5bb19dc"}, "docker": "quay.io/biocontainers/bio2zarr", "aliases": {"plink2zarr": "/usr/local/bin/plink2zarr", "tskit": "/usr/local/bin/tskit", "tskit2zarr": "/usr/local/bin/tskit2zarr", "vcf2zarr": "/usr/local/bin/vcf2zarr", "vcfpartition": "/usr/local/bin/vcfpartition", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "annot-tsv": "/usr/local/bin/annot-tsv", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "numpy-config": "/usr/local/bin/numpy-config", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bio2zarr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bio2zarr", "latest": {"0.1.8--pyhdfd78af_0": "sha256:dbb0201faf7de8e54fa40443560f2edb8f78c271fe2d8bf4d09b04fc6fb3410c"}, "tags": {"0.1.6--pyhdfd78af_0": "sha256:ef111ecb4ec0ab7eb0766c1826fd9134e0bb081585209bdd9481f700835488f1", "0.1.7--pyhdfd78af_0": "sha256:59b6a37705ff43e514b244a37fe5e0fc2a3c2e19e7e2d2ab183f1823e5bb19dc", "0.1.8--pyhdfd78af_0": "sha256:dbb0201faf7de8e54fa40443560f2edb8f78c271fe2d8bf4d09b04fc6fb3410c"}, "docker": "quay.io/biocontainers/bio2zarr", "aliases": {"plink2zarr": "/usr/local/bin/plink2zarr", "tskit": "/usr/local/bin/tskit", "tskit2zarr": "/usr/local/bin/tskit2zarr", "vcf2zarr": "/usr/local/bin/vcf2zarr", "vcfpartition": "/usr/local/bin/vcfpartition", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "annot-tsv": "/usr/local/bin/annot-tsv", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "numpy-config": "/usr/local/bin/numpy-config", "jsonschema": "/usr/local/bin/jsonschema", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bio2zarr.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/bio2zarr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bio2zarr:0.1.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bio2zarr:0.1.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bio2zarr/0.1.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/bio2zarr/0.1.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/bio2zarr/0.1.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/bio2zarr/0.1.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

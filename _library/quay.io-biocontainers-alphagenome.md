@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alphagenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alphagenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alphagenome/container.yaml"
-updated_at: "2026-03-18 04:31:58.751019"
-latest: "0.5.1--pyhdfd78af_0"
+updated_at: "2026-03-19 04:30:19.954457"
+latest: "0.6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alphagenome"
 aliases:
  - "protoc-33.5.0"
@@ -39,8 +39,9 @@ aliases:
  - "orc-metadata"
 versions:
  - "0.5.1--pyhdfd78af_0"
+ - "0.6.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for alphagenome"
-config: {"url": "https://biocontainers.pro/tools/alphagenome", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alphagenome", "latest": {"0.5.1--pyhdfd78af_0": "sha256:8334179ce127b3396afde6202dcf1781ebfc8e0a8a1066897ab14e9a4c9ede25"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:8334179ce127b3396afde6202dcf1781ebfc8e0a8a1066897ab14e9a4c9ede25"}, "docker": "quay.io/biocontainers/alphagenome", "aliases": {"protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "zarr": "/usr/local/bin/zarr", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata"}}
+config: {"url": "https://biocontainers.pro/tools/alphagenome", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alphagenome", "latest": {"0.6.1--pyhdfd78af_0": "sha256:d0cfee72f3212cd4fcb6d7cc9b62075d5050d8c4f31c186b1a922b997a75ab92"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:8334179ce127b3396afde6202dcf1781ebfc8e0a8a1066897ab14e9a4c9ede25", "0.6.1--pyhdfd78af_0": "sha256:d0cfee72f3212cd4fcb6d7cc9b62075d5050d8c4f31c186b1a922b997a75ab92"}, "docker": "quay.io/biocontainers/alphagenome", "aliases": {"protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "zarr": "/usr/local/bin/zarr", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alphagenome.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/alphagenome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alphagenome:0.5.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/alphagenome:0.6.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alphagenome/0.5.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/alphagenome/0.5.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/alphagenome/0.6.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/alphagenome/0.6.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

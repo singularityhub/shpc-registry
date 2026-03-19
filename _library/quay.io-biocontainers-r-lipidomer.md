@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-lipidomer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lipidomer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lipidomer/container.yaml"
-updated_at: "2026-03-18 04:50:30.743311"
-latest: "0.1.2--r43h3121a25_2"
+updated_at: "2026-03-19 04:47:41.234027"
+latest: "0.1.2--r45h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-lipidomer"
 
 versions:
  - "0.1.2--r42h3121a25_1"
  - "0.1.2--r43h3121a25_2"
+ - "0.1.2--r45h3121a25_3"
 description: "singularity registry hpc automated addition for r-lipidomer"
-config: {"url": "https://biocontainers.pro/tools/r-lipidomer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-lipidomer", "latest": {"0.1.2--r43h3121a25_2": "sha256:f0d2500f75bf82d262f23c3fc73086c4c885cc5a6852b2ff8c37f60704a11fcb"}, "tags": {"0.1.2--r42h3121a25_1": "sha256:e9f54e4396c121c69b08c720184078828e66b900603b814a33c1fca1b6a25fb2", "0.1.2--r43h3121a25_2": "sha256:f0d2500f75bf82d262f23c3fc73086c4c885cc5a6852b2ff8c37f60704a11fcb"}, "docker": "quay.io/biocontainers/r-lipidomer"}
+config: {"url": "https://biocontainers.pro/tools/r-lipidomer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-lipidomer", "latest": {"0.1.2--r45h3121a25_3": "sha256:ab206771c52c3f3974ba39dfa82c966735a88a508eb194299693803e28dc7399"}, "tags": {"0.1.2--r42h3121a25_1": "sha256:e9f54e4396c121c69b08c720184078828e66b900603b814a33c1fca1b6a25fb2", "0.1.2--r43h3121a25_2": "sha256:f0d2500f75bf82d262f23c3fc73086c4c885cc5a6852b2ff8c37f60704a11fcb", "0.1.2--r45h3121a25_3": "sha256:ab206771c52c3f3974ba39dfa82c966735a88a508eb194299693803e28dc7399"}, "docker": "quay.io/biocontainers/r-lipidomer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-lipidomer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-lipidomer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-lipidomer:0.1.2--r43h3121a25_2
+$ shpc install quay.io/biocontainers/r-lipidomer:0.1.2--r45h3121a25_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-lipidomer/0.1.2--r43h3121a25_2
-$ module help quay.io/biocontainers/r-lipidomer/0.1.2--r43h3121a25_2
+$ module load quay.io/biocontainers/r-lipidomer/0.1.2--r45h3121a25_3
+$ module help quay.io/biocontainers/r-lipidomer/0.1.2--r45h3121a25_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

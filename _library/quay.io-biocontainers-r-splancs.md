@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-splancs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-splancs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-splancs/container.yaml"
-updated_at: "2026-03-18 05:27:29.961570"
+updated_at: "2026-03-19 05:22:28.168975"
 latest: "2.01_38--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-splancs"
 aliases:

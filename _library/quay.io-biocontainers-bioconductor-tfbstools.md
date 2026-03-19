@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tfbstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tfbstools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tfbstools/container.yaml"
-updated_at: "2026-03-18 04:42:21.762896"
-latest: "1.46.0--r44h3df3fcb_0"
+updated_at: "2026-03-19 04:40:03.976505"
+latest: "1.48.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tfbstools"
 
 versions:
@@ -17,8 +17,9 @@ versions:
  - "1.40.0--r43ha9d7317_1"
  - "1.44.0--r44h3df3fcb_0"
  - "1.46.0--r44h3df3fcb_0"
+ - "1.48.0--r45h01b2380_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tfbstools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tfbstools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tfbstools", "latest": {"1.46.0--r44h3df3fcb_0": "sha256:0fc060bec6d5b690e02b95a29719408c826ce1731c966dfb9c1b34fb5bf504ec"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:7b14058c71f3b8e599e2e44fafe43827f89e8b77a073af14d301bb3039bb8fd6", "1.36.0--r42hc0cfd56_0": "sha256:9135ff6d48db4f7faf3a7f7a5e7c72d32d2611ba6f19d821e1bbf47b17b1363a", "1.36.0--r42ha9d7317_1": "sha256:81f47222b23fcbd9dd5a3613d03998e997990287a4037c3f51ecd823f77c7456", "1.38.0--r43ha9d7317_0": "sha256:c4286af2167eb22bd5ffaa1a6972e0d2d92025c2007ca4ac1a0243c2996531ad", "1.40.0--r43ha9d7317_0": "sha256:e3ab64e301f7a6bc13a59e9b93fd18f35c18a01736f3e37b8bc86f8e4a586f26", "1.40.0--r43ha9d7317_1": "sha256:9412260c85cf56def46cd80d8f16afdb5227c04fdaf7a63160d160940ad5c14d", "1.44.0--r44h3df3fcb_0": "sha256:b1dc2a6d6fc9f4549c896faf87ac19257dcb8bc39b4600a090cbca6c4d5b5124", "1.46.0--r44h3df3fcb_0": "sha256:0fc060bec6d5b690e02b95a29719408c826ce1731c966dfb9c1b34fb5bf504ec"}, "docker": "quay.io/biocontainers/bioconductor-tfbstools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tfbstools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tfbstools", "latest": {"1.48.0--r45h01b2380_0": "sha256:06c87943d7d3b32096303f8a3ce6424f49d5bdf545a45d536ae0a4c048ad5f4a"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:7b14058c71f3b8e599e2e44fafe43827f89e8b77a073af14d301bb3039bb8fd6", "1.36.0--r42hc0cfd56_0": "sha256:9135ff6d48db4f7faf3a7f7a5e7c72d32d2611ba6f19d821e1bbf47b17b1363a", "1.36.0--r42ha9d7317_1": "sha256:81f47222b23fcbd9dd5a3613d03998e997990287a4037c3f51ecd823f77c7456", "1.38.0--r43ha9d7317_0": "sha256:c4286af2167eb22bd5ffaa1a6972e0d2d92025c2007ca4ac1a0243c2996531ad", "1.40.0--r43ha9d7317_0": "sha256:e3ab64e301f7a6bc13a59e9b93fd18f35c18a01736f3e37b8bc86f8e4a586f26", "1.40.0--r43ha9d7317_1": "sha256:9412260c85cf56def46cd80d8f16afdb5227c04fdaf7a63160d160940ad5c14d", "1.44.0--r44h3df3fcb_0": "sha256:b1dc2a6d6fc9f4549c896faf87ac19257dcb8bc39b4600a090cbca6c4d5b5124", "1.46.0--r44h3df3fcb_0": "sha256:0fc060bec6d5b690e02b95a29719408c826ce1731c966dfb9c1b34fb5bf504ec", "1.48.0--r45h01b2380_0": "sha256:06c87943d7d3b32096303f8a3ce6424f49d5bdf545a45d536ae0a4c048ad5f4a"}, "docker": "quay.io/biocontainers/bioconductor-tfbstools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tfbstools.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tfbstools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tfbstools:1.46.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-tfbstools:1.48.0--r45h01b2380_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tfbstools/1.46.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-tfbstools/1.46.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-tfbstools/1.48.0--r45h01b2380_0
+$ module help quay.io/biocontainers/bioconductor-tfbstools/1.48.0--r45h01b2380_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

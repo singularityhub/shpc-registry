@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-amaretto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-amaretto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-amaretto/container.yaml"
-updated_at: "2026-03-18 04:40:53.317854"
-latest: "1.22.0--r44he5774e6_0"
+updated_at: "2026-03-19 04:38:42.316903"
+latest: "1.26.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-amaretto"
 aliases:
  - "pandoc"
@@ -17,8 +17,9 @@ versions:
  - "1.16.0--r43hf17093f_0"
  - "1.18.0--r43hf17093f_0"
  - "1.22.0--r44he5774e6_0"
+ - "1.26.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-amaretto"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-amaretto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-amaretto", "latest": {"1.22.0--r44he5774e6_0": "sha256:d54a0db3b250a5be71292c20dbf3d2ff4fe6e151acba7901c5846a8dc0d43b98"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:49355276bdea97b7e66499fe76661ebe36d729e51f05642cbb6f6e54279a198b", "1.13.0--r42hc247a5b_0": "sha256:0e98bbc89881b4af5f37d1e63cfe9aa48993d5cbc1e0f3a1b1dd7a01f7398ead", "1.10.0--r41hc247a5b_2": "sha256:7001198fe654f446517ba9a7e4caaec0d887b9265dc06c34e73b7a4a7a44906b", "1.16.0--r43hf17093f_0": "sha256:47c54667e76381e772c77b941783ef3c9164257d53311d521b1b629582d7d1d0", "1.18.0--r43hf17093f_0": "sha256:4eb46292b93b839c6e60ea2ad823c8c2a1ffbf6d656490371f2a111ce8ac5525", "1.22.0--r44he5774e6_0": "sha256:d54a0db3b250a5be71292c20dbf3d2ff4fe6e151acba7901c5846a8dc0d43b98"}, "docker": "quay.io/biocontainers/bioconductor-amaretto", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-amaretto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-amaretto", "latest": {"1.26.0--r45ha27e39d_0": "sha256:250b661571139f8243776c993ef93463e38ef2f1ec73c0dbc780540a7e5ed562"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:49355276bdea97b7e66499fe76661ebe36d729e51f05642cbb6f6e54279a198b", "1.13.0--r42hc247a5b_0": "sha256:0e98bbc89881b4af5f37d1e63cfe9aa48993d5cbc1e0f3a1b1dd7a01f7398ead", "1.10.0--r41hc247a5b_2": "sha256:7001198fe654f446517ba9a7e4caaec0d887b9265dc06c34e73b7a4a7a44906b", "1.16.0--r43hf17093f_0": "sha256:47c54667e76381e772c77b941783ef3c9164257d53311d521b1b629582d7d1d0", "1.18.0--r43hf17093f_0": "sha256:4eb46292b93b839c6e60ea2ad823c8c2a1ffbf6d656490371f2a111ce8ac5525", "1.22.0--r44he5774e6_0": "sha256:d54a0db3b250a5be71292c20dbf3d2ff4fe6e151acba7901c5846a8dc0d43b98", "1.26.0--r45ha27e39d_0": "sha256:250b661571139f8243776c993ef93463e38ef2f1ec73c0dbc780540a7e5ed562"}, "docker": "quay.io/biocontainers/bioconductor-amaretto", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-amaretto.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-amaretto
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-amaretto:1.22.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-amaretto:1.26.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-amaretto/1.22.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-amaretto/1.22.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-amaretto/1.26.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-amaretto/1.26.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

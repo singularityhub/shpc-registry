@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylophlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylophlan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylophlan/container.yaml"
-updated_at: "2026-03-18 05:10:10.942811"
-latest: "3.2.1--pyhdfd78af_0"
+updated_at: "2026-03-19 05:06:08.838852"
+latest: "3.2.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phylophlan"
 aliases:
  - "phylophlan"
@@ -31,8 +31,9 @@ versions:
  - "3.1--pyhdfd78af_0"
  - "3.1.1--pyhdfd78af_0"
  - "3.2.1--pyhdfd78af_0"
+ - "3.2.1--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for phylophlan"
-config: {"url": "https://biocontainers.pro/tools/phylophlan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylophlan", "latest": {"3.2.1--pyhdfd78af_0": "sha256:7b0d66787531b91ad884c3cb3837a8707d6161b256998408fb0ffe31f387fb2f"}, "tags": {"3.0--py_7": "sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83", "3.1--pyhdfd78af_0": "sha256:2299cc869c2bdd4c075dad5737448dc91f37f6ee8bcffc9295931a75e142d5ef", "3.1.1--pyhdfd78af_0": "sha256:a08cd83326a81d21d3e78a7ebf36b8255107dfb50c3107b9700c3395381d3cbd", "3.2.1--pyhdfd78af_0": "sha256:7b0d66787531b91ad884c3cb3837a8707d6161b256998408fb0ffe31f387fb2f"}, "docker": "quay.io/biocontainers/phylophlan", "aliases": {"phylophlan": "/usr/local/bin/phylophlan", "phylophlan_draw_metagenomic": "/usr/local/bin/phylophlan_draw_metagenomic", "phylophlan_get_reference": "/usr/local/bin/phylophlan_get_reference", "phylophlan_metagenomic": "/usr/local/bin/phylophlan_metagenomic", "phylophlan_setup_database": "/usr/local/bin/phylophlan_setup_database", "phylophlan_strain_finder": "/usr/local/bin/phylophlan_strain_finder", "phylophlan_write_config_file": "/usr/local/bin/phylophlan_write_config_file", "phylophlan_write_default_configs.sh": "/usr/local/bin/phylophlan_write_default_configs.sh", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3"}}
+config: {"url": "https://biocontainers.pro/tools/phylophlan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylophlan", "latest": {"3.2.1--pyhdfd78af_1": "sha256:cb68e59403c9f2617a4c0e28759cb99f4dfabe78660c754fbf3cf631058f0c44"}, "tags": {"3.0--py_7": "sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83", "3.1--pyhdfd78af_0": "sha256:2299cc869c2bdd4c075dad5737448dc91f37f6ee8bcffc9295931a75e142d5ef", "3.1.1--pyhdfd78af_0": "sha256:a08cd83326a81d21d3e78a7ebf36b8255107dfb50c3107b9700c3395381d3cbd", "3.2.1--pyhdfd78af_0": "sha256:7b0d66787531b91ad884c3cb3837a8707d6161b256998408fb0ffe31f387fb2f", "3.2.1--pyhdfd78af_1": "sha256:cb68e59403c9f2617a4c0e28759cb99f4dfabe78660c754fbf3cf631058f0c44"}, "docker": "quay.io/biocontainers/phylophlan", "aliases": {"phylophlan": "/usr/local/bin/phylophlan", "phylophlan_draw_metagenomic": "/usr/local/bin/phylophlan_draw_metagenomic", "phylophlan_get_reference": "/usr/local/bin/phylophlan_get_reference", "phylophlan_metagenomic": "/usr/local/bin/phylophlan_metagenomic", "phylophlan_setup_database": "/usr/local/bin/phylophlan_setup_database", "phylophlan_strain_finder": "/usr/local/bin/phylophlan_strain_finder", "phylophlan_write_config_file": "/usr/local/bin/phylophlan_write_config_file", "phylophlan_write_default_configs.sh": "/usr/local/bin/phylophlan_write_default_configs.sh", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylophlan.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/phylophlan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylophlan:3.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phylophlan:3.2.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylophlan/3.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/phylophlan/3.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/phylophlan/3.2.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/phylophlan/3.2.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

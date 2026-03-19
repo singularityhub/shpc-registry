@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fastmd5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastmd5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastmd5/container.yaml"
-updated_at: "2026-03-18 05:17:25.376392"
-latest: "1.0.0--h3ab6199_0"
+updated_at: "2026-03-19 05:12:59.197818"
+latest: "1.1.0--h79ce301_0"
 container_url: "https://biocontainers.pro/tools/fastmd5"
 aliases:
  - "fastmd5"
 versions:
  - "1.0.0--h3ab6199_0"
+ - "1.1.0--h79ce301_0"
 description: "singularity registry hpc automated addition for fastmd5"
-config: {"url": "https://biocontainers.pro/tools/fastmd5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastmd5", "latest": {"1.0.0--h3ab6199_0": "sha256:77174d0332ac5a0fe338b629df526f775e2049b58539e6250cbdf6577c411ac7"}, "tags": {"1.0.0--h3ab6199_0": "sha256:77174d0332ac5a0fe338b629df526f775e2049b58539e6250cbdf6577c411ac7"}, "docker": "quay.io/biocontainers/fastmd5", "aliases": {"fastmd5": "/usr/local/bin/fastmd5"}}
+config: {"url": "https://biocontainers.pro/tools/fastmd5", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastmd5", "latest": {"1.1.0--h79ce301_0": "sha256:3ecdebff046f48e2f1eaec208c60611582fea6f0defaeb64a32c4e22db770d3e"}, "tags": {"1.0.0--h3ab6199_0": "sha256:77174d0332ac5a0fe338b629df526f775e2049b58539e6250cbdf6577c411ac7", "1.1.0--h79ce301_0": "sha256:3ecdebff046f48e2f1eaec208c60611582fea6f0defaeb64a32c4e22db770d3e"}, "docker": "quay.io/biocontainers/fastmd5", "aliases": {"fastmd5": "/usr/local/bin/fastmd5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastmd5.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fastmd5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastmd5:1.0.0--h3ab6199_0
+$ shpc install quay.io/biocontainers/fastmd5:1.1.0--h79ce301_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastmd5/1.0.0--h3ab6199_0
-$ module help quay.io/biocontainers/fastmd5/1.0.0--h3ab6199_0
+$ module load quay.io/biocontainers/fastmd5/1.1.0--h79ce301_0
+$ module help quay.io/biocontainers/fastmd5/1.1.0--h79ce301_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

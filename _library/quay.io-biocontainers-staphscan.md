@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/staphscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphscan/container.yaml"
-updated_at: "2026-03-18 04:32:18.326112"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2026-03-19 04:30:38.564421"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphscan"
 aliases:
  - "staphscan"
@@ -36,8 +36,10 @@ aliases:
  - "bsmp2info"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
+ - "0.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for staphscan"
-config: {"url": "https://biocontainers.pro/tools/staphscan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for staphscan", "latest": {"0.1.2--pyhdfd78af_0": "sha256:c353dc467dc4d27e0e77df6191e68b0a911e4698b69037136e7e27615d2f6a35"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:c353dc467dc4d27e0e77df6191e68b0a911e4698b69037136e7e27615d2f6a35"}, "docker": "quay.io/biocontainers/staphscan", "aliases": {"staphscan": "/usr/local/bin/staphscan", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "bsmp2info": "/usr/local/bin/bsmp2info"}}
+config: {"url": "https://biocontainers.pro/tools/staphscan", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for staphscan", "latest": {"0.2.1--pyhdfd78af_0": "sha256:a132db7a6c76cc0a7d8e9d04de74e2b94ec461b5be4f9f47402933b06d53e2e5"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:c353dc467dc4d27e0e77df6191e68b0a911e4698b69037136e7e27615d2f6a35", "0.2.1--pyhdfd78af_0": "sha256:a132db7a6c76cc0a7d8e9d04de74e2b94ec461b5be4f9f47402933b06d53e2e5", "0.1.3--pyhdfd78af_0": "sha256:b9179612f2ede6459d77e4b2489befb69527126bebe5367fd9506f8dd1657ea2"}, "docker": "quay.io/biocontainers/staphscan", "aliases": {"staphscan": "/usr/local/bin/staphscan", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "bsmp2info": "/usr/local/bin/bsmp2info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/staphscan.
@@ -52,7 +54,7 @@ $ shpc install quay.io/biocontainers/staphscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/staphscan:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/staphscan:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/staphscan/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/staphscan/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/staphscan/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/staphscan/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

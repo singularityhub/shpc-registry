@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mouseagingdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mouseagingdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mouseagingdata/container.yaml"
-updated_at: "2026-03-18 05:15:17.568122"
+updated_at: "2026-03-19 05:10:59.990696"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mouseagingdata"
 aliases:
