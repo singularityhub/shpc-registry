@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oncomix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oncomix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oncomix/container.yaml"
-updated_at: "2026-03-20 00:57:36.267676"
+updated_at: "2026-03-20 05:05:11.715171"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oncomix"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmats2sashimiplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmats2sashimiplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmats2sashimiplot/container.yaml"
-updated_at: "2026-03-20 00:19:13.473095"
+updated_at: "2026-03-20 04:26:30.554304"
 latest: "3.0.0--py39hdff8610_2"
 container_url: "https://biocontainers.pro/tools/rmats2sashimiplot"
 aliases:

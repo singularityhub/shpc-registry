@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jupiterplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jupiterplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jupiterplot/container.yaml"
-updated_at: "2026-03-20 00:32:48.892971"
+updated_at: "2026-03-20 04:40:19.999597"
 latest: "1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jupiterplot"
 aliases:

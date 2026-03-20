@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mira/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mira/container.yaml"
-updated_at: "2026-03-20 00:50:42.174356"
+updated_at: "2026-03-20 04:58:24.463535"
 latest: "5.0.0rc2--hb5a7bbe_0"
 container_url: "https://biocontainers.pro/tools/mira"
 aliases:

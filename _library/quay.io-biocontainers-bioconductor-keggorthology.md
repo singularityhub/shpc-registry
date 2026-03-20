@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-keggorthology"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggorthology/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggorthology/container.yaml"
-updated_at: "2026-03-20 00:18:58.088948"
+updated_at: "2026-03-20 04:26:15.315631"
 latest: "2.62.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggorthology"
 

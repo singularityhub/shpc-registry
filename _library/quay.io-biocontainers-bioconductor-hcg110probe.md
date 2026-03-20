@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hcg110probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hcg110probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hcg110probe/container.yaml"
-updated_at: "2026-03-20 00:19:53.296083"
+updated_at: "2026-03-20 04:27:09.962723"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-hcg110probe"
 

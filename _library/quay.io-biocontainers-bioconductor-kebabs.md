@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kebabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kebabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kebabs/container.yaml"
-updated_at: "2026-03-20 00:22:29.466087"
+updated_at: "2026-03-20 04:29:51.031249"
 latest: "1.40.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kebabs"
 
