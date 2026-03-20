@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-confess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-confess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-confess/container.yaml"
-updated_at: "2026-03-19 05:16:09.994205"
-latest: "1.34.0--r44hdfd78af_0"
+updated_at: "2026-03-20 01:01:21.939694"
+latest: "1.38.0--r45h575d39b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-confess"
 aliases:
  - "fftw-wisdom"
@@ -18,8 +18,9 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.34.0--r44hdfd78af_0"
+ - "1.38.0--r45h575d39b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-confess"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-confess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-confess", "latest": {"1.34.0--r44hdfd78af_0": "sha256:002bdd8f7e4b42dba80f44b05a8efae8654ba4d6c044ca024b470d08414d9751"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:ab1b2bec1787b8abe3a1d62559050a7e470cee5dc017729bcb12aba50a48c560", "1.26.0--r42hdfd78af_0": "sha256:48d25c214cb41d73788e38a3d4babe12e07c0fe74f54a3c18c96d1395ac8fdda", "1.28.0--r43hdfd78af_0": "sha256:b0adb0ea7869f2789bdef24f6a249492c438e6b9daef08f60ceb5ddeae645d18", "1.30.0--r43hdfd78af_0": "sha256:ae7e4550ff5f13fa6d6f687edbadcad8448528b9b23fc81d2c6cbdfaacf877a5", "1.34.0--r44hdfd78af_0": "sha256:002bdd8f7e4b42dba80f44b05a8efae8654ba4d6c044ca024b470d08414d9751"}, "docker": "quay.io/biocontainers/bioconductor-confess", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-confess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-confess", "latest": {"1.38.0--r45h575d39b_0": "sha256:d1fc3d48be60abbed418a04c6b15972f2d0ac205ce9c35ed1ec7439ed9549ec7"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:ab1b2bec1787b8abe3a1d62559050a7e470cee5dc017729bcb12aba50a48c560", "1.26.0--r42hdfd78af_0": "sha256:48d25c214cb41d73788e38a3d4babe12e07c0fe74f54a3c18c96d1395ac8fdda", "1.28.0--r43hdfd78af_0": "sha256:b0adb0ea7869f2789bdef24f6a249492c438e6b9daef08f60ceb5ddeae645d18", "1.30.0--r43hdfd78af_0": "sha256:ae7e4550ff5f13fa6d6f687edbadcad8448528b9b23fc81d2c6cbdfaacf877a5", "1.34.0--r44hdfd78af_0": "sha256:002bdd8f7e4b42dba80f44b05a8efae8654ba4d6c044ca024b470d08414d9751", "1.38.0--r45h575d39b_0": "sha256:d1fc3d48be60abbed418a04c6b15972f2d0ac205ce9c35ed1ec7439ed9549ec7"}, "docker": "quay.io/biocontainers/bioconductor-confess", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-confess.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-confess
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-confess:1.34.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-confess:1.38.0--r45h575d39b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-confess/1.34.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-confess/1.34.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-confess/1.38.0--r45h575d39b_0
+$ module help quay.io/biocontainers/bioconductor-confess/1.38.0--r45h575d39b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

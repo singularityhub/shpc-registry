@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plantcv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plantcv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plantcv/container.yaml"
-updated_at: "2026-03-19 05:12:13.530187"
+updated_at: "2026-03-20 00:57:19.683311"
 latest: "3.8.0--py_0"
 container_url: "https://biocontainers.pro/tools/plantcv"
 

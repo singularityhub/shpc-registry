@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flashlfq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flashlfq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flashlfq/container.yaml"
-updated_at: "2026-03-19 04:56:48.747252"
+updated_at: "2026-03-20 00:41:27.502367"
 latest: "2.1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flashlfq"
 aliases:

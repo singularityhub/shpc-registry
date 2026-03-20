@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia/hpc-benchmarks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/hpc-benchmarks/container.yaml"
-updated_at: "2026-03-19 04:26:08.374192"
+updated_at: "2026-03-20 00:10:05.564884"
 latest: "20.10-hpl"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:hpc-benchmarks/tags"
 

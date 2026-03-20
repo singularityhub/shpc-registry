@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pispino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pispino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pispino/container.yaml"
-updated_at: "2026-03-19 04:29:13.969727"
+updated_at: "2026-03-20 00:13:23.868504"
 latest: "1.1--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/pispino"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ont-tombo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont-tombo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont-tombo/container.yaml"
-updated_at: "2026-03-19 04:35:07.838794"
+updated_at: "2026-03-20 00:19:25.497384"
 latest: "1.5--py27r36hb3f55d8_2"
 container_url: "https://biocontainers.pro/tools/ont-tombo"
 aliases:

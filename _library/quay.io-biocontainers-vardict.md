@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vardict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vardict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vardict/container.yaml"
-updated_at: "2026-03-19 05:22:54.601553"
+updated_at: "2026-03-20 01:08:17.158323"
 latest: "2019.06.04--pl526_0"
 container_url: "https://biocontainers.pro/tools/vardict"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-cbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-cbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-cbuilder/container.yaml"
-updated_at: "2026-03-19 04:35:36.397724"
+updated_at: "2026-03-20 00:19:54.816211"
 latest: "0.280230--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-extutils-cbuilder"
 aliases:

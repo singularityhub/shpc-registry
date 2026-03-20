@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/revtrans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/revtrans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/revtrans/container.yaml"
-updated_at: "2026-03-19 05:13:21.941357"
+updated_at: "2026-03-20 00:58:30.061778"
 latest: "1.4--py_1"
 container_url: "https://biocontainers.pro/tools/revtrans"
 aliases:

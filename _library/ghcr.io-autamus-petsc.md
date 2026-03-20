@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/petsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/petsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/petsc/container.yaml"
-updated_at: "2026-03-19 04:26:24.191675"
+updated_at: "2026-03-20 00:10:22.368551"
 latest: "3.18.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/petsc"
 

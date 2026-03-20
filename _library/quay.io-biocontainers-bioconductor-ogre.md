@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ogre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ogre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ogre/container.yaml"
-updated_at: "2026-03-19 05:23:26.216372"
-latest: "1.10.0--r44hdfd78af_0"
+updated_at: "2026-03-20 01:08:49.145150"
+latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ogre"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ versions:
  - "1.4.0--r43hdfd78af_0"
  - "1.6.0--r43hdfd78af_0"
  - "1.10.0--r44hdfd78af_0"
+ - "1.14.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-ogre"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ogre", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ogre", "latest": {"1.10.0--r44hdfd78af_0": "sha256:82aabbca0f268c4ecf23b6f0d702d9422506b7dc742fe83a406184116d733980"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:dd57e43fbca24d72b47394cc62613bd48862089ba9c4ab3ecae542cfaf784e6a", "1.4.0--r43hdfd78af_0": "sha256:58c9682d05ed92b018252301e2bcaee17d2e75e775ba99da70994fb18028dfc5", "1.6.0--r43hdfd78af_0": "sha256:4e85532e75d1280d5aa503b0fb9e9e7615b8cdd04eb6117a5734ab57f3a39580", "1.10.0--r44hdfd78af_0": "sha256:82aabbca0f268c4ecf23b6f0d702d9422506b7dc742fe83a406184116d733980"}, "docker": "quay.io/biocontainers/bioconductor-ogre", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ogre", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ogre", "latest": {"1.14.0--r45hdfd78af_0": "sha256:3aa5e53ce23f86e533203ec2c34b8a75ed8d953efb001349dc2f72592c244fc7"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:dd57e43fbca24d72b47394cc62613bd48862089ba9c4ab3ecae542cfaf784e6a", "1.4.0--r43hdfd78af_0": "sha256:58c9682d05ed92b018252301e2bcaee17d2e75e775ba99da70994fb18028dfc5", "1.6.0--r43hdfd78af_0": "sha256:4e85532e75d1280d5aa503b0fb9e9e7615b8cdd04eb6117a5734ab57f3a39580", "1.10.0--r44hdfd78af_0": "sha256:82aabbca0f268c4ecf23b6f0d702d9422506b7dc742fe83a406184116d733980", "1.14.0--r45hdfd78af_0": "sha256:3aa5e53ce23f86e533203ec2c34b8a75ed8d953efb001349dc2f72592c244fc7"}, "docker": "quay.io/biocontainers/bioconductor-ogre", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ogre.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ogre
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ogre:1.10.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ogre:1.14.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ogre/1.10.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ogre/1.10.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ogre/1.14.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ogre/1.14.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

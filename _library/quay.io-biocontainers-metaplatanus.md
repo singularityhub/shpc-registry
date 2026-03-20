@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaplatanus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaplatanus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaplatanus/container.yaml"
-updated_at: "2026-03-19 04:34:47.799569"
-latest: "1.3.1--h6a68c12_1"
+updated_at: "2026-03-20 00:19:05.151616"
+latest: "1.3.1--h0bb26bb_2"
 container_url: "https://biocontainers.pro/tools/metaplatanus"
 aliases:
  - "aggregateBinDepths.pl"
@@ -62,8 +62,9 @@ aliases:
 versions:
  - "1.3.1--hf1761c0_0"
  - "1.3.1--h6a68c12_1"
+ - "1.3.1--h0bb26bb_2"
 description: "singularity registry hpc automated addition for metaplatanus"
-config: {"url": "https://biocontainers.pro/tools/metaplatanus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metaplatanus", "latest": {"1.3.1--h6a68c12_1": "sha256:42419497b64f33207342c04909feb5b879ad7322a1b433faf982fc70a66cc120"}, "tags": {"1.3.1--hf1761c0_0": "sha256:2da93a556e67b9da7184b59996bb2a229eadb5223aa256ee16008a800a367250", "1.3.1--h6a68c12_1": "sha256:42419497b64f33207342c04909feb5b879ad7322a1b433faf982fc70a66cc120"}, "docker": "quay.io/biocontainers/metaplatanus", "aliases": {"aggregateBinDepths.pl": "/usr/local/bin/aggregateBinDepths.pl", "aggregateContigOverlapsByBin.pl": "/usr/local/bin/aggregateContigOverlapsByBin.pl", "contigOverlaps": "/usr/local/bin/contigOverlaps", "file": "/usr/local/bin/file", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "jgi_summarize_bam_contig_depths": "/usr/local/bin/jgi_summarize_bam_contig_depths", "merge_depths.pl": "/usr/local/bin/merge_depths.pl", "metabat": "/usr/local/bin/metabat", "metabat1": "/usr/local/bin/metabat1", "metabat2": "/usr/local/bin/metabat2", "metaplatanus": "/usr/local/bin/metaplatanus", "runMetaBat.sh": "/usr/local/bin/runMetaBat.sh", "tgsgapcloser": "/usr/local/bin/tgsgapcloser", "tgsgapcloser_mod": "/usr/local/bin/tgsgapcloser_mod", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "megahit": "/usr/local/bin/megahit", "megahit_toolkit": "/usr/local/bin/megahit_toolkit", "seqkit": "/usr/local/bin/seqkit", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/metaplatanus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metaplatanus", "latest": {"1.3.1--h0bb26bb_2": "sha256:189505553091a8908ba229eaf871c9098f6c87d742d128c978f1bdffc26a9f18"}, "tags": {"1.3.1--hf1761c0_0": "sha256:2da93a556e67b9da7184b59996bb2a229eadb5223aa256ee16008a800a367250", "1.3.1--h6a68c12_1": "sha256:42419497b64f33207342c04909feb5b879ad7322a1b433faf982fc70a66cc120", "1.3.1--h0bb26bb_2": "sha256:189505553091a8908ba229eaf871c9098f6c87d742d128c978f1bdffc26a9f18"}, "docker": "quay.io/biocontainers/metaplatanus", "aliases": {"aggregateBinDepths.pl": "/usr/local/bin/aggregateBinDepths.pl", "aggregateContigOverlapsByBin.pl": "/usr/local/bin/aggregateContigOverlapsByBin.pl", "contigOverlaps": "/usr/local/bin/contigOverlaps", "file": "/usr/local/bin/file", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "jgi_summarize_bam_contig_depths": "/usr/local/bin/jgi_summarize_bam_contig_depths", "merge_depths.pl": "/usr/local/bin/merge_depths.pl", "metabat": "/usr/local/bin/metabat", "metabat1": "/usr/local/bin/metabat1", "metabat2": "/usr/local/bin/metabat2", "metaplatanus": "/usr/local/bin/metaplatanus", "runMetaBat.sh": "/usr/local/bin/runMetaBat.sh", "tgsgapcloser": "/usr/local/bin/tgsgapcloser", "tgsgapcloser_mod": "/usr/local/bin/tgsgapcloser_mod", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "megahit": "/usr/local/bin/megahit", "megahit_toolkit": "/usr/local/bin/megahit_toolkit", "seqkit": "/usr/local/bin/seqkit", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaplatanus.
@@ -78,7 +79,7 @@ $ shpc install quay.io/biocontainers/metaplatanus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaplatanus:1.3.1--h6a68c12_1
+$ shpc install quay.io/biocontainers/metaplatanus:1.3.1--h0bb26bb_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -90,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaplatanus/1.3.1--h6a68c12_1
-$ module help quay.io/biocontainers/metaplatanus/1.3.1--h6a68c12_1
+$ module load quay.io/biocontainers/metaplatanus/1.3.1--h0bb26bb_2
+$ module help quay.io/biocontainers/metaplatanus/1.3.1--h0bb26bb_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

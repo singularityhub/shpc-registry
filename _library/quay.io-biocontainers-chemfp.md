@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chemfp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chemfp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chemfp/container.yaml"
-updated_at: "2026-03-19 05:15:10.922856"
+updated_at: "2026-03-20 01:00:21.627157"
 latest: "1.6.1--py27h9801fc8_2"
 container_url: "https://biocontainers.pro/tools/chemfp"
 aliases:

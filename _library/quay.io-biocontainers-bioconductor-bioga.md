@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bioga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bioga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bioga/container.yaml"
-updated_at: "2026-03-19 05:11:53.136198"
-latest: "1.0.0--r44he5774e6_0"
+updated_at: "2026-03-20 00:56:58.750809"
+latest: "1.4.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bioga"
 aliases:
  - "cllayerinfo"
@@ -39,8 +39,9 @@ aliases:
  - "MagickWand-config"
 versions:
  - "1.0.0--r44he5774e6_0"
+ - "1.4.0--r45ha27e39d_0"
 description: "singularity registry hpc automated addition for bioconductor-bioga"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bioga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-bioga", "latest": {"1.0.0--r44he5774e6_0": "sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d"}, "tags": {"1.0.0--r44he5774e6_0": "sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d"}, "docker": "quay.io/biocontainers/bioconductor-bioga", "aliases": {"cllayerinfo": "/usr/local/bin/cllayerinfo", "dec265": "/usr/local/bin/dec265", "protoc-28.2.0": "/usr/local/bin/protoc-28.2.0", "wayland-scanner": "/usr/local/bin/wayland-scanner", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x265": "/usr/local/bin/x265", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "x264": "/usr/local/bin/x264", "rav1e": "/usr/local/bin/rav1e", "pandoc-lua": "/usr/local/bin/pandoc-lua", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pandoc-server": "/usr/local/bin/pandoc-server", "lame": "/usr/local/bin/lame", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bioga", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-bioga", "latest": {"1.4.0--r45ha27e39d_0": "sha256:f1f44543cf1fad9d82aef1f905314725b31decf211239fe4a9754435d2fefc39"}, "tags": {"1.0.0--r44he5774e6_0": "sha256:bb721aebeca4c0f1b8f843ffd861ee337eaaed07bae1f234302aea18b30edc6d", "1.4.0--r45ha27e39d_0": "sha256:f1f44543cf1fad9d82aef1f905314725b31decf211239fe4a9754435d2fefc39"}, "docker": "quay.io/biocontainers/bioconductor-bioga", "aliases": {"cllayerinfo": "/usr/local/bin/cllayerinfo", "dec265": "/usr/local/bin/dec265", "protoc-28.2.0": "/usr/local/bin/protoc-28.2.0", "wayland-scanner": "/usr/local/bin/wayland-scanner", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x265": "/usr/local/bin/x265", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "x264": "/usr/local/bin/x264", "rav1e": "/usr/local/bin/rav1e", "pandoc-lua": "/usr/local/bin/pandoc-lua", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pandoc-server": "/usr/local/bin/pandoc-server", "lame": "/usr/local/bin/lame", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bioga.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bioga
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bioga:1.0.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-bioga:1.4.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bioga/1.0.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-bioga/1.0.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-bioga/1.4.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-bioga/1.4.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

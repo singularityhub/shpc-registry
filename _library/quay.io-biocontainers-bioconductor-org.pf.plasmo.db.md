@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-org.pf.plasmo.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.pf.plasmo.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.pf.plasmo.db/container.yaml"
-updated_at: "2026-03-19 04:56:40.263552"
-latest: "3.14.0--r41hdfd78af_1"
+updated_at: "2026-03-20 00:41:18.915667"
+latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.pf.plasmo.db"
 aliases:
  - "gio-launch-desktop"
@@ -18,8 +18,9 @@ versions:
  - "3.12.0--r40hdfd78af_1"
  - "3.11.1--r40_0"
  - "3.10.0--r36_0"
+ - "3.22.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.pf.plasmo.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.pf.plasmo.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.pf.plasmo.db", "latest": {"3.14.0--r41hdfd78af_1": "sha256:e73fecb3adbe00af78d794277613d0069fdcf9ede35ab1f7333ae5f537ce7220"}, "tags": {"3.8.2--r36_1": "sha256:96a3e5e65de8620263b527c69860de2c102a410e909f52e4564c7031e011c599", "3.14.0--r41hdfd78af_1": "sha256:e73fecb3adbe00af78d794277613d0069fdcf9ede35ab1f7333ae5f537ce7220", "3.13.0--r41hdfd78af_0": "sha256:af2c9118506ce5d92e234631538fc3dad4c1da6b5b0d5daff517aaf5cab35d47", "3.12.0--r40hdfd78af_1": "sha256:3bac465b709bfde97540b89cd72440359dd65308464a5dd41ef5041e8bda8168", "3.11.1--r40_0": "sha256:4f6b77ea067bec00ae6ec913f339710f1fd0c92e6b8387e1dcfba8c44337561b", "3.10.0--r36_0": "sha256:cfb5324b4a36eda916f8ae64753989d384f8daa536b4c919d7588794125ef6da"}, "docker": "quay.io/biocontainers/bioconductor-org.pf.plasmo.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.pf.plasmo.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.pf.plasmo.db", "latest": {"3.22.0--r45hdfd78af_0": "sha256:3a305435481126db6a81e3af07a77d26f9d2d8176b641e756687c1664bc4c6cc"}, "tags": {"3.8.2--r36_1": "sha256:96a3e5e65de8620263b527c69860de2c102a410e909f52e4564c7031e011c599", "3.14.0--r41hdfd78af_1": "sha256:e73fecb3adbe00af78d794277613d0069fdcf9ede35ab1f7333ae5f537ce7220", "3.13.0--r41hdfd78af_0": "sha256:af2c9118506ce5d92e234631538fc3dad4c1da6b5b0d5daff517aaf5cab35d47", "3.12.0--r40hdfd78af_1": "sha256:3bac465b709bfde97540b89cd72440359dd65308464a5dd41ef5041e8bda8168", "3.11.1--r40_0": "sha256:4f6b77ea067bec00ae6ec913f339710f1fd0c92e6b8387e1dcfba8c44337561b", "3.10.0--r36_0": "sha256:cfb5324b4a36eda916f8ae64753989d384f8daa536b4c919d7588794125ef6da", "3.22.0--r45hdfd78af_0": "sha256:3a305435481126db6a81e3af07a77d26f9d2d8176b641e756687c1664bc4c6cc"}, "docker": "quay.io/biocontainers/bioconductor-org.pf.plasmo.db", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.pf.plasmo.db.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-org.pf.plasmo.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-org.pf.plasmo.db:3.14.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-org.pf.plasmo.db:3.22.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-org.pf.plasmo.db/3.14.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-org.pf.plasmo.db/3.14.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-org.pf.plasmo.db/3.22.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-org.pf.plasmo.db/3.22.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

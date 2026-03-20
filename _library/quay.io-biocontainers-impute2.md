@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/impute2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/impute2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/impute2/container.yaml"
-updated_at: "2026-03-19 05:17:14.832148"
+updated_at: "2026-03-20 01:02:28.444797"
 latest: "2.3.2--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/impute2"
 aliases:

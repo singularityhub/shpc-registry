@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrpipe/container.yaml"
-updated_at: "2026-03-19 04:54:47.995392"
+updated_at: "2026-03-20 00:39:24.864521"
 latest: "0.0.5--py_0"
 container_url: "https://biocontainers.pro/tools/pyrpipe"
 aliases:

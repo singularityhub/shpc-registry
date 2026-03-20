@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kinsimriboswitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kinsimriboswitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kinsimriboswitch/container.yaml"
-updated_at: "2026-03-19 05:07:40.364581"
+updated_at: "2026-03-20 00:52:39.570736"
 latest: "0.3--pl5262r40ha325a96_3"
 container_url: "https://biocontainers.pro/tools/kinsimriboswitch"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-sortedcontainers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-sortedcontainers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-sortedcontainers/container.yaml"
-updated_at: "2026-03-19 04:27:31.532807"
+updated_at: "2026-03-20 00:11:33.886342"
 latest: "2.4.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/python-sortedcontainers"
 aliases:

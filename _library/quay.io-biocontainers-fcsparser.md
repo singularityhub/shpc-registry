@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fcsparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fcsparser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fcsparser/container.yaml"
-updated_at: "2026-03-19 05:10:27.992969"
+updated_at: "2026-03-20 00:55:31.261094"
 latest: "0.2.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fcsparser"
 aliases:

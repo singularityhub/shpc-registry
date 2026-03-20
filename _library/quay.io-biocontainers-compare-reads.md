@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/compare-reads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/compare-reads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/compare-reads/container.yaml"
-updated_at: "2026-03-19 05:18:21.621911"
+updated_at: "2026-03-20 01:03:37.835613"
 latest: "0.0.1--py310h1fe012e_2"
 container_url: "https://biocontainers.pro/tools/compare-reads"
 aliases:

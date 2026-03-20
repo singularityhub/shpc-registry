@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cytopipelinegui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytopipelinegui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytopipelinegui/container.yaml"
-updated_at: "2026-03-19 04:49:46.081954"
-latest: "1.4.0--r44hdfd78af_0"
+updated_at: "2026-03-20 00:34:18.695322"
+latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytopipelinegui"
 aliases:
  - "pcre2posix_test"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.4.0--r44hdfd78af_0"
+ - "1.8.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cytopipelinegui"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytopipelinegui", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytopipelinegui", "latest": {"1.4.0--r44hdfd78af_0": "sha256:0bc733cec8b601923224e001975401942ae2b2d69f3e864ae2b0f1eeb599c1d1"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2d11b8e6d1423c3bf8bb141b8ad996efed2785b80cc9dac3b9b81a22969f7e53", "1.4.0--r44hdfd78af_0": "sha256:0bc733cec8b601923224e001975401942ae2b2d69f3e864ae2b0f1eeb599c1d1"}, "docker": "quay.io/biocontainers/bioconductor-cytopipelinegui", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytopipelinegui", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cytopipelinegui", "latest": {"1.8.0--r45hdfd78af_0": "sha256:3c0ec526e989da41aa3c7d19b48ce743d7fdc2ee947ea1f83eacee64f1c77bc8"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2d11b8e6d1423c3bf8bb141b8ad996efed2785b80cc9dac3b9b81a22969f7e53", "1.4.0--r44hdfd78af_0": "sha256:0bc733cec8b601923224e001975401942ae2b2d69f3e864ae2b0f1eeb599c1d1", "1.8.0--r45hdfd78af_0": "sha256:3c0ec526e989da41aa3c7d19b48ce743d7fdc2ee947ea1f83eacee64f1c77bc8"}, "docker": "quay.io/biocontainers/bioconductor-cytopipelinegui", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytopipelinegui.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytopipelinegui
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytopipelinegui:1.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytopipelinegui:1.8.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytopipelinegui/1.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytopipelinegui/1.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytopipelinegui/1.8.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytopipelinegui/1.8.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
