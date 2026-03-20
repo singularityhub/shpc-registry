@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/r-devemf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-devemf
+latest:
+  4.5_1--r45h1d2eddd_1: 
+    sha256:02338dad9241b1d7b6c2d8c4374f2112c097f3afd9e4f1c9d3f5fde69bbde9e4
+tags:
+  4.5_1--r45h1d2eddd_1: 
+    sha256:02338dad9241b1d7b6c2d8c4374f2112c097f3afd9e4f1c9d3f5fde69bbde9e4
+docker: quay.io/biocontainers/r-devemf
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

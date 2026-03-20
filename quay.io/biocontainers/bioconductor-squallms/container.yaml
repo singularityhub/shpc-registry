@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/bioconductor-squallms
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-squallms
+latest:
+  1.4.0--r45hdfd78af_0: 
+    sha256:332ff5f36d7ce5826602815b5ac3d6b338a3e4ccde00f9baf9a1405db925b5f6
+tags:
+  1.4.0--r45hdfd78af_0: 
+    sha256:332ff5f36d7ce5826602815b5ac3d6b338a3e4ccde00f9baf9a1405db925b5f6
+docker: quay.io/biocontainers/bioconductor-squallms
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  h5fuse: /usr/local/bin/h5fuse
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  gif2hdf: /usr/local/bin/gif2hdf
+  h4_ncdump: /usr/local/bin/h4_ncdump
+  h4_ncgen: /usr/local/bin/h4_ncgen
+  h4cc: /usr/local/bin/h4cc
+  h4redeploy: /usr/local/bin/h4redeploy
+  hdf24to8: /usr/local/bin/hdf24to8
+  hdf2gif: /usr/local/bin/hdf2gif
+  hdf2jpeg: /usr/local/bin/hdf2jpeg
+  hdf8to24: /usr/local/bin/hdf8to24
+  hdfcomp: /usr/local/bin/hdfcomp
+  hdfed: /usr/local/bin/hdfed
+  hdfimport: /usr/local/bin/hdfimport
+  hdfls: /usr/local/bin/hdfls
+  hdfpack: /usr/local/bin/hdfpack
+  hdftopal: /usr/local/bin/hdftopal
+  hdftor8: /usr/local/bin/hdftor8
+  hdfunpac: /usr/local/bin/hdfunpac
+  hdiff: /usr/local/bin/hdiff

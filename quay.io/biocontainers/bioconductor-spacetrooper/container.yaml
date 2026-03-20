@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/bioconductor-spacetrooper
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-spacetrooper
+latest:
+  1.0.1--r45hdfd78af_0: 
+    sha256:5c6cdbf22f80a5af2be7ba0e6967ca6b0d0cadb9765b6662ee11925c95d72c68
+tags:
+  1.0.1--r45hdfd78af_0: 
+    sha256:5c6cdbf22f80a5af2be7ba0e6967ca6b0d0cadb9765b6662ee11925c95d72c68
+docker: quay.io/biocontainers/bioconductor-spacetrooper
+aliases:
+  gdal: /usr/local/bin/gdal
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  sozip: /usr/local/bin/sozip
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  h2benchmark: /usr/local/bin/h2benchmark
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  dec265: /usr/local/bin/dec265
+  bsdunzip: /usr/local/bin/bsdunzip
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  gdal_create: /usr/local/bin/gdal_create
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastishadow: /usr/local/bin/elastishadow
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs

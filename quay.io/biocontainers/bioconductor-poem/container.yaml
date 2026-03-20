@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/bioconductor-poem
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-poem
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:842c068a733e9ede04342b1757b987f5413bb3dabe1c07f3d95124c24d8dad1f
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:842c068a733e9ede04342b1757b987f5413bb3dabe1c07f3d95124c24d8dad1f
+docker: quay.io/biocontainers/bioconductor-poem
+aliases:
+  gdal: /usr/local/bin/gdal
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  sozip: /usr/local/bin/sozip
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  dot_sandbox: /usr/local/bin/dot_sandbox
+  dec265: /usr/local/bin/dec265
+  bsdunzip: /usr/local/bin/bsdunzip
+  gtk-builder-tool: /usr/local/bin/gtk-builder-tool
+  gtk-encode-symbolic-svg: /usr/local/bin/gtk-encode-symbolic-svg
+  gtk-launch: /usr/local/bin/gtk-launch
+  gtk-query-immodules-3.0: /usr/local/bin/gtk-query-immodules-3.0
+  gtk-query-settings: /usr/local/bin/gtk-query-settings
+  gdal_create: /usr/local/bin/gdal_create
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  x265: /usr/local/bin/x265
+  gnmanalyse: /usr/local/bin/gnmanalyse
+  gnmmanage: /usr/local/bin/gnmmanage
+  gdal-config: /usr/local/bin/gdal-config
+  gdal_contour: /usr/local/bin/gdal_contour
+  gdal_grid: /usr/local/bin/gdal_grid

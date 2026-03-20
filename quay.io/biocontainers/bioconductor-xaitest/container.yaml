@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/bioconductor-xaitest
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-xaitest
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:4c6215ef773dd46f97b0720fd9fb14e0d9faa40436365f154555205f81995fb1
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:4c6215ef773dd46f97b0720fd9fb14e0d9faa40436365f154555205f81995fb1
+docker: quay.io/biocontainers/bioconductor-xaitest
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info

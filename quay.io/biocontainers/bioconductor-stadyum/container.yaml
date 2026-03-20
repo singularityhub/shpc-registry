@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-stadyum
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-stadyum
+latest:
+  1.0.2--r45ha27e39d_0: 
+    sha256:5dd977f99d640389ba91b4a9a8b23819686d4d265b835e729a22fbd6aa967dc0
+tags:
+  1.0.2--r45ha27e39d_0: 
+    sha256:5dd977f99d640389ba91b4a9a8b23819686d4d265b835e729a22fbd6aa967dc0
+docker: quay.io/biocontainers/bioconductor-stadyum
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

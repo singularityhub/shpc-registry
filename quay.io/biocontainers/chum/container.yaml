@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/chum
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chum
+latest:
+  0.2.0--h79ce301_0: 
+    sha256:3035a7c58386c05b83e6d64123a40b211c36766aa108aa95563ed59c40c27ac9
+tags:
+  0.2.0--h79ce301_0: 
+    sha256:3035a7c58386c05b83e6d64123a40b211c36766aa108aa95563ed59c40c27ac9
+docker: quay.io/biocontainers/chum
+aliases:
+  chum: /usr/local/bin/chum
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin

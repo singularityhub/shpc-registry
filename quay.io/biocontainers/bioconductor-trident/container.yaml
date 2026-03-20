@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/bioconductor-trident
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-trident
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:86a55a6335e0c6f15703a8263737c4293f6f910412e587000e83b5baba5a369e
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:86a55a6335e0c6f15703a8263737c4293f6f910412e587000e83b5baba5a369e
+docker: quay.io/biocontainers/bioconductor-trident
+aliases:
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

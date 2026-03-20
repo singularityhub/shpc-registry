@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/bioconductor-sanityr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  bioconductor-sanityr
+latest:
+  1.0.0--r45ha27e39d_0: 
+    sha256:e83d0183363e250f10ba613eaac82fd414f43987137aea5c2328b5b535ba9459
+tags:
+  1.0.0--r45ha27e39d_0: 
+    sha256:e83d0183363e250f10ba613eaac82fd414f43987137aea5c2328b5b535ba9459
+docker: quay.io/biocontainers/bioconductor-sanityr
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

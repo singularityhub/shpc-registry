@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/bioconductor-rucova
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-rucova
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:3dcea41067cf02c24a0b354b879842f5a3e28822b193265b9c976be4246a58c3
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:3dcea41067cf02c24a0b354b879842f5a3e28822b193265b9c976be4246a58c3
+docker: quay.io/biocontainers/bioconductor-rucova
+aliases:
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info
