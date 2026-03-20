@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scope
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:1e97491d556d8da779053e692b9b9a0aff8ff4d853cf9ec2a337880fb49f8d5c
+  1.22.0--r45hdfd78af_0: 
+    sha256:f9ab615e52b400e72350f2f454a6c4cfb77eb46e4d1dfa6a42431679c4c0fc14
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:c9d481b2cdf07962e53df2e07a7ed0e0d22f72bb68565e3986d2da7ca42c11d8
@@ -16,4 +16,6 @@ tags:
     sha256:34641618d0205c50f5f14a40f9100d2290cfb1d2cf5159cda4ee5ab060ece5bb
   1.18.0--r44hdfd78af_0: 
     sha256:1e97491d556d8da779053e692b9b9a0aff8ff4d853cf9ec2a337880fb49f8d5c
+  1.22.0--r45hdfd78af_0: 
+    sha256:f9ab615e52b400e72350f2f454a6c4cfb77eb46e4d1dfa6a42431679c4c0fc14
 docker: quay.io/biocontainers/bioconductor-scope

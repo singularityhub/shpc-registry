@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-annmap
 latest:
-  1.48.0--r44hdfd78af_0: 
-    sha256:f589ce250185a2938478546a08453a4e249831dfd50d2a6ddd6d84882d8ce812
+  1.52.0--r45hdfd78af_0: 
+    sha256:66069f778fa54beebd78512f4089a8c193f802bfab1d536a843c0abcfc034055
 tags:
   1.36.0--r41hdfd78af_0: 
     sha256:c7e0332122ab972cb8cba4291bff66d11e60356d8a87410ae6b52e4fe0de09a0
@@ -16,6 +16,8 @@ tags:
     sha256:eefcf7306fa480f43c2a9bd81d5859dd2d3639675a9810266d1e8eabfa2a3539
   1.48.0--r44hdfd78af_0: 
     sha256:f589ce250185a2938478546a08453a4e249831dfd50d2a6ddd6d84882d8ce812
+  1.52.0--r45hdfd78af_0: 
+    sha256:66069f778fa54beebd78512f4089a8c193f802bfab1d536a843c0abcfc034055
 docker: quay.io/biocontainers/bioconductor-annmap
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

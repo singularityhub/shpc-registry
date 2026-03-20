@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-xcoredata
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:4c416d25a31b51f537ae37452113f31ab85ae7adeb42fee21e44ce443e83b006
+  1.14.0--r45hdfd78af_0: 
+    sha256:c2df1eca9dde263fb11c73d9b1e96526fe8706a8fd7b3f1f0750046c93f51d85
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:78fdbefa3a1907f35b86fe7be0217de426f1cc17c20a5fa1cff564601dc5f338
@@ -14,6 +14,8 @@ tags:
     sha256:98caaead1069ec9db61411757bdcf6570394d254ae5d93b9ada6395ce3332bc4
   1.10.0--r44hdfd78af_0: 
     sha256:4c416d25a31b51f537ae37452113f31ab85ae7adeb42fee21e44ce443e83b006
+  1.14.0--r45hdfd78af_0: 
+    sha256:c2df1eca9dde263fb11c73d9b1e96526fe8706a8fd7b3f1f0750046c93f51d85
 docker: quay.io/biocontainers/bioconductor-xcoredata
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

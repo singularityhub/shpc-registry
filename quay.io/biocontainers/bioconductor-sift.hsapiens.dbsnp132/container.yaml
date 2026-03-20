@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sift.hsapiens.dbsnp132
 latest:
-  1.0.2--r44hdfd78af_13: 
-    sha256:39cbe45640dee376b4a6e010f170f7cd6cd08e2191952fab4edf5faec8653670
+  1.0.2--r45hdfd78af_14: 
+    sha256:e2f35ae516fcc3a03924261af67fa98ff3ec2b9f8aa1766f6c594d3b7bf5fec0
 tags:
   1.0.2--r41hdfd78af_9: 
     sha256:4f0c67351636180da5316b7f9d80af0f6722add9db890eb1af1e7d385457b876
@@ -16,4 +16,6 @@ tags:
     sha256:1dad58980c4b948a9540277d69dd1e6fe24a73c30a5058f06def12807ea6c7a6
   1.0.2--r44hdfd78af_13: 
     sha256:39cbe45640dee376b4a6e010f170f7cd6cd08e2191952fab4edf5faec8653670
+  1.0.2--r45hdfd78af_14: 
+    sha256:e2f35ae516fcc3a03924261af67fa98ff3ec2b9f8aa1766f6c594d3b7bf5fec0
 docker: quay.io/biocontainers/bioconductor-sift.hsapiens.dbsnp132

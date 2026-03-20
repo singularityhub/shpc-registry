@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-grohmm
 latest:
-  1.36.0--r43ha9d7317_0: 
-    sha256:62d8096ced7eabc6f892ac5b043e2609f47e7d8b5c456602015c66b394755094
+  1.44.0--r45h01b2380_0: 
+    sha256:024fce6544f64d29a5b0e59063b35adf83d25e27a0af76a2c9c8870144e62f89
 tags:
   1.28.0--r41hc0cfd56_2: 
     sha256:562e3045ce67119223be37fdc69bac8f2c41c27249a01596135de0be37d1d167
@@ -16,4 +16,6 @@ tags:
     sha256:71d8b898646e8815bf30e6b8afa1d27c6496a6014e029cc4deea27057415f071
   1.36.0--r43ha9d7317_0: 
     sha256:62d8096ced7eabc6f892ac5b043e2609f47e7d8b5c456602015c66b394755094
+  1.44.0--r45h01b2380_0: 
+    sha256:024fce6544f64d29a5b0e59063b35adf83d25e27a0af76a2c9c8870144e62f89
 docker: quay.io/biocontainers/bioconductor-grohmm

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pathview
 latest:
-  1.42.0--r43hdfd78af_0: 
-    sha256:f367d79bbfd665025fc87239013c52cdb88a4a063377c0d746d891a9f1ace2a5
+  1.50.0--r45hdfd78af_0: 
+    sha256:4f536b10e8e1e5fb794126d8f149c6717c451efa77eaa979557035bc400ec698
 tags:
   1.9.0--r3.3.1_0: 
     sha256:01e9f9c10eb99a26bc607d5b0315aaf8b42b3c70a94cd07ac8e7b73ff14b7406
@@ -22,6 +22,8 @@ tags:
     sha256:495a5b91f3e56860b33177396b709d2baf5dafb15caa98051bd8b52693816e60
   1.42.0--r43hdfd78af_0: 
     sha256:f367d79bbfd665025fc87239013c52cdb88a4a063377c0d746d891a9f1ace2a5
+  1.50.0--r45hdfd78af_0: 
+    sha256:4f536b10e8e1e5fb794126d8f149c6717c451efa77eaa979557035bc400ec698
 docker: quay.io/biocontainers/bioconductor-pathview
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

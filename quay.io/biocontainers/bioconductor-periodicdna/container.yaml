@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-periodicdna
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:18511f9bdc347d6535808ddf41a347b7a30a361304140e99522c564f3e191a03
+  1.20.0--r45hdfd78af_0: 
+    sha256:d5cd588ad0275a07731bc3e0e84e51d31afb0eeae8ea8f26a87e6181bdd1c039
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:d5fc613ea0e8bbb7841e5c28428f7d5d03a479d073ed810887115530119e00e7
@@ -16,4 +16,6 @@ tags:
     sha256:0c03fd20870772be97603fd9113f3ceeaa94778102bb68c3599fbf410bc98294
   1.16.0--r44hdfd78af_0: 
     sha256:18511f9bdc347d6535808ddf41a347b7a30a361304140e99522c564f3e191a03
+  1.20.0--r45hdfd78af_0: 
+    sha256:d5cd588ad0275a07731bc3e0e84e51d31afb0eeae8ea8f26a87e6181bdd1c039
 docker: quay.io/biocontainers/bioconductor-periodicdna

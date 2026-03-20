@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cogaps
 latest:
-  3.26.0--r44he5774e6_0: 
-    sha256:af5cd58a93a42b955d691fee022e9f4417cf066664e257e1493118f70e84321f
+  3.30.0--r45ha27e39d_0: 
+    sha256:1ade5f82cf86f9441187a5bb505527580473b4a217d1dda9b84250993fc6fd94
 tags:
   3.8.0--r40h5f743cb_0: 
     sha256:4af7df9c6e35c82751d7f6e5b69710ed5d03a73cf3db439717fb513f7f40b759
@@ -24,6 +24,8 @@ tags:
     sha256:08555f090ad79d8088b3c24a11667ac8f4eca6b4975dcdfcf8ed68ff468a6d7d
   3.26.0--r44he5774e6_0: 
     sha256:af5cd58a93a42b955d691fee022e9f4417cf066664e257e1493118f70e84321f
+  3.30.0--r45ha27e39d_0: 
+    sha256:1ade5f82cf86f9441187a5bb505527580473b4a217d1dda9b84250993fc6fd94
 docker: quay.io/biocontainers/bioconductor-cogaps
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

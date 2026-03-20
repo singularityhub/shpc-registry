@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ahlrbasedbs
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:06e802ee6a5a7e2b32f586e70887dac33b8beb9dc8764c66bb956c97d2df2199
+  1.8.0--r45hdfd78af_1: 
+    sha256:b680000a6401df9409bff3249a0d8fe2a282069c9eae3d0523603ed2f921f885
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:7a7726285e5c83cf3e9b4af8cffaf25939285ad55d771b3fdb11bc159e263d19
@@ -16,4 +16,6 @@ tags:
     sha256:1a00866374f5f47d01ba2296191015261a47f18a7f29a0bc3f5c254d6b0f8609
   1.8.0--r44hdfd78af_0: 
     sha256:06e802ee6a5a7e2b32f586e70887dac33b8beb9dc8764c66bb956c97d2df2199
+  1.8.0--r45hdfd78af_1: 
+    sha256:b680000a6401df9409bff3249a0d8fe2a282069c9eae3d0523603ed2f921f885
 docker: quay.io/biocontainers/bioconductor-ahlrbasedbs

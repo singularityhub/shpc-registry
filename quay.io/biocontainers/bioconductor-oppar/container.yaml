@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-oppar
 latest:
-  1.34.0--r44h3df3fcb_1: 
-    sha256:ee6dad5a3a5954cae13d827ccd1ec5449c41e4b0207702e7e2e3b8fa6a088ecb
+  1.38.0--r45h01b2380_0: 
+    sha256:97952647e15193d2f86c9bf96240c0cba9a30267591b53a136746b41cc8d1b0e
 tags:
   1.8.0--r341h470a237_0: 
     sha256:471321041246c3d47a10a9af29e16667f7dbeca43b10aa85799f86303a9f183b
@@ -28,6 +28,8 @@ tags:
     sha256:3ccc0920dbc348fb2b2b9e969fd850fda015b4c8c5105e0d254a12a576f912f6
   1.34.0--r44h3df3fcb_1: 
     sha256:ee6dad5a3a5954cae13d827ccd1ec5449c41e4b0207702e7e2e3b8fa6a088ecb
+  1.38.0--r45h01b2380_0: 
+    sha256:97952647e15193d2f86c9bf96240c0cba9a30267591b53a136746b41cc8d1b0e
 docker: quay.io/biocontainers/bioconductor-oppar
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

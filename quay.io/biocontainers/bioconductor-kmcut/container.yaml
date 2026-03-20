@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-kmcut
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-kmcut
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:0f1effa37306d339fb6cdb3c118a7db55096bc9ae1b9fb26af3a749192a8d14b
+  1.4.0--r45hdfd78af_0: 
+    sha256:b8b78230567949c3ba57e68365843b3db9383db7a24961b0686ab4e0ab048d9c
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:0f1effa37306d339fb6cdb3c118a7db55096bc9ae1b9fb26af3a749192a8d14b
+  1.4.0--r45hdfd78af_0: 
+    sha256:b8b78230567949c3ba57e68365843b3db9383db7a24961b0686ab4e0ab048d9c
 docker: quay.io/biocontainers/bioconductor-kmcut
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

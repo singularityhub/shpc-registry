@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/snakealtpromoter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for snakealtpromoter
 latest:
-  1.0.5--pyhdfd78af_0: 
-    sha256:f263dc9c765a29233afce9507a8a6da81fdd35f1eeb2845c136d7f04ab6fe681
+  2.0.0--pyhdfd78af_0: 
+    sha256:c82ed0146e60db52c56d87541d3d2a24923252767126e67df376902e3feaef26
 tags:
   1.0.5--pyhdfd78af_0: 
     sha256:f263dc9c765a29233afce9507a8a6da81fdd35f1eeb2845c136d7f04ab6fe681
+  2.0.0--pyhdfd78af_0: 
+    sha256:c82ed0146e60db52c56d87541d3d2a24923252767126e67df376902e3feaef26
 docker: quay.io/biocontainers/snakealtpromoter
 aliases:
   Genomesetup: /usr/local/bin/Genomesetup

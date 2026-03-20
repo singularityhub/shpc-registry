@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-toast
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:7e39da14cf23b5a27a010d39b353c736747864683493cdce6fa24577dc9bc02d
+  1.24.0--r45hdfd78af_0: 
+    sha256:1312ee72d98d13715d33c7954f8a08ab716fba0e2d761de56441d301735c8674
 tags:
   1.7.1--r41hdfd78af_0: 
     sha256:b8ecf66124f6a42aeeb40f6d9125b9d60889e4e5d1011cf255f6d9686eb1b86c
@@ -16,4 +16,6 @@ tags:
     sha256:0c8600bb42b94cc1f18dde94bd63d00b0c43dac09ff94af9bdf96ae54cfb6629
   1.20.0--r44hdfd78af_0: 
     sha256:7e39da14cf23b5a27a010d39b353c736747864683493cdce6fa24577dc9bc02d
+  1.24.0--r45hdfd78af_0: 
+    sha256:1312ee72d98d13715d33c7954f8a08ab716fba0e2d761de56441d301735c8674
 docker: quay.io/biocontainers/bioconductor-toast

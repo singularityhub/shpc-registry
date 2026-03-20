@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pygrgl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pygrgl
 latest:
-  2.6--py310h275bdba_0: 
-    sha256:e22c8eda56c97934632f557af83270d2f03dd3f09f29ccac7aa547913231fe2a
+  2.7--py310h5850263_0: 
+    sha256:a17d9ef1fdf88d67357a7b1b7e3fe2b73b4efc1f18ec8e4c46c0c92b4b9c7dbe
 tags:
   2.4--py310h275bdba_0: 
     sha256:b402ca9791f13ef3893602d2d8654bf6bc5df3a51d36ac2691180f5e4355ada9
@@ -13,6 +13,8 @@ tags:
     sha256:e22c8eda56c97934632f557af83270d2f03dd3f09f29ccac7aa547913231fe2a
   2.5--py39h475c85d_0: 
     sha256:9294cec1ac4c9066965626bc905039cd04f53ba644059c8328b3aaf039bf6d8c
+  2.7--py310h5850263_0: 
+    sha256:a17d9ef1fdf88d67357a7b1b7e3fe2b73b4efc1f18ec8e4c46c0c92b4b9c7dbe
 docker: quay.io/biocontainers/pygrgl
 aliases:
   grg: /usr/local/bin/grg

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-htratfocuscdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:f8006e17126d3c430aae8068b392a3a1a2789d19d453086fbc7fd717c92a8380
+  2.18.0--r45hdfd78af_14: 
+    sha256:9b2749eaed1f61a3d47368e287610a8bed18bb37db6a4e0acc69fc9fdca370c2
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:e43b4731dfc0f082093a6aeb1d5dd7027427b34c3e976c9ad083181c88cc1e8a
@@ -16,4 +16,6 @@ tags:
     sha256:92f202fddff9d50ddbb3fed79e349d91ac2c7e932481bd1541a9c93f291182e3
   2.18.0--r44hdfd78af_13: 
     sha256:f8006e17126d3c430aae8068b392a3a1a2789d19d453086fbc7fd717c92a8380
+  2.18.0--r45hdfd78af_14: 
+    sha256:9b2749eaed1f61a3d47368e287610a8bed18bb37db6a4e0acc69fc9fdca370c2
 docker: quay.io/biocontainers/bioconductor-htratfocuscdf

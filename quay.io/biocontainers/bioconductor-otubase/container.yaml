@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-otubase
 latest:
-  1.56.0--r44hdfd78af_0: 
-    sha256:949a80ca990419f6bd297ee6343c7b566ce5404dcc4915274459a9b63d493f75
+  1.60.0--r45hdfd78af_0: 
+    sha256:40f9f43310026bac8e61fdb1d0e4459eb2600e47836f1bcd182f16ef390e1091
 tags:
   1.44.0--r41hdfd78af_0: 
     sha256:52f0b8efd231174b4ea641201566a4a560a5286aa43aeecf6cb48050f90eb8c6
@@ -16,4 +16,6 @@ tags:
     sha256:5faac5b405d540dfc92537decd7a1761325d7e0d1aa2a3d17c4ef7588988ffce
   1.56.0--r44hdfd78af_0: 
     sha256:949a80ca990419f6bd297ee6343c7b566ce5404dcc4915274459a9b63d493f75
+  1.60.0--r45hdfd78af_0: 
+    sha256:40f9f43310026bac8e61fdb1d0e4459eb2600e47836f1bcd182f16ef390e1091
 docker: quay.io/biocontainers/bioconductor-otubase

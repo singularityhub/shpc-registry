@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bodymaprat
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:987d89fbe50fa36b86f6445a65d774652e39e1546ca3a5a821b860cdf8736675
+  1.26.0--r45hdfd78af_0: 
+    sha256:567a211cb9eb1927b9f8f675fc9fda61861e2ec8ee1322f055d1f7e7847932d2
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:cbb2f7b43b236016763c592cb69fed230499b0d3d6332ebfc0f55d2778fa0f04
@@ -18,6 +18,8 @@ tags:
     sha256:78ffc81df3139acc451c2a0cde5350bd2ca0345da3f34e5b1eb591da9e270e05
   1.22.0--r44hdfd78af_0: 
     sha256:987d89fbe50fa36b86f6445a65d774652e39e1546ca3a5a821b860cdf8736675
+  1.26.0--r45hdfd78af_0: 
+    sha256:567a211cb9eb1927b9f8f675fc9fda61861e2ec8ee1322f055d1f7e7847932d2
 docker: quay.io/biocontainers/bioconductor-bodymaprat
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

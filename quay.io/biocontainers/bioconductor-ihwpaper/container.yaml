@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ihwpaper
 latest:
-  1.34.0--r44he5774e6_0: 
-    sha256:f8ea2b3da115421723e6014efd168382e3662c76e42edc94ca697ecd38022fb0
+  1.38.0--r45ha27e39d_0: 
+    sha256:49b63b35fb90279cdbea5f4ef5872289040f92e8e0576923bcdeb1275d175576
 tags:
   1.22.0--r41hc247a5b_3: 
     sha256:899941e3143bd2b9b80e43444383dd640d5df975e39e80087aceacc8cb0459de
@@ -16,4 +16,6 @@ tags:
     sha256:12bdfebf538d9f12dd61915fded94f517f295cdad943f295a5a1b433582ef6a7
   1.34.0--r44he5774e6_0: 
     sha256:f8ea2b3da115421723e6014efd168382e3662c76e42edc94ca697ecd38022fb0
+  1.38.0--r45ha27e39d_0: 
+    sha256:49b63b35fb90279cdbea5f4ef5872289040f92e8e0576923bcdeb1275d175576
 docker: quay.io/biocontainers/bioconductor-ihwpaper

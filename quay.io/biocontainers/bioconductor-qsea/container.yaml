@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-qsea
 latest:
-  1.32.0--r44h3df3fcb_0: 
-    sha256:a1060a60b88e793d8f196999af4b5006571e989fc5764b7a9fc01863b1748b4d
+  1.36.0--r45h01b2380_0: 
+    sha256:0952183d303f183628bb83404f4e57df0950b477c59ce8b7de9d4c064c35abca
 tags:
   1.8.0--r351h14c3975_0: 
     sha256:428904e5c532a4706ab74a33b91b2e55a85d7e76eb3d1d64a3a895dbcd945ad8
@@ -26,6 +26,8 @@ tags:
     sha256:6f289cb039bcc75667d28b2a544024546fbea7701b673c152fee64c48fb0ee36
   1.32.0--r44h3df3fcb_0: 
     sha256:a1060a60b88e793d8f196999af4b5006571e989fc5764b7a9fc01863b1748b4d
+  1.36.0--r45h01b2380_0: 
+    sha256:0952183d303f183628bb83404f4e57df0950b477c59ce8b7de9d4c064c35abca
 docker: quay.io/biocontainers/bioconductor-qsea
 aliases:
   wget: /usr/local/bin/wget

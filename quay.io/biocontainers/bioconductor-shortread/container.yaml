@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-shortread
 latest:
-  1.64.0--r44h77050f0_1: 
-    sha256:1d7d14ae877751dd1ad14fa9f0b651a02ceeab8d4da920b8b504e0c9db0c8878
+  1.68.0--r45ha27e39d_0: 
+    sha256:f63a2b7f843f4ca2bc274f00a9915101e13970548528945943c7d68d149a325f
 tags:
   1.52.0--r41hc247a5b_2: 
     sha256:77cb697d362696e9e66c70ed1131bf515a713d42d304038d788e73b1b1b1927a
@@ -22,4 +22,6 @@ tags:
     sha256:58844c53580b7ab7f7bd46f5208543b32dcac3da701b51d2e769613e770a89ce
   1.64.0--r44h77050f0_1: 
     sha256:1d7d14ae877751dd1ad14fa9f0b651a02ceeab8d4da920b8b504e0c9db0c8878
+  1.68.0--r45ha27e39d_0: 
+    sha256:f63a2b7f843f4ca2bc274f00a9915101e13970548528945943c7d68d149a325f
 docker: quay.io/biocontainers/bioconductor-shortread

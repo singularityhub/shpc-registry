@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-usort
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:7887923e617c487b6eea19015228a3fa56f036af2285ee1c54d1f8f03e1197fb
+  1.36.0--r45hdfd78af_0: 
+    sha256:695145a1fe174528e96c8809f51c5d4b813eb365524701107616b1813369678d
 tags:
   1.8.0--r351_0: 
     sha256:2adc9e3cb1082933f7a62a31a22ae459e0438ea11e021510ce75b2fe55df82d7
@@ -24,6 +24,8 @@ tags:
     sha256:44548af80175ff3990e71b8f0fc98fe35a8f729fbe9e3d0746dc5eab28c84d7a
   1.32.0--r44hdfd78af_0: 
     sha256:7887923e617c487b6eea19015228a3fa56f036af2285ee1c54d1f8f03e1197fb
+  1.36.0--r45hdfd78af_0: 
+    sha256:695145a1fe174528e96c8809f51c5d4b813eb365524701107616b1813369678d
 docker: quay.io/biocontainers/bioconductor-usort
 aliases:
   wget: /usr/local/bin/wget

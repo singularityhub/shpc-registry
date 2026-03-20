@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pogos
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:faeba8966fb67155cd26d46e8c3fb6a47fe11ba5718886dd13726f4e14fdf3f8
+  1.30.0--r45hdfd78af_0: 
+    sha256:967f7c43c3ad1ae77080d35b7b63a2daa3c457146175239e8006b503e93965e6
 tags:
   1.8.0--r40_0: 
     sha256:56fb6bfded1c2477df4fc85bd7a8200dad6b724145f89098ff97e36d7596fdf2
@@ -22,6 +22,8 @@ tags:
     sha256:14b626cbab5267963b0facf80462bfe05eb4c1af1f4510845911406487d26bc2
   1.26.0--r44hdfd78af_0: 
     sha256:faeba8966fb67155cd26d46e8c3fb6a47fe11ba5718886dd13726f4e14fdf3f8
+  1.30.0--r45hdfd78af_0: 
+    sha256:967f7c43c3ad1ae77080d35b7b63a2daa3c457146175239e8006b503e93965e6
 docker: quay.io/biocontainers/bioconductor-pogos
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

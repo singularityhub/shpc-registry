@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rmir.hs.mirna
 latest:
-  1.0.7--r44hdfd78af_16: 
-    sha256:6d808b58214aee78453c16779c2eadc10016238b4dcb98bd5ad112955bed2566
+  1.0.7--r45hdfd78af_17: 
+    sha256:a544d0eb1ad2694c24383701341e253864dc2d9e532d2ac14bedc988befce206
 tags:
   1.0.7--r40hdfd78af_9: 
     sha256:2bbe6ed82988ba723d5510c092a7e729223c3cb844d28b7b3436f8bd7911e3f9
@@ -16,6 +16,8 @@ tags:
     sha256:cda540f4bf379caaad8169d80e96118e8940d6492863ce74af142ccd506ed165
   1.0.7--r44hdfd78af_16: 
     sha256:6d808b58214aee78453c16779c2eadc10016238b4dcb98bd5ad112955bed2566
+  1.0.7--r45hdfd78af_17: 
+    sha256:a544d0eb1ad2694c24383701341e253864dc2d9e532d2ac14bedc988befce206
 docker: quay.io/biocontainers/bioconductor-rmir.hs.mirna
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

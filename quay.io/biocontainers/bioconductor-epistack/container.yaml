@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-epistack
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:0ea214452b51077a80579df7f99c66683c7685f63613877fc88488e5687515d1
+  1.16.0--r45hdfd78af_0: 
+    sha256:0a827aba3d2e8853b538e3f0597361a797867bd92165fb525871cfe3760c2e3d
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:b64a53fd2a85db0d6077e27c716921c5728ea473b13b2d3f0761db49a26ae2db
@@ -16,4 +16,6 @@ tags:
     sha256:f70544a4d8651d4cbfd184adda358810850c5cd4d5095a213949f4fb00ad8989
   1.12.0--r44hdfd78af_0: 
     sha256:0ea214452b51077a80579df7f99c66683c7685f63613877fc88488e5687515d1
+  1.16.0--r45hdfd78af_0: 
+    sha256:0a827aba3d2e8853b538e3f0597361a797867bd92165fb525871cfe3760c2e3d
 docker: quay.io/biocontainers/bioconductor-epistack

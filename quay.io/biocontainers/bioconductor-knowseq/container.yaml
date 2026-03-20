@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-knowseq
 latest:
-  1.16.0--r43hdfd78af_0: 
-    sha256:fc8414988ca732d70cf7b4d64f19ea02cb508b482ef73055ed996be7f7df0fd9
+  1.24.0--r45hdfd78af_0: 
+    sha256:5d0736009461fe3bcb3c7302c6e3aba00db0750ce9abcaf429d4e9a1364859fe
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:4fdada097d3a961c449bf2251ed1c655f135840b8f67601a1213e9b46a675b8a
@@ -14,6 +14,8 @@ tags:
     sha256:f6b4fdc12f7792bddcdf4e870c423af346817cc69be4536b0587b076764dd9bb
   1.16.0--r43hdfd78af_0: 
     sha256:fc8414988ca732d70cf7b4d64f19ea02cb508b482ef73055ed996be7f7df0fd9
+  1.24.0--r45hdfd78af_0: 
+    sha256:5d0736009461fe3bcb3c7302c6e3aba00db0750ce9abcaf429d4e9a1364859fe
 docker: quay.io/biocontainers/bioconductor-knowseq
 aliases:
   pandoc: /usr/local/bin/pandoc

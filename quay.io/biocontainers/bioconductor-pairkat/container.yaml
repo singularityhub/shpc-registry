@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pairkat
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:c84c913a6d9f4060631c3477235f628d9b96f79fb25bebf2374fb8a091986b28
+  1.16.0--r45hdfd78af_0: 
+    sha256:1686a68f089e63ff04ef89fd6a2559ce5e83479f502bfd819aae49c753eecc6e
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:bf9c91369c979729eb350ea84c5ccf2435587760b78929dd9f8926fb6b66df22
@@ -16,4 +16,6 @@ tags:
     sha256:d98eb45ffdf3cd8feb985119ad544d12fd991195900028b7828017d731b08a89
   1.12.0--r44hdfd78af_0: 
     sha256:c84c913a6d9f4060631c3477235f628d9b96f79fb25bebf2374fb8a091986b28
+  1.16.0--r45hdfd78af_0: 
+    sha256:1686a68f089e63ff04ef89fd6a2559ce5e83479f502bfd819aae49c753eecc6e
 docker: quay.io/biocontainers/bioconductor-pairkat

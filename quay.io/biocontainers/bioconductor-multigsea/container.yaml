@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-multigsea
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:c17b1391a4089905eac3496bf17fd79875021a6a8080b7208dfce0eff4e7dc77
+  1.20.0--r45hdfd78af_0: 
+    sha256:a31f776e353411e595eefb39a7a34494f658e6759d5af1caecc09e99de297a4a
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:c48d4d33bedb3cb204b65077ef465a804f193e42786ac976bf233ec2f1f8b468
@@ -16,4 +16,6 @@ tags:
     sha256:f95096582f2237f1199c5503b226b694189760a63e01f50f02e24b0fc2947f12
   1.16.0--r44hdfd78af_0: 
     sha256:c17b1391a4089905eac3496bf17fd79875021a6a8080b7208dfce0eff4e7dc77
+  1.20.0--r45hdfd78af_0: 
+    sha256:a31f776e353411e595eefb39a7a34494f658e6759d5af1caecc09e99de297a4a
 docker: quay.io/biocontainers/bioconductor-multigsea

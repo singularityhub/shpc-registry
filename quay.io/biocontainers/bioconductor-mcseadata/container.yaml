@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mcseadata
 latest:
-  1.26.1--r44hdfd78af_0: 
-    sha256:ee5fb4cb41c1cc990226c9e3c866f6616ac30f7152fd96a67dadcf234ffeb632
+  1.30.0--r45hdfd78af_0: 
+    sha256:9e838ec9bfe7d30bb57b1671b98c1ce31c80bc5a300dfc05b314d7d5b639c228
 tags:
   1.9.0--r40_0: 
     sha256:c5eb00801ebbea5228b9c018ae45d7b1caa621a433879b740340ff32b7138e99
@@ -24,6 +24,8 @@ tags:
     sha256:8bf73b1434d14bbb12dab67757395d22175af776fc654b0324213e4c32316036
   1.26.1--r44hdfd78af_0: 
     sha256:ee5fb4cb41c1cc990226c9e3c866f6616ac30f7152fd96a67dadcf234ffeb632
+  1.30.0--r45hdfd78af_0: 
+    sha256:9e838ec9bfe7d30bb57b1671b98c1ce31c80bc5a300dfc05b314d7d5b639c228
 docker: quay.io/biocontainers/bioconductor-mcseadata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

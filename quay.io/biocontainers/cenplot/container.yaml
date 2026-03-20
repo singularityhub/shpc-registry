@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/cenplot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cenplot
 latest:
-  0.1.5--pyhdfd78af_0: 
-    sha256:0792f65d4c30e292fe0e6ebdedf3051dd4f6e567f739351a5b21d17ddbb6e7a3
+  0.1.6--pyhdfd78af_0: 
+    sha256:08f9d60a2d4bfa1fe537ddedc539796956da63519e72d31fdfdf3c3a14ce3364
 tags:
   0.1.4--pyhdfd78af_0: 
     sha256:2042bb687dd29775501f7afa2de00c4f222571801505a883c9662c8a22c59152
   0.1.5--pyhdfd78af_0: 
     sha256:0792f65d4c30e292fe0e6ebdedf3051dd4f6e567f739351a5b21d17ddbb6e7a3
+  0.1.6--pyhdfd78af_0: 
+    sha256:08f9d60a2d4bfa1fe537ddedc539796956da63519e72d31fdfdf3c3a14ce3364
 docker: quay.io/biocontainers/cenplot
 aliases:
   cenplot: /usr/local/bin/cenplot

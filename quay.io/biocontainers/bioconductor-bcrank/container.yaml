@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bcrank
 latest:
-  1.68.0--r44h3df3fcb_0: 
-    sha256:66e17593a4c7970df9093b39d2f1ebfb6fe43c37088ca29f1e0a7e936010ff45
+  1.72.0--r45h01b2380_0: 
+    sha256:363ff04e37c2a69c9b68ada6ab509696cfdd69b51e72fbfeaf32c973d622e49b
 tags:
   1.56.0--r41hc0cfd56_2: 
     sha256:46932b601f4b18124dfe16e0915ae5f7789ebaba748dba7973ba5440eaeb26cb
@@ -20,4 +20,6 @@ tags:
     sha256:1ed87f0d2f830e7cd107082f2351ff20f1ab7c2d9a54bb9b9157f2d937f7fd4b
   1.68.0--r44h3df3fcb_0: 
     sha256:66e17593a4c7970df9093b39d2f1ebfb6fe43c37088ca29f1e0a7e936010ff45
+  1.72.0--r45h01b2380_0: 
+    sha256:363ff04e37c2a69c9b68ada6ab509696cfdd69b51e72fbfeaf32c973d622e49b
 docker: quay.io/biocontainers/bioconductor-bcrank

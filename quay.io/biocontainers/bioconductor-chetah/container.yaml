@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chetah
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:cd708b9cb8dc5289bf1944825c8651e8c05388556ef7d5bb7ae837902e453f21
+  1.26.0--r45hdfd78af_0: 
+    sha256:bfbf46798da774b6b5d580381e047a45c600701bc2e86e47cb5c0917e209035c
 tags:
   1.9.0--r41hdfd78af_0: 
     sha256:491780cde0a96cab9ca8a25a8eb7053d2aa17cf97eed380c12c711c50b40a464
@@ -16,4 +16,6 @@ tags:
     sha256:937e0b0a80ef290a9127c299e58e081cf7c0cad71a9546aa1b50ecb1c1f37abc
   1.22.0--r44hdfd78af_0: 
     sha256:cd708b9cb8dc5289bf1944825c8651e8c05388556ef7d5bb7ae837902e453f21
+  1.26.0--r45hdfd78af_0: 
+    sha256:bfbf46798da774b6b5d580381e047a45c600701bc2e86e47cb5c0917e209035c
 docker: quay.io/biocontainers/bioconductor-chetah

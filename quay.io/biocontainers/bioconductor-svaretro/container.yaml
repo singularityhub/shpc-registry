@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-svaretro
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:2b099936a76bbf308e857584712e5d194bf28e0bc24ea53f554b975be799e318
+  1.15.1--r45hdfd78af_0: 
+    sha256:90bc5379188c7d17070e4cc2029624abda68d5e8fb001afb67a5b507bc015e7e
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:770cca9735b372122e8edbf58acecfd7f552b0415f396dfbf5615267de7cbc73
@@ -16,4 +16,6 @@ tags:
     sha256:a94c8313e127b92f1bf3e1485894c0bf7e6f202ada73ecd241679398712f4e0d
   1.12.0--r44hdfd78af_0: 
     sha256:2b099936a76bbf308e857584712e5d194bf28e0bc24ea53f554b975be799e318
+  1.15.1--r45hdfd78af_0: 
+    sha256:90bc5379188c7d17070e4cc2029624abda68d5e8fb001afb67a5b507bc015e7e
 docker: quay.io/biocontainers/bioconductor-svaretro

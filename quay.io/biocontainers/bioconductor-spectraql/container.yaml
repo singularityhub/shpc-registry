@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-spectraql
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:3068b2aad133ef411adeb8609ff325aa0a7c61ddab76fbcd6ead4507dc100bf1
+  1.4.0--r45hdfd78af_0: 
+    sha256:3bfd209e6fd7b6049dfb22a82a143bcd1f216dbb306b901957518c5558b1e4d1
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:3068b2aad133ef411adeb8609ff325aa0a7c61ddab76fbcd6ead4507dc100bf1
+  1.4.0--r45hdfd78af_0: 
+    sha256:3bfd209e6fd7b6049dfb22a82a143bcd1f216dbb306b901957518c5558b1e4d1
 docker: quay.io/biocontainers/bioconductor-spectraql
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cicero
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:5478aee6ded0ee575447769a4efce368f77caa98cebb5983664f97e4e056d316
+  1.28.0--r45hdfd78af_0: 
+    sha256:ee935e68707ffd7be90ebe10bf7da0e458b03353064cf7151beae8656dfc8786
 tags:
   1.8.1--r40hdfd78af_0: 
     sha256:ce70a9b8950cb4754ad7cd583e303697b421695de5e4aca8d0cccbdc1d288875
@@ -20,6 +20,8 @@ tags:
     sha256:ab1fd27da20a95a674102a53a5bd15205597ece931b6c7bd8ca969a2a9e55bcb
   1.24.0--r44hdfd78af_0: 
     sha256:5478aee6ded0ee575447769a4efce368f77caa98cebb5983664f97e4e056d316
+  1.28.0--r45hdfd78af_0: 
+    sha256:ee935e68707ffd7be90ebe10bf7da0e458b03353064cf7151beae8656dfc8786
 docker: quay.io/biocontainers/bioconductor-cicero
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

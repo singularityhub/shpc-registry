@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bamsignals
 latest:
-  1.38.0--r44h77050f0_0: 
-    sha256:7f914fed3d34181f42f752ea69d56f59e8b6ea6ed317dd93ca46c83e8edaf270
+  1.42.0--r45ha27e39d_0: 
+    sha256:69351db7af9ffd9226442c5bb2664978dbdd2f4b1e4de76d5043900f1d8ace37
 tags:
   1.26.0--r41hc247a5b_2: 
     sha256:d01915ae50dcaf030eb3cc4ebc52e709699d1fb3c54897a7c386b50a4b7fb573
@@ -20,4 +20,6 @@ tags:
     sha256:cf42a72686eb5356afd2fde431a936e6a67a02dcf89cda4b4ce2eb5194123a6b
   1.38.0--r44h77050f0_0: 
     sha256:7f914fed3d34181f42f752ea69d56f59e8b6ea6ed317dd93ca46c83e8edaf270
+  1.42.0--r45ha27e39d_0: 
+    sha256:69351db7af9ffd9226442c5bb2664978dbdd2f4b1e4de76d5043900f1d8ace37
 docker: quay.io/biocontainers/bioconductor-bamsignals

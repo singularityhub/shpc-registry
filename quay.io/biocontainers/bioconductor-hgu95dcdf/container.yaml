@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hgu95dcdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:f547e6179c3e502fbf80e539d4cfafaa892929467d8b7238075e6db04e48df92
+  2.18.0--r45hdfd78af_14: 
+    sha256:6de4255d8721ab4c3ca81551ae1898a8e723db22c704a500fc0e800de214dc23
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:741f8861265739fb8d15c5d60d39ee0bf6a536f25cb47318deede2c451a032f8
@@ -16,4 +16,6 @@ tags:
     sha256:9ac7984cf760a1e55e6817e545d3067aec96b056134bbff97676ade6cb1d188a
   2.18.0--r44hdfd78af_13: 
     sha256:f547e6179c3e502fbf80e539d4cfafaa892929467d8b7238075e6db04e48df92
+  2.18.0--r45hdfd78af_14: 
+    sha256:6de4255d8721ab4c3ca81551ae1898a8e723db22c704a500fc0e800de214dc23
 docker: quay.io/biocontainers/bioconductor-hgu95dcdf

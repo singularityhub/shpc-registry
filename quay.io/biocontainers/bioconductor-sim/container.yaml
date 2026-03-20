@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sim
 latest:
-  1.76.0--r44h3df3fcb_0: 
-    sha256:493e34e0828b9a113436a5f1c02c2291d960fb2a658fb6072eb863e7e59d8693
+  1.80.0--r45h01b2380_0: 
+    sha256:3168e1f8d3dca67cc1d8a5c5e3091b5c5374b7d8de2c9a38c805045a3dbef68d
 tags:
   1.64.0--r41hc0cfd56_2: 
     sha256:2dbdc7989d751947023d56be791daaf25f8e9dc409b8041e855ab6d1303d8adf
@@ -15,4 +15,6 @@ tags:
     sha256:6ceff2a4fe9c9ed7beefeebc51c763e4e54c3367adc0fa50a8d7c82fc701e69b
   1.76.0--r44h3df3fcb_0: 
     sha256:493e34e0828b9a113436a5f1c02c2291d960fb2a658fb6072eb863e7e59d8693
+  1.80.0--r45h01b2380_0: 
+    sha256:3168e1f8d3dca67cc1d8a5c5e3091b5c5374b7d8de2c9a38c805045a3dbef68d
 docker: quay.io/biocontainers/bioconductor-sim

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-curatedadipochip
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:be21146816c8e79e0a6749e5804c9c91717a15f1ed1722c8f909762b86951ba1
+  1.26.0--r45hdfd78af_0: 
+    sha256:6451af35619746fdf4046464bea2de3ba1d4a659419fa47bbc88f0c95ef7c37a
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:6b1ce9eccf017acdb6b74087bf6c9baf0af2c3572f8bbd8e88dd5689c7624747
@@ -18,6 +18,8 @@ tags:
     sha256:71bee759cf923e9607c68ec9fd4336dfadb1233d818257fbddc969c0a081de44
   1.22.0--r44hdfd78af_0: 
     sha256:be21146816c8e79e0a6749e5804c9c91717a15f1ed1722c8f909762b86951ba1
+  1.26.0--r45hdfd78af_0: 
+    sha256:6451af35619746fdf4046464bea2de3ba1d4a659419fa47bbc88f0c95ef7c37a
 docker: quay.io/biocontainers/bioconductor-curatedadipochip
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-celegans.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:e30be93eaaf0a703f4374a6d955ab2e103175f675a572fc101ae731b6bc8e6ad
+  3.13.0--r45hdfd78af_6: 
+    sha256:fd23b8d178eef0aa51537838d10ce8520088e7d0e41511d0cac72716df771f22
 tags:
   3.2.3--r41hdfd78af_7: 
     sha256:26ddc891456fab47bd24d964af85a4679370a1fb3b184831efc22770faf2a4e6
@@ -16,6 +16,8 @@ tags:
     sha256:07bd632bdcec780eb408c6e1b8c363d0c8d0b90eb00b7f92f313fa93fee6d982
   3.13.0--r44hdfd78af_5: 
     sha256:e30be93eaaf0a703f4374a6d955ab2e103175f675a572fc101ae731b6bc8e6ad
+  3.13.0--r45hdfd78af_6: 
+    sha256:fd23b8d178eef0aa51537838d10ce8520088e7d0e41511d0cac72716df771f22
 docker: quay.io/biocontainers/bioconductor-celegans.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

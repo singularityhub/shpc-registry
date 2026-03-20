@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/peekseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for peekseq
 latest:
-  0.0.1--hdfd78af_0: 
-    sha256:029fc652a4ac31451b44a51f06ab55866a80ef009cfcb83cbfeed526a0e02ab5
+  0.0.1--hdfd78af_1: 
+    sha256:f11b0f8712f209a873dc37f865e755e1344fad44c5bbc1cbbade9231fd6ef185
 tags:
   0.0.1--hdfd78af_0: 
     sha256:029fc652a4ac31451b44a51f06ab55866a80ef009cfcb83cbfeed526a0e02ab5
+  0.0.1--hdfd78af_1: 
+    sha256:f11b0f8712f209a873dc37f865e755e1344fad44c5bbc1cbbade9231fd6ef185
 docker: quay.io/biocontainers/peekseq
 aliases:
   peekseq.pl: /usr/local/bin/peekseq.pl
