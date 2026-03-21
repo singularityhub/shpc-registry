@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-monocle
 latest:
-  2.34.0--r44he5774e6_0: 
-    sha256:99084811e4ee1683d404dcf708e0984b26cbe53ee43459dab77b2cd6d99ea776
+  2.38.0--r45ha27e39d_0: 
+    sha256:365e47f3e8d304b9999debd51dfc6bf16fa37bf391c061b2ca047e17d325d481
 tags:
   2.8.0--r341hfc679d8_0: 
     sha256:6771881f0286602d116a97b6b22cafad69ddd45d4d452702a7ddb13941c540de
@@ -28,6 +28,8 @@ tags:
     sha256:f1da96f6af3af5c53a68097f6679140b3efc494f7a28223ad3ab0077b877d115
   2.34.0--r44he5774e6_0: 
     sha256:99084811e4ee1683d404dcf708e0984b26cbe53ee43459dab77b2cd6d99ea776
+  2.38.0--r45ha27e39d_0: 
+    sha256:365e47f3e8d304b9999debd51dfc6bf16fa37bf391c061b2ca047e17d325d481
 docker: quay.io/biocontainers/bioconductor-monocle
 aliases:
   wget: /usr/local/bin/wget

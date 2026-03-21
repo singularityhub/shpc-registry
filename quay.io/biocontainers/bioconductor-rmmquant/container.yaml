@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rmmquant
 latest:
-  1.24.0--r44h77050f0_0: 
-    sha256:6a7a5fc6f6aa63d9b36fbae518546a9223826d87409cac1cf79b6b5b83b7fc0f
+  1.28.0--r45ha27e39d_0: 
+    sha256:c4b23afc0cf1b4dad8e9f3dfba8f2c3924c90a7cb542967df93eaf195d357aaa
 tags:
   1.8.1--r40h399db7b_0: 
     sha256:ac4b5f7ceaa43bc4f6d80aec632eecb0821b3b525fd32a124349daa9d2d9e401
@@ -22,6 +22,8 @@ tags:
     sha256:adef57d05bba9e826cf4aad50912a165e7051f243c8807c37d58004d927787c5
   1.24.0--r44h77050f0_0: 
     sha256:6a7a5fc6f6aa63d9b36fbae518546a9223826d87409cac1cf79b6b5b83b7fc0f
+  1.28.0--r45ha27e39d_0: 
+    sha256:c4b23afc0cf1b4dad8e9f3dfba8f2c3924c90a7cb542967df93eaf195d357aaa
 docker: quay.io/biocontainers/bioconductor-rmmquant
 aliases:
   pandoc: /usr/local/bin/pandoc

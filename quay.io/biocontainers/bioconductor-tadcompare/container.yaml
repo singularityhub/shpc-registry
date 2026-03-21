@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tadcompare
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:929c392d9cef0f4888e91773055062532f9544437f5543aecb15357b7efa9d08
+  1.20.0--r45hdfd78af_0: 
+    sha256:3866bad1d245ef9b68c97e80165a61e92c9e11d4a175da5ad758020104d3dad8
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:0acabca236c5245a6c3f9bae2e448244208445f58ab1d83ab596dc97e40735c0
@@ -16,4 +16,6 @@ tags:
     sha256:4f742f71094c814d8f995f1532f66c88ece0018791a32a96398346a300a0c2b6
   1.16.0--r44hdfd78af_0: 
     sha256:929c392d9cef0f4888e91773055062532f9544437f5543aecb15357b7efa9d08
+  1.20.0--r45hdfd78af_0: 
+    sha256:3866bad1d245ef9b68c97e80165a61e92c9e11d4a175da5ad758020104d3dad8
 docker: quay.io/biocontainers/bioconductor-tadcompare

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-varianttools
 latest:
-  1.48.0--r44hdfd78af_0: 
-    sha256:8854eb459ccea0897a3483d33c773934c742d7b57ca3fc3113fb76aa1c988d2b
+  1.51.0--r45hdfd78af_0: 
+    sha256:72de86676ba3542292dcc98371b726c78dabe2be3198e3106e1167107838e01a
 tags:
   1.36.0--r41hdfd78af_0: 
     sha256:122e6d95315aac3f319005399bc4e27ff4a1e9a761261f2c38bad1dc1955a8f7
@@ -16,4 +16,6 @@ tags:
     sha256:265b9431d2a2b4a691ad5d9526b4f09eadc3c5b011c299a804882daf61d0a671
   1.48.0--r44hdfd78af_0: 
     sha256:8854eb459ccea0897a3483d33c773934c742d7b57ca3fc3113fb76aa1c988d2b
+  1.51.0--r45hdfd78af_0: 
+    sha256:72de86676ba3542292dcc98371b726c78dabe2be3198e3106e1167107838e01a
 docker: quay.io/biocontainers/bioconductor-varianttools

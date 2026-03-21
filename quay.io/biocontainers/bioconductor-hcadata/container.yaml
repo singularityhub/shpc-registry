@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hcadata
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:08a0c296b7b77aa83a44a640d4ccf49f85502ce7d854132fd6fc235fc3096240
+  1.26.0--r45hdfd78af_0: 
+    sha256:cc1fa220038d92783f59147cdb2af3ab66e4f17fcd31a4bba2d0017a41a55615
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:6baf1a0264ab1df61cd104521b69af99aaf822adb929a8e9508d03af07228ff1
@@ -18,6 +18,8 @@ tags:
     sha256:3149103466b0141a620fe5cbfd631562e5255eb2aed661158f575617c15e1321
   1.22.0--r44hdfd78af_0: 
     sha256:08a0c296b7b77aa83a44a640d4ccf49f85502ce7d854132fd6fc235fc3096240
+  1.26.0--r45hdfd78af_0: 
+    sha256:cc1fa220038d92783f59147cdb2af3ab66e4f17fcd31a4bba2d0017a41a55615
 docker: quay.io/biocontainers/bioconductor-hcadata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

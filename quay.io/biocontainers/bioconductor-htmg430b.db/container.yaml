@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-htmg430b.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:95711b4275d1862723cb2fde4356d4db84e986d7b591e431b72ad6d4ca265e43
+  3.13.0--r45hdfd78af_6: 
+    sha256:403528a035d8ed4b280cbf682cb4e16b5e8827e5232f107f91ad1bcfec4721d2
 tags:
   3.13.0--r41hdfd78af_1: 
     sha256:5b50bbc702015ab8f06ef5cf04d905a99e8c61ea069927c67516c92c9f6eaba5
@@ -16,4 +16,6 @@ tags:
     sha256:a76fd1299c3119f5e024a1b1acb7eb85bbd1f9af1cf9c5a6cba651b315440c95
   3.13.0--r44hdfd78af_5: 
     sha256:95711b4275d1862723cb2fde4356d4db84e986d7b591e431b72ad6d4ca265e43
+  3.13.0--r45hdfd78af_6: 
+    sha256:403528a035d8ed4b280cbf682cb4e16b5e8827e5232f107f91ad1bcfec4721d2
 docker: quay.io/biocontainers/bioconductor-htmg430b.db

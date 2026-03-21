@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-comethdmr
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:73ac7bf8d1234a79a91bf8421f598c300dbab42a249dcdfcd662cf2e8fd439be
+  1.14.0--r45hdfd78af_0: 
+    sha256:a529fc4b9adb85a112bb7e3293020be2e70f01846972faeabe03441a978d282e
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:4b7f9f1b5372e78d597d34919180eb833e0aba358b6e426e066e63675910a5f4
@@ -14,6 +14,8 @@ tags:
     sha256:79d04f635848945617d4e295402ba9140b65d0b164296dfd120115fa9da9b0de
   1.10.0--r44hdfd78af_0: 
     sha256:73ac7bf8d1234a79a91bf8421f598c300dbab42a249dcdfcd662cf2e8fd439be
+  1.14.0--r45hdfd78af_0: 
+    sha256:a529fc4b9adb85a112bb7e3293020be2e70f01846972faeabe03441a978d282e
 docker: quay.io/biocontainers/bioconductor-comethdmr
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

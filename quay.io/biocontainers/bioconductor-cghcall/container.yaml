@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cghcall
 latest:
-  2.68.0--r44hdfd78af_0: 
-    sha256:4c25d7c89a5b4f68d8f9b8a378ce08fa500e761c2e1d4e940fda8e35dee48558
+  2.72.0--r45hdfd78af_0: 
+    sha256:512e34921410337fe7e82ba3875df48a1f72095b3b86135c436cb5d7360f54ce
 tags:
   2.56.0--r41hdfd78af_0: 
     sha256:f42f60a56d1a997c248082dd5f4ff7458afa8b826f76b58360e4f05d540d0a60
@@ -16,4 +16,6 @@ tags:
     sha256:3ff59a6ae952869fa36831063c49b738ad6378858c3e6c52bfe6a848e15f9e53
   2.68.0--r44hdfd78af_0: 
     sha256:4c25d7c89a5b4f68d8f9b8a378ce08fa500e761c2e1d4e940fda8e35dee48558
+  2.72.0--r45hdfd78af_0: 
+    sha256:512e34921410337fe7e82ba3875df48a1f72095b3b86135c436cb5d7360f54ce
 docker: quay.io/biocontainers/bioconductor-cghcall

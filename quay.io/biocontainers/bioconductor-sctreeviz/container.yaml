@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sctreeviz
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:db14facfd056f3b39c894432b63c90e65dae8c6b262dfad7777b62fef99bcabd
+  1.16.0--r45hdfd78af_0: 
+    sha256:aa0a598afd8485d4aa1ca889060eecc41708a27df2a5e2d48b79543af2bbaea6
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:d27334f3c5a3099ae21b70a222023eff52b7dc62ba0704241f90b905fb263a79
@@ -16,4 +16,6 @@ tags:
     sha256:4e34347af004088dadbe53543991923b6341b6aa46e42149a1052df522a949dc
   1.12.0--r44hdfd78af_0: 
     sha256:db14facfd056f3b39c894432b63c90e65dae8c6b262dfad7777b62fef99bcabd
+  1.16.0--r45hdfd78af_0: 
+    sha256:aa0a598afd8485d4aa1ca889060eecc41708a27df2a5e2d48b79543af2bbaea6
 docker: quay.io/biocontainers/bioconductor-sctreeviz

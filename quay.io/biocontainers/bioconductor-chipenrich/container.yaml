@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chipenrich
 latest:
-  2.30.0--r44hdfd78af_0: 
-    sha256:801668c312979f171195877b97b8a956d9073576a31c4fb27c3e3c5d418f1e8f
+  2.34.0--r45hdfd78af_0: 
+    sha256:abf3d33d5a3bb6006903039adf1cf1429ad392c07a52bbee9d90b3e979142033
 tags:
   2.8.0--r36_1: 
     sha256:3ce6014a89ca1356969bb221f5e7b13089078ec38501e478f5a6f508cb6d0460
@@ -24,6 +24,8 @@ tags:
     sha256:d47118915707192685a51475cfc8e50d68f30404bd3024a390ed32eb425d274f
   2.30.0--r44hdfd78af_0: 
     sha256:801668c312979f171195877b97b8a956d9073576a31c4fb27c3e3c5d418f1e8f
+  2.34.0--r45hdfd78af_0: 
+    sha256:abf3d33d5a3bb6006903039adf1cf1429ad392c07a52bbee9d90b3e979142033
 docker: quay.io/biocontainers/bioconductor-chipenrich
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

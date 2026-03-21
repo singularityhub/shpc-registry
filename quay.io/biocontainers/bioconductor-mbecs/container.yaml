@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mbecs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-mbecs
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:4501ae794aa272c738a9e466407165dbacbec1e667ad52a8becfdc64d2f7fa29
+  1.14.0--r45hdfd78af_0: 
+    sha256:a936b7364ad36ad87c28e1abba0f26ba6a9f00869f800c43287da5198786ec59
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:93a4e32d1ed427aceeb8edd479f74f63dc77c7fa77b647abd8e6fb5f32549361
@@ -13,6 +13,8 @@ tags:
     sha256:5a96662362688917831267b7257a4521e60fc9b350a60351ee0466a742580632
   1.10.0--r44hdfd78af_0: 
     sha256:4501ae794aa272c738a9e466407165dbacbec1e667ad52a8becfdc64d2f7fa29
+  1.14.0--r45hdfd78af_0: 
+    sha256:a936b7364ad36ad87c28e1abba0f26ba6a9f00869f800c43287da5198786ec59
 docker: quay.io/biocontainers/bioconductor-mbecs
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

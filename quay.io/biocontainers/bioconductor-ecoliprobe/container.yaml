@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ecoliprobe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:9eaf5a4545dcda74dfeea41867a9d2880486cfd242d81af4719a0d220bceb7af
+  2.18.0--r45hdfd78af_14: 
+    sha256:6399fd9367e27f0996537be900ed0a77dd279134154410ed7e48449aa662b2be
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:f4c3d5c95b2a786979e57334f22ed3fee4f3b734d9d51dedd09151060d1c20b0
@@ -16,4 +16,6 @@ tags:
     sha256:d8a3da750a2b4ced3e59dc838941e4bf7bafa85a0c73e5529e920f4c9219ed82
   2.18.0--r44hdfd78af_13: 
     sha256:9eaf5a4545dcda74dfeea41867a9d2880486cfd242d81af4719a0d220bceb7af
+  2.18.0--r45hdfd78af_14: 
+    sha256:6399fd9367e27f0996537be900ed0a77dd279134154410ed7e48449aa662b2be
 docker: quay.io/biocontainers/bioconductor-ecoliprobe

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-phenopath
 latest:
-  1.30.0--r44he5774e6_0: 
-    sha256:9fdc805ee33ee50cb939695c3a7dc394160a5fc6b0346328f95d0145487dff2a
+  1.34.0--r45ha27e39d_0: 
+    sha256:2a550de8f6fa470b06cdd66663a20fc715b86419a004f9928857b4c824596397
 tags:
   1.8.0--r36he1b5a44_1: 
     sha256:ffe0cc789b467282ad9ceeb69eeb73cf0744a34c947875479d511e6080c429d3
@@ -26,6 +26,8 @@ tags:
     sha256:4695fa30b853dacd02c46969744dc98cf202bec9f00d660c8634d271a5e30413
   1.30.0--r44he5774e6_0: 
     sha256:9fdc805ee33ee50cb939695c3a7dc394160a5fc6b0346328f95d0145487dff2a
+  1.34.0--r45ha27e39d_0: 
+    sha256:2a550de8f6fa470b06cdd66663a20fc715b86419a004f9928857b4c824596397
 docker: quay.io/biocontainers/bioconductor-phenopath
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

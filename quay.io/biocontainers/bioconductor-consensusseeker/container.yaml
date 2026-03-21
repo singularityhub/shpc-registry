@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-consensusseeker
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:4bac41024f50125a4ca3e8ed225bf3daaae83438a410b50ac3137315c1689362
+  1.38.0--r45hdfd78af_0: 
+    sha256:f470c036ac1062384924f17b62ce90ceddef2b945e20c4519ebb4d02bf9e901d
 tags:
   1.8.0--r341_0: 
     sha256:ba0b0ed40efb95b648bfaf66e09ae5e59e4d8efec90b06ee510f5b11597642bb
@@ -24,6 +24,8 @@ tags:
     sha256:6f1818403ba6a90ab925a1047e58a86dbcb92a3ad4f658fe458755496c55b33e
   1.34.0--r44hdfd78af_0: 
     sha256:4bac41024f50125a4ca3e8ed225bf3daaae83438a410b50ac3137315c1689362
+  1.38.0--r45hdfd78af_0: 
+    sha256:f470c036ac1062384924f17b62ce90ceddef2b945e20c4519ebb4d02bf9e901d
 docker: quay.io/biocontainers/bioconductor-consensusseeker
 aliases:
   wget: /usr/local/bin/wget

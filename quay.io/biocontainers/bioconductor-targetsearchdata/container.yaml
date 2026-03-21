@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-targetsearchdata
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:33c397a71812b4c5b6be01cd5d37e2921fe6e935dbb985ea3419d22d5c126837
+  1.48.0--r45hdfd78af_0: 
+    sha256:59272e88295e3ff2999c423914066545a79bff39e4cf11942171607cc6931d9e
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:4fbc3e52139c59f159633c3e677c175936844d4d423b06984a63557ad6c75684
@@ -16,4 +16,6 @@ tags:
     sha256:2ef5d4ccf8eade9aed069d603666e529878fd6697281b4d88a3589a2a8a47940
   1.44.0--r44hdfd78af_0: 
     sha256:33c397a71812b4c5b6be01cd5d37e2921fe6e935dbb985ea3419d22d5c126837
+  1.48.0--r45hdfd78af_0: 
+    sha256:59272e88295e3ff2999c423914066545a79bff39e4cf11942171607cc6931d9e
 docker: quay.io/biocontainers/bioconductor-targetsearchdata

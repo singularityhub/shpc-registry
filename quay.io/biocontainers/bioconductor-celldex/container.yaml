@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-celldex
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:c05ce67fd284918880d6fb035a5c5a3321bec2090cf59e25d35ad4901caa509c
+  1.20.0--r45hdfd78af_0: 
+    sha256:23340f57c6cd0f418adfd3245eed05ef4cb28b7aaae06d07b690a87ab312f7eb
 tags:
   1.4.0--r41hdfd78af_1: 
     sha256:5fe1ee51d6b24522dc1029d5ea2f61be1e353017bfe01988cf785a86dcf37bb3
@@ -16,4 +16,6 @@ tags:
     sha256:d7a1d39c07f00e620e2e72d4b374ddacffd1d0f5e8f89e2ebb189dd299987e62
   1.16.0--r44hdfd78af_0: 
     sha256:c05ce67fd284918880d6fb035a5c5a3321bec2090cf59e25d35ad4901caa509c
+  1.20.0--r45hdfd78af_0: 
+    sha256:23340f57c6cd0f418adfd3245eed05ef4cb28b7aaae06d07b690a87ab312f7eb
 docker: quay.io/biocontainers/bioconductor-celldex

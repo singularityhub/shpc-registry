@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-spillr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-spillr
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:0483431d74e11a2545ef334713ae9aea614f4ef19fa76f31bdba38c18253a5fd
+  1.6.0--r45hdfd78af_0: 
+    sha256:dd333bc2e9d582adb9f3d7c4e02146caf65e90690d48d89d5518bb20a68c3a03
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:0483431d74e11a2545ef334713ae9aea614f4ef19fa76f31bdba38c18253a5fd
+  1.6.0--r45hdfd78af_0: 
+    sha256:dd333bc2e9d582adb9f3d7c4e02146caf65e90690d48d89d5518bb20a68c3a03
 docker: quay.io/biocontainers/bioconductor-spillr
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

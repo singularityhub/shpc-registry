@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-idr2d
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:81ba04fc1a8bbf02b92d5db87f095e12ac9b7f46fc7046004ca358c027f958f1
+  1.24.0--r45hdfd78af_0: 
+    sha256:2482bae00e5e6d55a2cc6bf77c574855a4d66c71dd6c03b7b611d1269cf3a6ed
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:0e5f9b289390e18e5276394d84bf30343e8ca4eaa93bcb3882acd09a5605cc66
@@ -16,4 +16,6 @@ tags:
     sha256:ca3e1d8b596d8baf4304e040667ba48b260ea998680b4340ed9b4bce41ddcb90
   1.20.0--r44hdfd78af_0: 
     sha256:81ba04fc1a8bbf02b92d5db87f095e12ac9b7f46fc7046004ca358c027f958f1
+  1.24.0--r45hdfd78af_0: 
+    sha256:2482bae00e5e6d55a2cc6bf77c574855a4d66c71dd6c03b7b611d1269cf3a6ed
 docker: quay.io/biocontainers/bioconductor-idr2d

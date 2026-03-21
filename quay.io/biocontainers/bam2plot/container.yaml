@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bam2plot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bam2plot
 latest:
-  0.4.0--pyhdfd78af_0: 
-    sha256:c084ccc24423c8dd020ec5be23915bb6f074fd0fb12d8597e58b8f2f8371604e
+  0.4.1--pyhdfd78af_0: 
+    sha256:7483e908a85f49f722a8c8de0b59958ad363092d7325369ba363efa45cbdf8e9
 tags:
   0.3.6--pyhdfd78af_0: 
     sha256:f0e9c4fb20d6180c3f0cf82f78f72dc7b5c160835e35eb52aba20e39ab18fc37
@@ -11,6 +11,8 @@ tags:
     sha256:995793b2768ae3ac742f9b4857bb23a5aa34ca3c1a3e78d301c9b77c6ded32ec
   0.4.0--pyhdfd78af_0: 
     sha256:c084ccc24423c8dd020ec5be23915bb6f074fd0fb12d8597e58b8f2f8371604e
+  0.4.1--pyhdfd78af_0: 
+    sha256:7483e908a85f49f722a8c8de0b59958ad363092d7325369ba363efa45cbdf8e9
 docker: quay.io/biocontainers/bam2plot
 aliases:
   bam2plot: /usr/local/bin/bam2plot

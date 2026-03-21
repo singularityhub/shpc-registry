@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-maizecdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:92d6527149dfb148f46656bf7d57c2c3a26c08771a1b4c0cfbe07e3cc52671e7
+  2.18.0--r45hdfd78af_14: 
+    sha256:3df985d583be434f607e2666ef4da7e543295577729f615c49a62e8243a5471d
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:6b590ad050bf4004a94a4807067dd96428e1dd82608c414d6a12b456cee1632d
@@ -16,4 +16,6 @@ tags:
     sha256:7b409107cce613b22b271d2eaef06eaaaec0a72fc4a8c2e9c882491129d9ccce
   2.18.0--r44hdfd78af_13: 
     sha256:92d6527149dfb148f46656bf7d57c2c3a26c08771a1b4c0cfbe07e3cc52671e7
+  2.18.0--r45hdfd78af_14: 
+    sha256:3df985d583be434f607e2666ef4da7e543295577729f615c49a62e8243a5471d
 docker: quay.io/biocontainers/bioconductor-maizecdf

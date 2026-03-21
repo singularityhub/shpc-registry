@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mcsea
 latest:
-  1.22.0--r43hdfd78af_0: 
-    sha256:adc45feee9d2053ddfd57b4e13bbc0561a843412105d51d4aa8cee4d96eeb58c
+  1.30.1--r45hdfd78af_0: 
+    sha256:3121397cce236cb48a0c3a3231fd99bb352c16e099b1b3fe415d7f1b7b636b93
 tags:
   1.8.0--r40_0: 
     sha256:51660120d35c56a1d9beff5f7574789662a67543f24bc3246073b341cc5d0390
@@ -20,6 +20,8 @@ tags:
     sha256:28e96eb97b46bd8762ad9a2edad57ff89cc1c5265d572b3f8832521012023e60
   1.22.0--r43hdfd78af_0: 
     sha256:adc45feee9d2053ddfd57b4e13bbc0561a843412105d51d4aa8cee4d96eeb58c
+  1.30.1--r45hdfd78af_0: 
+    sha256:3121397cce236cb48a0c3a3231fd99bb352c16e099b1b3fe415d7f1b7b636b93
 docker: quay.io/biocontainers/bioconductor-mcsea
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

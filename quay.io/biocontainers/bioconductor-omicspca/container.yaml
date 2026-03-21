@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-omicspca
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:84ec35e67fac2f8c18b05f4f6b04ce69dbdb442b7bb96a9741c445dbeb09c62a
+  1.28.0--r45h575d39b_0: 
+    sha256:6a5535745d64cf4486cc14ad39ca1a6c009739ae8338664c01b3eeba3c03c4ea
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:fc74489aad6dcadefad2a87e640404bd117f7198ba78eeff8cbc5ce705e77fa1
@@ -20,6 +20,8 @@ tags:
     sha256:b426563c35ef63d0cd9701d5dd891d32cda0797b51d423ee28282a69b2b422ef
   1.24.0--r44hdfd78af_0: 
     sha256:84ec35e67fac2f8c18b05f4f6b04ce69dbdb442b7bb96a9741c445dbeb09c62a
+  1.28.0--r45h575d39b_0: 
+    sha256:6a5535745d64cf4486cc14ad39ca1a6c009739ae8338664c01b3eeba3c03c4ea
 docker: quay.io/biocontainers/bioconductor-omicspca
 aliases:
   pdfattach: /usr/local/bin/pdfattach

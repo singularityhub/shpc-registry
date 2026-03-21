@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-genomicplot
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:8163a500e616e90ba56378e0c439d040d948d9520b3cce9ac0a513caff39dd04
+  1.8.1--r45hdfd78af_0: 
+    sha256:aa0c16a894834f4eb6d8a3ac004aa9087677b0ae44f6c5cc699f1176bdc90eeb
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:5a2f339623498d11d6f6797bc60f66cbb5ce93547a312593c7531af23b7a6c6d
   1.4.0--r44hdfd78af_0: 
     sha256:8163a500e616e90ba56378e0c439d040d948d9520b3cce9ac0a513caff39dd04
+  1.8.1--r45hdfd78af_0: 
+    sha256:aa0c16a894834f4eb6d8a3ac004aa9087677b0ae44f6c5cc699f1176bdc90eeb
 docker: quay.io/biocontainers/bioconductor-genomicplot
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

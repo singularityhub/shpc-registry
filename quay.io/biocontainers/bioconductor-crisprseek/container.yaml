@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-crisprseek
 latest:
-  1.46.0--r44hdfd78af_0: 
-    sha256:391deefc3eb8cb56e6705eb8b2d10e22ce47977c257e3eb6a6e85f09a7480a41
+  1.50.0--r45hdfd78af_0: 
+    sha256:f27e6dea97672b93f23acc7b87165faab6ef78bcfee2bc18ab29ca5befb52b57
 tags:
   1.34.0--r41hdfd78af_0: 
     sha256:f998f6ef4d2adfbe293367541e68989908da0c3315329cf1a2fdc4d4896b78c9
@@ -16,4 +16,6 @@ tags:
     sha256:bcb391b7f56c1f91060d4cbbcb4a3955060b07a28054cebcbeece00f0ab1c69e
   1.46.0--r44hdfd78af_0: 
     sha256:391deefc3eb8cb56e6705eb8b2d10e22ce47977c257e3eb6a6e85f09a7480a41
+  1.50.0--r45hdfd78af_0: 
+    sha256:f27e6dea97672b93f23acc7b87165faab6ef78bcfee2bc18ab29ca5befb52b57
 docker: quay.io/biocontainers/bioconductor-crisprseek

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-fusesom
 latest:
-  1.8.0--r44he5774e6_0: 
-    sha256:c79c8e55f1816fd83db3b5675fe4dace0f5f7e5a5455c4c454f3b7ffc0dc12fb
+  1.12.0--r45ha27e39d_0: 
+    sha256:7eeefcad1dc757542be459c5ef7775faff007b5d4258643218e593c1a5a06128
 tags:
   1.0.0--r42hc247a5b_0: 
     sha256:65332b1949816635f2225d26e60e2e4e16d26fd19a063bd55d3d53df5a07d66d
@@ -16,6 +16,8 @@ tags:
     sha256:a71751ce469185928ba0b0c7885d2d1a2132d453f91989d0c6739a361d1e5d63
   1.8.0--r44he5774e6_0: 
     sha256:c79c8e55f1816fd83db3b5675fe4dace0f5f7e5a5455c4c454f3b7ffc0dc12fb
+  1.12.0--r45ha27e39d_0: 
+    sha256:7eeefcad1dc757542be459c5ef7775faff007b5d4258643218e593c1a5a06128
 docker: quay.io/biocontainers/bioconductor-fusesom
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
