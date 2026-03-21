@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bedbaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bedbaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bedbaser/container.yaml"
-updated_at: "2026-03-20 04:57:46.112650"
+updated_at: "2026-03-21 04:48:34.215095"
 latest: "1.2.4--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bedbaser"
 aliases:

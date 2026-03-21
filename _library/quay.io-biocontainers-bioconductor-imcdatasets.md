@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-imcdatasets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imcdatasets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imcdatasets/container.yaml"
-updated_at: "2026-03-20 04:55:04.102112"
+updated_at: "2026-03-21 04:45:47.205896"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imcdatasets"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-omicsviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicsviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicsviewer/container.yaml"
-updated_at: "2026-03-20 04:19:30.137218"
-latest: "1.10.0--r44hdfd78af_0"
+updated_at: "2026-03-21 04:10:17.719376"
+latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicsviewer"
 aliases:
  - "installBiocDataPackage.sh"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "1.2.0--r42hdfd78af_0"
  - "1.10.0--r44hdfd78af_0"
+ - "1.14.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-omicsviewer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicsviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-omicsviewer", "latest": {"1.10.0--r44hdfd78af_0": "sha256:92c2fca14f2caef460cf766491c7a90f103ab77c75b8c2f760eb492ce0caedf6"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:9508e339ce0b2fc1d053ffe043bb55a780be553df03fea156c2eba704652d066", "1.10.0--r44hdfd78af_0": "sha256:92c2fca14f2caef460cf766491c7a90f103ab77c75b8c2f760eb492ce0caedf6"}, "docker": "quay.io/biocontainers/bioconductor-omicsviewer", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicsviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-omicsviewer", "latest": {"1.14.0--r45hdfd78af_0": "sha256:3da072a506e67bfe01e86c8459e89299b27876952f87ce9903644921f870d40d"}, "tags": {"1.2.0--r42hdfd78af_0": "sha256:9508e339ce0b2fc1d053ffe043bb55a780be553df03fea156c2eba704652d066", "1.10.0--r44hdfd78af_0": "sha256:92c2fca14f2caef460cf766491c7a90f103ab77c75b8c2f760eb492ce0caedf6", "1.14.0--r45hdfd78af_0": "sha256:3da072a506e67bfe01e86c8459e89299b27876952f87ce9903644921f870d40d"}, "docker": "quay.io/biocontainers/bioconductor-omicsviewer", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicsviewer.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omicsviewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omicsviewer:1.10.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-omicsviewer:1.14.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omicsviewer/1.10.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-omicsviewer/1.10.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-omicsviewer/1.14.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omicsviewer/1.14.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

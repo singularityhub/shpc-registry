@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tronco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tronco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tronco/container.yaml"
-updated_at: "2026-03-20 04:58:36.015022"
+updated_at: "2026-03-21 04:49:25.574896"
 latest: "2.42.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tronco"
 

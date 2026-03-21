@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/peekseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peekseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peekseq/container.yaml"
-updated_at: "2026-03-20 04:38:37.224209"
-latest: "0.0.1--hdfd78af_0"
+updated_at: "2026-03-21 04:29:21.105627"
+latest: "0.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/peekseq"
 aliases:
  - "peekseq.pl"
 versions:
  - "0.0.1--hdfd78af_0"
+ - "0.0.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for peekseq"
-config: {"url": "https://biocontainers.pro/tools/peekseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peekseq", "latest": {"0.0.1--hdfd78af_0": "sha256:029fc652a4ac31451b44a51f06ab55866a80ef009cfcb83cbfeed526a0e02ab5"}, "tags": {"0.0.1--hdfd78af_0": "sha256:029fc652a4ac31451b44a51f06ab55866a80ef009cfcb83cbfeed526a0e02ab5"}, "docker": "quay.io/biocontainers/peekseq", "aliases": {"peekseq.pl": "/usr/local/bin/peekseq.pl"}}
+config: {"url": "https://biocontainers.pro/tools/peekseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peekseq", "latest": {"0.0.1--hdfd78af_1": "sha256:f11b0f8712f209a873dc37f865e755e1344fad44c5bbc1cbbade9231fd6ef185"}, "tags": {"0.0.1--hdfd78af_0": "sha256:029fc652a4ac31451b44a51f06ab55866a80ef009cfcb83cbfeed526a0e02ab5", "0.0.1--hdfd78af_1": "sha256:f11b0f8712f209a873dc37f865e755e1344fad44c5bbc1cbbade9231fd6ef185"}, "docker": "quay.io/biocontainers/peekseq", "aliases": {"peekseq.pl": "/usr/local/bin/peekseq.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peekseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/peekseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peekseq:0.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/peekseq:0.0.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peekseq/0.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/peekseq/0.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/peekseq/0.0.1--hdfd78af_1
+$ module help quay.io/biocontainers/peekseq/0.0.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

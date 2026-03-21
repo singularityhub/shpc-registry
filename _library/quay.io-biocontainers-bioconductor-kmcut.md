@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-kmcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kmcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kmcut/container.yaml"
-updated_at: "2026-03-20 05:10:18.286427"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-03-21 05:01:20.378646"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kmcut"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -26,8 +26,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-kmcut"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kmcut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-kmcut", "latest": {"1.0.0--r44hdfd78af_0": "sha256:0f1effa37306d339fb6cdb3c118a7db55096bc9ae1b9fb26af3a749192a8d14b"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:0f1effa37306d339fb6cdb3c118a7db55096bc9ae1b9fb26af3a749192a8d14b"}, "docker": "quay.io/biocontainers/bioconductor-kmcut", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kmcut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-kmcut", "latest": {"1.4.0--r45hdfd78af_0": "sha256:b8b78230567949c3ba57e68365843b3db9383db7a24961b0686ab4e0ab048d9c"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:0f1effa37306d339fb6cdb3c118a7db55096bc9ae1b9fb26af3a749192a8d14b", "1.4.0--r45hdfd78af_0": "sha256:b8b78230567949c3ba57e68365843b3db9383db7a24961b0686ab4e0ab048d9c"}, "docker": "quay.io/biocontainers/bioconductor-kmcut", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kmcut.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-kmcut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-kmcut:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-kmcut:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-kmcut/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-kmcut/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-kmcut/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-kmcut/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

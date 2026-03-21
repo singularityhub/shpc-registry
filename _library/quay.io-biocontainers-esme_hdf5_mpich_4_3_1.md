@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esme_hdf5_mpich_4_3_1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_hdf5_mpich_4_3_1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_hdf5_mpich_4_3_1/container.yaml"
-updated_at: "2026-03-20 04:43:10.384451"
+updated_at: "2026-03-21 04:34:01.757198"
 latest: "1.14.6--h256ee8a_0"
 container_url: "https://biocontainers.pro/tools/esme_hdf5_mpich_4_3_1"
 aliases:

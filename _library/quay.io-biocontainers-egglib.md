@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/egglib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/egglib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/egglib/container.yaml"
-updated_at: "2026-03-20 04:40:35.831314"
+updated_at: "2026-03-21 04:31:23.783612"
 latest: "3.6.0--py310h9b84884_0"
 container_url: "https://biocontainers.pro/tools/egglib"
 aliases:

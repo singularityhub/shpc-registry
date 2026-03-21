@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pairkat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pairkat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pairkat/container.yaml"
-updated_at: "2026-03-20 05:01:52.350610"
-latest: "1.12.0--r44hdfd78af_0"
+updated_at: "2026-03-21 04:52:44.779715"
+latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pairkat"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.12.0--r44hdfd78af_0"
+ - "1.16.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pairkat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pairkat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pairkat", "latest": {"1.12.0--r44hdfd78af_0": "sha256:c84c913a6d9f4060631c3477235f628d9b96f79fb25bebf2374fb8a091986b28"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:bf9c91369c979729eb350ea84c5ccf2435587760b78929dd9f8926fb6b66df22", "1.4.0--r42hdfd78af_0": "sha256:736ca2afd0158279f28cadb48173feb5ac75e1cd78c05ea6c0abc523add24569", "1.6.0--r43hdfd78af_0": "sha256:ae8f43a1211b974c13c1ba3569878a4f38e9d583b19f91fddbd446c2a901c2d7", "1.8.0--r43hdfd78af_0": "sha256:d98eb45ffdf3cd8feb985119ad544d12fd991195900028b7828017d731b08a89", "1.12.0--r44hdfd78af_0": "sha256:c84c913a6d9f4060631c3477235f628d9b96f79fb25bebf2374fb8a091986b28"}, "docker": "quay.io/biocontainers/bioconductor-pairkat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pairkat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pairkat", "latest": {"1.16.0--r45hdfd78af_0": "sha256:1686a68f089e63ff04ef89fd6a2559ce5e83479f502bfd819aae49c753eecc6e"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:bf9c91369c979729eb350ea84c5ccf2435587760b78929dd9f8926fb6b66df22", "1.4.0--r42hdfd78af_0": "sha256:736ca2afd0158279f28cadb48173feb5ac75e1cd78c05ea6c0abc523add24569", "1.6.0--r43hdfd78af_0": "sha256:ae8f43a1211b974c13c1ba3569878a4f38e9d583b19f91fddbd446c2a901c2d7", "1.8.0--r43hdfd78af_0": "sha256:d98eb45ffdf3cd8feb985119ad544d12fd991195900028b7828017d731b08a89", "1.12.0--r44hdfd78af_0": "sha256:c84c913a6d9f4060631c3477235f628d9b96f79fb25bebf2374fb8a091986b28", "1.16.0--r45hdfd78af_0": "sha256:1686a68f089e63ff04ef89fd6a2559ce5e83479f502bfd819aae49c753eecc6e"}, "docker": "quay.io/biocontainers/bioconductor-pairkat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pairkat.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pairkat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pairkat:1.12.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pairkat:1.16.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pairkat/1.12.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pairkat/1.12.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pairkat/1.16.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pairkat/1.16.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spectraql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spectraql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spectraql/container.yaml"
-updated_at: "2026-03-20 04:58:59.081973"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-03-21 04:49:49.375417"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spectraql"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-spectraql"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spectraql", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spectraql", "latest": {"1.0.0--r44hdfd78af_0": "sha256:3068b2aad133ef411adeb8609ff325aa0a7c61ddab76fbcd6ead4507dc100bf1"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:3068b2aad133ef411adeb8609ff325aa0a7c61ddab76fbcd6ead4507dc100bf1"}, "docker": "quay.io/biocontainers/bioconductor-spectraql", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spectraql", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spectraql", "latest": {"1.4.0--r45hdfd78af_0": "sha256:3bfd209e6fd7b6049dfb22a82a143bcd1f216dbb306b901957518c5558b1e4d1"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:3068b2aad133ef411adeb8609ff325aa0a7c61ddab76fbcd6ead4507dc100bf1", "1.4.0--r45hdfd78af_0": "sha256:3bfd209e6fd7b6049dfb22a82a143bcd1f216dbb306b901957518c5558b1e4d1"}, "docker": "quay.io/biocontainers/bioconductor-spectraql", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spectraql.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spectraql
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spectraql:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spectraql:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spectraql/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spectraql/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spectraql/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spectraql/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

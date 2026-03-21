@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-epistack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epistack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epistack/container.yaml"
-updated_at: "2026-03-20 05:03:19.966066"
-latest: "1.12.0--r44hdfd78af_0"
+updated_at: "2026-03-21 04:54:14.743040"
+latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epistack"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.12.0--r44hdfd78af_0"
+ - "1.16.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epistack"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epistack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epistack", "latest": {"1.12.0--r44hdfd78af_0": "sha256:0ea214452b51077a80579df7f99c66683c7685f63613877fc88488e5687515d1"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:b64a53fd2a85db0d6077e27c716921c5728ea473b13b2d3f0761db49a26ae2db", "1.4.0--r42hdfd78af_0": "sha256:e40241854112b6238f66d7c99386f27660922057f10b101503ff050407193023", "1.6.0--r43hdfd78af_0": "sha256:676cbf5fcac5ce7e54af8dfb3f58df476f8784b10f91c572bcbc755735eac441", "1.8.0--r43hdfd78af_0": "sha256:f70544a4d8651d4cbfd184adda358810850c5cd4d5095a213949f4fb00ad8989", "1.12.0--r44hdfd78af_0": "sha256:0ea214452b51077a80579df7f99c66683c7685f63613877fc88488e5687515d1"}, "docker": "quay.io/biocontainers/bioconductor-epistack"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epistack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epistack", "latest": {"1.16.0--r45hdfd78af_0": "sha256:0a827aba3d2e8853b538e3f0597361a797867bd92165fb525871cfe3760c2e3d"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:b64a53fd2a85db0d6077e27c716921c5728ea473b13b2d3f0761db49a26ae2db", "1.4.0--r42hdfd78af_0": "sha256:e40241854112b6238f66d7c99386f27660922057f10b101503ff050407193023", "1.6.0--r43hdfd78af_0": "sha256:676cbf5fcac5ce7e54af8dfb3f58df476f8784b10f91c572bcbc755735eac441", "1.8.0--r43hdfd78af_0": "sha256:f70544a4d8651d4cbfd184adda358810850c5cd4d5095a213949f4fb00ad8989", "1.12.0--r44hdfd78af_0": "sha256:0ea214452b51077a80579df7f99c66683c7685f63613877fc88488e5687515d1", "1.16.0--r45hdfd78af_0": "sha256:0a827aba3d2e8853b538e3f0597361a797867bd92165fb525871cfe3760c2e3d"}, "docker": "quay.io/biocontainers/bioconductor-epistack"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epistack.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epistack
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epistack:1.12.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-epistack:1.16.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epistack/1.12.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-epistack/1.12.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-epistack/1.16.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-epistack/1.16.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

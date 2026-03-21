@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowgate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowgate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowgate/container.yaml"
-updated_at: "2026-03-20 05:05:58.399792"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-03-21 04:56:56.919818"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowgate"
 aliases:
  - "hb-info"
@@ -14,8 +14,9 @@ versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-flowgate"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowgate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-flowgate", "latest": {"1.6.0--r44hdfd78af_0": "sha256:dead8d57530d8da849a244644d99d83451bc1e411b82baa780ac8fdcf81c7e38"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:18b8c89e57e4deac304e28499132b2a7234b7117a52e16fe8ada2cbf320336d5", "1.2.0--r43hdfd78af_0": "sha256:ed198891b9e2ef10d84b2bae359354e52bf026517f0418e4532632e6836cc9b6", "1.6.0--r44hdfd78af_0": "sha256:dead8d57530d8da849a244644d99d83451bc1e411b82baa780ac8fdcf81c7e38"}, "docker": "quay.io/biocontainers/bioconductor-flowgate", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowgate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-flowgate", "latest": {"1.10.0--r45hdfd78af_0": "sha256:99feade9d3f235caaad6527405b258ac8bfc8ab8137a2e4b511bcdc46fe638b2"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:18b8c89e57e4deac304e28499132b2a7234b7117a52e16fe8ada2cbf320336d5", "1.2.0--r43hdfd78af_0": "sha256:ed198891b9e2ef10d84b2bae359354e52bf026517f0418e4532632e6836cc9b6", "1.6.0--r44hdfd78af_0": "sha256:dead8d57530d8da849a244644d99d83451bc1e411b82baa780ac8fdcf81c7e38", "1.10.0--r45hdfd78af_0": "sha256:99feade9d3f235caaad6527405b258ac8bfc8ab8137a2e4b511bcdc46fe638b2"}, "docker": "quay.io/biocontainers/bioconductor-flowgate", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowgate.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowgate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowgate:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowgate:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowgate/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowgate/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowgate/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowgate/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

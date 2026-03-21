@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vgp-processcuration"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vgp-processcuration/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vgp-processcuration/container.yaml"
-updated_at: "2026-03-20 04:58:00.404493"
+updated_at: "2026-03-21 04:48:48.916620"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vgp-processcuration"
 aliases:

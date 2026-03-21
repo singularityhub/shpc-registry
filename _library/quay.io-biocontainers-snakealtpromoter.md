@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakealtpromoter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakealtpromoter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakealtpromoter/container.yaml"
-updated_at: "2026-03-20 04:20:31.548308"
-latest: "1.0.5--pyhdfd78af_0"
+updated_at: "2026-03-21 04:11:19.960978"
+latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakealtpromoter"
 aliases:
  - "Genomesetup"
@@ -42,8 +42,9 @@ aliases:
  - "mqtt5_canary"
 versions:
  - "1.0.5--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakealtpromoter"
-config: {"url": "https://biocontainers.pro/tools/snakealtpromoter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakealtpromoter", "latest": {"1.0.5--pyhdfd78af_0": "sha256:f263dc9c765a29233afce9507a8a6da81fdd35f1eeb2845c136d7f04ab6fe681"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:f263dc9c765a29233afce9507a8a6da81fdd35f1eeb2845c136d7f04ab6fe681"}, "docker": "quay.io/biocontainers/snakealtpromoter", "aliases": {"Genomesetup": "/usr/local/bin/Genomesetup", "Snakealtpromoter": "/usr/local/bin/Snakealtpromoter", "phc": "/usr/local/bin/phc", "sap": "/usr/local/bin/sap", "sap-ui": "/usr/local/bin/sap-ui", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "watchmedo": "/usr/local/bin/watchmedo", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "h2benchmark": "/usr/local/bin/h2benchmark", "eido": "/usr/local/bin/eido", "typer": "/usr/local/bin/typer", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary"}}
+config: {"url": "https://biocontainers.pro/tools/snakealtpromoter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakealtpromoter", "latest": {"2.0.0--pyhdfd78af_0": "sha256:c82ed0146e60db52c56d87541d3d2a24923252767126e67df376902e3feaef26"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:f263dc9c765a29233afce9507a8a6da81fdd35f1eeb2845c136d7f04ab6fe681", "2.0.0--pyhdfd78af_0": "sha256:c82ed0146e60db52c56d87541d3d2a24923252767126e67df376902e3feaef26"}, "docker": "quay.io/biocontainers/snakealtpromoter", "aliases": {"Genomesetup": "/usr/local/bin/Genomesetup", "Snakealtpromoter": "/usr/local/bin/Snakealtpromoter", "phc": "/usr/local/bin/phc", "sap": "/usr/local/bin/sap", "sap-ui": "/usr/local/bin/sap-ui", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "watchmedo": "/usr/local/bin/watchmedo", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "h2benchmark": "/usr/local/bin/h2benchmark", "eido": "/usr/local/bin/eido", "typer": "/usr/local/bin/typer", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakealtpromoter.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/snakealtpromoter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakealtpromoter:1.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakealtpromoter:2.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakealtpromoter/1.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakealtpromoter/1.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakealtpromoter/2.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakealtpromoter/2.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

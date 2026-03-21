@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yasma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yasma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yasma/container.yaml"
-updated_at: "2026-03-20 05:02:31.744401"
+updated_at: "2026-03-21 04:53:25.383568"
 latest: "1.1.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/yasma"
 aliases:

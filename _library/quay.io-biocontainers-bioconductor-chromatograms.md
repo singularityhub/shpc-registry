@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromatograms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromatograms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromatograms/container.yaml"
-updated_at: "2026-03-20 04:27:19.632350"
+updated_at: "2026-03-21 04:18:06.641143"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromatograms"
 aliases:
@@ -14,7 +14,7 @@ aliases:
 versions:
  - "1.0.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-chromatograms"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromatograms", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-chromatograms", "latest": {"1.0.0--r45hdfd78af_0": "sha256:93a98cb212f74e5465f37b3b6428ab6c4be3cff6b666192182d1e826c034f645"}, "tags": {"1.0.0--r45hdfd78af_0": "sha256:93a98cb212f74e5465f37b3b6428ab6c4be3cff6b666192182d1e826c034f645"}, "docker": "quay.io/biocontainers/bioconductor-chromatograms", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromatograms", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-chromatograms", "latest": {"1.0.0--r45hdfd78af_0": "sha256:a1169947e19152b7b84a2af05c20a31bc776193259d5f301bde89baea5052409"}, "tags": {"1.0.0--r45hdfd78af_0": "sha256:a1169947e19152b7b84a2af05c20a31bc776193259d5f301bde89baea5052409"}, "docker": "quay.io/biocontainers/bioconductor-chromatograms", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromatograms.

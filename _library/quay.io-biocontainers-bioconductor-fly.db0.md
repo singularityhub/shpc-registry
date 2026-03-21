@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fly.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fly.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fly.db0/container.yaml"
-updated_at: "2026-03-20 05:08:49.116715"
-latest: "3.20.0--r44hdfd78af_0"
+updated_at: "2026-03-21 04:59:50.222319"
+latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fly.db0"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
  - "3.20.0--r44hdfd78af_0"
+ - "3.22.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fly.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fly.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fly.db0", "latest": {"3.20.0--r44hdfd78af_0": "sha256:a8ba5e9e2de0288928b520b04220c60d5c75e17f70293d83d53200f5ecb3415e"}, "tags": {"3.8.2--r36_1": "sha256:fd3750ed0632c02129467909b0e2deaa8336071a3619031d823361d937535e40", "3.16.0--r42hdfd78af_0": "sha256:6832167b822035d38226b18dc08c681c8f4dab744bd95484b9464bf7987c3138", "3.14.0--r41hdfd78af_1": "sha256:4eb403bddba0eeed79bb5b5317ddd1e8396e9fb7397f04dfc3e6c50b282fd768", "3.13.0--r41hdfd78af_0": "sha256:7523e1b56a8eefccbc61cca66242a045973426eb52cb42e6854061d7e262a468", "3.12.0--r40hdfd78af_1": "sha256:60bba6aa8032afba07fc753da5f8bcd58565549083554a10212ce0047c782e6e", "3.11.2--r40_0": "sha256:3fe8d40ade63042e1d86843da08af47f2d5e33d2f2f8be85e066f4d5bea66009", "3.17.0--r43hdfd78af_0": "sha256:5b03186210d14e6b861c74b596f7b0d915c0d4b3095920420b1a1eb8d4832e0a", "3.18.0--r43hdfd78af_0": "sha256:312af9f0c03a6e249f9a7e589c5f98f6f2b17db2a8321e4d228ac0c1a02e3f7c", "3.20.0--r44hdfd78af_0": "sha256:a8ba5e9e2de0288928b520b04220c60d5c75e17f70293d83d53200f5ecb3415e"}, "docker": "quay.io/biocontainers/bioconductor-fly.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fly.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fly.db0", "latest": {"3.22.0--r45hdfd78af_0": "sha256:8ee4eb9078bd9a1da5930e873929bc5c81ac281013b89fc812e1692fd8f868d9"}, "tags": {"3.8.2--r36_1": "sha256:fd3750ed0632c02129467909b0e2deaa8336071a3619031d823361d937535e40", "3.16.0--r42hdfd78af_0": "sha256:6832167b822035d38226b18dc08c681c8f4dab744bd95484b9464bf7987c3138", "3.14.0--r41hdfd78af_1": "sha256:4eb403bddba0eeed79bb5b5317ddd1e8396e9fb7397f04dfc3e6c50b282fd768", "3.13.0--r41hdfd78af_0": "sha256:7523e1b56a8eefccbc61cca66242a045973426eb52cb42e6854061d7e262a468", "3.12.0--r40hdfd78af_1": "sha256:60bba6aa8032afba07fc753da5f8bcd58565549083554a10212ce0047c782e6e", "3.11.2--r40_0": "sha256:3fe8d40ade63042e1d86843da08af47f2d5e33d2f2f8be85e066f4d5bea66009", "3.17.0--r43hdfd78af_0": "sha256:5b03186210d14e6b861c74b596f7b0d915c0d4b3095920420b1a1eb8d4832e0a", "3.18.0--r43hdfd78af_0": "sha256:312af9f0c03a6e249f9a7e589c5f98f6f2b17db2a8321e4d228ac0c1a02e3f7c", "3.20.0--r44hdfd78af_0": "sha256:a8ba5e9e2de0288928b520b04220c60d5c75e17f70293d83d53200f5ecb3415e", "3.22.0--r45hdfd78af_0": "sha256:8ee4eb9078bd9a1da5930e873929bc5c81ac281013b89fc812e1692fd8f868d9"}, "docker": "quay.io/biocontainers/bioconductor-fly.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fly.db0.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fly.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fly.db0:3.20.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fly.db0:3.22.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fly.db0/3.20.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fly.db0/3.20.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fly.db0/3.22.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fly.db0/3.22.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

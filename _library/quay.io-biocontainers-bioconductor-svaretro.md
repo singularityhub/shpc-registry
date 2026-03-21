@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-svaretro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-svaretro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svaretro/container.yaml"
-updated_at: "2026-03-20 04:52:13.926320"
-latest: "1.12.0--r44hdfd78af_0"
+updated_at: "2026-03-21 04:42:55.859924"
+latest: "1.15.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-svaretro"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.12.0--r44hdfd78af_0"
+ - "1.15.1--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-svaretro"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-svaretro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-svaretro", "latest": {"1.12.0--r44hdfd78af_0": "sha256:2b099936a76bbf308e857584712e5d194bf28e0bc24ea53f554b975be799e318"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:770cca9735b372122e8edbf58acecfd7f552b0415f396dfbf5615267de7cbc73", "1.4.0--r42hdfd78af_0": "sha256:8ba70467b5644eb865f1611d101749cd693bd6a4804d4ab810ccb1e82302ab72", "1.6.0--r43hdfd78af_0": "sha256:b11582ced7cec814cd372fd2f43dd6c657ce9a85c8811b612b760bf382896a42", "1.8.0--r43hdfd78af_0": "sha256:a94c8313e127b92f1bf3e1485894c0bf7e6f202ada73ecd241679398712f4e0d", "1.12.0--r44hdfd78af_0": "sha256:2b099936a76bbf308e857584712e5d194bf28e0bc24ea53f554b975be799e318"}, "docker": "quay.io/biocontainers/bioconductor-svaretro"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-svaretro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-svaretro", "latest": {"1.15.1--r45hdfd78af_0": "sha256:90bc5379188c7d17070e4cc2029624abda68d5e8fb001afb67a5b507bc015e7e"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:770cca9735b372122e8edbf58acecfd7f552b0415f396dfbf5615267de7cbc73", "1.4.0--r42hdfd78af_0": "sha256:8ba70467b5644eb865f1611d101749cd693bd6a4804d4ab810ccb1e82302ab72", "1.6.0--r43hdfd78af_0": "sha256:b11582ced7cec814cd372fd2f43dd6c657ce9a85c8811b612b760bf382896a42", "1.8.0--r43hdfd78af_0": "sha256:a94c8313e127b92f1bf3e1485894c0bf7e6f202ada73ecd241679398712f4e0d", "1.12.0--r44hdfd78af_0": "sha256:2b099936a76bbf308e857584712e5d194bf28e0bc24ea53f554b975be799e318", "1.15.1--r45hdfd78af_0": "sha256:90bc5379188c7d17070e4cc2029624abda68d5e8fb001afb67a5b507bc015e7e"}, "docker": "quay.io/biocontainers/bioconductor-svaretro"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-svaretro.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-svaretro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-svaretro:1.12.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-svaretro:1.15.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-svaretro/1.12.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-svaretro/1.12.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-svaretro/1.15.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-svaretro/1.15.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

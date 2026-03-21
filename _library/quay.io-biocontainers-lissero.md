@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lissero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lissero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lissero/container.yaml"
-updated_at: "2026-03-20 04:23:33.654562"
-latest: "0.4.9--py_0"
+updated_at: "2026-03-21 04:14:24.285515"
+latest: "0.4.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lissero"
 aliases:
  - "gfPcr"
@@ -24,8 +24,9 @@ aliases:
  - "readme.pdf"
 versions:
  - "0.4.9--py_0"
+ - "0.4.10--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for lissero"
-config: {"url": "https://biocontainers.pro/tools/lissero", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lissero", "latest": {"0.4.9--py_0": "sha256:d209fcec504828bfb4338764d476032d9d7fa213fbeaf3d6c8656f25532abf3d"}, "tags": {"0.4.9--py_0": "sha256:d209fcec504828bfb4338764d476032d9d7fa213fbeaf3d6c8656f25532abf3d"}, "docker": "quay.io/biocontainers/lissero", "aliases": {"gfPcr": "/usr/local/bin/gfPcr", "gfServer": "/usr/local/bin/gfServer", "isPcr": "/usr/local/bin/isPcr", "lissero": "/usr/local/bin/lissero", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
+config: {"url": "https://biocontainers.pro/tools/lissero", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lissero", "latest": {"0.4.10--pyhdfd78af_0": "sha256:7f98157516187944a503985e8a307f666207b4e3c2969abe5235b2b328fad007"}, "tags": {"0.4.9--py_0": "sha256:d209fcec504828bfb4338764d476032d9d7fa213fbeaf3d6c8656f25532abf3d", "0.4.10--pyhdfd78af_0": "sha256:7f98157516187944a503985e8a307f666207b4e3c2969abe5235b2b328fad007"}, "docker": "quay.io/biocontainers/lissero", "aliases": {"gfPcr": "/usr/local/bin/gfPcr", "gfServer": "/usr/local/bin/gfServer", "isPcr": "/usr/local/bin/isPcr", "lissero": "/usr/local/bin/lissero", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lissero.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/lissero
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lissero:0.4.9--py_0
+$ shpc install quay.io/biocontainers/lissero:0.4.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lissero/0.4.9--py_0
-$ module help quay.io/biocontainers/lissero/0.4.9--py_0
+$ module load quay.io/biocontainers/lissero/0.4.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/lissero/0.4.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

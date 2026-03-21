@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-distinct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-distinct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-distinct/container.yaml"
-updated_at: "2026-03-20 04:34:10.483273"
-latest: "1.18.0--r44he5774e6_0"
+updated_at: "2026-03-21 04:24:49.098803"
+latest: "1.22.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-distinct"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.10.0--r42hf17093f_1"
  - "1.12.2--r43hf17093f_0"
  - "1.18.0--r44he5774e6_0"
+ - "1.22.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-distinct"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-distinct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-distinct", "latest": {"1.18.0--r44he5774e6_0": "sha256:404207f9558f2d2119af1295be90c88151ef9dc6c1417ad7185e76fb5394c8a1"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:30688b1389360b9eda0606d2868bda169ff893f0d77ee6b96569c92429848869", "1.10.0--r42hc247a5b_0": "sha256:586889d983ef45d30915d5a2e520de60b270f33896257718c80ebf060c100f6a", "1.10.0--r42hf17093f_1": "sha256:00ea17a1760f16c614e9bf986848c8d9a2cdf047e104cf039ff5f00753a179fa", "1.12.2--r43hf17093f_0": "sha256:b71ceb640b7b96b519ee30ab1c82bdbc66e61cc8246df6e5e4a3b004ed44403e", "1.18.0--r44he5774e6_0": "sha256:404207f9558f2d2119af1295be90c88151ef9dc6c1417ad7185e76fb5394c8a1"}, "docker": "quay.io/biocontainers/bioconductor-distinct"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-distinct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-distinct", "latest": {"1.22.0--r45ha27e39d_0": "sha256:a4e85d40a4e7252de2fb5b9e5db25f09588bd5a4f79a1643d43c75dd2cf9f7f1"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:30688b1389360b9eda0606d2868bda169ff893f0d77ee6b96569c92429848869", "1.10.0--r42hc247a5b_0": "sha256:586889d983ef45d30915d5a2e520de60b270f33896257718c80ebf060c100f6a", "1.10.0--r42hf17093f_1": "sha256:00ea17a1760f16c614e9bf986848c8d9a2cdf047e104cf039ff5f00753a179fa", "1.12.2--r43hf17093f_0": "sha256:b71ceb640b7b96b519ee30ab1c82bdbc66e61cc8246df6e5e4a3b004ed44403e", "1.18.0--r44he5774e6_0": "sha256:404207f9558f2d2119af1295be90c88151ef9dc6c1417ad7185e76fb5394c8a1", "1.22.0--r45ha27e39d_0": "sha256:a4e85d40a4e7252de2fb5b9e5db25f09588bd5a4f79a1643d43c75dd2cf9f7f1"}, "docker": "quay.io/biocontainers/bioconductor-distinct"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-distinct.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-distinct
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-distinct:1.18.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-distinct:1.22.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-distinct/1.18.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-distinct/1.18.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-distinct/1.22.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-distinct/1.22.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
