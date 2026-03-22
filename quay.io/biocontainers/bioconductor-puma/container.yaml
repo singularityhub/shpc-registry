@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-puma
 latest:
-  3.48.0--r44h3df3fcb_0: 
-    sha256:ef103495e469d9c581a9448cfb0fae2e55c95167fd8a94c1dbdfd2ec742d0632
+  3.52.0--r45h01b2380_0: 
+    sha256:b7e98a3bd9ba671784cd7e9326813dc84483d40cebcc94b6749870e9f0de154d
 tags:
   3.36.0--r41hc0cfd56_2: 
     sha256:77f41aba9551cad89fe3cc372ff9d7e376f8613e293edc58201cc3a31e964578
@@ -18,4 +18,6 @@ tags:
     sha256:d2b76ff09b3494d489586836b08264e252e5935441ac377ce04a03af84fbdc35
   3.48.0--r44h3df3fcb_0: 
     sha256:ef103495e469d9c581a9448cfb0fae2e55c95167fd8a94c1dbdfd2ec742d0632
+  3.52.0--r45h01b2380_0: 
+    sha256:b7e98a3bd9ba671784cd7e9326813dc84483d40cebcc94b6749870e9f0de154d
 docker: quay.io/biocontainers/bioconductor-puma

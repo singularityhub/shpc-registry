@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-moe430b.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:56bfda7ee6008c826b619a4800e44e53488bc36c2468a224bbf91af3bc55809a
+  3.13.0--r45hdfd78af_6: 
+    sha256:eeb519907d52da4ccc64c7c3eea1db52f55fc668debe2e8d42fe78da326206b1
 tags:
   3.2.3--r41hdfd78af_7: 
     sha256:bc14af07e6d7d513337b91eeaa793d5c5236df07e179c88f122cefd4f009c986
@@ -16,6 +16,8 @@ tags:
     sha256:1ec437ef3d35507aa27a8722769a6e2feae66ab3325444a1c6ad0af1d7dcb7db
   3.13.0--r44hdfd78af_5: 
     sha256:56bfda7ee6008c826b619a4800e44e53488bc36c2468a224bbf91af3bc55809a
+  3.13.0--r45hdfd78af_6: 
+    sha256:eeb519907d52da4ccc64c7c3eea1db52f55fc668debe2e8d42fe78da326206b1
 docker: quay.io/biocontainers/bioconductor-moe430b.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mofa2
 latest:
-  1.16.0--r44h9ee0642_0: 
-    sha256:f5710189a73e02cc442cb1b31480e9ef10843c7b3ad2243c819faab35f353a20
+  1.20.2--r45h9ee0642_0: 
+    sha256:704fd01bd8f2fb5d471adfa1000a35c5ff4042e7517006e50859f85a1121ecc8
 tags:
   1.4.0--r41h9ee0642_0: 
     sha256:f392e6e982fa61fb19a3d9e476d7a8643902e46675bc8ada3ea6733d22860f99
@@ -16,4 +16,6 @@ tags:
     sha256:2ae86f26f3e5f3073484179b929a934e03a90230343bcb297b288869bda4d2a3
   1.16.0--r44h9ee0642_0: 
     sha256:f5710189a73e02cc442cb1b31480e9ef10843c7b3ad2243c819faab35f353a20
+  1.20.2--r45h9ee0642_0: 
+    sha256:704fd01bd8f2fb5d471adfa1000a35c5ff4042e7517006e50859f85a1121ecc8
 docker: quay.io/biocontainers/bioconductor-mofa2

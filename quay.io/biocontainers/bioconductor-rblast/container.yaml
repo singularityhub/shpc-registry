@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-rblast
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rblast
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:db6e522875fe1e74806d8e279319ac6dff8ba9d46f1d12d3386619b29a397ba3
+  1.6.0--r45hdfd78af_0: 
+    sha256:54e945a74547dba5586662ab8489a74368cc97683162ac83f6c58a33ff21bfd8
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:db6e522875fe1e74806d8e279319ac6dff8ba9d46f1d12d3386619b29a397ba3
+  1.6.0--r45hdfd78af_0: 
+    sha256:54e945a74547dba5586662ab8489a74368cc97683162ac83f6c58a33ff21bfd8
 docker: quay.io/biocontainers/bioconductor-rblast
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

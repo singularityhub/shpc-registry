@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/python-nextflow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for python-nextflow
 latest:
-  0.8--pyhdfd78af_0: 
-    sha256:588f1049a0f27078a745df1298d736b78a1266b308b2110660d24c0a11cbe357
+  0.13.0--pyh106432d_0: 
+    sha256:e33c4a8bd8e4d1072502e11c48e18f30a82d585de52d2b5a7bbfbd00b0b14dce
 tags:
   0.5--pyhdfd78af_0: 
     sha256:e13929fa1e5376f390d370ac09da7e59a5c8b48bc9ee65858353e9c61ca19b91
@@ -17,6 +17,8 @@ tags:
     sha256:588f1049a0f27078a745df1298d736b78a1266b308b2110660d24c0a11cbe357
   0.7.1--pyhdfd78af_0: 
     sha256:0bbcc17ced03030db0438629ff1ea93ff09d3c0b8f6ed6502be162a58155fe13
+  0.13.0--pyh106432d_0: 
+    sha256:e33c4a8bd8e4d1072502e11c48e18f30a82d585de52d2b5a7bbfbd00b0b14dce
 docker: quay.io/biocontainers/python-nextflow
 aliases:
   nextflow: /usr/local/bin/nextflow

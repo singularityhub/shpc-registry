@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-beachmat
 latest:
-  2.22.0--r44he5774e6_1: 
-    sha256:b84de5a5479d0a1289e4c0ef7cfebfd28d39a71ab838b9db98a895d23033c5aa
+  2.26.0--r45ha27e39d_0: 
+    sha256:b2e247666ac54af3048fd7fbbad9a9c3aa4818006443f13c607fcba9c0e6f83d
 tags:
   2.8.0--r41h399db7b_0: 
     sha256:59f89eeaa0653e777d623574f908dd365141b2f4ca040d2df35f90fff9676927
@@ -24,6 +24,8 @@ tags:
     sha256:5e16ee0bb1329ed809f9209bbd96953f426851c4a7c16a9415921311a791bd83
   2.22.0--r44he5774e6_1: 
     sha256:b84de5a5479d0a1289e4c0ef7cfebfd28d39a71ab838b9db98a895d23033c5aa
+  2.26.0--r45ha27e39d_0: 
+    sha256:b2e247666ac54af3048fd7fbbad9a9c3aa4818006443f13c607fcba9c0e6f83d
 docker: quay.io/biocontainers/bioconductor-beachmat
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

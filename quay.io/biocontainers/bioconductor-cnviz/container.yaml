@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cnviz
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:0561ceb12100df0bcf77a2abadf3a13ab9a08c8486b20adae0bf4002215a6dd1
+  1.18.0--r45hdfd78af_0: 
+    sha256:f95e12ee277f127e7b9701aa966af836e3211b31e53e52db91becca851e1f0d8
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:5ba1ba9d59bd30f007cdd1a69e05e7aef32ef70235021b0931e042495fb7914a
@@ -16,4 +16,6 @@ tags:
     sha256:f9ded74869d18bc6c750471e3b2f4c6bf673ec7992fe367bbb42825351a9c5b1
   1.14.0--r44hdfd78af_0: 
     sha256:0561ceb12100df0bcf77a2abadf3a13ab9a08c8486b20adae0bf4002215a6dd1
+  1.18.0--r45hdfd78af_0: 
+    sha256:f95e12ee277f127e7b9701aa966af836e3211b31e53e52db91becca851e1f0d8
 docker: quay.io/biocontainers/bioconductor-cnviz

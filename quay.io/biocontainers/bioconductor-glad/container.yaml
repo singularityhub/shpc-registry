@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for
   bioconductor-glad
 latest:
   2.74.0--r45h1ca3914_0: 
-    sha256:377e8a61507b0f7ba7924b79ff70be4bfc6d61cb6af57f54ca6be2e05c3d993b
+    sha256:bf7fc4c92baa636d23f1ad96cb3048b6c2af5552688841ec67af6ce737fa0c52
 tags:
   2.58.0--r41hd4b0f26_3: 
     sha256:86f1d3508a046245b5c9fc463fcccd1fcb5830182b95e638479c192b7819c48c
@@ -19,5 +19,5 @@ tags:
   2.70.0--r44h310a8c3_0: 
     sha256:b27a02572c4728b246d36deb1c37f1fc8b91e7aa65bdafacb2ab93d7e02407c7
   2.74.0--r45h1ca3914_0: 
-    sha256:377e8a61507b0f7ba7924b79ff70be4bfc6d61cb6af57f54ca6be2e05c3d993b
+    sha256:bf7fc4c92baa636d23f1ad96cb3048b6c2af5552688841ec67af6ce737fa0c52
 docker: quay.io/biocontainers/bioconductor-glad

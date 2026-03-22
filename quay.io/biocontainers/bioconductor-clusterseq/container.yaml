@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-clusterseq
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:d8430f393fc38feea9fffbd100b9890136d9806d02a70dbb5fb7bd31d956e503
+  1.34.0--r45hdfd78af_0: 
+    sha256:2560b33b2ae2fd7c40f5e664139ad61beb03fb9c41fd2457f67fa1352a4c4370
 tags:
   1.8.0--r36_1: 
     sha256:030cfabe5c27d78d8c89f074ffa0e23ccb97ba02a1e9faf7746aef3d4356e3ae
@@ -22,6 +22,8 @@ tags:
     sha256:c624208d3ee9a79896be7c2c08ddcb99721c85e3e748de8bd0c981a1c4b80d06
   1.30.0--r44hdfd78af_0: 
     sha256:d8430f393fc38feea9fffbd100b9890136d9806d02a70dbb5fb7bd31d956e503
+  1.34.0--r45hdfd78af_0: 
+    sha256:2560b33b2ae2fd7c40f5e664139ad61beb03fb9c41fd2457f67fa1352a4c4370
 docker: quay.io/biocontainers/bioconductor-clusterseq
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

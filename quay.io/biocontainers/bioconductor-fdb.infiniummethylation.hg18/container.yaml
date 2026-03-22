@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fdb.infiniummethylation.hg18
 latest:
-  2.2.0--r44hdfd78af_13: 
-    sha256:f9b2bc2cedd47ae689546e42352c878f7ae26998d2c008bbabcb2d6653b9ae30
+  2.2.0--r45hdfd78af_14: 
+    sha256:fd0945de07ad9e2bad90b71163f691b46b26a5bb03c107ca4ea89e28f78b4588
 tags:
   2.2.0--r41hdfd78af_9: 
     sha256:e4c559926134b93fe59b0a1a7cf51642f922295a3a577c99faa872f779522f37
@@ -16,4 +16,6 @@ tags:
     sha256:f196e3ecc778ee76ff87f95e4ba7bc2df14f8b071fe747add19166399df3a746
   2.2.0--r44hdfd78af_13: 
     sha256:f9b2bc2cedd47ae689546e42352c878f7ae26998d2c008bbabcb2d6653b9ae30
+  2.2.0--r45hdfd78af_14: 
+    sha256:fd0945de07ad9e2bad90b71163f691b46b26a5bb03c107ca4ea89e28f78b4588
 docker: quay.io/biocontainers/bioconductor-fdb.infiniummethylation.hg18

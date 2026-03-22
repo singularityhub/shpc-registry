@@ -3,7 +3,7 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mutyper
 latest:
   1.0.2--py311h26ae33e_3: 
-    sha256:4f876feed9aaae01f18bcaefa1c034bf33bb8f93deada830ac85887cb707a487
+    sha256:aa3e99982edad0e6b6687c28ed87d9ab50b26ed6431c7dbec3d1e7b2e2406bed
 tags:
   1.0.2--py310h7c593f9_0: 
     sha256:23b6e93589ee1a43cbb0d6d8cb202f14e398330161ae5b56d201d829768dbee0
@@ -12,7 +12,9 @@ tags:
   1.0.2--py311haab0aaa_2: 
     sha256:4908bfb156685974950fc4b9c7234c36c09836d50336051cfb434ceeba6167a9
   1.0.2--py311h26ae33e_3: 
-    sha256:4f876feed9aaae01f18bcaefa1c034bf33bb8f93deada830ac85887cb707a487
+    sha256:aa3e99982edad0e6b6687c28ed87d9ab50b26ed6431c7dbec3d1e7b2e2406bed
+  1.0.2--py310h7c10099_3: 
+    sha256:6f17e26e9837f2c31956cc7b2f8ebdacab4b5bacb74d21446d85acbc0e2b2c12
 docker: quay.io/biocontainers/mutyper
 aliases:
   mutyper: /usr/local/bin/mutyper

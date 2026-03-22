@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rgsepd
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:3e6e04f4e20ef2030c4359a13e498ba1e3846cdf17c50721d08e6de63e54ba97
+  1.42.0--r45hdfd78af_0: 
+    sha256:516ef1db8ef1117109ad2058db6b6842d5fde8a65038f36e97eebdad4c5fbc55
 tags:
   1.8.0--r3.4.1_0: 
     sha256:c97ea2e341ccccfcc3d72f865ed3401c2bc1db1d9cc58e0fa3112ea6528444af
@@ -24,6 +24,8 @@ tags:
     sha256:3e2f9ad60a8e562c6ac733556310c824c879409ab6eb1008f8679ae0b52db0f6
   1.38.0--r44hdfd78af_0: 
     sha256:3e6e04f4e20ef2030c4359a13e498ba1e3846cdf17c50721d08e6de63e54ba97
+  1.42.0--r45hdfd78af_0: 
+    sha256:516ef1db8ef1117109ad2058db6b6842d5fde8a65038f36e97eebdad4c5fbc55
 docker: quay.io/biocontainers/bioconductor-rgsepd
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

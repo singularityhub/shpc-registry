@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chipanalyser
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:ef26a0d918b3bc8b20938e11b221a150517bcbc45662d35ecd4017797f62e006
+  1.32.0--r45hdfd78af_0: 
+    sha256:b6fac81ac67c27c49520b2e7731647caa23dc09957e696428ce1cc005bb857e8
 tags:
   1.8.0--r36_0: 
     sha256:1b9b7c848e3674636bce55b8866aca66277428d9940b881bbc438c579732d8ef
@@ -24,6 +24,8 @@ tags:
     sha256:23ff1f675bc80a1d24663c53b7284a3d90dc0423c47bee875647787dd18d1dcf
   1.28.0--r44hdfd78af_0: 
     sha256:ef26a0d918b3bc8b20938e11b221a150517bcbc45662d35ecd4017797f62e006
+  1.32.0--r45hdfd78af_0: 
+    sha256:b6fac81ac67c27c49520b2e7731647caa23dc09957e696428ce1cc005bb857e8
 docker: quay.io/biocontainers/bioconductor-chipanalyser
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

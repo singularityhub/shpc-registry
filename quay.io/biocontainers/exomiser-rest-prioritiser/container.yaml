@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   exomiser-rest-prioritiser
 latest:
-  14.1.0--hdfd78af_0: 
-    sha256:d88cbbf85ed676c41e82aaca3f3ebea52a882620bb65e83c528496de48f3a944
+  15.0.0--hdfd78af_0: 
+    sha256:c63fcefa031ef5d3d4933ee22a5322d50b394dd0e8c365fc4512762ebda91e57
 tags:
   12.1.0--hdfd78af_2: 
     sha256:852466477c415c7875e867ce9057162d6581eca7d69597d0dfa9f864657d93af
@@ -20,6 +20,8 @@ tags:
     sha256:a309710ec25564dc3e5a0b0ca09a70d4f5cbdb05a1776780ce8303ff832ef62a
   14.1.0--hdfd78af_0: 
     sha256:d88cbbf85ed676c41e82aaca3f3ebea52a882620bb65e83c528496de48f3a944
+  15.0.0--hdfd78af_0: 
+    sha256:c63fcefa031ef5d3d4933ee22a5322d50b394dd0e8c365fc4512762ebda91e57
 docker: quay.io/biocontainers/exomiser-rest-prioritiser
 aliases:
   exomiser-rest-prioritiser: /usr/local/bin/exomiser-rest-prioritiser

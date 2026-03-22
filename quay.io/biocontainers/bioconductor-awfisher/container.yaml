@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for
   bioconductor-awfisher
 latest:
   1.24.0--r45ha27e39d_0: 
-    sha256:85d5e2abe36588de0e6f2d42f2c67cfca8bdd4154a896cf3a33665641df3d651
+    sha256:5de86a3b52aeeb92dbd029601178a464b1df550e825b8fecc460ddb06b7c4f1d
 tags:
   1.8.0--r41hc247a5b_2: 
     sha256:6090af056d0a6816db0c0dd1a4217fc2021a2ea051d2696abb4519402fa094c4
@@ -19,5 +19,5 @@ tags:
   1.20.0--r44he5774e6_0: 
     sha256:d9e1d3fab9344884a8be5525fda0a74e752b1f7727abe5fbac87787996fc5a63
   1.24.0--r45ha27e39d_0: 
-    sha256:85d5e2abe36588de0e6f2d42f2c67cfca8bdd4154a896cf3a33665641df3d651
+    sha256:5de86a3b52aeeb92dbd029601178a464b1df550e825b8fecc460ddb06b7c4f1d
 docker: quay.io/biocontainers/bioconductor-awfisher

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-phastcons30way.ucsc.hg38
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:311e2d1d2970e731c7f93ead766854cc2ee7c6fd6c6af5232dd08b20b12d2b68
+  3.13.1--r45hdfd78af_0: 
+    sha256:52fa692619dec4bcfa70d0591bf3e0bccba29f5f4b5d04f4c41769ef8722cfd7
 tags:
   3.13.0--r41hdfd78af_1: 
     sha256:4d7c34ee9abe464ee1fa493e11b2a984ea0e883081738282fcbff8e9f0523f39
@@ -16,4 +16,6 @@ tags:
     sha256:edd3e3c37457dcc054e7bed289dd28a417460bcb240abcb6ff86b415e502fb34
   3.13.0--r44hdfd78af_5: 
     sha256:311e2d1d2970e731c7f93ead766854cc2ee7c6fd6c6af5232dd08b20b12d2b68
+  3.13.1--r45hdfd78af_0: 
+    sha256:52fa692619dec4bcfa70d0591bf3e0bccba29f5f4b5d04f4c41769ef8722cfd7
 docker: quay.io/biocontainers/bioconductor-phastcons30way.ucsc.hg38

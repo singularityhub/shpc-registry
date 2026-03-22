@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/kmercamel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kmercamel
 latest:
-  2.2.0--ha119d93_0: 
-    sha256:9ed6310dca68d6988adaa05baff954a5191c3d6c437be94b03743a7be94b4fdb
+  2.2.1--hba575f4_0: 
+    sha256:c9f8805fdcb6ca4f2fad5c4760335833666457df75e41ecc0d49791f92f1c3ee
 tags:
   1.0.2--hc4f6fa1_1: 
     sha256:c73a9cd0fab7231251c3879d36b99ede97d29d9671fe9295dd93744f0745121e
@@ -15,6 +15,8 @@ tags:
     sha256:54ad04901a00533bb725fceebdf6b8e9047a8666acb7d8992e2c7adbd3fb0b72
   2.2.0--ha119d93_0: 
     sha256:9ed6310dca68d6988adaa05baff954a5191c3d6c437be94b03743a7be94b4fdb
+  2.2.1--hba575f4_0: 
+    sha256:c9f8805fdcb6ca4f2fad5c4760335833666457df75e41ecc0d49791f92f1c3ee
 docker: quay.io/biocontainers/kmercamel
 aliases:
   kmercamel: /usr/local/bin/kmercamel

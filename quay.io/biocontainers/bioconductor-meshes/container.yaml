@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-meshes
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:2dcb0d66fb7328738a594ecf7a3a64752602713969d512a3eb86817cadf5482a
+  1.36.0--r45hdfd78af_0: 
+    sha256:ec9c435125bb352c6c39f57308a82911560e7f9ddd4763603f798a40ac5046e8
 tags:
   1.8.0--r351_0: 
     sha256:e42d8af7e04dcfa07c104d11e9cd95aaa9953b43dd3ffd03389b02b862dcb072
@@ -24,6 +24,8 @@ tags:
     sha256:f610f420e806f6eb8618f370b62a5e8af253d53d423f1e03921a2a063278a496
   1.32.0--r44hdfd78af_0: 
     sha256:2dcb0d66fb7328738a594ecf7a3a64752602713969d512a3eb86817cadf5482a
+  1.36.0--r45hdfd78af_0: 
+    sha256:ec9c435125bb352c6c39f57308a82911560e7f9ddd4763603f798a40ac5046e8
 docker: quay.io/biocontainers/bioconductor-meshes
 aliases:
   udunits2: /usr/local/bin/udunits2

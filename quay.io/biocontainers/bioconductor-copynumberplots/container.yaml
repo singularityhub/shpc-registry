@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-copynumberplots
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:90b63a66b502657a63b9bdd48d6dfb832e4de6605b37c7da0f4ba07534b5b0cb
+  1.26.0--r45hdfd78af_0: 
+    sha256:abb6e64da58ea92be1699aca466a5054880f6bf1673701178c0eee30f5df2e87
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:d95d160a8fd628263158f7088c74f9b6a2229c225323a73ca5ac736efc58c8e2
@@ -18,6 +18,8 @@ tags:
     sha256:d0331729666496c5cb91fd06f76200157038effced182d8f9a8267f6fdc9404c
   1.22.0--r44hdfd78af_0: 
     sha256:90b63a66b502657a63b9bdd48d6dfb832e4de6605b37c7da0f4ba07534b5b0cb
+  1.26.0--r45hdfd78af_0: 
+    sha256:abb6e64da58ea92be1699aca466a5054880f6bf1673701178c0eee30f5df2e87
 docker: quay.io/biocontainers/bioconductor-copynumberplots
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-normqpcr
 latest:
-  1.52.0--r44hdfd78af_0: 
-    sha256:a0f6e6ff90fd73dac69533ba15382416b20bee60260f53b3890b426680a2e5e5
+  1.56.0--r45h575d39b_0: 
+    sha256:6e68639a1cfc6fe61cef2466c3dc222afcec71786fd8fcccc8a9896cac90fb02
 tags:
   1.40.0--r41hdfd78af_0: 
     sha256:fd2bec571b1adaec3036374602852ae01a83d979a4882a0ad47a202530a8e426
@@ -16,4 +16,6 @@ tags:
     sha256:57253f8c10a8c9fb6a364224b2d04f0f0918f9633d129ae789170b4de926f76d
   1.52.0--r44hdfd78af_0: 
     sha256:a0f6e6ff90fd73dac69533ba15382416b20bee60260f53b3890b426680a2e5e5
+  1.56.0--r45h575d39b_0: 
+    sha256:6e68639a1cfc6fe61cef2466c3dc222afcec71786fd8fcccc8a9896cac90fb02
 docker: quay.io/biocontainers/bioconductor-normqpcr

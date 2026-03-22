@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-loomexperiment
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:42474763689858647a202cb79022ce89d5f7b079560479467abbbb5a50f31969
+  1.28.0--r45hdfd78af_0: 
+    sha256:e3643023bb31e67cca51ee06d369dfc76cf1a56d62d045c030e3d29f570a1e9f
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:1fbfa4e02edb29aae320bf632f2aa1145424995cf45e15ced943088584acec46
@@ -20,6 +20,8 @@ tags:
     sha256:c8fdabb74b09452a4567da87b9d0ff830c16a17dbf8e2b990fb76e3f1776daf3
   1.24.0--r44hdfd78af_0: 
     sha256:42474763689858647a202cb79022ce89d5f7b079560479467abbbb5a50f31969
+  1.28.0--r45hdfd78af_0: 
+    sha256:e3643023bb31e67cca51ee06d369dfc76cf1a56d62d045c030e3d29f570a1e9f
 docker: quay.io/biocontainers/bioconductor-loomexperiment
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

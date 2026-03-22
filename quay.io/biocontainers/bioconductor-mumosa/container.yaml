@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mumosa
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:8f79f98c9d5c9608f8f3b0aadf0dd9fcc81bb4cd12dfd51009f4d4185b8abcc9
+  1.18.0--r45hdfd78af_0: 
+    sha256:e788ab57f7448abe2eecfe9a53aee82b41081027333f26890a96ae6bb7e2ba98
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:ee5106abb0c336c9e6695d9b88b731d2b860c1087c926fcbf847a3057160ca46
@@ -16,4 +16,6 @@ tags:
     sha256:243a604ba5fc3f926957e3c9d8581be87e8107fe14952ec595fcc8d489d0098f
   1.14.0--r44hdfd78af_0: 
     sha256:8f79f98c9d5c9608f8f3b0aadf0dd9fcc81bb4cd12dfd51009f4d4185b8abcc9
+  1.18.0--r45hdfd78af_0: 
+    sha256:e788ab57f7448abe2eecfe9a53aee82b41081027333f26890a96ae6bb7e2ba98
 docker: quay.io/biocontainers/bioconductor-mumosa

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-extrachips
 latest:
-  1.10.0--r44h3df3fcb_0: 
-    sha256:5afab4d27fc72c4462ec54af2218bca75ec27ecba2e186dfcb6f1281a19c8116
+  1.14.2--r45h01b2380_0: 
+    sha256:32f66071cd2a91cb7a2bb0e046e512e5771b826daabe0a00eeff66a1139f1b7a
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:92f7188f38dadcc7b5df1cf85d0e81b398908411a6b5d25ae83980495f75ab9f
@@ -14,6 +14,8 @@ tags:
     sha256:6d4a0046be7c8e69d2c4f59f1ec6a33f269e546ffb61767e7beb1c2155715f87
   1.10.0--r44h3df3fcb_0: 
     sha256:5afab4d27fc72c4462ec54af2218bca75ec27ecba2e186dfcb6f1281a19c8116
+  1.14.2--r45h01b2380_0: 
+    sha256:32f66071cd2a91cb7a2bb0e046e512e5771b826daabe0a00eeff66a1139f1b7a
 docker: quay.io/biocontainers/bioconductor-extrachips
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

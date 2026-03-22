@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-illuminahumanmethylation450kprobe
 latest:
-  2.0.6--r44hdfd78af_13: 
-    sha256:bced27f178533721eda74bd9652d1bb85843fc8ef8f4554d29214b3636a6a9d7
+  2.0.6--r45hdfd78af_14: 
+    sha256:b56e2305a0561c94efb5186628dc8980b09432dd86e9b0bcaa8d0158510cb117
 tags:
   2.0.6--r41hdfd78af_9: 
     sha256:22190d99b7342b4a087133d6c4e7ebaa2393401e81192a054eb112152ddca814
@@ -17,4 +17,6 @@ tags:
     sha256:570eb722f4465674499cf273b21f99e9e7f31101fb555a4755efcae44ab91c5e
   2.0.6--r44hdfd78af_13: 
     sha256:bced27f178533721eda74bd9652d1bb85843fc8ef8f4554d29214b3636a6a9d7
+  2.0.6--r45hdfd78af_14: 
+    sha256:b56e2305a0561c94efb5186628dc8980b09432dd86e9b0bcaa8d0158510cb117
 docker: quay.io/biocontainers/bioconductor-illuminahumanmethylation450kprobe

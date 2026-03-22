@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for
   bioconductor-mfuzz
 latest:
   2.70.0--r45hdfd78af_0: 
-    sha256:883e5a523fa7632eb955b0da2b8835274b0073954c594229a3d00111ec2dd656
+    sha256:37651c84c9b3accba97a3b460b8bfebdd0cc44ad81c2adc24eb5bae88b4d1532
 tags:
   2.54.0--r41hdfd78af_0: 
     sha256:da2dc92176c554afefc934b7fe77c224ab4508d8334987a08b42bbbaeaaa9ff1
@@ -17,5 +17,5 @@ tags:
   2.66.0--r44hdfd78af_0: 
     sha256:34e33d5993c81543f8c1be8ac6ce29a7cd5842d63b709714f865a58bd6bd8dd4
   2.70.0--r45hdfd78af_0: 
-    sha256:883e5a523fa7632eb955b0da2b8835274b0073954c594229a3d00111ec2dd656
+    sha256:37651c84c9b3accba97a3b460b8bfebdd0cc44ad81c2adc24eb5bae88b4d1532
 docker: quay.io/biocontainers/bioconductor-mfuzz

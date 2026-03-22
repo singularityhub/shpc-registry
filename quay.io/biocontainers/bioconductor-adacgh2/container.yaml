@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-adacgh2
 latest:
-  2.42.0--r43ha9d7317_0: 
-    sha256:692cd27db0aedbea84a4a9678bf21b0501870dbf76bd8bf7457be7aeedcfc127
+  2.50.0--r45h01b2380_1: 
+    sha256:e929e57d74c25046e12855c4396ea5fbd3e191b506ea8d4bc1b20980b9a957d9
 tags:
   2.34.0--r41hc0cfd56_2: 
     sha256:367178eca470c1bcafbb75d7b03d7c22f2a5b8c07bb460aaa331c810af0891b3
@@ -16,4 +16,6 @@ tags:
     sha256:4360cd47e3db2e712ae02903d0be1e09562d210017f1ae2085acf2074ca85c3a
   2.42.0--r43ha9d7317_0: 
     sha256:692cd27db0aedbea84a4a9678bf21b0501870dbf76bd8bf7457be7aeedcfc127
+  2.50.0--r45h01b2380_1: 
+    sha256:e929e57d74c25046e12855c4396ea5fbd3e191b506ea8d4bc1b20980b9a957d9
 docker: quay.io/biocontainers/bioconductor-adacgh2

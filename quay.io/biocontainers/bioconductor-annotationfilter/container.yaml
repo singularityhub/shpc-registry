@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-annotationfilter
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:f31292712b235dd6ab322edbe9065b0ae12f79f1b3648c0aaefb09121b65ed11
+  1.34.0--r45hdfd78af_0: 
+    sha256:c7139d591578b120c313390e379c61b0027ca971c0cfc336a437aaa4856df91b
 tags:
   1.8.0--r36_1: 
     sha256:83cd6c69d6d5e5174d2a2d4d01b5702d6103c253946600769a4e9003b1eac9bc
@@ -24,6 +24,8 @@ tags:
     sha256:412d55e1074340cb5dc8dafd237e4b64e4683d882673586410543290432b7cf3
   1.30.0--r44hdfd78af_0: 
     sha256:f31292712b235dd6ab322edbe9065b0ae12f79f1b3648c0aaefb09121b65ed11
+  1.34.0--r45hdfd78af_0: 
+    sha256:c7139d591578b120c313390e379c61b0027ca971c0cfc336a437aaa4856df91b
 docker: quay.io/biocontainers/bioconductor-annotationfilter
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

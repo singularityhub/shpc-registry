@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nugohs1a520180probe
 latest:
-  3.4.0--r44hdfd78af_13: 
-    sha256:771a5ecc4d3dbe262c86c493a47b201ea4feeb360ad9b22703109bd4383278c7
+  3.4.0--r45hdfd78af_14: 
+    sha256:53d34ad64e74655550761cde4e80451100e49799053e9acae3d6cfaa3dbd4817
 tags:
   3.4.0--r41hdfd78af_9: 
     sha256:4ac09f89bb885dce5dcdf59fd84f252344c192fba9bb2ee7f06566b3893aad0e
@@ -16,4 +16,6 @@ tags:
     sha256:6e06a555077979d201efa1b9200e0f2643e18d1a8fea40221fd65184fca4bed5
   3.4.0--r44hdfd78af_13: 
     sha256:771a5ecc4d3dbe262c86c493a47b201ea4feeb360ad9b22703109bd4383278c7
+  3.4.0--r45hdfd78af_14: 
+    sha256:53d34ad64e74655550761cde4e80451100e49799053e9acae3d6cfaa3dbd4817
 docker: quay.io/biocontainers/bioconductor-nugohs1a520180probe

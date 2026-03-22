@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   biobb_structure_utils
 latest:
-  5.2.0--pyhdfd78af_0: 
-    sha256:c355350a1ee07211f92a884714fd5b64a226aa1de83270ea48140a09638683c9
+  5.2.1--pyhdfd78af_0: 
+    sha256:d8492628553e8a9a1b31dceefefbee5751210312e1993c7ffd962f1aee0dad74
 tags:
   3.8.0--pyhdfd78af_0: 
     sha256:51b2293c73481b53133b9386e234c1981e801442dea810147adf34455351a38e
@@ -24,6 +24,8 @@ tags:
     sha256:c4438824d92d740a15ec222e5997f59d02f5d61c80650ac826b5f3386f47c2e6
   5.2.0--pyhdfd78af_0: 
     sha256:c355350a1ee07211f92a884714fd5b64a226aa1de83270ea48140a09638683c9
+  5.2.1--pyhdfd78af_0: 
+    sha256:d8492628553e8a9a1b31dceefefbee5751210312e1993c7ffd962f1aee0dad74
 docker: quay.io/biocontainers/biobb_structure_utils
 aliases:
   cat_pdb: /usr/local/bin/cat_pdb

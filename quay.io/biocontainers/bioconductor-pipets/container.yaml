@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-pipets
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-pipets
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:25a144ac7333090f102dcb94db8d38bb899484cea2cdcd03cac045d32e7b918e
+  1.6.0--r45hdfd78af_0: 
+    sha256:bdfef6e0cf7ca0ad8355ba875aeea14d66b50be5eb088c7ca050589cfdb06faf
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:25a144ac7333090f102dcb94db8d38bb899484cea2cdcd03cac045d32e7b918e
+  1.6.0--r45hdfd78af_0: 
+    sha256:bdfef6e0cf7ca0ad8355ba875aeea14d66b50be5eb088c7ca050589cfdb06faf
 docker: quay.io/biocontainers/bioconductor-pipets
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

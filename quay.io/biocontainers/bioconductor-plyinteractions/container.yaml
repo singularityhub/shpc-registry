@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-plyinteractions
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:4a49ccb7454ca3bb1ba61b50446eeae001428175ac434d2eff39cdac0a5934b0
+  1.8.0--r45hdfd78af_0: 
+    sha256:c5f98036aee8309989e5a50a43509912fcac2fdb0a257382ac9cb766a4cc55db
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:2b27244b606aa2565aec72546f2d946ed49ba312678c4f84810a5724982187e2
   1.4.0--r44hdfd78af_0: 
     sha256:4a49ccb7454ca3bb1ba61b50446eeae001428175ac434d2eff39cdac0a5934b0
+  1.8.0--r45hdfd78af_0: 
+    sha256:c5f98036aee8309989e5a50a43509912fcac2fdb0a257382ac9cb766a4cc55db
 docker: quay.io/biocontainers/bioconductor-plyinteractions
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test
