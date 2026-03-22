@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sctensor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sctensor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sctensor/container.yaml"
-updated_at: "2026-03-21 04:36:16.111844"
-latest: "2.16.0--r44hdfd78af_0"
+updated_at: "2026-03-22 04:51:50.875896"
+latest: "2.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sctensor"
 aliases:
  - "testepsg"
@@ -24,8 +24,9 @@ versions:
  - "2.10.0--r43hdfd78af_0"
  - "2.12.0--r43hdfd78af_0"
  - "2.16.0--r44hdfd78af_0"
+ - "2.20.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sctensor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sctensor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sctensor", "latest": {"2.16.0--r44hdfd78af_0": "sha256:9d20133200f410495cecdd8696055d9012058e0f302747821c390ba6835fc08f"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:06d4aefe8a438a720f27c9311176d797ef9143ababcc9ec49635e9c3ca835d7b", "2.8.0--r42hdfd78af_0": "sha256:bca1f71439fc8cd7a976660726fbb71eaaae837fc65aa65cc43a0c817deceb3f", "2.10.0--r43hdfd78af_0": "sha256:11c870ede0ebfcb6088b3612dbe7798091d8aad592ed84055f26ab3c32d927c7", "2.12.0--r43hdfd78af_0": "sha256:1a2b85c556f9c6553564e2d668ec688bba6aec2c7d5e7bc6bed480053bfa9dbc", "2.16.0--r44hdfd78af_0": "sha256:9d20133200f410495cecdd8696055d9012058e0f302747821c390ba6835fc08f"}, "docker": "quay.io/biocontainers/bioconductor-sctensor", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sctensor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sctensor", "latest": {"2.20.0--r45hdfd78af_0": "sha256:54b923077d333ac4233d32f372f306312a4a773f7146ea20c4ebda95a65bf1f8"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:06d4aefe8a438a720f27c9311176d797ef9143ababcc9ec49635e9c3ca835d7b", "2.8.0--r42hdfd78af_0": "sha256:bca1f71439fc8cd7a976660726fbb71eaaae837fc65aa65cc43a0c817deceb3f", "2.10.0--r43hdfd78af_0": "sha256:11c870ede0ebfcb6088b3612dbe7798091d8aad592ed84055f26ab3c32d927c7", "2.12.0--r43hdfd78af_0": "sha256:1a2b85c556f9c6553564e2d668ec688bba6aec2c7d5e7bc6bed480053bfa9dbc", "2.16.0--r44hdfd78af_0": "sha256:9d20133200f410495cecdd8696055d9012058e0f302747821c390ba6835fc08f", "2.20.0--r45hdfd78af_0": "sha256:54b923077d333ac4233d32f372f306312a4a773f7146ea20c4ebda95a65bf1f8"}, "docker": "quay.io/biocontainers/bioconductor-sctensor", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sctensor.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sctensor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sctensor:2.16.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sctensor:2.20.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sctensor/2.16.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sctensor/2.16.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sctensor/2.20.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sctensor/2.20.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

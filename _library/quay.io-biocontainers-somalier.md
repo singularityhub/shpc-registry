@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/somalier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/somalier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/somalier/container.yaml"
-updated_at: "2026-03-21 04:11:30.599454"
+updated_at: "2026-03-22 04:26:52.945911"
 latest: "0.3.1--hc78c8e0_0"
 container_url: "https://biocontainers.pro/tools/somalier"
 aliases:

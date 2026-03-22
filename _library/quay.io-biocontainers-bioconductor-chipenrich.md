@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipenrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipenrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipenrich/container.yaml"
-updated_at: "2026-03-21 04:30:31.210757"
-latest: "2.30.0--r44hdfd78af_0"
+updated_at: "2026-03-22 04:46:02.000782"
+latest: "2.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipenrich"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "2.24.0--r43hdfd78af_0"
  - "2.26.0--r43hdfd78af_0"
  - "2.30.0--r44hdfd78af_0"
+ - "2.34.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipenrich"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipenrich", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipenrich", "latest": {"2.30.0--r44hdfd78af_0": "sha256:801668c312979f171195877b97b8a956d9073576a31c4fb27c3e3c5d418f1e8f"}, "tags": {"2.8.0--r36_1": "sha256:3ce6014a89ca1356969bb221f5e7b13089078ec38501e478f5a6f508cb6d0460", "2.22.0--r42hdfd78af_0": "sha256:a5b321933a875f6f46c84dcd83333ab6a07d0ddf05a85ba4ad956fd9089e9f89", "2.18.0--r41hdfd78af_0": "sha256:7d1b70693aced1fce38b0b62721a6f7178e3330d27f4c08f3b957745c4dd60cf", "2.16.0--r41hdfd78af_0": "sha256:c392ce8569b9fbd8fff75f28eda793f68dd849348f1416828d7cb25da0af5d47", "2.14.0--r40hdfd78af_1": "sha256:634b9441031687bce922c58f93ec1c6a9da63d9ea11a40902f25987ecebecaf6", "2.12.0--r40_0": "sha256:39e39b1d2c297aa0e821f8fcee6bcd769aa9b650ef6c0e130b3b06e4d08a3bed", "2.24.0--r43hdfd78af_0": "sha256:32eaa4397a5a8df86918ca36646360e8a24ff1886d46b487d2f9339f251cc721", "2.26.0--r43hdfd78af_0": "sha256:d47118915707192685a51475cfc8e50d68f30404bd3024a390ed32eb425d274f", "2.30.0--r44hdfd78af_0": "sha256:801668c312979f171195877b97b8a956d9073576a31c4fb27c3e3c5d418f1e8f"}, "docker": "quay.io/biocontainers/bioconductor-chipenrich", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipenrich", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipenrich", "latest": {"2.34.0--r45hdfd78af_0": "sha256:abf3d33d5a3bb6006903039adf1cf1429ad392c07a52bbee9d90b3e979142033"}, "tags": {"2.8.0--r36_1": "sha256:3ce6014a89ca1356969bb221f5e7b13089078ec38501e478f5a6f508cb6d0460", "2.22.0--r42hdfd78af_0": "sha256:a5b321933a875f6f46c84dcd83333ab6a07d0ddf05a85ba4ad956fd9089e9f89", "2.18.0--r41hdfd78af_0": "sha256:7d1b70693aced1fce38b0b62721a6f7178e3330d27f4c08f3b957745c4dd60cf", "2.16.0--r41hdfd78af_0": "sha256:c392ce8569b9fbd8fff75f28eda793f68dd849348f1416828d7cb25da0af5d47", "2.14.0--r40hdfd78af_1": "sha256:634b9441031687bce922c58f93ec1c6a9da63d9ea11a40902f25987ecebecaf6", "2.12.0--r40_0": "sha256:39e39b1d2c297aa0e821f8fcee6bcd769aa9b650ef6c0e130b3b06e4d08a3bed", "2.24.0--r43hdfd78af_0": "sha256:32eaa4397a5a8df86918ca36646360e8a24ff1886d46b487d2f9339f251cc721", "2.26.0--r43hdfd78af_0": "sha256:d47118915707192685a51475cfc8e50d68f30404bd3024a390ed32eb425d274f", "2.30.0--r44hdfd78af_0": "sha256:801668c312979f171195877b97b8a956d9073576a31c4fb27c3e3c5d418f1e8f", "2.34.0--r45hdfd78af_0": "sha256:abf3d33d5a3bb6006903039adf1cf1429ad392c07a52bbee9d90b3e979142033"}, "docker": "quay.io/biocontainers/bioconductor-chipenrich", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipenrich.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chipenrich
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chipenrich:2.30.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-chipenrich:2.34.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chipenrich/2.30.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-chipenrich/2.30.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-chipenrich/2.34.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chipenrich/2.34.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

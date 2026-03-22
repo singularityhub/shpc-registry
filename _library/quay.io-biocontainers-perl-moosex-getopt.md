@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-getopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-getopt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-getopt/container.yaml"
-updated_at: "2026-03-21 04:49:20.538373"
+updated_at: "2026-03-22 05:05:06.474989"
 latest: "0.78--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-moosex-getopt"
 aliases:

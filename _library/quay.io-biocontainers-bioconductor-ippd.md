@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ippd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ippd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ippd/container.yaml"
-updated_at: "2026-03-21 05:06:27.667996"
+updated_at: "2026-03-22 05:22:28.273888"
 latest: "1.35.0--r40h037d062_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ippd"
 aliases:

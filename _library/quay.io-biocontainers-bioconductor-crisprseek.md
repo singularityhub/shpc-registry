@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-crisprseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprseek/container.yaml"
-updated_at: "2026-03-21 04:20:40.221991"
-latest: "1.46.0--r44hdfd78af_0"
+updated_at: "2026-03-22 04:36:07.981774"
+latest: "1.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprseek"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.40.0--r43hdfd78af_0"
  - "1.42.0--r43hdfd78af_0"
  - "1.46.0--r44hdfd78af_0"
+ - "1.50.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-crisprseek"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprseek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crisprseek", "latest": {"1.46.0--r44hdfd78af_0": "sha256:391deefc3eb8cb56e6705eb8b2d10e22ce47977c257e3eb6a6e85f09a7480a41"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:f998f6ef4d2adfbe293367541e68989908da0c3315329cf1a2fdc4d4896b78c9", "1.38.0--r42hdfd78af_0": "sha256:bda7f4109fba5c9014107f680ff6998c4bededd5c2090a7bc6bc378646e0e2ef", "1.40.0--r43hdfd78af_0": "sha256:73258a522c223488230df00b2dff472e6c7d29fdd864878888e6aec16cbc2d59", "1.42.0--r43hdfd78af_0": "sha256:bcb391b7f56c1f91060d4cbbcb4a3955060b07a28054cebcbeece00f0ab1c69e", "1.46.0--r44hdfd78af_0": "sha256:391deefc3eb8cb56e6705eb8b2d10e22ce47977c257e3eb6a6e85f09a7480a41"}, "docker": "quay.io/biocontainers/bioconductor-crisprseek"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprseek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crisprseek", "latest": {"1.50.0--r45hdfd78af_0": "sha256:f27e6dea97672b93f23acc7b87165faab6ef78bcfee2bc18ab29ca5befb52b57"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:f998f6ef4d2adfbe293367541e68989908da0c3315329cf1a2fdc4d4896b78c9", "1.38.0--r42hdfd78af_0": "sha256:bda7f4109fba5c9014107f680ff6998c4bededd5c2090a7bc6bc378646e0e2ef", "1.40.0--r43hdfd78af_0": "sha256:73258a522c223488230df00b2dff472e6c7d29fdd864878888e6aec16cbc2d59", "1.42.0--r43hdfd78af_0": "sha256:bcb391b7f56c1f91060d4cbbcb4a3955060b07a28054cebcbeece00f0ab1c69e", "1.46.0--r44hdfd78af_0": "sha256:391deefc3eb8cb56e6705eb8b2d10e22ce47977c257e3eb6a6e85f09a7480a41", "1.50.0--r45hdfd78af_0": "sha256:f27e6dea97672b93f23acc7b87165faab6ef78bcfee2bc18ab29ca5befb52b57"}, "docker": "quay.io/biocontainers/bioconductor-crisprseek"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crisprseek.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-crisprseek
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-crisprseek:1.46.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-crisprseek:1.50.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-crisprseek/1.46.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-crisprseek/1.46.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-crisprseek/1.50.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-crisprseek/1.50.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

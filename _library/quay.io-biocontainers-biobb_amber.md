@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_amber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_amber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_amber/container.yaml"
-updated_at: "2026-03-21 04:52:40.960040"
+updated_at: "2026-03-22 05:08:32.298920"
 latest: "5.2.1--py312hc5e4ab4_0"
 container_url: "https://biocontainers.pro/tools/biobb_amber"
 aliases:

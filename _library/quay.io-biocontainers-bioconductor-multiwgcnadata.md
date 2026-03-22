@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-multiwgcnadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multiwgcnadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multiwgcnadata/container.yaml"
-updated_at: "2026-03-21 04:15:56.944321"
+updated_at: "2026-03-22 04:31:20.564741"
 latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multiwgcnadata"
 aliases:

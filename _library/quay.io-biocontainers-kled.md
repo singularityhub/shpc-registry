@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kled"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kled/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kled/container.yaml"
-updated_at: "2026-03-21 04:35:01.088998"
-latest: "1.2.10--h4f462e4_0"
+updated_at: "2026-03-22 04:50:36.199042"
+latest: "1.2.11--he5eddf3_0"
 container_url: "https://biocontainers.pro/tools/kled"
 aliases:
  - "HapKled"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.2.9H11--h4f462e4_0"
  - "1.2.10--h4f462e4_0"
+ - "1.2.11--he5eddf3_0"
 description: "singularity registry hpc automated addition for kled"
-config: {"url": "https://biocontainers.pro/tools/kled", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kled", "latest": {"1.2.10--h4f462e4_0": "sha256:4ee94fb09e446d5f62a06346692e80fa318d7ba16bc92dac76911455ad7faf72"}, "tags": {"1.2.9H11--h4f462e4_0": "sha256:039c3c9ed97f0bb90c4ad1058e987487bae9caded46d68fe17021a66ffb76e8c", "1.2.10--h4f462e4_0": "sha256:4ee94fb09e446d5f62a06346692e80fa318d7ba16bc92dac76911455ad7faf72"}, "docker": "quay.io/biocontainers/kled", "aliases": {"HapKled": "/usr/local/bin/HapKled", "kled": "/usr/local/bin/kled", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun", "mpiCC": "/usr/local/bin/mpiCC", "ompi_info": "/usr/local/bin/ompi_info"}}
+config: {"url": "https://biocontainers.pro/tools/kled", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kled", "latest": {"1.2.11--he5eddf3_0": "sha256:56866317a522a4c768280ba8daa315828a610f96349fee0ae31f1357e3fd8d8b"}, "tags": {"1.2.9H11--h4f462e4_0": "sha256:039c3c9ed97f0bb90c4ad1058e987487bae9caded46d68fe17021a66ffb76e8c", "1.2.10--h4f462e4_0": "sha256:4ee94fb09e446d5f62a06346692e80fa318d7ba16bc92dac76911455ad7faf72", "1.2.11--he5eddf3_0": "sha256:56866317a522a4c768280ba8daa315828a610f96349fee0ae31f1357e3fd8d8b"}, "docker": "quay.io/biocontainers/kled", "aliases": {"HapKled": "/usr/local/bin/HapKled", "kled": "/usr/local/bin/kled", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun", "mpiCC": "/usr/local/bin/mpiCC", "ompi_info": "/usr/local/bin/ompi_info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kled.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/kled
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kled:1.2.10--h4f462e4_0
+$ shpc install quay.io/biocontainers/kled:1.2.11--he5eddf3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kled/1.2.10--h4f462e4_0
-$ module help quay.io/biocontainers/kled/1.2.10--h4f462e4_0
+$ module load quay.io/biocontainers/kled/1.2.11--he5eddf3_0
+$ module help quay.io/biocontainers/kled/1.2.11--he5eddf3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stabmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stabmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stabmap/container.yaml"
-updated_at: "2026-03-21 04:33:36.406502"
+updated_at: "2026-03-22 04:49:10.144185"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stabmap"
 aliases:

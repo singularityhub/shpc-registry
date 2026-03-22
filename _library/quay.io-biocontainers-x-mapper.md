@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/x-mapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/x-mapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/x-mapper/container.yaml"
-updated_at: "2026-03-21 04:09:51.923408"
-latest: "1.2.0--hdfd78af_0"
+updated_at: "2026-03-22 04:25:14.102571"
+latest: "1.2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/x-mapper"
 aliases:
  - "x-mapper"
@@ -36,8 +36,9 @@ aliases:
  - "jinfo"
 versions:
  - "1.2.0--hdfd78af_0"
+ - "1.2.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for x-mapper"
-config: {"url": "https://biocontainers.pro/tools/x-mapper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for x-mapper", "latest": {"1.2.0--hdfd78af_0": "sha256:cb742e16760a5d5249636145b62114599a398b0c34f33f7bb2944993075fb5d6"}, "tags": {"1.2.0--hdfd78af_0": "sha256:cb742e16760a5d5249636145b62114599a398b0c34f33f7bb2944993075fb5d6"}, "docker": "quay.io/biocontainers/x-mapper", "aliases": {"x-mapper": "/usr/local/bin/x-mapper", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/x-mapper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for x-mapper", "latest": {"1.2.1--hdfd78af_0": "sha256:c520de9d6d46dc6db792972a244784dfa4418deb7b392382413d6037f86d1a5a"}, "tags": {"1.2.0--hdfd78af_0": "sha256:cb742e16760a5d5249636145b62114599a398b0c34f33f7bb2944993075fb5d6", "1.2.1--hdfd78af_0": "sha256:c520de9d6d46dc6db792972a244784dfa4418deb7b392382413d6037f86d1a5a"}, "docker": "quay.io/biocontainers/x-mapper", "aliases": {"x-mapper": "/usr/local/bin/x-mapper", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/x-mapper.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/x-mapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/x-mapper:1.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/x-mapper:1.2.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/x-mapper/1.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/x-mapper/1.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/x-mapper/1.2.1--hdfd78af_0
+$ module help quay.io/biocontainers/x-mapper/1.2.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

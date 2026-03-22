@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spillr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spillr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spillr/container.yaml"
-updated_at: "2026-03-21 04:43:36.288117"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-03-22 04:59:17.835039"
+latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spillr"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -28,8 +28,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-spillr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spillr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spillr", "latest": {"1.2.0--r44hdfd78af_0": "sha256:0483431d74e11a2545ef334713ae9aea614f4ef19fa76f31bdba38c18253a5fd"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:0483431d74e11a2545ef334713ae9aea614f4ef19fa76f31bdba38c18253a5fd"}, "docker": "quay.io/biocontainers/bioconductor-spillr", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spillr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-spillr", "latest": {"1.6.0--r45hdfd78af_0": "sha256:dd333bc2e9d582adb9f3d7c4e02146caf65e90690d48d89d5518bb20a68c3a03"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:0483431d74e11a2545ef334713ae9aea614f4ef19fa76f31bdba38c18253a5fd", "1.6.0--r45hdfd78af_0": "sha256:dd333bc2e9d582adb9f3d7c4e02146caf65e90690d48d89d5518bb20a68c3a03"}, "docker": "quay.io/biocontainers/bioconductor-spillr", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spillr.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-spillr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-spillr:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-spillr:1.6.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-spillr/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-spillr/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-spillr/1.6.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-spillr/1.6.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

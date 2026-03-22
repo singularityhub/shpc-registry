@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ice-cream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ice-cream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ice-cream/container.yaml"
-updated_at: "2026-03-21 04:32:35.962640"
-latest: "2.0.0--pyh10911b7_0"
+updated_at: "2026-03-22 04:48:07.909110"
+latest: "3.0.0--pyh10911b7_0"
 container_url: "https://biocontainers.pro/tools/ice-cream"
 aliases:
  - "ICEcream.sh"
@@ -56,8 +56,9 @@ versions:
  - "1.10--hdfd78af_0"
  - "1.10--hdfd78af_1"
  - "2.0.0--pyh10911b7_0"
+ - "3.0.0--pyh10911b7_0"
 description: "singularity registry hpc automated addition for ice-cream"
-config: {"url": "https://biocontainers.pro/tools/ice-cream", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ice-cream", "latest": {"2.0.0--pyh10911b7_0": "sha256:f48d561d88a1f1be3a45e16e98e01cc2dcced92819abc3c3fd7545249e07f518"}, "tags": {"1.10--hdfd78af_0": "sha256:88074ba949163f7cb21ff9a51df4ec6257083c96f80cfedd02d4d63ecd246c09", "1.10--hdfd78af_1": "sha256:877571755bf20e957a9cd08ef65204db783782cac91a7c1126f0d2f298a4342d", "2.0.0--pyh10911b7_0": "sha256:f48d561d88a1f1be3a45e16e98e01cc2dcced92819abc3c3fd7545249e07f518"}, "docker": "quay.io/biocontainers/ice-cream", "aliases": {"ICEcream.sh": "/usr/local/bin/ICEcream.sh", "Vmatchtrans.pl": "/usr/local/bin/Vmatchtrans.pl", "chain2dim": "/usr/local/bin/chain2dim", "cleanpp.sh": "/usr/local/bin/cleanpp.sh", "jwebserver": "/usr/local/bin/jwebserver", "matchcluster": "/usr/local/bin/matchcluster", "mkdna6idx": "/usr/local/bin/mkdna6idx", "mkvtree": "/usr/local/bin/mkvtree", "plotting_script.py": "/usr/local/bin/plotting_script.py", "repfind.pl": "/usr/local/bin/repfind.pl", "upgradeprj.pl": "/usr/local/bin/upgradeprj.pl", "vendian": "/usr/local/bin/vendian", "vmatch": "/usr/local/bin/vmatch", "vmatchselect": "/usr/local/bin/vmatchselect", "vmigrate.sh": "/usr/local/bin/vmigrate.sh", "vseqinfo": "/usr/local/bin/vseqinfo", "vseqselect": "/usr/local/bin/vseqselect", "vstree2tex": "/usr/local/bin/vstree2tex", "vsubseqselect": "/usr/local/bin/vsubseqselect", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "TMalign": "/usr/local/bin/TMalign", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "clustalo": "/usr/local/bin/clustalo", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db", "prokka-genpept_to_fasta_db": "/usr/local/bin/prokka-genpept_to_fasta_db", "prokka-hamap_to_hmm": "/usr/local/bin/prokka-hamap_to_hmm", "prokka-tigrfams_to_hmm": "/usr/local/bin/prokka-tigrfams_to_hmm", "prokka-uniprot_to_fasta_db": "/usr/local/bin/prokka-uniprot_to_fasta_db", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp"}}
+config: {"url": "https://biocontainers.pro/tools/ice-cream", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ice-cream", "latest": {"3.0.0--pyh10911b7_0": "sha256:79854278e5483e175dbabe0e38419e6e36dd611ee5e63906d762a3da519bd055"}, "tags": {"1.10--hdfd78af_0": "sha256:88074ba949163f7cb21ff9a51df4ec6257083c96f80cfedd02d4d63ecd246c09", "1.10--hdfd78af_1": "sha256:877571755bf20e957a9cd08ef65204db783782cac91a7c1126f0d2f298a4342d", "2.0.0--pyh10911b7_0": "sha256:f48d561d88a1f1be3a45e16e98e01cc2dcced92819abc3c3fd7545249e07f518", "3.0.0--pyh10911b7_0": "sha256:79854278e5483e175dbabe0e38419e6e36dd611ee5e63906d762a3da519bd055"}, "docker": "quay.io/biocontainers/ice-cream", "aliases": {"ICEcream.sh": "/usr/local/bin/ICEcream.sh", "Vmatchtrans.pl": "/usr/local/bin/Vmatchtrans.pl", "chain2dim": "/usr/local/bin/chain2dim", "cleanpp.sh": "/usr/local/bin/cleanpp.sh", "jwebserver": "/usr/local/bin/jwebserver", "matchcluster": "/usr/local/bin/matchcluster", "mkdna6idx": "/usr/local/bin/mkdna6idx", "mkvtree": "/usr/local/bin/mkvtree", "plotting_script.py": "/usr/local/bin/plotting_script.py", "repfind.pl": "/usr/local/bin/repfind.pl", "upgradeprj.pl": "/usr/local/bin/upgradeprj.pl", "vendian": "/usr/local/bin/vendian", "vmatch": "/usr/local/bin/vmatch", "vmatchselect": "/usr/local/bin/vmatchselect", "vmigrate.sh": "/usr/local/bin/vmigrate.sh", "vseqinfo": "/usr/local/bin/vseqinfo", "vseqselect": "/usr/local/bin/vseqselect", "vstree2tex": "/usr/local/bin/vstree2tex", "vsubseqselect": "/usr/local/bin/vsubseqselect", "blastn_vdb": "/usr/local/bin/blastn_vdb", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "tblastn_vdb": "/usr/local/bin/tblastn_vdb", "TMalign": "/usr/local/bin/TMalign", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "clustalo": "/usr/local/bin/clustalo", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db", "prokka-genpept_to_fasta_db": "/usr/local/bin/prokka-genpept_to_fasta_db", "prokka-hamap_to_hmm": "/usr/local/bin/prokka-hamap_to_hmm", "prokka-tigrfams_to_hmm": "/usr/local/bin/prokka-tigrfams_to_hmm", "prokka-uniprot_to_fasta_db": "/usr/local/bin/prokka-uniprot_to_fasta_db", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ice-cream.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/ice-cream
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ice-cream:2.0.0--pyh10911b7_0
+$ shpc install quay.io/biocontainers/ice-cream:3.0.0--pyh10911b7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ice-cream/2.0.0--pyh10911b7_0
-$ module help quay.io/biocontainers/ice-cream/2.0.0--pyh10911b7_0
+$ module load quay.io/biocontainers/ice-cream/3.0.0--pyh10911b7_0
+$ module help quay.io/biocontainers/ice-cream/3.0.0--pyh10911b7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

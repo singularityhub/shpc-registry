@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-crypt-openssl-rsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-crypt-openssl-rsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-crypt-openssl-rsa/container.yaml"
-updated_at: "2026-03-21 04:33:48.013619"
+updated_at: "2026-03-22 04:49:21.983637"
 latest: "0.37--pl5321hc234bb7_0"
 container_url: "https://biocontainers.pro/tools/perl-crypt-openssl-rsa"
 aliases:

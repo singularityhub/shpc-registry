@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iscream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iscream/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iscream/container.yaml"
-updated_at: "2026-03-21 04:19:53.182065"
+updated_at: "2026-03-22 04:35:20.837864"
 latest: "1.0.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iscream"
 aliases:
