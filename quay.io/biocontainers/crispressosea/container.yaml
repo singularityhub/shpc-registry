@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/crispressosea
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for crispressosea
+latest:
+  0.1.5--pyh106432d_0: 
+    sha256:cd25055f1701667cde03279ce578e60393231a4c4ca5543dfa4bbb70806650d5
+tags:
+  0.1.5--pyh106432d_0: 
+    sha256:cd25055f1701667cde03279ce578e60393231a4c4ca5543dfa4bbb70806650d5
+docker: quay.io/biocontainers/crispressosea
+aliases:
+  CRISPResso: /usr/local/bin/CRISPResso
+  CRISPRessoAggregate: /usr/local/bin/CRISPRessoAggregate
+  CRISPRessoBatch: /usr/local/bin/CRISPRessoBatch
+  CRISPRessoCompare: /usr/local/bin/CRISPRessoCompare
+  CRISPRessoPooled: /usr/local/bin/CRISPRessoPooled
+  CRISPRessoPooledWGSCompare: /usr/local/bin/CRISPRessoPooledWGSCompare
+  CRISPRessoSea: /usr/local/bin/CRISPRessoSea
+  CRISPRessoWGS: /usr/local/bin/CRISPRessoWGS
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  fastp: /usr/local/bin/fastp
+  ref-cache: /usr/local/bin/ref-cache
+  igzip: /usr/local/bin/igzip
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
+  annot-tsv: /usr/local/bin/annot-tsv
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12

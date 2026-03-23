@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/atol-qc-raw-pacbio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for atol-qc-raw-pacbio
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:cd0f2733ef272cc01ce475f6d961a08063856deba24ea6bb0c0fbf119acbb8d5
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:cd0f2733ef272cc01ce475f6d961a08063856deba24ea6bb0c0fbf119acbb8d5
+docker: quay.io/biocontainers/atol-qc-raw-pacbio
+aliases:
+  atol-qc-raw-pacbio: /usr/local/bin/atol-qc-raw-pacbio
+  phc: /usr/local/bin/phc
+  eido: /usr/local/bin/eido
+  typer: /usr/local/bin/typer
+  seqkit: /usr/local/bin/seqkit
+  cutadapt: /usr/local/bin/cutadapt
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  ref-cache: /usr/local/bin/ref-cache
+  yte: /usr/local/bin/yte
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  igzip: /usr/local/bin/igzip
+  coloredlogs: /usr/local/bin/coloredlogs
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  snakemake: /usr/local/bin/snakemake

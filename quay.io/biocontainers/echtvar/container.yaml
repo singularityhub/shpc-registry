@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/echtvar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for echtvar
+latest:
+  0.2.2--h443f417_0: 
+    sha256:8083e3c47b8e5fad1210453ee7b14a53656ab472244e79931e88ba9519039e9d
+tags:
+  0.2.2--h443f417_0: 
+    sha256:8083e3c47b8e5fad1210453ee7b14a53656ab472244e79931e88ba9519039e9d
+docker: quay.io/biocontainers/echtvar
+aliases:
+  echtvar: /usr/local/bin/echtvar

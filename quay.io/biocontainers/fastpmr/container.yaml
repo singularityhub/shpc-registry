@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastpmr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastpmr
+latest:
+  0.1.0--h79ce301_0: 
+    sha256:e1128a6dd3b461892a56905509e7185e6ff3f8b88accccbcf21edc5ff52532fd
+tags:
+  0.1.0--h79ce301_0: 
+    sha256:e1128a6dd3b461892a56905509e7185e6ff3f8b88accccbcf21edc5ff52532fd
+docker: quay.io/biocontainers/fastpmr
+aliases:
+  fastpmr: /usr/local/bin/fastpmr

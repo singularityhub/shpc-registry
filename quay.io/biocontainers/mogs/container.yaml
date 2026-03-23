@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/mogs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mogs
+latest:
+  0.1.2--h2211461_0: 
+    sha256:2cbf339f45fe4a3a3763f09db051e0f57c3a78d0743659dbdd66a9179f4446fd
+tags:
+  0.1.2--h2211461_0: 
+    sha256:2cbf339f45fe4a3a3763f09db051e0f57c3a78d0743659dbdd66a9179f4446fd
+docker: quay.io/biocontainers/mogs
+aliases:
+  mogs: /usr/local/bin/mogs
