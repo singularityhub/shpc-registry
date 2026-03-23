@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/docking_py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/docking_py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/docking_py/container.yaml"
-updated_at: "2026-03-23 05:09:45.267929"
+updated_at: "2026-03-23 05:46:55.913326"
 latest: "0.2.3--py_0"
 container_url: "https://biocontainers.pro/tools/docking_py"
 aliases:

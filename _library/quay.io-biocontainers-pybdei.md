@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybdei"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybdei/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybdei/container.yaml"
-updated_at: "2026-03-23 04:34:13.077517"
+updated_at: "2026-03-23 05:11:19.745010"
 latest: "0.13--py310hef477bb_1"
 container_url: "https://biocontainers.pro/tools/pybdei"
 aliases:

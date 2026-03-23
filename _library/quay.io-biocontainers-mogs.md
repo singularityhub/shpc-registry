@@ -1,0 +1,134 @@
+---
+layout: container
+name:  "quay.io/biocontainers/mogs"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mogs/container.yaml"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mogs/container.yaml"
+updated_at: "2026-03-23 05:24:30.642362"
+latest: "0.1.2--h2211461_0"
+container_url: "https://biocontainers.pro/tools/mogs"
+aliases:
+ - "mogs"
+versions:
+ - "0.1.2--h2211461_0"
+description: "singularity registry hpc automated addition for mogs"
+config: {"url": "https://biocontainers.pro/tools/mogs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mogs", "latest": {"0.1.2--h2211461_0": "sha256:2cbf339f45fe4a3a3763f09db051e0f57c3a78d0743659dbdd66a9179f4446fd"}, "tags": {"0.1.2--h2211461_0": "sha256:2cbf339f45fe4a3a3763f09db051e0f57c3a78d0743659dbdd66a9179f4446fd"}, "docker": "quay.io/biocontainers/mogs", "aliases": {"mogs": "/usr/local/bin/mogs"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/mogs.
+singularity registry hpc automated addition for mogs
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/mogs
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/mogs:0.1.2--h2211461_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/mogs/0.1.2--h2211461_0
+$ module help quay.io/biocontainers/mogs/0.1.2--h2211461_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### mogs-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### mogs-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### mogs-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### mogs-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### mogs-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### mogs-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### mogs
+
+```bash
+$ singularity exec <container> /usr/local/bin/mogs
+$ podman run --it --rm --entrypoint /usr/local/bin/mogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

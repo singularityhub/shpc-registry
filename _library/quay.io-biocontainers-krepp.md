@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krepp/container.yaml"
-updated_at: "2026-03-23 04:34:37.320202"
+updated_at: "2026-03-23 05:11:43.661955"
 latest: "0.7.2--hdb29145_0"
 container_url: "https://biocontainers.pro/tools/krepp"
 aliases:

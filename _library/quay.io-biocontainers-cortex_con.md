@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cortex_con"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cortex_con/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cortex_con/container.yaml"
-updated_at: "2026-03-23 04:35:56.937028"
+updated_at: "2026-03-23 05:13:03.404676"
 latest: "0.04c--h470a237_1"
 container_url: "https://biocontainers.pro/tools/cortex_con"
 aliases:

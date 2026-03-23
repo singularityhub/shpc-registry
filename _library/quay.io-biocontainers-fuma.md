@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fuma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fuma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fuma/container.yaml"
-updated_at: "2026-03-23 05:26:41.753948"
+updated_at: "2026-03-23 06:03:59.959928"
 latest: "4.0.0--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/fuma"
 aliases:

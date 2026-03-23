@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flexynesis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexynesis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexynesis/container.yaml"
-updated_at: "2026-03-23 04:50:26.209421"
+updated_at: "2026-03-23 05:27:26.410197"
 latest: "1.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flexynesis"
 aliases:

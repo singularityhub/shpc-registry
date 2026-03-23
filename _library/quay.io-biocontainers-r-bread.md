@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bread/container.yaml"
-updated_at: "2026-03-23 05:31:35.465822"
+updated_at: "2026-03-23 06:08:42.931755"
 latest: "0.4.1--r45h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-bread"
 aliases:

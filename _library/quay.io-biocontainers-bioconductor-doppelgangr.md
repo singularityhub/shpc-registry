@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-doppelgangr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doppelgangr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doppelgangr/container.yaml"
-updated_at: "2026-03-23 05:02:56.970517"
+updated_at: "2026-03-23 05:39:57.646187"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-doppelgangr"
 
