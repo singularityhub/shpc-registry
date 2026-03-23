@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-damirseq
 latest:
-  2.18.0--r44hdfd78af_0: 
-    sha256:b8e5f9d5e8775e8019f80dbf92c9d93441909688b62c0d663e0667fd2b6a9925
+  2.22.0--r45hdfd78af_0: 
+    sha256:6a7dabaefc9d6b5f1be0be5889aea3d75f177a3e673f4fc5247cf11f17cf12bd
 tags:
   2.6.0--r41hdfd78af_0: 
     sha256:5b50e065a9199455c20680e58fd716680c848069bb7d88a07c71ce2cd6d3c4ce
@@ -16,6 +16,8 @@ tags:
     sha256:6ea5a3a766f5edfee5d3d75537d567665a9550f7161ee361df5ebb1324c6f346
   2.18.0--r44hdfd78af_0: 
     sha256:b8e5f9d5e8775e8019f80dbf92c9d93441909688b62c0d663e0667fd2b6a9925
+  2.22.0--r45hdfd78af_0: 
+    sha256:6a7dabaefc9d6b5f1be0be5889aea3d75f177a3e673f4fc5247cf11f17cf12bd
 docker: quay.io/biocontainers/bioconductor-damirseq
 aliases:
   jfr: /usr/local/bin/jfr

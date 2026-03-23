@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-transcriptr
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:c621cc7e978ad6ee6e9e2a8f4309e7c9be8d7bd02b9328e9bbb68ff7608de133
+  1.38.3--r45hdfd78af_0: 
+    sha256:4326a393875794d10aa2ee046e04ecd70c7b1bea9da11ee3e85ca8827d753f56
 tags:
   1.8.0--r341_0: 
     sha256:f323ea230e93fd5f13730f65d6208795386226b1945c43f31fd8772b4a6dedc6
@@ -24,6 +24,8 @@ tags:
     sha256:118a183ee51e1fcba809c280b0763e57e31f57e017fec8c3cdab6c6a2afe127d
   1.34.0--r44hdfd78af_0: 
     sha256:c621cc7e978ad6ee6e9e2a8f4309e7c9be8d7bd02b9328e9bbb68ff7608de133
+  1.38.3--r45hdfd78af_0: 
+    sha256:4326a393875794d10aa2ee046e04ecd70c7b1bea9da11ee3e85ca8827d753f56
 docker: quay.io/biocontainers/bioconductor-transcriptr
 aliases:
   wget: /usr/local/bin/wget

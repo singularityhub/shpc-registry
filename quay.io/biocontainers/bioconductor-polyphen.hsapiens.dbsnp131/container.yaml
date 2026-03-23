@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-polyphen.hsapiens.dbsnp131
 latest:
-  1.0.2--r44hdfd78af_13: 
-    sha256:9cb913b2c7b6ef422f17712d3f81bce41402ff282cdf44baf161b0a22be462a1
+  1.0.2--r45hdfd78af_14: 
+    sha256:bb850fb7299e6c7024764a9bb38832c5187024d5d458decbf16703a88394bc8b
 tags:
   1.0.2--r41hdfd78af_9: 
     sha256:3868cfc91b29b7a379f1d2a93395273367a2bae06dfc555a2ca1357d34633949
@@ -16,4 +16,6 @@ tags:
     sha256:3c66cf546039496ee09010229a817e00510f06a302797fd67f72cdd839cb4bbd
   1.0.2--r44hdfd78af_13: 
     sha256:9cb913b2c7b6ef422f17712d3f81bce41402ff282cdf44baf161b0a22be462a1
+  1.0.2--r45hdfd78af_14: 
+    sha256:bb850fb7299e6c7024764a9bb38832c5187024d5d458decbf16703a88394bc8b
 docker: quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131

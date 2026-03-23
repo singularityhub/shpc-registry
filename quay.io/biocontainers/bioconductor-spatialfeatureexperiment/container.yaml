@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-spatialfeatureexperiment
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:e807c39c141c019255f853fefd3a10f14ed9a740f0760a278bfa3b91dd5d69b0
+  1.12.1--r45hdfd78af_0: 
+    sha256:23c0c980b082670570ef18b62ded923f64f9cb3f176651f5320b6bfd9d350029
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:d31fa80923e0bdef3a39ea4462fc8de404ff5f4941deb40e516b5be4ca3cdc6b
@@ -14,6 +14,8 @@ tags:
     sha256:939ceb7374e672857355dd1286eaa0441c50b865dd208a142e75e8be827a0f00
   1.8.0--r44hdfd78af_0: 
     sha256:e807c39c141c019255f853fefd3a10f14ed9a740f0760a278bfa3b91dd5d69b0
+  1.12.1--r45hdfd78af_0: 
+    sha256:23c0c980b082670570ef18b62ded923f64f9cb3f176651f5320b6bfd9d350029
 docker: quay.io/biocontainers/bioconductor-spatialfeatureexperiment
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

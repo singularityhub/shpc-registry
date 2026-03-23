@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-remp
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:792196a6010862580feaf0fdf420588e38b87110c7f16f9d42d389e696eee1a0
+  1.34.0--r45hdfd78af_0: 
+    sha256:15d656446402262078888c4cab973d59512143b1ed58484e204e27b6f4611319
 tags:
   1.8.1--r36_1: 
     sha256:633e95d15055b5d39926840f28c3521fe392c03e262dcf22b27f372e2032b6ab
@@ -24,6 +24,8 @@ tags:
     sha256:16a66c992e793ff5020e47976d4d7ffe93474bd8cbc1d3847ab6a393497a1c38
   1.30.0--r44hdfd78af_0: 
     sha256:792196a6010862580feaf0fdf420588e38b87110c7f16f9d42d389e696eee1a0
+  1.34.0--r45hdfd78af_0: 
+    sha256:15d656446402262078888c4cab973d59512143b1ed58484e204e27b6f4611319
 docker: quay.io/biocontainers/bioconductor-remp
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

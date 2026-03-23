@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-updhmm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-updhmm
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:22e88c1c9ed95c908e739b90f3bbb705932e644565ff126d660ae6057c0c93a1
+  1.6.0--r45hdfd78af_1: 
+    sha256:3292c3d82b0bfbed012b18c417638450be10d549430e8389d7157a0e375845a9
 tags:
   1.6.0--r44hdfd78af_0: 
     sha256:22e88c1c9ed95c908e739b90f3bbb705932e644565ff126d660ae6057c0c93a1
+  1.6.0--r45hdfd78af_1: 
+    sha256:3292c3d82b0bfbed012b18c417638450be10d549430e8389d7157a0e375845a9
 docker: quay.io/biocontainers/bioconductor-updhmm
 aliases:
   idle3.14: /usr/local/bin/idle3.14

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scpipe
 latest:
-  2.6.0--r44h77050f0_0: 
-    sha256:0ac86d0f1b00b393b9a987f5ee026cd364c6bf27b23903a9d183484a25b1d071
+  2.10.0--r45ha27e39d_0: 
+    sha256:455e1695fecf2c2fa69a0570caf63a6bc68c09bf0d09b694f2586ad4a7edb592
 tags:
   1.8.0--r36he1b5a44_0: 
     sha256:5532223f9f880712263b5efc3ef8510c0dd7f79ec040271b42421be60e9bef34
@@ -26,6 +26,8 @@ tags:
     sha256:fcfbdea309c09795e60a4e0264b8831c2c8a06367f501eb559dd3d1b724be834
   2.6.0--r44h77050f0_0: 
     sha256:0ac86d0f1b00b393b9a987f5ee026cd364c6bf27b23903a9d183484a25b1d071
+  2.10.0--r45ha27e39d_0: 
+    sha256:455e1695fecf2c2fa69a0570caf63a6bc68c09bf0d09b694f2586ad4a7edb592
 docker: quay.io/biocontainers/bioconductor-scpipe
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-kebabs
 latest:
-  1.40.0--r44he5774e6_0: 
-    sha256:764a89e0ff5deb5dabda64f4a05230855a67723e578d559cd17e2d7abbf29fd5
+  1.44.0--r45ha27e39d_0: 
+    sha256:de21edd68c78b346cbdbf07299330d0b1610592536020da131b62fd03ea77dea
 tags:
   1.28.1--r41hc247a5b_1: 
     sha256:1ceac9bd98886901de84774fb4b20c9cb4604e6e07ee967151f109ac1aa0c19f
@@ -20,4 +20,6 @@ tags:
     sha256:0dd0cc7e26ee145de1f1a9682fe2336f3dadcb0b2e9d2a7624235da59dd7a694
   1.40.0--r44he5774e6_0: 
     sha256:764a89e0ff5deb5dabda64f4a05230855a67723e578d559cd17e2d7abbf29fd5
+  1.44.0--r45ha27e39d_0: 
+    sha256:de21edd68c78b346cbdbf07299330d0b1610592536020da131b62fd03ea77dea
 docker: quay.io/biocontainers/bioconductor-kebabs

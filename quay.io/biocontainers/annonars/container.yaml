@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/annonars
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for annonars
 latest:
-  0.44.1--h13c227e_0: 
-    sha256:296eeaf3b2138774341f3c53cb77a06ca9befd342ea64036448ceb64f1e27b54
+  0.44.2--h957ea76_0: 
+    sha256:6391e732bf018ce8a5ab049dbea4d6bf28b44d5b77e0b3552b6592cff6c264ec
 tags:
   0.5.0--h63738d7_0: 
     sha256:5c330116a257365c8c35ef82850d493137dd6c0dd3fbb2d113eabf356409491e
@@ -87,6 +87,8 @@ tags:
     sha256:a2dc8b4a5fa95378abaf0b8933371e026a74629413f9bb9e358cde1d9d632e44
   0.44.1--h13c227e_0: 
     sha256:296eeaf3b2138774341f3c53cb77a06ca9befd342ea64036448ceb64f1e27b54
+  0.44.2--h957ea76_0: 
+    sha256:6391e732bf018ce8a5ab049dbea4d6bf28b44d5b77e0b3552b6592cff6c264ec
 docker: quay.io/biocontainers/annonars
 aliases:
   annonars: /usr/local/bin/annonars

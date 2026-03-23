@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-spectraltad
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:2bbdf5c83252e82ed1003b40dd2d9b181bfc8c1fbecf3669866868c9f87c1d9b
+  1.26.0--r45hdfd78af_0: 
+    sha256:6f41e9639850c564ba87277da726091a91a6487c9da76a7807fb4c12f20c4799
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:4a906e8185d7249a67d79d13cc82ee7e3cc6f40a902a5d567929133eac5f94da
@@ -18,6 +18,8 @@ tags:
     sha256:8b72f864f9f3f708b45c069e65fb4492b07b8190822e30425388b9730bbc54a2
   1.22.0--r44hdfd78af_0: 
     sha256:2bbdf5c83252e82ed1003b40dd2d9b181bfc8c1fbecf3669866868c9f87c1d9b
+  1.26.0--r45hdfd78af_0: 
+    sha256:6f41e9639850c564ba87277da726091a91a6487c9da76a7807fb4c12f20c4799
 docker: quay.io/biocontainers/bioconductor-spectraltad
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

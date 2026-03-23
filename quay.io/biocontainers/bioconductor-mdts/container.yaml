@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mdts
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:6b66ca392e7697b83f11b6ae82d5c59acaabb746b1d965ff2fed3255f12dc416
+  1.30.0--r45hdfd78af_0: 
+    sha256:dce844cb79714a34b442bd222c753a188379366bd4afdb114f169196d8b3b8fc
 tags:
   1.8.0--r40_0: 
     sha256:5b6278963b1b6fee4eeee3031afed194879b5e759d6bd5f945da388c76f6f750
@@ -22,6 +22,8 @@ tags:
     sha256:1edda92003edf2860f9909760608481bf9da9b9948635edce1e5a0711859104c
   1.26.0--r44hdfd78af_0: 
     sha256:6b66ca392e7697b83f11b6ae82d5c59acaabb746b1d965ff2fed3255f12dc416
+  1.30.0--r45hdfd78af_0: 
+    sha256:dce844cb79714a34b442bd222c753a188379366bd4afdb114f169196d8b3b8fc
 docker: quay.io/biocontainers/bioconductor-mdts
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-anndatar
 latest:
-  1.0.1--r45hdfd78af_0: 
-    sha256:d0a31498c5f791d42a21564dc789fd623470d3029232e15984bad38938a9e99b
+  1.0.2--r45hdfd78af_0: 
+    sha256:e36cd11f35949fefe7d3851418b1204a5fe2fc42451556a606c8632a688a5665
 tags:
   1.0.0--r45hdfd78af_0: 
     sha256:492593d94c56ea7583f6a9d3ab4369288b61e839af4237945d27255f63d8bbe0
   1.0.1--r45hdfd78af_0: 
     sha256:d0a31498c5f791d42a21564dc789fd623470d3029232e15984bad38938a9e99b
+  1.0.2--r45hdfd78af_0: 
+    sha256:e36cd11f35949fefe7d3851418b1204a5fe2fc42451556a606c8632a688a5665
 docker: quay.io/biocontainers/bioconductor-anndatar
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

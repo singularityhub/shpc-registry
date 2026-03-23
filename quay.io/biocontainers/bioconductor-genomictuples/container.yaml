@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genomictuples
 latest:
-  1.40.0--r44he5774e6_0: 
-    sha256:2f00c0f476d70194a1e9fcc240484b8d104c0c9b8482a9f56aedd2d9b53ef0e7
+  1.44.0--r45ha27e39d_0: 
+    sha256:14db556bf99bed1978f0fc08ede3df4c44c06c9ec72628e694692350b629746e
 tags:
   1.28.0--r41hc247a5b_2: 
     sha256:ba646903267be89a5541677cc410b66802c81702330a95fef85df83c6557d57b
@@ -18,4 +18,6 @@ tags:
     sha256:37163a0c0f9d1466f6b449b776e8e321f7d2c10bbda6bd4fb0359e4e1ac36cd0
   1.40.0--r44he5774e6_0: 
     sha256:2f00c0f476d70194a1e9fcc240484b8d104c0c9b8482a9f56aedd2d9b53ef0e7
+  1.44.0--r45ha27e39d_0: 
+    sha256:14db556bf99bed1978f0fc08ede3df4c44c06c9ec72628e694692350b629746e
 docker: quay.io/biocontainers/bioconductor-genomictuples

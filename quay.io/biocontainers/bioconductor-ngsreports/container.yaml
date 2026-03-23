@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ngsreports
 latest:
-  2.8.0--r44hdfd78af_0: 
-    sha256:fbd290c3bc2a3eedd5a9039f66bbd1c227251c3434bb63785fbdbbd186cc6af1
+  2.12.1--r45hdfd78af_0: 
+    sha256:0147623c150f5677638d33a89efe8bfd287f11bddbb1c8b116bf5e8d93c37b14
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:61e7866c4ec6d14a9455a0cdca31172af7563078c630034baff5646226d62d27
@@ -18,6 +18,8 @@ tags:
     sha256:f82d7b5ed3d321e4306aca87a80cc15d077680a72dd5845e2b8c9aad580e458a
   2.8.0--r44hdfd78af_0: 
     sha256:fbd290c3bc2a3eedd5a9039f66bbd1c227251c3434bb63785fbdbbd186cc6af1
+  2.12.1--r45hdfd78af_0: 
+    sha256:0147623c150f5677638d33a89efe8bfd287f11bddbb1c8b116bf5e8d93c37b14
 docker: quay.io/biocontainers/bioconductor-ngsreports
 aliases:
   pandoc: /usr/local/bin/pandoc

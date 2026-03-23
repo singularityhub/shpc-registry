@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-epivizrchart
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:e51ca64ce9c070c39ed0cec768dbf23c5f3eb9d7e06dcba83f6b656fb811e428
+  1.32.0--r45hdfd78af_0: 
+    sha256:34ba0bf61aa5f3d22710784f8d19314a9368a7502aaf0e6447f69becabbd6332
 tags:
   1.8.0--r36_0: 
     sha256:b89a16352202d096c4f12f05cc7ffceffe15fa6dad75564884aaac6b53a0c89e
@@ -24,6 +24,8 @@ tags:
     sha256:41096828ac9e93ba7f62a6af72acc3bc75d74a02f492babd6c9b9be6a0b215c6
   1.28.0--r44hdfd78af_0: 
     sha256:e51ca64ce9c070c39ed0cec768dbf23c5f3eb9d7e06dcba83f6b656fb811e428
+  1.32.0--r45hdfd78af_0: 
+    sha256:34ba0bf61aa5f3d22710784f8d19314a9368a7502aaf0e6447f69becabbd6332
 docker: quay.io/biocontainers/bioconductor-epivizrchart
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

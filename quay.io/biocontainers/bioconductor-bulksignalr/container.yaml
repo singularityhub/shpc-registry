@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-bulksignalr
 latest:
-  1.2.1--r45hdfd78af_0: 
-    sha256:8a214f732f3a9fa517cf23deb737f8572cbffaeaad191b1015bc096c1a2bb2cb
+  1.2.2--r45hdfd78af_0: 
+    sha256:0e2878c2fa0217f84048ea7179780e85fb4548d3337602b36c08f39860840264
 tags:
   1.2.1--r45hdfd78af_0: 
     sha256:8a214f732f3a9fa517cf23deb737f8572cbffaeaad191b1015bc096c1a2bb2cb
+  1.2.2--r45hdfd78af_0: 
+    sha256:0e2878c2fa0217f84048ea7179780e85fb4548d3337602b36c08f39860840264
 docker: quay.io/biocontainers/bioconductor-bulksignalr
 aliases:
   dot_sandbox: /usr/local/bin/dot_sandbox

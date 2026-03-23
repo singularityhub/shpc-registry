@@ -4,11 +4,11 @@ maintainer: '@HasseJohansen'
 description: Jupyter Minimal Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2026-02-23': 
-    sha256:577c5c6195318fc22efef86bb1abe6c40b35c3b6059f313be7b20adce2531460
+  '2026-03-23': 
+    sha256:0e8fa0b37f367bb923d44e5da91011a213c73fc75db9c91b6d61f0da53bc7829
 tags:
   latest: 
-    sha256:577c5c6195318fc22efef86bb1abe6c40b35c3b6059f313be7b20adce2531460
+    sha256:0e8fa0b37f367bb923d44e5da91011a213c73fc75db9c91b6d61f0da53bc7829
   '2025-05-30': 
     sha256:b1e5df5d0147db361f004f898700feffc80a58d09bca567bb93395945a30a8a2
   '2025-06-23': 
@@ -43,6 +43,10 @@ tags:
     sha256:789abba8159b5425450ef9be5b61971b523806449ed1601a1d0ba6b87c5addf6
   '2025-12-31': 
     sha256:c547fe65c0768d980254b50b53ac9940206fcfffd3dba087e08433572fb8c729
+  '2026-03-23': 
+    sha256:0e8fa0b37f367bb923d44e5da91011a213c73fc75db9c91b6d61f0da53bc7829
+  '2026-02-16': 
+    sha256:039c86b23d883e9702afaa369776bf397e22fd13898e63df26614e60e0ebc723
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

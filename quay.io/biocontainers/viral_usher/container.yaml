@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/viral_usher
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viral_usher
 latest:
-  0.10.1--pyhdfd78af_0: 
-    sha256:ea9a11e014f969b424b51c08adbb02305875f76d9575f3aac18908535a0b5586
+  0.10.2--pyhdfd78af_0: 
+    sha256:201134aed9ab365ebac79de39da840213e5e3f9977c06277e40ac149bb5cefc2
 tags:
   0.10.1--pyhdfd78af_0: 
     sha256:ea9a11e014f969b424b51c08adbb02305875f76d9575f3aac18908535a0b5586
+  0.10.2--pyhdfd78af_0: 
+    sha256:201134aed9ab365ebac79de39da840213e5e3f9977c06277e40ac149bb5cefc2
 docker: quay.io/biocontainers/viral_usher
 aliases:
   inv: /usr/local/bin/inv

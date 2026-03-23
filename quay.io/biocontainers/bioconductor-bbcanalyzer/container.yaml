@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bbcanalyzer
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:120ce4e5aeb65279888d71ee001da77bde6056bb4c795b5a94ab9bb23e06b7c4
+  1.40.0--r45hdfd78af_0: 
+    sha256:679f5991ca85b4f24c427bba738c2d3427090257c8f6165683ae576c826ac46c
 tags:
   1.8.0--r3.4.1_0: 
     sha256:8317ba09bc1d01f708b79d537421c09abf900b46e42e77136ce322d355c6f502
@@ -24,6 +24,8 @@ tags:
     sha256:de26eb134c2c38591ef4db06756305cf3cdd49b5cf16998ba70dce0cdd704051
   1.36.0--r44hdfd78af_0: 
     sha256:120ce4e5aeb65279888d71ee001da77bde6056bb4c795b5a94ab9bb23e06b7c4
+  1.40.0--r45hdfd78af_0: 
+    sha256:679f5991ca85b4f24c427bba738c2d3427090257c8f6165683ae576c826ac46c
 docker: quay.io/biocontainers/bioconductor-bbcanalyzer
 aliases:
   my_print_defaults: /usr/local/bin/my_print_defaults

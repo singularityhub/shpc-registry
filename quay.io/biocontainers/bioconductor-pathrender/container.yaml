@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pathrender
 latest:
-  1.74.0--r44hdfd78af_0: 
-    sha256:caa2bb8bc44657085dc374a03bc6d07931434c315c8d0d9e6ff9a6d0ef48d6d0
+  1.78.0--r45hdfd78af_0: 
+    sha256:feb02a2a1ef11c44959293b81eb2859004b34ca0bd627fc83df7383b3e4ae928
 tags:
   1.62.0--r41hdfd78af_0: 
     sha256:94b94952a2a4410cbaade5e93cd2e0abe670aa406b933019ab5a3b0bca434e9d
@@ -16,4 +16,6 @@ tags:
     sha256:d353097567118c16099235ded56a8dcc503279a64c410520066a6dc2a51415f3
   1.74.0--r44hdfd78af_0: 
     sha256:caa2bb8bc44657085dc374a03bc6d07931434c315c8d0d9e6ff9a6d0ef48d6d0
+  1.78.0--r45hdfd78af_0: 
+    sha256:feb02a2a1ef11c44959293b81eb2859004b34ca0bd627fc83df7383b3e4ae928
 docker: quay.io/biocontainers/bioconductor-pathrender

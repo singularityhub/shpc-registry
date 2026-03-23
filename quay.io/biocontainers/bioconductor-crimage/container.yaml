@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for
   bioconductor-crimage
 latest:
   1.58.0--r45hdfd78af_0: 
-    sha256:26150ab52a09d546394765bf2901eede49927678471de3b74601fdb9c6f0c85c
+    sha256:0a025cddc14284cc9b107578032213cb6002e65e69243c49d6b94fc1bd5d43ac
 tags:
   1.42.0--r41hdfd78af_0: 
     sha256:9b947a5720de7f40a75560ac9672fae132f18ecd4ce418ef9579eb548ac437fc
@@ -17,7 +17,7 @@ tags:
   1.54.0--r44hdfd78af_0: 
     sha256:488955e96e03067dd0dfc65f13f2039e6511550e16255abd9c953ca99b5ab903
   1.58.0--r45hdfd78af_0: 
-    sha256:26150ab52a09d546394765bf2901eede49927678471de3b74601fdb9c6f0c85c
+    sha256:0a025cddc14284cc9b107578032213cb6002e65e69243c49d6b94fc1bd5d43ac
 docker: quay.io/biocontainers/bioconductor-crimage
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom
