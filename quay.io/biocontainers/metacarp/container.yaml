@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/metacarp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metacarp
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:441d69c28267b90c05e40d4b8d88c8f0428db09d06313fd102339019074e68cc
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:441d69c28267b90c05e40d4b8d88c8f0428db09d06313fd102339019074e68cc
+docker: quay.io/biocontainers/metacarp
+aliases:
+  GMM_screening: /usr/local/bin/GMM_screening
+  METACARP: /usr/local/bin/METACARP
+  METACARP_galaxy: /usr/local/bin/METACARP_galaxy
+  NanoFilt: /usr/local/bin/NanoFilt
+  inv: /usr/local/bin/inv
+  invoke: /usr/local/bin/invoke
+  k2: /usr/local/bin/k2
+  prc_write_irodsA.py: /usr/local/bin/prc_write_irodsA.py
+  setuptools-scm: /usr/local/bin/setuptools-scm
+  dataformat: /usr/local/bin/dataformat
+  datasets: /usr/local/bin/datasets
+  xxh3sum: /usr/local/bin/xxh3sum
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  phc: /usr/local/bin/phc
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update
+  kraken2: /usr/local/bin/kraken2
+  kraken2-build: /usr/local/bin/kraken2-build
+  kraken2-inspect: /usr/local/bin/kraken2-inspect
+  screed: /usr/local/bin/screed
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml

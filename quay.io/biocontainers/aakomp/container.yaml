@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/aakomp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for aakomp
+latest:
+  1.0.0--py312r45hf426362_0: 
+    sha256:0e05c6678e93bc747d0ff2b60614a23f72952645e222e09324f662263e9bf0e0
+tags:
+  1.0.0--py312r45hf426362_0: 
+    sha256:0e05c6678e93bc747d0ff2b60614a23f72952645e222e09324f662263e9bf0e0
+docker: quay.io/biocontainers/aakomp
+aliases:
+  aakomp: /usr/local/bin/aakomp
+  aakomp_plot.R: /usr/local/bin/aakomp_plot.R
+  libsequenceConfig: /usr/local/bin/libsequenceConfig
+  lrz: /usr/local/bin/lrz
+  make_mibf: /usr/local/bin/make_mibf
+  mi_bf_generate: /usr/local/bin/mi_bf_generate
+  randseq: /usr/local/bin/randseq
+  run-aakomp: /usr/local/bin/run-aakomp
+  indexlr: /usr/local/bin/indexlr
+  lrunzip: /usr/local/bin/lrunzip
+  lrzcat: /usr/local/bin/lrzcat
+  lrzip: /usr/local/bin/lrzip
+  lrztar: /usr/local/bin/lrztar
+  lrzuntar: /usr/local/bin/lrzuntar
+  hmmc2: /usr/local/bin/hmmc2
+  hmmerfm-exactmatch: /usr/local/bin/hmmerfm-exactmatch
+  mamba: /usr/local/bin/mamba
+  mamba-package: /usr/local/bin/mamba-package
+  conda2solv: /usr/local/bin/conda2solv
+  dumpsolv: /usr/local/bin/dumpsolv
+  installcheck: /usr/local/bin/installcheck
+  mergesolv: /usr/local/bin/mergesolv
+  repo2solv: /usr/local/bin/repo2solv
+  testsolv: /usr/local/bin/testsolv
+  bsdunzip: /usr/local/bin/bsdunzip
+  ref-cache: /usr/local/bin/ref-cache
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  annot-tsv: /usr/local/bin/annot-tsv
+  alimask: /usr/local/bin/alimask
+  hmmconvert: /usr/local/bin/hmmconvert
+  hmmemit: /usr/local/bin/hmmemit
