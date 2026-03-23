@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-segmenter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-segmenter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-segmenter/container.yaml"
-updated_at: "2026-03-22 04:46:12.669692"
-latest: "1.12.0--r44hdfd78af_0"
+updated_at: "2026-03-23 04:54:09.269303"
+latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-segmenter"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.12.0--r44hdfd78af_0"
+ - "1.16.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-segmenter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-segmenter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-segmenter", "latest": {"1.12.0--r44hdfd78af_0": "sha256:0260a55c4f136581443bde5a05834ecf70d583c8ff882f1db5c33131fa979ed6"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:3897c7d0b7793ef5b8ccfc47c3156e9f2da14801cea3ee45b735e00e61c8bccd", "1.4.0--r42hdfd78af_0": "sha256:63b42aadfa441b66ea9ea3680d3455f0610bf3eeaa65dbf5708b4f0a771c71a1", "1.6.0--r43hdfd78af_0": "sha256:72bd8cde76136eb6ceb8d46a79dd5ab63d67f4fe3b6329d1dd3bacdd335481c5", "1.8.0--r43hdfd78af_0": "sha256:c2fedda50e383849e712be6b108e94934e1dcb4b1506060f5f166ae2fc966148", "1.12.0--r44hdfd78af_0": "sha256:0260a55c4f136581443bde5a05834ecf70d583c8ff882f1db5c33131fa979ed6"}, "docker": "quay.io/biocontainers/bioconductor-segmenter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-segmenter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-segmenter", "latest": {"1.16.0--r45hdfd78af_0": "sha256:607b5ed9fe8a22b3a568e2e4320f1ba5b0d8ecb0dfa71883922e25276a75b42a"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:3897c7d0b7793ef5b8ccfc47c3156e9f2da14801cea3ee45b735e00e61c8bccd", "1.4.0--r42hdfd78af_0": "sha256:63b42aadfa441b66ea9ea3680d3455f0610bf3eeaa65dbf5708b4f0a771c71a1", "1.6.0--r43hdfd78af_0": "sha256:72bd8cde76136eb6ceb8d46a79dd5ab63d67f4fe3b6329d1dd3bacdd335481c5", "1.8.0--r43hdfd78af_0": "sha256:c2fedda50e383849e712be6b108e94934e1dcb4b1506060f5f166ae2fc966148", "1.12.0--r44hdfd78af_0": "sha256:0260a55c4f136581443bde5a05834ecf70d583c8ff882f1db5c33131fa979ed6", "1.16.0--r45hdfd78af_0": "sha256:607b5ed9fe8a22b3a568e2e4320f1ba5b0d8ecb0dfa71883922e25276a75b42a"}, "docker": "quay.io/biocontainers/bioconductor-segmenter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-segmenter.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-segmenter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-segmenter:1.12.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-segmenter:1.16.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-segmenter/1.12.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-segmenter/1.12.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-segmenter/1.16.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-segmenter/1.16.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

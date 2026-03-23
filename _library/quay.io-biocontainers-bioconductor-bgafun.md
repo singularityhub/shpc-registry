@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bgafun"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bgafun/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bgafun/container.yaml"
-updated_at: "2026-03-22 05:22:44.958496"
+updated_at: "2026-03-23 05:30:19.194929"
 latest: "1.49.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bgafun"
 aliases:

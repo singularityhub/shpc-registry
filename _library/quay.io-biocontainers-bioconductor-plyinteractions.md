@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-plyinteractions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plyinteractions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plyinteractions/container.yaml"
-updated_at: "2026-03-22 05:09:04.261475"
-latest: "1.4.0--r44hdfd78af_0"
+updated_at: "2026-03-23 05:16:32.537798"
+latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plyinteractions"
 aliases:
  - "pcre2posix_test"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.4.0--r44hdfd78af_0"
+ - "1.8.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-plyinteractions"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plyinteractions", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-plyinteractions", "latest": {"1.4.0--r44hdfd78af_0": "sha256:4a49ccb7454ca3bb1ba61b50446eeae001428175ac434d2eff39cdac0a5934b0"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2b27244b606aa2565aec72546f2d946ed49ba312678c4f84810a5724982187e2", "1.4.0--r44hdfd78af_0": "sha256:4a49ccb7454ca3bb1ba61b50446eeae001428175ac434d2eff39cdac0a5934b0"}, "docker": "quay.io/biocontainers/bioconductor-plyinteractions", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plyinteractions", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-plyinteractions", "latest": {"1.8.0--r45hdfd78af_0": "sha256:c5f98036aee8309989e5a50a43509912fcac2fdb0a257382ac9cb766a4cc55db"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:2b27244b606aa2565aec72546f2d946ed49ba312678c4f84810a5724982187e2", "1.4.0--r44hdfd78af_0": "sha256:4a49ccb7454ca3bb1ba61b50446eeae001428175ac434d2eff39cdac0a5934b0", "1.8.0--r45hdfd78af_0": "sha256:c5f98036aee8309989e5a50a43509912fcac2fdb0a257382ac9cb766a4cc55db"}, "docker": "quay.io/biocontainers/bioconductor-plyinteractions", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plyinteractions.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plyinteractions
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plyinteractions:1.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-plyinteractions:1.8.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plyinteractions/1.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-plyinteractions/1.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-plyinteractions/1.8.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-plyinteractions/1.8.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

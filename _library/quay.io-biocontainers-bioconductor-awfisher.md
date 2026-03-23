@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-awfisher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-awfisher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-awfisher/container.yaml"
-updated_at: "2026-03-22 05:21:13.400630"
+updated_at: "2026-03-23 05:28:45.444539"
 latest: "1.24.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-awfisher"
 
@@ -17,7 +17,7 @@ versions:
  - "1.20.0--r44he5774e6_0"
  - "1.24.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-awfisher"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-awfisher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-awfisher", "latest": {"1.24.0--r45ha27e39d_0": "sha256:85d5e2abe36588de0e6f2d42f2c67cfca8bdd4154a896cf3a33665641df3d651"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:6090af056d0a6816db0c0dd1a4217fc2021a2ea051d2696abb4519402fa094c4", "1.12.0--r42hc247a5b_0": "sha256:9f9d1992780505781f2a1f48ba5422d9ad62a89588c5dae075d72f7a6dfb61ec", "1.12.0--r42hf17093f_1": "sha256:5d08ee8239385ec8321e0afe695ca4ca7bb4e61d77c450d3298ccce6b08f4523", "1.14.0--r43hf17093f_0": "sha256:74d93e9cbaa5330efad1e58ccaeb085afc867bf02115d46fdb7e5e1146ce60b7", "1.16.0--r43hf17093f_0": "sha256:bbf056451ca80da4a8b49ca9337a796d84923ad4e0712982ef409227c941de85", "1.20.0--r44he5774e6_0": "sha256:d9e1d3fab9344884a8be5525fda0a74e752b1f7727abe5fbac87787996fc5a63", "1.24.0--r45ha27e39d_0": "sha256:85d5e2abe36588de0e6f2d42f2c67cfca8bdd4154a896cf3a33665641df3d651"}, "docker": "quay.io/biocontainers/bioconductor-awfisher"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-awfisher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-awfisher", "latest": {"1.24.0--r45ha27e39d_0": "sha256:5de86a3b52aeeb92dbd029601178a464b1df550e825b8fecc460ddb06b7c4f1d"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:6090af056d0a6816db0c0dd1a4217fc2021a2ea051d2696abb4519402fa094c4", "1.12.0--r42hc247a5b_0": "sha256:9f9d1992780505781f2a1f48ba5422d9ad62a89588c5dae075d72f7a6dfb61ec", "1.12.0--r42hf17093f_1": "sha256:5d08ee8239385ec8321e0afe695ca4ca7bb4e61d77c450d3298ccce6b08f4523", "1.14.0--r43hf17093f_0": "sha256:74d93e9cbaa5330efad1e58ccaeb085afc867bf02115d46fdb7e5e1146ce60b7", "1.16.0--r43hf17093f_0": "sha256:bbf056451ca80da4a8b49ca9337a796d84923ad4e0712982ef409227c941de85", "1.20.0--r44he5774e6_0": "sha256:d9e1d3fab9344884a8be5525fda0a74e752b1f7727abe5fbac87787996fc5a63", "1.24.0--r45ha27e39d_0": "sha256:5de86a3b52aeeb92dbd029601178a464b1df550e825b8fecc460ddb06b7c4f1d"}, "docker": "quay.io/biocontainers/bioconductor-awfisher"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-awfisher.

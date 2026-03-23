@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mfuzz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mfuzz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mfuzz/container.yaml"
-updated_at: "2026-03-22 04:36:47.656486"
+updated_at: "2026-03-23 04:44:50.514687"
 latest: "2.70.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mfuzz"
 
@@ -16,7 +16,7 @@ versions:
  - "2.66.0--r44hdfd78af_0"
  - "2.70.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mfuzz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mfuzz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mfuzz", "latest": {"2.70.0--r45hdfd78af_0": "sha256:883e5a523fa7632eb955b0da2b8835274b0073954c594229a3d00111ec2dd656"}, "tags": {"2.54.0--r41hdfd78af_0": "sha256:da2dc92176c554afefc934b7fe77c224ab4508d8334987a08b42bbbaeaaa9ff1", "2.58.0--r42hdfd78af_0": "sha256:0bf399b689bb2521fff01fd5a5dfe7376d70d85b9e7790dfc56652fad2c17c32", "2.60.0--r43hdfd78af_0": "sha256:96313a439260d5035db84a83cc9e0e03aabe637efd8ca2f682a66a61949cfeac", "2.62.0--r43hdfd78af_0": "sha256:1fd3c728924b1f232ec084b2f2f1c1e761815dc60ed26a5b9823c94f4cde90dd", "2.66.0--r44hdfd78af_0": "sha256:34e33d5993c81543f8c1be8ac6ce29a7cd5842d63b709714f865a58bd6bd8dd4", "2.70.0--r45hdfd78af_0": "sha256:883e5a523fa7632eb955b0da2b8835274b0073954c594229a3d00111ec2dd656"}, "docker": "quay.io/biocontainers/bioconductor-mfuzz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mfuzz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mfuzz", "latest": {"2.70.0--r45hdfd78af_0": "sha256:37651c84c9b3accba97a3b460b8bfebdd0cc44ad81c2adc24eb5bae88b4d1532"}, "tags": {"2.54.0--r41hdfd78af_0": "sha256:da2dc92176c554afefc934b7fe77c224ab4508d8334987a08b42bbbaeaaa9ff1", "2.58.0--r42hdfd78af_0": "sha256:0bf399b689bb2521fff01fd5a5dfe7376d70d85b9e7790dfc56652fad2c17c32", "2.60.0--r43hdfd78af_0": "sha256:96313a439260d5035db84a83cc9e0e03aabe637efd8ca2f682a66a61949cfeac", "2.62.0--r43hdfd78af_0": "sha256:1fd3c728924b1f232ec084b2f2f1c1e761815dc60ed26a5b9823c94f4cde90dd", "2.66.0--r44hdfd78af_0": "sha256:34e33d5993c81543f8c1be8ac6ce29a7cd5842d63b709714f865a58bd6bd8dd4", "2.70.0--r45hdfd78af_0": "sha256:37651c84c9b3accba97a3b460b8bfebdd0cc44ad81c2adc24eb5bae88b4d1532"}, "docker": "quay.io/biocontainers/bioconductor-mfuzz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mfuzz.

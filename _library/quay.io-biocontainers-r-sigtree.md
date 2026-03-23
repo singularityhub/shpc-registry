@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-sigtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigtree/container.yaml"
-updated_at: "2026-03-22 04:46:16.111025"
-latest: "1.10.6--r43h56115f1_12"
+updated_at: "2026-03-23 04:54:12.849595"
+latest: "1.10.6--r45hf7ecca6_13"
 container_url: "https://biocontainers.pro/tools/r-sigtree"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.10.6--r42h73dbb54_10"
  - "1.10.6--r42h56115f1_11"
  - "1.10.6--r43h56115f1_12"
+ - "1.10.6--r45hf7ecca6_13"
 description: "shpc-registry automated BioContainers addition for r-sigtree"
-config: {"url": "https://biocontainers.pro/tools/r-sigtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigtree", "latest": {"1.10.6--r43h56115f1_12": "sha256:b6be1217b139b32baf636900b4f46c158f47d279554a28e980ad90d535d48410"}, "tags": {"1.10.6--r41h73dbb54_9": "sha256:15cba20b52d3e01055b8be8ea06509ba7b3313c0570fe365c0fc6c7ae93cc236", "1.10.6--r42h73dbb54_10": "sha256:70fe1f758c62b58035f8cf62fe4a83b8aae521b303f62a432ca54653862f19de", "1.10.6--r42h56115f1_11": "sha256:f0ff82a6d49500a8643366e2c9dd822f2be273d9d5bdf728c61c77924adb9b7a", "1.10.6--r43h56115f1_12": "sha256:b6be1217b139b32baf636900b4f46c158f47d279554a28e980ad90d535d48410"}, "docker": "quay.io/biocontainers/r-sigtree"}
+config: {"url": "https://biocontainers.pro/tools/r-sigtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigtree", "latest": {"1.10.6--r45hf7ecca6_13": "sha256:f11021b8e2cc3ef13bfc6f9bd22d2a604f95b8c4eb9e53860612d215375176a9"}, "tags": {"1.10.6--r41h73dbb54_9": "sha256:15cba20b52d3e01055b8be8ea06509ba7b3313c0570fe365c0fc6c7ae93cc236", "1.10.6--r42h73dbb54_10": "sha256:70fe1f758c62b58035f8cf62fe4a83b8aae521b303f62a432ca54653862f19de", "1.10.6--r42h56115f1_11": "sha256:f0ff82a6d49500a8643366e2c9dd822f2be273d9d5bdf728c61c77924adb9b7a", "1.10.6--r43h56115f1_12": "sha256:b6be1217b139b32baf636900b4f46c158f47d279554a28e980ad90d535d48410", "1.10.6--r45hf7ecca6_13": "sha256:f11021b8e2cc3ef13bfc6f9bd22d2a604f95b8c4eb9e53860612d215375176a9"}, "docker": "quay.io/biocontainers/r-sigtree"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sigtree.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-sigtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sigtree:1.10.6--r43h56115f1_12
+$ shpc install quay.io/biocontainers/r-sigtree:1.10.6--r45hf7ecca6_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sigtree/1.10.6--r43h56115f1_12
-$ module help quay.io/biocontainers/r-sigtree/1.10.6--r43h56115f1_12
+$ module load quay.io/biocontainers/r-sigtree/1.10.6--r45hf7ecca6_13
+$ module help quay.io/biocontainers/r-sigtree/1.10.6--r45hf7ecca6_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

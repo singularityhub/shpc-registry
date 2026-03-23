@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-glad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
-updated_at: "2026-03-22 04:25:26.296464"
+updated_at: "2026-03-23 04:33:35.391173"
 latest: "2.74.0--r45h1ca3914_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-glad"
 
@@ -17,7 +17,7 @@ versions:
  - "2.70.0--r44h310a8c3_0"
  - "2.74.0--r45h1ca3914_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-glad"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-glad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-glad", "latest": {"2.74.0--r45h1ca3914_0": "sha256:377e8a61507b0f7ba7924b79ff70be4bfc6d61cb6af57f54ca6be2e05c3d993b"}, "tags": {"2.58.0--r41hd4b0f26_3": "sha256:86f1d3508a046245b5c9fc463fcccd1fcb5830182b95e638479c192b7819c48c", "2.62.0--r42hd4b0f26_0": "sha256:6a61fdc25a7c1c40f282297cd94624e59460a446c5cbf4abbd89f3cfc7cae106", "2.62.0--r42h7c4fd5e_2": "sha256:1a3f905e0aa4aec26d0963b506d1ee5749b64f0cfeb27945e64e35084d4e03f9", "2.64.0--r43h7c4fd5e_0": "sha256:723cc087e3c97e063a4b4ae24343ba7e76d3625592ae7e7ee1dc7baf95be4344", "2.66.0--r43h7c4fd5e_0": "sha256:abc0674a4a954bb67f1a80c42b9fa09658b6a4b42b2a55a6ce66acd1e6ee2084", "2.70.0--r44h310a8c3_0": "sha256:b27a02572c4728b246d36deb1c37f1fc8b91e7aa65bdafacb2ab93d7e02407c7", "2.74.0--r45h1ca3914_0": "sha256:377e8a61507b0f7ba7924b79ff70be4bfc6d61cb6af57f54ca6be2e05c3d993b"}, "docker": "quay.io/biocontainers/bioconductor-glad"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-glad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-glad", "latest": {"2.74.0--r45h1ca3914_0": "sha256:bf7fc4c92baa636d23f1ad96cb3048b6c2af5552688841ec67af6ce737fa0c52"}, "tags": {"2.58.0--r41hd4b0f26_3": "sha256:86f1d3508a046245b5c9fc463fcccd1fcb5830182b95e638479c192b7819c48c", "2.62.0--r42hd4b0f26_0": "sha256:6a61fdc25a7c1c40f282297cd94624e59460a446c5cbf4abbd89f3cfc7cae106", "2.62.0--r42h7c4fd5e_2": "sha256:1a3f905e0aa4aec26d0963b506d1ee5749b64f0cfeb27945e64e35084d4e03f9", "2.64.0--r43h7c4fd5e_0": "sha256:723cc087e3c97e063a4b4ae24343ba7e76d3625592ae7e7ee1dc7baf95be4344", "2.66.0--r43h7c4fd5e_0": "sha256:abc0674a4a954bb67f1a80c42b9fa09658b6a4b42b2a55a6ce66acd1e6ee2084", "2.70.0--r44h310a8c3_0": "sha256:b27a02572c4728b246d36deb1c37f1fc8b91e7aa65bdafacb2ab93d7e02407c7", "2.74.0--r45h1ca3914_0": "sha256:bf7fc4c92baa636d23f1ad96cb3048b6c2af5552688841ec67af6ce737fa0c52"}, "docker": "quay.io/biocontainers/bioconductor-glad"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-glad.

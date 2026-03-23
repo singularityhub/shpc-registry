@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nnnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nnnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nnnorm/container.yaml"
-updated_at: "2026-03-22 05:21:55.399779"
+updated_at: "2026-03-23 05:29:28.541138"
 latest: "2.74.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nnnorm"
 
@@ -16,7 +16,7 @@ versions:
  - "2.70.0--r44hdfd78af_0"
  - "2.74.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nnnorm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nnnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nnnorm", "latest": {"2.74.0--r45hdfd78af_0": "sha256:7edbbd8b5f87ab1886d85a3e4f8fc43dac8286b6cf59cfb4260ead58e111cc0c"}, "tags": {"2.58.0--r41hdfd78af_0": "sha256:29eb36c4803fa35a8b8e01df27562352af70510117960f26551fd09d9aa671ec", "2.62.0--r42hdfd78af_0": "sha256:3cb4cd6ac7de2ae4b4adc62972459f4c812b91b5a5e4ab309523b6e1673696b6", "2.64.0--r43hdfd78af_0": "sha256:aa1df4b4d4d248ccc0b9d85fdde851b890e4c450a7c47fb9a481e12af03e2168", "2.66.0--r43hdfd78af_0": "sha256:0e9f8a4d45ca53fc23f42d5074a3b45d10e3fb24757058407d5cb94be9ca1a10", "2.70.0--r44hdfd78af_0": "sha256:3d501221d7b996cc10f3576ed8a13c9ad597b0cf25538610cce0d62065ac16c9", "2.74.0--r45hdfd78af_0": "sha256:7edbbd8b5f87ab1886d85a3e4f8fc43dac8286b6cf59cfb4260ead58e111cc0c"}, "docker": "quay.io/biocontainers/bioconductor-nnnorm"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nnnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nnnorm", "latest": {"2.74.0--r45hdfd78af_0": "sha256:5c1329cb7b885f0119f31d7d1ef958e606563d946c272f07a586c632525951d0"}, "tags": {"2.58.0--r41hdfd78af_0": "sha256:29eb36c4803fa35a8b8e01df27562352af70510117960f26551fd09d9aa671ec", "2.62.0--r42hdfd78af_0": "sha256:3cb4cd6ac7de2ae4b4adc62972459f4c812b91b5a5e4ab309523b6e1673696b6", "2.64.0--r43hdfd78af_0": "sha256:aa1df4b4d4d248ccc0b9d85fdde851b890e4c450a7c47fb9a481e12af03e2168", "2.66.0--r43hdfd78af_0": "sha256:0e9f8a4d45ca53fc23f42d5074a3b45d10e3fb24757058407d5cb94be9ca1a10", "2.70.0--r44hdfd78af_0": "sha256:3d501221d7b996cc10f3576ed8a13c9ad597b0cf25538610cce0d62065ac16c9", "2.74.0--r45hdfd78af_0": "sha256:5c1329cb7b885f0119f31d7d1ef958e606563d946c272f07a586c632525951d0"}, "docker": "quay.io/biocontainers/bioconductor-nnnorm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nnnorm.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-idiogram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-idiogram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-idiogram/container.yaml"
-updated_at: "2026-03-22 04:53:05.189804"
-latest: "1.82.0--r44hdfd78af_0"
+updated_at: "2026-03-23 05:00:58.304199"
+latest: "1.86.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-idiogram"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.76.0--r43hdfd78af_0"
  - "1.78.0--r43hdfd78af_0"
  - "1.82.0--r44hdfd78af_0"
+ - "1.86.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-idiogram"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-idiogram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-idiogram", "latest": {"1.82.0--r44hdfd78af_0": "sha256:eb4007b61d0bdfd668e2998c5d98ca64e358e13f882c48e4235cea9e58ca3dce"}, "tags": {"1.70.0--r41hdfd78af_0": "sha256:318c07f4e2551224b9c54646a45c61680a2cdf15480efdc59e4f7134e7d66a16", "1.74.0--r42hdfd78af_0": "sha256:291af03a7a387fe07bc6c9d8131e3880293af592412c3e87068afac16b6651ba", "1.76.0--r43hdfd78af_0": "sha256:f5cbba662135dc3cfcc8c091e2feed202722dd78a9f8c231f68f048c61353167", "1.78.0--r43hdfd78af_0": "sha256:05b449c1ce75ce9124541dfe30516e32d0a80a0eb8d0fde0efd962b2095341a0", "1.82.0--r44hdfd78af_0": "sha256:eb4007b61d0bdfd668e2998c5d98ca64e358e13f882c48e4235cea9e58ca3dce"}, "docker": "quay.io/biocontainers/bioconductor-idiogram"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-idiogram", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-idiogram", "latest": {"1.86.0--r45hdfd78af_0": "sha256:7a80399afedfb4b0a0f239cb0bb3d362cbbcca56442e81b671247ecf8770084a"}, "tags": {"1.70.0--r41hdfd78af_0": "sha256:318c07f4e2551224b9c54646a45c61680a2cdf15480efdc59e4f7134e7d66a16", "1.74.0--r42hdfd78af_0": "sha256:291af03a7a387fe07bc6c9d8131e3880293af592412c3e87068afac16b6651ba", "1.76.0--r43hdfd78af_0": "sha256:f5cbba662135dc3cfcc8c091e2feed202722dd78a9f8c231f68f048c61353167", "1.78.0--r43hdfd78af_0": "sha256:05b449c1ce75ce9124541dfe30516e32d0a80a0eb8d0fde0efd962b2095341a0", "1.82.0--r44hdfd78af_0": "sha256:eb4007b61d0bdfd668e2998c5d98ca64e358e13f882c48e4235cea9e58ca3dce", "1.86.0--r45hdfd78af_0": "sha256:7a80399afedfb4b0a0f239cb0bb3d362cbbcca56442e81b671247ecf8770084a"}, "docker": "quay.io/biocontainers/bioconductor-idiogram"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-idiogram.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-idiogram
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-idiogram:1.82.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-idiogram:1.86.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-idiogram/1.82.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-idiogram/1.82.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-idiogram/1.86.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-idiogram/1.86.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

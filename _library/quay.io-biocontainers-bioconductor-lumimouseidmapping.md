@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-lumimouseidmapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumimouseidmapping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumimouseidmapping/container.yaml"
-updated_at: "2026-03-22 04:36:37.407544"
-latest: "1.10.0--r44hdfd78af_13"
+updated_at: "2026-03-23 04:44:40.582544"
+latest: "1.10.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumimouseidmapping"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.10.0--r43hdfd78af_11"
  - "1.10.0--r43hdfd78af_12"
  - "1.10.0--r44hdfd78af_13"
+ - "1.10.0--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-lumimouseidmapping"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lumimouseidmapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumimouseidmapping", "latest": {"1.10.0--r44hdfd78af_13": "sha256:a7f00212e34d02afa8ffb090d7d6884be0cbacb7db922544d38f4c26d8736e09"}, "tags": {"1.10.0--r41hdfd78af_9": "sha256:d96777c56a9660436113df3f3acb92f54c62123268738a75efbcbe5395835d19", "1.10.0--r42hdfd78af_10": "sha256:8fe50e364a9148cf0a4949bdef7baf09b52b53685b31af02f3b1032d552277b6", "1.10.0--r43hdfd78af_11": "sha256:5d217b7c8848d92bdac067e9a1a5f9ed312315bcb965babdd84d3eeae00c7bde", "1.10.0--r43hdfd78af_12": "sha256:f32a616b91bd0a2db4dc4e18ee96c396770401d7f5cf8d48a7f32a58e1a2c6bc", "1.10.0--r44hdfd78af_13": "sha256:a7f00212e34d02afa8ffb090d7d6884be0cbacb7db922544d38f4c26d8736e09"}, "docker": "quay.io/biocontainers/bioconductor-lumimouseidmapping"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lumimouseidmapping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumimouseidmapping", "latest": {"1.10.0--r45hdfd78af_14": "sha256:5803132b4dd33affa84e0e10644e249d46e2c676a3cfca9ce74e34e92c75d8d9"}, "tags": {"1.10.0--r41hdfd78af_9": "sha256:d96777c56a9660436113df3f3acb92f54c62123268738a75efbcbe5395835d19", "1.10.0--r42hdfd78af_10": "sha256:8fe50e364a9148cf0a4949bdef7baf09b52b53685b31af02f3b1032d552277b6", "1.10.0--r43hdfd78af_11": "sha256:5d217b7c8848d92bdac067e9a1a5f9ed312315bcb965babdd84d3eeae00c7bde", "1.10.0--r43hdfd78af_12": "sha256:f32a616b91bd0a2db4dc4e18ee96c396770401d7f5cf8d48a7f32a58e1a2c6bc", "1.10.0--r44hdfd78af_13": "sha256:a7f00212e34d02afa8ffb090d7d6884be0cbacb7db922544d38f4c26d8736e09", "1.10.0--r45hdfd78af_14": "sha256:5803132b4dd33affa84e0e10644e249d46e2c676a3cfca9ce74e34e92c75d8d9"}, "docker": "quay.io/biocontainers/bioconductor-lumimouseidmapping"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lumimouseidmapping.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lumimouseidmapping
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lumimouseidmapping:1.10.0--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-lumimouseidmapping:1.10.0--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lumimouseidmapping/1.10.0--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-lumimouseidmapping/1.10.0--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-lumimouseidmapping/1.10.0--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-lumimouseidmapping/1.10.0--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

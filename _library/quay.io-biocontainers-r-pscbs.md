@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-pscbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pscbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pscbs/container.yaml"
-updated_at: "2026-03-22 04:48:16.548975"
-latest: "0.68.0--r44h3121a25_0"
+updated_at: "2026-03-23 04:56:13.782705"
+latest: "0.68.0--r45h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-pscbs"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "0.67.0--r43h3121a25_0"
  - "0.67.0--r44h3121a25_1"
  - "0.68.0--r44h3121a25_0"
+ - "0.68.0--r45h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-pscbs"
-config: {"url": "https://biocontainers.pro/tools/r-pscbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pscbs", "latest": {"0.68.0--r44h3121a25_0": "sha256:f2924958a2965c08415d61821fc52c1ec9854571de7a8080462c9b14895dc4d0"}, "tags": {"0.66.0--r41h3121a25_0": "sha256:439a2f5f549c0a0369afbb41f2750e61d29d454b7e62f31bdda6b17cd87dc622", "0.66.0--r42h3121a25_1": "sha256:1224df9657373c8a0b3085b26d93196ad61b45f03edf970348e1f0e31495f20a", "0.66.0--r43h3121a25_2": "sha256:2564625adc8bee84e11deb12207153e7cfc46ba9e30f236ad8807a76a4e65c47", "0.67.0--r43h3121a25_0": "sha256:9eb32d984373f6b9e9e5a2b9a1fe1c6e09d07d5787b56ad5bbc489f7f818f76b", "0.67.0--r44h3121a25_1": "sha256:77c48377713dc810fdf9ba27c49cd9f782b0bf2c1e543034e69db014d455e26f", "0.68.0--r44h3121a25_0": "sha256:f2924958a2965c08415d61821fc52c1ec9854571de7a8080462c9b14895dc4d0"}, "docker": "quay.io/biocontainers/r-pscbs"}
+config: {"url": "https://biocontainers.pro/tools/r-pscbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pscbs", "latest": {"0.68.0--r45h3121a25_1": "sha256:a1cfa8e4e80ad697e2e987bcc461b50ba504cfdf6a28208544272ce4b2645d90"}, "tags": {"0.66.0--r41h3121a25_0": "sha256:439a2f5f549c0a0369afbb41f2750e61d29d454b7e62f31bdda6b17cd87dc622", "0.66.0--r42h3121a25_1": "sha256:1224df9657373c8a0b3085b26d93196ad61b45f03edf970348e1f0e31495f20a", "0.66.0--r43h3121a25_2": "sha256:2564625adc8bee84e11deb12207153e7cfc46ba9e30f236ad8807a76a4e65c47", "0.67.0--r43h3121a25_0": "sha256:9eb32d984373f6b9e9e5a2b9a1fe1c6e09d07d5787b56ad5bbc489f7f818f76b", "0.67.0--r44h3121a25_1": "sha256:77c48377713dc810fdf9ba27c49cd9f782b0bf2c1e543034e69db014d455e26f", "0.68.0--r44h3121a25_0": "sha256:f2924958a2965c08415d61821fc52c1ec9854571de7a8080462c9b14895dc4d0", "0.68.0--r45h3121a25_1": "sha256:a1cfa8e4e80ad697e2e987bcc461b50ba504cfdf6a28208544272ce4b2645d90"}, "docker": "quay.io/biocontainers/r-pscbs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pscbs.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/r-pscbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pscbs:0.68.0--r44h3121a25_0
+$ shpc install quay.io/biocontainers/r-pscbs:0.68.0--r45h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pscbs/0.68.0--r44h3121a25_0
-$ module help quay.io/biocontainers/r-pscbs/0.68.0--r44h3121a25_0
+$ module load quay.io/biocontainers/r-pscbs/0.68.0--r45h3121a25_1
+$ module help quay.io/biocontainers/r-pscbs/0.68.0--r45h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/sassy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sassy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sassy/container.yaml"
-updated_at: "2026-03-22 04:52:09.395984"
-latest: "0.1.8--h4349ce8_0"
+updated_at: "2026-03-23 05:00:03.145189"
+latest: "0.2.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/sassy"
 aliases:
  - "sassy"
 versions:
  - "0.1.8--h4349ce8_0"
+ - "0.2.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for sassy"
-config: {"url": "https://biocontainers.pro/tools/sassy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sassy", "latest": {"0.1.8--h4349ce8_0": "sha256:fc0d405bac26d99f5256ca822af4e085285fa68d8b2e873fd6562058d865aeab"}, "tags": {"0.1.8--h4349ce8_0": "sha256:fc0d405bac26d99f5256ca822af4e085285fa68d8b2e873fd6562058d865aeab"}, "docker": "quay.io/biocontainers/sassy", "aliases": {"sassy": "/usr/local/bin/sassy"}}
+config: {"url": "https://biocontainers.pro/tools/sassy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sassy", "latest": {"0.2.0--h4349ce8_0": "sha256:d44ccf13d4e36dd3d19a7937241b1c5f69812df39a17e69ee787459f04d239c6"}, "tags": {"0.1.8--h4349ce8_0": "sha256:fc0d405bac26d99f5256ca822af4e085285fa68d8b2e873fd6562058d865aeab", "0.2.0--h4349ce8_0": "sha256:d44ccf13d4e36dd3d19a7937241b1c5f69812df39a17e69ee787459f04d239c6"}, "docker": "quay.io/biocontainers/sassy", "aliases": {"sassy": "/usr/local/bin/sassy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sassy.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/sassy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sassy:0.1.8--h4349ce8_0
+$ shpc install quay.io/biocontainers/sassy:0.2.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sassy/0.1.8--h4349ce8_0
-$ module help quay.io/biocontainers/sassy/0.1.8--h4349ce8_0
+$ module load quay.io/biocontainers/sassy/0.2.0--h4349ce8_0
+$ module help quay.io/biocontainers/sassy/0.2.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

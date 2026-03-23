@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spectrseqtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectrseqtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectrseqtools/container.yaml"
-updated_at: "2026-03-22 04:44:11.930804"
-latest: "0.1.2--pyh7e72e81_0"
+updated_at: "2026-03-23 04:52:09.201962"
+latest: "0.1.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/spectrseqtools"
 aliases:
  - "aprofutil"
@@ -42,8 +42,9 @@ aliases:
  - "ikdasm"
 versions:
  - "0.1.2--pyh7e72e81_0"
+ - "0.1.3--pyh106432d_0"
 description: "singularity registry hpc automated addition for spectrseqtools"
-config: {"url": "https://biocontainers.pro/tools/spectrseqtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spectrseqtools", "latest": {"0.1.2--pyh7e72e81_0": "sha256:e22cfb6f1d070c72e790c34af4e8d7491ad07d25726a4bb64e833ea3ab565977"}, "tags": {"0.1.2--pyh7e72e81_0": "sha256:e22cfb6f1d070c72e790c34af4e8d7491ad07d25726a4bb64e833ea3ab565977"}, "docker": "quay.io/biocontainers/spectrseqtools", "aliases": {"aprofutil": "/usr/local/bin/aprofutil", "idzip": "/usr/local/bin/idzip", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "ms-deisotope": "/usr/local/bin/ms-deisotope", "ms-index": "/usr/local/bin/ms-index", "ms-view": "/usr/local/bin/ms-view", "spectrseqtools": "/usr/local/bin/spectrseqtools", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
+config: {"url": "https://biocontainers.pro/tools/spectrseqtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spectrseqtools", "latest": {"0.1.3--pyh106432d_0": "sha256:c479d95d17cb91fa060ad793224c02fae4a6af20e01432374e346dc969ef5958"}, "tags": {"0.1.2--pyh7e72e81_0": "sha256:e22cfb6f1d070c72e790c34af4e8d7491ad07d25726a4bb64e833ea3ab565977", "0.1.3--pyh106432d_0": "sha256:c479d95d17cb91fa060ad793224c02fae4a6af20e01432374e346dc969ef5958"}, "docker": "quay.io/biocontainers/spectrseqtools", "aliases": {"aprofutil": "/usr/local/bin/aprofutil", "idzip": "/usr/local/bin/idzip", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "ms-deisotope": "/usr/local/bin/ms-deisotope", "ms-index": "/usr/local/bin/ms-index", "ms-view": "/usr/local/bin/ms-view", "spectrseqtools": "/usr/local/bin/spectrseqtools", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2", "genxs": "/usr/local/bin/genxs", "httpcfg": "/usr/local/bin/httpcfg", "ikdasm": "/usr/local/bin/ikdasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spectrseqtools.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/spectrseqtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spectrseqtools:0.1.2--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/spectrseqtools:0.1.3--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spectrseqtools/0.1.2--pyh7e72e81_0
-$ module help quay.io/biocontainers/spectrseqtools/0.1.2--pyh7e72e81_0
+$ module load quay.io/biocontainers/spectrseqtools/0.1.3--pyh106432d_0
+$ module help quay.io/biocontainers/spectrseqtools/0.1.3--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-metalonda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metalonda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metalonda/container.yaml"
-updated_at: "2026-03-22 04:25:35.381056"
-latest: "1.1.8--r43h3121a25_5"
+updated_at: "2026-03-23 04:33:44.483262"
+latest: "1.1.8--r45h3121a25_6"
 container_url: "https://biocontainers.pro/tools/r-metalonda"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -13,8 +13,9 @@ versions:
  - "1.1.8--r41h3121a25_3"
  - "1.1.8--r42h3121a25_4"
  - "1.1.8--r43h3121a25_5"
+ - "1.1.8--r45h3121a25_6"
 description: "shpc-registry automated BioContainers addition for r-metalonda"
-config: {"url": "https://biocontainers.pro/tools/r-metalonda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metalonda", "latest": {"1.1.8--r43h3121a25_5": "sha256:4d826897b20c04cdf34c44c5be57bc1a21f229ded50b653762b5317469462351"}, "tags": {"1.1.8--r41h3121a25_3": "sha256:e696bc54d78c7a05db3604cecddda9809fd00eeb82b3b80d1d9db99366b41e06", "1.1.8--r42h3121a25_4": "sha256:82fcf6f6faf689fbe9b7ffbf502ce88b7180cded80f9fe262f5302a256d226ba", "1.1.8--r43h3121a25_5": "sha256:4d826897b20c04cdf34c44c5be57bc1a21f229ded50b653762b5317469462351"}, "docker": "quay.io/biocontainers/r-metalonda", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-metalonda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-metalonda", "latest": {"1.1.8--r45h3121a25_6": "sha256:ca48263a4714339bb08960e25971ce67a78c7c7ea6af4f3c139d3b32e11f91fd"}, "tags": {"1.1.8--r41h3121a25_3": "sha256:e696bc54d78c7a05db3604cecddda9809fd00eeb82b3b80d1d9db99366b41e06", "1.1.8--r42h3121a25_4": "sha256:82fcf6f6faf689fbe9b7ffbf502ce88b7180cded80f9fe262f5302a256d226ba", "1.1.8--r43h3121a25_5": "sha256:4d826897b20c04cdf34c44c5be57bc1a21f229ded50b653762b5317469462351", "1.1.8--r45h3121a25_6": "sha256:ca48263a4714339bb08960e25971ce67a78c7c7ea6af4f3c139d3b32e11f91fd"}, "docker": "quay.io/biocontainers/r-metalonda", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-metalonda.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-metalonda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-metalonda:1.1.8--r43h3121a25_5
+$ shpc install quay.io/biocontainers/r-metalonda:1.1.8--r45h3121a25_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-metalonda/1.1.8--r43h3121a25_5
-$ module help quay.io/biocontainers/r-metalonda/1.1.8--r43h3121a25_5
+$ module load quay.io/biocontainers/r-metalonda/1.1.8--r45h3121a25_6
+$ module help quay.io/biocontainers/r-metalonda/1.1.8--r45h3121a25_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

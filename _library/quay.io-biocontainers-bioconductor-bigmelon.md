@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bigmelon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bigmelon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bigmelon/container.yaml"
-updated_at: "2026-03-22 04:59:39.453955"
+updated_at: "2026-03-23 05:07:23.787508"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bigmelon"
 aliases:
