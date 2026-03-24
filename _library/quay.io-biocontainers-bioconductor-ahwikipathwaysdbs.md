@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ahwikipathwaysdbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahwikipathwaysdbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahwikipathwaysdbs/container.yaml"
-updated_at: "2026-03-23 05:46:21.141794"
-latest: "0.99.4--r44hdfd78af_6"
+updated_at: "2026-03-24 04:56:51.323294"
+latest: "0.99.4--r45hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahwikipathwaysdbs"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "0.99.4--r43hdfd78af_4"
  - "0.99.4--r43hdfd78af_5"
  - "0.99.4--r44hdfd78af_6"
+ - "0.99.4--r45hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for bioconductor-ahwikipathwaysdbs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ahwikipathwaysdbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ahwikipathwaysdbs", "latest": {"0.99.4--r44hdfd78af_6": "sha256:bd1c955c5d0b6d23cb41cbdc31dd0284474dd0367aa6f7c597994f48f821d2f0"}, "tags": {"0.99.4--r41hdfd78af_2": "sha256:d535a63c9095e254d266bff511d96806d6d861e075bf7ffcae96e11f9a2c9c21", "0.99.4--r42hdfd78af_3": "sha256:1f99ca21af10355578eac462270502a186b65b307b57004ee0e4e113bebf4750", "0.99.4--r43hdfd78af_4": "sha256:7520c574acd1be4193ef1c91b49023a56c08a0fbf1f7f447783296d27c1d446a", "0.99.4--r43hdfd78af_5": "sha256:15ae93d2d007739aa1484829d46c761f8af574749efa8310fdb7a000b886d28c", "0.99.4--r44hdfd78af_6": "sha256:bd1c955c5d0b6d23cb41cbdc31dd0284474dd0367aa6f7c597994f48f821d2f0"}, "docker": "quay.io/biocontainers/bioconductor-ahwikipathwaysdbs"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ahwikipathwaysdbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ahwikipathwaysdbs", "latest": {"0.99.4--r45hdfd78af_7": "sha256:29147b07a9941a35a66f123f0c977515a31002cc277e170886a3fd6d821bacb5"}, "tags": {"0.99.4--r41hdfd78af_2": "sha256:d535a63c9095e254d266bff511d96806d6d861e075bf7ffcae96e11f9a2c9c21", "0.99.4--r42hdfd78af_3": "sha256:1f99ca21af10355578eac462270502a186b65b307b57004ee0e4e113bebf4750", "0.99.4--r43hdfd78af_4": "sha256:7520c574acd1be4193ef1c91b49023a56c08a0fbf1f7f447783296d27c1d446a", "0.99.4--r43hdfd78af_5": "sha256:15ae93d2d007739aa1484829d46c761f8af574749efa8310fdb7a000b886d28c", "0.99.4--r44hdfd78af_6": "sha256:bd1c955c5d0b6d23cb41cbdc31dd0284474dd0367aa6f7c597994f48f821d2f0", "0.99.4--r45hdfd78af_7": "sha256:29147b07a9941a35a66f123f0c977515a31002cc277e170886a3fd6d821bacb5"}, "docker": "quay.io/biocontainers/bioconductor-ahwikipathwaysdbs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ahwikipathwaysdbs.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ahwikipathwaysdbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ahwikipathwaysdbs:0.99.4--r44hdfd78af_6
+$ shpc install quay.io/biocontainers/bioconductor-ahwikipathwaysdbs:0.99.4--r45hdfd78af_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ahwikipathwaysdbs/0.99.4--r44hdfd78af_6
-$ module help quay.io/biocontainers/bioconductor-ahwikipathwaysdbs/0.99.4--r44hdfd78af_6
+$ module load quay.io/biocontainers/bioconductor-ahwikipathwaysdbs/0.99.4--r45hdfd78af_7
+$ module help quay.io/biocontainers/bioconductor-ahwikipathwaysdbs/0.99.4--r45hdfd78af_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

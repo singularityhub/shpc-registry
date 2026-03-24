@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crimage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crimage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crimage/container.yaml"
-updated_at: "2026-03-23 05:12:51.334960"
+updated_at: "2026-03-24 04:26:38.293718"
 latest: "1.58.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crimage"
 aliases:
@@ -20,7 +20,7 @@ versions:
  - "1.54.0--r44hdfd78af_0"
  - "1.58.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-crimage"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crimage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crimage", "latest": {"1.58.0--r45hdfd78af_0": "sha256:26150ab52a09d546394765bf2901eede49927678471de3b74601fdb9c6f0c85c"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:9b947a5720de7f40a75560ac9672fae132f18ecd4ce418ef9579eb548ac437fc", "1.46.0--r42hdfd78af_0": "sha256:270c9cd5067934b3fa656b76d1f8c18ef63cf367daeff9a1366c949e60ad1066", "1.48.0--r43hdfd78af_0": "sha256:f67eda0ba795e6a13f9412e1609538519addc15578f3bf2d549914c49628b669", "1.50.0--r43hdfd78af_0": "sha256:50db83b21b7780010a648d6b8341a0a76e43d9316dc372084c6e6a87036e69a0", "1.54.0--r44hdfd78af_0": "sha256:488955e96e03067dd0dfc65f13f2039e6511550e16255abd9c953ca99b5ab903", "1.58.0--r45hdfd78af_0": "sha256:26150ab52a09d546394765bf2901eede49927678471de3b74601fdb9c6f0c85c"}, "docker": "quay.io/biocontainers/bioconductor-crimage", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crimage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crimage", "latest": {"1.58.0--r45hdfd78af_0": "sha256:0a025cddc14284cc9b107578032213cb6002e65e69243c49d6b94fc1bd5d43ac"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:9b947a5720de7f40a75560ac9672fae132f18ecd4ce418ef9579eb548ac437fc", "1.46.0--r42hdfd78af_0": "sha256:270c9cd5067934b3fa656b76d1f8c18ef63cf367daeff9a1366c949e60ad1066", "1.48.0--r43hdfd78af_0": "sha256:f67eda0ba795e6a13f9412e1609538519addc15578f3bf2d549914c49628b669", "1.50.0--r43hdfd78af_0": "sha256:50db83b21b7780010a648d6b8341a0a76e43d9316dc372084c6e6a87036e69a0", "1.54.0--r44hdfd78af_0": "sha256:488955e96e03067dd0dfc65f13f2039e6511550e16255abd9c953ca99b5ab903", "1.58.0--r45hdfd78af_0": "sha256:0a025cddc14284cc9b107578032213cb6002e65e69243c49d6b94fc1bd5d43ac"}, "docker": "quay.io/biocontainers/bioconductor-crimage", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crimage.

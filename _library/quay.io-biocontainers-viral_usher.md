@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viral_usher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral_usher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viral_usher/container.yaml"
-updated_at: "2026-03-23 05:16:26.552467"
-latest: "0.10.1--pyhdfd78af_0"
+updated_at: "2026-03-24 04:29:53.278861"
+latest: "0.10.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viral_usher"
 aliases:
  - "inv"
@@ -21,8 +21,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.10.1--pyhdfd78af_0"
+ - "0.10.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for viral_usher"
-config: {"url": "https://biocontainers.pro/tools/viral_usher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viral_usher", "latest": {"0.10.1--pyhdfd78af_0": "sha256:ea9a11e014f969b424b51c08adbb02305875f76d9575f3aac18908535a0b5586"}, "tags": {"0.10.1--pyhdfd78af_0": "sha256:ea9a11e014f969b424b51c08adbb02305875f76d9575f3aac18908535a0b5586"}, "docker": "quay.io/biocontainers/viral_usher", "aliases": {"inv": "/usr/local/bin/inv", "invoke": "/usr/local/bin/invoke", "viral_usher": "/usr/local/bin/viral_usher", "viral_usher_build": "/usr/local/bin/viral_usher_build", "wsdump": "/usr/local/bin/wsdump", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/viral_usher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viral_usher", "latest": {"0.10.2--pyhdfd78af_0": "sha256:201134aed9ab365ebac79de39da840213e5e3f9977c06277e40ac149bb5cefc2"}, "tags": {"0.10.1--pyhdfd78af_0": "sha256:ea9a11e014f969b424b51c08adbb02305875f76d9575f3aac18908535a0b5586", "0.10.2--pyhdfd78af_0": "sha256:201134aed9ab365ebac79de39da840213e5e3f9977c06277e40ac149bb5cefc2"}, "docker": "quay.io/biocontainers/viral_usher", "aliases": {"inv": "/usr/local/bin/inv", "invoke": "/usr/local/bin/invoke", "viral_usher": "/usr/local/bin/viral_usher", "viral_usher_build": "/usr/local/bin/viral_usher_build", "wsdump": "/usr/local/bin/wsdump", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viral_usher.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/viral_usher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viral_usher:0.10.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/viral_usher:0.10.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viral_usher/0.10.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/viral_usher/0.10.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/viral_usher/0.10.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/viral_usher/0.10.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

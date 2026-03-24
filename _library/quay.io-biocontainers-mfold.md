@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mfold/container.yaml"
-updated_at: "2026-03-23 05:59:56.327391"
-latest: "3.6--h8537716_3"
+updated_at: "2026-03-24 05:08:48.131479"
+latest: "3.6--hb569540_4"
 container_url: "https://biocontainers.pro/tools/mfold"
 aliases:
  - "add_dHdSTm"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "3.6--h1aed7a7_1"
  - "3.6--h8537716_3"
+ - "3.6--hb569540_4"
 description: "singularity registry hpc automated addition for mfold"
-config: {"url": "https://biocontainers.pro/tools/mfold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mfold", "latest": {"3.6--h8537716_3": "sha256:328376d1ade487fdabc8123895a38e9da7b8d3e67c53887b2255cd367b286ce8"}, "tags": {"3.6--h1aed7a7_1": "sha256:757bbdbfde35024a3ec25fb33ef53b5479e2ddf53de0d65bb5e155b2492a0194", "3.6--h8537716_3": "sha256:328376d1ade487fdabc8123895a38e9da7b8d3e67c53887b2255cd367b286ce8"}, "docker": "quay.io/biocontainers/mfold", "aliases": {"add_dHdSTm": "/usr/local/bin/add_dHdSTm", "add_dHdSTm2": "/usr/local/bin/add_dHdSTm2", "auxgen": "/usr/local/bin/auxgen", "boxplot_ng": "/usr/local/bin/boxplot_ng", "ct2bp": "/usr/local/bin/ct2bp", "ct_boxplot_ng": "/usr/local/bin/ct_boxplot_ng", "ct_compare": "/usr/local/bin/ct_compare", "distance": "/usr/local/bin/distance", "efn": "/usr/local/bin/efn", "efn2": "/usr/local/bin/efn2", "filter-sort": "/usr/local/bin/filter-sort", "h-num": "/usr/local/bin/h-num", "h_num": "/usr/local/bin/h_num", "mfold": "/usr/local/bin/mfold", "mfold_datdir": "/usr/local/bin/mfold_datdir", "mfold_quik": "/usr/local/bin/mfold_quik", "myps2img.bash": "/usr/local/bin/myps2img.bash", "myps2jpg.bash": "/usr/local/bin/myps2jpg.bash", "myps2pdf.bash": "/usr/local/bin/myps2pdf.bash", "myps2png.bash": "/usr/local/bin/myps2png.bash", "nafold": "/usr/local/bin/nafold", "newtemp": "/usr/local/bin/newtemp", "overlay_boxplot_ng": "/usr/local/bin/overlay_boxplot_ng", "quikfold": "/usr/local/bin/quikfold", "reformat-seq.sh": "/usr/local/bin/reformat-seq.sh", "sav2p_num": "/usr/local/bin/sav2p_num", "sav2plot": "/usr/local/bin/sav2plot", "scorer": "/usr/local/bin/scorer", "sir_graph": "/usr/local/bin/sir_graph", "ss_count": "/usr/local/bin/ss_count"}}
+config: {"url": "https://biocontainers.pro/tools/mfold", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mfold", "latest": {"3.6--hb569540_4": "sha256:8ed66f704c59eba06ac00f940e4a6606da6427b8571d43cea1e19f5f9b3ff7d8"}, "tags": {"3.6--h1aed7a7_1": "sha256:757bbdbfde35024a3ec25fb33ef53b5479e2ddf53de0d65bb5e155b2492a0194", "3.6--h8537716_3": "sha256:328376d1ade487fdabc8123895a38e9da7b8d3e67c53887b2255cd367b286ce8", "3.6--hb569540_4": "sha256:8ed66f704c59eba06ac00f940e4a6606da6427b8571d43cea1e19f5f9b3ff7d8"}, "docker": "quay.io/biocontainers/mfold", "aliases": {"add_dHdSTm": "/usr/local/bin/add_dHdSTm", "add_dHdSTm2": "/usr/local/bin/add_dHdSTm2", "auxgen": "/usr/local/bin/auxgen", "boxplot_ng": "/usr/local/bin/boxplot_ng", "ct2bp": "/usr/local/bin/ct2bp", "ct_boxplot_ng": "/usr/local/bin/ct_boxplot_ng", "ct_compare": "/usr/local/bin/ct_compare", "distance": "/usr/local/bin/distance", "efn": "/usr/local/bin/efn", "efn2": "/usr/local/bin/efn2", "filter-sort": "/usr/local/bin/filter-sort", "h-num": "/usr/local/bin/h-num", "h_num": "/usr/local/bin/h_num", "mfold": "/usr/local/bin/mfold", "mfold_datdir": "/usr/local/bin/mfold_datdir", "mfold_quik": "/usr/local/bin/mfold_quik", "myps2img.bash": "/usr/local/bin/myps2img.bash", "myps2jpg.bash": "/usr/local/bin/myps2jpg.bash", "myps2pdf.bash": "/usr/local/bin/myps2pdf.bash", "myps2png.bash": "/usr/local/bin/myps2png.bash", "nafold": "/usr/local/bin/nafold", "newtemp": "/usr/local/bin/newtemp", "overlay_boxplot_ng": "/usr/local/bin/overlay_boxplot_ng", "quikfold": "/usr/local/bin/quikfold", "reformat-seq.sh": "/usr/local/bin/reformat-seq.sh", "sav2p_num": "/usr/local/bin/sav2p_num", "sav2plot": "/usr/local/bin/sav2plot", "scorer": "/usr/local/bin/scorer", "sir_graph": "/usr/local/bin/sir_graph", "ss_count": "/usr/local/bin/ss_count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mfold.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/mfold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mfold:3.6--h8537716_3
+$ shpc install quay.io/biocontainers/mfold:3.6--hb569540_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mfold/3.6--h8537716_3
-$ module help quay.io/biocontainers/mfold/3.6--h8537716_3
+$ module load quay.io/biocontainers/mfold/3.6--hb569540_4
+$ module help quay.io/biocontainers/mfold/3.6--hb569540_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

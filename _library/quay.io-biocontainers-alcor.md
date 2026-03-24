@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alcor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alcor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alcor/container.yaml"
-updated_at: "2026-03-23 06:08:43.857448"
-latest: "1.9--h077b44d_6"
+updated_at: "2026-03-24 05:16:41.797191"
+latest: "1.11--hf426362_0"
 container_url: "https://biocontainers.pro/tools/alcor"
 aliases:
  - "AlcoR"
@@ -16,8 +16,9 @@ versions:
  - "1.9--hdcf5f25_4"
  - "1.9--h077b44d_5"
  - "1.9--h077b44d_6"
+ - "1.11--hf426362_0"
 description: "singularity registry hpc automated addition for alcor"
-config: {"url": "https://biocontainers.pro/tools/alcor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alcor", "latest": {"1.9--h077b44d_6": "sha256:6d17cb3af694fee9c396c90d1ac39abfc67009acd60eefdfea2d0626ca829d1b"}, "tags": {"1.9--hd03093a_0": "sha256:9020e36402d77479be5c2b04bed89420d63777c9f9c7adff0ee0f4d5269efe9a", "1.9--hdcf5f25_2": "sha256:1d1712e4957d5adedd972fbbfbae6df0917dfd134a5e164f1cf498c8f667cb42", "1.9--hdcf5f25_3": "sha256:186efd09e343b60e772b90c9e284670e655f6ee4cd722dbbed3c1c0e31fb497f", "1.9--hdcf5f25_4": "sha256:cf7eabdd7d81fb71195c970229b4f4d45848b7d797c790d86b00625a6c7019c1", "1.9--h077b44d_5": "sha256:a12ea5cf23155c64baa454a95e40eff93b15916598cf7d6eaf7ddda1fd1c6c5d", "1.9--h077b44d_6": "sha256:6d17cb3af694fee9c396c90d1ac39abfc67009acd60eefdfea2d0626ca829d1b"}, "docker": "quay.io/biocontainers/alcor", "aliases": {"AlcoR": "/usr/local/bin/AlcoR"}}
+config: {"url": "https://biocontainers.pro/tools/alcor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alcor", "latest": {"1.11--hf426362_0": "sha256:92eccb33b56c52845012ef950e79646116b995c446d6247e04800cefc59b0e4b"}, "tags": {"1.9--hd03093a_0": "sha256:9020e36402d77479be5c2b04bed89420d63777c9f9c7adff0ee0f4d5269efe9a", "1.9--hdcf5f25_2": "sha256:1d1712e4957d5adedd972fbbfbae6df0917dfd134a5e164f1cf498c8f667cb42", "1.9--hdcf5f25_3": "sha256:186efd09e343b60e772b90c9e284670e655f6ee4cd722dbbed3c1c0e31fb497f", "1.9--hdcf5f25_4": "sha256:cf7eabdd7d81fb71195c970229b4f4d45848b7d797c790d86b00625a6c7019c1", "1.9--h077b44d_5": "sha256:a12ea5cf23155c64baa454a95e40eff93b15916598cf7d6eaf7ddda1fd1c6c5d", "1.9--h077b44d_6": "sha256:6d17cb3af694fee9c396c90d1ac39abfc67009acd60eefdfea2d0626ca829d1b", "1.11--hf426362_0": "sha256:92eccb33b56c52845012ef950e79646116b995c446d6247e04800cefc59b0e4b"}, "docker": "quay.io/biocontainers/alcor", "aliases": {"AlcoR": "/usr/local/bin/AlcoR"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alcor.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/alcor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alcor:1.9--h077b44d_6
+$ shpc install quay.io/biocontainers/alcor:1.11--hf426362_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alcor/1.9--h077b44d_6
-$ module help quay.io/biocontainers/alcor/1.9--h077b44d_6
+$ module load quay.io/biocontainers/alcor/1.11--hf426362_0
+$ module help quay.io/biocontainers/alcor/1.11--hf426362_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

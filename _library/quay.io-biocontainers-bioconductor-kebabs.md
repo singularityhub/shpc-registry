@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-kebabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kebabs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kebabs/container.yaml"
-updated_at: "2026-03-23 05:21:05.845440"
-latest: "1.40.0--r44he5774e6_0"
+updated_at: "2026-03-24 04:34:12.640915"
+latest: "1.44.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kebabs"
 
 versions:
@@ -16,8 +16,9 @@ versions:
  - "1.36.0--r43hf17093f_0"
  - "1.36.0--r43hf17093f_1"
  - "1.40.0--r44he5774e6_0"
+ - "1.44.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kebabs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kebabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kebabs", "latest": {"1.40.0--r44he5774e6_0": "sha256:764a89e0ff5deb5dabda64f4a05230855a67723e578d559cd17e2d7abbf29fd5"}, "tags": {"1.28.1--r41hc247a5b_1": "sha256:1ceac9bd98886901de84774fb4b20c9cb4604e6e07ee967151f109ac1aa0c19f", "1.32.0--r42hc247a5b_0": "sha256:4f413595317e84316088a05a3574dc3134968a3c79a79d249b23ea4521e24d52", "1.32.0--r42hf17093f_1": "sha256:1d5062018458ee7e71536791bad07e3c438310adac09d6dabd2d36370863fde2", "1.34.0--r43hf17093f_0": "sha256:324312ab6adfe95fd4c3f1d049d7655d6da202f66804ec99814fa10c732ad24f", "1.36.0--r43hf17093f_0": "sha256:a98c1c63fc14ddc9bbef6abf000d2dacc46946f94e8bf2b4f9c8cbd634c0293f", "1.36.0--r43hf17093f_1": "sha256:0dd0cc7e26ee145de1f1a9682fe2336f3dadcb0b2e9d2a7624235da59dd7a694", "1.40.0--r44he5774e6_0": "sha256:764a89e0ff5deb5dabda64f4a05230855a67723e578d559cd17e2d7abbf29fd5"}, "docker": "quay.io/biocontainers/bioconductor-kebabs"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kebabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kebabs", "latest": {"1.44.0--r45ha27e39d_0": "sha256:de21edd68c78b346cbdbf07299330d0b1610592536020da131b62fd03ea77dea"}, "tags": {"1.28.1--r41hc247a5b_1": "sha256:1ceac9bd98886901de84774fb4b20c9cb4604e6e07ee967151f109ac1aa0c19f", "1.32.0--r42hc247a5b_0": "sha256:4f413595317e84316088a05a3574dc3134968a3c79a79d249b23ea4521e24d52", "1.32.0--r42hf17093f_1": "sha256:1d5062018458ee7e71536791bad07e3c438310adac09d6dabd2d36370863fde2", "1.34.0--r43hf17093f_0": "sha256:324312ab6adfe95fd4c3f1d049d7655d6da202f66804ec99814fa10c732ad24f", "1.36.0--r43hf17093f_0": "sha256:a98c1c63fc14ddc9bbef6abf000d2dacc46946f94e8bf2b4f9c8cbd634c0293f", "1.36.0--r43hf17093f_1": "sha256:0dd0cc7e26ee145de1f1a9682fe2336f3dadcb0b2e9d2a7624235da59dd7a694", "1.40.0--r44he5774e6_0": "sha256:764a89e0ff5deb5dabda64f4a05230855a67723e578d559cd17e2d7abbf29fd5", "1.44.0--r45ha27e39d_0": "sha256:de21edd68c78b346cbdbf07299330d0b1610592536020da131b62fd03ea77dea"}, "docker": "quay.io/biocontainers/bioconductor-kebabs"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kebabs.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-kebabs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-kebabs:1.40.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-kebabs:1.44.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-kebabs/1.40.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-kebabs/1.40.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-kebabs/1.44.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-kebabs/1.44.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

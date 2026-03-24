@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-updhmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-updhmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-updhmm/container.yaml"
-updated_at: "2026-03-23 05:39:59.821082"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-03-24 04:51:15.219431"
+latest: "1.6.0--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-updhmm"
 aliases:
  - "idle3.14"
@@ -26,8 +26,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.6.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_1"
 description: "singularity registry hpc automated addition for bioconductor-updhmm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-updhmm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-updhmm", "latest": {"1.6.0--r44hdfd78af_0": "sha256:22e88c1c9ed95c908e739b90f3bbb705932e644565ff126d660ae6057c0c93a1"}, "tags": {"1.6.0--r44hdfd78af_0": "sha256:22e88c1c9ed95c908e739b90f3bbb705932e644565ff126d660ae6057c0c93a1"}, "docker": "quay.io/biocontainers/bioconductor-updhmm", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-updhmm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-updhmm", "latest": {"1.6.0--r45hdfd78af_1": "sha256:3292c3d82b0bfbed012b18c417638450be10d549430e8389d7157a0e375845a9"}, "tags": {"1.6.0--r44hdfd78af_0": "sha256:22e88c1c9ed95c908e739b90f3bbb705932e644565ff126d660ae6057c0c93a1", "1.6.0--r45hdfd78af_1": "sha256:3292c3d82b0bfbed012b18c417638450be10d549430e8389d7157a0e375845a9"}, "docker": "quay.io/biocontainers/bioconductor-updhmm", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-updhmm.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-updhmm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-updhmm:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-updhmm:1.6.0--r45hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-updhmm/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-updhmm/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-updhmm/1.6.0--r45hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-updhmm/1.6.0--r45hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

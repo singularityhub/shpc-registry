@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metafx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metafx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metafx/container.yaml"
-updated_at: "2026-03-23 05:29:41.009907"
+updated_at: "2026-03-24 04:41:54.083885"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metafx"
 aliases:

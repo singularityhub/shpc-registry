@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scanpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanpro/container.yaml"
-updated_at: "2026-03-23 05:26:41.609569"
-latest: "0.4.0--pyh84cbfca_0"
+updated_at: "2026-03-24 04:39:15.878280"
+latest: "0.4.1--pyh84cbfca_0"
 container_url: "https://biocontainers.pro/tools/scanpro"
 aliases:
  - "idle3.14"
@@ -29,8 +29,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.4.0--pyh84cbfca_0"
+ - "0.4.1--pyh84cbfca_0"
 description: "singularity registry hpc automated addition for scanpro"
-config: {"url": "https://biocontainers.pro/tools/scanpro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scanpro", "latest": {"0.4.0--pyh84cbfca_0": "sha256:0b0a7687cd8dc42c1d4d3e49a155f16b866886403d7aca9f336be141711992c7"}, "tags": {"0.4.0--pyh84cbfca_0": "sha256:0b0a7687cd8dc42c1d4d3e49a155f16b866886403d7aca9f336be141711992c7"}, "docker": "quay.io/biocontainers/scanpro", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/scanpro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scanpro", "latest": {"0.4.1--pyh84cbfca_0": "sha256:4257c60df180240949b84f8144512459e220adcbcdfa8d5af2e2561e3402cbb9"}, "tags": {"0.4.0--pyh84cbfca_0": "sha256:0b0a7687cd8dc42c1d4d3e49a155f16b866886403d7aca9f336be141711992c7", "0.4.1--pyh84cbfca_0": "sha256:4257c60df180240949b84f8144512459e220adcbcdfa8d5af2e2561e3402cbb9"}, "docker": "quay.io/biocontainers/scanpro", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scanpro.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/scanpro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scanpro:0.4.0--pyh84cbfca_0
+$ shpc install quay.io/biocontainers/scanpro:0.4.1--pyh84cbfca_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scanpro/0.4.0--pyh84cbfca_0
-$ module help quay.io/biocontainers/scanpro/0.4.0--pyh84cbfca_0
+$ module load quay.io/biocontainers/scanpro/0.4.1--pyh84cbfca_0
+$ module help quay.io/biocontainers/scanpro/0.4.1--pyh84cbfca_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

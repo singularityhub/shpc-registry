@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bulksignalr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bulksignalr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bulksignalr/container.yaml"
-updated_at: "2026-03-23 05:47:27.473217"
-latest: "1.2.1--r45hdfd78af_0"
+updated_at: "2026-03-24 04:57:49.259938"
+latest: "1.2.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bulksignalr"
 aliases:
  - "dot_sandbox"
@@ -35,8 +35,9 @@ aliases:
  - "identify"
 versions:
  - "1.2.1--r45hdfd78af_0"
+ - "1.2.2--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-bulksignalr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bulksignalr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-bulksignalr", "latest": {"1.2.1--r45hdfd78af_0": "sha256:8a214f732f3a9fa517cf23deb737f8572cbffaeaad191b1015bc096c1a2bb2cb"}, "tags": {"1.2.1--r45hdfd78af_0": "sha256:8a214f732f3a9fa517cf23deb737f8572cbffaeaad191b1015bc096c1a2bb2cb"}, "docker": "quay.io/biocontainers/bioconductor-bulksignalr", "aliases": {"dot_sandbox": "/usr/local/bin/dot_sandbox", "dec265": "/usr/local/bin/dec265", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "x265": "/usr/local/bin/x265", "wayland-scanner": "/usr/local/bin/wayland-scanner", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "pandoc-lua": "/usr/local/bin/pandoc-lua", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bulksignalr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-bulksignalr", "latest": {"1.2.2--r45hdfd78af_0": "sha256:0e2878c2fa0217f84048ea7179780e85fb4548d3337602b36c08f39860840264"}, "tags": {"1.2.1--r45hdfd78af_0": "sha256:8a214f732f3a9fa517cf23deb737f8572cbffaeaad191b1015bc096c1a2bb2cb", "1.2.2--r45hdfd78af_0": "sha256:0e2878c2fa0217f84048ea7179780e85fb4548d3337602b36c08f39860840264"}, "docker": "quay.io/biocontainers/bioconductor-bulksignalr", "aliases": {"dot_sandbox": "/usr/local/bin/dot_sandbox", "dec265": "/usr/local/bin/dec265", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "x265": "/usr/local/bin/x265", "wayland-scanner": "/usr/local/bin/wayland-scanner", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "pandoc-lua": "/usr/local/bin/pandoc-lua", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bulksignalr.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bulksignalr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bulksignalr:1.2.1--r45hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bulksignalr:1.2.2--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bulksignalr/1.2.1--r45hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bulksignalr/1.2.1--r45hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bulksignalr/1.2.2--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bulksignalr/1.2.2--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

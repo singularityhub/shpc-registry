@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-guitar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-guitar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-guitar/container.yaml"
-updated_at: "2026-03-23 05:22:37.965781"
-latest: "2.22.0--r44hdfd78af_0"
+updated_at: "2026-03-24 04:35:35.675643"
+latest: "2.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-guitar"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "2.16.0--r43hdfd78af_0"
  - "2.18.0--r43hdfd78af_0"
  - "2.22.0--r44hdfd78af_0"
+ - "2.26.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-guitar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-guitar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-guitar", "latest": {"2.22.0--r44hdfd78af_0": "sha256:a610623d1adfb5a6bf23f58e8bf9226cf59a59ebc45b22f45baa1350130c30c0"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:981df27e5f77e1ad25f7595f116aaff11ee15851295a004b3d5c3e2a5919a75b", "2.14.0--r42hdfd78af_0": "sha256:6b7a70274ae67005a211ce5ea18b826de2c2063e13e0fe899b3b689582dbbde6", "2.10.0--r41hdfd78af_0": "sha256:ae0a9c96a7df734dd67820350ebffd4b7659d6395fba0d4528012c4298bc88d8", "2.16.0--r43hdfd78af_0": "sha256:78eb6e017853af407a29243435a130811bfb7c88476b85e62ee8c687535b9ef0", "2.18.0--r43hdfd78af_0": "sha256:0bf21f18a970b5dd642d341e7ed4da717041007a4b64bc646d7a6dac2698346b", "2.22.0--r44hdfd78af_0": "sha256:a610623d1adfb5a6bf23f58e8bf9226cf59a59ebc45b22f45baa1350130c30c0"}, "docker": "quay.io/biocontainers/bioconductor-guitar", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-guitar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-guitar", "latest": {"2.26.0--r45hdfd78af_0": "sha256:9489010e2937f8576ebcd92189b0fe2275d3f0c935746b8e9691c4e9c3d75d66"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:981df27e5f77e1ad25f7595f116aaff11ee15851295a004b3d5c3e2a5919a75b", "2.14.0--r42hdfd78af_0": "sha256:6b7a70274ae67005a211ce5ea18b826de2c2063e13e0fe899b3b689582dbbde6", "2.10.0--r41hdfd78af_0": "sha256:ae0a9c96a7df734dd67820350ebffd4b7659d6395fba0d4528012c4298bc88d8", "2.16.0--r43hdfd78af_0": "sha256:78eb6e017853af407a29243435a130811bfb7c88476b85e62ee8c687535b9ef0", "2.18.0--r43hdfd78af_0": "sha256:0bf21f18a970b5dd642d341e7ed4da717041007a4b64bc646d7a6dac2698346b", "2.22.0--r44hdfd78af_0": "sha256:a610623d1adfb5a6bf23f58e8bf9226cf59a59ebc45b22f45baa1350130c30c0", "2.26.0--r45hdfd78af_0": "sha256:9489010e2937f8576ebcd92189b0fe2275d3f0c935746b8e9691c4e9c3d75d66"}, "docker": "quay.io/biocontainers/bioconductor-guitar", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-guitar.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-guitar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-guitar:2.22.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-guitar:2.26.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-guitar/2.22.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-guitar/2.22.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-guitar/2.26.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-guitar/2.26.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gambit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gambit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gambit/container.yaml"
-updated_at: "2026-03-23 05:30:27.821338"
+updated_at: "2026-03-24 04:42:36.499018"
 latest: "1.1.0--py312h247cb63_3"
 container_url: "https://biocontainers.pro/tools/gambit"
 aliases:

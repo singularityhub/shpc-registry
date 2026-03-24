@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ribodipa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribodipa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribodipa/container.yaml"
-updated_at: "2026-03-23 05:49:45.500581"
-latest: "1.14.0--r44he5774e6_0"
+updated_at: "2026-03-24 04:59:53.064607"
+latest: "1.18.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribodipa"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "1.8.0--r43hf17093f_0"
  - "1.10.0--r43hf17093f_0"
  - "1.14.0--r44he5774e6_0"
+ - "1.18.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ribodipa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ribodipa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribodipa", "latest": {"1.14.0--r44he5774e6_0": "sha256:2984bf7e5c7e8183b0a9d8fbea04caf106030ce6d43043d60ad0041d8834b5f8"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:165d551835b06dec6baabe560bcbd092b04f0384d138a63853223d69f3ecaaa8", "1.6.0--r42hc247a5b_0": "sha256:3bf82f01877158227c8e0ba801eb0e5d4f11a855d8296b1418d300c39f8f7696", "1.6.0--r42hf17093f_1": "sha256:ebf6f42ac8f634438caf65aaab59e6ff85426e3d7a66c3ee99d255e9891e8fd2", "1.8.0--r43hf17093f_0": "sha256:b7add84ee9c8014cdedcf1f0bc166223a84fac6f5f04ae9b8a1ed3d25fa96fa1", "1.10.0--r43hf17093f_0": "sha256:c1fbbcb6f556a016ec96e83f936f7f18bc6dfe95fab85f9a86ecdbafcebf83a3", "1.14.0--r44he5774e6_0": "sha256:2984bf7e5c7e8183b0a9d8fbea04caf106030ce6d43043d60ad0041d8834b5f8"}, "docker": "quay.io/biocontainers/bioconductor-ribodipa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ribodipa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribodipa", "latest": {"1.18.0--r45ha27e39d_0": "sha256:4e0fa38b1425c3d2be9c173ec37ad65a468fa15b0f3d521810069444f57c0d9b"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:165d551835b06dec6baabe560bcbd092b04f0384d138a63853223d69f3ecaaa8", "1.6.0--r42hc247a5b_0": "sha256:3bf82f01877158227c8e0ba801eb0e5d4f11a855d8296b1418d300c39f8f7696", "1.6.0--r42hf17093f_1": "sha256:ebf6f42ac8f634438caf65aaab59e6ff85426e3d7a66c3ee99d255e9891e8fd2", "1.8.0--r43hf17093f_0": "sha256:b7add84ee9c8014cdedcf1f0bc166223a84fac6f5f04ae9b8a1ed3d25fa96fa1", "1.10.0--r43hf17093f_0": "sha256:c1fbbcb6f556a016ec96e83f936f7f18bc6dfe95fab85f9a86ecdbafcebf83a3", "1.14.0--r44he5774e6_0": "sha256:2984bf7e5c7e8183b0a9d8fbea04caf106030ce6d43043d60ad0041d8834b5f8", "1.18.0--r45ha27e39d_0": "sha256:4e0fa38b1425c3d2be9c173ec37ad65a468fa15b0f3d521810069444f57c0d9b"}, "docker": "quay.io/biocontainers/bioconductor-ribodipa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ribodipa.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ribodipa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ribodipa:1.14.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-ribodipa:1.18.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ribodipa/1.14.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-ribodipa/1.14.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-ribodipa/1.18.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-ribodipa/1.18.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

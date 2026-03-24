@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/container.yaml"
-updated_at: "2026-03-23 05:19:51.432790"
-latest: "1.0.2--r44hdfd78af_13"
+updated_at: "2026-03-24 04:33:01.837677"
+latest: "1.0.2--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-polyphen.hsapiens.dbsnp131"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.0.2--r43hdfd78af_11"
  - "1.0.2--r43hdfd78af_12"
  - "1.0.2--r44hdfd78af_13"
+ - "1.0.2--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-polyphen.hsapiens.dbsnp131"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-polyphen.hsapiens.dbsnp131", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-polyphen.hsapiens.dbsnp131", "latest": {"1.0.2--r44hdfd78af_13": "sha256:9cb913b2c7b6ef422f17712d3f81bce41402ff282cdf44baf161b0a22be462a1"}, "tags": {"1.0.2--r41hdfd78af_9": "sha256:3868cfc91b29b7a379f1d2a93395273367a2bae06dfc555a2ca1357d34633949", "1.0.2--r42hdfd78af_10": "sha256:4e008e69c2ca355972813fc0a135dedaebb690f00f13f3185f867d8ca8454ae7", "1.0.2--r43hdfd78af_11": "sha256:e638024460b64df358ac3a24a03e9c105288cf1f02bfe444b6e101c64dbecfea", "1.0.2--r43hdfd78af_12": "sha256:3c66cf546039496ee09010229a817e00510f06a302797fd67f72cdd839cb4bbd", "1.0.2--r44hdfd78af_13": "sha256:9cb913b2c7b6ef422f17712d3f81bce41402ff282cdf44baf161b0a22be462a1"}, "docker": "quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-polyphen.hsapiens.dbsnp131", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-polyphen.hsapiens.dbsnp131", "latest": {"1.0.2--r45hdfd78af_14": "sha256:bb850fb7299e6c7024764a9bb38832c5187024d5d458decbf16703a88394bc8b"}, "tags": {"1.0.2--r41hdfd78af_9": "sha256:3868cfc91b29b7a379f1d2a93395273367a2bae06dfc555a2ca1357d34633949", "1.0.2--r42hdfd78af_10": "sha256:4e008e69c2ca355972813fc0a135dedaebb690f00f13f3185f867d8ca8454ae7", "1.0.2--r43hdfd78af_11": "sha256:e638024460b64df358ac3a24a03e9c105288cf1f02bfe444b6e101c64dbecfea", "1.0.2--r43hdfd78af_12": "sha256:3c66cf546039496ee09010229a817e00510f06a302797fd67f72cdd839cb4bbd", "1.0.2--r44hdfd78af_13": "sha256:9cb913b2c7b6ef422f17712d3f81bce41402ff282cdf44baf161b0a22be462a1", "1.0.2--r45hdfd78af_14": "sha256:bb850fb7299e6c7024764a9bb38832c5187024d5d458decbf16703a88394bc8b"}, "docker": "quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131:1.0.2--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131:1.0.2--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/1.0.2--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/1.0.2--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/1.0.2--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-polyphen.hsapiens.dbsnp131/1.0.2--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

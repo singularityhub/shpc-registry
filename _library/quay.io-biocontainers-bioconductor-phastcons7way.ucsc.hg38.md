@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38/container.yaml"
-updated_at: "2026-03-23 06:07:11.764681"
-latest: "3.7.1--r44hdfd78af_13"
+updated_at: "2026-03-24 05:15:18.441393"
+latest: "3.7.1--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-phastcons7way.ucsc.hg38"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "3.7.1--r43hdfd78af_11"
  - "3.7.1--r43hdfd78af_12"
  - "3.7.1--r44hdfd78af_13"
+ - "3.7.1--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-phastcons7way.ucsc.hg38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phastcons7way.ucsc.hg38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phastcons7way.ucsc.hg38", "latest": {"3.7.1--r44hdfd78af_13": "sha256:0cbf8a310fc616195573082114b5d1b158ce3c93f7198a8d267b36722e7cce30"}, "tags": {"3.7.1--r41hdfd78af_9": "sha256:327397242ab9fa4b839ba8dbc219ad72f094ab3d5df1b848fbc5f0dfd751e014", "3.7.1--r42hdfd78af_10": "sha256:d0ca5fd6e5aebad77d6e69a2356c7f9884605f945b6e909c66d2ea00079a6656", "3.7.1--r43hdfd78af_11": "sha256:57b6ae74184085d9b184574146bcde3ab5e63255d31f72ec8c0d44ddded68301", "3.7.1--r43hdfd78af_12": "sha256:c2929bfd79a76deeb8e9fb0d00371cc8e6d6b8218e1173ceb6624b7c6d712c32", "3.7.1--r44hdfd78af_13": "sha256:0cbf8a310fc616195573082114b5d1b158ce3c93f7198a8d267b36722e7cce30"}, "docker": "quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phastcons7way.ucsc.hg38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phastcons7way.ucsc.hg38", "latest": {"3.7.1--r45hdfd78af_14": "sha256:38956c2be763576e36c3199b6e732cf41b2b9a9d735183f861377e19ca460e23"}, "tags": {"3.7.1--r41hdfd78af_9": "sha256:327397242ab9fa4b839ba8dbc219ad72f094ab3d5df1b848fbc5f0dfd751e014", "3.7.1--r42hdfd78af_10": "sha256:d0ca5fd6e5aebad77d6e69a2356c7f9884605f945b6e909c66d2ea00079a6656", "3.7.1--r43hdfd78af_11": "sha256:57b6ae74184085d9b184574146bcde3ab5e63255d31f72ec8c0d44ddded68301", "3.7.1--r43hdfd78af_12": "sha256:c2929bfd79a76deeb8e9fb0d00371cc8e6d6b8218e1173ceb6624b7c6d712c32", "3.7.1--r44hdfd78af_13": "sha256:0cbf8a310fc616195573082114b5d1b158ce3c93f7198a8d267b36722e7cce30", "3.7.1--r45hdfd78af_14": "sha256:38956c2be763576e36c3199b6e732cf41b2b9a9d735183f861377e19ca460e23"}, "docker": "quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38:3.7.1--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38:3.7.1--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38/3.7.1--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38/3.7.1--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38/3.7.1--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-phastcons7way.ucsc.hg38/3.7.1--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

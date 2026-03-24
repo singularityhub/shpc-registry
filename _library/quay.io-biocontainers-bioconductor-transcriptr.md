@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-transcriptr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transcriptr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transcriptr/container.yaml"
-updated_at: "2026-03-23 05:56:37.981315"
-latest: "1.34.0--r44hdfd78af_0"
+updated_at: "2026-03-24 05:05:53.280883"
+latest: "1.38.3--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transcriptr"
 aliases:
  - "wget"
@@ -21,8 +21,9 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.34.0--r44hdfd78af_0"
+ - "1.38.3--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-transcriptr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-transcriptr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transcriptr", "latest": {"1.34.0--r44hdfd78af_0": "sha256:c621cc7e978ad6ee6e9e2a8f4309e7c9be8d7bd02b9328e9bbb68ff7608de133"}, "tags": {"1.8.0--r341_0": "sha256:f323ea230e93fd5f13730f65d6208795386226b1945c43f31fd8772b4a6dedc6", "1.26.0--r42hdfd78af_0": "sha256:c6f05b5641226afbc7909c12a83f5a2d9e09ff6ab6a6329e32d483d98c2dec49", "1.22.0--r41hdfd78af_0": "sha256:4a8c94b64c5a5745246ecfb4fddccb1b83ad0ae0091a79024014faeccaa7c7b1", "1.20.0--r41hdfd78af_0": "sha256:9149a33c559fc32544d38e786c9e6882adccdd2202dc397a128a464c61026be8", "1.18.0--r40hdfd78af_1": "sha256:953747de45a10077a6b85202eb080337759fe429f4c1ec2a7bd9699c156f0d45", "1.16.0--r40_0": "sha256:2fde226d1a6a41c6a007f1fd7c71952e4b826d68dc53397c8ec9fdbe377cb809", "1.28.0--r43hdfd78af_0": "sha256:cd8b892ff151fadab6007c6352c4136eaf399993b61d1978b3405d13e19c2aac", "1.30.0--r43hdfd78af_0": "sha256:118a183ee51e1fcba809c280b0763e57e31f57e017fec8c3cdab6c6a2afe127d", "1.34.0--r44hdfd78af_0": "sha256:c621cc7e978ad6ee6e9e2a8f4309e7c9be8d7bd02b9328e9bbb68ff7608de133"}, "docker": "quay.io/biocontainers/bioconductor-transcriptr", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-transcriptr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transcriptr", "latest": {"1.38.3--r45hdfd78af_0": "sha256:4326a393875794d10aa2ee046e04ecd70c7b1bea9da11ee3e85ca8827d753f56"}, "tags": {"1.8.0--r341_0": "sha256:f323ea230e93fd5f13730f65d6208795386226b1945c43f31fd8772b4a6dedc6", "1.26.0--r42hdfd78af_0": "sha256:c6f05b5641226afbc7909c12a83f5a2d9e09ff6ab6a6329e32d483d98c2dec49", "1.22.0--r41hdfd78af_0": "sha256:4a8c94b64c5a5745246ecfb4fddccb1b83ad0ae0091a79024014faeccaa7c7b1", "1.20.0--r41hdfd78af_0": "sha256:9149a33c559fc32544d38e786c9e6882adccdd2202dc397a128a464c61026be8", "1.18.0--r40hdfd78af_1": "sha256:953747de45a10077a6b85202eb080337759fe429f4c1ec2a7bd9699c156f0d45", "1.16.0--r40_0": "sha256:2fde226d1a6a41c6a007f1fd7c71952e4b826d68dc53397c8ec9fdbe377cb809", "1.28.0--r43hdfd78af_0": "sha256:cd8b892ff151fadab6007c6352c4136eaf399993b61d1978b3405d13e19c2aac", "1.30.0--r43hdfd78af_0": "sha256:118a183ee51e1fcba809c280b0763e57e31f57e017fec8c3cdab6c6a2afe127d", "1.34.0--r44hdfd78af_0": "sha256:c621cc7e978ad6ee6e9e2a8f4309e7c9be8d7bd02b9328e9bbb68ff7608de133", "1.38.3--r45hdfd78af_0": "sha256:4326a393875794d10aa2ee046e04ecd70c7b1bea9da11ee3e85ca8827d753f56"}, "docker": "quay.io/biocontainers/bioconductor-transcriptr", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-transcriptr.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-transcriptr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-transcriptr:1.34.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-transcriptr:1.38.3--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-transcriptr/1.34.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-transcriptr/1.34.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-transcriptr/1.38.3--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-transcriptr/1.38.3--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
