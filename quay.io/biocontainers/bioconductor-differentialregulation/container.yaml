@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-differentialregulation
 latest:
-  2.4.0--r44he5774e6_0: 
-    sha256:ba95e0570af73531d3910ebc95e2c11d1d79e1f2a1653a32c410ebd4391c009c
+  2.8.0--r45ha27e39d_0: 
+    sha256:f66d1b248f5037304471867cc105d7829094192a52ed32732572229c5984bf3c
 tags:
   1.2.0--r42hc247a5b_0: 
     sha256:2bad62e65adc65d6cf5bb3cfd5ef0e3de222911991010551e229abc4f3190e47
@@ -16,6 +16,8 @@ tags:
     sha256:5d706722c5f3c79e8a115360a6340413f405bb04d436987b22fc30f7ed3e2e92
   2.4.0--r44he5774e6_0: 
     sha256:ba95e0570af73531d3910ebc95e2c11d1d79e1f2a1653a32c410ebd4391c009c
+  2.8.0--r45ha27e39d_0: 
+    sha256:f66d1b248f5037304471867cc105d7829094192a52ed32732572229c5984bf3c
 docker: quay.io/biocontainers/bioconductor-differentialregulation
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

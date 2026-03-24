@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-spicyr
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:fef39cffc327b7faf13063265c1ab9d086dab637eb1954d7a3d920c1ce2db049
+  1.22.0--r45hdfd78af_0: 
+    sha256:4298a724ece1c404228d6cba598b44f37905346c2fccfd96425b46b401c0ea11
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54
@@ -16,6 +16,8 @@ tags:
     sha256:323b1db9b4c2038452c96c1a703dea48ed5c3f592313457d45319a425842b919
   1.18.0--r44hdfd78af_0: 
     sha256:fef39cffc327b7faf13063265c1ab9d086dab637eb1954d7a3d920c1ce2db049
+  1.22.0--r45hdfd78af_0: 
+    sha256:4298a724ece1c404228d6cba598b44f37905346c2fccfd96425b46b401c0ea11
 docker: quay.io/biocontainers/bioconductor-spicyr
 aliases:
   testepsg: /usr/local/bin/testepsg

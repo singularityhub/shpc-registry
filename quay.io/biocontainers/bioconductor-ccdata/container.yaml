@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ccdata
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:51a22b1e735d5efc4c50bac6a3e0eef71ca4d08797f2e8230afb2bf3298c0eb2
+  1.36.0--r45hdfd78af_0: 
+    sha256:f293ac64e9518107cb169c8692a46baae360b47d0dbc2c42870a5fd073653ab2
 tags:
   1.8.0--r351_0: 
     sha256:dcbec2bd6334a908d977012c34575b792700841c3a1dd1cc0846340d289e6a1f
@@ -24,6 +24,8 @@ tags:
     sha256:7ddd13e75304473bc39d4c25050f22026e69185d770ea6c9e6a4c0ef71af38e6
   1.32.0--r44hdfd78af_0: 
     sha256:51a22b1e735d5efc4c50bac6a3e0eef71ca4d08797f2e8230afb2bf3298c0eb2
+  1.36.0--r45hdfd78af_0: 
+    sha256:f293ac64e9518107cb169c8692a46baae360b47d0dbc2c42870a5fd073653ab2
 docker: quay.io/biocontainers/bioconductor-ccdata
 aliases:
   wget: /usr/local/bin/wget

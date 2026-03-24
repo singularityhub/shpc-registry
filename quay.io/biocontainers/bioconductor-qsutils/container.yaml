@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-qsutils
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:a828cd79b2af469723286df9e3953a6d161d4886b8c4a66ecb7a5992296152ec
+  1.28.0--r45hdfd78af_0: 
+    sha256:5abb19fd9734a618ed03f633c34c79246eaa531c318782f06ae6fd90ff83fa47
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:705107d4b54981cf41960931840219d039a19be56572935be39a37b4740a8971
@@ -20,6 +20,8 @@ tags:
     sha256:0e0ee5fdc5750e56351e32d8a81188b67941a5922cdd62d5ec830c6ea6f6a59a
   1.24.0--r44hdfd78af_0: 
     sha256:a828cd79b2af469723286df9e3953a6d161d4886b8c4a66ecb7a5992296152ec
+  1.28.0--r45hdfd78af_0: 
+    sha256:5abb19fd9734a618ed03f633c34c79246eaa531c318782f06ae6fd90ff83fa47
 docker: quay.io/biocontainers/bioconductor-qsutils
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

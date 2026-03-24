@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ribosomeprofilingqc
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:de7b607530521df4ccadaa53cf62f59f55798f0f9e7c88b88705cca9093069a8
+  1.22.0--r45hdfd78af_0: 
+    sha256:e792b8dacb25c27fcb18ca18494a7e93bb586834b255d586f932efde16654072
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:cb0671d16ad850719da2abcc8defba05a7c4ba1bb958c91f061fd19e98e9191f
@@ -16,4 +16,6 @@ tags:
     sha256:6ebab3d74ac60ce15bbfb29e39db664272b9a091f4522c8d105afd3987121166
   1.18.0--r44hdfd78af_0: 
     sha256:de7b607530521df4ccadaa53cf62f59f55798f0f9e7c88b88705cca9093069a8
+  1.22.0--r45hdfd78af_0: 
+    sha256:e792b8dacb25c27fcb18ca18494a7e93bb586834b255d586f932efde16654072
 docker: quay.io/biocontainers/bioconductor-ribosomeprofilingqc

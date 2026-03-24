@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-degreport
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:fad062df2b5a51ad2b9ab30cc25b827af3a3dbf85db20789328fde8a7d2fa8b3
+  1.46.0--r45hdfd78af_0: 
+    sha256:b9c2037e630f1907408d0f88c4477f21132aac450cdfabab35391dfef5873a21
 tags:
   1.8.2--r3.3.2_1: 
     sha256:1afdbc17d49517e7df056430cf9d6ec6f893e745e7de3907a706ea68ddb3fb64
@@ -24,6 +24,8 @@ tags:
     sha256:37046fddbadf2a19cf99b9c5db1573fb4c72ed7e3be2d62bce4ec4750e6a70d2
   1.42.0--r44hdfd78af_0: 
     sha256:fad062df2b5a51ad2b9ab30cc25b827af3a3dbf85db20789328fde8a7d2fa8b3
+  1.46.0--r45hdfd78af_0: 
+    sha256:b9c2037e630f1907408d0f88c4477f21132aac450cdfabab35391dfef5873a21
 docker: quay.io/biocontainers/bioconductor-degreport
 aliases:
   uconv: /usr/local/bin/uconv

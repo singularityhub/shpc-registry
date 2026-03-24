@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ritan
 latest:
-  1.26.0--r43hdfd78af_0: 
-    sha256:71e5b5a0d29f5eab62b9602fd537f1cd8b895ac884096b1096bf81b3ad7ec1c9
+  1.34.0--r45hdfd78af_0: 
+    sha256:18a11ebf2334c2ec3eb1f56f19e183f99cb77de589dc054ce7725cfc328e4d26
 tags:
   1.8.0--r36_1: 
     sha256:e3bee9859c08f0c52cb5b0e0d785431f0ad5ccee36964d5c24d187dff2f7fbeb
@@ -22,6 +22,8 @@ tags:
     sha256:7730797585dbd3551df864b8efae776b4aa0f8a61978d8d6b17ccb96bdd3a211
   1.26.0--r43hdfd78af_0: 
     sha256:71e5b5a0d29f5eab62b9602fd537f1cd8b895ac884096b1096bf81b3ad7ec1c9
+  1.34.0--r45hdfd78af_0: 
+    sha256:18a11ebf2334c2ec3eb1f56f19e183f99cb77de589dc054ce7725cfc328e4d26
 docker: quay.io/biocontainers/bioconductor-ritan
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

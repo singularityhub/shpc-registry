@@ -4,7 +4,7 @@ description: shpc-registry automated BioContainers addition for
   bioconductor-flowdensity
 latest:
   1.44.0--r45h6f29ec1_0: 
-    sha256:458ed5f0912320b72f1989c86fb7fab36fc08d2f5e8049971222f15e818b79de
+    sha256:a38eeb7dfef33207c290b1494045181542b340483f7444ff534febf88823dfa2
 tags:
   1.6.0--r3.3.2_0: 
     sha256:6fdba82cd036185d8119c5c2cef8fed07ba6f92e8c3bfa35e8074cced13fe02b
@@ -29,7 +29,7 @@ tags:
   1.40.0--r44h92aedd1_0: 
     sha256:148223628b0ce17efa8b9c13b3e2aa7f400083312df388fdaff4eb13651bd044
   1.44.0--r45h6f29ec1_0: 
-    sha256:458ed5f0912320b72f1989c86fb7fab36fc08d2f5e8049971222f15e818b79de
+    sha256:a38eeb7dfef33207c290b1494045181542b340483f7444ff534febf88823dfa2
 docker: quay.io/biocontainers/bioconductor-flowdensity
 aliases:
   uconv: /usr/local/bin/uconv

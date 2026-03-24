@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-excluster
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:e777b718683be0e5ae4f730698b6120fde67281b6304009ab3677768ee9e3f46
+  1.28.0--r45hdfd78af_0: 
+    sha256:178945a1ddb95322b97c6bc5b7537ab55a75b2feaf2ca7c0d4cf78fc0b5ead53
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:693874ace269138376d5ccbf52b092859c749abbae99a13729db0774e05932fb
@@ -20,6 +20,8 @@ tags:
     sha256:9531a798091492afda44ccaab74f2fa027574bf2f80762930c5c36f6a0cd9c36
   1.24.0--r44hdfd78af_0: 
     sha256:e777b718683be0e5ae4f730698b6120fde67281b6304009ab3677768ee9e3f46
+  1.28.0--r45hdfd78af_0: 
+    sha256:178945a1ddb95322b97c6bc5b7537ab55a75b2feaf2ca7c0d4cf78fc0b5ead53
 docker: quay.io/biocontainers/bioconductor-excluster
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

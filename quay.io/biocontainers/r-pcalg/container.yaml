@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-pcalg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-pcalg
 latest:
-  2.6_12--r44h40dc89f_7: 
-    sha256:0f070730ff79e38d525683bb980f9f760a4fde32e0735439040a45faf607f8f0
+  2.7_12--r45h0df16ae_0: 
+    sha256:9fa20c1b5e849ef9fa527033a36b7cb7bbfae7cffa7001431ae48d3444ac82a5
 tags:
   2.6_12--r41hecf12ef_3: 
     sha256:99a8d648ed39755fde267c869383902969702b58e14db5da49642dcf50c90629
@@ -15,4 +15,6 @@ tags:
     sha256:0e2b1b0f465e452fffa1e19b4e6dd59fd8350517e0f9815cca96bb51118cc7ae
   2.6_12--r44h40dc89f_7: 
     sha256:0f070730ff79e38d525683bb980f9f760a4fde32e0735439040a45faf607f8f0
+  2.7_12--r45h0df16ae_0: 
+    sha256:9fa20c1b5e849ef9fa527033a36b7cb7bbfae7cffa7001431ae48d3444ac82a5
 docker: quay.io/biocontainers/r-pcalg

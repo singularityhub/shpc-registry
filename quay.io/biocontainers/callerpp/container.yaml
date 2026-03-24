@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/callerpp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for callerpp
 latest:
-  0.1.6--h503566f_2: 
-    sha256:66a2824517cf14101a5279fb9f41e6681d3c6d52a4892856b4a6858e79e4ce34
+  0.1.7--hde5307d_0: 
+    sha256:ce7d21183c4f3a7dacea4faee547cf19e625fe1eda416a69d97426158f1399b3
 tags:
   0.1.6--hdbdd923_0: 
     sha256:3fd18552b89aeefcc9e9c194cc8ce82e7484a31ec69f9209458ae9a53cb4aaee
@@ -11,6 +11,8 @@ tags:
     sha256:803a6e2852a440858fe9cfe057a0c9e8233d3d0719b739952d48db250e27bb21
   0.1.6--h503566f_2: 
     sha256:66a2824517cf14101a5279fb9f41e6681d3c6d52a4892856b4a6858e79e4ce34
+  0.1.7--hde5307d_0: 
+    sha256:ce7d21183c4f3a7dacea4faee547cf19e625fe1eda416a69d97426158f1399b3
 docker: quay.io/biocontainers/callerpp
 aliases:
   callerpp: /usr/local/bin/callerpp

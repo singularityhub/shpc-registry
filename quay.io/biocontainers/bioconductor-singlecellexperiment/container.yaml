@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-singlecellexperiment
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:b6f2fd005b7c2cdcc26d4653222fe66da2969d60d3c1796c5c9257565afb7c29
+  1.32.0--r45hdfd78af_0: 
+    sha256:ee40c9c70a85a7a41f6690652b23fb905e888774c626873086966055bb02c202
 tags:
   1.8.0--r36_0: 
     sha256:437407dcbbc1be2842f51cd8a186721dd57db01b9c408eff83ff52f216c12383
@@ -24,4 +24,6 @@ tags:
     sha256:1f6c91316852c6ce5b6c8b0296c017c3eeb666c55d53e8eed509fc275bf8a6fc
   1.28.0--r44hdfd78af_0: 
     sha256:b6f2fd005b7c2cdcc26d4653222fe66da2969d60d3c1796c5c9257565afb7c29
+  1.32.0--r45hdfd78af_0: 
+    sha256:ee40c9c70a85a7a41f6690652b23fb905e888774c626873086966055bb02c202
 docker: quay.io/biocontainers/bioconductor-singlecellexperiment

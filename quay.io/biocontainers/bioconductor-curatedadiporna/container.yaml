@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-curatedadiporna
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:ce564077933a62b2eae3bbdef4f586af3dc7c0b6c5fe445b4fab85619b1de987
+  1.26.0--r45hdfd78af_0: 
+    sha256:9c93fdc5015cf855d5181f82ace37ca319a502ff2b0b87ef01491eab73d0e974
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:8014a84c9a38bd0064674acf202e34bcbc7a5cc5a3565c4d82546f2e25998368
@@ -18,6 +18,8 @@ tags:
     sha256:0abfa5d5819b1367f32900fc46517425116e74b9173b71382e816e940192e1f7
   1.22.0--r44hdfd78af_0: 
     sha256:ce564077933a62b2eae3bbdef4f586af3dc7c0b6c5fe445b4fab85619b1de987
+  1.26.0--r45hdfd78af_0: 
+    sha256:9c93fdc5015cf855d5181f82ace37ca319a502ff2b0b87ef01491eab73d0e974
 docker: quay.io/biocontainers/bioconductor-curatedadiporna
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

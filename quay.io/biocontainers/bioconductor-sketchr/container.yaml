@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-sketchr
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:5c2b3dc076161650bc755551834373cdaccd04b78aa423d15093db11159874d4
+  1.6.0--r45hdfd78af_0: 
+    sha256:d6d969f442e9459f661cfdfe8f96d9574d67b78861ceca1a8ae65d852479a0e2
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:5c2b3dc076161650bc755551834373cdaccd04b78aa423d15093db11159874d4
+  1.6.0--r45hdfd78af_0: 
+    sha256:d6d969f442e9459f661cfdfe8f96d9574d67b78861ceca1a8ae65d852479a0e2
 docker: quay.io/biocontainers/bioconductor-sketchr
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

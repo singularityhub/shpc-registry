@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-clariomsrathttranscriptcluster.db
 latest:
-  8.8.0--r44hdfd78af_5: 
-    sha256:89dd061e80c08bd09ae19b1d061556e32343a040d1a16e465769662b957e9a9f
+  8.8.0--r45hdfd78af_6: 
+    sha256:d0e32f1d5993b0646f932e937d803dde29e473c98c87db9b924fe8f145c313c7
 tags:
   8.8.0--r41hdfd78af_1: 
     sha256:ebbee41051384a5872c422615d00d0f63ecefbe518d925a6d9b5ad1f1b253895
@@ -17,4 +17,6 @@ tags:
     sha256:2b541eb0bdb8d31faca33f4c93fb44cbb31aa75fb6771674bd25cc82f92da042
   8.8.0--r44hdfd78af_5: 
     sha256:89dd061e80c08bd09ae19b1d061556e32343a040d1a16e465769662b957e9a9f
+  8.8.0--r45hdfd78af_6: 
+    sha256:d0e32f1d5993b0646f932e937d803dde29e473c98c87db9b924fe8f145c313c7
 docker: quay.io/biocontainers/bioconductor-clariomsrathttranscriptcluster.db

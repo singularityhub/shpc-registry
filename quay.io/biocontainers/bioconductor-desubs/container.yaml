@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-desubs
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:b702efbc7ea65bfc574f4b88762e630497da7ce0e9f69c5be68fc29c91955a96
+  1.36.0--r45hdfd78af_0: 
+    sha256:3c6d74db8a4bcce53454d8408d7ec44e968d91e9fec6da7fd3f1af197ff1228b
 tags:
   1.8.1--r351_1: 
     sha256:b787afcdb636b33178c2f972a2c6504400a28a085b58257650e0cad97de21675
@@ -24,6 +24,8 @@ tags:
     sha256:77f39a41337c7c4a962575504372ae1da07ea0d65a737760a4b18115756e48f6
   1.32.0--r44hdfd78af_0: 
     sha256:b702efbc7ea65bfc574f4b88762e630497da7ce0e9f69c5be68fc29c91955a96
+  1.36.0--r45hdfd78af_0: 
+    sha256:3c6d74db8a4bcce53454d8408d7ec44e968d91e9fec6da7fd3f1af197ff1228b
 docker: quay.io/biocontainers/bioconductor-desubs
 aliases:
   idn2: /usr/local/bin/idn2

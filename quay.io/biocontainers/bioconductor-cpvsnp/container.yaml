@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cpvsnp
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:22f5e62551555c1f90e37ed63e8ad6f01eab42b0f3fcf7222e94ca95d91eae2b
+  1.42.0--r45hdfd78af_0: 
+    sha256:ef414ab1d8b7dc4cf773ac54d5b00bb055e45c7993af0af13a617688e99d3391
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:0abc741f95d1983c8993dcc13e961b22305f9e496c611481d025fcee6e73e505
@@ -16,4 +16,6 @@ tags:
     sha256:3bd5c7bfe3cf75a09bb7653587e4024cdabaff1c20327b066674187ad8e31302
   1.38.0--r44hdfd78af_0: 
     sha256:22f5e62551555c1f90e37ed63e8ad6f01eab42b0f3fcf7222e94ca95d91eae2b
+  1.42.0--r45hdfd78af_0: 
+    sha256:ef414ab1d8b7dc4cf773ac54d5b00bb055e45c7993af0af13a617688e99d3391
 docker: quay.io/biocontainers/bioconductor-cpvsnp

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-survtype
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:f9b3ca94d9bbe1d92b35ecb656ac12263de658e0cf905ab39b3db166ca32d257
+  1.26.0--r45hdfd78af_0: 
+    sha256:ce540e434ed1ba577e6fe375be8f7b60a6f04077be7212f276948bf28efc43b2
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:5181806557a6f8aa982f8c2099615509582c60dfe6b1d13007e2424be2a992c2
@@ -18,6 +18,8 @@ tags:
     sha256:61d637c7843f16ce7aadda93c6752e8d79ddfe01751ac54a55dd8958539104aa
   1.22.0--r44hdfd78af_0: 
     sha256:f9b3ca94d9bbe1d92b35ecb656ac12263de658e0cf905ab39b3db166ca32d257
+  1.26.0--r45hdfd78af_0: 
+    sha256:ce540e434ed1ba577e6fe375be8f7b60a6f04077be7212f276948bf28efc43b2
 docker: quay.io/biocontainers/bioconductor-survtype
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

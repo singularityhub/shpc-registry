@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lumihumanidmapping
 latest:
-  1.10.1--r44hdfd78af_13: 
-    sha256:6155c2458273bb7f1ddceaa194365e913b10cb08c8f39361673d28e9daa139ff
+  1.10.1--r45hdfd78af_14: 
+    sha256:1d36d960159aa88c06973435b4cd64e8e722b41458bff69bb4623e7be7d29201
 tags:
   1.10.1--r41hdfd78af_9: 
     sha256:fb190bbfd75333dc8d18614711639135d3fafc8c0727877163678dd6cf5a3bca
@@ -16,4 +16,6 @@ tags:
     sha256:e4ee1e92c3baf9085478e48914d036296daeab7f5a57b4822e0751cd3422cc65
   1.10.1--r44hdfd78af_13: 
     sha256:6155c2458273bb7f1ddceaa194365e913b10cb08c8f39361673d28e9daa139ff
+  1.10.1--r45hdfd78af_14: 
+    sha256:1d36d960159aa88c06973435b4cd64e8e722b41458bff69bb4623e7be7d29201
 docker: quay.io/biocontainers/bioconductor-lumihumanidmapping

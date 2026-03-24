@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-htrat230pm.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:f20cfc1d9c5bafdd69777ae6d0a560fda48b5b37eb42b7d152fa917b31fd677e
+  3.13.0--r45hdfd78af_6: 
+    sha256:8e18a6924f0bec8baf34486cced03676f5179b35fb12931e40e282dc10a6364c
 tags:
   3.13.0--r41hdfd78af_1: 
     sha256:18ee6b2a5a8d7a2c630aabdf1041e0984f28c65a6ddfdd6dc236992cdd14767f
@@ -16,4 +16,6 @@ tags:
     sha256:04389eab6b8287c1942b841c320858585485341910c248274e4d9d120ac53fa7
   3.13.0--r44hdfd78af_5: 
     sha256:f20cfc1d9c5bafdd69777ae6d0a560fda48b5b37eb42b7d152fa917b31fd677e
+  3.13.0--r45hdfd78af_6: 
+    sha256:8e18a6924f0bec8baf34486cced03676f5179b35fb12931e40e282dc10a6364c
 docker: quay.io/biocontainers/bioconductor-htrat230pm.db

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-vtpnet
 latest:
-  0.46.0--r44hdfd78af_0: 
-    sha256:5b3adee4d66be8303d43f7bbb2f398d3806648b8f77e26dd32fd5d9b101a8818
+  0.50.0--r45hdfd78af_0: 
+    sha256:108d854adc8b9dc898a9a4653da29d544bed78cdddaaad381a5f77bec838fdfd
 tags:
   0.34.0--r41hdfd78af_0: 
     sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4
@@ -16,4 +16,6 @@ tags:
     sha256:0a3a646c4cef578f85455b3fd833afac7d267b5c1ad598b78098deb4f0b69e83
   0.46.0--r44hdfd78af_0: 
     sha256:5b3adee4d66be8303d43f7bbb2f398d3806648b8f77e26dd32fd5d9b101a8818
+  0.50.0--r45hdfd78af_0: 
+    sha256:108d854adc8b9dc898a9a4653da29d544bed78cdddaaad381a5f77bec838fdfd
 docker: quay.io/biocontainers/bioconductor-vtpnet

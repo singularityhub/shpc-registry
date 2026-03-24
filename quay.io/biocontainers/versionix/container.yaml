@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/versionix
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for versionix
 latest:
-  0.99.3--pyhdfd78af_0: 
-    sha256:c57b3d62aa09f8b86c7e8441a6049b4c8841e61bf5dfe78e1f7eb37eb64950b5
+  0.99.4--pyhdfd78af_0: 
+    sha256:826858c3a2b0ab6caa46ba09bcd24a24d9c8ea04c12f11da1ed4eb5c633d53c8
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:66d17854284bbe6dd78fb5aa5941017983400bdb63dc880e65950c857fb22dcb
@@ -23,6 +23,8 @@ tags:
     sha256:2c89a04fb6ebe9a4483d1a63b9a2b474ba6353b128233631a95eb4ca341ae325
   0.99.3--pyhdfd78af_0: 
     sha256:c57b3d62aa09f8b86c7e8441a6049b4c8841e61bf5dfe78e1f7eb37eb64950b5
+  0.99.4--pyhdfd78af_0: 
+    sha256:826858c3a2b0ab6caa46ba09bcd24a24d9c8ea04c12f11da1ed4eb5c633d53c8
 docker: quay.io/biocontainers/versionix
 aliases:
   versionix: /usr/local/bin/versionix

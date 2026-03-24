@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-norway981.db
 latest:
-  3.2.3--r44hdfd78af_13: 
-    sha256:75a9713945d51c861fba82ef807a01753c9d6900b123f5b063a2cedc8d9054f7
+  3.2.3--r45hdfd78af_14: 
+    sha256:32ee9060327a49a6e683967c56d0e0382e93e25588315112dbeeee9031e7e9dd
 tags:
   3.2.3--r41hdfd78af_9: 
     sha256:a8d92880313dce7de1a6b77a17ba5b5f3ee4cbbe03a2a466d59686dd428d9f42
@@ -16,4 +16,6 @@ tags:
     sha256:e7611f43a2b60db1546f4ad2f017142a9fb83da70478ad7bfa9defc67f431c57
   3.2.3--r44hdfd78af_13: 
     sha256:75a9713945d51c861fba82ef807a01753c9d6900b123f5b063a2cedc8d9054f7
+  3.2.3--r45hdfd78af_14: 
+    sha256:32ee9060327a49a6e683967c56d0e0382e93e25588315112dbeeee9031e7e9dd
 docker: quay.io/biocontainers/bioconductor-norway981.db

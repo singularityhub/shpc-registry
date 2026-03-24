@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sangerseqr
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:769a6a686a2b251cdfa0d0058ad418a074b1eabb17301794cae78d51ebd10c82
+  1.46.0--r45hdfd78af_0: 
+    sha256:0e2ffa5a89aebd7a9fb938537f059330426bafea1cd8abd3aa8b1ad7661f8445
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:d7d4932edb46891beb08818f539725f8989f30dfcc757e0d48e35da03b17e975
@@ -16,4 +16,6 @@ tags:
     sha256:4efee0e959f0dbd89ef5f36d9ca8ae029212b37edae05c2f4e497647b7e318fa
   1.42.0--r44hdfd78af_0: 
     sha256:769a6a686a2b251cdfa0d0058ad418a074b1eabb17301794cae78d51ebd10c82
+  1.46.0--r45hdfd78af_0: 
+    sha256:0e2ffa5a89aebd7a9fb938537f059330426bafea1cd8abd3aa8b1ad7661f8445
 docker: quay.io/biocontainers/bioconductor-sangerseqr

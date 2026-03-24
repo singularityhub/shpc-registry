@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-methinheritsim
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:db519fa53f808bd2be223e7f85c13495a436c6d6bfb1dca1d09da85b85eb46b4
+  1.32.0--r45hdfd78af_0: 
+    sha256:3b71ad7d6b0032d80f84e4d2774b7a9e32fcb027d76a47e7d747580b98e451b1
 tags:
   1.8.0--r36_0: 
     sha256:ebe6a6996cea43d4054c7e529970c89bd3b9ff48847f3ec9382434b1b1226cb2
@@ -24,6 +24,8 @@ tags:
     sha256:0d3e5f7c94b28d87b4f5400fc616e14cf2cbcdbf21de4db7d5de86ebe52476d1
   1.28.0--r44hdfd78af_0: 
     sha256:db519fa53f808bd2be223e7f85c13495a436c6d6bfb1dca1d09da85b85eb46b4
+  1.32.0--r45hdfd78af_0: 
+    sha256:3b71ad7d6b0032d80f84e4d2774b7a9e32fcb027d76a47e7d747580b98e451b1
 docker: quay.io/biocontainers/bioconductor-methinheritsim
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

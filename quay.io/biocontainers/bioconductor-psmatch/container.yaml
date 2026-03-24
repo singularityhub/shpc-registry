@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-psmatch
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:ba2197f5817d5337f35a44bbfd822deb77aef9f6df4129f574999012e542c544
+  1.14.0--r45hdfd78af_0: 
+    sha256:65741293179cf03f443007570e3fc54af522e60f29ed3147543f98032d662061
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:61bee5ae1e48a40fb6f563db6ac8966d27490503d48eafa1c113af5be8868300
@@ -14,6 +14,8 @@ tags:
     sha256:8f0edc0d46f714ad0f420bac557add4d93e44abf806e82719bca293810a67da0
   1.10.0--r44hdfd78af_0: 
     sha256:ba2197f5817d5337f35a44bbfd822deb77aef9f6df4129f574999012e542c544
+  1.14.0--r45hdfd78af_0: 
+    sha256:65741293179cf03f443007570e3fc54af522e60f29ed3147543f98032d662061
 docker: quay.io/biocontainers/bioconductor-psmatch
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

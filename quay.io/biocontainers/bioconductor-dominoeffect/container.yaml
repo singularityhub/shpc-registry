@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dominoeffect
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:f2c8f4dfa893ee5c4c2004c6a50a1b5d1725347c0cdeddb43ea2659680268eec
+  1.30.0--r45hdfd78af_0: 
+    sha256:8589380603796aabaaf7ad73ccb519322cfc6824601e49a95c6d3f9def8104f1
 tags:
   1.8.0--r40_0: 
     sha256:300412eb13105b9d1e7918d45514353e19c2a1f216cf8310858b343c2b20c743
@@ -22,6 +22,8 @@ tags:
     sha256:1867de9ff80ec316ea71b840db9989982e7a3f83b382de62dd3b6eb0b567d82f
   1.26.0--r44hdfd78af_0: 
     sha256:f2c8f4dfa893ee5c4c2004c6a50a1b5d1725347c0cdeddb43ea2659680268eec
+  1.30.0--r45hdfd78af_0: 
+    sha256:8589380603796aabaaf7ad73ccb519322cfc6824601e49a95c6d3f9def8104f1
 docker: quay.io/biocontainers/bioconductor-dominoeffect
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

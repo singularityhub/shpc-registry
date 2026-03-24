@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-despace
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:778212edae44ad4814899655b54d7f325293c5fbfb7161e6a9ccb900ea5c9c93
+  2.2.2--r45h84498cf_0: 
+    sha256:809a417d9c7fa2871b55b18a454ac572f10c82bd3b4bc7a08c6c220f5bea7ebe
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:ceb4605f8c8b1d07e1b5710e903bcfd148d14ade825b369ae30b2b2e580708a6
@@ -12,6 +12,8 @@ tags:
     sha256:8a30f361150d100176f8ec58e85ce74c03cd626d3b3534e5e9ad6d2e794dbfcc
   1.6.0--r44hdfd78af_0: 
     sha256:778212edae44ad4814899655b54d7f325293c5fbfb7161e6a9ccb900ea5c9c93
+  2.2.2--r45h84498cf_0: 
+    sha256:809a417d9c7fa2871b55b18a454ac572f10c82bd3b4bc7a08c6c220f5bea7ebe
 docker: quay.io/biocontainers/bioconductor-despace
 aliases:
   x86_64-conda-linux-gnu-pkg-config: 

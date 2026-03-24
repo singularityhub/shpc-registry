@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-multidataset
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:12f5829232d0dd523b185b8f8b4bded6ba0b4ebe7aa22e64dd57cf975d6f42af
+  1.38.0--r45hdfd78af_0: 
+    sha256:8ca779bfa284e4908873e551da3b313e6a0435fc9fbdc654639bdee6eb6a5164
 tags:
   1.8.0--r351_0: 
     sha256:4b7388e0e490d0cb8ca638118c6744149ebb246c6f0582673e619de38421c650
@@ -24,6 +24,8 @@ tags:
     sha256:f121cea0a83163f35991b41458e63ba846e08ee4417d825a45107f39566198cc
   1.34.0--r44hdfd78af_0: 
     sha256:12f5829232d0dd523b185b8f8b4bded6ba0b4ebe7aa22e64dd57cf975d6f42af
+  1.38.0--r45hdfd78af_0: 
+    sha256:8ca779bfa284e4908873e551da3b313e6a0435fc9fbdc654639bdee6eb6a5164
 docker: quay.io/biocontainers/bioconductor-multidataset
 aliases:
   wget: /usr/local/bin/wget

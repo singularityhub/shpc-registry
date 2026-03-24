@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gsreg
 latest:
-  1.40.0--r44he5774e6_0: 
-    sha256:bea8d08802b9188c97ac0730318dd0bdc37c913490e7487cbc9bb352221c01e6
+  1.44.0--r45ha27e39d_0: 
+    sha256:92caca67c81a1e1d3c4de4d90e58be6da64f50f11f9a00ddc800072c8eeb5991
 tags:
   1.28.0--r41hc247a5b_2: 
     sha256:50ed50eb3483a52e3fd877bcfd73859ec4f8c6aa1718089beea50f3534603651
@@ -18,4 +18,6 @@ tags:
     sha256:c15341035910d79271a6246a61c347512b178a0c7d2b3d5b6534d172e29a9463
   1.40.0--r44he5774e6_0: 
     sha256:bea8d08802b9188c97ac0730318dd0bdc37c913490e7487cbc9bb352221c01e6
+  1.44.0--r45ha27e39d_0: 
+    sha256:92caca67c81a1e1d3c4de4d90e58be6da64f50f11f9a00ddc800072c8eeb5991
 docker: quay.io/biocontainers/bioconductor-gsreg

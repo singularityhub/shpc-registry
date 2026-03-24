@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-malaria.db0
 latest:
-  3.20.0--r44hdfd78af_0: 
-    sha256:9698a5a248ec8061075b62665a3d91f8180f51e4091199afd75b0baab0e06c3a
+  3.22.0--r45hdfd78af_0: 
+    sha256:33272a330fda3b7c4de2cdb7c03519621e489d0d1cffa816e234257b951cffe7
 tags:
   3.8.2--r36_1: 
     sha256:7cda55deca06a257594f4f4d6eeb676c83c5754982b2b6f58791e55dd0c90757
@@ -24,6 +24,8 @@ tags:
     sha256:623572db386fc50faa2ab92851b312ca3925e7ecadca2f11155a72c01fe960f7
   3.20.0--r44hdfd78af_0: 
     sha256:9698a5a248ec8061075b62665a3d91f8180f51e4091199afd75b0baab0e06c3a
+  3.22.0--r45hdfd78af_0: 
+    sha256:33272a330fda3b7c4de2cdb7c03519621e489d0d1cffa816e234257b951cffe7
 docker: quay.io/biocontainers/bioconductor-malaria.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

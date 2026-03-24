@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pasillatranscriptexpr
 latest:
-  1.30.0--r43hdfd78af_0: 
-    sha256:e7aa8a69532683edf59ec712f16479b6de6868f65bd3297b1b64aedf662b51a4
+  1.38.0--r45hdfd78af_0: 
+    sha256:93544cd47ebd0e847d6cf9c47bfd16f93bceb3a059cf801fffa0ce1ac6cda282
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:ad324b12d278d0a46e40c9926245986b3588ad167a8cc45f57edac96e82d9c21
@@ -14,4 +14,6 @@ tags:
     sha256:48c288781059e7e13bfec7fca66d9a46e0088a1ab8d5f0cc75c325d35c1847d7
   1.30.0--r43hdfd78af_0: 
     sha256:e7aa8a69532683edf59ec712f16479b6de6868f65bd3297b1b64aedf662b51a4
+  1.38.0--r45hdfd78af_0: 
+    sha256:93544cd47ebd0e847d6cf9c47bfd16f93bceb3a059cf801fffa0ce1ac6cda282
 docker: quay.io/biocontainers/bioconductor-pasillatranscriptexpr

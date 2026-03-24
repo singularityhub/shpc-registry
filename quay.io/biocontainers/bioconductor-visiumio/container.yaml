@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-visiumio
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:7935cfc2d1cd33e125d2105a40cf10fb752a3e2a0a2281c58dc0e3204fb5738a
+  1.6.3--r45hdfd78af_0: 
+    sha256:bc78d783a3ce1e37a00566f1a42499b0faab042daeebfa411d0682e060ee793b
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:7935cfc2d1cd33e125d2105a40cf10fb752a3e2a0a2281c58dc0e3204fb5738a
+  1.6.3--r45hdfd78af_0: 
+    sha256:bc78d783a3ce1e37a00566f1a42499b0faab042daeebfa411d0682e060ee793b
 docker: quay.io/biocontainers/bioconductor-visiumio
 aliases:
   dec265: /usr/local/bin/dec265

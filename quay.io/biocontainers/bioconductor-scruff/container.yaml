@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scruff
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:b2d1237e2663aeb3be8800c528afda7dad3c3685bc9fda343addbc991c96688b
+  1.28.0--r45hdfd78af_0: 
+    sha256:04569aa239a22de4bd83702bac0dea341365df6eebfbadf1a717685e579e3f8f
 tags:
   1.8.3--r40hdfd78af_0: 
     sha256:9c1966ee7352b7f2b2bdeb23a825f8d37b66442da151cc87d635c3ce5049de01
@@ -20,6 +20,8 @@ tags:
     sha256:4cae317298021202b6f19d7f7f46d53eb153c9ac92f32c40d3bd42d3aeb4affc
   1.24.0--r44hdfd78af_0: 
     sha256:b2d1237e2663aeb3be8800c528afda7dad3c3685bc9fda343addbc991c96688b
+  1.28.0--r45hdfd78af_0: 
+    sha256:04569aa239a22de4bd83702bac0dea341365df6eebfbadf1a717685e579e3f8f
 docker: quay.io/biocontainers/bioconductor-scruff
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

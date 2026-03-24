@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-icheck
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:a071c5f06b10e4b58d30e7be85873275dd991e8df3a7f9b42554d2cfb8a671f5
+  1.40.0--r45h575d39b_0: 
+    sha256:381f855086e97fdfcba4e49ee741f73339940c6bdc2f5f22949435581cd9a4aa
 tags:
   1.24.0--r41hdfd78af_0: 
     sha256:3f35eee52d4f58e9bc9d1a351abccc25df11c42c4c3b1fbc6778e395b9b515d6
@@ -16,4 +16,6 @@ tags:
     sha256:4174fb7ea4244c6f6a4574aeb85fb66d2a5f79a01cb94bfd6d36816e033ae41e
   1.36.0--r44hdfd78af_0: 
     sha256:a071c5f06b10e4b58d30e7be85873275dd991e8df3a7f9b42554d2cfb8a671f5
+  1.40.0--r45h575d39b_0: 
+    sha256:381f855086e97fdfcba4e49ee741f73339940c6bdc2f5f22949435581cd9a4aa
 docker: quay.io/biocontainers/bioconductor-icheck

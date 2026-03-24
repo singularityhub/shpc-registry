@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-igvr
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:7dde186d2dbeff34eef6c67e8419f5604452b5bce61e38168aeefce4f219cb60
+  1.30.0--r45hdfd78af_0: 
+    sha256:58b76774736fa02c12f7c2b148ae301a13c4242ff8ed8cc0d393bb9ae50b99b5
 tags:
   1.7.8--r40_0: 
     sha256:be69f28158e1e9b50e2f4784354c6a0a59bc6ea39f01b86f81388b157e1e0793
@@ -20,6 +20,8 @@ tags:
     sha256:9cfadca8447e57f0260c9ad88eb6bb0cae2f926f4bf1817ee68602c492bf98d8
   1.26.0--r44hdfd78af_0: 
     sha256:7dde186d2dbeff34eef6c67e8419f5604452b5bce61e38168aeefce4f219cb60
+  1.30.0--r45hdfd78af_0: 
+    sha256:58b76774736fa02c12f7c2b148ae301a13c4242ff8ed8cc0d393bb9ae50b99b5
 docker: quay.io/biocontainers/bioconductor-igvr
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

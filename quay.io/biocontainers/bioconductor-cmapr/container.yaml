@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cmapr
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:7a50814bf2333cd4c4ea07d515157137c3e77f6d3cada2c65f3f9730491baa94
+  1.22.0--r45hdfd78af_0: 
+    sha256:188bf7bbba0ddca240dfa6c11e1c9e27c88158ef0e3da2b8be21ed1d8fdae5f4
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:f44542852009142292a7079767edf3f01bd965c733cbdb28ef8e648d4e3cdd59
@@ -16,4 +16,6 @@ tags:
     sha256:28571825d89da4c17bdd018b362c3aeed5994ea7c73663596533a908e2490698
   1.18.0--r44hdfd78af_0: 
     sha256:7a50814bf2333cd4c4ea07d515157137c3e77f6d3cada2c65f3f9730491baa94
+  1.22.0--r45hdfd78af_0: 
+    sha256:188bf7bbba0ddca240dfa6c11e1c9e27c88158ef0e3da2b8be21ed1d8fdae5f4
 docker: quay.io/biocontainers/bioconductor-cmapr
