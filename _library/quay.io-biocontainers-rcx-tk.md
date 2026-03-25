@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rcx-tk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rcx-tk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rcx-tk/container.yaml"
-updated_at: "2026-03-24 04:34:14.702164"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-03-25 04:36:56.877306"
+latest: "0.2.0--pyh1f0d9b5_0"
 container_url: "https://biocontainers.pro/tools/rcx-tk"
 aliases:
  - "dmypy"
@@ -37,8 +37,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyh1f0d9b5_0"
 description: "singularity registry hpc automated addition for rcx-tk"
-config: {"url": "https://biocontainers.pro/tools/rcx-tk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rcx-tk", "latest": {"0.1.0--pyhdfd78af_0": "sha256:d17960bea34a83929e04738e4cbf682fc2128c70207f67f53358468891dedd07"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:d17960bea34a83929e04738e4cbf682fc2128c70207f67f53358468891dedd07"}, "docker": "quay.io/biocontainers/rcx-tk", "aliases": {"dmypy": "/usr/local/bin/dmypy", "mypy": "/usr/local/bin/mypy", "mypyc": "/usr/local/bin/mypyc", "rcx_tk": "/usr/local/bin/rcx_tk", "stubgen": "/usr/local/bin/stubgen", "stubtest": "/usr/local/bin/stubtest", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/rcx-tk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rcx-tk", "latest": {"0.2.0--pyh1f0d9b5_0": "sha256:d4d1cf2e61fa3b7ae86fd75fd4c7d974b8a3b998c2d89b286faf07beb4374fd9"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:d17960bea34a83929e04738e4cbf682fc2128c70207f67f53358468891dedd07", "0.2.0--pyh1f0d9b5_0": "sha256:d4d1cf2e61fa3b7ae86fd75fd4c7d974b8a3b998c2d89b286faf07beb4374fd9"}, "docker": "quay.io/biocontainers/rcx-tk", "aliases": {"dmypy": "/usr/local/bin/dmypy", "mypy": "/usr/local/bin/mypy", "mypyc": "/usr/local/bin/mypyc", "rcx_tk": "/usr/local/bin/rcx_tk", "stubgen": "/usr/local/bin/stubgen", "stubtest": "/usr/local/bin/stubtest", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "tjbench": "/usr/local/bin/tjbench", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rcx-tk.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/rcx-tk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rcx-tk:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/rcx-tk:0.2.0--pyh1f0d9b5_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rcx-tk/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/rcx-tk/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/rcx-tk/0.2.0--pyh1f0d9b5_0
+$ module help quay.io/biocontainers/rcx-tk/0.2.0--pyh1f0d9b5_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

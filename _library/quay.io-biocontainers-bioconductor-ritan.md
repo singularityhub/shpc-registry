@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ritan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ritan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ritan/container.yaml"
-updated_at: "2026-03-24 04:44:43.610004"
-latest: "1.26.0--r43hdfd78af_0"
+updated_at: "2026-03-25 04:48:59.991980"
+latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ritan"
 aliases:
  - "gio-launch-desktop"
@@ -20,8 +20,9 @@ versions:
  - "1.12.0--r40_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
+ - "1.34.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ritan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ritan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ritan", "latest": {"1.26.0--r43hdfd78af_0": "sha256:71e5b5a0d29f5eab62b9602fd537f1cd8b895ac884096b1096bf81b3ad7ec1c9"}, "tags": {"1.8.0--r36_1": "sha256:e3bee9859c08f0c52cb5b0e0d785431f0ad5ccee36964d5c24d187dff2f7fbeb", "1.22.0--r42hdfd78af_0": "sha256:4847a907fbcc9c8bc82a8605c8de6cb45ec20ec8e8bdb83237c2091ccb8f4c2e", "1.17.0--r41hdfd78af_0": "sha256:8226cd0159029ee6f4cb33355494116fb4e65a64cf4a8228f4eea775eae18bc3", "1.16.0--r41hdfd78af_0": "sha256:1bf84f29a49ab2b9007cc5409ef1e7c9923cdaad85ea23b38487608fd708f4f1", "1.14.0--r40hdfd78af_1": "sha256:e2c3577e05b6cc2507ab0320b5d9811d790898e45297655c59098a08ae800ebd", "1.12.0--r40_0": "sha256:b70f6cf02a0481576fc918b15314b5424241b0e7b9a24938cb4866ce4113dd5c", "1.24.0--r43hdfd78af_0": "sha256:7730797585dbd3551df864b8efae776b4aa0f8a61978d8d6b17ccb96bdd3a211", "1.26.0--r43hdfd78af_0": "sha256:71e5b5a0d29f5eab62b9602fd537f1cd8b895ac884096b1096bf81b3ad7ec1c9"}, "docker": "quay.io/biocontainers/bioconductor-ritan", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ritan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ritan", "latest": {"1.34.0--r45hdfd78af_0": "sha256:18a11ebf2334c2ec3eb1f56f19e183f99cb77de589dc054ce7725cfc328e4d26"}, "tags": {"1.8.0--r36_1": "sha256:e3bee9859c08f0c52cb5b0e0d785431f0ad5ccee36964d5c24d187dff2f7fbeb", "1.22.0--r42hdfd78af_0": "sha256:4847a907fbcc9c8bc82a8605c8de6cb45ec20ec8e8bdb83237c2091ccb8f4c2e", "1.17.0--r41hdfd78af_0": "sha256:8226cd0159029ee6f4cb33355494116fb4e65a64cf4a8228f4eea775eae18bc3", "1.16.0--r41hdfd78af_0": "sha256:1bf84f29a49ab2b9007cc5409ef1e7c9923cdaad85ea23b38487608fd708f4f1", "1.14.0--r40hdfd78af_1": "sha256:e2c3577e05b6cc2507ab0320b5d9811d790898e45297655c59098a08ae800ebd", "1.12.0--r40_0": "sha256:b70f6cf02a0481576fc918b15314b5424241b0e7b9a24938cb4866ce4113dd5c", "1.24.0--r43hdfd78af_0": "sha256:7730797585dbd3551df864b8efae776b4aa0f8a61978d8d6b17ccb96bdd3a211", "1.26.0--r43hdfd78af_0": "sha256:71e5b5a0d29f5eab62b9602fd537f1cd8b895ac884096b1096bf81b3ad7ec1c9", "1.34.0--r45hdfd78af_0": "sha256:18a11ebf2334c2ec3eb1f56f19e183f99cb77de589dc054ce7725cfc328e4d26"}, "docker": "quay.io/biocontainers/bioconductor-ritan", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ritan.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ritan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ritan:1.26.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ritan:1.34.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ritan/1.26.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ritan/1.26.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ritan/1.34.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ritan/1.34.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pharmcat3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pharmcat3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pharmcat3/container.yaml"
-updated_at: "2026-03-24 04:25:31.004691"
-latest: "3.1.1--py312h7e72e81_0"
+updated_at: "2026-03-25 04:26:56.451127"
+latest: "3.2.0--py313h106432d_0"
 container_url: "https://biocontainers.pro/tools/pharmcat3"
 aliases:
  - "gff2gff"
@@ -46,8 +46,9 @@ aliases:
  - "jimage"
 versions:
  - "3.1.1--py312h7e72e81_0"
+ - "3.2.0--py313h106432d_0"
 description: "singularity registry hpc automated addition for pharmcat3"
-config: {"url": "https://biocontainers.pro/tools/pharmcat3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pharmcat3", "latest": {"3.1.1--py312h7e72e81_0": "sha256:bfec10c22409476074ac99b4f73093beec1bafb1777197c30e9582225c9d11fb"}, "tags": {"3.1.1--py312h7e72e81_0": "sha256:bfec10c22409476074ac99b4f73093beec1bafb1777197c30e9582225c9d11fb"}, "docker": "quay.io/biocontainers/pharmcat3", "aliases": {"gff2gff": "/usr/local/bin/gff2gff", "jnativescan": "/usr/local/bin/jnativescan", "pharmcat": "/usr/local/bin/pharmcat", "pharmcat.jar": "/usr/local/bin/pharmcat.jar", "pharmcat_pipeline": "/usr/local/bin/pharmcat_pipeline", "pharmcat_positions.vcf.bgz": "/usr/local/bin/pharmcat_positions.vcf.bgz", "pharmcat_positions.vcf.bgz.csi": "/usr/local/bin/pharmcat_positions.vcf.bgz.csi", "pharmcat_regions.bed": "/usr/local/bin/pharmcat_regions.bed", "pharmcat_vcf_preprocessor": "/usr/local/bin/pharmcat_vcf_preprocessor", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "ref-cache": "/usr/local/bin/ref-cache", "gff2gff.py": "/usr/local/bin/gff2gff.py", "jwebserver": "/usr/local/bin/jwebserver", "annot-tsv": "/usr/local/bin/annot-tsv", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "jpackage": "/usr/local/bin/jpackage", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/pharmcat3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pharmcat3", "latest": {"3.2.0--py313h106432d_0": "sha256:87e4ac305255a0ee13d9669361266953206dbf3907745c6ffc390b5eed03cfba"}, "tags": {"3.1.1--py312h7e72e81_0": "sha256:bfec10c22409476074ac99b4f73093beec1bafb1777197c30e9582225c9d11fb", "3.2.0--py313h106432d_0": "sha256:87e4ac305255a0ee13d9669361266953206dbf3907745c6ffc390b5eed03cfba"}, "docker": "quay.io/biocontainers/pharmcat3", "aliases": {"gff2gff": "/usr/local/bin/gff2gff", "jnativescan": "/usr/local/bin/jnativescan", "pharmcat": "/usr/local/bin/pharmcat", "pharmcat.jar": "/usr/local/bin/pharmcat.jar", "pharmcat_pipeline": "/usr/local/bin/pharmcat_pipeline", "pharmcat_positions.vcf.bgz": "/usr/local/bin/pharmcat_positions.vcf.bgz", "pharmcat_positions.vcf.bgz.csi": "/usr/local/bin/pharmcat_positions.vcf.bgz.csi", "pharmcat_regions.bed": "/usr/local/bin/pharmcat_regions.bed", "pharmcat_vcf_preprocessor": "/usr/local/bin/pharmcat_vcf_preprocessor", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "ref-cache": "/usr/local/bin/ref-cache", "gff2gff.py": "/usr/local/bin/gff2gff.py", "jwebserver": "/usr/local/bin/jwebserver", "annot-tsv": "/usr/local/bin/annot-tsv", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "jpackage": "/usr/local/bin/jpackage", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pharmcat3.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/pharmcat3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pharmcat3:3.1.1--py312h7e72e81_0
+$ shpc install quay.io/biocontainers/pharmcat3:3.2.0--py313h106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pharmcat3/3.1.1--py312h7e72e81_0
-$ module help quay.io/biocontainers/pharmcat3/3.1.1--py312h7e72e81_0
+$ module load quay.io/biocontainers/pharmcat3/3.2.0--py313h106432d_0
+$ module help quay.io/biocontainers/pharmcat3/3.2.0--py313h106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

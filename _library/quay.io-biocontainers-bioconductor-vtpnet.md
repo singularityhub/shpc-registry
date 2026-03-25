@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-vtpnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vtpnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vtpnet/container.yaml"
-updated_at: "2026-03-24 05:12:59.264908"
-latest: "0.46.0--r44hdfd78af_0"
+updated_at: "2026-03-25 05:20:45.402565"
+latest: "0.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vtpnet"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "0.40.0--r43hdfd78af_0"
  - "0.42.0--r43hdfd78af_0"
  - "0.46.0--r44hdfd78af_0"
+ - "0.50.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vtpnet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vtpnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vtpnet", "latest": {"0.46.0--r44hdfd78af_0": "sha256:5b3adee4d66be8303d43f7bbb2f398d3806648b8f77e26dd32fd5d9b101a8818"}, "tags": {"0.34.0--r41hdfd78af_0": "sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4", "0.38.0--r42hdfd78af_0": "sha256:9db144074136c327f0b0355b85b983cd5b9af3b5b255b8463d1c7e9df1046fc2", "0.40.0--r43hdfd78af_0": "sha256:010fe18c4b72f4a7af99cd8c7444f1306dc083975b85c7d66644ce114739644d", "0.42.0--r43hdfd78af_0": "sha256:0a3a646c4cef578f85455b3fd833afac7d267b5c1ad598b78098deb4f0b69e83", "0.46.0--r44hdfd78af_0": "sha256:5b3adee4d66be8303d43f7bbb2f398d3806648b8f77e26dd32fd5d9b101a8818"}, "docker": "quay.io/biocontainers/bioconductor-vtpnet"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vtpnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vtpnet", "latest": {"0.50.0--r45hdfd78af_0": "sha256:108d854adc8b9dc898a9a4653da29d544bed78cdddaaad381a5f77bec838fdfd"}, "tags": {"0.34.0--r41hdfd78af_0": "sha256:5e03519523ae17aeb7867f489cdc3f596992aba4c0f188faadd9d97460c3e5c4", "0.38.0--r42hdfd78af_0": "sha256:9db144074136c327f0b0355b85b983cd5b9af3b5b255b8463d1c7e9df1046fc2", "0.40.0--r43hdfd78af_0": "sha256:010fe18c4b72f4a7af99cd8c7444f1306dc083975b85c7d66644ce114739644d", "0.42.0--r43hdfd78af_0": "sha256:0a3a646c4cef578f85455b3fd833afac7d267b5c1ad598b78098deb4f0b69e83", "0.46.0--r44hdfd78af_0": "sha256:5b3adee4d66be8303d43f7bbb2f398d3806648b8f77e26dd32fd5d9b101a8818", "0.50.0--r45hdfd78af_0": "sha256:108d854adc8b9dc898a9a4653da29d544bed78cdddaaad381a5f77bec838fdfd"}, "docker": "quay.io/biocontainers/bioconductor-vtpnet"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vtpnet.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vtpnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vtpnet:0.46.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-vtpnet:0.50.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vtpnet/0.46.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-vtpnet/0.46.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-vtpnet/0.50.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-vtpnet/0.50.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

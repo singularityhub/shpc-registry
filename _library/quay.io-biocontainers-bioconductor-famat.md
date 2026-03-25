@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-famat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-famat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-famat/container.yaml"
-updated_at: "2026-03-24 05:16:27.271755"
-latest: "1.16.0--r44hdfd78af_0"
+updated_at: "2026-03-25 05:24:41.305323"
+latest: "1.20.3--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-famat"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.10.0--r43hdfd78af_0"
  - "1.12.0--r43hdfd78af_0"
  - "1.16.0--r44hdfd78af_0"
+ - "1.20.3--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-famat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-famat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-famat", "latest": {"1.16.0--r44hdfd78af_0": "sha256:81683de93f7870db94460ed5934235813ee396364c68f2b96cff2cfbb58f2616"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:a6fae9aa818ac1cca6ba724f07c9222a86a3992ba1c6969e5677804fdd6385b9", "1.8.0--r42hdfd78af_0": "sha256:e64d9df0b904b5d528363edcae81189f224c1f3115256f21d25f2effd770b0a4", "1.10.0--r43hdfd78af_0": "sha256:6b43518ca6e73896248228951d0df45691b51af08f7ce2f9c52333349c7246a5", "1.12.0--r43hdfd78af_0": "sha256:6ff9366df16313fbd89a4da33b522808dd0b38dd88d399424ddc0abce91b69dc", "1.16.0--r44hdfd78af_0": "sha256:81683de93f7870db94460ed5934235813ee396364c68f2b96cff2cfbb58f2616"}, "docker": "quay.io/biocontainers/bioconductor-famat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-famat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-famat", "latest": {"1.20.3--r45hdfd78af_0": "sha256:bff9d96e08822e3a010881ed2e7ac69b2c1b7c3960611450726ce5e6693a9436"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:a6fae9aa818ac1cca6ba724f07c9222a86a3992ba1c6969e5677804fdd6385b9", "1.8.0--r42hdfd78af_0": "sha256:e64d9df0b904b5d528363edcae81189f224c1f3115256f21d25f2effd770b0a4", "1.10.0--r43hdfd78af_0": "sha256:6b43518ca6e73896248228951d0df45691b51af08f7ce2f9c52333349c7246a5", "1.12.0--r43hdfd78af_0": "sha256:6ff9366df16313fbd89a4da33b522808dd0b38dd88d399424ddc0abce91b69dc", "1.16.0--r44hdfd78af_0": "sha256:81683de93f7870db94460ed5934235813ee396364c68f2b96cff2cfbb58f2616", "1.20.3--r45hdfd78af_0": "sha256:bff9d96e08822e3a010881ed2e7ac69b2c1b7c3960611450726ce5e6693a9436"}, "docker": "quay.io/biocontainers/bioconductor-famat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-famat.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-famat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-famat:1.16.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-famat:1.20.3--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-famat/1.16.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-famat/1.16.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-famat/1.20.3--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-famat/1.20.3--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

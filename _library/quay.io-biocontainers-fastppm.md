@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastppm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastppm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastppm/container.yaml"
-updated_at: "2026-03-24 04:52:55.581820"
+updated_at: "2026-03-25 04:58:10.908393"
 latest: "1.1.1--py310h184ae93_0"
 container_url: "https://biocontainers.pro/tools/fastppm"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-r3cpet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-r3cpet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-r3cpet/container.yaml"
-updated_at: "2026-03-24 05:11:59.634880"
-latest: "1.38.0--r44he5774e6_0"
+updated_at: "2026-03-25 05:19:38.056818"
+latest: "1.42.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-r3cpet"
 aliases:
  - "glpsol"
@@ -16,8 +16,9 @@ versions:
  - "1.32.0--r43hf17093f_0"
  - "1.34.0--r43hf17093f_0"
  - "1.38.0--r44he5774e6_0"
+ - "1.42.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-r3cpet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-r3cpet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-r3cpet", "latest": {"1.38.0--r44he5774e6_0": "sha256:2f59ce3ccae773b8c853f206ae68df21280b2b22712e80a014d5dfb5ea2e8265"}, "tags": {"1.26.0--r41hc247a5b_3": "sha256:471eecbf6441e29722e94829a2ee8638150f4b23077d75488823eb16af0a59aa", "1.30.0--r42hc247a5b_0": "sha256:673eb791a5aeb6a3b2ebec18facb5d1b3236971df5c786eb03347dd48499269b", "1.30.0--r42hf17093f_1": "sha256:78cef6cb8419536089d77a9e3077813be217889026fb09e966ba8c24ce3b6a25", "1.32.0--r43hf17093f_0": "sha256:b5109f76e05a6685d32c67e0c4a8f552eae70e0f4e5798cf718c3a9ef033965e", "1.34.0--r43hf17093f_0": "sha256:3635048a93c859ea0f88f721f8dc4db94ab6de9e5672d946bdd17f455eb62370", "1.38.0--r44he5774e6_0": "sha256:2f59ce3ccae773b8c853f206ae68df21280b2b22712e80a014d5dfb5ea2e8265"}, "docker": "quay.io/biocontainers/bioconductor-r3cpet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-r3cpet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-r3cpet", "latest": {"1.42.0--r45ha27e39d_0": "sha256:1b64c3739bc5ca55e7353c811970d1628a457f13c835a9e66cc900d1976eae45"}, "tags": {"1.26.0--r41hc247a5b_3": "sha256:471eecbf6441e29722e94829a2ee8638150f4b23077d75488823eb16af0a59aa", "1.30.0--r42hc247a5b_0": "sha256:673eb791a5aeb6a3b2ebec18facb5d1b3236971df5c786eb03347dd48499269b", "1.30.0--r42hf17093f_1": "sha256:78cef6cb8419536089d77a9e3077813be217889026fb09e966ba8c24ce3b6a25", "1.32.0--r43hf17093f_0": "sha256:b5109f76e05a6685d32c67e0c4a8f552eae70e0f4e5798cf718c3a9ef033965e", "1.34.0--r43hf17093f_0": "sha256:3635048a93c859ea0f88f721f8dc4db94ab6de9e5672d946bdd17f455eb62370", "1.38.0--r44he5774e6_0": "sha256:2f59ce3ccae773b8c853f206ae68df21280b2b22712e80a014d5dfb5ea2e8265", "1.42.0--r45ha27e39d_0": "sha256:1b64c3739bc5ca55e7353c811970d1628a457f13c835a9e66cc900d1976eae45"}, "docker": "quay.io/biocontainers/bioconductor-r3cpet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-r3cpet.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-r3cpet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-r3cpet:1.38.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-r3cpet:1.42.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-r3cpet/1.38.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-r3cpet/1.38.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-r3cpet/1.42.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-r3cpet/1.42.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

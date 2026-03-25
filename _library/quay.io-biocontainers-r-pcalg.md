@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-pcalg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pcalg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pcalg/container.yaml"
-updated_at: "2026-03-24 04:26:00.036117"
-latest: "2.6_12--r44h40dc89f_7"
+updated_at: "2026-03-25 04:27:29.090107"
+latest: "2.7_12--r45h0df16ae_0"
 container_url: "https://biocontainers.pro/tools/r-pcalg"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.6_12--r42h21a89ab_5"
  - "2.6_12--r43h21a89ab_6"
  - "2.6_12--r44h40dc89f_7"
+ - "2.7_12--r45h0df16ae_0"
 description: "shpc-registry automated BioContainers addition for r-pcalg"
-config: {"url": "https://biocontainers.pro/tools/r-pcalg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pcalg", "latest": {"2.6_12--r44h40dc89f_7": "sha256:0f070730ff79e38d525683bb980f9f760a4fde32e0735439040a45faf607f8f0"}, "tags": {"2.6_12--r41hecf12ef_3": "sha256:99a8d648ed39755fde267c869383902969702b58e14db5da49642dcf50c90629", "2.6_12--r42hecf12ef_4": "sha256:6d670743ea5b320d42d4db360c7ae3ada41c6c95014a520a57a8813310a6a32c", "2.6_12--r42h21a89ab_5": "sha256:3d0bf4224fb5ba08a7cf18ec8cae0e316d6f4092799a1909422b8769695be0e9", "2.6_12--r43h21a89ab_6": "sha256:0e2b1b0f465e452fffa1e19b4e6dd59fd8350517e0f9815cca96bb51118cc7ae", "2.6_12--r44h40dc89f_7": "sha256:0f070730ff79e38d525683bb980f9f760a4fde32e0735439040a45faf607f8f0"}, "docker": "quay.io/biocontainers/r-pcalg"}
+config: {"url": "https://biocontainers.pro/tools/r-pcalg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pcalg", "latest": {"2.7_12--r45h0df16ae_0": "sha256:9fa20c1b5e849ef9fa527033a36b7cb7bbfae7cffa7001431ae48d3444ac82a5"}, "tags": {"2.6_12--r41hecf12ef_3": "sha256:99a8d648ed39755fde267c869383902969702b58e14db5da49642dcf50c90629", "2.6_12--r42hecf12ef_4": "sha256:6d670743ea5b320d42d4db360c7ae3ada41c6c95014a520a57a8813310a6a32c", "2.6_12--r42h21a89ab_5": "sha256:3d0bf4224fb5ba08a7cf18ec8cae0e316d6f4092799a1909422b8769695be0e9", "2.6_12--r43h21a89ab_6": "sha256:0e2b1b0f465e452fffa1e19b4e6dd59fd8350517e0f9815cca96bb51118cc7ae", "2.6_12--r44h40dc89f_7": "sha256:0f070730ff79e38d525683bb980f9f760a4fde32e0735439040a45faf607f8f0", "2.7_12--r45h0df16ae_0": "sha256:9fa20c1b5e849ef9fa527033a36b7cb7bbfae7cffa7001431ae48d3444ac82a5"}, "docker": "quay.io/biocontainers/r-pcalg"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pcalg.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-pcalg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pcalg:2.6_12--r44h40dc89f_7
+$ shpc install quay.io/biocontainers/r-pcalg:2.7_12--r45h0df16ae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pcalg/2.6_12--r44h40dc89f_7
-$ module help quay.io/biocontainers/r-pcalg/2.6_12--r44h40dc89f_7
+$ module load quay.io/biocontainers/r-pcalg/2.7_12--r45h0df16ae_0
+$ module help quay.io/biocontainers/r-pcalg/2.7_12--r45h0df16ae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

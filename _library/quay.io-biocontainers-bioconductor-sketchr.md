@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sketchr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sketchr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sketchr/container.yaml"
-updated_at: "2026-03-24 04:34:35.519864"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-03-25 04:37:21.151640"
+latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sketchr"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-sketchr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sketchr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-sketchr", "latest": {"1.2.0--r44hdfd78af_0": "sha256:5c2b3dc076161650bc755551834373cdaccd04b78aa423d15093db11159874d4"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:5c2b3dc076161650bc755551834373cdaccd04b78aa423d15093db11159874d4"}, "docker": "quay.io/biocontainers/bioconductor-sketchr", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sketchr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-sketchr", "latest": {"1.6.0--r45hdfd78af_0": "sha256:d6d969f442e9459f661cfdfe8f96d9574d67b78861ceca1a8ae65d852479a0e2"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:5c2b3dc076161650bc755551834373cdaccd04b78aa423d15093db11159874d4", "1.6.0--r45hdfd78af_0": "sha256:d6d969f442e9459f661cfdfe8f96d9574d67b78861ceca1a8ae65d852479a0e2"}, "docker": "quay.io/biocontainers/bioconductor-sketchr", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sketchr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sketchr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sketchr:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sketchr:1.6.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sketchr/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sketchr/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sketchr/1.6.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sketchr/1.6.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

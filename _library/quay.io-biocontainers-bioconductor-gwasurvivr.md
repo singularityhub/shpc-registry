@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gwasurvivr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwasurvivr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwasurvivr/container.yaml"
-updated_at: "2026-03-24 04:27:44.137798"
+updated_at: "2026-03-25 04:29:27.502283"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwasurvivr"
 aliases:

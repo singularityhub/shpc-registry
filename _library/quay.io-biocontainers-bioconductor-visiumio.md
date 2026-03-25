@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-visiumio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-visiumio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-visiumio/container.yaml"
-updated_at: "2026-03-24 04:53:46.231063"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-03-25 04:59:07.808555"
+latest: "1.6.3--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-visiumio"
 aliases:
  - "dec265"
@@ -36,8 +36,9 @@ aliases:
  - "montage"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.3--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-visiumio"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-visiumio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-visiumio", "latest": {"1.2.0--r44hdfd78af_0": "sha256:7935cfc2d1cd33e125d2105a40cf10fb752a3e2a0a2281c58dc0e3204fb5738a"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:7935cfc2d1cd33e125d2105a40cf10fb752a3e2a0a2281c58dc0e3204fb5738a"}, "docker": "quay.io/biocontainers/bioconductor-visiumio", "aliases": {"dec265": "/usr/local/bin/dec265", "x265": "/usr/local/bin/x265", "rav1e": "/usr/local/bin/rav1e", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-visiumio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-visiumio", "latest": {"1.6.3--r45hdfd78af_0": "sha256:bc78d783a3ce1e37a00566f1a42499b0faab042daeebfa411d0682e060ee793b"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:7935cfc2d1cd33e125d2105a40cf10fb752a3e2a0a2281c58dc0e3204fb5738a", "1.6.3--r45hdfd78af_0": "sha256:bc78d783a3ce1e37a00566f1a42499b0faab042daeebfa411d0682e060ee793b"}, "docker": "quay.io/biocontainers/bioconductor-visiumio", "aliases": {"dec265": "/usr/local/bin/dec265", "x265": "/usr/local/bin/x265", "rav1e": "/usr/local/bin/rav1e", "SvtAv1EncApp": "/usr/local/bin/SvtAv1EncApp", "dav1d": "/usr/local/bin/dav1d", "aomdec": "/usr/local/bin/aomdec", "aomenc": "/usr/local/bin/aomenc", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify", "import": "/usr/local/bin/import", "magick": "/usr/local/bin/magick", "magick-script": "/usr/local/bin/magick-script", "mogrify": "/usr/local/bin/mogrify", "montage": "/usr/local/bin/montage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-visiumio.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/bioconductor-visiumio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-visiumio:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-visiumio:1.6.3--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-visiumio/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-visiumio/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-visiumio/1.6.3--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-visiumio/1.6.3--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
