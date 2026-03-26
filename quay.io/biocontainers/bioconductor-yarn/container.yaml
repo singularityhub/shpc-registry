@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-yarn
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:493d9ff35dd955e3a2afd9471344bb2eadd33249d193b8c31943d6dbd37ed13d
+  1.36.0--r45hdfd78af_0: 
+    sha256:392bd13d5f6619fb7ca0902c0f8d73442f9f8992da94f381e7c34488146f7afa
 tags:
   1.8.0--r351_0: 
     sha256:cb9c88454be2525b1882d51d78d589ab6f7aeef5fe2f92954d4388cb2a84b88d
@@ -24,6 +24,8 @@ tags:
     sha256:fade8f05661b85f79445c431087d47c7d25696c2b8ea99d93385e7522f641231
   1.32.0--r44hdfd78af_0: 
     sha256:493d9ff35dd955e3a2afd9471344bb2eadd33249d193b8c31943d6dbd37ed13d
+  1.36.0--r45hdfd78af_0: 
+    sha256:392bd13d5f6619fb7ca0902c0f8d73442f9f8992da94f381e7c34488146f7afa
 docker: quay.io/biocontainers/bioconductor-yarn
 aliases:
   wget: /usr/local/bin/wget

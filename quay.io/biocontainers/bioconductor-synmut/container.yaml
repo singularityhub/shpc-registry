@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-synmut
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:5da1487eff224aa668a0ffc6e04bbe59926f50b26bda54919f415b86a75790cf
+  1.26.0--r45hdfd78af_0: 
+    sha256:1de8ca325dd40a6bcc946b2067977ca239e293a9a5b5f08f4a81ff5f88a04cf1
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:379d55f88d0f53925b07ccfc075ef03fd3b3c03ead317e576db61f313c97756c
@@ -18,6 +18,8 @@ tags:
     sha256:a1db92d09f6be635152c372ff7a45a2cbba656d29b6eee57a19741090de82af6
   1.22.0--r44hdfd78af_0: 
     sha256:5da1487eff224aa668a0ffc6e04bbe59926f50b26bda54919f415b86a75790cf
+  1.26.0--r45hdfd78af_0: 
+    sha256:1de8ca325dd40a6bcc946b2067977ca239e293a9a5b5f08f4a81ff5f88a04cf1
 docker: quay.io/biocontainers/bioconductor-synmut
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

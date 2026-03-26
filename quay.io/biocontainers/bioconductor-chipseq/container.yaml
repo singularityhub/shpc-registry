@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chipseq
 latest:
-  1.56.0--r44h3df3fcb_0: 
-    sha256:e8c87182c517b27296cfa3a13401f41f3d7c999b6e95bea6486bfa280b3fb857
+  1.60.0--r45h01b2380_0: 
+    sha256:ba9d409a8d34bdae0cd88855c142a8f143f890e16d84bc74fdd880da9859caea
 tags:
   1.44.0--r41hc0cfd56_2: 
     sha256:46557c6760698a5ec2655a4d39af68972b37a9fcf4b60839403a6cf97ff9b0fb
@@ -18,4 +18,6 @@ tags:
     sha256:f3daadd15fea6edb96df556adf429e0cbfd74b539d4b035aaeef69c4cb74755f
   1.56.0--r44h3df3fcb_0: 
     sha256:e8c87182c517b27296cfa3a13401f41f3d7c999b6e95bea6486bfa280b3fb857
+  1.60.0--r45h01b2380_0: 
+    sha256:ba9d409a8d34bdae0cd88855c142a8f143f890e16d84bc74fdd880da9859caea
 docker: quay.io/biocontainers/bioconductor-chipseq

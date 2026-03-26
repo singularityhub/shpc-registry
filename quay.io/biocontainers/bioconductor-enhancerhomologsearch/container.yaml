@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-enhancerhomologsearch
 latest:
-  1.12.0--r44he5774e6_0: 
-    sha256:7e1c800548dc0e92c33c09cd76597dd47713fb74f853128b9baf757a87987c4a
+  1.16.0--r45ha27e39d_0: 
+    sha256:3b25023ad85f914a6577dfe74dc50c32423baa0f8081cac47fb7b0d25499215e
 tags:
   1.0.1--r41hc247a5b_0: 
     sha256:b6adcc10de7eefdf9bb9d0cc2585062793d17a844c317652d866759a5397215c
@@ -16,4 +16,6 @@ tags:
     sha256:f127f6ffecba489f5866fa4f0886269311ab7037ca6e5bf34a6a9b509112b6bf
   1.12.0--r44he5774e6_0: 
     sha256:7e1c800548dc0e92c33c09cd76597dd47713fb74f853128b9baf757a87987c4a
+  1.16.0--r45ha27e39d_0: 
+    sha256:3b25023ad85f914a6577dfe74dc50c32423baa0f8081cac47fb7b0d25499215e
 docker: quay.io/biocontainers/bioconductor-enhancerhomologsearch

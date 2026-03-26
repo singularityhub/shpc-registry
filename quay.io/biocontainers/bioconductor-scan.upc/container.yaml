@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scan.upc
 latest:
-  2.48.0--r44hdfd78af_0: 
-    sha256:b636ef5dfb272cb2a229ed8c0c21f33beeabce4fa42b84c5fb1ce29b4f5ab0f9
+  2.52.0--r45hdfd78af_0: 
+    sha256:69921c7fecdfb724671c5874ac28ce863cbd1c417db1b2a80340b11b8b46d089
 tags:
   2.36.0--r41hdfd78af_0: 
     sha256:8a08a64b9a385d2d67c6fb4a14244605331b03c31c4a438378ef2ecc677470af
@@ -16,4 +16,6 @@ tags:
     sha256:33f737c028df26d2219a685d525fa7f5548b12dca5fc3b82f06bcb95a5900622
   2.48.0--r44hdfd78af_0: 
     sha256:b636ef5dfb272cb2a229ed8c0c21f33beeabce4fa42b84c5fb1ce29b4f5ab0f9
+  2.52.0--r45hdfd78af_0: 
+    sha256:69921c7fecdfb724671c5874ac28ce863cbd1c417db1b2a80340b11b8b46d089
 docker: quay.io/biocontainers/bioconductor-scan.upc

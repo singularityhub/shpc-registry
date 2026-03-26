@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scclassify
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:62844e001ecec7b9a4b64709c36e7a76a936eafa501efb00acdca1ad6f488337
+  1.22.0--r45hdfd78af_0: 
+    sha256:f11b856cbb269cb4bd69c7864c612a756172b0e282587075b7a45721930b8b8c
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:c67631194638007f8f3da8c485d0b3948a581d97aa8fdf6400a9f83d1e3b1591
@@ -14,4 +14,6 @@ tags:
     sha256:43ed0ad9c7797b1a08c89793798b3d44c8864be5ae6a0c2a05680b26da860ef0
   1.18.0--r44hdfd78af_0: 
     sha256:62844e001ecec7b9a4b64709c36e7a76a936eafa501efb00acdca1ad6f488337
+  1.22.0--r45hdfd78af_0: 
+    sha256:f11b856cbb269cb4bd69c7864c612a756172b0e282587075b7a45721930b8b8c
 docker: quay.io/biocontainers/bioconductor-scclassify

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lipidr
 latest:
-  2.20.0--r44hdfd78af_0: 
-    sha256:51b0b7b9ffff36bfde8b2c3bff659a3c61c7ace7d67d7f0a2104256ab896cc35
+  2.24.0--r45hdfd78af_0: 
+    sha256:749e0f8d9e95151cd5bc670dbf2fe4be151ad835ec30d87467050108f3ccee9d
 tags:
   2.8.0--r41hdfd78af_0: 
     sha256:4e41e52e87ca47d541599b364f496304f160df7e9723675dca301c24cf36c5fd
@@ -16,4 +16,6 @@ tags:
     sha256:1dd6f3c4c96ea4ed509694c6a03024cd92c8d0340d5b48bfa3a11bd235b447f3
   2.20.0--r44hdfd78af_0: 
     sha256:51b0b7b9ffff36bfde8b2c3bff659a3c61c7ace7d67d7f0a2104256ab896cc35
+  2.24.0--r45hdfd78af_0: 
+    sha256:749e0f8d9e95151cd5bc670dbf2fe4be151ad835ec30d87467050108f3ccee9d
 docker: quay.io/biocontainers/bioconductor-lipidr

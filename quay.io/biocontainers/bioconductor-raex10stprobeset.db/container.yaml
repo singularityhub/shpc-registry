@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-raex10stprobeset.db
 latest:
-  8.8.0--r44hdfd78af_5: 
-    sha256:351552e047586c4eac39273c73ad6c9823c30b580ed6573afd08993a04445ba0
+  8.8.0--r45hdfd78af_6: 
+    sha256:559d1cd6c746d26f0500e9fcf49e07e989c2667c5c9453c51fbb66b905668c28
 tags:
   8.8.0--r41hdfd78af_1: 
     sha256:deaa23172e8e069fcbd1ce35643f822183ed02543fbfab9c0c9b959c7c0a5f53
@@ -16,4 +16,6 @@ tags:
     sha256:7599f288d32e6e20799e1b029dd8aedc6aa6dfea3689d261be7f0c72efecfaf6
   8.8.0--r44hdfd78af_5: 
     sha256:351552e047586c4eac39273c73ad6c9823c30b580ed6573afd08993a04445ba0
+  8.8.0--r45hdfd78af_6: 
+    sha256:559d1cd6c746d26f0500e9fcf49e07e989c2667c5c9453c51fbb66b905668c28
 docker: quay.io/biocontainers/bioconductor-raex10stprobeset.db

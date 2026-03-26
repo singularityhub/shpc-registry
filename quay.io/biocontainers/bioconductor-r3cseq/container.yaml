@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-r3cseq
 latest:
-  1.52.0--r44hdfd78af_0: 
-    sha256:e028c75d97b7276f27cdf6165c67190745232276bacc67b9c6e75e935b6015b1
+  1.56.0--r45hdfd78af_0: 
+    sha256:fdd05f0c2f1306ee88bd4420d5cdf4d0cc7ac35828ba97a385e7e091b2ff68aa
 tags:
   1.40.0--r41hdfd78af_0: 
     sha256:1692a68c9d2b600a88e1dbb1ed89d13649e5fc8350b8413ffd98ec2327d0e8d4
@@ -16,4 +16,6 @@ tags:
     sha256:6aa79e3cf161dfc7a19f917113ab8452a4460fcbe813f1c5add84c4b07ea97a1
   1.52.0--r44hdfd78af_0: 
     sha256:e028c75d97b7276f27cdf6165c67190745232276bacc67b9c6e75e935b6015b1
+  1.56.0--r45hdfd78af_0: 
+    sha256:fdd05f0c2f1306ee88bd4420d5cdf4d0cc7ac35828ba97a385e7e091b2ff68aa
 docker: quay.io/biocontainers/bioconductor-r3cseq

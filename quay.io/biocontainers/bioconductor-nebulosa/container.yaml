@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nebulosa
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:8f4262aeceb5a74a49072b18a225a43470fb039c4280b8e4319f08b3c5822906
+  1.20.0--r45hdfd78af_0: 
+    sha256:f054b1a7ad1ca3e66c9442f9cd196411d086838b63c2256eb6d84fb00e5370c0
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:e2e5801e747cf3a459dd83c12cb9919648529656ea584edb7084604250670274
@@ -16,4 +16,6 @@ tags:
     sha256:704c0828e0812abf61f16c76c547eaa0679eae1cf3cb86c7ee31726060fa1aa6
   1.16.0--r44hdfd78af_0: 
     sha256:8f4262aeceb5a74a49072b18a225a43470fb039c4280b8e4319f08b3c5822906
+  1.20.0--r45hdfd78af_0: 
+    sha256:f054b1a7ad1ca3e66c9442f9cd196411d086838b63c2256eb6d84fb00e5370c0
 docker: quay.io/biocontainers/bioconductor-nebulosa

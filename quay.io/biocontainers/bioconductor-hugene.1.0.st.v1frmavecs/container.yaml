@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hugene.1.0.st.v1frmavecs
 latest:
-  1.1.0--r44hdfd78af_13: 
-    sha256:d12b71395c091dc740e0ad597c28737b5b38f9f7f91fa14524c9801c458ea397
+  1.1.0--r45hdfd78af_14: 
+    sha256:7f3b9c31ffa3137382ade0777c0ee05d1587722cd4dfaf5c802fcb8c5bbe775a
 tags:
   1.1.0--r41hdfd78af_9: 
     sha256:7249aab0b8d3c11c078dc6b04362fd5579376597fb50d7b92460c0dce24914ca
@@ -16,4 +16,6 @@ tags:
     sha256:1edf4e1263d5d1dbe66218b8e17a53a9bc41cab1af1b9f883b5563d79563dfd7
   1.1.0--r44hdfd78af_13: 
     sha256:d12b71395c091dc740e0ad597c28737b5b38f9f7f91fa14524c9801c458ea397
+  1.1.0--r45hdfd78af_14: 
+    sha256:7f3b9c31ffa3137382ade0777c0ee05d1587722cd4dfaf5c802fcb8c5bbe775a
 docker: quay.io/biocontainers/bioconductor-hugene.1.0.st.v1frmavecs

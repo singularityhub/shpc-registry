@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-spatialdecon
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:2670a4895764981db61040bc9a6d360d98d6acb44bc7e14917ad1672aac6843e
+  1.20.0--r45hdfd78af_0: 
+    sha256:277f85892aa24745480d6c579a95c81cdc85cb57cb040d6f5fd6d081ddd826bd
 tags:
   1.3.0--r41hdfd78af_0: 
     sha256:dd063ae6f426fa6e58d0ef84e823438c2513e792cb8908c23ecfdc5b42681a72
@@ -16,4 +16,6 @@ tags:
     sha256:266cf0db832899c55640a15bdfb4e276eb6d58f44412c3781bd0f82674838611
   1.16.0--r44hdfd78af_0: 
     sha256:2670a4895764981db61040bc9a6d360d98d6acb44bc7e14917ad1672aac6843e
+  1.20.0--r45hdfd78af_0: 
+    sha256:277f85892aa24745480d6c579a95c81cdc85cb57cb040d6f5fd6d081ddd826bd
 docker: quay.io/biocontainers/bioconductor-spatialdecon

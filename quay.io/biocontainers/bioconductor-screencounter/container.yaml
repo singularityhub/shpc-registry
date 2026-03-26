@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-screencounter
 latest:
-  1.2.0--r43hf17093f_0: 
-    sha256:dde6fa3ea16a08542da4888716c8bfb4e91d76d1e689f1521ed2982bb2850654
+  1.10.0--r45ha27e39d_0: 
+    sha256:921f2be8269939d29a2845e39226d8fbc94be259efe5d6882fd4079435a84d33
 tags:
   1.0.1--r43hf17093f_0: 
     sha256:d23e1c6586bb7559cbd60e8081b992f83139065240760587ed755c3b71ae6ad5
   1.2.0--r43hf17093f_0: 
     sha256:dde6fa3ea16a08542da4888716c8bfb4e91d76d1e689f1521ed2982bb2850654
+  1.10.0--r45ha27e39d_0: 
+    sha256:921f2be8269939d29a2845e39226d8fbc94be259efe5d6882fd4079435a84d33
 docker: quay.io/biocontainers/bioconductor-screencounter
 aliases:
   hb-info: /usr/local/bin/hb-info

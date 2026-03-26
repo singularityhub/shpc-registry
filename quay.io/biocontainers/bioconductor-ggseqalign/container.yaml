@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-ggseqalign
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:e99dd7474028df7a4c204cf6c174c301a694ed548408306895f03f5a827008ff
+  1.4.0--r45hdfd78af_0: 
+    sha256:f4e27d9a3b30720c9d3181a9643273e8a75b73ca0d8d197e5f8c06b8f741288f
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:e99dd7474028df7a4c204cf6c174c301a694ed548408306895f03f5a827008ff
+  1.4.0--r45hdfd78af_0: 
+    sha256:f4e27d9a3b30720c9d3181a9643273e8a75b73ca0d8d197e5f8c06b8f741288f
 docker: quay.io/biocontainers/bioconductor-ggseqalign
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

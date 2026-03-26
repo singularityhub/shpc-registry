@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-drimseq
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:82baadc2875ec6f90ea485a73c4535ba0a717d5bd876a162590f2f2f41fabe38
+  1.38.0--r45hdfd78af_0: 
+    sha256:403e193e037862d9f538c91bf9104519572d90494e113115afc897e990a1f021
 tags:
   1.8.0--r351_0: 
     sha256:ca80a105aa8c915cc34a51f39c7b3e21f8f9f47254a11f4b681104b8a831b41a
@@ -24,6 +24,8 @@ tags:
     sha256:ee3e0c9ce8d4b220034c4c8c41e1bfdd43c818092fc083e42d30393b2347dd4a
   1.34.0--r44hdfd78af_0: 
     sha256:82baadc2875ec6f90ea485a73c4535ba0a717d5bd876a162590f2f2f41fabe38
+  1.38.0--r45hdfd78af_0: 
+    sha256:403e193e037862d9f538c91bf9104519572d90494e113115afc897e990a1f021
 docker: quay.io/biocontainers/bioconductor-drimseq
 aliases:
   wget: /usr/local/bin/wget

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-moe430aprobe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:fe6bc90a02261f532755ec9e6783bfe4918c90b5e30bad79eec95964ac6905e4
+  2.18.0--r45hdfd78af_14: 
+    sha256:2b59e9e345542625f9f853d6c6f9d160e983ed0aaf5c44982393cebaa463527c
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:33f3fcb949a46616a3bad2d607fa2adb4f06b786c7042735f7e5d8f75e607c94
@@ -16,4 +16,6 @@ tags:
     sha256:914aabf0460432819ec757d1429f8c063a381cbee955fa8298424769814116e6
   2.18.0--r44hdfd78af_13: 
     sha256:fe6bc90a02261f532755ec9e6783bfe4918c90b5e30bad79eec95964ac6905e4
+  2.18.0--r45hdfd78af_14: 
+    sha256:2b59e9e345542625f9f853d6c6f9d160e983ed0aaf5c44982393cebaa463527c
 docker: quay.io/biocontainers/bioconductor-moe430aprobe

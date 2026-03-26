@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-org.cf.eg.db
 latest:
-  3.20.0--r44hdfd78af_0: 
-    sha256:64a8a90eab58184f144924336b6dc862967cb9107d915197f6098114206ce302
+  3.22.0--r45hdfd78af_0: 
+    sha256:884fb2513fe4d3f3cecd9b1e98c2c41a7553d38570ca7a62c78896729e08d548
 tags:
   3.8.2--r36_1: 
     sha256:0c37160cb4b87462f9b89acaea2fdc45f92deac4cb191a3c222a001698556d04
@@ -24,6 +24,8 @@ tags:
     sha256:7fc63af43c306c414e888096e0732f75243e719190a0cdbc40952b41b28d63a4
   3.20.0--r44hdfd78af_0: 
     sha256:64a8a90eab58184f144924336b6dc862967cb9107d915197f6098114206ce302
+  3.22.0--r45hdfd78af_0: 
+    sha256:884fb2513fe4d3f3cecd9b1e98c2c41a7553d38570ca7a62c78896729e08d548
 docker: quay.io/biocontainers/bioconductor-org.cf.eg.db
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

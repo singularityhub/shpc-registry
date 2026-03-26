@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mlstdb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mlstdb
 latest:
-  0.2.0--pyh7e72e81_0: 
-    sha256:be6d99229575baae7fdf3ad5f1226de9a14adecd47bc550064484d51e9dcfed3
+  1.1.0--pyh106432d_0: 
+    sha256:9d71eca46779e34939c101ca59bf7e77fc7342956734f0fb234e66a0b00fdc30
 tags:
   0.1.5--pyh7e72e81_0: 
     sha256:3de53ec9a2316b0e44440a24d13e20e137268f023e9c7fa9bd18491eb90f0021
@@ -13,6 +13,10 @@ tags:
     sha256:f260055d095f475ee1c18640943d36eb1f7d4786aa098df8c817075be12e7936
   0.2.0--pyh7e72e81_0: 
     sha256:be6d99229575baae7fdf3ad5f1226de9a14adecd47bc550064484d51e9dcfed3
+  1.1.0--pyh106432d_0: 
+    sha256:9d71eca46779e34939c101ca59bf7e77fc7342956734f0fb234e66a0b00fdc30
+  1.0.0--pyh106432d_0: 
+    sha256:b6bed3a9fa20bac28f4de6e3d32406424a7ebd9fc739a8a62ff3b71869e3e99a
 docker: quay.io/biocontainers/mlstdb
 aliases:
   RNAconsensus: /usr/local/bin/RNAconsensus

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-blma
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:edda4bb5f34a8a0fbae8e77dd276766a84736d5abc48773e5873911778694004
+  1.34.0--r45hdfd78af_0: 
+    sha256:56044f5f3c562efad2071439e7d72f20558ab705f4685fabfd637cb387c245d8
 tags:
   1.8.0--r36_1: 
     sha256:1fa46eb72cf50826fae95fd84ad198dab40099f963e79af10e05ec3d683a60c8
@@ -24,6 +24,8 @@ tags:
     sha256:b1dfbadac155497499ca35200d8feba4791fe1cc79344843acfe3fbf74fc8662
   1.30.0--r44hdfd78af_0: 
     sha256:edda4bb5f34a8a0fbae8e77dd276766a84736d5abc48773e5873911778694004
+  1.34.0--r45hdfd78af_0: 
+    sha256:56044f5f3c562efad2071439e7d72f20558ab705f4685fabfd637cb387c245d8
 docker: quay.io/biocontainers/bioconductor-blma
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

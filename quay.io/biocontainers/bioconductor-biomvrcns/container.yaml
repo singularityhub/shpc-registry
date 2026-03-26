@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-biomvrcns
 latest:
-  1.46.0--r44h3df3fcb_0: 
-    sha256:862df543c301ab9917678d61f7035f423a55c5bdf60847ee9aad0b99b076e1bf
+  1.50.0--r45h01b2380_0: 
+    sha256:fef69780eb627a5d08dae5abf0accf01b623083c986e587b1b42da1eb4c5226c
 tags:
   1.34.0--r41hc0cfd56_2: 
     sha256:fa962454b053dc5c904a6c7f95ff245daec7c75f4a414ed910cd2f55916dbafd
@@ -16,4 +16,6 @@ tags:
     sha256:f1ff048fe44fed3a2d080e2e228cee5e53fcf6bda79d71512f1eea6982ee5606
   1.46.0--r44h3df3fcb_0: 
     sha256:862df543c301ab9917678d61f7035f423a55c5bdf60847ee9aad0b99b076e1bf
+  1.50.0--r45h01b2380_0: 
+    sha256:fef69780eb627a5d08dae5abf0accf01b623083c986e587b1b42da1eb4c5226c
 docker: quay.io/biocontainers/bioconductor-biomvrcns

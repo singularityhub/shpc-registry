@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-zebrafishrnaseq
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:74f6aca8fab100f18c1a59c6d4d4799eb978db2c7070a8fa6bef6f8fab01b455
+  1.30.0--r45hdfd78af_0: 
+    sha256:f51c1f26db285aed1806a672dc585ab794f8a9a22378c7d07769765507f5e1d9
 tags:
   1.9.0--r40_0: 
     sha256:7221fb618f6399b2b2a6672da2882ef6c15a52498e4bc0a37218a03ae0c270af
@@ -22,6 +22,8 @@ tags:
     sha256:6dbca71541aacf83ed6a1962f1507111fe75f5364e120cdfa6625b49cfde38f0
   1.26.0--r44hdfd78af_0: 
     sha256:74f6aca8fab100f18c1a59c6d4d4799eb978db2c7070a8fa6bef6f8fab01b455
+  1.30.0--r45hdfd78af_0: 
+    sha256:f51c1f26db285aed1806a672dc585ab794f8a9a22378c7d07769765507f5e1d9
 docker: quay.io/biocontainers/bioconductor-zebrafishrnaseq
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

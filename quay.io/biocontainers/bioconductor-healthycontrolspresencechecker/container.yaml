@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-healthycontrolspresencechecker
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:c9942558405555fedc5ca0bac13fafe922f224416ceba0f2ad43e309a52c786c
+  1.14.0--r45hdfd78af_0: 
+    sha256:1e31fbd69f60b177bca60df4abf8e648c031f63fbc5f453d627e7eee5b3c1e93
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:e83220cd59e79e1501b8bb6cfb8e9dd64e56c15580cbefe4d0062212e63695ff
@@ -14,6 +14,8 @@ tags:
     sha256:1631d71eed2c57b18395d43528b546a192ef384e220d6382b0cd590b823cd834
   1.10.0--r44hdfd78af_0: 
     sha256:c9942558405555fedc5ca0bac13fafe922f224416ceba0f2ad43e309a52c786c
+  1.14.0--r45hdfd78af_0: 
+    sha256:1e31fbd69f60b177bca60df4abf8e648c031f63fbc5f453d627e7eee5b3c1e93
 docker: quay.io/biocontainers/bioconductor-healthycontrolspresencechecker
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

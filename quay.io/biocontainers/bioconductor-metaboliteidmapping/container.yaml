@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metaboliteidmapping
 latest:
-  1.0.0--r44hdfd78af_6: 
-    sha256:9761f8ba6f9eeac1f770ee088d50ad0713bcc9ff418c64b73a93fffcffa61697
+  1.0.0--r45hdfd78af_7: 
+    sha256:5d676284ae2124349a9accbeb00d1e21b4025d3cdbfb6307f62b4b61f6cfa783
 tags:
   1.0.0--r41hdfd78af_2: 
     sha256:6ea3850b4d6feab379bbb80886f10f444e73ebbc5c5d75a9fa708d5a28f99235
@@ -16,4 +16,6 @@ tags:
     sha256:8dc643dae82e9c62e7f684a733cfd04a769ccd3ed95180d0657be7769f980a01
   1.0.0--r44hdfd78af_6: 
     sha256:9761f8ba6f9eeac1f770ee088d50ad0713bcc9ff418c64b73a93fffcffa61697
+  1.0.0--r45hdfd78af_7: 
+    sha256:5d676284ae2124349a9accbeb00d1e21b4025d3cdbfb6307f62b4b61f6cfa783
 docker: quay.io/biocontainers/bioconductor-metaboliteidmapping

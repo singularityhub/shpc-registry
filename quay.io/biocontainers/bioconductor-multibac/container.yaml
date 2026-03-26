@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-multibac
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:16672c58a59a791164d20ec6f343708647e17691371f9611e731dcd2e8ef14e4
+  1.20.0--r45hdfd78af_0: 
+    sha256:b07a25efb8a40dc7bae9fadc17cfca47e890760bea4cac3bc9d6af24d8cb0702
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:dc8ba6e2e63482463e6d811838f64da78f7784a74cd2a56be9e2af0c73a1d6ab
@@ -16,4 +16,6 @@ tags:
     sha256:b39a4c8dd4da22679b888562afff58a0a9e8a086c34f78a68858de2a3f42beea
   1.16.0--r44hdfd78af_0: 
     sha256:16672c58a59a791164d20ec6f343708647e17691371f9611e731dcd2e8ef14e4
+  1.20.0--r45hdfd78af_0: 
+    sha256:b07a25efb8a40dc7bae9fadc17cfca47e890760bea4cac3bc9d6af24d8cb0702
 docker: quay.io/biocontainers/bioconductor-multibac
