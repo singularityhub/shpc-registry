@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/taffy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for taffy
+latest:
+  0.0.3--py314h4bbbc2f_0: 
+    sha256:a84d95e506343e61fe25ca04cb5bc2ecc783937623a453107d527627af8378a4
+tags:
+  0.0.3--py314h4bbbc2f_0: 
+    sha256:a84d95e506343e61fe25ca04cb5bc2ecc783937623a453107d527627af8378a4
+docker: quay.io/biocontainers/taffy
+aliases:
+  abpoa: /usr/local/bin/abpoa
+  taffy: /usr/local/bin/taffy
+  ref-cache: /usr/local/bin/ref-cache
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  annot-tsv: /usr/local/bin/annot-tsv
+  h5delete: /usr/local/bin/h5delete
+  numpy-config: /usr/local/bin/numpy-config
+  h5fc: /usr/local/bin/h5fc
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5redeploy: /usr/local/bin/h5redeploy
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
