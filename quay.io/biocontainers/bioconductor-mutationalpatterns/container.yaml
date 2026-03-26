@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mutationalpatterns
 latest:
-  3.16.0--r44hdfd78af_0: 
-    sha256:c58b326d57529e170581d11ba794ccc88bfc480b9372ab5dd212d6dd58eeed2b
+  3.19.1--r45hdfd78af_0: 
+    sha256:9ecd387ffa934c6a6fd2a71ead35e25f39fb2d842321058467aa2cfa3302921a
 tags:
   3.4.0--r41hdfd78af_0: 
     sha256:2687c568d406af5be76e3032482c90c40ff70ec1a21f54802e8ab0a30a1eda83
@@ -16,4 +16,6 @@ tags:
     sha256:17d133c1f8c560a592ebc21aef5192c83a1d1e3a7d970d249607f9eea05ef04d
   3.16.0--r44hdfd78af_0: 
     sha256:c58b326d57529e170581d11ba794ccc88bfc480b9372ab5dd212d6dd58eeed2b
+  3.19.1--r45hdfd78af_0: 
+    sha256:9ecd387ffa934c6a6fd2a71ead35e25f39fb2d842321058467aa2cfa3302921a
 docker: quay.io/biocontainers/bioconductor-mutationalpatterns

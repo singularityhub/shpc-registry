@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-saigegds
 latest:
-  2.6.0--r44he5774e6_0: 
-    sha256:b41d6cea09809d8895bda6358a461caeeaa87475885114c2580be4204412bbe3
+  2.10.0--r45ha27e39d_0: 
+    sha256:f3b18c75d06aed445b99c3145a7a07917450ee2d2574cf28b4ba6c4e058ed461
 tags:
   1.8.1--r41hc247a5b_0: 
     sha256:d771d815703ac3b404466d9b0c6056736db71a36e68ad3b51cd597756745e388
@@ -18,4 +18,6 @@ tags:
     sha256:a42f9f362c9ec9ab9aae80fd4479fd804ed92e3cda85e96f67eb11cd1c4e787f
   2.6.0--r44he5774e6_0: 
     sha256:b41d6cea09809d8895bda6358a461caeeaa87475885114c2580be4204412bbe3
+  2.10.0--r45ha27e39d_0: 
+    sha256:f3b18c75d06aed445b99c3145a7a07917450ee2d2574cf28b4ba6c4e058ed461
 docker: quay.io/biocontainers/bioconductor-saigegds

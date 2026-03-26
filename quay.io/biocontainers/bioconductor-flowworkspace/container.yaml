@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowworkspace
 latest:
-  4.18.0--r44h77050f0_1: 
-    sha256:b531e34eda64b5d43e599fa9a1e71680728f4dcb2c1ae9d114dc2ac5431d53e9
+  4.22.1--r45h4352baa_0: 
+    sha256:6b97e20776c96b75cad299d0617cac51d18d6c41fc8c1496038fb201e972a884
 tags:
   4.6.0--r41hc247a5b_2: 
     sha256:9b86d8f42c41e0fbe654a85586c9135e183ec6de91f468c08fa55127b3c2a371
@@ -20,4 +20,6 @@ tags:
     sha256:0731b2a88f593c72f7bd24fc71c81514b091d8e663bac10217ca7880fde96087
   4.18.0--r44h77050f0_1: 
     sha256:b531e34eda64b5d43e599fa9a1e71680728f4dcb2c1ae9d114dc2ac5431d53e9
+  4.22.1--r45h4352baa_0: 
+    sha256:6b97e20776c96b75cad299d0617cac51d18d6c41fc8c1496038fb201e972a884
 docker: quay.io/biocontainers/bioconductor-flowworkspace

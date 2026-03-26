@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-alpsnmr
 latest:
-  4.8.0--r44hdfd78af_0: 
-    sha256:14e012dc89fd5f8ee7ae13ca7ab2b14331c7110533a27c5d4fbaa375456e1a38
+  4.12.0--r45h575d39b_0: 
+    sha256:93e689dc25641e0d4a0980e91feb79de430329cad8c0c57dca18b0c68ef7e05a
 tags:
   3.4.0--r41hdfd78af_0: 
     sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585
@@ -16,6 +16,8 @@ tags:
     sha256:0eb4d8494cb85e39bd6c4cf8eb502b48bb615fcc3116c115890e1d2a09c7945a
   4.8.0--r44hdfd78af_0: 
     sha256:14e012dc89fd5f8ee7ae13ca7ab2b14331c7110533a27c5d4fbaa375456e1a38
+  4.12.0--r45h575d39b_0: 
+    sha256:93e689dc25641e0d4a0980e91feb79de430329cad8c0c57dca18b0c68ef7e05a
 docker: quay.io/biocontainers/bioconductor-alpsnmr
 aliases:
   pandoc: /usr/local/bin/pandoc

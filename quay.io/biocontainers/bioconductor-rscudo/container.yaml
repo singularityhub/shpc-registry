@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rscudo
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:a348515f22ad3e9c714fe802c9580658b0b0428d467f0d945137e3b306bb36ab
+  1.26.0--r45hdfd78af_0: 
+    sha256:3b313ccbb7d18903f8d43163c8f5b88e733c674cf7e77c196dd6dd5cafa20ae3
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:2d45e50a4e99b4be80e0cc82f82a5c62ae5424c1c55c0ffd756b953a12fc218f
@@ -18,6 +18,8 @@ tags:
     sha256:3d1429a723cc1f733bd27ccf67120649bfc02e2d5536501ba11e56a24b0b65fc
   1.22.0--r44hdfd78af_0: 
     sha256:a348515f22ad3e9c714fe802c9580658b0b0428d467f0d945137e3b306bb36ab
+  1.26.0--r45hdfd78af_0: 
+    sha256:3b313ccbb7d18903f8d43163c8f5b88e733c674cf7e77c196dd6dd5cafa20ae3
 docker: quay.io/biocontainers/bioconductor-rscudo
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/trace-crispr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for trace-crispr
 latest:
-  0.4.0--pyh84498cf_0: 
-    sha256:662afad98452cbfcefe163091da20315be3f9837a1b82708f123e63444366196
+  0.6.3--pyh84498cf_0: 
+    sha256:c2e49f1622ad4ea06414f7d664440a0df95d0d2fde47296121e9d6111b8955a3
 tags:
   0.4.0--pyh84498cf_0: 
     sha256:662afad98452cbfcefe163091da20315be3f9837a1b82708f123e63444366196
+  0.6.3--pyh84498cf_0: 
+    sha256:c2e49f1622ad4ea06414f7d664440a0df95d0d2fde47296121e9d6111b8955a3
 docker: quay.io/biocontainers/trace-crispr
 aliases:
   alignrandom.sh: /usr/local/bin/alignrandom.sh

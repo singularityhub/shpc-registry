@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-weitrix
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:acc50a6a6cbde18be6c2d1c4595aae58ff31e2ddff9eac90a7bf91e53834566b
+  1.22.0--r45hdfd78af_0: 
+    sha256:3c28c7c97cac0b7eb2ba1e9fea87877560dce5384778bf8c31f61b1e0f2ee892
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:c5989f3483caadb7bda5a89e558444c312ba72cb45b6e6791c358ecb013be781
@@ -16,4 +16,6 @@ tags:
     sha256:5df2c7e190f3a54677cf521b5bb9ea84e49a0e13a66d10f878666b060e72630b
   1.18.0--r44hdfd78af_0: 
     sha256:acc50a6a6cbde18be6c2d1c4595aae58ff31e2ddff9eac90a7bf91e53834566b
+  1.22.0--r45hdfd78af_0: 
+    sha256:3c28c7c97cac0b7eb2ba1e9fea87877560dce5384778bf8c31f61b1e0f2ee892
 docker: quay.io/biocontainers/bioconductor-weitrix

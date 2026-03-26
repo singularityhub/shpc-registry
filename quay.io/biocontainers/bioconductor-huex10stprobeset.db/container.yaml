@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-huex10stprobeset.db
 latest:
-  8.8.0--r44hdfd78af_5: 
-    sha256:f5e09eb78d407924d97c467329d426c0f66fe7ff7f988ed6656b5f46b012a49f
+  8.8.0--r45hdfd78af_6: 
+    sha256:704ef1f57bfb3970002608f2f844601edc47599a2c0c7fb6933c585232148103
 tags:
   8.8.0--r41hdfd78af_1: 
     sha256:ec416066ab85c4fdf9050682d6d5c36ccb5e3ca7561b14e52a85e30593bbc497
@@ -16,4 +16,6 @@ tags:
     sha256:49c8116bbb628e57aa131abaf81f8e1fd38dce38e8dcc69a482b605c190dbdd1
   8.8.0--r44hdfd78af_5: 
     sha256:f5e09eb78d407924d97c467329d426c0f66fe7ff7f988ed6656b5f46b012a49f
+  8.8.0--r45hdfd78af_6: 
+    sha256:704ef1f57bfb3970002608f2f844601edc47599a2c0c7fb6933c585232148103
 docker: quay.io/biocontainers/bioconductor-huex10stprobeset.db

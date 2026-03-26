@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-bobafit
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:785e4b717dbf3c108f1b0232263c3f1439df42c8c15d68028307c98de74e9685
+  1.14.0--r45hdfd78af_0: 
+    sha256:865c534fbd05cc487d81c908af444e2240e2f7d3f084125bd6b6e8ef37f0b18b
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:079dea89a1567be08cbe7255353cf23398a4a575e0ad5208a3f59b5de5d10700
@@ -14,6 +14,8 @@ tags:
     sha256:ec8da7d72ce3e50c8786c191e8a5823ddaa0393f5be606f972a66056b076584e
   1.10.0--r44hdfd78af_0: 
     sha256:785e4b717dbf3c108f1b0232263c3f1439df42c8c15d68028307c98de74e9685
+  1.14.0--r45hdfd78af_0: 
+    sha256:865c534fbd05cc487d81c908af444e2240e2f7d3f084125bd6b6e8ef37f0b18b
 docker: quay.io/biocontainers/bioconductor-bobafit
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

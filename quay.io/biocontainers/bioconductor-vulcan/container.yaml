@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-vulcan
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:cc66654c58aa538938fed0cca2f023d6344e789b76bc99c1b223194585dfa4c1
+  1.32.0--r45hdfd78af_0: 
+    sha256:ab7ba3b8782d4804534cd713e5e73770600ebcacee7f1276da6afa4972c8bb22
 tags:
   1.8.0--r36_0: 
     sha256:b9d407cede991f5b588e9af23d06b935e05119628c805bf6d52eb2d6af40e7fa
@@ -22,6 +22,8 @@ tags:
     sha256:055a3ee58813caa5f880e9a979e1e17e25365521972ecca3012662ce3b42f2e2
   1.28.0--r44hdfd78af_0: 
     sha256:cc66654c58aa538938fed0cca2f023d6344e789b76bc99c1b223194585dfa4c1
+  1.32.0--r45hdfd78af_0: 
+    sha256:ab7ba3b8782d4804534cd713e5e73770600ebcacee7f1276da6afa4972c8bb22
 docker: quay.io/biocontainers/bioconductor-vulcan
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

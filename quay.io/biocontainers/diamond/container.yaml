@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/diamond
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for diamond
 latest:
-  2.1.23--hf93d47f_0: 
-    sha256:1a40822c85795af45b73a0d6bdedceb5256324b32614b994d02566949ce0898f
+  2.1.24--hf93d47f_0: 
+    sha256:e3ba6557137d07280c1621804933f2684503872b7fb54d5140783121e6a77380
 tags:
   2.0.14--hdcc8f71_0: 
     sha256:275f3b3c587f8a40a39693db8acd91da8be6f053ff1426863da22061bd4e7957
@@ -37,6 +37,8 @@ tags:
     sha256:2998f309f5af94f5b69da8c15e01e7037a65179b81cd2d1ed955e06506f5b885
   2.1.23--hf93d47f_0: 
     sha256:1a40822c85795af45b73a0d6bdedceb5256324b32614b994d02566949ce0898f
+  2.1.24--hf93d47f_0: 
+    sha256:e3ba6557137d07280c1621804933f2684503872b7fb54d5140783121e6a77380
 docker: quay.io/biocontainers/diamond
 aliases:
   diamond: /usr/local/bin/diamond

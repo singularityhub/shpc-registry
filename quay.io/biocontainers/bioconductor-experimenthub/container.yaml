@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-experimenthub
 latest:
-  2.14.0--r44hdfd78af_0: 
-    sha256:ff4f23a2ca3916123ad9da716f675673f74e08682ed92b043f5918d27d8bbef5
+  3.0.0--r45hdfd78af_0: 
+    sha256:2e589b7d5c6431588756182c21238bae2d2650c303eb1e88a6c9df1d0882c721
 tags:
   2.2.0--r41hdfd78af_0: 
     sha256:0d1c16d5069ba5a318c9057e51059e1628df22d761d51fe2c6a7ac1fe415890e
@@ -16,4 +16,6 @@ tags:
     sha256:27676d8e31aaccf869a33efb6bc9d8cb59c10f890b63f3f31e3832be2fa6c55c
   2.14.0--r44hdfd78af_0: 
     sha256:ff4f23a2ca3916123ad9da716f675673f74e08682ed92b043f5918d27d8bbef5
+  3.0.0--r45hdfd78af_0: 
+    sha256:2e589b7d5c6431588756182c21238bae2d2650c303eb1e88a6c9df1d0882c721
 docker: quay.io/biocontainers/bioconductor-experimenthub

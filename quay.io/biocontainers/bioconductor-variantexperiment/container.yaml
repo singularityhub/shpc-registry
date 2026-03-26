@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-variantexperiment
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:ce4275f071c4e2a67a8fe7458c1c8055c5b7c5d1c2faa0c9f3b57a5905ad3f59
+  1.24.0--r45hdfd78af_0: 
+    sha256:621084d4b8b9fddf1211395c190ac5da055cc93a043e933d0c397236682f24ad
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:a598f71ae9cabedcf89a48fb4ed6b6162d60124b1ceb99ba9c9bb3c9adc174e6
@@ -16,4 +16,6 @@ tags:
     sha256:5277f0bc6779079754268980fd60f232c895bdf943b83556647874985d8a2692
   1.20.0--r44hdfd78af_0: 
     sha256:ce4275f071c4e2a67a8fe7458c1c8055c5b7c5d1c2faa0c9f3b57a5905ad3f59
+  1.24.0--r45hdfd78af_0: 
+    sha256:621084d4b8b9fddf1211395c190ac5da055cc93a043e933d0c397236682f24ad
 docker: quay.io/biocontainers/bioconductor-variantexperiment

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tricycle
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:a4e5e4c7fc4d770b44c091cabd3e95ae3d86f639177dc562ba834fd003870633
+  1.18.0--r45hdfd78af_0: 
+    sha256:0359f4ea413049903d7e56f69106337f3200ee85d8f37a9bb1aba5c44ac51515
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:d9c1dfbd26233cac9a36d1465e4deda7e1f0f4542130347cb74cc2a469d4b336
@@ -16,4 +16,6 @@ tags:
     sha256:44b862cbb41febeb1073cde994b43bf6fb86b035d02ec76523c3f6ce0e6fd7f0
   1.14.0--r44hdfd78af_0: 
     sha256:a4e5e4c7fc4d770b44c091cabd3e95ae3d86f639177dc562ba834fd003870633
+  1.18.0--r45hdfd78af_0: 
+    sha256:0359f4ea413049903d7e56f69106337f3200ee85d8f37a9bb1aba5c44ac51515
 docker: quay.io/biocontainers/bioconductor-tricycle

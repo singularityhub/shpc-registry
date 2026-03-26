@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-qsvar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-qsvar
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:5dacf868112f5e037dab37fa57a4cc2f5f5d7020ff4ed632731afb138feba2f1
+  1.14.0--r45hdfd78af_0: 
+    sha256:19f0725a0f81666706e1d69a47ee6c067b48c38f0298e42efd6f938b2f2c3657
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:a103a71b7779f1bc14f18244cee2c344588698fdbe8e7d2d35a9efb315b37c4c
@@ -13,6 +13,8 @@ tags:
     sha256:55690015464d3b48f32b0709104c8ae1a8465bfdaee73d2a07dd3f6d922de44b
   1.10.0--r44hdfd78af_0: 
     sha256:5dacf868112f5e037dab37fa57a4cc2f5f5d7020ff4ed632731afb138feba2f1
+  1.14.0--r45hdfd78af_0: 
+    sha256:19f0725a0f81666706e1d69a47ee6c067b48c38f0298e42efd6f938b2f2c3657
 docker: quay.io/biocontainers/bioconductor-qsvar
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

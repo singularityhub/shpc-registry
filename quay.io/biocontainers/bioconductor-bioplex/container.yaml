@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bioplex
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:f096269848b75ea87f842b8247ca047574b208e7e48f3db3c1dda3f9b8106106
+  1.16.1--r45hdfd78af_0: 
+    sha256:1b340d01575f17860aefe63f1524777316c442b1e66cc3095b42276fb5ff1367
 tags:
   1.0.1--r41hdfd78af_0: 
     sha256:54431d9178dafcca0b9bd9814ada771cac4ba159c7dc0914748fb685c6471869
@@ -16,4 +16,6 @@ tags:
     sha256:95056fafc2105b6443a762055def16e9879a70526367c40022f0b1115892e1bb
   1.12.0--r44hdfd78af_0: 
     sha256:f096269848b75ea87f842b8247ca047574b208e7e48f3db3c1dda3f9b8106106
+  1.16.1--r45hdfd78af_0: 
+    sha256:1b340d01575f17860aefe63f1524777316c442b1e66cc3095b42276fb5ff1367
 docker: quay.io/biocontainers/bioconductor-bioplex

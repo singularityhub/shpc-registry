@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ygs98cdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:9e6c7484de361b44389b66be4f1542e585dac9e8af2abc2a98ffc100c2aec8f1
+  2.18.0--r45hdfd78af_14: 
+    sha256:ad23335bdb21184b6d67b2cc326dee87065e8cfc2c95339a6b51c473a99b9ac0
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:b84f16f5ad2cc9cd3abc398d0f597ba38f63385d6826eab9d54f8104d5575787
@@ -16,4 +16,6 @@ tags:
     sha256:353713837c5c1dfa8258e39d6a0a46b1e4842f650f288fa64e3b1a1d1324995c
   2.18.0--r44hdfd78af_13: 
     sha256:9e6c7484de361b44389b66be4f1542e585dac9e8af2abc2a98ffc100c2aec8f1
+  2.18.0--r45hdfd78af_14: 
+    sha256:ad23335bdb21184b6d67b2cc326dee87065e8cfc2c95339a6b51c473a99b9ac0
 docker: quay.io/biocontainers/bioconductor-ygs98cdf

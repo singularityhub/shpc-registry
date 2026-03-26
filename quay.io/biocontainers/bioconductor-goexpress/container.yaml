@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-goexpress
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:6725d44e0fd74d3bbfa3ebf4f0805adfc3167e6647fc68a20681504810214775
+  1.44.0--r45hdfd78af_0: 
+    sha256:c26bca7cb33438cf8a856f07eceb9fa59868048feebabe7550a5d0401ee7749c
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:28af0a8a9c87e34f0cb591aad3f2ae8b5631d86eeb044e386a277dc12bee06e4
@@ -16,4 +16,6 @@ tags:
     sha256:7618383e1bdfc671a6590fedb6d481dead7e64cd2e7e4406a6e8f7ca3e74d526
   1.40.0--r44hdfd78af_0: 
     sha256:6725d44e0fd74d3bbfa3ebf4f0805adfc3167e6647fc68a20681504810214775
+  1.44.0--r45hdfd78af_0: 
+    sha256:c26bca7cb33438cf8a856f07eceb9fa59868048feebabe7550a5d0401ee7749c
 docker: quay.io/biocontainers/bioconductor-goexpress

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gimmemotifs-minimal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gimmemotifs-minimal
 latest:
-  0.18.1--py39hbcbf7aa_0: 
-    sha256:f50fda410782c9f995a0470a83d7c8bae551eda3d95ee9cfab431bdebebb5999
+  0.18.1--py310h7c10099_1: 
+    sha256:22f8e3100f3602cb5271fffbc373e6288958e25670c8ebe71559b0d3bc300305
 tags:
   0.18.0--py39h67e14b5_0: 
     sha256:5418d19012fdf808921c9ada237a7facbca7a07de7db3f578562fb051f85e97a
@@ -17,6 +17,8 @@ tags:
     sha256:4eee8d2470274ee7f14246d9fe88627c1cbdc6ee3c06716c8e5714fdfd27386f
   0.18.1--py39hbcbf7aa_0: 
     sha256:f50fda410782c9f995a0470a83d7c8bae551eda3d95ee9cfab431bdebebb5999
+  0.18.1--py310h7c10099_1: 
+    sha256:22f8e3100f3602cb5271fffbc373e6288958e25670c8ebe71559b0d3bc300305
 docker: quay.io/biocontainers/gimmemotifs-minimal
 aliases:
   attr: /usr/local/bin/attr

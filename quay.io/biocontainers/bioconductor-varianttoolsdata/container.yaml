@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-varianttoolsdata
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:154dec4ea4a2140a6bd35c8c0e14edcb8c6cedb9edf0b4cc45706cdd03832275
+  1.34.0--r45hdfd78af_0: 
+    sha256:8e07ec8a040617fd3293a02afeae5b45a2e277ebeb0678fbe11f7114d218ab55
 tags:
   1.8.0--r36_1: 
     sha256:30ed1b4ee1557ad7a947df5fc1f79c676bc6a8bd2d176dee2638ff6fb587df96
@@ -24,6 +24,8 @@ tags:
     sha256:f4cfda74a27e7361e344cdfd4a338451a1b316e21ffb57436102e0165a1c47ea
   1.30.0--r44hdfd78af_0: 
     sha256:154dec4ea4a2140a6bd35c8c0e14edcb8c6cedb9edf0b4cc45706cdd03832275
+  1.34.0--r45hdfd78af_0: 
+    sha256:8e07ec8a040617fd3293a02afeae5b45a2e277ebeb0678fbe11f7114d218ab55
 docker: quay.io/biocontainers/bioconductor-varianttoolsdata
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

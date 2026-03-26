@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-esetvis
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:d294043b3ba492b9d89daa1e5721dd54915e769723b878cac0e8039d64515bff
+  1.36.0--r45hdfd78af_0: 
+    sha256:95688035df155dfd23484aaeb4236c951858fd3b46ce35bdfef88dabd8ac60db
 tags:
   1.8.0--r351_0: 
     sha256:f0a1620096bdc2593a6b85192a698a00e2bbfcd814504b90b9cd281fd757f2c0
@@ -24,6 +24,8 @@ tags:
     sha256:1bc205d3eb99d5506b6742b3beb260eecb0e06ac31c0ecba0aca1e57b31bcdaf
   1.32.0--r44hdfd78af_0: 
     sha256:d294043b3ba492b9d89daa1e5721dd54915e769723b878cac0e8039d64515bff
+  1.36.0--r45hdfd78af_0: 
+    sha256:95688035df155dfd23484aaeb4236c951858fd3b46ce35bdfef88dabd8ac60db
 docker: quay.io/biocontainers/bioconductor-esetvis
 aliases:
   c89: /usr/local/bin/c89

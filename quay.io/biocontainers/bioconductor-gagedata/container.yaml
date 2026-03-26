@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gagedata
 latest:
-  2.44.0--r44hdfd78af_0: 
-    sha256:78459a0618d9b779d93a6297b338d2c115dc439efb5cf43246a5310cfedff3ea
+  2.48.0--r45hdfd78af_0: 
+    sha256:84430382ca69e21cdb9afa88db05701212f6aa4d1d02b07fecc08d6363e93123
 tags:
   2.8.0--0: 
     sha256:934badcb60b17e41ad41d2c767a9708c8db45f575378d9d52fcc76fadd38dc74
@@ -24,6 +24,8 @@ tags:
     sha256:1d319e4fa85ee9dc4c3bebf5950d1eea909475a57d07be138aa7003cfb4ad677
   2.44.0--r44hdfd78af_0: 
     sha256:78459a0618d9b779d93a6297b338d2c115dc439efb5cf43246a5310cfedff3ea
+  2.48.0--r45hdfd78af_0: 
+    sha256:84430382ca69e21cdb9afa88db05701212f6aa4d1d02b07fecc08d6363e93123
 docker: quay.io/biocontainers/bioconductor-gagedata
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

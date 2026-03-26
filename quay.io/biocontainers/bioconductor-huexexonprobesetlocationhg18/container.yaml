@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-huexexonprobesetlocationhg18
 latest:
-  0.0.2--r44hdfd78af_13: 
-    sha256:11af84e36b89ff82e265379d4696245212155c016ae93758cbfd333bb60b563d
+  0.0.2--r45hdfd78af_14: 
+    sha256:3d06ce4488383b8616f20eed99418b81b4b1f8e99859a3dc9d5102641b2ad61e
 tags:
   0.0.2--r41hdfd78af_9: 
     sha256:1b001aa29b3d5d3dac6896078a1e07879c7014945938c6d71e96176445d2f1b6
@@ -16,4 +16,6 @@ tags:
     sha256:d6c16e4385e6492c33c49ba7775e40c2e28e19ece17266947a400d0dee6e3b86
   0.0.2--r44hdfd78af_13: 
     sha256:11af84e36b89ff82e265379d4696245212155c016ae93758cbfd333bb60b563d
+  0.0.2--r45hdfd78af_14: 
+    sha256:3d06ce4488383b8616f20eed99418b81b4b1f8e99859a3dc9d5102641b2ad61e
 docker: quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg18

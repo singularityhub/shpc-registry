@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-simbenchdata
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:cbd70c88c5ae82a4ca2ec4684cfddda8436b7214fa3c7518c462c90b16435511
+  1.18.0--r45hdfd78af_0: 
+    sha256:612992332099d5bd63f173895754ef810ae57716497fd72a4d7abfa7a29f3efe
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:681ad4a4edb5165104ddcf4bc507a59755c70ac44039d3c9d69fc07cb7be67db
@@ -16,4 +16,6 @@ tags:
     sha256:e5629796d6d642eeee2ad1a5028f7669293426e386f7762cbe9b5dd18eb5d5c0
   1.14.0--r44hdfd78af_0: 
     sha256:cbd70c88c5ae82a4ca2ec4684cfddda8436b7214fa3c7518c462c90b16435511
+  1.18.0--r45hdfd78af_0: 
+    sha256:612992332099d5bd63f173895754ef810ae57716497fd72a4d7abfa7a29f3efe
 docker: quay.io/biocontainers/bioconductor-simbenchdata

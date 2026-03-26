@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/deepvariant
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deepvariant
 latest:
-  1.9.0--pyh697b589_0: 
-    sha256:94678441a0056851502a7e0502c0e9fa03951816fb596bd9e6bc30680fd42e00
+  1.10.0--pyh697b589_0: 
+    sha256:0e6b7249549d63b5cd864990422a562f3c5736e9041d9489bcad31da898ae24d
 tags:
   1.4.0--py36hf3e76ba_0: 
     sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3
@@ -13,6 +13,8 @@ tags:
     sha256:94678441a0056851502a7e0502c0e9fa03951816fb596bd9e6bc30680fd42e00
   1.8.0--pyh697b589_0: 
     sha256:68c78859826e2c7dc40a460f3f0c3b9818b05c0522f43731910f0a7efb047d96
+  1.10.0--pyh697b589_0: 
+    sha256:0e6b7249549d63b5cd864990422a562f3c5736e9041d9489bcad31da898ae24d
 docker: quay.io/biocontainers/deepvariant
 aliases:
   bq: /usr/local/bin/bq

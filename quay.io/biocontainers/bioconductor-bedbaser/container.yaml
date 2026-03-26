@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-bedbaser
 latest:
-  1.2.4--r45hdfd78af_0: 
-    sha256:ea0503fa00d931c9c7ad5a22c1425d3762ab3995b4f2bafad735eb09123f5565
+  1.2.6--r45hdfd78af_0: 
+    sha256:aa83abd506fce6be201f74a154cf3a99c636ab7cb9c555ac2b0c01b3c9c5263c
 tags:
   1.2.4--r45hdfd78af_0: 
     sha256:ea0503fa00d931c9c7ad5a22c1425d3762ab3995b4f2bafad735eb09123f5565
+  1.2.6--r45hdfd78af_0: 
+    sha256:aa83abd506fce6be201f74a154cf3a99c636ab7cb9c555ac2b0c01b3c9c5263c
 docker: quay.io/biocontainers/bioconductor-bedbaser
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

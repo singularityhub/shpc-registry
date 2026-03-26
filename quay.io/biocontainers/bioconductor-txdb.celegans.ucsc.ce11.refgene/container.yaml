@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.celegans.ucsc.ce11.refgene
 latest:
-  3.4.6--r44hdfd78af_12: 
-    sha256:d54e46aa46c76d8955d53622172e53c47de86d5458d01c4c754f7090ea8e94d5
+  3.4.6--r45hdfd78af_13: 
+    sha256:9419db3bf5c155aaee91af7f3bf019ad93d28f2ab8037e433089f2a11ccc1241
 tags:
   3.4.6--r41hdfd78af_8: 
     sha256:7cf1187a5abff7dda1ad19db3a7f4b7df751c2774a4b3998c77b21f499d19a63
@@ -17,4 +17,6 @@ tags:
     sha256:e8da9e869e94626c169f2d243d41f6d65e38bd07283df79c592579dea05eed65
   3.4.6--r44hdfd78af_12: 
     sha256:d54e46aa46c76d8955d53622172e53c47de86d5458d01c4c754f7090ea8e94d5
+  3.4.6--r45hdfd78af_13: 
+    sha256:9419db3bf5c155aaee91af7f3bf019ad93d28f2ab8037e433089f2a11ccc1241
 docker: quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene

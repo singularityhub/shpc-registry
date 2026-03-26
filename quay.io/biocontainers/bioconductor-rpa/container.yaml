@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rpa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rpa
 latest:
-  1.62.0--r44hdfd78af_0: 
-    sha256:c27d5c70822e1911c823d3ed722cf91e2e81aadfa1df8b39eeb05281508b31e2
+  1.66.0--r45hdfd78af_0: 
+    sha256:2a11564ce9873f6fbbb80a04bacf9891cafa6f403a06e3ad75f5ceb5dc1656d7
 tags:
   1.50.0--r41hdfd78af_0: 
     sha256:974284081b51d3875966e3790be07c892e29c5913a00f6bab5a9b1015f6e41a2
@@ -15,6 +15,8 @@ tags:
     sha256:49f643611ffe0943552b2e4df2d0a036d2d88e4797b52ac77a51e9f0fb0aa949
   1.62.0--r44hdfd78af_0: 
     sha256:c27d5c70822e1911c823d3ed722cf91e2e81aadfa1df8b39eeb05281508b31e2
+  1.66.0--r45hdfd78af_0: 
+    sha256:2a11564ce9873f6fbbb80a04bacf9891cafa6f403a06e3ad75f5ceb5dc1656d7
 docker: quay.io/biocontainers/bioconductor-rpa
 aliases:
   pandoc: /usr/local/bin/pandoc
