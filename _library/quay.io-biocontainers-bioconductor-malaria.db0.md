@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-malaria.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-malaria.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-malaria.db0/container.yaml"
-updated_at: "2026-03-25 05:12:44.266486"
+updated_at: "2026-03-26 05:22:31.110785"
 latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-malaria.db0"
 aliases:

@@ -4,7 +4,7 @@ name:  "openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/openjdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/openjdk/container.yaml"
-updated_at: "2026-03-25 04:24:10.118247"
+updated_at: "2026-03-26 05:35:00.062937"
 latest: "26"
 container_url: "https://hub.docker.com/_/openjdk"
 aliases:

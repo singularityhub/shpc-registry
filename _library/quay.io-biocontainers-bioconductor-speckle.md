@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-speckle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-speckle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-speckle/container.yaml"
-updated_at: "2026-03-25 04:41:37.461017"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-03-26 05:14:35.499380"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-speckle"
 aliases:
  - "geosop"
@@ -33,8 +33,9 @@ versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-speckle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-speckle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-speckle", "latest": {"1.6.0--r44hdfd78af_0": "sha256:b8576d497cecdf9a706833fa14d5bd6276d46eafdb88c89d4cc36da2fb89b568"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:0b5e7f951c7e98affbbfe19db0377f8e2ceddf6bb56d7d9f187ac562f224b55c", "1.2.0--r43hdfd78af_0": "sha256:db6c983df963a7b04012d746979eb2c80f755ac2dc12d7a8dd5c27dade4801aa", "1.6.0--r44hdfd78af_0": "sha256:b8576d497cecdf9a706833fa14d5bd6276d46eafdb88c89d4cc36da2fb89b568"}, "docker": "quay.io/biocontainers/bioconductor-speckle", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-speckle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-speckle", "latest": {"1.10.0--r45hdfd78af_0": "sha256:4ac8d00d3086acf6ff4905e701d40d5c96ff04b53c6a70ae1109cec3ee2948b6"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:0b5e7f951c7e98affbbfe19db0377f8e2ceddf6bb56d7d9f187ac562f224b55c", "1.2.0--r43hdfd78af_0": "sha256:db6c983df963a7b04012d746979eb2c80f755ac2dc12d7a8dd5c27dade4801aa", "1.6.0--r44hdfd78af_0": "sha256:b8576d497cecdf9a706833fa14d5bd6276d46eafdb88c89d4cc36da2fb89b568", "1.10.0--r45hdfd78af_0": "sha256:4ac8d00d3086acf6ff4905e701d40d5c96ff04b53c6a70ae1109cec3ee2948b6"}, "docker": "quay.io/biocontainers/bioconductor-speckle", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-speckle.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/bioconductor-speckle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-speckle:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-speckle:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-speckle/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-speckle/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-speckle/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-speckle/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

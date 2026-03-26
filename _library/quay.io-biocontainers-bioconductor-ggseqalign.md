@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ggseqalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggseqalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggseqalign/container.yaml"
-updated_at: "2026-03-25 04:50:07.871878"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-03-26 05:32:26.056020"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggseqalign"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -26,8 +26,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-ggseqalign"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggseqalign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ggseqalign", "latest": {"1.0.0--r44hdfd78af_0": "sha256:e99dd7474028df7a4c204cf6c174c301a694ed548408306895f03f5a827008ff"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:e99dd7474028df7a4c204cf6c174c301a694ed548408306895f03f5a827008ff"}, "docker": "quay.io/biocontainers/bioconductor-ggseqalign", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggseqalign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-ggseqalign", "latest": {"1.4.0--r45hdfd78af_0": "sha256:f4e27d9a3b30720c9d3181a9643273e8a75b73ca0d8d197e5f8c06b8f741288f"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:e99dd7474028df7a4c204cf6c174c301a694ed548408306895f03f5a827008ff", "1.4.0--r45hdfd78af_0": "sha256:f4e27d9a3b30720c9d3181a9643273e8a75b73ca0d8d197e5f8c06b8f741288f"}, "docker": "quay.io/biocontainers/bioconductor-ggseqalign", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggseqalign.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ggseqalign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ggseqalign:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ggseqalign:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ggseqalign/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ggseqalign/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ggseqalign/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ggseqalign/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

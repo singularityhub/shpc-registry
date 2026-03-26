@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/raxtax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raxtax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raxtax/container.yaml"
-updated_at: "2026-03-25 04:42:15.276259"
+updated_at: "2026-03-26 05:29:26.434579"
 latest: "1.5.0--h4349ce8_1"
 container_url: "https://biocontainers.pro/tools/raxtax"
 aliases:

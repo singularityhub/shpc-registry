@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mtgrasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtgrasp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtgrasp/container.yaml"
-updated_at: "2026-03-25 05:05:47.518592"
+updated_at: "2026-03-26 04:39:24.809701"
 latest: "1.1.8--py312hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mtgrasp"
 aliases:

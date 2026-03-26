@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/edentity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edentity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edentity/container.yaml"
-updated_at: "2026-03-25 05:02:34.241901"
-latest: "1.5.5--pyhdfd78af_0"
+updated_at: "2026-03-26 05:17:32.227071"
+latest: "1.5.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/edentity"
 aliases:
  - "edentity"
@@ -43,8 +43,9 @@ versions:
  - "1.5.2--pyhdfd78af_0"
  - "1.5.3--pyhdfd78af_0"
  - "1.5.5--pyhdfd78af_0"
+ - "1.5.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for edentity"
-config: {"url": "https://biocontainers.pro/tools/edentity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for edentity", "latest": {"1.5.5--pyhdfd78af_0": "sha256:b6c88776130f0e0f69ab733c2193c8bd98ccf87f1b20d066c8489f1c77e925fa"}, "tags": {"1.4.5--pyhdfd78af_0": "sha256:2bf030733462c8a9cf6a41bd71e796751fcbfa1066c947a9b49fb28c6679cfbf", "1.4.7--pyhdfd78af_0": "sha256:d688747e15ee51af3a3710f46478a328f14393f8a278233c2bc4d0c467bca6a9", "1.4.9--pyhdfd78af_0": "sha256:70cba115b38eb529e33672b40f36bcb21ee08e2b85cd1a7bd821d0992d6063a6", "1.5.2--pyhdfd78af_0": "sha256:82d57e2d2314ca6c95d0c01a737c50c90c734b5fb72edd2abc76f586fe8d8f47", "1.5.3--pyhdfd78af_0": "sha256:e469aa9a2bd224ecd725a899d4c4be6471177ae3884f89635d2f5296ca253e5d", "1.5.5--pyhdfd78af_0": "sha256:b6c88776130f0e0f69ab733c2193c8bd98ccf87f1b20d066c8489f1c77e925fa"}, "docker": "quay.io/biocontainers/edentity", "aliases": {"edentity": "/usr/local/bin/edentity", "phc": "/usr/local/bin/phc", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "dotenv": "/usr/local/bin/dotenv", "typer": "/usr/local/bin/typer", "eido": "/usr/local/bin/eido", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "multiqc": "/usr/local/bin/multiqc", "rich-click": "/usr/local/bin/rich-click", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "fastp": "/usr/local/bin/fastp", "vsearch": "/usr/local/bin/vsearch", "cutadapt": "/usr/local/bin/cutadapt", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat"}}
+config: {"url": "https://biocontainers.pro/tools/edentity", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for edentity", "latest": {"1.5.6--pyhdfd78af_0": "sha256:44131c031657cc716fe6877b3b2ccbea18252821b0aeea0061c2335ea6668df3"}, "tags": {"1.4.5--pyhdfd78af_0": "sha256:2bf030733462c8a9cf6a41bd71e796751fcbfa1066c947a9b49fb28c6679cfbf", "1.4.7--pyhdfd78af_0": "sha256:d688747e15ee51af3a3710f46478a328f14393f8a278233c2bc4d0c467bca6a9", "1.4.9--pyhdfd78af_0": "sha256:70cba115b38eb529e33672b40f36bcb21ee08e2b85cd1a7bd821d0992d6063a6", "1.5.2--pyhdfd78af_0": "sha256:82d57e2d2314ca6c95d0c01a737c50c90c734b5fb72edd2abc76f586fe8d8f47", "1.5.3--pyhdfd78af_0": "sha256:e469aa9a2bd224ecd725a899d4c4be6471177ae3884f89635d2f5296ca253e5d", "1.5.5--pyhdfd78af_0": "sha256:b6c88776130f0e0f69ab733c2193c8bd98ccf87f1b20d066c8489f1c77e925fa", "1.5.6--pyhdfd78af_0": "sha256:44131c031657cc716fe6877b3b2ccbea18252821b0aeea0061c2335ea6668df3"}, "docker": "quay.io/biocontainers/edentity", "aliases": {"edentity": "/usr/local/bin/edentity", "phc": "/usr/local/bin/phc", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "dotenv": "/usr/local/bin/dotenv", "typer": "/usr/local/bin/typer", "eido": "/usr/local/bin/eido", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "multiqc": "/usr/local/bin/multiqc", "rich-click": "/usr/local/bin/rich-click", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "fastp": "/usr/local/bin/fastp", "vsearch": "/usr/local/bin/vsearch", "cutadapt": "/usr/local/bin/cutadapt", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/edentity.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/edentity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/edentity:1.5.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/edentity:1.5.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/edentity/1.5.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/edentity/1.5.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/edentity/1.5.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/edentity/1.5.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

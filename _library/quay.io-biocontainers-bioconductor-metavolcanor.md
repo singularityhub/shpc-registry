@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metavolcanor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metavolcanor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metavolcanor/container.yaml"
-updated_at: "2026-03-25 04:28:43.199528"
+updated_at: "2026-03-26 05:11:05.674900"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metavolcanor"
 
