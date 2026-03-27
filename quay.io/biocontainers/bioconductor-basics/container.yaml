@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-basics
 latest:
-  2.18.0--r44he5774e6_0: 
-    sha256:d9faea7dc2956edad8830837b8e65cdf2a1a69b62db91433b4f50e679e32002f
+  2.22.0--r45ha27e39d_0: 
+    sha256:c76072efa12316643a78eebaf4b86f68886b66b243b2bc690c3fc0d2b7766fb6
 tags:
   2.6.0--r41hc247a5b_2: 
     sha256:352c976fc8e71db491868d8f0a731d846e04c5b24a387cd59d91f7759033b186
@@ -18,6 +18,8 @@ tags:
     sha256:03006bdca043b55a3364a87d2b3eecb048ca56111de968a7f15d4418e2395de6
   2.18.0--r44he5774e6_0: 
     sha256:d9faea7dc2956edad8830837b8e65cdf2a1a69b62db91433b4f50e679e32002f
+  2.22.0--r45ha27e39d_0: 
+    sha256:c76072efa12316643a78eebaf4b86f68886b66b243b2bc690c3fc0d2b7766fb6
 docker: quay.io/biocontainers/bioconductor-basics
 aliases:
   glpsol: /usr/local/bin/glpsol

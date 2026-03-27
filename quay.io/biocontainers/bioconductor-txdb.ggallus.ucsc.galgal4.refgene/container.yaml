@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.ggallus.ucsc.galgal4.refgene
 latest:
-  3.12.0--r44hdfd78af_8: 
-    sha256:2e6c83168ca957f631f436a7d83f395a57034a4320fc0eed06d8c568c5e74f16
+  3.12.0--r45hdfd78af_9: 
+    sha256:0ff606d0a9c1c03248b586f02bead8c27bedaa1437d5588ead87905088fb1d81
 tags:
   3.4.6--r36_1: 
     sha256:326d6f0ecde1ca5a3014d9c7664b06ee2305a59bd3f2ebc6e2a1b4c68a3b6b0e
@@ -21,6 +21,8 @@ tags:
     sha256:42137a59532b332a70b706f631403896055c194fa521c0a15eb0418304b41c6a
   3.12.0--r44hdfd78af_8: 
     sha256:2e6c83168ca957f631f436a7d83f395a57034a4320fc0eed06d8c568c5e74f16
+  3.12.0--r45hdfd78af_9: 
+    sha256:0ff606d0a9c1c03248b586f02bead8c27bedaa1437d5588ead87905088fb1d81
 docker: quay.io/biocontainers/bioconductor-txdb.ggallus.ucsc.galgal4.refgene
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

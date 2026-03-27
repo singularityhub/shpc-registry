@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pmp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pmp
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:7d41872d1f870b304e8d02255fb29e321b7e05ad857d14f2c91383c3f203016d
+  1.22.1--r45hdfd78af_0: 
+    sha256:22aafd768f3bed14670e118adbfc9a357ae0b1a72aaac86129648bbe769c7626
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:3822b7d67601931251672deb9320dfc4d6cec33fb0f657877c88a6520020c9c2
@@ -15,4 +15,6 @@ tags:
     sha256:8fc119a0320019072a2995b514fc09a016851fe586a58890c403856885bdc09e
   1.18.0--r44hdfd78af_0: 
     sha256:7d41872d1f870b304e8d02255fb29e321b7e05ad857d14f2c91383c3f203016d
+  1.22.1--r45hdfd78af_0: 
+    sha256:22aafd768f3bed14670e118adbfc9a357ae0b1a72aaac86129648bbe769c7626
 docker: quay.io/biocontainers/bioconductor-pmp

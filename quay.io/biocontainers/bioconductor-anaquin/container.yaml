@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-anaquin
 latest:
-  2.30.0--r44hdfd78af_0: 
-    sha256:6b596edae6bd49c79d364aec264592207357113df9b7bcfe30d5c01627a22961
+  2.34.0--r45hdfd78af_0: 
+    sha256:0d7e8b1c916b0e86e04482de54837feb78802e0c13cf268e80862a1efd63bde6
 tags:
   2.8.0--r36_1: 
     sha256:cb64a8f0e4d7a3dde52545e33384e8623caf3cc1c31a386d51adb5c800386319
@@ -24,6 +24,8 @@ tags:
     sha256:fe778a10c26d0f45020141a2a0c041855c6f83edf17678c7729f76afdc8b2acd
   2.30.0--r44hdfd78af_0: 
     sha256:6b596edae6bd49c79d364aec264592207357113df9b7bcfe30d5c01627a22961
+  2.34.0--r45hdfd78af_0: 
+    sha256:0d7e8b1c916b0e86e04482de54837feb78802e0c13cf268e80862a1efd63bde6
 docker: quay.io/biocontainers/bioconductor-anaquin
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

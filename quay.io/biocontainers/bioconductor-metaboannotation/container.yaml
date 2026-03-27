@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-metaboannotation
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:f03bb77390024a61bc924aabddc09873e8207dce74f280cd79017a63ebbca9c4
+  1.14.0--r45hdfd78af_0: 
+    sha256:d3db5f215e47336e0d2dfb0b5000985bf6022c40030e9134a8176bf7deee3748
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:71f6882b5c315a0870d8bb249ac0904b457929d65bbcaf6357f48fb58a6c241a
@@ -14,6 +14,8 @@ tags:
     sha256:d65a2e01e2d0ef9348e3bb4cf5ff6bc894e78df1a451b882320221d0d9755ff4
   1.10.0--r44hdfd78af_0: 
     sha256:f03bb77390024a61bc924aabddc09873e8207dce74f280cd79017a63ebbca9c4
+  1.14.0--r45hdfd78af_0: 
+    sha256:d3db5f215e47336e0d2dfb0b5000985bf6022c40030e9134a8176bf7deee3748
 docker: quay.io/biocontainers/bioconductor-metaboannotation
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

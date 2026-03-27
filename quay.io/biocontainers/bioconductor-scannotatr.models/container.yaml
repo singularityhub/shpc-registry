@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scannotatr.models
 latest:
-  0.99.10--r44hdfd78af_5: 
-    sha256:712acd5553a5f63ef5b3f33e064da562c52eee0e63ffdf577a5d692d9466aab5
+  0.99.10--r45hdfd78af_6: 
+    sha256:2216b5a8bb9f36808d825f5e79c4ea7439be626518ecbd35d4e140f8949f1f72
 tags:
   0.99.10--r41hdfd78af_1: 
     sha256:93685c6c91e3c5d920eb33a867c9dc81d13161acbb28d80366a7748ec639156d
@@ -16,4 +16,6 @@ tags:
     sha256:e1db0e61426bcdfe1c76dcdc052575133398031b47988745114348e9f652b79d
   0.99.10--r44hdfd78af_5: 
     sha256:712acd5553a5f63ef5b3f33e064da562c52eee0e63ffdf577a5d692d9466aab5
+  0.99.10--r45hdfd78af_6: 
+    sha256:2216b5a8bb9f36808d825f5e79c4ea7439be626518ecbd35d4e140f8949f1f72
 docker: quay.io/biocontainers/bioconductor-scannotatr.models

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-beat
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:fed8e8847564292ffcd1bb816c6a498bbf48f9935d4f83280f4d14e5274d3f1d
+  1.48.0--r45hdfd78af_0: 
+    sha256:02afae5142a0919b0d325bc9bc06d7907efbd8a220845ac4e0f095c3444813b0
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:e5159a2671fe112ac661cd9f37dabf6606a4c1db6f4944adbb812b636fbcc173
@@ -16,4 +16,6 @@ tags:
     sha256:f76df35df86af0d38b7094310e12660c0192817a8b21661f76a5dd360a10ef3e
   1.44.0--r44hdfd78af_0: 
     sha256:fed8e8847564292ffcd1bb816c6a498bbf48f9935d4f83280f4d14e5274d3f1d
+  1.48.0--r45hdfd78af_0: 
+    sha256:02afae5142a0919b0d325bc9bc06d7907efbd8a220845ac4e0f095c3444813b0
 docker: quay.io/biocontainers/bioconductor-beat

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hmp16sdata
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:6b06b8eb758e18b9aef6ecd6dbe930a41def6957e614ddad9565cc0f9d61e97d
+  1.30.0--r45hdfd78af_0: 
+    sha256:9d8e916b6e135ee1fcf1290a1f2ce74b2fc1c198cb74f1c72c62c3878eb2b5f2
 tags:
   1.8.0--r40_0: 
     sha256:35c1f1f7dbbc47de0bce3833c214731b1433b26632b9d989878f04788b88241a
@@ -22,6 +22,8 @@ tags:
     sha256:cb7f0fae91b3e82b6f401f814c9e06d9b1917df5c7d1172b6ab2d42527d571c5
   1.26.0--r44hdfd78af_0: 
     sha256:6b06b8eb758e18b9aef6ecd6dbe930a41def6957e614ddad9565cc0f9d61e97d
+  1.30.0--r45hdfd78af_0: 
+    sha256:9d8e916b6e135ee1fcf1290a1f2ce74b2fc1c198cb74f1c72c62c3878eb2b5f2
 docker: quay.io/biocontainers/bioconductor-hmp16sdata
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

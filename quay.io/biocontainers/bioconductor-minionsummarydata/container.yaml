@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-minionsummarydata
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:5f145d5b1f13e5185c563cf1ae298d2f5b15273ff7ec8f4fa08a5a72fe4f4e5e
+  1.40.0--r45hdfd78af_0: 
+    sha256:e49b97516f72fb5f8fea553e37a6c9adbc0839917f52c9954f1763b0f3c0a3a1
 tags:
   1.24.0--r41hdfd78af_1: 
     sha256:4299144aa702268ac2f805f2d216d8a308d5d37917628d5e4d4317b89d3d1d84
@@ -16,4 +16,6 @@ tags:
     sha256:52bc778694259424f8021aa060f73a48d271bfdfd1247806c420794629263dea
   1.36.0--r44hdfd78af_0: 
     sha256:5f145d5b1f13e5185c563cf1ae298d2f5b15273ff7ec8f4fa08a5a72fe4f4e5e
+  1.40.0--r45hdfd78af_0: 
+    sha256:e49b97516f72fb5f8fea553e37a6c9adbc0839917f52c9954f1763b0f3c0a3a1
 docker: quay.io/biocontainers/bioconductor-minionsummarydata

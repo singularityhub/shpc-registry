@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gosemsim
 latest:
-  2.32.0--r44he5774e6_1: 
-    sha256:414a8823dc492336603626c80c96a62ce30ed347741d7ba15c0ec5df005edfc0
+  2.36.0--r45ha27e39d_0: 
+    sha256:cf97eac621f4e33071bbb504d71072aed37317ba10e7002ae4f31d86c7c49c36
 tags:
   2.8.0--r351hf484d3e_0: 
     sha256:5332530d344421add8114d205a29da02a851ddea03d60cb628fbd2a7efa1d925
@@ -30,6 +30,8 @@ tags:
     sha256:6d7657395019418a93cd7d45f2d3066640f3838f3a108af114b33c89324fcbed
   2.32.0--r44he5774e6_1: 
     sha256:414a8823dc492336603626c80c96a62ce30ed347741d7ba15c0ec5df005edfc0
+  2.36.0--r45ha27e39d_0: 
+    sha256:cf97eac621f4e33071bbb504d71072aed37317ba10e7002ae4f31d86c7c49c36
 docker: quay.io/biocontainers/bioconductor-gosemsim
 aliases:
   wget: /usr/local/bin/wget

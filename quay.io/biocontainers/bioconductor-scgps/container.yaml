@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scgps
 latest:
-  1.20.0--r44he5774e6_0: 
-    sha256:6716a497fa93a9a770d8c9904447cf2179667cefb837eab839662d913fbbd5e5
+  1.24.0--r45ha27e39d_0: 
+    sha256:d9a13dc590c53568bf8eed6f6da2084fa222a500d37a0bbb46a1f738eb5d5075
 tags:
   1.8.0--r41hc247a5b_2: 
     sha256:2cf721c12b5a034157637b687ff328821dcc6718eae6315df861f4da3a84af4c
@@ -18,4 +18,6 @@ tags:
     sha256:e8efadba5cf655af2ee59d823f7213e35911104838379f372578bc9fc989d025
   1.20.0--r44he5774e6_0: 
     sha256:6716a497fa93a9a770d8c9904447cf2179667cefb837eab839662d913fbbd5e5
+  1.24.0--r45ha27e39d_0: 
+    sha256:d9a13dc590c53568bf8eed6f6da2084fa222a500d37a0bbb46a1f738eb5d5075
 docker: quay.io/biocontainers/bioconductor-scgps

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rarevariantvis
 latest:
-  2.30.0--r43hdfd78af_0: 
-    sha256:695b25e332f605cb58f07bc14c95481a223b41484a00dd6f4599517857e26ded
+  2.38.0--r45hdfd78af_0: 
+    sha256:913469aef0695aa4f6d76db1154938e41fe39e340e1a3448b290a39623a67fd5
 tags:
   2.8.0--r351_0: 
     sha256:1f1eb9a7b5b313e9321ca8830a4007521511d0801052b4026c46eb119bdd9a0e
@@ -22,6 +22,8 @@ tags:
     sha256:58a0b80f4b6f92681a634d62e79640e2927abe744c409def2b24f0a1b0be1183
   2.30.0--r43hdfd78af_0: 
     sha256:695b25e332f605cb58f07bc14c95481a223b41484a00dd6f4599517857e26ded
+  2.38.0--r45hdfd78af_0: 
+    sha256:913469aef0695aa4f6d76db1154938e41fe39e340e1a3448b290a39623a67fd5
 docker: quay.io/biocontainers/bioconductor-rarevariantvis
 aliases:
   wget: /usr/local/bin/wget

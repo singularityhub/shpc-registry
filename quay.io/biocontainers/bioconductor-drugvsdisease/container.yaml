@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-drugvsdisease
 latest:
-  2.48.0--r44hdfd78af_0: 
-    sha256:e8be12488fcf477d97aba335b6bdeb9f19bf5b652252d99296cca5f3db9aab06
+  2.52.0--r45hdfd78af_0: 
+    sha256:faba401403db0121b5e429883ab1999f8a2cb93228977244053afd72f7b37839
 tags:
   2.36.0--r41hdfd78af_0: 
     sha256:7598c01a8c906e583ebb572d584cd4f6703612817d0c04d031d75356466c1787
@@ -16,4 +16,6 @@ tags:
     sha256:ad0ea08a3ac8999cb43cc5487856c9b4cd8d0aeeb1dd9b4be8a3bba0fdf7538d
   2.48.0--r44hdfd78af_0: 
     sha256:e8be12488fcf477d97aba335b6bdeb9f19bf5b652252d99296cca5f3db9aab06
+  2.52.0--r45hdfd78af_0: 
+    sha256:faba401403db0121b5e429883ab1999f8a2cb93228977244053afd72f7b37839
 docker: quay.io/biocontainers/bioconductor-drugvsdisease

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/severus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for severus
 latest:
-  1.6--pyhdfd78af_0: 
-    sha256:df04bec4a0ae9c55104ff91d6063d8c7c58b05145db04ad481f5d3d9527a9b7d
+  1.7--pyhdfd78af_0: 
+    sha256:3043ad2a15274101180131479dd9bfb4aa2984abc2a1a41abb76c4d08fa13d54
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:1f7eb598ed310b7d676d9107f1cecdce918acd469c563d4cb47b8ac81cd86048
@@ -23,6 +23,8 @@ tags:
     sha256:9aaf81a02cc7f8be5dd9bb3bece00b9097f08368cebce297aba9aa7fc932b42e
   1.6--pyhdfd78af_0: 
     sha256:df04bec4a0ae9c55104ff91d6063d8c7c58b05145db04ad481f5d3d9527a9b7d
+  1.7--pyhdfd78af_0: 
+    sha256:3043ad2a15274101180131479dd9bfb4aa2984abc2a1a41abb76c4d08fa13d54
 docker: quay.io/biocontainers/severus
 aliases:
   severus: /usr/local/bin/severus

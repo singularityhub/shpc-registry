@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rae230b.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:bcfc8cc4ced6eefb1c56faefd4fbb4dcf437f0aa4b86db5ed4d2fee4474cde35
+  3.13.0--r45hdfd78af_6: 
+    sha256:4b077caf1adad6d5b93535d63bad56a11b1161b7efed3b1b8715feb90686fb21
 tags:
   3.2.3--r41hdfd78af_7: 
     sha256:cc082450c9a01dd02db4e77477bb792410a0f2cf04d63c716a36e3f3d4439e28
@@ -16,6 +16,8 @@ tags:
     sha256:413c88eda50880ac72a2483c2da06555cfe82efea5264b4e0150ad4761fbf899
   3.13.0--r44hdfd78af_5: 
     sha256:bcfc8cc4ced6eefb1c56faefd4fbb4dcf437f0aa4b86db5ed4d2fee4474cde35
+  3.13.0--r45hdfd78af_6: 
+    sha256:4b077caf1adad6d5b93535d63bad56a11b1161b7efed3b1b8715feb90686fb21
 docker: quay.io/biocontainers/bioconductor-rae230b.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/raccoon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for raccoon
 latest:
-  1.0--pyhdfd78af_0: 
-    sha256:6c112fb154be2fb82fd4218e01887544339cddfaaa7e69abf2dec54bf2ab3f83
+  1.0.2--pyhdfd78af_0: 
+    sha256:69e78a7e69da2cb1c5b48089e444ac4457ba04a0260cb8158a3f10d21c1f8c66
 tags:
   1.0--pyhdfd78af_0: 
     sha256:6c112fb154be2fb82fd4218e01887544339cddfaaa7e69abf2dec54bf2ab3f83
+  1.0.2--pyhdfd78af_0: 
+    sha256:69e78a7e69da2cb1c5b48089e444ac4457ba04a0260cb8158a3f10d21c1f8c66
 docker: quay.io/biocontainers/raccoon
 aliases:
   raccoon: /usr/local/bin/raccoon

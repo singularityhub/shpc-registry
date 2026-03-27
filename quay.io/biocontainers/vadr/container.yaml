@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/vadr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vadr
 latest:
-  1.6.4--pl5321h031d066_0: 
-    sha256:27a49bf5af32c2d51d7c7ba9457c5590c96e3f0976be3d4b367e9f30c9389b4a
+  1.6.4--pl5321h87e0c26_1: 
+    sha256:00e6541c594a69f77728b2f9eccd8984da477b027a0aac36c9cea545714ad079
 tags:
   1.5--pl5321hdfd78af_0: 
     sha256:14ee275e78389dff447f210d2e270475a409c05233e339a231b1804357d8b048
@@ -13,6 +13,8 @@ tags:
     sha256:4a75992521c7e02a34ecd4d28a6537bd535e3a031e0a615f5407b9aad6007dd5
   1.6.4--pl5321h031d066_0: 
     sha256:27a49bf5af32c2d51d7c7ba9457c5590c96e3f0976be3d4b367e9f30c9389b4a
+  1.6.4--pl5321h87e0c26_1: 
+    sha256:00e6541c594a69f77728b2f9eccd8984da477b027a0aac36c9cea545714ad079
 docker: quay.io/biocontainers/vadr
 aliases:
   ann_exons_ens.pl: /usr/local/bin/ann_exons_ens.pl

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-immunogenviewer
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:3fc4c4dff4c33ecd6888862ed9d358b469384af188e557141ffe034336be3eb1
+  1.4.0--r45hdfd78af_0: 
+    sha256:781a03a7aa36f61555bc4e98f737e2382291a1871627733fc9b9dd656d4d7939
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:3fc4c4dff4c33ecd6888862ed9d358b469384af188e557141ffe034336be3eb1
+  1.4.0--r45hdfd78af_0: 
+    sha256:781a03a7aa36f61555bc4e98f737e2382291a1871627733fc9b9dd656d4d7939
 docker: quay.io/biocontainers/bioconductor-immunogenviewer
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

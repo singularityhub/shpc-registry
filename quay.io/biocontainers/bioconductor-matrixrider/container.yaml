@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-matrixrider
 latest:
-  1.38.0--r44h3df3fcb_0: 
-    sha256:9d7d116d3701505664b65bea5fdc7f7bc332f4df1a8812ac8c64fdf913b076d2
+  1.42.0--r45h01b2380_0: 
+    sha256:6f9bc8765b2335555049fab3e051186b3efda4e71130356d2f15998c1340ef93
 tags:
   1.26.0--r41hc0cfd56_2: 
     sha256:6bdf7b84239b99e01350e02ab43d120a1e07dcad769e75a89a727f7c1912d838
@@ -18,4 +18,6 @@ tags:
     sha256:f94ad9b3c5f9aeadfbdb264489d242d237da6fe3cb707634c0d93a9c07678648
   1.38.0--r44h3df3fcb_0: 
     sha256:9d7d116d3701505664b65bea5fdc7f7bc332f4df1a8812ac8c64fdf913b076d2
+  1.42.0--r45h01b2380_0: 
+    sha256:6f9bc8765b2335555049fab3e051186b3efda4e71130356d2f15998c1340ef93
 docker: quay.io/biocontainers/bioconductor-matrixrider

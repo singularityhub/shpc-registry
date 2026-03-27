@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-eatonetalchipseq
 latest:
-  0.44.0--r44hdfd78af_0: 
-    sha256:45f97f6351bb7cbe60323c9a4866c2faabda8e0d3729c79d3fc50594fd91094f
+  0.48.0--r45hdfd78af_0: 
+    sha256:4039f31d91ae723b3b99447a7ee3b6b976c07f71a85dab6b073fda7fd28e0803
 tags:
   0.32.0--r41hdfd78af_1: 
     sha256:5e205c8132f80a6ac8591eb2fb452ad303ce28117bdc8030046a4d5174c58a58
@@ -16,4 +16,6 @@ tags:
     sha256:b099b909ab6e2086aa69cff20a3731d45ecad91d597a559c132b06aba95788dd
   0.44.0--r44hdfd78af_0: 
     sha256:45f97f6351bb7cbe60323c9a4866c2faabda8e0d3729c79d3fc50594fd91094f
+  0.48.0--r45hdfd78af_0: 
+    sha256:4039f31d91ae723b3b99447a7ee3b6b976c07f71a85dab6b073fda7fd28e0803
 docker: quay.io/biocontainers/bioconductor-eatonetalchipseq

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-meshr
 latest:
-  2.12.0--r44hdfd78af_0: 
-    sha256:e85e100004f272604bb2bca5318e8f8e2c4a585827c59c4de836a49767881792
+  2.16.0--r45hdfd78af_0: 
+    sha256:e20dd4f31352436e1ec498a42cea0cf29a1e5ea86a745414841262c493ffcebe
 tags:
   2.0.0--r41hdfd78af_0: 
     sha256:b55dbd89a56f53bca59bb3023d531aedda73aa61b394bc3bd74673fe4a743a9a
@@ -16,6 +16,8 @@ tags:
     sha256:39eff57c28a21fde1c0c21221887a811712bdb8f8467c4845fd427af4066eef8
   2.12.0--r44hdfd78af_0: 
     sha256:e85e100004f272604bb2bca5318e8f8e2c4a585827c59c4de836a49767881792
+  2.16.0--r45hdfd78af_0: 
+    sha256:e20dd4f31352436e1ec498a42cea0cf29a1e5ea86a745414841262c493ffcebe
 docker: quay.io/biocontainers/bioconductor-meshr
 aliases:
   pandoc: /usr/local/bin/pandoc

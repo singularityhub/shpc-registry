@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-intercellar
 latest:
-  2.12.0--r44hdfd78af_0: 
-    sha256:af64a6f613e6646a26877ade3d9e3f54c950ea057ed6666a2376dbed2d8de17a
+  2.16.0--r45hdfd78af_0: 
+    sha256:e410ceb1818eb8334c592c89966486ce384fe4fd8342a71ee4e42ea251cfd87a
 tags:
   2.0.0--r41hdfd78af_0: 
     sha256:c636d11da28bb9d09fa713cd32e6771f2140ad06ee10f7010a24caa30f6d5817
@@ -16,6 +16,8 @@ tags:
     sha256:5c03b417726f50fb476e81b921d7023c636207e56ebe8d0ecc67d4fa6cb83c4b
   2.12.0--r44hdfd78af_0: 
     sha256:af64a6f613e6646a26877ade3d9e3f54c950ea057ed6666a2376dbed2d8de17a
+  2.16.0--r45hdfd78af_0: 
+    sha256:e410ceb1818eb8334c592c89966486ce384fe4fd8342a71ee4e42ea251cfd87a
 docker: quay.io/biocontainers/bioconductor-intercellar
 aliases:
   pandoc: /usr/local/bin/pandoc

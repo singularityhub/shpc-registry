@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-skewr
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:e47ae2d53dbcd7646b9bacf9c71be69ce57a82431e4f40beebbe11160cda6b9c
+  1.42.0--r45hdfd78af_0: 
+    sha256:3c4103f97c0b1361091bd280d433195f67696383afffef6029dd26a88a9d221d
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:1a871445f0c1d463a1926c58a6bfca406a402771dbec73ac8bfea35e5d010c27
@@ -16,4 +16,6 @@ tags:
     sha256:4259565f8fdc5976e5c6284ee59af11d32832cf8e1f7d922202e773bc28ada76
   1.38.0--r44hdfd78af_0: 
     sha256:e47ae2d53dbcd7646b9bacf9c71be69ce57a82431e4f40beebbe11160cda6b9c
+  1.42.0--r45hdfd78af_0: 
+    sha256:3c4103f97c0b1361091bd280d433195f67696383afffef6029dd26a88a9d221d
 docker: quay.io/biocontainers/bioconductor-skewr

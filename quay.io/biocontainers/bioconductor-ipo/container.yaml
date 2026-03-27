@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ipo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ipo
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:00d142b8bdf080b543cc7f926b04f09f60b2ff05c62c247ae16cf2f582d9d308
+  1.36.0--r45hdfd78af_0: 
+    sha256:48de16db7e0b1fe82ad6b0bf289bc5532d6d8aa90b31b9b26f3c0fa3770895b5
 tags:
   1.8.1--r351_1: 
     sha256:5cd31a299384e5391bf5ed2313c2749247d09247667aea716ef08d862afb593a
@@ -23,6 +23,8 @@ tags:
     sha256:24eac5375941d2b2b8fff4ce0bc7c96f4d109894d7315be28fd2f37bb8fc0506
   1.32.0--r44hdfd78af_0: 
     sha256:00d142b8bdf080b543cc7f926b04f09f60b2ff05c62c247ae16cf2f582d9d308
+  1.36.0--r45hdfd78af_0: 
+    sha256:48de16db7e0b1fe82ad6b0bf289bc5532d6d8aa90b31b9b26f3c0fa3770895b5
 docker: quay.io/biocontainers/bioconductor-ipo
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

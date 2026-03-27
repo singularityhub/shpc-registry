@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dino
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:a58a78593077660d2dcb55b07a7695dec7f1ba2f4c01d719af4a6926559996c9
+  1.16.0--r45hdfd78af_0: 
+    sha256:b178d782891e7323f6e010ca37d70d3b8994856e5fc392822318928987150ec6
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:7a5c2e4bcb55a177301692a9381fe5779cce64f04f2b70dd6a0def341b5c443f
@@ -16,4 +16,6 @@ tags:
     sha256:e86fc4931d4ce7a72a0e1f179652344cbceae8551d65b95dca5d5f6e9b93b884
   1.12.0--r44hdfd78af_0: 
     sha256:a58a78593077660d2dcb55b07a7695dec7f1ba2f4c01d719af4a6926559996c9
+  1.16.0--r45hdfd78af_0: 
+    sha256:b178d782891e7323f6e010ca37d70d3b8994856e5fc392822318928987150ec6
 docker: quay.io/biocontainers/bioconductor-dino

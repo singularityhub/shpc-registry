@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rtcga.clinical
 latest:
-  20151101.36.0--r44hdfd78af_0: 
-    sha256:ecfc3ca1e26652a3a1de6f680d69987fb5c365d464e85130ee93575401b384bf
+  20151101.40.0--r45hdfd78af_0: 
+    sha256:39e634f1510bbe4719f35f1a5b6be55c22f03f4a449f99e8e1f0c3b417ccd3ff
 tags:
   20151101.24.0--r41hdfd78af_1: 
     sha256:9c63afdd9a5b588e90b9cf82cca1f4eaed3704b6619dfff4799b0ff8cf9a0def
@@ -16,6 +16,8 @@ tags:
     sha256:4e1e1a6826e75bdc7c0f94003eb55056808874aa584a7f8d120d467e1a37445f
   20151101.36.0--r44hdfd78af_0: 
     sha256:ecfc3ca1e26652a3a1de6f680d69987fb5c365d464e85130ee93575401b384bf
+  20151101.40.0--r45hdfd78af_0: 
+    sha256:39e634f1510bbe4719f35f1a5b6be55c22f03f4a449f99e8e1f0c3b417ccd3ff
 docker: quay.io/biocontainers/bioconductor-rtcga.clinical
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

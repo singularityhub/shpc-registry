@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-regenrich
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:582083413b147555eeaeea83106f12db80dc05951806b339fba7f9c6cd2f2dba
+  1.20.0--r45hdfd78af_0: 
+    sha256:ebf29e55b8460e5758527215081b81990ca09fb552cd1a0ed3e67661817c8b51
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:806564c719a5b70a680f7395c76e669957937d760781605b97e3ef72ee4bf8aa
@@ -14,4 +14,6 @@ tags:
     sha256:95fb0448962242fde71d3ee6ba0716c8486afc2151eda21b5db61adbbc29617c
   1.16.0--r44hdfd78af_0: 
     sha256:582083413b147555eeaeea83106f12db80dc05951806b339fba7f9c6cd2f2dba
+  1.20.0--r45hdfd78af_0: 
+    sha256:ebf29e55b8460e5758527215081b81990ca09fb552cd1a0ed3e67661817c8b51
 docker: quay.io/biocontainers/bioconductor-regenrich

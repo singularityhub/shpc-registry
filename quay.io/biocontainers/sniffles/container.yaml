@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sniffles
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sniffles
 latest:
-  2.7.2--pyhdfd78af_0: 
-    sha256:536b252a2522318ce28ce5746ac7453f4af86488b97099da1297baff1684d78d
+  2.7.3--pyhdfd78af_0: 
+    sha256:c6dffb536d4eaec09b92a09d95372d82c17f6bf4580aafe4a118e7f99730f0eb
 tags:
   2.0.7--pyhdfd78af_0: 
     sha256:94157be1208ad01a748e68fd6a5d88b29c515136c31908fcf51bee11f687a769
@@ -33,6 +33,8 @@ tags:
     sha256:df6e48a4d28024849d02020cabf26b3b80b322848332f03b37859737fbe0a82c
   2.7.2--pyhdfd78af_0: 
     sha256:536b252a2522318ce28ce5746ac7453f4af86488b97099da1297baff1684d78d
+  2.7.3--pyhdfd78af_0: 
+    sha256:c6dffb536d4eaec09b92a09d95372d82c17f6bf4580aafe4a118e7f99730f0eb
 docker: quay.io/biocontainers/sniffles
 aliases:
   sniffles: /usr/local/bin/sniffles

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-cosiadata
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:83d4f8294a5b4e4b739c4e475ac8cc883b2d67a3402a3e09ec6863c4b875cfb7
+  1.10.0--r45hdfd78af_0: 
+    sha256:40c2061ee22607d00541707cd9f7ba478c28ce7b01f6487d1db4fad25ed099ef
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:bada83b6822a5e74938b338032669315869d07facfac2487f2c385f65b80c768
@@ -12,6 +12,8 @@ tags:
     sha256:d4feeb3ef162d7a9b9639bf6e31fafb4c22e24d08f8bd8fd45e6d0c6e5db4ef6
   1.6.0--r44hdfd78af_0: 
     sha256:83d4f8294a5b4e4b739c4e475ac8cc883b2d67a3402a3e09ec6863c4b875cfb7
+  1.10.0--r45hdfd78af_0: 
+    sha256:40c2061ee22607d00541707cd9f7ba478c28ce7b01f6487d1db4fad25ed099ef
 docker: quay.io/biocontainers/bioconductor-cosiadata
 aliases:
   hb-info: /usr/local/bin/hb-info

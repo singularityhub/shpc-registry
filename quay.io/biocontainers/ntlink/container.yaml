@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ntlink
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ntlink
 latest:
-  1.3.11--py312h7896c42_1: 
-    sha256:b9f957c777ca7ab4e8491f69cdde80ae815d1b656dcc17c2475089a19cb5127f
+  1.3.11--py313h380480a_2: 
+    sha256:92d9723548f6df48ad996863d4f937802ede08134ef400bbbc90c35c6767b7c6
 tags:
   1.3.4--py39h6935b12_0: 
     sha256:afce9184978c9c93e6d58986630145fff8f2212bebf24c73a6b4c3bb79abdbea
@@ -27,6 +27,8 @@ tags:
     sha256:210c318942cfd6ccdfe3d614db9ea12b65bc06be1e5d22e703dd5b642fe5d2fe
   1.3.11--py312h7896c42_1: 
     sha256:b9f957c777ca7ab4e8491f69cdde80ae815d1b656dcc17c2475089a19cb5127f
+  1.3.11--py313h380480a_2: 
+    sha256:92d9723548f6df48ad996863d4f937802ede08134ef400bbbc90c35c6767b7c6
 docker: quay.io/biocontainers/ntlink
 aliases:
   abyss-rresolver-short: /usr/local/bin/abyss-rresolver-short

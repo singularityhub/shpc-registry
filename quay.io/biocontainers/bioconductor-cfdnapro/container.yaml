@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cfdnapro
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:cdfe1541c64998881e2b2ec176d5729aebeef2831764705267f5cc05d86df61d
+  1.16.1--r45hdfd78af_0: 
+    sha256:5ab04dabe2d93e506ab868d83f1353282ab956b4e36e93d4e323af1ce28302b1
 tags:
   1.0.0--r41hdfd78af_3: 
     sha256:64e9cdaa55b85d713ea239cfecda0dc609b9e59b1760658ce6c2ca74569b5c84
@@ -14,4 +14,6 @@ tags:
     sha256:e727e196458c7269ad29c4ea7e434d339f73795a44723e21e0cb087d3380717a
   1.12.0--r44hdfd78af_0: 
     sha256:cdfe1541c64998881e2b2ec176d5729aebeef2831764705267f5cc05d86df61d
+  1.16.1--r45hdfd78af_0: 
+    sha256:5ab04dabe2d93e506ab868d83f1353282ab956b4e36e93d4e323af1ce28302b1
 docker: quay.io/biocontainers/bioconductor-cfdnapro

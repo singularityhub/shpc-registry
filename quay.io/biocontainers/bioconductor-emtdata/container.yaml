@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-emtdata
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:c31efd8d5b6425144b9017b99f8e44cc3a8c8c320fe764227adb717a77997f0e
+  1.18.0--r45hdfd78af_0: 
+    sha256:46cfc0b0105b003bfcefedade33fe9211aecb02a21fa971550245db18d4f5bd4
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:ed83ff6ae4d2e666bc0fa05216b8ebfcb82b8e3beceef3e71519c5b39a712012
@@ -16,4 +16,6 @@ tags:
     sha256:007a196d190845b535d044af3c3caa5b9de91286c80b6b65a36f90274be178b8
   1.14.0--r44hdfd78af_0: 
     sha256:c31efd8d5b6425144b9017b99f8e44cc3a8c8c320fe764227adb717a77997f0e
+  1.18.0--r45hdfd78af_0: 
+    sha256:46cfc0b0105b003bfcefedade33fe9211aecb02a21fa971550245db18d4f5bd4
 docker: quay.io/biocontainers/bioconductor-emtdata
