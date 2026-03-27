@@ -1,0 +1,144 @@
+url: https://biocontainers.pro/tools/spechla
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spechla
+latest:
+  1.0.10--py312pl5321h214dd5c_0: 
+    sha256:8df672906d3cb08cb3b0935f4a1575e36fdc512c4472777944a0abc3758bcddd
+tags:
+  1.0.10--py312pl5321h214dd5c_0: 
+    sha256:8df672906d3cb08cb3b0935f4a1575e36fdc512c4472777944a0abc3758bcddd
+docker: quay.io/biocontainers/spechla
+aliases:
+  DE_graph_to_dot.pl: /usr/local/bin/DE_graph_to_dot.pl
+  DTE_to_DTU.pl: /usr/local/bin/DTE_to_DTU.pl
+  ExtractHAIRs: /usr/local/bin/ExtractHAIRs
+  PtR: /usr/local/bin/PtR
+  ROKU.pl: /usr/local/bin/ROKU.pl
+  SpecHap: /usr/local/bin/SpecHap
+  Trinity: /usr/local/bin/Trinity
+  TrinityStats.pl: /usr/local/bin/TrinityStats.pl
+  Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
+  abundance_estimates_to_matrix.pl: 
+    /usr/local/bin/abundance_estimates_to_matrix.pl
+  add_annot_to_trans_id.pl: /usr/local/bin/add_annot_to_trans_id.pl
+  add_blastx_hit_to_trinity_id.pl: 
+    /usr/local/bin/add_blastx_hit_to_trinity_id.pl
+  align_and_estimate_abundance.pl: 
+    /usr/local/bin/align_and_estimate_abundance.pl
+  analyze_blastPlus_topHit_coverage.pl: 
+    /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
+  analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
+  assign_tissue_specific.pl: /usr/local/bin/assign_tissue_specific.pl
+  bam: /usr/local/bin/bam
+  bfc: /usr/local/bin/bfc
+  compare_gene_trans_DE_ranks.pl: /usr/local/bin/compare_gene_trans_DE_ranks.pl
+  contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
+  cut_tree_into_clusters.pl: /usr/local/bin/cut_tree_into_clusters.pl
+  define_clusters_by_cutting_tree.pl: 
+    /usr/local/bin/define_clusters_by_cutting_tree.pl
+  dexseq_given_bams.pl: /usr/local/bin/dexseq_given_bams.pl
+  diff_expr_analysis_to_heatmap_html.pl: 
+    /usr/local/bin/diff_expr_analysis_to_heatmap_html.pl
+  downsample_count_matrix.pl: /usr/local/bin/downsample_count_matrix.pl
+  extract_GO_enriched_genes.pl: /usr/local/bin/extract_GO_enriched_genes.pl
+  extract_supertranscript_from_reference.py: 
+    /usr/local/bin/extract_supertranscript_from_reference.py
+  faToNib: /usr/local/bin/faToNib
+  fastahack: /usr/local/bin/fastahack
+  fermi2: /usr/local/bin/fermi2
+  fermi2.pl: /usr/local/bin/fermi2.pl
+  filter_diff_expr.pl: /usr/local/bin/filter_diff_expr.pl
+  filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
+  filter_matrix_min_sum_rowcounts.pl: 
+    /usr/local/bin/filter_matrix_min_sum_rowcounts.pl
+  get_Trinity_gene_to_trans_map.pl: 
+    /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  get_tissue_enriched_DE_one_vs_all.pl: 
+    /usr/local/bin/get_tissue_enriched_DE_one_vs_all.pl
+  get_transcript_lengths.pl: /usr/local/bin/get_transcript_lengths.pl
+  gfClient: /usr/local/bin/gfClient
+  gff2gff: /usr/local/bin/gff2gff
+  hapdip.js: /usr/local/bin/hapdip.js
+  htsbox: /usr/local/bin/htsbox
+  identify_diff_isoform_splicing.pl: 
+    /usr/local/bin/identify_diff_isoform_splicing.pl
+  insilico_read_normalization.pl: /usr/local/bin/insilico_read_normalization.pl
+  log2_transform_matrix.pl: /usr/local/bin/log2_transform_matrix.pl
+  log2_transform_median_center_fpkm_matrix.pl: 
+    /usr/local/bin/log2_transform_median_center_fpkm_matrix.pl
+  longshot: /usr/local/bin/longshot
+  matrix_to_gene_plots.pl: /usr/local/bin/matrix_to_gene_plots.pl
+  merge_matrices.pl: /usr/local/bin/merge_matrices.pl
+  merge_subclusters.pl: /usr/local/bin/merge_subclusters.pl
+  nibFrag: /usr/local/bin/nibFrag
+  pbmm2: /usr/local/bin/pbmm2
+  pbsv: /usr/local/bin/pbsv
+  plot_expression_patterns.pl: /usr/local/bin/plot_expression_patterns.pl
+  prune_isoforms_fasta.pl: /usr/local/bin/prune_isoforms_fasta.pl
+  prune_isoforms_gtf.pl: /usr/local/bin/prune_isoforms_gtf.pl
+  pslPretty: /usr/local/bin/pslPretty
+  pslReps: /usr/local/bin/pslReps
+  pslSort: /usr/local/bin/pslSort
+  rank_roku_by_expr.pl: /usr/local/bin/rank_roku_by_expr.pl
+  remove_batch_effects_from_count_matrix.pl: 
+    /usr/local/bin/remove_batch_effects_from_count_matrix.pl
+  rename_matrix_column_labels.pl: /usr/local/bin/rename_matrix_column_labels.pl
+  rename_matrix_feature_identifiers.pl: 
+    /usr/local/bin/rename_matrix_feature_identifiers.pl
+  replicates_to_sample_averages_matrix.pl: 
+    /usr/local/bin/replicates_to_sample_averages_matrix.pl
+  retrieve_sequences_from_fasta.pl: 
+    /usr/local/bin/retrieve_sequences_from_fasta.pl
+  roh-viz: /usr/local/bin/roh-viz
+  ropebwt2: /usr/local/bin/ropebwt2
+  run-calling: /usr/local/bin/run-calling
+  run_DE_analysis.pl: /usr/local/bin/run_DE_analysis.pl
+  run_GOseq.pl: /usr/local/bin/run_GOseq.pl
+  run_TMM_normalization_write_FPKM_matrix.pl: 
+    /usr/local/bin/run_TMM_normalization_write_FPKM_matrix.pl
+  seqtk-trinity: /usr/local/bin/seqtk-trinity
+  sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl
+  spechla: /usr/local/bin/spechla
+  spechla-assembly: /usr/local/bin/spechla-assembly
+  spechla-extract-hla-reads: /usr/local/bin/spechla-extract-hla-reads
+  spechla-loh: /usr/local/bin/spechla-loh
+  spechla-long-read: /usr/local/bin/spechla-long-read
+  stratify_diff_expression.pl: /usr/local/bin/stratify_diff_expression.pl
+  subcluster_to_canvasXpress_html.make_index_html.pl: 
+    /usr/local/bin/subcluster_to_canvasXpress_html.make_index_html.pl
+  subcluster_to_canvasXpress_html.pl: 
+    /usr/local/bin/subcluster_to_canvasXpress_html.pl
+  sum_tech_replicates.pl: /usr/local/bin/sum_tech_replicates.pl
+  summarize_diff_expr_across_min_threshold_ranges.pl: 
+    /usr/local/bin/summarize_diff_expr_across_min_threshold_ranges.pl
+  trimadap-mt: /usr/local/bin/trimadap-mt
+  vcf-combine.py: /usr/local/bin/vcf-combine.py
+  vcfnullgenofields: /usr/local/bin/vcfnullgenofields
+  vcfwave: /usr/local/bin/vcfwave
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  kallisto: /usr/local/bin/kallisto
+  gfServer: /usr/local/bin/gfServer
+  split_ref_by_bai_datasize.py: /usr/local/bin/split_ref_by_bai_datasize.py
+  salmon: /usr/local/bin/salmon
+  sam_add_rg.pl: /usr/local/bin/sam_add_rg.pl
+  update_version.sh: /usr/local/bin/update_version.sh
+  blat: /usr/local/bin/blat
+  twoBitToFa: /usr/local/bin/twoBitToFa
+  tabix++: /usr/local/bin/tabix++
+  bamleftalign: /usr/local/bin/bamleftalign
+  coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
+  fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
+  freebayes-parallel: /usr/local/bin/freebayes-parallel
+  generate_freebayes_region_scripts.sh: 
+    /usr/local/bin/generate_freebayes_region_scripts.sh
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  freebayes: /usr/local/bin/freebayes
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  metadata_conda_debug.yaml: /usr/local/bin/metadata_conda_debug.yaml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
