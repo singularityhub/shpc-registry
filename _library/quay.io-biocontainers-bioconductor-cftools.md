@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cftools/container.yaml"
-updated_at: "2026-03-26 05:12:19.693936"
-latest: "1.6.0--r44he5774e6_0"
+updated_at: "2026-03-27 05:09:22.396156"
+latest: "1.10.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cftools"
 aliases:
  - "hb-info"
@@ -29,8 +29,9 @@ versions:
  - "1.0.0--r43hf17093f_0"
  - "1.2.0--r43hf17093f_0"
  - "1.6.0--r44he5774e6_0"
+ - "1.10.0--r45ha27e39d_0"
 description: "singularity registry hpc automated addition for bioconductor-cftools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cftools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cftools", "latest": {"1.6.0--r44he5774e6_0": "sha256:436066d3e228e97934b7d10314e722911b31278c000cd089a9cb07181b0a610e"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:467343419e24b817563b8cea3dae0d6c87ada10232a7a027c8e3890daab1b13d", "1.2.0--r43hf17093f_0": "sha256:1ec1d1177cb35ebcea70c5c1f20069a041ebced1addb136e5a2a2a5b845b9913", "1.6.0--r44he5774e6_0": "sha256:436066d3e228e97934b7d10314e722911b31278c000cd089a9cb07181b0a610e"}, "docker": "quay.io/biocontainers/bioconductor-cftools", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cftools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cftools", "latest": {"1.10.0--r45ha27e39d_0": "sha256:b2b8ef60b16dc107024168a6a58b72963e8719b1f08d9e607c0c46b8e840ba02"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:467343419e24b817563b8cea3dae0d6c87ada10232a7a027c8e3890daab1b13d", "1.2.0--r43hf17093f_0": "sha256:1ec1d1177cb35ebcea70c5c1f20069a041ebced1addb136e5a2a2a5b845b9913", "1.6.0--r44he5774e6_0": "sha256:436066d3e228e97934b7d10314e722911b31278c000cd089a9cb07181b0a610e", "1.10.0--r45ha27e39d_0": "sha256:b2b8ef60b16dc107024168a6a58b72963e8719b1f08d9e607c0c46b8e840ba02"}, "docker": "quay.io/biocontainers/bioconductor-cftools", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cftools.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cftools:1.6.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-cftools:1.10.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cftools/1.6.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-cftools/1.6.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-cftools/1.10.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-cftools/1.10.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

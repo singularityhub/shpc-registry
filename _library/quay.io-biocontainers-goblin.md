@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goblin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goblin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goblin/container.yaml"
-updated_at: "2026-03-26 04:56:58.906194"
+updated_at: "2026-03-27 04:46:56.273994"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/goblin"
 aliases:

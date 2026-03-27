@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-basespacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basespacer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basespacer/container.yaml"
-updated_at: "2026-03-26 04:42:26.064476"
+updated_at: "2026-03-27 04:45:24.374688"
 latest: "1.54.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basespacer"
 

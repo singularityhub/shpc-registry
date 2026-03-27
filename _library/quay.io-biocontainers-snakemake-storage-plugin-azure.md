@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-storage-plugin-azure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-storage-plugin-azure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-storage-plugin-azure/container.yaml"
-updated_at: "2026-03-26 04:43:07.612079"
+updated_at: "2026-03-27 04:50:33.346839"
 latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-storage-plugin-azure"
 aliases:

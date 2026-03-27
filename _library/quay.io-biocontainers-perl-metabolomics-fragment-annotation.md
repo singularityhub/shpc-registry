@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-metabolomics-fragment-annotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-metabolomics-fragment-annotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-metabolomics-fragment-annotation/container.yaml"
-updated_at: "2026-03-26 05:17:15.342833"
+updated_at: "2026-03-27 05:08:53.411414"
 latest: "0.6.9--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-metabolomics-fragment-annotation"
 aliases:

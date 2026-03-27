@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-autotuner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-autotuner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-autotuner/container.yaml"
-updated_at: "2026-03-26 05:21:07.527617"
+updated_at: "2026-03-27 04:58:22.405983"
 latest: "1.7.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-autotuner"
 aliases:

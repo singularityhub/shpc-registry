@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ecolik12.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolik12.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolik12.db0/container.yaml"
-updated_at: "2026-03-26 04:41:51.116870"
-latest: "3.20.0--r44hdfd78af_0"
+updated_at: "2026-03-27 05:36:25.699718"
+latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolik12.db0"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "3.17.0--r43hdfd78af_0"
  - "3.18.0--r43hdfd78af_0"
  - "3.20.0--r44hdfd78af_0"
+ - "3.22.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecolik12.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolik12.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolik12.db0", "latest": {"3.20.0--r44hdfd78af_0": "sha256:51ceeaaf55d324e9c56b69b8389c826616e27730f8968972a19210a17945802e"}, "tags": {"3.8.2--r36_1": "sha256:0e0095a0e400242473fb1c05753154d3929d57741aeef3d64a585112e6ded05a", "3.16.0--r42hdfd78af_0": "sha256:06fc34596630b1595b8d30e6845582dd45a0649685d8c17d6d9713647936cb28", "3.14.0--r41hdfd78af_1": "sha256:f24dee27680861f9e97d90514de40ed0dca5a668f2b6b3c2f4a394432e410bce", "3.13.0--r41hdfd78af_0": "sha256:86effb0b9382c793f64d7cf77a060807042f122cf69d350c01ccfc14c3de3fd1", "3.12.0--r40hdfd78af_1": "sha256:58315fafa9931062974d21a5dc3898c2f169a913da377f5683d475fbe9a7b311", "3.11.2--r40_0": "sha256:6756f9a2819efa7744aa0d625f263b686747e41ce6d646e56e03e10635ceaebe", "3.17.0--r43hdfd78af_0": "sha256:520ee033cb045e8a7cbbdaa134c5fa3d7c8aaf665035138819208a64cf649822", "3.18.0--r43hdfd78af_0": "sha256:8327cf7966158c057bf8ec827b954ef5cc4bec5af378dcaba371dedb2356e6ab", "3.20.0--r44hdfd78af_0": "sha256:51ceeaaf55d324e9c56b69b8389c826616e27730f8968972a19210a17945802e"}, "docker": "quay.io/biocontainers/bioconductor-ecolik12.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecolik12.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecolik12.db0", "latest": {"3.22.0--r45hdfd78af_0": "sha256:5c493e9fe0beab5a84b4d4a0c35c3ccdb904783d93649dc9c42b8fb28654fab9"}, "tags": {"3.8.2--r36_1": "sha256:0e0095a0e400242473fb1c05753154d3929d57741aeef3d64a585112e6ded05a", "3.16.0--r42hdfd78af_0": "sha256:06fc34596630b1595b8d30e6845582dd45a0649685d8c17d6d9713647936cb28", "3.14.0--r41hdfd78af_1": "sha256:f24dee27680861f9e97d90514de40ed0dca5a668f2b6b3c2f4a394432e410bce", "3.13.0--r41hdfd78af_0": "sha256:86effb0b9382c793f64d7cf77a060807042f122cf69d350c01ccfc14c3de3fd1", "3.12.0--r40hdfd78af_1": "sha256:58315fafa9931062974d21a5dc3898c2f169a913da377f5683d475fbe9a7b311", "3.11.2--r40_0": "sha256:6756f9a2819efa7744aa0d625f263b686747e41ce6d646e56e03e10635ceaebe", "3.17.0--r43hdfd78af_0": "sha256:520ee033cb045e8a7cbbdaa134c5fa3d7c8aaf665035138819208a64cf649822", "3.18.0--r43hdfd78af_0": "sha256:8327cf7966158c057bf8ec827b954ef5cc4bec5af378dcaba371dedb2356e6ab", "3.20.0--r44hdfd78af_0": "sha256:51ceeaaf55d324e9c56b69b8389c826616e27730f8968972a19210a17945802e", "3.22.0--r45hdfd78af_0": "sha256:5c493e9fe0beab5a84b4d4a0c35c3ccdb904783d93649dc9c42b8fb28654fab9"}, "docker": "quay.io/biocontainers/bioconductor-ecolik12.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecolik12.db0.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ecolik12.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ecolik12.db0:3.20.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ecolik12.db0:3.22.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ecolik12.db0/3.20.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ecolik12.db0/3.20.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ecolik12.db0/3.22.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ecolik12.db0/3.22.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

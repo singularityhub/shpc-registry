@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/density-fitness"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/density-fitness/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/density-fitness/container.yaml"
-updated_at: "2026-03-26 05:21:59.248221"
+updated_at: "2026-03-27 05:09:09.080636"
 latest: "1.2.0--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/density-fitness"
 aliases:

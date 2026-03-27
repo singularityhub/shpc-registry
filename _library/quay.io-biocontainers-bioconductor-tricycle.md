@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tricycle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tricycle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tricycle/container.yaml"
-updated_at: "2026-03-26 05:14:55.671502"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-03-27 05:05:27.515845"
+latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tricycle"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tricycle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tricycle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tricycle", "latest": {"1.14.0--r44hdfd78af_0": "sha256:a4e5e4c7fc4d770b44c091cabd3e95ae3d86f639177dc562ba834fd003870633"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d9c1dfbd26233cac9a36d1465e4deda7e1f0f4542130347cb74cc2a469d4b336", "1.6.0--r42hdfd78af_0": "sha256:0579e71acae079f25e69d724b130e9de75285d83827158f74a74a4d793c1389c", "1.8.0--r43hdfd78af_0": "sha256:41873dc934bf14659dd0057dfbae8c4a9a60c55df7b6323a5f591f4133e6a14c", "1.10.0--r43hdfd78af_0": "sha256:44b862cbb41febeb1073cde994b43bf6fb86b035d02ec76523c3f6ce0e6fd7f0", "1.14.0--r44hdfd78af_0": "sha256:a4e5e4c7fc4d770b44c091cabd3e95ae3d86f639177dc562ba834fd003870633"}, "docker": "quay.io/biocontainers/bioconductor-tricycle"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tricycle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tricycle", "latest": {"1.18.0--r45hdfd78af_0": "sha256:0359f4ea413049903d7e56f69106337f3200ee85d8f37a9bb1aba5c44ac51515"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d9c1dfbd26233cac9a36d1465e4deda7e1f0f4542130347cb74cc2a469d4b336", "1.6.0--r42hdfd78af_0": "sha256:0579e71acae079f25e69d724b130e9de75285d83827158f74a74a4d793c1389c", "1.8.0--r43hdfd78af_0": "sha256:41873dc934bf14659dd0057dfbae8c4a9a60c55df7b6323a5f591f4133e6a14c", "1.10.0--r43hdfd78af_0": "sha256:44b862cbb41febeb1073cde994b43bf6fb86b035d02ec76523c3f6ce0e6fd7f0", "1.14.0--r44hdfd78af_0": "sha256:a4e5e4c7fc4d770b44c091cabd3e95ae3d86f639177dc562ba834fd003870633", "1.18.0--r45hdfd78af_0": "sha256:0359f4ea413049903d7e56f69106337f3200ee85d8f37a9bb1aba5c44ac51515"}, "docker": "quay.io/biocontainers/bioconductor-tricycle"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tricycle.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tricycle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tricycle:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tricycle:1.18.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tricycle/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tricycle/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tricycle/1.18.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tricycle/1.18.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

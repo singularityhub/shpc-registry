@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mygene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mygene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mygene/container.yaml"
-updated_at: "2026-03-26 05:22:34.200159"
+updated_at: "2026-03-27 04:42:28.991032"
 latest: "3.2.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mygene"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msqrob2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msqrob2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msqrob2/container.yaml"
-updated_at: "2026-03-26 05:00:59.125978"
+updated_at: "2026-03-27 05:36:55.633025"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msqrob2"
 

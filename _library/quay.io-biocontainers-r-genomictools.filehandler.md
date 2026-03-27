@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-genomictools.filehandler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genomictools.filehandler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genomictools.filehandler/container.yaml"
-updated_at: "2026-03-26 05:07:48.927064"
-latest: "0.1.5.9--r44h3342da4_5"
+updated_at: "2026-03-27 05:26:50.605281"
+latest: "0.1.5.9--r45h3342da4_6"
 container_url: "https://biocontainers.pro/tools/r-genomictools.filehandler"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -14,8 +14,9 @@ versions:
  - "0.1.5.9--r42h3342da4_3"
  - "0.1.5.9--r43h3342da4_4"
  - "0.1.5.9--r44h3342da4_5"
+ - "0.1.5.9--r45h3342da4_6"
 description: "shpc-registry automated BioContainers addition for r-genomictools.filehandler"
-config: {"url": "https://biocontainers.pro/tools/r-genomictools.filehandler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genomictools.filehandler", "latest": {"0.1.5.9--r44h3342da4_5": "sha256:8fe63aab95dbff771191dbee3adab537c4317ff62583c2af5a5918625ee5cb81"}, "tags": {"0.1.5.9--r41h3342da4_2": "sha256:98795ab4220f4904cccafe80c51f15c52be8b5a035c8492685ab6a9150a0a246", "0.1.5.9--r42h3342da4_3": "sha256:76c86448bac8563e1293c74d8a357cf55e1fe40f1c1c98220669136e23dd8c18", "0.1.5.9--r43h3342da4_4": "sha256:5896fb7580fa3a571ad706a8cde4143e80104c9d26073731faee77195b9593ae", "0.1.5.9--r44h3342da4_5": "sha256:8fe63aab95dbff771191dbee3adab537c4317ff62583c2af5a5918625ee5cb81"}, "docker": "quay.io/biocontainers/r-genomictools.filehandler", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-genomictools.filehandler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genomictools.filehandler", "latest": {"0.1.5.9--r45h3342da4_6": "sha256:53e2ffc648f9318474d94e578fd40f334abd2c2f6cbaeba3abcf45440de62297"}, "tags": {"0.1.5.9--r41h3342da4_2": "sha256:98795ab4220f4904cccafe80c51f15c52be8b5a035c8492685ab6a9150a0a246", "0.1.5.9--r42h3342da4_3": "sha256:76c86448bac8563e1293c74d8a357cf55e1fe40f1c1c98220669136e23dd8c18", "0.1.5.9--r43h3342da4_4": "sha256:5896fb7580fa3a571ad706a8cde4143e80104c9d26073731faee77195b9593ae", "0.1.5.9--r44h3342da4_5": "sha256:8fe63aab95dbff771191dbee3adab537c4317ff62583c2af5a5918625ee5cb81", "0.1.5.9--r45h3342da4_6": "sha256:53e2ffc648f9318474d94e578fd40f334abd2c2f6cbaeba3abcf45440de62297"}, "docker": "quay.io/biocontainers/r-genomictools.filehandler", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-genomictools.filehandler.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-genomictools.filehandler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-genomictools.filehandler:0.1.5.9--r44h3342da4_5
+$ shpc install quay.io/biocontainers/r-genomictools.filehandler:0.1.5.9--r45h3342da4_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-genomictools.filehandler/0.1.5.9--r44h3342da4_5
-$ module help quay.io/biocontainers/r-genomictools.filehandler/0.1.5.9--r44h3342da4_5
+$ module load quay.io/biocontainers/r-genomictools.filehandler/0.1.5.9--r45h3342da4_6
+$ module help quay.io/biocontainers/r-genomictools.filehandler/0.1.5.9--r45h3342da4_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-cpan-meta-requirements"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-cpan-meta-requirements/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-cpan-meta-requirements/container.yaml"
-updated_at: "2026-03-26 05:29:15.643181"
-latest: "2.143--pl5321hdfd78af_0"
+updated_at: "2026-03-27 05:36:16.137943"
+latest: "2.145--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-cpan-meta-requirements"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "2.140--pl5321hdfd78af_1"
  - "2.142--pl5321hdfd78af_0"
  - "2.143--pl5321hdfd78af_0"
+ - "2.145--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-cpan-meta-requirements"
-config: {"url": "https://biocontainers.pro/tools/perl-cpan-meta-requirements", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cpan-meta-requirements", "latest": {"2.143--pl5321hdfd78af_0": "sha256:e4e26518299d9c8d66b75a7d9f65ecd2a0ba4cf564c4d1551847b499c6d48b65"}, "tags": {"2.140--pl5321hdfd78af_1": "sha256:23ecc4ee281b9c6e8e03cc964ace0280c4a2e113f2e3167b924b2c2cbc98e708", "2.142--pl5321hdfd78af_0": "sha256:e51197a262b42bccea9cec8e8de5e24a40cc59b84ec2370589a0a11c6c173716", "2.143--pl5321hdfd78af_0": "sha256:e4e26518299d9c8d66b75a7d9f65ecd2a0ba4cf564c4d1551847b499c6d48b65"}, "docker": "quay.io/biocontainers/perl-cpan-meta-requirements", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-cpan-meta-requirements", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-cpan-meta-requirements", "latest": {"2.145--pl5321hdfd78af_0": "sha256:39545fca3cea246af1dd45d507d229bc42825f21b2420eb88519d543a136365e"}, "tags": {"2.140--pl5321hdfd78af_1": "sha256:23ecc4ee281b9c6e8e03cc964ace0280c4a2e113f2e3167b924b2c2cbc98e708", "2.142--pl5321hdfd78af_0": "sha256:e51197a262b42bccea9cec8e8de5e24a40cc59b84ec2370589a0a11c6c173716", "2.143--pl5321hdfd78af_0": "sha256:e4e26518299d9c8d66b75a7d9f65ecd2a0ba4cf564c4d1551847b499c6d48b65", "2.145--pl5321hdfd78af_0": "sha256:39545fca3cea246af1dd45d507d229bc42825f21b2420eb88519d543a136365e"}, "docker": "quay.io/biocontainers/perl-cpan-meta-requirements", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-cpan-meta-requirements.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-cpan-meta-requirements
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-cpan-meta-requirements:2.143--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-cpan-meta-requirements:2.145--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-cpan-meta-requirements/2.143--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-cpan-meta-requirements/2.143--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-cpan-meta-requirements/2.145--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-cpan-meta-requirements/2.145--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

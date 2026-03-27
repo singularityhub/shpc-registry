@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-lncpipereporter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lncpipereporter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lncpipereporter/container.yaml"
-updated_at: "2026-03-26 04:40:48.684237"
+updated_at: "2026-03-27 05:24:27.426656"
 latest: "0.1.1--r44h7b50bb2_10"
 container_url: "https://biocontainers.pro/tools/r-lncpipereporter"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/myloasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/myloasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/myloasm/container.yaml"
-updated_at: "2026-03-26 05:15:53.844489"
-latest: "0.4.0--ha6fb395_0"
+updated_at: "2026-03-27 05:32:59.095291"
+latest: "0.5.0--hd612981_0"
 container_url: "https://biocontainers.pro/tools/myloasm"
 aliases:
  - "myloasm"
@@ -14,8 +14,9 @@ versions:
  - "0.2.0--ha6fb395_0"
  - "0.3.0--ha6fb395_0"
  - "0.4.0--ha6fb395_0"
+ - "0.5.0--hd612981_0"
 description: "singularity registry hpc automated addition for myloasm"
-config: {"url": "https://biocontainers.pro/tools/myloasm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for myloasm", "latest": {"0.4.0--ha6fb395_0": "sha256:75fe19d27555c725717ef2294cdd0bb03b06667257706e69015c96b6fd32fbc2"}, "tags": {"0.1.0--ha6fb395_0": "sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165", "0.2.0--ha6fb395_0": "sha256:0948c94608189cfcff02891e8d8bd1785169b6c6783146ec0025f313693d5ef8", "0.3.0--ha6fb395_0": "sha256:afba5ee99ac6e3081be8a4bf30288aef4d27f399c3bf65a8a29274677d969631", "0.4.0--ha6fb395_0": "sha256:75fe19d27555c725717ef2294cdd0bb03b06667257706e69015c96b6fd32fbc2"}, "docker": "quay.io/biocontainers/myloasm", "aliases": {"myloasm": "/usr/local/bin/myloasm"}}
+config: {"url": "https://biocontainers.pro/tools/myloasm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for myloasm", "latest": {"0.5.0--hd612981_0": "sha256:4ea150b17362efc67d99f91978051d8ea6777ece9b7577bfc7428199feee5ce6"}, "tags": {"0.1.0--ha6fb395_0": "sha256:1d8b445a5066d5cb6f77b781c46c515a15b29c76937f5f429c51b118fe1f2165", "0.2.0--ha6fb395_0": "sha256:0948c94608189cfcff02891e8d8bd1785169b6c6783146ec0025f313693d5ef8", "0.3.0--ha6fb395_0": "sha256:afba5ee99ac6e3081be8a4bf30288aef4d27f399c3bf65a8a29274677d969631", "0.4.0--ha6fb395_0": "sha256:75fe19d27555c725717ef2294cdd0bb03b06667257706e69015c96b6fd32fbc2", "0.5.0--hd612981_0": "sha256:4ea150b17362efc67d99f91978051d8ea6777ece9b7577bfc7428199feee5ce6"}, "docker": "quay.io/biocontainers/myloasm", "aliases": {"myloasm": "/usr/local/bin/myloasm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/myloasm.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/myloasm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/myloasm:0.4.0--ha6fb395_0
+$ shpc install quay.io/biocontainers/myloasm:0.5.0--hd612981_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/myloasm/0.4.0--ha6fb395_0
-$ module help quay.io/biocontainers/myloasm/0.4.0--ha6fb395_0
+$ module load quay.io/biocontainers/myloasm/0.5.0--hd612981_0
+$ module help quay.io/biocontainers/myloasm/0.5.0--hd612981_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

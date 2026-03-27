@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coidb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coidb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coidb/container.yaml"
-updated_at: "2026-03-26 05:26:47.008125"
+updated_at: "2026-03-27 05:36:05.811596"
 latest: "0.4.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/coidb"
 aliases:

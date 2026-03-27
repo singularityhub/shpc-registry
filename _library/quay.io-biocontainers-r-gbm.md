@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gbm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gbm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gbm/container.yaml"
-updated_at: "2026-03-26 05:14:22.325791"
+updated_at: "2026-03-27 05:16:43.229039"
 latest: "2.1.3--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-gbm"
 aliases:

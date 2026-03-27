@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sracipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sracipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sracipe/container.yaml"
-updated_at: "2026-03-26 04:42:34.088541"
+updated_at: "2026-03-27 04:49:48.023510"
 latest: "1.22.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sracipe"
 aliases:

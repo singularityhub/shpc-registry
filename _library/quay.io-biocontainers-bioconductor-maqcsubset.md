@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maqcsubset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maqcsubset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maqcsubset/container.yaml"
-updated_at: "2026-03-26 04:53:07.716858"
+updated_at: "2026-03-27 04:44:59.669436"
 latest: "1.48.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maqcsubset"
 

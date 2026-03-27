@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cummerbund"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cummerbund/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cummerbund/container.yaml"
-updated_at: "2026-03-26 04:55:01.580758"
+updated_at: "2026-03-27 04:44:48.569263"
 latest: "2.48.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cummerbund"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-humanstemcell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humanstemcell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humanstemcell/container.yaml"
-updated_at: "2026-03-26 05:23:14.137231"
+updated_at: "2026-03-27 04:41:38.583614"
 latest: "0.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-humanstemcell"
 

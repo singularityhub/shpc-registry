@@ -4,7 +4,7 @@ name:  "redis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/redis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/redis/container.yaml"
-updated_at: "2026-03-26 05:35:00.392293"
+updated_at: "2026-03-27 04:36:24.233001"
 latest: "8.4"
 container_url: "https://hub.docker.com/r/_/redis"
 aliases:
