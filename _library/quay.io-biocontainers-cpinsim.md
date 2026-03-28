@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cpinsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpinsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpinsim/container.yaml"
-updated_at: "2026-03-27 05:37:02.570997"
+updated_at: "2026-03-28 04:56:41.965707"
 latest: "0.5.2--py_2"
 container_url: "https://biocontainers.pro/tools/cpinsim"
 aliases:

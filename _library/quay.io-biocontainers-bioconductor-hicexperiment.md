@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hicexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicexperiment/container.yaml"
-updated_at: "2026-03-27 04:44:48.903028"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-03-28 05:13:28.205409"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicexperiment"
 aliases:
  - "hb-info"
@@ -29,8 +29,9 @@ versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-hicexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-hicexperiment", "latest": {"1.6.0--r44hdfd78af_0": "sha256:b6331937020d6bbebc571d80a667c9a97d4160166d331004f0e7852fe25f0275"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:1946eb96561041a055783f195d0142ada1089eb6eef8f359b5ea5aabe701f465", "1.2.0--r43hdfd78af_0": "sha256:77cec683853137a762b46dc73cadebbf9efbdce10803c42620d9e708a2130c38", "1.6.0--r44hdfd78af_0": "sha256:b6331937020d6bbebc571d80a667c9a97d4160166d331004f0e7852fe25f0275"}, "docker": "quay.io/biocontainers/bioconductor-hicexperiment", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicexperiment", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-hicexperiment", "latest": {"1.10.0--r45hdfd78af_0": "sha256:deb78a3324ad1978b8c468e8cf2b3584c03042a46de798c80642e4b2d4a5aeef"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:1946eb96561041a055783f195d0142ada1089eb6eef8f359b5ea5aabe701f465", "1.2.0--r43hdfd78af_0": "sha256:77cec683853137a762b46dc73cadebbf9efbdce10803c42620d9e708a2130c38", "1.6.0--r44hdfd78af_0": "sha256:b6331937020d6bbebc571d80a667c9a97d4160166d331004f0e7852fe25f0275", "1.10.0--r45hdfd78af_0": "sha256:deb78a3324ad1978b8c468e8cf2b3584c03042a46de798c80642e4b2d4a5aeef"}, "docker": "quay.io/biocontainers/bioconductor-hicexperiment", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicexperiment.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hicexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hicexperiment:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hicexperiment:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hicexperiment/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hicexperiment/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hicexperiment/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hicexperiment/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

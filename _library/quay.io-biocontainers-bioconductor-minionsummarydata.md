@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-minionsummarydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-minionsummarydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-minionsummarydata/container.yaml"
-updated_at: "2026-03-27 05:23:32.259891"
-latest: "1.36.0--r44hdfd78af_0"
+updated_at: "2026-03-28 04:51:57.869690"
+latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-minionsummarydata"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.30.0--r43hdfd78af_0"
  - "1.32.0--r43hdfd78af_0"
  - "1.36.0--r44hdfd78af_0"
+ - "1.40.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-minionsummarydata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-minionsummarydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-minionsummarydata", "latest": {"1.36.0--r44hdfd78af_0": "sha256:5f145d5b1f13e5185c563cf1ae298d2f5b15273ff7ec8f4fa08a5a72fe4f4e5e"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:4299144aa702268ac2f805f2d216d8a308d5d37917628d5e4d4317b89d3d1d84", "1.27.0--r42hdfd78af_0": "sha256:e8e757b249a8f39307760a21566f6dd38586cf36ba976722d8e0b768d55cea55", "1.30.0--r43hdfd78af_0": "sha256:8597277637c05aa750c54c4028e06f5d53c569cc43ef4268252b23ab26fba36a", "1.32.0--r43hdfd78af_0": "sha256:52bc778694259424f8021aa060f73a48d271bfdfd1247806c420794629263dea", "1.36.0--r44hdfd78af_0": "sha256:5f145d5b1f13e5185c563cf1ae298d2f5b15273ff7ec8f4fa08a5a72fe4f4e5e"}, "docker": "quay.io/biocontainers/bioconductor-minionsummarydata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-minionsummarydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-minionsummarydata", "latest": {"1.40.0--r45hdfd78af_0": "sha256:e49b97516f72fb5f8fea553e37a6c9adbc0839917f52c9954f1763b0f3c0a3a1"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:4299144aa702268ac2f805f2d216d8a308d5d37917628d5e4d4317b89d3d1d84", "1.27.0--r42hdfd78af_0": "sha256:e8e757b249a8f39307760a21566f6dd38586cf36ba976722d8e0b768d55cea55", "1.30.0--r43hdfd78af_0": "sha256:8597277637c05aa750c54c4028e06f5d53c569cc43ef4268252b23ab26fba36a", "1.32.0--r43hdfd78af_0": "sha256:52bc778694259424f8021aa060f73a48d271bfdfd1247806c420794629263dea", "1.36.0--r44hdfd78af_0": "sha256:5f145d5b1f13e5185c563cf1ae298d2f5b15273ff7ec8f4fa08a5a72fe4f4e5e", "1.40.0--r45hdfd78af_0": "sha256:e49b97516f72fb5f8fea553e37a6c9adbc0839917f52c9954f1763b0f3c0a3a1"}, "docker": "quay.io/biocontainers/bioconductor-minionsummarydata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-minionsummarydata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-minionsummarydata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-minionsummarydata:1.36.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-minionsummarydata:1.40.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-minionsummarydata/1.36.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-minionsummarydata/1.36.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-minionsummarydata/1.40.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-minionsummarydata/1.40.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

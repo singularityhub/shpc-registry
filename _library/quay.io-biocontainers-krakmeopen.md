@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krakmeopen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakmeopen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/krakmeopen/container.yaml"
-updated_at: "2026-03-27 04:52:14.317951"
+updated_at: "2026-03-28 04:55:12.723425"
 latest: "0.1.5--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/krakmeopen"
 aliases:

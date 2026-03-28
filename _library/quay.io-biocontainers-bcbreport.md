@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcbreport/container.yaml"
-updated_at: "2026-03-27 05:21:34.942186"
+updated_at: "2026-03-28 05:09:54.056875"
 latest: "0.99.29--py_2"
 container_url: "https://biocontainers.pro/tools/bcbreport"
 aliases:

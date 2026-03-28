@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cosiadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosiadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosiadata/container.yaml"
-updated_at: "2026-03-27 05:11:26.983436"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-03-28 05:13:41.502743"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosiadata"
 aliases:
  - "hb-info"
@@ -30,8 +30,9 @@ versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-cosiadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cosiadata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cosiadata", "latest": {"1.6.0--r44hdfd78af_0": "sha256:83d4f8294a5b4e4b739c4e475ac8cc883b2d67a3402a3e09ec6863c4b875cfb7"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:bada83b6822a5e74938b338032669315869d07facfac2487f2c385f65b80c768", "1.2.0--r43hdfd78af_0": "sha256:d4feeb3ef162d7a9b9639bf6e31fafb4c22e24d08f8bd8fd45e6d0c6e5db4ef6", "1.6.0--r44hdfd78af_0": "sha256:83d4f8294a5b4e4b739c4e475ac8cc883b2d67a3402a3e09ec6863c4b875cfb7"}, "docker": "quay.io/biocontainers/bioconductor-cosiadata", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cosiadata", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cosiadata", "latest": {"1.10.0--r45hdfd78af_0": "sha256:40c2061ee22607d00541707cd9f7ba478c28ce7b01f6487d1db4fad25ed099ef"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:bada83b6822a5e74938b338032669315869d07facfac2487f2c385f65b80c768", "1.2.0--r43hdfd78af_0": "sha256:d4feeb3ef162d7a9b9639bf6e31fafb4c22e24d08f8bd8fd45e6d0c6e5db4ef6", "1.6.0--r44hdfd78af_0": "sha256:83d4f8294a5b4e4b739c4e475ac8cc883b2d67a3402a3e09ec6863c4b875cfb7", "1.10.0--r45hdfd78af_0": "sha256:40c2061ee22607d00541707cd9f7ba478c28ce7b01f6487d1db4fad25ed099ef"}, "docker": "quay.io/biocontainers/bioconductor-cosiadata", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cosiadata.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cosiadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cosiadata:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cosiadata:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cosiadata/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cosiadata/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cosiadata/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cosiadata/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

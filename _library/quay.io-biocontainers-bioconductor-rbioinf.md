@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbioinf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbioinf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbioinf/container.yaml"
-updated_at: "2026-03-27 04:49:43.296774"
+updated_at: "2026-03-28 04:49:39.456845"
 latest: "1.66.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbioinf"
 

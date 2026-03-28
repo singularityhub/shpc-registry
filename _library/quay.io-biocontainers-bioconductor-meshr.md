@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-meshr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meshr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meshr/container.yaml"
-updated_at: "2026-03-27 04:48:51.145296"
-latest: "2.12.0--r44hdfd78af_0"
+updated_at: "2026-03-28 04:32:18.772122"
+latest: "2.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meshr"
 aliases:
  - "pandoc"
@@ -15,8 +15,9 @@ versions:
  - "2.6.0--r43hdfd78af_0"
  - "2.8.0--r43hdfd78af_0"
  - "2.12.0--r44hdfd78af_0"
+ - "2.16.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-meshr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-meshr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meshr", "latest": {"2.12.0--r44hdfd78af_0": "sha256:e85e100004f272604bb2bca5318e8f8e2c4a585827c59c4de836a49767881792"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:b55dbd89a56f53bca59bb3023d531aedda73aa61b394bc3bd74673fe4a743a9a", "2.4.0--r42hdfd78af_0": "sha256:a1eb762671ca9333f5795a5584e96166dce08ebbe685cc8efb2fa127f65add5b", "2.6.0--r43hdfd78af_0": "sha256:9b1a969bb214fb3a70101e35ace3a58094759e2242a96a8a68efbcdd7153647d", "2.8.0--r43hdfd78af_0": "sha256:39eff57c28a21fde1c0c21221887a811712bdb8f8467c4845fd427af4066eef8", "2.12.0--r44hdfd78af_0": "sha256:e85e100004f272604bb2bca5318e8f8e2c4a585827c59c4de836a49767881792"}, "docker": "quay.io/biocontainers/bioconductor-meshr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-meshr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meshr", "latest": {"2.16.0--r45hdfd78af_0": "sha256:e20dd4f31352436e1ec498a42cea0cf29a1e5ea86a745414841262c493ffcebe"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:b55dbd89a56f53bca59bb3023d531aedda73aa61b394bc3bd74673fe4a743a9a", "2.4.0--r42hdfd78af_0": "sha256:a1eb762671ca9333f5795a5584e96166dce08ebbe685cc8efb2fa127f65add5b", "2.6.0--r43hdfd78af_0": "sha256:9b1a969bb214fb3a70101e35ace3a58094759e2242a96a8a68efbcdd7153647d", "2.8.0--r43hdfd78af_0": "sha256:39eff57c28a21fde1c0c21221887a811712bdb8f8467c4845fd427af4066eef8", "2.12.0--r44hdfd78af_0": "sha256:e85e100004f272604bb2bca5318e8f8e2c4a585827c59c4de836a49767881792", "2.16.0--r45hdfd78af_0": "sha256:e20dd4f31352436e1ec498a42cea0cf29a1e5ea86a745414841262c493ffcebe"}, "docker": "quay.io/biocontainers/bioconductor-meshr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-meshr.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-meshr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-meshr:2.12.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-meshr:2.16.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-meshr/2.12.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-meshr/2.12.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-meshr/2.16.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-meshr/2.16.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

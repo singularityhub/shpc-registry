@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ig-flowtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ig-flowtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ig-flowtools/container.yaml"
-updated_at: "2026-03-27 04:38:42.235608"
+updated_at: "2026-03-28 04:41:35.432333"
 latest: "2.0.2--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/ig-flowtools"
 aliases:

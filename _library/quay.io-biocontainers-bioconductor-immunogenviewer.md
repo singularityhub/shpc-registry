@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-immunogenviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-immunogenviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-immunogenviewer/container.yaml"
-updated_at: "2026-03-27 04:39:38.385493"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-03-28 04:48:10.508891"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-immunogenviewer"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -26,8 +26,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-immunogenviewer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-immunogenviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-immunogenviewer", "latest": {"1.0.0--r44hdfd78af_0": "sha256:3fc4c4dff4c33ecd6888862ed9d358b469384af188e557141ffe034336be3eb1"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:3fc4c4dff4c33ecd6888862ed9d358b469384af188e557141ffe034336be3eb1"}, "docker": "quay.io/biocontainers/bioconductor-immunogenviewer", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-immunogenviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-immunogenviewer", "latest": {"1.4.0--r45hdfd78af_0": "sha256:781a03a7aa36f61555bc4e98f737e2382291a1871627733fc9b9dd656d4d7939"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:3fc4c4dff4c33ecd6888862ed9d358b469384af188e557141ffe034336be3eb1", "1.4.0--r45hdfd78af_0": "sha256:781a03a7aa36f61555bc4e98f737e2382291a1871627733fc9b9dd656d4d7939"}, "docker": "quay.io/biocontainers/bioconductor-immunogenviewer", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-immunogenviewer.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/bioconductor-immunogenviewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-immunogenviewer:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-immunogenviewer:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-immunogenviewer/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-immunogenviewer/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-immunogenviewer/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-immunogenviewer/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

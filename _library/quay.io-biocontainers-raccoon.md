@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/raccoon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raccoon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raccoon/container.yaml"
-updated_at: "2026-03-27 04:48:32.314137"
-latest: "1.0--pyhdfd78af_0"
+updated_at: "2026-03-28 04:51:12.599369"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/raccoon"
 aliases:
  - "raccoon"
@@ -32,8 +32,9 @@ aliases:
  - "opj_dump"
 versions:
  - "1.0--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for raccoon"
-config: {"url": "https://biocontainers.pro/tools/raccoon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for raccoon", "latest": {"1.0--pyhdfd78af_0": "sha256:6c112fb154be2fb82fd4218e01887544339cddfaaa7e69abf2dec54bf2ab3f83"}, "tags": {"1.0--pyhdfd78af_0": "sha256:6c112fb154be2fb82fd4218e01887544339cddfaaa7e69abf2dec54bf2ab3f83"}, "docker": "quay.io/biocontainers/raccoon", "aliases": {"raccoon": "/usr/local/bin/raccoon", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/raccoon", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for raccoon", "latest": {"1.0.2--pyhdfd78af_0": "sha256:69e78a7e69da2cb1c5b48089e444ac4457ba04a0260cb8158a3f10d21c1f8c66"}, "tags": {"1.0--pyhdfd78af_0": "sha256:6c112fb154be2fb82fd4218e01887544339cddfaaa7e69abf2dec54bf2ab3f83", "1.0.2--pyhdfd78af_0": "sha256:69e78a7e69da2cb1c5b48089e444ac4457ba04a0260cb8158a3f10d21c1f8c66"}, "docker": "quay.io/biocontainers/raccoon", "aliases": {"raccoon": "/usr/local/bin/raccoon", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/raccoon.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/raccoon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/raccoon:1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/raccoon:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/raccoon/1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/raccoon/1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/raccoon/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/raccoon/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bayesspace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bayesspace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bayesspace/container.yaml"
-updated_at: "2026-03-27 05:18:36.885660"
+updated_at: "2026-03-28 04:27:58.887141"
 latest: "1.20.2--r45h4352baa_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bayesspace"
 aliases:

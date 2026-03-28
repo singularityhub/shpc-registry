@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcfphasesets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfphasesets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfphasesets/container.yaml"
-updated_at: "2026-03-27 04:51:01.147981"
+updated_at: "2026-03-28 04:43:19.489309"
 latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcfphasesets"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rta10probeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rta10probeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rta10probeset.db/container.yaml"
-updated_at: "2026-03-27 04:51:27.926704"
-latest: "8.8.0--r44hdfd78af_5"
+updated_at: "2026-03-28 04:46:02.114087"
+latest: "8.8.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-rta10probeset.db"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "8.8.0--r43hdfd78af_3"
  - "8.8.0--r43hdfd78af_4"
  - "8.8.0--r44hdfd78af_5"
+ - "8.8.0--r45hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for bioconductor-rta10probeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rta10probeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rta10probeset.db", "latest": {"8.8.0--r44hdfd78af_5": "sha256:8d1edb56e304085ea2ee9fc87bab7a3ce4aa6bf489aceef0894dfa292a38b91f"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:16f5eb716e7ab6c58c8b1d960a04363511d08447a81afc18d261d39975c02d3a", "8.8.0--r42hdfd78af_2": "sha256:c906d6037036f81c2916e6be33a7617eaa705c43495de22a31061f9f960ec2ec", "8.8.0--r43hdfd78af_3": "sha256:18725f829eac38dfff2cd0cd362af186ce95f18c1f57011b57b94102dcb08c18", "8.8.0--r43hdfd78af_4": "sha256:28f5251977e6aaf109a93697a024428b5bb173f85143870bdd98a7e06773e0f2", "8.8.0--r44hdfd78af_5": "sha256:8d1edb56e304085ea2ee9fc87bab7a3ce4aa6bf489aceef0894dfa292a38b91f"}, "docker": "quay.io/biocontainers/bioconductor-rta10probeset.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rta10probeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rta10probeset.db", "latest": {"8.8.0--r45hdfd78af_6": "sha256:8d2718dff7213ca302d3a5966e4f0fccb1beb78d4bbdb4ae625496c56f7b764f"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:16f5eb716e7ab6c58c8b1d960a04363511d08447a81afc18d261d39975c02d3a", "8.8.0--r42hdfd78af_2": "sha256:c906d6037036f81c2916e6be33a7617eaa705c43495de22a31061f9f960ec2ec", "8.8.0--r43hdfd78af_3": "sha256:18725f829eac38dfff2cd0cd362af186ce95f18c1f57011b57b94102dcb08c18", "8.8.0--r43hdfd78af_4": "sha256:28f5251977e6aaf109a93697a024428b5bb173f85143870bdd98a7e06773e0f2", "8.8.0--r44hdfd78af_5": "sha256:8d1edb56e304085ea2ee9fc87bab7a3ce4aa6bf489aceef0894dfa292a38b91f", "8.8.0--r45hdfd78af_6": "sha256:8d2718dff7213ca302d3a5966e4f0fccb1beb78d4bbdb4ae625496c56f7b764f"}, "docker": "quay.io/biocontainers/bioconductor-rta10probeset.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rta10probeset.db.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rta10probeset.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rta10probeset.db:8.8.0--r44hdfd78af_5
+$ shpc install quay.io/biocontainers/bioconductor-rta10probeset.db:8.8.0--r45hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rta10probeset.db/8.8.0--r44hdfd78af_5
-$ module help quay.io/biocontainers/bioconductor-rta10probeset.db/8.8.0--r44hdfd78af_5
+$ module load quay.io/biocontainers/bioconductor-rta10probeset.db/8.8.0--r45hdfd78af_6
+$ module help quay.io/biocontainers/bioconductor-rta10probeset.db/8.8.0--r45hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

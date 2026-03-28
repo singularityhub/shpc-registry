@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hs25kresogen.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hs25kresogen.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hs25kresogen.db/container.yaml"
-updated_at: "2026-03-27 04:42:35.686774"
-latest: "2.5.0--r44hdfd78af_13"
+updated_at: "2026-03-28 04:44:33.065000"
+latest: "2.5.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-hs25kresogen.db"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.5.0--r43hdfd78af_11"
  - "2.5.0--r43hdfd78af_12"
  - "2.5.0--r44hdfd78af_13"
+ - "2.5.0--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-hs25kresogen.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hs25kresogen.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hs25kresogen.db", "latest": {"2.5.0--r44hdfd78af_13": "sha256:b4ff2294f3d0fe8abdd64bf7f861ab6675b1af21021271be7a2f557debb1f855"}, "tags": {"2.5.0--r41hdfd78af_9": "sha256:d7a6340860e7902e283466bbdaa80d4bce284a2f014cb2c051c3ccfdc3b89e31", "2.5.0--r42hdfd78af_10": "sha256:0f51cd78b77a263aa6c04ce8297850f2733aca5e429c54e4ec2249e3a3f60ba5", "2.5.0--r43hdfd78af_11": "sha256:3ab84cb4e1de318080da1eb695b4e385dddbd3a854a1c65b22df64f64e4df8c7", "2.5.0--r43hdfd78af_12": "sha256:dcee74a85e37945341041fde0d259233962ff9415304bda8d6dd31660493876b", "2.5.0--r44hdfd78af_13": "sha256:b4ff2294f3d0fe8abdd64bf7f861ab6675b1af21021271be7a2f557debb1f855"}, "docker": "quay.io/biocontainers/bioconductor-hs25kresogen.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hs25kresogen.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hs25kresogen.db", "latest": {"2.5.0--r45hdfd78af_14": "sha256:7f83acaf31b4ec83e8329e061b9686f59201ed44bcbdd1deca04fa25b75b21bd"}, "tags": {"2.5.0--r41hdfd78af_9": "sha256:d7a6340860e7902e283466bbdaa80d4bce284a2f014cb2c051c3ccfdc3b89e31", "2.5.0--r42hdfd78af_10": "sha256:0f51cd78b77a263aa6c04ce8297850f2733aca5e429c54e4ec2249e3a3f60ba5", "2.5.0--r43hdfd78af_11": "sha256:3ab84cb4e1de318080da1eb695b4e385dddbd3a854a1c65b22df64f64e4df8c7", "2.5.0--r43hdfd78af_12": "sha256:dcee74a85e37945341041fde0d259233962ff9415304bda8d6dd31660493876b", "2.5.0--r44hdfd78af_13": "sha256:b4ff2294f3d0fe8abdd64bf7f861ab6675b1af21021271be7a2f557debb1f855", "2.5.0--r45hdfd78af_14": "sha256:7f83acaf31b4ec83e8329e061b9686f59201ed44bcbdd1deca04fa25b75b21bd"}, "docker": "quay.io/biocontainers/bioconductor-hs25kresogen.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hs25kresogen.db.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hs25kresogen.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hs25kresogen.db:2.5.0--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-hs25kresogen.db:2.5.0--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hs25kresogen.db/2.5.0--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-hs25kresogen.db/2.5.0--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-hs25kresogen.db/2.5.0--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-hs25kresogen.db/2.5.0--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

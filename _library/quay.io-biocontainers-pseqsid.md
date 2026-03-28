@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pseqsid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pseqsid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pseqsid/container.yaml"
-updated_at: "2026-03-27 04:44:39.265073"
+updated_at: "2026-03-28 04:39:48.997908"
 latest: "1.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/pseqsid"
 aliases:

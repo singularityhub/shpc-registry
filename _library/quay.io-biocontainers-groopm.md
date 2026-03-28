@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/groopm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/groopm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/groopm/container.yaml"
-updated_at: "2026-03-27 05:02:26.655586"
+updated_at: "2026-03-28 04:56:07.220573"
 latest: "0.3.4--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/groopm"
 aliases:

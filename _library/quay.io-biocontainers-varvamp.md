@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varvamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varvamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varvamp/container.yaml"
-updated_at: "2026-03-27 05:28:23.192725"
+updated_at: "2026-03-28 05:09:32.639427"
 latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varvamp"
 aliases:

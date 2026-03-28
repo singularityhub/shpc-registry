@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/refgenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refgenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refgenie/container.yaml"
-updated_at: "2026-03-27 04:54:57.688373"
-latest: "0.12.1--pyhdfd78af_0"
+updated_at: "2026-03-28 04:32:31.447919"
+latest: "0.13.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/refgenie"
 aliases:
  - "import_igenome"
@@ -25,8 +25,9 @@ versions:
  - "0.12.1--pyhdfd78af_0"
  - "0.11.0--pyhdfd78af_0"
  - "0.10.0--py_0"
+ - "0.13.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for refgenie"
-config: {"url": "https://biocontainers.pro/tools/refgenie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for refgenie", "latest": {"0.12.1--pyhdfd78af_0": "sha256:02aff229054b149ba6062349fa95e0fd3f71998899ce551306fe81f2b120f0a2"}, "tags": {"0.9.3--py_0": "sha256:2738ae3a3dd8e3163c4c9e39349e1eb26954639c05de55b8d4df8dde5a2df78d", "0.12.1--pyhdfd78af_0": "sha256:02aff229054b149ba6062349fa95e0fd3f71998899ce551306fe81f2b120f0a2", "0.11.0--pyhdfd78af_0": "sha256:07962ae5df1c752bff11dd84f6233dd2170829e57c3f3b63c6f3b057cef13b83", "0.10.0--py_0": "sha256:8515215e5487f615fa3142536339d5b7725b21586cc7ae380e432e96d021e2a2"}, "docker": "quay.io/biocontainers/refgenie", "aliases": {"import_igenome": "/usr/local/bin/import_igenome", "refgenie": "/usr/local/bin/refgenie", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "faidx": "/usr/local/bin/faidx", "tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
+config: {"url": "https://biocontainers.pro/tools/refgenie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for refgenie", "latest": {"0.13.0--pyhdfd78af_0": "sha256:8359c4c625fc1d64419827bb7804755be0acaa37e2a03614145a17a630300a0b"}, "tags": {"0.9.3--py_0": "sha256:2738ae3a3dd8e3163c4c9e39349e1eb26954639c05de55b8d4df8dde5a2df78d", "0.12.1--pyhdfd78af_0": "sha256:02aff229054b149ba6062349fa95e0fd3f71998899ce551306fe81f2b120f0a2", "0.11.0--pyhdfd78af_0": "sha256:07962ae5df1c752bff11dd84f6233dd2170829e57c3f3b63c6f3b057cef13b83", "0.10.0--py_0": "sha256:8515215e5487f615fa3142536339d5b7725b21586cc7ae380e432e96d021e2a2", "0.13.0--pyhdfd78af_0": "sha256:8359c4c625fc1d64419827bb7804755be0acaa37e2a03614145a17a630300a0b"}, "docker": "quay.io/biocontainers/refgenie", "aliases": {"import_igenome": "/usr/local/bin/import_igenome", "refgenie": "/usr/local/bin/refgenie", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "faidx": "/usr/local/bin/faidx", "tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/refgenie.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/refgenie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/refgenie:0.12.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/refgenie:0.13.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/refgenie/0.12.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/refgenie/0.12.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/refgenie/0.13.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/refgenie/0.13.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/decoupler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decoupler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decoupler/container.yaml"
-updated_at: "2026-03-27 04:42:43.258188"
+updated_at: "2026-03-28 05:14:36.105516"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/decoupler"
 aliases:

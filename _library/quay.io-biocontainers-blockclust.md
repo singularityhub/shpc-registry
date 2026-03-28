@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blockclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blockclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blockclust/container.yaml"
-updated_at: "2026-03-27 04:39:03.751680"
+updated_at: "2026-03-28 05:00:46.945421"
 latest: "1.1.1--py311r44he264feb_2"
 container_url: "https://biocontainers.pro/tools/blockclust"
 aliases:

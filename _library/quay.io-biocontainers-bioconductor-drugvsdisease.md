@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-drugvsdisease"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drugvsdisease/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drugvsdisease/container.yaml"
-updated_at: "2026-03-27 04:58:05.536680"
-latest: "2.48.0--r44hdfd78af_0"
+updated_at: "2026-03-28 04:45:49.337437"
+latest: "2.52.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drugvsdisease"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.42.0--r43hdfd78af_0"
  - "2.44.0--r43hdfd78af_0"
  - "2.48.0--r44hdfd78af_0"
+ - "2.52.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drugvsdisease", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease", "latest": {"2.48.0--r44hdfd78af_0": "sha256:e8be12488fcf477d97aba335b6bdeb9f19bf5b652252d99296cca5f3db9aab06"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:7598c01a8c906e583ebb572d584cd4f6703612817d0c04d031d75356466c1787", "2.40.0--r42hdfd78af_0": "sha256:873418becae84e7df68da39554c5d1ec68294731a269d93691e01d5277de1d99", "2.42.0--r43hdfd78af_0": "sha256:88e7fb3dd551358025bbdd2700b48245e3f323ef20be70b6a11efa7276c0222f", "2.44.0--r43hdfd78af_0": "sha256:ad0ea08a3ac8999cb43cc5487856c9b4cd8d0aeeb1dd9b4be8a3bba0fdf7538d", "2.48.0--r44hdfd78af_0": "sha256:e8be12488fcf477d97aba335b6bdeb9f19bf5b652252d99296cca5f3db9aab06"}, "docker": "quay.io/biocontainers/bioconductor-drugvsdisease"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drugvsdisease", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease", "latest": {"2.52.0--r45hdfd78af_0": "sha256:faba401403db0121b5e429883ab1999f8a2cb93228977244053afd72f7b37839"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:7598c01a8c906e583ebb572d584cd4f6703612817d0c04d031d75356466c1787", "2.40.0--r42hdfd78af_0": "sha256:873418becae84e7df68da39554c5d1ec68294731a269d93691e01d5277de1d99", "2.42.0--r43hdfd78af_0": "sha256:88e7fb3dd551358025bbdd2700b48245e3f323ef20be70b6a11efa7276c0222f", "2.44.0--r43hdfd78af_0": "sha256:ad0ea08a3ac8999cb43cc5487856c9b4cd8d0aeeb1dd9b4be8a3bba0fdf7538d", "2.48.0--r44hdfd78af_0": "sha256:e8be12488fcf477d97aba335b6bdeb9f19bf5b652252d99296cca5f3db9aab06", "2.52.0--r45hdfd78af_0": "sha256:faba401403db0121b5e429883ab1999f8a2cb93228977244053afd72f7b37839"}, "docker": "quay.io/biocontainers/bioconductor-drugvsdisease"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drugvsdisease.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-drugvsdisease
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-drugvsdisease:2.48.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-drugvsdisease:2.52.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-drugvsdisease/2.48.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-drugvsdisease/2.48.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-drugvsdisease/2.52.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-drugvsdisease/2.52.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

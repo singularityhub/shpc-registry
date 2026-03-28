@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msaboot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msaboot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msaboot/container.yaml"
-updated_at: "2026-03-27 04:45:13.673548"
+updated_at: "2026-03-28 05:08:38.808605"
 latest: "0.1.2--py_1"
 container_url: "https://biocontainers.pro/tools/msaboot"
 aliases:

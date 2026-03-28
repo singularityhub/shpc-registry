@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38/container.yaml"
-updated_at: "2026-03-27 05:18:35.265402"
-latest: "3.10.0--r44hdfd78af_10"
+updated_at: "2026-03-28 05:15:42.564311"
+latest: "3.10.0--r45hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.1.grch38"
 aliases:
  - "gio-launch-desktop"
@@ -17,8 +17,9 @@ versions:
  - "3.10.0--r43hdfd78af_8"
  - "3.10.0--r43hdfd78af_9"
  - "3.10.0--r44hdfd78af_10"
+ - "3.10.0--r45hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.1.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.1.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.1.grch38", "latest": {"3.10.0--r44hdfd78af_10": "sha256:196f9d63936a4bed2437fa0921a4e3809bea57b9a7a7ad50fb1089c9d429ad67"}, "tags": {"3.9.0--r36_1": "sha256:61d8acee658c553234bc708162953ace0a3050fd9f85f230357e242b590f858e", "3.10.0--r42hdfd78af_7": "sha256:08aa01bf991cc97fcf4786ecb9d50eac24c6a686579ac55cc7aed65056bb6461", "3.10.0--r43hdfd78af_8": "sha256:3f0e6b0ae65043508ce0365208ec28a4db8bcb267ab532c4b4e79135635479de", "3.10.0--r43hdfd78af_9": "sha256:f37e37b8ed6d352c2f515dec9bf3553988f79cb322d2e41a6d63a37544791794", "3.10.0--r44hdfd78af_10": "sha256:196f9d63936a4bed2437fa0921a4e3809bea57b9a7a7ad50fb1089c9d429ad67"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.gnomadex.r2.1.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomadex.r2.1.grch38", "latest": {"3.10.0--r45hdfd78af_11": "sha256:4076ebcc3d66aaf6a03726affdc0d9a176175b0909037fa8c103a97c58e7a366"}, "tags": {"3.9.0--r36_1": "sha256:61d8acee658c553234bc708162953ace0a3050fd9f85f230357e242b590f858e", "3.10.0--r42hdfd78af_7": "sha256:08aa01bf991cc97fcf4786ecb9d50eac24c6a686579ac55cc7aed65056bb6461", "3.10.0--r43hdfd78af_8": "sha256:3f0e6b0ae65043508ce0365208ec28a4db8bcb267ab532c4b4e79135635479de", "3.10.0--r43hdfd78af_9": "sha256:f37e37b8ed6d352c2f515dec9bf3553988f79cb322d2e41a6d63a37544791794", "3.10.0--r44hdfd78af_10": "sha256:196f9d63936a4bed2437fa0921a4e3809bea57b9a7a7ad50fb1089c9d429ad67", "3.10.0--r45hdfd78af_11": "sha256:4076ebcc3d66aaf6a03726affdc0d9a176175b0909037fa8c103a97c58e7a366"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38:3.10.0--r44hdfd78af_10
+$ shpc install quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38:3.10.0--r45hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38/3.10.0--r44hdfd78af_10
-$ module help quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38/3.10.0--r44hdfd78af_10
+$ module load quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38/3.10.0--r45hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-mafdb.gnomadex.r2.1.grch38/3.10.0--r45hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

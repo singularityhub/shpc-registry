@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-feast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-feast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-feast/container.yaml"
-updated_at: "2026-03-27 04:52:58.610590"
-latest: "1.14.0--r44h3df3fcb_0"
+updated_at: "2026-03-28 05:02:09.352334"
+latest: "1.18.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-feast"
 aliases:
  - "glpsol"
@@ -16,8 +16,9 @@ versions:
  - "1.8.0--r43ha9d7317_0"
  - "1.10.0--r43ha9d7317_0"
  - "1.14.0--r44h3df3fcb_0"
+ - "1.18.0--r45h01b2380_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-feast"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-feast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-feast", "latest": {"1.14.0--r44h3df3fcb_0": "sha256:e903f8d24c3c62cb7fe7cbe138a8454382fc7df06a2e616c619b8e73acf93969"}, "tags": {"1.2.0--r41hc0cfd56_2": "sha256:ed479d91c618d72a9cf5c3452c8f02625da90cabb56f92c0db6e7769a307d89f", "1.6.0--r42hc0cfd56_0": "sha256:88a6c06b070905d8a5a4abf0e73efaf71bcfd9d47c62634bc81734ec813aaa73", "1.6.0--r42ha9d7317_1": "sha256:194fe925aa9af8995e53c36e20e8d07fc078e185613b5f404df1299962f407ac", "1.8.0--r43ha9d7317_0": "sha256:3e339f5849f5aa6bacedff783b0e606f9198f7c5ca9da76f9856e3d72e0ad5e1", "1.10.0--r43ha9d7317_0": "sha256:1c1c50fa6fa5aa9a05ac4a9537c72995bffc4b9b86b93d2a2f6dbb7b7f52eb38", "1.14.0--r44h3df3fcb_0": "sha256:e903f8d24c3c62cb7fe7cbe138a8454382fc7df06a2e616c619b8e73acf93969"}, "docker": "quay.io/biocontainers/bioconductor-feast", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-feast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-feast", "latest": {"1.18.0--r45h01b2380_0": "sha256:5329c55a0877fa6c706da41a09bd01f7c60008db269227339b89c3bfa93ca8a8"}, "tags": {"1.2.0--r41hc0cfd56_2": "sha256:ed479d91c618d72a9cf5c3452c8f02625da90cabb56f92c0db6e7769a307d89f", "1.6.0--r42hc0cfd56_0": "sha256:88a6c06b070905d8a5a4abf0e73efaf71bcfd9d47c62634bc81734ec813aaa73", "1.6.0--r42ha9d7317_1": "sha256:194fe925aa9af8995e53c36e20e8d07fc078e185613b5f404df1299962f407ac", "1.8.0--r43ha9d7317_0": "sha256:3e339f5849f5aa6bacedff783b0e606f9198f7c5ca9da76f9856e3d72e0ad5e1", "1.10.0--r43ha9d7317_0": "sha256:1c1c50fa6fa5aa9a05ac4a9537c72995bffc4b9b86b93d2a2f6dbb7b7f52eb38", "1.14.0--r44h3df3fcb_0": "sha256:e903f8d24c3c62cb7fe7cbe138a8454382fc7df06a2e616c619b8e73acf93969", "1.18.0--r45h01b2380_0": "sha256:5329c55a0877fa6c706da41a09bd01f7c60008db269227339b89c3bfa93ca8a8"}, "docker": "quay.io/biocontainers/bioconductor-feast", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-feast.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-feast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-feast:1.14.0--r44h3df3fcb_0
+$ shpc install quay.io/biocontainers/bioconductor-feast:1.18.0--r45h01b2380_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-feast/1.14.0--r44h3df3fcb_0
-$ module help quay.io/biocontainers/bioconductor-feast/1.14.0--r44h3df3fcb_0
+$ module load quay.io/biocontainers/bioconductor-feast/1.18.0--r45h01b2380_0
+$ module help quay.io/biocontainers/bioconductor-feast/1.18.0--r45h01b2380_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
