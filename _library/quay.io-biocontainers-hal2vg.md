@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hal2vg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hal2vg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hal2vg/container.yaml"
-updated_at: "2026-03-28 04:27:35.903908"
+updated_at: "2026-03-28 16:38:34.303673"
 latest: "1.1.8--hee927d3_0"
 container_url: "https://biocontainers.pro/tools/hal2vg"
 aliases:

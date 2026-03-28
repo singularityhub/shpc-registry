@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-visiumstitched"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-visiumstitched/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-visiumstitched/container.yaml"
-updated_at: "2026-03-28 05:01:37.514156"
+updated_at: "2026-03-28 17:12:21.859000"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-visiumstitched"
 aliases:
