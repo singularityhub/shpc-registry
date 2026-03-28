@@ -1,0 +1,111 @@
+url: https://biocontainers.pro/tools/teexpo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for teexpo
+latest:
+  1.0.0--py312hdfd78af_0: 
+    sha256:f3b77516e65e141f63b18c78ef2fe326484ca73a7769d601faee8d2acee6c2e3
+tags:
+  1.0.0--py312hdfd78af_0: 
+    sha256:f3b77516e65e141f63b18c78ef2fe326484ca73a7769d601faee8d2acee6c2e3
+docker: quay.io/biocontainers/teexpo
+aliases:
+  BPbtab: /usr/local/bin/BPbtab
+  BuildDatabase: /usr/local/bin/BuildDatabase
+  LAI: /usr/local/bin/LAI
+  LTRPipeline: /usr/local/bin/LTRPipeline
+  LTR_retriever: /usr/local/bin/LTR_retriever
+  LTR_retriever.py: /usr/local/bin/LTR_retriever.py
+  Linup: /usr/local/bin/Linup
+  MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
+  Ninja: /usr/local/bin/Ninja
+  RAMExtend: /usr/local/bin/RAMExtend
+  Refiner: /usr/local/bin/Refiner
+  RepeatClassifier: /usr/local/bin/RepeatClassifier
+  RepeatMasker.py: /usr/local/bin/RepeatMasker.py
+  RepeatModeler: /usr/local/bin/RepeatModeler
+  RepeatScout: /usr/local/bin/RepeatScout
+  TBLASTN_hit_chainer.pl: /usr/local/bin/TBLASTN_hit_chainer.pl
+  TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl: 
+    /usr/local/bin/TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl
+  TEsorter: /usr/local/bin/TEsorter
+  TEsorter-test: /usr/local/bin/TEsorter-test
+  TMscore: /usr/local/bin/TMscore
+  TPSI_btab_to_gff3.pl: /usr/local/bin/TPSI_btab_to_gff3.pl
+  TPSI_chains_to_fasta.pl: /usr/local/bin/TPSI_chains_to_fasta.pl
+  TPSI_chains_to_gff3.pl: /usr/local/bin/TPSI_chains_to_gff3.pl
+  alignAndCallConsensus.pl: /usr/local/bin/alignAndCallConsensus.pl
+  bigRmskAlignBed.as: /usr/local/bin/bigRmskAlignBed.as
+  bigRmskBed.as: /usr/local/bin/bigRmskBed.as
+  bstats: /usr/local/bin/bstats
+  build_lmer_table: /usr/local/bin/build_lmer_table
+  calcPaths.pl: /usr/local/bin/calcPaths.pl
+  combineRMFiles.pl: /usr/local/bin/combineRMFiles.pl
+  compare-out-to-gff.prl: /usr/local/bin/compare-out-to-gff.prl
+  comppair: /usr/local/bin/comppair
+  concatenate_domains.py: /usr/local/bin/concatenate_domains.py
+  conus_compare: /usr/local/bin/conus_compare
+  conus_train: /usr/local/bin/conus_train
+  convert_MGEScan3.0.pl: /usr/local/bin/convert_MGEScan3.0.pl
+  convert_ltr_struc.pl: /usr/local/bin/convert_ltr_struc.pl
+  convert_ltrdetector.pl: /usr/local/bin/convert_ltrdetector.pl
+  davidExtendConsRAM.pl: /usr/local/bin/davidExtendConsRAM.pl
+  dialign-tx: /usr/local/bin/dialign-tx
+  ds: /usr/local/bin/ds
+  edgeredef: /usr/local/bin/edgeredef
+  eledef: /usr/local/bin/eledef
+  eleredef: /usr/local/bin/eleredef
+  extend-stk.pl: /usr/local/bin/extend-stk.pl
+  famdef: /usr/local/bin/famdef
+  famsa: /usr/local/bin/famsa
+  filter-stage-1.prl: /usr/local/bin/filter-stage-1.prl
+  filter-stage-2.prl: /usr/local/bin/filter-stage-2.prl
+  generateSeedAlignments.pl: /usr/local/bin/generateSeedAlignments.pl
+  get_record.py: /usr/local/bin/get_record.py
+  imagespread: /usr/local/bin/imagespread
+  m2fmt_tier_hits.pl: /usr/local/bin/m2fmt_tier_hits.pl
+  makeclusterdb: /usr/local/bin/makeclusterdb
+  merge-lmer-tables.prl: /usr/local/bin/merge-lmer-tables.prl
+  mustang: /usr/local/bin/mustang
+  nmerge: /usr/local/bin/nmerge
+  nseg: /usr/local/bin/nseg
+  pModel: /usr/local/bin/pModel
+  ppserver.py: /usr/local/bin/ppserver.py
+  probcons: /usr/local/bin/probcons
+  probconsRNA: /usr/local/bin/probconsRNA
+  proda: /usr/local/bin/proda
+  renumberRMFiles.pl: /usr/local/bin/renumberRMFiles.pl
+  rmToTrackHub.pl: /usr/local/bin/rmToTrackHub.pl
+  sap: /usr/local/bin/sap
+  scompare: /usr/local/bin/scompare
+  sfold: /usr/local/bin/sfold
+  strain_ml: /usr/local/bin/strain_ml
+  teexpo: /usr/local/bin/teexpo
+  transposonPSI.pl: /usr/local/bin/transposonPSI.pl
+  transposon_db_m2fmt_to_gff3.pl: /usr/local/bin/transposon_db_m2fmt_to_gff3.pl
+  treeshrink: /usr/local/bin/treeshrink
+  viewMSA.pl: /usr/local/bin/viewMSA.pl
+  hmmerbuild: /usr/local/bin/hmmerbuild
+  kalign: /usr/local/bin/kalign
+  pyfiglet: /usr/local/bin/pyfiglet
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  maskFile.pl: /usr/local/bin/maskFile.pl
+  DrawGram.jar: /usr/local/bin/DrawGram.jar
+  DrawTree.jar: /usr/local/bin/DrawTree.jar
+  clique: /usr/local/bin/clique
+  consense: /usr/local/bin/consense
+  contml: /usr/local/bin/contml
+  contrast: /usr/local/bin/contrast
+  dnacomp: /usr/local/bin/dnacomp
+  dnadist: /usr/local/bin/dnadist
+  dnainvar: /usr/local/bin/dnainvar
+  dnaml: /usr/local/bin/dnaml
+  dnamlk: /usr/local/bin/dnamlk
+  dnamove: /usr/local/bin/dnamove
+  dnapenny: /usr/local/bin/dnapenny
+  dollop: /usr/local/bin/dollop
+  dolmove: /usr/local/bin/dolmove
+  dolpenny: /usr/local/bin/dolpenny
+  drawgram: /usr/local/bin/drawgram
+  drawgram_gui: /usr/local/bin/drawgram_gui
+  drawtree: /usr/local/bin/drawtree
+  drawtree_gui: /usr/local/bin/drawtree_gui

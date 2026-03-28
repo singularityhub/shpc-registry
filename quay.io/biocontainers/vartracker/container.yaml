@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/vartracker
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vartracker
+latest:
+  2.1.1--pyhdfd78af_0: 
+    sha256:ff12cf8419440406a1e67ba9463d46fc6d8a8ca6acbe1eb92eacaef79e4df329
+tags:
+  2.1.1--pyhdfd78af_0: 
+    sha256:ff12cf8419440406a1e67ba9463d46fc6d8a8ca6acbe1eb92eacaef79e4df329
+docker: quay.io/biocontainers/vartracker
+aliases:
+  gff2gff: /usr/local/bin/gff2gff
+  lofreq2_indel_ovlp.py: /usr/local/bin/lofreq2_indel_ovlp.py
+  lofreq2_vcfplot.py: /usr/local/bin/lofreq2_vcfplot.py
+  parse_pokay: /usr/local/bin/parse_pokay
+  roh-viz: /usr/local/bin/roh-viz
+  vartracker: /usr/local/bin/vartracker
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  lofreq: /usr/local/bin/lofreq
+  lofreq2_call_pparallel.py: /usr/local/bin/lofreq2_call_pparallel.py
+  lofreq2_somatic.py: /usr/local/bin/lofreq2_somatic.py
+  cyvcf2: /usr/local/bin/cyvcf2
+  fastp: /usr/local/bin/fastp
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  ref-cache: /usr/local/bin/ref-cache
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  yte: /usr/local/bin/yte
+  igzip: /usr/local/bin/igzip
+  coloredlogs: /usr/local/bin/coloredlogs
+  docutils: /usr/local/bin/docutils
+  pulptest: /usr/local/bin/pulptest
+  snakemake: /usr/local/bin/snakemake
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp

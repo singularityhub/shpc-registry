@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/knotannotsv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for knotannotsv
+latest:
+  1.1.5--hdfd78af_0: 
+    sha256:eeee0b1a2143f7692968ed08182030d4787ca3c7125accd44d2901f1e54ab85d
+tags:
+  1.1.5--hdfd78af_0: 
+    sha256:eeee0b1a2143f7692968ed08182030d4787ca3c7125accd44d2901f1e54ab85d
+docker: quay.io/biocontainers/knotannotsv
+aliases:
+  crc32: /usr/local/bin/crc32
+  extract_vba: /usr/local/bin/extract_vba
+  knotAnnotSV.pl: /usr/local/bin/knotAnnotSV.pl
+  knotAnnotSV2XL.pl: /usr/local/bin/knotAnnotSV2XL.pl
+  vbaProject.bin: /usr/local/bin/vbaProject.bin
