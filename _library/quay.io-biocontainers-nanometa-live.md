@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanometa-live"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanometa-live/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanometa-live/container.yaml"
-updated_at: "2026-03-28 17:14:44.526860"
+updated_at: "2026-03-29 05:21:08.500069"
 latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanometa-live"
 aliases:

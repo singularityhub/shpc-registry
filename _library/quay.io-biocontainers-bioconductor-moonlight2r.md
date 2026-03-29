@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moonlight2r"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moonlight2r/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moonlight2r/container.yaml"
-updated_at: "2026-03-28 16:55:59.522667"
+updated_at: "2026-03-29 05:01:34.900774"
 latest: "1.8.1--r45h575d39b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moonlight2r"
 aliases:

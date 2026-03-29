@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gigatyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gigatyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gigatyper/container.yaml"
-updated_at: "2026-03-28 16:55:11.632316"
+updated_at: "2026-03-29 05:00:45.090415"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gigatyper"
 aliases:

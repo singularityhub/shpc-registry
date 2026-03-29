@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-coralysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-coralysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-coralysis/container.yaml"
-updated_at: "2026-03-28 16:53:41.032113"
+updated_at: "2026-03-29 04:59:10.618553"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-coralysis"
 aliases:

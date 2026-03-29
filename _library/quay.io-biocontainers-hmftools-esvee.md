@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-esvee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-esvee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-esvee/container.yaml"
-updated_at: "2026-03-28 17:02:22.291936"
+updated_at: "2026-03-29 05:08:13.935275"
 latest: "1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-esvee"
 aliases:

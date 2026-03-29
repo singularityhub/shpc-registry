@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirtarrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirtarrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirtarrnaseq/container.yaml"
-updated_at: "2026-03-28 17:00:20.004025"
+updated_at: "2026-03-29 05:06:06.645300"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirtarrnaseq"
 

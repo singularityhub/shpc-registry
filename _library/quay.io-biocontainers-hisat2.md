@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hisat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hisat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hisat2/container.yaml"
-updated_at: "2026-03-28 17:02:12.986457"
+updated_at: "2026-03-29 05:08:04.277583"
 latest: "2.2.2--h503566f_0"
 container_url: "https://biocontainers.pro/tools/hisat2"
 aliases:

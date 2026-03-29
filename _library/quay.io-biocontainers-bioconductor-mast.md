@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mast/container.yaml"
-updated_at: "2026-03-28 17:20:35.445227"
+updated_at: "2026-03-29 05:27:14.450695"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mast"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gatktool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatktool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatktool/container.yaml"
-updated_at: "2026-03-28 17:24:54.185010"
+updated_at: "2026-03-29 05:31:44.608084"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/gatktool"
 aliases:
