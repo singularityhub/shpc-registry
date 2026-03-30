@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/orographer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for orographer
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:71f809dab82a6ecd05a776167b8154c61e0d274698e742baf9b438dfe74811cd
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:71f809dab82a6ecd05a776167b8154c61e0d274698e742baf9b438dfe74811cd
+docker: quay.io/biocontainers/orographer
+aliases:
+  orographer: /usr/local/bin/orographer
+  bokeh: /usr/local/bin/bokeh
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump

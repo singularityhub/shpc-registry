@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/genesis
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genesis
+latest:
+  0.34.0--h9516ec6_0: 
+    sha256:d35152236b69967b9d9c4592e8bb9a00afd32d184ffd8e1d091518e85fa69cdf
+tags:
+  0.34.0--h9516ec6_0: 
+    sha256:d35152236b69967b9d9c4592e8bb9a00afd32d184ffd8e1d091518e85fa69cdf
+docker: quay.io/biocontainers/genesis

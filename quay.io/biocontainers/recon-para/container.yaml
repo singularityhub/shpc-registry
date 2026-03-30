@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/recon-para
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for recon-para
+latest:
+  1.05.1--h87e0c26_0: 
+    sha256:7e79f243564a15986c06ff03711b2f3e7170e5a81e1e37541a3c372a4a0d51e8
+tags:
+  1.05.1--h87e0c26_0: 
+    sha256:7e79f243564a15986c06ff03711b2f3e7170e5a81e1e37541a3c372a4a0d51e8
+docker: quay.io/biocontainers/recon-para
+aliases:
+  MSPCollect.pl: /usr/local/bin/MSPCollect.pl
+  edgeredef: /usr/local/bin/edgeredef
+  eledef: /usr/local/bin/eledef
+  eleredef: /usr/local/bin/eleredef
+  famdef: /usr/local/bin/famdef
+  imagespread: /usr/local/bin/imagespread
+  recon.pl: /usr/local/bin/recon.pl
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df
+  dir: /usr/local/bin/dir
+  dircolors: /usr/local/bin/dircolors
+  dirname: /usr/local/bin/dirname
+  du: /usr/local/bin/du
+  echo: /usr/local/bin/echo

@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/cadd-threshold-app
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cadd-threshold-app
+latest:
+  0.0.1--pyhdfd78af_0: 
+    sha256:92478421e9da06bdbcac5ada74d2a75543a870632161731ecc28ef42189212bf
+tags:
+  0.0.1--pyhdfd78af_0: 
+    sha256:92478421e9da06bdbcac5ada74d2a75543a870632161731ecc28ef42189212bf
+docker: quay.io/biocontainers/cadd-threshold-app
+aliases:
+  cadd-threshold-app: /usr/local/bin/cadd-threshold-app
+  shiny: /usr/local/bin/shiny
+  uvicorn: /usr/local/bin/uvicorn
+  watchfiles: /usr/local/bin/watchfiles
+  websockets: /usr/local/bin/websockets
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer
