@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fxsplit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fxsplit
+latest:
+  0.0.3--hd612981_0: 
+    sha256:17fb480d2ac3b7df703439eff772148d630c9ab32da6afb01cf5dd5fa85f693b
+tags:
+  0.0.3--hd612981_0: 
+    sha256:17fb480d2ac3b7df703439eff772148d630c9ab32da6afb01cf5dd5fa85f693b
+docker: quay.io/biocontainers/fxsplit
+aliases:
+  fxsplit: /usr/local/bin/fxsplit

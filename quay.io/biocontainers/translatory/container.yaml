@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/translatory
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for translatory
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:0b26bf297f88c1ec99f1b0f316503faa72585fe4e735d1fcc74e849499a4dac1
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:0b26bf297f88c1ec99f1b0f316503faa72585fe4e735d1fcc74e849499a4dac1
+docker: quay.io/biocontainers/translatory
+aliases:
+  Gblocks: /usr/local/bin/Gblocks
+  translatory: /usr/local/bin/translatory
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  trust: /usr/local/bin/trust
+  TMalign: /usr/local/bin/TMalign
+  make_pscores.pl: /usr/local/bin/make_pscores.pl
+  poa: /usr/local/bin/poa
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo

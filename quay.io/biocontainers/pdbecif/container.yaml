@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/pdbecif
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pdbecif
+latest:
+  1.5--pyhdfd78af_0: 
+    sha256:95bfa02ba961775235bc2dfef2b7cfffc2fd0cf96de81b0d2c61b223446df4e8
+tags:
+  1.5--pyhdfd78af_0: 
+    sha256:95bfa02ba961775235bc2dfef2b7cfffc2fd0cf96de81b0d2c61b223446df4e8
+docker: quay.io/biocontainers/pdbecif
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
