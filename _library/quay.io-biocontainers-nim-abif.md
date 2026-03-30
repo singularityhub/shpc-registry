@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nim-abif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nim-abif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nim-abif/container.yaml"
-updated_at: "2026-03-29 04:44:37.259654"
+updated_at: "2026-03-30 04:52:38.367603"
 latest: "0.2.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/nim-abif"
 aliases:

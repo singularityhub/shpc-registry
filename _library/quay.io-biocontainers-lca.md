@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lca/container.yaml"
-updated_at: "2026-03-29 05:05:36.177898"
+updated_at: "2026-03-30 05:13:24.314004"
 latest: "0.25--h077b44d_2"
 container_url: "https://biocontainers.pro/tools/lca"
 aliases:

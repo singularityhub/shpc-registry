@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-doser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doser/container.yaml"
-updated_at: "2026-03-29 05:15:12.671258"
+updated_at: "2026-03-30 05:23:03.661090"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-doser"
 aliases:

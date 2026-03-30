@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-supercellcyto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-supercellcyto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-supercellcyto/container.yaml"
-updated_at: "2026-03-29 04:46:00.510561"
+updated_at: "2026-03-30 04:54:04.118434"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-supercellcyto"
 aliases:

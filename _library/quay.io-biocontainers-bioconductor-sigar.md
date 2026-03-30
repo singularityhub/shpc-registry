@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sigar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sigar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sigar/container.yaml"
-updated_at: "2026-03-29 05:11:54.200358"
+updated_at: "2026-03-30 05:19:45.009254"
 latest: "1.35.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sigar"
 aliases:

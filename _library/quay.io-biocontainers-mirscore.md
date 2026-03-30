@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirscore/container.yaml"
-updated_at: "2026-03-29 05:27:02.585404"
+updated_at: "2026-03-30 05:34:59.304523"
 latest: "0.3.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mirscore"
 aliases:
