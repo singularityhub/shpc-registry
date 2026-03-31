@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vase/container.yaml"
-updated_at: "2026-03-30 06:08:45.554496"
+updated_at: "2026-03-31 05:17:24.794008"
 latest: "0.5.1--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/vase"
 aliases:

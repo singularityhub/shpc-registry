@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-music"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-music/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-music/container.yaml"
-updated_at: "2026-03-30 06:16:54.352375"
+updated_at: "2026-03-31 05:25:30.025309"
 latest: "0.2.0--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-music"
 

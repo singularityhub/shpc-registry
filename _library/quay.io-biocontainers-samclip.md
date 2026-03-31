@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samclip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samclip/container.yaml"
-updated_at: "2026-03-30 05:58:35.076086"
+updated_at: "2026-03-31 05:07:03.645571"
 latest: "0.4.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/samclip"
 aliases:

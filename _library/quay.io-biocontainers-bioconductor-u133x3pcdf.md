@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-u133x3pcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-u133x3pcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-u133x3pcdf/container.yaml"
-updated_at: "2026-03-30 06:16:23.325957"
+updated_at: "2026-03-31 05:24:58.464206"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-u133x3pcdf"
 

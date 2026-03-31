@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gdsctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdsctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdsctools/container.yaml"
-updated_at: "2026-03-30 05:57:15.757786"
+updated_at: "2026-03-31 05:05:41.254091"
 latest: "1.0.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/gdsctools"
 aliases:

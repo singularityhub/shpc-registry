@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gdc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdc/container.yaml"
-updated_at: "2026-03-30 06:11:36.439572"
+updated_at: "2026-03-31 05:20:16.142669"
 latest: "2.0--h077b44d_6"
 container_url: "https://biocontainers.pro/tools/gdc"
 

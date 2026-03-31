@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amplici"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplici/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplici/container.yaml"
-updated_at: "2026-03-30 05:44:54.725493"
+updated_at: "2026-03-31 04:52:41.415042"
 latest: "2.2--h2555670_1"
 container_url: "https://biocontainers.pro/tools/amplici"
 aliases:

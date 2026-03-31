@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ginmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ginmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ginmapper/container.yaml"
-updated_at: "2026-03-30 06:01:31.049474"
+updated_at: "2026-03-31 05:10:02.437965"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ginmapper"
 aliases:

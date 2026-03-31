@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cicero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cicero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cicero/container.yaml"
-updated_at: "2026-03-30 06:01:22.720976"
+updated_at: "2026-03-31 05:09:53.528801"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cicero"
 aliases:

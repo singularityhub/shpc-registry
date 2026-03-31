@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pirs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pirs/container.yaml"
-updated_at: "2026-03-30 05:45:00.300974"
+updated_at: "2026-03-31 04:52:47.433507"
 latest: "2.0.2--h466657f_6"
 container_url: "https://biocontainers.pro/tools/pirs"
 aliases:
