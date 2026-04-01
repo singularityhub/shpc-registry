@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgscatalog.match"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgscatalog.match/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgscatalog.match/container.yaml"
-updated_at: "2026-03-31 04:43:19.320100"
+updated_at: "2026-04-01 04:54:36.389555"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pgscatalog.match"
 aliases:

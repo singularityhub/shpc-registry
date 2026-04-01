@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rattle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rattle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rattle/container.yaml"
-updated_at: "2026-03-31 05:01:33.785799"
+updated_at: "2026-04-01 05:11:27.713342"
 latest: "1.0--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/rattle"
 aliases:

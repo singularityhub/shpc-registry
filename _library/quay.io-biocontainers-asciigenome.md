@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/asciigenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/asciigenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/asciigenome/container.yaml"
-updated_at: "2026-03-31 05:23:44.171417"
+updated_at: "2026-04-01 05:33:06.388322"
 latest: "1.19.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/asciigenome"
 aliases:

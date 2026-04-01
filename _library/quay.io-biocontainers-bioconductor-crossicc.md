@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crossicc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crossicc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crossicc/container.yaml"
-updated_at: "2026-03-31 04:41:06.986872"
+updated_at: "2026-04-01 04:52:30.861815"
 latest: "1.2.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crossicc"
 aliases:

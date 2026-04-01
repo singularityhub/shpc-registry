@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-spp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spp/container.yaml"
-updated_at: "2026-03-31 05:26:40.461326"
+updated_at: "2026-04-01 05:36:00.561076"
 latest: "1.16.0--r44he56ddfa_12"
 container_url: "https://biocontainers.pro/tools/r-spp"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-starbiotrek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-starbiotrek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-starbiotrek/container.yaml"
-updated_at: "2026-03-31 05:38:27.903571"
+updated_at: "2026-04-01 05:47:34.611073"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-starbiotrek"
 aliases:

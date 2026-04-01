@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scsr/container.yaml"
-updated_at: "2026-03-31 04:58:18.659603"
+updated_at: "2026-04-01 05:08:25.497734"
 latest: "crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout"
 container_url: "https://biocontainers.pro/tools/bioconductor-scsr"
 aliases:

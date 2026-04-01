@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggcoverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggcoverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggcoverage/container.yaml"
-updated_at: "2026-03-31 05:33:55.017170"
+updated_at: "2026-04-01 05:43:15.514787"
 latest: "0.7.1--r44h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-ggcoverage"
 aliases:

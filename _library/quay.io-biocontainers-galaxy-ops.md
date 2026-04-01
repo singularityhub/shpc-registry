@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-ops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-ops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-ops/container.yaml"
-updated_at: "2026-03-31 05:19:55.301345"
+updated_at: "2026-04-01 05:29:16.250888"
 latest: "1.1.0--py_2"
 container_url: "https://biocontainers.pro/tools/galaxy-ops"
 aliases:

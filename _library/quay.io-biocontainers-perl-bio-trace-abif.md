@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-trace-abif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-trace-abif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-trace-abif/container.yaml"
-updated_at: "2026-03-31 05:32:51.465253"
+updated_at: "2026-04-01 05:42:14.444927"
 latest: "1.06--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-bio-trace-abif"
 aliases:

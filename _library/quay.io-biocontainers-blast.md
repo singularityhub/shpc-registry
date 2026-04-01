@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blast/container.yaml"
-updated_at: "2026-03-31 05:26:46.497787"
+updated_at: "2026-04-01 05:36:06.431613"
 latest: "2.17.0--h66d330f_0"
 container_url: "https://biocontainers.pro/tools/blast"
 aliases:

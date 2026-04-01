@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aenum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aenum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aenum/container.yaml"
-updated_at: "2026-03-31 05:30:15.787737"
+updated_at: "2026-04-01 05:39:36.909707"
 latest: "2.0.8--py35_0"
 container_url: "https://biocontainers.pro/tools/aenum"
 aliases:

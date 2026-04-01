@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gaftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gaftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gaftools/container.yaml"
-updated_at: "2026-03-31 05:37:02.015395"
+updated_at: "2026-04-01 05:46:12.638614"
 latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gaftools"
 aliases:
