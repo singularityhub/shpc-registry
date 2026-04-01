@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lobstahs
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:3cd7051b07bba7c8e5258b398433b7a70c8158a0356e3aaf2e70515dfdd19786
+  1.36.0--r45hdfd78af_0: 
+    sha256:88992c0e80f8673ae29fa4cefff9f165d57156b59ad0f5fb5e96ae1fb25f47ae
 tags:
   1.8.1--r351_0: 
     sha256:6c065229050cf07cbea62153537f970cd6ccaad4a3fef12e9446abd3aacbc4c0
@@ -26,6 +26,8 @@ tags:
     sha256:09f92cbb52f53c07434d31fb350807ea562aa02a1e932c06dd2b524596925ac9
   1.32.0--r44hdfd78af_0: 
     sha256:3cd7051b07bba7c8e5258b398433b7a70c8158a0356e3aaf2e70515dfdd19786
+  1.36.0--r45hdfd78af_0: 
+    sha256:88992c0e80f8673ae29fa4cefff9f165d57156b59ad0f5fb5e96ae1fb25f47ae
 docker: quay.io/biocontainers/bioconductor-lobstahs
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf

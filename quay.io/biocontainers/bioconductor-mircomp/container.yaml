@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mircomp
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:73a75a513962bf4cfc8a9ee026848c08691fcb064410a52d367f79bb9429ce87
+  1.40.0--r45hdfd78af_0: 
+    sha256:fdbbcbd02a6fc5bbfc6d33a094e44b225ca30fad67cdfd89a83a9c61a3b6b6bd
 tags:
   1.24.0--r41hdfd78af_0: 
     sha256:8468af683b70e3595e066418f733766bada0d6ad83ac69937ca9238ec2fc1909
@@ -16,4 +16,6 @@ tags:
     sha256:25c259d45efcf77c17d09fe85319b94b8edb2f633b7f117fd6b7378e7c404566
   1.36.0--r44hdfd78af_0: 
     sha256:73a75a513962bf4cfc8a9ee026848c08691fcb064410a52d367f79bb9429ce87
+  1.40.0--r45hdfd78af_0: 
+    sha256:fdbbcbd02a6fc5bbfc6d33a094e44b225ca30fad67cdfd89a83a9c61a3b6b6bd
 docker: quay.io/biocontainers/bioconductor-mircomp

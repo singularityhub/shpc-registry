@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/fulgor
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fulgor
 latest:
-  4.0.0--hdcadc20_0: 
-    sha256:0c87924a700927c83620c559c9b5bd595e57e879dc79ab7433c2d41874265d78
+  4.0.0--hdcadc20_1: 
+    sha256:badb840d94ded70983135f944434967ca7419211d9cfb35cabdebb92b3bf802a
 tags:
   4.0.0--hdcadc20_0: 
     sha256:0c87924a700927c83620c559c9b5bd595e57e879dc79ab7433c2d41874265d78
+  4.0.0--hdcadc20_1: 
+    sha256:badb840d94ded70983135f944434967ca7419211d9cfb35cabdebb92b3bf802a
 docker: quay.io/biocontainers/fulgor
 aliases:
   fulgor: /usr/local/bin/fulgor

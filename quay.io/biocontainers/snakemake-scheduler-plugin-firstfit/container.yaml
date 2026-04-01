@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   snakemake-scheduler-plugin-firstfit
 latest:
-  0.1.2--pyhdfd78af_0: 
-    sha256:ea078d918ca405c279941721fa53e61e6b0b56beb49508c07cd19336a91fc32a
+  0.1.4--pyhdfd78af_0: 
+    sha256:0241ab55d55724b5d3a62a0a46066871a685932e926e64c77ab24783aa88452d
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:ea078d918ca405c279941721fa53e61e6b0b56beb49508c07cd19336a91fc32a
+  0.1.4--pyhdfd78af_0: 
+    sha256:0241ab55d55724b5d3a62a0a46066871a685932e926e64c77ab24783aa88452d
 docker: quay.io/biocontainers/snakemake-scheduler-plugin-firstfit
 aliases:
   idle3.14: /usr/local/bin/idle3.14

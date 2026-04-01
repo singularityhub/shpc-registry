@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-terratcgadata
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:a0c1d65514220e3de9b3d52ddfa8ee35bc3b76ea3572ee7690478650cb01bdee
+  1.14.0--r45hdfd78af_0: 
+    sha256:99969f54bb3107bbd00e8c487282a5be32f68cad8875e9fe4c1f1d6be282ab23
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:2a36c6fd5da2f73f4351d9c54baf23265cbb57d45ca6752d03742e237e1ec542
@@ -14,6 +14,8 @@ tags:
     sha256:58a6a23e3f25033f8aa58e8af1d59c67946e0f2df05d4ff77179953f52ce8b3f
   1.10.0--r44hdfd78af_0: 
     sha256:a0c1d65514220e3de9b3d52ddfa8ee35bc3b76ea3572ee7690478650cb01bdee
+  1.14.0--r45hdfd78af_0: 
+    sha256:99969f54bb3107bbd00e8c487282a5be32f68cad8875e9fe4c1f1d6be282ab23
 docker: quay.io/biocontainers/bioconductor-terratcgadata
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

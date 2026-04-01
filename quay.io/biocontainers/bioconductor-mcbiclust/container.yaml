@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mcbiclust
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:5f79e5e78c50954d9a5d09f56be6601e888bde84837d800bc8910655bb7b8f48
+  1.34.0--r45hdfd78af_0: 
+    sha256:34376855526e034b26e9a309ac70e690e0812670315cecf01bf5ec2df5e78803
 tags:
   1.8.0--r36_1: 
     sha256:b0216bd077b70be78d2d297aaf9b5d53c869a99bb2417e85d9fcc330c4e4b6c3
@@ -26,6 +26,8 @@ tags:
     sha256:00b8d365ef598734ed19ea6e0b6f4a929273b0c47da26a09f45f766430340574
   1.30.0--r44hdfd78af_0: 
     sha256:5f79e5e78c50954d9a5d09f56be6601e888bde84837d800bc8910655bb7b8f48
+  1.34.0--r45hdfd78af_0: 
+    sha256:34376855526e034b26e9a309ac70e690e0812670315cecf01bf5ec2df5e78803
 docker: quay.io/biocontainers/bioconductor-mcbiclust
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

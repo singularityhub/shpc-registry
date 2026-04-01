@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-shinyepico
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:a7c5985ad9c58e7aca77a285fc0615d72c2f9e108192f3b0b336703cc8dbc4e1
+  1.18.0--r45hdfd78af_0: 
+    sha256:2809cbfd4fa51ab62bda479262b59fe1a8df1b0e4a1cc6e94e8da24ea59ef6df
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:29d963d769cffa712512d7d23e4975cb147084801f0bc6d75f32a35914692095
@@ -16,6 +16,8 @@ tags:
     sha256:2fa779799b554442b663a06fa0f9da0be56b8664afd00c24bb331d7370c759b3
   1.14.0--r44hdfd78af_0: 
     sha256:a7c5985ad9c58e7aca77a285fc0615d72c2f9e108192f3b0b336703cc8dbc4e1
+  1.18.0--r45hdfd78af_0: 
+    sha256:2809cbfd4fa51ab62bda479262b59fe1a8df1b0e4a1cc6e94e8da24ea59ef6df
 docker: quay.io/biocontainers/bioconductor-shinyepico
 aliases:
   pandoc: /usr/local/bin/pandoc

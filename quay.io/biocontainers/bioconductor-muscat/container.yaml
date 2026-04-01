@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-muscat
 latest:
-  1.16.0--r43hdfd78af_0: 
-    sha256:37e1fa06c52c2def7f414af4abd8067b0b9a7da64bb57d548f69d48ac43fbab0
+  1.24.0--r45hdfd78af_0: 
+    sha256:717ad5fa0e63edc3aac6c1b2aaca414929972e02904e36789573a99d6ba56bb8
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:fda044960346bad3af1436f81c5d060627ec42e6d0e4d7900d6f0923b71cbda5
@@ -14,4 +14,6 @@ tags:
     sha256:c6e77ebf4be5127c41d92c17a2afe8718968c7546ac645f94318c101f74bab56
   1.16.0--r43hdfd78af_0: 
     sha256:37e1fa06c52c2def7f414af4abd8067b0b9a7da64bb57d548f69d48ac43fbab0
+  1.24.0--r45hdfd78af_0: 
+    sha256:717ad5fa0e63edc3aac6c1b2aaca414929972e02904e36789573a99d6ba56bb8
 docker: quay.io/biocontainers/bioconductor-muscat

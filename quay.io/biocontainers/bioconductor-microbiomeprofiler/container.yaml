@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-microbiomeprofiler
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:9689da63bf322bcae6dc0fb512c6b05cefbb44638ebc6d4546c4169f6ee9fee5
+  1.16.0--r45hdfd78af_0: 
+    sha256:c2fb9af699e8b83c1caa3bb6875c20a206daaff0e7793d270224e44f9141ab96
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:b412a999ced08246bf028d0e5a12fa8290c50b533fd89fb28669456dc65ba7ed
@@ -16,4 +16,6 @@ tags:
     sha256:1c95f1cb7c11be5d8e61f5a10fb86941a21d300bfd78d91c8ed45305c1dccc1d
   1.12.0--r44hdfd78af_0: 
     sha256:9689da63bf322bcae6dc0fb512c6b05cefbb44638ebc6d4546c4169f6ee9fee5
+  1.16.0--r45hdfd78af_0: 
+    sha256:c2fb9af699e8b83c1caa3bb6875c20a206daaff0e7793d270224e44f9141ab96
 docker: quay.io/biocontainers/bioconductor-microbiomeprofiler

@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowsorted.cordbloodnorway.450k
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:b453662ad8a82a780e85587733d987fae1c93b0cf74f6797bc4c6e53b23370df
+  1.36.0--r45hdfd78af_0: 
+    sha256:618a511fbb83f15eed2f2b9ed2f27583604b644e26adbfa0d8b82dd5db667b03
 tags:
   1.8.0--r351_0: 
     sha256:fe3620893c2e53ba5ef5c3dd4823f30362d428a95b0f23a13937d16638bdcbd1
@@ -27,6 +27,8 @@ tags:
     sha256:adbff2067db1bf0e45ab974917152bbb49c2c4ce6bf3367e7ebb074c5c32091b
   1.32.0--r44hdfd78af_0: 
     sha256:b453662ad8a82a780e85587733d987fae1c93b0cf74f6797bc4c6e53b23370df
+  1.36.0--r45hdfd78af_0: 
+    sha256:618a511fbb83f15eed2f2b9ed2f27583604b644e26adbfa0d8b82dd5db667b03
 docker: quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k
 aliases:
   wget: /usr/local/bin/wget

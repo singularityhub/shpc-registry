@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   snakemake-interface-executor-plugins
 latest:
-  9.3.9--pyhdfd78af_0: 
-    sha256:959a43448a3156793ccf2478e3ed1489000be905406022654d1229650499e4fe
+  9.4.0--pyh84498cf_0: 
+    sha256:a57d6c1ca06bfbe1b438125f142ca318a799508b01eb7e36620731cafb086686
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:8b8ed1c92656a706fc8386caea18f534de39fa8bb504e785ecfe97971cace5c3
@@ -48,6 +48,8 @@ tags:
     sha256:b6be2f27ab8c3d05d0b68679a0855a2b50c06aa7605bfb3ed98d0925498dd69b
   9.3.9--pyhdfd78af_0: 
     sha256:959a43448a3156793ccf2478e3ed1489000be905406022654d1229650499e4fe
+  9.4.0--pyh84498cf_0: 
+    sha256:a57d6c1ca06bfbe1b438125f142ca318a799508b01eb7e36620731cafb086686
 docker: quay.io/biocontainers/snakemake-interface-executor-plugins
 aliases:
   2to3-3.11: /usr/local/bin/2to3-3.11

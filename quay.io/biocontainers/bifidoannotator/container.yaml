@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/bifidoannotator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bifidoannotator
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:57a61796ddc5795d916eb80e08649e7c0bf77fb590f16d57f33eaa09a7adf46f
+  2.0.0--pyhdfd78af_0: 
+    sha256:2bcbd48432b24af27a22a3f7997d941723ccfcd0e29f2085ce0527282fe2ca8c
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:465ecc5e75a950dfcccda500d86166358ad931007b848f4cfa1d6fdad19d6b20
   1.0.2--pyhdfd78af_0: 
     sha256:57a61796ddc5795d916eb80e08649e7c0bf77fb590f16d57f33eaa09a7adf46f
+  2.0.0--pyhdfd78af_0: 
+    sha256:2bcbd48432b24af27a22a3f7997d941723ccfcd0e29f2085ce0527282fe2ca8c
 docker: quay.io/biocontainers/bifidoannotator
 aliases:
   bifidoAnnotator: /usr/local/bin/bifidoAnnotator

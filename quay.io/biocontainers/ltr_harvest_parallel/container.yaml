@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   ltr_harvest_parallel
 latest:
-  1.2--hdfd78af_2: 
-    sha256:df2dea0676c2345c69c8aa719f74254815ba82728e64617c83c3d5bd26e6baab
+  1.3--hdfd78af_0: 
+    sha256:04715cb7cb4c795cafe954db2465065a8d937d35d8bc75cf15206a6094732024
 tags:
   1.1--hdfd78af_0: 
     sha256:5ed99acdb518e848a69a71b04a2ec7c6d898a23021c93474b4ffa66532b91755
@@ -14,6 +14,8 @@ tags:
     sha256:892cf3f54a0e85761c0b94c4fb935e73db3ffa3a01d35d8702c37f37f540c806
   1.2--hdfd78af_2: 
     sha256:df2dea0676c2345c69c8aa719f74254815ba82728e64617c83c3d5bd26e6baab
+  1.3--hdfd78af_0: 
+    sha256:04715cb7cb4c795cafe954db2465065a8d937d35d8bc75cf15206a6094732024
 docker: quay.io/biocontainers/ltr_harvest_parallel
 aliases:
   LTR_HARVEST_parallel: /usr/local/bin/LTR_HARVEST_parallel

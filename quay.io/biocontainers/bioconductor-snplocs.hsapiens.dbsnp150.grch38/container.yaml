@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-snplocs.hsapiens.dbsnp150.grch38
 latest:
-  0.99.20--r44hdfd78af_13: 
-    sha256:0265fd92d98e57ffadf980c2d8dda5bb0100d6a0c1a5279679232052650b1e6f
+  0.99.21--r45hdfd78af_0: 
+    sha256:509cd9d5dd5dd7c44ddd540d5820a7a853c996f564d0992cd8ce6d7df5dc3c4b
 tags:
   0.99.20--r41hdfd78af_9: 
     sha256:8cb827ce1d43f1289b2178941ad72e206db2f026bdd81d06cf1ece69576d3e95
@@ -17,4 +17,6 @@ tags:
     sha256:1fd029c5129099621c7dfef1a9409e336699eff07a979600ad0988cc530d7b1e
   0.99.20--r44hdfd78af_13: 
     sha256:0265fd92d98e57ffadf980c2d8dda5bb0100d6a0c1a5279679232052650b1e6f
+  0.99.21--r45hdfd78af_0: 
+    sha256:509cd9d5dd5dd7c44ddd540d5820a7a853c996f564d0992cd8ce6d7df5dc3c4b
 docker: quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38

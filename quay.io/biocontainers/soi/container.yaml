@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/soi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for soi
 latest:
-  1.2.3--pyhdfd78af_0: 
-    sha256:2c9961226c9bdd19c7cc6fadf635d8b40482e063e07c9b4daedb047f86044f81
+  1.3.0--pyhdfd78af_0: 
+    sha256:fa928c467240143a5e33e13160640161931017d6f4282cab05e9b6c3c56b7327
 tags:
   1.2.3--pyhdfd78af_0: 
     sha256:2c9961226c9bdd19c7cc6fadf635d8b40482e063e07c9b4daedb047f86044f81
+  1.3.0--pyhdfd78af_0: 
+    sha256:fa928c467240143a5e33e13160640161931017d6f4282cab05e9b6c3c56b7327
 docker: quay.io/biocontainers/soi
 aliases:
   convert_orthofinder_tree_ids.py: 
