@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/falcon2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for falcon2
+latest:
+  1.3--hde5307d_0: 
+    sha256:95339e4578a714953981c1cf774b5b54ee6a3be9f3004a36b602ccc80e81008c
+tags:
+  1.3--hde5307d_0: 
+    sha256:95339e4578a714953981c1cf774b5b54ee6a3be9f3004a36b602ccc80e81008c
+docker: quay.io/biocontainers/falcon2
+aliases:
+  falcon2: /usr/local/bin/falcon2

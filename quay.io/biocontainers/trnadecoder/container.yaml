@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/trnadecoder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for trnadecoder
+latest:
+  1.1.2--pyh106432d_0: 
+    sha256:e091be1023d7b07de340fd7a5a4e9e467ab164a514f655ba18ccce8648bf2290
+tags:
+  1.1.2--pyh106432d_0: 
+    sha256:e091be1023d7b07de340fd7a5a4e9e467ab164a514f655ba18ccce8648bf2290
+docker: quay.io/biocontainers/trnadecoder
+aliases:
+  tRNAdecoder: /usr/local/bin/tRNAdecoder
+  minimap2.py: /usr/local/bin/minimap2.py
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  numpy-config: /usr/local/bin/numpy-config

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/emits
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for emits
+latest:
+  0.1.0--h54198d6_0: 
+    sha256:ecdb816de33bdbeabb75a3a54ca8a4f916dc3a53aabf7701146dedd5201d8b9d
+tags:
+  0.1.0--h54198d6_0: 
+    sha256:ecdb816de33bdbeabb75a3a54ca8a4f916dc3a53aabf7701146dedd5201d8b9d
+docker: quay.io/biocontainers/emits
+aliases:
+  emits: /usr/local/bin/emits
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
