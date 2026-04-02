@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycoverm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycoverm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycoverm/container.yaml"
-updated_at: "2026-04-01 05:35:15.460344"
+updated_at: "2026-04-02 05:17:38.591920"
 latest: "0.6.2--py310h34483ff_0"
 container_url: "https://biocontainers.pro/tools/pycoverm"
 aliases:

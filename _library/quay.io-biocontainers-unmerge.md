@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unmerge/container.yaml"
-updated_at: "2026-04-01 05:29:03.478385"
+updated_at: "2026-04-02 05:11:26.818824"
 latest: "1.0--h503566f_5"
 container_url: "https://biocontainers.pro/tools/unmerge"
 aliases:

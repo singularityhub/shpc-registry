@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alpharaw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alpharaw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alpharaw/container.yaml"
-updated_at: "2026-04-01 04:55:01.621542"
+updated_at: "2026-04-02 04:37:29.722569"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alpharaw"
 aliases:

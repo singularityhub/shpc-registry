@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k/container.yaml"
-updated_at: "2026-04-01 05:03:52.894233"
-latest: "1.32.0--r44hdfd78af_0"
+updated_at: "2026-04-02 04:46:20.316190"
+latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodnorway.450k"
 aliases:
  - "wget"
@@ -22,8 +22,9 @@ versions:
  - "1.26.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
  - "1.32.0--r44hdfd78af_0"
+ - "1.36.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodnorway.450k"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodnorway.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodnorway.450k", "latest": {"1.32.0--r44hdfd78af_0": "sha256:b453662ad8a82a780e85587733d987fae1c93b0cf74f6797bc4c6e53b23370df"}, "tags": {"1.8.0--r351_0": "sha256:fe3620893c2e53ba5ef5c3dd4823f30362d428a95b0f23a13937d16638bdcbd1", "1.18.0--r41hdfd78af_0": "sha256:091637eef9cb9481b0e9f5d534d212e99cd13d05e24b644e0ac899cac523b5a1", "1.16.0--r40hdfd78af_1": "sha256:f7c54e88639863acf84560f145dcdd0513d2eeb2544722533bc606bffe24bdc5", "1.14.0--r40_0": "sha256:ad3c35f5df38d1f7fdee9fd5c595c3e7211d3b6ebd58d3409b868b8aa092ef6a", "1.12.0--r36_0": "sha256:6c14cddfc09c3b1f081978f3b99adec7881209b1e1bf9c09e9349c939bbdc80c", "1.10.0--r36_1": "sha256:331fcbdaf2ec198719142f4e7c0a8beef11a3954dc0a6c696c51a8ad3d27f27d", "1.24.0--r42hdfd78af_0": "sha256:82621af6606617a29ef29a1a5afe964e5e50444a24b5de8500de7c3ee6e74c8a", "1.26.0--r43hdfd78af_0": "sha256:2b5a95da3ccf786b1ef50a19664a566a6c4b0f1e78a570ebf45a9271a017e6f6", "1.28.0--r43hdfd78af_0": "sha256:adbff2067db1bf0e45ab974917152bbb49c2c4ce6bf3367e7ebb074c5c32091b", "1.32.0--r44hdfd78af_0": "sha256:b453662ad8a82a780e85587733d987fae1c93b0cf74f6797bc4c6e53b23370df"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodnorway.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodnorway.450k", "latest": {"1.36.0--r45hdfd78af_0": "sha256:618a511fbb83f15eed2f2b9ed2f27583604b644e26adbfa0d8b82dd5db667b03"}, "tags": {"1.8.0--r351_0": "sha256:fe3620893c2e53ba5ef5c3dd4823f30362d428a95b0f23a13937d16638bdcbd1", "1.18.0--r41hdfd78af_0": "sha256:091637eef9cb9481b0e9f5d534d212e99cd13d05e24b644e0ac899cac523b5a1", "1.16.0--r40hdfd78af_1": "sha256:f7c54e88639863acf84560f145dcdd0513d2eeb2544722533bc606bffe24bdc5", "1.14.0--r40_0": "sha256:ad3c35f5df38d1f7fdee9fd5c595c3e7211d3b6ebd58d3409b868b8aa092ef6a", "1.12.0--r36_0": "sha256:6c14cddfc09c3b1f081978f3b99adec7881209b1e1bf9c09e9349c939bbdc80c", "1.10.0--r36_1": "sha256:331fcbdaf2ec198719142f4e7c0a8beef11a3954dc0a6c696c51a8ad3d27f27d", "1.24.0--r42hdfd78af_0": "sha256:82621af6606617a29ef29a1a5afe964e5e50444a24b5de8500de7c3ee6e74c8a", "1.26.0--r43hdfd78af_0": "sha256:2b5a95da3ccf786b1ef50a19664a566a6c4b0f1e78a570ebf45a9271a017e6f6", "1.28.0--r43hdfd78af_0": "sha256:adbff2067db1bf0e45ab974917152bbb49c2c4ce6bf3367e7ebb074c5c32091b", "1.32.0--r44hdfd78af_0": "sha256:b453662ad8a82a780e85587733d987fae1c93b0cf74f6797bc4c6e53b23370df", "1.36.0--r45hdfd78af_0": "sha256:618a511fbb83f15eed2f2b9ed2f27583604b644e26adbfa0d8b82dd5db667b03"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k:1.32.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k:1.36.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k/1.32.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k/1.32.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k/1.36.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k/1.36.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/echtvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/echtvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/echtvar/container.yaml"
-updated_at: "2026-04-01 05:35:33.002351"
-latest: "0.2.2--h443f417_0"
+updated_at: "2026-04-02 05:17:56.208992"
+latest: "0.2.3--h443f417_0"
 container_url: "https://biocontainers.pro/tools/echtvar"
 aliases:
  - "echtvar"
 versions:
  - "0.2.2--h443f417_0"
+ - "0.2.3--h443f417_0"
 description: "singularity registry hpc automated addition for echtvar"
-config: {"url": "https://biocontainers.pro/tools/echtvar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for echtvar", "latest": {"0.2.2--h443f417_0": "sha256:8083e3c47b8e5fad1210453ee7b14a53656ab472244e79931e88ba9519039e9d"}, "tags": {"0.2.2--h443f417_0": "sha256:8083e3c47b8e5fad1210453ee7b14a53656ab472244e79931e88ba9519039e9d"}, "docker": "quay.io/biocontainers/echtvar", "aliases": {"echtvar": "/usr/local/bin/echtvar"}}
+config: {"url": "https://biocontainers.pro/tools/echtvar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for echtvar", "latest": {"0.2.3--h443f417_0": "sha256:ded1ddb38576c95740b1e373ab10713fc0596166d7c3e00001a06959e1a1bbbb"}, "tags": {"0.2.2--h443f417_0": "sha256:8083e3c47b8e5fad1210453ee7b14a53656ab472244e79931e88ba9519039e9d", "0.2.3--h443f417_0": "sha256:ded1ddb38576c95740b1e373ab10713fc0596166d7c3e00001a06959e1a1bbbb"}, "docker": "quay.io/biocontainers/echtvar", "aliases": {"echtvar": "/usr/local/bin/echtvar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/echtvar.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/echtvar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/echtvar:0.2.2--h443f417_0
+$ shpc install quay.io/biocontainers/echtvar:0.2.3--h443f417_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/echtvar/0.2.2--h443f417_0
-$ module help quay.io/biocontainers/echtvar/0.2.2--h443f417_0
+$ module load quay.io/biocontainers/echtvar/0.2.3--h443f417_0
+$ module help quay.io/biocontainers/echtvar/0.2.3--h443f417_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

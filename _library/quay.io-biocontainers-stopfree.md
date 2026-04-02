@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stopfree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stopfree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stopfree/container.yaml"
-updated_at: "2026-04-01 05:22:53.835803"
+updated_at: "2026-04-02 05:05:18.821104"
 latest: "0.2.4--py314h54198d6_0"
 container_url: "https://biocontainers.pro/tools/stopfree"
 aliases:

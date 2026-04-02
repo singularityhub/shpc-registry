@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/container.yaml"
-updated_at: "2026-04-01 05:39:16.910715"
-latest: "0.99.20--r44hdfd78af_13"
+updated_at: "2026-04-02 05:21:40.349108"
+latest: "0.99.21--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp150.grch38"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "0.99.20--r43hdfd78af_11"
  - "0.99.20--r43hdfd78af_12"
  - "0.99.20--r44hdfd78af_13"
+ - "0.99.21--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp150.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp150.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp150.grch38", "latest": {"0.99.20--r44hdfd78af_13": "sha256:0265fd92d98e57ffadf980c2d8dda5bb0100d6a0c1a5279679232052650b1e6f"}, "tags": {"0.99.20--r41hdfd78af_9": "sha256:8cb827ce1d43f1289b2178941ad72e206db2f026bdd81d06cf1ece69576d3e95", "0.99.20--r42hdfd78af_10": "sha256:935ebeb1313ae6613ab3e201217d7bb191ee38f8f9c7e36932045e1293ff7aed", "0.99.20--r43hdfd78af_11": "sha256:91844686914f9cee5517b4ceca38bd76a42abcc6b2cbc7b5feca380f083e93bb", "0.99.20--r43hdfd78af_12": "sha256:1fd029c5129099621c7dfef1a9409e336699eff07a979600ad0988cc530d7b1e", "0.99.20--r44hdfd78af_13": "sha256:0265fd92d98e57ffadf980c2d8dda5bb0100d6a0c1a5279679232052650b1e6f"}, "docker": "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp150.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp150.grch38", "latest": {"0.99.21--r45hdfd78af_0": "sha256:509cd9d5dd5dd7c44ddd540d5820a7a853c996f564d0992cd8ce6d7df5dc3c4b"}, "tags": {"0.99.20--r41hdfd78af_9": "sha256:8cb827ce1d43f1289b2178941ad72e206db2f026bdd81d06cf1ece69576d3e95", "0.99.20--r42hdfd78af_10": "sha256:935ebeb1313ae6613ab3e201217d7bb191ee38f8f9c7e36932045e1293ff7aed", "0.99.20--r43hdfd78af_11": "sha256:91844686914f9cee5517b4ceca38bd76a42abcc6b2cbc7b5feca380f083e93bb", "0.99.20--r43hdfd78af_12": "sha256:1fd029c5129099621c7dfef1a9409e336699eff07a979600ad0988cc530d7b1e", "0.99.20--r44hdfd78af_13": "sha256:0265fd92d98e57ffadf980c2d8dda5bb0100d6a0c1a5279679232052650b1e6f", "0.99.21--r45hdfd78af_0": "sha256:509cd9d5dd5dd7c44ddd540d5820a7a853c996f564d0992cd8ce6d7df5dc3c4b"}, "docker": "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38:0.99.20--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38:0.99.21--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/0.99.20--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/0.99.20--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/0.99.21--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp150.grch38/0.99.21--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-promise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-promise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-promise/container.yaml"
-updated_at: "2026-04-01 05:09:29.614569"
+updated_at: "2026-04-02 04:51:56.543815"
 latest: "1.58.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-promise"
 

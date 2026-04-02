@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genemeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genemeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genemeta/container.yaml"
-updated_at: "2026-04-01 05:08:04.274911"
+updated_at: "2026-04-02 04:50:31.364617"
 latest: "1.82.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genemeta"
 
@@ -16,7 +16,7 @@ versions:
  - "1.78.0--r44hdfd78af_0"
  - "1.82.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genemeta"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genemeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genemeta", "latest": {"1.82.0--r45hdfd78af_0": "sha256:b2ca8e382ed763f886a5448daa7d3f238792df1c07e715c7bdfd9eb9810d281e"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:207ba77e7c439d1ceb3441aa2218401c9ce71c4df85428ff0e8ad8aabbee7921", "1.70.0--r42hdfd78af_0": "sha256:7ad0c9a3b163474db914651e345e21c9c68ec2c7d30ab2b383ce91e365a41424", "1.72.0--r43hdfd78af_0": "sha256:5673f4b353f76860f26f0ec5b8be4d956e0b72a4b4412a5a145eafad8414c009", "1.74.0--r43hdfd78af_0": "sha256:7959e7b788d4a43d9833d91451f2dd48e3abc4d4c01b14b5df3c78c4ca78dd90", "1.78.0--r44hdfd78af_0": "sha256:45c10f1f56ba1b5587cdac55967ef1f7483c3b0e9a9897442c75f90002adc4db", "1.82.0--r45hdfd78af_0": "sha256:b2ca8e382ed763f886a5448daa7d3f238792df1c07e715c7bdfd9eb9810d281e"}, "docker": "quay.io/biocontainers/bioconductor-genemeta"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genemeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genemeta", "latest": {"1.82.0--r45hdfd78af_0": "sha256:2ea8ab997405265283fc285a8fa07b96dfd43854de23643223776b99432a36f5"}, "tags": {"1.66.0--r41hdfd78af_0": "sha256:207ba77e7c439d1ceb3441aa2218401c9ce71c4df85428ff0e8ad8aabbee7921", "1.70.0--r42hdfd78af_0": "sha256:7ad0c9a3b163474db914651e345e21c9c68ec2c7d30ab2b383ce91e365a41424", "1.72.0--r43hdfd78af_0": "sha256:5673f4b353f76860f26f0ec5b8be4d956e0b72a4b4412a5a145eafad8414c009", "1.74.0--r43hdfd78af_0": "sha256:7959e7b788d4a43d9833d91451f2dd48e3abc4d4c01b14b5df3c78c4ca78dd90", "1.78.0--r44hdfd78af_0": "sha256:45c10f1f56ba1b5587cdac55967ef1f7483c3b0e9a9897442c75f90002adc4db", "1.82.0--r45hdfd78af_0": "sha256:2ea8ab997405265283fc285a8fa07b96dfd43854de23643223776b99432a36f5"}, "docker": "quay.io/biocontainers/bioconductor-genemeta"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genemeta.

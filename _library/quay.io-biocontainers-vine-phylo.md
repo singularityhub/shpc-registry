@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vine-phylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vine-phylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vine-phylo/container.yaml"
-updated_at: "2026-04-01 05:18:23.606591"
-latest: "0.3.3--h7eac25e_0"
+updated_at: "2026-04-02 05:00:48.868554"
+latest: "0.3.4--h7eac25e_0"
 container_url: "https://biocontainers.pro/tools/vine-phylo"
 aliases:
  - "all_dists"
@@ -53,8 +53,9 @@ aliases:
  - "vine"
 versions:
  - "0.3.3--h7eac25e_0"
+ - "0.3.4--h7eac25e_0"
 description: "singularity registry hpc automated addition for vine-phylo"
-config: {"url": "https://biocontainers.pro/tools/vine-phylo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vine-phylo", "latest": {"0.3.3--h7eac25e_0": "sha256:6fa08776b4d4c358521f8695106786859467599e8df701bbf2397d3b5b3ec925"}, "tags": {"0.3.3--h7eac25e_0": "sha256:6fa08776b4d4c358521f8695106786859467599e8df701bbf2397d3b5b3ec925"}, "docker": "quay.io/biocontainers/vine-phylo", "aliases": {"all_dists": "/usr/local/bin/all_dists", "base_evolve": "/usr/local/bin/base_evolve", "chooseLines": "/usr/local/bin/chooseLines", "clean_genes": "/usr/local/bin/clean_genes", "consEntropy": "/usr/local/bin/consEntropy", "convert_coords": "/usr/local/bin/convert_coords", "crisprLnl": "/usr/local/bin/crisprLnl", "display_rate_matrix": "/usr/local/bin/display_rate_matrix", "dless": "/usr/local/bin/dless", "dlessP": "/usr/local/bin/dlessP", "draw_tree": "/usr/local/bin/draw_tree", "evalTrees": "/usr/local/bin/evalTrees", "eval_predictions": "/usr/local/bin/eval_predictions", "exoniphy": "/usr/local/bin/exoniphy", "hmm_train": "/usr/local/bin/hmm_train", "hmm_tweak": "/usr/local/bin/hmm_tweak", "hmm_view": "/usr/local/bin/hmm_view", "indelFit": "/usr/local/bin/indelFit", "indelHistory": "/usr/local/bin/indelHistory", "maf_parse": "/usr/local/bin/maf_parse", "makeHKY": "/usr/local/bin/makeHKY", "modFreqs": "/usr/local/bin/modFreqs", "msa_diff": "/usr/local/bin/msa_diff", "msa_split": "/usr/local/bin/msa_split", "msa_view": "/usr/local/bin/msa_view", "pbsDecode": "/usr/local/bin/pbsDecode", "pbsEncode": "/usr/local/bin/pbsEncode", "pbsScoreMatrix": "/usr/local/bin/pbsScoreMatrix", "pbsTrain": "/usr/local/bin/pbsTrain", "phast": "/usr/local/bin/phast", "phastBias": "/usr/local/bin/phastBias", "phastCons": "/usr/local/bin/phastCons", "phastMotif": "/usr/local/bin/phastMotif", "phastOdds": "/usr/local/bin/phastOdds", "phyloBoot": "/usr/local/bin/phyloBoot", "phyloFit": "/usr/local/bin/phyloFit", "phyloP": "/usr/local/bin/phyloP", "prequel": "/usr/local/bin/prequel", "refeature": "/usr/local/bin/refeature", "stringiphy": "/usr/local/bin/stringiphy", "treeGen": "/usr/local/bin/treeGen", "tree_doctor": "/usr/local/bin/tree_doctor", "vine": "/usr/local/bin/vine"}}
+config: {"url": "https://biocontainers.pro/tools/vine-phylo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vine-phylo", "latest": {"0.3.4--h7eac25e_0": "sha256:6fb5a80763f69090d30572388b8af3eddc5b4a2a16cf5d0507c8663dc9ef20a3"}, "tags": {"0.3.3--h7eac25e_0": "sha256:6fa08776b4d4c358521f8695106786859467599e8df701bbf2397d3b5b3ec925", "0.3.4--h7eac25e_0": "sha256:6fb5a80763f69090d30572388b8af3eddc5b4a2a16cf5d0507c8663dc9ef20a3"}, "docker": "quay.io/biocontainers/vine-phylo", "aliases": {"all_dists": "/usr/local/bin/all_dists", "base_evolve": "/usr/local/bin/base_evolve", "chooseLines": "/usr/local/bin/chooseLines", "clean_genes": "/usr/local/bin/clean_genes", "consEntropy": "/usr/local/bin/consEntropy", "convert_coords": "/usr/local/bin/convert_coords", "crisprLnl": "/usr/local/bin/crisprLnl", "display_rate_matrix": "/usr/local/bin/display_rate_matrix", "dless": "/usr/local/bin/dless", "dlessP": "/usr/local/bin/dlessP", "draw_tree": "/usr/local/bin/draw_tree", "evalTrees": "/usr/local/bin/evalTrees", "eval_predictions": "/usr/local/bin/eval_predictions", "exoniphy": "/usr/local/bin/exoniphy", "hmm_train": "/usr/local/bin/hmm_train", "hmm_tweak": "/usr/local/bin/hmm_tweak", "hmm_view": "/usr/local/bin/hmm_view", "indelFit": "/usr/local/bin/indelFit", "indelHistory": "/usr/local/bin/indelHistory", "maf_parse": "/usr/local/bin/maf_parse", "makeHKY": "/usr/local/bin/makeHKY", "modFreqs": "/usr/local/bin/modFreqs", "msa_diff": "/usr/local/bin/msa_diff", "msa_split": "/usr/local/bin/msa_split", "msa_view": "/usr/local/bin/msa_view", "pbsDecode": "/usr/local/bin/pbsDecode", "pbsEncode": "/usr/local/bin/pbsEncode", "pbsScoreMatrix": "/usr/local/bin/pbsScoreMatrix", "pbsTrain": "/usr/local/bin/pbsTrain", "phast": "/usr/local/bin/phast", "phastBias": "/usr/local/bin/phastBias", "phastCons": "/usr/local/bin/phastCons", "phastMotif": "/usr/local/bin/phastMotif", "phastOdds": "/usr/local/bin/phastOdds", "phyloBoot": "/usr/local/bin/phyloBoot", "phyloFit": "/usr/local/bin/phyloFit", "phyloP": "/usr/local/bin/phyloP", "prequel": "/usr/local/bin/prequel", "refeature": "/usr/local/bin/refeature", "stringiphy": "/usr/local/bin/stringiphy", "treeGen": "/usr/local/bin/treeGen", "tree_doctor": "/usr/local/bin/tree_doctor", "vine": "/usr/local/bin/vine"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vine-phylo.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/vine-phylo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vine-phylo:0.3.3--h7eac25e_0
+$ shpc install quay.io/biocontainers/vine-phylo:0.3.4--h7eac25e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vine-phylo/0.3.3--h7eac25e_0
-$ module help quay.io/biocontainers/vine-phylo/0.3.3--h7eac25e_0
+$ module load quay.io/biocontainers/vine-phylo/0.3.4--h7eac25e_0
+$ module help quay.io/biocontainers/vine-phylo/0.3.4--h7eac25e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

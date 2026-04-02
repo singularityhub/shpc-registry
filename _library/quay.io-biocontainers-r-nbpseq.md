@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-nbpseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nbpseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nbpseq/container.yaml"
-updated_at: "2026-04-01 05:44:13.532987"
-latest: "0.3.1--r44h5ef9028_4"
+updated_at: "2026-04-02 05:26:35.961362"
+latest: "0.3.1--r45hf7ecca6_5"
 container_url: "https://biocontainers.pro/tools/r-nbpseq"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "0.3.1--r42h56115f1_2"
  - "0.3.1--r43h56115f1_3"
  - "0.3.1--r44h5ef9028_4"
+ - "0.3.1--r45hf7ecca6_5"
 description: "shpc-registry automated BioContainers addition for r-nbpseq"
-config: {"url": "https://biocontainers.pro/tools/r-nbpseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nbpseq", "latest": {"0.3.1--r44h5ef9028_4": "sha256:f0b148d39adb2d9b48aa22a84598d83ccda2299a47fc2825c5705db70ee10ebb"}, "tags": {"0.3.1--r41h73dbb54_0": "sha256:ab30ce73564cc8e4c2bc7e96fe80ef86fd3805b2ec98d699ace24b99b2383fcd", "0.3.1--r42h73dbb54_1": "sha256:3f497fbf5186d9ffe320bed5e38bd90c6b1294befdb385ace296c0da174794ba", "0.3.1--r42h56115f1_2": "sha256:bbfde707be1f32da8ca5ca735019a85a79c4a5452dc22b54059ad6c08fba62a2", "0.3.1--r43h56115f1_3": "sha256:c77415737a2ed05172618180e89f79837b6310e9eb05472f7173139d1965476d", "0.3.1--r44h5ef9028_4": "sha256:f0b148d39adb2d9b48aa22a84598d83ccda2299a47fc2825c5705db70ee10ebb"}, "docker": "quay.io/biocontainers/r-nbpseq"}
+config: {"url": "https://biocontainers.pro/tools/r-nbpseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nbpseq", "latest": {"0.3.1--r45hf7ecca6_5": "sha256:ebfb868cc8fefaf5cb81794999db6560b349876528b07f7deee31fe50aa2f742"}, "tags": {"0.3.1--r41h73dbb54_0": "sha256:ab30ce73564cc8e4c2bc7e96fe80ef86fd3805b2ec98d699ace24b99b2383fcd", "0.3.1--r42h73dbb54_1": "sha256:3f497fbf5186d9ffe320bed5e38bd90c6b1294befdb385ace296c0da174794ba", "0.3.1--r42h56115f1_2": "sha256:bbfde707be1f32da8ca5ca735019a85a79c4a5452dc22b54059ad6c08fba62a2", "0.3.1--r43h56115f1_3": "sha256:c77415737a2ed05172618180e89f79837b6310e9eb05472f7173139d1965476d", "0.3.1--r44h5ef9028_4": "sha256:f0b148d39adb2d9b48aa22a84598d83ccda2299a47fc2825c5705db70ee10ebb", "0.3.1--r45hf7ecca6_5": "sha256:ebfb868cc8fefaf5cb81794999db6560b349876528b07f7deee31fe50aa2f742"}, "docker": "quay.io/biocontainers/r-nbpseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nbpseq.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-nbpseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-nbpseq:0.3.1--r44h5ef9028_4
+$ shpc install quay.io/biocontainers/r-nbpseq:0.3.1--r45hf7ecca6_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-nbpseq/0.3.1--r44h5ef9028_4
-$ module help quay.io/biocontainers/r-nbpseq/0.3.1--r44h5ef9028_4
+$ module load quay.io/biocontainers/r-nbpseq/0.3.1--r45hf7ecca6_5
+$ module help quay.io/biocontainers/r-nbpseq/0.3.1--r45hf7ecca6_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fulgor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fulgor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fulgor/container.yaml"
-updated_at: "2026-04-01 05:03:11.016604"
-latest: "4.0.0--hdcadc20_0"
+updated_at: "2026-04-02 04:45:38.371699"
+latest: "4.0.0--hdcadc20_1"
 container_url: "https://biocontainers.pro/tools/fulgor"
 aliases:
  - "fulgor"
 versions:
  - "4.0.0--hdcadc20_0"
+ - "4.0.0--hdcadc20_1"
 description: "singularity registry hpc automated addition for fulgor"
-config: {"url": "https://biocontainers.pro/tools/fulgor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fulgor", "latest": {"4.0.0--hdcadc20_0": "sha256:0c87924a700927c83620c559c9b5bd595e57e879dc79ab7433c2d41874265d78"}, "tags": {"4.0.0--hdcadc20_0": "sha256:0c87924a700927c83620c559c9b5bd595e57e879dc79ab7433c2d41874265d78"}, "docker": "quay.io/biocontainers/fulgor", "aliases": {"fulgor": "/usr/local/bin/fulgor"}}
+config: {"url": "https://biocontainers.pro/tools/fulgor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fulgor", "latest": {"4.0.0--hdcadc20_1": "sha256:badb840d94ded70983135f944434967ca7419211d9cfb35cabdebb92b3bf802a"}, "tags": {"4.0.0--hdcadc20_0": "sha256:0c87924a700927c83620c559c9b5bd595e57e879dc79ab7433c2d41874265d78", "4.0.0--hdcadc20_1": "sha256:badb840d94ded70983135f944434967ca7419211d9cfb35cabdebb92b3bf802a"}, "docker": "quay.io/biocontainers/fulgor", "aliases": {"fulgor": "/usr/local/bin/fulgor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fulgor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fulgor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fulgor:4.0.0--hdcadc20_0
+$ shpc install quay.io/biocontainers/fulgor:4.0.0--hdcadc20_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fulgor/4.0.0--hdcadc20_0
-$ module help quay.io/biocontainers/fulgor/4.0.0--hdcadc20_0
+$ module load quay.io/biocontainers/fulgor/4.0.0--hdcadc20_1
+$ module help quay.io/biocontainers/fulgor/4.0.0--hdcadc20_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

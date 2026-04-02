@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samtools/container.yaml"
-updated_at: "2026-04-01 05:26:51.366982"
+updated_at: "2026-04-02 05:09:15.374101"
 latest: "1.23.1--ha83d96e_0"
 container_url: "https://biocontainers.pro/tools/samtools"
 aliases:

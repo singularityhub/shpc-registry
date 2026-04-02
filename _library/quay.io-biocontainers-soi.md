@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/soi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soi/container.yaml"
-updated_at: "2026-04-01 05:40:12.078393"
-latest: "1.2.3--pyhdfd78af_0"
+updated_at: "2026-04-02 05:22:35.538248"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/soi"
 aliases:
  - "convert_orthofinder_tree_ids.py"
@@ -69,8 +69,9 @@ aliases:
  - "systematic-mutations"
 versions:
  - "1.2.3--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for soi"
-config: {"url": "https://biocontainers.pro/tools/soi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for soi", "latest": {"1.2.3--pyhdfd78af_0": "sha256:2c9961226c9bdd19c7cc6fadf635d8b40482e063e07c9b4daedb047f86044f81"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:2c9961226c9bdd19c7cc6fadf635d8b40482e063e07c9b4daedb047f86044f81"}, "docker": "quay.io/biocontainers/soi", "aliases": {"convert_orthofinder_tree_ids.py": "/usr/local/bin/convert_orthofinder_tree_ids.py", "make_ultrametric.py": "/usr/local/bin/make_ultrametric.py", "nw_clade": "/usr/local/bin/nw_clade", "nw_condense": "/usr/local/bin/nw_condense", "nw_display": "/usr/local/bin/nw_display", "nw_distance": "/usr/local/bin/nw_distance", "nw_duration": "/usr/local/bin/nw_duration", "nw_ed": "/usr/local/bin/nw_ed", "nw_gen": "/usr/local/bin/nw_gen", "nw_indent": "/usr/local/bin/nw_indent", "nw_labels": "/usr/local/bin/nw_labels", "nw_match": "/usr/local/bin/nw_match", "nw_order": "/usr/local/bin/nw_order", "nw_prune": "/usr/local/bin/nw_prune", "nw_rename": "/usr/local/bin/nw_rename", "nw_reroot": "/usr/local/bin/nw_reroot", "nw_stats": "/usr/local/bin/nw_stats", "nw_support": "/usr/local/bin/nw_support", "nw_topology": "/usr/local/bin/nw_topology", "nw_trim": "/usr/local/bin/nw_trim", "orthofinder": "/usr/local/bin/orthofinder", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "ppserver.py": "/usr/local/bin/ppserver.py", "primary_transcript.py": "/usr/local/bin/primary_transcript.py", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "soi": "/usr/local/bin/soi", "soi-orth": "/usr/local/bin/soi-orth", "soi-syn": "/usr/local/bin/soi-syn", "fastme": "/usr/local/bin/fastme", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree2": "/usr/local/bin/iqtree2", "mclblastline": "/usr/local/bin/mclblastline", "mcxdeblast": "/usr/local/bin/mcxdeblast", "clm": "/usr/local/bin/clm", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload", "mcxmap": "/usr/local/bin/mcxmap", "mcxsubs": "/usr/local/bin/mcxsubs", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations"}}
+config: {"url": "https://biocontainers.pro/tools/soi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for soi", "latest": {"1.3.0--pyhdfd78af_0": "sha256:fa928c467240143a5e33e13160640161931017d6f4282cab05e9b6c3c56b7327"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:2c9961226c9bdd19c7cc6fadf635d8b40482e063e07c9b4daedb047f86044f81", "1.3.0--pyhdfd78af_0": "sha256:fa928c467240143a5e33e13160640161931017d6f4282cab05e9b6c3c56b7327"}, "docker": "quay.io/biocontainers/soi", "aliases": {"convert_orthofinder_tree_ids.py": "/usr/local/bin/convert_orthofinder_tree_ids.py", "make_ultrametric.py": "/usr/local/bin/make_ultrametric.py", "nw_clade": "/usr/local/bin/nw_clade", "nw_condense": "/usr/local/bin/nw_condense", "nw_display": "/usr/local/bin/nw_display", "nw_distance": "/usr/local/bin/nw_distance", "nw_duration": "/usr/local/bin/nw_duration", "nw_ed": "/usr/local/bin/nw_ed", "nw_gen": "/usr/local/bin/nw_gen", "nw_indent": "/usr/local/bin/nw_indent", "nw_labels": "/usr/local/bin/nw_labels", "nw_match": "/usr/local/bin/nw_match", "nw_order": "/usr/local/bin/nw_order", "nw_prune": "/usr/local/bin/nw_prune", "nw_rename": "/usr/local/bin/nw_rename", "nw_reroot": "/usr/local/bin/nw_reroot", "nw_stats": "/usr/local/bin/nw_stats", "nw_support": "/usr/local/bin/nw_support", "nw_topology": "/usr/local/bin/nw_topology", "nw_trim": "/usr/local/bin/nw_trim", "orthofinder": "/usr/local/bin/orthofinder", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "ppserver.py": "/usr/local/bin/ppserver.py", "primary_transcript.py": "/usr/local/bin/primary_transcript.py", "rcl": "/usr/local/bin/rcl", "rcl-dot-resmap.pl": "/usr/local/bin/rcl-dot-resmap.pl", "rcl-qc": "/usr/local/bin/rcl-qc", "rcl-qm.R": "/usr/local/bin/rcl-qm.R", "rcl-relevel.pl": "/usr/local/bin/rcl-relevel.pl", "rcl-select.pl": "/usr/local/bin/rcl-select.pl", "rcldo.pl": "/usr/local/bin/rcldo.pl", "soi": "/usr/local/bin/soi", "soi-orth": "/usr/local/bin/soi-orth", "soi-syn": "/usr/local/bin/soi-syn", "fastme": "/usr/local/bin/fastme", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree2": "/usr/local/bin/iqtree2", "mclblastline": "/usr/local/bin/mclblastline", "mcxdeblast": "/usr/local/bin/mcxdeblast", "clm": "/usr/local/bin/clm", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxdump": "/usr/local/bin/mcxdump", "mcxi": "/usr/local/bin/mcxi", "mcxload": "/usr/local/bin/mcxload", "mcxmap": "/usr/local/bin/mcxmap", "mcxsubs": "/usr/local/bin/mcxsubs", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/soi.
@@ -85,7 +86,7 @@ $ shpc install quay.io/biocontainers/soi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/soi:1.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/soi:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -97,8 +98,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/soi/1.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/soi/1.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/soi/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/soi/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

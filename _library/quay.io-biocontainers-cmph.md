@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmph/container.yaml"
-updated_at: "2026-04-01 05:25:36.368578"
+updated_at: "2026-04-02 05:08:00.407577"
 latest: "2.0--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/cmph"
 aliases:

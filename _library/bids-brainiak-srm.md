@@ -4,7 +4,7 @@ name:  "bids/brainiak-srm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/brainiak-srm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/brainiak-srm/container.yaml"
-updated_at: "2026-04-01 05:49:17.991729"
+updated_at: "2026-04-02 05:31:39.565272"
 latest: "unstable"
 container_url: "https://hub.docker.com/r/bids/brainiak-srm"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-signaturesearchdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-signaturesearchdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-signaturesearchdata/container.yaml"
-updated_at: "2026-04-01 05:15:36.572619"
+updated_at: "2026-04-02 04:58:02.132138"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-signaturesearchdata"
 aliases:

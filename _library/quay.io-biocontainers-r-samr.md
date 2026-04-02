@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-samr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-samr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-samr/container.yaml"
-updated_at: "2026-04-01 05:40:40.506606"
-latest: "3.0--r43h031d066_8"
+updated_at: "2026-04-02 05:23:03.858344"
+latest: "3.0--r45h87e0c26_9"
 container_url: "https://biocontainers.pro/tools/r-samr"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.0--r42hec16e2b_6"
  - "3.0--r42h031d066_7"
  - "3.0--r43h031d066_8"
+ - "3.0--r45h87e0c26_9"
 description: "shpc-registry automated BioContainers addition for r-samr"
-config: {"url": "https://biocontainers.pro/tools/r-samr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-samr", "latest": {"3.0--r43h031d066_8": "sha256:e6c49c715f4121a2e86bc61d91c3752457a70634778b99e558e5e1952c4d8854"}, "tags": {"3.0--r41hec16e2b_5": "sha256:a239cf260718c3285f25d9a3954d246dfd2bc6ed44826843720a0dbb45d95f68", "3.0--r42hec16e2b_6": "sha256:598dcdf87e158d871857594b289b8a378758bc4cd0f1024efb2eba6a9ea08e95", "3.0--r42h031d066_7": "sha256:3479c46b04e9d2e47876ffa2b134c79aa1e329cf42b3f96fb3def2b2e359d1a5", "3.0--r43h031d066_8": "sha256:e6c49c715f4121a2e86bc61d91c3752457a70634778b99e558e5e1952c4d8854"}, "docker": "quay.io/biocontainers/r-samr"}
+config: {"url": "https://biocontainers.pro/tools/r-samr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-samr", "latest": {"3.0--r45h87e0c26_9": "sha256:5a6fc9fb7c73b55cd1a9819b38230a84286ee39fc4befbe17008be14690305b1"}, "tags": {"3.0--r41hec16e2b_5": "sha256:a239cf260718c3285f25d9a3954d246dfd2bc6ed44826843720a0dbb45d95f68", "3.0--r42hec16e2b_6": "sha256:598dcdf87e158d871857594b289b8a378758bc4cd0f1024efb2eba6a9ea08e95", "3.0--r42h031d066_7": "sha256:3479c46b04e9d2e47876ffa2b134c79aa1e329cf42b3f96fb3def2b2e359d1a5", "3.0--r43h031d066_8": "sha256:e6c49c715f4121a2e86bc61d91c3752457a70634778b99e558e5e1952c4d8854", "3.0--r45h87e0c26_9": "sha256:5a6fc9fb7c73b55cd1a9819b38230a84286ee39fc4befbe17008be14690305b1"}, "docker": "quay.io/biocontainers/r-samr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-samr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-samr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-samr:3.0--r43h031d066_8
+$ shpc install quay.io/biocontainers/r-samr:3.0--r45h87e0c26_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-samr/3.0--r43h031d066_8
-$ module help quay.io/biocontainers/r-samr/3.0--r43h031d066_8
+$ module load quay.io/biocontainers/r-samr/3.0--r45h87e0c26_9
+$ module help quay.io/biocontainers/r-samr/3.0--r45h87e0c26_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

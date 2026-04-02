@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-hmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hmm/container.yaml"
-updated_at: "2026-04-01 04:51:15.824389"
-latest: "1.0.2--r44hdfd78af_0"
+updated_at: "2026-04-02 04:33:43.712811"
+latest: "1.0.2--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-hmm"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.2--r44hdfd78af_0"
+ - "1.0.2--r45hdfd78af_1"
 description: "singularity registry hpc automated addition for r-hmm"
-config: {"url": "https://biocontainers.pro/tools/r-hmm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-hmm", "latest": {"1.0.2--r44hdfd78af_0": "sha256:153cde43c476e293c0f4cd4ac7bb5dcafe5e8a51b3300e3f6080ce3bb0bee663"}, "tags": {"1.0.2--r44hdfd78af_0": "sha256:153cde43c476e293c0f4cd4ac7bb5dcafe5e8a51b3300e3f6080ce3bb0bee663"}, "docker": "quay.io/biocontainers/r-hmm", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-hmm", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-hmm", "latest": {"1.0.2--r45hdfd78af_1": "sha256:f9f92ac554560d2ee29dd763c9c725459af24294c35a027ce8a5f84ebe75dcef"}, "tags": {"1.0.2--r44hdfd78af_0": "sha256:153cde43c476e293c0f4cd4ac7bb5dcafe5e8a51b3300e3f6080ce3bb0bee663", "1.0.2--r45hdfd78af_1": "sha256:f9f92ac554560d2ee29dd763c9c725459af24294c35a027ce8a5f84ebe75dcef"}, "docker": "quay.io/biocontainers/r-hmm", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hmm.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-hmm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-hmm:1.0.2--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/r-hmm:1.0.2--r45hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-hmm/1.0.2--r44hdfd78af_0
-$ module help quay.io/biocontainers/r-hmm/1.0.2--r44hdfd78af_0
+$ module load quay.io/biocontainers/r-hmm/1.0.2--r45hdfd78af_1
+$ module help quay.io/biocontainers/r-hmm/1.0.2--r45hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

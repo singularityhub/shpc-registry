@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-entities-numbered"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-entities-numbered/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-entities-numbered/container.yaml"
-updated_at: "2026-04-01 05:26:52.904839"
+updated_at: "2026-04-02 05:09:16.912065"
 latest: "0.04--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-html-entities-numbered"
 aliases:

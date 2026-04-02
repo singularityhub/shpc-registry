@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omicsgmf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicsgmf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicsgmf/container.yaml"
-updated_at: "2026-04-01 05:46:23.792649"
+updated_at: "2026-04-02 05:28:45.493968"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicsgmf"
 aliases:

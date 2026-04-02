@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastpmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastpmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastpmr/container.yaml"
-updated_at: "2026-04-01 05:21:43.584602"
+updated_at: "2026-04-02 05:04:08.597708"
 latest: "0.1.0--h79ce301_0"
 container_url: "https://biocontainers.pro/tools/fastpmr"
 aliases:
