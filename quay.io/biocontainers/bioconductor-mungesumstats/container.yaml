@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mungesumstats
 latest:
-  1.14.1--r44hdfd78af_0: 
-    sha256:e8de59892c9ad8c0e5c4683889bf289a4c36f7a55830ea2ae721271de3f112d4
+  1.18.1--r45hdfd78af_0: 
+    sha256:9da1739fe7cb714679f0c7abd972671dc6bff2c48fe6a76d3361b21694ad1505
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:79722dfe89d3b50e2e9724ddea2081e92987efc639fc0cde3e13b8a1ec97a37e
@@ -16,4 +16,6 @@ tags:
     sha256:f2bb0b529d075c74af43bc6b057f9e2c4033875aa98e562615993515b2f5d30a
   1.14.1--r44hdfd78af_0: 
     sha256:e8de59892c9ad8c0e5c4683889bf289a4c36f7a55830ea2ae721271de3f112d4
+  1.18.1--r45hdfd78af_0: 
+    sha256:9da1739fe7cb714679f0c7abd972671dc6bff2c48fe6a76d3361b21694ad1505
 docker: quay.io/biocontainers/bioconductor-mungesumstats

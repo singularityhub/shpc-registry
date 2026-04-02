@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gothic
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:85eeea43343ce2436b108350d8eff570fc31f71fa95b940328bc608bf992a6b6
+  1.46.0--r45hdfd78af_0: 
+    sha256:4f3350f0ee799b087c3f739ade66599a35ac0f7c9f7d57892b1500f7982ad3ad
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:f78524a5146d258828cf227b59281f52ae691fc4b2ad34d2c617b86c0cdbff61
@@ -16,4 +16,6 @@ tags:
     sha256:59dd3d8a38b8e7f21e27b02545c2319f417a3dc7fbd76f7927e5205d0637aec1
   1.42.0--r44hdfd78af_0: 
     sha256:85eeea43343ce2436b108350d8eff570fc31f71fa95b940328bc608bf992a6b6
+  1.46.0--r45hdfd78af_0: 
+    sha256:4f3350f0ee799b087c3f739ade66599a35ac0f7c9f7d57892b1500f7982ad3ad
 docker: quay.io/biocontainers/bioconductor-gothic

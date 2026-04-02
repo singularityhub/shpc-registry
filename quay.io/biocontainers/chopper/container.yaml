@@ -35,6 +35,8 @@ tags:
     sha256:88b832374f8829f3516f372ac8e3a28b4d11c86a88c1bcf6bb1d0e5851849849
   0.12.0--hcdda2d0_0: 
     sha256:e93ff25d0a30d02d946147570b83a634cfc7eeb5c9a3766d0c3cce007b0ed74f
+  0.12.0b--hdcadc20_0: 
+    sha256:136a23feede15d834682ca4d6b681d6182b88395325938b62b33ca5f00e59b40
 docker: quay.io/biocontainers/chopper
 aliases:
   chopper: /usr/local/bin/chopper

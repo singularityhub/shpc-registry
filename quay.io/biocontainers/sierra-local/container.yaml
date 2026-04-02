@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/sierra-local
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sierra-local
 latest:
-  0.4.3--py310hdfd78af_0: 
-    sha256:ca45e08b034b5782cd0c7ff768d9c1196646078c7491178cacc6aad8cf06a780
+  0.4.4--py310hdfd78af_0: 
+    sha256:4872721cc724636fa8b66cb20553ae1d7d75196dcf0dc4e5cadfbd5cf0d10e8b
 tags:
   0.4.3--py310hdfd78af_0: 
     sha256:ca45e08b034b5782cd0c7ff768d9c1196646078c7491178cacc6aad8cf06a780
+  0.4.4--py310hdfd78af_0: 
+    sha256:4872721cc724636fa8b66cb20553ae1d7d75196dcf0dc4e5cadfbd5cf0d10e8b
 docker: quay.io/biocontainers/sierra-local
 aliases:
   sierralocal: /usr/local/bin/sierralocal

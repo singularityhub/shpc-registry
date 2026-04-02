@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.mmusculus.ucsc.mm9.knowngene
 latest:
-  3.2.2--r44hdfd78af_17: 
-    sha256:a0ef20649e217fd4f887de68d1ae7c69f476f78bb583bfe43ac6581d53cd7cb0
+  3.2.2--r45hdfd78af_18: 
+    sha256:b945f5288c5ccd10a8221094fb89fa3bcdcfc9fae395a2c1baf4af64cd652cf0
 tags:
   3.2.2--r40_9: 
     sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773
@@ -19,6 +19,8 @@ tags:
     sha256:7a754787b60f302990ec373f5b8b7aba00dcacaafa78959eeead585a749b4a01
   3.2.2--r44hdfd78af_17: 
     sha256:a0ef20649e217fd4f887de68d1ae7c69f476f78bb583bfe43ac6581d53cd7cb0
+  3.2.2--r45hdfd78af_18: 
+    sha256:b945f5288c5ccd10a8221094fb89fa3bcdcfc9fae395a2c1baf4af64cd652cf0
 docker: quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

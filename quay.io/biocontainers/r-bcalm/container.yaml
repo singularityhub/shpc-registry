@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-bcalm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-bcalm
 latest:
-  0.99.0--r43hdfd78af_0: 
-    sha256:bd6c159627982f15ba37a39bb73283003cd321ed1137f544009fe3579b5e2ea9
+  0.100.0--r45hdfd78af_0: 
+    sha256:cceca3138a9dbaae1ed8db846054109ccf250e97e027f2181df55aacac6dfa4b
 tags:
   0.99.0--r43hdfd78af_0: 
     sha256:bd6c159627982f15ba37a39bb73283003cd321ed1137f544009fe3579b5e2ea9
+  0.100.0--r45hdfd78af_0: 
+    sha256:cceca3138a9dbaae1ed8db846054109ccf250e97e027f2181df55aacac6dfa4b
 docker: quay.io/biocontainers/r-bcalm
 aliases:
   idle3.14: /usr/local/bin/idle3.14

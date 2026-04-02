@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/oarfish
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for oarfish
 latest:
-  0.9.3--h5ca1c30_0: 
-    sha256:75e12372a98cfa2641c928c29f799f5f32036f3aa631757869aea2492d114f53
+  0.9.4--h7f5d12c_0: 
+    sha256:8ccf64c5b517f449d54a033b6eac728192dd29a2453a04f975511e31b3ee3a50
 tags:
   0.2.0--h4349ce8_0: 
     sha256:946f787788361fd60c6321a867d46742a656d1d5b2631789a511e171a7ada166
@@ -37,6 +37,8 @@ tags:
     sha256:d224fbb19f62037e55bac2937aa388dd4659cdcd08a2a612412d68fadfcbace5
   0.9.3--h5ca1c30_0: 
     sha256:75e12372a98cfa2641c928c29f799f5f32036f3aa631757869aea2492d114f53
+  0.9.4--h7f5d12c_0: 
+    sha256:8ccf64c5b517f449d54a033b6eac728192dd29a2453a04f975511e31b3ee3a50
 docker: quay.io/biocontainers/oarfish
 aliases:
   oarfish: /usr/local/bin/oarfish

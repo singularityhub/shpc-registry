@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/wfa2-lib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for wfa2-lib
 latest:
-  2.3.5--h9948957_3: 
-    sha256:92cdc4640703b304c7413cc895637c4805e0615bddb2ab27a28a220eb7f5ea95
+  2.3.6--hd63eeec_0: 
+    sha256:a4a6faadfa485e1a7b83ff260a90aa437028d37c1ebc889e3e19996bb9286b96
 tags:
   2.3.3--h4ac6f70_0: 
     sha256:62df605f9d9cac3fa9a3a4283692f74a818bb992da3c8d1218c8f7ea5204545d
@@ -21,4 +21,6 @@ tags:
     sha256:8445636f3de75b6838885b03ac9965dad8195bdfb6f7ea96b1473e5e1376cae8
   2.3.5--h9948957_3: 
     sha256:92cdc4640703b304c7413cc895637c4805e0615bddb2ab27a28a220eb7f5ea95
+  2.3.6--hd63eeec_0: 
+    sha256:a4a6faadfa485e1a7b83ff260a90aa437028d37c1ebc889e3e19996bb9286b96
 docker: quay.io/biocontainers/wfa2-lib

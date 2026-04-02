@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cardinal
 latest:
-  3.12.0--r45hdfd78af_0: 
-    sha256:ef12ed6687ccd316e1baa1455eb9e45dce8e30c1bd2e6d90ee8184e35bccc7f4
+  3.12.1--r45hdfd78af_0: 
+    sha256:219b52dd0103d5a6c1ec909e36d6c6795e3e8f7e097c63deb0e63f9de566e0a7
 tags:
   2.8.0--r40h399db7b_2: 
     sha256:49af076e3f9f5c67f9482c909e947758ea730cbcabc6a25ea3054b284f60b396
@@ -26,6 +26,8 @@ tags:
     sha256:04658efdb7add64f53b8ada5a06f7f13ba939e697ee3a1c01c2a9094674b33c5
   3.12.0--r45hdfd78af_0: 
     sha256:ef12ed6687ccd316e1baa1455eb9e45dce8e30c1bd2e6d90ee8184e35bccc7f4
+  3.12.1--r45hdfd78af_0: 
+    sha256:219b52dd0103d5a6c1ec909e36d6c6795e3e8f7e097c63deb0e63f9de566e0a7
 docker: quay.io/biocontainers/bioconductor-cardinal
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

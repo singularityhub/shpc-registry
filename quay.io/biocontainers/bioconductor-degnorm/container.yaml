@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-degnorm
 latest:
-  1.16.0--r44he5774e6_0: 
-    sha256:b803ca0c30f8cfd19bd89480aedc89cf11abade1f4a2518be9f9934faa70013a
+  1.20.0--r45ha27e39d_0: 
+    sha256:5c09c1b9d6d84dc6c1c3bdcc8d76117860b3ba88eb79ceb57cade8906dcd970b
 tags:
   1.4.0--r41hc247a5b_2: 
     sha256:c396013e1cd70c17f08fb541037617ffe4f4c125f069d10a7d614abaa9b27c90
@@ -18,4 +18,6 @@ tags:
     sha256:bae59a3ff1552bce9c5131b2549521dc739d5377063c1aaed395a742053bb7e4
   1.16.0--r44he5774e6_0: 
     sha256:b803ca0c30f8cfd19bd89480aedc89cf11abade1f4a2518be9f9934faa70013a
+  1.20.0--r45ha27e39d_0: 
+    sha256:5c09c1b9d6d84dc6c1c3bdcc8d76117860b3ba88eb79ceb57cade8906dcd970b
 docker: quay.io/biocontainers/bioconductor-degnorm

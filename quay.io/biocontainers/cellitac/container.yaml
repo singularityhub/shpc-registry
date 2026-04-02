@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cellitac
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cellitac
 latest:
-  1.0.4--pyhdfd78af_0: 
-    sha256:deee6a17b13c6c907c4bb20af1514b9bcd4ab0d475fc0b464ba86412bbaacf04
+  1.0.5--pyhdfd78af_0: 
+    sha256:8496fc0252b0727af716d13a75225044d69f99c8af7d49e136a97171520fb8f4
 tags:
   1.0.4--pyhdfd78af_0: 
     sha256:deee6a17b13c6c907c4bb20af1514b9bcd4ab0d475fc0b464ba86412bbaacf04
+  1.0.5--pyhdfd78af_0: 
+    sha256:8496fc0252b0727af716d13a75225044d69f99c8af7d49e136a97171520fb8f4
 docker: quay.io/biocontainers/cellitac
 aliases:
   cellitac: /usr/local/bin/cellitac

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/wisecondorx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wisecondorx
 latest:
-  1.2.9--pyhdfd78af_0: 
-    sha256:26f12ed4e5e5c589193fffaf45dc5e631f9a7feef4cdd6f27eec692efca08211
+  1.3.0--pyhdfd78af_0: 
+    sha256:dbfe1678ebf618fab43d44f872077f73b15b2de698da03b4a29b0c37996698ab
 tags:
   1.2.5--pyh5e36f6f_0: 
     sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb
@@ -11,6 +11,8 @@ tags:
     sha256:24a66efa275c7eea19d1c2a533b01f01eeaec9f57a57ae14ff8d2b7892c049bb
   1.2.9--pyhdfd78af_0: 
     sha256:26f12ed4e5e5c589193fffaf45dc5e631f9a7feef4cdd6f27eec692efca08211
+  1.3.0--pyhdfd78af_0: 
+    sha256:dbfe1678ebf618fab43d44f872077f73b15b2de698da03b4a29b0c37996698ab
 docker: quay.io/biocontainers/wisecondorx
 aliases:
   WisecondorX: /usr/local/bin/WisecondorX

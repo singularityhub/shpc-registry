@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-annotationhubdata
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:bf5667ba709db2f008254e5267d15640df933eb4a8c0e1d85fafffefec93fa3f
+  1.40.0--r45hdfd78af_0: 
+    sha256:dfd184a4e48bf17f476639e9defd5542d2d963a49d68aa1a6398fab5bbaaaf96
 tags:
   1.8.0--r3.4.1_0: 
     sha256:4897aac2d49f1b3f5cb0536fe5c9553930be701240077a8fa593b3c7d1fa568f
@@ -26,6 +26,8 @@ tags:
     sha256:cafb3ee736385c6cfeb7bfac329cdca3424ab7ca55d529ac5c45af8026998f3d
   1.36.0--r44hdfd78af_0: 
     sha256:bf5667ba709db2f008254e5267d15640df933eb4a8c0e1d85fafffefec93fa3f
+  1.40.0--r45hdfd78af_0: 
+    sha256:dfd184a4e48bf17f476639e9defd5542d2d963a49d68aa1a6398fab5bbaaaf96
 docker: quay.io/biocontainers/bioconductor-annotationhubdata
 aliases:
   wget: /usr/local/bin/wget

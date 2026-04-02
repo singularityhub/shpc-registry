@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-minfidataepic
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:c871522f4cf5ec8fcd8b1d54cb6b4170ca38e9b2cc71b9f99fd23932c6e41dc0
+  1.36.0--r45hdfd78af_0: 
+    sha256:4dbdd082ccb7cc806e5c0756977b0864caf0df6935531fc875de8f73819c8fa4
 tags:
   1.8.0--r351_0: 
     sha256:1f04a3365408e530e3a0d1c01cf5520628b581608df890f1985aa6e727f0a740
@@ -26,6 +26,8 @@ tags:
     sha256:c1aada506a17c59d0cba4ba26a81db7795be2733bb2b74ac7a688677b83d265f
   1.32.0--r44hdfd78af_0: 
     sha256:c871522f4cf5ec8fcd8b1d54cb6b4170ca38e9b2cc71b9f99fd23932c6e41dc0
+  1.36.0--r45hdfd78af_0: 
+    sha256:4dbdd082ccb7cc806e5c0756977b0864caf0df6935531fc875de8f73819c8fa4
 docker: quay.io/biocontainers/bioconductor-minfidataepic
 aliases:
   wget: /usr/local/bin/wget
