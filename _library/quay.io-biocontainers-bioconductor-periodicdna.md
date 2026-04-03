@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-periodicdna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-periodicdna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-periodicdna/container.yaml"
-updated_at: "2026-04-02 05:20:27.483130"
+updated_at: "2026-04-03 05:20:19.987772"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-periodicdna"
 

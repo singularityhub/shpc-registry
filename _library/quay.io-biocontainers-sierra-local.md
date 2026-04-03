@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sierra-local"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sierra-local/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sierra-local/container.yaml"
-updated_at: "2026-04-02 04:45:14.589163"
-latest: "0.4.3--py310hdfd78af_0"
+updated_at: "2026-04-03 04:45:05.814475"
+latest: "0.4.4--py310hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sierra-local"
 aliases:
  - "sierralocal"
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.4.3--py310hdfd78af_0"
+ - "0.4.4--py310hdfd78af_0"
 description: "singularity registry hpc automated addition for sierra-local"
-config: {"url": "https://biocontainers.pro/tools/sierra-local", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sierra-local", "latest": {"0.4.3--py310hdfd78af_0": "sha256:ca45e08b034b5782cd0c7ff768d9c1196646078c7491178cacc6aad8cf06a780"}, "tags": {"0.4.3--py310hdfd78af_0": "sha256:ca45e08b034b5782cd0c7ff768d9c1196646078c7491178cacc6aad8cf06a780"}, "docker": "quay.io/biocontainers/sierra-local", "aliases": {"sierralocal": "/usr/local/bin/sierralocal", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/sierra-local", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sierra-local", "latest": {"0.4.4--py310hdfd78af_0": "sha256:4872721cc724636fa8b66cb20553ae1d7d75196dcf0dc4e5cadfbd5cf0d10e8b"}, "tags": {"0.4.3--py310hdfd78af_0": "sha256:ca45e08b034b5782cd0c7ff768d9c1196646078c7491178cacc6aad8cf06a780", "0.4.4--py310hdfd78af_0": "sha256:4872721cc724636fa8b66cb20553ae1d7d75196dcf0dc4e5cadfbd5cf0d10e8b"}, "docker": "quay.io/biocontainers/sierra-local", "aliases": {"sierralocal": "/usr/local/bin/sierralocal", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sierra-local.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/sierra-local
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sierra-local:0.4.3--py310hdfd78af_0
+$ shpc install quay.io/biocontainers/sierra-local:0.4.4--py310hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sierra-local/0.4.3--py310hdfd78af_0
-$ module help quay.io/biocontainers/sierra-local/0.4.3--py310hdfd78af_0
+$ module load quay.io/biocontainers/sierra-local/0.4.4--py310hdfd78af_0
+$ module help quay.io/biocontainers/sierra-local/0.4.4--py310hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmcp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmcp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmcp/container.yaml"
-updated_at: "2026-04-02 05:00:59.013684"
+updated_at: "2026-04-03 05:01:00.157673"
 latest: "0.9.4--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/kmcp"
 aliases:

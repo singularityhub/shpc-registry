@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scider/container.yaml"
-updated_at: "2026-04-02 04:35:17.961161"
-latest: "1.4.0--r44hdfd78af_0"
+updated_at: "2026-04-03 04:35:27.536798"
+latest: "1.8.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scider"
 aliases:
  - "bsdunzip"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.4.0--r44hdfd78af_0"
+ - "1.8.0--r45ha27e39d_0"
 description: "singularity registry hpc automated addition for bioconductor-scider"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scider", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scider", "latest": {"1.4.0--r44hdfd78af_0": "sha256:3245d3ec482dd08406a46ab59216bcd2b50a39601183a9eddf86bb1c3e5a7de6"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:abd0e4c36e61b3db06cef0ed57b69fecc21ca94d6867b75c68dd1744e7119352", "1.4.0--r44hdfd78af_0": "sha256:3245d3ec482dd08406a46ab59216bcd2b50a39601183a9eddf86bb1c3e5a7de6"}, "docker": "quay.io/biocontainers/bioconductor-scider", "aliases": {"bsdunzip": "/usr/local/bin/bsdunzip", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "sozip": "/usr/local/bin/sozip", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pdfattach": "/usr/local/bin/pdfattach", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scider", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-scider", "latest": {"1.8.0--r45ha27e39d_0": "sha256:8a21896582f331f367fd51a78bd888015d3896af949bf198913badee1f3c5f1f"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:abd0e4c36e61b3db06cef0ed57b69fecc21ca94d6867b75c68dd1744e7119352", "1.4.0--r44hdfd78af_0": "sha256:3245d3ec482dd08406a46ab59216bcd2b50a39601183a9eddf86bb1c3e5a7de6", "1.8.0--r45ha27e39d_0": "sha256:8a21896582f331f367fd51a78bd888015d3896af949bf198913badee1f3c5f1f"}, "docker": "quay.io/biocontainers/bioconductor-scider", "aliases": {"bsdunzip": "/usr/local/bin/bsdunzip", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "protoc-24.4.0": "/usr/local/bin/protoc-24.4.0", "sozip": "/usr/local/bin/sozip", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pcre2posix_test": "/usr/local/bin/pcre2posix_test", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "kea-config": "/usr/local/bin/kea-config", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "pdfattach": "/usr/local/bin/pdfattach", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "projsync": "/usr/local/bin/projsync", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scider.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scider
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scider:1.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scider:1.8.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scider/1.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scider/1.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scider/1.8.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-scider/1.8.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

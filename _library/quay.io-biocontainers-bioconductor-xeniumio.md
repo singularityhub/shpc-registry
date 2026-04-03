@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xeniumio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xeniumio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xeniumio/container.yaml"
-updated_at: "2026-04-02 05:05:08.370355"
+updated_at: "2026-04-03 05:05:10.648649"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xeniumio"
 aliases:

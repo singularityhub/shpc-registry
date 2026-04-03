@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-motifbreakr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-motifbreakr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-motifbreakr/container.yaml"
-updated_at: "2026-04-02 04:34:57.474401"
-latest: "2.16.0--r43hdfd78af_0"
+updated_at: "2026-04-03 04:35:07.713600"
+latest: "2.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-motifbreakr"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "2.12.0--r42hdfd78af_0"
  - "2.13.7--r43hdfd78af_0"
  - "2.16.0--r43hdfd78af_0"
+ - "2.24.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-motifbreakr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-motifbreakr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-motifbreakr", "latest": {"2.16.0--r43hdfd78af_0": "sha256:25ad1270f91e3d8e34f001b1beb7e06b4cec88ea56daa498d719320dfc672b2f"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:9077d4d6af8a4e5ed478361d845a49160576f11bc0497393ae06400df86a6552", "2.12.0--r42hdfd78af_0": "sha256:f78e11632dd2a8879daf2135e0ccb4dab1754ce02d928c727e0ee676c197bf25", "2.13.7--r43hdfd78af_0": "sha256:4303bb80ccd00ffa701f4d57deec609be1d8d28c53c40c9108753210ac519fec", "2.16.0--r43hdfd78af_0": "sha256:25ad1270f91e3d8e34f001b1beb7e06b4cec88ea56daa498d719320dfc672b2f"}, "docker": "quay.io/biocontainers/bioconductor-motifbreakr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-motifbreakr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-motifbreakr", "latest": {"2.24.0--r45hdfd78af_0": "sha256:538be4bc6c01aae7a99501271b986d3a88c697102e2d1d6bd014a30838d7fdce"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:9077d4d6af8a4e5ed478361d845a49160576f11bc0497393ae06400df86a6552", "2.12.0--r42hdfd78af_0": "sha256:f78e11632dd2a8879daf2135e0ccb4dab1754ce02d928c727e0ee676c197bf25", "2.13.7--r43hdfd78af_0": "sha256:4303bb80ccd00ffa701f4d57deec609be1d8d28c53c40c9108753210ac519fec", "2.16.0--r43hdfd78af_0": "sha256:25ad1270f91e3d8e34f001b1beb7e06b4cec88ea56daa498d719320dfc672b2f", "2.24.0--r45hdfd78af_0": "sha256:538be4bc6c01aae7a99501271b986d3a88c697102e2d1d6bd014a30838d7fdce"}, "docker": "quay.io/biocontainers/bioconductor-motifbreakr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-motifbreakr.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-motifbreakr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-motifbreakr:2.16.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-motifbreakr:2.24.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-motifbreakr/2.16.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-motifbreakr/2.16.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-motifbreakr/2.24.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-motifbreakr/2.24.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

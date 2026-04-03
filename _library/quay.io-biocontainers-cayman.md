@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cayman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cayman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cayman/container.yaml"
-updated_at: "2026-04-02 04:45:01.188896"
+updated_at: "2026-04-03 04:44:52.836270"
 latest: "0.10.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/cayman"
 aliases:

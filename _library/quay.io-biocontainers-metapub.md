@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metapub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metapub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metapub/container.yaml"
-updated_at: "2026-04-02 05:24:41.823585"
-latest: "0.6.4--pyhdfd78af_1"
+updated_at: "2026-04-03 05:24:26.038417"
+latest: "0.7.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/metapub"
 aliases:
  - "metapub-registry"
@@ -29,8 +29,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.6.4--pyhdfd78af_1"
+ - "0.7.4--pyh106432d_0"
 description: "singularity registry hpc automated addition for metapub"
-config: {"url": "https://biocontainers.pro/tools/metapub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metapub", "latest": {"0.6.4--pyhdfd78af_1": "sha256:1825bb648e5a919adcc68b4d8a9706e0d595fa50e727d0b72ae5a4baf688af1b"}, "tags": {"0.6.4--pyhdfd78af_1": "sha256:1825bb648e5a919adcc68b4d8a9706e0d595fa50e727d0b72ae5a4baf688af1b"}, "docker": "quay.io/biocontainers/metapub", "aliases": {"metapub-registry": "/usr/local/bin/metapub-registry", "metapub_build_registry": "/usr/local/bin/metapub_build_registry", "ncbi_health_check": "/usr/local/bin/ncbi_health_check", "pubmed_article": "/usr/local/bin/pubmed_article", "unidecode": "/usr/local/bin/unidecode", "httpx": "/usr/local/bin/httpx", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "convert": "/usr/local/bin/convert", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/metapub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metapub", "latest": {"0.7.4--pyh106432d_0": "sha256:982629755c979ca75174d1f248a52f568f76630a5a0181a9d288bf632523de6e"}, "tags": {"0.6.4--pyhdfd78af_1": "sha256:1825bb648e5a919adcc68b4d8a9706e0d595fa50e727d0b72ae5a4baf688af1b", "0.7.4--pyh106432d_0": "sha256:982629755c979ca75174d1f248a52f568f76630a5a0181a9d288bf632523de6e"}, "docker": "quay.io/biocontainers/metapub", "aliases": {"metapub-registry": "/usr/local/bin/metapub-registry", "metapub_build_registry": "/usr/local/bin/metapub_build_registry", "ncbi_health_check": "/usr/local/bin/ncbi_health_check", "pubmed_article": "/usr/local/bin/pubmed_article", "unidecode": "/usr/local/bin/unidecode", "httpx": "/usr/local/bin/httpx", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "convert": "/usr/local/bin/convert", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metapub.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/metapub
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metapub:0.6.4--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/metapub:0.7.4--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metapub/0.6.4--pyhdfd78af_1
-$ module help quay.io/biocontainers/metapub/0.6.4--pyhdfd78af_1
+$ module load quay.io/biocontainers/metapub/0.7.4--pyh106432d_0
+$ module help quay.io/biocontainers/metapub/0.7.4--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

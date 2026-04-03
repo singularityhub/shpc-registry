@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-openebgm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-openebgm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-openebgm/container.yaml"
-updated_at: "2026-04-02 05:12:32.803164"
+updated_at: "2026-04-03 05:12:35.848444"
 latest: "0.9.1--r45h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-openebgm"
 aliases:

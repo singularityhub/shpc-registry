@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pkiss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pkiss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pkiss/container.yaml"
-updated_at: "2026-04-02 05:11:04.378156"
+updated_at: "2026-04-03 05:11:08.138247"
 latest: "2.3.0--pl5321h9948957_4"
 container_url: "https://biocontainers.pro/tools/pkiss"
 aliases:
