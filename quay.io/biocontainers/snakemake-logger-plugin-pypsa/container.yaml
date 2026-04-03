@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   snakemake-logger-plugin-pypsa
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:ae41940eccfed7a128425fcef9e3787dd3f2ab134ae96457ec6e12531ad10b7e
+  0.2.0--pyhdfd78af_0: 
+    sha256:ccbd96998200addc59afed27148d18e9d7ba1e784209ed6d166453ec471b9d76
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:ae41940eccfed7a128425fcef9e3787dd3f2ab134ae96457ec6e12531ad10b7e
+  0.2.0--pyhdfd78af_0: 
+    sha256:ccbd96998200addc59afed27148d18e9d7ba1e784209ed6d166453ec471b9d76
 docker: quay.io/biocontainers/snakemake-logger-plugin-pypsa
 aliases:
   idle3.14: /usr/local/bin/idle3.14

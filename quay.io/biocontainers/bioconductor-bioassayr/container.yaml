@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bioassayr
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:16a3d3fc6fa67196e4858af740634c4f2bf15d6cc0458f68ef80b5dd237ac496
+  1.48.0--r45hdfd78af_0: 
+    sha256:06b4c7c90bbf65d7df399d572c2700ba167a2aa911f378df4319f62cb124ab38
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c
@@ -16,6 +16,8 @@ tags:
     sha256:449aaa41ef19ba14bb1961733a89ddb20fb9d43acd0921346c303903010ff63a
   1.44.0--r44hdfd78af_0: 
     sha256:16a3d3fc6fa67196e4858af740634c4f2bf15d6cc0458f68ef80b5dd237ac496
+  1.48.0--r45hdfd78af_0: 
+    sha256:06b4c7c90bbf65d7df399d572c2700ba167a2aa911f378df4319f62cb124ab38
 docker: quay.io/biocontainers/bioconductor-bioassayr
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

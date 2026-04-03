@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-medicagocdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:cca86352f9fc5be52d55ddce27f6be02c4697066382e42a2dd31e95698b45163
+  2.18.0--r45hdfd78af_14: 
+    sha256:c88075509978d4b2aa976ea7c36fddf479229114c3d7ef6d0ea39e2ae8044d5f
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:c61df49512416f095d2676f42be08af7d5213a75d514980f309a668ba03db619
@@ -16,4 +16,6 @@ tags:
     sha256:7d7abab59f8822f4874e04ea1a18d4d60633d5958ab3deb490d82f75ea47e841
   2.18.0--r44hdfd78af_13: 
     sha256:cca86352f9fc5be52d55ddce27f6be02c4697066382e42a2dd31e95698b45163
+  2.18.0--r45hdfd78af_14: 
+    sha256:c88075509978d4b2aa976ea7c36fddf479229114c3d7ef6d0ea39e2ae8044d5f
 docker: quay.io/biocontainers/bioconductor-medicagocdf

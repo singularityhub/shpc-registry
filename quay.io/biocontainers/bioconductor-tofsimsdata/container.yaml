@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tofsimsdata
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:f6501f5410c9a740d748ee7e1b40bbfad8390713b8f221adac3dc99637210fb1
+  1.38.0--r45hdfd78af_0: 
+    sha256:3a55b3ac919cbd0f01fda8a7529526a6dbf6c922872dea496d2b7cfd52d3317f
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:99a92d02f0069c86f13bb1c1d0e28b63246a6a59afd0909e4cf0b4d08c74f409
@@ -16,4 +16,6 @@ tags:
     sha256:fa2ee097f6b7556299dc9bbc95c6d382ecdb47516fe539f92cbb4399c4d33222
   1.34.0--r44hdfd78af_0: 
     sha256:f6501f5410c9a740d748ee7e1b40bbfad8390713b8f221adac3dc99637210fb1
+  1.38.0--r45hdfd78af_0: 
+    sha256:3a55b3ac919cbd0f01fda8a7529526a6dbf6c922872dea496d2b7cfd52d3317f
 docker: quay.io/biocontainers/bioconductor-tofsimsdata

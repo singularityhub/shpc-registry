@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ropls
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:e3de5670360fd36ecb45c6c3692a6b6cf439636b76856738faf64181487a01e1
+  1.42.0--r45hdfd78af_0: 
+    sha256:73fa388af83bd416c1b742b1864741a9b20796bbe96fc32692c98200a50344a9
 tags:
   1.8.0--r3.4.1_0: 
     sha256:c68d39fe8f18f6bdecbcf008883a58bbb07e1d7732ff98f280f944799e478f7c
@@ -26,6 +26,8 @@ tags:
     sha256:fa38ce1472f4472d30d073a465d5b07514b90eb4e6668481b04dd11648a91cf9
   1.38.0--r44hdfd78af_0: 
     sha256:e3de5670360fd36ecb45c6c3692a6b6cf439636b76856738faf64181487a01e1
+  1.42.0--r45hdfd78af_0: 
+    sha256:73fa388af83bd416c1b742b1864741a9b20796bbe96fc32692c98200a50344a9
 docker: quay.io/biocontainers/bioconductor-ropls
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

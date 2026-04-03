@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sitadela
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:94abab61d7500d61cf66fd09b014208a8ce12477edcd892a5c440eca4d0d53bf
+  1.18.0--r45hdfd78af_0: 
+    sha256:b32e98516e0ce3335e57b7c887eac881ac014646e9dbb91a81dc10a435d1e776
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:bed7b011d5ae9013114bb5b06d03fc3705f1bec61e71df957b5716c85a4f98af
@@ -16,4 +16,6 @@ tags:
     sha256:d12bf6acd004a029041d5ada915d66b88aabd97782d33e70206bdb1c38192b5e
   1.14.0--r44hdfd78af_0: 
     sha256:94abab61d7500d61cf66fd09b014208a8ce12477edcd892a5c440eca4d0d53bf
+  1.18.0--r45hdfd78af_0: 
+    sha256:b32e98516e0ce3335e57b7c887eac881ac014646e9dbb91a81dc10a435d1e776
 docker: quay.io/biocontainers/bioconductor-sitadela

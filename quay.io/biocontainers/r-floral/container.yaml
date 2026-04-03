@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-floral
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-floral
 latest:
-  0.6.0--r44hdfd78af_0: 
-    sha256:b3723a7827c39932a523567c28751f5517928e1901eb8ca848e16c5c5ba15c08
+  0.7.0--r44hdfd78af_0: 
+    sha256:e788d192b1cf7e4627e17f2004a33d60fda0bf6a67fc4d3d5140d9c1a32dfc08
 tags:
   0.4.0--r44hdfd78af_0: 
     sha256:cc3137b78429850f34b290bf50b2b4c9848ac2d64e625c9ca4e06437edbfc39d
@@ -11,6 +11,8 @@ tags:
     sha256:86036923d7c093a8289d2b98f44cf285531ae003230033833d0ff14c74eca03a
   0.6.0--r44hdfd78af_0: 
     sha256:b3723a7827c39932a523567c28751f5517928e1901eb8ca848e16c5c5ba15c08
+  0.7.0--r44hdfd78af_0: 
+    sha256:e788d192b1cf7e4627e17f2004a33d60fda0bf6a67fc4d3d5140d9c1a32dfc08
 docker: quay.io/biocontainers/r-floral
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

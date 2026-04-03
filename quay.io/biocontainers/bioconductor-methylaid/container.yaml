@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-methylaid
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:ee04d0f97fa43dd58ac012f0aa4e8c145e442a45eff77d1ef1a0a02fa3ac966a
+  1.44.0--r45hdfd78af_0: 
+    sha256:9afc7a3ff8d9f5d1923f556bea1474751aec116cefe7a38b5a4f49ee15baff4d
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:b5723528c2c8be82b958584fcfa238ec5fa991f0e95ad0b8c1a2022582ef6611
@@ -16,4 +16,6 @@ tags:
     sha256:c2da4e7eed1533f263ec3838fc32b4848839044a0f5ce157f0875f3216f63974
   1.40.0--r44hdfd78af_0: 
     sha256:ee04d0f97fa43dd58ac012f0aa4e8c145e442a45eff77d1ef1a0a02fa3ac966a
+  1.44.0--r45hdfd78af_0: 
+    sha256:9afc7a3ff8d9f5d1923f556bea1474751aec116cefe7a38b5a4f49ee15baff4d
 docker: quay.io/biocontainers/bioconductor-methylaid

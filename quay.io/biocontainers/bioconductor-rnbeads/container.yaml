@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rnbeads
 latest:
-  2.24.0--r44hdfd78af_0: 
-    sha256:c3ce8454302fefdc4abe774cd6a8122ac2bf875ac27771b14805a261da1102f7
+  2.28.0--r45hdfd78af_0: 
+    sha256:4ae2702f307f1dea09bf674ce897df069e9570120f2fba454052b3a43f83c0b4
 tags:
   2.8.1--r40hdfd78af_0: 
     sha256:ec256dc79dc300bf9f23cefa536237aa71778b3c6f441a7f651bb470d8c3c90f
@@ -20,4 +20,6 @@ tags:
     sha256:0ddb37bf26c93113d1a7eed5b60872ea1656e99d45a3344582b869678043bee7
   2.24.0--r44hdfd78af_0: 
     sha256:c3ce8454302fefdc4abe774cd6a8122ac2bf875ac27771b14805a261da1102f7
+  2.28.0--r45hdfd78af_0: 
+    sha256:4ae2702f307f1dea09bf674ce897df069e9570120f2fba454052b3a43f83c0b4
 docker: quay.io/biocontainers/bioconductor-rnbeads

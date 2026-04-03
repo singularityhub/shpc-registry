@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-dreamlet
 latest:
-  1.6.0--r44he5774e6_0: 
-    sha256:42fccac4846794e2c92ddae811387f1e873a716ad9574d6b51594eb5219ec2d2
+  1.8.0--r45ha27e39d_0: 
+    sha256:e59a4e25fabf4dd7d27cafdebde1cd2c68e212792ed38094239b1925bad23d20
 tags:
   1.6.0--r44he5774e6_0: 
     sha256:42fccac4846794e2c92ddae811387f1e873a716ad9574d6b51594eb5219ec2d2
+  1.8.0--r45ha27e39d_0: 
+    sha256:e59a4e25fabf4dd7d27cafdebde1cd2c68e212792ed38094239b1925bad23d20
 docker: quay.io/biocontainers/bioconductor-dreamlet
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

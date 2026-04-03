@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-assorthead
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:7a142b6eb1eb7a62cca9c3cb4451e8f42a16641bb43baf99a5628deaa2d75411
+  1.4.0--r45hdfd78af_0: 
+    sha256:b2f5543c483d9bf7c991f997722aef41cc30806962003586db70e4a19d2784f9
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:7a142b6eb1eb7a62cca9c3cb4451e8f42a16641bb43baf99a5628deaa2d75411
+  1.4.0--r45hdfd78af_0: 
+    sha256:b2f5543c483d9bf7c991f997722aef41cc30806962003586db70e4a19d2784f9
 docker: quay.io/biocontainers/bioconductor-assorthead
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

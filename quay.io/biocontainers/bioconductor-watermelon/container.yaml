@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-watermelon
 latest:
-  2.12.0--r44hdfd78af_0: 
-    sha256:3a083f09bab72e4ffbbdcdde4704fef66834fa417b117d19dd6064299d0b493a
+  2.16.0--r45hdfd78af_0: 
+    sha256:a7f95c6fb9490540d17224b40eb4a72fc96de950ae6a1024e4e617ccc795baf1
 tags:
   2.0.0--r41hdfd78af_1: 
     sha256:8cd446f01cf4f015d8822de8b51739c75937ea17f93b35070f9a39e09221f808
@@ -16,4 +16,6 @@ tags:
     sha256:16c5a1df65d4015f5b70b8573c0bef1de2bfdd0a412ba62e95d98ef813989014
   2.12.0--r44hdfd78af_0: 
     sha256:3a083f09bab72e4ffbbdcdde4704fef66834fa417b117d19dd6064299d0b493a
+  2.16.0--r45hdfd78af_0: 
+    sha256:a7f95c6fb9490540d17224b40eb4a72fc96de950ae6a1024e4e617ccc795baf1
 docker: quay.io/biocontainers/bioconductor-watermelon

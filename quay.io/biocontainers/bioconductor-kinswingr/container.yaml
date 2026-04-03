@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-kinswingr
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:53199f4af2a5aca8167d05a7f5af614efe57ffde67113523b19ae74e6c0a7c40
+  1.28.0--r45hdfd78af_0: 
+    sha256:71315926625cb98b70b3af2f003fe0ee9aae49a580adcfbb6f3cb8e475f57752
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:a9c6bee4b77629e445501acf878bc25766134dade67953ddd2a09656399fd834
@@ -20,6 +20,8 @@ tags:
     sha256:fbc656402c3816045366b38d6c17936d25f2772810d9df161d5131cfe3d90a25
   1.24.0--r44hdfd78af_0: 
     sha256:53199f4af2a5aca8167d05a7f5af614efe57ffde67113523b19ae74e6c0a7c40
+  1.28.0--r45hdfd78af_0: 
+    sha256:71315926625cb98b70b3af2f003fe0ee9aae49a580adcfbb6f3cb8e475f57752
 docker: quay.io/biocontainers/bioconductor-kinswingr
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

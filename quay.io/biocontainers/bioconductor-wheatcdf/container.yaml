@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-wheatcdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:f0fb1ad48da9090d1ce558b11175ed2bc3a918944f66bcd80afc6eb51b1c0921
+  2.18.0--r45hdfd78af_14: 
+    sha256:1d0d6b135111362640cd4b2260ca89ae4fbfc832c84ea538017bbe9ee7ca3ead
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:6b23f14069809787684d33502d68c4eb3aee59e16b8626c924f308715630916e
@@ -16,4 +16,6 @@ tags:
     sha256:eb8bdfbacc199c6658e24e66b2b56f52622af6668537491d51c7acfa317f4d20
   2.18.0--r44hdfd78af_13: 
     sha256:f0fb1ad48da9090d1ce558b11175ed2bc3a918944f66bcd80afc6eb51b1c0921
+  2.18.0--r45hdfd78af_14: 
+    sha256:1d0d6b135111362640cd4b2260ca89ae4fbfc832c84ea538017bbe9ee7ca3ead
 docker: quay.io/biocontainers/bioconductor-wheatcdf

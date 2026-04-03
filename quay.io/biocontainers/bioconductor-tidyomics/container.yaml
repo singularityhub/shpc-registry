@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-tidyomics
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:9f3cb312736fb6aedfc255e9a1207f1bac8bf0a809edde39e97adaae462e826f
+  1.6.0--r45hdfd78af_0: 
+    sha256:c45b437ea20537405a56be7a245083f6e66615d7017aac187e4604363b1bbbb8
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:9f3cb312736fb6aedfc255e9a1207f1bac8bf0a809edde39e97adaae462e826f
+  1.6.0--r45hdfd78af_0: 
+    sha256:c45b437ea20537405a56be7a245083f6e66615d7017aac187e4604363b1bbbb8
 docker: quay.io/biocontainers/bioconductor-tidyomics
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

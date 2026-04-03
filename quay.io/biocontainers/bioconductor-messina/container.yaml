@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-messina
 latest:
-  1.42.0--r44he5774e6_0: 
-    sha256:84f78b037c776723815fd53f5b50e88a2f4f23f9714da5aab4f3588a88470dd2
+  1.46.0--r45ha27e39d_0: 
+    sha256:4482da0ba451f05c604b345148eb0f410cf4fd9690ea1bc5aceb8376c7e541a1
 tags:
   1.30.0--r41hc247a5b_2: 
     sha256:e1a4f18eb7a8b4e9dd6057f1753b6da2b05bd8318bc83432852696185a2b7848
@@ -18,4 +18,6 @@ tags:
     sha256:fc3eb7c679bdf9e2d904e611cfc9585effb81f784a36ec0822c4555a112c4d2f
   1.42.0--r44he5774e6_0: 
     sha256:84f78b037c776723815fd53f5b50e88a2f4f23f9714da5aab4f3588a88470dd2
+  1.46.0--r45ha27e39d_0: 
+    sha256:4482da0ba451f05c604b345148eb0f410cf4fd9690ea1bc5aceb8376c7e541a1
 docker: quay.io/biocontainers/bioconductor-messina

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-citefuse
 latest:
-  1.18.0--r44he5774e6_0: 
-    sha256:ccbd7effb8f9c275ec544758966415e1dd769082add6e854bda90729e8956b08
+  1.22.0--r45ha27e39d_0: 
+    sha256:dcc1d27746a39a1bde794e6c6f423e35581f8822fc67ad049a24827ccdd846f2
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:f0e5b6e5804e01e6cdff7103011d7b54f81f1ef9ef13236251037ee0b92bc5eb
@@ -18,4 +18,6 @@ tags:
     sha256:25bf404d8113e07c350dedf1b6c68e48cd740f23cb72e6d8dfa20f36a7e15c9d
   1.18.0--r44he5774e6_0: 
     sha256:ccbd7effb8f9c275ec544758966415e1dd769082add6e854bda90729e8956b08
+  1.22.0--r45ha27e39d_0: 
+    sha256:dcc1d27746a39a1bde794e6c6f423e35581f8822fc67ad049a24827ccdd846f2
 docker: quay.io/biocontainers/bioconductor-citefuse

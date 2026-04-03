@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gmrp
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:9aeba01a0bcb3bc01f66617e733758d5117bb77b1baa5cdb54b97a1a14e9ebf1
+  1.38.0--r45hdfd78af_0: 
+    sha256:3a81632cb2e667160a2d35117b4019a6b239d42d262f2db5d4b091fb4b6e0660
 tags:
   1.8.1--r341_0: 
     sha256:7222032d517c8c27caaa27bedc4e92c4181ebc77f069d2530478615af7b3fab9
@@ -26,6 +26,8 @@ tags:
     sha256:134b832ae912d4b43362526fa882ea94163e5ecf6a4b8b0c638da299d6ca5f39
   1.34.0--r44hdfd78af_0: 
     sha256:9aeba01a0bcb3bc01f66617e733758d5117bb77b1baa5cdb54b97a1a14e9ebf1
+  1.38.0--r45hdfd78af_0: 
+    sha256:3a81632cb2e667160a2d35117b4019a6b239d42d262f2db5d4b091fb4b6e0660
 docker: quay.io/biocontainers/bioconductor-gmrp
 aliases:
   wget: /usr/local/bin/wget

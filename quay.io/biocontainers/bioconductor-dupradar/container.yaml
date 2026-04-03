@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dupradar
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:35658d8f9191a1bbfefcb499faed4c2db4a0517e5b761ff45cd6fb61c9834003
+  1.40.0--r45hdfd78af_0: 
+    sha256:564afd18c0054295bfe3f37045cab621fc75c448ba80a7010a1bb97f03749b19
 tags:
   1.8.0--r3.4.1_1: 
     sha256:b8f7fe99d93b1d9c1570b3298fbf078fb03bdd78211c08bd2aec121d28237e0b
@@ -26,6 +26,8 @@ tags:
     sha256:58f869ad7df8e1d70efa590e8198130cbfe5b4ad77ca25cf9a619ea221234202
   1.38.0--r44hdfd78af_0: 
     sha256:35658d8f9191a1bbfefcb499faed4c2db4a0517e5b761ff45cd6fb61c9834003
+  1.40.0--r45hdfd78af_0: 
+    sha256:564afd18c0054295bfe3f37045cab621fc75c448ba80a7010a1bb97f03749b19
 docker: quay.io/biocontainers/bioconductor-dupradar
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

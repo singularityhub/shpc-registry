@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-trajectorygeometry
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:20dbef99bd5cc7c18861a91405fa378019bee35e822cd4e89f314c99325cdfbd
+  1.18.0--r45h575d39b_0: 
+    sha256:7692aa07b09d3b3352c8e0847560c15bae100b2df17cfd82d8dfb64b33b665f9
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:67a1b5ec12277fac7cbcfff3909299a85ff356cfb1656380ba08cbc0c06c7fbd
@@ -16,4 +16,6 @@ tags:
     sha256:f069db8c4127eb25b3a918f2611d1349cf88a992f56d538d9d0999976e90c121
   1.14.0--r44hdfd78af_0: 
     sha256:20dbef99bd5cc7c18861a91405fa378019bee35e822cd4e89f314c99325cdfbd
+  1.18.0--r45h575d39b_0: 
+    sha256:7692aa07b09d3b3352c8e0847560c15bae100b2df17cfd82d8dfb64b33b665f9
 docker: quay.io/biocontainers/bioconductor-trajectorygeometry

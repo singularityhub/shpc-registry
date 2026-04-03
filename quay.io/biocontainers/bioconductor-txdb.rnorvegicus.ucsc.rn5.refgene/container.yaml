@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene
 latest:
-  3.12.0--r44hdfd78af_8: 
-    sha256:2b29da17ca816bae48d9fe0af322b030f67fe80eda6631092653d895f550e6ea
+  3.12.0--r45hdfd78af_9: 
+    sha256:372a1a91d8d8af213fe4b51a512cab33876a4114ff6bf7cc0fa6684d701751f4
 tags:
   3.4.6--r36_1: 
     sha256:42fd03010af5a9f5eca52ae191eb13b715d8c86da045727f47ce38fdcf43f408
@@ -23,6 +23,8 @@ tags:
     sha256:156230156897ccb7abe5942d428f7b3b3932b1e669d71a2adfbc8915dd8f0f4c
   3.12.0--r44hdfd78af_8: 
     sha256:2b29da17ca816bae48d9fe0af322b030f67fe80eda6631092653d895f550e6ea
+  3.12.0--r45hdfd78af_9: 
+    sha256:372a1a91d8d8af213fe4b51a512cab33876a4114ff6bf7cc0fa6684d701751f4
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

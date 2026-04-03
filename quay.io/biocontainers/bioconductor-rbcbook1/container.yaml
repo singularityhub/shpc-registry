@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rbcbook1
 latest:
-  1.74.0--r44hdfd78af_0: 
-    sha256:fd69793d3189c0be1035d5db841089ff566f20e6977fea7c8f27f82bfc0b23cc
+  1.78.0--r45hdfd78af_0: 
+    sha256:43e462b8a4aa19df28c50e30f2d33b1f813810fd0643d778faa2597717d9f071
 tags:
   1.62.0--r41hdfd78af_0: 
     sha256:15a0d576d12ca6664a4985f67eb9c93829a7c06d2054368498b40a4365f928eb
@@ -16,4 +16,6 @@ tags:
     sha256:674f418a863a055a606a40e36ddb08028ea31c63858566c904533732d67dde9d
   1.74.0--r44hdfd78af_0: 
     sha256:fd69793d3189c0be1035d5db841089ff566f20e6977fea7c8f27f82bfc0b23cc
+  1.78.0--r45hdfd78af_0: 
+    sha256:43e462b8a4aa19df28c50e30f2d33b1f813810fd0643d778faa2597717d9f071
 docker: quay.io/biocontainers/bioconductor-rbcbook1

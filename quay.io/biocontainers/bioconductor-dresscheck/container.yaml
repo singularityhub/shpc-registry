@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dresscheck
 latest:
-  0.44.0--r44hdfd78af_0: 
-    sha256:f9ca2232eb3f97710ff7575dc4a59557faa5f3c2fe5a8d89dbf3c3fe2cf68063
+  0.48.0--r45hdfd78af_0: 
+    sha256:5cffea82e4b4050eb93684445ed1dc5dcbed1967919878dd2754b0463fdda590
 tags:
   0.32.0--r41hdfd78af_1: 
     sha256:a6b60f491207265ca64c2c1006cc982dcb96824808c3d93bf8b8b05f6b30680a
@@ -16,4 +16,6 @@ tags:
     sha256:309226696f6e5128a6cefae1ca44870c5d060f42f1615419ebddc6bd9237e047
   0.44.0--r44hdfd78af_0: 
     sha256:f9ca2232eb3f97710ff7575dc4a59557faa5f3c2fe5a8d89dbf3c3fe2cf68063
+  0.48.0--r45hdfd78af_0: 
+    sha256:5cffea82e4b4050eb93684445ed1dc5dcbed1967919878dd2754b0463fdda590
 docker: quay.io/biocontainers/bioconductor-dresscheck

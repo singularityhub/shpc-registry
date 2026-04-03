@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-kcsmart
 latest:
-  2.64.0--r44hdfd78af_0: 
-    sha256:5c898ee0f918ea5159bbc92fa4dc95d59dd3a678cfe9646976aa6424911cd9df
+  2.68.0--r45hdfd78af_0: 
+    sha256:f362328bb0067e5743ac5e2536cd2f7a07740a07224cf9a461025a8bda805fec
 tags:
   2.52.0--r41hdfd78af_0: 
     sha256:24c7140dd930db7129265ce407bcbc77be66680c0317df07a1d1e34b38e8d0f1
@@ -16,4 +16,6 @@ tags:
     sha256:a54721a8a2b546261dc30aad2468a0624a58c4c150b02a572b23863b589d5a65
   2.64.0--r44hdfd78af_0: 
     sha256:5c898ee0f918ea5159bbc92fa4dc95d59dd3a678cfe9646976aa6424911cd9df
+  2.68.0--r45hdfd78af_0: 
+    sha256:f362328bb0067e5743ac5e2536cd2f7a07740a07224cf9a461025a8bda805fec
 docker: quay.io/biocontainers/bioconductor-kcsmart

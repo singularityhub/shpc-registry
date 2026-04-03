@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-celegansprobe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:9a73b505f6773fc2a08a439bfb4651002cffcec3fcf2e08c74abca29846ec989
+  2.18.0--r45hdfd78af_14: 
+    sha256:24d036293012f984963170da82a96256b8044c213358bc9b5e4e077ba928267c
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:909efb89feb7423402ffb713a5df1f854226ba6111dadaa16def9de105b5449e
@@ -16,4 +16,6 @@ tags:
     sha256:a32cb342f5026725d8db8bdefa009dceac21e911c758184fab33d92413fb3b3a
   2.18.0--r44hdfd78af_13: 
     sha256:9a73b505f6773fc2a08a439bfb4651002cffcec3fcf2e08c74abca29846ec989
+  2.18.0--r45hdfd78af_14: 
+    sha256:24d036293012f984963170da82a96256b8044c213358bc9b5e4e077ba928267c
 docker: quay.io/biocontainers/bioconductor-celegansprobe

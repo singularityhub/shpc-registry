@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-coregx
 latest:
-  2.10.0--r44hdfd78af_0: 
-    sha256:8fcb90c862698820c485581a91d9e3f8b619bc36163129126b2f50aa566af7f6
+  2.14.0--r45hdfd78af_0: 
+    sha256:b7fa2949470e24caccbc8ff27516a62d5ab67abe76e91d4a2d7a4b8d0468fd68
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:dc0e22e245e8fa644826838eed3e304b9d15b5e9ade059a3320f59b08cf8a720
@@ -16,4 +16,6 @@ tags:
     sha256:74302da79221e48924c64b9f8a01c5a39137e00f7795d20a69ae78b0b41c6035
   2.10.0--r44hdfd78af_0: 
     sha256:8fcb90c862698820c485581a91d9e3f8b619bc36163129126b2f50aa566af7f6
+  2.14.0--r45hdfd78af_0: 
+    sha256:b7fa2949470e24caccbc8ff27516a62d5ab67abe76e91d4a2d7a4b8d0468fd68
 docker: quay.io/biocontainers/bioconductor-coregx

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rsemmed
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:e26e038dd1ca55820b83f6b32250d61f65061c1965523d71835be23aa11eb86c
+  1.20.0--r45hdfd78af_0: 
+    sha256:caa9c159e872d29ec5c15c1e9b240c5bcda0be9c6bc8753683c7289f14635c86
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:b3d9766c560dcd8bc3d4247835d6c57ef843eaf0a563309c46cb6f99984d8a0f
@@ -16,4 +16,6 @@ tags:
     sha256:29c24b9794f1ddf5c0ac4c8b4aa281b0f4fc10faefb16af2e5b439831246eaab
   1.16.0--r44hdfd78af_0: 
     sha256:e26e038dd1ca55820b83f6b32250d61f65061c1965523d71835be23aa11eb86c
+  1.20.0--r45hdfd78af_0: 
+    sha256:caa9c159e872d29ec5c15c1e9b240c5bcda0be9c6bc8753683c7289f14635c86
 docker: quay.io/biocontainers/bioconductor-rsemmed

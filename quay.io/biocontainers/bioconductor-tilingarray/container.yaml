@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tilingarray
 latest:
-  1.84.0--r44h3df3fcb_0: 
-    sha256:5c9449b884a6a04a568c636de8d0f0fea00af6d5da7ff67648087b0084695a05
+  1.88.0--r45h01b2380_0: 
+    sha256:8cd2890254a63343e73935a8ee02b44e4e9e907f44352012bbe976d3e0dce2fc
 tags:
   1.72.0--r41hc0cfd56_2: 
     sha256:58297a96fe687de7636745bd0f6d47081c4eef9d4f2e81e803b2c2278976f005
@@ -18,4 +18,6 @@ tags:
     sha256:83bbb3fa31a82b1122855af9401024b97cbfbf0e75f02d605f3fdb0852ccdf6f
   1.84.0--r44h3df3fcb_0: 
     sha256:5c9449b884a6a04a568c636de8d0f0fea00af6d5da7ff67648087b0084695a05
+  1.88.0--r45h01b2380_0: 
+    sha256:8cd2890254a63343e73935a8ee02b44e4e9e907f44352012bbe976d3e0dce2fc
 docker: quay.io/biocontainers/bioconductor-tilingarray

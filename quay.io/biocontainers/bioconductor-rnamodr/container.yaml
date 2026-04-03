@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rnamodr
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:151fcd23ac41a9a94e4d08ba5e6b483db91d4d854f909f4d18dc4a5f8efe9781
+  1.24.0--r45hdfd78af_0: 
+    sha256:47fac858e1bdc268698f0cf729e155f4e60eab63ede30ee9c0f544ad1870051e
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:5865322c352fd17ccba911cbc742c38c0ce8ede439209da608f6cfc35e376f2f
@@ -16,4 +16,6 @@ tags:
     sha256:12e5bdc47380e31b1acd9a31571de190186ac704518cbc6f68f5436ccf0e4ca1
   1.20.0--r44hdfd78af_0: 
     sha256:151fcd23ac41a9a94e4d08ba5e6b483db91d4d854f909f4d18dc4a5f8efe9781
+  1.24.0--r45hdfd78af_0: 
+    sha256:47fac858e1bdc268698f0cf729e155f4e60eab63ede30ee9c0f544ad1870051e
 docker: quay.io/biocontainers/bioconductor-rnamodr

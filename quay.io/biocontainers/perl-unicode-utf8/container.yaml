@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-unicode-utf8
 latest:
-  0.62--pl5321h9948957_8: 
-    sha256:b2be4c996ae11b13912d34b9d46cd6052f4fae88755545d9beefc3b4032a28c5
+  0.66--pl5321hd63eeec_0: 
+    sha256:124ecbc5baa880a62cbb64892d3b1eecc8696d2544285427ba912192ad80a227
 tags:
   0.62--pl5321h9f5acd7_4: 
     sha256:49e54d480975ddca902f024d20d4e0fd0b4c4d535fc9760a8bfd7bd53a851bfc
@@ -14,6 +14,8 @@ tags:
     sha256:77c9ec5cf5086cb5b862a5b957933dd274322d12ab21ee9d2671bcadd7103d88
   0.62--pl5321h9948957_8: 
     sha256:b2be4c996ae11b13912d34b9d46cd6052f4fae88755545d9beefc3b4032a28c5
+  0.66--pl5321hd63eeec_0: 
+    sha256:124ecbc5baa880a62cbb64892d3b1eecc8696d2544285427ba912192ad80a227
 docker: quay.io/biocontainers/perl-unicode-utf8
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

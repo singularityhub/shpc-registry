@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-xlaevis2cdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:51330ca6a86fbd73835297c8832722039ca2070556def1a124ac2de9184df04c
+  2.18.0--r45hdfd78af_14: 
+    sha256:fc747ddd20ac917c4a2e087882cdf4a2e00dba700e4ec9535467059b177e1883
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:00b866ddb1bfacbb6b5ba62b3086df4b2b0200a40d567af1b80f270d1868de71
@@ -16,4 +16,6 @@ tags:
     sha256:058f885b87cc4e6f43cb0bf8140f6cd9c8bce7c42991ff737d03a7a0ef66a893
   2.18.0--r44hdfd78af_13: 
     sha256:51330ca6a86fbd73835297c8832722039ca2070556def1a124ac2de9184df04c
+  2.18.0--r45hdfd78af_14: 
+    sha256:fc747ddd20ac917c4a2e087882cdf4a2e00dba700e4ec9535467059b177e1883
 docker: quay.io/biocontainers/bioconductor-xlaevis2cdf

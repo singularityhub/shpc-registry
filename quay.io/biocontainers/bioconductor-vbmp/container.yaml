@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-vbmp
 latest:
-  1.74.0--r44hdfd78af_0: 
-    sha256:74538fc976ff3064581751ae1c97c80f55c9bb6f301d056ccc2137f8dd2e16e9
+  1.78.0--r45hdfd78af_0: 
+    sha256:529fb721b52729b338b0678d6cfab55f40cf251122e2bcc4f43b7ca37356f285
 tags:
   1.62.0--r41hdfd78af_0: 
     sha256:d3f7b8c7324913400b182de6a7f695fb6bf867f7fabec9acdbdfed3eca89d2db
@@ -16,4 +16,6 @@ tags:
     sha256:d1f3388226912ee0831a3a2e877be5dd972dc25b800d88ed8c6086c85e6536c9
   1.74.0--r44hdfd78af_0: 
     sha256:74538fc976ff3064581751ae1c97c80f55c9bb6f301d056ccc2137f8dd2e16e9
+  1.78.0--r45hdfd78af_0: 
+    sha256:529fb721b52729b338b0678d6cfab55f40cf251122e2bcc4f43b7ca37356f285
 docker: quay.io/biocontainers/bioconductor-vbmp

@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-hoodscanr
 latest:
-  1.4.0--r44he5774e6_0: 
-    sha256:30ef4ef82f4a39b9878a31126b66c5511372c4e8ce32a93ab4c18defe4223033
+  1.8.0--r45ha27e39d_0: 
+    sha256:1a3d4e2f38931decee1add5b9835636cf0e2b3917fafa1685c95c9cb32e550cc
 tags:
   1.0.0--r43hf17093f_0: 
     sha256:cf411b63c015921aed744b4138f953fd1080d62e44bc25dad6824bbcf4a09008
   1.4.0--r44he5774e6_0: 
     sha256:30ef4ef82f4a39b9878a31126b66c5511372c4e8ce32a93ab4c18defe4223033
+  1.8.0--r45ha27e39d_0: 
+    sha256:1a3d4e2f38931decee1add5b9835636cf0e2b3917fafa1685c95c9cb32e550cc
 docker: quay.io/biocontainers/bioconductor-hoodscanr
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

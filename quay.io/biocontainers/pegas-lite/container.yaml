@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pegas-lite
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pegas-lite
 latest:
-  1.2.3--pyhdfd78af_0: 
-    sha256:2cb731e11697ce21368cf9c60cd23ee050c987281da5defd4c7e4b9b1d37e795
+  1.2.4--pyhdfd78af_0: 
+    sha256:c9ec8628f5f42932a0fad75ed01db58f2fec626a6a6385ef47a78a5766a657ef
 tags:
   1.2.3--pyhdfd78af_0: 
     sha256:2cb731e11697ce21368cf9c60cd23ee050c987281da5defd4c7e4b9b1d37e795
+  1.2.4--pyhdfd78af_0: 
+    sha256:c9ec8628f5f42932a0fad75ed01db58f2fec626a6a6385ef47a78a5766a657ef
 docker: quay.io/biocontainers/pegas-lite
 aliases:
   distro: /usr/local/bin/distro

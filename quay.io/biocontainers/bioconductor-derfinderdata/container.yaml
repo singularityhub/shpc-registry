@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-derfinderdata
 latest:
-  2.24.0--r44hdfd78af_0: 
-    sha256:b1582b3d8630293784f8ec65d0bce19f3b33d33a235be8b896c1664cf8a35628
+  2.28.0--r45hdfd78af_0: 
+    sha256:2382e8244930e4dd5ffe75aa0b6526a5192dbb35a6a14596d7323c34610502b5
 tags:
   2.8.1--r40hdfd78af_0: 
     sha256:73228542504179377e475b57bce07216699f9fc4580b0294b3c89d7814562178
@@ -20,6 +20,8 @@ tags:
     sha256:3ba20bf2e1042d05c25a2fa113ce3ac4af972959e7d0cbf12093bf285a70b62a
   2.24.0--r44hdfd78af_0: 
     sha256:b1582b3d8630293784f8ec65d0bce19f3b33d33a235be8b896c1664cf8a35628
+  2.28.0--r45hdfd78af_0: 
+    sha256:2382e8244930e4dd5ffe75aa0b6526a5192dbb35a6a14596d7323c34610502b5
 docker: quay.io/biocontainers/bioconductor-derfinderdata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

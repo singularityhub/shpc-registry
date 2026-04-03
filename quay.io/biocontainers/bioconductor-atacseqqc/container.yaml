@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-atacseqqc
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:5e2c6a227520cab62e99c692de5ffc5176c9447861e1c996aa2594193c088335
+  1.34.0--r45hdfd78af_0: 
+    sha256:5e81f4b55dabdd0143cfdf5a583ee4c4432bd837940d37e19a0457f349699321
 tags:
   1.8.5--r36_0: 
     sha256:6b6205ff37c8462a44aeaac740ff0a7df7e2ae5e94d4d74ad4a4b5512fdbfee6
@@ -26,6 +26,8 @@ tags:
     sha256:a58e83fa7cc0797ee1e4ffe951e315f500206c18b95ae3f8ce7f6c977b0591ad
   1.30.0--r44hdfd78af_0: 
     sha256:5e2c6a227520cab62e99c692de5ffc5176c9447861e1c996aa2594193c088335
+  1.34.0--r45hdfd78af_0: 
+    sha256:5e81f4b55dabdd0143cfdf5a583ee4c4432bd837940d37e19a0457f349699321
 docker: quay.io/biocontainers/bioconductor-atacseqqc
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

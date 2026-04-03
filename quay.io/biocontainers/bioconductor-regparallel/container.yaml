@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-regparallel
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:ada37a66ad48c56fb7e8a47dce2f4a97f9946f3106c7b40308dfff06ffb11a84
+  1.28.0--r45hdfd78af_0: 
+    sha256:7f855b133d3e445309332aa360c380e544d34b5af94d6bd85ec5a63c563ebc9d
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82
@@ -20,6 +20,8 @@ tags:
     sha256:0095faef78958a1e92dbc838a9aacf451fdc913cc15fd884ecee0dec9241817e
   1.24.0--r44hdfd78af_0: 
     sha256:ada37a66ad48c56fb7e8a47dce2f4a97f9946f3106c7b40308dfff06ffb11a84
+  1.28.0--r45hdfd78af_0: 
+    sha256:7f855b133d3e445309332aa360c380e544d34b5af94d6bd85ec5a63c563ebc9d
 docker: quay.io/biocontainers/bioconductor-regparallel
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mixomics
 latest:
-  6.30.0--r44hdfd78af_0: 
-    sha256:da882d41c13f227cdb0a7c4dab05b421f43e55801ed83b9a3573718bd0aaca90
+  6.34.0--r45h575d39b_0: 
+    sha256:548df13f48364815d3fc70ddd644bf416ca0c1ba40f6bf96ab7e743f1e5fef79
 tags:
   6.8.0--r36_1: 
     sha256:4e3b95ff4ac2f27d0c15c5b16dd80942cd3999253c96d336ee75824e513e1b39
@@ -24,6 +24,8 @@ tags:
     sha256:05c71300c783376f1f8709bdd468c427751ffea1170030811ea6092389c40288
   6.30.0--r44hdfd78af_0: 
     sha256:da882d41c13f227cdb0a7c4dab05b421f43e55801ed83b9a3573718bd0aaca90
+  6.34.0--r45h575d39b_0: 
+    sha256:548df13f48364815d3fc70ddd644bf416ca0c1ba40f6bf96ab7e743f1e5fef79
 docker: quay.io/biocontainers/bioconductor-mixomics
 aliases:
   f2py3.7: /usr/local/bin/f2py3.7
