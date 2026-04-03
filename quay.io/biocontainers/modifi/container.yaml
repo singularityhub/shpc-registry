@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/modifi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for modifi
+latest:
+  0.0.1--hd63eeec_0: 
+    sha256:11dea3b9da15484df49953f6960fcb382a1ac903494e96df5b892c7959890d0c
+tags:
+  0.0.1--hd63eeec_0: 
+    sha256:11dea3b9da15484df49953f6960fcb382a1ac903494e96df5b892c7959890d0c
+docker: quay.io/biocontainers/modifi
+aliases:
+  bam2fasta: /usr/local/bin/bam2fasta
+  bam2fastq: /usr/local/bin/bam2fastq
+  ccs-kinetics-bystrandify: /usr/local/bin/ccs-kinetics-bystrandify
+  extracthifi: /usr/local/bin/extracthifi
+  modifi: /usr/local/bin/modifi
+  pbindex: /usr/local/bin/pbindex
+  pbindexdump: /usr/local/bin/pbindexdump
+  pbmerge: /usr/local/bin/pbmerge
+  pbmm2: /usr/local/bin/pbmm2
+  zmwfilter: /usr/local/bin/zmwfilter
+  jnativescan: /usr/local/bin/jnativescan
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  ref-cache: /usr/local/bin/ref-cache
+  jwebserver: /usr/local/bin/jwebserver
+  elasticurl: /usr/local/bin/elasticurl
+  annot-tsv: /usr/local/bin/annot-tsv
+  jpackage: /usr/local/bin/jpackage
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  h5delete: /usr/local/bin/h5delete
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter

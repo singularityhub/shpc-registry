@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/genochar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genochar
+latest:
+  0.6.3.2--pyhdfd78af_0: 
+    sha256:b4afebca4bba9254eb5835764bec50774e7a83b00f53a4cd6fdaa153fa29e208
+tags:
+  0.6.3.2--pyhdfd78af_0: 
+    sha256:b4afebca4bba9254eb5835764bec50774e7a83b00f53a4cd6fdaa153fa29e208
+docker: quay.io/biocontainers/genochar
+aliases:
+  genochar: /usr/local/bin/genochar
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

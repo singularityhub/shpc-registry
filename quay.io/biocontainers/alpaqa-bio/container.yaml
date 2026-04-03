@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/alpaqa-bio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alpaqa-bio
+latest:
+  0.1.4--pyh106432d_0: 
+    sha256:7158ee7109ac2f77cdcc94f0b56d657fcff35a77c1026468711750a0b4360ee7
+tags:
+  0.1.4--pyh106432d_0: 
+    sha256:7158ee7109ac2f77cdcc94f0b56d657fcff35a77c1026468711750a0b4360ee7
+docker: quay.io/biocontainers/alpaqa-bio
+aliases:
+  alpaqa: /usr/local/bin/alpaqa
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
