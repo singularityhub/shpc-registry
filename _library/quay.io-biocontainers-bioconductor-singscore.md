@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-singscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singscore/container.yaml"
-updated_at: "2026-04-03 05:27:20.027294"
+updated_at: "2026-04-03 16:08:36.588662"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singscore"
 aliases:
