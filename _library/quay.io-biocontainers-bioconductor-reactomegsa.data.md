@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-reactomegsa.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
-updated_at: "2026-04-03 15:48:26.399834"
-latest: "1.20.0--r44hdfd78af_0"
+updated_at: "2026-04-04 04:57:48.185942"
+latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactomegsa.data"
 aliases:
  - "geosop"
@@ -17,8 +17,9 @@ versions:
  - "1.14.0--r43hdfd78af_0"
  - "1.16.1--r43hdfd78af_0"
  - "1.20.0--r44hdfd78af_0"
+ - "1.24.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegsa.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data", "latest": {"1.20.0--r44hdfd78af_0": "sha256:b722a164e14dbfbae74bd9a2fddec644d5b464bbb1de5ad5e52c5473658a0af7"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d", "1.11.0--r42hdfd78af_0": "sha256:dd9543bb1a2844c8c1793cb5bc5f0f6ac26a219f124749efced4a350a8d32e07", "1.14.0--r43hdfd78af_0": "sha256:d50a1d96656f8edf62734cb1f454c8881da9d746cb9a3cf1de09033ae3d2a6e8", "1.16.1--r43hdfd78af_0": "sha256:c859c95ceb28641221b1d3ef0a82afdcf27eae18755365a80497e7849a6c5f84", "1.20.0--r44hdfd78af_0": "sha256:b722a164e14dbfbae74bd9a2fddec644d5b464bbb1de5ad5e52c5473658a0af7"}, "docker": "quay.io/biocontainers/bioconductor-reactomegsa.data", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegsa.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data", "latest": {"1.24.0--r45hdfd78af_0": "sha256:1aba564bbe8fc24c708ce3aca23814ec7bed499837546bea8e4f0800ebc48143"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d", "1.11.0--r42hdfd78af_0": "sha256:dd9543bb1a2844c8c1793cb5bc5f0f6ac26a219f124749efced4a350a8d32e07", "1.14.0--r43hdfd78af_0": "sha256:d50a1d96656f8edf62734cb1f454c8881da9d746cb9a3cf1de09033ae3d2a6e8", "1.16.1--r43hdfd78af_0": "sha256:c859c95ceb28641221b1d3ef0a82afdcf27eae18755365a80497e7849a6c5f84", "1.20.0--r44hdfd78af_0": "sha256:b722a164e14dbfbae74bd9a2fddec644d5b464bbb1de5ad5e52c5473658a0af7", "1.24.0--r45hdfd78af_0": "sha256:1aba564bbe8fc24c708ce3aca23814ec7bed499837546bea8e4f0800ebc48143"}, "docker": "quay.io/biocontainers/bioconductor-reactomegsa.data", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reactomegsa.data.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-reactomegsa.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-reactomegsa.data:1.20.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-reactomegsa.data:1.24.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-reactomegsa.data/1.20.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-reactomegsa.data/1.20.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-reactomegsa.data/1.24.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-reactomegsa.data/1.24.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

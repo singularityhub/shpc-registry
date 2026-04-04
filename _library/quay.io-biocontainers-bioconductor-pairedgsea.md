@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pairedgsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pairedgsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pairedgsea/container.yaml"
-updated_at: "2026-04-03 15:40:37.643485"
+updated_at: "2026-04-04 04:50:06.533941"
 latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pairedgsea"
 aliases:

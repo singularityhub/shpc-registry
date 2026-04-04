@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-assorthead"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-assorthead/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-assorthead/container.yaml"
-updated_at: "2026-04-03 15:57:49.200581"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-04-04 05:07:01.518391"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-assorthead"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-assorthead"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-assorthead", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-assorthead", "latest": {"1.0.0--r44hdfd78af_0": "sha256:7a142b6eb1eb7a62cca9c3cb4451e8f42a16641bb43baf99a5628deaa2d75411"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:7a142b6eb1eb7a62cca9c3cb4451e8f42a16641bb43baf99a5628deaa2d75411"}, "docker": "quay.io/biocontainers/bioconductor-assorthead", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-assorthead", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-assorthead", "latest": {"1.4.0--r45hdfd78af_0": "sha256:b2f5543c483d9bf7c991f997722aef41cc30806962003586db70e4a19d2784f9"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:7a142b6eb1eb7a62cca9c3cb4451e8f42a16641bb43baf99a5628deaa2d75411", "1.4.0--r45hdfd78af_0": "sha256:b2f5543c483d9bf7c991f997722aef41cc30806962003586db70e4a19d2784f9"}, "docker": "quay.io/biocontainers/bioconductor-assorthead", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-assorthead.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-assorthead
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-assorthead:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-assorthead:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-assorthead/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-assorthead/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-assorthead/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-assorthead/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

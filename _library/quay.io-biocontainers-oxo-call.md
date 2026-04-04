@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oxo-call"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oxo-call/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oxo-call/container.yaml"
-updated_at: "2026-04-03 15:56:10.683121"
+updated_at: "2026-04-04 05:05:21.262636"
 latest: "0.9.2--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/oxo-call"
 aliases:

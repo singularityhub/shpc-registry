@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicdatacommons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicdatacommons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicdatacommons/container.yaml"
-updated_at: "2026-04-03 15:40:43.079989"
+updated_at: "2026-04-04 04:50:12.036639"
 latest: "1.34.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicdatacommons"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-logger-plugin-pypsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-logger-plugin-pypsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-logger-plugin-pypsa/container.yaml"
-updated_at: "2026-04-03 15:28:20.560011"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-04-04 04:38:07.267237"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-logger-plugin-pypsa"
 aliases:
  - "idle3.14"
@@ -14,8 +14,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-logger-plugin-pypsa"
-config: {"url": "https://biocontainers.pro/tools/snakemake-logger-plugin-pypsa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-logger-plugin-pypsa", "latest": {"0.1.0--pyhdfd78af_0": "sha256:ae41940eccfed7a128425fcef9e3787dd3f2ab134ae96457ec6e12531ad10b7e"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:ae41940eccfed7a128425fcef9e3787dd3f2ab134ae96457ec6e12531ad10b7e"}, "docker": "quay.io/biocontainers/snakemake-logger-plugin-pypsa", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-logger-plugin-pypsa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-logger-plugin-pypsa", "latest": {"0.2.0--pyhdfd78af_0": "sha256:ccbd96998200addc59afed27148d18e9d7ba1e784209ed6d166453ec471b9d76"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:ae41940eccfed7a128425fcef9e3787dd3f2ab134ae96457ec6e12531ad10b7e", "0.2.0--pyhdfd78af_0": "sha256:ccbd96998200addc59afed27148d18e9d7ba1e784209ed6d166453ec471b9d76"}, "docker": "quay.io/biocontainers/snakemake-logger-plugin-pypsa", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-logger-plugin-pypsa.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/snakemake-logger-plugin-pypsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-logger-plugin-pypsa:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-logger-plugin-pypsa:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-logger-plugin-pypsa/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-logger-plugin-pypsa/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-logger-plugin-pypsa/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-logger-plugin-pypsa/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

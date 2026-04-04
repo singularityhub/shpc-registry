@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gdnax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdnax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdnax/container.yaml"
-updated_at: "2026-04-03 15:26:38.840103"
-latest: "1.4.0--r44hdfd78af_0"
+updated_at: "2026-04-04 04:36:24.935855"
+latest: "1.8.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdnax"
 aliases:
  - "pcre2posix_test"
@@ -29,8 +29,9 @@ aliases:
 versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.4.0--r44hdfd78af_0"
+ - "1.8.2--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-gdnax"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gdnax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gdnax", "latest": {"1.4.0--r44hdfd78af_0": "sha256:eb5fe7b8be42dac5456580e043f0da97f39b8fbddf3cc57a42bc88faa99f1679"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:9736a2f3bcb9d11cb96a4d28e1d799d87879f4a900bcda4df4b86a12417dcc59", "1.4.0--r44hdfd78af_0": "sha256:eb5fe7b8be42dac5456580e043f0da97f39b8fbddf3cc57a42bc88faa99f1679"}, "docker": "quay.io/biocontainers/bioconductor-gdnax", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gdnax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-gdnax", "latest": {"1.8.2--r45hdfd78af_0": "sha256:40abb5b44337be140575b9d12842a0e244dd7bbe7674d87cfffa33e09db3d3de"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:9736a2f3bcb9d11cb96a4d28e1d799d87879f4a900bcda4df4b86a12417dcc59", "1.4.0--r44hdfd78af_0": "sha256:eb5fe7b8be42dac5456580e043f0da97f39b8fbddf3cc57a42bc88faa99f1679", "1.8.2--r45hdfd78af_0": "sha256:40abb5b44337be140575b9d12842a0e244dd7bbe7674d87cfffa33e09db3d3de"}, "docker": "quay.io/biocontainers/bioconductor-gdnax", "aliases": {"pcre2posix_test": "/usr/local/bin/pcre2posix_test", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "hb-info": "/usr/local/bin/hb-info", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tjbench": "/usr/local/bin/tjbench", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gdnax.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gdnax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gdnax:1.4.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gdnax:1.8.2--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gdnax/1.4.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gdnax/1.4.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gdnax/1.8.2--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gdnax/1.8.2--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

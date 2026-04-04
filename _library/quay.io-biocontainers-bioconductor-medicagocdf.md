@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-medicagocdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-medicagocdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-medicagocdf/container.yaml"
-updated_at: "2026-04-03 15:28:06.968415"
-latest: "2.18.0--r44hdfd78af_13"
+updated_at: "2026-04-04 04:37:54.062147"
+latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-medicagocdf"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "2.18.0--r43hdfd78af_11"
  - "2.18.0--r43hdfd78af_12"
  - "2.18.0--r44hdfd78af_13"
+ - "2.18.0--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-medicagocdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-medicagocdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-medicagocdf", "latest": {"2.18.0--r44hdfd78af_13": "sha256:cca86352f9fc5be52d55ddce27f6be02c4697066382e42a2dd31e95698b45163"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:c61df49512416f095d2676f42be08af7d5213a75d514980f309a668ba03db619", "2.18.0--r42hdfd78af_10": "sha256:455fed89b4cc4cf3857c3b21caffa5f7b227c71944dea7b4e21bc2a9175c920b", "2.18.0--r43hdfd78af_11": "sha256:efa991e87f778615fe000edb4c8d26407c45512c461cb24fb2396daeea98cfe7", "2.18.0--r43hdfd78af_12": "sha256:7d7abab59f8822f4874e04ea1a18d4d60633d5958ab3deb490d82f75ea47e841", "2.18.0--r44hdfd78af_13": "sha256:cca86352f9fc5be52d55ddce27f6be02c4697066382e42a2dd31e95698b45163"}, "docker": "quay.io/biocontainers/bioconductor-medicagocdf"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-medicagocdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-medicagocdf", "latest": {"2.18.0--r45hdfd78af_14": "sha256:c88075509978d4b2aa976ea7c36fddf479229114c3d7ef6d0ea39e2ae8044d5f"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:c61df49512416f095d2676f42be08af7d5213a75d514980f309a668ba03db619", "2.18.0--r42hdfd78af_10": "sha256:455fed89b4cc4cf3857c3b21caffa5f7b227c71944dea7b4e21bc2a9175c920b", "2.18.0--r43hdfd78af_11": "sha256:efa991e87f778615fe000edb4c8d26407c45512c461cb24fb2396daeea98cfe7", "2.18.0--r43hdfd78af_12": "sha256:7d7abab59f8822f4874e04ea1a18d4d60633d5958ab3deb490d82f75ea47e841", "2.18.0--r44hdfd78af_13": "sha256:cca86352f9fc5be52d55ddce27f6be02c4697066382e42a2dd31e95698b45163", "2.18.0--r45hdfd78af_14": "sha256:c88075509978d4b2aa976ea7c36fddf479229114c3d7ef6d0ea39e2ae8044d5f"}, "docker": "quay.io/biocontainers/bioconductor-medicagocdf"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-medicagocdf.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-medicagocdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-medicagocdf:2.18.0--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-medicagocdf:2.18.0--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-medicagocdf/2.18.0--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-medicagocdf/2.18.0--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-medicagocdf/2.18.0--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-medicagocdf/2.18.0--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

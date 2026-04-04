@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/beacon2-ri-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beacon2-ri-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beacon2-ri-tools/container.yaml"
-updated_at: "2026-04-03 15:20:31.820441"
-latest: "2.0.5--py310hdfd78af_0"
+updated_at: "2026-04-04 04:30:29.919364"
+latest: "2.0.6--py310hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beacon2-ri-tools"
 aliases:
  - "beacon"
@@ -54,8 +54,9 @@ aliases:
 versions:
  - "2.0.0--pl5321hdfd78af_0"
  - "2.0.5--py310hdfd78af_0"
+ - "2.0.6--py310hdfd78af_0"
 description: "singularity registry hpc automated addition for beacon2-ri-tools"
-config: {"url": "https://biocontainers.pro/tools/beacon2-ri-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for beacon2-ri-tools", "latest": {"2.0.5--py310hdfd78af_0": "sha256:f9720987047ae1d6a1c12dbaf140cb719d0528b38f7bdecddb31db551e7c0d50"}, "tags": {"2.0.0--pl5321hdfd78af_0": "sha256:ecad6829625c1f200412496557b1e2dabc963389478d6e7a543782d9fc230cac", "2.0.5--py310hdfd78af_0": "sha256:f9720987047ae1d6a1c12dbaf140cb719d0528b38f7bdecddb31db551e7c0d50"}, "docker": "quay.io/biocontainers/beacon2-ri-tools", "aliases": {"beacon": "/usr/local/bin/beacon", "bff-validator": "/usr/local/bin/bff-validator", "bff2html.pl": "/usr/local/bin/bff2html.pl", "bff2json.pl": "/usr/local/bin/bff2json.pl", "crc32": "/usr/local/bin/crc32", "csv2xlsx": "/usr/local/bin/csv2xlsx", "extract_vba": "/usr/local/bin/extract_vba", "hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "perl-doc": "/usr/local/bin/perl-doc", "pxf2bff": "/usr/local/bin/pxf2bff", "vcf2bff.pl": "/usr/local/bin/vcf2bff.pl", "yamlpp5-events": "/usr/local/bin/yamlpp5-events", "yamlpp5-highlight": "/usr/local/bin/yamlpp5-highlight", "yamlpp5-load": "/usr/local/bin/yamlpp5-load", "yamlpp5-load-dump": "/usr/local/bin/yamlpp5-load-dump", "yamlpp5-parse-emit": "/usr/local/bin/yamlpp5-parse-emit", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb", "dropuser": "/usr/local/bin/dropuser", "ecpg": "/usr/local/bin/ecpg", "initdb": "/usr/local/bin/initdb", "pg_archivecleanup": "/usr/local/bin/pg_archivecleanup", "pg_basebackup": "/usr/local/bin/pg_basebackup", "pg_controldata": "/usr/local/bin/pg_controldata", "pg_ctl": "/usr/local/bin/pg_ctl", "pg_dump": "/usr/local/bin/pg_dump", "pg_dumpall": "/usr/local/bin/pg_dumpall", "pg_isready": "/usr/local/bin/pg_isready"}}
+config: {"url": "https://biocontainers.pro/tools/beacon2-ri-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for beacon2-ri-tools", "latest": {"2.0.6--py310hdfd78af_0": "sha256:917fb2f0ebd71a8ab1af00c1c08228d3178184664f34b24591efeb5f6da4e18f"}, "tags": {"2.0.0--pl5321hdfd78af_0": "sha256:ecad6829625c1f200412496557b1e2dabc963389478d6e7a543782d9fc230cac", "2.0.5--py310hdfd78af_0": "sha256:f9720987047ae1d6a1c12dbaf140cb719d0528b38f7bdecddb31db551e7c0d50", "2.0.6--py310hdfd78af_0": "sha256:917fb2f0ebd71a8ab1af00c1c08228d3178184664f34b24591efeb5f6da4e18f"}, "docker": "quay.io/biocontainers/beacon2-ri-tools", "aliases": {"beacon": "/usr/local/bin/beacon", "bff-validator": "/usr/local/bin/bff-validator", "bff2html.pl": "/usr/local/bin/bff2html.pl", "bff2json.pl": "/usr/local/bin/bff2json.pl", "crc32": "/usr/local/bin/crc32", "csv2xlsx": "/usr/local/bin/csv2xlsx", "extract_vba": "/usr/local/bin/extract_vba", "hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "perl-doc": "/usr/local/bin/perl-doc", "pxf2bff": "/usr/local/bin/pxf2bff", "vcf2bff.pl": "/usr/local/bin/vcf2bff.pl", "yamlpp5-events": "/usr/local/bin/yamlpp5-events", "yamlpp5-highlight": "/usr/local/bin/yamlpp5-highlight", "yamlpp5-load": "/usr/local/bin/yamlpp5-load", "yamlpp5-load-dump": "/usr/local/bin/yamlpp5-load-dump", "yamlpp5-parse-emit": "/usr/local/bin/yamlpp5-parse-emit", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb", "createdb": "/usr/local/bin/createdb", "createuser": "/usr/local/bin/createuser", "dropdb": "/usr/local/bin/dropdb", "dropuser": "/usr/local/bin/dropuser", "ecpg": "/usr/local/bin/ecpg", "initdb": "/usr/local/bin/initdb", "pg_archivecleanup": "/usr/local/bin/pg_archivecleanup", "pg_basebackup": "/usr/local/bin/pg_basebackup", "pg_controldata": "/usr/local/bin/pg_controldata", "pg_ctl": "/usr/local/bin/pg_ctl", "pg_dump": "/usr/local/bin/pg_dump", "pg_dumpall": "/usr/local/bin/pg_dumpall", "pg_isready": "/usr/local/bin/pg_isready"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beacon2-ri-tools.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/beacon2-ri-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/beacon2-ri-tools:2.0.5--py310hdfd78af_0
+$ shpc install quay.io/biocontainers/beacon2-ri-tools:2.0.6--py310hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/beacon2-ri-tools/2.0.5--py310hdfd78af_0
-$ module help quay.io/biocontainers/beacon2-ri-tools/2.0.5--py310hdfd78af_0
+$ module load quay.io/biocontainers/beacon2-ri-tools/2.0.6--py310hdfd78af_0
+$ module help quay.io/biocontainers/beacon2-ri-tools/2.0.6--py310hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

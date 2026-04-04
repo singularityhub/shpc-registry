@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowmatch/container.yaml"
-updated_at: "2026-04-03 15:38:28.602857"
-latest: "1.42.0--r44he5774e6_0"
+updated_at: "2026-04-04 04:47:59.238096"
+latest: "1.46.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowmatch"
 
 versions:
@@ -16,8 +16,9 @@ versions:
  - "1.38.0--r43hf17093f_0"
  - "1.38.0--r43hf17093f_1"
  - "1.42.0--r44he5774e6_0"
+ - "1.46.0--r45ha27e39d_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowmatch"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowmatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowmatch", "latest": {"1.42.0--r44he5774e6_0": "sha256:04e478549c2921b9833ee44cf9d3a3fe1296e8d15a886eb139d4314cf545d000"}, "tags": {"1.30.0--r41hc247a5b_2": "sha256:aa7ba3de9b624ac2a3bc015f624fdaa8f5dd3f93f3fb1eb36a228deb597a4677", "1.34.0--r42hc247a5b_0": "sha256:ebd16a5956c7c3983341be7045cb17cd5b9ee91e622d58c8b76f5177fdb79f6f", "1.34.0--r42hf17093f_1": "sha256:c4d4a391a7b6f1c28a4289b47296d724be5ddb197056f11ea4f89a689ebba017", "1.36.0--r43hf17093f_0": "sha256:5d0a54aa1869437d30c1adca83bc0d864a3d7be3523b4e38e1be94bcfe312a52", "1.38.0--r43hf17093f_0": "sha256:c90da44aa74693c0f91d2aa598eb48911b75b106b44c57c6f86671da1fa02287", "1.38.0--r43hf17093f_1": "sha256:1a453055cb775ebcf715770a4e2a3241045da389ab70a93119dfb7855abb6967", "1.42.0--r44he5774e6_0": "sha256:04e478549c2921b9833ee44cf9d3a3fe1296e8d15a886eb139d4314cf545d000"}, "docker": "quay.io/biocontainers/bioconductor-flowmatch"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowmatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowmatch", "latest": {"1.46.0--r45ha27e39d_0": "sha256:9ccb0f5f1a0a9614e6532642b717271999441fb5b7d66a236dcaa79b614c0b40"}, "tags": {"1.30.0--r41hc247a5b_2": "sha256:aa7ba3de9b624ac2a3bc015f624fdaa8f5dd3f93f3fb1eb36a228deb597a4677", "1.34.0--r42hc247a5b_0": "sha256:ebd16a5956c7c3983341be7045cb17cd5b9ee91e622d58c8b76f5177fdb79f6f", "1.34.0--r42hf17093f_1": "sha256:c4d4a391a7b6f1c28a4289b47296d724be5ddb197056f11ea4f89a689ebba017", "1.36.0--r43hf17093f_0": "sha256:5d0a54aa1869437d30c1adca83bc0d864a3d7be3523b4e38e1be94bcfe312a52", "1.38.0--r43hf17093f_0": "sha256:c90da44aa74693c0f91d2aa598eb48911b75b106b44c57c6f86671da1fa02287", "1.38.0--r43hf17093f_1": "sha256:1a453055cb775ebcf715770a4e2a3241045da389ab70a93119dfb7855abb6967", "1.42.0--r44he5774e6_0": "sha256:04e478549c2921b9833ee44cf9d3a3fe1296e8d15a886eb139d4314cf545d000", "1.46.0--r45ha27e39d_0": "sha256:9ccb0f5f1a0a9614e6532642b717271999441fb5b7d66a236dcaa79b614c0b40"}, "docker": "quay.io/biocontainers/bioconductor-flowmatch"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowmatch.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowmatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowmatch:1.42.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-flowmatch:1.46.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowmatch/1.42.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-flowmatch/1.42.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-flowmatch/1.46.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-flowmatch/1.46.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

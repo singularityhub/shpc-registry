@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dreamlet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dreamlet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dreamlet/container.yaml"
-updated_at: "2026-04-03 15:13:57.607645"
-latest: "1.6.0--r44he5774e6_0"
+updated_at: "2026-04-04 04:24:05.350818"
+latest: "1.8.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dreamlet"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -27,8 +27,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.6.0--r44he5774e6_0"
+ - "1.8.0--r45ha27e39d_0"
 description: "singularity registry hpc automated addition for bioconductor-dreamlet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dreamlet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-dreamlet", "latest": {"1.6.0--r44he5774e6_0": "sha256:42fccac4846794e2c92ddae811387f1e873a716ad9574d6b51594eb5219ec2d2"}, "tags": {"1.6.0--r44he5774e6_0": "sha256:42fccac4846794e2c92ddae811387f1e873a716ad9574d6b51594eb5219ec2d2"}, "docker": "quay.io/biocontainers/bioconductor-dreamlet", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dreamlet", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-dreamlet", "latest": {"1.8.0--r45ha27e39d_0": "sha256:e59a4e25fabf4dd7d27cafdebde1cd2c68e212792ed38094239b1925bad23d20"}, "tags": {"1.6.0--r44he5774e6_0": "sha256:42fccac4846794e2c92ddae811387f1e873a716ad9574d6b51594eb5219ec2d2", "1.8.0--r45ha27e39d_0": "sha256:e59a4e25fabf4dd7d27cafdebde1cd2c68e212792ed38094239b1925bad23d20"}, "docker": "quay.io/biocontainers/bioconductor-dreamlet", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dreamlet.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dreamlet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dreamlet:1.6.0--r44he5774e6_0
+$ shpc install quay.io/biocontainers/bioconductor-dreamlet:1.8.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dreamlet/1.6.0--r44he5774e6_0
-$ module help quay.io/biocontainers/bioconductor-dreamlet/1.6.0--r44he5774e6_0
+$ module load quay.io/biocontainers/bioconductor-dreamlet/1.8.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-dreamlet/1.8.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

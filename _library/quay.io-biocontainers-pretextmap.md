@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pretextmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextmap/container.yaml"
-updated_at: "2026-04-03 15:35:33.209124"
-latest: "0.2.3--h9948957_0"
+updated_at: "2026-04-04 04:45:06.952991"
+latest: "0.2.4--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/pretextmap"
 aliases:
  - "PretextMap"
@@ -19,8 +19,9 @@ versions:
  - "0.1.9--h4ac6f70_3"
  - "0.1.9--h9948957_4"
  - "0.2.3--h9948957_0"
+ - "0.2.4--hd63eeec_0"
 description: "shpc-registry automated BioContainers addition for pretextmap"
-config: {"url": "https://biocontainers.pro/tools/pretextmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextmap", "latest": {"0.2.3--h9948957_0": "sha256:93a9108f2cb31f617e8043b2ca2fe3574d5ee72cfb869277df4fe6c1adf55b56"}, "tags": {"0.1.9--h9f5acd7_1": "sha256:2ea29e078166daa95ea28d500cd2df46eec77cebc9d100ed986f797e3a282ae1", "0.1.9--h4ac6f70_3": "sha256:f154ad10859562ffea6cbaec96764d0c454ee74a82f0b5cacd1edc1a6375c739", "0.1.9--h9948957_4": "sha256:7d25faef12eccb15508573e215a05a892c14e3e1a01cc7a8045b03612fd08c78", "0.2.3--h9948957_0": "sha256:93a9108f2cb31f617e8043b2ca2fe3574d5ee72cfb869277df4fe6c1adf55b56"}, "docker": "quay.io/biocontainers/pretextmap", "aliases": {"PretextMap": "/usr/local/bin/PretextMap", "PretextMap.avx": "/usr/local/bin/PretextMap.avx", "PretextMap.avx2": "/usr/local/bin/PretextMap.avx2", "PretextMap.noext": "/usr/local/bin/PretextMap.noext", "PretextMap.sse41": "/usr/local/bin/PretextMap.sse41", "PretextMap.sse42": "/usr/local/bin/PretextMap.sse42"}}
+config: {"url": "https://biocontainers.pro/tools/pretextmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextmap", "latest": {"0.2.4--hd63eeec_0": "sha256:dbd17e1dc503dc74e288a2a80f31b72494e7fd2ef7f46e867e2420f154392ae4"}, "tags": {"0.1.9--h9f5acd7_1": "sha256:2ea29e078166daa95ea28d500cd2df46eec77cebc9d100ed986f797e3a282ae1", "0.1.9--h4ac6f70_3": "sha256:f154ad10859562ffea6cbaec96764d0c454ee74a82f0b5cacd1edc1a6375c739", "0.1.9--h9948957_4": "sha256:7d25faef12eccb15508573e215a05a892c14e3e1a01cc7a8045b03612fd08c78", "0.2.3--h9948957_0": "sha256:93a9108f2cb31f617e8043b2ca2fe3574d5ee72cfb869277df4fe6c1adf55b56", "0.2.4--hd63eeec_0": "sha256:dbd17e1dc503dc74e288a2a80f31b72494e7fd2ef7f46e867e2420f154392ae4"}, "docker": "quay.io/biocontainers/pretextmap", "aliases": {"PretextMap": "/usr/local/bin/PretextMap", "PretextMap.avx": "/usr/local/bin/PretextMap.avx", "PretextMap.avx2": "/usr/local/bin/PretextMap.avx2", "PretextMap.noext": "/usr/local/bin/PretextMap.noext", "PretextMap.sse41": "/usr/local/bin/PretextMap.sse41", "PretextMap.sse42": "/usr/local/bin/PretextMap.sse42"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pretextmap.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pretextmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pretextmap:0.2.3--h9948957_0
+$ shpc install quay.io/biocontainers/pretextmap:0.2.4--hd63eeec_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pretextmap/0.2.3--h9948957_0
-$ module help quay.io/biocontainers/pretextmap/0.2.3--h9948957_0
+$ module load quay.io/biocontainers/pretextmap/0.2.4--hd63eeec_0
+$ module help quay.io/biocontainers/pretextmap/0.2.4--hd63eeec_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ribocrypt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribocrypt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribocrypt/container.yaml"
-updated_at: "2026-04-03 16:10:13.639021"
-latest: "1.12.0--r44hdfd78af_0"
+updated_at: "2026-04-04 05:19:10.758156"
+latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribocrypt"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.6.0--r43hdfd78af_0"
  - "1.8.0--r43hdfd78af_0"
  - "1.12.0--r44hdfd78af_0"
+ - "1.16.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ribocrypt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ribocrypt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribocrypt", "latest": {"1.12.0--r44hdfd78af_0": "sha256:4c8bcb9c2c8cb157b3392d8c37660fb9f49ed4765b94e8069ee79623e850a6b9"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a0b4f6b606617ea1dd2b1fd169f3fd2c6abd899e9630d4c82a8b734b129007c2", "1.4.0--r42hdfd78af_0": "sha256:d0bc6cc993578bc5f62c1bc4e1d1e4ca0e6f78d88f6fbf9b3c47e3c58a596a1f", "1.6.0--r43hdfd78af_0": "sha256:53bf421a6ff951f3ed63b6e4e1c9c91762a07ef5dad2840b52c26775e2bdb0f5", "1.8.0--r43hdfd78af_0": "sha256:9173951b2280ad117c899aec8b67b88962f01ecace80bd7e5b32227c2cdbc26a", "1.12.0--r44hdfd78af_0": "sha256:4c8bcb9c2c8cb157b3392d8c37660fb9f49ed4765b94e8069ee79623e850a6b9"}, "docker": "quay.io/biocontainers/bioconductor-ribocrypt"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ribocrypt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribocrypt", "latest": {"1.16.0--r45hdfd78af_0": "sha256:5b1ee4955a3afb557c34896f80f66bdfeee77fc947ef3751ad6da7ab6a31a9ab"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a0b4f6b606617ea1dd2b1fd169f3fd2c6abd899e9630d4c82a8b734b129007c2", "1.4.0--r42hdfd78af_0": "sha256:d0bc6cc993578bc5f62c1bc4e1d1e4ca0e6f78d88f6fbf9b3c47e3c58a596a1f", "1.6.0--r43hdfd78af_0": "sha256:53bf421a6ff951f3ed63b6e4e1c9c91762a07ef5dad2840b52c26775e2bdb0f5", "1.8.0--r43hdfd78af_0": "sha256:9173951b2280ad117c899aec8b67b88962f01ecace80bd7e5b32227c2cdbc26a", "1.12.0--r44hdfd78af_0": "sha256:4c8bcb9c2c8cb157b3392d8c37660fb9f49ed4765b94e8069ee79623e850a6b9", "1.16.0--r45hdfd78af_0": "sha256:5b1ee4955a3afb557c34896f80f66bdfeee77fc947ef3751ad6da7ab6a31a9ab"}, "docker": "quay.io/biocontainers/bioconductor-ribocrypt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ribocrypt.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ribocrypt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ribocrypt:1.12.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ribocrypt:1.16.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ribocrypt/1.12.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ribocrypt/1.12.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ribocrypt/1.16.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ribocrypt/1.16.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

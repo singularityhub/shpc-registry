@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-trajectorygeometry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trajectorygeometry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trajectorygeometry/container.yaml"
-updated_at: "2026-04-03 15:40:45.953518"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-04-04 04:50:14.944308"
+latest: "1.18.0--r45h575d39b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trajectorygeometry"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45h575d39b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trajectorygeometry"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trajectorygeometry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trajectorygeometry", "latest": {"1.14.0--r44hdfd78af_0": "sha256:20dbef99bd5cc7c18861a91405fa378019bee35e822cd4e89f314c99325cdfbd"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:67a1b5ec12277fac7cbcfff3909299a85ff356cfb1656380ba08cbc0c06c7fbd", "1.6.0--r42hdfd78af_0": "sha256:bfa370f7f10a1c36ed69c26b746a6d33dabeba7bf689471c2586963eb179c79d", "1.8.0--r43hdfd78af_0": "sha256:64b4d9ffcebcedeeb8205c1c25a30fdf4a15870368929f6912cec3c5a73b85c5", "1.10.0--r43hdfd78af_0": "sha256:f069db8c4127eb25b3a918f2611d1349cf88a992f56d538d9d0999976e90c121", "1.14.0--r44hdfd78af_0": "sha256:20dbef99bd5cc7c18861a91405fa378019bee35e822cd4e89f314c99325cdfbd"}, "docker": "quay.io/biocontainers/bioconductor-trajectorygeometry"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trajectorygeometry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trajectorygeometry", "latest": {"1.18.0--r45h575d39b_0": "sha256:7692aa07b09d3b3352c8e0847560c15bae100b2df17cfd82d8dfb64b33b665f9"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:67a1b5ec12277fac7cbcfff3909299a85ff356cfb1656380ba08cbc0c06c7fbd", "1.6.0--r42hdfd78af_0": "sha256:bfa370f7f10a1c36ed69c26b746a6d33dabeba7bf689471c2586963eb179c79d", "1.8.0--r43hdfd78af_0": "sha256:64b4d9ffcebcedeeb8205c1c25a30fdf4a15870368929f6912cec3c5a73b85c5", "1.10.0--r43hdfd78af_0": "sha256:f069db8c4127eb25b3a918f2611d1349cf88a992f56d538d9d0999976e90c121", "1.14.0--r44hdfd78af_0": "sha256:20dbef99bd5cc7c18861a91405fa378019bee35e822cd4e89f314c99325cdfbd", "1.18.0--r45h575d39b_0": "sha256:7692aa07b09d3b3352c8e0847560c15bae100b2df17cfd82d8dfb64b33b665f9"}, "docker": "quay.io/biocontainers/bioconductor-trajectorygeometry"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trajectorygeometry.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trajectorygeometry
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trajectorygeometry:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-trajectorygeometry:1.18.0--r45h575d39b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trajectorygeometry/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-trajectorygeometry/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-trajectorygeometry/1.18.0--r45h575d39b_0
+$ module help quay.io/biocontainers/bioconductor-trajectorygeometry/1.18.0--r45h575d39b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

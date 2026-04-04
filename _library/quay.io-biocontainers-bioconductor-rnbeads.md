@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rnbeads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnbeads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnbeads/container.yaml"
-updated_at: "2026-04-03 15:58:06.177596"
-latest: "2.24.0--r44hdfd78af_0"
+updated_at: "2026-04-04 05:07:18.096160"
+latest: "2.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnbeads"
 
 versions:
@@ -16,8 +16,9 @@ versions:
  - "2.18.0--r43hdfd78af_0"
  - "2.20.0--r43hdfd78af_0"
  - "2.24.0--r44hdfd78af_0"
+ - "2.28.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnbeads"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnbeads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnbeads", "latest": {"2.24.0--r44hdfd78af_0": "sha256:c3ce8454302fefdc4abe774cd6a8122ac2bf875ac27771b14805a261da1102f7"}, "tags": {"2.8.1--r40hdfd78af_0": "sha256:ec256dc79dc300bf9f23cefa536237aa71778b3c6f441a7f651bb470d8c3c90f", "2.12.2--r41hdfd78af_0": "sha256:f5022cc2dd1ba5d4a58c84b5f62b1d752731923b94f40789a13f2d15f63f8296", "2.10.0--r41hdfd78af_0": "sha256:99f1c597750c916a5881d86de62c3f8333b80dbe5ef241f8e8e35f1c3c40d0e1", "2.16.0--r42hdfd78af_0": "sha256:918c3cdb763553b2749dd6f613ec370a95abd37cf5a85d13288fd954d6a2ca7e", "2.18.0--r43hdfd78af_0": "sha256:864bc33b6c91a5b4a153bff804d6cddd4fcdb571a24ff9548089ef41cd6edb25", "2.20.0--r43hdfd78af_0": "sha256:0ddb37bf26c93113d1a7eed5b60872ea1656e99d45a3344582b869678043bee7", "2.24.0--r44hdfd78af_0": "sha256:c3ce8454302fefdc4abe774cd6a8122ac2bf875ac27771b14805a261da1102f7"}, "docker": "quay.io/biocontainers/bioconductor-rnbeads"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnbeads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnbeads", "latest": {"2.28.0--r45hdfd78af_0": "sha256:4ae2702f307f1dea09bf674ce897df069e9570120f2fba454052b3a43f83c0b4"}, "tags": {"2.8.1--r40hdfd78af_0": "sha256:ec256dc79dc300bf9f23cefa536237aa71778b3c6f441a7f651bb470d8c3c90f", "2.12.2--r41hdfd78af_0": "sha256:f5022cc2dd1ba5d4a58c84b5f62b1d752731923b94f40789a13f2d15f63f8296", "2.10.0--r41hdfd78af_0": "sha256:99f1c597750c916a5881d86de62c3f8333b80dbe5ef241f8e8e35f1c3c40d0e1", "2.16.0--r42hdfd78af_0": "sha256:918c3cdb763553b2749dd6f613ec370a95abd37cf5a85d13288fd954d6a2ca7e", "2.18.0--r43hdfd78af_0": "sha256:864bc33b6c91a5b4a153bff804d6cddd4fcdb571a24ff9548089ef41cd6edb25", "2.20.0--r43hdfd78af_0": "sha256:0ddb37bf26c93113d1a7eed5b60872ea1656e99d45a3344582b869678043bee7", "2.24.0--r44hdfd78af_0": "sha256:c3ce8454302fefdc4abe774cd6a8122ac2bf875ac27771b14805a261da1102f7", "2.28.0--r45hdfd78af_0": "sha256:4ae2702f307f1dea09bf674ce897df069e9570120f2fba454052b3a43f83c0b4"}, "docker": "quay.io/biocontainers/bioconductor-rnbeads"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnbeads.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnbeads
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnbeads:2.24.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnbeads:2.28.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnbeads/2.24.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnbeads/2.24.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnbeads/2.28.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnbeads/2.28.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

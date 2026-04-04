@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-goatea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-goatea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-goatea/container.yaml"
-updated_at: "2026-04-03 15:58:37.910094"
+updated_at: "2026-04-04 05:07:49.194383"
 latest: "1.0.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-goatea"
 aliases:

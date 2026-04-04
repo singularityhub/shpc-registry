@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcsl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcsl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcsl/container.yaml"
-updated_at: "2026-04-03 15:55:00.477758"
+updated_at: "2026-04-04 05:04:11.166779"
 latest: "1.14.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcsl"
 

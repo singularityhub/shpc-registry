@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tidyomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidyomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidyomics/container.yaml"
-updated_at: "2026-04-03 15:51:17.778220"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-04-04 05:00:34.178772"
+latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidyomics"
 aliases:
  - "pandoc-lua"
@@ -30,8 +30,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-tidyomics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tidyomics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-tidyomics", "latest": {"1.2.0--r44hdfd78af_0": "sha256:9f3cb312736fb6aedfc255e9a1207f1bac8bf0a809edde39e97adaae462e826f"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:9f3cb312736fb6aedfc255e9a1207f1bac8bf0a809edde39e97adaae462e826f"}, "docker": "quay.io/biocontainers/bioconductor-tidyomics", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc-server": "/usr/local/bin/pandoc-server", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tidyomics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-tidyomics", "latest": {"1.6.0--r45hdfd78af_0": "sha256:c45b437ea20537405a56be7a245083f6e66615d7017aac187e4604363b1bbbb8"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:9f3cb312736fb6aedfc255e9a1207f1bac8bf0a809edde39e97adaae462e826f", "1.6.0--r45hdfd78af_0": "sha256:c45b437ea20537405a56be7a245083f6e66615d7017aac187e4604363b1bbbb8"}, "docker": "quay.io/biocontainers/bioconductor-tidyomics", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc-server": "/usr/local/bin/pandoc-server", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tidyomics.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tidyomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tidyomics:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tidyomics:1.6.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tidyomics/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tidyomics/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tidyomics/1.6.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tidyomics/1.6.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

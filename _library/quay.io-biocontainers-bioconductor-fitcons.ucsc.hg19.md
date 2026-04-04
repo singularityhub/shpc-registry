@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19/container.yaml"
-updated_at: "2026-04-03 15:14:58.814002"
-latest: "3.7.1--r44hdfd78af_13"
+updated_at: "2026-04-04 04:25:06.225315"
+latest: "3.7.1--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-fitcons.ucsc.hg19"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "3.7.1--r43hdfd78af_11"
  - "3.7.1--r43hdfd78af_12"
  - "3.7.1--r44hdfd78af_13"
+ - "3.7.1--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-fitcons.ucsc.hg19"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fitcons.ucsc.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fitcons.ucsc.hg19", "latest": {"3.7.1--r44hdfd78af_13": "sha256:9fefe8a8f183ff23e32de75a36dc0a8f34bc2c59dd96826aad8928474c2006fc"}, "tags": {"3.7.1--r41hdfd78af_9": "sha256:3691a2fe55265ad6976e71a269b0a535f44fd945a5fab73f3276f43ab8c00196", "3.7.1--r42hdfd78af_10": "sha256:376f8a355387d7728fd1306a4ab55e4794c73a43cc52da446f21d17eb045b0b3", "3.7.1--r43hdfd78af_11": "sha256:48192f0b82adb83cf7b8e5bdde0dc8ade7b125790bf45c272f389771988e3ff0", "3.7.1--r43hdfd78af_12": "sha256:6bc960fd0b0f6665b5be80e76df3028c3e9f2a6c8e3947d2e0a427b885cf0564", "3.7.1--r44hdfd78af_13": "sha256:9fefe8a8f183ff23e32de75a36dc0a8f34bc2c59dd96826aad8928474c2006fc"}, "docker": "quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fitcons.ucsc.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fitcons.ucsc.hg19", "latest": {"3.7.1--r45hdfd78af_14": "sha256:01a0fb02daed9fc4293ed6e22d547225b4326974f290123a350704867139949d"}, "tags": {"3.7.1--r41hdfd78af_9": "sha256:3691a2fe55265ad6976e71a269b0a535f44fd945a5fab73f3276f43ab8c00196", "3.7.1--r42hdfd78af_10": "sha256:376f8a355387d7728fd1306a4ab55e4794c73a43cc52da446f21d17eb045b0b3", "3.7.1--r43hdfd78af_11": "sha256:48192f0b82adb83cf7b8e5bdde0dc8ade7b125790bf45c272f389771988e3ff0", "3.7.1--r43hdfd78af_12": "sha256:6bc960fd0b0f6665b5be80e76df3028c3e9f2a6c8e3947d2e0a427b885cf0564", "3.7.1--r44hdfd78af_13": "sha256:9fefe8a8f183ff23e32de75a36dc0a8f34bc2c59dd96826aad8928474c2006fc", "3.7.1--r45hdfd78af_14": "sha256:01a0fb02daed9fc4293ed6e22d547225b4326974f290123a350704867139949d"}, "docker": "quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19:3.7.1--r44hdfd78af_13
+$ shpc install quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19:3.7.1--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19/3.7.1--r44hdfd78af_13
-$ module help quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19/3.7.1--r44hdfd78af_13
+$ module load quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19/3.7.1--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-fitcons.ucsc.hg19/3.7.1--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

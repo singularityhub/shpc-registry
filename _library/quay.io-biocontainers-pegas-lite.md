@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pegas-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pegas-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pegas-lite/container.yaml"
-updated_at: "2026-04-03 16:11:03.771867"
-latest: "1.2.3--pyhdfd78af_0"
+updated_at: "2026-04-04 05:20:00.023526"
+latest: "1.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pegas-lite"
 aliases:
  - "distro"
@@ -39,8 +39,9 @@ aliases:
  - "qhull"
 versions:
  - "1.2.3--pyhdfd78af_0"
+ - "1.2.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pegas-lite"
-config: {"url": "https://biocontainers.pro/tools/pegas-lite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pegas-lite", "latest": {"1.2.3--pyhdfd78af_0": "sha256:2cb731e11697ce21368cf9c60cd23ee050c987281da5defd4c7e4b9b1d37e795"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:2cb731e11697ce21368cf9c60cd23ee050c987281da5defd4c7e4b9b1d37e795"}, "docker": "quay.io/biocontainers/pegas-lite", "aliases": {"distro": "/usr/local/bin/distro", "menuinst": "/usr/local/bin/menuinst", "pegas": "/usr/local/bin/pegas", "pegas-lite": "/usr/local/bin/pegas-lite", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "archspec": "/usr/local/bin/archspec", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdunzip": "/usr/local/bin/bsdunzip", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull"}}
+config: {"url": "https://biocontainers.pro/tools/pegas-lite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pegas-lite", "latest": {"1.2.4--pyhdfd78af_0": "sha256:c9ec8628f5f42932a0fad75ed01db58f2fec626a6a6385ef47a78a5766a657ef"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:2cb731e11697ce21368cf9c60cd23ee050c987281da5defd4c7e4b9b1d37e795", "1.2.4--pyhdfd78af_0": "sha256:c9ec8628f5f42932a0fad75ed01db58f2fec626a6a6385ef47a78a5766a657ef"}, "docker": "quay.io/biocontainers/pegas-lite", "aliases": {"distro": "/usr/local/bin/distro", "menuinst": "/usr/local/bin/menuinst", "pegas": "/usr/local/bin/pegas", "pegas-lite": "/usr/local/bin/pegas-lite", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "archspec": "/usr/local/bin/archspec", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "bsdunzip": "/usr/local/bin/bsdunzip", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pegas-lite.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/pegas-lite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pegas-lite:1.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pegas-lite:1.2.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pegas-lite/1.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/pegas-lite/1.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/pegas-lite/1.2.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/pegas-lite/1.2.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

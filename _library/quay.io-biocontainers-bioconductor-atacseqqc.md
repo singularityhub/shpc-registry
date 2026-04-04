@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-atacseqqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atacseqqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atacseqqc/container.yaml"
-updated_at: "2026-04-03 15:46:57.942405"
-latest: "1.30.0--r44hdfd78af_0"
+updated_at: "2026-04-04 04:56:20.064805"
+latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atacseqqc"
 aliases:
  - "gio-launch-desktop"
@@ -22,8 +22,9 @@ versions:
  - "1.24.0--r43hdfd78af_0"
  - "1.26.0--r43hdfd78af_0"
  - "1.30.0--r44hdfd78af_0"
+ - "1.34.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-atacseqqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-atacseqqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atacseqqc", "latest": {"1.30.0--r44hdfd78af_0": "sha256:5e2c6a227520cab62e99c692de5ffc5176c9447861e1c996aa2594193c088335"}, "tags": {"1.8.5--r36_0": "sha256:6b6205ff37c8462a44aeaac740ff0a7df7e2ae5e94d4d74ad4a4b5512fdbfee6", "1.18.0--r41hdfd78af_0": "sha256:0b2d64e0dc4656734423a4667adc0bdd7cb3b034bcda4c6d18f6588a52bbfbbc", "1.16.0--r41hdfd78af_0": "sha256:d18f3526303e6791bef99334180da0affd3128dc0aaf9c206e87d26c31442d19", "1.14.4--r40hdfd78af_1": "sha256:ca7efd605d056c41e4dac8c7acccb91490eb97f384450d80e7fd851c67359896", "1.12.0--r40_0": "sha256:580a7d9ff9eed4ce1a6eef3447dc2f40ee88332afa02c8252286302d0a0efe9e", "1.10.0--r36_0": "sha256:1fce90b21ef20cb0d906431183eb35edaccb9c33dc2fb80b5cc84c3c1c9e2964", "1.22.0--r42hdfd78af_0": "sha256:6dfd7d9cb8473523f93566eb59150523be71595bf66c5b441114165a2559a7b6", "1.24.0--r43hdfd78af_0": "sha256:4615e89389a638ce63254be7dd8a6fded0b4896cb6659a5cdea2403a8a671959", "1.26.0--r43hdfd78af_0": "sha256:a58e83fa7cc0797ee1e4ffe951e315f500206c18b95ae3f8ce7f6c977b0591ad", "1.30.0--r44hdfd78af_0": "sha256:5e2c6a227520cab62e99c692de5ffc5176c9447861e1c996aa2594193c088335"}, "docker": "quay.io/biocontainers/bioconductor-atacseqqc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-atacseqqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atacseqqc", "latest": {"1.34.0--r45hdfd78af_0": "sha256:5e81f4b55dabdd0143cfdf5a583ee4c4432bd837940d37e19a0457f349699321"}, "tags": {"1.8.5--r36_0": "sha256:6b6205ff37c8462a44aeaac740ff0a7df7e2ae5e94d4d74ad4a4b5512fdbfee6", "1.18.0--r41hdfd78af_0": "sha256:0b2d64e0dc4656734423a4667adc0bdd7cb3b034bcda4c6d18f6588a52bbfbbc", "1.16.0--r41hdfd78af_0": "sha256:d18f3526303e6791bef99334180da0affd3128dc0aaf9c206e87d26c31442d19", "1.14.4--r40hdfd78af_1": "sha256:ca7efd605d056c41e4dac8c7acccb91490eb97f384450d80e7fd851c67359896", "1.12.0--r40_0": "sha256:580a7d9ff9eed4ce1a6eef3447dc2f40ee88332afa02c8252286302d0a0efe9e", "1.10.0--r36_0": "sha256:1fce90b21ef20cb0d906431183eb35edaccb9c33dc2fb80b5cc84c3c1c9e2964", "1.22.0--r42hdfd78af_0": "sha256:6dfd7d9cb8473523f93566eb59150523be71595bf66c5b441114165a2559a7b6", "1.24.0--r43hdfd78af_0": "sha256:4615e89389a638ce63254be7dd8a6fded0b4896cb6659a5cdea2403a8a671959", "1.26.0--r43hdfd78af_0": "sha256:a58e83fa7cc0797ee1e4ffe951e315f500206c18b95ae3f8ce7f6c977b0591ad", "1.30.0--r44hdfd78af_0": "sha256:5e2c6a227520cab62e99c692de5ffc5176c9447861e1c996aa2594193c088335", "1.34.0--r45hdfd78af_0": "sha256:5e81f4b55dabdd0143cfdf5a583ee4c4432bd837940d37e19a0457f349699321"}, "docker": "quay.io/biocontainers/bioconductor-atacseqqc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-atacseqqc.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-atacseqqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-atacseqqc:1.30.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-atacseqqc:1.34.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-atacseqqc/1.30.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-atacseqqc/1.30.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-atacseqqc/1.34.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-atacseqqc/1.34.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

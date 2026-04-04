@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/ilesta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ilesta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ilesta/container.yaml"
-updated_at: "2026-04-03 15:52:27.633647"
-latest: "1.0.0--h4349ce8_0"
+updated_at: "2026-04-04 05:01:42.053151"
+latest: "1.2.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/ilesta"
 aliases:
  - "Ilesta"
 versions:
  - "1.0.0--h4349ce8_0"
+ - "1.2.1--h4349ce8_0"
+ - "1.1.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for ilesta"
-config: {"url": "https://biocontainers.pro/tools/ilesta", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ilesta", "latest": {"1.0.0--h4349ce8_0": "sha256:6b9dcef45c7fd3e41fefe8e5f0a5d4d2c765f97ab549c2d8673678b698f00657"}, "tags": {"1.0.0--h4349ce8_0": "sha256:6b9dcef45c7fd3e41fefe8e5f0a5d4d2c765f97ab549c2d8673678b698f00657"}, "docker": "quay.io/biocontainers/ilesta", "aliases": {"Ilesta": "/usr/local/bin/Ilesta"}}
+config: {"url": "https://biocontainers.pro/tools/ilesta", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ilesta", "latest": {"1.2.1--h4349ce8_0": "sha256:bef84513c1b52d9ae5acdb9ce6f09b83fc86bae5120a00b46ce0373c6f637f66"}, "tags": {"1.0.0--h4349ce8_0": "sha256:6b9dcef45c7fd3e41fefe8e5f0a5d4d2c765f97ab549c2d8673678b698f00657", "1.2.1--h4349ce8_0": "sha256:bef84513c1b52d9ae5acdb9ce6f09b83fc86bae5120a00b46ce0373c6f637f66", "1.1.0--h4349ce8_0": "sha256:4aa498fcf1ce67c4344c0c9d9a089e200a4c65ab7b095aab9434be5b832ad254"}, "docker": "quay.io/biocontainers/ilesta", "aliases": {"Ilesta": "/usr/local/bin/Ilesta"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ilesta.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/ilesta
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ilesta:1.0.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/ilesta:1.2.1--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ilesta/1.0.0--h4349ce8_0
-$ module help quay.io/biocontainers/ilesta/1.0.0--h4349ce8_0
+$ module load quay.io/biocontainers/ilesta/1.2.1--h4349ce8_0
+$ module help quay.io/biocontainers/ilesta/1.2.1--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

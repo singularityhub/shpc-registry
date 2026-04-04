@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-regparallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regparallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regparallel/container.yaml"
-updated_at: "2026-04-03 15:20:19.028344"
-latest: "1.24.0--r44hdfd78af_0"
+updated_at: "2026-04-04 04:30:18.007229"
+latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regparallel"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
  - "1.24.0--r44hdfd78af_0"
+ - "1.28.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-regparallel"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-regparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regparallel", "latest": {"1.24.0--r44hdfd78af_0": "sha256:ada37a66ad48c56fb7e8a47dce2f4a97f9946f3106c7b40308dfff06ffb11a84"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82", "1.15.0--r42hdfd78af_0": "sha256:9de9385b1edd9092ac2bf616aa54bdb368970714a42d017bf7a621a706f95c64", "1.12.0--r41hdfd78af_1": "sha256:b2d56f50466be93e2e3dc54933996faa161233f363360ba26868c51a3d635624", "1.10.0--r41hdfd78af_0": "sha256:63e64746b580152f645530c8fa2cc704713b41cdc4143c6c202dc1addc3cb745", "1.18.0--r43hdfd78af_0": "sha256:b57ef8ce641c621a4fc9f265689eb894cf62fee0689a76ff48961b0418859ccf", "1.20.0--r43hdfd78af_0": "sha256:0095faef78958a1e92dbc838a9aacf451fdc913cc15fd884ecee0dec9241817e", "1.24.0--r44hdfd78af_0": "sha256:ada37a66ad48c56fb7e8a47dce2f4a97f9946f3106c7b40308dfff06ffb11a84"}, "docker": "quay.io/biocontainers/bioconductor-regparallel", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-regparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regparallel", "latest": {"1.28.0--r45hdfd78af_0": "sha256:7f855b133d3e445309332aa360c380e544d34b5af94d6bd85ec5a63c563ebc9d"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82", "1.15.0--r42hdfd78af_0": "sha256:9de9385b1edd9092ac2bf616aa54bdb368970714a42d017bf7a621a706f95c64", "1.12.0--r41hdfd78af_1": "sha256:b2d56f50466be93e2e3dc54933996faa161233f363360ba26868c51a3d635624", "1.10.0--r41hdfd78af_0": "sha256:63e64746b580152f645530c8fa2cc704713b41cdc4143c6c202dc1addc3cb745", "1.18.0--r43hdfd78af_0": "sha256:b57ef8ce641c621a4fc9f265689eb894cf62fee0689a76ff48961b0418859ccf", "1.20.0--r43hdfd78af_0": "sha256:0095faef78958a1e92dbc838a9aacf451fdc913cc15fd884ecee0dec9241817e", "1.24.0--r44hdfd78af_0": "sha256:ada37a66ad48c56fb7e8a47dce2f4a97f9946f3106c7b40308dfff06ffb11a84", "1.28.0--r45hdfd78af_0": "sha256:7f855b133d3e445309332aa360c380e544d34b5af94d6bd85ec5a63c563ebc9d"}, "docker": "quay.io/biocontainers/bioconductor-regparallel", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-regparallel.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-regparallel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-regparallel:1.24.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-regparallel:1.28.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-regparallel/1.24.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-regparallel/1.24.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-regparallel/1.28.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-regparallel/1.28.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
