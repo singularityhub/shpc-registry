@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pwmenrich
 latest:
-  4.42.0--r44hdfd78af_0: 
-    sha256:600752981a1641726142c16c8d880748a912e43c699f2bfb4c5614ad050541c3
+  4.46.0--r45hdfd78af_0: 
+    sha256:882fdef17895da8fab5e5c787559314e33139fa85fd3af2bba4407cbbfc8ff89
 tags:
   4.30.0--r41hdfd78af_0: 
     sha256:1b578da0c635c0e27543d413378f21f1a397db1b5b8465889c0504a15d04d383
@@ -16,4 +16,6 @@ tags:
     sha256:f1567986e773d8f518c8039c852ac6b2221680af2d4b6b0b9a3c07268ff56973
   4.42.0--r44hdfd78af_0: 
     sha256:600752981a1641726142c16c8d880748a912e43c699f2bfb4c5614ad050541c3
+  4.46.0--r45hdfd78af_0: 
+    sha256:882fdef17895da8fab5e5c787559314e33139fa85fd3af2bba4407cbbfc8ff89
 docker: quay.io/biocontainers/bioconductor-pwmenrich

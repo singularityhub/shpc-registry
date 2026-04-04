@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-curatedtcgadata
 latest:
-  1.28.1--r44hdfd78af_0: 
-    sha256:72e0029245c87f34b5998e1eeeec5b914624a5408bde0e9220b616c582d926ab
+  1.32.1--r45hdfd78af_0: 
+    sha256:2d8b354d85b0c64c944fc9ef0153bcc6e80fb52a0964c79bd6649573e212ea32
 tags:
   1.8.0--r36_0: 
     sha256:3a90a36669723ab71440fd0dee5f2ffcf35b5ac0e149a37142424b01e5093e7a
@@ -24,6 +24,8 @@ tags:
     sha256:3459a1c72942ed7b479c04101b9a459062715d3e84a1d6c798b5f3d7aee859d3
   1.28.1--r44hdfd78af_0: 
     sha256:72e0029245c87f34b5998e1eeeec5b914624a5408bde0e9220b616c582d926ab
+  1.32.1--r45hdfd78af_0: 
+    sha256:2d8b354d85b0c64c944fc9ef0153bcc6e80fb52a0964c79bd6649573e212ea32
 docker: quay.io/biocontainers/bioconductor-curatedtcgadata
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

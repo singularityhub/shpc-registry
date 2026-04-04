@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gseabenchmarker
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:c1d135d07f546c9292976f2da16252cfcb04693bb52aee0ad4fd2e3b59385e10
+  1.30.0--r45hdfd78af_0: 
+    sha256:1b0270a3fcc0bd3c959031ac271dedee978d1ff23be74de901c9dc03b423eb59
 tags:
   1.8.0--r40_0: 
     sha256:441cdb2f36ead3fd44dd91c82817f4b329b53d4602492748345e1402e49e1453
@@ -22,6 +22,8 @@ tags:
     sha256:d91acb57bf128eb113997eff9d7f859a0fa22bc7b7da6dfee9b02c0fa7189e88
   1.26.0--r44hdfd78af_0: 
     sha256:c1d135d07f546c9292976f2da16252cfcb04693bb52aee0ad4fd2e3b59385e10
+  1.30.0--r45hdfd78af_0: 
+    sha256:1b0270a3fcc0bd3c959031ac271dedee978d1ff23be74de901c9dc03b423eb59
 docker: quay.io/biocontainers/bioconductor-gseabenchmarker
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

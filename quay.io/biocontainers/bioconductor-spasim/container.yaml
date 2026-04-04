@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-spasim
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-spasim
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:c3284ae36b586f7e0a709161d193722bb9e81abb51d6ac6e43e95a19c7d91474
+  1.12.0--r45hdfd78af_0: 
+    sha256:069b168c5d95aebf992b7cf170760a0bdeca3b84f2d339181ee2ffb914c8b134
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:a59bd11ea87be6800e43c60d9a9c2b46068e0ceb081b41726cd432aeb01b0776
@@ -13,6 +13,8 @@ tags:
     sha256:53e4ff01b60c32fd6d84381c6848c6ce19bc070d3ce14393b95741156b3e7e22
   1.8.0--r44hdfd78af_0: 
     sha256:c3284ae36b586f7e0a709161d193722bb9e81abb51d6ac6e43e95a19c7d91474
+  1.12.0--r45hdfd78af_0: 
+    sha256:069b168c5d95aebf992b7cf170760a0bdeca3b84f2d339181ee2ffb914c8b134
 docker: quay.io/biocontainers/bioconductor-spasim
 aliases:
   x86_64-conda-linux-gnu-pkg-config: 

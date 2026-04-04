@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hmdbquery
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:6c38748a31f75dbd71a7334ba0164bae224eaf41a323abde92c2c628d3101ed6
+  1.30.0--r45hdfd78af_0: 
+    sha256:7dec44bf22c5973e9f8a5489a99f6ecd1ece02df0a754349e0c93b3a02bab961
 tags:
   1.8.0--r40_0: 
     sha256:2c91f0c944cca3ef184e7c84e673c1f33a1e7c797196ab7e31ef3173de27936a
@@ -22,6 +22,8 @@ tags:
     sha256:d641f143b277e72fbcc498954db7d89895b7a8efc08a3482d956059c02fed2fb
   1.26.0--r44hdfd78af_0: 
     sha256:6c38748a31f75dbd71a7334ba0164bae224eaf41a323abde92c2c628d3101ed6
+  1.30.0--r45hdfd78af_0: 
+    sha256:7dec44bf22c5973e9f8a5489a99f6ecd1ece02df0a754349e0c93b3a02bab961
 docker: quay.io/biocontainers/bioconductor-hmdbquery
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

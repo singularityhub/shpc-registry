@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-alabaster.base
 latest:
-  1.6.0--r44he5774e6_1: 
-    sha256:b5d77a9f3129af17a4660663305e29cba39929f44565e1016c0389e6f0fb258a
+  1.10.0--r45ha27e39d_0: 
+    sha256:47697ebe953a170dc02c2bd38f479a6105852db434067a7b902ad2e90dabf56e
 tags:
   1.0.0--r43hf17093f_0: 
     sha256:27be9773d13b7c177dcd022cf77060d39782a788d715d1d7d8ad0f7d8b7d9c97
@@ -12,6 +12,10 @@ tags:
     sha256:d370510934da80f1cf931a018e0627cdaed9f30881370579c0291522270ae04f
   1.6.0--r44he5774e6_1: 
     sha256:b5d77a9f3129af17a4660663305e29cba39929f44565e1016c0389e6f0fb258a
+  1.10.0--r45ha27e39d_0: 
+    sha256:47697ebe953a170dc02c2bd38f479a6105852db434067a7b902ad2e90dabf56e
+  1.6.1--r44h77050f0_0: 
+    sha256:53918482c50e687e00fd8bc0399200527bdddecc39adbd83a6aa19a21f59c626
 docker: quay.io/biocontainers/bioconductor-alabaster.base
 aliases:
   hb-info: /usr/local/bin/hb-info

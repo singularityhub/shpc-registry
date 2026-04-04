@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-opencyto
 latest:
-  2.18.0--r44he5774e6_0: 
-    sha256:3a1edbe471e3071c8583ca5577869e2ba4579113d7c73f2f9313a86e7412b243
+  2.22.0--r45ha27e39d_0: 
+    sha256:2336b5f12f8421e5245457e2b38abc7b24b5be748662eeb5871cdee9b6cf8ba4
 tags:
   2.6.0--r41hc247a5b_2: 
     sha256:6c7d537b410551a19de9ba08df57662701ea75c6af6a07f68503bcaa8e34d292
@@ -18,4 +18,6 @@ tags:
     sha256:534bbb7843a744fd0706258f2fd5b6973973aa877f2342a8792a70249a885478
   2.18.0--r44he5774e6_0: 
     sha256:3a1edbe471e3071c8583ca5577869e2ba4579113d7c73f2f9313a86e7412b243
+  2.22.0--r45ha27e39d_0: 
+    sha256:2336b5f12f8421e5245457e2b38abc7b24b5be748662eeb5871cdee9b6cf8ba4
 docker: quay.io/biocontainers/bioconductor-opencyto

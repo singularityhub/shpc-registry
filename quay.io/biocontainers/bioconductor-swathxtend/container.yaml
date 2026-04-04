@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-swathxtend
 latest:
-  2.28.0--r44hdfd78af_0: 
-    sha256:7a78327f535550571dbfd8f7e69cf73fc6f51c790057b127e8618e40af969085
+  2.32.0--r45hdfd78af_0: 
+    sha256:457ba94dd0a1141865858d7b1502f4a67f922b2014b064d43fdc20b6b3297476
 tags:
   2.8.0--r36_0: 
     sha256:9d391d260487e159c42834ff411cc4dfa695933c85a09529c3b2d322a18b1f46
@@ -24,6 +24,8 @@ tags:
     sha256:3bda8600a82983b149d4e7f986edf8ae68930e7c73c9a0c8b44a22bf2a5fa1b9
   2.28.0--r44hdfd78af_0: 
     sha256:7a78327f535550571dbfd8f7e69cf73fc6f51c790057b127e8618e40af969085
+  2.32.0--r45hdfd78af_0: 
+    sha256:457ba94dd0a1141865858d7b1502f4a67f922b2014b064d43fdc20b6b3297476
 docker: quay.io/biocontainers/bioconductor-swathxtend
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

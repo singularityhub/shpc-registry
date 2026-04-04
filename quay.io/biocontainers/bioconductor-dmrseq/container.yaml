@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dmrseq
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:793e825038f9416e172cfe544be0f27193286667d903c7e57bacc0559ef0fcdb
+  1.30.0--r45hdfd78af_0: 
+    sha256:84acda139d21065d109a1649aeac17589470fdce95eceae918a6d68aa711487d
 tags:
   1.8.0--r40_0: 
     sha256:239ca0791cd4ce9d5f8b0493844c910c9f5df5ffefdd9b9034851747da1acf82
@@ -22,6 +22,8 @@ tags:
     sha256:5a7556e955d5525df608346f5493942298951c22eb1b3b4554771aac0d1fa939
   1.26.0--r44hdfd78af_0: 
     sha256:793e825038f9416e172cfe544be0f27193286667d903c7e57bacc0559ef0fcdb
+  1.30.0--r45hdfd78af_0: 
+    sha256:84acda139d21065d109a1649aeac17589470fdce95eceae918a6d68aa711487d
 docker: quay.io/biocontainers/bioconductor-dmrseq
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

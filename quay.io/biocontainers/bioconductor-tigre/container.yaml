@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tigre
 latest:
-  1.60.0--r44h3df3fcb_0: 
-    sha256:50f8ddc2337afd6d5c7d7fa9018d4e74e7fc49722f6ff0dff76d194026547325
+  1.64.0--r45h01b2380_0: 
+    sha256:2185aed8b07e24af50cb0c8be21b86c5cb723887d07d255b71bca6d83dd20267
 tags:
   1.48.0--r41hc0cfd56_2: 
     sha256:d5a6545f854cf45c0b49c7d80788010f2f22e65a39d94cc23af5937f9a64cddb
@@ -18,4 +18,6 @@ tags:
     sha256:d6a0a088776a42f57cb8d27ab4fcba96263a5da692f4b69d39265715aaccbe68
   1.60.0--r44h3df3fcb_0: 
     sha256:50f8ddc2337afd6d5c7d7fa9018d4e74e7fc49722f6ff0dff76d194026547325
+  1.64.0--r45h01b2380_0: 
+    sha256:2185aed8b07e24af50cb0c8be21b86c5cb723887d07d255b71bca6d83dd20267
 docker: quay.io/biocontainers/bioconductor-tigre

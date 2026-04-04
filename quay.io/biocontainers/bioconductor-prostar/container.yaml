@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-prostar
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:2e769f567107fbe65467316aac583f7e350116175ac7e426d9493ce13e03fefb
+  1.42.0--r45hdfd78af_0: 
+    sha256:53361351088a35a5602b91df4eabeffb50fdbf9b6366f349bfade7359d509dab
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:377fe0c5a0c024736fa4575b826328415a67413a41f361f51c49e67967d380b8
@@ -16,6 +16,8 @@ tags:
     sha256:82f1c05f7d909d9131ea9400056e57a9400b31990f7bc181bec6c63228d75294
   1.38.0--r44hdfd78af_0: 
     sha256:2e769f567107fbe65467316aac583f7e350116175ac7e426d9493ce13e03fefb
+  1.42.0--r45hdfd78af_0: 
+    sha256:53361351088a35a5602b91df4eabeffb50fdbf9b6366f349bfade7359d509dab
 docker: quay.io/biocontainers/bioconductor-prostar
 aliases:
   zipcmp: /usr/local/bin/zipcmp

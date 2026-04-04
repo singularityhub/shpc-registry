@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ctsge
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:2f7cd4bc77cad77e858bcdee558e74b5165b9e13c7e8697f2b67ada23564b79b
+  1.36.0--r45hdfd78af_0: 
+    sha256:f3bce9f9b40710d5b7e107df7a115953e3e70e543dd3ba9967f5166d75361aa2
 tags:
   1.8.1--r351_0: 
     sha256:2da997a9fbecc6915fb1610235ba733cb7038fab43bb3fecc7257b831477497d
@@ -24,6 +24,8 @@ tags:
     sha256:829e3669777b4cd28d88235a4414883f993efeb7d1c4371d1dd2b5ecb040fc0d
   1.32.0--r44hdfd78af_0: 
     sha256:2f7cd4bc77cad77e858bcdee558e74b5165b9e13c7e8697f2b67ada23564b79b
+  1.36.0--r45hdfd78af_0: 
+    sha256:f3bce9f9b40710d5b7e107df7a115953e3e70e543dd3ba9967f5166d75361aa2
 docker: quay.io/biocontainers/bioconductor-ctsge
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

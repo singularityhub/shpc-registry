@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-piano
 latest:
-  2.22.0--r44hdfd78af_0: 
-    sha256:f9ab3ee7c2e8ac3db6616f9e46da4166271bcab3a3e83fb400bfda85f645ba01
+  2.26.0--r45hdfd78af_0: 
+    sha256:e25f3ead4b80af3de35407803dbb2273b284d1aab98c678a647eae3ce3b488a1
 tags:
   2.8.0--r41hdfd78af_0: 
     sha256:5e73e4e0165d1d2f788c7ca797628684b466512b60a5bc68583beb9096d3cc3f
@@ -18,6 +18,8 @@ tags:
     sha256:a58da83638f75c1a99730b7a775619d58ce03918950afca62cbf722b8452ff7c
   2.22.0--r44hdfd78af_0: 
     sha256:f9ab3ee7c2e8ac3db6616f9e46da4166271bcab3a3e83fb400bfda85f645ba01
+  2.26.0--r45hdfd78af_0: 
+    sha256:e25f3ead4b80af3de35407803dbb2273b284d1aab98c678a647eae3ce3b488a1
 docker: quay.io/biocontainers/bioconductor-piano
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rcsl
 latest:
-  1.14.0--r44he5774e6_0: 
-    sha256:868aec1ca00d21685a7da1d769d7eeb5bcc8c88332ae084231b21b4727987587
+  1.18.0--r45ha27e39d_0: 
+    sha256:9614115397155d9ce08024c0bb3b0324421ab1c9504119bc748d10fde8668673
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:4513105f81dc3a9dc59b09654380e6049304c821642cda7d92248e6caefa17fc
@@ -14,4 +14,6 @@ tags:
     sha256:6cb1740716ece4b7a7e5926bbcaa0f3b33240c5436be1e34fbcc71cde80101ab
   1.14.0--r44he5774e6_0: 
     sha256:868aec1ca00d21685a7da1d769d7eeb5bcc8c88332ae084231b21b4727987587
+  1.18.0--r45ha27e39d_0: 
+    sha256:9614115397155d9ce08024c0bb3b0324421ab1c9504119bc748d10fde8668673
 docker: quay.io/biocontainers/bioconductor-rcsl

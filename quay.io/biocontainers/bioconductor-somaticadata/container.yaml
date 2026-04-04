@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-somaticadata
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:35dd8b457b825c3b0e475ece138b4d076fb1ea81c53eaf4a2fb170f930114bc2
+  1.48.0--r45hdfd78af_0: 
+    sha256:b29458f787675244d3645673dc00712eb19f09fc1e4b071f2c79c849c78462b1
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:6aa9ee00cff04a788cd9be6bb128fb04da3fb1673860c90a28c57e8bc0d0e98e
@@ -16,4 +16,6 @@ tags:
     sha256:af951bc9f431a6ba5491417b33862984d43085f47ecefde480a2d0b2632fb459
   1.44.0--r44hdfd78af_0: 
     sha256:35dd8b457b825c3b0e475ece138b4d076fb1ea81c53eaf4a2fb170f930114bc2
+  1.48.0--r45hdfd78af_0: 
+    sha256:b29458f787675244d3645673dc00712eb19f09fc1e4b071f2c79c849c78462b1
 docker: quay.io/biocontainers/bioconductor-somaticadata

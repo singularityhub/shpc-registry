@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nucleosim
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:8332fdd462770244bb7b5630909c5b2654ea36390bb5027fa4b11db6b96df392
+  1.38.0--r45hdfd78af_0: 
+    sha256:c94c95455d6b34f959777c5231fe575f4e2e6aa592832d4925462cf63b8f0fb2
 tags:
   1.8.0--r341_0: 
     sha256:e4f0240940d118db8ecb60bceb160823f0ca6b06b7f9460203e5e4e095fe33c2
@@ -24,6 +24,8 @@ tags:
     sha256:0e0f690109c3e7dd0bc6114812a0206df79c99f04efa607ba6f60e539235d11c
   1.34.0--r44hdfd78af_0: 
     sha256:8332fdd462770244bb7b5630909c5b2654ea36390bb5027fa4b11db6b96df392
+  1.38.0--r45hdfd78af_0: 
+    sha256:c94c95455d6b34f959777c5231fe575f4e2e6aa592832d4925462cf63b8f0fb2
 docker: quay.io/biocontainers/bioconductor-nucleosim
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

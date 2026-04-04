@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mousechrloc
 latest:
-  2.1.6--r44hdfd78af_13: 
-    sha256:696a9e7ae360aeea95f11157e48fca1d0502c82c9364bbb33c4a2b0dc8ea9874
+  2.1.6--r45hdfd78af_14: 
+    sha256:ed3f0a20acbb0e202a8b8b37e014e1ae2d6af247d67312d546143a22b94f6976
 tags:
   2.1.6--r41hdfd78af_9: 
     sha256:f99f36c3b100f1ff2d67cc8809a78ca9cc890ba7350cb2f85264755e3ff5fff3
@@ -16,4 +16,6 @@ tags:
     sha256:9d07dd50d406e620cc40a5193585c6a254e0d8ed69b6cfc22f213e53221e2009
   2.1.6--r44hdfd78af_13: 
     sha256:696a9e7ae360aeea95f11157e48fca1d0502c82c9364bbb33c4a2b0dc8ea9874
+  2.1.6--r45hdfd78af_14: 
+    sha256:ed3f0a20acbb0e202a8b8b37e014e1ae2d6af247d67312d546143a22b94f6976
 docker: quay.io/biocontainers/bioconductor-mousechrloc

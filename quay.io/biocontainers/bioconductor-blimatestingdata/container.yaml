@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-blimatestingdata
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:e5e14c197236997da95ff21c6cbf482173e8863e4329161a56dc968341124a82
+  1.30.0--r45hdfd78af_0: 
+    sha256:a231041e1f23ae3fa2a844be62e63d47ed2052588b2a24f8be1b8ec66c89b01b
 tags:
   1.9.0--r40_0: 
     sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2
@@ -22,6 +22,8 @@ tags:
     sha256:ed7854342cf69a6c46120d299a1e1120fde4d8858f337ae86f0c778ff4c53985
   1.26.0--r44hdfd78af_0: 
     sha256:e5e14c197236997da95ff21c6cbf482173e8863e4329161a56dc968341124a82
+  1.30.0--r45hdfd78af_0: 
+    sha256:a231041e1f23ae3fa2a844be62e63d47ed2052588b2a24f8be1b8ec66c89b01b
 docker: quay.io/biocontainers/bioconductor-blimatestingdata
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

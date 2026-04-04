@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-maftools
 latest:
-  2.22.0--r44h15a9599_0: 
-    sha256:455ed46545903140ffc289090b68f5f204ea13cb708aa958dc5b681d401400cd
+  2.26.0--r45h01b2380_0: 
+    sha256:98e1d7ace560748ad9eecc12c4a187c3ede8090d909cd4c57f9f2d994cfb6c15
 tags:
   2.8.0--r41hd029910_0: 
     sha256:bcabe3ce0167d6893b164345824bf233037f90152f687155923306fa9f7b0a73
@@ -22,6 +22,8 @@ tags:
     sha256:6c8e050f4c07816d1777eb6f741a88a4265d8e28554407f98916374dba051f41
   2.22.0--r44h15a9599_0: 
     sha256:455ed46545903140ffc289090b68f5f204ea13cb708aa958dc5b681d401400cd
+  2.26.0--r45h01b2380_0: 
+    sha256:98e1d7ace560748ad9eecc12c4a187c3ede8090d909cd4c57f9f2d994cfb6c15
 docker: quay.io/biocontainers/bioconductor-maftools
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

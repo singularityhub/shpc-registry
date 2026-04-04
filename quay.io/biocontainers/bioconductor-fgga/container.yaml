@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fgga
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:dc6b4db1508a67935d2dd73ff2f1c3c8cc9ef4d6a4146a3f4ed0e85489cf4a93
+  1.18.0--r45hdfd78af_0: 
+    sha256:8a65a8311f0489f6a226eee83314dcd7c19410935c3fed6433b588ec09ecb784
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:b4ff85fc969f01cee3f1cd94098afbc234798aa9eaea9cfa87371c588ac4bd0d
@@ -16,4 +16,6 @@ tags:
     sha256:1a673505b0ca7a6f728f4e0c793d992be8762aa6d2a53c4af7f3882f293d37e3
   1.14.0--r44hdfd78af_0: 
     sha256:dc6b4db1508a67935d2dd73ff2f1c3c8cc9ef4d6a4146a3f4ed0e85489cf4a93
+  1.18.0--r45hdfd78af_0: 
+    sha256:8a65a8311f0489f6a226eee83314dcd7c19410935c3fed6433b588ec09ecb784
 docker: quay.io/biocontainers/bioconductor-fgga

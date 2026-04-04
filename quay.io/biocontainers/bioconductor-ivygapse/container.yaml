@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ivygapse
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:daf0bcc770ef96239d2440c88fbc890c74c75a87263d927527e04c4236296b7b
+  1.32.0--r45hdfd78af_0: 
+    sha256:dd7ae066eca7558050bedef69ebe8583166b768fce1370449df4ecf72bcd2b70
 tags:
   1.8.0--r36_0: 
     sha256:3ec53ea2f6aca9e49a51c54b6547ff93ae7da4a7e74bd9330410c79391dac87b
@@ -24,6 +24,8 @@ tags:
     sha256:8ac1ea4cffc09c86690a0f11297c79d06c8f53a1547c5670256188054def1aea
   1.28.0--r44hdfd78af_0: 
     sha256:daf0bcc770ef96239d2440c88fbc890c74c75a87263d927527e04c4236296b7b
+  1.32.0--r45hdfd78af_0: 
+    sha256:dd7ae066eca7558050bedef69ebe8583166b768fce1370449df4ecf72bcd2b70
 docker: quay.io/biocontainers/bioconductor-ivygapse
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

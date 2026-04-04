@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gatefinder
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:6315db9134ca30dcf609bfa563a067c33f50114407a9176275f08a48896d3cb4
+  1.30.0--r45hdfd78af_0: 
+    sha256:0e79a59895c69ae2b0f9a37da481badf8ae920f0ffa9ea34576247cc97a9e8d4
 tags:
   1.8.0--r40_0: 
     sha256:adfc37aa9831839886132c7cb258df6c5db98bf219bd9183703eb127d141a777
@@ -22,6 +22,8 @@ tags:
     sha256:a03f6e3af7ebb530e3b8f2e3a320f4bda383e20ceeac303e1321c7a83dfd0cc8
   1.26.0--r44hdfd78af_0: 
     sha256:6315db9134ca30dcf609bfa563a067c33f50114407a9176275f08a48896d3cb4
+  1.30.0--r45hdfd78af_0: 
+    sha256:0e79a59895c69ae2b0f9a37da481badf8ae920f0ffa9ea34576247cc97a9e8d4
 docker: quay.io/biocontainers/bioconductor-gatefinder
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

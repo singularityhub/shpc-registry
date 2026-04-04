@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/viral-host-hunter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viral-host-hunter
 latest:
-  0.1.11--pyhdfd78af_0: 
-    sha256:855e42de7b9424cab164026f1d84cd5611e99b920f526894cddfd104e949f946
+  0.2.0--pyhdfd78af_1: 
+    sha256:f047a533e3bbe2f080d80ba0e8f1ebf6e9eab84632c712de707476e51fb805cf
 tags:
   0.1.11--pyhdfd78af_0: 
     sha256:855e42de7b9424cab164026f1d84cd5611e99b920f526894cddfd104e949f946
+  0.2.0--pyhdfd78af_1: 
+    sha256:f047a533e3bbe2f080d80ba0e8f1ebf6e9eab84632c712de707476e51fb805cf
 docker: quay.io/biocontainers/viral-host-hunter
 aliases:
   datasets-cli: /usr/local/bin/datasets-cli

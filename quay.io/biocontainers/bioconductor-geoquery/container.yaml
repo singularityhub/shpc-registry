@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geoquery
 latest:
-  2.74.0--r44hdfd78af_0: 
-    sha256:cbd9765f812d35ed5cdf14c9baee034819680234d9e0be2b629ec677e795663e
+  2.78.0--r45hdfd78af_0: 
+    sha256:e32ea5b76c4d23fdf798c125c08622071d9a2233e7683051681ede47157fbbcf
 tags:
   2.62.0--r41hdfd78af_0: 
     sha256:4510fd8391009c823f6a2137684595bf7419c93494c96878428b038e23e93253
@@ -16,4 +16,6 @@ tags:
     sha256:bd9cd8af2b3631987365b1f3454ddabb409099bfc73a3fccc8503176bbe443cd
   2.74.0--r44hdfd78af_0: 
     sha256:cbd9765f812d35ed5cdf14c9baee034819680234d9e0be2b629ec677e795663e
+  2.78.0--r45hdfd78af_0: 
+    sha256:e32ea5b76c4d23fdf798c125c08622071d9a2233e7683051681ede47157fbbcf
 docker: quay.io/biocontainers/bioconductor-geoquery

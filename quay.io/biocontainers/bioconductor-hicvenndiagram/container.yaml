@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-hicvenndiagram
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:6921de11a6af356a315f9ccc8548d3494f0def9c808d62423799b0a8a2fa2215
+  1.8.0--r45hdfd78af_0: 
+    sha256:330d2b02c5fac1e9500045736250c390177c02666cf6387ab69f164d749e4eee
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:f0f8d620200ca880664d40acac8a269bb4133023cbacc825c2ecc2b38b8cf03b
   1.4.0--r44hdfd78af_0: 
     sha256:6921de11a6af356a315f9ccc8548d3494f0def9c808d62423799b0a8a2fa2215
+  1.8.0--r45hdfd78af_0: 
+    sha256:330d2b02c5fac1e9500045736250c390177c02666cf6387ab69f164d749e4eee
 docker: quay.io/biocontainers/bioconductor-hicvenndiagram
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

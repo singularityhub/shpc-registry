@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-blacksheepr
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:61c77f2fa924705989b6fc2bb562346276250a16b85211a59b540fd923413827
+  1.24.0--r45hdfd78af_0: 
+    sha256:8b36ea588cc768386fefba565090596333a3aa334c61ed806a2d1af849641a36
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:6dc20ff38ee83a99645bbc321f94a8fd5eab7cac65dc602896c7146f846ea2f0
@@ -16,4 +16,6 @@ tags:
     sha256:897bc4f107fe4897ecc22cbb89ffe06f03783606d0baaf77025af4adbe9a336a
   1.20.0--r44hdfd78af_0: 
     sha256:61c77f2fa924705989b6fc2bb562346276250a16b85211a59b540fd923413827
+  1.24.0--r45hdfd78af_0: 
+    sha256:8b36ea588cc768386fefba565090596333a3aa334c61ed806a2d1af849641a36
 docker: quay.io/biocontainers/bioconductor-blacksheepr

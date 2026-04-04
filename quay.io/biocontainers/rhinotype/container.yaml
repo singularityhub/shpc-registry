@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rhinotype
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rhinotype
 latest:
-  2.0.0--pyhdfd78af_0: 
-    sha256:dab6dffa9b2132648c4cb62686a798fef9aa772d1fe9bfcbabca39c52223537c
+  3.0.0--pyhdfd78af_0: 
+    sha256:c561cc25ae589e96f817681c12cab5fe72af0e372c22fe6d769bb327f7d36d08
 tags:
   2.0.0--pyhdfd78af_0: 
     sha256:dab6dffa9b2132648c4cb62686a798fef9aa772d1fe9bfcbabca39c52223537c
+  3.0.0--pyhdfd78af_0: 
+    sha256:c561cc25ae589e96f817681c12cab5fe72af0e372c22fe6d769bb327f7d36d08
 docker: quay.io/biocontainers/rhinotype
 aliases:
   rhinotype: /usr/local/bin/rhinotype

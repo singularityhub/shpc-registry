@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/shortcut
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for shortcut
 latest:
-  1.0--hdfd78af_0: 
-    sha256:3df287922bb1e89f42f3836aa22d389f014c3d40dbd0ef71d269a9b1e27d8fbd
+  2.0--py312hdfd78af_0: 
+    sha256:655ad6837960d2fac346d3d88f6c2f9b06ac28295b16be0d4a38d304ed876287
 tags:
   1.0--hdfd78af_0: 
     sha256:3df287922bb1e89f42f3836aa22d389f014c3d40dbd0ef71d269a9b1e27d8fbd
+  2.0--py312hdfd78af_0: 
+    sha256:655ad6837960d2fac346d3d88f6c2f9b06ac28295b16be0d4a38d304ed876287
 docker: quay.io/biocontainers/shortcut
 aliases:
   RNAconsensus: /usr/local/bin/RNAconsensus

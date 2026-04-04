@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-yapsa
 latest:
-  1.28.0--r43hdfd78af_0: 
-    sha256:588680fe4f158f0b6bfe40b34a87469b4eac468e5cfccfbafe7e9985ba5f4f64
+  1.36.1--r45hdfd78af_0: 
+    sha256:2f94f8718b17e23e8e565abbec4531ce59b620f206310aaba80ba699db4acbc3
 tags:
   1.8.0--r351_0: 
     sha256:7d7e15d2bfebba743ed7efc143386531377f9d5ed8f38d5406e854d59653906f
@@ -24,6 +24,8 @@ tags:
     sha256:ab716e089771a9604b72ddfb15ad58bb26fcb5877a8a90f7f17258b376f0e063
   1.28.0--r43hdfd78af_0: 
     sha256:588680fe4f158f0b6bfe40b34a87469b4eac468e5cfccfbafe7e9985ba5f4f64
+  1.36.1--r45hdfd78af_0: 
+    sha256:2f94f8718b17e23e8e565abbec4531ce59b620f206310aaba80ba699db4acbc3
 docker: quay.io/biocontainers/bioconductor-yapsa
 aliases:
   wget: /usr/local/bin/wget

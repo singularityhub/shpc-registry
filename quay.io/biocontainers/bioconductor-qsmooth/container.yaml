@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-qsmooth
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:a09e950bf3785fe3ab4a13d31f143dde4363e54af794710e448e34278df57a09
+  1.26.0--r45hdfd78af_0: 
+    sha256:edde8e0e0976aebc212cc186e76042673f21bf62046608b9eaba45a6286955ab
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:d50b34489fcadd9336fd795d8a886e8ef5057a62f2a563762e534ee910d287a7
@@ -18,6 +18,8 @@ tags:
     sha256:2c572d1d81898ad64bf444289d4f84031906df8bb394583415246e12aff2c58f
   1.22.0--r44hdfd78af_0: 
     sha256:a09e950bf3785fe3ab4a13d31f143dde4363e54af794710e448e34278df57a09
+  1.26.0--r45hdfd78af_0: 
+    sha256:edde8e0e0976aebc212cc186e76042673f21bf62046608b9eaba45a6286955ab
 docker: quay.io/biocontainers/bioconductor-qsmooth
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

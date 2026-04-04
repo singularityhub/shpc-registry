@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-proactiv
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:47e069ecbd3b418530aa800d9bf412f4266ef640ab0d0f1f504c985f08dac87a
+  1.20.0--r45hdfd78af_0: 
+    sha256:d378150240c6a08f9e5e8d6a9a35f0f0ff41404ded1883c42269858e85e08843
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:2ad73e39127cda2f8b81079500f3484986edece8ff8cc883feff6125ae7e82df
@@ -16,4 +16,6 @@ tags:
     sha256:14dbb135846999f1838bc6859b5c9b7d3ab79d76204eacb5da7c4d9753682931
   1.16.0--r44hdfd78af_0: 
     sha256:47e069ecbd3b418530aa800d9bf412f4266ef640ab0d0f1f504c985f08dac87a
+  1.20.0--r45hdfd78af_0: 
+    sha256:d378150240c6a08f9e5e8d6a9a35f0f0ff41404ded1883c42269858e85e08843
 docker: quay.io/biocontainers/bioconductor-proactiv

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-similarpeak
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:6660a64bb4748e12747aa2ecf1fef55f4edc83205c348757cdd0439acdb0653c
+  1.42.0--r45hdfd78af_0: 
+    sha256:ebac22f8866750f5dd9d3003c15aa901474ae2de7535cafc4a782dd7efa5c104
 tags:
   1.8.0--r3.3.2_0: 
     sha256:f44a5c8ba745e4610c7f92090be814df8536aed3610cbc365ba1d65bcbab5815
@@ -24,6 +24,8 @@ tags:
     sha256:2fbba6dcea58ff79a816ec998d3fa2c37b9937a816e70071eee5dc7c5ebf43be
   1.38.0--r44hdfd78af_0: 
     sha256:6660a64bb4748e12747aa2ecf1fef55f4edc83205c348757cdd0439acdb0653c
+  1.42.0--r45hdfd78af_0: 
+    sha256:ebac22f8866750f5dd9d3003c15aa901474ae2de7535cafc4a782dd7efa5c104
 docker: quay.io/biocontainers/bioconductor-similarpeak
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

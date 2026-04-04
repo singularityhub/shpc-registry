@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-quantro
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:b798859fa2bffb7f9667978f2824732522dbc75e8e29d5a03cedac6f6dd10421
+  1.44.0--r45hdfd78af_0: 
+    sha256:6c1d58fde830bf013982d4d9b362468ef53be78b01f32c4e9ca37916874b94f2
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:2c7512c91d49682f57c12bb9204e8e5516483b4e37c40cc36edbf04182df5619
@@ -16,4 +16,6 @@ tags:
     sha256:eec5cbf9a9b62454e0ae08f021ecbceaea2fb7ac3b354f3768c01be2b5a50fb5
   1.40.0--r44hdfd78af_0: 
     sha256:b798859fa2bffb7f9667978f2824732522dbc75e8e29d5a03cedac6f6dd10421
+  1.44.0--r45hdfd78af_0: 
+    sha256:6c1d58fde830bf013982d4d9b362468ef53be78b01f32c4e9ca37916874b94f2
 docker: quay.io/biocontainers/bioconductor-quantro

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-selex
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:70ce253a05def14bbadfc6fbd4f07c2d74c9594eed9d209ca0d74413d248251f
+  1.42.0--r45hdfd78af_0: 
+    sha256:f6b16b7db952f411ef9b874fb79143d7503ae722f620c9497ac415db8319a07e
 tags:
   1.26.0--r41hdfd78af_0: 
     sha256:3ed6ff2715fa16b45e1c5a2b555f35e6ca932f9a8608b4e30b3ebf0b39347c3e
@@ -16,6 +16,8 @@ tags:
     sha256:85e8bfd08cc800558db8bb87a8f08d7fb49c39677efcf8964e2dbdef89a48056
   1.38.0--r44hdfd78af_0: 
     sha256:70ce253a05def14bbadfc6fbd4f07c2d74c9594eed9d209ca0d74413d248251f
+  1.42.0--r45hdfd78af_0: 
+    sha256:f6b16b7db952f411ef9b874fb79143d7503ae722f620c9497ac415db8319a07e
 docker: quay.io/biocontainers/bioconductor-selex
 aliases:
   jfr: /usr/local/bin/jfr

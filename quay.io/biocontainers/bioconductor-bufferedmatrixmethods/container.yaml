@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bufferedmatrixmethods
 latest:
-  1.70.0--r44h3df3fcb_0: 
-    sha256:5f61a4a8732a44d755c954ef029ace085b5e45b022cfa700ca0947aa09e907b8
+  1.74.0--r45h01b2380_0: 
+    sha256:a98586c0b8c636fec9089e7e5684d7c1be7e4b7fa431a98e7b75e109149a293c
 tags:
   1.58.0--r41hc0cfd56_2: 
     sha256:6e5218393657051ad69aedc51e0d4288fed1e5c3e27c832aeef4070c8c6d2c6b
@@ -18,4 +18,6 @@ tags:
     sha256:4dfb59ba1e723500e40a31bae734d295a4ee6fda9196ef3d19a7ad1e2ad1c7f7
   1.70.0--r44h3df3fcb_0: 
     sha256:5f61a4a8732a44d755c954ef029ace085b5e45b022cfa700ca0947aa09e907b8
+  1.74.0--r45h01b2380_0: 
+    sha256:a98586c0b8c636fec9089e7e5684d7c1be7e4b7fa431a98e7b75e109149a293c
 docker: quay.io/biocontainers/bioconductor-bufferedmatrixmethods

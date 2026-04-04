@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/simplesam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for simplesam
 latest:
-  0.1.4.1--pyh5e36f6f_0: 
-    sha256:15b9b1fb52e18ddfbef9d0a1ef0f1ffd715c91c204612baeaa740d12682ae9b8
+  0.1.4.2--pyh106432d_0: 
+    sha256:56653fd61017e5bc77bf87bb789dba1e57a3e89e3f1819f07dd18efee9d55a91
 tags:
   0.1.4.1--pyh5e36f6f_0: 
     sha256:15b9b1fb52e18ddfbef9d0a1ef0f1ffd715c91c204612baeaa740d12682ae9b8
+  0.1.4.2--pyh106432d_0: 
+    sha256:56653fd61017e5bc77bf87bb789dba1e57a3e89e3f1819f07dd18efee9d55a91
 docker: quay.io/biocontainers/simplesam
 aliases:
   pileup.py: /usr/local/bin/pileup.py

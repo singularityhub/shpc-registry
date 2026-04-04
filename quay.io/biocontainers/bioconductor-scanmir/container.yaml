@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scanmir
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:caf4d853927c172a3680f4fa9c2e84f27266e4949a564dbaf7ab6dbf816c9fc2
+  1.16.0--r45hdfd78af_0: 
+    sha256:806ba670f30c816fc0944cd427029727be850489ebeb8e56e93fb2b77501fdae
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:aabbc71ff69dbad93d8304981e70b5cd07aaeaf66c9a5107b127942bf8bbdcbf
@@ -16,4 +16,6 @@ tags:
     sha256:b2b87910e9d1663cae04507646eb4057fe768557ba219f4b94f192ec3a23127f
   1.12.0--r44hdfd78af_0: 
     sha256:caf4d853927c172a3680f4fa9c2e84f27266e4949a564dbaf7ab6dbf816c9fc2
+  1.16.0--r45hdfd78af_0: 
+    sha256:806ba670f30c816fc0944cd427029727be850489ebeb8e56e93fb2b77501fdae
 docker: quay.io/biocontainers/bioconductor-scanmir

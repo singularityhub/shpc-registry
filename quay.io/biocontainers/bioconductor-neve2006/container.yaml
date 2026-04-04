@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-neve2006
 latest:
-  0.44.0--r44hdfd78af_0: 
-    sha256:4faeb8d124c9eddc701a845b1891000fdf120b0241be3b3e23bbdb1d02eb9028
+  0.48.0--r45hdfd78af_0: 
+    sha256:d4ee6fb4518b76486ac1d2b1c154836cce80c6eb0911d9fdb7a3786bc5003f0e
 tags:
   0.32.0--r41hdfd78af_1: 
     sha256:f8b50cf9a41c4da68c4ab82bf8ae113ac2cf3224c0b868f48e0ef8c9e446496d
@@ -16,4 +16,6 @@ tags:
     sha256:998602f43d48ddaa2ad7484cdb9fc43f5b48d631c230ac3426dba2deee7d4a8a
   0.44.0--r44hdfd78af_0: 
     sha256:4faeb8d124c9eddc701a845b1891000fdf120b0241be3b3e23bbdb1d02eb9028
+  0.48.0--r45hdfd78af_0: 
+    sha256:d4ee6fb4518b76486ac1d2b1c154836cce80c6eb0911d9fdb7a3786bc5003f0e
 docker: quay.io/biocontainers/bioconductor-neve2006

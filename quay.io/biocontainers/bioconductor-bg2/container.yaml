@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-bg2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-bg2
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:164fc05d5f7f1387885cb66b4bc5a490f739a3af5bfa881c779ea3981b141d55
+  1.10.0--r45hdfd78af_0: 
+    sha256:6cbbdf99a0aa8a2b22e0e4a537c7df5d20ee05c9b88ef87b9292a2add247ccb9
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:631d8a98eb803d13e4d0ede2bb87bd8e978e3d5118651efa63edd1b3b77e9a34
@@ -11,6 +11,8 @@ tags:
     sha256:318a59136ae15b931a1dcd392aea1d7f9986c834af644d166b3bcf10b44a52c3
   1.6.0--r44hdfd78af_0: 
     sha256:164fc05d5f7f1387885cb66b4bc5a490f739a3af5bfa881c779ea3981b141d55
+  1.10.0--r45hdfd78af_0: 
+    sha256:6cbbdf99a0aa8a2b22e0e4a537c7df5d20ee05c9b88ef87b9292a2add247ccb9
 docker: quay.io/biocontainers/bioconductor-bg2
 aliases:
   hb-info: /usr/local/bin/hb-info

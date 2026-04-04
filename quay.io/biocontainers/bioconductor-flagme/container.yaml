@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flagme
 latest:
-  1.62.0--r44h3df3fcb_0: 
-    sha256:5d667b5fdd60987d5eab5f9fd6af8c5aa6444f32e5d350cd49e15b12a072d9fc
+  1.66.0--r45h01b2380_0: 
+    sha256:3e6290d84cc6f852b6bfaa303f21128051787b75c285ac8b61efbf069e967ed2
 tags:
   1.50.0--r41hc0cfd56_2: 
     sha256:5d7e34aa8d91108e83a22c7e31ba8baf334ae1156d9dda4395c0c6cd03a99901
@@ -20,6 +20,8 @@ tags:
     sha256:8d621f2f757bc6865afcd5bde8025d5f1e36ba24debdb6ed3ad443cc6ac9cfa7
   1.62.0--r44h3df3fcb_0: 
     sha256:5d667b5fdd60987d5eab5f9fd6af8c5aa6444f32e5d350cd49e15b12a072d9fc
+  1.66.0--r45h01b2380_0: 
+    sha256:3e6290d84cc6f852b6bfaa303f21128051787b75c285ac8b61efbf069e967ed2
 docker: quay.io/biocontainers/bioconductor-flagme
 aliases:
   zipcmp: /usr/local/bin/zipcmp

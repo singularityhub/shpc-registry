@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/aliview
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aliview
 latest:
-  1.30--hdfd78af_0: 
-    sha256:3c9ba492c25336b53b6096898fd77175399548852ee996ca091640c07394fa1d
+  1.31--hdfd78af_0: 
+    sha256:52547c0447f7a727093bdf804d532c0e0234d21ce3a3175aa52347d2b4547b6e
 tags:
   1.30--hdfd78af_0: 
     sha256:3c9ba492c25336b53b6096898fd77175399548852ee996ca091640c07394fa1d
+  1.31--hdfd78af_0: 
+    sha256:52547c0447f7a727093bdf804d532c0e0234d21ce3a3175aa52347d2b4547b6e
 docker: quay.io/biocontainers/aliview
 aliases:
   aliview: /usr/local/bin/aliview

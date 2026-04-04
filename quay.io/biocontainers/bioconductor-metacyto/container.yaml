@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metacyto
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:aa45aa8619090cc5ee169b60f4ba046397f29c9b45554714e5b27a38ac6bc036
+  1.32.0--r45hdfd78af_0: 
+    sha256:7595e4a2e9faf5321555e671319d5854ba6b9dfa80d857eecf3eb611ef1ad708
 tags:
   1.8.0--r36_0: 
     sha256:f13dba8f43fa8e2014515b0e00aed0703b528e180bb5fd49d7cd1aa15ea58dda
@@ -24,6 +24,8 @@ tags:
     sha256:2d4f9ab53be3b30277094d9a46d10fe7ad1e2e5e28ae80eb384bb82fb2faee3e
   1.28.0--r44hdfd78af_0: 
     sha256:aa45aa8619090cc5ee169b60f4ba046397f29c9b45554714e5b27a38ac6bc036
+  1.32.0--r45hdfd78af_0: 
+    sha256:7595e4a2e9faf5321555e671319d5854ba6b9dfa80d857eecf3eb611ef1ad708
 docker: quay.io/biocontainers/bioconductor-metacyto
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

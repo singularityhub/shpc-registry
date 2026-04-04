@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/segmetrics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for segmetrics
 latest:
-  1.5--pyhdfd78af_0: 
-    sha256:83dcb1f483b4c810f597bafa0e50fa82beb0fac439b2882290545b740286e409
+  1.6.0--pyhdfd78af_0: 
+    sha256:5c6fe3656942b354d4552862a6b506106c2871663be259208b45a3c8b1700d10
 tags:
   1.2.1--pyhdfd78af_0: 
     sha256:86cb12f1a08afa192720f5dfc28c25144a1f008fbc83e0c153bc1209d70e5127
@@ -17,6 +17,8 @@ tags:
     sha256:8de6f65cf89b8321843c88c20175060dd5f3ce23f9f27bef12f668d7e5e5751f
   1.5--pyhdfd78af_0: 
     sha256:83dcb1f483b4c810f597bafa0e50fa82beb0fac439b2882290545b740286e409
+  1.6.0--pyhdfd78af_0: 
+    sha256:5c6fe3656942b354d4552862a6b506106c2871663be259208b45a3c8b1700d10
 docker: quay.io/biocontainers/segmetrics
 aliases:
   aomdec: /usr/local/bin/aomdec

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-swath2stats
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:4a263a6012158d7467822fd5ea9573015f6cc2275c847f04c0d1f7bdc541a5eb
+  1.40.1--r45hdfd78af_0: 
+    sha256:4a69b3b340cb1d9d24aa1d46fbe5d5a8bea16b2b21679e2a5b4ae85938d086a7
 tags:
   1.8.1--r3.4.1_0: 
     sha256:0ba0298c5c47581611df4e172b5b791e8acf5ac94e64d21aba4266c503c7e30f
@@ -26,6 +26,8 @@ tags:
     sha256:ab556b3f164806c9d050632c8c533134f88df883375214bf965ed71e2cc63e13
   1.36.0--r44hdfd78af_0: 
     sha256:4a263a6012158d7467822fd5ea9573015f6cc2275c847f04c0d1f7bdc541a5eb
+  1.40.1--r45hdfd78af_0: 
+    sha256:4a69b3b340cb1d9d24aa1d46fbe5d5a8bea16b2b21679e2a5b4ae85938d086a7
 docker: quay.io/biocontainers/bioconductor-swath2stats
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

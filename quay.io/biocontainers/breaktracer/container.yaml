@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/breaktracer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for breaktracer
 latest:
-  0.2.6--hd6466ae_0: 
-    sha256:54ec9659ce6c1e3093317b0684342dbad8e850156bccb4d8f711137098774e70
+  0.2.8--hd6466ae_0: 
+    sha256:38e6497119c13682e5d9ea48e38500bb6d58772c0aa008014c8abf1e2b2e90c9
 tags:
   0.2.6--hd6466ae_0: 
     sha256:54ec9659ce6c1e3093317b0684342dbad8e850156bccb4d8f711137098774e70
+  0.2.8--hd6466ae_0: 
+    sha256:38e6497119c13682e5d9ea48e38500bb6d58772c0aa008014c8abf1e2b2e90c9
 docker: quay.io/biocontainers/breaktracer
 aliases:
   breaktracer: /usr/local/bin/breaktracer

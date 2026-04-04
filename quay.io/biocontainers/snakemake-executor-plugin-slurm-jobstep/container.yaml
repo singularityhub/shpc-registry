@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   snakemake-executor-plugin-slurm-jobstep
 latest:
-  0.3.0--pyhdfd78af_0: 
-    sha256:ff511c1ef28771bf70cc6c8c8917eff53ab7f8acceecae3314e9db1404381322
+  0.6.0--pyhdfd78af_0: 
+    sha256:6dbce49e27d91503a45ad140d7d4d8a7348bf3737f609b5d4f6544f97560d9c0
 tags:
   0.1.8--pyhdfd78af_0: 
     sha256:877fba61de3da80da06b7c51859b437d96a3dccf6cdc3b0dbaf839bde3fe1724
@@ -16,6 +16,12 @@ tags:
     sha256:7ee6cab7680ecd5c4759ba1ecfa8372c5296c6d49a2323a385778b86fb283b84
   0.3.0--pyhdfd78af_0: 
     sha256:ff511c1ef28771bf70cc6c8c8917eff53ab7f8acceecae3314e9db1404381322
+  0.6.0--pyhdfd78af_0: 
+    sha256:6dbce49e27d91503a45ad140d7d4d8a7348bf3737f609b5d4f6544f97560d9c0
+  0.5.0--pyhdfd78af_0: 
+    sha256:549cb7c1cd57aaaa4553a03a81b28ef83ba9433a1b6aa9e889ddf4c222dad320
+  0.4.0--pyhdfd78af_0: 
+    sha256:ed8113819d6b593a5d84d4ba904fc9439a875327d3054bcb5a44c1685db2cb4f
 docker: quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tomatoprobe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:762972f575dac3fd5ff8b2479e0c91316cc91bea66d5255c85cd880a40ab7576
+  2.18.0--r45hdfd78af_14: 
+    sha256:1aad79f22b667cc225e4e0972d79dc03e4e33ad4157b46ceecc85da7c879e96a
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:cec0c6d05ce08e195140488df3e609f0e4352f1df8d49896902958eb4931bf3d
@@ -16,4 +16,6 @@ tags:
     sha256:3ba22d45252305a4519085d9e03e5e826cc197ad9ce521e02060a9e36b1d7ddc
   2.18.0--r44hdfd78af_13: 
     sha256:762972f575dac3fd5ff8b2479e0c91316cc91bea66d5255c85cd880a40ab7576
+  2.18.0--r45hdfd78af_14: 
+    sha256:1aad79f22b667cc225e4e0972d79dc03e4e33ad4157b46ceecc85da7c879e96a
 docker: quay.io/biocontainers/bioconductor-tomatoprobe

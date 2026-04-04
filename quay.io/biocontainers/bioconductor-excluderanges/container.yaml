@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-excluderanges
 latest:
-  0.99.8--r44hdfd78af_2: 
-    sha256:f66cb7247a6f6a369258225f8f908ac818685d428e1ec2bfdff0439dd7d8d4ae
+  0.99.10--r45hdfd78af_0: 
+    sha256:1bfe3736ae1c738d4eb12c450d71f27f10a95d82e47bfd52158857cf47811f5b
 tags:
   0.99.6--r41hdfd78af_1: 
     sha256:370db92af5f30ed99b4b6fb9912af0021d636efe48956d8860ce3d1b86646909
@@ -16,4 +16,6 @@ tags:
     sha256:18942a18f88a2dd218f5e7b1ee5d5e7f21038db8045d8b0572c4b8eb23c8da75
   0.99.8--r44hdfd78af_2: 
     sha256:f66cb7247a6f6a369258225f8f908ac818685d428e1ec2bfdff0439dd7d8d4ae
+  0.99.10--r45hdfd78af_0: 
+    sha256:1bfe3736ae1c738d4eb12c450d71f27f10a95d82e47bfd52158857cf47811f5b
 docker: quay.io/biocontainers/bioconductor-excluderanges

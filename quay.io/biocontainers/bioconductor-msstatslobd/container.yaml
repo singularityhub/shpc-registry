@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-msstatslobd
 latest:
-  1.14.0--r44he5774e6_0: 
-    sha256:f2463290e42d1b72828214c7248c58a75edeb6d5e43cf5ec5100f80bdc77bf7f
+  1.18.0--r45ha27e39d_0: 
+    sha256:e3e89f23c1906f5e9dfe4797cadb5cd7ee7659017c4a4a552b8b702909a836c7
 tags:
   1.2.0--r41hc247a5b_2: 
     sha256:67058b031825913c9f78b47fa6b67ba0d15c9c2a53c329a27daf10881e97bcaf
@@ -18,4 +18,6 @@ tags:
     sha256:5d7914bce2bdd726872ecf96f422c332485683c19874833efda34ee7f006a67a
   1.14.0--r44he5774e6_0: 
     sha256:f2463290e42d1b72828214c7248c58a75edeb6d5e43cf5ec5100f80bdc77bf7f
+  1.18.0--r45ha27e39d_0: 
+    sha256:e3e89f23c1906f5e9dfe4797cadb5cd7ee7659017c4a4a552b8b702909a836c7
 docker: quay.io/biocontainers/bioconductor-msstatslobd

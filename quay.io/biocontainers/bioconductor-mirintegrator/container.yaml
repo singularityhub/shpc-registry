@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mirintegrator
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:604397931ab6b40072eb824a3a48e239c98cce088ed6fbcdeb48f579004b2e4b
+  1.40.0--r45hdfd78af_0: 
+    sha256:aa6133006b0889fc27151d7fc36ec85238ec1f076e5f17237f25f2a0ae0d8973
 tags:
   1.8.0--r3.4.1_0: 
     sha256:db03f6778b30c02eb967264eff38cc367cf4078222bc1c3516960de4cf189c6f
@@ -26,6 +26,8 @@ tags:
     sha256:b95e3de04fcd83712cd6d6a48d1d4e32294545782b2b861169c47bf1f5d55327
   1.36.0--r44hdfd78af_0: 
     sha256:604397931ab6b40072eb824a3a48e239c98cce088ed6fbcdeb48f579004b2e4b
+  1.40.0--r45hdfd78af_0: 
+    sha256:aa6133006b0889fc27151d7fc36ec85238ec1f076e5f17237f25f2a0ae0d8973
 docker: quay.io/biocontainers/bioconductor-mirintegrator
 aliases:
   wget: /usr/local/bin/wget

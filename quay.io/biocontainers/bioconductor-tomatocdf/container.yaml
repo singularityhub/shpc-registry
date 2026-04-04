@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tomatocdf
 latest:
-  2.18.0--r44hdfd78af_14: 
-    sha256:16fa9949e2a5da9c17832668cb6ed069eefbeaf6873923243c0b2bc8f0947338
+  2.18.0--r45hdfd78af_15: 
+    sha256:0aaba1bf2e1856a7259827dc11d4781674fb954f2d52b2fcc715ec29beefea8d
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:50957b3f809421f6d9719b93aae2aab8b17aefa3443ce48207d4854755760c3b
@@ -18,4 +18,6 @@ tags:
     sha256:f3463507f1d74798790b9ddd74769db23ed042b88de27f16b1da406b7bcb7e6a
   2.18.0--r44hdfd78af_14: 
     sha256:16fa9949e2a5da9c17832668cb6ed069eefbeaf6873923243c0b2bc8f0947338
+  2.18.0--r45hdfd78af_15: 
+    sha256:0aaba1bf2e1856a7259827dc11d4781674fb954f2d52b2fcc715ec29beefea8d
 docker: quay.io/biocontainers/bioconductor-tomatocdf

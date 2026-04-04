@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-maser
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:e609c0beb401a7266b009fb83bebcd06d1025e89e4d42b236351b78d0f947e9e
+  1.28.0--r45hdfd78af_0: 
+    sha256:e70366df0642bb898203408fcacf9d6a5a25b1580e66794e43c81e74e8424806
 tags:
   1.8.0--r40hdfd78af_0: 
     sha256:d20a73643300ba80f8461a8bc9af1b670f6c2c64f76d203bece8d807a6e0fd40
@@ -20,6 +20,8 @@ tags:
     sha256:c401a765804e1371e21e61731933b06fadd8d0642622ec6e6e1f4cfb599cca83
   1.24.0--r44hdfd78af_0: 
     sha256:e609c0beb401a7266b009fb83bebcd06d1025e89e4d42b236351b78d0f947e9e
+  1.28.0--r45hdfd78af_0: 
+    sha256:e70366df0642bb898203408fcacf9d6a5a25b1580e66794e43c81e74e8424806
 docker: quay.io/biocontainers/bioconductor-maser
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

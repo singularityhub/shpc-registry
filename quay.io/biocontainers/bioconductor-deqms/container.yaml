@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-deqms
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:882c6317997094561993303d228464f9fa3fcd2086ac88201126dffe48b306f5
+  1.28.0--r45hdfd78af_0: 
+    sha256:358d7144d697bea76f04755b3bfd91d384fbb1f6012b62169e2a0300e7a3b426
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:35eba855e5c3e119319cd27d88a9ded1d6c6d33cecf28faf0bd3b45ddf1c21d9
@@ -20,6 +20,8 @@ tags:
     sha256:7e3b6cdaf850d3d607ae7890d3c533e798e7883fa04bbca9a284d8550a39cae4
   1.24.0--r44hdfd78af_0: 
     sha256:882c6317997094561993303d228464f9fa3fcd2086ac88201126dffe48b306f5
+  1.28.0--r45hdfd78af_0: 
+    sha256:358d7144d697bea76f04755b3bfd91d384fbb1f6012b62169e2a0300e7a3b426
 docker: quay.io/biocontainers/bioconductor-deqms
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

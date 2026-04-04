@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 latest:
-  3.20.0--r44hdfd78af_0: 
-    sha256:18be072d63e9a54e70938dd0742f06e3c20b09f43c7890ce2bb83a3d36a5acaf
+  3.22.0--r45hdfd78af_0: 
+    sha256:4f59c24356513dde037a469c8ba0b59c260cedbe0e047638b7a3835cfeb5aae7
 tags:
   3.4.6--r36_1: 
     sha256:caa7feef0197c0ffea3345a9b5cd4977884712c1c66b90c1633308663c75667b
@@ -23,6 +23,8 @@ tags:
     sha256:6521958f632984b6664ee272eca8363fb3e9a58440b5f82a776b7236703903ee
   3.20.0--r44hdfd78af_0: 
     sha256:18be072d63e9a54e70938dd0742f06e3c20b09f43c7890ce2bb83a3d36a5acaf
+  3.22.0--r45hdfd78af_0: 
+    sha256:4f59c24356513dde037a469c8ba0b59c260cedbe0e047638b7a3835cfeb5aae7
 docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hiiragi2013
 latest:
-  1.41.0--r44hdfd78af_0: 
-    sha256:b4f776bc1e846bcc7ae196c53891245de52c78e81bf881797de63f97ee99d3c4
+  1.46.0--r45hdfd78af_0: 
+    sha256:64296b1c55b29982ef68ad32a133b7aeeb603253cb341a73f68dd65594fe2a9d
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:b133c0b4e5271cb5adf4699013c5af2be89f39326bce8180db3703c011709c86
@@ -16,4 +16,6 @@ tags:
     sha256:9423c6ecd52b475f59ad810d6ef536d0758e774b3202e8524ef85dc169a6427d
   1.41.0--r44hdfd78af_0: 
     sha256:b4f776bc1e846bcc7ae196c53891245de52c78e81bf881797de63f97ee99d3c4
+  1.46.0--r45hdfd78af_0: 
+    sha256:64296b1c55b29982ef68ad32a133b7aeeb603253cb341a73f68dd65594fe2a9d
 docker: quay.io/biocontainers/bioconductor-hiiragi2013

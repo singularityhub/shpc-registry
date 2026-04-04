@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-props
 latest:
-  1.24.0--r43hdfd78af_0: 
-    sha256:794c18d926fd1e22cc0620f6c0da9f9cbd9edc8b169943cca41620f52ed998bd
+  1.32.0--r45hdfd78af_0: 
+    sha256:279b3ec7dcb060dbc858f9576611bea2d044f9fdae326f9db2da9436563912f9
 tags:
   1.8.0--r36_0: 
     sha256:f88c829b4e2d7fe36dd8b34105444f8decdd4c17ba922bd07a392fd10103c861
@@ -22,6 +22,8 @@ tags:
     sha256:6365066f5842b5b1136259bcf4f36b984a2409da5106d7b39d247abea35494e6
   1.24.0--r43hdfd78af_0: 
     sha256:794c18d926fd1e22cc0620f6c0da9f9cbd9edc8b169943cca41620f52ed998bd
+  1.32.0--r45hdfd78af_0: 
+    sha256:279b3ec7dcb060dbc858f9576611bea2d044f9fdae326f9db2da9436563912f9
 docker: quay.io/biocontainers/bioconductor-props
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

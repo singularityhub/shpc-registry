@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mgug4122a.db
 latest:
-  3.2.3--r44hdfd78af_18: 
-    sha256:01fbc4fc47c585fe17c6cc6cd72e1bbc35abd6d4770c328f063081bc7364725b
+  3.2.3--r45hdfd78af_19: 
+    sha256:bc890147e52d721e379486309b848072a336bca4e8088a986ac471441b950548
 tags:
   3.2.3--r40_9: 
     sha256:3ea47a8fb8fef01c581ba427c65bfa45b6fa041fe755abb9c9c7a57ed5f3ac17
@@ -18,6 +18,8 @@ tags:
     sha256:51f795d003d7a6a824bf5021bda4e0663ba7e4079051b18dfef279ab537358ad
   3.2.3--r44hdfd78af_18: 
     sha256:01fbc4fc47c585fe17c6cc6cd72e1bbc35abd6d4770c328f063081bc7364725b
+  3.2.3--r45hdfd78af_19: 
+    sha256:bc890147e52d721e379486309b848072a336bca4e8088a986ac471441b950548
 docker: quay.io/biocontainers/bioconductor-mgug4122a.db
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
