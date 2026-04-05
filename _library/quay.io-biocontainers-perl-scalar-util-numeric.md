@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-scalar-util-numeric"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-scalar-util-numeric/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-scalar-util-numeric/container.yaml"
-updated_at: "2026-04-04 05:00:16.319268"
+updated_at: "2026-04-05 05:13:17.171467"
 latest: "0.40--pl5321h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/perl-scalar-util-numeric"
 aliases:

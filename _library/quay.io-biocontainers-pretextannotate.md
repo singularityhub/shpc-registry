@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pretextannotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextannotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextannotate/container.yaml"
-updated_at: "2026-04-04 04:47:16.229031"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2026-04-05 05:01:58.691123"
+latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pretextannotate"
 aliases:
  - "pretextannotate"
@@ -19,8 +19,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.1.0--pyhdfd78af_0"
+ - "1.1.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pretextannotate"
-config: {"url": "https://biocontainers.pro/tools/pretextannotate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pretextannotate", "latest": {"1.1.0--pyhdfd78af_0": "sha256:d3fc8ec321c002decbdf84912a8ed8a65a690da40de9cfd50226fe68b686d2a8"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:d3fc8ec321c002decbdf84912a8ed8a65a690da40de9cfd50226fe68b686d2a8"}, "docker": "quay.io/biocontainers/pretextannotate", "aliases": {"pretextannotate": "/usr/local/bin/pretextannotate", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/pretextannotate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pretextannotate", "latest": {"1.1.3--pyhdfd78af_0": "sha256:52b79d004d378445a388c3f94cec892a1fbd161e88142cf87b701ef7f8acc009"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:d3fc8ec321c002decbdf84912a8ed8a65a690da40de9cfd50226fe68b686d2a8", "1.1.3--pyhdfd78af_0": "sha256:52b79d004d378445a388c3f94cec892a1fbd161e88142cf87b701ef7f8acc009"}, "docker": "quay.io/biocontainers/pretextannotate", "aliases": {"pretextannotate": "/usr/local/bin/pretextannotate", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pretextannotate.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pretextannotate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pretextannotate:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pretextannotate:1.1.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pretextannotate/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pretextannotate/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pretextannotate/1.1.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/pretextannotate/1.1.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-alabaster.base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alabaster.base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alabaster.base/container.yaml"
-updated_at: "2026-04-04 04:40:10.130835"
-latest: "1.6.0--r44he5774e6_1"
+updated_at: "2026-04-05 04:55:43.309527"
+latest: "1.10.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alabaster.base"
 aliases:
  - "hb-info"
@@ -14,8 +14,10 @@ versions:
  - "1.0.0--r43hf17093f_0"
  - "1.6.0--r44he5774e6_0"
  - "1.6.0--r44he5774e6_1"
+ - "1.10.0--r45ha27e39d_0"
+ - "1.6.1--r44h77050f0_0"
 description: "singularity registry hpc automated addition for bioconductor-alabaster.base"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alabaster.base", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alabaster.base", "latest": {"1.6.0--r44he5774e6_1": "sha256:b5d77a9f3129af17a4660663305e29cba39929f44565e1016c0389e6f0fb258a"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:27be9773d13b7c177dcd022cf77060d39782a788d715d1d7d8ad0f7d8b7d9c97", "1.6.0--r44he5774e6_0": "sha256:d370510934da80f1cf931a018e0627cdaed9f30881370579c0291522270ae04f", "1.6.0--r44he5774e6_1": "sha256:b5d77a9f3129af17a4660663305e29cba39929f44565e1016c0389e6f0fb258a"}, "docker": "quay.io/biocontainers/bioconductor-alabaster.base", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alabaster.base", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alabaster.base", "latest": {"1.10.0--r45ha27e39d_0": "sha256:47697ebe953a170dc02c2bd38f479a6105852db434067a7b902ad2e90dabf56e"}, "tags": {"1.0.0--r43hf17093f_0": "sha256:27be9773d13b7c177dcd022cf77060d39782a788d715d1d7d8ad0f7d8b7d9c97", "1.6.0--r44he5774e6_0": "sha256:d370510934da80f1cf931a018e0627cdaed9f30881370579c0291522270ae04f", "1.6.0--r44he5774e6_1": "sha256:b5d77a9f3129af17a4660663305e29cba39929f44565e1016c0389e6f0fb258a", "1.10.0--r45ha27e39d_0": "sha256:47697ebe953a170dc02c2bd38f479a6105852db434067a7b902ad2e90dabf56e", "1.6.1--r44h77050f0_0": "sha256:53918482c50e687e00fd8bc0399200527bdddecc39adbd83a6aa19a21f59c626"}, "docker": "quay.io/biocontainers/bioconductor-alabaster.base", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alabaster.base.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alabaster.base
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alabaster.base:1.6.0--r44he5774e6_1
+$ shpc install quay.io/biocontainers/bioconductor-alabaster.base:1.10.0--r45ha27e39d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alabaster.base/1.6.0--r44he5774e6_1
-$ module help quay.io/biocontainers/bioconductor-alabaster.base/1.6.0--r44he5774e6_1
+$ module load quay.io/biocontainers/bioconductor-alabaster.base/1.10.0--r45ha27e39d_0
+$ module help quay.io/biocontainers/bioconductor-alabaster.base/1.10.0--r45ha27e39d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

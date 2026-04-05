@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-omiccircos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omiccircos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omiccircos/container.yaml"
-updated_at: "2026-04-04 04:48:48.691310"
-latest: "1.44.0--r44hdfd78af_0"
+updated_at: "2026-04-05 05:03:17.405639"
+latest: "1.48.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omiccircos"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.38.0--r43hdfd78af_0"
  - "1.40.0--r43hdfd78af_0"
  - "1.44.0--r44hdfd78af_0"
+ - "1.48.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omiccircos"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omiccircos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omiccircos", "latest": {"1.44.0--r44hdfd78af_0": "sha256:2cf969829f7ad66badcfc57f78661ab344c62f09de6228e1e6bd125b03cf22ff"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:be43aa4a3c918b29e3f5a91cfce51bd9621c99f8513c3d70b0b118ba010539b9", "1.36.0--r42hdfd78af_0": "sha256:41666a920126468233482cabe75e8be9cb115b890bde9cf43b7dfdfd7a5b4ca0", "1.38.0--r43hdfd78af_0": "sha256:41e8257cf7af4a6bbef93df8533552d760ed959b9e25315b0ced3837d5c5c9f4", "1.40.0--r43hdfd78af_0": "sha256:fd5c3ae6ec4476d61aad2d963fc0f1c5868bcf02c25b277f2060df5f028e2587", "1.44.0--r44hdfd78af_0": "sha256:2cf969829f7ad66badcfc57f78661ab344c62f09de6228e1e6bd125b03cf22ff"}, "docker": "quay.io/biocontainers/bioconductor-omiccircos"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omiccircos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omiccircos", "latest": {"1.48.0--r45hdfd78af_0": "sha256:a8fbc37f6cacd677d08554486dc3dc106994b1ee4f94c3d9a0af459124f4c204"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:be43aa4a3c918b29e3f5a91cfce51bd9621c99f8513c3d70b0b118ba010539b9", "1.36.0--r42hdfd78af_0": "sha256:41666a920126468233482cabe75e8be9cb115b890bde9cf43b7dfdfd7a5b4ca0", "1.38.0--r43hdfd78af_0": "sha256:41e8257cf7af4a6bbef93df8533552d760ed959b9e25315b0ced3837d5c5c9f4", "1.40.0--r43hdfd78af_0": "sha256:fd5c3ae6ec4476d61aad2d963fc0f1c5868bcf02c25b277f2060df5f028e2587", "1.44.0--r44hdfd78af_0": "sha256:2cf969829f7ad66badcfc57f78661ab344c62f09de6228e1e6bd125b03cf22ff", "1.48.0--r45hdfd78af_0": "sha256:a8fbc37f6cacd677d08554486dc3dc106994b1ee4f94c3d9a0af459124f4c204"}, "docker": "quay.io/biocontainers/bioconductor-omiccircos"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omiccircos.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omiccircos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omiccircos:1.44.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-omiccircos:1.48.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omiccircos/1.44.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-omiccircos/1.44.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-omiccircos/1.48.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omiccircos/1.48.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

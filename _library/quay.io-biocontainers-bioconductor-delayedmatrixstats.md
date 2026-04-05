@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-delayedmatrixstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayedmatrixstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayedmatrixstats/container.yaml"
-updated_at: "2026-04-04 04:57:58.513235"
-latest: "1.28.0--r44hdfd78af_0"
+updated_at: "2026-04-05 05:11:17.700130"
+latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayedmatrixstats"
 aliases:
  - "gio-launch-desktop"
@@ -21,8 +21,9 @@ versions:
  - "1.22.1--r43hdfd78af_0"
  - "1.24.0--r43hdfd78af_0"
  - "1.28.0--r44hdfd78af_0"
+ - "1.32.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-delayedmatrixstats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-delayedmatrixstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayedmatrixstats", "latest": {"1.28.0--r44hdfd78af_0": "sha256:2e90d83d05aa57aab236a48aa013b752fd67a4174ad2b468bced361e7d2f1d2f"}, "tags": {"1.8.0--r36_0": "sha256:04fed00155ccd5fb9dabb91eeeb0f34402836695a7220ca3d3b86ddb6c9c7bc1", "1.20.0--r42hdfd78af_0": "sha256:b2e019d410f698f3e2ca92603434212d8d19e861bbd182227714f12cb6285605", "1.16.0--r41hdfd78af_0": "sha256:a9d7586fa7a2783a713dce7361110f6f45be5575154faafebd51dafa5172fb25", "1.14.0--r41hdfd78af_0": "sha256:a7423fef38b1304c7a1dc37c22f08bb8720b2a9ba8183072004d7dcd5b417edc", "1.12.3--r40hdfd78af_0": "sha256:2f5b044acb6ad1eef17525c6587e3fe86d30016f9ff362bc5d66c9bdd8994f89", "1.10.0--r40_0": "sha256:c98b6c6bb8b73e7f86152d6e6509cf54a63e32c59cb132cd7e9f98624b90e0b4", "1.22.1--r43hdfd78af_0": "sha256:4d661d82f512dd63aacaa1a8bcd644c4977c88416df3d4fd2be761678ed5fb88", "1.24.0--r43hdfd78af_0": "sha256:330936be3a2c486f2a416f3a5095f7830ae4627031fa800ab3e204b6786bc5c4", "1.28.0--r44hdfd78af_0": "sha256:2e90d83d05aa57aab236a48aa013b752fd67a4174ad2b468bced361e7d2f1d2f"}, "docker": "quay.io/biocontainers/bioconductor-delayedmatrixstats", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-delayedmatrixstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-delayedmatrixstats", "latest": {"1.32.0--r45hdfd78af_0": "sha256:98abb5642418ae70fe9f21a083877b186d317addd7878980c3a28bb1af2d63b7"}, "tags": {"1.8.0--r36_0": "sha256:04fed00155ccd5fb9dabb91eeeb0f34402836695a7220ca3d3b86ddb6c9c7bc1", "1.20.0--r42hdfd78af_0": "sha256:b2e019d410f698f3e2ca92603434212d8d19e861bbd182227714f12cb6285605", "1.16.0--r41hdfd78af_0": "sha256:a9d7586fa7a2783a713dce7361110f6f45be5575154faafebd51dafa5172fb25", "1.14.0--r41hdfd78af_0": "sha256:a7423fef38b1304c7a1dc37c22f08bb8720b2a9ba8183072004d7dcd5b417edc", "1.12.3--r40hdfd78af_0": "sha256:2f5b044acb6ad1eef17525c6587e3fe86d30016f9ff362bc5d66c9bdd8994f89", "1.10.0--r40_0": "sha256:c98b6c6bb8b73e7f86152d6e6509cf54a63e32c59cb132cd7e9f98624b90e0b4", "1.22.1--r43hdfd78af_0": "sha256:4d661d82f512dd63aacaa1a8bcd644c4977c88416df3d4fd2be761678ed5fb88", "1.24.0--r43hdfd78af_0": "sha256:330936be3a2c486f2a416f3a5095f7830ae4627031fa800ab3e204b6786bc5c4", "1.28.0--r44hdfd78af_0": "sha256:2e90d83d05aa57aab236a48aa013b752fd67a4174ad2b468bced361e7d2f1d2f", "1.32.0--r45hdfd78af_0": "sha256:98abb5642418ae70fe9f21a083877b186d317addd7878980c3a28bb1af2d63b7"}, "docker": "quay.io/biocontainers/bioconductor-delayedmatrixstats", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-delayedmatrixstats.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-delayedmatrixstats
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-delayedmatrixstats:1.28.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-delayedmatrixstats:1.32.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-delayedmatrixstats/1.28.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-delayedmatrixstats/1.28.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-delayedmatrixstats/1.32.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-delayedmatrixstats/1.32.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

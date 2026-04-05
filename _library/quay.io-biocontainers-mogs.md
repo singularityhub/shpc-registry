@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mogs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mogs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mogs/container.yaml"
-updated_at: "2026-04-04 04:42:11.350112"
-latest: "0.1.2--h2211461_0"
+updated_at: "2026-04-05 04:57:31.123997"
+latest: "0.2.0--h2211461_0"
 container_url: "https://biocontainers.pro/tools/mogs"
 aliases:
  - "mogs"
 versions:
  - "0.1.2--h2211461_0"
+ - "0.2.0--h2211461_0"
 description: "singularity registry hpc automated addition for mogs"
-config: {"url": "https://biocontainers.pro/tools/mogs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mogs", "latest": {"0.1.2--h2211461_0": "sha256:2cbf339f45fe4a3a3763f09db051e0f57c3a78d0743659dbdd66a9179f4446fd"}, "tags": {"0.1.2--h2211461_0": "sha256:2cbf339f45fe4a3a3763f09db051e0f57c3a78d0743659dbdd66a9179f4446fd"}, "docker": "quay.io/biocontainers/mogs", "aliases": {"mogs": "/usr/local/bin/mogs"}}
+config: {"url": "https://biocontainers.pro/tools/mogs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mogs", "latest": {"0.2.0--h2211461_0": "sha256:864d2d65493cd85480605e7753ce3ba77076fccf013134d5a9a9eb99d47b5c8f"}, "tags": {"0.1.2--h2211461_0": "sha256:2cbf339f45fe4a3a3763f09db051e0f57c3a78d0743659dbdd66a9179f4446fd", "0.2.0--h2211461_0": "sha256:864d2d65493cd85480605e7753ce3ba77076fccf013134d5a9a9eb99d47b5c8f"}, "docker": "quay.io/biocontainers/mogs", "aliases": {"mogs": "/usr/local/bin/mogs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mogs.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mogs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mogs:0.1.2--h2211461_0
+$ shpc install quay.io/biocontainers/mogs:0.2.0--h2211461_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mogs/0.1.2--h2211461_0
-$ module help quay.io/biocontainers/mogs/0.1.2--h2211461_0
+$ module load quay.io/biocontainers/mogs/0.2.0--h2211461_0
+$ module help quay.io/biocontainers/mogs/0.2.0--h2211461_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

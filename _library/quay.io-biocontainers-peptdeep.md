@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peptdeep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peptdeep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peptdeep/container.yaml"
-updated_at: "2026-04-04 04:30:31.773799"
-latest: "1.4.1--pyhdfd78af_1"
+updated_at: "2026-04-05 04:47:09.754925"
+latest: "1.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peptdeep"
 aliases:
  - "alpharaw"
@@ -41,8 +41,9 @@ aliases:
  - "h5fuse"
 versions:
  - "1.4.1--pyhdfd78af_1"
+ - "1.4.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for peptdeep"
-config: {"url": "https://biocontainers.pro/tools/peptdeep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peptdeep", "latest": {"1.4.1--pyhdfd78af_1": "sha256:4931f9ccb6302a5a89501661b8dc51439877c0b64df8c25a4f3e0ce69b87fbc2"}, "tags": {"1.4.1--pyhdfd78af_1": "sha256:4931f9ccb6302a5a89501661b8dc51439877c0b64df8c25a4f3e0ce69b87fbc2"}, "docker": "quay.io/biocontainers/peptdeep", "aliases": {"alpharaw": "/usr/local/bin/alpharaw", "alphatims": "/usr/local/bin/alphatims", "hf": "/usr/local/bin/hf", "peptdeep": "/usr/local/bin/peptdeep", "tiny-agents": "/usr/local/bin/tiny-agents", "transformers": "/usr/local/bin/transformers", "xxh3sum": "/usr/local/bin/xxh3sum", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "typer": "/usr/local/bin/typer", "httpx": "/usr/local/bin/httpx", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "h5fuse": "/usr/local/bin/h5fuse"}}
+config: {"url": "https://biocontainers.pro/tools/peptdeep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peptdeep", "latest": {"1.4.2--pyhdfd78af_0": "sha256:0693db685f670f2827ba3de32b61c77280a44b009afd3b973ba91f037aa0b94f"}, "tags": {"1.4.1--pyhdfd78af_1": "sha256:4931f9ccb6302a5a89501661b8dc51439877c0b64df8c25a4f3e0ce69b87fbc2", "1.4.2--pyhdfd78af_0": "sha256:0693db685f670f2827ba3de32b61c77280a44b009afd3b973ba91f037aa0b94f"}, "docker": "quay.io/biocontainers/peptdeep", "aliases": {"alpharaw": "/usr/local/bin/alpharaw", "alphatims": "/usr/local/bin/alphatims", "hf": "/usr/local/bin/hf", "peptdeep": "/usr/local/bin/peptdeep", "tiny-agents": "/usr/local/bin/tiny-agents", "transformers": "/usr/local/bin/transformers", "xxh3sum": "/usr/local/bin/xxh3sum", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "typer": "/usr/local/bin/typer", "httpx": "/usr/local/bin/httpx", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "h5fuse": "/usr/local/bin/h5fuse"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peptdeep.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/peptdeep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peptdeep:1.4.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/peptdeep:1.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peptdeep/1.4.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/peptdeep/1.4.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/peptdeep/1.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/peptdeep/1.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

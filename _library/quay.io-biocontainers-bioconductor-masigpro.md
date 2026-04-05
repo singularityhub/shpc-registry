@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-masigpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-masigpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-masigpro/container.yaml"
-updated_at: "2026-04-04 05:03:07.476305"
+updated_at: "2026-04-05 05:15:43.813424"
 latest: "1.82.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-masigpro"
 

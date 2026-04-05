@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rhinotype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rhinotype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rhinotype/container.yaml"
-updated_at: "2026-04-04 04:56:27.008672"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2026-04-05 05:09:58.998456"
+latest: "3.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rhinotype"
 aliases:
  - "rhinotype"
@@ -36,8 +36,9 @@ aliases:
  - "nwns"
 versions:
  - "2.0.0--pyhdfd78af_0"
+ - "3.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for rhinotype"
-config: {"url": "https://biocontainers.pro/tools/rhinotype", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rhinotype", "latest": {"2.0.0--pyhdfd78af_0": "sha256:dab6dffa9b2132648c4cb62686a798fef9aa772d1fe9bfcbabca39c52223537c"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:dab6dffa9b2132648c4cb62686a798fef9aa772d1fe9bfcbabca39c52223537c"}, "docker": "quay.io/biocontainers/rhinotype", "aliases": {"rhinotype": "/usr/local/bin/rhinotype", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "gawkbug": "/usr/local/bin/gawkbug", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns"}}
+config: {"url": "https://biocontainers.pro/tools/rhinotype", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rhinotype", "latest": {"3.0.0--pyhdfd78af_0": "sha256:c561cc25ae589e96f817681c12cab5fe72af0e372c22fe6d769bb327f7d36d08"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:dab6dffa9b2132648c4cb62686a798fef9aa772d1fe9bfcbabca39c52223537c", "3.0.0--pyhdfd78af_0": "sha256:c561cc25ae589e96f817681c12cab5fe72af0e372c22fe6d769bb327f7d36d08"}, "docker": "quay.io/biocontainers/rhinotype", "aliases": {"rhinotype": "/usr/local/bin/rhinotype", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "gawkbug": "/usr/local/bin/gawkbug", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rhinotype.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/rhinotype
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rhinotype:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/rhinotype:3.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rhinotype/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/rhinotype/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/rhinotype/3.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/rhinotype/3.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

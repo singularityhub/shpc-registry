@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viral-host-hunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral-host-hunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viral-host-hunter/container.yaml"
-updated_at: "2026-04-04 05:07:06.842030"
-latest: "0.1.11--pyhdfd78af_0"
+updated_at: "2026-04-05 05:19:06.871944"
+latest: "0.2.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/viral-host-hunter"
 aliases:
  - "datasets-cli"
@@ -54,8 +54,9 @@ aliases:
  - "elastipubsub"
 versions:
  - "0.1.11--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for viral-host-hunter"
-config: {"url": "https://biocontainers.pro/tools/viral-host-hunter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viral-host-hunter", "latest": {"0.1.11--pyhdfd78af_0": "sha256:855e42de7b9424cab164026f1d84cd5611e99b920f526894cddfd104e949f946"}, "tags": {"0.1.11--pyhdfd78af_0": "sha256:855e42de7b9424cab164026f1d84cd5611e99b920f526894cddfd104e949f946"}, "docker": "quay.io/biocontainers/viral-host-hunter", "aliases": {"datasets-cli": "/usr/local/bin/datasets-cli", "hf": "/usr/local/bin/hf", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "spm_decode": "/usr/local/bin/spm_decode", "spm_encode": "/usr/local/bin/spm_encode", "spm_export_vocab": "/usr/local/bin/spm_export_vocab", "spm_normalize": "/usr/local/bin/spm_normalize", "spm_train": "/usr/local/bin/spm_train", "tiny-agents": "/usr/local/bin/tiny-agents", "transformers": "/usr/local/bin/transformers", "transformers-cli": "/usr/local/bin/transformers-cli", "vhh-predict": "/usr/local/bin/vhh-predict", "vhh-predict-gut": "/usr/local/bin/vhh-predict-gut", "vhh-predict-multi": "/usr/local/bin/vhh-predict-multi", "vhh-train-gut": "/usr/local/bin/vhh-train-gut", "vhh-train-multi": "/usr/local/bin/vhh-train-multi", "xxh3sum": "/usr/local/bin/xxh3sum", "huggingface-cli": "/usr/local/bin/huggingface-cli", "h2benchmark": "/usr/local/bin/h2benchmark", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "get_gprof": "/usr/local/bin/get_gprof", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub"}}
+config: {"url": "https://biocontainers.pro/tools/viral-host-hunter", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viral-host-hunter", "latest": {"0.2.0--pyhdfd78af_1": "sha256:f047a533e3bbe2f080d80ba0e8f1ebf6e9eab84632c712de707476e51fb805cf"}, "tags": {"0.1.11--pyhdfd78af_0": "sha256:855e42de7b9424cab164026f1d84cd5611e99b920f526894cddfd104e949f946", "0.2.0--pyhdfd78af_1": "sha256:f047a533e3bbe2f080d80ba0e8f1ebf6e9eab84632c712de707476e51fb805cf"}, "docker": "quay.io/biocontainers/viral-host-hunter", "aliases": {"datasets-cli": "/usr/local/bin/datasets-cli", "hf": "/usr/local/bin/hf", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "spm_decode": "/usr/local/bin/spm_decode", "spm_encode": "/usr/local/bin/spm_encode", "spm_export_vocab": "/usr/local/bin/spm_export_vocab", "spm_normalize": "/usr/local/bin/spm_normalize", "spm_train": "/usr/local/bin/spm_train", "tiny-agents": "/usr/local/bin/tiny-agents", "transformers": "/usr/local/bin/transformers", "transformers-cli": "/usr/local/bin/transformers-cli", "vhh-predict": "/usr/local/bin/vhh-predict", "vhh-predict-gut": "/usr/local/bin/vhh-predict-gut", "vhh-predict-multi": "/usr/local/bin/vhh-predict-multi", "vhh-train-gut": "/usr/local/bin/vhh-train-gut", "vhh-train-multi": "/usr/local/bin/vhh-train-multi", "xxh3sum": "/usr/local/bin/xxh3sum", "huggingface-cli": "/usr/local/bin/huggingface-cli", "h2benchmark": "/usr/local/bin/h2benchmark", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "get_gprof": "/usr/local/bin/get_gprof", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viral-host-hunter.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/viral-host-hunter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viral-host-hunter:0.1.11--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/viral-host-hunter:0.2.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viral-host-hunter/0.1.11--pyhdfd78af_0
-$ module help quay.io/biocontainers/viral-host-hunter/0.1.11--pyhdfd78af_0
+$ module load quay.io/biocontainers/viral-host-hunter/0.2.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/viral-host-hunter/0.2.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

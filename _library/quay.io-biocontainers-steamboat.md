@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/steamboat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/steamboat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/steamboat/container.yaml"
-updated_at: "2026-04-04 04:27:53.479407"
+updated_at: "2026-04-05 04:44:48.394232"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/steamboat"
 aliases:

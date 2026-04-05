@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/proteowizard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteowizard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteowizard/container.yaml"
-updated_at: "2026-04-04 05:19:47.564816"
-latest: "3_0_9992--h2d50403_2"
+updated_at: "2026-04-05 05:30:09.362351"
+latest: "3_0_25292_c9a6a18--h9948957_0"
 container_url: "https://biocontainers.pro/tools/proteowizard"
 aliases:
  - "chainsaw"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "3_0_9992--h2d50403_2"
  - "3.0.9992"
+ - "3_0_25292_c9a6a18--h9948957_0"
 description: "shpc-registry automated BioContainers addition for proteowizard"
-config: {"url": "https://biocontainers.pro/tools/proteowizard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteowizard", "latest": {"3_0_9992--h2d50403_2": "sha256:545dfae1435f88ae1f68c855860d56c7e784492fc0d0eff7563822e5222d4141"}, "tags": {"3_0_9992--h2d50403_2": "sha256:545dfae1435f88ae1f68c855860d56c7e784492fc0d0eff7563822e5222d4141", "3.0.9992": "sha256:eaf9f7b9a1129c954cd3eaa7a079c8a7d51898a8b87578eaf77093f75a12659c"}, "docker": "quay.io/biocontainers/proteowizard", "aliases": {"chainsaw": "/usr/local/bin/chainsaw", "idcat": "/usr/local/bin/idcat", "idconvert": "/usr/local/bin/idconvert", "msaccess": "/usr/local/bin/msaccess", "msbenchmark": "/usr/local/bin/msbenchmark", "mscat": "/usr/local/bin/mscat", "msconvert": "/usr/local/bin/msconvert", "msdiff": "/usr/local/bin/msdiff", "msdir": "/usr/local/bin/msdir", "msistats": "/usr/local/bin/msistats", "mspicture": "/usr/local/bin/mspicture", "peakaboo": "/usr/local/bin/peakaboo", "pepcat": "/usr/local/bin/pepcat", "pepsum": "/usr/local/bin/pepsum", "qtofpeakpicker": "/usr/local/bin/qtofpeakpicker", "sldout": "/usr/local/bin/sldout", "txt2mzml": "/usr/local/bin/txt2mzml"}}
+config: {"url": "https://biocontainers.pro/tools/proteowizard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteowizard", "latest": {"3_0_25292_c9a6a18--h9948957_0": "sha256:a3defa2be5b629baa4c5d33b021d276b0c5bf03f01dc3b2f0c382236adbd68dd"}, "tags": {"3_0_9992--h2d50403_2": "sha256:545dfae1435f88ae1f68c855860d56c7e784492fc0d0eff7563822e5222d4141", "3.0.9992": "sha256:eaf9f7b9a1129c954cd3eaa7a079c8a7d51898a8b87578eaf77093f75a12659c", "3_0_25292_c9a6a18--h9948957_0": "sha256:a3defa2be5b629baa4c5d33b021d276b0c5bf03f01dc3b2f0c382236adbd68dd"}, "docker": "quay.io/biocontainers/proteowizard", "aliases": {"chainsaw": "/usr/local/bin/chainsaw", "idcat": "/usr/local/bin/idcat", "idconvert": "/usr/local/bin/idconvert", "msaccess": "/usr/local/bin/msaccess", "msbenchmark": "/usr/local/bin/msbenchmark", "mscat": "/usr/local/bin/mscat", "msconvert": "/usr/local/bin/msconvert", "msdiff": "/usr/local/bin/msdiff", "msdir": "/usr/local/bin/msdir", "msistats": "/usr/local/bin/msistats", "mspicture": "/usr/local/bin/mspicture", "peakaboo": "/usr/local/bin/peakaboo", "pepcat": "/usr/local/bin/pepcat", "pepsum": "/usr/local/bin/pepsum", "qtofpeakpicker": "/usr/local/bin/qtofpeakpicker", "sldout": "/usr/local/bin/sldout", "txt2mzml": "/usr/local/bin/txt2mzml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteowizard.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/proteowizard
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteowizard:3_0_9992--h2d50403_2
+$ shpc install quay.io/biocontainers/proteowizard:3_0_25292_c9a6a18--h9948957_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteowizard/3_0_9992--h2d50403_2
-$ module help quay.io/biocontainers/proteowizard/3_0_9992--h2d50403_2
+$ module load quay.io/biocontainers/proteowizard/3_0_25292_c9a6a18--h9948957_0
+$ module help quay.io/biocontainers/proteowizard/3_0_25292_c9a6a18--h9948957_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

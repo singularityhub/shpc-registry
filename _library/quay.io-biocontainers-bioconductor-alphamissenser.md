@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-alphamissenser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alphamissenser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alphamissenser/container.yaml"
-updated_at: "2026-04-04 05:13:56.401445"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-04-05 05:25:00.466088"
+latest: "1.6.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alphamissenser"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.1--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-alphamissenser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alphamissenser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alphamissenser", "latest": {"1.2.0--r44hdfd78af_0": "sha256:01c4c85d8eb0ad315a7c57d3531a1c9e2f7125fd2aca951ffe49cf9a70930d6f"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:01c4c85d8eb0ad315a7c57d3531a1c9e2f7125fd2aca951ffe49cf9a70930d6f"}, "docker": "quay.io/biocontainers/bioconductor-alphamissenser", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alphamissenser", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-alphamissenser", "latest": {"1.6.1--r45hdfd78af_0": "sha256:9fc7606ecf1d5299f7323f49ff707673429480ebbb17fbab2463c84f849d5c51"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:01c4c85d8eb0ad315a7c57d3531a1c9e2f7125fd2aca951ffe49cf9a70930d6f", "1.6.1--r45hdfd78af_0": "sha256:9fc7606ecf1d5299f7323f49ff707673429480ebbb17fbab2463c84f849d5c51"}, "docker": "quay.io/biocontainers/bioconductor-alphamissenser", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alphamissenser.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alphamissenser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alphamissenser:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alphamissenser:1.6.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alphamissenser/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alphamissenser/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alphamissenser/1.6.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-alphamissenser/1.6.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

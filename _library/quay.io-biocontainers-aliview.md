@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aliview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aliview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aliview/container.yaml"
-updated_at: "2026-04-04 04:56:02.502473"
-latest: "1.30--hdfd78af_0"
+updated_at: "2026-04-05 05:09:37.913341"
+latest: "1.31--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aliview"
 aliases:
  - "aliview"
@@ -37,8 +37,9 @@ aliases:
  - "jinfo"
 versions:
  - "1.30--hdfd78af_0"
+ - "1.31--hdfd78af_0"
 description: "singularity registry hpc automated addition for aliview"
-config: {"url": "https://biocontainers.pro/tools/aliview", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aliview", "latest": {"1.30--hdfd78af_0": "sha256:3c9ba492c25336b53b6096898fd77175399548852ee996ca091640c07394fa1d"}, "tags": {"1.30--hdfd78af_0": "sha256:3c9ba492c25336b53b6096898fd77175399548852ee996ca091640c07394fa1d"}, "docker": "quay.io/biocontainers/aliview", "aliases": {"aliview": "/usr/local/bin/aliview", "aliview-test": "/usr/local/bin/aliview-test", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/aliview", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aliview", "latest": {"1.31--hdfd78af_0": "sha256:52547c0447f7a727093bdf804d532c0e0234d21ce3a3175aa52347d2b4547b6e"}, "tags": {"1.30--hdfd78af_0": "sha256:3c9ba492c25336b53b6096898fd77175399548852ee996ca091640c07394fa1d", "1.31--hdfd78af_0": "sha256:52547c0447f7a727093bdf804d532c0e0234d21ce3a3175aa52347d2b4547b6e"}, "docker": "quay.io/biocontainers/aliview", "aliases": {"aliview": "/usr/local/bin/aliview", "aliview-test": "/usr/local/bin/aliview-test", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aliview.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/aliview
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aliview:1.30--hdfd78af_0
+$ shpc install quay.io/biocontainers/aliview:1.31--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aliview/1.30--hdfd78af_0
-$ module help quay.io/biocontainers/aliview/1.30--hdfd78af_0
+$ module load quay.io/biocontainers/aliview/1.31--hdfd78af_0
+$ module help quay.io/biocontainers/aliview/1.31--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

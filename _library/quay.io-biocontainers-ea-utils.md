@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ea-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ea-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ea-utils/container.yaml"
-updated_at: "2026-04-04 05:05:21.910331"
+updated_at: "2026-04-05 05:17:37.992301"
 latest: "1.1.2.779--h543ed2d_2"
 container_url: "https://biocontainers.pro/tools/ea-utils"
 aliases:

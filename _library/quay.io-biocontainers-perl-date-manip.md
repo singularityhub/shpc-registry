@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-date-manip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-date-manip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-date-manip/container.yaml"
-updated_at: "2026-04-04 04:25:45.910193"
-latest: "6.98--pl5321hdfd78af_0"
+updated_at: "2026-04-05 04:42:54.014310"
+latest: "6.99--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-date-manip"
 aliases:
  - "dm_date"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "6.88--pl5321hdfd78af_0"
  - "6.98--pl5321hdfd78af_0"
+ - "6.99--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-date-manip"
-config: {"url": "https://biocontainers.pro/tools/perl-date-manip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-date-manip", "latest": {"6.98--pl5321hdfd78af_0": "sha256:f372da06249dc22b6a1ff8776ad7bd70e0f9184207ef27d891660b488f3076dd"}, "tags": {"6.88--pl5321hdfd78af_0": "sha256:40d5912a2e28cd49e7400f1c77f201b0a479b0636e53929f20c2c1ff36b4d260", "6.98--pl5321hdfd78af_0": "sha256:f372da06249dc22b6a1ff8776ad7bd70e0f9184207ef27d891660b488f3076dd"}, "docker": "quay.io/biocontainers/perl-date-manip", "aliases": {"dm_date": "/usr/local/bin/dm_date", "dm_zdump": "/usr/local/bin/dm_zdump", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-date-manip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-date-manip", "latest": {"6.99--pl5321hdfd78af_0": "sha256:484876bd82672e7ea5e541fe80eab9177c682c39cc81a3f02b00cb11c60310fd"}, "tags": {"6.88--pl5321hdfd78af_0": "sha256:40d5912a2e28cd49e7400f1c77f201b0a479b0636e53929f20c2c1ff36b4d260", "6.98--pl5321hdfd78af_0": "sha256:f372da06249dc22b6a1ff8776ad7bd70e0f9184207ef27d891660b488f3076dd", "6.99--pl5321hdfd78af_0": "sha256:484876bd82672e7ea5e541fe80eab9177c682c39cc81a3f02b00cb11c60310fd"}, "docker": "quay.io/biocontainers/perl-date-manip", "aliases": {"dm_date": "/usr/local/bin/dm_date", "dm_zdump": "/usr/local/bin/dm_zdump", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-date-manip.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-date-manip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-date-manip:6.98--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-date-manip:6.99--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-date-manip/6.98--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-date-manip/6.98--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-date-manip/6.99--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-date-manip/6.99--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

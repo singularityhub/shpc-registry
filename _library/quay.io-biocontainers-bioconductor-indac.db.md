@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-indac.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-indac.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-indac.db/container.yaml"
-updated_at: "2026-04-04 04:27:49.567375"
-latest: "3.2.3--r43hdfd78af_12"
+updated_at: "2026-04-05 04:44:44.826957"
+latest: "3.2.3--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-indac.db"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "3.2.3--r42hdfd78af_10"
  - "3.2.3--r43hdfd78af_11"
  - "3.2.3--r43hdfd78af_12"
+ - "3.2.3--r45hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-indac.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-indac.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-indac.db", "latest": {"3.2.3--r43hdfd78af_12": "sha256:318c90e72a2079996e798434ecde94b196d648a7dfeedac40ddde8119c96e19b"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:7b5422bed32c3aacb02169bead5c7efd1f657d0735a196a4ae48bf9208e834ee", "3.2.3--r42hdfd78af_10": "sha256:b24dc097c3597e2e4bfc3e57c3f25829cf7f32b686b9f7496bba3193e3954cc1", "3.2.3--r43hdfd78af_11": "sha256:1bcf2c7691269b7c4a9465eaab550c584d2d686fef8f16e068ee00f7ad892161", "3.2.3--r43hdfd78af_12": "sha256:318c90e72a2079996e798434ecde94b196d648a7dfeedac40ddde8119c96e19b"}, "docker": "quay.io/biocontainers/bioconductor-indac.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-indac.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-indac.db", "latest": {"3.2.3--r45hdfd78af_14": "sha256:08b6a979909db09ac541f4305ba600d03cbaf637c4e09b3f2a7f89ebfe4c8156"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:7b5422bed32c3aacb02169bead5c7efd1f657d0735a196a4ae48bf9208e834ee", "3.2.3--r42hdfd78af_10": "sha256:b24dc097c3597e2e4bfc3e57c3f25829cf7f32b686b9f7496bba3193e3954cc1", "3.2.3--r43hdfd78af_11": "sha256:1bcf2c7691269b7c4a9465eaab550c584d2d686fef8f16e068ee00f7ad892161", "3.2.3--r43hdfd78af_12": "sha256:318c90e72a2079996e798434ecde94b196d648a7dfeedac40ddde8119c96e19b", "3.2.3--r45hdfd78af_14": "sha256:08b6a979909db09ac541f4305ba600d03cbaf637c4e09b3f2a7f89ebfe4c8156"}, "docker": "quay.io/biocontainers/bioconductor-indac.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-indac.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-indac.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-indac.db:3.2.3--r43hdfd78af_12
+$ shpc install quay.io/biocontainers/bioconductor-indac.db:3.2.3--r45hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-indac.db/3.2.3--r43hdfd78af_12
-$ module help quay.io/biocontainers/bioconductor-indac.db/3.2.3--r43hdfd78af_12
+$ module load quay.io/biocontainers/bioconductor-indac.db/3.2.3--r45hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-indac.db/3.2.3--r45hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

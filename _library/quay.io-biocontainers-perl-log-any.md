@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-log-any"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-log-any/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-log-any/container.yaml"
-updated_at: "2026-04-04 04:21:53.378247"
-latest: "1.718--pl5321hdfd78af_0"
+updated_at: "2026-04-05 04:39:29.205256"
+latest: "1.719--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-log-any"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.710--pl5321hdfd78af_0"
  - "1.718--pl5321hdfd78af_0"
+ - "1.719--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-log-any"
-config: {"url": "https://biocontainers.pro/tools/perl-log-any", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-log-any", "latest": {"1.718--pl5321hdfd78af_0": "sha256:a6f72754459fa4e176ca6104900c8c60a57806b472e5aec8c1a9cfbeadfd65d9"}, "tags": {"1.710--pl5321hdfd78af_0": "sha256:d29ad40e05510837a43ccd6095abba878e4f91742d24d41969371bc2f5505e00", "1.718--pl5321hdfd78af_0": "sha256:a6f72754459fa4e176ca6104900c8c60a57806b472e5aec8c1a9cfbeadfd65d9"}, "docker": "quay.io/biocontainers/perl-log-any", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-log-any", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-log-any", "latest": {"1.719--pl5321hdfd78af_0": "sha256:cd95bdcc4ad9daeffd5d8e6339d72e4fc9fa18765c6742783df88e31abb7cbcb"}, "tags": {"1.710--pl5321hdfd78af_0": "sha256:d29ad40e05510837a43ccd6095abba878e4f91742d24d41969371bc2f5505e00", "1.718--pl5321hdfd78af_0": "sha256:a6f72754459fa4e176ca6104900c8c60a57806b472e5aec8c1a9cfbeadfd65d9", "1.719--pl5321hdfd78af_0": "sha256:cd95bdcc4ad9daeffd5d8e6339d72e4fc9fa18765c6742783df88e31abb7cbcb"}, "docker": "quay.io/biocontainers/perl-log-any", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-log-any.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-log-any
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-log-any:1.718--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-log-any:1.719--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-log-any/1.718--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-log-any/1.718--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-log-any/1.719--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-log-any/1.719--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

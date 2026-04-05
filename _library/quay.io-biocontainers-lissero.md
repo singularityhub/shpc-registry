@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lissero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lissero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lissero/container.yaml"
-updated_at: "2026-04-04 04:47:22.982528"
+updated_at: "2026-04-05 05:02:04.456073"
 latest: "0.4.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lissero"
 aliases:

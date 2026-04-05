@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ervdetective"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ervdetective/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ervdetective/container.yaml"
-updated_at: "2026-04-04 04:46:19.159037"
+updated_at: "2026-04-05 05:01:09.332171"
 latest: "1.0.9--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ervdetective"
 aliases:

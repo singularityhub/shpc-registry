@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/simplesam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simplesam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simplesam/container.yaml"
-updated_at: "2026-04-04 05:04:55.958849"
-latest: "0.1.4.1--pyh5e36f6f_0"
+updated_at: "2026-04-05 05:17:16.040827"
+latest: "0.1.4.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/simplesam"
 aliases:
  - "pileup.py"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.4.1--pyh5e36f6f_0"
+ - "0.1.4.2--pyh106432d_0"
 description: "shpc-registry automated BioContainers addition for simplesam"
-config: {"url": "https://biocontainers.pro/tools/simplesam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simplesam", "latest": {"0.1.4.1--pyh5e36f6f_0": "sha256:15b9b1fb52e18ddfbef9d0a1ef0f1ffd715c91c204612baeaa740d12682ae9b8"}, "tags": {"0.1.4.1--pyh5e36f6f_0": "sha256:15b9b1fb52e18ddfbef9d0a1ef0f1ffd715c91c204612baeaa740d12682ae9b8"}, "docker": "quay.io/biocontainers/simplesam", "aliases": {"pileup.py": "/usr/local/bin/pileup.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/simplesam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simplesam", "latest": {"0.1.4.2--pyh106432d_0": "sha256:56653fd61017e5bc77bf87bb789dba1e57a3e89e3f1819f07dd18efee9d55a91"}, "tags": {"0.1.4.1--pyh5e36f6f_0": "sha256:15b9b1fb52e18ddfbef9d0a1ef0f1ffd715c91c204612baeaa740d12682ae9b8", "0.1.4.2--pyh106432d_0": "sha256:56653fd61017e5bc77bf87bb789dba1e57a3e89e3f1819f07dd18efee9d55a91"}, "docker": "quay.io/biocontainers/simplesam", "aliases": {"pileup.py": "/usr/local/bin/pileup.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simplesam.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/simplesam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simplesam:0.1.4.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/simplesam:0.1.4.2--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simplesam/0.1.4.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/simplesam/0.1.4.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/simplesam/0.1.4.2--pyh106432d_0
+$ module help quay.io/biocontainers/simplesam/0.1.4.2--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

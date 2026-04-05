@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wiggleplotr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wiggleplotr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wiggleplotr/container.yaml"
-updated_at: "2026-04-04 04:41:54.943133"
+updated_at: "2026-04-05 04:57:16.484520"
 latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wiggleplotr"
 aliases:

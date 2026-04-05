@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-piano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-piano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-piano/container.yaml"
-updated_at: "2026-04-04 04:29:19.121969"
-latest: "2.22.0--r44hdfd78af_0"
+updated_at: "2026-04-05 04:46:04.774332"
+latest: "2.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-piano"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -16,8 +16,9 @@ versions:
  - "2.16.0--r43hdfd78af_0"
  - "2.18.0--r43hdfd78af_0"
  - "2.22.0--r44hdfd78af_0"
+ - "2.26.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-piano"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-piano", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-piano", "latest": {"2.22.0--r44hdfd78af_0": "sha256:f9ab3ee7c2e8ac3db6616f9e46da4166271bcab3a3e83fb400bfda85f645ba01"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:5e73e4e0165d1d2f788c7ca797628684b466512b60a5bc68583beb9096d3cc3f", "2.14.0--r42hdfd78af_0": "sha256:1783ae80860735d738e07682369ecb6a5a3c094bb0bb37a6d9d1ccbe5751863e", "2.10.0--r41hdfd78af_0": "sha256:929c378bc0222dde8c2c79705c33e914e9efc6368c57a76f3d749840146722c1", "2.16.0--r43hdfd78af_0": "sha256:48c9c156ab37c88cc48e62583cec06034258eea0045271857e72ba0e06028152", "2.18.0--r43hdfd78af_0": "sha256:a58da83638f75c1a99730b7a775619d58ce03918950afca62cbf722b8452ff7c", "2.22.0--r44hdfd78af_0": "sha256:f9ab3ee7c2e8ac3db6616f9e46da4166271bcab3a3e83fb400bfda85f645ba01"}, "docker": "quay.io/biocontainers/bioconductor-piano", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-piano", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-piano", "latest": {"2.26.0--r45hdfd78af_0": "sha256:e25f3ead4b80af3de35407803dbb2273b284d1aab98c678a647eae3ce3b488a1"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:5e73e4e0165d1d2f788c7ca797628684b466512b60a5bc68583beb9096d3cc3f", "2.14.0--r42hdfd78af_0": "sha256:1783ae80860735d738e07682369ecb6a5a3c094bb0bb37a6d9d1ccbe5751863e", "2.10.0--r41hdfd78af_0": "sha256:929c378bc0222dde8c2c79705c33e914e9efc6368c57a76f3d749840146722c1", "2.16.0--r43hdfd78af_0": "sha256:48c9c156ab37c88cc48e62583cec06034258eea0045271857e72ba0e06028152", "2.18.0--r43hdfd78af_0": "sha256:a58da83638f75c1a99730b7a775619d58ce03918950afca62cbf722b8452ff7c", "2.22.0--r44hdfd78af_0": "sha256:f9ab3ee7c2e8ac3db6616f9e46da4166271bcab3a3e83fb400bfda85f645ba01", "2.26.0--r45hdfd78af_0": "sha256:e25f3ead4b80af3de35407803dbb2273b284d1aab98c678a647eae3ce3b488a1"}, "docker": "quay.io/biocontainers/bioconductor-piano", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-piano.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-piano
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-piano:2.22.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-piano:2.26.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-piano/2.22.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-piano/2.22.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-piano/2.26.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-piano/2.26.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

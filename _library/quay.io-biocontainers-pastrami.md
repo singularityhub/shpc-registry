@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pastrami"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pastrami/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pastrami/container.yaml"
-updated_at: "2026-04-04 05:12:22.602623"
+updated_at: "2026-04-05 05:23:37.290157"
 latest: "1.0.1--pyh67a8953_0"
 container_url: "https://biocontainers.pro/tools/pastrami"
 aliases:

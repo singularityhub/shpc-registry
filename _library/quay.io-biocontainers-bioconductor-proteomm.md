@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-proteomm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteomm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteomm/container.yaml"
-updated_at: "2026-04-04 04:30:25.627729"
-latest: "1.24.0--r44hdfd78af_0"
+updated_at: "2026-04-05 04:47:04.282327"
+latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteomm"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
@@ -17,8 +17,9 @@ versions:
  - "1.18.0--r43hdfd78af_0"
  - "1.20.0--r43hdfd78af_0"
  - "1.24.0--r44hdfd78af_0"
+ - "1.28.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-proteomm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-proteomm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proteomm", "latest": {"1.24.0--r44hdfd78af_0": "sha256:130b6727dfa5acd500c1624199fb8e6d9586554a76269e7d565ed434f854d7f4"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:2eabcc21f2ada24c07de4edd32496a60db2729c13a0117505bd9bf227f479b1a", "1.12.0--r41hdfd78af_0": "sha256:fb434901857e46997ef511e95413dfb021e541f69d17eb596b42070e87fe6aae", "1.10.0--r41hdfd78af_0": "sha256:77bee2273bb778c9fdebdf771953745ae07ba832515ca18b2f20405b9a532cf2", "1.16.0--r42hdfd78af_0": "sha256:c8dc5d4d0dfacdb83edcb73756b27d247c4775cda30678a896986f1486975202", "1.18.0--r43hdfd78af_0": "sha256:cfabd9c5728a1e91effa8e35e601018041f31147c0360f554b4d9810a9db0004", "1.20.0--r43hdfd78af_0": "sha256:4ce4fb1fa4349cdb8130de57601f5eb19be8160deaf447b5a7c29226d45f956b", "1.24.0--r44hdfd78af_0": "sha256:130b6727dfa5acd500c1624199fb8e6d9586554a76269e7d565ed434f854d7f4"}, "docker": "quay.io/biocontainers/bioconductor-proteomm", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-proteomm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proteomm", "latest": {"1.28.0--r45hdfd78af_0": "sha256:e0fe43d512905206fd18fdd086462f3724e5a4594018103d412b09ee0c96c97f"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:2eabcc21f2ada24c07de4edd32496a60db2729c13a0117505bd9bf227f479b1a", "1.12.0--r41hdfd78af_0": "sha256:fb434901857e46997ef511e95413dfb021e541f69d17eb596b42070e87fe6aae", "1.10.0--r41hdfd78af_0": "sha256:77bee2273bb778c9fdebdf771953745ae07ba832515ca18b2f20405b9a532cf2", "1.16.0--r42hdfd78af_0": "sha256:c8dc5d4d0dfacdb83edcb73756b27d247c4775cda30678a896986f1486975202", "1.18.0--r43hdfd78af_0": "sha256:cfabd9c5728a1e91effa8e35e601018041f31147c0360f554b4d9810a9db0004", "1.20.0--r43hdfd78af_0": "sha256:4ce4fb1fa4349cdb8130de57601f5eb19be8160deaf447b5a7c29226d45f956b", "1.24.0--r44hdfd78af_0": "sha256:130b6727dfa5acd500c1624199fb8e6d9586554a76269e7d565ed434f854d7f4", "1.28.0--r45hdfd78af_0": "sha256:e0fe43d512905206fd18fdd086462f3724e5a4594018103d412b09ee0c96c97f"}, "docker": "quay.io/biocontainers/bioconductor-proteomm", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-proteomm.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-proteomm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-proteomm:1.24.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-proteomm:1.28.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-proteomm/1.24.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-proteomm/1.24.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-proteomm/1.28.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-proteomm/1.28.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

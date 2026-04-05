@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ensembl-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ensembl-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ensembl-utils/container.yaml"
-updated_at: "2026-04-04 05:17:58.231898"
+updated_at: "2026-04-05 05:28:32.034628"
 latest: "0.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ensembl-utils"
 aliases:

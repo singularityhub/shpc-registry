@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep/container.yaml"
-updated_at: "2026-04-04 04:40:05.340532"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2026-04-05 04:55:38.971714"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-slurm-jobstep"
 aliases:
  - "2to3-3.12"
@@ -19,8 +19,11 @@ versions:
  - "0.1.11--pyhdfd78af_0"
  - "0.2.1--pyhdfd78af_0"
  - "0.3.0--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-executor-plugin-slurm-jobstep"
-config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-slurm-jobstep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-slurm-jobstep", "latest": {"0.3.0--pyhdfd78af_0": "sha256:ff511c1ef28771bf70cc6c8c8917eff53ab7f8acceecae3314e9db1404381322"}, "tags": {"0.1.8--pyhdfd78af_0": "sha256:877fba61de3da80da06b7c51859b437d96a3dccf6cdc3b0dbaf839bde3fe1724", "0.1.10--pyhdfd78af_0": "sha256:6f6dc5bd6bd2d3670a24cbe539aced0a41843c28c51e8bce714c1ef406502764", "0.1.11--pyhdfd78af_0": "sha256:46a3ee753d34bb1aac3c068289b53cb84294a81916607054731baf1dd8fd0b8e", "0.2.1--pyhdfd78af_0": "sha256:7ee6cab7680ecd5c4759ba1ecfa8372c5296c6d49a2323a385778b86fb283b84", "0.3.0--pyhdfd78af_0": "sha256:ff511c1ef28771bf70cc6c8c8917eff53ab7f8acceecae3314e9db1404381322"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-slurm-jobstep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-slurm-jobstep", "latest": {"0.6.0--pyhdfd78af_0": "sha256:6dbce49e27d91503a45ad140d7d4d8a7348bf3737f609b5d4f6544f97560d9c0"}, "tags": {"0.1.8--pyhdfd78af_0": "sha256:877fba61de3da80da06b7c51859b437d96a3dccf6cdc3b0dbaf839bde3fe1724", "0.1.10--pyhdfd78af_0": "sha256:6f6dc5bd6bd2d3670a24cbe539aced0a41843c28c51e8bce714c1ef406502764", "0.1.11--pyhdfd78af_0": "sha256:46a3ee753d34bb1aac3c068289b53cb84294a81916607054731baf1dd8fd0b8e", "0.2.1--pyhdfd78af_0": "sha256:7ee6cab7680ecd5c4759ba1ecfa8372c5296c6d49a2323a385778b86fb283b84", "0.3.0--pyhdfd78af_0": "sha256:ff511c1ef28771bf70cc6c8c8917eff53ab7f8acceecae3314e9db1404381322", "0.6.0--pyhdfd78af_0": "sha256:6dbce49e27d91503a45ad140d7d4d8a7348bf3737f609b5d4f6544f97560d9c0", "0.5.0--pyhdfd78af_0": "sha256:549cb7c1cd57aaaa4553a03a81b28ef83ba9433a1b6aa9e889ddf4c222dad320", "0.4.0--pyhdfd78af_0": "sha256:ed8113819d6b593a5d84d4ba904fc9439a875327d3054bcb5a44c1685db2cb4f"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep.
@@ -35,7 +38,7 @@ $ shpc install quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-executor-plugin-slurm-jobstep/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

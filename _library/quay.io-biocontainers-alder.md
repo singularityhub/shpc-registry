@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alder/container.yaml"
-updated_at: "2026-04-04 04:55:59.990305"
+updated_at: "2026-04-05 05:09:35.746973"
 latest: "1.03--h13c21de_7"
 container_url: "https://biocontainers.pro/tools/alder"
 aliases:

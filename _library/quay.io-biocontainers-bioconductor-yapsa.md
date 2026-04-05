@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-yapsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
-updated_at: "2026-04-04 04:29:29.774212"
-latest: "1.28.0--r43hdfd78af_0"
+updated_at: "2026-04-05 04:46:14.303481"
+latest: "1.36.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yapsa"
 aliases:
  - "wget"
@@ -21,8 +21,9 @@ versions:
  - "1.24.0--r42hdfd78af_0"
  - "1.25.0--r43hdfd78af_0"
  - "1.28.0--r43hdfd78af_0"
+ - "1.36.1--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-yapsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-yapsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yapsa", "latest": {"1.28.0--r43hdfd78af_0": "sha256:588680fe4f158f0b6bfe40b34a87469b4eac468e5cfccfbafe7e9985ba5f4f64"}, "tags": {"1.8.0--r351_0": "sha256:7d7e15d2bfebba743ed7efc143386531377f9d5ed8f38d5406e854d59653906f", "1.19.0--r41hdfd78af_0": "sha256:d1edb509042ce5e98f84aa2e3896614add1c2c2a7ce4e83720ae39df88ed505f", "1.18.0--r41hdfd78af_0": "sha256:a190ea549efc3ed8c501c241056bdc1842bdcb14284ba89e44dc9f5c9fc286f6", "1.16.0--r40hdfd78af_1": "sha256:d1c6d668f201ceb40814d4824546afe5f4f9274399f090f76eac3c63b2eeb860", "1.14.0--r40_0": "sha256:86f05776829b2657bbaddea45f207b94264349612f5cf2543a645fbecc6d66b3", "1.12.0--r36_0": "sha256:49bfe3f2505e2b3bda45430e5db8019760e7ac3cbc1cfebf8245d7f4c2137d53", "1.24.0--r42hdfd78af_0": "sha256:98558d2991b4b4a029a3b9b056288000b11653a6a40df19a6b805e17792ce368", "1.25.0--r43hdfd78af_0": "sha256:ab716e089771a9604b72ddfb15ad58bb26fcb5877a8a90f7f17258b376f0e063", "1.28.0--r43hdfd78af_0": "sha256:588680fe4f158f0b6bfe40b34a87469b4eac468e5cfccfbafe7e9985ba5f4f64"}, "docker": "quay.io/biocontainers/bioconductor-yapsa", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-yapsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yapsa", "latest": {"1.36.1--r45hdfd78af_0": "sha256:2f94f8718b17e23e8e565abbec4531ce59b620f206310aaba80ba699db4acbc3"}, "tags": {"1.8.0--r351_0": "sha256:7d7e15d2bfebba743ed7efc143386531377f9d5ed8f38d5406e854d59653906f", "1.19.0--r41hdfd78af_0": "sha256:d1edb509042ce5e98f84aa2e3896614add1c2c2a7ce4e83720ae39df88ed505f", "1.18.0--r41hdfd78af_0": "sha256:a190ea549efc3ed8c501c241056bdc1842bdcb14284ba89e44dc9f5c9fc286f6", "1.16.0--r40hdfd78af_1": "sha256:d1c6d668f201ceb40814d4824546afe5f4f9274399f090f76eac3c63b2eeb860", "1.14.0--r40_0": "sha256:86f05776829b2657bbaddea45f207b94264349612f5cf2543a645fbecc6d66b3", "1.12.0--r36_0": "sha256:49bfe3f2505e2b3bda45430e5db8019760e7ac3cbc1cfebf8245d7f4c2137d53", "1.24.0--r42hdfd78af_0": "sha256:98558d2991b4b4a029a3b9b056288000b11653a6a40df19a6b805e17792ce368", "1.25.0--r43hdfd78af_0": "sha256:ab716e089771a9604b72ddfb15ad58bb26fcb5877a8a90f7f17258b376f0e063", "1.28.0--r43hdfd78af_0": "sha256:588680fe4f158f0b6bfe40b34a87469b4eac468e5cfccfbafe7e9985ba5f4f64", "1.36.1--r45hdfd78af_0": "sha256:2f94f8718b17e23e8e565abbec4531ce59b620f206310aaba80ba699db4acbc3"}, "docker": "quay.io/biocontainers/bioconductor-yapsa", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-yapsa.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-yapsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-yapsa:1.28.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-yapsa:1.36.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-yapsa/1.28.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-yapsa/1.28.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-yapsa/1.36.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-yapsa/1.36.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

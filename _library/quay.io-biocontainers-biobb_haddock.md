@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_haddock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_haddock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_haddock/container.yaml"
-updated_at: "2026-04-04 05:07:38.757895"
+updated_at: "2026-04-05 05:19:33.969860"
 latest: "5.2.0--pyh106432d_1"
 container_url: "https://biocontainers.pro/tools/biobb_haddock"
 aliases:

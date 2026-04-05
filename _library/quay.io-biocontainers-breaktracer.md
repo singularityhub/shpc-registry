@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/breaktracer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breaktracer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breaktracer/container.yaml"
-updated_at: "2026-04-04 05:13:16.349240"
-latest: "0.2.6--hd6466ae_0"
+updated_at: "2026-04-05 05:24:25.318091"
+latest: "0.2.8--hd6466ae_0"
 container_url: "https://biocontainers.pro/tools/breaktracer"
 aliases:
  - "breaktracer"
@@ -16,8 +16,9 @@ aliases:
  - "tabix"
 versions:
  - "0.2.6--hd6466ae_0"
+ - "0.2.8--hd6466ae_0"
 description: "singularity registry hpc automated addition for breaktracer"
-config: {"url": "https://biocontainers.pro/tools/breaktracer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for breaktracer", "latest": {"0.2.6--hd6466ae_0": "sha256:54ec9659ce6c1e3093317b0684342dbad8e850156bccb4d8f711137098774e70"}, "tags": {"0.2.6--hd6466ae_0": "sha256:54ec9659ce6c1e3093317b0684342dbad8e850156bccb4d8f711137098774e70"}, "docker": "quay.io/biocontainers/breaktracer", "aliases": {"breaktracer": "/usr/local/bin/breaktracer", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/breaktracer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for breaktracer", "latest": {"0.2.8--hd6466ae_0": "sha256:38e6497119c13682e5d9ea48e38500bb6d58772c0aa008014c8abf1e2b2e90c9"}, "tags": {"0.2.6--hd6466ae_0": "sha256:54ec9659ce6c1e3093317b0684342dbad8e850156bccb4d8f711137098774e70", "0.2.8--hd6466ae_0": "sha256:38e6497119c13682e5d9ea48e38500bb6d58772c0aa008014c8abf1e2b2e90c9"}, "docker": "quay.io/biocontainers/breaktracer", "aliases": {"breaktracer": "/usr/local/bin/breaktracer", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/breaktracer.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/breaktracer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/breaktracer:0.2.6--hd6466ae_0
+$ shpc install quay.io/biocontainers/breaktracer:0.2.8--hd6466ae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/breaktracer/0.2.6--hd6466ae_0
-$ module help quay.io/biocontainers/breaktracer/0.2.6--hd6466ae_0
+$ module load quay.io/biocontainers/breaktracer/0.2.8--hd6466ae_0
+$ module help quay.io/biocontainers/breaktracer/0.2.8--hd6466ae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

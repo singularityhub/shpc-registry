@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ragene20stprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ragene20stprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ragene20stprobeset.db/container.yaml"
-updated_at: "2026-04-04 05:12:37.328059"
-latest: "8.8.0--r44hdfd78af_5"
+updated_at: "2026-04-05 05:23:50.193354"
+latest: "8.8.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-ragene20stprobeset.db"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "8.8.0--r43hdfd78af_3"
  - "8.8.0--r43hdfd78af_4"
  - "8.8.0--r44hdfd78af_5"
+ - "8.8.0--r45hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for bioconductor-ragene20stprobeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ragene20stprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ragene20stprobeset.db", "latest": {"8.8.0--r44hdfd78af_5": "sha256:03e3122ab71408db0d0658b889c053043e5e4c290a9b57f7845274409befa518"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:54d8261156a6faa17523df1ebba3ea876b260406439e31ad8de3b9abf841d160", "8.8.0--r42hdfd78af_2": "sha256:3d2a6f1edf1a86d42d5ab12cd0fd32b67127b4672653dd08fb5ed737576696f0", "8.8.0--r43hdfd78af_3": "sha256:46496e6935d5ab3e9bf0a6dbfb82978b926b65bb1345c9ea3104aaaa542bb06e", "8.8.0--r43hdfd78af_4": "sha256:62a9a35cd081fbd79b79f9e46d7ef7123bd84bf627989a22c598b55c8876356d", "8.8.0--r44hdfd78af_5": "sha256:03e3122ab71408db0d0658b889c053043e5e4c290a9b57f7845274409befa518"}, "docker": "quay.io/biocontainers/bioconductor-ragene20stprobeset.db"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ragene20stprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ragene20stprobeset.db", "latest": {"8.8.0--r45hdfd78af_6": "sha256:f0ec9c23add71885aeaa5661ed97e526ed8f4abd439d803ab3f830189f06bf18"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:54d8261156a6faa17523df1ebba3ea876b260406439e31ad8de3b9abf841d160", "8.8.0--r42hdfd78af_2": "sha256:3d2a6f1edf1a86d42d5ab12cd0fd32b67127b4672653dd08fb5ed737576696f0", "8.8.0--r43hdfd78af_3": "sha256:46496e6935d5ab3e9bf0a6dbfb82978b926b65bb1345c9ea3104aaaa542bb06e", "8.8.0--r43hdfd78af_4": "sha256:62a9a35cd081fbd79b79f9e46d7ef7123bd84bf627989a22c598b55c8876356d", "8.8.0--r44hdfd78af_5": "sha256:03e3122ab71408db0d0658b889c053043e5e4c290a9b57f7845274409befa518", "8.8.0--r45hdfd78af_6": "sha256:f0ec9c23add71885aeaa5661ed97e526ed8f4abd439d803ab3f830189f06bf18"}, "docker": "quay.io/biocontainers/bioconductor-ragene20stprobeset.db"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ragene20stprobeset.db.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ragene20stprobeset.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ragene20stprobeset.db:8.8.0--r44hdfd78af_5
+$ shpc install quay.io/biocontainers/bioconductor-ragene20stprobeset.db:8.8.0--r45hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ragene20stprobeset.db/8.8.0--r44hdfd78af_5
-$ module help quay.io/biocontainers/bioconductor-ragene20stprobeset.db/8.8.0--r44hdfd78af_5
+$ module load quay.io/biocontainers/bioconductor-ragene20stprobeset.db/8.8.0--r45hdfd78af_6
+$ module help quay.io/biocontainers/bioconductor-ragene20stprobeset.db/8.8.0--r45hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

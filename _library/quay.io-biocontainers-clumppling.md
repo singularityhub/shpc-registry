@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clumppling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clumppling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clumppling/container.yaml"
-updated_at: "2026-04-04 04:42:04.367873"
-latest: "1.2.0--pyhdfd78af_0"
+updated_at: "2026-04-05 04:57:24.903702"
+latest: "2.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clumppling"
 aliases:
  - "community"
@@ -38,8 +38,11 @@ versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_0"
  - "1.1.3--pyhdfd78af_0"
+ - "2.0.7--pyhdfd78af_0"
+ - "1.5.0--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for clumppling"
-config: {"url": "https://biocontainers.pro/tools/clumppling", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clumppling", "latest": {"1.2.0--pyhdfd78af_0": "sha256:f466c1f6c10f0b14766f5f7ab4a120d4b138e965c50188b5a72643d537d98fdc"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:1f8c66ca3c5c3cbd99da130a143a326f65785e0b19c9d7409f2f188fd7d0a5ad", "1.0.2--pyhdfd78af_0": "sha256:15cdba909aa28be3b95dc99f4b7351cf54e08e15462685ba73b45710971c0bf5", "1.2.0--pyhdfd78af_0": "sha256:f466c1f6c10f0b14766f5f7ab4a120d4b138e965c50188b5a72643d537d98fdc", "1.1.3--pyhdfd78af_0": "sha256:4db79ee752d3c345d949d29d7412f17d013d17fbcb3903b4ab120035ecbb56b7"}, "docker": "quay.io/biocontainers/clumppling", "aliases": {"community": "/usr/local/bin/community", "osqp_demo": "/usr/local/bin/osqp_demo", "osqp_tester": "/usr/local/bin/osqp_tester", "f2py3.11": "/usr/local/bin/f2py3.11", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/clumppling", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clumppling", "latest": {"2.0.7--pyhdfd78af_0": "sha256:ee0db26aae44d8540010379db831021c212772a80ee559a5f026946a6ecb5548"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:1f8c66ca3c5c3cbd99da130a143a326f65785e0b19c9d7409f2f188fd7d0a5ad", "1.0.2--pyhdfd78af_0": "sha256:15cdba909aa28be3b95dc99f4b7351cf54e08e15462685ba73b45710971c0bf5", "1.2.0--pyhdfd78af_0": "sha256:f466c1f6c10f0b14766f5f7ab4a120d4b138e965c50188b5a72643d537d98fdc", "1.1.3--pyhdfd78af_0": "sha256:4db79ee752d3c345d949d29d7412f17d013d17fbcb3903b4ab120035ecbb56b7", "2.0.7--pyhdfd78af_0": "sha256:ee0db26aae44d8540010379db831021c212772a80ee559a5f026946a6ecb5548", "1.5.0--pyhdfd78af_0": "sha256:379070f49da0a6c62fd4610f9dc82bb34caccd973da6724b239ee5ddae70945e", "1.3.0--pyhdfd78af_0": "sha256:c0a101d00b7a911da6586c4e3d7ecfc21f6f121214fcf84346a36db48a513c6c"}, "docker": "quay.io/biocontainers/clumppling", "aliases": {"community": "/usr/local/bin/community", "osqp_demo": "/usr/local/bin/osqp_demo", "osqp_tester": "/usr/local/bin/osqp_tester", "f2py3.11": "/usr/local/bin/f2py3.11", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clumppling.
@@ -54,7 +57,7 @@ $ shpc install quay.io/biocontainers/clumppling
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clumppling:1.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/clumppling:2.0.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clumppling/1.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/clumppling/1.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/clumppling/2.0.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/clumppling/2.0.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

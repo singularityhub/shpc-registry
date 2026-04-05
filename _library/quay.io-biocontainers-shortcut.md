@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/shortcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shortcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shortcut/container.yaml"
-updated_at: "2026-04-04 05:18:58.891126"
-latest: "1.0--hdfd78af_0"
+updated_at: "2026-04-05 05:29:26.107105"
+latest: "2.0--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shortcut"
 aliases:
  - "RNAconsensus"
@@ -41,8 +41,9 @@ aliases:
  - "RNAPKplex"
 versions:
  - "1.0--hdfd78af_0"
+ - "2.0--py312hdfd78af_0"
 description: "singularity registry hpc automated addition for shortcut"
-config: {"url": "https://biocontainers.pro/tools/shortcut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shortcut", "latest": {"1.0--hdfd78af_0": "sha256:3df287922bb1e89f42f3836aa22d389f014c3d40dbd0ef71d269a9b1e27d8fbd"}, "tags": {"1.0--hdfd78af_0": "sha256:3df287922bb1e89f42f3836aa22d389f014c3d40dbd0ef71d269a9b1e27d8fbd"}, "docker": "quay.io/biocontainers/shortcut", "aliases": {"RNAconsensus": "/usr/local/bin/RNAconsensus", "ShortCut": "/usr/local/bin/ShortCut", "ShortStack": "/usr/local/bin/ShortStack", "ShortTracks": "/usr/local/bin/ShortTracks", "ref-cache": "/usr/local/bin/ref-cache", "strucVis": "/usr/local/bin/strucVis", "wigToBigWig": "/usr/local/bin/wigToBigWig", "RNAmultifold": "/usr/local/bin/RNAmultifold", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "cutadapt": "/usr/local/bin/cutadapt", "pandoc-lua": "/usr/local/bin/pandoc-lua", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex"}}
+config: {"url": "https://biocontainers.pro/tools/shortcut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for shortcut", "latest": {"2.0--py312hdfd78af_0": "sha256:655ad6837960d2fac346d3d88f6c2f9b06ac28295b16be0d4a38d304ed876287"}, "tags": {"1.0--hdfd78af_0": "sha256:3df287922bb1e89f42f3836aa22d389f014c3d40dbd0ef71d269a9b1e27d8fbd", "2.0--py312hdfd78af_0": "sha256:655ad6837960d2fac346d3d88f6c2f9b06ac28295b16be0d4a38d304ed876287"}, "docker": "quay.io/biocontainers/shortcut", "aliases": {"RNAconsensus": "/usr/local/bin/RNAconsensus", "ShortCut": "/usr/local/bin/ShortCut", "ShortStack": "/usr/local/bin/ShortStack", "ShortTracks": "/usr/local/bin/ShortTracks", "ref-cache": "/usr/local/bin/ref-cache", "strucVis": "/usr/local/bin/strucVis", "wigToBigWig": "/usr/local/bin/wigToBigWig", "RNAmultifold": "/usr/local/bin/RNAmultifold", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "cutadapt": "/usr/local/bin/cutadapt", "pandoc-lua": "/usr/local/bin/pandoc-lua", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shortcut.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/shortcut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shortcut:1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/shortcut:2.0--py312hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shortcut/1.0--hdfd78af_0
-$ module help quay.io/biocontainers/shortcut/1.0--hdfd78af_0
+$ module load quay.io/biocontainers/shortcut/2.0--py312hdfd78af_0
+$ module help quay.io/biocontainers/shortcut/2.0--py312hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
