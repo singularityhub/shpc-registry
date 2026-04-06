@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-transphylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-transphylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-transphylo/container.yaml"
-updated_at: "2026-04-05 05:27:57.529560"
+updated_at: "2026-04-06 05:47:02.105992"
 latest: "1.4.0--r40he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/r-transphylo"
 aliases:

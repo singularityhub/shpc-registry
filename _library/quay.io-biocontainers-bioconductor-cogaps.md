@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cogaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cogaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cogaps/container.yaml"
-updated_at: "2026-04-05 05:22:14.732356"
+updated_at: "2026-04-06 05:40:21.710117"
 latest: "3.30.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cogaps"
 aliases:

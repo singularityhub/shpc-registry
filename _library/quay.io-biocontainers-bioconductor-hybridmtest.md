@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hybridmtest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hybridmtest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hybridmtest/container.yaml"
-updated_at: "2026-04-05 04:47:44.969969"
+updated_at: "2026-04-06 04:57:32.448716"
 latest: "1.54.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hybridmtest"
 
