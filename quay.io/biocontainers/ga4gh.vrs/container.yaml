@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/ga4gh.vrs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ga4gh.vrs
+latest:
+  2.3.1--pyhdfd78af_0: 
+    sha256:11a87fd24e67ce194bff33933581c12d270842e2c4d84c067079b97041d9e1e3
+tags:
+  2.3.1--pyhdfd78af_0: 
+    sha256:11a87fd24e67ce194bff33933581c12d270842e2c4d84c067079b97041d9e1e3
+docker: quay.io/biocontainers/ga4gh.vrs
+aliases:
+  hgvs-shell: /usr/local/bin/hgvs-shell
+  identify-cli: /usr/local/bin/identify-cli
+  nodeenv: /usr/local/bin/nodeenv
+  pre-commit: /usr/local/bin/pre-commit
+  pyppeteer-install: /usr/local/bin/pyppeteer-install
+  seqrepo: /usr/local/bin/seqrepo
+  sqlformat: /usr/local/bin/sqlformat
+  vrs-annotate: /usr/local/bin/vrs-annotate
+  yoyo: /usr/local/bin/yoyo
+  yoyo-migrate: /usr/local/bin/yoyo-migrate
+  virtualenv: /usr/local/bin/virtualenv
+  get_gprof: /usr/local/bin/get_gprof
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  coloredlogs: /usr/local/bin/coloredlogs
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  humanfriendly: /usr/local/bin/humanfriendly
+  tabulate: /usr/local/bin/tabulate
+  pg_config: /usr/local/bin/pg_config
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
