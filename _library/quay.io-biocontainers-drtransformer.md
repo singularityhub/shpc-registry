@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drtransformer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drtransformer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drtransformer/container.yaml"
-updated_at: "2026-04-06 05:17:43.633033"
+updated_at: "2026-04-07 05:02:46.138526"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drtransformer"
 aliases:

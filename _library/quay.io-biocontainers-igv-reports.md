@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igv-reports"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igv-reports/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igv-reports/container.yaml"
-updated_at: "2026-04-06 05:26:29.562155"
+updated_at: "2026-04-07 05:10:35.205343"
 latest: "1.16.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/igv-reports"
 aliases:

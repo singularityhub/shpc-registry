@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-annmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annmap/container.yaml"
-updated_at: "2026-04-06 04:56:28.818199"
+updated_at: "2026-04-07 04:44:20.047482"
 latest: "1.52.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annmap"
 aliases:

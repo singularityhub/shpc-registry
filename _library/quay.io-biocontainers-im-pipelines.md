@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/im-pipelines"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/im-pipelines/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/im-pipelines/container.yaml"
-updated_at: "2026-04-06 05:21:00.688305"
+updated_at: "2026-04-07 05:05:44.307029"
 latest: "1.1.6--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/im-pipelines"
 aliases:

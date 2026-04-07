@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nmslib-metabrainz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nmslib-metabrainz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nmslib-metabrainz/container.yaml"
-updated_at: "2026-04-06 05:09:53.897032"
+updated_at: "2026-04-07 04:56:12.587654"
 latest: "2.1.3--py310ha6711e0_0"
 container_url: "https://biocontainers.pro/tools/nmslib-metabrainz"
 aliases:

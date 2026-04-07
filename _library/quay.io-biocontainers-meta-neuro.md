@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meta-neuro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meta-neuro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meta-neuro/container.yaml"
-updated_at: "2026-04-06 05:44:13.839923"
+updated_at: "2026-04-07 05:26:45.963032"
 latest: "2.0.1--py313h47f2c4e_0"
 container_url: "https://biocontainers.pro/tools/meta-neuro"
 aliases:

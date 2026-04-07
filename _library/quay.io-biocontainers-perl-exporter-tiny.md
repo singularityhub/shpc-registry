@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-exporter-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-exporter-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-exporter-tiny/container.yaml"
-updated_at: "2026-04-06 05:05:25.643233"
+updated_at: "2026-04-07 04:52:21.296822"
 latest: "1.002002--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-exporter-tiny"
 aliases:
