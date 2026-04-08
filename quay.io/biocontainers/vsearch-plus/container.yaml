@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/vsearch-plus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vsearch-plus
+latest:
+  0.1.0--h0bb26bb_0: 
+    sha256:4e7d09f5f9a887c17dc80e6792f037b0c111887cbf808f1eb52a1516b88b6695
+tags:
+  0.1.0--h0bb26bb_0: 
+    sha256:4e7d09f5f9a887c17dc80e6792f037b0c111887cbf808f1eb52a1516b88b6695
+docker: quay.io/biocontainers/vsearch-plus
+aliases:
+  rdp-classifier: /usr/local/bin/rdp-classifier
+  vsearch-plus: /usr/local/bin/vsearch-plus
+  jnativescan: /usr/local/bin/jnativescan
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  jwebserver: /usr/local/bin/jwebserver
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  idn2: /usr/local/bin/idn2
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  wget: /usr/local/bin/wget
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner

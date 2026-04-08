@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/alnstats
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for alnstats
+latest:
+  0.1.1--h4349ce8_0: 
+    sha256:43f995c817aea6ddc0b453d99e6c81542fd954ee4f12fbf8cdfd03639fbd7b27
+tags:
+  0.1.1--h4349ce8_0: 
+    sha256:43f995c817aea6ddc0b453d99e6c81542fd954ee4f12fbf8cdfd03639fbd7b27
+docker: quay.io/biocontainers/alnstats
+aliases:
+  alnstats: /usr/local/bin/alnstats
