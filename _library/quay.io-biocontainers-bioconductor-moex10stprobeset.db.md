@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moex10stprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moex10stprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moex10stprobeset.db/container.yaml"
-updated_at: "2026-04-07 04:44:40.400558"
+updated_at: "2026-04-08 04:47:37.857137"
 latest: "8.8.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-moex10stprobeset.db"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gnk_fastasort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnk_fastasort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnk_fastasort/container.yaml"
-updated_at: "2026-04-07 04:49:49.825974"
+updated_at: "2026-04-08 04:52:34.482888"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gnk_fastasort"
 aliases:

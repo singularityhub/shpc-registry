@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aacon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aacon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aacon/container.yaml"
-updated_at: "2026-04-07 05:20:25.162448"
+updated_at: "2026-04-08 05:21:55.361321"
 latest: "1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aacon"
 aliases:

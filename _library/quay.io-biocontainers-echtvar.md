@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/echtvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/echtvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/echtvar/container.yaml"
-updated_at: "2026-04-07 05:20:15.910432"
+updated_at: "2026-04-08 05:21:46.515053"
 latest: "0.2.3--h443f417_0"
 container_url: "https://biocontainers.pro/tools/echtvar"
 aliases:

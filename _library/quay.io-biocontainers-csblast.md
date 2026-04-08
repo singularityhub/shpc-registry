@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/csblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csblast/container.yaml"
-updated_at: "2026-04-07 05:23:19.899242"
+updated_at: "2026-04-08 05:24:42.880315"
 latest: "2.2.3--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/csblast"
 aliases:

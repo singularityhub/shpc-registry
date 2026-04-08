@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ipcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ipcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ipcr/container.yaml"
-updated_at: "2026-04-07 04:59:07.411907"
+updated_at: "2026-04-08 05:01:28.951944"
 latest: "4.1.1--he881be0_1"
 container_url: "https://biocontainers.pro/tools/ipcr"
 aliases:

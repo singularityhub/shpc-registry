@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylopypruner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylopypruner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylopypruner/container.yaml"
-updated_at: "2026-04-07 05:14:15.948639"
+updated_at: "2026-04-08 05:16:00.664325"
 latest: "1.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylopypruner"
 aliases:

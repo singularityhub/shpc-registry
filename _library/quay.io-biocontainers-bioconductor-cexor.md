@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cexor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cexor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cexor/container.yaml"
-updated_at: "2026-04-07 05:31:55.447942"
+updated_at: "2026-04-08 05:32:58.098222"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cexor"
 aliases:

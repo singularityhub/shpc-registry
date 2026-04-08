@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/promod3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/promod3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/promod3/container.yaml"
-updated_at: "2026-04-07 05:15:56.750598"
+updated_at: "2026-04-08 05:17:37.781821"
 latest: "3.6.0--py310h184ae93_0"
 container_url: "https://biocontainers.pro/tools/promod3"
 aliases:
