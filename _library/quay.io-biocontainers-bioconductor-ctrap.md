@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ctrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ctrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ctrap/container.yaml"
-updated_at: "2026-04-08 04:52:10.935133"
+updated_at: "2026-04-08 07:46:22.879504"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ctrap"
 aliases:
