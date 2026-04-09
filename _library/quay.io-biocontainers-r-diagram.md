@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-diagram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-diagram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-diagram/container.yaml"
-updated_at: "2026-04-09 04:51:39.310597"
+updated_at: "2026-04-09 16:57:16.738218"
 latest: "1.6.3--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-diagram"
 aliases:

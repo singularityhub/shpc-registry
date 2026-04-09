@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fdedup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fdedup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fdedup/container.yaml"
-updated_at: "2026-04-09 04:40:03.379784"
+updated_at: "2026-04-09 16:45:10.046549"
 latest: "1.0.0--h79ce301_0"
 container_url: "https://biocontainers.pro/tools/fdedup"
 aliases:

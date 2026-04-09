@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-drosgenome1.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drosgenome1.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drosgenome1.db/container.yaml"
-updated_at: "2026-04-09 05:24:31.122963"
+updated_at: "2026-04-09 17:29:08.013555"
 latest: "3.13.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-drosgenome1.db"
 aliases:
