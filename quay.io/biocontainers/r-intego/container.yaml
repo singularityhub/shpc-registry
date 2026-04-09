@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-intego
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-intego
 latest:
-  2.0--r44h9ee0642_6: 
-    sha256:cf6eb0edde321e2fd4d597ddc089677bc8afaa32f5a1423c6179ddc95925f81b
+  2.0--r45hdfd78af_9: 
+    sha256:dc007069dad2b63e1492e69f7e3188d3548139e591ff0794aa7c849d3537c92d
 tags:
   2.0--r41h9ee0642_3: 
     sha256:d515275f7baa3550f31f59481973e07e102057c910ace137763a2bb529733823
@@ -13,6 +13,8 @@ tags:
     sha256:6dbf382dcc3f41c2f58acf713df6becfe920d67cb35323c6ebf5d965227740ca
   2.0--r44h9ee0642_6: 
     sha256:cf6eb0edde321e2fd4d597ddc089677bc8afaa32f5a1423c6179ddc95925f81b
+  2.0--r45hdfd78af_9: 
+    sha256:dc007069dad2b63e1492e69f7e3188d3548139e591ff0794aa7c849d3537c92d
 docker: quay.io/biocontainers/r-intego
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ntstat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ntstat
 latest:
-  1.0.1--py311he264feb_2: 
-    sha256:8d96390724d19e5d837721c1b8f27c5cdf24e5dfd81804fa9b0ce487933502ea
+  1.0.1--py313hcd54142_3: 
+    sha256:a697e8cf07115205e5177a1dee33864762398aa1472031a248ddd6d5efd00046
 tags:
   1.0.0--py310h84f13bb_0: 
     sha256:3629833d95d90af321b182bf2e861e935025bb2172a7eb32397e5244cc2c275c
@@ -13,6 +13,8 @@ tags:
     sha256:bcf5b0075a9e8088c0ccf1d82e516c96fd66c29eaacd5f77d876417da8c4c367
   1.0.1--py311he264feb_2: 
     sha256:8d96390724d19e5d837721c1b8f27c5cdf24e5dfd81804fa9b0ce487933502ea
+  1.0.1--py313hcd54142_3: 
+    sha256:a697e8cf07115205e5177a1dee33864762398aa1472031a248ddd6d5efd00046
 docker: quay.io/biocontainers/ntstat
 aliases:
   indexlr: /usr/local/bin/indexlr
