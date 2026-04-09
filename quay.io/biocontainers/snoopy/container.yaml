@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/snoopy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snoopy
+latest:
+  0.4.3--pyhdfd78af_0: 
+    sha256:fe3e42a7aa2315bf1641abdeaeedcbe131ce0e6db4896194dbed81c1fd670ad1
+tags:
+  0.4.3--pyhdfd78af_0: 
+    sha256:fe3e42a7aa2315bf1641abdeaeedcbe131ce0e6db4896194dbed81c1fd670ad1
+docker: quay.io/biocontainers/snoopy
+aliases:
+  snoopy: /usr/local/bin/snoopy
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
