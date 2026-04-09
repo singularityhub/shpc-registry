@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rprimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rprimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rprimer/container.yaml"
-updated_at: "2026-04-08 07:56:38.000509"
+updated_at: "2026-04-09 05:00:15.036383"
 latest: "1.10.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rprimer"
 aliases:

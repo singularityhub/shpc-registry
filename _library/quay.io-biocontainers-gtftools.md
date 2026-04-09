@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtftools/container.yaml"
-updated_at: "2026-04-08 08:16:53.286087"
+updated_at: "2026-04-09 05:20:08.541148"
 latest: "0.9.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/gtftools"
 aliases:

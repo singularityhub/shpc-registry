@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msbackendmsp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendmsp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendmsp/container.yaml"
-updated_at: "2026-04-08 07:41:15.604651"
+updated_at: "2026-04-09 04:45:17.973447"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendmsp"
 

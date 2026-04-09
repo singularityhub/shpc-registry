@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skmer/container.yaml"
-updated_at: "2026-04-08 08:23:12.620714"
+updated_at: "2026-04-09 05:26:32.966855"
 latest: "3.3.0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/skmer"
 aliases:

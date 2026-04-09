@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-wheatcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wheatcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wheatcdf/container.yaml"
-updated_at: "2026-04-08 07:43:21.519136"
+updated_at: "2026-04-09 04:47:19.666932"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-wheatcdf"
 
