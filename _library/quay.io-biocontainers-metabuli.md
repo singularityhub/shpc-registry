@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metabuli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabuli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabuli/container.yaml"
-updated_at: "2026-04-09 17:37:51.979929"
+updated_at: "2026-04-10 05:06:20.821038"
 latest: "1.1.1--pl5321h0bb26bb_0"
 container_url: "https://biocontainers.pro/tools/metabuli"
 aliases:

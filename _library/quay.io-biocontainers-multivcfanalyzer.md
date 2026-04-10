@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multivcfanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multivcfanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multivcfanalyzer/container.yaml"
-updated_at: "2026-04-09 17:02:53.957797"
-latest: "0.88.1--hdfd78af_0"
+updated_at: "2026-04-10 05:25:48.904529"
+latest: "0.89.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multivcfanalyzer"
 aliases:
  - "multivcfanalyzer"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.85.2--hdfd78af_1"
  - "0.88.1--hdfd78af_0"
+ - "0.89.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for multivcfanalyzer"
-config: {"url": "https://biocontainers.pro/tools/multivcfanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multivcfanalyzer", "latest": {"0.88.1--hdfd78af_0": "sha256:e5c5665b581ff95cddb0d170daed7d78e30e0611959d0957b47d682d8d1f762d"}, "tags": {"0.85.2--hdfd78af_1": "sha256:99a2a896c574f2a9812b46ffebfe678b2c81b96b50d6e37264afd821b1d2b58b", "0.88.1--hdfd78af_0": "sha256:e5c5665b581ff95cddb0d170daed7d78e30e0611959d0957b47d682d8d1f762d"}, "docker": "quay.io/biocontainers/multivcfanalyzer", "aliases": {"multivcfanalyzer": "/usr/local/bin/multivcfanalyzer", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/multivcfanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multivcfanalyzer", "latest": {"0.89.0--hdfd78af_0": "sha256:1e86c1617b4b79e47c8a5150a6af1dc3655fc37d3219bee5dbe681b66320e0e4"}, "tags": {"0.85.2--hdfd78af_1": "sha256:99a2a896c574f2a9812b46ffebfe678b2c81b96b50d6e37264afd821b1d2b58b", "0.88.1--hdfd78af_0": "sha256:e5c5665b581ff95cddb0d170daed7d78e30e0611959d0957b47d682d8d1f762d", "0.89.0--hdfd78af_0": "sha256:1e86c1617b4b79e47c8a5150a6af1dc3655fc37d3219bee5dbe681b66320e0e4"}, "docker": "quay.io/biocontainers/multivcfanalyzer", "aliases": {"multivcfanalyzer": "/usr/local/bin/multivcfanalyzer", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multivcfanalyzer.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/multivcfanalyzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multivcfanalyzer:0.88.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/multivcfanalyzer:0.89.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multivcfanalyzer/0.88.1--hdfd78af_0
-$ module help quay.io/biocontainers/multivcfanalyzer/0.88.1--hdfd78af_0
+$ module load quay.io/biocontainers/multivcfanalyzer/0.89.0--hdfd78af_0
+$ module help quay.io/biocontainers/multivcfanalyzer/0.89.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

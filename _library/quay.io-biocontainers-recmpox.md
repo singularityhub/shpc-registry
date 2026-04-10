@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/recmpox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recmpox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recmpox/container.yaml"
-updated_at: "2026-04-09 17:22:33.776658"
-latest: "0.0.3--pyhdfd78af_0"
+updated_at: "2026-04-10 04:59:21.697553"
+latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recmpox"
 aliases:
  - "clade.smk"
@@ -47,8 +47,9 @@ aliases:
 versions:
  - "0.0.2--pyhdfd78af_0"
  - "0.0.3--pyhdfd78af_0"
+ - "0.0.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for recmpox"
-config: {"url": "https://biocontainers.pro/tools/recmpox", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for recmpox", "latest": {"0.0.3--pyhdfd78af_0": "sha256:5016a4f6ac0843fb9b86a8394a0921cddacffa68e475569b0292df3e43becf81"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:d0c42b861ef150a858a932d4f97e58758897352ae1e5533273687ac2565a0b07", "0.0.3--pyhdfd78af_0": "sha256:5016a4f6ac0843fb9b86a8394a0921cddacffa68e475569b0292df3e43becf81"}, "docker": "quay.io/biocontainers/recmpox", "aliases": {"clade.smk": "/usr/local/bin/clade.smk", "gofasta": "/usr/local/bin/gofasta", "interactive_tree.R": "/usr/local/bin/interactive_tree.R", "iqtree3": "/usr/local/bin/iqtree3", "jclusterfunk": "/usr/local/bin/jclusterfunk", "jnativescan": "/usr/local/bin/jnativescan", "msa.smk": "/usr/local/bin/msa.smk", "phylo.smk": "/usr/local/bin/phylo.smk", "recmpox": "/usr/local/bin/recmpox", "reconstruction.smk": "/usr/local/bin/reconstruction.smk", "squirrel": "/usr/local/bin/squirrel", "mako-render": "/usr/local/bin/mako-render", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "iqtree": "/usr/local/bin/iqtree", "ref-cache": "/usr/local/bin/ref-cache", "jwebserver": "/usr/local/bin/jwebserver", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "annot-tsv": "/usr/local/bin/annot-tsv", "jpackage": "/usr/local/bin/jpackage", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
+config: {"url": "https://biocontainers.pro/tools/recmpox", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for recmpox", "latest": {"0.0.5--pyhdfd78af_0": "sha256:aa633f88eaa88837e51e15b31f29ae51f9d8cfc47664e2114f07cbdb47c61cdc"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:d0c42b861ef150a858a932d4f97e58758897352ae1e5533273687ac2565a0b07", "0.0.3--pyhdfd78af_0": "sha256:5016a4f6ac0843fb9b86a8394a0921cddacffa68e475569b0292df3e43becf81", "0.0.5--pyhdfd78af_0": "sha256:aa633f88eaa88837e51e15b31f29ae51f9d8cfc47664e2114f07cbdb47c61cdc"}, "docker": "quay.io/biocontainers/recmpox", "aliases": {"clade.smk": "/usr/local/bin/clade.smk", "gofasta": "/usr/local/bin/gofasta", "interactive_tree.R": "/usr/local/bin/interactive_tree.R", "iqtree3": "/usr/local/bin/iqtree3", "jclusterfunk": "/usr/local/bin/jclusterfunk", "jnativescan": "/usr/local/bin/jnativescan", "msa.smk": "/usr/local/bin/msa.smk", "phylo.smk": "/usr/local/bin/phylo.smk", "recmpox": "/usr/local/bin/recmpox", "reconstruction.smk": "/usr/local/bin/reconstruction.smk", "squirrel": "/usr/local/bin/squirrel", "mako-render": "/usr/local/bin/mako-render", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "iqtree": "/usr/local/bin/iqtree", "ref-cache": "/usr/local/bin/ref-cache", "jwebserver": "/usr/local/bin/jwebserver", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "annot-tsv": "/usr/local/bin/annot-tsv", "jpackage": "/usr/local/bin/jpackage", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recmpox.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/recmpox
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/recmpox:0.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/recmpox:0.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/recmpox/0.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/recmpox/0.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/recmpox/0.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/recmpox/0.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
