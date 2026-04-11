@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-saureusprobe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:03ff5f4b996150d7ff1b62dc2e9ee99c25c24c9c409fbce15095da81295ea936
+  2.18.0--r45hdfd78af_14: 
+    sha256:e4705c149cff898516abaa8b6315964a41342fa301da0d2d60f19044f606fdc8
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:0117d5953709d8bb9b4dddc33d13223cf71a8d19c6983e3747bfafcac72fdb12
@@ -16,4 +16,6 @@ tags:
     sha256:946f130386c2735207d2e0b274eba6448c633ecbd7c1394f2c8ba5826677c1d9
   2.18.0--r44hdfd78af_13: 
     sha256:03ff5f4b996150d7ff1b62dc2e9ee99c25c24c9c409fbce15095da81295ea936
+  2.18.0--r45hdfd78af_14: 
+    sha256:e4705c149cff898516abaa8b6315964a41342fa301da0d2d60f19044f606fdc8
 docker: quay.io/biocontainers/bioconductor-saureusprobe

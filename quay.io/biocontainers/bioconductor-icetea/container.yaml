@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-icetea
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:53f6e0481d92b7ea9cb5d0741ad5613bd1149bb280dc5654438808c00050d8bf
+  1.28.0--r45hdfd78af_0: 
+    sha256:dbaf16ff94167e197d8e49dc8ec6fc4e8d6c6e30acb7c069f7566d7d02aecfb3
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:7f4b6438cf9eeab3b2d8ea63668d5789700f19ffb270ab4f129794a7dcd66c41
@@ -20,6 +20,8 @@ tags:
     sha256:da19485e8fb40a69c309f325bd5abf217f05c562ba83e5bf1cdf5dd617bd942d
   1.24.0--r44hdfd78af_0: 
     sha256:53f6e0481d92b7ea9cb5d0741ad5613bd1149bb280dc5654438808c00050d8bf
+  1.28.0--r45hdfd78af_0: 
+    sha256:dbaf16ff94167e197d8e49dc8ec6fc4e8d6c6e30acb7c069f7566d7d02aecfb3
 docker: quay.io/biocontainers/bioconductor-icetea
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

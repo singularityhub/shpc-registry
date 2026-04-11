@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/open-cravat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for open-cravat
 latest:
-  2.16.0--pyhdfd78af_0: 
-    sha256:cd4efef2a78ac33f52ef46aadf81f760536c54d41111f9f978df2482d7adc4d4
+  3.1.1--pyhdfd78af_0: 
+    sha256:a0cdb80e5e4e48ef216ae0549bdacb9adf191b6e27f61fe9a8ae8265e3e39f82
 tags:
   2.2.9--pyh7cba7a3_0: 
     sha256:8b595553c32f27853b91c2fc9eecdec1c20d107e17d0fc894d2893070b866fa1
@@ -41,6 +41,8 @@ tags:
     sha256:ed998ab27f89e7ef81f2a2fe0464a8a265be7c4125b494585fddb7f1a1360b4a
   2.16.0--pyhdfd78af_0: 
     sha256:cd4efef2a78ac33f52ef46aadf81f760536c54d41111f9f978df2482d7adc4d4
+  3.1.1--pyhdfd78af_0: 
+    sha256:a0cdb80e5e4e48ef216ae0549bdacb9adf191b6e27f61fe9a8ae8265e3e39f82
 docker: quay.io/biocontainers/open-cravat
 aliases:
   oc: /usr/local/bin/oc

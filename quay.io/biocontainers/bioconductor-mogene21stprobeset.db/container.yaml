@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mogene21stprobeset.db
 latest:
-  8.8.0--r44hdfd78af_5: 
-    sha256:f91c393274329f03ec91243662a089b685a2e6e3cfef389c06337e2698f515c1
+  8.8.0--r45hdfd78af_6: 
+    sha256:662f17cd271a991013eb12bb665eca4e13618d4c7c0468cf1fbf705ba4ea7730
 tags:
   8.8.0--r41hdfd78af_1: 
     sha256:3373134ff8b25ffb680c7e24892617f1ebc9932374fe1c30d060054fa97de86c
@@ -16,4 +16,6 @@ tags:
     sha256:b246c7ad521415d69d8697eb4d9f3099d5dbe78fa1372ebfebefb679b7bf7e83
   8.8.0--r44hdfd78af_5: 
     sha256:f91c393274329f03ec91243662a089b685a2e6e3cfef389c06337e2698f515c1
+  8.8.0--r45hdfd78af_6: 
+    sha256:662f17cd271a991013eb12bb665eca4e13618d4c7c0468cf1fbf705ba4ea7730
 docker: quay.io/biocontainers/bioconductor-mogene21stprobeset.db

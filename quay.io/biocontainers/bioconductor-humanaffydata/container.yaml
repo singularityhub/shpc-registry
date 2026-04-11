@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-humanaffydata
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:d11b7dd9fe054ad369d2d90a1e15db248d06991dc6c234ada9f32d75a3c561c7
+  1.36.0--r45hdfd78af_0: 
+    sha256:2f844cd1599d90c156e3fe303e9457a74a3cd8e99a79854b1052b5f75bf8e9bf
 tags:
   1.8.0--r351_0: 
     sha256:7a4f7a00d4d11d50d21c4336162710f351eb6d1f09fae885edfc6cc30de474d2
@@ -24,6 +24,8 @@ tags:
     sha256:8cb25b8d1e71d7c6f6cbf0d77651ddb85a648ac4267a169c256661f5aa724cd7
   1.32.0--r44hdfd78af_0: 
     sha256:d11b7dd9fe054ad369d2d90a1e15db248d06991dc6c234ada9f32d75a3c561c7
+  1.36.0--r45hdfd78af_0: 
+    sha256:2f844cd1599d90c156e3fe303e9457a74a3cd8e99a79854b1052b5f75bf8e9bf
 docker: quay.io/biocontainers/bioconductor-humanaffydata
 aliases:
   wget: /usr/local/bin/wget

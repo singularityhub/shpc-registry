@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fastliquidassociation
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:4d7ebbedc27cb5c56b902cb04817171d13e96fb5fc5dbaab266930cd2bd35daf
+  1.46.0--r45hdfd78af_0: 
+    sha256:04157a25ad980c5f3f2b62c1906b653cf4d441fa4f6650f4c7324b8d3b87efb1
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:9d303736ceb65ecd3199bfc783d02a01fd5f91e6d265c78e0d76093c497f2602
@@ -16,4 +16,6 @@ tags:
     sha256:68528383a75a2d1cd0a31f1905b4053d6669b8fc6b716707eebc386ced68877f
   1.42.0--r44hdfd78af_0: 
     sha256:4d7ebbedc27cb5c56b902cb04817171d13e96fb5fc5dbaab266930cd2bd35daf
+  1.46.0--r45hdfd78af_0: 
+    sha256:04157a25ad980c5f3f2b62c1906b653cf4d441fa4f6650f4c7324b8d3b87efb1
 docker: quay.io/biocontainers/bioconductor-fastliquidassociation

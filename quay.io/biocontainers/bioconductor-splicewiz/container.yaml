@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-splicewiz
 latest:
-  1.8.0--r44h77050f0_0: 
-    sha256:7f84550d2f5106372a29feb91f5f49310b5a39abcff376e7767a82a153432007
+  1.12.0--r45ha27e39d_0: 
+    sha256:50ea703cd55dbc1eae442bcdd060584626fb647bb0017d951927c1918130be3b
 tags:
   1.0.0--r42hc247a5b_0: 
     sha256:cc9bb70a61b128dc651f73deb2049d0a6e2c9ca3bef4570fb35ce2f3fcf4b6bd
@@ -16,6 +16,8 @@ tags:
     sha256:0efe9ba596cfbd6637b8b01d796b52e9a64919e21abb7e55ed423a992f5f6e52
   1.8.0--r44h77050f0_0: 
     sha256:7f84550d2f5106372a29feb91f5f49310b5a39abcff376e7767a82a153432007
+  1.12.0--r45ha27e39d_0: 
+    sha256:50ea703cd55dbc1eae442bcdd060584626fb647bb0017d951927c1918130be3b
 docker: quay.io/biocontainers/bioconductor-splicewiz
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cleaver
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:e650dc2a95db30d85779aa736bacaf914c7b66a6413f7dc52937bcb8fe76f13d
+  1.48.0--r45hdfd78af_0: 
+    sha256:9a9a23dff01b7e665fa7deabc2cb727d87ffb246ea610ff39c7b8000538be206
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:a2ed376005cb852aa81404120853d0c0f8c52e336fd6e4dce491ad848451845e
@@ -16,4 +16,6 @@ tags:
     sha256:6081d4128d8685fcc1f7c8bca2336570d2f774b217a641982f56fb01d358129b
   1.44.0--r44hdfd78af_0: 
     sha256:e650dc2a95db30d85779aa736bacaf914c7b66a6413f7dc52937bcb8fe76f13d
+  1.48.0--r45hdfd78af_0: 
+    sha256:9a9a23dff01b7e665fa7deabc2cb727d87ffb246ea610ff39c7b8000538be206
 docker: quay.io/biocontainers/bioconductor-cleaver

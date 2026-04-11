@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rcistarget
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:2054682faf9c2151e1a8ec43309f41c35d7417ece89d6fe718c2e43b04fe2d09
+  1.29.0--r45hdfd78af_0: 
+    sha256:bf3ec4e6cf1571049d6a7f9d2e2d1aa85b7aaceacecb23fc4e4d7f92a24bc582
 tags:
   1.8.0--r40_0: 
     sha256:0a350c7587e02a70d90bbb2f624f10a25cece776351b7df930260be8fc39fb2f
@@ -20,6 +20,8 @@ tags:
     sha256:3e5ca88b21e417ed09bf765c8903f546eddef51578674e5cf15e67f233723598
   1.26.0--r44hdfd78af_0: 
     sha256:2054682faf9c2151e1a8ec43309f41c35d7417ece89d6fe718c2e43b04fe2d09
+  1.29.0--r45hdfd78af_0: 
+    sha256:bf3ec4e6cf1571049d6a7f9d2e2d1aa85b7aaceacecb23fc4e4d7f92a24bc582
 docker: quay.io/biocontainers/bioconductor-rcistarget
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

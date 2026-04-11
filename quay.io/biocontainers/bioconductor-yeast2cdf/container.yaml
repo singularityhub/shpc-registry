@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-yeast2cdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:5fa5ba460793843d7d9416ab9278d6ed6f65dfe2bdf4252a49645d5e9aadf125
+  2.18.0--r45hdfd78af_14: 
+    sha256:b71fbb67e6b2993f7c21ca43c3737f4720f81145357ea5086d6a9f489ba612d3
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:3892ce137d3ffcd977f9f955336726c8fe2256f9f35c54b992077f23c7dcb4b3
@@ -16,4 +16,6 @@ tags:
     sha256:53dd8bf12d04b54118a0eb08db7c1bc64b14c98775e54c2a80c9d956f2851f21
   2.18.0--r44hdfd78af_13: 
     sha256:5fa5ba460793843d7d9416ab9278d6ed6f65dfe2bdf4252a49645d5e9aadf125
+  2.18.0--r45hdfd78af_14: 
+    sha256:b71fbb67e6b2993f7c21ca43c3737f4720f81145357ea5086d6a9f489ba612d3
 docker: quay.io/biocontainers/bioconductor-yeast2cdf

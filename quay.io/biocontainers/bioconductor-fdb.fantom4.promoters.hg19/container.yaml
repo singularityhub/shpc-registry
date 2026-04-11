@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fdb.fantom4.promoters.hg19
 latest:
-  1.0.0--r44hdfd78af_13: 
-    sha256:2ce04425e77de4de9fe0825ddb01d218f3d93ebd9f5eca7f0dbf74469829024a
+  1.0.0--r45hdfd78af_14: 
+    sha256:0b96feb6031565e11e5ede2e4ca4122bac290deaf072e7c3d256d52b7d40ca0e
 tags:
   1.0.0--r41hdfd78af_9: 
     sha256:32eebdaea9a8d509e1a0fa2814e71859e76b052f5da1ad0bf697e77649933df8
@@ -16,4 +16,6 @@ tags:
     sha256:8d1db41ea7003219fd8cf2845923b725615617b0368da0c49b9d838a05d17c91
   1.0.0--r44hdfd78af_13: 
     sha256:2ce04425e77de4de9fe0825ddb01d218f3d93ebd9f5eca7f0dbf74469829024a
+  1.0.0--r45hdfd78af_14: 
+    sha256:0b96feb6031565e11e5ede2e4ca4122bac290deaf072e7c3d256d52b7d40ca0e
 docker: quay.io/biocontainers/bioconductor-fdb.fantom4.promoters.hg19

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-breastcancertransbig
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:9efa73c18334fb041bcc9a90ec349ebeb639705edf97da9d9568654bdbe0cfd9
+  1.48.0--r45hdfd78af_0: 
+    sha256:ba8fb4d193fa1878f1a776e43e5475035985f8de8b3190fa09e687fba9845495
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:661d2cd2486bfb121424de9680f415770581fa8ed6d908d9912de43e802c847c
@@ -16,4 +16,6 @@ tags:
     sha256:80f9214f15fa1dad20ea53b072087d4028c5212d1add5aaaa5ff6ce370a06cae
   1.44.0--r44hdfd78af_0: 
     sha256:9efa73c18334fb041bcc9a90ec349ebeb639705edf97da9d9568654bdbe0cfd9
+  1.48.0--r45hdfd78af_0: 
+    sha256:ba8fb4d193fa1878f1a776e43e5475035985f8de8b3190fa09e687fba9845495
 docker: quay.io/biocontainers/bioconductor-breastcancertransbig

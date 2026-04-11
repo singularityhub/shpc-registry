@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/covsnap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for covsnap
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:c3b1523ed8723daed3505b8d1f391378082cf9cb3376685e2b999bd03bd6450f
+  0.1.1--pyhdfd78af_0: 
+    sha256:0c671ca72e52db9803c19943a2362c857d7c9da729c02c49ccecbb870de72cc5
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:c3b1523ed8723daed3505b8d1f391378082cf9cb3376685e2b999bd03bd6450f
+  0.1.1--pyhdfd78af_0: 
+    sha256:0c671ca72e52db9803c19943a2362c857d7c9da729c02c49ccecbb870de72cc5
 docker: quay.io/biocontainers/covsnap
 aliases:
   covsnap: /usr/local/bin/covsnap

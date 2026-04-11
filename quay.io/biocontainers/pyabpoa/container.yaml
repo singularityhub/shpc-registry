@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyabpoa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyabpoa
 latest:
-  1.5.5--py311h384fd50_0: 
-    sha256:a51bedf9d2c783efd69178c48ec8387f9c7b116c35fcd4555e5a1bc90a85693d
+  1.5.6--py311hbd8efe9_0: 
+    sha256:82467b67fa5b447cc3b0b0486927a7e566d7ab374b18baf3bc0d4c442b1db0c7
 tags:
   1.4.0--py39hbf8eff0_0: 
     sha256:d62835fbc0ec3bb797e14c2245cc0e6a135128299f4ba0127951476e552d4325
@@ -31,6 +31,8 @@ tags:
     sha256:9b8b9b4a536388b5a385bcc6bfe69dc96e25b0bff2cb063ff0bf02af84735383
   1.5.5--py311h384fd50_0: 
     sha256:a51bedf9d2c783efd69178c48ec8387f9c7b116c35fcd4555e5a1bc90a85693d
+  1.5.6--py311hbd8efe9_0: 
+    sha256:82467b67fa5b447cc3b0b0486927a7e566d7ab374b18baf3bc0d4c442b1db0c7
 docker: quay.io/biocontainers/pyabpoa
 aliases:
   cygdb: /usr/local/bin/cygdb

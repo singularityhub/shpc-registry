@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rmspc
 latest:
-  1.8.0--r43hdfd78af_0: 
-    sha256:e1ecbcd6f1d3b63bf1f481b376f7bf311a601926cc0a32e8b7174bd358232e39
+  1.16.0--r45hdfd78af_0: 
+    sha256:d57c53d83ae19d93c41efcd3d72e3870daeddc987708fb3650b64b340ba7f0de
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:7ef9dcfa49f66bc8abf01ecfe6475456e8fda51be583a89c7620a776ed43d304
@@ -14,4 +14,6 @@ tags:
     sha256:f9151d220e7cee4d9aebec11f7f71aa3fc871b7e47dca819bcbd9c0303b74a30
   1.8.0--r43hdfd78af_0: 
     sha256:e1ecbcd6f1d3b63bf1f481b376f7bf311a601926cc0a32e8b7174bd358232e39
+  1.16.0--r45hdfd78af_0: 
+    sha256:d57c53d83ae19d93c41efcd3d72e3870daeddc987708fb3650b64b340ba7f0de
 docker: quay.io/biocontainers/bioconductor-rmspc

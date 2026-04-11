@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ashkenazimsonchr21
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:4b3bf0f672d985848f43c7dd07c2b0a8bb294ec99e7363b61dc190d88babea34
+  1.40.0--r45hdfd78af_0: 
+    sha256:cfb898370bb95104ee5c8eb828f9c26c46ef98265af9150898ccc6d94b6204df
 tags:
   1.24.0--r41hdfd78af_1: 
     sha256:8eb01423ea092e3f6b7efc7a28845970a9bd95e1657dde8f72b38123287d9f1d
@@ -16,4 +16,6 @@ tags:
     sha256:e0626d2554465d2241a31f2794a3a5345bf38e433f69acf3921e2dd62315bcb8
   1.36.0--r44hdfd78af_0: 
     sha256:4b3bf0f672d985848f43c7dd07c2b0a8bb294ec99e7363b61dc190d88babea34
+  1.40.0--r45hdfd78af_0: 
+    sha256:cfb898370bb95104ee5c8eb828f9c26c46ef98265af9150898ccc6d94b6204df
 docker: quay.io/biocontainers/bioconductor-ashkenazimsonchr21

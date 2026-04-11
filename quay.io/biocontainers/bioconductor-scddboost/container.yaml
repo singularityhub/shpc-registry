@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-scddboost
 latest:
-  1.4.0--r43hf17093f_0: 
-    sha256:f7caad5ff0760cc0961e9b2f8f7c847f02055283803e54a14900149411afdbcf
+  1.12.0--r45ha27e39d_0: 
+    sha256:c848f0a05fcfcd26950d6b8311e8ecba8512a7da641d1fd185788e2f0b6277a3
 tags:
   1.0.0--r42hc247a5b_0: 
     sha256:6ff7e4138f450c2f87ffdc3cb99d5f26726c7509d5aeac660b3e24df0ef6f795
@@ -14,6 +14,8 @@ tags:
     sha256:9836eb37650636ec416e0359e04801a4b85d0df54cb861165af63a2d37ba155d
   1.4.0--r43hf17093f_0: 
     sha256:f7caad5ff0760cc0961e9b2f8f7c847f02055283803e54a14900149411afdbcf
+  1.12.0--r45ha27e39d_0: 
+    sha256:c848f0a05fcfcd26950d6b8311e8ecba8512a7da641d1fd185788e2f0b6277a3
 docker: quay.io/biocontainers/bioconductor-scddboost
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

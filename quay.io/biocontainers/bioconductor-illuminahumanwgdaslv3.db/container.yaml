@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-illuminahumanwgdaslv3.db
 latest:
-  1.26.0--r44hdfd78af_13: 
-    sha256:7ece7089a11fa5c5c6720cbf1e97e56134f6d98783d1ab24d0ca08d08948486b
+  1.26.0--r45hdfd78af_14: 
+    sha256:58a75dc6720fc2bad0d922b962a869268919223c5cee2a08e214776057a92202
 tags:
   1.26.0--r41hdfd78af_9: 
     sha256:223013993b0982d70a57e1dedad98a1d81da8234a25692ac89584992db3e5da9
@@ -16,4 +16,6 @@ tags:
     sha256:9add51dc1571386d9eeef3fe1bca8164364ecae1dd7559ce26cb6597f79aae8b
   1.26.0--r44hdfd78af_13: 
     sha256:7ece7089a11fa5c5c6720cbf1e97e56134f6d98783d1ab24d0ca08d08948486b
+  1.26.0--r45hdfd78af_14: 
+    sha256:58a75dc6720fc2bad0d922b962a869268919223c5cee2a08e214776057a92202
 docker: quay.io/biocontainers/bioconductor-illuminahumanwgdaslv3.db

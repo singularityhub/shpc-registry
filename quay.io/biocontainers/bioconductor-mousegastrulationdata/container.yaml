@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mousegastrulationdata
 latest:
-  1.16.0--r43hdfd78af_0: 
-    sha256:6208bee5bd6fb6ccdb0e7ca7f08fe739b1a7d35c8ece393ca733c7dcc0219d81
+  1.24.0--r45hdfd78af_0: 
+    sha256:41528b6e54c23b0b6fd147f4e682004b7b814d9bdc7a4b971a27d3ef8d965a92
 tags:
   1.8.0--r41hdfd78af_1: 
     sha256:9dd922f26757bde7b786758c7392d4b16b52a19ce8f3c68eee5784e56193eda9
@@ -14,6 +14,8 @@ tags:
     sha256:7a98ccd33f48d94972a2ab87422700f658c38a8c665df783b62f18c1eb01dde7
   1.16.0--r43hdfd78af_0: 
     sha256:6208bee5bd6fb6ccdb0e7ca7f08fe739b1a7d35c8ece393ca733c7dcc0219d81
+  1.24.0--r45hdfd78af_0: 
+    sha256:41528b6e54c23b0b6fd147f4e682004b7b814d9bdc7a4b971a27d3ef8d965a92
 docker: quay.io/biocontainers/bioconductor-mousegastrulationdata
 aliases:
   x86_64-conda-linux-gnu-pkg-config: 

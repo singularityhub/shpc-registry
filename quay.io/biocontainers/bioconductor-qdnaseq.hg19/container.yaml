@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-qdnaseq.hg19
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:5a0b540d1e4844357918cc69aff20294cf9b42b1dcb87c6983b7686b23956806
+  1.40.0--r45hdfd78af_0: 
+    sha256:0dfc31c7df70efc59ce18eca05fe59705180181ca0209b35ddcd9fe7a622aba3
 tags:
   1.24.0--r41hdfd78af_1: 
     sha256:6a875f17066d84796dc27fa9e284a7281e1c4e113edcdee372dde9b9a752ffed
@@ -16,4 +16,6 @@ tags:
     sha256:1850cb248cd995c3cf935c347b9b835e8fa9633954741534ba19b1e706631a4d
   1.36.0--r44hdfd78af_0: 
     sha256:5a0b540d1e4844357918cc69aff20294cf9b42b1dcb87c6983b7686b23956806
+  1.40.0--r45hdfd78af_0: 
+    sha256:0dfc31c7df70efc59ce18eca05fe59705180181ca0209b35ddcd9fe7a622aba3
 docker: quay.io/biocontainers/bioconductor-qdnaseq.hg19

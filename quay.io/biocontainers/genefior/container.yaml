@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/genefior
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genefior
 latest:
-  0.6.0--pyhdfd78af_0: 
-    sha256:dc731613fc40fc85886b3cef21f0588b225523be8bc7b6a39ece64f6792d3cb3
+  0.7.0--pyhdfd78af_1: 
+    sha256:537d99fed96141b13dc0035876d30ab0e978609dbc5c6d53dfb0d73af43e6d02
 tags:
   0.6.0--pyhdfd78af_0: 
     sha256:dc731613fc40fc85886b3cef21f0588b225523be8bc7b6a39ece64f6792d3cb3
+  0.7.0--pyhdfd78af_1: 
+    sha256:537d99fed96141b13dc0035876d30ab0e978609dbc5c6d53dfb0d73af43e6d02
 docker: quay.io/biocontainers/genefior
 aliases:
   AMRFior: /usr/local/bin/AMRFior

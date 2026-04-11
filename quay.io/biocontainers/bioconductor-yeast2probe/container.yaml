@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-yeast2probe
 latest:
-  2.18.0--r44hdfd78af_14: 
-    sha256:8baaf9f62c9d282225a6bf23b6bd08f3c708504e3a539d9b6173879f3210cbeb
+  2.18.0--r45hdfd78af_15: 
+    sha256:13137a99326beee3dcecec11bbe25ded0a48e7d180fe4feb167f25534b074c61
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:5c4fee88635afc31c8a613c75b24678982f8cfd4b5e79656464cba5c44f0eb3b
@@ -16,4 +16,6 @@ tags:
     sha256:d4176aed79fb56a5d95a9a2a28fa7b1f31dc26b0875a6eccce42dcca04ed07f9
   2.18.0--r44hdfd78af_14: 
     sha256:8baaf9f62c9d282225a6bf23b6bd08f3c708504e3a539d9b6173879f3210cbeb
+  2.18.0--r45hdfd78af_15: 
+    sha256:13137a99326beee3dcecec11bbe25ded0a48e7d180fe4feb167f25534b074c61
 docker: quay.io/biocontainers/bioconductor-yeast2probe

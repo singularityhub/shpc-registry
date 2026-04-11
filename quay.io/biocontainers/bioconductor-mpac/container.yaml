@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-mpac
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-mpac
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:456c25b1a9f0eaab40fca5aefd8bf10f09f4f88a21e279c42ccf4b4be86b6ce9
+  1.4.0--r45hdfd78af_0: 
+    sha256:045f45f688a9b100126cf8814bba9db37b36100c6c8b0da2b2b996f486b5e1fd
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:456c25b1a9f0eaab40fca5aefd8bf10f09f4f88a21e279c42ccf4b4be86b6ce9
+  1.4.0--r45hdfd78af_0: 
+    sha256:045f45f688a9b100126cf8814bba9db37b36100c6c8b0da2b2b996f486b5e1fd
 docker: quay.io/biocontainers/bioconductor-mpac
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

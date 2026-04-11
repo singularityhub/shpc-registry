@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-tidycoverage
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:0c5fd1160c594ac4b4b2a01636b0cae0402b9a1dc63be745df1780486c1e9401
+  1.6.0--r45hdfd78af_0: 
+    sha256:1d7a6a6967814f24c716d47ced73ceed8d83de1401a615cddde967e30a9f994b
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:0c5fd1160c594ac4b4b2a01636b0cae0402b9a1dc63be745df1780486c1e9401
+  1.6.0--r45hdfd78af_0: 
+    sha256:1d7a6a6967814f24c716d47ced73ceed8d83de1401a615cddde967e30a9f994b
 docker: quay.io/biocontainers/bioconductor-tidycoverage
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

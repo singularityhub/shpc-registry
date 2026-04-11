@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-crisprshiny
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:291bd97d6a2758adfafbce732ae98a8b8b4961a020ac859810e66e56d5c31ce4
+  1.6.0--r45hdfd78af_0: 
+    sha256:393e4bee8a09f8014ed588af139fa09b0e05a1a8c53924f5008a8c019ac3f93d
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:291bd97d6a2758adfafbce732ae98a8b8b4961a020ac859810e66e56d5c31ce4
+  1.6.0--r45hdfd78af_0: 
+    sha256:393e4bee8a09f8014ed588af139fa09b0e05a1a8c53924f5008a8c019ac3f93d
 docker: quay.io/biocontainers/bioconductor-crisprshiny
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

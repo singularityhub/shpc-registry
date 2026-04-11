@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/cellprofiler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cellprofiler
 latest:
-  4.2.8--pyhdfd78af_0: 
-    sha256:30b2ffe0485c17fe70e247441c0b1f836e3ce71702086084fe00137718be509f
+  4.2.8.1--pyhdfd78af_0: 
+    sha256:a676b0528305f0543f2d8ceaaccead26d0faa82e321aebf034a03f10f423736b
 tags:
   4.2.1--py38hec16e2b_2: 
     sha256:c4bafc812c204f5cddf7e708076c9f06e777971f0b205280f4525a83e427f733
@@ -17,4 +17,6 @@ tags:
     sha256:9b3edc025769a8a0a975d47b42d952b6c89f11756d2e4d0654af8736280d49c3
   4.2.8--pyhdfd78af_0: 
     sha256:30b2ffe0485c17fe70e247441c0b1f836e3ce71702086084fe00137718be509f
+  4.2.8.1--pyhdfd78af_0: 
+    sha256:a676b0528305f0543f2d8ceaaccead26d0faa82e321aebf034a03f10f423736b
 docker: quay.io/biocontainers/cellprofiler

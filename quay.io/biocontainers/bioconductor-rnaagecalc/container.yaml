@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rnaagecalc
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:3d66591ce408368df2151cd739f905a3072646aefe5b1887fc9970f5790331a2
+  1.22.0--r45hdfd78af_0: 
+    sha256:0515633d530cc9cf4a7195119b55c670d0ef72eae01a250dcee785d5c266bd25
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:1385cf0b42fb7fcbda7498ea0e2abbb4898be695e30c653c22253b9d46d15bf0
@@ -16,4 +16,6 @@ tags:
     sha256:d28807bd8fa469fec4a8c0864b629927b61d1663096534353f2d63922f6bef5e
   1.18.0--r44hdfd78af_0: 
     sha256:3d66591ce408368df2151cd739f905a3072646aefe5b1887fc9970f5790331a2
+  1.22.0--r45hdfd78af_0: 
+    sha256:0515633d530cc9cf4a7195119b55c670d0ef72eae01a250dcee785d5c266bd25
 docker: quay.io/biocontainers/bioconductor-rnaagecalc

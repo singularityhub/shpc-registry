@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ace
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ace
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:278e65c0c67b75df998c7fecbd3c63e366f6fc63ced3ad9f80079588b1483dc2
+  1.28.0--r45hdfd78af_0: 
+    sha256:7c061e64b8069023672f51219d85b776149dc3e170307b1858613bc41fd74fd7
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:37cbec082420e12b938097e5a85c58a9af363eddea19e237a584250e0f40ec6b
@@ -19,6 +19,8 @@ tags:
     sha256:9cc9525fcf7cdd1a9c495410db90bb40cffaf2073a60b8959a73e2d932f337cc
   1.24.0--r44hdfd78af_0: 
     sha256:278e65c0c67b75df998c7fecbd3c63e366f6fc63ced3ad9f80079588b1483dc2
+  1.28.0--r45hdfd78af_0: 
+    sha256:7c061e64b8069023672f51219d85b776149dc3e170307b1858613bc41fd74fd7
 docker: quay.io/biocontainers/bioconductor-ace
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

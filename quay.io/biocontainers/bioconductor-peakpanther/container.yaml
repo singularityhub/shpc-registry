@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-peakpanther
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:297c4b123bdce065fabdfe1800ec6018ecaf6e5d77f61112d267252e3fccb50c
+  1.24.0--r45hdfd78af_0: 
+    sha256:4d03e9986932134da10a85af7178bdbca3afdbb8455645b36c72977bf349339e
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:8a0054756aa49e76ee7412fcfaa4dcecc3339f9fffb1e8e28cafc42169ac6680
@@ -16,6 +16,8 @@ tags:
     sha256:8a9f1f3370cdcb252f626becf90b5c8f917feaa7e45bac20a95e2031a9b1573a
   1.20.0--r44hdfd78af_0: 
     sha256:297c4b123bdce065fabdfe1800ec6018ecaf6e5d77f61112d267252e3fccb50c
+  1.24.0--r45hdfd78af_0: 
+    sha256:4d03e9986932134da10a85af7178bdbca3afdbb8455645b36c72977bf349339e
 docker: quay.io/biocontainers/bioconductor-peakpanther
 aliases:
   zipcmp: /usr/local/bin/zipcmp

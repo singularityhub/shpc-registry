@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-microbiome
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:e451cb121de5555d9308f0a9e5abd24f93d8540668fc050e9ba134090b8acdd4
+  1.32.0--r45hdfd78af_0: 
+    sha256:b08752566d24337c05bd29d113ea3833be794b2c385a9c10f7191c6ac51ee71b
 tags:
   1.8.0--r36_0: 
     sha256:447b788b860b1a104a5d792f05d21edaf98dee80bf033b8686d018751070bf86
@@ -24,6 +24,8 @@ tags:
     sha256:179f99a90aa8bcecdbd0b1272b030cef223b0afcd308dea500273b4f8259ce71
   1.28.0--r44hdfd78af_0: 
     sha256:e451cb121de5555d9308f0a9e5abd24f93d8540668fc050e9ba134090b8acdd4
+  1.32.0--r45hdfd78af_0: 
+    sha256:b08752566d24337c05bd29d113ea3833be794b2c385a9c10f7191c6ac51ee71b
 docker: quay.io/biocontainers/bioconductor-microbiome
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

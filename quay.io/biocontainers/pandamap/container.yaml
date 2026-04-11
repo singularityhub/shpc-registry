@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pandamap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pandamap
 latest:
-  4.1.0--pyhdfd78af_0: 
-    sha256:d8686047a7846d7fd372222ff8fa58791b59013ba0fec95aa612f3dc79220898
+  4.2.1--pyhdfd78af_0: 
+    sha256:59d505f1be0e94135958b1808ef4ef6c3e644ced8d57bde4fc21c35f1403f190
 tags:
   4.1.0--pyhdfd78af_0: 
     sha256:d8686047a7846d7fd372222ff8fa58791b59013ba0fec95aa612f3dc79220898
+  4.2.1--pyhdfd78af_0: 
+    sha256:59d505f1be0e94135958b1808ef4ef6c3e644ced8d57bde4fc21c35f1403f190
 docker: quay.io/biocontainers/pandamap
 aliases:
   mkdssp: /usr/local/bin/mkdssp

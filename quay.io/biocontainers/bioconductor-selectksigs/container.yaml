@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-selectksigs
 latest:
-  1.18.0--r44he5774e6_0: 
-    sha256:5c0bec87c72cd6d3d27c4c1698ad9564b290848e48b1d472c6128d6f274984e0
+  1.22.0--r45ha27e39d_0: 
+    sha256:97b8fa71deee322c87f8b8be69a60175268882cb81a8fcc67a07c6680487fef7
 tags:
   1.6.0--r41hc247a5b_2: 
     sha256:fd843d1451d4dad93a6f94f9933c1c3fe05cda7da5a8ed20cff3a497e1c65eec
@@ -18,6 +18,8 @@ tags:
     sha256:1c2f8fc9ceb96a0da619b554a0e287d3c23e0e738ae84f7d66fd45ea07ababf8
   1.18.0--r44he5774e6_0: 
     sha256:5c0bec87c72cd6d3d27c4c1698ad9564b290848e48b1d472c6128d6f274984e0
+  1.22.0--r45ha27e39d_0: 
+    sha256:97b8fa71deee322c87f8b8be69a60175268882cb81a8fcc67a07c6680487fef7
 docker: quay.io/biocontainers/bioconductor-selectksigs
 aliases:
   jags: /usr/local/bin/jags

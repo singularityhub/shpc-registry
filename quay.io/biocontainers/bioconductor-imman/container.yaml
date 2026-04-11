@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-imman
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:957ce94014cfe2feefc369f0fd274055455b9cc34b7a17c3fadd0a93971300ca
+  1.30.0--r45hdfd78af_0: 
+    sha256:b2779ea0b0c21e090754a4731e571494aba889ad677eacf055792e3b36ea83b9
 tags:
   1.7.0--r40_0: 
     sha256:f5e3ad3a0aa9be642a0ad69ce64f49e817f1d9e5df5839e777697c3415fe6b38
@@ -22,6 +22,8 @@ tags:
     sha256:4fda47693952adf15d034cb97b1530119cc5649654aa1fb261f08cbd5ecea36d
   1.26.0--r44hdfd78af_0: 
     sha256:957ce94014cfe2feefc369f0fd274055455b9cc34b7a17c3fadd0a93971300ca
+  1.30.0--r45hdfd78af_0: 
+    sha256:b2779ea0b0c21e090754a4731e571494aba889ad677eacf055792e3b36ea83b9
 docker: quay.io/biocontainers/bioconductor-imman
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

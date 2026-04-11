@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-projectr
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:97ca32daa7bc552c8363f9815b1149e73b3f1522d9dae2185d4106feb11a584a
+  1.26.0--r45hdfd78af_0: 
+    sha256:bc0347764a95425149fa984dbf7620c6ab5899d7ef3934743c758e8c51dfa6b1
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:4368ce3dff1872715f03b2d6fd60eb989253c60d1dc8805dc2af17a429ac0e36
@@ -18,6 +18,8 @@ tags:
     sha256:2f226518236c7f5eedb75e01572cecf01d135ba01c96546b6e1053d921e68cf1
   1.22.0--r44hdfd78af_0: 
     sha256:97ca32daa7bc552c8363f9815b1149e73b3f1522d9dae2185d4106feb11a584a
+  1.26.0--r45hdfd78af_0: 
+    sha256:bc0347764a95425149fa984dbf7620c6ab5899d7ef3934743c758e8c51dfa6b1
 docker: quay.io/biocontainers/bioconductor-projectr
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

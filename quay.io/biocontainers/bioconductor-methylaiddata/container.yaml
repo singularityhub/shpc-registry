@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-methylaiddata
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:d69339274af5fa9942cc7eabee6d207b99e8fef182e5aa26572b1815c0128cf1
+  1.42.0--r45hdfd78af_0: 
+    sha256:e4e19510f1867869fba9d49aab392f45bf14e5f873ffd27cdc687a6896d6bff2
 tags:
   1.26.0--r41hdfd78af_1: 
     sha256:65932b71b54d6e5348fdf8428c918bbdb95bc8d9a1ad7f231ee59cdc34ad100a
@@ -16,4 +16,6 @@ tags:
     sha256:ee66cc3a097af7482d61c856b236d71ccf4e7f2d5a26d77d3599445c1728c9dd
   1.38.0--r44hdfd78af_0: 
     sha256:d69339274af5fa9942cc7eabee6d207b99e8fef182e5aa26572b1815c0128cf1
+  1.42.0--r45hdfd78af_0: 
+    sha256:e4e19510f1867869fba9d49aab392f45bf14e5f873ffd27cdc687a6896d6bff2
 docker: quay.io/biocontainers/bioconductor-methylaiddata

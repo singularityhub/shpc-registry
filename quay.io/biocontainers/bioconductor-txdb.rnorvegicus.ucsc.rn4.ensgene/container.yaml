@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene
 latest:
-  3.2.2--r44hdfd78af_17: 
-    sha256:5c3b6707465b02de0fd862e3f9792845225063c5a86d5465e3626f48bbdded12
+  3.2.2--r45hdfd78af_18: 
+    sha256:068debe0f8d0fc7090ea3ffaffba545c20495f11e57495b473688c9278884ff8
 tags:
   3.2.2--r40_9: 
     sha256:08205f03be594525704cc5ca3575078c971ea0f1f55e1e827e45b92ebd89b847
@@ -17,6 +17,8 @@ tags:
     sha256:44bee7475fed9bef6678f0d00463e8f1fcbf304114acc0fe33ab3f0d0d7667fa
   3.2.2--r44hdfd78af_17: 
     sha256:5c3b6707465b02de0fd862e3f9792845225063c5a86d5465e3626f48bbdded12
+  3.2.2--r45hdfd78af_18: 
+    sha256:068debe0f8d0fc7090ea3ffaffba545c20495f11e57495b473688c9278884ff8
 docker: quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 
