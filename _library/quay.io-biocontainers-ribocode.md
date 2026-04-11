@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribocode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribocode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribocode/container.yaml"
-updated_at: "2026-04-10 05:21:30.908563"
+updated_at: "2026-04-11 04:55:16.822868"
 latest: "1.2.15--pyhdc42f0e_1"
 container_url: "https://biocontainers.pro/tools/ribocode"
 aliases:

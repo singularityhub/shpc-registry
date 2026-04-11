@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-tableextract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tableextract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tableextract/container.yaml"
-updated_at: "2026-04-10 05:36:19.619742"
+updated_at: "2026-04-11 05:09:20.947003"
 latest: "2.15--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-html-tableextract"
 aliases:

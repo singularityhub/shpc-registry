@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-statmod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-statmod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-statmod/container.yaml"
-updated_at: "2026-04-10 05:39:58.939274"
+updated_at: "2026-04-11 05:12:49.586988"
 latest: "1.4.29--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-statmod"
 aliases:

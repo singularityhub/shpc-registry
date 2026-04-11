@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/duphist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duphist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duphist/container.yaml"
-updated_at: "2026-04-10 05:13:05.691582"
+updated_at: "2026-04-11 04:47:14.048652"
 latest: "1.0.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/duphist"
 aliases:

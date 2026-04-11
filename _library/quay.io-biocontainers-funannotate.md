@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/funannotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/funannotate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/funannotate/container.yaml"
-updated_at: "2026-04-10 05:15:23.305007"
+updated_at: "2026-04-11 04:49:23.594016"
 latest: "1.8.17--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/funannotate"
 aliases:

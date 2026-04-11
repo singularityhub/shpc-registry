@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sompy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sompy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sompy/container.yaml"
-updated_at: "2026-04-10 05:00:48.849370"
+updated_at: "2026-04-11 04:35:22.783360"
 latest: "0.1.1--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/sompy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tfea.chip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tfea.chip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tfea.chip/container.yaml"
-updated_at: "2026-04-10 05:14:37.369272"
+updated_at: "2026-04-11 04:48:39.174627"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tfea.chip"
 aliases:

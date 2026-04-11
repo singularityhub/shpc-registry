@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binge/container.yaml"
-updated_at: "2026-04-10 05:21:00.960644"
+updated_at: "2026-04-11 04:54:47.695612"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/binge"
 aliases:

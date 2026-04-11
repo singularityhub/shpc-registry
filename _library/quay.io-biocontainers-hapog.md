@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hapog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapog/container.yaml"
-updated_at: "2026-04-10 05:00:25.214334"
+updated_at: "2026-04-11 04:35:00.002925"
 latest: "1.3.8--py39hb49fbdb_3"
 container_url: "https://biocontainers.pro/tools/hapog"
 aliases:

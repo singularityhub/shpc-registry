@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hummingbird"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hummingbird/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hummingbird/container.yaml"
-updated_at: "2026-04-10 05:21:49.851018"
+updated_at: "2026-04-11 04:55:35.034495"
 latest: "1.20.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hummingbird"
 

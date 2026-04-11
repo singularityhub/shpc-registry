@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rcircos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rcircos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rcircos/container.yaml"
-updated_at: "2026-04-10 05:39:11.132371"
+updated_at: "2026-04-11 05:12:03.682827"
 latest: "1.2.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-rcircos"
 aliases:

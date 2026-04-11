@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bit/container.yaml"
-updated_at: "2026-04-10 05:46:19.746415"
+updated_at: "2026-04-11 05:18:52.870538"
 latest: "1.1_12--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-bit"
 

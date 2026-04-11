@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scarray/container.yaml"
-updated_at: "2026-04-10 05:09:38.998344"
+updated_at: "2026-04-11 04:43:54.783830"
 latest: "1.18.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scarray"
 

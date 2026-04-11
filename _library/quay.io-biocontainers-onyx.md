@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/onyx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/onyx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/onyx/container.yaml"
-updated_at: "2026-04-10 04:55:25.124348"
+updated_at: "2026-04-11 04:30:17.442752"
 latest: "0.0.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/onyx"
 aliases:
