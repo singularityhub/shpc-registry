@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-lymphoseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lymphoseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lymphoseq/container.yaml"
-updated_at: "2026-04-11 05:12:20.888401"
-latest: "1.34.0--r44hdfd78af_0"
+updated_at: "2026-04-12 05:35:21.484357"
+latest: "1.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lymphoseq"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.28.0--r43hdfd78af_0"
  - "1.30.0--r43hdfd78af_0"
  - "1.34.0--r44hdfd78af_0"
+ - "1.38.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lymphoseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lymphoseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lymphoseq", "latest": {"1.34.0--r44hdfd78af_0": "sha256:a11c6b49f3433d3e38f44252a01fd88524dcc591f51024290fe51bdd92304b78"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:2ffc4e4b0075dad7b827bdecc5f00cc378fc7afd711fa3b7ee8a568f8af648c6", "1.26.0--r42hdfd78af_0": "sha256:b47be6be0d1c98dc47d665375f1896b46256930c01703de0faded78ea3b460d8", "1.28.0--r43hdfd78af_0": "sha256:2f5fcda154bf77043a5cc7f9c7d931365989ca5c543eb58b2a8188fb332b7bd7", "1.30.0--r43hdfd78af_0": "sha256:7c0c640412653580dc4e88980582f5fe1bb6b209572ec8fcc37bff9a6ec05ea7", "1.34.0--r44hdfd78af_0": "sha256:a11c6b49f3433d3e38f44252a01fd88524dcc591f51024290fe51bdd92304b78"}, "docker": "quay.io/biocontainers/bioconductor-lymphoseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lymphoseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lymphoseq", "latest": {"1.38.0--r45hdfd78af_0": "sha256:c9e872c5d6a3b5a4220319638f75b687c4b553c867ad338c5bd84ba4f3f5229a"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:2ffc4e4b0075dad7b827bdecc5f00cc378fc7afd711fa3b7ee8a568f8af648c6", "1.26.0--r42hdfd78af_0": "sha256:b47be6be0d1c98dc47d665375f1896b46256930c01703de0faded78ea3b460d8", "1.28.0--r43hdfd78af_0": "sha256:2f5fcda154bf77043a5cc7f9c7d931365989ca5c543eb58b2a8188fb332b7bd7", "1.30.0--r43hdfd78af_0": "sha256:7c0c640412653580dc4e88980582f5fe1bb6b209572ec8fcc37bff9a6ec05ea7", "1.34.0--r44hdfd78af_0": "sha256:a11c6b49f3433d3e38f44252a01fd88524dcc591f51024290fe51bdd92304b78", "1.38.0--r45hdfd78af_0": "sha256:c9e872c5d6a3b5a4220319638f75b687c4b553c867ad338c5bd84ba4f3f5229a"}, "docker": "quay.io/biocontainers/bioconductor-lymphoseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lymphoseq.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lymphoseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lymphoseq:1.34.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lymphoseq:1.38.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lymphoseq/1.34.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lymphoseq/1.34.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lymphoseq/1.38.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lymphoseq/1.38.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

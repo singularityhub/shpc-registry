@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-crisprshiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprshiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprshiny/container.yaml"
-updated_at: "2026-04-11 04:24:55.307692"
-latest: "1.2.0--r44hdfd78af_0"
+updated_at: "2026-04-12 04:49:21.536922"
+latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprshiny"
 aliases:
  - "pandoc-lua"
@@ -29,8 +29,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r44hdfd78af_0"
+ - "1.6.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-crisprshiny"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprshiny", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-crisprshiny", "latest": {"1.2.0--r44hdfd78af_0": "sha256:291bd97d6a2758adfafbce732ae98a8b8b4961a020ac859810e66e56d5c31ce4"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:291bd97d6a2758adfafbce732ae98a8b8b4961a020ac859810e66e56d5c31ce4"}, "docker": "quay.io/biocontainers/bioconductor-crisprshiny", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pandoc-server": "/usr/local/bin/pandoc-server", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprshiny", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-crisprshiny", "latest": {"1.6.0--r45hdfd78af_0": "sha256:393e4bee8a09f8014ed588af139fa09b0e05a1a8c53924f5008a8c019ac3f93d"}, "tags": {"1.2.0--r44hdfd78af_0": "sha256:291bd97d6a2758adfafbce732ae98a8b8b4961a020ac859810e66e56d5c31ce4", "1.6.0--r45hdfd78af_0": "sha256:393e4bee8a09f8014ed588af139fa09b0e05a1a8c53924f5008a8c019ac3f93d"}, "docker": "quay.io/biocontainers/bioconductor-crisprshiny", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pandoc-server": "/usr/local/bin/pandoc-server", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crisprshiny.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/bioconductor-crisprshiny
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-crisprshiny:1.2.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-crisprshiny:1.6.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-crisprshiny/1.2.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-crisprshiny/1.2.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-crisprshiny/1.6.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-crisprshiny/1.6.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

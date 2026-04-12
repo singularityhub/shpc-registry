@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/djinn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/djinn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/djinn/container.yaml"
-updated_at: "2026-04-11 04:50:27.322053"
-latest: "2.1--pyhdfd78af_0"
+updated_at: "2026-04-12 05:14:04.118846"
+latest: "2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/djinn"
 aliases:
  - "djinn"
@@ -39,8 +39,12 @@ versions:
  - "1.1--pyhdfd78af_0"
  - "2.1--pyhdfd78af_0"
  - "2.0--pyhdfd78af_0"
+ - "2.4--pyhdfd78af_0"
+ - "2.3--pyhdfd78af_0"
+ - "2.2.1--pyhdfd78af_0"
+ - "2.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for djinn"
-config: {"url": "https://biocontainers.pro/tools/djinn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for djinn", "latest": {"2.1--pyhdfd78af_0": "sha256:03763739ac9b6f5406841627cf6eeace7318e4bb3cb974f61fec6143811cb137"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:19634814e36332764d581bac5c3d475db189ebaa5da23bceb4006a9ed7c08729", "1.1--pyhdfd78af_0": "sha256:fef01b02b3f3422302ae65cbe1239c83f466e39a4206372df5196b37b8a5f27c", "2.1--pyhdfd78af_0": "sha256:03763739ac9b6f5406841627cf6eeace7318e4bb3cb974f61fec6143811cb137", "2.0--pyhdfd78af_0": "sha256:1c1169839c4ee3f7c1badb06a90d3d15c1014add7b108abe1465673d6b53dca4"}, "docker": "quay.io/biocontainers/djinn", "aliases": {"djinn": "/usr/local/bin/djinn", "ref-cache": "/usr/local/bin/ref-cache", "rich-click": "/usr/local/bin/rich-click", "markdown-it": "/usr/local/bin/markdown-it", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl"}}
+config: {"url": "https://biocontainers.pro/tools/djinn", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for djinn", "latest": {"2.4--pyhdfd78af_0": "sha256:c8a3051a85045f6ac93cac619c5659e401dd98009a1380884d3097f9c3d1e708"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:19634814e36332764d581bac5c3d475db189ebaa5da23bceb4006a9ed7c08729", "1.1--pyhdfd78af_0": "sha256:fef01b02b3f3422302ae65cbe1239c83f466e39a4206372df5196b37b8a5f27c", "2.1--pyhdfd78af_0": "sha256:03763739ac9b6f5406841627cf6eeace7318e4bb3cb974f61fec6143811cb137", "2.0--pyhdfd78af_0": "sha256:1c1169839c4ee3f7c1badb06a90d3d15c1014add7b108abe1465673d6b53dca4", "2.4--pyhdfd78af_0": "sha256:c8a3051a85045f6ac93cac619c5659e401dd98009a1380884d3097f9c3d1e708", "2.3--pyhdfd78af_0": "sha256:ca714a7398ac76e3e844e4b342931fc5bf264bdaf1348de3037200d063963b78", "2.2.1--pyhdfd78af_0": "sha256:782953460382fda5a72973101230d897732097be3874c30c6b3e6ff33760f550", "2.1.1--pyhdfd78af_0": "sha256:69fc84961f51c58a5ee97bd9453a35df1425b98c712707cc8b39ee293738511e"}, "docker": "quay.io/biocontainers/djinn", "aliases": {"djinn": "/usr/local/bin/djinn", "ref-cache": "/usr/local/bin/ref-cache", "rich-click": "/usr/local/bin/rich-click", "markdown-it": "/usr/local/bin/markdown-it", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/djinn.
@@ -55,7 +59,7 @@ $ shpc install quay.io/biocontainers/djinn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/djinn:2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/djinn:2.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/djinn/2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/djinn/2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/djinn/2.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/djinn/2.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-sort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-sort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-sort/container.yaml"
-updated_at: "2026-04-11 04:55:01.073985"
+updated_at: "2026-04-12 05:18:27.556605"
 latest: "1.01--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-file-sort"
 aliases:

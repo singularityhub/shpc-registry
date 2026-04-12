@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unifire"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unifire/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unifire/container.yaml"
-updated_at: "2026-04-11 04:37:44.158750"
+updated_at: "2026-04-12 05:01:47.563493"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/unifire"
 aliases:

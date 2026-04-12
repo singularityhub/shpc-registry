@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magneto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magneto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magneto/container.yaml"
-updated_at: "2026-04-11 05:03:12.139964"
+updated_at: "2026-04-12 05:26:23.292171"
 latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magneto"
 aliases:

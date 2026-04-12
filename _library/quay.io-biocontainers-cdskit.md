@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cdskit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdskit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdskit/container.yaml"
-updated_at: "2026-04-11 05:08:48.736721"
-latest: "0.15.1--pyhdfd78af_0"
+updated_at: "2026-04-12 05:31:54.659970"
+latest: "0.21.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cdskit"
 aliases:
  - "cdskit"
@@ -19,8 +19,11 @@ versions:
  - "0.14.4--pyhdfd78af_1"
  - "0.14.5--pyhdfd78af_0"
  - "0.15.1--pyhdfd78af_0"
+ - "0.21.0--pyhdfd78af_0"
+ - "0.20.0--pyhdfd78af_0"
+ - "0.16.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cdskit"
-config: {"url": "https://biocontainers.pro/tools/cdskit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cdskit", "latest": {"0.15.1--pyhdfd78af_0": "sha256:54b9eafe48357b2b9211b7e66d2cd4c1d39f24427582711e9824bdbbaf8cfe1a"}, "tags": {"0.14.2--pyhdfd78af_0": "sha256:be2898469a9f232235b899c529861bfb34633506e14207d2528e85bc1afc97ea", "0.14.4--pyh7e72e81_0": "sha256:2dc05d61a0e56a12f273858fb0596d5d55fd0f56ffde474fad4d6bdc235db395", "0.14.4--pyhdfd78af_1": "sha256:3fb47cad304697f26fbc83fb5b64d89b65afa7c572feca47cae436fb40939bd1", "0.14.5--pyhdfd78af_0": "sha256:bc3836579906c2aa0800280f108bbbbb67cdd6533100cfa9eb40a95f2c837956", "0.15.1--pyhdfd78af_0": "sha256:54b9eafe48357b2b9211b7e66d2cd4c1d39f24427582711e9824bdbbaf8cfe1a"}, "docker": "quay.io/biocontainers/cdskit", "aliases": {"cdskit": "/usr/local/bin/cdskit", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/cdskit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cdskit", "latest": {"0.21.0--pyhdfd78af_0": "sha256:2d79c672673ac762305eaf4ba842a42de260b88c88f48113f858fb62b371362b"}, "tags": {"0.14.2--pyhdfd78af_0": "sha256:be2898469a9f232235b899c529861bfb34633506e14207d2528e85bc1afc97ea", "0.14.4--pyh7e72e81_0": "sha256:2dc05d61a0e56a12f273858fb0596d5d55fd0f56ffde474fad4d6bdc235db395", "0.14.4--pyhdfd78af_1": "sha256:3fb47cad304697f26fbc83fb5b64d89b65afa7c572feca47cae436fb40939bd1", "0.14.5--pyhdfd78af_0": "sha256:bc3836579906c2aa0800280f108bbbbb67cdd6533100cfa9eb40a95f2c837956", "0.15.1--pyhdfd78af_0": "sha256:54b9eafe48357b2b9211b7e66d2cd4c1d39f24427582711e9824bdbbaf8cfe1a", "0.21.0--pyhdfd78af_0": "sha256:2d79c672673ac762305eaf4ba842a42de260b88c88f48113f858fb62b371362b", "0.20.0--pyhdfd78af_0": "sha256:db9d07a064c25b9880fca3d1608eeda62365fdc598bc19214a7102317586dd8c", "0.16.1--pyhdfd78af_0": "sha256:ced69f8c158ea92a59cb049789574db80c459313b1891cdb59d1ce33879d360e"}, "docker": "quay.io/biocontainers/cdskit", "aliases": {"cdskit": "/usr/local/bin/cdskit", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cdskit.
@@ -35,7 +38,7 @@ $ shpc install quay.io/biocontainers/cdskit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cdskit:0.15.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cdskit:0.21.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cdskit/0.15.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/cdskit/0.15.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/cdskit/0.21.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/cdskit/0.21.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

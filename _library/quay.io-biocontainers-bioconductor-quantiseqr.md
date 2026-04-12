@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-quantiseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-quantiseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-quantiseqr/container.yaml"
-updated_at: "2026-04-11 05:13:11.275820"
-latest: "1.14.0--r44hdfd78af_0"
+updated_at: "2026-04-12 05:36:10.488872"
+latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-quantiseqr"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.8.0--r43hdfd78af_0"
  - "1.10.0--r43hdfd78af_0"
  - "1.14.0--r44hdfd78af_0"
+ - "1.18.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-quantiseqr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-quantiseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-quantiseqr", "latest": {"1.14.0--r44hdfd78af_0": "sha256:7b9ed7b4444cc32e6ba03a7bb2a6e29280e0d7d45d203e17840dccab98c3faa1"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7858ed6d9079ef9981bf3e2a55279fc0f99d350d2080dab16e102af13173fd6a", "1.6.0--r42hdfd78af_0": "sha256:4dbec3d481ac4fe3ddca6978c069bfeb8bee24ba12c58574a20632293439c3b6", "1.8.0--r43hdfd78af_0": "sha256:a79cb90e1be2f3595ac341562fc629eb0e99ba32fccecb6e291634981005620e", "1.10.0--r43hdfd78af_0": "sha256:2fea8abcedf6699151b87c12de8f1557cacc93078cf852c56bd79b9801c80b32", "1.14.0--r44hdfd78af_0": "sha256:7b9ed7b4444cc32e6ba03a7bb2a6e29280e0d7d45d203e17840dccab98c3faa1"}, "docker": "quay.io/biocontainers/bioconductor-quantiseqr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-quantiseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-quantiseqr", "latest": {"1.18.0--r45hdfd78af_0": "sha256:c6d37a1837b94ee9ee4b3b86733dfd8de42526a1621a82cd017ae51487f8cb7f"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7858ed6d9079ef9981bf3e2a55279fc0f99d350d2080dab16e102af13173fd6a", "1.6.0--r42hdfd78af_0": "sha256:4dbec3d481ac4fe3ddca6978c069bfeb8bee24ba12c58574a20632293439c3b6", "1.8.0--r43hdfd78af_0": "sha256:a79cb90e1be2f3595ac341562fc629eb0e99ba32fccecb6e291634981005620e", "1.10.0--r43hdfd78af_0": "sha256:2fea8abcedf6699151b87c12de8f1557cacc93078cf852c56bd79b9801c80b32", "1.14.0--r44hdfd78af_0": "sha256:7b9ed7b4444cc32e6ba03a7bb2a6e29280e0d7d45d203e17840dccab98c3faa1", "1.18.0--r45hdfd78af_0": "sha256:c6d37a1837b94ee9ee4b3b86733dfd8de42526a1621a82cd017ae51487f8cb7f"}, "docker": "quay.io/biocontainers/bioconductor-quantiseqr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-quantiseqr.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-quantiseqr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-quantiseqr:1.14.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-quantiseqr:1.18.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-quantiseqr/1.14.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-quantiseqr/1.14.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-quantiseqr/1.18.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-quantiseqr/1.18.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

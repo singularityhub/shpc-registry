@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msdatahub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msdatahub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msdatahub/container.yaml"
-updated_at: "2026-04-11 05:07:43.791659"
-latest: "1.6.0--r44hdfd78af_0"
+updated_at: "2026-04-12 05:30:50.929088"
+latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msdatahub"
 aliases:
  - "hb-info"
@@ -30,8 +30,9 @@ versions:
  - "1.0.0--r43hdfd78af_0"
  - "1.2.0--r43hdfd78af_0"
  - "1.6.0--r44hdfd78af_0"
+ - "1.10.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-msdatahub"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msdatahub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-msdatahub", "latest": {"1.6.0--r44hdfd78af_0": "sha256:928b7ab06c0822ff597ecd93b79b38450478d6e34d1f9129a1fa91fa892f924f"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:57d6eb80169046713371d070955f3be35ac8cc03f2468c91aa5f61a8bb112414", "1.2.0--r43hdfd78af_0": "sha256:7cd95e8a0edb3d6c8fc9fb827500bc40531ed81fd50166a4170ba919d1f553f2", "1.6.0--r44hdfd78af_0": "sha256:928b7ab06c0822ff597ecd93b79b38450478d6e34d1f9129a1fa91fa892f924f"}, "docker": "quay.io/biocontainers/bioconductor-msdatahub", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msdatahub", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-msdatahub", "latest": {"1.10.0--r45hdfd78af_0": "sha256:6845af5dfa6f1827b3e9dce38b8a87586e4f2cd5070c6bad1cbdd8ff8a83795c"}, "tags": {"1.0.0--r43hdfd78af_0": "sha256:57d6eb80169046713371d070955f3be35ac8cc03f2468c91aa5f61a8bb112414", "1.2.0--r43hdfd78af_0": "sha256:7cd95e8a0edb3d6c8fc9fb827500bc40531ed81fd50166a4170ba919d1f553f2", "1.6.0--r44hdfd78af_0": "sha256:928b7ab06c0822ff597ecd93b79b38450478d6e34d1f9129a1fa91fa892f924f", "1.10.0--r45hdfd78af_0": "sha256:6845af5dfa6f1827b3e9dce38b8a87586e4f2cd5070c6bad1cbdd8ff8a83795c"}, "docker": "quay.io/biocontainers/bioconductor-msdatahub", "aliases": {"hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msdatahub.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msdatahub
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msdatahub:1.6.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msdatahub:1.10.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msdatahub/1.6.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msdatahub/1.6.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msdatahub/1.10.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msdatahub/1.10.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

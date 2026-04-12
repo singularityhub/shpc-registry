@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pauvre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pauvre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pauvre/container.yaml"
-updated_at: "2026-04-11 04:57:41.355048"
+updated_at: "2026-04-12 05:20:59.530567"
 latest: "0.1924--py_0"
 container_url: "https://biocontainers.pro/tools/pauvre"
 aliases:
@@ -23,8 +23,9 @@ versions:
  - "0.2.2--py_0"
  - "0.1924--py_0"
  - "0.1923--py_1"
+ - "0.2.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pauvre"
-config: {"url": "https://biocontainers.pro/tools/pauvre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pauvre", "latest": {"0.1924--py_0": "sha256:513370fb611eb88780fdae76ca22d2e85f6705b9921da67e52231be9ef15eed3"}, "tags": {"0.2.2--py_0": "sha256:40c4eef83acf599bd70e565d063439f5c5ded93654dab676e4635da48d8b0602", "0.1924--py_0": "sha256:513370fb611eb88780fdae76ca22d2e85f6705b9921da67e52231be9ef15eed3", "0.1923--py_1": "sha256:1dbcd50cbd305f4b0ac75f9656210573d09ed197bf0260576fa357e208988521"}, "docker": "quay.io/biocontainers/pauvre", "aliases": {"pauvre": "/usr/local/bin/pauvre", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/pauvre", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pauvre", "latest": {"0.1924--py_0": "sha256:513370fb611eb88780fdae76ca22d2e85f6705b9921da67e52231be9ef15eed3"}, "tags": {"0.2.2--py_0": "sha256:40c4eef83acf599bd70e565d063439f5c5ded93654dab676e4635da48d8b0602", "0.1924--py_0": "sha256:513370fb611eb88780fdae76ca22d2e85f6705b9921da67e52231be9ef15eed3", "0.1923--py_1": "sha256:1dbcd50cbd305f4b0ac75f9656210573d09ed197bf0260576fa357e208988521", "0.2.3--pyhdfd78af_0": "sha256:6cb60f5cb652c70b4061859fbe24199a9d5c8fa090d09775e5b4fa5d9c9903c8"}, "docker": "quay.io/biocontainers/pauvre", "aliases": {"pauvre": "/usr/local/bin/pauvre", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pauvre.

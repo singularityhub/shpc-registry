@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rnaagecalc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaagecalc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaagecalc/container.yaml"
-updated_at: "2026-04-11 05:01:14.638115"
-latest: "1.18.0--r44hdfd78af_0"
+updated_at: "2026-04-12 05:24:26.625330"
+latest: "1.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaagecalc"
 
 versions:
@@ -14,8 +14,9 @@ versions:
  - "1.12.0--r43hdfd78af_0"
  - "1.14.0--r43hdfd78af_0"
  - "1.18.0--r44hdfd78af_0"
+ - "1.22.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaagecalc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaagecalc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaagecalc", "latest": {"1.18.0--r44hdfd78af_0": "sha256:3d66591ce408368df2151cd739f905a3072646aefe5b1887fc9970f5790331a2"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:1385cf0b42fb7fcbda7498ea0e2abbb4898be695e30c653c22253b9d46d15bf0", "1.10.0--r42hdfd78af_0": "sha256:6187f851226644a5714b18276362dafe288bc37bb090527a87d001bd5bf7b44f", "1.12.0--r43hdfd78af_0": "sha256:21a26bb1d4e9dea850bd0f55f9312dabfe6e6c4b3913de3d383ff34fc1567369", "1.14.0--r43hdfd78af_0": "sha256:d28807bd8fa469fec4a8c0864b629927b61d1663096534353f2d63922f6bef5e", "1.18.0--r44hdfd78af_0": "sha256:3d66591ce408368df2151cd739f905a3072646aefe5b1887fc9970f5790331a2"}, "docker": "quay.io/biocontainers/bioconductor-rnaagecalc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaagecalc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaagecalc", "latest": {"1.22.0--r45hdfd78af_0": "sha256:0515633d530cc9cf4a7195119b55c670d0ef72eae01a250dcee785d5c266bd25"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:1385cf0b42fb7fcbda7498ea0e2abbb4898be695e30c653c22253b9d46d15bf0", "1.10.0--r42hdfd78af_0": "sha256:6187f851226644a5714b18276362dafe288bc37bb090527a87d001bd5bf7b44f", "1.12.0--r43hdfd78af_0": "sha256:21a26bb1d4e9dea850bd0f55f9312dabfe6e6c4b3913de3d383ff34fc1567369", "1.14.0--r43hdfd78af_0": "sha256:d28807bd8fa469fec4a8c0864b629927b61d1663096534353f2d63922f6bef5e", "1.18.0--r44hdfd78af_0": "sha256:3d66591ce408368df2151cd739f905a3072646aefe5b1887fc9970f5790331a2", "1.22.0--r45hdfd78af_0": "sha256:0515633d530cc9cf4a7195119b55c670d0ef72eae01a250dcee785d5c266bd25"}, "docker": "quay.io/biocontainers/bioconductor-rnaagecalc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaagecalc.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnaagecalc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnaagecalc:1.18.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rnaagecalc:1.22.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnaagecalc/1.18.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rnaagecalc/1.18.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rnaagecalc/1.22.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnaagecalc/1.22.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

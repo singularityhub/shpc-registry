@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-nondetects"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nondetects/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nondetects/container.yaml"
-updated_at: "2026-04-11 05:01:34.629572"
-latest: "2.32.0--r43hdfd78af_0"
+updated_at: "2026-04-12 05:24:46.242081"
+latest: "2.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nondetects"
 aliases:
  - "ncurses5-config"
@@ -19,8 +19,9 @@ versions:
  - "2.18.0--r40_0"
  - "2.30.0--r43hdfd78af_0"
  - "2.32.0--r43hdfd78af_0"
+ - "2.40.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nondetects"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nondetects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nondetects", "latest": {"2.32.0--r43hdfd78af_0": "sha256:a82d490bfdec92696da576d243e40b992a826b319f412981cd8ff4bbf0bc56c9"}, "tags": {"2.8.0--r3.4.1_0": "sha256:e7e33aed8a9e1aba948258cfab6f7cdfdab9a8c9604e6fa8e9ca7ef272cbd498", "2.28.0--r42hdfd78af_0": "sha256:cfabbcb8740a0cbb0a2efee732b64dcf7ea46fba1248e8ec0a06b5d191ba1322", "2.24.0--r41hdfd78af_0": "sha256:d5314f884682932c4ba9883bc7be0b187854328429b9f74a5ad6bcccc1424a0d", "2.22.0--r41hdfd78af_0": "sha256:30879d088c4f4bd1c07ec8d8eb5a11e65241fe66cb95fd102ddf204a003f1c8c", "2.20.0--r40hdfd78af_1": "sha256:c6187389aa439d962853bf96ed19a08f7c70cd52f8029929deceacef4f6af14e", "2.18.0--r40_0": "sha256:cdadd3d1a5d765392f32e6a70643b1f7f6d2c6516280a6a55a7d93765515913a", "2.30.0--r43hdfd78af_0": "sha256:409d7b9eaa52fff71325f10b83d8355994529314e1e9f18abd06b2bd50448e83", "2.32.0--r43hdfd78af_0": "sha256:a82d490bfdec92696da576d243e40b992a826b319f412981cd8ff4bbf0bc56c9"}, "docker": "quay.io/biocontainers/bioconductor-nondetects", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nondetects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nondetects", "latest": {"2.40.0--r45hdfd78af_0": "sha256:0b027bebc2e6ff4bec407ce961016a399971b3cc77dc6fecb24d4946ddadd87b"}, "tags": {"2.8.0--r3.4.1_0": "sha256:e7e33aed8a9e1aba948258cfab6f7cdfdab9a8c9604e6fa8e9ca7ef272cbd498", "2.28.0--r42hdfd78af_0": "sha256:cfabbcb8740a0cbb0a2efee732b64dcf7ea46fba1248e8ec0a06b5d191ba1322", "2.24.0--r41hdfd78af_0": "sha256:d5314f884682932c4ba9883bc7be0b187854328429b9f74a5ad6bcccc1424a0d", "2.22.0--r41hdfd78af_0": "sha256:30879d088c4f4bd1c07ec8d8eb5a11e65241fe66cb95fd102ddf204a003f1c8c", "2.20.0--r40hdfd78af_1": "sha256:c6187389aa439d962853bf96ed19a08f7c70cd52f8029929deceacef4f6af14e", "2.18.0--r40_0": "sha256:cdadd3d1a5d765392f32e6a70643b1f7f6d2c6516280a6a55a7d93765515913a", "2.30.0--r43hdfd78af_0": "sha256:409d7b9eaa52fff71325f10b83d8355994529314e1e9f18abd06b2bd50448e83", "2.32.0--r43hdfd78af_0": "sha256:a82d490bfdec92696da576d243e40b992a826b319f412981cd8ff4bbf0bc56c9", "2.40.0--r45hdfd78af_0": "sha256:0b027bebc2e6ff4bec407ce961016a399971b3cc77dc6fecb24d4946ddadd87b"}, "docker": "quay.io/biocontainers/bioconductor-nondetects", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nondetects.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nondetects
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nondetects:2.32.0--r43hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nondetects:2.40.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nondetects/2.32.0--r43hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nondetects/2.32.0--r43hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nondetects/2.40.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nondetects/2.40.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

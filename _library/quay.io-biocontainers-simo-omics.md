@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simo-omics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simo-omics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simo-omics/container.yaml"
-updated_at: "2026-04-11 05:03:23.256230"
+updated_at: "2026-04-12 05:26:34.275509"
 latest: "1.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/simo-omics"
 aliases:

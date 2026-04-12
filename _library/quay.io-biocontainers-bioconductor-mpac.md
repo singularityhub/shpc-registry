@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mpac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpac/container.yaml"
-updated_at: "2026-04-11 04:41:13.061412"
-latest: "1.0.0--r44hdfd78af_0"
+updated_at: "2026-04-12 05:05:10.550035"
+latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpac"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -27,8 +27,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r44hdfd78af_0"
+ - "1.4.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-mpac"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mpac", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mpac", "latest": {"1.0.0--r44hdfd78af_0": "sha256:456c25b1a9f0eaab40fca5aefd8bf10f09f4f88a21e279c42ccf4b4be86b6ce9"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:456c25b1a9f0eaab40fca5aefd8bf10f09f4f88a21e279c42ccf4b4be86b6ce9"}, "docker": "quay.io/biocontainers/bioconductor-mpac", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mpac", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-mpac", "latest": {"1.4.0--r45hdfd78af_0": "sha256:045f45f688a9b100126cf8814bba9db37b36100c6c8b0da2b2b996f486b5e1fd"}, "tags": {"1.0.0--r44hdfd78af_0": "sha256:456c25b1a9f0eaab40fca5aefd8bf10f09f4f88a21e279c42ccf4b4be86b6ce9", "1.4.0--r45hdfd78af_0": "sha256:045f45f688a9b100126cf8814bba9db37b36100c6c8b0da2b2b996f486b5e1fd"}, "docker": "quay.io/biocontainers/bioconductor-mpac", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "glpsol": "/usr/local/bin/glpsol", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "hb-info": "/usr/local/bin/hb-info", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mpac.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mpac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mpac:1.0.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mpac:1.4.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mpac/1.0.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mpac/1.0.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mpac/1.4.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mpac/1.4.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

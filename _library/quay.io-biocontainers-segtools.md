@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segtools/container.yaml"
-updated_at: "2026-04-11 04:31:16.739849"
+updated_at: "2026-04-12 04:55:34.246343"
 latest: "1.3.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/segtools"
 aliases:

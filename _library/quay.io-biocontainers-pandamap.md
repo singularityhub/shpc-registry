@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pandamap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandamap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandamap/container.yaml"
-updated_at: "2026-04-11 04:58:30.568968"
-latest: "4.1.0--pyhdfd78af_0"
+updated_at: "2026-04-12 05:21:46.609663"
+latest: "4.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pandamap"
 aliases:
  - "mkdssp"
@@ -33,8 +33,9 @@ aliases:
  - "opj_dump"
 versions:
  - "4.1.0--pyhdfd78af_0"
+ - "4.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pandamap"
-config: {"url": "https://biocontainers.pro/tools/pandamap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pandamap", "latest": {"4.1.0--pyhdfd78af_0": "sha256:d8686047a7846d7fd372222ff8fa58791b59013ba0fec95aa612f3dc79220898"}, "tags": {"4.1.0--pyhdfd78af_0": "sha256:d8686047a7846d7fd372222ff8fa58791b59013ba0fec95aa612f3dc79220898"}, "docker": "quay.io/biocontainers/pandamap", "aliases": {"mkdssp": "/usr/local/bin/mkdssp", "pandamap": "/usr/local/bin/pandamap", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/pandamap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pandamap", "latest": {"4.2.1--pyhdfd78af_0": "sha256:59d505f1be0e94135958b1808ef4ef6c3e644ced8d57bde4fc21c35f1403f190"}, "tags": {"4.1.0--pyhdfd78af_0": "sha256:d8686047a7846d7fd372222ff8fa58791b59013ba0fec95aa612f3dc79220898", "4.2.1--pyhdfd78af_0": "sha256:59d505f1be0e94135958b1808ef4ef6c3e644ced8d57bde4fc21c35f1403f190"}, "docker": "quay.io/biocontainers/pandamap", "aliases": {"mkdssp": "/usr/local/bin/mkdssp", "pandamap": "/usr/local/bin/pandamap", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pandamap.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/pandamap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pandamap:4.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pandamap:4.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pandamap/4.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pandamap/4.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pandamap/4.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pandamap/4.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

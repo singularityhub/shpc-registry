@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/probcons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probcons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/probcons/container.yaml"
-updated_at: "2026-04-11 05:08:56.418273"
+updated_at: "2026-04-12 05:32:02.162954"
 latest: "1.12--h5ca1c30_3"
 container_url: "https://biocontainers.pro/tools/probcons"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cadra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cadra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cadra/container.yaml"
-updated_at: "2026-04-11 04:30:50.118654"
+updated_at: "2026-04-12 04:55:08.302073"
 latest: "1.0.1--r43ha9d7317_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cadra"
 aliases:
