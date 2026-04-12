@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyensembl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyensembl
 latest:
-  2.3.13--pyh7cba7a3_0: 
-    sha256:cbf2504de640ce0acf14cb3da52f721b1acb1f178f679bdde0c61939d01ef00b
+  2.6.2--pyhdfd78af_0: 
+    sha256:a905f54c7e7d44e03ee5a673e75227ace2376497d83bf9df6b11835e60235057
 tags:
   2.0.1--pyh5e36f6f_0: 
     sha256:c35a3a654e49c7b48485c0d0904d24f814daa9c678d1c7ce9b52f2a853e707c7
@@ -21,6 +21,8 @@ tags:
     sha256:dd9381682c6e189cad85c2dc955c12f276872f0c29e8fc10d0352f5466d18bcd
   2.3.13--pyh7cba7a3_0: 
     sha256:cbf2504de640ce0acf14cb3da52f721b1acb1f178f679bdde0c61939d01ef00b
+  2.6.2--pyhdfd78af_0: 
+    sha256:a905f54c7e7d44e03ee5a673e75227ace2376497d83bf9df6b11835e60235057
 docker: quay.io/biocontainers/pyensembl
 aliases:
   epylint: /usr/local/bin/epylint

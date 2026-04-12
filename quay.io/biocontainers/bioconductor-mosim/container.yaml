@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mosim
 latest:
-  2.2.0--r44he5774e6_0: 
-    sha256:bf7105eca8cb036a7288cc3c5a747b7e7c3e58348900f1deb77acdd5b3cc7562
+  2.6.0--r45ha27e39d_0: 
+    sha256:bdaff7985497238b372c696900e1f84df32fcd73f4109c96c2a7dc032af3924f
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:c707e5f8059dab47b872988f9ff6cef74ecb232cc5f1baa5855c2f9bfa9af179
@@ -16,4 +16,6 @@ tags:
     sha256:b7039e903a9e09477e59ed554d9c3a9ad2ee88eb1f0cc5c1b9f0719a300c7593
   2.2.0--r44he5774e6_0: 
     sha256:bf7105eca8cb036a7288cc3c5a747b7e7c3e58348900f1deb77acdd5b3cc7562
+  2.6.0--r45ha27e39d_0: 
+    sha256:bdaff7985497238b372c696900e1f84df32fcd73f4109c96c2a7dc032af3924f
 docker: quay.io/biocontainers/bioconductor-mosim

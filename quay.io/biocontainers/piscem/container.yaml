@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/piscem
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for piscem
 latest:
-  0.16.2--h79c2db1_0: 
-    sha256:283bc9c612abe4abb7ca78c8f49c9031f73534305d3f5e3042a494690ddab3cd
+  0.18.0--h79c2db1_0: 
+    sha256:0cb97b9a8a0f8411f69e72dbb8f0b8bdf44cf926844354f4bbef8aa05a721308
 tags:
   0.4.3--h52b76fa_0: 
     sha256:e69951f3697fc1c9b7b4ba5fa3b31c01db5a2e8d60f684d84587bb55339ce716
@@ -51,6 +51,10 @@ tags:
     sha256:283bc9c612abe4abb7ca78c8f49c9031f73534305d3f5e3042a494690ddab3cd
   0.15.0--h79c2db1_0: 
     sha256:7be3d2ed020002bded9c79fc6a2d8930716b2d6d95d00307ef093af7d0ae54f2
+  0.18.0--h79c2db1_0: 
+    sha256:0cb97b9a8a0f8411f69e72dbb8f0b8bdf44cf926844354f4bbef8aa05a721308
+  0.17.1--h79c2db1_0: 
+    sha256:70905af78e68388eed3173b4a9f7c1286b46e5166abcc3f93721a3d499ff7e3b
 docker: quay.io/biocontainers/piscem
 aliases:
   piscem: /usr/local/bin/piscem

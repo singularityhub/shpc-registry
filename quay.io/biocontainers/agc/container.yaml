@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/agc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for agc
 latest:
-  3.2.1--h9ee0642_0: 
-    sha256:9937fcdf925a510e4f4e2eb141eafb198e950cbe705a0643a26174d53656f406
+  3.2.2--h9ee0642_0: 
+    sha256:39184dcce22fd0c7dc362931ec9ab2de56c3ebc8095c1957a2791775656d733f
 tags:
   3.0--h9ee0642_0: 
     sha256:e1a8b39f5300aa149ce90358b372f48a67881a80b1ad7e0c356f16e20b76f3f9
@@ -17,6 +17,8 @@ tags:
     sha256:366875de3384124d2d017bfae5b0747d3abd2df2e782c1ce239ddec909425713
   3.2.1--h9ee0642_0: 
     sha256:9937fcdf925a510e4f4e2eb141eafb198e950cbe705a0643a26174d53656f406
+  3.2.2--h9ee0642_0: 
+    sha256:39184dcce22fd0c7dc362931ec9ab2de56c3ebc8095c1957a2791775656d733f
 docker: quay.io/biocontainers/agc
 aliases:
   agc: /usr/local/bin/agc

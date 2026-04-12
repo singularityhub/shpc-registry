@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-autonomics
 latest:
-  1.10.2--r43hdfd78af_0: 
-    sha256:f9b1a2667e42d21b1d88ebb57faf265a1f62ca10e006e8c0b975e12d18fe42c3
+  1.18.0--r45hdfd78af_0: 
+    sha256:bff1d0b2f314fa0a1ff015a4c7fdb947be58f2f7df1ec79701766bb2c6dff8a6
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:5ecf76b90b44c0592fdd77fcc64e33f2ce159f1a01d180f747745627f8ea2a02
@@ -14,4 +14,6 @@ tags:
     sha256:6ada179c4b1d2db8d9e317d538731449145007becb7d8091d9efc74861e33f68
   1.10.2--r43hdfd78af_0: 
     sha256:f9b1a2667e42d21b1d88ebb57faf265a1f62ca10e006e8c0b975e12d18fe42c3
+  1.18.0--r45hdfd78af_0: 
+    sha256:bff1d0b2f314fa0a1ff015a4c7fdb947be58f2f7df1ec79701766bb2c6dff8a6
 docker: quay.io/biocontainers/bioconductor-autonomics

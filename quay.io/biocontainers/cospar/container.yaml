@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/cospar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cospar
 latest:
-  0.4.1--pyhdfd78af_0: 
-    sha256:190409155e42b871e51d6e2f79e5df42de616d7b1fa6aa070a154503a35a3008
+  0.5.0--pyhdfd78af_0: 
+    sha256:77f870456b4b0a13411b2b53ea327521101a511c5a3c1313d53aa13ae0481df0
 tags:
   0.3.3--pyhdfd78af_0: 
     sha256:c42dacd4fc88a3c8a23cb7a025054ebd30d55e23fdaffc9bb947596587ecea99
   0.4.1--pyhdfd78af_0: 
     sha256:190409155e42b871e51d6e2f79e5df42de616d7b1fa6aa070a154503a35a3008
+  0.5.0--pyhdfd78af_0: 
+    sha256:77f870456b4b0a13411b2b53ea327521101a511c5a3c1313d53aa13ae0481df0
 docker: quay.io/biocontainers/cospar
 aliases:
   bioservices: /usr/local/bin/bioservices

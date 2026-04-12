@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-evaluomer
 latest:
-  1.18.0--r43hdfd78af_0: 
-    sha256:71b3d5b37c9008c17655bb74583c82ef0d5de6973e0c60a79707882bc4842df0
+  1.26.0--r45hdfd78af_0: 
+    sha256:a3370d6e75880da36d398c2f6b4c0e04969f8a32fed082316af921249a5a1474
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:5db5b26b1a8514d12d378bafb2372c575a7310d5898101dcccef942a3746514c
@@ -16,6 +16,8 @@ tags:
     sha256:db55b0e368295ecc5fcbaffe59d0138c617c4f197df7bffa1890f909430a624f
   1.18.0--r43hdfd78af_0: 
     sha256:71b3d5b37c9008c17655bb74583c82ef0d5de6973e0c60a79707882bc4842df0
+  1.26.0--r45hdfd78af_0: 
+    sha256:a3370d6e75880da36d398c2f6b4c0e04969f8a32fed082316af921249a5a1474
 docker: quay.io/biocontainers/bioconductor-evaluomer
 aliases:
   pandoc: /usr/local/bin/pandoc
