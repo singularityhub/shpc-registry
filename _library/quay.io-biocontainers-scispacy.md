@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scispacy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scispacy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scispacy/container.yaml"
-updated_at: "2026-04-12 04:53:20.767129"
+updated_at: "2026-04-13 05:20:38.316238"
 latest: "0.6.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scispacy"
 aliases:

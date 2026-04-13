@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eudysbiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eudysbiome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eudysbiome/container.yaml"
-updated_at: "2026-04-12 04:53:35.875810"
+updated_at: "2026-04-13 05:20:55.116501"
 latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eudysbiome"
 aliases:

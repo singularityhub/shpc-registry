@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pdbx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdbx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pdbx/container.yaml"
-updated_at: "2026-04-12 05:31:28.072670"
+updated_at: "2026-04-13 06:01:41.466259"
 latest: "827b2a2--py313h5d164f8_2"
 container_url: "https://biocontainers.pro/tools/pdbx"
 aliases:

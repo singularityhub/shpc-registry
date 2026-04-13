@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mlst-cge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlst-cge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlst-cge/container.yaml"
-updated_at: "2026-04-12 05:23:44.450130"
+updated_at: "2026-04-13 05:53:27.287605"
 latest: "2.0.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mlst-cge"
 aliases:

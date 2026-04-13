@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svync"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svync/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svync/container.yaml"
-updated_at: "2026-04-12 05:19:27.523572"
+updated_at: "2026-04-13 05:48:48.714776"
 latest: "0.3.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/svync"
 aliases:

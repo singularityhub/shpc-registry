@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-probmetab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-probmetab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-probmetab/container.yaml"
-updated_at: "2026-04-12 05:16:31.443830"
+updated_at: "2026-04-13 05:45:39.931815"
 latest: "1.1--r34he1b5a44_4"
 container_url: "https://biocontainers.pro/tools/r-probmetab"
 aliases:

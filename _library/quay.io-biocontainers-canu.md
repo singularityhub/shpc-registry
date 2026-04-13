@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/canu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/canu/container.yaml"
-updated_at: "2026-04-12 05:23:20.102286"
+updated_at: "2026-04-13 05:53:01.682384"
 latest: "2.3--h3fb4750_2"
 container_url: "https://biocontainers.pro/tools/canu"
 aliases:

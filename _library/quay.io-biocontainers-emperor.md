@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emperor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emperor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emperor/container.yaml"
-updated_at: "2026-04-12 05:21:35.911189"
+updated_at: "2026-04-13 05:51:08.731966"
 latest: "0.9.3--py27_1"
 container_url: "https://biocontainers.pro/tools/emperor"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stecfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stecfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stecfinder/container.yaml"
-updated_at: "2026-04-12 05:11:44.960755"
+updated_at: "2026-04-13 05:40:31.463706"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stecfinder"
 aliases:

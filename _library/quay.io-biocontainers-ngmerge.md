@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngmerge/container.yaml"
-updated_at: "2026-04-12 05:29:26.654342"
+updated_at: "2026-04-13 05:59:30.021452"
 latest: "0.5--h89d970f_0"
 container_url: "https://biocontainers.pro/tools/ngmerge"
 aliases:

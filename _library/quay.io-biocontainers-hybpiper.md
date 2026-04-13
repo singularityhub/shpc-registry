@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hybpiper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hybpiper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hybpiper/container.yaml"
-updated_at: "2026-04-12 05:00:58.545363"
+updated_at: "2026-04-13 05:28:52.500854"
 latest: "2.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hybpiper"
 aliases:

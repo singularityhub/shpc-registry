@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/macaron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macaron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macaron/container.yaml"
-updated_at: "2026-04-12 04:54:37.554002"
+updated_at: "2026-04-13 05:22:03.078983"
 latest: "1.0--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/macaron"
 aliases:

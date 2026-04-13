@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnalyze"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnalyze/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnalyze/container.yaml"
-updated_at: "2026-04-12 05:23:27.752129"
+updated_at: "2026-04-13 05:53:09.749640"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rnalyze"
 aliases:

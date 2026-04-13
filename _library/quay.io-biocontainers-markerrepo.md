@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/markerrepo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markerrepo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markerrepo/container.yaml"
-updated_at: "2026-04-12 04:54:46.998158"
+updated_at: "2026-04-13 05:22:13.670350"
 latest: "0.1.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/markerrepo"
 aliases:

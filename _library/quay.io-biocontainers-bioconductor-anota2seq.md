@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anota2seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anota2seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anota2seq/container.yaml"
-updated_at: "2026-04-12 04:57:50.069921"
+updated_at: "2026-04-13 05:25:30.385533"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anota2seq"
 aliases:

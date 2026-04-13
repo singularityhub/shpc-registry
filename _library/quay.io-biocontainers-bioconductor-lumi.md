@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumi/container.yaml"
-updated_at: "2026-04-12 04:56:49.597623"
+updated_at: "2026-04-13 05:24:25.387635"
 latest: "2.62.0--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumi"
 

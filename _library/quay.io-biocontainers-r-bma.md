@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bma/container.yaml"
-updated_at: "2026-04-12 05:40:24.089496"
+updated_at: "2026-04-13 06:11:59.709254"
 latest: "3.18.6--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-bma"
 aliases:

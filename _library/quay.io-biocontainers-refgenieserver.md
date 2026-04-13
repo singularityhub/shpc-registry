@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/refgenieserver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refgenieserver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refgenieserver/container.yaml"
-updated_at: "2026-04-12 04:50:33.243049"
-latest: "0.7.0--pyhdfd78af_0"
+updated_at: "2026-04-13 05:17:36.790131"
+latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/refgenieserver"
 aliases:
  - "dotenv"
@@ -25,8 +25,9 @@ aliases:
 versions:
  - "0.6.0--py_0"
  - "0.7.0--pyhdfd78af_0"
+ - "0.8.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for refgenieserver"
-config: {"url": "https://biocontainers.pro/tools/refgenieserver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for refgenieserver", "latest": {"0.7.0--pyhdfd78af_0": "sha256:da17b8021581514cf9e74dadf54064391662d82fa04a68e26dd248fbc62c1982"}, "tags": {"0.6.0--py_0": "sha256:8de5845748fbf02c28ee49f5f8e4aa85335a9b504162637e9f4a97cdb133aaaa", "0.7.0--pyhdfd78af_0": "sha256:da17b8021581514cf9e74dadf54064391662d82fa04a68e26dd248fbc62c1982"}, "docker": "quay.io/biocontainers/refgenieserver", "aliases": {"dotenv": "/usr/local/bin/dotenv", "refgenieserver": "/usr/local/bin/refgenieserver", "uvicorn": "/usr/local/bin/uvicorn", "watchgod": "/usr/local/bin/watchgod", "cmark": "/usr/local/bin/cmark", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
+config: {"url": "https://biocontainers.pro/tools/refgenieserver", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for refgenieserver", "latest": {"0.8.0--pyhdfd78af_0": "sha256:c878aa40dfe7f0d2ccb6741705de5557b5c7f8170c5688875d8bf445f3e52ffb"}, "tags": {"0.6.0--py_0": "sha256:8de5845748fbf02c28ee49f5f8e4aa85335a9b504162637e9f4a97cdb133aaaa", "0.7.0--pyhdfd78af_0": "sha256:da17b8021581514cf9e74dadf54064391662d82fa04a68e26dd248fbc62c1982", "0.8.0--pyhdfd78af_0": "sha256:c878aa40dfe7f0d2ccb6741705de5557b5c7f8170c5688875d8bf445f3e52ffb"}, "docker": "quay.io/biocontainers/refgenieserver", "aliases": {"dotenv": "/usr/local/bin/dotenv", "refgenieserver": "/usr/local/bin/refgenieserver", "uvicorn": "/usr/local/bin/uvicorn", "watchgod": "/usr/local/bin/watchgod", "cmark": "/usr/local/bin/cmark", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "jsonschema": "/usr/local/bin/jsonschema", "pygmentize": "/usr/local/bin/pygmentize", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/refgenieserver.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/refgenieserver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/refgenieserver:0.7.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/refgenieserver:0.8.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/refgenieserver/0.7.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/refgenieserver/0.7.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/refgenieserver/0.8.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/refgenieserver/0.8.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
