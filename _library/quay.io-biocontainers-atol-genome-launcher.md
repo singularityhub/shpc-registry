@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/atol-genome-launcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-genome-launcher/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-genome-launcher/container.yaml"
-updated_at: "2026-04-13 06:02:42.024530"
-latest: "0.5.4--pyhdfd78af_0"
+updated_at: "2026-04-14 05:34:55.015586"
+latest: "0.10.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-genome-launcher"
 aliases:
  - "bpa-file-downloader"
@@ -43,8 +43,13 @@ versions:
  - "0.5.4--pyhdfd78af_0"
  - "0.4.1--pyhdfd78af_0"
  - "0.3.1--pyhdfd78af_0"
+ - "0.10.4--pyhdfd78af_0"
+ - "0.9.2--pyhdfd78af_0"
+ - "0.8.4--pyhdfd78af_0"
+ - "0.7.5--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for atol-genome-launcher"
-config: {"url": "https://biocontainers.pro/tools/atol-genome-launcher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for atol-genome-launcher", "latest": {"0.5.4--pyhdfd78af_0": "sha256:22fedc67241749a2001cf33cc4d6ed45d1e7373f4a0aa151a31be8f5ea478cfb"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:2aab1fffd84612bbf7575f8a3585338cc06257ce2e016796d18e42fc42c96907", "0.2.1--pyhdfd78af_0": "sha256:a07de8a1eeb5f4e86acdccd72a2d7b51c78c667c88d6e58599846818a7de3b7e", "0.5.4--pyhdfd78af_0": "sha256:22fedc67241749a2001cf33cc4d6ed45d1e7373f4a0aa151a31be8f5ea478cfb", "0.4.1--pyhdfd78af_0": "sha256:339315173e828c5dba07a197e4a24282b925f5b3129b36aa7922725f5bed434a", "0.3.1--pyhdfd78af_0": "sha256:3533f15e6907841e1a1770f7e31a7bdc5970c8db41e6a80f2dc93e878fa4569d"}, "docker": "quay.io/biocontainers/atol-genome-launcher", "aliases": {"bpa-file-downloader": "/usr/local/bin/bpa-file-downloader", "phc": "/usr/local/bin/phc", "rnaseq-manifest-generator": "/usr/local/bin/rnaseq-manifest-generator", "rnaseq-reads-downloader": "/usr/local/bin/rnaseq-reads-downloader", "eido": "/usr/local/bin/eido", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "markdown-it": "/usr/local/bin/markdown-it", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test"}}
+config: {"url": "https://biocontainers.pro/tools/atol-genome-launcher", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for atol-genome-launcher", "latest": {"0.10.4--pyhdfd78af_0": "sha256:4381636733f05621378dc3bb3303aaf0ac56a6f7ad87549b468a7412f430e449"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:2aab1fffd84612bbf7575f8a3585338cc06257ce2e016796d18e42fc42c96907", "0.2.1--pyhdfd78af_0": "sha256:a07de8a1eeb5f4e86acdccd72a2d7b51c78c667c88d6e58599846818a7de3b7e", "0.5.4--pyhdfd78af_0": "sha256:22fedc67241749a2001cf33cc4d6ed45d1e7373f4a0aa151a31be8f5ea478cfb", "0.4.1--pyhdfd78af_0": "sha256:339315173e828c5dba07a197e4a24282b925f5b3129b36aa7922725f5bed434a", "0.3.1--pyhdfd78af_0": "sha256:3533f15e6907841e1a1770f7e31a7bdc5970c8db41e6a80f2dc93e878fa4569d", "0.10.4--pyhdfd78af_0": "sha256:4381636733f05621378dc3bb3303aaf0ac56a6f7ad87549b468a7412f430e449", "0.9.2--pyhdfd78af_0": "sha256:af4c354deae3e46e8b8b1e299665f4d87d3cb216342b3baea425d124092278d4", "0.8.4--pyhdfd78af_0": "sha256:3c931c12a904db05709514bfa05318acdd790c8ccb4d3c354e8432d23e80d14b", "0.7.5--pyhdfd78af_0": "sha256:8c14a0ca05b29d56c77ae63ef49b5ba34c390312df116f300dbcd3b87cf624b5", "0.6.0--pyhdfd78af_0": "sha256:be6607168a5aaa69f8929b71e5b7887579453a019523810783647264a80c4cca"}, "docker": "quay.io/biocontainers/atol-genome-launcher", "aliases": {"bpa-file-downloader": "/usr/local/bin/bpa-file-downloader", "phc": "/usr/local/bin/phc", "rnaseq-manifest-generator": "/usr/local/bin/rnaseq-manifest-generator", "rnaseq-reads-downloader": "/usr/local/bin/rnaseq-reads-downloader", "eido": "/usr/local/bin/eido", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "plac_runner.py": "/usr/local/bin/plac_runner.py", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "markdown-it": "/usr/local/bin/markdown-it", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "py.test": "/usr/local/bin/py.test"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/atol-genome-launcher.
@@ -59,7 +64,7 @@ $ shpc install quay.io/biocontainers/atol-genome-launcher
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/atol-genome-launcher:0.5.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/atol-genome-launcher:0.10.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/atol-genome-launcher/0.5.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/atol-genome-launcher/0.5.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/atol-genome-launcher/0.10.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/atol-genome-launcher/0.10.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-phenomis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenomis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenomis/container.yaml"
-updated_at: "2026-04-13 05:56:33.672782"
-latest: "1.8.0--r44hdfd78af_0"
+updated_at: "2026-04-14 05:28:09.052281"
+latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenomis"
 aliases:
  - "installBiocDataPackage.sh"
@@ -30,8 +30,9 @@ versions:
  - "1.2.0--r43hdfd78af_0"
  - "1.4.0--r43hdfd78af_0"
  - "1.8.0--r44hdfd78af_0"
+ - "1.12.0--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for bioconductor-phenomis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phenomis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-phenomis", "latest": {"1.8.0--r44hdfd78af_0": "sha256:f4d99a54627b0c287c3927cf62d10c9d736507607d3a09c8a05c34103b2ba884"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:0ffee7146efe6f8ce8a724c7059703de538e65ccca36cbab7f689fa23d2e98a9", "1.2.0--r43hdfd78af_0": "sha256:d8967c96c5361f0507dd74fa38a23cf98cb0e17d25eee94a612caa2bc9a0bc41", "1.4.0--r43hdfd78af_0": "sha256:c9a3b3f7c8bf377e369688d26cb4e47dd085da8ba3531adb755a894e68bae8ad", "1.8.0--r44hdfd78af_0": "sha256:f4d99a54627b0c287c3927cf62d10c9d736507607d3a09c8a05c34103b2ba884"}, "docker": "quay.io/biocontainers/bioconductor-phenomis", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phenomis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-phenomis", "latest": {"1.12.0--r45hdfd78af_0": "sha256:be993619da04bed80c6a43fbca98d62b6175b8ca0b34ff7d3ef3df346ac61b54"}, "tags": {"1.0.0--r42hdfd78af_0": "sha256:0ffee7146efe6f8ce8a724c7059703de538e65ccca36cbab7f689fa23d2e98a9", "1.2.0--r43hdfd78af_0": "sha256:d8967c96c5361f0507dd74fa38a23cf98cb0e17d25eee94a612caa2bc9a0bc41", "1.4.0--r43hdfd78af_0": "sha256:c9a3b3f7c8bf377e369688d26cb4e47dd085da8ba3531adb755a894e68bae8ad", "1.8.0--r44hdfd78af_0": "sha256:f4d99a54627b0c287c3927cf62d10c9d736507607d3a09c8a05c34103b2ba884", "1.12.0--r45hdfd78af_0": "sha256:be993619da04bed80c6a43fbca98d62b6175b8ca0b34ff7d3ef3df346ac61b54"}, "docker": "quay.io/biocontainers/bioconductor-phenomis", "aliases": {"installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "glpsol": "/usr/local/bin/glpsol", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phenomis.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/bioconductor-phenomis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-phenomis:1.8.0--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-phenomis:1.12.0--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-phenomis/1.8.0--r44hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-phenomis/1.8.0--r44hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-phenomis/1.12.0--r45hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-phenomis/1.12.0--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

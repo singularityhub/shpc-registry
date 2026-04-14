@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kamino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kamino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kamino/container.yaml"
-updated_at: "2026-04-13 05:53:20.759707"
-latest: "0.8.0--h4349ce8_0"
+updated_at: "2026-04-14 05:24:45.862758"
+latest: "1.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/kamino"
 aliases:
  - "kamino"
@@ -18,8 +18,11 @@ versions:
  - "0.4.0--h4349ce8_0"
  - "0.3.0--h4349ce8_0"
  - "0.8.0--h4349ce8_0"
+ - "1.0.0--h4349ce8_0"
+ - "0.9.0--h4349ce8_0"
+ - "0.8.1--h4349ce8_0"
 description: "singularity registry hpc automated addition for kamino"
-config: {"url": "https://biocontainers.pro/tools/kamino", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kamino", "latest": {"0.8.0--h4349ce8_0": "sha256:c429b265ebb289a652616dc6ac85f2d9ff4ffc79dc5565d59f13097d55371c51"}, "tags": {"0.1.0--h4349ce8_0": "sha256:025c7be0e57601396ba7b63358aacf41d86801db099e46a854e6824090fae136", "0.2.1--h4349ce8_0": "sha256:5ab413d58487d018a805b4273320a341ac2f43503fe03055b7f036fe066fe704", "0.7.0--h4349ce8_0": "sha256:69fcaaa473c6597e36b8328b075c5e7c454e1ee77d5650c40d33d6114dd5f273", "0.6.1--h4349ce8_0": "sha256:2c147a957c07c206620c833f2ef70aa5f9ed27d612c21f4e0e8148c44fb6b59c", "0.5.1--h4349ce8_0": "sha256:bfae0c156592c1e719f456c2f43a662f85952d104e59f86cad5cdaed1640b93d", "0.4.0--h4349ce8_0": "sha256:dd6423003c9636ce2e3eb813a7abc27c24d52025f0b7c82f08524fe20a9f5196", "0.3.0--h4349ce8_0": "sha256:ab7a3b694fcca684af22249235b2c30e60364d9844ca78986551412556ede476", "0.8.0--h4349ce8_0": "sha256:c429b265ebb289a652616dc6ac85f2d9ff4ffc79dc5565d59f13097d55371c51"}, "docker": "quay.io/biocontainers/kamino", "aliases": {"kamino": "/usr/local/bin/kamino"}}
+config: {"url": "https://biocontainers.pro/tools/kamino", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kamino", "latest": {"1.0.0--h4349ce8_0": "sha256:989670a431114aaf21d44be351d84a5893af893fe59432da64b4c4c8bd0c2dd7"}, "tags": {"0.1.0--h4349ce8_0": "sha256:025c7be0e57601396ba7b63358aacf41d86801db099e46a854e6824090fae136", "0.2.1--h4349ce8_0": "sha256:5ab413d58487d018a805b4273320a341ac2f43503fe03055b7f036fe066fe704", "0.7.0--h4349ce8_0": "sha256:69fcaaa473c6597e36b8328b075c5e7c454e1ee77d5650c40d33d6114dd5f273", "0.6.1--h4349ce8_0": "sha256:2c147a957c07c206620c833f2ef70aa5f9ed27d612c21f4e0e8148c44fb6b59c", "0.5.1--h4349ce8_0": "sha256:bfae0c156592c1e719f456c2f43a662f85952d104e59f86cad5cdaed1640b93d", "0.4.0--h4349ce8_0": "sha256:dd6423003c9636ce2e3eb813a7abc27c24d52025f0b7c82f08524fe20a9f5196", "0.3.0--h4349ce8_0": "sha256:ab7a3b694fcca684af22249235b2c30e60364d9844ca78986551412556ede476", "0.8.0--h4349ce8_0": "sha256:c429b265ebb289a652616dc6ac85f2d9ff4ffc79dc5565d59f13097d55371c51", "1.0.0--h4349ce8_0": "sha256:989670a431114aaf21d44be351d84a5893af893fe59432da64b4c4c8bd0c2dd7", "0.9.0--h4349ce8_0": "sha256:196b902cd5a66ce68e543f7d59bf1f4c47146e508df95fd17f572199682f956d", "0.8.1--h4349ce8_0": "sha256:c1ba189bd931a910e2f72f95cecf7910c8ce458c4c50b97fbea39d7bcdcb8ae1"}, "docker": "quay.io/biocontainers/kamino", "aliases": {"kamino": "/usr/local/bin/kamino"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kamino.
@@ -34,7 +37,7 @@ $ shpc install quay.io/biocontainers/kamino
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kamino:0.8.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/kamino:1.0.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kamino/0.8.0--h4349ce8_0
-$ module help quay.io/biocontainers/kamino/0.8.0--h4349ce8_0
+$ module load quay.io/biocontainers/kamino/1.0.0--h4349ce8_0
+$ module help quay.io/biocontainers/kamino/1.0.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

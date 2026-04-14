@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-norway981.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-norway981.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-norway981.db/container.yaml"
-updated_at: "2026-04-13 05:57:06.127242"
+updated_at: "2026-04-14 05:28:42.508194"
 latest: "3.2.3--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-norway981.db"
 

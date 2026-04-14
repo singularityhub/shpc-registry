@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsri/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsri/container.yaml"
-updated_at: "2026-04-13 05:52:58.709157"
+updated_at: "2026-04-14 05:24:22.763130"
 latest: "2.58.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsri"
 

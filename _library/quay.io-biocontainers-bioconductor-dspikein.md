@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dspikein"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dspikein/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dspikein/container.yaml"
-updated_at: "2026-04-13 06:00:07.666419"
+updated_at: "2026-04-14 05:32:07.139244"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dspikein"
 aliases:
