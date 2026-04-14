@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-cadra
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cadra
 latest:
-  1.0.1--r43ha9d7317_0: 
-    sha256:eabb7904d0889083e32a697dca78e9eb4375411c7b88fbd68ef8f51e0826493f
+  1.8.0--r45h01b2380_0: 
+    sha256:588133460386eb3e84a1a983c5887e665ddc8d75475ffbad200f3c5518d8637e
 tags:
   1.0.1--r43ha9d7317_0: 
     sha256:eabb7904d0889083e32a697dca78e9eb4375411c7b88fbd68ef8f51e0826493f
+  1.8.0--r45h01b2380_0: 
+    sha256:588133460386eb3e84a1a983c5887e665ddc8d75475ffbad200f3c5518d8637e
 docker: quay.io/biocontainers/bioconductor-cadra
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

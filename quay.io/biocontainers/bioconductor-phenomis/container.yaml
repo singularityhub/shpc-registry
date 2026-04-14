@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-phenomis
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:f4d99a54627b0c287c3927cf62d10c9d736507607d3a09c8a05c34103b2ba884
+  1.12.0--r45hdfd78af_0: 
+    sha256:be993619da04bed80c6a43fbca98d62b6175b8ca0b34ff7d3ef3df346ac61b54
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:0ffee7146efe6f8ce8a724c7059703de538e65ccca36cbab7f689fa23d2e98a9
@@ -14,6 +14,8 @@ tags:
     sha256:c9a3b3f7c8bf377e369688d26cb4e47dd085da8ba3531adb755a894e68bae8ad
   1.8.0--r44hdfd78af_0: 
     sha256:f4d99a54627b0c287c3927cf62d10c9d736507607d3a09c8a05c34103b2ba884
+  1.12.0--r45hdfd78af_0: 
+    sha256:be993619da04bed80c6a43fbca98d62b6175b8ca0b34ff7d3ef3df346ac61b54
 docker: quay.io/biocontainers/bioconductor-phenomis
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

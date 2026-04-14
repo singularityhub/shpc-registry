@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/varvamp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for varvamp
 latest:
-  1.3.1--pyhdfd78af_0: 
-    sha256:0cb879088a96ca03508c2d5702e1ed72303698d5e24cea92ae2fe8ad27cd1407
+  1.3.2--pyhdfd78af_0: 
+    sha256:28554943f8f9f1ae235ba40d0f2e104b4525d23cd8974e2fb3490b50e3fa83f2
 tags:
   0.4--pyhdfd78af_0: 
     sha256:0f5a82684825086347a0545c35e3c2d533b90cdb2edc713c1c4c724f85d0cd8e
@@ -39,6 +39,8 @@ tags:
     sha256:7d8f7c4354b95782f12fbb58125200acdb23924a659d1f3ebb4c815db81e2c0f
   1.3.1--pyhdfd78af_0: 
     sha256:0cb879088a96ca03508c2d5702e1ed72303698d5e24cea92ae2fe8ad27cd1407
+  1.3.2--pyhdfd78af_0: 
+    sha256:28554943f8f9f1ae235ba40d0f2e104b4525d23cd8974e2fb3490b50e3fa83f2
 docker: quay.io/biocontainers/varvamp
 aliases:
   varvamp: /usr/local/bin/varvamp

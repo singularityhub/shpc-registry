@@ -29,7 +29,7 @@ tags:
   1.22.0-rc1: 
     sha256:9e84cd0c93f874a4f9527d8e37094c6a9fb75e7a80824527d2ad4abcfe69324a
   '1.22': 
-    sha256:4e75df3d9d5f8f4d3222322907c9a8e323bc313fc7b248943f93b8f9c64565a7
+    sha256:f278b51842bc26129911cccefdfaed52118ae00f692bc42be030d5c66d2370c0
 aliases:
   consul: /bin/consul
   docker-entrypoint.sh: /usr/local/bin/docker-entrypoint.sh

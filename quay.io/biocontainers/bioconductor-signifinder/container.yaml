@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-signifinder
 latest:
-  1.4.0--r43hdfd78af_0: 
-    sha256:aef4cb962ca3f150d33c845146a4b168d9c2ad65aa22d35a67669cb1c761ef40
+  1.12.0--r45hdfd78af_0: 
+    sha256:5e9554028a4f9cc94955c19fba52b316cbbe6633c12563beb30493190e94c836
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:58a7ccbd9679e6f0e14e55378d18138dd6a412001c78490570ebee04545d51ed
@@ -12,6 +12,8 @@ tags:
     sha256:43b29c6295dfa59ebd4ad6a080530b154f4f2dbc8c204ba54bfc1ea7a7104cdd
   1.4.0--r43hdfd78af_0: 
     sha256:aef4cb962ca3f150d33c845146a4b168d9c2ad65aa22d35a67669cb1c761ef40
+  1.12.0--r45hdfd78af_0: 
+    sha256:5e9554028a4f9cc94955c19fba52b316cbbe6633c12563beb30493190e94c836
 docker: quay.io/biocontainers/bioconductor-signifinder
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

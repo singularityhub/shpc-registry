@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mtsv-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mtsv-tools
 latest:
-  2.1.0--h54198d6_0: 
-    sha256:5ad74bbb5dbcad40e22e3cf1e970eb0c08fd1180bb28d2403426f88e30de78b5
+  2.1.1--h54198d6_2: 
+    sha256:b25b8093037063238678e28f16267844e89d1674dc9c4953e04fc5bb58b3af66
 tags:
   2.0.2--hec16e2b_1: 
     sha256:c4fddadca62e7ffc6ad73b116202f73bd612fac8a7a83e8908213ba32ada2e13
@@ -15,6 +15,8 @@ tags:
     sha256:adbaa936107f8a1e6c51312547c3e1d440fff7aa20b021c41ecadca605655234
   2.1.0--h54198d6_0: 
     sha256:5ad74bbb5dbcad40e22e3cf1e970eb0c08fd1180bb28d2403426f88e30de78b5
+  2.1.1--h54198d6_2: 
+    sha256:b25b8093037063238678e28f16267844e89d1674dc9c4953e04fc5bb58b3af66
 docker: quay.io/biocontainers/mtsv-tools
 aliases:
   mtsv-binner: /usr/local/bin/mtsv-binner

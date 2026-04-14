@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/unikseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unikseq
 latest:
-  2.0.1--hdfd78af_0: 
-    sha256:42a3999f450d1293418e8694cf636a815c8d5c74ca5f7a75c2a184e082e647cb
+  2.0.1--hdfd78af_1: 
+    sha256:9758efdaadc177c98aff3185be2ac2e09a1b7e5c5ef3c2201adb5a936c9cf5a0
 tags:
   1.3.2--hdfd78af_0: 
     sha256:cf72f582501cb063b13685fde4036c209558fa01f92db54c90ceb0017d487ef2
@@ -17,6 +17,8 @@ tags:
     sha256:eeff4bee2259eef463a720664fa4099fa1b12574eb18c0d0b9ca647346d8d993
   2.0.1--hdfd78af_0: 
     sha256:42a3999f450d1293418e8694cf636a815c8d5c74ca5f7a75c2a184e082e647cb
+  2.0.1--hdfd78af_1: 
+    sha256:9758efdaadc177c98aff3185be2ac2e09a1b7e5c5ef3c2201adb5a936c9cf5a0
 docker: quay.io/biocontainers/unikseq
 aliases:
   LINKS: /usr/local/bin/LINKS
