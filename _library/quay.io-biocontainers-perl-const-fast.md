@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-const-fast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-const-fast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-const-fast/container.yaml"
-updated_at: "2026-04-14 05:03:53.170560"
+updated_at: "2026-04-15 05:04:15.264375"
 latest: "0.014--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-const-fast"
 aliases:

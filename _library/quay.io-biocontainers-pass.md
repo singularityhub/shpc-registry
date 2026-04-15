@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pass/container.yaml"
-updated_at: "2026-04-14 05:43:38.446050"
-latest: "0.3.1--hdfd78af_0"
+updated_at: "2026-04-15 05:42:36.417443"
+latest: "0.3.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pass"
 aliases:
  - "PASS"
 versions:
  - "0.3.1--hdfd78af_0"
+ - "0.3.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for pass"
-config: {"url": "https://biocontainers.pro/tools/pass", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pass", "latest": {"0.3.1--hdfd78af_0": "sha256:82d62fc6ba980bde99b9da43d7ad298edcca74204462b967d885b0f7bdc9c260"}, "tags": {"0.3.1--hdfd78af_0": "sha256:82d62fc6ba980bde99b9da43d7ad298edcca74204462b967d885b0f7bdc9c260"}, "docker": "quay.io/biocontainers/pass", "aliases": {"PASS": "/usr/local/bin/PASS"}}
+config: {"url": "https://biocontainers.pro/tools/pass", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pass", "latest": {"0.3.1--hdfd78af_1": "sha256:8b1e21afefc477df60d0c64e032b4c1e24502db1488c21b0956ac8a4c85a8978"}, "tags": {"0.3.1--hdfd78af_0": "sha256:82d62fc6ba980bde99b9da43d7ad298edcca74204462b967d885b0f7bdc9c260", "0.3.1--hdfd78af_1": "sha256:8b1e21afefc477df60d0c64e032b4c1e24502db1488c21b0956ac8a4c85a8978"}, "docker": "quay.io/biocontainers/pass", "aliases": {"PASS": "/usr/local/bin/PASS"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pass.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pass
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pass:0.3.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/pass:0.3.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pass/0.3.1--hdfd78af_0
-$ module help quay.io/biocontainers/pass/0.3.1--hdfd78af_0
+$ module load quay.io/biocontainers/pass/0.3.1--hdfd78af_1
+$ module help quay.io/biocontainers/pass/0.3.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

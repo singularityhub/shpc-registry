@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yeastnagalakshmi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeastnagalakshmi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeastnagalakshmi/container.yaml"
-updated_at: "2026-04-14 05:36:35.907024"
+updated_at: "2026-04-15 05:36:17.679598"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeastnagalakshmi"
 

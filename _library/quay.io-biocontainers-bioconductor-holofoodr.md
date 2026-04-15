@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-holofoodr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-holofoodr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-holofoodr/container.yaml"
-updated_at: "2026-04-14 05:19:29.357393"
+updated_at: "2026-04-15 05:20:07.989490"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-holofoodr"
 aliases:

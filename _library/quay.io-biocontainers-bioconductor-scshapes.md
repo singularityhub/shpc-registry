@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scshapes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scshapes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scshapes/container.yaml"
-updated_at: "2026-04-14 05:29:55.229991"
+updated_at: "2026-04-15 05:30:17.350500"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scshapes"
 

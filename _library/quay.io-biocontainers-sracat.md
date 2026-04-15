@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sracat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sracat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sracat/container.yaml"
-updated_at: "2026-04-14 05:29:12.505545"
-latest: "0.2--h077b44d_3"
+updated_at: "2026-04-15 05:29:39.177778"
+latest: "0.2--hf426362_4"
 container_url: "https://biocontainers.pro/tools/sracat"
 aliases:
  - "sracat"
@@ -13,8 +13,9 @@ versions:
  - "0.2--h9f5acd7_1"
  - "0.2--hdcf5f25_2"
  - "0.2--h077b44d_3"
+ - "0.2--hf426362_4"
 description: "shpc-registry automated BioContainers addition for sracat"
-config: {"url": "https://biocontainers.pro/tools/sracat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sracat", "latest": {"0.2--h077b44d_3": "sha256:df9121e277d117228d02b5ba99f79e51510e665fb73ddb011df8cb46457420d2"}, "tags": {"0.2--h9f5acd7_1": "sha256:be9c04f036953a0cf20f58ffc8aaa247dae3323e4d2f08e00f2a85ee06222083", "0.2--hdcf5f25_2": "sha256:7670de916b70f3451a20fe0707d1fb20eb29376d27b45c66ac5216ee16fa2fc4", "0.2--h077b44d_3": "sha256:df9121e277d117228d02b5ba99f79e51510e665fb73ddb011df8cb46457420d2"}, "docker": "quay.io/biocontainers/sracat", "aliases": {"sracat": "/usr/local/bin/sracat"}}
+config: {"url": "https://biocontainers.pro/tools/sracat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sracat", "latest": {"0.2--hf426362_4": "sha256:6c0284c43954fd51f450679bff9266249a9fc03aa7d7868bf0a7c7d19898807c"}, "tags": {"0.2--h9f5acd7_1": "sha256:be9c04f036953a0cf20f58ffc8aaa247dae3323e4d2f08e00f2a85ee06222083", "0.2--hdcf5f25_2": "sha256:7670de916b70f3451a20fe0707d1fb20eb29376d27b45c66ac5216ee16fa2fc4", "0.2--h077b44d_3": "sha256:df9121e277d117228d02b5ba99f79e51510e665fb73ddb011df8cb46457420d2", "0.2--hf426362_4": "sha256:6c0284c43954fd51f450679bff9266249a9fc03aa7d7868bf0a7c7d19898807c"}, "docker": "quay.io/biocontainers/sracat", "aliases": {"sracat": "/usr/local/bin/sracat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sracat.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/sracat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sracat:0.2--h077b44d_3
+$ shpc install quay.io/biocontainers/sracat:0.2--hf426362_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sracat/0.2--h077b44d_3
-$ module help quay.io/biocontainers/sracat/0.2--h077b44d_3
+$ module load quay.io/biocontainers/sracat/0.2--hf426362_4
+$ module help quay.io/biocontainers/sracat/0.2--hf426362_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

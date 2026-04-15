@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/minimod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimod/container.yaml"
-updated_at: "2026-04-14 05:12:19.895799"
-latest: "0.4.0--h577a1d6_0"
+updated_at: "2026-04-15 05:12:49.382210"
+latest: "0.5.0--hb7acf71_0"
 container_url: "https://biocontainers.pro/tools/minimod"
 aliases:
  - "minimod"
 versions:
  - "0.4.0--h577a1d6_0"
+ - "0.5.0--hb7acf71_0"
 description: "singularity registry hpc automated addition for minimod"
-config: {"url": "https://biocontainers.pro/tools/minimod", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for minimod", "latest": {"0.4.0--h577a1d6_0": "sha256:ef200d3dc63e2119edd4765daef5df7d385383320caca1db4a57ca7a18b5d5ad"}, "tags": {"0.4.0--h577a1d6_0": "sha256:ef200d3dc63e2119edd4765daef5df7d385383320caca1db4a57ca7a18b5d5ad"}, "docker": "quay.io/biocontainers/minimod", "aliases": {"minimod": "/usr/local/bin/minimod"}}
+config: {"url": "https://biocontainers.pro/tools/minimod", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for minimod", "latest": {"0.5.0--hb7acf71_0": "sha256:4fe86b24de0e6875da25b2ec7a459b85e63a2c9e16fe5c685863f7a2795951ce"}, "tags": {"0.4.0--h577a1d6_0": "sha256:ef200d3dc63e2119edd4765daef5df7d385383320caca1db4a57ca7a18b5d5ad", "0.5.0--hb7acf71_0": "sha256:4fe86b24de0e6875da25b2ec7a459b85e63a2c9e16fe5c685863f7a2795951ce"}, "docker": "quay.io/biocontainers/minimod", "aliases": {"minimod": "/usr/local/bin/minimod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minimod.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/minimod
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/minimod:0.4.0--h577a1d6_0
+$ shpc install quay.io/biocontainers/minimod:0.5.0--hb7acf71_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/minimod/0.4.0--h577a1d6_0
-$ module help quay.io/biocontainers/minimod/0.4.0--h577a1d6_0
+$ module load quay.io/biocontainers/minimod/0.5.0--hb7acf71_0
+$ module help quay.io/biocontainers/minimod/0.5.0--hb7acf71_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

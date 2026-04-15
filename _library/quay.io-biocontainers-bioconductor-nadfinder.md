@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nadfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nadfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nadfinder/container.yaml"
-updated_at: "2026-04-14 05:21:07.629227"
+updated_at: "2026-04-15 05:21:46.418967"
 latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nadfinder"
 aliases:

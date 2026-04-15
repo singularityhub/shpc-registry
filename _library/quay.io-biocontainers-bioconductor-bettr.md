@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bettr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bettr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bettr/container.yaml"
-updated_at: "2026-04-14 05:36:26.538804"
+updated_at: "2026-04-15 05:36:09.267556"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bettr"
 aliases:

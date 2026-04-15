@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-variancepartition"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-variancepartition/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-variancepartition/container.yaml"
-updated_at: "2026-04-14 05:16:51.286320"
+updated_at: "2026-04-15 05:17:25.900408"
 latest: "1.40.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-variancepartition"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phyling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phyling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phyling/container.yaml"
-updated_at: "2026-04-14 05:40:19.754905"
+updated_at: "2026-04-15 05:39:36.164819"
 latest: "2.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phyling"
 aliases:
