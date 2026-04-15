@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/minimod
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for minimod
 latest:
-  0.4.0--h577a1d6_0: 
-    sha256:ef200d3dc63e2119edd4765daef5df7d385383320caca1db4a57ca7a18b5d5ad
+  0.5.0--hb7acf71_0: 
+    sha256:4fe86b24de0e6875da25b2ec7a459b85e63a2c9e16fe5c685863f7a2795951ce
 tags:
   0.4.0--h577a1d6_0: 
     sha256:ef200d3dc63e2119edd4765daef5df7d385383320caca1db4a57ca7a18b5d5ad
+  0.5.0--hb7acf71_0: 
+    sha256:4fe86b24de0e6875da25b2ec7a459b85e63a2c9e16fe5c685863f7a2795951ce
 docker: quay.io/biocontainers/minimod
 aliases:
   minimod: /usr/local/bin/minimod

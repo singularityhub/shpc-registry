@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-consensusov
 latest:
-  1.24.0--r43hdfd78af_0: 
-    sha256:ed0d6d6abc576aad7437899ea70d2e73d04018675cdaaab9c6dd1b93d71a4da6
+  1.32.0--r45hdfd78af_0: 
+    sha256:ae3fa60efdd5cc395872f3a1163cf2f6236056d7168e7e3c11cba2e0975fe86f
 tags:
   1.8.0--r36_0: 
     sha256:eb7d9a4a4e848ec345a468b243b6e4abf53782ca2f62b30363aaed56f5f24c65
@@ -22,6 +22,8 @@ tags:
     sha256:9a4eff22f8db188aa49623af69a3336fe1092e01789024a14c81c0b275e7d21d
   1.24.0--r43hdfd78af_0: 
     sha256:ed0d6d6abc576aad7437899ea70d2e73d04018675cdaaab9c6dd1b93d71a4da6
+  1.32.0--r45hdfd78af_0: 
+    sha256:ae3fa60efdd5cc395872f3a1163cf2f6236056d7168e7e3c11cba2e0975fe86f
 docker: quay.io/biocontainers/bioconductor-consensusov
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

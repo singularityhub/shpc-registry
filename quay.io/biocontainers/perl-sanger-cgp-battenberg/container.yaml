@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-sanger-cgp-battenberg
 latest:
-  1.4.1--pl5321h031d066_9: 
-    sha256:135141553dcfcb13b431bfee46f3282fe4922e08dfd83cd2aaf89ffb21d634b2
+  1.4.1--pl5321h87e0c26_10: 
+    sha256:e30782a6f08d81e441a12c111110c5c010a21a83479a9e027761878970a40adf
 tags:
   1.4.1--pl5321hec16e2b_8: 
     sha256:bff9d392d2121073c8882a304d3ab3719b5c90e85efab8f96b97534fd5592d5c
   1.4.1--pl5321h031d066_9: 
     sha256:135141553dcfcb13b431bfee46f3282fe4922e08dfd83cd2aaf89ffb21d634b2
+  1.4.1--pl5321h87e0c26_10: 
+    sha256:e30782a6f08d81e441a12c111110c5c010a21a83479a9e027761878970a40adf
 docker: quay.io/biocontainers/perl-sanger-cgp-battenberg
 aliases:
   alleleCounter: /usr/local/bin/alleleCounter

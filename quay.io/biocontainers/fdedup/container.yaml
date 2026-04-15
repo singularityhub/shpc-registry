@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/fdedup
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fdedup
 latest:
-  1.0.0--h79ce301_0: 
-    sha256:1edf82f391affec484fd66ab3240a98cc37402e0c70868ee980429363ea23b5d
+  1.1.0--h060d69e_0: 
+    sha256:b3133faecc3437cb3eb111d4d97287bc259888cae5ff418b0c4e88218a8862e8
 tags:
   1.0.0--h79ce301_0: 
     sha256:1edf82f391affec484fd66ab3240a98cc37402e0c70868ee980429363ea23b5d
+  1.1.0--h060d69e_0: 
+    sha256:b3133faecc3437cb3eb111d4d97287bc259888cae5ff418b0c4e88218a8862e8
 docker: quay.io/biocontainers/fdedup
 aliases:
   fdedup: /usr/local/bin/fdedup

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sracat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sracat
 latest:
-  0.2--h077b44d_3: 
-    sha256:df9121e277d117228d02b5ba99f79e51510e665fb73ddb011df8cb46457420d2
+  0.2--hf426362_4: 
+    sha256:6c0284c43954fd51f450679bff9266249a9fc03aa7d7868bf0a7c7d19898807c
 tags:
   0.2--h9f5acd7_1: 
     sha256:be9c04f036953a0cf20f58ffc8aaa247dae3323e4d2f08e00f2a85ee06222083
@@ -11,6 +11,8 @@ tags:
     sha256:7670de916b70f3451a20fe0707d1fb20eb29376d27b45c66ac5216ee16fa2fc4
   0.2--h077b44d_3: 
     sha256:df9121e277d117228d02b5ba99f79e51510e665fb73ddb011df8cb46457420d2
+  0.2--hf426362_4: 
+    sha256:6c0284c43954fd51f450679bff9266249a9fc03aa7d7868bf0a7c7d19898807c
 docker: quay.io/biocontainers/sracat
 aliases:
   sracat: /usr/local/bin/sracat
