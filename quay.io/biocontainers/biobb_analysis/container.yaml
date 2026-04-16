@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/biobb_analysis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_analysis
 latest:
-  5.2.1--pyhdfd78af_0: 
-    sha256:aec39c1c543dee678d28cefac42465e0e754010d2cfa1c6e884d691cc0d1f191
+  5.2.1--gmx2026_2: 
+    sha256:d220e553d912d1017fd0f8ec542610819da28decaf0cf55e18aa5ce0736c88e6
 tags:
-  3.8.0--pyhdfd78af_0: 
-    sha256:f536b374e4fcd613fff77c627bc80db1fbb3a87000592ccc5725738b1a8c78c0
+  3.8.0--pyhdfd78af_0: "crane digest quay.io/biocontainers/biobb_analysis:3.8.0--pyhdfd78af_0:
+    unsupported status code 500; body: <html>\n  <head>\n    <title>Internal Server
+    Error</title>\n  </head>\n  <body>\n    <h1><p>Internal Server Error</p></h1>\n\
+    \    \n  </body>\n</html>\n"
   3.9.0--pyhdfd78af_0: 
     sha256:4c0f8bc511ccf1539dda720e38a2dda12a528248e268a92d64f0f44779757f0d
   4.0.0--pyhdfd78af_1: 
@@ -33,6 +35,8 @@ tags:
     sha256:2d03766ebab879533a96af8aae97650f0f3e773bc37118ac814683b7096f62d7
   5.2.1--pyhdfd78af_0: 
     sha256:aec39c1c543dee678d28cefac42465e0e754010d2cfa1c6e884d691cc0d1f191
+  5.2.1--gmx2026_2: 
+    sha256:d220e553d912d1017fd0f8ec542610819da28decaf0cf55e18aa5ce0736c88e6
 docker: quay.io/biocontainers/biobb_analysis
 aliases:
   AddToBox: /usr/local/bin/AddToBox

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/genomextract
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genomextract
 latest:
-  0.1.7--pyhdfd78af_0: 
-    sha256:1ffa3d014909b69d61290c82efe738636bcd2488bee01e207c58d5e512e55396
+  0.2.2--pyhdfd78af_0: 
+    sha256:ee23ef37b347099bcae66b2ec644046b176f941d4ee98376f9ba438159f0efd0
 tags:
   0.1.5--pyhdfd78af_0: 
     sha256:55e7c3d8a318adad8aeebbedf7d55b7498db553c76a4768939fb77c9d4a63d03
   0.1.7--pyhdfd78af_0: 
     sha256:1ffa3d014909b69d61290c82efe738636bcd2488bee01e207c58d5e512e55396
+  0.2.2--pyhdfd78af_0: 
+    sha256:ee23ef37b347099bcae66b2ec644046b176f941d4ee98376f9ba438159f0efd0
 docker: quay.io/biocontainers/genomextract
 aliases:
   assembleOrgGenes: /usr/local/bin/assembleOrgGenes

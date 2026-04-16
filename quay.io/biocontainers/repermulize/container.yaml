@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/repermulize
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for repermulize
 latest:
-  1.0--r42hdfd78af_0: 
-    sha256:f667fb5b1cfdf646671fcf89295e25e0fb02113062ec09dce00c8274f7cd81b1
+  1.0.1--r42hdfd78af_0: 
+    sha256:09ff707b81773f7ddc9e8a6f8dfa182491e253e2a4f2f054508f172553308edc
 tags:
   1.0--r42hdfd78af_0: 
     sha256:f667fb5b1cfdf646671fcf89295e25e0fb02113062ec09dce00c8274f7cd81b1
+  1.0.1--r42hdfd78af_0: 
+    sha256:09ff707b81773f7ddc9e8a6f8dfa182491e253e2a4f2f054508f172553308edc
 docker: quay.io/biocontainers/repermulize
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

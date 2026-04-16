@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/firecloud
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for firecloud
 latest:
-  0.16.38--pyhdfd78af_0: 
-    sha256:287fb2942d02944f92190d627d6c7c7cde9feb523a9dc0ec123f77da43151842
+  0.16.39--pyhdfd78af_0: 
+    sha256:1376a12da7cf7d41f315fb0e8e7fad63ab2bf8a3b590bb3cf2a28d64e9e6cfdf
 tags:
   0.16.31--pyh3252c3a_0: 
     sha256:7570a7c2bf69d6648b89b3bada5304bbdb6a1d1a8751726387e4ef114585e7de
@@ -13,6 +13,8 @@ tags:
     sha256:0c60413ba0fc17ce703193841c3f7e8e05b6662e1c3d89abc5d14b4e646a17df
   0.16.38--pyhdfd78af_0: 
     sha256:287fb2942d02944f92190d627d6c7c7cde9feb523a9dc0ec123f77da43151842
+  0.16.39--pyhdfd78af_0: 
+    sha256:1376a12da7cf7d41f315fb0e8e7fad63ab2bf8a3b590bb3cf2a28d64e9e6cfdf
 docker: quay.io/biocontainers/firecloud
 aliases:
   bq: /usr/local/bin/bq

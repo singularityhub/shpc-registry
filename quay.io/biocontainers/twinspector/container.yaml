@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/twinspector
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for twinspector
 latest:
-  0.1.1--pyh106432d_0: 
-    sha256:3cfdffecbe53fc7e762f1b211b3a9027c8c627d9bd1ca6cac9f828d5247668be
+  0.1.3--pyh106432d_0: 
+    sha256:52bebaa313ad3fc4053d4fb79315a2a1468ea1bf0f7e9d8cc3ac6fbd065d95f6
 tags:
   0.1.1--pyh106432d_0: 
     sha256:3cfdffecbe53fc7e762f1b211b3a9027c8c627d9bd1ca6cac9f828d5247668be
+  0.1.3--pyh106432d_0: 
+    sha256:52bebaa313ad3fc4053d4fb79315a2a1468ea1bf0f7e9d8cc3ac6fbd065d95f6
 docker: quay.io/biocontainers/twinspector
 aliases:
   CRISPResso: /usr/local/bin/CRISPResso
