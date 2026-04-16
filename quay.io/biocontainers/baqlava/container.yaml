@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/baqlava
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for baqlava
+latest:
+  0.5--pyh106432d_0: 
+    sha256:e2ad8bde879a6f49fa84f80475b4e3c8ba6f854b6ef99876e9b9c81cad5bed63
+tags:
+  0.5--pyh106432d_0: 
+    sha256:e2ad8bde879a6f49fa84f80475b4e3c8ba6f854b6ef99876e9b9c81cad5bed63
+docker: quay.io/biocontainers/baqlava
+aliases:
+  anadama2_aws_batch_task: /usr/local/bin/anadama2_aws_batch_task
+  baqlava: /usr/local/bin/baqlava
+  baqlava_database: /usr/local/bin/baqlava_database
+  baqlava_join_tables: /usr/local/bin/baqlava_join_tables
+  ptangle: /usr/local/bin/ptangle
+  pweave: /usr/local/bin/pweave
+  pweave-convert: /usr/local/bin/pweave-convert
+  pypublish: /usr/local/bin/pypublish
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  debugpy: /usr/local/bin/debugpy
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  curve_keygen: /usr/local/bin/curve_keygen
+  ipython3: /usr/local/bin/ipython3
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  ipython: /usr/local/bin/ipython
+  pandoc-server: /usr/local/bin/pandoc-server
+  markdown_py: /usr/local/bin/markdown_py
+  idle3.14: /usr/local/bin/idle3.14
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  jsonschema: /usr/local/bin/jsonschema
+  pygmentize: /usr/local/bin/pygmentize
+  pandoc: /usr/local/bin/pandoc

@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/mutopia
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mutopia
+latest:
+  1.0.4--pyhdfd78af_0: 
+    sha256:c63e342be22076669ee13ba590dfc407bfcd49eb4dd18e567a0606121d507509
+tags:
+  1.0.4--pyhdfd78af_0: 
+    sha256:c63e342be22076669ee13ba590dfc407bfcd49eb4dd18e567a0606121d507509
+docker: quay.io/biocontainers/mutopia
+aliases:
+  bigWigAverageOverBed: /usr/local/bin/bigWigAverageOverBed
+  gtensor: /usr/local/bin/gtensor
+  luigi: /usr/local/bin/luigi
+  luigi-deps: /usr/local/bin/luigi-deps
+  luigi-deps-tree: /usr/local/bin/luigi-deps-tree
+  luigi-grep: /usr/local/bin/luigi-grep
+  luigid: /usr/local/bin/luigid
+  mutopia-sbs: /usr/local/bin/mutopia-sbs
+  optuna: /usr/local/bin/optuna
+  topo-model: /usr/local/bin/topo-model
+  gff2gff: /usr/local/bin/gff2gff
+  roh-viz: /usr/local/bin/roh-viz
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  nc3tonc4: /usr/local/bin/nc3tonc4
+  nc4tonc3: /usr/local/bin/nc4tonc3
+  ncinfo: /usr/local/bin/ncinfo
+  alembic: /usr/local/bin/alembic
+  mako-render: /usr/local/bin/mako-render
+  h2benchmark: /usr/local/bin/h2benchmark
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  checksum-profile: /usr/local/bin/checksum-profile
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  ref-cache: /usr/local/bin/ref-cache
+  zipcmp: /usr/local/bin/zipcmp
+  zipmerge: /usr/local/bin/zipmerge
+  ziptool: /usr/local/bin/ziptool
