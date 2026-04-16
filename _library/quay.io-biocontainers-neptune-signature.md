@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neptune-signature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neptune-signature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neptune-signature/container.yaml"
-updated_at: "2026-04-15 05:29:39.780150"
+updated_at: "2026-04-16 05:33:54.711414"
 latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/neptune-signature"
 aliases:

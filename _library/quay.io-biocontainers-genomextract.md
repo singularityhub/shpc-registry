@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genomextract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomextract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomextract/container.yaml"
-updated_at: "2026-04-15 05:13:51.640528"
-latest: "0.1.7--pyhdfd78af_0"
+updated_at: "2026-04-16 05:18:39.509228"
+latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genomextract"
 aliases:
  - "assembleOrgGenes"
@@ -45,8 +45,9 @@ aliases:
 versions:
  - "0.1.5--pyhdfd78af_0"
  - "0.1.7--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for genomextract"
-config: {"url": "https://biocontainers.pro/tools/genomextract", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genomextract", "latest": {"0.1.7--pyhdfd78af_0": "sha256:1ffa3d014909b69d61290c82efe738636bcd2488bee01e207c58d5e512e55396"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:55e7c3d8a318adad8aeebbedf7d55b7498db553c76a4768939fb77c9d4a63d03", "0.1.7--pyhdfd78af_0": "sha256:1ffa3d014909b69d61290c82efe738636bcd2488bee01e207c58d5e512e55396"}, "docker": "quay.io/biocontainers/genomextract", "aliases": {"assembleOrgGenes": "/usr/local/bin/assembleOrgGenes", "assembleOrgGenome": "/usr/local/bin/assembleOrgGenome", "astral": "/usr/local/bin/astral", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "findClosestGenome": "/usr/local/bin/findClosestGenome", "findGenome": "/usr/local/bin/findGenome", "iqtree3": "/usr/local/bin/iqtree3", "jnativescan": "/usr/local/bin/jnativescan", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "iqtree": "/usr/local/bin/iqtree", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "gawkbug": "/usr/local/bin/gawkbug", "jwebserver": "/usr/local/bin/jwebserver", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl"}}
+config: {"url": "https://biocontainers.pro/tools/genomextract", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genomextract", "latest": {"0.2.2--pyhdfd78af_0": "sha256:ee23ef37b347099bcae66b2ec644046b176f941d4ee98376f9ba438159f0efd0"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:55e7c3d8a318adad8aeebbedf7d55b7498db553c76a4768939fb77c9d4a63d03", "0.1.7--pyhdfd78af_0": "sha256:1ffa3d014909b69d61290c82efe738636bcd2488bee01e207c58d5e512e55396", "0.2.2--pyhdfd78af_0": "sha256:ee23ef37b347099bcae66b2ec644046b176f941d4ee98376f9ba438159f0efd0"}, "docker": "quay.io/biocontainers/genomextract", "aliases": {"assembleOrgGenes": "/usr/local/bin/assembleOrgGenes", "assembleOrgGenome": "/usr/local/bin/assembleOrgGenome", "astral": "/usr/local/bin/astral", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "findClosestGenome": "/usr/local/bin/findClosestGenome", "findGenome": "/usr/local/bin/findGenome", "iqtree3": "/usr/local/bin/iqtree3", "jnativescan": "/usr/local/bin/jnativescan", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "iqtree": "/usr/local/bin/iqtree", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "gawkbug": "/usr/local/bin/gawkbug", "jwebserver": "/usr/local/bin/jwebserver", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomextract.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/genomextract
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomextract:0.1.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/genomextract:0.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomextract/0.1.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/genomextract/0.1.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/genomextract/0.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/genomextract/0.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
