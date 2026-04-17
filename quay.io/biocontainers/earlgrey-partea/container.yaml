@@ -1,0 +1,95 @@
+url: https://biocontainers.pro/tools/earlgrey-partea
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for earlgrey-partea
+latest:
+  0.1.6--hdfd78af_0: 
+    sha256:53879ca69576717decb698644c9149cb8cae1d46e10e48fdc75fccf90b4ac6a6
+tags:
+  0.1.6--hdfd78af_0: 
+    sha256:53879ca69576717decb698644c9149cb8cae1d46e10e48fdc75fccf90b4ac6a6
+docker: quay.io/biocontainers/earlgrey-partea
+aliases:
+  BuildDatabase: /usr/local/bin/BuildDatabase
+  LAI: /usr/local/bin/LAI
+  LTRPipeline: /usr/local/bin/LTRPipeline
+  LTR_retriever: /usr/local/bin/LTR_retriever
+  LTR_retriever.py: /usr/local/bin/LTR_retriever.py
+  Linup: /usr/local/bin/Linup
+  Ninja: /usr/local/bin/Ninja
+  RAMExtend: /usr/local/bin/RAMExtend
+  Refiner: /usr/local/bin/Refiner
+  RepeatClassifier: /usr/local/bin/RepeatClassifier
+  RepeatMasker.py: /usr/local/bin/RepeatMasker.py
+  RepeatModeler: /usr/local/bin/RepeatModeler
+  RepeatScout: /usr/local/bin/RepeatScout
+  TEsorter: /usr/local/bin/TEsorter
+  TEsorter-test: /usr/local/bin/TEsorter-test
+  alignAndCallConsensus.pl: /usr/local/bin/alignAndCallConsensus.pl
+  bigRmskAlignBed.as: /usr/local/bin/bigRmskAlignBed.as
+  bigRmskBed.as: /usr/local/bin/bigRmskBed.as
+  blast_formatter_vdb: /usr/local/bin/blast_formatter_vdb
+  blast_vdb_cmd: /usr/local/bin/blast_vdb_cmd
+  build_lmer_table: /usr/local/bin/build_lmer_table
+  calcPaths.pl: /usr/local/bin/calcPaths.pl
+  combineRMFiles.pl: /usr/local/bin/combineRMFiles.pl
+  compare-out-to-gff.prl: /usr/local/bin/compare-out-to-gff.prl
+  concatenate_domains.py: /usr/local/bin/concatenate_domains.py
+  convert_MGEScan3.0.pl: /usr/local/bin/convert_MGEScan3.0.pl
+  convert_ltr_struc.pl: /usr/local/bin/convert_ltr_struc.pl
+  convert_ltrdetector.pl: /usr/local/bin/convert_ltrdetector.pl
+  davidExtendConsRAM.pl: /usr/local/bin/davidExtendConsRAM.pl
+  dialign2-2: /usr/local/bin/dialign2-2
+  earlGrey: /usr/local/bin/earlGrey
+  earlGreyAnnotationOnly: /usr/local/bin/earlGreyAnnotationOnly
+  earlGreyLibConstruct: /usr/local/bin/earlGreyLibConstruct
+  earlGreyParTEA: /usr/local/bin/earlGreyParTEA
+  earlGreyParTEA_AnnotationOnly: /usr/local/bin/earlGreyParTEA_AnnotationOnly
+  earlGreyParTEA_LibConstruct: /usr/local/bin/earlGreyParTEA_LibConstruct
+  edgeredef: /usr/local/bin/edgeredef
+  eledef: /usr/local/bin/eledef
+  eleredef: /usr/local/bin/eleredef
+  extend-stk.pl: /usr/local/bin/extend-stk.pl
+  famdef: /usr/local/bin/famdef
+  filter-stage-1.prl: /usr/local/bin/filter-stage-1.prl
+  filter-stage-2.prl: /usr/local/bin/filter-stage-2.prl
+  generateSeedAlignments.pl: /usr/local/bin/generateSeedAlignments.pl
+  get_record.py: /usr/local/bin/get_record.py
+  heliano: /usr/local/bin/heliano
+  heliano_cons: /usr/local/bin/heliano_cons
+  imagespread: /usr/local/bin/imagespread
+  makeclusterdb: /usr/local/bin/makeclusterdb
+  merge-lmer-tables.prl: /usr/local/bin/merge-lmer-tables.prl
+  mreps: /usr/local/bin/mreps
+  nmerge: /usr/local/bin/nmerge
+  nseg: /usr/local/bin/nseg
+  ppserver.py: /usr/local/bin/ppserver.py
+  renumberRMFiles.pl: /usr/local/bin/renumberRMFiles.pl
+  rmToTrackHub.pl: /usr/local/bin/rmToTrackHub.pl
+  rnabob: /usr/local/bin/rnabob
+  sa-ssr: /usr/local/bin/sa-ssr
+  viewMSA.pl: /usr/local/bin/viewMSA.pl
+  maskFile.pl: /usr/local/bin/maskFile.pl
+  genometools-config: /usr/local/bin/genometools-config
+  gt: /usr/local/bin/gt
+  RM2Bed.py: /usr/local/bin/RM2Bed.py
+  buildRMLibFromEMBL.pl: /usr/local/bin/buildRMLibFromEMBL.pl
+  buildSummary.pl: /usr/local/bin/buildSummary.pl
+  wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  DupMasker: /usr/local/bin/DupMasker
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  calcDivergenceFromAlign.pl: /usr/local/bin/calcDivergenceFromAlign.pl
+  createRepeatLandscape.pl: /usr/local/bin/createRepeatLandscape.pl
+  dupliconToSVG.pl: /usr/local/bin/dupliconToSVG.pl
+  getRepeatMaskerBatch.pl: /usr/local/bin/getRepeatMaskerBatch.pl
+  rmOut2Fasta.pl: /usr/local/bin/rmOut2Fasta.pl
+  rmOutToGFF3.pl: /usr/local/bin/rmOutToGFF3.pl
+  rmToUCSCTables.pl: /usr/local/bin/rmToUCSCTables.pl
+  trfMask: /usr/local/bin/trfMask
+  rmblastn: /usr/local/bin/rmblastn
+  blast_report: /usr/local/bin/blast_report
+  blastdb_convert: /usr/local/bin/blastdb_convert
+  blastdb_path: /usr/local/bin/blastdb_path
+  twoBitToFa: /usr/local/bin/twoBitToFa
+  xmlget: /usr/local/bin/xmlget

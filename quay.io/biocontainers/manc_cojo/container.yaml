@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/manc_cojo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for manc_cojo
+latest:
+  1.1.0--hd63eeec_0: 
+    sha256:49c67b6e8bd7e906ce6d0f2b2ef0290375b6688d5cdc78f6c143bbdccff2906d
+tags:
+  1.1.0--hd63eeec_0: 
+    sha256:49c67b6e8bd7e906ce6d0f2b2ef0290375b6688d5cdc78f6c143bbdccff2906d
+docker: quay.io/biocontainers/manc_cojo
+aliases:
+  manc_cojo: /usr/local/bin/manc_cojo

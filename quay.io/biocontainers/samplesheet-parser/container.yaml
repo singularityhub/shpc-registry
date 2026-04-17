@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/samplesheet-parser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for samplesheet-parser
+latest:
+  1.2.0--pyhdfd78af_0: 
+    sha256:6b0ed854887df429f00da40b73fcd82a50c8af0d84fc018f7692d6036ffdd140
+tags:
+  1.2.0--pyhdfd78af_0: 
+    sha256:6b0ed854887df429f00da40b73fcd82a50c8af0d84fc018f7692d6036ffdd140
+docker: quay.io/biocontainers/samplesheet-parser
+aliases:
+  samplesheet: /usr/local/bin/samplesheet
+  typer: /usr/local/bin/typer
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  pygmentize: /usr/local/bin/pygmentize

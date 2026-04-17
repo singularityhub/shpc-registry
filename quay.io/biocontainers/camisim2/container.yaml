@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/camisim2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for camisim2
+latest:
+  2.0.1--hdfd78af_0: 
+    sha256:b2a3c76d83124478d9443411b8567dff8d2653f2a1aa3a11159304f7be6cacd8
+tags:
+  2.0.1--hdfd78af_0: 
+    sha256:b2a3c76d83124478d9443411b8567dff8d2653f2a1aa3a11159304f7be6cacd8
+docker: quay.io/biocontainers/camisim2
+aliases:
+  camisim2: /usr/local/bin/camisim2
+  menuinst: /usr/local/bin/menuinst
+  zless: /usr/local/bin/zless
+  distro: /usr/local/bin/distro
+  jsondiff: /usr/local/bin/jsondiff
+  jsonpatch: /usr/local/bin/jsonpatch
+  nextflow: /usr/local/bin/nextflow
+  jsonpointer: /usr/local/bin/jsonpointer
+  mamba-package: /usr/local/bin/mamba-package
+  archspec: /usr/local/bin/archspec
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  conda2solv: /usr/local/bin/conda2solv
+  dumpsolv: /usr/local/bin/dumpsolv
+  installcheck: /usr/local/bin/installcheck
+  mergesolv: /usr/local/bin/mergesolv

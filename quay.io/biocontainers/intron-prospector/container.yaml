@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/intron-prospector
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for intron-prospector
+latest:
+  1.5.0--hd6466ae_0: 
+    sha256:12285033e4cbac3c7f3b8995d5f561bad3d79f1b106284c1f9d7601c81712c89
+tags:
+  1.5.0--hd6466ae_0: 
+    sha256:12285033e4cbac3c7f3b8995d5f561bad3d79f1b106284c1f9d7601c81712c89
+docker: quay.io/biocontainers/intron-prospector
+aliases:
+  intron-prospector: /usr/local/bin/intron-prospector
+  intron-prospector-merge: /usr/local/bin/intron-prospector-merge
+  intronProspector: /usr/local/bin/intronProspector
+  intronProspectorMerge: /usr/local/bin/intronProspectorMerge
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

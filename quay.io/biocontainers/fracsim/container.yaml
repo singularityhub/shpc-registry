@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/fracsim
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fracsim
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:43497fb55fe808b864455787a1e2e83a8f05e17d5575e11e49d81184cafac66f
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:43497fb55fe808b864455787a1e2e83a8f05e17d5575e11e49d81184cafac66f
+docker: quay.io/biocontainers/fracsim
+aliases:
+  fracsim: /usr/local/bin/fracsim
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
