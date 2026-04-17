@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mrpast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mrpast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mrpast/container.yaml"
-updated_at: "2026-04-16 05:16:15.099138"
+updated_at: "2026-04-17 05:10:10.493794"
 latest: "0.2--py310ha1cbcee_0"
 container_url: "https://biocontainers.pro/tools/mrpast"
 aliases:

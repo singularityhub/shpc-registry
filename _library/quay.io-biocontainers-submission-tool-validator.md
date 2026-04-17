@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/submission-tool-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/submission-tool-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/submission-tool-validator/container.yaml"
-updated_at: "2026-04-16 05:28:24.886592"
+updated_at: "2026-04-17 05:19:53.676785"
 latest: "1.0.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/submission-tool-validator"
 aliases:

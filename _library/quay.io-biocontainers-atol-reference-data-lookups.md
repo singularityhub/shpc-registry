@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/atol-reference-data-lookups"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-reference-data-lookups/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-reference-data-lookups/container.yaml"
-updated_at: "2026-04-16 05:33:39.246911"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2026-04-17 05:24:09.266004"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-reference-data-lookups"
 aliases:
  - "atol-reference-data-lookups"
@@ -37,8 +37,11 @@ aliases:
  - "jupyter-trust"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
+ - "0.3.2--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for atol-reference-data-lookups"
-config: {"url": "https://biocontainers.pro/tools/atol-reference-data-lookups", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for atol-reference-data-lookups", "latest": {"0.1.1--pyhdfd78af_0": "sha256:fdf9c8edb45759bf7a7a045665a8772d5f9a562590a465d18cc8b173f3ff28c2"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:fdf9c8edb45759bf7a7a045665a8772d5f9a562590a465d18cc8b173f3ff28c2"}, "docker": "quay.io/biocontainers/atol-reference-data-lookups", "aliases": {"atol-reference-data-lookups": "/usr/local/bin/atol-reference-data-lookups", "get-remote-files": "/usr/local/bin/get-remote-files", "phc": "/usr/local/bin/phc", "eido": "/usr/local/bin/eido", "biom": "/usr/local/bin/biom", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "h5fuse": "/usr/local/bin/h5fuse", "yte": "/usr/local/bin/yte", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "markdown-it": "/usr/local/bin/markdown-it", "humanfriendly": "/usr/local/bin/humanfriendly", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
+config: {"url": "https://biocontainers.pro/tools/atol-reference-data-lookups", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for atol-reference-data-lookups", "latest": {"0.4.0--pyhdfd78af_0": "sha256:caad6b6ca56a2066c20bcbd512510303835078b339fe1694de4e0bb5a66969d8"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:fdf9c8edb45759bf7a7a045665a8772d5f9a562590a465d18cc8b173f3ff28c2", "0.4.0--pyhdfd78af_0": "sha256:caad6b6ca56a2066c20bcbd512510303835078b339fe1694de4e0bb5a66969d8", "0.3.2--pyhdfd78af_0": "sha256:a2dda2f1e68b7f89ef4196b97bfb1329e6bbdff50c9fdc719d5ffae72c83946c", "0.2.0--pyhdfd78af_0": "sha256:03883e65d808f6bf150fe5d62476cee2cd281315d799f75017a82ee9904549c2"}, "docker": "quay.io/biocontainers/atol-reference-data-lookups", "aliases": {"atol-reference-data-lookups": "/usr/local/bin/atol-reference-data-lookups", "get-remote-files": "/usr/local/bin/get-remote-files", "phc": "/usr/local/bin/phc", "eido": "/usr/local/bin/eido", "biom": "/usr/local/bin/biom", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "h5fuse": "/usr/local/bin/h5fuse", "yte": "/usr/local/bin/yte", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "markdown-it": "/usr/local/bin/markdown-it", "humanfriendly": "/usr/local/bin/humanfriendly", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/atol-reference-data-lookups.
@@ -53,7 +56,7 @@ $ shpc install quay.io/biocontainers/atol-reference-data-lookups
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/atol-reference-data-lookups:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/atol-reference-data-lookups:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/atol-reference-data-lookups/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/atol-reference-data-lookups/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/atol-reference-data-lookups/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/atol-reference-data-lookups/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

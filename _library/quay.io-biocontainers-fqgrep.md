@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fqgrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqgrep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqgrep/container.yaml"
-updated_at: "2026-04-16 05:47:40.702553"
-latest: "1.1.1--ha6fb395_0"
+updated_at: "2026-04-17 05:35:24.246414"
+latest: "1.1.2--hd612981_0"
 container_url: "https://biocontainers.pro/tools/fqgrep"
 aliases:
  - "fqgrep"
@@ -15,8 +15,9 @@ versions:
  - "1.0.3--h4ac6f70_0"
  - "1.0.3--h9948957_1"
  - "1.1.1--ha6fb395_0"
+ - "1.1.2--hd612981_0"
 description: "singularity registry hpc automated addition for fqgrep"
-config: {"url": "https://biocontainers.pro/tools/fqgrep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fqgrep", "latest": {"1.1.1--ha6fb395_0": "sha256:dad44c370a5191cc212aafbb4807e2f5d4a03e4191d6334ca03d752b17c5bf6e"}, "tags": {"1.0.2--h9f5acd7_0": "sha256:42a060b8612a1115c65fbe88746e107e085419d9a9718c9c34d3776cddc41e0d", "1.0.2--h4ac6f70_2": "sha256:21847e08814941818b19fe792d508447a1554f72e9f3e5c1debdd5aaba43fc4e", "1.0.3--h4ac6f70_0": "sha256:b26aab4f7088c444f339e81122635f08ed5dbcdff86a6de82841e5bfd026a3f7", "1.0.3--h9948957_1": "sha256:33954ba5b687f908c1b298abd2532a6345ee561ee771b856f330f5c0fa688266", "1.1.1--ha6fb395_0": "sha256:dad44c370a5191cc212aafbb4807e2f5d4a03e4191d6334ca03d752b17c5bf6e"}, "docker": "quay.io/biocontainers/fqgrep", "aliases": {"fqgrep": "/usr/local/bin/fqgrep"}}
+config: {"url": "https://biocontainers.pro/tools/fqgrep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fqgrep", "latest": {"1.1.2--hd612981_0": "sha256:2522745f9ab00353096c89e2b24cb9707225e5c491f183318509ebeac1762ea4"}, "tags": {"1.0.2--h9f5acd7_0": "sha256:42a060b8612a1115c65fbe88746e107e085419d9a9718c9c34d3776cddc41e0d", "1.0.2--h4ac6f70_2": "sha256:21847e08814941818b19fe792d508447a1554f72e9f3e5c1debdd5aaba43fc4e", "1.0.3--h4ac6f70_0": "sha256:b26aab4f7088c444f339e81122635f08ed5dbcdff86a6de82841e5bfd026a3f7", "1.0.3--h9948957_1": "sha256:33954ba5b687f908c1b298abd2532a6345ee561ee771b856f330f5c0fa688266", "1.1.1--ha6fb395_0": "sha256:dad44c370a5191cc212aafbb4807e2f5d4a03e4191d6334ca03d752b17c5bf6e", "1.1.2--hd612981_0": "sha256:2522745f9ab00353096c89e2b24cb9707225e5c491f183318509ebeac1762ea4"}, "docker": "quay.io/biocontainers/fqgrep", "aliases": {"fqgrep": "/usr/local/bin/fqgrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqgrep.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/fqgrep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fqgrep:1.1.1--ha6fb395_0
+$ shpc install quay.io/biocontainers/fqgrep:1.1.2--hd612981_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fqgrep/1.1.1--ha6fb395_0
-$ module help quay.io/biocontainers/fqgrep/1.1.1--ha6fb395_0
+$ module load quay.io/biocontainers/fqgrep/1.1.2--hd612981_0
+$ module help quay.io/biocontainers/fqgrep/1.1.2--hd612981_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

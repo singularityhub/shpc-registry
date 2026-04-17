@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyplink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyplink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyplink/container.yaml"
-updated_at: "2026-04-16 05:04:16.403514"
-latest: "1.3.7--pyh7e72e81_0"
+updated_at: "2026-04-17 05:00:36.363515"
+latest: "1.3.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyplink"
 aliases:
  - "2to3-3.12"
@@ -15,8 +15,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.3.7--pyh7e72e81_0"
+ - "1.3.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pyplink"
-config: {"url": "https://biocontainers.pro/tools/pyplink", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyplink", "latest": {"1.3.7--pyh7e72e81_0": "sha256:6a0d8aa201e3eb0097afbfdbbac9f9502e9fa40ad0f0a48f158eaa124076482a"}, "tags": {"1.3.7--pyh7e72e81_0": "sha256:6a0d8aa201e3eb0097afbfdbbac9f9502e9fa40ad0f0a48f158eaa124076482a"}, "docker": "quay.io/biocontainers/pyplink", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyplink", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyplink", "latest": {"1.3.9--pyhdfd78af_0": "sha256:e34fac3fa6335ea0d6e3ca6948937147e7957de30c1e1c344aa961d91944861a"}, "tags": {"1.3.7--pyh7e72e81_0": "sha256:6a0d8aa201e3eb0097afbfdbbac9f9502e9fa40ad0f0a48f158eaa124076482a", "1.3.9--pyhdfd78af_0": "sha256:e34fac3fa6335ea0d6e3ca6948937147e7957de30c1e1c344aa961d91944861a"}, "docker": "quay.io/biocontainers/pyplink", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyplink.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pyplink
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyplink:1.3.7--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/pyplink:1.3.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyplink/1.3.7--pyh7e72e81_0
-$ module help quay.io/biocontainers/pyplink/1.3.7--pyh7e72e81_0
+$ module load quay.io/biocontainers/pyplink/1.3.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyplink/1.3.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

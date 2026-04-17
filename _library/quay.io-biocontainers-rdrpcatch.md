@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdrpcatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdrpcatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdrpcatch/container.yaml"
-updated_at: "2026-04-16 04:58:47.692131"
+updated_at: "2026-04-17 04:55:58.591912"
 latest: "0.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rdrpcatch"
 aliases:

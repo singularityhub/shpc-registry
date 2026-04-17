@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/lotus3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lotus3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lotus3/container.yaml"
-updated_at: "2026-04-16 05:38:55.468440"
-latest: "3.03--hdfd78af_1"
+updated_at: "2026-04-17 05:28:21.779319"
+latest: "3.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lotus3"
 aliases:
  - "ITSx"
@@ -49,8 +49,9 @@ aliases:
  - "cd-hit-div"
 versions:
  - "3.03--hdfd78af_1"
+ - "3.10--hdfd78af_0"
 description: "singularity registry hpc automated addition for lotus3"
-config: {"url": "https://biocontainers.pro/tools/lotus3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lotus3", "latest": {"3.03--hdfd78af_1": "sha256:75f2f47dc379e4d2e5b730925e9bbcb9b038324e91f83c7aa1300253a8d60c9b"}, "tags": {"3.03--hdfd78af_1": "sha256:75f2f47dc379e4d2e5b730925e9bbcb9b038324e91f83c7aa1300253a8d60c9b"}, "docker": "quay.io/biocontainers/lotus3", "aliases": {"ITSx": "/usr/local/bin/ITSx", "LCA": "/usr/local/bin/LCA", "amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "lambda3": "/usr/local/bin/lambda3", "lotus3": "/usr/local/bin/lotus3", "rdp_classifier": "/usr/local/bin/rdp_classifier", "rtk": "/usr/local/bin/rtk", "sdm": "/usr/local/bin/sdm", "swarm": "/usr/local/bin/swarm", "usearch": "/usr/local/bin/usearch", "zipcloak": "/usr/local/bin/zipcloak", "zipnote": "/usr/local/bin/zipnote", "zipsplit": "/usr/local/bin/zipsplit", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "zip": "/usr/local/bin/zip", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "iqtree2": "/usr/local/bin/iqtree2", "unzip": "/usr/local/bin/unzip", "vsearch": "/usr/local/bin/vsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "clustalo": "/usr/local/bin/clustalo", "iqtree": "/usr/local/bin/iqtree", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "FET.pl": "/usr/local/bin/FET.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div"}}
+config: {"url": "https://biocontainers.pro/tools/lotus3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for lotus3", "latest": {"3.10--hdfd78af_0": "sha256:3a0f96b2eae30724438bb9916141209905119f1089d40f6d2a84a7854fda14a3"}, "tags": {"3.03--hdfd78af_1": "sha256:75f2f47dc379e4d2e5b730925e9bbcb9b038324e91f83c7aa1300253a8d60c9b", "3.10--hdfd78af_0": "sha256:3a0f96b2eae30724438bb9916141209905119f1089d40f6d2a84a7854fda14a3"}, "docker": "quay.io/biocontainers/lotus3", "aliases": {"ITSx": "/usr/local/bin/ITSx", "LCA": "/usr/local/bin/LCA", "amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "lambda3": "/usr/local/bin/lambda3", "lotus3": "/usr/local/bin/lotus3", "rdp_classifier": "/usr/local/bin/rdp_classifier", "rtk": "/usr/local/bin/rtk", "sdm": "/usr/local/bin/sdm", "swarm": "/usr/local/bin/swarm", "usearch": "/usr/local/bin/usearch", "zipcloak": "/usr/local/bin/zipcloak", "zipnote": "/usr/local/bin/zipnote", "zipsplit": "/usr/local/bin/zipsplit", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "zip": "/usr/local/bin/zip", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "iqtree2": "/usr/local/bin/iqtree2", "unzip": "/usr/local/bin/unzip", "vsearch": "/usr/local/bin/vsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "clustalo": "/usr/local/bin/clustalo", "iqtree": "/usr/local/bin/iqtree", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "FET.pl": "/usr/local/bin/FET.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lotus3.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/lotus3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lotus3:3.03--hdfd78af_1
+$ shpc install quay.io/biocontainers/lotus3:3.10--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lotus3/3.03--hdfd78af_1
-$ module help quay.io/biocontainers/lotus3/3.03--hdfd78af_1
+$ module load quay.io/biocontainers/lotus3/3.10--hdfd78af_0
+$ module help quay.io/biocontainers/lotus3/3.10--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasmidhawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidhawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidhawk/container.yaml"
-updated_at: "2026-04-16 04:54:21.561093"
+updated_at: "2026-04-17 04:52:05.311988"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasmidhawk"
 aliases:

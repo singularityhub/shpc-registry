@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/orfm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orfm/container.yaml"
-updated_at: "2026-04-16 05:38:00.392002"
-latest: "1.4.0--h577a1d6_0"
+updated_at: "2026-04-17 05:27:38.016167"
+latest: "2.1.1--h54198d6_1"
 container_url: "https://biocontainers.pro/tools/orfm"
 aliases:
  - "orfm"
 versions:
  - "1.3--hed695b0_0"
  - "1.4.0--h577a1d6_0"
+ - "2.1.1--h54198d6_1"
+ - "2.0.2--h4349ce8_0"
 description: "shpc-registry automated BioContainers addition for orfm"
-config: {"url": "https://biocontainers.pro/tools/orfm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orfm", "latest": {"1.4.0--h577a1d6_0": "sha256:713cae6b8335f816acbed1df532f85d083de9aba4bacb4888537735dc36846bf"}, "tags": {"1.3--hed695b0_0": "sha256:17657fd85d06a2710df0d969e29b8e0f3185c08825cb249fff7fb9a2976c8301", "1.4.0--h577a1d6_0": "sha256:713cae6b8335f816acbed1df532f85d083de9aba4bacb4888537735dc36846bf"}, "docker": "quay.io/biocontainers/orfm", "aliases": {"orfm": "/usr/local/bin/orfm"}}
+config: {"url": "https://biocontainers.pro/tools/orfm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orfm", "latest": {"2.1.1--h54198d6_1": "sha256:b706d1feb7437ade2520054e0a8cb8ad8cea340e478f33ec943166a2569a5cc0"}, "tags": {"1.3--hed695b0_0": "sha256:17657fd85d06a2710df0d969e29b8e0f3185c08825cb249fff7fb9a2976c8301", "1.4.0--h577a1d6_0": "sha256:713cae6b8335f816acbed1df532f85d083de9aba4bacb4888537735dc36846bf", "2.1.1--h54198d6_1": "sha256:b706d1feb7437ade2520054e0a8cb8ad8cea340e478f33ec943166a2569a5cc0", "2.0.2--h4349ce8_0": "sha256:13d7458fe298f307b3dfd41b901e4ae2ea3f378367930e189671a22cea575d35"}, "docker": "quay.io/biocontainers/orfm", "aliases": {"orfm": "/usr/local/bin/orfm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orfm.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/orfm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orfm:1.4.0--h577a1d6_0
+$ shpc install quay.io/biocontainers/orfm:2.1.1--h54198d6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orfm/1.4.0--h577a1d6_0
-$ module help quay.io/biocontainers/orfm/1.4.0--h577a1d6_0
+$ module load quay.io/biocontainers/orfm/2.1.1--h54198d6_1
+$ module help quay.io/biocontainers/orfm/2.1.1--h54198d6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

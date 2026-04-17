@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ezfastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezfastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezfastq/container.yaml"
-updated_at: "2026-04-16 05:48:04.321060"
-latest: "0.2--pyhdfd78af_0"
+updated_at: "2026-04-17 05:35:43.200683"
+latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezfastq"
 aliases:
  - "ezfastq"
@@ -20,8 +20,9 @@ versions:
  - "0.1.2--pyhdfd78af_0"
  - "0.2--pyhdfd78af_0"
  - "0.1.3--pyhdfd78af_0"
+ - "0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ezfastq"
-config: {"url": "https://biocontainers.pro/tools/ezfastq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ezfastq", "latest": {"0.2--pyhdfd78af_0": "sha256:3171e327b516f1bb52b5ec2a2c18891fc54bcca9d12e8be3765073159e4c7bde"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:3ba12b080c19b74ad1cd2f410fa7a0a0e6a806836ab85261fbd69804dd146b01", "0.1.2--pyhdfd78af_0": "sha256:5369beac80b15cd9466ac487bc62460011b8365f2e10c801d31b94bc165d6086", "0.2--pyhdfd78af_0": "sha256:3171e327b516f1bb52b5ec2a2c18891fc54bcca9d12e8be3765073159e4c7bde", "0.1.3--pyhdfd78af_0": "sha256:ff5c189637706b60f29a2ea524205b88f49e2603cec63e5abca2e5b0a453256d"}, "docker": "quay.io/biocontainers/ezfastq", "aliases": {"ezfastq": "/usr/local/bin/ezfastq", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/ezfastq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ezfastq", "latest": {"0.3--pyhdfd78af_0": "sha256:8bcddbca27bf99b37a676050f735f96ee662754a6221f2385f33f19b2fb466e6"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:3ba12b080c19b74ad1cd2f410fa7a0a0e6a806836ab85261fbd69804dd146b01", "0.1.2--pyhdfd78af_0": "sha256:5369beac80b15cd9466ac487bc62460011b8365f2e10c801d31b94bc165d6086", "0.2--pyhdfd78af_0": "sha256:3171e327b516f1bb52b5ec2a2c18891fc54bcca9d12e8be3765073159e4c7bde", "0.1.3--pyhdfd78af_0": "sha256:ff5c189637706b60f29a2ea524205b88f49e2603cec63e5abca2e5b0a453256d", "0.3--pyhdfd78af_0": "sha256:8bcddbca27bf99b37a676050f735f96ee662754a6221f2385f33f19b2fb466e6"}, "docker": "quay.io/biocontainers/ezfastq", "aliases": {"ezfastq": "/usr/local/bin/ezfastq", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ezfastq.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/ezfastq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ezfastq:0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ezfastq:0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ezfastq/0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/ezfastq/0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/ezfastq/0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/ezfastq/0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
