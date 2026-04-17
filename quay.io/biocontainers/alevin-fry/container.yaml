@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/alevin-fry
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for alevin-fry
 latest:
-  0.11.2--ha6fb395_0: 
-    sha256:97765064db918acd0d00ceaf77f7be8792fcf375acfa348102bea91df25a867c
+  0.14.0--hd612981_0: 
+    sha256:293272ec7c17e6e42ecd14ad23a9a31335fb30aaa65e44df505ac55db73933b3
 tags:
   0.8.0--h9f5acd7_0: 
     sha256:9b09ad00fde35fc0a19768c5ba82bc6bf5cbe83afa719eb57654927bc67283cb
@@ -25,6 +25,12 @@ tags:
     sha256:b0a94f0342f1be6feb051ea7222936eb58d6cdb914dca58e1d64cb43e8a343c8
   0.11.2--ha6fb395_0: 
     sha256:97765064db918acd0d00ceaf77f7be8792fcf375acfa348102bea91df25a867c
+  0.14.0--hd612981_0: 
+    sha256:293272ec7c17e6e42ecd14ad23a9a31335fb30aaa65e44df505ac55db73933b3
+  0.13.0--hd612981_0: 
+    sha256:9678be996fc3bf805449dc82c6665889e15b314769585872953a525278977d85
+  0.12.0--hd612981_0: 
+    sha256:e052b726c763513593e9e17602e1670f50f9d16641bd1494608f5c5032c01d5a
 docker: quay.io/biocontainers/alevin-fry
 aliases:
   alevin-fry: /usr/local/bin/alevin-fry

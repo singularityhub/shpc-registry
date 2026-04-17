@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/lotus3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lotus3
 latest:
-  3.03--hdfd78af_1: 
-    sha256:75f2f47dc379e4d2e5b730925e9bbcb9b038324e91f83c7aa1300253a8d60c9b
+  3.10--hdfd78af_0: 
+    sha256:3a0f96b2eae30724438bb9916141209905119f1089d40f6d2a84a7854fda14a3
 tags:
   3.03--hdfd78af_1: 
     sha256:75f2f47dc379e4d2e5b730925e9bbcb9b038324e91f83c7aa1300253a8d60c9b
+  3.10--hdfd78af_0: 
+    sha256:3a0f96b2eae30724438bb9916141209905119f1089d40f6d2a84a7854fda14a3
 docker: quay.io/biocontainers/lotus3
 aliases:
   ITSx: /usr/local/bin/ITSx
