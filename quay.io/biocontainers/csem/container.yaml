@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/csem
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for csem
+latest:
+  2.4--h47932c3_0: 
+    sha256:99d1f09da122beeb76bd0dd4dbd2931f460b030bae039b1eeb3f66f7a49fce95
+tags:
+  2.4--h47932c3_0: 
+    sha256:99d1f09da122beeb76bd0dd4dbd2931f460b030bae039b1eeb3f66f7a49fce95
+docker: quay.io/biocontainers/csem
+aliases:
+  csem: /usr/local/bin/csem
+  csem-bam-processor: /usr/local/bin/csem-bam-processor
+  csem-bam2wig: /usr/local/bin/csem-bam2wig
+  csem-generate-input: /usr/local/bin/csem-generate-input
+  run-csem: /usr/local/bin/run-csem

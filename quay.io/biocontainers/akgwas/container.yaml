@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/akgwas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for akgwas
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:59ade624fc56ca6b9ebd6271d6fb03f67be210c4be9ff4ee4fbf88bef138e9af
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:59ade624fc56ca6b9ebd6271d6fb03f67be210c4be9ff4ee4fbf88bef138e9af
+docker: quay.io/biocontainers/akgwas
+aliases:
+  akgwas: /usr/local/bin/akgwas
+  gemma: /usr/local/bin/gemma
+  kmtricks: /usr/local/bin/kmtricks
+  plink: /usr/local/bin/plink
+  rush: /usr/local/bin/rush
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  ref-cache: /usr/local/bin/ref-cache
+  yte: /usr/local/bin/yte
+  parsort: /usr/local/bin/parsort
+  env_parallel: /usr/local/bin/env_parallel
+  env_parallel.ash: /usr/local/bin/env_parallel.ash
+  env_parallel.bash: /usr/local/bin/env_parallel.bash
+  env_parallel.csh: /usr/local/bin/env_parallel.csh
+  env_parallel.dash: /usr/local/bin/env_parallel.dash
+  env_parallel.fish: /usr/local/bin/env_parallel.fish
+  env_parallel.ksh: /usr/local/bin/env_parallel.ksh
+  env_parallel.mksh: /usr/local/bin/env_parallel.mksh
+  env_parallel.pdksh: /usr/local/bin/env_parallel.pdksh
+  env_parallel.sh: /usr/local/bin/env_parallel.sh
+  env_parallel.tcsh: /usr/local/bin/env_parallel.tcsh
+  env_parallel.zsh: /usr/local/bin/env_parallel.zsh

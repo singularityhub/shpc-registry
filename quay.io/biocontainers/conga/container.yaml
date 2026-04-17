@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/conga
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for conga
+latest:
+  1.1--h3050eb1_0: 
+    sha256:a7798ffdffecf28a77600bef57465626694068f4fafd141cbae08e7dd6967ed3
+tags:
+  1.1--h3050eb1_0: 
+    sha256:a7798ffdffecf28a77600bef57465626694068f4fafd141cbae08e7dd6967ed3
+docker: quay.io/biocontainers/conga
+aliases:
+  conga: /usr/local/bin/conga
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

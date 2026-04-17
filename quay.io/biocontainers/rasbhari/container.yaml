@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/rasbhari
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rasbhari
+latest:
+  1.4.0--hd63eeec_0: 
+    sha256:964779d61b9329ceb492d0ecf29eb15571bddb53537f1894f86d655059040a0c
+tags:
+  1.4.0--hd63eeec_0: 
+    sha256:964779d61b9329ceb492d0ecf29eb15571bddb53537f1894f86d655059040a0c
+docker: quay.io/biocontainers/rasbhari
+aliases:
+  rasbhari: /usr/local/bin/rasbhari
