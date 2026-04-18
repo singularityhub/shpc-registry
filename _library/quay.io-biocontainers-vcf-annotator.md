@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcf-annotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf-annotator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf-annotator/container.yaml"
-updated_at: "2026-04-17 04:52:08.893597"
-latest: "0.7--hdfd78af_0"
+updated_at: "2026-04-18 04:35:15.533858"
+latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf-annotator"
 aliases:
  - "vcf-annotator"
@@ -20,8 +20,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.7--hdfd78af_0"
+ - "1.0.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vcf-annotator"
-config: {"url": "https://biocontainers.pro/tools/vcf-annotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcf-annotator", "latest": {"0.7--hdfd78af_0": "sha256:a2d674755a92416ac329972535efd9974eb120e6017cf033b249b5df1be27c28"}, "tags": {"0.7--hdfd78af_0": "sha256:a2d674755a92416ac329972535efd9974eb120e6017cf033b249b5df1be27c28"}, "docker": "quay.io/biocontainers/vcf-annotator", "aliases": {"vcf-annotator": "/usr/local/bin/vcf-annotator", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/vcf-annotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcf-annotator", "latest": {"1.0.0--hdfd78af_0": "sha256:5ecd752ebad367722c5f859eff097f5dfd22a22721438301d563ec35083141e7"}, "tags": {"0.7--hdfd78af_0": "sha256:a2d674755a92416ac329972535efd9974eb120e6017cf033b249b5df1be27c28", "1.0.0--hdfd78af_0": "sha256:5ecd752ebad367722c5f859eff097f5dfd22a22721438301d563ec35083141e7"}, "docker": "quay.io/biocontainers/vcf-annotator", "aliases": {"vcf-annotator": "/usr/local/bin/vcf-annotator", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf-annotator.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/vcf-annotator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf-annotator:0.7--hdfd78af_0
+$ shpc install quay.io/biocontainers/vcf-annotator:1.0.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf-annotator/0.7--hdfd78af_0
-$ module help quay.io/biocontainers/vcf-annotator/0.7--hdfd78af_0
+$ module load quay.io/biocontainers/vcf-annotator/1.0.0--hdfd78af_0
+$ module help quay.io/biocontainers/vcf-annotator/1.0.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

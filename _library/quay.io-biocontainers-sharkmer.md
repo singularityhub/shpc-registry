@@ -4,16 +4,19 @@ name:  "quay.io/biocontainers/sharkmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sharkmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sharkmer/container.yaml"
-updated_at: "2026-04-17 05:28:38.096109"
-latest: "1.0.1--h4349ce8_1"
+updated_at: "2026-04-18 05:22:34.165396"
+latest: "3.1.0--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/sharkmer"
 aliases:
  - "sharkmer"
 versions:
  - "1.0.1--h4349ce8_0"
  - "1.0.1--h4349ce8_1"
+ - "3.1.0--h54198d6_0"
+ - "3.0.0--h54198d6_0"
+ - "2.0.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for sharkmer"
-config: {"url": "https://biocontainers.pro/tools/sharkmer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sharkmer", "latest": {"1.0.1--h4349ce8_1": "sha256:744b4570fe61fc18393e8f82cd7383cec63149a80477647f2087f464baf752b2"}, "tags": {"1.0.1--h4349ce8_0": "sha256:1e969bb0e62b66dcf71b97db150e8b4f03511d25f9c63ae854ae219eafb67b40", "1.0.1--h4349ce8_1": "sha256:744b4570fe61fc18393e8f82cd7383cec63149a80477647f2087f464baf752b2"}, "docker": "quay.io/biocontainers/sharkmer", "aliases": {"sharkmer": "/usr/local/bin/sharkmer"}}
+config: {"url": "https://biocontainers.pro/tools/sharkmer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sharkmer", "latest": {"3.1.0--h54198d6_0": "sha256:ef9ccb7f8ee05e51aba19c9094b32bc47fe1c41b511ed350274417f5eba83cee"}, "tags": {"1.0.1--h4349ce8_0": "sha256:1e969bb0e62b66dcf71b97db150e8b4f03511d25f9c63ae854ae219eafb67b40", "1.0.1--h4349ce8_1": "sha256:744b4570fe61fc18393e8f82cd7383cec63149a80477647f2087f464baf752b2", "3.1.0--h54198d6_0": "sha256:ef9ccb7f8ee05e51aba19c9094b32bc47fe1c41b511ed350274417f5eba83cee", "3.0.0--h54198d6_0": "sha256:3928e8cccee4c1699a2b2f9291ff5746c5ce5aed1859b8d1b3a2fab6813deb4a", "2.0.0--h4349ce8_0": "sha256:82b415460019c33d467140502a4cf8cb2bf76d97c6afa0ea63115ffbfdd08171"}, "docker": "quay.io/biocontainers/sharkmer", "aliases": {"sharkmer": "/usr/local/bin/sharkmer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sharkmer.
@@ -28,7 +31,7 @@ $ shpc install quay.io/biocontainers/sharkmer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sharkmer:1.0.1--h4349ce8_1
+$ shpc install quay.io/biocontainers/sharkmer:3.1.0--h54198d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sharkmer/1.0.1--h4349ce8_1
-$ module help quay.io/biocontainers/sharkmer/1.0.1--h4349ce8_1
+$ module load quay.io/biocontainers/sharkmer/3.1.0--h54198d6_0
+$ module help quay.io/biocontainers/sharkmer/3.1.0--h54198d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

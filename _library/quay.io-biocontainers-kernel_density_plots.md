@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kernel_density_plots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kernel_density_plots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kernel_density_plots/container.yaml"
-updated_at: "2026-04-17 04:56:57.558795"
+updated_at: "2026-04-18 04:41:13.414972"
 latest: "0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kernel_density_plots"
 aliases:
