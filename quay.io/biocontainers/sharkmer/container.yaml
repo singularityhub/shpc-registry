@@ -2,13 +2,19 @@ url: https://biocontainers.pro/tools/sharkmer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sharkmer
 latest:
-  1.0.1--h4349ce8_1: 
-    sha256:744b4570fe61fc18393e8f82cd7383cec63149a80477647f2087f464baf752b2
+  3.1.0--h54198d6_0: 
+    sha256:ef9ccb7f8ee05e51aba19c9094b32bc47fe1c41b511ed350274417f5eba83cee
 tags:
   1.0.1--h4349ce8_0: 
     sha256:1e969bb0e62b66dcf71b97db150e8b4f03511d25f9c63ae854ae219eafb67b40
   1.0.1--h4349ce8_1: 
     sha256:744b4570fe61fc18393e8f82cd7383cec63149a80477647f2087f464baf752b2
+  3.1.0--h54198d6_0: 
+    sha256:ef9ccb7f8ee05e51aba19c9094b32bc47fe1c41b511ed350274417f5eba83cee
+  3.0.0--h54198d6_0: 
+    sha256:3928e8cccee4c1699a2b2f9291ff5746c5ce5aed1859b8d1b3a2fab6813deb4a
+  2.0.0--h4349ce8_0: 
+    sha256:82b415460019c33d467140502a4cf8cb2bf76d97c6afa0ea63115ffbfdd08171
 docker: quay.io/biocontainers/sharkmer
 aliases:
   sharkmer: /usr/local/bin/sharkmer

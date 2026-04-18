@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/cnmf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cnmf
 latest:
-  1.7.0--pyhdfd78af_0: 
-    sha256:438926c30c159dd3a835104129d7ed31d8920d4d3648216eeb6276fdeaba5f9b
+  1.7.1--pyhdfd78af_0: 
+    sha256:1c43120e4160c1a16ceb47846ad7433ed1266ed9bfbafbdabb4fc896d4f6c419
 tags:
   1.6.0--pyhdfd78af_0: 
     sha256:8b4cb3c168233d4078a4800f7602118d7abbe86085b6e04f231bd84e253704ff
   1.7.0--pyhdfd78af_0: 
     sha256:438926c30c159dd3a835104129d7ed31d8920d4d3648216eeb6276fdeaba5f9b
+  1.7.1--pyhdfd78af_0: 
+    sha256:1c43120e4160c1a16ceb47846ad7433ed1266ed9bfbafbdabb4fc896d4f6c419
 docker: quay.io/biocontainers/cnmf
 aliases:
   cnmf: /usr/local/bin/cnmf

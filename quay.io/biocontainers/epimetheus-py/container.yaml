@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/epimetheus-py
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for epimetheus-py
 latest:
-  0.7.7--py39hfa26904_0: 
-    sha256:8a0e2d4c95410cf8057db3d5b98bf3ed6dfd16f74f1e900d50c48b0713941326
+  0.7.9--py310hcf6047f_0: 
+    sha256:ffa85e486a9ffc68284bca4ff6e25644fa35367305770dcc1738b72a2a06bb4b
 tags:
   0.6.2--py310hc7d9715_0: 
     sha256:d764d4b0e97fcc46f05af10b33bbe039416119bc3047d741e20c7806115ab918
@@ -13,6 +13,8 @@ tags:
     sha256:024cdd6cc84b4ead3905f6aaf81da65c89eb78d4a5bf144582bb93807516f6a4
   0.7.7--py39hfa26904_0: 
     sha256:8a0e2d4c95410cf8057db3d5b98bf3ed6dfd16f74f1e900d50c48b0713941326
+  0.7.9--py310hcf6047f_0: 
+    sha256:ffa85e486a9ffc68284bca4ff6e25644fa35367305770dcc1738b72a2a06bb4b
 docker: quay.io/biocontainers/epimetheus-py
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10
