@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gxformat2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gxformat2
 latest:
-  0.22.0--pyhdfd78af_0: 
-    sha256:04e6ec4fd54191ed42c5d244a38b926a066547d020117e241c2307a41ac85f84
+  0.24.0--pyhdfd78af_0: 
+    sha256:bd538542448c21d2e3bed6f5081223841be88c37988665bfbf3be2bb5f69c27f
 tags:
   0.9.0--py_0: 
     sha256:c25c10522db22ba9f35924da069ac51c82b7f4f39da058056802ce7b1908065a
@@ -29,6 +29,8 @@ tags:
     sha256:4822e8c11280544b4454bf56f81e37dc2f65756f768d6cf1ce034d9b6a52ac36
   0.22.0--pyhdfd78af_0: 
     sha256:04e6ec4fd54191ed42c5d244a38b926a066547d020117e241c2307a41ac85f84
+  0.24.0--pyhdfd78af_0: 
+    sha256:bd538542448c21d2e3bed6f5081223841be88c37988665bfbf3be2bb5f69c27f
 docker: quay.io/biocontainers/gxformat2
 aliases:
   bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/andi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for andi
 latest:
-  0.14--hfc2f157_2: 
-    sha256:9770a8ea2ab0fb587345d161ea34f5c7ff99367f576d33c0db7e2ef7488b2f22
+  1.15--h900cec7_0: 
+    sha256:d1a81b50bf5f406c94ce0ab498a7e3287bc2fc3306b7f8a488a2188f0f1bb575
 tags:
   0.13--hcde4609_3: 
     sha256:281f7f10cd6af2eaa5055d61e95597085273a8c8952b94fc04e2d59c9d26d428
@@ -15,6 +15,8 @@ tags:
     sha256:b726cc7b9f9fa82aa1639f2fb7ac9eabda328a64966e7589ad6111546077fba2
   0.14--hfc2f157_2: 
     sha256:9770a8ea2ab0fb587345d161ea34f5c7ff99367f576d33c0db7e2ef7488b2f22
+  1.15--h900cec7_0: 
+    sha256:d1a81b50bf5f406c94ce0ab498a7e3287bc2fc3306b7f8a488a2188f0f1bb575
 docker: quay.io/biocontainers/andi
 aliases:
   andi: /usr/local/bin/andi

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/iqtree
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for iqtree
 latest:
-  3.0.1--h503566f_0: 
-    sha256:dd908f771427f17e2a92d2e6894e36036e38ebc62454695b03ee7759cb829eed
+  3.1.1--hde5307d_1: 
+    sha256:1ae5767c40216b4efaa987a13c2ce41135ea3682dd7d5726abf89cfb60363022
 tags:
   2.2.0_beta--hb97b32f_1: 
     sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3
@@ -37,6 +37,8 @@ tags:
     sha256:604552032e25a7a8d30c8d2f6cbc72b576f2f8159b4d5a0bc17c28dfd9e55511
   3.0.1--h503566f_0: 
     sha256:dd908f771427f17e2a92d2e6894e36036e38ebc62454695b03ee7759cb829eed
+  3.1.1--hde5307d_1: 
+    sha256:1ae5767c40216b4efaa987a13c2ce41135ea3682dd7d5726abf89cfb60363022
 docker: quay.io/biocontainers/iqtree
 aliases:
   iqtree: /usr/local/bin/iqtree
