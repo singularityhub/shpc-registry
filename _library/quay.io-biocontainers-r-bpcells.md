@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bpcells"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bpcells/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bpcells/container.yaml"
-updated_at: "2026-04-18 05:32:14.986141"
+updated_at: "2026-04-18 05:48:13.879691"
 latest: "0.3.1--r44h89edbeb_0"
 container_url: "https://biocontainers.pro/tools/r-bpcells"
 aliases:

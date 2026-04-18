@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mojo-sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mojo-sqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mojo-sqlite/container.yaml"
-updated_at: "2026-04-18 04:35:56.854884"
+updated_at: "2026-04-18 04:49:45.393008"
 latest: "3.009--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mojo-sqlite"
 aliases:

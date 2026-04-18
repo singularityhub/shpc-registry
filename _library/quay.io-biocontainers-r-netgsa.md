@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-netgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-netgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-netgsa/container.yaml"
-updated_at: "2026-04-18 05:09:20.399319"
+updated_at: "2026-04-18 05:23:23.946197"
 latest: "4.0.7--r45h0df16ae_0"
 container_url: "https://biocontainers.pro/tools/r-netgsa"
 aliases:
