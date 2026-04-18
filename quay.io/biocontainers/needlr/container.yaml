@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/needlr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for needlr
+latest:
+  4.0--hdfd78af_0: 
+    sha256:6fe9aa65fcaf372559fbf966f943c84f871daf54b4357f2feccbdca0405d3cb0
+tags:
+  4.0--hdfd78af_0: 
+    sha256:6fe9aa65fcaf372559fbf966f943c84f871daf54b4357f2feccbdca0405d3cb0
+docker: quay.io/biocontainers/needlr
+aliases:
+  bwamempy: /usr/local/bin/bwamempy
+  needLR: /usr/local/bin/needLR
+  truvari: /usr/local/bin/truvari
+  gff2gff: /usr/local/bin/gff2gff
+  roh-viz: /usr/local/bin/roh-viz
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  gawk-5.3.1: /usr/local/bin/gawk-5.3.1
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  gawkbug: /usr/local/bin/gawkbug
+  ref-cache: /usr/local/bin/ref-cache
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date

@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/motif-bridge
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for motif-bridge
+latest:
+  0.1.0--hab7d0fd_0: 
+    sha256:edb9d5228e6ec7d26f929d93df8ddfdea506957241317b436bbfc41af28291b4
+tags:
+  0.1.0--hab7d0fd_0: 
+    sha256:edb9d5228e6ec7d26f929d93df8ddfdea506957241317b436bbfc41af28291b4
+docker: quay.io/biocontainers/motif-bridge
+aliases:
+  homer2meme: /usr/local/bin/homer2meme
+  meme2homer: /usr/local/bin/meme2homer

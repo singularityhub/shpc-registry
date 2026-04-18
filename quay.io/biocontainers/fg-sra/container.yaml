@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fg-sra
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fg-sra
+latest:
+  0.1.0--hdaf81d9_0: 
+    sha256:bc02a2ff35f1c9fa7c30be4130c7942d9b93434e7717fc207fc8aa4eaaaac9ec
+tags:
+  0.1.0--hdaf81d9_0: 
+    sha256:bc02a2ff35f1c9fa7c30be4130c7942d9b93434e7717fc207fc8aa4eaaaac9ec
+docker: quay.io/biocontainers/fg-sra
+aliases:
+  fg-sra: /usr/local/bin/fg-sra

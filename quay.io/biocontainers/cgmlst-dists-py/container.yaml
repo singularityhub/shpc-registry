@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/cgmlst-dists-py
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cgmlst-dists-py
+latest:
+  0.1.3--hdfd78af_0: 
+    sha256:955cf19c58e5fe2862c0eeee13ad85b40bf2d95f036eb7dffbf8c65925154621
+tags:
+  0.1.3--hdfd78af_0: 
+    sha256:955cf19c58e5fe2862c0eeee13ad85b40bf2d95f036eb7dffbf8c65925154621
+docker: quay.io/biocontainers/cgmlst-dists-py
+aliases:
+  cgmlst-dists: /usr/local/bin/cgmlst-dists
+  cgmlst-dists.py: /usr/local/bin/cgmlst-dists.py
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numba: /usr/local/bin/numba
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm

@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/stemsage
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for stemsage
+latest:
+  0.8.8--pyhdfd78af_0: 
+    sha256:a63050237a792507731c911e83bad97822369cbb4d4e3ba64e3a64d907422341
+tags:
+  0.8.8--pyhdfd78af_0: 
+    sha256:a63050237a792507731c911e83bad97822369cbb4d4e3ba64e3a64d907422341
+docker: quay.io/biocontainers/stemsage
+aliases:
+  cairosvg: /usr/local/bin/cairosvg
+  hatch: /usr/local/bin/hatch
+  hatchling: /usr/local/bin/hatchling
+  stemsage: /usr/local/bin/stemsage
+  trove-classifiers: /usr/local/bin/trove-classifiers
+  userpath: /usr/local/bin/userpath
+  uv: /usr/local/bin/uv
+  uvx: /usr/local/bin/uvx
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  keyring: /usr/local/bin/keyring
+  virtualenv: /usr/local/bin/virtualenv
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  RNAmultifold: /usr/local/bin/RNAmultifold
+  httpx: /usr/local/bin/httpx
+  RNAdos: /usr/local/bin/RNAdos
+  AnalyseDists: /usr/local/bin/AnalyseDists
+  AnalyseSeqs: /usr/local/bin/AnalyseSeqs
+  RNAlocmin: /usr/local/bin/RNAlocmin
+  RNApvmin: /usr/local/bin/RNApvmin
+  b2ct: /usr/local/bin/b2ct
+  ct2db: /usr/local/bin/ct2db
+  kinwalker: /usr/local/bin/kinwalker
+  popt: /usr/local/bin/popt
+  RNA2Dfold: /usr/local/bin/RNA2Dfold
+  RNALalifold: /usr/local/bin/RNALalifold
+  RNAPKplex: /usr/local/bin/RNAPKplex
+  RNAparconv: /usr/local/bin/RNAparconv
+  RNAplex: /usr/local/bin/RNAplex
+  RNAsnoop: /usr/local/bin/RNAsnoop
+  RNAfold: /usr/local/bin/RNAfold
+  Kinfold: /usr/local/bin/Kinfold
+  RNALfold: /usr/local/bin/RNALfold

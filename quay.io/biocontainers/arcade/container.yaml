@@ -1,0 +1,27 @@
+url: https://biocontainers.pro/tools/arcade
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for arcade
+latest:
+  1.0.17--hf426362_0: 
+    sha256:3820553c26498b97a4c817a93a3374dcfc7147443ae230bbc3472e1ebcd03289
+tags:
+  1.0.17--hf426362_0: 
+    sha256:3820553c26498b97a4c817a93a3374dcfc7147443ae230bbc3472e1ebcd03289
+docker: quay.io/biocontainers/arcade
+aliases:
+  arcade: /usr/local/bin/arcade
+  call_chets: /usr/local/bin/call_chets
+  count_by_gene: /usr/local/bin/count_by_gene
+  encode_vcf: /usr/local/bin/encode_vcf
+  filter_pp: /usr/local/bin/filter_pp
+  filter_vcf_by_pp: /usr/local/bin/filter_vcf_by_pp
+  interpret_phase: /usr/local/bin/interpret_phase
+  make_pseudo_vcf: /usr/local/bin/make_pseudo_vcf
+  orthogonalize: /usr/local/bin/orthogonalize
+  recode: /usr/local/bin/recode
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  transform: /usr/local/bin/transform
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

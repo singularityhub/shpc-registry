@@ -1,0 +1,86 @@
+url: https://biocontainers.pro/tools/trackastra-galaxy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for trackastra-galaxy
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:d0d200bdebe4431ac47f88258f15c1fc0cf3d41336d09b612686f203d89859ab
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:d0d200bdebe4431ac47f88258f15c1fc0cf3d41336d09b612686f203d89859ab
+docker: quay.io/biocontainers/trackastra-galaxy
+aliases:
+  android_deploy.py: /usr/local/bin/android_deploy.py
+  cellpose: /usr/local/bin/cellpose
+  deploy.py: /usr/local/bin/deploy.py
+  exr2aces: /usr/local/bin/exr2aces
+  exrenvmap: /usr/local/bin/exrenvmap
+  exrheader: /usr/local/bin/exrheader
+  exrinfo: /usr/local/bin/exrinfo
+  exrmakepreview: /usr/local/bin/exrmakepreview
+  exrmaketiled: /usr/local/bin/exrmaketiled
+  exrmanifest: /usr/local/bin/exrmanifest
+  exrmetrics: /usr/local/bin/exrmetrics
+  exrmultipart: /usr/local/bin/exrmultipart
+  exrmultiview: /usr/local/bin/exrmultiview
+  exrstdattr: /usr/local/bin/exrstdattr
+  fabric: /usr/local/bin/fabric
+  geff: /usr/local/bin/geff
+  glslang: /usr/local/bin/glslang
+  glslangValidator: /usr/local/bin/glslangValidator
+  glslc: /usr/local/bin/glslc
+  ipopt: /usr/local/bin/ipopt
+  ipopt_sens: /usr/local/bin/ipopt_sens
+  kmap2qmap6: /usr/local/bin/kmap2qmap6
+  lcheck6: /usr/local/bin/lcheck6
+  lconvert6: /usr/local/bin/lconvert6
+  lrelease-pro6: /usr/local/bin/lrelease-pro6
+  lrelease6: /usr/local/bin/lrelease6
+  ltext2id6: /usr/local/bin/ltext2id6
+  lupdate-pro6: /usr/local/bin/lupdate-pro6
+  lupdate6: /usr/local/bin/lupdate6
+  metaobjectdump.py: /usr/local/bin/metaobjectdump.py
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  ome_zarr: /usr/local/bin/ome_zarr
+  project.py: /usr/local/bin/project.py
+  pyside6-rcc: /usr/local/bin/pyside6-rcc
+  pyside6-uic: /usr/local/bin/pyside6-uic
+  qml.py: /usr/local/bin/qml.py
+  qtpy2cpp.py: /usr/local/bin/qtpy2cpp.py
+  requirements-android.txt: /usr/local/bin/requirements-android.txt
+  roifile: /usr/local/bin/roifile
+  scip: /usr/local/bin/scip
+  shiboken6: /usr/local/bin/shiboken6
+  shiboken_tool.py: /usr/local/bin/shiboken_tool.py
+  spirv-diff: /usr/local/bin/spirv-diff
+  spral_ssids: /usr/local/bin/spral_ssids
+  trackastra: /usr/local/bin/trackastra
+  trackastra-galaxy: /usr/local/bin/trackastra-galaxy
+  wandb: /usr/local/bin/wandb
+  wasmdeployqt6: /usr/local/bin/wasmdeployqt6
+  wb: /usr/local/bin/wb
+  qtpy: /usr/local/bin/qtpy
+  ffplay: /usr/local/bin/ffplay
+  qdoc6: /usr/local/bin/qdoc6
+  sdl2-config: /usr/local/bin/sdl2-config
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint
+  spirv-objdump: /usr/local/bin/spirv-objdump
+  spirv-opt: /usr/local/bin/spirv-opt
+  spirv-reduce: /usr/local/bin/spirv-reduce
+  spirv-val: /usr/local/bin/spirv-val
+  androiddeployqt6: /usr/local/bin/androiddeployqt6
+  assistant6: /usr/local/bin/assistant6
+  designer6: /usr/local/bin/designer6
+  linguist6: /usr/local/bin/linguist6
+  pixeltool6: /usr/local/bin/pixeltool6
+  qdbus6: /usr/local/bin/qdbus6
+  qdbusviewer6: /usr/local/bin/qdbusviewer6
+  qdistancefieldgenerator6: /usr/local/bin/qdistancefieldgenerator6
+  qmake6: /usr/local/bin/qmake6
+  qml6: /usr/local/bin/qml6
+  qmleasing6: /usr/local/bin/qmleasing6
