@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-easylift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-easylift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-easylift/container.yaml"
-updated_at: "2026-04-18 04:55:13.345510"
+updated_at: "2026-04-19 04:59:37.759488"
 latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-easylift"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepmod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepmod/container.yaml"
-updated_at: "2026-04-18 05:09:33.398834"
+updated_at: "2026-04-19 05:12:36.444899"
 latest: "0.1.3--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/deepmod"
 aliases:

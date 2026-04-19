@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vulcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vulcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vulcan/container.yaml"
-updated_at: "2026-04-18 04:57:26.063733"
+updated_at: "2026-04-19 05:01:45.132698"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vulcan"
 aliases:

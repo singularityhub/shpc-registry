@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taxonomy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxonomy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxonomy/container.yaml"
-updated_at: "2026-04-18 04:56:54.546600"
-latest: "0.10.3--py310h7e03b2b_0"
+updated_at: "2026-04-19 05:01:14.337295"
+latest: "0.10.5--py312h07859c3_0"
 container_url: "https://biocontainers.pro/tools/taxonomy"
 aliases:
  - "2to3-3.9"
@@ -24,8 +24,9 @@ versions:
  - "0.10.1--py312h57079a5_0"
  - "0.10.2--py310h9e6395a_0"
  - "0.10.3--py310h7e03b2b_0"
+ - "0.10.5--py312h07859c3_0"
 description: "shpc-registry automated BioContainers addition for taxonomy"
-config: {"url": "https://biocontainers.pro/tools/taxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxonomy", "latest": {"0.10.3--py310h7e03b2b_0": "sha256:83e22085f100cb4a2d1488f552c7a21e5ee82e9fa0a39b98bad053cd0b725c0f"}, "tags": {"0.9.0--py39hbf8eff0_0": "sha256:df1f9c27aa0e002acd8ed0422170005175424855ae697197f0bde3eb00c9a0c4", "0.10.0--py39hb377b6a_0": "sha256:653bfd162ceb21839a2d2515a3ed6bc5c4eb33357ea3b19256cab5b589c472b0", "0.10.0--py310h4b6de7c_0": "sha256:6e11b08d499cdc4f7a3542010998c581c3cd2ac1211d870f8da6de183e509605", "0.9.0--py310h1425a21_0": "sha256:9d6515a7f248ed8dbdfec69f3baa0554403a41b540bbf5d24f4ab9672263d6ed", "0.10.0--py38h61b5871_1": "sha256:f7fe3ca70d20cf7a4e801b3ba500ca590cd78dc76d06fdce09afd66669c2fc03", "0.10.0--py38h7bf8362_2": "sha256:6797d8c1c754324ec7d5e3fcef58339fbc5f206c4bb64fd9f5a4e5a1b9e86f04", "0.10.0--py312h57079a5_3": "sha256:09eed3c140774f2a797fabed42e250ce87813617db35849f509c2e24bff55df3", "0.10.1--py312h57079a5_0": "sha256:b3980661210b60f3ece3de8fa025ae63094fad4ab046c6b9abe6bd41879e422a", "0.10.2--py310h9e6395a_0": "sha256:14f0b1588eaa3aaebc505c7a5019aa6e52bb8b59b29ce9e08f9472255013c154", "0.10.3--py310h7e03b2b_0": "sha256:83e22085f100cb4a2d1488f552c7a21e5ee82e9fa0a39b98bad053cd0b725c0f"}, "docker": "quay.io/biocontainers/taxonomy", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/taxonomy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxonomy", "latest": {"0.10.5--py312h07859c3_0": "sha256:34f0d3da4c80f0c376c582d2f10e3f68f7330937358069beb9e4460a5f52925e"}, "tags": {"0.9.0--py39hbf8eff0_0": "sha256:df1f9c27aa0e002acd8ed0422170005175424855ae697197f0bde3eb00c9a0c4", "0.10.0--py39hb377b6a_0": "sha256:653bfd162ceb21839a2d2515a3ed6bc5c4eb33357ea3b19256cab5b589c472b0", "0.10.0--py310h4b6de7c_0": "sha256:6e11b08d499cdc4f7a3542010998c581c3cd2ac1211d870f8da6de183e509605", "0.9.0--py310h1425a21_0": "sha256:9d6515a7f248ed8dbdfec69f3baa0554403a41b540bbf5d24f4ab9672263d6ed", "0.10.0--py38h61b5871_1": "sha256:f7fe3ca70d20cf7a4e801b3ba500ca590cd78dc76d06fdce09afd66669c2fc03", "0.10.0--py38h7bf8362_2": "sha256:6797d8c1c754324ec7d5e3fcef58339fbc5f206c4bb64fd9f5a4e5a1b9e86f04", "0.10.0--py312h57079a5_3": "sha256:09eed3c140774f2a797fabed42e250ce87813617db35849f509c2e24bff55df3", "0.10.1--py312h57079a5_0": "sha256:b3980661210b60f3ece3de8fa025ae63094fad4ab046c6b9abe6bd41879e422a", "0.10.2--py310h9e6395a_0": "sha256:14f0b1588eaa3aaebc505c7a5019aa6e52bb8b59b29ce9e08f9472255013c154", "0.10.3--py310h7e03b2b_0": "sha256:83e22085f100cb4a2d1488f552c7a21e5ee82e9fa0a39b98bad053cd0b725c0f", "0.10.5--py312h07859c3_0": "sha256:34f0d3da4c80f0c376c582d2f10e3f68f7330937358069beb9e4460a5f52925e"}, "docker": "quay.io/biocontainers/taxonomy", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxonomy.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/taxonomy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taxonomy:0.10.3--py310h7e03b2b_0
+$ shpc install quay.io/biocontainers/taxonomy:0.10.5--py312h07859c3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taxonomy/0.10.3--py310h7e03b2b_0
-$ module help quay.io/biocontainers/taxonomy/0.10.3--py310h7e03b2b_0
+$ module load quay.io/biocontainers/taxonomy/0.10.5--py312h07859c3_0
+$ module help quay.io/biocontainers/taxonomy/0.10.5--py312h07859c3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xpressplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xpressplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xpressplot/container.yaml"
-updated_at: "2026-04-18 05:24:20.249069"
+updated_at: "2026-04-19 05:25:44.507034"
 latest: "0.2.5--pyh4c3bd37_1"
 container_url: "https://biocontainers.pro/tools/xpressplot"
 aliases:

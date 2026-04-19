@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellbender"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellbender/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellbender/container.yaml"
-updated_at: "2026-04-18 05:30:11.362701"
+updated_at: "2026-04-19 05:30:42.704214"
 latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cellbender"
 aliases:

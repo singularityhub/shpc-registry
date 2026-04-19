@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/is6110"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/is6110/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/is6110/container.yaml"
-updated_at: "2026-04-18 05:32:16.561081"
+updated_at: "2026-04-19 05:32:31.188203"
 latest: "0.5.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/is6110"
 aliases:

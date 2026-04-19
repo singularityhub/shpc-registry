@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-muscat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-muscat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-muscat/container.yaml"
-updated_at: "2026-04-18 05:12:30.907570"
+updated_at: "2026-04-19 05:15:13.108215"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-muscat"
 

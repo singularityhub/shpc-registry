@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellxgenedp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellxgenedp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellxgenedp/container.yaml"
-updated_at: "2026-04-18 05:11:26.504541"
+updated_at: "2026-04-19 05:14:14.856823"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellxgenedp"
 

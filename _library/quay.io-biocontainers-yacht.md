@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yacht"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yacht/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yacht/container.yaml"
-updated_at: "2026-04-18 05:40:30.974319"
+updated_at: "2026-04-19 05:39:41.740617"
 latest: "1.3.2--py311h9948957_0"
 container_url: "https://biocontainers.pro/tools/yacht"
 aliases:

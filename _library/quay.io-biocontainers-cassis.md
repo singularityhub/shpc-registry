@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cassis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cassis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cassis/container.yaml"
-updated_at: "2026-04-18 05:06:27.881108"
+updated_at: "2026-04-19 05:09:55.594015"
 latest: "0.0.20120106--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cassis"
 aliases:

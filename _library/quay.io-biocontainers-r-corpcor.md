@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-corpcor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corpcor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corpcor/container.yaml"
-updated_at: "2026-04-18 05:13:31.472150"
+updated_at: "2026-04-19 05:16:06.347015"
 latest: "1.6.8--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-corpcor"
 aliases:

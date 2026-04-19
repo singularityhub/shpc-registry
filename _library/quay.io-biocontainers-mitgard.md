@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mitgard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitgard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitgard/container.yaml"
-updated_at: "2026-04-18 04:54:17.899711"
+updated_at: "2026-04-19 04:58:45.079494"
 latest: "1.0--py39hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mitgard"
 aliases:

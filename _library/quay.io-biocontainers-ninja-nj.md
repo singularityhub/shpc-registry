@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ninja-nj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ninja-nj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ninja-nj/container.yaml"
-updated_at: "2026-04-18 05:19:37.900218"
+updated_at: "2026-04-19 05:21:34.408214"
 latest: "1.00--h9948957_1"
 container_url: "https://biocontainers.pro/tools/ninja-nj"
 aliases:

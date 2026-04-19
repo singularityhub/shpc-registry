@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgat-report"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-report/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-report/container.yaml"
-updated_at: "2026-04-18 05:21:51.082964"
+updated_at: "2026-04-19 05:23:32.502009"
 latest: "0.9.1--py_0"
 container_url: "https://biocontainers.pro/tools/cgat-report"
 aliases:

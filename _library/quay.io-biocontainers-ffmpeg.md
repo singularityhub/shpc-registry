@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ffmpeg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffmpeg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ffmpeg/container.yaml"
-updated_at: "2026-04-18 04:50:10.584904"
+updated_at: "2026-04-19 04:54:53.618505"
 latest: "7.1.1"
 container_url: "https://biocontainers.pro/tools/ffmpeg"
 aliases:

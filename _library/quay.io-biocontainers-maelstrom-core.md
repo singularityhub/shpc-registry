@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maelstrom-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maelstrom-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maelstrom-core/container.yaml"
-updated_at: "2026-04-18 05:19:20.574827"
+updated_at: "2026-04-19 05:21:19.369980"
 latest: "0.1.1--h9d3141d_2"
 container_url: "https://biocontainers.pro/tools/maelstrom-core"
 aliases:
