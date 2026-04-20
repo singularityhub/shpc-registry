@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bacprune
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bacprune
+latest:
+  0.9.0--h4349ce8_0: 
+    sha256:7983dde92a1f40851e1c110b5dbec5b61e0c60f8ef500f5199a42bb41839b447
+tags:
+  0.9.0--h4349ce8_0: 
+    sha256:7983dde92a1f40851e1c110b5dbec5b61e0c60f8ef500f5199a42bb41839b447
+docker: quay.io/biocontainers/bacprune
+aliases:
+  bacprune: /usr/local/bin/bacprune

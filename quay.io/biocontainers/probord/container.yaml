@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/probord
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for probord
+latest:
+  1.0--pyhdfd78af_1: 
+    sha256:19c96c526f362b75360c05726e5b84511adddb5742f8df1774ca62f07ae89589
+tags:
+  1.0--pyhdfd78af_1: 
+    sha256:19c96c526f362b75360c05726e5b84511adddb5742f8df1774ca62f07ae89589
+docker: quay.io/biocontainers/probord
+aliases:
+  checkv: /usr/local/bin/checkv
+  probord: /usr/local/bin/probord
+  gimme_taxa.py: /usr/local/bin/gimme_taxa.py
+  prodigal-gv: /usr/local/bin/prodigal-gv
+  ncbi-genome-download: /usr/local/bin/ncbi-genome-download
+  ngd: /usr/local/bin/ngd
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  fetch-local: /usr/local/bin/fetch-local
+  fetch-nmcds: /usr/local/bin/fetch-nmcds
+  fetch-pmc: /usr/local/bin/fetch-pmc
+  fetch-taxonomy: /usr/local/bin/fetch-taxonomy
+  stream-local: /usr/local/bin/stream-local
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  shmemrun: /usr/local/bin/shmemrun
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc
+  archive-taxonomy: /usr/local/bin/archive-taxonomy
+  args2slice: /usr/local/bin/args2slice
+  asn2ref: /usr/local/bin/asn2ref
+  blst2gm: /usr/local/bin/blst2gm
+  cit2pmid: /usr/local/bin/cit2pmid
+  combine-uid-lists: /usr/local/bin/combine-uid-lists

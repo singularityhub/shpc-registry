@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/haplophaser
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for haplophaser
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:6ac9e135da73daedfd2c0393a1aee53818bc243e008539666b120cf7631b4743
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:6ac9e135da73daedfd2c0393a1aee53818bc243e008539666b120cf7631b4743
+docker: quay.io/biocontainers/haplophaser
+aliases:
+  chromoplot: /usr/local/bin/chromoplot
+  haplophaser: /usr/local/bin/haplophaser
+  cyvcf2: /usr/local/bin/cyvcf2
+  typer: /usr/local/bin/typer
+  ref-cache: /usr/local/bin/ref-cache
+  coloredlogs: /usr/local/bin/coloredlogs
+  humanfriendly: /usr/local/bin/humanfriendly
+  markdown-it: /usr/local/bin/markdown-it
+  annot-tsv: /usr/local/bin/annot-tsv
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  htsfile: /usr/local/bin/htsfile

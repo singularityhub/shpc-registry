@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/virusdetect
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for virusdetect
+latest:
+  2.0.0a0--pyhdfd78af_0: 
+    sha256:7fc54d6f85c734246f192c83a46c8a1978a406499c4135a29d6119b766a485d2
+tags:
+  2.0.0a0--pyhdfd78af_0: 
+    sha256:7fc54d6f85c734246f192c83a46c8a1978a406499c4135a29d6119b766a485d2
+docker: quay.io/biocontainers/virusdetect
+aliases:
+  binspreader: /usr/local/bin/binspreader
+  pathracer: /usr/local/bin/pathracer
+  pathracer-seq-fs: /usr/local/bin/pathracer-seq-fs
+  spades-gfa-split: /usr/local/bin/spades-gfa-split
+  spades-hpc: /usr/local/bin/spades-hpc
+  virusdetect: /usr/local/bin/virusdetect
+  extract_exons.py: /usr/local/bin/extract_exons.py
+  extract_splice_sites.py: /usr/local/bin/extract_splice_sites.py
+  hisat2_read_statistics.py: /usr/local/bin/hisat2_read_statistics.py
+  hisat2: /usr/local/bin/hisat2
+  hisat2-inspect: /usr/local/bin/hisat2-inspect
+  hisat2-inspect-l: /usr/local/bin/hisat2-inspect-l
+  hisat2-inspect-s: /usr/local/bin/hisat2-inspect-s
+  hisat2_extract_exons.py: /usr/local/bin/hisat2_extract_exons.py
+  hisat2_extract_snps_haplotypes_UCSC.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+  hisat2_extract_snps_haplotypes_VCF.py: 
+    /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+  hisat2_extract_splice_sites.py: /usr/local/bin/hisat2_extract_splice_sites.py
+  hisat2_simulate_reads.py: /usr/local/bin/hisat2_simulate_reads.py
+  hisat2-align-l: /usr/local/bin/hisat2-align-l
+  hisat2-align-s: /usr/local/bin/hisat2-align-s
+  hisat2-build: /usr/local/bin/hisat2-build
+  hisat2-build-l: /usr/local/bin/hisat2-build-l
+  hisat2-build-s: /usr/local/bin/hisat2-build-s
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  velvetg: /usr/local/bin/velvetg
+  velveth: /usr/local/bin/velveth
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids

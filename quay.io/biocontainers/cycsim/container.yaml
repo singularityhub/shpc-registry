@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/cycsim
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cycsim
+latest:
+  1.0.4--h4eafe19_0: 
+    sha256:9970b472772bb99782875e4c823db546dbac57a0fcb288ac1ac53687d26c07a9
+tags:
+  1.0.4--h4eafe19_0: 
+    sha256:9970b472772bb99782875e4c823db546dbac57a0fcb288ac1ac53687d26c07a9
+docker: quay.io/biocontainers/cycsim
+aliases:
+  cycsim: /usr/local/bin/cycsim

@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/sriptype
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sriptype
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:d94078bdae0e97dd40176da4ebf2e3caa1ad64f5277c0f05eb2809a9b954fca5
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:d94078bdae0e97dd40176da4ebf2e3caa1ad64f5277c0f05eb2809a9b954fca5
+docker: quay.io/biocontainers/sriptype
+aliases:
+  sriptype: /usr/local/bin/sriptype
+  flash: /usr/local/bin/flash
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  seqkit: /usr/local/bin/seqkit
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits

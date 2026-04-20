@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/tau-community-detection
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  tau-community-detection
+latest:
+  1.2.11--pyhdfd78af_0: 
+    sha256:fa9692d1c9bde5bbee0633acdb1316cfd9e55cbd7be0a2a005a392cf412ee96f
+tags:
+  1.2.11--pyhdfd78af_0: 
+    sha256:fa9692d1c9bde5bbee0633acdb1316cfd9e55cbd7be0a2a005a392cf412ee96f
+docker: quay.io/biocontainers/tau-community-detection
+aliases:
+  tau: /usr/local/bin/tau
+  igraph: /usr/local/bin/igraph
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  glpsol: /usr/local/bin/glpsol
+  numpy-config: /usr/local/bin/numpy-config

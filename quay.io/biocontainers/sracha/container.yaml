@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/sracha
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sracha
+latest:
+  0.3.0--h54198d6_0: 
+    sha256:a1111c1a943a9f87b0e8dc4d42efa5f645fa8660e17ba5a5751b4c0e5a9f5667
+tags:
+  0.3.0--h54198d6_0: 
+    sha256:a1111c1a943a9f87b0e8dc4d42efa5f645fa8660e17ba5a5751b4c0e5a9f5667
+docker: quay.io/biocontainers/sracha
+aliases:
+  sracha: /usr/local/bin/sracha

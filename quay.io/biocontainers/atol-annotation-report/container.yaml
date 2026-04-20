@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/atol-annotation-report
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  atol-annotation-report
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:ba4c5245319748cc3d7a0360db31f3a34fcdccedbb24255803516e2b42e3eeef
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:ba4c5245319748cc3d7a0360db31f3a34fcdccedbb24255803516e2b42e3eeef
+docker: quay.io/biocontainers/atol-annotation-report
+aliases:
+  atol-annotation-report: /usr/local/bin/atol-annotation-report
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
