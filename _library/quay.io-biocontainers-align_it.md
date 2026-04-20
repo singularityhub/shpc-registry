@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/align_it"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/align_it/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/align_it/container.yaml"
-updated_at: "2026-04-19 05:12:32.335539"
+updated_at: "2026-04-20 05:38:08.425833"
 latest: "1.0.4--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/align_it"
 aliases:

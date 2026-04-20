@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pling/container.yaml"
-updated_at: "2026-04-19 05:45:19.986984"
+updated_at: "2026-04-20 06:13:48.646024"
 latest: "3.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pling"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nemo-age"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nemo-age/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nemo-age/container.yaml"
-updated_at: "2026-04-19 05:42:21.493215"
+updated_at: "2026-04-20 06:10:36.524657"
 latest: "0.30.0--h3053a90_5"
 container_url: "https://biocontainers.pro/tools/nemo-age"
 aliases:

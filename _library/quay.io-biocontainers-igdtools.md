@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igdtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igdtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igdtools/container.yaml"
-updated_at: "2026-04-19 05:41:50.832474"
+updated_at: "2026-04-20 06:10:03.038922"
 latest: "2.6--py310h275bdba_0"
 container_url: "https://biocontainers.pro/tools/igdtools"
 aliases:

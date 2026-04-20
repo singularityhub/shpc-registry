@@ -4,7 +4,7 @@ name:  "bids/freesurfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/freesurfer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/freesurfer/container.yaml"
-updated_at: "2026-04-19 05:46:54.436030"
+updated_at: "2026-04-20 06:15:28.636478"
 latest: "V30-a43f1f"
 container_url: "https://hub.docker.com/r/bids/freesurfer"
 

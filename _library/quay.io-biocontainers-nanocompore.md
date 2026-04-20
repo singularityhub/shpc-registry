@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanocompore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanocompore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanocompore/container.yaml"
-updated_at: "2026-04-19 05:41:21.730159"
+updated_at: "2026-04-20 06:09:31.334882"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanocompore"
 aliases:

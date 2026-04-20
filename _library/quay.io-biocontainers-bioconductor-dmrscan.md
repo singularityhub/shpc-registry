@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dmrscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrscan/container.yaml"
-updated_at: "2026-04-19 05:36:58.642277"
+updated_at: "2026-04-20 06:04:53.310226"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrscan"
 aliases:

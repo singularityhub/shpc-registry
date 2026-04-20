@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-timedate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-timedate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-timedate/container.yaml"
-updated_at: "2026-04-19 04:53:44.433895"
-latest: "2.33--pl5321hdfd78af_2"
+updated_at: "2026-04-20 05:16:42.851082"
+latest: "2.35--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-timedate"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "2.33--pl5321hdfd78af_2"
+ - "2.35--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-timedate"
-config: {"url": "https://biocontainers.pro/tools/perl-timedate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-timedate", "latest": {"2.33--pl5321hdfd78af_2": "sha256:1dece29855884a4a18fbb3552b4ca1d97aec8daa22efc44673fbd65da1a1555e"}, "tags": {"2.33--pl5321hdfd78af_2": "sha256:1dece29855884a4a18fbb3552b4ca1d97aec8daa22efc44673fbd65da1a1555e"}, "docker": "quay.io/biocontainers/perl-timedate", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-timedate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-timedate", "latest": {"2.35--pl5321hdfd78af_0": "sha256:d716573b9d6807150e238c0245de19adcc32875891f8d7ffedc86e6b885cd224"}, "tags": {"2.33--pl5321hdfd78af_2": "sha256:1dece29855884a4a18fbb3552b4ca1d97aec8daa22efc44673fbd65da1a1555e", "2.35--pl5321hdfd78af_0": "sha256:d716573b9d6807150e238c0245de19adcc32875891f8d7ffedc86e6b885cd224"}, "docker": "quay.io/biocontainers/perl-timedate", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-timedate.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-timedate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-timedate:2.33--pl5321hdfd78af_2
+$ shpc install quay.io/biocontainers/perl-timedate:2.35--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-timedate/2.33--pl5321hdfd78af_2
-$ module help quay.io/biocontainers/perl-timedate/2.33--pl5321hdfd78af_2
+$ module load quay.io/biocontainers/perl-timedate/2.35--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-timedate/2.35--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

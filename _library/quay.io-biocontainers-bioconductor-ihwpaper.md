@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ihwpaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ihwpaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ihwpaper/container.yaml"
-updated_at: "2026-04-19 05:24:44.530831"
+updated_at: "2026-04-20 05:51:28.249930"
 latest: "1.38.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ihwpaper"
 

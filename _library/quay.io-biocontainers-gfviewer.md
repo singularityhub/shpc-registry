@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfviewer/container.yaml"
-updated_at: "2026-04-19 05:42:13.374268"
+updated_at: "2026-04-20 06:10:27.482959"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gfviewer"
 aliases:

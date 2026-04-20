@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-seurat-disk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-seurat-disk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-seurat-disk/container.yaml"
-updated_at: "2026-04-19 05:16:38.561141"
+updated_at: "2026-04-20 05:42:38.703626"
 latest: "0.0.0.9021--r44hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-seurat-disk"
 aliases:

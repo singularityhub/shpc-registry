@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peakhood"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peakhood/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peakhood/container.yaml"
-updated_at: "2026-04-19 05:22:13.023891"
+updated_at: "2026-04-20 05:48:42.748577"
 latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peakhood"
 aliases:

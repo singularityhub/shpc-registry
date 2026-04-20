@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/cabana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cabana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cabana/container.yaml"
-updated_at: "2026-04-19 05:47:41.920577"
+updated_at: "2026-04-20 06:16:17.703959"
 latest: "0.5.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cabana"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sdrf-pipelines"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sdrf-pipelines/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sdrf-pipelines/container.yaml"
-updated_at: "2026-04-19 04:59:52.963483"
+updated_at: "2026-04-20 05:23:39.616398"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sdrf-pipelines"
 

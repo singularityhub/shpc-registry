@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sipsic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sipsic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sipsic/container.yaml"
-updated_at: "2026-04-19 05:26:13.761062"
+updated_at: "2026-04-20 05:53:04.245374"
 latest: "1.0.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sipsic"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-parser/container.yaml"
-updated_at: "2026-04-19 04:57:19.284378"
+updated_at: "2026-04-20 05:20:39.933101"
 latest: "2.44--pl526h4e0c4b3_7"
 container_url: "https://biocontainers.pro/tools/perl-xml-parser"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gwascatdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwascatdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwascatdata/container.yaml"
-updated_at: "2026-04-19 05:30:58.310792"
+updated_at: "2026-04-20 05:58:14.348006"
 latest: "0.99.6--r45hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwascatdata"
 

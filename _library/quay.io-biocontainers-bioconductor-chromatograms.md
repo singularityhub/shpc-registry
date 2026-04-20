@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromatograms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromatograms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromatograms/container.yaml"
-updated_at: "2026-04-19 05:37:27.228636"
+updated_at: "2026-04-20 06:05:24.858948"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromatograms"
 aliases:

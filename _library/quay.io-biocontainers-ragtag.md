@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ragtag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ragtag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ragtag/container.yaml"
-updated_at: "2026-04-19 05:09:56.455406"
-latest: "2.1.0--pyhb7b1952_0"
+updated_at: "2026-04-20 05:35:15.831575"
+latest: "2.1.0--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ragtag"
 aliases:
  - "ragtag.py"
@@ -37,8 +37,9 @@ aliases:
  - "mummerplot"
 versions:
  - "2.1.0--pyhb7b1952_0"
+ - "2.1.0--pyhdfd78af_2"
 description: "shpc-registry automated BioContainers addition for ragtag"
-config: {"url": "https://biocontainers.pro/tools/ragtag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ragtag", "latest": {"2.1.0--pyhb7b1952_0": "sha256:88e12e008e8301df8b3797b4bfff551534accf92f194daae65dbb3ed78da1580"}, "tags": {"2.1.0--pyhb7b1952_0": "sha256:88e12e008e8301df8b3797b4bfff551534accf92f194daae65dbb3ed78da1580"}, "docker": "quay.io/biocontainers/ragtag", "aliases": {"ragtag.py": "/usr/local/bin/ragtag.py", "ragtag_agp2fa.py": "/usr/local/bin/ragtag_agp2fa.py", "ragtag_agpcheck.py": "/usr/local/bin/ragtag_agpcheck.py", "ragtag_asmstats.py": "/usr/local/bin/ragtag_asmstats.py", "ragtag_break_query.py": "/usr/local/bin/ragtag_break_query.py", "ragtag_correct.py": "/usr/local/bin/ragtag_correct.py", "ragtag_create_links.py": "/usr/local/bin/ragtag_create_links.py", "ragtag_delta2paf.py": "/usr/local/bin/ragtag_delta2paf.py", "ragtag_merge.py": "/usr/local/bin/ragtag_merge.py", "ragtag_paf2delta.py": "/usr/local/bin/ragtag_paf2delta.py", "ragtag_patch.py": "/usr/local/bin/ragtag_patch.py", "ragtag_rename.py": "/usr/local/bin/ragtag_rename.py", "ragtag_scaffold.py": "/usr/local/bin/ragtag_scaffold.py", "ragtag_splitasm.py": "/usr/local/bin/ragtag_splitasm.py", "ragtag_stats.py": "/usr/local/bin/ragtag_stats.py", "ragtag_update_gff.py": "/usr/local/bin/ragtag_update_gff.py", "setup.py": "/usr/local/bin/setup.py", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
+config: {"url": "https://biocontainers.pro/tools/ragtag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ragtag", "latest": {"2.1.0--pyhdfd78af_2": "sha256:d74bccc4923ef0d6eaacd31f050dd4af082931c91ab55c7c922f8650ec47b341"}, "tags": {"2.1.0--pyhb7b1952_0": "sha256:88e12e008e8301df8b3797b4bfff551534accf92f194daae65dbb3ed78da1580", "2.1.0--pyhdfd78af_2": "sha256:d74bccc4923ef0d6eaacd31f050dd4af082931c91ab55c7c922f8650ec47b341"}, "docker": "quay.io/biocontainers/ragtag", "aliases": {"ragtag.py": "/usr/local/bin/ragtag.py", "ragtag_agp2fa.py": "/usr/local/bin/ragtag_agp2fa.py", "ragtag_agpcheck.py": "/usr/local/bin/ragtag_agpcheck.py", "ragtag_asmstats.py": "/usr/local/bin/ragtag_asmstats.py", "ragtag_break_query.py": "/usr/local/bin/ragtag_break_query.py", "ragtag_correct.py": "/usr/local/bin/ragtag_correct.py", "ragtag_create_links.py": "/usr/local/bin/ragtag_create_links.py", "ragtag_delta2paf.py": "/usr/local/bin/ragtag_delta2paf.py", "ragtag_merge.py": "/usr/local/bin/ragtag_merge.py", "ragtag_paf2delta.py": "/usr/local/bin/ragtag_paf2delta.py", "ragtag_patch.py": "/usr/local/bin/ragtag_patch.py", "ragtag_rename.py": "/usr/local/bin/ragtag_rename.py", "ragtag_scaffold.py": "/usr/local/bin/ragtag_scaffold.py", "ragtag_splitasm.py": "/usr/local/bin/ragtag_splitasm.py", "ragtag_stats.py": "/usr/local/bin/ragtag_stats.py", "ragtag_update_gff.py": "/usr/local/bin/ragtag_update_gff.py", "setup.py": "/usr/local/bin/setup.py", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ragtag.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/ragtag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ragtag:2.1.0--pyhb7b1952_0
+$ shpc install quay.io/biocontainers/ragtag:2.1.0--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ragtag/2.1.0--pyhb7b1952_0
-$ module help quay.io/biocontainers/ragtag/2.1.0--pyhb7b1952_0
+$ module load quay.io/biocontainers/ragtag/2.1.0--pyhdfd78af_2
+$ module help quay.io/biocontainers/ragtag/2.1.0--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

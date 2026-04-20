@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/decifer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decifer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decifer/container.yaml"
-updated_at: "2026-04-19 05:21:10.211216"
+updated_at: "2026-04-20 05:47:34.592715"
 latest: "2.1.4--py311hfed2083_0"
 container_url: "https://biocontainers.pro/tools/decifer"
 aliases:

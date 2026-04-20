@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-sqlalchemy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-sqlalchemy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-sqlalchemy/container.yaml"
-updated_at: "2026-04-19 05:04:00.470530"
+updated_at: "2026-04-20 05:28:22.145992"
 latest: "2.1--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-sqlalchemy"
 aliases:

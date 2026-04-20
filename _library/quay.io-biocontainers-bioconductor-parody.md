@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-parody"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-parody/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-parody/container.yaml"
-updated_at: "2026-04-19 05:45:19.690666"
+updated_at: "2026-04-20 06:13:48.334673"
 latest: "1.68.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-parody"
 
