@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/oxo-call
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for oxo-call
 latest:
-  0.9.2--h54198d6_0: 
-    sha256:9eece5e56aa0b2e7e53aaeb201e4d887a3e9d371b077ef8676a3bb1736a50f9d
+  0.12.0--h54198d6_0: 
+    sha256:71f4a2a2fa70dbacef1678e8ef639b74cd06924b8f43830430ad7bb185f45cbc
 tags:
   0.9.2--h54198d6_0: 
     sha256:9eece5e56aa0b2e7e53aaeb201e4d887a3e9d371b077ef8676a3bb1736a50f9d
+  0.12.0--h54198d6_0: 
+    sha256:71f4a2a2fa70dbacef1678e8ef639b74cd06924b8f43830430ad7bb185f45cbc
+  0.11.0--h54198d6_0: 
+    sha256:49dfe84eaca28d1b46fd6ebf8198de4a31357ae67e5e25deebeb669b4494229f
+  0.10.0--h54198d6_0: 
+    sha256:0e95a01d34f34fe7cae0353d848c415691c3cc95307c1f3eea7dbbf1f8cc1faf
 docker: quay.io/biocontainers/oxo-call
 aliases:
   oxo-call: /usr/local/bin/oxo-call
