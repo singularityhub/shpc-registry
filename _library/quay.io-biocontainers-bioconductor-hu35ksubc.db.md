@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hu35ksubc.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hu35ksubc.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hu35ksubc.db/container.yaml"
-updated_at: "2026-04-21 04:57:10.982048"
+updated_at: "2026-04-21 05:11:41.274128"
 latest: "3.13.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-hu35ksubc.db"
 aliases:

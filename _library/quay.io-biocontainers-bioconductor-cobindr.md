@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cobindr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cobindr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cobindr/container.yaml"
-updated_at: "2026-04-21 05:40:24.768230"
+updated_at: "2026-04-21 05:58:19.019758"
 latest: "1.25.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cobindr"
 aliases:

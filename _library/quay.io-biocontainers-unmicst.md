@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unmicst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unmicst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unmicst/container.yaml"
-updated_at: "2026-04-21 05:30:35.714873"
+updated_at: "2026-04-21 05:47:39.348160"
 latest: "2.6.6--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/unmicst"
 aliases:

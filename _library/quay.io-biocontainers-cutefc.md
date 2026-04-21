@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cutefc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutefc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutefc/container.yaml"
-updated_at: "2026-04-21 05:27:40.859778"
+updated_at: "2026-04-21 05:44:32.397725"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cutefc"
 aliases:
