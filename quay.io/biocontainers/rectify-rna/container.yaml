@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/rectify-rna
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rectify-rna
+latest:
+  2.7.8--pyhdfd78af_0: 
+    sha256:ff240b1ea2f63eb180ec8c064ff39ae723c7a975a833f52b022abc335b30a7d5
+tags:
+  2.7.8--pyhdfd78af_0: 
+    sha256:ff240b1ea2f63eb180ec8c064ff39ae723c7a975a833f52b022abc335b30a7d5
+docker: quay.io/biocontainers/rectify-rna
+aliases:
+  jlpm: /usr/local/bin/jlpm
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  rectify: /usr/local/bin/rectify
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  pyjson5: /usr/local/bin/pyjson5
+  jupyter-server: /usr/local/bin/jupyter-server
+  debugpy: /usr/local/bin/debugpy
+  jupyter-console: /usr/local/bin/jupyter-console
+  zarr: /usr/local/bin/zarr
+  jsonpointer: /usr/local/bin/jsonpointer
+  wsdump: /usr/local/bin/wsdump
+  send2trash: /usr/local/bin/send2trash
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  h2benchmark: /usr/local/bin/h2benchmark
+  httpx: /usr/local/bin/httpx
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  pybabel: /usr/local/bin/pybabel
+  checksum-profile: /usr/local/bin/checksum-profile
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  curve_keygen: /usr/local/bin/curve_keygen
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  elasticurl: /usr/local/bin/elasticurl
+  jupyter-trust: /usr/local/bin/jupyter-trust

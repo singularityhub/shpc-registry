@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/xloci
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for xloci
+latest:
+  0.0.4--hd612981_0: 
+    sha256:66c800a0028810d25e8768b8c4501c3cdb2c82ca4d250eb9a61808ef0facb073
+tags:
+  0.0.4--hd612981_0: 
+    sha256:66c800a0028810d25e8768b8c4501c3cdb2c82ca4d250eb9a61808ef0facb073
+docker: quay.io/biocontainers/xloci
+aliases:
+  xloci: /usr/local/bin/xloci

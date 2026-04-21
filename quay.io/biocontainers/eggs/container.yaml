@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/eggs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eggs
+latest:
+  1.0.0--hb7acf71_0: 
+    sha256:f8c24644062f61167c6e110a6c55b0c35dfa47aa0b16a17a39567130a1d78ad3
+tags:
+  1.0.0--hb7acf71_0: 
+    sha256:f8c24644062f61167c6e110a6c55b0c35dfa47aa0b16a17a39567130a1d78ad3
+docker: quay.io/biocontainers/eggs
+aliases:
+  eggs: /usr/local/bin/eggs

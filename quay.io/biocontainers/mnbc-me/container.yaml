@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/mnbc-me
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mnbc-me
+latest:
+  1.0--hdfd78af_0: 
+    sha256:97f329919df352ff17737c4df076bd0d768b5361a78c3aa2401fcca318d70eee
+tags:
+  1.0--hdfd78af_0: 
+    sha256:97f329919df352ff17737c4df076bd0d768b5361a78c3aa2401fcca318d70eee
+docker: quay.io/biocontainers/mnbc-me
+aliases:
+  mnbc-me: /usr/local/bin/mnbc-me
+  jnativescan: /usr/local/bin/jnativescan
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole

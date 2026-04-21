@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/bioconductor-islify
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioconductor-islify
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:079606b291702abd80ab14e2883567707a3858eb7b21db9f46131cd995aeed71
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:079606b291702abd80ab14e2883567707a3858eb7b21db9f46131cd995aeed71
+docker: quay.io/biocontainers/bioconductor-islify
+aliases:
+  jnativescan: /usr/local/bin/jnativescan
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  jwebserver: /usr/local/bin/jwebserver
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  jpackage: /usr/local/bin/jpackage
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps

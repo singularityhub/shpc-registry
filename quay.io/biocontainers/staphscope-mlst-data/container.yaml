@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/staphscope-mlst-data
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  staphscope-mlst-data
+latest:
+  1.2.0--hdfd78af_1: 
+    sha256:34ad4590c17de910eaa085cab51fff3599ca18bcac730a6099757ba7470c72f0
+tags:
+  1.2.0--hdfd78af_1: 
+    sha256:34ad4590c17de910eaa085cab51fff3599ca18bcac730a6099757ba7470c72f0
+docker: quay.io/biocontainers/staphscope-mlst-data

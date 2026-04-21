@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/metasmash
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metasmash
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:7d4bafb9952292119fef53f58b09c7ef26cb7282c7c766793fc02b194012b918
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:7d4bafb9952292119fef53f58b09c7ef26cb7282c7c766793fc02b194012b918
+docker: quay.io/biocontainers/metasmash
+aliases:
+  brawn: /usr/local/bin/brawn
+  download-antismash-databases: /usr/local/bin/download-antismash-databases
+  hmmalign2: /usr/local/bin/hmmalign2
+  hmmbuild2: /usr/local/bin/hmmbuild2
+  hmmcalibrate2: /usr/local/bin/hmmcalibrate2
+  hmmconvert2: /usr/local/bin/hmmconvert2
+  hmmemit2: /usr/local/bin/hmmemit2
+  hmmfetch2: /usr/local/bin/hmmfetch2
+  hmmindex2: /usr/local/bin/hmmindex2
+  hmmpfam2: /usr/local/bin/hmmpfam2
+  hmmsearch2: /usr/local/bin/hmmsearch2
+  metasmash: /usr/local/bin/metasmash
+  moods-dna.py: /usr/local/bin/moods-dna.py
+  pysassc: /usr/local/bin/pysassc
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
+  align_print_template.py: /usr/local/bin/align_print_template.py
+  axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
+  axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py
+  axt_to_lav.py: /usr/local/bin/axt_to_lav.py
+  axt_to_maf.py: /usr/local/bin/axt_to_maf.py
