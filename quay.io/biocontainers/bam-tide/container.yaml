@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/bam-tide
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bam-tide
+latest:
+  1.2.3--hdaf81d9_0: 
+    sha256:7123c8c72bb12c48120763d6432a9fccbd88194c6f4ae9feb51d15e3cd7750eb
+tags:
+  1.2.3--hdaf81d9_0: 
+    sha256:7123c8c72bb12c48120763d6432a9fccbd88194c6f4ae9feb51d15e3cd7750eb
+docker: quay.io/biocontainers/bam-tide
+aliases:
+  bam-coverage: /usr/local/bin/bam-coverage
+  bam-quant: /usr/local/bin/bam-quant
+  bam-subset-tag: /usr/local/bin/bam-subset-tag
+  bw-compare: /usr/local/bin/bw-compare
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

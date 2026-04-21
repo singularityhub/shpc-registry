@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/genomemask
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genomemask
+latest:
+  0.0.3--hd612981_0: 
+    sha256:3447c77df2d6dc8c2836ebc572b9c7b8136bc5df67b570a8898a1f7c5ce23bb5
+tags:
+  0.0.3--hd612981_0: 
+    sha256:3447c77df2d6dc8c2836ebc572b9c7b8136bc5df67b570a8898a1f7c5ce23bb5
+docker: quay.io/biocontainers/genomemask
+aliases:
+  genomemask: /usr/local/bin/genomemask

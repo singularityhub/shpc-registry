@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/staphscope-sccmec-data
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  staphscope-sccmec-data
+latest:
+  1.2.0--hdfd78af_1: 
+    sha256:131e30a08f04ec1b72f55cb8a8f92ced5fae8946605981dfb68a5d99721708fc
+tags:
+  1.2.0--hdfd78af_1: 
+    sha256:131e30a08f04ec1b72f55cb8a8f92ced5fae8946605981dfb68a5d99721708fc
+docker: quay.io/biocontainers/staphscope-sccmec-data

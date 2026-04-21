@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fg-stitch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fg-stitch
+latest:
+  0.1.2--h54198d6_0: 
+    sha256:a707e0e19a73a3da135c269f2bd4df3b77b6a4beaf19b3ce04ad5dc77d4387d0
+tags:
+  0.1.2--h54198d6_0: 
+    sha256:a707e0e19a73a3da135c269f2bd4df3b77b6a4beaf19b3ce04ad5dc77d4387d0
+docker: quay.io/biocontainers/fg-stitch
+aliases:
+  stitch: /usr/local/bin/stitch

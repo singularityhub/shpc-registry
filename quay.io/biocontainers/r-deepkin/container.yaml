@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/r-deepkin
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-deepkin
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:55571ed675e19dc52bdebb662737b82bca2f9ec02cfc462a7ef8ce6a00edffeb
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:55571ed675e19dc52bdebb662737b82bca2f9ec02cfc462a7ef8ce6a00edffeb
+docker: quay.io/biocontainers/r-deepkin
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

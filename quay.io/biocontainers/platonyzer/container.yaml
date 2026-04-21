@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/platonyzer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for platonyzer
+latest:
+  2.0.5--hf426362_0: 
+    sha256:de1524a49b969b4411d41ddd18f10d7200a75f1465ebda0987ec26897a07884e
+tags:
+  2.0.5--hf426362_0: 
+    sha256:de1524a49b969b4411d41ddd18f10d7200a75f1465ebda0987ec26897a07884e
+docker: quay.io/biocontainers/platonyzer
+aliases:
+  platonyzer: /usr/local/bin/platonyzer
+  x86_64-conda-linux-gnu-pkg-config: 
+    /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+  pkg-config: /usr/local/bin/pkg-config
+  pkg-config.bin: /usr/local/bin/pkg-config.bin
