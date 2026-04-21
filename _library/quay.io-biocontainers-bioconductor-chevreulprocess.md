@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chevreulprocess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chevreulprocess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chevreulprocess/container.yaml"
-updated_at: "2026-04-20 05:59:05.340689"
+updated_at: "2026-04-21 05:27:29.959354"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chevreulprocess"
 aliases:

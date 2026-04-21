@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tides-ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tides-ml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tides-ml/container.yaml"
-updated_at: "2026-04-20 05:39:16.544309"
+updated_at: "2026-04-21 05:10:14.172064"
 latest: "1.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tides-ml"
 aliases:

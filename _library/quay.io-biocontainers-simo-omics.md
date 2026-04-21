@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/simo-omics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simo-omics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simo-omics/container.yaml"
-updated_at: "2026-04-20 05:58:20.551862"
-latest: "1.0.0--pyhdfd78af_1"
+updated_at: "2026-04-21 05:26:49.216114"
+latest: "1.0.0--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/simo-omics"
 aliases:
  - "session-info"
@@ -37,8 +37,9 @@ aliases:
  - "qvoronoi"
 versions:
  - "1.0.0--pyhdfd78af_1"
+ - "1.0.0--pyhdfd78af_2"
 description: "singularity registry hpc automated addition for simo-omics"
-config: {"url": "https://biocontainers.pro/tools/simo-omics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for simo-omics", "latest": {"1.0.0--pyhdfd78af_1": "sha256:963abcf83783736b2666f323970aed4e4a7e773b5d39096c531d44c226976951"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:963abcf83783736b2666f323970aed4e4a7e773b5d39096c531d44c226976951"}, "docker": "quay.io/biocontainers/simo-omics", "aliases": {"session-info": "/usr/local/bin/session-info", "session-info2": "/usr/local/bin/session-info2", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5fuse": "/usr/local/bin/h5fuse", "natsort": "/usr/local/bin/natsort", "numba": "/usr/local/bin/numba", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
+config: {"url": "https://biocontainers.pro/tools/simo-omics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for simo-omics", "latest": {"1.0.0--pyhdfd78af_2": "sha256:e0281ac1170cf0fd94e21246bace032933b904fcff51140a24e248422b6f5b87"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:963abcf83783736b2666f323970aed4e4a7e773b5d39096c531d44c226976951", "1.0.0--pyhdfd78af_2": "sha256:e0281ac1170cf0fd94e21246bace032933b904fcff51140a24e248422b6f5b87"}, "docker": "quay.io/biocontainers/simo-omics", "aliases": {"session-info": "/usr/local/bin/session-info", "session-info2": "/usr/local/bin/session-info2", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "h5fuse": "/usr/local/bin/h5fuse", "natsort": "/usr/local/bin/natsort", "numba": "/usr/local/bin/numba", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simo-omics.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/simo-omics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simo-omics:1.0.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/simo-omics:1.0.0--pyhdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simo-omics/1.0.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/simo-omics/1.0.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/simo-omics/1.0.0--pyhdfd78af_2
+$ module help quay.io/biocontainers/simo-omics/1.0.0--pyhdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

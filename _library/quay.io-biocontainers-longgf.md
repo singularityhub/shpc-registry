@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longgf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longgf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longgf/container.yaml"
-updated_at: "2026-04-20 05:51:22.075339"
+updated_at: "2026-04-21 05:20:38.011179"
 latest: "0.1.2--h9948957_9"
 container_url: "https://biocontainers.pro/tools/longgf"
 aliases:

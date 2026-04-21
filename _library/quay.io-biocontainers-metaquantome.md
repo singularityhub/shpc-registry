@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaquantome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaquantome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaquantome/container.yaml"
-updated_at: "2026-04-20 06:15:12.484357"
-latest: "2.0.2--pyhdfd78af_0"
+updated_at: "2026-04-21 05:41:32.659663"
+latest: "2.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaquantome"
 aliases:
  - "fetch_associations.py"
@@ -26,8 +26,9 @@ aliases:
  - "delaunay"
 versions:
  - "2.0.2--pyhdfd78af_0"
+ - "2.0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metaquantome"
-config: {"url": "https://biocontainers.pro/tools/metaquantome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaquantome", "latest": {"2.0.2--pyhdfd78af_0": "sha256:63ecc9b2be8ab451aae2092d47d03e5f6e2d9217fa920e7bf488b1a6f1cb4f9e"}, "tags": {"2.0.2--pyhdfd78af_0": "sha256:63ecc9b2be8ab451aae2092d47d03e5f6e2d9217fa920e7bf488b1a6f1cb4f9e"}, "docker": "quay.io/biocontainers/metaquantome", "aliases": {"fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "metaquantome": "/usr/local/bin/metaquantome", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "write_hierarchy.py": "/usr/local/bin/write_hierarchy.py", "vba_extract.py": "/usr/local/bin/vba_extract.py", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "ete3": "/usr/local/bin/ete3", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "delaunay": "/usr/local/bin/delaunay"}}
+config: {"url": "https://biocontainers.pro/tools/metaquantome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaquantome", "latest": {"2.0.3--pyhdfd78af_0": "sha256:3b5f8d66a532e6c865b73c1c9f258df90782d7227f8139b6dd256bf798a89e56"}, "tags": {"2.0.2--pyhdfd78af_0": "sha256:63ecc9b2be8ab451aae2092d47d03e5f6e2d9217fa920e7bf488b1a6f1cb4f9e", "2.0.3--pyhdfd78af_0": "sha256:3b5f8d66a532e6c865b73c1c9f258df90782d7227f8139b6dd256bf798a89e56"}, "docker": "quay.io/biocontainers/metaquantome", "aliases": {"fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "metaquantome": "/usr/local/bin/metaquantome", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "write_hierarchy.py": "/usr/local/bin/write_hierarchy.py", "vba_extract.py": "/usr/local/bin/vba_extract.py", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "ete3": "/usr/local/bin/ete3", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "delaunay": "/usr/local/bin/delaunay"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaquantome.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/metaquantome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaquantome:2.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metaquantome:2.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaquantome/2.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/metaquantome/2.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/metaquantome/2.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/metaquantome/2.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

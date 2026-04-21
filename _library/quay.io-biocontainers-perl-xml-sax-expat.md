@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-sax-expat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-sax-expat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-sax-expat/container.yaml"
-updated_at: "2026-04-20 05:40:58.033070"
+updated_at: "2026-04-21 05:11:39.924677"
 latest: "0.51--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-xml-sax-expat"
 aliases:

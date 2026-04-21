@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cif-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cif-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cif-tools/container.yaml"
-updated_at: "2026-04-20 05:55:50.750470"
-latest: "1.0.12--h077b44d_0"
+updated_at: "2026-04-21 05:24:35.246877"
+latest: "1.0.13--hf426362_0"
 container_url: "https://biocontainers.pro/tools/cif-tools"
 aliases:
  - "cif-diff"
@@ -17,8 +17,9 @@ aliases:
  - "pdb2cif"
 versions:
  - "1.0.12--h077b44d_0"
+ - "1.0.13--hf426362_0"
 description: "singularity registry hpc automated addition for cif-tools"
-config: {"url": "https://biocontainers.pro/tools/cif-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cif-tools", "latest": {"1.0.12--h077b44d_0": "sha256:55e7990c00174aecca6204b87d4e2a8dc64dcc78f68e204b885c8dff7e6789ed"}, "tags": {"1.0.12--h077b44d_0": "sha256:55e7990c00174aecca6204b87d4e2a8dc64dcc78f68e204b885c8dff7e6789ed"}, "docker": "quay.io/biocontainers/cif-tools", "aliases": {"cif-diff": "/usr/local/bin/cif-diff", "cif-grep": "/usr/local/bin/cif-grep", "cif-merge": "/usr/local/bin/cif-merge", "cif-validate": "/usr/local/bin/cif-validate", "cif2pdb": "/usr/local/bin/cif2pdb", "mmCQL": "/usr/local/bin/mmCQL", "pdb2cif": "/usr/local/bin/pdb2cif"}}
+config: {"url": "https://biocontainers.pro/tools/cif-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cif-tools", "latest": {"1.0.13--hf426362_0": "sha256:582cdf302191789d6d7068d5f7ca1b160d19ad61d2f12c08f1f0b6ee2973a29e"}, "tags": {"1.0.12--h077b44d_0": "sha256:55e7990c00174aecca6204b87d4e2a8dc64dcc78f68e204b885c8dff7e6789ed", "1.0.13--hf426362_0": "sha256:582cdf302191789d6d7068d5f7ca1b160d19ad61d2f12c08f1f0b6ee2973a29e"}, "docker": "quay.io/biocontainers/cif-tools", "aliases": {"cif-diff": "/usr/local/bin/cif-diff", "cif-grep": "/usr/local/bin/cif-grep", "cif-merge": "/usr/local/bin/cif-merge", "cif-validate": "/usr/local/bin/cif-validate", "cif2pdb": "/usr/local/bin/cif2pdb", "mmCQL": "/usr/local/bin/mmCQL", "pdb2cif": "/usr/local/bin/pdb2cif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cif-tools.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/cif-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cif-tools:1.0.12--h077b44d_0
+$ shpc install quay.io/biocontainers/cif-tools:1.0.13--hf426362_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cif-tools/1.0.12--h077b44d_0
-$ module help quay.io/biocontainers/cif-tools/1.0.12--h077b44d_0
+$ module load quay.io/biocontainers/cif-tools/1.0.13--hf426362_0
+$ module help quay.io/biocontainers/cif-tools/1.0.13--hf426362_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

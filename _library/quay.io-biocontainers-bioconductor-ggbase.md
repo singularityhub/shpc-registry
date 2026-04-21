@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ggbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggbase/container.yaml"
-updated_at: "2026-04-20 05:18:42.287151"
+updated_at: "2026-04-21 04:52:59.303677"
 latest: "3.52.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggbase"
 aliases:

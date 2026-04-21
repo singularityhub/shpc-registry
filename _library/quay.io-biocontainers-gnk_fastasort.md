@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gnk_fastasort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnk_fastasort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnk_fastasort/container.yaml"
-updated_at: "2026-04-20 05:41:42.051710"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-04-21 05:12:18.822406"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gnk_fastasort"
 aliases:
  - "fastasort"
@@ -15,8 +15,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gnk_fastasort"
-config: {"url": "https://biocontainers.pro/tools/gnk_fastasort", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gnk_fastasort", "latest": {"0.1.0--pyhdfd78af_0": "sha256:9b1918c550bf7ba0674597358abed566c7878ca26146cbb72a0d5c1d51ea85c0"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:9b1918c550bf7ba0674597358abed566c7878ca26146cbb72a0d5c1d51ea85c0"}, "docker": "quay.io/biocontainers/gnk_fastasort", "aliases": {"fastasort": "/usr/local/bin/fastasort", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/gnk_fastasort", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gnk_fastasort", "latest": {"0.1.2--pyhdfd78af_0": "sha256:c9105d00509a627443eb82345f35f718d4ac3b6246f28fd0cd1902426487a60f"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:9b1918c550bf7ba0674597358abed566c7878ca26146cbb72a0d5c1d51ea85c0", "0.1.2--pyhdfd78af_0": "sha256:c9105d00509a627443eb82345f35f718d4ac3b6246f28fd0cd1902426487a60f"}, "docker": "quay.io/biocontainers/gnk_fastasort", "aliases": {"fastasort": "/usr/local/bin/fastasort", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gnk_fastasort.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/gnk_fastasort
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gnk_fastasort:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gnk_fastasort:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gnk_fastasort/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/gnk_fastasort/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/gnk_fastasort/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/gnk_fastasort/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

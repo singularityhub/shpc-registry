@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/zna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zna/container.yaml"
-updated_at: "2026-04-20 05:41:17.925213"
-latest: "0.1.8--py310hbcdfcc8_0"
+updated_at: "2026-04-21 05:11:57.484177"
+latest: "0.3.0--py312h38e9178_0"
 container_url: "https://biocontainers.pro/tools/zna"
 aliases:
  - "zna"
@@ -17,8 +17,10 @@ aliases:
 versions:
  - "0.1.8--py310hbcdfcc8_0"
  - "0.1.8--py311h39195ad_0"
+ - "0.3.0--py312h38e9178_0"
+ - "0.2.0--py313h5d164f8_0"
 description: "singularity registry hpc automated addition for zna"
-config: {"url": "https://biocontainers.pro/tools/zna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zna", "latest": {"0.1.8--py310hbcdfcc8_0": "sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254"}, "tags": {"0.1.8--py310hbcdfcc8_0": "sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254", "0.1.8--py311h39195ad_0": "sha256:aeb894b6d3d11aa087076c31362eff5b8ad377f266df1a8b4d0459ef7742144b"}, "docker": "quay.io/biocontainers/zna", "aliases": {"zna": "/usr/local/bin/zna", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/zna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for zna", "latest": {"0.3.0--py312h38e9178_0": "sha256:b48565cab03a3da3f4f54592c99c4e6357fc28c2b6320e2c4fd9779052d7f819"}, "tags": {"0.1.8--py310hbcdfcc8_0": "sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254", "0.1.8--py311h39195ad_0": "sha256:aeb894b6d3d11aa087076c31362eff5b8ad377f266df1a8b4d0459ef7742144b", "0.3.0--py312h38e9178_0": "sha256:b48565cab03a3da3f4f54592c99c4e6357fc28c2b6320e2c4fd9779052d7f819", "0.2.0--py313h5d164f8_0": "sha256:7b79bbef18e2358123ee6af37b38b7a7c675512138d57c2efa841fd49d6df033"}, "docker": "quay.io/biocontainers/zna", "aliases": {"zna": "/usr/local/bin/zna", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zna.
@@ -33,7 +35,7 @@ $ shpc install quay.io/biocontainers/zna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/zna:0.1.8--py310hbcdfcc8_0
+$ shpc install quay.io/biocontainers/zna:0.3.0--py312h38e9178_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/zna/0.1.8--py310hbcdfcc8_0
-$ module help quay.io/biocontainers/zna/0.1.8--py310hbcdfcc8_0
+$ module load quay.io/biocontainers/zna/0.3.0--py312h38e9178_0
+$ module help quay.io/biocontainers/zna/0.3.0--py312h38e9178_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

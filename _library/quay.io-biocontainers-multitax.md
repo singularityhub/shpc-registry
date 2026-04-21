@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multitax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multitax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multitax/container.yaml"
-updated_at: "2026-04-20 05:49:33.725401"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2026-04-21 05:19:05.196696"
+latest: "1.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multitax"
 aliases:
  - "2to3-3.10"
@@ -21,8 +21,9 @@ versions:
  - "1.3.1--pyhdfd78af_0"
  - "1.3.2--pyhdfd78af_0"
  - "1.4.0--pyhdfd78af_0"
+ - "1.5.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for multitax"
-config: {"url": "https://biocontainers.pro/tools/multitax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multitax", "latest": {"1.4.0--pyhdfd78af_0": "sha256:6a84a2729c27c3f608bc820d2320dafff6da35311f453ff0cc679caae12fe71e"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:700dadeeb1002ddd99e4bbff4a827fe9a68eb0311fe0004996992b77db353fcd", "1.2.1--pyhdfd78af_0": "sha256:9af48e8d7b4e84f41e44609a7d6422ee880f0d6ae41cc03b539ced7d47a20bae", "1.3.0--pyhdfd78af_0": "sha256:f6ff9e90a4c907ad753191825efe29ea5a5935aba11e8981e51ff37526f197c5", "1.3.1--pyhdfd78af_0": "sha256:5d90faa0c7b8401d99cee9fc9d94a90d77ab80d8f9315fefa235a71f72730269", "1.3.2--pyhdfd78af_0": "sha256:44403b1d75374ac273dae976ec9016fd559abd942e95cf2e001f5fd62382f618", "1.4.0--pyhdfd78af_0": "sha256:6a84a2729c27c3f608bc820d2320dafff6da35311f453ff0cc679caae12fe71e"}, "docker": "quay.io/biocontainers/multitax", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/multitax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multitax", "latest": {"1.5.2--pyhdfd78af_0": "sha256:e7a4a634bed0f0010ef9acccd1b177c43ab259015124cb8f5af1e5b93503c458"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:700dadeeb1002ddd99e4bbff4a827fe9a68eb0311fe0004996992b77db353fcd", "1.2.1--pyhdfd78af_0": "sha256:9af48e8d7b4e84f41e44609a7d6422ee880f0d6ae41cc03b539ced7d47a20bae", "1.3.0--pyhdfd78af_0": "sha256:f6ff9e90a4c907ad753191825efe29ea5a5935aba11e8981e51ff37526f197c5", "1.3.1--pyhdfd78af_0": "sha256:5d90faa0c7b8401d99cee9fc9d94a90d77ab80d8f9315fefa235a71f72730269", "1.3.2--pyhdfd78af_0": "sha256:44403b1d75374ac273dae976ec9016fd559abd942e95cf2e001f5fd62382f618", "1.4.0--pyhdfd78af_0": "sha256:6a84a2729c27c3f608bc820d2320dafff6da35311f453ff0cc679caae12fe71e", "1.5.2--pyhdfd78af_0": "sha256:e7a4a634bed0f0010ef9acccd1b177c43ab259015124cb8f5af1e5b93503c458"}, "docker": "quay.io/biocontainers/multitax", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multitax.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/multitax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multitax:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/multitax:1.5.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multitax/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/multitax/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/multitax/1.5.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/multitax/1.5.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
