@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nohuman
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nohuman
 latest:
-  0.5.0--hbbf5808_0: 
-    sha256:9e59cca05124929e0865c84e4b2ead6e0e01459ecf6c1e827b280d8817a00be7
+  0.5.1--hfa8f182_1: 
+    sha256:a67372a0b5117fb328ba116a26b1fde1bfe43b575d2c00031508776426a73678
 tags:
   0.1.0--h5076881_0: 
     sha256:35c8b08a3519cbb4ab40a5fb6b7e8f01917bb2d4182de76d0fa098e7294f7df2
@@ -19,6 +19,8 @@ tags:
     sha256:0ff7af4038fecb24ec6994bb65bacb369ba73ee0ae0d9badc3640146212de37a
   0.5.0--hbbf5808_0: 
     sha256:9e59cca05124929e0865c84e4b2ead6e0e01459ecf6c1e827b280d8817a00be7
+  0.5.1--hfa8f182_1: 
+    sha256:a67372a0b5117fb328ba116a26b1fde1bfe43b575d2c00031508776426a73678
 docker: quay.io/biocontainers/nohuman
 aliases:
   nohuman: /usr/local/bin/nohuman

@@ -12,8 +12,9 @@ tags:
     sha256:65387ea288c48008a40a104db42a1d0abbe1759d7726d17b6d3493c871b9776a
   1.18.0--r41hdfd78af_0: 
     sha256:28cc3ba47b1704fb12c70b1f5e13af19c19849fba4981a845c3e8db58e0ba679
-  1.16.0--r41hdfd78af_0: 
-    sha256:d8a1cd5a62042adeed3a3bd4a63c0b6ad0af9acec3c7fb791e6463defa7a57e8
+  1.16.0--r41hdfd78af_0: "crane digest quay.io/biocontainers/bioconductor-gcapc:1.16.0--r41hdfd78af_0:
+    unsupported status code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\
+    \n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
   1.14.0--r40hdfd78af_1: 
     sha256:ebf7fe8d2ca61c194bfbf2945d7732206a61572a4b0064d6afa4fbc46907636e
   1.12.0--r40_0: 

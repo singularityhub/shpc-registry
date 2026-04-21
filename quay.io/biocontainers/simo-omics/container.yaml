@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/simo-omics
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for simo-omics
 latest:
-  1.0.0--pyhdfd78af_1: 
-    sha256:963abcf83783736b2666f323970aed4e4a7e773b5d39096c531d44c226976951
+  1.0.0--pyhdfd78af_2: 
+    sha256:e0281ac1170cf0fd94e21246bace032933b904fcff51140a24e248422b6f5b87
 tags:
   1.0.0--pyhdfd78af_1: 
     sha256:963abcf83783736b2666f323970aed4e4a7e773b5d39096c531d44c226976951
+  1.0.0--pyhdfd78af_2: 
+    sha256:e0281ac1170cf0fd94e21246bace032933b904fcff51140a24e248422b6f5b87
 docker: quay.io/biocontainers/simo-omics
 aliases:
   session-info: /usr/local/bin/session-info
