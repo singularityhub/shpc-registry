@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-whopgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-whopgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-whopgenome/container.yaml"
-updated_at: "2026-04-21 05:23:09.296770"
+updated_at: "2026-04-22 05:09:43.406547"
 latest: "0.9.7--r44he56ddfa_10"
 container_url: "https://biocontainers.pro/tools/r-whopgenome"
 

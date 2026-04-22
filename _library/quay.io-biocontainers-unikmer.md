@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unikmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unikmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unikmer/container.yaml"
-updated_at: "2026-04-21 05:19:18.176187"
+updated_at: "2026-04-22 05:05:33.898213"
 latest: "0.20.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/unikmer"
 aliases:

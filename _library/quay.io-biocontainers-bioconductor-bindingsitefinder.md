@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bindingsitefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bindingsitefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bindingsitefinder/container.yaml"
-updated_at: "2026-04-21 05:25:14.546925"
+updated_at: "2026-04-22 05:11:51.787337"
 latest: "2.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bindingsitefinder"
 

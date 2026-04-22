@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmetashot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmetashot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmetashot/container.yaml"
-updated_at: "2026-04-21 05:11:52.754385"
+updated_at: "2026-04-22 04:57:06.065459"
 latest: "2.0--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/kmetashot"
 aliases:

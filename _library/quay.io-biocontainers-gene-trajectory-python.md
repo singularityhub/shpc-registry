@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gene-trajectory-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gene-trajectory-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gene-trajectory-python/container.yaml"
-updated_at: "2026-04-21 05:45:42.041637"
+updated_at: "2026-04-22 05:32:48.022859"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gene-trajectory-python"
 aliases:

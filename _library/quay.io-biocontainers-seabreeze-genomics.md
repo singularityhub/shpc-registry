@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seabreeze-genomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seabreeze-genomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seabreeze-genomics/container.yaml"
-updated_at: "2026-04-21 05:22:26.884775"
+updated_at: "2026-04-22 05:09:00.207241"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seabreeze-genomics"
 aliases:
