@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sashimi-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sashimi-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sashimi-py/container.yaml"
-updated_at: "2026-04-22 05:38:49.654813"
+updated_at: "2026-04-23 05:41:05.369012"
 latest: "0.1.5--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sashimi-py"
 aliases:

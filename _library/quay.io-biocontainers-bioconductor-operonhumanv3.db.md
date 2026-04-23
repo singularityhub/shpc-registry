@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-operonhumanv3.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-operonhumanv3.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-operonhumanv3.db/container.yaml"
-updated_at: "2026-04-22 05:37:59.147361"
+updated_at: "2026-04-23 05:40:12.945819"
 latest: "3.2.3--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-operonhumanv3.db"
 

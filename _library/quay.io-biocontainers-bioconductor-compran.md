@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-compran"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-compran/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-compran/container.yaml"
-updated_at: "2026-04-22 05:28:15.563833"
+updated_at: "2026-04-23 05:30:24.875830"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-compran"
 

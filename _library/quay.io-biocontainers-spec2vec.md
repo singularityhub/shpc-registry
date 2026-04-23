@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spec2vec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spec2vec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spec2vec/container.yaml"
-updated_at: "2026-04-22 04:51:07.190324"
+updated_at: "2026-04-23 04:54:51.064717"
 latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spec2vec"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methimpute/container.yaml"
-updated_at: "2026-04-22 05:26:45.379031"
+updated_at: "2026-04-23 05:28:49.911649"
 latest: "1.32.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methimpute"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sugarcanecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sugarcanecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sugarcanecdf/container.yaml"
-updated_at: "2026-04-22 05:18:18.735311"
+updated_at: "2026-04-23 05:20:07.696822"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-sugarcanecdf"
 

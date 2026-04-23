@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-grridge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grridge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grridge/container.yaml"
-updated_at: "2026-04-22 05:14:44.142141"
+updated_at: "2026-04-23 05:16:35.140539"
 latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grridge"
 aliases:

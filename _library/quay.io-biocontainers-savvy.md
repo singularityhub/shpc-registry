@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/savvy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/savvy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/savvy/container.yaml"
-updated_at: "2026-04-22 05:35:24.964293"
-latest: "2.1.0--h5b0a936_4"
+updated_at: "2026-04-23 05:37:33.250905"
+latest: "2.2.0--h8f7eaa7_0"
 container_url: "https://biocontainers.pro/tools/savvy"
 aliases:
  - "sav"
@@ -14,8 +14,9 @@ versions:
  - "2.1.0--h40c17d1_2"
  - "2.1.0--h5b0a936_3"
  - "2.1.0--h5b0a936_4"
+ - "2.2.0--h8f7eaa7_0"
 description: "shpc-registry automated BioContainers addition for savvy"
-config: {"url": "https://biocontainers.pro/tools/savvy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for savvy", "latest": {"2.1.0--h5b0a936_4": "sha256:5fe4360a77e8e0a641ecaacd094800b7a44e5be2c61454ae0498fb87d2ea14af"}, "tags": {"2.1.0--hfb1f815_0": "sha256:afdc978ed9c748ad990268a507b0140d99246e5c3d918a99e90d9b576213429b", "2.1.0--h40c17d1_2": "sha256:112dd22d4f335d43251e3b2a9da3426c4528b39fafe2e459028c6e4d9e74953f", "2.1.0--h5b0a936_3": "sha256:7402b6cda6e5b818c663a13ba39718f04f8f4f10bc903841ea53734dfbb276e0", "2.1.0--h5b0a936_4": "sha256:5fe4360a77e8e0a641ecaacd094800b7a44e5be2c61454ae0498fb87d2ea14af"}, "docker": "quay.io/biocontainers/savvy", "aliases": {"sav": "/usr/local/bin/sav"}}
+config: {"url": "https://biocontainers.pro/tools/savvy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for savvy", "latest": {"2.2.0--h8f7eaa7_0": "sha256:cae6e79387735876963e7fcc9a24cd339189a8ca0545688279e3c7fcdc07da46"}, "tags": {"2.1.0--hfb1f815_0": "sha256:afdc978ed9c748ad990268a507b0140d99246e5c3d918a99e90d9b576213429b", "2.1.0--h40c17d1_2": "sha256:112dd22d4f335d43251e3b2a9da3426c4528b39fafe2e459028c6e4d9e74953f", "2.1.0--h5b0a936_3": "sha256:7402b6cda6e5b818c663a13ba39718f04f8f4f10bc903841ea53734dfbb276e0", "2.1.0--h5b0a936_4": "sha256:5fe4360a77e8e0a641ecaacd094800b7a44e5be2c61454ae0498fb87d2ea14af", "2.2.0--h8f7eaa7_0": "sha256:cae6e79387735876963e7fcc9a24cd339189a8ca0545688279e3c7fcdc07da46"}, "docker": "quay.io/biocontainers/savvy", "aliases": {"sav": "/usr/local/bin/sav"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/savvy.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/savvy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/savvy:2.1.0--h5b0a936_4
+$ shpc install quay.io/biocontainers/savvy:2.2.0--h8f7eaa7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/savvy/2.1.0--h5b0a936_4
-$ module help quay.io/biocontainers/savvy/2.1.0--h5b0a936_4
+$ module load quay.io/biocontainers/savvy/2.2.0--h8f7eaa7_0
+$ module help quay.io/biocontainers/savvy/2.2.0--h8f7eaa7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

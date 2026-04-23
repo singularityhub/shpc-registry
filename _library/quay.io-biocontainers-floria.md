@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/floria"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/floria/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/floria/container.yaml"
-updated_at: "2026-04-22 05:29:50.442013"
+updated_at: "2026-04-23 05:32:01.444714"
 latest: "0.0.2--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/floria"
 aliases:

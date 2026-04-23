@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bioassayr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bioassayr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bioassayr/container.yaml"
-updated_at: "2026-04-22 05:09:09.444571"
+updated_at: "2026-04-23 05:11:03.748356"
 latest: "1.48.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bioassayr"
 aliases:

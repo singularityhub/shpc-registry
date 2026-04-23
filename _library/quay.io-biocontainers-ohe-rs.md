@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ohe-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ohe-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ohe-rs/container.yaml"
-updated_at: "2026-04-22 05:39:57.295127"
+updated_at: "2026-04-23 05:42:17.237464"
 latest: "0.1.0--py310h7e03b2b_0"
 container_url: "https://biocontainers.pro/tools/ohe-rs"
 aliases:
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.0--py310h7e03b2b_0"
+ - "0.1.0--py311h3a51709_0"
 description: "singularity registry hpc automated addition for ohe-rs"
-config: {"url": "https://biocontainers.pro/tools/ohe-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ohe-rs", "latest": {"0.1.0--py310h7e03b2b_0": "sha256:d111374e330acd6b4853fb7f59295984e5b9f3b63547bf18e902446a2454366a"}, "tags": {"0.1.0--py310h7e03b2b_0": "sha256:d111374e330acd6b4853fb7f59295984e5b9f3b63547bf18e902446a2454366a"}, "docker": "quay.io/biocontainers/ohe-rs", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/ohe-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ohe-rs", "latest": {"0.1.0--py310h7e03b2b_0": "sha256:d111374e330acd6b4853fb7f59295984e5b9f3b63547bf18e902446a2454366a"}, "tags": {"0.1.0--py310h7e03b2b_0": "sha256:d111374e330acd6b4853fb7f59295984e5b9f3b63547bf18e902446a2454366a", "0.1.0--py311h3a51709_0": "sha256:c68a0bfc43f94954eaac5cf4d60614f18e8b3e0fb5d92782d21be1d7495ce3bc"}, "docker": "quay.io/biocontainers/ohe-rs", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ohe-rs.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bpp-popgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpp-popgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpp-popgen/container.yaml"
-updated_at: "2026-04-22 05:45:23.831382"
-latest: "2.4.1--h9948957_5"
+updated_at: "2026-04-23 05:48:04.383752"
+latest: "3.0.0--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/bpp-popgen"
 
 versions:
  - "2.4.1--h9f5acd7_3"
  - "2.4.1--h4ac6f70_4"
  - "2.4.1--h9948957_5"
+ - "3.0.0--hd63eeec_0"
 description: "shpc-registry automated BioContainers addition for bpp-popgen"
-config: {"url": "https://biocontainers.pro/tools/bpp-popgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpp-popgen", "latest": {"2.4.1--h9948957_5": "sha256:ed1ecb5ee82465cea64652b1c0716f359d88d1c6891cac057dcdd1210a94ff5f"}, "tags": {"2.4.1--h9f5acd7_3": "sha256:e0d077bbd4951f9f27a4460d613e3229f06dd2b089d856a01bd325f6ac607fe6", "2.4.1--h4ac6f70_4": "sha256:01460edba08258896628a582fe036603dbc82f19c3126ed668954c4c5c95fb35", "2.4.1--h9948957_5": "sha256:ed1ecb5ee82465cea64652b1c0716f359d88d1c6891cac057dcdd1210a94ff5f"}, "docker": "quay.io/biocontainers/bpp-popgen"}
+config: {"url": "https://biocontainers.pro/tools/bpp-popgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpp-popgen", "latest": {"3.0.0--hd63eeec_0": "sha256:203d897f058a28fe659bd0e6254053aba7bb5c582cc87ff2c26ed45159cb3222"}, "tags": {"2.4.1--h9f5acd7_3": "sha256:e0d077bbd4951f9f27a4460d613e3229f06dd2b089d856a01bd325f6ac607fe6", "2.4.1--h4ac6f70_4": "sha256:01460edba08258896628a582fe036603dbc82f19c3126ed668954c4c5c95fb35", "2.4.1--h9948957_5": "sha256:ed1ecb5ee82465cea64652b1c0716f359d88d1c6891cac057dcdd1210a94ff5f", "3.0.0--hd63eeec_0": "sha256:203d897f058a28fe659bd0e6254053aba7bb5c582cc87ff2c26ed45159cb3222"}, "docker": "quay.io/biocontainers/bpp-popgen"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bpp-popgen.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bpp-popgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bpp-popgen:2.4.1--h9948957_5
+$ shpc install quay.io/biocontainers/bpp-popgen:3.0.0--hd63eeec_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bpp-popgen/2.4.1--h9948957_5
-$ module help quay.io/biocontainers/bpp-popgen/2.4.1--h9948957_5
+$ module load quay.io/biocontainers/bpp-popgen/3.0.0--hd63eeec_0
+$ module help quay.io/biocontainers/bpp-popgen/3.0.0--hd63eeec_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

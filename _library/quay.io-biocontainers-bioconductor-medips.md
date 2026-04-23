@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-medips"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-medips/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-medips/container.yaml"
-updated_at: "2026-04-22 05:19:13.704243"
+updated_at: "2026-04-23 05:21:01.576527"
 latest: "1.58.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-medips"
 

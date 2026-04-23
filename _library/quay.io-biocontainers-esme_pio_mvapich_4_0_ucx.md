@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esme_pio_mvapich_4_0_ucx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_pio_mvapich_4_0_ucx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_pio_mvapich_4_0_ucx/container.yaml"
-updated_at: "2026-04-22 04:59:29.933309"
+updated_at: "2026-04-23 05:02:15.140506"
 latest: "2.6.6--hf580d27_0"
 container_url: "https://biocontainers.pro/tools/esme_pio_mvapich_4_0_ucx"
 

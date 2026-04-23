@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libgff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgff/container.yaml"
-updated_at: "2026-04-22 04:49:23.778533"
+updated_at: "2026-04-23 04:53:17.878309"
 latest: "2.0.1--hf426362_0"
 container_url: "https://biocontainers.pro/tools/libgff"
 

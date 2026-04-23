@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-asics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asics/container.yaml"
-updated_at: "2026-04-22 05:08:10.786273"
+updated_at: "2026-04-23 05:10:06.014663"
 latest: "2.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asics"
 aliases:

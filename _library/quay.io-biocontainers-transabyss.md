@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/transabyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transabyss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transabyss/container.yaml"
-updated_at: "2026-04-22 05:29:14.722699"
-latest: "2.0.1--pyh864c0ab_7"
+updated_at: "2026-04-23 05:31:27.349054"
+latest: "2.0.1--pyhdfd78af_8"
 container_url: "https://biocontainers.pro/tools/transabyss"
 aliases:
  - "abyss-db-csv"
@@ -28,8 +28,9 @@ aliases:
  - "ABYSS-P"
 versions:
  - "2.0.1--pyh864c0ab_7"
+ - "2.0.1--pyhdfd78af_8"
 description: "shpc-registry automated BioContainers addition for transabyss"
-config: {"url": "https://biocontainers.pro/tools/transabyss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transabyss", "latest": {"2.0.1--pyh864c0ab_7": "sha256:ddd0b0fab398267c0a1257cc36f0d880d72fdaaa59e5113552cb770c812b34f7"}, "tags": {"2.0.1--pyh864c0ab_7": "sha256:ddd0b0fab398267c0a1257cc36f0d880d72fdaaa59e5113552cb770c812b34f7"}, "docker": "quay.io/biocontainers/transabyss", "aliases": {"abyss-db-csv": "/usr/local/bin/abyss-db-csv", "skip_psl_self.awk": "/usr/local/bin/skip_psl_self.awk", "skip_psl_self_ss.awk": "/usr/local/bin/skip_psl_self_ss.awk", "strip_sam_qual.awk": "/usr/local/bin/strip_sam_qual.awk", "strip_sam_seq_qual.awk": "/usr/local/bin/strip_sam_seq_qual.awk", "strip_sam_seq_qual_noself.awk": "/usr/local/bin/strip_sam_seq_qual_noself.awk", "transabyss": "/usr/local/bin/transabyss", "transabyss-merge": "/usr/local/bin/transabyss-merge", "abyss-bloom-dbg": "/usr/local/bin/abyss-bloom-dbg", "abyss-bloom-dist.mk.Makefile": "/usr/local/bin/abyss-bloom-dist.mk.Makefile", "abyss-db-txt": "/usr/local/bin/abyss-db-txt", "abyss-dida": "/usr/local/bin/abyss-dida", "abyss-paired-dbg": "/usr/local/bin/abyss-paired-dbg", "abyss-paired-dbg-mpi": "/usr/local/bin/abyss-paired-dbg-mpi", "abyss-pe.Makefile": "/usr/local/bin/abyss-pe.Makefile", "abyss-sealer": "/usr/local/bin/abyss-sealer", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P"}}
+config: {"url": "https://biocontainers.pro/tools/transabyss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transabyss", "latest": {"2.0.1--pyhdfd78af_8": "sha256:fad6fc08414233581843f244c64c4f7b6c0a2cc37c2e353164fd0293ebe975af"}, "tags": {"2.0.1--pyh864c0ab_7": "sha256:ddd0b0fab398267c0a1257cc36f0d880d72fdaaa59e5113552cb770c812b34f7", "2.0.1--pyhdfd78af_8": "sha256:fad6fc08414233581843f244c64c4f7b6c0a2cc37c2e353164fd0293ebe975af"}, "docker": "quay.io/biocontainers/transabyss", "aliases": {"abyss-db-csv": "/usr/local/bin/abyss-db-csv", "skip_psl_self.awk": "/usr/local/bin/skip_psl_self.awk", "skip_psl_self_ss.awk": "/usr/local/bin/skip_psl_self_ss.awk", "strip_sam_qual.awk": "/usr/local/bin/strip_sam_qual.awk", "strip_sam_seq_qual.awk": "/usr/local/bin/strip_sam_seq_qual.awk", "strip_sam_seq_qual_noself.awk": "/usr/local/bin/strip_sam_seq_qual_noself.awk", "transabyss": "/usr/local/bin/transabyss", "transabyss-merge": "/usr/local/bin/transabyss-merge", "abyss-bloom-dbg": "/usr/local/bin/abyss-bloom-dbg", "abyss-bloom-dist.mk.Makefile": "/usr/local/bin/abyss-bloom-dist.mk.Makefile", "abyss-db-txt": "/usr/local/bin/abyss-db-txt", "abyss-dida": "/usr/local/bin/abyss-dida", "abyss-paired-dbg": "/usr/local/bin/abyss-paired-dbg", "abyss-paired-dbg-mpi": "/usr/local/bin/abyss-paired-dbg-mpi", "abyss-pe.Makefile": "/usr/local/bin/abyss-pe.Makefile", "abyss-sealer": "/usr/local/bin/abyss-sealer", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transabyss.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/transabyss
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/transabyss:2.0.1--pyh864c0ab_7
+$ shpc install quay.io/biocontainers/transabyss:2.0.1--pyhdfd78af_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/transabyss/2.0.1--pyh864c0ab_7
-$ module help quay.io/biocontainers/transabyss/2.0.1--pyh864c0ab_7
+$ module load quay.io/biocontainers/transabyss/2.0.1--pyhdfd78af_8
+$ module help quay.io/biocontainers/transabyss/2.0.1--pyhdfd78af_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
