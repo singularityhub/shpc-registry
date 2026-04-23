@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/beast2-xml
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for beast2-xml
 latest:
-  1.5.1--py312h7e72e81_0: 
-    sha256:b6b6db7831fb3befd0a9cf2c6ed592c1a3bb0971e29be55a519b9fdc77f824e5
+  1.5.2--pyhdfd78af_0: 
+    sha256:27eadb6dfa9c0530807552725ae8f6ae9dbe1744966650027a55a154bf1ef9e8
 tags:
   1.5.1--py312h7e72e81_0: 
     sha256:b6b6db7831fb3befd0a9cf2c6ed592c1a3bb0971e29be55a519b9fdc77f824e5
+  1.5.2--pyhdfd78af_0: 
+    sha256:27eadb6dfa9c0530807552725ae8f6ae9dbe1744966650027a55a154bf1ef9e8
 docker: quay.io/biocontainers/beast2-xml
 aliases:
   aa-compare.py: /usr/local/bin/aa-compare.py

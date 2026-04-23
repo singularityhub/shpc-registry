@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/transabyss
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for transabyss
 latest:
-  2.0.1--pyh864c0ab_7: 
-    sha256:ddd0b0fab398267c0a1257cc36f0d880d72fdaaa59e5113552cb770c812b34f7
+  2.0.1--pyhdfd78af_8: 
+    sha256:fad6fc08414233581843f244c64c4f7b6c0a2cc37c2e353164fd0293ebe975af
 tags:
   2.0.1--pyh864c0ab_7: 
     sha256:ddd0b0fab398267c0a1257cc36f0d880d72fdaaa59e5113552cb770c812b34f7
+  2.0.1--pyhdfd78af_8: 
+    sha256:fad6fc08414233581843f244c64c4f7b6c0a2cc37c2e353164fd0293ebe975af
 docker: quay.io/biocontainers/transabyss
 aliases:
   abyss-db-csv: /usr/local/bin/abyss-db-csv

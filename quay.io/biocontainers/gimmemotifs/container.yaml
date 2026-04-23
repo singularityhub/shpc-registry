@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gimmemotifs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gimmemotifs
 latest:
-  0.18.1--h9ee0642_1: 
-    sha256:6e8936da46ade55c3b83cea7513eea82c3d12357a1843e56886a61ee7fb813f8
+  0.18.2--py311h362c646_0: 
+    sha256:047be9a4f1518f1b3a22265f481db644dbc5ab6f84863b17f23721d85643be2e
 tags:
   0.15.3--py38hc37a69a_0: 
     sha256:499f887e239bee3ed4d0cf87d0ae4a49fe5c90457dcfdf462c3e88db43b08636
@@ -21,6 +21,8 @@ tags:
     sha256:bc01ab962720048bc3f150f1be30865dddeb2e6c30a8be7844a29b4a9470dcd3
   0.18.1--h9ee0642_1: 
     sha256:6e8936da46ade55c3b83cea7513eea82c3d12357a1843e56886a61ee7fb813f8
+  0.18.2--py311h362c646_0: 
+    sha256:047be9a4f1518f1b3a22265f481db644dbc5ab6f84863b17f23721d85643be2e
 docker: quay.io/biocontainers/gimmemotifs
 aliases:
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl

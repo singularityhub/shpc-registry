@@ -7,6 +7,8 @@ latest:
 tags:
   0.1.0--py310h7e03b2b_0: 
     sha256:d111374e330acd6b4853fb7f59295984e5b9f3b63547bf18e902446a2454366a
+  0.1.0--py311h3a51709_0: 
+    sha256:c68a0bfc43f94954eaac5cf4d60614f18e8b3e0fb5d92782d21be1d7495ce3bc
 docker: quay.io/biocontainers/ohe-rs
 aliases:
   numpy-config: /usr/local/bin/numpy-config
