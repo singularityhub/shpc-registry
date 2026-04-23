@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-roleswitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roleswitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roleswitch/container.yaml"
-updated_at: "2026-04-23 05:03:48.560849"
+updated_at: "2026-04-23 19:37:43.770534"
 latest: "1.25.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-roleswitch"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bubblefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bubblefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bubblefinder/container.yaml"
-updated_at: "2026-04-23 05:06:51.531197"
+updated_at: "2026-04-23 19:40:43.958795"
 latest: "1.0.3--h503566f_0"
 container_url: "https://biocontainers.pro/tools/bubblefinder"
 aliases:

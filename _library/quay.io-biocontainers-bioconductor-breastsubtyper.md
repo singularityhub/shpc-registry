@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-breastsubtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-breastsubtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-breastsubtyper/container.yaml"
-updated_at: "2026-04-23 05:08:58.369383"
+updated_at: "2026-04-23 19:42:50.223676"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-breastsubtyper"
 aliases:

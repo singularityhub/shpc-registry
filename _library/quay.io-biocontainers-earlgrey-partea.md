@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/earlgrey-partea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/earlgrey-partea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/earlgrey-partea/container.yaml"
-updated_at: "2026-04-23 04:54:42.565235"
+updated_at: "2026-04-23 19:28:45.076379"
 latest: "0.1.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/earlgrey-partea"
 aliases:
