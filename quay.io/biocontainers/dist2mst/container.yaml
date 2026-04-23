@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/dist2mst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dist2mst
+latest:
+  0.0.2--pyhdfd78af_0: 
+    sha256:ba0e22d7c76d33cdad6795a4907d7818e689e7efc0bf9806bf02d987d1d2b6a3
+tags:
+  0.0.2--pyhdfd78af_0: 
+    sha256:ba0e22d7c76d33cdad6795a4907d7818e689e7efc0bf9806bf02d987d1d2b6a3
+docker: quay.io/biocontainers/dist2mst
+aliases:
+  dist2mst: /usr/local/bin/dist2mst
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numba: /usr/local/bin/numba
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm

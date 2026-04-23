@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/dist2mst-rs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dist2mst-rs
+latest:
+  0.1.0--hab7d0fd_0: 
+    sha256:e185165c749ae860bcd87344ed5dcf052f268bd9324c9a11f3b65d23fa157840
+tags:
+  0.1.0--hab7d0fd_0: 
+    sha256:e185165c749ae860bcd87344ed5dcf052f268bd9324c9a11f3b65d23fa157840
+docker: quay.io/biocontainers/dist2mst-rs
+aliases:
+  dist2mst: /usr/local/bin/dist2mst
