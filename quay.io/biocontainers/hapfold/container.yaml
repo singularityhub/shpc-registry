@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/hapfold
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hapfold
+latest:
+  0.1.0--h5814d7d_0: 
+    sha256:a4e30c0adfd9ab95db982baba1ef78b75452f9b2678125061de9c18c9caa70e0
+tags:
+  0.1.0--h5814d7d_0: 
+    sha256:a4e30c0adfd9ab95db982baba1ef78b75452f9b2678125061de9c18c9caa70e0
+docker: quay.io/biocontainers/hapfold
+aliases:
+  HapFold: /usr/local/bin/HapFold
+  hapfold: /usr/local/bin/hapfold
