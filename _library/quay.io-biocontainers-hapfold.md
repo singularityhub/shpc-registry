@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hapfold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hapfold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hapfold/container.yaml"
-updated_at: "2026-04-23 19:40:51.451870"
+updated_at: "2026-04-24 05:11:33.407853"
 latest: "0.1.0--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/hapfold"
 aliases:

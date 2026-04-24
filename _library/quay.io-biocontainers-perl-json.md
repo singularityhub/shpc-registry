@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-json"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json/container.yaml"
-updated_at: "2026-04-23 19:40:50.021494"
-latest: "4.10--pl5321hdfd78af_1"
+updated_at: "2026-04-24 05:11:31.957427"
+latest: "4.11--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-json"
 
 versions:
  - "4.10--pl5321hdfd78af_0"
  - "4.10--pl5321hdfd78af_1"
+ - "4.11--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-json"
-config: {"url": "https://biocontainers.pro/tools/perl-json", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json", "latest": {"4.10--pl5321hdfd78af_1": "sha256:86ed7274fb215be49b1f79a41bc9bc523e520b20b5dc6ef65efde91b20a4b6d5"}, "tags": {"4.10--pl5321hdfd78af_0": "sha256:51e2fe2e640859a2dd73ecdac638687927e5afca83e92dc20162a44679d98e22", "4.10--pl5321hdfd78af_1": "sha256:86ed7274fb215be49b1f79a41bc9bc523e520b20b5dc6ef65efde91b20a4b6d5"}, "docker": "quay.io/biocontainers/perl-json"}
+config: {"url": "https://biocontainers.pro/tools/perl-json", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json", "latest": {"4.11--pl5321hdfd78af_0": "sha256:27964494e7024f978cb12067d59546646d5dd9bfaa89cea5f5d2f6c8f6070c96"}, "tags": {"4.10--pl5321hdfd78af_0": "sha256:51e2fe2e640859a2dd73ecdac638687927e5afca83e92dc20162a44679d98e22", "4.10--pl5321hdfd78af_1": "sha256:86ed7274fb215be49b1f79a41bc9bc523e520b20b5dc6ef65efde91b20a4b6d5", "4.11--pl5321hdfd78af_0": "sha256:27964494e7024f978cb12067d59546646d5dd9bfaa89cea5f5d2f6c8f6070c96"}, "docker": "quay.io/biocontainers/perl-json"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-json.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/perl-json
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-json:4.10--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-json:4.11--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-json/4.10--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-json/4.10--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-json/4.11--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-json/4.11--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prseq/container.yaml"
-updated_at: "2026-04-23 20:20:43.342080"
+updated_at: "2026-04-24 05:52:07.482764"
 latest: "0.0.33--py310h7e03b2b_0"
 container_url: "https://biocontainers.pro/tools/prseq"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.0.33--py310h7e03b2b_0"
+ - "0.0.33--py312h07859c3_0"
 description: "singularity registry hpc automated addition for prseq"
-config: {"url": "https://biocontainers.pro/tools/prseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prseq", "latest": {"0.0.33--py310h7e03b2b_0": "sha256:efea91ca6d0a927faec793b89218afe2d7e39d1f4c1a27979a9149e9ed3116c5"}, "tags": {"0.0.33--py310h7e03b2b_0": "sha256:efea91ca6d0a927faec793b89218afe2d7e39d1f4c1a27979a9149e9ed3116c5"}, "docker": "quay.io/biocontainers/prseq", "aliases": {"fasta-filter": "/usr/local/bin/fasta-filter", "fasta-info": "/usr/local/bin/fasta-info", "fasta-stats": "/usr/local/bin/fasta-stats", "fastq-filter": "/usr/local/bin/fastq-filter", "fastq-info": "/usr/local/bin/fastq-info", "fastq-stats": "/usr/local/bin/fastq-stats", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/prseq", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for prseq", "latest": {"0.0.33--py310h7e03b2b_0": "sha256:efea91ca6d0a927faec793b89218afe2d7e39d1f4c1a27979a9149e9ed3116c5"}, "tags": {"0.0.33--py310h7e03b2b_0": "sha256:efea91ca6d0a927faec793b89218afe2d7e39d1f4c1a27979a9149e9ed3116c5", "0.0.33--py312h07859c3_0": "sha256:ed9c5a1f4cf92e37c96d8335da71b94dc2f041d48f44bfc134e7768e533c3f7a"}, "docker": "quay.io/biocontainers/prseq", "aliases": {"fasta-filter": "/usr/local/bin/fasta-filter", "fasta-info": "/usr/local/bin/fasta-info", "fasta-stats": "/usr/local/bin/fasta-stats", "fastq-filter": "/usr/local/bin/fastq-filter", "fastq-info": "/usr/local/bin/fastq-info", "fastq-stats": "/usr/local/bin/fastq-stats", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prseq.

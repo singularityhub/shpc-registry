@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snapatac2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snapatac2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snapatac2/container.yaml"
-updated_at: "2026-04-23 19:58:04.321317"
+updated_at: "2026-04-24 05:29:05.249007"
 latest: "2.8.0--py310ha7160b9_2"
 container_url: "https://biocontainers.pro/tools/snapatac2"
 aliases:

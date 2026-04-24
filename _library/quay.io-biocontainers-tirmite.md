@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tirmite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tirmite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tirmite/container.yaml"
-updated_at: "2026-04-23 20:11:40.947645"
-latest: "1.3.0--pyhdfd78af_0"
+updated_at: "2026-04-24 05:42:55.996166"
+latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tirmite"
 aliases:
  - "tirmite"
@@ -26,8 +26,9 @@ versions:
  - "1.1.6--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_0"
  - "1.3.0--pyhdfd78af_0"
+ - "1.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tirmite"
-config: {"url": "https://biocontainers.pro/tools/tirmite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tirmite", "latest": {"1.3.0--pyhdfd78af_0": "sha256:2f2bdb48653974269b08db5547a33692dfabdeb2de414af65a4ad0b1d5d5ae3b"}, "tags": {"1.1.4--py_0": "sha256:944707ca5b5d83d0f1338c6a8473fdf7b31097bcf8fd6757dc4b10402d85e1f6", "1.1.6--pyhdfd78af_0": "sha256:70102b8820bfc478138fee94e1311005a36708da1f9895667df681076c23c37c", "1.2.0--pyhdfd78af_0": "sha256:0079782502f5c59f6bee8f474587597f61ef62cc8c0b715af600efff425f5c67", "1.3.0--pyhdfd78af_0": "sha256:2f2bdb48653974269b08db5547a33692dfabdeb2de414af65a4ad0b1d5d5ae3b"}, "docker": "quay.io/biocontainers/tirmite", "aliases": {"tirmite": "/usr/local/bin/tirmite", "tsplit-LTR": "/usr/local/bin/tsplit-LTR", "tsplit-TIR": "/usr/local/bin/tsplit-TIR", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
+config: {"url": "https://biocontainers.pro/tools/tirmite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tirmite", "latest": {"1.4.0--pyhdfd78af_0": "sha256:44c8bb7a9165b6a62873ebdac13dc8e9fc697216f15efc3eeb8bc7765507f65d"}, "tags": {"1.1.4--py_0": "sha256:944707ca5b5d83d0f1338c6a8473fdf7b31097bcf8fd6757dc4b10402d85e1f6", "1.1.6--pyhdfd78af_0": "sha256:70102b8820bfc478138fee94e1311005a36708da1f9895667df681076c23c37c", "1.2.0--pyhdfd78af_0": "sha256:0079782502f5c59f6bee8f474587597f61ef62cc8c0b715af600efff425f5c67", "1.3.0--pyhdfd78af_0": "sha256:2f2bdb48653974269b08db5547a33692dfabdeb2de414af65a4ad0b1d5d5ae3b", "1.4.0--pyhdfd78af_0": "sha256:44c8bb7a9165b6a62873ebdac13dc8e9fc697216f15efc3eeb8bc7765507f65d"}, "docker": "quay.io/biocontainers/tirmite", "aliases": {"tirmite": "/usr/local/bin/tirmite", "tsplit-LTR": "/usr/local/bin/tsplit-LTR", "tsplit-TIR": "/usr/local/bin/tsplit-TIR", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tirmite.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/tirmite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tirmite:1.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tirmite:1.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tirmite/1.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/tirmite/1.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/tirmite/1.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/tirmite/1.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
