@@ -7,6 +7,8 @@ latest:
 tags:
   0.0.33--py310h7e03b2b_0: 
     sha256:efea91ca6d0a927faec793b89218afe2d7e39d1f4c1a27979a9149e9ed3116c5
+  0.0.33--py312h07859c3_0: 
+    sha256:ed9c5a1f4cf92e37c96d8335da71b94dc2f041d48f44bfc134e7768e533c3f7a
 docker: quay.io/biocontainers/prseq
 aliases:
   fasta-filter: /usr/local/bin/fasta-filter

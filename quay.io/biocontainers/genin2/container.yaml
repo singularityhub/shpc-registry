@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/genin2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genin2
 latest:
-  2.1.5--pyhdfd78af_0: 
-    sha256:abda48eaff17ef82ba16f07d3732644c6f178baf794ae6afbc0ae2e24f5a20f8
+  2.1.6--pyhdfd78af_0: 
+    sha256:3f9367d62aed7ed3282f5e39db78eec79defd9a55891a4e2565748367992855d
 tags:
   2.1.2--pyhdfd78af_0: 
     sha256:6e7a89b10fda980cd8e73c411b3210101205fb02e304dd18cbca2d7466ac95fb
@@ -11,6 +11,8 @@ tags:
     sha256:3c1323da02de46feb9591548bd71f819bc4929754ec17eebde3a95b2477e6e3f
   2.1.5--pyhdfd78af_0: 
     sha256:abda48eaff17ef82ba16f07d3732644c6f178baf794ae6afbc0ae2e24f5a20f8
+  2.1.6--pyhdfd78af_0: 
+    sha256:3f9367d62aed7ed3282f5e39db78eec79defd9a55891a4e2565748367992855d
 docker: quay.io/biocontainers/genin2
 aliases:
   genin2: /usr/local/bin/genin2

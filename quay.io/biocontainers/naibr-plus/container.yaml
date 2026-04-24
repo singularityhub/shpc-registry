@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/naibr-plus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for naibr-plus
 latest:
-  0.5.3--pyhdfd78af_0: 
-    sha256:ab7d91ce14ea6b0110fddd17410ae368afd78682c6c093e65e997bffb3996ede
+  0.5.4--pyhdfd78af_0: 
+    sha256:0a7607fb81b3f2876954870d15ede6b85148ed4e0adce38652a301b360d80711
 tags:
   0.5--pyhdfd78af_0: 
     sha256:e77ae9067adc075be566b5e46d2ddaa66d760e11a08ab0e983433dad7e54c060
@@ -13,6 +13,8 @@ tags:
     sha256:854385f8d34db9dc94599ec85909b8a44f8cf5be56ba08a026b0591a91e27f8d
   0.5.3--pyhdfd78af_0: 
     sha256:ab7d91ce14ea6b0110fddd17410ae368afd78682c6c093e65e997bffb3996ede
+  0.5.4--pyhdfd78af_0: 
+    sha256:0a7607fb81b3f2876954870d15ede6b85148ed4e0adce38652a301b360d80711
 docker: quay.io/biocontainers/naibr-plus
 aliases:
   naibr: /usr/local/bin/naibr
