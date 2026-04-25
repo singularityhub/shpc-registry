@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nomnom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nomnom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nomnom/container.yaml"
-updated_at: "2026-04-24 05:41:43.102933"
+updated_at: "2026-04-25 05:21:49.280965"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nomnom"
 aliases:

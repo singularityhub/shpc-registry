@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/virasign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virasign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virasign/container.yaml"
-updated_at: "2026-04-24 05:16:51.263637"
-latest: "0.0.2--pyhdfd78af_0"
+updated_at: "2026-04-25 04:57:38.763415"
+latest: "0.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virasign"
 aliases:
  - "virasign"
@@ -37,8 +37,9 @@ aliases:
  - "k8"
 versions:
  - "0.0.2--pyhdfd78af_0"
+ - "0.0.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for virasign"
-config: {"url": "https://biocontainers.pro/tools/virasign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virasign", "latest": {"0.0.2--pyhdfd78af_0": "sha256:277f9eb980a026ac9375c374f7210d04551d60edf7edc78ada7f8990f261abb7"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:277f9eb980a026ac9375c374f7210d04551d60edf7edc78ada7f8990f261abb7"}, "docker": "quay.io/biocontainers/virasign", "aliases": {"virasign": "/usr/local/bin/virasign", "zless": "/usr/local/bin/zless", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aria2c": "/usr/local/bin/aria2c", "mmseqs": "/usr/local/bin/mmseqs", "seqtk": "/usr/local/bin/seqtk", "gawkbug": "/usr/local/bin/gawkbug", "annot-tsv": "/usr/local/bin/annot-tsv", "gawk": "/usr/local/bin/gawk", "awk": "/usr/local/bin/awk", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/virasign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virasign", "latest": {"0.0.6--pyhdfd78af_0": "sha256:74c71fa675916892e71ea1b03c22340385e45bc68f54468ea759dd7f6f31e26f"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:277f9eb980a026ac9375c374f7210d04551d60edf7edc78ada7f8990f261abb7", "0.0.6--pyhdfd78af_0": "sha256:74c71fa675916892e71ea1b03c22340385e45bc68f54468ea759dd7f6f31e26f"}, "docker": "quay.io/biocontainers/virasign", "aliases": {"virasign": "/usr/local/bin/virasign", "zless": "/usr/local/bin/zless", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aria2c": "/usr/local/bin/aria2c", "mmseqs": "/usr/local/bin/mmseqs", "seqtk": "/usr/local/bin/seqtk", "gawkbug": "/usr/local/bin/gawkbug", "annot-tsv": "/usr/local/bin/annot-tsv", "gawk": "/usr/local/bin/gawk", "awk": "/usr/local/bin/awk", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/virasign.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/virasign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/virasign:0.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/virasign:0.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/virasign/0.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/virasign/0.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/virasign/0.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/virasign/0.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dnazoodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dnazoodata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dnazoodata/container.yaml"
-updated_at: "2026-04-24 05:40:37.101774"
+updated_at: "2026-04-25 05:20:44.945819"
 latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dnazoodata"
 aliases:

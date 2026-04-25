@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cesar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cesar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cesar/container.yaml"
-updated_at: "2026-04-24 05:31:36.343960"
-latest: "1.01--h503566f_3"
+updated_at: "2026-04-25 05:12:00.060359"
+latest: "1.02--hde5307d_0"
 container_url: "https://biocontainers.pro/tools/cesar"
 aliases:
  - "cesar"
@@ -13,8 +13,9 @@ versions:
  - "1.01--h87f3376_0"
  - "1.01--hdbdd923_2"
  - "1.01--h503566f_3"
+ - "1.02--hde5307d_0"
 description: "singularity registry hpc automated addition for cesar"
-config: {"url": "https://biocontainers.pro/tools/cesar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cesar", "latest": {"1.01--h503566f_3": "sha256:0856466c1d733781f94d0959fb8adbf2ab968e22acc26a48c775082fa47840fb"}, "tags": {"1.01--h87f3376_0": "sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089", "1.01--hdbdd923_2": "sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81", "1.01--h503566f_3": "sha256:0856466c1d733781f94d0959fb8adbf2ab968e22acc26a48c775082fa47840fb"}, "docker": "quay.io/biocontainers/cesar", "aliases": {"cesar": "/usr/local/bin/cesar"}}
+config: {"url": "https://biocontainers.pro/tools/cesar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cesar", "latest": {"1.02--hde5307d_0": "sha256:aad5454c7038a3eb839015d7628d4d8835eb42d1fa99440a0fd810b80b0cb3df"}, "tags": {"1.01--h87f3376_0": "sha256:0590933a637180c856d18def0a9cdd073bed15093f361608db8a97c6e0fc0089", "1.01--hdbdd923_2": "sha256:8f80af6d8e8d2fff5a9ad0002a0cb22d733711f27cf1174575b7ae20b6966e81", "1.01--h503566f_3": "sha256:0856466c1d733781f94d0959fb8adbf2ab968e22acc26a48c775082fa47840fb", "1.02--hde5307d_0": "sha256:aad5454c7038a3eb839015d7628d4d8835eb42d1fa99440a0fd810b80b0cb3df"}, "docker": "quay.io/biocontainers/cesar", "aliases": {"cesar": "/usr/local/bin/cesar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cesar.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/cesar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cesar:1.01--h503566f_3
+$ shpc install quay.io/biocontainers/cesar:1.02--hde5307d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cesar/1.01--h503566f_3
-$ module help quay.io/biocontainers/cesar/1.01--h503566f_3
+$ module load quay.io/biocontainers/cesar/1.02--hde5307d_0
+$ module help quay.io/biocontainers/cesar/1.02--hde5307d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
