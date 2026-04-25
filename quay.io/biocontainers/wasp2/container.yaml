@@ -7,6 +7,8 @@ latest:
 tags:
   1.4.0--py311h169748d_0: 
     sha256:cb629c7c69ed6d481eaffac80298d56ab68d9e920dff9e82109fd4a30aca03c8
+  1.4.0--py312he226335_0: 
+    sha256:55284a8edca273d7bc540b79ee45c5cf3ce085efa7b391131895c72214b25a27
 docker: quay.io/biocontainers/wasp2
 aliases:
   session-info: /usr/local/bin/session-info

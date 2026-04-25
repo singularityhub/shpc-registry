@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rasusa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rasusa
 latest:
-  3.0.0--h54198d6_0: 
-    sha256:e9d32d27144a6a1bb857d15ce0141723c4497b3724978820d13804125119877d
+  4.0.0--h54198d6_0: 
+    sha256:139cea1b210e620b24089e96a2f32844c99fd79905efe6edf7023164115f0e51
 tags:
   0.7.0--hec16e2b_1: 
     sha256:0ece28f6a09a00cc777718efee938fe5721cf4f3295ffaad1138d3711633c970
@@ -29,6 +29,8 @@ tags:
     sha256:452e2c7cd0644e827a51f5ee22541d97c863b9b0e1ab0e1075def2aaa28e9aeb
   3.0.0--h54198d6_0: 
     sha256:e9d32d27144a6a1bb857d15ce0141723c4497b3724978820d13804125119877d
+  4.0.0--h54198d6_0: 
+    sha256:139cea1b210e620b24089e96a2f32844c99fd79905efe6edf7023164115f0e51
 docker: quay.io/biocontainers/rasusa
 aliases:
   rasusa: /usr/local/bin/rasusa
