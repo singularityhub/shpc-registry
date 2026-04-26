@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/aastk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aastk
 latest:
-  0.1.0--pyh1f0d9b5_0: 
-    sha256:c46b95eee6a8b9a4e0b17e628c8eb2c302c210cbc47d08501ff7a971b7b7ddc6
+  0.1.1--pyh1f0d9b5_0: 
+    sha256:aaceeecff7d96f6964c9ad12735f5b18656077376a4827416ef26629e66df2fc
 tags:
   0.1.0--pyh1f0d9b5_0: 
     sha256:c46b95eee6a8b9a4e0b17e628c8eb2c302c210cbc47d08501ff7a971b7b7ddc6
+  0.1.1--pyh1f0d9b5_0: 
+    sha256:aaceeecff7d96f6964c9ad12735f5b18656077376a4827416ef26629e66df2fc
 docker: quay.io/biocontainers/aastk
 aliases:
   aastk: /usr/local/bin/aastk

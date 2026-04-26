@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/multiqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for multiqc
 latest:
-  1.33--pyhdfd78af_0: 
-    sha256:dfd9fde2c48b896b884e79a71ddc16c72c97a0ee5c5c8e45aaba50f55d07d263
+  1.34--pyhdfd78af_0: 
+    sha256:c6cbb73af77cc2eb59a926e41967dd2a7bdbb12cefe7e325c130ecde7e8730af
 tags:
   1.9--py_1: 
     sha256:67cc651cb350b1ee2fc0929bd6bcd5189ec8c17f09566a3cd54cde7479e48a09
@@ -59,6 +59,8 @@ tags:
     sha256:dfd9fde2c48b896b884e79a71ddc16c72c97a0ee5c5c8e45aaba50f55d07d263
   1.32--pyhdfd78af_2: 
     sha256:87471773c3b64012ef03340d0fe2ec8bbb1e8bd2ff8d5fd14cbf5327594ed16a
+  1.34--pyhdfd78af_0: 
+    sha256:c6cbb73af77cc2eb59a926e41967dd2a7bdbb12cefe7e325c130ecde7e8730af
 docker: quay.io/biocontainers/multiqc
 aliases:
   multiqc: /usr/local/bin/multiqc

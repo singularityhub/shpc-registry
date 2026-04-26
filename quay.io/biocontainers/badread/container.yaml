@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/badread
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for badread
 latest:
-  0.4.1--pyhdfd78af_0: 
-    sha256:dc6d5d341b0874a3b637c46e1e035e424b100d41953d56ef8f6601af13f6ca1a
+  0.4.2--pyhdfd78af_0: 
+    sha256:7aa10f4f12c3172ce1657966ce82b882a16319a2032c47fa6489af5cf5bdc80f
 tags:
   0.2.0--py_0: 
     sha256:8ca62c6bcca0457ec337629e60d783da5b7a0cbf6b9c47e863c53099c33d624f
@@ -13,6 +13,8 @@ tags:
     sha256:db589c2778368935f6d36abea4b7d248122e843f68848f49a6260edf383a2294
   0.4.1--pyhdfd78af_0: 
     sha256:dc6d5d341b0874a3b637c46e1e035e424b100d41953d56ef8f6601af13f6ca1a
+  0.4.2--pyhdfd78af_0: 
+    sha256:7aa10f4f12c3172ce1657966ce82b882a16319a2032c47fa6489af5cf5bdc80f
 docker: quay.io/biocontainers/badread
 aliases:
   badread: /usr/local/bin/badread
