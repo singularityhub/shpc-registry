@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pridepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pridepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pridepy/container.yaml"
-updated_at: "2026-04-25 05:23:28.541596"
-latest: "0.0.12--pyhdfd78af_0"
+updated_at: "2026-04-26 05:59:51.495036"
+latest: "0.0.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pridepy"
 aliases:
  - "pridepy"
@@ -19,8 +19,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.0.12--pyhdfd78af_0"
+ - "0.0.13--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pridepy"
-config: {"url": "https://biocontainers.pro/tools/pridepy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pridepy", "latest": {"0.0.12--pyhdfd78af_0": "sha256:135d1700dfe2eac3fee9774ef8e2e72d1f6d577049b1e58ed3c4a27184fe6b1c"}, "tags": {"0.0.12--pyhdfd78af_0": "sha256:135d1700dfe2eac3fee9774ef8e2e72d1f6d577049b1e58ed3c4a27184fe6b1c"}, "docker": "quay.io/biocontainers/pridepy", "aliases": {"pridepy": "/usr/local/bin/pridepy", "httpx": "/usr/local/bin/httpx", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jp.py": "/usr/local/bin/jp.py", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/pridepy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pridepy", "latest": {"0.0.13--pyhdfd78af_0": "sha256:29572b343d2acc485e21c9c6546b3a7285d8384bb943bd2ede58f97107c2dfd4"}, "tags": {"0.0.12--pyhdfd78af_0": "sha256:135d1700dfe2eac3fee9774ef8e2e72d1f6d577049b1e58ed3c4a27184fe6b1c", "0.0.13--pyhdfd78af_0": "sha256:29572b343d2acc485e21c9c6546b3a7285d8384bb943bd2ede58f97107c2dfd4"}, "docker": "quay.io/biocontainers/pridepy", "aliases": {"pridepy": "/usr/local/bin/pridepy", "httpx": "/usr/local/bin/httpx", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jp.py": "/usr/local/bin/jp.py", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pridepy.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pridepy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pridepy:0.0.12--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pridepy:0.0.13--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pridepy/0.0.12--pyhdfd78af_0
-$ module help quay.io/biocontainers/pridepy/0.0.12--pyhdfd78af_0
+$ module load quay.io/biocontainers/pridepy/0.0.13--pyhdfd78af_0
+$ module help quay.io/biocontainers/pridepy/0.0.13--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

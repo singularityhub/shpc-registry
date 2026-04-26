@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/aastk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aastk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aastk/container.yaml"
-updated_at: "2026-04-25 05:01:39.973515"
-latest: "0.1.0--pyh1f0d9b5_0"
+updated_at: "2026-04-26 05:37:50.499394"
+latest: "0.1.1--pyh1f0d9b5_0"
 container_url: "https://biocontainers.pro/tools/aastk"
 aliases:
  - "aastk"
@@ -34,8 +34,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.1.0--pyh1f0d9b5_0"
+ - "0.1.1--pyh1f0d9b5_0"
 description: "singularity registry hpc automated addition for aastk"
-config: {"url": "https://biocontainers.pro/tools/aastk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aastk", "latest": {"0.1.0--pyh1f0d9b5_0": "sha256:c46b95eee6a8b9a4e0b17e628c8eb2c302c210cbc47d08501ff7a971b7b7ddc6"}, "tags": {"0.1.0--pyh1f0d9b5_0": "sha256:c46b95eee6a8b9a4e0b17e628c8eb2c302c210cbc47d08501ff7a971b7b7ddc6"}, "docker": "quay.io/biocontainers/aastk", "aliases": {"aastk": "/usr/local/bin/aastk", "seqkit": "/usr/local/bin/seqkit", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "diamond": "/usr/local/bin/diamond", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/aastk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for aastk", "latest": {"0.1.1--pyh1f0d9b5_0": "sha256:aaceeecff7d96f6964c9ad12735f5b18656077376a4827416ef26629e66df2fc"}, "tags": {"0.1.0--pyh1f0d9b5_0": "sha256:c46b95eee6a8b9a4e0b17e628c8eb2c302c210cbc47d08501ff7a971b7b7ddc6", "0.1.1--pyh1f0d9b5_0": "sha256:aaceeecff7d96f6964c9ad12735f5b18656077376a4827416ef26629e66df2fc"}, "docker": "quay.io/biocontainers/aastk", "aliases": {"aastk": "/usr/local/bin/aastk", "seqkit": "/usr/local/bin/seqkit", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "diamond": "/usr/local/bin/diamond", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aastk.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/aastk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/aastk:0.1.0--pyh1f0d9b5_0
+$ shpc install quay.io/biocontainers/aastk:0.1.1--pyh1f0d9b5_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/aastk/0.1.0--pyh1f0d9b5_0
-$ module help quay.io/biocontainers/aastk/0.1.0--pyh1f0d9b5_0
+$ module load quay.io/biocontainers/aastk/0.1.1--pyh1f0d9b5_0
+$ module help quay.io/biocontainers/aastk/0.1.1--pyh1f0d9b5_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

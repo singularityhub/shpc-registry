@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cadd-threshold-app"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cadd-threshold-app/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cadd-threshold-app/container.yaml"
-updated_at: "2026-04-25 04:53:03.417760"
-latest: "0.0.1--pyhdfd78af_0"
+updated_at: "2026-04-26 05:29:03.391752"
+latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cadd-threshold-app"
 aliases:
  - "cadd-threshold-app"
@@ -29,8 +29,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.0.1--pyhdfd78af_0"
+ - "0.0.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cadd-threshold-app"
-config: {"url": "https://biocontainers.pro/tools/cadd-threshold-app", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cadd-threshold-app", "latest": {"0.0.1--pyhdfd78af_0": "sha256:92478421e9da06bdbcac5ada74d2a75543a870632161731ecc28ef42189212bf"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:92478421e9da06bdbcac5ada74d2a75543a870632161731ecc28ef42189212bf"}, "docker": "quay.io/biocontainers/cadd-threshold-app", "aliases": {"cadd-threshold-app": "/usr/local/bin/cadd-threshold-app", "shiny": "/usr/local/bin/shiny", "uvicorn": "/usr/local/bin/uvicorn", "watchfiles": "/usr/local/bin/watchfiles", "websockets": "/usr/local/bin/websockets", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/cadd-threshold-app", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cadd-threshold-app", "latest": {"0.0.5--pyhdfd78af_0": "sha256:91ae145b988f28e8788c5a265de163f6e739cde1f75179bca4d973b225e2f82d"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:92478421e9da06bdbcac5ada74d2a75543a870632161731ecc28ef42189212bf", "0.0.5--pyhdfd78af_0": "sha256:91ae145b988f28e8788c5a265de163f6e739cde1f75179bca4d973b225e2f82d"}, "docker": "quay.io/biocontainers/cadd-threshold-app", "aliases": {"cadd-threshold-app": "/usr/local/bin/cadd-threshold-app", "shiny": "/usr/local/bin/shiny", "uvicorn": "/usr/local/bin/uvicorn", "watchfiles": "/usr/local/bin/watchfiles", "websockets": "/usr/local/bin/websockets", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cadd-threshold-app.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/cadd-threshold-app
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cadd-threshold-app:0.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cadd-threshold-app:0.0.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cadd-threshold-app/0.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/cadd-threshold-app/0.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/cadd-threshold-app/0.0.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/cadd-threshold-app/0.0.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

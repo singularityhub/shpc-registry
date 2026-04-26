@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo/container.yaml"
-updated_at: "2026-04-25 04:50:59.019530"
+updated_at: "2026-04-26 05:26:52.281030"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggandmetacoredzpathwaysgeo"
 aliases:

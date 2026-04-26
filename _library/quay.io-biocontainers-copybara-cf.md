@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/copybara-cf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/copybara-cf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/copybara-cf/container.yaml"
-updated_at: "2026-04-25 05:04:37.936686"
+updated_at: "2026-04-26 05:40:49.967777"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/copybara-cf"
 aliases:

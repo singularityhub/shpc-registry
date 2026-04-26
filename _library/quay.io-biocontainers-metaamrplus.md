@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metaamrplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaamrplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaamrplus/container.yaml"
-updated_at: "2026-04-25 05:03:13.430230"
-latest: "1.4.1--hdfd78af_0"
+updated_at: "2026-04-26 05:39:24.942511"
+latest: "1.5.1--py314hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metaamrplus"
 aliases:
  - "amrfinder_index"
@@ -44,8 +44,10 @@ aliases:
  - "xlink"
 versions:
  - "1.4.1--hdfd78af_0"
+ - "1.5.1--py314hdfd78af_1"
+ - "1.4.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for metaamrplus"
-config: {"url": "https://biocontainers.pro/tools/metaamrplus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metaamrplus", "latest": {"1.4.1--hdfd78af_0": "sha256:1f4497b1c2d249cee1c09d30183d2c4052769223667de95ac27b0303a176de89"}, "tags": {"1.4.1--hdfd78af_0": "sha256:1f4497b1c2d249cee1c09d30183d2c4052769223667de95ac27b0303a176de89"}, "docker": "quay.io/biocontainers/metaamrplus", "aliases": {"amrfinder_index": "/usr/local/bin/amrfinder_index", "disruption2genesymbol": "/usr/local/bin/disruption2genesymbol", "metaamrplus": "/usr/local/bin/metaamrplus", "metaamrplus-download-db": "/usr/local/bin/metaamrplus-download-db", "metaamrplus_batch": "/usr/local/bin/metaamrplus_batch", "mutate": "/usr/local/bin/mutate", "stx.prot": "/usr/local/bin/stx.prot", "stxtyper": "/usr/local/bin/stxtyper", "test_stxtyper.sh": "/usr/local/bin/test_stxtyper.sh", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "fasta_check": "/usr/local/bin/fasta_check", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink"}}
+config: {"url": "https://biocontainers.pro/tools/metaamrplus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metaamrplus", "latest": {"1.5.1--py314hdfd78af_1": "sha256:88d3ea757c30f5fbd750e59e10511c4bba6a3647c0e71f499b3453cce9a48fd8"}, "tags": {"1.4.1--hdfd78af_0": "sha256:1f4497b1c2d249cee1c09d30183d2c4052769223667de95ac27b0303a176de89", "1.5.1--py314hdfd78af_1": "sha256:88d3ea757c30f5fbd750e59e10511c4bba6a3647c0e71f499b3453cce9a48fd8", "1.4.1--hdfd78af_1": "sha256:11336263b90ea3c1d4e4b8f8def64ab4b047603dd5026c906312bbc6ff66ab5a"}, "docker": "quay.io/biocontainers/metaamrplus", "aliases": {"amrfinder_index": "/usr/local/bin/amrfinder_index", "disruption2genesymbol": "/usr/local/bin/disruption2genesymbol", "metaamrplus": "/usr/local/bin/metaamrplus", "metaamrplus-download-db": "/usr/local/bin/metaamrplus-download-db", "metaamrplus_batch": "/usr/local/bin/metaamrplus_batch", "mutate": "/usr/local/bin/mutate", "stx.prot": "/usr/local/bin/stx.prot", "stxtyper": "/usr/local/bin/stxtyper", "test_stxtyper.sh": "/usr/local/bin/test_stxtyper.sh", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "fasta_check": "/usr/local/bin/fasta_check", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaamrplus.
@@ -60,7 +62,7 @@ $ shpc install quay.io/biocontainers/metaamrplus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metaamrplus:1.4.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/metaamrplus:1.5.1--py314hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metaamrplus/1.4.1--hdfd78af_0
-$ module help quay.io/biocontainers/metaamrplus/1.4.1--hdfd78af_0
+$ module load quay.io/biocontainers/metaamrplus/1.5.1--py314hdfd78af_1
+$ module help quay.io/biocontainers/metaamrplus/1.5.1--py314hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
