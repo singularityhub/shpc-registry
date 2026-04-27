@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/seqfu
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seqfu
 latest:
-  1.25.1--h41da26b_0: 
-    sha256:71baeecf7079c24e8c36e073b871e22f04b1e512e6a7b406016c4966b2582d61
+  1.26.0--h41da26b_0: 
+    sha256:e8565d945e0a008ba1c6a52f3393e3c4a5fb51642cb31ddbc459676c68701ad9
 tags:
   1.9.1--h38613fd_0: 
     sha256:41311b69fd24c9da0ad9213cee97efc34bb4a87b196fbc5c79204182dfab4865
@@ -33,6 +33,8 @@ tags:
     sha256:185ce6f2a0668f9906ec9ed2955600456d842e0cb1ee7939db493523edf6dd11
   1.25.1--h41da26b_0: 
     sha256:71baeecf7079c24e8c36e073b871e22f04b1e512e6a7b406016c4966b2582d61
+  1.26.0--h41da26b_0: 
+    sha256:e8565d945e0a008ba1c6a52f3393e3c4a5fb51642cb31ddbc459676c68701ad9
 docker: quay.io/biocontainers/seqfu
 aliases:
   dadaist2-mergeseqs: /usr/local/bin/dadaist2-mergeseqs

@@ -7,6 +7,8 @@ latest:
 tags:
   0.1.0--py310h6eed86a_0: 
     sha256:b182283e5d4dbe7bfb0f8056f30d5e547285e3b3b1a7ce2dbcadc0a210dc9776
+  0.1.0--py312h935fe5f_0: 
+    sha256:df36a842e4120760fe9c5ae0bafac47a699d11487b9fdf053659a6a63f03bf4a
 docker: quay.io/biocontainers/papa2
 aliases:
   papa2: /usr/local/bin/papa2
