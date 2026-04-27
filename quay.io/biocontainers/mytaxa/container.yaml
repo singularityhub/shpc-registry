@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/mytaxa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mytaxa
+latest:
+  1.2.0--hc52dbad_0: 
+    sha256:03d05f63fb5ffe8a2782149806df91f7d3445b98aeeee01c2103a439b8b2f3de
+tags:
+  1.2.0--hc52dbad_0: 
+    sha256:03d05f63fb5ffe8a2782149806df91f7d3445b98aeeee01c2103a439b8b2f3de
+docker: quay.io/biocontainers/mytaxa
+aliases:
+  MyTaxa: /usr/local/bin/MyTaxa

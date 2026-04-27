@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/lanceotron
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lanceotron
+latest:
+  1.2.7--pyhdfd78af_0: 
+    sha256:f971884131aefeabbb79b6f7694b1444114480e1c6488a46e5cfa85aead804b5
+tags:
+  1.2.7--pyhdfd78af_0: 
+    sha256:f971884131aefeabbb79b6f7694b1444114480e1c6488a46e5cfa85aead804b5
+docker: quay.io/biocontainers/lanceotron
+aliases:
+  lanceotron: /usr/local/bin/lanceotron
+  flatc: /usr/local/bin/flatc
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  tensorboard: /usr/local/bin/tensorboard
+  elasticurl: /usr/local/bin/elasticurl
+  markdown_py: /usr/local/bin/markdown_py
+  markdown-it: /usr/local/bin/markdown-it
+  natsort: /usr/local/bin/natsort
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
+  grpc_node_plugin: /usr/local/bin/grpc_node_plugin
+  grpc_objective_c_plugin: /usr/local/bin/grpc_objective_c_plugin
+  grpc_php_plugin: /usr/local/bin/grpc_php_plugin
+  grpc_python_plugin: /usr/local/bin/grpc_python_plugin
+  grpc_ruby_plugin: /usr/local/bin/grpc_ruby_plugin
