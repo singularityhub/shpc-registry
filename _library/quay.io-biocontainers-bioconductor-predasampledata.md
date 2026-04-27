@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-predasampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-predasampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-predasampledata/container.yaml"
-updated_at: "2026-04-26 05:56:06.830333"
+updated_at: "2026-04-27 06:09:08.665914"
 latest: "0.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-predasampledata"
 

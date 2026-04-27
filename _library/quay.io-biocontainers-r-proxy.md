@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-proxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-proxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-proxy/container.yaml"
-updated_at: "2026-04-26 05:25:30.462097"
+updated_at: "2026-04-27 05:38:47.941912"
 latest: "0.4_16--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-proxy"
 aliases:

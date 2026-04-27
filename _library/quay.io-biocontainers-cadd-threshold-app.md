@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cadd-threshold-app"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cadd-threshold-app/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cadd-threshold-app/container.yaml"
-updated_at: "2026-04-26 05:29:03.391752"
+updated_at: "2026-04-27 05:42:11.957998"
 latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cadd-threshold-app"
 aliases:

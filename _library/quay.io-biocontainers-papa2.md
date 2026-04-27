@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/papa2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/papa2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/papa2/container.yaml"
-updated_at: "2026-04-26 05:17:57.043340"
+updated_at: "2026-04-27 05:31:15.827171"
 latest: "0.1.0--py310h6eed86a_0"
 container_url: "https://biocontainers.pro/tools/papa2"
 aliases:
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.0--py310h6eed86a_0"
+ - "0.1.0--py312h935fe5f_0"
 description: "singularity registry hpc automated addition for papa2"
-config: {"url": "https://biocontainers.pro/tools/papa2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for papa2", "latest": {"0.1.0--py310h6eed86a_0": "sha256:b182283e5d4dbe7bfb0f8056f30d5e547285e3b3b1a7ce2dbcadc0a210dc9776"}, "tags": {"0.1.0--py310h6eed86a_0": "sha256:b182283e5d4dbe7bfb0f8056f30d5e547285e3b3b1a7ce2dbcadc0a210dc9776"}, "docker": "quay.io/biocontainers/papa2", "aliases": {"papa2": "/usr/local/bin/papa2", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/papa2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for papa2", "latest": {"0.1.0--py310h6eed86a_0": "sha256:b182283e5d4dbe7bfb0f8056f30d5e547285e3b3b1a7ce2dbcadc0a210dc9776"}, "tags": {"0.1.0--py310h6eed86a_0": "sha256:b182283e5d4dbe7bfb0f8056f30d5e547285e3b3b1a7ce2dbcadc0a210dc9776", "0.1.0--py312h935fe5f_0": "sha256:df36a842e4120760fe9c5ae0bafac47a699d11487b9fdf053659a6a63f03bf4a"}, "docker": "quay.io/biocontainers/papa2", "aliases": {"papa2": "/usr/local/bin/papa2", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/papa2.

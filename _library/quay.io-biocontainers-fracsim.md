@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fracsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fracsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fracsim/container.yaml"
-updated_at: "2026-04-26 05:40:13.574785"
+updated_at: "2026-04-27 05:53:15.816459"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fracsim"
 aliases:

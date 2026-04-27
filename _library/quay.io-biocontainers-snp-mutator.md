@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snp-mutator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-mutator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-mutator/container.yaml"
-updated_at: "2026-04-26 05:31:36.809641"
+updated_at: "2026-04-27 05:44:40.058966"
 latest: "1.2.0--pyh24bf2e0_0"
 container_url: "https://biocontainers.pro/tools/snp-mutator"
 aliases:

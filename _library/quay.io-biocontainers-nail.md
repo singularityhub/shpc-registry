@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nail/container.yaml"
-updated_at: "2026-04-26 05:35:46.117561"
-latest: "0.4.0--h4349ce8_1"
+updated_at: "2026-04-27 05:48:47.767526"
+latest: "0.5.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/nail"
 aliases:
  - "nail"
@@ -14,8 +14,9 @@ versions:
  - "0.3.0--h4349ce8_1"
  - "0.4.0--h4349ce8_0"
  - "0.4.0--h4349ce8_1"
+ - "0.5.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for nail"
-config: {"url": "https://biocontainers.pro/tools/nail", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nail", "latest": {"0.4.0--h4349ce8_1": "sha256:09bb02327d890f1af81b897ccfb71e5b3f78f526bb8c73295ebe08f21e36ec21"}, "tags": {"0.3.0--h4349ce8_0": "sha256:54e47136c7445593ec40965b74d74f4473a6a6bac447c8364e1c884960f7d43c", "0.3.0--h4349ce8_1": "sha256:f9c8f1bd41f2a0561bb2d4ce640ebffc4a671c5ae52ba140b49225cd72487e6e", "0.4.0--h4349ce8_0": "sha256:fbd4fee71cdf448391cd4dd66100ac33d982775e25ab38e376024c07852e0ed8", "0.4.0--h4349ce8_1": "sha256:09bb02327d890f1af81b897ccfb71e5b3f78f526bb8c73295ebe08f21e36ec21"}, "docker": "quay.io/biocontainers/nail", "aliases": {"nail": "/usr/local/bin/nail"}}
+config: {"url": "https://biocontainers.pro/tools/nail", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nail", "latest": {"0.5.0--h4349ce8_0": "sha256:50eb967f4a20af2eb877f9232464a39211403b6bef3703222120082cc754cbda"}, "tags": {"0.3.0--h4349ce8_0": "sha256:54e47136c7445593ec40965b74d74f4473a6a6bac447c8364e1c884960f7d43c", "0.3.0--h4349ce8_1": "sha256:f9c8f1bd41f2a0561bb2d4ce640ebffc4a671c5ae52ba140b49225cd72487e6e", "0.4.0--h4349ce8_0": "sha256:fbd4fee71cdf448391cd4dd66100ac33d982775e25ab38e376024c07852e0ed8", "0.4.0--h4349ce8_1": "sha256:09bb02327d890f1af81b897ccfb71e5b3f78f526bb8c73295ebe08f21e36ec21", "0.5.0--h4349ce8_0": "sha256:50eb967f4a20af2eb877f9232464a39211403b6bef3703222120082cc754cbda"}, "docker": "quay.io/biocontainers/nail", "aliases": {"nail": "/usr/local/bin/nail"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nail.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/nail
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nail:0.4.0--h4349ce8_1
+$ shpc install quay.io/biocontainers/nail:0.5.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nail/0.4.0--h4349ce8_1
-$ module help quay.io/biocontainers/nail/0.4.0--h4349ce8_1
+$ module load quay.io/biocontainers/nail/0.5.0--h4349ce8_0
+$ module help quay.io/biocontainers/nail/0.5.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

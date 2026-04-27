@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnvgears"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnvgears/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnvgears/container.yaml"
-updated_at: "2026-04-26 05:53:07.571953"
+updated_at: "2026-04-27 06:06:11.404399"
 latest: "1.8.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnvgears"
 
