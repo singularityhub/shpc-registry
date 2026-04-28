@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igv-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igv-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igv-notebook/container.yaml"
-updated_at: "2026-04-27 05:34:22.532450"
+updated_at: "2026-04-28 05:40:15.587983"
 latest: "0.6.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/igv-notebook"
 aliases:

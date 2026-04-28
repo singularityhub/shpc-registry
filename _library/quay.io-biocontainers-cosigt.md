@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cosigt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cosigt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cosigt/container.yaml"
-updated_at: "2026-04-27 06:17:02.203554"
+updated_at: "2026-04-28 06:25:00.772112"
 latest: "0.1.2--he881be0_0"
 container_url: "https://biocontainers.pro/tools/cosigt"
 aliases:

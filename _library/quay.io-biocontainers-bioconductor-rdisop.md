@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rdisop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rdisop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rdisop/container.yaml"
-updated_at: "2026-04-27 06:05:47.774437"
+updated_at: "2026-04-28 06:13:04.358034"
 latest: "1.70.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rdisop"
 

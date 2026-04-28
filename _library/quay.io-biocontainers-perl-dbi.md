@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-dbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbi/container.yaml"
-updated_at: "2026-04-27 05:53:44.469469"
+updated_at: "2026-04-28 06:00:11.984686"
 latest: "1.643--pl5321hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/perl-dbi"
 aliases:

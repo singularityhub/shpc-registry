@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-sessiondata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-sessiondata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-sessiondata/container.yaml"
-updated_at: "2026-04-27 05:34:02.830636"
+updated_at: "2026-04-28 05:39:56.284122"
 latest: "1.03--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-io-sessiondata"
 aliases:

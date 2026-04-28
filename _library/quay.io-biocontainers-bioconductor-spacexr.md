@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spacexr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spacexr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spacexr/container.yaml"
-updated_at: "2026-04-27 05:49:26.748353"
+updated_at: "2026-04-28 05:55:46.652069"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spacexr"
 aliases:

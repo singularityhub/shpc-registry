@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-gd-svg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gd-svg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gd-svg/container.yaml"
-updated_at: "2026-04-27 05:28:27.037718"
+updated_at: "2026-04-28 05:34:18.513280"
 latest: "0.33--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-gd-svg"
 aliases:
