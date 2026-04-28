@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/reaper-trim
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for reaper-trim
+latest:
+  17.257--h118bc1c_0: 
+    sha256:d124302115aadcb2cc8d70c68f2a0a0f21569feaed323fdb97d6e328cda87027
+tags:
+  17.257--h118bc1c_0: 
+    sha256:d124302115aadcb2cc8d70c68f2a0a0f21569feaed323fdb97d6e328cda87027
+docker: quay.io/biocontainers/reaper-trim
+aliases:
+  minion: /usr/local/bin/minion
+  reaper: /usr/local/bin/reaper
+  swan: /usr/local/bin/swan
+  tally: /usr/local/bin/tally

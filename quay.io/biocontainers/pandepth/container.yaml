@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/pandepth
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pandepth
+latest:
+  2.26--h02cc909_0: 
+    sha256:a162dfb0dcf5fd7c448acbb2457ea7a9363e488136ae6c7c22ad22523813dca2
+tags:
+  2.26--h02cc909_0: 
+    sha256:a162dfb0dcf5fd7c448acbb2457ea7a9363e488136ae6c7c22ad22523813dca2
+docker: quay.io/biocontainers/pandepth
+aliases:
+  pandepth: /usr/local/bin/pandepth
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

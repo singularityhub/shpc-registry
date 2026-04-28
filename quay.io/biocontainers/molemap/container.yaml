@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/molemap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for molemap
+latest:
+  1.4.3.1--h5814d7d_0: 
+    sha256:468acceeeb9f65b2ef627724bb41efaeeaf0a593e8d0449ce1592b6f162c4867
+tags:
+  1.4.3.1--h5814d7d_0: 
+    sha256:468acceeeb9f65b2ef627724bb41efaeeaf0a593e8d0449ce1592b6f162c4867
+docker: quay.io/biocontainers/molemap
+aliases:
+  molemap: /usr/local/bin/molemap
