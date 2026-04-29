@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seta/container.yaml"
-updated_at: "2026-04-28 06:10:02.024740"
+updated_at: "2026-04-29 06:05:46.911668"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seta"
 aliases:

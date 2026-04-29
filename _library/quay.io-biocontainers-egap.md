@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/egap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/egap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/egap/container.yaml"
-updated_at: "2026-04-28 05:52:09.872715"
+updated_at: "2026-04-29 05:47:54.591020"
 latest: "3.3.8--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/egap"
 aliases:

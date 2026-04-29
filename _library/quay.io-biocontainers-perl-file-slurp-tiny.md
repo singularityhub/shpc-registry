@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-slurp-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-slurp-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-slurp-tiny/container.yaml"
-updated_at: "2026-04-28 06:28:28.022297"
+updated_at: "2026-04-29 06:23:18.845267"
 latest: "0.004--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-file-slurp-tiny"
 aliases:

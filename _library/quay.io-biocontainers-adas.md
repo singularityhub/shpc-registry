@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/adas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adas/container.yaml"
-updated_at: "2026-04-28 05:34:37.309159"
+updated_at: "2026-04-29 05:30:43.333265"
 latest: "0.1.3--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/adas"
 aliases:

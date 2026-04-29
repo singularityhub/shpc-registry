@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/manorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/manorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/manorm/container.yaml"
-updated_at: "2026-04-28 06:14:38.728895"
+updated_at: "2026-04-29 06:09:55.812292"
 latest: "1.3.0--py_0"
 container_url: "https://biocontainers.pro/tools/manorm"
 aliases:

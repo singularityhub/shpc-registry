@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomemask"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomemask/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomemask/container.yaml"
-updated_at: "2026-04-28 06:02:26.954127"
+updated_at: "2026-04-29 05:58:36.819008"
 latest: "0.0.3--hd612981_0"
 container_url: "https://biocontainers.pro/tools/genomemask"
 aliases:

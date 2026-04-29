@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eklipse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eklipse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eklipse/container.yaml"
-updated_at: "2026-04-28 05:57:21.680663"
+updated_at: "2026-04-29 05:53:31.820173"
 latest: "1.8--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/eklipse"
 aliases:
