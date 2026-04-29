@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/rastqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rastqc
+latest:
+  0.1.0--hfa8f182_0: 
+    sha256:05a4e6b63b082e4cb15e498a8f0e83b0627b50b06027b9f3d1baaa041724780d
+tags:
+  0.1.0--hfa8f182_0: 
+    sha256:05a4e6b63b082e4cb15e498a8f0e83b0627b50b06027b9f3d1baaa041724780d
+docker: quay.io/biocontainers/rastqc
+aliases:
+  rastqc: /usr/local/bin/rastqc

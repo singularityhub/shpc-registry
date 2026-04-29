@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/holodeck
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for holodeck
+latest:
+  0.2.0--hd612981_0: 
+    sha256:e3e6dee6f6668e765a9ebf834cbc07d96f39d16f7049232641906af36e29bf84
+tags:
+  0.2.0--hd612981_0: 
+    sha256:e3e6dee6f6668e765a9ebf834cbc07d96f39d16f7049232641906af36e29bf84
+docker: quay.io/biocontainers/holodeck
+aliases:
+  holodeck: /usr/local/bin/holodeck

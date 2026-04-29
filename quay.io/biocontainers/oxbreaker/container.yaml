@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/oxbreaker
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for oxbreaker
+latest:
+  1.0--pyhdfd78af_0: 
+    sha256:d0e18369f7408d15084baa04aaf86a565ab09ffde970438df8789d9a05e387c9
+tags:
+  1.0--pyhdfd78af_0: 
+    sha256:d0e18369f7408d15084baa04aaf86a565ab09ffde970438df8789d9a05e387c9
+docker: quay.io/biocontainers/oxbreaker
+aliases:
+  gtk4-builder-tool: /usr/local/bin/gtk4-builder-tool
+  gtk4-demo: /usr/local/bin/gtk4-demo
+  gtk4-demo-application: /usr/local/bin/gtk4-demo-application
+  gtk4-encode-symbolic-svg: /usr/local/bin/gtk4-encode-symbolic-svg
+  gtk4-icon-editor: /usr/local/bin/gtk4-icon-editor
+  gtk4-image-tool: /usr/local/bin/gtk4-image-tool
+  gtk4-launch: /usr/local/bin/gtk4-launch
+  gtk4-node-editor: /usr/local/bin/gtk4-node-editor
+  gtk4-path-tool: /usr/local/bin/gtk4-path-tool
+  gtk4-print-editor: /usr/local/bin/gtk4-print-editor
+  gtk4-query-settings: /usr/local/bin/gtk4-query-settings
+  gtk4-rendernode-tool: /usr/local/bin/gtk4-rendernode-tool
+  gtk4-update-icon-cache: /usr/local/bin/gtk4-update-icon-cache
+  gtk4-widget-factory: /usr/local/bin/gtk4-widget-factory
+  oxbreaker: /usr/local/bin/oxbreaker
+  nextflow: /usr/local/bin/nextflow
+  g-ir-annotation-tool: /usr/local/bin/g-ir-annotation-tool
+  g-ir-compiler: /usr/local/bin/g-ir-compiler
+  g-ir-generate: /usr/local/bin/g-ir-generate
+  g-ir-inspect: /usr/local/bin/g-ir-inspect
+  g-ir-scanner: /usr/local/bin/g-ir-scanner
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  wayland-scanner: /usr/local/bin/wayland-scanner
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
