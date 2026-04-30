@@ -1,0 +1,46 @@
+url: https://biocontainers.pro/tools/agora
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for agora
+latest:
+  3.1--hdfd78af_0: 
+    sha256:275d20fe7d8a01bf4e70b48e44c62ed8dca335b13d6fc5179e068943ccf61d42
+tags:
+  3.1--hdfd78af_0: 
+    sha256:275d20fe7d8a01bf4e70b48e44c62ed8dca335b13d6fc5179e068943ccf61d42
+docker: quay.io/biocontainers/agora
+aliases:
+  ALL.extractGeneFamilies.py: /usr/local/bin/ALL.extractGeneFamilies.py
+  ALL.filterBlocks-fixedLength.py: 
+    /usr/local/bin/ALL.filterBlocks-fixedLength.py
+  ALL.filterBlocks-propLength.py: /usr/local/bin/ALL.filterBlocks-propLength.py
+  ALL.filterGeneFamilies-size.py: /usr/local/bin/ALL.filterGeneFamilies-size.py
+  ALL.reformatGeneFamilies.py: /usr/local/bin/ALL.reformatGeneFamilies.py
+  ALL.selectBestReconstruction.py: 
+    /usr/local/bin/ALL.selectBestReconstruction.py
+  ENSEMBL.buildProteinTrees.py: /usr/local/bin/ENSEMBL.buildProteinTrees.py
+  agora-basic.py: /usr/local/bin/agora-basic.py
+  agora-generic.py: /usr/local/bin/agora-generic.py
+  agora-plants.py: /usr/local/bin/agora-plants.py
+  agora-vertebrates.py: /usr/local/bin/agora-vertebrates.py
+  agora.py: /usr/local/bin/agora.py
+  buildSynteny.integr-copy.py: /usr/local/bin/buildSynteny.integr-copy.py
+  buildSynteny.integr-denovo.py: /usr/local/bin/buildSynteny.integr-denovo.py
+  buildSynteny.integr-fillin.py: /usr/local/bin/buildSynteny.integr-fillin.py
+  buildSynteny.integr-fusion.py: /usr/local/bin/buildSynteny.integr-fusion.py
+  buildSynteny.integr-insertion.py: 
+    /usr/local/bin/buildSynteny.integr-insertion.py
+  buildSynteny.integr-scaffolds.py: 
+    /usr/local/bin/buildSynteny.integr-scaffolds.py
+  buildSynteny.pairwise-conservedAdjacencies.py: 
+    /usr/local/bin/buildSynteny.pairwise-conservedAdjacencies.py
+  buildSynteny.pairwise-conservedPairs.py: 
+    /usr/local/bin/buildSynteny.pairwise-conservedPairs.py
+  convert.ancGenomes.blocks-of-blocks-to-blocks-of-ancGenes.py: 
+    /usr/local/bin/convert.ancGenomes.blocks-of-blocks-to-blocks-of-ancGenes.py
+  convert.ancGenomes.blocks-to-genes.py: 
+    /usr/local/bin/convert.ancGenomes.blocks-to-genes.py
+  misc.compareGenomes.py: /usr/local/bin/misc.compareGenomes.py
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
