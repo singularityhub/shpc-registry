@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/pymmseqs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pymmseqs
+latest:
+  1.0.7--pyh106432d_0: 
+    sha256:40ed84123bffcb3522ef297bdb9b3d6a92fabfdb022c6a16573fa828298d4c84
+tags:
+  1.0.7--pyh106432d_0: 
+    sha256:40ed84123bffcb3522ef297bdb9b3d6a92fabfdb022c6a16573fa828298d4c84
+docker: quay.io/biocontainers/pymmseqs
+aliases:
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config

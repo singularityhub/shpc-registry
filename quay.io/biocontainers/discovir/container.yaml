@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/discovir
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for discovir
+latest:
+  1.0.1.beta--py312hdfd78af_0: 
+    sha256:1455e928f1bd0a1ae0f59cba9ed66ca4a498fdef10ccdaf3bd3b5202a69c2add
+tags:
+  1.0.1.beta--py312hdfd78af_0: 
+    sha256:1455e928f1bd0a1ae0f59cba9ed66ca4a498fdef10ccdaf3bd3b5202a69c2add
+docker: quay.io/biocontainers/discovir
+aliases:
+  discovir: /usr/local/bin/discovir
+  generate-slurm-partition-config: 
+    /usr/local/bin/generate-slurm-partition-config
+  phc: /usr/local/bin/phc
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  eido: /usr/local/bin/eido
+  typer: /usr/local/bin/typer
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod

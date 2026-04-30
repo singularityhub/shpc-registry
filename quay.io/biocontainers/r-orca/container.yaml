@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/r-orca
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-orca
+latest:
+  1.1_3--r45h67c2a1a_0: 
+    sha256:ee2a6dde21ac8f504e132262664584863b0c187916c444c9b31b386092b9e7f3
+tags:
+  1.1_3--r45h67c2a1a_0: 
+    sha256:ee2a6dde21ac8f504e132262664584863b0c187916c444c9b31b386092b9e7f3
+docker: quay.io/biocontainers/r-orca
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

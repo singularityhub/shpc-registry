@@ -1,0 +1,11 @@
+url: https://biocontainers.pro/tools/perl-crypt-openssl-bignum
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  perl-crypt-openssl-bignum
+latest:
+  0.09--pl5321hd474d78_0: 
+    sha256:db9f98268360c700e36fdda139e620011c3772f4ee704a049c06b50515ed1b4b
+tags:
+  0.09--pl5321hd474d78_0: 
+    sha256:db9f98268360c700e36fdda139e620011c3772f4ee704a049c06b50515ed1b4b
+docker: quay.io/biocontainers/perl-crypt-openssl-bignum

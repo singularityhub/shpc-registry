@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/r-teddy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-teddy
+latest:
+  1.0.3--r41hcf09f9e_0: 
+    sha256:fd9f0915fa0db0f05a6dc47aad203739f15af9b8801473ecccd8a1d39902a70c
+tags:
+  1.0.3--r41hcf09f9e_0: 
+    sha256:fd9f0915fa0db0f05a6dc47aad203739f15af9b8801473ecccd8a1d39902a70c
+docker: quay.io/biocontainers/r-teddy
+aliases:
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
