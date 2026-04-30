@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paladin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paladin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paladin/container.yaml"
-updated_at: "2026-04-30 05:34:41.496211"
+updated_at: "2026-04-30 08:10:48.013589"
 latest: "1.6.0--h44aa6d8_0"
 container_url: "https://biocontainers.pro/tools/paladin"
 aliases:

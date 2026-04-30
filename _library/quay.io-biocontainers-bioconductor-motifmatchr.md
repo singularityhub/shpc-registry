@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-motifmatchr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-motifmatchr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-motifmatchr/container.yaml"
-updated_at: "2026-04-30 05:51:28.428266"
+updated_at: "2026-04-30 08:30:43.455788"
 latest: "1.32.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-motifmatchr"
 aliases:

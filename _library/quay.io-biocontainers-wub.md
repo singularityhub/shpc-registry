@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wub/container.yaml"
-updated_at: "2026-04-30 05:53:58.377889"
+updated_at: "2026-04-30 08:33:35.490460"
 latest: "0.5.1--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/wub"
 aliases:

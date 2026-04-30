@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/resistify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/resistify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/resistify/container.yaml"
-updated_at: "2026-04-30 06:19:23.144801"
+updated_at: "2026-04-30 09:03:08.313541"
 latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/resistify"
 aliases:

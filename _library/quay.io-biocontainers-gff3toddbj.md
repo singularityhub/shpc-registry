@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gff3toddbj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gff3toddbj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gff3toddbj/container.yaml"
-updated_at: "2026-04-30 06:03:03.998137"
+updated_at: "2026-04-30 08:43:57.039330"
 latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gff3toddbj"
 aliases:

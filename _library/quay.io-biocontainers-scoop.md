@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scoop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scoop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scoop/container.yaml"
-updated_at: "2026-04-30 06:21:13.514215"
+updated_at: "2026-04-30 09:05:19.127262"
 latest: "0.7.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scoop"
 aliases:

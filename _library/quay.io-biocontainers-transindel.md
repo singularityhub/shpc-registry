@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transindel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transindel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transindel/container.yaml"
-updated_at: "2026-04-30 06:20:10.331940"
+updated_at: "2026-04-30 09:04:04.482757"
 latest: "2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/transindel"
 aliases:

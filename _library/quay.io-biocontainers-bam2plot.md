@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bam2plot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam2plot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bam2plot/container.yaml"
-updated_at: "2026-04-30 06:19:53.350175"
+updated_at: "2026-04-30 09:03:44.247238"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bam2plot"
 aliases:

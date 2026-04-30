@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pandamap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandamap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandamap/container.yaml"
-updated_at: "2026-04-30 06:03:11.375081"
+updated_at: "2026-04-30 08:44:05.589347"
 latest: "4.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pandamap"
 aliases:

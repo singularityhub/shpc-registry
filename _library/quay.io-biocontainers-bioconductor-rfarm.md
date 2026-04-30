@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rfarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rfarm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rfarm/container.yaml"
-updated_at: "2026-04-30 05:34:42.962596"
+updated_at: "2026-04-30 08:10:49.798759"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rfarm"
 aliases:

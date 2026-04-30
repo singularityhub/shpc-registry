@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/needletail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/needletail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/needletail/container.yaml"
-updated_at: "2026-04-30 05:57:19.570347"
+updated_at: "2026-04-30 08:37:26.695874"
 latest: "0.7.2--py313hdd269c3_0"
 container_url: "https://biocontainers.pro/tools/needletail"
 aliases:

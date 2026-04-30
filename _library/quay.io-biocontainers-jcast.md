@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jcast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jcast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jcast/container.yaml"
-updated_at: "2026-04-30 05:55:33.968108"
+updated_at: "2026-04-30 08:35:29.442225"
 latest: "0.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jcast"
 aliases:

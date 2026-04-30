@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esviritu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esviritu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esviritu/container.yaml"
-updated_at: "2026-04-30 05:42:16.624405"
+updated_at: "2026-04-30 08:19:42.376195"
 latest: "1.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/esviritu"
 aliases:
