@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circle-map"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circle-map/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circle-map/container.yaml"
-updated_at: "2026-04-29 06:18:37.983948"
+updated_at: "2026-04-30 06:15:54.084318"
 latest: "1.1.4--pyh7e72e81_3"
 container_url: "https://biocontainers.pro/tools/circle-map"
 aliases:

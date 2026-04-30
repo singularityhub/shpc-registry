@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-batchsvg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-batchsvg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-batchsvg/container.yaml"
-updated_at: "2026-04-29 05:37:43.073510"
+updated_at: "2026-04-30 05:40:24.389099"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-batchsvg"
 aliases:

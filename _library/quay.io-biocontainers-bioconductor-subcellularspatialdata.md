@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-subcellularspatialdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-subcellularspatialdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-subcellularspatialdata/container.yaml"
-updated_at: "2026-04-29 06:02:33.799331"
+updated_at: "2026-04-30 06:01:18.274796"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-subcellularspatialdata"
 aliases:

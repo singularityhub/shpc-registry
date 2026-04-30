@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-banocc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-banocc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-banocc/container.yaml"
-updated_at: "2026-04-29 06:09:58.975651"
+updated_at: "2026-04-30 06:07:57.107217"
 latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-banocc"
 aliases:
