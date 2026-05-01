@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rs3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rs3
 latest:
-  0.0.16--pyhdfd78af_0: 
-    sha256:989ce7696bb4bd6f77dfed5e07a26389fef39f1671422dc981d7db133459dd0a
+  0.0.18--pyhdfd78af_1: 
+    sha256:c06a84dcfbfe92ea7191bb4b87705bfed7508ed09cad6faedb758a449096a9b3
 tags:
   0.0.16--pyhdfd78af_0: 
     sha256:989ce7696bb4bd6f77dfed5e07a26389fef39f1671422dc981d7db133459dd0a
+  0.0.18--pyhdfd78af_1: 
+    sha256:c06a84dcfbfe92ea7191bb4b87705bfed7508ed09cad6faedb758a449096a9b3
 docker: quay.io/biocontainers/rs3
 aliases:
   seqfold: /usr/local/bin/seqfold
