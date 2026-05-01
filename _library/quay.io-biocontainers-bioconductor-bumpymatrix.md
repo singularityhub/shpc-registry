@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bumpymatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bumpymatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bumpymatrix/container.yaml"
-updated_at: "2026-04-30 08:40:23.258316"
+updated_at: "2026-05-01 06:15:17.949591"
 latest: "1.14.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bumpymatrix"
 

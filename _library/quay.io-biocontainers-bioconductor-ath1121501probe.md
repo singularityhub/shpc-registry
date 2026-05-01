@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ath1121501probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ath1121501probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ath1121501probe/container.yaml"
-updated_at: "2026-04-30 08:50:06.973560"
+updated_at: "2026-05-01 06:24:53.029807"
 latest: "2.18.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ath1121501probe"
 

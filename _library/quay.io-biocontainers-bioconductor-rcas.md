@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcas/container.yaml"
-updated_at: "2026-04-30 08:29:32.030739"
+updated_at: "2026-05-01 06:04:35.748256"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcas"
 aliases:

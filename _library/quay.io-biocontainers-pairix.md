@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pairix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pairix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pairix/container.yaml"
-updated_at: "2026-04-30 08:55:38.141221"
+updated_at: "2026-05-01 06:30:09.792253"
 latest: "0.3.9--py312h4711d71_0"
 container_url: "https://biocontainers.pro/tools/pairix"
 aliases:

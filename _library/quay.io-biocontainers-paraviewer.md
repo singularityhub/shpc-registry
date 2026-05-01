@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/paraviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paraviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paraviewer/container.yaml"
-updated_at: "2026-04-30 08:19:53.022274"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-05-01 05:55:10.441247"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/paraviewer"
 aliases:
  - "paraviewer"
@@ -19,8 +19,9 @@ aliases:
  - "tqdm"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "1.0.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for paraviewer"
-config: {"url": "https://biocontainers.pro/tools/paraviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for paraviewer", "latest": {"0.1.0--pyhdfd78af_0": "sha256:266a089cb2c610dc04c14e6f4c71946273c033ab202fda5063db033da2c273b0"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:266a089cb2c610dc04c14e6f4c71946273c033ab202fda5063db033da2c273b0"}, "docker": "quay.io/biocontainers/paraviewer", "aliases": {"paraviewer": "/usr/local/bin/paraviewer", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/paraviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for paraviewer", "latest": {"1.0.0--pyhdfd78af_0": "sha256:965967fb50a3eefa3917cb70c673cf65e359d9006e16f9134e44dae2f2ee6b7b"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:266a089cb2c610dc04c14e6f4c71946273c033ab202fda5063db033da2c273b0", "1.0.0--pyhdfd78af_0": "sha256:965967fb50a3eefa3917cb70c673cf65e359d9006e16f9134e44dae2f2ee6b7b"}, "docker": "quay.io/biocontainers/paraviewer", "aliases": {"paraviewer": "/usr/local/bin/paraviewer", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/paraviewer.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/paraviewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/paraviewer:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/paraviewer:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/paraviewer/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/paraviewer/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/paraviewer/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/paraviewer/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapgl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapgl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapgl/container.yaml"
-updated_at: "2026-04-30 08:48:32.769239"
+updated_at: "2026-05-01 06:23:22.810362"
 latest: "1.3.1--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/mapgl"
 aliases:

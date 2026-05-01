@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jaffa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jaffa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jaffa/container.yaml"
-updated_at: "2026-04-30 08:36:23.253227"
-latest: "2.3--hdfd78af_0"
+updated_at: "2026-05-01 06:11:23.927443"
+latest: "2.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jaffa"
 aliases:
  - "bg-bpipe"
@@ -60,8 +60,9 @@ aliases:
  - "blat"
 versions:
  - "2.3--hdfd78af_0"
+ - "2.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for jaffa"
-config: {"url": "https://biocontainers.pro/tools/jaffa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jaffa", "latest": {"2.3--hdfd78af_0": "sha256:cc18a8fbacf34b8bc0439bd2d92fb5a48facc36a2c88e7abfc7c7382cfe2335d"}, "tags": {"2.3--hdfd78af_0": "sha256:cc18a8fbacf34b8bc0439bd2d92fb5a48facc36a2c88e7abfc7c7382cfe2335d"}, "docker": "quay.io/biocontainers/jaffa", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "faToNib": "/usr/local/bin/faToNib", "fasta_clipping_histogram.pl": "/usr/local/bin/fasta_clipping_histogram.pl", "fasta_formatter": "/usr/local/bin/fasta_formatter", "fasta_nucleotide_changer": "/usr/local/bin/fasta_nucleotide_changer", "fastq_masker": "/usr/local/bin/fastq_masker", "fastq_quality_boxplot_graph.sh": "/usr/local/bin/fastq_quality_boxplot_graph.sh", "fastq_quality_converter": "/usr/local/bin/fastq_quality_converter", "fastq_quality_filter": "/usr/local/bin/fastq_quality_filter", "fastq_quality_trimmer": "/usr/local/bin/fastq_quality_trimmer", "fastq_to_fasta": "/usr/local/bin/fastq_to_fasta", "fastx_artifacts_filter": "/usr/local/bin/fastx_artifacts_filter", "fastx_barcode_splitter.pl": "/usr/local/bin/fastx_barcode_splitter.pl", "fastx_clipper": "/usr/local/bin/fastx_clipper", "fastx_collapser": "/usr/local/bin/fastx_collapser", "fastx_nucleotide_distribution_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_graph.sh", "fastx_nucleotide_distribution_line_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_line_graph.sh", "fastx_quality_stats": "/usr/local/bin/fastx_quality_stats", "fastx_renamer": "/usr/local/bin/fastx_renamer", "fastx_reverse_complement": "/usr/local/bin/fastx_reverse_complement", "fastx_trimmer": "/usr/local/bin/fastx_trimmer", "fastx_uncollapser": "/usr/local/bin/fastx_uncollapser", "gfClient": "/usr/local/bin/gfClient", "gfServer": "/usr/local/bin/gfServer", "groovy_script": "/usr/local/bin/groovy_script", "jaffa-assembly": "/usr/local/bin/jaffa-assembly", "jaffa-direct": "/usr/local/bin/jaffa-direct", "jaffa-hybrid": "/usr/local/bin/jaffa-hybrid", "nibFrag": "/usr/local/bin/nibFrag", "oases": "/usr/local/bin/oases", "oases_pipeline.py": "/usr/local/bin/oases_pipeline.py", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "kmutate.sh": "/usr/local/bin/kmutate.sh", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "twoBitToFa": "/usr/local/bin/twoBitToFa", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "blat": "/usr/local/bin/blat"}}
+config: {"url": "https://biocontainers.pro/tools/jaffa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jaffa", "latest": {"2.5--hdfd78af_0": "sha256:cb35de616ae566768e7ccf434d73377472406be99b55f0d4cd1b4c3440c30905"}, "tags": {"2.3--hdfd78af_0": "sha256:cc18a8fbacf34b8bc0439bd2d92fb5a48facc36a2c88e7abfc7c7382cfe2335d", "2.5--hdfd78af_0": "sha256:cb35de616ae566768e7ccf434d73377472406be99b55f0d4cd1b4c3440c30905"}, "docker": "quay.io/biocontainers/jaffa", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "faToNib": "/usr/local/bin/faToNib", "fasta_clipping_histogram.pl": "/usr/local/bin/fasta_clipping_histogram.pl", "fasta_formatter": "/usr/local/bin/fasta_formatter", "fasta_nucleotide_changer": "/usr/local/bin/fasta_nucleotide_changer", "fastq_masker": "/usr/local/bin/fastq_masker", "fastq_quality_boxplot_graph.sh": "/usr/local/bin/fastq_quality_boxplot_graph.sh", "fastq_quality_converter": "/usr/local/bin/fastq_quality_converter", "fastq_quality_filter": "/usr/local/bin/fastq_quality_filter", "fastq_quality_trimmer": "/usr/local/bin/fastq_quality_trimmer", "fastq_to_fasta": "/usr/local/bin/fastq_to_fasta", "fastx_artifacts_filter": "/usr/local/bin/fastx_artifacts_filter", "fastx_barcode_splitter.pl": "/usr/local/bin/fastx_barcode_splitter.pl", "fastx_clipper": "/usr/local/bin/fastx_clipper", "fastx_collapser": "/usr/local/bin/fastx_collapser", "fastx_nucleotide_distribution_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_graph.sh", "fastx_nucleotide_distribution_line_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_line_graph.sh", "fastx_quality_stats": "/usr/local/bin/fastx_quality_stats", "fastx_renamer": "/usr/local/bin/fastx_renamer", "fastx_reverse_complement": "/usr/local/bin/fastx_reverse_complement", "fastx_trimmer": "/usr/local/bin/fastx_trimmer", "fastx_uncollapser": "/usr/local/bin/fastx_uncollapser", "gfClient": "/usr/local/bin/gfClient", "gfServer": "/usr/local/bin/gfServer", "groovy_script": "/usr/local/bin/groovy_script", "jaffa-assembly": "/usr/local/bin/jaffa-assembly", "jaffa-direct": "/usr/local/bin/jaffa-direct", "jaffa-hybrid": "/usr/local/bin/jaffa-hybrid", "nibFrag": "/usr/local/bin/nibFrag", "oases": "/usr/local/bin/oases", "oases_pipeline.py": "/usr/local/bin/oases_pipeline.py", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "kmutate.sh": "/usr/local/bin/kmutate.sh", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "twoBitToFa": "/usr/local/bin/twoBitToFa", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "blat": "/usr/local/bin/blat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jaffa.
@@ -76,7 +77,7 @@ $ shpc install quay.io/biocontainers/jaffa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jaffa:2.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/jaffa:2.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -88,8 +89,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jaffa/2.3--hdfd78af_0
-$ module help quay.io/biocontainers/jaffa/2.3--hdfd78af_0
+$ module load quay.io/biocontainers/jaffa/2.5--hdfd78af_0
+$ module help quay.io/biocontainers/jaffa/2.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

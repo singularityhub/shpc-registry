@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moosex-types-stringlike"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-types-stringlike/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-types-stringlike/container.yaml"
-updated_at: "2026-04-30 08:55:20.067855"
+updated_at: "2026-05-01 06:29:52.530332"
 latest: "0.003--pl526_0"
 container_url: "https://biocontainers.pro/tools/perl-moosex-types-stringlike"
 aliases:

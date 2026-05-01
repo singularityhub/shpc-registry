@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rtk2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rtk2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rtk2/container.yaml"
-updated_at: "2026-04-30 08:18:23.200939"
-latest: "2.11.2--h077b44d_1"
+updated_at: "2026-05-01 05:53:43.347110"
+latest: "2.15--hf426362_0"
 container_url: "https://biocontainers.pro/tools/rtk2"
 aliases:
  - "rtk2"
@@ -13,8 +13,10 @@ versions:
  - "2.10--hdcf5f25_0"
  - "2.11.2--hdcf5f25_0"
  - "2.11.2--h077b44d_1"
+ - "2.15--hf426362_0"
+ - "2.14--hf426362_0"
 description: "singularity registry hpc automated addition for rtk2"
-config: {"url": "https://biocontainers.pro/tools/rtk2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rtk2", "latest": {"2.11.2--h077b44d_1": "sha256:9dc69f43e47d2535a5590f05d0a3a21cb0bf486846add48c04d64f0bb28087a5"}, "tags": {"2.10--hdcf5f25_0": "sha256:4f9ac7d7405bc53f0b5f65911ceccd2f2c35b0e513d81f44afc1ab532a8db260", "2.11.2--hdcf5f25_0": "sha256:0ce524a705af598d751ad38dd43a3654f0b9e4ab7c724db0dd10eaeb92ce9b80", "2.11.2--h077b44d_1": "sha256:9dc69f43e47d2535a5590f05d0a3a21cb0bf486846add48c04d64f0bb28087a5"}, "docker": "quay.io/biocontainers/rtk2", "aliases": {"rtk2": "/usr/local/bin/rtk2"}}
+config: {"url": "https://biocontainers.pro/tools/rtk2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rtk2", "latest": {"2.15--hf426362_0": "sha256:bd9cb397a7e4d5bcaecb775f741b8d9119ca83412a1289659029ce4196b82b52"}, "tags": {"2.10--hdcf5f25_0": "sha256:4f9ac7d7405bc53f0b5f65911ceccd2f2c35b0e513d81f44afc1ab532a8db260", "2.11.2--hdcf5f25_0": "sha256:0ce524a705af598d751ad38dd43a3654f0b9e4ab7c724db0dd10eaeb92ce9b80", "2.11.2--h077b44d_1": "sha256:9dc69f43e47d2535a5590f05d0a3a21cb0bf486846add48c04d64f0bb28087a5", "2.15--hf426362_0": "sha256:bd9cb397a7e4d5bcaecb775f741b8d9119ca83412a1289659029ce4196b82b52", "2.14--hf426362_0": "sha256:5243fe95d50b5f1e029f812bc8836e6727db61ea8e3704654512a0684618037a"}, "docker": "quay.io/biocontainers/rtk2", "aliases": {"rtk2": "/usr/local/bin/rtk2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rtk2.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/rtk2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rtk2:2.11.2--h077b44d_1
+$ shpc install quay.io/biocontainers/rtk2:2.15--hf426362_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rtk2/2.11.2--h077b44d_1
-$ module help quay.io/biocontainers/rtk2/2.11.2--h077b44d_1
+$ module load quay.io/biocontainers/rtk2/2.15--hf426362_0
+$ module help quay.io/biocontainers/rtk2/2.15--hf426362_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
