@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/stranger
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for stranger
 latest:
-  0.10.0--pyhdfd78af_0: 
-    sha256:6a2fe2d39632fd60b057a08d3a8e5fd6edee5a0cc237a8da7856f00b5b72f92f
+  0.10.2--pyhdfd78af_0: 
+    sha256:1848bf6fa2f10cfad061a1c7f53921d7c445ed2a4f282068baf9d9ad44a870e0
 tags:
   0.8.1--pyh5e36f6f_0: 
     sha256:13ebb3c62e57a1577ed568f34ec0fe1d32ef24202a5658453697e535e8148b2c
@@ -21,6 +21,8 @@ tags:
     sha256:a198dbdfe60927ff8cc2b91fe6d28e19aeff485866da46e2b08d2ae8b26384b7
   0.10.0--pyhdfd78af_0: 
     sha256:6a2fe2d39632fd60b057a08d3a8e5fd6edee5a0cc237a8da7856f00b5b72f92f
+  0.10.2--pyhdfd78af_0: 
+    sha256:1848bf6fa2f10cfad061a1c7f53921d7c445ed2a4f282068baf9d9ad44a870e0
 docker: quay.io/biocontainers/stranger
 aliases:
   stranger: /usr/local/bin/stranger

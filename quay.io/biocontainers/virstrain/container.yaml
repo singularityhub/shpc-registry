@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/virstrain
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for virstrain
 latest:
-  1.17--pyhdfd78af_1: 
-    sha256:13df1cea172d3a9fba84bfd358cdfe41e4ebddd7ebf5f32e9c9628f0ee496a06
+  1.18--pyhdfd78af_0: 
+    sha256:1f2cbee85817e1f2517d7ad5a7d3d4ea9eea5de22a1e23af30513a712cc78787
 tags:
   1.9--pyhdfd78af_0: 
     sha256:aa540a48ebce9f12e99fdcec7241bba20158af862f83802a3396b32e413617bf
@@ -19,6 +19,8 @@ tags:
     sha256:675bdc13102991b0f0783ebe3a0867bac79e6372db64d37079e8973b9e82b11a
   1.17--pyhdfd78af_1: 
     sha256:13df1cea172d3a9fba84bfd358cdfe41e4ebddd7ebf5f32e9c9628f0ee496a06
+  1.18--pyhdfd78af_0: 
+    sha256:1f2cbee85817e1f2517d7ad5a7d3d4ea9eea5de22a1e23af30513a712cc78787
 docker: quay.io/biocontainers/virstrain
 aliases:
   virstrain: /usr/local/bin/virstrain

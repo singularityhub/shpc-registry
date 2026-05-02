@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tafinder3d
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tafinder3d
 latest:
-  1.0.7--pyhdfd78af_0: 
-    sha256:23968d162c63b9535f9f080326bff042410927ee0d16fc423c7279a4da83ae73
+  1.0.9--pyhdfd78af_0: 
+    sha256:fc26d5543e98c06babb1f643758e53a68d1ace219da5067aad69e8130f03df4f
 tags:
   1.0.7--pyhdfd78af_0: 
     sha256:23968d162c63b9535f9f080326bff042410927ee0d16fc423c7279a4da83ae73
+  1.0.9--pyhdfd78af_0: 
+    sha256:fc26d5543e98c06babb1f643758e53a68d1ace219da5067aad69e8130f03df4f
 docker: quay.io/biocontainers/tafinder3d
 aliases:
   foldseek: /usr/local/bin/foldseek

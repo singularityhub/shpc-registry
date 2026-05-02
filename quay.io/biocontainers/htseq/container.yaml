@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/htseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for htseq
 latest:
-  2.1.2--py313h724b537_1: 
-    sha256:5d9d386b03e0f003825b75b744641ab75b1b0a094f5402052ad45ad848d9148e
+  2.1.2--py311h483b626_2: 
+    sha256:dd36dbd865d03eb89d7c9d51360bba76f69ad4f1e7a55e341de0f0997b091895
 tags:
   0.9.1--py37h70f9b12_3: 
     sha256:f10c9c62602ecef7b4c32ed64e506b4dc4d024d3d07aa45498fd18a684c17464
@@ -31,6 +31,8 @@ tags:
     sha256:6a8a87a3b918f19163e61d8e32e7744f3523cd720906b1d63a7d774e346e8d2a
   2.1.2--py313h724b537_1: 
     sha256:5d9d386b03e0f003825b75b744641ab75b1b0a094f5402052ad45ad848d9148e
+  2.1.2--py311h483b626_2: 
+    sha256:dd36dbd865d03eb89d7c9d51360bba76f69ad4f1e7a55e341de0f0997b091895
 docker: quay.io/biocontainers/htseq
 aliases:
   htseq-count: /usr/local/bin/htseq-count

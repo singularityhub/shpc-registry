@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/crispresso2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for crispresso2
 latest:
-  2.3.3--py39hff726c5_0: 
-    sha256:b0d3c2c5f1b29684174232f38b118bccf267b38e027fe5de4fecbd5ac7455420
+  2.3.4--py313h93e676e_0: 
+    sha256:c46a8e0da3a493e25b56abb8dfb2ed6c82aacd65ebf0db0da677411f712363d0
 tags:
   2.2.8--py38h6eac312_0: 
     sha256:77f2952faf107bd2412e2373d37e50d7ecbf1da81d75d008233f24cf42fc1d5e
@@ -23,6 +23,8 @@ tags:
     sha256:7b1892aacf84f103bb472652496185f3af0c5b547b89158b99c36ce9f32cea0f
   2.3.3--py39hff726c5_0: 
     sha256:b0d3c2c5f1b29684174232f38b118bccf267b38e027fe5de4fecbd5ac7455420
+  2.3.4--py313h93e676e_0: 
+    sha256:c46a8e0da3a493e25b56abb8dfb2ed6c82aacd65ebf0db0da677411f712363d0
 docker: quay.io/biocontainers/crispresso2
 aliases:
   CRISPResso: /usr/local/bin/CRISPResso
