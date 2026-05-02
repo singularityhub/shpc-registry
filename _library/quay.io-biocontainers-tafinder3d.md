@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tafinder3d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tafinder3d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tafinder3d/container.yaml"
-updated_at: "2026-05-01 05:49:44.816391"
-latest: "1.0.7--pyhdfd78af_0"
+updated_at: "2026-05-02 05:19:15.312188"
+latest: "1.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tafinder3d"
 aliases:
  - "foldseek"
@@ -46,8 +46,9 @@ aliases:
  - "shmemcxx"
 versions:
  - "1.0.7--pyhdfd78af_0"
+ - "1.0.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tafinder3d"
-config: {"url": "https://biocontainers.pro/tools/tafinder3d", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tafinder3d", "latest": {"1.0.7--pyhdfd78af_0": "sha256:23968d162c63b9535f9f080326bff042410927ee0d16fc423c7279a4da83ae73"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:23968d162c63b9535f9f080326bff042410927ee0d16fc423c7279a4da83ae73"}, "docker": "quay.io/biocontainers/tafinder3d", "aliases": {"foldseek": "/usr/local/bin/foldseek", "hf": "/usr/local/bin/hf", "prodigal-gv": "/usr/local/bin/prodigal-gv", "spm_decode": "/usr/local/bin/spm_decode", "spm_encode": "/usr/local/bin/spm_encode", "spm_export_vocab": "/usr/local/bin/spm_export_vocab", "spm_normalize": "/usr/local/bin/spm_normalize", "spm_train": "/usr/local/bin/spm_train", "tafinder": "/usr/local/bin/tafinder", "tiny-agents": "/usr/local/bin/tiny-agents", "transformers": "/usr/local/bin/transformers", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "typer": "/usr/local/bin/typer", "httpx": "/usr/local/bin/httpx", "aria2c": "/usr/local/bin/aria2c", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "mmseqs": "/usr/local/bin/mmseqs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "gawkbug": "/usr/local/bin/gawkbug", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx"}}
+config: {"url": "https://biocontainers.pro/tools/tafinder3d", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tafinder3d", "latest": {"1.0.9--pyhdfd78af_0": "sha256:fc26d5543e98c06babb1f643758e53a68d1ace219da5067aad69e8130f03df4f"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:23968d162c63b9535f9f080326bff042410927ee0d16fc423c7279a4da83ae73", "1.0.9--pyhdfd78af_0": "sha256:fc26d5543e98c06babb1f643758e53a68d1ace219da5067aad69e8130f03df4f"}, "docker": "quay.io/biocontainers/tafinder3d", "aliases": {"foldseek": "/usr/local/bin/foldseek", "hf": "/usr/local/bin/hf", "prodigal-gv": "/usr/local/bin/prodigal-gv", "spm_decode": "/usr/local/bin/spm_decode", "spm_encode": "/usr/local/bin/spm_encode", "spm_export_vocab": "/usr/local/bin/spm_export_vocab", "spm_normalize": "/usr/local/bin/spm_normalize", "spm_train": "/usr/local/bin/spm_train", "tafinder": "/usr/local/bin/tafinder", "tiny-agents": "/usr/local/bin/tiny-agents", "transformers": "/usr/local/bin/transformers", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "typer": "/usr/local/bin/typer", "httpx": "/usr/local/bin/httpx", "aria2c": "/usr/local/bin/aria2c", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "mmseqs": "/usr/local/bin/mmseqs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "gawkbug": "/usr/local/bin/gawkbug", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tafinder3d.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/tafinder3d
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tafinder3d:1.0.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tafinder3d:1.0.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tafinder3d/1.0.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/tafinder3d/1.0.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/tafinder3d/1.0.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/tafinder3d/1.0.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

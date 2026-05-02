@@ -4,7 +4,7 @@ name:  "rabbitmq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rabbitmq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rabbitmq/container.yaml"
-updated_at: "2026-05-01 05:44:28.589083"
+updated_at: "2026-05-02 05:13:55.833438"
 latest: "4.3-rc"
 container_url: "https://hub.docker.com/r/_/rabbitmq"
 aliases:

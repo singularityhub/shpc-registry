@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rgreat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgreat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgreat/container.yaml"
-updated_at: "2026-05-01 06:33:10.246062"
+updated_at: "2026-05-02 06:02:42.022143"
 latest: "2.12.2--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgreat"
 aliases:

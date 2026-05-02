@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sparse-neighbors-search"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparse-neighbors-search/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sparse-neighbors-search/container.yaml"
-updated_at: "2026-05-01 05:54:43.091838"
+updated_at: "2026-05-02 05:24:12.990159"
 latest: "0.7--py37h675a0cb_2"
 container_url: "https://biocontainers.pro/tools/sparse-neighbors-search"
 aliases:

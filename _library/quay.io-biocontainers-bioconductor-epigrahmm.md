@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epigrahmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epigrahmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epigrahmm/container.yaml"
-updated_at: "2026-05-01 06:15:20.555002"
+updated_at: "2026-05-02 05:44:54.388050"
 latest: "1.18.0--r45ha27e39d_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-epigrahmm"
 aliases:

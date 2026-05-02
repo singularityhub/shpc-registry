@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/foldtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldtree/container.yaml"
-updated_at: "2026-05-01 06:08:02.862748"
-latest: "1.1.0rc2--pyh106432d_1"
+updated_at: "2026-05-02 05:37:38.623847"
+latest: "1.1.1rc1--pyh106432d_1"
 container_url: "https://biocontainers.pro/tools/foldtree"
 aliases:
  - "apisearch"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "1.1.0rc2--pyh106432d_0"
  - "1.1.0rc2--pyh106432d_1"
+ - "1.1.1rc1--pyh106432d_1"
 description: "singularity registry hpc automated addition for foldtree"
-config: {"url": "https://biocontainers.pro/tools/foldtree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for foldtree", "latest": {"1.1.0rc2--pyh106432d_1": "sha256:ff330f1876c439910d766eed0f8b568e5a8d611ef3a0ec7da095d8922fcaf2c4"}, "tags": {"1.1.0rc2--pyh106432d_0": "sha256:443f931e998fbd66a390425c8bacc71cd97e9aa68fb12f2751a9f8290d056740", "1.1.0rc2--pyh106432d_1": "sha256:ff330f1876c439910d766eed0f8b568e5a8d611ef3a0ec7da095d8922fcaf2c4"}, "docker": "quay.io/biocontainers/foldtree", "aliases": {"apisearch": "/usr/local/bin/apisearch", "foldtree": "/usr/local/bin/foldtree", "pyfoldtree": "/usr/local/bin/pyfoldtree", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "jupyter-trust": "/usr/local/bin/jupyter-trust", "tabulate": "/usr/local/bin/tabulate", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13"}}
+config: {"url": "https://biocontainers.pro/tools/foldtree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for foldtree", "latest": {"1.1.1rc1--pyh106432d_1": "sha256:712f5e50994e6dc44519bfa556460f7737fa93cff189e2206ebb7a1284116f48"}, "tags": {"1.1.0rc2--pyh106432d_0": "sha256:443f931e998fbd66a390425c8bacc71cd97e9aa68fb12f2751a9f8290d056740", "1.1.0rc2--pyh106432d_1": "sha256:ff330f1876c439910d766eed0f8b568e5a8d611ef3a0ec7da095d8922fcaf2c4", "1.1.1rc1--pyh106432d_1": "sha256:712f5e50994e6dc44519bfa556460f7737fa93cff189e2206ebb7a1284116f48"}, "docker": "quay.io/biocontainers/foldtree", "aliases": {"apisearch": "/usr/local/bin/apisearch", "foldtree": "/usr/local/bin/foldtree", "pyfoldtree": "/usr/local/bin/pyfoldtree", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "humanfriendly": "/usr/local/bin/humanfriendly", "jupyter-trust": "/usr/local/bin/jupyter-trust", "tabulate": "/usr/local/bin/tabulate", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/foldtree.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/foldtree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/foldtree:1.1.0rc2--pyh106432d_1
+$ shpc install quay.io/biocontainers/foldtree:1.1.1rc1--pyh106432d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/foldtree/1.1.0rc2--pyh106432d_1
-$ module help quay.io/biocontainers/foldtree/1.1.0rc2--pyh106432d_1
+$ module load quay.io/biocontainers/foldtree/1.1.1rc1--pyh106432d_1
+$ module help quay.io/biocontainers/foldtree/1.1.1rc1--pyh106432d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
