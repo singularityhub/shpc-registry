@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sshash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sshash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sshash/container.yaml"
-updated_at: "2026-05-02 05:43:58.368556"
+updated_at: "2026-05-03 06:02:10.929924"
 latest: "5.0.0--haf24da9_0"
 container_url: "https://biocontainers.pro/tools/sshash"
 aliases:
