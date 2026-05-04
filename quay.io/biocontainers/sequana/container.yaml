@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sequana
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sequana
 latest:
-  0.21.0--pyhdfd78af_0: 
-    sha256:7c89f52ff9ddb662198fc99ea3a0e254ade704d65d69a3f8cded0291ffb13c1d
+  0.21.2--pyhdfd78af_0: 
+    sha256:43a1d6e56d6047bf3c7393da73a33535356dff61f875b06269db0e42500aa245
 tags:
   0.8.2--py36h4c5857e_1: 
     sha256:03bd2313d7dfc05e294f3b5e9d37510fc14c6e5823f657aee0b3146e157f6a28
@@ -31,4 +31,6 @@ tags:
     sha256:ce66ac05cbc53cda331807556dc3d5f8255c631c6ebb68807dbd6d57b51e2417
   0.21.0--pyhdfd78af_0: 
     sha256:7c89f52ff9ddb662198fc99ea3a0e254ade704d65d69a3f8cded0291ffb13c1d
+  0.21.2--pyhdfd78af_0: 
+    sha256:43a1d6e56d6047bf3c7393da73a33535356dff61f875b06269db0e42500aa245
 docker: quay.io/biocontainers/sequana

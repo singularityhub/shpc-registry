@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/markerrepo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for markerrepo
 latest:
-  0.1.5--pyh106432d_0: 
-    sha256:31764caacfb0f5417a3a8d13891d6e30a72631b1aeffa4ceb7695d615f3ceb5f
+  0.1.6--pyh106432d_0: 
+    sha256:b9acc4f12f47b57e8bb017fbf7b21cf24d1ec5b7569cc37ff8fb5970a5772ba4
 tags:
   0.1.5--pyh106432d_0: 
     sha256:31764caacfb0f5417a3a8d13891d6e30a72631b1aeffa4ceb7695d615f3ceb5f
+  0.1.6--pyh106432d_0: 
+    sha256:b9acc4f12f47b57e8bb017fbf7b21cf24d1ec5b7569cc37ff8fb5970a5772ba4
 docker: quay.io/biocontainers/markerrepo
 aliases:
   apybiomart: /usr/local/bin/apybiomart

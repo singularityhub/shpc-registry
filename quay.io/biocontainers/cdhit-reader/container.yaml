@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/cdhit-reader
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cdhit-reader
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:9a4a5c11a3179a2a18553a4cbe4573442cab29f6490596318c941dc5f26f282f
+  0.3.0--pyhdfd78af_0: 
+    sha256:1c0f106318087c74ba0055af5c21f78af6e71fe81c601be1eda777a898847a99
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:686f9b0ccc858813f1c901d3f4dec33222a3798bfc5346f788403c43c8b27fe3
   0.2.0--pyhdfd78af_0: 
     sha256:9a4a5c11a3179a2a18553a4cbe4573442cab29f6490596318c941dc5f26f282f
+  0.3.0--pyhdfd78af_0: 
+    sha256:1c0f106318087c74ba0055af5c21f78af6e71fe81c601be1eda777a898847a99
 docker: quay.io/biocontainers/cdhit-reader
 aliases:
   cdhit-compare: /usr/local/bin/cdhit-compare
