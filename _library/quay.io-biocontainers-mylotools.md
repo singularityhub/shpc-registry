@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mylotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mylotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mylotools/container.yaml"
-updated_at: "2026-05-03 05:35:10.371392"
+updated_at: "2026-05-04 05:39:44.683980"
 latest: "2.0.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/mylotools"
 aliases:

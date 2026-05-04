@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/markerrepo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markerrepo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markerrepo/container.yaml"
-updated_at: "2026-05-03 05:38:50.066479"
-latest: "0.1.5--pyh106432d_0"
+updated_at: "2026-05-04 05:43:45.745373"
+latest: "0.1.6--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/markerrepo"
 aliases:
  - "apybiomart"
@@ -38,8 +38,9 @@ aliases:
  - "qdelaunay"
 versions:
  - "0.1.5--pyh106432d_0"
+ - "0.1.6--pyh106432d_0"
 description: "singularity registry hpc automated addition for markerrepo"
-config: {"url": "https://biocontainers.pro/tools/markerrepo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for markerrepo", "latest": {"0.1.5--pyh106432d_0": "sha256:31764caacfb0f5417a3a8d13891d6e30a72631b1aeffa4ceb7695d615f3ceb5f"}, "tags": {"0.1.5--pyh106432d_0": "sha256:31764caacfb0f5417a3a8d13891d6e30a72631b1aeffa4ceb7695d615f3ceb5f"}, "docker": "quay.io/biocontainers/markerrepo", "aliases": {"apybiomart": "/usr/local/bin/apybiomart", "session-info": "/usr/local/bin/session-info", "session-info2": "/usr/local/bin/session-info2", "zarr": "/usr/local/bin/zarr", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "scanpy": "/usr/local/bin/scanpy", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay"}}
+config: {"url": "https://biocontainers.pro/tools/markerrepo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for markerrepo", "latest": {"0.1.6--pyh106432d_0": "sha256:b9acc4f12f47b57e8bb017fbf7b21cf24d1ec5b7569cc37ff8fb5970a5772ba4"}, "tags": {"0.1.5--pyh106432d_0": "sha256:31764caacfb0f5417a3a8d13891d6e30a72631b1aeffa4ceb7695d615f3ceb5f", "0.1.6--pyh106432d_0": "sha256:b9acc4f12f47b57e8bb017fbf7b21cf24d1ec5b7569cc37ff8fb5970a5772ba4"}, "docker": "quay.io/biocontainers/markerrepo", "aliases": {"apybiomart": "/usr/local/bin/apybiomart", "session-info": "/usr/local/bin/session-info", "session-info2": "/usr/local/bin/session-info2", "zarr": "/usr/local/bin/zarr", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "scanpy": "/usr/local/bin/scanpy", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/markerrepo.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/markerrepo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/markerrepo:0.1.5--pyh106432d_0
+$ shpc install quay.io/biocontainers/markerrepo:0.1.6--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/markerrepo/0.1.5--pyh106432d_0
-$ module help quay.io/biocontainers/markerrepo/0.1.5--pyh106432d_0
+$ module load quay.io/biocontainers/markerrepo/0.1.6--pyh106432d_0
+$ module help quay.io/biocontainers/markerrepo/0.1.6--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

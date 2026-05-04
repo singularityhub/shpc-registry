@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/weeder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weeder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/weeder/container.yaml"
-updated_at: "2026-05-03 05:36:47.411320"
+updated_at: "2026-05-04 05:41:34.095344"
 latest: "2.0--hc52dbad_11"
 container_url: "https://biocontainers.pro/tools/weeder"
 aliases:

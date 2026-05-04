@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transvar/container.yaml"
-updated_at: "2026-05-03 05:40:01.021002"
+updated_at: "2026-05-04 05:44:58.847577"
 latest: "2.5.10.20211024--py310h5a5e57a_0"
 container_url: "https://biocontainers.pro/tools/transvar"
 aliases:
@@ -18,8 +18,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.5.10.20211024--py310h5a5e57a_0"
+ - "2.5.10.20211024--py313hda738de_0"
 description: "singularity registry hpc automated addition for transvar"
-config: {"url": "https://biocontainers.pro/tools/transvar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for transvar", "latest": {"2.5.10.20211024--py310h5a5e57a_0": "sha256:8fb380bad393d03e0a1db329c9ff6553faf0801c5bb82930e5d04a96d473f6dc"}, "tags": {"2.5.10.20211024--py310h5a5e57a_0": "sha256:8fb380bad393d03e0a1db329c9ff6553faf0801c5bb82930e5d04a96d473f6dc"}, "docker": "quay.io/biocontainers/transvar", "aliases": {"transvar": "/usr/local/bin/transvar", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/transvar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for transvar", "latest": {"2.5.10.20211024--py310h5a5e57a_0": "sha256:8fb380bad393d03e0a1db329c9ff6553faf0801c5bb82930e5d04a96d473f6dc"}, "tags": {"2.5.10.20211024--py310h5a5e57a_0": "sha256:8fb380bad393d03e0a1db329c9ff6553faf0801c5bb82930e5d04a96d473f6dc", "2.5.10.20211024--py313hda738de_0": "sha256:01528522dc1909cebf6f13e6ae85fa6ff75c84469c6e06e17c3b2bb9259eef02"}, "docker": "quay.io/biocontainers/transvar", "aliases": {"transvar": "/usr/local/bin/transvar", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transvar.

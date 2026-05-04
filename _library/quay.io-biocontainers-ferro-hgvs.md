@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/ferro-hgvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ferro-hgvs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ferro-hgvs/container.yaml"
-updated_at: "2026-05-03 05:59:25.981236"
-latest: "0.1.0--h521612f_0"
+updated_at: "2026-05-04 06:04:59.132080"
+latest: "0.4.0--h1f77f1e_0"
 container_url: "https://biocontainers.pro/tools/ferro-hgvs"
 aliases:
  - "ferro"
  - "ferro-benchmark"
 versions:
  - "0.1.0--h521612f_0"
+ - "0.4.0--h1f77f1e_0"
+ - "0.3.0--h521612f_0"
 description: "singularity registry hpc automated addition for ferro-hgvs"
-config: {"url": "https://biocontainers.pro/tools/ferro-hgvs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ferro-hgvs", "latest": {"0.1.0--h521612f_0": "sha256:1d94d0a5714b06d99a43240166b13a3cdea6b70322492125f7c411be5959b76d"}, "tags": {"0.1.0--h521612f_0": "sha256:1d94d0a5714b06d99a43240166b13a3cdea6b70322492125f7c411be5959b76d"}, "docker": "quay.io/biocontainers/ferro-hgvs", "aliases": {"ferro": "/usr/local/bin/ferro", "ferro-benchmark": "/usr/local/bin/ferro-benchmark"}}
+config: {"url": "https://biocontainers.pro/tools/ferro-hgvs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ferro-hgvs", "latest": {"0.4.0--h1f77f1e_0": "sha256:769eb8e90d50732ccd1f9f85bb9a8eb27abfa3ff2f5825b40d0095b8a4feb90a"}, "tags": {"0.1.0--h521612f_0": "sha256:1d94d0a5714b06d99a43240166b13a3cdea6b70322492125f7c411be5959b76d", "0.4.0--h1f77f1e_0": "sha256:769eb8e90d50732ccd1f9f85bb9a8eb27abfa3ff2f5825b40d0095b8a4feb90a", "0.3.0--h521612f_0": "sha256:56ab0e53401916f2d1b287cb273f84f6b77e6e81e2b4998dd0bbfa1aa5bd8837"}, "docker": "quay.io/biocontainers/ferro-hgvs", "aliases": {"ferro": "/usr/local/bin/ferro", "ferro-benchmark": "/usr/local/bin/ferro-benchmark"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ferro-hgvs.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/ferro-hgvs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ferro-hgvs:0.1.0--h521612f_0
+$ shpc install quay.io/biocontainers/ferro-hgvs:0.4.0--h1f77f1e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ferro-hgvs/0.1.0--h521612f_0
-$ module help quay.io/biocontainers/ferro-hgvs/0.1.0--h521612f_0
+$ module load quay.io/biocontainers/ferro-hgvs/0.4.0--h1f77f1e_0
+$ module help quay.io/biocontainers/ferro-hgvs/0.4.0--h1f77f1e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

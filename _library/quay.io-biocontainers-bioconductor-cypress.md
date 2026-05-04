@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cypress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cypress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cypress/container.yaml"
-updated_at: "2026-05-03 05:34:41.496992"
+updated_at: "2026-05-04 05:39:12.800113"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cypress"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sql-abstract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sql-abstract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sql-abstract/container.yaml"
-updated_at: "2026-05-03 06:07:01.328753"
+updated_at: "2026-05-04 06:12:48.592328"
 latest: "2.000001--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-sql-abstract"
 aliases:

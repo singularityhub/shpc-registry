@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/csem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csem/container.yaml"
-updated_at: "2026-05-03 06:24:26.401426"
-latest: "2.4--h47932c3_0"
+updated_at: "2026-05-04 06:30:13.431226"
+latest: "2.4--h47932c3_1"
 container_url: "https://biocontainers.pro/tools/csem"
 aliases:
  - "csem"
@@ -15,8 +15,9 @@ aliases:
  - "run-csem"
 versions:
  - "2.4--h47932c3_0"
+ - "2.4--h47932c3_1"
 description: "singularity registry hpc automated addition for csem"
-config: {"url": "https://biocontainers.pro/tools/csem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for csem", "latest": {"2.4--h47932c3_0": "sha256:99d1f09da122beeb76bd0dd4dbd2931f460b030bae039b1eeb3f66f7a49fce95"}, "tags": {"2.4--h47932c3_0": "sha256:99d1f09da122beeb76bd0dd4dbd2931f460b030bae039b1eeb3f66f7a49fce95"}, "docker": "quay.io/biocontainers/csem", "aliases": {"csem": "/usr/local/bin/csem", "csem-bam-processor": "/usr/local/bin/csem-bam-processor", "csem-bam2wig": "/usr/local/bin/csem-bam2wig", "csem-generate-input": "/usr/local/bin/csem-generate-input", "run-csem": "/usr/local/bin/run-csem"}}
+config: {"url": "https://biocontainers.pro/tools/csem", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for csem", "latest": {"2.4--h47932c3_1": "sha256:fef21cc8b9478bbb3b9104f2afebee79f8e63628d2b8ab6f6e0dda094c641cdd"}, "tags": {"2.4--h47932c3_0": "sha256:99d1f09da122beeb76bd0dd4dbd2931f460b030bae039b1eeb3f66f7a49fce95", "2.4--h47932c3_1": "sha256:fef21cc8b9478bbb3b9104f2afebee79f8e63628d2b8ab6f6e0dda094c641cdd"}, "docker": "quay.io/biocontainers/csem", "aliases": {"csem": "/usr/local/bin/csem", "csem-bam-processor": "/usr/local/bin/csem-bam-processor", "csem-bam2wig": "/usr/local/bin/csem-bam2wig", "csem-generate-input": "/usr/local/bin/csem-generate-input", "run-csem": "/usr/local/bin/run-csem"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/csem.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/csem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/csem:2.4--h47932c3_0
+$ shpc install quay.io/biocontainers/csem:2.4--h47932c3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/csem/2.4--h47932c3_0
-$ module help quay.io/biocontainers/csem/2.4--h47932c3_0
+$ module load quay.io/biocontainers/csem/2.4--h47932c3_1
+$ module help quay.io/biocontainers/csem/2.4--h47932c3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
