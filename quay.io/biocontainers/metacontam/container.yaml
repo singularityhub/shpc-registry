@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/metacontam
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metacontam
+latest:
+  0.0.1--py314hdfd78af_0: 
+    sha256:efe3344dd4fd86a1c1789c244ff45f8ee2f167cc6b35911f07b5e1bc8e148aad
+tags:
+  0.0.1--py314hdfd78af_0: 
+    sha256:efe3344dd4fd86a1c1789c244ff45f8ee2f167cc6b35911f07b5e1bc8e148aad
+docker: quay.io/biocontainers/metacontam
+aliases:
+  bracken: /usr/local/bin/bracken
+  bracken-build: /usr/local/bin/bracken-build
+  combine_bracken_outputs.py: /usr/local/bin/combine_bracken_outputs.py
+  est_abundance.py: /usr/local/bin/est_abundance.py
+  generate_kmer_distribution.py: /usr/local/bin/generate_kmer_distribution.py
+  k2: /usr/local/bin/k2
+  kmer2read_distr: /usr/local/bin/kmer2read_distr
+  metacontam: /usr/local/bin/metacontam
+  xxh3sum: /usr/local/bin/xxh3sum
+  kraken2: /usr/local/bin/kraken2
+  kraken2-build: /usr/local/bin/kraken2-build
+  kraken2-inspect: /usr/local/bin/kraken2-inspect
+  rsync-ssl: /usr/local/bin/rsync-ssl
+  rsync: /usr/local/bin/rsync
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
