@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/citeable
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for citeable
+latest:
+  2026.3.11b1--pyhdfd78af_0: 
+    sha256:68d4926305535361abcc3df9fa9b3076415fd68f10b30ce60f93fd38a88a6dce
+tags:
+  2026.3.11b1--pyhdfd78af_0: 
+    sha256:68d4926305535361abcc3df9fa9b3076415fd68f10b30ce60f93fd38a88a6dce
+docker: quay.io/biocontainers/citeable
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
