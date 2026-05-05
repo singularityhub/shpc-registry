@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alphatims"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alphatims/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alphatims/container.yaml"
-updated_at: "2026-05-04 05:47:20.810160"
+updated_at: "2026-05-05 05:24:45.993427"
 latest: "1.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alphatims"
 aliases:

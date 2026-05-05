@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trinity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trinity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trinity/container.yaml"
-updated_at: "2026-05-04 05:56:36.949159"
+updated_at: "2026-05-05 05:32:07.506683"
 latest: "date.2011_11_26--ncurses5.9_8"
 container_url: "https://biocontainers.pro/tools/trinity"
 aliases:

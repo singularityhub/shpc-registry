@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/caalm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/caalm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/caalm/container.yaml"
-updated_at: "2026-05-04 06:24:40.909075"
+updated_at: "2026-05-05 05:54:06.156510"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/caalm"
 aliases:

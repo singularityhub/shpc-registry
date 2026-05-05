@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyhalcyon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyhalcyon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyhalcyon/container.yaml"
-updated_at: "2026-05-04 06:30:23.851888"
+updated_at: "2026-05-05 05:58:36.125271"
 latest: "0.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/pyhalcyon"
 aliases:

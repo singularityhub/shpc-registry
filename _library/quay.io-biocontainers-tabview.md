@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tabview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tabview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tabview/container.yaml"
-updated_at: "2026-05-04 06:31:23.885700"
+updated_at: "2026-05-05 05:59:24.290156"
 latest: "1.4.3--pyh4bbf42b_0"
 container_url: "https://biocontainers.pro/tools/tabview"
 aliases:

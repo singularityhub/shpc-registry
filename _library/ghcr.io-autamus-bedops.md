@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bedops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bedops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bedops/container.yaml"
-updated_at: "2026-05-04 06:34:05.996497"
+updated_at: "2026-05-05 06:01:35.649925"
 latest: "2.4.40"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bedops"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txcutr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txcutr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txcutr/container.yaml"
-updated_at: "2026-05-04 06:00:43.249506"
+updated_at: "2026-05-05 05:35:24.384756"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-txcutr"
 

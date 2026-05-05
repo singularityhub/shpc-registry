@@ -4,7 +4,7 @@ name:  "amdih/gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/gromacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/gromacs/container.yaml"
-updated_at: "2026-05-04 06:33:31.039185"
+updated_at: "2026-05-05 06:01:06.586033"
 latest: "2022.3.amd1_174"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/gromacs"
 aliases:

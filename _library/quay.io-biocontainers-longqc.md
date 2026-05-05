@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longqc/container.yaml"
-updated_at: "2026-05-04 06:06:51.380489"
+updated_at: "2026-05-05 05:40:13.573164"
 latest: "1.2.0c--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longqc"
 aliases:

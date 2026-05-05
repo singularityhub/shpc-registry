@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/admixture"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/admixture/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/admixture/container.yaml"
-updated_at: "2026-05-04 05:39:32.093710"
+updated_at: "2026-05-05 05:18:48.935505"
 latest: "1.3.0--0"
 container_url: "https://biocontainers.pro/tools/admixture"
 aliases:

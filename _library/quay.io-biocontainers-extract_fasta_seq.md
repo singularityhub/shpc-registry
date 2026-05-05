@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extract_fasta_seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract_fasta_seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract_fasta_seq/container.yaml"
-updated_at: "2026-05-04 05:43:55.401338"
+updated_at: "2026-05-05 05:22:05.201204"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/extract_fasta_seq"
 aliases:

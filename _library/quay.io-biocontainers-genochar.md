@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genochar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genochar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genochar/container.yaml"
-updated_at: "2026-05-04 06:14:56.294104"
+updated_at: "2026-05-05 05:46:24.925770"
 latest: "0.6.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genochar"
 aliases:

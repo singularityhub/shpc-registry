@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blobtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blobtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blobtk/container.yaml"
-updated_at: "2026-05-04 06:29:50.023190"
+updated_at: "2026-05-05 05:58:09.045309"
 latest: "0.7.1--py39hf6b2c50_0"
 container_url: "https://biocontainers.pro/tools/blobtk"
 aliases:

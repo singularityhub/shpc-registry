@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aspera-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aspera-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aspera-cli/container.yaml"
-updated_at: "2026-05-04 06:29:21.820373"
+updated_at: "2026-05-05 05:57:46.358759"
 latest: "4.20.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aspera-cli"
 aliases:
