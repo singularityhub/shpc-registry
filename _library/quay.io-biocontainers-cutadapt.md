@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cutadapt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutadapt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutadapt/container.yaml"
-updated_at: "2026-05-05 05:38:15.953013"
+updated_at: "2026-05-06 05:52:59.836735"
 latest: "5.2--py313h8c92656_1"
 container_url: "https://biocontainers.pro/tools/cutadapt"
 aliases:

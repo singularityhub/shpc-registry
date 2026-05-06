@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyskani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyskani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyskani/container.yaml"
-updated_at: "2026-05-05 05:41:37.338020"
+updated_at: "2026-05-06 05:56:29.358854"
 latest: "0.2.0--py311h5e00ca1_0"
 container_url: "https://biocontainers.pro/tools/pyskani"
 aliases:

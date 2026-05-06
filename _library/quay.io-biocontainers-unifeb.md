@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unifeb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unifeb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unifeb/container.yaml"
-updated_at: "2026-05-05 06:00:25.423269"
+updated_at: "2026-05-06 06:16:20.524035"
 latest: "0.1.1--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/unifeb"
 aliases:

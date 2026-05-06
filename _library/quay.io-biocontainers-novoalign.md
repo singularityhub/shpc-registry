@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/novoalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novoalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novoalign/container.yaml"
-updated_at: "2026-05-05 05:56:57.380285"
+updated_at: "2026-05-06 06:12:52.468337"
 latest: "4.03.04--h5ca1c30_4"
 container_url: "https://biocontainers.pro/tools/novoalign"
 aliases:

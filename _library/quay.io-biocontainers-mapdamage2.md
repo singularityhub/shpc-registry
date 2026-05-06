@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapdamage2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapdamage2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapdamage2/container.yaml"
-updated_at: "2026-05-05 05:44:00.739503"
+updated_at: "2026-05-06 05:58:59.325436"
 latest: "2.2.3--py312h4711d71_0"
 container_url: "https://biocontainers.pro/tools/mapdamage2"
 aliases:
