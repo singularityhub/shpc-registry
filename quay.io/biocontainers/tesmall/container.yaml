@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/tesmall
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tesmall
+latest:
+  2.0.9--pyhdfd78af_1: 
+    sha256:fc7bfe4f43d8bef39cf859bfc51b244a2937a168ecf9036a3d3c8a1404ccdb5a
+tags:
+  2.0.9--pyhdfd78af_1: 
+    sha256:fc7bfe4f43d8bef39cf859bfc51b244a2937a168ecf9036a3d3c8a1404ccdb5a
+docker: quay.io/biocontainers/tesmall
+aliases:
+  TEsmall: /usr/local/bin/TEsmall
+  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  bowtie-align-s: /usr/local/bin/bowtie-align-s
+  bowtie-build-l: /usr/local/bin/bowtie-build-l
+  bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
+  bowtie: /usr/local/bin/bowtie
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  cutadapt: /usr/local/bin/cutadapt
+  bokeh: /usr/local/bin/bokeh
+  ref-cache: /usr/local/bin/ref-cache
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  igzip: /usr/local/bin/igzip
+  pigz: /usr/local/bin/pigz
+  unpigz: /usr/local/bin/unpigz
+  annot-tsv: /usr/local/bin/annot-tsv
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
