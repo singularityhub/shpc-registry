@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tagbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tagbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tagbam/container.yaml"
-updated_at: "2026-05-06 05:55:42.751480"
+updated_at: "2026-05-06 22:28:33.406054"
 latest: "0.1.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/tagbam"
 aliases:

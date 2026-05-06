@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ziggypep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ziggypep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ziggypep/container.yaml"
-updated_at: "2026-05-06 05:50:13.698586"
+updated_at: "2026-05-06 22:21:29.771628"
 latest: "0.3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ziggypep"
 aliases:

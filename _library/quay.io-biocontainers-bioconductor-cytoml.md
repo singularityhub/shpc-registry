@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cytoml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytoml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytoml/container.yaml"
-updated_at: "2026-05-06 06:14:49.664341"
+updated_at: "2026-05-06 22:52:29.703399"
 latest: "2.22.0--r45h2408be0_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytoml"
 
