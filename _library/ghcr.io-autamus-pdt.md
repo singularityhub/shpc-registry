@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/pdt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pdt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/pdt/container.yaml"
-updated_at: "2026-05-06 22:56:17.003717"
+updated_at: "2026-05-07 06:31:26.003483"
 latest: "3.25.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pdt"
 

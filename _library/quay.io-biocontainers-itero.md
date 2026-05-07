@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itero/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itero/container.yaml"
-updated_at: "2026-05-06 22:19:44.523025"
+updated_at: "2026-05-07 05:55:38.876062"
 latest: "1.1.2--py_1"
 container_url: "https://biocontainers.pro/tools/itero"
 aliases:

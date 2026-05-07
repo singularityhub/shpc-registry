@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atlas-gene-annotation-manipulation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atlas-gene-annotation-manipulation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atlas-gene-annotation-manipulation/container.yaml"
-updated_at: "2026-05-06 21:57:57.610314"
+updated_at: "2026-05-07 05:34:43.750984"
 latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atlas-gene-annotation-manipulation"
 aliases:

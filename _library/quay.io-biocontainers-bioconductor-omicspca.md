@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-omicspca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicspca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicspca/container.yaml"
-updated_at: "2026-05-06 21:59:50.301144"
+updated_at: "2026-05-07 05:36:32.365264"
 latest: "1.28.0--r45h575d39b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicspca"
 aliases:

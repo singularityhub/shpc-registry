@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gplas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gplas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gplas/container.yaml"
-updated_at: "2026-05-06 22:50:27.465079"
+updated_at: "2026-05-07 06:25:37.431667"
 latest: "0.6.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gplas"
 aliases:

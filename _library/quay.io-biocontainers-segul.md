@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/segul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/segul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/segul/container.yaml"
-updated_at: "2026-05-06 22:24:43.432672"
+updated_at: "2026-05-07 06:00:29.932561"
 latest: "0.23.2--hc1c3326_0"
 container_url: "https://biocontainers.pro/tools/segul"
 aliases:

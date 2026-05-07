@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lordfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lordfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lordfast/container.yaml"
-updated_at: "2026-05-06 22:49:57.302977"
+updated_at: "2026-05-07 06:25:06.421991"
 latest: "0.0.10--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/lordfast"
 aliases:

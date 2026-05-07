@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scddboost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scddboost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scddboost/container.yaml"
-updated_at: "2026-05-06 22:34:12.904173"
+updated_at: "2026-05-07 06:09:35.996779"
 latest: "1.12.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scddboost"
 aliases:
