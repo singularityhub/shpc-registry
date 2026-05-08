@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/molamola
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for molamola
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:f0a7a69d53806bb3deebbd1c43294e410c00f79607d2d996a46d6a40023d1380
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:f0a7a69d53806bb3deebbd1c43294e410c00f79607d2d996a46d6a40023d1380
+docker: quay.io/biocontainers/molamola
+aliases:
+  molamola: /usr/local/bin/molamola
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
