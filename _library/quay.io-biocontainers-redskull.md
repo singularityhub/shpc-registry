@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/redskull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/redskull/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/redskull/container.yaml"
-updated_at: "2026-05-07 05:38:58.209619"
+updated_at: "2026-05-08 04:59:56.225427"
 latest: "0.1.0--hac57342_0"
 container_url: "https://biocontainers.pro/tools/redskull"
 aliases:

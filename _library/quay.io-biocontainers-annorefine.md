@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annorefine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annorefine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annorefine/container.yaml"
-updated_at: "2026-05-07 06:29:03.718704"
+updated_at: "2026-05-08 05:46:13.799468"
 latest: "2026.2.22--py313h2ab1dba_0"
 container_url: "https://biocontainers.pro/tools/annorefine"
 aliases:
