@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/ampliclip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ampliclip
+latest:
+  1.2--pyhdfd78af_0: 
+    sha256:3d64cb425e356007171e304a7059cef00655452cfda80995824e976827e234d1
+tags:
+  1.2--pyhdfd78af_0: 
+    sha256:3d64cb425e356007171e304a7059cef00655452cfda80995824e976827e234d1
+docker: quay.io/biocontainers/ampliclip
+aliases:
+  ampliclip: /usr/local/bin/ampliclip
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
