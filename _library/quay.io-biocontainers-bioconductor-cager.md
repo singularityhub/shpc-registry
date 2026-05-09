@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cager/container.yaml"
-updated_at: "2026-05-09 05:30:36.191926"
+updated_at: "2026-05-09 06:15:55.736082"
 latest: "2.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cager"
 

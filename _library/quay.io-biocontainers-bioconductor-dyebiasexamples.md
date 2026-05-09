@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dyebiasexamples"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dyebiasexamples/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dyebiasexamples/container.yaml"
-updated_at: "2026-05-09 05:50:48.122159"
+updated_at: "2026-05-09 06:37:00.981488"
 latest: "1.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dyebiasexamples"
 

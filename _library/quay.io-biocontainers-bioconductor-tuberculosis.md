@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tuberculosis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tuberculosis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tuberculosis/container.yaml"
-updated_at: "2026-05-09 05:53:28.352348"
+updated_at: "2026-05-09 06:39:40.504181"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tuberculosis"
 

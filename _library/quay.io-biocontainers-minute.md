@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minute/container.yaml"
-updated_at: "2026-05-09 05:49:43.568049"
+updated_at: "2026-05-09 06:35:56.555975"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/minute"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phylop35way.ucsc.mm39/container.yaml"
-updated_at: "2026-05-09 05:55:36.694785"
+updated_at: "2026-05-09 06:41:50.003129"
 latest: "3.16.0--r45hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-phylop35way.ucsc.mm39"
 aliases:

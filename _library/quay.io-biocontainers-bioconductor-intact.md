@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-intact"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intact/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intact/container.yaml"
-updated_at: "2026-05-09 05:29:33.217701"
+updated_at: "2026-05-09 06:14:47.703111"
 latest: "1.6.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intact"
 aliases:

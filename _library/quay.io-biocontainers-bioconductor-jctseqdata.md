@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-jctseqdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jctseqdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jctseqdata/container.yaml"
-updated_at: "2026-05-09 05:41:06.814646"
+updated_at: "2026-05-09 06:26:58.949980"
 latest: "1.20.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-jctseqdata"
 aliases:
