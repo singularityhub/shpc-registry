@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/soapdenovo-trans
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for soapdenovo-trans
 latest:
-  1.04--h577a1d6_7: 
-    sha256:326b86aa7e65ff2bcc380e9dbb2597e1bddb06116dd2abf8125e13e8b75e571c
+  1.05--hb7acf71_0: 
+    sha256:27f648be37385c1320addf11c9ae3d3dd1890659fcd7a6ab7298461a4f814158
 tags:
   1.04--h7132678_5: 
     sha256:dc453fa932869384698ba29b5cbf4772da90d8516a311c5a6b8d1da939b8c042
@@ -11,6 +11,8 @@ tags:
     sha256:cb0418465bfaf830cb338b4883f1b7ce334cf551988e28b3e16b29fe2a962144
   1.04--h577a1d6_7: 
     sha256:326b86aa7e65ff2bcc380e9dbb2597e1bddb06116dd2abf8125e13e8b75e571c
+  1.05--hb7acf71_0: 
+    sha256:27f648be37385c1320addf11c9ae3d3dd1890659fcd7a6ab7298461a4f814158
 docker: quay.io/biocontainers/soapdenovo-trans
 aliases:
   SOAPdenovo-Trans-127mer: /usr/local/bin/SOAPdenovo-Trans-127mer

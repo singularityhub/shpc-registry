@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/joltax
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for joltax
 latest:
-  0.2.0--pyh106432d_0: 
-    sha256:dadb0dc221e0c9363584aab98d7f34712c9566d49312e10fb92c963ba3747728
+  0.3.0--pyh106432d_0: 
+    sha256:f2c13cf98e321bc104245038cace23a58f066f95758cc003d11fab80a0a5c332
 tags:
   0.2.0--pyh106432d_0: 
     sha256:dadb0dc221e0c9363584aab98d7f34712c9566d49312e10fb92c963ba3747728
+  0.3.0--pyh106432d_0: 
+    sha256:f2c13cf98e321bc104245038cace23a58f066f95758cc003d11fab80a0a5c332
 docker: quay.io/biocontainers/joltax
 aliases:
   idle3.14: /usr/local/bin/idle3.14

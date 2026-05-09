@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hifi_trimmer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hifi_trimmer
 latest:
-  3.0.0--pyhdfd78af_0: 
-    sha256:6bc4aaa205417b9a1697f0fb039555025d493cf05d52c2119d7a884230c403d9
+  4.0.0--pyhdfd78af_0: 
+    sha256:84f1ab13093c6ec1cf9f3afe9d9f08a4e00b78fcc057540d254f0d91c7fa243d
 tags:
   1.2.2--pyhdfd78af_0: 
     sha256:32c3a98532c86642074c7ebd09cd71c37dba8c23e2ee7332740bdc94c36b7b38
@@ -17,6 +17,10 @@ tags:
     sha256:77ec9d98624489ef2129cdce0e6fc3fd3517af7ec90f18eec9d11ef26e601d1c
   3.0.0--pyhdfd78af_0: 
     sha256:6bc4aaa205417b9a1697f0fb039555025d493cf05d52c2119d7a884230c403d9
+  4.0.0--pyhdfd78af_0: 
+    sha256:84f1ab13093c6ec1cf9f3afe9d9f08a4e00b78fcc057540d254f0d91c7fa243d
+  3.1.0--pyhdfd78af_0: 
+    sha256:5d4a0c5e0e5dde6e81c05452453a830e624c8dd5e7d9e452bc9f68b9848de519
 docker: quay.io/biocontainers/hifi_trimmer
 aliases:
   hifi_trimmer: /usr/local/bin/hifi_trimmer

@@ -1,11 +1,11 @@
 docker: bids/aa
 # Most of the tags/digests on Docker Hub seem to be unknown
 latest:
-  enh_various: 
-    sha256:c5b2c733ee6475449066f7dfe7865cc4bf2c74fe3c1150fd4f61a6fed2a6f78b
+  enh_various: 'crane digest bids/aa:enh_various: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 tags:
-  enh_various: 
-    sha256:c5b2c733ee6475449066f7dfe7865cc4bf2c74fe3c1150fd4f61a6fed2a6f78b
+  enh_various: 'crane digest bids/aa:enh_various: TOOMANYREQUESTS: You have reached
+    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 filter:
 - enh_various
 maintainer: '@vsoch'
