@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/joltax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/joltax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/joltax/container.yaml"
-updated_at: "2026-05-08 04:57:18.408579"
-latest: "0.2.0--pyh106432d_0"
+updated_at: "2026-05-09 05:26:11.743303"
+latest: "0.3.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/joltax"
 aliases:
  - "idle3.14"
@@ -15,8 +15,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.2.0--pyh106432d_0"
+ - "0.3.0--pyh106432d_0"
 description: "singularity registry hpc automated addition for joltax"
-config: {"url": "https://biocontainers.pro/tools/joltax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for joltax", "latest": {"0.2.0--pyh106432d_0": "sha256:dadb0dc221e0c9363584aab98d7f34712c9566d49312e10fb92c963ba3747728"}, "tags": {"0.2.0--pyh106432d_0": "sha256:dadb0dc221e0c9363584aab98d7f34712c9566d49312e10fb92c963ba3747728"}, "docker": "quay.io/biocontainers/joltax", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/joltax", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for joltax", "latest": {"0.3.0--pyh106432d_0": "sha256:f2c13cf98e321bc104245038cace23a58f066f95758cc003d11fab80a0a5c332"}, "tags": {"0.2.0--pyh106432d_0": "sha256:dadb0dc221e0c9363584aab98d7f34712c9566d49312e10fb92c963ba3747728", "0.3.0--pyh106432d_0": "sha256:f2c13cf98e321bc104245038cace23a58f066f95758cc003d11fab80a0a5c332"}, "docker": "quay.io/biocontainers/joltax", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/joltax.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/joltax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/joltax:0.2.0--pyh106432d_0
+$ shpc install quay.io/biocontainers/joltax:0.3.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/joltax/0.2.0--pyh106432d_0
-$ module help quay.io/biocontainers/joltax/0.2.0--pyh106432d_0
+$ module load quay.io/biocontainers/joltax/0.3.0--pyh106432d_0
+$ module help quay.io/biocontainers/joltax/0.3.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pedbarrayv9.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pedbarrayv9.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pedbarrayv9.db/container.yaml"
-updated_at: "2026-05-08 05:25:17.059117"
+updated_at: "2026-05-09 05:55:27.058599"
 latest: "3.2.3--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-pedbarrayv9.db"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ogre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ogre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ogre/container.yaml"
-updated_at: "2026-05-08 05:13:24.676681"
+updated_at: "2026-05-09 05:42:59.286941"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ogre"
 aliases:

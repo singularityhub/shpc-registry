@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mmpalatemirna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmpalatemirna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmpalatemirna/container.yaml"
-updated_at: "2026-05-08 05:28:39.730616"
+updated_at: "2026-05-09 05:58:58.078136"
 latest: "1.37.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmpalatemirna"
 aliases:

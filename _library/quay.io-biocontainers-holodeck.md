@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/holodeck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/holodeck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/holodeck/container.yaml"
-updated_at: "2026-05-08 05:46:46.509529"
-latest: "0.2.0--hd612981_0"
+updated_at: "2026-05-09 06:17:31.658356"
+latest: "0.2.1--hd612981_0"
 container_url: "https://biocontainers.pro/tools/holodeck"
 aliases:
  - "holodeck"
 versions:
  - "0.2.0--hd612981_0"
+ - "0.2.1--hd612981_0"
 description: "singularity registry hpc automated addition for holodeck"
-config: {"url": "https://biocontainers.pro/tools/holodeck", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for holodeck", "latest": {"0.2.0--hd612981_0": "sha256:e3e6dee6f6668e765a9ebf834cbc07d96f39d16f7049232641906af36e29bf84"}, "tags": {"0.2.0--hd612981_0": "sha256:e3e6dee6f6668e765a9ebf834cbc07d96f39d16f7049232641906af36e29bf84"}, "docker": "quay.io/biocontainers/holodeck", "aliases": {"holodeck": "/usr/local/bin/holodeck"}}
+config: {"url": "https://biocontainers.pro/tools/holodeck", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for holodeck", "latest": {"0.2.1--hd612981_0": "sha256:7a1d8d561a1b62a1c5eb746f10b7a44c742760f3a50326084eb612c28dcbac0c"}, "tags": {"0.2.0--hd612981_0": "sha256:e3e6dee6f6668e765a9ebf834cbc07d96f39d16f7049232641906af36e29bf84", "0.2.1--hd612981_0": "sha256:7a1d8d561a1b62a1c5eb746f10b7a44c742760f3a50326084eb612c28dcbac0c"}, "docker": "quay.io/biocontainers/holodeck", "aliases": {"holodeck": "/usr/local/bin/holodeck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/holodeck.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/holodeck
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/holodeck:0.2.0--hd612981_0
+$ shpc install quay.io/biocontainers/holodeck:0.2.1--hd612981_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/holodeck/0.2.0--hd612981_0
-$ module help quay.io/biocontainers/holodeck/0.2.0--hd612981_0
+$ module load quay.io/biocontainers/holodeck/0.2.1--hd612981_0
+$ module help quay.io/biocontainers/holodeck/0.2.1--hd612981_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

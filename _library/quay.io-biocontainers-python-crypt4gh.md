@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-crypt4gh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-crypt4gh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-crypt4gh/container.yaml"
-updated_at: "2026-05-08 05:09:32.796900"
-latest: "1.7--pyhdfd78af_0"
+updated_at: "2026-05-09 05:38:56.954137"
+latest: "1.8--py311h26ae33e_0"
 container_url: "https://biocontainers.pro/tools/python-crypt4gh"
 aliases:
  - "crypt4gh"
@@ -19,8 +19,9 @@ aliases:
 versions:
  - "1.6--pyhdfd78af_0"
  - "1.7--pyhdfd78af_0"
+ - "1.8--py311h26ae33e_0"
 description: "singularity registry hpc automated addition for python-crypt4gh"
-config: {"url": "https://biocontainers.pro/tools/python-crypt4gh", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for python-crypt4gh", "latest": {"1.7--pyhdfd78af_0": "sha256:b8b8d17ec82e991016fbfc48448590de2b6345f9dd169adc8dbaa39b7a238529"}, "tags": {"1.6--pyhdfd78af_0": "sha256:29867f565252ce72682a7fd377812ce9952faa6308940deff0aaf7c4dfe5a576", "1.7--pyhdfd78af_0": "sha256:b8b8d17ec82e991016fbfc48448590de2b6345f9dd169adc8dbaa39b7a238529"}, "docker": "quay.io/biocontainers/python-crypt4gh", "aliases": {"crypt4gh": "/usr/local/bin/crypt4gh", "crypt4gh-keygen": "/usr/local/bin/crypt4gh-keygen", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/python-crypt4gh", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for python-crypt4gh", "latest": {"1.8--py311h26ae33e_0": "sha256:eb32050601a67cac89a049fc63d5405c177259d12dd3fae8c318ec9538c11f64"}, "tags": {"1.6--pyhdfd78af_0": "sha256:29867f565252ce72682a7fd377812ce9952faa6308940deff0aaf7c4dfe5a576", "1.7--pyhdfd78af_0": "sha256:b8b8d17ec82e991016fbfc48448590de2b6345f9dd169adc8dbaa39b7a238529", "1.8--py311h26ae33e_0": "sha256:eb32050601a67cac89a049fc63d5405c177259d12dd3fae8c318ec9538c11f64"}, "docker": "quay.io/biocontainers/python-crypt4gh", "aliases": {"crypt4gh": "/usr/local/bin/crypt4gh", "crypt4gh-keygen": "/usr/local/bin/crypt4gh-keygen", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-crypt4gh.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/python-crypt4gh
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-crypt4gh:1.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/python-crypt4gh:1.8--py311h26ae33e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-crypt4gh/1.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/python-crypt4gh/1.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/python-crypt4gh/1.8--py311h26ae33e_0
+$ module help quay.io/biocontainers/python-crypt4gh/1.8--py311h26ae33e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

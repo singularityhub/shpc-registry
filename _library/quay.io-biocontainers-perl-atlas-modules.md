@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-atlas-modules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-atlas-modules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-atlas-modules/container.yaml"
-updated_at: "2026-05-08 05:34:36.425444"
-latest: "0.3.1--pl5262hdbdd923_5"
+updated_at: "2026-05-09 06:05:04.602945"
+latest: "0.3.2--pl5321h8471819_0"
 container_url: "https://biocontainers.pro/tools/perl-atlas-modules"
 aliases:
  - "crc32"
@@ -26,8 +26,9 @@ versions:
  - "0.3.1--pl5262h87f3376_3"
  - "0.3.1--pl5262h87f3376_4"
  - "0.3.1--pl5262hdbdd923_5"
+ - "0.3.2--pl5321h8471819_0"
 description: "shpc-registry automated BioContainers addition for perl-atlas-modules"
-config: {"url": "https://biocontainers.pro/tools/perl-atlas-modules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-atlas-modules", "latest": {"0.3.1--pl5262hdbdd923_5": "sha256:86bfbf5b3f506692d934fa2e4b2e9f76a874162722f699378580a7c40661fb54"}, "tags": {"0.3.1--pl5262h87f3376_3": "sha256:36423ff98bcd6b1ee25252f3fc42c7d2312cbadc8629ecd5045120ac1eceb5de", "0.3.1--pl5262h87f3376_4": "sha256:a2a9a002f32ff63ba959b5399e63552c53e5a8faf854af2eba3f0e0dcac27338", "0.3.1--pl5262hdbdd923_5": "sha256:86bfbf5b3f506692d934fa2e4b2e9f76a874162722f699378580a7c40661fb54"}, "docker": "quay.io/biocontainers/perl-atlas-modules", "aliases": {"crc32": "/usr/local/bin/crc32", "dm_date": "/usr/local/bin/dm_date", "dm_zdump": "/usr/local/bin/dm_zdump", "validjson": "/usr/local/bin/validjson", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pod_cover": "/usr/local/bin/pod_cover", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "findrule": "/usr/local/bin/findrule", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal"}}
+config: {"url": "https://biocontainers.pro/tools/perl-atlas-modules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-atlas-modules", "latest": {"0.3.2--pl5321h8471819_0": "sha256:a7ec62d6d5357fb5eb074b3f9de0a055a95ce51dca75850164da483792f33ca3"}, "tags": {"0.3.1--pl5262h87f3376_3": "sha256:36423ff98bcd6b1ee25252f3fc42c7d2312cbadc8629ecd5045120ac1eceb5de", "0.3.1--pl5262h87f3376_4": "sha256:a2a9a002f32ff63ba959b5399e63552c53e5a8faf854af2eba3f0e0dcac27338", "0.3.1--pl5262hdbdd923_5": "sha256:86bfbf5b3f506692d934fa2e4b2e9f76a874162722f699378580a7c40661fb54", "0.3.2--pl5321h8471819_0": "sha256:a7ec62d6d5357fb5eb074b3f9de0a055a95ce51dca75850164da483792f33ca3"}, "docker": "quay.io/biocontainers/perl-atlas-modules", "aliases": {"crc32": "/usr/local/bin/crc32", "dm_date": "/usr/local/bin/dm_date", "dm_zdump": "/usr/local/bin/dm_zdump", "validjson": "/usr/local/bin/validjson", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pod_cover": "/usr/local/bin/pod_cover", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "findrule": "/usr/local/bin/findrule", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-atlas-modules.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/perl-atlas-modules
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-atlas-modules:0.3.1--pl5262hdbdd923_5
+$ shpc install quay.io/biocontainers/perl-atlas-modules:0.3.2--pl5321h8471819_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-atlas-modules/0.3.1--pl5262hdbdd923_5
-$ module help quay.io/biocontainers/perl-atlas-modules/0.3.1--pl5262hdbdd923_5
+$ module load quay.io/biocontainers/perl-atlas-modules/0.3.2--pl5321h8471819_0
+$ module help quay.io/biocontainers/perl-atlas-modules/0.3.2--pl5321h8471819_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylogenize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylogenize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylogenize/container.yaml"
-updated_at: "2026-05-08 05:44:17.008529"
-latest: "2.0a0--pl5321r41hdfd78af_0"
+updated_at: "2026-05-09 06:14:59.599751"
+latest: "2.0.1--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phylogenize"
 aliases:
  - "git2"
@@ -19,8 +19,9 @@ versions:
  - "0.91--pl5321r41hdfd78af_1"
  - "2.0a0--pl5321r41hdfd78af_0"
  - "2.0.0--r42hdfd78af_0"
+ - "2.0.1--r45hdfd78af_1"
 description: "singularity registry hpc automated addition for phylogenize"
-config: {"url": "https://biocontainers.pro/tools/phylogenize", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phylogenize", "latest": {"2.0a0--pl5321r41hdfd78af_0": "sha256:c5563435a3975f0d2ed3dbd621ee9911e6b2f84e928b1c7d26f0750851ac7917"}, "tags": {"0.91--pl5321r43hdfd78af_0": "sha256:e8703c38b83e3553f29a57192b6944e628b05bc7439dd33fab3554ff087cbfcf", "0.91--pl5321r41hdfd78af_1": "sha256:e1346cc324d2ea89eaaf6c2339fb91a531c967081b3d771eae9d9978c836c352", "2.0a0--pl5321r41hdfd78af_0": "sha256:c5563435a3975f0d2ed3dbd621ee9911e6b2f84e928b1c7d26f0750851ac7917", "2.0.0--r42hdfd78af_0": "sha256:f19f4603c64155c763b98244a9523180daf30af74ce96758bc0fd1fe4ac7c562"}, "docker": "quay.io/biocontainers/phylogenize", "aliases": {"git2": "/usr/local/bin/git2", "vsearch": "/usr/local/bin/vsearch", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/phylogenize", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phylogenize", "latest": {"2.0.1--r45hdfd78af_1": "sha256:a86f64f5c1c6f127f0aba9c6557ae037642ec6e8a109b9050193e953d1ed6bfc"}, "tags": {"0.91--pl5321r43hdfd78af_0": "sha256:e8703c38b83e3553f29a57192b6944e628b05bc7439dd33fab3554ff087cbfcf", "0.91--pl5321r41hdfd78af_1": "sha256:e1346cc324d2ea89eaaf6c2339fb91a531c967081b3d771eae9d9978c836c352", "2.0a0--pl5321r41hdfd78af_0": "sha256:c5563435a3975f0d2ed3dbd621ee9911e6b2f84e928b1c7d26f0750851ac7917", "2.0.0--r42hdfd78af_0": "sha256:f19f4603c64155c763b98244a9523180daf30af74ce96758bc0fd1fe4ac7c562", "2.0.1--r45hdfd78af_1": "sha256:a86f64f5c1c6f127f0aba9c6557ae037642ec6e8a109b9050193e953d1ed6bfc"}, "docker": "quay.io/biocontainers/phylogenize", "aliases": {"git2": "/usr/local/bin/git2", "vsearch": "/usr/local/bin/vsearch", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylogenize.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/phylogenize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylogenize:2.0a0--pl5321r41hdfd78af_0
+$ shpc install quay.io/biocontainers/phylogenize:2.0.1--r45hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylogenize/2.0a0--pl5321r41hdfd78af_0
-$ module help quay.io/biocontainers/phylogenize/2.0a0--pl5321r41hdfd78af_0
+$ module load quay.io/biocontainers/phylogenize/2.0.1--r45hdfd78af_1
+$ module help quay.io/biocontainers/phylogenize/2.0.1--r45hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
