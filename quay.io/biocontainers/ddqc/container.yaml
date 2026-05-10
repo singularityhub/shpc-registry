@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ddqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ddqc
 latest:
-  1.0--pyh7e72e81_0: sha256:236e8d453d6fcf6eea430544ad32a88fb0ff0e3b40e7a17d1264e1779a295d82
+  1.0--pyh7e72e81_0: 
+    sha256:236e8d453d6fcf6eea430544ad32a88fb0ff0e3b40e7a17d1264e1779a295d82
 tags:
-  1.0--pyh7e72e81_0: sha256:236e8d453d6fcf6eea430544ad32a88fb0ff0e3b40e7a17d1264e1779a295d82
+  1.0--pyh7e72e81_0: 
+    sha256:236e8d453d6fcf6eea430544ad32a88fb0ff0e3b40e7a17d1264e1779a295d82
 docker: quay.io/biocontainers/ddqc
 aliases:
   cllayerinfo: /usr/local/bin/cllayerinfo

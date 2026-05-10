@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/pastml
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pastml
 latest:
-  1.9.40--pyhdfd78af_0: sha256:b0861ba54d1f5d2b69beb47c8293e4e839a779244ee6f1091bf60d6e29b6895f
+  1.9.51--pyhdfd78af_0: 
+    sha256:83ebc156e8ebc78a19e8c5e6d905caa57bae2c3156319626c6b47132ae63d638
 tags:
-  1.9.40--pyhdfd78af_0: sha256:b0861ba54d1f5d2b69beb47c8293e4e839a779244ee6f1091bf60d6e29b6895f
+  1.9.40--pyhdfd78af_0: 
+    sha256:b0861ba54d1f5d2b69beb47c8293e4e839a779244ee6f1091bf60d6e29b6895f
+  1.9.51--pyhdfd78af_0: 
+    sha256:83ebc156e8ebc78a19e8c5e6d905caa57bae2c3156319626c6b47132ae63d638
 docker: quay.io/biocontainers/pastml
 aliases:
   attr: /usr/local/bin/attr

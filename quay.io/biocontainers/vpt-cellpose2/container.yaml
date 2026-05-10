@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/vpt-cellpose2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vpt-cellpose2
 latest:
-  1.0.0--hdfd78af_0: 
-    sha256:7eb0ff612ff450194859ae029a00f7900c95007d9d70db3681eeeaef7fe97a2a
+  1.0.0--hdfd78af_1: 
+    sha256:d883063e526ae104c0faf76f2501892e231658234b61ff5d64a719a10e1ffeaf
 tags:
   1.0.0--hdfd78af_0: 
     sha256:7eb0ff612ff450194859ae029a00f7900c95007d9d70db3681eeeaef7fe97a2a
+  1.0.0--hdfd78af_1: 
+    sha256:d883063e526ae104c0faf76f2501892e231658234b61ff5d64a719a10e1ffeaf
 docker: quay.io/biocontainers/vpt-cellpose2
 aliases:
   backend-test-tools: /usr/local/bin/backend-test-tools

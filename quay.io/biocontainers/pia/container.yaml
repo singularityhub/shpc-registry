@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pia
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pia
 latest:
-  1.5.6--hdfd78af_0: 
-    sha256:d8fdd930fcba59cb3ea99a381f59cc90a55e80a86262acf58984002ee2231b5f
+  1.5.8--hdfd78af_0: 
+    sha256:9ab2a2954de93e59907846ebaf44435564b959b93ddb84625cc79dd308b53d56
 tags:
   1.4.8--hdfd78af_0: 
     sha256:61139d86ad772df04a3e10f075d359cc55a5d4210915e303b8f04e53aad22610
@@ -21,6 +21,8 @@ tags:
     sha256:941c064a0b417ac05cbf7a829d981f659ab8ae9789705f9022edb0852954494a
   1.5.6--hdfd78af_0: 
     sha256:d8fdd930fcba59cb3ea99a381f59cc90a55e80a86262acf58984002ee2231b5f
+  1.5.8--hdfd78af_0: 
+    sha256:9ab2a2954de93e59907846ebaf44435564b959b93ddb84625cc79dd308b53d56
 docker: quay.io/biocontainers/pia
 aliases:
   jwebserver: /usr/local/bin/jwebserver

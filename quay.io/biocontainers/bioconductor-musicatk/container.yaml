@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-musicatk
 latest:
-  1.12.0--r43hdfd78af_0: 
-    sha256:db955614ec935076394185af10203aa6280b528a53f9a4403e27c6827b0c0e26
+  2.4.0--r45h1f0d9b5_0: 
+    sha256:fd3228deaa03eddaf4416bf9316e7ac111171929c3c2a783da535794e7f200c8
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37
@@ -14,6 +14,8 @@ tags:
     sha256:c5ce05cc4a05b0fc43e52977a8e64c9e04f307c03627aa5b5a40cca65fe99fc7
   1.12.0--r43hdfd78af_0: 
     sha256:db955614ec935076394185af10203aa6280b528a53f9a4403e27c6827b0c0e26
+  2.4.0--r45h1f0d9b5_0: 
+    sha256:fd3228deaa03eddaf4416bf9316e7ac111171929c3c2a783da535794e7f200c8
 docker: quay.io/biocontainers/bioconductor-musicatk
 aliases:
   pandoc: /usr/local/bin/pandoc

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cageminer
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:4fd883e780e888ec37b5b45fc7887ac359199f59559fe45ebff8e5c4764d2fca
+  1.16.0--r45hdfd78af_0: 
+    sha256:71a9726dd7e22559a833d34ae5812eaa9044a32cd61a561a60cd1aaf92561001
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:f9597950523f7c8c6b5b0e81f5c43f10abfd9e61b8205d6c3be7a76d0f7c03e7
@@ -16,4 +16,6 @@ tags:
     sha256:e8b0e887acfe8b0ef85361536477fe016205af4abd53f6b92f3548a742176246
   1.12.0--r44hdfd78af_0: 
     sha256:4fd883e780e888ec37b5b45fc7887ac359199f59559fe45ebff8e5c4764d2fca
+  1.16.0--r45hdfd78af_0: 
+    sha256:71a9726dd7e22559a833d34ae5812eaa9044a32cd61a561a60cd1aaf92561001
 docker: quay.io/biocontainers/bioconductor-cageminer

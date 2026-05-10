@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/centrifuge-core
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for centrifuge-core
 latest:
-  1.0.4_beta--h5b5514e_2: 
-    sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8
+  1.0.4.2--h5ca1c30_2: 
+    sha256:18dd64c513fd3c3b45e93f60302eb84572c653238d90d5a10f194ee904948065
 tags:
   1.0.4_beta--h5b5514e_2: 
     sha256:7801552791c4b778bea9a544debff237f2383bee2718484a5bd574b9b89866d8

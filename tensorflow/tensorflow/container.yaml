@@ -3,8 +3,8 @@ url: https://hub.docker.com/r/tensorflow/tensorflow
 maintainer: '@vsoch'
 description: An end-to-end open source platform for machine learning.
 latest:
-  2.20.0rc0: 
-    sha256:c8f9d0721e024a12c6d12a3e729750cd9e1b0ba092852e649a5ffd0e0b91defa
+  2.21.0-jupyter: 
+    sha256:cdc7243e715f3462850870ac2231ec48f81c277d540778772b4841a604c1b459
 tags:
   2.5.0-custom-op-gpu-ubuntu16: 
     sha256:478bee6f0691b48d74adc3fcffe3e9ececf35df5c02860cc51a2c48b1d92c730
@@ -20,7 +20,7 @@ tags:
   2.8.0rc0: 
     sha256:11e5d21a786da523d2f7de530c083d5c72a06e02c8895c84595d107c579027a1
   latest-gpu: 
-    sha256:ef97f51a830268acdffe8829a348c6d283702df7f30b117d3ed2e72129c28946
+    sha256:61fe1ce25bd26b0a38e310463a5588d4067d2d01b6bdb058a3ca4f5cf2e18f15
   2.7.1-gpu: 
     sha256:581575fc3a736398f0dff9e950f57f2e6d808296267ac98325451a0b1d101dd0
   2.7.1: sha256:c9940aa904694a1e5dc4ad3add3c933de45091d5b48e37e94993f19d1d213205
@@ -88,6 +88,16 @@ tags:
     sha256:c8f9d0721e024a12c6d12a3e729750cd9e1b0ba092852e649a5ffd0e0b91defa
   2.20.0: 
     sha256:6b0a7db409e62b7cf188ce72074c520af3e8c21f6d4d5b206f700520594dfb5a
+  2.21.0-jupyter: 
+    sha256:cdc7243e715f3462850870ac2231ec48f81c277d540778772b4841a604c1b459
+  2.20.0-jupyter: 
+    sha256:b793dcf3cb54aa3c1e164788920314bec07a841909967a0c9e717ca345e02006
+  2.19.0-jupyter: 
+    sha256:c2636a12431d813dd8d9050f4fb090bea09fe019239a90565c2713dc3c9b8aab
+  2.18.0-jupyter: 
+    sha256:23ad7cec58690fe56fa08c51d326d42b5a3a1a2b44123397b81c8d6d993d9146
+  2.17.0-jupyter: 
+    sha256:19563939a65785abfcc666d90fe81abff716856df29ac7c695568b488e23cfd2
 filter:
 - 2[.]*
 features:

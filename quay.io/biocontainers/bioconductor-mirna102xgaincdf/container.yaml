@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mirna102xgaincdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:7bd756c56c777c721eaf4cd27b290cf4b246a2ef676b2f04474cb73111aaface
+  2.18.0--r45hdfd78af_14: 
+    sha256:e92ca5752b76337bc9bf1fda452a8e1f1fb561f3f834561b4f60d372640f7d2b
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:e2cebeee7d8224b725c9b4d9509f7b3fdd81ecf438670b26c86c3ca08ce93683
@@ -16,4 +16,6 @@ tags:
     sha256:3ea782202aed6d34f7f12362a9536daf2b5ff8b06155ec8f06871abbc3b5bdc1
   2.18.0--r44hdfd78af_13: 
     sha256:7bd756c56c777c721eaf4cd27b290cf4b246a2ef676b2f04474cb73111aaface
+  2.18.0--r45hdfd78af_14: 
+    sha256:e92ca5752b76337bc9bf1fda452a8e1f1fb561f3f834561b4f60d372640f7d2b
 docker: quay.io/biocontainers/bioconductor-mirna102xgaincdf

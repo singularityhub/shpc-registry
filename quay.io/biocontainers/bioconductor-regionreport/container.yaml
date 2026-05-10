@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-regionreport
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:c5963d31f9fbd17eb9dad1aa822934bba6034c509bf988860267c4858ae69428
+  1.44.0--r45hdfd78af_0: 
+    sha256:ee01f1e065c695a1d4876cc1ebe0ac8dc780a265d6feeb44a4be4501ca06fee4
 tags:
   1.27.1--r41hdfd78af_0: 
     sha256:1aca97321d5291a4a452aea0bfce3092bd02620eed0bc9fe5f0ca8e171628e0a
@@ -16,6 +16,8 @@ tags:
     sha256:8461c702c46a68e3d8a28431e8487cc3d269ee9063553a511e33fae19ef37791
   1.40.0--r44hdfd78af_0: 
     sha256:c5963d31f9fbd17eb9dad1aa822934bba6034c509bf988860267c4858ae69428
+  1.44.0--r45hdfd78af_0: 
+    sha256:ee01f1e065c695a1d4876cc1ebe0ac8dc780a265d6feeb44a4be4501ca06fee4
 docker: quay.io/biocontainers/bioconductor-regionreport
 aliases:
   pandoc: /usr/local/bin/pandoc

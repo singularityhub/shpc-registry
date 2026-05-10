@@ -1,11 +1,23 @@
 url: https://biocontainers.pro/tools/bioconductor-dmrcaller
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-dmrcaller
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-dmrcaller
 latest:
-  1.32.0--r43hf17093f_0: sha256:52d39149e38a2182654546e9baf5e9af769086258e7f46701f581cfb432c4ab5
+  1.42.0--r45ha27e39d_0: 
+    sha256:b43cb6b1f0feaae3b255894397d0ee204389422293f17e19b1db68169bd4f42f
 tags:
-  1.26.0--r41hc247a5b_2: sha256:ea08aa357f5fcb65e695bf0931f03e48e35254135e4fdc4969a641abaf0fecf7
-  1.30.0--r42hc247a5b_0: sha256:84948a3f47c2e2b401893caa287d8bba8ba4dd0aeb8bc03e8cdc78717d4354d2
-  1.30.0--r42hf17093f_1: sha256:8bc4ac5076ce07d6118e925ae6a19cc6f4a2b3339fc8a470f3667640c8e9d198
-  1.32.0--r43hf17093f_0: sha256:52d39149e38a2182654546e9baf5e9af769086258e7f46701f581cfb432c4ab5
+  1.26.0--r41hc247a5b_2: 
+    sha256:ea08aa357f5fcb65e695bf0931f03e48e35254135e4fdc4969a641abaf0fecf7
+  1.30.0--r42hc247a5b_0: 
+    sha256:84948a3f47c2e2b401893caa287d8bba8ba4dd0aeb8bc03e8cdc78717d4354d2
+  1.30.0--r42hf17093f_1: 
+    sha256:8bc4ac5076ce07d6118e925ae6a19cc6f4a2b3339fc8a470f3667640c8e9d198
+  1.32.0--r43hf17093f_0: 
+    sha256:52d39149e38a2182654546e9baf5e9af769086258e7f46701f581cfb432c4ab5
+  1.42.0--r45ha27e39d_0: 
+    sha256:b43cb6b1f0feaae3b255894397d0ee204389422293f17e19b1db68169bd4f42f
+  1.38.0--r44he5774e6_0: 
+    sha256:08e3696aad52939f58a62c6a475fb74a7d27660042ae73b7198de0c3f1a71263
+  1.34.0--r43hf17093f_1: 
+    sha256:fb217d58336b71cd1b72df8f27bd9eca6932647238c23df5816a8aa7a7074a86
 docker: quay.io/biocontainers/bioconductor-dmrcaller

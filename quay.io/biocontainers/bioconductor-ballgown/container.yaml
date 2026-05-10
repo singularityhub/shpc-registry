@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ballgown
 latest:
-  2.38.0--r44hdfd78af_0: 
-    sha256:7fe7b0e85a86dee5ac646beb034295d039116563ae30600c6a4ade1d0c41358c
+  2.42.0--r45hdfd78af_0: 
+    sha256:23f172c8550ed94a5312952c9602bb3ecd705ae3241442c827a4fe7977f728bd
 tags:
   2.8.4--r3.4.1_0: 
     sha256:b3d3437aabc309ac730e820f527576a4edcdabc09d28367269e9cdea85a2bcc6
@@ -26,6 +26,8 @@ tags:
     sha256:05bb9541e0a108795045a26754def602566681357961f66df0fa27541aabdf66
   2.38.0--r44hdfd78af_0: 
     sha256:7fe7b0e85a86dee5ac646beb034295d039116563ae30600c6a4ade1d0c41358c
+  2.42.0--r45hdfd78af_0: 
+    sha256:23f172c8550ed94a5312952c9602bb3ecd705ae3241442c827a4fe7977f728bd
 docker: quay.io/biocontainers/bioconductor-ballgown
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

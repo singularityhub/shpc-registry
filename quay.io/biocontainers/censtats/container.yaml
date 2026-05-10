@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/censtats
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for censtats
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:6a3f81932b1599e4bf325739d2aa39a785c7ada6064b6d70c9c9205f7a304138
+  0.1.3--pyhdfd78af_0: 
+    sha256:66f33ab24d6dc91eb66039387d33b8b54ea6b45a0816e44be886703d4703d16b
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:6a3f81932b1599e4bf325739d2aa39a785c7ada6064b6d70c9c9205f7a304138
+  0.1.3--pyhdfd78af_0: 
+    sha256:66f33ab24d6dc91eb66039387d33b8b54ea6b45a0816e44be886703d4703d16b
 docker: quay.io/biocontainers/censtats
 aliases:
   censtats: /usr/local/bin/censtats

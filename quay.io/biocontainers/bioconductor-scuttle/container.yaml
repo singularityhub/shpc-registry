@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scuttle
 latest:
-  1.16.0--r44he5774e6_1: 
-    sha256:3b5c09ef2a9f234d0ee103307d02df7b5373abbe9458505d0e2be20f3821731c
+  1.20.0--r45ha27e39d_0: 
+    sha256:8b41721d91f95e6736a3a76983db435d37fcf340958c87f0350e486629eecbd7
 tags:
   1.4.0--r41hc247a5b_2: 
     sha256:ea539dbb54472123fddc2403600b90a210e75922f97b467e4816b0fc8b830a8e
@@ -22,4 +22,6 @@ tags:
     sha256:e2b1cd9472da535f9a952179e4e770c6898805c2ed99aac63ad90290fd2ec109
   1.16.0--r44he5774e6_1: 
     sha256:3b5c09ef2a9f234d0ee103307d02df7b5373abbe9458505d0e2be20f3821731c
+  1.20.0--r45ha27e39d_0: 
+    sha256:8b41721d91f95e6736a3a76983db435d37fcf340958c87f0350e486629eecbd7
 docker: quay.io/biocontainers/bioconductor-scuttle

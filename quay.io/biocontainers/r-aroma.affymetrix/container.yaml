@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   r-aroma.affymetrix
 latest:
-  3.2.3--r44h3121a25_0: 
-    sha256:6f4522170e5d0f48c0a1ebe44a53bec7755f8c8e716ca15977e61ce3821fc501
+  3.2.3--r45h3121a25_2: 
+    sha256:7cec979d95b817b1b03a3c8aabacf62f9f7254eb2f23ee00fb4f8aca86d0e065
 tags:
   3.2.1--r41h3121a25_0: 
     sha256:76b1894c7ec98b34149cee0aab1ab85d3ecc860d3a52624e6224c1562862d042
@@ -18,4 +18,6 @@ tags:
     sha256:9019502b676cd029a2a05cc52ee67a84486437cf50b3d9e5ce431824312003dc
   3.2.3--r44h3121a25_0: 
     sha256:6f4522170e5d0f48c0a1ebe44a53bec7755f8c8e716ca15977e61ce3821fc501
+  3.2.3--r45h3121a25_2: 
+    sha256:7cec979d95b817b1b03a3c8aabacf62f9f7254eb2f23ee00fb4f8aca86d0e065
 docker: quay.io/biocontainers/r-aroma.affymetrix

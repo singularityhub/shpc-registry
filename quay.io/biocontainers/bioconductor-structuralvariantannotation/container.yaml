@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-structuralvariantannotation
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:b0ffcda261a64e470cbd87171a6835a862b4537f459621773cd95de5b2aa5c41
+  1.26.0--r45hdfd78af_0: 
+    sha256:3e824f47abafe5537b13473f758a4173965756a9171ddfcf044cfd730b6770eb
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f
@@ -18,6 +18,8 @@ tags:
     sha256:0e2abf54ba0579a8e198f197af820da40001fb0bb8d0bfa02de260e898d7387b
   1.22.0--r44hdfd78af_0: 
     sha256:b0ffcda261a64e470cbd87171a6835a862b4537f459621773cd95de5b2aa5c41
+  1.26.0--r45hdfd78af_0: 
+    sha256:3e824f47abafe5537b13473f758a4173965756a9171ddfcf044cfd730b6770eb
 docker: quay.io/biocontainers/bioconductor-structuralvariantannotation
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

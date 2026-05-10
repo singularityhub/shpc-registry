@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mastr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-mastr
 latest:
-  1.6.0--r44hdfd78af_0: 
-    sha256:a688208112313b2a5abe8f13932ec6e14e6cb4587dc59ffc1ba82c1c46949032
+  1.10.2--r45hdfd78af_0: 
+    sha256:610feb6b585a8e7bc633492a98d5aa5f91ebea395487474d6b40a27e8cc1dd5d
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:7c987038a5e58c757a7f3d9591be374bde16cb1b799b4d4210180bcb2696ca38
@@ -11,6 +11,8 @@ tags:
     sha256:5784ba36dbe2f3afd391840ab6737a7240e19603ddbcfbf7f012577ae2a6682e
   1.6.0--r44hdfd78af_0: 
     sha256:a688208112313b2a5abe8f13932ec6e14e6cb4587dc59ffc1ba82c1c46949032
+  1.10.2--r45hdfd78af_0: 
+    sha256:610feb6b585a8e7bc633492a98d5aa5f91ebea395487474d6b40a27e8cc1dd5d
 docker: quay.io/biocontainers/bioconductor-mastr
 aliases:
   geosop: /usr/local/bin/geosop

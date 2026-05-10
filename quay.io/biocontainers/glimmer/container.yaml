@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/glimmer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for glimmer
 latest:
-  3.02--h87f3376_6: sha256:f86bef3b96dba3728d8dc45d81825ee2c81ceaaa710a2b513365452814f3b308
+  3.02--h87f3376_6: 
+    sha256:f86bef3b96dba3728d8dc45d81825ee2c81ceaaa710a2b513365452814f3b308
 tags:
-  3.02--h87f3376_6: sha256:f86bef3b96dba3728d8dc45d81825ee2c81ceaaa710a2b513365452814f3b308
+  3.02--h87f3376_6: 
+    sha256:f86bef3b96dba3728d8dc45d81825ee2c81ceaaa710a2b513365452814f3b308
 docker: quay.io/biocontainers/glimmer
 aliases:
   anomaly: /usr/local/bin/anomaly

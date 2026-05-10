@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sctgif
 latest:
-  1.20.0--r44he5774e6_0: 
-    sha256:c98fefa66009409e2fac6e3ad48945925b8c01e0db9c7d06322e1dbd32596377
+  1.24.0--r45ha27e39d_0: 
+    sha256:513ac87ff947363ce6728213b2bbecac3eeccb5e68cac282378c588276168805
 tags:
   1.8.0--r41hc247a5b_2: 
     sha256:19344ef27f25508fcc987aa019b67c6f0bcb1798e658c9f118a3b2879b6e11ed
@@ -18,6 +18,8 @@ tags:
     sha256:32d6705a9ce84046da6011aa638ec60f04e13389c3d7d5fb24e1e21f176756fc
   1.20.0--r44he5774e6_0: 
     sha256:c98fefa66009409e2fac6e3ad48945925b8c01e0db9c7d06322e1dbd32596377
+  1.24.0--r45ha27e39d_0: 
+    sha256:513ac87ff947363ce6728213b2bbecac3eeccb5e68cac282378c588276168805
 docker: quay.io/biocontainers/bioconductor-sctgif
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

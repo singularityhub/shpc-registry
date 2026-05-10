@@ -33,6 +33,14 @@ tags:
     sha256:715147cea77fbfae04f80cbf998abb161339b31ca9b49437110f9c1c3fa6322e
   1.0.22--pyhdfd78af_0: 
     sha256:dbd842f400b4d26726be9ae32fc8ede98d04c4454d03a577fd54a5a441288907
+  0.9.5--pyhdfd78af_0: 
+    sha256:8acbdb5e17b01849e2b63089cdfe2dba23b83056762adf92e78d9d41fd89b91b
+  0.8.4--pyhdfd78af_0: 
+    sha256:873e5b332c2910fd7d3ac282ae50647df22c77fd0e112072ada3e451a6b3f92d
+  0.7.11--py_0: 
+    sha256:b42f05649db6b9fddfb099428273e73c35d5ebb24e47e56d025d2230d23dedbd
+  0.6.15--py_0: 
+    sha256:a07af6f31b75bc689875a4233af1fa1ff2e53027fd1eddebdb5ab21370e80202
 docker: quay.io/biocontainers/thapbi-pict
 aliases:
   amplicon_contingency_table.py: /usr/local/bin/amplicon_contingency_table.py

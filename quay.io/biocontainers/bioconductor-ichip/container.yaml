@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ichip
 latest:
-  1.60.0--r44h3df3fcb_0: 
-    sha256:588995cd9c9635241a16359ed3c8740e95212a772c5aaa338f2b9194fd7c0c7c
+  1.64.0--r45h01b2380_0: 
+    sha256:78d8df04893be8836e3c54c6a6dfdd644cdfc5da115f2db65eb3fc488b172b4d
 tags:
   1.48.0--r41hc0cfd56_2: 
     sha256:5e6174ae3f6499d5e353a9b0290b8194626a586ba9437d840333cd08724de9b1
@@ -18,4 +18,6 @@ tags:
     sha256:5ec2c24ef2d44a983c0d7a585f8a52158e27f77885d7f07dd7855fa380d302aa
   1.60.0--r44h3df3fcb_0: 
     sha256:588995cd9c9635241a16359ed3c8740e95212a772c5aaa338f2b9194fd7c0c7c
+  1.64.0--r45h01b2380_0: 
+    sha256:78d8df04893be8836e3c54c6a6dfdd644cdfc5da115f2db65eb3fc488b172b4d
 docker: quay.io/biocontainers/bioconductor-ichip

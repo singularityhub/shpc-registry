@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/vpt-segmentation-packing
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for vpt-segmentation-packing
+description: singularity registry hpc automated addition for 
+  vpt-segmentation-packing
 latest:
-  1.0.1--pyhdfd78af_0: sha256:84cbe83e7a94aecea892025591165f3164b51795088cb9f8d69cbe897ae3fd78
+  1.0.1--pyhdfd78af_0: 
+    sha256:84cbe83e7a94aecea892025591165f3164b51795088cb9f8d69cbe897ae3fd78
 tags:
-  1.0.1--pyhdfd78af_0: sha256:84cbe83e7a94aecea892025591165f3164b51795088cb9f8d69cbe897ae3fd78
+  1.0.1--pyhdfd78af_0: 
+    sha256:84cbe83e7a94aecea892025591165f3164b51795088cb9f8d69cbe897ae3fd78
 docker: quay.io/biocontainers/vpt-segmentation-packing
 aliases:
   protoc-28.3.0: /usr/local/bin/protoc-28.3.0

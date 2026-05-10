@@ -7,6 +7,8 @@ latest:
 tags:
   2.0.1--py311h26ae33e_0: 
     sha256:5c0f3d4d66ddea9b0bc503d88fea4dfb4c503da8e3db48c2ec034608e0ea1892
+  2.0.1--py313h8c92656_0: 
+    sha256:534ffe0d0ba4c4a907531f61ce563679e2d7379fe6d0c537d88ea61f40ad2a03
 docker: quay.io/biocontainers/rmats-long
 aliases:
   rmats-long: /usr/local/bin/rmats-long

@@ -47,6 +47,14 @@ tags:
     sha256:7bc4689f4b4fba796e2e0de74dfc7ccf6b5bc79d049b530f385449ff6f4082da
   0.407.0--pyhdfd78af_0: 
     sha256:a78f34cda4e40246267b5cb08bc8de99e6bc1b82b99532e48b0f93983b5d87a4
+  0.322.1--pyh5e36f6f_0: 
+    sha256:82d39f4c959fd0fdbed27c1c861155c2017b58f939fa3298b510b2cf1112abc7
+  0.321.0--pyh5e36f6f_0: 
+    sha256:e44388993bdf80e624d4e3a11947bf30b0c5e3dec8bbd3ba79d4f5f5fef6ae14
+  0.320.0--pyh5e36f6f_0: 
+    sha256:565d7fddf1705ce7ade7c0afd24a0d5a852eb8693e2483cee14ea8d0979ca852
+  0.319.2--pyh5e36f6f_0: 
+    sha256:8de14b72892d779856d573cbd137002bb519c29874b640fbb724641bd9364227
 docker: quay.io/biocontainers/dxpy
 aliases:
   dx: /usr/local/bin/dx

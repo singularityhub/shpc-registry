@@ -2,10 +2,15 @@ url: https://biocontainers.pro/tools/hgvs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hgvs
 latest:
-  1.5.4--pyh7cba7a3_0: sha256:9dccfe14484409af1eeaeb82a0fdeb0986eadc7b4520afdb0db7c0f3af66245e
+  1.5.7--pyhdfd78af_0: 
+    sha256:1b3ddc9467a0dc70763c1474c87a2868db64a2003b984320b7477ee3cf707407
 tags:
-  1.5.2--pyh5e36f6f_0: sha256:1b37fcaafc7259c53732b87777ec0f06dbd385a6cc99d76e62495c06d2db0554
-  1.5.4--pyh7cba7a3_0: sha256:9dccfe14484409af1eeaeb82a0fdeb0986eadc7b4520afdb0db7c0f3af66245e
+  1.5.2--pyh5e36f6f_0: 
+    sha256:1b37fcaafc7259c53732b87777ec0f06dbd385a6cc99d76e62495c06d2db0554
+  1.5.4--pyh7cba7a3_0: 
+    sha256:9dccfe14484409af1eeaeb82a0fdeb0986eadc7b4520afdb0db7c0f3af66245e
+  1.5.7--pyhdfd78af_0: 
+    sha256:1b3ddc9467a0dc70763c1474c87a2868db64a2003b984320b7477ee3cf707407
 docker: quay.io/biocontainers/hgvs
 aliases:
   hgvs-shell: /usr/local/bin/hgvs-shell

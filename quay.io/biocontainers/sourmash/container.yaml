@@ -37,6 +37,8 @@ tags:
     sha256:c32fe83f80681bd1a8be2adf1e830decf2d40751737ba45d6f96ea2c34976805
   4.9.4--hdfd78af_0: 
     sha256:cf32bc7e7039340772184a79333a88d7988a2213a1209716b6e11977fa0d6719
+  4.8.6--hdfd78af_0: 
+    sha256:5526af820b37fcd5888d38070d473d004a0f0cadd500962c9ec3aee9b6f8d99c
 docker: quay.io/biocontainers/sourmash
 aliases:
   abundance-dist-single.py: /usr/local/bin/abundance-dist-single.py

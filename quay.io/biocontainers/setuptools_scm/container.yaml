@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/setuptools_scm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for setuptools_scm
 latest:
-  1.11.1--py35_0: sha256:46296eb02f36244facd35428ba7fd6540ebd2398074628f855ebe8cd24144183
+  1.11.1--py35_0: 
+    sha256:9e7f11ce08637aeaab068baa9ca4eeac5c635f07023f42d7b67124cd62eb61cc
 tags:
-  1.11.1--py35_0: sha256:46296eb02f36244facd35428ba7fd6540ebd2398074628f855ebe8cd24144183
+  1.11.1--py35_0: 
+    sha256:9e7f11ce08637aeaab068baa9ca4eeac5c635f07023f42d7b67124cd62eb61cc
 docker: quay.io/biocontainers/setuptools_scm
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

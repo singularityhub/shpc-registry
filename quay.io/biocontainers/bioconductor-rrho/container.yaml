@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rrho
 latest:
-  1.46.0--r44hdfd78af_0: 
-    sha256:5be8ba3c0bf33f38bb8653a746604d71fabe8800090ee9dd92a68e99cacf6429
+  1.50.0--r45hdfd78af_0: 
+    sha256:741f77cfc49bb01ca9ec7b743ec93f62dd0458c303527ea8062e18ff116cf1c9
 tags:
   1.34.0--r41hdfd78af_0: 
     sha256:ed197765ec6f2bbc4d27014e0e453c55e80e3a8c6df0639f5037ea687ee73b17
@@ -16,4 +16,6 @@ tags:
     sha256:3e39d2a97bd9b36c3971f9217aea5414d5f284226eaa8491198590b849d402e5
   1.46.0--r44hdfd78af_0: 
     sha256:5be8ba3c0bf33f38bb8653a746604d71fabe8800090ee9dd92a68e99cacf6429
+  1.50.0--r45hdfd78af_0: 
+    sha256:741f77cfc49bb01ca9ec7b743ec93f62dd0458c303527ea8062e18ff116cf1c9
 docker: quay.io/biocontainers/bioconductor-rrho

@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-module-pluggable
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-module-pluggable
+description: shpc-registry automated BioContainers addition for 
+  perl-module-pluggable
 latest:
-  5.2--pl5321hdfd78af_2: sha256:b1fd06bffc67cc3b83d6c13b820133481169d5e2f778829349f1e48cd2df7474
+  5.2--pl5321hdfd78af_2: 
+    sha256:b1fd06bffc67cc3b83d6c13b820133481169d5e2f778829349f1e48cd2df7474
 tags:
-  5.2--pl5321hdfd78af_2: sha256:b1fd06bffc67cc3b83d6c13b820133481169d5e2f778829349f1e48cd2df7474
+  5.2--pl5321hdfd78af_2: 
+    sha256:b1fd06bffc67cc3b83d6c13b820133481169d5e2f778829349f1e48cd2df7474
 docker: quay.io/biocontainers/perl-module-pluggable
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

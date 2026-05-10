@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cssq
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:48609b3b27697ea2b27cb5d2618afe3f0f9c4ee9b8c85430ec74f76accf5cf83
+  1.22.0--r45hdfd78af_0: 
+    sha256:d692cedc5f951742157f0d9d30da3771690e36156fb39cd880fef512ecfcae7f
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:9cdedea27fff6a14b72efe30ce3e136f22d35677bcfe911a196815829ec53913
@@ -16,4 +16,6 @@ tags:
     sha256:d0113edf0b6351419e566473aef670cc23829531276874fc61a7b98219c9ad3a
   1.18.0--r44hdfd78af_0: 
     sha256:48609b3b27697ea2b27cb5d2618afe3f0f9c4ee9b8c85430ec74f76accf5cf83
+  1.22.0--r45hdfd78af_0: 
+    sha256:d692cedc5f951742157f0d9d30da3771690e36156fb39cd880fef512ecfcae7f
 docker: quay.io/biocontainers/bioconductor-cssq

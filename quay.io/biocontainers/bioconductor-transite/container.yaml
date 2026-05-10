@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-transite
 latest:
-  1.24.0--r44he5774e6_0: 
-    sha256:fce224259cac245d602d08e4e7f9d5162a872e107ae844726ce74fe6248f76b0
+  1.28.0--r45ha27e39d_0: 
+    sha256:bf053076dd23c4bfae37dcd66bc33286912ebdaf5750ab9f4b18110cdf2a36bb
 tags:
   1.8.0--r40h399db7b_2: 
     sha256:fc0a18d0b5dadf003485c93a1e49da747e2b71d8e5b2d050e7bd5f25e2b96939
@@ -22,6 +22,8 @@ tags:
     sha256:7236ff9da3185d1b71318e90ccc55e3e37a456da8133216c1f7a41ee917927c8
   1.24.0--r44he5774e6_0: 
     sha256:fce224259cac245d602d08e4e7f9d5162a872e107ae844726ce74fe6248f76b0
+  1.28.0--r45ha27e39d_0: 
+    sha256:bf053076dd23c4bfae37dcd66bc33286912ebdaf5750ab9f4b18110cdf2a36bb
 docker: quay.io/biocontainers/bioconductor-transite
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

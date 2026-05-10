@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-qfeatures
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:6fd99b9d291efe6f4f7d416fddec41ae73659a9a408bb64b1d6b19934fb05d5a
+  1.20.0--r45hdfd78af_0: 
+    sha256:0086d19d279de7fe3efa763101e1e90eab0e3b16ea5b4efaa9732584bed16055
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:2d3f121be603cb463dbf0adf58e93ead4a1e617147c2d0edca36b21d0613db58
@@ -16,4 +16,6 @@ tags:
     sha256:d74f2bc5a3d98aaf62dad3c7fce5b29e791a52e732f594b36166c2649b93c197
   1.16.0--r44hdfd78af_0: 
     sha256:6fd99b9d291efe6f4f7d416fddec41ae73659a9a408bb64b1d6b19934fb05d5a
+  1.20.0--r45hdfd78af_0: 
+    sha256:0086d19d279de7fe3efa763101e1e90eab0e3b16ea5b4efaa9732584bed16055
 docker: quay.io/biocontainers/bioconductor-qfeatures

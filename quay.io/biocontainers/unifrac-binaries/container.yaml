@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/unifrac-binaries
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unifrac-binaries
 latest:
-  1.5.1--h127010d_0: 
-    sha256:8cc8312b808702d6a98a0ce2def41d9f0421c03399a309a9604c6c20bf3ef5c9
+  1.6--h9d55e78_0: 
+    sha256:825c92c1610c856e5147fb62aac1f91663602ab09c99baae4e0b3582aa23589c
 tags:
   1.2.1--h73f19ed_0: 
     sha256:a50076a5c603fd35b838dc8fa34e9795286f20cfe6963e436ac4ac1a715aff82
@@ -23,6 +23,8 @@ tags:
     sha256:96c8e03d13f96ddf59fe643b792f074095bfcb4fdf62fd51c61ffb0a5d2338ba
   1.5.1--h127010d_0: 
     sha256:8cc8312b808702d6a98a0ce2def41d9f0421c03399a309a9604c6c20bf3ef5c9
+  1.6--h9d55e78_0: 
+    sha256:825c92c1610c856e5147fb62aac1f91663602ab09c99baae4e0b3582aa23589c
 docker: quay.io/biocontainers/unifrac-binaries
 aliases:
   faithpd: /usr/local/bin/faithpd

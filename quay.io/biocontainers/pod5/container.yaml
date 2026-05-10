@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pod5
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pod5
 latest:
-  0.3.33--pyhdfd78af_0: 
-    sha256:a2b2fe3afa3066f354518995858a1c4cf2d95fdeb349df8d28253a1b594ff303
+  0.3.39--pyhdfd78af_0: 
+    sha256:685a8bfee378f2bec1284ac9fcea1f77ccf3ec217b5b8cd6bb96d73d01032fbe
 tags:
   0.3.15--pyhdfd78af_0: 
     sha256:977a384695fb67e5539cc7cf42c137d192046109cefa3129140a5c258d1355cf
@@ -11,6 +11,8 @@ tags:
     sha256:b5ebe0ed2e9aabac0b2e0562c53fb7795d43b7a3e0d90ffd3aa6e70ba95cca3d
   0.3.33--pyhdfd78af_0: 
     sha256:a2b2fe3afa3066f354518995858a1c4cf2d95fdeb349df8d28253a1b594ff303
+  0.3.39--pyhdfd78af_0: 
+    sha256:685a8bfee378f2bec1284ac9fcea1f77ccf3ec217b5b8cd6bb96d73d01032fbe
 docker: quay.io/biocontainers/pod5
 aliases:
   pod5: /usr/local/bin/pod5

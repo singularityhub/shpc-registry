@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-discorhythm
 latest:
-  1.22.0--r44hdfd78af_0: 
-    sha256:c7b1bd8c32c8b35b5df3a387eb87be7e1db7d9e2b57407e55d23870864a115a4
+  1.26.0--r45hdfd78af_0: 
+    sha256:b8c0990ba1cfc32254b582907d57999983ad99012448f8fc9d78fcd1bc209c61
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:d09e59e4f68798a1a1fe33720f16a6267b40b8a7bf413176298b748a834aff86
@@ -18,6 +18,8 @@ tags:
     sha256:17ddf19927d7ca2e15bc5bfdd1779417cdb74d5821b7c49357403731d1bc79d6
   1.22.0--r44hdfd78af_0: 
     sha256:c7b1bd8c32c8b35b5df3a387eb87be7e1db7d9e2b57407e55d23870864a115a4
+  1.26.0--r45hdfd78af_0: 
+    sha256:b8c0990ba1cfc32254b582907d57999983ad99012448f8fc9d78fcd1bc209c61
 docker: quay.io/biocontainers/bioconductor-discorhythm
 aliases:
   x86_64-conda-linux-gnu-pkg-config: 

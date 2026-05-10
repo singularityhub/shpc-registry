@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/tribal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tribal
 latest:
-  0.1.1--py310hdbdd923_0: sha256:47431de0ed2fcf20f645d6580df61d1cf4a6c4bf49d47dd4613e2c6a16e2528d
+  0.1.1--py310hdbdd923_1: 
+    sha256:69716c0485b848f4696bc9941ed9f71832d5e9ecfdcb6040b5d87f33cf5f8ae1
 tags:
-  0.1.1--py310hdbdd923_0: sha256:47431de0ed2fcf20f645d6580df61d1cf4a6c4bf49d47dd4613e2c6a16e2528d
+  0.1.1--py310hdbdd923_0: 
+    sha256:47431de0ed2fcf20f645d6580df61d1cf4a6c4bf49d47dd4613e2c6a16e2528d
+  0.1.1--py310hdbdd923_1: 
+    sha256:69716c0485b848f4696bc9941ed9f71832d5e9ecfdcb6040b5d87f33cf5f8ae1
 docker: quay.io/biocontainers/tribal
 aliases:
   pyomo: /usr/local/bin/pyomo

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gotools
 latest:
-  1.80.0--r44hdfd78af_0: 
-    sha256:73dbc4fe55abd0be4e3fd195f9170c9ca099a58b6835baebd133da92f1c9f1b0
+  1.84.0--r45hdfd78af_0: 
+    sha256:081edd1026fc972ef418035db4e69e24448debc0cecdf23ce602909502694d04
 tags:
   1.68.0--r41hdfd78af_0: 
     sha256:d967fc8b1b3eab8964f35b55dfe2ea7200c6814f04620642ca4caae25e7a50c5
@@ -16,4 +16,6 @@ tags:
     sha256:656d609494706cb44a38465db4ef41bd07d975ee3af9d6c0d2cd9afbde6ba9bf
   1.80.0--r44hdfd78af_0: 
     sha256:73dbc4fe55abd0be4e3fd195f9170c9ca099a58b6835baebd133da92f1c9f1b0
+  1.84.0--r45hdfd78af_0: 
+    sha256:081edd1026fc972ef418035db4e69e24448debc0cecdf23ce602909502694d04
 docker: quay.io/biocontainers/bioconductor-gotools

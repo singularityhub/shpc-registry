@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-methylclock
 latest:
-  1.12.0--r44he5774e6_0: 
-    sha256:2a87785ab4a6bafb931ac8c6099775e72216675b63d974635734f3c65a43462c
+  1.16.0--r45ha27e39d_0: 
+    sha256:bd39260543a28f050d7c85602d0ba8e4d03f6cd8ab824f61b5163065daad6019
 tags:
   1.0.1--r41hc247a5b_1: 
     sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8
@@ -18,6 +18,8 @@ tags:
     sha256:efd6019a65612c38439c787b9a7b16f828b8e65eec049ace4c76cd9322e3142a
   1.12.0--r44he5774e6_0: 
     sha256:2a87785ab4a6bafb931ac8c6099775e72216675b63d974635734f3c65a43462c
+  1.16.0--r45ha27e39d_0: 
+    sha256:bd39260543a28f050d7c85602d0ba8e4d03f6cd8ab824f61b5163065daad6019
 docker: quay.io/biocontainers/bioconductor-methylclock
 aliases:
   git2_cli: /usr/local/bin/git2_cli

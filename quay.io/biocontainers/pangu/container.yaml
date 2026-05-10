@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/pangu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pangu
 latest:
-  0.2.2--pyhdfd78af_0: sha256:ace8923f2c5a400c6f726845d00e40ba77d225e06a44e2962b8dc6b5d765fb48
+  0.2.8--pyhdfd78af_0: 
+    sha256:ef65c99d4607bbd1ce0be0238600da69a70111d553cdbe71c05b1e9fbe76bc54
 tags:
-  0.2.2--pyhdfd78af_0: sha256:ace8923f2c5a400c6f726845d00e40ba77d225e06a44e2962b8dc6b5d765fb48
+  0.2.2--pyhdfd78af_0: 
+    sha256:ace8923f2c5a400c6f726845d00e40ba77d225e06a44e2962b8dc6b5d765fb48
+  0.2.8--pyhdfd78af_0: 
+    sha256:ef65c99d4607bbd1ce0be0238600da69a70111d553cdbe71c05b1e9fbe76bc54
 docker: quay.io/biocontainers/pangu
 aliases:
   pangu: /usr/local/bin/pangu

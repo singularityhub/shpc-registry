@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rtcga.mutations
 latest:
-  20151101.36.0--r44hdfd78af_0: 
-    sha256:2c2ae44898b73364388449e3ff8bb6169891bee37229d60001ac529796bf7c54
+  20151101.40.0--r45hdfd78af_0: 
+    sha256:4a05aa7772d0dd99c2964546809cac30f644a8e40fe1cd44376690fc16fa5cb5
 tags:
   20151101.24.0--r41hdfd78af_1: 
     sha256:d1fa873350e96d90c2c6696b075eecc017eca6462d24312cfa1c0c1db4291ba4
@@ -16,6 +16,8 @@ tags:
     sha256:0ccf62d6db96ebd793d66a5e1d0cdb39ed613f89d15fad1689c53df0f3585c86
   20151101.36.0--r44hdfd78af_0: 
     sha256:2c2ae44898b73364388449e3ff8bb6169891bee37229d60001ac529796bf7c54
+  20151101.40.0--r45hdfd78af_0: 
+    sha256:4a05aa7772d0dd99c2964546809cac30f644a8e40fe1cd44376690fc16fa5cb5
 docker: quay.io/biocontainers/bioconductor-rtcga.mutations
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

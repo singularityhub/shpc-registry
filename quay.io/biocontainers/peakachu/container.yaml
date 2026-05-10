@@ -2,15 +2,21 @@ url: https://biocontainers.pro/tools/peakachu
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for peakachu
 latest:
-  0.2.0--py38he5da3d1_3: sha256:04a96efb638bfae603181a0caa608ebdea37ca4eb6bb9dd8a44f3de86291fa6d
+  0.2.0--py38h0020b31_4: 
+    sha256:51792152a934ca044bddf76b6291bd9a10f02144f9b7036c6e149fb9f4768ab1
 tags:
-  0.2.0--py36h91eb985_2: sha256:0858e75e0b0eacff2ccabd49349bc0168aa05ff7879fbabe2f95c1c9c3ae63d4
-  0.2.0--py38he5da3d1_3: sha256:04a96efb638bfae603181a0caa608ebdea37ca4eb6bb9dd8a44f3de86291fa6d
+  0.2.0--py36h91eb985_2: 
+    sha256:0858e75e0b0eacff2ccabd49349bc0168aa05ff7879fbabe2f95c1c9c3ae63d4
+  0.2.0--py38he5da3d1_3: 
+    sha256:04a96efb638bfae603181a0caa608ebdea37ca4eb6bb9dd8a44f3de86291fa6d
+  0.2.0--py38h0020b31_4: 
+    sha256:51792152a934ca044bddf76b6291bd9a10f02144f9b7036c6e149fb9f4768ab1
 docker: quay.io/biocontainers/peakachu
 aliases:
   blockbuster.x: /usr/local/bin/blockbuster.x
   peakachu: /usr/local/bin/peakachu
-  aggregate_scores_in_intervals.py: /usr/local/bin/aggregate_scores_in_intervals.py
+  aggregate_scores_in_intervals.py: 
+    /usr/local/bin/aggregate_scores_in_intervals.py
   align_print_template.py: /usr/local/bin/align_print_template.py
   axt_extract_ranges.py: /usr/local/bin/axt_extract_ranges.py
   axt_to_fasta.py: /usr/local/bin/axt_to_fasta.py

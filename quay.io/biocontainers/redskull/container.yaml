@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/redskull
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for redskull
 latest:
-  0.1.0--hac57342_0: 
-    sha256:5324bedbc3948532625e0058702234bee39a08d6970e32f805bcd9998219b948
+  0.1.1--hac57342_0: 
+    sha256:72075f5191247da3828eee16d0f95dd9dae08984f5c1615868a135781658a1a1
 tags:
   0.1.0--hac57342_0: 
     sha256:5324bedbc3948532625e0058702234bee39a08d6970e32f805bcd9998219b948
+  0.1.1--hac57342_0: 
+    sha256:72075f5191247da3828eee16d0f95dd9dae08984f5c1615868a135781658a1a1
 docker: quay.io/biocontainers/redskull
 aliases:
   redskull: /usr/local/bin/redskull

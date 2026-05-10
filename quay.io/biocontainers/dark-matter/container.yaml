@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/dark-matter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dark-matter
 latest:
-  5.1.2--py312h7b50bb2_0: 
-    sha256:dc3e2a4a6f5f2a912f9b18ae058bfd4855127a7fb3c8a30c898ce60dcd772bd4
+  7.2.3--pyhdfd78af_0: 
+    sha256:b6e2ef0d23ba4914ea09a440410a1475e73eaefb279067155e41899c95397d5e
 tags:
   5.1.2--py312h7b50bb2_0: 
     sha256:dc3e2a4a6f5f2a912f9b18ae058bfd4855127a7fb3c8a30c898ce60dcd772bd4
+  7.2.3--pyhdfd78af_0: 
+    sha256:b6e2ef0d23ba4914ea09a440410a1475e73eaefb279067155e41899c95397d5e
+  7.1.20--pyhdfd78af_0: 
+    sha256:fd4e7414c95b4f7a4914ce13866fb4fb0e2988141c5ffbe6e5ac6e04dae5bd61
 docker: quay.io/biocontainers/dark-matter
 aliases:
   aa-compare.py: /usr/local/bin/aa-compare.py

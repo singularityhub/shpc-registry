@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-tidyspatialexperiment
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:26452e9d68b85393148f9e0a7c0aaf0dfe4834cba144ebd5ae2746a58ce59e91
+  1.6.2--r45hdfd78af_0: 
+    sha256:a678857f22ace1931ee8a92b3ad1334ca7e20488c01f1e47d2a05cb9f66df8ab
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:26452e9d68b85393148f9e0a7c0aaf0dfe4834cba144ebd5ae2746a58ce59e91
+  1.6.2--r45hdfd78af_0: 
+    sha256:a678857f22ace1931ee8a92b3ad1334ca7e20488c01f1e47d2a05cb9f66df8ab
 docker: quay.io/biocontainers/bioconductor-tidyspatialexperiment
 aliases:
   dec265: /usr/local/bin/dec265

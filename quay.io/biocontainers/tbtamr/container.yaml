@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/tbtamr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tbtamr
 latest:
-  1.0.3--pyhdfd78af_0: 
-    sha256:7467d0a53fd45f0fb1badd59dd49887f725ae12fe58ed684d0db32a643b1d761
+  1.0.4--pyhdfd78af_0: 
+    sha256:1adc60f3b9ae40d122b4d2e8dd34e118bd1c0c9827d8c831a3d4854a767b3271
 tags:
   0.0.4--pyhdfd78af_0: 
     sha256:b8b4597e58caac49052a943fa189552d2e84d42301693837ecb748644f162852
@@ -13,6 +13,8 @@ tags:
     sha256:0c9d6827ab914d47dcc3da87c27085d88cfa25213426487c15d5226699429068
   1.0.3--pyhdfd78af_0: 
     sha256:7467d0a53fd45f0fb1badd59dd49887f725ae12fe58ed684d0db32a643b1d761
+  1.0.4--pyhdfd78af_0: 
+    sha256:1adc60f3b9ae40d122b4d2e8dd34e118bd1c0c9827d8c831a3d4854a767b3271
 docker: quay.io/biocontainers/tbtamr
 aliases:
   csvtk: /usr/local/bin/csvtk

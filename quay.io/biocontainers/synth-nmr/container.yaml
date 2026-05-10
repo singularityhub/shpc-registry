@@ -2,11 +2,19 @@ url: https://biocontainers.pro/tools/synth-nmr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for synth-nmr
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:42aeba33c9723fae009100eb93e00b5d00521d03192acafdd6ba221083ed19c6
+  0.10.0--pyhdfd78af_0: 
+    sha256:656e27b4af575a95da30d486325036c9a4e8bebdaee4837a50ff331aee6f401a
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:42aeba33c9723fae009100eb93e00b5d00521d03192acafdd6ba221083ed19c6
+  0.10.0--pyhdfd78af_0: 
+    sha256:656e27b4af575a95da30d486325036c9a4e8bebdaee4837a50ff331aee6f401a
+  0.8.0--pyhdfd78af_0: 
+    sha256:47b6634d8eec81e90871ef9b84efcc0201c7d9180be945e147b65295337d69ba
+  0.7.2--pyhdfd78af_0: 
+    sha256:319c2e1f2c72b589e73a288b6d2c26e31fa929425ce5b48c0da5fcaa1bbc4fc8
+  0.6.1--pyhdfd78af_0: 
+    sha256:49496762d96bb6f57f1fbd69dc8394936ff589bd2ce99eb25392998e61e1ec91
 docker: quay.io/biocontainers/synth-nmr
 aliases:
   idle3.14: /usr/local/bin/idle3.14

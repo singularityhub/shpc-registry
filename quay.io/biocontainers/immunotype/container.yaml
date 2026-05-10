@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/immunotype
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for immunotype
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:07bb3b4ec03ae3728ba2b71401390c21b907899851c9cd3456e4aa0316f315d0
+  1.0.3--pyhdfd78af_0: 
+    sha256:0394dbd925174277809898b43d048d6e08a075692bb5020d5a1fcdb8ee61afc1
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:07bb3b4ec03ae3728ba2b71401390c21b907899851c9cd3456e4aa0316f315d0
+  1.0.3--pyhdfd78af_0: 
+    sha256:0394dbd925174277809898b43d048d6e08a075692bb5020d5a1fcdb8ee61afc1
 docker: quay.io/biocontainers/immunotype
 aliases:
   email_validator: /usr/local/bin/email_validator

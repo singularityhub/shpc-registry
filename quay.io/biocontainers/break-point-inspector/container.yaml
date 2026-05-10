@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/break-point-inspector
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for break-point-inspector
+description: shpc-registry automated BioContainers addition for 
+  break-point-inspector
 latest:
-  1.5--1: sha256:8b9e82642f820e23986c65c77c3f2d3137d4796570508679375713175a74ee6b
+  1.5--1: 
+    sha256:e7f638ef434ffc69a99999da3cbb3492d090d9bd3f4fbfc6ccd9644b9ce5263c
 tags:
-  1.5--1: sha256:8b9e82642f820e23986c65c77c3f2d3137d4796570508679375713175a74ee6b
+  1.5--1: 
+    sha256:e7f638ef434ffc69a99999da3cbb3492d090d9bd3f4fbfc6ccd9644b9ce5263c
 docker: quay.io/biocontainers/break-point-inspector
 aliases:
   break-point-inspector: /usr/local/bin/break-point-inspector

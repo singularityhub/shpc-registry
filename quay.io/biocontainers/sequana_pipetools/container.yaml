@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sequana_pipetools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sequana_pipetools
 latest:
-  1.3.0--pyhdfd78af_0: 
-    sha256:4019712c5c59b37dd77bf4f8f381a52a46fd7f4809651ab373f26aed7b6b426d
+  1.5.5--pyhdfd78af_0: 
+    sha256:7626f7dc46d03b7428054d99d4e9c586b400ee7f1b1eb75dccf2a3649353d5b4
 tags:
   0.9.4--pyh7cba7a3_0: 
     sha256:9bd37c8704648a8ecfee50de9f8552d2bd2f1f038e9c9c7d4655c66ab50db4a5
@@ -11,6 +11,12 @@ tags:
     sha256:de6ca9490e16e7190c62224a2f69038261d7994b605fd25fcabea88de27efb7f
   1.3.0--pyhdfd78af_0: 
     sha256:4019712c5c59b37dd77bf4f8f381a52a46fd7f4809651ab373f26aed7b6b426d
+  1.5.5--pyhdfd78af_0: 
+    sha256:7626f7dc46d03b7428054d99d4e9c586b400ee7f1b1eb75dccf2a3649353d5b4
+  1.4.0--pyhdfd78af_0: 
+    sha256:59135375b8c3783b06c58b84ff2adc1eacf7f61e9c5cd1a9b5e91018d9897c03
+  1.3.1--pyhdfd78af_0: 
+    sha256:86d75a07e2c38407f353a6cd6aa5d4550e901e7525e69a1fd98e2e70da0c0089
 docker: quay.io/biocontainers/sequana_pipetools
 aliases:
   pykwalify: /usr/local/bin/pykwalify

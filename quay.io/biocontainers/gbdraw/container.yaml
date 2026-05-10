@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gbdraw
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gbdraw
 latest:
-  0.8.0--pyhdfd78af_0: 
-    sha256:c05a6af8fe1a2d1fabd1c0b26fe5eb5840cd6dc62475740056758b924f793403
+  0.11.0--pyhdfd78af_0: 
+    sha256:71c4d9998ee69513ecf523b972123dc3a66e0546bc11249968933e23f744cfc0
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:8dc9cb7cd155088f811eea39706a5191258dea8141a93a141b2c9becdc0d5f5c
@@ -23,6 +23,12 @@ tags:
     sha256:eec242428232c2201791d36e961e6e99f55fa4b0f968c56f030b925c6eb9867a
   0.8.0--pyhdfd78af_0: 
     sha256:c05a6af8fe1a2d1fabd1c0b26fe5eb5840cd6dc62475740056758b924f793403
+  0.11.0--pyhdfd78af_0: 
+    sha256:71c4d9998ee69513ecf523b972123dc3a66e0546bc11249968933e23f744cfc0
+  0.10.0--pyhdfd78af_0: 
+    sha256:62e6f2bcd0303d24811ec90c747b4100ca0a5670eca9e232fdb3bb93e609b6a7
+  0.9.2--pyhdfd78af_0: 
+    sha256:cc81588f716be1e5a6242f0fa45953499bb2125dec5ac8e85f9708e92e4dd8fc
 docker: quay.io/biocontainers/gbdraw
 aliases:
   cairosvg: /usr/local/bin/cairosvg

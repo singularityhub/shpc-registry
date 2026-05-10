@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/hyperloglog
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hyperloglog
 latest:
-  0.0.14--pyhdfd78af_0: sha256:2de3fb68d5a0e051f361432c05450af7a255ea5deb8f0d515c5ae43d43c0c1ba
+  0.1.5--pyhe75d33f_0: 
+    sha256:9b52d7c675f473619d961577242e6335793715a8c1dcb09f328671439fb4a74b
 tags:
-  0.0.14--pyhdfd78af_0: sha256:2de3fb68d5a0e051f361432c05450af7a255ea5deb8f0d515c5ae43d43c0c1ba
+  0.0.14--pyhdfd78af_0: 
+    sha256:2de3fb68d5a0e051f361432c05450af7a255ea5deb8f0d515c5ae43d43c0c1ba
+  0.1.5--pyhe75d33f_0: 
+    sha256:9b52d7c675f473619d961577242e6335793715a8c1dcb09f328671439fb4a74b
 docker: quay.io/biocontainers/hyperloglog
 aliases:
   idle3.13: /usr/local/bin/idle3.13

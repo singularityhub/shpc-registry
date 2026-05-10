@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pyamilyseq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyamilyseq
 latest:
-  1.3.2--pyhdfd78af_0: 
-    sha256:204722a2128f73b80075b22a37a57ec21869f9c6f4255a2eb57004d156731595
+  1.3.4--pyhdfd78af_0: 
+    sha256:13c774c11b947f591ec3bc6d35eff93e9d2609d22dda3231466052ff7ea11ace
 tags:
   1.3.2--pyhdfd78af_0: 
     sha256:204722a2128f73b80075b22a37a57ec21869f9c6f4255a2eb57004d156731595
+  1.3.4--pyhdfd78af_0: 
+    sha256:13c774c11b947f591ec3bc6d35eff93e9d2609d22dda3231466052ff7ea11ace
 docker: quay.io/biocontainers/pyamilyseq
 aliases:
   Group-Extractor: /usr/local/bin/Group-Extractor

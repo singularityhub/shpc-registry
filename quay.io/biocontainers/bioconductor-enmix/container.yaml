@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-enmix
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:052aa3ae5866199779b54e62f624e0904898ec4facbb1ce8a85134bee8c6a383
+  1.46.1--r45hdfd78af_0: 
+    sha256:3c91a610d6570bb9f63d26ac7f012526f3d36b66fbc5af4ab0689414302516f5
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:a4a353f88686e3347a2a3c215a15c8ab7d1f404798e8acb437157dd247d7d61f
@@ -16,4 +16,6 @@ tags:
     sha256:dbbeb93fa3120a3a197061731afab41e973e695f6255d5db323aa3ba92e9b510
   1.42.0--r44hdfd78af_0: 
     sha256:052aa3ae5866199779b54e62f624e0904898ec4facbb1ce8a85134bee8c6a383
+  1.46.1--r45hdfd78af_0: 
+    sha256:3c91a610d6570bb9f63d26ac7f012526f3d36b66fbc5af4ab0689414302516f5
 docker: quay.io/biocontainers/bioconductor-enmix

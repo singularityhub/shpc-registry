@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-doscheda
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:c90859d9aa1d8c43d08122699c3ec8c4369861cad575879ad77df94d5e80327c
+  1.32.0--r45hdfd78af_0: 
+    sha256:f697192c8ce58a971f3474e0547510c25544bd9701c0aaa7378a7a9f39a31ad3
 tags:
   1.8.0--r36_0: 
     sha256:51ffcadf86f87bd1e4ac40444b4d637f75b470dd92eb891509f2b82bdf6a146a
@@ -24,6 +24,8 @@ tags:
     sha256:5424aa3ad6620d05b46e8b3b50efd55f8056321477dcbe006d07d211662c4eaf
   1.28.0--r44hdfd78af_0: 
     sha256:c90859d9aa1d8c43d08122699c3ec8c4369861cad575879ad77df94d5e80327c
+  1.32.0--r45hdfd78af_0: 
+    sha256:f697192c8ce58a971f3474e0547510c25544bd9701c0aaa7378a7a9f39a31ad3
 docker: quay.io/biocontainers/bioconductor-doscheda
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

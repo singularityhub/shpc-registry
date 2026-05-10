@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-msmb
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:2945606bf186251f9b0b687ef2c39a8fd2c83d0e53f2cad71fecca3747ef028f
+  1.28.0--r45hdfd78af_0: 
+    sha256:8c48aeb1c01a31fb82acfd1f2c5e39c0ca753bb1924426108fa016f031114695
 tags:
   1.8.0--r40hdfd78af_0: 
     sha256:7b6cd660c3e94c3024638632e3452bfe989e883e7f898819b4a4707dfeb65119
@@ -20,6 +20,8 @@ tags:
     sha256:1906e01a53fb785ad2d2d03258680ef2a015b0b870a4387e15105ff8c19959da
   1.24.0--r44hdfd78af_0: 
     sha256:2945606bf186251f9b0b687ef2c39a8fd2c83d0e53f2cad71fecca3747ef028f
+  1.28.0--r45hdfd78af_0: 
+    sha256:8c48aeb1c01a31fb82acfd1f2c5e39c0ca753bb1924426108fa016f031114695
 docker: quay.io/biocontainers/bioconductor-msmb
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

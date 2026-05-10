@@ -2,13 +2,29 @@ url: https://biocontainers.pro/tools/ena-webin-cli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ena-webin-cli
 latest:
-  6.7.2--hdfd78af_0: sha256:61bcffcc6df9797bfb17dcbd760563096a7d766019a34e919ddf07bba794b445
+  9.0.3--hdfd78af_0: 
+    sha256:8d7e0b6f4e0b1c11de068c1f5906119ebb162a37952bd2c96ec509c6d9460d4a
 tags:
-  5.0.0--hdfd78af_0: sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96
-  6.5.1--hdfd78af_0: sha256:7cc84dd62b5ba940c388dce000cb24bc87b9de88db51035275dab7091248cb36
-  6.7.1--hdfd78af_0: sha256:c430af9b6784e43fb1a1ec5e907c4753f1c02498539eba35f31c08c63a7aa631
-  6.6.0--hdfd78af_0: sha256:e932b5ad82b35521f0ed7dad80561801965585e428aed4dbd3b9caa4b2f65c9d
-  6.7.2--hdfd78af_0: sha256:61bcffcc6df9797bfb17dcbd760563096a7d766019a34e919ddf07bba794b445
+  5.0.0--hdfd78af_0: 
+    sha256:ad7da743b67738b93d0d87d11c2edd9c8183d31687057bfb10a6d33fae9eff96
+  6.5.1--hdfd78af_0: 
+    sha256:7cc84dd62b5ba940c388dce000cb24bc87b9de88db51035275dab7091248cb36
+  6.7.1--hdfd78af_0: 
+    sha256:c430af9b6784e43fb1a1ec5e907c4753f1c02498539eba35f31c08c63a7aa631
+  6.6.0--hdfd78af_0: 
+    sha256:e932b5ad82b35521f0ed7dad80561801965585e428aed4dbd3b9caa4b2f65c9d
+  6.7.2--hdfd78af_0: 
+    sha256:61bcffcc6df9797bfb17dcbd760563096a7d766019a34e919ddf07bba794b445
+  9.0.3--hdfd78af_0: 
+    sha256:8d7e0b6f4e0b1c11de068c1f5906119ebb162a37952bd2c96ec509c6d9460d4a
+  8.3.0--hdfd78af_0: 
+    sha256:93cde1079b34aed35bfd29a91f32167626b9dcdf15381e6d09cbf9994f68fab2
+  8.2.0--hdfd78af_0: 
+    sha256:49ee420268a88a9c9bd0b344fdf2602bb68b6e398da3952d189a70a8609590f4
+  8.1.1--hdfd78af_1: 
+    sha256:8f31b50fc1535ef13b12a5c914ec92cf5dd7f5c592e7a423d13b7fdf219355be
+  8.0.0--hdfd78af_0: 
+    sha256:5049de9347b556531880591ab5f41967ac0788b836054aa20201f296f12b1e4e
 docker: quay.io/biocontainers/ena-webin-cli
 aliases:
   ena-webin-cli: /usr/local/bin/ena-webin-cli

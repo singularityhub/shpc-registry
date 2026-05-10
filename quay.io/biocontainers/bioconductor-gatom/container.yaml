@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-gatom
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-gatom
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:d94d480956a548ccef313fa90e9141ea146a06a05b496d835fb5a786596b58e7
+  1.8.4--r45hdfd78af_0: 
+    sha256:b590389e4b57d4ab61057fe6e692d0254bc764ee22c9ba0bbd1e6c46db2942d4
 tags:
   1.4.0--r44hdfd78af_0: 
     sha256:d94d480956a548ccef313fa90e9141ea146a06a05b496d835fb5a786596b58e7
+  1.8.4--r45hdfd78af_0: 
+    sha256:b590389e4b57d4ab61057fe6e692d0254bc764ee22c9ba0bbd1e6c46db2942d4
 docker: quay.io/biocontainers/bioconductor-gatom
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

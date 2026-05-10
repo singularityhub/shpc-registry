@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/iucn_sim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for iucn_sim
 latest:
-  2.2.0--pyr40_0: sha256:4ce938acfc1c76506558a872b9ca6646166b9078ff13a00c25c4f3d1906e473a
+  2.2.0--pyr40_0: 
+    sha256:4ce938acfc1c76506558a872b9ca6646166b9078ff13a00c25c4f3d1906e473a
 tags:
-  2.2.0--pyr40_0: sha256:4ce938acfc1c76506558a872b9ca6646166b9078ff13a00c25c4f3d1906e473a
+  2.2.0--pyr40_0: 
+    sha256:4ce938acfc1c76506558a872b9ca6646166b9078ff13a00c25c4f3d1906e473a
 docker: quay.io/biocontainers/iucn_sim
 aliases:
   iucn_sim: /usr/local/bin/iucn_sim
@@ -14,7 +16,8 @@ aliases:
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
   jpgicc: /usr/local/bin/jpgicc
   linkicc: /usr/local/bin/linkicc
   psicc: /usr/local/bin/psicc

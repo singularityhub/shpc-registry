@@ -1,12 +1,25 @@
 url: https://biocontainers.pro/tools/bioconductor-edger
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-edger
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-edger
 latest:
-  4.0.2--r43hf17093f_0: sha256:bf370d508da5675424680437c052d2dcfc7a3d89270aa7e03bcce89ceaca767a
+  4.8.2--r45h01b2380_0: 
+    sha256:3d918aca6aee52981f097b61dfa4f50adbb624a83bc03f396c6298b2a71bc38c
 tags:
-  3.36.0--r41hc247a5b_2: sha256:fd4131e86260ead320c0fa1bf1de50c50c018f8ee3dfe1a7626af42f0860b9e8
-  3.40.0--r42hc247a5b_0: sha256:e6ec9c69f2b6bd609b7fd42a2cf9cb346e0f35e1a9a49a3aaaf08365e03956cf
-  3.40.0--r42hf17093f_1: sha256:b180a5d2102bdc1693b5c7a219aee157e163ffc1a99273225920b8a4eda11ab7
-  3.42.4--r43hf17093f_0: sha256:1ef04bf29136877807b1665114748ff8e84de704a57a5a11e03efa7722584d36
-  4.0.2--r43hf17093f_0: sha256:bf370d508da5675424680437c052d2dcfc7a3d89270aa7e03bcce89ceaca767a
+  3.36.0--r41hc247a5b_2: 
+    sha256:fd4131e86260ead320c0fa1bf1de50c50c018f8ee3dfe1a7626af42f0860b9e8
+  3.40.0--r42hc247a5b_0: 
+    sha256:e6ec9c69f2b6bd609b7fd42a2cf9cb346e0f35e1a9a49a3aaaf08365e03956cf
+  3.40.0--r42hf17093f_1: 
+    sha256:b180a5d2102bdc1693b5c7a219aee157e163ffc1a99273225920b8a4eda11ab7
+  3.42.4--r43hf17093f_0: 
+    sha256:1ef04bf29136877807b1665114748ff8e84de704a57a5a11e03efa7722584d36
+  4.0.2--r43hf17093f_0: 
+    sha256:bf370d508da5675424680437c052d2dcfc7a3d89270aa7e03bcce89ceaca767a
+  4.8.2--r45h01b2380_0: 
+    sha256:3d918aca6aee52981f097b61dfa4f50adbb624a83bc03f396c6298b2a71bc38c
+  4.4.0--r44h3df3fcb_0: 
+    sha256:2c04013318ebdc2560d3d4c364ffe487ec69538e957f668bc0dbe0a3c45dc305
+  4.0.16--r43hf17093f_1: 
+    sha256:f43c02fac37216d372727966529c8f1279db555947e85d930dd0c6c06fc608f2
 docker: quay.io/biocontainers/bioconductor-edger

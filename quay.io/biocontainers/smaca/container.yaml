@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/smaca
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smaca
 latest:
-  1.2.3--py311hc1104ee_6: 
-    sha256:351d0202499315ac12d45f75429b2bba8c630f45a12059b33fbfeb9166570001
+  1.2.4rc11--py311hcf77733_0: 
+    sha256:4987d4dc6f955a8a10ddffcea5243072cce66d8aa6ff5a2383a31b7a740ecb60
 tags:
   1.2.3--py39h919a90d_3: 
     sha256:9f18b52c26a11a73033cb6f7db83bad13b926ca47ed6109b4d0b28a91f35ebcf
@@ -15,6 +15,8 @@ tags:
     sha256:1974d187cac1d5ba88d9accdc98dadf25af7bbe1d50ecf78b9c7515594632986
   1.2.3--py311hc1104ee_6: 
     sha256:351d0202499315ac12d45f75429b2bba8c630f45a12059b33fbfeb9166570001
+  1.2.4rc11--py311hcf77733_0: 
+    sha256:4987d4dc6f955a8a10ddffcea5243072cce66d8aa6ff5a2383a31b7a740ecb60
 docker: quay.io/biocontainers/smaca
 aliases:
   smaca: /usr/local/bin/smaca

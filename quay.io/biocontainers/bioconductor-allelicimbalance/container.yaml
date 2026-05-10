@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-allelicimbalance
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:c1940e7d6a188c5e5813486f753d34bc784e24c605fdafe4a24fdcd96ca40398
+  1.48.0--r45hdfd78af_0: 
+    sha256:bf52b5ef480ec2f7e41913da415ca1cf362e3d642e642b0ad0c843801f654c7a
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:3d2e793ce02b2549dcf12cb8f282d3f33cf2cdf85cdb7d48c3796c6043b791f7
@@ -16,4 +16,6 @@ tags:
     sha256:86682515d370eef2e8c06757fe0dc4cac16618144e5526dd01dce274c1811377
   1.44.0--r44hdfd78af_0: 
     sha256:c1940e7d6a188c5e5813486f753d34bc784e24c605fdafe4a24fdcd96ca40398
+  1.48.0--r45hdfd78af_0: 
+    sha256:bf52b5ef480ec2f7e41913da415ca1cf362e3d642e642b0ad0c843801f654c7a
 docker: quay.io/biocontainers/bioconductor-allelicimbalance

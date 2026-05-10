@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/freqsap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for freqsap
 latest:
-  1.1.0--pyhdfd78af_0: 
-    sha256:27fc6dcd2d9ee1dae92fec8178e2bfef930836825b28df050fa70664d4690b20
+  1.1.1--pyhdfd78af_0: 
+    sha256:a86098ddc4dd798297e0a12872c3524ca9c364835edd21fa06b4fef33167b3f7
 tags:
   1.1.0--pyhdfd78af_0: 
     sha256:27fc6dcd2d9ee1dae92fec8178e2bfef930836825b28df050fa70664d4690b20
+  1.1.1--pyhdfd78af_0: 
+    sha256:a86098ddc4dd798297e0a12872c3524ca9c364835edd21fa06b4fef33167b3f7
 docker: quay.io/biocontainers/freqsap
 aliases:
   freqsap: /usr/local/bin/freqsap

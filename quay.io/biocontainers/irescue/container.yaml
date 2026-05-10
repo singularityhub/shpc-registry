@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/irescue
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for irescue
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:125611b8dfab46c08263ddf683b958121273dfc64773122665066e2beb72c1f8
+  1.2.0--pyhdfd78af_0: 
+    sha256:33236223b6c0c38ee9b3cc5ff6c30c77bdd0f540681828f39991505ff4ead608
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:4615c3c231c82e8e75f5734eadc535824b2e021debaa0d971e31952d7425ac14
@@ -13,6 +13,8 @@ tags:
     sha256:79b04b8a6cc07e2c0ac30d7cad908d987b475251c5c72a77432eb84a2288bcaf
   1.1.2--pyhdfd78af_0: 
     sha256:125611b8dfab46c08263ddf683b958121273dfc64773122665066e2beb72c1f8
+  1.2.0--pyhdfd78af_0: 
+    sha256:33236223b6c0c38ee9b3cc5ff6c30c77bdd0f540681828f39991505ff4ead608
 docker: quay.io/biocontainers/irescue
 aliases:
   irescue: /usr/local/bin/irescue

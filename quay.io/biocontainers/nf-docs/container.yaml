@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/nf-docs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nf-docs
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:a47fd77791917cf1b35af3665f05e82800bcc7526674432596efcb1e70ff9422
+  0.2.1--pyhdfd78af_0: 
+    sha256:5c33e7f28bdad03d106a6af17e76d430416f739d218376956dd64a1be1d32752
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:a47fd77791917cf1b35af3665f05e82800bcc7526674432596efcb1e70ff9422
+  0.2.1--pyhdfd78af_0: 
+    sha256:5c33e7f28bdad03d106a6af17e76d430416f739d218376956dd64a1be1d32752
 docker: quay.io/biocontainers/nf-docs
 aliases:
   nf-docs: /usr/local/bin/nf-docs

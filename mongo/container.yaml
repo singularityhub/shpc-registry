@@ -8,44 +8,48 @@ filter:
 - ^(?!.*nano).*$
 - ^(?!.*windows).*$
 latest:
-  '8.2': 'crane digest mongo:8.2: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
+  8.3.1-noble: 
+    sha256:75e3b85060533f67fb567c2aae7c9f7b3c3733f7f320a906092ece04364a8e5f
 tags:
   4.4.5-bionic: 
-    sha256:cc8bb8711114fa726ca641f5644791d3d43bdd2c95dac541a5fa2c90a2e6e972
+    sha256:90d391c3bb66d235699036e3c4e5cc8e886cf4757c0fa6a7656a1f0340097e2c
   4.4.6-bionic: 
-    sha256:3d0e6df9fd5bc42cbf8ef8bc9e6c4e78f6f26c7157dbd7bdec72d202ab8ebe3a
+    sha256:d9ddf3df31941d30ee486ad5d2337283f0a02f68dbc5092319e24d3a541dbddd
   5.0.0-focal: 
-    sha256:21aa30c16cf1f92c68890cefc612357bf856f94678cc4bfc0ef26bdeb7c34ad0
+    sha256:7979a25edfc1d6d3bfabcb99a901f3efba2c38db87c7a093ceab6f93fe3d90c9
   5.0.0-rc1-focal: 
-    sha256:238ca9b76e3034377a38be3dac927bd3920634c3af68053be000739c15106cec
-  5.0.2: sha256:58ea1bc09f269a9b85b7e1fae83b7505952aaa521afaaca4131f558955743842
-  5.0.3: sha256:4088649f737cf704deaf350ccd5ad8045552c5a0f8a5a2e81c1c23e280db2d80
-  5.0.4: sha256:cf9f5df5419319390cc3b5d9abfc2d0d0b149b3e04a6c9936990129e3e29b579
-  5.0.5: sha256:079089900e9511a782a59a4276046835189720eb668088869d147d1145cebe14
-  5.0.6: sha256:fed6248ae0bb0d54c0448eb786c87120737eedc522172ee1536ad47789782348
+    sha256:0d4cfb7722b60bf650609050bde30dbf24201d08739c9742b06721738bc15d42
+  5.0.2: sha256:827898fe26e633d2ba767fc2fd6f2bec664878a7ea6655a2c2a20d7bbc8b1e49
+  5.0.3: sha256:add6da48a188a4f979c1b99e6f1e2baa746b4fbdd42ff5d176d45de97d48d448
+  5.0.4: sha256:5a2f10ff220ec8f3786d2a074a0684e4d6107be5c7b612441cab9c7429a9a8bd
+  5.0.5: sha256:4897d6662abfbefef888ff25d1bea5e6443501bdc299af6aa1c6944a65d1794a
+  5.0.6: sha256:31bb47830cb0ff00f90be54a62f8be416189bd0b52f4a76bb5ac3f450860228a
   latest: 
-    sha256:6f55a078e025aa29fea2826c82f67ff2f774b82efd816c4c30bbfe67904f0bb8
+    sha256:7abfba0d07c9330373f8173981ea4d09cd8a82cdf0e86ccaf7008848d1d24f62
   '5': sha256:54bcd8da3ea5eec561b68c605046c55c6b304387dc4c2bf5b3a5f5064fbb7495
   '5.0': sha256:5e3e87afd24d75e722884d777c5713d254f7e88ba65381b5d6484f75a21b73e3
   '4': sha256:52c42cbab240b3c5b1748582cc13ef46d521ddacae002bbbda645cebed270ec0
   4.9-rc: 
-    sha256:36b78340b10ff47a37428cae7481caf894db191bd2fdebe1834f3b0328d48320
+    sha256:8c0d77a37b4fb77f38e670e77210b3cd980e3431fafbca8a3be82ec6972f2757
   '4.4': sha256:4be76f674fc4b27859816811b8baa3c51830eb1dbf4ca81a51e26b79edd662ef
   '6': sha256:03cda579c8caad6573cb98c2b3d5ff5ead452a6450561129b89595b4b9c18de2
   '6.0': sha256:03cda579c8caad6573cb98c2b3d5ff5ead452a6450561129b89595b4b9c18de2
   7.0-rc: 
-    sha256:d32db526b31c01e1a17e5a04148d1dac3fcc02db147baa725c40de56a1521cc1
-  '7': sha256:606f8e029603330411a7dd10b5ffd50eefc297fc80cee89f10a455e496a76ae7
-  '7.0': sha256:606f8e029603330411a7dd10b5ffd50eefc297fc80cee89f10a455e496a76ae7
+    sha256:86776bfe3b12d816093e148ad5322d9c2907621104f112e3ddc690a2475a7f01
+  '7': sha256:32979a1189dfdc44da3f5ed40d910495f5ad8f6f7f77556646f890a30b2d3f56
+  '7.0': sha256:32979a1189dfdc44da3f5ed40d910495f5ad8f6f7f77556646f890a30b2d3f56
   8.0-rc: 
-    sha256:d6529193fc33700bcad259c5100f72d5163971d8f27605950ba4984fc3e3b5c5
-  '8': 'crane digest mongo:8: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '8.0': 'crane digest mongo:8.0: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '8.2': 'crane digest mongo:8.2: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
+    sha256:932800b35154a840993931708d3354e5d66dd14edefae9373f73ec8ccf679092
+  '8': sha256:7abfba0d07c9330373f8173981ea4d09cd8a82cdf0e86ccaf7008848d1d24f62
+  '8.0': sha256:ef25c5afd795261ac6942b8ffd4e9b97f8a73146e6171f39e246c331ac94120f
+  '8.2': sha256:7abfba0d07c9330373f8173981ea4d09cd8a82cdf0e86ccaf7008848d1d24f62
+  8.3.1-noble: 
+    sha256:75e3b85060533f67fb567c2aae7c9f7b3c3733f7f320a906092ece04364a8e5f
+  8.0.21: 
+    sha256:ef25c5afd795261ac6942b8ffd4e9b97f8a73146e6171f39e246c331ac94120f
+  7.0.32: 
+    sha256:32979a1189dfdc44da3f5ed40d910495f5ad8f6f7f77556646f890a30b2d3f56
+  noble: sha256:0ebdca54ec8007f4bacd3790135f4a8db9ea2e9c62d296442776cf9d3b1c3422
 aliases:
   mongo: /usr/bin/mongo
   mongod: /usr/bin/mongod

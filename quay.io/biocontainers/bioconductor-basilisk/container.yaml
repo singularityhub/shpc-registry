@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-basilisk
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:c89c78c42fbf09c126c54bc05542bd6cc33961fa4c9b873f8d29577639563eeb
+  1.22.0--r45hdfd78af_0: 
+    sha256:981434ba3aea22d764070aecdcc28d38db3404bf4c2be15c3ff5026915ce2531
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:5b39ad6bf15ce80d073c4628e2a4a8fef1b0128834688b27cb98becc172b179d
@@ -18,4 +18,6 @@ tags:
     sha256:bc31c6850ac3dd7e37e5741ae5d5aab3a39aa9027a2347bb7ede709ba84dc6ad
   1.18.0--r44hdfd78af_0: 
     sha256:c89c78c42fbf09c126c54bc05542bd6cc33961fa4c9b873f8d29577639563eeb
+  1.22.0--r45hdfd78af_0: 
+    sha256:981434ba3aea22d764070aecdcc28d38db3404bf4c2be15c3ff5026915ce2531
 docker: quay.io/biocontainers/bioconductor-basilisk

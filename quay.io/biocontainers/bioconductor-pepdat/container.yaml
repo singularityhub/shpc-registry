@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pepdat
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:0e4bee52058d4aba9dabd9bf0f5280dcf149e502b28d58bbcdb5d87539a9374c
+  1.30.0--r45hdfd78af_0: 
+    sha256:0491d8f0592ef932c50482584a1fd99d12a07d981e8cd5dcb6127c300c7f7310
 tags:
   1.8.0--r40_0: 
     sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb
@@ -22,6 +22,8 @@ tags:
     sha256:9f50b0b7fab634a267ee34e7dd9da0c7ef43b7dcb620c84bf27605ed82f4986b
   1.26.0--r44hdfd78af_0: 
     sha256:0e4bee52058d4aba9dabd9bf0f5280dcf149e502b28d58bbcdb5d87539a9374c
+  1.30.0--r45hdfd78af_0: 
+    sha256:0491d8f0592ef932c50482584a1fd99d12a07d981e8cd5dcb6127c300c7f7310
 docker: quay.io/biocontainers/bioconductor-pepdat
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

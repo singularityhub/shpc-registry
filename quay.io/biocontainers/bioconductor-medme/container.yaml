@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-medme
 latest:
-  1.66.0--r44h3df3fcb_0: 
-    sha256:69e53a29e8ddd9d3f6c173927bb211446e7c5904706ca59df4e5c16bc6de2e3b
+  1.70.0--r45h01b2380_0: 
+    sha256:b14c597a0d4cfaad0f5ad8fee45d9c95144678de0916ced22d1ee1375814766c
 tags:
   1.54.0--r41hc0cfd56_2: 
     sha256:06a752639d0d2d9a05b37a6c10e6b94eb0085b471249ca5b59db080004c37305
@@ -18,6 +18,8 @@ tags:
     sha256:ca52753751dad057ca542c8e4219a1d240ef06590fb5977aa6f8961848ab4c2a
   1.66.0--r44h3df3fcb_0: 
     sha256:69e53a29e8ddd9d3f6c173927bb211446e7c5904706ca59df4e5c16bc6de2e3b
+  1.70.0--r45h01b2380_0: 
+    sha256:b14c597a0d4cfaad0f5ad8fee45d9c95144678de0916ced22d1ee1375814766c
 docker: quay.io/biocontainers/bioconductor-medme
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

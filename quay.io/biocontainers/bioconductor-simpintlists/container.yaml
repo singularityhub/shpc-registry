@@ -1,11 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-simpintlists
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-simpintlists
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-simpintlists
 latest:
-  1.38.0--r43hdfd78af_0: sha256:bdd427f5af10718303381158cf03a62eefbb680525cf61cb9b047e45a2afa384
+  1.46.0--r45hdfd78af_0: 
+    sha256:5cb1ae3ecc7b662e2196ecf74756c0943184121a20d42cc154a171c9f8a347aa
 tags:
-  1.30.0--r41hdfd78af_1: sha256:be2ac42d70eb2186c153c686dbe582961d3ffee9084359265d2e541db40e5799
-  1.33.0--r42hdfd78af_0: sha256:5fb02f0a7deaac7579542f3acd8ed2354ec3c3154be4ec9ab091829a074fcd8d
-  1.36.0--r43hdfd78af_0: sha256:2c1ea61a0cbbfaef13a259497169e862343b1794c10e4017aecaf4e1931506ef
-  1.38.0--r43hdfd78af_0: sha256:bdd427f5af10718303381158cf03a62eefbb680525cf61cb9b047e45a2afa384
+  1.30.0--r41hdfd78af_1: 
+    sha256:be2ac42d70eb2186c153c686dbe582961d3ffee9084359265d2e541db40e5799
+  1.33.0--r42hdfd78af_0: 
+    sha256:5fb02f0a7deaac7579542f3acd8ed2354ec3c3154be4ec9ab091829a074fcd8d
+  1.36.0--r43hdfd78af_0: 
+    sha256:2c1ea61a0cbbfaef13a259497169e862343b1794c10e4017aecaf4e1931506ef
+  1.38.0--r43hdfd78af_0: 
+    sha256:388d23d29cfd02891223af454efe4b414b59efe3bd542e2fcc1a321c6c79de40
+  1.46.0--r45hdfd78af_0: 
+    sha256:5cb1ae3ecc7b662e2196ecf74756c0943184121a20d42cc154a171c9f8a347aa
+  1.42.0--r44hdfd78af_0: 
+    sha256:62360ca98dddb7f86a6b035d2aa82d962f0634787451b82bf6ed068c376c312c
 docker: quay.io/biocontainers/bioconductor-simpintlists

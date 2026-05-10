@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scrnaseq
 latest:
-  2.20.0--r44hdfd78af_0: 
-    sha256:1197165dedd151eb7e950f132a1b976a5a05a32c9abc769031d43d4cce0f3111
+  2.24.0--r45hdfd78af_0: 
+    sha256:49ff49b754fd8021a5ad81c47fbd36f9d27ea53bee4b8a7a085de3ba314e4522
 tags:
   2.8.0--r41hdfd78af_1: 
     sha256:4709c7aec80879dfa98f424c0689d2c69882c08e0134e6243fe59fee0b0ad419
@@ -16,4 +16,6 @@ tags:
     sha256:d1601654c70928f427ea17c49f1446c1ae5bb7ad2fc2e1c9e39424ba3d91382c
   2.20.0--r44hdfd78af_0: 
     sha256:1197165dedd151eb7e950f132a1b976a5a05a32c9abc769031d43d4cce0f3111
+  2.24.0--r45hdfd78af_0: 
+    sha256:49ff49b754fd8021a5ad81c47fbd36f9d27ea53bee4b8a7a085de3ba314e4522
 docker: quay.io/biocontainers/bioconductor-scrnaseq

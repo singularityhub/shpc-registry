@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/genecircuitry
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genecircuitry
 latest:
-  0.1.4--pyhdfd78af_0: 
-    sha256:da834b1a5b3ede0916114a76231517ed29b12b924eb9b223ea754c521630aa6c
+  0.1.7--pyhdfd78af_0: 
+    sha256:4e0f6789eaae3c3a33669f78f274e275ae784b09bbb635d4efdb0efa4b975a57
 tags:
   0.1.4--pyhdfd78af_0: 
     sha256:da834b1a5b3ede0916114a76231517ed29b12b924eb9b223ea754c521630aa6c
+  0.1.7--pyhdfd78af_0: 
+    sha256:4e0f6789eaae3c3a33669f78f274e275ae784b09bbb635d4efdb0efa4b975a57
 docker: quay.io/biocontainers/genecircuitry
 aliases:
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl

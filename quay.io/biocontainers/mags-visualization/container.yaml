@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/mags-visualization
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mags-visualization
 latest:
-  0.0.5--pyhdfd78af_0: 
-    sha256:1735aef1fb7af886f20f7ca587663936fe7005e453eb80be9fe0519383c40dec
+  0.0.6--pyhdfd78af_0: 
+    sha256:a3d88bd35977174ba9a86299c5bf2d7290d2736c25dd248f2b92c76ddd3fcc10
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:48d95e0bda5e73421338fc012988d6f0285abf30920a7505827a62f9a9de5013
   0.0.5--pyhdfd78af_0: 
     sha256:1735aef1fb7af886f20f7ca587663936fe7005e453eb80be9fe0519383c40dec
+  0.0.6--pyhdfd78af_0: 
+    sha256:a3d88bd35977174ba9a86299c5bf2d7290d2736c25dd248f2b92c76ddd3fcc10
 docker: quay.io/biocontainers/mags-visualization
 aliases:
   mags-visualization: /usr/local/bin/mags-visualization

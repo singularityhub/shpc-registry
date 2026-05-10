@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bactopia-gather
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bactopia-gather
 latest:
-  1.0.4--hdfd78af_0: 
-    sha256:f1b4942a8f571bb77536c17325e31b0bdde4401906c138d5eff49373b3f9a8a6
+  1.0.5--hdfd78af_0: 
+    sha256:5055398cd2fa80aad496a1b64f588b4ca16b7666cee4207d3ba4fd9bda295430
 tags:
   1.0.1--hdfd78af_0: 
     sha256:b02b27b369a4fc230cfd84c00c5a95c7523939672dc9bd12fa99bf3b5a97af60
@@ -13,6 +13,8 @@ tags:
     sha256:6ce5ccc99b477002b1b0b891951c57012790766e0e7502929170947c1be517a0
   1.0.4--hdfd78af_0: 
     sha256:f1b4942a8f571bb77536c17325e31b0bdde4401906c138d5eff49373b3f9a8a6
+  1.0.5--hdfd78af_0: 
+    sha256:5055398cd2fa80aad496a1b64f588b4ca16b7666cee4207d3ba4fd9bda295430
 docker: quay.io/biocontainers/bactopia-gather
 aliases:
   Xcalcmem.sh: /usr/local/bin/Xcalcmem.sh

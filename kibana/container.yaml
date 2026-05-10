@@ -4,39 +4,38 @@ maintainer: '@vsoch'
 description: Kibana gives shape to any kind of data — structured and 
   unstructured — indexed in Elasticsearch.
 latest:
-  9.3.1: 'crane digest kibana:9.3.1: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
+  9.4.0: sha256:53c0db95c33553c27f667e41efa042a4ed3f7fffd1a04cd3d78d2c755e9323b5
 tags:
   7.12.0: 
-    sha256:767581addfa1f3c0520774a30c5d872bbc8f833e172d93685baf89c579a1808a
+    sha256:daaaf1f52a9d9350d53b584998f07a2d9ddde0eca24588b068311c2347811967
   7.12.1: 
-    sha256:e96f8b6a90db0b4ba804f7023922448a1d752a85e77f6c645ec309fa0328627d
+    sha256:db88d7069c91b586dbef1c518e33cd527b649caf0002c3976c3323faf04314c2
   7.13.1: 
-    sha256:298a8520298f229f4be784f8fb204976b4e5215b89968f82bc45a469c00933ab
+    sha256:7a30e66eb455454d04d7566dcda0c62659e4986c13c0cad4a8be0bf1d94deb84
   7.13.2: 
-    sha256:3d975ad10f72f05e3b572302f5545206de7be1d3f1d7060ce42cc8d5fa8efc78
+    sha256:dd0b8577eb840e9bea59fca7443156d144b4242315cc8bbea85e553a34a663c3
   7.13.3: 
-    sha256:17e13d811898aac8bfe6f4bf58c287381aaafa1fef1435f60b56886a30ec4500
+    sha256:8aefbba6568d3fc05b99e610d420cfedcc7af889e07059e8731fdcb7bfd092e8
   7.14.0: 
-    sha256:7188839aee88057c1f92aaff12d6ca4f54f5f89c1a07caedbc0247c4ec041392
+    sha256:a1c80a2b22f6c9a93a089c8b983078d482e6dad5e693c64e84b491afd0e90f53
   7.14.2: 
-    sha256:d3eaf39c5aae353a9edae380030188ed712547a31954c8057d069ef8f2d8cbba
+    sha256:fb12b4b85381ed5286cb8b78552b18f5fe8d562f9e21ab67db580f972ce8d3be
   7.16.2: 
-    sha256:cbff0e7f8200798130dc9ebca666c89d440f203272d66b007763ef554b21d0f0
+    sha256:f4bbb4e68162da8d7b492294e5fbdb8af96fe9149b3f844445b530695327665e
   7.16.3: 
-    sha256:a9bb1d796ca13a9d658c7ca4e3ca78ec555e532256ee3246addcf7606cc55527
-  8.0.0: sha256:498cfc53922d8299baa88e5a0f306a7fbf7f50bd85ac79b4eb43cbfd2ed89ec9
-  8.1.2: sha256:16522ca04a01c252ff4785f0c8102178995d3bc31bb4302abc49903623fad3b6
-  8.0.1: sha256:1ec3a471e124c74a404c0d15820ff038d6e68241788bc6ff77b6462adedc654e
+    sha256:6ec603a4582b930ee5c1cd8c03ac77327fcbe1c7bdc3e58829d884c21d160df9
+  8.0.0: sha256:bcfc4ce2c999bd3901c9e509d894892e226273142decf6c875889b2d2dbfe6f6
+  8.1.2: sha256:910877448e030abf0ab87600739c064d189f57a3528d6d1ad789a6060cd2c28d
+  8.0.1: sha256:dce9cfbde0c096fe25ab526e57e61d4a03bd7853d8578aff81e1b2ac3834d4fe
   7.17.2: 
-    sha256:214302162d75a7c8ade156b3298f3e12ba275bc537503109f13a8caac33fbef0
-  8.1.3: sha256:54160acbcec72562994675bcc84ff5241c54d0ad1e89cc6c5c1236b15f210b8f
+    sha256:0b3778350b5cb12f33f4c520939c1eba9d8997a70b827a9786abf4011dd82012
+  8.1.3: sha256:03d6cf92844f5541099c24ffdbf8830e38b64dc3b9c1db882415529fecb93e00
   7.17.3: 
-    sha256:e2e2031c15be40af4369fe04db4d91d65976b39c06f70447d878a1d44b9915be
-  8.2.2: sha256:cf34801f36a2e79c834b3cdeb0a3463ff34b8d8588c3ccdd47212c4e0753f8a5
+    sha256:2bea450207ac0574ea7b3cc4318c260100ed7722043c9e05cf857a2ff6e56050
+  8.2.2: sha256:e526855c6c7207d5de504d97accce0b0552c74e20ef08b0abcb17c918bd6d070
   7.17.4: 
-    sha256:13572cada04ff3730aa7cb6ebc0e0f28e0ae7b4a3a4304fff5104e011b2cba05
-  8.2.3: sha256:d285696735a16772037f6ef7e763a9a347d2538c9ffd584f64c854b01a37f5d7
+    sha256:ce193e81c4212965be645422bde5e81215c169c7985c3dbabbe88349d6396f44
+  8.2.3: sha256:9c13c7ea4760089701cb7d9b0d620a45f3ba543ca2f8a5fd9744f18c0563b70b
   8.4.0: sha256:5c264dd22279f9285175f547d34d76ad7f370070d7ff2f3dffb000dd0f7cf5af
   8.3.3: sha256:f62c3a08d9c9b9b8f1ac9ea02e370cf75094312cb6e51ffd83a9504174daa786
   8.4.1: sha256:3f73f7b286c1821f4c238497ed972bbcc3d1b2796da8a660b15f8a891b7c2d29
@@ -138,30 +137,26 @@ tags:
     sha256:8d6714839c46872d23be8253b84cf54d6346ed43fd45dc775789f3ca0a6bb7cb
   8.18.8: 
     sha256:4c73f1e8fd61baad0716c71dfedba2194ed909300560ad66ab8251bd7f11ba94
-  9.2.1: 'crane digest kibana:9.2.1: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9.1.7: 'crane digest kibana:9.1.7: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8.19.7: 'crane digest kibana:8.19.7: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9.2.3: 'crane digest kibana:9.2.3: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9.1.9: 'crane digest kibana:9.1.9: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8.19.9: 'crane digest kibana:8.19.9: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9.2.4: 'crane digest kibana:9.2.4: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9.1.10: 'crane digest kibana:9.1.10: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8.19.10: 'crane digest kibana:8.19.10: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9.3.1: 'crane digest kibana:9.3.1: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  9.2.6: 'crane digest kibana:9.2.6: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  8.19.12: 'crane digest kibana:8.19.12: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
+  9.2.1: sha256:0259c55a5d7ee8db5ffdcf91349f23755f7a2feec85b18608df0a9be857f0485
+  9.1.7: sha256:de8dd1bec7ffde6fe1af24c41aaf3d94f3cc4af6c85e7e91489f62b7bb19ad2a
+  8.19.7: 
+    sha256:1d28569d88f6e52e1bfc7f34923f3d24749ae7de6337914ac2dd434f54ec465c
+  9.2.3: sha256:1bb55c8cb4acb0c970dddf0251114c6d85c90b1cc763c1408431355e0ef7f6d1
+  9.1.9: sha256:4413d2486a9c3b32f48ce9bef10072d7e899b152b65911bfec3d2f139e800d5d
+  8.19.9: 
+    sha256:26e72b6d615180b091a1ed15068dd1a352fcff84c64f093708ece50e939ecf7f
+  9.2.4: sha256:6314ad113eedb82a278335cec7fb79d4104a7a5220a35ce630cd4a23e4305806
+  9.1.10: 
+    sha256:da5a949e11b5b3486d73f7efc145b475ad58c666a6a569d2385fadcd8477ec92
+  8.19.10: 
+    sha256:bf71bccbd2e96858ef3e3a3551525f15c58a82ccb2f52b212b57a27bd8db86f0
+  9.3.1: sha256:0c93f1689907b7c09843945cf2b0863c34af5e8be966d288249cb32121f95910
+  9.2.6: sha256:6d9362c40bac8152733c3a83d255bb5f034042ecf45e14e85e4b221856234114
+  8.19.12: 
+    sha256:72ac4cc9338c720f6e237f405e14ac1598b8286405a70325b0431d4cda770ee4
+  9.4.0: sha256:53c0db95c33553c27f667e41efa042a4ed3f7fffd1a04cd3d78d2c755e9323b5
+  9.3.4: sha256:c8ba09b19e8f77a95dfd53f86bf22514157896d065c248f64cefd82671382edf
+  9.2.8: sha256:26ba0a5c1fce9d1b3a92e952020cba6b028cb8c29d8ba8a7574ef188c3467b4b
 aliases:
   kibana: /usr/share/kibana/bin/kibana
   kibana-encryption-keys: /usr/share/kibana/bin/kibana-encryption-keys

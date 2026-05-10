@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowclust
 latest:
-  3.44.0--r44h3df3fcb_0: 
-    sha256:d32cb26f812e0d781b70de4b2e7bb798484978afc43cd08364776890cf38ab39
+  3.48.0--r45h01b2380_0: 
+    sha256:b9ac12cb8bf801db51fbba82fd027387d966e7d4f710fd5680954d3a1b490a94
 tags:
   3.32.0--r41hc0cfd56_2: 
     sha256:360521ee03ca333a691a0087ca848dd624828137fe9a6a1a8250f82fa3203ccc
@@ -20,4 +20,6 @@ tags:
     sha256:abdddd631049dcb9623fb5d937a4f946fb3bb91c6d864a942dc61b4227e23f36
   3.44.0--r44h3df3fcb_0: 
     sha256:d32cb26f812e0d781b70de4b2e7bb798484978afc43cd08364776890cf38ab39
+  3.48.0--r45h01b2380_0: 
+    sha256:b9ac12cb8bf801db51fbba82fd027387d966e7d4f710fd5680954d3a1b490a94
 docker: quay.io/biocontainers/bioconductor-flowclust

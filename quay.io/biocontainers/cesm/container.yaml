@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/cesm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cesm
 latest:
-  2.1.3--py38pl5321hbcac906_6: sha256:b6d1a33c04502101a338fc07d751c382849efb2ad09187120a78c39e4b1b12f4
+  2.1.3--py38pl5321hbcac906_6: 
+    sha256:b6d1a33c04502101a338fc07d751c382849efb2ad09187120a78c39e4b1b12f4
 tags:
-  2.1.3--py38pl5321hbcac906_6: sha256:b6d1a33c04502101a338fc07d751c382849efb2ad09187120a78c39e4b1b12f4
+  2.1.3--py38pl5321hbcac906_6: 
+    sha256:b6d1a33c04502101a338fc07d751c382849efb2ad09187120a78c39e4b1b12f4
+  2.1.3--py39pl5321hab58d13_6: 
+    sha256:b6b11e56e40715220975e00a9d1ed7ed9f1348117e94b53e09ac0edd93e240e7
 docker: quay.io/biocontainers/cesm
 aliases:
   addr2line: /usr/local/bin/addr2line

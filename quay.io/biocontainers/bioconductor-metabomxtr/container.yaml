@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metabomxtr
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:ead21ffb9e39a90b92047c98ba3e6edd5dd0fe3432879115e7ffe63c690ad7e9
+  1.44.0--r45hdfd78af_0: 
+    sha256:dd2d2eacb3b71a8a074cf123372d5474a750d5679e024196def589842a1b00a7
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:c99f395e67cec62dd51827ced2f5935c6e51b7191d9876e48ce3c4c6060242f4
@@ -16,4 +16,6 @@ tags:
     sha256:630028778731f5fa85952f26c8640cf74d3298329f77aade35828a8dc8b8b6a8
   1.40.0--r44hdfd78af_0: 
     sha256:ead21ffb9e39a90b92047c98ba3e6edd5dd0fe3432879115e7ffe63c690ad7e9
+  1.44.0--r45hdfd78af_0: 
+    sha256:dd2d2eacb3b71a8a074cf123372d5474a750d5679e024196def589842a1b00a7
 docker: quay.io/biocontainers/bioconductor-metabomxtr

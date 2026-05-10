@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mbkmeans
 latest:
-  1.22.0--r44he5774e6_0: 
-    sha256:522ba3bd3304518a1b07379170fdaa15893a60ead1f0d16b6f1444f6f79bc0f4
+  1.26.0--r45ha27e39d_0: 
+    sha256:da2a0c743a625551ae3734a92f289edac38ca3b432ec1223c0f5fe22259476c0
 tags:
   1.8.0--r41h399db7b_0: 
     sha256:3fdacb8139038de7841daa21d2eef8afe27bfb664ab96d7a45fd35de0f9ff6bb
@@ -22,6 +22,8 @@ tags:
     sha256:5b2dfe65157615bb2f984ac5a3ce53d5532330d17ce07948e90b1cb160fd5d25
   1.22.0--r44he5774e6_0: 
     sha256:522ba3bd3304518a1b07379170fdaa15893a60ead1f0d16b6f1444f6f79bc0f4
+  1.26.0--r45ha27e39d_0: 
+    sha256:da2a0c743a625551ae3734a92f289edac38ca3b432ec1223c0f5fe22259476c0
 docker: quay.io/biocontainers/bioconductor-mbkmeans
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

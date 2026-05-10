@@ -3,10 +3,10 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-marker
 latest:
   1.0.0--r45hdfd78af_0: 
-    sha256:ab3605e7068745e11f936b58dab62802aa71ec5ae967fb560669e55c69bb5a7e
+    sha256:84f334536d0249b09863dce495e4ba83ea87cfd179d8501d5d66655161c6c4df
 tags:
   1.0.0--r45hdfd78af_0: 
-    sha256:ab3605e7068745e11f936b58dab62802aa71ec5ae967fb560669e55c69bb5a7e
+    sha256:84f334536d0249b09863dce495e4ba83ea87cfd179d8501d5d66655161c6c4df
 docker: quay.io/biocontainers/bioconductor-marker
 aliases:
   idle3.14: /usr/local/bin/idle3.14

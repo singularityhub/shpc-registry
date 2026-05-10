@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mm24kresogen.db
 latest:
-  2.5.0--r44hdfd78af_13: 
-    sha256:24dd04eaf229b2cce4852da89d12e74ad4d8cd60b33627e10346d2af32802ed9
+  2.5.0--r45hdfd78af_14: 
+    sha256:175f428920e54c5a8299a7c5d2d26a560c3aa0550c04fecb70be2315b329b19e
 tags:
   2.5.0--r41hdfd78af_9: 
     sha256:b8adf6d2b488e157862d26d014c56860c6b1185b77e4ab91ad823f9a2c80577c
@@ -16,4 +16,6 @@ tags:
     sha256:2fa734e017ee351412c8077b01df256cc2be44d5ca276a4f84cea17851f7bdce
   2.5.0--r44hdfd78af_13: 
     sha256:24dd04eaf229b2cce4852da89d12e74ad4d8cd60b33627e10346d2af32802ed9
+  2.5.0--r45hdfd78af_14: 
+    sha256:175f428920e54c5a8299a7c5d2d26a560c3aa0550c04fecb70be2315b329b19e
 docker: quay.io/biocontainers/bioconductor-mm24kresogen.db

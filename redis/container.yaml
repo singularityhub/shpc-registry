@@ -5,72 +5,25 @@ description: Redis is an open-source, networked, in-memory, key-value data store
   with optional durability.
 filter:
 - ^(?!.*32bit).*$
+- ^\d+(\.\d+)*?$
 latest:
-  '8.4': sha256:3c4df018ee3cbde9ee38d727902da1a7fb88045db03315e54a72e761cd15fac0
+  8.6.3: sha256:9ec28b9626938ae5dd565f3371fafd78d432cc049da5865726cd411dfb196c8d
 tags:
-  6.2.3-alpine: 
-    sha256:f8f0e809a4281714c33edf86f6da6cc2d4058c8549e44d8c83303c28b3123072
-  6.2.4-alpine: 
-    sha256:0039796b887fd30e460353f14e46ba1004152aa97f5f59094cc21eac445fc89b
-  6.2.5: sha256:c98f0230b5f1831f4f5dd764c4ea8ef11d3e3a1a3593278eb952373d97c82b27
-  6.2.6: sha256:b7fd1a2c89d09a836f659d72c52d27b9f71202c97014a47639f87c992e8c0f1b
-  7.0-rc: 
-    sha256:359475c7f0c0a8a28444ca36799b087bb98c8f9db0ee9fa5c13017b4d1693fb5
-  latest: 
-    sha256:832d7785830f3f4b559300e6191fc914b15642c1935252338825cf4332200148
-  '6': sha256:5443f35e8fc8fc8496964b8e8ea39abaf99434d7e1741e514f7f56906b1c9ff0
-  6-alpine3.15: 
-    sha256:4091b9da835824257744fba095932e470078eb2c0025899ac1c6944b2d638c7e
-  '6.2': sha256:5443f35e8fc8fc8496964b8e8ea39abaf99434d7e1741e514f7f56906b1c9ff0
-  '7': sha256:3e0669e42d4fe421c9dea0ba5fbc04d336b80b4f32a6c7d25bee3a1d089288a1
-  7-alpine3.15: 
-    sha256:541e6d75df5dfb08e8859929bab06da265673808a6f2285abe6b7c76c1c98c6e
-  '7.0': sha256:352c1fdadc91926edda08f45aeb3f27f37194c2f14101229c0523a11195c96e3
-  7-alpine3.16: 
-    sha256:2700d5097763fda285c463f4eefc3d0730a2df2a9d48e66707b19d5a5e5f23d4
-  6-alpine3.16: 
-    sha256:aeaf1a7251c9cdaead1bef13d68aac16b0e22326ecfefdb6079008ffab81065d
-  7-alpine3.17: 
-    sha256:cbcf5bfbc3eaa232b1fa99e539459f46915a41334d46b54bf894f8837a7f071e
-  6-alpine3.17: 
-    sha256:0bb58d0fec5900dd82002b53b9d2dc0dfbd1831e7d2570cb4e66ff1a9464b134
-  7.2-rc: 
-    sha256:7263f36e388ca406f67ec5614a3d0099d7634804e5e26536fdde85ca7d8efa94
-  7-alpine3.18: 
-    sha256:3ce533b2b057f74b235d1d8697ae08b1b6ff0a5e16827ea6a377b6365693c7ed
-  '7.2': sha256:37aa82f9fdff30517603b2e2c5376b34b106d353c2b508262260d3bb0d2c21ba
-  7-alpine3.19: 
-    sha256:8f157725f8eee31e65a8d4765f1f986d76aedc1a0503345dfb63a2b1b5a441ee
-  7-alpine3.20: 
-    sha256:c1e88455c85225310bbea54816e9c3f4b5295815e6dbf80c34d40afc6df28275
-  7.4-rc: 
-    sha256:4d08a8fc92f2ae6508cc4a622a95a75c0549f43da7c13542e8deb031e1c0b629
-  '7.4': sha256:3e0669e42d4fe421c9dea0ba5fbc04d336b80b4f32a6c7d25bee3a1d089288a1
-  8.0-M01: 
-    sha256:418c6ae4c128641049a692135a683d3eca6746deb96b56b45e34993782b1596f
-  8.0-M02: 
-    sha256:671dbd33aafb8bc88656dc182921261ad592b2f907cc32b0f1bad57b2fd6e0e5
-  8.0-M03: 
-    sha256:f35d7bf9f1fdbcb7a0296ab01a5e7e72643a0a5d40fc263a189627bd09afe7c9
-  7-alpine3.21: 
-    sha256:7aec734b2bb298a1d769fd8729f13b8514a41bf90fcdd1f38ec52267fbaa8ee6
-  8.0-M04: 
-    sha256:9c6bb76658f8e6f7ca8d0d96c8fcdfb12e9795579c89918aea4fa2ad9817c2f0
-  '8': sha256:832d7785830f3f4b559300e6191fc914b15642c1935252338825cf4332200148
-  8-alpine3.21: 
-    sha256:25c0ae32c6c2301798579f5944af53729766a18eff5660bbef196fc2e6214a9c
-  '8.0': sha256:ae471bdc20de180beed36e347d170ec0bdf8faa327959ea1f24692f22b05b955
-  8.2-m01: 
-    sha256:0022f77ef5fcee063d0e009d03a6696c47159d97c64ce1e8d176b485c66f7f57
-  8-alpine3.22: 
-    sha256:4eec4565e45aa0b3966554c866bc73211e281b0b3d89fe9a33c982e6faca809d
-  '8.2': sha256:510f41a055ce2b9fc08667e08f1fb91f12b1770a307206a88c149c2efb077a8e
-  'crane ls redis: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:library/redis Type:repository]]': 'crane
-    digest redis:crane ls redis: UNAUTHORIZED: authentication required; [map[Action:pull
-    Class: Name:library/redis Type:repository]]: parsing reference "redis:crane ls
-    redis: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:library/redis
-    Type:repository]]": could not parse reference'
-  '8.4': sha256:3c4df018ee3cbde9ee38d727902da1a7fb88045db03315e54a72e761cd15fac0
+  8.6.3: sha256:9ec28b9626938ae5dd565f3371fafd78d432cc049da5865726cd411dfb196c8d
+  8.4.3: sha256:a57952057a70f0694d81e4abbcc2987d4b1a80af6333409ef42ae1d73e43b0e7
+  8.2.6: sha256:387aeab379147872b48b636711dfa6ba7a2e13afa847df371921aadcb032ca95
+  8.0.6: sha256:ae471bdc20de180beed36e347d170ec0bdf8faa327959ea1f24692f22b05b955
+  7.4.9: sha256:3e1b24a1a8f24ff926b15e5ace8c38a03e5657fb66e1fc7e5188e315aa5fa094
+  7.2.14: 
+    sha256:e254c1d48d56aa091eb2242bb9d5d775e5db7ee46ba36790feb289eb136efebc
+  7.0.15: 
+    sha256:352c1fdadc91926edda08f45aeb3f27f37194c2f14101229c0523a11195c96e3
+  6.2.22: 
+    sha256:a54ecc83b70d33cf1c1d89f0301ba39b6753b91184bfd9a1cb4ef1f805fefc2d
+  6.0.20: 
+    sha256:b99ffd0554dc8d300230b9d1b9f2a129a6abf595bf8589883beb980ed1feae3d
+  5.0.14: 
+    sha256:fc5ecd863862f89f04334b7cbb57e93c9790478ea8188a49f6e57b0967d38c75
 aliases:
   redis-benchmark: /usr/local/bin/redis-benchmark
   redis-check-aof: /usr/local/bin/redis-check-aof

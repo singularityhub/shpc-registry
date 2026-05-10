@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/modifi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for modifi
 latest:
-  0.0.1--hd63eeec_0: 
-    sha256:11dea3b9da15484df49953f6960fcb382a1ac903494e96df5b892c7959890d0c
+  0.0.3--hd63eeec_0: 
+    sha256:7283071fdc57f51f3239a764799a2f4d59f8243166ef52b0b0746133f4d3b4b3
 tags:
   0.0.1--hd63eeec_0: 
     sha256:11dea3b9da15484df49953f6960fcb382a1ac903494e96df5b892c7959890d0c
+  0.0.3--hd63eeec_0: 
+    sha256:7283071fdc57f51f3239a764799a2f4d59f8243166ef52b0b0746133f4d3b4b3
 docker: quay.io/biocontainers/modifi
 aliases:
   bam2fasta: /usr/local/bin/bam2fasta

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-regioner
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:c157d95d0a1c0bbe3aec12f5f978c38a9c8873bf5553e43e14aa576787811342
+  1.42.0--r45hdfd78af_0: 
+    sha256:217527d352220f88094494ac85cfdf62e503193ec6bf01e2e8da997d11231af2
 tags:
   1.8.1--r3.4.1_0: 
     sha256:09c82a98bea7461fcec17074793e7f39ac6f7e5161825e8853f967d7ea8a6533
@@ -26,6 +26,8 @@ tags:
     sha256:731f52715342ae820a37c9391ff73cb398e8642f22f8f954ec96b0e066d71668
   1.38.0--r44hdfd78af_0: 
     sha256:c157d95d0a1c0bbe3aec12f5f978c38a9c8873bf5553e43e14aa576787811342
+  1.42.0--r45hdfd78af_0: 
+    sha256:217527d352220f88094494ac85cfdf62e503193ec6bf01e2e8da997d11231af2
 docker: quay.io/biocontainers/bioconductor-regioner
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

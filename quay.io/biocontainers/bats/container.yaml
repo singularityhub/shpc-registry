@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bats
 latest:
-  0.4.0--1: sha256:8a79f2694f4b14702e39dfb9927a3266afc23408c10ab4c254148ae8f71ae0fb
+  0.4.0--1: 
+    sha256:f8e11d77656eca01765d547e3ad85c319f66596941fd9786b42e3cb3591b3203
 tags:
-  0.4.0--1: sha256:8a79f2694f4b14702e39dfb9927a3266afc23408c10ab4c254148ae8f71ae0fb
+  0.4.0--1: 
+    sha256:f8e11d77656eca01765d547e3ad85c319f66596941fd9786b42e3cb3591b3203
 docker: quay.io/biocontainers/bats
 aliases:
   bats: /usr/local/bin/bats

@@ -2,10 +2,17 @@ url: https://biocontainers.pro/tools/bayescan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bayescan
 latest:
-  2.0.1--h4ac6f70_6: sha256:8e78edefe66fad67b3f641b77e3b5d3bbae6f2a2059736740aed9cd3605eeaa8
+  2.1--hd63eeec_0: 
+    sha256:bb4a4b15676ae087184d7d0f0c7da7711c5ff0c54cb5f6ad1e2e12c8f83eecce
 tags:
-  2.0.1--h9f5acd7_4: sha256:eb0c8ff2758b2cc408436b45b88cdcaed3e6b5a2d070528f5b58af60ed9da0cb
-  2.0.1--h4ac6f70_6: sha256:8e78edefe66fad67b3f641b77e3b5d3bbae6f2a2059736740aed9cd3605eeaa8
+  2.0.1--h9f5acd7_4: 
+    sha256:eb0c8ff2758b2cc408436b45b88cdcaed3e6b5a2d070528f5b58af60ed9da0cb
+  2.0.1--h4ac6f70_6: 
+    sha256:8e78edefe66fad67b3f641b77e3b5d3bbae6f2a2059736740aed9cd3605eeaa8
+  2.1--hd63eeec_0: 
+    sha256:bb4a4b15676ae087184d7d0f0c7da7711c5ff0c54cb5f6ad1e2e12c8f83eecce
+  2.0.1--h9948957_7: 
+    sha256:07188001b215412bb47c8be9ca842a98f5adb60d4c1129d36da5b4fb5c813603
 docker: quay.io/biocontainers/bayescan
 aliases:
   bayescan2: /usr/local/bin/bayescan2

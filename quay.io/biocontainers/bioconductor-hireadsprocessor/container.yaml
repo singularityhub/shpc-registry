@@ -1,10 +1,19 @@
 url: https://biocontainers.pro/tools/bioconductor-hireadsprocessor
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-hireadsprocessor
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-hireadsprocessor
 latest:
-  1.36.0--r43hdfd78af_0: sha256:c29c405ff5520c9ef62190a15bae246ce85de0ddae4b73800e127203a9f6dc9a
+  1.42.0--r44hdfd78af_0: 
+    sha256:7ec83d50f72ddce75d953139deb9bc08bec2fd7d3457e4be9d8bbcc0c4eba600
 tags:
-  1.30.0--r41hdfd78af_0: sha256:896e4f21221266cb818cebb86c10cc4bd2751938f005a165b935e39efadf2e0c
-  1.34.0--r42hdfd78af_0: sha256:86d4262b20620713dd498d480db0dfd203317d8634c7d9afcc166054dff67526
-  1.36.0--r43hdfd78af_0: sha256:c29c405ff5520c9ef62190a15bae246ce85de0ddae4b73800e127203a9f6dc9a
+  1.30.0--r41hdfd78af_0: 
+    sha256:896e4f21221266cb818cebb86c10cc4bd2751938f005a165b935e39efadf2e0c
+  1.34.0--r42hdfd78af_0: 
+    sha256:86d4262b20620713dd498d480db0dfd203317d8634c7d9afcc166054dff67526
+  1.36.0--r43hdfd78af_0: 
+    sha256:c29c405ff5520c9ef62190a15bae246ce85de0ddae4b73800e127203a9f6dc9a
+  1.42.0--r44hdfd78af_0: 
+    sha256:7ec83d50f72ddce75d953139deb9bc08bec2fd7d3457e4be9d8bbcc0c4eba600
+  1.38.0--r43hdfd78af_0: 
+    sha256:ce24fe915e73f74a0abae3161fd96886bb8ef5fb31ac20fa410bf6bc81ac059b
 docker: quay.io/biocontainers/bioconductor-hireadsprocessor

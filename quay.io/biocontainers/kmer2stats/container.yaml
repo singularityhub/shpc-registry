@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/kmer2stats
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kmer2stats
 latest:
-  1.0.1--pyhdfd78af_0: sha256:aff6eb41739d1108faef4101a9a722650f52dd66d8cc5ca3cde6a5617f343638
+  1.0.3--pyhdfd78af_0: 
+    sha256:c49c0cfe6a02b4ad8f26233d44326c344126248099e6eb61da1a1b6fc1bb55ae
 tags:
-  1.0.1--pyhdfd78af_0: sha256:aff6eb41739d1108faef4101a9a722650f52dd66d8cc5ca3cde6a5617f343638
+  1.0.1--pyhdfd78af_0: 
+    sha256:aff6eb41739d1108faef4101a9a722650f52dd66d8cc5ca3cde6a5617f343638
+  1.0.3--pyhdfd78af_0: 
+    sha256:c49c0cfe6a02b4ad8f26233d44326c344126248099e6eb61da1a1b6fc1bb55ae
 docker: quay.io/biocontainers/kmer2stats
 aliases:
   kmer2stats.py: /usr/local/bin/kmer2stats.py

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tenxbraindata
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:ef39aa69d1cc1c36ac29a2f08d581e6f5cc717cd79dfc0417ccc0496414750e6
+  1.30.0--r45hdfd78af_0: 
+    sha256:3c4f4b0f8c8abdf776c86047b0bf9b58ef3e8a68f0bd69110c537503ebb5d802
 tags:
   1.8.0--r40_0: 
     sha256:c3870cc26da4a80eb1caeff5e05ac4c368fa6869aa9287633c0f800aca81c0a5
@@ -22,6 +22,8 @@ tags:
     sha256:4688fe9d2196c540d2f116339d751dd322458f63e4114949fe32792ab71afab8
   1.26.0--r44hdfd78af_0: 
     sha256:ef39aa69d1cc1c36ac29a2f08d581e6f5cc717cd79dfc0417ccc0496414750e6
+  1.30.0--r45hdfd78af_0: 
+    sha256:3c4f4b0f8c8abdf776c86047b0bf9b58ef3e8a68f0bd69110c537503ebb5d802
 docker: quay.io/biocontainers/bioconductor-tenxbraindata
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

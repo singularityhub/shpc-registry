@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-scoup
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scoup
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:a1b4c058191e058d4bed623ba443b265684bf51c0fb0b9f2c8f71f53b5442160
+  1.4.0--r45hdfd78af_0: 
+    sha256:b916b3ad40da418d6b78c0d733188eef53f1afe787cdc00d537292eb64d668ad
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:a1b4c058191e058d4bed623ba443b265684bf51c0fb0b9f2c8f71f53b5442160
+  1.4.0--r45hdfd78af_0: 
+    sha256:b916b3ad40da418d6b78c0d733188eef53f1afe787cdc00d537292eb64d668ad
 docker: quay.io/biocontainers/bioconductor-scoup
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

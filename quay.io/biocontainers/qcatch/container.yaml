@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/qcatch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for qcatch
 latest:
-  0.2.11--pyhdfd78af_0: 
-    sha256:508e8508f6609c1453f332b6a414cbacd57ccf1cf97ea6da06a9f3a722cf10c8
+  0.2.12--pyhdfd78af_0: 
+    sha256:a91dc7126a75dc532ba3c51d5730265937044a1ef5cba5b95a2125f1978db14e
 tags:
   0.2.3--pyhdfd78af_0: 
     sha256:9a8c634faf7566780f93348b2ff5af6497e3b3fdd593f2aaa95f515ebfdb40ff
@@ -19,6 +19,8 @@ tags:
     sha256:3069477f0e24e680d4a922f2de70ae3452e99e8e0b42e44ca0d3002da4208c11
   0.2.11--pyhdfd78af_0: 
     sha256:508e8508f6609c1453f332b6a414cbacd57ccf1cf97ea6da06a9f3a722cf10c8
+  0.2.12--pyhdfd78af_0: 
+    sha256:a91dc7126a75dc532ba3c51d5730265937044a1ef5cba5b95a2125f1978db14e
 docker: quay.io/biocontainers/qcatch
 aliases:
   pyroe: /usr/local/bin/pyroe

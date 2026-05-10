@@ -27,6 +27,8 @@ tags:
     sha256:4aec17e67c34f19f464d7abe86475cfe4d2dbf1fa06c149a23699133d4407ba1
   2.8.4--py311h7c5c6c8_0: 
     sha256:1e0a25d3860e2495772d01123127af3b524e8851d940ed1bcd03a022fff4f409
+  2.5.2--py36h40b2fa4_1: 
+    sha256:e792378f8edcbaa340a6df7d2424a577e9dcba65fc906a72e6140b9614ce1059
 docker: quay.io/biocontainers/svdb
 aliases:
   svdb: /usr/local/bin/svdb

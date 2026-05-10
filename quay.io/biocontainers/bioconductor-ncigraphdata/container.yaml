@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ncigraphdata
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:40beb38989789707c91b7a4c5fea1f14908928e81c1d5a27f5c98a03d5aa62e5
+  1.46.0--r45hdfd78af_0: 
+    sha256:3079c3c6969ad25d22e3e3f274ea7bc23f4a780b279cebe6638bf6ed02a0f7b2
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:63f7beabdcaeefd7b2930e83b127af9b7153890ce2c12d6d5f1eb63e956e9ba9
@@ -16,4 +16,6 @@ tags:
     sha256:1f4b534afcd4504c23164c0a8e6b6bf83401cf951b5891443c941d3f59f07640
   1.42.0--r44hdfd78af_0: 
     sha256:40beb38989789707c91b7a4c5fea1f14908928e81c1d5a27f5c98a03d5aa62e5
+  1.46.0--r45hdfd78af_0: 
+    sha256:3079c3c6969ad25d22e3e3f274ea7bc23f4a780b279cebe6638bf6ed02a0f7b2
 docker: quay.io/biocontainers/bioconductor-ncigraphdata

@@ -2,10 +2,19 @@ url: https://biocontainers.pro/tools/vamos
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vamos
 latest:
-  1.3.6--hd7d8470_0: sha256:9ac2de5e2480677c8e29be1f20584ff812aceebe1d89340c289ea836959bd9e1
+  3.0.6--h7f5d12c_0: 
+    sha256:394e1ed74936cf2c43947668a87ecc1ca640c50b200a431cd004783425d2fdbf
 tags:
-  1.2.6--hd7d8470_0: sha256:479ebf30b12dc718ee1b18e72d73ca8aa1f5cc0fa98016b645754d961987fde6
-  1.3.6--hd7d8470_0: sha256:9ac2de5e2480677c8e29be1f20584ff812aceebe1d89340c289ea836959bd9e1
+  1.2.6--hd7d8470_0: 
+    sha256:479ebf30b12dc718ee1b18e72d73ca8aa1f5cc0fa98016b645754d961987fde6
+  1.3.6--hd7d8470_0: 
+    sha256:9ac2de5e2480677c8e29be1f20584ff812aceebe1d89340c289ea836959bd9e1
+  3.0.6--h7f5d12c_0: 
+    sha256:394e1ed74936cf2c43947668a87ecc1ca640c50b200a431cd004783425d2fdbf
+  2.1.7--h5ca1c30_0: 
+    sha256:8b77fc43c1060d3cc78f8619de46e81956f42f16adc0d39a9a6702768fe9b878
+  1.3.6--h43eeafb_1: 
+    sha256:e5d0e2933093bfde9048391deea28d3a853f01088435f0fb8580a4b65abe7482
 docker: quay.io/biocontainers/vamos
 aliases:
   vamos: /usr/local/bin/vamos

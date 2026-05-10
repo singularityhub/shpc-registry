@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chromscape
 latest:
-  1.16.0--r44he5774e6_0: 
-    sha256:e7f3df5641815180ff4029766dcf3762bd876ea0f42f509d01b8bf2f69566a44
+  1.20.0--r45ha27e39d_0: 
+    sha256:949d30883e0907a5aa07193631f005c569a19da35ac7c5a16eda99b54593633c
 tags:
   1.4.0--r41hc247a5b_2: 
     sha256:4dae9f97dfb806e221126735c10e9b996922615194df9cf0846434a57b5c8ecc
@@ -18,6 +18,8 @@ tags:
     sha256:512d07c26bbe320b07dcd4183fc64c0f334b765feaf0890da76790132ec02e87
   1.16.0--r44he5774e6_0: 
     sha256:e7f3df5641815180ff4029766dcf3762bd876ea0f42f509d01b8bf2f69566a44
+  1.20.0--r45ha27e39d_0: 
+    sha256:949d30883e0907a5aa07193631f005c569a19da35ac7c5a16eda99b54593633c
 docker: quay.io/biocontainers/bioconductor-chromscape
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

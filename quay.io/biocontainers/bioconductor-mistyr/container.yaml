@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mistyr
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:186b936e8565f114b713b1fc6d19c28f8b106a3912ce7bb77f0df8bb4153ccc9
+  1.18.0--r45hdfd78af_0: 
+    sha256:557ec443f2f0c687c6c4f5a0dc4cf0962c0ac7fe9a2d4828ddf40807dc35428d
 tags:
   1.2.1--r41hdfd78af_0: 
     sha256:ae248d9375fb86567d69517564f582f5fbfe8b6e63d6765ec6c55a3219f12f84
@@ -16,4 +16,6 @@ tags:
     sha256:a54af6444b65b9ec172fdd6e9ba6736fcb3468f333b6bf2a99f4bebe564c082e
   1.14.0--r44hdfd78af_0: 
     sha256:186b936e8565f114b713b1fc6d19c28f8b106a3912ce7bb77f0df8bb4153ccc9
+  1.18.0--r45hdfd78af_0: 
+    sha256:557ec443f2f0c687c6c4f5a0dc4cf0962c0ac7fe9a2d4828ddf40807dc35428d
 docker: quay.io/biocontainers/bioconductor-mistyr

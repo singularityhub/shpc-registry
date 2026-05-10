@@ -1,10 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-svanumt
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-svanumt
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-svanumt
 latest:
-  1.6.0--r43hdfd78af_0: sha256:9b2b8518f338aa1e4be65fc694161f62bd0b7ea8de8a2d9192a23d0eaa210418
+  1.16.0--r45hdfd78af_0: 
+    sha256:c6218c22a2826023152514f6fce1371170e23be605c067c1f273728fc442cbbd
 tags:
-  1.0.0--r41hdfd78af_0: sha256:dd46f36b04fbe6e615c087078bc7fa428703e6dabc6eb6a554c00ad3499689d8
-  1.4.0--r42hdfd78af_0: sha256:349d7f04c7833c7bb99acaba229b5f846cfc5be83bbfb711775ff2237591b4cf
-  1.6.0--r43hdfd78af_0: sha256:9b2b8518f338aa1e4be65fc694161f62bd0b7ea8de8a2d9192a23d0eaa210418
+  1.0.0--r41hdfd78af_0: 
+    sha256:dd46f36b04fbe6e615c087078bc7fa428703e6dabc6eb6a554c00ad3499689d8
+  1.4.0--r42hdfd78af_0: 
+    sha256:349d7f04c7833c7bb99acaba229b5f846cfc5be83bbfb711775ff2237591b4cf
+  1.6.0--r43hdfd78af_0: 
+    sha256:9b2b8518f338aa1e4be65fc694161f62bd0b7ea8de8a2d9192a23d0eaa210418
+  1.16.0--r45hdfd78af_0: 
+    sha256:c6218c22a2826023152514f6fce1371170e23be605c067c1f273728fc442cbbd
+  1.12.0--r44hdfd78af_0: 
+    sha256:52c4ec0113df7d174b4bfaad259aced121e1182ba0e5b8a09c9705952f07c6e0
+  1.8.0--r43hdfd78af_0: 
+    sha256:4ec3bd9bbb8434507624c11ba95c7fa7a9ade9dc4ca5fed504f67bc8ced94a41
 docker: quay.io/biocontainers/bioconductor-svanumt

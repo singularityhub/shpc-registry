@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-moe430bcdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:07da2291bde7488f466ca972aedfb768c008e11d5e9b80e3026fdf5fbd153dae
+  2.18.0--r45hdfd78af_14: 
+    sha256:449caa99800942effe256aed8353cf4d51811866b9f0fb040ea2180b4493ebad
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:a8804e44ebbc7c4bcc22aff0912d2ab59672471982f7c2343c3333624f901f50
@@ -16,4 +16,6 @@ tags:
     sha256:f2aebdb3fef6bb2ba5f441183b66eed3ad6b31883c37291de315ad5fea75ea7e
   2.18.0--r44hdfd78af_13: 
     sha256:07da2291bde7488f466ca972aedfb768c008e11d5e9b80e3026fdf5fbd153dae
+  2.18.0--r45hdfd78af_14: 
+    sha256:449caa99800942effe256aed8353cf4d51811866b9f0fb040ea2180b4493ebad
 docker: quay.io/biocontainers/bioconductor-moe430bcdf

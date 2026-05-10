@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-heattree
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-heattree
 latest:
-  0.2.1--r44hdfd78af_0: 
-    sha256:54d9b4c98f6f9c14fe514c77e262782af14754dac00f065cfbfccd43f891c035
+  0.3.1--r45hdfd78af_0: 
+    sha256:75fb0158d2995ce9c8299307d66628502c6732a8cddb9cc2bcc1d0d152a99a35
 tags:
   0.2.1--r44hdfd78af_0: 
     sha256:54d9b4c98f6f9c14fe514c77e262782af14754dac00f065cfbfccd43f891c035
+  0.3.1--r45hdfd78af_0: 
+    sha256:75fb0158d2995ce9c8299307d66628502c6732a8cddb9cc2bcc1d0d152a99a35
 docker: quay.io/biocontainers/r-heattree
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

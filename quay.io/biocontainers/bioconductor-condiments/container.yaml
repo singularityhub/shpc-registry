@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-condiments
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:f982d9df1151c6829b9c48059c75c2c80329525da5200ce70882bb62e0e8b26a
+  1.18.0--r45hdfd78af_0: 
+    sha256:15bb7b28fa836436b2c4035a828fe7e6ea26a391805b185ae34b3595f6a44b99
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:ef993125e85953067245bf43a8f9448529253e7aba092a1748f73dedd2a00144
@@ -14,4 +14,6 @@ tags:
     sha256:fd76547ccbd2ca1fe9078f12a736749b2f2cf40277d262e7992180fac9ab5a92
   1.14.0--r44hdfd78af_0: 
     sha256:f982d9df1151c6829b9c48059c75c2c80329525da5200ce70882bb62e0e8b26a
+  1.18.0--r45hdfd78af_0: 
+    sha256:15bb7b28fa836436b2c4035a828fe7e6ea26a391805b185ae34b3595f6a44b99
 docker: quay.io/biocontainers/bioconductor-condiments

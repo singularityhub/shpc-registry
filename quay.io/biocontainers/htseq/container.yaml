@@ -33,6 +33,10 @@ tags:
     sha256:5d9d386b03e0f003825b75b744641ab75b1b0a094f5402052ad45ad848d9148e
   2.1.2--py311h483b626_2: 
     sha256:dd36dbd865d03eb89d7c9d51360bba76f69ad4f1e7a55e341de0f0997b091895
+  0.13.5--py36h0234e80_0: 
+    sha256:3f8cdc0183afb18c862dcab8ba17e7e9d2b41fd34db4653c20c11255f6198ac9
+  0.9.1--py38h1773678_4: 
+    sha256:5c81bab5d275ee52277e681321c9355675ef84d664131d134b3cfe35b7ad3ce3
 docker: quay.io/biocontainers/htseq
 aliases:
   htseq-count: /usr/local/bin/htseq-count

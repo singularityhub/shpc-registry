@@ -1,11 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-crisprbowtie
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-crisprbowtie
+description: singularity registry hpc automated addition for 
+  bioconductor-crisprbowtie
 latest:
-  1.4.0--r43hdfd78af_0: sha256:524ecefcd6f1a31b6fde3509b8a70d34d9f8f53e05e93131a42cf4a8ea0e7930
+  1.14.0--r45hdfd78af_0: 
+    sha256:c0f65e405b1de7ae3e86d5941d11b3c1434d757dcaaf665cc42278603c371739
 tags:
-  1.2.0--r42hdfd78af_0: sha256:c54bc229015428f39377a90a5ef4afbc22ff26b93d2ce02136827d61750ab925
-  1.4.0--r43hdfd78af_0: sha256:524ecefcd6f1a31b6fde3509b8a70d34d9f8f53e05e93131a42cf4a8ea0e7930
+  1.2.0--r42hdfd78af_0: 
+    sha256:c54bc229015428f39377a90a5ef4afbc22ff26b93d2ce02136827d61750ab925
+  1.4.0--r43hdfd78af_0: 
+    sha256:524ecefcd6f1a31b6fde3509b8a70d34d9f8f53e05e93131a42cf4a8ea0e7930
+  1.14.0--r45hdfd78af_0: 
+    sha256:c0f65e405b1de7ae3e86d5941d11b3c1434d757dcaaf665cc42278603c371739
+  1.10.0--r44hdfd78af_0: 
+    sha256:6d3825357c8e147050e19482b0be2841d0d9ecd34f7d4a6cff9986304bf3cb0b
+  1.6.0--r43hdfd78af_0: 
+    sha256:ef83b55b71a5d2818f4c311b6834b493c53a6947c7d5773bf68a2a4fc999f69a
 docker: quay.io/biocontainers/bioconductor-crisprbowtie
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
@@ -14,8 +24,10 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   2to3-3.10: /usr/local/bin/2to3-3.10

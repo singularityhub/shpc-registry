@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-methylmnm
 latest:
-  1.44.0--r44h3df3fcb_0: 
-    sha256:094ec97d6723af7a97a1c6afe962f8c961df487a8d021d7fab2a7346650b7fc7
+  1.48.0--r45h01b2380_0: 
+    sha256:31c285da22b7aa1cc5cdd1c05049be24f5d8c0790ec14e09f1a0b85ee76f7b41
 tags:
   1.32.0--r41hc0cfd56_2: 
     sha256:76db74e93222fe45d45b039dc5148f5358756aa274897d1ac54ec05530fb4178
@@ -20,4 +20,6 @@ tags:
     sha256:3f4b78f6535fc89618b6ca8219547251a78424b40d307ec4e4f34ea7acedd4a0
   1.44.0--r44h3df3fcb_0: 
     sha256:094ec97d6723af7a97a1c6afe962f8c961df487a8d021d7fab2a7346650b7fc7
+  1.48.0--r45h01b2380_0: 
+    sha256:31c285da22b7aa1cc5cdd1c05049be24f5d8c0790ec14e09f1a0b85ee76f7b41
 docker: quay.io/biocontainers/bioconductor-methylmnm

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-oligo
 latest:
-  1.70.0--r44h15a9599_1: 
-    sha256:6280fc67bb37d0891472305a38760460bc3462d8cdb1935985cd652f40ba6cb3
+  1.74.0--r45h01b2380_0: 
+    sha256:b1663e35e9bb776874507752494002ec49b64053156b3d53618af4d437cea6e9
 tags:
   1.58.0--r41hc0cfd56_2: 
     sha256:16cbc6cd7914d0b9e33c3de46e849cd37a6d1fe28f7f563d87ea7e211170be40
@@ -20,4 +20,6 @@ tags:
     sha256:d959e11f7ceb4a386dd3d82efa6d1bb904082791ef0c0c8453173dc116c64dcc
   1.70.0--r44h15a9599_1: 
     sha256:6280fc67bb37d0891472305a38760460bc3462d8cdb1935985cd652f40ba6cb3
+  1.74.0--r45h01b2380_0: 
+    sha256:b1663e35e9bb776874507752494002ec49b64053156b3d53618af4d437cea6e9
 docker: quay.io/biocontainers/bioconductor-oligo

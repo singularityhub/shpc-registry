@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/magpurify
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for magpurify
 latest:
-  2.1.2--py_1: sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae
+  2.1.2--pyhdfd78af_2: 
+    sha256:36eff5307299b2357db1c9130d0b5172299cd9f3b5473899f68f9525adf085ff
 tags:
-  2.1.2--py_1: sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae
+  2.1.2--py_1: 
+    sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae
+  2.1.2--pyhdfd78af_2: 
+    sha256:36eff5307299b2357db1c9130d0b5172299cd9f3b5473899f68f9525adf085ff
 docker: quay.io/biocontainers/magpurify
 aliases:
   coverm: /usr/local/bin/coverm
@@ -29,7 +33,8 @@ aliases:
   magpurify: /usr/local/bin/magpurify
   parallel-fasta: /usr/local/bin/parallel-fasta
   parallel-fastq: /usr/local/bin/parallel-fastq
-  remove_minimap2_duplicated_headers: /usr/local/bin/remove_minimap2_duplicated_headers
+  remove_minimap2_duplicated_headers: 
+    /usr/local/bin/remove_minimap2_duplicated_headers
   starcode: /usr/local/bin/starcode
   capnp: /usr/local/bin/capnp
   capnpc: /usr/local/bin/capnpc

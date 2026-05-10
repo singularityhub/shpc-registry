@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-covrna
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:2e7ce32be7691683a35242b15f74eab01b0fce54021f393db148d20d55f6e8e1
+  1.36.0--r45hdfd78af_0: 
+    sha256:3526260d44e4f5948d34017cfacf061423144016d0ab85ffce2b8540c89b2d46
 tags:
   1.8.0--r351_0: 
     sha256:94fdd00aeb5d3bba5ff8316f52c8967b2ce1492734b475060b33b3e8fea2c7e5
@@ -24,6 +24,8 @@ tags:
     sha256:61fc88f6a4f9c3392693ad27156a9cb0fd5cff1ed5e54f098bb8fa780776e839
   1.32.0--r44hdfd78af_0: 
     sha256:2e7ce32be7691683a35242b15f74eab01b0fce54021f393db148d20d55f6e8e1
+  1.36.0--r45hdfd78af_0: 
+    sha256:3526260d44e4f5948d34017cfacf061423144016d0ab85ffce2b8540c89b2d46
 docker: quay.io/biocontainers/bioconductor-covrna
 aliases:
   c89: /usr/local/bin/c89

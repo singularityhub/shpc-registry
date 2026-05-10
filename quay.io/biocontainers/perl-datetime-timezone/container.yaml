@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-datetime-timezone
 latest:
-  2.66--pl5321h9948957_0: 
-    sha256:0c327c82602b88bd9a04c265ad198577876dfda7ee9b7f81dc6ab7174f9486eb
+  2.68--pl5321hc52dbad_0: 
+    sha256:c838af7f218d1bbb6d1aa9ba9806c8ec2c3edea76b9e5298d1f6a83af6a3aae7
 tags:
   2.52--pl5321h9f5acd7_1: 
     sha256:44250df4536ca95e75d72ba44ae490fcfe3cda46339bbd80dbac8d237397ee34
@@ -16,6 +16,10 @@ tags:
     sha256:f28868d5336e4f5e4c6bd452a222c8a2db8481ff21be60a4e4ba2eadf51e054c
   2.66--pl5321h9948957_0: 
     sha256:0c327c82602b88bd9a04c265ad198577876dfda7ee9b7f81dc6ab7174f9486eb
+  2.68--pl5321hc52dbad_0: 
+    sha256:c838af7f218d1bbb6d1aa9ba9806c8ec2c3edea76b9e5298d1f6a83af6a3aae7
+  2.67--pl5321hd63eeec_0: 
+    sha256:42c62e81b356a68d9bc47dc7e38f9dcdb2f2a799e872a1c3753dc9bd04c1a9e9
 docker: quay.io/biocontainers/perl-datetime-timezone
 aliases:
   package-stash-conflicts: /usr/local/bin/package-stash-conflicts

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dyndoc
 latest:
-  1.84.0--r44hdfd78af_0: 
-    sha256:ecb39c21def401d080c1cee1d6e2271b7e29e986de9e8d1884aad4cbac4aede2
+  1.88.0--r45hdfd78af_0: 
+    sha256:d50235bb43207e3d44df90c2b4007d75e50d8fadedfd74391ea316535b6cf1b3
 tags:
   1.72.0--r41hdfd78af_0: 
     sha256:f625001edb7fc3f659a6edf8ebc35f5468f45cc9bf14e6a80c9c4df7e0cb9455
@@ -16,4 +16,6 @@ tags:
     sha256:2968759df7679feea33ffb745374801e5d6a1891d57e13330e3eee00a4f4b0be
   1.84.0--r44hdfd78af_0: 
     sha256:ecb39c21def401d080c1cee1d6e2271b7e29e986de9e8d1884aad4cbac4aede2
+  1.88.0--r45hdfd78af_0: 
+    sha256:d50235bb43207e3d44df90c2b4007d75e50d8fadedfd74391ea316535b6cf1b3
 docker: quay.io/biocontainers/bioconductor-dyndoc

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ultraheatmap
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ultraheatmap
 latest:
-  1.3.1--py_1: sha256:cedbdbafd98c62e90b0fe5c865259ccbc9b4f4582318a71303613b675415f83e
+  1.3.1--py_1: 
+    sha256:cedbdbafd98c62e90b0fe5c865259ccbc9b4f4582318a71303613b675415f83e
 tags:
-  1.3.1--py_1: sha256:cedbdbafd98c62e90b0fe5c865259ccbc9b4f4582318a71303613b675415f83e
+  1.3.1--py_1: 
+    sha256:cedbdbafd98c62e90b0fe5c865259ccbc9b4f4582318a71303613b675415f83e
 docker: quay.io/biocontainers/ultraheatmap
 aliases:
   addFeatureToMatrix: /usr/local/bin/addFeatureToMatrix
@@ -40,4 +42,5 @@ aliases:
   venn_gchart.py: /usr/local/bin/venn_gchart.py
   venn_mpl.py: /usr/local/bin/venn_mpl.py
   annotate.py: /usr/local/bin/annotate.py
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete

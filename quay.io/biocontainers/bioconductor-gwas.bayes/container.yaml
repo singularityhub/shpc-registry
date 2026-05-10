@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gwas.bayes
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:4c5e084e02f565ba094d819c7a1705273921d3c45626ba66828204becf4d321e
+  1.20.0--r45hdfd78af_0: 
+    sha256:2583ce9e13a8c3f8dfb5983cad2ec37c8f1472fc98322b284c190ad5832dccd5
 tags:
   1.4.0--r41hc247a5b_2: 
     sha256:1035dbb14b6a300bf5e99cba295f63bdffb60d34c28ef9949abda4eaac5d9618
@@ -18,4 +18,6 @@ tags:
     sha256:4e6cc3c66df4625c640a4e2872ad530b59af326cb3c5636bccf6f1dfebddb079
   1.16.0--r44hdfd78af_0: 
     sha256:4c5e084e02f565ba094d819c7a1705273921d3c45626ba66828204becf4d321e
+  1.20.0--r45hdfd78af_0: 
+    sha256:2583ce9e13a8c3f8dfb5983cad2ec37c8f1472fc98322b284c190ad5832dccd5
 docker: quay.io/biocontainers/bioconductor-gwas.bayes

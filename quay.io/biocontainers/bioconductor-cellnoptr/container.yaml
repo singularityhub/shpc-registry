@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cellnoptr
 latest:
-  1.52.0--r44h3df3fcb_1: 
-    sha256:8694371efd878d69b4abdbe3e996499e6adf6513a60206f120dd3c1d54b79352
+  1.56.0--r45h01b2380_0: 
+    sha256:8a54eac67334c02514f03f6b7382d44a55309e312e72eca0e7359e640bde110d
 tags:
   1.40.0--r41hc0cfd56_2: 
     sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930
@@ -20,6 +20,8 @@ tags:
     sha256:6ece4cbff8b50668a64106710c6c2355b63c670ed45f2eda5544eab40fcac50f
   1.52.0--r44h3df3fcb_1: 
     sha256:8694371efd878d69b4abdbe3e996499e6adf6513a60206f120dd3c1d54b79352
+  1.56.0--r45h01b2380_0: 
+    sha256:8a54eac67334c02514f03f6b7382d44a55309e312e72eca0e7359e640bde110d
 docker: quay.io/biocontainers/bioconductor-cellnoptr
 aliases:
   diffimg: /usr/local/bin/diffimg

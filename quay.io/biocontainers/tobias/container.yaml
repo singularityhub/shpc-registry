@@ -35,6 +35,8 @@ tags:
     sha256:a487bdac0f904fae5a20dc0509c58f2e1fe5ef5e89b3ac4f64b0b1fb6aa72dd6
   0.17.3--py39hff726c5_1: 
     sha256:485aafb1edfb38aea3f6e19eea6e094bd76f42a5492c83a1f2eba7518d08402b
+  0.11.0--py37hc1659b7_0: 
+    sha256:7566865ecdc20223228722aae1554261d61ec8685f24a7e92f88611c7187e972
 docker: quay.io/biocontainers/tobias
 aliases:
   TOBIAS: /usr/local/bin/TOBIAS

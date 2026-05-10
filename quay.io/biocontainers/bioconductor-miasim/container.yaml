@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-miasim
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:0157bf9e895619817d977c77ce7d3a984303c769432ef96a767bccee1e404373
+  1.16.0--r45hdfd78af_0: 
+    sha256:a82f02574ae52f4ae7e7b2d12c4980bdfec821fd706846501c157c179f1dac9b
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:81851e2e601e89d43957d634afb11774eb000940c19099e91d9a8bb6908004d3
@@ -16,4 +16,6 @@ tags:
     sha256:e270f4e353106542743c0b9eb91578e9d446902a4c059194d3337022b5755d56
   1.12.0--r44hdfd78af_0: 
     sha256:0157bf9e895619817d977c77ce7d3a984303c769432ef96a767bccee1e404373
+  1.16.0--r45hdfd78af_0: 
+    sha256:a82f02574ae52f4ae7e7b2d12c4980bdfec821fd706846501c157c179f1dac9b
 docker: quay.io/biocontainers/bioconductor-miasim

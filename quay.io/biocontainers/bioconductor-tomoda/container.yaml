@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tomoda
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:a02c23768844d69580dbeb708e5d35562641a73221b2e264ae65fb0d8413fb79
+  1.20.0--r45hdfd78af_0: 
+    sha256:49d4260dcc74acf7660e0493cce86bbdc0e07355b4375477f05541781abdb93c
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:7c2e38c08d77b595b190f68cc0f81c8cd6160c27679767bab628a84f4f04daf2
@@ -16,4 +16,6 @@ tags:
     sha256:476d40620d700a2fe795241582f9fff973fc6a6961d5810055f938c685d549aa
   1.16.0--r44hdfd78af_0: 
     sha256:a02c23768844d69580dbeb708e5d35562641a73221b2e264ae65fb0d8413fb79
+  1.20.0--r45hdfd78af_0: 
+    sha256:49d4260dcc74acf7660e0493cce86bbdc0e07355b4375477f05541781abdb93c
 docker: quay.io/biocontainers/bioconductor-tomoda

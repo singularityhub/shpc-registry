@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/eskrim
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eskrim
 latest:
-  1.0.9--pyhdfd78af_0: sha256:ce27531d095c691a704be54231a8f44267d5db04e6d314f1a1ccc5eaec37b7ca
+  1.0.9--pyhdfd78af_1: 
+    sha256:cc8a5dd3c5e429063218bdf00054481e1c833f21eac209c560ab975a7d50fe2f
 tags:
-  1.0.9--pyhdfd78af_0: sha256:ce27531d095c691a704be54231a8f44267d5db04e6d314f1a1ccc5eaec37b7ca
+  1.0.9--pyhdfd78af_0: 
+    sha256:ce27531d095c691a704be54231a8f44267d5db04e6d314f1a1ccc5eaec37b7ca
+  1.0.9--pyhdfd78af_1: 
+    sha256:cc8a5dd3c5e429063218bdf00054481e1c833f21eac209c560ab975a7d50fe2f
 docker: quay.io/biocontainers/eskrim
 aliases:
   eskrim: /usr/local/bin/eskrim

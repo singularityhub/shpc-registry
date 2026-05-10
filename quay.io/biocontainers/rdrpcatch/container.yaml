@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rdrpcatch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rdrpcatch
 latest:
-  0.0.9--pyhdfd78af_0: 
-    sha256:97701c92632628a028fab50a7a7c83303d7bbcabc26794937fdb9a5a56dfe0d6
+  1.0.1.post1--pyhdfd78af_0: 
+    sha256:342d89356f1bc29a67bff6fe500de8b7c74c2532e8e5a3483cab88981fa5e7a0
 tags:
   0.0.3--pyhdfd78af_0: 
     sha256:df47e4f43ca9f1ee81e10633ac0bb18eab76d8c60af947023f9bd81a5d88ee93
@@ -17,6 +17,8 @@ tags:
     sha256:8e9fcf7aa559b728800529cb5d201d89a5156c9babc475c20123bea800d13ab8
   0.0.9--pyhdfd78af_0: 
     sha256:97701c92632628a028fab50a7a7c83303d7bbcabc26794937fdb9a5a56dfe0d6
+  1.0.1.post1--pyhdfd78af_0: 
+    sha256:342d89356f1bc29a67bff6fe500de8b7c74c2532e8e5a3483cab88981fa5e7a0
 docker: quay.io/biocontainers/rdrpcatch
 aliases:
   gawk-5.3.1: /usr/local/bin/gawk-5.3.1

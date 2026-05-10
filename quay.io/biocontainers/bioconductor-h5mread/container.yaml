@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-h5mread
 latest:
-  1.2.1--r45h01b2380_0: 
-    sha256:3e2a77bb7161051565d698097a76b15265cd885bdb8f448511b1d7b68dff9405
+  1.2.1--r45h01b2380_1: 
+    sha256:d8673ecf1fa58074b7d41945f57c649e06dfc1bdc3c8d0b414f0b6672c912983
 tags:
   1.2.1--r45h01b2380_0: 
     sha256:3e2a77bb7161051565d698097a76b15265cd885bdb8f448511b1d7b68dff9405
+  1.2.1--r45h01b2380_1: 
+    sha256:d8673ecf1fa58074b7d41945f57c649e06dfc1bdc3c8d0b414f0b6672c912983
 docker: quay.io/biocontainers/bioconductor-h5mread
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

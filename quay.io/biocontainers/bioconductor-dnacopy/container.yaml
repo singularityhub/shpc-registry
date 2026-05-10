@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dnacopy
 latest:
-  1.80.0--r44h4d5c4aa_1: 
-    sha256:d9164ee96273a2a625fe3f22cd1fa811806c81ba7c7df2a9182cb86f19c1fa62
+  1.84.0--r45h63f16b7_0: 
+    sha256:2a624181adf2dbb10e8d51d70b1914806de8f5da294a6c1e84425bd30e46c709
 tags:
   1.68.0--r41hefde4a7_2: 
     sha256:47435e845138630fbb7cc910441f609744ac2499c17a950e9202c4bc13a8cda7
@@ -22,4 +22,6 @@ tags:
     sha256:c3340d4572b060fe486dd07bcb19ec490b21fa023bd3df0107f1eea0aec21184
   1.80.0--r44h4d5c4aa_1: 
     sha256:d9164ee96273a2a625fe3f22cd1fa811806c81ba7c7df2a9182cb86f19c1fa62
+  1.84.0--r45h63f16b7_0: 
+    sha256:2a624181adf2dbb10e8d51d70b1914806de8f5da294a6c1e84425bd30e46c709
 docker: quay.io/biocontainers/bioconductor-dnacopy

@@ -2,9 +2,15 @@ url: https://biocontainers.pro/tools/vcfdist
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcfdist
 latest:
-  2.4.0--h84372a0_0: sha256:a4391dab9ffad1563f6a5f12924d1939e2d4aea7399c2a626ca4e36e19231e1b
+  2.6.4--h436c8a6_0: 
+    sha256:a7d683cae48f2823bbb622ec381df2f8c0a72e3d4e9f700816897dd0eeb947f1
 tags:
-  2.4.0--h84372a0_0: sha256:a4391dab9ffad1563f6a5f12924d1939e2d4aea7399c2a626ca4e36e19231e1b
+  2.4.0--h84372a0_0: 
+    sha256:a4391dab9ffad1563f6a5f12924d1939e2d4aea7399c2a626ca4e36e19231e1b
+  2.6.4--h436c8a6_0: 
+    sha256:a7d683cae48f2823bbb622ec381df2f8c0a72e3d4e9f700816897dd0eeb947f1
+  2.5.3--h84372a0_0: 
+    sha256:19965227e74dc5e637c4e2519244254c639ebc14c87c18edabcd09635d32e4bb
 docker: quay.io/biocontainers/vcfdist
 aliases:
   vcfdist: /usr/local/bin/vcfdist

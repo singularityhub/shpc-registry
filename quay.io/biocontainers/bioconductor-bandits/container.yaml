@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-bandits
 latest:
-  1.22.0--r44he5774e6_0: 
-    sha256:d85d076a6602196b1e9e0c0f142e3d475f9e7ee509d1feaaa9f67ff68e60f700
+  1.26.0--r45ha27e39d_0: 
+    sha256:896b36b26a00c680ff7de88db99c0b4733e8a9697c50dafc7b4ac99785056b77
 tags:
   1.8.0--r41h399db7b_0: 
     sha256:34c0fd2019ecd5f3af5929805e1cec339df944ef25359402c0f60e888b54d529
@@ -20,6 +20,8 @@ tags:
     sha256:6751d442ceeaeede14b8ea0364cc9794f729cfe37e59cb9965f8a7d60ac3141a
   1.22.0--r44he5774e6_0: 
     sha256:d85d076a6602196b1e9e0c0f142e3d475f9e7ee509d1feaaa9f67ff68e60f700
+  1.26.0--r45ha27e39d_0: 
+    sha256:896b36b26a00c680ff7de88db99c0b4733e8a9697c50dafc7b4ac99785056b77
 docker: quay.io/biocontainers/bioconductor-bandits
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

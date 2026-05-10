@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-vanillaice
 latest:
-  1.68.0--r44h3df3fcb_0: 
-    sha256:1963e4849f85a06f11e18758cd1711e555e487923b42fe55e7903b93526be3e6
+  1.72.0--r45h01b2380_0: 
+    sha256:743edd77d2bd4e84052f66807b086a2e3c9e1be11e3027df427c10b47f56e41e
 tags:
   1.56.3--r41hc0cfd56_1: 
     sha256:716427b3995a872dbde820fca58432860828fc22340cf310bf034909a2b0f9cf
@@ -16,4 +16,6 @@ tags:
     sha256:95c29dbd00355a71b23f002b26ce86c0deab68d776e99a1acd3e5716202de7a6
   1.68.0--r44h3df3fcb_0: 
     sha256:1963e4849f85a06f11e18758cd1711e555e487923b42fe55e7903b93526be3e6
+  1.72.0--r45h01b2380_0: 
+    sha256:743edd77d2bd4e84052f66807b086a2e3c9e1be11e3027df427c10b47f56e41e
 docker: quay.io/biocontainers/bioconductor-vanillaice

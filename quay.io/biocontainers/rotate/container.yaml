@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/rotate
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rotate
 latest:
-  1.0--he4a0461_0: sha256:40754380b67cddb23e20342f5bc1428249c2e94f80bf1ffe83960f442f6290e0
+  1.0--h577a1d6_1: 
+    sha256:78a69f7be55d2b148a802968face4cb99f6d5832d51b1edffddb385a7cac7e87
 tags:
-  1.0--he4a0461_0: sha256:40754380b67cddb23e20342f5bc1428249c2e94f80bf1ffe83960f442f6290e0
+  1.0--he4a0461_0: 
+    sha256:40754380b67cddb23e20342f5bc1428249c2e94f80bf1ffe83960f442f6290e0
+  1.0--h577a1d6_1: 
+    sha256:78a69f7be55d2b148a802968face4cb99f6d5832d51b1edffddb385a7cac7e87
 docker: quay.io/biocontainers/rotate
 aliases:
   composition: /usr/local/bin/composition

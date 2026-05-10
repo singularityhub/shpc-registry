@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-switchbox
 latest:
-  1.42.0--r44he5774e6_1: 
-    sha256:79311a7a53d380c3792e3287e6c5e7f5fd28d2dd9dfd2aca542f07810185c274
+  1.46.0--r45ha27e39d_0: 
+    sha256:8edc70582030efb8604f2caa94bd6ea3d2385dc20b89eb13ab2addbf3fde9b87
 tags:
   1.30.0--r41hc247a5b_2: 
     sha256:bff3c65132d0a4d7014e7d8da24866ff8805b2a7f9333483a83e99b1b10c9397
@@ -20,4 +20,6 @@ tags:
     sha256:e1f3a50f0a1ff1ec2c428b9e6fea8309c0da26912c4df8689011df3db51f629c
   1.42.0--r44he5774e6_1: 
     sha256:79311a7a53d380c3792e3287e6c5e7f5fd28d2dd9dfd2aca542f07810185c274
+  1.46.0--r45ha27e39d_0: 
+    sha256:8edc70582030efb8604f2caa94bd6ea3d2385dc20b89eb13ab2addbf3fde9b87
 docker: quay.io/biocontainers/bioconductor-switchbox

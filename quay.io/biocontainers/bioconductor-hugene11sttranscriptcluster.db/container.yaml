@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hugene11sttranscriptcluster.db
 latest:
-  8.8.0--r44hdfd78af_5: 
-    sha256:1339d207efd34416e08c004e09bb62e5d97c0f149c133266c59d54bae6d058c4
+  8.8.0--r45hdfd78af_6: 
+    sha256:a985f596e51d948381a62aa1a1a8696bcfc4fee57a568a4ce9623b6a03f7ab02
 tags:
   8.8.0--r41hdfd78af_1: 
     sha256:039b5abeff2bf89081a1d446f4f4c44eb442c695f27948e94f472ee0a8b9b317
@@ -16,4 +16,6 @@ tags:
     sha256:c79914fb16056babb961ea38bf22205765e184d2a5729bc6a40682d842f51e96
   8.8.0--r44hdfd78af_5: 
     sha256:1339d207efd34416e08c004e09bb62e5d97c0f149c133266c59d54bae6d058c4
+  8.8.0--r45hdfd78af_6: 
+    sha256:a985f596e51d948381a62aa1a1a8696bcfc4fee57a568a4ce9623b6a03f7ab02
 docker: quay.io/biocontainers/bioconductor-hugene11sttranscriptcluster.db

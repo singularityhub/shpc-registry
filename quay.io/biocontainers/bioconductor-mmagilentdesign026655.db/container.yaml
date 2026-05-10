@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mmagilentdesign026655.db
 latest:
-  3.2.3--r44hdfd78af_13: 
-    sha256:ade14d90e9eb1dc26e0ab8cbf3a1848c857029d8dd947276f01879eb5c272316
+  3.2.3--r45hdfd78af_14: 
+    sha256:916da720bd03df957fc0b9f1f054376368c0fe680010c610f122015057517844
 tags:
   3.2.3--r41hdfd78af_9: 
     sha256:0fb8fcca754866dd13b12867589a0ef5c1a915083d97e9480e43b83d302cee25
@@ -16,4 +16,6 @@ tags:
     sha256:fd6eefebe61540d796bbb25a7b2cbaf06d021f981a8d1e61c7ba96221eeb0a11
   3.2.3--r44hdfd78af_13: 
     sha256:ade14d90e9eb1dc26e0ab8cbf3a1848c857029d8dd947276f01879eb5c272316
+  3.2.3--r45hdfd78af_14: 
+    sha256:916da720bd03df957fc0b9f1f054376368c0fe680010c610f122015057517844
 docker: quay.io/biocontainers/bioconductor-mmagilentdesign026655.db

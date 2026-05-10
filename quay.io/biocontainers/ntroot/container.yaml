@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ntroot
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ntroot
 latest:
-  1.1.6--py313pl5321hdfd78af_0: 
-    sha256:6b2dee29b7d99866c2fc4d303b77be824e75334ecc5ded511aa511d62593a5c8
+  1.2.1--pl5321hdfd78af_0: 
+    sha256:f12dc94bd37820ffeace596b47106536b280c64681b29bada359827907875e97
 tags:
   1.0.0--py39h68928f9_0: 
     sha256:6a250462b90aeeb2b93986f1cc88806e4916bd4ec0c22d6cb14657d1df82416f
@@ -21,6 +21,10 @@ tags:
     sha256:6206a427040453d5c2a9acec8cbcc64a43ab1922de7f9aa56b432f4414ae5de9
   1.1.6--py313pl5321hdfd78af_0: 
     sha256:6b2dee29b7d99866c2fc4d303b77be824e75334ecc5ded511aa511d62593a5c8
+  1.2.1--pl5321hdfd78af_0: 
+    sha256:f12dc94bd37820ffeace596b47106536b280c64681b29bada359827907875e97
+  1.1.6--py312pl5321hdfd78af_1: 
+    sha256:eca9e162d8c7c47d82ae7260f3cc05602cc5fe99e654d073be4c40e444e1ea6e
 docker: quay.io/biocontainers/ntroot
 aliases:
   eido: /usr/local/bin/eido

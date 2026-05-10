@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/staphscope
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for staphscope
 latest:
-  1.1.0--pyhdfd78af_0: 
-    sha256:478e59d485961b85412a719d566145242b319cf5f9f33691e882dddd3d94bae5
+  1.2.1--pyhdfd78af_1: 
+    sha256:18ca41104141779249388c1c4b156432d97aee598075f7be4975babea141588f
 tags:
   1.1.0--pyhdfd78af_0: 
     sha256:478e59d485961b85412a719d566145242b319cf5f9f33691e882dddd3d94bae5
+  1.2.1--pyhdfd78af_1: 
+    sha256:18ca41104141779249388c1c4b156432d97aee598075f7be4975babea141588f
 docker: quay.io/biocontainers/staphscope
 aliases:
   TMscore: /usr/local/bin/TMscore

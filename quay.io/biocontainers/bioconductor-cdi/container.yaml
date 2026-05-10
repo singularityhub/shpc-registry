@@ -2,9 +2,15 @@ url: https://biocontainers.pro/tools/bioconductor-cdi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-cdi
 latest:
-  1.0.2--r43hdfd78af_0: sha256:b66a5f55ebd8e8934844c292c581470243ec5be2abc6f186c665671652c7571a
+  1.8.0--r45hdfd78af_0: 
+    sha256:9baca598664a5b2a908c85b2166957c768fa7129dd5bbc687d398f087a07fbbc
 tags:
-  1.0.2--r43hdfd78af_0: sha256:b66a5f55ebd8e8934844c292c581470243ec5be2abc6f186c665671652c7571a
+  1.0.2--r43hdfd78af_0: 
+    sha256:b66a5f55ebd8e8934844c292c581470243ec5be2abc6f186c665671652c7571a
+  1.8.0--r45hdfd78af_0: 
+    sha256:9baca598664a5b2a908c85b2166957c768fa7129dd5bbc687d398f087a07fbbc
+  1.4.0--r44hdfd78af_0: 
+    sha256:0d42038068775607f6ec4cbb32e7ec4536bc2d4b6ea9eb6734658a53d9a03de5
 docker: quay.io/biocontainers/bioconductor-cdi
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test
@@ -22,7 +28,9 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   pandoc: /usr/local/bin/pandoc

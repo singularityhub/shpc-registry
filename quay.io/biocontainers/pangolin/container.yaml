@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pangolin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pangolin
 latest:
-  4.3.4--pyhdfd78af_0: 
-    sha256:18dbe53470a3423a2d53dab6314ebfb893f5413a7be7d4416d58997b72a3b375
+  4.4--pyhdfd78af_1: 
+    sha256:409ee2c0f9c5d38fc407435a1a7ce487187deca17bf3fba91e1f9ea1f0810df7
 tags:
   4.0.3--pyhdfd78af_0: 
     sha256:c997d652643071694f8392c0a787a4b24a1bc3c5125b606f123a931f24ac833c
@@ -19,6 +19,10 @@ tags:
     sha256:31250a062125bdd9a09e638e25d918da9d7caabbac3722dde51d803fc9d05001
   4.3.4--pyhdfd78af_0: 
     sha256:18dbe53470a3423a2d53dab6314ebfb893f5413a7be7d4416d58997b72a3b375
+  4.4--pyhdfd78af_1: 
+    sha256:409ee2c0f9c5d38fc407435a1a7ce487187deca17bf3fba91e1f9ea1f0810df7
+  4.3.4--pyhdfd78af_1: 
+    sha256:2e16efd8671278e5b0824dcb3186320b8f7cc2d3a96d200c3a2f1cbb3a7e029b
 docker: quay.io/biocontainers/pangolin
 aliases:
   constellations: /usr/local/bin/constellations

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/mogaaap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mogaaap
 latest:
-  1.1.0--pyhdfd78af_0: 
-    sha256:177334722df59176a92fda9b91ed422acec3b9689a83b4222bf1de92491a46a0
+  1.2.1--pyhdfd78af_0: 
+    sha256:f604814a9322bde31aa20efed272dbd2834c4f28b5b475f9021630ab9850b3cd
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:e164e38e909d35481c5f6efa733eb022bcc8a7babcf91c5dd93ad6febe0668fa
   1.1.0--pyhdfd78af_0: 
     sha256:177334722df59176a92fda9b91ed422acec3b9689a83b4222bf1de92491a46a0
+  1.2.1--pyhdfd78af_0: 
+    sha256:f604814a9322bde31aa20efed272dbd2834c4f28b5b475f9021630ab9850b3cd
 docker: quay.io/biocontainers/mogaaap
 aliases:
   MoGAAAP: /usr/local/bin/MoGAAAP

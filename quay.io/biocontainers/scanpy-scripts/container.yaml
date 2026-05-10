@@ -2,9 +2,15 @@ url: https://biocontainers.pro/tools/scanpy-scripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for scanpy-scripts
 latest:
-  1.1.2--pypyhdfd78af_1: sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085
+  1.9.301--pyhdfd78af_0: 
+    sha256:0d77ec8d4d92ac625e46bd980a1cc6c0555a47ededa6c2a47109519c471b1e8b
 tags:
-  1.1.2--pypyhdfd78af_1: sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085
+  1.1.2--pypyhdfd78af_1: 
+    sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085
+  1.9.301--pyhdfd78af_0: 
+    sha256:0d77ec8d4d92ac625e46bd980a1cc6c0555a47ededa6c2a47109519c471b1e8b
+  1.1.6--pypyhdfd78af_0: 
+    sha256:22cac5db87e70c0761aaee9e0649f83d57765064dc026dcbcb857c276ea8994e
 docker: quay.io/biocontainers/scanpy-scripts
 aliases:
   dunamai: /usr/local/bin/dunamai

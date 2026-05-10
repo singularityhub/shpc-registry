@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/priorcons
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for priorcons
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:e9e72ca2b8121f6eb631ca9ef37f50053e0588f482ab90f7606d338ffa2b2270
+  0.1.4--pyhdfd78af_0: 
+    sha256:4627493344d1d20b93ac9ead2f448d8aefbc484b677aefb538dee13095628a49
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:e9e72ca2b8121f6eb631ca9ef37f50053e0588f482ab90f7606d338ffa2b2270
+  0.1.4--pyhdfd78af_0: 
+    sha256:4627493344d1d20b93ac9ead2f448d8aefbc484b677aefb538dee13095628a49
 docker: quay.io/biocontainers/priorcons
 aliases:
   priorcons: /usr/local/bin/priorcons

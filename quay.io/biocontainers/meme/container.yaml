@@ -31,4 +31,6 @@ tags:
     sha256:cf25bbc72dbf4eec9e663dec12ab2314e42f4d05c6d2fa6738c6292a3f6470e2
   5.5.9--pl5321h1ca524f_0: 
     sha256:b75247dfaab1707dcdff6075a331b122affe9c5eaa1f82e5ed4a701fc75486ca
+  5.4.1--py27pl5262h3657f31_0: 
+    sha256:946611af01e10f1542f9303aa5ca5e137c26aedd678789dba96b958ba8bfd0d5
 docker: quay.io/biocontainers/meme

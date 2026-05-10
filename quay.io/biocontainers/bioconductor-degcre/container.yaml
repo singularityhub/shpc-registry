@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-degcre
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-degcre
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:8b0edd80247c83f84ddb676930832a4d898525ed4a0d1c9e6fb4963c928800bd
+  1.6.0--r45hdfd78af_0: 
+    sha256:07a5aba43df2ffe1a6d5f3014ced1baa7c8d4702b637e120c5f3087f5501f596
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:8b0edd80247c83f84ddb676930832a4d898525ed4a0d1c9e6fb4963c928800bd
+  1.6.0--r45hdfd78af_0: 
+    sha256:07a5aba43df2ffe1a6d5f3014ced1baa7c8d4702b637e120c5f3087f5501f596
 docker: quay.io/biocontainers/bioconductor-degcre
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-safe
 latest:
-  3.46.0--r44hdfd78af_0: 
-    sha256:8c9544420481670e4bddec5a5f27b2ef85f882b35396dffe3969294b7e70d4f8
+  3.50.0--r45hdfd78af_0: 
+    sha256:879d1627b5cf1d2e41158d13dd688232a7bd4cc23bfbb752132e204c7e9de1cd
 tags:
   3.34.0--r41hdfd78af_0: 
     sha256:209ffffbeb9ec009267fa37fa3a8f2dd32f351eb66e6812c7d349398c9ad3123
@@ -16,4 +16,6 @@ tags:
     sha256:b7217a9ca5b117134180a3d6beb6a729d7f2628a719e470f439385ff6593f2ca
   3.46.0--r44hdfd78af_0: 
     sha256:8c9544420481670e4bddec5a5f27b2ef85f882b35396dffe3969294b7e70d4f8
+  3.50.0--r45hdfd78af_0: 
+    sha256:879d1627b5cf1d2e41158d13dd688232a7bd4cc23bfbb752132e204c7e9de1cd
 docker: quay.io/biocontainers/bioconductor-safe

@@ -4,10 +4,10 @@ description: singularity registry hpc automated addition for
   bioconductor-ggtreespace
 latest:
   1.6.0--r45h84498cf_0: 
-    sha256:ef129dd15ce572062108fb0c0ad58c6920269900e8dc1090e0be36fdfdc4b56e
+    sha256:1b43fdd4cc5cc7a555fdeb772b40efcd54c1c5575d55db16c641866982c1c68b
 tags:
   1.6.0--r45h84498cf_0: 
-    sha256:ef129dd15ce572062108fb0c0ad58c6920269900e8dc1090e0be36fdfdc4b56e
+    sha256:1b43fdd4cc5cc7a555fdeb772b40efcd54c1c5575d55db16c641866982c1c68b
 docker: quay.io/biocontainers/bioconductor-ggtreespace
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

@@ -95,6 +95,8 @@ tags:
     sha256:4a745f8fdbab7aaf83bbfde49f7ae84aac79e3ad47884fede41ac3641eba803b
   2.6.1--pyhdfd78af_1: 
     sha256:befbf83e44e038d743fc214366d997cb3603f32249bff9c3c26d3041362f967f
+  1.8.1--py311h2a4ad6c_0: 
+    sha256:65a8207c08d69c9c27bcfc103a8b1c794c64fa6406f1e8d358e504981599bc40
 docker: quay.io/biocontainers/harpy
 aliases:
   HAPCUT2: /usr/local/bin/HAPCUT2

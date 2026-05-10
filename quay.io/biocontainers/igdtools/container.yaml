@@ -7,6 +7,8 @@ latest:
 tags:
   2.6--py310h275bdba_0: 
     sha256:37ee10a1fb2f841fb6334d4da3b22dffc41fef28b11e7a92b2c969b318fd6963
+  2.6--py312h5e9d817_0: 
+    sha256:61075183f77dca7dcc2a755c2ee5ee7e29f3c04932e00d9db8e5b009558dbcfb
 docker: quay.io/biocontainers/igdtools
 aliases:
   igdtools: /usr/local/bin/igdtools

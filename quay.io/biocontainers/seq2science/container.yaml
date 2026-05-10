@@ -2,20 +2,35 @@ url: https://biocontainers.pro/tools/seq2science
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seq2science
 latest:
-  1.2.1--pyhdfd78af_0: sha256:d995dda9e9f36e31ffa1f78ac60ab52e842130526b5b8e562f9028c68369c190
+  1.2.5--pyhdfd78af_0: 
+    sha256:6fe4f338b57dc40caf9893a71cac2e5a58e369452069926ffab2792cfa454f1a
 tags:
-  0.9.5--pypyhdfd78af_0: sha256:1ec1ffbef1631388f8e4981042356e2e04b9e40fa08407ec0040c6d8bda6f495
-  0.9.6--pyhdfd78af_0: sha256:f0865b8e1d01085a27d47effa050e396d28e0c722616454f80454576f0ba193a
-  0.9.7--pyhdfd78af_0: sha256:3095d5e48e8d819772840561fab444aa350ed3a00387e9ececd56f9f8bc68726
-  0.9.8--pyhdfd78af_0: sha256:f6200fcac2718371753ba360d1eb3eeb1622059dd3273d64c8a702482ac64992
-  0.9.9--pyhdfd78af_0: sha256:0d198e10accbe41a9dcf4adda4880b699c4e5c25ac818962a0cd36b4cc360ff4
-  1.0.0--pyhdfd78af_0: sha256:317f5ba2c79bd037d8ab972e67ce7b2642e8e6092bb987cbb13710a97b6cedcf
-  1.0.0--pyhdfd78af_1: sha256:526c44d278ce49d3c898c335c5391bb42ccc100e6fe3cf6790f00fea6fcd6c07
-  1.0.3--pyhdfd78af_0: sha256:69a6907d2e5b6b116af657f55dde2bf3239284502362a611a576c372de26d404
-  1.0.4--pyhdfd78af_0: sha256:77a4e12322361aee224a0c9ef16783b97645957d46f032fc3ba493679fe55bd8
-  1.2.0--pyhdfd78af_0: sha256:f3b428cb8368e1a8f5690db527258a821f693a3e53fc5ae590ad98b7d1a0133d
-  1.1.0--pyhdfd78af_0: sha256:9d829e55dd15304230a39bba9c2944c6eb706d8e2eedb7de7485c96d5a64ec0b
-  1.2.1--pyhdfd78af_0: sha256:d995dda9e9f36e31ffa1f78ac60ab52e842130526b5b8e562f9028c68369c190
+  0.9.5--pypyhdfd78af_0: 
+    sha256:1ec1ffbef1631388f8e4981042356e2e04b9e40fa08407ec0040c6d8bda6f495
+  0.9.6--pyhdfd78af_0: 
+    sha256:f0865b8e1d01085a27d47effa050e396d28e0c722616454f80454576f0ba193a
+  0.9.7--pyhdfd78af_0: 
+    sha256:3095d5e48e8d819772840561fab444aa350ed3a00387e9ececd56f9f8bc68726
+  0.9.8--pyhdfd78af_0: 
+    sha256:f6200fcac2718371753ba360d1eb3eeb1622059dd3273d64c8a702482ac64992
+  0.9.9--pyhdfd78af_0: 
+    sha256:0d198e10accbe41a9dcf4adda4880b699c4e5c25ac818962a0cd36b4cc360ff4
+  1.0.0--pyhdfd78af_0: 
+    sha256:317f5ba2c79bd037d8ab972e67ce7b2642e8e6092bb987cbb13710a97b6cedcf
+  1.0.0--pyhdfd78af_1: 
+    sha256:526c44d278ce49d3c898c335c5391bb42ccc100e6fe3cf6790f00fea6fcd6c07
+  1.0.3--pyhdfd78af_0: 
+    sha256:69a6907d2e5b6b116af657f55dde2bf3239284502362a611a576c372de26d404
+  1.0.4--pyhdfd78af_0: 
+    sha256:77a4e12322361aee224a0c9ef16783b97645957d46f032fc3ba493679fe55bd8
+  1.2.0--pyhdfd78af_0: 
+    sha256:f3b428cb8368e1a8f5690db527258a821f693a3e53fc5ae590ad98b7d1a0133d
+  1.1.0--pyhdfd78af_0: 
+    sha256:9d829e55dd15304230a39bba9c2944c6eb706d8e2eedb7de7485c96d5a64ec0b
+  1.2.1--pyhdfd78af_0: 
+    sha256:d995dda9e9f36e31ffa1f78ac60ab52e842130526b5b8e562f9028c68369c190
+  1.2.5--pyhdfd78af_0: 
+    sha256:6fe4f338b57dc40caf9893a71cac2e5a58e369452069926ffab2792cfa454f1a
 docker: quay.io/biocontainers/seq2science
 aliases:
   bedToGenePred: /usr/local/bin/bedToGenePred
@@ -47,4 +62,5 @@ aliases:
   xml2-config.bak: /usr/local/bin/xml2-config.bak
   nosetests: /usr/local/bin/nosetests
   pulptest: /usr/local/bin/pulptest
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete

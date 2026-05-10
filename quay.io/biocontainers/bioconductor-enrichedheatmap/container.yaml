@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-enrichedheatmap
 latest:
-  1.36.0--r44he5774e6_0: 
-    sha256:382b278130d405be8068d63434f3b037e3c6528f1fbcd0c9b0aa3cabe708f6f8
+  1.40.1--r45ha27e39d_0: 
+    sha256:bc4d56034ce871f352e6a0097b14d47889206b1e809555496332ba39259c5ed9
 tags:
   1.24.0--r41hc247a5b_2: 
     sha256:60171a93bee57a9c114ea1523e46b5de3d61500b24d5c94f7fb16a38e54078e9
@@ -18,4 +18,6 @@ tags:
     sha256:5e32e11069bde8c523bdcfc9a6db6006e0358abadaeab0c6f55b8de997f154de
   1.36.0--r44he5774e6_0: 
     sha256:382b278130d405be8068d63434f3b037e3c6528f1fbcd0c9b0aa3cabe708f6f8
+  1.40.1--r45ha27e39d_0: 
+    sha256:bc4d56034ce871f352e6a0097b14d47889206b1e809555496332ba39259c5ed9
 docker: quay.io/biocontainers/bioconductor-enrichedheatmap

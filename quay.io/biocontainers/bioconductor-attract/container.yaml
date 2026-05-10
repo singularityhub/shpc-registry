@@ -1,10 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-attract
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-attract
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-attract
 latest:
-  1.52.0--r43hdfd78af_0: sha256:acacf539a36c0ad8485a5410fdb888e3d3cf42c2474e7955d9e8c47c94d7a192
+  1.62.0--r45hdfd78af_0: 
+    sha256:d3e3e6081847bbbdc034455debeb861559258d34b3e8101d5eb101c94f3485a0
 tags:
-  1.46.0--r41hdfd78af_0: sha256:c13b1d6a4fc14094ba2a0f0361bbc9e67760830abf9054ed59a3a51d66b89234
-  1.50.0--r42hdfd78af_0: sha256:18229fde062f3b4cc7f1e4fbb7cb1fa44377bf5cb32711c2ed5e55f0a33ec1d4
-  1.52.0--r43hdfd78af_0: sha256:acacf539a36c0ad8485a5410fdb888e3d3cf42c2474e7955d9e8c47c94d7a192
+  1.46.0--r41hdfd78af_0: 
+    sha256:c13b1d6a4fc14094ba2a0f0361bbc9e67760830abf9054ed59a3a51d66b89234
+  1.50.0--r42hdfd78af_0: 
+    sha256:18229fde062f3b4cc7f1e4fbb7cb1fa44377bf5cb32711c2ed5e55f0a33ec1d4
+  1.52.0--r43hdfd78af_0: 
+    sha256:acacf539a36c0ad8485a5410fdb888e3d3cf42c2474e7955d9e8c47c94d7a192
+  1.62.0--r45hdfd78af_0: 
+    sha256:d3e3e6081847bbbdc034455debeb861559258d34b3e8101d5eb101c94f3485a0
+  1.58.0--r44hdfd78af_0: 
+    sha256:627c470dc7e636374411bb3bb8e8b9009b053a5d24c96e04d9aec292cc05f997
+  1.54.0--r43hdfd78af_0: 
+    sha256:3e24d4363814144d75ad34fcca0091faeb0a607228a5385ca78296099006f6f3
 docker: quay.io/biocontainers/bioconductor-attract

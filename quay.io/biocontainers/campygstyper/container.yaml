@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/campygstyper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for campygstyper
 latest:
-  0.1.1--pyhdfd78af_0: sha256:1242b5120b472030e3cb8556da55a200ccdefa5db62dd81e59d032411136c324
+  0.1.1--pyhdfd78af_0: 
+    sha256:1242b5120b472030e3cb8556da55a200ccdefa5db62dd81e59d032411136c324
 tags:
-  0.1.1--pyhdfd78af_0: sha256:1242b5120b472030e3cb8556da55a200ccdefa5db62dd81e59d032411136c324
+  0.1.1--pyhdfd78af_0: 
+    sha256:1242b5120b472030e3cb8556da55a200ccdefa5db62dd81e59d032411136c324
 docker: quay.io/biocontainers/campygstyper
 aliases:
   campygstyper: /usr/local/bin/campygstyper

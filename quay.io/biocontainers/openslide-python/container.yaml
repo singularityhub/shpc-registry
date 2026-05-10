@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/openslide-python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for openslide-python
 latest:
-  1.1.1--py36h470a237_0: sha256:8e07e05e15b3d41e524af0a43121a98523c351b27c822e20dcfc106301f397a3
+  1.1.1--py36h470a237_0: 
+    sha256:c92a2329c739ed6768cd84e5c6b9fd4d3ca7d90d5dcf72f5b59cf88b1d10c241
 tags:
-  1.1.1--py36h470a237_0: sha256:8e07e05e15b3d41e524af0a43121a98523c351b27c822e20dcfc106301f397a3
+  1.1.1--py36h470a237_0: 
+    sha256:c92a2329c739ed6768cd84e5c6b9fd4d3ca7d90d5dcf72f5b59cf88b1d10c241
 docker: quay.io/biocontainers/openslide-python
 aliases:
   aclocal.bak: /usr/local/bin/aclocal.bak

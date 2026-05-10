@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cogps
 latest:
-  1.50.0--r44hdfd78af_0: 
-    sha256:f747d5ec66240549d37597479a262b00e69759b3f73d7daec7bd3fcbe2fb360e
+  1.54.0--r45hdfd78af_0: 
+    sha256:b9803d453490a1f8dd5983b8a8fe9efd9df7fe37a796699b916a8bcf52a6c804
 tags:
   1.38.0--r41hdfd78af_0: 
     sha256:26b887ecc8fff72c0035efdb6e21e1757886e701783c330d9b4428cb9b3bcea7
@@ -16,4 +16,6 @@ tags:
     sha256:f8028ef47f22fb7ed229e0c77b7124a81002054e9fe2d198b18d5868b5ff0dea
   1.50.0--r44hdfd78af_0: 
     sha256:f747d5ec66240549d37597479a262b00e69759b3f73d7daec7bd3fcbe2fb360e
+  1.54.0--r45hdfd78af_0: 
+    sha256:b9803d453490a1f8dd5983b8a8fe9efd9df7fe37a796699b916a8bcf52a6c804
 docker: quay.io/biocontainers/bioconductor-cogps

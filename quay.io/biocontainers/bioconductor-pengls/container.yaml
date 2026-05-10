@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-pengls
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:a5b600624ad50188fa3b5b775fb71d8bbc2a27ac0ead2c03ed92d8da806013a1
+  1.16.0--r45hdfd78af_0: 
+    sha256:b18203fce5205f3bbf0f043b61991fa141061a6c452beedfdf1ee5acaa487490
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:9e60990bc6a502901b608fac051aeea0597da4a61b39b9c63ba826f14a026271
@@ -16,4 +16,6 @@ tags:
     sha256:1bd260643380f1adf7ed434e4fc7a177991a680981751826448aeb3235c9f67f
   1.12.0--r44hdfd78af_0: 
     sha256:a5b600624ad50188fa3b5b775fb71d8bbc2a27ac0ead2c03ed92d8da806013a1
+  1.16.0--r45hdfd78af_0: 
+    sha256:b18203fce5205f3bbf0f043b61991fa141061a6c452beedfdf1ee5acaa487490
 docker: quay.io/biocontainers/bioconductor-pengls

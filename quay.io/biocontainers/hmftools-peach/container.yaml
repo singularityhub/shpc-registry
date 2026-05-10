@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/hmftools-peach
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-peach
 latest:
-  2.0.0--hdfd78af_0: sha256:83eb63462efdf7dd30dda980c2ba2fceee17ebe198480e8b4588adcd23d705ae
+  2.0.0--hdfd78af_1: 
+    sha256:ac074b1cc7d3c3f74059a69127969b9a964be6b4a270ed4ab4b2fa3e8fe48d26
 tags:
-  2.0.0--hdfd78af_0: sha256:83eb63462efdf7dd30dda980c2ba2fceee17ebe198480e8b4588adcd23d705ae
+  2.0.0--hdfd78af_0: 
+    sha256:83eb63462efdf7dd30dda980c2ba2fceee17ebe198480e8b4588adcd23d705ae
+  2.0.0--hdfd78af_1: 
+    sha256:ac074b1cc7d3c3f74059a69127969b9a964be6b4a270ed4ab4b2fa3e8fe48d26
 docker: quay.io/biocontainers/hmftools-peach
 aliases:
   peach: /usr/local/bin/peach

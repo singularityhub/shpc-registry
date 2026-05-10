@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pyprophet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyprophet
 latest:
-  3.0.1--py39hbcbf7aa_0: 
-    sha256:6f1b243aeddaafcb08d7021dcbcff3189b88a470e26ddcd29ccf7157716d2f99
+  3.0.15--py313hd978853_0: 
+    sha256:82e50b7d8495dc6019e8e57c0a0bad9b5945fbe7d7634f14abb7260b781016a2
 tags:
   2.1.6--py36h4c5857e_0: 
     sha256:6e962addd89ee9edbf00f45bfe0b9c3b4042fdc36bc315f253faee88989a0802
@@ -25,4 +25,6 @@ tags:
     sha256:9a4ab252cc513ce64466bd5ece27e22636edde730bd127c593bf12cd6ac1c5b0
   3.0.1--py39hbcbf7aa_0: 
     sha256:6f1b243aeddaafcb08d7021dcbcff3189b88a470e26ddcd29ccf7157716d2f99
+  3.0.15--py313hd978853_0: 
+    sha256:82e50b7d8495dc6019e8e57c0a0bad9b5945fbe7d7634f14abb7260b781016a2
 docker: quay.io/biocontainers/pyprophet

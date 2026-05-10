@@ -1,10 +1,15 @@
 url: https://biocontainers.pro/tools/esme_netcdf-c_mvapich_4_0
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for esme_netcdf-c_mvapich_4_0
+description: singularity registry hpc automated addition for 
+  esme_netcdf-c_mvapich_4_0
 latest:
-  4.9.2--hdf4d085_0: sha256:ee8883c92582f4c69f7f7113b64a88f355a65333d6f46094522722e3b74be9bb
+  4.9.3--hdf4d085_0: 
+    sha256:9982111b1f727678cb67b38dcb804ae332d59fc8bb5655e94542abb113d9826e
 tags:
-  4.9.2--hdf4d085_0: sha256:ee8883c92582f4c69f7f7113b64a88f355a65333d6f46094522722e3b74be9bb
+  4.9.2--hdf4d085_0: 
+    sha256:ee8883c92582f4c69f7f7113b64a88f355a65333d6f46094522722e3b74be9bb
+  4.9.3--hdf4d085_0: 
+    sha256:9982111b1f727678cb67b38dcb804ae332d59fc8bb5655e94542abb113d9826e
 docker: quay.io/biocontainers/esme_netcdf-c_mvapich_4_0
 aliases:
   fi_info: /usr/local/bin/fi_info

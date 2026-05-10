@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/spestimator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spestimator
 latest:
-  0.1.0.232--pyhdfd78af_0: 
-    sha256:26ff0b944cd8d3c5fb59fafa1ead3458bae50fdb8d216a0896776b1f9cdc4a4c
+  0.3.0.234--pyhdfd78af_0: 
+    sha256:089c0c1cb2e1d134b182ce13bc0c09e191e287a2f32774c306f7d77d6bdae47c
 tags:
   0.1.0.232--pyhdfd78af_0: 
     sha256:26ff0b944cd8d3c5fb59fafa1ead3458bae50fdb8d216a0896776b1f9cdc4a4c
+  0.3.0.234--pyhdfd78af_0: 
+    sha256:089c0c1cb2e1d134b182ce13bc0c09e191e287a2f32774c306f7d77d6bdae47c
 docker: quay.io/biocontainers/spestimator
 aliases:
   spestimator: /usr/local/bin/spestimator

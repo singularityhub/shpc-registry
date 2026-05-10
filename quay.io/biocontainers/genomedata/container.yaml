@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/genomedata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genomedata
 latest:
-  1.7.4--py311h87bb1fd_0: 
-    sha256:1315a6430b64995e622569068ad22fceca50221d6d4b8b2ba55c48596b1c2a1a
+  1.7.4--py311hc60a32c_1: 
+    sha256:f40916d0c9f2175bc557dcac9c4f40ccd1e0bde0497e0793692c797b9c228fcc
 tags:
   1.5.0--py310h35e684e_3: 
     sha256:f0e3df8a4b6a9f5808571434d2bcd2c96a002d8e2055f172458754705d103480
@@ -31,6 +31,8 @@ tags:
     sha256:7b20b7a49b3dac610b4c3c774ad9997c5d8f7a5974a19a310d92c0950b719382
   1.7.4--py311h87bb1fd_0: 
     sha256:1315a6430b64995e622569068ad22fceca50221d6d4b8b2ba55c48596b1c2a1a
+  1.7.4--py311hc60a32c_1: 
+    sha256:f40916d0c9f2175bc557dcac9c4f40ccd1e0bde0497e0793692c797b9c228fcc
 docker: quay.io/biocontainers/genomedata
 aliases:
   bigWigToBedGraph: /usr/local/bin/bigWigToBedGraph

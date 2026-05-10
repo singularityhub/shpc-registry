@@ -25,6 +25,12 @@ tags:
     sha256:3c0a08fffbb47cc01ab71ff59327363af25f699e28e1c82d324f981a70af9477
   3.7.6--pyhdfd78af_0: 
     sha256:5611c58152705b65fe18112afa1cb72a1f09a678171e74e8a42fe2d83e3fc02f
+  3.4--py_0: 
+    sha256:4e77e0359c857676db838dfdecc5c5879b74552ecd9afe791346ddf5704afbb4
+  3.2--py_0: 
+    sha256:de80b60fecd66b1a3ec101dd7271b0e7e5430620d94095df4a1d84804247fd66
+  3.1--py_0: 
+    sha256:5af3d1ab805177064564e0d79b03a84d3858c203282a8ce3417a6855df0ac3fa
 docker: quay.io/biocontainers/hicexplorer
 aliases:
   dask-mpi: /usr/local/bin/dask-mpi

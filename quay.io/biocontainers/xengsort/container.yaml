@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/xengsort
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for xengsort
 latest:
-  2.1.0--pyhdfd78af_1: 
-    sha256:dbe8f9fc6707c9e98e4a76ca9329f3fca47b8f05040ceaf6f1c5cc9fc448fcaa
+  2.2.0--pyhdfd78af_0: 
+    sha256:b3c5e290988bcf9853864f715a6581324b48b045562a64a9f08fa19e10eba60c
 tags:
   1.5.0.3--pyhdfd78af_0: 
     sha256:58e61fb25e77488323af66449876b5f389c3c77857a0524750b30ba3a3f068fd
@@ -21,6 +21,10 @@ tags:
     sha256:457e405081fc551d43e5e6da90f776907e13249e2b560071d3b516a7870010c4
   2.1.0--pyhdfd78af_1: 
     sha256:dbe8f9fc6707c9e98e4a76ca9329f3fca47b8f05040ceaf6f1c5cc9fc448fcaa
+  2.2.0--pyhdfd78af_0: 
+    sha256:b3c5e290988bcf9853864f715a6581324b48b045562a64a9f08fa19e10eba60c
+  2.1.1--pyhdfd78af_0: 
+    sha256:ba5ff8966008a38459a5d747ea42a9bbd44c94c89f023742c5d5e9bf84694c7a
 docker: quay.io/biocontainers/xengsort
 aliases:
   xengsort: /usr/local/bin/xengsort

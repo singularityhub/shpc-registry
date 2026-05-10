@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gcrisprtools
 latest:
-  2.12.0--r44hdfd78af_0: 
-    sha256:a1fddbe4f534694791321a9d2331fe5e1f3f6fad4bcc211d6880924696f89790
+  2.16.0--r45hdfd78af_0: 
+    sha256:7963d0c9d90cfa09983b20bda3ea3213f3629ff39ed2cbb7648971fa46743fe7
 tags:
   2.0.0--r41hdfd78af_0: 
     sha256:47da2386925bdfd79c8d9758d74c43f8a29dd5f7f54e862bb894150dd3d8fc0b
@@ -16,6 +16,8 @@ tags:
     sha256:238c987ec7cbb0c4043de375c766c1124074613771622ae915cf68e39c84fc99
   2.12.0--r44hdfd78af_0: 
     sha256:a1fddbe4f534694791321a9d2331fe5e1f3f6fad4bcc211d6880924696f89790
+  2.16.0--r45hdfd78af_0: 
+    sha256:7963d0c9d90cfa09983b20bda3ea3213f3629ff39ed2cbb7648971fa46743fe7
 docker: quay.io/biocontainers/bioconductor-gcrisprtools
 aliases:
   pandoc: /usr/local/bin/pandoc

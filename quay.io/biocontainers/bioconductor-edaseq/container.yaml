@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-edaseq
 latest:
-  2.40.0--r44hdfd78af_0: 
-    sha256:99898ba500d9a4893ea069c533e03dabe30099858feb9091a5d9452fc2a842da
+  2.44.0--r45hdfd78af_0: 
+    sha256:463b817b895e0eee3f559c59f13377b69835df041420451a487946982ebd429c
 tags:
   2.8.0--r3.4.1_0: 
     sha256:ee890157461b63f37b873dc67e302b40fafd0bab37d19520fa0d263456133749
@@ -24,6 +24,8 @@ tags:
     sha256:06fcaca929145704291fe85d3822f91d67ad8070f464cc456d0b27d097867d39
   2.40.0--r44hdfd78af_0: 
     sha256:99898ba500d9a4893ea069c533e03dabe30099858feb9091a5d9452fc2a842da
+  2.44.0--r45hdfd78af_0: 
+    sha256:463b817b895e0eee3f559c59f13377b69835df041420451a487946982ebd429c
 docker: quay.io/biocontainers/bioconductor-edaseq
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

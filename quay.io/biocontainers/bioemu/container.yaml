@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/bioemu
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioemu
 latest:
-  1.1.0--pyh7e72e81_0: 
-    sha256:ab171cd780c821eb50ce1200132a78ca665871f43dba11fb9f8818415485e26d
+  1.3.1--pyhdfd78af_0: 
+    sha256:452938f27d3096717ef5b3a8b558d3e30c9072b787a9e2af66ab137e4a691a4b
 tags:
   1.1.0--pyh7e72e81_0: 
     sha256:ab171cd780c821eb50ce1200132a78ca665871f43dba11fb9f8818415485e26d
+  1.3.1--pyhdfd78af_0: 
+    sha256:452938f27d3096717ef5b3a8b558d3e30c9072b787a9e2af66ab137e4a691a4b
+  1.2.0--pyhdfd78af_0: 
+    sha256:77b4a63eff5d083c48120bcd584f0a8ccd9440577b68f6eb5005d80bb4a31278
 docker: quay.io/biocontainers/bioemu
 aliases:
   bio: /usr/local/bin/bio

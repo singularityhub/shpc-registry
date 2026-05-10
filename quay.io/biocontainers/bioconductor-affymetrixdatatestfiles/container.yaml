@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-affymetrixdatatestfiles
 latest:
-  0.44.0--r44hdfd78af_0: 
-    sha256:b56a9cfbed96ba8a5ab5fed1b831a062640d83fb218700f3e16f3dfaad92e558
+  0.48.0--r45hdfd78af_0: 
+    sha256:42b49d7a8f9b8596c62bc5054cbfd656db0d786e30d75c9b001ded40d2739ec9
 tags:
   0.32.0--r41hdfd78af_1: 
     sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a
@@ -16,4 +16,6 @@ tags:
     sha256:684c03eea619877b825a479b5037350092ded1ee527fee8c8914b4f33029f179
   0.44.0--r44hdfd78af_0: 
     sha256:b56a9cfbed96ba8a5ab5fed1b831a062640d83fb218700f3e16f3dfaad92e558
+  0.48.0--r45hdfd78af_0: 
+    sha256:42b49d7a8f9b8596c62bc5054cbfd656db0d786e30d75c9b001ded40d2739ec9
 docker: quay.io/biocontainers/bioconductor-affymetrixdatatestfiles

@@ -1,15 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-scater-scripts
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-scater-scripts
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-scater-scripts
 latest:
-  0.0.4--1: sha256:745a396e5c88fd2ee1c82f8ab58f03c695c836ccefa303d764fd231550aa816f
+  0.0.4--1: 
+    sha256:6584136e67f937679a6808479bced7939e8f81690ee549672d381e19b7382e6a
 tags:
-  0.0.4--1: sha256:745a396e5c88fd2ee1c82f8ab58f03c695c836ccefa303d764fd231550aa816f
+  0.0.4--1: 
+    sha256:6584136e67f937679a6808479bced7939e8f81690ee549672d381e19b7382e6a
 docker: quay.io/biocontainers/bioconductor-scater-scripts
 aliases:
-  bioconductor-scater-scripts-post-install-tests.bats: /usr/local/bin/bioconductor-scater-scripts-post-install-tests.bats
-  bioconductor-scater-scripts-post-install-tests.sh: /usr/local/bin/bioconductor-scater-scripts-post-install-tests.sh
-  bioconductor-singlecellexperiment-scripts-post-install-tests.sh: /usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh
+  bioconductor-scater-scripts-post-install-tests.bats: 
+    /usr/local/bin/bioconductor-scater-scripts-post-install-tests.bats
+  bioconductor-scater-scripts-post-install-tests.sh: 
+    /usr/local/bin/bioconductor-scater-scripts-post-install-tests.sh
+  bioconductor-singlecellexperiment-scripts-post-install-tests.sh: 
+    /usr/local/bin/bioconductor-singlecellexperiment-scripts-post-install-tests.sh
   scater-calculate-cpm.R: /usr/local/bin/scater-calculate-cpm.R
   scater-calculate-qc-metrics.R: /usr/local/bin/scater-calculate-qc-metrics.R
   scater-extract-qc-metric.R: /usr/local/bin/scater-extract-qc-metric.R
@@ -19,9 +25,12 @@ aliases:
   scater-plot-reduced-dim.R: /usr/local/bin/scater-plot-reduced-dim.R
   scater-run-pca.R: /usr/local/bin/scater-run-pca.R
   scater-run-tsne.R: /usr/local/bin/scater-run-tsne.R
-  singlecellexperiment-create-single-cell-experiment.R: /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
-  singlecellexperiment-get-random-cells.R: /usr/local/bin/singlecellexperiment-get-random-cells.R
-  singlecellexperiment-get-random-genes.R: /usr/local/bin/singlecellexperiment-get-random-genes.R
+  singlecellexperiment-create-single-cell-experiment.R: 
+    /usr/local/bin/singlecellexperiment-create-single-cell-experiment.R
+  singlecellexperiment-get-random-cells.R: 
+    /usr/local/bin/singlecellexperiment-get-random-cells.R
+  singlecellexperiment-get-random-genes.R: 
+    /usr/local/bin/singlecellexperiment-get-random-genes.R
   conda_build.sh: /usr/local/bin/conda_build.sh
   wget: /usr/local/bin/wget
   c89: /usr/local/bin/c89

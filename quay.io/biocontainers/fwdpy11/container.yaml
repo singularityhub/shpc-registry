@@ -29,6 +29,12 @@ tags:
     sha256:32b0f4524265f6ecdc73f97ed07876e1c906d193a2affc005e5e5b133d20ae19
   0.24.5--py311h0f4446f_0: 
     sha256:0359d189b245a5ffd59d37faf7b9d2fc1d6d2057591daae57a889d91199d284e
+  0.8.1--py36h8b949fa_0: 
+    sha256:73e1a1a0f81b0a9c9c5fc843a4ac7731639978dde3dfbe3240c2f353823d14f2
+  0.7.1--py37h7d13203_0: 
+    sha256:7dcdceadbf5b7274be477499e569f4d01124addb7ca6e3fc33c8ad1e26160f60
+  0.6.4--py37h7d13203_0: 
+    sha256:ba500cd3fa5146909c66e0c8b4f438a91feeee4382fc506f37d913465ce201de
 docker: quay.io/biocontainers/fwdpy11
 aliases:
   tskit: /usr/local/bin/tskit

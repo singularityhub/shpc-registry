@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-mouse.db0
 latest:
-  3.20.0--r44hdfd78af_0: 
-    sha256:48923d16a811c148c5ef636b3eb3b7019391249d3b133c682e1770d5e357e915
+  3.22.0--r45hdfd78af_0: 
+    sha256:1d5b2f59b913811286a1b9fd56d369b22945c64c1e5ee5dce2b7936c6da197dd
 tags:
   3.8.2--r36_1: 
     sha256:8c3d9e41f00972fbe445475500de6ed9df55f3ea7535d6a28312cfab37bc4c42
@@ -24,6 +24,8 @@ tags:
     sha256:d97fd94ab8469d53fa1f0322938ac5694be8d5e9c716ad2ee15b0d1605ead830
   3.20.0--r44hdfd78af_0: 
     sha256:48923d16a811c148c5ef636b3eb3b7019391249d3b133c682e1770d5e357e915
+  3.22.0--r45hdfd78af_0: 
+    sha256:1d5b2f59b913811286a1b9fd56d369b22945c64c1e5ee5dce2b7936c6da197dd
 docker: quay.io/biocontainers/bioconductor-mouse.db0
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

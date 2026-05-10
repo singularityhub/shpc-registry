@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/aacon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for aacon
 latest:
-  1.1--hdfd78af_0: sha256:f53a4c692f3b8039df4c04fac5dd6d221dc74ba33da0c397fe52c3d8be8f3fad
+  1.1--hdfd78af_0: 
+    sha256:f53a4c692f3b8039df4c04fac5dd6d221dc74ba33da0c397fe52c3d8be8f3fad
 tags:
-  1.1--hdfd78af_0: sha256:f53a4c692f3b8039df4c04fac5dd6d221dc74ba33da0c397fe52c3d8be8f3fad
+  1.1--hdfd78af_0: 
+    sha256:f53a4c692f3b8039df4c04fac5dd6d221dc74ba33da0c397fe52c3d8be8f3fad
 docker: quay.io/biocontainers/aacon
 aliases:
   aacon: /usr/local/bin/aacon

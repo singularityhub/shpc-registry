@@ -35,6 +35,8 @@ tags:
     sha256:bbeeabf843514570fb5d823c2a5879fe12e33c79a047ce7453df8d404407caaa
   0.32.1--py311h921ead3_0: 
     sha256:341381118cc1cf740365987778bda8d853a88f46ed200cc07bdef1d878a88957
+  0.30.6--py37h94c4be0_0: 
+    sha256:a959e7a2e4e905aecbf436305687b6eacad1da6d6d7c82572b485cdf583fbeab
 docker: quay.io/biocontainers/cyvcf2
 aliases:
   cyvcf2: /usr/local/bin/cyvcf2

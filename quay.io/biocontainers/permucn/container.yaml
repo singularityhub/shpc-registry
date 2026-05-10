@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/permucn
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for permucn
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:bb7aab62e9dc95d6f620f5f54806dedc76a4df95c667980012d0c9166770177d
+  0.1.1--pyhdfd78af_0: 
+    sha256:3d349d9fce2dfeddeb79bc79c2fe44448db0fa19e143d2c0d3aa97f4fccfa53c
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:bb7aab62e9dc95d6f620f5f54806dedc76a4df95c667980012d0c9166770177d
+  0.1.1--pyhdfd78af_0: 
+    sha256:3d349d9fce2dfeddeb79bc79c2fe44448db0fa19e143d2c0d3aa97f4fccfa53c
 docker: quay.io/biocontainers/permucn
 aliases:
   permucn: /usr/local/bin/permucn

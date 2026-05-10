@@ -2,8 +2,23 @@ url: https://biocontainers.pro/tools/bx-python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bx-python
 latest:
-  0.8.11--py36h5e0341f_0: sha256:c46b0e7f726f61b22d6cfbd8abe65bcebdd33b9ee018c42808d012e078332ad0
+  0.14.0--py312h734f728_1: 
+    sha256:905ada5b3c3243334426e03f3db45ce4282caac6e233b7bef3f7e7e77137bf2b
 tags:
-  0.8.9--py27h54ae540_2: sha256:cc1f109a9aabe9943ab6df613d5aed5bdd0e6e88a72853fb7171b8de51dcda66
-  0.8.11--py36h5e0341f_0: sha256:c46b0e7f726f61b22d6cfbd8abe65bcebdd33b9ee018c42808d012e078332ad0
+  0.8.9--py27h54ae540_2: 
+    sha256:cc1f109a9aabe9943ab6df613d5aed5bdd0e6e88a72853fb7171b8de51dcda66
+  0.8.11--py36h5e0341f_0: 
+    sha256:c46b0e7f726f61b22d6cfbd8abe65bcebdd33b9ee018c42808d012e078332ad0
+  0.14.0--py312h734f728_1: 
+    sha256:905ada5b3c3243334426e03f3db45ce4282caac6e233b7bef3f7e7e77137bf2b
+  0.13.0--py312h5e9d817_2: 
+    sha256:0c609f74a284fd32ecd16be553b530a446238a788dc1bbcbe149a7aaf5cedbe1
+  0.12.0--py39hdf45acc_0: 
+    sha256:d29e38e7aec0087def05ff48a1c58421217b8dea9062af62c383a546d2472451
+  0.11.0--py38h737be40_3: 
+    sha256:1a1a7cc617d7880738bea2b6dd8704c930714b3a14ae64947d3298cab3adf3a5
+  0.10.0--py39h31164c1_0: 
+    sha256:a0b2bba974573277bbd4d66fa7e78bef6ebcf365b679a3b11ce71acf21703bc8
+  0.8.13--py38h024e602_0: 
+    sha256:45a2f4ea03866b8ec6d2279d8067e211effcb0ddbee26da9e5de74ea576d21f0
 docker: quay.io/biocontainers/bx-python

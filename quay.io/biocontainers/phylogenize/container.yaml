@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phylogenize
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phylogenize
 latest:
-  2.0.1--r45hdfd78af_1: 
-    sha256:a86f64f5c1c6f127f0aba9c6557ae037642ec6e8a109b9050193e953d1ed6bfc
+  2.0.1--r45hdfd78af_2: 
+    sha256:52ccdf38e91643768854c2b203ae46d54f958b8d28f5ce78eb688d699395450d
 tags:
   0.91--pl5321r43hdfd78af_0: 
     sha256:e8703c38b83e3553f29a57192b6944e628b05bc7439dd33fab3554ff087cbfcf
@@ -15,6 +15,8 @@ tags:
     sha256:f19f4603c64155c763b98244a9523180daf30af74ce96758bc0fd1fe4ac7c562
   2.0.1--r45hdfd78af_1: 
     sha256:a86f64f5c1c6f127f0aba9c6557ae037642ec6e8a109b9050193e953d1ed6bfc
+  2.0.1--r45hdfd78af_2: 
+    sha256:52ccdf38e91643768854c2b203ae46d54f958b8d28f5ce78eb688d699395450d
 docker: quay.io/biocontainers/phylogenize
 aliases:
   git2: /usr/local/bin/git2

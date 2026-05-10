@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/riboseed
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for riboseed
 latest:
-  0.4.90--py_0: sha256:fa2228d3f952cb968f6a09de4ce144055037b9cbf4834bce17861eadcaa045ec
+  0.4.90--py_0: 
+    sha256:88b270cb194174c6c55785a98aa45ac7756379a82d9bf18624dd1a5d64a972d4
 tags:
-  0.4.90--py_0: sha256:fa2228d3f952cb968f6a09de4ce144055037b9cbf4834bce17861eadcaa045ec
+  0.4.90--py_0: 
+    sha256:88b270cb194174c6c55785a98aa45ac7756379a82d9bf18624dd1a5d64a972d4
 docker: quay.io/biocontainers/riboseed
 aliases:
   bwa-spades: /usr/local/bin/bwa-spades

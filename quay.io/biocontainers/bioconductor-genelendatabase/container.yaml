@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genelendatabase
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:805bf231e193fb32d7eb4235fe71e05c2a856613bdb95cc6a16718f9aaf7fe31
+  1.46.0--r45hdfd78af_0: 
+    sha256:7a8f86e0f7c071632a883e1fc752b5ee5c61fef4ed6d6e16fc1c4347c85eb392
 tags:
   1.6.0--0: 
     sha256:081739cc66d24cee3a5548491d52713d1e9ccd062f508a6c2aaac16bf2c2b125
@@ -26,6 +26,8 @@ tags:
     sha256:511f8ff7f11d6eaba4817896135ebfc7cd8b005783096c6d99e0fa2af0637620
   1.42.0--r44hdfd78af_0: 
     sha256:805bf231e193fb32d7eb4235fe71e05c2a856613bdb95cc6a16718f9aaf7fe31
+  1.46.0--r45hdfd78af_0: 
+    sha256:7a8f86e0f7c071632a883e1fc752b5ee5c61fef4ed6d6e16fc1c4347c85eb392
 docker: quay.io/biocontainers/bioconductor-genelendatabase
 aliases:
   pngcp: /usr/local/bin/pngcp

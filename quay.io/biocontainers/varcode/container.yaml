@@ -2,9 +2,21 @@ url: https://biocontainers.pro/tools/varcode
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for varcode
 latest:
-  1.1.0--pyh7cba7a3_0: sha256:1116f471668248ae9890eb83e246ad3a5d6c92dc89e1367d8aaa7d0c8ffe56cd
+  4.0.5--pyh106432d_0: 
+    sha256:853a0ae3e212a1a7e84dc7b0eda394e3a44636239d4179706b431aac289dbd3a
 tags:
-  1.1.0--pyh7cba7a3_0: sha256:1116f471668248ae9890eb83e246ad3a5d6c92dc89e1367d8aaa7d0c8ffe56cd
+  1.1.0--pyh7cba7a3_0: 
+    sha256:1116f471668248ae9890eb83e246ad3a5d6c92dc89e1367d8aaa7d0c8ffe56cd
+  4.0.5--pyh106432d_0: 
+    sha256:853a0ae3e212a1a7e84dc7b0eda394e3a44636239d4179706b431aac289dbd3a
+  2.6.0--pyh106432d_0: 
+    sha256:6d39efd4ce6e63209d572ebd6c775cc443a9c6ee14d405d736fcfe77f5d7f7d1
+  2.1.0--pyh106432d_0: 
+    sha256:f46443e61f62dacd5ae3e9ab59ca7ec173045b6e802a644a91002745452f848c
+  1.3.2--pyh106432d_0: 
+    sha256:ad1e95ba6b5819159147d7cfc6009a0d04687e3c2989231e558b9e9a2bdf0e96
+  1.2.1--pyh7e72e81_0: 
+    sha256:22f6ff47f4a696335d8fad17634b17ff7efe7bf02223eb7705ead35efdbc1895
 docker: quay.io/biocontainers/varcode
 aliases:
   epylint: /usr/local/bin/epylint

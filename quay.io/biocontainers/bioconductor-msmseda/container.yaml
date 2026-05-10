@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-msmseda
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:fda3397217d85b58df8c8414bf8136f0998d944243f0ee97d897c71070c0c429
+  1.48.0--r45hdfd78af_0: 
+    sha256:6dbe4b79ea8e3eb43207fe6949758be604ee5a8dd4921348ba7d279101970abb
 tags:
   1.32.0--r41hdfd78af_0: 
     sha256:56f2d171b50f2101257ab5574cfe3e58d54957fdb0d683edb6787fadf064da78
@@ -16,6 +16,8 @@ tags:
     sha256:6f1e3931c5baf3441a6f91e6568ebd441a01db2fb85967cfe17ad3f8a2e17687
   1.44.0--r44hdfd78af_0: 
     sha256:fda3397217d85b58df8c8414bf8136f0998d944243f0ee97d897c71070c0c429
+  1.48.0--r45hdfd78af_0: 
+    sha256:6dbe4b79ea8e3eb43207fe6949758be604ee5a8dd4921348ba7d279101970abb
 docker: quay.io/biocontainers/bioconductor-msmseda
 aliases:
   zipcmp: /usr/local/bin/zipcmp

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-cleanuprnaseq
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:617ca523bf787b93775ccb7a6bd45090097892ca565cc8512d34d9300d4dd098
+  1.4.0--r45hdfd78af_0: 
+    sha256:89c44f3514e42ab6313abe42832bb4261d860c0cd89ec3c4f43922014715fcc1
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:617ca523bf787b93775ccb7a6bd45090097892ca565cc8512d34d9300d4dd098
+  1.4.0--r45hdfd78af_0: 
+    sha256:89c44f3514e42ab6313abe42832bb4261d860c0cd89ec3c4f43922014715fcc1
 docker: quay.io/biocontainers/bioconductor-cleanuprnaseq
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

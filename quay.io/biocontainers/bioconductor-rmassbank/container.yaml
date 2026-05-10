@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rmassbank
 latest:
-  3.16.0--r44he5774e6_0: 
-    sha256:509e1239f94d51fd1073c2b1c79f81edbfb572c21fa65aedc0d583681edf999c
+  3.20.0--r45ha27e39d_0: 
+    sha256:88f7d5317d0f571d259019b2fdfbfe521ed5f25d0f143f0c9844accb4c59e875
 tags:
   3.4.0--r41hc247a5b_2: 
     sha256:8a4587d79a816b48ee2424ce3e9a45fe0eeada64676725f46df7abd042438355
@@ -18,6 +18,8 @@ tags:
     sha256:c891b69c0f36408379572ea70ff932c1766ae0ffdea8b49047b33e1a49b84062
   3.16.0--r44he5774e6_0: 
     sha256:509e1239f94d51fd1073c2b1c79f81edbfb572c21fa65aedc0d583681edf999c
+  3.20.0--r45ha27e39d_0: 
+    sha256:88f7d5317d0f571d259019b2fdfbfe521ed5f25d0f143f0c9844accb4c59e875
 docker: quay.io/biocontainers/bioconductor-rmassbank
 aliases:
   obfitall: /usr/local/bin/obfitall

@@ -2,9 +2,15 @@ url: https://biocontainers.pro/tools/fwdpp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fwdpp
 latest:
-  0.5.7--2: sha256:340ff385d06bf3e5e292c8554a4590ad50f383c38b3e2f408341caa6a0892455
+  0.9.2--ha172671_0: 
+    sha256:57de07a9ab20aaba7bfa8ba4e933459dfb21448cf47d2d6d73e64a720d482de0
 tags:
-  0.5.7--2: sha256:340ff385d06bf3e5e292c8554a4590ad50f383c38b3e2f408341caa6a0892455
+  0.5.7--2: 
+    sha256:9348e35eef0aa5a4fd904558f14ec55ba3989656b699b41732a6dd44f07c31ec
+  0.9.2--ha172671_0: 
+    sha256:57de07a9ab20aaba7bfa8ba4e933459dfb21448cf47d2d6d73e64a720d482de0
+  0.6.1--ha172671_0: 
+    sha256:f23d43613933d773ed03a11c14ecced4d3cd015b77617e54186972966e2f2baf
 docker: quay.io/biocontainers/fwdpp
 aliases:
   fwdppConfig: /usr/local/bin/fwdppConfig

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-roll
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-roll
 latest:
-  1.2.0--r45h0df16ae_0: 
-    sha256:fcb8b2c0ef5497235f32202bd860d872c38f3194ccbbe27e047549f4130ce38a
+  1.2.1--r45h67c2a1a_0: 
+    sha256:4cc0c1d87ceeea58224ad3f0cabaed28027b393e379e0cc1037f7133cebfaa8a
 tags:
   1.2.0--r45h0df16ae_0: 
     sha256:fcb8b2c0ef5497235f32202bd860d872c38f3194ccbbe27e047549f4130ce38a
+  1.2.1--r45h67c2a1a_0: 
+    sha256:4cc0c1d87ceeea58224ad3f0cabaed28027b393e379e0cc1037f7133cebfaa8a
 docker: quay.io/biocontainers/r-roll
 aliases:
   hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid

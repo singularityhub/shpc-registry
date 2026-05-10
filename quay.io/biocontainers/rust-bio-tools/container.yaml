@@ -31,6 +31,8 @@ tags:
     sha256:95ae884bec41928bee9d52624994acfc32b4d292bdda425e8ea86dff659a1ece
   0.42.2--h5c46d4b_3: 
     sha256:b1e97b060b3fd76d651447f73e7a58210356034b469525d17408010c695604d7
+  0.10.1--h46ad9a4_0: 
+    sha256:1f25e331326a2e531d54eadc3098625edb1f48a4b9ea27c268c4f2c231f1742b
 docker: quay.io/biocontainers/rust-bio-tools
 aliases:
   rbt: /usr/local/bin/rbt

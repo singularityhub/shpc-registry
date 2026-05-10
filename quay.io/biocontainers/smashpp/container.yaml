@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/smashpp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smashpp
 latest:
-  23.09--h9948957_1: 
-    sha256:4b214521d55f75f3656dd9d151716b53634a60e21576f529454d8a3edb954650
+  26.04--hc52dbad_0: 
+    sha256:0699fc4d618d28e5be2cd2fb88b3c41944da521613a7d337f0db7bf62de0bc4e
 tags:
   22.08--h9f5acd7_0: 
     sha256:991a0d84349a12ecef06c176bdcea2424abb140f293d5c041ba9c9b2433adcdd
@@ -13,6 +13,8 @@ tags:
     sha256:39365dfc11629d21f7bf5934f4b6f6eff205eaa3ccf87700b97863f550984c48
   23.09--h9948957_1: 
     sha256:4b214521d55f75f3656dd9d151716b53634a60e21576f529454d8a3edb954650
+  26.04--hc52dbad_0: 
+    sha256:0699fc4d618d28e5be2cd2fb88b3c41944da521613a7d337f0db7bf62de0bc4e
 docker: quay.io/biocontainers/smashpp
 aliases:
   exclude_N: /usr/local/bin/exclude_N

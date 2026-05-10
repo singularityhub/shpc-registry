@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tuberculosis
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:e4e3bf34646f191d51a120e12c62c128a6f30711ada648375d91d143aba2586f
+  1.16.0--r45hdfd78af_0: 
+    sha256:a422562c79b3eed4718a5c081c031f4fc6b47e96dcfa4a3ff9155967c377f2de
 tags:
   1.0.0--r41hdfd78af_1: 
     sha256:c9685b78ece366d205a1ad6122ecf4f1343b9b53cae07ea1240dae5db7727a4a
@@ -16,4 +16,6 @@ tags:
     sha256:c7aed8a0d98ade3250c04e5f88e56e1c813e8f3e8bf3af69cc5425beb4df7185
   1.12.0--r44hdfd78af_0: 
     sha256:e4e3bf34646f191d51a120e12c62c128a6f30711ada648375d91d143aba2586f
+  1.16.0--r45hdfd78af_0: 
+    sha256:a422562c79b3eed4718a5c081c031f4fc6b47e96dcfa4a3ff9155967c377f2de
 docker: quay.io/biocontainers/bioconductor-tuberculosis

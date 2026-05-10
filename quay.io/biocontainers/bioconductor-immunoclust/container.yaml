@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-immunoclust
 latest:
-  1.38.0--r44he5774e6_0: 
-    sha256:328bb2820dec250142a95381f16aac6681c1a9eab8fbf27c8c72d3263bb4ba48
+  1.42.0--r45ha27e39d_0: 
+    sha256:9eb161a3ce7723b6ac8473b6f128a228240c97ae9b911bc6ae6428b9012deae2
 tags:
   1.26.0--r41hc247a5b_2: 
     sha256:53b106d3c9868a067915272d4243761cc4074b55b28b64b66e69abd17e5da214
@@ -18,4 +18,6 @@ tags:
     sha256:6407840be16b43d386062f348fd4c4a199f7adb2d4762119ccf8ad5656777178
   1.38.0--r44he5774e6_0: 
     sha256:328bb2820dec250142a95381f16aac6681c1a9eab8fbf27c8c72d3263bb4ba48
+  1.42.0--r45ha27e39d_0: 
+    sha256:9eb161a3ce7723b6ac8473b6f128a228240c97ae9b911bc6ae6428b9012deae2
 docker: quay.io/biocontainers/bioconductor-immunoclust

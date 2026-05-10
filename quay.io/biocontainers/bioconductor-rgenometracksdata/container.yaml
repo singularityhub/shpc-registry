@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rgenometracksdata
 latest:
-  0.99.0--r44hdfd78af_5: 
-    sha256:5d2a4118a2fdf16b270a2e6908446fac02739cc6b8bb353f8923eac87055d991
+  0.99.0--r45hdfd78af_6: 
+    sha256:f5c0a40026e75d53bc387e7acf2ab12ce04d0dcddb0d44126c4e35e8be90a7c5
 tags:
   0.99.0--r41hdfd78af_1: 
     sha256:e6adb1d1b7f39bebeb0446e882f527b3450f28020d0a96ac8952b0964060a147
@@ -16,4 +16,6 @@ tags:
     sha256:0b27cd3e4cb6b2ee4549fb65b6777ded6e55cec54b6dc13b0f83181ee13554e6
   0.99.0--r44hdfd78af_5: 
     sha256:5d2a4118a2fdf16b270a2e6908446fac02739cc6b8bb353f8923eac87055d991
+  0.99.0--r45hdfd78af_6: 
+    sha256:f5c0a40026e75d53bc387e7acf2ab12ce04d0dcddb0d44126c4e35e8be90a7c5
 docker: quay.io/biocontainers/bioconductor-rgenometracksdata

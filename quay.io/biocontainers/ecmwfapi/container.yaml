@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/ecmwfapi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ecmwfapi
 latest:
-  1.4.1--py_2: sha256:1ff650990f42a733fa5f98e640d2a6db6e9dc2b6579b8a95e361414d39e83f00
+  1.4.1--py_2: 
+    sha256:21221a06c5384bf19184e59ebae39ab7af17c557a94f04a84e5ff3ffc6d10c35
 tags:
-  1.4.1--py_2: sha256:1ff650990f42a733fa5f98e640d2a6db6e9dc2b6579b8a95e361414d39e83f00
+  1.4.1--py_2: 
+    sha256:21221a06c5384bf19184e59ebae39ab7af17c557a94f04a84e5ff3ffc6d10c35
 docker: quay.io/biocontainers/ecmwfapi
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

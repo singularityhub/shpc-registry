@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-complexheatmap
 latest:
-  2.22.0--r44hdfd78af_0: 
-    sha256:9a64b8bb5f3ea714302dea1b0d59cd93f9891e2240d2bccfcd29a71376ef1a4d
+  2.26.1--r45hdfd78af_0: 
+    sha256:91e42d98d41a527cad37ff75374d3a1a50c4a4b04737f058671a80175494db61
 tags:
   2.8.0--r41hdfd78af_0: 
     sha256:d29dedb8362cfca2ecc457310c24c64f92d77762b83cbd2c04cf8b2d881cde94
@@ -18,6 +18,8 @@ tags:
     sha256:77a4efc4a56725040fc354ec10b81a0a67d84e0db2cec7d6c2137a13dcc2bd4d
   2.22.0--r44hdfd78af_0: 
     sha256:9a64b8bb5f3ea714302dea1b0d59cd93f9891e2240d2bccfcd29a71376ef1a4d
+  2.26.1--r45hdfd78af_0: 
+    sha256:91e42d98d41a527cad37ff75374d3a1a50c4a4b04737f058671a80175494db61
 docker: quay.io/biocontainers/bioconductor-complexheatmap
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

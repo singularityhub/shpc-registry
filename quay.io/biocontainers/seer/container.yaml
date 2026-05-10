@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/seer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for seer
 latest:
-  1.1.4--hb75bb0b_0: sha256:26f5c08323c37221c27772484c93363610921f45557206d6a6b81f495f993bbb
+  1.1.4--hb75bb0b_0: 
+    sha256:3672c57212f3a409171c1f068024c870eb9c980fca9e333f0c153230a7d1f06e
 tags:
-  1.1.4--hb75bb0b_0: sha256:26f5c08323c37221c27772484c93363610921f45557206d6a6b81f495f993bbb
+  1.1.4--hb75bb0b_0: 
+    sha256:3672c57212f3a409171c1f068024c870eb9c980fca9e333f0c153230a7d1f06e
 docker: quay.io/biocontainers/seer
 aliases:
   combineKmers: /usr/local/bin/combineKmers

@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/mitgard
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mitgard
 latest:
-  1.0--py39hdfd78af_1: sha256:d61ff0e17a0e8444e6207a36beb04d70e7ab6d42b5aea280a6a7c8f809447895
+  1.1--hdfd78af_0: 
+    sha256:23e75d4c0d0e263aa25bef7830ab36b1ac900e0be2150a9cd4669b01e1f34754
 tags:
-  1.0--py39hdfd78af_1: sha256:d61ff0e17a0e8444e6207a36beb04d70e7ab6d42b5aea280a6a7c8f809447895
+  1.0--py39hdfd78af_1: 
+    sha256:d61ff0e17a0e8444e6207a36beb04d70e7ab6d42b5aea280a6a7c8f809447895
+  1.1--hdfd78af_0: 
+    sha256:23e75d4c0d0e263aa25bef7830ab36b1ac900e0be2150a9cd4669b01e1f34754
 docker: quay.io/biocontainers/mitgard
 aliases:
   MITGARD.py: /usr/local/bin/MITGARD.py
@@ -13,20 +17,28 @@ aliases:
   Trinity: /usr/local/bin/Trinity
   TrinityStats.pl: /usr/local/bin/TrinityStats.pl
   Trinity_gene_splice_modeler.py: /usr/local/bin/Trinity_gene_splice_modeler.py
-  abundance_estimates_to_matrix.pl: /usr/local/bin/abundance_estimates_to_matrix.pl
-  align_and_estimate_abundance.pl: /usr/local/bin/align_and_estimate_abundance.pl
-  analyze_blastPlus_topHit_coverage.pl: /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
+  abundance_estimates_to_matrix.pl: 
+    /usr/local/bin/abundance_estimates_to_matrix.pl
+  align_and_estimate_abundance.pl: 
+    /usr/local/bin/align_and_estimate_abundance.pl
+  analyze_blastPlus_topHit_coverage.pl: 
+    /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
   analyze_diff_expr.pl: /usr/local/bin/analyze_diff_expr.pl
   contig_ExN50_statistic.pl: /usr/local/bin/contig_ExN50_statistic.pl
-  define_clusters_by_cutting_tree.pl: /usr/local/bin/define_clusters_by_cutting_tree.pl
-  extract_supertranscript_from_reference.py: /usr/local/bin/extract_supertranscript_from_reference.py
+  define_clusters_by_cutting_tree.pl: 
+    /usr/local/bin/define_clusters_by_cutting_tree.pl
+  extract_supertranscript_from_reference.py: 
+    /usr/local/bin/extract_supertranscript_from_reference.py
   filter_low_expr_transcripts.pl: /usr/local/bin/filter_low_expr_transcripts.pl
-  get_Trinity_gene_to_trans_map.pl: /usr/local/bin/get_Trinity_gene_to_trans_map.pl
+  get_Trinity_gene_to_trans_map.pl: 
+    /usr/local/bin/get_Trinity_gene_to_trans_map.pl
   insilico_read_normalization.pl: /usr/local/bin/insilico_read_normalization.pl
   msa2consensus.py: /usr/local/bin/msa2consensus.py
-  retrieve_sequences_from_fasta.pl: /usr/local/bin/retrieve_sequences_from_fasta.pl
+  retrieve_sequences_from_fasta.pl: 
+    /usr/local/bin/retrieve_sequences_from_fasta.pl
   run_DE_analysis.pl: /usr/local/bin/run_DE_analysis.pl
-  run_DE_analysis_from_samples_file.pl: /usr/local/bin/run_DE_analysis_from_samples_file.pl
+  run_DE_analysis_from_samples_file.pl: 
+    /usr/local/bin/run_DE_analysis_from_samples_file.pl
   sam2msa.py: /usr/local/bin/sam2msa.py
   seqtk-trinity: /usr/local/bin/seqtk-trinity
   sift_bam_max_cov.pl: /usr/local/bin/sift_bam_max_cov.pl

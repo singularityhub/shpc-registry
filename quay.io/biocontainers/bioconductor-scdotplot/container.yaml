@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-scdotplot
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:5c242bd18f9fb721f746efc8d05d35b33e29c957f0368311293ce21bd795298c
+  1.4.0--r45hdfd78af_0: 
+    sha256:d447328668e5c411da6e3e22e4e15fec40542ac19a91cc4c181615ebe4542a42
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:5c242bd18f9fb721f746efc8d05d35b33e29c957f0368311293ce21bd795298c
+  1.4.0--r45hdfd78af_0: 
+    sha256:d447328668e5c411da6e3e22e4e15fec40542ac19a91cc4c181615ebe4542a42
 docker: quay.io/biocontainers/bioconductor-scdotplot
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua

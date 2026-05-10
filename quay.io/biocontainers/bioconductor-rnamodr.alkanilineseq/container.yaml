@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rnamodr.alkanilineseq
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:44b4cc7c81d09448a1b47b88d63b322ed6fffa3fb23d8b8fe3843370943a5dcb
+  1.24.0--r45hdfd78af_0: 
+    sha256:f9156d81ab1d20bc7127af6168b46a39b21267d3b11921a9f6955bb78f05a524
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:35be0dd65c38b2c2f3e8cf20563d44a9b450dc00a5b1325b7063e31800aa7365
@@ -16,4 +16,6 @@ tags:
     sha256:5a46a193660949012d4141af658ce76686df62fd8047dc6211eb159b44a64dab
   1.20.0--r44hdfd78af_0: 
     sha256:44b4cc7c81d09448a1b47b88d63b322ed6fffa3fb23d8b8fe3843370943a5dcb
+  1.24.0--r45hdfd78af_0: 
+    sha256:f9156d81ab1d20bc7127af6168b46a39b21267d3b11921a9f6955bb78f05a524
 docker: quay.io/biocontainers/bioconductor-rnamodr.alkanilineseq

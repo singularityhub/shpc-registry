@@ -2,9 +2,21 @@ url: https://biocontainers.pro/tools/cmat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cmat
 latest:
-  3.1.0--py38hdfd78af_0: sha256:9187a6c7e380b32ef54665ae1ffe83ab663d23066f4747ed28342f25ad0f3bb4
+  3.5.0--py311hdfd78af_0: 
+    sha256:6b6ffd47ea131f01e25103ba553fd256c7f9b5d056caec94fbfdba4759273ae1
 tags:
-  3.1.0--py38hdfd78af_0: sha256:9187a6c7e380b32ef54665ae1ffe83ab663d23066f4747ed28342f25ad0f3bb4
+  3.1.0--py38hdfd78af_0: 
+    sha256:9187a6c7e380b32ef54665ae1ffe83ab663d23066f4747ed28342f25ad0f3bb4
+  3.5.0--py311hdfd78af_0: 
+    sha256:6b6ffd47ea131f01e25103ba553fd256c7f9b5d056caec94fbfdba4759273ae1
+  3.4.3--py311hdfd78af_0: 
+    sha256:b79ab363bedf0e9bfdefd1ec4369a3b79de4d646dbd2f7fa563d925d8ccdb131
+  3.3.4--py38hdfd78af_0: 
+    sha256:b7d13b8b26e63bbf47b39927388c0bdb38e60176f14b02dd884852b295786105
+  3.2.2--py38hdfd78af_0: 
+    sha256:a86fb241ce30867ba8269466461391a3482d9fb45fe1003a362f10ed884709c9
+  3.1.3--py38hdfd78af_0: 
+    sha256:ba7b5b4bb882089982241bd53a9ca8a83a0f00f5d5439b59e854ee7bd0f548e1
 docker: quay.io/biocontainers/cmat
 aliases:
   VERSION: /usr/local/bin/VERSION

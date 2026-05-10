@@ -3,19 +3,11 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scsr
 latest:
-  'crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout': 'crane
-    digest quay.io/biocontainers/bioconductor-scsr:crane ls quay.io/biocontainers/bioconductor-scsr:
-    unrecognized HTTP status: 504 Gateway Timeout: parsing reference "quay.io/biocontainers/bioconductor-scsr:crane
-    ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway
-    Timeout": could not parse reference'
+  1.23.0--r40_0: 
+    sha256:223b8b2f6011547e22772cb6e738ad736e2c4c55b001ae51568ef327d55f2f18
 tags:
   1.23.0--r40_0: 
     sha256:223b8b2f6011547e22772cb6e738ad736e2c4c55b001ae51568ef327d55f2f18
-  'crane ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway Timeout': 'crane
-    digest quay.io/biocontainers/bioconductor-scsr:crane ls quay.io/biocontainers/bioconductor-scsr:
-    unrecognized HTTP status: 504 Gateway Timeout: parsing reference "quay.io/biocontainers/bioconductor-scsr:crane
-    ls quay.io/biocontainers/bioconductor-scsr: unrecognized HTTP status: 504 Gateway
-    Timeout": could not parse reference'
 docker: quay.io/biocontainers/bioconductor-scsr
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

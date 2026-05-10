@@ -19,6 +19,8 @@ tags:
     sha256:dd609707e292996374dd3be87aa02e35001ba5f0c6152d627d882dc07288cf81
   1.1.6--py312h0fa9677_0: 
     sha256:94c7cd9a713157affe93d3f1fa60e60d35a6385adc6b419d5f73c68eea8a54e8
+  1.1.1--py38h0213d0e_0: 
+    sha256:04a817aac00773f19f9e79c45305c115e15b67d0d8a813c324cc2a387d2a32b5
 docker: quay.io/biocontainers/umi_tools
 aliases:
   umi_tools: /usr/local/bin/umi_tools

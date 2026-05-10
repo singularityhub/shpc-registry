@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/maegatk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for maegatk
 latest:
-  0.2.0--pyhdfd78af_0: sha256:95c3392a843c3978ad545cbbee864dfa273ff2d5c97fd920efb1c787f3dfc9fc
+  0.2.0--pyhdfd78af_2: 
+    sha256:851b84971974790aefebd5817278aafdb4e71486baa37c8f7259ab1b1ee6d4ec
 tags:
-  0.2.0--pyhdfd78af_0: sha256:95c3392a843c3978ad545cbbee864dfa273ff2d5c97fd920efb1c787f3dfc9fc
+  0.2.0--pyhdfd78af_0: 
+    sha256:95c3392a843c3978ad545cbbee864dfa273ff2d5c97fd920efb1c787f3dfc9fc
+  0.2.0--pyhdfd78af_2: 
+    sha256:851b84971974790aefebd5817278aafdb4e71486baa37c8f7259ab1b1ee6d4ec
 docker: quay.io/biocontainers/maegatk
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv
@@ -21,7 +25,8 @@ aliases:
   coverage_to_regions.py: /usr/local/bin/coverage_to_regions.py
   fasta_generate_regions.py: /usr/local/bin/fasta_generate_regions.py
   freebayes-parallel: /usr/local/bin/freebayes-parallel
-  generate_freebayes_region_scripts.sh: /usr/local/bin/generate_freebayes_region_scripts.sh
+  generate_freebayes_region_scripts.sh: 
+    /usr/local/bin/generate_freebayes_region_scripts.sh
   freebayes: /usr/local/bin/freebayes
   abba-baba: /usr/local/bin/abba-baba
   bFst: /usr/local/bin/bFst

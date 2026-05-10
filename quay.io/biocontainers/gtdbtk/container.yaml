@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gtdbtk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gtdbtk
 latest:
-  2.7.1--pyhdfd78af_1: 
-    sha256:36b734f1ec7db6924c159eb3ab683d8f81534624bcd5dea15887bb5b86e539ac
+  2.7.2--pyhdfd78af_0: 
+    sha256:609f382c0b4ea4f2382eb928344cf457d7184117751f43381ee9fee008fcbb44
 tags:
   2.1.1--pyhdfd78af_1: 
     sha256:8a3f3b4416fb8c01f7c3c73cb05309c6b85d81a9028f8db8f9ef783e72c63bcb
@@ -29,6 +29,8 @@ tags:
     sha256:1ae5c83da136866b57dfc267cc662e7f7762ed3e9af40416f9e7e2f196a2a0de
   2.7.1--pyhdfd78af_1: 
     sha256:36b734f1ec7db6924c159eb3ab683d8f81534624bcd5dea15887bb5b86e539ac
+  2.7.2--pyhdfd78af_0: 
+    sha256:609f382c0b4ea4f2382eb928344cf457d7184117751f43381ee9fee008fcbb44
 docker: quay.io/biocontainers/gtdbtk
 aliases:
   download-db.sh: /usr/local/bin/download-db.sh

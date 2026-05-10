@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-rhinotyper
 latest:
-  1.0.0--r44hdfd78af_0: 
-    sha256:7c1ab94c5542cbfd14036a6c6a021793cebbfe375a125703ef4ba50bd4502f35
+  1.4.0--r45hdfd78af_0: 
+    sha256:f5d7969846b1af64f5751191e7b7b9622f5818edb475439dad4c2c3ddb0b7c9b
 tags:
   1.0.0--r44hdfd78af_0: 
     sha256:7c1ab94c5542cbfd14036a6c6a021793cebbfe375a125703ef4ba50bd4502f35
+  1.4.0--r45hdfd78af_0: 
+    sha256:f5d7969846b1af64f5751191e7b7b9622f5818edb475439dad4c2c3ddb0b7c9b
 docker: quay.io/biocontainers/bioconductor-rhinotyper
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cghmcr
 latest:
-  1.64.0--r44hdfd78af_0: 
-    sha256:649cca9d51a8fd9d570ab2b06d4c411c97a607926e6b3ae6085b728497f7fa4e
+  1.68.0--r45hdfd78af_0: 
+    sha256:91b684807afad869a276f90cb93c2978856ec055793aeb914a659bb1fe9a68ee
 tags:
   1.52.0--r41hdfd78af_0: 
     sha256:e28e37b1d0bb6a7a0bbbe8bfc535685a20d7dc751952cb9320e8b20dccdd68b7
@@ -16,4 +16,6 @@ tags:
     sha256:cd7fcb85b46e2805fee3cbaa8ccc62200ee26df0f9ed9d5adbebdbdbec5e1508
   1.64.0--r44hdfd78af_0: 
     sha256:649cca9d51a8fd9d570ab2b06d4c411c97a607926e6b3ae6085b728497f7fa4e
+  1.68.0--r45hdfd78af_0: 
+    sha256:91b684807afad869a276f90cb93c2978856ec055793aeb914a659bb1fe9a68ee
 docker: quay.io/biocontainers/bioconductor-cghmcr

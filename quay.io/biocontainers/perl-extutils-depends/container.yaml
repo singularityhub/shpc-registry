@@ -1,10 +1,15 @@
 url: https://biocontainers.pro/tools/perl-extutils-depends
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-extutils-depends
+description: shpc-registry automated BioContainers addition for 
+  perl-extutils-depends
 latest:
-  0.8001--pl5321hdfd78af_0: sha256:9effeb40a5c563e7c20e9a5c716ed746c0b7c7b9b7cb866cd8a2dd2a56fe607c
+  0.8002--pl5321hdfd78af_0: 
+    sha256:c015d47d432c8782d7ec81e2a629e90f0eef13245188fc5483a78275a272624a
 tags:
-  0.8001--pl5321hdfd78af_0: sha256:9effeb40a5c563e7c20e9a5c716ed746c0b7c7b9b7cb866cd8a2dd2a56fe607c
+  0.8001--pl5321hdfd78af_0: 
+    sha256:9effeb40a5c563e7c20e9a5c716ed746c0b7c7b9b7cb866cd8a2dd2a56fe607c
+  0.8002--pl5321hdfd78af_0: 
+    sha256:c015d47d432c8782d7ec81e2a629e90f0eef13245188fc5483a78275a272624a
 docker: quay.io/biocontainers/perl-extutils-depends
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

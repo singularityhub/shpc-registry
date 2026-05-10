@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/ourotools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ourotools
 latest:
-  0.2.8--pyhdfd78af_0: sha256:83a84f851d322dd862aa1ff0ad9448493b77d6a49dd52292bc375cb0adc07e23
+  0.2.9--pyhdfd78af_0: 
+    sha256:bb7f6c074ee3fe5b58a9fcccd70377ad55b56e9a1ba651049dbfaa57945479e1
 tags:
-  0.2.8--pyhdfd78af_0: sha256:83a84f851d322dd862aa1ff0ad9448493b77d6a49dd52292bc375cb0adc07e23
+  0.2.8--pyhdfd78af_0: 
+    sha256:83a84f851d322dd862aa1ff0ad9448493b77d6a49dd52292bc375cb0adc07e23
+  0.2.9--pyhdfd78af_0: 
+    sha256:bb7f6c074ee3fe5b58a9fcccd70377ad55b56e9a1ba651049dbfaa57945479e1
 docker: quay.io/biocontainers/ourotools
 aliases:
   h5fuse: /usr/local/bin/h5fuse

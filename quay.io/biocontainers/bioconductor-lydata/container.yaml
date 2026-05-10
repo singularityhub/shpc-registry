@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-lydata
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:86849edfed11fdf2601143182e58ceb01f0edc0d03cbc2d339af5fdf43e35e4e
+  1.36.0--r45hdfd78af_0: 
+    sha256:f1cf30469cf87127a3964a82d0a12a2c79f7992a29e4e008a1e12fa795b82744
 tags:
   1.8.0--r351_0: 
     sha256:930a880caf30c3523505db3633be0b8d99cfe91de272eb1244a97c82416b5db0
@@ -24,6 +24,8 @@ tags:
     sha256:15ea43d51b8543c5d2ddb56c42bcd8571b9e8b5d8c4f1dbd6a494d121a8d8c68
   1.32.0--r44hdfd78af_0: 
     sha256:86849edfed11fdf2601143182e58ceb01f0edc0d03cbc2d339af5fdf43e35e4e
+  1.36.0--r45hdfd78af_0: 
+    sha256:f1cf30469cf87127a3964a82d0a12a2c79f7992a29e4e008a1e12fa795b82744
 docker: quay.io/biocontainers/bioconductor-lydata
 aliases:
   wget: /usr/local/bin/wget

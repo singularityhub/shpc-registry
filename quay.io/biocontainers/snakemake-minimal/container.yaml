@@ -120,6 +120,16 @@ tags:
     sha256:1a2dd787d7a8ce2266d05a43dc0dea0a1173b7cf5820688331693f166866b8e9
   9.14.8--pyhdfd78af_0: 
     sha256:93f0085fab80585e3bd98e16589137f37180e6b348398409f60529887607874a
+  6.5.1--pyhdfd78af_0: 
+    sha256:27deb6098ef02a8e513ddb5f1b21a0de9d1d21f92ebc8f04f05b8198caf9a480
+  6.4.1--pyhdfd78af_0: 
+    sha256:f6150e984aa618d41d74a07aa9da652c49c39db4f3dd8db489f47fe230a460c4
+  6.3.0--pyhdfd78af_0: 
+    sha256:a2324cb5b5a7ac843574b163022d3e2c403c7a968b2b4880e3e9b3a06e0ab2b2
+  6.2.1--pyhdfd78af_0: 
+    sha256:860470e6565280964152ad68c6b8cce1c66485cda42791d9e0485cdf0ad62f28
+  6.1.2--pyhdfd78af_1: 
+    sha256:a2476842fd8e3ee413a8e4fc7052c51749ce754df8bcdc6f13a89c43a188208b
 docker: quay.io/biocontainers/snakemake-minimal
 aliases:
   snakemake: /usr/local/bin/snakemake

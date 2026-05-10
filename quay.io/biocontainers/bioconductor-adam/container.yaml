@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-adam
 latest:
-  1.22.0--r44he5774e6_0: 
-    sha256:2858d2167387a575be69973a72bd42d37605846d45b1b850c42af1f5526ca235
+  1.26.0--r45ha27e39d_0: 
+    sha256:93439fa8a69033f9263d1e87f9e07f917356e2fc23ae9b3414d07a91ac673f7a
 tags:
   1.8.0--r41h399db7b_0: 
     sha256:1e7125c4492d7327120b7195b6c99d99ff93d48733ede9f23d758ca745064a9b
@@ -20,6 +20,8 @@ tags:
     sha256:303df921fd4fe4c75a7cfb63f1427663f88bd79627346cd29adf24a9280ac654
   1.22.0--r44he5774e6_0: 
     sha256:2858d2167387a575be69973a72bd42d37605846d45b1b850c42af1f5526ca235
+  1.26.0--r45ha27e39d_0: 
+    sha256:93439fa8a69033f9263d1e87f9e07f917356e2fc23ae9b3414d07a91ac673f7a
 docker: quay.io/biocontainers/bioconductor-adam
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

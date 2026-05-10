@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rnaframework
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rnaframework
 latest:
-  2.9.6--pl5321hdfd78af_1: 
-    sha256:f6805c5dd3b8860af049b030fc7f2fb1c7b910cf1e789e8d298571d0d41f6dd9
+  2.9.6--pl5321hdfd78af_2: 
+    sha256:cb86b19f199a27fab6632cc5f8e7c6ac77b0b69420c2a650cd88dd803d46b274
 tags:
   2.9.6--pl5321hdfd78af_1: 
     sha256:f6805c5dd3b8860af049b030fc7f2fb1c7b910cf1e789e8d298571d0d41f6dd9
+  2.9.6--pl5321hdfd78af_2: 
+    sha256:cb86b19f199a27fab6632cc5f8e7c6ac77b0b69420c2a650cd88dd803d46b274
 docker: quay.io/biocontainers/rnaframework
 aliases:
   AccessFold: /usr/local/bin/AccessFold

@@ -2,9 +2,15 @@ url: https://biocontainers.pro/tools/vcontact3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vcontact3
 latest:
-  3.0.0.b38--pyhdfd78af_0: sha256:3c6dc1cdefaa8f50e0073792606cb41c30fa6d22a7fb7a0d8227a1a4f61f0f8c
+  3.1.6--pyhdfd78af_0: 
+    sha256:d487a9dab9fe22409413c4993eda6afabc784835c36ab961f81952f776e5c2ba
 tags:
-  3.0.0.b38--pyhdfd78af_0: sha256:3c6dc1cdefaa8f50e0073792606cb41c30fa6d22a7fb7a0d8227a1a4f61f0f8c
+  3.0.0.b38--pyhdfd78af_0: 
+    sha256:3c6dc1cdefaa8f50e0073792606cb41c30fa6d22a7fb7a0d8227a1a4f61f0f8c
+  3.1.6--pyhdfd78af_0: 
+    sha256:d487a9dab9fe22409413c4993eda6afabc784835c36ab961f81952f776e5c2ba
+  3.0.5--pyhdfd78af_0: 
+    sha256:a353376caabf20fd7776b291eeba64cbb40183f2fbd115efcc7b532772b5af67
 docker: quay.io/biocontainers/vcontact3
 aliases:
   archspec: /usr/local/bin/archspec

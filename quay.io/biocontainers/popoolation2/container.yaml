@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/popoolation2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for popoolation2
 latest:
-  1.201--pl5321hdfd78af_0: sha256:8534959fdab0838207502bc23c32210db3a917b3df963f569d3cff64f63d37e0
+  1.201--pl5321hdfd78af_0: 
+    sha256:8534959fdab0838207502bc23c32210db3a917b3df963f569d3cff64f63d37e0
 tags:
-  1.201--pl5321hdfd78af_0: sha256:8534959fdab0838207502bc23c32210db3a917b3df963f569d3cff64f63d37e0
+  1.201--pl5321hdfd78af_0: 
+    sha256:8534959fdab0838207502bc23c32210db3a917b3df963f569d3cff64f63d37e0
 docker: quay.io/biocontainers/popoolation2
 aliases:
   cmh-test.pl: /usr/local/bin/cmh-test.pl

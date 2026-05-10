@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nupop
 latest:
-  2.14.0--r44h4d5c4aa_0: 
-    sha256:32b12043ddbd9bc6a17c06bb3050381bd05fc46e14c5fbdcc4a29a07cc03afa1
+  2.18.0--r45h63f16b7_0: 
+    sha256:fb023791d8c3626987fbee897df669a7d175047095c1e522c29dd4600508c117
 tags:
   2.2.0--r41hefde4a7_2: 
     sha256:570f4d0cb7bb3299f4ba501423a3958c3b46bb50e96da4a4032319d029f54223
@@ -18,4 +18,6 @@ tags:
     sha256:10f555500b063f0413566fae2b861d860b693f02a1fd89787420196c72304c7b
   2.14.0--r44h4d5c4aa_0: 
     sha256:32b12043ddbd9bc6a17c06bb3050381bd05fc46e14c5fbdcc4a29a07cc03afa1
+  2.18.0--r45h63f16b7_0: 
+    sha256:fb023791d8c3626987fbee897df669a7d175047095c1e522c29dd4600508c117
 docker: quay.io/biocontainers/bioconductor-nupop

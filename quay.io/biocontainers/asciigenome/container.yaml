@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/asciigenome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for asciigenome
 latest:
-  1.19.0--hdfd78af_0: 
-    sha256:1945920e6332e2bc8234712b6715f9958f6843342196a9649ef59e03c1b1ae02
+  1.20.0--hdfd78af_1: 
+    sha256:84b4a7a2bad0fdc2f4a429e27de2e5887219c02a41686c99a8e9cb82566ebf31
 tags:
   1.8.0--0: 
     sha256:f7e4ded96a06ec70dcc4171bb3844249f3060be626f85789f5c1403739e04e9a
@@ -23,6 +23,8 @@ tags:
     sha256:cba796df9863747c7fe394a203de69411af65fa156fc55af7f6b00822755621b
   1.19.0--hdfd78af_0: 
     sha256:1945920e6332e2bc8234712b6715f9958f6843342196a9649ef59e03c1b1ae02
+  1.20.0--hdfd78af_1: 
+    sha256:84b4a7a2bad0fdc2f4a429e27de2e5887219c02a41686c99a8e9cb82566ebf31
 docker: quay.io/biocontainers/asciigenome
 aliases:
   ASCIIGenome: /usr/local/bin/ASCIIGenome

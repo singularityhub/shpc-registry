@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/mach2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mach2
 latest:
-  1.0.1.1--pyhdfd78af_0: sha256:20d118ad610a5d9eeb7a729b5e3da0c6ea521c7c8cba511887259ba8799effa1
+  1.0.2--pyhdfd78af_0: 
+    sha256:19fcf9d5c1296ebc9dd4f11b8858426e58fbb1dc80d9afe82d366b4c9423e6ed
 tags:
-  1.0.1.1--pyhdfd78af_0: sha256:20d118ad610a5d9eeb7a729b5e3da0c6ea521c7c8cba511887259ba8799effa1
+  1.0.1.1--pyhdfd78af_0: 
+    sha256:20d118ad610a5d9eeb7a729b5e3da0c6ea521c7c8cba511887259ba8799effa1
+  1.0.2--pyhdfd78af_0: 
+    sha256:19fcf9d5c1296ebc9dd4f11b8858426e58fbb1dc80d9afe82d366b4c9423e6ed
 docker: quay.io/biocontainers/mach2
 aliases:
   debugpy: /usr/local/bin/debugpy

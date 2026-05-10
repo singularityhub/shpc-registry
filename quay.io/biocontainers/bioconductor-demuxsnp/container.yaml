@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-demuxsnp
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:c869ffe15d928872488fe943392efd9102dd8c33a8d84e42daff302f9a8abe06
+  1.8.0--r45hdfd78af_0: 
+    sha256:73fc6d0e8ca79786681e57a75682815ed55a917eb56d8133ef32e82911a6ceb0
 tags:
   1.0.0--r43hdfd78af_0: 
     sha256:fdbfb5a6ab34579dec04ec61f262e0420bfa8d7fab4697617d8c0aa70da7ce41
   1.4.0--r44hdfd78af_0: 
     sha256:c869ffe15d928872488fe943392efd9102dd8c33a8d84e42daff302f9a8abe06
+  1.8.0--r45hdfd78af_0: 
+    sha256:73fc6d0e8ca79786681e57a75682815ed55a917eb56d8133ef32e82911a6ceb0
 docker: quay.io/biocontainers/bioconductor-demuxsnp
 aliases:
   pcre2posix_test: /usr/local/bin/pcre2posix_test

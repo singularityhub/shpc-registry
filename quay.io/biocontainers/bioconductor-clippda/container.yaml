@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-clippda
 latest:
-  1.56.0--r44hdfd78af_0: 
-    sha256:89b23299a8e14f149113a1a3545ddaf56c2c3fb1917c85b5c8696bb1c6079213
+  1.60.0--r45h575d39b_0: 
+    sha256:96de11a16ae31b28de4f062e4935f4a31e671bb46ab94f47ca30c9d25cf30c27
 tags:
   1.44.0--r41hdfd78af_0: 
     sha256:8a63a3c185c090070e5df0dd3bd9e9f0901cbbd7d070c59861081726cdd04142
@@ -16,4 +16,6 @@ tags:
     sha256:01cbdbddcc16546eff921464a5fd5981734eb311ebfdc809909ecb4486bab54f
   1.56.0--r44hdfd78af_0: 
     sha256:89b23299a8e14f149113a1a3545ddaf56c2c3fb1917c85b5c8696bb1c6079213
+  1.60.0--r45h575d39b_0: 
+    sha256:96de11a16ae31b28de4f062e4935f4a31e671bb46ab94f47ca30c9d25cf30c27
 docker: quay.io/biocontainers/bioconductor-clippda

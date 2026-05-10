@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sparrow
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:bd14560fbfc750dfdc54b3680b81e5924fff67301e44b3a3c4e6d548717a4075
+  1.16.0--r45hdfd78af_0: 
+    sha256:f48c33f3c0689f7ac3724029c5e1544196e9aa2300ed46431fc82931935b6aa4
 tags:
   1.0.1--r41hdfd78af_0: 
     sha256:f58daa0faeccdeabaff45413439414c42edf545648d3db1da1374dd1c152eb4e
@@ -16,4 +16,6 @@ tags:
     sha256:a3a87cdfdd2f31da8e0685e38a88171652a498ce394abbeb6ffc591450714d07
   1.12.0--r44hdfd78af_0: 
     sha256:bd14560fbfc750dfdc54b3680b81e5924fff67301e44b3a3c4e6d548717a4075
+  1.16.0--r45hdfd78af_0: 
+    sha256:f48c33f3c0689f7ac3724029c5e1544196e9aa2300ed46431fc82931935b6aa4
 docker: quay.io/biocontainers/bioconductor-sparrow

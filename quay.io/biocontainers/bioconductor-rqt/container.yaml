@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rqt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rqt
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:f1a19e142aa97a75cf96e2e433abaad22f5a68f2766606a8a61ba6b6b6a5f6d0
+  1.36.0--r45ha5da241_0: 
+    sha256:6587baabf6aeaa3fc853c4f068a7660c96292f24cdecf524dc4b6bd8601edfc9
 tags:
   1.8.0--r351_0: 
     sha256:143260fe5d561164f8512327f2a8b42746791c1ecbabdcec78f1653c02f8085f
@@ -23,6 +23,8 @@ tags:
     sha256:eaa500e6573caba5c16dc3e0a56441b61f4b737b5e239427f57b4ea4fbf71470
   1.32.0--r44hdfd78af_0: 
     sha256:f1a19e142aa97a75cf96e2e433abaad22f5a68f2766606a8a61ba6b6b6a5f6d0
+  1.36.0--r45ha5da241_0: 
+    sha256:6587baabf6aeaa3fc853c4f068a7660c96292f24cdecf524dc4b6bd8601edfc9
 docker: quay.io/biocontainers/bioconductor-rqt
 aliases:
   wget: /usr/local/bin/wget

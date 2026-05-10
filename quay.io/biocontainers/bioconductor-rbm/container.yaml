@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rbm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rbm
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:63e4053852c061a12a944f5c821bf335d37f8d2111677366a9b13980f681642c
+  1.42.0--r45hdfd78af_0: 
+    sha256:1f56cfc23d8b95146cb4a632edb7ec41981db0832c8db815a632bb24ec4090e0
 tags:
   1.8.0--r3.3.2_0: 
     sha256:8efd935607f3fbcbc6f1fb7e32200c7df7bc890e7f920dc20a8a003514b654ca
@@ -23,6 +23,8 @@ tags:
     sha256:aaa14b3ad69143943c5fd8e8b4e9bee3cf9f853abf1ec014750f3040befd9a94
   1.38.0--r44hdfd78af_0: 
     sha256:63e4053852c061a12a944f5c821bf335d37f8d2111677366a9b13980f681642c
+  1.42.0--r45hdfd78af_0: 
+    sha256:1f56cfc23d8b95146cb4a632edb7ec41981db0832c8db815a632bb24ec4090e0
 docker: quay.io/biocontainers/bioconductor-rbm
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

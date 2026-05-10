@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genomicinstability
 latest:
-  1.12.0--r44hdfd78af_0: 
-    sha256:c9ef30360da0a18885d6a064682c316cc369172f695f798c0219c85db8acf48e
+  1.16.0--r45hdfd78af_0: 
+    sha256:d8c051e72bc3ebe1a21d8469af05d0aac5a4f9f4bc802f82c92bd9ec7e3ee6f2
 tags:
   1.0.0--r41hdfd78af_0: 
     sha256:b2dfa52c92271683a44b6d4ce4e18cbc16ee3eb4b779474b45d9e327e0dfa54e
@@ -16,4 +16,6 @@ tags:
     sha256:fbd2a0aebec9c4b7080ef81c3063c4d5207a7b3344c2a3543328640e8d4bbf44
   1.12.0--r44hdfd78af_0: 
     sha256:c9ef30360da0a18885d6a064682c316cc369172f695f798c0219c85db8acf48e
+  1.16.0--r45hdfd78af_0: 
+    sha256:d8c051e72bc3ebe1a21d8469af05d0aac5a4f9f4bc802f82c92bd9ec7e3ee6f2
 docker: quay.io/biocontainers/bioconductor-genomicinstability
