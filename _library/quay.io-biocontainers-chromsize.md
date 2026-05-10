@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromsize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromsize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromsize/container.yaml"
-updated_at: "2026-05-09 06:51:27.193030"
+updated_at: "2026-05-10 06:22:58.464050"
 latest: "0.0.32--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/chromsize"
 aliases:

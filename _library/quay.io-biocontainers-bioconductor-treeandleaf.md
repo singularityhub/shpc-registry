@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-treeandleaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treeandleaf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treeandleaf/container.yaml"
-updated_at: "2026-05-09 06:59:46.570795"
+updated_at: "2026-05-10 06:31:52.393168"
 latest: "1.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-treeandleaf"
 

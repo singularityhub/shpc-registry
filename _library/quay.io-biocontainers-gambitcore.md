@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gambitcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gambitcore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gambitcore/container.yaml"
-updated_at: "2026-05-09 06:39:57.991889"
+updated_at: "2026-05-10 06:10:54.820135"
 latest: "0.0.2--py310h1fe012e_0"
 container_url: "https://biocontainers.pro/tools/gambitcore"
 aliases:

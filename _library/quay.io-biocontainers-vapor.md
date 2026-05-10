@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vapor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vapor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vapor/container.yaml"
-updated_at: "2026-05-09 06:46:36.482438"
+updated_at: "2026-05-10 06:17:48.051981"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vapor"
 aliases:

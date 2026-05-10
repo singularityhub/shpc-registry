@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-uniprot.ws"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-uniprot.ws/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-uniprot.ws/container.yaml"
-updated_at: "2026-05-09 06:38:54.454595"
+updated_at: "2026-05-10 06:09:48.465872"
 latest: "2.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-uniprot.ws"
 

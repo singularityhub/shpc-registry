@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-cleannamespaces"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-cleannamespaces/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-cleannamespaces/container.yaml"
-updated_at: "2026-05-09 06:39:41.665451"
+updated_at: "2026-05-10 06:10:37.585954"
 latest: "0.24--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-cleannamespaces"
 aliases:

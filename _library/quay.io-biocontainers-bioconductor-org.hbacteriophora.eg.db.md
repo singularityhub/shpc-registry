@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-org.hbacteriophora.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.hbacteriophora.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.hbacteriophora.eg.db/container.yaml"
-updated_at: "2026-05-09 06:11:13.621299"
+updated_at: "2026-05-10 05:41:47.073155"
 latest: "0.99.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.hbacteriophora.eg.db"
 aliases:

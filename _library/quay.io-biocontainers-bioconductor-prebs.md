@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prebs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prebs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prebs/container.yaml"
-updated_at: "2026-05-09 06:33:48.200695"
+updated_at: "2026-05-10 06:04:28.242581"
 latest: "1.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prebs"
 aliases:

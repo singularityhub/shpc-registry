@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tmb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tmb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tmb/container.yaml"
-updated_at: "2026-05-09 06:44:25.902803"
+updated_at: "2026-05-10 06:15:34.316419"
 latest: "1.6.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tmb"
 aliases:

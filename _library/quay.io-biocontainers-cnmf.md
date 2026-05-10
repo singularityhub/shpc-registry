@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnmf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnmf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnmf/container.yaml"
-updated_at: "2026-05-09 06:31:01.730025"
+updated_at: "2026-05-10 06:01:38.347844"
 latest: "1.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cnmf"
 aliases:

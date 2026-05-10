@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lungexpression"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lungexpression/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lungexpression/container.yaml"
-updated_at: "2026-05-09 06:52:19.517475"
+updated_at: "2026-05-10 06:23:53.802838"
 latest: "0.48.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lungexpression"
 

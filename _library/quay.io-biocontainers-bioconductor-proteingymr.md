@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proteingymr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteingymr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteingymr/container.yaml"
-updated_at: "2026-05-09 06:19:40.228160"
+updated_at: "2026-05-10 05:50:13.689493"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteingymr"
 aliases:
