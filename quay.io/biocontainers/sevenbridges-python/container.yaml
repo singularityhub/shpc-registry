@@ -32,6 +32,8 @@ tags:
     sha256:4f00121801504a2f91f642f162764e35e97137bca2f2912d3fc4e0290add7c03
   2.11.2--pyhdfd78af_0: 
     sha256:c4875ded905f8c6bddda0ecce1a0fafc749a5951297d1b0e609aacc21860ac4b
+  0.29.3--py_0: 
+    sha256:e2edbc53c947f401f1f58ae82f06700982b3b2031229e5a2a1cca7f35ea23ee6
 docker: quay.io/biocontainers/sevenbridges-python
 aliases:
   chardetect: /usr/local/bin/chardetect

@@ -1,13 +1,25 @@
 url: https://biocontainers.pro/tools/bioconductor-cnorode
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-cnorode
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-cnorode
 latest:
-  1.42.0--r43ha9d7317_0: sha256:d1241bdcfccdca3878e28af07a374f7de20a3627061be47d5112bd7f0df54eec
+  1.52.0--r45h01b2380_0: 
+    sha256:359f8d361e518813b9adc676961018a899137b724518845faeb37db326f57ca5
 tags:
-  1.36.0--r41hc0cfd56_2: sha256:a8cd23f3f460ba315df483c7fa06a262076ba39aaffbf87b762c890548f38805
-  1.40.0--r42hc0cfd56_0: sha256:77ee06782dfc1b8add313ca285bf60d099a0405a22a3d4f8e70992ec06f1a7b9
-  1.40.0--r42ha9d7317_1: sha256:0b538a8e49e07860e05bc9e0798e7a663739a00d3470563aebac6c9bfa8f7901
-  1.42.0--r43ha9d7317_0: sha256:d1241bdcfccdca3878e28af07a374f7de20a3627061be47d5112bd7f0df54eec
+  1.36.0--r41hc0cfd56_2: 
+    sha256:a8cd23f3f460ba315df483c7fa06a262076ba39aaffbf87b762c890548f38805
+  1.40.0--r42hc0cfd56_0: 
+    sha256:77ee06782dfc1b8add313ca285bf60d099a0405a22a3d4f8e70992ec06f1a7b9
+  1.40.0--r42ha9d7317_1: 
+    sha256:0b538a8e49e07860e05bc9e0798e7a663739a00d3470563aebac6c9bfa8f7901
+  1.42.0--r43ha9d7317_0: 
+    sha256:d1241bdcfccdca3878e28af07a374f7de20a3627061be47d5112bd7f0df54eec
+  1.52.0--r45h01b2380_0: 
+    sha256:359f8d361e518813b9adc676961018a899137b724518845faeb37db326f57ca5
+  1.48.0--r44h3df3fcb_0: 
+    sha256:361d3c201f94f02c19577c91b5ccc20b265c756ac0c19b30822e0f87762ee55c
+  1.44.0--r43ha9d7317_0: 
+    sha256:ed0661685bdb099bf346c6751a3ba7a2a4014085bf1575882a2e8eef31e0eae4
 docker: quay.io/biocontainers/bioconductor-cnorode
 aliases:
   diffimg: /usr/local/bin/diffimg

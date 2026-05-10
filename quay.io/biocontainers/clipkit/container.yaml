@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/clipkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for clipkit
 latest:
-  2.7.0--pyhdfd78af_0: 
-    sha256:c074125d88620e088345c730b1fa572f3467cbf6b6441728262a4ee3b2a86c00
+  2.11.4--pyhdfd78af_0: 
+    sha256:86d98ef19ec864c5cadceef5bfc501236a569d97ae99fb6faaeb83e3b61f1ea8
 tags:
   1.3.0--pyhdfd78af_0: 
     sha256:bb97e79f0e669a077bda8d2366dd583fbcbf4991d5396bdca4162896c351cd13
@@ -25,6 +25,10 @@ tags:
     sha256:e6f0cb50d1d276c93b2f8010e4b7908e1947c4620ff2525e287f15ce107b9ece
   2.7.0--pyhdfd78af_0: 
     sha256:c074125d88620e088345c730b1fa572f3467cbf6b6441728262a4ee3b2a86c00
+  2.11.4--pyhdfd78af_0: 
+    sha256:86d98ef19ec864c5cadceef5bfc501236a569d97ae99fb6faaeb83e3b61f1ea8
+  2.10.2--pyhdfd78af_0: 
+    sha256:4ccf691a29c5a9e2326ecf8f96052eff7180294f9f3da7a385e265223e270319
 docker: quay.io/biocontainers/clipkit
 aliases:
   clipkit: /usr/local/bin/clipkit

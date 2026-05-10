@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hgu95a.db
 latest:
-  3.13.0--r44hdfd78af_5: 
-    sha256:8755efcf1de093941850ab7b76cac182db2872b75586740f0417636cab8f3161
+  3.13.0--r45hdfd78af_6: 
+    sha256:293043e3e80245cdfe86ddb1742a17162f4a37b81944889a43726af8f3d86b0a
 tags:
   3.2.3--r41hdfd78af_7: 
     sha256:0f412eae423e8e32584f90d581ae45e9d8e6a717730f92e351a3c2bce254be69
@@ -16,6 +16,8 @@ tags:
     sha256:1ca0a72fa3ab34a8cb09cdb304e9ec8179cfd2b65a256887790fc416dbde1a33
   3.13.0--r44hdfd78af_5: 
     sha256:8755efcf1de093941850ab7b76cac182db2872b75586740f0417636cab8f3161
+  3.13.0--r45hdfd78af_6: 
+    sha256:293043e3e80245cdfe86ddb1742a17162f4a37b81944889a43726af8f3d86b0a
 docker: quay.io/biocontainers/bioconductor-hgu95a.db
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

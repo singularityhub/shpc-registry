@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-memes
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:bd3f3e8360b56be14c37b608f9ad5eac1933dae74439b208a53fbe3a945c86c2
+  1.18.0--r45hdfd78af_0: 
+    sha256:21162d9532ba20b3bdd13a26b490cd26324adf166f2cc9d063f617be7cec5aea
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:6c64da8ec39a83cee02e4f1653c30db92927384c51d7cb07635b8430474d3d96
@@ -16,4 +16,6 @@ tags:
     sha256:bcfe6a2cdfcf6e9cf6cc9f37a8a5ad6d4b8eca4d314b6eb773a70450074cb7af
   1.14.0--r44hdfd78af_0: 
     sha256:bd3f3e8360b56be14c37b608f9ad5eac1933dae74439b208a53fbe3a945c86c2
+  1.18.0--r45hdfd78af_0: 
+    sha256:21162d9532ba20b3bdd13a26b490cd26324adf166f2cc9d063f617be7cec5aea
 docker: quay.io/biocontainers/bioconductor-memes

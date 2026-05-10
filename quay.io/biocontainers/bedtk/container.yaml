@@ -2,10 +2,19 @@ url: https://biocontainers.pro/tools/bedtk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bedtk
 latest:
-  0.0.r25.dirty--he4a0461_4: sha256:1e5b41de8a079e2820596a8cf2e76538cdacf7fa40da0f51717436da77b6f765
+  1.2--h9990f68_0: 
+    sha256:ed717414a24148f0f75e64cdbd3169fc2733695d3cbf98f1aa64d6f2f5eb47b0
 tags:
-  0.0.r25.dirty--h7132678_2: sha256:7b6775d5f691908e9cd6cd6e2d70ee8ac7cb43ed5acea2f09d235930f9c3aed5
-  0.0.r25.dirty--he4a0461_4: sha256:1e5b41de8a079e2820596a8cf2e76538cdacf7fa40da0f51717436da77b6f765
+  0.0.r25.dirty--h7132678_2: 
+    sha256:7b6775d5f691908e9cd6cd6e2d70ee8ac7cb43ed5acea2f09d235930f9c3aed5
+  0.0.r25.dirty--he4a0461_4: 
+    sha256:1e5b41de8a079e2820596a8cf2e76538cdacf7fa40da0f51717436da77b6f765
+  1.2--h9990f68_0: 
+    sha256:ed717414a24148f0f75e64cdbd3169fc2733695d3cbf98f1aa64d6f2f5eb47b0
+  1.1--h9990f68_0: 
+    sha256:0534412c29c1d9802a22674edde39b2da98a8abe35523691b4d5fd52250672b2
+  0.0.r25.dirty--h577a1d6_6: 
+    sha256:9a2655c03a72fbf72cf5e01f1d2896bd40b08a00bc4ad5f725bc2071cbd483d7
 docker: quay.io/biocontainers/bedtk
 aliases:
   bedtk: /usr/local/bin/bedtk

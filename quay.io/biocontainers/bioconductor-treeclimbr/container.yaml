@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-treeclimbr
 latest:
-  1.2.0--r44hdfd78af_0: 
-    sha256:f609b52ee4fb6584139449e14c022ae35489c3359e7819eca87e0b66e1c4fcf4
+  1.6.0--r45hdfd78af_0: 
+    sha256:454135a452a46da4d13052e05edb8d653709c42021a75bc451ffd68004d61f1a
 tags:
   1.2.0--r44hdfd78af_0: 
     sha256:f609b52ee4fb6584139449e14c022ae35489c3359e7819eca87e0b66e1c4fcf4
+  1.6.0--r45hdfd78af_0: 
+    sha256:454135a452a46da4d13052e05edb8d653709c42021a75bc451ffd68004d61f1a
 docker: quay.io/biocontainers/bioconductor-treeclimbr
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

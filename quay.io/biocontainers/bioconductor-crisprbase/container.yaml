@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-crisprbase
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:6206d6f27830a1d42e88201dacba0936c99c9bcf0c1089d9c814bc15e372cef4
+  1.14.0--r45hdfd78af_0: 
+    sha256:bfebb1517ec616bdb9650ee366d41aa05117ad69bf0d94d731867177aeee73a5
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:ef9099180bff4a823e7d5b66afa67e3d3e780f137a22711aeffddcb8cf705ed2
@@ -14,6 +14,8 @@ tags:
     sha256:92467018e183221b65622049ecb41a7c04ddcacc4c7a4a5a7030ed58c99703da
   1.10.0--r44hdfd78af_0: 
     sha256:6206d6f27830a1d42e88201dacba0936c99c9bcf0c1089d9c814bc15e372cef4
+  1.14.0--r45hdfd78af_0: 
+    sha256:bfebb1517ec616bdb9650ee366d41aa05117ad69bf0d94d731867177aeee73a5
 docker: quay.io/biocontainers/bioconductor-crisprbase
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

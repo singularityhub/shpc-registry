@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cosmiq
 latest:
-  1.40.0--r44he5774e6_0: 
-    sha256:0f852f2ce45bb5d1dcff1556c45a6358e51abb87d3c761ec9f35a552e39313ec
+  1.44.0--r45ha27e39d_0: 
+    sha256:1f3ad65ea9208bad4ee9748f4f0660e599e29f1c3f38c05747de51f367df46d9
 tags:
   1.28.0--r41hc247a5b_2: 
     sha256:58f9831c54d25fa60a651b0706162120035a2eed282d859939b61214045a053c
@@ -18,6 +18,8 @@ tags:
     sha256:43b7df1783636bf2897542ce3dad8361a34203ed49f2abe98c223805e851bfa2
   1.40.0--r44he5774e6_0: 
     sha256:0f852f2ce45bb5d1dcff1556c45a6358e51abb87d3c761ec9f35a552e39313ec
+  1.44.0--r45ha27e39d_0: 
+    sha256:1f3ad65ea9208bad4ee9748f4f0660e599e29f1c3f38c05747de51f367df46d9
 docker: quay.io/biocontainers/bioconductor-cosmiq
 aliases:
   zipcmp: /usr/local/bin/zipcmp

@@ -3,89 +3,26 @@ url: https://hub.docker.com/r/_/golang
 maintainer: '@vsoch'
 description: Go (a.k.a., Golang) is a programming language first developed at 
   Google.
-latest:
-  1-nanoserver-ltsc2025: 'crane digest golang:1-nanoserver-ltsc2025: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
 filter:
-- ^(?!nano).*$
-- ^(?!windows).*$
+- ^\d+(\.\d+)*$
+- ^((?!nanoserver).)*$
+- ^((?!windowsservercore).)*$
+- ^((?!alpine3).)*$
+
+latest:
+  1.26.3: 
+    sha256:2981696eed011d747340d7252620932677929cce7d2d539602f56a8d7e9b660b
 tags:
-  1.16.4-alpine: 
-    sha256:0dc62c5cc2d97657c17ff3bc0224214e10226e245c94317e352ee8a2c54368b4
-  1.16.5-alpine: 
-    sha256:45f32e963bb3cc408cfcd01a8e76b2872fb238f602ec5481cd75393da29369c0
-  1.17-rc-alpine: 'crane digest golang:1.17-rc-alpine: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17.0: 'crane digest golang:1.17.0: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17.2: 'crane digest golang:1.17.2: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17.3: 'crane digest golang:1.17.3: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.18-rc: 'crane digest golang:1.18-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  latest: 'crane digest golang:latest: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1': 'crane digest golang:1: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.18': 'crane digest golang:1.18: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17rc2: 'crane digest golang:1.17rc2: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.17rc2-buster: 'crane digest golang:1.17rc2-buster: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.19-rc: 'crane digest golang:1.19-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.18-rc-buster: 'crane digest golang:1.18-rc-buster: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.19': 'crane digest golang:1.19: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.17': 'crane digest golang:1.17: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.16': 'crane digest golang:1.16: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.20-rc: 'crane digest golang:1.20-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-ltsc2022: 'crane digest golang:1-nanoserver-ltsc2022: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-sac2016: 'crane digest golang:1-nanoserver-sac2016: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-1809: 'crane digest golang:1-nanoserver-1809: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.20': 'crane digest golang:1.20: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-1803: 'crane digest golang:1-nanoserver-1803: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.21': 'crane digest golang:1.21: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.22-rc: 'crane digest golang:1.22-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.22': 'crane digest golang:1.22: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.23-rc: 'crane digest golang:1.23-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.23': 'crane digest golang:1.23: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.24-rc: 'crane digest golang:1.24-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1-nanoserver-ltsc2025: 'crane digest golang:1-nanoserver-ltsc2025: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.24': 'crane digest golang:1.24: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.22.9: 'crane digest golang:1.22.9: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.25-rc: 'crane digest golang:1.25-rc: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.22.9-bullseye: 'crane digest golang:1.22.9-bullseye: TOOMANYREQUESTS: You have
-    reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.25': 'crane digest golang:1.25: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.23.9: 'crane digest golang:1.23.9: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.24-alpine: 'crane digest golang:1.24-alpine: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.26': 'crane digest golang:1.26: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.26.3: 
+    sha256:2981696eed011d747340d7252620932677929cce7d2d539602f56a8d7e9b660b
+  1.25.10: 
+    sha256:c0a2bd0756d92462a0d449124b039100ce447ebf69dc6c80a6d877503b36935e
+  1.24.13: 
+    sha256:d2d2bc1c84f7e60d7d2438a3836ae7d0c847f4888464e7ec9ba3a1339a1ee804
+  1.23.12: 
+    sha256:60deed95d3888cc5e4d9ff8a10c54e5edc008c6ae3fba6187be6fb592e19e8c0
+  1.22.12: 
+    sha256:1cf6c45ba39db9fd6db16922041d074a63c935556a05c5ccb62d181034df7f02
 aliases:
   go: /usr/local/go/bin/go
   gofmt: /usr/local/go/bin/gofmt

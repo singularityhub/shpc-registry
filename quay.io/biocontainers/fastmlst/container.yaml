@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fastmlst
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastmlst
 latest:
-  0.0.16--pyhdfd78af_0: 
-    sha256:8076534b31ab83e74719dedda686cc65b35b038a18e92d0a386394192135a17d
+  0.0.19--pyhdfd78af_0: 
+    sha256:27e5fd2631b6261edd7cb4c1743eb027e169dde9e5f957bb5318ccae2d5dadd5
 tags:
   0.0.9--py_0: 
     sha256:cc131ee6bc0b619e22e8ceb8bef435cf764a29f07751726b5db3f83e618cbdbf
@@ -11,6 +11,8 @@ tags:
     sha256:a4e3fafe0b295e9e6dcabb60a2ad9e22b38a2476502a8f20735333a6f5cc7595
   0.0.16--pyhdfd78af_0: 
     sha256:8076534b31ab83e74719dedda686cc65b35b038a18e92d0a386394192135a17d
+  0.0.19--pyhdfd78af_0: 
+    sha256:27e5fd2631b6261edd7cb4c1743eb027e169dde9e5f957bb5318ccae2d5dadd5
 docker: quay.io/biocontainers/fastmlst
 aliases:
   fastmlst: /usr/local/bin/fastmlst

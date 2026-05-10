@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-delayedrandomarray
 latest:
-  1.14.0--r44he5774e6_0: 
-    sha256:30be49254857c8e38db11a59f5f2a413c3a57d25404fd67f6e6f19dcd4bee0ce
+  1.18.0--r45ha27e39d_0: 
+    sha256:abdf1368cbc6e4ea6a620b82785857b41555f78886a9774aad6652fb21a0bb72
 tags:
   1.2.0--r41hc247a5b_2: 
     sha256:d49b6b6f37e09769d6c7a4e6dd59b7879a18f89e89867c6de0c92707a439bb42
@@ -18,4 +18,6 @@ tags:
     sha256:b2627540b8a13f6eb4b97ed41f8dccb97a30a393a83a930737751b8e8ddd940c
   1.14.0--r44he5774e6_0: 
     sha256:30be49254857c8e38db11a59f5f2a413c3a57d25404fd67f6e6f19dcd4bee0ce
+  1.18.0--r45ha27e39d_0: 
+    sha256:abdf1368cbc6e4ea6a620b82785857b41555f78886a9774aad6652fb21a0bb72
 docker: quay.io/biocontainers/bioconductor-delayedrandomarray

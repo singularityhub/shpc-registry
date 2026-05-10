@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-phastcons35way.ucsc.mm39
 latest:
-  3.16.0--r44hdfd78af_3: 
-    sha256:a58a5b80d5c32919401a85cc9b949ed694ea6c0799c3b7f297061e54d1a1db65
+  3.16.0--r45hdfd78af_4: 
+    sha256:aed62e8992b718acdfac5ef4045df9cc11503fd71a6c72946f650c8939dce144
 tags:
   3.16.0--r42hdfd78af_0: 
     sha256:c3cade74f4692603c8b528abf4217a88a2ab3f418e269a3a2b47842da4f3d039
@@ -14,6 +14,8 @@ tags:
     sha256:f1036a168235cf0550b6e0398a885a46b6df92a5bab2d1b0aef770a757da8a9c
   3.16.0--r44hdfd78af_3: 
     sha256:a58a5b80d5c32919401a85cc9b949ed694ea6c0799c3b7f297061e54d1a1db65
+  3.16.0--r45hdfd78af_4: 
+    sha256:aed62e8992b718acdfac5ef4045df9cc11503fd71a6c72946f650c8939dce144
 docker: quay.io/biocontainers/bioconductor-phastcons35way.ucsc.mm39
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

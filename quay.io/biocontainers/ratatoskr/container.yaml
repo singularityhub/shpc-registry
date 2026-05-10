@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ratatoskr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ratatoskr
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:4ab18420bc8a0440465574fcccaf9ed3bc843c0fd6540911220d4fa566b2ac3f
+  1.0.10--pyhdfd78af_0: 
+    sha256:008a130d82c53df952bce9734569384fb9bc7662d27139d52dfb02b106d7c7a7
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:4ab18420bc8a0440465574fcccaf9ed3bc843c0fd6540911220d4fa566b2ac3f
+  1.0.10--pyhdfd78af_0: 
+    sha256:008a130d82c53df952bce9734569384fb9bc7662d27139d52dfb02b106d7c7a7
 docker: quay.io/biocontainers/ratatoskr
 aliases:
   dataformat: /usr/local/bin/dataformat

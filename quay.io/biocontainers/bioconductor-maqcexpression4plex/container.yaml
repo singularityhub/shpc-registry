@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-maqcexpression4plex
 latest:
-  1.50.0--r44hdfd78af_0: 
-    sha256:c55234e29b038a03d28c4d2b15b3b20db18a8d4435ec94384ee7618457e9213c
+  1.54.0--r45hdfd78af_0: 
+    sha256:0ed01df2f5e0b1e255cbef5ac0386308abc931f417759218a3468e36acdc11aa
 tags:
   1.38.0--r41hdfd78af_1: 
     sha256:4bd24c105de6e22b8b5014b54bd4b00b6fe55b47b8e8ab65c204b541c7484b20
@@ -16,4 +16,6 @@ tags:
     sha256:c01092b8d55be74061679e01ac9bf4d92c2df2ae363a12a91f05f044855f8fb1
   1.50.0--r44hdfd78af_0: 
     sha256:c55234e29b038a03d28c4d2b15b3b20db18a8d4435ec94384ee7618457e9213c
+  1.54.0--r45hdfd78af_0: 
+    sha256:0ed01df2f5e0b1e255cbef5ac0386308abc931f417759218a3468e36acdc11aa
 docker: quay.io/biocontainers/bioconductor-maqcexpression4plex

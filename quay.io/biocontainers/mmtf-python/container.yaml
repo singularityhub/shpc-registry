@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/mmtf-python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mmtf-python
 latest:
-  1.0.5--py27_0: sha256:6de4f7078bbb1efab014c2b4abc14353a688f00854116906e82979a4e807b680
+  1.0.5--py27_0: 
+    sha256:d5128ad22363007e9d6a171ef4544bbb18a210e7da2dd8f94b17da06e2f5a2bd
 tags:
-  1.0.5--py27_0: sha256:6de4f7078bbb1efab014c2b4abc14353a688f00854116906e82979a4e807b680
-  1.0.5--py36_0: sha256:c68e07a5d01714d6d780b1cbd6c4dfba7159116bb738ae7cf9e9cbd63248321e
+  1.0.5--py27_0: 
+    sha256:d5128ad22363007e9d6a171ef4544bbb18a210e7da2dd8f94b17da06e2f5a2bd
+  1.0.5--py36_0: 
+    sha256:29ba691777037de070e7bd54d93a6eb9730089f3a068adebf932c85f495cf610
 docker: quay.io/biocontainers/mmtf-python
 aliases:
   sample: /usr/local/bin/sample

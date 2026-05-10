@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-fastseg
 latest:
-  1.52.0--r44he5774e6_0: 
-    sha256:76236b90ee7a6248fc37d5aba69122d6ae5aa2150af8c808bb24630eb64cfbf2
+  1.56.0--r45ha27e39d_0: 
+    sha256:079d831862e542ac9eec35027405ce90e7a56bdbcaab143012b2cce13e9660e4
 tags:
   1.40.0--r41hc247a5b_2: 
     sha256:9c87eef8aa54836cccd6086645028ea6feb4ff2fe216133ae068472e95e65381
@@ -20,4 +20,6 @@ tags:
     sha256:e8bf3f4ba90f94960ff543d826fd11bca509bc080d3e344292c1c49939825972
   1.52.0--r44he5774e6_0: 
     sha256:76236b90ee7a6248fc37d5aba69122d6ae5aa2150af8c808bb24630eb64cfbf2
+  1.56.0--r45ha27e39d_0: 
+    sha256:079d831862e542ac9eec35027405ce90e7a56bdbcaab143012b2cce13e9660e4
 docker: quay.io/biocontainers/bioconductor-fastseg

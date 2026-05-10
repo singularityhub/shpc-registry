@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hivprtplus2cdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:c6665a6bbfbb5fea516efff5eb3b2c04dea5d04fc8205339fbc465a2136f601c
+  2.18.0--r45hdfd78af_14: 
+    sha256:6f32ac701af9e7d1c4bf08e6575c3b23389cd3545a3450c5146d6cb2f92a5f77
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:6baaa8d350900db571a0eceae5a526119d6d94640a217a440507948e20c0ea0d
@@ -16,4 +16,6 @@ tags:
     sha256:b27e40d365d02913814898ea8a42f0539b731dfa0feb45d7f44f9d586b648e0f
   2.18.0--r44hdfd78af_13: 
     sha256:c6665a6bbfbb5fea516efff5eb3b2c04dea5d04fc8205339fbc465a2136f601c
+  2.18.0--r45hdfd78af_14: 
+    sha256:6f32ac701af9e7d1c4bf08e6575c3b23389cd3545a3450c5146d6cb2f92a5f77
 docker: quay.io/biocontainers/bioconductor-hivprtplus2cdf

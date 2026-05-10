@@ -4,78 +4,30 @@ maintainer: '@vsoch'
 description: Nginx (pronounced 'engine-x') is an open source reverse proxy 
   server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load 
   balancer, HTTP cache, and a web server (origin server).
+filter:
+- ^\d+(\.\d+)*$
 latest:
-  alpine3.18: 'crane digest nginx:alpine3.18: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.30.0: 
+    sha256:55d1fb0944aafb8534b253e486c6cf57d3e0c785c4f6a7b3e9f02c5a080fb2ce
 tags:
-  1.20.0-alpine-perl: 
-    sha256:00109feeafcc6b80f2322cf70b406d5e521f53d0b0841acfce22aa2a827115d6
-  1.21.0-alpine-perl: 'crane digest nginx:1.21.0-alpine-perl: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.21.1: 'crane digest nginx:1.21.1: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.21.1-alpine-perl: 'crane digest nginx:1.21.1-alpine-perl: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.21.3: 'crane digest nginx:1.21.3: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.21.4: 'crane digest nginx:1.21.4: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.21.5: 'crane digest nginx:1.21.5: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.21.6: 'crane digest nginx:1.21.6: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  latest: 'crane digest nginx:latest: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  stable-alpine-perl: 'crane digest nginx:stable-alpine-perl: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1': 'crane digest nginx:1: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.21': 'crane digest nginx:1.21: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.20': 'crane digest nginx:1.20: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.22': 'crane digest nginx:1.22: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.23': 'crane digest nginx:1.23: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.24': 'crane digest nginx:1.24: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.25': 'crane digest nginx:1.25: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.23.4: 'crane digest nginx:1.23.4: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.24.0-bullseye-perl: 'crane digest nginx:1.24.0-bullseye-perl: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  alpine3.18: 'crane digest nginx:alpine3.18: TOOMANYREQUESTS: You have reached your
-    unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.26': 'crane digest nginx:1.26: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.25.5: 'crane digest nginx:1.25.5: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.27': 'crane digest nginx:1.27: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.25.5-alpine3.19-otel: 'crane digest nginx:1.25.5-alpine3.19-otel: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.26.2: 'crane digest nginx:1.26.2: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.26.2-alpine-otel: 'crane digest nginx:1.26.2-alpine-otel: TOOMANYREQUESTS: You
-    have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.28': 'crane digest nginx:1.28: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.27.5: 'crane digest nginx:1.27.5: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.29': 'crane digest nginx:1.29: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.27.5-alpine3.21-perl: 'crane digest nginx:1.27.5-alpine3.21-perl: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.28-trixie: 'crane digest nginx:1.28-trixie: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.28.2-alpine3.23-otel: 'crane digest nginx:1.28.2-alpine3.23-otel: TOOMANYREQUESTS:
-    You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
-  '1.30': 'crane digest nginx:1.30: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
-  1.29.8: 'crane digest nginx:1.29.8: TOOMANYREQUESTS: You have reached your unauthenticated
-    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.30.0: 
+    sha256:55d1fb0944aafb8534b253e486c6cf57d3e0c785c4f6a7b3e9f02c5a080fb2ce
+  1.29.8: 
+    sha256:1881968aff6f7cdcc4b888c00a11f4ce241ad7ec957e0cb4a9e19e93a3ff87ea
+  1.28.3: 
+    sha256:146adea4768b83c607d0bdfa4188464e3da6e0a3ad4475db1d1d8f64f27c29cc
+  1.27.5: 
+    sha256:6784fb0834aa7dbbe12e3d7471e69c290df3e6ba810dc38b34ae33d3c1c05f7d
+  1.26.3: 
+    sha256:41b194461e4bae16f9b25d68b0976ed4735b89ca625c89aad88e1c1c3b7e8860
+  1.25.5: 
+    sha256:a484819eb60211f5299034ac80f6a681b06f89e65866ce91f356ed7c72af059c
+  1.24.0: 
+    sha256:f6daac2445b0ce70e64d77442ccf62839f3f1b4c24bf6746a857eff014e798c8
+  1.23.4: 
+    sha256:f5747a42e3adcb3168049d63278d7251d91185bb5111d2563d58729a5c9179b0
+  1.22.1: 
+    sha256:fc5f5fb7574755c306aaf88456ebfbe0b006420a184d52b923d2f0197108f6b7
 aliases:
   nginx: /usr/sbin/nginx
   nginx-debug: /usr/sbin/nginx-debug

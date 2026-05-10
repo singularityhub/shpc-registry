@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pyloh
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyloh
 latest:
-  1.4.3--py_2: sha256:8be59be43f0b94be8b1dc751135d92e8a1ef611ab6e961a646bafe1c3613e5fa
+  1.4.3--py_2: 
+    sha256:99d852c83c45c577e439a628f005ac691683c3ffdbd66a57f51b7ce1bb97716e
 tags:
-  1.4.3--py_2: sha256:8be59be43f0b94be8b1dc751135d92e8a1ef611ab6e961a646bafe1c3613e5fa
+  1.4.3--py_2: 
+    sha256:99d852c83c45c577e439a628f005ac691683c3ffdbd66a57f51b7ce1bb97716e
 docker: quay.io/biocontainers/pyloh
 aliases:
   PyLOH.py: /usr/local/bin/PyLOH.py

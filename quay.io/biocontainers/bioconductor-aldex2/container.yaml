@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-aldex2
 latest:
-  1.38.0--r44hdfd78af_0: 
-    sha256:18cb489de35f0d97e385daec90e7167258835aa87a17d65cd2ccb94754deffbc
+  1.42.0--r45hdfd78af_0: 
+    sha256:f03998158f3695323467a9876ad29dcbb6ad28c3fa6bbcc1493200957cac90ee
 tags:
   1.8.0--r3.3.2_0: 
     sha256:bdd2c5c3aa77038af79105555507c01e39da8fda14808b5248551961a07f9167
@@ -24,6 +24,8 @@ tags:
     sha256:6710caf02107d33fc5195f4bd30509d7517c81cb00192b43db3d6b2c5a4a9789
   1.38.0--r44hdfd78af_0: 
     sha256:18cb489de35f0d97e385daec90e7167258835aa87a17d65cd2ccb94754deffbc
+  1.42.0--r45hdfd78af_0: 
+    sha256:f03998158f3695323467a9876ad29dcbb6ad28c3fa6bbcc1493200957cac90ee
 docker: quay.io/biocontainers/bioconductor-aldex2
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

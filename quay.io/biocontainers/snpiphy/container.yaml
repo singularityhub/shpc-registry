@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/snpiphy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snpiphy
 latest:
-  0.5--py_0: sha256:94a8355d83981da29efc47b2eb8bfcf35bc421cbd430aa37ef0104e451e7792a
+  0.5--py_0: 
+    sha256:94a8355d83981da29efc47b2eb8bfcf35bc421cbd430aa37ef0104e451e7792a
 tags:
-  0.5--py_0: sha256:94a8355d83981da29efc47b2eb8bfcf35bc421cbd430aa37ef0104e451e7792a
+  0.5--py_0: 
+    sha256:94a8355d83981da29efc47b2eb8bfcf35bc421cbd430aa37ef0104e451e7792a
 docker: quay.io/biocontainers/snpiphy
 aliases:
   gubbins: /usr/local/bin/gubbins

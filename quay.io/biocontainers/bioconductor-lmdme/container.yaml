@@ -1,11 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-lmdme
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-lmdme
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-lmdme
 latest:
-  1.44.0--r43hdfd78af_0: sha256:1def1e11c8a91d9485dce88ec5258f8db60520ce31d1c0248dd424e1fde17a9a
+  1.52.0--r45hdfd78af_0: 
+    sha256:c277d28f9a8d445a39c63a809c241ddc12dc81c40092f7397f14a7c2cbb32ee2
 tags:
-  1.36.0--r41hdfd78af_0: sha256:2afb0a43e3df24fc288a48c24ba49a212c04b043c221990a789777b89a65fc00
-  1.40.0--r42hdfd78af_0: sha256:5c13c489998666e12095a70c18b4654e6527add72d3d0e9b992fcaf617924a6a
-  1.42.0--r43hdfd78af_0: sha256:0e71e1c31e30014db93e305dbe9ea89b52fec91437244f743aac12ef5fbddb45
-  1.44.0--r43hdfd78af_0: sha256:1def1e11c8a91d9485dce88ec5258f8db60520ce31d1c0248dd424e1fde17a9a
+  1.36.0--r41hdfd78af_0: 
+    sha256:2afb0a43e3df24fc288a48c24ba49a212c04b043c221990a789777b89a65fc00
+  1.40.0--r42hdfd78af_0: 
+    sha256:5c13c489998666e12095a70c18b4654e6527add72d3d0e9b992fcaf617924a6a
+  1.42.0--r43hdfd78af_0: 
+    sha256:0e71e1c31e30014db93e305dbe9ea89b52fec91437244f743aac12ef5fbddb45
+  1.44.0--r43hdfd78af_0: 
+    sha256:55d1e2a9b4c97063ff99b441ebc7731350a5b520a9d46f218aff0cf68d7eb5b8
+  1.52.0--r45hdfd78af_0: 
+    sha256:c277d28f9a8d445a39c63a809c241ddc12dc81c40092f7397f14a7c2cbb32ee2
+  1.48.0--r44hdfd78af_0: 
+    sha256:3297cdff55e38a0bf15c1b438d599a1f1b121a8f1017f745f52269d4d25baf22
 docker: quay.io/biocontainers/bioconductor-lmdme

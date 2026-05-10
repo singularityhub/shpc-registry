@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/straglr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for straglr
 latest:
-  1.5.6--pyhdfd78af_0: 
-    sha256:af7f8b79773f0419543744d7a15d080a972b5f3090fb100231dacb7d060c7c63
+  1.5.6--pyhdfd78af_1: 
+    sha256:6a58ed9e643251a2f9313396b26f1b92d9e018d7d0213c114e954e29951802a0
 tags:
   1.3.0--pyhdfd78af_0: 
     sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627
@@ -25,6 +25,8 @@ tags:
     sha256:0cc1498ddb96f250dbd7eb13ac9458a5af3789d92a773098fe892a1385ea3a3d
   1.5.6--pyhdfd78af_0: 
     sha256:af7f8b79773f0419543744d7a15d080a972b5f3090fb100231dacb7d060c7c63
+  1.5.6--pyhdfd78af_1: 
+    sha256:6a58ed9e643251a2f9313396b26f1b92d9e018d7d0213c114e954e29951802a0
 docker: quay.io/biocontainers/straglr
 aliases:
   pathos_connect: /usr/local/bin/pathos_connect

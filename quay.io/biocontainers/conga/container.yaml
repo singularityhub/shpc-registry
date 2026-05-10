@@ -3,10 +3,10 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for conga
 latest:
   1.1--h3050eb1_0: 
-    sha256:a7798ffdffecf28a77600bef57465626694068f4fafd141cbae08e7dd6967ed3
+    sha256:fe7a3d3a0045693e5f2cd753704075f712c49e49ef121bf355ce340684ab888d
 tags:
   1.1--h3050eb1_0: 
-    sha256:a7798ffdffecf28a77600bef57465626694068f4fafd141cbae08e7dd6967ed3
+    sha256:fe7a3d3a0045693e5f2cd753704075f712c49e49ef121bf355ce340684ab888d
 docker: quay.io/biocontainers/conga
 aliases:
   conga: /usr/local/bin/conga

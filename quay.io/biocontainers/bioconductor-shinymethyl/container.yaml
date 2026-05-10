@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-shinymethyl
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:375fc97c4cbed6498b796d656e83bbd8cbc305398e0e78920f927701158d51c7
+  1.46.0--r45hdfd78af_0: 
+    sha256:5614c843b159c0ececd6981cd7cf490adacf9cf6b1d6b9f45ad0eb04d2b3792b
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:bb598efeb2150f87b9a7d4ba0b1f3833212455f7095cc152e1f87d70b9953c21
@@ -16,4 +16,6 @@ tags:
     sha256:7e55e6602805399f22e13518197068d9700ba594e105d74e33003f9693ec8f25
   1.42.0--r44hdfd78af_0: 
     sha256:375fc97c4cbed6498b796d656e83bbd8cbc305398e0e78920f927701158d51c7
+  1.46.0--r45hdfd78af_0: 
+    sha256:5614c843b159c0ececd6981cd7cf490adacf9cf6b1d6b9f45ad0eb04d2b3792b
 docker: quay.io/biocontainers/bioconductor-shinymethyl

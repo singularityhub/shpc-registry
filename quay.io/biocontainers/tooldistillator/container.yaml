@@ -2,9 +2,17 @@ url: https://biocontainers.pro/tools/tooldistillator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tooldistillator
 latest:
-  0.8.4.1--pyh7cba7a3_0: sha256:0ad14d643acb21bc50e419993cc487cc1435e4f358912086d32f884a9ceb0881
+  1.0.5--pyh7e72e81_0: 
+    sha256:5cc249afe2ebea8e42847821436dd13ad24a5033e827e6ec626e14d695f8731c
 tags:
-  0.8.4.1--pyh7cba7a3_0: sha256:0ad14d643acb21bc50e419993cc487cc1435e4f358912086d32f884a9ceb0881
+  0.8.4.1--pyh7cba7a3_0: 
+    sha256:0ad14d643acb21bc50e419993cc487cc1435e4f358912086d32f884a9ceb0881
+  1.0.5--pyh7e72e81_0: 
+    sha256:5cc249afe2ebea8e42847821436dd13ad24a5033e827e6ec626e14d695f8731c
+  0.9.3--pyh7e72e81_0: 
+    sha256:1657a84c391f87c77c9a98c1f13641727a6554aec7c5cfdf1268bc79bd823ee3
+  0.8.5.0--pyh7cba7a3_0: 
+    sha256:6ead664793e7bb4569fc08fbf2a1f24515e8426f3c22dbe63eb80d0f9f9ccdc3
 docker: quay.io/biocontainers/tooldistillator
 aliases:
   tooldistillator: /usr/local/bin/tooldistillator

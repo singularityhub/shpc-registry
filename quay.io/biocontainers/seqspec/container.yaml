@@ -2,9 +2,15 @@ url: https://biocontainers.pro/tools/seqspec
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seqspec
 latest:
-  0.3.0--pyhdfd78af_0: sha256:4a4bf45a948886a2b1983f6576f4aec44ba8e96212e88677846320213f1216a7
+  0.4.0--pyhdfd78af_0: 
+    sha256:daa1721339ef6a2eb86b098a6aa95df4740dab9a3989d24ea7c44285b562a8eb
 tags:
-  0.3.0--pyhdfd78af_0: sha256:4a4bf45a948886a2b1983f6576f4aec44ba8e96212e88677846320213f1216a7
+  0.3.0--pyhdfd78af_0: 
+    sha256:4a4bf45a948886a2b1983f6576f4aec44ba8e96212e88677846320213f1216a7
+  0.4.0--pyhdfd78af_0: 
+    sha256:daa1721339ef6a2eb86b098a6aa95df4740dab9a3989d24ea7c44285b562a8eb
+  0.3.1--pyhdfd78af_0: 
+    sha256:4a50401efd60bad3d36e10c4ff4164c06392423174be8a094831259c84b7f21a
 docker: quay.io/biocontainers/seqspec
 aliases:
   seqspec: /usr/local/bin/seqspec

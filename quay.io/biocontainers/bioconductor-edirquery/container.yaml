@@ -1,10 +1,19 @@
 url: https://biocontainers.pro/tools/bioconductor-edirquery
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-edirquery
+description: singularity registry hpc automated addition for 
+  bioconductor-edirquery
 latest:
-  1.0.0--r43hdfd78af_0: sha256:4b0154b8fd4a26c6eab3ec4da70ab5ce498c7431fbb41f1e3060a2f6fa9e681d
+  1.10.0--r45hdfd78af_0: 
+    sha256:89cd4a0a5ad24d71ac8115ed5ca07a6db7585461d35c48001091c98dc2d5af09
 tags:
-  1.0.0--r43hdfd78af_0: sha256:4b0154b8fd4a26c6eab3ec4da70ab5ce498c7431fbb41f1e3060a2f6fa9e681d
+  1.0.0--r43hdfd78af_0: 
+    sha256:4b0154b8fd4a26c6eab3ec4da70ab5ce498c7431fbb41f1e3060a2f6fa9e681d
+  1.10.0--r45hdfd78af_0: 
+    sha256:89cd4a0a5ad24d71ac8115ed5ca07a6db7585461d35c48001091c98dc2d5af09
+  1.6.0--r44hdfd78af_0: 
+    sha256:76bc910354b3c8f31b5b3da051f510ecd4ed88fc207a904e6fff1e77b2c47d44
+  1.2.0--r43hdfd78af_0: 
+    sha256:1e315a5e1392d0b0227520b578478fe3242547dc01b02b4246d04f4714a9f90b
 docker: quay.io/biocontainers/bioconductor-edirquery
 aliases:
   hb-info: /usr/local/bin/hb-info
@@ -20,7 +29,9 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   python3.1: /usr/local/bin/python3.1

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-dmrcate
 latest:
-  3.2.1--r44hdfd78af_0: 
-    sha256:fe6233310d613116568b1a9703c62d13420552acb50f368b21c80ad222a1148a
+  3.6.0--r45hdfd78af_0: 
+    sha256:087f3de6dc74dfef71256099acb6213618507cba92f8e9e79b622840bfb0f7f5
 tags:
   2.6.0--r41hdfd78af_0: 
     sha256:ce68ca011201bd2ca98d6dccf64ea7b520ea38c83bcfebeebe8d0aaa18a65a12
@@ -12,6 +12,8 @@ tags:
     sha256:1de54f638fdc6b9360ea8ecae46be5c88c36d73108ca5ca5738134c796f420a0
   3.2.1--r44hdfd78af_0: 
     sha256:fe6233310d613116568b1a9703c62d13420552acb50f368b21c80ad222a1148a
+  3.6.0--r45hdfd78af_0: 
+    sha256:087f3de6dc74dfef71256099acb6213618507cba92f8e9e79b622840bfb0f7f5
 docker: quay.io/biocontainers/bioconductor-dmrcate
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

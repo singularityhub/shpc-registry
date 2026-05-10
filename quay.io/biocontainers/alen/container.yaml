@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/alen
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for alen
 latest:
-  0.3.3--h4349ce8_0: 
-    sha256:8921e5fb6338933ad2d9bf5c353b7aa4c86d975731e84bfbdd65a31367130723
+  0.3.4--hab7d0fd_0: 
+    sha256:e2e1562c1b43fa4d13c045d708b16f0337ad4c6dfe9ff3cf3b7ccef62b362875
 tags:
   0.3.1--h4349ce8_0: 
     sha256:cfbf29e4baa7b723f45ea2ef797cb6d9714fd6a89283a80d6e150e93e5eb2e79
@@ -11,6 +11,8 @@ tags:
     sha256:864e85c918cfc1e123d1a26c9a11b84b9c6dc8f184a49f6962e725cd5bd295c8
   0.3.3--h4349ce8_0: 
     sha256:8921e5fb6338933ad2d9bf5c353b7aa4c86d975731e84bfbdd65a31367130723
+  0.3.4--hab7d0fd_0: 
+    sha256:e2e1562c1b43fa4d13c045d708b16f0337ad4c6dfe9ff3cf3b7ccef62b362875
 docker: quay.io/biocontainers/alen
 aliases:
   alen: /usr/local/bin/alen

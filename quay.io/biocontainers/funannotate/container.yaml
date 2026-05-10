@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/funannotate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for funannotate
 latest:
-  1.8.17--pyhdfd78af_3: 
-    sha256:aea05bf044b94cfad161956e0dbcf33a7277a66580d575019236e07982f702f4
+  1.8.17--pyhdfd78af_5: 
+    sha256:f07b02375a844e921e75bc1269be5e6aaf0847f13af4a62c5f69e7ba72266af4
 tags:
   1.8.9--pyhdfd78af_3: 
     sha256:7d5100997b58f0a94b48463a2a6bb77a00b7e8bee01517bea8977509b33fe13a
@@ -19,6 +19,8 @@ tags:
     sha256:d733dc197796340d0e30d90a72d12e1e15c42fcffb33360e023711902f10f8fe
   1.8.17--pyhdfd78af_3: 
     sha256:aea05bf044b94cfad161956e0dbcf33a7277a66580d575019236e07982f702f4
+  1.8.17--pyhdfd78af_5: 
+    sha256:f07b02375a844e921e75bc1269be5e6aaf0847f13af4a62c5f69e7ba72266af4
 docker: quay.io/biocontainers/funannotate
 aliases:
   CodingQuarry: /usr/local/bin/CodingQuarry

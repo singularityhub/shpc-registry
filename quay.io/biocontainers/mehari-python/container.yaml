@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/mehari-python
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mehari-python
 latest:
-  0.42.0--py312hb3c3c00_0: 
-    sha256:cf3686efa55c84c6bf737e61559e8639f1a566a61ab2b22bc706d88de1206af8
+  0.43.2--py313h045a65b_0: 
+    sha256:628f091cbab3fd5058571d8bfabcff48565ecb85233a41c3f03383023f6b3f60
 tags:
   0.42.0--py312hb3c3c00_0: 
     sha256:cf3686efa55c84c6bf737e61559e8639f1a566a61ab2b22bc706d88de1206af8
+  0.43.2--py313h045a65b_0: 
+    sha256:628f091cbab3fd5058571d8bfabcff48565ecb85233a41c3f03383023f6b3f60
+  0.42.0--py313h045a65b_0: 
+    sha256:d8675553b32fc1b12ae18d59aded8adceca39f63cd27b49c1bbb6b724afdc413
 docker: quay.io/biocontainers/mehari-python
 aliases:
   protoc-33.5.0: /usr/local/bin/protoc-33.5.0

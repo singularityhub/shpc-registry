@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   thermorawfileparser
 latest:
-  2.0.0.dev--h9ee0642_0: 
-    sha256:2b07a010c46fdc2c0cc918344c7400aaf7b5aec93ae645d2f9cafae43b513ada
+  2.0.0.dev--h9ee0642_1: 
+    sha256:7c2b5f35b396eef305490ec122a55be9f246da845698afa409b8ff3056d89ffc
 tags:
   1.4.0--ha8f3691_0: 
     sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404
@@ -22,6 +22,8 @@ tags:
     sha256:ebf391d3a6d0c7c0c664dbcbca89358e76585043dd7ef27d1187dbc294b6f01e
   2.0.0.dev--h9ee0642_0: 
     sha256:2b07a010c46fdc2c0cc918344c7400aaf7b5aec93ae645d2f9cafae43b513ada
+  2.0.0.dev--h9ee0642_1: 
+    sha256:7c2b5f35b396eef305490ec122a55be9f246da845698afa409b8ff3056d89ffc
 docker: quay.io/biocontainers/thermorawfileparser
 aliases:
   ThermoRawFileParser: /usr/local/bin/ThermoRawFileParser

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rebook
 latest:
-  1.16.0--r44hdfd78af_0: 
-    sha256:835c78be41fda7089cb25fdbfaff0130342fefb05106c31aa0e43316edafe743
+  1.20.0--r45hdfd78af_0: 
+    sha256:a420e17df7629a86e254034aa6f2cf1ca77a613e4283aa4b7c8f4d9051fd0086
 tags:
   1.4.0--r41hdfd78af_0: 
     sha256:b6fb733b61f4d0fef3dd9656de6e820ed0b395236ab2d140f37b575b71f071fb
@@ -14,6 +14,8 @@ tags:
     sha256:f7fd13d9a558625307d0307e65d6999108c9f6135b0a89f1c99d6767b769a80a
   1.16.0--r44hdfd78af_0: 
     sha256:835c78be41fda7089cb25fdbfaff0130342fefb05106c31aa0e43316edafe743
+  1.20.0--r45hdfd78af_0: 
+    sha256:a420e17df7629a86e254034aa6f2cf1ca77a613e4283aa4b7c8f4d9051fd0086
 docker: quay.io/biocontainers/bioconductor-rebook
 aliases:
   pandoc: /usr/local/bin/pandoc

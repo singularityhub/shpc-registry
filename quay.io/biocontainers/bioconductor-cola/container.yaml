@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cola
 latest:
-  2.12.0--r44he5774e6_0: 
-    sha256:5235cf9a7bd3ba07af4d409478d7256e247e0439065044cb2ab809ed1f309341
+  2.16.1--r45ha27e39d_0: 
+    sha256:a26431be59817c2abb7be0e5a5f6955b94e82c5b792c8b54cb28843587b3b40a
 tags:
   2.0.0--r41hc247a5b_2: 
     sha256:830504cb3b77991958e21dce8fa75b9a58f12f9202f6b498410cf0316740d04e
@@ -18,4 +18,6 @@ tags:
     sha256:89d1a4df68129d121c9484af2c19723579f6b71b650e192fdc9f72e68444c7e0
   2.12.0--r44he5774e6_0: 
     sha256:5235cf9a7bd3ba07af4d409478d7256e247e0439065044cb2ab809ed1f309341
+  2.16.1--r45ha27e39d_0: 
+    sha256:a26431be59817c2abb7be0e5a5f6955b94e82c5b792c8b54cb28843587b3b40a
 docker: quay.io/biocontainers/bioconductor-cola

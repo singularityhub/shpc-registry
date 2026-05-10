@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowai
 latest:
-  1.36.0--r44hdfd78af_0: 
-    sha256:e9bfb90e46f626b00ee201bf646545bf82c53b4ab4a9c1506eff83ba552be4aa
+  1.40.0--r45hdfd78af_0: 
+    sha256:8cef2660565b2d7d7645900583d9aab8e4c0dd462a43eafc02d8c307a76de472
 tags:
   1.6.2--r3.4.1_0: 
     sha256:fdd8d0ff088ca5bfc69b2de05dea0d1c6214c032d4bf9a1ea35336182840720f
@@ -24,6 +24,8 @@ tags:
     sha256:d22c01eaa318b22ee5f154006651a3e7f9be517ae8e905c1fde272ce869a6f4d
   1.36.0--r44hdfd78af_0: 
     sha256:e9bfb90e46f626b00ee201bf646545bf82c53b4ab4a9c1506eff83ba552be4aa
+  1.40.0--r45hdfd78af_0: 
+    sha256:8cef2660565b2d7d7645900583d9aab8e4c0dd462a43eafc02d8c307a76de472
 docker: quay.io/biocontainers/bioconductor-flowai
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

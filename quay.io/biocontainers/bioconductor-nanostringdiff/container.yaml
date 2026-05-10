@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-nanostringdiff
 latest:
-  1.36.0--r44he5774e6_0: 
-    sha256:7e40ae26221564b0f8306ac350341ae1b9f6eec8e3ae94ea453ee74c543826e7
+  1.40.0--r45ha27e39d_0: 
+    sha256:3e87a70027b051d4aab3390cc9eda7249df5742ecc612f9e6f3e3e124ad212c4
 tags:
   1.24.0--r41hc247a5b_2: 
     sha256:f2e04df5ab17a77c962d45b15a4e05ae345857a80cf6ce031a4241a67e3eba07
@@ -18,4 +18,6 @@ tags:
     sha256:e37d608598c027271bbb37a03ed625681ce24dde22e9a5743104dd38c4f873c3
   1.36.0--r44he5774e6_0: 
     sha256:7e40ae26221564b0f8306ac350341ae1b9f6eec8e3ae94ea453ee74c543826e7
+  1.40.0--r45ha27e39d_0: 
+    sha256:3e87a70027b051d4aab3390cc9eda7249df5742ecc612f9e6f3e3e124ad212c4
 docker: quay.io/biocontainers/bioconductor-nanostringdiff

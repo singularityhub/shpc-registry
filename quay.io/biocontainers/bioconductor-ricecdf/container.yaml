@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ricecdf
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:4d219f7db6fa0debf304c334189a7e42c78c6aae853213752cf0f64627404b1e
+  2.18.0--r45hdfd78af_14: 
+    sha256:5593184c4f814b4542b43554b1e26e7bdeaa190e17a0a8b95c6c70cc6a206c6a
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:76e10389f9fd63d4f9000f70333800dcd67d374042b6b5df2a4d89ab3876288e
@@ -16,4 +16,6 @@ tags:
     sha256:bd04201ce98c4223b3bd734207b7afc11f76d534a13ce512b10961bb412f735f
   2.18.0--r44hdfd78af_13: 
     sha256:4d219f7db6fa0debf304c334189a7e42c78c6aae853213752cf0f64627404b1e
+  2.18.0--r45hdfd78af_14: 
+    sha256:5593184c4f814b4542b43554b1e26e7bdeaa190e17a0a8b95c6c70cc6a206c6a
 docker: quay.io/biocontainers/bioconductor-ricecdf

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/protk
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for protk
 latest:
-  1.4.4a--hc9114bc_1: sha256:65c0f11b15958eb5a9334b94d977f771f729db02b2322feff2e2988f02350c37
+  1.4.4a--hc9114bc_1: 
+    sha256:d83619bc83242f22539319e47107a159f2b6a749c75572e6e2394219842922dd
 tags:
-  1.4.4a--hc9114bc_1: sha256:65c0f11b15958eb5a9334b94d977f771f729db02b2322feff2e2988f02350c37
+  1.4.4a--hc9114bc_1: 
+    sha256:d83619bc83242f22539319e47107a159f2b6a749c75572e6e2394219842922dd
 docker: quay.io/biocontainers/protk
 aliases:
   ASAPRatioPeptideParser: /usr/local/bin/ASAPRatioPeptideParser

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/fastq-groupmerge
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fastq-groupmerge
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:a6882f141ffdacab6405bb6bf28bd3c5fc9e8bdfd9dc87932c8cbf4b6d618a34
+  1.0.2--pyhdfd78af_0: 
+    sha256:dc80f721d4d433fde2cdc8d95b84c40e780c42b7fd1e3d0cf1b4f9e6989e3560
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:a6882f141ffdacab6405bb6bf28bd3c5fc9e8bdfd9dc87932c8cbf4b6d618a34
+  1.0.2--pyhdfd78af_0: 
+    sha256:dc80f721d4d433fde2cdc8d95b84c40e780c42b7fd1e3d0cf1b4f9e6989e3560
 docker: quay.io/biocontainers/fastq-groupmerge
 aliases:
   fastq_groupmerge.py: /usr/local/bin/fastq_groupmerge.py

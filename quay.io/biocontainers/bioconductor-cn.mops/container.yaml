@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cn.mops
 latest:
-  1.52.0--r44he5774e6_1: 
-    sha256:797362ee740b84183f34edc4890977916a154056a86511fe82cc218b5f7c82fb
+  1.56.0--r45ha27e39d_0: 
+    sha256:4a5bbf78ecf32aebc293f22ca3e571765acc821f2cce4b5ec5a1aa551c2ab07f
 tags:
   1.40.0--r41hc247a5b_2: 
     sha256:777a5d495827b8662cfdeebae569fdad085c6a821ca9dd204c67e8370ddd7230
@@ -20,4 +20,6 @@ tags:
     sha256:1c0cdad1e5889fe555039da8f58a166d6b4687279cc575e3f0fb02d90ab757a4
   1.52.0--r44he5774e6_1: 
     sha256:797362ee740b84183f34edc4890977916a154056a86511fe82cc218b5f7c82fb
+  1.56.0--r45ha27e39d_0: 
+    sha256:4a5bbf78ecf32aebc293f22ca3e571765acc821f2cce4b5ec5a1aa551c2ab07f
 docker: quay.io/biocontainers/bioconductor-cn.mops

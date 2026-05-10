@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-medips
 latest:
-  1.58.0--r44hdfd78af_0: 
-    sha256:a7e230b394c808dc8585e05eb63c2b73c6a38d5704fc806a33872bed6ee48aa6
+  1.62.0--r45hdfd78af_0: 
+    sha256:c3736a20ecbb2f426520d7af73b8822b42c6fc12c809404f6db8955204ce13ab
 tags:
   1.46.0--r41hdfd78af_0: 
     sha256:1cd519b5d9eaeb00b5c881a673eded5c1e548fa6f56778eab2a52bba0419fed4
@@ -16,4 +16,6 @@ tags:
     sha256:ba1a76b35f81cf56e0285d3a44329ac36103f6acc3e3736ee9fa044c7e8ccc0c
   1.58.0--r44hdfd78af_0: 
     sha256:a7e230b394c808dc8585e05eb63c2b73c6a38d5704fc806a33872bed6ee48aa6
+  1.62.0--r45hdfd78af_0: 
+    sha256:c3736a20ecbb2f426520d7af73b8822b42c6fc12c809404f6db8955204ce13ab
 docker: quay.io/biocontainers/bioconductor-medips

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-damefinder
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:8d5c1f1220d64feed2238bab8ae12ffdb6a1ea168c23d8924ac9fd35bdf5f371
+  1.22.0--r45hdfd78af_0: 
+    sha256:e318dbf723541360221b893f76d66434fe0d414bf3155e653c5c656e27aebd54
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:65dc271d5151bd851e87c58be7f3171d7242300a18cbd8a0e655e902548ca66e
@@ -16,4 +16,6 @@ tags:
     sha256:4415f58f987352308b304e4c14be4cf20d2371cb7f484de471f32e0d4c3ecfe5
   1.18.0--r44hdfd78af_0: 
     sha256:8d5c1f1220d64feed2238bab8ae12ffdb6a1ea168c23d8924ac9fd35bdf5f371
+  1.22.0--r45hdfd78af_0: 
+    sha256:e318dbf723541360221b893f76d66434fe0d414bf3155e653c5c656e27aebd54
 docker: quay.io/biocontainers/bioconductor-damefinder

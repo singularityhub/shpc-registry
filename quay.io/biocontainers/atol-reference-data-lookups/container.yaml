@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   atol-reference-data-lookups
 latest:
-  0.4.0--pyhdfd78af_0: 
-    sha256:caad6b6ca56a2066c20bcbd512510303835078b339fe1694de4e0bb5a66969d8
+  0.4.1--pyhdfd78af_0: 
+    sha256:b6dbcdc858dbe04df21860a04fc430f5455bfa87a01d4379302b233dba5c14a0
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:fdf9c8edb45759bf7a7a045665a8772d5f9a562590a465d18cc8b173f3ff28c2
@@ -14,6 +14,8 @@ tags:
     sha256:a2dda2f1e68b7f89ef4196b97bfb1329e6bbdff50c9fdc719d5ffae72c83946c
   0.2.0--pyhdfd78af_0: 
     sha256:03883e65d808f6bf150fe5d62476cee2cd281315d799f75017a82ee9904549c2
+  0.4.1--pyhdfd78af_0: 
+    sha256:b6dbcdc858dbe04df21860a04fc430f5455bfa87a01d4379302b233dba5c14a0
 docker: quay.io/biocontainers/atol-reference-data-lookups
 aliases:
   atol-reference-data-lookups: /usr/local/bin/atol-reference-data-lookups

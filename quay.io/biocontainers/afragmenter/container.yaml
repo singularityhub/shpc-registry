@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/afragmenter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for afragmenter
 latest:
-  0.0.3--pyhdfd78af_0: sha256:e9822b39175df5cdaa3f54d2cd6299f3c78cd63741ec136d95d5b93cd695bc41
+  0.0.6--pyhdfd78af_0: 
+    sha256:8300d2145aee69945a2df352eb3d4bb1bafdc934cac36f79ec2bb6f70fef127e
 tags:
-  0.0.3--pyhdfd78af_0: sha256:e9822b39175df5cdaa3f54d2cd6299f3c78cd63741ec136d95d5b93cd695bc41
+  0.0.3--pyhdfd78af_0: 
+    sha256:e9822b39175df5cdaa3f54d2cd6299f3c78cd63741ec136d95d5b93cd695bc41
+  0.0.6--pyhdfd78af_0: 
+    sha256:8300d2145aee69945a2df352eb3d4bb1bafdc934cac36f79ec2bb6f70fef127e
 docker: quay.io/biocontainers/afragmenter
 aliases:
   afragmenter: /usr/local/bin/afragmenter

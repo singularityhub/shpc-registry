@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/genomad
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genomad
 latest:
-  1.11.1--pyhdfd78af_0: 
-    sha256:e2b775fc98209a6773cd701a2adfcab076aaa7ce2ebd67745c1df4a015f43d0c
+  1.12.0--pyhdfd78af_0: 
+    sha256:d54652ff868af72604ea0e54c541c5c92168c7ac821a422de05dcbad65509e5c
 tags:
   1.4.0--pyhdfd78af_0: 
     sha256:037a5d1d219ec45df379bd4662bb66fad128160159d66fdc4545708b46b2446f
@@ -41,6 +41,10 @@ tags:
     sha256:3a3339d77db1f5f2ff0846425b9c47052f2e42c05028ee9ffae09c30948b21f7
   1.11.1--pyhdfd78af_0: 
     sha256:e2b775fc98209a6773cd701a2adfcab076aaa7ce2ebd67745c1df4a015f43d0c
+  1.12.0--pyhdfd78af_0: 
+    sha256:d54652ff868af72604ea0e54c541c5c92168c7ac821a422de05dcbad65509e5c
+  1.11.2--pyhdfd78af_0: 
+    sha256:374409c75f79716668d3ac324d902bd33b3057fb24a6b061162225d94052e745
 docker: quay.io/biocontainers/genomad
 aliases:
   aria2c: /usr/local/bin/aria2c

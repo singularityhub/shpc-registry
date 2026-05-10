@@ -19,6 +19,8 @@ tags:
     sha256:1a70e1cfbfcfd4307188d2d39b0fb70f3f548b021ea1ae72ea5f86b0a06ccb6f
   3.5.6--pyhdfd78af_0: 
     sha256:db11ae232d88820ac1942e7f3fe2a6bc9eade7d199a5d45a9e23a13cccd134dc
+  3.4.0--py_0: 
+    sha256:7bc301903fb83d750bd3534c56ac6855909c4887d783686b68a889400a930840
 docker: quay.io/biocontainers/deeptools
 aliases:
   alignmentSieve: /usr/local/bin/alignmentSieve

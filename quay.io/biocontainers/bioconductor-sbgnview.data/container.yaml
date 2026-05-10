@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sbgnview.data
 latest:
-  1.20.0--r44hdfd78af_0: 
-    sha256:f01a336987cb9fec198c2ba47ecdd5e7c22edba1872ff2eaee3406a7783226ec
+  1.24.0--r45hdfd78af_0: 
+    sha256:d0dc7b53774af84799900f879fa2792cb6df95e8591c8086e398f7b1ce2539f9
 tags:
   1.8.0--r41hdfd78af_1: 
     sha256:ffba595c6f77d715baa46715de4c437d2da057d6ed39a9f5ae30afa1d4c10489
@@ -18,6 +18,8 @@ tags:
     sha256:427f1ae9256396ec5976027d31f6be9050bc4192dfc6718d93c744728a7d89c8
   1.20.0--r44hdfd78af_0: 
     sha256:f01a336987cb9fec198c2ba47ecdd5e7c22edba1872ff2eaee3406a7783226ec
+  1.24.0--r45hdfd78af_0: 
+    sha256:d0dc7b53774af84799900f879fa2792cb6df95e8591c8086e398f7b1ce2539f9
 docker: quay.io/biocontainers/bioconductor-sbgnview.data
 aliases:
   pandoc: /usr/local/bin/pandoc

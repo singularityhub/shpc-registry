@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/intron-prospector
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for intron-prospector
 latest:
-  1.5.0--hd6466ae_0: 
-    sha256:12285033e4cbac3c7f3b8995d5f561bad3d79f1b106284c1f9d7601c81712c89
+  1.5.1--hd6466ae_0: 
+    sha256:77f98e90dbad051cd09afe563cb75334428845aec43ef45842f19b1fe3719194
 tags:
   1.5.0--hd6466ae_0: 
     sha256:12285033e4cbac3c7f3b8995d5f561bad3d79f1b106284c1f9d7601c81712c89
+  1.5.1--hd6466ae_0: 
+    sha256:77f98e90dbad051cd09afe563cb75334428845aec43ef45842f19b1fe3719194
 docker: quay.io/biocontainers/intron-prospector
 aliases:
   intron-prospector: /usr/local/bin/intron-prospector

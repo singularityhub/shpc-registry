@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-promise
 latest:
-  1.58.0--r44hdfd78af_0: 
-    sha256:e140e49545fe2d3bfbf025259527625e08e40bad555addf30db24d9a029ce0be
+  1.62.0--r45hdfd78af_0: 
+    sha256:f28cdb2c796dadf080c2e190d545d42b0604bf88e2518da5a46b2cd8af42b356
 tags:
   1.46.0--r41hdfd78af_0: 
     sha256:713f6fa464552a977cc291fdc024e4f972e291a76657d1ae0088de9614ecc9d0
@@ -16,4 +16,6 @@ tags:
     sha256:8132ca2a7940698cd8b60d1d1b22a05d2f9f88670075ded5923117e6ea9cb1d6
   1.58.0--r44hdfd78af_0: 
     sha256:e140e49545fe2d3bfbf025259527625e08e40bad555addf30db24d9a029ce0be
+  1.62.0--r45hdfd78af_0: 
+    sha256:f28cdb2c796dadf080c2e190d545d42b0604bf88e2518da5a46b2cd8af42b356
 docker: quay.io/biocontainers/bioconductor-promise

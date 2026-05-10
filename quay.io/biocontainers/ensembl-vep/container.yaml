@@ -41,6 +41,10 @@ tags:
     sha256:04cbcc3c54350ebf51c02698dd23183b1b9db22daa9983037f7260ee37601aa7
   115.1--pl5321h2a3209d_0: 
     sha256:9980b367510d65085299340896024982de4c79edb75bc547ab59c851e977386d
+  99.2--pl526hecc5488_0: 
+    sha256:8edb1621de7cc0ca8b15038985022cd17486c4995e98ab9eb66a31f5c2b7751d
+  99.1--pl526hecc5488_0: 
+    sha256:2777e73afe4aec9bcea13e92d5acfb8af7dc80a62f4421b1d06044410859baa8
 docker: quay.io/biocontainers/ensembl-vep
 aliases:
   filter_vep: /usr/local/bin/filter_vep

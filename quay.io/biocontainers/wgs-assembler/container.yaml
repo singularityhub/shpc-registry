@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/wgs-assembler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wgs-assembler
 latest:
-  8.3--pl5.22.0_0: sha256:5732f8a52fce4e668f45d34175eff1bccd41acfaa53daea36e7f04bf24b64f05
+  8.3--pl5.22.0_0: 
+    sha256:916143b81e1def4da93ecc308ec3781bdb0affa6c3d8fd101b55e84c620bbf3e
 tags:
-  8.3--pl5.22.0_0: sha256:5732f8a52fce4e668f45d34175eff1bccd41acfaa53daea36e7f04bf24b64f05
+  8.3--pl5.22.0_0: 
+    sha256:916143b81e1def4da93ecc308ec3781bdb0affa6c3d8fd101b55e84c620bbf3e
 docker: quay.io/biocontainers/wgs-assembler
 aliases:
   AtacDriver.py: /usr/local/bin/AtacDriver.py

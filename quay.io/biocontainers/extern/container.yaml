@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/extern
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for extern
 latest:
-  0.2.1--py27_1: sha256:02fca024d3f22160ee1df056014edd903b4ff4053c0661a255638bdb4f2b3bca
+  0.2.1--py27_1: 
+    sha256:3b156d130c31594f732d494af348164a60c9ed47e9686bfea72498057132732d
 tags:
-  0.2.1--py27_1: sha256:02fca024d3f22160ee1df056014edd903b4ff4053c0661a255638bdb4f2b3bca
+  0.2.1--py27_1: 
+    sha256:3b156d130c31594f732d494af348164a60c9ed47e9686bfea72498057132732d
 docker: quay.io/biocontainers/extern
 aliases:
   python2-config: /usr/local/bin/python2-config

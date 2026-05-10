@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-splots
 latest:
-  1.72.0--r44hdfd78af_0: 
-    sha256:3e4359278de0a79c7b960581ed20640c24d8e4b4af0a3610474a961fcb4813ae
+  1.76.0--r45hdfd78af_0: 
+    sha256:1109107948a3fc9f24cf1a8e91354a63f4c3f68cec4de520368fb7cf5c149e93
 tags:
   1.60.0--r41hdfd78af_0: 
     sha256:569a33cf9201ef27bc6f6853ab70b862f9d61eca635f8917d59f670abfea382d
@@ -16,4 +16,6 @@ tags:
     sha256:e4cc495405f518c0c22ae0ab2ec67f56834b2259020c3ddd111ce8d8e3ff1252
   1.72.0--r44hdfd78af_0: 
     sha256:3e4359278de0a79c7b960581ed20640c24d8e4b4af0a3610474a961fcb4813ae
+  1.76.0--r45hdfd78af_0: 
+    sha256:1109107948a3fc9f24cf1a8e91354a63f4c3f68cec4de520368fb7cf5c149e93
 docker: quay.io/biocontainers/bioconductor-splots

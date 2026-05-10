@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tvtb
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:a798ce4e2417fc03e769bd932b6b7a236132ee1ba6343f54eb316156eb744a8a
+  1.36.0--r45hdfd78af_0: 
+    sha256:629e7f6537066179f25021612d293836cc0f5e1d447e03782965fe91de6c48fb
 tags:
   1.8.0--r351_0: 
     sha256:c0507355e757eab43952b882a1815a4efe00c21c92abe3fbd9f232b674d6fda6
@@ -24,6 +24,8 @@ tags:
     sha256:4e889738e258e9add6f8c60ab88b0d0974ded3c8192dcd28a0b5449146529942
   1.32.0--r44hdfd78af_0: 
     sha256:a798ce4e2417fc03e769bd932b6b7a236132ee1ba6343f54eb316156eb744a8a
+  1.36.0--r45hdfd78af_0: 
+    sha256:629e7f6537066179f25021612d293836cc0f5e1d447e03782965fe91de6c48fb
 docker: quay.io/biocontainers/bioconductor-tvtb
 aliases:
   wget: /usr/local/bin/wget

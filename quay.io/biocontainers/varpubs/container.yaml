@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/varpubs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for varpubs
 latest:
-  0.5.0--pyhdfd78af_0: 
-    sha256:7529c2577f295840158a3c6503000d8b0dd675b8ad75839cc54f6c0f85f35e7e
+  1.1.0--pyhdfd78af_0: 
+    sha256:919382a60c830a25659302fed93e479ff8b969914e28fa99095e6f8436b3c8c0
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:4c6823f336b7acea1116461c11e171567a44af78213180884e3920c1a45c1125
@@ -19,6 +19,10 @@ tags:
     sha256:7011f5c3fe3eec57c362fea9579576d206414d15cab0c931984789d00fe12db0
   0.5.0--pyhdfd78af_0: 
     sha256:7529c2577f295840158a3c6503000d8b0dd675b8ad75839cc54f6c0f85f35e7e
+  1.1.0--pyhdfd78af_0: 
+    sha256:919382a60c830a25659302fed93e479ff8b969914e28fa99095e6f8436b3c8c0
+  1.0.0--pyhdfd78af_1: 
+    sha256:e30a056758614a20188e4666a44e30e03d5f8ab85612ed4efb2ff012db0dcd92
 docker: quay.io/biocontainers/varpubs
 aliases:
   distro: /usr/local/bin/distro

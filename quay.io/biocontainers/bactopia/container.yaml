@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bactopia
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bactopia
 latest:
-  3.2.0--hdfd78af_0: 
-    sha256:ce0ea1329e3a3345d75b4a4b111f73958db2fb2d05cdb71776e1a148911bdcd7
+  4.0.0--hdfd78af_0: 
+    sha256:f288b28c0cfd1cc1b271802d21c24b265999a2c212eca34ccab7698c6a6872fd
 tags:
   2.1.1--hdfd78af_0: 
     sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51
@@ -19,6 +19,8 @@ tags:
     sha256:1d4edffd02d0cdd173795a7a0c1d8dba61bbb10c7b7d525088e48fcbac855801
   3.2.0--hdfd78af_0: 
     sha256:ce0ea1329e3a3345d75b4a4b111f73958db2fb2d05cdb71776e1a148911bdcd7
+  4.0.0--hdfd78af_0: 
+    sha256:f288b28c0cfd1cc1b271802d21c24b265999a2c212eca34ccab7698c6a6872fd
 docker: quay.io/biocontainers/bactopia
 aliases:
   amr_report: /usr/local/bin/amr_report

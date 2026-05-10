@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-desousa2013
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:c3543ec6b5787205b9fed207d06aa438e7a47cd86e41c8913290f1dc2f8dd7b6
+  1.46.0--r45h575d39b_0: 
+    sha256:d3de0f7f45ba7bd403904d77a55ffe0351bd643238dd753643e10804ef52e51e
 tags:
   1.30.0--r41hdfd78af_1: 
     sha256:dd42fe45abc7f0acb1643bd78863588004e3867a2ef32f80b666053de38baf0b
@@ -16,4 +16,6 @@ tags:
     sha256:220a18f5c420a09c76ba10c8ab9a954dfc67ea9cf4090320ba4b1dc4b6d0aee1
   1.42.0--r44hdfd78af_0: 
     sha256:c3543ec6b5787205b9fed207d06aa438e7a47cd86e41c8913290f1dc2f8dd7b6
+  1.46.0--r45h575d39b_0: 
+    sha256:d3de0f7f45ba7bd403904d77a55ffe0351bd643238dd753643e10804ef52e51e
 docker: quay.io/biocontainers/bioconductor-desousa2013

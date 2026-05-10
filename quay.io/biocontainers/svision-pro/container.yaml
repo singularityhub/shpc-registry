@@ -2,9 +2,21 @@ url: https://biocontainers.pro/tools/svision-pro
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svision-pro
 latest:
-  2.0--pyhdfd78af_0: sha256:eb8cfd02932e8ff47f955eb2e5accc6bb6bc03a05aeee3e263f0c1d6a0bcc4c8
+  2.5--pyhdfd78af_0: 
+    sha256:7a0cf8865c73c6c72017d5f652de8ed280f0b316d60aa660273e3f800871f916
 tags:
-  2.0--pyhdfd78af_0: sha256:eb8cfd02932e8ff47f955eb2e5accc6bb6bc03a05aeee3e263f0c1d6a0bcc4c8
+  2.0--pyhdfd78af_0: 
+    sha256:eb8cfd02932e8ff47f955eb2e5accc6bb6bc03a05aeee3e263f0c1d6a0bcc4c8
+  2.5--pyhdfd78af_0: 
+    sha256:7a0cf8865c73c6c72017d5f652de8ed280f0b316d60aa660273e3f800871f916
+  2.4--pyhdfd78af_1: 
+    sha256:902c8fb89de1f8ee902b97d43c4f18557e62947eda0157a39de2f395be503b70
+  2.3--pyhdfd78af_0: 
+    sha256:17b0e4957fb707c505b05d81b5da8c3397b111195d5baa525b89ca97ef5617b6
+  2.2--pyhdfd78af_0: 
+    sha256:90b69c533993a13a709955716ce9db661fd0085cd8c14d0901c8a6de6df76c86
+  2.1--pyhdfd78af_0: 
+    sha256:98c531b2edcfe9f7c8e36c852da9e9ec0f6246e03dc8b281856efb6cb143a733
 docker: quay.io/biocontainers/svision-pro
 aliases:
   SVision-pro: /usr/local/bin/SVision-pro

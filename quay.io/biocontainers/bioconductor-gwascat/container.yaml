@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-gwascat
 latest:
-  2.38.0--r44hdfd78af_0: 
-    sha256:5975ad01c42de040f2dfd5e2b16eef8c9732f9636c68a6a80dc7be18d482ede5
+  2.42.0--r45hdfd78af_0: 
+    sha256:0fe1dea5841ab3aaa45a9749874fc239a5ba3364ae35ad129886d3606c0f85c3
 tags:
   2.26.0--r41hdfd78af_0: 
     sha256:8e41b2299d783021f0f4b1154580aecf34624358644c2ec50ba5085b6a1c4724
@@ -16,4 +16,6 @@ tags:
     sha256:a48a97ca9e32e868d9a0713b0f1a623b0d6c6050798cf6e8a12234c2d830d3f8
   2.38.0--r44hdfd78af_0: 
     sha256:5975ad01c42de040f2dfd5e2b16eef8c9732f9636c68a6a80dc7be18d482ede5
+  2.42.0--r45hdfd78af_0: 
+    sha256:0fe1dea5841ab3aaa45a9749874fc239a5ba3364ae35ad129886d3606c0f85c3
 docker: quay.io/biocontainers/bioconductor-gwascat

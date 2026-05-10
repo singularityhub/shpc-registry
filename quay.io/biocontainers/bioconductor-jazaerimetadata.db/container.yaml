@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-jazaerimetadata.db
 latest:
-  3.2.3--r44hdfd78af_13: 
-    sha256:eab076a843c38cb3044d28a4794d021194c62e8a21113405666f123b1577e9fc
+  3.2.3--r45hdfd78af_14: 
+    sha256:17f97f547b4ec9ec885abc6fa70e321082ac5c4890f4572cf116ba94f1218343
 tags:
   3.2.3--r41hdfd78af_9: 
     sha256:978d3e374ecde90b974ed6363dce901a78bf2c2b45ea2f6abcf7bed054a7bffc
@@ -16,4 +16,6 @@ tags:
     sha256:271aa22b70e0cbb2d98bd6403d746e1756186597528f3ec1c1f893520222ff5b
   3.2.3--r44hdfd78af_13: 
     sha256:eab076a843c38cb3044d28a4794d021194c62e8a21113405666f123b1577e9fc
+  3.2.3--r45hdfd78af_14: 
+    sha256:17f97f547b4ec9ec885abc6fa70e321082ac5c4890f4572cf116ba94f1218343
 docker: quay.io/biocontainers/bioconductor-jazaerimetadata.db

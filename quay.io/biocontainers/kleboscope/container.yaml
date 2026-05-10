@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/kleboscope
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kleboscope
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:1970125855baa2110ac9616349eca6f0bc7d85efd596261f9b5be9104c5729ff
+  1.0.1--pyhdfd78af_1: 
+    sha256:9617855d820a3bd60d9f7092c2c7a5e89ab854515c85b84a0f5018a715a48526
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:1970125855baa2110ac9616349eca6f0bc7d85efd596261f9b5be9104c5729ff
+  1.0.1--pyhdfd78af_1: 
+    sha256:9617855d820a3bd60d9f7092c2c7a5e89ab854515c85b84a0f5018a715a48526
 docker: quay.io/biocontainers/kleboscope
 aliases:
   bstats: /usr/local/bin/bstats

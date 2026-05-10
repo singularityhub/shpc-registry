@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/annorefine
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for annorefine
 latest:
-  2026.2.22--py313h2ab1dba_0: 
-    sha256:be14c5a786ac8dfcfff21572b94650faac6f7462e9983ef26b3b544dad56cd91
+  2026.2.22--py310hc22b23e_1: 
+    sha256:96d6533c12f542725d65b29ad4a4ee5f95481859678c67c4f361e38e2e046764
 tags:
   2026.2.22--py313h2ab1dba_0: 
     sha256:be14c5a786ac8dfcfff21572b94650faac6f7462e9983ef26b3b544dad56cd91
+  2026.2.22--py310hc22b23e_1: 
+    sha256:96d6533c12f542725d65b29ad4a4ee5f95481859678c67c4f361e38e2e046764
 docker: quay.io/biocontainers/annorefine
 aliases:
   annorefine: /usr/local/bin/annorefine

@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/pymummer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pymummer
 latest:
-  0.11.0--pyhdfd78af_1: sha256:d1d5062e78c3751344e54308c16d26a66f6a425e00b6bbdd58bded008ea6b766
+  0.12.0--pyhdfd78af_0: 
+    sha256:bf8788fec46dad43f546f6bb2b40737786b1d4c41f075fed143d6cf93c1f5fc7
 tags:
-  0.9.0--py35_0: sha256:b608927d77cd74781f3f77267b2dc96cabef0cc70554d47c23a835f5de41127e
-  0.11.0--pyhdfd78af_1: sha256:d1d5062e78c3751344e54308c16d26a66f6a425e00b6bbdd58bded008ea6b766
-  0.10.3--py_2: sha256:70b2d9dd73b384de78eee2899332dc8aeec5585dfea4d91e21cbc297d9a9b530
+  0.9.0--py35_0: 
+    sha256:1cde904ec670843e2f890985932d3f4df9c958e52f6ea92b2c2f32e0e14eb6f4
+  0.11.0--pyhdfd78af_1: 
+    sha256:d1d5062e78c3751344e54308c16d26a66f6a425e00b6bbdd58bded008ea6b766
+  0.10.3--py_2: 
+    sha256:59eb3b0b4c2204858b6d977b663ec289149813a2ab488bf2f7adbe963f878587
+  0.12.0--pyhdfd78af_0: 
+    sha256:bf8788fec46dad43f546f6bb2b40737786b1d4c41f075fed143d6cf93c1f5fc7
 docker: quay.io/biocontainers/pymummer
 aliases:
   fastaq: /usr/local/bin/fastaq

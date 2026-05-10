@@ -1,10 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-listeretalbsseq
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-listeretalbsseq
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-listeretalbsseq
 latest:
-  1.32.1--r43hdfd78af_0: sha256:4524c5da4d0d4f33cbb77ba17aee2ddac9afb52b84840cab47f6913e813806b5
+  1.42.0--r45hdfd78af_0: 
+    sha256:a0d765fda24578062a7f9d01faa6d3776ef945705b6701a3f043874051850f3b
 tags:
-  1.26.0--r41hdfd78af_1: sha256:89cb781434b29f1280f17252ffd9683fb3e71e82c78edda8845cfabe7b9c4a48
-  1.30.0--r42hdfd78af_0: sha256:626e8b4ca673b3cef39de166c8bb02097c3f76f3e5acc7382563eb4afc90dc24
-  1.32.1--r43hdfd78af_0: sha256:4524c5da4d0d4f33cbb77ba17aee2ddac9afb52b84840cab47f6913e813806b5
+  1.26.0--r41hdfd78af_1: 
+    sha256:89cb781434b29f1280f17252ffd9683fb3e71e82c78edda8845cfabe7b9c4a48
+  1.30.0--r42hdfd78af_0: 
+    sha256:626e8b4ca673b3cef39de166c8bb02097c3f76f3e5acc7382563eb4afc90dc24
+  1.32.1--r43hdfd78af_0: 
+    sha256:4524c5da4d0d4f33cbb77ba17aee2ddac9afb52b84840cab47f6913e813806b5
+  1.42.0--r45hdfd78af_0: 
+    sha256:a0d765fda24578062a7f9d01faa6d3776ef945705b6701a3f043874051850f3b
+  1.38.0--r44hdfd78af_0: 
+    sha256:d7a4f8db3b632d80e0895b0c8361a4beffada2bacecc6b3574d893ca19be5dfc
+  1.34.0--r43hdfd78af_0: 
+    sha256:581573ff8c68e4f4e836b503715b711db5b9e30848fc68eb39f109736f9b1fa8
 docker: quay.io/biocontainers/bioconductor-listeretalbsseq

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/taxtastic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for taxtastic
 latest:
-  0.12.0--pyhdfd78af_0: 
-    sha256:b876f5959b0d312add23f4a5751281d1af51068b124cdbf37df1de54cc374db1
+  1.0.1--pyhdfd78af_0: 
+    sha256:2bc86c90c4de8a910afb6f84424c31bf771fd25dda512b8789371601cbdc1123
 tags:
   0.9.3--pyhdfd78af_0: 
     sha256:bfa4893b29c3b5cf94991b05eaa4346184fc2b37d6bd9682547e8bd948d685dc
@@ -15,6 +15,8 @@ tags:
     sha256:db8501b54dff4f1e6acf7002f032cb6d30febd10196de465c4df74ffaea25932
   0.12.0--pyhdfd78af_0: 
     sha256:b876f5959b0d312add23f4a5751281d1af51068b124cdbf37df1de54cc374db1
+  1.0.1--pyhdfd78af_0: 
+    sha256:2bc86c90c4de8a910afb6f84424c31bf771fd25dda512b8789371601cbdc1123
 docker: quay.io/biocontainers/taxtastic
 aliases:
   taxit: /usr/local/bin/taxit

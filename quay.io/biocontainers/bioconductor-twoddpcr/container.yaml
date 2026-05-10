@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-twoddpcr
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:d867cbf747699e43121be9e347d00c3c41e1db871e2a4b10c26025b9fb95254a
+  1.34.0--r45hdfd78af_0: 
+    sha256:4b5ab767982e181db1195c1f792328318d962b6ef3662787d972e90f2f30cff3
 tags:
   1.8.0--r36_1: 
     sha256:ff5df49a4d86f75cc090ab3bf0bbbbb2f01e3e33f690ffa6c5522f5f9d94df39
@@ -24,6 +24,8 @@ tags:
     sha256:9c298927e07132a2fc877d5a97a9b6e06f43d57f087b176b3050e494a9795795
   1.30.0--r44hdfd78af_0: 
     sha256:d867cbf747699e43121be9e347d00c3c41e1db871e2a4b10c26025b9fb95254a
+  1.34.0--r45hdfd78af_0: 
+    sha256:4b5ab767982e181db1195c1f792328318d962b6ef3662787d972e90f2f30cff3
 docker: quay.io/biocontainers/bioconductor-twoddpcr
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

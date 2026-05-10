@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/cblaster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cblaster
 latest:
-  1.3.20--pyhdfd78af_0: 
-    sha256:66e7e58f9be48d80a64e69a192bd6359b95e22d59a30ab8525aef043825b6c49
+  1.4.0--pyhdfd78af_0: 
+    sha256:1eb85079b7eb7a1808678d4158e73d945c07ea6ff0677c8c1a79c1631a7cb300
 tags:
   1.3.9--pyhb7b1952_0: 
     sha256:3b41c02e0ae141309bda49bfc64ceecf5737118436dafbce5c5695e33fec776b
@@ -17,6 +17,8 @@ tags:
     sha256:98cfb5fa8bc4689402d23f7fed6b17e8b736efedfecfb57afe56107c92c80ad7
   1.3.20--pyhdfd78af_0: 
     sha256:66e7e58f9be48d80a64e69a192bd6359b95e22d59a30ab8525aef043825b6c49
+  1.4.0--pyhdfd78af_0: 
+    sha256:1eb85079b7eb7a1808678d4158e73d945c07ea6ff0677c8c1a79c1631a7cb300
 docker: quay.io/biocontainers/cblaster
 aliases:
   cblaster: /usr/local/bin/cblaster

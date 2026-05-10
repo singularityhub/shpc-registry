@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-hcg110probe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:8cec02014aa5a664186430bc0c93fa5b731f186696d6272d5a4cc6b9740b191a
+  2.18.0--r45hdfd78af_14: 
+    sha256:d7e6b9c999fe198e4a1c2a02938e15760babc9f10c27191bf4fd18f591f8cc9d
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:c095c6486a3461aa4041e87d145c5a98914e0cf014135a6dc596aa0c48aae56b
@@ -16,4 +16,6 @@ tags:
     sha256:7825dfac510e34ed7af95902c7a947a86c6e59ccae06bf7a530dbfe3ee558854
   2.18.0--r44hdfd78af_13: 
     sha256:8cec02014aa5a664186430bc0c93fa5b731f186696d6272d5a4cc6b9740b191a
+  2.18.0--r45hdfd78af_14: 
+    sha256:d7e6b9c999fe198e4a1c2a02938e15760babc9f10c27191bf4fd18f591f8cc9d
 docker: quay.io/biocontainers/bioconductor-hcg110probe

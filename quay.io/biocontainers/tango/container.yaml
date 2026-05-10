@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/tango
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tango
 latest:
-  0.5.7--py_0: sha256:de11f0554bf52d33e1f9c1bd44f071ec03c3897304c419bf971e28f3007dab60
+  0.5.7--py_0: 
+    sha256:18036ea551897470d66b21498f6c94e792356d628eb36cab2220041b74b6763b
 tags:
-  0.5.7--py_0: sha256:de11f0554bf52d33e1f9c1bd44f071ec03c3897304c419bf971e28f3007dab60
+  0.5.7--py_0: 
+    sha256:18036ea551897470d66b21498f6c94e792356d628eb36cab2220041b74b6763b
 docker: quay.io/biocontainers/tango
 aliases:
   tango: /usr/local/bin/tango

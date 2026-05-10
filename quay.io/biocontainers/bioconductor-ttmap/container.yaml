@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ttmap
 latest:
-  1.28.0--r44hdfd78af_0: 
-    sha256:b83128e6a804009bafa00a7e5498177d82067f53e90b2549be376e0c95798e79
+  1.32.0--r45h575d39b_0: 
+    sha256:48552d3be71ceeafea13f8c06c95930082303cbb080c14a4fe1f92ab8dd9f4f9
 tags:
   1.8.0--r36_0: 
     sha256:2b361867faa463ad21da6732649b06063bed62e794384d5ff4c4b9bf63cc2535
@@ -24,4 +24,6 @@ tags:
     sha256:6e2a96c6057f40d6e333235e227e01ca5370cb813af05af27e884e8d71388554
   1.28.0--r44hdfd78af_0: 
     sha256:b83128e6a804009bafa00a7e5498177d82067f53e90b2549be376e0c95798e79
+  1.32.0--r45h575d39b_0: 
+    sha256:48552d3be71ceeafea13f8c06c95930082303cbb080c14a4fe1f92ab8dd9f4f9
 docker: quay.io/biocontainers/bioconductor-ttmap

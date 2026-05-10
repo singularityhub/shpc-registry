@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-obmiti
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:e3434e4f7802fb22bcbfeda0327c6698e64bd4a189c338ba7a47a43b44ae2a22
+  1.18.0--r45hdfd78af_0: 
+    sha256:eba64638587a283588988657b9f15fe74ece31891745b222b0d1f311b0c29c2f
 tags:
   1.2.0--r41hdfd78af_1: 
     sha256:34ce8122f09a99caee92b92fe14181466b2864996813a06e406714e45cb89dc9
@@ -16,4 +16,6 @@ tags:
     sha256:5d41553e4197e2bf0ceae1f80654eb82df63f421587e0fb82dd9f10c6aa9ce45
   1.14.0--r44hdfd78af_0: 
     sha256:e3434e4f7802fb22bcbfeda0327c6698e64bd4a189c338ba7a47a43b44ae2a22
+  1.18.0--r45hdfd78af_0: 
+    sha256:eba64638587a283588988657b9f15fe74ece31891745b222b0d1f311b0c29c2f
 docker: quay.io/biocontainers/bioconductor-obmiti

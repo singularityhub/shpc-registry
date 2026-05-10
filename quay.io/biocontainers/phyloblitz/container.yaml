@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/phyloblitz
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for phyloblitz
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:f71b6ad8457c98ed9677fdec0b90506b54a009e99559fa80324eafe49ea6faee
+  0.3.0--pyhdfd78af_0: 
+    sha256:43f9d926d987e5d8aa56137a88c93e36b9b06b52f9fc1f5ca46420d52da75636
 tags:
   0.2.0--pyhdfd78af_0: 
-    sha256:f71b6ad8457c98ed9677fdec0b90506b54a009e99559fa80324eafe49ea6faee
+    sha256:5f21b61e66cc58b994b089d58443143bccec525f1c0a8d09928032d192588372
+  0.3.0--pyhdfd78af_0: 
+    sha256:43f9d926d987e5d8aa56137a88c93e36b9b06b52f9fc1f5ca46420d52da75636
 docker: quay.io/biocontainers/phyloblitz
 aliases:
   isONclust3: /usr/local/bin/isONclust3

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rcpi
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:0cf91b0cc2d00e108ec82fb10d1b8a0ae572408d0fd9c544a4b56316c2ba51dd
+  1.46.0--r45hdfd78af_0: 
+    sha256:9e76af0959b226c0797581dba9646ae77ea4ef695f39c3801a991a67e74d66b3
 tags:
   1.30.0--r41hdfd78af_0: 
     sha256:e6773a20075628e2bf4f367009457f3fb3497408b5d6943bbf9a1cd894c87bb7
@@ -16,6 +16,8 @@ tags:
     sha256:9f6ae8034ad68ae2c5a23740e550a05523e438be71eea97bab2a1e40cc1265b1
   1.42.0--r44hdfd78af_0: 
     sha256:0cf91b0cc2d00e108ec82fb10d1b8a0ae572408d0fd9c544a4b56316c2ba51dd
+  1.46.0--r45hdfd78af_0: 
+    sha256:9e76af0959b226c0797581dba9646ae77ea4ef695f39c3801a991a67e74d66b3
 docker: quay.io/biocontainers/bioconductor-rcpi
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

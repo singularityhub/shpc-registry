@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/binny
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for binny
 latest:
-  2.2.18--pyhdfd78af_0: sha256:a135a64f7aeb54cead9f49c98ed1795c884128c846e9d05654a012aa87fd0ffb
+  2.2.18--pyhdfd78af_0: 
+    sha256:a135a64f7aeb54cead9f49c98ed1795c884128c846e9d05654a012aa87fd0ffb
 tags:
-  2.2.18--pyhdfd78af_0: sha256:a135a64f7aeb54cead9f49c98ed1795c884128c846e9d05654a012aa87fd0ffb
+  2.2.18--pyhdfd78af_0: 
+    sha256:a135a64f7aeb54cead9f49c98ed1795c884128c846e9d05654a012aa87fd0ffb
 docker: quay.io/biocontainers/binny
 aliases:
   binny: /usr/local/bin/binny

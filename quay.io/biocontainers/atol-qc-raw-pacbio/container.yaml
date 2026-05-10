@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/atol-qc-raw-pacbio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for atol-qc-raw-pacbio
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:cd0f2733ef272cc01ce475f6d961a08063856deba24ea6bb0c0fbf119acbb8d5
+  0.2.2--pyhdfd78af_0: 
+    sha256:1363fb276bfbb7ba9f31505044f32108e804d2302ee208d4cf92f84fb1cf4282
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:cd0f2733ef272cc01ce475f6d961a08063856deba24ea6bb0c0fbf119acbb8d5
+  0.2.2--pyhdfd78af_0: 
+    sha256:1363fb276bfbb7ba9f31505044f32108e804d2302ee208d4cf92f84fb1cf4282
+  0.1.3--pyhdfd78af_0: 
+    sha256:329a17324aa2d2c12281a248f233948665f7d85eabaab1d0661936607ec59019
 docker: quay.io/biocontainers/atol-qc-raw-pacbio
 aliases:
   atol-qc-raw-pacbio: /usr/local/bin/atol-qc-raw-pacbio

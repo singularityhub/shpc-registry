@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-simlr
 latest:
-  1.32.0--r44he5774e6_0: 
-    sha256:d7a007c1324552c5a87ad36f6c67731bc0b50e2b2365f9119f7dcef21f94f8d1
+  1.36.0--r45ha27e39d_0: 
+    sha256:15b602b39a87db63c060012b87b581c73cd19ca8221a94ab01cefd864eaa3710
 tags:
   1.8.1--r351hf484d3e_0: 
     sha256:acbe102efede6cb527b4fe0473ed667356ed8630c8b64bc43c4bd46b665834d3
@@ -26,6 +26,8 @@ tags:
     sha256:6234b16d46ae0507441a473451318b8ea8f4833dd72383de4d629a57222321ef
   1.32.0--r44he5774e6_0: 
     sha256:d7a007c1324552c5a87ad36f6c67731bc0b50e2b2365f9119f7dcef21f94f8d1
+  1.36.0--r45ha27e39d_0: 
+    sha256:15b602b39a87db63c060012b87b581c73cd19ca8221a94ab01cefd864eaa3710
 docker: quay.io/biocontainers/bioconductor-simlr
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

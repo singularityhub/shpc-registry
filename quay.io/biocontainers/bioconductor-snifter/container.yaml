@@ -1,11 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-snifter
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-snifter
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-snifter
 latest:
-  1.12.0--r43hdfd78af_0: sha256:8f50ae895b76072a1a00579d5a5dadb538d6f3f29c27d3d8cf004393fa80e261
+  1.20.0--r45hdfd78af_0: 
+    sha256:1e5295d9154b92af1a5b7507d7e1a8fe2e0bf390c5f20eb2431bbf0491625f87
 tags:
-  1.4.0--r41hdfd78af_0: sha256:4caf94880f22e81b46a99d7db22a3473bdd778568ddc0b38fb64029dce1689e8
-  1.8.0--r42hdfd78af_0: sha256:35e77a6631b77a53d68f967b944d4d4e685407effac583a248c0a35d26b20609
-  1.10.0--r43hdfd78af_0: sha256:9d1112793957a58bf30325238dbfc172c7e9c4accf25d6b9eae0c214001c3408
-  1.12.0--r43hdfd78af_0: sha256:8f50ae895b76072a1a00579d5a5dadb538d6f3f29c27d3d8cf004393fa80e261
+  1.4.0--r41hdfd78af_0: 
+    sha256:4caf94880f22e81b46a99d7db22a3473bdd778568ddc0b38fb64029dce1689e8
+  1.8.0--r42hdfd78af_0: 
+    sha256:35e77a6631b77a53d68f967b944d4d4e685407effac583a248c0a35d26b20609
+  1.10.0--r43hdfd78af_0: 
+    sha256:9d1112793957a58bf30325238dbfc172c7e9c4accf25d6b9eae0c214001c3408
+  1.12.0--r43hdfd78af_0: 
+    sha256:8f50ae895b76072a1a00579d5a5dadb538d6f3f29c27d3d8cf004393fa80e261
+  1.20.0--r45hdfd78af_0: 
+    sha256:1e5295d9154b92af1a5b7507d7e1a8fe2e0bf390c5f20eb2431bbf0491625f87
+  1.16.0--r44hdfd78af_0: 
+    sha256:dba8afb57e13e21c648d5f546c39997799691e3f0d0ac50fe7470dea1db2d1ea
 docker: quay.io/biocontainers/bioconductor-snifter

@@ -1,10 +1,17 @@
 url: https://biocontainers.pro/tools/bioconductor-citruscdf
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-citruscdf
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-citruscdf
 latest:
-  2.18.0--r43hdfd78af_11: sha256:3da69ad29d851e3900f4c70026efcb633e4702dfeb411d68a5dcce85416e95f9
+  2.18.0--r45hdfd78af_14: 
+    sha256:ae7b6f61d3f42b8f25f77a0f1b0687bcb0fc3072a97f5ddfd4a35d793ab26dc7
 tags:
-  2.18.0--r41hdfd78af_9: sha256:0e95b90ef0917f2fc185f6f36a8a792ff3dc8cad7d95fd7c9013a067715eb403
-  2.18.0--r42hdfd78af_10: sha256:213996596dd0ae8c52eb07ea5152cf883d67b5d22881a525f2b0a67672a4fe8e
-  2.18.0--r43hdfd78af_11: sha256:3da69ad29d851e3900f4c70026efcb633e4702dfeb411d68a5dcce85416e95f9
+  2.18.0--r41hdfd78af_9: 
+    sha256:0e95b90ef0917f2fc185f6f36a8a792ff3dc8cad7d95fd7c9013a067715eb403
+  2.18.0--r42hdfd78af_10: 
+    sha256:213996596dd0ae8c52eb07ea5152cf883d67b5d22881a525f2b0a67672a4fe8e
+  2.18.0--r43hdfd78af_11: 
+    sha256:3da69ad29d851e3900f4c70026efcb633e4702dfeb411d68a5dcce85416e95f9
+  2.18.0--r45hdfd78af_14: 
+    sha256:ae7b6f61d3f42b8f25f77a0f1b0687bcb0fc3072a97f5ddfd4a35d793ab26dc7
 docker: quay.io/biocontainers/bioconductor-citruscdf

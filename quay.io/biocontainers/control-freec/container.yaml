@@ -9,6 +9,8 @@ tags:
     sha256:84662aa8c0eed3fd0209a4e84936ad3fe7cecddb1947992f2b45ab217ec27222
   11.6--hdbdd923_3: 
     sha256:246def482a76fc7fc9faaa04499853f29acc16680500d5ade3fcce4eeb074611
+  11.6b--hde5307d_3: 
+    sha256:488fa257f3aa201bba1d8e34b88ea499dde33ac2143df023d7046ea768fbf126
 docker: quay.io/biocontainers/control-freec
 aliases:
   _makeGraph_Chromosome.R: /usr/local/bin/_makeGraph_Chromosome.R

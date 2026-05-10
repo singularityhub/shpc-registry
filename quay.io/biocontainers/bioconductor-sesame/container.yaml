@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-sesame
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:1ae48098264913b91e1d610db5b56dbf2481c7edf301b8e7292a9f35e0c5cffa
+  1.28.1--r45hdfd78af_0: 
+    sha256:6cd24f0a92d832a84db1b9b8cb797246466d9b9e9b0de7c7801fffa6adf2856a
 tags:
   1.8.2--r40hdfd78af_0: 
     sha256:4695c2afe25ac3ce5908e7f878466870d6129796f9e3d3c7bb6cfb640bcd3d25
@@ -20,6 +20,8 @@ tags:
     sha256:b82a5115f4cafa6e8d34fa0f3ccfd78b3ea53cfe5ed8b4375bab5b8aaa7cda5f
   1.24.0--r44hdfd78af_0: 
     sha256:1ae48098264913b91e1d610db5b56dbf2481c7edf301b8e7292a9f35e0c5cffa
+  1.28.1--r45hdfd78af_0: 
+    sha256:6cd24f0a92d832a84db1b9b8cb797246466d9b9e9b0de7c7801fffa6adf2856a
 docker: quay.io/biocontainers/bioconductor-sesame
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

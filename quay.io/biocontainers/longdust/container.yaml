@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/longdust
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for longdust
 latest:
-  1.2--h577a1d6_0: 
-    sha256:d73bef7c688a7cadcea5ad211723cb0f9a4f43b5c9cc70ba5547bde2309f8001
+  1.4--h577a1d6_0: 
+    sha256:94f059efb48d642119fe5018f2b8bd13a1d912cdd4b67daf60f16e1bac5d592f
 tags:
   1.2--h577a1d6_0: 
     sha256:d73bef7c688a7cadcea5ad211723cb0f9a4f43b5c9cc70ba5547bde2309f8001
+  1.4--h577a1d6_0: 
+    sha256:94f059efb48d642119fe5018f2b8bd13a1d912cdd4b67daf60f16e1bac5d592f
+  1.3--h577a1d6_0: 
+    sha256:6cb819b5ea82e50145bf53daeb16051ba235f2781617b7c27ce1cbcf8ac940ca
 docker: quay.io/biocontainers/longdust
 aliases:
   longdust: /usr/local/bin/longdust

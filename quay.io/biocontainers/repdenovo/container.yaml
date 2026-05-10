@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/repdenovo
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for repdenovo
 latest:
-  0.0.1--h26b121b_5: 
-    sha256:ebe91f3c73f8ff5bfa2d19f48897b05f3c764bde814ccfcc6178d62e8fa3be24
+  0.1.0--hfe38a04_0: 
+    sha256:6ba32c1ddc8a499d1becad1542f15946779430f083710bb4cad8b59aab856acb
 tags:
   0.0.1--h4dc6686_2: 
     sha256:9fc82e46f70a77c0cec86668399750bbf0d30c2026013b6c95f8844c3e4b8336
@@ -13,6 +13,8 @@ tags:
     sha256:d013adc271ec091f1466dc87179dad184542504a0030b554ef07eeb3c27b3630
   0.0.1--h26b121b_5: 
     sha256:ebe91f3c73f8ff5bfa2d19f48897b05f3c764bde814ccfcc6178d62e8fa3be24
+  0.1.0--hfe38a04_0: 
+    sha256:6ba32c1ddc8a499d1becad1542f15946779430f083710bb4cad8b59aab856acb
 docker: quay.io/biocontainers/repdenovo
 aliases:
   Assembly.py: /usr/local/bin/Assembly.py

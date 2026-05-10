@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ebcoexpress
 latest:
-  1.50.0--r44h3df3fcb_0: 
-    sha256:94821ab94cbe57de3e1e805096407c9cc3401987a9622fd49c8cbc690b274f30
+  1.54.0--r45h01b2380_0: 
+    sha256:d85e43eb3f14ce9f966306e6037510cd83b0ac0def1aba0cc8103acc13e6461b
 tags:
   1.38.0--r41hc0cfd56_2: 
     sha256:801af83f9aff29876ee4711c6cfefc3b8e98d5c6be863230b7c8c6448e547f1a
@@ -20,4 +20,6 @@ tags:
     sha256:205a6fdc33f019a7a01009485c41461596f196a01d7759f51f79b9fd090e3c07
   1.50.0--r44h3df3fcb_0: 
     sha256:94821ab94cbe57de3e1e805096407c9cc3401987a9622fd49c8cbc690b274f30
+  1.54.0--r45h01b2380_0: 
+    sha256:d85e43eb3f14ce9f966306e6037510cd83b0ac0def1aba0cc8103acc13e6461b
 docker: quay.io/biocontainers/bioconductor-ebcoexpress

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/somatem
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for somatem
 latest:
-  0.7.1--hdfd78af_0: 
-    sha256:ec20ff56b2399c730beed5841b9ec952cbe9a35358c039fb68b698e999ce6a7d
+  0.7.1--hdfd78af_1: 
+    sha256:aee320091e16b900a9b159f9a4031d66cbee47336f207729f939fd63ef43438d
 tags:
   0.7.1--hdfd78af_0: 
     sha256:ec20ff56b2399c730beed5841b9ec952cbe9a35358c039fb68b698e999ce6a7d
+  0.7.1--hdfd78af_1: 
+    sha256:aee320091e16b900a9b159f9a4031d66cbee47336f207729f939fd63ef43438d
 docker: quay.io/biocontainers/somatem
 aliases:
   micromamba: /usr/local/bin/micromamba

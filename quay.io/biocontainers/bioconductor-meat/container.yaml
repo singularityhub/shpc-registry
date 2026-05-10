@@ -1,11 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-meat
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-meat
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-meat
 latest:
-  1.14.0--r43hdfd78af_0: sha256:05d7db73742760ffbf5b57ba9f6e8e17063c12b0aa9b858a431582e31ac52e87
+  1.22.0--r45hdfd78af_0: 
+    sha256:86aeae7921604fb3a40dfdfdd28bd285a6541e8a3d6b50a2fb938656b578b2bc
 tags:
-  1.6.0--r41hdfd78af_0: sha256:a3406ef8e296cf71264a4f5c223220b1e2ad0887c6296c382e9e1826a510978e
-  1.10.0--r42hdfd78af_0: sha256:4b58f7309ff67155e7c112f5e2532bb5ca4007f2d31f9a400059866452ec837e
-  1.12.0--r43hdfd78af_0: sha256:d90008b9e7f9804e6e18837c81f1639d81b481faf74f1728f21e98a6346f8744
-  1.14.0--r43hdfd78af_0: sha256:05d7db73742760ffbf5b57ba9f6e8e17063c12b0aa9b858a431582e31ac52e87
+  1.6.0--r41hdfd78af_0: 
+    sha256:a3406ef8e296cf71264a4f5c223220b1e2ad0887c6296c382e9e1826a510978e
+  1.10.0--r42hdfd78af_0: 
+    sha256:4b58f7309ff67155e7c112f5e2532bb5ca4007f2d31f9a400059866452ec837e
+  1.12.0--r43hdfd78af_0: 
+    sha256:d90008b9e7f9804e6e18837c81f1639d81b481faf74f1728f21e98a6346f8744
+  1.14.0--r43hdfd78af_0: 
+    sha256:05d7db73742760ffbf5b57ba9f6e8e17063c12b0aa9b858a431582e31ac52e87
+  1.22.0--r45hdfd78af_0: 
+    sha256:86aeae7921604fb3a40dfdfdd28bd285a6541e8a3d6b50a2fb938656b578b2bc
+  1.18.0--r44hdfd78af_0: 
+    sha256:78bf4e59114ea51a7e0b9c69281e9baa90a6db2762304ef538e5f99429ac7db3
 docker: quay.io/biocontainers/bioconductor-meat

@@ -2,9 +2,19 @@ url: https://biocontainers.pro/tools/eva-sub-cli
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eva-sub-cli
 latest:
-  0.2--py312hdfd78af_0: sha256:c0cdcbcfe8fc1378efbbc40dc2983ad27e0a1d5e412e96f8c88f88b2db031c4d
+  0.6.2--py313hdfd78af_0: 
+    sha256:562cdc2f72bc10701741fc51cb8cf05906bf085cc96b24468f057a1a1baf4ec4
 tags:
-  0.2--py312hdfd78af_0: sha256:c0cdcbcfe8fc1378efbbc40dc2983ad27e0a1d5e412e96f8c88f88b2db031c4d
+  0.2--py312hdfd78af_0: 
+    sha256:c0cdcbcfe8fc1378efbbc40dc2983ad27e0a1d5e412e96f8c88f88b2db031c4d
+  0.6.2--py313hdfd78af_0: 
+    sha256:562cdc2f72bc10701741fc51cb8cf05906bf085cc96b24468f057a1a1baf4ec4
+  0.5.3--py313hdfd78af_0: 
+    sha256:3add8590d8ddcfcb5e053fd398fd3d2621d48fb324ccda196fb22ae456d7855a
+  0.4.14--py313hdfd78af_0: 
+    sha256:7854b39710200db79825d1856ace181471365275b85e381d7397f863b0046185
+  0.3--py312hdfd78af_0: 
+    sha256:34cac5e2a01c08bb396b4462e8557869ce50095432dbc0a5248d5915e4628bab
 docker: quay.io/biocontainers/eva-sub-cli
 aliases:
   archive_directory.py: /usr/local/bin/archive_directory.py

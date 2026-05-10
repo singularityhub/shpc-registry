@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tloh
 latest:
-  1.14.0--r44hdfd78af_0: 
-    sha256:d1ffda55a34004c54e0011e7454463f8c7ce20c7939d9a20abc362fc717e6362
+  1.18.0--r45hdfd78af_0: 
+    sha256:623dc22c34d4e09fa8016d19a2c4b5b6e339e1fe27885629092c2163f641a8bf
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:e9aadb333a6ad6f8331cd379173aaed8bc8b09b6e9767596cd967987b379021c
@@ -16,4 +16,6 @@ tags:
     sha256:d0991cbe18b66a38d11197ae37834e37231a54a137654362bbd9efa23fc01627
   1.14.0--r44hdfd78af_0: 
     sha256:d1ffda55a34004c54e0011e7454463f8c7ce20c7939d9a20abc362fc717e6362
+  1.18.0--r45hdfd78af_0: 
+    sha256:623dc22c34d4e09fa8016d19a2c4b5b6e339e1fe27885629092c2163f641a8bf
 docker: quay.io/biocontainers/bioconductor-tloh

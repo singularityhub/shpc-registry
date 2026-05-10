@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/merfin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for merfin
 latest:
-  1.0--h9948957_3: 
-    sha256:bd20892235acef129721fe746f4dac8bc1107f3310efddae75401d08e866ff10
+  1.1--hd63eeec_0: 
+    sha256:72940d5f5d150e427c6bc46f2216ee27e8822f9f7e380a4ada0ff42e4a2a1797
 tags:
   1.0--h9f5acd7_1: 
     sha256:2c2641a46d1ffcd92fe650c750e9ab3528be742180bcb68c85f7dd9bbbf964c5
@@ -11,6 +11,8 @@ tags:
     sha256:0187816d6849f9254fac4063babe024657829d09adf421100df825616bf2e1f6
   1.0--h9948957_3: 
     sha256:bd20892235acef129721fe746f4dac8bc1107f3310efddae75401d08e866ff10
+  1.1--hd63eeec_0: 
+    sha256:72940d5f5d150e427c6bc46f2216ee27e8822f9f7e380a4ada0ff42e4a2a1797
 docker: quay.io/biocontainers/merfin
 aliases:
   gunzip: /usr/local/bin/gunzip

@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/maxalign-rs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for maxalign-rs
 latest:
-  0.1.0--h4349ce8_0: 
-    sha256:7a081d2b5519cfa4a316fd24c9a624a3e7d14ff62d9e74e1cb1a7864a75bcc0d
+  0.3.1--h54198d6_0: 
+    sha256:0544d3c64d2c7a12664f49a484dbf2db6189dfa808917d08201cabf930e01853
 tags:
   0.1.0--h4349ce8_0: 
     sha256:7a081d2b5519cfa4a316fd24c9a624a3e7d14ff62d9e74e1cb1a7864a75bcc0d
+  0.3.1--h54198d6_0: 
+    sha256:0544d3c64d2c7a12664f49a484dbf2db6189dfa808917d08201cabf930e01853
+  0.2.0--h54198d6_0: 
+    sha256:fc3c5389f0f812b5b9d43e68d31e75e56675808b0d3161cdc8cc32b87670a201
 docker: quay.io/biocontainers/maxalign-rs
 aliases:
   maxalign-rs: /usr/local/bin/maxalign-rs

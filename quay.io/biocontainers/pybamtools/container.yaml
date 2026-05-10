@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pybamtools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pybamtools
 latest:
-  0.0.4--py_3: sha256:643d48347a272508bea843bfcf87e979443521151cd7a929af109ab9979847b4
+  0.0.4--py_3: 
+    sha256:42013ee7f2cb4b278a35f1dfecd68bc4872d61ebe90fc23f58c8cce91f9094e4
 tags:
-  0.0.4--py_3: sha256:643d48347a272508bea843bfcf87e979443521151cd7a929af109ab9979847b4
+  0.0.4--py_3: 
+    sha256:42013ee7f2cb4b278a35f1dfecd68bc4872d61ebe90fc23f58c8cce91f9094e4
 docker: quay.io/biocontainers/pybamtools
 aliases:
   f2py2: /usr/local/bin/f2py2

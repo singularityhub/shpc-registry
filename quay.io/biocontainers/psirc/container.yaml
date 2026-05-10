@@ -2,12 +2,17 @@ url: https://biocontainers.pro/tools/psirc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for psirc
 latest:
-  1.0.0--he1fd2f9_0: sha256:a698301d6f2de7b3fdb659609b0cf0cd9b5408764145915b7ee6e46106e76aee
+  1.0.0--h6f0a7f7_1: 
+    sha256:29ee54524219437b54c8ec302cefcef43c868381fb2d32a786ec9bc2d2a29ea8
 tags:
-  1.0.0--he1fd2f9_0: sha256:a698301d6f2de7b3fdb659609b0cf0cd9b5408764145915b7ee6e46106e76aee
+  1.0.0--he1fd2f9_0: 
+    sha256:a698301d6f2de7b3fdb659609b0cf0cd9b5408764145915b7ee6e46106e76aee
+  1.0.0--h6f0a7f7_1: 
+    sha256:29ee54524219437b54c8ec302cefcef43c868381fb2d32a786ec9bc2d2a29ea8
 docker: quay.io/biocontainers/psirc
 aliases:
-  create_custom_transcriptome_fa.pl: /usr/local/bin/create_custom_transcriptome_fa.pl
+  create_custom_transcriptome_fa.pl: 
+    /usr/local/bin/create_custom_transcriptome_fa.pl
   psirc: /usr/local/bin/psirc
   psirc-quant: /usr/local/bin/psirc-quant
   psirc_v1.0.pl: /usr/local/bin/psirc_v1.0.pl

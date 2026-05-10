@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-curatedovariandata
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:a55e8e3e43c87a62d57be955a2c4f3507e8249b9a81086f3857be6ef891d0e0c
+  1.48.0--r45hdfd78af_0: 
+    sha256:e5810acb401eb9ba0a88403f209c7c048848135e9d276fc9c1b0fedd85baf75c
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:51881a8658749c63a8757c5f565121586b26a0ace3978252c7838b77de9061e7
@@ -16,4 +16,6 @@ tags:
     sha256:c9a40b86c8aeac632c7113ec530e2112626ddf934eb6763b05b58ef57a8ab96b
   1.44.0--r44hdfd78af_0: 
     sha256:a55e8e3e43c87a62d57be955a2c4f3507e8249b9a81086f3857be6ef891d0e0c
+  1.48.0--r45hdfd78af_0: 
+    sha256:e5810acb401eb9ba0a88403f209c7c048848135e9d276fc9c1b0fedd85baf75c
 docker: quay.io/biocontainers/bioconductor-curatedovariandata

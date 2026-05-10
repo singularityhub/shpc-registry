@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-spatiallibd
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:03d916d9acdb0b3c14aad6ca791f5a4923ed881710a69bdf0793dd47dd14e878
+  1.22.0--r45hdfd78af_0: 
+    sha256:41c1343a9b0f396fac8448cdf09d2910a06c55bf07d26d5ddda6090422a29bb6
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:116d75ecb820397199e58ae477d7216b6ffee72a4fcd7763a5561f03d308b60f
@@ -16,6 +16,8 @@ tags:
     sha256:28e49e1041dffeb6eea824eee03be6f5a08b0e1d449fa0573d55838c9303d94c
   1.18.0--r44hdfd78af_0: 
     sha256:03d916d9acdb0b3c14aad6ca791f5a4923ed881710a69bdf0793dd47dd14e878
+  1.22.0--r45hdfd78af_0: 
+    sha256:41c1343a9b0f396fac8448cdf09d2910a06c55bf07d26d5ddda6090422a29bb6
 docker: quay.io/biocontainers/bioconductor-spatiallibd
 aliases:
   x86_64-conda-linux-gnu-pkg-config: 

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rtnsurvival
 latest:
-  1.30.0--r44hdfd78af_0: 
-    sha256:293924f9ca7335c8a0550a8d960cfa287164988d75d8f392e2962745865dea20
+  1.34.0--r45hdfd78af_0: 
+    sha256:941090477f5d64b2256a0bd90836f72c6aeed49d496264d9240f36df9eabbd16
 tags:
   1.8.1--r36_0: 
     sha256:3402f3e6e62baeee157945b7f037da57e40fb4eb53db5498ff595c5bbe7e9eef
@@ -24,6 +24,8 @@ tags:
     sha256:196368cc955f39104f71039329920592aaf6678a7147aa130bde28e3db6417a8
   1.30.0--r44hdfd78af_0: 
     sha256:293924f9ca7335c8a0550a8d960cfa287164988d75d8f392e2962745865dea20
+  1.34.0--r45hdfd78af_0: 
+    sha256:941090477f5d64b2256a0bd90836f72c6aeed49d496264d9240f36df9eabbd16
 docker: quay.io/biocontainers/bioconductor-rtnsurvival
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

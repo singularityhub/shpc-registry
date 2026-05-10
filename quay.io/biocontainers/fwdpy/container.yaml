@@ -2,7 +2,9 @@ url: https://biocontainers.pro/tools/fwdpy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fwdpy
 latest:
-  0.0.4pre1--py35_gsl1.16_0: sha256:d1c54dd798ce34ff6a717f3412cdcc47af58e85bb9cf4d9255f2000931cf16e0
+  0.0.4pre1--py35_gsl1.16_0: 
+    sha256:1c946921cb428f50b5bf716d0ca239ebefecfbc1c4851eb7bd4d84c89f0d6746
 tags:
-  0.0.4pre1--py35_gsl1.16_0: sha256:d1c54dd798ce34ff6a717f3412cdcc47af58e85bb9cf4d9255f2000931cf16e0
+  0.0.4pre1--py35_gsl1.16_0: 
+    sha256:1c946921cb428f50b5bf716d0ca239ebefecfbc1c4851eb7bd4d84c89f0d6746
 docker: quay.io/biocontainers/fwdpy

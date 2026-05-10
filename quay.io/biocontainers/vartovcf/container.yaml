@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/vartovcf
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vartovcf
 latest:
-  1.4.0--h3ab6199_0: 
-    sha256:e9fbea1e3f2983ef7e062afa7a3b575a9afbdb095c4d08b8245edfe19a5bf13a
+  1.5.1--h79ce301_0: 
+    sha256:4675e961c5f739db22ca1a4ce560aa8694f54388bde51db06a917cd572efb59f
 tags:
   1.0.0--h3ab6199_0: 
     sha256:a1d04979df624d88262a718034a31f1d2cda175d79e1c2a0d5346c1a127afbb7
@@ -15,6 +15,8 @@ tags:
     sha256:2b6c8ef4d3adcea64ff54c12559da43ce0e91f985f7a3620acdadcda113f270a
   1.2.0--h3ab6199_0: 
     sha256:98485c5fb345fc7972c201f888be1724e677970aee6176d4c7ab1b7327d25a08
+  1.5.1--h79ce301_0: 
+    sha256:4675e961c5f739db22ca1a4ce560aa8694f54388bde51db06a917cd572efb59f
 docker: quay.io/biocontainers/vartovcf
 aliases:
   vartovcf: /usr/local/bin/vartovcf

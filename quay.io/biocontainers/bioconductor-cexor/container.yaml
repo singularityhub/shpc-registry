@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cexor
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:5defc8293229d86eaf9dd2f3f706a1efe0c683e7d0d29fd61e87e4382946fa95
+  1.48.0--r45hdfd78af_0: 
+    sha256:4588af15616d02b756e35fb3ab6c6e626d839984049098c3d7cc5e2d0ffc9e4b
 tags:
   1.8.0--0: 
     sha256:7ae73aab2091888b7a0076e175799a865cd3c3220b1f3dd89b6616ec76d82086
@@ -24,6 +24,8 @@ tags:
     sha256:97f2e8b0833e8ddf8e20243bebfd8ee162afe32275767bd4ecdf09bf9524414d
   1.44.0--r44hdfd78af_0: 
     sha256:5defc8293229d86eaf9dd2f3f706a1efe0c683e7d0d29fd61e87e4382946fa95
+  1.48.0--r45hdfd78af_0: 
+    sha256:4588af15616d02b756e35fb3ab6c6e626d839984049098c3d7cc5e2d0ffc9e4b
 docker: quay.io/biocontainers/bioconductor-cexor
 aliases:
   pngcp: /usr/local/bin/pngcp

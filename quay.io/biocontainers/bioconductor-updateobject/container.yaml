@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-updateobject
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:18f8ee7d5d0691976a94336b010c2cebb0fe63d3fd3ad2f61ab02bb7d358dc18
+  1.14.0--r45hdfd78af_0: 
+    sha256:b1e17527918cc2bb1807926fbd00d7a72c6a9c1b6504d3459969034f14acdbd0
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:3aede3ce544680c57ba16fc466419c8b1c2d76d15d4f03fb2f54f6141c9ea499
@@ -14,4 +14,6 @@ tags:
     sha256:9fc75e27678f02d32c7fd84baa3ed1270f35f45534eee074323e4064a3d6e6d7
   1.10.0--r44hdfd78af_0: 
     sha256:18f8ee7d5d0691976a94336b010c2cebb0fe63d3fd3ad2f61ab02bb7d358dc18
+  1.14.0--r45hdfd78af_0: 
+    sha256:b1e17527918cc2bb1807926fbd00d7a72c6a9c1b6504d3459969034f14acdbd0
 docker: quay.io/biocontainers/bioconductor-updateobject

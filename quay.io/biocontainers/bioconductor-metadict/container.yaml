@@ -4,10 +4,10 @@ description: singularity registry hpc automated addition for
   bioconductor-metadict
 latest:
   1.0.0--r45hdfd78af_0: 
-    sha256:84076a964ef77a75aed6c67d9a8ac6e5d3221c0325803bf17bf2b7baf70b910b
+    sha256:f779047ba0bf25f9e974a9c18923e44243d4c5eb5c09a6897c5799a00a2905cf
 tags:
   1.0.0--r45hdfd78af_0: 
-    sha256:84076a964ef77a75aed6c67d9a8ac6e5d3221c0325803bf17bf2b7baf70b910b
+    sha256:f779047ba0bf25f9e974a9c18923e44243d4c5eb5c09a6897c5799a00a2905cf
 docker: quay.io/biocontainers/bioconductor-metadict
 aliases:
   idle3.14: /usr/local/bin/idle3.14

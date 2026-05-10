@@ -1,14 +1,27 @@
 url: https://biocontainers.pro/tools/bioconductor-infercnv
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-infercnv
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-infercnv
 latest:
-  1.18.1--r43hdfd78af_1: sha256:9e466cc40640de3eb6281fbdc75e5f430d7ebad243ddd0aae3059b95206f0a11
+  1.26.0--r45hdfd78af_0: 
+    sha256:a3bb3bd690bc5bd8c9282b8f4ee39ee858fe903826fe2012fff85833a1a507a9
 tags:
-  1.8.0--r41hdfd78af_0: sha256:1b4a66f2e2da5eec4ab5480d65a88d71db9861d10e2b419cc540f95cc115c31b
-  1.14.0--r42hdfd78af_0: sha256:1b6554eff58a1d217bb41bd3597332d84b6ac1c7d2ecde5cceeb31567e412a07
-  1.10.0--r41hdfd78af_0: sha256:7d0e0e9a90d2cad4f6bc7221c889c298f91d51af90474fc95f70cba510b1920c
-  1.16.0--r43hdfd78af_0: sha256:4d2b3f19c2058401e19c779290458e061590679e065b329c3392dbdb5322e77f
-  1.18.1--r43hdfd78af_1: sha256:9e466cc40640de3eb6281fbdc75e5f430d7ebad243ddd0aae3059b95206f0a11
+  1.8.0--r41hdfd78af_0: 
+    sha256:1b4a66f2e2da5eec4ab5480d65a88d71db9861d10e2b419cc540f95cc115c31b
+  1.14.0--r42hdfd78af_0: 
+    sha256:1b6554eff58a1d217bb41bd3597332d84b6ac1c7d2ecde5cceeb31567e412a07
+  1.10.0--r41hdfd78af_0: 
+    sha256:7d0e0e9a90d2cad4f6bc7221c889c298f91d51af90474fc95f70cba510b1920c
+  1.16.0--r43hdfd78af_0: 
+    sha256:4d2b3f19c2058401e19c779290458e061590679e065b329c3392dbdb5322e77f
+  1.18.1--r43hdfd78af_1: 
+    sha256:9e466cc40640de3eb6281fbdc75e5f430d7ebad243ddd0aae3059b95206f0a11
+  1.26.0--r45hdfd78af_0: 
+    sha256:a3bb3bd690bc5bd8c9282b8f4ee39ee858fe903826fe2012fff85833a1a507a9
+  1.22.0--r44hdfd78af_0: 
+    sha256:291ef4ee389b1531b8d237c495e7c31e877282e530d3ced91267a197633435a9
+  1.20.0--r43hdfd78af_0: 
+    sha256:4e98e22d3a51bcbe6cca80f1777cf499d8ff34fbf09618dda7beb12c8684565a
 docker: quay.io/biocontainers/bioconductor-infercnv
 aliases:
   jags: /usr/local/bin/jags
@@ -17,4 +30,5 @@ aliases:
   pydoc3.9: /usr/local/bin/pydoc3.9
   python3.9: /usr/local/bin/python3.9
   python3.9-config: /usr/local/bin/python3.9-config
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

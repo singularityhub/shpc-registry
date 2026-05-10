@@ -41,6 +41,8 @@ tags:
     sha256:95c04c2619f552a19951c928c16851c3efa48973b4653e60185a74ce6e50ef11
   5.2--py313h8c92656_1: 
     sha256:dc10b125b5099682ebd0c17d8ffee70c4bf82ad599fea4a1071b2f46e4d572f3
+  4.7--py38he5da3d1_1: 
+    sha256:471cc04fbe803a2668520256da8401bcf6e389749226bfa376d1520959fa6b84
 docker: quay.io/biocontainers/cutadapt
 aliases:
   cutadapt: /usr/local/bin/cutadapt

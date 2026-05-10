@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rustqc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rustqc
 latest:
-  0.1.1--h9ee0642_1: 
-    sha256:42b72da84d710c940b73e755987ff55dd7e262ffe2b97d0200143b1d7e778be9
+  0.2.1--h9ee0642_0: 
+    sha256:116b2fea56fe2f5b34196ef12008e585d589db72e38e6ade4496b04ca53e2d33
 tags:
   0.1.1--h9ee0642_1: 
     sha256:42b72da84d710c940b73e755987ff55dd7e262ffe2b97d0200143b1d7e778be9
+  0.2.1--h9ee0642_0: 
+    sha256:116b2fea56fe2f5b34196ef12008e585d589db72e38e6ade4496b04ca53e2d33
 docker: quay.io/biocontainers/rustqc
 aliases:
   rustqc: /usr/local/bin/rustqc

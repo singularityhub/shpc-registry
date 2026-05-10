@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/gsea
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gsea
 latest:
-  4.3.2--hdfd78af_0: sha256:0010041fff53d3b4b73911e86c1337ff9f509787356470a6aa06640c86164dee
+  4.3.2--hdfd78af_0: 
+    sha256:0010041fff53d3b4b73911e86c1337ff9f509787356470a6aa06640c86164dee
 tags:
-  4.3.2--hdfd78af_0: sha256:0010041fff53d3b4b73911e86c1337ff9f509787356470a6aa06640c86164dee
+  4.3.2--hdfd78af_0: 
+    sha256:0010041fff53d3b4b73911e86c1337ff9f509787356470a6aa06640c86164dee
 docker: quay.io/biocontainers/gsea
 aliases:
   gsea: /usr/local/bin/gsea

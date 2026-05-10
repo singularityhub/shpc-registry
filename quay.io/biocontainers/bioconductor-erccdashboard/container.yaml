@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-erccdashboard
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:67ae34c66f7899dcc1c6b1a3d1b7187127fae5552ff557210113aa494a295dd6
+  1.44.0--r45hdfd78af_0: 
+    sha256:5207221427eea7af75bb0cad842212a1499ddae593d26f00f388669a365c03aa
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:f902a7038ea220e297ee7cd906833d7dd8bf184191491292bb7bc04a910ac91b
@@ -16,4 +16,6 @@ tags:
     sha256:72987bfc320b17c1037e4d35b53f31a1d2ebf75c1017f4e608deb8bbc5885af4
   1.40.0--r44hdfd78af_0: 
     sha256:67ae34c66f7899dcc1c6b1a3d1b7187127fae5552ff557210113aa494a295dd6
+  1.44.0--r45hdfd78af_0: 
+    sha256:5207221427eea7af75bb0cad842212a1499ddae593d26f00f388669a365c03aa
 docker: quay.io/biocontainers/bioconductor-erccdashboard

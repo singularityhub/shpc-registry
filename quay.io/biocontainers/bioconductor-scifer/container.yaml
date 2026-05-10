@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-scifer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-scifer
 latest:
-  1.8.0--r44hdfd78af_0: 
-    sha256:486b116258574329af505a0aae10ecb7925633e77bd399df14fa196ed84e6abb
+  1.12.0--r45hdfd78af_0: 
+    sha256:e61420561ce30dd48a6c0c4af40f2bb69c6b24b176c7fb727fbd25a4390902c8
 tags:
   1.0.0--r42hdfd78af_0: 
     sha256:08c660d2b7e8c85ad1971db277c76f3bdd82ed7339c201f40ec976654abea3df
@@ -13,6 +13,8 @@ tags:
     sha256:843bbb63dd266ee9fae9045d6c83273c5fa701501c8ef8dac1c2718ef5e46b6b
   1.8.0--r44hdfd78af_0: 
     sha256:486b116258574329af505a0aae10ecb7925633e77bd399df14fa196ed84e6abb
+  1.12.0--r45hdfd78af_0: 
+    sha256:e61420561ce30dd48a6c0c4af40f2bb69c6b24b176c7fb727fbd25a4390902c8
 docker: quay.io/biocontainers/bioconductor-scifer
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

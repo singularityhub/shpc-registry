@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/seqwin
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seqwin
 latest:
-  0.3.1--py311h93bbee8_0: 
-    sha256:bac5946339e34b31207408cf979924fbc6c681d8ade4217d56edace44d7614f3
+  0.3.2--py310hd766df8_0: 
+    sha256:21a22e141066398605c5bfc3c29630d8d52a993f09e82e03ddf38abcd4802e0b
 tags:
   0.1.0--pyhdfd78af_1: 
     sha256:4b6a1f9b718f1f3bb7b8fc45a781b1306f22caf47a3f93dadd64ae2c38fc7631
@@ -21,6 +21,8 @@ tags:
     sha256:bac5946339e34b31207408cf979924fbc6c681d8ade4217d56edace44d7614f3
   0.2.3--pyhdfd78af_0: 
     sha256:e30c7a2a923e03a181722ec75f26bdcca02ec3afcde6d102101dca1671b4ca0a
+  0.3.2--py310hd766df8_0: 
+    sha256:21a22e141066398605c5bfc3c29630d8d52a993f09e82e03ddf38abcd4802e0b
 docker: quay.io/biocontainers/seqwin
 aliases:
   archive-nlmnlp: /usr/local/bin/archive-nlmnlp

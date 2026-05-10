@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hts-nim-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hts-nim-tools
 latest:
-  0.3.11--hbeb723e_0: 
-    sha256:bbe411e5b4744b8159ebff8b17534c7876e779d8c97cf48f72fd6614f34bbcbe
+  0.3.31--hfbdc700_0: 
+    sha256:c665b2b5d3dc87970d1372d760fcc374c9badab7880a5e5276efe6f95441fa0d
 tags:
   0.3.11--hbeb723e_0: 
     sha256:bbe411e5b4744b8159ebff8b17534c7876e779d8c97cf48f72fd6614f34bbcbe
+  0.3.31--hfbdc700_0: 
+    sha256:c665b2b5d3dc87970d1372d760fcc374c9badab7880a5e5276efe6f95441fa0d
 docker: quay.io/biocontainers/hts-nim-tools
 aliases:
   hts_nim_tools: /usr/local/bin/hts_nim_tools

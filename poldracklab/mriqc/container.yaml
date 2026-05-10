@@ -1,12 +1,20 @@
 docker: poldracklab/mriqc
 latest:
-  0.16.1: 'crane digest poldracklab/mriqc:0.16.1: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  0.16.1: 
+    sha256:cbaeda87ca5f7a0f86816ac4a56fc28fef0ac88f392be7a9037371f8d7f48e53
 tags:
-  0.16.1: 'crane digest poldracklab/mriqc:0.16.1: TOOMANYREQUESTS: You have reached
-    your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit'
+  0.16.1: 
+    sha256:cbaeda87ca5f7a0f86816ac4a56fc28fef0ac88f392be7a9037371f8d7f48e53
+  0.15.2: 
+    sha256:f5a96c37dbf33f6e23b87dd584a66859147b6db40466af013fa044d307e990d7
+  0.14.2: 
+    sha256:6609a2427d6f270947f466c00591c3948b7682360be8259b661dc4009455af94
+  0.13.1: 
+    sha256:1967e6ca49bc7bfb2d1c709980f3de43bafc227f50843971bc8d72b449fd4435
+  0.12.1: 
+    sha256:1b179d8ece99eb953f544dd136e962b19c1d1bf5af75400304958772611aea48
 filter:
-- 2[.]*
+- ^\d+(\.\d+)*$
 maintainer: '@vsoch'
 description: Automatic prediction of quality and visual reporting of MRI scans.
 url: https://hub.docker.com/r/poldracklab/mriqc

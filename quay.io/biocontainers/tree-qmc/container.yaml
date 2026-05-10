@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/tree-qmc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tree-qmc
 latest:
-  3.0.0--hee07fbb_0: sha256:07ed7e79a6cd454ae91629962384ba242f7f2fc36d62b7fc99e294d82a69ec04
+  3.0.4--hee07fbb_0: 
+    sha256:376db869c272d5f91d7d12c6dcffbb63e7e2d74c796ae8af6bcec20b845b9350
 tags:
-  3.0.0--hee07fbb_0: sha256:07ed7e79a6cd454ae91629962384ba242f7f2fc36d62b7fc99e294d82a69ec04
+  3.0.0--hee07fbb_0: 
+    sha256:07ed7e79a6cd454ae91629962384ba242f7f2fc36d62b7fc99e294d82a69ec04
+  3.0.4--hee07fbb_0: 
+    sha256:376db869c272d5f91d7d12c6dcffbb63e7e2d74c796ae8af6bcec20b845b9350
 docker: quay.io/biocontainers/tree-qmc
 aliases:
   TREE-QMC: /usr/local/bin/TREE-QMC

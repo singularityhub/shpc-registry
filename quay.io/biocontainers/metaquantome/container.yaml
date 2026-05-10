@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/metaquantome
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for metaquantome
 latest:
-  2.0.3--pyhdfd78af_0: 
-    sha256:3b5f8d66a532e6c865b73c1c9f258df90782d7227f8139b6dd256bf798a89e56
+  2.0.4--pyhdfd78af_0: 
+    sha256:95708958060c35dc779dab671a98d78ec6c808cc020452b3c594e8341a3cc362
 tags:
   2.0.2--pyhdfd78af_0: 
     sha256:63ecc9b2be8ab451aae2092d47d03e5f6e2d9217fa920e7bf488b1a6f1cb4f9e
   2.0.3--pyhdfd78af_0: 
     sha256:3b5f8d66a532e6c865b73c1c9f258df90782d7227f8139b6dd256bf798a89e56
+  2.0.4--pyhdfd78af_0: 
+    sha256:95708958060c35dc779dab671a98d78ec6c808cc020452b3c594e8341a3cc362
 docker: quay.io/biocontainers/metaquantome
 aliases:
   fetch_associations.py: /usr/local/bin/fetch_associations.py

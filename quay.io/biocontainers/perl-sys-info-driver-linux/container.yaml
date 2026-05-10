@@ -1,10 +1,21 @@
 url: https://biocontainers.pro/tools/perl-sys-info-driver-linux
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-sys-info-driver-linux
+description: shpc-registry automated BioContainers addition for 
+  perl-sys-info-driver-linux
 latest:
-  0.7905--pl5321hdfd78af_1: sha256:ab2db8b8914f4c770c3083a3d2e6db5a923f14b47188e53847f92fc7e1c137a8
+  0.7911--pl5321hdfd78af_0: 
+    sha256:d0ae8101e38d564829e8147b5f1c7212239c317d4e56539d09452217c99cc9c8
 tags:
-  0.7905--pl5321hdfd78af_1: sha256:ab2db8b8914f4c770c3083a3d2e6db5a923f14b47188e53847f92fc7e1c137a8
+  0.7905--pl5321hdfd78af_1: 
+    sha256:ab2db8b8914f4c770c3083a3d2e6db5a923f14b47188e53847f92fc7e1c137a8
+  0.7911--pl5321hdfd78af_0: 
+    sha256:d0ae8101e38d564829e8147b5f1c7212239c317d4e56539d09452217c99cc9c8
+  0.7909--pl5321hdfd78af_0: 
+    sha256:10980a89a61dd3ca5561ad2959d96c6c21aa114913a304497915c773931409d6
+  0.7908--pl5321hdfd78af_0: 
+    sha256:395a83eab3df0c04bfc75720e30a801fdcc1c9cde88e15fa5eca5a24418ad356
+  0.7906--pl5321hdfd78af_0: 
+    sha256:2a7e0193b87e191094522fce702f3df043e80b641a11a525b30faa28aa242172
 docker: quay.io/biocontainers/perl-sys-info-driver-linux
 aliases:
   tts: /usr/local/bin/tts

@@ -2,10 +2,13 @@ url: https://biocontainers.pro/tools/r-dbchip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-dbchip
 latest:
-  1.1.6--r3.2.2_1: sha256:9ed68b76f9c74dbcd6a32f5e88ee9383ce1efb5a83e2c8bc029995beabc5101f
+  1.1.6--r3.2.2_1: 
+    sha256:278790c99a43ac196da10e82e507fc1b80181bae872419e0ced1ea93712705f2
 tags:
-  1.1.6--r3.2.2_1: sha256:9ed68b76f9c74dbcd6a32f5e88ee9383ce1efb5a83e2c8bc029995beabc5101f
-  1.1.6--r3.4.1_1: sha256:7275bfd133cbb93153daae41454e634e65e61b1d486bd17fc2cc191263544f27
+  1.1.6--r3.2.2_1: 
+    sha256:278790c99a43ac196da10e82e507fc1b80181bae872419e0ced1ea93712705f2
+  1.1.6--r3.4.1_1: 
+    sha256:c4fa3ef0c6cc6facf6e141d6b74648b2e7927db96788c96264918379ad1e5abc
 docker: quay.io/biocontainers/r-dbchip
 aliases:
   pngcp: /usr/local/bin/pngcp

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/diting
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for diting
 latest:
-  2.0.1--pyh106432d_1: 
-    sha256:c7c04aedb78e9381430a17a603f4ba3e8581f0a124f1a6aa7a74cb3ff471ed18
+  2.0.2--pyh106432d_0: 
+    sha256:86b383e7ed60964a2815e91bf8ad691ba596fd6dc5345d5dc62132033917bd09
 tags:
   2.0.1--pyh106432d_1: 
     sha256:c7c04aedb78e9381430a17a603f4ba3e8581f0a124f1a6aa7a74cb3ff471ed18
+  2.0.2--pyh106432d_0: 
+    sha256:86b383e7ed60964a2815e91bf8ad691ba596fd6dc5345d5dc62132033917bd09
 docker: quay.io/biocontainers/diting
 aliases:
   alignrandom.sh: /usr/local/bin/alignrandom.sh

@@ -1,10 +1,17 @@
 url: https://biocontainers.pro/tools/bioconductor-lumiratidmapping
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-lumiratidmapping
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-lumiratidmapping
 latest:
-  1.10.0--r43hdfd78af_11: sha256:25c102269e29a040f19cfb5f1898c576cc4bc0450bc371a987a08d33e848a5a2
+  1.10.0--r45hdfd78af_14: 
+    sha256:be5eb2ef2dc48e8fdd26da3ef3e33edfd03122f9d72533fc23d22e6d42028265
 tags:
-  1.10.0--r41hdfd78af_9: sha256:5ddcc634f1eeb514949dccd6e2e4d32f435e1f83d2afd449c803e506c6807790
-  1.10.0--r42hdfd78af_10: sha256:375d0d68862ca2ef6d928159173fa4ba7d934e1f93a0dc456a8c58575dda9526
-  1.10.0--r43hdfd78af_11: sha256:25c102269e29a040f19cfb5f1898c576cc4bc0450bc371a987a08d33e848a5a2
+  1.10.0--r41hdfd78af_9: 
+    sha256:5ddcc634f1eeb514949dccd6e2e4d32f435e1f83d2afd449c803e506c6807790
+  1.10.0--r42hdfd78af_10: 
+    sha256:375d0d68862ca2ef6d928159173fa4ba7d934e1f93a0dc456a8c58575dda9526
+  1.10.0--r43hdfd78af_11: 
+    sha256:25c102269e29a040f19cfb5f1898c576cc4bc0450bc371a987a08d33e848a5a2
+  1.10.0--r45hdfd78af_14: 
+    sha256:be5eb2ef2dc48e8fdd26da3ef3e33edfd03122f9d72533fc23d22e6d42028265
 docker: quay.io/biocontainers/bioconductor-lumiratidmapping

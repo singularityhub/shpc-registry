@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-tracktables
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:33028a04a31917f5c778077e30f564cb2520cd20a1150218e9d0b7ed8a23b0a8
+  1.44.0--r45hdfd78af_0: 
+    sha256:4a28e88d2566698a8c8f17a0f4281596a4ac39e5970e3ac978da401ee173926e
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:ed5025a301c6a026d2d9f90f516fe84680ee3620495a93b88a3aac7e9cda4b8f
@@ -16,4 +16,6 @@ tags:
     sha256:880e07120f9276b522a828c06e79786a2372377987e5ea4c34f3fc3ef2bd012b
   1.40.0--r44hdfd78af_0: 
     sha256:33028a04a31917f5c778077e30f564cb2520cd20a1150218e9d0b7ed8a23b0a8
+  1.44.0--r45hdfd78af_0: 
+    sha256:4a28e88d2566698a8c8f17a0f4281596a4ac39e5970e3ac978da401ee173926e
 docker: quay.io/biocontainers/bioconductor-tracktables

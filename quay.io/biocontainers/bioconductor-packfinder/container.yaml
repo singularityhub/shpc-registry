@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-packfinder
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:72b6ee39749bffe537d08f744accd5b71909cc39ee03026879a20dfdd4c83e84
+  1.22.0--r45hdfd78af_0: 
+    sha256:2fb379f6623881392e154d878bb0cab9ec7b7099e02828d5254fb3d846e624a6
 tags:
   1.6.0--r41hdfd78af_0: 
     sha256:b1b1aae7a80d64e707665117e14b0c8e5616d20ebff7561333f83071b9e533c0
@@ -16,4 +16,6 @@ tags:
     sha256:985faac5815f0698c43bad27622071fd02d4293cca867958afaac5754a2482d9
   1.18.0--r44hdfd78af_0: 
     sha256:72b6ee39749bffe537d08f744accd5b71909cc39ee03026879a20dfdd4c83e84
+  1.22.0--r45hdfd78af_0: 
+    sha256:2fb379f6623881392e154d878bb0cab9ec7b7099e02828d5254fb3d846e624a6
 docker: quay.io/biocontainers/bioconductor-packfinder

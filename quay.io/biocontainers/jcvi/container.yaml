@@ -37,6 +37,8 @@ tags:
     sha256:f5431dab22fa81453138ab53b908b07868ec6abab13b98eeda4d2f0986d74a1c
   1.6.5--py310hd755272_0: 
     sha256:3cc8d8908363bbe7c4931d19c6e56e051f65e63f17a18b76d0267016ca2680e5
+  1.2.5--py39h5371cbf_0: 
+    sha256:eaa8bbeb7e84dc12f6ed338d6da7267e8f92cb0e76d9e19d92ad1d24a05585d6
 docker: quay.io/biocontainers/jcvi
 aliases:
   compare_gos.py: /usr/local/bin/compare_gos.py

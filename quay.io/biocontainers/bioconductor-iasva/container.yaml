@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-iasva
 latest:
-  1.24.0--r44hdfd78af_0: 
-    sha256:8f906613748286676dc829ad326fb09a1f7394d14f112260cc5c9ca71550df14
+  1.28.0--r45hdfd78af_0: 
+    sha256:f9a82ff3fa3dbe9864c89a7588ee49c46cb0a2b49b50bc25513a37fec1dd4ed0
 tags:
   1.8.0--r40hdfd78af_1: 
     sha256:f7aaf404d78ff993a53528403617218ae1e252c08e9f0aff5f34b68fc576ba28
@@ -20,6 +20,8 @@ tags:
     sha256:bd2b9675128d03aad8e8a487e87fe1816b84e1096252c95a2f7ea2e1e952191e
   1.24.0--r44hdfd78af_0: 
     sha256:8f906613748286676dc829ad326fb09a1f7394d14f112260cc5c9ca71550df14
+  1.28.0--r45hdfd78af_0: 
+    sha256:f9a82ff3fa3dbe9864c89a7588ee49c46cb0a2b49b50bc25513a37fec1dd4ed0
 docker: quay.io/biocontainers/bioconductor-iasva
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

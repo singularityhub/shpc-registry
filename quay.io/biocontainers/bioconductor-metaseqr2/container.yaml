@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-metaseqr2
 latest:
-  1.18.0--r44h3df3fcb_0: 
-    sha256:dabb658f42fc15d6f78ae882596e96b712a2dfe6958ca055a7a584823f7361b7
+  1.22.0--r45h01b2380_0: 
+    sha256:5aa539fd79c526a60560eab873cd9e38b99da4851e54f60745b4ae6c023716cf
 tags:
   1.6.1--r41hc0cfd56_1: 
     sha256:2f6b14e89b698413166d8524afd2ae8f5193db79bbe9d2fa27e63cd8aae9c1e6
@@ -14,6 +14,8 @@ tags:
     sha256:d60964f9ffe305cc094d85a12619bccfe89569abc548c0f34e066019906f5dd2
   1.18.0--r44h3df3fcb_0: 
     sha256:dabb658f42fc15d6f78ae882596e96b712a2dfe6958ca055a7a584823f7361b7
+  1.22.0--r45h01b2380_0: 
+    sha256:5aa539fd79c526a60560eab873cd9e38b99da4851e54f60745b4ae6c023716cf
 docker: quay.io/biocontainers/bioconductor-metaseqr2
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

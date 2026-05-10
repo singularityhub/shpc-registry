@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-graphat
 latest:
-  1.78.0--r44hdfd78af_0: 
-    sha256:106bc12fc07c6713887a112513fefbe251d16df7677068304a5257596236141c
+  1.82.0--r45hdfd78af_0: 
+    sha256:b6320f721eda883ed71077e096477d094a5b4244ae9bf64be1cfaeaa8433960c
 tags:
   1.66.0--r41hdfd78af_0: 
     sha256:9ea4e82629e22eee490537368ca749e36bcc38ac48508778b9476b08bc5b4ad0
@@ -16,4 +16,6 @@ tags:
     sha256:2e836a7a4f02cb8b7d82aadc4dd3d8ac38405c33e7bbd755a06c1958d5a4e688
   1.78.0--r44hdfd78af_0: 
     sha256:106bc12fc07c6713887a112513fefbe251d16df7677068304a5257596236141c
+  1.82.0--r45hdfd78af_0: 
+    sha256:b6320f721eda883ed71077e096477d094a5b4244ae9bf64be1cfaeaa8433960c
 docker: quay.io/biocontainers/bioconductor-graphat

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genomicinteractions
 latest:
-  1.40.0--r44hdfd78af_0: 
-    sha256:30187100a1445fae0535dce8dc4f2bc7a625f6e5310666b9a90b55bde7326084
+  1.44.0--r45hdfd78af_0: 
+    sha256:dfb87a9023f54de4ee15998d7eff986b514bc458d98e258ab00fed2ff6ab6852
 tags:
   1.28.0--r41hdfd78af_0: 
     sha256:e3c4c0754ecc47d2b6815efd2fbcb80eef51eddd5eae63e39e6cd9f7036ea47b
@@ -16,4 +16,6 @@ tags:
     sha256:6c604266d9fcf7d83e481954ee2b7311f584bc2b0402dad2862c68708e2d81b9
   1.40.0--r44hdfd78af_0: 
     sha256:30187100a1445fae0535dce8dc4f2bc7a625f6e5310666b9a90b55bde7326084
+  1.44.0--r45hdfd78af_0: 
+    sha256:dfb87a9023f54de4ee15998d7eff986b514bc458d98e258ab00fed2ff6ab6852
 docker: quay.io/biocontainers/bioconductor-genomicinteractions

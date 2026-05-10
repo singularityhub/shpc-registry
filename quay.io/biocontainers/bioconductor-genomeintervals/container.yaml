@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-genomeintervals
 latest:
-  1.62.0--r44hdfd78af_0: 
-    sha256:a964d628c840b1bf371f50d6060b7ad3b9e545b09f028d20aa4c1a1462930509
+  1.66.0--r45hdfd78af_0: 
+    sha256:8619b37a525b15e702f55e677ac75f7186bbacf2926fdce71f6069f2ae3daf26
 tags:
   1.50.0--r41hdfd78af_0: 
     sha256:95d8e7a3d49a15af4c8dce8dbe8843fe23b610c5fb859f2aaaab67273de4132f
@@ -16,4 +16,6 @@ tags:
     sha256:d3ba3622fb3b23face34991056852bb27770af939c77412875f272acfc38b0a1
   1.62.0--r44hdfd78af_0: 
     sha256:a964d628c840b1bf371f50d6060b7ad3b9e545b09f028d20aa4c1a1462930509
+  1.66.0--r45hdfd78af_0: 
+    sha256:8619b37a525b15e702f55e677ac75f7186bbacf2926fdce71f6069f2ae3daf26
 docker: quay.io/biocontainers/bioconductor-genomeintervals

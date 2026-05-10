@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cn.farms
 latest:
-  1.54.0--r44he5774e6_0: 
-    sha256:0573a27e9270e65c1ea46c6de908ca407d9f5ac28a8d89664765f9f19d7adf1c
+  1.58.0--r45ha27e39d_0: 
+    sha256:d2563e4871c711ee7e69223d75bf76aa813af9d5b463f826864abf098d7503b5
 tags:
   1.42.0--r41hc247a5b_2: 
     sha256:45cfce5f03d6c88a3d0a2adacaf32e0b48cef65d4c478a415f90c98925969e6e
@@ -18,4 +18,6 @@ tags:
     sha256:15d6fa4464dbc1297707ddb65f735fb477028f48ee03d7ab4a88ca4bf45480a8
   1.54.0--r44he5774e6_0: 
     sha256:0573a27e9270e65c1ea46c6de908ca407d9f5ac28a8d89664765f9f19d7adf1c
+  1.58.0--r45ha27e39d_0: 
+    sha256:d2563e4871c711ee7e69223d75bf76aa813af9d5b463f826864abf098d7503b5
 docker: quay.io/biocontainers/bioconductor-cn.farms

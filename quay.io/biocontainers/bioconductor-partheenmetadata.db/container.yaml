@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-partheenmetadata.db
 latest:
-  3.2.3--r44hdfd78af_13: 
-    sha256:a05190a975536d552d09ecd19812f2ac29ce300ad9e34526764f11e190196435
+  3.2.3--r45hdfd78af_14: 
+    sha256:0b44cf1306211e48187464180f7d5073ee8852d2ef363587c85acb322344b0cf
 tags:
   3.2.3--r41hdfd78af_9: 
     sha256:e6d527bde9685d32ce6d25284dff028529e7331018fee306a8341458f93f50c5
@@ -16,4 +16,6 @@ tags:
     sha256:973acccb76f6cdbf620f6137a5a883f867e126911c7675c0868bfd216ec27cca
   3.2.3--r44hdfd78af_13: 
     sha256:a05190a975536d552d09ecd19812f2ac29ce300ad9e34526764f11e190196435
+  3.2.3--r45hdfd78af_14: 
+    sha256:0b44cf1306211e48187464180f7d5073ee8852d2ef363587c85acb322344b0cf
 docker: quay.io/biocontainers/bioconductor-partheenmetadata.db

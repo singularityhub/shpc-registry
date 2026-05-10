@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-grain
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-grain
 latest:
-  1.4.5--r44h40dc89f_1: 
-    sha256:8843800d47c537d2e80de77dac9b7d820adeedf3c73a60e3fa7fdc2985ad084a
+  1.4.6--r45h0df16ae_0: 
+    sha256:3e82b7d806adaf7848b138e9fc150d082227e6d0094ba70883f00b672b927324
 tags:
   1.3_0--r41hecf12ef_6: 
     sha256:6b4d1ea59a0d63edffdbbd7516ef66340e23d3a296dc9ecc161349bed1a1e98b
@@ -29,4 +29,6 @@ tags:
     sha256:78776f179751206ed8f57b38e80532935480ecc3497f1656b49eb46634918393
   1.4.5--r44h40dc89f_1: 
     sha256:8843800d47c537d2e80de77dac9b7d820adeedf3c73a60e3fa7fdc2985ad084a
+  1.4.6--r45h0df16ae_0: 
+    sha256:3e82b7d806adaf7848b138e9fc150d082227e6d0094ba70883f00b672b927324
 docker: quay.io/biocontainers/r-grain

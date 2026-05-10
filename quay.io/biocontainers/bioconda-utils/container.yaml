@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconda-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconda-utils
 latest:
-  4.3.2--pyhdfd78af_0: 
-    sha256:d94850e1c47c52b99166932c1e49cfadf848dfb5ba7e0cee0b26fae26a9905f3
+  4.4.1--pyhdfd78af_0: 
+    sha256:fe919f8efbcae56aa3ff96b694fd4ad354db02b853c547646dce147b33d16522
 tags:
   1.1.5--pyhdfd78af_0: 
     sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f
@@ -71,6 +71,8 @@ tags:
     sha256:97776d0e08b70c723862df27e806ebd2e7aefffb07e8eba250e91988ddbc3a24
   4.1.0--pyhdfd78af_1: 
     sha256:57b817bd4ed1053e54b98cf304c548b7893a4cd24c82f4f471b57d4e6fc143f8
+  4.4.1--pyhdfd78af_0: 
+    sha256:fe919f8efbcae56aa3ff96b694fd4ad354db02b853c547646dce147b33d16522
 docker: quay.io/biocontainers/bioconda-utils
 aliases:
   anaconda: /usr/local/bin/anaconda

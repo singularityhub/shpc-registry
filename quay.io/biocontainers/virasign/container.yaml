@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/virasign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for virasign
 latest:
-  0.0.6--pyhdfd78af_0: 
-    sha256:74c71fa675916892e71ea1b03c22340385e45bc68f54468ea759dd7f6f31e26f
+  0.0.7--pyhdfd78af_0: 
+    sha256:04720788941539d1d424779e820dce67ac74dcb04776eaa9e5cf79fc08277e2e
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:277f9eb980a026ac9375c374f7210d04551d60edf7edc78ada7f8990f261abb7
   0.0.6--pyhdfd78af_0: 
     sha256:74c71fa675916892e71ea1b03c22340385e45bc68f54468ea759dd7f6f31e26f
+  0.0.7--pyhdfd78af_0: 
+    sha256:04720788941539d1d424779e820dce67ac74dcb04776eaa9e5cf79fc08277e2e
 docker: quay.io/biocontainers/virasign
 aliases:
   virasign: /usr/local/bin/virasign

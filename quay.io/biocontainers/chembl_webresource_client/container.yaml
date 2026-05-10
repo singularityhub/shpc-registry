@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   chembl_webresource_client
 latest:
-  0.10.1: 
-    sha256:d60f1846d22ef9cd24b4092ef1e2999ebf1b8c0d811ab285b0558b815e72c77f
+  0.10.1--2: 
+    sha256:e79099dc16351335d32232cdb8cd27169c58435712250b3e8d27b05eccd71b21
 tags:
   0.9.31: 
     sha256:5e99109759b67c5f00803d7dc59a7677a6e6545a831343ecc68d06dda5d2c2f9

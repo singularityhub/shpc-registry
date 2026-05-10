@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-panomir
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:ab3f17f43a08b928789d86422c83989b800d5aa79194fe46edb38aefba2ea61e
+  1.14.0--r45hdfd78af_0: 
+    sha256:8a1ac4c87a59176260c676f73a2ac59a372e64580a5ef2ef595bcec0cfdf8eea
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:5f7b08d43223460d0c579315b01e65c6d52665202ba06710e17411ee93ca1554
@@ -14,6 +14,8 @@ tags:
     sha256:730341f9fe24accad4e40df7ecae063e77ea7d021917beb26dacfc78db825f88
   1.10.0--r44hdfd78af_0: 
     sha256:ab3f17f43a08b928789d86422c83989b800d5aa79194fe46edb38aefba2ea61e
+  1.14.0--r45hdfd78af_0: 
+    sha256:8a1ac4c87a59176260c676f73a2ac59a372e64580a5ef2ef595bcec0cfdf8eea
 docker: quay.io/biocontainers/bioconductor-panomir
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

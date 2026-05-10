@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/nanoinsight
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nanoinsight
 latest:
-  0.0.3--pyhdfd78af_0: sha256:1bf788552d7a4dc5565a8c63c504fbe24d2dce1b33ba0e9ec77aa32b13ef9817
+  0.0.3--pyhdfd78af_0: 
+    sha256:1bf788552d7a4dc5565a8c63c504fbe24d2dce1b33ba0e9ec77aa32b13ef9817
 tags:
-  0.0.3--pyhdfd78af_0: sha256:1bf788552d7a4dc5565a8c63c504fbe24d2dce1b33ba0e9ec77aa32b13ef9817
+  0.0.3--pyhdfd78af_0: 
+    sha256:1bf788552d7a4dc5565a8c63c504fbe24d2dce1b33ba0e9ec77aa32b13ef9817
 docker: quay.io/biocontainers/nanoinsight
 aliases:
   bigRmskAlignBed.as: /usr/local/bin/bigRmskAlignBed.as

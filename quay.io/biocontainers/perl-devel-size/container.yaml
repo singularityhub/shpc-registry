@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/perl-devel-size
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-devel-size
 latest:
-  0.85--pl5321h7b50bb2_0: 
-    sha256:5c41e6e9947e3ca6cfc0a621c058fcdf0bc6f8c32a3d89312664fae45a1ee55b
+  0.87--pl5321h87e0c26_0: 
+    sha256:880d068d62c2e2afa06e087e130391406700c598081594270e615af721c7a859
 tags:
   0.83--pl5321hec16e2b_2: 
     sha256:78e2a7daddff55951a9f3dc8c200b0fb9d8cfab58a7f2e36cfa4772489bc28a4
@@ -17,6 +17,10 @@ tags:
     sha256:81fc34c747c1e6cc92fafad5c3d6035fb2b093dded0bd97c90cf5fa71e9c86dc
   0.85--pl5321h7b50bb2_0: 
     sha256:5c41e6e9947e3ca6cfc0a621c058fcdf0bc6f8c32a3d89312664fae45a1ee55b
+  0.87--pl5321h87e0c26_0: 
+    sha256:880d068d62c2e2afa06e087e130391406700c598081594270e615af721c7a859
+  0.86--pl5321h87e0c26_0: 
+    sha256:cafe49572080f8c086f6652fd185501d488354a2be2aa5334f9ecf3eb142046a
 docker: quay.io/biocontainers/perl-devel-size
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/repeatmodeler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for repeatmodeler
 latest:
-  2.0.7--pl5321hdfd78af_0: 
-    sha256:21ac25cac5576c58b1a9178f57cc17a1ab997094588db69c0d4ed15e4037fc4e
+  2.0.8--pl5321hdfd78af_0: 
+    sha256:5f13935a2255e86775bec837fdb932556dc29ab138efc1917e5e6a0b7e0f3f3d
 tags:
   2.0.3--pl5321h9ee0642_0: 
     sha256:375bee70d308ed528b2ddf525b0c54d731c308a978e9fa67cb4c1f9a43c7722b
@@ -15,6 +15,8 @@ tags:
     sha256:a0661f1a0a05ab5533feea28e38e5702c977285b03a97acd7328eb7e4c11baf9
   2.0.7--pl5321hdfd78af_0: 
     sha256:21ac25cac5576c58b1a9178f57cc17a1ab997094588db69c0d4ed15e4037fc4e
+  2.0.8--pl5321hdfd78af_0: 
+    sha256:5f13935a2255e86775bec837fdb932556dc29ab138efc1917e5e6a0b7e0f3f3d
 docker: quay.io/biocontainers/repeatmodeler
 aliases:
   BuildDatabase: /usr/local/bin/BuildDatabase

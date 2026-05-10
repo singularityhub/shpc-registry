@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/bioconductor-orthos
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-orthos
 latest:
-  1.4.0--r44hdfd78af_0: 
-    sha256:58be6f61b70ebf21b1b05d99bc268708b621fe2c2c13d98b97b57e378bc7870b
+  1.8.0--r45hdfd78af_0: 
+    sha256:99bdc67c7d62e1ad3e2d71c8ca8e969cf5b1c7469a469a9b4dc9dbc395312644
 tags:
   1.0.1--r43hdfd78af_0: 
     sha256:0d93e4420f287adea3d567f7103fb6a1a1fe4cf02bf033a6ae2b907cb42e491c
   1.4.0--r44hdfd78af_0: 
     sha256:58be6f61b70ebf21b1b05d99bc268708b621fe2c2c13d98b97b57e378bc7870b
+  1.8.0--r45hdfd78af_0: 
+    sha256:99bdc67c7d62e1ad3e2d71c8ca8e969cf5b1c7469a469a9b4dc9dbc395312644
 docker: quay.io/biocontainers/bioconductor-orthos
 aliases:
   protoc-24.4.0: /usr/local/bin/protoc-24.4.0

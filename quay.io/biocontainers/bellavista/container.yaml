@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bellavista
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bellavista
 latest:
-  0.0.2--pyhdfd78af_1: 
-    sha256:ff29407f9f29cd991d85499d42403de1b06369391ffa8be3edb9ddd17d979f3a
+  0.1.0--pyhdfd78af_0: 
+    sha256:9b19501ca382e005ba64a958af52362681e1d4f171d593f40fb7d22b874d7f73
 tags:
   0.0.2--pyhdfd78af_1: 
     sha256:ff29407f9f29cd991d85499d42403de1b06369391ffa8be3edb9ddd17d979f3a
+  0.1.0--pyhdfd78af_0: 
+    sha256:9b19501ca382e005ba64a958af52362681e1d4f171d593f40fb7d22b874d7f73
 docker: quay.io/biocontainers/bellavista
 aliases:
   bellavista: /usr/local/bin/bellavista

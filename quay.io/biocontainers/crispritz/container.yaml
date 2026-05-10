@@ -25,6 +25,8 @@ tags:
     sha256:92457c12fdf3a6e0a4b2a53251829396b96a7c4058648e260f993dfcf64a4d66
   2.7.0--py38h9948957_2: 
     sha256:626926416ff29fed189582d3a83a5c18ad85d306bb4e73735567c379d9f718ab
+  2.5.1--py37h36a7b89_0: 
+    sha256:0c630036317af87fdd7317ecc5e89506d7725643469f906bfd94271f6b732f02
 docker: quay.io/biocontainers/crispritz
 aliases:
   crispritz.py: /usr/local/bin/crispritz.py

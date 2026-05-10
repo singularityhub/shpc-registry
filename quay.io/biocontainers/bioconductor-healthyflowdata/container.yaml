@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-healthyflowdata
 latest:
-  1.44.0--r44hdfd78af_0: 
-    sha256:1b4cc6ff0850cfc66e9248a4273010809f57c669b444d430c0d060cb48646273
+  1.48.0--r45hdfd78af_0: 
+    sha256:a68e8e571d0f748fbf03ec9a681f5b7431e3b5b1e033ed6e3359c7b393fc4da3
 tags:
   1.32.0--r41hdfd78af_1: 
     sha256:7e4ecea8b9d6f3fdc698405a9f6913cc243019b3040f8daa335ee9611c8e2e37
@@ -16,4 +16,6 @@ tags:
     sha256:8f4321cc33488161f34ee5ae6181bc479ca6e7b4c872fd466058c40c7c55de46
   1.44.0--r44hdfd78af_0: 
     sha256:1b4cc6ff0850cfc66e9248a4273010809f57c669b444d430c0d060cb48646273
+  1.48.0--r45hdfd78af_0: 
+    sha256:a68e8e571d0f748fbf03ec9a681f5b7431e3b5b1e033ed6e3359c7b393fc4da3
 docker: quay.io/biocontainers/bioconductor-healthyflowdata

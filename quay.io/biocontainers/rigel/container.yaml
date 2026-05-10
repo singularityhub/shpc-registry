@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rigel
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rigel
 latest:
-  0.3.3--py312hf44d832_0: 
-    sha256:1a9849064550789e82dc2937a721c1925c27818e0b805c36aecb143ebe252398
+  0.4.0--py313hdc97c26_0: 
+    sha256:aa9322c673e8f00f4a88840dbaa39e8e77a045745e4227e94fe33b114ca7be03
 tags:
   0.3.3--py312hf44d832_0: 
     sha256:1a9849064550789e82dc2937a721c1925c27818e0b805c36aecb143ebe252398
+  0.4.0--py313hdc97c26_0: 
+    sha256:aa9322c673e8f00f4a88840dbaa39e8e77a045745e4227e94fe33b114ca7be03
 docker: quay.io/biocontainers/rigel
 aliases:
   rigel: /usr/local/bin/rigel

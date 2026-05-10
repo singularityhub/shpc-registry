@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ioniser
 latest:
-  2.30.0--r44hdfd78af_0: 
-    sha256:0ddbf184aa00d06a9e95f60de62cee8083fae32af918c0d65d55b6137530a24b
+  2.34.0--r45hdfd78af_0: 
+    sha256:ee3b5461bfae0adef894ce73f24cb4d1225be219840e56ef471e2a52f37f5783
 tags:
   2.8.0--r36_1: 
     sha256:d1e52340670fe0dbe83d3db4df82a713ed4ce4df264a663522fa528408aa00ef
@@ -24,6 +24,8 @@ tags:
     sha256:7f4342a34973c9e7e2275cf2f8aa97cafcfe0b6f22211a76dfc48db8acb88ba3
   2.30.0--r44hdfd78af_0: 
     sha256:0ddbf184aa00d06a9e95f60de62cee8083fae32af918c0d65d55b6137530a24b
+  2.34.0--r45hdfd78af_0: 
+    sha256:ee3b5461bfae0adef894ce73f24cb4d1225be219840e56ef471e2a52f37f5783
 docker: quay.io/biocontainers/bioconductor-ioniser
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

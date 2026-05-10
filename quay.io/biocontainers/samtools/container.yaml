@@ -43,6 +43,8 @@ tags:
     sha256:f43b4c326ef65d18c5ca2d7e3994a26d103faa2878381f17fe0d220d11b54be9
   1.23.1--ha83d96e_0: 
     sha256:23cda33a3a42125872766df9aaf1d2db67cdb8c85314b793465188435af31ba6
+  1.16.1--h6899075_1: 
+    sha256:e17e1b35a3f77b70f102ccb37921b3dd969bcf9b52a90e79a5bd475c9ef220b4
 docker: quay.io/biocontainers/samtools
 aliases:
   ace2sam: /usr/local/bin/ace2sam

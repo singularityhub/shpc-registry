@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-generxcluster
 latest:
-  1.42.0--r44h3df3fcb_0: 
-    sha256:c92ce029463e5d57e1f689714c9823ac118ffe053ac37e505dfd3aa2aca81b69
+  1.46.0--r45h01b2380_0: 
+    sha256:9b0b2f138a6cae38626a92b8f110a155d64da18db2141478255a6901bb0325f4
 tags:
   1.30.0--r41hc0cfd56_2: 
     sha256:f7efd6b08460fb73df4e389200b2ca8749c6d3807fa3eeaea4acd2553eba606d
@@ -18,4 +18,6 @@ tags:
     sha256:11bef2376a8145df8756364b28c129b388ad0820dfc9ffba8d8c4412d09c8739
   1.42.0--r44h3df3fcb_0: 
     sha256:c92ce029463e5d57e1f689714c9823ac118ffe053ac37e505dfd3aa2aca81b69
+  1.46.0--r45h01b2380_0: 
+    sha256:9b0b2f138a6cae38626a92b8f110a155d64da18db2141478255a6901bb0325f4
 docker: quay.io/biocontainers/bioconductor-generxcluster

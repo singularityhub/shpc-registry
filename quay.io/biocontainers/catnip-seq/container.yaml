@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/catnip-seq
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for catnip-seq
 latest:
-  0.1.8--pyh106432d_0: 
-    sha256:2b256cd90fc3082364bc57734acb5db02686d8c0b9e8429aff00a4e0f3df5cb5
+  0.1.10--pyh106432d_0: 
+    sha256:9baf3b2d9d5e3c63c6926b7187f2962cc4e7c0fb0250b20f229d3181f99c7729
 tags:
   0.1.8--pyh106432d_0: 
     sha256:2b256cd90fc3082364bc57734acb5db02686d8c0b9e8429aff00a4e0f3df5cb5
+  0.1.10--pyh106432d_0: 
+    sha256:9baf3b2d9d5e3c63c6926b7187f2962cc4e7c0fb0250b20f229d3181f99c7729
 docker: quay.io/biocontainers/catnip-seq
 aliases:
   catnip: /usr/local/bin/catnip

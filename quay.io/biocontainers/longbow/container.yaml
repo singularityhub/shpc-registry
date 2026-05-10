@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/longbow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for longbow
 latest:
-  2.3.0--py313hdfd78af_0: sha256:0c9c6124fdbda0d294cfb6d8ae884c82fc1a7286793c80b7a7f75d72a147e342
+  2.3.1--py313hdfd78af_0: 
+    sha256:67d2e18a24aae669f997165b907badceeb6d0ca4cd439750467e2ce740c420a4
 tags:
-  2.3.0--py313hdfd78af_0: sha256:0c9c6124fdbda0d294cfb6d8ae884c82fc1a7286793c80b7a7f75d72a147e342
+  2.3.0--py313hdfd78af_0: 
+    sha256:0c9c6124fdbda0d294cfb6d8ae884c82fc1a7286793c80b7a7f75d72a147e342
+  2.3.1--py313hdfd78af_0: 
+    sha256:67d2e18a24aae669f997165b907badceeb6d0ca4cd439750467e2ce740c420a4
 docker: quay.io/biocontainers/longbow
 aliases:
   longbow: /usr/local/bin/longbow

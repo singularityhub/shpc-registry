@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-genomicinteractionnodes
 latest:
-  1.10.0--r44hdfd78af_0: 
-    sha256:f7b5f853d5d87052320918823d3004ef8c37c0e5295f85b73c8db63e326214bc
+  1.14.0--r45hdfd78af_0: 
+    sha256:ff364fe7103773350002a71f8757b937037815870b71fa9ee81d4296069db229
 tags:
   1.2.0--r42hdfd78af_0: 
     sha256:fead8e3d8c89d7e17b63c98f9da72652b0efbb3bde479bebd59cf0ac2d1cda2a
@@ -14,6 +14,8 @@ tags:
     sha256:ce7cf2a9b08f7d01ff72781adcb0a202b79e82b98a3a384736d79da11a6ac598
   1.10.0--r44hdfd78af_0: 
     sha256:f7b5f853d5d87052320918823d3004ef8c37c0e5295f85b73c8db63e326214bc
+  1.14.0--r45hdfd78af_0: 
+    sha256:ff364fe7103773350002a71f8757b937037815870b71fa9ee81d4296069db229
 docker: quay.io/biocontainers/bioconductor-genomicinteractionnodes
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

@@ -1,10 +1,19 @@
 url: https://biocontainers.pro/tools/bioconductor-sradb
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-sradb
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-sradb
 latest:
-  1.62.0--r43hdfd78af_0: sha256:fd41214d99e4c5fc46d60cf8b22fc951e402be2019b59ed997d4c6468899e1c8
+  1.72.0--r45hdfd78af_0: 
+    sha256:94fabd5c7eab0f39e70fb6c9a28c2859a02917ff262c885b3cf5c2ff1583fda5
 tags:
-  1.56.0--r41hdfd78af_0: sha256:96a13344d1468817f1fa13295ac580512db44f4e6bd328684b157ced932f340e
-  1.60.0--r42hdfd78af_0: sha256:c4f9126b70c801baf1436e2fb78503d612c26d0a2e76fd608d685fb72fc75469
-  1.62.0--r43hdfd78af_0: sha256:fd41214d99e4c5fc46d60cf8b22fc951e402be2019b59ed997d4c6468899e1c8
+  1.56.0--r41hdfd78af_0: 
+    sha256:96a13344d1468817f1fa13295ac580512db44f4e6bd328684b157ced932f340e
+  1.60.0--r42hdfd78af_0: 
+    sha256:c4f9126b70c801baf1436e2fb78503d612c26d0a2e76fd608d685fb72fc75469
+  1.62.0--r43hdfd78af_0: 
+    sha256:fd41214d99e4c5fc46d60cf8b22fc951e402be2019b59ed997d4c6468899e1c8
+  1.72.0--r45hdfd78af_0: 
+    sha256:94fabd5c7eab0f39e70fb6c9a28c2859a02917ff262c885b3cf5c2ff1583fda5
+  1.64.0--r43hdfd78af_0: 
+    sha256:c786ac55be81a3bd2467a3d1a2503143c5a92d5e4dd47092de15f93e313776fa
 docker: quay.io/biocontainers/bioconductor-sradb

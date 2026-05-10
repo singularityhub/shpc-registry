@@ -41,6 +41,8 @@ tags:
     sha256:e62028db238f34a1d26c1c8305d9e2f5f5f2608e3d4e452efbd468fb6b1b435e
   0.9.4--h077b44d_0: 
     sha256:20f70608a427b99bc3dde21d96f6fa4b02ef2d0b5b7fa66c3bdf820fb9f27ea6
+  0.6--py38h8e3bb3f_0: 
+    sha256:a534350cf2d314b258b0c4a39b86a1d3373a8208004f93e48d5fd4af624aa949
 docker: quay.io/biocontainers/odgi
 aliases:
   odgi: /usr/local/bin/odgi

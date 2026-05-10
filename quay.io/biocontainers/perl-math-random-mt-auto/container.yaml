@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/perl-math-random-mt-auto
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for perl-math-random-mt-auto
+description: shpc-registry automated BioContainers addition for 
+  perl-math-random-mt-auto
 latest:
-  6.23--pl5321hec16e2b_4: sha256:3677de37bb0c8b65ba96c66dd892008e5eedd423d403369cf4d641df2829c3ca
+  6.23--pl5321hec16e2b_4: 
+    sha256:3677de37bb0c8b65ba96c66dd892008e5eedd423d403369cf4d641df2829c3ca
 tags:
-  6.23--pl5321hec16e2b_4: sha256:3677de37bb0c8b65ba96c66dd892008e5eedd423d403369cf4d641df2829c3ca
+  6.23--pl5321hec16e2b_4: 
+    sha256:3677de37bb0c8b65ba96c66dd892008e5eedd423d403369cf4d641df2829c3ca
 docker: quay.io/biocontainers/perl-math-random-mt-auto
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

@@ -1,12 +1,19 @@
 url: https://biocontainers.pro/tools/bioconductor-uniprotkeywords
 maintainer: '@vsoch'
-description: singularity registry hpc automated addition for bioconductor-uniprotkeywords
+description: singularity registry hpc automated addition for 
+  bioconductor-uniprotkeywords
 latest:
-  0.99.7--r43hdfd78af_0: sha256:0e22d60a2b156ed0a5cdcc974434501ef8e08f1d3cb6f2958e7cfadca96106ae
+  0.99.7--r45hdfd78af_2: 
+    sha256:51809d3581bcbfa33cb92b8c669bd81e7168e440b4528f01e15a569ca18093bf
 tags:
-  0.99.4--r42hdfd78af_0: sha256:282dea60fc92849bcb59f5d7b00bc029c47b82734b608addcde2caef8e56b4cf
-  0.99.4--r43hdfd78af_1: sha256:a13a85f6574926c7a5ab67ee8331baeb7c4a53dc4c99270d8c78e884e0e658c7
-  0.99.7--r43hdfd78af_0: sha256:0e22d60a2b156ed0a5cdcc974434501ef8e08f1d3cb6f2958e7cfadca96106ae
+  0.99.4--r42hdfd78af_0: 
+    sha256:282dea60fc92849bcb59f5d7b00bc029c47b82734b608addcde2caef8e56b4cf
+  0.99.4--r43hdfd78af_1: 
+    sha256:a13a85f6574926c7a5ab67ee8331baeb7c4a53dc4c99270d8c78e884e0e658c7
+  0.99.7--r43hdfd78af_0: 
+    sha256:0e22d60a2b156ed0a5cdcc974434501ef8e08f1d3cb6f2958e7cfadca96106ae
+  0.99.7--r45hdfd78af_2: 
+    sha256:51809d3581bcbfa33cb92b8c669bd81e7168e440b4528f01e15a569ca18093bf
 docker: quay.io/biocontainers/bioconductor-uniprotkeywords
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh
@@ -15,8 +22,10 @@ aliases:
   yq: /usr/local/bin/yq
   jq: /usr/local/bin/jq
   onig-config: /usr/local/bin/onig-config
-  activate-global-python-argcomplete: /usr/local/bin/activate-global-python-argcomplete
-  python-argcomplete-check-easy-install-script: /usr/local/bin/python-argcomplete-check-easy-install-script
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
   python-argcomplete-tcsh: /usr/local/bin/python-argcomplete-tcsh
   register-python-argcomplete: /usr/local/bin/register-python-argcomplete
   2to3-3.10: /usr/local/bin/2to3-3.10

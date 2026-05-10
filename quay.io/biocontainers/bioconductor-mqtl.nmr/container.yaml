@@ -1,8 +1,11 @@
 url: https://biocontainers.pro/tools/bioconductor-mqtl.nmr
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-mqtl.nmr
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-mqtl.nmr
 latest:
-  1.14.0--r351_0: sha256:390b4fff0a4d246e1e19e7ff775fb977800a52cd41521bc36169810cca108bd7
+  1.14.0--r351_0: 
+    sha256:cc16aaf05b5f314ec55aefed3254c839eea6f2424944f061d47c0be9b13343ad
 tags:
-  1.14.0--r351_0: sha256:390b4fff0a4d246e1e19e7ff775fb977800a52cd41521bc36169810cca108bd7
+  1.14.0--r351_0: 
+    sha256:cc16aaf05b5f314ec55aefed3254c839eea6f2424944f061d47c0be9b13343ad
 docker: quay.io/biocontainers/bioconductor-mqtl.nmr

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scmeth
 latest:
-  1.26.0--r44hdfd78af_0: 
-    sha256:6ff245c933ac583c2a9fff977019e74f8190dd288cf66cc52f082bf796e20864
+  1.30.0--r45hdfd78af_0: 
+    sha256:d9bebc360a54586a30b459ea586d78c3bcf8e4998dc49170cb7a101befe87ec1
 tags:
   1.8.0--r40_0: 
     sha256:9385d65a3d08717ea00f1f65263744398eca3d6f4eb940252a107cc822e1cf06
@@ -22,6 +22,8 @@ tags:
     sha256:f99ab497bd918a72ae4227b880a2564618685f5496521f3f2e9120962f88382d
   1.26.0--r44hdfd78af_0: 
     sha256:6ff245c933ac583c2a9fff977019e74f8190dd288cf66cc52f082bf796e20864
+  1.30.0--r45hdfd78af_0: 
+    sha256:d9bebc360a54586a30b459ea586d78c3bcf8e4998dc49170cb7a101befe87ec1
 docker: quay.io/biocontainers/bioconductor-scmeth
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

@@ -1,11 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-herper
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-herper
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-herper
 latest:
-  1.12.0--r43hdfd78af_1: sha256:058231f2dcd9e31bad827076b7e8109fce5c91a91a6e1bdd001e6e89e4130317
+  1.20.0--r45hdfd78af_0: 
+    sha256:116bf1882114ed9ce49a3750251f0912e34e3d0ada1116992fb183c56aa0080d
 tags:
-  1.3.0--r41hdfd78af_0: sha256:99e28373a57a68fc90b9ca94aff2a976cdd4cde5b40e4a22659857beec210149
-  1.7.2--r42hdfd78af_0: sha256:9be69816c8df664a813f635e3ca3544fc8174722853308dd37aa6e3b7ddb052c
-  1.10.0--r43hdfd78af_0: sha256:94b884db21239cf10e9ba87182891f1f04c23fb1f4313003461d56f20370e183
-  1.12.0--r43hdfd78af_1: sha256:058231f2dcd9e31bad827076b7e8109fce5c91a91a6e1bdd001e6e89e4130317
+  1.3.0--r41hdfd78af_0: 
+    sha256:99e28373a57a68fc90b9ca94aff2a976cdd4cde5b40e4a22659857beec210149
+  1.7.2--r42hdfd78af_0: 
+    sha256:9be69816c8df664a813f635e3ca3544fc8174722853308dd37aa6e3b7ddb052c
+  1.10.0--r43hdfd78af_0: 
+    sha256:94b884db21239cf10e9ba87182891f1f04c23fb1f4313003461d56f20370e183
+  1.12.0--r43hdfd78af_1: 
+    sha256:058231f2dcd9e31bad827076b7e8109fce5c91a91a6e1bdd001e6e89e4130317
+  1.20.0--r45hdfd78af_0: 
+    sha256:116bf1882114ed9ce49a3750251f0912e34e3d0ada1116992fb183c56aa0080d
+  1.16.0--r44hdfd78af_0: 
+    sha256:9d8ef33a3914d6b3b3bd14d4b3e73b6d6eba4526f52eeb38ea2437fce0eca64a
 docker: quay.io/biocontainers/bioconductor-herper

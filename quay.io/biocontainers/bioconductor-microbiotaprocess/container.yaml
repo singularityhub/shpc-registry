@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-microbiotaprocess
 latest:
-  1.18.0--r44hdfd78af_0: 
-    sha256:4555e62f7a867013c5e0219f9c75c5caf89ff99aac8e4892e11c2b0bc96e81fc
+  1.22.0--r45hdfd78af_0: 
+    sha256:9ec0490f45ef4862da0223851b79a64621590726b6cd745a482e2009c406c4ef
 tags:
   1.6.1--r41hdfd78af_0: 
     sha256:d141d9822d1e21216d3bbdbc938946c16ba01b6361a9db6721d96d86ad2598c4
@@ -16,4 +16,6 @@ tags:
     sha256:1ecec7872e98b727a3ba430dd9f2c9a67117e1c629cc52ac1b734be6e9f8dd53
   1.18.0--r44hdfd78af_0: 
     sha256:4555e62f7a867013c5e0219f9c75c5caf89ff99aac8e4892e11c2b0bc96e81fc
+  1.22.0--r45hdfd78af_0: 
+    sha256:9ec0490f45ef4862da0223851b79a64621590726b6cd745a482e2009c406c4ef
 docker: quay.io/biocontainers/bioconductor-microbiotaprocess

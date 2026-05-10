@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pyrovelocity
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyrovelocity
 latest:
-  0.1.0--pyhdfd78af_1: sha256:31ff8b6366fae517f4aaa05e7252b43ea407476414881adf1c0d3d228a7f6187
+  0.1.0--pyhdfd78af_1: 
+    sha256:31ff8b6366fae517f4aaa05e7252b43ea407476414881adf1c0d3d228a7f6187
 tags:
-  0.1.0--pyhdfd78af_1: sha256:31ff8b6366fae517f4aaa05e7252b43ea407476414881adf1c0d3d228a7f6187
+  0.1.0--pyhdfd78af_1: 
+    sha256:31ff8b6366fae517f4aaa05e7252b43ea407476414881adf1c0d3d228a7f6187
 docker: quay.io/biocontainers/pyrovelocity
 aliases:
   fits2bitmap: /usr/local/bin/fits2bitmap
@@ -17,9 +19,11 @@ aliases:
   jupyter-labextension: /usr/local/bin/jupyter-labextension
   jupyter-labhub: /usr/local/bin/jupyter-labhub
   jupyter-nbclassic: /usr/local/bin/jupyter-nbclassic
-  jupyter-nbclassic-bundlerextension: /usr/local/bin/jupyter-nbclassic-bundlerextension
+  jupyter-nbclassic-bundlerextension: 
+    /usr/local/bin/jupyter-nbclassic-bundlerextension
   jupyter-nbclassic-extension: /usr/local/bin/jupyter-nbclassic-extension
-  jupyter-nbclassic-serverextension: /usr/local/bin/jupyter-nbclassic-serverextension
+  jupyter-nbclassic-serverextension: 
+    /usr/local/bin/jupyter-nbclassic-serverextension
   jupyter-server: /usr/local/bin/jupyter-server
   keyring: /usr/local/bin/keyring
   loompy: /usr/local/bin/loompy

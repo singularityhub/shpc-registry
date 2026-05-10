@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/toposort
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for toposort
 latest:
-  1.4--py35_0: sha256:e530e9fadf6f85a8d6a25b1abfe75d4dca6a8b8ccc3fdd8da55d4b3b0404237b
+  1.4--py35_0: 
+    sha256:6c43aff2d22a7ed47972169cc1d5f1e61e2e06a2e7a7583bb65f6180830d928b
 tags:
-  1.4--py35_0: sha256:e530e9fadf6f85a8d6a25b1abfe75d4dca6a8b8ccc3fdd8da55d4b3b0404237b
+  1.4--py35_0: 
+    sha256:6c43aff2d22a7ed47972169cc1d5f1e61e2e06a2e7a7583bb65f6180830d928b
 docker: quay.io/biocontainers/toposort
 aliases:
   easy_install-3.5: /usr/local/bin/easy_install-3.5

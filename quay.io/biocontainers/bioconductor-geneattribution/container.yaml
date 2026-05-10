@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-geneattribution
 latest:
-  1.32.0--r44hdfd78af_0: 
-    sha256:256f6acf9a699bc9d088417dc56252bc1987f6e15f6b3d2c9f72656c36f735cc
+  1.36.0--r45hdfd78af_0: 
+    sha256:6645056a17c9ac83ffeb381a0b4f60732d8080bcc3034c34c7ca0b2ca5d37a3f
 tags:
   1.8.0--r351_0: 
     sha256:44a385b69f419e49501cce911f59659825045df69a17c2c6fe1cd7686d6b8650
@@ -24,6 +24,8 @@ tags:
     sha256:1325b2017319e7489ff73b6af94d58d79aa1b91cd9d0d99f88d2b7e46de79de3
   1.32.0--r44hdfd78af_0: 
     sha256:256f6acf9a699bc9d088417dc56252bc1987f6e15f6b3d2c9f72656c36f735cc
+  1.36.0--r45hdfd78af_0: 
+    sha256:6645056a17c9ac83ffeb381a0b4f60732d8080bcc3034c34c7ca0b2ca5d37a3f
 docker: quay.io/biocontainers/bioconductor-geneattribution
 aliases:
   wget: /usr/local/bin/wget

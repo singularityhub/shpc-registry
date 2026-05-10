@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/r-umianalyzer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-umianalyzer
 latest:
-  1.0.0--r43h3121a25_2: 
-    sha256:6e42093351ddebbac27275890efb69488f02e14de66a9c462849b1420b0bf2aa
+  1.0.0--r45h3121a25_3: 
+    sha256:832d6b273970164a2734f7bf251305260b6997e68175c787eca641c588101ee6
 tags:
   1.0.0--r42h3121a25_1: 
     sha256:2df658a46ae8fbcc568577a3e287f35f6a375db85e8b30cb6a2d0306e701bd32
   1.0.0--r43h3121a25_2: 
     sha256:6e42093351ddebbac27275890efb69488f02e14de66a9c462849b1420b0bf2aa
+  1.0.0--r45h3121a25_3: 
+    sha256:832d6b273970164a2734f7bf251305260b6997e68175c787eca641c588101ee6
 docker: quay.io/biocontainers/r-umianalyzer
 aliases:
   installBiocDataPackage.sh: /usr/local/bin/installBiocDataPackage.sh

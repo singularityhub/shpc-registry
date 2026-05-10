@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/rsidx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rsidx
 latest:
-  0.3--pyhdfd78af_0: sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42
+  0.3.1--pyhdfd78af_0: 
+    sha256:db49d8e266360f3f3e89388504eef502da436e46fedfdefbdd642cd7a692799e
 tags:
-  0.3--pyhdfd78af_0: sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42
+  0.3--pyhdfd78af_0: 
+    sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42
+  0.3.1--pyhdfd78af_0: 
+    sha256:db49d8e266360f3f3e89388504eef502da436e46fedfdefbdd642cd7a692799e
 docker: quay.io/biocontainers/rsidx
 aliases:
   rsidx: /usr/local/bin/rsidx

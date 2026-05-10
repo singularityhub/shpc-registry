@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/metanovo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metanovo
 latest:
-  1.9.4: sha256:83ef7e4898dd776f3930ca7671ed1c6ec6a5befb03e798dedcda5b946f88e7ed
+  1.9.4--py39hdfd78af_10: 
+    sha256:fcb3e1d9db077fd57b9091920daed541d8179628d7456383f78f9e133e125d2f
 tags:
   1.9.4--py39h9ee0642_5: 
     sha256:fe8c5c651660faf9b3bdeb4265c0c76d7429607d0df9919086351d0c5eadbad6

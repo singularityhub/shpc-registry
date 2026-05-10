@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/octopusv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for octopusv
 latest:
-  0.2.4--pyhdfd78af_0: 
-    sha256:9e5ea6bc729688065140eeb9167692fc858efea86afb2e1360dcf0651427bb1b
+  0.3.2--pyhdfd78af_0: 
+    sha256:48daa0c8b0831a862fc80793530bf8cf0e17ee57504cd56192067e880cdf6a6f
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:be8ff2e9e70dafce30069526974378aaa3b7da6d37d9df91d8c28b49cd684c17
@@ -15,6 +15,8 @@ tags:
     sha256:e996411f9f573419c620935bba699c04c4301f68059ad5f57cca433ead2817fe
   0.2.4--pyhdfd78af_0: 
     sha256:9e5ea6bc729688065140eeb9167692fc858efea86afb2e1360dcf0651427bb1b
+  0.3.2--pyhdfd78af_0: 
+    sha256:48daa0c8b0831a862fc80793530bf8cf0e17ee57504cd56192067e880cdf6a6f
 docker: quay.io/biocontainers/octopusv
 aliases:
   octopusv: /usr/local/bin/octopusv

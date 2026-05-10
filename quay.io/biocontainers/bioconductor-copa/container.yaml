@@ -1,12 +1,25 @@
 url: https://biocontainers.pro/tools/bioconductor-copa
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-copa
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-copa
 latest:
-  1.70.0--r43ha9d7317_0: sha256:1716cc79968c612c68b79fdb3f5ce0e3f9d42810c399309b90f49a77d6ef75cf
+  1.78.0--r45h01b2380_0: 
+    sha256:82c7b56fcdf4ad410f81ed37d5500041b497c62ecd9c0c76f110779fe51f14ff
 tags:
-  1.62.0--r41hc0cfd56_2: sha256:962fbbcbcf0dfd15fec6a7e7cc7698cb6244e950af65f2d81696e8485bbc0456
-  1.66.0--r42hc0cfd56_0: sha256:ae707f2e0edbedd35e2aa9e4c6a2f64e24554cc43d02fd1d674bada619186175
-  1.66.0--r42ha9d7317_1: sha256:98cc724625719a0fca86900531fa65d1cbf0d609f24e3afe4ec1b7588335692f
-  1.68.0--r43ha9d7317_0: sha256:bd6529244a0edbb7776530921954cb95ab6e505c9dabada446eb6566ffeb15b5
-  1.70.0--r43ha9d7317_0: sha256:1716cc79968c612c68b79fdb3f5ce0e3f9d42810c399309b90f49a77d6ef75cf
+  1.62.0--r41hc0cfd56_2: 
+    sha256:962fbbcbcf0dfd15fec6a7e7cc7698cb6244e950af65f2d81696e8485bbc0456
+  1.66.0--r42hc0cfd56_0: 
+    sha256:ae707f2e0edbedd35e2aa9e4c6a2f64e24554cc43d02fd1d674bada619186175
+  1.66.0--r42ha9d7317_1: 
+    sha256:98cc724625719a0fca86900531fa65d1cbf0d609f24e3afe4ec1b7588335692f
+  1.68.0--r43ha9d7317_0: 
+    sha256:bd6529244a0edbb7776530921954cb95ab6e505c9dabada446eb6566ffeb15b5
+  1.70.0--r43ha9d7317_0: 
+    sha256:1716cc79968c612c68b79fdb3f5ce0e3f9d42810c399309b90f49a77d6ef75cf
+  1.78.0--r45h01b2380_0: 
+    sha256:82c7b56fcdf4ad410f81ed37d5500041b497c62ecd9c0c76f110779fe51f14ff
+  1.74.0--r44h3df3fcb_0: 
+    sha256:2a966e5e7f21cb6525b762b474b83e4de3a80ece2514f852783b46223569a139
+  1.70.0--r43ha9d7317_1: 
+    sha256:ff3ed3a030c52c5334a04d34228fc6eb1378d1cc54dd8ccd6084cc44d2a4fd0a
 docker: quay.io/biocontainers/bioconductor-copa

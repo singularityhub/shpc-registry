@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-raexexonprobesetlocation
 latest:
-  1.15.0--r44hdfd78af_13: 
-    sha256:afd8a17cd960bf7c3069bb082e1574c7aa65bb98c9b8686d7463b39bcc05c8f5
+  1.15.0--r45hdfd78af_14: 
+    sha256:7c8ef4394735c7d47fbe9d0949f9149b4f6199cbc6eeb8854666bb65e3f3f6a8
 tags:
   1.15.0--r41hdfd78af_9: 
     sha256:7f1289dd8738a045e3c09832ff02292b3e5b9364c966c3ed60942de973b1234b
@@ -16,4 +16,6 @@ tags:
     sha256:44277b51dcf4a4b08fd77513fc244d4dccffc730948579701603d69304e5dcc0
   1.15.0--r44hdfd78af_13: 
     sha256:afd8a17cd960bf7c3069bb082e1574c7aa65bb98c9b8686d7463b39bcc05c8f5
+  1.15.0--r45hdfd78af_14: 
+    sha256:7c8ef4394735c7d47fbe9d0949f9149b4f6199cbc6eeb8854666bb65e3f3f6a8
 docker: quay.io/biocontainers/bioconductor-raexexonprobesetlocation

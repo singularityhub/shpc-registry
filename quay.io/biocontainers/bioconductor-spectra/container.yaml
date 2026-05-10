@@ -1,10 +1,21 @@
 url: https://biocontainers.pro/tools/bioconductor-spectra
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-spectra
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-spectra
 latest:
-  1.10.1--r43hdfd78af_0: sha256:1cb9e134c2442e632156d557dbe46bb44f47fea861ed3e1c2c42a88fbb8f701e
+  1.20.1--r45hdfd78af_0: 
+    sha256:c04baee6e5173875a296d5c21a2827920035505a496c2b0122e435e528061e4e
 tags:
-  1.4.0--r41hdfd78af_0: sha256:84d16b4313d4c1084bc191e047da977ebf5cc742b676067f84dbf6e0ca4a7d24
-  1.8.0--r42hdfd78af_0: sha256:28c74176eee6e81c16a8bfc699b1c61e0aab9db6b5ceb8dde23945b42d27e2d6
-  1.10.1--r43hdfd78af_0: sha256:1cb9e134c2442e632156d557dbe46bb44f47fea861ed3e1c2c42a88fbb8f701e
+  1.4.0--r41hdfd78af_0: 
+    sha256:84d16b4313d4c1084bc191e047da977ebf5cc742b676067f84dbf6e0ca4a7d24
+  1.8.0--r42hdfd78af_0: 
+    sha256:28c74176eee6e81c16a8bfc699b1c61e0aab9db6b5ceb8dde23945b42d27e2d6
+  1.10.1--r43hdfd78af_0: 
+    sha256:1cb9e134c2442e632156d557dbe46bb44f47fea861ed3e1c2c42a88fbb8f701e
+  1.20.1--r45hdfd78af_0: 
+    sha256:c04baee6e5173875a296d5c21a2827920035505a496c2b0122e435e528061e4e
+  1.16.0--r44hdfd78af_0: 
+    sha256:3c229c0c601485a2fefe0510cebaa206ad9ff8ca573b4ddd5ecf2f9aee4f88a6
+  1.12.0--r43hdfd78af_0: 
+    sha256:618259fa478e90c2e27ac77cdbe9c6e9e0ccba22c3f4f29f01dfe6e840650c21
 docker: quay.io/biocontainers/bioconductor-spectra

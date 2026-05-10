@@ -1,10 +1,13 @@
 url: https://biocontainers.pro/tools/proteomiqon-mzmltomzlite
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for proteomiqon-mzmltomzlite
+description: shpc-registry automated BioContainers addition for 
+  proteomiqon-mzmltomzlite
 latest:
-  0.0.8--hdfd78af_0: sha256:68b6ce8e185c253b5f5365fb5b6ca104bfc8a53bcd4055eb1e213622411bded5
+  0.0.8--hdfd78af_0: 
+    sha256:68b6ce8e185c253b5f5365fb5b6ca104bfc8a53bcd4055eb1e213622411bded5
 tags:
-  0.0.8--hdfd78af_0: sha256:68b6ce8e185c253b5f5365fb5b6ca104bfc8a53bcd4055eb1e213622411bded5
+  0.0.8--hdfd78af_0: 
+    sha256:68b6ce8e185c253b5f5365fb5b6ca104bfc8a53bcd4055eb1e213622411bded5
 docker: quay.io/biocontainers/proteomiqon-mzmltomzlite
 aliases:
   lttng-gen-tp: /usr/local/bin/lttng-gen-tp

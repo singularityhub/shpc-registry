@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-ath1121501probe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:2349cc2ad945ca89c381d3f70e77cd65cd2c5338fd3e7560c26594bb2b106d06
+  2.18.0--r45hdfd78af_14: 
+    sha256:5a441b592f0aec3bd8f6192a1c5bcf1468a94b83a5782b10ed97f130767a3334
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:91f6c22bfcbcc303087aec4c9d9b2439d7239187b8d9d7430dd7ad1442a0d100
@@ -16,4 +16,6 @@ tags:
     sha256:ac33651b18798b8fc5f05d20c974854642a3e9c33a19fda527f52183ddb36737
   2.18.0--r44hdfd78af_13: 
     sha256:2349cc2ad945ca89c381d3f70e77cd65cd2c5338fd3e7560c26594bb2b106d06
+  2.18.0--r45hdfd78af_14: 
+    sha256:5a441b592f0aec3bd8f6192a1c5bcf1468a94b83a5782b10ed97f130767a3334
 docker: quay.io/biocontainers/bioconductor-ath1121501probe

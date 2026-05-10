@@ -47,6 +47,8 @@ tags:
     sha256:9faa4d4db8c7bb290722b8230ce5d2260912b986079cbb4c15db6d428d77a4de
   0.12.0--py310h7c10099_1: 
     sha256:cc374e92b4d3a69323a178adb099ab19b7babeaee1cb049fcba333f66d2d5500
+  0.4.11--py38hbff2b2d_1: 
+    sha256:ddd1ae0d1bf5cf5e13fd8e93abb12fea49a973f46bf5e2dda7480db5ece7f792
 docker: quay.io/biocontainers/pyhmmer
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

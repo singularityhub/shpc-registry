@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-chipseeker
 latest:
-  1.42.0--r44hdfd78af_0: 
-    sha256:baaf503e1341208213a94bc4df0add03fa16e31c85939e3cc83d0d85670e86a3
+  1.46.1--r45hdfd78af_0: 
+    sha256:31fc71e4e2d5a59a324c4d8740edfc060fff2f7da3e9c8738d1d59e64d450ee2
 tags:
   1.6.6--0: 
     sha256:a938a6b676ee07069ac22c6c2498072922cf8d9707055c8e5854731d10696e84
@@ -24,6 +24,8 @@ tags:
     sha256:86476d95a6273b699cfa1d13e2b56c8f8ac09a633198a01253a0f2a6c074bcf5
   1.42.0--r44hdfd78af_0: 
     sha256:baaf503e1341208213a94bc4df0add03fa16e31c85939e3cc83d0d85670e86a3
+  1.46.1--r45hdfd78af_0: 
+    sha256:31fc71e4e2d5a59a324c4d8740edfc060fff2f7da3e9c8738d1d59e64d450ee2
 docker: quay.io/biocontainers/bioconductor-chipseeker
 aliases:
   pngcp: /usr/local/bin/pngcp

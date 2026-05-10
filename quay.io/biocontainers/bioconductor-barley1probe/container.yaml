@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-barley1probe
 latest:
-  2.18.0--r44hdfd78af_13: 
-    sha256:d65e7f66ef12320e157d81910639aff4459093322bc56c109f67fbee4c10c05d
+  2.18.0--r45hdfd78af_14: 
+    sha256:061410fb26b1ad572179cbedc440893d7c2852058e2ae67ce76fe624f3cc3a75
 tags:
   2.18.0--r41hdfd78af_9: 
     sha256:c0a20eb886ee3161cfe84ce95a69633b2822f2f241785a9512eae89fda92fff1
@@ -16,4 +16,6 @@ tags:
     sha256:a35fb5368112259944136ec7884367dc3f6db8014e2653ddd7f2beaf5239605a
   2.18.0--r44hdfd78af_13: 
     sha256:d65e7f66ef12320e157d81910639aff4459093322bc56c109f67fbee4c10c05d
+  2.18.0--r45hdfd78af_14: 
+    sha256:061410fb26b1ad572179cbedc440893d7c2852058e2ae67ce76fe624f3cc3a75
 docker: quay.io/biocontainers/bioconductor-barley1probe

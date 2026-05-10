@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/falco
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for falco
 latest:
-  1.2.5--h077b44d_0: 
-    sha256:621b08597ae185b67fa8af38c2f2b39cfd22a074a8a3b45154c0dfda24b7e7ec
+  1.3.0--h3be2455_0: 
+    sha256:1e0eac0bf37c83006521cd15932b3edbf0f9ff21b69ac0fdb525c30d6dd1d4bd
 tags:
   1.2.1--h867801b_3: 
     sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2
@@ -21,6 +21,8 @@ tags:
     sha256:f874813c4d5348a1ba0ae44225d3f4bda4df9b82192ab49dd11e4de6753ad075
   1.2.5--h077b44d_0: 
     sha256:621b08597ae185b67fa8af38c2f2b39cfd22a074a8a3b45154c0dfda24b7e7ec
+  1.3.0--h3be2455_0: 
+    sha256:1e0eac0bf37c83006521cd15932b3edbf0f9ff21b69ac0fdb525c30d6dd1d4bd
 docker: quay.io/biocontainers/falco
 aliases:
   falco: /usr/local/bin/falco

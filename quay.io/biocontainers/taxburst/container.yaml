@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/taxburst
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for taxburst
 latest:
-  0.3.1--pyhdfd78af_0: 
-    sha256:03cbd1b1e5370aaffbf35ae0bf79350b1b4e8cac2bca0205461e7b610e4937e3
+  0.3.2--pyhdfd78af_0: 
+    sha256:0b4c3be23f08e9e08856f86422ab71d6274238ce7808495c4fdd7913dd6ad1b8
 tags:
   0.3.1--pyhdfd78af_0: 
     sha256:03cbd1b1e5370aaffbf35ae0bf79350b1b4e8cac2bca0205461e7b610e4937e3
+  0.3.2--pyhdfd78af_0: 
+    sha256:0b4c3be23f08e9e08856f86422ab71d6274238ce7808495c4fdd7913dd6ad1b8
 docker: quay.io/biocontainers/taxburst
 aliases:
   taxburst: /usr/local/bin/taxburst

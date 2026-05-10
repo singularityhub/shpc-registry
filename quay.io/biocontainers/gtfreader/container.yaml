@@ -7,6 +7,8 @@ latest:
 tags:
   0.2.0--py312h247cb63_0: 
     sha256:97744a4222dfcd9a392688ac63ec04ed108e1947309851644ce504a1d74da0f0
+  0.2.0--py313h8c92656_0: 
+    sha256:0f38e506aa7a3d4e11fbaa951aa133927318a17b01aec40672b416e878509a3c
 docker: quay.io/biocontainers/gtfreader
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

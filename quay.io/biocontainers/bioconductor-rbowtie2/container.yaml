@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rbowtie2
 latest:
-  2.12.3--r44h77050f0_0: 
-    sha256:74e871c6aff6d93388f14aca0d4ab68b117dcb3f0eacd3c5e2f83e17931a7f6e
+  2.16.0--r45ha27e39d_0: 
+    sha256:5995a06a28e21eaeb862d51f97717cdf78a1f9305d7c779fa8370bdf493c1ed3
 tags:
   2.0.0--r41he06c1ba_2: 
     sha256:bb26b0a663dc59c90296d8f6772bffcb4080e2b75a4d54fef0b0285426e637a3
@@ -20,4 +20,6 @@ tags:
     sha256:c2f6b7c3b3478a45291570d6ed62d53c44cf6d3bf2afe4ac524577358b28009c
   2.12.3--r44h77050f0_0: 
     sha256:74e871c6aff6d93388f14aca0d4ab68b117dcb3f0eacd3c5e2f83e17931a7f6e
+  2.16.0--r45ha27e39d_0: 
+    sha256:5995a06a28e21eaeb862d51f97717cdf78a1f9305d7c779fa8370bdf493c1ed3
 docker: quay.io/biocontainers/bioconductor-rbowtie2

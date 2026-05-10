@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/breakinator
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for breakinator
 latest:
-  1.0.3--pyh7e72e81_0: 
-    sha256:d3e5a3fc993403cb142e7555bd30bc083850460f37ebe0ae959c9040fca417ff
+  1.1.1--h067a5f5_1: 
+    sha256:a796aaf50688ff939f5374118e6f4e3fa75c098b6e5be9df2f6fbdadfe723379
 tags:
   1.0.3--pyh7e72e81_0: 
     sha256:d3e5a3fc993403cb142e7555bd30bc083850460f37ebe0ae959c9040fca417ff
+  1.1.1--h067a5f5_1: 
+    sha256:a796aaf50688ff939f5374118e6f4e3fa75c098b6e5be9df2f6fbdadfe723379
 docker: quay.io/biocontainers/breakinator
 aliases:
   breakinator: /usr/local/bin/breakinator

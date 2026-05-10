@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/metacontam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metacontam
 latest:
-  0.0.1--py314hdfd78af_0: 
-    sha256:efe3344dd4fd86a1c1789c244ff45f8ee2f167cc6b35911f07b5e1bc8e148aad
+  0.0.1--pyhdfd78af_2: 
+    sha256:c94c078c10d8e8f5b0e20b35bee1b07aa98fc57eca61d1c264daed266a2eda2a
 tags:
   0.0.1--py314hdfd78af_0: 
     sha256:efe3344dd4fd86a1c1789c244ff45f8ee2f167cc6b35911f07b5e1bc8e148aad
+  0.0.1--pyhdfd78af_2: 
+    sha256:c94c078c10d8e8f5b0e20b35bee1b07aa98fc57eca61d1c264daed266a2eda2a
 docker: quay.io/biocontainers/metacontam
 aliases:
   bracken: /usr/local/bin/bracken

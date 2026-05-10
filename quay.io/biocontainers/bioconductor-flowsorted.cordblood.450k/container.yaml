@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-flowsorted.cordblood.450k
 latest:
-  1.34.0--r44hdfd78af_0: 
-    sha256:0d699c387ef239fc74ffe2bd169168a5f31ead7f1af2e81c29faa18cbc1a618d
+  1.38.0--r45hdfd78af_0: 
+    sha256:0d3116e4a334ad2895a749536b351bc103a1cfa595806ccebf8d0713fd326524
 tags:
   1.22.0--r41hdfd78af_1: 
     sha256:558eb1480c5270b00ab1ae29008d2239a3f5c3f774c174dbd90126c186c3e443
@@ -16,4 +16,6 @@ tags:
     sha256:1f8bd2862d09b3d4eca814b06c0e5105ba91a181bf934de1ca847a8844003eb3
   1.34.0--r44hdfd78af_0: 
     sha256:0d699c387ef239fc74ffe2bd169168a5f31ead7f1af2e81c29faa18cbc1a618d
+  1.38.0--r45hdfd78af_0: 
+    sha256:0d3116e4a334ad2895a749536b351bc103a1cfa595806ccebf8d0713fd326524
 docker: quay.io/biocontainers/bioconductor-flowsorted.cordblood.450k

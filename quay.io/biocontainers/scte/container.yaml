@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/scte
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scte
 latest:
-  1.0.0--pyhdfd78af_0: sha256:2dd71709941f965a7ffc16665d4ebb9ad62205e49ec6705474ed3dde0ac5057e
+  1.0.0--pyhdfd78af_0: 
+    sha256:2dd71709941f965a7ffc16665d4ebb9ad62205e49ec6705474ed3dde0ac5057e
 tags:
-  1.0.0--pyhdfd78af_0: sha256:2dd71709941f965a7ffc16665d4ebb9ad62205e49ec6705474ed3dde0ac5057e
+  1.0.0--pyhdfd78af_0: 
+    sha256:2dd71709941f965a7ffc16665d4ebb9ad62205e49ec6705474ed3dde0ac5057e
 docker: quay.io/biocontainers/scte
 aliases:
   scTE: /usr/local/bin/scTE

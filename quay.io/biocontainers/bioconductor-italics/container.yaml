@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-italics
 latest:
-  2.62.0--r43hdfd78af_0: 
-    sha256:4a8815c690a2bd4d4cb8ed6354f93df5a4899390376e650df78edb6698fd903c
+  2.70.0--r45hdfd78af_0: 
+    sha256:83f0755e0c1d01580c3a6a3b35d7c963c66ac95814d4483b184cbe56d9c57d53
 tags:
   2.52.0--r41hdfd78af_0: 
     sha256:18f6b53ce57c110bbcb6c515ba5943f1326151d3548e180480f1f15f34628468
@@ -14,6 +14,8 @@ tags:
     sha256:afec962cf1345ec448d9fb9dcd1caf0c55e0f105acac792ee9c4f5b1ff5493e0
   2.62.0--r43hdfd78af_0: 
     sha256:4a8815c690a2bd4d4cb8ed6354f93df5a4899390376e650df78edb6698fd903c
+  2.70.0--r45hdfd78af_0: 
+    sha256:83f0755e0c1d01580c3a6a3b35d7c963c66ac95814d4483b184cbe56d9c57d53
 docker: quay.io/biocontainers/bioconductor-italics
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

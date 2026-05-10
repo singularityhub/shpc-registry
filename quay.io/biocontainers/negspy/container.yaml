@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/negspy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for negspy
 latest:
-  0.2.24--pyh7e72e81_0: 
-    sha256:2fdf7711e7e6998933a2b88346c5fe082d457af09af2070a78dba9813faed3a7
+  0.3.2--pyh106432d_0: 
+    sha256:b86bb998192ac33bea47feb571be6d45aecff7c9eb2e524a88695bbf0aca5add
 tags:
   0.2.24--pyh7e72e81_0: 
     sha256:2fdf7711e7e6998933a2b88346c5fe082d457af09af2070a78dba9813faed3a7
+  0.3.2--pyh106432d_0: 
+    sha256:b86bb998192ac33bea47feb571be6d45aecff7c9eb2e524a88695bbf0aca5add
 docker: quay.io/biocontainers/negspy
 aliases:
   chr_pos_to_genome_pos.py: /usr/local/bin/chr_pos_to_genome_pos.py

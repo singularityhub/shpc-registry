@@ -1,13 +1,25 @@
-url: https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
+url: 
+  https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 maintainer: '@vsoch'
-description: shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
+description: shpc-registry automated BioContainers addition for 
+  bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 latest:
-  3.2.2--r43hdfd78af_15: sha256:457d19992288064fa9a2cd2b25191a890753ef429abb57958a18d0b10b40920c
+  3.22.1--r45hdfd78af_0: 
+    sha256:9fabdd16b48eff3ee94871c1a7e3712b5aa020fe1ad59e6751030ffa800508c7
 tags:
-  3.2.2--r40_9: sha256:0b83400fbef270c9a2cc6da052178d23e4f45be76216783cd0afe0eb32924a08
-  3.2.2--r41hdfd78af_13: sha256:2e032e5b8e95ac55031d314df8ab512e743938d79b022bc911bbf235c9893de3
-  3.2.2--r42hdfd78af_14: sha256:d7dd700466f59c18d6a7e453c38f2fbef201937e81deff085dd6607f196c1781
-  3.2.2--r43hdfd78af_15: sha256:457d19992288064fa9a2cd2b25191a890753ef429abb57958a18d0b10b40920c
+  3.2.2--r40_9: 
+    sha256:0b83400fbef270c9a2cc6da052178d23e4f45be76216783cd0afe0eb32924a08
+  3.2.2--r41hdfd78af_13: 
+    sha256:2e032e5b8e95ac55031d314df8ab512e743938d79b022bc911bbf235c9893de3
+  3.2.2--r42hdfd78af_14: 
+    sha256:d7dd700466f59c18d6a7e453c38f2fbef201937e81deff085dd6607f196c1781
+  3.2.2--r43hdfd78af_15: 
+    sha256:457d19992288064fa9a2cd2b25191a890753ef429abb57958a18d0b10b40920c
+  3.22.1--r45hdfd78af_0: 
+    sha256:9fabdd16b48eff3ee94871c1a7e3712b5aa020fe1ad59e6751030ffa800508c7
+  3.2.2--r44hdfd78af_17: 
+    sha256:ac06398f917ec652e6e8e187c3a88ac716b36cc4ba2757bc35e1cccd50fb0a7b
 docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 aliases:
-  x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

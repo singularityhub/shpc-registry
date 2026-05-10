@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/r-r.methodss3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-r.methodss3
 latest:
-  1.7.1--r3.3.1_0: sha256:610ace7795fedb9ca263c8a0630db2cbf2b64c3d821f11ccacb29c61aaba9055
+  1.7.1--r3.3.1_0: 
+    sha256:005ef7817b02ff9a3d99680e70e1af81137e3a7fbd4460dc9803f3496f7516ab
 tags:
-  1.7.1--r3.3.1_0: sha256:610ace7795fedb9ca263c8a0630db2cbf2b64c3d821f11ccacb29c61aaba9055
+  1.7.1--r3.3.1_0: 
+    sha256:005ef7817b02ff9a3d99680e70e1af81137e3a7fbd4460dc9803f3496f7516ab
 docker: quay.io/biocontainers/r-r.methodss3
 aliases:
   uconv: /usr/local/bin/uconv

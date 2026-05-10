@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/perl-dbm-deep
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-dbm-deep
 latest:
-  2.0013--pl526_1: sha256:ca50b734b0a20a7f9e2aab560f73066343aebdcbe91b2580b5ec1284f9df6787
+  2.0019--pl5321hdfd78af_0: 
+    sha256:fb5ed4babae1efa30f8d93f87c091afaab0c58b860759a95320aa0cd709bbb6f
 tags:
-  2.0013--pl526_1: sha256:ca50b734b0a20a7f9e2aab560f73066343aebdcbe91b2580b5ec1284f9df6787
+  2.0013--pl526_1: 
+    sha256:83bc1efd2ab89aa7c721cb31dfee677e7814a1d045301d92f9cba4a0b226617a
+  2.0019--pl5321hdfd78af_0: 
+    sha256:fb5ed4babae1efa30f8d93f87c091afaab0c58b860759a95320aa0cd709bbb6f
 docker: quay.io/biocontainers/perl-dbm-deep
 aliases:
   dbilogstrip: /usr/local/bin/dbilogstrip

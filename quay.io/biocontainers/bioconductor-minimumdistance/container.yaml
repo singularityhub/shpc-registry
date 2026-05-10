@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-minimumdistance
 latest:
-  1.50.0--r44hdfd78af_0: 
-    sha256:94d68b5c492c8d342ccd4bc6c2550130b21e90c941eeb90455ff23050a3a7432
+  1.54.0--r45hdfd78af_0: 
+    sha256:34b96ba9754574be574c2cfa89862767eb0febeef119ab09f713f4f20b739a1a
 tags:
   1.38.0--r41hdfd78af_0: 
     sha256:f4305dcd3aac9a96865a76c19a309eb5d4b20a7cc3317bf10a4ceb8e8d43b464
@@ -16,4 +16,6 @@ tags:
     sha256:507ed6ccaf52017517fbde79d313ff00c13e8de5a067c66120c02fbd73e80292
   1.50.0--r44hdfd78af_0: 
     sha256:94d68b5c492c8d342ccd4bc6c2550130b21e90c941eeb90455ff23050a3a7432
+  1.54.0--r45hdfd78af_0: 
+    sha256:34b96ba9754574be574c2cfa89862767eb0febeef119ab09f713f4f20b739a1a
 docker: quay.io/biocontainers/bioconductor-minimumdistance

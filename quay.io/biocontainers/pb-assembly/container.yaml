@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pb-assembly
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pb-assembly
 latest:
-  0.0.8--hdfd78af_1: sha256:2b87247fe44edb30acb21e82d959e91eaca158f57be0acb7b01fe159939e8b8b
+  0.0.8--hdfd78af_1: 
+    sha256:2b87247fe44edb30acb21e82d959e91eaca158f57be0acb7b01fe159939e8b8b
 tags:
-  0.0.8--hdfd78af_1: sha256:2b87247fe44edb30acb21e82d959e91eaca158f57be0acb7b01fe159939e8b8b
+  0.0.8--hdfd78af_1: 
+    sha256:2b87247fe44edb30acb21e82d959e91eaca158f57be0acb7b01fe159939e8b8b
 docker: quay.io/biocontainers/pb-assembly
 aliases:
   Catrack: /usr/local/bin/Catrack

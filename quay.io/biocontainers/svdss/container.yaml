@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/svdss
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svdss
 latest:
-  2.1.0--h9013031_0: 
-    sha256:fff32ffb4a3f8da7baedc720f937f90fcff99d687eeff0e653b1cf5c5ded031c
+  2.1.1--he17396a_0: 
+    sha256:133eb305102b0560366bc8340290948d16a9b984136e5d2e8df05902fbc0b327
 tags:
   1.0.5--h5631e8c_0: 
     sha256:2b2122c8e7d5a54e7e754e2cbbd1899b58c19fea85631705bc76ef112b78d073
@@ -17,6 +17,8 @@ tags:
     sha256:b59c0a3d680f757eb572cb68ebaefc065b64341271b29b7c96bf52a0889c3f5d
   2.1.0--h9013031_0: 
     sha256:fff32ffb4a3f8da7baedc720f937f90fcff99d687eeff0e653b1cf5c5ded031c
+  2.1.1--he17396a_0: 
+    sha256:133eb305102b0560366bc8340290948d16a9b984136e5d2e8df05902fbc0b327
 docker: quay.io/biocontainers/svdss
 aliases:
   SVDSS: /usr/local/bin/SVDSS

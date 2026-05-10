@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/danpos3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for danpos3
 latest:
-  3.2.2--pyhdfd78af_0: 
-    sha256:c2778ae787d1a9f5065f228db6f43edf4b27574254b2e716e496f75755d73b4e
+  3.2.3--pyhdfd78af_0: 
+    sha256:7d0ea496035b25b70eac1da1d0f6df1e0e830b315619ef52160eb633b60c9ec7
 tags:
   3.2.2--pyhdfd78af_0: 
     sha256:c2778ae787d1a9f5065f228db6f43edf4b27574254b2e716e496f75755d73b4e
+  3.2.3--pyhdfd78af_0: 
+    sha256:7d0ea496035b25b70eac1da1d0f6df1e0e830b315619ef52160eb633b60c9ec7
 docker: quay.io/biocontainers/danpos3
 aliases:
   danpos: /usr/local/bin/danpos

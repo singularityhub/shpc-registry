@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bis-snp-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bis-snp-utils
 latest:
-  0.0.1--hdfd78af_4: sha256:64cf2d3bf4463bc7d66e2b7389c4cd1bb7d1025bc55fe3fef3a8315d8d97acd9
+  0.0.1--hdfd78af_4: 
+    sha256:64cf2d3bf4463bc7d66e2b7389c4cd1bb7d1025bc55fe3fef3a8315d8d97acd9
 tags:
-  0.0.1--hdfd78af_4: sha256:64cf2d3bf4463bc7d66e2b7389c4cd1bb7d1025bc55fe3fef3a8315d8d97acd9
+  0.0.1--hdfd78af_4: 
+    sha256:64cf2d3bf4463bc7d66e2b7389c4cd1bb7d1025bc55fe3fef3a8315d8d97acd9
 docker: quay.io/biocontainers/bis-snp-utils
 aliases:
   annotateBed_2way.pl: /usr/local/bin/annotateBed_2way.pl

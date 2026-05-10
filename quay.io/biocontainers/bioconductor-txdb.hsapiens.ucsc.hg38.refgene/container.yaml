@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-txdb.hsapiens.ucsc.hg38.refgene
 latest:
-  3.19.0--r44hdfd78af_0: 
-    sha256:5d800897149e1eb7b90ee9bb8d33ab877622c0a0646707f4bbb75aa6a079acd2
+  3.19.0--r45hdfd78af_1: 
+    sha256:171b8790fed5ac0befabeb66de876ec04fa62950d6cbd2ca4e4e3e711a118b1c
 tags:
   3.13.0--r41hdfd78af_2: 
     sha256:861e89ef1667c30f1a64d9c880b12fa09cb2bca78a08d22f26d351327154a71b
@@ -17,4 +17,6 @@ tags:
     sha256:e0e8043dc1c60b87b828578bb428ff8c24c71168c0b2ff8b77d781120b1e7da8
   3.19.0--r44hdfd78af_0: 
     sha256:5d800897149e1eb7b90ee9bb8d33ab877622c0a0646707f4bbb75aa6a079acd2
+  3.19.0--r45hdfd78af_1: 
+    sha256:171b8790fed5ac0befabeb66de876ec04fa62950d6cbd2ca4e4e3e711a118b1c
 docker: quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.refgene

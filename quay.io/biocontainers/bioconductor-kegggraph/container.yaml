@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-kegggraph
 latest:
-  1.66.0--r44hdfd78af_0: 
-    sha256:54ca0b3076267b46f3ec61896ce5d6a7a4ce29629c6fb927c2ed7cca8b5857f4
+  1.70.0--r45hdfd78af_0: 
+    sha256:631e88b182d495d8d7bffcffa484ded8d0c262d9d05ee76b83da3d2d1dd2d7e7
 tags:
   1.54.0--r41hdfd78af_0: 
     sha256:cbde28c73b7093f7c4b5f3377f58f118af9d296cfd2692e4b7aa77826afb97ed
@@ -16,4 +16,6 @@ tags:
     sha256:053bee68f49a440ee0011097d6a6867364804cf2ce1ef48cd747593baa172d96
   1.66.0--r44hdfd78af_0: 
     sha256:54ca0b3076267b46f3ec61896ce5d6a7a4ce29629c6fb927c2ed7cca8b5857f4
+  1.70.0--r45hdfd78af_0: 
+    sha256:631e88b182d495d8d7bffcffa484ded8d0c262d9d05ee76b83da3d2d1dd2d7e7
 docker: quay.io/biocontainers/bioconductor-kegggraph

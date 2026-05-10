@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/earlgrey-partea
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for earlgrey-partea
 latest:
-  0.1.6--hdfd78af_0: 
-    sha256:53879ca69576717decb698644c9149cb8cae1d46e10e48fdc75fccf90b4ac6a6
+  0.1.7--hdfd78af_0: 
+    sha256:38bfae3f6e70183da25d5ca7fad300ccc0f488d3a2fbb5ced7711e9821b6a93a
 tags:
   0.1.6--hdfd78af_0: 
     sha256:53879ca69576717decb698644c9149cb8cae1d46e10e48fdc75fccf90b4ac6a6
+  0.1.7--hdfd78af_0: 
+    sha256:38bfae3f6e70183da25d5ca7fad300ccc0f488d3a2fbb5ced7711e9821b6a93a
 docker: quay.io/biocontainers/earlgrey-partea
 aliases:
   BuildDatabase: /usr/local/bin/BuildDatabase

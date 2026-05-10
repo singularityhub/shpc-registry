@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-cytokernel
 latest:
-  1.12.0--r44he5774e6_0: 
-    sha256:df3996cc963a9dc5900f6f9289384142d4f771b70c786b3968ff71ca7b659e1c
+  1.16.0--r45ha27e39d_0: 
+    sha256:0d01b6871bcd204e6118a5e12e49351de44443cfb1dbbb33ff0d5c1c927cc151
 tags:
   1.0.0--r41hc247a5b_2: 
     sha256:8096ffe932d2046d6b09407a7c570af1303d220271845d27133be8c728ccd557
@@ -18,4 +18,6 @@ tags:
     sha256:f095bbd85bead5975065e2f4570fe74e572cdc0dd0d4a3fddc1e47f2304a6eb7
   1.12.0--r44he5774e6_0: 
     sha256:df3996cc963a9dc5900f6f9289384142d4f771b70c786b3968ff71ca7b659e1c
+  1.16.0--r45ha27e39d_0: 
+    sha256:0d01b6871bcd204e6118a5e12e49351de44443cfb1dbbb33ff0d5c1c927cc151
 docker: quay.io/biocontainers/bioconductor-cytokernel
