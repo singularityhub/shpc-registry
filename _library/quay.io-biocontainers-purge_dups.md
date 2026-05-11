@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/purge_dups"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/purge_dups/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/purge_dups/container.yaml"
-updated_at: "2026-05-10 06:30:28.674865"
+updated_at: "2026-05-11 06:40:28.389621"
 latest: "1.2.6--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/purge_dups"
 aliases:

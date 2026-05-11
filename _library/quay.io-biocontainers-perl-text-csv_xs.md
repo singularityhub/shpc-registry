@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-text-csv_xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-csv_xs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-csv_xs/container.yaml"
-updated_at: "2026-05-10 06:32:48.301445"
-latest: "1.48--pl5321hec16e2b_0"
+updated_at: "2026-05-11 06:42:15.172947"
+latest: "1.62--pl5321hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/perl-text-csv_xs"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "1.48--pl5321hec16e2b_0"
+ - "1.62--pl5321hab16a5f_0"
+ - "1.61--pl5321hab16a5f_0"
 description: "shpc-registry automated BioContainers addition for perl-text-csv_xs"
-config: {"url": "https://biocontainers.pro/tools/perl-text-csv_xs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-csv_xs", "latest": {"1.48--pl5321hec16e2b_0": "sha256:45068abed3c7beea30e5203650ac250ff527ab4bbee2b9a17d5ff7e35966e947"}, "tags": {"1.48--pl5321hec16e2b_0": "sha256:45068abed3c7beea30e5203650ac250ff527ab4bbee2b9a17d5ff7e35966e947"}, "docker": "quay.io/biocontainers/perl-text-csv_xs", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-text-csv_xs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-csv_xs", "latest": {"1.62--pl5321hab16a5f_0": "sha256:fd9a657a57fcd66a7ddf30c70143eb7b08469975981aac0308ea33b976d5152e"}, "tags": {"1.48--pl5321hec16e2b_0": "sha256:45068abed3c7beea30e5203650ac250ff527ab4bbee2b9a17d5ff7e35966e947", "1.62--pl5321hab16a5f_0": "sha256:fd9a657a57fcd66a7ddf30c70143eb7b08469975981aac0308ea33b976d5152e", "1.61--pl5321hab16a5f_0": "sha256:6e1a0fc911eca8f23aac1f8e04c789c9ba76b5476102dac7dffbc0f350b8231d"}, "docker": "quay.io/biocontainers/perl-text-csv_xs", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-text-csv_xs.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-text-csv_xs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-text-csv_xs:1.48--pl5321hec16e2b_0
+$ shpc install quay.io/biocontainers/perl-text-csv_xs:1.62--pl5321hab16a5f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-text-csv_xs/1.48--pl5321hec16e2b_0
-$ module help quay.io/biocontainers/perl-text-csv_xs/1.48--pl5321hec16e2b_0
+$ module load quay.io/biocontainers/perl-text-csv_xs/1.62--pl5321hab16a5f_0
+$ module help quay.io/biocontainers/perl-text-csv_xs/1.62--pl5321hab16a5f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

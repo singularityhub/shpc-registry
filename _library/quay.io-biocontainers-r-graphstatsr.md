@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-graphstatsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-graphstatsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-graphstatsr/container.yaml"
-updated_at: "2026-05-10 06:10:57.518682"
+updated_at: "2026-05-11 06:25:28.092516"
 latest: "2.6.1--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-graphstatsr"
 aliases:

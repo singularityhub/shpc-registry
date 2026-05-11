@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-matrixgenerics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matrixgenerics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matrixgenerics/container.yaml"
-updated_at: "2026-05-10 06:21:57.111097"
+updated_at: "2026-05-11 06:33:53.513262"
 latest: "1.22.0--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-matrixgenerics"
 

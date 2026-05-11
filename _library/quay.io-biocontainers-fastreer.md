@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastreer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastreer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastreer/container.yaml"
-updated_at: "2026-05-10 06:17:08.267158"
-latest: "2.1.3--pyhdfd78af_0"
+updated_at: "2026-05-11 06:30:14.000480"
+latest: "2.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fastreer"
 aliases:
  - "fastreeR"
@@ -39,8 +39,10 @@ versions:
  - "2.0.0--pyhdfd78af_1"
  - "2.1.2--pyhdfd78af_0"
  - "2.1.3--pyhdfd78af_0"
+ - "2.2.0--pyhdfd78af_0"
+ - "2.1.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for fastreer"
-config: {"url": "https://biocontainers.pro/tools/fastreer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastreer", "latest": {"2.1.3--pyhdfd78af_0": "sha256:0e4e43d4780441e75eadb5ac6a396246af10feddd03c27fe58de53c257160b71"}, "tags": {"1.13.30--pyhdfd78af_0": "sha256:9260d4c2e8107be41af346651feb85446b516322f50ec96cf85674a871eede31", "2.0.0--pyhdfd78af_1": "sha256:e7a02d35a5a75f9cfeea707a7abee80558cb664602f3e635f90418dc8b40ee71", "2.1.2--pyhdfd78af_0": "sha256:0b44f66030d8bae17323c90d021e826e00ebca4c25b947ce46c3fe75d50e47f4", "2.1.3--pyhdfd78af_0": "sha256:0e4e43d4780441e75eadb5ac6a396246af10feddd03c27fe58de53c257160b71"}, "docker": "quay.io/biocontainers/fastreer", "aliases": {"fastreeR": "/usr/local/bin/fastreeR", "jwebserver": "/usr/local/bin/jwebserver", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
+config: {"url": "https://biocontainers.pro/tools/fastreer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastreer", "latest": {"2.2.0--pyhdfd78af_0": "sha256:950c977e37c127e2ffb68164d63f9261258ce99a33f2f073a34b81004bd31dcf"}, "tags": {"1.13.30--pyhdfd78af_0": "sha256:9260d4c2e8107be41af346651feb85446b516322f50ec96cf85674a871eede31", "2.0.0--pyhdfd78af_1": "sha256:e7a02d35a5a75f9cfeea707a7abee80558cb664602f3e635f90418dc8b40ee71", "2.1.2--pyhdfd78af_0": "sha256:0b44f66030d8bae17323c90d021e826e00ebca4c25b947ce46c3fe75d50e47f4", "2.1.3--pyhdfd78af_0": "sha256:0e4e43d4780441e75eadb5ac6a396246af10feddd03c27fe58de53c257160b71", "2.2.0--pyhdfd78af_0": "sha256:950c977e37c127e2ffb68164d63f9261258ce99a33f2f073a34b81004bd31dcf", "2.1.6--pyhdfd78af_0": "sha256:60ca33c0a48b5d3dd32d52e3756c1caf84f867dc69d818d5e93473fd9ef2fe20"}, "docker": "quay.io/biocontainers/fastreer", "aliases": {"fastreeR": "/usr/local/bin/fastreeR", "jwebserver": "/usr/local/bin/jwebserver", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastreer.
@@ -55,7 +57,7 @@ $ shpc install quay.io/biocontainers/fastreer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastreer:2.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/fastreer:2.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastreer/2.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/fastreer/2.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/fastreer/2.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/fastreer/2.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

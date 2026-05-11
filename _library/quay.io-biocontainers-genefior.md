@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genefior"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genefior/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genefior/container.yaml"
-updated_at: "2026-05-10 06:00:32.751330"
-latest: "0.7.0--pyhdfd78af_1"
+updated_at: "2026-05-11 06:17:21.917550"
+latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genefior"
 aliases:
  - "AMRFior"
@@ -48,8 +48,10 @@ aliases:
 versions:
  - "0.6.0--pyhdfd78af_0"
  - "0.7.0--pyhdfd78af_1"
+ - "0.8.0--pyhdfd78af_0"
+ - "0.7.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for genefior"
-config: {"url": "https://biocontainers.pro/tools/genefior", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genefior", "latest": {"0.7.0--pyhdfd78af_1": "sha256:537d99fed96141b13dc0035876d30ab0e978609dbc5c6d53dfb0d73af43e6d02"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:dc731613fc40fc85886b3cef21f0588b225523be8bc7b6a39ece64f6792d3cb3", "0.7.0--pyhdfd78af_1": "sha256:537d99fed96141b13dc0035876d30ab0e978609dbc5c6d53dfb0d73af43e6d02"}, "docker": "quay.io/biocontainers/genefior", "aliases": {"AMRFior": "/usr/local/bin/AMRFior", "AMRfior": "/usr/local/bin/AMRfior", "GeneFior": "/usr/local/bin/GeneFior", "GeneFior-Gene-Stats": "/usr/local/bin/GeneFior-Gene-Stats", "GeneFior-Recompute": "/usr/local/bin/GeneFior-Recompute", "GeneFior-gene-stats": "/usr/local/bin/GeneFior-gene-stats", "GeneFior-recompute": "/usr/local/bin/GeneFior-recompute", "amrfior": "/usr/local/bin/amrfior", "geneFior": "/usr/local/bin/geneFior", "genefior": "/usr/local/bin/genefior", "genefior-gene-stats": "/usr/local/bin/genefior-gene-stats", "genefior-recompute": "/usr/local/bin/genefior-recompute", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aria2c": "/usr/local/bin/aria2c", "ref-cache": "/usr/local/bin/ref-cache", "mmseqs": "/usr/local/bin/mmseqs", "seqtk": "/usr/local/bin/seqtk", "bsmp2info": "/usr/local/bin/bsmp2info"}}
+config: {"url": "https://biocontainers.pro/tools/genefior", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genefior", "latest": {"0.8.0--pyhdfd78af_0": "sha256:67dec291bd036a03c3f4d41b8c2fb7ebf32b116882252e70abd79dc24f0d547d"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:dc731613fc40fc85886b3cef21f0588b225523be8bc7b6a39ece64f6792d3cb3", "0.7.0--pyhdfd78af_1": "sha256:537d99fed96141b13dc0035876d30ab0e978609dbc5c6d53dfb0d73af43e6d02", "0.8.0--pyhdfd78af_0": "sha256:67dec291bd036a03c3f4d41b8c2fb7ebf32b116882252e70abd79dc24f0d547d", "0.7.1--pyhdfd78af_0": "sha256:65e59a94ace98b1f67162d617d964220961750ace57216aafa5192917d304cf1"}, "docker": "quay.io/biocontainers/genefior", "aliases": {"AMRFior": "/usr/local/bin/AMRFior", "AMRfior": "/usr/local/bin/AMRfior", "GeneFior": "/usr/local/bin/GeneFior", "GeneFior-Gene-Stats": "/usr/local/bin/GeneFior-Gene-Stats", "GeneFior-Recompute": "/usr/local/bin/GeneFior-Recompute", "GeneFior-gene-stats": "/usr/local/bin/GeneFior-gene-stats", "GeneFior-recompute": "/usr/local/bin/GeneFior-recompute", "amrfior": "/usr/local/bin/amrfior", "geneFior": "/usr/local/bin/geneFior", "genefior": "/usr/local/bin/genefior", "genefior-gene-stats": "/usr/local/bin/genefior-gene-stats", "genefior-recompute": "/usr/local/bin/genefior-recompute", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aria2c": "/usr/local/bin/aria2c", "ref-cache": "/usr/local/bin/ref-cache", "mmseqs": "/usr/local/bin/mmseqs", "seqtk": "/usr/local/bin/seqtk", "bsmp2info": "/usr/local/bin/bsmp2info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genefior.
@@ -64,7 +66,7 @@ $ shpc install quay.io/biocontainers/genefior
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genefior:0.7.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/genefior:0.8.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -76,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genefior/0.7.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/genefior/0.7.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/genefior/0.8.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/genefior/0.8.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

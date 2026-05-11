@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fjord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fjord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fjord/container.yaml"
-updated_at: "2026-05-10 06:25:59.404951"
+updated_at: "2026-05-11 06:37:00.319929"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fjord"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-affixcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affixcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affixcan/container.yaml"
-updated_at: "2026-05-10 05:58:12.851609"
+updated_at: "2026-05-11 06:15:28.269629"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affixcan"
 aliases:

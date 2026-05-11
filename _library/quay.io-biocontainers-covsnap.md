@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/covsnap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covsnap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/covsnap/container.yaml"
-updated_at: "2026-05-10 05:49:36.690736"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2026-05-11 06:08:42.932098"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/covsnap"
 aliases:
  - "covsnap"
@@ -37,8 +37,11 @@ aliases:
 versions:
  - "0.1.0--pyhdfd78af_0"
  - "0.1.1--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for covsnap"
-config: {"url": "https://biocontainers.pro/tools/covsnap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for covsnap", "latest": {"0.1.1--pyhdfd78af_0": "sha256:0c671ca72e52db9803c19943a2362c857d7c9da729c02c49ccecbb870de72cc5"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:c3b1523ed8723daed3505b8d1f391378082cf9cb3376685e2b999bd03bd6450f", "0.1.1--pyhdfd78af_0": "sha256:0c671ca72e52db9803c19943a2362c857d7c9da729c02c49ccecbb870de72cc5"}, "docker": "quay.io/biocontainers/covsnap", "aliases": {"covsnap": "/usr/local/bin/covsnap", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/covsnap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for covsnap", "latest": {"0.4.0--pyhdfd78af_0": "sha256:894418398d52da809cadca24ede81a83bc3a3f69aa449c8c5f7b20a0ff361d46"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:c3b1523ed8723daed3505b8d1f391378082cf9cb3376685e2b999bd03bd6450f", "0.1.1--pyhdfd78af_0": "sha256:0c671ca72e52db9803c19943a2362c857d7c9da729c02c49ccecbb870de72cc5", "0.4.0--pyhdfd78af_0": "sha256:894418398d52da809cadca24ede81a83bc3a3f69aa449c8c5f7b20a0ff361d46", "0.3.0--pyhdfd78af_0": "sha256:342a3b01d653904ba34c2aeeae37b107a5b9ecc6d92c00c96e4bf9eef3f89a57", "0.2.0--pyhdfd78af_0": "sha256:0a6e0d34cbe713883e5d11ae051f47fd72a3b6242cff88e84eaefaff85017b8b"}, "docker": "quay.io/biocontainers/covsnap", "aliases": {"covsnap": "/usr/local/bin/covsnap", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl", "samtools.pl": "/usr/local/bin/samtools.pl", "seq_cache_populate.pl": "/usr/local/bin/seq_cache_populate.pl", "soap2sam.pl": "/usr/local/bin/soap2sam.pl", "zoom2sam.pl": "/usr/local/bin/zoom2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/covsnap.
@@ -53,7 +56,7 @@ $ shpc install quay.io/biocontainers/covsnap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/covsnap:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/covsnap:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/covsnap/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/covsnap/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/covsnap/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/covsnap/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

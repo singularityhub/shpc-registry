@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hts-nim-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hts-nim-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hts-nim-tools/container.yaml"
-updated_at: "2026-05-10 06:09:25.231729"
-latest: "0.3.11--hbeb723e_0"
+updated_at: "2026-05-11 06:24:17.972561"
+latest: "0.3.31--hfbdc700_0"
 container_url: "https://biocontainers.pro/tools/hts-nim-tools"
 aliases:
  - "hts_nim_tools"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.3.11--hbeb723e_0"
+ - "0.3.31--hfbdc700_0"
 description: "shpc-registry automated BioContainers addition for hts-nim-tools"
-config: {"url": "https://biocontainers.pro/tools/hts-nim-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hts-nim-tools", "latest": {"0.3.11--hbeb723e_0": "sha256:bbe411e5b4744b8159ebff8b17534c7876e779d8c97cf48f72fd6614f34bbcbe"}, "tags": {"0.3.11--hbeb723e_0": "sha256:bbe411e5b4744b8159ebff8b17534c7876e779d8c97cf48f72fd6614f34bbcbe"}, "docker": "quay.io/biocontainers/hts-nim-tools", "aliases": {"hts_nim_tools": "/usr/local/bin/hts_nim_tools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/hts-nim-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hts-nim-tools", "latest": {"0.3.31--hfbdc700_0": "sha256:c665b2b5d3dc87970d1372d760fcc374c9badab7880a5e5276efe6f95441fa0d"}, "tags": {"0.3.11--hbeb723e_0": "sha256:bbe411e5b4744b8159ebff8b17534c7876e779d8c97cf48f72fd6614f34bbcbe", "0.3.31--hfbdc700_0": "sha256:c665b2b5d3dc87970d1372d760fcc374c9badab7880a5e5276efe6f95441fa0d"}, "docker": "quay.io/biocontainers/hts-nim-tools", "aliases": {"hts_nim_tools": "/usr/local/bin/hts_nim_tools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hts-nim-tools.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/hts-nim-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hts-nim-tools:0.3.11--hbeb723e_0
+$ shpc install quay.io/biocontainers/hts-nim-tools:0.3.31--hfbdc700_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hts-nim-tools/0.3.11--hbeb723e_0
-$ module help quay.io/biocontainers/hts-nim-tools/0.3.11--hbeb723e_0
+$ module load quay.io/biocontainers/hts-nim-tools/0.3.31--hfbdc700_0
+$ module help quay.io/biocontainers/hts-nim-tools/0.3.31--hfbdc700_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
