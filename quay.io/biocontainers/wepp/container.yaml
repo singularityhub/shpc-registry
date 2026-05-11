@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/wepp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for wepp
 latest:
-  0.1.5.4--py311h41363dc_0: 
-    sha256:234853aa375fedfe21cd8c584b8f487965f036b6de7dc3e70f3226a883bfdb78
+  0.1.5.5--py311h3bb42f6_0: 
+    sha256:9b8d5dc1f3872be0fff542c349dad0f34508d264040a6ecef3d4d74415f37f19
 tags:
   0.1.4.1--h3cc91ff_0: 
     sha256:b6b1b8894a85143ee2748ac99cc767e6633d75c86d575c5e4a0f194c9c889459
@@ -15,6 +15,8 @@ tags:
     sha256:595b7d61250c1e1507da45ab5c001a59a17846d30ee9c7d0a351d427207e096f
   0.1.5.4--py311h41363dc_0: 
     sha256:234853aa375fedfe21cd8c584b8f487965f036b6de7dc3e70f3226a883bfdb78
+  0.1.5.5--py311h3bb42f6_0: 
+    sha256:9b8d5dc1f3872be0fff542c349dad0f34508d264040a6ecef3d4d74415f37f19
 docker: quay.io/biocontainers/wepp
 aliases:
   distro: /usr/local/bin/distro
