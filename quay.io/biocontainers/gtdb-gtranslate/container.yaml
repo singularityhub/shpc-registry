@@ -1,0 +1,34 @@
+url: https://biocontainers.pro/tools/gtdb-gtranslate
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gtdb-gtranslate
+latest:
+  0.0.3--pyh106432d_0: 
+    sha256:52b4506134f5e32820d4331fab4b07c8b209f29a7bb2179efe35726588243c75
+tags:
+  0.0.3--pyh106432d_0: 
+    sha256:52b4506134f5e32820d4331fab4b07c8b209f29a7bb2179efe35726588243c75
+docker: quay.io/biocontainers/gtdb-gtranslate
+aliases:
+  gtranslate: /usr/local/bin/gtranslate
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer
+  opj_compress: /usr/local/bin/opj_compress
+  opj_decompress: /usr/local/bin/opj_decompress
+  opj_dump: /usr/local/bin/opj_dump
