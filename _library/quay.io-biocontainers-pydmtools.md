@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pydmtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydmtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydmtools/container.yaml"
-updated_at: "2026-05-11 06:04:17.016981"
-latest: "0.1.1--py38h5df1436_1"
+updated_at: "2026-05-12 05:45:19.822843"
+latest: "0.1.6--py312h7936ed6_0"
 container_url: "https://biocontainers.pro/tools/pydmtools"
 aliases:
  - "f2py3.7"
@@ -22,8 +22,9 @@ versions:
  - "0.1.1--py37hdc12a6d_0"
  - "0.1.1--py38h5df1436_1"
  - "0.1.1--py310h79000e5_1"
+ - "0.1.6--py312h7936ed6_0"
 description: "singularity registry hpc automated addition for pydmtools"
-config: {"url": "https://biocontainers.pro/tools/pydmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydmtools", "latest": {"0.1.1--py38h5df1436_1": "sha256:230f249f43560c76216d39f0ebdd4835892043c4be4ceb2068077b2af6bddbd1"}, "tags": {"0.1.1--py37hdc12a6d_0": "sha256:91b53fbaa67b5c7f7b75c4e36340f9b152db42e8f0cf9cbdd2ccc50b19d77a29", "0.1.1--py38h5df1436_1": "sha256:230f249f43560c76216d39f0ebdd4835892043c4be4ceb2068077b2af6bddbd1", "0.1.1--py310h79000e5_1": "sha256:ca642b10030bd78db40ad442740d5a18665a18b0bb1d676f4e98e53ed8c15cae"}, "docker": "quay.io/biocontainers/pydmtools", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "python3.7": "/usr/local/bin/python3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pydmtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pydmtools", "latest": {"0.1.6--py312h7936ed6_0": "sha256:9a23620a0d6c35b78b34c939684c8019aa2f8902365767fdd33cba2459928ee8"}, "tags": {"0.1.1--py37hdc12a6d_0": "sha256:91b53fbaa67b5c7f7b75c4e36340f9b152db42e8f0cf9cbdd2ccc50b19d77a29", "0.1.1--py38h5df1436_1": "sha256:230f249f43560c76216d39f0ebdd4835892043c4be4ceb2068077b2af6bddbd1", "0.1.1--py310h79000e5_1": "sha256:ca642b10030bd78db40ad442740d5a18665a18b0bb1d676f4e98e53ed8c15cae", "0.1.6--py312h7936ed6_0": "sha256:9a23620a0d6c35b78b34c939684c8019aa2f8902365767fdd33cba2459928ee8"}, "docker": "quay.io/biocontainers/pydmtools", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "python3.7": "/usr/local/bin/python3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydmtools.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pydmtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pydmtools:0.1.1--py38h5df1436_1
+$ shpc install quay.io/biocontainers/pydmtools:0.1.6--py312h7936ed6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pydmtools/0.1.1--py38h5df1436_1
-$ module help quay.io/biocontainers/pydmtools/0.1.1--py38h5df1436_1
+$ module load quay.io/biocontainers/pydmtools/0.1.6--py312h7936ed6_0
+$ module help quay.io/biocontainers/pydmtools/0.1.6--py312h7936ed6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

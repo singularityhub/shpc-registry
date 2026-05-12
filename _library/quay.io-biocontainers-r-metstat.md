@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metstat/container.yaml"
-updated_at: "2026-05-11 06:27:20.461795"
+updated_at: "2026-05-12 06:14:56.596819"
 latest: "1.0--r351h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-metstat"
 aliases:

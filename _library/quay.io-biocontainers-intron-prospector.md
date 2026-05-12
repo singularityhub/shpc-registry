@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/intron-prospector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intron-prospector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intron-prospector/container.yaml"
-updated_at: "2026-05-11 06:37:51.233291"
-latest: "1.5.0--hd6466ae_0"
+updated_at: "2026-05-12 06:28:23.442052"
+latest: "1.5.1--hd6466ae_0"
 container_url: "https://biocontainers.pro/tools/intron-prospector"
 aliases:
  - "intron-prospector"
@@ -19,8 +19,9 @@ aliases:
  - "tabix"
 versions:
  - "1.5.0--hd6466ae_0"
+ - "1.5.1--hd6466ae_0"
 description: "singularity registry hpc automated addition for intron-prospector"
-config: {"url": "https://biocontainers.pro/tools/intron-prospector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for intron-prospector", "latest": {"1.5.0--hd6466ae_0": "sha256:12285033e4cbac3c7f3b8995d5f561bad3d79f1b106284c1f9d7601c81712c89"}, "tags": {"1.5.0--hd6466ae_0": "sha256:12285033e4cbac3c7f3b8995d5f561bad3d79f1b106284c1f9d7601c81712c89"}, "docker": "quay.io/biocontainers/intron-prospector", "aliases": {"intron-prospector": "/usr/local/bin/intron-prospector", "intron-prospector-merge": "/usr/local/bin/intron-prospector-merge", "intronProspector": "/usr/local/bin/intronProspector", "intronProspectorMerge": "/usr/local/bin/intronProspectorMerge", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/intron-prospector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for intron-prospector", "latest": {"1.5.1--hd6466ae_0": "sha256:77f98e90dbad051cd09afe563cb75334428845aec43ef45842f19b1fe3719194"}, "tags": {"1.5.0--hd6466ae_0": "sha256:12285033e4cbac3c7f3b8995d5f561bad3d79f1b106284c1f9d7601c81712c89", "1.5.1--hd6466ae_0": "sha256:77f98e90dbad051cd09afe563cb75334428845aec43ef45842f19b1fe3719194"}, "docker": "quay.io/biocontainers/intron-prospector", "aliases": {"intron-prospector": "/usr/local/bin/intron-prospector", "intron-prospector-merge": "/usr/local/bin/intron-prospector-merge", "intronProspector": "/usr/local/bin/intronProspector", "intronProspectorMerge": "/usr/local/bin/intronProspectorMerge", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/intron-prospector.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/intron-prospector
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/intron-prospector:1.5.0--hd6466ae_0
+$ shpc install quay.io/biocontainers/intron-prospector:1.5.1--hd6466ae_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/intron-prospector/1.5.0--hd6466ae_0
-$ module help quay.io/biocontainers/intron-prospector/1.5.0--hd6466ae_0
+$ module load quay.io/biocontainers/intron-prospector/1.5.1--hd6466ae_0
+$ module help quay.io/biocontainers/intron-prospector/1.5.1--hd6466ae_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

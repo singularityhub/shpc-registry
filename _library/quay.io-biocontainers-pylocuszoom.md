@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pylocuszoom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pylocuszoom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pylocuszoom/container.yaml"
-updated_at: "2026-05-11 06:07:35.383852"
-latest: "1.4.0--pyhdfd78af_0"
+updated_at: "2026-05-12 05:49:36.382702"
+latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pylocuszoom"
 aliases:
  - "choreo_diagnose"
@@ -42,8 +42,9 @@ versions:
  - "1.3.6--pyhdfd78af_0"
  - "1.4.0--pyhdfd78af_0"
  - "1.3.7--pyhdfd78af_0"
+ - "1.4.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pylocuszoom"
-config: {"url": "https://biocontainers.pro/tools/pylocuszoom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pylocuszoom", "latest": {"1.4.0--pyhdfd78af_0": "sha256:0b12906adfb053ed11d7e7210992495230068b26e7822729e7aa52b39836aeef"}, "tags": {"1.3.2--pyhdfd78af_0": "sha256:56a1f17eab1c468e9d030117d740babd478f58490c73474422b4e7c5b2e0a696", "1.3.6--pyhdfd78af_0": "sha256:ac36d3c0125936962828afac3306e4871d503aee2f35c89a5725fcdad6cdb571", "1.4.0--pyhdfd78af_0": "sha256:0b12906adfb053ed11d7e7210992495230068b26e7822729e7aa52b39836aeef", "1.3.7--pyhdfd78af_0": "sha256:216ba0b7183dc1162f5b552c4c45d6e525cc14db54580c53798a30c447af02da"}, "docker": "quay.io/biocontainers/pylocuszoom", "aliases": {"choreo_diagnose": "/usr/local/bin/choreo_diagnose", "choreo_get_chrome": "/usr/local/bin/choreo_get_chrome", "kaleido_get_chrome": "/usr/local/bin/kaleido_get_chrome", "kaleido_mocker": "/usr/local/bin/kaleido_mocker", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "bokeh": "/usr/local/bin/bokeh", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress"}}
+config: {"url": "https://biocontainers.pro/tools/pylocuszoom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pylocuszoom", "latest": {"1.4.1--pyhdfd78af_0": "sha256:542fd5ac8f0c444e63ebf09a7955760430c31cace99921cee78d55d4bea99b88"}, "tags": {"1.3.2--pyhdfd78af_0": "sha256:56a1f17eab1c468e9d030117d740babd478f58490c73474422b4e7c5b2e0a696", "1.3.6--pyhdfd78af_0": "sha256:ac36d3c0125936962828afac3306e4871d503aee2f35c89a5725fcdad6cdb571", "1.4.0--pyhdfd78af_0": "sha256:0b12906adfb053ed11d7e7210992495230068b26e7822729e7aa52b39836aeef", "1.3.7--pyhdfd78af_0": "sha256:216ba0b7183dc1162f5b552c4c45d6e525cc14db54580c53798a30c447af02da", "1.4.1--pyhdfd78af_0": "sha256:542fd5ac8f0c444e63ebf09a7955760430c31cace99921cee78d55d4bea99b88"}, "docker": "quay.io/biocontainers/pylocuszoom", "aliases": {"choreo_diagnose": "/usr/local/bin/choreo_diagnose", "choreo_get_chrome": "/usr/local/bin/choreo_get_chrome", "kaleido_get_chrome": "/usr/local/bin/kaleido_get_chrome", "kaleido_mocker": "/usr/local/bin/kaleido_mocker", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "bokeh": "/usr/local/bin/bokeh", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pylocuszoom.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/pylocuszoom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pylocuszoom:1.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pylocuszoom:1.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pylocuszoom/1.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pylocuszoom/1.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pylocuszoom/1.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pylocuszoom/1.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

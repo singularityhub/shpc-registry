@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/staphscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphscope/container.yaml"
-updated_at: "2026-05-11 06:04:26.593652"
-latest: "1.1.0--pyhdfd78af_0"
+updated_at: "2026-05-12 05:45:31.534508"
+latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphscope"
 aliases:
  - "TMscore"
@@ -54,8 +54,9 @@ aliases:
  - "drawtree"
 versions:
  - "1.1.0--pyhdfd78af_0"
+ - "1.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for staphscope"
-config: {"url": "https://biocontainers.pro/tools/staphscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for staphscope", "latest": {"1.1.0--pyhdfd78af_0": "sha256:478e59d485961b85412a719d566145242b319cf5f9f33691e882dddd3d94bae5"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:478e59d485961b85412a719d566145242b319cf5f9f33691e882dddd3d94bae5"}, "docker": "quay.io/biocontainers/staphscope", "aliases": {"TMscore": "/usr/local/bin/TMscore", "bstats": "/usr/local/bin/bstats", "comppair": "/usr/local/bin/comppair", "conus_compare": "/usr/local/bin/conus_compare", "conus_train": "/usr/local/bin/conus_train", "dialign-tx": "/usr/local/bin/dialign-tx", "ds": "/usr/local/bin/ds", "famsa": "/usr/local/bin/famsa", "mustang": "/usr/local/bin/mustang", "pModel": "/usr/local/bin/pModel", "probcons": "/usr/local/bin/probcons", "probconsRNA": "/usr/local/bin/probconsRNA", "proda": "/usr/local/bin/proda", "sap": "/usr/local/bin/sap", "scompare": "/usr/local/bin/scompare", "sfold": "/usr/local/bin/sfold", "staphscope": "/usr/local/bin/staphscope", "strain_ml": "/usr/local/bin/strain_ml", "treeshrink": "/usr/local/bin/treeshrink", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "hmmerbuild": "/usr/local/bin/hmmerbuild", "kalign": "/usr/local/bin/kalign", "zless": "/usr/local/bin/zless", "RNAconsensus": "/usr/local/bin/RNAconsensus", "DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop", "dolmove": "/usr/local/bin/dolmove", "dolpenny": "/usr/local/bin/dolpenny", "drawgram": "/usr/local/bin/drawgram", "drawgram_gui": "/usr/local/bin/drawgram_gui", "drawtree": "/usr/local/bin/drawtree"}}
+config: {"url": "https://biocontainers.pro/tools/staphscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for staphscope", "latest": {"1.2.2--pyhdfd78af_0": "sha256:12aa7c737ee7eb3c8e62b23ab8680252fda46a71eb49726cabceff6a689e1e02"}, "tags": {"1.1.0--pyhdfd78af_0": "sha256:478e59d485961b85412a719d566145242b319cf5f9f33691e882dddd3d94bae5", "1.2.2--pyhdfd78af_0": "sha256:12aa7c737ee7eb3c8e62b23ab8680252fda46a71eb49726cabceff6a689e1e02"}, "docker": "quay.io/biocontainers/staphscope", "aliases": {"TMscore": "/usr/local/bin/TMscore", "bstats": "/usr/local/bin/bstats", "comppair": "/usr/local/bin/comppair", "conus_compare": "/usr/local/bin/conus_compare", "conus_train": "/usr/local/bin/conus_train", "dialign-tx": "/usr/local/bin/dialign-tx", "ds": "/usr/local/bin/ds", "famsa": "/usr/local/bin/famsa", "mustang": "/usr/local/bin/mustang", "pModel": "/usr/local/bin/pModel", "probcons": "/usr/local/bin/probcons", "probconsRNA": "/usr/local/bin/probconsRNA", "proda": "/usr/local/bin/proda", "sap": "/usr/local/bin/sap", "scompare": "/usr/local/bin/scompare", "sfold": "/usr/local/bin/sfold", "staphscope": "/usr/local/bin/staphscope", "strain_ml": "/usr/local/bin/strain_ml", "treeshrink": "/usr/local/bin/treeshrink", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "hmmerbuild": "/usr/local/bin/hmmerbuild", "kalign": "/usr/local/bin/kalign", "zless": "/usr/local/bin/zless", "RNAconsensus": "/usr/local/bin/RNAconsensus", "DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop", "dolmove": "/usr/local/bin/dolmove", "dolpenny": "/usr/local/bin/dolpenny", "drawgram": "/usr/local/bin/drawgram", "drawgram_gui": "/usr/local/bin/drawgram_gui", "drawtree": "/usr/local/bin/drawtree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/staphscope.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/staphscope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/staphscope:1.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/staphscope:1.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/staphscope/1.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/staphscope/1.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/staphscope/1.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/staphscope/1.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

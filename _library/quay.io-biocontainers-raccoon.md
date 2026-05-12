@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/raccoon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raccoon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raccoon/container.yaml"
-updated_at: "2026-05-11 06:39:47.078341"
+updated_at: "2026-05-12 06:30:52.573112"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/raccoon"
 aliases:

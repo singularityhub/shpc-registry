@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mddb_workflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mddb_workflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mddb_workflow/container.yaml"
-updated_at: "2026-05-11 06:33:12.996169"
+updated_at: "2026-05-12 06:22:28.987613"
 latest: "0.1.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mddb_workflow"
 aliases:
