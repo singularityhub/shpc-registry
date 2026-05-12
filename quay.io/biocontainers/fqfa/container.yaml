@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/fqfa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fqfa
+latest:
+  1.3.1--pyhdfd78af_0: 
+    sha256:9de967b25b5f4a83495bc1c9f8774f4c29fe8f8bfccae8364af7f8b4da668fb1
+tags:
+  1.3.1--pyhdfd78af_0: 
+    sha256:9de967b25b5f4a83495bc1c9f8774f4c29fe8f8bfccae8364af7f8b4da668fb1
+docker: quay.io/biocontainers/fqfa
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
