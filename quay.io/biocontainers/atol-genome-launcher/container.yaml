@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   atol-genome-launcher
 latest:
-  0.10.4--pyhdfd78af_0: 
-    sha256:4381636733f05621378dc3bb3303aaf0ac56a6f7ad87549b468a7412f430e449
+  0.13.3--pyhdfd78af_0: 
+    sha256:1a614c51b7430d355a64f610610ca16688e3a49f92993d34db304fce830f6bae
 tags:
   0.1.5--pyhdfd78af_0: 
     sha256:2aab1fffd84612bbf7575f8a3585338cc06257ce2e016796d18e42fc42c96907
@@ -26,6 +26,12 @@ tags:
     sha256:8c14a0ca05b29d56c77ae63ef49b5ba34c390312df116f300dbcd3b87cf624b5
   0.6.0--pyhdfd78af_0: 
     sha256:be6607168a5aaa69f8929b71e5b7887579453a019523810783647264a80c4cca
+  0.13.3--pyhdfd78af_0: 
+    sha256:1a614c51b7430d355a64f610610ca16688e3a49f92993d34db304fce830f6bae
+  0.12.2--pyhdfd78af_0: 
+    sha256:1789049ba9f48f375f357fe3b812c34d6e5b3d61311f718243d26dfe5b380c75
+  0.11.4--pyhdfd78af_0: 
+    sha256:5c8f21667ae088296a9780bd9593676d0594d035b09891392d8ef42a19b6c294
 docker: quay.io/biocontainers/atol-genome-launcher
 aliases:
   bpa-file-downloader: /usr/local/bin/bpa-file-downloader
