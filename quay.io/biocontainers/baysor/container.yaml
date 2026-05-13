@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/baysor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for baysor
+latest:
+  0.7.1--hab16a5f_0: 
+    sha256:8b9e10762e23fedf6420fc415cddac1549ffa807ef98bebfc109c0df68723dd7
+tags:
+  0.7.1--hab16a5f_0: 
+    sha256:8b9e10762e23fedf6420fc415cddac1549ffa807ef98bebfc109c0df68723dd7
+docker: quay.io/biocontainers/baysor
+aliases:
+  baysor: /usr/local/bin/baysor
