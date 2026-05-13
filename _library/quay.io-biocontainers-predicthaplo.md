@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/predicthaplo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/predicthaplo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/predicthaplo/container.yaml"
-updated_at: "2026-05-12 06:16:46.752651"
+updated_at: "2026-05-13 06:25:17.218432"
 latest: "2.1.4--h9b88814_6"
 container_url: "https://biocontainers.pro/tools/predicthaplo"
 aliases:

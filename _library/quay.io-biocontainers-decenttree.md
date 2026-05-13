@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/decenttree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decenttree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decenttree/container.yaml"
-updated_at: "2026-05-12 05:48:28.237128"
-latest: "1.0.0--h3f9e6b0_0"
+updated_at: "2026-05-13 05:58:34.284060"
+latest: "1.0.0--h3f9e6b0_1"
 container_url: "https://biocontainers.pro/tools/decenttree"
 aliases:
  - "decenttree"
 versions:
  - "1.0.0--h3f9e6b0_0"
+ - "1.0.0--h3f9e6b0_1"
 description: "singularity registry hpc automated addition for decenttree"
-config: {"url": "https://biocontainers.pro/tools/decenttree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for decenttree", "latest": {"1.0.0--h3f9e6b0_0": "sha256:de0910c2a2b990d9df31c89591ba1d422d30cea13cfde6d2faea1cc9c4c3a70e"}, "tags": {"1.0.0--h3f9e6b0_0": "sha256:de0910c2a2b990d9df31c89591ba1d422d30cea13cfde6d2faea1cc9c4c3a70e"}, "docker": "quay.io/biocontainers/decenttree", "aliases": {"decenttree": "/usr/local/bin/decenttree"}}
+config: {"url": "https://biocontainers.pro/tools/decenttree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for decenttree", "latest": {"1.0.0--h3f9e6b0_1": "sha256:139d3875336ecaba0cd57f5b6ba7a095ac3421f268082fec6c1367adb21298d7"}, "tags": {"1.0.0--h3f9e6b0_0": "sha256:de0910c2a2b990d9df31c89591ba1d422d30cea13cfde6d2faea1cc9c4c3a70e", "1.0.0--h3f9e6b0_1": "sha256:139d3875336ecaba0cd57f5b6ba7a095ac3421f268082fec6c1367adb21298d7"}, "docker": "quay.io/biocontainers/decenttree", "aliases": {"decenttree": "/usr/local/bin/decenttree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/decenttree.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/decenttree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/decenttree:1.0.0--h3f9e6b0_0
+$ shpc install quay.io/biocontainers/decenttree:1.0.0--h3f9e6b0_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/decenttree/1.0.0--h3f9e6b0_0
-$ module help quay.io/biocontainers/decenttree/1.0.0--h3f9e6b0_0
+$ module load quay.io/biocontainers/decenttree/1.0.0--h3f9e6b0_1
+$ module help quay.io/biocontainers/decenttree/1.0.0--h3f9e6b0_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

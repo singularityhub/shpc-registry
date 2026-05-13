@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dos2unix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dos2unix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dos2unix/container.yaml"
-updated_at: "2026-05-12 06:02:25.595157"
-latest: "7.5.4"
+updated_at: "2026-05-13 06:11:41.925408"
+latest: "7.5.5"
 container_url: "https://biocontainers.pro/tools/dos2unix"
 aliases:
  - "dos2unix"
@@ -16,8 +16,9 @@ versions:
  - "7.5.2"
  - "7.5.3"
  - "7.5.4"
+ - "7.5.5"
 description: "singularity registry hpc automated addition for dos2unix"
-config: {"url": "https://biocontainers.pro/tools/dos2unix", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dos2unix", "latest": {"7.5.4": "sha256:098b0885791fb8eaab2307f6a61aeb63f598a0174c3f8b5779975e68a1922664"}, "tags": {"7.5.2": "sha256:f9ae717e6827571c03147d9d321ebc999f2513fc13854e714a0e51f92fdf65ac", "7.5.3": "sha256:6297c1b0c9b8f641bb0176675d1c7e5453eae73e7e0da0f1717b3aa2d97d712c", "7.5.4": "sha256:098b0885791fb8eaab2307f6a61aeb63f598a0174c3f8b5779975e68a1922664"}, "docker": "quay.io/biocontainers/dos2unix", "aliases": {"dos2unix": "/usr/local/bin/dos2unix", "mac2unix": "/usr/local/bin/mac2unix", "unix2dos": "/usr/local/bin/unix2dos", "unix2mac": "/usr/local/bin/unix2mac"}}
+config: {"url": "https://biocontainers.pro/tools/dos2unix", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dos2unix", "latest": {"7.5.5": "sha256:1a94ad65ae3071637c35c72d38de86df0cd9764ddf8ea1045b2ee35167f28599"}, "tags": {"7.5.2": "sha256:f9ae717e6827571c03147d9d321ebc999f2513fc13854e714a0e51f92fdf65ac", "7.5.3": "sha256:6297c1b0c9b8f641bb0176675d1c7e5453eae73e7e0da0f1717b3aa2d97d712c", "7.5.4": "sha256:098b0885791fb8eaab2307f6a61aeb63f598a0174c3f8b5779975e68a1922664", "7.5.5": "sha256:1a94ad65ae3071637c35c72d38de86df0cd9764ddf8ea1045b2ee35167f28599"}, "docker": "quay.io/biocontainers/dos2unix", "aliases": {"dos2unix": "/usr/local/bin/dos2unix", "mac2unix": "/usr/local/bin/mac2unix", "unix2dos": "/usr/local/bin/unix2dos", "unix2mac": "/usr/local/bin/unix2mac"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dos2unix.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/dos2unix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dos2unix:7.5.4
+$ shpc install quay.io/biocontainers/dos2unix:7.5.5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dos2unix/7.5.4
-$ module help quay.io/biocontainers/dos2unix/7.5.4
+$ module load quay.io/biocontainers/dos2unix/7.5.5
+$ module help quay.io/biocontainers/dos2unix/7.5.5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

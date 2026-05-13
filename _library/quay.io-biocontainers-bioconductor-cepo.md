@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cepo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cepo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cepo/container.yaml"
-updated_at: "2026-05-12 06:08:32.590272"
+updated_at: "2026-05-13 06:17:20.946625"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cepo"
 
@@ -15,7 +15,7 @@ versions:
  - "1.12.0--r44hdfd78af_0"
  - "1.16.0--r45hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cepo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cepo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cepo", "latest": {"1.16.0--r45hdfd78af_0": "sha256:dbda179d834bad5a80852f8606c6299f06c4727539db4f556f27c121d1d2e006"}, "tags": {"1.0.0--r41hdfd78af_0": "crane digest quay.io/biocontainers/bioconductor-cepo:1.0.0--r41hdfd78af_0: unsupported status code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n", "1.4.0--r42hdfd78af_0": "sha256:b654effdb1ac0793c0bbe5b0bf20e527f3c67a2a20adb8d38637e21479111532", "1.6.0--r43hdfd78af_0": "sha256:891d28a6cdf6fd66e3b55a558810b2a6c0060c20c1a231b229eb0ef99f9cb047", "1.12.0--r44hdfd78af_0": "sha256:72ae5b8befb8b07fb62a7bf2fa2e47695a28b94d87c36494f3b4052caa7e4dfc", "1.16.0--r45hdfd78af_0": "sha256:dbda179d834bad5a80852f8606c6299f06c4727539db4f556f27c121d1d2e006"}, "docker": "quay.io/biocontainers/bioconductor-cepo"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cepo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cepo", "latest": {"1.16.0--r45hdfd78af_0": "sha256:dbda179d834bad5a80852f8606c6299f06c4727539db4f556f27c121d1d2e006"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:7dd78404848a525171bf6096cba013414497708793b021ea7ffd15c8c3644ca4", "1.4.0--r42hdfd78af_0": "sha256:b654effdb1ac0793c0bbe5b0bf20e527f3c67a2a20adb8d38637e21479111532", "1.6.0--r43hdfd78af_0": "sha256:891d28a6cdf6fd66e3b55a558810b2a6c0060c20c1a231b229eb0ef99f9cb047", "1.12.0--r44hdfd78af_0": "sha256:72ae5b8befb8b07fb62a7bf2fa2e47695a28b94d87c36494f3b4052caa7e4dfc", "1.16.0--r45hdfd78af_0": "sha256:dbda179d834bad5a80852f8606c6299f06c4727539db4f556f27c121d1d2e006"}, "docker": "quay.io/biocontainers/bioconductor-cepo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cepo.

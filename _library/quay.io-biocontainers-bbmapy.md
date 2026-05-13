@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bbmapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbmapy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bbmapy/container.yaml"
-updated_at: "2026-05-12 06:28:59.891825"
-latest: "0.0.51--pyhdfd78af_0"
+updated_at: "2026-05-13 06:36:55.537332"
+latest: "0.0.56--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bbmapy"
 aliases:
  - "bbmapy-ensure-java"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "0.0.46--pyhdfd78af_0"
  - "0.0.51--pyhdfd78af_0"
+ - "0.0.56--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bbmapy"
-config: {"url": "https://biocontainers.pro/tools/bbmapy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bbmapy", "latest": {"0.0.51--pyhdfd78af_0": "sha256:313cde3f69353d143624871c6a9de2aa81778128fdb3c043185fecd600de87a9"}, "tags": {"0.0.46--pyhdfd78af_0": "sha256:24b7a8948a600fd44dcaaf5c6e77be65786b32108d6d8b36094a3821fe0f4183", "0.0.51--pyhdfd78af_0": "sha256:313cde3f69353d143624871c6a9de2aa81778128fdb3c043185fecd600de87a9"}, "docker": "quay.io/biocontainers/bbmapy", "aliases": {"bbmapy-ensure-java": "/usr/local/bin/bbmapy-ensure-java", "bbmapy-test": "/usr/local/bin/bbmapy-test", "generate-bbmapy-commands": "/usr/local/bin/generate-bbmapy-commands", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/bbmapy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bbmapy", "latest": {"0.0.56--pyhdfd78af_0": "sha256:a6e4a489fc0987c1c3ba162c7552264b747c336b5a98bea9629b74636809d8bf"}, "tags": {"0.0.46--pyhdfd78af_0": "sha256:24b7a8948a600fd44dcaaf5c6e77be65786b32108d6d8b36094a3821fe0f4183", "0.0.51--pyhdfd78af_0": "sha256:313cde3f69353d143624871c6a9de2aa81778128fdb3c043185fecd600de87a9", "0.0.56--pyhdfd78af_0": "sha256:a6e4a489fc0987c1c3ba162c7552264b747c336b5a98bea9629b74636809d8bf"}, "docker": "quay.io/biocontainers/bbmapy", "aliases": {"bbmapy-ensure-java": "/usr/local/bin/bbmapy-ensure-java", "bbmapy-test": "/usr/local/bin/bbmapy-test", "generate-bbmapy-commands": "/usr/local/bin/generate-bbmapy-commands", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bbmapy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bbmapy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bbmapy:0.0.51--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bbmapy:0.0.56--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bbmapy/0.0.51--pyhdfd78af_0
-$ module help quay.io/biocontainers/bbmapy/0.0.51--pyhdfd78af_0
+$ module load quay.io/biocontainers/bbmapy/0.0.56--pyhdfd78af_0
+$ module help quay.io/biocontainers/bbmapy/0.0.56--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

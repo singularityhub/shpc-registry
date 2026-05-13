@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellmigration"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellmigration/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellmigration/container.yaml"
-updated_at: "2026-05-12 05:49:15.010887"
+updated_at: "2026-05-13 05:59:18.234942"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellmigration"
 

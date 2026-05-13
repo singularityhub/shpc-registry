@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/variant_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variant_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variant_tools/container.yaml"
-updated_at: "2026-05-12 05:48:29.113899"
+updated_at: "2026-05-13 05:58:35.131103"
 latest: "3.1.3--py38h542afe0_4"
 container_url: "https://biocontainers.pro/tools/variant_tools"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "3.1.3--py38hd52fbc2_2"
  - "3.1.3--py38h542afe0_4"
 description: "shpc-registry automated BioContainers addition for variant_tools"
-config: {"url": "https://biocontainers.pro/tools/variant_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variant_tools", "latest": {"3.1.3--py38h542afe0_4": "sha256:e989c5e847f0d4f79e2fbd40c73bee63427f337e4cc49cac2be191fcf30a7fe5"}, "tags": {"3.1.3--py36ha7febfa_2": "crane digest quay.io/biocontainers/variant_tools:3.1.3--py36ha7febfa_2: unsupported status code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n", "3.1.3--py38hd52fbc2_2": "sha256:4e323e5da6ab9d07228f9d747432bf20dec5846db41816ad92c03dbdfea9c6a1", "3.1.3--py38h542afe0_4": "sha256:e989c5e847f0d4f79e2fbd40c73bee63427f337e4cc49cac2be191fcf30a7fe5"}, "docker": "quay.io/biocontainers/variant_tools", "aliases": {"vtools": "/usr/local/bin/vtools", "vtools_report": "/usr/local/bin/vtools_report", "worker_run": "/usr/local/bin/worker_run", "curve_keygen": "/usr/local/bin/curve_keygen", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/variant_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variant_tools", "latest": {"3.1.3--py38h542afe0_4": "sha256:e989c5e847f0d4f79e2fbd40c73bee63427f337e4cc49cac2be191fcf30a7fe5"}, "tags": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91", "3.1.3--py38hd52fbc2_2": "sha256:4e323e5da6ab9d07228f9d747432bf20dec5846db41816ad92c03dbdfea9c6a1", "3.1.3--py38h542afe0_4": "sha256:e989c5e847f0d4f79e2fbd40c73bee63427f337e4cc49cac2be191fcf30a7fe5"}, "docker": "quay.io/biocontainers/variant_tools", "aliases": {"vtools": "/usr/local/bin/vtools", "vtools_report": "/usr/local/bin/vtools_report", "worker_run": "/usr/local/bin/worker_run", "curve_keygen": "/usr/local/bin/curve_keygen", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/variant_tools.

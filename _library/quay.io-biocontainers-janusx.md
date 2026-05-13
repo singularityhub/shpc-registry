@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/janusx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/janusx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/janusx/container.yaml"
-updated_at: "2026-05-12 06:19:54.713075"
-latest: "1.0.20--py310h83f8559_0"
+updated_at: "2026-05-13 06:28:18.302843"
+latest: "1.0.21--py312hec9ab5b_0"
 container_url: "https://biocontainers.pro/tools/janusx"
 aliases:
  - "jx"
@@ -37,8 +37,9 @@ aliases:
  - "fonttools"
 versions:
  - "1.0.20--py310h83f8559_0"
+ - "1.0.21--py312hec9ab5b_0"
 description: "singularity registry hpc automated addition for janusx"
-config: {"url": "https://biocontainers.pro/tools/janusx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for janusx", "latest": {"1.0.20--py310h83f8559_0": "sha256:aca177dc764d6d3beec5aeaa6273ec366673d4ce157343a7f0633d87e01e43d5"}, "tags": {"1.0.20--py310h83f8559_0": "sha256:aca177dc764d6d3beec5aeaa6273ec366673d4ce157343a7f0633d87e01e43d5"}, "docker": "quay.io/biocontainers/janusx", "aliases": {"jx": "/usr/local/bin/jx", "jxpy": "/usr/local/bin/jxpy", "markdown-it": "/usr/local/bin/markdown-it", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools"}}
+config: {"url": "https://biocontainers.pro/tools/janusx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for janusx", "latest": {"1.0.21--py312hec9ab5b_0": "sha256:71c2678134c2b51fb33708d9711a47094ff6f55ecece0bbb329be92e6f073621"}, "tags": {"1.0.20--py310h83f8559_0": "sha256:aca177dc764d6d3beec5aeaa6273ec366673d4ce157343a7f0633d87e01e43d5", "1.0.21--py312hec9ab5b_0": "sha256:71c2678134c2b51fb33708d9711a47094ff6f55ecece0bbb329be92e6f073621"}, "docker": "quay.io/biocontainers/janusx", "aliases": {"jx": "/usr/local/bin/jx", "jxpy": "/usr/local/bin/jxpy", "markdown-it": "/usr/local/bin/markdown-it", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/janusx.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/janusx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/janusx:1.0.20--py310h83f8559_0
+$ shpc install quay.io/biocontainers/janusx:1.0.21--py312hec9ab5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/janusx/1.0.20--py310h83f8559_0
-$ module help quay.io/biocontainers/janusx/1.0.20--py310h83f8559_0
+$ module load quay.io/biocontainers/janusx/1.0.21--py312hec9ab5b_0
+$ module help quay.io/biocontainers/janusx/1.0.21--py312hec9ab5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
