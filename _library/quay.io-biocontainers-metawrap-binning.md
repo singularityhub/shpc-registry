@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-binning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-binning/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-binning/container.yaml"
-updated_at: "2026-05-13 06:29:14.154734"
+updated_at: "2026-05-14 06:30:32.617507"
 latest: "1.3.0"
 container_url: "https://biocontainers.pro/tools/metawrap-binning"
 aliases:

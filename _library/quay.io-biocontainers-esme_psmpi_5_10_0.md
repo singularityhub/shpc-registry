@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esme_psmpi_5_10_0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_psmpi_5_10_0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_psmpi_5_10_0/container.yaml"
-updated_at: "2026-05-13 06:30:57.298610"
+updated_at: "2026-05-14 06:32:22.593913"
 latest: "1.0.1--psmpi_h481cf05_0"
 container_url: "https://biocontainers.pro/tools/esme_psmpi_5_10_0"
 aliases:

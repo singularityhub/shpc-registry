@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-galaxyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-galaxyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-galaxyr/container.yaml"
-updated_at: "2026-05-13 06:36:37.770465"
+updated_at: "2026-05-14 06:38:21.528030"
 latest: "0.1.0"
 container_url: "https://biocontainers.pro/tools/r-galaxyr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vaexprs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vaexprs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vaexprs/container.yaml"
-updated_at: "2026-05-13 06:13:23.133458"
+updated_at: "2026-05-14 06:14:13.349193"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vaexprs"
 aliases:

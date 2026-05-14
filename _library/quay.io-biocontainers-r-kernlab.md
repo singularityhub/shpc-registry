@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-kernlab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-kernlab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-kernlab/container.yaml"
-updated_at: "2026-05-13 06:05:58.557600"
+updated_at: "2026-05-14 06:06:30.464644"
 latest: "0.9_25--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-kernlab"
 aliases:

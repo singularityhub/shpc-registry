@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-heattree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-heattree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-heattree/container.yaml"
-updated_at: "2026-05-13 06:42:25.617154"
-latest: "0.2.1--r44hdfd78af_0"
+updated_at: "2026-05-14 06:44:18.388265"
+latest: "0.3.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-heattree"
 aliases:
  - "pandoc-lua"
@@ -16,8 +16,9 @@ aliases:
  - "tjbench"
 versions:
  - "0.2.1--r44hdfd78af_0"
+ - "0.3.1--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for r-heattree"
-config: {"url": "https://biocontainers.pro/tools/r-heattree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-heattree", "latest": {"0.2.1--r44hdfd78af_0": "sha256:54d9b4c98f6f9c14fe514c77e262782af14754dac00f065cfbfccd43f891c035"}, "tags": {"0.2.1--r44hdfd78af_0": "sha256:54d9b4c98f6f9c14fe514c77e262782af14754dac00f065cfbfccd43f891c035"}, "docker": "quay.io/biocontainers/r-heattree", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-heattree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-heattree", "latest": {"0.3.1--r45hdfd78af_0": "sha256:75fb0158d2995ce9c8299307d66628502c6732a8cddb9cc2bcc1d0d152a99a35"}, "tags": {"0.2.1--r44hdfd78af_0": "sha256:54d9b4c98f6f9c14fe514c77e262782af14754dac00f065cfbfccd43f891c035", "0.3.1--r45hdfd78af_0": "sha256:75fb0158d2995ce9c8299307d66628502c6732a8cddb9cc2bcc1d0d152a99a35"}, "docker": "quay.io/biocontainers/r-heattree", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-heattree.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/r-heattree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-heattree:0.2.1--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/r-heattree:0.3.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-heattree/0.2.1--r44hdfd78af_0
-$ module help quay.io/biocontainers/r-heattree/0.2.1--r44hdfd78af_0
+$ module load quay.io/biocontainers/r-heattree/0.3.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/r-heattree/0.3.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/fdedup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fdedup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fdedup/container.yaml"
-updated_at: "2026-05-13 06:29:32.951287"
-latest: "1.1.0--h060d69e_0"
+updated_at: "2026-05-14 06:30:52.663298"
+latest: "1.2.2--h060d69e_0"
 container_url: "https://biocontainers.pro/tools/fdedup"
 aliases:
  - "fdedup"
 versions:
  - "1.0.0--h79ce301_0"
  - "1.1.0--h060d69e_0"
+ - "1.2.2--h060d69e_0"
 description: "singularity registry hpc automated addition for fdedup"
-config: {"url": "https://biocontainers.pro/tools/fdedup", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fdedup", "latest": {"1.1.0--h060d69e_0": "sha256:b3133faecc3437cb3eb111d4d97287bc259888cae5ff418b0c4e88218a8862e8"}, "tags": {"1.0.0--h79ce301_0": "sha256:1edf82f391affec484fd66ab3240a98cc37402e0c70868ee980429363ea23b5d", "1.1.0--h060d69e_0": "sha256:b3133faecc3437cb3eb111d4d97287bc259888cae5ff418b0c4e88218a8862e8"}, "docker": "quay.io/biocontainers/fdedup", "aliases": {"fdedup": "/usr/local/bin/fdedup"}}
+config: {"url": "https://biocontainers.pro/tools/fdedup", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fdedup", "latest": {"1.2.2--h060d69e_0": "sha256:e811ba14eaf28a692eb23b392684c404a736180a93b446a0e363f02ceb8a7148"}, "tags": {"1.0.0--h79ce301_0": "sha256:1edf82f391affec484fd66ab3240a98cc37402e0c70868ee980429363ea23b5d", "1.1.0--h060d69e_0": "sha256:b3133faecc3437cb3eb111d4d97287bc259888cae5ff418b0c4e88218a8862e8", "1.2.2--h060d69e_0": "sha256:e811ba14eaf28a692eb23b392684c404a736180a93b446a0e363f02ceb8a7148"}, "docker": "quay.io/biocontainers/fdedup", "aliases": {"fdedup": "/usr/local/bin/fdedup"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fdedup.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/fdedup
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fdedup:1.1.0--h060d69e_0
+$ shpc install quay.io/biocontainers/fdedup:1.2.2--h060d69e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fdedup/1.1.0--h060d69e_0
-$ module help quay.io/biocontainers/fdedup/1.1.0--h060d69e_0
+$ module load quay.io/biocontainers/fdedup/1.2.2--h060d69e_0
+$ module help quay.io/biocontainers/fdedup/1.2.2--h060d69e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

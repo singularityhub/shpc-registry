@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/art_modern-openmpi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/art_modern-openmpi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/art_modern-openmpi/container.yaml"
-updated_at: "2026-05-13 06:11:45.568625"
-latest: "1.4.0--hc83d959_0"
+updated_at: "2026-05-14 06:12:30.740741"
+latest: "1.5.0--h7ccb3a4_0"
 container_url: "https://biocontainers.pro/tools/art_modern-openmpi"
 aliases:
  - "art_modern-mpi"
@@ -41,8 +41,10 @@ versions:
  - "1.3.3--h572f19f_0"
  - "1.3.4--hc83d959_0"
  - "1.4.0--hc83d959_0"
+ - "1.5.0--h7ccb3a4_0"
+ - "1.4.1--h7ccb3a4_0"
 description: "singularity registry hpc automated addition for art_modern-openmpi"
-config: {"url": "https://biocontainers.pro/tools/art_modern-openmpi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for art_modern-openmpi", "latest": {"1.4.0--hc83d959_0": "sha256:3d77d14e30d48355e3ec2968418b0f7ab74191bb0d86ceb33ded2b6e39c48b12"}, "tags": {"1.2.0--haa063eb_0": "sha256:43b3903bf10542c694a14d2e84ba406199b0fb6da400046b0af5ea07f5eb3332", "1.3.0--haa063eb_0": "sha256:90b537eda183fc5114ad12b4caa3abd57ed9b1f1a80fd7490cccb7530b454f3f", "1.3.3--h572f19f_0": "sha256:144cbba2f9b05c99d7743e4c2c5ae646a620260de4e585d6224beb34318e0cf0", "1.3.4--hc83d959_0": "sha256:37b13c7b0788e4e76287dea0b0fc8780d5a1199caa2543cff5b9aaf305a0f92b", "1.4.0--hc83d959_0": "sha256:3d77d14e30d48355e3ec2968418b0f7ab74191bb0d86ceb33ded2b6e39c48b12"}, "docker": "quay.io/biocontainers/art_modern-openmpi", "aliases": {"art_modern-mpi": "/usr/local/bin/art_modern-mpi", "art_profile_builder-mpi": "/usr/local/bin/art_profile_builder-mpi", "ref-cache": "/usr/local/bin/ref-cache", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun", "mpiCC": "/usr/local/bin/mpiCC"}}
+config: {"url": "https://biocontainers.pro/tools/art_modern-openmpi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for art_modern-openmpi", "latest": {"1.5.0--h7ccb3a4_0": "sha256:b62869fcb6311a12fe16d38ee8db3300098395a8d21a3c5dc3b14c13cf995996"}, "tags": {"1.2.0--haa063eb_0": "sha256:43b3903bf10542c694a14d2e84ba406199b0fb6da400046b0af5ea07f5eb3332", "1.3.0--haa063eb_0": "sha256:90b537eda183fc5114ad12b4caa3abd57ed9b1f1a80fd7490cccb7530b454f3f", "1.3.3--h572f19f_0": "sha256:144cbba2f9b05c99d7743e4c2c5ae646a620260de4e585d6224beb34318e0cf0", "1.3.4--hc83d959_0": "sha256:37b13c7b0788e4e76287dea0b0fc8780d5a1199caa2543cff5b9aaf305a0f92b", "1.4.0--hc83d959_0": "sha256:3d77d14e30d48355e3ec2968418b0f7ab74191bb0d86ceb33ded2b6e39c48b12", "1.5.0--h7ccb3a4_0": "sha256:b62869fcb6311a12fe16d38ee8db3300098395a8d21a3c5dc3b14c13cf995996", "1.4.1--h7ccb3a4_0": "sha256:b362f17b748e7c27f0d4b0d2756c0b9edab585ce0fc6981f782c37e3db07327e"}, "docker": "quay.io/biocontainers/art_modern-openmpi", "aliases": {"art_modern-mpi": "/usr/local/bin/art_modern-mpi", "art_profile_builder-mpi": "/usr/local/bin/art_profile_builder-mpi", "ref-cache": "/usr/local/bin/ref-cache", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun", "mpiCC": "/usr/local/bin/mpiCC"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/art_modern-openmpi.
@@ -57,7 +59,7 @@ $ shpc install quay.io/biocontainers/art_modern-openmpi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/art_modern-openmpi:1.4.0--hc83d959_0
+$ shpc install quay.io/biocontainers/art_modern-openmpi:1.5.0--h7ccb3a4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/art_modern-openmpi/1.4.0--hc83d959_0
-$ module help quay.io/biocontainers/art_modern-openmpi/1.4.0--hc83d959_0
+$ module load quay.io/biocontainers/art_modern-openmpi/1.5.0--h7ccb3a4_0
+$ module help quay.io/biocontainers/art_modern-openmpi/1.5.0--h7ccb3a4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
