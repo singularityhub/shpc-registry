@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/mft-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mft-tools
+latest:
+  0.1.0--hab7d0fd_0: 
+    sha256:ed58b3e2cbfab2ff4735797c3399e23d48fe07988c205a6ad47430b47309cc47
+tags:
+  0.1.0--hab7d0fd_0: 
+    sha256:ed58b3e2cbfab2ff4735797c3399e23d48fe07988c205a6ad47430b47309cc47
+docker: quay.io/biocontainers/mft-tools
+aliases:
+  mft: /usr/local/bin/mft
