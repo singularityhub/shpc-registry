@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msbackendsql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msbackendsql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msbackendsql/container.yaml"
-updated_at: "2026-05-14 05:55:32.886112"
+updated_at: "2026-05-15 06:39:25.686736"
 latest: "1.10.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msbackendsql"
 aliases:

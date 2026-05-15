@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mfqe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mfqe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mfqe/container.yaml"
-updated_at: "2026-05-14 05:57:39.069818"
-latest: "0.5.0--h7b50bb2_5"
+updated_at: "2026-05-15 05:59:30.601144"
+latest: "0.5.0--h54198d6_6"
 container_url: "https://biocontainers.pro/tools/mfqe"
 aliases:
  - "mfqe"
@@ -14,8 +14,9 @@ versions:
  - "0.5.0--hec16e2b_3"
  - "0.5.0--h031d066_4"
  - "0.5.0--h7b50bb2_5"
+ - "0.5.0--h54198d6_6"
 description: "shpc-registry automated BioContainers addition for mfqe"
-config: {"url": "https://biocontainers.pro/tools/mfqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mfqe", "latest": {"0.5.0--h7b50bb2_5": "sha256:74497fff6545807bf33d21667aef4bb410c76670f1392ea794d2c9ca35230f2f"}, "tags": {"0.5.0--hec16e2b_2": "sha256:06bd33e40788e21d2cc388596c705dbe1cd00e36e1f62c06d2fe60e41ac81d6f", "0.5.0--hec16e2b_3": "sha256:e2a1c0dd9dbd2a4bdf090565fb33f919af2ae93b6828a5f2fb043ac27d89cc7f", "0.5.0--h031d066_4": "sha256:18f3804069167df4fd978e70ad8918944943104c73a55b25eaac52e3a541dab8", "0.5.0--h7b50bb2_5": "sha256:74497fff6545807bf33d21667aef4bb410c76670f1392ea794d2c9ca35230f2f"}, "docker": "quay.io/biocontainers/mfqe", "aliases": {"mfqe": "/usr/local/bin/mfqe"}}
+config: {"url": "https://biocontainers.pro/tools/mfqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mfqe", "latest": {"0.5.0--h54198d6_6": "sha256:808d23aebea3b22b57f80008299a3c82ccace5aca815ab3832d82046b8359637"}, "tags": {"0.5.0--hec16e2b_2": "sha256:06bd33e40788e21d2cc388596c705dbe1cd00e36e1f62c06d2fe60e41ac81d6f", "0.5.0--hec16e2b_3": "sha256:e2a1c0dd9dbd2a4bdf090565fb33f919af2ae93b6828a5f2fb043ac27d89cc7f", "0.5.0--h031d066_4": "sha256:18f3804069167df4fd978e70ad8918944943104c73a55b25eaac52e3a541dab8", "0.5.0--h7b50bb2_5": "sha256:74497fff6545807bf33d21667aef4bb410c76670f1392ea794d2c9ca35230f2f", "0.5.0--h54198d6_6": "sha256:808d23aebea3b22b57f80008299a3c82ccace5aca815ab3832d82046b8359637"}, "docker": "quay.io/biocontainers/mfqe", "aliases": {"mfqe": "/usr/local/bin/mfqe"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mfqe.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/mfqe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mfqe:0.5.0--h7b50bb2_5
+$ shpc install quay.io/biocontainers/mfqe:0.5.0--h54198d6_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mfqe/0.5.0--h7b50bb2_5
-$ module help quay.io/biocontainers/mfqe/0.5.0--h7b50bb2_5
+$ module load quay.io/biocontainers/mfqe/0.5.0--h54198d6_6
+$ module help quay.io/biocontainers/mfqe/0.5.0--h54198d6_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

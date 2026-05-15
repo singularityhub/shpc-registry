@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bgreat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bgreat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bgreat/container.yaml"
-updated_at: "2026-05-14 06:05:20.270338"
+updated_at: "2026-05-15 06:44:01.574417"
 latest: "2.0.0--hdb21b49_8"
 container_url: "https://biocontainers.pro/tools/bgreat"
 aliases:

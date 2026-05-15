@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vqsr_cnn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vqsr_cnn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vqsr_cnn/container.yaml"
-updated_at: "2026-05-14 06:34:11.565814"
+updated_at: "2026-05-15 06:33:02.656123"
 latest: "0.0.194--py_0"
 container_url: "https://biocontainers.pro/tools/vqsr_cnn"
 aliases:

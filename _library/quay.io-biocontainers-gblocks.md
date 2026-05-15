@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gblocks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gblocks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gblocks/container.yaml"
-updated_at: "2026-05-14 06:34:18.258012"
-latest: "0.91b--h9ee0642_2"
+updated_at: "2026-05-15 06:22:01.225666"
+latest: "1.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/gblocks"
 aliases:
  - "Gblocks"
 versions:
  - "0.91b--h9ee0642_2"
+ - "1.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for gblocks"
-config: {"url": "https://biocontainers.pro/tools/gblocks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gblocks", "latest": {"0.91b--h9ee0642_2": "sha256:11d9f0b38fcc98cd73cf1e6da0d9f8f9b55130f97cdffaf5161683ecebfbce50"}, "tags": {"0.91b--h9ee0642_2": "sha256:11d9f0b38fcc98cd73cf1e6da0d9f8f9b55130f97cdffaf5161683ecebfbce50"}, "docker": "quay.io/biocontainers/gblocks", "aliases": {"Gblocks": "/usr/local/bin/Gblocks"}}
+config: {"url": "https://biocontainers.pro/tools/gblocks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gblocks", "latest": {"1.0--h9ee0642_0": "sha256:cb1afe77298acc4bc925c8ee168c599f255ba4bee9412b365c2af65c5988a071"}, "tags": {"0.91b--h9ee0642_2": "sha256:11d9f0b38fcc98cd73cf1e6da0d9f8f9b55130f97cdffaf5161683ecebfbce50", "1.0--h9ee0642_0": "sha256:cb1afe77298acc4bc925c8ee168c599f255ba4bee9412b365c2af65c5988a071"}, "docker": "quay.io/biocontainers/gblocks", "aliases": {"Gblocks": "/usr/local/bin/Gblocks"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gblocks.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gblocks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gblocks:0.91b--h9ee0642_2
+$ shpc install quay.io/biocontainers/gblocks:1.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gblocks/0.91b--h9ee0642_2
-$ module help quay.io/biocontainers/gblocks/0.91b--h9ee0642_2
+$ module load quay.io/biocontainers/gblocks/1.0--h9ee0642_0
+$ module help quay.io/biocontainers/gblocks/1.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

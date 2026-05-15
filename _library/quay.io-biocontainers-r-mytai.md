@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mytai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mytai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mytai/container.yaml"
-updated_at: "2026-05-14 05:53:36.047533"
+updated_at: "2026-05-15 06:01:10.721109"
 latest: "2.3.5--r44hef20b61_0"
 container_url: "https://biocontainers.pro/tools/r-mytai"
 aliases:

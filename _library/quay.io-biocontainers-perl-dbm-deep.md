@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-dbm-deep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbm-deep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbm-deep/container.yaml"
-updated_at: "2026-05-14 06:35:03.904482"
+updated_at: "2026-05-15 06:14:52.279887"
 latest: "2.0013--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-dbm-deep"
 aliases:

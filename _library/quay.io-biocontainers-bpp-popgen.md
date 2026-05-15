@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bpp-popgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpp-popgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bpp-popgen/container.yaml"
-updated_at: "2026-05-14 06:46:30.151129"
+updated_at: "2026-05-15 06:45:04.402016"
 latest: "3.0.0--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/bpp-popgen"
 

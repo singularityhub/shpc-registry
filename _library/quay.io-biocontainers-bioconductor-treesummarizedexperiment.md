@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-treesummarizedexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-treesummarizedexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-treesummarizedexperiment/container.yaml"
-updated_at: "2026-05-14 05:51:59.999586"
+updated_at: "2026-05-15 06:50:23.108467"
 latest: "2.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-treesummarizedexperiment"
 

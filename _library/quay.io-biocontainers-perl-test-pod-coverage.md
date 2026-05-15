@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-test-pod-coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-pod-coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-pod-coverage/container.yaml"
-updated_at: "2026-05-14 06:19:36.342609"
-latest: "1.10--pl5321h9ee0642_3"
+updated_at: "2026-05-15 06:07:21.945255"
+latest: "1.10--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-test-pod-coverage"
 aliases:
  - "pod_cover"
@@ -15,8 +15,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.10--pl5321h9ee0642_3"
+ - "1.10--pl5321hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for perl-test-pod-coverage"
-config: {"url": "https://biocontainers.pro/tools/perl-test-pod-coverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-pod-coverage", "latest": {"1.10--pl5321h9ee0642_3": "sha256:2a01263f3b5ca7ebb24e71f4d87bdab28d5b14a9bbe90b53e66ced12e61d8810"}, "tags": {"1.10--pl5321h9ee0642_3": "sha256:2a01263f3b5ca7ebb24e71f4d87bdab28d5b14a9bbe90b53e66ced12e61d8810"}, "docker": "quay.io/biocontainers/perl-test-pod-coverage", "aliases": {"pod_cover": "/usr/local/bin/pod_cover", "cpanm": "/usr/local/bin/cpanm", "podselect": "/usr/local/bin/podselect", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-test-pod-coverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-pod-coverage", "latest": {"1.10--pl5321hdfd78af_4": "sha256:38d8cdc97e400d2fee87abca432fa8526f15ac9ed5b1ccfe479c08e2c75195ea"}, "tags": {"1.10--pl5321h9ee0642_3": "sha256:2a01263f3b5ca7ebb24e71f4d87bdab28d5b14a9bbe90b53e66ced12e61d8810", "1.10--pl5321hdfd78af_4": "sha256:38d8cdc97e400d2fee87abca432fa8526f15ac9ed5b1ccfe479c08e2c75195ea"}, "docker": "quay.io/biocontainers/perl-test-pod-coverage", "aliases": {"pod_cover": "/usr/local/bin/pod_cover", "cpanm": "/usr/local/bin/cpanm", "podselect": "/usr/local/bin/podselect", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-pod-coverage.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/perl-test-pod-coverage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-test-pod-coverage:1.10--pl5321h9ee0642_3
+$ shpc install quay.io/biocontainers/perl-test-pod-coverage:1.10--pl5321hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-test-pod-coverage/1.10--pl5321h9ee0642_3
-$ module help quay.io/biocontainers/perl-test-pod-coverage/1.10--pl5321h9ee0642_3
+$ module load quay.io/biocontainers/perl-test-pod-coverage/1.10--pl5321hdfd78af_4
+$ module help quay.io/biocontainers/perl-test-pod-coverage/1.10--pl5321hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

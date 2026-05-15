@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromimpute/container.yaml"
-updated_at: "2026-05-14 06:10:49.716050"
+updated_at: "2026-05-15 06:34:25.496503"
 latest: "1.0.3--h05cac1d_2"
 container_url: "https://biocontainers.pro/tools/chromimpute"
 aliases:

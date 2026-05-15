@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.biomart.igis/container.yaml"
-updated_at: "2026-05-14 06:20:24.192619"
+updated_at: "2026-05-15 06:22:53.053446"
 latest: "2.3.2--r45hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.biomart.igis"
 

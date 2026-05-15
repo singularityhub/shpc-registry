@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msstitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msstitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msstitch/container.yaml"
-updated_at: "2026-05-14 06:38:36.046835"
+updated_at: "2026-05-15 06:37:43.786896"
 latest: "3.20--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msstitch"
 aliases:

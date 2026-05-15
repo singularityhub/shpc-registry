@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-fix-i5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-fix-i5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-fix-i5/container.yaml"
-updated_at: "2026-05-14 06:29:21.697872"
+updated_at: "2026-05-15 06:49:23.274128"
 latest: "1.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/fastq-fix-i5"
 aliases:

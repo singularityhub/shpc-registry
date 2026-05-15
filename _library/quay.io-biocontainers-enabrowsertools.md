@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enabrowsertools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enabrowsertools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enabrowsertools/container.yaml"
-updated_at: "2026-05-14 06:33:39.496584"
+updated_at: "2026-05-15 06:13:32.501760"
 latest: "1.7.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enabrowsertools"
 aliases:

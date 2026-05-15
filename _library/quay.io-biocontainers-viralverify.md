@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viralverify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viralverify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viralverify/container.yaml"
-updated_at: "2026-05-14 06:26:21.138805"
+updated_at: "2026-05-15 06:10:22.673503"
 latest: "1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viralverify"
 aliases:
