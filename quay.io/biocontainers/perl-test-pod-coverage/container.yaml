@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-test-pod-coverage
 latest:
-  1.10--pl5321h9ee0642_3: 
-    sha256:2a01263f3b5ca7ebb24e71f4d87bdab28d5b14a9bbe90b53e66ced12e61d8810
+  1.10--pl5321hdfd78af_4: 
+    sha256:38d8cdc97e400d2fee87abca432fa8526f15ac9ed5b1ccfe479c08e2c75195ea
 tags:
   1.10--pl5321h9ee0642_3: 
     sha256:2a01263f3b5ca7ebb24e71f4d87bdab28d5b14a9bbe90b53e66ced12e61d8810
+  1.10--pl5321hdfd78af_4: 
+    sha256:38d8cdc97e400d2fee87abca432fa8526f15ac9ed5b1ccfe479c08e2c75195ea
 docker: quay.io/biocontainers/perl-test-pod-coverage
 aliases:
   pod_cover: /usr/local/bin/pod_cover
