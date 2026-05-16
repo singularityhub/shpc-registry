@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/any2fasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/any2fasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/any2fasta/container.yaml"
-updated_at: "2026-05-15 06:20:19.763998"
+updated_at: "2026-05-16 05:52:46.958707"
 latest: "0.8.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/any2fasta"
 aliases:

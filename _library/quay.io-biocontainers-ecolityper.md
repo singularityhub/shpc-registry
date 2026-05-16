@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ecolityper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecolityper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecolityper/container.yaml"
-updated_at: "2026-05-15 06:07:16.076453"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2026-05-16 05:39:54.800214"
+latest: "1.1.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ecolityper"
 aliases:
  - "ds"
@@ -40,8 +40,9 @@ aliases:
  - "contml"
 versions:
  - "1.1.1--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for ecolityper"
-config: {"url": "https://biocontainers.pro/tools/ecolityper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ecolityper", "latest": {"1.1.1--pyhdfd78af_0": "sha256:35bae7ab08cb8bd8d67653ff8698fa21c2e6f6814df601d519aa5e627d605b3f"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:35bae7ab08cb8bd8d67653ff8698fa21c2e6f6814df601d519aa5e627d605b3f"}, "docker": "quay.io/biocontainers/ecolityper", "aliases": {"ds": "/usr/local/bin/ds", "ecolityper": "/usr/local/bin/ecolityper", "famsa": "/usr/local/bin/famsa", "proda": "/usr/local/bin/proda", "treeshrink": "/usr/local/bin/treeshrink", "bstats": "/usr/local/bin/bstats", "comppair": "/usr/local/bin/comppair", "dialign-tx": "/usr/local/bin/dialign-tx", "mustang": "/usr/local/bin/mustang", "pModel": "/usr/local/bin/pModel", "probcons": "/usr/local/bin/probcons", "probconsRNA": "/usr/local/bin/probconsRNA", "scompare": "/usr/local/bin/scompare", "strain_ml": "/usr/local/bin/strain_ml", "TMscore": "/usr/local/bin/TMscore", "conus_compare": "/usr/local/bin/conus_compare", "conus_train": "/usr/local/bin/conus_train", "sap": "/usr/local/bin/sap", "sfold": "/usr/local/bin/sfold", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "hmmerbuild": "/usr/local/bin/hmmerbuild", "kalign": "/usr/local/bin/kalign", "zless": "/usr/local/bin/zless", "RNAconsensus": "/usr/local/bin/RNAconsensus", "DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml"}}
+config: {"url": "https://biocontainers.pro/tools/ecolityper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ecolityper", "latest": {"1.1.1--pyhdfd78af_1": "sha256:237e7497209dfeea1ee3e0a555980e622684eb726a7150f7c64b2266db3d5324"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:35bae7ab08cb8bd8d67653ff8698fa21c2e6f6814df601d519aa5e627d605b3f", "1.1.1--pyhdfd78af_1": "sha256:237e7497209dfeea1ee3e0a555980e622684eb726a7150f7c64b2266db3d5324"}, "docker": "quay.io/biocontainers/ecolityper", "aliases": {"ds": "/usr/local/bin/ds", "ecolityper": "/usr/local/bin/ecolityper", "famsa": "/usr/local/bin/famsa", "proda": "/usr/local/bin/proda", "treeshrink": "/usr/local/bin/treeshrink", "bstats": "/usr/local/bin/bstats", "comppair": "/usr/local/bin/comppair", "dialign-tx": "/usr/local/bin/dialign-tx", "mustang": "/usr/local/bin/mustang", "pModel": "/usr/local/bin/pModel", "probcons": "/usr/local/bin/probcons", "probconsRNA": "/usr/local/bin/probconsRNA", "scompare": "/usr/local/bin/scompare", "strain_ml": "/usr/local/bin/strain_ml", "TMscore": "/usr/local/bin/TMscore", "conus_compare": "/usr/local/bin/conus_compare", "conus_train": "/usr/local/bin/conus_train", "sap": "/usr/local/bin/sap", "sfold": "/usr/local/bin/sfold", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "hmmerbuild": "/usr/local/bin/hmmerbuild", "kalign": "/usr/local/bin/kalign", "zless": "/usr/local/bin/zless", "RNAconsensus": "/usr/local/bin/RNAconsensus", "DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ecolityper.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/ecolityper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ecolityper:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ecolityper:1.1.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ecolityper/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ecolityper/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ecolityper/1.1.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/ecolityper/1.1.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

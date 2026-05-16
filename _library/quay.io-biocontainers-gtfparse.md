@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gtfparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtfparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtfparse/container.yaml"
-updated_at: "2026-05-15 06:50:23.659166"
-latest: "2.6.2--pyhdfd78af_0"
+updated_at: "2026-05-16 06:22:19.702797"
+latest: "2.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gtfparse"
 aliases:
  - "f2py3.8"
@@ -23,8 +23,9 @@ versions:
  - "2.1.0--pyh7cba7a3_0"
  - "2.5.0--pyh7cba7a3_0"
  - "2.6.2--pyhdfd78af_0"
+ - "2.6.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gtfparse"
-config: {"url": "https://biocontainers.pro/tools/gtfparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gtfparse", "latest": {"2.6.2--pyhdfd78af_0": "sha256:995f57d84014327002fc3a897275a44d353ca309b64b6b5c68b906b86742ea51"}, "tags": {"1.2.1--pyh864c0ab_0": "sha256:1a7bf400b3710a919b5ff4d188fc72bb9627430a1f83c719401fc4eac451e2f6", "2.0.1--pyh7cba7a3_0": "sha256:24b789270e606439b1b1e785904caa89216d639ff36c440edbaefcf20994afaa", "2.0.1--pyh7cba7a3_1": "sha256:faf8aecbcd8383e235f0287975c4addb91acafde9dffe1305e19b8fe034818ef", "2.4.1--pyh7cba7a3_0": "sha256:9ea61834d7cc39bcf296d91aedcb47843df566b7c2949ef3656a9aabe316e80f", "2.3.0--pyh7cba7a3_0": "sha256:b5b600f4363508f142c04fae4c25969ed8d0a41ff85c97837f1d44da570bf015", "2.1.0--pyh7cba7a3_0": "sha256:d3ba0167db211883fd8f0e61e9d700086186ab4016e56ffc597998833ce64bfb", "2.5.0--pyh7cba7a3_0": "sha256:3aed15c2a5457c7d21940e42d20982b77c14474313fc48d2dda99a006a6005e5", "2.6.2--pyhdfd78af_0": "sha256:995f57d84014327002fc3a897275a44d353ca309b64b6b5c68b906b86742ea51"}, "docker": "quay.io/biocontainers/gtfparse", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/gtfparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gtfparse", "latest": {"2.6.3--pyhdfd78af_0": "sha256:bd842cb12a54b5adbf167b62e7a5282bbd40d822152ec1f896de9e2f3848b723"}, "tags": {"1.2.1--pyh864c0ab_0": "sha256:1a7bf400b3710a919b5ff4d188fc72bb9627430a1f83c719401fc4eac451e2f6", "2.0.1--pyh7cba7a3_0": "sha256:24b789270e606439b1b1e785904caa89216d639ff36c440edbaefcf20994afaa", "2.0.1--pyh7cba7a3_1": "sha256:faf8aecbcd8383e235f0287975c4addb91acafde9dffe1305e19b8fe034818ef", "2.4.1--pyh7cba7a3_0": "sha256:9ea61834d7cc39bcf296d91aedcb47843df566b7c2949ef3656a9aabe316e80f", "2.3.0--pyh7cba7a3_0": "sha256:b5b600f4363508f142c04fae4c25969ed8d0a41ff85c97837f1d44da570bf015", "2.1.0--pyh7cba7a3_0": "sha256:d3ba0167db211883fd8f0e61e9d700086186ab4016e56ffc597998833ce64bfb", "2.5.0--pyh7cba7a3_0": "sha256:3aed15c2a5457c7d21940e42d20982b77c14474313fc48d2dda99a006a6005e5", "2.6.2--pyhdfd78af_0": "sha256:995f57d84014327002fc3a897275a44d353ca309b64b6b5c68b906b86742ea51", "2.6.3--pyhdfd78af_0": "sha256:bd842cb12a54b5adbf167b62e7a5282bbd40d822152ec1f896de9e2f3848b723"}, "docker": "quay.io/biocontainers/gtfparse", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gtfparse.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/gtfparse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gtfparse:2.6.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gtfparse:2.6.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gtfparse/2.6.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/gtfparse/2.6.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/gtfparse/2.6.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/gtfparse/2.6.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/savont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/savont/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/savont/container.yaml"
-updated_at: "2026-05-15 06:46:35.779485"
+updated_at: "2026-05-16 06:18:35.562702"
 latest: "0.4.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/savont"
 aliases:

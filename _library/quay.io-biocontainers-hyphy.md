@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hyphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyphy/container.yaml"
-updated_at: "2026-05-15 06:06:46.028414"
+updated_at: "2026-05-16 05:39:25.279044"
 latest: "2.5.97--h5837470_0"
 container_url: "https://biocontainers.pro/tools/hyphy"
 

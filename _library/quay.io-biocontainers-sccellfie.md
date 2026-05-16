@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sccellfie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sccellfie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sccellfie/container.yaml"
-updated_at: "2026-05-15 06:44:03.507513"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2026-05-16 06:16:05.775139"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sccellfie"
 aliases:
  - "depinfo"
@@ -41,8 +41,9 @@ aliases:
  - "JxrDecApp"
 versions:
  - "0.5.0--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sccellfie"
-config: {"url": "https://biocontainers.pro/tools/sccellfie", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sccellfie", "latest": {"0.5.0--pyhdfd78af_0": "sha256:66df1056614ec347243ebe054fb07281d75adf49a9db58eb6b5a0d45e65264ab"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:66df1056614ec347243ebe054fb07281d75adf49a9db58eb6b5a0d45e65264ab"}, "docker": "quay.io/biocontainers/sccellfie", "aliases": {"depinfo": "/usr/local/bin/depinfo", "gdal": "/usr/local/bin/gdal", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "pyproj": "/usr/local/bin/pyproj", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "sozip": "/usr/local/bin/sozip", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "bsdunzip": "/usr/local/bin/bsdunzip", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "httpx": "/usr/local/bin/httpx", "dask": "/usr/local/bin/dask", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "gdal_create": "/usr/local/bin/gdal_create", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "JxrDecApp": "/usr/local/bin/JxrDecApp"}}
+config: {"url": "https://biocontainers.pro/tools/sccellfie", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sccellfie", "latest": {"0.6.0--pyhdfd78af_0": "sha256:27a576b376da0e73810b9be3c36a6d4c1a1ddbaab18e69d751535342ec242070"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:66df1056614ec347243ebe054fb07281d75adf49a9db58eb6b5a0d45e65264ab", "0.6.0--pyhdfd78af_0": "sha256:27a576b376da0e73810b9be3c36a6d4c1a1ddbaab18e69d751535342ec242070"}, "docker": "quay.io/biocontainers/sccellfie", "aliases": {"depinfo": "/usr/local/bin/depinfo", "gdal": "/usr/local/bin/gdal", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "pyproj": "/usr/local/bin/pyproj", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "sozip": "/usr/local/bin/sozip", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "bsdunzip": "/usr/local/bin/bsdunzip", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "httpx": "/usr/local/bin/httpx", "dask": "/usr/local/bin/dask", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "gdal_create": "/usr/local/bin/gdal_create", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "imagecodecs": "/usr/local/bin/imagecodecs", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng", "JxrDecApp": "/usr/local/bin/JxrDecApp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sccellfie.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/sccellfie
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sccellfie:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sccellfie:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sccellfie/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/sccellfie/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/sccellfie/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/sccellfie/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

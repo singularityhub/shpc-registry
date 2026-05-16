@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genenet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genenet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genenet/container.yaml"
-updated_at: "2026-05-15 06:50:35.558115"
+updated_at: "2026-05-16 06:22:31.630249"
 latest: "1.2.13--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-genenet"
 aliases:
