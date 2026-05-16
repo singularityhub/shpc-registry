@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-rgraphviz
 latest:
-  2.54.0--r45h68012da_1: 
-    sha256:fedf73deb4453a040ac4aa0f5af408352bca51f472aa211efed17b10ea283e0c
+  2.54.0--r45ha27e39d_2: 
+    sha256:a46c8e2cc2271a65364714dbbb4a82fd0864bdd70ad46949eb163ceb2fd2aa9c
 tags:
   2.38.0--r41hc247a5b_2: 
     sha256:2d2512cf75e01304b658f482c1c3841026a1bf9c9bc963e691e3feac7cb3b3ac
@@ -26,4 +26,6 @@ tags:
     sha256:d43c4d2653d3070d2e373a9a2ac4527efb98c63ef48108807ed9d3e6b90fd9bf
   2.54.0--r45h68012da_1: 
     sha256:fedf73deb4453a040ac4aa0f5af408352bca51f472aa211efed17b10ea283e0c
+  2.54.0--r45ha27e39d_2: 
+    sha256:a46c8e2cc2271a65364714dbbb4a82fd0864bdd70ad46949eb163ceb2fd2aa9c
 docker: quay.io/biocontainers/bioconductor-rgraphviz

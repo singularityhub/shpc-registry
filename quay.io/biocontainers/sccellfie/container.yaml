@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/sccellfie
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sccellfie
 latest:
-  0.5.0--pyhdfd78af_0: 
-    sha256:66df1056614ec347243ebe054fb07281d75adf49a9db58eb6b5a0d45e65264ab
+  0.6.0--pyhdfd78af_0: 
+    sha256:27a576b376da0e73810b9be3c36a6d4c1a1ddbaab18e69d751535342ec242070
 tags:
   0.5.0--pyhdfd78af_0: 
     sha256:66df1056614ec347243ebe054fb07281d75adf49a9db58eb6b5a0d45e65264ab
+  0.6.0--pyhdfd78af_0: 
+    sha256:27a576b376da0e73810b9be3c36a6d4c1a1ddbaab18e69d751535342ec242070
 docker: quay.io/biocontainers/sccellfie
 aliases:
   depinfo: /usr/local/bin/depinfo
