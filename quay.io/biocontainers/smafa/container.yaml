@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/smafa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smafa
 latest:
-  0.8.0--hc1c3326_1: 
-    sha256:2dcb89e7a1c12755a8a8e3726c69b0a9cb43783459ddf06e313935397eb1177c
+  0.8.0--hfa8f182_2: 
+    sha256:6cb3a728695e18ab70cbfdcfdf1dc5b777a562957160443aabaec0b1af203b71
 tags:
   0.5.0--hec16e2b_2: 
     sha256:bfab3052298105cd88386083a2cca6b77dba01f1f0768276a8ab87f0941b4c12
@@ -19,6 +19,8 @@ tags:
     sha256:6ef0b2ca20d8b430c2efc7087c24f13c22f17759a64d18aba417b3efe75b2370
   0.8.0--hc1c3326_1: 
     sha256:2dcb89e7a1c12755a8a8e3726c69b0a9cb43783459ddf06e313935397eb1177c
+  0.8.0--hfa8f182_2: 
+    sha256:6cb3a728695e18ab70cbfdcfdf1dc5b777a562957160443aabaec0b1af203b71
 docker: quay.io/biocontainers/smafa
 aliases:
   smafa: /usr/local/bin/smafa
