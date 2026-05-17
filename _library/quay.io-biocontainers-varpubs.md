@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varpubs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varpubs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varpubs/container.yaml"
-updated_at: "2026-05-16 06:18:45.664061"
+updated_at: "2026-05-17 06:41:36.127417"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varpubs"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hgu133atagprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgu133atagprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgu133atagprobe/container.yaml"
-updated_at: "2026-05-16 06:21:22.514094"
+updated_at: "2026-05-17 06:44:16.882182"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgu133atagprobe"
 

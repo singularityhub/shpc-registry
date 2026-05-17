@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mime-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mime-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mime-lite/container.yaml"
-updated_at: "2026-05-16 05:46:43.456239"
+updated_at: "2026-05-17 06:08:49.426471"
 latest: "3.030--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-mime-lite"
 aliases:

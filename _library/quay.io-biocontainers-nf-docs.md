@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nf-docs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nf-docs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nf-docs/container.yaml"
-updated_at: "2026-05-16 06:04:35.087544"
+updated_at: "2026-05-17 06:27:03.232457"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nf-docs"
 aliases:

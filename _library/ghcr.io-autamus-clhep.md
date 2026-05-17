@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/clhep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/clhep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/clhep/container.yaml"
-updated_at: "2026-05-16 05:30:16.162265"
+updated_at: "2026-05-17 05:51:57.347405"
 latest: "2.4.5.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/clhep"
 aliases:

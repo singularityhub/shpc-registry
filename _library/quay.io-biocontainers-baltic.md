@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baltic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baltic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baltic/container.yaml"
-updated_at: "2026-05-16 06:01:52.651314"
+updated_at: "2026-05-17 06:24:17.038994"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/baltic"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wg-blimp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wg-blimp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wg-blimp/container.yaml"
-updated_at: "2026-05-16 06:10:04.483963"
+updated_at: "2026-05-17 06:32:41.630030"
 latest: "0.10.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/wg-blimp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-corbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corbi/container.yaml"
-updated_at: "2026-05-16 06:07:31.458014"
+updated_at: "2026-05-17 06:30:04.814578"
 latest: "0.4_2--r351he0ffe0d_0"
 container_url: "https://biocontainers.pro/tools/r-corbi"
 

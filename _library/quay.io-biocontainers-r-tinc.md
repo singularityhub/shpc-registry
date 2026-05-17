@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tinc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tinc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tinc/container.yaml"
-updated_at: "2026-05-16 05:39:24.463707"
+updated_at: "2026-05-17 06:01:18.706616"
 latest: "0.1.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-tinc"
 aliases:

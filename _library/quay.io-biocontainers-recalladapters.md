@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recalladapters"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recalladapters/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recalladapters/container.yaml"
-updated_at: "2026-05-16 06:18:38.552063"
+updated_at: "2026-05-17 06:41:28.869044"
 latest: "9.0.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/recalladapters"
 aliases:

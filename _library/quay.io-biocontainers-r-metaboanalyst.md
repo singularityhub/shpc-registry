@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metaboanalyst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metaboanalyst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metaboanalyst/container.yaml"
-updated_at: "2026-05-16 05:54:31.184908"
+updated_at: "2026-05-17 06:16:45.703567"
 latest: "2.0.0--r40hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-metaboanalyst"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-imodmixdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imodmixdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imodmixdata/container.yaml"
-updated_at: "2026-05-16 05:33:18.131566"
+updated_at: "2026-05-17 05:55:07.757706"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imodmixdata"
 aliases:

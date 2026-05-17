@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yahmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yahmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yahmm/container.yaml"
-updated_at: "2026-05-16 06:13:01.643910"
+updated_at: "2026-05-17 06:35:43.010364"
 latest: "1.1.3--py310h7c10099_12"
 container_url: "https://biocontainers.pro/tools/yahmm"
 aliases:

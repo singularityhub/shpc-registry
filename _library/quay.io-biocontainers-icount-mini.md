@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/icount-mini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icount-mini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/icount-mini/container.yaml"
-updated_at: "2026-05-16 05:42:19.431131"
+updated_at: "2026-05-17 06:04:15.386251"
 latest: "4.0.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/icount-mini"
 aliases:

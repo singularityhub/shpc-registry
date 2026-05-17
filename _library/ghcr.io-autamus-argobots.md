@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/argobots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/argobots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/argobots/container.yaml"
-updated_at: "2026-05-16 05:29:57.048646"
+updated_at: "2026-05-17 05:51:38.633277"
 latest: "1.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/argobots"
 

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bwtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwtk/container.yaml"
-updated_at: "2026-05-16 05:38:01.602779"
-latest: "1.8.1--h9990f68_0"
+updated_at: "2026-05-17 05:59:53.785455"
+latest: "1.8.2--h118bc1c_0"
 container_url: "https://biocontainers.pro/tools/bwtk"
 aliases:
  - "bwtk"
 versions:
  - "1.8.1--h9990f68_0"
+ - "1.8.2--h118bc1c_0"
 description: "singularity registry hpc automated addition for bwtk"
-config: {"url": "https://biocontainers.pro/tools/bwtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bwtk", "latest": {"1.8.1--h9990f68_0": "sha256:0fa18ce25d0b93f877eb02359b616404abaa8319eb900939f87af0d6dc5c3a93"}, "tags": {"1.8.1--h9990f68_0": "sha256:0fa18ce25d0b93f877eb02359b616404abaa8319eb900939f87af0d6dc5c3a93"}, "docker": "quay.io/biocontainers/bwtk", "aliases": {"bwtk": "/usr/local/bin/bwtk"}}
+config: {"url": "https://biocontainers.pro/tools/bwtk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bwtk", "latest": {"1.8.2--h118bc1c_0": "sha256:b667ac61992bb6d05c83bad81872881080786745ddbb836c41351abc3112d101"}, "tags": {"1.8.1--h9990f68_0": "sha256:0fa18ce25d0b93f877eb02359b616404abaa8319eb900939f87af0d6dc5c3a93", "1.8.2--h118bc1c_0": "sha256:b667ac61992bb6d05c83bad81872881080786745ddbb836c41351abc3112d101"}, "docker": "quay.io/biocontainers/bwtk", "aliases": {"bwtk": "/usr/local/bin/bwtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwtk.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bwtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwtk:1.8.1--h9990f68_0
+$ shpc install quay.io/biocontainers/bwtk:1.8.2--h118bc1c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwtk/1.8.1--h9990f68_0
-$ module help quay.io/biocontainers/bwtk/1.8.1--h9990f68_0
+$ module load quay.io/biocontainers/bwtk/1.8.2--h118bc1c_0
+$ module help quay.io/biocontainers/bwtk/1.8.2--h118bc1c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

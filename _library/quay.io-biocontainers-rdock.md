@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdock/container.yaml"
-updated_at: "2026-05-16 05:35:06.179693"
+updated_at: "2026-05-17 05:56:59.391901"
 latest: "2013.1--pl5.22.0_1"
 container_url: "https://biocontainers.pro/tools/rdock"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasmar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmar/container.yaml"
-updated_at: "2026-05-16 06:01:30.915217"
+updated_at: "2026-05-17 06:23:54.852155"
 latest: "1.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasmar"
 aliases:

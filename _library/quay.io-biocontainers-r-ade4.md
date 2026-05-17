@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ade4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ade4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ade4/container.yaml"
-updated_at: "2026-05-16 05:40:19.344870"
+updated_at: "2026-05-17 06:02:14.183917"
 latest: "1.7_11--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-ade4"
 aliases:

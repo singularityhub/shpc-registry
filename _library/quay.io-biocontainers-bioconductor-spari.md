@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spari/container.yaml"
-updated_at: "2026-05-16 06:22:18.044270"
+updated_at: "2026-05-17 06:45:13.600043"
 latest: "1.0.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spari"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isoformcheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isoformcheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isoformcheck/container.yaml"
-updated_at: "2026-05-16 05:51:51.920088"
+updated_at: "2026-05-17 06:14:02.652286"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isoformcheck"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tgv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tgv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tgv/container.yaml"
-updated_at: "2026-05-16 05:44:30.315839"
-latest: "0.1.0--h521fa98_0"
+updated_at: "2026-05-17 06:06:29.267999"
+latest: "0.2.0--h8c51ddd_0"
 container_url: "https://biocontainers.pro/tools/tgv"
 aliases:
  - "tgv"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "0.0.6--h521fa98_0"
  - "0.1.0--h521fa98_0"
+ - "0.2.0--h8c51ddd_0"
 description: "singularity registry hpc automated addition for tgv"
-config: {"url": "https://biocontainers.pro/tools/tgv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tgv", "latest": {"0.1.0--h521fa98_0": "sha256:81c0a525ff7dd6413bd182db72a871c5e31e23c8837c6d636acbf524cfb2c9d8"}, "tags": {"0.0.6--h521fa98_0": "sha256:6b741f8410ddd7cd0ed00759726dec6111045da8d1a57adcb41e91d8a0c286ae", "0.1.0--h521fa98_0": "sha256:81c0a525ff7dd6413bd182db72a871c5e31e23c8837c6d636acbf524cfb2c9d8"}, "docker": "quay.io/biocontainers/tgv", "aliases": {"tgv": "/usr/local/bin/tgv", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/tgv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tgv", "latest": {"0.2.0--h8c51ddd_0": "sha256:b8929e93dda9c0e7ba2f6ebd2122bb12b214e2b2e1cf49fa368c2af4f7e60894"}, "tags": {"0.0.6--h521fa98_0": "sha256:6b741f8410ddd7cd0ed00759726dec6111045da8d1a57adcb41e91d8a0c286ae", "0.1.0--h521fa98_0": "sha256:81c0a525ff7dd6413bd182db72a871c5e31e23c8837c6d636acbf524cfb2c9d8", "0.2.0--h8c51ddd_0": "sha256:b8929e93dda9c0e7ba2f6ebd2122bb12b214e2b2e1cf49fa368c2af4f7e60894"}, "docker": "quay.io/biocontainers/tgv", "aliases": {"tgv": "/usr/local/bin/tgv", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tgv.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/tgv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tgv:0.1.0--h521fa98_0
+$ shpc install quay.io/biocontainers/tgv:0.2.0--h8c51ddd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tgv/0.1.0--h521fa98_0
-$ module help quay.io/biocontainers/tgv/0.1.0--h521fa98_0
+$ module load quay.io/biocontainers/tgv/0.2.0--h8c51ddd_0
+$ module help quay.io/biocontainers/tgv/0.2.0--h8c51ddd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

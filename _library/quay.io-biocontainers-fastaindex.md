@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastaindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastaindex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastaindex/container.yaml"
-updated_at: "2026-05-16 06:09:21.178750"
+updated_at: "2026-05-17 06:31:57.384949"
 latest: "0.11c--py_3"
 container_url: "https://biocontainers.pro/tools/fastaindex"
 aliases:

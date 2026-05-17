@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/falco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/falco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/falco/container.yaml"
-updated_at: "2026-05-16 05:43:45.114848"
+updated_at: "2026-05-17 06:05:41.423230"
 latest: "1.2.5--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/falco"
 aliases:

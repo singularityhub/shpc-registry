@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gepard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gepard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gepard/container.yaml"
-updated_at: "2026-05-16 06:15:17.046831"
+updated_at: "2026-05-17 06:38:02.045396"
 latest: "2.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gepard"
 aliases:
