@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-data.table"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-data.table/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-data.table/container.yaml"
-updated_at: "2026-05-17 06:05:23.278089"
+updated_at: "2026-05-18 06:31:45.303653"
 latest: "1.12.2"
 container_url: "https://biocontainers.pro/tools/r-data.table"
 aliases:

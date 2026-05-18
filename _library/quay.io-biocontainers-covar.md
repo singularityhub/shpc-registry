@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/covar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/covar/container.yaml"
-updated_at: "2026-05-17 06:15:11.443984"
+updated_at: "2026-05-18 06:41:26.401671"
 latest: "0.3.0--h3dc2dae_0"
 container_url: "https://biocontainers.pro/tools/covar"
 aliases:

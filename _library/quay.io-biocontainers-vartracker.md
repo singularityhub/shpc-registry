@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vartracker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vartracker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vartracker/container.yaml"
-updated_at: "2026-05-17 06:08:04.233651"
-latest: "2.1.1--pyhdfd78af_0"
+updated_at: "2026-05-18 06:34:19.354994"
+latest: "2.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vartracker"
 aliases:
  - "gff2gff"
@@ -42,8 +42,9 @@ aliases:
  - "clp"
 versions:
  - "2.1.1--pyhdfd78af_0"
+ - "2.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for vartracker"
-config: {"url": "https://biocontainers.pro/tools/vartracker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vartracker", "latest": {"2.1.1--pyhdfd78af_0": "sha256:ff12cf8419440406a1e67ba9463d46fc6d8a8ca6acbe1eb92eacaef79e4df329"}, "tags": {"2.1.1--pyhdfd78af_0": "sha256:ff12cf8419440406a1e67ba9463d46fc6d8a8ca6acbe1eb92eacaef79e4df329"}, "docker": "quay.io/biocontainers/vartracker", "aliases": {"gff2gff": "/usr/local/bin/gff2gff", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "parse_pokay": "/usr/local/bin/parse_pokay", "roh-viz": "/usr/local/bin/roh-viz", "vartracker": "/usr/local/bin/vartracker", "vrfs-variances": "/usr/local/bin/vrfs-variances", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "cyvcf2": "/usr/local/bin/cyvcf2", "fastp": "/usr/local/bin/fastp", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "ref-cache": "/usr/local/bin/ref-cache", "gff2gff.py": "/usr/local/bin/gff2gff.py", "yte": "/usr/local/bin/yte", "igzip": "/usr/local/bin/igzip", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
+config: {"url": "https://biocontainers.pro/tools/vartracker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vartracker", "latest": {"2.2.1--pyhdfd78af_0": "sha256:727335c35293c7131386428b6c2f0227a6498dc040f5c6f455b649e1069654ef"}, "tags": {"2.1.1--pyhdfd78af_0": "sha256:ff12cf8419440406a1e67ba9463d46fc6d8a8ca6acbe1eb92eacaef79e4df329", "2.2.1--pyhdfd78af_0": "sha256:727335c35293c7131386428b6c2f0227a6498dc040f5c6f455b649e1069654ef"}, "docker": "quay.io/biocontainers/vartracker", "aliases": {"gff2gff": "/usr/local/bin/gff2gff", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "parse_pokay": "/usr/local/bin/parse_pokay", "roh-viz": "/usr/local/bin/roh-viz", "vartracker": "/usr/local/bin/vartracker", "vrfs-variances": "/usr/local/bin/vrfs-variances", "lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "cyvcf2": "/usr/local/bin/cyvcf2", "fastp": "/usr/local/bin/fastp", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "ref-cache": "/usr/local/bin/ref-cache", "gff2gff.py": "/usr/local/bin/gff2gff.py", "yte": "/usr/local/bin/yte", "igzip": "/usr/local/bin/igzip", "coloredlogs": "/usr/local/bin/coloredlogs", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "snakemake": "/usr/local/bin/snakemake", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vartracker.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/vartracker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vartracker:2.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/vartracker:2.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vartracker/2.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/vartracker/2.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/vartracker/2.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/vartracker/2.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

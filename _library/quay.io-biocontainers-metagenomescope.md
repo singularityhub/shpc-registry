@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metagenomescope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagenomescope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagenomescope/container.yaml"
-updated_at: "2026-05-17 06:19:12.946983"
+updated_at: "2026-05-18 06:45:33.217704"
 latest: "1.1.0--pyh78e5384_0"
 container_url: "https://biocontainers.pro/tools/metagenomescope"
 aliases:

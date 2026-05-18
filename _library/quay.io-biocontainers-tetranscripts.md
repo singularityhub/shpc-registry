@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tetranscripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetranscripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tetranscripts/container.yaml"
-updated_at: "2026-05-17 06:18:40.074257"
-latest: "2.2.3--pyh7cba7a3_0"
+updated_at: "2026-05-18 06:44:59.839324"
+latest: "2.2.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/tetranscripts"
 aliases:
  - "TEcount"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "2.2.1--pyh864c0ab_1"
  - "2.2.3--pyh7cba7a3_0"
+ - "2.2.4--pyh106432d_0"
 description: "shpc-registry automated BioContainers addition for tetranscripts"
-config: {"url": "https://biocontainers.pro/tools/tetranscripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetranscripts", "latest": {"2.2.3--pyh7cba7a3_0": "sha256:fefac55a3fff381c02507e76ea1689b32025c3b0c61a454f58e02a7dc31945c4"}, "tags": {"2.2.1--pyh864c0ab_1": "sha256:bbe6f70f7f31dc3687d16ed1fad9f8b6e9415c805eb79db1bcc794361bc1a3e7", "2.2.3--pyh7cba7a3_0": "sha256:fefac55a3fff381c02507e76ea1689b32025c3b0c61a454f58e02a7dc31945c4"}, "docker": "quay.io/biocontainers/tetranscripts", "aliases": {"TEcount": "/usr/local/bin/TEcount", "TEtranscripts": "/usr/local/bin/TEtranscripts", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv", "c89": "/usr/local/bin/c89"}}
+config: {"url": "https://biocontainers.pro/tools/tetranscripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetranscripts", "latest": {"2.2.4--pyh106432d_0": "sha256:0cfb25865b7b3d0cc3df92f5b1cb37478cd6dfa9d73b7e0df3025d2c192775be"}, "tags": {"2.2.1--pyh864c0ab_1": "sha256:bbe6f70f7f31dc3687d16ed1fad9f8b6e9415c805eb79db1bcc794361bc1a3e7", "2.2.3--pyh7cba7a3_0": "sha256:fefac55a3fff381c02507e76ea1689b32025c3b0c61a454f58e02a7dc31945c4", "2.2.4--pyh106432d_0": "sha256:0cfb25865b7b3d0cc3df92f5b1cb37478cd6dfa9d73b7e0df3025d2c192775be"}, "docker": "quay.io/biocontainers/tetranscripts", "aliases": {"TEcount": "/usr/local/bin/TEcount", "TEtranscripts": "/usr/local/bin/TEtranscripts", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv", "c89": "/usr/local/bin/c89"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tetranscripts.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/tetranscripts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tetranscripts:2.2.3--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/tetranscripts:2.2.4--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tetranscripts/2.2.3--pyh7cba7a3_0
-$ module help quay.io/biocontainers/tetranscripts/2.2.3--pyh7cba7a3_0
+$ module load quay.io/biocontainers/tetranscripts/2.2.4--pyh106432d_0
+$ module help quay.io/biocontainers/tetranscripts/2.2.4--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

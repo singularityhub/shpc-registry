@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spestimator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spestimator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spestimator/container.yaml"
-updated_at: "2026-05-17 06:00:41.862389"
+updated_at: "2026-05-18 06:26:59.249892"
 latest: "0.1.0.232--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spestimator"
 aliases:

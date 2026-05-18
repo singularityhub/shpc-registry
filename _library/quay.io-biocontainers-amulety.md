@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amulety"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amulety/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amulety/container.yaml"
-updated_at: "2026-05-17 06:44:58.799835"
+updated_at: "2026-05-18 07:11:57.654670"
 latest: "2.1.2--pyh6d73907_0"
 container_url: "https://biocontainers.pro/tools/amulety"
 aliases:

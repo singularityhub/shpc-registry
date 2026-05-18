@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fulgor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fulgor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fulgor/container.yaml"
-updated_at: "2026-05-17 06:07:37.897431"
+updated_at: "2026-05-18 06:33:53.504316"
 latest: "4.2.0--hdcadc20_0"
 container_url: "https://biocontainers.pro/tools/fulgor"
 aliases:

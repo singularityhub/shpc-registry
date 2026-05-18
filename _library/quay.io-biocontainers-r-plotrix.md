@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-plotrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-plotrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-plotrix/container.yaml"
-updated_at: "2026-05-17 06:15:16.174038"
+updated_at: "2026-05-18 06:41:31.220880"
 latest: "3.6_4--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-plotrix"
 aliases:

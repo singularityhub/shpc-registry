@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tecap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tecap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tecap/container.yaml"
-updated_at: "2026-05-17 06:28:53.747388"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2026-05-18 06:55:35.208473"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tecap"
 aliases:
  - "tecap"
@@ -30,8 +30,10 @@ aliases:
  - "opj_dump"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
+ - "0.3.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tecap"
-config: {"url": "https://biocontainers.pro/tools/tecap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tecap", "latest": {"0.2.0--pyhdfd78af_0": "sha256:7490e32674e44a2f7786e80548fbe65d7c97eecdc045e201bffc0228904dcb1b"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:7490e32674e44a2f7786e80548fbe65d7c97eecdc045e201bffc0228904dcb1b"}, "docker": "quay.io/biocontainers/tecap", "aliases": {"tecap": "/usr/local/bin/tecap", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/tecap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tecap", "latest": {"0.4.0--pyhdfd78af_0": "sha256:ddd3c8fe71a9f26fb73a37f46e45d254d00c8a02825cd6234b5c45877d11cf1c"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:7490e32674e44a2f7786e80548fbe65d7c97eecdc045e201bffc0228904dcb1b", "0.4.0--pyhdfd78af_0": "sha256:ddd3c8fe71a9f26fb73a37f46e45d254d00c8a02825cd6234b5c45877d11cf1c", "0.3.2--pyhdfd78af_0": "sha256:ad1a78bc24f14971bcefb21888e430d1b660c91337b34ce4502e8130b24a6a50"}, "docker": "quay.io/biocontainers/tecap", "aliases": {"tecap": "/usr/local/bin/tecap", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tecap.
@@ -46,7 +48,7 @@ $ shpc install quay.io/biocontainers/tecap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tecap:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tecap:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tecap/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/tecap/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/tecap/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/tecap/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

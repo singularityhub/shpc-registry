@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/afquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/afquery/container.yaml"
-updated_at: "2026-05-17 06:28:13.738854"
-latest: "0.2.2--pyhdfd78af_0"
+updated_at: "2026-05-18 06:54:54.110331"
+latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/afquery"
 aliases:
  - "afquery"
@@ -36,8 +36,9 @@ aliases:
  - "orc-contents"
 versions:
  - "0.2.2--pyhdfd78af_0"
+ - "0.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for afquery"
-config: {"url": "https://biocontainers.pro/tools/afquery", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for afquery", "latest": {"0.2.2--pyhdfd78af_0": "sha256:32c08dbd80b1bb8f263882eab861ee742a8c00f3acae11de8cc65bed5e68dc69"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:32c08dbd80b1bb8f263882eab861ee742a8c00f3acae11de8cc65bed5e68dc69"}, "docker": "quay.io/biocontainers/afquery", "aliases": {"afquery": "/usr/local/bin/afquery", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "cyvcf2": "/usr/local/bin/cyvcf2", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "ref-cache": "/usr/local/bin/ref-cache", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "coloredlogs": "/usr/local/bin/coloredlogs", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "elasticurl": "/usr/local/bin/elasticurl", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents"}}
+config: {"url": "https://biocontainers.pro/tools/afquery", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for afquery", "latest": {"0.3.3--pyhdfd78af_0": "sha256:6a4311b7ed0b98449e4e882e74e04e4e351f1e25fa91f3c740d7a924b348c468"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:32c08dbd80b1bb8f263882eab861ee742a8c00f3acae11de8cc65bed5e68dc69", "0.3.3--pyhdfd78af_0": "sha256:6a4311b7ed0b98449e4e882e74e04e4e351f1e25fa91f3c740d7a924b348c468"}, "docker": "quay.io/biocontainers/afquery", "aliases": {"afquery": "/usr/local/bin/afquery", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "cyvcf2": "/usr/local/bin/cyvcf2", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "ref-cache": "/usr/local/bin/ref-cache", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "coloredlogs": "/usr/local/bin/coloredlogs", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "elasticurl": "/usr/local/bin/elasticurl", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/afquery.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/afquery
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/afquery:0.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/afquery:0.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/afquery/0.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/afquery/0.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/afquery/0.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/afquery/0.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylopypruner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylopypruner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylopypruner/container.yaml"
-updated_at: "2026-05-17 06:42:15.481836"
-latest: "1.2.6--pyhdfd78af_0"
+updated_at: "2026-05-18 07:09:12.059662"
+latest: "1.2.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylopypruner"
 aliases:
  - "phylopypruner"
@@ -15,8 +15,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "1.2.6--pyhdfd78af_0"
+ - "1.2.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for phylopypruner"
-config: {"url": "https://biocontainers.pro/tools/phylopypruner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phylopypruner", "latest": {"1.2.6--pyhdfd78af_0": "sha256:67ed5a08006072d9bafbea8376941ca099e00641b3071cd326fd187703c4f68f"}, "tags": {"1.2.6--pyhdfd78af_0": "sha256:67ed5a08006072d9bafbea8376941ca099e00641b3071cd326fd187703c4f68f"}, "docker": "quay.io/biocontainers/phylopypruner", "aliases": {"phylopypruner": "/usr/local/bin/phylopypruner", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/phylopypruner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phylopypruner", "latest": {"1.2.7--pyhdfd78af_0": "sha256:8ab8b934894af142df9d4fdad087dc3eb45795fd5817a6be4df5cf6747cac29f"}, "tags": {"1.2.6--pyhdfd78af_0": "sha256:67ed5a08006072d9bafbea8376941ca099e00641b3071cd326fd187703c4f68f", "1.2.7--pyhdfd78af_0": "sha256:8ab8b934894af142df9d4fdad087dc3eb45795fd5817a6be4df5cf6747cac29f"}, "docker": "quay.io/biocontainers/phylopypruner", "aliases": {"phylopypruner": "/usr/local/bin/phylopypruner", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylopypruner.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/phylopypruner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phylopypruner:1.2.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phylopypruner:1.2.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phylopypruner/1.2.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/phylopypruner/1.2.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/phylopypruner/1.2.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/phylopypruner/1.2.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
