@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/binge
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for binge
 latest:
-  1.1.1--hdfd78af_0: 
-    sha256:a9c7cac5a542c256ce36e8e4028193447fe994d07de2d6de1c013477af9defff
+  1.1.2--hdfd78af_0: 
+    sha256:16f4159f4f5db38a8df2ec2a9eaf690e019a19aa36c49ce87b7826d96284deab
 tags:
   1.1.0--hdfd78af_0: 
     sha256:d212bb253ae15f743701b2178d1fb5dfe714fd178e9b2fa1a0fc694e0e77fd54
   1.1.1--hdfd78af_0: 
     sha256:a9c7cac5a542c256ce36e8e4028193447fe994d07de2d6de1c013477af9defff
+  1.1.2--hdfd78af_0: 
+    sha256:16f4159f4f5db38a8df2ec2a9eaf690e019a19aa36c49ce87b7826d96284deab
 docker: quay.io/biocontainers/binge
 aliases:
   BINge: /usr/local/bin/BINge
