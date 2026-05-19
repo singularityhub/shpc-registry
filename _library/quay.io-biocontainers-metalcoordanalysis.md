@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metalcoordanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metalcoordanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metalcoordanalysis/container.yaml"
-updated_at: "2026-05-18 07:07:21.834128"
-latest: "0.2.13--pyhdfd78af_0"
+updated_at: "2026-05-19 06:58:36.667786"
+latest: "0.2.14--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metalcoordanalysis"
 aliases:
  - "gemmi"
@@ -18,8 +18,9 @@ aliases:
  - "tqdm"
 versions:
  - "0.2.13--pyhdfd78af_0"
+ - "0.2.14--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metalcoordanalysis"
-config: {"url": "https://biocontainers.pro/tools/metalcoordanalysis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metalcoordanalysis", "latest": {"0.2.13--pyhdfd78af_0": "sha256:704f9cfc833e46e62a7dfc10c3292f43a5e368c542b9a70bceb441902a6ef110"}, "tags": {"0.2.13--pyhdfd78af_0": "sha256:704f9cfc833e46e62a7dfc10c3292f43a5e368c542b9a70bceb441902a6ef110"}, "docker": "quay.io/biocontainers/metalcoordanalysis", "aliases": {"gemmi": "/usr/local/bin/gemmi", "metalCoord": "/usr/local/bin/metalCoord", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/metalcoordanalysis", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metalcoordanalysis", "latest": {"0.2.14--pyhdfd78af_0": "sha256:2bc19eb51e8c1a2fc16552d5917fd5cd6254d63d56813fb705ff242984f63477"}, "tags": {"0.2.13--pyhdfd78af_0": "sha256:704f9cfc833e46e62a7dfc10c3292f43a5e368c542b9a70bceb441902a6ef110", "0.2.14--pyhdfd78af_0": "sha256:2bc19eb51e8c1a2fc16552d5917fd5cd6254d63d56813fb705ff242984f63477"}, "docker": "quay.io/biocontainers/metalcoordanalysis", "aliases": {"gemmi": "/usr/local/bin/gemmi", "metalCoord": "/usr/local/bin/metalCoord", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metalcoordanalysis.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/metalcoordanalysis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metalcoordanalysis:0.2.13--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metalcoordanalysis:0.2.14--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metalcoordanalysis/0.2.13--pyhdfd78af_0
-$ module help quay.io/biocontainers/metalcoordanalysis/0.2.13--pyhdfd78af_0
+$ module load quay.io/biocontainers/metalcoordanalysis/0.2.14--pyhdfd78af_0
+$ module help quay.io/biocontainers/metalcoordanalysis/0.2.14--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beast2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beast2/container.yaml"
-updated_at: "2026-05-18 06:23:35.509349"
-latest: "2.6.3--he65b2d3_2"
+updated_at: "2026-05-19 06:17:01.531235"
+latest: "2.7.7--he65b2d3_0"
 container_url: "https://biocontainers.pro/tools/beast2"
 aliases:
  - "applauncher"
@@ -30,8 +30,9 @@ versions:
  - "2.6.3--hf1b8bbb_0"
  - "2.6.3--hadc2ddb_1"
  - "2.6.3--he65b2d3_2"
+ - "2.7.7--he65b2d3_0"
 description: "shpc-registry automated BioContainers addition for beast2"
-config: {"url": "https://biocontainers.pro/tools/beast2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast2", "latest": {"2.6.3--he65b2d3_2": "sha256:d34d0211431e84d6f27dfb7a13954d51fb1a2597ffbebe2f99bebd2c1a292989"}, "tags": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d", "2.6.3--hadc2ddb_1": "sha256:25798ed4d280574b7f6aa6cb6d32d2abe23d7a70f1dbb589140270358aef887d", "2.6.3--he65b2d3_2": "sha256:d34d0211431e84d6f27dfb7a13954d51fb1a2597ffbebe2f99bebd2c1a292989"}, "docker": "quay.io/biocontainers/beast2", "aliases": {"applauncher": "/usr/local/bin/applauncher", "beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "densitree": "/usr/local/bin/densitree", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "packagemanager": "/usr/local/bin/packagemanager", "treeannotator": "/usr/local/bin/treeannotator", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}, "env": {"DISPLAY": "", "JAVA_HOME": "", "JAVA_ROOT": "", "JAVA_BINDIR": ""}, "features": {"home": true}}
+config: {"url": "https://biocontainers.pro/tools/beast2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast2", "latest": {"2.7.7--he65b2d3_0": "sha256:95a65bc43269286b01835fdbd4f1883b69f6a220adc850876287d2c745cfc1b2"}, "tags": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d", "2.6.3--hadc2ddb_1": "sha256:25798ed4d280574b7f6aa6cb6d32d2abe23d7a70f1dbb589140270358aef887d", "2.6.3--he65b2d3_2": "sha256:d34d0211431e84d6f27dfb7a13954d51fb1a2597ffbebe2f99bebd2c1a292989", "2.7.7--he65b2d3_0": "sha256:95a65bc43269286b01835fdbd4f1883b69f6a220adc850876287d2c745cfc1b2"}, "docker": "quay.io/biocontainers/beast2", "aliases": {"applauncher": "/usr/local/bin/applauncher", "beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "densitree": "/usr/local/bin/densitree", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "packagemanager": "/usr/local/bin/packagemanager", "treeannotator": "/usr/local/bin/treeannotator", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}, "env": {"DISPLAY": "", "JAVA_HOME": "", "JAVA_ROOT": "", "JAVA_BINDIR": ""}, "features": {"home": true}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beast2.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/beast2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/beast2:2.6.3--he65b2d3_2
+$ shpc install quay.io/biocontainers/beast2:2.7.7--he65b2d3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/beast2/2.6.3--he65b2d3_2
-$ module help quay.io/biocontainers/beast2/2.6.3--he65b2d3_2
+$ module load quay.io/biocontainers/beast2/2.7.7--he65b2d3_0
+$ module help quay.io/biocontainers/beast2/2.7.7--he65b2d3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

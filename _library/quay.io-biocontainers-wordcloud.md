@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wordcloud"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wordcloud/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wordcloud/container.yaml"
-updated_at: "2026-05-18 06:37:13.635685"
-latest: "1.9.4"
+updated_at: "2026-05-19 06:30:08.031663"
+latest: "1.9.6"
 container_url: "https://biocontainers.pro/tools/wordcloud"
 aliases:
  - "wordcloud_cli"
@@ -31,8 +31,9 @@ aliases:
  - "opj_dump"
 versions:
  - "1.9.4"
+ - "1.9.6"
 description: "singularity registry hpc automated addition for wordcloud"
-config: {"url": "https://biocontainers.pro/tools/wordcloud", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wordcloud", "latest": {"1.9.4": "sha256:b609f4913a9ebd4e03620d1fc771d665a749482dc29a1e44ef026274947b00dd"}, "tags": {"1.9.4": "sha256:b609f4913a9ebd4e03620d1fc771d665a749482dc29a1e44ef026274947b00dd"}, "docker": "quay.io/biocontainers/wordcloud", "aliases": {"wordcloud_cli": "/usr/local/bin/wordcloud_cli", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/wordcloud", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wordcloud", "latest": {"1.9.6": "sha256:15158870ddc78ddc6d0314e1899ec5f8b63265c536e869f99fdc4abe65b956e3"}, "tags": {"1.9.4": "sha256:b609f4913a9ebd4e03620d1fc771d665a749482dc29a1e44ef026274947b00dd", "1.9.6": "sha256:15158870ddc78ddc6d0314e1899ec5f8b63265c536e869f99fdc4abe65b956e3"}, "docker": "quay.io/biocontainers/wordcloud", "aliases": {"wordcloud_cli": "/usr/local/bin/wordcloud_cli", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wordcloud.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/wordcloud
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wordcloud:1.9.4
+$ shpc install quay.io/biocontainers/wordcloud:1.9.6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wordcloud/1.9.4
-$ module help quay.io/biocontainers/wordcloud/1.9.4
+$ module load quay.io/biocontainers/wordcloud/1.9.6
+$ module help quay.io/biocontainers/wordcloud/1.9.6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

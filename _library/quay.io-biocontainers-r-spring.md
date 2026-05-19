@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-spring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-spring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-spring/container.yaml"
-updated_at: "2026-05-18 07:07:32.592796"
-latest: "1.0.4--r44hdfd78af_3"
+updated_at: "2026-05-19 06:58:46.936700"
+latest: "1.0.4--r45hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-spring"
 aliases:
  - "glpsol"
@@ -13,8 +13,9 @@ versions:
  - "1.0.4--r42hdfd78af_1"
  - "1.0.4--r43hdfd78af_2"
  - "1.0.4--r44hdfd78af_3"
+ - "1.0.4--r45hdfd78af_4"
 description: "singularity registry hpc automated addition for r-spring"
-config: {"url": "https://biocontainers.pro/tools/r-spring", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-spring", "latest": {"1.0.4--r44hdfd78af_3": "sha256:a117ea105ccfbf1e58fc6e8c7e95f120624ccfe1ea34ed6484e07b6a6f1d6c9a"}, "tags": {"1.0.4--r42hdfd78af_1": "sha256:23e173800f588f5de0b7f24d10f0b9a060fceaee2d77ec68cb1dc663cf98a197", "1.0.4--r43hdfd78af_2": "sha256:58252cf4d8678d49f50015428ca760592c6cf37c1c57f0f93deed60bcf354090", "1.0.4--r44hdfd78af_3": "sha256:a117ea105ccfbf1e58fc6e8c7e95f120624ccfe1ea34ed6484e07b6a6f1d6c9a"}, "docker": "quay.io/biocontainers/r-spring", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-spring", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-spring", "latest": {"1.0.4--r45hdfd78af_4": "sha256:120a9b5c18fa61652480c88bf88a281cf8566f01eb12677e6be8ee8e2cd07ee7"}, "tags": {"1.0.4--r42hdfd78af_1": "sha256:23e173800f588f5de0b7f24d10f0b9a060fceaee2d77ec68cb1dc663cf98a197", "1.0.4--r43hdfd78af_2": "sha256:58252cf4d8678d49f50015428ca760592c6cf37c1c57f0f93deed60bcf354090", "1.0.4--r44hdfd78af_3": "sha256:a117ea105ccfbf1e58fc6e8c7e95f120624ccfe1ea34ed6484e07b6a6f1d6c9a", "1.0.4--r45hdfd78af_4": "sha256:120a9b5c18fa61652480c88bf88a281cf8566f01eb12677e6be8ee8e2cd07ee7"}, "docker": "quay.io/biocontainers/r-spring", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-spring.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-spring
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-spring:1.0.4--r44hdfd78af_3
+$ shpc install quay.io/biocontainers/r-spring:1.0.4--r45hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-spring/1.0.4--r44hdfd78af_3
-$ module help quay.io/biocontainers/r-spring/1.0.4--r44hdfd78af_3
+$ module load quay.io/biocontainers/r-spring/1.0.4--r45hdfd78af_4
+$ module help quay.io/biocontainers/r-spring/1.0.4--r45hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

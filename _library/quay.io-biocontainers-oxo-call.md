@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oxo-call"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oxo-call/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oxo-call/container.yaml"
-updated_at: "2026-05-18 06:52:12.148845"
-latest: "0.12.0--h54198d6_0"
+updated_at: "2026-05-19 06:44:19.577444"
+latest: "0.12.1--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/oxo-call"
 aliases:
  - "oxo-call"
@@ -14,8 +14,9 @@ versions:
  - "0.12.0--h54198d6_0"
  - "0.11.0--h54198d6_0"
  - "0.10.0--h54198d6_0"
+ - "0.12.1--h54198d6_0"
 description: "singularity registry hpc automated addition for oxo-call"
-config: {"url": "https://biocontainers.pro/tools/oxo-call", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oxo-call", "latest": {"0.12.0--h54198d6_0": "sha256:71f4a2a2fa70dbacef1678e8ef639b74cd06924b8f43830430ad7bb185f45cbc"}, "tags": {"0.9.2--h54198d6_0": "sha256:9eece5e56aa0b2e7e53aaeb201e4d887a3e9d371b077ef8676a3bb1736a50f9d", "0.12.0--h54198d6_0": "sha256:71f4a2a2fa70dbacef1678e8ef639b74cd06924b8f43830430ad7bb185f45cbc", "0.11.0--h54198d6_0": "sha256:49dfe84eaca28d1b46fd6ebf8198de4a31357ae67e5e25deebeb669b4494229f", "0.10.0--h54198d6_0": "sha256:0e95a01d34f34fe7cae0353d848c415691c3cc95307c1f3eea7dbbf1f8cc1faf"}, "docker": "quay.io/biocontainers/oxo-call", "aliases": {"oxo-call": "/usr/local/bin/oxo-call"}}
+config: {"url": "https://biocontainers.pro/tools/oxo-call", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oxo-call", "latest": {"0.12.1--h54198d6_0": "sha256:aa851a950c3322cc0d24a25c4ca5f26bc2896d89635c8ac4738cb7d9d1160130"}, "tags": {"0.9.2--h54198d6_0": "sha256:9eece5e56aa0b2e7e53aaeb201e4d887a3e9d371b077ef8676a3bb1736a50f9d", "0.12.0--h54198d6_0": "sha256:71f4a2a2fa70dbacef1678e8ef639b74cd06924b8f43830430ad7bb185f45cbc", "0.11.0--h54198d6_0": "sha256:49dfe84eaca28d1b46fd6ebf8198de4a31357ae67e5e25deebeb669b4494229f", "0.10.0--h54198d6_0": "sha256:0e95a01d34f34fe7cae0353d848c415691c3cc95307c1f3eea7dbbf1f8cc1faf", "0.12.1--h54198d6_0": "sha256:aa851a950c3322cc0d24a25c4ca5f26bc2896d89635c8ac4738cb7d9d1160130"}, "docker": "quay.io/biocontainers/oxo-call", "aliases": {"oxo-call": "/usr/local/bin/oxo-call"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oxo-call.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/oxo-call
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oxo-call:0.12.0--h54198d6_0
+$ shpc install quay.io/biocontainers/oxo-call:0.12.1--h54198d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oxo-call/0.12.0--h54198d6_0
-$ module help quay.io/biocontainers/oxo-call/0.12.0--h54198d6_0
+$ module load quay.io/biocontainers/oxo-call/0.12.1--h54198d6_0
+$ module help quay.io/biocontainers/oxo-call/0.12.1--h54198d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

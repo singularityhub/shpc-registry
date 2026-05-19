@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/a-liner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/a-liner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/a-liner/container.yaml"
-updated_at: "2026-05-18 06:37:43.362546"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-05-19 06:30:36.898856"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/a-liner"
 aliases:
  - "a-liner"
@@ -36,8 +36,9 @@ aliases:
  - "get_scores_in_intervals.py"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for a-liner"
-config: {"url": "https://biocontainers.pro/tools/a-liner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for a-liner", "latest": {"1.0.0--pyhdfd78af_0": "sha256:68a570fa7375e73c2ac0bce9faefe456dcd2a1e11261559ed06737046f0ee979"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:68a570fa7375e73c2ac0bce9faefe456dcd2a1e11261559ed06737046f0ee979"}, "docker": "quay.io/biocontainers/a-liner", "aliases": {"a-liner": "/usr/local/bin/a-liner", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py", "bed_count_overlapping.py": "/usr/local/bin/bed_count_overlapping.py", "bed_coverage.py": "/usr/local/bin/bed_coverage.py", "bed_coverage_by_interval.py": "/usr/local/bin/bed_coverage_by_interval.py", "bed_diff_basewise_summary.py": "/usr/local/bin/bed_diff_basewise_summary.py", "bed_extend_to.py": "/usr/local/bin/bed_extend_to.py", "bed_intersect.py": "/usr/local/bin/bed_intersect.py", "bed_intersect_basewise.py": "/usr/local/bin/bed_intersect_basewise.py", "bed_merge_overlapping.py": "/usr/local/bin/bed_merge_overlapping.py", "bed_rand_intersect.py": "/usr/local/bin/bed_rand_intersect.py", "bed_subtract_basewise.py": "/usr/local/bin/bed_subtract_basewise.py", "bnMapper.py": "/usr/local/bin/bnMapper.py", "div_snp_table_chr.py": "/usr/local/bin/div_snp_table_chr.py", "find_in_sorted_file.py": "/usr/local/bin/find_in_sorted_file.py", "gene_fourfold_sites.py": "/usr/local/bin/gene_fourfold_sites.py", "get_scores_in_intervals.py": "/usr/local/bin/get_scores_in_intervals.py"}}
+config: {"url": "https://biocontainers.pro/tools/a-liner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for a-liner", "latest": {"1.1.1--pyhdfd78af_0": "sha256:33cdad80864437d76f4ee371af56fa0df0b360fe693b16228037952dc1397f9a"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:68a570fa7375e73c2ac0bce9faefe456dcd2a1e11261559ed06737046f0ee979", "1.1.1--pyhdfd78af_0": "sha256:33cdad80864437d76f4ee371af56fa0df0b360fe693b16228037952dc1397f9a"}, "docker": "quay.io/biocontainers/a-liner", "aliases": {"a-liner": "/usr/local/bin/a-liner", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py", "bed_count_overlapping.py": "/usr/local/bin/bed_count_overlapping.py", "bed_coverage.py": "/usr/local/bin/bed_coverage.py", "bed_coverage_by_interval.py": "/usr/local/bin/bed_coverage_by_interval.py", "bed_diff_basewise_summary.py": "/usr/local/bin/bed_diff_basewise_summary.py", "bed_extend_to.py": "/usr/local/bin/bed_extend_to.py", "bed_intersect.py": "/usr/local/bin/bed_intersect.py", "bed_intersect_basewise.py": "/usr/local/bin/bed_intersect_basewise.py", "bed_merge_overlapping.py": "/usr/local/bin/bed_merge_overlapping.py", "bed_rand_intersect.py": "/usr/local/bin/bed_rand_intersect.py", "bed_subtract_basewise.py": "/usr/local/bin/bed_subtract_basewise.py", "bnMapper.py": "/usr/local/bin/bnMapper.py", "div_snp_table_chr.py": "/usr/local/bin/div_snp_table_chr.py", "find_in_sorted_file.py": "/usr/local/bin/find_in_sorted_file.py", "gene_fourfold_sites.py": "/usr/local/bin/gene_fourfold_sites.py", "get_scores_in_intervals.py": "/usr/local/bin/get_scores_in_intervals.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/a-liner.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/a-liner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/a-liner:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/a-liner:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/a-liner/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/a-liner/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/a-liner/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/a-liner/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

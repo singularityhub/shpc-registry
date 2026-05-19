@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/revtag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/revtag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/revtag/container.yaml"
-updated_at: "2026-05-18 06:58:28.545021"
+updated_at: "2026-05-19 06:50:10.666607"
 latest: "1.0.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/revtag"
 aliases:
