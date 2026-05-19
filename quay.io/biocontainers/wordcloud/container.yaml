@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/wordcloud
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for wordcloud
 latest:
-  1.9.4: sha256:b609f4913a9ebd4e03620d1fc771d665a749482dc29a1e44ef026274947b00dd
+  1.9.6: sha256:15158870ddc78ddc6d0314e1899ec5f8b63265c536e869f99fdc4abe65b956e3
 tags:
   1.9.4: sha256:b609f4913a9ebd4e03620d1fc771d665a749482dc29a1e44ef026274947b00dd
+  1.9.6: sha256:15158870ddc78ddc6d0314e1899ec5f8b63265c536e869f99fdc4abe65b956e3
 docker: quay.io/biocontainers/wordcloud
 aliases:
   wordcloud_cli: /usr/local/bin/wordcloud_cli

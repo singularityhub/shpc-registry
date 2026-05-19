@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/a-liner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for a-liner
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:68a570fa7375e73c2ac0bce9faefe456dcd2a1e11261559ed06737046f0ee979
+  1.1.1--pyhdfd78af_0: 
+    sha256:33cdad80864437d76f4ee371af56fa0df0b360fe693b16228037952dc1397f9a
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:68a570fa7375e73c2ac0bce9faefe456dcd2a1e11261559ed06737046f0ee979
+  1.1.1--pyhdfd78af_0: 
+    sha256:33cdad80864437d76f4ee371af56fa0df0b360fe693b16228037952dc1397f9a
 docker: quay.io/biocontainers/a-liner
 aliases:
   a-liner: /usr/local/bin/a-liner
