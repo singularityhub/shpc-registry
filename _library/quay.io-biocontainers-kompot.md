@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kompot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kompot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kompot/container.yaml"
-updated_at: "2026-05-19 06:47:18.294975"
+updated_at: "2026-05-20 06:39:29.053878"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kompot"
 aliases:

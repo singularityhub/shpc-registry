@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/immunotype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/immunotype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/immunotype/container.yaml"
-updated_at: "2026-05-19 06:57:10.930402"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-05-20 06:47:23.666219"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/immunotype"
 aliases:
  - "email_validator"
@@ -51,8 +51,9 @@ aliases:
  - "h264enc"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for immunotype"
-config: {"url": "https://biocontainers.pro/tools/immunotype", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for immunotype", "latest": {"1.0.2--pyhdfd78af_0": "sha256:07bb3b4ec03ae3728ba2b71401390c21b907899851c9cd3456e4aa0316f315d0"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:07bb3b4ec03ae3728ba2b71401390c21b907899851c9cd3456e4aa0316f315d0"}, "docker": "quay.io/biocontainers/immunotype", "aliases": {"email_validator": "/usr/local/bin/email_validator", "fastapi": "/usr/local/bin/fastapi", "glslang": "/usr/local/bin/glslang", "glslangValidator": "/usr/local/bin/glslangValidator", "glslc": "/usr/local/bin/glslc", "gradio": "/usr/local/bin/gradio", "hf": "/usr/local/bin/hf", "hf-gradio": "/usr/local/bin/hf-gradio", "immunotype": "/usr/local/bin/immunotype", "immunotype-app": "/usr/local/bin/immunotype-app", "ruff": "/usr/local/bin/ruff", "spirv-diff": "/usr/local/bin/spirv-diff", "upload_theme": "/usr/local/bin/upload_theme", "uvicorn": "/usr/local/bin/uvicorn", "watchfiles": "/usr/local/bin/watchfiles", "websockets": "/usr/local/bin/websockets", "tiny-agents": "/usr/local/bin/tiny-agents", "ffplay": "/usr/local/bin/ffplay", "sdl2-config": "/usr/local/bin/sdl2-config", "spirv-as": "/usr/local/bin/spirv-as", "spirv-cfg": "/usr/local/bin/spirv-cfg", "spirv-dis": "/usr/local/bin/spirv-dis", "spirv-lesspipe.sh": "/usr/local/bin/spirv-lesspipe.sh", "spirv-link": "/usr/local/bin/spirv-link", "spirv-lint": "/usr/local/bin/spirv-lint", "spirv-objdump": "/usr/local/bin/spirv-objdump", "spirv-opt": "/usr/local/bin/spirv-opt", "spirv-reduce": "/usr/local/bin/spirv-reduce", "spirv-val": "/usr/local/bin/spirv-val", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "cllayerinfo": "/usr/local/bin/cllayerinfo", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc"}}
+config: {"url": "https://biocontainers.pro/tools/immunotype", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for immunotype", "latest": {"1.0.3--pyhdfd78af_0": "sha256:0394dbd925174277809898b43d048d6e08a075692bb5020d5a1fcdb8ee61afc1"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:07bb3b4ec03ae3728ba2b71401390c21b907899851c9cd3456e4aa0316f315d0", "1.0.3--pyhdfd78af_0": "sha256:0394dbd925174277809898b43d048d6e08a075692bb5020d5a1fcdb8ee61afc1"}, "docker": "quay.io/biocontainers/immunotype", "aliases": {"email_validator": "/usr/local/bin/email_validator", "fastapi": "/usr/local/bin/fastapi", "glslang": "/usr/local/bin/glslang", "glslangValidator": "/usr/local/bin/glslangValidator", "glslc": "/usr/local/bin/glslc", "gradio": "/usr/local/bin/gradio", "hf": "/usr/local/bin/hf", "hf-gradio": "/usr/local/bin/hf-gradio", "immunotype": "/usr/local/bin/immunotype", "immunotype-app": "/usr/local/bin/immunotype-app", "ruff": "/usr/local/bin/ruff", "spirv-diff": "/usr/local/bin/spirv-diff", "upload_theme": "/usr/local/bin/upload_theme", "uvicorn": "/usr/local/bin/uvicorn", "watchfiles": "/usr/local/bin/watchfiles", "websockets": "/usr/local/bin/websockets", "tiny-agents": "/usr/local/bin/tiny-agents", "ffplay": "/usr/local/bin/ffplay", "sdl2-config": "/usr/local/bin/sdl2-config", "spirv-as": "/usr/local/bin/spirv-as", "spirv-cfg": "/usr/local/bin/spirv-cfg", "spirv-dis": "/usr/local/bin/spirv-dis", "spirv-lesspipe.sh": "/usr/local/bin/spirv-lesspipe.sh", "spirv-link": "/usr/local/bin/spirv-link", "spirv-lint": "/usr/local/bin/spirv-lint", "spirv-objdump": "/usr/local/bin/spirv-objdump", "spirv-opt": "/usr/local/bin/spirv-opt", "spirv-reduce": "/usr/local/bin/spirv-reduce", "spirv-val": "/usr/local/bin/spirv-val", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "cllayerinfo": "/usr/local/bin/cllayerinfo", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/immunotype.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/immunotype
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/immunotype:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/immunotype:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/immunotype/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/immunotype/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/immunotype/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/immunotype/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

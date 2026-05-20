@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-glmsparsenet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glmsparsenet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glmsparsenet/container.yaml"
-updated_at: "2026-05-19 06:47:28.771849"
+updated_at: "2026-05-20 06:39:37.628268"
 latest: "1.24.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-glmsparsenet"
 aliases:

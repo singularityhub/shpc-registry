@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-maldirppa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-maldirppa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-maldirppa/container.yaml"
-updated_at: "2026-05-19 06:57:42.686079"
+updated_at: "2026-05-20 06:47:48.865248"
 latest: "1.0.1--r351h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-maldirppa"
 aliases:
