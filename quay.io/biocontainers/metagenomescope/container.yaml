@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/metagenomescope
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metagenomescope
 latest:
-  1.1.0--pyh78e5384_0: 
-    sha256:4fc162dd4ddf51573a98af484c137d81477581361ca4b04e15dc666d7253dc75
+  1.3.0--pyh78e5384_0: 
+    sha256:d1160fbbb5284742cb96d6429573a6a4675ed1033430819f7b2138549d7b8260
 tags:
   1.1.0--pyh78e5384_0: 
     sha256:4fc162dd4ddf51573a98af484c137d81477581361ca4b04e15dc666d7253dc75
+  1.3.0--pyh78e5384_0: 
+    sha256:d1160fbbb5284742cb96d6429573a6a4675ed1033430819f7b2138549d7b8260
+  1.2.0--pyh78e5384_0: 
+    sha256:526fc2e76a73d07e364b2db8ec09d0848b8542881e8f2a7c9933d0cae0299a7f
 docker: quay.io/biocontainers/metagenomescope
 aliases:
   dash-update-components: /usr/local/bin/dash-update-components

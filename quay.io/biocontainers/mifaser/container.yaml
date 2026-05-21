@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mifaser
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mifaser
 latest:
-  1.60--pyh106432d_0: 
-    sha256:c9d90099e0c11a6595874a38f66ae7d8371cb0ad851d21bbd99bdecb7c00acb2
+  1.64--pyh106432d_0: 
+    sha256:7dbce557fc99665b1efc577411378c56d7043bee2a9068a34c3774cef63ca3f2
 tags:
   1.60--pyh106432d_0: 
     sha256:c9d90099e0c11a6595874a38f66ae7d8371cb0ad851d21bbd99bdecb7c00acb2
+  1.64--pyh106432d_0: 
+    sha256:7dbce557fc99665b1efc577411378c56d7043bee2a9068a34c3774cef63ca3f2
 docker: quay.io/biocontainers/mifaser
 aliases:
   abi-dump.3.4.1: /usr/local/bin/abi-dump.3.4.1
