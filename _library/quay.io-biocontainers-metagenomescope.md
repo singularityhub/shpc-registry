@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metagenomescope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagenomescope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagenomescope/container.yaml"
-updated_at: "2026-05-20 06:32:07.455339"
-latest: "1.1.0--pyh78e5384_0"
+updated_at: "2026-05-21 06:40:34.524096"
+latest: "1.3.0--pyh78e5384_0"
 container_url: "https://biocontainers.pro/tools/metagenomescope"
 aliases:
  - "dash-update-components"
@@ -42,8 +42,10 @@ aliases:
  - "gts2dxf"
 versions:
  - "1.1.0--pyh78e5384_0"
+ - "1.3.0--pyh78e5384_0"
+ - "1.2.0--pyh78e5384_0"
 description: "singularity registry hpc automated addition for metagenomescope"
-config: {"url": "https://biocontainers.pro/tools/metagenomescope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metagenomescope", "latest": {"1.1.0--pyh78e5384_0": "sha256:4fc162dd4ddf51573a98af484c137d81477581361ca4b04e15dc666d7253dc75"}, "tags": {"1.1.0--pyh78e5384_0": "sha256:4fc162dd4ddf51573a98af484c137d81477581361ca4b04e15dc666d7253dc75"}, "docker": "quay.io/biocontainers/metagenomescope", "aliases": {"dash-update-components": "/usr/local/bin/dash-update-components", "gfapy-convert": "/usr/local/bin/gfapy-convert", "gfapy-mergelinear": "/usr/local/bin/gfapy-mergelinear", "gfapy-renumber": "/usr/local/bin/gfapy-renumber", "gfapy-validate": "/usr/local/bin/gfapy-validate", "mgsc": "/usr/local/bin/mgsc", "plotly": "/usr/local/bin/plotly", "renderer": "/usr/local/bin/renderer", "dash-generate-components": "/usr/local/bin/dash-generate-components", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "dot_sandbox": "/usr/local/bin/dot_sandbox", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "flask": "/usr/local/bin/flask", "wayland-scanner": "/usr/local/bin/wayland-scanner", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "xkbcli": "/usr/local/bin/xkbcli", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf"}}
+config: {"url": "https://biocontainers.pro/tools/metagenomescope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metagenomescope", "latest": {"1.3.0--pyh78e5384_0": "sha256:d1160fbbb5284742cb96d6429573a6a4675ed1033430819f7b2138549d7b8260"}, "tags": {"1.1.0--pyh78e5384_0": "sha256:4fc162dd4ddf51573a98af484c137d81477581361ca4b04e15dc666d7253dc75", "1.3.0--pyh78e5384_0": "sha256:d1160fbbb5284742cb96d6429573a6a4675ed1033430819f7b2138549d7b8260", "1.2.0--pyh78e5384_0": "sha256:526fc2e76a73d07e364b2db8ec09d0848b8542881e8f2a7c9933d0cae0299a7f"}, "docker": "quay.io/biocontainers/metagenomescope", "aliases": {"dash-update-components": "/usr/local/bin/dash-update-components", "gfapy-convert": "/usr/local/bin/gfapy-convert", "gfapy-mergelinear": "/usr/local/bin/gfapy-mergelinear", "gfapy-renumber": "/usr/local/bin/gfapy-renumber", "gfapy-validate": "/usr/local/bin/gfapy-validate", "mgsc": "/usr/local/bin/mgsc", "plotly": "/usr/local/bin/plotly", "renderer": "/usr/local/bin/renderer", "dash-generate-components": "/usr/local/bin/dash-generate-components", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "dot_sandbox": "/usr/local/bin/dot_sandbox", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "flask": "/usr/local/bin/flask", "wayland-scanner": "/usr/local/bin/wayland-scanner", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "xkbcli": "/usr/local/bin/xkbcli", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metagenomescope.
@@ -58,7 +60,7 @@ $ shpc install quay.io/biocontainers/metagenomescope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metagenomescope:1.1.0--pyh78e5384_0
+$ shpc install quay.io/biocontainers/metagenomescope:1.3.0--pyh78e5384_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metagenomescope/1.1.0--pyh78e5384_0
-$ module help quay.io/biocontainers/metagenomescope/1.1.0--pyh78e5384_0
+$ module load quay.io/biocontainers/metagenomescope/1.3.0--pyh78e5384_0
+$ module help quay.io/biocontainers/metagenomescope/1.3.0--pyh78e5384_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

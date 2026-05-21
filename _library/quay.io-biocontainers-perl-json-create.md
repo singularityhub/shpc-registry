@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-json-create"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-create/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-create/container.yaml"
-updated_at: "2026-05-20 06:25:54.593531"
-latest: "0.35--pl5321h7b50bb2_5"
+updated_at: "2026-05-21 06:32:35.037339"
+latest: "0.36--pl5321h87e0c26_0"
 container_url: "https://biocontainers.pro/tools/perl-json-create"
 aliases:
  - "validjson"
@@ -17,8 +17,9 @@ versions:
  - "0.35--pl5321h031d066_3"
  - "0.35--pl5321h7b50bb2_4"
  - "0.35--pl5321h7b50bb2_5"
+ - "0.36--pl5321h87e0c26_0"
 description: "shpc-registry automated BioContainers addition for perl-json-create"
-config: {"url": "https://biocontainers.pro/tools/perl-json-create", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json-create", "latest": {"0.35--pl5321h7b50bb2_5": "sha256:bdd37fb9dff6b1f4a48f055a52720ff0680f35e06ea6dce08378d7d8e2b4d4e7"}, "tags": {"0.35--pl5321hec16e2b_1": "sha256:e8532e8a7283032edad5d186dafc7d5b7797e22eb1d11981b0ec438db17909a4", "0.35--pl5321h031d066_2": "sha256:847328562def0f87ddcc3cb63fd3b86ec5c7ec86882787f3c3ff3c487807857f", "0.35--pl5321h031d066_3": "sha256:c8846ad65898547ab36068ba5edef8ff5ec2c79a5e9cb90d720ca62afa921230", "0.35--pl5321h7b50bb2_4": "sha256:a29629395ec2f235789692ea3d46897c372c85df6ac4fae87aeee2032a441c18", "0.35--pl5321h7b50bb2_5": "sha256:bdd37fb9dff6b1f4a48f055a52720ff0680f35e06ea6dce08378d7d8e2b4d4e7"}, "docker": "quay.io/biocontainers/perl-json-create", "aliases": {"validjson": "/usr/local/bin/validjson", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-json-create", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json-create", "latest": {"0.36--pl5321h87e0c26_0": "sha256:902fbbfd0e4dbed44b1585597fcfcfc16c0006c84037930d3b296336e4ff2093"}, "tags": {"0.35--pl5321hec16e2b_1": "sha256:e8532e8a7283032edad5d186dafc7d5b7797e22eb1d11981b0ec438db17909a4", "0.35--pl5321h031d066_2": "sha256:847328562def0f87ddcc3cb63fd3b86ec5c7ec86882787f3c3ff3c487807857f", "0.35--pl5321h031d066_3": "sha256:c8846ad65898547ab36068ba5edef8ff5ec2c79a5e9cb90d720ca62afa921230", "0.35--pl5321h7b50bb2_4": "sha256:a29629395ec2f235789692ea3d46897c372c85df6ac4fae87aeee2032a441c18", "0.35--pl5321h7b50bb2_5": "sha256:bdd37fb9dff6b1f4a48f055a52720ff0680f35e06ea6dce08378d7d8e2b4d4e7", "0.36--pl5321h87e0c26_0": "sha256:902fbbfd0e4dbed44b1585597fcfcfc16c0006c84037930d3b296336e4ff2093"}, "docker": "quay.io/biocontainers/perl-json-create", "aliases": {"validjson": "/usr/local/bin/validjson", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-json-create.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/perl-json-create
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-json-create:0.35--pl5321h7b50bb2_5
+$ shpc install quay.io/biocontainers/perl-json-create:0.36--pl5321h87e0c26_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-json-create/0.35--pl5321h7b50bb2_5
-$ module help quay.io/biocontainers/perl-json-create/0.35--pl5321h7b50bb2_5
+$ module load quay.io/biocontainers/perl-json-create/0.36--pl5321h87e0c26_0
+$ module help quay.io/biocontainers/perl-json-create/0.36--pl5321h87e0c26_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

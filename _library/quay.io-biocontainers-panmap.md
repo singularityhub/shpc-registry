@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panmap/container.yaml"
-updated_at: "2026-05-20 06:32:17.636594"
+updated_at: "2026-05-21 06:40:47.589843"
 latest: "0.1.1--0"
 container_url: "https://biocontainers.pro/tools/panmap"
 aliases:

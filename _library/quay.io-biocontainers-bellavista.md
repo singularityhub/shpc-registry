@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bellavista"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bellavista/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bellavista/container.yaml"
-updated_at: "2026-05-20 06:26:32.445248"
-latest: "0.0.2--pyhdfd78af_1"
+updated_at: "2026-05-21 06:33:24.403768"
+latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bellavista"
 aliases:
  - "bellavista"
@@ -54,8 +54,9 @@ aliases:
  - "rst2xetex"
 versions:
  - "0.0.2--pyhdfd78af_1"
+ - "0.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bellavista"
-config: {"url": "https://biocontainers.pro/tools/bellavista", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bellavista", "latest": {"0.0.2--pyhdfd78af_1": "sha256:ff29407f9f29cd991d85499d42403de1b06369391ffa8be3edb9ddd17d979f3a"}, "tags": {"0.0.2--pyhdfd78af_1": "sha256:ff29407f9f29cd991d85499d42403de1b06369391ffa8be3edb9ddd17d979f3a"}, "docker": "quay.io/biocontainers/bellavista", "aliases": {"bellavista": "/usr/local/bin/bellavista", "debugpy": "/usr/local/bin/debugpy", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "napari": "/usr/local/bin/napari", "npe2": "/usr/local/bin/npe2", "numpydoc": "/usr/local/bin/numpydoc", "ome_zarr": "/usr/local/bin/ome_zarr", "pax11publish": "/usr/local/bin/pax11publish", "pint-convert": "/usr/local/bin/pint-convert", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "qtpy": "/usr/local/bin/qtpy", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "typer": "/usr/local/bin/typer", "dotenv": "/usr/local/bin/dotenv", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex"}}
+config: {"url": "https://biocontainers.pro/tools/bellavista", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bellavista", "latest": {"0.1.0--pyhdfd78af_0": "sha256:9b19501ca382e005ba64a958af52362681e1d4f171d593f40fb7d22b874d7f73"}, "tags": {"0.0.2--pyhdfd78af_1": "sha256:ff29407f9f29cd991d85499d42403de1b06369391ffa8be3edb9ddd17d979f3a", "0.1.0--pyhdfd78af_0": "sha256:9b19501ca382e005ba64a958af52362681e1d4f171d593f40fb7d22b874d7f73"}, "docker": "quay.io/biocontainers/bellavista", "aliases": {"bellavista": "/usr/local/bin/bellavista", "debugpy": "/usr/local/bin/debugpy", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "napari": "/usr/local/bin/napari", "npe2": "/usr/local/bin/npe2", "numpydoc": "/usr/local/bin/numpydoc", "ome_zarr": "/usr/local/bin/ome_zarr", "pax11publish": "/usr/local/bin/pax11publish", "pint-convert": "/usr/local/bin/pint-convert", "protoc-29.3.0": "/usr/local/bin/protoc-29.3.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upb-29.3.0": "/usr/local/bin/protoc-gen-upb-29.3.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "protoc-gen-upb_minitable-29.3.0": "/usr/local/bin/protoc-gen-upb_minitable-29.3.0", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "protoc-gen-upbdefs-29.3.0": "/usr/local/bin/protoc-gen-upbdefs-29.3.0", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "qtpy": "/usr/local/bin/qtpy", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "typer": "/usr/local/bin/typer", "dotenv": "/usr/local/bin/dotenv", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bellavista.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/bellavista
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bellavista:0.0.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/bellavista:0.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bellavista/0.0.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/bellavista/0.0.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/bellavista/0.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/bellavista/0.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

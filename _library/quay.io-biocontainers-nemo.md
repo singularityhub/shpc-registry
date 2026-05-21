@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/nemo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nemo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nemo/container.yaml"
-updated_at: "2026-05-20 06:43:41.466088"
-latest: "2.3.51--h1c77041_2"
+updated_at: "2026-05-21 06:55:23.001065"
+latest: "2.4.0--h73945c6_0"
 container_url: "https://biocontainers.pro/tools/nemo"
 
 versions:
  - "2.3.51--h1c77041_2"
+ - "2.4.0--h73945c6_0"
 description: "shpc-registry automated BioContainers addition for nemo"
-config: {"url": "https://biocontainers.pro/tools/nemo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nemo", "latest": {"2.3.51--h1c77041_2": "sha256:f31653d21d25f5a27443e4ab5ae4870f64ba47422e1f50f369850ad96d12ca99"}, "tags": {"2.3.51--h1c77041_2": "sha256:f31653d21d25f5a27443e4ab5ae4870f64ba47422e1f50f369850ad96d12ca99"}, "docker": "quay.io/biocontainers/nemo"}
+config: {"url": "https://biocontainers.pro/tools/nemo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nemo", "latest": {"2.4.0--h73945c6_0": "sha256:c883183ccdbeecda7f3d4d0810aeeff80ffee5a937e5c41fc437a69b9b701e8e"}, "tags": {"2.3.51--h1c77041_2": "sha256:f31653d21d25f5a27443e4ab5ae4870f64ba47422e1f50f369850ad96d12ca99", "2.4.0--h73945c6_0": "sha256:c883183ccdbeecda7f3d4d0810aeeff80ffee5a937e5c41fc437a69b9b701e8e"}, "docker": "quay.io/biocontainers/nemo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nemo.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/nemo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nemo:2.3.51--h1c77041_2
+$ shpc install quay.io/biocontainers/nemo:2.4.0--h73945c6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nemo/2.3.51--h1c77041_2
-$ module help quay.io/biocontainers/nemo/2.3.51--h1c77041_2
+$ module load quay.io/biocontainers/nemo/2.4.0--h73945c6_0
+$ module help quay.io/biocontainers/nemo/2.4.0--h73945c6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

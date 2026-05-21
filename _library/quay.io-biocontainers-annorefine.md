@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/annorefine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annorefine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annorefine/container.yaml"
-updated_at: "2026-05-20 06:51:41.192793"
-latest: "2026.2.22--py313h2ab1dba_0"
+updated_at: "2026-05-21 07:05:47.386596"
+latest: "2026.2.22--py310hc22b23e_1"
 container_url: "https://biocontainers.pro/tools/annorefine"
 aliases:
  - "annorefine"
@@ -15,8 +15,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "2026.2.22--py313h2ab1dba_0"
+ - "2026.2.22--py310hc22b23e_1"
 description: "singularity registry hpc automated addition for annorefine"
-config: {"url": "https://biocontainers.pro/tools/annorefine", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annorefine", "latest": {"2026.2.22--py313h2ab1dba_0": "sha256:be14c5a786ac8dfcfff21572b94650faac6f7462e9983ef26b3b544dad56cd91"}, "tags": {"2026.2.22--py313h2ab1dba_0": "sha256:be14c5a786ac8dfcfff21572b94650faac6f7462e9983ef26b3b544dad56cd91"}, "docker": "quay.io/biocontainers/annorefine", "aliases": {"annorefine": "/usr/local/bin/annorefine", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/annorefine", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annorefine", "latest": {"2026.2.22--py310hc22b23e_1": "sha256:96d6533c12f542725d65b29ad4a4ee5f95481859678c67c4f361e38e2e046764"}, "tags": {"2026.2.22--py313h2ab1dba_0": "sha256:be14c5a786ac8dfcfff21572b94650faac6f7462e9983ef26b3b544dad56cd91", "2026.2.22--py310hc22b23e_1": "sha256:96d6533c12f542725d65b29ad4a4ee5f95481859678c67c4f361e38e2e046764"}, "docker": "quay.io/biocontainers/annorefine", "aliases": {"annorefine": "/usr/local/bin/annorefine", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/annorefine.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/annorefine
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/annorefine:2026.2.22--py313h2ab1dba_0
+$ shpc install quay.io/biocontainers/annorefine:2026.2.22--py310hc22b23e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/annorefine/2026.2.22--py313h2ab1dba_0
-$ module help quay.io/biocontainers/annorefine/2026.2.22--py313h2ab1dba_0
+$ module load quay.io/biocontainers/annorefine/2026.2.22--py310hc22b23e_1
+$ module help quay.io/biocontainers/annorefine/2026.2.22--py310hc22b23e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

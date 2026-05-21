@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/permucn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/permucn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/permucn/container.yaml"
-updated_at: "2026-05-20 06:48:13.540373"
+updated_at: "2026-05-21 07:01:14.350984"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/permucn"
 aliases:

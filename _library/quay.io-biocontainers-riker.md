@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/riker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riker/container.yaml"
-updated_at: "2026-05-20 06:31:16.321873"
-latest: "0.1.0--h4349ce8_0"
+updated_at: "2026-05-21 06:39:28.936746"
+latest: "0.2.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/riker"
 aliases:
  - "riker"
 versions:
  - "0.1.0--h4349ce8_0"
+ - "0.2.0--hec9b1f2_0"
 description: "singularity registry hpc automated addition for riker"
-config: {"url": "https://biocontainers.pro/tools/riker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for riker", "latest": {"0.1.0--h4349ce8_0": "sha256:1cad1e50aab83e434f894800d7f4d9a3a24a26e02f8e5e87a05872d0b5707d8c"}, "tags": {"0.1.0--h4349ce8_0": "sha256:1cad1e50aab83e434f894800d7f4d9a3a24a26e02f8e5e87a05872d0b5707d8c"}, "docker": "quay.io/biocontainers/riker", "aliases": {"riker": "/usr/local/bin/riker"}}
+config: {"url": "https://biocontainers.pro/tools/riker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for riker", "latest": {"0.2.0--hec9b1f2_0": "sha256:794ac0e85d2ee714a1d1f844577c81d027853460e818eb9b34dea53add206bec"}, "tags": {"0.1.0--h4349ce8_0": "sha256:1cad1e50aab83e434f894800d7f4d9a3a24a26e02f8e5e87a05872d0b5707d8c", "0.2.0--hec9b1f2_0": "sha256:794ac0e85d2ee714a1d1f844577c81d027853460e818eb9b34dea53add206bec"}, "docker": "quay.io/biocontainers/riker", "aliases": {"riker": "/usr/local/bin/riker"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riker.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/riker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/riker:0.1.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/riker:0.2.0--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/riker/0.1.0--h4349ce8_0
-$ module help quay.io/biocontainers/riker/0.1.0--h4349ce8_0
+$ module load quay.io/biocontainers/riker/0.2.0--hec9b1f2_0
+$ module help quay.io/biocontainers/riker/0.2.0--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

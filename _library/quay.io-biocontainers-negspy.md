@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/negspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/negspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/negspy/container.yaml"
-updated_at: "2026-05-20 06:31:00.294162"
-latest: "0.2.24--pyh7e72e81_0"
+updated_at: "2026-05-21 06:39:08.535258"
+latest: "0.3.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/negspy"
 aliases:
  - "chr_pos_to_genome_pos.py"
@@ -17,8 +17,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.2.24--pyh7e72e81_0"
+ - "0.3.2--pyh106432d_0"
 description: "singularity registry hpc automated addition for negspy"
-config: {"url": "https://biocontainers.pro/tools/negspy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for negspy", "latest": {"0.2.24--pyh7e72e81_0": "sha256:2fdf7711e7e6998933a2b88346c5fe082d457af09af2070a78dba9813faed3a7"}, "tags": {"0.2.24--pyh7e72e81_0": "sha256:2fdf7711e7e6998933a2b88346c5fe082d457af09af2070a78dba9813faed3a7"}, "docker": "quay.io/biocontainers/negspy", "aliases": {"chr_pos_to_genome_pos.py": "/usr/local/bin/chr_pos_to_genome_pos.py", "create_chrominfo.py": "/usr/local/bin/create_chrominfo.py", "make_triangular.py": "/usr/local/bin/make_triangular.py", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/negspy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for negspy", "latest": {"0.3.2--pyh106432d_0": "sha256:b86bb998192ac33bea47feb571be6d45aecff7c9eb2e524a88695bbf0aca5add"}, "tags": {"0.2.24--pyh7e72e81_0": "sha256:2fdf7711e7e6998933a2b88346c5fe082d457af09af2070a78dba9813faed3a7", "0.3.2--pyh106432d_0": "sha256:b86bb998192ac33bea47feb571be6d45aecff7c9eb2e524a88695bbf0aca5add"}, "docker": "quay.io/biocontainers/negspy", "aliases": {"chr_pos_to_genome_pos.py": "/usr/local/bin/chr_pos_to_genome_pos.py", "create_chrominfo.py": "/usr/local/bin/create_chrominfo.py", "make_triangular.py": "/usr/local/bin/make_triangular.py", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/negspy.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/negspy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/negspy:0.2.24--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/negspy:0.3.2--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/negspy/0.2.24--pyh7e72e81_0
-$ module help quay.io/biocontainers/negspy/0.2.24--pyh7e72e81_0
+$ module load quay.io/biocontainers/negspy/0.3.2--pyh106432d_0
+$ module help quay.io/biocontainers/negspy/0.3.2--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

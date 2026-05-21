@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/alphafill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alphafill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alphafill/container.yaml"
-updated_at: "2026-05-20 06:36:38.472910"
-latest: "2.2.0--haf24da9_0"
+updated_at: "2026-05-21 06:46:20.781420"
+latest: "2.3.0--h7f3286b_0"
 container_url: "https://biocontainers.pro/tools/alphafill"
 aliases:
  - "alphafill"
 versions:
  - "2.2.0--haf24da9_0"
+ - "2.3.0--h7f3286b_0"
 description: "singularity registry hpc automated addition for alphafill"
-config: {"url": "https://biocontainers.pro/tools/alphafill", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alphafill", "latest": {"2.2.0--haf24da9_0": "sha256:1e46f583b5b296af079d6d2820d56439c463220e7bd10223be92ae06d6509d13"}, "tags": {"2.2.0--haf24da9_0": "sha256:1e46f583b5b296af079d6d2820d56439c463220e7bd10223be92ae06d6509d13"}, "docker": "quay.io/biocontainers/alphafill", "aliases": {"alphafill": "/usr/local/bin/alphafill"}}
+config: {"url": "https://biocontainers.pro/tools/alphafill", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alphafill", "latest": {"2.3.0--h7f3286b_0": "sha256:8ab4086fa5f51e66e26f3c7bc1d8c6cc45711a9f8f0669249be5088b4b7386a8"}, "tags": {"2.2.0--haf24da9_0": "sha256:1e46f583b5b296af079d6d2820d56439c463220e7bd10223be92ae06d6509d13", "2.3.0--h7f3286b_0": "sha256:8ab4086fa5f51e66e26f3c7bc1d8c6cc45711a9f8f0669249be5088b4b7386a8"}, "docker": "quay.io/biocontainers/alphafill", "aliases": {"alphafill": "/usr/local/bin/alphafill"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alphafill.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/alphafill
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alphafill:2.2.0--haf24da9_0
+$ shpc install quay.io/biocontainers/alphafill:2.3.0--h7f3286b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alphafill/2.2.0--haf24da9_0
-$ module help quay.io/biocontainers/alphafill/2.2.0--haf24da9_0
+$ module load quay.io/biocontainers/alphafill/2.3.0--h7f3286b_0
+$ module help quay.io/biocontainers/alphafill/2.3.0--h7f3286b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

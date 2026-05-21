@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/picrust2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picrust2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/picrust2/container.yaml"
-updated_at: "2026-05-20 06:50:32.922192"
+updated_at: "2026-05-21 07:04:17.956487"
 latest: "2.6.3--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/picrust2"
 aliases:

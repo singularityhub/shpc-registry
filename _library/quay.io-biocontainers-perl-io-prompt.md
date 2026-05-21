@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-prompt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-prompt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-prompt/container.yaml"
-updated_at: "2026-05-20 06:45:26.618584"
+updated_at: "2026-05-21 06:57:39.898697"
 latest: "0.997004--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-io-prompt"
 aliases:

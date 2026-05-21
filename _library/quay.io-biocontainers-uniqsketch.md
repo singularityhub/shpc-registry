@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/uniqsketch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uniqsketch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uniqsketch/container.yaml"
-updated_at: "2026-05-20 06:11:55.320753"
-latest: "1.1.0--h077b44d_0"
+updated_at: "2026-05-21 06:14:40.017642"
+latest: "1.2.2--hf426362_0"
 container_url: "https://biocontainers.pro/tools/uniqsketch"
 aliases:
  - "comparesketch"
@@ -13,8 +13,9 @@ aliases:
  - "uniqsketch"
 versions:
  - "1.1.0--h077b44d_0"
+ - "1.2.2--hf426362_0"
 description: "singularity registry hpc automated addition for uniqsketch"
-config: {"url": "https://biocontainers.pro/tools/uniqsketch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for uniqsketch", "latest": {"1.1.0--h077b44d_0": "sha256:599f747947a95ec1dfa9e389e8eab616c17fe47deabe1c0770ba9fa46ec8cecc"}, "tags": {"1.1.0--h077b44d_0": "sha256:599f747947a95ec1dfa9e389e8eab616c17fe47deabe1c0770ba9fa46ec8cecc"}, "docker": "quay.io/biocontainers/uniqsketch", "aliases": {"comparesketch": "/usr/local/bin/comparesketch", "querysketch": "/usr/local/bin/querysketch", "uniqsketch": "/usr/local/bin/uniqsketch"}}
+config: {"url": "https://biocontainers.pro/tools/uniqsketch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for uniqsketch", "latest": {"1.2.2--hf426362_0": "sha256:4c81e26b5cda99f11f701a1c4645190e820d7bc993bc67234d37deb6ca3bf0fc"}, "tags": {"1.1.0--h077b44d_0": "sha256:599f747947a95ec1dfa9e389e8eab616c17fe47deabe1c0770ba9fa46ec8cecc", "1.2.2--hf426362_0": "sha256:4c81e26b5cda99f11f701a1c4645190e820d7bc993bc67234d37deb6ca3bf0fc"}, "docker": "quay.io/biocontainers/uniqsketch", "aliases": {"comparesketch": "/usr/local/bin/comparesketch", "querysketch": "/usr/local/bin/querysketch", "uniqsketch": "/usr/local/bin/uniqsketch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/uniqsketch.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/uniqsketch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/uniqsketch:1.1.0--h077b44d_0
+$ shpc install quay.io/biocontainers/uniqsketch:1.2.2--hf426362_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/uniqsketch/1.1.0--h077b44d_0
-$ module help quay.io/biocontainers/uniqsketch/1.1.0--h077b44d_0
+$ module load quay.io/biocontainers/uniqsketch/1.2.2--hf426362_0
+$ module help quay.io/biocontainers/uniqsketch/1.2.2--hf426362_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
