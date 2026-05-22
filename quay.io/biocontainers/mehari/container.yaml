@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mehari
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mehari
 latest:
-  0.42.0--h957ea76_0: 
-    sha256:5918472dfa52a5765c4309619e5a2ddad7cef5286bb7356dd439eb6d835b53b9
+  0.43.2--h957ea76_0: 
+    sha256:0f1e8f8b624e0492d5987553728416949148786baa9a23f1b0ba8bad64a730d4
 tags:
   0.2.0--he55741f_0: 
     sha256:3cc52cbadfa7f224506f03af8f2138629b65371f436c95a832445c0ce827d121
@@ -81,6 +81,8 @@ tags:
     sha256:5918472dfa52a5765c4309619e5a2ddad7cef5286bb7356dd439eb6d835b53b9
   0.41.2--h957ea76_0: 
     sha256:3e07c25e5b3ff916f5b9939646ccb7d518afce2d45c03b72bd6046d43db0e6bc
+  0.43.2--h957ea76_0: 
+    sha256:0f1e8f8b624e0492d5987553728416949148786baa9a23f1b0ba8bad64a730d4
 docker: quay.io/biocontainers/mehari
 aliases:
   mehari: /usr/local/bin/mehari

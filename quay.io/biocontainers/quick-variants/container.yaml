@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/quick-variants
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quick-variants
 latest:
-  1.2.4--hdfd78af_0: 
-    sha256:25515250c5516f1b859c27a137ce970872e28758fb1a7af83da7d387bb397eb4
+  1.2.5--hdfd78af_0: 
+    sha256:89b1414e0a8ac1f6fbe16a2d09807579774ce2d813656fb9e4d4a7de986210ac
 tags:
   1.2.4--hdfd78af_0: 
     sha256:25515250c5516f1b859c27a137ce970872e28758fb1a7af83da7d387bb397eb4
+  1.2.5--hdfd78af_0: 
+    sha256:89b1414e0a8ac1f6fbe16a2d09807579774ce2d813656fb9e4d4a7de986210ac
 docker: quay.io/biocontainers/quick-variants
 aliases:
   quick-variants: /usr/local/bin/quick-variants

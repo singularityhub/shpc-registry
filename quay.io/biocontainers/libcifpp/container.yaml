@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/libcifpp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for libcifpp
 latest:
-  10.0.3--hd57855b_0: 
-    sha256:702e7b3302b5ffb45321d609c18c0a04c4e4bf8e2b46c7bac02208051c7aadd2
+  10.0.4--hd57855b_0: 
+    sha256:d12b55577b90b684973b9dcd9a51c328f41c6929b530b1ec6a7f05041ec0a4f6
 tags:
   5.0.0--h46c59ee_0: 
     sha256:339abdd36e61aeb29221d0de8d0ceb05f96eec657ca3ffb0d4ba86cb568f2734
@@ -47,4 +47,6 @@ tags:
     sha256:6bab4728255663963fb1d2db108c0754abaadaea5073a7c47f14c939de0d02aa
   10.0.3--hd57855b_0: 
     sha256:702e7b3302b5ffb45321d609c18c0a04c4e4bf8e2b46c7bac02208051c7aadd2
+  10.0.4--hd57855b_0: 
+    sha256:d12b55577b90b684973b9dcd9a51c328f41c6929b530b1ec6a7f05041ec0a4f6
 docker: quay.io/biocontainers/libcifpp
