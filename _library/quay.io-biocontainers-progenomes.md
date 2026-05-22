@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/progenomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/progenomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/progenomes/container.yaml"
-updated_at: "2026-05-21 07:00:23.208015"
+updated_at: "2026-05-22 06:58:08.513798"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/progenomes"
 aliases:

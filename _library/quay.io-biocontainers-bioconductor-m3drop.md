@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-m3drop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-m3drop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-m3drop/container.yaml"
-updated_at: "2026-05-21 06:19:19.855741"
+updated_at: "2026-05-22 06:16:24.664473"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-m3drop"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/lp-solve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/lp-solve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/lp-solve/container.yaml"
-updated_at: "2026-05-21 06:13:27.097206"
+updated_at: "2026-05-22 06:10:21.862137"
 latest: "5.5.2.11"
 container_url: "https://github.com/orgs/autamus/packages/container/package/lp-solve"
 aliases:

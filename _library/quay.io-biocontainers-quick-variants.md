@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quick-variants"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quick-variants/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quick-variants/container.yaml"
-updated_at: "2026-05-21 07:06:43.475398"
-latest: "1.2.4--hdfd78af_0"
+updated_at: "2026-05-22 07:04:26.084467"
+latest: "1.2.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/quick-variants"
 aliases:
  - "quick-variants"
@@ -36,8 +36,9 @@ aliases:
  - "jinfo"
 versions:
  - "1.2.4--hdfd78af_0"
+ - "1.2.5--hdfd78af_0"
 description: "singularity registry hpc automated addition for quick-variants"
-config: {"url": "https://biocontainers.pro/tools/quick-variants", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quick-variants", "latest": {"1.2.4--hdfd78af_0": "sha256:25515250c5516f1b859c27a137ce970872e28758fb1a7af83da7d387bb397eb4"}, "tags": {"1.2.4--hdfd78af_0": "sha256:25515250c5516f1b859c27a137ce970872e28758fb1a7af83da7d387bb397eb4"}, "docker": "quay.io/biocontainers/quick-variants", "aliases": {"quick-variants": "/usr/local/bin/quick-variants", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/quick-variants", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quick-variants", "latest": {"1.2.5--hdfd78af_0": "sha256:89b1414e0a8ac1f6fbe16a2d09807579774ce2d813656fb9e4d4a7de986210ac"}, "tags": {"1.2.4--hdfd78af_0": "sha256:25515250c5516f1b859c27a137ce970872e28758fb1a7af83da7d387bb397eb4", "1.2.5--hdfd78af_0": "sha256:89b1414e0a8ac1f6fbe16a2d09807579774ce2d813656fb9e4d4a7de986210ac"}, "docker": "quay.io/biocontainers/quick-variants", "aliases": {"quick-variants": "/usr/local/bin/quick-variants", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quick-variants.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/quick-variants
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quick-variants:1.2.4--hdfd78af_0
+$ shpc install quay.io/biocontainers/quick-variants:1.2.5--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quick-variants/1.2.4--hdfd78af_0
-$ module help quay.io/biocontainers/quick-variants/1.2.4--hdfd78af_0
+$ module load quay.io/biocontainers/quick-variants/1.2.5--hdfd78af_0
+$ module help quay.io/biocontainers/quick-variants/1.2.5--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

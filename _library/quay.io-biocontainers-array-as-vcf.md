@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/array-as-vcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/array-as-vcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/array-as-vcf/container.yaml"
-updated_at: "2026-05-21 06:45:42.566687"
+updated_at: "2026-05-22 06:43:24.518497"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/array-as-vcf"
 aliases:

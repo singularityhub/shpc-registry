@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mutamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutamr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutamr/container.yaml"
-updated_at: "2026-05-21 07:05:55.169533"
-latest: "0.0.2--pyhdfd78af_0"
+updated_at: "2026-05-22 07:03:38.077610"
+latest: "0.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/mutamr"
 aliases:
  - "delly"
@@ -40,8 +40,9 @@ aliases:
 versions:
  - "0.0.1--pyhdfd78af_0"
  - "0.0.2--pyhdfd78af_0"
+ - "0.0.2--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for mutamr"
-config: {"url": "https://biocontainers.pro/tools/mutamr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mutamr", "latest": {"0.0.2--pyhdfd78af_0": "sha256:604d0941b6773ab0d5ff9594efac2bad3a8e8ab9c8de709ee8565e9a256713f4"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:fb1690c8b2b612641d85f85a1eb9b3f56d0093aef7e4905c78ca9fad1ada6e55", "0.0.2--pyhdfd78af_0": "sha256:604d0941b6773ab0d5ff9594efac2bad3a8e8ab9c8de709ee8565e9a256713f4"}, "docker": "quay.io/biocontainers/mutamr", "aliases": {"delly": "/usr/local/bin/delly", "mutamr": "/usr/local/bin/mutamr", "vcfnullgenofields": "/usr/local/bin/vcfnullgenofields", "vcfwave": "/usr/local/bin/vcfwave", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "samclip": "/usr/local/bin/samclip", "snpEff": "/usr/local/bin/snpEff", "tabix++": "/usr/local/bin/tabix++", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "freebayes": "/usr/local/bin/freebayes", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++"}}
+config: {"url": "https://biocontainers.pro/tools/mutamr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mutamr", "latest": {"0.0.2--pyhdfd78af_1": "sha256:d8b4aa0b60cca4350dcd07537f74875dbe88f67c806fa6c8c48b3d279b1636f7"}, "tags": {"0.0.1--pyhdfd78af_0": "sha256:fb1690c8b2b612641d85f85a1eb9b3f56d0093aef7e4905c78ca9fad1ada6e55", "0.0.2--pyhdfd78af_0": "sha256:604d0941b6773ab0d5ff9594efac2bad3a8e8ab9c8de709ee8565e9a256713f4", "0.0.2--pyhdfd78af_1": "sha256:d8b4aa0b60cca4350dcd07537f74875dbe88f67c806fa6c8c48b3d279b1636f7"}, "docker": "quay.io/biocontainers/mutamr", "aliases": {"delly": "/usr/local/bin/delly", "mutamr": "/usr/local/bin/mutamr", "vcfnullgenofields": "/usr/local/bin/vcfnullgenofields", "vcfwave": "/usr/local/bin/vcfwave", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "update_version.sh": "/usr/local/bin/update_version.sh", "samclip": "/usr/local/bin/samclip", "snpEff": "/usr/local/bin/snpEff", "tabix++": "/usr/local/bin/tabix++", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "freebayes": "/usr/local/bin/freebayes", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt", "iHS": "/usr/local/bin/iHS", "meltEHH": "/usr/local/bin/meltEHH", "normalize-iHS": "/usr/local/bin/normalize-iHS", "pFst": "/usr/local/bin/pFst", "pVst": "/usr/local/bin/pVst", "permuteGPAT++": "/usr/local/bin/permuteGPAT++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mutamr.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/mutamr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mutamr:0.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mutamr:0.0.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mutamr/0.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/mutamr/0.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/mutamr/0.0.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/mutamr/0.0.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

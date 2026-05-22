@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deltapd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deltapd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deltapd/container.yaml"
-updated_at: "2026-05-21 06:48:45.131441"
+updated_at: "2026-05-22 06:46:26.846897"
 latest: "0.1.5--py39h918f1d6_7"
 container_url: "https://biocontainers.pro/tools/deltapd"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ccat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccat/container.yaml"
-updated_at: "2026-05-21 06:28:26.081863"
+updated_at: "2026-05-22 06:25:42.575751"
 latest: "3.0--hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/ccat"
 aliases:

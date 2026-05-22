@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scspectra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scspectra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scspectra/container.yaml"
-updated_at: "2026-05-21 06:35:16.119378"
+updated_at: "2026-05-22 06:32:40.804117"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scspectra"
 aliases:

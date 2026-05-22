@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pb-falcon-phase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pb-falcon-phase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pb-falcon-phase/container.yaml"
-updated_at: "2026-05-21 06:41:32.663066"
+updated_at: "2026-05-22 06:39:04.644177"
 latest: "0.1.0--h5aa19ff_3"
 container_url: "https://biocontainers.pro/tools/pb-falcon-phase"
 aliases:

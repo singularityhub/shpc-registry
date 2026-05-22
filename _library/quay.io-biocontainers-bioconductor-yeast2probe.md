@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yeast2probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeast2probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeast2probe/container.yaml"
-updated_at: "2026-05-21 06:48:41.813647"
+updated_at: "2026-05-22 06:46:23.532964"
 latest: "2.18.0--r45hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeast2probe"
 

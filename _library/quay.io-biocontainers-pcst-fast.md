@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pcst-fast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcst-fast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcst-fast/container.yaml"
-updated_at: "2026-05-21 06:24:52.500066"
+updated_at: "2026-05-22 06:22:08.009821"
 latest: "1.0.10--py310h84f13bb_1"
 container_url: "https://biocontainers.pro/tools/pcst-fast"
 aliases:

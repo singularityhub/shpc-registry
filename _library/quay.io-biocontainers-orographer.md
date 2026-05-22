@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/orographer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orographer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orographer/container.yaml"
-updated_at: "2026-05-21 06:57:57.299573"
+updated_at: "2026-05-22 06:55:41.417432"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orographer"
 aliases:

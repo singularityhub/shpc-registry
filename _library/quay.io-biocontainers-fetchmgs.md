@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fetchmgs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fetchmgs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fetchmgs/container.yaml"
-updated_at: "2026-05-21 06:21:21.177310"
+updated_at: "2026-05-22 06:18:31.477322"
 latest: "2.1.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/fetchmgs"
 aliases:

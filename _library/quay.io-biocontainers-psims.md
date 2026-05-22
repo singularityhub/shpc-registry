@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psims"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psims/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psims/container.yaml"
-updated_at: "2026-05-21 06:27:37.362617"
+updated_at: "2026-05-22 06:24:52.633888"
 latest: "1.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psims"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/decodiphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decodiphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decodiphy/container.yaml"
-updated_at: "2026-05-21 06:21:33.803320"
-latest: "1.2.3--pyhdfd78af_0"
+updated_at: "2026-05-22 06:18:44.594688"
+latest: "1.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/decodiphy"
 aliases:
  - "decodiphy"
@@ -16,8 +16,9 @@ aliases:
  - "python3.12-config"
 versions:
  - "1.2.3--pyhdfd78af_0"
+ - "1.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for decodiphy"
-config: {"url": "https://biocontainers.pro/tools/decodiphy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for decodiphy", "latest": {"1.2.3--pyhdfd78af_0": "sha256:caef315da2b290f91952a7a4a221fc1a991da7fdcebb596a549e6641ff008838"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:caef315da2b290f91952a7a4a221fc1a991da7fdcebb596a549e6641ff008838"}, "docker": "quay.io/biocontainers/decodiphy", "aliases": {"decodiphy": "/usr/local/bin/decodiphy", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/decodiphy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for decodiphy", "latest": {"1.3.3--pyhdfd78af_0": "sha256:207da6c5e00ec81373bb54789e57066a6641c3c14bc17c45efb4987744dc36b3"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:caef315da2b290f91952a7a4a221fc1a991da7fdcebb596a549e6641ff008838", "1.3.3--pyhdfd78af_0": "sha256:207da6c5e00ec81373bb54789e57066a6641c3c14bc17c45efb4987744dc36b3"}, "docker": "quay.io/biocontainers/decodiphy", "aliases": {"decodiphy": "/usr/local/bin/decodiphy", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/decodiphy.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/decodiphy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/decodiphy:1.2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/decodiphy:1.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/decodiphy/1.2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/decodiphy/1.2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/decodiphy/1.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/decodiphy/1.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

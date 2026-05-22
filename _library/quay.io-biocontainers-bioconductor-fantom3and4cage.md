@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fantom3and4cage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fantom3and4cage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fantom3and4cage/container.yaml"
-updated_at: "2026-05-21 06:20:07.136089"
+updated_at: "2026-05-22 06:17:13.577941"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fantom3and4cage"
 

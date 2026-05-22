@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rastqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rastqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rastqc/container.yaml"
-updated_at: "2026-05-21 06:46:45.938643"
+updated_at: "2026-05-22 06:44:27.925884"
 latest: "0.1.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/rastqc"
 aliases:
