@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-jackstraw
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-jackstraw
 latest:
-  1.3.17--r44h3342da4_0: 
-    sha256:fb2a88c8b0d53eb59937f2ee7d2b5da9f5f3d5971aa91cd0abcca1ae5161a5ee
+  1.3.21--r45h3342da4_0: 
+    sha256:260b7b20347c9c1c39322c0d1337fe139d087e68548e7bb73c308653fcd72778
 tags:
   1.3--r41h3342da4_6: 
     sha256:aa8bd336170013f82c5d94fe243272b85cc5ba8ddaee7200fa6deaa6f9cd2a54
@@ -17,6 +17,8 @@ tags:
     sha256:d28aa6b4cab9a8a296963cd300e29dcd5ee15fb3869cd6683ba3c9342209d982
   1.3.17--r44h3342da4_0: 
     sha256:fb2a88c8b0d53eb59937f2ee7d2b5da9f5f3d5971aa91cd0abcca1ae5161a5ee
+  1.3.21--r45h3342da4_0: 
+    sha256:260b7b20347c9c1c39322c0d1337fe139d087e68548e7bb73c308653fcd72778
 docker: quay.io/biocontainers/r-jackstraw
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 
