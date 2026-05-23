@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metabat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabat2/container.yaml"
-updated_at: "2026-05-22 06:47:27.693638"
-latest: "2.18--h38e344b_2"
+updated_at: "2026-05-23 06:18:03.958037"
+latest: "2.18_23_gc869c52--h61f4f8f_0"
 container_url: "https://biocontainers.pro/tools/metabat2"
 aliases:
  - "aggregateBinDepths.pl"
@@ -29,8 +29,9 @@ versions:
  - "2.17--h6f16272_1"
  - "2.18--h6f16272_0"
  - "2.18--h38e344b_2"
+ - "2.18_23_gc869c52--h61f4f8f_0"
 description: "shpc-registry automated BioContainers addition for metabat2"
-config: {"url": "https://biocontainers.pro/tools/metabat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabat2", "latest": {"2.18--h38e344b_2": "sha256:76728c892cfb5f1e8a8704f271ade1664109e37494d9eba3fb27467b7730a9f2"}, "tags": {"2.15--h986a166_1": "sha256:a2feaebcef454d3053e56545da9d81fc4e25a42ec58c8d801b0a2ce57bc76051", "2.15--h4da6f23_2": "sha256:b35adaca1250056035bdd3e44b2503f877b2f1ab61841ef0e2675c8cdc75eed3", "2.17--hd498684_0": "sha256:3c47312a75c7e7d44ce7716cb30339bf41f13cd0e3ea0eb398f7cd6d6031ecc7", "2.17--h6f16272_1": "sha256:6b4a83a76903d4344c1213208433975582a9a6503e5edfebf806fa2d66f330b2", "2.18--h6f16272_0": "sha256:351d7d72b35cb5c6e47051c0b188edde0c92dd131f1058c2d7e227b1e99c08e8", "2.18--h38e344b_2": "sha256:76728c892cfb5f1e8a8704f271ade1664109e37494d9eba3fb27467b7730a9f2"}, "docker": "quay.io/biocontainers/metabat2", "aliases": {"aggregateBinDepths.pl": "/usr/local/bin/aggregateBinDepths.pl", "aggregateContigOverlapsByBin.pl": "/usr/local/bin/aggregateContigOverlapsByBin.pl", "contigOverlaps": "/usr/local/bin/contigOverlaps", "jgi_summarize_bam_contig_depths": "/usr/local/bin/jgi_summarize_bam_contig_depths", "merge_depths.pl": "/usr/local/bin/merge_depths.pl", "metabat": "/usr/local/bin/metabat", "metabat1": "/usr/local/bin/metabat1", "metabat2": "/usr/local/bin/metabat2", "runMetaBat.sh": "/usr/local/bin/runMetaBat.sh", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/metabat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabat2", "latest": {"2.18_23_gc869c52--h61f4f8f_0": "sha256:64de714de456efb5db312863dbb25ad721e006b1e2c5a25160d1187120455bf2"}, "tags": {"2.15--h986a166_1": "sha256:a2feaebcef454d3053e56545da9d81fc4e25a42ec58c8d801b0a2ce57bc76051", "2.15--h4da6f23_2": "sha256:b35adaca1250056035bdd3e44b2503f877b2f1ab61841ef0e2675c8cdc75eed3", "2.17--hd498684_0": "sha256:3c47312a75c7e7d44ce7716cb30339bf41f13cd0e3ea0eb398f7cd6d6031ecc7", "2.17--h6f16272_1": "sha256:6b4a83a76903d4344c1213208433975582a9a6503e5edfebf806fa2d66f330b2", "2.18--h6f16272_0": "sha256:351d7d72b35cb5c6e47051c0b188edde0c92dd131f1058c2d7e227b1e99c08e8", "2.18--h38e344b_2": "sha256:76728c892cfb5f1e8a8704f271ade1664109e37494d9eba3fb27467b7730a9f2", "2.18_23_gc869c52--h61f4f8f_0": "sha256:64de714de456efb5db312863dbb25ad721e006b1e2c5a25160d1187120455bf2"}, "docker": "quay.io/biocontainers/metabat2", "aliases": {"aggregateBinDepths.pl": "/usr/local/bin/aggregateBinDepths.pl", "aggregateContigOverlapsByBin.pl": "/usr/local/bin/aggregateContigOverlapsByBin.pl", "contigOverlaps": "/usr/local/bin/contigOverlaps", "jgi_summarize_bam_contig_depths": "/usr/local/bin/jgi_summarize_bam_contig_depths", "merge_depths.pl": "/usr/local/bin/merge_depths.pl", "metabat": "/usr/local/bin/metabat", "metabat1": "/usr/local/bin/metabat1", "metabat2": "/usr/local/bin/metabat2", "runMetaBat.sh": "/usr/local/bin/runMetaBat.sh", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabat2.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/metabat2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metabat2:2.18--h38e344b_2
+$ shpc install quay.io/biocontainers/metabat2:2.18_23_gc869c52--h61f4f8f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metabat2/2.18--h38e344b_2
-$ module help quay.io/biocontainers/metabat2/2.18--h38e344b_2
+$ module load quay.io/biocontainers/metabat2/2.18_23_gc869c52--h61f4f8f_0
+$ module help quay.io/biocontainers/metabat2/2.18_23_gc869c52--h61f4f8f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

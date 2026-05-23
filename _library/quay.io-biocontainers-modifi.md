@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/modifi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/modifi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/modifi/container.yaml"
-updated_at: "2026-05-22 06:13:28.450284"
+updated_at: "2026-05-23 05:45:10.843515"
 latest: "0.0.1--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/modifi"
 aliases:

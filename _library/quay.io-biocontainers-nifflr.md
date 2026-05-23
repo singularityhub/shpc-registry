@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nifflr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nifflr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nifflr/container.yaml"
-updated_at: "2026-05-22 06:17:25.769084"
+updated_at: "2026-05-23 05:49:05.217700"
 latest: "2.0.0--pl5321haf24da9_0"
 container_url: "https://biocontainers.pro/tools/nifflr"
 aliases:

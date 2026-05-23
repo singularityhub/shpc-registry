@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellpyability"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellpyability/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellpyability/container.yaml"
-updated_at: "2026-05-22 06:43:26.467718"
+updated_at: "2026-05-23 06:14:07.317863"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cellpyability"
 aliases:

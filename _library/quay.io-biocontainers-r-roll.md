@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-roll"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-roll/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-roll/container.yaml"
-updated_at: "2026-05-22 07:02:09.314143"
-latest: "1.2.0--r45h0df16ae_0"
+updated_at: "2026-05-23 06:32:23.416766"
+latest: "1.2.1--r45h67c2a1a_0"
 container_url: "https://biocontainers.pro/tools/r-roll"
 aliases:
  - "hwloc-gather-cpuid"
@@ -27,8 +27,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.2.0--r45h0df16ae_0"
+ - "1.2.1--r45h67c2a1a_0"
 description: "singularity registry hpc automated addition for r-roll"
-config: {"url": "https://biocontainers.pro/tools/r-roll", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-roll", "latest": {"1.2.0--r45h0df16ae_0": "sha256:fcb8b2c0ef5497235f32202bd860d872c38f3194ccbbe27e047549f4130ce38a"}, "tags": {"1.2.0--r45h0df16ae_0": "sha256:fcb8b2c0ef5497235f32202bd860d872c38f3194ccbbe27e047549f4130ce38a"}, "docker": "quay.io/biocontainers/r-roll", "aliases": {"hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-roll", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-roll", "latest": {"1.2.1--r45h67c2a1a_0": "sha256:4cc0c1d87ceeea58224ad3f0cabaed28027b393e379e0cc1037f7133cebfaa8a"}, "tags": {"1.2.0--r45h0df16ae_0": "sha256:fcb8b2c0ef5497235f32202bd860d872c38f3194ccbbe27e047549f4130ce38a", "1.2.1--r45h67c2a1a_0": "sha256:4cc0c1d87ceeea58224ad3f0cabaed28027b393e379e0cc1037f7133cebfaa8a"}, "docker": "quay.io/biocontainers/r-roll", "aliases": {"hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-roll.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/r-roll
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-roll:1.2.0--r45h0df16ae_0
+$ shpc install quay.io/biocontainers/r-roll:1.2.1--r45h67c2a1a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-roll/1.2.0--r45h0df16ae_0
-$ module help quay.io/biocontainers/r-roll/1.2.0--r45h0df16ae_0
+$ module load quay.io/biocontainers/r-roll/1.2.1--r45h67c2a1a_0
+$ module help quay.io/biocontainers/r-roll/1.2.1--r45h67c2a1a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

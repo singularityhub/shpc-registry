@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanopolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanopolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanopolish/container.yaml"
-updated_at: "2026-05-22 06:44:20.712333"
+updated_at: "2026-05-23 06:15:00.248500"
 latest: "0.14.0--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/nanopolish"
 aliases:

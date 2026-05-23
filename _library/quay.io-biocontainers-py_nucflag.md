@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/py_nucflag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py_nucflag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py_nucflag/container.yaml"
-updated_at: "2026-05-22 06:22:56.288720"
+updated_at: "2026-05-23 05:54:23.986598"
 latest: "0.1.8--py310hec43fc7_0"
 container_url: "https://biocontainers.pro/tools/py_nucflag"
 aliases:

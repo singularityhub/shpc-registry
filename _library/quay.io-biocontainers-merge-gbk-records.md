@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/merge-gbk-records"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merge-gbk-records/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merge-gbk-records/container.yaml"
-updated_at: "2026-05-22 06:15:14.404683"
+updated_at: "2026-05-23 05:46:57.677998"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/merge-gbk-records"
 aliases:

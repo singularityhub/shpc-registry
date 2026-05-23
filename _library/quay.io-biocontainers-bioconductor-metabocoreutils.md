@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metabocoreutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabocoreutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabocoreutils/container.yaml"
-updated_at: "2026-05-22 06:24:07.515635"
+updated_at: "2026-05-23 05:55:34.048786"
 latest: "1.18.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabocoreutils"
 
