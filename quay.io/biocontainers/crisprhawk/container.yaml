@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/crisprhawk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for crisprhawk
 latest:
-  0.1.2--pyhdfd78af_0: 
-    sha256:fa430891cb1e1ef09c1f847e8b18fc102cac8aaf0f156bcc095acc57805e603b
+  0.2.2--pyhdfd78af_0: 
+    sha256:861eb0622ce6710461e5a71f851c9ba142b55992b3ec58c25bc47af4fca3aa17
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:fa430891cb1e1ef09c1f847e8b18fc102cac8aaf0f156bcc095acc57805e603b
+  0.2.2--pyhdfd78af_0: 
+    sha256:861eb0622ce6710461e5a71f851c9ba142b55992b3ec58c25bc47af4fca3aa17
 docker: quay.io/biocontainers/crisprhawk
 aliases:
   crisprhawk: /usr/local/bin/crisprhawk
