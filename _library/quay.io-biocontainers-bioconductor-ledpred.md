@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ledpred"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ledpred/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ledpred/container.yaml"
-updated_at: "2026-05-23 06:15:55.495985"
+updated_at: "2026-05-24 06:39:58.909434"
 latest: "1.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ledpred"
 

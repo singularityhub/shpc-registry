@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kf2vec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kf2vec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kf2vec/container.yaml"
-updated_at: "2026-05-23 05:54:48.860214"
+updated_at: "2026-05-24 06:17:45.008262"
 latest: "1.0.62--pyh5e193fb_0"
 container_url: "https://biocontainers.pro/tools/kf2vec"
 aliases:

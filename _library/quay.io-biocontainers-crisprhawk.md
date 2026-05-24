@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crisprhawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisprhawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crisprhawk/container.yaml"
-updated_at: "2026-05-23 06:29:08.508315"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2026-05-24 06:53:49.655590"
+latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crisprhawk"
 aliases:
  - "crisprhawk"
@@ -37,8 +37,9 @@ aliases:
  - "orc-contents"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for crisprhawk"
-config: {"url": "https://biocontainers.pro/tools/crisprhawk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crisprhawk", "latest": {"0.1.2--pyhdfd78af_0": "sha256:fa430891cb1e1ef09c1f847e8b18fc102cac8aaf0f156bcc095acc57805e603b"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:fa430891cb1e1ef09c1f847e8b18fc102cac8aaf0f156bcc095acc57805e603b"}, "docker": "quay.io/biocontainers/crisprhawk", "aliases": {"crisprhawk": "/usr/local/bin/crisprhawk", "seqfold": "/usr/local/bin/seqfold", "runxlrd.py": "/usr/local/bin/runxlrd.py", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents"}}
+config: {"url": "https://biocontainers.pro/tools/crisprhawk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for crisprhawk", "latest": {"0.2.2--pyhdfd78af_0": "sha256:861eb0622ce6710461e5a71f851c9ba142b55992b3ec58c25bc47af4fca3aa17"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:fa430891cb1e1ef09c1f847e8b18fc102cac8aaf0f156bcc095acc57805e603b", "0.2.2--pyhdfd78af_0": "sha256:861eb0622ce6710461e5a71f851c9ba142b55992b3ec58c25bc47af4fca3aa17"}, "docker": "quay.io/biocontainers/crisprhawk", "aliases": {"crisprhawk": "/usr/local/bin/crisprhawk", "seqfold": "/usr/local/bin/seqfold", "runxlrd.py": "/usr/local/bin/runxlrd.py", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "protoc-25.3.0": "/usr/local/bin/protoc-25.3.0", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crisprhawk.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/crisprhawk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crisprhawk:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/crisprhawk:0.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crisprhawk/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/crisprhawk/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/crisprhawk/0.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/crisprhawk/0.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

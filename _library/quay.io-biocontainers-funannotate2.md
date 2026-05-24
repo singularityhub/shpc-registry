@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/funannotate2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/funannotate2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/funannotate2/container.yaml"
-updated_at: "2026-05-23 06:05:51.576727"
-latest: "26.2.12--pyhdfd78af_0"
+updated_at: "2026-05-24 06:29:29.543231"
+latest: "26.4.22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/funannotate2"
 aliases:
  - "MitoHighConfidenceFilter"
@@ -53,8 +53,9 @@ aliases:
  - "eval_multi_gtf.pl"
 versions:
  - "26.2.12--pyhdfd78af_0"
+ - "26.4.22--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for funannotate2"
-config: {"url": "https://biocontainers.pro/tools/funannotate2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for funannotate2", "latest": {"26.2.12--pyhdfd78af_0": "sha256:3194d71046b568482b619269b63c1e333757834dc117c9a5583efdbc1d65a39b"}, "tags": {"26.2.12--pyhdfd78af_0": "sha256:3194d71046b568482b619269b63c1e333757834dc117c9a5583efdbc1d65a39b"}, "docker": "quay.io/biocontainers/funannotate2", "aliases": {"MitoHighConfidenceFilter": "/usr/local/bin/MitoHighConfidenceFilter", "annorefine": "/usr/local/bin/annorefine", "buscolite": "/usr/local/bin/buscolite", "buscolite-plot": "/usr/local/bin/buscolite-plot", "fathom": "/usr/local/bin/fathom", "findRepetitiveProtSeqs.py": "/usr/local/bin/findRepetitiveProtSeqs.py", "forge": "/usr/local/bin/forge", "funannotate2": "/usr/local/bin/funannotate2", "gapmm2": "/usr/local/bin/gapmm2", "gff3_to_zff.pl": "/usr/local/bin/gff3_to_zff.pl", "gfftk": "/usr/local/bin/gfftk", "hmm-assembler.pl": "/usr/local/bin/hmm-assembler.pl", "json_repair": "/usr/local/bin/json_repair", "rename_species.pl": "/usr/local/bin/rename_species.pl", "snap": "/usr/local/bin/snap", "stringtie2fa.py": "/usr/local/bin/stringtie2fa.py", "table2asn": "/usr/local/bin/table2asn", "zff2gff3.pl": "/usr/local/bin/zff2gff3.pl", "PF00225_full.blocks.txt": "/usr/local/bin/PF00225_full.blocks.txt", "PF00225_seed.blocks.txt": "/usr/local/bin/PF00225_seed.blocks.txt", "add_name_to_gff3.pl": "/usr/local/bin/add_name_to_gff3.pl", "aln2wig": "/usr/local/bin/aln2wig", "augustify.py": "/usr/local/bin/augustify.py", "executeTestCGP.py": "/usr/local/bin/executeTestCGP.py", "extractAnno.py": "/usr/local/bin/extractAnno.py", "get_loci_from_gb.pl": "/usr/local/bin/get_loci_from_gb.pl", "miniprot": "/usr/local/bin/miniprot", "pp_simScore": "/usr/local/bin/pp_simScore", "bamToWig.py": "/usr/local/bin/bamToWig.py", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank", "compileSpliceCands": "/usr/local/bin/compileSpliceCands", "computeFlankingRegion.pl": "/usr/local/bin/computeFlankingRegion.pl", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "eval_multi_gtf.pl": "/usr/local/bin/eval_multi_gtf.pl"}}
+config: {"url": "https://biocontainers.pro/tools/funannotate2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for funannotate2", "latest": {"26.4.22--pyhdfd78af_0": "sha256:dbc06ddc2066a3e72b3a18541fdc66736ba286ddfb0764c9547b122b1d082a04"}, "tags": {"26.2.12--pyhdfd78af_0": "sha256:3194d71046b568482b619269b63c1e333757834dc117c9a5583efdbc1d65a39b", "26.4.22--pyhdfd78af_0": "sha256:dbc06ddc2066a3e72b3a18541fdc66736ba286ddfb0764c9547b122b1d082a04"}, "docker": "quay.io/biocontainers/funannotate2", "aliases": {"MitoHighConfidenceFilter": "/usr/local/bin/MitoHighConfidenceFilter", "annorefine": "/usr/local/bin/annorefine", "buscolite": "/usr/local/bin/buscolite", "buscolite-plot": "/usr/local/bin/buscolite-plot", "fathom": "/usr/local/bin/fathom", "findRepetitiveProtSeqs.py": "/usr/local/bin/findRepetitiveProtSeqs.py", "forge": "/usr/local/bin/forge", "funannotate2": "/usr/local/bin/funannotate2", "gapmm2": "/usr/local/bin/gapmm2", "gff3_to_zff.pl": "/usr/local/bin/gff3_to_zff.pl", "gfftk": "/usr/local/bin/gfftk", "hmm-assembler.pl": "/usr/local/bin/hmm-assembler.pl", "json_repair": "/usr/local/bin/json_repair", "rename_species.pl": "/usr/local/bin/rename_species.pl", "snap": "/usr/local/bin/snap", "stringtie2fa.py": "/usr/local/bin/stringtie2fa.py", "table2asn": "/usr/local/bin/table2asn", "zff2gff3.pl": "/usr/local/bin/zff2gff3.pl", "PF00225_full.blocks.txt": "/usr/local/bin/PF00225_full.blocks.txt", "PF00225_seed.blocks.txt": "/usr/local/bin/PF00225_seed.blocks.txt", "add_name_to_gff3.pl": "/usr/local/bin/add_name_to_gff3.pl", "aln2wig": "/usr/local/bin/aln2wig", "augustify.py": "/usr/local/bin/augustify.py", "executeTestCGP.py": "/usr/local/bin/executeTestCGP.py", "extractAnno.py": "/usr/local/bin/extractAnno.py", "get_loci_from_gb.pl": "/usr/local/bin/get_loci_from_gb.pl", "miniprot": "/usr/local/bin/miniprot", "pp_simScore": "/usr/local/bin/pp_simScore", "bamToWig.py": "/usr/local/bin/bamToWig.py", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank", "compileSpliceCands": "/usr/local/bin/compileSpliceCands", "computeFlankingRegion.pl": "/usr/local/bin/computeFlankingRegion.pl", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "eval_multi_gtf.pl": "/usr/local/bin/eval_multi_gtf.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/funannotate2.
@@ -69,7 +70,7 @@ $ shpc install quay.io/biocontainers/funannotate2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/funannotate2:26.2.12--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/funannotate2:26.4.22--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -81,8 +82,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/funannotate2/26.2.12--pyhdfd78af_0
-$ module help quay.io/biocontainers/funannotate2/26.2.12--pyhdfd78af_0
+$ module load quay.io/biocontainers/funannotate2/26.4.22--pyhdfd78af_0
+$ module help quay.io/biocontainers/funannotate2/26.4.22--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

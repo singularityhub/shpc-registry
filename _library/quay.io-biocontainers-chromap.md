@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromap/container.yaml"
-updated_at: "2026-05-23 06:17:26.184837"
+updated_at: "2026-05-24 06:41:34.301824"
 latest: "0.3.2--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/chromap"
 aliases:

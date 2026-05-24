@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gffread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffread/container.yaml"
-updated_at: "2026-05-23 06:29:24.033504"
+updated_at: "2026-05-24 06:54:05.848994"
 latest: "0.12.9--hf426362_0"
 container_url: "https://biocontainers.pro/tools/gffread"
 aliases:

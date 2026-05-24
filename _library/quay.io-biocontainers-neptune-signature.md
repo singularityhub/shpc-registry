@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/neptune-signature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neptune-signature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neptune-signature/container.yaml"
-updated_at: "2026-05-23 06:19:04.937456"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2026-05-24 06:43:17.205310"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/neptune-signature"
 aliases:
  - "neptune"
@@ -37,8 +37,9 @@ aliases:
  - "gbf2fsa"
 versions:
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for neptune-signature"
-config: {"url": "https://biocontainers.pro/tools/neptune-signature", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for neptune-signature", "latest": {"2.0.0--pyhdfd78af_0": "sha256:09f91749980819bf1b0dae5114662cae34438cd71d96ad6655c8b32910164352"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:09f91749980819bf1b0dae5114662cae34438cd71d96ad6655c8b32910164352"}, "docker": "quay.io/biocontainers/neptune-signature", "aliases": {"neptune": "/usr/local/bin/neptune", "neptune-conda": "/usr/local/bin/neptune-conda", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa"}}
+config: {"url": "https://biocontainers.pro/tools/neptune-signature", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for neptune-signature", "latest": {"2.0.1--pyhdfd78af_0": "sha256:68c630662b4505582d529913592d017e7b1eaefcfc9f41ef1209fc90e56b74d9"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:09f91749980819bf1b0dae5114662cae34438cd71d96ad6655c8b32910164352", "2.0.1--pyhdfd78af_0": "sha256:68c630662b4505582d529913592d017e7b1eaefcfc9f41ef1209fc90e56b74d9"}, "docker": "quay.io/biocontainers/neptune-signature", "aliases": {"neptune": "/usr/local/bin/neptune", "neptune-conda": "/usr/local/bin/neptune-conda", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc", "fetch-taxonomy": "/usr/local/bin/fetch-taxonomy", "filter-genbank": "/usr/local/bin/filter-genbank", "filter-record": "/usr/local/bin/filter-record", "gbf2fsa": "/usr/local/bin/gbf2fsa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/neptune-signature.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/neptune-signature
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/neptune-signature:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/neptune-signature:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/neptune-signature/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/neptune-signature/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/neptune-signature/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/neptune-signature/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

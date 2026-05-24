@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metabcombiner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabcombiner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabcombiner/container.yaml"
-updated_at: "2026-05-23 05:47:53.267647"
+updated_at: "2026-05-24 06:10:33.768515"
 latest: "1.20.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabcombiner"
 

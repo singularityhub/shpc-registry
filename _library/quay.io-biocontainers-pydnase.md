@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydnase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydnase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydnase/container.yaml"
-updated_at: "2026-05-23 05:44:02.714729"
+updated_at: "2026-05-24 06:06:43.375426"
 latest: "0.3.0--py310h7c10099_7"
 container_url: "https://biocontainers.pro/tools/pydnase"
 aliases:
