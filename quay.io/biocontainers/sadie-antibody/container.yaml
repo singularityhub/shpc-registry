@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/sadie-antibody
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sadie-antibody
 latest:
-  2.0.0--pyhdfd78af_0: 
-    sha256:553f91fec13bf711ef4f999edcfee775f2b654bb1d42d34a8c469498c004c6a7
+  2.0.1--pyhdfd78af_0: 
+    sha256:6444184f7764476e4a9b5aa5e04bf088a9b1fb4613a2a8abbfcaa73727147c89
 tags:
   2.0.0--pyhdfd78af_0: 
     sha256:553f91fec13bf711ef4f999edcfee775f2b654bb1d42d34a8c469498c004c6a7
+  2.0.1--pyhdfd78af_0: 
+    sha256:6444184f7764476e4a9b5aa5e04bf088a9b1fb4613a2a8abbfcaa73727147c89
 docker: quay.io/biocontainers/sadie-antibody
 aliases:
   filetype: /usr/local/bin/filetype

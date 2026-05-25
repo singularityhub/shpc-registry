@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/markadoros
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for markadoros
 latest:
-  1.0.0--pyh106432d_0: 
-    sha256:72ab85e586102803c1d43660427945b965b385e042aa7b3e432266ceb0f6e1c5
+  1.1.0--pyh106432d_0: 
+    sha256:5b935212f92675e8252a5caa922f2cca15796a4046bbb850848b52a72bfa0244
 tags:
   1.0.0--pyh106432d_0: 
     sha256:72ab85e586102803c1d43660427945b965b385e042aa7b3e432266ceb0f6e1c5
+  1.1.0--pyh106432d_0: 
+    sha256:5b935212f92675e8252a5caa922f2cca15796a4046bbb850848b52a72bfa0244
 docker: quay.io/biocontainers/markadoros
 aliases:
   binspreader: /usr/local/bin/binspreader

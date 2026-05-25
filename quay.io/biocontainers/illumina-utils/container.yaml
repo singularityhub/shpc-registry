@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/illumina-utils
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for illumina-utils
 latest:
-  2.13--pyhdfd78af_0: 
-    sha256:fdfd09523334c7c3ae6426a7b00c4b70605b4c65839dac6a2771f5484c5c3941
+  2.14--pyhdfd78af_0: 
+    sha256:c102cb0d13328b10af196063718e5cdbf122ff5dfb6540f964e642a8052245c9
 tags:
   2.9--py_0: 
     sha256:71bbf576937ace4e755942d2387fef98adf4c1d0ad18babd8937b0d031a02de6
@@ -15,6 +15,8 @@ tags:
     sha256:1b4fa0cf82e7fd4f3e98dec983fc87ac56b32d75e65927a8c8fc34fe507ca7b6
   2.13--pyhdfd78af_0: 
     sha256:fdfd09523334c7c3ae6426a7b00c4b70605b4c65839dac6a2771f5484c5c3941
+  2.14--pyhdfd78af_0: 
+    sha256:c102cb0d13328b10af196063718e5cdbf122ff5dfb6540f964e642a8052245c9
 docker: quay.io/biocontainers/illumina-utils
 aliases:
   iu-compute-qual-dicts-from-fastq: 

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/alphabase
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for alphabase
 latest:
-  1.8.1--pyhdfd78af_0: 
-    sha256:9c106f4a600807a6a55920d3a3ed5f88ed334ff1056dc29d98321f648a781918
+  1.9.0--pyhdfd78af_0: 
+    sha256:5ede79e71b658984c04ad7f255a97e602514f952d4a175ad53760c3ed7053b65
 tags:
   1.8.1--pyhdfd78af_0: 
     sha256:9c106f4a600807a6a55920d3a3ed5f88ed334ff1056dc29d98321f648a781918
+  1.9.0--pyhdfd78af_0: 
+    sha256:5ede79e71b658984c04ad7f255a97e602514f952d4a175ad53760c3ed7053b65
 docker: quay.io/biocontainers/alphabase
 aliases:
   protoc-33.5.0: /usr/local/bin/protoc-33.5.0

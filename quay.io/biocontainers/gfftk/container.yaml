@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gfftk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gfftk
 latest:
-  26.2.12--pyh1f0d9b5_0: 
-    sha256:936802626c963967cee64d3a625c0fd35cad240a3f75df24a95bdb4ffbd07abb
+  26.5.22--pyhdfd78af_0: 
+    sha256:363815d4f54344a6d002d5b135e80b131111ecb3a5cd2d6dc6c03fb7b92244e1
 tags:
   23.9.6--pyhdfd78af_0: 
     sha256:7f95a7662694bd17189f1fac7be32213b1fd737c4a53009ca34203a7e3d9d89a
@@ -19,6 +19,8 @@ tags:
     sha256:39f0580d72b3ff30d67bfef31b9c55129e2ac39ee2ebc0470ac46b47c737ec6f
   26.2.12--pyh1f0d9b5_0: 
     sha256:936802626c963967cee64d3a625c0fd35cad240a3f75df24a95bdb4ffbd07abb
+  26.5.22--pyhdfd78af_0: 
+    sha256:363815d4f54344a6d002d5b135e80b131111ecb3a5cd2d6dc6c03fb7b92244e1
 docker: quay.io/biocontainers/gfftk
 aliases:
   gfftk: /usr/local/bin/gfftk

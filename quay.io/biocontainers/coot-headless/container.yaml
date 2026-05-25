@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/coot-headless
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for coot-headless
 latest:
-  1.2--py310ha5752ae_1: 
-    sha256:f62fe21a9cbcb346b8a9b2075a96349372c049ef526b418832ae0e76fc06aded
+  1.3.1--py311hcc144ce_0: 
+    sha256:a10665ef5bddbe887a8986ed3ffdb9c02553b231bf3b839a94099ff14cc69fe3
 tags:
   1.1.17--py310h5b8adf8_0: 
     sha256:9016d29c37cf7c494b1e636cfd45a90d3463f4df13be3efdd7e19127bbdf1aee
@@ -21,6 +21,10 @@ tags:
     sha256:cb7fa542acfcfc90e468fe6a6c3e455b164126314e31032357bd9341aae68fc3
   1.2--py310ha5752ae_1: 
     sha256:f62fe21a9cbcb346b8a9b2075a96349372c049ef526b418832ae0e76fc06aded
+  1.3.1--py311hcc144ce_0: 
+    sha256:a10665ef5bddbe887a8986ed3ffdb9c02553b231bf3b839a94099ff14cc69fe3
+  1.2--py311hcc144ce_2: 
+    sha256:f75254eb920c5e506cf6d4a297c5bce100e4f19297d3ab3f4badb739e7da5311
 docker: quay.io/biocontainers/coot-headless
 aliases:
   debuginfod: /usr/local/bin/debuginfod
