@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svision-pro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svision-pro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svision-pro/container.yaml"
-updated_at: "2026-05-24 06:54:46.667949"
+updated_at: "2026-05-25 07:27:08.576393"
 latest: "2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svision-pro"
 aliases:

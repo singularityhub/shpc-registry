@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ligand-validation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ligand-validation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ligand-validation/container.yaml"
-updated_at: "2026-05-24 06:15:17.314995"
+updated_at: "2026-05-25 06:48:35.406974"
 latest: "0.0.1--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/ligand-validation"
 aliases:

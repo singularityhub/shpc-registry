@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet/container.yaml"
-updated_at: "2026-05-24 06:19:14.467028"
+updated_at: "2026-05-25 06:52:23.409927"
 latest: "0.9.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/biopet"
 

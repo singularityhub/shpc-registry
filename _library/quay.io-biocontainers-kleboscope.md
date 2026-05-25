@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kleboscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kleboscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kleboscope/container.yaml"
-updated_at: "2026-05-24 06:24:26.532601"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2026-05-25 06:57:16.500291"
+latest: "1.0.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/kleboscope"
 aliases:
  - "bstats"
@@ -50,8 +50,9 @@ aliases:
  - "dollop"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for kleboscope"
-config: {"url": "https://biocontainers.pro/tools/kleboscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kleboscope", "latest": {"1.0.1--pyhdfd78af_0": "sha256:1970125855baa2110ac9616349eca6f0bc7d85efd596261f9b5be9104c5729ff"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:1970125855baa2110ac9616349eca6f0bc7d85efd596261f9b5be9104c5729ff"}, "docker": "quay.io/biocontainers/kleboscope", "aliases": {"bstats": "/usr/local/bin/bstats", "comppair": "/usr/local/bin/comppair", "dialign-tx": "/usr/local/bin/dialign-tx", "ds": "/usr/local/bin/ds", "famsa": "/usr/local/bin/famsa", "kaptive": "/usr/local/bin/kaptive", "kleboscope": "/usr/local/bin/kleboscope", "mustang": "/usr/local/bin/mustang", "pModel": "/usr/local/bin/pModel", "probcons": "/usr/local/bin/probcons", "probconsRNA": "/usr/local/bin/probconsRNA", "proda": "/usr/local/bin/proda", "scompare": "/usr/local/bin/scompare", "strain_ml": "/usr/local/bin/strain_ml", "treeshrink": "/usr/local/bin/treeshrink", "TMscore": "/usr/local/bin/TMscore", "conus_compare": "/usr/local/bin/conus_compare", "conus_train": "/usr/local/bin/conus_train", "sap": "/usr/local/bin/sap", "sfold": "/usr/local/bin/sfold", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "hmmerbuild": "/usr/local/bin/hmmerbuild", "kalign": "/usr/local/bin/kalign", "zless": "/usr/local/bin/zless", "RNAconsensus": "/usr/local/bin/RNAconsensus", "DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop"}}
+config: {"url": "https://biocontainers.pro/tools/kleboscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kleboscope", "latest": {"1.0.1--pyhdfd78af_1": "sha256:9617855d820a3bd60d9f7092c2c7a5e89ab854515c85b84a0f5018a715a48526"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:1970125855baa2110ac9616349eca6f0bc7d85efd596261f9b5be9104c5729ff", "1.0.1--pyhdfd78af_1": "sha256:9617855d820a3bd60d9f7092c2c7a5e89ab854515c85b84a0f5018a715a48526"}, "docker": "quay.io/biocontainers/kleboscope", "aliases": {"bstats": "/usr/local/bin/bstats", "comppair": "/usr/local/bin/comppair", "dialign-tx": "/usr/local/bin/dialign-tx", "ds": "/usr/local/bin/ds", "famsa": "/usr/local/bin/famsa", "kaptive": "/usr/local/bin/kaptive", "kleboscope": "/usr/local/bin/kleboscope", "mustang": "/usr/local/bin/mustang", "pModel": "/usr/local/bin/pModel", "probcons": "/usr/local/bin/probcons", "probconsRNA": "/usr/local/bin/probconsRNA", "proda": "/usr/local/bin/proda", "scompare": "/usr/local/bin/scompare", "strain_ml": "/usr/local/bin/strain_ml", "treeshrink": "/usr/local/bin/treeshrink", "TMscore": "/usr/local/bin/TMscore", "conus_compare": "/usr/local/bin/conus_compare", "conus_train": "/usr/local/bin/conus_train", "sap": "/usr/local/bin/sap", "sfold": "/usr/local/bin/sfold", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "hmmerbuild": "/usr/local/bin/hmmerbuild", "kalign": "/usr/local/bin/kalign", "zless": "/usr/local/bin/zless", "RNAconsensus": "/usr/local/bin/RNAconsensus", "DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kleboscope.
@@ -66,7 +67,7 @@ $ shpc install quay.io/biocontainers/kleboscope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kleboscope:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kleboscope:1.0.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kleboscope/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/kleboscope/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/kleboscope/1.0.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/kleboscope/1.0.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

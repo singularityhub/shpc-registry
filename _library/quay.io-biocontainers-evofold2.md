@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/evofold2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/evofold2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/evofold2/container.yaml"
-updated_at: "2026-05-24 06:50:46.360440"
+updated_at: "2026-05-25 07:23:09.791069"
 latest: "0.1--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/evofold2"
 aliases:

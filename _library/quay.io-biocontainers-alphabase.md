@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alphabase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alphabase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alphabase/container.yaml"
-updated_at: "2026-05-24 06:55:31.174120"
-latest: "1.8.1--pyhdfd78af_0"
+updated_at: "2026-05-25 07:27:54.509431"
+latest: "1.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alphabase"
 aliases:
  - "protoc-33.5.0"
@@ -40,8 +40,9 @@ aliases:
  - "python3.14"
 versions:
  - "1.8.1--pyhdfd78af_0"
+ - "1.9.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for alphabase"
-config: {"url": "https://biocontainers.pro/tools/alphabase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alphabase", "latest": {"1.8.1--pyhdfd78af_0": "sha256:9c106f4a600807a6a55920d3a3ed5f88ed334ff1056dc29d98321f648a781918"}, "tags": {"1.8.1--pyhdfd78af_0": "sha256:9c106f4a600807a6a55920d3a3ed5f88ed334ff1056dc29d98321f648a781918"}, "docker": "quay.io/biocontainers/alphabase", "aliases": {"protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14"}}
+config: {"url": "https://biocontainers.pro/tools/alphabase", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alphabase", "latest": {"1.9.0--pyhdfd78af_0": "sha256:5ede79e71b658984c04ad7f255a97e602514f952d4a175ad53760c3ed7053b65"}, "tags": {"1.8.1--pyhdfd78af_0": "sha256:9c106f4a600807a6a55920d3a3ed5f88ed334ff1056dc29d98321f648a781918", "1.9.0--pyhdfd78af_0": "sha256:5ede79e71b658984c04ad7f255a97e602514f952d4a175ad53760c3ed7053b65"}, "docker": "quay.io/biocontainers/alphabase", "aliases": {"protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "h5fuse": "/usr/local/bin/h5fuse", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alphabase.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/alphabase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alphabase:1.8.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/alphabase:1.9.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alphabase/1.8.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/alphabase/1.8.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/alphabase/1.9.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/alphabase/1.9.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-smoppix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-smoppix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-smoppix/container.yaml"
-updated_at: "2026-05-24 06:47:42.021424"
+updated_at: "2026-05-25 07:19:57.026213"
 latest: "1.2.1--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-smoppix"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treesimulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treesimulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treesimulator/container.yaml"
-updated_at: "2026-05-24 06:14:28.166160"
+updated_at: "2026-05-25 06:47:48.040448"
 latest: "0.2.27--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/treesimulator"
 aliases:

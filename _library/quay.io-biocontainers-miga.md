@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/miga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miga/container.yaml"
-updated_at: "2026-05-24 06:09:55.935532"
+updated_at: "2026-05-25 06:43:25.214038"
 latest: "1.0.0--py310h87f3376_0"
 container_url: "https://biocontainers.pro/tools/miga"
 aliases:

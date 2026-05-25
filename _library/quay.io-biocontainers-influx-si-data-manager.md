@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/influx-si-data-manager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/influx-si-data-manager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/influx-si-data-manager/container.yaml"
-updated_at: "2026-05-24 06:16:53.854687"
+updated_at: "2026-05-25 06:50:07.848454"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/influx-si-data-manager"
 aliases:
