@@ -20,7 +20,7 @@ jobs:
 
     - name: Derive BioContainers List
       run: |
-        conda run --name cache python -m pip install --break-system-packages -r .github/scripts/dev-requirements.txt
+        conda run --name cache python -m pip install -r .github/scripts/dev-requirements.txt
         conda run --name cache python .github/scripts/get_biocontainers.py /tmp/biocontainers.txt
         head /tmp/biocontainers.txt
 
