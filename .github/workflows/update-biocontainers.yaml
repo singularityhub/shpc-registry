@@ -16,14 +16,12 @@ jobs:
         fetch-depth: '0'
 
     - name: Create conda environment
-      run: conda create --quiet -c conda-forge --name cache spython
+      run: conda create --quiet -c conda-forge --name cache spython pip
 
     - name: Derive BioContainers List
       run: |
-        export PATH="/usr/share/miniconda/bin:$PATH"
-        source activate cache
-        pip install --break-system-packages -r .github/scripts/dev-requirements.txt
-        python .github/scripts/get_biocontainers.py /tmp/biocontainers.txt
+        conda run --name cache python -m pip install --break-system-packages -r .github/scripts/dev-requirements.txt
+        conda run --name cache python .github/scripts/get_biocontainers.py /tmp/biocontainers.txt
         head /tmp/biocontainers.txt
 
       # registry defaults to PWD, branch defaults to main
