@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rust-proseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-proseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-proseg/container.yaml"
-updated_at: "2026-05-26 06:13:10.624829"
+updated_at: "2026-05-26 21:28:22.006623"
 latest: "3.1.1--h79ce301_0"
 container_url: "https://biocontainers.pro/tools/rust-proseg"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vidger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vidger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vidger/container.yaml"
-updated_at: "2026-05-26 06:43:00.941123"
+updated_at: "2026-05-26 21:59:21.696165"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vidger"
 aliases:

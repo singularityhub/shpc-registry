@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaphlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaphlan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaphlan/container.yaml"
-updated_at: "2026-05-26 06:53:31.092535"
+updated_at: "2026-05-26 22:10:17.032412"
 latest: "4.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaphlan"
 

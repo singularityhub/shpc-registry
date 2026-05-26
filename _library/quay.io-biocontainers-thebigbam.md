@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/thebigbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thebigbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/thebigbam/container.yaml"
-updated_at: "2026-05-26 06:19:33.681983"
+updated_at: "2026-05-26 21:35:04.367799"
 latest: "0.1.5--py313h79ce301_0"
 container_url: "https://biocontainers.pro/tools/thebigbam"
 aliases:

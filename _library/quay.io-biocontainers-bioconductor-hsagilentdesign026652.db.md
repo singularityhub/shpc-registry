@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hsagilentdesign026652.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hsagilentdesign026652.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hsagilentdesign026652.db/container.yaml"
-updated_at: "2026-05-26 06:38:55.155689"
+updated_at: "2026-05-26 21:55:03.979970"
 latest: "3.2.3--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-hsagilentdesign026652.db"
 

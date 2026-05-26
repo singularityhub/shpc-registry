@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sradb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sradb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sradb/container.yaml"
-updated_at: "2026-05-26 06:18:04.096502"
+updated_at: "2026-05-26 21:33:26.868586"
 latest: "1.62.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sradb"
 

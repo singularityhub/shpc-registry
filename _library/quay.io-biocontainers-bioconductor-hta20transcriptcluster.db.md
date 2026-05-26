@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hta20transcriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hta20transcriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hta20transcriptcluster.db/container.yaml"
-updated_at: "2026-05-26 07:00:32.244460"
+updated_at: "2026-05-26 22:17:28.080137"
 latest: "8.8.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-hta20transcriptcluster.db"
 

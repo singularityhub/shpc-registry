@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-term-detect-software"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-detect-software/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-detect-software/container.yaml"
-updated_at: "2026-05-26 06:50:28.662147"
+updated_at: "2026-05-26 22:07:12.924802"
 latest: "0.227--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-term-detect-software"
 aliases:

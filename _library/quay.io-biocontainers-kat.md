@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kat/container.yaml"
-updated_at: "2026-05-26 06:28:50.669303"
+updated_at: "2026-05-26 21:44:43.014828"
 latest: "2.4.2--py39he0b6574_5"
 container_url: "https://biocontainers.pro/tools/kat"
 aliases:

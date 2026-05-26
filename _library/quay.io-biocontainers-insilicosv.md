@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/insilicosv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/insilicosv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/insilicosv/container.yaml"
-updated_at: "2026-05-26 06:12:25.289285"
+updated_at: "2026-05-26 21:27:34.557405"
 latest: "0.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/insilicosv"
 aliases:

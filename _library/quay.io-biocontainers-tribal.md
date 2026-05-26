@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tribal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tribal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tribal/container.yaml"
-updated_at: "2026-05-26 06:38:47.404058"
+updated_at: "2026-05-26 21:54:55.974103"
 latest: "0.1.1--py310hdbdd923_0"
 container_url: "https://biocontainers.pro/tools/tribal"
 aliases:

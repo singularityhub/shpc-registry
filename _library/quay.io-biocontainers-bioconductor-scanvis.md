@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scanvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scanvis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scanvis/container.yaml"
-updated_at: "2026-05-26 06:23:54.558840"
+updated_at: "2026-05-26 21:39:42.099492"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scanvis"
 

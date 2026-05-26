@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/btrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/btrim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/btrim/container.yaml"
-updated_at: "2026-05-26 06:45:30.876519"
+updated_at: "2026-05-26 22:01:59.861115"
 latest: "1.0.1--h9948957_8"
 container_url: "https://biocontainers.pro/tools/btrim"
 aliases:

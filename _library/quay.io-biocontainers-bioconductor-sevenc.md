@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sevenc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sevenc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sevenc/container.yaml"
-updated_at: "2026-05-26 06:39:22.102035"
+updated_at: "2026-05-26 21:55:31.968652"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sevenc"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-olin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-olin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-olin/container.yaml"
-updated_at: "2026-05-26 06:51:52.708664"
+updated_at: "2026-05-26 22:08:38.562533"
 latest: "1.88.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-olin"
 

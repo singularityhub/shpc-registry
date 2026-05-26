@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lap/container.yaml"
-updated_at: "2026-05-26 06:36:14.053740"
+updated_at: "2026-05-26 21:52:14.203362"
 latest: "1.1.r186--py27_0"
 container_url: "https://biocontainers.pro/tools/lap"
 aliases:

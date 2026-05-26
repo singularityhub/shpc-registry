@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/container.yaml"
-updated_at: "2026-05-26 06:19:01.432775"
+updated_at: "2026-05-26 21:34:29.316582"
 latest: "3.4.0--r45hdfd78af_19"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene"
 aliases:

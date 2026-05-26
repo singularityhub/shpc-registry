@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circminer/container.yaml"
-updated_at: "2026-05-26 07:01:06.508839"
+updated_at: "2026-05-26 22:18:03.573518"
 latest: "0.4.2--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/circminer"
 aliases:
