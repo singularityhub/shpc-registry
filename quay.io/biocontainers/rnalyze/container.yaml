@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rnalyze
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rnalyze
 latest:
-  1.0.1--hdfd78af_1: 
-    sha256:08aceb6912f0bacdf343ff7e0d6125923e90cbd4d86591e1e7a468bf61bfe575
+  1.0.2--hdfd78af_0: 
+    sha256:085bc9e8ffa6a76c380b4af2e629ce83622581952dd7702844b539125cbecb37
 tags:
   1.0.1--hdfd78af_1: 
     sha256:08aceb6912f0bacdf343ff7e0d6125923e90cbd4d86591e1e7a468bf61bfe575
+  1.0.2--hdfd78af_0: 
+    sha256:085bc9e8ffa6a76c380b4af2e629ce83622581952dd7702844b539125cbecb37
 docker: quay.io/biocontainers/rnalyze
 aliases:
   abi-dump.3: /usr/local/bin/abi-dump.3
