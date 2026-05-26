@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ref-solver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ref-solver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ref-solver/container.yaml"
-updated_at: "2026-05-25 07:09:50.473978"
+updated_at: "2026-05-26 06:41:33.322921"
 latest: "0.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/ref-solver"
 aliases:

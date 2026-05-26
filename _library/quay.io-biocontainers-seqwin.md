@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqwin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqwin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqwin/container.yaml"
-updated_at: "2026-05-25 07:29:13.282412"
+updated_at: "2026-05-26 07:00:17.464748"
 latest: "0.3.2--py310hd766df8_0"
 container_url: "https://biocontainers.pro/tools/seqwin"
 aliases:
