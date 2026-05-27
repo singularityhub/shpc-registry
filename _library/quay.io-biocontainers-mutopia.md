@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mutopia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutopia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutopia/container.yaml"
-updated_at: "2026-05-26 22:00:11.094172"
-latest: "1.0.4--pyhdfd78af_0"
+updated_at: "2026-05-27 06:44:23.230267"
+latest: "1.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mutopia"
 aliases:
  - "bigWigAverageOverBed"
@@ -45,8 +45,9 @@ aliases:
  - "ziptool"
 versions:
  - "1.0.4--pyhdfd78af_0"
+ - "1.0.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mutopia"
-config: {"url": "https://biocontainers.pro/tools/mutopia", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mutopia", "latest": {"1.0.4--pyhdfd78af_0": "sha256:c63e342be22076669ee13ba590dfc407bfcd49eb4dd18e567a0606121d507509"}, "tags": {"1.0.4--pyhdfd78af_0": "sha256:c63e342be22076669ee13ba590dfc407bfcd49eb4dd18e567a0606121d507509"}, "docker": "quay.io/biocontainers/mutopia", "aliases": {"bigWigAverageOverBed": "/usr/local/bin/bigWigAverageOverBed", "gtensor": "/usr/local/bin/gtensor", "luigi": "/usr/local/bin/luigi", "luigi-deps": "/usr/local/bin/luigi-deps", "luigi-deps-tree": "/usr/local/bin/luigi-deps-tree", "luigi-grep": "/usr/local/bin/luigi-grep", "luigid": "/usr/local/bin/luigid", "mutopia-sbs": "/usr/local/bin/mutopia-sbs", "optuna": "/usr/local/bin/optuna", "topo-model": "/usr/local/bin/topo-model", "gff2gff": "/usr/local/bin/gff2gff", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "alembic": "/usr/local/bin/alembic", "mako-render": "/usr/local/bin/mako-render", "h2benchmark": "/usr/local/bin/h2benchmark", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "checksum-profile": "/usr/local/bin/checksum-profile", "gff2gff.py": "/usr/local/bin/gff2gff.py", "ref-cache": "/usr/local/bin/ref-cache", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool"}}
+config: {"url": "https://biocontainers.pro/tools/mutopia", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mutopia", "latest": {"1.0.8--pyhdfd78af_0": "sha256:b75428744e91bfa4447c693bc1451132079386aea2b894d972b3d1c4672e9dd4"}, "tags": {"1.0.4--pyhdfd78af_0": "sha256:c63e342be22076669ee13ba590dfc407bfcd49eb4dd18e567a0606121d507509", "1.0.8--pyhdfd78af_0": "sha256:b75428744e91bfa4447c693bc1451132079386aea2b894d972b3d1c4672e9dd4"}, "docker": "quay.io/biocontainers/mutopia", "aliases": {"bigWigAverageOverBed": "/usr/local/bin/bigWigAverageOverBed", "gtensor": "/usr/local/bin/gtensor", "luigi": "/usr/local/bin/luigi", "luigi-deps": "/usr/local/bin/luigi-deps", "luigi-deps-tree": "/usr/local/bin/luigi-deps-tree", "luigi-grep": "/usr/local/bin/luigi-grep", "luigid": "/usr/local/bin/luigid", "mutopia-sbs": "/usr/local/bin/mutopia-sbs", "optuna": "/usr/local/bin/optuna", "topo-model": "/usr/local/bin/topo-model", "gff2gff": "/usr/local/bin/gff2gff", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "alembic": "/usr/local/bin/alembic", "mako-render": "/usr/local/bin/mako-render", "h2benchmark": "/usr/local/bin/h2benchmark", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "checksum-profile": "/usr/local/bin/checksum-profile", "gff2gff.py": "/usr/local/bin/gff2gff.py", "ref-cache": "/usr/local/bin/ref-cache", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mutopia.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/mutopia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mutopia:1.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mutopia:1.0.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mutopia/1.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/mutopia/1.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/mutopia/1.0.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/mutopia/1.0.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

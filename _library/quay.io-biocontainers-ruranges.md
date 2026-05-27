@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ruranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruranges/container.yaml"
-updated_at: "2026-05-26 21:48:40.073325"
+updated_at: "2026-05-27 06:55:10.376407"
 latest: "0.1.4--py312hf654e80_0"
 container_url: "https://biocontainers.pro/tools/ruranges"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-icare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icare/container.yaml"
-updated_at: "2026-05-26 22:16:48.103748"
+updated_at: "2026-05-27 06:52:16.032589"
 latest: "1.38.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icare"
 

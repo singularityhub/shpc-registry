@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ferro-hgvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ferro-hgvs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ferro-hgvs/container.yaml"
-updated_at: "2026-05-26 21:34:12.997307"
+updated_at: "2026-05-27 07:06:06.102415"
 latest: "0.4.0--h1f77f1e_0"
 container_url: "https://biocontainers.pro/tools/ferro-hgvs"
 aliases:

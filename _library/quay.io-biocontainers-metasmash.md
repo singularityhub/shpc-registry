@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metasmash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasmash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metasmash/container.yaml"
-updated_at: "2026-05-26 21:42:44.590832"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-05-27 06:38:17.928034"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metasmash"
 aliases:
  - "brawn"
@@ -49,8 +49,9 @@ aliases:
  - "axt_to_maf.py"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metasmash"
-config: {"url": "https://biocontainers.pro/tools/metasmash", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metasmash", "latest": {"0.1.0--pyhdfd78af_0": "sha256:7d4bafb9952292119fef53f58b09c7ef26cb7282c7c766793fc02b194012b918"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:7d4bafb9952292119fef53f58b09c7ef26cb7282c7c766793fc02b194012b918"}, "docker": "quay.io/biocontainers/metasmash", "aliases": {"brawn": "/usr/local/bin/brawn", "download-antismash-databases": "/usr/local/bin/download-antismash-databases", "hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2", "metasmash": "/usr/local/bin/metasmash", "moods-dna.py": "/usr/local/bin/moods-dna.py", "pysassc": "/usr/local/bin/pysassc", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py"}}
+config: {"url": "https://biocontainers.pro/tools/metasmash", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metasmash", "latest": {"0.1.2--pyhdfd78af_0": "sha256:cecd90d43c41d2897a44d40257d59c49714b3d33e0a720af50599d69f185624e"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:7d4bafb9952292119fef53f58b09c7ef26cb7282c7c766793fc02b194012b918", "0.1.2--pyhdfd78af_0": "sha256:cecd90d43c41d2897a44d40257d59c49714b3d33e0a720af50599d69f185624e"}, "docker": "quay.io/biocontainers/metasmash", "aliases": {"brawn": "/usr/local/bin/brawn", "download-antismash-databases": "/usr/local/bin/download-antismash-databases", "hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2", "metasmash": "/usr/local/bin/metasmash", "moods-dna.py": "/usr/local/bin/moods-dna.py", "pysassc": "/usr/local/bin/pysassc", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metasmash.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/metasmash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metasmash:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metasmash:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metasmash/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/metasmash/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/metasmash/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/metasmash/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

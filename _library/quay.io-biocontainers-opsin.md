@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/opsin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opsin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opsin/container.yaml"
-updated_at: "2026-05-26 21:26:56.879728"
-latest: "2.4.0--hdfd78af_3"
+updated_at: "2026-05-27 06:38:14.337622"
+latest: "2.9.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/opsin"
 aliases:
  - "opsin"
@@ -21,8 +21,9 @@ aliases:
  - "jjs"
 versions:
  - "2.4.0--hdfd78af_3"
+ - "2.9.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for opsin"
-config: {"url": "https://biocontainers.pro/tools/opsin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opsin", "latest": {"2.4.0--hdfd78af_3": "sha256:83f10e7a81277b979c1ffec59ee42bf09c21b267795eaafbf2d98aed6ead585d"}, "tags": {"2.4.0--hdfd78af_3": "sha256:83f10e7a81277b979c1ffec59ee42bf09c21b267795eaafbf2d98aed6ead585d"}, "docker": "quay.io/biocontainers/opsin", "aliases": {"opsin": "/usr/local/bin/opsin", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/opsin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opsin", "latest": {"2.9.0--hdfd78af_0": "sha256:c19ecbb51eb3c7d37faf86eef551177715619ea4c17044518d93ef59fd760119"}, "tags": {"2.4.0--hdfd78af_3": "sha256:83f10e7a81277b979c1ffec59ee42bf09c21b267795eaafbf2d98aed6ead585d", "2.9.0--hdfd78af_0": "sha256:c19ecbb51eb3c7d37faf86eef551177715619ea4c17044518d93ef59fd760119"}, "docker": "quay.io/biocontainers/opsin", "aliases": {"opsin": "/usr/local/bin/opsin", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/opsin.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/opsin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/opsin:2.4.0--hdfd78af_3
+$ shpc install quay.io/biocontainers/opsin:2.9.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/opsin/2.4.0--hdfd78af_3
-$ module help quay.io/biocontainers/opsin/2.4.0--hdfd78af_3
+$ module load quay.io/biocontainers/opsin/2.9.0--hdfd78af_0
+$ module help quay.io/biocontainers/opsin/2.9.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

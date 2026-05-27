@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-traviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-traviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-traviz/container.yaml"
-updated_at: "2026-05-26 21:57:09.975462"
+updated_at: "2026-05-27 06:41:09.451657"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-traviz"
 

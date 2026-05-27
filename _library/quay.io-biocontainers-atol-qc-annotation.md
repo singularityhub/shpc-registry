@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atol-qc-annotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-qc-annotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-qc-annotation/container.yaml"
-updated_at: "2026-05-26 21:28:28.883965"
+updated_at: "2026-05-27 07:04:11.916279"
 latest: "0.1.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/atol-qc-annotation"
 aliases:
