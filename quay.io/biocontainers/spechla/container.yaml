@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/spechla
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spechla
 latest:
-  1.0.10--py312pl5321h214dd5c_0: 
-    sha256:8df672906d3cb08cb3b0935f4a1575e36fdc512c4472777944a0abc3758bcddd
+  1.0.12--py312pl5321hdef70a9_0: 
+    sha256:c6b76272e17f4f3f91efebe96bdbad52dd8a965dae64a50d33edf432f1a96144
 tags:
   1.0.10--py312pl5321h214dd5c_0: 
     sha256:8df672906d3cb08cb3b0935f4a1575e36fdc512c4472777944a0abc3758bcddd
+  1.0.12--py312pl5321hdef70a9_0: 
+    sha256:c6b76272e17f4f3f91efebe96bdbad52dd8a965dae64a50d33edf432f1a96144
 docker: quay.io/biocontainers/spechla
 aliases:
   DE_graph_to_dot.pl: /usr/local/bin/DE_graph_to_dot.pl
