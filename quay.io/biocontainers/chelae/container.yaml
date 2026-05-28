@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/chelae
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chelae
+latest:
+  0.1.0--hfa8f182_0: 
+    sha256:1405eaab8ee7882c08143485af6d337d7feb6ea9dc2041c22d955e04921e255e
+tags:
+  0.1.0--hfa8f182_0: 
+    sha256:1405eaab8ee7882c08143485af6d337d7feb6ea9dc2041c22d955e04921e255e
+docker: quay.io/biocontainers/chelae
+aliases:
+  chelae: /usr/local/bin/chelae

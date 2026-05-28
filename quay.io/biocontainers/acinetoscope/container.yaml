@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/acinetoscope
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for acinetoscope
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:a3bca6c8de44b1c47334a3e64db834e251f5128e584ea7c341620b14a15ac31d
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:a3bca6c8de44b1c47334a3e64db834e251f5128e584ea7c341620b14a15ac31d
+docker: quay.io/biocontainers/acinetoscope
+aliases:
+  acinetoscope: /usr/local/bin/acinetoscope
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  kaptive: /usr/local/bin/kaptive
+  ds: /usr/local/bin/ds
+  abricate: /usr/local/bin/abricate
+  abricate-get_db: /usr/local/bin/abricate-get_db
+  zless: /usr/local/bin/zless
+  p11-kit: /usr/local/bin/p11-kit
+  p11tool: /usr/local/bin/p11tool
+  trust: /usr/local/bin/trust
+  asn1Coding: /usr/local/bin/asn1Coding
+  asn1Decoding: /usr/local/bin/asn1Decoding
+  asn1Parser: /usr/local/bin/asn1Parser
+  any2fasta: /usr/local/bin/any2fasta
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  TMalign: /usr/local/bin/TMalign

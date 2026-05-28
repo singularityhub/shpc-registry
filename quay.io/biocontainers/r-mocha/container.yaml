@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/r-mocha
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-mocha
+latest:
+  1.2.0--r45hdfd78af_0: 
+    sha256:3d69dd818d406ae652bd6bed37856d993d3401a954bcefe49456281aedaf6b8f
+tags:
+  1.2.0--r45hdfd78af_0: 
+    sha256:3d69dd818d406ae652bd6bed37856d993d3401a954bcefe49456281aedaf6b8f
+docker: quay.io/biocontainers/r-mocha
+aliases:
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  hb-info: /usr/local/bin/hb-info

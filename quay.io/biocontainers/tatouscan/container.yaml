@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/tatouscan
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tatouscan
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:5b6e3a01b4f03f9403cbe6dc99ceab94ef839fb172a29f8f0c9e5bbf53801c75
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:5b6e3a01b4f03f9403cbe6dc99ceab94ef839fb172a29f8f0c9e5bbf53801c75
+docker: quay.io/biocontainers/tatouscan
+aliases:
+  tatouscan: /usr/local/bin/tatouscan
+  pyfastx: /usr/local/bin/pyfastx
+  typer: /usr/local/bin/typer
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize

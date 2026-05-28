@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/chap_mddb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chap_mddb
+latest:
+  0.10.0--hb5b1ef8_1: 
+    sha256:f45f3035c9e4ee3553e0d8ecc25ee9ab148597a3bbc0213847c71f0689f38005
+tags:
+  0.10.0--hb5b1ef8_1: 
+    sha256:f45f3035c9e4ee3553e0d8ecc25ee9ab148597a3bbc0213847c71f0689f38005
+docker: quay.io/biocontainers/chap_mddb
+aliases:
+  GenX_IR: /usr/local/bin/GenX_IR
+  chap: /usr/local/bin/chap
+  iga64: /usr/local/bin/iga64
+  ocloc-24.52.1: /usr/local/bin/ocloc-24.52.1
+  gmx: /usr/local/bin/gmx
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint
+  spirv-objdump: /usr/local/bin/spirv-objdump
+  spirv-opt: /usr/local/bin/spirv-opt
+  spirv-reduce: /usr/local/bin/spirv-reduce
+  spirv-val: /usr/local/bin/spirv-val
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  fftw-wisdom: /usr/local/bin/fftw-wisdom
+  fftw-wisdom-to-conf: /usr/local/bin/fftw-wisdom-to-conf
+  fftwf-wisdom: /usr/local/bin/fftwf-wisdom
+  fftwl-wisdom: /usr/local/bin/fftwl-wisdom
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info

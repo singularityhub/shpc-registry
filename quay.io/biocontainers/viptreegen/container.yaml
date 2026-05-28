@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/viptreegen
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for viptreegen
+latest:
+  1.1.4--hdfd78af_0: 
+    sha256:722aa6dbe17b36ed7138776b09513a1f7bf90a9ea8c3eb14dd26d7d12598cbda
+tags:
+  1.1.4--hdfd78af_0: 
+    sha256:722aa6dbe17b36ed7138776b09513a1f7bf90a9ea8c3eb14dd26d7d12598cbda
+docker: quay.io/biocontainers/viptreegen
+aliases:
+  ViPTreeGen: /usr/local/bin/ViPTreeGen
+  minitest: /usr/local/bin/minitest
+  syntax_suggest: /usr/local/bin/syntax_suggest
+  test-unit: /usr/local/bin/test-unit
+  rbs: /usr/local/bin/rbs
+  rdbg: /usr/local/bin/rdbg
+  typeprof: /usr/local/bin/typeprof
+  racc: /usr/local/bin/racc
+  bundle: /usr/local/bin/bundle
+  bundler: /usr/local/bin/bundler
+  erb: /usr/local/bin/erb
+  gem: /usr/local/bin/gem
+  irb: /usr/local/bin/irb
+  rake: /usr/local/bin/rake
+  rdoc: /usr/local/bin/rdoc
+  ri: /usr/local/bin/ri
+  ruby: /usr/local/bin/ruby
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh

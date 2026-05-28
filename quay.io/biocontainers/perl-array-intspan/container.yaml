@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/perl-array-intspan
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perl-array-intspan
+latest:
+  2.004--pl5321hdfd78af_1: 
+    sha256:0c8c6ce09e78f500a7c79325e49c372ce394938ea040811314b31f60dddfaeaa
+tags:
+  2.004--pl5321hdfd78af_1: 
+    sha256:0c8c6ce09e78f500a7c79325e49c372ce394938ea040811314b31f60dddfaeaa
+docker: quay.io/biocontainers/perl-array-intspan

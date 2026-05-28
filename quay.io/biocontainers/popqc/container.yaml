@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/popqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for popqc
+latest:
+  0.1.1--he1b7be3_0: 
+    sha256:37ffdb54e45003c8df52ebf1f723ef2b910ac0738937df55294cb2748c755bc2
+tags:
+  0.1.1--he1b7be3_0: 
+    sha256:37ffdb54e45003c8df52ebf1f723ef2b910ac0738937df55294cb2748c755bc2
+docker: quay.io/biocontainers/popqc
+aliases:
+  popqc: /usr/local/bin/popqc

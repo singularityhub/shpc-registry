@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/lodestar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lodestar
+latest:
+  1.0.0--hf03da3d_0: 
+    sha256:09efc72885e3a1dfff698e2287983d4ad8390b21aedb52c4339ea3c4887c9b0d
+tags:
+  1.0.0--hf03da3d_0: 
+    sha256:09efc72885e3a1dfff698e2287983d4ad8390b21aedb52c4339ea3c4887c9b0d
+docker: quay.io/biocontainers/lodestar
+aliases:
+  lodestar: /usr/local/bin/lodestar

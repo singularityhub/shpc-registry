@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/barena
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for barena
+latest:
+  0.3.0--h038a63e_0: 
+    sha256:f876e5e66eb60cc722c4d4f8edbe27d4e8ec420a47c50e607eb01c185ba99d70
+tags:
+  0.3.0--h038a63e_0: 
+    sha256:f876e5e66eb60cc722c4d4f8edbe27d4e8ec420a47c50e607eb01c185ba99d70
+docker: quay.io/biocontainers/barena
+aliases:
+  barena: /usr/local/bin/barena

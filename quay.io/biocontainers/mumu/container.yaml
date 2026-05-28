@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/mumu
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mumu
+latest:
+  1.1.4--hc52dbad_0: 
+    sha256:560f683de7e0fb419ee8c94e44ff5440c36f7372eb669f99cda1cd1a10477d90
+tags:
+  1.1.4--hc52dbad_0: 
+    sha256:560f683de7e0fb419ee8c94e44ff5440c36f7372eb669f99cda1cd1a10477d90
+docker: quay.io/biocontainers/mumu
+aliases:
+  mumu: /usr/local/bin/mumu

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fg-mako
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fg-mako
+latest:
+  0.1.1--h7296c89_0: 
+    sha256:960d01aa5477ef82ad2b91739c4e4fa7e8916928882216f2fa7b66bad7e01826
+tags:
+  0.1.1--h7296c89_0: 
+    sha256:960d01aa5477ef82ad2b91739c4e4fa7e8916928882216f2fa7b66bad7e01826
+docker: quay.io/biocontainers/fg-mako
+aliases:
+  mako: /usr/local/bin/mako

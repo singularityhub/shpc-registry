@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/ba3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ba3
+latest:
+  3.4.4--h193c6b0_0: 
+    sha256:04add8762ca5f91f02261a5d325847591d544ac9cf0676de51c4edf9f0dcaaf8
+tags:
+  3.4.4--h193c6b0_0: 
+    sha256:04add8762ca5f91f02261a5d325847591d544ac9cf0676de51c4edf9f0dcaaf8
+docker: quay.io/biocontainers/ba3
+aliases:
+  BA3: /usr/local/bin/BA3
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

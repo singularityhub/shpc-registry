@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/raaqa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for raaqa
+latest:
+  0.3.0--pyhdfd78af_0: 
+    sha256:500773d1c8d39a5ab1d4d9b57e33012ae6dbf68d75a31a1c571e727e1c02635a
+tags:
+  0.3.0--pyhdfd78af_0: 
+    sha256:500773d1c8d39a5ab1d4d9b57e33012ae6dbf68d75a31a1c571e727e1c02635a
+docker: quay.io/biocontainers/raaqa
+aliases:
+  hese: /usr/local/bin/hese
+  mapq_softclip: /usr/local/bin/mapq_softclip
+  visualise: /usr/local/bin/visualise
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

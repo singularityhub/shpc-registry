@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/barcode_demux
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for barcode_demux
+latest:
+  1.0.7--hc38652c_0: 
+    sha256:6a70170f7379db38cffa5e732e6a25082344bc2ac9e4f43e58a8da15ceaa9b2e
+tags:
+  1.0.7--hc38652c_0: 
+    sha256:6a70170f7379db38cffa5e732e6a25082344bc2ac9e4f43e58a8da15ceaa9b2e
+docker: quay.io/biocontainers/barcode_demux
+aliases:
+  barcode_demux: /usr/local/bin/barcode_demux

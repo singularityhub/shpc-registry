@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/refseq2cds
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for refseq2cds
+latest:
+  0.1.4--pyhdfd78af_0: 
+    sha256:d78b68f7c8140bdcf7edb6e9cff6dc4aa8c7dc6832d1304a9b676c939c61fc1a
+tags:
+  0.1.4--pyhdfd78af_0: 
+    sha256:d78b68f7c8140bdcf7edb6e9cff6dc4aa8c7dc6832d1304a9b676c939c61fc1a
+docker: quay.io/biocontainers/refseq2cds
+aliases:
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  refseq2cds: /usr/local/bin/refseq2cds
+  pal2nal.pl: /usr/local/bin/pal2nal.pl
+  dataformat: /usr/local/bin/dataformat
+  datasets: /usr/local/bin/datasets
+  sumlabels: /usr/local/bin/sumlabels
+  sumtrees: /usr/local/bin/sumtrees
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  h2benchmark: /usr/local/bin/h2benchmark
+  elastishadow: /usr/local/bin/elastishadow
+  dendropy-format: /usr/local/bin/dendropy-format
+  checksum-profile: /usr/local/bin/checksum-profile
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  sumlabels.py: /usr/local/bin/sumlabels.py
+  sumtrees.py: /usr/local/bin/sumtrees.py
+  gawkbug: /usr/local/bin/gawkbug
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub

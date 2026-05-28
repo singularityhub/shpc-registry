@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/ont-end-reason
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ont-end-reason
+latest:
+  0.2.0a1--pyhdfd78af_0: 
+    sha256:f6cff997bd1b8368570ac69de15b29701baf67f922a0fee95912a577f8ef3388
+tags:
+  0.2.0a1--pyhdfd78af_0: 
+    sha256:f6cff997bd1b8368570ac69de15b29701baf67f922a0fee95912a577f8ef3388
+docker: quay.io/biocontainers/ont-end-reason
+aliases:
+  ont-end-reason: /usr/local/bin/ont-end-reason
+  pod5: /usr/local/bin/pod5
+  flatc: /usr/local/bin/flatc
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  h2benchmark: /usr/local/bin/h2benchmark
+  elastishadow: /usr/local/bin/elastishadow
+  checksum-profile: /usr/local/bin/checksum-profile
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  elasticurl: /usr/local/bin/elasticurl
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics

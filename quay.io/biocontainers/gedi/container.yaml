@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/gedi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gedi
+latest:
+  1.0.6a--hdfd78af_1: 
+    sha256:23053c78faa196230af91fd739c0d6b2b7e542a58308b1041da290d1a7bd07d2
+tags:
+  1.0.6a--hdfd78af_1: 
+    sha256:23053c78faa196230af91fd739c0d6b2b7e542a58308b1041da290d1a7bd07d2
+docker: quay.io/biocontainers/gedi
+aliases:
+  bamlist2cit: /usr/local/bin/bamlist2cit
+  gedi: /usr/local/bin/gedi
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
+  jdb: /usr/local/bin/jdb
+  jinfo: /usr/local/bin/jinfo

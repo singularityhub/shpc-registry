@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/proteinview
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for proteinview
+latest:
+  0.3.0--h54198d6_0: 
+    sha256:c849ce30a0801e40f10ab3de52928b202a075794fd901226f7348aa809e87f43
+tags:
+  0.3.0--h54198d6_0: 
+    sha256:c849ce30a0801e40f10ab3de52928b202a075794fd901226f7348aa809e87f43
+docker: quay.io/biocontainers/proteinview
+aliases:
+  proteinview: /usr/local/bin/proteinview

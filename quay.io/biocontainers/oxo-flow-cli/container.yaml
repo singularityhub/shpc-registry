@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/oxo-flow-cli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for oxo-flow-cli
+latest:
+  0.7.0--hfa8f182_0: 
+    sha256:976c687b42441ea94b447878c754238a100f162c91290a7563e411e4067dca34
+tags:
+  0.7.0--hfa8f182_0: 
+    sha256:976c687b42441ea94b447878c754238a100f162c91290a7563e411e4067dca34
+docker: quay.io/biocontainers/oxo-flow-cli
+aliases:
+  oxo-flow: /usr/local/bin/oxo-flow
