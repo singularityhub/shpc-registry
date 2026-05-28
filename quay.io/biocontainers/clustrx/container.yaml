@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/clustrx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for clustrx
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:c381df52f54a49971dba16047df6ddaf9f17035fed3d459ae100759901d61890
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:c381df52f54a49971dba16047df6ddaf9f17035fed3d459ae100759901d61890
+docker: quay.io/biocontainers/clustrx
+aliases:
+  clustrx: /usr/local/bin/clustrx
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  igraph: /usr/local/bin/igraph
+  gawkbug: /usr/local/bin/gawkbug
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi
+  mafft-distance: /usr/local/bin/mafft-distance
+  mafft-einsi: /usr/local/bin/mafft-einsi
+  mafft-fftns: /usr/local/bin/mafft-fftns
+  mafft-fftnsi: /usr/local/bin/mafft-fftnsi
+  mafft-ginsi: /usr/local/bin/mafft-ginsi
+  mafft-homologs.rb: /usr/local/bin/mafft-homologs.rb
+  mafft-linsi: /usr/local/bin/mafft-linsi
+  mafft-nwns: /usr/local/bin/mafft-nwns
+  mafft-nwnsi: /usr/local/bin/mafft-nwnsi
+  mafft-profile: /usr/local/bin/mafft-profile
+  mafft-qinsi: /usr/local/bin/mafft-qinsi
+  mafft-xinsi: /usr/local/bin/mafft-xinsi
+  nwns: /usr/local/bin/nwns
+  nwnsi: /usr/local/bin/nwnsi
+  mafft: /usr/local/bin/mafft
+  gawk: /usr/local/bin/gawk
+  awk: /usr/local/bin/awk

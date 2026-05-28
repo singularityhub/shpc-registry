@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/dipgenie
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dipgenie
+latest:
+  1.0--h3be2455_0: 
+    sha256:0e8e4553113a246531e2857f3ee5b4841ad2baa1f612c4cea7eb6a7c63a82b57
+tags:
+  1.0--h3be2455_0: 
+    sha256:0e8e4553113a246531e2857f3ee5b4841ad2baa1f612c4cea7eb6a7c63a82b57
+docker: quay.io/biocontainers/dipgenie
+aliases:
+  DipGenie: /usr/local/bin/DipGenie

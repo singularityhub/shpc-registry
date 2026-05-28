@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/palmscan
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for palmscan
+latest:
+  2.0.0--hc52dbad_0: 
+    sha256:660342e3a983d37bfc2335dd9697080b0d4d6409425920d821eda50b81806a62
+tags:
+  2.0.0--hc52dbad_0: 
+    sha256:660342e3a983d37bfc2335dd9697080b0d4d6409425920d821eda50b81806a62
+docker: quay.io/biocontainers/palmscan
+aliases:
+  palmscan2: /usr/local/bin/palmscan2

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/virconsens
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for virconsens
+latest:
+  1.2--pyhdfd78af_0: 
+    sha256:b5af148326d76fcb0e9f6d795cd82c417dc8e07e20975ec1bc8fd9b9ede36d5b
+tags:
+  1.2--pyhdfd78af_0: 
+    sha256:b5af148326d76fcb0e9f6d795cd82c417dc8e07e20975ec1bc8fd9b9ede36d5b
+docker: quay.io/biocontainers/virconsens
+aliases:
+  virconsens: /usr/local/bin/virconsens
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config

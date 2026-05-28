@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastaguard
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastaguard
+latest:
+  0.2.0--hfa8f182_0: 
+    sha256:fd8b29b30d757408e95c63831fca7c3241a5a5f926658a44b748689ec9f74e98
+tags:
+  0.2.0--hfa8f182_0: 
+    sha256:fd8b29b30d757408e95c63831fca7c3241a5a5f926658a44b748689ec9f74e98
+docker: quay.io/biocontainers/fastaguard
+aliases:
+  fastaguard: /usr/local/bin/fastaguard

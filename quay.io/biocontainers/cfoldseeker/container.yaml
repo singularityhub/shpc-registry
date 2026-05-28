@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/cfoldseeker
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cfoldseeker
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:7a30e49dba5c3ec687946540d7e75575f3569b57e6fbab112c4da6109e036cb5
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:7a30e49dba5c3ec687946540d7e75575f3569b57e6fbab112c4da6109e036cb5
+docker: quay.io/biocontainers/cfoldseeker
+aliases:
+  cblaster: /usr/local/bin/cblaster
+  cfoldseeker: /usr/local/bin/cfoldseeker
+  cfoldseeker-cds: /usr/local/bin/cfoldseeker-cds
+  clinker: /usr/local/bin/clinker
+  foldseek: /usr/local/bin/foldseek
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  kegg_pull: /usr/local/bin/kegg_pull
+  psghelp: /usr/local/bin/psghelp
+  psgissue: /usr/local/bin/psgissue
+  psgmain: /usr/local/bin/psgmain
+  psgsettings: /usr/local/bin/psgsettings
+  psgupgrade: /usr/local/bin/psgupgrade
+  psgver: /usr/local/bin/psgver
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  aria2c: /usr/local/bin/aria2c
+  gawkbug: /usr/local/bin/gawkbug
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  diamond: /usr/local/bin/diamond
+  faidx: /usr/local/bin/faidx
+  gawk: /usr/local/bin/gawk
+  awk: /usr/local/bin/awk
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jsonschema: /usr/local/bin/jsonschema
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

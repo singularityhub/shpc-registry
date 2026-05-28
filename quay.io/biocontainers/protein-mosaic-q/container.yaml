@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/protein-mosaic-q
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for protein-mosaic-q
+latest:
+  0.3.3--pyhdfd78af_0: 
+    sha256:9a72ae92f010606434ce0394e525a9a4760137787033be570ed4f067ffbc8308
+tags:
+  0.3.3--pyhdfd78af_0: 
+    sha256:9a72ae92f010606434ce0394e525a9a4760137787033be570ed4f067ffbc8308
+docker: quay.io/biocontainers/protein-mosaic-q
+aliases:
+  mosaicq: /usr/local/bin/mosaicq
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

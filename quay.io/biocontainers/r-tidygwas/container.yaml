@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/r-tidygwas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-tidygwas
+latest:
+  1.0.0--r44hdfd78af_0: 
+    sha256:4a95af3ee8c5eddb05a2a0debdc536e4972d4a533621f977e3b6d0eeee0205d2
+tags:
+  1.0.0--r44hdfd78af_0: 
+    sha256:4a95af3ee8c5eddb05a2a0debdc536e4972d4a533621f977e3b6d0eeee0205d2
+docker: quay.io/biocontainers/r-tidygwas
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  h2benchmark: /usr/local/bin/h2benchmark
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  elastishadow: /usr/local/bin/elastishadow
+  checksum-profile: /usr/local/bin/checksum-profile
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  elasticurl: /usr/local/bin/elasticurl
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata

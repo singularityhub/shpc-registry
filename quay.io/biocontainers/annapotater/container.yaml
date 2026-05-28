@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/annapotater
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for annapotater
+latest:
+  0.7.3--pl5321hab16a5f_0: 
+    sha256:17e1d9065215116a25c0debe3fb52d13e6ccf034bbcac9c4bff190399a4c7f3e
+tags:
+  0.7.3--pl5321hab16a5f_0: 
+    sha256:17e1d9065215116a25c0debe3fb52d13e6ccf034bbcac9c4bff190399a4c7f3e
+docker: quay.io/biocontainers/annapotater
+aliases:
+  annapotater: /usr/local/bin/annapotater
+  famsa: /usr/local/bin/famsa
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  proda: /usr/local/bin/proda
+  bstats: /usr/local/bin/bstats
+  comppair: /usr/local/bin/comppair
+  dialign-tx: /usr/local/bin/dialign-tx
+  ds: /usr/local/bin/ds
+  mustang: /usr/local/bin/mustang
+  pModel: /usr/local/bin/pModel
+  probcons: /usr/local/bin/probcons
+  probconsRNA: /usr/local/bin/probconsRNA
+  scompare: /usr/local/bin/scompare
+  strain_ml: /usr/local/bin/strain_ml
+  treeshrink: /usr/local/bin/treeshrink
+  TMscore: /usr/local/bin/TMscore
+  conus_compare: /usr/local/bin/conus_compare
+  conus_train: /usr/local/bin/conus_train
+  sap: /usr/local/bin/sap
+  sfold: /usr/local/bin/sfold
+  hmmerbuild: /usr/local/bin/hmmerbuild
+  kalign: /usr/local/bin/kalign
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  DrawGram.jar: /usr/local/bin/DrawGram.jar
+  DrawTree.jar: /usr/local/bin/DrawTree.jar
+  clique: /usr/local/bin/clique
+  consense: /usr/local/bin/consense
+  contml: /usr/local/bin/contml
+  contrast: /usr/local/bin/contrast

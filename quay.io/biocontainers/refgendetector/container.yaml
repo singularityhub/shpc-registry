@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/refgendetector
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for refgendetector
+latest:
+  3.0.5--pyhdfd78af_0: 
+    sha256:e0144d1a0104e9794e1a18c35a37b2fa62d8b6987496c36ef964f02c6be9855b
+tags:
+  3.0.5--pyhdfd78af_0: 
+    sha256:e0144d1a0104e9794e1a18c35a37b2fa62d8b6987496c36ef964f02c6be9855b
+docker: quay.io/biocontainers/refgendetector
+aliases:
+  refgenDetector: /usr/local/bin/refgenDetector
+  refgenDetector-manager: /usr/local/bin/refgenDetector-manager
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config

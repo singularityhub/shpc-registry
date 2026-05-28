@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/mlstudio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mlstudio
+latest:
+  1.4.0--pyhdfd78af_0: 
+    sha256:e69305b858932d77513a4ed5d987283ecd323e93aba0283f44e007c3f917cad3
+tags:
+  1.4.0--pyhdfd78af_0: 
+    sha256:e69305b858932d77513a4ed5d987283ecd323e93aba0283f44e007c3f917cad3
+docker: quay.io/biocontainers/mlstudio
+aliases:
+  amrfinder_index: /usr/local/bin/amrfinder_index
+  disruption2genesymbol: /usr/local/bin/disruption2genesymbol
+  email_validator: /usr/local/bin/email_validator
+  fastapi: /usr/local/bin/fastapi
+  mlstudio: /usr/local/bin/mlstudio
+  mutate: /usr/local/bin/mutate
+  stx.prot: /usr/local/bin/stx.prot
+  stxtyper: /usr/local/bin/stxtyper
+  test_stxtyper.sh: /usr/local/bin/test_stxtyper.sh
+  uvicorn: /usr/local/bin/uvicorn
+  watchfiles: /usr/local/bin/watchfiles
+  websockets: /usr/local/bin/websockets
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  dna_mutation: /usr/local/bin/dna_mutation
+  fasta2parts: /usr/local/bin/fasta2parts
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff_check: /usr/local/bin/gff_check
+  fasta_check: /usr/local/bin/fasta_check
+  dotenv: /usr/local/bin/dotenv
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  fastp: /usr/local/bin/fastp
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  httpx: /usr/local/bin/httpx
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges

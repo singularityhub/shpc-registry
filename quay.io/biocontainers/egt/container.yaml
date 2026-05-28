@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/egt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for egt
+latest:
+  0.2.3--pyhdfd78af_0: 
+    sha256:1e84e49dd7ae41239a46cebb2802b8b37d69c38866021816509d5363708b7430
+tags:
+  0.2.3--pyhdfd78af_0: 
+    sha256:1e84e49dd7ae41239a46cebb2802b8b37d69c38866021816509d5363708b7430
+docker: quay.io/biocontainers/egt
+aliases:
+  bottle: /usr/local/bin/bottle
+  bottle.py: /usr/local/bin/bottle.py
+  egt: /usr/local/bin/egt
+  ete4: /usr/local/bin/ete4
+  holoviews: /usr/local/bin/holoviews
+  jpegtran: /usr/local/bin/jpegtran
+  panel: /usr/local/bin/panel
+  pyct: /usr/local/bin/pyct
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex

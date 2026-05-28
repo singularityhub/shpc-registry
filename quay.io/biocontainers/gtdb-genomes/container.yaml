@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/gtdb-genomes
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gtdb-genomes
+latest:
+  0.2.1--pyhdfd78af_0: 
+    sha256:18dba10e71a3fa8d6619a2183d03055ef4b0a55761b5e4fd1d7134b8210e69a8
+tags:
+  0.2.1--pyhdfd78af_0: 
+    sha256:18dba10e71a3fa8d6619a2183d03055ef4b0a55761b5e4fd1d7134b8210e69a8
+docker: quay.io/biocontainers/gtdb-genomes
+aliases:
+  gtdb-genomes: /usr/local/bin/gtdb-genomes
+  dataformat: /usr/local/bin/dataformat
+  datasets: /usr/local/bin/datasets
+  funzip: /usr/local/bin/funzip
+  unzipsfx: /usr/local/bin/unzipsfx
+  zipgrep: /usr/local/bin/zipgrep
+  zipinfo: /usr/local/bin/zipinfo
+  unzip: /usr/local/bin/unzip
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  tqdm: /usr/local/bin/tqdm

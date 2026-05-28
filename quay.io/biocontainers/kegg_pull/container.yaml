@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/kegg_pull
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kegg_pull
+latest:
+  3.2.2--pyhdfd78af_0: 
+    sha256:fd5a991b5706355a489a182a510a77759cb3a816e26f4c364e5661fe5beed1c6
+tags:
+  3.2.2--pyhdfd78af_0: 
+    sha256:fd5a991b5706355a489a182a510a77759cb3a816e26f4c364e5661fe5beed1c6
+docker: quay.io/biocontainers/kegg_pull
+aliases:
+  kegg_pull: /usr/local/bin/kegg_pull
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jsonschema: /usr/local/bin/jsonschema
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

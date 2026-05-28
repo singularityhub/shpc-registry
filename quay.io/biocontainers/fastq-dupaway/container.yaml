@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fastq-dupaway
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fastq-dupaway
+latest:
+  1.5.1--hd63eeec_0: 
+    sha256:a18f069bf72e6a6e9c375224c740d1a0aa8e21b5a5f81384a91ba7d6dcf88dd4
+tags:
+  1.5.1--hd63eeec_0: 
+    sha256:a18f069bf72e6a6e9c375224c740d1a0aa8e21b5a5f81384a91ba7d6dcf88dd4
+docker: quay.io/biocontainers/fastq-dupaway
+aliases:
+  fastq-dupaway: /usr/local/bin/fastq-dupaway

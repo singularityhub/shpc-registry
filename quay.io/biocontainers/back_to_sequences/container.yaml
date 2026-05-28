@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/back_to_sequences
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for back_to_sequences
+latest:
+  0.8.4--hab7d0fd_0: 
+    sha256:d833bdc1be31b43a06fd5662d5f54a4855c15aaeda6289bffe29e34057372064
+tags:
+  0.8.4--hab7d0fd_0: 
+    sha256:d833bdc1be31b43a06fd5662d5f54a4855c15aaeda6289bffe29e34057372064
+docker: quay.io/biocontainers/back_to_sequences
+aliases:
+  back_to_sequences: /usr/local/bin/back_to_sequences

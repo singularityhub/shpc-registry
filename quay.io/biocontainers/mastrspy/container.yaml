@@ -1,0 +1,57 @@
+url: https://biocontainers.pro/tools/mastrspy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mastrspy
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:7cc9a011d1b6885f1de74e374d320c26be856ab48be0309996809ad1ed289da8
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:7cc9a011d1b6885f1de74e374d320c26be856ab48be0309996809ad1ed289da8
+docker: quay.io/biocontainers/mastrspy
+aliases:
+  android_deploy.py: /usr/local/bin/android_deploy.py
+  deploy.py: /usr/local/bin/deploy.py
+  kmap2qmap6: /usr/local/bin/kmap2qmap6
+  lcheck6: /usr/local/bin/lcheck6
+  lconvert6: /usr/local/bin/lconvert6
+  lrelease-pro6: /usr/local/bin/lrelease-pro6
+  lrelease6: /usr/local/bin/lrelease6
+  ltext2id6: /usr/local/bin/ltext2id6
+  lupdate-pro6: /usr/local/bin/lupdate-pro6
+  lupdate6: /usr/local/bin/lupdate6
+  mastrspy: /usr/local/bin/mastrspy
+  metaobjectdump.py: /usr/local/bin/metaobjectdump.py
+  project.py: /usr/local/bin/project.py
+  pyside6-rcc: /usr/local/bin/pyside6-rcc
+  pyside6-uic: /usr/local/bin/pyside6-uic
+  qml.py: /usr/local/bin/qml.py
+  qtpy2cpp.py: /usr/local/bin/qtpy2cpp.py
+  requirements-android.txt: /usr/local/bin/requirements-android.txt
+  shiboken6: /usr/local/bin/shiboken6
+  shiboken_tool.py: /usr/local/bin/shiboken_tool.py
+  wasmdeployqt6: /usr/local/bin/wasmdeployqt6
+  androiddeployqt6: /usr/local/bin/androiddeployqt6
+  assistant6: /usr/local/bin/assistant6
+  designer6: /usr/local/bin/designer6
+  linguist6: /usr/local/bin/linguist6
+  pixeltool6: /usr/local/bin/pixeltool6
+  qdbus6: /usr/local/bin/qdbus6
+  qdbusviewer6: /usr/local/bin/qdbusviewer6
+  qdistancefieldgenerator6: /usr/local/bin/qdistancefieldgenerator6
+  qmake6: /usr/local/bin/qmake6
+  qml6: /usr/local/bin/qml6
+  qmleasing6: /usr/local/bin/qmleasing6
+  qmlls6: /usr/local/bin/qmlls6
+  qmlpreview6: /usr/local/bin/qmlpreview6
+  qmlscene6: /usr/local/bin/qmlscene6
+  qt6.conf: /usr/local/bin/qt6.conf
+  qtdiag6: /usr/local/bin/qtdiag6
+  qtplugininfo6: /usr/local/bin/qtplugininfo6
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch

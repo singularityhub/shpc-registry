@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/dotmatch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dotmatch
+latest:
+  0.1.4--py314h118bc1c_0: 
+    sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538
+tags:
+  0.1.4--py314h118bc1c_0: 
+    sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538
+docker: quay.io/biocontainers/dotmatch
+aliases:
+  dotmatch: /usr/local/bin/dotmatch
+  quickdna: /usr/local/bin/quickdna
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

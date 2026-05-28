@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/seqcal
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seqcal
+latest:
+  1.0--pyhdfd78af_0: 
+    sha256:252e46ce0e0b2e6b819a6206ddf7d5c67f091cfa4cd1e10b2485c47bbb4db9ab
+tags:
+  1.0--pyhdfd78af_0: 
+    sha256:252e46ce0e0b2e6b819a6206ddf7d5c67f091cfa4cd1e10b2485c47bbb4db9ab
+docker: quay.io/biocontainers/seqcal
+aliases:
+  seqcal: /usr/local/bin/seqcal
+  seqkit: /usr/local/bin/seqkit
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
