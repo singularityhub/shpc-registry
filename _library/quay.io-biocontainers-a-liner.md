@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/a-liner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/a-liner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/a-liner/container.yaml"
-updated_at: "2026-05-28 06:35:30.775943"
+updated_at: "2026-05-28 15:54:34.454763"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/a-liner"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/debreak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/debreak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/debreak/container.yaml"
-updated_at: "2026-05-28 06:19:39.238041"
+updated_at: "2026-05-28 15:36:15.714956"
 latest: "1.3--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/debreak"
 aliases:

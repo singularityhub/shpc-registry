@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trash-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trash-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trash-py/container.yaml"
-updated_at: "2026-05-28 06:35:09.468095"
+updated_at: "2026-05-28 15:31:06.584551"
 latest: "1.0.0--py314hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/trash-py"
 aliases:
