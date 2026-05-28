@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epimetheus-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epimetheus-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epimetheus-py/container.yaml"
-updated_at: "2026-05-27 06:56:33.017377"
+updated_at: "2026-05-28 06:36:49.375232"
 latest: "0.7.9--py310hcf6047f_0"
 container_url: "https://biocontainers.pro/tools/epimetheus-py"
 aliases:

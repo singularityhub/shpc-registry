@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-birta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-birta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-birta/container.yaml"
-updated_at: "2026-05-27 06:49:55.188719"
+updated_at: "2026-05-28 06:50:34.821253"
 latest: "1.31.0--r40h5f743cb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-birta"
 aliases:
