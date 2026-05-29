@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amrfior"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amrfior/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amrfior/container.yaml"
-updated_at: "2026-05-28 15:30:29.461332"
+updated_at: "2026-05-29 06:34:31.566661"
 latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amrfior"
 aliases:

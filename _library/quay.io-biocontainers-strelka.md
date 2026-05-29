@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strelka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strelka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strelka/container.yaml"
-updated_at: "2026-05-28 15:17:23.386359"
+updated_at: "2026-05-29 06:19:53.245073"
 latest: "2.9.10--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/strelka"
 aliases:

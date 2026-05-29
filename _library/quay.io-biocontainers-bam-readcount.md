@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bam-readcount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam-readcount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bam-readcount/container.yaml"
-updated_at: "2026-05-28 15:30:12.589324"
+updated_at: "2026-05-29 06:34:13.005853"
 latest: "1.0.1--h9aeec6d_3"
 container_url: "https://biocontainers.pro/tools/bam-readcount"
 aliases:

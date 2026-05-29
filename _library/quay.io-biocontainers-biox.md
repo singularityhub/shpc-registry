@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biox/container.yaml"
-updated_at: "2026-05-28 15:43:29.338225"
+updated_at: "2026-05-29 06:48:23.751664"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biox"
 aliases:

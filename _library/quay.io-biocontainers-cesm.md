@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cesm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cesm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cesm/container.yaml"
-updated_at: "2026-05-28 15:51:21.471117"
+updated_at: "2026-05-29 06:56:51.684621"
 latest: "2.1.3--py38pl5321hbcac906_6"
 container_url: "https://biocontainers.pro/tools/cesm"
 aliases:

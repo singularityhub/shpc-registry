@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biotip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biotip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biotip/container.yaml"
-updated_at: "2026-05-28 15:36:40.127094"
+updated_at: "2026-05-29 06:41:10.352134"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biotip"
 

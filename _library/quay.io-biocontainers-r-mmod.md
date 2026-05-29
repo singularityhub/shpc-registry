@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mmod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mmod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mmod/container.yaml"
-updated_at: "2026-05-28 15:40:46.074589"
+updated_at: "2026-05-29 06:45:33.354332"
 latest: "1.3.3--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-mmod"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sql-statement"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sql-statement/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sql-statement/container.yaml"
-updated_at: "2026-05-28 15:45:19.593786"
+updated_at: "2026-05-29 06:50:21.725370"
 latest: "1.414--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-sql-statement"
 aliases:

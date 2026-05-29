@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ada"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ada/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ada/container.yaml"
-updated_at: "2026-05-28 15:37:36.742461"
+updated_at: "2026-05-29 06:42:10.594819"
 latest: "2.0_5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ada"
 aliases:

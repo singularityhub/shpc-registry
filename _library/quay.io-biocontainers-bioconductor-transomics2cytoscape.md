@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-transomics2cytoscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transomics2cytoscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transomics2cytoscape/container.yaml"
-updated_at: "2026-05-28 15:23:44.161136"
+updated_at: "2026-05-29 06:26:57.002430"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transomics2cytoscape"
 aliases:

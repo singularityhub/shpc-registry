@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mutopia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutopia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutopia/container.yaml"
-updated_at: "2026-05-28 15:34:00.837779"
+updated_at: "2026-05-29 06:38:18.476388"
 latest: "1.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mutopia"
 aliases:

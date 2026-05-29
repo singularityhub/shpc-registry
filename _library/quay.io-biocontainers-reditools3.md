@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reditools3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reditools3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reditools3/container.yaml"
-updated_at: "2026-05-28 15:33:56.490418"
+updated_at: "2026-05-29 06:38:13.609536"
 latest: "3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reditools3"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phynteny_transformer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phynteny_transformer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phynteny_transformer/container.yaml"
-updated_at: "2026-05-28 15:52:49.607695"
+updated_at: "2026-05-29 06:58:25.105380"
 latest: "0.1.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phynteny_transformer"
 aliases:
