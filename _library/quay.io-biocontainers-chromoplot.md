@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromoplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromoplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromoplot/container.yaml"
-updated_at: "2026-05-29 06:43:26.393497"
+updated_at: "2026-05-30 06:15:02.424245"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chromoplot"
 aliases:

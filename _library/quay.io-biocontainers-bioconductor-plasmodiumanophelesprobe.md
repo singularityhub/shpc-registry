@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plasmodiumanophelesprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plasmodiumanophelesprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plasmodiumanophelesprobe/container.yaml"
-updated_at: "2026-05-29 06:59:29.413092"
+updated_at: "2026-05-30 06:30:09.742232"
 latest: "2.18.0--r45hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-plasmodiumanophelesprobe"
 

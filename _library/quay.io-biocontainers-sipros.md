@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sipros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sipros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sipros/container.yaml"
-updated_at: "2026-05-29 06:25:22.068742"
+updated_at: "2026-05-30 05:58:18.383348"
 latest: "5.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sipros"
 aliases:

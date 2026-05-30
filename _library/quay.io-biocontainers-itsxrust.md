@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itsxrust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itsxrust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itsxrust/container.yaml"
-updated_at: "2026-05-29 06:24:21.215261"
+updated_at: "2026-05-30 05:57:22.755094"
 latest: "0.2.2--hdd79491_1"
 container_url: "https://biocontainers.pro/tools/itsxrust"
 aliases:
