@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fg-sra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fg-sra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fg-sra/container.yaml"
-updated_at: "2026-05-30 06:01:59.700446"
+updated_at: "2026-05-31 06:32:25.451310"
 latest: "0.1.0--hdaf81d9_0"
 container_url: "https://biocontainers.pro/tools/fg-sra"
 aliases:

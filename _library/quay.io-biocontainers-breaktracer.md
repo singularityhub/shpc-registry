@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/breaktracer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breaktracer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breaktracer/container.yaml"
-updated_at: "2026-05-30 06:03:36.896652"
+updated_at: "2026-05-31 06:33:57.214914"
 latest: "0.2.8--hd6466ae_0"
 container_url: "https://biocontainers.pro/tools/breaktracer"
 aliases:

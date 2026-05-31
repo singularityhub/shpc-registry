@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fg-mako"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fg-mako/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fg-mako/container.yaml"
-updated_at: "2026-05-30 06:27:20.413014"
+updated_at: "2026-05-31 06:56:23.126702"
 latest: "0.1.1--h7296c89_0"
 container_url: "https://biocontainers.pro/tools/fg-mako"
 aliases:

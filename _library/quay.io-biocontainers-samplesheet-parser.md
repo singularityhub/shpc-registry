@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samplesheet-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samplesheet-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samplesheet-parser/container.yaml"
-updated_at: "2026-05-30 06:33:44.246856"
+updated_at: "2026-05-31 07:02:26.769327"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samplesheet-parser"
 aliases:

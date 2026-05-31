@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rigel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rigel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rigel/container.yaml"
-updated_at: "2026-05-30 06:28:59.023639"
+updated_at: "2026-05-31 06:57:56.659479"
 latest: "0.3.3--py312hf44d832_0"
 container_url: "https://biocontainers.pro/tools/rigel"
 aliases:

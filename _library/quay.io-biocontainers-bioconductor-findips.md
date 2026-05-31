@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-findips"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-findips/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-findips/container.yaml"
-updated_at: "2026-05-30 06:38:30.964489"
+updated_at: "2026-05-31 07:07:00.458526"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-findips"
 aliases:

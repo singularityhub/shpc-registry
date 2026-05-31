@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepchopper-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepchopper-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepchopper-cli/container.yaml"
-updated_at: "2026-05-30 05:55:50.520085"
+updated_at: "2026-05-31 06:26:37.218736"
 latest: "1.2.9--py310h9e6395a_0"
 container_url: "https://biocontainers.pro/tools/deepchopper-cli"
 aliases:
