@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igblast/container.yaml"
-updated_at: "2026-05-31 06:40:46.647479"
+updated_at: "2026-06-01 07:20:39.136626"
 latest: "1.22.0--h6a68c12_1"
 container_url: "https://biocontainers.pro/tools/igblast"
 

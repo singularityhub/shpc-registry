@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/covsnap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covsnap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/covsnap/container.yaml"
-updated_at: "2026-05-31 06:48:36.032134"
+updated_at: "2026-06-01 07:28:58.995043"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/covsnap"
 aliases:

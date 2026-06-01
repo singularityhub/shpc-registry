@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-array-intspan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-array-intspan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-array-intspan/container.yaml"
-updated_at: "2026-05-31 07:05:32.635708"
+updated_at: "2026-06-01 07:47:14.089486"
 latest: "2.004--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-array-intspan"
 

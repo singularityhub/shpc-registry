@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cladebreaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cladebreaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cladebreaker/container.yaml"
-updated_at: "2026-05-31 06:47:26.152663"
-latest: "0.2.3--py39hdfd78af_0"
+updated_at: "2026-06-01 07:27:46.149450"
+latest: "0.3.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cladebreaker"
 aliases:
  - "check_samplesheet.py"
@@ -40,8 +40,9 @@ aliases:
  - "du"
 versions:
  - "0.2.3--py39hdfd78af_0"
+ - "0.3.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for cladebreaker"
-config: {"url": "https://biocontainers.pro/tools/cladebreaker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cladebreaker", "latest": {"0.2.3--py39hdfd78af_0": "sha256:6a6803828c3174ccce47e1c69d5cc549f5ac47f6f67fb4a7484f005dab6ec835"}, "tags": {"0.2.3--py39hdfd78af_0": "sha256:6a6803828c3174ccce47e1c69d5cc549f5ac47f6f67fb4a7484f005dab6ec835"}, "docker": "quay.io/biocontainers/cladebreaker", "aliases": {"check_samplesheet.py": "/usr/local/bin/check_samplesheet.py", "cladebreaker": "/usr/local/bin/cladebreaker", "list_fixer.py": "/usr/local/bin/list_fixer.py", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors", "dirname": "/usr/local/bin/dirname", "du": "/usr/local/bin/du"}}
+config: {"url": "https://biocontainers.pro/tools/cladebreaker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cladebreaker", "latest": {"0.3.0--hdfd78af_0": "sha256:156e412f809c1fca4153f26dae8405332d5f3f0f18bea72b48268c279062489a"}, "tags": {"0.2.3--py39hdfd78af_0": "sha256:6a6803828c3174ccce47e1c69d5cc549f5ac47f6f67fb4a7484f005dab6ec835", "0.3.0--hdfd78af_0": "sha256:156e412f809c1fca4153f26dae8405332d5f3f0f18bea72b48268c279062489a"}, "docker": "quay.io/biocontainers/cladebreaker", "aliases": {"check_samplesheet.py": "/usr/local/bin/check_samplesheet.py", "cladebreaker": "/usr/local/bin/cladebreaker", "list_fixer.py": "/usr/local/bin/list_fixer.py", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date", "dd": "/usr/local/bin/dd", "df": "/usr/local/bin/df", "dir": "/usr/local/bin/dir", "dircolors": "/usr/local/bin/dircolors", "dirname": "/usr/local/bin/dirname", "du": "/usr/local/bin/du"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cladebreaker.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/cladebreaker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cladebreaker:0.2.3--py39hdfd78af_0
+$ shpc install quay.io/biocontainers/cladebreaker:0.3.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cladebreaker/0.2.3--py39hdfd78af_0
-$ module help quay.io/biocontainers/cladebreaker/0.2.3--py39hdfd78af_0
+$ module load quay.io/biocontainers/cladebreaker/0.3.0--hdfd78af_0
+$ module help quay.io/biocontainers/cladebreaker/0.3.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

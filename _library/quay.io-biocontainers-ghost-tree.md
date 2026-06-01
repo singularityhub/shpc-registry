@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ghost-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghost-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghost-tree/container.yaml"
-updated_at: "2026-05-31 06:28:30.305740"
+updated_at: "2026-06-01 07:07:37.032391"
 latest: "0.2.2--py_1"
 container_url: "https://biocontainers.pro/tools/ghost-tree"
 

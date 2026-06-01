@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rmysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rmysql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rmysql/container.yaml"
-updated_at: "2026-05-31 06:34:09.946864"
+updated_at: "2026-06-01 07:13:35.371857"
 latest: "0.10.11--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-rmysql"
 aliases:

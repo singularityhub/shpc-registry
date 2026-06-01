@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/savont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/savont/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/savont/container.yaml"
-updated_at: "2026-05-31 06:31:42.167625"
-latest: "0.4.0--hec9b1f2_0"
+updated_at: "2026-06-01 07:11:00.257720"
+latest: "0.5.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/savont"
 aliases:
  - "savont"
@@ -14,8 +14,9 @@ versions:
  - "0.2.0--ha6fb395_0"
  - "0.3.2--h3ab6199_0"
  - "0.4.0--hec9b1f2_0"
+ - "0.5.0--hec9b1f2_0"
 description: "singularity registry hpc automated addition for savont"
-config: {"url": "https://biocontainers.pro/tools/savont", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for savont", "latest": {"0.4.0--hec9b1f2_0": "sha256:5611fac489d2b138a22b77895f17195104b9e7ee7b8ab464b5d1604120dca1ad"}, "tags": {"0.1.0--ha6fb395_0": "sha256:ed450e9088ca08e176f238e97befa900b313693de8108c95865f7026ccd70ba8", "0.2.0--ha6fb395_0": "sha256:368628945e378ba7c5227993eab88c77430ea9bc545d81c873f29bca978dfe4b", "0.3.2--h3ab6199_0": "sha256:c4acdf15e8bc035c6c71040a2c1893b42e29b944b054360a4521183b16692742", "0.4.0--hec9b1f2_0": "sha256:5611fac489d2b138a22b77895f17195104b9e7ee7b8ab464b5d1604120dca1ad"}, "docker": "quay.io/biocontainers/savont", "aliases": {"savont": "/usr/local/bin/savont"}}
+config: {"url": "https://biocontainers.pro/tools/savont", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for savont", "latest": {"0.5.0--hec9b1f2_0": "sha256:19d68d4e687303b9a94ed62a2a00cb9f890d1fba373a22b45000e9ec2964f21c"}, "tags": {"0.1.0--ha6fb395_0": "sha256:ed450e9088ca08e176f238e97befa900b313693de8108c95865f7026ccd70ba8", "0.2.0--ha6fb395_0": "sha256:368628945e378ba7c5227993eab88c77430ea9bc545d81c873f29bca978dfe4b", "0.3.2--h3ab6199_0": "sha256:c4acdf15e8bc035c6c71040a2c1893b42e29b944b054360a4521183b16692742", "0.4.0--hec9b1f2_0": "sha256:5611fac489d2b138a22b77895f17195104b9e7ee7b8ab464b5d1604120dca1ad", "0.5.0--hec9b1f2_0": "sha256:19d68d4e687303b9a94ed62a2a00cb9f890d1fba373a22b45000e9ec2964f21c"}, "docker": "quay.io/biocontainers/savont", "aliases": {"savont": "/usr/local/bin/savont"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/savont.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/savont
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/savont:0.4.0--hec9b1f2_0
+$ shpc install quay.io/biocontainers/savont:0.5.0--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/savont/0.4.0--hec9b1f2_0
-$ module help quay.io/biocontainers/savont/0.4.0--hec9b1f2_0
+$ module load quay.io/biocontainers/savont/0.5.0--hec9b1f2_0
+$ module help quay.io/biocontainers/savont/0.5.0--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

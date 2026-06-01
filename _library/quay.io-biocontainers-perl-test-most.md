@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-test-most"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-most/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-most/container.yaml"
-updated_at: "2026-05-31 06:33:15.313497"
-latest: "0.38--pl5321hdfd78af_0"
+updated_at: "2026-06-01 07:12:37.980693"
+latest: "0.41--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-most"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.38--pl5321hdfd78af_0"
+ - "0.41--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-test-most"
-config: {"url": "https://biocontainers.pro/tools/perl-test-most", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-most", "latest": {"0.38--pl5321hdfd78af_0": "sha256:b9b9a64bb6ee1ca91e7bec096a6a2603c16e4bb08541de2ebc3238d831fa068f"}, "tags": {"0.38--pl5321hdfd78af_0": "sha256:b9b9a64bb6ee1ca91e7bec096a6a2603c16e4bb08541de2ebc3238d831fa068f"}, "docker": "quay.io/biocontainers/perl-test-most", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-test-most", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-most", "latest": {"0.41--pl5321hdfd78af_0": "sha256:86e7b383ea53635850054392c161cfa4c78e93f9f465898d2a23644b6520243f"}, "tags": {"0.38--pl5321hdfd78af_0": "sha256:b9b9a64bb6ee1ca91e7bec096a6a2603c16e4bb08541de2ebc3238d831fa068f", "0.41--pl5321hdfd78af_0": "sha256:86e7b383ea53635850054392c161cfa4c78e93f9f465898d2a23644b6520243f"}, "docker": "quay.io/biocontainers/perl-test-most", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-most.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-test-most
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-test-most:0.38--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-test-most:0.41--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-test-most/0.38--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-test-most/0.38--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-test-most/0.41--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-test-most/0.41--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

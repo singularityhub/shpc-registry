@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hireadsprocessor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hireadsprocessor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hireadsprocessor/container.yaml"
-updated_at: "2026-05-31 06:58:32.282035"
+updated_at: "2026-06-01 07:39:45.660728"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hireadsprocessor"
 

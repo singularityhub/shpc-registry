@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastagap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastagap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastagap/container.yaml"
-updated_at: "2026-05-31 06:28:42.470788"
+updated_at: "2026-06-01 07:07:49.894851"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fastagap"
 aliases:

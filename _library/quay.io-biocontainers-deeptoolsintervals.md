@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deeptoolsintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeptoolsintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeptoolsintervals/container.yaml"
-updated_at: "2026-05-31 06:40:00.519000"
-latest: "0.1.9--py312ha9c1134_11"
+updated_at: "2026-06-01 07:19:49.134372"
+latest: "0.1.9--py310hfe4f656_12"
 container_url: "https://biocontainers.pro/tools/deeptoolsintervals"
 aliases:
  - "python2-config"
@@ -25,8 +25,9 @@ versions:
  - "0.1.9--py312h21b0f09_9"
  - "0.1.9--py312ha9c1134_10"
  - "0.1.9--py312ha9c1134_11"
+ - "0.1.9--py310hfe4f656_12"
 description: "shpc-registry automated BioContainers addition for deeptoolsintervals"
-config: {"url": "https://biocontainers.pro/tools/deeptoolsintervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeptoolsintervals", "latest": {"0.1.9--py312ha9c1134_11": "sha256:2190dac55fadd1f8e79371eae1ca7487594c7aece249f50baffcd773c26da9b9"}, "tags": {"0.1.9--py27h9801fc8_4": "sha256:903220a951714054dd1d2386e794cef191ecac6b2cdd0446f30d746e00661642", "0.1.9--py39h87d955d_5": "sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3", "0.1.9--py310h8472f5a_6": "sha256:97262820c3446fe70596e4ad1f916bd73e31ef9a7b09d739d9d989e6e60e2bb5", "0.1.9--py310h8472f5a_7": "sha256:f80da71c8c20df74fa3f33c11a0803c94662d7d0d2c9e37ce41d51bd866e4d74", "0.1.9--py39h87d955d_7": "sha256:24ef8a946d45e3a5c2ac163f7a5f44cd2038c7941fc18b8e05e924bcd722a79a", "0.1.9--py38h4c6a040_8": "sha256:1b84468e617d594316114d2b5cc13f4fd3d0e755ef583f415444234347745eb5", "0.1.9--py312h21b0f09_9": "sha256:68d5926ba2555c84a29a3c900b7ab74953d6dc682e63310593732920c0e09be0", "0.1.9--py312ha9c1134_10": "sha256:9436d34b2e6d3933ba95e01cf5a6e8ad4e28bc6d43df80b00d23b509717c4a3d", "0.1.9--py312ha9c1134_11": "sha256:2190dac55fadd1f8e79371eae1ca7487594c7aece249f50baffcd773c26da9b9"}, "docker": "quay.io/biocontainers/deeptoolsintervals", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/deeptoolsintervals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeptoolsintervals", "latest": {"0.1.9--py310hfe4f656_12": "sha256:5468f2842903ff042c8f75f9bc0f046ed0acefe38da70d16d7477994c7c610c6"}, "tags": {"0.1.9--py27h9801fc8_4": "sha256:903220a951714054dd1d2386e794cef191ecac6b2cdd0446f30d746e00661642", "0.1.9--py39h87d955d_5": "sha256:0545250d5a69f037a832a3b187470aa59df2681a6b7c239aec8ad411106d41f3", "0.1.9--py310h8472f5a_6": "sha256:97262820c3446fe70596e4ad1f916bd73e31ef9a7b09d739d9d989e6e60e2bb5", "0.1.9--py310h8472f5a_7": "sha256:f80da71c8c20df74fa3f33c11a0803c94662d7d0d2c9e37ce41d51bd866e4d74", "0.1.9--py39h87d955d_7": "sha256:24ef8a946d45e3a5c2ac163f7a5f44cd2038c7941fc18b8e05e924bcd722a79a", "0.1.9--py38h4c6a040_8": "sha256:1b84468e617d594316114d2b5cc13f4fd3d0e755ef583f415444234347745eb5", "0.1.9--py312h21b0f09_9": "sha256:68d5926ba2555c84a29a3c900b7ab74953d6dc682e63310593732920c0e09be0", "0.1.9--py312ha9c1134_10": "sha256:9436d34b2e6d3933ba95e01cf5a6e8ad4e28bc6d43df80b00d23b509717c4a3d", "0.1.9--py312ha9c1134_11": "sha256:2190dac55fadd1f8e79371eae1ca7487594c7aece249f50baffcd773c26da9b9", "0.1.9--py310hfe4f656_12": "sha256:5468f2842903ff042c8f75f9bc0f046ed0acefe38da70d16d7477994c7c610c6"}, "docker": "quay.io/biocontainers/deeptoolsintervals", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeptoolsintervals.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/deeptoolsintervals
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deeptoolsintervals:0.1.9--py312ha9c1134_11
+$ shpc install quay.io/biocontainers/deeptoolsintervals:0.1.9--py310hfe4f656_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deeptoolsintervals/0.1.9--py312ha9c1134_11
-$ module help quay.io/biocontainers/deeptoolsintervals/0.1.9--py312ha9c1134_11
+$ module load quay.io/biocontainers/deeptoolsintervals/0.1.9--py310hfe4f656_12
+$ module help quay.io/biocontainers/deeptoolsintervals/0.1.9--py310hfe4f656_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

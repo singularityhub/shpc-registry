@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ga4gh.va_spec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ga4gh.va_spec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ga4gh.va_spec/container.yaml"
-updated_at: "2026-05-31 06:46:21.295307"
+updated_at: "2026-06-01 07:26:38.360283"
 latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ga4gh.va_spec"
 aliases:

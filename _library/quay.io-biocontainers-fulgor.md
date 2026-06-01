@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fulgor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fulgor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fulgor/container.yaml"
-updated_at: "2026-05-31 06:37:46.806172"
-latest: "4.2.0--hdcadc20_0"
+updated_at: "2026-06-01 07:17:25.129275"
+latest: "4.2.0--h7f49ad2_1"
 container_url: "https://biocontainers.pro/tools/fulgor"
 aliases:
  - "fulgor"
@@ -14,8 +14,9 @@ versions:
  - "4.0.0--hdcadc20_1"
  - "4.2.0--hdcadc20_0"
  - "4.1.0--hdcadc20_1"
+ - "4.2.0--h7f49ad2_1"
 description: "singularity registry hpc automated addition for fulgor"
-config: {"url": "https://biocontainers.pro/tools/fulgor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fulgor", "latest": {"4.2.0--hdcadc20_0": "sha256:428f621e4defefb564234840df0d5a187636a107dd4c6ca702397297de9779d4"}, "tags": {"4.0.0--hdcadc20_0": "sha256:0c87924a700927c83620c559c9b5bd595e57e879dc79ab7433c2d41874265d78", "4.0.0--hdcadc20_1": "sha256:badb840d94ded70983135f944434967ca7419211d9cfb35cabdebb92b3bf802a", "4.2.0--hdcadc20_0": "sha256:428f621e4defefb564234840df0d5a187636a107dd4c6ca702397297de9779d4", "4.1.0--hdcadc20_1": "sha256:471a1697702fc2abe151b3b6ab332f3471632a7b6c523cc0f5c1e41cd0c775d4"}, "docker": "quay.io/biocontainers/fulgor", "aliases": {"fulgor": "/usr/local/bin/fulgor"}}
+config: {"url": "https://biocontainers.pro/tools/fulgor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fulgor", "latest": {"4.2.0--h7f49ad2_1": "sha256:816b69b5da52e8fe5a5f1027fb71135dbbead7377291501e6861d55a9236eaa7"}, "tags": {"4.0.0--hdcadc20_0": "sha256:0c87924a700927c83620c559c9b5bd595e57e879dc79ab7433c2d41874265d78", "4.0.0--hdcadc20_1": "sha256:badb840d94ded70983135f944434967ca7419211d9cfb35cabdebb92b3bf802a", "4.2.0--hdcadc20_0": "sha256:428f621e4defefb564234840df0d5a187636a107dd4c6ca702397297de9779d4", "4.1.0--hdcadc20_1": "sha256:471a1697702fc2abe151b3b6ab332f3471632a7b6c523cc0f5c1e41cd0c775d4", "4.2.0--h7f49ad2_1": "sha256:816b69b5da52e8fe5a5f1027fb71135dbbead7377291501e6861d55a9236eaa7"}, "docker": "quay.io/biocontainers/fulgor", "aliases": {"fulgor": "/usr/local/bin/fulgor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fulgor.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/fulgor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fulgor:4.2.0--hdcadc20_0
+$ shpc install quay.io/biocontainers/fulgor:4.2.0--h7f49ad2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fulgor/4.2.0--hdcadc20_0
-$ module help quay.io/biocontainers/fulgor/4.2.0--hdcadc20_0
+$ module load quay.io/biocontainers/fulgor/4.2.0--h7f49ad2_1
+$ module help quay.io/biocontainers/fulgor/4.2.0--h7f49ad2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

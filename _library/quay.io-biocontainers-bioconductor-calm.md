@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-calm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-calm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-calm/container.yaml"
-updated_at: "2026-05-31 06:36:55.904937"
+updated_at: "2026-06-01 07:16:31.498378"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-calm"
 

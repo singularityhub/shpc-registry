@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gtdbtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtdbtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtdbtk/container.yaml"
-updated_at: "2026-05-31 06:29:09.517879"
-latest: "2.7.1--pyhdfd78af_1"
+updated_at: "2026-06-01 07:08:18.560707"
+latest: "2.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gtdbtk"
 aliases:
  - "download-db.sh"
@@ -35,8 +35,9 @@ versions:
  - "2.6.1--pyh1f0d9b5_0"
  - "2.6.1--pyh1f0d9b5_2"
  - "2.7.1--pyhdfd78af_1"
+ - "2.7.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gtdbtk"
-config: {"url": "https://biocontainers.pro/tools/gtdbtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gtdbtk", "latest": {"2.7.1--pyhdfd78af_1": "sha256:36b734f1ec7db6924c159eb3ab683d8f81534624bcd5dea15887bb5b86e539ac"}, "tags": {"2.1.1--pyhdfd78af_1": "sha256:8a3f3b4416fb8c01f7c3c73cb05309c6b85d81a9028f8db8f9ef783e72c63bcb", "2.2.4--pyhdfd78af_0": "sha256:d764fd7c96a5432ba0cd6f0a26f95eded43bf4ede59f9d07ddd2e8b9c5b1e33a", "2.2.5--pyhdfd78af_0": "sha256:b80d22d8e73b4fdc78421a7c079f32071c4f08bbf444b8b1ee29622b6d8e394b", "2.3.2--pyhdfd78af_0": "sha256:7bf2afebb6899138b313133995269aa3fc1df4a9ec9aa019577aa98bc66ab517", "2.2.6--pyhdfd78af_1": "sha256:a00fe47cbc1a74026fb2506bdd92c35153a4929e8c61dfb52d5739536f6564a6", "2.4.0--pyhdfd78af_1": "sha256:c2de30bd02c2be74e607ce3ca98ad1bd88a1eafaa0c805f507efd77171f8e5d7", "2.4.0--pyhdfd78af_2": "sha256:14b6d86a7d9fa45feff6be2b083ff28e928d70c336638919178fabae0935b24e", "2.4.1--pyhdfd78af_1": "sha256:f5fa73861f8ea6db1ae2399487c2eae808fc4347360b7b1fc220e02b20c8c57b", "2.5.2--pyh1f0d9b5_0": "sha256:0f4bf5f811e629f1ba482d6d95286ba78f239798347fc0fadbb86dd927ce0c91", "2.6.1--pyh1f0d9b5_0": "sha256:1795cb559712c12629f476efa085f7ef9be8c3882a7bb29c098ff0b4f4d5fe1e", "2.6.1--pyh1f0d9b5_2": "sha256:1ae5c83da136866b57dfc267cc662e7f7762ed3e9af40416f9e7e2f196a2a0de", "2.7.1--pyhdfd78af_1": "sha256:36b734f1ec7db6924c159eb3ab683d8f81534624bcd5dea15887bb5b86e539ac"}, "docker": "quay.io/biocontainers/gtdbtk", "aliases": {"download-db.sh": "/usr/local/bin/download-db.sh", "gtdbtk": "/usr/local/bin/gtdbtk", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "fastANI": "/usr/local/bin/fastANI", "dendropy-format": "/usr/local/bin/dendropy-format", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash"}}
+config: {"url": "https://biocontainers.pro/tools/gtdbtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gtdbtk", "latest": {"2.7.2--pyhdfd78af_0": "sha256:609f382c0b4ea4f2382eb928344cf457d7184117751f43381ee9fee008fcbb44"}, "tags": {"2.1.1--pyhdfd78af_1": "sha256:8a3f3b4416fb8c01f7c3c73cb05309c6b85d81a9028f8db8f9ef783e72c63bcb", "2.2.4--pyhdfd78af_0": "sha256:d764fd7c96a5432ba0cd6f0a26f95eded43bf4ede59f9d07ddd2e8b9c5b1e33a", "2.2.5--pyhdfd78af_0": "sha256:b80d22d8e73b4fdc78421a7c079f32071c4f08bbf444b8b1ee29622b6d8e394b", "2.3.2--pyhdfd78af_0": "sha256:7bf2afebb6899138b313133995269aa3fc1df4a9ec9aa019577aa98bc66ab517", "2.2.6--pyhdfd78af_1": "sha256:a00fe47cbc1a74026fb2506bdd92c35153a4929e8c61dfb52d5739536f6564a6", "2.4.0--pyhdfd78af_1": "sha256:c2de30bd02c2be74e607ce3ca98ad1bd88a1eafaa0c805f507efd77171f8e5d7", "2.4.0--pyhdfd78af_2": "sha256:14b6d86a7d9fa45feff6be2b083ff28e928d70c336638919178fabae0935b24e", "2.4.1--pyhdfd78af_1": "sha256:f5fa73861f8ea6db1ae2399487c2eae808fc4347360b7b1fc220e02b20c8c57b", "2.5.2--pyh1f0d9b5_0": "sha256:0f4bf5f811e629f1ba482d6d95286ba78f239798347fc0fadbb86dd927ce0c91", "2.6.1--pyh1f0d9b5_0": "sha256:1795cb559712c12629f476efa085f7ef9be8c3882a7bb29c098ff0b4f4d5fe1e", "2.6.1--pyh1f0d9b5_2": "sha256:1ae5c83da136866b57dfc267cc662e7f7762ed3e9af40416f9e7e2f196a2a0de", "2.7.1--pyhdfd78af_1": "sha256:36b734f1ec7db6924c159eb3ab683d8f81534624bcd5dea15887bb5b86e539ac", "2.7.2--pyhdfd78af_0": "sha256:609f382c0b4ea4f2382eb928344cf457d7184117751f43381ee9fee008fcbb44"}, "docker": "quay.io/biocontainers/gtdbtk", "aliases": {"download-db.sh": "/usr/local/bin/download-db.sh", "gtdbtk": "/usr/local/bin/gtdbtk", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "fastANI": "/usr/local/bin/fastANI", "dendropy-format": "/usr/local/bin/dendropy-format", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gtdbtk.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/gtdbtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gtdbtk:2.7.1--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/gtdbtk:2.7.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gtdbtk/2.7.1--pyhdfd78af_1
-$ module help quay.io/biocontainers/gtdbtk/2.7.1--pyhdfd78af_1
+$ module load quay.io/biocontainers/gtdbtk/2.7.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/gtdbtk/2.7.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

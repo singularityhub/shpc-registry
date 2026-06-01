@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggally"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggally/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggally/container.yaml"
-updated_at: "2026-05-31 06:58:27.524412"
+updated_at: "2026-06-01 07:39:40.334925"
 latest: "1.3.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggally"
 aliases:

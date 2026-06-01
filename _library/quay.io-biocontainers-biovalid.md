@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biovalid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biovalid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biovalid/container.yaml"
-updated_at: "2026-05-31 06:25:57.248243"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2026-06-01 07:04:53.588386"
+latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biovalid"
 aliases:
  - "biovalid"
@@ -15,8 +15,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.4.0--pyhdfd78af_0"
+ - "0.5.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for biovalid"
-config: {"url": "https://biocontainers.pro/tools/biovalid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biovalid", "latest": {"0.4.0--pyhdfd78af_0": "sha256:b30f867b929788a8ad95af7557a9ae724bed1a620fe2474fbbdffdd10aca9a94"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:b30f867b929788a8ad95af7557a9ae724bed1a620fe2474fbbdffdd10aca9a94"}, "docker": "quay.io/biocontainers/biovalid", "aliases": {"biovalid": "/usr/local/bin/biovalid", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/biovalid", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biovalid", "latest": {"0.5.0--pyhdfd78af_0": "sha256:e7b3ca03b517b5aee0565874a88dfccbf050ba3b282d2ef3e0771a2a65a0bf7c"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:b30f867b929788a8ad95af7557a9ae724bed1a620fe2474fbbdffdd10aca9a94", "0.5.0--pyhdfd78af_0": "sha256:e7b3ca03b517b5aee0565874a88dfccbf050ba3b282d2ef3e0771a2a65a0bf7c"}, "docker": "quay.io/biocontainers/biovalid", "aliases": {"biovalid": "/usr/local/bin/biovalid", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biovalid.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/biovalid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biovalid:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biovalid:0.5.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biovalid/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/biovalid/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/biovalid/0.5.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/biovalid/0.5.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

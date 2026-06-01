@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/voluptuous"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/voluptuous/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/voluptuous/container.yaml"
-updated_at: "2026-05-31 07:12:28.622097"
+updated_at: "2026-06-01 07:54:42.194431"
 latest: "0.8.8--py35_0"
 container_url: "https://biocontainers.pro/tools/voluptuous"
 aliases:

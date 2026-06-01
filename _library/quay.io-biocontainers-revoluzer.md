@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/revoluzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/revoluzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/revoluzer/container.yaml"
-updated_at: "2026-05-31 06:52:15.420417"
+updated_at: "2026-06-01 07:32:51.406848"
 latest: "0.1.8--hbcc2d2b_0"
 container_url: "https://biocontainers.pro/tools/revoluzer"
 aliases:

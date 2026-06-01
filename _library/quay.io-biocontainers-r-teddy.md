@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-teddy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-teddy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-teddy/container.yaml"
-updated_at: "2026-05-31 06:43:13.437675"
-latest: "1.0.3--r41hcf09f9e_0"
+updated_at: "2026-06-01 07:23:17.480221"
+latest: "1.1.8--r41hcf09f9e_0"
 container_url: "https://biocontainers.pro/tools/r-teddy"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
 versions:
  - "1.0.3--r41hcf09f9e_0"
+ - "1.1.8--r41hcf09f9e_0"
 description: "singularity registry hpc automated addition for r-teddy"
-config: {"url": "https://biocontainers.pro/tools/r-teddy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-teddy", "latest": {"1.0.3--r41hcf09f9e_0": "sha256:fd9f0915fa0db0f05a6dc47aad203739f15af9b8801473ecccd8a1d39902a70c"}, "tags": {"1.0.3--r41hcf09f9e_0": "sha256:fd9f0915fa0db0f05a6dc47aad203739f15af9b8801473ecccd8a1d39902a70c"}, "docker": "quay.io/biocontainers/r-teddy", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg"}}
+config: {"url": "https://biocontainers.pro/tools/r-teddy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-teddy", "latest": {"1.1.8--r41hcf09f9e_0": "sha256:1c58e474ac37c50658c0b764db72218360f789652d3df5cc4735915e99194797"}, "tags": {"1.0.3--r41hcf09f9e_0": "sha256:fd9f0915fa0db0f05a6dc47aad203739f15af9b8801473ecccd8a1d39902a70c", "1.1.8--r41hcf09f9e_0": "sha256:1c58e474ac37c50658c0b764db72218360f789652d3df5cc4735915e99194797"}, "docker": "quay.io/biocontainers/r-teddy", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-teddy.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-teddy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-teddy:1.0.3--r41hcf09f9e_0
+$ shpc install quay.io/biocontainers/r-teddy:1.1.8--r41hcf09f9e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-teddy/1.0.3--r41hcf09f9e_0
-$ module help quay.io/biocontainers/r-teddy/1.0.3--r41hcf09f9e_0
+$ module load quay.io/biocontainers/r-teddy/1.1.8--r41hcf09f9e_0
+$ module help quay.io/biocontainers/r-teddy/1.1.8--r41hcf09f9e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
