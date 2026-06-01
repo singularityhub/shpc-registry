@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mddb_workflow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mddb_workflow
 latest:
-  0.1.10--pyhdfd78af_0: 
-    sha256:53cbf389c36d798d51c7bb3f917483716885e4fa99aaddd128067b2edf15e72c
+  0.1.10--pyhdfd78af_1: 
+    sha256:78d74650652ea9dae39566bbb10dcc4af1b49dc206a8909573c2077e4c7425b3
 tags:
   0.1.10--pyhdfd78af_0: 
     sha256:53cbf389c36d798d51c7bb3f917483716885e4fa99aaddd128067b2edf15e72c
+  0.1.10--pyhdfd78af_1: 
+    sha256:78d74650652ea9dae39566bbb10dcc4af1b49dc206a8909573c2077e4c7425b3
 docker: quay.io/biocontainers/mddb_workflow
 aliases:
   AddToBox: /usr/local/bin/AddToBox

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/biovalid
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biovalid
 latest:
-  0.4.0--pyhdfd78af_0: 
-    sha256:b30f867b929788a8ad95af7557a9ae724bed1a620fe2474fbbdffdd10aca9a94
+  0.5.0--pyhdfd78af_0: 
+    sha256:e7b3ca03b517b5aee0565874a88dfccbf050ba3b282d2ef3e0771a2a65a0bf7c
 tags:
   0.4.0--pyhdfd78af_0: 
     sha256:b30f867b929788a8ad95af7557a9ae724bed1a620fe2474fbbdffdd10aca9a94
+  0.5.0--pyhdfd78af_0: 
+    sha256:e7b3ca03b517b5aee0565874a88dfccbf050ba3b282d2ef3e0771a2a65a0bf7c
 docker: quay.io/biocontainers/biovalid
 aliases:
   biovalid: /usr/local/bin/biovalid
