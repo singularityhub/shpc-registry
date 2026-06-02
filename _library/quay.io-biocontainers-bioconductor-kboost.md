@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kboost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kboost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kboost/container.yaml"
-updated_at: "2026-06-01 07:50:16.834074"
+updated_at: "2026-06-02 07:35:23.273784"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kboost"
 

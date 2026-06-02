@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yeast.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeast.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeast.db0/container.yaml"
-updated_at: "2026-06-01 07:11:41.077487"
+updated_at: "2026-06-02 06:55:59.545457"
 latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeast.db0"
 aliases:

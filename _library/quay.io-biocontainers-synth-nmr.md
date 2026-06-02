@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/synth-nmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synth-nmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synth-nmr/container.yaml"
-updated_at: "2026-06-01 07:22:13.968694"
+updated_at: "2026-06-02 07:06:48.042244"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/synth-nmr"
 aliases:

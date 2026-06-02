@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/selenzy_wrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selenzy_wrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selenzy_wrapper/container.yaml"
-updated_at: "2026-06-01 07:32:35.832468"
-latest: "0.3.0--pyhdfd78af_1"
+updated_at: "2026-06-02 07:17:24.791950"
+latest: "0.3.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/selenzy_wrapper"
 aliases:
  - "depinfo"
@@ -45,8 +45,9 @@ aliases:
 versions:
  - "0.3.0--pyhdfd78af_0"
  - "0.3.0--pyhdfd78af_1"
+ - "0.3.1--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for selenzy_wrapper"
-config: {"url": "https://biocontainers.pro/tools/selenzy_wrapper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for selenzy_wrapper", "latest": {"0.3.0--pyhdfd78af_1": "sha256:5715d388d9648b5668a4b7a7636c41a5eac5018dc1895a15f972d4a8525b1306"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:05f798f89781420eefdb7e46b69b0fcd263c4e49d3b8294221d7c2bbeb306f4a", "0.3.0--pyhdfd78af_1": "sha256:5715d388d9648b5668a4b7a7636c41a5eac5018dc1895a15f972d4a8525b1306"}, "docker": "quay.io/biocontainers/selenzy_wrapper", "aliases": {"depinfo": "/usr/local/bin/depinfo", "filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py", "isympy": "/usr/local/bin/isympy", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "xmlget": "/usr/local/bin/xmlget", "xmltext": "/usr/local/bin/xmltext", "unidecode": "/usr/local/bin/unidecode", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop", "obrms": "/usr/local/bin/obrms", "obrotamer": "/usr/local/bin/obrotamer", "obrotate": "/usr/local/bin/obrotate", "obspectrophore": "/usr/local/bin/obspectrophore", "obsym": "/usr/local/bin/obsym", "obtautomer": "/usr/local/bin/obtautomer", "obthermo": "/usr/local/bin/obthermo", "aaindexextract": "/usr/local/bin/aaindexextract", "abiview": "/usr/local/bin/abiview"}}
+config: {"url": "https://biocontainers.pro/tools/selenzy_wrapper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for selenzy_wrapper", "latest": {"0.3.1--pyhdfd78af_1": "sha256:28c0a2f9ae1cc698a6d3fc683c3606045e968e93c3052f36fe2b9f954e9688b2"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:05f798f89781420eefdb7e46b69b0fcd263c4e49d3b8294221d7c2bbeb306f4a", "0.3.0--pyhdfd78af_1": "sha256:5715d388d9648b5668a4b7a7636c41a5eac5018dc1895a15f972d4a8525b1306", "0.3.1--pyhdfd78af_1": "sha256:28c0a2f9ae1cc698a6d3fc683c3606045e968e93c3052f36fe2b9f954e9688b2"}, "docker": "quay.io/biocontainers/selenzy_wrapper", "aliases": {"depinfo": "/usr/local/bin/depinfo", "filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py", "isympy": "/usr/local/bin/isympy", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "xmlget": "/usr/local/bin/xmlget", "xmltext": "/usr/local/bin/xmltext", "unidecode": "/usr/local/bin/unidecode", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop", "obrms": "/usr/local/bin/obrms", "obrotamer": "/usr/local/bin/obrotamer", "obrotate": "/usr/local/bin/obrotate", "obspectrophore": "/usr/local/bin/obspectrophore", "obsym": "/usr/local/bin/obsym", "obtautomer": "/usr/local/bin/obtautomer", "obthermo": "/usr/local/bin/obthermo", "aaindexextract": "/usr/local/bin/aaindexextract", "abiview": "/usr/local/bin/abiview"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/selenzy_wrapper.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/selenzy_wrapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/selenzy_wrapper:0.3.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/selenzy_wrapper:0.3.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/selenzy_wrapper/0.3.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/selenzy_wrapper/0.3.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/selenzy_wrapper/0.3.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/selenzy_wrapper/0.3.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

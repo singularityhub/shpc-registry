@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-skellam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-skellam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-skellam/container.yaml"
-updated_at: "2026-06-01 07:36:53.553378"
+updated_at: "2026-06-02 07:21:37.062766"
 latest: "0.2.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-skellam"
 aliases:

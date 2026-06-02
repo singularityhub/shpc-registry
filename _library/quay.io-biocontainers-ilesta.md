@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ilesta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ilesta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ilesta/container.yaml"
-updated_at: "2026-06-01 07:15:12.370796"
+updated_at: "2026-06-02 06:59:43.070042"
 latest: "1.2.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/ilesta"
 aliases:

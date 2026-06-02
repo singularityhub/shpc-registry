@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mags-visualization"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mags-visualization/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mags-visualization/container.yaml"
-updated_at: "2026-06-01 07:04:12.136666"
-latest: "0.0.5--pyhdfd78af_0"
+updated_at: "2026-06-02 06:48:27.440263"
+latest: "0.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mags-visualization"
 aliases:
  - "mags-visualization"
@@ -34,8 +34,9 @@ aliases:
 versions:
  - "0.0.2--pyhdfd78af_0"
  - "0.0.5--pyhdfd78af_0"
+ - "0.0.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mags-visualization"
-config: {"url": "https://biocontainers.pro/tools/mags-visualization", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mags-visualization", "latest": {"0.0.5--pyhdfd78af_0": "sha256:1735aef1fb7af886f20f7ca587663936fe7005e453eb80be9fe0519383c40dec"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:48d95e0bda5e73421338fc012988d6f0285abf30920a7505827a62f9a9de5013", "0.0.5--pyhdfd78af_0": "sha256:1735aef1fb7af886f20f7ca587663936fe7005e453eb80be9fe0519383c40dec"}, "docker": "quay.io/biocontainers/mags-visualization", "aliases": {"mags-visualization": "/usr/local/bin/mags-visualization", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/mags-visualization", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mags-visualization", "latest": {"0.0.9--pyhdfd78af_0": "sha256:793fd1063dd0f6d660c6ee44ae0b877a85c3ae2989d3898d0e09509d1f2eadcf"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:48d95e0bda5e73421338fc012988d6f0285abf30920a7505827a62f9a9de5013", "0.0.5--pyhdfd78af_0": "sha256:1735aef1fb7af886f20f7ca587663936fe7005e453eb80be9fe0519383c40dec", "0.0.9--pyhdfd78af_0": "sha256:793fd1063dd0f6d660c6ee44ae0b877a85c3ae2989d3898d0e09509d1f2eadcf"}, "docker": "quay.io/biocontainers/mags-visualization", "aliases": {"mags-visualization": "/usr/local/bin/mags-visualization", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mags-visualization.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/mags-visualization
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mags-visualization:0.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mags-visualization:0.0.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mags-visualization/0.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/mags-visualization/0.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/mags-visualization/0.0.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/mags-visualization/0.0.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
