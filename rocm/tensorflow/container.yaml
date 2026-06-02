@@ -3,14 +3,14 @@ url: https://hub.docker.com/r/rocm/tensorflow
 maintainer: '@dipietrantonio'
 description: Tensorflow with ROCm backend support
 latest:
-  rocm7.2-py3.12-tf2.20-dev: 
-    sha256:1c27aad72d9eafa5d2e94d026e97317b1dce6c411f47e70dc79478318f687ac6
+  rocm7.2.4-py3.12-tf2.20-dev: 
+    sha256:3ed1ade56a3eb3645082933e293ade4c804adb92a206bea85e277b13a6edc5c2
 tags:
   rocm5.5-tf2.11-dev: 
     sha256:646dc917033b1c8b69058e7dd8e127bb90b96f178841d3e95b9010bee10c1765
   gpg: sha256:77be414a2b0f13a23696f846320a3ab03df1da974f7d642456e06f02aaa93544
   latest: 
-    sha256:aa5c6b5b3d4dba9572df6f175b22d3ac993d9d0cd4019a476b519434047a7dd8
+    sha256:3ed1ade56a3eb3645082933e293ade4c804adb92a206bea85e277b13a6edc5c2
   rocm5.6-tf2.12-dev: 
     sha256:7bbea3f8edf8fd4fb0f1b7f6720910f29aaa31edf51a9fff8624a8d2da6cfefe
   rocm5.7-tf2.13-dev: 
@@ -34,7 +34,9 @@ tags:
   jammy_ci_offcial_test: 
     sha256:00ad8cde4a52079903528f80b1f730128f277151c7d602561edaf8a87c65c851
   rocm7.2-py3.12-tf2.20-dev: 
-    sha256:1c27aad72d9eafa5d2e94d026e97317b1dce6c411f47e70dc79478318f687ac6
+    sha256:910fa1ef25edc4bc3dfa505235121b48f46403df05c9ade8483ffdfab4c1abc0
+  rocm7.2.4-py3.12-tf2.20-dev: 
+    sha256:3ed1ade56a3eb3645082933e293ade4c804adb92a206bea85e277b13a6edc5c2
 features:
   gpu: true
 aliases:

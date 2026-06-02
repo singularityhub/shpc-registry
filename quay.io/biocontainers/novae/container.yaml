@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/novae
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for novae
 latest:
-  1.0.5--pyhdfd78af_0: 
-    sha256:eea9cf878ba3cb6f6fa42f104c20099ee3051ea9cac1069977b500153ba7eeb0
+  1.0.5--pyhdfd78af_1: 
+    sha256:7fddb1098220db85b3417fb7d4cea565d5192b095c502308ea19374e83c3dd31
 tags:
   0.2.2--pyhdfd78af_0: 
     sha256:39f922e00500a9bc6601f799c6edd77adec841a391a740025feb0b5851edb7ec
@@ -21,6 +21,8 @@ tags:
     sha256:edc8052e1d936537f5d34e73d583853d5b73990560049bf463c18a05201eb079
   1.0.5--pyhdfd78af_0: 
     sha256:eea9cf878ba3cb6f6fa42f104c20099ee3051ea9cac1069977b500153ba7eeb0
+  1.0.5--pyhdfd78af_1: 
+    sha256:7fddb1098220db85b3417fb7d4cea565d5192b095c502308ea19374e83c3dd31
 docker: quay.io/biocontainers/novae
 aliases:
   ase: /usr/local/bin/ase
