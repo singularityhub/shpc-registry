@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/oddsnp
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for oddsnp
+latest:
+  0.1.1--pyh106432d_0: 
+    sha256:b38beba654fdb0b8afcc139ec5af82356ec24eaa95b54360ec75202f5d8119fc
+tags:
+  0.1.1--pyh106432d_0: 
+    sha256:b38beba654fdb0b8afcc139ec5af82356ec24eaa95b54360ec75202f5d8119fc
+docker: quay.io/biocontainers/oddsnp
+aliases:
+  GTbarcode: /usr/local/bin/GTbarcode
+  cellsnp-lite: /usr/local/bin/cellsnp-lite
+  choreo_diagnose: /usr/local/bin/choreo_diagnose
+  choreo_get_chrome: /usr/local/bin/choreo_get_chrome
+  kaleido_get_chrome: /usr/local/bin/kaleido_get_chrome
+  kaleido_mocker: /usr/local/bin/kaleido_mocker
+  oddSNP: /usr/local/bin/oddSNP
+  vireo: /usr/local/bin/vireo
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  debugpy: /usr/local/bin/debugpy
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  curve_keygen: /usr/local/bin/curve_keygen
+  ref-cache: /usr/local/bin/ref-cache
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  annot-tsv: /usr/local/bin/annot-tsv
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
