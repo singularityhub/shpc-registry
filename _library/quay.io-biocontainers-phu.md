@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phu/container.yaml"
-updated_at: "2026-06-02 07:10:29.835417"
-latest: "0.7.1--pyhdfd78af_0"
+updated_at: "2026-06-03 07:20:03.620921"
+latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phu"
 aliases:
  - "dmypy"
@@ -33,8 +33,9 @@ versions:
  - "0.5.0--pyhdfd78af_0"
  - "0.7.1--pyhdfd78af_0"
  - "0.6.0--pyhdfd78af_0"
+ - "0.8.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for phu"
-config: {"url": "https://biocontainers.pro/tools/phu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phu", "latest": {"0.7.1--pyhdfd78af_0": "sha256:c9c450a5a39ca84f335626d126e8fef161b7574d097255c4e3254848cce48e96"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:f8e0139d507e2b5968b093b3b2d5ed93095bd84f294eb19c43f95929e21c0aa1", "0.4.4--pyhdfd78af_0": "sha256:82c346e2d6f604e5dba00e84301954f7fd61914eeb7782dbafcde3d9cecaf2cf", "0.3.0--pyhdfd78af_0": "sha256:4bc545273e23f92b677b7381ebb6335ebf278cbd4951c2df8d4c86d9eb16bf0c", "0.5.0--pyhdfd78af_0": "sha256:2f72b996409e7d7f1b3c8b236adbc7e5d3af65179d437d18e8069e9c2f794cfb", "0.7.1--pyhdfd78af_0": "sha256:c9c450a5a39ca84f335626d126e8fef161b7574d097255c4e3254848cce48e96", "0.6.0--pyhdfd78af_0": "sha256:b12a843ab16e4ebe13a043da66d7ce708bafd9b267081b4387f0ccd58fecf1ab"}, "docker": "quay.io/biocontainers/phu", "aliases": {"dmypy": "/usr/local/bin/dmypy", "mypy": "/usr/local/bin/mypy", "mypyc": "/usr/local/bin/mypyc", "phu": "/usr/local/bin/phu", "ruff": "/usr/local/bin/ruff", "stubgen": "/usr/local/bin/stubgen", "stubtest": "/usr/local/bin/stubtest", "vclust": "/usr/local/bin/vclust", "typer": "/usr/local/bin/typer", "seqkit": "/usr/local/bin/seqkit", "markdown-it": "/usr/local/bin/markdown-it", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/phu", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for phu", "latest": {"0.8.0--pyhdfd78af_0": "sha256:e6a6035821c9f9174337ebf9b131f98b2799086b3dbd5d51dd71fc9a4ef8d642"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:f8e0139d507e2b5968b093b3b2d5ed93095bd84f294eb19c43f95929e21c0aa1", "0.4.4--pyhdfd78af_0": "sha256:82c346e2d6f604e5dba00e84301954f7fd61914eeb7782dbafcde3d9cecaf2cf", "0.3.0--pyhdfd78af_0": "sha256:4bc545273e23f92b677b7381ebb6335ebf278cbd4951c2df8d4c86d9eb16bf0c", "0.5.0--pyhdfd78af_0": "sha256:2f72b996409e7d7f1b3c8b236adbc7e5d3af65179d437d18e8069e9c2f794cfb", "0.7.1--pyhdfd78af_0": "sha256:c9c450a5a39ca84f335626d126e8fef161b7574d097255c4e3254848cce48e96", "0.6.0--pyhdfd78af_0": "sha256:b12a843ab16e4ebe13a043da66d7ce708bafd9b267081b4387f0ccd58fecf1ab", "0.8.0--pyhdfd78af_0": "sha256:e6a6035821c9f9174337ebf9b131f98b2799086b3dbd5d51dd71fc9a4ef8d642"}, "docker": "quay.io/biocontainers/phu", "aliases": {"dmypy": "/usr/local/bin/dmypy", "mypy": "/usr/local/bin/mypy", "mypyc": "/usr/local/bin/mypyc", "phu": "/usr/local/bin/phu", "ruff": "/usr/local/bin/ruff", "stubgen": "/usr/local/bin/stubgen", "stubtest": "/usr/local/bin/stubtest", "vclust": "/usr/local/bin/vclust", "typer": "/usr/local/bin/typer", "seqkit": "/usr/local/bin/seqkit", "markdown-it": "/usr/local/bin/markdown-it", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phu.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/phu
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/phu:0.7.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/phu:0.8.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/phu/0.7.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/phu/0.7.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/phu/0.8.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/phu/0.8.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

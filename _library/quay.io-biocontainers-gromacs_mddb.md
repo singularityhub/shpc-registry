@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gromacs_mddb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gromacs_mddb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gromacs_mddb/container.yaml"
-updated_at: "2026-06-02 07:04:12.503440"
-latest: "2025.3--h61c8354_3"
+updated_at: "2026-06-03 07:14:05.360372"
+latest: "2025.3--he1b2d42_4"
 container_url: "https://biocontainers.pro/tools/gromacs_mddb"
 aliases:
  - "GMXRC"
@@ -40,8 +40,9 @@ versions:
  - "2025.3--h61c8354_0"
  - "2025.3--h61c8354_1"
  - "2025.3--h61c8354_3"
+ - "2025.3--he1b2d42_4"
 description: "singularity registry hpc automated addition for gromacs_mddb"
-config: {"url": "https://biocontainers.pro/tools/gromacs_mddb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gromacs_mddb", "latest": {"2025.3--h61c8354_3": "sha256:f3368e1593414dd434b5e713c8d71d9bb6e21fd20e7116bde43f1949ffe578aa"}, "tags": {"2025.3--h61c8354_0": "sha256:dd344b45b49e5ef7d65d2e4f84ce5605c61a9e748515f71533ee7b9c6421e097", "2025.3--h61c8354_1": "sha256:62530e0155d837cec852ed5efa07673a51340c51e69a0eef4a55b9a07255f0c3", "2025.3--h61c8354_3": "sha256:f3368e1593414dd434b5e713c8d71d9bb6e21fd20e7116bde43f1949ffe578aa"}, "docker": "quay.io/biocontainers/gromacs_mddb", "aliases": {"GMXRC": "/usr/local/bin/GMXRC", "GMXRC.bash": "/usr/local/bin/GMXRC.bash", "GMXRC.csh": "/usr/local/bin/GMXRC.csh", "GMXRC.zsh": "/usr/local/bin/GMXRC.zsh", "demux.pl": "/usr/local/bin/demux.pl", "gmx": "/usr/local/bin/gmx", "gmx-completion-gmx.bash": "/usr/local/bin/gmx-completion-gmx.bash", "gmx-completion.bash": "/usr/local/bin/gmx-completion.bash", "xplor2gmx.pl": "/usr/local/bin/xplor2gmx.pl", "cllayerinfo": "/usr/local/bin/cllayerinfo", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
+config: {"url": "https://biocontainers.pro/tools/gromacs_mddb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gromacs_mddb", "latest": {"2025.3--he1b2d42_4": "sha256:d12a68f593a755f0db3bd7b59fadcfe1fb53f40e742edf28ee742ac9a2e86c61"}, "tags": {"2025.3--h61c8354_0": "sha256:dd344b45b49e5ef7d65d2e4f84ce5605c61a9e748515f71533ee7b9c6421e097", "2025.3--h61c8354_1": "sha256:62530e0155d837cec852ed5efa07673a51340c51e69a0eef4a55b9a07255f0c3", "2025.3--h61c8354_3": "sha256:f3368e1593414dd434b5e713c8d71d9bb6e21fd20e7116bde43f1949ffe578aa", "2025.3--he1b2d42_4": "sha256:d12a68f593a755f0db3bd7b59fadcfe1fb53f40e742edf28ee742ac9a2e86c61"}, "docker": "quay.io/biocontainers/gromacs_mddb", "aliases": {"GMXRC": "/usr/local/bin/GMXRC", "GMXRC.bash": "/usr/local/bin/GMXRC.bash", "GMXRC.csh": "/usr/local/bin/GMXRC.csh", "GMXRC.zsh": "/usr/local/bin/GMXRC.zsh", "demux.pl": "/usr/local/bin/demux.pl", "gmx": "/usr/local/bin/gmx", "gmx-completion-gmx.bash": "/usr/local/bin/gmx-completion-gmx.bash", "gmx-completion.bash": "/usr/local/bin/gmx-completion.bash", "xplor2gmx.pl": "/usr/local/bin/xplor2gmx.pl", "cllayerinfo": "/usr/local/bin/cllayerinfo", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gromacs_mddb.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/gromacs_mddb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gromacs_mddb:2025.3--h61c8354_3
+$ shpc install quay.io/biocontainers/gromacs_mddb:2025.3--he1b2d42_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gromacs_mddb/2025.3--h61c8354_3
-$ module help quay.io/biocontainers/gromacs_mddb/2025.3--h61c8354_3
+$ module load quay.io/biocontainers/gromacs_mddb/2025.3--he1b2d42_4
+$ module help quay.io/biocontainers/gromacs_mddb/2025.3--he1b2d42_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

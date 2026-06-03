@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cressent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cressent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cressent/container.yaml"
-updated_at: "2026-06-02 07:12:14.939775"
+updated_at: "2026-06-03 07:21:41.208908"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cressent"
 aliases:

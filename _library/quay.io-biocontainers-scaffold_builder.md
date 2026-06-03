@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scaffold_builder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scaffold_builder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scaffold_builder/container.yaml"
-updated_at: "2026-06-02 06:57:38.087846"
-latest: "2.3--pyhdfd78af_0"
+updated_at: "2026-06-03 07:07:56.408977"
+latest: "3.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scaffold_builder"
 aliases:
  - "scaffold_builder.py"
@@ -21,8 +21,9 @@ aliases:
  - "mummerplot"
 versions:
  - "2.3--pyhdfd78af_0"
+ - "3.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scaffold_builder"
-config: {"url": "https://biocontainers.pro/tools/scaffold_builder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scaffold_builder", "latest": {"2.3--pyhdfd78af_0": "sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9"}, "tags": {"2.3--pyhdfd78af_0": "sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9"}, "docker": "quay.io/biocontainers/scaffold_builder", "aliases": {"scaffold_builder.py": "/usr/local/bin/scaffold_builder.py", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
+config: {"url": "https://biocontainers.pro/tools/scaffold_builder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scaffold_builder", "latest": {"3.0.1--pyhdfd78af_0": "sha256:7e3a479178e3c699053ed1a69e7b4eb3127e084a2ed335603cd1654ae676835e"}, "tags": {"2.3--pyhdfd78af_0": "sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9", "3.0.1--pyhdfd78af_0": "sha256:7e3a479178e3c699053ed1a69e7b4eb3127e084a2ed335603cd1654ae676835e"}, "docker": "quay.io/biocontainers/scaffold_builder", "aliases": {"scaffold_builder.py": "/usr/local/bin/scaffold_builder.py", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scaffold_builder.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/scaffold_builder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scaffold_builder:2.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scaffold_builder:3.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scaffold_builder/2.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/scaffold_builder/2.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/scaffold_builder/3.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/scaffold_builder/3.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

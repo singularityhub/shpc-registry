@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/manta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/manta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/manta/container.yaml"
-updated_at: "2026-06-02 07:40:17.021104"
+updated_at: "2026-06-03 07:47:47.607635"
 latest: "1.6.0--py27h9948957_6"
 container_url: "https://biocontainers.pro/tools/manta"
 aliases:

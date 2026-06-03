@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diamondonpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diamondonpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diamondonpy/container.yaml"
-updated_at: "2026-06-02 06:56:00.104888"
+updated_at: "2026-06-03 07:06:24.113844"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/diamondonpy"
 aliases:

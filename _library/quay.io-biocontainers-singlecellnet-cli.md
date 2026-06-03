@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/singlecellnet-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/singlecellnet-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/singlecellnet-cli/container.yaml"
-updated_at: "2026-06-02 07:09:45.647203"
+updated_at: "2026-06-03 07:19:21.060303"
 latest: "0.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/singlecellnet-cli"
 aliases:

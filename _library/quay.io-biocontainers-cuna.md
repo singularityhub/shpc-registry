@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cuna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cuna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cuna/container.yaml"
-updated_at: "2026-06-02 07:24:10.950400"
+updated_at: "2026-06-03 07:33:03.211887"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cuna"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biscuit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biscuit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biscuit/container.yaml"
-updated_at: "2026-06-02 07:27:52.215665"
+updated_at: "2026-06-03 07:36:28.127353"
 latest: "1.8.1.20260511--hdf5d79d_0"
 container_url: "https://biocontainers.pro/tools/biscuit"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/traitar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/traitar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/traitar/container.yaml"
-updated_at: "2026-06-02 07:11:19.169020"
-latest: "3.0.1--pyhdfd78af_0"
+updated_at: "2026-06-03 07:20:49.436690"
+latest: "3.0.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/traitar"
 aliases:
  - "domtblout2gene_generic.py"
@@ -28,8 +28,9 @@ aliases:
 versions:
  - "1.1.2--py_0"
  - "3.0.1--pyhdfd78af_0"
+ - "3.0.1--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for traitar"
-config: {"url": "https://biocontainers.pro/tools/traitar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for traitar", "latest": {"3.0.1--pyhdfd78af_0": "sha256:fc1c56c277012c9061ef19f43403415d852850402feb17bff8360489bb5be4c0"}, "tags": {"1.1.2--py_0": "sha256:fee1195a60b294ad745e393d269b33325e4bcdf461fd3501ef87464d5e720d30", "3.0.1--pyhdfd78af_0": "sha256:fc1c56c277012c9061ef19f43403415d852850402feb17bff8360489bb5be4c0"}, "docker": "quay.io/biocontainers/traitar", "aliases": {"domtblout2gene_generic.py": "/usr/local/bin/domtblout2gene_generic.py", "heatmap.py": "/usr/local/bin/heatmap.py", "hmm2gff.py": "/usr/local/bin/hmm2gff.py", "hmmer2filtered_best.py": "/usr/local/bin/hmmer2filtered_best.py", "merge_preds.py": "/usr/local/bin/merge_preds.py", "predict.py": "/usr/local/bin/predict.py", "traitar": "/usr/local/bin/traitar", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc"}}
+config: {"url": "https://biocontainers.pro/tools/traitar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for traitar", "latest": {"3.0.1--pyhdfd78af_1": "sha256:a98b5e6ec96c2f83f7d99ecf64413dd6cd440f02fc125bb2b062fdb7b5b5b59e"}, "tags": {"1.1.2--py_0": "sha256:fee1195a60b294ad745e393d269b33325e4bcdf461fd3501ef87464d5e720d30", "3.0.1--pyhdfd78af_0": "sha256:fc1c56c277012c9061ef19f43403415d852850402feb17bff8360489bb5be4c0", "3.0.1--pyhdfd78af_1": "sha256:a98b5e6ec96c2f83f7d99ecf64413dd6cd440f02fc125bb2b062fdb7b5b5b59e"}, "docker": "quay.io/biocontainers/traitar", "aliases": {"domtblout2gene_generic.py": "/usr/local/bin/domtblout2gene_generic.py", "heatmap.py": "/usr/local/bin/heatmap.py", "hmm2gff.py": "/usr/local/bin/hmm2gff.py", "hmmer2filtered_best.py": "/usr/local/bin/hmmer2filtered_best.py", "merge_preds.py": "/usr/local/bin/merge_preds.py", "predict.py": "/usr/local/bin/predict.py", "traitar": "/usr/local/bin/traitar", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict", "canbusutil": "/usr/local/bin/canbusutil", "qgltf": "/usr/local/bin/qgltf", "qmlcachegen": "/usr/local/bin/qmlcachegen", "qscxmlc": "/usr/local/bin/qscxmlc", "qtattributionsscanner": "/usr/local/bin/qtattributionsscanner", "repc": "/usr/local/bin/repc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/traitar.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/traitar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/traitar:3.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/traitar:3.0.1--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/traitar/3.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/traitar/3.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/traitar/3.0.1--pyhdfd78af_1
+$ module help quay.io/biocontainers/traitar/3.0.1--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

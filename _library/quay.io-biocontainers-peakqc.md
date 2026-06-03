@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peakqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peakqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peakqc/container.yaml"
-updated_at: "2026-06-02 07:01:53.312133"
+updated_at: "2026-06-03 07:11:52.612233"
 latest: "0.1.6--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/peakqc"
 aliases:

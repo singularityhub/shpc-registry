@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ervmancer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ervmancer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ervmancer/container.yaml"
-updated_at: "2026-06-02 07:21:56.811716"
+updated_at: "2026-06-03 07:30:55.190490"
 latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ervmancer"
 aliases:

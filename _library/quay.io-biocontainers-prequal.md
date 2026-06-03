@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prequal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prequal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prequal/container.yaml"
-updated_at: "2026-06-02 07:25:22.930845"
+updated_at: "2026-06-03 07:34:09.645864"
 latest: "1.02--h5ca1c30_7"
 container_url: "https://biocontainers.pro/tools/prequal"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "1.02--h43eeafb_6"
  - "1.02--h5ca1c30_7"
 description: "shpc-registry automated BioContainers addition for prequal"
-config: {"url": "https://biocontainers.pro/tools/prequal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prequal", "latest": {"1.02--h5ca1c30_7": "sha256:4303b846b15f06c8c499c3d282cc4f063279bc973b63d5b2d77815dafd4c6dda"}, "tags": {"1.02--hb97b32f_3": "crane digest quay.io/biocontainers/prequal:1.02--hb97b32f_3: unsupported status code 502; body: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n", "1.02--h2202e69_5": "sha256:7b38ed3ab0afe0a12becde211ae288c346c5066d525bed3b52791afb2f44b339", "1.02--h43eeafb_6": "sha256:6f9186106aa5234855c84661e1c1e95072148f328c623e7147fcc55a7ddfda18", "1.02--h5ca1c30_7": "sha256:4303b846b15f06c8c499c3d282cc4f063279bc973b63d5b2d77815dafd4c6dda"}, "docker": "quay.io/biocontainers/prequal", "aliases": {"prequal": "/usr/local/bin/prequal"}}
+config: {"url": "https://biocontainers.pro/tools/prequal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prequal", "latest": {"1.02--h5ca1c30_7": "sha256:4303b846b15f06c8c499c3d282cc4f063279bc973b63d5b2d77815dafd4c6dda"}, "tags": {"1.02--hb97b32f_3": "sha256:1f1a14effefc24a922d9946f8fba891c80a68be7286b6311f3f72eb2aa896bf5", "1.02--h2202e69_5": "sha256:7b38ed3ab0afe0a12becde211ae288c346c5066d525bed3b52791afb2f44b339", "1.02--h43eeafb_6": "sha256:6f9186106aa5234855c84661e1c1e95072148f328c623e7147fcc55a7ddfda18", "1.02--h5ca1c30_7": "sha256:4303b846b15f06c8c499c3d282cc4f063279bc973b63d5b2d77815dafd4c6dda"}, "docker": "quay.io/biocontainers/prequal", "aliases": {"prequal": "/usr/local/bin/prequal"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prequal.

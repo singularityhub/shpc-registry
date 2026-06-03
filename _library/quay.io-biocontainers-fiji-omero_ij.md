@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fiji-omero_ij"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fiji-omero_ij/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fiji-omero_ij/container.yaml"
-updated_at: "2026-06-02 07:27:19.313160"
+updated_at: "2026-06-03 07:35:56.875638"
 latest: "5.8.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fiji-omero_ij"
 aliases:

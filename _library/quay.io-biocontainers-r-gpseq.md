@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gpseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gpseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gpseq/container.yaml"
-updated_at: "2026-06-02 07:17:09.678674"
+updated_at: "2026-06-03 07:26:20.387442"
 latest: "0.5--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gpseq"
 aliases:
