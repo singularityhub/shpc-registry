@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/grzctl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grzctl
 latest:
-  1.4.0--pyhdfd78af_0: 
-    sha256:17231aacc477d6095b9ef06df6357f1e8308edc91bde719756646991fdbc8958
+  2.1.1--pyhdfd78af_0: 
+    sha256:024f9770d47e0e46f82a071dfd49cfa1dcb9b181ea61e7682ef2e8e4c0656a13
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:a9a6307776305d81b2b511b80066ce6441297210ebf67e7c7dbe95539fa24296
@@ -27,6 +27,8 @@ tags:
     sha256:81a4a4ff930c9b09b22b9e309d8efbffcf590a0b808fbd4cf25d02b555fe595e
   1.4.0--pyhdfd78af_0: 
     sha256:17231aacc477d6095b9ef06df6357f1e8308edc91bde719756646991fdbc8958
+  2.1.1--pyhdfd78af_0: 
+    sha256:024f9770d47e0e46f82a071dfd49cfa1dcb9b181ea61e7682ef2e8e4c0656a13
 docker: quay.io/biocontainers/grzctl
 aliases:
   crypt4gh: /usr/local/bin/crypt4gh
