@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/fmh-funprofiler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fmh-funprofiler
+latest:
+  1.1.1--pyh106432d_0: 
+    sha256:85eaac0baff56cfb14051e9e3a1506c3a7a66debbc9487e73ee10b053ebdc65d
+tags:
+  1.1.1--pyh106432d_0: 
+    sha256:85eaac0baff56cfb14051e9e3a1506c3a7a66debbc9487e73ee10b053ebdc65d
+docker: quay.io/biocontainers/fmh-funprofiler
+aliases:
+  funcprofiler: /usr/local/bin/funcprofiler
+  funcprofiler-many: /usr/local/bin/funcprofiler-many
+  sourmash: /usr/local/bin/sourmash
+  screed: /usr/local/bin/screed
+  biom: /usr/local/bin/biom
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  elasticurl: /usr/local/bin/elasticurl
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  h5delete: /usr/local/bin/h5delete
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  h5fc: /usr/local/bin/h5fc
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
