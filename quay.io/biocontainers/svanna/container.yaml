@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/svanna
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for svanna
+latest:
+  1.2.0--hdfd78af_0: 
+    sha256:9f76129c385cc52e3afb8d446aefe494f7dfd7d26f6e5a24480c5b8b90fedcf0
+tags:
+  1.2.0--hdfd78af_0: 
+    sha256:9f76129c385cc52e3afb8d446aefe494f7dfd7d26f6e5a24480c5b8b90fedcf0
+docker: quay.io/biocontainers/svanna
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  svanna-cli: /usr/local/bin/svanna-cli
+  jnativescan: /usr/local/bin/jnativescan
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
