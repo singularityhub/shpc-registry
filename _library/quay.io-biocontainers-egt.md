@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/egt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/egt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/egt/container.yaml"
-updated_at: "2026-06-03 07:43:17.571596"
+updated_at: "2026-06-04 00:46:24.204357"
 latest: "0.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/egt"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gedi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gedi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gedi/container.yaml"
-updated_at: "2026-06-03 07:38:55.665851"
+updated_at: "2026-06-04 00:42:00.098143"
 latest: "1.0.6a--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gedi"
 aliases:
