@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/switchtfi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/switchtfi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/switchtfi/container.yaml"
-updated_at: "2026-06-04 00:32:17.838716"
+updated_at: "2026-06-04 07:20:16.594139"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/switchtfi"
 aliases:

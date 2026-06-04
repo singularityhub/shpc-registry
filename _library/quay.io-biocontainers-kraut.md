@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kraut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kraut/container.yaml"
-updated_at: "2026-06-04 00:17:56.089000"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2026-06-04 07:06:04.836855"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kraut"
 aliases:
  - "kraut"
@@ -36,8 +36,9 @@ aliases:
  - "fonttools"
 versions:
  - "0.5.0--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for kraut"
-config: {"url": "https://biocontainers.pro/tools/kraut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kraut", "latest": {"0.5.0--pyhdfd78af_0": "sha256:b5da28671b7a55e82ecb0677aec436a8e064f8efa1769fa32dae473e9f7d81cc"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:b5da28671b7a55e82ecb0677aec436a8e064f8efa1769fa32dae473e9f7d81cc"}, "docker": "quay.io/biocontainers/kraut", "aliases": {"kraut": "/usr/local/bin/kraut", "biom": "/usr/local/bin/biom", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "h2benchmark": "/usr/local/bin/h2benchmark", "typer": "/usr/local/bin/typer", "checksum-profile": "/usr/local/bin/checksum-profile", "elasticurl": "/usr/local/bin/elasticurl", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "natsort": "/usr/local/bin/natsort", "h5delete": "/usr/local/bin/h5delete", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "h5fc": "/usr/local/bin/h5fc", "fonttools": "/usr/local/bin/fonttools"}}
+config: {"url": "https://biocontainers.pro/tools/kraut", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kraut", "latest": {"0.6.0--pyhdfd78af_0": "sha256:f9e6c64e70ac6c0b090344ecf0c337f25ed96a2fd1ef6855043d4fe8c7d4dacc"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:b5da28671b7a55e82ecb0677aec436a8e064f8efa1769fa32dae473e9f7d81cc", "0.6.0--pyhdfd78af_0": "sha256:f9e6c64e70ac6c0b090344ecf0c337f25ed96a2fd1ef6855043d4fe8c7d4dacc"}, "docker": "quay.io/biocontainers/kraut", "aliases": {"kraut": "/usr/local/bin/kraut", "biom": "/usr/local/bin/biom", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "h2benchmark": "/usr/local/bin/h2benchmark", "typer": "/usr/local/bin/typer", "checksum-profile": "/usr/local/bin/checksum-profile", "elasticurl": "/usr/local/bin/elasticurl", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "natsort": "/usr/local/bin/natsort", "h5delete": "/usr/local/bin/h5delete", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "h5fc": "/usr/local/bin/h5fc", "fonttools": "/usr/local/bin/fonttools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kraut.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/kraut
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kraut:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kraut:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kraut/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/kraut/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/kraut/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/kraut/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

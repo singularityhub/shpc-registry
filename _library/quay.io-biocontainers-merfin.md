@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/merfin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/merfin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/merfin/container.yaml"
-updated_at: "2026-06-04 00:31:06.390157"
-latest: "1.0--h9948957_3"
+updated_at: "2026-06-04 07:19:05.374810"
+latest: "1.1--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/merfin"
 aliases:
  - "gunzip"
@@ -34,8 +34,9 @@ versions:
  - "1.0--h9f5acd7_1"
  - "1.0--h4ac6f70_2"
  - "1.0--h9948957_3"
+ - "1.1--hd63eeec_0"
 description: "singularity registry hpc automated addition for merfin"
-config: {"url": "https://biocontainers.pro/tools/merfin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for merfin", "latest": {"1.0--h9948957_3": "sha256:bd20892235acef129721fe746f4dac8bc1107f3310efddae75401d08e866ff10"}, "tags": {"1.0--h9f5acd7_1": "sha256:2c2641a46d1ffcd92fe650c750e9ab3528be742180bcb68c85f7dd9bbbf964c5", "1.0--h4ac6f70_2": "sha256:0187816d6849f9254fac4063babe024657829d09adf421100df825616bf2e1f6", "1.0--h9948957_3": "sha256:bd20892235acef129721fe746f4dac8bc1107f3310efddae75401d08e866ff10"}, "docker": "quay.io/biocontainers/merfin", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "merfin": "/usr/local/bin/merfin", "meryl-analyze": "/usr/local/bin/meryl-analyze", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "meryl-simple": "/usr/local/bin/meryl-simple", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "meryl": "/usr/local/bin/meryl", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
+config: {"url": "https://biocontainers.pro/tools/merfin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for merfin", "latest": {"1.1--hd63eeec_0": "sha256:72940d5f5d150e427c6bc46f2216ee27e8822f9f7e380a4ada0ff42e4a2a1797"}, "tags": {"1.0--h9f5acd7_1": "sha256:2c2641a46d1ffcd92fe650c750e9ab3528be742180bcb68c85f7dd9bbbf964c5", "1.0--h4ac6f70_2": "sha256:0187816d6849f9254fac4063babe024657829d09adf421100df825616bf2e1f6", "1.0--h9948957_3": "sha256:bd20892235acef129721fe746f4dac8bc1107f3310efddae75401d08e866ff10", "1.1--hd63eeec_0": "sha256:72940d5f5d150e427c6bc46f2216ee27e8822f9f7e380a4ada0ff42e4a2a1797"}, "docker": "quay.io/biocontainers/merfin", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "merfin": "/usr/local/bin/merfin", "meryl-analyze": "/usr/local/bin/meryl-analyze", "meryl-import": "/usr/local/bin/meryl-import", "meryl-lookup": "/usr/local/bin/meryl-lookup", "meryl-simple": "/usr/local/bin/meryl-simple", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zless": "/usr/local/bin/zless", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "meryl": "/usr/local/bin/meryl", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/merfin.
@@ -50,7 +51,7 @@ $ shpc install quay.io/biocontainers/merfin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/merfin:1.0--h9948957_3
+$ shpc install quay.io/biocontainers/merfin:1.1--hd63eeec_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/merfin/1.0--h9948957_3
-$ module help quay.io/biocontainers/merfin/1.0--h9948957_3
+$ module load quay.io/biocontainers/merfin/1.1--hd63eeec_0
+$ module help quay.io/biocontainers/merfin/1.1--hd63eeec_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

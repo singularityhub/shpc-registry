@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vcf2tsvpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2tsvpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2tsvpy/container.yaml"
-updated_at: "2026-06-04 00:22:31.940935"
-latest: "0.6.1--pyhda70652_0"
+updated_at: "2026-06-04 07:10:36.395053"
+latest: "0.6.2--pyhb241bb5_0"
 container_url: "https://biocontainers.pro/tools/vcf2tsvpy"
 aliases:
  - "vcf2tsvpy"
@@ -24,8 +24,9 @@ aliases:
 versions:
  - "0.6.0--pyh0517881_0"
  - "0.6.1--pyhda70652_0"
+ - "0.6.2--pyhb241bb5_0"
 description: "singularity registry hpc automated addition for vcf2tsvpy"
-config: {"url": "https://biocontainers.pro/tools/vcf2tsvpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf2tsvpy", "latest": {"0.6.1--pyhda70652_0": "sha256:76c6f118466512e6c60d6d435c9cde3e831b83f5992ee5f15930749e7d0f4e8e"}, "tags": {"0.6.0--pyh0517881_0": "sha256:79dea0ac847ebbd6bf3aa12bd90b8178ed26d4ece1fb61f533c27a8ee78ed876", "0.6.1--pyhda70652_0": "sha256:76c6f118466512e6c60d6d435c9cde3e831b83f5992ee5f15930749e7d0f4e8e"}, "docker": "quay.io/biocontainers/vcf2tsvpy", "aliases": {"vcf2tsvpy": "/usr/local/bin/vcf2tsvpy", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.9": "/usr/local/bin/f2py3.9", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/vcf2tsvpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for vcf2tsvpy", "latest": {"0.6.2--pyhb241bb5_0": "sha256:e5e454db5c5d7cfe642c9e029e4257c7300d121e31f5a25af4f53ec525cf9ec8"}, "tags": {"0.6.0--pyh0517881_0": "sha256:79dea0ac847ebbd6bf3aa12bd90b8178ed26d4ece1fb61f533c27a8ee78ed876", "0.6.1--pyhda70652_0": "sha256:76c6f118466512e6c60d6d435c9cde3e831b83f5992ee5f15930749e7d0f4e8e", "0.6.2--pyhb241bb5_0": "sha256:e5e454db5c5d7cfe642c9e029e4257c7300d121e31f5a25af4f53ec525cf9ec8"}, "docker": "quay.io/biocontainers/vcf2tsvpy", "aliases": {"vcf2tsvpy": "/usr/local/bin/vcf2tsvpy", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.9": "/usr/local/bin/f2py3.9", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcf2tsvpy.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/vcf2tsvpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcf2tsvpy:0.6.1--pyhda70652_0
+$ shpc install quay.io/biocontainers/vcf2tsvpy:0.6.2--pyhb241bb5_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcf2tsvpy/0.6.1--pyhda70652_0
-$ module help quay.io/biocontainers/vcf2tsvpy/0.6.1--pyhda70652_0
+$ module load quay.io/biocontainers/vcf2tsvpy/0.6.2--pyhb241bb5_0
+$ module help quay.io/biocontainers/vcf2tsvpy/0.6.2--pyhb241bb5_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

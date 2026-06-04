@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/annoreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annoreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annoreport/container.yaml"
-updated_at: "2026-06-04 00:27:45.462367"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-06-04 07:15:47.282930"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/annoreport"
 aliases:
  - "annoreport"
@@ -15,8 +15,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for annoreport"
-config: {"url": "https://biocontainers.pro/tools/annoreport", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annoreport", "latest": {"0.1.0--pyhdfd78af_0": "sha256:54ea36efcf4f382d925b2012717552fe73bca852e2099eff49a8e42969de9bbb"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:54ea36efcf4f382d925b2012717552fe73bca852e2099eff49a8e42969de9bbb"}, "docker": "quay.io/biocontainers/annoreport", "aliases": {"annoreport": "/usr/local/bin/annoreport", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/annoreport", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for annoreport", "latest": {"0.1.2--pyhdfd78af_0": "sha256:8336baaad2f99600a29cde7a6a95906f710258312ccb0bd15df81b4cc6ea7706"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:54ea36efcf4f382d925b2012717552fe73bca852e2099eff49a8e42969de9bbb", "0.1.2--pyhdfd78af_0": "sha256:8336baaad2f99600a29cde7a6a95906f710258312ccb0bd15df81b4cc6ea7706"}, "docker": "quay.io/biocontainers/annoreport", "aliases": {"annoreport": "/usr/local/bin/annoreport", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/annoreport.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/annoreport
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/annoreport:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/annoreport:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/annoreport/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/annoreport/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/annoreport/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/annoreport/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hypo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hypo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hypo/container.yaml"
-updated_at: "2026-06-04 00:16:36.782440"
-latest: "1.0.3--h9a82719_1"
+updated_at: "2026-06-04 07:04:47.357892"
+latest: "1.0.3--hf426362_3"
 container_url: "https://biocontainers.pro/tools/hypo"
 aliases:
  - "hypo"
@@ -17,8 +17,9 @@ aliases:
  - "tabix"
 versions:
  - "1.0.3--h9a82719_1"
+ - "1.0.3--hf426362_3"
 description: "shpc-registry automated BioContainers addition for hypo"
-config: {"url": "https://biocontainers.pro/tools/hypo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hypo", "latest": {"1.0.3--h9a82719_1": "sha256:5822ce168b1a6afaa492ce87c599ab5de1d63e6c76603a42e6bd1d6ca70da272"}, "tags": {"1.0.3--h9a82719_1": "sha256:5822ce168b1a6afaa492ce87c599ab5de1d63e6c76603a42e6bd1d6ca70da272"}, "docker": "quay.io/biocontainers/hypo", "aliases": {"hypo": "/usr/local/bin/hypo", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/hypo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hypo", "latest": {"1.0.3--hf426362_3": "sha256:0734de2ccfca4bb6c6203868012a35dbc98b0cbec0b2335c4ed093a518bd4beb"}, "tags": {"1.0.3--h9a82719_1": "sha256:5822ce168b1a6afaa492ce87c599ab5de1d63e6c76603a42e6bd1d6ca70da272", "1.0.3--hf426362_3": "sha256:0734de2ccfca4bb6c6203868012a35dbc98b0cbec0b2335c4ed093a518bd4beb"}, "docker": "quay.io/biocontainers/hypo", "aliases": {"hypo": "/usr/local/bin/hypo", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hypo.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/hypo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hypo:1.0.3--h9a82719_1
+$ shpc install quay.io/biocontainers/hypo:1.0.3--hf426362_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hypo/1.0.3--h9a82719_1
-$ module help quay.io/biocontainers/hypo/1.0.3--h9a82719_1
+$ module load quay.io/biocontainers/hypo/1.0.3--hf426362_3
+$ module help quay.io/biocontainers/hypo/1.0.3--hf426362_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

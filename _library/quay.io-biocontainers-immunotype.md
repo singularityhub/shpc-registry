@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/immunotype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/immunotype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/immunotype/container.yaml"
-updated_at: "2026-06-04 00:28:22.711842"
+updated_at: "2026-06-04 07:16:24.133813"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/immunotype"
 aliases:
