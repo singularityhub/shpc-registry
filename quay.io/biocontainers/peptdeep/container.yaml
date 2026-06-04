@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/peptdeep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for peptdeep
 latest:
-  1.4.2--pyhdfd78af_0: 
-    sha256:0693db685f670f2827ba3de32b61c77280a44b009afd3b973ba91f037aa0b94f
+  1.5.0--pyhdfd78af_0: 
+    sha256:a41cbeeca36efda45d921858e95283ccc2ad7140f478f2c3672dbd5dacaadc16
 tags:
   1.4.1--pyhdfd78af_1: 
     sha256:4931f9ccb6302a5a89501661b8dc51439877c0b64df8c25a4f3e0ce69b87fbc2
   1.4.2--pyhdfd78af_0: 
     sha256:0693db685f670f2827ba3de32b61c77280a44b009afd3b973ba91f037aa0b94f
+  1.5.0--pyhdfd78af_0: 
+    sha256:a41cbeeca36efda45d921858e95283ccc2ad7140f478f2c3672dbd5dacaadc16
 docker: quay.io/biocontainers/peptdeep
 aliases:
   alpharaw: /usr/local/bin/alpharaw

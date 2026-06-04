@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/metawepp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metawepp
 latest:
-  0.1.0--hdfd78af_0: 
-    sha256:d41fed3f3403b0c77191af4f00beb93d3f271228fc815b2127843675eacfaa4d
+  0.1.1--hdfd78af_0: 
+    sha256:28fcd430e4c3c6036b280cc7b3b1f87bd6dde0a51b592bccd157975588e22807
 tags:
   0.1.0--hdfd78af_0: 
     sha256:d41fed3f3403b0c77191af4f00beb93d3f271228fc815b2127843675eacfaa4d
+  0.1.1--hdfd78af_0: 
+    sha256:28fcd430e4c3c6036b280cc7b3b1f87bd6dde0a51b592bccd157975588e22807
 docker: quay.io/biocontainers/metawepp
 aliases:
   inv: /usr/local/bin/inv

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/kfb2zarr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kfb2zarr
 latest:
-  0.1.1--hec9b1f2_0: 
-    sha256:90c50f4dba7c10763f962630339e4998d1da05d57b2881cfadf07e22a3de9104
+  0.1.3--hec9b1f2_1: 
+    sha256:10f4fc27f2111ad3852c62cba219cdb59d63b90d8a015386b143e9b5cb201a63
 tags:
   0.1.1--hec9b1f2_0: 
     sha256:90c50f4dba7c10763f962630339e4998d1da05d57b2881cfadf07e22a3de9104
+  0.1.3--hec9b1f2_1: 
+    sha256:10f4fc27f2111ad3852c62cba219cdb59d63b90d8a015386b143e9b5cb201a63
 docker: quay.io/biocontainers/kfb2zarr
 aliases:
   kfb2zarr: /usr/local/bin/kfb2zarr

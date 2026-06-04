@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/annoreport
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for annoreport
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:54ea36efcf4f382d925b2012717552fe73bca852e2099eff49a8e42969de9bbb
+  0.1.2--pyhdfd78af_0: 
+    sha256:8336baaad2f99600a29cde7a6a95906f710258312ccb0bd15df81b4cc6ea7706
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:54ea36efcf4f382d925b2012717552fe73bca852e2099eff49a8e42969de9bbb
+  0.1.2--pyhdfd78af_0: 
+    sha256:8336baaad2f99600a29cde7a6a95906f710258312ccb0bd15df81b4cc6ea7706
 docker: quay.io/biocontainers/annoreport
 aliases:
   annoreport: /usr/local/bin/annoreport
