@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawepp/container.yaml"
-updated_at: "2026-06-04 06:47:17.037444"
+updated_at: "2026-06-05 06:28:26.430404"
 latest: "0.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metawepp"
 aliases:
