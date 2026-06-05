@@ -1,0 +1,80 @@
+url: https://biocontainers.pro/tools/mostar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mostar
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:80ea18f7ba1f31d9961070586b3ad6342837c473d637f011a3b2de7e12ada758
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:80ea18f7ba1f31d9961070586b3ad6342837c473d637f011a3b2de7e12ada758
+docker: quay.io/biocontainers/mostar
+aliases:
+  MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
+  amrfinder_index: /usr/local/bin/amrfinder_index
+  bakta: /usr/local/bin/bakta
+  bakta_db: /usr/local/bin/bakta_db
+  bakta_io: /usr/local/bin/bakta_io
+  bakta_plot: /usr/local/bin/bakta_plot
+  bakta_proteins: /usr/local/bin/bakta_proteins
+  binspreader: /usr/local/bin/binspreader
+  circlator: /usr/local/bin/circlator
+  contig_break_finder: /usr/local/bin/contig_break_finder
+  contig_cleaner: /usr/local/bin/contig_cleaner
+  contig_overlap_trimmer: /usr/local/bin/contig_overlap_trimmer
+  disruption2genesymbol: /usr/local/bin/disruption2genesymbol
+  filtlong: /usr/local/bin/filtlong
+  genomad: /usr/local/bin/genomad
+  idna: /usr/local/bin/idna
+  k2: /usr/local/bin/k2
+  macsyconfig: /usr/local/bin/macsyconfig
+  macsydata: /usr/local/bin/macsydata
+  macsyfinder: /usr/local/bin/macsyfinder
+  macsyprofile: /usr/local/bin/macsyprofile
+  medaka_consensus_joint: /usr/local/bin/medaka_consensus_joint
+  medaka_variant: /usr/local/bin/medaka_variant
+  mostar: /usr/local/bin/mostar
+  msf_config: /usr/local/bin/msf_config
+  msf_data: /usr/local/bin/msf_data
+  msf_merge: /usr/local/bin/msf_merge
+  msf_profile: /usr/local/bin/msf_profile
+  msf_split: /usr/local/bin/msf_split
+  msl_data: /usr/local/bin/msl_data
+  msl_profile: /usr/local/bin/msl_profile
+  mutate: /usr/local/bin/mutate
+  osf: /usr/local/bin/osf
+  pacbio_post_process: /usr/local/bin/pacbio_post_process
+  pathracer: /usr/local/bin/pathracer
+  pathracer-seq-fs: /usr/local/bin/pathracer-seq-fs
+  pilercr: /usr/local/bin/pilercr
+  polypolish: /usr/local/bin/polypolish
+  pyrodigal-gv: /usr/local/bin/pyrodigal-gv
+  spades-gfa-split: /usr/local/bin/spades-gfa-split
+  spades-hpc: /usr/local/bin/spades-hpc
+  stx.prot: /usr/local/bin/stx.prot
+  stxtyper: /usr/local/bin/stxtyper
+  test_stxtyper.sh: /usr/local/bin/test_stxtyper.sh
+  medaka: /usr/local/bin/medaka
+  medaka_consensus: /usr/local/bin/medaka_consensus
+  medaka_counts: /usr/local/bin/medaka_counts
+  medaka_data_path: /usr/local/bin/medaka_data_path
+  medaka_version_report: /usr/local/bin/medaka_version_report
+  demux_fast5: /usr/local/bin/demux_fast5
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  mini_align: /usr/local/bin/mini_align
+  check_compression: /usr/local/bin/check_compression
+  compress_fast5: /usr/local/bin/compress_fast5
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  dna_mutation: /usr/local/bin/dna_mutation
+  fasta2parts: /usr/local/bin/fasta2parts
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  fast5_subset: /usr/local/bin/fast5_subset
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff2gff: /usr/local/bin/gff2gff
+  gff_check: /usr/local/bin/gff_check
+  multi_to_single_fast5: /usr/local/bin/multi_to_single_fast5
+  roh-viz: /usr/local/bin/roh-viz
+  single_to_multi_fast5: /usr/local/bin/single_to_multi_fast5
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  scalar: /usr/local/bin/scalar
+  fasta_check: /usr/local/bin/fasta_check
