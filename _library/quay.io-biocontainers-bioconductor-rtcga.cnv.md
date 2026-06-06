@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.cnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.cnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.cnv/container.yaml"
-updated_at: "2026-06-05 07:03:40.803046"
+updated_at: "2026-06-06 06:33:55.016443"
 latest: "1.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.cnv"
 aliases:

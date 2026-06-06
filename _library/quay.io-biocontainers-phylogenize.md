@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylogenize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylogenize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylogenize/container.yaml"
-updated_at: "2026-06-05 06:32:09.707413"
+updated_at: "2026-06-06 06:02:25.962914"
 latest: "2.0.1--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phylogenize"
 aliases:

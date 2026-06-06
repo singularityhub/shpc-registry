@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-starank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-starank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-starank/container.yaml"
-updated_at: "2026-06-05 06:36:53.508314"
+updated_at: "2026-06-06 06:06:56.051743"
 latest: "1.44.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-starank"
 

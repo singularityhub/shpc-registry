@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virusdetect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virusdetect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virusdetect/container.yaml"
-updated_at: "2026-06-05 06:46:26.039745"
+updated_at: "2026-06-06 06:16:27.666432"
 latest: "2.0.0a0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virusdetect"
 aliases:

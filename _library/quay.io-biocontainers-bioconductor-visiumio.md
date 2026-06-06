@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-visiumio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-visiumio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-visiumio/container.yaml"
-updated_at: "2026-06-05 06:59:34.768913"
+updated_at: "2026-06-06 06:29:46.453436"
 latest: "1.6.3--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-visiumio"
 aliases:
