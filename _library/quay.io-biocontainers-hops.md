@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hops/container.yaml"
-updated_at: "2026-06-06 06:47:16.399172"
+updated_at: "2026-06-06 16:07:15.852635"
 latest: "0.35--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/hops"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-graphics-colornames"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graphics-colornames/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graphics-colornames/container.yaml"
-updated_at: "2026-06-06 06:49:09.917296"
+updated_at: "2026-06-06 16:09:03.817683"
 latest: "2.11--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-graphics-colornames"
 aliases:

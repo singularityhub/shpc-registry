@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pmdtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmdtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmdtools/container.yaml"
-updated_at: "2026-06-06 06:20:13.879424"
+updated_at: "2026-06-06 15:41:33.758067"
 latest: "0.60--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/pmdtools"
 aliases:

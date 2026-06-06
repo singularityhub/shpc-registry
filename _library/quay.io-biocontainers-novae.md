@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/novae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/novae/container.yaml"
-updated_at: "2026-06-06 06:27:40.456855"
+updated_at: "2026-06-06 15:48:31.630479"
 latest: "1.0.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/novae"
 aliases:

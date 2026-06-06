@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-dateutil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-dateutil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-dateutil/container.yaml"
-updated_at: "2026-06-06 06:11:48.439707"
+updated_at: "2026-06-06 15:33:55.234101"
 latest: "2.6.0--py34_0"
 container_url: "https://biocontainers.pro/tools/python-dateutil"
 aliases:

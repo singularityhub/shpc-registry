@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/omero-annotate-ai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/omero-annotate-ai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/omero-annotate-ai/container.yaml"
-updated_at: "2026-06-06 06:52:02.538654"
+updated_at: "2026-06-06 16:11:55.076058"
 latest: "0.3.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/omero-annotate-ai"
 aliases:

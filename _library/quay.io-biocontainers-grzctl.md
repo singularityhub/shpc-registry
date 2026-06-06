@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grzctl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grzctl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grzctl/container.yaml"
-updated_at: "2026-06-06 06:51:17.397458"
+updated_at: "2026-06-06 16:11:10.209132"
 latest: "2.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grzctl"
 aliases:

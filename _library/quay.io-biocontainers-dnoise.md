@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnoise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnoise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnoise/container.yaml"
-updated_at: "2026-06-06 06:46:18.863092"
+updated_at: "2026-06-06 16:06:22.842923"
 latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnoise"
 aliases:

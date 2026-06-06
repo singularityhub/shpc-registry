@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cfdnapro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cfdnapro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cfdnapro/container.yaml"
-updated_at: "2026-06-06 06:24:14.836304"
+updated_at: "2026-06-06 15:45:16.085138"
 latest: "1.16.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cfdnapro"
 

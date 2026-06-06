@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phageflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phageflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phageflow/container.yaml"
-updated_at: "2026-06-06 06:39:49.138590"
+updated_at: "2026-06-06 16:00:10.326107"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phageflow"
 aliases:

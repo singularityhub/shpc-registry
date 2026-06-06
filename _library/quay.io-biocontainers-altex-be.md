@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/altex-be"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/altex-be/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/altex-be/container.yaml"
-updated_at: "2026-06-06 06:14:00.998537"
+updated_at: "2026-06-06 15:35:56.477880"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/altex-be"
 aliases:
