@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oddsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oddsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oddsnp/container.yaml"
-updated_at: "2026-06-06 16:04:30.619310"
+updated_at: "2026-06-07 07:16:40.128039"
 latest: "0.1.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/oddsnp"
 aliases:

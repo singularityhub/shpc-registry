@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telomore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telomore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telomore/container.yaml"
-updated_at: "2026-06-06 16:06:54.373332"
+updated_at: "2026-06-07 07:19:18.138108"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telomore"
 aliases:

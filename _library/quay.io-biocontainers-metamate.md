@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metamate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metamate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metamate/container.yaml"
-updated_at: "2026-06-06 16:09:47.316145"
+updated_at: "2026-06-07 07:22:25.485589"
 latest: "0.5.4--pyr45h106432d_0"
 container_url: "https://biocontainers.pro/tools/metamate"
 aliases:

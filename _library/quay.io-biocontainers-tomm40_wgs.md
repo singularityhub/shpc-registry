@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tomm40_wgs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tomm40_wgs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tomm40_wgs/container.yaml"
-updated_at: "2026-06-06 15:34:24.173985"
+updated_at: "2026-06-07 06:43:59.358466"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tomm40_wgs"
 aliases:
