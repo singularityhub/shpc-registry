@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cats-rb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cats-rb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cats-rb/container.yaml"
-updated_at: "2026-06-07 07:06:43.135734"
+updated_at: "2026-06-08 07:22:16.646177"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cats-rb"
 aliases:

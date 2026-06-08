@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moff/container.yaml"
-updated_at: "2026-06-07 07:05:54.056533"
+updated_at: "2026-06-08 07:21:30.460895"
 latest: "2.0.3--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/moff"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-common-sense"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-common-sense/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-common-sense/container.yaml"
-updated_at: "2026-06-07 07:06:50.668733"
+updated_at: "2026-06-08 07:22:23.776779"
 latest: "3.75--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-common-sense"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyani/container.yaml"
-updated_at: "2026-06-07 06:49:04.223007"
+updated_at: "2026-06-08 07:06:01.560103"
 latest: "0.2.13.1--pyhdc42f0e_0"
 container_url: "https://biocontainers.pro/tools/pyani"
 aliases:

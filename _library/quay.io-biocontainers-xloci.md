@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xloci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xloci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xloci/container.yaml"
-updated_at: "2026-06-07 06:41:27.140928"
+updated_at: "2026-06-08 06:59:00.328697"
 latest: "0.0.4--hd612981_0"
 container_url: "https://biocontainers.pro/tools/xloci"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ddrtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ddrtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ddrtree/container.yaml"
-updated_at: "2026-06-07 07:18:41.734512"
+updated_at: "2026-06-08 07:33:23.816696"
 latest: "0.1.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ddrtree"
 aliases:

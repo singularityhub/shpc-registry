@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-remp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
-updated_at: "2026-06-07 07:00:24.427279"
+updated_at: "2026-06-08 07:16:22.828165"
 latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-remp"
 aliases:

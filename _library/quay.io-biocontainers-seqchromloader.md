@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqchromloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqchromloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqchromloader/container.yaml"
-updated_at: "2026-06-07 06:45:22.353621"
+updated_at: "2026-06-08 07:02:40.256023"
 latest: "0.12.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqchromloader"
 aliases:

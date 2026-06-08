@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggthemes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggthemes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggthemes/container.yaml"
-updated_at: "2026-06-07 06:59:00.329033"
+updated_at: "2026-06-08 07:15:04.813290"
 latest: "3.4.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-ggthemes"
 aliases:

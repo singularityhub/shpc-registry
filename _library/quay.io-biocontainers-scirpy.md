@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scirpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scirpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scirpy/container.yaml"
-updated_at: "2026-06-07 06:31:27.346460"
+updated_at: "2026-06-08 06:49:46.981785"
 latest: "0.22.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scirpy"
 aliases:

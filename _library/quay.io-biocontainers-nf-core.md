@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nf-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nf-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nf-core/container.yaml"
-updated_at: "2026-06-07 07:04:35.994351"
+updated_at: "2026-06-08 07:20:17.360662"
 latest: "3.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nf-core"
 aliases:

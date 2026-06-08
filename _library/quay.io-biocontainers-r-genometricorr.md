@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genometricorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genometricorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genometricorr/container.yaml"
-updated_at: "2026-06-07 06:41:50.820650"
+updated_at: "2026-06-08 06:59:21.954066"
 latest: "1.1.17--0"
 container_url: "https://biocontainers.pro/tools/r-genometricorr"
 aliases:

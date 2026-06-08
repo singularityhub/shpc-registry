@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/megapath-nano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megapath-nano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megapath-nano/container.yaml"
-updated_at: "2026-06-07 07:11:29.329617"
+updated_at: "2026-06-08 07:26:50.508664"
 latest: "2--hee3b9ab_0"
 container_url: "https://biocontainers.pro/tools/megapath-nano"
 aliases:

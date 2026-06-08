@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-brainsaber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brainsaber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brainsaber/container.yaml"
-updated_at: "2026-06-07 06:30:42.808182"
+updated_at: "2026-06-08 06:49:06.373470"
 latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-brainsaber"
 

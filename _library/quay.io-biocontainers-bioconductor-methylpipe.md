@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylpipe/container.yaml"
-updated_at: "2026-06-07 06:52:43.884658"
+updated_at: "2026-06-08 07:09:21.869405"
 latest: "1.44.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylpipe"
 

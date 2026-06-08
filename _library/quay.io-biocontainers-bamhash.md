@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamhash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamhash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamhash/container.yaml"
-updated_at: "2026-06-07 06:41:23.233638"
+updated_at: "2026-06-08 06:58:56.833118"
 latest: "2.0--h35c04b2_0"
 container_url: "https://biocontainers.pro/tools/bamhash"
 aliases:

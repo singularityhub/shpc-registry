@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/niemads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/niemads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/niemads/container.yaml"
-updated_at: "2026-06-07 07:13:31.605666"
+updated_at: "2026-06-08 07:28:39.417937"
 latest: "1.0.16--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/niemads"
 aliases:

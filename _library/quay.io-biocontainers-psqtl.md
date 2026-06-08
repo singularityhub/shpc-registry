@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psqtl/container.yaml"
-updated_at: "2026-06-07 07:01:43.792540"
+updated_at: "2026-06-08 07:17:35.493413"
 latest: "1.3.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psqtl"
 aliases:
