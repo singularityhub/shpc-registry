@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/vadersentiment
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vadersentiment
+latest:
+  3.3.2: sha256:228ec94ad9a5190fe728328c012b1f5cef38443f8d76d4623b992f51d45f8c59
+tags:
+  3.3.2: sha256:228ec94ad9a5190fe728328c012b1f5cef38443f8d76d4623b992f51d45f8c59
+docker: quay.io/biocontainers/vadersentiment
+aliases:
+  idna: /usr/local/bin/idna
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  normalizer: /usr/local/bin/normalizer

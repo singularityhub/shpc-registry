@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/prinseq-rust
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for prinseq-rust
+latest:
+  1.1.1--hab7d0fd_0: 
+    sha256:56f6a505ad26e2d15cb7bb99d1303169ff2c54001721aafa541c5408b2c1bb13
+tags:
+  1.1.1--hab7d0fd_0: 
+    sha256:56f6a505ad26e2d15cb7bb99d1303169ff2c54001721aafa541c5408b2c1bb13
+docker: quay.io/biocontainers/prinseq-rust
+aliases:
+  prinseq-rust: /usr/local/bin/prinseq-rust

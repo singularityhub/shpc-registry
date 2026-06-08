@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/kivvi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for kivvi
+latest:
+  1.0.0--h9ee0642_0: 
+    sha256:1bc35feab18b0027277aebed7f11e11fa3bcb58f930441d6d2acb7608f37359b
+tags:
+  1.0.0--h9ee0642_0: 
+    sha256:1bc35feab18b0027277aebed7f11e11fa3bcb58f930441d6d2acb7608f37359b
+docker: quay.io/biocontainers/kivvi
+aliases:
+  kivvi: /usr/local/bin/kivvi
