@@ -1,0 +1,28 @@
+url: https://biocontainers.pro/tools/sniffles2-plot
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sniffles2-plot
+latest:
+  0.2.1--pyhdfd78af_0: 
+    sha256:9ef9dc4ec387ef17527a97dee0bc59589168a73dc107efa9a2affd9a0985a484
+tags:
+  0.2.1--pyhdfd78af_0: 
+    sha256:9ef9dc4ec387ef17527a97dee0bc59589168a73dc107efa9a2affd9a0985a484
+docker: quay.io/biocontainers/sniffles2-plot
+aliases:
+  sniffles2_plot: /usr/local/bin/sniffles2_plot
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

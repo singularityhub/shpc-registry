@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/agpcorrect
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for agpcorrect
+latest:
+  1.0.7--pyhdfd78af_0: 
+    sha256:59eb148a89fc83b5f2bab68d342625c41541de64ba552cec822c665aea4127f6
+tags:
+  1.0.7--pyhdfd78af_0: 
+    sha256:59eb148a89fc83b5f2bab68d342625c41541de64ba552cec822c665aea4127f6
+docker: quay.io/biocontainers/agpcorrect
+aliases:
+  agpcorrect: /usr/local/bin/agpcorrect
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
