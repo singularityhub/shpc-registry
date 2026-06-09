@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/srna-taps
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for srna-taps
+latest:
+  0.2.2--pyhdfd78af_0: 
+    sha256:3c0ab84290c4647f3dc6fc3a244d8a688ffcf858bcc641d913f13fcf1ecb79ea
+tags:
+  0.2.2--pyhdfd78af_0: 
+    sha256:3c0ab84290c4647f3dc6fc3a244d8a688ffcf858bcc641d913f13fcf1ecb79ea
+docker: quay.io/biocontainers/srna-taps
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  idna: /usr/local/bin/idna
+  srnataps: /usr/local/bin/srnataps
+  trim_galore: /usr/local/bin/trim_galore
+  gff2gff: /usr/local/bin/gff2gff
+  roh-viz: /usr/local/bin/roh-viz
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  phc: /usr/local/bin/phc
+  jnativescan: /usr/local/bin/jnativescan
+  kaleido: /usr/local/bin/kaleido
+  mathjax-path: /usr/local/bin/mathjax-path
+  multiqc: /usr/local/bin/multiqc
+  dotenv: /usr/local/bin/dotenv
+  eido: /usr/local/bin/eido
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  bowtie-align-l: /usr/local/bin/bowtie-align-l
+  bowtie-align-s: /usr/local/bin/bowtie-align-s
+  bowtie-build-l: /usr/local/bin/bowtie-build-l
+  bowtie-build-s: /usr/local/bin/bowtie-build-s
+  bowtie-inspect-l: /usr/local/bin/bowtie-inspect-l
+  bowtie-inspect-s: /usr/local/bin/bowtie-inspect-s
+  bowtie: /usr/local/bin/bowtie
+  bowtie-build: /usr/local/bin/bowtie-build
+  bowtie-inspect: /usr/local/bin/bowtie-inspect
+  fastqc: /usr/local/bin/fastqc
+  rich-click: /usr/local/bin/rich-click
+  typer: /usr/local/bin/typer
+  hb-raster: /usr/local/bin/hb-raster
