@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/thebigbam
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for thebigbam
 latest:
-  0.1.5--py313h79ce301_0: 
-    sha256:a5a1e4e7586caefec56e18f6f71b048db38a4a55095769cbec6d27e7893ff8c7
+  0.3.0--py313hec9b1f2_0: 
+    sha256:8b349100e64ebcf0c9e4cc7f16bc69c4591da837a9d158c9a207bf93151b378b
 tags:
   0.1.5--py313h79ce301_0: 
     sha256:a5a1e4e7586caefec56e18f6f71b048db38a4a55095769cbec6d27e7893ff8c7
+  0.3.0--py313hec9b1f2_0: 
+    sha256:8b349100e64ebcf0c9e4cc7f16bc69c4591da837a9d158c9a207bf93151b378b
 docker: quay.io/biocontainers/thebigbam
 aliases:
   bwa-mem2: /usr/local/bin/bwa-mem2

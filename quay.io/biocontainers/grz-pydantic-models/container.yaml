@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/grz-pydantic-models
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grz-pydantic-models
 latest:
-  2.5.0--pyh0648b3f_0: 
-    sha256:e5fd80cd82d0fd44ddd2c10fc6eeb9585338ec86d26e09a77cdc6ccad1bddaae
+  2.7.1--pyhdfd78af_0: 
+    sha256:e8eea04029f08bfa4531058c242d9f556a0b1b2d8a808debfb14908f50ef674e
 tags:
   1.2.1--pyhdfd78af_0: 
     sha256:abbfad8a96a77ca3acc6ddf73afb7f95d5629e8861168b9857d8da9cacd8c05d
@@ -31,6 +31,10 @@ tags:
     sha256:69c766eb216b53dd1bb012312a69d8bc361059523e0deab3509ca0be29eb9028
   2.5.0--pyh0648b3f_0: 
     sha256:e5fd80cd82d0fd44ddd2c10fc6eeb9585338ec86d26e09a77cdc6ccad1bddaae
+  2.7.1--pyhdfd78af_0: 
+    sha256:e8eea04029f08bfa4531058c242d9f556a0b1b2d8a808debfb14908f50ef674e
+  2.6.0--pyhdfd78af_0: 
+    sha256:7a62b8d397debfbe77b93d421b4f54d393f26cf81efe5ba3a4e0c4febb64316f
 docker: quay.io/biocontainers/grz-pydantic-models
 aliases:
   idle3.13: /usr/local/bin/idle3.13

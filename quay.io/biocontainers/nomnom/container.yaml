@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/nomnom
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nomnom
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:835e71fefbaff52ded42e1384a2b3d7dd1bcc60325ba20e759d2112ee935cbd6
+  0.1.1--pyhdfd78af_0: 
+    sha256:d4c59faea266fcdf6d6636926d05acae60a4eaddf4d37a02346d4e32b8ce9943
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:835e71fefbaff52ded42e1384a2b3d7dd1bcc60325ba20e759d2112ee935cbd6
+  0.1.1--pyhdfd78af_0: 
+    sha256:d4c59faea266fcdf6d6636926d05acae60a4eaddf4d37a02346d4e32b8ce9943
 docker: quay.io/biocontainers/nomnom
 aliases:
   cat-numbers: /usr/local/bin/cat-numbers

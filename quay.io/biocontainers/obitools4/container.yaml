@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/obitools4
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for obitools4
 latest:
-  4.4.42--h93cc2b8_0: 
-    sha256:f6dd23a959f011d2b225bf0feb23295749e52303edc1626887a77f0b93a5e541
+  4.4.45--h93cc2b8_0: 
+    sha256:fa2c41c9bc93408f8f540dd0460b8024c5139061cf0bd6eca7413a887bb3bc56
 tags:
   4.4.0--h6e5cb0d_0: 
     sha256:d5eba1ae26193ac84eb53db23d1b5cd495a633b00ff3f4405d399e860ea3159a
   4.4.42--h93cc2b8_0: 
     sha256:f6dd23a959f011d2b225bf0feb23295749e52303edc1626887a77f0b93a5e541
+  4.4.45--h93cc2b8_0: 
+    sha256:fa2c41c9bc93408f8f540dd0460b8024c5139061cf0bd6eca7413a887bb3bc56
 docker: quay.io/biocontainers/obitools4
 aliases:
   obiannotate: /usr/local/bin/obiannotate

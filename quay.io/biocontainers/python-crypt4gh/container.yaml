@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/python-crypt4gh
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for python-crypt4gh
 latest:
-  1.8--py311h26ae33e_0: 
-    sha256:eb32050601a67cac89a049fc63d5405c177259d12dd3fae8c318ec9538c11f64
+  1.8.6--py313hd978853_1: 
+    sha256:4fe434d8909be1ccf5bf627cc8435c7c14c79ee207798c103dc7185e2e72b0bc
 tags:
   1.6--pyhdfd78af_0: 
     sha256:29867f565252ce72682a7fd377812ce9952faa6308940deff0aaf7c4dfe5a576
@@ -11,6 +11,8 @@ tags:
     sha256:b8b8d17ec82e991016fbfc48448590de2b6345f9dd169adc8dbaa39b7a238529
   1.8--py311h26ae33e_0: 
     sha256:eb32050601a67cac89a049fc63d5405c177259d12dd3fae8c318ec9538c11f64
+  1.8.6--py313hd978853_1: 
+    sha256:4fe434d8909be1ccf5bf627cc8435c7c14c79ee207798c103dc7185e2e72b0bc
 docker: quay.io/biocontainers/python-crypt4gh
 aliases:
   crypt4gh: /usr/local/bin/crypt4gh

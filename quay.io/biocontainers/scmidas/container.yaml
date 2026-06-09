@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/scmidas
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scmidas
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:8da046e9cc1f6214cfd80789794fee07057a5d66519b179752c3de36923bd218
+  0.3.0--pyhdfd78af_0: 
+    sha256:6fae20cc6e3a0ec80fcf38dab791b6576fc97cb8522d43d6a58da98c6b9db9c4
 tags:
   0.0.17--pyhdfd78af_0: 
     sha256:c9754604125e8b7ba22a0f2070712a6f71c72e7363f6c9b4399160886228cdae
@@ -23,6 +23,8 @@ tags:
     sha256:d71a4b9c19a1e33fb709cb1c3f5cebb3beeef9b7012ebf0cef1d4097c6692c6d
   0.2.0--pyhdfd78af_0: 
     sha256:8da046e9cc1f6214cfd80789794fee07057a5d66519b179752c3de36923bd218
+  0.3.0--pyhdfd78af_0: 
+    sha256:6fae20cc6e3a0ec80fcf38dab791b6576fc97cb8522d43d6a58da98c6b9db9c4
 docker: quay.io/biocontainers/scmidas
 aliases:
   jlpm: /usr/local/bin/jlpm
