@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/obitools4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/obitools4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/obitools4/container.yaml"
-updated_at: "2026-06-08 07:16:17.485798"
-latest: "4.4.42--h93cc2b8_0"
+updated_at: "2026-06-09 06:43:04.670749"
+latest: "4.4.45--h93cc2b8_0"
 container_url: "https://biocontainers.pro/tools/obitools4"
 aliases:
  - "obiannotate"
@@ -40,8 +40,9 @@ aliases:
 versions:
  - "4.4.0--h6e5cb0d_0"
  - "4.4.42--h93cc2b8_0"
+ - "4.4.45--h93cc2b8_0"
 description: "singularity registry hpc automated addition for obitools4"
-config: {"url": "https://biocontainers.pro/tools/obitools4", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for obitools4", "latest": {"4.4.42--h93cc2b8_0": "sha256:f6dd23a959f011d2b225bf0feb23295749e52303edc1626887a77f0b93a5e541"}, "tags": {"4.4.0--h6e5cb0d_0": "sha256:d5eba1ae26193ac84eb53db23d1b5cd495a633b00ff3f4405d399e860ea3159a", "4.4.42--h93cc2b8_0": "sha256:f6dd23a959f011d2b225bf0feb23295749e52303edc1626887a77f0b93a5e541"}, "docker": "quay.io/biocontainers/obitools4", "aliases": {"obiannotate": "/usr/local/bin/obiannotate", "obiclean": "/usr/local/bin/obiclean", "obicleandb": "/usr/local/bin/obicleandb", "obicomplement": "/usr/local/bin/obicomplement", "obiconsensus": "/usr/local/bin/obiconsensus", "obiconvert": "/usr/local/bin/obiconvert", "obicount": "/usr/local/bin/obicount", "obicsv": "/usr/local/bin/obicsv", "obidemerge": "/usr/local/bin/obidemerge", "obidistribute": "/usr/local/bin/obidistribute", "obigrep": "/usr/local/bin/obigrep", "obijoin": "/usr/local/bin/obijoin", "obikmermatch": "/usr/local/bin/obikmermatch", "obikmersimcount": "/usr/local/bin/obikmersimcount", "obilandmark": "/usr/local/bin/obilandmark", "obimatrix": "/usr/local/bin/obimatrix", "obimicrosat": "/usr/local/bin/obimicrosat", "obimultiplex": "/usr/local/bin/obimultiplex", "obipairing": "/usr/local/bin/obipairing", "obipcr": "/usr/local/bin/obipcr", "obireffamidx": "/usr/local/bin/obireffamidx", "obirefidx": "/usr/local/bin/obirefidx", "obiscript": "/usr/local/bin/obiscript", "obisplit": "/usr/local/bin/obisplit", "obisummary": "/usr/local/bin/obisummary", "obitag": "/usr/local/bin/obitag", "obitagpcr": "/usr/local/bin/obitagpcr", "obitaxonomy": "/usr/local/bin/obitaxonomy", "obiuniq": "/usr/local/bin/obiuniq"}}
+config: {"url": "https://biocontainers.pro/tools/obitools4", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for obitools4", "latest": {"4.4.45--h93cc2b8_0": "sha256:fa2c41c9bc93408f8f540dd0460b8024c5139061cf0bd6eca7413a887bb3bc56"}, "tags": {"4.4.0--h6e5cb0d_0": "sha256:d5eba1ae26193ac84eb53db23d1b5cd495a633b00ff3f4405d399e860ea3159a", "4.4.42--h93cc2b8_0": "sha256:f6dd23a959f011d2b225bf0feb23295749e52303edc1626887a77f0b93a5e541", "4.4.45--h93cc2b8_0": "sha256:fa2c41c9bc93408f8f540dd0460b8024c5139061cf0bd6eca7413a887bb3bc56"}, "docker": "quay.io/biocontainers/obitools4", "aliases": {"obiannotate": "/usr/local/bin/obiannotate", "obiclean": "/usr/local/bin/obiclean", "obicleandb": "/usr/local/bin/obicleandb", "obicomplement": "/usr/local/bin/obicomplement", "obiconsensus": "/usr/local/bin/obiconsensus", "obiconvert": "/usr/local/bin/obiconvert", "obicount": "/usr/local/bin/obicount", "obicsv": "/usr/local/bin/obicsv", "obidemerge": "/usr/local/bin/obidemerge", "obidistribute": "/usr/local/bin/obidistribute", "obigrep": "/usr/local/bin/obigrep", "obijoin": "/usr/local/bin/obijoin", "obikmermatch": "/usr/local/bin/obikmermatch", "obikmersimcount": "/usr/local/bin/obikmersimcount", "obilandmark": "/usr/local/bin/obilandmark", "obimatrix": "/usr/local/bin/obimatrix", "obimicrosat": "/usr/local/bin/obimicrosat", "obimultiplex": "/usr/local/bin/obimultiplex", "obipairing": "/usr/local/bin/obipairing", "obipcr": "/usr/local/bin/obipcr", "obireffamidx": "/usr/local/bin/obireffamidx", "obirefidx": "/usr/local/bin/obirefidx", "obiscript": "/usr/local/bin/obiscript", "obisplit": "/usr/local/bin/obisplit", "obisummary": "/usr/local/bin/obisummary", "obitag": "/usr/local/bin/obitag", "obitagpcr": "/usr/local/bin/obitagpcr", "obitaxonomy": "/usr/local/bin/obitaxonomy", "obiuniq": "/usr/local/bin/obiuniq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/obitools4.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/obitools4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/obitools4:4.4.42--h93cc2b8_0
+$ shpc install quay.io/biocontainers/obitools4:4.4.45--h93cc2b8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/obitools4/4.4.42--h93cc2b8_0
-$ module help quay.io/biocontainers/obitools4/4.4.42--h93cc2b8_0
+$ module load quay.io/biocontainers/obitools4/4.4.45--h93cc2b8_0
+$ module help quay.io/biocontainers/obitools4/4.4.45--h93cc2b8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

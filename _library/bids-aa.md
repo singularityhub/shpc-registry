@@ -4,14 +4,14 @@ name:  "bids/aa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/aa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/aa/container.yaml"
-updated_at: "2026-06-08 06:47:08.191430"
+updated_at: "2026-06-09 06:13:10.006400"
 latest: "enh_various"
 container_url: "https://hub.docker.com/r/bids/aa"
 
 versions:
  - "enh_various"
 description: "BIDS App containing an instance of the Automatic Analysis. (https://github.com/BIDS-Apps/aa)"
-config: {"docker": "bids/aa", "latest": {"enh_various": "crane digest bids/aa:enh_various: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "tags": {"enh_various": "crane digest bids/aa:enh_various: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "filter": ["enh_various"], "maintainer": "@vsoch", "description": "BIDS App containing an instance of the Automatic Analysis. (https://github.com/BIDS-Apps/aa)", "url": "https://hub.docker.com/r/bids/aa"}
+config: {"docker": "bids/aa", "latest": {"enh_various": "sha256:c5b2c733ee6475449066f7dfe7865cc4bf2c74fe3c1150fd4f61a6fed2a6f78b"}, "tags": {"enh_various": "sha256:c5b2c733ee6475449066f7dfe7865cc4bf2c74fe3c1150fd4f61a6fed2a6f78b"}, "filter": ["enh_various"], "maintainer": "@vsoch", "description": "BIDS App containing an instance of the Automatic Analysis. (https://github.com/BIDS-Apps/aa)", "url": "https://hub.docker.com/r/bids/aa"}
 ---
 
 This module is a singularity container wrapper for bids/aa.

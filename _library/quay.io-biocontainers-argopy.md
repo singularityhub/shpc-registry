@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/argopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/argopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/argopy/container.yaml"
-updated_at: "2026-06-08 07:37:42.110281"
+updated_at: "2026-06-09 07:05:58.986444"
 latest: "0.1.15"
 container_url: "https://biocontainers.pro/tools/argopy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-clustermole"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-clustermole/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-clustermole/container.yaml"
-updated_at: "2026-06-08 07:15:57.133061"
+updated_at: "2026-06-09 06:42:43.049295"
 latest: "1.1.1--r45h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-clustermole"
 aliases:

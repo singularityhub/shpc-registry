@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-basicstarrseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basicstarrseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basicstarrseq/container.yaml"
-updated_at: "2026-06-08 07:31:56.749630"
+updated_at: "2026-06-09 06:59:32.006601"
 latest: "1.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basicstarrseq"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anansnake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anansnake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anansnake/container.yaml"
-updated_at: "2026-06-08 07:28:33.890422"
+updated_at: "2026-06-09 06:55:49.028527"
 latest: "0.1.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/anansnake"
 aliases:

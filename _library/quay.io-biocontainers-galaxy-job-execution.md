@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-job-execution"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-job-execution/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-job-execution/container.yaml"
-updated_at: "2026-06-08 07:23:48.134748"
+updated_at: "2026-06-09 06:50:51.724201"
 latest: "25.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-job-execution"
 aliases:

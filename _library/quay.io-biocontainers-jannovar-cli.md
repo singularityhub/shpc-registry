@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jannovar-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jannovar-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jannovar-cli/container.yaml"
-updated_at: "2026-06-08 07:21:27.984634"
+updated_at: "2026-06-09 06:48:25.840304"
 latest: "0.36--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jannovar-cli"
 aliases:

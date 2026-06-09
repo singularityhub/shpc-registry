@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyensembl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyensembl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyensembl/container.yaml"
-updated_at: "2026-06-08 07:09:26.203170"
+updated_at: "2026-06-09 06:35:55.699419"
 latest: "2.6.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyensembl"
 aliases:

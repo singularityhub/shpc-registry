@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mavenn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mavenn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mavenn/container.yaml"
-updated_at: "2026-06-08 06:57:30.194637"
+updated_at: "2026-06-09 06:23:41.003802"
 latest: "1.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mavenn"
 aliases:

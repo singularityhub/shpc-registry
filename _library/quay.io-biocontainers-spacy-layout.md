@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spacy-layout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spacy-layout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spacy-layout/container.yaml"
-updated_at: "2026-06-08 07:37:01.438144"
+updated_at: "2026-06-09 07:05:15.585465"
 latest: "0.0.12--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/spacy-layout"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sap/container.yaml"
-updated_at: "2026-06-08 07:37:38.442932"
+updated_at: "2026-06-09 07:05:55.032750"
 latest: "1.1.3--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/sap"
 aliases:

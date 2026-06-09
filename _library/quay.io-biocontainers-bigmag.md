@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigmag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigmag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigmag/container.yaml"
-updated_at: "2026-06-08 06:52:49.305091"
+updated_at: "2026-06-09 06:19:02.047300"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bigmag"
 aliases:

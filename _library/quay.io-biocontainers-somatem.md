@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/somatem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/somatem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/somatem/container.yaml"
-updated_at: "2026-06-08 06:53:29.135243"
+updated_at: "2026-06-09 06:19:42.703564"
 latest: "0.7.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/somatem"
 aliases:

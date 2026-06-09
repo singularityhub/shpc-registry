@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-quant-bins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-quant-bins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-quant-bins/container.yaml"
-updated_at: "2026-06-08 07:11:08.244914"
+updated_at: "2026-06-09 06:37:40.062721"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-quant-bins"
 aliases:

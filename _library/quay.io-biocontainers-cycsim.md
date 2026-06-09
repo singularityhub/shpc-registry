@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cycsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cycsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cycsim/container.yaml"
-updated_at: "2026-06-08 07:16:39.477641"
+updated_at: "2026-06-09 06:43:28.687956"
 latest: "1.0.4--h4eafe19_0"
 container_url: "https://biocontainers.pro/tools/cycsim"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nomnom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nomnom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nomnom/container.yaml"
-updated_at: "2026-06-08 07:25:46.046763"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-06-09 06:52:47.687107"
+latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nomnom"
 aliases:
  - "cat-numbers"
@@ -33,8 +33,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for nomnom"
-config: {"url": "https://biocontainers.pro/tools/nomnom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nomnom", "latest": {"0.1.0--pyhdfd78af_0": "sha256:835e71fefbaff52ded42e1384a2b3d7dd1bcc60325ba20e759d2112ee935cbd6"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:835e71fefbaff52ded42e1384a2b3d7dd1bcc60325ba20e759d2112ee935cbd6"}, "docker": "quay.io/biocontainers/nomnom", "aliases": {"cat-numbers": "/usr/local/bin/cat-numbers", "compact-json": "/usr/local/bin/compact-json", "csv2numbers": "/usr/local/bin/csv2numbers", "csv2ods": "/usr/local/bin/csv2ods", "mailodf": "/usr/local/bin/mailodf", "nomnom": "/usr/local/bin/nomnom", "odf2mht": "/usr/local/bin/odf2mht", "odf2xhtml": "/usr/local/bin/odf2xhtml", "odf2xml": "/usr/local/bin/odf2xml", "odfimgimport": "/usr/local/bin/odfimgimport", "odflint": "/usr/local/bin/odflint", "odfmeta": "/usr/local/bin/odfmeta", "odfoutline": "/usr/local/bin/odfoutline", "odfuserfield": "/usr/local/bin/odfuserfield", "unpack-numbers": "/usr/local/bin/unpack-numbers", "xml2odf": "/usr/local/bin/xml2odf", "runxlrd.py": "/usr/local/bin/runxlrd.py", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/nomnom", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nomnom", "latest": {"0.1.1--pyhdfd78af_0": "sha256:d4c59faea266fcdf6d6636926d05acae60a4eaddf4d37a02346d4e32b8ce9943"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:835e71fefbaff52ded42e1384a2b3d7dd1bcc60325ba20e759d2112ee935cbd6", "0.1.1--pyhdfd78af_0": "sha256:d4c59faea266fcdf6d6636926d05acae60a4eaddf4d37a02346d4e32b8ce9943"}, "docker": "quay.io/biocontainers/nomnom", "aliases": {"cat-numbers": "/usr/local/bin/cat-numbers", "compact-json": "/usr/local/bin/compact-json", "csv2numbers": "/usr/local/bin/csv2numbers", "csv2ods": "/usr/local/bin/csv2ods", "mailodf": "/usr/local/bin/mailodf", "nomnom": "/usr/local/bin/nomnom", "odf2mht": "/usr/local/bin/odf2mht", "odf2xhtml": "/usr/local/bin/odf2xhtml", "odf2xml": "/usr/local/bin/odf2xml", "odfimgimport": "/usr/local/bin/odfimgimport", "odflint": "/usr/local/bin/odflint", "odfmeta": "/usr/local/bin/odfmeta", "odfoutline": "/usr/local/bin/odfoutline", "odfuserfield": "/usr/local/bin/odfuserfield", "unpack-numbers": "/usr/local/bin/unpack-numbers", "xml2odf": "/usr/local/bin/xml2odf", "runxlrd.py": "/usr/local/bin/runxlrd.py", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nomnom.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/nomnom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nomnom:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nomnom:0.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nomnom/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/nomnom/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/nomnom/0.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/nomnom/0.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

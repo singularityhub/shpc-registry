@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/blue-crab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blue-crab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blue-crab/container.yaml"
-updated_at: "2026-06-08 07:31:53.504981"
+updated_at: "2026-06-09 06:59:28.468995"
 latest: "0.5.0--pyh05cac1d_0"
 container_url: "https://biocontainers.pro/tools/blue-crab"
 aliases:

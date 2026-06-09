@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mumemto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mumemto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mumemto/container.yaml"
-updated_at: "2026-06-08 07:11:27.334163"
+updated_at: "2026-06-09 06:37:59.544044"
 latest: "1.4.0--py310h8eb1b85_0"
 container_url: "https://biocontainers.pro/tools/mumemto"
 aliases:

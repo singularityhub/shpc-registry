@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/targqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/targqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/targqc/container.yaml"
-updated_at: "2026-06-08 06:51:08.179941"
+updated_at: "2026-06-09 06:17:16.956628"
 latest: "1.8.1--pyh5ca1d4c_1"
 container_url: "https://biocontainers.pro/tools/targqc"
 aliases:

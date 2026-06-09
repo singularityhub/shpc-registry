@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fgsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgsv/container.yaml"
-updated_at: "2026-06-08 07:13:25.384357"
+updated_at: "2026-06-09 06:40:02.411160"
 latest: "0.2.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fgsv"
 aliases:

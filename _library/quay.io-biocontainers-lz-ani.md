@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lz-ani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lz-ani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lz-ani/container.yaml"
-updated_at: "2026-06-08 07:05:04.809090"
+updated_at: "2026-06-09 06:31:28.993951"
 latest: "1.2.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/lz-ani"
 aliases:

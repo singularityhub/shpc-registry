@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bsaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bsaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bsaseq/container.yaml"
-updated_at: "2026-06-08 07:29:17.950219"
+updated_at: "2026-06-09 06:56:36.406140"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bsaseq"
 aliases:

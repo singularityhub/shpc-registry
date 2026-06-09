@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bionetstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bionetstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bionetstat/container.yaml"
-updated_at: "2026-06-08 07:33:03.512959"
+updated_at: "2026-06-09 07:00:45.126581"
 latest: "1.22.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bionetstat"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/thebigbam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thebigbam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/thebigbam/container.yaml"
-updated_at: "2026-06-08 07:20:56.302694"
-latest: "0.1.5--py313h79ce301_0"
+updated_at: "2026-06-09 06:47:52.910638"
+latest: "0.3.0--py313hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/thebigbam"
 aliases:
  - "bwa-mem2"
@@ -43,8 +43,9 @@ aliases:
  - "systematic-mutations"
 versions:
  - "0.1.5--py313h79ce301_0"
+ - "0.3.0--py313hec9b1f2_0"
 description: "singularity registry hpc automated addition for thebigbam"
-config: {"url": "https://biocontainers.pro/tools/thebigbam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for thebigbam", "latest": {"0.1.5--py313h79ce301_0": "sha256:a5a1e4e7586caefec56e18f6f71b048db38a4a55095769cbec6d27e7893ff8c7"}, "tags": {"0.1.5--py313h79ce301_0": "sha256:a5a1e4e7586caefec56e18f6f71b048db38a4a55095769cbec6d27e7893ff8c7"}, "docker": "quay.io/biocontainers/thebigbam", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "panel": "/usr/local/bin/panel", "thebigbam": "/usr/local/bin/thebigbam", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "ref-cache": "/usr/local/bin/ref-cache", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations"}}
+config: {"url": "https://biocontainers.pro/tools/thebigbam", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for thebigbam", "latest": {"0.3.0--py313hec9b1f2_0": "sha256:8b349100e64ebcf0c9e4cc7f16bc69c4591da837a9d158c9a207bf93151b378b"}, "tags": {"0.1.5--py313h79ce301_0": "sha256:a5a1e4e7586caefec56e18f6f71b048db38a4a55095769cbec6d27e7893ff8c7", "0.3.0--py313hec9b1f2_0": "sha256:8b349100e64ebcf0c9e4cc7f16bc69c4591da837a9d158c9a207bf93151b378b"}, "docker": "quay.io/biocontainers/thebigbam", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "panel": "/usr/local/bin/panel", "thebigbam": "/usr/local/bin/thebigbam", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "ref-cache": "/usr/local/bin/ref-cache", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/thebigbam.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/thebigbam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/thebigbam:0.1.5--py313h79ce301_0
+$ shpc install quay.io/biocontainers/thebigbam:0.3.0--py313hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/thebigbam/0.1.5--py313h79ce301_0
-$ module help quay.io/biocontainers/thebigbam/0.1.5--py313h79ce301_0
+$ module load quay.io/biocontainers/thebigbam/0.3.0--py313hec9b1f2_0
+$ module help quay.io/biocontainers/thebigbam/0.3.0--py313hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

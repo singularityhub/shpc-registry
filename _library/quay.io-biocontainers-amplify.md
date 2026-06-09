@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amplify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplify/container.yaml"
-updated_at: "2026-06-08 07:16:54.742562"
+updated_at: "2026-06-09 06:43:45.323091"
 latest: "2.0.1--py36hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/amplify"
 aliases:

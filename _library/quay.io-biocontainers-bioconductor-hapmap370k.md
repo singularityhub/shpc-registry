@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hapmap370k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hapmap370k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hapmap370k/container.yaml"
-updated_at: "2026-06-08 07:38:46.017091"
+updated_at: "2026-06-09 07:07:08.649754"
 latest: "1.0.1--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-hapmap370k"
 

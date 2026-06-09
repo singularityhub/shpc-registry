@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-factr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-factr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-factr/container.yaml"
-updated_at: "2026-06-08 07:00:54.806085"
+updated_at: "2026-06-09 06:27:09.705842"
 latest: "1.8.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-factr"
 aliases:

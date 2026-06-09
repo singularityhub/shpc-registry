@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/graphbin2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphbin2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/graphbin2/container.yaml"
-updated_at: "2026-06-08 06:48:28.359655"
-latest: "1.3.3--pyh7e72e81_0"
+updated_at: "2026-06-09 06:14:32.393477"
+latest: "1.3.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/graphbin2"
 aliases:
  - "graphbin2"
@@ -26,8 +26,9 @@ versions:
  - "1.3.1--pyh7e72e81_0"
  - "1.3.2--pyh7e72e81_0"
  - "1.3.3--pyh7e72e81_0"
+ - "1.3.3--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for graphbin2"
-config: {"url": "https://biocontainers.pro/tools/graphbin2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for graphbin2", "latest": {"1.3.3--pyh7e72e81_0": "sha256:54367647d8bd089d9c3a1532580ab66291f1ea1a4480f7da1b524396ac135d34"}, "tags": {"1.3.1--pyh7e72e81_0": "sha256:66ad8318e14b70e394f252374b8c1d5eb4efb8341509729adeaf8268db50b220", "1.3.2--pyh7e72e81_0": "sha256:2f21f93b1bc170015f3b1cc13898737f5c8fe10c091cac16dffc8f94d6d52f39", "1.3.3--pyh7e72e81_0": "sha256:54367647d8bd089d9c3a1532580ab66291f1ea1a4480f7da1b524396ac135d34"}, "docker": "quay.io/biocontainers/graphbin2", "aliases": {"graphbin2": "/usr/local/bin/graphbin2", "prepResult": "/usr/local/bin/prepResult", "pbr": "/usr/local/bin/pbr", "numpy-config": "/usr/local/bin/numpy-config", "igraph": "/usr/local/bin/igraph", "numba": "/usr/local/bin/numba", "glpsol": "/usr/local/bin/glpsol", "chardetect": "/usr/local/bin/chardetect", "tqdm": "/usr/local/bin/tqdm", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/graphbin2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for graphbin2", "latest": {"1.3.3--pyhdfd78af_1": "sha256:d8adf7e6d31151d0171edfee8e34f5417227daac739c92154d2a5f3e17512f2d"}, "tags": {"1.3.1--pyh7e72e81_0": "sha256:66ad8318e14b70e394f252374b8c1d5eb4efb8341509729adeaf8268db50b220", "1.3.2--pyh7e72e81_0": "sha256:2f21f93b1bc170015f3b1cc13898737f5c8fe10c091cac16dffc8f94d6d52f39", "1.3.3--pyh7e72e81_0": "sha256:54367647d8bd089d9c3a1532580ab66291f1ea1a4480f7da1b524396ac135d34", "1.3.3--pyhdfd78af_1": "sha256:d8adf7e6d31151d0171edfee8e34f5417227daac739c92154d2a5f3e17512f2d"}, "docker": "quay.io/biocontainers/graphbin2", "aliases": {"graphbin2": "/usr/local/bin/graphbin2", "prepResult": "/usr/local/bin/prepResult", "pbr": "/usr/local/bin/pbr", "numpy-config": "/usr/local/bin/numpy-config", "igraph": "/usr/local/bin/igraph", "numba": "/usr/local/bin/numba", "glpsol": "/usr/local/bin/glpsol", "chardetect": "/usr/local/bin/chardetect", "tqdm": "/usr/local/bin/tqdm", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphbin2.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/graphbin2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/graphbin2:1.3.3--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/graphbin2:1.3.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/graphbin2/1.3.3--pyh7e72e81_0
-$ module help quay.io/biocontainers/graphbin2/1.3.3--pyh7e72e81_0
+$ module load quay.io/biocontainers/graphbin2/1.3.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/graphbin2/1.3.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

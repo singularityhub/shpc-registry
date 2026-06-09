@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annapotater"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annapotater/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annapotater/container.yaml"
-updated_at: "2026-06-08 06:50:26.897871"
+updated_at: "2026-06-09 06:16:33.945228"
 latest: "0.7.3--pl5321hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/annapotater"
 aliases:

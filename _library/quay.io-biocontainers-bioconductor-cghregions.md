@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cghregions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cghregions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cghregions/container.yaml"
-updated_at: "2026-06-08 06:51:51.925227"
+updated_at: "2026-06-09 06:18:02.987542"
 latest: "1.68.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cghregions"
 

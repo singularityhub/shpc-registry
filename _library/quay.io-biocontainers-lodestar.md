@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lodestar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lodestar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lodestar/container.yaml"
-updated_at: "2026-06-08 07:11:50.403829"
+updated_at: "2026-06-09 06:38:23.034695"
 latest: "1.0.0--hf03da3d_0"
 container_url: "https://biocontainers.pro/tools/lodestar"
 aliases:

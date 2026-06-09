@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mu11ksubbprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mu11ksubbprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mu11ksubbprobe/container.yaml"
-updated_at: "2026-06-08 07:14:55.891011"
+updated_at: "2026-06-09 06:41:38.067998"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-mu11ksubbprobe"
 
