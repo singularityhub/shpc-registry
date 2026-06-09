@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/carpedeam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/carpedeam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/carpedeam/container.yaml"
-updated_at: "2026-06-09 06:21:03.106874"
+updated_at: "2026-06-09 08:25:25.931953"
 latest: "1.0.1--hd6d6fdc_0"
 container_url: "https://biocontainers.pro/tools/carpedeam"
 aliases:

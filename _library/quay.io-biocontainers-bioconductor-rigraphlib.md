@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rigraphlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rigraphlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rigraphlib/container.yaml"
-updated_at: "2026-06-09 06:15:53.207049"
+updated_at: "2026-06-09 08:19:58.292668"
 latest: "1.2.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rigraphlib"
 aliases:
