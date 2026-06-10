@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spectraltad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spectraltad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spectraltad/container.yaml"
-updated_at: "2026-06-09 09:01:46.844506"
+updated_at: "2026-06-10 07:11:45.470408"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spectraltad"
 aliases:

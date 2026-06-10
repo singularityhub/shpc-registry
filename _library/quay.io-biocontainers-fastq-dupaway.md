@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-dupaway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-dupaway/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-dupaway/container.yaml"
-updated_at: "2026-06-09 09:08:53.791170"
+updated_at: "2026-06-10 07:19:05.524498"
 latest: "1.5.1--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/fastq-dupaway"
 aliases:

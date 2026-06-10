@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kanpig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kanpig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kanpig/container.yaml"
-updated_at: "2026-06-09 08:50:19.749153"
+updated_at: "2026-06-10 07:00:10.697695"
 latest: "2.0.2--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/kanpig"
 aliases:

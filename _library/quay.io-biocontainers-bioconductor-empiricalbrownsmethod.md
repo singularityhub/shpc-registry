@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-empiricalbrownsmethod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-empiricalbrownsmethod/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-empiricalbrownsmethod/container.yaml"
-updated_at: "2026-06-09 08:40:07.800506"
+updated_at: "2026-06-10 06:50:00.373702"
 latest: "1.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-empiricalbrownsmethod"
 aliases:

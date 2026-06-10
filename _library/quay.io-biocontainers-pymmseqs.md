@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymmseqs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymmseqs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymmseqs/container.yaml"
-updated_at: "2026-06-09 08:33:10.342871"
+updated_at: "2026-06-10 06:43:11.451647"
 latest: "1.0.7--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/pymmseqs"
 aliases:

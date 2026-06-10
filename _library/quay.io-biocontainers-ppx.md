@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ppx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ppx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ppx/container.yaml"
-updated_at: "2026-06-09 08:31:45.030889"
+updated_at: "2026-06-10 06:41:49.018527"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ppx"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pgscatalog.core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pgscatalog.core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pgscatalog.core/container.yaml"
-updated_at: "2026-06-09 08:23:56.637653"
+updated_at: "2026-06-10 06:34:02.957751"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pgscatalog.core"
 aliases:

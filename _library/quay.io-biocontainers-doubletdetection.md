@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/doubletdetection"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/doubletdetection/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/doubletdetection/container.yaml"
-updated_at: "2026-06-09 08:33:58.622418"
+updated_at: "2026-06-10 06:43:57.973147"
 latest: "4.3.0.post1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/doubletdetection"
 aliases:

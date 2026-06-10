@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vamos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vamos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vamos/container.yaml"
-updated_at: "2026-06-09 08:24:44.605606"
+updated_at: "2026-06-10 06:34:48.830017"
 latest: "1.3.6--hd7d8470_0"
 container_url: "https://biocontainers.pro/tools/vamos"
 aliases:

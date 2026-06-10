@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gxf2chrom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gxf2chrom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gxf2chrom/container.yaml"
-updated_at: "2026-06-09 09:11:07.528993"
+updated_at: "2026-06-10 07:21:21.566780"
 latest: "0.1.0--h9948957_1"
 container_url: "https://biocontainers.pro/tools/gxf2chrom"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-snowfall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-snowfall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-snowfall/container.yaml"
-updated_at: "2026-06-09 08:56:00.776541"
+updated_at: "2026-06-10 07:05:55.139888"
 latest: "1.84_6.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-snowfall"
 aliases:

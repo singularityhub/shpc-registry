@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zebrafishrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zebrafishrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zebrafishrnaseq/container.yaml"
-updated_at: "2026-06-09 08:19:00.638306"
+updated_at: "2026-06-10 06:29:29.070969"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zebrafishrnaseq"
 aliases:

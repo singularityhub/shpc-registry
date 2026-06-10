@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-mixin-linewise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mixin-linewise/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mixin-linewise/container.yaml"
-updated_at: "2026-06-09 09:06:32.416065"
+updated_at: "2026-06-10 07:16:44.004232"
 latest: "0.111--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-mixin-linewise"
 aliases:

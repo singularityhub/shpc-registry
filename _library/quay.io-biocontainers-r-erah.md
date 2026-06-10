@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-erah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-erah/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-erah/container.yaml"
-updated_at: "2026-06-09 08:19:12.730053"
+updated_at: "2026-06-10 06:29:40.206149"
 latest: "2.2.0--r44h40dc89f_0"
 container_url: "https://biocontainers.pro/tools/r-erah"
 aliases:
