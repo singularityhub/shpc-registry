@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/duphist
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for duphist
 latest:
-  1.1.2--hdfd78af_0: 
-    sha256:08b426c73c04acd749953fbb2c387f91a4f56ac6334ec42a0dbca37d410f0e8c
+  1.1.4--hdfd78af_0: 
+    sha256:cd81a1b16320a8c574d4bb852b8568c96ae56ede99c89e546ee32762382582f9
 tags:
   1.0.0--hdfd78af_0: 
     sha256:ac9b9434fb41ba6925387a99c6c1397917e60efa56f74c3bd3b888378a8beec2
@@ -11,6 +11,8 @@ tags:
     sha256:e5320e0a8987bd02ea970f26d4b152a8514b600bd6a668b043a2b15e00bcbc5b
   1.1.2--hdfd78af_0: 
     sha256:08b426c73c04acd749953fbb2c387f91a4f56ac6334ec42a0dbca37d410f0e8c
+  1.1.4--hdfd78af_0: 
+    sha256:cd81a1b16320a8c574d4bb852b8568c96ae56ede99c89e546ee32762382582f9
 docker: quay.io/biocontainers/duphist
 aliases:
   duphist: /usr/local/bin/duphist

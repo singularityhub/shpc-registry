@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/beast-pype
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for beast-pype
 latest:
-  0.5.1--pyhdfd78af_0: 
-    sha256:594a675c56bdf5df3e9e0ff5b3d37bcdc22edb1f13b75b84ecf5e7d2703648e4
+  0.5.1--pyhdfd78af_1: 
+    sha256:890f6c89ad750aceaff4bf06b8790f5d7f6c57b5b66b45d4d93b7895d5bc86e8
 tags:
   0.2.2--pyhdfd78af_0: 
     sha256:2570dbb9904545a700ba45ce03e87d97b8a4656adaca9fea999a900b8fa84e54
@@ -17,6 +17,8 @@ tags:
     sha256:b1f552e9d19dcaf07c283acb6dca952175b7bd279b34f57e59aa838074fefc90
   0.3.2--pyhdfd78af_1: 
     sha256:058ef5cac0317a92d0b4828f8ac8d6faba862999ffd122a2219467c18b845468
+  0.5.1--pyhdfd78af_1: 
+    sha256:890f6c89ad750aceaff4bf06b8790f5d7f6c57b5b66b45d4d93b7895d5bc86e8
 docker: quay.io/biocontainers/beast-pype
 aliases:
   aa-compare.py: /usr/local/bin/aa-compare.py

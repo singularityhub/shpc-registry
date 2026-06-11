@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/refseq2cds
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for refseq2cds
 latest:
-  0.1.4--pyhdfd78af_0: 
-    sha256:d78b68f7c8140bdcf7edb6e9cff6dc4aa8c7dc6832d1304a9b676c939c61fc1a
+  0.1.5--pyhdfd78af_0: 
+    sha256:2cfcf646cb693d8c6d5baf00e7b4f4e7a2811722e286d3a064672d19c10e653e
 tags:
   0.1.4--pyhdfd78af_0: 
     sha256:d78b68f7c8140bdcf7edb6e9cff6dc4aa8c7dc6832d1304a9b676c939c61fc1a
+  0.1.5--pyhdfd78af_0: 
+    sha256:2cfcf646cb693d8c6d5baf00e7b4f4e7a2811722e286d3a064672d19c10e653e
 docker: quay.io/biocontainers/refseq2cds
 aliases:
   gawk-5.4.0: /usr/local/bin/gawk-5.4.0
