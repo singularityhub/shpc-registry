@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/superstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/superstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/superstr/container.yaml"
-updated_at: "2026-06-11 07:40:37.229173"
+updated_at: "2026-06-11 16:23:28.157783"
 latest: "1.0.1--h86fab0c_5"
 container_url: "https://biocontainers.pro/tools/superstr"
 aliases:

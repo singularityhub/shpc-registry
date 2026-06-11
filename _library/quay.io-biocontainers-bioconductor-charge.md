@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-charge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-charge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-charge/container.yaml"
-updated_at: "2026-06-11 06:54:40.225940"
+updated_at: "2026-06-11 15:52:57.427236"
 latest: "1.7.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-charge"
 aliases:

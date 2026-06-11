@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtdb-gtranslate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtdb-gtranslate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtdb-gtranslate/container.yaml"
-updated_at: "2026-06-11 06:54:57.351710"
+updated_at: "2026-06-11 16:17:23.129283"
 latest: "0.0.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/gtdb-gtranslate"
 aliases:

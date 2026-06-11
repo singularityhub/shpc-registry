@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ldsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ldsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ldsr/container.yaml"
-updated_at: "2026-06-11 07:25:20.969314"
+updated_at: "2026-06-11 15:52:20.756714"
 latest: "0.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-ldsr"
 aliases:
