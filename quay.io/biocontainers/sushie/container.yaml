@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/sushie
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sushie
+latest:
+  0.19--pyhdfd78af_0: 
+    sha256:cd654851795bbe0c158eab44668abf8b83763cd7de54d0382ae7e926ef7d4075
+tags:
+  0.19--pyhdfd78af_0: 
+    sha256:cd654851795bbe0c158eab44668abf8b83763cd7de54d0382ae7e926ef7d4075
+docker: quay.io/biocontainers/sushie
+aliases:
+  idna: /usr/local/bin/idna
+  sushie: /usr/local/bin/sushie
+  protoc-29.3.0: /usr/local/bin/protoc-29.3.0
+  protoc-gen-upb-29.3.0: /usr/local/bin/protoc-gen-upb-29.3.0
+  protoc-gen-upb_minitable-29.3.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-29.3.0
+  protoc-gen-upbdefs-29.3.0: /usr/local/bin/protoc-gen-upbdefs-29.3.0
+  cyvcf2: /usr/local/bin/cyvcf2
+  dask: /usr/local/bin/dask
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  h2benchmark: /usr/local/bin/h2benchmark
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  elastishadow: /usr/local/bin/elastishadow
+  checksum-profile: /usr/local/bin/checksum-profile
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  bokeh: /usr/local/bin/bokeh
+  ref-cache: /usr/local/bin/ref-cache
+  coloredlogs: /usr/local/bin/coloredlogs
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import

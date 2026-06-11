@@ -1,0 +1,49 @@
+url: https://biocontainers.pro/tools/pantax-dbg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pantax-dbg
+latest:
+  0.1.0--py312hc5ce804_0: 
+    sha256:1ea37bcaf43a2f6baf2094aabdd8e4e01b5b90435d87b09c878bb2ef5d14f0a8
+tags:
+  0.1.0--py312hc5ce804_0: 
+    sha256:1ea37bcaf43a2f6baf2094aabdd8e4e01b5b90435d87b09c878bb2ef5d14f0a8
+docker: quay.io/biocontainers/pantax-dbg
+aliases:
+  find: /usr/local/bin/find
+  ganon-get-seq-info.sh: /usr/local/bin/ganon-get-seq-info.sh
+  genome_updater.sh: /usr/local/bin/genome_updater.sh
+  locate: /usr/local/bin/locate
+  pantax-dbg: /usr/local/bin/pantax-dbg
+  raptor: /usr/local/bin/raptor
+  raptor_avx2: /usr/local/bin/raptor_avx2
+  raptor_avx512: /usr/local/bin/raptor_avx512
+  raptor_none: /usr/local/bin/raptor_none
+  raptor_sse2: /usr/local/bin/raptor_sse2
+  raptor_sse4.2: /usr/local/bin/raptor_sse4.2
+  updatedb: /usr/local/bin/updatedb
+  xargs: /usr/local/bin/xargs
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  zless: /usr/local/bin/zless
+  bc: /usr/local/bin/bc
+  dc: /usr/local/bin/dc
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep
+  zfgrep: /usr/local/bin/zfgrep
+  zforce: /usr/local/bin/zforce
+  zgrep: /usr/local/bin/zgrep
+  zmore: /usr/local/bin/zmore
+  znew: /usr/local/bin/znew
+  fastp: /usr/local/bin/fastp
+  tar: /usr/local/bin/tar
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  gawkbug: /usr/local/bin/gawkbug
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
