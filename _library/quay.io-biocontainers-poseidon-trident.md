@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/poseidon-trident"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poseidon-trident/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poseidon-trident/container.yaml"
-updated_at: "2026-06-10 06:47:55.353771"
+updated_at: "2026-06-11 07:22:48.290164"
 latest: "1.6.7.1--hebebf5b_1"
 container_url: "https://biocontainers.pro/tools/poseidon-trident"
 aliases:

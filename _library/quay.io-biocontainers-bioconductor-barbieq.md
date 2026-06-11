@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-barbieq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-barbieq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-barbieq/container.yaml"
-updated_at: "2026-06-10 06:46:58.341720"
+updated_at: "2026-06-11 07:17:11.733894"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-barbieq"
 aliases:

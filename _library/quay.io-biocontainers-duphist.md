@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/duphist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duphist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/duphist/container.yaml"
-updated_at: "2026-06-10 06:44:33.982624"
-latest: "1.1.2--hdfd78af_0"
+updated_at: "2026-06-11 07:19:41.319723"
+latest: "1.1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/duphist"
 aliases:
  - "duphist"
@@ -17,8 +17,9 @@ versions:
  - "1.0.0--hdfd78af_0"
  - "1.0.9--hdfd78af_0"
  - "1.1.2--hdfd78af_0"
+ - "1.1.4--hdfd78af_0"
 description: "singularity registry hpc automated addition for duphist"
-config: {"url": "https://biocontainers.pro/tools/duphist", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for duphist", "latest": {"1.1.2--hdfd78af_0": "sha256:08b426c73c04acd749953fbb2c387f91a4f56ac6334ec42a0dbca37d410f0e8c"}, "tags": {"1.0.0--hdfd78af_0": "sha256:ac9b9434fb41ba6925387a99c6c1397917e60efa56f74c3bd3b888378a8beec2", "1.0.9--hdfd78af_0": "sha256:e5320e0a8987bd02ea970f26d4b152a8514b600bd6a668b043a2b15e00bcbc5b", "1.1.2--hdfd78af_0": "sha256:08b426c73c04acd749953fbb2c387f91a4f56ac6334ec42a0dbca37d410f0e8c"}, "docker": "quay.io/biocontainers/duphist", "aliases": {"duphist": "/usr/local/bin/duphist", "prank": "/usr/local/bin/prank", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/duphist", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for duphist", "latest": {"1.1.4--hdfd78af_0": "sha256:cd81a1b16320a8c574d4bb852b8568c96ae56ede99c89e546ee32762382582f9"}, "tags": {"1.0.0--hdfd78af_0": "sha256:ac9b9434fb41ba6925387a99c6c1397917e60efa56f74c3bd3b888378a8beec2", "1.0.9--hdfd78af_0": "sha256:e5320e0a8987bd02ea970f26d4b152a8514b600bd6a668b043a2b15e00bcbc5b", "1.1.2--hdfd78af_0": "sha256:08b426c73c04acd749953fbb2c387f91a4f56ac6334ec42a0dbca37d410f0e8c", "1.1.4--hdfd78af_0": "sha256:cd81a1b16320a8c574d4bb852b8568c96ae56ede99c89e546ee32762382582f9"}, "docker": "quay.io/biocontainers/duphist", "aliases": {"duphist": "/usr/local/bin/duphist", "prank": "/usr/local/bin/prank", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/duphist.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/duphist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/duphist:1.1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/duphist:1.1.4--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/duphist/1.1.2--hdfd78af_0
-$ module help quay.io/biocontainers/duphist/1.1.2--hdfd78af_0
+$ module load quay.io/biocontainers/duphist/1.1.4--hdfd78af_0
+$ module help quay.io/biocontainers/duphist/1.1.4--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

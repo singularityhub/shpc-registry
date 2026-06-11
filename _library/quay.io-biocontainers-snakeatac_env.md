@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakeatac_env"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakeatac_env/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakeatac_env/container.yaml"
-updated_at: "2026-06-10 07:13:26.853837"
+updated_at: "2026-06-11 06:58:27.456555"
 latest: "0.1.1--pyha70a07d_0"
 container_url: "https://biocontainers.pro/tools/snakeatac_env"
 aliases:

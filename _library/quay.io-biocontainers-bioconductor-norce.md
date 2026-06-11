@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-norce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-norce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-norce/container.yaml"
-updated_at: "2026-06-10 06:51:12.705476"
+updated_at: "2026-06-11 06:53:11.311368"
 latest: "1.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-norce"
 

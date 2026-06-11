@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-finfomds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-finfomds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-finfomds/container.yaml"
-updated_at: "2026-06-10 07:21:06.607357"
+updated_at: "2026-06-11 07:20:15.218666"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-finfomds"
 aliases:

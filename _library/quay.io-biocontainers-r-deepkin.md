@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-deepkin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-deepkin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-deepkin/container.yaml"
-updated_at: "2026-06-10 06:31:29.371534"
+updated_at: "2026-06-11 07:03:08.720924"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-deepkin"
 aliases:

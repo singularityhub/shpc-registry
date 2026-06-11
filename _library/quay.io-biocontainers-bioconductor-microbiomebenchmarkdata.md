@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-microbiomebenchmarkdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiomebenchmarkdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiomebenchmarkdata/container.yaml"
-updated_at: "2026-06-10 07:18:21.916174"
+updated_at: "2026-06-11 07:01:21.563724"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiomebenchmarkdata"
 aliases:

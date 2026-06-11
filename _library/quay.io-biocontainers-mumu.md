@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mumu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mumu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mumu/container.yaml"
-updated_at: "2026-06-10 06:57:40.084969"
+updated_at: "2026-06-11 07:36:13.221354"
 latest: "1.1.4--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/mumu"
 aliases:
