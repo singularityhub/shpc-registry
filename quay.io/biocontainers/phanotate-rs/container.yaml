@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/phanotate-rs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for phanotate-rs
+latest:
+  0.1.2--hfa8f182_0: 
+    sha256:90b48d226487db6ccf58d549673ed5c7cc68f64e96d1695d3b785578894106c8
+tags:
+  0.1.2--hfa8f182_0: 
+    sha256:90b48d226487db6ccf58d549673ed5c7cc68f64e96d1695d3b785578894106c8
+docker: quay.io/biocontainers/phanotate-rs
+aliases:
+  phanotate-rs: /usr/local/bin/phanotate-rs

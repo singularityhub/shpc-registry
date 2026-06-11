@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/leafcutter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for leafcutter
+latest:
+  2.0.2--pyhd8ed1ab_0: 
+    sha256:ab5cd36700a79b371129563e9b874f6830d7c989b44a650c584e78ba281d58ae
+tags:
+  2.0.2--pyhd8ed1ab_0: 
+    sha256:ab5cd36700a79b371129563e9b874f6830d7c989b44a650c584e78ba281d58ae
+docker: quay.io/biocontainers/leafcutter
+aliases:
+  leafcutter-bayes: /usr/local/bin/leafcutter-bayes
+  leafcutter-cluster: /usr/local/bin/leafcutter-cluster
+  leafcutter-ds: /usr/local/bin/leafcutter-ds
+  leafcutter-gtf-to-exons: /usr/local/bin/leafcutter-gtf-to-exons
+  leafcutter-prepare-phenotype: /usr/local/bin/leafcutter-prepare-phenotype
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  pybind11-config: /usr/local/bin/pybind11-config
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
