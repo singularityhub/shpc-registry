@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-wisp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-wisp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-wisp/container.yaml"
-updated_at: "2026-06-11 16:30:52.190554"
-latest: "1.2--hdfd78af_0"
+updated_at: "2026-06-12 07:30:04.454967"
+latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-wisp"
 aliases:
  - "wisp"
@@ -36,8 +36,9 @@ aliases:
  - "javap"
 versions:
  - "1.2--hdfd78af_0"
+ - "1.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-wisp"
-config: {"url": "https://biocontainers.pro/tools/hmftools-wisp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-wisp", "latest": {"1.2--hdfd78af_0": "sha256:e89cac0f7a63b3f5ce46bc7c7eaf2cb3efb3003ee94ca9286363b990682428cb"}, "tags": {"1.2--hdfd78af_0": "sha256:e89cac0f7a63b3f5ce46bc7c7eaf2cb3efb3003ee94ca9286363b990682428cb"}, "docker": "quay.io/biocontainers/hmftools-wisp", "aliases": {"wisp": "/usr/local/bin/wisp", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "jwebserver": "/usr/local/bin/jwebserver", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "pandoc": "/usr/local/bin/pandoc", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-wisp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-wisp", "latest": {"1.3--hdfd78af_0": "sha256:a7f7a4d793d416bd8668c5792eb9863fe6c048c0c41704027c8ec8435986d770"}, "tags": {"1.2--hdfd78af_0": "sha256:e89cac0f7a63b3f5ce46bc7c7eaf2cb3efb3003ee94ca9286363b990682428cb", "1.3--hdfd78af_0": "sha256:a7f7a4d793d416bd8668c5792eb9863fe6c048c0c41704027c8ec8435986d770"}, "docker": "quay.io/biocontainers/hmftools-wisp", "aliases": {"wisp": "/usr/local/bin/wisp", "pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "jwebserver": "/usr/local/bin/jwebserver", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "pandoc": "/usr/local/bin/pandoc", "jfr": "/usr/local/bin/jfr", "hb-info": "/usr/local/bin/hb-info", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-wisp.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/hmftools-wisp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-wisp:1.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-wisp:1.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-wisp/1.2--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-wisp/1.2--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-wisp/1.3--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-wisp/1.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

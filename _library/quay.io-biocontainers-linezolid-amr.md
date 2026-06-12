@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/linezolid-amr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linezolid-amr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linezolid-amr/container.yaml"
-updated_at: "2026-06-11 16:14:55.050460"
+updated_at: "2026-06-12 07:37:26.840018"
 latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/linezolid-amr"
 aliases:

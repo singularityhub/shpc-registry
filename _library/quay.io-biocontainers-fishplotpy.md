@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fishplotpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fishplotpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fishplotpy/container.yaml"
-updated_at: "2026-06-11 16:40:21.637987"
-latest: "1.0.0--pyh7e72e81_0"
+updated_at: "2026-06-12 07:18:03.649664"
+latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fishplotpy"
 aliases:
  - "qconvex"
@@ -30,8 +30,9 @@ aliases:
  - "opj_dump"
 versions:
  - "1.0.0--pyh7e72e81_0"
+ - "1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for fishplotpy"
-config: {"url": "https://biocontainers.pro/tools/fishplotpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fishplotpy", "latest": {"1.0.0--pyh7e72e81_0": "sha256:7b0e531d1f927e31a5709996248ccb9b3817d57e31831e5b6e9c1a30dce425ac"}, "tags": {"1.0.0--pyh7e72e81_0": "sha256:7b0e531d1f927e31a5709996248ccb9b3817d57e31831e5b6e9c1a30dce425ac"}, "docker": "quay.io/biocontainers/fishplotpy", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/fishplotpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fishplotpy", "latest": {"1.1--pyhdfd78af_0": "sha256:bc4a9778b0c6d9360ef9c9dec01b7f81151b66d75e73bb8158efd5878974f2c6"}, "tags": {"1.0.0--pyh7e72e81_0": "sha256:7b0e531d1f927e31a5709996248ccb9b3817d57e31831e5b6e9c1a30dce425ac", "1.1--pyhdfd78af_0": "sha256:bc4a9778b0c6d9360ef9c9dec01b7f81151b66d75e73bb8158efd5878974f2c6"}, "docker": "quay.io/biocontainers/fishplotpy", "aliases": {"qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fishplotpy.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/fishplotpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fishplotpy:1.0.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/fishplotpy:1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fishplotpy/1.0.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/fishplotpy/1.0.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/fishplotpy/1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/fishplotpy/1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

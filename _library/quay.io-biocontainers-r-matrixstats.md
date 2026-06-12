@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-matrixstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-matrixstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-matrixstats/container.yaml"
-updated_at: "2026-06-11 16:01:31.302628"
+updated_at: "2026-06-12 07:31:31.098650"
 latest: "0.51.0--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-matrixstats"
 aliases:

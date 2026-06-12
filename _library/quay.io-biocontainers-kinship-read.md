@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kinship-read"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kinship-read/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kinship-read/container.yaml"
-updated_at: "2026-06-11 16:33:20.011477"
+updated_at: "2026-06-12 07:37:18.112297"
 latest: "2.1.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/kinship-read"
 aliases:

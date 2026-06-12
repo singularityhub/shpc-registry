@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cnvfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnvfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnvfilter/container.yaml"
-updated_at: "2026-06-11 16:10:59.807045"
+updated_at: "2026-06-12 07:30:32.050236"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnvfilter"
 

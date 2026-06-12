@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/synth-pdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synth-pdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synth-pdb/container.yaml"
-updated_at: "2026-06-11 16:03:20.990947"
-latest: "1.36.0--pyhdfd78af_0"
+updated_at: "2026-06-12 07:28:47.080552"
+latest: "1.38.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/synth-pdb"
 aliases:
  - "synth-pdb"
@@ -24,8 +24,10 @@ versions:
  - "1.36.0--pyhdfd78af_0"
  - "1.34.2--pyhdfd78af_0"
  - "1.30.0--pyhdfd78af_0"
+ - "1.38.1--pyhdfd78af_0"
+ - "1.37.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for synth-pdb"
-config: {"url": "https://biocontainers.pro/tools/synth-pdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for synth-pdb", "latest": {"1.36.0--pyhdfd78af_0": "sha256:d73ff47312f02c7906cf07ead6c10b7e19a95ec0308d247f70060d94b11ee28d"}, "tags": {"1.16.0--pyhdfd78af_0": "sha256:73800666cce77bbb094fa9b883a91b1625880696582f48ae101b55571d74d46d", "1.28.0--pyhdfd78af_0": "sha256:9b1de568741777d54ee14f7ce17412a2a88a249f74c7b390a2fb0b2dda99ae11", "1.27.0--pyhdfd78af_0": "sha256:cefc01e8d7a6aedb887c536b407d8ce3d2fd48cb56389cf958e88d35264eed55", "1.25.0--pyhdfd78af_0": "sha256:f853d8d7c86050c901b72bf3a4f5a1fb14e7aad61fa7decd51c6d7eb664daf17", "1.36.0--pyhdfd78af_0": "sha256:d73ff47312f02c7906cf07ead6c10b7e19a95ec0308d247f70060d94b11ee28d", "1.34.2--pyhdfd78af_0": "sha256:4e03c9cef4d82b69d9d7791e16fb8618297c2e5e5d80ce18b1035479014b0b82", "1.30.0--pyhdfd78af_0": "sha256:4eac0300334070ff40d1b3b81ffafd90d780162a1c854712eb35ac2c221bb07c"}, "docker": "quay.io/biocontainers/synth-pdb", "aliases": {"synth-pdb": "/usr/local/bin/synth-pdb", "cllayerinfo": "/usr/local/bin/cllayerinfo", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/synth-pdb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for synth-pdb", "latest": {"1.38.1--pyhdfd78af_0": "sha256:73126dd4c48180900f28e77f2fcf7bea336a51be9915276b5ca5ac481f75a0b8"}, "tags": {"1.16.0--pyhdfd78af_0": "sha256:73800666cce77bbb094fa9b883a91b1625880696582f48ae101b55571d74d46d", "1.28.0--pyhdfd78af_0": "sha256:9b1de568741777d54ee14f7ce17412a2a88a249f74c7b390a2fb0b2dda99ae11", "1.27.0--pyhdfd78af_0": "sha256:cefc01e8d7a6aedb887c536b407d8ce3d2fd48cb56389cf958e88d35264eed55", "1.25.0--pyhdfd78af_0": "sha256:f853d8d7c86050c901b72bf3a4f5a1fb14e7aad61fa7decd51c6d7eb664daf17", "1.36.0--pyhdfd78af_0": "sha256:d73ff47312f02c7906cf07ead6c10b7e19a95ec0308d247f70060d94b11ee28d", "1.34.2--pyhdfd78af_0": "sha256:4e03c9cef4d82b69d9d7791e16fb8618297c2e5e5d80ce18b1035479014b0b82", "1.30.0--pyhdfd78af_0": "sha256:4eac0300334070ff40d1b3b81ffafd90d780162a1c854712eb35ac2c221bb07c", "1.38.1--pyhdfd78af_0": "sha256:73126dd4c48180900f28e77f2fcf7bea336a51be9915276b5ca5ac481f75a0b8", "1.37.1--pyhdfd78af_0": "sha256:c35ce0e765fb74b47936a7d1b451ad583195f4f995b5a498aa199c45ae0063de"}, "docker": "quay.io/biocontainers/synth-pdb", "aliases": {"synth-pdb": "/usr/local/bin/synth-pdb", "cllayerinfo": "/usr/local/bin/cllayerinfo", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/synth-pdb.
@@ -40,7 +42,7 @@ $ shpc install quay.io/biocontainers/synth-pdb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/synth-pdb:1.36.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/synth-pdb:1.38.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/synth-pdb/1.36.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/synth-pdb/1.36.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/synth-pdb/1.38.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/synth-pdb/1.38.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

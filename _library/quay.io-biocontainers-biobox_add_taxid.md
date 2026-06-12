@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobox_add_taxid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobox_add_taxid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobox_add_taxid/container.yaml"
-updated_at: "2026-06-11 15:58:14.147469"
+updated_at: "2026-06-12 07:29:04.409648"
 latest: "1.2--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/biobox_add_taxid"
 aliases:

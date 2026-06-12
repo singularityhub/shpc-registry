@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mft-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mft-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mft-tools/container.yaml"
-updated_at: "2026-06-11 15:53:02.401706"
-latest: "0.1.0--hab7d0fd_0"
+updated_at: "2026-06-12 07:26:01.208152"
+latest: "0.1.1--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/mft-tools"
 aliases:
  - "mft"
 versions:
  - "0.1.0--hab7d0fd_0"
+ - "0.1.1--hab7d0fd_0"
 description: "singularity registry hpc automated addition for mft-tools"
-config: {"url": "https://biocontainers.pro/tools/mft-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mft-tools", "latest": {"0.1.0--hab7d0fd_0": "sha256:ed58b3e2cbfab2ff4735797c3399e23d48fe07988c205a6ad47430b47309cc47"}, "tags": {"0.1.0--hab7d0fd_0": "sha256:ed58b3e2cbfab2ff4735797c3399e23d48fe07988c205a6ad47430b47309cc47"}, "docker": "quay.io/biocontainers/mft-tools", "aliases": {"mft": "/usr/local/bin/mft"}}
+config: {"url": "https://biocontainers.pro/tools/mft-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mft-tools", "latest": {"0.1.1--hab7d0fd_0": "sha256:df899efa62a147b8a713c8f58a772e23649c51018d66b7868664d9d19e2bd598"}, "tags": {"0.1.0--hab7d0fd_0": "sha256:ed58b3e2cbfab2ff4735797c3399e23d48fe07988c205a6ad47430b47309cc47", "0.1.1--hab7d0fd_0": "sha256:df899efa62a147b8a713c8f58a772e23649c51018d66b7868664d9d19e2bd598"}, "docker": "quay.io/biocontainers/mft-tools", "aliases": {"mft": "/usr/local/bin/mft"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mft-tools.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mft-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mft-tools:0.1.0--hab7d0fd_0
+$ shpc install quay.io/biocontainers/mft-tools:0.1.1--hab7d0fd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mft-tools/0.1.0--hab7d0fd_0
-$ module help quay.io/biocontainers/mft-tools/0.1.0--hab7d0fd_0
+$ module load quay.io/biocontainers/mft-tools/0.1.1--hab7d0fd_0
+$ module help quay.io/biocontainers/mft-tools/0.1.1--hab7d0fd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
