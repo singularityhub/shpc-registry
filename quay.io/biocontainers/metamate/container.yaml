@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/metamate
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metamate
 latest:
-  0.5.4--pyr45h106432d_0: 
-    sha256:89fc7eaef76af46cf2b098dacaf4affa2e3f5bf314ab874830249a6ad3e5af12
+  0.5.7--pyr45h106432d_0: 
+    sha256:b25abdde8d61d2309b2af0fabc2e7ce3c24aee694e0805567d461d18f469533f
 tags:
   0.4.3--pyr43h7cba7a3_0: 
     sha256:62636f645bc5ab4ff56584d92df922175ff6b23288dc42b281e0316a624ed28a
@@ -13,6 +13,8 @@ tags:
     sha256:16b13435c22c7531c16a8dbb7ec45a9f592295e5a93330503b7d365012cefab0
   0.5.4--pyr45h106432d_0: 
     sha256:89fc7eaef76af46cf2b098dacaf4affa2e3f5bf314ab874830249a6ad3e5af12
+  0.5.7--pyr45h106432d_0: 
+    sha256:b25abdde8d61d2309b2af0fabc2e7ce3c24aee694e0805567d461d18f469533f
 docker: quay.io/biocontainers/metamate
 aliases:
   bbcrisprfinder.sh: /usr/local/bin/bbcrisprfinder.sh

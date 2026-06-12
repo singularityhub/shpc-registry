@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/fishplotpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fishplotpy
 latest:
-  1.0.0--pyh7e72e81_0: 
-    sha256:7b0e531d1f927e31a5709996248ccb9b3817d57e31831e5b6e9c1a30dce425ac
+  1.1--pyhdfd78af_0: 
+    sha256:bc4a9778b0c6d9360ef9c9dec01b7f81151b66d75e73bb8158efd5878974f2c6
 tags:
   1.0.0--pyh7e72e81_0: 
     sha256:7b0e531d1f927e31a5709996248ccb9b3817d57e31831e5b6e9c1a30dce425ac
+  1.1--pyhdfd78af_0: 
+    sha256:bc4a9778b0c6d9360ef9c9dec01b7f81151b66d75e73bb8158efd5878974f2c6
 docker: quay.io/biocontainers/fishplotpy
 aliases:
   qconvex: /usr/local/bin/qconvex

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hmftools-wisp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-wisp
 latest:
-  1.2--hdfd78af_0: 
-    sha256:e89cac0f7a63b3f5ce46bc7c7eaf2cb3efb3003ee94ca9286363b990682428cb
+  1.3--hdfd78af_0: 
+    sha256:a7f7a4d793d416bd8668c5792eb9863fe6c048c0c41704027c8ec8435986d770
 tags:
   1.2--hdfd78af_0: 
     sha256:e89cac0f7a63b3f5ce46bc7c7eaf2cb3efb3003ee94ca9286363b990682428cb
+  1.3--hdfd78af_0: 
+    sha256:a7f7a4d793d416bd8668c5792eb9863fe6c048c0c41704027c8ec8435986d770
 docker: quay.io/biocontainers/hmftools-wisp
 aliases:
   wisp: /usr/local/bin/wisp
