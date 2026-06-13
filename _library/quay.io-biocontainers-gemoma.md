@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gemoma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemoma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gemoma/container.yaml"
-updated_at: "2026-06-12 06:53:52.382041"
+updated_at: "2026-06-13 06:28:48.793944"
 latest: "1.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gemoma"
 aliases:

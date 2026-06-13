@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mfuzz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mfuzz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mfuzz/container.yaml"
-updated_at: "2026-06-12 07:13:08.394921"
+updated_at: "2026-06-13 06:47:48.829596"
 latest: "2.70.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mfuzz"
 

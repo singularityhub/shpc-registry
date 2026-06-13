@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ezcharts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezcharts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezcharts/container.yaml"
-updated_at: "2026-06-12 07:04:05.815646"
+updated_at: "2026-06-13 06:39:07.755029"
 latest: "0.16.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezcharts"
 aliases:

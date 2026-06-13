@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamcmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamcmp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamcmp/container.yaml"
-updated_at: "2026-06-12 07:07:02.216068"
+updated_at: "2026-06-13 06:42:04.341215"
 latest: "2.2"
 container_url: "https://biocontainers.pro/tools/bamcmp"
 aliases:

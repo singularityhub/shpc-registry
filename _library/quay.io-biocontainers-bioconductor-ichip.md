@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ichip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ichip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ichip/container.yaml"
-updated_at: "2026-06-12 06:53:19.562107"
+updated_at: "2026-06-13 06:28:15.745288"
 latest: "1.60.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ichip"
 

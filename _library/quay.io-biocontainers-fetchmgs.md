@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fetchmgs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fetchmgs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fetchmgs/container.yaml"
-updated_at: "2026-06-12 07:16:03.239545"
-latest: "2.1.2--pyh7e72e81_0"
+updated_at: "2026-06-13 06:50:43.081680"
+latest: "2.1.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/fetchmgs"
 aliases:
  - "fetchMGs"
@@ -19,8 +19,9 @@ aliases:
  - "tqdm"
 versions:
  - "2.1.2--pyh7e72e81_0"
+ - "2.1.3--pyh106432d_0"
 description: "singularity registry hpc automated addition for fetchmgs"
-config: {"url": "https://biocontainers.pro/tools/fetchmgs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fetchmgs", "latest": {"2.1.2--pyh7e72e81_0": "sha256:8716c2a03b951f6d17f73f8a233c008aaf4a9ead388e65f3942f12157878d344"}, "tags": {"2.1.2--pyh7e72e81_0": "sha256:8716c2a03b951f6d17f73f8a233c008aaf4a9ead388e65f3942f12157878d344"}, "docker": "quay.io/biocontainers/fetchmgs", "aliases": {"fetchMGs": "/usr/local/bin/fetchMGs", "archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/fetchmgs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fetchmgs", "latest": {"2.1.3--pyh106432d_0": "sha256:e343b98997d4539a4f6353bcb3fd1f4a0f49353fc45b85dc314dab03e9766f80"}, "tags": {"2.1.2--pyh7e72e81_0": "sha256:8716c2a03b951f6d17f73f8a233c008aaf4a9ead388e65f3942f12157878d344", "2.1.3--pyh106432d_0": "sha256:e343b98997d4539a4f6353bcb3fd1f4a0f49353fc45b85dc314dab03e9766f80"}, "docker": "quay.io/biocontainers/fetchmgs", "aliases": {"fetchMGs": "/usr/local/bin/fetchMGs", "archspec": "/usr/local/bin/archspec", "pyrodigal": "/usr/local/bin/pyrodigal", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fetchmgs.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/fetchmgs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fetchmgs:2.1.2--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/fetchmgs:2.1.3--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fetchmgs/2.1.2--pyh7e72e81_0
-$ module help quay.io/biocontainers/fetchmgs/2.1.2--pyh7e72e81_0
+$ module load quay.io/biocontainers/fetchmgs/2.1.3--pyh106432d_0
+$ module help quay.io/biocontainers/fetchmgs/2.1.3--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

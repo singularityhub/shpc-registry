@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gffutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gffutils/container.yaml"
-updated_at: "2026-06-12 07:19:35.509551"
+updated_at: "2026-06-13 06:54:14.421502"
 latest: "0.14--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/gffutils"
 aliases:

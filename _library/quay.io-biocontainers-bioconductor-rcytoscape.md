@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rcytoscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcytoscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcytoscape/container.yaml"
-updated_at: "2026-06-12 07:09:14.561981"
+updated_at: "2026-06-13 06:44:03.904746"
 latest: "1.27.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcytoscape"
 aliases:

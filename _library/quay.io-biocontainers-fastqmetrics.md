@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastqmetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqmetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqmetrics/container.yaml"
-updated_at: "2026-06-12 06:49:04.243153"
+updated_at: "2026-06-13 06:23:52.608806"
 latest: "0.1.0--py_2"
 container_url: "https://biocontainers.pro/tools/fastqmetrics"
 aliases:

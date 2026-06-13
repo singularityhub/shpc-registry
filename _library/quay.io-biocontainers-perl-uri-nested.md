@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-uri-nested"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-uri-nested/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-uri-nested/container.yaml"
-updated_at: "2026-06-12 07:35:11.806561"
+updated_at: "2026-06-13 07:09:51.984388"
 latest: "0.10--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-uri-nested"
 

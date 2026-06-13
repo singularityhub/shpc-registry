@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ebi-eva-common-pyutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebi-eva-common-pyutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ebi-eva-common-pyutils/container.yaml"
-updated_at: "2026-06-12 07:23:50.342564"
+updated_at: "2026-06-13 06:58:19.201286"
 latest: "0.8.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/ebi-eva-common-pyutils"
 aliases:

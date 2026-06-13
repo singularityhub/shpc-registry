@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metapointfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metapointfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metapointfinder/container.yaml"
-updated_at: "2026-06-12 07:21:08.175596"
+updated_at: "2026-06-13 06:55:43.913609"
 latest: "1.01--py314r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metapointfinder"
 aliases:

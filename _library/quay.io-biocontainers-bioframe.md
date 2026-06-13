@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioframe/container.yaml"
-updated_at: "2026-06-12 06:53:51.284439"
+updated_at: "2026-06-13 06:28:47.692517"
 latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioframe"
 aliases:

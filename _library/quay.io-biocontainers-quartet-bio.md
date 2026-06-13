@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quartet-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quartet-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quartet-bio/container.yaml"
-updated_at: "2026-06-12 07:02:04.869979"
+updated_at: "2026-06-13 06:37:07.006104"
 latest: "1.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/quartet-bio"
 aliases:

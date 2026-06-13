@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mgug4121a.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mgug4121a.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mgug4121a.db/container.yaml"
-updated_at: "2026-06-12 07:11:11.069150"
+updated_at: "2026-06-13 06:45:52.001657"
 latest: "3.2.3--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mgug4121a.db"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastools/container.yaml"
-updated_at: "2026-06-12 07:20:20.058480"
-latest: "1.1.5--pyh7cba7a3_0"
+updated_at: "2026-06-13 06:54:57.808423"
+latest: "1.1.7--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/fastools"
 aliases:
  - "fastools"
@@ -19,8 +19,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.1.5--pyh7cba7a3_0"
+ - "1.1.7--pyh106432d_0"
 description: "singularity registry hpc automated addition for fastools"
-config: {"url": "https://biocontainers.pro/tools/fastools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastools", "latest": {"1.1.5--pyh7cba7a3_0": "sha256:56287f35c8985b8221a670a56624959a0530af762ccfee5d2b18e9c3409dbd0c"}, "tags": {"1.1.5--pyh7cba7a3_0": "sha256:56287f35c8985b8221a670a56624959a0530af762ccfee5d2b18e9c3409dbd0c"}, "docker": "quay.io/biocontainers/fastools", "aliases": {"fastools": "/usr/local/bin/fastools", "split_fasta": "/usr/local/bin/split_fasta", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/fastools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastools", "latest": {"1.1.7--pyh106432d_0": "sha256:4e18d34f374d04bcbccb98d659f350e45ad6346acb77c6b464fd15d47a863fbd"}, "tags": {"1.1.5--pyh7cba7a3_0": "sha256:56287f35c8985b8221a670a56624959a0530af762ccfee5d2b18e9c3409dbd0c", "1.1.7--pyh106432d_0": "sha256:4e18d34f374d04bcbccb98d659f350e45ad6346acb77c6b464fd15d47a863fbd"}, "docker": "quay.io/biocontainers/fastools", "aliases": {"fastools": "/usr/local/bin/fastools", "split_fasta": "/usr/local/bin/split_fasta", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastools.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/fastools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastools:1.1.5--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/fastools:1.1.7--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastools/1.1.5--pyh7cba7a3_0
-$ module help quay.io/biocontainers/fastools/1.1.5--pyh7cba7a3_0
+$ module load quay.io/biocontainers/fastools/1.1.7--pyh106432d_0
+$ module help quay.io/biocontainers/fastools/1.1.7--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

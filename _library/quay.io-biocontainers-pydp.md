@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydp/container.yaml"
-updated_at: "2026-06-12 06:57:09.847660"
+updated_at: "2026-06-13 06:32:10.035513"
 latest: "0.2.4--py_0"
 container_url: "https://biocontainers.pro/tools/pydp"
 aliases:
