@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-tidytacos
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-tidytacos
 latest:
-  1.0.8--r45hdfd78af_0: 
-    sha256:7e4c7729b4bf176660ef4f362a8a2cbab8d218a21e6d642dedcbc1b42ff6b582
+  1.0.9--r45hdfd78af_0: 
+    sha256:a4653cc5752672f401c100288fb19b1291ab8fb0ff141b6fb7bcf21aa1f07fe2
 tags:
   1.0.8--r45hdfd78af_0: 
     sha256:7e4c7729b4bf176660ef4f362a8a2cbab8d218a21e6d642dedcbc1b42ff6b582
+  1.0.9--r45hdfd78af_0: 
+    sha256:a4653cc5752672f401c100288fb19b1291ab8fb0ff141b6fb7bcf21aa1f07fe2
 docker: quay.io/biocontainers/r-tidytacos
 aliases:
   pandoc-lua: /usr/local/bin/pandoc-lua
