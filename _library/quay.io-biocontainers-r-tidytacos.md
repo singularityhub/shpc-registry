@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-tidytacos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tidytacos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tidytacos/container.yaml"
-updated_at: "2026-06-13 06:40:41.149533"
-latest: "1.0.8--r45hdfd78af_0"
+updated_at: "2026-06-14 07:05:03.821749"
+latest: "1.0.9--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-tidytacos"
 aliases:
  - "pandoc-lua"
@@ -16,8 +16,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.8--r45hdfd78af_0"
+ - "1.0.9--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for r-tidytacos"
-config: {"url": "https://biocontainers.pro/tools/r-tidytacos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-tidytacos", "latest": {"1.0.8--r45hdfd78af_0": "sha256:7e4c7729b4bf176660ef4f362a8a2cbab8d218a21e6d642dedcbc1b42ff6b582"}, "tags": {"1.0.8--r45hdfd78af_0": "sha256:7e4c7729b4bf176660ef4f362a8a2cbab8d218a21e6d642dedcbc1b42ff6b582"}, "docker": "quay.io/biocontainers/r-tidytacos", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-tidytacos", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-tidytacos", "latest": {"1.0.9--r45hdfd78af_0": "sha256:a4653cc5752672f401c100288fb19b1291ab8fb0ff141b6fb7bcf21aa1f07fe2"}, "tags": {"1.0.8--r45hdfd78af_0": "sha256:7e4c7729b4bf176660ef4f362a8a2cbab8d218a21e6d642dedcbc1b42ff6b582", "1.0.9--r45hdfd78af_0": "sha256:a4653cc5752672f401c100288fb19b1291ab8fb0ff141b6fb7bcf21aa1f07fe2"}, "docker": "quay.io/biocontainers/r-tidytacos", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tidytacos.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/r-tidytacos
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tidytacos:1.0.8--r45hdfd78af_0
+$ shpc install quay.io/biocontainers/r-tidytacos:1.0.9--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tidytacos/1.0.8--r45hdfd78af_0
-$ module help quay.io/biocontainers/r-tidytacos/1.0.8--r45hdfd78af_0
+$ module load quay.io/biocontainers/r-tidytacos/1.0.9--r45hdfd78af_0
+$ module help quay.io/biocontainers/r-tidytacos/1.0.9--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

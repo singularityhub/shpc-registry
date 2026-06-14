@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathotypr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathotypr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathotypr/container.yaml"
-updated_at: "2026-06-13 06:27:11.023736"
+updated_at: "2026-06-14 06:51:42.484210"
 latest: "1.0.0--h6872113_0"
 container_url: "https://biocontainers.pro/tools/pathotypr"
 aliases:

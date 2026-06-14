@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-constand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-constand/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-constand/container.yaml"
-updated_at: "2026-06-13 06:34:37.332587"
+updated_at: "2026-06-14 06:59:00.780269"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-constand"
 

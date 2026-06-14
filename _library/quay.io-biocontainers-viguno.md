@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viguno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viguno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viguno/container.yaml"
-updated_at: "2026-06-13 06:25:03.767007"
-latest: "0.4.0--h13c227e_0"
+updated_at: "2026-06-14 06:49:40.006035"
+latest: "0.4.0--h3628714_1"
 container_url: "https://biocontainers.pro/tools/viguno"
 aliases:
  - "viguno"
@@ -16,8 +16,9 @@ versions:
  - "0.2.1--h7e29777_0"
  - "0.3.2--h7e29777_1"
  - "0.4.0--h13c227e_0"
+ - "0.4.0--h3628714_1"
 description: "singularity registry hpc automated addition for viguno"
-config: {"url": "https://biocontainers.pro/tools/viguno", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viguno", "latest": {"0.4.0--h13c227e_0": "sha256:19ed566951046255c29eb2c5a0569b1d9deb93aad1451edd2533f388409a1c76"}, "tags": {"0.1.1--h7e29777_0": "sha256:8a42109d38493410adf689fa56a859c7cec55efe6d85f02b0c3f0a694e02234f", "0.1.6--h7e29777_0": "sha256:4dce318cf723819840d2fc641e08c4ea3b0877b64ffc47b7fe93ca6b0a81acf5", "0.2.0--h7e29777_0": "sha256:37afccb38f1cf367d2ecba59696d68fab05f69533808c38c050c674e030011af", "0.2.1--h7e29777_0": "sha256:822d47db53001ed2123cb7c605d29d18a070bde4a482ae00df13ac75b4e0f637", "0.3.2--h7e29777_1": "sha256:03a947c4e8134a2f6e5b2d146a10d048bcda49e625b2d2ca8d708033708c60c1", "0.4.0--h13c227e_0": "sha256:19ed566951046255c29eb2c5a0569b1d9deb93aad1451edd2533f388409a1c76"}, "docker": "quay.io/biocontainers/viguno", "aliases": {"viguno": "/usr/local/bin/viguno"}}
+config: {"url": "https://biocontainers.pro/tools/viguno", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for viguno", "latest": {"0.4.0--h3628714_1": "sha256:4714a10a42c4a7e719593737457eb5b094c63a9be776683dec4da3e5aa8cc9fe"}, "tags": {"0.1.1--h7e29777_0": "sha256:8a42109d38493410adf689fa56a859c7cec55efe6d85f02b0c3f0a694e02234f", "0.1.6--h7e29777_0": "sha256:4dce318cf723819840d2fc641e08c4ea3b0877b64ffc47b7fe93ca6b0a81acf5", "0.2.0--h7e29777_0": "sha256:37afccb38f1cf367d2ecba59696d68fab05f69533808c38c050c674e030011af", "0.2.1--h7e29777_0": "sha256:822d47db53001ed2123cb7c605d29d18a070bde4a482ae00df13ac75b4e0f637", "0.3.2--h7e29777_1": "sha256:03a947c4e8134a2f6e5b2d146a10d048bcda49e625b2d2ca8d708033708c60c1", "0.4.0--h13c227e_0": "sha256:19ed566951046255c29eb2c5a0569b1d9deb93aad1451edd2533f388409a1c76", "0.4.0--h3628714_1": "sha256:4714a10a42c4a7e719593737457eb5b094c63a9be776683dec4da3e5aa8cc9fe"}, "docker": "quay.io/biocontainers/viguno", "aliases": {"viguno": "/usr/local/bin/viguno"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viguno.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/viguno
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viguno:0.4.0--h13c227e_0
+$ shpc install quay.io/biocontainers/viguno:0.4.0--h3628714_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viguno/0.4.0--h13c227e_0
-$ module help quay.io/biocontainers/viguno/0.4.0--h13c227e_0
+$ module load quay.io/biocontainers/viguno/0.4.0--h3628714_1
+$ module help quay.io/biocontainers/viguno/0.4.0--h3628714_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

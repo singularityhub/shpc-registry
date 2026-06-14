@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/py2neo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py2neo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py2neo/container.yaml"
-updated_at: "2026-06-13 06:26:23.633693"
+updated_at: "2026-06-14 06:50:56.551250"
 latest: "3.1.2--py35_0"
 container_url: "https://biocontainers.pro/tools/py2neo"
 aliases:

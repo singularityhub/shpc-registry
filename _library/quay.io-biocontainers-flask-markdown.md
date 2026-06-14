@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flask-markdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-markdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flask-markdown/container.yaml"
-updated_at: "2026-06-13 06:57:29.779110"
+updated_at: "2026-06-14 07:22:10.190984"
 latest: "0.3--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-markdown"
 aliases:

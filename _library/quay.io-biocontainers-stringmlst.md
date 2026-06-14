@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stringmlst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stringmlst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stringmlst/container.yaml"
-updated_at: "2026-06-13 06:24:45.493248"
+updated_at: "2026-06-14 06:49:22.259703"
 latest: "0.6.3--py_0"
 container_url: "https://biocontainers.pro/tools/stringmlst"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rastqc-nanopore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rastqc-nanopore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rastqc-nanopore/container.yaml"
-updated_at: "2026-06-13 06:24:38.687130"
+updated_at: "2026-06-14 06:49:15.653545"
 latest: "0.1.0--h2499bdc_0"
 container_url: "https://biocontainers.pro/tools/rastqc-nanopore"
 aliases:

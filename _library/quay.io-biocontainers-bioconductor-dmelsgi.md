@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dmelsgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmelsgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmelsgi/container.yaml"
-updated_at: "2026-06-13 06:34:43.342667"
+updated_at: "2026-06-14 06:59:06.920251"
 latest: "1.37.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmelsgi"
 aliases:

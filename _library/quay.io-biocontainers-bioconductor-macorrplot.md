@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-macorrplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macorrplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macorrplot/container.yaml"
-updated_at: "2026-06-13 06:23:58.682025"
+updated_at: "2026-06-14 06:48:37.571827"
 latest: "1.80.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macorrplot"
 

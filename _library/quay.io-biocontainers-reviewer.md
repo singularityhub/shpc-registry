@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reviewer/container.yaml"
-updated_at: "2026-06-13 06:27:49.913116"
+updated_at: "2026-06-14 06:52:19.960643"
 latest: "0.2.7--h48da230_0"
 container_url: "https://biocontainers.pro/tools/reviewer"
 aliases:

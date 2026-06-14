@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psosp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psosp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psosp/container.yaml"
-updated_at: "2026-06-13 06:46:49.032363"
+updated_at: "2026-06-14 07:11:21.529733"
 latest: "1.1.2--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/psosp"
 aliases:

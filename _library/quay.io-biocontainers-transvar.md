@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transvar/container.yaml"
-updated_at: "2026-06-13 06:55:43.370383"
+updated_at: "2026-06-14 07:20:22.272062"
 latest: "2.5.10.20211024--py310h5a5e57a_0"
 container_url: "https://biocontainers.pro/tools/transvar"
 aliases:

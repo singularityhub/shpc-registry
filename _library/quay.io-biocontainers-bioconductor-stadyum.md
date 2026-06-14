@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stadyum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stadyum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stadyum/container.yaml"
-updated_at: "2026-06-13 06:29:42.369986"
+updated_at: "2026-06-14 06:54:10.424106"
 latest: "1.0.2--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stadyum"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sumstats-liftover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sumstats-liftover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sumstats-liftover/container.yaml"
-updated_at: "2026-06-13 06:24:27.812499"
+updated_at: "2026-06-14 06:49:05.246649"
 latest: "1.1.0--pyh84498cf_0"
 container_url: "https://biocontainers.pro/tools/sumstats-liftover"
 aliases:

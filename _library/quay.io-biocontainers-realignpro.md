@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/realignpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/realignpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/realignpro/container.yaml"
-updated_at: "2026-06-13 06:21:04.146859"
+updated_at: "2026-06-14 06:45:45.555067"
 latest: "0.1.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/realignpro"
 aliases:

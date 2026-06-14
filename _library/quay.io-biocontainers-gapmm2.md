@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gapmm2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gapmm2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gapmm2/container.yaml"
-updated_at: "2026-06-13 06:41:33.749647"
-latest: "25.8.12--pyhdfd78af_0"
+updated_at: "2026-06-14 07:05:56.223799"
+latest: "26.5.22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gapmm2"
 aliases:
  - "gapmm2"
@@ -21,8 +21,9 @@ versions:
  - "23.11.3--pyhdfd78af_0"
  - "25.4.13--pyhdfd78af_0"
  - "25.8.12--pyhdfd78af_0"
+ - "26.5.22--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gapmm2"
-config: {"url": "https://biocontainers.pro/tools/gapmm2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gapmm2", "latest": {"25.8.12--pyhdfd78af_0": "sha256:95fb0f6d632c6cb6ca213bfd79e4f7c77cf9d56e682297c4b392348506d7b228"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:a41112ff73ef13209d38658c8fc68a8bb06635f76e3b6b0a7076b1c6dce94d6c", "23.11.3--pyhdfd78af_0": "sha256:58d3894bc9a7f43959a2798c59aa046d277db031a13ec208f64cee96bd252643", "25.4.13--pyhdfd78af_0": "sha256:9f2c666045270327d9682cca1052161ed05779e6eb9bfa2caab847c1989662ce", "25.8.12--pyhdfd78af_0": "sha256:95fb0f6d632c6cb6ca213bfd79e4f7c77cf9d56e682297c4b392348506d7b228"}, "docker": "quay.io/biocontainers/gapmm2", "aliases": {"gapmm2": "/usr/local/bin/gapmm2", "minimap2.py": "/usr/local/bin/minimap2.py", "natsort": "/usr/local/bin/natsort", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/gapmm2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gapmm2", "latest": {"26.5.22--pyhdfd78af_0": "sha256:a9b8b6787dd685558190a03513d6bf6b6466b6b9622972bc6c4d1e13375c1819"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:a41112ff73ef13209d38658c8fc68a8bb06635f76e3b6b0a7076b1c6dce94d6c", "23.11.3--pyhdfd78af_0": "sha256:58d3894bc9a7f43959a2798c59aa046d277db031a13ec208f64cee96bd252643", "25.4.13--pyhdfd78af_0": "sha256:9f2c666045270327d9682cca1052161ed05779e6eb9bfa2caab847c1989662ce", "25.8.12--pyhdfd78af_0": "sha256:95fb0f6d632c6cb6ca213bfd79e4f7c77cf9d56e682297c4b392348506d7b228", "26.5.22--pyhdfd78af_0": "sha256:a9b8b6787dd685558190a03513d6bf6b6466b6b9622972bc6c4d1e13375c1819"}, "docker": "quay.io/biocontainers/gapmm2", "aliases": {"gapmm2": "/usr/local/bin/gapmm2", "minimap2.py": "/usr/local/bin/minimap2.py", "natsort": "/usr/local/bin/natsort", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gapmm2.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/gapmm2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gapmm2:25.8.12--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gapmm2:26.5.22--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gapmm2/25.8.12--pyhdfd78af_0
-$ module help quay.io/biocontainers/gapmm2/25.8.12--pyhdfd78af_0
+$ module load quay.io/biocontainers/gapmm2/26.5.22--pyhdfd78af_0
+$ module help quay.io/biocontainers/gapmm2/26.5.22--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

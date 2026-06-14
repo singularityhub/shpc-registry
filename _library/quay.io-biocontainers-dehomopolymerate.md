@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dehomopolymerate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dehomopolymerate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dehomopolymerate/container.yaml"
-updated_at: "2026-06-13 06:41:10.952229"
+updated_at: "2026-06-14 07:05:33.482412"
 latest: "0.4.1--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/dehomopolymerate"
 aliases:

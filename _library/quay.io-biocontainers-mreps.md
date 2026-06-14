@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mreps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mreps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mreps/container.yaml"
-updated_at: "2026-06-13 06:33:11.619619"
+updated_at: "2026-06-14 06:57:35.331183"
 latest: "2.6.01--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/mreps"
 aliases:

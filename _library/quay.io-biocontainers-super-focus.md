@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/super-focus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/super-focus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/super-focus/container.yaml"
-updated_at: "2026-06-13 06:55:20.548384"
-latest: "1.6--pyhdfd78af_1"
+updated_at: "2026-06-14 07:19:58.713391"
+latest: "1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/super-focus"
 aliases:
  - "prerapsearch"
@@ -24,8 +24,9 @@ aliases:
  - "gene2range"
 versions:
  - "1.6--pyhdfd78af_1"
+ - "1.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for super-focus"
-config: {"url": "https://biocontainers.pro/tools/super-focus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for super-focus", "latest": {"1.6--pyhdfd78af_1": "sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9"}, "tags": {"1.6--pyhdfd78af_1": "sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9"}, "docker": "quay.io/biocontainers/super-focus", "aliases": {"prerapsearch": "/usr/local/bin/prerapsearch", "rapsearch": "/usr/local/bin/rapsearch", "superfocus": "/usr/local/bin/superfocus", "superfocus_downloadDB": "/usr/local/bin/superfocus_downloadDB", "mmseqs": "/usr/local/bin/mmseqs", "jellyfish": "/usr/local/bin/jellyfish", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "diamond": "/usr/local/bin/diamond", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range"}}
+config: {"url": "https://biocontainers.pro/tools/super-focus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for super-focus", "latest": {"1.8--pyhdfd78af_0": "sha256:37cdb15737a7d1905a557f41a29c39d4442ddfc854d424dead6abf3196f4c232"}, "tags": {"1.6--pyhdfd78af_1": "sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9", "1.8--pyhdfd78af_0": "sha256:37cdb15737a7d1905a557f41a29c39d4442ddfc854d424dead6abf3196f4c232"}, "docker": "quay.io/biocontainers/super-focus", "aliases": {"prerapsearch": "/usr/local/bin/prerapsearch", "rapsearch": "/usr/local/bin/rapsearch", "superfocus": "/usr/local/bin/superfocus", "superfocus_downloadDB": "/usr/local/bin/superfocus_downloadDB", "mmseqs": "/usr/local/bin/mmseqs", "jellyfish": "/usr/local/bin/jellyfish", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "diamond": "/usr/local/bin/diamond", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/super-focus.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/super-focus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/super-focus:1.6--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/super-focus:1.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/super-focus/1.6--pyhdfd78af_1
-$ module help quay.io/biocontainers/super-focus/1.6--pyhdfd78af_1
+$ module load quay.io/biocontainers/super-focus/1.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/super-focus/1.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

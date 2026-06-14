@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-weblogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-weblogo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-weblogo/container.yaml"
-updated_at: "2026-06-13 06:33:50.338668"
+updated_at: "2026-06-14 06:58:14.110681"
 latest: "3.4--py35_0"
 container_url: "https://biocontainers.pro/tools/python-weblogo"
 aliases:

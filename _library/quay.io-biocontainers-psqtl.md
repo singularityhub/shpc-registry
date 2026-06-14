@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/psqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psqtl/container.yaml"
-updated_at: "2026-06-13 06:45:15.792947"
-latest: "1.3.7--hdfd78af_0"
+updated_at: "2026-06-14 07:09:46.915594"
+latest: "1.3.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psqtl"
 aliases:
  - "gff2gff"
@@ -44,8 +44,9 @@ aliases:
  - "ldapmodrdn"
 versions:
  - "1.3.7--hdfd78af_0"
+ - "1.3.9--hdfd78af_0"
 description: "singularity registry hpc automated addition for psqtl"
-config: {"url": "https://biocontainers.pro/tools/psqtl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psqtl", "latest": {"1.3.7--hdfd78af_0": "sha256:8132a05f5140dafa70b220fb285731576371588831f409cfbc87e1e8ce17b6ac"}, "tags": {"1.3.7--hdfd78af_0": "sha256:8132a05f5140dafa70b220fb285731576371588831f409cfbc87e1e8ce17b6ac"}, "docker": "quay.io/biocontainers/psqtl", "aliases": {"gff2gff": "/usr/local/bin/gff2gff", "psQTL_post": "/usr/local/bin/psQTL_post", "psQTL_post.py": "/usr/local/bin/psQTL_post.py", "psQTL_prep": "/usr/local/bin/psQTL_prep", "psQTL_prep.py": "/usr/local/bin/psQTL_prep.py", "psQTL_proc": "/usr/local/bin/psQTL_proc", "psQTL_proc.py": "/usr/local/bin/psQTL_proc.py", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "androiddeployqt6": "/usr/local/bin/androiddeployqt6", "assistant6": "/usr/local/bin/assistant6", "designer6": "/usr/local/bin/designer6", "linguist6": "/usr/local/bin/linguist6", "pixeltool6": "/usr/local/bin/pixeltool6", "qdbus6": "/usr/local/bin/qdbus6", "qdbusviewer6": "/usr/local/bin/qdbusviewer6", "qdistancefieldgenerator6": "/usr/local/bin/qdistancefieldgenerator6", "qdoc6": "/usr/local/bin/qdoc6", "qmake6": "/usr/local/bin/qmake6", "qml6": "/usr/local/bin/qml6", "qmleasing6": "/usr/local/bin/qmleasing6", "qmlls6": "/usr/local/bin/qmlls6", "qmlpreview6": "/usr/local/bin/qmlpreview6", "qmlscene6": "/usr/local/bin/qmlscene6", "qt6.conf": "/usr/local/bin/qt6.conf", "qtdiag6": "/usr/local/bin/qtdiag6", "qtplugininfo6": "/usr/local/bin/qtplugininfo6", "vt": "/usr/local/bin/vt", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn"}}
+config: {"url": "https://biocontainers.pro/tools/psqtl", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for psqtl", "latest": {"1.3.9--hdfd78af_0": "sha256:3406c695088d24106825c57ea89f04d1225fea5c16cb03896f6c89f3cd827589"}, "tags": {"1.3.7--hdfd78af_0": "sha256:8132a05f5140dafa70b220fb285731576371588831f409cfbc87e1e8ce17b6ac", "1.3.9--hdfd78af_0": "sha256:3406c695088d24106825c57ea89f04d1225fea5c16cb03896f6c89f3cd827589"}, "docker": "quay.io/biocontainers/psqtl", "aliases": {"gff2gff": "/usr/local/bin/gff2gff", "psQTL_post": "/usr/local/bin/psQTL_post", "psQTL_post.py": "/usr/local/bin/psQTL_post.py", "psQTL_prep": "/usr/local/bin/psQTL_prep", "psQTL_prep.py": "/usr/local/bin/psQTL_prep.py", "psQTL_proc": "/usr/local/bin/psQTL_proc", "psQTL_proc.py": "/usr/local/bin/psQTL_proc.py", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "androiddeployqt6": "/usr/local/bin/androiddeployqt6", "assistant6": "/usr/local/bin/assistant6", "designer6": "/usr/local/bin/designer6", "linguist6": "/usr/local/bin/linguist6", "pixeltool6": "/usr/local/bin/pixeltool6", "qdbus6": "/usr/local/bin/qdbus6", "qdbusviewer6": "/usr/local/bin/qdbusviewer6", "qdistancefieldgenerator6": "/usr/local/bin/qdistancefieldgenerator6", "qdoc6": "/usr/local/bin/qdoc6", "qmake6": "/usr/local/bin/qmake6", "qml6": "/usr/local/bin/qml6", "qmleasing6": "/usr/local/bin/qmleasing6", "qmlls6": "/usr/local/bin/qmlls6", "qmlpreview6": "/usr/local/bin/qmlpreview6", "qmlscene6": "/usr/local/bin/qmlscene6", "qt6.conf": "/usr/local/bin/qt6.conf", "qtdiag6": "/usr/local/bin/qtdiag6", "qtplugininfo6": "/usr/local/bin/qtplugininfo6", "vt": "/usr/local/bin/vt", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psqtl.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/psqtl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/psqtl:1.3.7--hdfd78af_0
+$ shpc install quay.io/biocontainers/psqtl:1.3.9--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/psqtl/1.3.7--hdfd78af_0
-$ module help quay.io/biocontainers/psqtl/1.3.7--hdfd78af_0
+$ module load quay.io/biocontainers/psqtl/1.3.9--hdfd78af_0
+$ module help quay.io/biocontainers/psqtl/1.3.9--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

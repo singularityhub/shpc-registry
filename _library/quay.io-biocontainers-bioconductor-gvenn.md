@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gvenn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gvenn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gvenn/container.yaml"
-updated_at: "2026-06-13 06:41:02.358204"
+updated_at: "2026-06-14 07:05:24.922074"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gvenn"
 aliases:

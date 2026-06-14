@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hsdfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hsdfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hsdfinder/container.yaml"
-updated_at: "2026-06-13 06:36:00.832993"
+updated_at: "2026-06-14 07:00:25.098516"
 latest: "1.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hsdfinder"
 aliases:

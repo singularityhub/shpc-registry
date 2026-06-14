@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cistrome_beta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cistrome_beta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cistrome_beta/container.yaml"
-updated_at: "2026-06-13 06:30:05.542333"
+updated_at: "2026-06-14 06:54:33.330863"
 latest: "1.0.7--py27h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/cistrome_beta"
 aliases:
