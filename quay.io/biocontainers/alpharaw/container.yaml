@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/alpharaw
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for alpharaw
 latest:
-  0.5.0--pyhdfd78af_0: 
-    sha256:f01965e9d2897df7f55e971ac11c8485b116a4e71e78c8cafa0d1f92dab53ac1
+  0.6.0--pyhdfd78af_0: 
+    sha256:e86509f50b0f1d1a29ba152d5ed59da6710659e8ff605ae8d2fd80bff1043c5d
 tags:
   0.5.0--pyhdfd78af_0: 
     sha256:f01965e9d2897df7f55e971ac11c8485b116a4e71e78c8cafa0d1f92dab53ac1
+  0.6.0--pyhdfd78af_0: 
+    sha256:e86509f50b0f1d1a29ba152d5ed59da6710659e8ff605ae8d2fd80bff1043c5d
 docker: quay.io/biocontainers/alpharaw
 aliases:
   alpharaw: /usr/local/bin/alpharaw

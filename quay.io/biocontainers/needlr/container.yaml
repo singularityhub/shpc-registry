@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/needlr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for needlr
 latest:
-  4.0--hdfd78af_0: 
-    sha256:6fe9aa65fcaf372559fbf966f943c84f871daf54b4357f2feccbdca0405d3cb0
+  4.0--hdfd78af_1: 
+    sha256:b8f37b20c4318bff517df0bf13448e2b31faea8abdafaf3210da78275fa0bb6c
 tags:
   4.0--hdfd78af_0: 
     sha256:6fe9aa65fcaf372559fbf966f943c84f871daf54b4357f2feccbdca0405d3cb0
+  4.0--hdfd78af_1: 
+    sha256:b8f37b20c4318bff517df0bf13448e2b31faea8abdafaf3210da78275fa0bb6c
 docker: quay.io/biocontainers/needlr
 aliases:
   bwamempy: /usr/local/bin/bwamempy

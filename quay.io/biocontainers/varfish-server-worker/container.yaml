@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   varfish-server-worker
 latest:
-  0.17.3--h13c227e_0: 
-    sha256:74459734cf223179231256bda5f6185f4e17174c0bf990de069660e3aa1e9a2f
+  0.17.3--h3628714_1: 
+    sha256:dee210e4aa48d90ff86b92ad0528540853adfda24b5cb219bd702d10932fc6a8
 tags:
   0.4.0--h87f3376_0: 
     sha256:d98a6cc167a7a7096c1322483495f5cecfa45c5dcd864f196f58bf0957072c27
@@ -40,6 +40,8 @@ tags:
     sha256:b97d2ab9df9db5b5a0ebefdc1498dc83cd28e08303ea7b8ea3f763f3e93b4625
   0.17.3--h13c227e_0: 
     sha256:74459734cf223179231256bda5f6185f4e17174c0bf990de069660e3aa1e9a2f
+  0.17.3--h3628714_1: 
+    sha256:dee210e4aa48d90ff86b92ad0528540853adfda24b5cb219bd702d10932fc6a8
 docker: quay.io/biocontainers/varfish-server-worker
 aliases:
   varfish-server-worker: /usr/local/bin/varfish-server-worker

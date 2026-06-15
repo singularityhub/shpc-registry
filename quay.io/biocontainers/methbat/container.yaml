@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/methbat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for methbat
 latest:
-  0.17.0--h9ee0642_0: 
-    sha256:c4a84004c7923b2212a7a06f5497aad95bd0328a991350cbbf866fb79d8a2a3b
+  1.1.0--h9ee0642_0: 
+    sha256:f0bac298d40e3f3e235f1f8cb1403eda2d5651602c91cc14e1c4bffbaad3eaad
 tags:
   0.13.0--h9ee0642_0: 
     sha256:e8407f90e58ccad8deffed54d164c696e058e84233a61ef5abde3d9ff654ebbf
@@ -27,6 +27,10 @@ tags:
     sha256:7b147ba2aa82a08f549cf88a85fb4232702d38c3a9aed9e4fd1440081bb49d0a
   0.17.0--h9ee0642_0: 
     sha256:c4a84004c7923b2212a7a06f5497aad95bd0328a991350cbbf866fb79d8a2a3b
+  1.1.0--h9ee0642_0: 
+    sha256:f0bac298d40e3f3e235f1f8cb1403eda2d5651602c91cc14e1c4bffbaad3eaad
+  1.0.0--h9ee0642_0: 
+    sha256:dc890ec5f73fa7aadb6618f9aa527a4fc003d64c149962e7d3f86d707849ec59
 docker: quay.io/biocontainers/methbat
 aliases:
   methbat: /usr/local/bin/methbat

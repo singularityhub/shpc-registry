@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pgap2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pgap2
 latest:
-  2.0--pyhdfd78af_0: 
-    sha256:0225a4ee551e35be5c836929a50e3245a235332fed7775cd7c19334934d446e7
+  2.2--pyhdfd78af_0: 
+    sha256:10aaa19952b9fa3fd50ce5e25838a8335bbc32035b2512b11db1ec563bd9da01
 tags:
   1.0.3--pyhdfd78af_0: 
     sha256:aed887ef1ac44e627739a0bacba705ce04cb51437289f669a686af6c1e1540de
@@ -19,6 +19,8 @@ tags:
     sha256:fdd31337293a888ded3c9ccecfeaed5a47e3d3efb25df14e43ebbb8e872140a0
   2.0--pyhdfd78af_0: 
     sha256:0225a4ee551e35be5c836929a50e3245a235332fed7775cd7c19334934d446e7
+  2.2--pyhdfd78af_0: 
+    sha256:10aaa19952b9fa3fd50ce5e25838a8335bbc32035b2512b11db1ec563bd9da01
 docker: quay.io/biocontainers/pgap2
 aliases:
   ClonalFrameML: /usr/local/bin/ClonalFrameML
