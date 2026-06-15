@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barcode_demux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barcode_demux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barcode_demux/container.yaml"
-updated_at: "2026-06-14 06:46:05.878887"
+updated_at: "2026-06-15 07:25:34.445637"
 latest: "1.0.7--hc38652c_0"
 container_url: "https://biocontainers.pro/tools/barcode_demux"
 aliases:

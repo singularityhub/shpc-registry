@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gfa1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfa1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfa1/container.yaml"
-updated_at: "2026-06-14 07:14:51.424198"
+updated_at: "2026-06-15 07:55:22.705135"
 latest: "0.53.alpha--h577a1d6_3"
 container_url: "https://biocontainers.pro/tools/gfa1"
 aliases:

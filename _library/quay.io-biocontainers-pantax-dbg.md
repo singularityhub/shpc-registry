@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pantax-dbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pantax-dbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pantax-dbg/container.yaml"
-updated_at: "2026-06-14 06:49:37.558836"
+updated_at: "2026-06-15 07:29:11.311557"
 latest: "0.1.0--py312hc5ce804_0"
 container_url: "https://biocontainers.pro/tools/pantax-dbg"
 aliases:

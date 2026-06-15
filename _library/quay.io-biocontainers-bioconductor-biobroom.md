@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biobroom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biobroom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biobroom/container.yaml"
-updated_at: "2026-06-14 06:45:41.271568"
+updated_at: "2026-06-15 07:25:10.093595"
 latest: "1.42.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biobroom"
 

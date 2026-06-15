@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/treeshrink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treeshrink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treeshrink/container.yaml"
-updated_at: "2026-06-14 07:08:17.187163"
-latest: "1.3.9--pyhdfd78af_1"
+updated_at: "2026-06-15 07:48:43.951230"
+latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/treeshrink"
 aliases:
  - "decompose.py"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "1.3.9--py39r42hdfd78af_0"
  - "1.3.9--pyhdfd78af_1"
+ - "1.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for treeshrink"
-config: {"url": "https://biocontainers.pro/tools/treeshrink", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for treeshrink", "latest": {"1.3.9--pyhdfd78af_1": "sha256:40e120bd34086afc6799dbf58ffef35d0734c89be4acf1ac8e558dbf790e26dd"}, "tags": {"1.3.9--py39r42hdfd78af_0": "sha256:19f5a8c600594bbbc36735fc5aaabfe50e41d417faaa8d14787524aa2f741aba", "1.3.9--pyhdfd78af_1": "sha256:40e120bd34086afc6799dbf58ffef35d0734c89be4acf1ac8e558dbf790e26dd"}, "docker": "quay.io/biocontainers/treeshrink", "aliases": {"decompose.py": "/usr/local/bin/decompose.py", "make_gene_folder.py": "/usr/local/bin/make_gene_folder.py", "run_treeshrink": "/usr/local/bin/run_treeshrink", "run_treeshrink.py": "/usr/local/bin/run_treeshrink.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/treeshrink", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for treeshrink", "latest": {"1.4.0--pyhdfd78af_0": "sha256:e0a858e9ba6f76b2d3cc90e6dcbd7e691707b394736535099462fac620921313"}, "tags": {"1.3.9--py39r42hdfd78af_0": "sha256:19f5a8c600594bbbc36735fc5aaabfe50e41d417faaa8d14787524aa2f741aba", "1.3.9--pyhdfd78af_1": "sha256:40e120bd34086afc6799dbf58ffef35d0734c89be4acf1ac8e558dbf790e26dd", "1.4.0--pyhdfd78af_0": "sha256:e0a858e9ba6f76b2d3cc90e6dcbd7e691707b394736535099462fac620921313"}, "docker": "quay.io/biocontainers/treeshrink", "aliases": {"decompose.py": "/usr/local/bin/decompose.py", "make_gene_folder.py": "/usr/local/bin/make_gene_folder.py", "run_treeshrink": "/usr/local/bin/run_treeshrink", "run_treeshrink.py": "/usr/local/bin/run_treeshrink.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treeshrink.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/treeshrink
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/treeshrink:1.3.9--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/treeshrink:1.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/treeshrink/1.3.9--pyhdfd78af_1
-$ module help quay.io/biocontainers/treeshrink/1.3.9--pyhdfd78af_1
+$ module load quay.io/biocontainers/treeshrink/1.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/treeshrink/1.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/check-sort-order"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/check-sort-order/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/check-sort-order/container.yaml"
-updated_at: "2026-06-14 06:58:18.496885"
+updated_at: "2026-06-15 07:38:17.400875"
 latest: "0.0.7--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/check-sort-order"
 aliases:

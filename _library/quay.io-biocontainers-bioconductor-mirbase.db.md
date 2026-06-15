@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirbase.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirbase.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirbase.db/container.yaml"
-updated_at: "2026-06-14 07:19:38.605970"
+updated_at: "2026-06-15 08:00:15.466071"
 latest: "1.2.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirbase.db"
 

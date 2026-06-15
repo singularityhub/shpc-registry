@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomesyn2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomesyn2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomesyn2/container.yaml"
-updated_at: "2026-06-14 07:36:55.920661"
+updated_at: "2026-06-15 08:18:25.578009"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genomesyn2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gewist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gewist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gewist/container.yaml"
-updated_at: "2026-06-14 06:48:32.407896"
+updated_at: "2026-06-15 07:28:04.733319"
 latest: "1.46.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gewist"
 

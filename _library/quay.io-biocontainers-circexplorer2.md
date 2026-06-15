@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circexplorer2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circexplorer2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circexplorer2/container.yaml"
-updated_at: "2026-06-14 07:15:38.272581"
+updated_at: "2026-06-15 07:56:10.535319"
 latest: "2.3.8--pyh5e36f6f_2"
 container_url: "https://biocontainers.pro/tools/circexplorer2"
 aliases:

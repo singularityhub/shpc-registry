@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background/container.yaml"
-updated_at: "2026-06-14 07:10:37.364873"
+updated_at: "2026-06-15 07:51:02.909684"
 latest: "4.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pwmenrich.hsapiens.background"
 

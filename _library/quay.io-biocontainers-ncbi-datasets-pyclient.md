@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbi-datasets-pyclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-datasets-pyclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-datasets-pyclient/container.yaml"
-updated_at: "2026-06-14 06:58:14.937640"
-latest: "18.26.0--pyh106432d_0"
+updated_at: "2026-06-15 07:38:13.699939"
+latest: "18.30.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/ncbi-datasets-pyclient"
 aliases:
  - "idle3.13"
@@ -33,8 +33,10 @@ versions:
  - "18.26.0--pyh106432d_0"
  - "18.25.1--pyh106432d_0"
  - "18.24.0--pyh106432d_0"
+ - "18.30.1--pyh106432d_0"
+ - "18.29.1--pyh106432d_0"
 description: "singularity registry hpc automated addition for ncbi-datasets-pyclient"
-config: {"url": "https://biocontainers.pro/tools/ncbi-datasets-pyclient", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ncbi-datasets-pyclient", "latest": {"18.26.0--pyh106432d_0": "sha256:706027dff44fb842ff3f7741aa008d0ce626ba6af58885e08076e5f066bd79dd"}, "tags": {"17.3.0--pyh7e72e81_0": "sha256:a36f3f33dbea1df476c494b242b99e1fe677134d31cb47a8c7e75c9ba89e0037", "18.1.0--pyh7e72e81_0": "sha256:0910e01be4c90990aa0ce7d6fa6de477f38fbeb5e1cbafe6989689255eb03276", "18.0.5--pyh7e72e81_0": "sha256:dbc40d119e5c1ac91b5d205e6792d5246b4454874873e1f3409a239fc659426d", "18.3.1--pyh7e72e81_0": "sha256:5f41dc8102378820f2adf25b3756d948b5ebbaaff01a7ba305ca816f4457d138", "18.2.3--pyh7e72e81_0": "sha256:ed5cf42969b5f7d04fe54b478fa7fc29067ab79ef6eb037f5514f2db76047f11", "18.4.0--pyh7e72e81_0": "sha256:a8a77dc44f3ce3e61243da24d6f603d405e5acf708580c259977add817093d3b", "18.13.0--pyh7e72e81_0": "sha256:0c6c7932df43afe0c33443346fceb0ab7d162a14589c9576e128a83c3c095aad", "18.14.0--pyh7e72e81_0": "sha256:a79a77e369392c1249dd7058537df62fd3f97ac81aad4957f5fac81d4fb8a71f", "18.17.1--pyh106432d_0": "sha256:d34c2374ce3132a6b779fee83938f29534829c53abb88cca33697beeb4f2bf52", "18.16.0--pyh7e72e81_0": "sha256:ab00525cabd11d89760dddcbdea91385482032a76875ff976fabd9556859737c", "18.15.0--pyh7e72e81_0": "sha256:f561a6a0e1db61f8f8ffab86b450cfaa20a8ee7cb61be1cbc7ea0ee72ea90355", "18.20.0--pyh106432d_0": "sha256:69866526f25c160d1fad14a94cfec0d56c00299bdc4cf822f854d7c3719d66f6", "18.19.0--pyh106432d_0": "sha256:c6e3d785509f81a5a330e3602911756ea0207340dd0f20481be9bfa4b19e775d", "18.18.0--pyh106432d_0": "sha256:092fa9a812fca5336ffc23c6235572c4f19e09dd8b9bb19b9e13e56febf32aac", "18.23.0--pyh106432d_0": "sha256:c4897297751b82312cb39e98709a4cde6a27eff50c369c50ae5cb6abcf314b8d", "18.22.1--pyh106432d_0": "sha256:a41a58ecba931ce5c33d8641784337906fb9f37959a2038b4546ced50840cd3d", "18.21.0--pyh106432d_0": "sha256:58cbb8777af0771da7d3dead5fb6c9e7fe4fa1047f2e4547eb3d051efbf44614", "18.26.0--pyh106432d_0": "sha256:706027dff44fb842ff3f7741aa008d0ce626ba6af58885e08076e5f066bd79dd", "18.25.1--pyh106432d_0": "sha256:9fdb461fb2fd58ddbe5037db6e249bbf51bce5eb71fc408296efe9ace3982346", "18.24.0--pyh106432d_0": "sha256:c976d09cb624f5e57016ade40025ea9beee17c3a962a79cf2ca06c7c8450f10e"}, "docker": "quay.io/biocontainers/ncbi-datasets-pyclient", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-datasets-pyclient", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ncbi-datasets-pyclient", "latest": {"18.30.1--pyh106432d_0": "sha256:38aa544189388b445517ee58830751da46b477946575ce5f7d634fce38992895"}, "tags": {"17.3.0--pyh7e72e81_0": "sha256:a36f3f33dbea1df476c494b242b99e1fe677134d31cb47a8c7e75c9ba89e0037", "18.1.0--pyh7e72e81_0": "sha256:0910e01be4c90990aa0ce7d6fa6de477f38fbeb5e1cbafe6989689255eb03276", "18.0.5--pyh7e72e81_0": "sha256:dbc40d119e5c1ac91b5d205e6792d5246b4454874873e1f3409a239fc659426d", "18.3.1--pyh7e72e81_0": "sha256:5f41dc8102378820f2adf25b3756d948b5ebbaaff01a7ba305ca816f4457d138", "18.2.3--pyh7e72e81_0": "sha256:ed5cf42969b5f7d04fe54b478fa7fc29067ab79ef6eb037f5514f2db76047f11", "18.4.0--pyh7e72e81_0": "sha256:a8a77dc44f3ce3e61243da24d6f603d405e5acf708580c259977add817093d3b", "18.13.0--pyh7e72e81_0": "sha256:0c6c7932df43afe0c33443346fceb0ab7d162a14589c9576e128a83c3c095aad", "18.14.0--pyh7e72e81_0": "sha256:a79a77e369392c1249dd7058537df62fd3f97ac81aad4957f5fac81d4fb8a71f", "18.17.1--pyh106432d_0": "sha256:d34c2374ce3132a6b779fee83938f29534829c53abb88cca33697beeb4f2bf52", "18.16.0--pyh7e72e81_0": "sha256:ab00525cabd11d89760dddcbdea91385482032a76875ff976fabd9556859737c", "18.15.0--pyh7e72e81_0": "sha256:f561a6a0e1db61f8f8ffab86b450cfaa20a8ee7cb61be1cbc7ea0ee72ea90355", "18.20.0--pyh106432d_0": "sha256:69866526f25c160d1fad14a94cfec0d56c00299bdc4cf822f854d7c3719d66f6", "18.19.0--pyh106432d_0": "sha256:c6e3d785509f81a5a330e3602911756ea0207340dd0f20481be9bfa4b19e775d", "18.18.0--pyh106432d_0": "sha256:092fa9a812fca5336ffc23c6235572c4f19e09dd8b9bb19b9e13e56febf32aac", "18.23.0--pyh106432d_0": "sha256:c4897297751b82312cb39e98709a4cde6a27eff50c369c50ae5cb6abcf314b8d", "18.22.1--pyh106432d_0": "sha256:a41a58ecba931ce5c33d8641784337906fb9f37959a2038b4546ced50840cd3d", "18.21.0--pyh106432d_0": "sha256:58cbb8777af0771da7d3dead5fb6c9e7fe4fa1047f2e4547eb3d051efbf44614", "18.26.0--pyh106432d_0": "sha256:706027dff44fb842ff3f7741aa008d0ce626ba6af58885e08076e5f066bd79dd", "18.25.1--pyh106432d_0": "sha256:9fdb461fb2fd58ddbe5037db6e249bbf51bce5eb71fc408296efe9ace3982346", "18.24.0--pyh106432d_0": "sha256:c976d09cb624f5e57016ade40025ea9beee17c3a962a79cf2ca06c7c8450f10e", "18.30.1--pyh106432d_0": "sha256:38aa544189388b445517ee58830751da46b477946575ce5f7d634fce38992895", "18.29.1--pyh106432d_0": "sha256:b66c9c60c1c7f856469af64f9d70c2f6ad62ada54029798f06afa7c3566e5899"}, "docker": "quay.io/biocontainers/ncbi-datasets-pyclient", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-datasets-pyclient.
@@ -49,7 +51,7 @@ $ shpc install quay.io/biocontainers/ncbi-datasets-pyclient
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-datasets-pyclient:18.26.0--pyh106432d_0
+$ shpc install quay.io/biocontainers/ncbi-datasets-pyclient:18.30.1--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-datasets-pyclient/18.26.0--pyh106432d_0
-$ module help quay.io/biocontainers/ncbi-datasets-pyclient/18.26.0--pyh106432d_0
+$ module load quay.io/biocontainers/ncbi-datasets-pyclient/18.30.1--pyh106432d_0
+$ module help quay.io/biocontainers/ncbi-datasets-pyclient/18.30.1--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

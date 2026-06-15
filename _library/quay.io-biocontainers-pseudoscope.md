@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pseudoscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pseudoscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pseudoscope/container.yaml"
-updated_at: "2026-06-14 06:51:02.288751"
+updated_at: "2026-06-15 07:30:39.613220"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pseudoscope"
 aliases:

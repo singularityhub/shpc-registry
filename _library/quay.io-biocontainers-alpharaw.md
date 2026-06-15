@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alpharaw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alpharaw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alpharaw/container.yaml"
-updated_at: "2026-06-14 07:07:55.770052"
-latest: "0.5.0--pyhdfd78af_0"
+updated_at: "2026-06-15 07:48:22.650217"
+latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alpharaw"
 aliases:
  - "alpharaw"
@@ -41,8 +41,9 @@ aliases:
  - "mqtt5_app"
 versions:
  - "0.5.0--pyhdfd78af_0"
+ - "0.6.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for alpharaw"
-config: {"url": "https://biocontainers.pro/tools/alpharaw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alpharaw", "latest": {"0.5.0--pyhdfd78af_0": "sha256:f01965e9d2897df7f55e971ac11c8485b116a4e71e78c8cafa0d1f92dab53ac1"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:f01965e9d2897df7f55e971ac11c8485b116a4e71e78c8cafa0d1f92dab53ac1"}, "docker": "quay.io/biocontainers/alpharaw", "aliases": {"alpharaw": "/usr/local/bin/alpharaw", "alphatims": "/usr/local/bin/alphatims", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "h5fuse": "/usr/local/bin/h5fuse", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app"}}
+config: {"url": "https://biocontainers.pro/tools/alpharaw", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alpharaw", "latest": {"0.6.0--pyhdfd78af_0": "sha256:e86509f50b0f1d1a29ba152d5ed59da6710659e8ff605ae8d2fd80bff1043c5d"}, "tags": {"0.5.0--pyhdfd78af_0": "sha256:f01965e9d2897df7f55e971ac11c8485b116a4e71e78c8cafa0d1f92dab53ac1", "0.6.0--pyhdfd78af_0": "sha256:e86509f50b0f1d1a29ba152d5ed59da6710659e8ff605ae8d2fd80bff1043c5d"}, "docker": "quay.io/biocontainers/alpharaw", "aliases": {"alpharaw": "/usr/local/bin/alpharaw", "alphatims": "/usr/local/bin/alphatims", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "xxh3sum": "/usr/local/bin/xxh3sum", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "h5fuse": "/usr/local/bin/h5fuse", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alpharaw.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/alpharaw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alpharaw:0.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/alpharaw:0.6.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alpharaw/0.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/alpharaw/0.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/alpharaw/0.6.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/alpharaw/0.6.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
