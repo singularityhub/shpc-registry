@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/comseg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for comseg
+latest:
+  1.8.5--pyh106432d_0: 
+    sha256:3cbd4e0fa5403973fb100eb04143311675613ed296e179d07cebfe3fab01698b
+tags:
+  1.8.5--pyh106432d_0: 
+    sha256:3cbd4e0fa5403973fb100eb04143311675613ed296e179d07cebfe3fab01698b
+docker: quay.io/biocontainers/comseg
+aliases:
+  alphashape: /usr/local/bin/alphashape
+  idna: /usr/local/bin/idna
+  session-info2: /usr/local/bin/session-info2
+  trimesh: /usr/local/bin/trimesh
+  session-info: /usr/local/bin/session-info
+  gdal: /usr/local/bin/gdal
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  pyproj: /usr/local/bin/pyproj
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  zarr: /usr/local/bin/zarr
+  sozip: /usr/local/bin/sozip
+  bsdunzip: /usr/local/bin/bsdunzip
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp

@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/autobarcoder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for autobarcoder
+latest:
+  1.0.4--pyhdfd78af_0: 
+    sha256:d49e41e1593e9e3e902cf62e28268cb97d2d4df25671fb0c09ff56a01984cb98
+tags:
+  1.0.4--pyhdfd78af_0: 
+    sha256:d49e41e1593e9e3e902cf62e28268cb97d2d4df25671fb0c09ff56a01984cb98
+docker: quay.io/biocontainers/autobarcoder
+aliases:
+  autobarcoder-gui: /usr/local/bin/autobarcoder-gui
+  autobarcoder-setup: /usr/local/bin/autobarcoder-setup
+  autobarcoder-web: /usr/local/bin/autobarcoder-web
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
