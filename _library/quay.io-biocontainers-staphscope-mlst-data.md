@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staphscope-mlst-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphscope-mlst-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphscope-mlst-data/container.yaml"
-updated_at: "2026-06-16 07:52:45.974546"
+updated_at: "2026-06-16 07:57:55.294861"
 latest: "1.2.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/staphscope-mlst-data"
 

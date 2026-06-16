@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/geopandas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geopandas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geopandas/container.yaml"
-updated_at: "2026-06-16 07:55:20.855205"
+updated_at: "2026-06-16 08:00:23.916585"
 latest: "1.1.3"
 container_url: "https://biocontainers.pro/tools/geopandas"
 aliases:

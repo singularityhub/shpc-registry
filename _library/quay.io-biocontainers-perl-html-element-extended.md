@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-html-element-extended"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-element-extended/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-element-extended/container.yaml"
-updated_at: "2026-06-16 07:29:28.812803"
+updated_at: "2026-06-16 07:35:12.336280"
 latest: "1.18--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-html-element-extended"
 aliases:

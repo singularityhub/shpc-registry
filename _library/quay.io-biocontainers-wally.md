@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wally"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wally/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wally/container.yaml"
-updated_at: "2026-06-16 07:56:08.893076"
+updated_at: "2026-06-16 08:01:09.394858"
 latest: "0.7.1--h4d20210_1"
 container_url: "https://biocontainers.pro/tools/wally"
 aliases:
