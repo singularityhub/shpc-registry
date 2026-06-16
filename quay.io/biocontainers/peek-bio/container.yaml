@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/peek-bio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for peek-bio
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:e9064e17425a35fdad00026c9f308da7d9ae8e440dc8402d035611416ac993cd
+  0.2.0--pyhdfd78af_0: 
+    sha256:1d2fba2d6b87346cdf742ad801f405e3a2fbdcc4742265c8cb91b728a034b411
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:e9064e17425a35fdad00026c9f308da7d9ae8e440dc8402d035611416ac993cd
+  0.2.0--pyhdfd78af_0: 
+    sha256:1d2fba2d6b87346cdf742ad801f405e3a2fbdcc4742265c8cb91b728a034b411
 docker: quay.io/biocontainers/peek-bio
 aliases:
   peek: /usr/local/bin/peek

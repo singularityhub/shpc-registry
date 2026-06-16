@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/chaintools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chaintools
 latest:
-  0.0.2--hd612981_0: 
-    sha256:c9a0e07475aeac8498d885606d140cf12dcebaf37763dc3fc8753fd2ac7a9b1e
+  0.0.3--hd612981_0: 
+    sha256:dea6f8fc5fa5e38339dbbeab9c5fb24cb42b1b86a4129d2cfdc32ada543cd951
 tags:
   0.0.2--hd612981_0: 
     sha256:c9a0e07475aeac8498d885606d140cf12dcebaf37763dc3fc8753fd2ac7a9b1e
+  0.0.3--hd612981_0: 
+    sha256:dea6f8fc5fa5e38339dbbeab9c5fb24cb42b1b86a4129d2cfdc32ada543cd951
 docker: quay.io/biocontainers/chaintools
 aliases:
   benchmark: /usr/local/bin/benchmark

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/grfmite-rs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grfmite-rs
 latest:
-  0.2.1--hfa8f182_0: 
-    sha256:2364d8b65c34449b0eb98990e8d2a8befec72285b463be5ec4face2b1aac9e5d
+  0.3.0--hfa8f182_0: 
+    sha256:92ca3d6a37bb904fc00fa1cea7083858a4eb9a16f59b53605f0e8e52dd952dcb
 tags:
   0.2.1--hfa8f182_0: 
     sha256:2364d8b65c34449b0eb98990e8d2a8befec72285b463be5ec4face2b1aac9e5d
+  0.3.0--hfa8f182_0: 
+    sha256:92ca3d6a37bb904fc00fa1cea7083858a4eb9a16f59b53605f0e8e52dd952dcb
 docker: quay.io/biocontainers/grfmite-rs
 aliases:
   grf_rs: /usr/local/bin/grf_rs
