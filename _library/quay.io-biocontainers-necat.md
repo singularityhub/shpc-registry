@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/necat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/necat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/necat/container.yaml"
-updated_at: "2026-06-15 07:54:10.575332"
+updated_at: "2026-06-16 07:54:37.980618"
 latest: "0.0.1_update20200803--h5ca1c30_6"
 container_url: "https://biocontainers.pro/tools/necat"
 aliases:

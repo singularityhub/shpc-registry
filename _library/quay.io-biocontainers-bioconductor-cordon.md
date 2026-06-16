@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cordon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cordon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cordon/container.yaml"
-updated_at: "2026-06-15 08:03:29.159932"
+updated_at: "2026-06-16 08:04:00.365824"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cordon"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mifaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mifaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mifaser/container.yaml"
-updated_at: "2026-06-15 07:59:37.107867"
+updated_at: "2026-06-16 08:00:10.707179"
 latest: "1.64--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/mifaser"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crisprme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisprme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crisprme/container.yaml"
-updated_at: "2026-06-15 07:28:45.931605"
+updated_at: "2026-06-16 07:29:14.279737"
 latest: "2.1.10--py38hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crisprme"
 aliases:

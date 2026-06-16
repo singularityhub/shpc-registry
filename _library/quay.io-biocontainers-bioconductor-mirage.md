@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirage/container.yaml"
-updated_at: "2026-06-15 08:01:19.110499"
+updated_at: "2026-06-16 08:01:52.010042"
 latest: "1.52.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirage"
 

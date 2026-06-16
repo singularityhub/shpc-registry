@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vadersentiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vadersentiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vadersentiment/container.yaml"
-updated_at: "2026-06-15 07:28:43.716698"
+updated_at: "2026-06-16 07:29:12.057653"
 latest: "3.3.2"
 container_url: "https://biocontainers.pro/tools/vadersentiment"
 aliases:

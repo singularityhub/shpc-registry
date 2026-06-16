@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/grfmite-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grfmite-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grfmite-rs/container.yaml"
-updated_at: "2026-06-15 07:26:41.331607"
-latest: "0.2.1--hfa8f182_0"
+updated_at: "2026-06-16 07:27:11.503744"
+latest: "0.3.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/grfmite-rs"
 aliases:
  - "grf_rs"
  - "grfmite-rs"
 versions:
  - "0.2.1--hfa8f182_0"
+ - "0.3.0--hfa8f182_0"
 description: "singularity registry hpc automated addition for grfmite-rs"
-config: {"url": "https://biocontainers.pro/tools/grfmite-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grfmite-rs", "latest": {"0.2.1--hfa8f182_0": "sha256:2364d8b65c34449b0eb98990e8d2a8befec72285b463be5ec4face2b1aac9e5d"}, "tags": {"0.2.1--hfa8f182_0": "sha256:2364d8b65c34449b0eb98990e8d2a8befec72285b463be5ec4face2b1aac9e5d"}, "docker": "quay.io/biocontainers/grfmite-rs", "aliases": {"grf_rs": "/usr/local/bin/grf_rs", "grfmite-rs": "/usr/local/bin/grfmite-rs"}}
+config: {"url": "https://biocontainers.pro/tools/grfmite-rs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grfmite-rs", "latest": {"0.3.0--hfa8f182_0": "sha256:92ca3d6a37bb904fc00fa1cea7083858a4eb9a16f59b53605f0e8e52dd952dcb"}, "tags": {"0.2.1--hfa8f182_0": "sha256:2364d8b65c34449b0eb98990e8d2a8befec72285b463be5ec4face2b1aac9e5d", "0.3.0--hfa8f182_0": "sha256:92ca3d6a37bb904fc00fa1cea7083858a4eb9a16f59b53605f0e8e52dd952dcb"}, "docker": "quay.io/biocontainers/grfmite-rs", "aliases": {"grf_rs": "/usr/local/bin/grf_rs", "grfmite-rs": "/usr/local/bin/grfmite-rs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grfmite-rs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/grfmite-rs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grfmite-rs:0.2.1--hfa8f182_0
+$ shpc install quay.io/biocontainers/grfmite-rs:0.3.0--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grfmite-rs/0.2.1--hfa8f182_0
-$ module help quay.io/biocontainers/grfmite-rs/0.2.1--hfa8f182_0
+$ module load quay.io/biocontainers/grfmite-rs/0.3.0--hfa8f182_0
+$ module help quay.io/biocontainers/grfmite-rs/0.3.0--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

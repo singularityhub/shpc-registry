@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gorpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gorpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gorpipe/container.yaml"
-updated_at: "2026-06-15 08:16:06.032075"
+updated_at: "2026-06-16 08:15:56.322092"
 latest: "4.5.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gorpipe"
 aliases:

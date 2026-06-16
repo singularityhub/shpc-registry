@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alerax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alerax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alerax/container.yaml"
-updated_at: "2026-06-15 07:53:03.743933"
+updated_at: "2026-06-16 07:53:29.902605"
 latest: "1.4.0--heeb98d5_0"
 container_url: "https://biocontainers.pro/tools/alerax"
 aliases:

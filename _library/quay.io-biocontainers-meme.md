@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meme/container.yaml"
-updated_at: "2026-06-15 07:56:41.635524"
+updated_at: "2026-06-16 07:57:13.832314"
 latest: "5.5.9--pl5321he99cc7f_1"
 container_url: "https://biocontainers.pro/tools/meme"
 

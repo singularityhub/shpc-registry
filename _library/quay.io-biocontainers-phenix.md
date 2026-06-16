@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phenix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phenix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phenix/container.yaml"
-updated_at: "2026-06-15 07:55:13.812681"
+updated_at: "2026-06-16 07:55:43.511688"
 latest: "1.4.1a--py27h3dcb392_1"
 container_url: "https://biocontainers.pro/tools/phenix"
 aliases:

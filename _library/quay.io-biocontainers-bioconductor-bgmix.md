@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bgmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bgmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bgmix/container.yaml"
-updated_at: "2026-06-15 07:59:24.172468"
+updated_at: "2026-06-16 07:59:58.109605"
 latest: "1.59.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bgmix"
 

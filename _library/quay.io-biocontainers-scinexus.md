@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scinexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scinexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scinexus/container.yaml"
-updated_at: "2026-06-15 07:33:40.812869"
-latest: "2026.4.25b0--pyhdfd78af_0"
+updated_at: "2026-06-16 07:34:03.577316"
+latest: "2026.5.18--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scinexus"
 aliases:
  - "idle3.14"
@@ -16,8 +16,9 @@ aliases:
  - "normalizer"
 versions:
  - "2026.4.25b0--pyhdfd78af_0"
+ - "2026.5.18--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scinexus"
-config: {"url": "https://biocontainers.pro/tools/scinexus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scinexus", "latest": {"2026.4.25b0--pyhdfd78af_0": "sha256:92250413ec40c22dc45dc7a4e7631ccf405266badaad02bd213a9f5bc633230a"}, "tags": {"2026.4.25b0--pyhdfd78af_0": "sha256:92250413ec40c22dc45dc7a4e7631ccf405266badaad02bd213a9f5bc633230a"}, "docker": "quay.io/biocontainers/scinexus", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/scinexus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scinexus", "latest": {"2026.5.18--pyhdfd78af_0": "sha256:3e471c6c452ea0397c307f00fa5919046e1f5316085148c6875919ed9c1bfc24"}, "tags": {"2026.4.25b0--pyhdfd78af_0": "sha256:92250413ec40c22dc45dc7a4e7631ccf405266badaad02bd213a9f5bc633230a", "2026.5.18--pyhdfd78af_0": "sha256:3e471c6c452ea0397c307f00fa5919046e1f5316085148c6875919ed9c1bfc24"}, "docker": "quay.io/biocontainers/scinexus", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scinexus.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/scinexus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scinexus:2026.4.25b0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scinexus:2026.5.18--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scinexus/2026.4.25b0--pyhdfd78af_0
-$ module help quay.io/biocontainers/scinexus/2026.4.25b0--pyhdfd78af_0
+$ module load quay.io/biocontainers/scinexus/2026.5.18--pyhdfd78af_0
+$ module help quay.io/biocontainers/scinexus/2026.5.18--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

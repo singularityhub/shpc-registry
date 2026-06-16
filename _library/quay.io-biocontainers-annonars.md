@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annonars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annonars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annonars/container.yaml"
-updated_at: "2026-06-15 07:53:02.081656"
+updated_at: "2026-06-16 07:53:28.131732"
 latest: "0.44.2--h957ea76_0"
 container_url: "https://biocontainers.pro/tools/annonars"
 aliases:

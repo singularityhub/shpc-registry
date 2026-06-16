@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sistem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sistem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sistem/container.yaml"
-updated_at: "2026-06-15 07:50:35.519301"
+updated_at: "2026-06-16 07:50:56.703259"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sistem"
 aliases:

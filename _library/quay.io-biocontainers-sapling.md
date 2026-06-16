@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sapling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sapling/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sapling/container.yaml"
-updated_at: "2026-06-15 07:56:27.925168"
+updated_at: "2026-06-16 07:56:59.654958"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sapling"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skyline2isocor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skyline2isocor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skyline2isocor/container.yaml"
-updated_at: "2026-06-15 07:51:36.864901"
+updated_at: "2026-06-16 07:52:00.928072"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/skyline2isocor"
 aliases:

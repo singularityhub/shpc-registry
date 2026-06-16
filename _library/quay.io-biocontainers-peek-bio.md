@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/peek-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peek-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peek-bio/container.yaml"
-updated_at: "2026-06-15 07:56:12.522180"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-06-16 07:56:43.932478"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peek-bio"
 aliases:
  - "peek"
@@ -36,8 +36,9 @@ aliases:
  - "h5mkgrp"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for peek-bio"
-config: {"url": "https://biocontainers.pro/tools/peek-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peek-bio", "latest": {"0.1.0--pyhdfd78af_0": "sha256:e9064e17425a35fdad00026c9f308da7d9ae8e440dc8402d035611416ac993cd"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:e9064e17425a35fdad00026c9f308da7d9ae8e440dc8402d035611416ac993cd"}, "docker": "quay.io/biocontainers/peek-bio", "aliases": {"peek": "/usr/local/bin/peek", "zarr": "/usr/local/bin/zarr", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "elasticurl": "/usr/local/bin/elasticurl", "natsort": "/usr/local/bin/natsort", "h5delete": "/usr/local/bin/h5delete", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "numpy-config": "/usr/local/bin/numpy-config", "h5fc": "/usr/local/bin/h5fc", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp"}}
+config: {"url": "https://biocontainers.pro/tools/peek-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for peek-bio", "latest": {"0.2.0--pyhdfd78af_0": "sha256:1d2fba2d6b87346cdf742ad801f405e3a2fbdcc4742265c8cb91b728a034b411"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:e9064e17425a35fdad00026c9f308da7d9ae8e440dc8402d035611416ac993cd", "0.2.0--pyhdfd78af_0": "sha256:1d2fba2d6b87346cdf742ad801f405e3a2fbdcc4742265c8cb91b728a034b411"}, "docker": "quay.io/biocontainers/peek-bio", "aliases": {"peek": "/usr/local/bin/peek", "zarr": "/usr/local/bin/zarr", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "elasticurl": "/usr/local/bin/elasticurl", "natsort": "/usr/local/bin/natsort", "h5delete": "/usr/local/bin/h5delete", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "numpy-config": "/usr/local/bin/numpy-config", "h5fc": "/usr/local/bin/h5fc", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peek-bio.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/peek-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/peek-bio:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/peek-bio:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/peek-bio/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/peek-bio/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/peek-bio/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/peek-bio/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

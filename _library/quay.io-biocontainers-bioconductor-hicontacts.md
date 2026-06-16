@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicontacts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicontacts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicontacts/container.yaml"
-updated_at: "2026-06-15 07:39:47.863248"
+updated_at: "2026-06-16 07:39:59.724154"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicontacts"
 aliases:

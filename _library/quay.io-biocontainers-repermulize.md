@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repermulize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repermulize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repermulize/container.yaml"
-updated_at: "2026-06-15 07:52:11.238611"
+updated_at: "2026-06-16 07:52:35.958183"
 latest: "1.1.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/repermulize"
 aliases:

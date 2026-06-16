@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/chaintools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chaintools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chaintools/container.yaml"
-updated_at: "2026-06-15 07:55:12.699404"
-latest: "0.0.2--hd612981_0"
+updated_at: "2026-06-16 07:55:42.362948"
+latest: "0.0.3--hd612981_0"
 container_url: "https://biocontainers.pro/tools/chaintools"
 aliases:
  - "benchmark"
  - "chaintools"
 versions:
  - "0.0.2--hd612981_0"
+ - "0.0.3--hd612981_0"
 description: "singularity registry hpc automated addition for chaintools"
-config: {"url": "https://biocontainers.pro/tools/chaintools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chaintools", "latest": {"0.0.2--hd612981_0": "sha256:c9a0e07475aeac8498d885606d140cf12dcebaf37763dc3fc8753fd2ac7a9b1e"}, "tags": {"0.0.2--hd612981_0": "sha256:c9a0e07475aeac8498d885606d140cf12dcebaf37763dc3fc8753fd2ac7a9b1e"}, "docker": "quay.io/biocontainers/chaintools", "aliases": {"benchmark": "/usr/local/bin/benchmark", "chaintools": "/usr/local/bin/chaintools"}}
+config: {"url": "https://biocontainers.pro/tools/chaintools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chaintools", "latest": {"0.0.3--hd612981_0": "sha256:dea6f8fc5fa5e38339dbbeab9c5fb24cb42b1b86a4129d2cfdc32ada543cd951"}, "tags": {"0.0.2--hd612981_0": "sha256:c9a0e07475aeac8498d885606d140cf12dcebaf37763dc3fc8753fd2ac7a9b1e", "0.0.3--hd612981_0": "sha256:dea6f8fc5fa5e38339dbbeab9c5fb24cb42b1b86a4129d2cfdc32ada543cd951"}, "docker": "quay.io/biocontainers/chaintools", "aliases": {"benchmark": "/usr/local/bin/benchmark", "chaintools": "/usr/local/bin/chaintools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chaintools.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/chaintools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chaintools:0.0.2--hd612981_0
+$ shpc install quay.io/biocontainers/chaintools:0.0.3--hd612981_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chaintools/0.0.2--hd612981_0
-$ module help quay.io/biocontainers/chaintools/0.0.2--hd612981_0
+$ module load quay.io/biocontainers/chaintools/0.0.3--hd612981_0
+$ module help quay.io/biocontainers/chaintools/0.0.3--hd612981_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

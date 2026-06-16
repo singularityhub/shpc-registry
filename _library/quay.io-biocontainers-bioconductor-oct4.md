@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oct4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oct4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oct4/container.yaml"
-updated_at: "2026-06-15 07:52:01.753587"
+updated_at: "2026-06-16 07:52:26.594000"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oct4"
 aliases:
