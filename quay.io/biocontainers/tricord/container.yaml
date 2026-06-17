@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tricord
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tricord
 latest:
-  0.1.2--hfa8f182_0: 
-    sha256:a836856e76815040838e6bb5a5e5d14118208bff3563340bf186db51bd315c41
+  0.1.3--hfa8f182_0: 
+    sha256:270e47cf61f04192e7948897367bad2fd81041a2aba9355295530e3b05cd753a
 tags:
   0.1.2--hfa8f182_0: 
     sha256:a836856e76815040838e6bb5a5e5d14118208bff3563340bf186db51bd315c41
+  0.1.3--hfa8f182_0: 
+    sha256:270e47cf61f04192e7948897367bad2fd81041a2aba9355295530e3b05cd753a
 docker: quay.io/biocontainers/tricord
 aliases:
   tricorder: /usr/local/bin/tricorder
