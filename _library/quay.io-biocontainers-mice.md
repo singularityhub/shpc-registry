@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mice/container.yaml"
-updated_at: "2026-06-16 08:16:28.418962"
+updated_at: "2026-06-17 07:59:03.386512"
 latest: "0.1.2--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/mice"
 aliases:

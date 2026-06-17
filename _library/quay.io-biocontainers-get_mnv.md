@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/get_mnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/get_mnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/get_mnv/container.yaml"
-updated_at: "2026-06-16 07:46:49.096290"
-latest: "1.1.2--h54198d6_0"
+updated_at: "2026-06-17 07:29:29.110630"
+latest: "1.1.4--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/get_mnv"
 aliases:
  - "get_mnv"
@@ -17,8 +17,9 @@ versions:
  - "1.0.0--ha7a4ace_1"
  - "1.0.1--hc863124_0"
  - "1.1.2--h54198d6_0"
+ - "1.1.4--hfa8f182_0"
 description: "singularity registry hpc automated addition for get_mnv"
-config: {"url": "https://biocontainers.pro/tools/get_mnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for get_mnv", "latest": {"1.1.2--h54198d6_0": "sha256:9f96605cf9c46879af9752c6d49aae8f6849a05e2481e4b7b1e1fe40b4047172"}, "tags": {"1.0.0--ha7a4ace_1": "sha256:1063eb6b98905f92e34b9f5dd7c2c59d164e9a88f71e1373a708a432dc20df95", "1.0.1--hc863124_0": "sha256:824cfc4317732f2eaff4043e5bec0ec318194e53e68188de22f1418e27b2b5e5", "1.1.2--h54198d6_0": "sha256:9f96605cf9c46879af9752c6d49aae8f6849a05e2481e4b7b1e1fe40b4047172"}, "docker": "quay.io/biocontainers/get_mnv", "aliases": {"get_mnv": "/usr/local/bin/get_mnv", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/get_mnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for get_mnv", "latest": {"1.1.4--hfa8f182_0": "sha256:9c3933609bcde7ff4360216d93f52a9cb7583a836b20f7df85c76658056627b6"}, "tags": {"1.0.0--ha7a4ace_1": "sha256:1063eb6b98905f92e34b9f5dd7c2c59d164e9a88f71e1373a708a432dc20df95", "1.0.1--hc863124_0": "sha256:824cfc4317732f2eaff4043e5bec0ec318194e53e68188de22f1418e27b2b5e5", "1.1.2--h54198d6_0": "sha256:9f96605cf9c46879af9752c6d49aae8f6849a05e2481e4b7b1e1fe40b4047172", "1.1.4--hfa8f182_0": "sha256:9c3933609bcde7ff4360216d93f52a9cb7583a836b20f7df85c76658056627b6"}, "docker": "quay.io/biocontainers/get_mnv", "aliases": {"get_mnv": "/usr/local/bin/get_mnv", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/get_mnv.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/get_mnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/get_mnv:1.1.2--h54198d6_0
+$ shpc install quay.io/biocontainers/get_mnv:1.1.4--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/get_mnv/1.1.2--h54198d6_0
-$ module help quay.io/biocontainers/get_mnv/1.1.2--h54198d6_0
+$ module load quay.io/biocontainers/get_mnv/1.1.4--hfa8f182_0
+$ module help quay.io/biocontainers/get_mnv/1.1.4--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

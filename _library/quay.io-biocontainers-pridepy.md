@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pridepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pridepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pridepy/container.yaml"
-updated_at: "2026-06-16 07:59:01.114434"
+updated_at: "2026-06-17 07:41:43.740152"
 latest: "0.0.15--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pridepy"
 aliases:

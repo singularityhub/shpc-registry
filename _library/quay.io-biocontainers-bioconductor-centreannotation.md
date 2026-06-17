@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-centreannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-centreannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-centreannotation/container.yaml"
-updated_at: "2026-06-16 08:02:05.858120"
+updated_at: "2026-06-17 07:44:49.988941"
 latest: "0.99.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-centreannotation"
 aliases:

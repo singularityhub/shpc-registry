@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kegg_pull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kegg_pull/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kegg_pull/container.yaml"
-updated_at: "2026-06-16 08:18:55.143468"
-latest: "3.2.2--pyhdfd78af_0"
+updated_at: "2026-06-17 08:01:30.490315"
+latest: "3.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kegg_pull"
 aliases:
  - "kegg_pull"
@@ -18,8 +18,9 @@ aliases:
  - "normalizer"
 versions:
  - "3.2.2--pyhdfd78af_0"
+ - "3.2.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for kegg_pull"
-config: {"url": "https://biocontainers.pro/tools/kegg_pull", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kegg_pull", "latest": {"3.2.2--pyhdfd78af_0": "sha256:fd5a991b5706355a489a182a510a77759cb3a816e26f4c364e5661fe5beed1c6"}, "tags": {"3.2.2--pyhdfd78af_0": "sha256:fd5a991b5706355a489a182a510a77759cb3a816e26f4c364e5661fe5beed1c6"}, "docker": "quay.io/biocontainers/kegg_pull", "aliases": {"kegg_pull": "/usr/local/bin/kegg_pull", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/kegg_pull", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kegg_pull", "latest": {"3.2.3--pyhdfd78af_0": "sha256:86480c91ced931c42e7307d53221ab753b150e95b736c0d01a95c40d5b9cb92f"}, "tags": {"3.2.2--pyhdfd78af_0": "sha256:fd5a991b5706355a489a182a510a77759cb3a816e26f4c364e5661fe5beed1c6", "3.2.3--pyhdfd78af_0": "sha256:86480c91ced931c42e7307d53221ab753b150e95b736c0d01a95c40d5b9cb92f"}, "docker": "quay.io/biocontainers/kegg_pull", "aliases": {"kegg_pull": "/usr/local/bin/kegg_pull", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kegg_pull.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/kegg_pull
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kegg_pull:3.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kegg_pull:3.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kegg_pull/3.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/kegg_pull/3.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/kegg_pull/3.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/kegg_pull/3.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

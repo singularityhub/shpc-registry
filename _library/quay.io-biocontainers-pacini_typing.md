@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pacini_typing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pacini_typing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pacini_typing/container.yaml"
-updated_at: "2026-06-16 07:37:42.012270"
-latest: "3.1.0--pyhdfd78af_0"
+updated_at: "2026-06-17 07:20:33.263099"
+latest: "3.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pacini_typing"
 aliases:
  - "Pacini-typing"
@@ -40,8 +40,9 @@ versions:
  - "2.0.2--pyhdfd78af_0"
  - "3.0.1--pyhdfd78af_0"
  - "3.1.0--pyhdfd78af_0"
+ - "3.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pacini_typing"
-config: {"url": "https://biocontainers.pro/tools/pacini_typing", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pacini_typing", "latest": {"3.1.0--pyhdfd78af_0": "sha256:54767271c831884d31d9021e41f877bb8f2c09c1b72e72817ebf577186c215e1"}, "tags": {"1.6.4--pyhdfd78af_0": "sha256:ae817f2537bee4e54e679e7f7831bcd812e60441fa99a5ca41c28a1a268fd916", "2.0.2--pyhdfd78af_0": "sha256:129c1f7317e580ef641d5af308d34b59a1b878c56579afec3f923034f4251081", "3.0.1--pyhdfd78af_0": "sha256:a929d3cbc0f14776b4f37a26badbebdfee67d25e2a99bb6a50cc17a5d1d6e82b", "3.1.0--pyhdfd78af_0": "sha256:54767271c831884d31d9021e41f877bb8f2c09c1b72e72817ebf577186c215e1"}, "docker": "quay.io/biocontainers/pacini_typing", "aliases": {"Pacini-typing": "/usr/local/bin/Pacini-typing", "pacini_typing": "/usr/local/bin/pacini_typing", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc"}}
+config: {"url": "https://biocontainers.pro/tools/pacini_typing", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pacini_typing", "latest": {"3.1.1--pyhdfd78af_0": "sha256:38b3d340c90082b95df78d77638ac34865638b9edcd8d7663e79ab30e9eab88b"}, "tags": {"1.6.4--pyhdfd78af_0": "sha256:ae817f2537bee4e54e679e7f7831bcd812e60441fa99a5ca41c28a1a268fd916", "2.0.2--pyhdfd78af_0": "sha256:129c1f7317e580ef641d5af308d34b59a1b878c56579afec3f923034f4251081", "3.0.1--pyhdfd78af_0": "sha256:a929d3cbc0f14776b4f37a26badbebdfee67d25e2a99bb6a50cc17a5d1d6e82b", "3.1.0--pyhdfd78af_0": "sha256:54767271c831884d31d9021e41f877bb8f2c09c1b72e72817ebf577186c215e1", "3.1.1--pyhdfd78af_0": "sha256:38b3d340c90082b95df78d77638ac34865638b9edcd8d7663e79ab30e9eab88b"}, "docker": "quay.io/biocontainers/pacini_typing", "aliases": {"Pacini-typing": "/usr/local/bin/Pacini-typing", "pacini_typing": "/usr/local/bin/pacini_typing", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-ncbinlp": "/usr/local/bin/archive-ncbinlp", "archive-nihocc": "/usr/local/bin/archive-nihocc", "archive-nmcds": "/usr/local/bin/archive-nmcds", "archive-pmc": "/usr/local/bin/archive-pmc", "archive-taxonomy": "/usr/local/bin/archive-taxonomy", "args2slice": "/usr/local/bin/args2slice", "asn2ref": "/usr/local/bin/asn2ref", "blst2gm": "/usr/local/bin/blst2gm", "cit2pmid": "/usr/local/bin/cit2pmid", "combine-uid-lists": "/usr/local/bin/combine-uid-lists", "difference-uid-lists": "/usr/local/bin/difference-uid-lists", "download-pmc": "/usr/local/bin/download-pmc", "ds2pme": "/usr/local/bin/ds2pme", "fetch-local": "/usr/local/bin/fetch-local", "fetch-nmcds": "/usr/local/bin/fetch-nmcds", "fetch-pmc": "/usr/local/bin/fetch-pmc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pacini_typing.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/pacini_typing
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pacini_typing:3.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pacini_typing:3.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pacini_typing/3.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pacini_typing/3.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pacini_typing/3.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pacini_typing/3.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

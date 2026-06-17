@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/intron-prospector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intron-prospector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/intron-prospector/container.yaml"
-updated_at: "2026-06-16 08:20:12.742995"
+updated_at: "2026-06-17 08:02:54.669436"
 latest: "1.5.1--hd6466ae_0"
 container_url: "https://biocontainers.pro/tools/intron-prospector"
 aliases:

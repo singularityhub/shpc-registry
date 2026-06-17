@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proteomicsannotationhubdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteomicsannotationhubdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteomicsannotationhubdata/container.yaml"
-updated_at: "2026-06-16 07:37:11.594643"
+updated_at: "2026-06-17 07:20:04.094095"
 latest: "1.24.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteomicsannotationhubdata"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qualrepair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qualrepair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qualrepair/container.yaml"
-updated_at: "2026-06-16 07:58:47.767150"
+updated_at: "2026-06-17 07:41:30.606865"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/qualrepair"
 aliases:

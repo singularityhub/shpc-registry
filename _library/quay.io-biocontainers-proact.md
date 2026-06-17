@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proact"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proact/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proact/container.yaml"
-updated_at: "2026-06-16 08:18:52.951923"
+updated_at: "2026-06-17 08:01:28.261384"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/proact"
 aliases:
