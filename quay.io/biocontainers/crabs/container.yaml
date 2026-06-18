@@ -17,6 +17,8 @@ tags:
     sha256:4b1a4df953eecb39f7154f0aab700d28d328d5c90a1ae30a9eff9307068b84d2
   1.14.0--pyhdfd78af_0: 
     sha256:45d6240ead25bcc7ae7521cfebbf708ff376bc9e1453458eefb9f65dfdffb5e9
+  0.1.7--pyhdfd78af_1: 
+    sha256:d4caf3adf1668239f2059cf483ec909bf291ef43fe718dd17ddea2c8c3b848e3
 docker: quay.io/biocontainers/crabs
 aliases:
   crabs: /usr/local/bin/crabs

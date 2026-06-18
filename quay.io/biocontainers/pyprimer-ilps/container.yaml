@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pyprimer-ilps
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pyprimer-ilps
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:07d5f196d3d7814b1a13a898143cccac4f373fa01d00f8a0de79b08dc81cfa60
+  0.1.2--pyhdfd78af_0: 
+    sha256:8e0e1729cf8348351743bbb0abc2cdc25e664fe44528016f013e659cc76e0953
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:07d5f196d3d7814b1a13a898143cccac4f373fa01d00f8a0de79b08dc81cfa60
+  0.1.2--pyhdfd78af_0: 
+    sha256:8e0e1729cf8348351743bbb0abc2cdc25e664fe44528016f013e659cc76e0953
 docker: quay.io/biocontainers/pyprimer-ilps
 aliases:
   pyprimer: /usr/local/bin/pyprimer

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/molamola
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for molamola
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:f0a7a69d53806bb3deebbd1c43294e410c00f79607d2d996a46d6a40023d1380
+  0.3.0--pyhdfd78af_0: 
+    sha256:ec85af414b5846f5df118ff27aeb059ab0af7ce65adcc762310bd274bc726bd1
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:f0a7a69d53806bb3deebbd1c43294e410c00f79607d2d996a46d6a40023d1380
+  0.3.0--pyhdfd78af_0: 
+    sha256:ec85af414b5846f5df118ff27aeb059ab0af7ce65adcc762310bd274bc726bd1
 docker: quay.io/biocontainers/molamola
 aliases:
   molamola: /usr/local/bin/molamola

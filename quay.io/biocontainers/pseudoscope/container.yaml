@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pseudoscope
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pseudoscope
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:7a9577d79639ac95b906ac825651ec5618c36f9cfe563018056177b5d23cfa59
+  1.0.1--pyhdfd78af_0: 
+    sha256:39d4f5a730e3bc612f5cbd68edd46a03a614b0dd2450e4012be08e47388b3736
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:7a9577d79639ac95b906ac825651ec5618c36f9cfe563018056177b5d23cfa59
+  1.0.1--pyhdfd78af_0: 
+    sha256:39d4f5a730e3bc612f5cbd68edd46a03a614b0dd2450e4012be08e47388b3736
 docker: quay.io/biocontainers/pseudoscope
 aliases:
   camlhmp: /usr/local/bin/camlhmp
