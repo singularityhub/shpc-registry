@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alpaqa-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alpaqa-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alpaqa-bio/container.yaml"
-updated_at: "2026-06-17 08:01:27.688295"
+updated_at: "2026-06-18 07:45:37.108740"
 latest: "0.1.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/alpaqa-bio"
 aliases:

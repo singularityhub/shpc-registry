@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psortem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psortem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/psortem/container.yaml"
-updated_at: "2026-06-17 07:14:22.775113"
+updated_at: "2026-06-18 06:56:44.562409"
 latest: "0.4.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/psortem"
 aliases:

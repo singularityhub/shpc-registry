@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pseudoscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pseudoscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pseudoscope/container.yaml"
-updated_at: "2026-06-17 07:19:40.700103"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-06-18 07:02:16.837601"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pseudoscope"
 aliases:
  - "camlhmp"
@@ -44,8 +44,9 @@ aliases:
  - "znew"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pseudoscope"
-config: {"url": "https://biocontainers.pro/tools/pseudoscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pseudoscope", "latest": {"1.0.0--pyhdfd78af_0": "sha256:7a9577d79639ac95b906ac825651ec5618c36f9cfe563018056177b5d23cfa59"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:7a9577d79639ac95b906ac825651ec5618c36f9cfe563018056177b5d23cfa59"}, "docker": "quay.io/biocontainers/pseudoscope", "aliases": {"camlhmp": "/usr/local/bin/camlhmp", "camlhmp-blast-alleles": "/usr/local/bin/camlhmp-blast-alleles", "camlhmp-blast-regions": "/usr/local/bin/camlhmp-blast-regions", "camlhmp-blast-targets": "/usr/local/bin/camlhmp-blast-targets", "camlhmp-blast-thresholds": "/usr/local/bin/camlhmp-blast-thresholds", "camlhmp-extract": "/usr/local/bin/camlhmp-extract", "gawk-5.4.0": "/usr/local/bin/gawk-5.4.0", "pasty": "/usr/local/bin/pasty", "pseudoscope": "/usr/local/bin/pseudoscope", "ds": "/usr/local/bin/ds", "executor": "/usr/local/bin/executor", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "zless": "/usr/local/bin/zless", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "any2fasta": "/usr/local/bin/any2fasta", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew"}}
+config: {"url": "https://biocontainers.pro/tools/pseudoscope", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pseudoscope", "latest": {"1.0.1--pyhdfd78af_0": "sha256:39d4f5a730e3bc612f5cbd68edd46a03a614b0dd2450e4012be08e47388b3736"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:7a9577d79639ac95b906ac825651ec5618c36f9cfe563018056177b5d23cfa59", "1.0.1--pyhdfd78af_0": "sha256:39d4f5a730e3bc612f5cbd68edd46a03a614b0dd2450e4012be08e47388b3736"}, "docker": "quay.io/biocontainers/pseudoscope", "aliases": {"camlhmp": "/usr/local/bin/camlhmp", "camlhmp-blast-alleles": "/usr/local/bin/camlhmp-blast-alleles", "camlhmp-blast-regions": "/usr/local/bin/camlhmp-blast-regions", "camlhmp-blast-targets": "/usr/local/bin/camlhmp-blast-targets", "camlhmp-blast-thresholds": "/usr/local/bin/camlhmp-blast-thresholds", "camlhmp-extract": "/usr/local/bin/camlhmp-extract", "gawk-5.4.0": "/usr/local/bin/gawk-5.4.0", "pasty": "/usr/local/bin/pasty", "pseudoscope": "/usr/local/bin/pseudoscope", "ds": "/usr/local/bin/ds", "executor": "/usr/local/bin/executor", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "zless": "/usr/local/bin/zless", "p11-kit": "/usr/local/bin/p11-kit", "p11tool": "/usr/local/bin/p11tool", "trust": "/usr/local/bin/trust", "asn1Coding": "/usr/local/bin/asn1Coding", "asn1Decoding": "/usr/local/bin/asn1Decoding", "asn1Parser": "/usr/local/bin/asn1Parser", "any2fasta": "/usr/local/bin/any2fasta", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pseudoscope.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/pseudoscope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pseudoscope:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pseudoscope:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pseudoscope/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pseudoscope/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pseudoscope/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pseudoscope/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

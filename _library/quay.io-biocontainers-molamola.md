@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/molamola"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/molamola/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/molamola/container.yaml"
-updated_at: "2026-06-17 07:17:12.606659"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2026-06-18 06:59:40.990221"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/molamola"
 aliases:
  - "molamola"
@@ -30,8 +30,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for molamola"
-config: {"url": "https://biocontainers.pro/tools/molamola", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for molamola", "latest": {"0.2.0--pyhdfd78af_0": "sha256:f0a7a69d53806bb3deebbd1c43294e410c00f79607d2d996a46d6a40023d1380"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:f0a7a69d53806bb3deebbd1c43294e410c00f79607d2d996a46d6a40023d1380"}, "docker": "quay.io/biocontainers/molamola", "aliases": {"molamola": "/usr/local/bin/molamola", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/molamola", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for molamola", "latest": {"0.3.0--pyhdfd78af_0": "sha256:ec85af414b5846f5df118ff27aeb059ab0af7ce65adcc762310bd274bc726bd1"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:f0a7a69d53806bb3deebbd1c43294e410c00f79607d2d996a46d6a40023d1380", "0.3.0--pyhdfd78af_0": "sha256:ec85af414b5846f5df118ff27aeb059ab0af7ce65adcc762310bd274bc726bd1"}, "docker": "quay.io/biocontainers/molamola", "aliases": {"molamola": "/usr/local/bin/molamola", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/molamola.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/molamola
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/molamola:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/molamola:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/molamola/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/molamola/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/molamola/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/molamola/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gwaslab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gwaslab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gwaslab/container.yaml"
-updated_at: "2026-06-17 07:14:03.713678"
+updated_at: "2026-06-18 06:56:24.593115"
 latest: "4.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gwaslab"
 aliases:

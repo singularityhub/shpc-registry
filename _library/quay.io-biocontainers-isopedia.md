@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isopedia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isopedia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isopedia/container.yaml"
-updated_at: "2026-06-17 07:29:49.331104"
+updated_at: "2026-06-18 07:12:51.336064"
 latest: "1.6.5--hf679fb9_0"
 container_url: "https://biocontainers.pro/tools/isopedia"
 aliases:

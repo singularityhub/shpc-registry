@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellmapper/container.yaml"
-updated_at: "2026-06-17 08:04:24.146126"
+updated_at: "2026-06-18 07:48:26.183445"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellmapper"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-legato"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-legato/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-legato/container.yaml"
-updated_at: "2026-06-17 07:14:05.922285"
+updated_at: "2026-06-18 06:56:26.946985"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-legato"
 aliases:

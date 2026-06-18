@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rucova"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rucova/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rucova/container.yaml"
-updated_at: "2026-06-17 07:33:48.739123"
+updated_at: "2026-06-18 07:16:58.377710"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rucova"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mudata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mudata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mudata/container.yaml"
-updated_at: "2026-06-17 08:02:15.494204"
+updated_at: "2026-06-18 07:46:25.552820"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mudata"
 aliases:

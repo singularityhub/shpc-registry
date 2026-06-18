@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tsenat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tsenat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tsenat/container.yaml"
-updated_at: "2026-06-17 07:42:02.929821"
+updated_at: "2026-06-18 07:25:28.454486"
 latest: "0.99.0--r45h8471819_1"
 container_url: "https://biocontainers.pro/tools/r-tsenat"
 aliases:

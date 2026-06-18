@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smakcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smakcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smakcr/container.yaml"
-updated_at: "2026-06-17 07:32:56.610694"
+updated_at: "2026-06-18 07:16:04.348136"
 latest: "0.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/smakcr"
 aliases:

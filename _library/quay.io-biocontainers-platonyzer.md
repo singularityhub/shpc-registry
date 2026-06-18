@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/platonyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/platonyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/platonyzer/container.yaml"
-updated_at: "2026-06-17 08:04:34.070965"
+updated_at: "2026-06-18 07:48:35.610532"
 latest: "2.0.5--hf426362_0"
 container_url: "https://biocontainers.pro/tools/platonyzer"
 aliases:

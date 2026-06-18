@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyprimer-ilps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyprimer-ilps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyprimer-ilps/container.yaml"
-updated_at: "2026-06-17 08:02:20.701350"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2026-06-18 07:46:30.169242"
+latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyprimer-ilps"
 aliases:
  - "pyprimer"
@@ -15,8 +15,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pyprimer-ilps"
-config: {"url": "https://biocontainers.pro/tools/pyprimer-ilps", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyprimer-ilps", "latest": {"0.1.1--pyhdfd78af_0": "sha256:07d5f196d3d7814b1a13a898143cccac4f373fa01d00f8a0de79b08dc81cfa60"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:07d5f196d3d7814b1a13a898143cccac4f373fa01d00f8a0de79b08dc81cfa60"}, "docker": "quay.io/biocontainers/pyprimer-ilps", "aliases": {"pyprimer": "/usr/local/bin/pyprimer", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyprimer-ilps", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyprimer-ilps", "latest": {"0.1.2--pyhdfd78af_0": "sha256:8e0e1729cf8348351743bbb0abc2cdc25e664fe44528016f013e659cc76e0953"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:07d5f196d3d7814b1a13a898143cccac4f373fa01d00f8a0de79b08dc81cfa60", "0.1.2--pyhdfd78af_0": "sha256:8e0e1729cf8348351743bbb0abc2cdc25e664fe44528016f013e659cc76e0953"}, "docker": "quay.io/biocontainers/pyprimer-ilps", "aliases": {"pyprimer": "/usr/local/bin/pyprimer", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyprimer-ilps.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pyprimer-ilps
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyprimer-ilps:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pyprimer-ilps:0.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyprimer-ilps/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/pyprimer-ilps/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/pyprimer-ilps/0.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/pyprimer-ilps/0.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
