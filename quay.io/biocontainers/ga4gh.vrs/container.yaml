@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ga4gh.vrs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ga4gh.vrs
 latest:
-  2.3.1--pyhdfd78af_0: 
-    sha256:11a87fd24e67ce194bff33933581c12d270842e2c4d84c067079b97041d9e1e3
+  2.3.3--pyhdfd78af_0: 
+    sha256:a4e14f0c3c6f3e3507d4e451d0cb76b7e005b732e4d7118daf1fb77c6f369340
 tags:
   2.3.1--pyhdfd78af_0: 
     sha256:11a87fd24e67ce194bff33933581c12d270842e2c4d84c067079b97041d9e1e3
+  2.3.3--pyhdfd78af_0: 
+    sha256:a4e14f0c3c6f3e3507d4e451d0cb76b7e005b732e4d7118daf1fb77c6f369340
 docker: quay.io/biocontainers/ga4gh.vrs
 aliases:
   hgvs-shell: /usr/local/bin/hgvs-shell
