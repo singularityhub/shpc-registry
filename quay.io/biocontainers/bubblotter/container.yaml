@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/bubblotter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bubblotter
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:57f686ab71dd3796398c4fc8d39fc5f9bb382a9b0ad8965dd47b59684e6436d1
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:57f686ab71dd3796398c4fc8d39fc5f9bb382a9b0ad8965dd47b59684e6436d1
+docker: quay.io/biocontainers/bubblotter
+aliases:
+  Bandage: /usr/local/bin/Bandage
+  BubbleGun: /usr/local/bin/BubbleGun
+  bubblotter: /usr/local/bin/bubblotter
+  fc-genconf: /usr/local/bin/fc-genconf
+  vg: /usr/local/bin/vg
+  pax11publish: /usr/local/bin/pax11publish
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  balsam: /usr/local/bin/balsam
+  lprodump: /usr/local/bin/lprodump
+  lrelease-pro: /usr/local/bin/lrelease-pro
+  lupdate-pro: /usr/local/bin/lupdate-pro
+  meshdebug: /usr/local/bin/meshdebug
+  qmlformat: /usr/local/bin/qmlformat
+  qmltime: /usr/local/bin/qmltime
+  qmltyperegistrar: /usr/local/bin/qmltyperegistrar
+  tracegen: /usr/local/bin/tracegen
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump

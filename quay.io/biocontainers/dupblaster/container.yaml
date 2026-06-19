@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/dupblaster
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dupblaster
+latest:
+  0.1.0--hfa8f182_0: 
+    sha256:01aa68f182e161ce1f1db3c46c1f73f3d816eea7c3379f8c245ae09d8e877088
+tags:
+  0.1.0--hfa8f182_0: 
+    sha256:01aa68f182e161ce1f1db3c46c1f73f3d816eea7c3379f8c245ae09d8e877088
+docker: quay.io/biocontainers/dupblaster
+aliases:
+  dupblaster: /usr/local/bin/dupblaster
