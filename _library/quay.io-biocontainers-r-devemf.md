@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-devemf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-devemf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-devemf/container.yaml"
-updated_at: "2026-06-18 07:25:05.345278"
-latest: "4.5_1--r45h1d2eddd_1"
+updated_at: "2026-06-19 07:38:47.586435"
+latest: "4.6--r45hd883ed7_0"
 container_url: "https://biocontainers.pro/tools/r-devemf"
 aliases:
  - "hb-raster"
@@ -14,8 +14,9 @@ aliases:
  - "hb-info"
 versions:
  - "4.5_1--r45h1d2eddd_1"
+ - "4.6--r45hd883ed7_0"
 description: "singularity registry hpc automated addition for r-devemf"
-config: {"url": "https://biocontainers.pro/tools/r-devemf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-devemf", "latest": {"4.5_1--r45h1d2eddd_1": "sha256:02338dad9241b1d7b6c2d8c4374f2112c097f3afd9e4f1c9d3f5fde69bbde9e4"}, "tags": {"4.5_1--r45h1d2eddd_1": "sha256:02338dad9241b1d7b6c2d8c4374f2112c097f3afd9e4f1c9d3f5fde69bbde9e4"}, "docker": "quay.io/biocontainers/r-devemf", "aliases": {"hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info"}}
+config: {"url": "https://biocontainers.pro/tools/r-devemf", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-devemf", "latest": {"4.6--r45hd883ed7_0": "sha256:2a3f291d72ba4b7c9827670c7a46a598514a196fa3dda88bb9dea879a05f5bff"}, "tags": {"4.5_1--r45h1d2eddd_1": "sha256:02338dad9241b1d7b6c2d8c4374f2112c097f3afd9e4f1c9d3f5fde69bbde9e4", "4.6--r45hd883ed7_0": "sha256:2a3f291d72ba4b7c9827670c7a46a598514a196fa3dda88bb9dea879a05f5bff"}, "docker": "quay.io/biocontainers/r-devemf", "aliases": {"hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-devemf.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/r-devemf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-devemf:4.5_1--r45h1d2eddd_1
+$ shpc install quay.io/biocontainers/r-devemf:4.6--r45hd883ed7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-devemf/4.5_1--r45h1d2eddd_1
-$ module help quay.io/biocontainers/r-devemf/4.5_1--r45h1d2eddd_1
+$ module load quay.io/biocontainers/r-devemf/4.6--r45hd883ed7_0
+$ module help quay.io/biocontainers/r-devemf/4.6--r45hd883ed7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

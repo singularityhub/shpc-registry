@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.filesets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.filesets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.filesets/container.yaml"
-updated_at: "2026-06-18 07:11:53.422207"
+updated_at: "2026-06-19 07:25:16.911078"
 latest: "2.10.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.filesets"
 aliases:

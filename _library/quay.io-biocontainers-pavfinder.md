@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pavfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pavfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pavfinder/container.yaml"
-updated_at: "2026-06-18 07:11:53.717641"
+updated_at: "2026-06-19 07:25:17.219408"
 latest: "1.8.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pavfinder"
 aliases:

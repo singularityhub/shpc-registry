@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nf-metro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nf-metro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nf-metro/container.yaml"
-updated_at: "2026-06-18 07:35:15.924951"
-latest: "0.7.2--pyhdfd78af_0"
+updated_at: "2026-06-19 07:49:09.490513"
+latest: "0.7.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/nf-metro"
 aliases:
  - "nf-metro"
@@ -22,8 +22,9 @@ versions:
  - "0.6.1--pyhdfd78af_0"
  - "0.5.4--pyhdfd78af_0"
  - "0.7.2--pyhdfd78af_0"
+ - "0.7.2--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for nf-metro"
-config: {"url": "https://biocontainers.pro/tools/nf-metro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nf-metro", "latest": {"0.7.2--pyhdfd78af_0": "sha256:649bb45fe267ef649fb551b60b5364521d57da69ebb05ea4fa341ae4f5ec0b49"}, "tags": {"0.4.7--pyhdfd78af_0": "sha256:b84af06300510b7d30ca9467bdc4d992c1345b17a7a0720bf58c78f086d85076", "0.6.1--pyhdfd78af_0": "sha256:4c6f1f4da43e6e5702e9fa564b2b6269a43b61968d3112cd1cf7d5efffb826bb", "0.5.4--pyhdfd78af_0": "sha256:c75f3f3fe0ae99d3f949d4f24695944ba9d9738466bc917ee833f485c586e504", "0.7.2--pyhdfd78af_0": "sha256:649bb45fe267ef649fb551b60b5364521d57da69ebb05ea4fa341ae4f5ec0b49"}, "docker": "quay.io/biocontainers/nf-metro", "aliases": {"nf-metro": "/usr/local/bin/nf-metro", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/nf-metro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nf-metro", "latest": {"0.7.2--pyhdfd78af_1": "sha256:c72c340dfb651b5bc6965e4e480b30dc4cd0309b04fed6e8a8866014056e1dc4"}, "tags": {"0.4.7--pyhdfd78af_0": "sha256:b84af06300510b7d30ca9467bdc4d992c1345b17a7a0720bf58c78f086d85076", "0.6.1--pyhdfd78af_0": "sha256:4c6f1f4da43e6e5702e9fa564b2b6269a43b61968d3112cd1cf7d5efffb826bb", "0.5.4--pyhdfd78af_0": "sha256:c75f3f3fe0ae99d3f949d4f24695944ba9d9738466bc917ee833f485c586e504", "0.7.2--pyhdfd78af_0": "sha256:649bb45fe267ef649fb551b60b5364521d57da69ebb05ea4fa341ae4f5ec0b49", "0.7.2--pyhdfd78af_1": "sha256:c72c340dfb651b5bc6965e4e480b30dc4cd0309b04fed6e8a8866014056e1dc4"}, "docker": "quay.io/biocontainers/nf-metro", "aliases": {"nf-metro": "/usr/local/bin/nf-metro", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nf-metro.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/nf-metro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nf-metro:0.7.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nf-metro:0.7.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nf-metro/0.7.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/nf-metro/0.7.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/nf-metro/0.7.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/nf-metro/0.7.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

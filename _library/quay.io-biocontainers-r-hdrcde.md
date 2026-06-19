@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hdrcde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hdrcde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hdrcde/container.yaml"
-updated_at: "2026-06-18 07:12:20.423556"
+updated_at: "2026-06-19 07:25:43.682530"
 latest: "3.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-hdrcde"
 aliases:

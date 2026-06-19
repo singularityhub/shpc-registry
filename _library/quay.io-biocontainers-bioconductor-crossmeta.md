@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crossmeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crossmeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crossmeta/container.yaml"
-updated_at: "2026-06-18 07:03:46.145840"
+updated_at: "2026-06-19 07:17:23.338348"
 latest: "1.28.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crossmeta"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gwaslab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gwaslab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gwaslab/container.yaml"
-updated_at: "2026-06-18 06:56:24.593115"
-latest: "4.1.6--pyhdfd78af_0"
+updated_at: "2026-06-19 07:10:31.009217"
+latest: "4.1.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gwaslab"
 aliases:
  - "gwaslab"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "4.1.5--pyhdfd78af_0"
  - "4.1.6--pyhdfd78af_0"
+ - "4.1.9--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gwaslab"
-config: {"url": "https://biocontainers.pro/tools/gwaslab", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gwaslab", "latest": {"4.1.6--pyhdfd78af_0": "sha256:51ee06996136faaf76e090c374831683f7b8ab127c013beee40e256b33c7949d"}, "tags": {"4.1.5--pyhdfd78af_0": "sha256:748016974f45366965000c649aeba081e0ca6f436fc0245450d0e8e7798651a8", "4.1.6--pyhdfd78af_0": "sha256:51ee06996136faaf76e090c374831683f7b8ab127c013beee40e256b33c7949d"}, "docker": "quay.io/biocontainers/gwaslab", "aliases": {"gwaslab": "/usr/local/bin/gwaslab", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "zarr": "/usr/local/bin/zarr", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "torchfrtrace": "/usr/local/bin/torchfrtrace", "dask": "/usr/local/bin/dask", "nosetests": "/usr/local/bin/nosetests", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "bokeh": "/usr/local/bin/bokeh", "h5fuse": "/usr/local/bin/h5fuse", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "elasticurl": "/usr/local/bin/elasticurl", "csv-import": "/usr/local/bin/csv-import"}}
+config: {"url": "https://biocontainers.pro/tools/gwaslab", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gwaslab", "latest": {"4.1.9--pyhdfd78af_0": "sha256:89d5985c3003e42c71c2b12a8234d6134101bc02fe472454c2c85fac08514bf2"}, "tags": {"4.1.5--pyhdfd78af_0": "sha256:748016974f45366965000c649aeba081e0ca6f436fc0245450d0e8e7798651a8", "4.1.6--pyhdfd78af_0": "sha256:51ee06996136faaf76e090c374831683f7b8ab127c013beee40e256b33c7949d", "4.1.9--pyhdfd78af_0": "sha256:89d5985c3003e42c71c2b12a8234d6134101bc02fe472454c2c85fac08514bf2"}, "docker": "quay.io/biocontainers/gwaslab", "aliases": {"gwaslab": "/usr/local/bin/gwaslab", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "zarr": "/usr/local/bin/zarr", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "torchfrtrace": "/usr/local/bin/torchfrtrace", "dask": "/usr/local/bin/dask", "nosetests": "/usr/local/bin/nosetests", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "isympy": "/usr/local/bin/isympy", "torchrun": "/usr/local/bin/torchrun", "bokeh": "/usr/local/bin/bokeh", "h5fuse": "/usr/local/bin/h5fuse", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "elasticurl": "/usr/local/bin/elasticurl", "csv-import": "/usr/local/bin/csv-import"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gwaslab.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/gwaslab
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gwaslab:4.1.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gwaslab:4.1.9--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gwaslab/4.1.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/gwaslab/4.1.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/gwaslab/4.1.9--pyhdfd78af_0
+$ module help quay.io/biocontainers/gwaslab/4.1.9--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

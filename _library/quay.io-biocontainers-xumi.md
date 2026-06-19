@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xumi/container.yaml"
-updated_at: "2026-06-18 07:40:33.860902"
+updated_at: "2026-06-19 07:54:27.595457"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/xumi"
 aliases:

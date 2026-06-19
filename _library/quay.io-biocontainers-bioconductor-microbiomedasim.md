@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-microbiomedasim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiomedasim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiomedasim/container.yaml"
-updated_at: "2026-06-18 07:42:45.571018"
+updated_at: "2026-06-19 07:56:41.247347"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiomedasim"
 

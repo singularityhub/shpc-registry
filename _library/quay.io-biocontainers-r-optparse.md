@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-optparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-optparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-optparse/container.yaml"
-updated_at: "2026-06-18 06:56:20.476536"
+updated_at: "2026-06-19 07:10:27.171099"
 latest: "1.7.3"
 container_url: "https://biocontainers.pro/tools/r-optparse"
 aliases:

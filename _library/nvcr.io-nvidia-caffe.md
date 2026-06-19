@@ -4,15 +4,16 @@ name:  "nvcr.io/nvidia/caffe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/caffe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/caffe/container.yaml"
-updated_at: "2026-06-18 07:50:43.614599"
+updated_at: "2026-06-19 08:04:39.126855"
 latest: "20.03-py3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:caffe/tags"
 aliases:
  - "python"
 versions:
  - "20.03-py3"
+ - "crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied"
 description: "NVIDIA Caffe, also known as NVCaffe, is an NVIDIA-maintained fork of Berkeley Vision and Learning Center (BVLC) Caffe tuned for NVIDIA GPUs, particularly in multi-GPU configurations."
-config: {"docker": "nvcr.io/nvidia/caffe", "url": "https://ngc.nvidia.com/catalog/containers/nvidia:caffe/tags", "maintainer": "@vsoch", "description": "NVIDIA Caffe, also known as NVCaffe, is an NVIDIA-maintained fork of Berkeley Vision and Learning Center (BVLC) Caffe tuned for NVIDIA GPUs, particularly in multi-GPU configurations.", "latest": {"20.03-py3": "sha256:c6fb6d8309be4c43ccdc7dd19dde73d186404df3627f660866178eff507e22c7"}, "tags": {"20.03-py3": "sha256:c6fb6d8309be4c43ccdc7dd19dde73d186404df3627f660866178eff507e22c7"}, "aliases": {"python": "/usr/bin/python"}, "features": {"gpu": true}}
+config: {"docker": "nvcr.io/nvidia/caffe", "url": "https://ngc.nvidia.com/catalog/containers/nvidia:caffe/tags", "maintainer": "@vsoch", "description": "NVIDIA Caffe, also known as NVCaffe, is an NVIDIA-maintained fork of Berkeley Vision and Learning Center (BVLC) Caffe tuned for NVIDIA GPUs, particularly in multi-GPU configurations.", "latest": {"20.03-py3": "crane digest nvcr.io/nvidia/caffe:20.03-py3: DENIED: Access Denied"}, "tags": {"20.03-py3": "crane digest nvcr.io/nvidia/caffe:20.03-py3: DENIED: Access Denied", "crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied": "crane digest nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied: parsing reference \"nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied\": could not parse reference"}, "aliases": {"python": "/usr/bin/python"}, "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/nvidia/caffe.

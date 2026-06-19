@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fci/container.yaml"
-updated_at: "2026-06-18 07:46:22.570148"
+updated_at: "2026-06-19 08:00:17.634636"
 latest: "1.40.0--r45h575d39b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fci"
 

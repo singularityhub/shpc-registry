@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hamronization"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hamronization/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hamronization/container.yaml"
-updated_at: "2026-06-18 07:49:43.075767"
+updated_at: "2026-06-19 08:03:38.322705"
 latest: "1.1.9--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hamronization"
 aliases:

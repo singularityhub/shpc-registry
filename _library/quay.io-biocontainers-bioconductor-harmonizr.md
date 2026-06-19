@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-harmonizr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harmonizr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harmonizr/container.yaml"
-updated_at: "2026-06-18 07:50:14.521708"
+updated_at: "2026-06-19 08:04:09.664440"
 latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harmonizr"
 aliases:

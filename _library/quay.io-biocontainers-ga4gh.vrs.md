@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ga4gh.vrs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ga4gh.vrs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ga4gh.vrs/container.yaml"
-updated_at: "2026-06-18 07:00:00.506873"
-latest: "2.3.1--pyhdfd78af_0"
+updated_at: "2026-06-19 07:13:56.052792"
+latest: "2.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ga4gh.vrs"
 aliases:
  - "hgvs-shell"
@@ -45,8 +45,9 @@ aliases:
  - "python3.11"
 versions:
  - "2.3.1--pyhdfd78af_0"
+ - "2.3.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ga4gh.vrs"
-config: {"url": "https://biocontainers.pro/tools/ga4gh.vrs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ga4gh.vrs", "latest": {"2.3.1--pyhdfd78af_0": "sha256:11a87fd24e67ce194bff33933581c12d270842e2c4d84c067079b97041d9e1e3"}, "tags": {"2.3.1--pyhdfd78af_0": "sha256:11a87fd24e67ce194bff33933581c12d270842e2c4d84c067079b97041d9e1e3"}, "docker": "quay.io/biocontainers/ga4gh.vrs", "aliases": {"hgvs-shell": "/usr/local/bin/hgvs-shell", "identify-cli": "/usr/local/bin/identify-cli", "nodeenv": "/usr/local/bin/nodeenv", "pre-commit": "/usr/local/bin/pre-commit", "pyppeteer-install": "/usr/local/bin/pyppeteer-install", "seqrepo": "/usr/local/bin/seqrepo", "sqlformat": "/usr/local/bin/sqlformat", "vrs-annotate": "/usr/local/bin/vrs-annotate", "yoyo": "/usr/local/bin/yoyo", "yoyo-migrate": "/usr/local/bin/yoyo-migrate", "virtualenv": "/usr/local/bin/virtualenv", "get_gprof": "/usr/local/bin/get_gprof", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "coloredlogs": "/usr/local/bin/coloredlogs", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "pg_config": "/usr/local/bin/pg_config", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11"}}
+config: {"url": "https://biocontainers.pro/tools/ga4gh.vrs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ga4gh.vrs", "latest": {"2.3.3--pyhdfd78af_0": "sha256:a4e14f0c3c6f3e3507d4e451d0cb76b7e005b732e4d7118daf1fb77c6f369340"}, "tags": {"2.3.1--pyhdfd78af_0": "sha256:11a87fd24e67ce194bff33933581c12d270842e2c4d84c067079b97041d9e1e3", "2.3.3--pyhdfd78af_0": "sha256:a4e14f0c3c6f3e3507d4e451d0cb76b7e005b732e4d7118daf1fb77c6f369340"}, "docker": "quay.io/biocontainers/ga4gh.vrs", "aliases": {"hgvs-shell": "/usr/local/bin/hgvs-shell", "identify-cli": "/usr/local/bin/identify-cli", "nodeenv": "/usr/local/bin/nodeenv", "pre-commit": "/usr/local/bin/pre-commit", "pyppeteer-install": "/usr/local/bin/pyppeteer-install", "seqrepo": "/usr/local/bin/seqrepo", "sqlformat": "/usr/local/bin/sqlformat", "vrs-annotate": "/usr/local/bin/vrs-annotate", "yoyo": "/usr/local/bin/yoyo", "yoyo-migrate": "/usr/local/bin/yoyo-migrate", "virtualenv": "/usr/local/bin/virtualenv", "get_gprof": "/usr/local/bin/get_gprof", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "coloredlogs": "/usr/local/bin/coloredlogs", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "humanfriendly": "/usr/local/bin/humanfriendly", "tabulate": "/usr/local/bin/tabulate", "pg_config": "/usr/local/bin/pg_config", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ga4gh.vrs.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/ga4gh.vrs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ga4gh.vrs:2.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ga4gh.vrs:2.3.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ga4gh.vrs/2.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/ga4gh.vrs/2.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/ga4gh.vrs/2.3.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/ga4gh.vrs/2.3.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mosbi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mosbi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mosbi/container.yaml"
-updated_at: "2026-06-18 07:33:18.219928"
+updated_at: "2026-06-19 07:47:09.126384"
 latest: "1.16.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mosbi"
 aliases:

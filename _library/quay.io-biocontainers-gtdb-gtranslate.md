@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gtdb-gtranslate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtdb-gtranslate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtdb-gtranslate/container.yaml"
-updated_at: "2026-06-18 06:58:31.839105"
-latest: "0.0.3--pyh106432d_0"
+updated_at: "2026-06-19 07:12:31.570771"
+latest: "0.0.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/gtdb-gtranslate"
 aliases:
  - "gtranslate"
@@ -30,8 +30,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.0.3--pyh106432d_0"
+ - "0.0.4--pyh106432d_0"
 description: "singularity registry hpc automated addition for gtdb-gtranslate"
-config: {"url": "https://biocontainers.pro/tools/gtdb-gtranslate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gtdb-gtranslate", "latest": {"0.0.3--pyh106432d_0": "sha256:52b4506134f5e32820d4331fab4b07c8b209f29a7bb2179efe35726588243c75"}, "tags": {"0.0.3--pyh106432d_0": "sha256:52b4506134f5e32820d4331fab4b07c8b209f29a7bb2179efe35726588243c75"}, "docker": "quay.io/biocontainers/gtdb-gtranslate", "aliases": {"gtranslate": "/usr/local/bin/gtranslate", "cllayerinfo": "/usr/local/bin/cllayerinfo", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/gtdb-gtranslate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gtdb-gtranslate", "latest": {"0.0.4--pyh106432d_0": "sha256:2c4a1938ce4077130ebcf467313bd1e323bdd673e5bf76dade502b2f7e180311"}, "tags": {"0.0.3--pyh106432d_0": "sha256:52b4506134f5e32820d4331fab4b07c8b209f29a7bb2179efe35726588243c75", "0.0.4--pyh106432d_0": "sha256:2c4a1938ce4077130ebcf467313bd1e323bdd673e5bf76dade502b2f7e180311"}, "docker": "quay.io/biocontainers/gtdb-gtranslate", "aliases": {"gtranslate": "/usr/local/bin/gtranslate", "cllayerinfo": "/usr/local/bin/cllayerinfo", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gtdb-gtranslate.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/gtdb-gtranslate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gtdb-gtranslate:0.0.3--pyh106432d_0
+$ shpc install quay.io/biocontainers/gtdb-gtranslate:0.0.4--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gtdb-gtranslate/0.0.3--pyh106432d_0
-$ module help quay.io/biocontainers/gtdb-gtranslate/0.0.3--pyh106432d_0
+$ module load quay.io/biocontainers/gtdb-gtranslate/0.0.4--pyh106432d_0
+$ module help quay.io/biocontainers/gtdb-gtranslate/0.0.4--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

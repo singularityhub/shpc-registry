@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2/container.yaml"
-updated_at: "2026-06-18 07:38:06.121965"
+updated_at: "2026-06-19 07:51:58.610542"
 latest: "4.9.3--h6af5b14_0"
 container_url: "https://biocontainers.pro/tools/esme_netcdf-c_psmpi_4_3_2"
 aliases:

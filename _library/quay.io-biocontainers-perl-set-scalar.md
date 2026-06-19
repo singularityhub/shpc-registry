@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-set-scalar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-set-scalar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-set-scalar/container.yaml"
-updated_at: "2026-06-18 07:21:05.319426"
+updated_at: "2026-06-19 07:34:40.425826"
 latest: "1.29--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-set-scalar"
 aliases:

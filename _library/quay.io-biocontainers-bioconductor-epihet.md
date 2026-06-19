@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epihet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epihet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epihet/container.yaml"
-updated_at: "2026-06-18 07:46:15.095607"
+updated_at: "2026-06-19 08:00:10.303818"
 latest: "1.13.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epihet"
 aliases:
