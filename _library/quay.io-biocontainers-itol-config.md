@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itol-config"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itol-config/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itol-config/container.yaml"
-updated_at: "2026-06-19 07:42:52.638888"
+updated_at: "2026-06-20 06:44:42.249514"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/itol-config"
 aliases:

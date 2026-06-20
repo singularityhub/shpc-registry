@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pmga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmga/container.yaml"
-updated_at: "2026-06-19 07:27:53.890633"
+updated_at: "2026-06-20 06:35:35.121643"
 latest: "3.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pmga"
 aliases:

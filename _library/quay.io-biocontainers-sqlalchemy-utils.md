@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqlalchemy-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqlalchemy-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqlalchemy-utils/container.yaml"
-updated_at: "2026-06-19 07:17:20.573111"
+updated_at: "2026-06-20 06:28:58.279033"
 latest: "0.31.6--py36_0"
 container_url: "https://biocontainers.pro/tools/sqlalchemy-utils"
 aliases:

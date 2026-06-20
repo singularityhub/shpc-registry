@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/instanovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/instanovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/instanovo/container.yaml"
-updated_at: "2026-06-19 07:55:12.087489"
+updated_at: "2026-06-20 06:52:09.419945"
 latest: "1.2.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/instanovo"
 aliases:

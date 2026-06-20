@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/amaranth-assembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amaranth-assembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amaranth-assembler/container.yaml"
-updated_at: "2026-06-19 07:55:33.178470"
+updated_at: "2026-06-20 06:52:22.859810"
 latest: "0.1.0--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/amaranth-assembler"
 aliases:

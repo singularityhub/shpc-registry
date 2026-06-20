@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plotnado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotnado/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plotnado/container.yaml"
-updated_at: "2026-06-19 07:11:17.822460"
+updated_at: "2026-06-20 06:25:02.010180"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plotnado"
 aliases:

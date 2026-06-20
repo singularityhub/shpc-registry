@@ -4,7 +4,7 @@ name:  "quay.io/pawsey/tensorflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/tensorflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/tensorflow/container.yaml"
-updated_at: "2026-06-19 08:04:32.471365"
+updated_at: "2026-06-20 06:58:07.455864"
 latest: "2.17-rocm6.3.3"
 container_url: "https://singularity-hpc.readthedocs.io"
 aliases:

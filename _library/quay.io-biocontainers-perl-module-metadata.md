@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-module-metadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-metadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-metadata/container.yaml"
-updated_at: "2026-06-19 07:51:29.067178"
+updated_at: "2026-06-20 06:49:53.549970"
 latest: "1.000039--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-module-metadata"
 aliases:

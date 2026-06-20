@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fstic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fstic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fstic/container.yaml"
-updated_at: "2026-06-19 07:16:22.247337"
+updated_at: "2026-06-20 06:28:21.308606"
 latest: "1.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/fstic"
 aliases:

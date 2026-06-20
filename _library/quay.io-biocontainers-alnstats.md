@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alnstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alnstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alnstats/container.yaml"
-updated_at: "2026-06-19 07:38:04.965400"
+updated_at: "2026-06-20 06:41:46.888560"
 latest: "0.1.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/alnstats"
 aliases:

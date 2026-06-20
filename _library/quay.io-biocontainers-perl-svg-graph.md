@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-svg-graph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-svg-graph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-svg-graph/container.yaml"
-updated_at: "2026-06-19 07:53:11.387887"
+updated_at: "2026-06-20 06:50:54.079063"
 latest: "0.02--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-svg-graph"
 aliases:

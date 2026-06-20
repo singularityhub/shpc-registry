@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/biofastq-a"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biofastq-a/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biofastq-a/container.yaml"
-updated_at: "2026-06-19 07:21:54.935548"
-latest: "2.2.0--h4349ce8_0"
+updated_at: "2026-06-20 06:31:50.051853"
+latest: "2.3.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/biofastq-a"
 aliases:
  - "biofastq-a"
 versions:
  - "2.2.0--h4349ce8_0"
+ - "2.3.0--h4349ce8_0"
 description: "singularity registry hpc automated addition for biofastq-a"
-config: {"url": "https://biocontainers.pro/tools/biofastq-a", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biofastq-a", "latest": {"2.2.0--h4349ce8_0": "sha256:89ddc22438578f1d0a6bd73c32d7f1da3309e031eb729bbd73fe3acdea4cae6d"}, "tags": {"2.2.0--h4349ce8_0": "sha256:89ddc22438578f1d0a6bd73c32d7f1da3309e031eb729bbd73fe3acdea4cae6d"}, "docker": "quay.io/biocontainers/biofastq-a", "aliases": {"biofastq-a": "/usr/local/bin/biofastq-a"}}
+config: {"url": "https://biocontainers.pro/tools/biofastq-a", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biofastq-a", "latest": {"2.3.0--h4349ce8_0": "sha256:09b64133f680bb841c23464b3729f3e4acd3b324aaaff41931034bb2637cba8b"}, "tags": {"2.2.0--h4349ce8_0": "sha256:89ddc22438578f1d0a6bd73c32d7f1da3309e031eb729bbd73fe3acdea4cae6d", "2.3.0--h4349ce8_0": "sha256:09b64133f680bb841c23464b3729f3e4acd3b324aaaff41931034bb2637cba8b"}, "docker": "quay.io/biocontainers/biofastq-a", "aliases": {"biofastq-a": "/usr/local/bin/biofastq-a"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biofastq-a.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/biofastq-a
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biofastq-a:2.2.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/biofastq-a:2.3.0--h4349ce8_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biofastq-a/2.2.0--h4349ce8_0
-$ module help quay.io/biocontainers/biofastq-a/2.2.0--h4349ce8_0
+$ module load quay.io/biocontainers/biofastq-a/2.3.0--h4349ce8_0
+$ module help quay.io/biocontainers/biofastq-a/2.3.0--h4349ce8_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

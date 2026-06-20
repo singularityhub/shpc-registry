@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dotmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dotmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dotmatch/container.yaml"
-updated_at: "2026-06-19 07:43:40.251471"
-latest: "0.1.4--py314h118bc1c_0"
+updated_at: "2026-06-20 06:45:10.554758"
+latest: "0.1.8--py314h118bc1c_0"
 container_url: "https://biocontainers.pro/tools/dotmatch"
 aliases:
  - "dotmatch"
@@ -16,8 +16,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.1.4--py314h118bc1c_0"
+ - "0.1.8--py314h118bc1c_0"
 description: "singularity registry hpc automated addition for dotmatch"
-config: {"url": "https://biocontainers.pro/tools/dotmatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dotmatch", "latest": {"0.1.4--py314h118bc1c_0": "sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538"}, "tags": {"0.1.4--py314h118bc1c_0": "sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538"}, "docker": "quay.io/biocontainers/dotmatch", "aliases": {"dotmatch": "/usr/local/bin/dotmatch", "quickdna": "/usr/local/bin/quickdna", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/dotmatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dotmatch", "latest": {"0.1.8--py314h118bc1c_0": "sha256:247ea93a1231a419dc987642fc15abd5ef7c4ac755f7c00009e67fb4c122b256"}, "tags": {"0.1.4--py314h118bc1c_0": "sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538", "0.1.8--py314h118bc1c_0": "sha256:247ea93a1231a419dc987642fc15abd5ef7c4ac755f7c00009e67fb4c122b256"}, "docker": "quay.io/biocontainers/dotmatch", "aliases": {"dotmatch": "/usr/local/bin/dotmatch", "quickdna": "/usr/local/bin/quickdna", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dotmatch.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/dotmatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dotmatch:0.1.4--py314h118bc1c_0
+$ shpc install quay.io/biocontainers/dotmatch:0.1.8--py314h118bc1c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dotmatch/0.1.4--py314h118bc1c_0
-$ module help quay.io/biocontainers/dotmatch/0.1.4--py314h118bc1c_0
+$ module load quay.io/biocontainers/dotmatch/0.1.8--py314h118bc1c_0
+$ module help quay.io/biocontainers/dotmatch/0.1.8--py314h118bc1c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

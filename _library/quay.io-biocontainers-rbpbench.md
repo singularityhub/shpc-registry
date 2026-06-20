@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rbpbench"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rbpbench/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rbpbench/container.yaml"
-updated_at: "2026-06-19 07:37:36.422090"
+updated_at: "2026-06-20 06:41:29.764306"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rbpbench"
 aliases:

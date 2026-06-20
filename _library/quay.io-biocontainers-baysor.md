@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/baysor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baysor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baysor/container.yaml"
-updated_at: "2026-06-19 08:03:18.900800"
-latest: "0.7.1--hab16a5f_0"
+updated_at: "2026-06-20 06:57:18.230729"
+latest: "0.7.1--h467016e_2"
 container_url: "https://biocontainers.pro/tools/baysor"
 aliases:
  - "baysor"
 versions:
  - "0.7.1--hab16a5f_0"
+ - "0.7.1--h467016e_2"
 description: "singularity registry hpc automated addition for baysor"
-config: {"url": "https://biocontainers.pro/tools/baysor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for baysor", "latest": {"0.7.1--hab16a5f_0": "sha256:8b9e10762e23fedf6420fc415cddac1549ffa807ef98bebfc109c0df68723dd7"}, "tags": {"0.7.1--hab16a5f_0": "sha256:8b9e10762e23fedf6420fc415cddac1549ffa807ef98bebfc109c0df68723dd7"}, "docker": "quay.io/biocontainers/baysor", "aliases": {"baysor": "/usr/local/bin/baysor"}}
+config: {"url": "https://biocontainers.pro/tools/baysor", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for baysor", "latest": {"0.7.1--h467016e_2": "sha256:4bd9546d1e63ce8e4b052faac1df0ce76f0ca1305802bd9fba8760f5cdf3ec7b"}, "tags": {"0.7.1--hab16a5f_0": "sha256:8b9e10762e23fedf6420fc415cddac1549ffa807ef98bebfc109c0df68723dd7", "0.7.1--h467016e_2": "sha256:4bd9546d1e63ce8e4b052faac1df0ce76f0ca1305802bd9fba8760f5cdf3ec7b"}, "docker": "quay.io/biocontainers/baysor", "aliases": {"baysor": "/usr/local/bin/baysor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/baysor.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/baysor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/baysor:0.7.1--hab16a5f_0
+$ shpc install quay.io/biocontainers/baysor:0.7.1--h467016e_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/baysor/0.7.1--hab16a5f_0
-$ module help quay.io/biocontainers/baysor/0.7.1--hab16a5f_0
+$ module load quay.io/biocontainers/baysor/0.7.1--h467016e_2
+$ module help quay.io/biocontainers/baysor/0.7.1--h467016e_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

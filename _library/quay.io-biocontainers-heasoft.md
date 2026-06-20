@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/heasoft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/heasoft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/heasoft/container.yaml"
-updated_at: "2026-06-19 07:32:30.183736"
+updated_at: "2026-06-20 06:38:25.900713"
 latest: "6.35.2--hedafe93_1"
 container_url: "https://biocontainers.pro/tools/heasoft"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vsnp3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vsnp3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vsnp3/container.yaml"
-updated_at: "2026-06-19 08:04:01.181195"
+updated_at: "2026-06-20 06:57:46.336836"
 latest: "3.35--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vsnp3"
 aliases:

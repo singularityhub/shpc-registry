@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/synth-pdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synth-pdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synth-pdb/container.yaml"
-updated_at: "2026-06-19 07:54:29.597273"
+updated_at: "2026-06-20 06:51:43.172234"
 latest: "1.38.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/synth-pdb"
 aliases:

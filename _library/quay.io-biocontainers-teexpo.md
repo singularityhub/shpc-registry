@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/teexpo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/teexpo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/teexpo/container.yaml"
-updated_at: "2026-06-19 07:26:09.349586"
+updated_at: "2026-06-20 06:34:31.167273"
 latest: "1.0.0--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/teexpo"
 aliases:

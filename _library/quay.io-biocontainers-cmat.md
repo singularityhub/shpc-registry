@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmat/container.yaml"
-updated_at: "2026-06-19 07:36:10.397718"
+updated_at: "2026-06-20 06:40:38.578198"
 latest: "3.1.0--py38hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cmat"
 aliases:

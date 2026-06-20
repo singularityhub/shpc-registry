@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntroot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntroot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntroot/container.yaml"
-updated_at: "2026-06-19 08:00:59.812249"
+updated_at: "2026-06-20 06:55:49.357081"
 latest: "1.1.6--py313pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ntroot"
 aliases:

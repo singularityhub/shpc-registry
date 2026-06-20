@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gaprediction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gaprediction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gaprediction/container.yaml"
-updated_at: "2026-06-19 07:35:10.861578"
+updated_at: "2026-06-20 06:40:03.347330"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gaprediction"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/delve-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delve-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/delve-bio/container.yaml"
-updated_at: "2026-06-19 07:43:25.190519"
+updated_at: "2026-06-20 06:45:01.545441"
 latest: "0.2.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/delve-bio"
 aliases:

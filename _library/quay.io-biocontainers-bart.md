@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bart/container.yaml"
-updated_at: "2026-06-19 07:13:47.204951"
+updated_at: "2026-06-20 06:26:37.869477"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bart"
 aliases:

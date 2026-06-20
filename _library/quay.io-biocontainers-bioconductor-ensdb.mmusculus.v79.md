@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.mmusculus.v79/container.yaml"
-updated_at: "2026-06-19 07:25:22.417856"
+updated_at: "2026-06-20 06:34:02.046152"
 latest: "2.99.0--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.mmusculus.v79"
 

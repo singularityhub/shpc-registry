@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/refseq2cds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refseq2cds/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refseq2cds/container.yaml"
-updated_at: "2026-06-19 07:44:24.782985"
+updated_at: "2026-06-20 06:45:36.834083"
 latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/refseq2cds"
 aliases:

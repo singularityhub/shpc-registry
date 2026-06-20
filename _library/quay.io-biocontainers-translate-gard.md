@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/translate-gard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/translate-gard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/translate-gard/container.yaml"
-updated_at: "2026-06-19 07:31:53.882951"
+updated_at: "2026-06-20 06:38:03.560863"
 latest: "1.0.4--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/translate-gard"
 aliases:

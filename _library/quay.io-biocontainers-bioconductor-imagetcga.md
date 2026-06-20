@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-imagetcga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imagetcga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imagetcga/container.yaml"
-updated_at: "2026-06-19 07:39:15.420336"
+updated_at: "2026-06-20 06:42:28.892964"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imagetcga"
 aliases:

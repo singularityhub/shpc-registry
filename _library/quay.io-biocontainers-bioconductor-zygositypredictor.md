@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zygositypredictor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zygositypredictor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zygositypredictor/container.yaml"
-updated_at: "2026-06-19 07:50:53.265069"
+updated_at: "2026-06-20 06:49:32.150685"
 latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zygositypredictor"
 aliases:
