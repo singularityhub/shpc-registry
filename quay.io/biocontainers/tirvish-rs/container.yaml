@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/tirvish-rs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tirvish-rs
+latest:
+  0.1.0--hfa8f182_0: 
+    sha256:92ef7a97bdb39c71a77551c407a7df1cc5e696cdd793adc86bc71bb68b09cfe4
+tags:
+  0.1.0--hfa8f182_0: 
+    sha256:92ef7a97bdb39c71a77551c407a7df1cc5e696cdd793adc86bc71bb68b09cfe4
+docker: quay.io/biocontainers/tirvish-rs
+aliases:
+  tirvish: /usr/local/bin/tirvish
+  tirvish_rs: /usr/local/bin/tirvish_rs

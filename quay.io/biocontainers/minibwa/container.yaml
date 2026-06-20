@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/minibwa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for minibwa
+latest:
+  0.1--h118bc1c_0: 
+    sha256:02a615fb336a6f95a9c15f7a8ecacb15dad03e6e5596ca15289eccdf67dba6d5
+tags:
+  0.1--h118bc1c_0: 
+    sha256:02a615fb336a6f95a9c15f7a8ecacb15dad03e6e5596ca15289eccdf67dba6d5
+docker: quay.io/biocontainers/minibwa
+aliases:
+  minibwa: /usr/local/bin/minibwa
