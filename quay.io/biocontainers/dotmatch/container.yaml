@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/dotmatch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for dotmatch
 latest:
-  0.1.4--py314h118bc1c_0: 
-    sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538
+  0.1.8--py314h118bc1c_0: 
+    sha256:247ea93a1231a419dc987642fc15abd5ef7c4ac755f7c00009e67fb4c122b256
 tags:
   0.1.4--py314h118bc1c_0: 
     sha256:2e3f78a65cd700203da7553c64181e1bb51a45d727258f8885061a89485db538
+  0.1.8--py314h118bc1c_0: 
+    sha256:247ea93a1231a419dc987642fc15abd5ef7c4ac755f7c00009e67fb4c122b256
 docker: quay.io/biocontainers/dotmatch
 aliases:
   dotmatch: /usr/local/bin/dotmatch

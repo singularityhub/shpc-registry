@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fusion-report
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fusion-report
 latest:
-  4.0.1--py313hdfd78af_0: 
-    sha256:ffde76a667059ac02aab5550fc425e34ec90b0bd83987e6ae8e70b961ff2e2f5
+  4.1.2--py314hdfd78af_0: 
+    sha256:88a4ba8339b1e1869ab51c527a05650af2369fd98a7493a5a88b9540b225754e
 tags:
   2.1.5--pyhdfd78af_0: 
     sha256:b65b79c3c3f23131ae94c824bb1a4dec0fe8ceebeede5233b4602e4895158958
@@ -17,6 +17,8 @@ tags:
     sha256:9eba54dac079deca1cb1870aa20097966770f2fca79051e2c3b0b8a84f891097
   4.0.1--py313hdfd78af_0: 
     sha256:ffde76a667059ac02aab5550fc425e34ec90b0bd83987e6ae8e70b961ff2e2f5
+  4.1.2--py314hdfd78af_0: 
+    sha256:88a4ba8339b1e1869ab51c527a05650af2369fd98a7493a5a88b9540b225754e
 docker: quay.io/biocontainers/fusion-report
 aliases:
   fusion_report: /usr/local/bin/fusion_report
