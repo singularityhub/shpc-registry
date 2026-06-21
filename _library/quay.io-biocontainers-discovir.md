@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/discovir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/discovir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/discovir/container.yaml"
-updated_at: "2026-06-20 06:35:47.105097"
+updated_at: "2026-06-21 07:11:50.567417"
 latest: "1.0.1.beta--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/discovir"
 aliases:

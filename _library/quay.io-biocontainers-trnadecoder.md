@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trnadecoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trnadecoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trnadecoder/container.yaml"
-updated_at: "2026-06-20 06:42:44.615557"
+updated_at: "2026-06-21 07:22:08.224099"
 latest: "1.1.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/trnadecoder"
 aliases:

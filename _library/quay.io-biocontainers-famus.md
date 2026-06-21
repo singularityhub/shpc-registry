@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/famus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/famus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/famus/container.yaml"
-updated_at: "2026-06-20 06:54:02.035506"
-latest: "0.2.2--py312hdfd78af_0"
+updated_at: "2026-06-21 07:39:04.854450"
+latest: "0.2.3--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/famus"
 aliases:
  - "famus-classify"
@@ -42,8 +42,9 @@ versions:
  - "0.1.1--py312hdfd78af_0"
  - "0.1.2--py312hdfd78af_0"
  - "0.2.2--py312hdfd78af_0"
+ - "0.2.3--py312hdfd78af_0"
 description: "singularity registry hpc automated addition for famus"
-config: {"url": "https://biocontainers.pro/tools/famus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for famus", "latest": {"0.2.2--py312hdfd78af_0": "sha256:398b043316e059b0518ec12238cecb7149aa145426773ccf24da4025b5b4e772"}, "tags": {"0.1.1--py312hdfd78af_0": "sha256:abe49d43af48f2cc40ab4f6187b92585a7fbf92dddf5120d47b8aaa0f0bc8000", "0.1.2--py312hdfd78af_0": "sha256:2c7c89a825908d04d889a68430e10dd816ecfeb6104b84d7bc9acf2ae7cdc80a", "0.2.2--py312hdfd78af_0": "sha256:398b043316e059b0518ec12238cecb7149aa145426773ccf24da4025b5b4e772"}, "docker": "quay.io/biocontainers/famus", "aliases": {"famus-classify": "/usr/local/bin/famus-classify", "famus-convert-sdf": "/usr/local/bin/famus-convert-sdf", "famus-defaults": "/usr/local/bin/famus-defaults", "famus-install": "/usr/local/bin/famus-install", "famus-train": "/usr/local/bin/famus-train", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aria2c": "/usr/local/bin/aria2c", "seqkit": "/usr/local/bin/seqkit", "mmseqs": "/usr/local/bin/mmseqs", "gawkbug": "/usr/local/bin/gawkbug", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
+config: {"url": "https://biocontainers.pro/tools/famus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for famus", "latest": {"0.2.3--py312hdfd78af_0": "sha256:a68d8e645a618e465582b722e360a9e8cebcc533df1d441860e531d90b15cb6e"}, "tags": {"0.1.1--py312hdfd78af_0": "sha256:abe49d43af48f2cc40ab4f6187b92585a7fbf92dddf5120d47b8aaa0f0bc8000", "0.1.2--py312hdfd78af_0": "sha256:2c7c89a825908d04d889a68430e10dd816ecfeb6104b84d7bc9acf2ae7cdc80a", "0.2.2--py312hdfd78af_0": "sha256:398b043316e059b0518ec12238cecb7149aa145426773ccf24da4025b5b4e772", "0.2.3--py312hdfd78af_0": "sha256:a68d8e645a618e465582b722e360a9e8cebcc533df1d441860e531d90b15cb6e"}, "docker": "quay.io/biocontainers/famus", "aliases": {"famus-classify": "/usr/local/bin/famus-classify", "famus-convert-sdf": "/usr/local/bin/famus-convert-sdf", "famus-defaults": "/usr/local/bin/famus-defaults", "famus-install": "/usr/local/bin/famus-install", "famus-train": "/usr/local/bin/famus-train", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "aria2c": "/usr/local/bin/aria2c", "seqkit": "/usr/local/bin/seqkit", "mmseqs": "/usr/local/bin/mmseqs", "gawkbug": "/usr/local/bin/gawkbug", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/famus.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/famus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/famus:0.2.2--py312hdfd78af_0
+$ shpc install quay.io/biocontainers/famus:0.2.3--py312hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/famus/0.2.2--py312hdfd78af_0
-$ module help quay.io/biocontainers/famus/0.2.2--py312hdfd78af_0
+$ module load quay.io/biocontainers/famus/0.2.3--py312hdfd78af_0
+$ module help quay.io/biocontainers/famus/0.2.3--py312hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

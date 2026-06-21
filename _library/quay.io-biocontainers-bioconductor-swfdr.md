@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-swfdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-swfdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-swfdr/container.yaml"
-updated_at: "2026-06-20 06:52:29.944081"
+updated_at: "2026-06-21 07:36:51.978894"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-swfdr"
 aliases:

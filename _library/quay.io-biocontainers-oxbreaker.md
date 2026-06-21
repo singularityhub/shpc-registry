@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oxbreaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oxbreaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oxbreaker/container.yaml"
-updated_at: "2026-06-20 06:55:36.896630"
+updated_at: "2026-06-21 07:41:22.397577"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/oxbreaker"
 aliases:

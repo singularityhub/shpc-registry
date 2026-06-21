@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-delayedtensor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayedtensor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayedtensor/container.yaml"
-updated_at: "2026-06-20 06:30:39.273251"
+updated_at: "2026-06-21 07:04:16.451992"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayedtensor"
 

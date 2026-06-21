@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-immunespacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-immunespacer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-immunespacer/container.yaml"
-updated_at: "2026-06-20 06:53:56.246497"
+updated_at: "2026-06-21 07:38:56.387411"
 latest: "1.30.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-immunespacer"
 aliases:

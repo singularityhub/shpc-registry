@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/page-dewarp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/page-dewarp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/page-dewarp/container.yaml"
-updated_at: "2026-06-20 06:36:51.047303"
+updated_at: "2026-06-21 07:13:21.220899"
 latest: "0.2.7"
 container_url: "https://biocontainers.pro/tools/page-dewarp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bubblegun"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bubblegun/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bubblegun/container.yaml"
-updated_at: "2026-06-20 06:44:56.854982"
+updated_at: "2026-06-21 07:25:28.188111"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bubblegun"
 aliases:

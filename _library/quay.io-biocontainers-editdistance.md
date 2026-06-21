@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/editdistance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/editdistance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/editdistance/container.yaml"
-updated_at: "2026-06-20 06:43:01.045309"
+updated_at: "2026-06-21 07:22:32.700235"
 latest: "0.4--py35_0"
 container_url: "https://biocontainers.pro/tools/editdistance"
 aliases:

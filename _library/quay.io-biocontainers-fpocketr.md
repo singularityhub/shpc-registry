@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fpocketr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fpocketr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fpocketr/container.yaml"
-updated_at: "2026-06-20 06:51:27.737959"
-latest: "1.3.4--pyhdfd78af_0"
+updated_at: "2026-06-21 07:35:20.803054"
+latest: "1.3.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fpocketr"
 aliases:
  - "dpocket"
@@ -44,8 +44,9 @@ aliases:
  - "lame"
 versions:
  - "1.3.4--pyhdfd78af_0"
+ - "1.3.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for fpocketr"
-config: {"url": "https://biocontainers.pro/tools/fpocketr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fpocketr", "latest": {"1.3.4--pyhdfd78af_0": "sha256:503c2577e810c91c75f9a96cf50fe6dccb11b3dd0a058b4d2e4f1ab08b54c4c4"}, "tags": {"1.3.4--pyhdfd78af_0": "sha256:503c2577e810c91c75f9a96cf50fe6dccb11b3dd0a058b4d2e4f1ab08b54c4c4"}, "docker": "quay.io/biocontainers/fpocketr", "aliases": {"dpocket": "/usr/local/bin/dpocket", "evol": "/usr/local/bin/evol", "fpocket": "/usr/local/bin/fpocket", "glewinfo": "/usr/local/bin/glewinfo", "mdpocket": "/usr/local/bin/mdpocket", "prody": "/usr/local/bin/prody", "pymol": "/usr/local/bin/pymol", "tpocket": "/usr/local/bin/tpocket", "visualinfo": "/usr/local/bin/visualinfo", "pax11publish": "/usr/local/bin/pax11publish", "h5fuse": "/usr/local/bin/h5fuse", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug", "qmlformat": "/usr/local/bin/qmlformat", "qmltime": "/usr/local/bin/qmltime", "qmltyperegistrar": "/usr/local/bin/qmltyperegistrar", "tracegen": "/usr/local/bin/tracegen", "lame": "/usr/local/bin/lame"}}
+config: {"url": "https://biocontainers.pro/tools/fpocketr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fpocketr", "latest": {"1.3.6--pyhdfd78af_0": "sha256:2dd1dbb040575907363435590f766e94192bb0fab1c3c3d4027ba7f3268f0b72"}, "tags": {"1.3.4--pyhdfd78af_0": "sha256:503c2577e810c91c75f9a96cf50fe6dccb11b3dd0a058b4d2e4f1ab08b54c4c4", "1.3.6--pyhdfd78af_0": "sha256:2dd1dbb040575907363435590f766e94192bb0fab1c3c3d4027ba7f3268f0b72"}, "docker": "quay.io/biocontainers/fpocketr", "aliases": {"dpocket": "/usr/local/bin/dpocket", "evol": "/usr/local/bin/evol", "fpocket": "/usr/local/bin/fpocket", "glewinfo": "/usr/local/bin/glewinfo", "mdpocket": "/usr/local/bin/mdpocket", "prody": "/usr/local/bin/prody", "pymol": "/usr/local/bin/pymol", "tpocket": "/usr/local/bin/tpocket", "visualinfo": "/usr/local/bin/visualinfo", "pax11publish": "/usr/local/bin/pax11publish", "h5fuse": "/usr/local/bin/h5fuse", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "mpg123": "/usr/local/bin/mpg123", "mpg123-id3dump": "/usr/local/bin/mpg123-id3dump", "mpg123-strip": "/usr/local/bin/mpg123-strip", "out123": "/usr/local/bin/out123", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug", "qmlformat": "/usr/local/bin/qmlformat", "qmltime": "/usr/local/bin/qmltime", "qmltyperegistrar": "/usr/local/bin/qmltyperegistrar", "tracegen": "/usr/local/bin/tracegen", "lame": "/usr/local/bin/lame"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fpocketr.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/fpocketr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fpocketr:1.3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/fpocketr:1.3.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fpocketr/1.3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/fpocketr/1.3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/fpocketr/1.3.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/fpocketr/1.3.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

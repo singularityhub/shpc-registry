@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-probe-perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-probe-perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-probe-perl/container.yaml"
-updated_at: "2026-06-20 06:46:08.182905"
+updated_at: "2026-06-21 07:27:16.446662"
 latest: "0.03--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-probe-perl"
 aliases:

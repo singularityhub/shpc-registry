@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pango-collapse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pango-collapse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pango-collapse/container.yaml"
-updated_at: "2026-06-20 06:24:12.200128"
+updated_at: "2026-06-21 06:54:41.456573"
 latest: "0.8.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pango-collapse"
 aliases:

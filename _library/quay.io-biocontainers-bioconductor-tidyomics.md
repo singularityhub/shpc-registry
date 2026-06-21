@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tidyomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidyomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidyomics/container.yaml"
-updated_at: "2026-06-20 06:30:36.766942"
+updated_at: "2026-06-21 07:04:12.408526"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidyomics"
 aliases:

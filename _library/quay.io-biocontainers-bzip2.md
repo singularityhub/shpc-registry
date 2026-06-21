@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bzip2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bzip2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bzip2/container.yaml"
-updated_at: "2026-06-20 06:50:06.346028"
+updated_at: "2026-06-21 07:33:18.486156"
 latest: "1.0.8"
 container_url: "https://biocontainers.pro/tools/bzip2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnacauldron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnacauldron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnacauldron/container.yaml"
-updated_at: "2026-06-20 06:35:08.495281"
+updated_at: "2026-06-21 07:10:54.384439"
 latest: "2.0.12--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/dnacauldron"
 aliases:

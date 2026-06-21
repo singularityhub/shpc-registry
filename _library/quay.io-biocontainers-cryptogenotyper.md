@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cryptogenotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cryptogenotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cryptogenotyper/container.yaml"
-updated_at: "2026-06-20 06:38:13.924930"
+updated_at: "2026-06-21 07:15:24.039591"
 latest: "1.5.0--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/cryptogenotyper"
 aliases:

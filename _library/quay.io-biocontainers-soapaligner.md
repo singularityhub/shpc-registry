@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapaligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapaligner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soapaligner/container.yaml"
-updated_at: "2026-06-20 06:36:18.859674"
+updated_at: "2026-06-21 07:12:35.523096"
 latest: "2.21--0"
 container_url: "https://biocontainers.pro/tools/soapaligner"
 aliases:
