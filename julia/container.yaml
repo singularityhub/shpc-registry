@@ -16,26 +16,26 @@ tags:
   1.9.4: sha256:829ddd53a80d14cfc02bae02198254ddef1de292c7cd6af694312fa8ad341290
   1.10.0: 
     sha256:3c56c7763e097e17ef158dd7e72acaa3284d51dbf111adae0eccd5782e78bdbc
-  1.10.1: 
-    sha256:2d992bcdfd817a11bfa70918879674b62dcd0a497e079116605c33dc9979589e
-  1.10.2: 
-    sha256:63ae8a0184a85382e68b0af0a1d5491db66cb490059b1ab2a76b831e43bc7147
-  1.10.3: 
-    sha256:d2375e33738225f57caa34096ad0a15c699512027931324c62ed1949d797a2ff
-  1.10.4: 
-    sha256:48c57c62ee9c56d11e4e4aea03dbeca89af22817232c074debe9941e44d749d3
-  1.10.5: 
-    sha256:6ddde25fefaa2ec11a4bb9a8cc5ad113daf3a8e11792f17bac6aa5fdec83649d
-  1.11.1: 
-    sha256:b3aca3cb8b8d22c8d260cc0144d1c08f6479bf0247bff7675a9b36cf133aa91e
-  1.10.6: 
-    sha256:b225307b26934292657b222d2c3c87dcaa8ecd1e83d648b2554a4369efb13826
-  1.11.2: 
-    sha256:9a2879323aa5509465343c7debfcee1d7e94e5728c39f0cd40bd07db84cca3f7
-  1.10.7: 
-    sha256:b939e747dd91e2b63293854ed8d239dab9858aa33c8c0f6b3c0f23db11ffde4d
-  1.11.3: 
-    sha256:e40252e43c10ac586b4c015c01a38d7c9664edf5bc9b260071b4d657ff74fff2
+  1.10.1: 'crane digest julia:1.10.1: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.10.2: 'crane digest julia:1.10.2: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.10.3: 'crane digest julia:1.10.3: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.10.4: 'crane digest julia:1.10.4: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.10.5: 'crane digest julia:1.10.5: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.11.1: 'crane digest julia:1.11.1: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.10.6: 'crane digest julia:1.10.6: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.11.2: 'crane digest julia:1.11.2: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.10.7: 'crane digest julia:1.10.7: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
+  1.11.3: 'crane digest julia:1.11.3: TOOMANYREQUESTS: You have reached your unauthenticated
+    pull rate limit. https://www.docker.com/increase-rate-limit'
   1.10.8: 'crane digest julia:1.10.8: TOOMANYREQUESTS: You have reached your unauthenticated
     pull rate limit. https://www.docker.com/increase-rate-limit'
   1.11.4: 'crane digest julia:1.11.4: TOOMANYREQUESTS: You have reached your unauthenticated

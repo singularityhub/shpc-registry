@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/orthofinder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for orthofinder
 latest:
-  3.1.4--hdfd78af_0: 
-    sha256:94eae88393c1aefab39a33a04731cc616bee22514e24e0fa9834a66a832e3d6f
+  3.1.5--hdfd78af_0: 
+    sha256:e135164a65b66a72b53936e809a9ad7c69bcad4c13180d6d79c712b43d3a7831
 tags:
   2.5.4--hdfd78af_0: 
     sha256:d71c5b9c9661e3ca7a612f9109a9f57627a2edecd418e8472608c3c0ef05ef5c
@@ -29,6 +29,8 @@ tags:
     sha256:579720bb4221b37da2da3e8d5198ac3ef5c985c07a9734b4e3362f6624d7ab50
   3.1.4--hdfd78af_0: 
     sha256:94eae88393c1aefab39a33a04731cc616bee22514e24e0fa9834a66a832e3d6f
+  3.1.5--hdfd78af_0: 
+    sha256:e135164a65b66a72b53936e809a9ad7c69bcad4c13180d6d79c712b43d3a7831
 docker: quay.io/biocontainers/orthofinder
 aliases:
   convert_orthofinder_tree_ids.py: 

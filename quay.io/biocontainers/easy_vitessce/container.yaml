@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/easy_vitessce
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for easy_vitessce
 latest:
-  0.0.9--pyhdfd78af_0: 
-    sha256:b894e823bc0d85f8eebabfed80561c11918cb77c9250b9572c8aeea6b649e850
+  0.0.10--pyhdfd78af_0: 
+    sha256:3fcb07c63cb705bd93b8f2dee8a110bab8c6b9f697429adc7753fbf8d139dddf
 tags:
   0.0.9--pyhdfd78af_0: 
     sha256:b894e823bc0d85f8eebabfed80561c11918cb77c9250b9572c8aeea6b649e850
+  0.0.10--pyhdfd78af_0: 
+    sha256:3fcb07c63cb705bd93b8f2dee8a110bab8c6b9f697429adc7753fbf8d139dddf
 docker: quay.io/biocontainers/easy_vitessce
 aliases:
   chr_pos_to_genome_pos.py: /usr/local/bin/chr_pos_to_genome_pos.py

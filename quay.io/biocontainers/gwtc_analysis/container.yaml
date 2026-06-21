@@ -2,10 +2,11 @@ url: https://biocontainers.pro/tools/gwtc_analysis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gwtc_analysis
 latest:
-  0.3.4: sha256:28c50febf1cc66a1e992d7bee15e08f3beea50793641b433afe5fee1bb6d21e6
+  0.4.2: sha256:4b1e722b06ca379c8d711a235254dfa3503ba58c174961cd3b603a71976d9be8
 tags:
   0.3.3: sha256:b81dc3159e194f6be5505ab2ab2691ce9c3713676f9a3db700d7d0a520be682f
   0.3.4: sha256:28c50febf1cc66a1e992d7bee15e08f3beea50793641b433afe5fee1bb6d21e6
+  0.4.2: sha256:4b1e722b06ca379c8d711a235254dfa3503ba58c174961cd3b603a71976d9be8
 docker: quay.io/biocontainers/gwtc_analysis
 aliases:
   alice3: /usr/local/bin/alice3
