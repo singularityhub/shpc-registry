@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/enzywizard-mut-clean
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  enzywizard-mut-clean
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:abd3506d1f21cd6dac9073b4955d0cedf0d9eb93cad7e0d83d00d8d11ced1232
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:abd3506d1f21cd6dac9073b4955d0cedf0d9eb93cad7e0d83d00d8d11ced1232
+docker: quay.io/biocontainers/enzywizard-mut-clean
+aliases:
+  enzywizard-mut-clean: /usr/local/bin/enzywizard-mut-clean
+  pdbfixer: /usr/local/bin/pdbfixer
+  rdhc: /usr/local/bin/rdhc
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

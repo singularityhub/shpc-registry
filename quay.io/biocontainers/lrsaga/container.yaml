@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/lrsaga
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lrsaga
+latest:
+  0.1--pyh106432d_0: 
+    sha256:edf0b8b7aa37993d7a43948df45de837ed0e5ed1fcc427189dd6bfae73358e21
+tags:
+  0.1--pyh106432d_0: 
+    sha256:edf0b8b7aa37993d7a43948df45de837ed0e5ed1fcc427189dd6bfae73358e21
+docker: quay.io/biocontainers/lrsaga
+aliases:
+  MBG: /usr/local/bin/MBG
+  gfa_stats.py: /usr/local/bin/gfa_stats.py
+  gfa_to_fasta.py: /usr/local/bin/gfa_to_fasta.py
+  gfapy-convert: /usr/local/bin/gfapy-convert
+  gfapy-mergelinear: /usr/local/bin/gfapy-mergelinear
+  gfapy-renumber: /usr/local/bin/gfapy-renumber
+  gfapy-validate: /usr/local/bin/gfapy-validate
+  lrSAGA.py: /usr/local/bin/lrSAGA.py
+  preprocess_mbg_gfa.py: /usr/local/bin/preprocess_mbg_gfa.py
+  bamtools: /usr/local/bin/bamtools
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

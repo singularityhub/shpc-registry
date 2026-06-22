@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/synthbar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for synthbar
+latest:
+  0.2.0--h118bc1c_0: 
+    sha256:f95e30c94a3baed0616064f184863bcd15ae9c5727205edd830bf468b78a8639
+tags:
+  0.2.0--h118bc1c_0: 
+    sha256:f95e30c94a3baed0616064f184863bcd15ae9c5727205edd830bf468b78a8639
+docker: quay.io/biocontainers/synthbar
+aliases:
+  synthbar: /usr/local/bin/synthbar

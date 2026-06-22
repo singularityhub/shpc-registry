@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/enzywizard-flexibility
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  enzywizard-flexibility
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:6f8e56ac663a4e6bec6b3a3ba840c5c8a639678f8d63e6821ea9d2c45de772e5
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:6f8e56ac663a4e6bec6b3a3ba840c5c8a639678f8d63e6821ea9d2c45de772e5
+docker: quay.io/biocontainers/enzywizard-flexibility
+aliases:
+  enzywizard-flexibility: /usr/local/bin/enzywizard-flexibility
+  evol: /usr/local/bin/evol
+  prody: /usr/local/bin/prody
+  idna: /usr/local/bin/idna
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer

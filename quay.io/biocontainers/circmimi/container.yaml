@@ -1,0 +1,47 @@
+url: https://biocontainers.pro/tools/circmimi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for circmimi
+latest:
+  0.18.5--pyhdfd78af_0: 
+    sha256:a8c60fe68bf6cd261ea34804cb2da845f643286ea78e5103c6625c0a903042cb
+tags:
+  0.18.5--pyhdfd78af_0: 
+    sha256:a8c60fe68bf6cd261ea34804cb2da845f643286ea78e5103c6625c0a903042cb
+docker: quay.io/biocontainers/circmimi
+aliases:
+  RCS_filter.py: /usr/local/bin/RCS_filter.py
+  checkAA_reads.py: /usr/local/bin/checkAA_reads.py
+  circmimi_tools: /usr/local/bin/circmimi_tools
+  get_RCS.py: /usr/local/bin/get_RCS.py
+  get_RCS_summary.py: /usr/local/bin/get_RCS_summary.py
+  get_flanking_seq.py: /usr/local/bin/get_flanking_seq.py
+  gfClient: /usr/local/bin/gfClient
+  miranda: /usr/local/bin/miranda
+  mp_blat.py: /usr/local/bin/mp_blat.py
+  pslPretty: /usr/local/bin/pslPretty
+  pslReps: /usr/local/bin/pslReps
+  faToNib: /usr/local/bin/faToNib
+  nibFrag: /usr/local/bin/nibFrag
+  pslSort: /usr/local/bin/pslSort
+  gfServer: /usr/local/bin/gfServer
+  blat: /usr/local/bin/blat
+  idna: /usr/local/bin/idna
+  twoBitToFa: /usr/local/bin/twoBitToFa
+  twoBitInfo: /usr/local/bin/twoBitInfo
+  faToTwoBit: /usr/local/bin/faToTwoBit
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo

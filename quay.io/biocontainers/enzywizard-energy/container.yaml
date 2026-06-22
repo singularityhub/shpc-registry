@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/enzywizard-energy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for enzywizard-energy
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:84d8a0474ad9a7cf77ca37046de6a8c46568e66ef2f033b442e394f3f18ad467
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:84d8a0474ad9a7cf77ca37046de6a8c46568e66ef2f033b442e394f3f18ad467
+docker: quay.io/biocontainers/enzywizard-energy
+aliases:
+  enzywizard-energy: /usr/local/bin/enzywizard-energy
+  rdhc: /usr/local/bin/rdhc
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

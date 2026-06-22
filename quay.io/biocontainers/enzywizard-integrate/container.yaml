@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/enzywizard-integrate
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  enzywizard-integrate
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:264ec4c605b1f35024ffcbc281b31e6c793761d6e537c627907c532758cc5e83
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:264ec4c605b1f35024ffcbc281b31e6c793761d6e537c627907c532758cc5e83
+docker: quay.io/biocontainers/enzywizard-integrate
+aliases:
+  enzywizard-integrate: /usr/local/bin/enzywizard-integrate
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/trnascan-py
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for trnascan-py
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:327e80821fed6d3d3df27d3316920b2eb534b4a415b4d56f338860bf7024cff1
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:327e80821fed6d3d3df27d3316920b2eb534b4a415b4d56f338860bf7024cff1
+docker: quay.io/biocontainers/trnascan-py
+aliases:
+  MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
+  trnascan-py: /usr/local/bin/trnascan-py
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert
+  cmemit: /usr/local/bin/cmemit
+  cmfetch: /usr/local/bin/cmfetch
+  cmpress: /usr/local/bin/cmpress
+  cmscan: /usr/local/bin/cmscan
+  cmsearch: /usr/local/bin/cmsearch
+  cmstat: /usr/local/bin/cmstat
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

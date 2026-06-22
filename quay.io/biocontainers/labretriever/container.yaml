@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/labretriever
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for labretriever
+latest:
+  1.1.3--pyh106432d_0: 
+    sha256:d27e7e241d948c6df64878bf2cba1b397876e7ccfc2d71acdf5d9ad06438e05f
+tags:
+  1.1.3--pyh106432d_0: 
+    sha256:d27e7e241d948c6df64878bf2cba1b397876e7ccfc2d71acdf5d9ad06438e05f
+docker: quay.io/biocontainers/labretriever
+aliases:
+  labretriever-mcp: /usr/local/bin/labretriever-mcp
+  labretriever-mcp-repo: /usr/local/bin/labretriever-mcp-repo
+  mcp: /usr/local/bin/mcp
+  uvicorn: /usr/local/bin/uvicorn
+  hf: /usr/local/bin/hf
+  tiny-agents: /usr/local/bin/tiny-agents
+  huggingface-cli: /usr/local/bin/huggingface-cli
+  idna: /usr/local/bin/idna
+  dotenv: /usr/local/bin/dotenv
+  httpx: /usr/local/bin/httpx
+  typer: /usr/local/bin/typer
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jsonschema: /usr/local/bin/jsonschema
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

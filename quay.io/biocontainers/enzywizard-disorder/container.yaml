@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/enzywizard-disorder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for enzywizard-disorder
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:8b00cc8b24d8e2f70ecb1c23deec3629230855f145e5dab9271cb65166168990
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:8b00cc8b24d8e2f70ecb1c23deec3629230855f145e5dab9271cb65166168990
+docker: quay.io/biocontainers/enzywizard-disorder
+aliases:
+  enzywizard-disorder: /usr/local/bin/enzywizard-disorder
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

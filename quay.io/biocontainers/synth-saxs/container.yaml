@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/synth-saxs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for synth-saxs
+latest:
+  0.1.7--pyhdfd78af_0: 
+    sha256:bcfbc981e273ee81c9538496725b100b3a0d03e2bf4c0e463a2596af2a677071
+tags:
+  0.1.7--pyhdfd78af_0: 
+    sha256:bcfbc981e273ee81c9538496725b100b3a0d03e2bf4c0e463a2596af2a677071
+docker: quay.io/biocontainers/synth-saxs
+aliases:
+  synth-saxs: /usr/local/bin/synth-saxs
+  idna: /usr/local/bin/idna
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer
