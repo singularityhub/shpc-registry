@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybascule"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybascule/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybascule/container.yaml"
-updated_at: "2026-06-22 02:17:53.305827"
+updated_at: "2026-06-22 07:55:04.317318"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pybascule"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fec/container.yaml"
-updated_at: "2026-06-22 02:23:01.410342"
+updated_at: "2026-06-22 08:00:39.878648"
 latest: "1.0.1--he70b90d_2"
 container_url: "https://biocontainers.pro/tools/fec"
 aliases:

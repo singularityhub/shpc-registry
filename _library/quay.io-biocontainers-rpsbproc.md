@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpsbproc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpsbproc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpsbproc/container.yaml"
-updated_at: "2026-06-22 02:26:37.897472"
+updated_at: "2026-06-22 08:04:26.124268"
 latest: "0.5.1--hd6d6fdc_0"
 container_url: "https://biocontainers.pro/tools/rpsbproc"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaspace2020"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaspace2020/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaspace2020/container.yaml"
-updated_at: "2026-06-22 02:23:33.216888"
+updated_at: "2026-06-22 08:01:13.082362"
 latest: "2.0.9--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/metaspace2020"
 aliases:

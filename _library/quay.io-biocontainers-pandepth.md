@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pandepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandepth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandepth/container.yaml"
-updated_at: "2026-06-22 02:21:57.322469"
+updated_at: "2026-06-22 07:59:29.094716"
 latest: "2.26--h02cc909_0"
 container_url: "https://biocontainers.pro/tools/pandepth"
 aliases:

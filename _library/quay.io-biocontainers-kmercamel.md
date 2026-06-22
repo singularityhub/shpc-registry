@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmercamel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmercamel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmercamel/container.yaml"
-updated_at: "2026-06-22 02:21:30.637115"
+updated_at: "2026-06-22 07:58:59.183324"
 latest: "2.3.0--h9ecd042_0"
 container_url: "https://biocontainers.pro/tools/kmercamel"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/leafcutter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/leafcutter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/leafcutter/container.yaml"
-updated_at: "2026-06-22 02:41:32.791450"
+updated_at: "2026-06-22 08:19:25.896281"
 latest: "2.0.2--pyhd8ed1ab_0"
 container_url: "https://biocontainers.pro/tools/leafcutter"
 aliases:

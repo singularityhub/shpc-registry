@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-smokingmouse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-smokingmouse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-smokingmouse/container.yaml"
-updated_at: "2026-06-22 01:58:44.483637"
+updated_at: "2026-06-22 07:35:14.889436"
 latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-smokingmouse"
 aliases:
