@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastuniq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastuniq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastuniq/container.yaml"
-updated_at: "2026-06-21 07:38:35.146506"
+updated_at: "2026-06-22 02:37:38.369304"
 latest: "1.1--h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/fastuniq"
 aliases:

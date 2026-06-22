@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-www-robotrules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-www-robotrules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-www-robotrules/container.yaml"
-updated_at: "2026-06-21 07:25:13.766819"
-latest: "6.02--pl5321hdfd78af_4"
+updated_at: "2026-06-22 02:23:49.955564"
+latest: "6.03--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-www-robotrules"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "6.02--pl5321hdfd78af_4"
+ - "6.03--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-www-robotrules"
-config: {"url": "https://biocontainers.pro/tools/perl-www-robotrules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-www-robotrules", "latest": {"6.02--pl5321hdfd78af_4": "sha256:635b851560507252001e793895ac261d23a937554ec4cf36d1cae47b4594fbd3"}, "tags": {"6.02--pl5321hdfd78af_4": "sha256:635b851560507252001e793895ac261d23a937554ec4cf36d1cae47b4594fbd3"}, "docker": "quay.io/biocontainers/perl-www-robotrules", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-www-robotrules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-www-robotrules", "latest": {"6.03--pl5321hdfd78af_0": "sha256:f95b72bd0ec4da9f03eaff482c01d6b1ee950048178b76e34b7378c02957bce4"}, "tags": {"6.02--pl5321hdfd78af_4": "sha256:635b851560507252001e793895ac261d23a937554ec4cf36d1cae47b4594fbd3", "6.03--pl5321hdfd78af_0": "sha256:f95b72bd0ec4da9f03eaff482c01d6b1ee950048178b76e34b7378c02957bce4"}, "docker": "quay.io/biocontainers/perl-www-robotrules", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-www-robotrules.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-www-robotrules
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-www-robotrules:6.02--pl5321hdfd78af_4
+$ shpc install quay.io/biocontainers/perl-www-robotrules:6.03--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-www-robotrules/6.02--pl5321hdfd78af_4
-$ module help quay.io/biocontainers/perl-www-robotrules/6.02--pl5321hdfd78af_4
+$ module load quay.io/biocontainers/perl-www-robotrules/6.03--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-www-robotrules/6.03--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

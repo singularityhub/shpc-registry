@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/oxbreaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oxbreaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oxbreaker/container.yaml"
-updated_at: "2026-06-21 07:41:22.397577"
-latest: "1.0--pyhdfd78af_0"
+updated_at: "2026-06-22 02:40:36.483550"
+latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/oxbreaker"
 aliases:
  - "gtk4-builder-tool"
@@ -50,8 +50,10 @@ aliases:
  - "cksum"
 versions:
  - "1.0--pyhdfd78af_0"
+ - "1.1--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for oxbreaker"
-config: {"url": "https://biocontainers.pro/tools/oxbreaker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oxbreaker", "latest": {"1.0--pyhdfd78af_0": "sha256:d0e18369f7408d15084baa04aaf86a565ab09ffde970438df8789d9a05e387c9"}, "tags": {"1.0--pyhdfd78af_0": "sha256:d0e18369f7408d15084baa04aaf86a565ab09ffde970438df8789d9a05e387c9"}, "docker": "quay.io/biocontainers/oxbreaker", "aliases": {"gtk4-builder-tool": "/usr/local/bin/gtk4-builder-tool", "gtk4-demo": "/usr/local/bin/gtk4-demo", "gtk4-demo-application": "/usr/local/bin/gtk4-demo-application", "gtk4-encode-symbolic-svg": "/usr/local/bin/gtk4-encode-symbolic-svg", "gtk4-icon-editor": "/usr/local/bin/gtk4-icon-editor", "gtk4-image-tool": "/usr/local/bin/gtk4-image-tool", "gtk4-launch": "/usr/local/bin/gtk4-launch", "gtk4-node-editor": "/usr/local/bin/gtk4-node-editor", "gtk4-path-tool": "/usr/local/bin/gtk4-path-tool", "gtk4-print-editor": "/usr/local/bin/gtk4-print-editor", "gtk4-query-settings": "/usr/local/bin/gtk4-query-settings", "gtk4-rendernode-tool": "/usr/local/bin/gtk4-rendernode-tool", "gtk4-update-icon-cache": "/usr/local/bin/gtk4-update-icon-cache", "gtk4-widget-factory": "/usr/local/bin/gtk4-widget-factory", "oxbreaker": "/usr/local/bin/oxbreaker", "nextflow": "/usr/local/bin/nextflow", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "wayland-scanner": "/usr/local/bin/wayland-scanner", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum"}}
+config: {"url": "https://biocontainers.pro/tools/oxbreaker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for oxbreaker", "latest": {"1.1--pyhdfd78af_0": "sha256:5bd96d58cae9ab679f4f3a7c5dcc3f834c98b9c99c82fb0ce2fe26d5decdf683"}, "tags": {"1.0--pyhdfd78af_0": "sha256:d0e18369f7408d15084baa04aaf86a565ab09ffde970438df8789d9a05e387c9", "1.1--pyhdfd78af_0": "sha256:5bd96d58cae9ab679f4f3a7c5dcc3f834c98b9c99c82fb0ce2fe26d5decdf683", "1.0.1--pyhdfd78af_0": "sha256:bc58d7a129437c55baf27aeb743847241a5035b9855ffcc0f08d7ed6c792e0c0"}, "docker": "quay.io/biocontainers/oxbreaker", "aliases": {"gtk4-builder-tool": "/usr/local/bin/gtk4-builder-tool", "gtk4-demo": "/usr/local/bin/gtk4-demo", "gtk4-demo-application": "/usr/local/bin/gtk4-demo-application", "gtk4-encode-symbolic-svg": "/usr/local/bin/gtk4-encode-symbolic-svg", "gtk4-icon-editor": "/usr/local/bin/gtk4-icon-editor", "gtk4-image-tool": "/usr/local/bin/gtk4-image-tool", "gtk4-launch": "/usr/local/bin/gtk4-launch", "gtk4-node-editor": "/usr/local/bin/gtk4-node-editor", "gtk4-path-tool": "/usr/local/bin/gtk4-path-tool", "gtk4-print-editor": "/usr/local/bin/gtk4-print-editor", "gtk4-query-settings": "/usr/local/bin/gtk4-query-settings", "gtk4-rendernode-tool": "/usr/local/bin/gtk4-rendernode-tool", "gtk4-update-icon-cache": "/usr/local/bin/gtk4-update-icon-cache", "gtk4-widget-factory": "/usr/local/bin/gtk4-widget-factory", "oxbreaker": "/usr/local/bin/oxbreaker", "nextflow": "/usr/local/bin/nextflow", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "wayland-scanner": "/usr/local/bin/wayland-scanner", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oxbreaker.
@@ -66,7 +68,7 @@ $ shpc install quay.io/biocontainers/oxbreaker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/oxbreaker:1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/oxbreaker:1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -78,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/oxbreaker/1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/oxbreaker/1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/oxbreaker/1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/oxbreaker/1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

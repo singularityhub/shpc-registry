@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/quartet-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quartet-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quartet-bio/container.yaml"
-updated_at: "2026-06-21 07:10:30.725058"
-latest: "1.2.5--pyhdfd78af_0"
+updated_at: "2026-06-22 02:08:38.908120"
+latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/quartet-bio"
 aliases:
  - "hifiasm"
@@ -49,8 +49,9 @@ aliases:
  - "ri"
 versions:
  - "1.2.5--pyhdfd78af_0"
+ - "1.3.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for quartet-bio"
-config: {"url": "https://biocontainers.pro/tools/quartet-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quartet-bio", "latest": {"1.2.5--pyhdfd78af_0": "sha256:73e4ab045a514e53e5400c7b3033fb1c4dc277f34e797e67bc913473079458a5"}, "tags": {"1.2.5--pyhdfd78af_0": "sha256:73e4ab045a514e53e5400c7b3033fb1c4dc277f34e797e67bc913473079458a5"}, "docker": "quay.io/biocontainers/quartet-bio", "aliases": {"hifiasm": "/usr/local/bin/hifiasm", "minitest": "/usr/local/bin/minitest", "quartet.py": "/usr/local/bin/quartet.py", "quartet_assemblymapper.py": "/usr/local/bin/quartet_assemblymapper.py", "quartet_centrominer.py": "/usr/local/bin/quartet_centrominer.py", "quartet_gapfiller.py": "/usr/local/bin/quartet_gapfiller.py", "quartet_teloexplorer.py": "/usr/local/bin/quartet_teloexplorer.py", "quartet_util.py": "/usr/local/bin/quartet_util.py", "setup.py": "/usr/local/bin/setup.py", "syntax_suggest": "/usr/local/bin/syntax_suggest", "test-unit": "/usr/local/bin/test-unit", "tidk": "/usr/local/bin/tidk", "unimap": "/usr/local/bin/unimap", "yaggo": "/usr/local/bin/yaggo", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "trf": "/usr/local/bin/trf", "gnuplot": "/usr/local/bin/gnuplot", "pax11publish": "/usr/local/bin/pax11publish", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "erb": "/usr/local/bin/erb", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gem": "/usr/local/bin/gem", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "irb": "/usr/local/bin/irb", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri"}}
+config: {"url": "https://biocontainers.pro/tools/quartet-bio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for quartet-bio", "latest": {"1.3.1--pyhdfd78af_0": "sha256:c866a5f3e174645aba7b2d12f1b83c8b2d23022eceb7a9b3152dc1976cf60914"}, "tags": {"1.2.5--pyhdfd78af_0": "sha256:73e4ab045a514e53e5400c7b3033fb1c4dc277f34e797e67bc913473079458a5", "1.3.1--pyhdfd78af_0": "sha256:c866a5f3e174645aba7b2d12f1b83c8b2d23022eceb7a9b3152dc1976cf60914"}, "docker": "quay.io/biocontainers/quartet-bio", "aliases": {"hifiasm": "/usr/local/bin/hifiasm", "minitest": "/usr/local/bin/minitest", "quartet.py": "/usr/local/bin/quartet.py", "quartet_assemblymapper.py": "/usr/local/bin/quartet_assemblymapper.py", "quartet_centrominer.py": "/usr/local/bin/quartet_centrominer.py", "quartet_gapfiller.py": "/usr/local/bin/quartet_gapfiller.py", "quartet_teloexplorer.py": "/usr/local/bin/quartet_teloexplorer.py", "quartet_util.py": "/usr/local/bin/quartet_util.py", "setup.py": "/usr/local/bin/setup.py", "syntax_suggest": "/usr/local/bin/syntax_suggest", "test-unit": "/usr/local/bin/test-unit", "tidk": "/usr/local/bin/tidk", "unimap": "/usr/local/bin/unimap", "yaggo": "/usr/local/bin/yaggo", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "trf": "/usr/local/bin/trf", "gnuplot": "/usr/local/bin/gnuplot", "pax11publish": "/usr/local/bin/pax11publish", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "erb": "/usr/local/bin/erb", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gem": "/usr/local/bin/gem", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "irb": "/usr/local/bin/irb", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quartet-bio.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/quartet-bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/quartet-bio:1.2.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/quartet-bio:1.3.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/quartet-bio/1.2.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/quartet-bio/1.2.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/quartet-bio/1.3.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/quartet-bio/1.3.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

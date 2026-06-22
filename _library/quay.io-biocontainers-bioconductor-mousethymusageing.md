@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mousethymusageing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mousethymusageing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mousethymusageing/container.yaml"
-updated_at: "2026-06-21 07:20:16.914320"
+updated_at: "2026-06-22 02:18:46.075331"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mousethymusageing"
 

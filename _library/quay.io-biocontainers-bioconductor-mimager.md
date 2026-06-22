@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mimager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mimager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mimager/container.yaml"
-updated_at: "2026-06-21 07:08:00.862145"
+updated_at: "2026-06-22 02:05:58.363441"
 latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mimager"
 aliases:

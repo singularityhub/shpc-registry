@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longestrunsubsequence"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longestrunsubsequence/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longestrunsubsequence/container.yaml"
-updated_at: "2026-06-21 06:58:35.608496"
+updated_at: "2026-06-22 01:55:54.315307"
 latest: "1.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/longestrunsubsequence"
 aliases:

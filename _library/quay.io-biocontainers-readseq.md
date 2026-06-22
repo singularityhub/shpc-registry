@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/readseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/readseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/readseq/container.yaml"
-updated_at: "2026-06-21 07:31:12.808815"
+updated_at: "2026-06-22 02:30:05.572535"
 latest: "2.1.30--1"
 container_url: "https://biocontainers.pro/tools/readseq"
 aliases:

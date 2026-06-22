@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hypo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hypo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hypo/container.yaml"
-updated_at: "2026-06-21 07:24:12.931280"
+updated_at: "2026-06-22 02:22:47.843141"
 latest: "1.0.3--hf426362_3"
 container_url: "https://biocontainers.pro/tools/hypo"
 aliases:

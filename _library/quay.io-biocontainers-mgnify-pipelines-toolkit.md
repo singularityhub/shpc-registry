@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgnify-pipelines-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgnify-pipelines-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgnify-pipelines-toolkit/container.yaml"
-updated_at: "2026-06-21 07:04:02.987712"
+updated_at: "2026-06-22 02:01:46.283081"
 latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mgnify-pipelines-toolkit"
 aliases:

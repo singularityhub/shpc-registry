@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemk_util"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemk_util/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemk_util/container.yaml"
-updated_at: "2026-06-21 07:43:37.587538"
+updated_at: "2026-06-22 02:43:07.163878"
 latest: "3.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemk_util"
 aliases:

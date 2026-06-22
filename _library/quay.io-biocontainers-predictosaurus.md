@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/predictosaurus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/predictosaurus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/predictosaurus/container.yaml"
-updated_at: "2026-06-21 06:55:27.398224"
-latest: "0.12.3--hbcba35e_0"
+updated_at: "2026-06-22 01:52:30.684280"
+latest: "0.13.1--hbcba35e_0"
 container_url: "https://biocontainers.pro/tools/predictosaurus"
 aliases:
  - "predictosaurus"
@@ -26,8 +26,10 @@ versions:
  - "0.10.5--hbcba35e_0"
  - "0.12.3--hbcba35e_0"
  - "0.11.3--hbcba35e_0"
+ - "0.13.1--hbcba35e_0"
+ - "0.12.8--hbcba35e_0"
 description: "singularity registry hpc automated addition for predictosaurus"
-config: {"url": "https://biocontainers.pro/tools/predictosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for predictosaurus", "latest": {"0.12.3--hbcba35e_0": "sha256:f9699c4fe40a1d3f330dfcddd53957b5d97d99d96e9373b3f22c863a07dd4135"}, "tags": {"0.2.2--hcb96839_0": "sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8", "0.2.6--hcb96839_0": "sha256:5b55b9230c15f7522e9cc28cae31174e0017a09f8dd05b5b1a17430e5d321462", "0.2.9--hcb96839_0": "sha256:b7f0dbe4ace67b6641a193141ffcdcba43897b0b7a624b1131f2f06799a973ca", "0.2.10--hcb96839_0": "sha256:e80342be635429d7a5a54f69d028ffcd83fefb31da37485603d03ed76f9e6f65", "0.3.2--hcb96839_0": "sha256:387aba70be685e80e480e25508dcb82e04d026c6b9521c7e2302e3973611f0b3", "0.4.2--hcb96839_0": "sha256:47509b683eff4a319bd63bd8388348465282c46bdb6ca291aee525c4e2d113f5", "0.6.0--hcb96839_0": "sha256:d5d61fda412516e81688e84af8ed100b88c1fbe76783af5b439e306b71134c79", "0.5.0--hcb96839_0": "sha256:b0148243f80c6faa8559220339b00d8ef0225bf59717ddaec96990697bf16441", "0.7.4--hcb96839_0": "sha256:8d4e6cb8bdd15068893b5f2981a157433d41cfcfbc9d41d2124999ed16d9ecdf", "0.8.3--hbcba35e_0": "sha256:038d9f657c4b52ab2c8985aa929486e871babdc67b374bd525c4858621e88430", "0.10.0--hbcba35e_0": "sha256:7715ef36a7122cae997196d98a2242471ecf4efd51e475030d86f1b6c4b791a8", "0.9.3--hbcba35e_0": "sha256:135d62196b4df1342ac95f464aec3167d018661b3a01a2fb54cad07de229051b", "0.8.4--hbcba35e_0": "sha256:016f3c5b2410023f1d96459a2c09b66413773700afb78b7f5b643d315e4132ca", "0.10.5--hbcba35e_0": "sha256:3bc4c94b0b1c5a252c898f3a75c1366c5d75a3cc27b790bb2b035f214cc2d860", "0.12.3--hbcba35e_0": "sha256:f9699c4fe40a1d3f330dfcddd53957b5d97d99d96e9373b3f22c863a07dd4135", "0.11.3--hbcba35e_0": "sha256:91c90af08f519b60964b27391d5876947fc75ea0c554c00899f13156b3459202"}, "docker": "quay.io/biocontainers/predictosaurus", "aliases": {"predictosaurus": "/usr/local/bin/predictosaurus"}}
+config: {"url": "https://biocontainers.pro/tools/predictosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for predictosaurus", "latest": {"0.13.1--hbcba35e_0": "sha256:3be3af66f47664f5093fc7615e324a3b73e82324bb92b611f4dd7e4250fe38d4"}, "tags": {"0.2.2--hcb96839_0": "sha256:1d54fbe56d05b18bd3d1738b5a7b6003453fcd728cbcf5c375a4c293a57713f8", "0.2.6--hcb96839_0": "sha256:5b55b9230c15f7522e9cc28cae31174e0017a09f8dd05b5b1a17430e5d321462", "0.2.9--hcb96839_0": "sha256:b7f0dbe4ace67b6641a193141ffcdcba43897b0b7a624b1131f2f06799a973ca", "0.2.10--hcb96839_0": "sha256:e80342be635429d7a5a54f69d028ffcd83fefb31da37485603d03ed76f9e6f65", "0.3.2--hcb96839_0": "sha256:387aba70be685e80e480e25508dcb82e04d026c6b9521c7e2302e3973611f0b3", "0.4.2--hcb96839_0": "sha256:47509b683eff4a319bd63bd8388348465282c46bdb6ca291aee525c4e2d113f5", "0.6.0--hcb96839_0": "sha256:d5d61fda412516e81688e84af8ed100b88c1fbe76783af5b439e306b71134c79", "0.5.0--hcb96839_0": "sha256:b0148243f80c6faa8559220339b00d8ef0225bf59717ddaec96990697bf16441", "0.7.4--hcb96839_0": "sha256:8d4e6cb8bdd15068893b5f2981a157433d41cfcfbc9d41d2124999ed16d9ecdf", "0.8.3--hbcba35e_0": "sha256:038d9f657c4b52ab2c8985aa929486e871babdc67b374bd525c4858621e88430", "0.10.0--hbcba35e_0": "sha256:7715ef36a7122cae997196d98a2242471ecf4efd51e475030d86f1b6c4b791a8", "0.9.3--hbcba35e_0": "sha256:135d62196b4df1342ac95f464aec3167d018661b3a01a2fb54cad07de229051b", "0.8.4--hbcba35e_0": "sha256:016f3c5b2410023f1d96459a2c09b66413773700afb78b7f5b643d315e4132ca", "0.10.5--hbcba35e_0": "sha256:3bc4c94b0b1c5a252c898f3a75c1366c5d75a3cc27b790bb2b035f214cc2d860", "0.12.3--hbcba35e_0": "sha256:f9699c4fe40a1d3f330dfcddd53957b5d97d99d96e9373b3f22c863a07dd4135", "0.11.3--hbcba35e_0": "sha256:91c90af08f519b60964b27391d5876947fc75ea0c554c00899f13156b3459202", "0.13.1--hbcba35e_0": "sha256:3be3af66f47664f5093fc7615e324a3b73e82324bb92b611f4dd7e4250fe38d4", "0.12.8--hbcba35e_0": "sha256:0189a044917dc494ed8caa703665a55e4ba48c24d333ce8df43dd1bdffaf27d0"}, "docker": "quay.io/biocontainers/predictosaurus", "aliases": {"predictosaurus": "/usr/local/bin/predictosaurus"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/predictosaurus.
@@ -42,7 +44,7 @@ $ shpc install quay.io/biocontainers/predictosaurus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/predictosaurus:0.12.3--hbcba35e_0
+$ shpc install quay.io/biocontainers/predictosaurus:0.13.1--hbcba35e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/predictosaurus/0.12.3--hbcba35e_0
-$ module help quay.io/biocontainers/predictosaurus/0.12.3--hbcba35e_0
+$ module load quay.io/biocontainers/predictosaurus/0.13.1--hbcba35e_0
+$ module help quay.io/biocontainers/predictosaurus/0.13.1--hbcba35e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

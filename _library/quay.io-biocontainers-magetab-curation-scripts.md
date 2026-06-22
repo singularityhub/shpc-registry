@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/magetab-curation-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magetab-curation-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magetab-curation-scripts/container.yaml"
-updated_at: "2026-06-21 07:31:43.444804"
+updated_at: "2026-06-22 02:30:36.909685"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magetab-curation-scripts"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tau-community-detection"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tau-community-detection/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tau-community-detection/container.yaml"
-updated_at: "2026-06-21 07:34:31.196240"
-latest: "1.2.11--pyhdfd78af_0"
+updated_at: "2026-06-22 02:33:28.710933"
+latest: "1.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tau-community-detection"
 aliases:
  - "tau"
@@ -18,8 +18,10 @@ aliases:
  - "numpy-config"
 versions:
  - "1.2.11--pyhdfd78af_0"
+ - "1.4.2--pyhdfd78af_0"
+ - "1.3.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tau-community-detection"
-config: {"url": "https://biocontainers.pro/tools/tau-community-detection", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tau-community-detection", "latest": {"1.2.11--pyhdfd78af_0": "sha256:fa9692d1c9bde5bbee0633acdb1316cfd9e55cbd7be0a2a005a392cf412ee96f"}, "tags": {"1.2.11--pyhdfd78af_0": "sha256:fa9692d1c9bde5bbee0633acdb1316cfd9e55cbd7be0a2a005a392cf412ee96f"}, "docker": "quay.io/biocontainers/tau-community-detection", "aliases": {"tau": "/usr/local/bin/tau", "igraph": "/usr/local/bin/igraph", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "glpsol": "/usr/local/bin/glpsol", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/tau-community-detection", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tau-community-detection", "latest": {"1.4.2--pyhdfd78af_0": "sha256:f82c4e0bbdeaccdd49481d783b6e980462041ebedd70b0379f43e584ad6242f5"}, "tags": {"1.2.11--pyhdfd78af_0": "sha256:fa9692d1c9bde5bbee0633acdb1316cfd9e55cbd7be0a2a005a392cf412ee96f", "1.4.2--pyhdfd78af_0": "sha256:f82c4e0bbdeaccdd49481d783b6e980462041ebedd70b0379f43e584ad6242f5", "1.3.2--pyhdfd78af_0": "sha256:97643e0c2e881d28ef3bae5a5963fabfb341c7553c379c62c5e97e3ed41000b5"}, "docker": "quay.io/biocontainers/tau-community-detection", "aliases": {"tau": "/usr/local/bin/tau", "igraph": "/usr/local/bin/igraph", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "glpsol": "/usr/local/bin/glpsol", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tau-community-detection.
@@ -34,7 +36,7 @@ $ shpc install quay.io/biocontainers/tau-community-detection
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tau-community-detection:1.2.11--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tau-community-detection:1.4.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tau-community-detection/1.2.11--pyhdfd78af_0
-$ module help quay.io/biocontainers/tau-community-detection/1.2.11--pyhdfd78af_0
+$ module load quay.io/biocontainers/tau-community-detection/1.4.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/tau-community-detection/1.4.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

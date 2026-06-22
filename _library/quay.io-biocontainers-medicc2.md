@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/medicc2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/medicc2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/medicc2/container.yaml"
-updated_at: "2026-06-21 07:43:21.190188"
+updated_at: "2026-06-22 02:42:49.103229"
 latest: "1.1.2--py39he88f293_2"
 container_url: "https://biocontainers.pro/tools/medicc2"
 aliases:

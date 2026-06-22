@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mpralib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mpralib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mpralib/container.yaml"
-updated_at: "2026-06-21 07:04:47.484169"
+updated_at: "2026-06-22 02:02:32.989290"
 latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mpralib"
 aliases:

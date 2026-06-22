@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-pbkdf2-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pbkdf2-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pbkdf2-tiny/container.yaml"
-updated_at: "2026-06-21 07:00:48.449023"
+updated_at: "2026-06-22 01:58:17.845337"
 latest: "0.005--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-pbkdf2-tiny"
 aliases:

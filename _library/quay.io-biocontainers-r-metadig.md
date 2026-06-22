@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metadig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metadig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metadig/container.yaml"
-updated_at: "2026-06-21 07:21:21.844740"
+updated_at: "2026-06-22 02:19:52.761031"
 latest: "0.2.1--r44h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/r-metadig"
 aliases:

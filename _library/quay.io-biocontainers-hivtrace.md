@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hivtrace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hivtrace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hivtrace/container.yaml"
-updated_at: "2026-06-21 07:06:35.703929"
+updated_at: "2026-06-22 02:04:28.109572"
 latest: "1.5.0--py_0"
 container_url: "https://biocontainers.pro/tools/hivtrace"
 aliases:
