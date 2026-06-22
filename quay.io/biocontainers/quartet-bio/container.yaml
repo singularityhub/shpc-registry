@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/quartet-bio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for quartet-bio
 latest:
-  1.2.5--pyhdfd78af_0: 
-    sha256:73e4ab045a514e53e5400c7b3033fb1c4dc277f34e797e67bc913473079458a5
+  1.3.1--pyhdfd78af_0: 
+    sha256:c866a5f3e174645aba7b2d12f1b83c8b2d23022eceb7a9b3152dc1976cf60914
 tags:
   1.2.5--pyhdfd78af_0: 
     sha256:73e4ab045a514e53e5400c7b3033fb1c4dc277f34e797e67bc913473079458a5
+  1.3.1--pyhdfd78af_0: 
+    sha256:c866a5f3e174645aba7b2d12f1b83c8b2d23022eceb7a9b3152dc1976cf60914
 docker: quay.io/biocontainers/quartet-bio
 aliases:
   hifiasm: /usr/local/bin/hifiasm

@@ -3,11 +3,15 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   tau-community-detection
 latest:
-  1.2.11--pyhdfd78af_0: 
-    sha256:fa9692d1c9bde5bbee0633acdb1316cfd9e55cbd7be0a2a005a392cf412ee96f
+  1.4.2--pyhdfd78af_0: 
+    sha256:f82c4e0bbdeaccdd49481d783b6e980462041ebedd70b0379f43e584ad6242f5
 tags:
   1.2.11--pyhdfd78af_0: 
     sha256:fa9692d1c9bde5bbee0633acdb1316cfd9e55cbd7be0a2a005a392cf412ee96f
+  1.4.2--pyhdfd78af_0: 
+    sha256:f82c4e0bbdeaccdd49481d783b6e980462041ebedd70b0379f43e584ad6242f5
+  1.3.2--pyhdfd78af_0: 
+    sha256:97643e0c2e881d28ef3bae5a5963fabfb341c7553c379c62c5e97e3ed41000b5
 docker: quay.io/biocontainers/tau-community-detection
 aliases:
   tau: /usr/local/bin/tau

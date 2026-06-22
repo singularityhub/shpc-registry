@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fgbio-minimal
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fgbio-minimal
 latest:
-  4.0.0--hdfd78af_0: 
-    sha256:66528e3649d77b51fb316dfb5bf3200184dba13f6293a331e103d42df54e20fa
+  4.1.0--hdfd78af_0: 
+    sha256:5de6e0ad62c7c6e3ba17e27b711b844ce2d641c1f5fd350f28a89841afe1bc0f
 tags:
   2.1.0--hdfd78af_0: 
     sha256:80bddcd05e5495f25c0c920c2c1a0811f110c708d2512d3eeae8af520c472936
@@ -29,6 +29,8 @@ tags:
     sha256:eb603c222906a113f5e8c31b08d3b6c51d56772702c1bd43860f89067b92f85b
   4.0.0--hdfd78af_0: 
     sha256:66528e3649d77b51fb316dfb5bf3200184dba13f6293a331e103d42df54e20fa
+  4.1.0--hdfd78af_0: 
+    sha256:5de6e0ad62c7c6e3ba17e27b711b844ce2d641c1f5fd350f28a89841afe1bc0f
 docker: quay.io/biocontainers/fgbio-minimal
 aliases:
   fgbio: /usr/local/bin/fgbio
