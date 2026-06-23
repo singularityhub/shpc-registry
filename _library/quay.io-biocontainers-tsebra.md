@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tsebra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tsebra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tsebra/container.yaml"
-updated_at: "2026-06-22 07:51:41.828632"
+updated_at: "2026-06-23 06:33:38.326476"
 latest: "1.1.2.5--pyhca03a8a_0"
 container_url: "https://biocontainers.pro/tools/tsebra"
 aliases:

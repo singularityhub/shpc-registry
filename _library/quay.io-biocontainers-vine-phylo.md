@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vine-phylo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vine-phylo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vine-phylo/container.yaml"
-updated_at: "2026-06-22 08:11:45.554537"
+updated_at: "2026-06-23 06:53:22.912439"
 latest: "0.3.4--h7eac25e_0"
 container_url: "https://biocontainers.pro/tools/vine-phylo"
 aliases:

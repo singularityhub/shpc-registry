@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaxaqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaxaqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaxaqr/container.yaml"
-updated_at: "2026-06-22 08:06:50.872252"
+updated_at: "2026-06-23 06:48:21.418176"
 latest: "3.0rc2--py314pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaxaqr"
 aliases:

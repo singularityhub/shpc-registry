@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakehichiptf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakehichiptf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakehichiptf/container.yaml"
-updated_at: "2026-06-22 07:33:10.760635"
+updated_at: "2026-06-23 06:15:42.812046"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakehichiptf"
 aliases:

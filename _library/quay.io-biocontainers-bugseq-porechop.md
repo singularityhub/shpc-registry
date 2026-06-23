@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bugseq-porechop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bugseq-porechop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bugseq-porechop/container.yaml"
-updated_at: "2026-06-22 08:12:17.341986"
+updated_at: "2026-06-23 06:53:55.581296"
 latest: "0.3.4pre--py37h96cfd12_2"
 container_url: "https://biocontainers.pro/tools/bugseq-porechop"
 aliases:

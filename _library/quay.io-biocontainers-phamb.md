@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phamb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phamb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phamb/container.yaml"
-updated_at: "2026-06-22 07:39:05.082048"
+updated_at: "2026-06-23 06:21:20.446562"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phamb"
 aliases:

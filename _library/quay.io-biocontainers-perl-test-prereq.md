@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-prereq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-prereq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-prereq/container.yaml"
-updated_at: "2026-06-22 07:36:53.203652"
+updated_at: "2026-06-23 06:19:15.800771"
 latest: "2.002--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-test-prereq"
 aliases:

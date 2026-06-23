@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transcriptm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transcriptm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transcriptm/container.yaml"
-updated_at: "2026-06-22 07:30:55.114997"
+updated_at: "2026-06-23 06:13:31.895755"
 latest: "0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/transcriptm"
 aliases:

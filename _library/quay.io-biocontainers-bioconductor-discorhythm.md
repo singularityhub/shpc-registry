@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-discorhythm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-discorhythm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-discorhythm/container.yaml"
-updated_at: "2026-06-22 08:13:12.212771"
+updated_at: "2026-06-23 06:54:51.247695"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-discorhythm"
 aliases:

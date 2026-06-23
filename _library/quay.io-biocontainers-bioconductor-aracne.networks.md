@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aracne.networks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aracne.networks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aracne.networks/container.yaml"
-updated_at: "2026-06-22 08:06:57.731534"
+updated_at: "2026-06-23 06:48:28.630287"
 latest: "1.32.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aracne.networks"
 aliases:

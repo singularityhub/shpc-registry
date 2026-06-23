@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnabridge-denovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnabridge-denovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnabridge-denovo/container.yaml"
-updated_at: "2026-06-22 07:52:36.762070"
+updated_at: "2026-06-23 06:34:32.367597"
 latest: "1.0.1--hc9558a2_0"
 container_url: "https://biocontainers.pro/tools/rnabridge-denovo"
 aliases:

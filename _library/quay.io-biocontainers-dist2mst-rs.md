@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dist2mst-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dist2mst-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dist2mst-rs/container.yaml"
-updated_at: "2026-06-22 08:04:51.074873"
+updated_at: "2026-06-23 06:46:19.534177"
 latest: "0.1.0--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/dist2mst-rs"
 aliases:

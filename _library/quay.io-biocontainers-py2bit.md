@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/py2bit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/py2bit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/py2bit/container.yaml"
-updated_at: "2026-06-22 08:02:53.917873"
+updated_at: "2026-06-23 06:44:25.705951"
 latest: "1.0.1--py311hc303176_0"
 container_url: "https://biocontainers.pro/tools/py2bit"
 aliases:

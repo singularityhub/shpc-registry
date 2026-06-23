@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/expressbetadiversity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expressbetadiversity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expressbetadiversity/container.yaml"
-updated_at: "2026-06-22 08:11:39.774898"
+updated_at: "2026-06-23 06:53:17.055415"
 latest: "1.0.10--h9948957_6"
 container_url: "https://biocontainers.pro/tools/expressbetadiversity"
 aliases:

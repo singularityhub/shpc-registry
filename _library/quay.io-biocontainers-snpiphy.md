@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpiphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpiphy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpiphy/container.yaml"
-updated_at: "2026-06-22 07:59:45.245268"
+updated_at: "2026-06-23 06:41:23.568599"
 latest: "0.5--py_0"
 container_url: "https://biocontainers.pro/tools/snpiphy"
 aliases:

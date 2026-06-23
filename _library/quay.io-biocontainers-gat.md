@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gat/container.yaml"
-updated_at: "2026-06-22 07:43:42.922622"
+updated_at: "2026-06-23 06:25:49.701122"
 latest: "1.3.6--py39h87d955d_4"
 container_url: "https://biocontainers.pro/tools/gat"
 aliases:

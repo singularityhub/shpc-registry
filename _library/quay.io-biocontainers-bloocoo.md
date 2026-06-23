@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bloocoo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bloocoo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bloocoo/container.yaml"
-updated_at: "2026-06-22 07:33:21.569924"
+updated_at: "2026-06-23 06:15:52.963728"
 latest: "1.0.7--h5ca1c30_7"
 container_url: "https://biocontainers.pro/tools/bloocoo"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/centreseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centreseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centreseq/container.yaml"
-updated_at: "2026-06-22 08:00:01.091181"
+updated_at: "2026-06-23 06:41:38.116713"
 latest: "0.3.8--py_0"
 container_url: "https://biocontainers.pro/tools/centreseq"
 

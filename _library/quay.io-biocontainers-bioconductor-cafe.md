@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cafe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cafe/container.yaml"
-updated_at: "2026-06-22 07:42:33.843296"
+updated_at: "2026-06-23 06:24:41.732929"
 latest: "1.42.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cafe"
 

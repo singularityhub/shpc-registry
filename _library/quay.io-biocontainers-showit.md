@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/showit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/showit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/showit/container.yaml"
-updated_at: "2026-06-22 07:32:23.736907"
+updated_at: "2026-06-23 06:14:58.124033"
 latest: "1.1.4--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/showit"
 aliases:

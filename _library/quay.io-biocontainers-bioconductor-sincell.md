@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sincell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sincell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sincell/container.yaml"
-updated_at: "2026-06-22 08:01:25.509150"
+updated_at: "2026-06-23 06:42:58.792823"
 latest: "1.42.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sincell"
 aliases:

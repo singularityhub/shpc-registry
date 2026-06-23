@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wtv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wtv/container.yaml"
-updated_at: "2026-06-22 08:17:47.658323"
+updated_at: "2026-06-23 06:59:29.425023"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wtv"
 aliases:
