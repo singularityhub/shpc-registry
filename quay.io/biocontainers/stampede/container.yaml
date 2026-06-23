@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/stampede
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for stampede
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:7417ed73d24afa15c7dc7d2d4c00ef11781ca04e230875c7b806d1279f8f23af
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:7417ed73d24afa15c7dc7d2d4c00ef11781ca04e230875c7b806d1279f8f23af
+docker: quay.io/biocontainers/stampede
+aliases:
+  session-info2: /usr/local/bin/session-info2
+  session-info: /usr/local/bin/session-info
+  fc-genconf: /usr/local/bin/fc-genconf
+  zarr: /usr/local/bin/zarr
+  igraph: /usr/local/bin/igraph
+  h2benchmark: /usr/local/bin/h2benchmark
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  scanpy: /usr/local/bin/scanpy
+  checksum-profile: /usr/local/bin/checksum-profile
+  elasticurl: /usr/local/bin/elasticurl
+  numba: /usr/local/bin/numba
+  natsort: /usr/local/bin/natsort
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps

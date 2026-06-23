@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/hillrep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hillrep
+latest:
+  0.3.0--pyhdfd78af_0: 
+    sha256:f9688fc2497e1426ff4812fcf36105d4d222347fa0b62c78418624d51c1223d8
+tags:
+  0.3.0--pyhdfd78af_0: 
+    sha256:f9688fc2497e1426ff4812fcf36105d4d222347fa0b62c78418624d51c1223d8
+docker: quay.io/biocontainers/hillrep
+aliases:
+  hillrep: /usr/local/bin/hillrep
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

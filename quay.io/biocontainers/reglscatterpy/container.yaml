@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/reglscatterpy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for reglscatterpy
+latest:
+  0.4.1--pyhdfd78af_0: 
+    sha256:7fea6e7b40ad970fb3f0c803ced14839236c52b437a887c6f137b550f2a28594
+tags:
+  0.4.1--pyhdfd78af_0: 
+    sha256:7fea6e7b40ad970fb3f0c803ced14839236c52b437a887c6f137b550f2a28594
+docker: quay.io/biocontainers/reglscatterpy
+aliases:
+  reglscatterpy-report: /usr/local/bin/reglscatterpy-report
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config

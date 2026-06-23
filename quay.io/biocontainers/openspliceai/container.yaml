@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/openspliceai
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for openspliceai
+latest:
+  0.0.6--pyhdfd78af_0: 
+    sha256:b5e336904c25c7c082caee23236a51f7b8f3321612ca708d0deef75d8f81beef
+tags:
+  0.0.6--pyhdfd78af_0: 
+    sha256:b5e336904c25c7c082caee23236a51f7b8f3321612ca708d0deef75d8f81beef
+docker: quay.io/biocontainers/openspliceai
+aliases:
+  openspliceai: /usr/local/bin/openspliceai
+  fc-genconf: /usr/local/bin/fc-genconf
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  minimap2.py: /usr/local/bin/minimap2.py
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  h2benchmark: /usr/local/bin/h2benchmark
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  checksum-profile: /usr/local/bin/checksum-profile
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  elasticurl: /usr/local/bin/elasticurl
+  h5delete: /usr/local/bin/h5delete
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox

@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/enzywizard-pocket
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for enzywizard-pocket
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:260cae1977f1133fe9b0fd4b0f8314cb510be2bfef08d518b381ba5260f21491
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:260cae1977f1133fe9b0fd4b0f8314cb510be2bfef08d518b381ba5260f21491
+docker: quay.io/biocontainers/enzywizard-pocket
+aliases:
+  enzywizard-pocket: /usr/local/bin/enzywizard-pocket
+  msms: /usr/local/bin/msms
+  pyvol: /usr/local/bin/pyvol
+  trimesh: /usr/local/bin/trimesh
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

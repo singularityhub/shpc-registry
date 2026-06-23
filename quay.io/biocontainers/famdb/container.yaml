@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/famdb
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for famdb
+latest:
+  3.0.0--hdfd78af_0: 
+    sha256:dcf178b810226816c7befc9ea71ab8931f987e17622552f88b4d4cc9630ac702
+tags:
+  3.0.0--hdfd78af_0: 
+    sha256:dcf178b810226816c7befc9ea71ab8931f987e17622552f88b4d4cc9630ac702
+docker: quay.io/biocontainers/famdb
+aliases:
+  download_dfam.py: /usr/local/bin/download_dfam.py
+  exportHMMAndEMBL.py: /usr/local/bin/exportHMMAndEMBL.py
+  export_dfam.py: /usr/local/bin/export_dfam.py
+  famdb.py: /usr/local/bin/famdb.py
+  famdb_pie_stats.py: /usr/local/bin/famdb_pie_stats.py
+  merge_repbase.py: /usr/local/bin/merge_repbase.py
+  partition_dfam.py: /usr/local/bin/partition_dfam.py
+  set_ver_date.py: /usr/local/bin/set_ver_date.py
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  elasticurl: /usr/local/bin/elasticurl
+  h5delete: /usr/local/bin/h5delete
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  h5fc: /usr/local/bin/h5fc
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5repack: /usr/local/bin/h5repack
+  h5repart: /usr/local/bin/h5repart

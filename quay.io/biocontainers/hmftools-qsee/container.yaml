@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/hmftools-qsee
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmftools-qsee
+latest:
+  1.0--hdfd78af_0: 
+    sha256:a744f8104f768f1b83c11d331bdf2fc7fb90a97fcbd411a47a0237ecee16653e
+tags:
+  1.0--hdfd78af_0: 
+    sha256:a744f8104f768f1b83c11d331bdf2fc7fb90a97fcbd411a47a0237ecee16653e
+docker: quay.io/biocontainers/hmftools-qsee
+aliases:
+  qsee: /usr/local/bin/qsee
+  fc-genconf: /usr/local/bin/fc-genconf
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd

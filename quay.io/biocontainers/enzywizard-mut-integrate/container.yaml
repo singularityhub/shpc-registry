@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/enzywizard-mut-integrate
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  enzywizard-mut-integrate
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:095b1b0841c62abb048916c41a22e4d5b7ea0869c88ff5cd229754a51ba7da2f
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:095b1b0841c62abb048916c41a22e4d5b7ea0869c88ff5cd229754a51ba7da2f
+docker: quay.io/biocontainers/enzywizard-mut-integrate
+aliases:
+  enzywizard-mut_integrate: /usr/local/bin/enzywizard-mut_integrate
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/hmftools-fastq-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  hmftools-fastq-tools
+latest:
+  1.0--hdfd78af_0: 
+    sha256:3e6d1feed48a78050d345630cabb7945d6da384533e8b28a38bf180ff6552b75
+tags:
+  1.0--hdfd78af_0: 
+    sha256:3e6d1feed48a78050d345630cabb7945d6da384533e8b28a38bf180ff6552b75
+docker: quay.io/biocontainers/hmftools-fastq-tools
+aliases:
+  fastq-tools: /usr/local/bin/fastq-tools
+  fc-genconf: /usr/local/bin/fc-genconf
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd
+  jconsole: /usr/local/bin/jconsole
