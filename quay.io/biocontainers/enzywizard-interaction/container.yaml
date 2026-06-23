@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/enzywizard-interaction
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  enzywizard-interaction
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:2fe8acb2cb55a474b35e8b0523759bc92068aa9f077f728620cb23da7c771754
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:2fe8acb2cb55a474b35e8b0523759bc92068aa9f077f728620cb23da7c771754
+docker: quay.io/biocontainers/enzywizard-interaction
+aliases:
+  enzywizard-interaction: /usr/local/bin/enzywizard-interaction
+  rdhc: /usr/local/bin/rdhc
+  fc-genconf: /usr/local/bin/fc-genconf
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  pg_config: /usr/local/bin/pg_config
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config

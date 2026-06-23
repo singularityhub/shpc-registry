@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/enzywizard-conservation
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  enzywizard-conservation
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:e4f9d00bc0728cc3618eb7d0b4fd6396982e903f23fb8fdb8bc0bb2edf24dad3
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:e4f9d00bc0728cc3618eb7d0b4fd6396982e903f23fb8fdb8bc0bb2edf24dad3
+docker: quay.io/biocontainers/enzywizard-conservation
+aliases:
+  enzywizard-conservation: /usr/local/bin/enzywizard-conservation
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  ompi-clean: /usr/local/bin/ompi-clean
+  ompi-server: /usr/local/bin/ompi-server
+  orte-clean: /usr/local/bin/orte-clean
+  orte-info: /usr/local/bin/orte-info
+  orte-server: /usr/local/bin/orte-server
+  ortecc: /usr/local/bin/ortecc
+  orted: /usr/local/bin/orted
+  orterun: /usr/local/bin/orterun
+  mpiCC: /usr/local/bin/mpiCC
+  ompi_info: /usr/local/bin/ompi_info

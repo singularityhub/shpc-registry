@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/pathofetch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pathofetch
+latest:
+  0.1.0--pyh106432d_0: 
+    sha256:08ee06033ffc597141362a0a0498a2dce108e98c03ac183d9346eb42561b5915
+tags:
+  0.1.0--pyh106432d_0: 
+    sha256:08ee06033ffc597141362a0a0498a2dce108e98c03ac183d9346eb42561b5915
+docker: quay.io/biocontainers/pathofetch
+aliases:
+  pathofetch: /usr/local/bin/pathofetch
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  tqdm: /usr/local/bin/tqdm

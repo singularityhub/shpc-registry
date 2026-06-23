@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/enzywizard-mut-batch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  enzywizard-mut-batch
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:7e5d1f0a583ee46f711d42250920f916677c7411c535dfacd461cec215d98b86
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:7e5d1f0a583ee46f711d42250920f916677c7411c535dfacd461cec215d98b86
+docker: quay.io/biocontainers/enzywizard-mut-batch
+aliases:
+  enzywizard-mut-batch: /usr/local/bin/enzywizard-mut-batch
+  evol: /usr/local/bin/evol
+  gemmi: /usr/local/bin/gemmi
+  mk_export.py: /usr/local/bin/mk_export.py
+  mk_prepare_ligand.py: /usr/local/bin/mk_prepare_ligand.py
+  mk_prepare_receptor.py: /usr/local/bin/mk_prepare_receptor.py
+  mkdssp: /usr/local/bin/mkdssp
+  msms: /usr/local/bin/msms
+  pdbfixer: /usr/local/bin/pdbfixer
+  prody: /usr/local/bin/prody
+  pyvol: /usr/local/bin/pyvol
+  rdhc: /usr/local/bin/rdhc
+  trimesh: /usr/local/bin/trimesh
+  vina: /usr/local/bin/vina
+  vina_split: /usr/local/bin/vina_split
+  fc-genconf: /usr/local/bin/fc-genconf
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  idna: /usr/local/bin/idna
+  xxh3sum: /usr/local/bin/xxh3sum
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  xxh128sum: /usr/local/bin/xxh128sum
+  xxh32sum: /usr/local/bin/xxh32sum
+  xxh64sum: /usr/local/bin/xxh64sum
+  xxhsum: /usr/local/bin/xxhsum
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/cs-tagger
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cs-tagger
+latest:
+  0.3.0--h0feb368_0: 
+    sha256:6df2cabd088595add939d4f77820c1059cc5db8c0c9597f05d52370bf59a3ea5
+tags:
+  0.3.0--h0feb368_0: 
+    sha256:6df2cabd088595add939d4f77820c1059cc5db8c0c9597f05d52370bf59a3ea5
+docker: quay.io/biocontainers/cs-tagger
+aliases:
+  cs-tagger: /usr/local/bin/cs-tagger
