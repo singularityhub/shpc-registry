@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gottcha2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gottcha2
 latest:
-  2.4.0--pyhdfd78af_0: 
-    sha256:3cc81f49e2f22ba78aef598054070388a789fa94ae254fdf078e8c261d18aec0
+  2.4.0--pyhdfd78af_1: 
+    sha256:f4d4e261c055b02a66b476c39dbc174c13e45ed97668253075bea8db40b4ef6e
 tags:
   2.1.8.5p1--py310h7cba7a3_0: 
     sha256:ff0e7e4eca64787b819a64dec7de110d7ea09e34549862ad2255f77bac9a94f0
@@ -25,6 +25,8 @@ tags:
     sha256:633c0c40fab000b867f843ea24ff4d6ac644fcb7595cc20ddbdcfc8c8a5bb423
   2.4.0--pyhdfd78af_0: 
     sha256:3cc81f49e2f22ba78aef598054070388a789fa94ae254fdf078e8c261d18aec0
+  2.4.0--pyhdfd78af_1: 
+    sha256:f4d4e261c055b02a66b476c39dbc174c13e45ed97668253075bea8db40b4ef6e
 docker: quay.io/biocontainers/gottcha2
 aliases:
   cmd.py: /usr/local/bin/cmd.py
