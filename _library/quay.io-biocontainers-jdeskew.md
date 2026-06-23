@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jdeskew"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jdeskew/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jdeskew/container.yaml"
-updated_at: "2026-06-23 06:32:27.111078"
+updated_at: "2026-06-23 16:43:06.147055"
 latest: "0.3.0"
 container_url: "https://biocontainers.pro/tools/jdeskew"
 aliases:

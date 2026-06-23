@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-seqgate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqgate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqgate/container.yaml"
-updated_at: "2026-06-23 06:32:36.224791"
+updated_at: "2026-06-23 16:43:15.081381"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqgate"
 
