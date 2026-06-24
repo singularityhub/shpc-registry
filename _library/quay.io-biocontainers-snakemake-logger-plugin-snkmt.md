@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-logger-plugin-snkmt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-logger-plugin-snkmt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-logger-plugin-snkmt/container.yaml"
-updated_at: "2026-06-23 16:41:20.916502"
-latest: "0.1.6--pyhdfd78af_0"
+updated_at: "2026-06-24 06:30:30.796476"
+latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-logger-plugin-snkmt"
 aliases:
  - "snkmt"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "0.1.5--pyhdfd78af_0"
  - "0.1.6--pyhdfd78af_0"
+ - "0.1.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-logger-plugin-snkmt"
-config: {"url": "https://biocontainers.pro/tools/snakemake-logger-plugin-snkmt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-logger-plugin-snkmt", "latest": {"0.1.6--pyhdfd78af_0": "sha256:a4b832967d3c399ba4a55505cb68a2b8921e9c8de12673d4a7b4893cb8e86056"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:8057a99b64c44577191a22ad3148b339c687b8746058b226a79c757b4a72021a", "0.1.6--pyhdfd78af_0": "sha256:a4b832967d3c399ba4a55505cb68a2b8921e9c8de12673d4a7b4893cb8e86056"}, "docker": "quay.io/biocontainers/snakemake-logger-plugin-snkmt", "aliases": {"snkmt": "/usr/local/bin/snkmt", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "alembic": "/usr/local/bin/alembic", "typer": "/usr/local/bin/typer", "mako-render": "/usr/local/bin/mako-render", "markdown-it": "/usr/local/bin/markdown-it", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-logger-plugin-snkmt", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-logger-plugin-snkmt", "latest": {"0.1.7--pyhdfd78af_0": "sha256:2288a1fbb01e791c137d2da08d0d2de56bc0928d4e3387de57d062400be9d3af"}, "tags": {"0.1.5--pyhdfd78af_0": "sha256:8057a99b64c44577191a22ad3148b339c687b8746058b226a79c757b4a72021a", "0.1.6--pyhdfd78af_0": "sha256:a4b832967d3c399ba4a55505cb68a2b8921e9c8de12673d4a7b4893cb8e86056", "0.1.7--pyhdfd78af_0": "sha256:2288a1fbb01e791c137d2da08d0d2de56bc0928d4e3387de57d062400be9d3af"}, "docker": "quay.io/biocontainers/snakemake-logger-plugin-snkmt", "aliases": {"snkmt": "/usr/local/bin/snkmt", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "alembic": "/usr/local/bin/alembic", "typer": "/usr/local/bin/typer", "mako-render": "/usr/local/bin/mako-render", "markdown-it": "/usr/local/bin/markdown-it", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-logger-plugin-snkmt.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/snakemake-logger-plugin-snkmt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-logger-plugin-snkmt:0.1.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-logger-plugin-snkmt:0.1.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-logger-plugin-snkmt/0.1.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-logger-plugin-snkmt/0.1.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-logger-plugin-snkmt/0.1.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-logger-plugin-snkmt/0.1.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

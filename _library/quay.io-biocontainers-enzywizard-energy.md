@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-energy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-energy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-energy/container.yaml"
-updated_at: "2026-06-23 16:47:53.606426"
+updated_at: "2026-06-24 06:37:39.177231"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-energy"
 aliases:

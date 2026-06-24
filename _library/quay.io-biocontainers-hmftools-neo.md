@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-neo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-neo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-neo/container.yaml"
-updated_at: "2026-06-23 16:43:14.002605"
-latest: "1.2_beta--hdfd78af_1"
+updated_at: "2026-06-24 06:32:33.284829"
+latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-neo"
 aliases:
  - "jwebserver"
@@ -41,8 +41,9 @@ versions:
  - "1.2_beta--hdfd78af_1"
  - "1.2--hdfd78af_1"
  - "1.2.1--hdfd78af_0"
+ - "1.3--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-neo"
-config: {"url": "https://biocontainers.pro/tools/hmftools-neo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-neo", "latest": {"1.2_beta--hdfd78af_1": "sha256:9bf223ada46f351b7770f9f1395e73628214bff6273cc3ef6ff74f6fab28bfba"}, "tags": {"1.0.1--hdfd78af_0": "sha256:3211deedd0d683380dbd66984b654bac79dc03beeeaed65a30120ff4beb8796d", "1.2_beta--hdfd78af_0": "sha256:a8d8853350274fbac4aad4c8b3b897cf94014833015b5b9cee3c26b82b94cc12", "1.2_beta--hdfd78af_1": "sha256:9bf223ada46f351b7770f9f1395e73628214bff6273cc3ef6ff74f6fab28bfba", "1.2--hdfd78af_1": "sha256:1f974492b1fbbb525be3f9bb9af3ecab1ee143743e547155bda461abdfe27989", "1.2.1--hdfd78af_0": "sha256:43c9a8354239135b302dcb913f4827b5aba34e6387ae53db6cc4335cf4280368"}, "docker": "quay.io/biocontainers/hmftools-neo", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "neo": "/usr/local/bin/neo", "hb-info": "/usr/local/bin/hb-info", "jpackage": "/usr/local/bin/jpackage", "tjbench": "/usr/local/bin/tjbench", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-neo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-neo", "latest": {"1.3--hdfd78af_0": "sha256:e107354292f826fe43a5b244cb7d7583a25a55367b73fd16dc8d187f0b2605ba"}, "tags": {"1.0.1--hdfd78af_0": "sha256:3211deedd0d683380dbd66984b654bac79dc03beeeaed65a30120ff4beb8796d", "1.2_beta--hdfd78af_0": "sha256:a8d8853350274fbac4aad4c8b3b897cf94014833015b5b9cee3c26b82b94cc12", "1.2_beta--hdfd78af_1": "sha256:9bf223ada46f351b7770f9f1395e73628214bff6273cc3ef6ff74f6fab28bfba", "1.2--hdfd78af_1": "sha256:1f974492b1fbbb525be3f9bb9af3ecab1ee143743e547155bda461abdfe27989", "1.2.1--hdfd78af_0": "sha256:43c9a8354239135b302dcb913f4827b5aba34e6387ae53db6cc4335cf4280368", "1.3--hdfd78af_0": "sha256:e107354292f826fe43a5b244cb7d7583a25a55367b73fd16dc8d187f0b2605ba"}, "docker": "quay.io/biocontainers/hmftools-neo", "aliases": {"jwebserver": "/usr/local/bin/jwebserver", "neo": "/usr/local/bin/neo", "hb-info": "/usr/local/bin/hb-info", "jpackage": "/usr/local/bin/jpackage", "tjbench": "/usr/local/bin/tjbench", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-neo.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/hmftools-neo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-neo:1.2_beta--hdfd78af_1
+$ shpc install quay.io/biocontainers/hmftools-neo:1.3--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-neo/1.2_beta--hdfd78af_1
-$ module help quay.io/biocontainers/hmftools-neo/1.2_beta--hdfd78af_1
+$ module load quay.io/biocontainers/hmftools-neo/1.3--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-neo/1.3--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

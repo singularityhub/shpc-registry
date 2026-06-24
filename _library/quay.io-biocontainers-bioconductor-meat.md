@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meat/container.yaml"
-updated_at: "2026-06-23 16:55:36.340297"
+updated_at: "2026-06-24 06:46:08.286291"
 latest: "1.14.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meat"
 

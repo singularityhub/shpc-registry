@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alpsnmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alpsnmr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alpsnmr/container.yaml"
-updated_at: "2026-06-23 16:25:02.553124"
+updated_at: "2026-06-24 06:13:37.764513"
 latest: "4.12.0--r45h575d39b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alpsnmr"
 aliases:

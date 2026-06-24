@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fgumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgumi/container.yaml"
-updated_at: "2026-06-23 16:53:59.872172"
-latest: "0.2.0--h54198d6_0"
+updated_at: "2026-06-24 06:44:19.811496"
+latest: "0.4.0--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/fgumi"
 aliases:
  - "fgumi"
@@ -17,8 +17,10 @@ versions:
  - "0.1.2--h54198d6_0"
  - "0.2.0--h54198d6_0"
  - "0.1.3--h54198d6_0"
+ - "0.4.0--h54198d6_0"
+ - "0.3.1--h54198d6_0"
 description: "singularity registry hpc automated addition for fgumi"
-config: {"url": "https://biocontainers.pro/tools/fgumi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgumi", "latest": {"0.2.0--h54198d6_0": "sha256:50d5ccb4ca3ee6b8c66a745926872f093f362a96b69666be867fb23fcb0654bf"}, "tags": {"0.1.0--h54198d6_0": "sha256:35257dabe1ec92f04ac93fd3e5341e412b7aefd123f49a7323a80112fc058d11", "0.1.2--h54198d6_0": "sha256:e5d302f0eb21ca8e3f1eb3d2c8046385dc57ec6d7e85908678d975cbbc80be43", "0.2.0--h54198d6_0": "sha256:50d5ccb4ca3ee6b8c66a745926872f093f362a96b69666be867fb23fcb0654bf", "0.1.3--h54198d6_0": "sha256:cbef99ec885841e46427e7ebb0c47e1588bcb3c020fcf6675fb24ff21e10b493"}, "docker": "quay.io/biocontainers/fgumi", "aliases": {"fgumi": "/usr/local/bin/fgumi", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/fgumi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fgumi", "latest": {"0.4.0--h54198d6_0": "sha256:6537a2b04fd58520d76930a6d6a9de6804eecf73014f794a7d947e54ef498a48"}, "tags": {"0.1.0--h54198d6_0": "sha256:35257dabe1ec92f04ac93fd3e5341e412b7aefd123f49a7323a80112fc058d11", "0.1.2--h54198d6_0": "sha256:e5d302f0eb21ca8e3f1eb3d2c8046385dc57ec6d7e85908678d975cbbc80be43", "0.2.0--h54198d6_0": "sha256:50d5ccb4ca3ee6b8c66a745926872f093f362a96b69666be867fb23fcb0654bf", "0.1.3--h54198d6_0": "sha256:cbef99ec885841e46427e7ebb0c47e1588bcb3c020fcf6675fb24ff21e10b493", "0.4.0--h54198d6_0": "sha256:6537a2b04fd58520d76930a6d6a9de6804eecf73014f794a7d947e54ef498a48", "0.3.1--h54198d6_0": "sha256:69d970c32d94968c020cfdc76e122c4f9a3d5a19352be883e0df041fe73ebc37"}, "docker": "quay.io/biocontainers/fgumi", "aliases": {"fgumi": "/usr/local/bin/fgumi", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgumi.
@@ -33,7 +35,7 @@ $ shpc install quay.io/biocontainers/fgumi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fgumi:0.2.0--h54198d6_0
+$ shpc install quay.io/biocontainers/fgumi:0.4.0--h54198d6_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fgumi/0.2.0--h54198d6_0
-$ module help quay.io/biocontainers/fgumi/0.2.0--h54198d6_0
+$ module load quay.io/biocontainers/fgumi/0.4.0--h54198d6_0
+$ module help quay.io/biocontainers/fgumi/0.4.0--h54198d6_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

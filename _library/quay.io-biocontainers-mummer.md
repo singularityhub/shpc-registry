@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mummer/container.yaml"
-updated_at: "2026-06-23 16:58:09.494996"
+updated_at: "2026-06-24 06:48:54.955815"
 latest: "3.23--pl5321h503566f_21"
 container_url: "https://biocontainers.pro/tools/mummer"
 aliases:

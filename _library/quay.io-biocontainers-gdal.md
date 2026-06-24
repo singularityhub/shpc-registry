@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gdal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdal/container.yaml"
-updated_at: "2026-06-23 16:30:11.839324"
+updated_at: "2026-06-24 06:18:54.723923"
 latest: "2.4.0"
 container_url: "https://biocontainers.pro/tools/gdal"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nseg/container.yaml"
-updated_at: "2026-06-23 16:47:00.080791"
+updated_at: "2026-06-24 06:36:39.823665"
 latest: "1.0.1--h7b50bb2_6"
 container_url: "https://biocontainers.pro/tools/nseg"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grequests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grequests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grequests/container.yaml"
-updated_at: "2026-06-23 16:50:31.524316"
+updated_at: "2026-06-24 06:40:34.662988"
 latest: "0.3.0--py36_1"
 container_url: "https://biocontainers.pro/tools/grequests"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbgzip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbgzip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbgzip/container.yaml"
-updated_at: "2026-06-23 16:39:52.775345"
+updated_at: "2026-06-24 06:28:58.025060"
 latest: "2016.08.04--h9d449c0_4"
 container_url: "https://biocontainers.pro/tools/pbgzip"
 aliases:

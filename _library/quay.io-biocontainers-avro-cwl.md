@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/avro-cwl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/avro-cwl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/avro-cwl/container.yaml"
-updated_at: "2026-06-23 16:50:43.535330"
+updated_at: "2026-06-24 06:40:48.081862"
 latest: "1.8.9--py_0"
 container_url: "https://biocontainers.pro/tools/avro-cwl"
 aliases:

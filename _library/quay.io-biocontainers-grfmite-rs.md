@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grfmite-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grfmite-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grfmite-rs/container.yaml"
-updated_at: "2026-06-23 16:24:06.005280"
+updated_at: "2026-06-24 06:12:40.161743"
 latest: "0.3.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/grfmite-rs"
 aliases:

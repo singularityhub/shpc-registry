@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fxsplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fxsplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fxsplit/container.yaml"
-updated_at: "2026-06-23 16:25:40.418127"
-latest: "0.0.3--hd612981_0"
+updated_at: "2026-06-24 06:14:16.372198"
+latest: "0.0.5--hb42e459_0"
 container_url: "https://biocontainers.pro/tools/fxsplit"
 aliases:
  - "fxsplit"
 versions:
  - "0.0.3--hd612981_0"
+ - "0.0.5--hb42e459_0"
 description: "singularity registry hpc automated addition for fxsplit"
-config: {"url": "https://biocontainers.pro/tools/fxsplit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fxsplit", "latest": {"0.0.3--hd612981_0": "sha256:17fb480d2ac3b7df703439eff772148d630c9ab32da6afb01cf5dd5fa85f693b"}, "tags": {"0.0.3--hd612981_0": "sha256:17fb480d2ac3b7df703439eff772148d630c9ab32da6afb01cf5dd5fa85f693b"}, "docker": "quay.io/biocontainers/fxsplit", "aliases": {"fxsplit": "/usr/local/bin/fxsplit"}}
+config: {"url": "https://biocontainers.pro/tools/fxsplit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fxsplit", "latest": {"0.0.5--hb42e459_0": "sha256:34453f716ea1275efb8ca4a7ede631c9589978d346a9999761b469a78457b2e6"}, "tags": {"0.0.3--hd612981_0": "sha256:17fb480d2ac3b7df703439eff772148d630c9ab32da6afb01cf5dd5fa85f693b", "0.0.5--hb42e459_0": "sha256:34453f716ea1275efb8ca4a7ede631c9589978d346a9999761b469a78457b2e6"}, "docker": "quay.io/biocontainers/fxsplit", "aliases": {"fxsplit": "/usr/local/bin/fxsplit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fxsplit.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fxsplit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fxsplit:0.0.3--hd612981_0
+$ shpc install quay.io/biocontainers/fxsplit:0.0.5--hb42e459_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fxsplit/0.0.3--hd612981_0
-$ module help quay.io/biocontainers/fxsplit/0.0.3--hd612981_0
+$ module load quay.io/biocontainers/fxsplit/0.0.5--hb42e459_0
+$ module help quay.io/biocontainers/fxsplit/0.0.5--hb42e459_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

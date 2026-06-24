@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/afquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afquery/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/afquery/container.yaml"
-updated_at: "2026-06-23 16:29:25.176322"
+updated_at: "2026-06-24 06:18:06.984846"
 latest: "0.3.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/afquery"
 aliases:
