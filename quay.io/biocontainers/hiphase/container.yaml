@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hiphase
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hiphase
 latest:
-  1.6.0--h9ee0642_0: 
-    sha256:710db0767021d7fd159cf4451693b479df92e9cd3919dd2abe4c54ab9955310f
+  1.7.0--h9ee0642_0: 
+    sha256:10b43c7e7db2d6e35ea3990a5962f4977f055bd4cd5cca7e9c57dbc0e8e5653f
 tags:
   0.8.1--h9ee0642_0: 
     sha256:d05bc9e2f41528acafb442044cf1d193cfd3cfb1fafbc6c5417b91f3b557b36b
@@ -31,6 +31,8 @@ tags:
     sha256:665d4d43b01ed5d34570fb96e56e57bc49bd9e68f0da26cc9f8ea72f3176f1bb
   1.6.0--h9ee0642_0: 
     sha256:710db0767021d7fd159cf4451693b479df92e9cd3919dd2abe4c54ab9955310f
+  1.7.0--h9ee0642_0: 
+    sha256:10b43c7e7db2d6e35ea3990a5962f4977f055bd4cd5cca7e9c57dbc0e8e5653f
 docker: quay.io/biocontainers/hiphase
 aliases:
   hiphase: /usr/local/bin/hiphase

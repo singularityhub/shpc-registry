@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/funannotate2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for funannotate2
 latest:
-  26.4.22--pyhdfd78af_0: 
-    sha256:dbc06ddc2066a3e72b3a18541fdc66736ba286ddfb0764c9547b122b1d082a04
+  26.6.21--pyhdfd78af_0: 
+    sha256:ede7704f8766589fa337bebdd02d24531780bd7e98ce0acbfb62df3c10104994
 tags:
   26.2.12--pyhdfd78af_0: 
     sha256:3194d71046b568482b619269b63c1e333757834dc117c9a5583efdbc1d65a39b
   26.4.22--pyhdfd78af_0: 
     sha256:dbc06ddc2066a3e72b3a18541fdc66736ba286ddfb0764c9547b122b1d082a04
+  26.6.21--pyhdfd78af_0: 
+    sha256:ede7704f8766589fa337bebdd02d24531780bd7e98ce0acbfb62df3c10104994
 docker: quay.io/biocontainers/funannotate2
 aliases:
   MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter

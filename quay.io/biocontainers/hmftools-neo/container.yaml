@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hmftools-neo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-neo
 latest:
-  1.2_beta--hdfd78af_1: 
-    sha256:9bf223ada46f351b7770f9f1395e73628214bff6273cc3ef6ff74f6fab28bfba
+  1.3--hdfd78af_0: 
+    sha256:e107354292f826fe43a5b244cb7d7583a25a55367b73fd16dc8d187f0b2605ba
 tags:
   1.0.1--hdfd78af_0: 
     sha256:3211deedd0d683380dbd66984b654bac79dc03beeeaed65a30120ff4beb8796d
@@ -15,6 +15,8 @@ tags:
     sha256:1f974492b1fbbb525be3f9bb9af3ecab1ee143743e547155bda461abdfe27989
   1.2.1--hdfd78af_0: 
     sha256:43c9a8354239135b302dcb913f4827b5aba34e6387ae53db6cc4335cf4280368
+  1.3--hdfd78af_0: 
+    sha256:e107354292f826fe43a5b244cb7d7583a25a55367b73fd16dc8d187f0b2605ba
 docker: quay.io/biocontainers/hmftools-neo
 aliases:
   jwebserver: /usr/local/bin/jwebserver

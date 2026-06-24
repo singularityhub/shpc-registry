@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/annotsv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for annotsv
 latest:
-  3.5.8--hdfd78af_1: 
-    sha256:f81459d5099904cc683c99148784ceaf0d9a7ed988a3e9b8c5a1ad7522f44f0f
+  3.5.10--hdfd78af_0: 
+    sha256:679c81024a724e42acb22a4b61840f82e79ce5ccb0f02c2a155a1b9a57cd9fb8
 tags:
   3.3.5--py311hdfd78af_0: 
     sha256:d34b5d969b943711658982e75d8da2ed27ffab6f9fdf39a0320c705392164242
@@ -33,6 +33,8 @@ tags:
     sha256:0c73fef5fa529b11e10bea0355480f01b56d0feb21af54cb9bbbd1f9f4c862a7
   3.5.8--hdfd78af_1: 
     sha256:f81459d5099904cc683c99148784ceaf0d9a7ed988a3e9b8c5a1ad7522f44f0f
+  3.5.10--hdfd78af_0: 
+    sha256:679c81024a724e42acb22a4b61840f82e79ce5ccb0f02c2a155a1b9a57cd9fb8
 docker: quay.io/biocontainers/annotsv
 aliases:
   AnnotSV: /usr/local/bin/AnnotSV

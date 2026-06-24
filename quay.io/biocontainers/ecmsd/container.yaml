@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ecmsd
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ecmsd
 latest:
-  1.1.0--hdfd78af_0: 
-    sha256:8e07b97cea16dba92b65660beb9f8648285f547bdc42dc9762284a577b2dbcd5
+  1.2.0--hdfd78af_0: 
+    sha256:7ad8697091a290d7137d087995387945173d21b1b8ae4e801c1c69d4e8f5ae95
 tags:
   1.1.0--hdfd78af_0: 
     sha256:8e07b97cea16dba92b65660beb9f8648285f547bdc42dc9762284a577b2dbcd5
+  1.2.0--hdfd78af_0: 
+    sha256:7ad8697091a290d7137d087995387945173d21b1b8ae4e801c1c69d4e8f5ae95
 docker: quay.io/biocontainers/ecmsd
 aliases:
   ECMSD: /usr/local/bin/ECMSD

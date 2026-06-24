@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ensembl-utils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ensembl-utils
 latest:
-  0.9.1--pyhdfd78af_0: 
-    sha256:0a7b15368bdbdfa6e58776569a4787b25e1798abd7de8d8505179854c4194e04
+  0.9.2--pyhdfd78af_0: 
+    sha256:f871dd14bd430b0743d9650303e18bfc7aa72b2b5118c2bdfc7ef227c0042d05
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:8a151186d3db4185724f3105b54765ea10438d459c9b3341ce37e4bbd8183176
@@ -29,6 +29,8 @@ tags:
     sha256:614c5e904c65ac4082a5f60fddec31a961e14f3fe6d3330d0ace1d9c9f03dee8
   0.9.1--pyhdfd78af_0: 
     sha256:0a7b15368bdbdfa6e58776569a4787b25e1798abd7de8d8505179854c4194e04
+  0.9.2--pyhdfd78af_0: 
+    sha256:f871dd14bd430b0743d9650303e18bfc7aa72b2b5118c2bdfc7ef227c0042d05
 docker: quay.io/biocontainers/ensembl-utils
 aliases:
   dotenv: /usr/local/bin/dotenv
