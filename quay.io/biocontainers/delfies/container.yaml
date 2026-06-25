@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/delfies
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for delfies
+latest:
+  0.11.0--pyhdfd78af_0: 
+    sha256:5edc0cb3cefae6dd5c04636950edd5fd70e6e21f5353e016d16f6d771aae75ce
+tags:
+  0.11.0--pyhdfd78af_0: 
+    sha256:5edc0cb3cefae6dd5c04636950edd5fd70e6e21f5353e016d16f6d771aae75ce
+docker: quay.io/biocontainers/delfies
+aliases:
+  delfies: /usr/local/bin/delfies
+  pyfastx: /usr/local/bin/pyfastx
+  rich-click: /usr/local/bin/rich-click
+  markdown-it: /usr/local/bin/markdown-it
+  shiftBed: /usr/local/bin/shiftBed
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
+  closestBed: /usr/local/bin/closestBed
+  clusterBed: /usr/local/bin/clusterBed
+  complementBed: /usr/local/bin/complementBed
+  coverageBed: /usr/local/bin/coverageBed
+  expandCols: /usr/local/bin/expandCols
+  fastaFromBed: /usr/local/bin/fastaFromBed
+  flankBed: /usr/local/bin/flankBed
+  genomeCoverageBed: /usr/local/bin/genomeCoverageBed
+  getOverlap: /usr/local/bin/getOverlap
+  groupBy: /usr/local/bin/groupBy
+  intersectBed: /usr/local/bin/intersectBed
+  linksBed: /usr/local/bin/linksBed
+  mapBed: /usr/local/bin/mapBed

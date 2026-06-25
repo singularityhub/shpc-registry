@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/inquistr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for inquistr
+latest:
+  0.27.1--hdcf344f_0: 
+    sha256:f3137463134a9f3ef83873ccf3cbff11e3a6c84278c100770e298b2b38b003a9
+tags:
+  0.27.1--hdcf344f_0: 
+    sha256:f3137463134a9f3ef83873ccf3cbff11e3a6c84278c100770e298b2b38b003a9
+docker: quay.io/biocontainers/inquistr
+aliases:
+  inquiSTR: /usr/local/bin/inquiSTR

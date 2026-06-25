@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/conpair
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for conpair
+latest:
+  0.2--pyhdfd78af_0: 
+    sha256:e6e939c00266133489b903cf869999eb36a7fae10faabcd538b7bf940bcf79af
+tags:
+  0.2--pyhdfd78af_0: 
+    sha256:e6e939c00266133489b903cf869999eb36a7fae10faabcd538b7bf940bcf79af
+docker: quay.io/biocontainers/conpair
+aliases:
+  estimate_tumor_normal_contamination.py: 
+    /usr/local/bin/estimate_tumor_normal_contamination.py
+  gatk3: /usr/local/bin/gatk3
+  run_gatk_pileup_for_sample.py: /usr/local/bin/run_gatk_pileup_for_sample.py
+  verify_concordance.py: /usr/local/bin/verify_concordance.py
+  GenomeAnalysisTK: /usr/local/bin/GenomeAnalysisTK
+  fc-genconf: /usr/local/bin/fc-genconf
+  clhsdb: /usr/local/bin/clhsdb
+  hsdb: /usr/local/bin/hsdb
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  extcheck: /usr/local/bin/extcheck
+  java-rmi.cgi: /usr/local/bin/java-rmi.cgi
+  javah: /usr/local/bin/javah
+  jhat: /usr/local/bin/jhat
+  jsadebugd: /usr/local/bin/jsadebugd
+  native2ascii: /usr/local/bin/native2ascii
+  policytool: /usr/local/bin/policytool
+  appletviewer: /usr/local/bin/appletviewer
+  idlj: /usr/local/bin/idlj
+  orbd: /usr/local/bin/orbd
+  schemagen: /usr/local/bin/schemagen
+  servertool: /usr/local/bin/servertool
+  tnameserv: /usr/local/bin/tnameserv
+  wsgen: /usr/local/bin/wsgen
+  wsimport: /usr/local/bin/wsimport
+  xjc: /usr/local/bin/xjc
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14

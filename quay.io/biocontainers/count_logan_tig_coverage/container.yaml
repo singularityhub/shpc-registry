@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/count_logan_tig_coverage
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  count_logan_tig_coverage
+latest:
+  0.1.0--h80bd393_0: 
+    sha256:dab690e250e981ce0fc9fdaf0c0716763e278d198d8aab0f5899f44479ee84d2
+tags:
+  0.1.0--h80bd393_0: 
+    sha256:dab690e250e981ce0fc9fdaf0c0716763e278d198d8aab0f5899f44479ee84d2
+docker: quay.io/biocontainers/count_logan_tig_coverage
+aliases:
+  count_logan_tig_coverage: /usr/local/bin/count_logan_tig_coverage
