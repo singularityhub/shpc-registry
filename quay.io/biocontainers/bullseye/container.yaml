@@ -1,0 +1,60 @@
+url: https://biocontainers.pro/tools/bullseye
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bullseye
+latest:
+  1.0.0--pl5321hdfd78af_0: 
+    sha256:75635ba50257e8deccd52f6615f12057f5caaf9da2009b8e078662596b4706c6
+tags:
+  1.0.0--pl5321hdfd78af_0: 
+    sha256:75635ba50257e8deccd52f6615f12057f5caaf9da2009b8e078662596b4706c6
+docker: quay.io/biocontainers/bullseye
+aliases:
+  Find_edit_sites.pl: /usr/local/bin/Find_edit_sites.pl
+  collapse_matrix.pl: /usr/local/bin/collapse_matrix.pl
+  combig-script.sh: /usr/local/bin/combig-script.sh
+  combig.pl: /usr/local/bin/combig.pl
+  count.pl: /usr/local/bin/count.pl
+  count2huge.pl: /usr/local/bin/count2huge.pl
+  find-compounds.pl: /usr/local/bin/find-compounds.pl
+  gather_scores.pl: /usr/local/bin/gather_scores.pl
+  gtf2genepred.pl: /usr/local/bin/gtf2genepred.pl
+  huge-count.pl: /usr/local/bin/huge-count.pl
+  huge-delete.pl: /usr/local/bin/huge-delete.pl
+  huge-merge.pl: /usr/local/bin/huge-merge.pl
+  huge-sort.pl: /usr/local/bin/huge-sort.pl
+  huge-split.pl: /usr/local/bin/huge-split.pl
+  kocos-script.sh: /usr/local/bin/kocos-script.sh
+  kocos.pl: /usr/local/bin/kocos.pl
+  make_annot_bed_bullseye.pl: /usr/local/bin/make_annot_bed_bullseye.pl
+  parseBAM.pl: /usr/local/bin/parseBAM.pl
+  proda: /usr/local/bin/proda
+  quantify_sites.pl: /usr/local/bin/quantify_sites.pl
+  rank-script.sh: /usr/local/bin/rank-script.sh
+  rank.pl: /usr/local/bin/rank.pl
+  statistic.pl: /usr/local/bin/statistic.pl
+  summarize_sites.pl: /usr/local/bin/summarize_sites.pl
+  famsa: /usr/local/bin/famsa
+  bstats: /usr/local/bin/bstats
+  comppair: /usr/local/bin/comppair
+  dialign-tx: /usr/local/bin/dialign-tx
+  ds: /usr/local/bin/ds
+  mustang: /usr/local/bin/mustang
+  pModel: /usr/local/bin/pModel
+  probcons: /usr/local/bin/probcons
+  probconsRNA: /usr/local/bin/probconsRNA
+  scompare: /usr/local/bin/scompare
+  strain_ml: /usr/local/bin/strain_ml
+  TMscore: /usr/local/bin/TMscore
+  conus_compare: /usr/local/bin/conus_compare
+  conus_train: /usr/local/bin/conus_train
+  sap: /usr/local/bin/sap
+  sfold: /usr/local/bin/sfold
+  treeshrink: /usr/local/bin/treeshrink
+  kalign: /usr/local/bin/kalign
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  hmmerbuild: /usr/local/bin/hmmerbuild
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  DrawGram.jar: /usr/local/bin/DrawGram.jar
+  DrawTree.jar: /usr/local/bin/DrawTree.jar
+  clique: /usr/local/bin/clique
+  consense: /usr/local/bin/consense

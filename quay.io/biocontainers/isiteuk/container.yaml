@@ -1,0 +1,113 @@
+url: https://biocontainers.pro/tools/isiteuk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for isiteuk
+latest:
+  0.0.2--pyhdfd78af_0: 
+    sha256:17d87f9c8e5788159f9c71527bb520ab7733fe4910d6eb7b16c04b5a2ac52ed6
+tags:
+  0.0.2--pyhdfd78af_0: 
+    sha256:17d87f9c8e5788159f9c71527bb520ab7733fe4910d6eb7b16c04b5a2ac52ed6
+docker: quay.io/biocontainers/isiteuk
+aliases:
+  AbstractPlot.py: /usr/local/bin/AbstractPlot.py
+  ExpressBetaDiversity: /usr/local/bin/ExpressBetaDiversity
+  abi-dump.3.4.1: /usr/local/bin/abi-dump.3.4.1
+  abi-load.3: /usr/local/bin/abi-load.3
+  abi-load.3.4.1: /usr/local/bin/abi-load.3.4.1
+  align-info.3.4.1: /usr/local/bin/align-info.3.4.1
+  bam-load.3: /usr/local/bin/bam-load.3
+  bam-load.3.4.1: /usr/local/bin/bam-load.3.4.1
+  cg-load.3: /usr/local/bin/cg-load.3
+  cg-load.3.4.1: /usr/local/bin/cg-load.3.4.1
+  convertToEBD.py: /usr/local/bin/convertToEBD.py
+  convertToFullMatrix.py: /usr/local/bin/convertToFullMatrix.py
+  fasterq-dump-orig.3.4.1: /usr/local/bin/fasterq-dump-orig.3.4.1
+  fasterq-dump.3.4.1: /usr/local/bin/fasterq-dump.3.4.1
+  fastq-dump-orig.3.4.1: /usr/local/bin/fastq-dump-orig.3.4.1
+  fastq-dump.3.4.1: /usr/local/bin/fastq-dump.3.4.1
+  fastq-load.3: /usr/local/bin/fastq-load.3
+  fastq-load.3.4.1: /usr/local/bin/fastq-load.3.4.1
+  graftM: /usr/local/bin/graftM
+  guppy.exe: /usr/local/bin/guppy.exe
+  helicos-load.3: /usr/local/bin/helicos-load.3
+  helicos-load.3.4.1: /usr/local/bin/helicos-load.3.4.1
+  illumina-dump.3.4.1: /usr/local/bin/illumina-dump.3.4.1
+  illumina-load.3: /usr/local/bin/illumina-load.3
+  illumina-load.3.4.1: /usr/local/bin/illumina-load.3.4.1
+  isiteuk: /usr/local/bin/isiteuk
+  kar.3: /usr/local/bin/kar.3
+  kar.3.4.1: /usr/local/bin/kar.3.4.1
+  kdbmeta.3.4.1: /usr/local/bin/kdbmeta.3.4.1
+  latf-load.3: /usr/local/bin/latf-load.3
+  latf-load.3.4.1: /usr/local/bin/latf-load.3.4.1
+  mfqe: /usr/local/bin/mfqe
+  orfm: /usr/local/bin/orfm
+  pacbio-load.3: /usr/local/bin/pacbio-load.3
+  pacbio-load.3.4.1: /usr/local/bin/pacbio-load.3.4.1
+  pcoaPlot.py: /usr/local/bin/pcoaPlot.py
+  pplacer.exe: /usr/local/bin/pplacer.exe
+  prefetch-orig.3.4.1: /usr/local/bin/prefetch-orig.3.4.1
+  prefetch.3.4.1: /usr/local/bin/prefetch.3.4.1
+  rcexplain.3.4.1: /usr/local/bin/rcexplain.3.4.1
+  rppr.exe: /usr/local/bin/rppr.exe
+  sam-dump-orig.3.4.1: /usr/local/bin/sam-dump-orig.3.4.1
+  sam-dump.3.4.1: /usr/local/bin/sam-dump.3.4.1
+  seqmagick: /usr/local/bin/seqmagick
+  sff-dump.3.4.1: /usr/local/bin/sff-dump.3.4.1
+  sff-load.3: /usr/local/bin/sff-load.3
+  sff-load.3.4.1: /usr/local/bin/sff-load.3.4.1
+  singlem: /usr/local/bin/singlem
+  smafa: /usr/local/bin/smafa
+  sra-pileup-orig.3.4.1: /usr/local/bin/sra-pileup-orig.3.4.1
+  sra-pileup.3.4.1: /usr/local/bin/sra-pileup.3.4.1
+  sra-search.3.4.1: /usr/local/bin/sra-search.3.4.1
+  sra-sort-cg.3: /usr/local/bin/sra-sort-cg.3
+  sra-sort-cg.3.4.1: /usr/local/bin/sra-sort-cg.3.4.1
+  sra-sort.3: /usr/local/bin/sra-sort.3
+  sra-sort.3.4.1: /usr/local/bin/sra-sort.3.4.1
+  sra-stat.3.4.1: /usr/local/bin/sra-stat.3.4.1
+  srapath-orig.3.4.1: /usr/local/bin/srapath-orig.3.4.1
+  srapath.3.4.1: /usr/local/bin/srapath.3.4.1
+  sratools.3.4.1: /usr/local/bin/sratools.3.4.1
+  srf-load.3: /usr/local/bin/srf-load.3
+  srf-load.3.4.1: /usr/local/bin/srf-load.3.4.1
+  taxit: /usr/local/bin/taxit
+  test-sra.3.4.1: /usr/local/bin/test-sra.3.4.1
+  vdb-config.3.4.1: /usr/local/bin/vdb-config.3.4.1
+  vdb-copy.3: /usr/local/bin/vdb-copy.3
+  vdb-copy.3.4.1: /usr/local/bin/vdb-copy.3.4.1
+  vdb-decrypt.3.4.1: /usr/local/bin/vdb-decrypt.3.4.1
+  vdb-dump-orig.3.4.1: /usr/local/bin/vdb-dump-orig.3.4.1
+  vdb-dump.3.4.1: /usr/local/bin/vdb-dump.3.4.1
+  vdb-encrypt.3.4.1: /usr/local/bin/vdb-encrypt.3.4.1
+  vdb-lock.3: /usr/local/bin/vdb-lock.3
+  vdb-lock.3.4.1: /usr/local/bin/vdb-lock.3.4.1
+  vdb-unlock.3: /usr/local/bin/vdb-unlock.3
+  vdb-unlock.3.4.1: /usr/local/bin/vdb-unlock.3.4.1
+  vdb-validate.3.4.1: /usr/local/bin/vdb-validate.3.4.1
+  zenodo_backpack: /usr/local/bin/zenodo_backpack
+  sra-search: /usr/local/bin/sra-search
+  sra-search.3: /usr/local/bin/sra-search.3
+  abi-dump.3: /usr/local/bin/abi-dump.3
+  align-info.3: /usr/local/bin/align-info.3
+  fasterq-dump.3: /usr/local/bin/fasterq-dump.3
+  fastq-dump.3: /usr/local/bin/fastq-dump.3
+  illumina-dump.3: /usr/local/bin/illumina-dump.3
+  kdbmeta.3: /usr/local/bin/kdbmeta.3
+  prefetch.3: /usr/local/bin/prefetch.3
+  rcexplain.3: /usr/local/bin/rcexplain.3
+  sam-dump.3: /usr/local/bin/sam-dump.3
+  sff-dump.3: /usr/local/bin/sff-dump.3
+  sqlformat: /usr/local/bin/sqlformat
+  sra-pileup.3: /usr/local/bin/sra-pileup.3
+  sra-stat.3: /usr/local/bin/sra-stat.3
+  srapath.3: /usr/local/bin/srapath.3
+  sratools.3: /usr/local/bin/sratools.3
+  test-sra.3: /usr/local/bin/test-sra.3
+  vdb-config.3: /usr/local/bin/vdb-config.3
+  vdb-decrypt.3: /usr/local/bin/vdb-decrypt.3
+  vdb-dump.3: /usr/local/bin/vdb-dump.3
+  vdb-encrypt.3: /usr/local/bin/vdb-encrypt.3
+  vdb-validate.3: /usr/local/bin/vdb-validate.3
+  abi-load: /usr/local/bin/abi-load
+  fastq-load: /usr/local/bin/fastq-load

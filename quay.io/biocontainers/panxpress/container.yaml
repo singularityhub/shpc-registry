@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/panxpress
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panxpress
+latest:
+  0.2.2.2--pyh106432d_0: 
+    sha256:d3f10618e840db0eb05573995bf122fd2ab6ffb46c60fd31cc3d2c66f6d2b047
+tags:
+  0.2.2.2--pyh106432d_0: 
+    sha256:d3f10618e840db0eb05573995bf122fd2ab6ffb46c60fd31cc3d2c66f6d2b047
+docker: quay.io/biocontainers/panxpress
+aliases:
+  alignpairs: /usr/local/bin/alignpairs
+  panxpress: /usr/local/bin/panxpress
+  idna: /usr/local/bin/idna
+  py.test: /usr/local/bin/py.test
+  pytest: /usr/local/bin/pytest
+  numba: /usr/local/bin/numba
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jsonschema: /usr/local/bin/jsonschema
+  pygmentize: /usr/local/bin/pygmentize
+  activate-global-python-argcomplete: 
+    /usr/local/bin/activate-global-python-argcomplete
+  python-argcomplete-check-easy-install-script: 
+    /usr/local/bin/python-argcomplete-check-easy-install-script
+  register-python-argcomplete: /usr/local/bin/register-python-argcomplete
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer

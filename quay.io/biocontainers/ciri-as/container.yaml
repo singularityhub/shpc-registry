@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/ciri-as
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ciri-as
+latest:
+  1.2--pl5321hdfd78af_0: 
+    sha256:9ff725ff8fe043fa51808ad5ae5d578895222a7275d5611586c7f63b7bcc1d76
+tags:
+  1.2--pl5321hdfd78af_0: 
+    sha256:9ff725ff8fe043fa51808ad5ae5d578895222a7275d5611586c7f63b7bcc1d76
+docker: quay.io/biocontainers/ciri-as
+aliases:
+  CIRI_AS.pl: /usr/local/bin/CIRI_AS.pl
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
