@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mlstudio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mlstudio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mlstudio/container.yaml"
-updated_at: "2026-06-24 06:39:26.863654"
+updated_at: "2026-06-25 06:38:36.879285"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mlstudio"
 aliases:

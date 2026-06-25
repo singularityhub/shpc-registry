@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metilene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metilene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metilene/container.yaml"
-updated_at: "2026-06-24 06:46:40.028307"
+updated_at: "2026-06-25 06:45:09.408398"
 latest: "0.2.9--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/metilene"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smetana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smetana/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smetana/container.yaml"
-updated_at: "2026-06-24 06:23:49.967223"
+updated_at: "2026-06-25 06:24:06.151033"
 latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/smetana"
 aliases:

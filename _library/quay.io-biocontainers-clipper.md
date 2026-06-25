@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clipper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clipper/container.yaml"
-updated_at: "2026-06-24 06:46:30.376411"
+updated_at: "2026-06-25 06:45:00.727761"
 latest: "2.1.20180802--hb2a3317_1"
 container_url: "https://biocontainers.pro/tools/clipper"
 aliases:

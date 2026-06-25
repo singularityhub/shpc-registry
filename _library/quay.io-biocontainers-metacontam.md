@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacontam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacontam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacontam/container.yaml"
-updated_at: "2026-06-24 06:11:57.853814"
+updated_at: "2026-06-25 06:12:30.818098"
 latest: "0.0.1--py314hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metacontam"
 aliases:

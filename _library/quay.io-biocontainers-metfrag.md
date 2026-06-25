@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metfrag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metfrag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metfrag/container.yaml"
-updated_at: "2026-06-24 06:52:38.693735"
+updated_at: "2026-06-25 06:50:50.497948"
 latest: "2.4.5--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/metfrag"
 aliases:

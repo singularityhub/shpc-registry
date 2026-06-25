@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goleft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goleft/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/goleft/container.yaml"
-updated_at: "2026-06-24 06:19:54.052328"
+updated_at: "2026-06-25 06:20:17.473360"
 latest: "0.2.6--he881be0_1"
 container_url: "https://biocontainers.pro/tools/goleft"
 aliases:

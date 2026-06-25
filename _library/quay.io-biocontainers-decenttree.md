@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/decenttree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decenttree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decenttree/container.yaml"
-updated_at: "2026-06-24 06:54:59.532771"
+updated_at: "2026-06-25 06:53:14.397372"
 latest: "1.0.0--h3f9e6b0_1"
 container_url: "https://biocontainers.pro/tools/decenttree"
 aliases:

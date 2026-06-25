@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-json-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-validator/container.yaml"
-updated_at: "2026-06-24 06:36:02.086574"
-latest: "5.15--pl5321hdfd78af_0"
+updated_at: "2026-06-25 06:35:33.913288"
+latest: "5.19--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-json-validator"
 aliases:
  - "hypnotoad"
@@ -19,8 +19,10 @@ aliases:
 versions:
  - "5.14--pl5321hdfd78af_0"
  - "5.15--pl5321hdfd78af_0"
+ - "5.19--pl5321hdfd78af_0"
+ - "5.17--pl5321hdfd78af_0"
 description: "singularity registry hpc automated addition for perl-json-validator"
-config: {"url": "https://biocontainers.pro/tools/perl-json-validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-json-validator", "latest": {"5.15--pl5321hdfd78af_0": "sha256:54d2dc1cb08cf67b495abb3ad27f62b9dd0e6d1af01c4b65f14f50c2b40c4263"}, "tags": {"5.14--pl5321hdfd78af_0": "sha256:03484c26bbf6043e02b75a8a711eeca45c34a5da2d1aa82bf5857240eb069ded", "5.15--pl5321hdfd78af_0": "sha256:54d2dc1cb08cf67b495abb3ad27f62b9dd0e6d1af01c4b65f14f50c2b40c4263"}, "docker": "quay.io/biocontainers/perl-json-validator", "aliases": {"hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "yamlpp5-events": "/usr/local/bin/yamlpp5-events", "yamlpp5-highlight": "/usr/local/bin/yamlpp5-highlight", "yamlpp5-load": "/usr/local/bin/yamlpp5-load", "yamlpp5-load-dump": "/usr/local/bin/yamlpp5-load-dump", "yamlpp5-parse-emit": "/usr/local/bin/yamlpp5-parse-emit"}}
+config: {"url": "https://biocontainers.pro/tools/perl-json-validator", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for perl-json-validator", "latest": {"5.19--pl5321hdfd78af_0": "sha256:1b0dd1d0e3fdf37498cf50115d39a59203682551069a065ba93831bfa85b69fe"}, "tags": {"5.14--pl5321hdfd78af_0": "sha256:03484c26bbf6043e02b75a8a711eeca45c34a5da2d1aa82bf5857240eb069ded", "5.15--pl5321hdfd78af_0": "sha256:54d2dc1cb08cf67b495abb3ad27f62b9dd0e6d1af01c4b65f14f50c2b40c4263", "5.19--pl5321hdfd78af_0": "sha256:1b0dd1d0e3fdf37498cf50115d39a59203682551069a065ba93831bfa85b69fe", "5.17--pl5321hdfd78af_0": "sha256:81bbaad48dd23ef89d51eb83579326e43dc11b7b95d3ac37112a48c6e9e3bb04"}, "docker": "quay.io/biocontainers/perl-json-validator", "aliases": {"hypnotoad": "/usr/local/bin/hypnotoad", "mojo": "/usr/local/bin/mojo", "morbo": "/usr/local/bin/morbo", "yamlpp5-events": "/usr/local/bin/yamlpp5-events", "yamlpp5-highlight": "/usr/local/bin/yamlpp5-highlight", "yamlpp5-load": "/usr/local/bin/yamlpp5-load", "yamlpp5-load-dump": "/usr/local/bin/yamlpp5-load-dump", "yamlpp5-parse-emit": "/usr/local/bin/yamlpp5-parse-emit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-json-validator.
@@ -35,7 +37,7 @@ $ shpc install quay.io/biocontainers/perl-json-validator
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-json-validator:5.15--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-json-validator:5.19--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-json-validator/5.15--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-json-validator/5.15--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-json-validator/5.19--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-json-validator/5.19--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

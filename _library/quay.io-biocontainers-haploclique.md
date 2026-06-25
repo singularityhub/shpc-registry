@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haploclique"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploclique/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haploclique/container.yaml"
-updated_at: "2026-06-24 06:42:32.971568"
+updated_at: "2026-06-25 06:41:26.505883"
 latest: "1.3.1--h2b6358e_4"
 container_url: "https://biocontainers.pro/tools/haploclique"
 aliases:

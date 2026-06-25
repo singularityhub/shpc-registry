@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tesmall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tesmall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tesmall/container.yaml"
-updated_at: "2026-06-24 06:27:04.530222"
+updated_at: "2026-06-25 06:27:12.997453"
 latest: "2.0.9--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tesmall"
 aliases:

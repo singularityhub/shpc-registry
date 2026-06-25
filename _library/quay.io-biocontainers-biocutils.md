@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biocutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocutils/container.yaml"
-updated_at: "2026-06-24 06:41:11.947362"
-latest: "0.4.0--pyh106432d_0"
+updated_at: "2026-06-25 06:40:12.373353"
+latest: "0.4.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/biocutils"
 aliases:
  - "idle3.14"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.3.4--pyh7e72e81_0"
  - "0.4.0--pyh106432d_0"
+ - "0.4.1--pyh106432d_0"
 description: "singularity registry hpc automated addition for biocutils"
-config: {"url": "https://biocontainers.pro/tools/biocutils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biocutils", "latest": {"0.4.0--pyh106432d_0": "sha256:fb9442ef278f75bab45197cfc6779db44d26253cfbe523d1cdbf25242ecd1642"}, "tags": {"0.3.4--pyh7e72e81_0": "sha256:b10ddfe835eb46e6495fa9d24d3fd8de5a2178bf5be5d7878320895e244f9003", "0.4.0--pyh106432d_0": "sha256:fb9442ef278f75bab45197cfc6779db44d26253cfbe523d1cdbf25242ecd1642"}, "docker": "quay.io/biocontainers/biocutils", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/biocutils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biocutils", "latest": {"0.4.1--pyh106432d_0": "sha256:e9c90509e1b4dcbaa0a929b695fa5826e3491386cb565afacd1fca199efd91ee"}, "tags": {"0.3.4--pyh7e72e81_0": "sha256:b10ddfe835eb46e6495fa9d24d3fd8de5a2178bf5be5d7878320895e244f9003", "0.4.0--pyh106432d_0": "sha256:fb9442ef278f75bab45197cfc6779db44d26253cfbe523d1cdbf25242ecd1642", "0.4.1--pyh106432d_0": "sha256:e9c90509e1b4dcbaa0a929b695fa5826e3491386cb565afacd1fca199efd91ee"}, "docker": "quay.io/biocontainers/biocutils", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biocutils.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/biocutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biocutils:0.4.0--pyh106432d_0
+$ shpc install quay.io/biocontainers/biocutils:0.4.1--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biocutils/0.4.0--pyh106432d_0
-$ module help quay.io/biocontainers/biocutils/0.4.0--pyh106432d_0
+$ module load quay.io/biocontainers/biocutils/0.4.1--pyh106432d_0
+$ module help quay.io/biocontainers/biocutils/0.4.1--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

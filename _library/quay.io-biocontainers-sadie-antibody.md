@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sadie-antibody"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sadie-antibody/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sadie-antibody/container.yaml"
-updated_at: "2026-06-24 06:36:44.157773"
-latest: "2.0.1--pyhdfd78af_0"
+updated_at: "2026-06-25 06:36:11.699537"
+latest: "2.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sadie-antibody"
 aliases:
  - "filetype"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "2.0.0--pyhdfd78af_0"
  - "2.0.1--pyhdfd78af_0"
+ - "2.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sadie-antibody"
-config: {"url": "https://biocontainers.pro/tools/sadie-antibody", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sadie-antibody", "latest": {"2.0.1--pyhdfd78af_0": "sha256:6444184f7764476e4a9b5aa5e04bf088a9b1fb4613a2a8abbfcaa73727147c89"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:553f91fec13bf711ef4f999edcfee775f2b654bb1d42d34a8c469498c004c6a7", "2.0.1--pyhdfd78af_0": "sha256:6444184f7764476e4a9b5aa5e04bf088a9b1fb4613a2a8abbfcaa73727147c89"}, "docker": "quay.io/biocontainers/sadie-antibody", "aliases": {"filetype": "/usr/local/bin/filetype", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "sadie": "/usr/local/bin/sadie", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "ipython3": "/usr/local/bin/ipython3", "markdown-it": "/usr/local/bin/markdown-it", "ipython": "/usr/local/bin/ipython", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13"}}
+config: {"url": "https://biocontainers.pro/tools/sadie-antibody", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sadie-antibody", "latest": {"2.1.1--pyhdfd78af_0": "sha256:f51198b72b94149933195de8dd0834acca39e9e28f3b20e831939afe70066093"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:553f91fec13bf711ef4f999edcfee775f2b654bb1d42d34a8c469498c004c6a7", "2.0.1--pyhdfd78af_0": "sha256:6444184f7764476e4a9b5aa5e04bf088a9b1fb4613a2a8abbfcaa73727147c89", "2.1.1--pyhdfd78af_0": "sha256:f51198b72b94149933195de8dd0834acca39e9e28f3b20e831939afe70066093"}, "docker": "quay.io/biocontainers/sadie-antibody", "aliases": {"filetype": "/usr/local/bin/filetype", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "sadie": "/usr/local/bin/sadie", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "checksum-profile": "/usr/local/bin/checksum-profile", "elastishadow": "/usr/local/bin/elastishadow", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "ipython3": "/usr/local/bin/ipython3", "markdown-it": "/usr/local/bin/markdown-it", "ipython": "/usr/local/bin/ipython", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sadie-antibody.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/sadie-antibody
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sadie-antibody:2.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sadie-antibody:2.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sadie-antibody/2.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/sadie-antibody/2.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/sadie-antibody/2.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/sadie-antibody/2.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
