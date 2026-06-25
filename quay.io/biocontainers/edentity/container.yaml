@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/edentity
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for edentity
 latest:
-  1.5.7--pyhdfd78af_0: 
-    sha256:2392ae67a356dc02fc4e805da2e59becee3594e63ad667e180fd144debe52f60
+  1.5.8--pyhdfd78af_0: 
+    sha256:92486ae45ef31c56d655767374ce3bac28c773533083ca6dc6abc47b13b80c6b
 tags:
   1.4.5--pyhdfd78af_0: 
     sha256:2bf030733462c8a9cf6a41bd71e796751fcbfa1066c947a9b49fb28c6679cfbf
@@ -21,6 +21,8 @@ tags:
     sha256:44131c031657cc716fe6877b3b2ccbea18252821b0aeea0061c2335ea6668df3
   1.5.7--pyhdfd78af_0: 
     sha256:2392ae67a356dc02fc4e805da2e59becee3594e63ad667e180fd144debe52f60
+  1.5.8--pyhdfd78af_0: 
+    sha256:92486ae45ef31c56d655767374ce3bac28c773533083ca6dc6abc47b13b80c6b
 docker: quay.io/biocontainers/edentity
 aliases:
   edentity: /usr/local/bin/edentity

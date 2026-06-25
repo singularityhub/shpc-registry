@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pridepy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pridepy
 latest:
-  0.0.15--pyhdfd78af_0: 
-    sha256:5c1e6bd6757e78e53057e5b139fc1847dc9c7965bd0ef12836f9ffdc98f7a2e6
+  0.0.16--pyhdfd78af_0: 
+    sha256:a84c4985b78f6da767434aa208477051e60060e87532cee396039aa8555ca72f
 tags:
   0.0.12--pyhdfd78af_0: 
     sha256:135d1700dfe2eac3fee9774ef8e2e72d1f6d577049b1e58ed3c4a27184fe6b1c
@@ -11,6 +11,8 @@ tags:
     sha256:29572b343d2acc485e21c9c6546b3a7285d8384bb943bd2ede58f97107c2dfd4
   0.0.15--pyhdfd78af_0: 
     sha256:5c1e6bd6757e78e53057e5b139fc1847dc9c7965bd0ef12836f9ffdc98f7a2e6
+  0.0.16--pyhdfd78af_0: 
+    sha256:a84c4985b78f6da767434aa208477051e60060e87532cee396039aa8555ca72f
 docker: quay.io/biocontainers/pridepy
 aliases:
   pridepy: /usr/local/bin/pridepy

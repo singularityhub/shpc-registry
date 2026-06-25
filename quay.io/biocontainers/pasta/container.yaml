@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pasta
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pasta
 latest:
-  1.9.3--py312hccd54bf_0: 
-    sha256:470d9e3373df430b98fe8d96f4500b42c6b4546bc47a0eb18789847f3deef3d3
+  1.9.3--py311h10a5f38_1: 
+    sha256:d6befb410decf29f563d2eb86175d4d48304c92d77724445f7b4d60574b8a2b9
 tags:
   1.7.8--py36h8c4c3a4_4: 
     sha256:3aa9f94be4732e32add993c19017df3ab6ed4a0465944450dfb219373f9f5d36
@@ -25,6 +25,8 @@ tags:
     sha256:70d39e41ad89b6915dff78765a6035540e1e3d4f56774a3e77a6b2925292deda
   1.9.3--py312hccd54bf_0: 
     sha256:470d9e3373df430b98fe8d96f4500b42c6b4546bc47a0eb18789847f3deef3d3
+  1.9.3--py311h10a5f38_1: 
+    sha256:d6befb410decf29f563d2eb86175d4d48304c92d77724445f7b4d60574b8a2b9
 docker: quay.io/biocontainers/pasta
 aliases:
   fakealigner: /usr/local/bin/fakealigner

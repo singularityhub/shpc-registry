@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/biocutils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biocutils
 latest:
-  0.4.0--pyh106432d_0: 
-    sha256:fb9442ef278f75bab45197cfc6779db44d26253cfbe523d1cdbf25242ecd1642
+  0.4.1--pyh106432d_0: 
+    sha256:e9c90509e1b4dcbaa0a929b695fa5826e3491386cb565afacd1fca199efd91ee
 tags:
   0.3.4--pyh7e72e81_0: 
     sha256:b10ddfe835eb46e6495fa9d24d3fd8de5a2178bf5be5d7878320895e244f9003
   0.4.0--pyh106432d_0: 
     sha256:fb9442ef278f75bab45197cfc6779db44d26253cfbe523d1cdbf25242ecd1642
+  0.4.1--pyh106432d_0: 
+    sha256:e9c90509e1b4dcbaa0a929b695fa5826e3491386cb565afacd1fca199efd91ee
 docker: quay.io/biocontainers/biocutils
 aliases:
   idle3.14: /usr/local/bin/idle3.14
