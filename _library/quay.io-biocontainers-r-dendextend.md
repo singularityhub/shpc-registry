@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dendextend"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dendextend/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dendextend/container.yaml"
-updated_at: "2026-06-25 06:15:58.854767"
+updated_at: "2026-06-26 01:33:48.517662"
 latest: "1.1.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-dendextend"
 aliases:

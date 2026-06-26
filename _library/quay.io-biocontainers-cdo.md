@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cdo/container.yaml"
-updated_at: "2026-06-25 06:29:53.458743"
+updated_at: "2026-06-26 01:48:11.401621"
 latest: "2.0.0"
 container_url: "https://biocontainers.pro/tools/cdo"
 aliases:

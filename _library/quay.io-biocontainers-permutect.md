@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/permutect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/permutect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/permutect/container.yaml"
-updated_at: "2026-06-25 06:10:39.181170"
+updated_at: "2026-06-26 01:28:24.589744"
 latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/permutect"
 aliases:

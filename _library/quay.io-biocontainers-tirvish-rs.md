@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tirvish-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tirvish-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tirvish-rs/container.yaml"
-updated_at: "2026-06-25 06:16:11.074074"
+updated_at: "2026-06-26 01:34:00.952776"
 latest: "0.1.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/tirvish-rs"
 aliases:

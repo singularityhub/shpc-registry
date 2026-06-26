@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/schiccorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schiccorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schiccorr/container.yaml"
-updated_at: "2026-06-25 06:33:25.984363"
+updated_at: "2026-06-26 01:51:51.004692"
 latest: "0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/schiccorr"
 aliases:

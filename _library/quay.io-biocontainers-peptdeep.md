@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peptdeep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peptdeep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peptdeep/container.yaml"
-updated_at: "2026-06-25 06:34:58.654324"
+updated_at: "2026-06-26 01:53:27.186671"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peptdeep"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tinyfasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tinyfasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tinyfasta/container.yaml"
-updated_at: "2026-06-25 06:53:11.046258"
+updated_at: "2026-06-26 02:11:46.794765"
 latest: "0.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/tinyfasta"
 aliases:

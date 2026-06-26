@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathlinkr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathlinkr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathlinkr/container.yaml"
-updated_at: "2026-06-25 06:13:28.520374"
+updated_at: "2026-06-26 01:31:16.307346"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathlinkr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-forks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-forks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-forks/container.yaml"
-updated_at: "2026-06-25 06:39:33.571180"
+updated_at: "2026-06-26 01:58:10.786282"
 latest: "0.36--pl5321h7b50bb2_10"
 container_url: "https://biocontainers.pro/tools/perl-forks"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-summix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-summix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-summix/container.yaml"
-updated_at: "2026-06-25 06:43:35.701599"
+updated_at: "2026-06-26 02:02:16.504440"
 latest: "2.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-summix"
 

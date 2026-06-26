@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/salti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/salti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/salti/container.yaml"
-updated_at: "2026-06-25 06:11:47.621944"
-latest: "0.8.0--hdd79491_0"
+updated_at: "2026-06-26 01:29:34.290290"
+latest: "0.9.0--h70df5c0_0"
 container_url: "https://biocontainers.pro/tools/salti"
 aliases:
  - "salti"
 versions:
  - "0.7.1--h4349ce8_0"
  - "0.8.0--hdd79491_0"
+ - "0.9.0--h70df5c0_0"
 description: "singularity registry hpc automated addition for salti"
-config: {"url": "https://biocontainers.pro/tools/salti", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for salti", "latest": {"0.8.0--hdd79491_0": "sha256:fa8b85c26e09e3c92613e8a3e888545baa1eecc9c3ffddd179fba4446589743c"}, "tags": {"0.7.1--h4349ce8_0": "sha256:5760ea5e582c812e4e3372f103a5a23f527157ae1da9a5b6e07987c140b36fd2", "0.8.0--hdd79491_0": "sha256:fa8b85c26e09e3c92613e8a3e888545baa1eecc9c3ffddd179fba4446589743c"}, "docker": "quay.io/biocontainers/salti", "aliases": {"salti": "/usr/local/bin/salti"}}
+config: {"url": "https://biocontainers.pro/tools/salti", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for salti", "latest": {"0.9.0--h70df5c0_0": "sha256:a14348ee95cb29eb2d7a479dca79c3d982e01635fe782e6f8708350b5ec20b51"}, "tags": {"0.7.1--h4349ce8_0": "sha256:5760ea5e582c812e4e3372f103a5a23f527157ae1da9a5b6e07987c140b36fd2", "0.8.0--hdd79491_0": "sha256:fa8b85c26e09e3c92613e8a3e888545baa1eecc9c3ffddd179fba4446589743c", "0.9.0--h70df5c0_0": "sha256:a14348ee95cb29eb2d7a479dca79c3d982e01635fe782e6f8708350b5ec20b51"}, "docker": "quay.io/biocontainers/salti", "aliases": {"salti": "/usr/local/bin/salti"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/salti.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/salti
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/salti:0.8.0--hdd79491_0
+$ shpc install quay.io/biocontainers/salti:0.9.0--h70df5c0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/salti/0.8.0--hdd79491_0
-$ module help quay.io/biocontainers/salti/0.8.0--hdd79491_0
+$ module load quay.io/biocontainers/salti/0.9.0--h70df5c0_0
+$ module help quay.io/biocontainers/salti/0.9.0--h70df5c0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

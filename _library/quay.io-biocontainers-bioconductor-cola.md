@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cola"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cola/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cola/container.yaml"
-updated_at: "2026-06-25 06:38:05.731715"
+updated_at: "2026-06-26 01:56:41.035124"
 latest: "2.12.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cola"
 

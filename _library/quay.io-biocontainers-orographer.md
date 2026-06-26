@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orographer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orographer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orographer/container.yaml"
-updated_at: "2026-06-25 06:29:10.619962"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-06-26 01:47:25.652267"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orographer"
 aliases:
  - "orographer"
@@ -20,8 +20,9 @@ aliases:
  - "opj_dump"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for orographer"
-config: {"url": "https://biocontainers.pro/tools/orographer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orographer", "latest": {"0.1.0--pyhdfd78af_0": "sha256:71f809dab82a6ecd05a776167b8154c61e0d274698e742baf9b438dfe74811cd"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:71f809dab82a6ecd05a776167b8154c61e0d274698e742baf9b438dfe74811cd"}, "docker": "quay.io/biocontainers/orographer", "aliases": {"orographer": "/usr/local/bin/orographer", "bokeh": "/usr/local/bin/bokeh", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/orographer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orographer", "latest": {"0.2.0--pyhdfd78af_0": "sha256:d5c2b197e82aee95b11eb90a1fd3676ec6b021eafb11753b5f4a8587182e87c5"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:71f809dab82a6ecd05a776167b8154c61e0d274698e742baf9b438dfe74811cd", "0.2.0--pyhdfd78af_0": "sha256:d5c2b197e82aee95b11eb90a1fd3676ec6b021eafb11753b5f4a8587182e87c5"}, "docker": "quay.io/biocontainers/orographer", "aliases": {"orographer": "/usr/local/bin/orographer", "bokeh": "/usr/local/bin/bokeh", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orographer.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/orographer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orographer:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/orographer:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orographer/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/orographer/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/orographer/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/orographer/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

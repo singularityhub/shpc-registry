@@ -1,0 +1,414 @@
+---
+layout: container
+name:  "quay.io/biocontainers/conpair"
+maintainer: "@vsoch"
+github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conpair/container.yaml"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conpair/container.yaml"
+updated_at: "2026-06-26 01:55:12.550807"
+latest: "0.2--pyhdfd78af_0"
+container_url: "https://biocontainers.pro/tools/conpair"
+aliases:
+ - "estimate_tumor_normal_contamination.py"
+ - "gatk3"
+ - "run_gatk_pileup_for_sample.py"
+ - "verify_concordance.py"
+ - "GenomeAnalysisTK"
+ - "fc-genconf"
+ - "clhsdb"
+ - "hsdb"
+ - "hb-raster"
+ - "hb-vector"
+ - "extcheck"
+ - "java-rmi.cgi"
+ - "javah"
+ - "jhat"
+ - "jsadebugd"
+ - "native2ascii"
+ - "policytool"
+ - "appletviewer"
+ - "idlj"
+ - "orbd"
+ - "schemagen"
+ - "servertool"
+ - "tnameserv"
+ - "wsgen"
+ - "wsimport"
+ - "xjc"
+ - "idle3.14"
+ - "pydoc3.14"
+ - "python3.14"
+versions:
+ - "0.2--pyhdfd78af_0"
+description: "singularity registry hpc automated addition for conpair"
+config: {"url": "https://biocontainers.pro/tools/conpair", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for conpair", "latest": {"0.2--pyhdfd78af_0": "sha256:e6e939c00266133489b903cf869999eb36a7fae10faabcd538b7bf940bcf79af"}, "tags": {"0.2--pyhdfd78af_0": "sha256:e6e939c00266133489b903cf869999eb36a7fae10faabcd538b7bf940bcf79af"}, "docker": "quay.io/biocontainers/conpair", "aliases": {"estimate_tumor_normal_contamination.py": "/usr/local/bin/estimate_tumor_normal_contamination.py", "gatk3": "/usr/local/bin/gatk3", "run_gatk_pileup_for_sample.py": "/usr/local/bin/run_gatk_pileup_for_sample.py", "verify_concordance.py": "/usr/local/bin/verify_concordance.py", "GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "fc-genconf": "/usr/local/bin/fc-genconf", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd", "schemagen": "/usr/local/bin/schemagen", "servertool": "/usr/local/bin/servertool", "tnameserv": "/usr/local/bin/tnameserv", "wsgen": "/usr/local/bin/wsgen", "wsimport": "/usr/local/bin/wsimport", "xjc": "/usr/local/bin/xjc", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14"}}
+---
+
+This module is a singularity container wrapper for quay.io/biocontainers/conpair.
+singularity registry hpc automated addition for conpair
+After [installing shpc](#install) you will want to install this container module:
+
+
+```bash
+$ shpc install quay.io/biocontainers/conpair
+```
+
+Or a specific version:
+
+```bash
+$ shpc install quay.io/biocontainers/conpair:0.2--pyhdfd78af_0
+```
+
+And then you can tell lmod about your modules folder:
+
+```bash
+$ module use ./modules
+```
+
+And load the module, and ask for help, or similar.
+
+```bash
+$ module load quay.io/biocontainers/conpair/0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/conpair/0.2--pyhdfd78af_0
+```
+
+You can use tab for auto-completion of module names or commands that are provided.
+
+<br>
+
+### Commands
+
+When you install this module, you will be able to load it to make the following commands accessible.
+Examples for both Singularity, Podman, and Docker (container technologies supported) are included.
+
+#### conpair-run:
+
+```bash
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+```
+
+#### conpair-shell:
+
+```bash
+$ singularity shell -s /bin/sh <container>
+$ podman run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+$ docker run --it --rm --entrypoint /bin/sh  -v ${PWD} -w ${PWD} <container>
+```
+
+#### conpair-exec:
+
+```bash
+$ singularity exec <container> "$@"
+$ podman run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+$ docker run --it --rm --entrypoint ""  -v ${PWD} -w ${PWD} <container> "$@"
+```
+
+#### conpair-inspect:
+
+Podman and Docker only have one inspect type.
+
+```bash
+$ podman inspect <container>
+$ docker inspect <container>
+```
+
+#### conpair-inspect-runscript:
+
+```bash
+$ singularity inspect -r <container>
+```
+
+#### conpair-inspect-deffile:
+
+```bash
+$ singularity inspect -d <container>
+```
+
+
+#### estimate_tumor_normal_contamination.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/estimate_tumor_normal_contamination.py
+$ podman run --it --rm --entrypoint /usr/local/bin/estimate_tumor_normal_contamination.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/estimate_tumor_normal_contamination.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gatk3
+
+```bash
+$ singularity exec <container> /usr/local/bin/gatk3
+$ podman run --it --rm --entrypoint /usr/local/bin/gatk3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gatk3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run_gatk_pileup_for_sample.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_gatk_pileup_for_sample.py
+$ podman run --it --rm --entrypoint /usr/local/bin/run_gatk_pileup_for_sample.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_gatk_pileup_for_sample.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### verify_concordance.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/verify_concordance.py
+$ podman run --it --rm --entrypoint /usr/local/bin/verify_concordance.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/verify_concordance.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### GenomeAnalysisTK
+
+```bash
+$ singularity exec <container> /usr/local/bin/GenomeAnalysisTK
+$ podman run --it --rm --entrypoint /usr/local/bin/GenomeAnalysisTK   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/GenomeAnalysisTK   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fc-genconf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fc-genconf
+$ podman run --it --rm --entrypoint /usr/local/bin/fc-genconf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fc-genconf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/clhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/hsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hb-raster
+
+```bash
+$ singularity exec <container> /usr/local/bin/hb-raster
+$ podman run --it --rm --entrypoint /usr/local/bin/hb-raster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hb-raster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hb-vector
+
+```bash
+$ singularity exec <container> /usr/local/bin/hb-vector
+$ podman run --it --rm --entrypoint /usr/local/bin/hb-vector   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hb-vector   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java-rmi.cgi
+
+```bash
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javah
+
+```bash
+$ singularity exec <container> /usr/local/bin/javah
+$ podman run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jhat
+
+```bash
+$ singularity exec <container> /usr/local/bin/jhat
+$ podman run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jsadebugd
+
+```bash
+$ singularity exec <container> /usr/local/bin/jsadebugd
+$ podman run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### native2ascii
+
+```bash
+$ singularity exec <container> /usr/local/bin/native2ascii
+$ podman run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### policytool
+
+```bash
+$ singularity exec <container> /usr/local/bin/policytool
+$ podman run --it --rm --entrypoint /usr/local/bin/policytool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/policytool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### orbd
+
+```bash
+$ singularity exec <container> /usr/local/bin/orbd
+$ podman run --it --rm --entrypoint /usr/local/bin/orbd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/orbd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### schemagen
+
+```bash
+$ singularity exec <container> /usr/local/bin/schemagen
+$ podman run --it --rm --entrypoint /usr/local/bin/schemagen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/schemagen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### servertool
+
+```bash
+$ singularity exec <container> /usr/local/bin/servertool
+$ podman run --it --rm --entrypoint /usr/local/bin/servertool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/servertool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tnameserv
+
+```bash
+$ singularity exec <container> /usr/local/bin/tnameserv
+$ podman run --it --rm --entrypoint /usr/local/bin/tnameserv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tnameserv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wsgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/wsgen
+$ podman run --it --rm --entrypoint /usr/local/bin/wsgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wsgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wsimport
+
+```bash
+$ singularity exec <container> /usr/local/bin/wsimport
+$ podman run --it --rm --entrypoint /usr/local/bin/wsimport   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wsimport   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xjc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xjc
+$ podman run --it --rm --entrypoint /usr/local/bin/xjc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xjc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.14
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.14
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.14   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.14   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.14
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.14
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.14   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.14   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.14
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.14
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.14   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.14   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+
+In the above, the `<container>` directive will reference an actual container provided
+by the module, for the version you have chosen to load. An environment file in the
+module folder will also be bound. Note that although a container
+might provide custom commands, every container exposes unique exec, shell, run, and
+inspect aliases. For anycommands above, you can export:
+
+ - SINGULARITY_OPTS: to define custom options for singularity (e.g., --debug)
+ - SINGULARITY_COMMAND_OPTS: to define custom options for the command (e.g., -b)
+ - PODMAN_OPTS: to define custom options for podman or docker
+ - PODMAN_COMMAND_OPTS: to define custom options for the command
+
+<br>
+
+### Install
+
+You can install shpc locally (for yourself or your user base) as follows:
+
+```bash
+$ git clone https://github.com/singularityhub/singularity-hpc
+$ cd singularity-hpc
+$ pip install -e .
+```
+
+Have any questions, or want to request a new module or version? [ask for help!](https://github.com/singularityhub/singularity-hpc/issues)

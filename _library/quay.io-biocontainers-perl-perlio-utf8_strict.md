@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-perlio-utf8_strict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perlio-utf8_strict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perlio-utf8_strict/container.yaml"
-updated_at: "2026-06-25 06:34:32.348907"
+updated_at: "2026-06-26 01:52:59.876278"
 latest: "0.010--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/perl-perlio-utf8_strict"
 aliases:

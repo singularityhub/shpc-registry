@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/molemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/molemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/molemap/container.yaml"
-updated_at: "2026-06-25 06:20:43.826518"
+updated_at: "2026-06-26 01:38:43.633021"
 latest: "1.4.3.1--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/molemap"
 aliases:

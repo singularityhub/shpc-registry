@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-hydrocluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-hydrocluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-hydrocluster/container.yaml"
-updated_at: "2026-06-25 06:17:06.298332"
+updated_at: "2026-06-26 01:34:57.299028"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-hydrocluster"
 aliases:

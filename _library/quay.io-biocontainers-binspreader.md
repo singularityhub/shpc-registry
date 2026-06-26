@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/binspreader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/binspreader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/binspreader/container.yaml"
-updated_at: "2026-06-25 07:03:08.107482"
+updated_at: "2026-06-26 02:21:53.884061"
 latest: "3.16.0.dev--h95f258a_0"
 container_url: "https://biocontainers.pro/tools/binspreader"
 aliases:

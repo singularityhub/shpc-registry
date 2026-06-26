@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tdrmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tdrmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tdrmapper/container.yaml"
-updated_at: "2026-06-25 06:58:41.932413"
+updated_at: "2026-06-26 02:17:22.396823"
 latest: "1.1--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/tdrmapper"
 aliases:

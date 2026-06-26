@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rguatlas4k.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rguatlas4k.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rguatlas4k.db/container.yaml"
-updated_at: "2026-06-25 06:38:33.627579"
+updated_at: "2026-06-26 01:57:09.536513"
 latest: "3.2.3--r45hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-rguatlas4k.db"
 

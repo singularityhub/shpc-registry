@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/examine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/examine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/examine/container.yaml"
-updated_at: "2026-06-25 06:43:34.351874"
+updated_at: "2026-06-26 02:02:15.129967"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/examine"
 aliases:

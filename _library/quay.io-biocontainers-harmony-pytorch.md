@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/harmony-pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harmony-pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/harmony-pytorch/container.yaml"
-updated_at: "2026-06-25 06:11:07.992473"
+updated_at: "2026-06-26 01:28:53.923737"
 latest: "0.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/harmony-pytorch"
 aliases:

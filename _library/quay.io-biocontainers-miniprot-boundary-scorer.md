@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/miniprot-boundary-scorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miniprot-boundary-scorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miniprot-boundary-scorer/container.yaml"
-updated_at: "2026-06-25 06:42:55.273061"
+updated_at: "2026-06-26 02:01:35.652801"
 latest: "1.0.1--h9948957_0"
 container_url: "https://biocontainers.pro/tools/miniprot-boundary-scorer"
 aliases:

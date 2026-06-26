@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rattoxfxprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rattoxfxprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rattoxfxprobe/container.yaml"
-updated_at: "2026-06-25 06:55:13.943720"
+updated_at: "2026-06-26 02:13:51.068038"
 latest: "2.18.0--r45hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-rattoxfxprobe"
 
