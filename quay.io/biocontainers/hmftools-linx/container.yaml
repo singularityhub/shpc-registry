@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hmftools-linx
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for hmftools-linx
 latest:
-  2.2--hdfd78af_0: 
-    sha256:925febc2bbb6a570f94e4b7b5932fbb237e3cbfa636787274dddfff2f5138926
+  2.3--hdfd78af_0: 
+    sha256:f412eb0a02650c44239275138b22264f597ac1bf69c0a22beacd927df5df9124
 tags:
   1.7--0: 
     sha256:b184a89b5eb13a9305551ba84e0dc3d497dea3bb3bc2c509e3025a7b1f09a1ff
@@ -37,6 +37,8 @@ tags:
     sha256:6f2395cea76b76704affb77546f7ad33024de9955f55d75029a5551c8bd05979
   2.2--hdfd78af_0: 
     sha256:925febc2bbb6a570f94e4b7b5932fbb237e3cbfa636787274dddfff2f5138926
+  2.3--hdfd78af_0: 
+    sha256:f412eb0a02650c44239275138b22264f597ac1bf69c0a22beacd927df5df9124
 docker: quay.io/biocontainers/hmftools-linx
 aliases:
   croco-0.6-config: /usr/local/bin/croco-0.6-config

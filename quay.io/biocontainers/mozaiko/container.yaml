@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mozaiko
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mozaiko
 latest:
-  0.1.4--pyh106432d_0: 
-    sha256:dcd8539c0421b41ab586ff1198f70330a35b876050f217a744dad20aec731bf6
+  0.1.8--pyh106432d_0: 
+    sha256:a7b7e740e727c57e339bd063b3e6dff3959d5213eda6f93aff976c7a17f64d3f
 tags:
   0.1.4--pyh106432d_0: 
     sha256:dcd8539c0421b41ab586ff1198f70330a35b876050f217a744dad20aec731bf6
+  0.1.8--pyh106432d_0: 
+    sha256:a7b7e740e727c57e339bd063b3e6dff3959d5213eda6f93aff976c7a17f64d3f
 docker: quay.io/biocontainers/mozaiko
 aliases:
   catnip: /usr/local/bin/catnip

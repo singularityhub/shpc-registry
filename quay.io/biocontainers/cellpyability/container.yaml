@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cellpyability
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cellpyability
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:ddb722d6ba62ffd1dd1f452c912172ba82140248fe10fab15372e948da0eaeeb
+  1.0.0--pyhdfd78af_0: 
+    sha256:79a70769b7dd4efca037b2f3b148ce6305e5ea66c8591c29b341d142237624c9
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:ddb722d6ba62ffd1dd1f452c912172ba82140248fe10fab15372e948da0eaeeb
+  1.0.0--pyhdfd78af_0: 
+    sha256:79a70769b7dd4efca037b2f3b148ce6305e5ea66c8591c29b341d142237624c9
 docker: quay.io/biocontainers/cellpyability
 aliases:
   cellpyability: /usr/local/bin/cellpyability

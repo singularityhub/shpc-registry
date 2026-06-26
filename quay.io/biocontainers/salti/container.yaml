@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/salti
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for salti
 latest:
-  0.8.0--hdd79491_0: 
-    sha256:fa8b85c26e09e3c92613e8a3e888545baa1eecc9c3ffddd179fba4446589743c
+  0.9.0--h70df5c0_0: 
+    sha256:a14348ee95cb29eb2d7a479dca79c3d982e01635fe782e6f8708350b5ec20b51
 tags:
   0.7.1--h4349ce8_0: 
     sha256:5760ea5e582c812e4e3372f103a5a23f527157ae1da9a5b6e07987c140b36fd2
   0.8.0--hdd79491_0: 
     sha256:fa8b85c26e09e3c92613e8a3e888545baa1eecc9c3ffddd179fba4446589743c
+  0.9.0--h70df5c0_0: 
+    sha256:a14348ee95cb29eb2d7a479dca79c3d982e01635fe782e6f8708350b5ec20b51
 docker: quay.io/biocontainers/salti
 aliases:
   salti: /usr/local/bin/salti

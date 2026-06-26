@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/grz-check-python
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for grz-check-python
 latest:
-  0.3.0--py312hf7f01f6_1: 
-    sha256:e993deecef1602779c394eac4a29385e6ac1abb6ba0d36274f74e87c6c5cacd2
+  0.3.1--py313h4899122_0: 
+    sha256:f004bd8af87a364c9fec50f412f693b1e941657a353a350029c1ac4069169363
 tags:
   0.3.0--py312hf7f01f6_1: 
     sha256:e993deecef1602779c394eac4a29385e6ac1abb6ba0d36274f74e87c6c5cacd2
+  0.3.1--py313h4899122_0: 
+    sha256:f004bd8af87a364c9fec50f412f693b1e941657a353a350029c1ac4069169363
 docker: quay.io/biocontainers/grz-check-python
 aliases:
   2to3-3.12: /usr/local/bin/2to3-3.12

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hmftools-pave
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-pave
 latest:
-  1.8.2--hdfd78af_0: 
-    sha256:ac93b4930e0cadd3a2d846f31483244fd1745f41f6ea4eb2485f9023946a8fce
+  1.9--hdfd78af_0: 
+    sha256:21f24294cd121b0505486c641db95ee50e1d98de6662f2bad0dbc95c60ee64a3
 tags:
   1.4.1--hdfd78af_0: 
     sha256:0e40fd4d0473989a57508ffee6e00bf555c46c9a89732a1f27c0c2bb79f38552
@@ -21,6 +21,8 @@ tags:
     sha256:1e7b9983caf32b9fc0c07437f55c4d1aa2d8cab4bb17fec0c9767886d3fdcf11
   1.8.2--hdfd78af_0: 
     sha256:ac93b4930e0cadd3a2d846f31483244fd1745f41f6ea4eb2485f9023946a8fce
+  1.9--hdfd78af_0: 
+    sha256:21f24294cd121b0505486c641db95ee50e1d98de6662f2bad0dbc95c60ee64a3
 docker: quay.io/biocontainers/hmftools-pave
 aliases:
   pave: /usr/local/bin/pave

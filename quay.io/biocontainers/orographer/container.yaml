@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/orographer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orographer
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:71f809dab82a6ecd05a776167b8154c61e0d274698e742baf9b438dfe74811cd
+  0.2.0--pyhdfd78af_0: 
+    sha256:d5c2b197e82aee95b11eb90a1fd3676ec6b021eafb11753b5f4a8587182e87c5
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:71f809dab82a6ecd05a776167b8154c61e0d274698e742baf9b438dfe74811cd
+  0.2.0--pyhdfd78af_0: 
+    sha256:d5c2b197e82aee95b11eb90a1fd3676ec6b021eafb11753b5f4a8587182e87c5
 docker: quay.io/biocontainers/orographer
 aliases:
   orographer: /usr/local/bin/orographer
