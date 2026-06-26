@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cottoncdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cottoncdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cottoncdf/container.yaml"
-updated_at: "2026-06-26 01:45:59.710756"
+updated_at: "2026-06-26 06:31:51.337784"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-cottoncdf"
 

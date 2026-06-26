@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wizardeye"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wizardeye/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wizardeye/container.yaml"
-updated_at: "2026-06-26 02:00:28.021791"
+updated_at: "2026-06-26 06:46:14.781594"
 latest: "0.1.2--pyh84cbfca_0"
 container_url: "https://biocontainers.pro/tools/wizardeye"
 aliases:

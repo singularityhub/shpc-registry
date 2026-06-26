@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-resolve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-resolve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-resolve/container.yaml"
-updated_at: "2026-06-26 01:45:45.339969"
+updated_at: "2026-06-26 06:31:37.306178"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-resolve"
 aliases:

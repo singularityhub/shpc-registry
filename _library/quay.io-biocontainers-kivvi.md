@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kivvi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kivvi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kivvi/container.yaml"
-updated_at: "2026-06-26 01:38:55.822541"
+updated_at: "2026-06-26 06:24:46.048537"
 latest: "1.0.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/kivvi"
 aliases:

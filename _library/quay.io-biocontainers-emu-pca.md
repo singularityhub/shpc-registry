@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emu-pca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emu-pca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emu-pca/container.yaml"
-updated_at: "2026-06-26 01:41:43.544328"
+updated_at: "2026-06-26 06:27:37.153199"
 latest: "1.6.0--py312h6e8b409_0"
 container_url: "https://biocontainers.pro/tools/emu-pca"
 aliases:
