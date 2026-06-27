@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cryptkeeper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cryptkeeper
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:7d482bbc99b95c0092aa163b32244701fda5636b67640fae09a986256d90d233
+  1.0.2--pyhdfd78af_0: 
+    sha256:6b8a2fd7d642a1e99f98d7f14f726e6329261c1cc4be061a517a0cd434df0631
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:7d482bbc99b95c0092aa163b32244701fda5636b67640fae09a986256d90d233
+  1.0.2--pyhdfd78af_0: 
+    sha256:6b8a2fd7d642a1e99f98d7f14f726e6329261c1cc4be061a517a0cd434df0631
 docker: quay.io/biocontainers/cryptkeeper
 aliases:
   cryptkeeper: /usr/local/bin/cryptkeeper

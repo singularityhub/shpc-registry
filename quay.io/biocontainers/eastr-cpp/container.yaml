@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/eastr-cpp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eastr-cpp
 latest:
-  2.0.2--h5ca1c30_0: 
-    sha256:b7e7a410dc5c4dc2376b5f33b78b38fbd7bf1620ed8bc9a9e0a6c2a985652f06
+  2.1.1--h5814d7d_0: 
+    sha256:207cb64130707cd939a327121603d8eeb1e1e35296ed04b6c9b35b401d14fd19
 tags:
   2.0.2--h5ca1c30_0: 
     sha256:b7e7a410dc5c4dc2376b5f33b78b38fbd7bf1620ed8bc9a9e0a6c2a985652f06
+  2.1.1--h5814d7d_0: 
+    sha256:207cb64130707cd939a327121603d8eeb1e1e35296ed04b6c9b35b401d14fd19
 docker: quay.io/biocontainers/eastr-cpp
 aliases:
   eastr: /usr/local/bin/eastr
