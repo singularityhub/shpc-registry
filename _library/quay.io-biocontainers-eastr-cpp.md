@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eastr-cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eastr-cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eastr-cpp/container.yaml"
-updated_at: "2026-06-26 06:28:09.499786"
-latest: "2.0.2--h5ca1c30_0"
+updated_at: "2026-06-27 06:10:01.303594"
+latest: "2.1.1--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/eastr-cpp"
 aliases:
  - "eastr"
@@ -29,8 +29,9 @@ aliases:
  - "tabix"
 versions:
  - "2.0.2--h5ca1c30_0"
+ - "2.1.1--h5814d7d_0"
 description: "singularity registry hpc automated addition for eastr-cpp"
-config: {"url": "https://biocontainers.pro/tools/eastr-cpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eastr-cpp", "latest": {"2.0.2--h5ca1c30_0": "sha256:b7e7a410dc5c4dc2376b5f33b78b38fbd7bf1620ed8bc9a9e0a6c2a985652f06"}, "tags": {"2.0.2--h5ca1c30_0": "sha256:b7e7a410dc5c4dc2376b5f33b78b38fbd7bf1620ed8bc9a9e0a6c2a985652f06"}, "docker": "quay.io/biocontainers/eastr-cpp", "aliases": {"eastr": "/usr/local/bin/eastr", "ref-cache": "/usr/local/bin/ref-cache", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/eastr-cpp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eastr-cpp", "latest": {"2.1.1--h5814d7d_0": "sha256:207cb64130707cd939a327121603d8eeb1e1e35296ed04b6c9b35b401d14fd19"}, "tags": {"2.0.2--h5ca1c30_0": "sha256:b7e7a410dc5c4dc2376b5f33b78b38fbd7bf1620ed8bc9a9e0a6c2a985652f06", "2.1.1--h5814d7d_0": "sha256:207cb64130707cd939a327121603d8eeb1e1e35296ed04b6c9b35b401d14fd19"}, "docker": "quay.io/biocontainers/eastr-cpp", "aliases": {"eastr": "/usr/local/bin/eastr", "ref-cache": "/usr/local/bin/ref-cache", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eastr-cpp.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/eastr-cpp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eastr-cpp:2.0.2--h5ca1c30_0
+$ shpc install quay.io/biocontainers/eastr-cpp:2.1.1--h5814d7d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eastr-cpp/2.0.2--h5ca1c30_0
-$ module help quay.io/biocontainers/eastr-cpp/2.0.2--h5ca1c30_0
+$ module load quay.io/biocontainers/eastr-cpp/2.1.1--h5814d7d_0
+$ module help quay.io/biocontainers/eastr-cpp/2.1.1--h5814d7d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

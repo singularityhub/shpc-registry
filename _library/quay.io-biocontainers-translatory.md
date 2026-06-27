@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/translatory"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/translatory/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/translatory/container.yaml"
-updated_at: "2026-06-26 06:34:34.707622"
+updated_at: "2026-06-27 06:16:29.041604"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/translatory"
 aliases:

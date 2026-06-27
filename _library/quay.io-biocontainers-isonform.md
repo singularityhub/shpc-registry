@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isonform"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isonform/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isonform/container.yaml"
-updated_at: "2026-06-26 07:02:57.542178"
+updated_at: "2026-06-27 06:44:53.024324"
 latest: "0.3.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/isonform"
 aliases:

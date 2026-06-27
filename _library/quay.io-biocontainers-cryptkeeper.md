@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cryptkeeper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cryptkeeper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cryptkeeper/container.yaml"
-updated_at: "2026-06-26 06:56:47.396159"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2026-06-27 06:38:45.831211"
+latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cryptkeeper"
 aliases:
  - "cryptkeeper"
@@ -39,8 +39,9 @@ aliases:
  - "RNAduplex"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cryptkeeper"
-config: {"url": "https://biocontainers.pro/tools/cryptkeeper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cryptkeeper", "latest": {"1.0.1--pyhdfd78af_0": "sha256:7d482bbc99b95c0092aa163b32244701fda5636b67640fae09a986256d90d233"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:7d482bbc99b95c0092aa163b32244701fda5636b67640fae09a986256d90d233"}, "docker": "quay.io/biocontainers/cryptkeeper", "aliases": {"cryptkeeper": "/usr/local/bin/cryptkeeper", "ostir": "/usr/local/bin/ostir", "promoter-calculator": "/usr/local/bin/promoter-calculator", "rhotermpredict": "/usr/local/bin/rhotermpredict", "RNAmultifold": "/usr/local/bin/RNAmultifold", "numpy-config": "/usr/local/bin/numpy-config", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex"}}
+config: {"url": "https://biocontainers.pro/tools/cryptkeeper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cryptkeeper", "latest": {"1.0.2--pyhdfd78af_0": "sha256:6b8a2fd7d642a1e99f98d7f14f726e6329261c1cc4be061a517a0cd434df0631"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:7d482bbc99b95c0092aa163b32244701fda5636b67640fae09a986256d90d233", "1.0.2--pyhdfd78af_0": "sha256:6b8a2fd7d642a1e99f98d7f14f726e6329261c1cc4be061a517a0cd434df0631"}, "docker": "quay.io/biocontainers/cryptkeeper", "aliases": {"cryptkeeper": "/usr/local/bin/cryptkeeper", "ostir": "/usr/local/bin/ostir", "promoter-calculator": "/usr/local/bin/promoter-calculator", "rhotermpredict": "/usr/local/bin/rhotermpredict", "RNAmultifold": "/usr/local/bin/RNAmultifold", "numpy-config": "/usr/local/bin/numpy-config", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cryptkeeper.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/cryptkeeper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cryptkeeper:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cryptkeeper:1.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cryptkeeper/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/cryptkeeper/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/cryptkeeper/1.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/cryptkeeper/1.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

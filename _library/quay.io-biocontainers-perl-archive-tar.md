@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-archive-tar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-archive-tar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-archive-tar/container.yaml"
-updated_at: "2026-06-26 06:30:15.398839"
-latest: "3.08--pl5321hdfd78af_0"
+updated_at: "2026-06-27 06:12:07.915494"
+latest: "3.12--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-archive-tar"
 
 versions:
@@ -13,8 +13,10 @@ versions:
  - "3.04--pl5321hdfd78af_0"
  - "3.08--pl5321hdfd78af_0"
  - "3.06--pl5321hdfd78af_0"
+ - "3.12--pl5321hdfd78af_0"
+ - "3.10--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-archive-tar"
-config: {"url": "https://biocontainers.pro/tools/perl-archive-tar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-archive-tar", "latest": {"3.08--pl5321hdfd78af_0": "sha256:fede7c274aa3bd9083caa57191661c5b7de488e36a550568622ba38159e15d75"}, "tags": {"2.40--pl5321hdfd78af_0": "sha256:f8b9416efe4f8eb76186b80bd0c7e2d549aa3f0da0c3a539a44f90f1c41931ff", "3.04--pl5321hdfd78af_0": "sha256:1a80f4ed4c7f3a0f64a58ed45b483c6754057142e34e5e77a4fd6b8dc4aadc94", "3.08--pl5321hdfd78af_0": "sha256:fede7c274aa3bd9083caa57191661c5b7de488e36a550568622ba38159e15d75", "3.06--pl5321hdfd78af_0": "sha256:94b2595835410bc56e9469a4351cb134ee7859f04cc6d839e89a96c4ecdfb92d"}, "docker": "quay.io/biocontainers/perl-archive-tar"}
+config: {"url": "https://biocontainers.pro/tools/perl-archive-tar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-archive-tar", "latest": {"3.12--pl5321hdfd78af_0": "sha256:b4a0e210314fc25785d2eef738036ae3adcd676ec9cb7d6d2040fe16e2c13c51"}, "tags": {"2.40--pl5321hdfd78af_0": "sha256:f8b9416efe4f8eb76186b80bd0c7e2d549aa3f0da0c3a539a44f90f1c41931ff", "3.04--pl5321hdfd78af_0": "sha256:1a80f4ed4c7f3a0f64a58ed45b483c6754057142e34e5e77a4fd6b8dc4aadc94", "3.08--pl5321hdfd78af_0": "sha256:fede7c274aa3bd9083caa57191661c5b7de488e36a550568622ba38159e15d75", "3.06--pl5321hdfd78af_0": "sha256:94b2595835410bc56e9469a4351cb134ee7859f04cc6d839e89a96c4ecdfb92d", "3.12--pl5321hdfd78af_0": "sha256:b4a0e210314fc25785d2eef738036ae3adcd676ec9cb7d6d2040fe16e2c13c51", "3.10--pl5321hdfd78af_0": "sha256:b336804ad2c090215bbada3c9882680e980cb3250ff761f3341fc659f6d5d47f"}, "docker": "quay.io/biocontainers/perl-archive-tar"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-archive-tar.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-archive-tar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-archive-tar:3.08--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-archive-tar:3.12--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-archive-tar/3.08--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-archive-tar/3.08--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-archive-tar/3.12--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-archive-tar/3.12--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

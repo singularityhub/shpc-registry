@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deacon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deacon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deacon/container.yaml"
-updated_at: "2026-06-26 06:21:16.933329"
+updated_at: "2026-06-27 06:03:10.460821"
 latest: "0.15.0--hdd79491_0"
 container_url: "https://biocontainers.pro/tools/deacon"
 aliases:

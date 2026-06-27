@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cleaverna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cleaverna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cleaverna/container.yaml"
-updated_at: "2026-06-26 06:37:52.018061"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-06-27 06:19:43.645044"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cleaverna"
 aliases:
  - "CopomuS.py"
@@ -51,8 +51,9 @@ aliases:
  - "RNAeval"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cleaverna"
-config: {"url": "https://biocontainers.pro/tools/cleaverna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cleaverna", "latest": {"1.0.0--pyhdfd78af_0": "sha256:14a55daaedc7bc6e927d90ddecfd86f6ce9582dcadfd2caf6b51df2fe60a07a0"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:14a55daaedc7bc6e927d90ddecfd86f6ce9582dcadfd2caf6b51df2fe60a07a0"}, "docker": "quay.io/biocontainers/cleaverna", "aliases": {"CopomuS.py": "/usr/local/bin/CopomuS.py", "IntaRNA": "/usr/local/bin/IntaRNA", "IntaRNA1": "/usr/local/bin/IntaRNA1", "IntaRNA2": "/usr/local/bin/IntaRNA2", "IntaRNA3": "/usr/local/bin/IntaRNA3", "IntaRNA_CSV_p-value.R": "/usr/local/bin/IntaRNA_CSV_p-value.R", "IntaRNA_plotRegions.R": "/usr/local/bin/IntaRNA_plotRegions.R", "IntaRNAduplex": "/usr/local/bin/IntaRNAduplex", "IntaRNAens": "/usr/local/bin/IntaRNAens", "IntaRNAexact": "/usr/local/bin/IntaRNAexact", "IntaRNAhelix": "/usr/local/bin/IntaRNAhelix", "IntaRNAsTar": "/usr/local/bin/IntaRNAsTar", "IntaRNAseed": "/usr/local/bin/IntaRNAseed", "RNAconsensus": "/usr/local/bin/RNAconsensus", "cleaverna": "/usr/local/bin/cleaverna", "feature": "/usr/local/bin/feature", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval"}}
+config: {"url": "https://biocontainers.pro/tools/cleaverna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cleaverna", "latest": {"1.0.1--pyhdfd78af_0": "sha256:079969a19a4b35763249f38ea3bc4c3f4e8d02e0e9a77947d155d02a94b8804f"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:14a55daaedc7bc6e927d90ddecfd86f6ce9582dcadfd2caf6b51df2fe60a07a0", "1.0.1--pyhdfd78af_0": "sha256:079969a19a4b35763249f38ea3bc4c3f4e8d02e0e9a77947d155d02a94b8804f"}, "docker": "quay.io/biocontainers/cleaverna", "aliases": {"CopomuS.py": "/usr/local/bin/CopomuS.py", "IntaRNA": "/usr/local/bin/IntaRNA", "IntaRNA1": "/usr/local/bin/IntaRNA1", "IntaRNA2": "/usr/local/bin/IntaRNA2", "IntaRNA3": "/usr/local/bin/IntaRNA3", "IntaRNA_CSV_p-value.R": "/usr/local/bin/IntaRNA_CSV_p-value.R", "IntaRNA_plotRegions.R": "/usr/local/bin/IntaRNA_plotRegions.R", "IntaRNAduplex": "/usr/local/bin/IntaRNAduplex", "IntaRNAens": "/usr/local/bin/IntaRNAens", "IntaRNAexact": "/usr/local/bin/IntaRNAexact", "IntaRNAhelix": "/usr/local/bin/IntaRNAhelix", "IntaRNAsTar": "/usr/local/bin/IntaRNAsTar", "IntaRNAseed": "/usr/local/bin/IntaRNAseed", "RNAconsensus": "/usr/local/bin/RNAconsensus", "cleaverna": "/usr/local/bin/cleaverna", "feature": "/usr/local/bin/feature", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex", "RNAsnoop": "/usr/local/bin/RNAsnoop", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cleaverna.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/cleaverna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cleaverna:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cleaverna:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cleaverna/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cleaverna/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cleaverna/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/cleaverna/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

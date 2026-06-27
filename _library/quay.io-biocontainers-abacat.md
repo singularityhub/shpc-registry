@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abacat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abacat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abacat/container.yaml"
-updated_at: "2026-06-26 06:26:58.236279"
+updated_at: "2026-06-27 06:08:50.441688"
 latest: "0.0.4a--py_0"
 container_url: "https://biocontainers.pro/tools/abacat"
 aliases:

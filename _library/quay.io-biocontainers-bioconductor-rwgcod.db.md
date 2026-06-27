@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rwgcod.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rwgcod.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rwgcod.db/container.yaml"
-updated_at: "2026-06-26 06:43:00.196807"
+updated_at: "2026-06-27 06:24:50.965767"
 latest: "3.4.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-rwgcod.db"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mhg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhg/container.yaml"
-updated_at: "2026-06-26 06:46:42.394615"
+updated_at: "2026-06-27 06:28:33.631882"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mhg"
 aliases:

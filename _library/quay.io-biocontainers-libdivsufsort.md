@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libdivsufsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libdivsufsort/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libdivsufsort/container.yaml"
-updated_at: "2026-06-26 06:49:26.291759"
+updated_at: "2026-06-27 06:31:19.463010"
 latest: "2.0.2--h7b50bb2_10"
 container_url: "https://biocontainers.pro/tools/libdivsufsort"
 

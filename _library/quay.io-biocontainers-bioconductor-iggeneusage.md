@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iggeneusage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iggeneusage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iggeneusage/container.yaml"
-updated_at: "2026-06-26 06:42:37.045441"
+updated_at: "2026-06-27 06:24:27.704739"
 latest: "1.24.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iggeneusage"
 

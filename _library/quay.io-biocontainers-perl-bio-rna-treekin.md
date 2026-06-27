@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-rna-treekin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-rna-treekin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-rna-treekin/container.yaml"
-updated_at: "2026-06-26 06:32:40.939615"
+updated_at: "2026-06-27 06:14:34.133025"
 latest: "0.05--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-rna-treekin"
 aliases:

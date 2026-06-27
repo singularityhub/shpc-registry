@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qsvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qsvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qsvar/container.yaml"
-updated_at: "2026-06-26 06:49:30.937028"
+updated_at: "2026-06-27 06:31:24.233507"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qsvar"
 aliases:
