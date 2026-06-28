@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ete3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ete3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ete3/container.yaml"
-updated_at: "2026-06-27 05:56:15.688089"
+updated_at: "2026-06-28 06:21:39.730610"
 latest: "3.1.2"
 container_url: "https://biocontainers.pro/tools/ete3"
 aliases:

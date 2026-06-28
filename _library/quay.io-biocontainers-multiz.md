@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multiz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiz/container.yaml"
-updated_at: "2026-06-27 06:21:49.024157"
+updated_at: "2026-06-28 06:46:57.120604"
 latest: "11.2--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/multiz"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geuvpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geuvpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geuvpack/container.yaml"
-updated_at: "2026-06-27 06:15:31.377743"
+updated_at: "2026-06-28 06:40:35.412112"
 latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-geuvpack"
 aliases:

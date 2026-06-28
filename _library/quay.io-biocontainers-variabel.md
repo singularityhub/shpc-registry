@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/variabel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variabel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variabel/container.yaml"
-updated_at: "2026-06-27 06:10:59.837159"
+updated_at: "2026-06-28 06:36:10.033005"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/variabel"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-caninecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-caninecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-caninecdf/container.yaml"
-updated_at: "2026-06-27 05:59:55.302428"
+updated_at: "2026-06-28 06:25:13.643636"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-caninecdf"
 

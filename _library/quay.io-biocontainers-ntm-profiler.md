@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntm-profiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntm-profiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntm-profiler/container.yaml"
-updated_at: "2026-06-27 06:22:40.425911"
+updated_at: "2026-06-28 06:47:49.001558"
 latest: "0.8.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ntm-profiler"
 aliases:

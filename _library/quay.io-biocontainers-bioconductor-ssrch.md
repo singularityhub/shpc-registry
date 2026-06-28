@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ssrch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ssrch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ssrch/container.yaml"
-updated_at: "2026-06-27 06:16:40.710128"
+updated_at: "2026-06-28 06:41:43.669021"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ssrch"
 aliases:

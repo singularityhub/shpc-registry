@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virconsens"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virconsens/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virconsens/container.yaml"
-updated_at: "2026-06-27 06:34:27.766465"
+updated_at: "2026-06-28 06:59:53.134019"
 latest: "1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virconsens"
 aliases:

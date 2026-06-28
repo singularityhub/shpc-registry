@@ -4,7 +4,7 @@ name:  "rocker/rstudio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/rstudio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/rstudio/container.yaml"
-updated_at: "2026-06-27 05:55:49.928228"
+updated_at: "2026-06-28 06:21:14.838004"
 latest: "4.6.0"
 container_url: "https://hub.docker.com/r/rocker/rstudio"
 aliases:

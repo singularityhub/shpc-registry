@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/expansionhunterdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expansionhunterdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expansionhunterdenovo/container.yaml"
-updated_at: "2026-06-27 06:30:29.974680"
+updated_at: "2026-06-28 06:55:52.582091"
 latest: "0.9.0--h6ac36c1_11"
 container_url: "https://biocontainers.pro/tools/expansionhunterdenovo"
 aliases:

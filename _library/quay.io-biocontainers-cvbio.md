@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cvbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cvbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cvbio/container.yaml"
-updated_at: "2026-06-27 06:36:34.422025"
+updated_at: "2026-06-28 07:02:04.914612"
 latest: "3.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cvbio"
 aliases:

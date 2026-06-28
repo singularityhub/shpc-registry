@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqcal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqcal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqcal/container.yaml"
-updated_at: "2026-06-27 06:20:53.585304"
+updated_at: "2026-06-28 06:46:01.106480"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqcal"
 aliases:

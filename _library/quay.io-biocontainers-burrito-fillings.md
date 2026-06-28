@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/burrito-fillings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/burrito-fillings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/burrito-fillings/container.yaml"
-updated_at: "2026-06-27 06:20:14.501333"
+updated_at: "2026-06-28 06:45:20.848125"
 latest: "0.1.1--py_3"
 container_url: "https://biocontainers.pro/tools/burrito-fillings"
 aliases:

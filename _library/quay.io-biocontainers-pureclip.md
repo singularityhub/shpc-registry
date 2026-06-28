@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pureclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pureclip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pureclip/container.yaml"
-updated_at: "2026-06-27 06:41:48.452808"
+updated_at: "2026-06-28 07:07:30.213180"
 latest: "1.3.1--r44h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/pureclip"
 aliases:
