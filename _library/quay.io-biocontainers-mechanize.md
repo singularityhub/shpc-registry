@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mechanize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mechanize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mechanize/container.yaml"
-updated_at: "2026-06-28 06:41:35.177936"
+updated_at: "2026-06-29 07:10:51.199736"
 latest: "0.2.5"
 container_url: "https://biocontainers.pro/tools/mechanize"
 aliases:

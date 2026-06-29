@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/twinspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twinspector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twinspector/container.yaml"
-updated_at: "2026-06-28 07:13:21.388928"
+updated_at: "2026-06-29 07:40:38.158279"
 latest: "0.1.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/twinspector"
 aliases:

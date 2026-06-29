@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ghmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghmm/container.yaml"
-updated_at: "2026-06-28 07:12:50.753288"
+updated_at: "2026-06-29 07:40:09.709139"
 latest: "0.9--py27pl5321he3645e8_2"
 container_url: "https://biocontainers.pro/tools/ghmm"
 aliases:

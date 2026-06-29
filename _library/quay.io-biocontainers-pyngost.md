@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyngost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyngost/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyngost/container.yaml"
-updated_at: "2026-06-28 06:25:40.971127"
+updated_at: "2026-06-29 06:55:23.103675"
 latest: "1.1.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pyngost"
 aliases:

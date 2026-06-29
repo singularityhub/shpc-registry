@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/comseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/comseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/comseg/container.yaml"
-updated_at: "2026-06-28 06:24:50.979655"
+updated_at: "2026-06-29 06:54:33.826776"
 latest: "1.8.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/comseg"
 aliases:

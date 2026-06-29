@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reseq2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reseq2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reseq2/container.yaml"
-updated_at: "2026-06-28 06:59:31.529147"
+updated_at: "2026-06-29 07:27:47.502185"
 latest: "2.0.3--h49d0829_1"
 container_url: "https://biocontainers.pro/tools/reseq2"
 aliases:

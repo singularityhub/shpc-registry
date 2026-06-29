@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metafun"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metafun/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metafun/container.yaml"
-updated_at: "2026-06-28 07:10:17.850152"
+updated_at: "2026-06-29 07:37:46.626952"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metafun"
 aliases:

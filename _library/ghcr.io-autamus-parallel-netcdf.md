@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/parallel-netcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/parallel-netcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/parallel-netcdf/container.yaml"
-updated_at: "2026-06-28 07:16:19.149735"
+updated_at: "2026-06-29 07:43:22.568206"
 latest: "1.12.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/parallel-netcdf"
 aliases:

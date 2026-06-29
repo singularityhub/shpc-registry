@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/autobarcoder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autobarcoder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autobarcoder/container.yaml"
-updated_at: "2026-06-28 07:10:27.948916"
+updated_at: "2026-06-29 07:37:56.117679"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/autobarcoder"
 aliases:

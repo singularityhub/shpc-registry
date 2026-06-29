@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eggnog-mapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eggnog-mapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eggnog-mapper/container.yaml"
-updated_at: "2026-06-28 06:59:34.684697"
+updated_at: "2026-06-29 07:27:50.406500"
 latest: "2.1.13--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/eggnog-mapper"
 aliases:

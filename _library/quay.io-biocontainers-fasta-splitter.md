@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fasta-splitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasta-splitter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasta-splitter/container.yaml"
-updated_at: "2026-06-28 06:21:55.586584"
+updated_at: "2026-06-29 06:51:41.561889"
 latest: "0.2.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fasta-splitter"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypints"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypints/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypints/container.yaml"
-updated_at: "2026-06-28 06:49:13.750402"
+updated_at: "2026-06-29 07:18:04.280063"
 latest: "1.2.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pypints"
 aliases:

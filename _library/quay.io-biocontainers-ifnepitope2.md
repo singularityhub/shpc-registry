@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ifnepitope2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ifnepitope2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ifnepitope2/container.yaml"
-updated_at: "2026-06-28 06:34:01.112134"
+updated_at: "2026-06-29 07:03:30.202535"
 latest: "1.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/ifnepitope2"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/votuderep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/votuderep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/votuderep/container.yaml"
-updated_at: "2026-06-28 07:08:47.827692"
+updated_at: "2026-06-29 07:36:22.054128"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/votuderep"
 aliases:

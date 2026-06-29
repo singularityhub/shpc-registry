@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ygs98frmavecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ygs98frmavecs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ygs98frmavecs/container.yaml"
-updated_at: "2026-06-28 06:52:21.237772"
+updated_at: "2026-06-29 07:21:00.095361"
 latest: "1.3.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-ygs98frmavecs"
 

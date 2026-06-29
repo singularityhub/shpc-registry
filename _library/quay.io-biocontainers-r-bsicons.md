@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bsicons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bsicons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bsicons/container.yaml"
-updated_at: "2026-06-28 07:06:45.836756"
+updated_at: "2026-06-29 07:34:27.262765"
 latest: "0.1.2--r45h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-bsicons"
 aliases:
