@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/bipangolin
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bipangolin
+latest:
+  0.5.0--pyhdfd78af_0: 
+    sha256:5fbd84e797d2a0497929f3c5862cc767a8143884b6a12fd3e03d889d9fb3e5d9
+tags:
+  0.5.0--pyhdfd78af_0: 
+    sha256:5fbd84e797d2a0497929f3c5862cc767a8143884b6a12fd3e03d889d9fb3e5d9
+docker: quay.io/biocontainers/bipangolin
+aliases:
+  bipangolin: /usr/local/bin/bipangolin
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  pyfastx: /usr/local/bin/pyfastx
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo
+  lstopo-no-graphics: /usr/local/bin/lstopo-no-graphics
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
