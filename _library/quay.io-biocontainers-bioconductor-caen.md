@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-caen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-caen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-caen/container.yaml"
-updated_at: "2026-06-29 07:02:26.712450"
+updated_at: "2026-06-30 06:26:37.333449"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-caen"
 

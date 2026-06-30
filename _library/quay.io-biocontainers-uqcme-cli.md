@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uqcme-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uqcme-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uqcme-cli/container.yaml"
-updated_at: "2026-06-29 06:59:40.674604"
+updated_at: "2026-06-30 06:23:43.868601"
 latest: "0.9.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/uqcme-cli"
 aliases:

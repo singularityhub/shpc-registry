@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/funtaxfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/funtaxfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/funtaxfinder/container.yaml"
-updated_at: "2026-06-29 07:06:09.253094"
+updated_at: "2026-06-30 06:30:26.117633"
 latest: "0.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/funtaxfinder"
 aliases:

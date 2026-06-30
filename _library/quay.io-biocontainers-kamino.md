@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kamino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kamino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kamino/container.yaml"
-updated_at: "2026-06-29 07:29:30.095069"
+updated_at: "2026-06-30 06:54:35.138038"
 latest: "1.0.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/kamino"
 aliases:

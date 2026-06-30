@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geneplotter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneplotter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneplotter/container.yaml"
-updated_at: "2026-06-29 07:28:35.290617"
+updated_at: "2026-06-30 06:53:38.386264"
 latest: "1.88.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneplotter"
 

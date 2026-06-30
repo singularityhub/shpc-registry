@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasmidcommunity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidcommunity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidcommunity/container.yaml"
-updated_at: "2026-06-29 07:15:14.986052"
+updated_at: "2026-06-30 06:39:52.701175"
 latest: "1.0.2--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plasmidcommunity"
 aliases:

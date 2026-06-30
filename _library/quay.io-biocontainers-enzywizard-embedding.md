@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-embedding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-embedding/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-embedding/container.yaml"
-updated_at: "2026-06-29 07:42:40.144081"
+updated_at: "2026-06-30 07:08:17.103679"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-embedding"
 aliases:

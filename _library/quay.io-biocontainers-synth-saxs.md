@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/synth-saxs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synth-saxs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synth-saxs/container.yaml"
-updated_at: "2026-06-29 06:52:29.832658"
+updated_at: "2026-06-30 06:16:14.402922"
 latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/synth-saxs"
 aliases:

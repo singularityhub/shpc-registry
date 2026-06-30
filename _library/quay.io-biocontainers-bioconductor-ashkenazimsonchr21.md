@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ashkenazimsonchr21"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ashkenazimsonchr21/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ashkenazimsonchr21/container.yaml"
-updated_at: "2026-06-29 06:59:12.951661"
+updated_at: "2026-06-30 06:23:14.810264"
 latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ashkenazimsonchr21"
 
