@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/r-w4mrutils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-w4mrutils
+latest:
+  1.2.2: sha256:98ee0cfe160f474e4ddee8cf5e80b18fed3f5a41c12473741b142f117fc0a327
+tags:
+  1.2.2: sha256:98ee0cfe160f474e4ddee8cf5e80b18fed3f5a41c12473741b142f117fc0a327
+docker: quay.io/biocontainers/r-w4mrutils
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info
