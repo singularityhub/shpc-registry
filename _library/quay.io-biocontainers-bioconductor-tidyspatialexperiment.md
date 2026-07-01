@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tidyspatialexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidyspatialexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidyspatialexperiment/container.yaml"
-updated_at: "2026-07-01 07:23:40.927104"
+updated_at: "2026-07-01 15:52:36.002795"
 latest: "1.2.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidyspatialexperiment"
 aliases:

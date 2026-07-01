@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cerberus-mg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cerberus-mg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cerberus-mg/container.yaml"
-updated_at: "2026-07-01 07:22:26.374404"
+updated_at: "2026-07-01 15:51:15.531832"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cerberus-mg"
 aliases:

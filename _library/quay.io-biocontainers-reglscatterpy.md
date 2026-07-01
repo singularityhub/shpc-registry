@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reglscatterpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reglscatterpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reglscatterpy/container.yaml"
-updated_at: "2026-07-01 06:54:37.251275"
+updated_at: "2026-07-01 15:22:19.047426"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reglscatterpy"
 aliases:

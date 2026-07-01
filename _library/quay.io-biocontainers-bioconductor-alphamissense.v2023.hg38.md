@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alphamissense.v2023.hg38/container.yaml"
-updated_at: "2026-07-01 06:54:52.155615"
+updated_at: "2026-07-01 15:22:35.234020"
 latest: "3.18.2--r45hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-alphamissense.v2023.hg38"
 aliases:

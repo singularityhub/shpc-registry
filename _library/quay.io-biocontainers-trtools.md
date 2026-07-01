@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trtools/container.yaml"
-updated_at: "2026-07-01 07:02:50.572755"
+updated_at: "2026-07-01 15:30:46.249682"
 latest: "6.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/trtools"
 aliases:

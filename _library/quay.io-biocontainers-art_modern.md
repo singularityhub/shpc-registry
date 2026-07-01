@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/art_modern"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/art_modern/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/art_modern/container.yaml"
-updated_at: "2026-07-01 06:55:12.233407"
+updated_at: "2026-07-01 15:22:56.548219"
 latest: "1.3.3--hb45bfb9_0"
 container_url: "https://biocontainers.pro/tools/art_modern"
 aliases:
