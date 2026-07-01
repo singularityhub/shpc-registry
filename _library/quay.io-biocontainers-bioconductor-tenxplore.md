@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tenxplore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxplore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxplore/container.yaml"
-updated_at: "2026-06-30 06:44:08.863090"
+updated_at: "2026-07-01 07:06:36.792053"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxplore"
 aliases:

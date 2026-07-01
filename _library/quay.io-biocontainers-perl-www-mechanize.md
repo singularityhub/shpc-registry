@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-www-mechanize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-www-mechanize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-www-mechanize/container.yaml"
-updated_at: "2026-06-30 06:49:29.702594"
-latest: "2.20--pl5321hdfd78af_0"
+updated_at: "2026-07-01 07:11:59.296008"
+latest: "2.22--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-www-mechanize"
 aliases:
  - "mech-dump"
@@ -22,8 +22,10 @@ versions:
  - "1.91--pl526_1"
  - "2.19--pl5321hdfd78af_0"
  - "2.20--pl5321hdfd78af_0"
+ - "2.22--pl5321hdfd78af_0"
+ - "2.21--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-www-mechanize"
-config: {"url": "https://biocontainers.pro/tools/perl-www-mechanize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-www-mechanize", "latest": {"2.20--pl5321hdfd78af_0": "sha256:c1d035d9e7d589e2c1e3b211e4d8a8bf4348c08d5333a58cb408c223de7ddf4f"}, "tags": {"1.91--pl526_1": "sha256:170366be51ff338e96cf601e12e3c5fab0737494ff86f2a8a427dc34d4c7a46b", "2.19--pl5321hdfd78af_0": "sha256:6447ee682cb386ce5e923321fbe7563a4f39312a39293aba68d41485ae69151c", "2.20--pl5321hdfd78af_0": "sha256:c1d035d9e7d589e2c1e3b211e4d8a8bf4348c08d5333a58cb408c223de7ddf4f"}, "docker": "quay.io/biocontainers/perl-www-mechanize", "aliases": {"mech-dump": "/usr/local/bin/mech-dump", "config_data": "/usr/local/bin/config_data", "htmltree": "/usr/local/bin/htmltree", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-www-mechanize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-www-mechanize", "latest": {"2.22--pl5321hdfd78af_0": "sha256:81bd791f1a61cf759f1f20d61d0cee7d6916fcab6d7066b083b8518136a7923a"}, "tags": {"1.91--pl526_1": "sha256:170366be51ff338e96cf601e12e3c5fab0737494ff86f2a8a427dc34d4c7a46b", "2.19--pl5321hdfd78af_0": "sha256:6447ee682cb386ce5e923321fbe7563a4f39312a39293aba68d41485ae69151c", "2.20--pl5321hdfd78af_0": "sha256:c1d035d9e7d589e2c1e3b211e4d8a8bf4348c08d5333a58cb408c223de7ddf4f", "2.22--pl5321hdfd78af_0": "sha256:81bd791f1a61cf759f1f20d61d0cee7d6916fcab6d7066b083b8518136a7923a", "2.21--pl5321hdfd78af_0": "sha256:c06a2d368852103af2208a15b90f12d728835e5610e28542d28392960af5628c"}, "docker": "quay.io/biocontainers/perl-www-mechanize", "aliases": {"mech-dump": "/usr/local/bin/mech-dump", "config_data": "/usr/local/bin/config_data", "htmltree": "/usr/local/bin/htmltree", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-www-mechanize.
@@ -38,7 +40,7 @@ $ shpc install quay.io/biocontainers/perl-www-mechanize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-www-mechanize:2.20--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-www-mechanize:2.22--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-www-mechanize/2.20--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-www-mechanize/2.20--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-www-mechanize/2.22--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-www-mechanize/2.22--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctc-scite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctc-scite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ctc-scite/container.yaml"
-updated_at: "2026-06-30 06:25:23.939666"
+updated_at: "2026-07-01 06:47:15.651819"
 latest: "1.0.2--h9948957_0"
 container_url: "https://biocontainers.pro/tools/ctc-scite"
 aliases:

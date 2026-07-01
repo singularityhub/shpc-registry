@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spotyping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spotyping/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spotyping/container.yaml"
-updated_at: "2026-06-30 06:52:09.179451"
+updated_at: "2026-07-01 07:14:40.482947"
 latest: "2.1--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/spotyping"
 

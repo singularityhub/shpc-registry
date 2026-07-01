@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/schiccorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schiccorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/schiccorr/container.yaml"
-updated_at: "2026-06-30 06:38:16.361054"
-latest: "0.0.3--pyhdfd78af_0"
+updated_at: "2026-07-01 07:00:21.134535"
+latest: "0.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/schiccorr"
 aliases:
  - "boostchr.pl"
@@ -44,8 +44,9 @@ aliases:
  - "dask-worker"
 versions:
  - "0.0.3--pyhdfd78af_0"
+ - "0.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for schiccorr"
-config: {"url": "https://biocontainers.pro/tools/schiccorr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for schiccorr", "latest": {"0.0.3--pyhdfd78af_0": "sha256:87e0c361d54410003a26a4480b9b6898fb123bbc55abafa6179d070573404ff1"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:87e0c361d54410003a26a4480b9b6898fb123bbc55abafa6179d070573404ff1"}, "docker": "quay.io/biocontainers/schiccorr", "aliases": {"boostchr.pl": "/usr/local/bin/boostchr.pl", "column_remover.pl.bak": "/usr/local/bin/column_remover.pl.bak", "create_randompairs.pl": "/usr/local/bin/create_randompairs.pl", "duplicate_header_remover.pl.bak": "/usr/local/bin/duplicate_header_remover.pl.bak", "fragment_4dnpairs.pl.bak": "/usr/local/bin/fragment_4dnpairs.pl.bak", "juicer_shortform2pairs.pl.bak": "/usr/local/bin/juicer_shortform2pairs.pl.bak", "merged_nodup2pairs.pl.bak": "/usr/local/bin/merged_nodup2pairs.pl.bak", "old_merged_nodup2pairs.pl.bak": "/usr/local/bin/old_merged_nodup2pairs.pl.bak", "schiccorr": "/usr/local/bin/schiccorr", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger", "process_merged_nodup.sh": "/usr/local/bin/process_merged_nodup.sh", "process_old_merged_nodup.sh": "/usr/local/bin/process_old_merged_nodup.sh", "streamer_1d": "/usr/local/bin/streamer_1d", "get_gprof": "/usr/local/bin/get_gprof", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "dask": "/usr/local/bin/dask", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker"}}
+config: {"url": "https://biocontainers.pro/tools/schiccorr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for schiccorr", "latest": {"0.0.4--pyhdfd78af_0": "sha256:1d84faf91bbe028225ba03c75befdc3d934db84c577b8258cccb885f634df610"}, "tags": {"0.0.3--pyhdfd78af_0": "sha256:87e0c361d54410003a26a4480b9b6898fb123bbc55abafa6179d070573404ff1", "0.0.4--pyhdfd78af_0": "sha256:1d84faf91bbe028225ba03c75befdc3d934db84c577b8258cccb885f634df610"}, "docker": "quay.io/biocontainers/schiccorr", "aliases": {"boostchr.pl": "/usr/local/bin/boostchr.pl", "column_remover.pl.bak": "/usr/local/bin/column_remover.pl.bak", "create_randompairs.pl": "/usr/local/bin/create_randompairs.pl", "duplicate_header_remover.pl.bak": "/usr/local/bin/duplicate_header_remover.pl.bak", "fragment_4dnpairs.pl.bak": "/usr/local/bin/fragment_4dnpairs.pl.bak", "juicer_shortform2pairs.pl.bak": "/usr/local/bin/juicer_shortform2pairs.pl.bak", "merged_nodup2pairs.pl.bak": "/usr/local/bin/merged_nodup2pairs.pl.bak", "old_merged_nodup2pairs.pl.bak": "/usr/local/bin/old_merged_nodup2pairs.pl.bak", "schiccorr": "/usr/local/bin/schiccorr", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger", "process_merged_nodup.sh": "/usr/local/bin/process_merged_nodup.sh", "process_old_merged_nodup.sh": "/usr/local/bin/process_old_merged_nodup.sh", "streamer_1d": "/usr/local/bin/streamer_1d", "get_gprof": "/usr/local/bin/get_gprof", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "dask": "/usr/local/bin/dask", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/schiccorr.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/schiccorr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/schiccorr:0.0.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/schiccorr:0.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/schiccorr/0.0.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/schiccorr/0.0.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/schiccorr/0.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/schiccorr/0.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

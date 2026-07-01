@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-inspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-inspector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-inspector/container.yaml"
-updated_at: "2026-06-30 06:26:37.056858"
+updated_at: "2026-07-01 06:48:28.727205"
 latest: "1.36--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-class-inspector"
 aliases:

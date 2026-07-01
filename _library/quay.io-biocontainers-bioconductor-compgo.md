@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-compgo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-compgo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-compgo/container.yaml"
-updated_at: "2026-06-30 07:08:00.586517"
+updated_at: "2026-07-01 07:30:43.992411"
 latest: "1.26.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-compgo"
 aliases:

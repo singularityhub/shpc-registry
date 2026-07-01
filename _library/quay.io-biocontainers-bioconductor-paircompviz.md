@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-paircompviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-paircompviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-paircompviz/container.yaml"
-updated_at: "2026-06-30 06:31:35.618911"
+updated_at: "2026-07-01 06:53:28.930596"
 latest: "1.48.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-paircompviz"
 

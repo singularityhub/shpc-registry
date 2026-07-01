@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rmspc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmspc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmspc/container.yaml"
-updated_at: "2026-06-30 06:38:58.430685"
+updated_at: "2026-07-01 07:01:05.270028"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmspc"
 

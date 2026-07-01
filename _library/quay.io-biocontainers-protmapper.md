@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/protmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protmapper/container.yaml"
-updated_at: "2026-06-30 06:25:43.854163"
+updated_at: "2026-07-01 06:47:35.418513"
 latest: "0.0.29--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/protmapper"
 aliases:

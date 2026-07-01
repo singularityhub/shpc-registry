@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-smartphos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-smartphos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-smartphos/container.yaml"
-updated_at: "2026-06-30 06:34:31.516274"
+updated_at: "2026-07-01 06:56:26.540360"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-smartphos"
 aliases:

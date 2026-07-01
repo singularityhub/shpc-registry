@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stellarscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stellarscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stellarscope/container.yaml"
-updated_at: "2026-06-30 06:34:38.686961"
+updated_at: "2026-07-01 06:56:34.071306"
 latest: "1.5--py312h0fa9677_1"
 container_url: "https://biocontainers.pro/tools/stellarscope"
 aliases:

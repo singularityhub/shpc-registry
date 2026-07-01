@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mvr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mvr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mvr/container.yaml"
-updated_at: "2026-06-30 06:35:33.496582"
+updated_at: "2026-07-01 06:57:30.612058"
 latest: "1.33.0--r351h29659fb_1"
 container_url: "https://biocontainers.pro/tools/r-mvr"
 aliases:

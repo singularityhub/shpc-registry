@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clove"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clove/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clove/container.yaml"
-updated_at: "2026-06-30 06:29:00.398284"
+updated_at: "2026-07-01 06:50:53.146302"
 latest: "0.17--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/clove"
 aliases:

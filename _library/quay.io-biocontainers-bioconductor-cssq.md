@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cssq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cssq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cssq/container.yaml"
-updated_at: "2026-06-30 06:28:56.269745"
+updated_at: "2026-07-01 06:50:48.986440"
 latest: "1.18.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cssq"
 

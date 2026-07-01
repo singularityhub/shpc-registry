@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/synth-saxs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synth-saxs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synth-saxs/container.yaml"
-updated_at: "2026-06-30 06:16:14.402922"
-latest: "0.1.7--pyhdfd78af_0"
+updated_at: "2026-07-01 06:37:58.616419"
+latest: "0.1.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/synth-saxs"
 aliases:
  - "synth-saxs"
@@ -18,8 +18,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.7--pyhdfd78af_0"
+ - "0.1.10--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for synth-saxs"
-config: {"url": "https://biocontainers.pro/tools/synth-saxs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for synth-saxs", "latest": {"0.1.7--pyhdfd78af_0": "sha256:bcfbc981e273ee81c9538496725b100b3a0d03e2bf4c0e463a2596af2a677071"}, "tags": {"0.1.7--pyhdfd78af_0": "sha256:bcfbc981e273ee81c9538496725b100b3a0d03e2bf4c0e463a2596af2a677071"}, "docker": "quay.io/biocontainers/synth-saxs", "aliases": {"synth-saxs": "/usr/local/bin/synth-saxs", "idna": "/usr/local/bin/idna", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/synth-saxs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for synth-saxs", "latest": {"0.1.10--pyhdfd78af_0": "sha256:8ea737752246f122ebe8ad92bb62c7aa897a70ede579d72893badb71435829a5"}, "tags": {"0.1.7--pyhdfd78af_0": "sha256:bcfbc981e273ee81c9538496725b100b3a0d03e2bf4c0e463a2596af2a677071", "0.1.10--pyhdfd78af_0": "sha256:8ea737752246f122ebe8ad92bb62c7aa897a70ede579d72893badb71435829a5"}, "docker": "quay.io/biocontainers/synth-saxs", "aliases": {"synth-saxs": "/usr/local/bin/synth-saxs", "idna": "/usr/local/bin/idna", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/synth-saxs.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/synth-saxs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/synth-saxs:0.1.7--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/synth-saxs:0.1.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/synth-saxs/0.1.7--pyhdfd78af_0
-$ module help quay.io/biocontainers/synth-saxs/0.1.7--pyhdfd78af_0
+$ module load quay.io/biocontainers/synth-saxs/0.1.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/synth-saxs/0.1.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

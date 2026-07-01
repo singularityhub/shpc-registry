@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/focus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/focus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/focus/container.yaml"
-updated_at: "2026-06-30 06:44:33.866252"
-latest: "1.8--pyhdfd78af_0"
+updated_at: "2026-07-01 07:07:02.579223"
+latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/focus"
 aliases:
  - "focus"
@@ -22,8 +22,9 @@ aliases:
  - "pydoc3.10"
 versions:
  - "1.8--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for focus"
-config: {"url": "https://biocontainers.pro/tools/focus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for focus", "latest": {"1.8--pyhdfd78af_0": "sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517"}, "tags": {"1.8--pyhdfd78af_0": "sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517"}, "docker": "quay.io/biocontainers/focus", "aliases": {"focus": "/usr/local/bin/focus", "focus_database_utils": "/usr/local/bin/focus_database_utils", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "jellyfish": "/usr/local/bin/jellyfish", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
+config: {"url": "https://biocontainers.pro/tools/focus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for focus", "latest": {"2.0.0--pyhdfd78af_0": "sha256:5af9e60550f53c2d0721ff3b64bcc038a1df643e5ff8e7bcc8a9df6ed90a1aa3"}, "tags": {"1.8--pyhdfd78af_0": "sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517", "2.0.0--pyhdfd78af_0": "sha256:5af9e60550f53c2d0721ff3b64bcc038a1df643e5ff8e7bcc8a9df6ed90a1aa3"}, "docker": "quay.io/biocontainers/focus", "aliases": {"focus": "/usr/local/bin/focus", "focus_database_utils": "/usr/local/bin/focus_database_utils", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "jellyfish": "/usr/local/bin/jellyfish", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/focus.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/focus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/focus:1.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/focus:2.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/focus/1.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/focus/1.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/focus/2.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/focus/2.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

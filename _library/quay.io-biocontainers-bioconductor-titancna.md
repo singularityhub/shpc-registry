@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-titancna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-titancna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-titancna/container.yaml"
-updated_at: "2026-06-30 06:36:20.752164"
+updated_at: "2026-07-01 06:58:18.383889"
 latest: "1.44.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-titancna"
 

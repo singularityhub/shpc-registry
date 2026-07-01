@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-circrnaprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-circrnaprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-circrnaprofiler/container.yaml"
-updated_at: "2026-06-30 06:19:23.333248"
+updated_at: "2026-07-01 06:41:13.085834"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-circrnaprofiler"
 
