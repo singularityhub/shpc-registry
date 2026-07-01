@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/focus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for focus
 latest:
-  1.8--pyhdfd78af_0: 
-    sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517
+  2.0.0--pyhdfd78af_0: 
+    sha256:5af9e60550f53c2d0721ff3b64bcc038a1df643e5ff8e7bcc8a9df6ed90a1aa3
 tags:
   1.8--pyhdfd78af_0: 
     sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517
+  2.0.0--pyhdfd78af_0: 
+    sha256:5af9e60550f53c2d0721ff3b64bcc038a1df643e5ff8e7bcc8a9df6ed90a1aa3
 docker: quay.io/biocontainers/focus
 aliases:
   focus: /usr/local/bin/focus

@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-www-mechanize
 latest:
-  2.20--pl5321hdfd78af_0: 
-    sha256:c1d035d9e7d589e2c1e3b211e4d8a8bf4348c08d5333a58cb408c223de7ddf4f
+  2.22--pl5321hdfd78af_0: 
+    sha256:81bd791f1a61cf759f1f20d61d0cee7d6916fcab6d7066b083b8518136a7923a
 tags:
   1.91--pl526_1: 
     sha256:170366be51ff338e96cf601e12e3c5fab0737494ff86f2a8a427dc34d4c7a46b
@@ -12,6 +12,10 @@ tags:
     sha256:6447ee682cb386ce5e923321fbe7563a4f39312a39293aba68d41485ae69151c
   2.20--pl5321hdfd78af_0: 
     sha256:c1d035d9e7d589e2c1e3b211e4d8a8bf4348c08d5333a58cb408c223de7ddf4f
+  2.22--pl5321hdfd78af_0: 
+    sha256:81bd791f1a61cf759f1f20d61d0cee7d6916fcab6d7066b083b8518136a7923a
+  2.21--pl5321hdfd78af_0: 
+    sha256:c06a2d368852103af2208a15b90f12d728835e5610e28542d28392960af5628c
 docker: quay.io/biocontainers/perl-www-mechanize
 aliases:
   mech-dump: /usr/local/bin/mech-dump

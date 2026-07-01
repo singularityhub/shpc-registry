@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/schiccorr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for schiccorr
 latest:
-  0.0.3--pyhdfd78af_0: 
-    sha256:87e0c361d54410003a26a4480b9b6898fb123bbc55abafa6179d070573404ff1
+  0.0.4--pyhdfd78af_0: 
+    sha256:1d84faf91bbe028225ba03c75befdc3d934db84c577b8258cccb885f634df610
 tags:
   0.0.3--pyhdfd78af_0: 
     sha256:87e0c361d54410003a26a4480b9b6898fb123bbc55abafa6179d070573404ff1
+  0.0.4--pyhdfd78af_0: 
+    sha256:1d84faf91bbe028225ba03c75befdc3d934db84c577b8258cccb885f634df610
 docker: quay.io/biocontainers/schiccorr
 aliases:
   boostchr.pl: /usr/local/bin/boostchr.pl
