@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/impaqt
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for impaqt
+latest:
+  1.2.0--hd7584cf_0: 
+    sha256:decb47d641d6901420cbdbca1512b37137fe2104fd65abfd914430a3c144cab0
+tags:
+  1.2.0--hd7584cf_0: 
+    sha256:decb47d641d6901420cbdbca1512b37137fe2104fd65abfd914430a3c144cab0
+docker: quay.io/biocontainers/impaqt
+aliases:
+  impaqt: /usr/local/bin/impaqt
+  bamtools: /usr/local/bin/bamtools
