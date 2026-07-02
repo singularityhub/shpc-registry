@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/nucflag
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nucflag
 latest:
-  0.3.8--pyhdfd78af_0: 
-    sha256:642cbbe8cfead6fcc6fb61db64aca573262bd93ada4f774ae2437cbd9abbb5d5
+  1.0.0--pyh106432d_0: 
+    sha256:c012528d6224f140a4ad4f74c8eee81ca19f2190377ab47ebcd37e6b34426a8e
 tags:
   0.3.7--pyhdfd78af_0: 
     sha256:05d1b2e7203687979a9fa8d9d110958c3fdc603619f2162cd2be10d2bd086922
   0.3.8--pyhdfd78af_0: 
     sha256:642cbbe8cfead6fcc6fb61db64aca573262bd93ada4f774ae2437cbd9abbb5d5
+  1.0.0--pyh106432d_0: 
+    sha256:c012528d6224f140a4ad4f74c8eee81ca19f2190377ab47ebcd37e6b34426a8e
 docker: quay.io/biocontainers/nucflag
 aliases:
   nucflag: /usr/local/bin/nucflag

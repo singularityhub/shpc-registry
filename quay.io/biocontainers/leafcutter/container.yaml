@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/leafcutter
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for leafcutter
 latest:
-  2.0.2--pyhd8ed1ab_0: 
-    sha256:ab5cd36700a79b371129563e9b874f6830d7c989b44a650c584e78ba281d58ae
+  2.0.3--pyhd8ed1ab_0: 
+    sha256:6b3e199a42e995b19846e484841e457a2cde10729a8e97b7989ba970a87d708c
 tags:
   2.0.2--pyhd8ed1ab_0: 
     sha256:ab5cd36700a79b371129563e9b874f6830d7c989b44a650c584e78ba281d58ae
+  2.0.3--pyhd8ed1ab_0: 
+    sha256:6b3e199a42e995b19846e484841e457a2cde10729a8e97b7989ba970a87d708c
 docker: quay.io/biocontainers/leafcutter
 aliases:
   leafcutter-bayes: /usr/local/bin/leafcutter-bayes

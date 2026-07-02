@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/hmftools-cuppa
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hmftools-cuppa
 latest:
-  2.4--py311r42hdfd78af_0: 
-    sha256:f77374c022f80372d73031da192457482e6a7e84dcc451b5fd16069a186dae65
+  2.5.1--py311r42hdfd78af_0: 
+    sha256:e5bee4ffe40ae0ef9284f67d26a282ce1315ce1b00d17f8a0adaa3f9f6ce2a45
 tags:
   1.8.1--hdfd78af_0: 
     sha256:9f3fa03556c9999c6470ac71cc25b721eb069bf9445bc1c5cd8fa099058ea4ae
@@ -21,6 +21,8 @@ tags:
     sha256:b1bd4c46eb99f3d28725cc82076142fac48a066618ee44558c6c0e2fc0be5223
   2.4--py311r42hdfd78af_0: 
     sha256:f77374c022f80372d73031da192457482e6a7e84dcc451b5fd16069a186dae65
+  2.5.1--py311r42hdfd78af_0: 
+    sha256:e5bee4ffe40ae0ef9284f67d26a282ce1315ce1b00d17f8a0adaa3f9f6ce2a45
 docker: quay.io/biocontainers/hmftools-cuppa
 aliases:
   cuppa: /usr/local/bin/cuppa
