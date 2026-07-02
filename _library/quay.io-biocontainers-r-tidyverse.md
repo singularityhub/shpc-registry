@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tidyverse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tidyverse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tidyverse/container.yaml"
-updated_at: "2026-07-01 15:54:25.305425"
+updated_at: "2026-07-02 06:50:11.218923"
 latest: "1.2.1"
 container_url: "https://biocontainers.pro/tools/r-tidyverse"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trare/container.yaml"
-updated_at: "2026-07-01 15:58:25.246932"
+updated_at: "2026-07-02 06:54:00.542812"
 latest: "1.5.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trare"
 

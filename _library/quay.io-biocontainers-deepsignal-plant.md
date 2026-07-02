@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepsignal-plant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepsignal-plant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepsignal-plant/container.yaml"
-updated_at: "2026-07-01 15:26:23.082726"
+updated_at: "2026-07-02 06:24:03.411896"
 latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deepsignal-plant"
 aliases:

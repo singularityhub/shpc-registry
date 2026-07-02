@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nucflag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nucflag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nucflag/container.yaml"
-updated_at: "2026-07-01 15:28:46.837524"
-latest: "0.3.8--pyhdfd78af_0"
+updated_at: "2026-07-02 06:26:20.526575"
+latest: "1.0.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/nucflag"
 aliases:
  - "nucflag"
@@ -33,8 +33,9 @@ aliases:
 versions:
  - "0.3.7--pyhdfd78af_0"
  - "0.3.8--pyhdfd78af_0"
+ - "1.0.0--pyh106432d_0"
 description: "singularity registry hpc automated addition for nucflag"
-config: {"url": "https://biocontainers.pro/tools/nucflag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nucflag", "latest": {"0.3.8--pyhdfd78af_0": "sha256:642cbbe8cfead6fcc6fb61db64aca573262bd93ada4f774ae2437cbd9abbb5d5"}, "tags": {"0.3.7--pyhdfd78af_0": "sha256:05d1b2e7203687979a9fa8d9d110958c3fdc603619f2162cd2be10d2bd086922", "0.3.8--pyhdfd78af_0": "sha256:642cbbe8cfead6fcc6fb61db64aca573262bd93ada4f774ae2437cbd9abbb5d5"}, "docker": "quay.io/biocontainers/nucflag", "aliases": {"nucflag": "/usr/local/bin/nucflag", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/nucflag", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nucflag", "latest": {"1.0.0--pyh106432d_0": "sha256:c012528d6224f140a4ad4f74c8eee81ca19f2190377ab47ebcd37e6b34426a8e"}, "tags": {"0.3.7--pyhdfd78af_0": "sha256:05d1b2e7203687979a9fa8d9d110958c3fdc603619f2162cd2be10d2bd086922", "0.3.8--pyhdfd78af_0": "sha256:642cbbe8cfead6fcc6fb61db64aca573262bd93ada4f774ae2437cbd9abbb5d5", "1.0.0--pyh106432d_0": "sha256:c012528d6224f140a4ad4f74c8eee81ca19f2190377ab47ebcd37e6b34426a8e"}, "docker": "quay.io/biocontainers/nucflag", "aliases": {"nucflag": "/usr/local/bin/nucflag", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nucflag.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/nucflag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nucflag:0.3.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/nucflag:1.0.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nucflag/0.3.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/nucflag/0.3.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/nucflag/1.0.0--pyh106432d_0
+$ module help quay.io/biocontainers/nucflag/1.0.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

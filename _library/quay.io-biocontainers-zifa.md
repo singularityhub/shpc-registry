@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zifa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zifa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zifa/container.yaml"
-updated_at: "2026-07-01 15:45:12.236984"
+updated_at: "2026-07-02 06:41:55.500944"
 latest: "0.1.0--py35_0"
 container_url: "https://biocontainers.pro/tools/zifa"
 aliases:

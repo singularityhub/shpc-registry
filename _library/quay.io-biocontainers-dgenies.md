@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dgenies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dgenies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dgenies/container.yaml"
-updated_at: "2026-07-01 15:40:19.947784"
+updated_at: "2026-07-02 06:37:19.342849"
 latest: "1.5.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dgenies"
 aliases:

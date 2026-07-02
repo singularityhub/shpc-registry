@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circmimi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circmimi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circmimi/container.yaml"
-updated_at: "2026-07-01 15:57:18.217682"
+updated_at: "2026-07-02 06:52:58.029225"
 latest: "0.18.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/circmimi"
 aliases:

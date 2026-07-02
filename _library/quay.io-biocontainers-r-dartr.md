@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dartr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dartr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dartr/container.yaml"
-updated_at: "2026-07-01 15:27:29.015674"
+updated_at: "2026-07-02 06:25:07.178423"
 latest: "2.9.9.5--r44heae9e1c_0"
 container_url: "https://biocontainers.pro/tools/r-dartr"
 aliases:

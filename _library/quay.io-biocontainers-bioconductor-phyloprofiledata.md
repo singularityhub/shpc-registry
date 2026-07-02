@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phyloprofiledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phyloprofiledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phyloprofiledata/container.yaml"
-updated_at: "2026-07-01 15:14:09.287713"
+updated_at: "2026-07-02 06:12:24.941351"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phyloprofiledata"
 aliases:

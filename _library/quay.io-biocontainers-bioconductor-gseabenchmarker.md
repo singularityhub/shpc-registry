@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gseabenchmarker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gseabenchmarker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gseabenchmarker/container.yaml"
-updated_at: "2026-07-01 15:33:36.052508"
+updated_at: "2026-07-02 06:30:55.477613"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gseabenchmarker"
 aliases:

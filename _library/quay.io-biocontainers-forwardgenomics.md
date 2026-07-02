@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/forwardgenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/forwardgenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/forwardgenomics/container.yaml"
-updated_at: "2026-07-01 15:30:10.582982"
+updated_at: "2026-07-02 06:27:38.186678"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/forwardgenomics"
 aliases:

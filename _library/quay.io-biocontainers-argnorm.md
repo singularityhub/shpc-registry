@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/argnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/argnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/argnorm/container.yaml"
-updated_at: "2026-07-01 16:00:01.900806"
+updated_at: "2026-07-02 06:55:29.784099"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/argnorm"
 aliases:

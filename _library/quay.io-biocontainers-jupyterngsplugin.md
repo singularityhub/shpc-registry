@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jupyterngsplugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jupyterngsplugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jupyterngsplugin/container.yaml"
-updated_at: "2026-07-01 15:30:34.622049"
+updated_at: "2026-07-02 06:28:00.886640"
 latest: "0.0.13a3--py_0"
 container_url: "https://biocontainers.pro/tools/jupyterngsplugin"
 aliases:

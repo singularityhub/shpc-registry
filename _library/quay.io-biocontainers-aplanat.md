@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aplanat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aplanat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aplanat/container.yaml"
-updated_at: "2026-07-01 15:20:25.623804"
+updated_at: "2026-07-02 06:18:27.553140"
 latest: "0.5.6--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/aplanat"
 aliases:

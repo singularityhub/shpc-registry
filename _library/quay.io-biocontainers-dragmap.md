@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dragmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dragmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dragmap/container.yaml"
-updated_at: "2026-07-01 15:34:09.075922"
+updated_at: "2026-07-02 06:31:26.795150"
 latest: "1.3.0--h5ca1c30_7"
 container_url: "https://biocontainers.pro/tools/dragmap"
 aliases:

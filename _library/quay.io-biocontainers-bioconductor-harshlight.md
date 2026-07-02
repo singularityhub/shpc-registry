@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-harshlight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harshlight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harshlight/container.yaml"
-updated_at: "2026-07-01 15:42:32.357516"
+updated_at: "2026-07-02 06:39:25.644637"
 latest: "1.78.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harshlight"
 
