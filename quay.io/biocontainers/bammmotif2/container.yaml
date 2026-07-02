@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/bammmotif2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bammmotif2
+latest:
+  2.0.0--hc52dbad_0: 
+    sha256:0519541da0dace3d65f6189586b4c93583a1cc5d5d8bc7c6dc84e6a04bd32005
+tags:
+  2.0.0--hc52dbad_0: 
+    sha256:0519541da0dace3d65f6189586b4c93583a1cc5d5d8bc7c6dc84e6a04bd32005
+docker: quay.io/biocontainers/bammmotif2
+aliases:
+  BaMMScan: /usr/local/bin/BaMMScan
+  BaMMSimu: /usr/local/bin/BaMMSimu
+  BaMMmotif: /usr/local/bin/BaMMmotif
+  FDR: /usr/local/bin/FDR
+  evaluateBaMM.R: /usr/local/bin/evaluateBaMM.R
+  plotBaMMLogo.R: /usr/local/bin/plotBaMMLogo.R
+  plotMotifDistribution.R: /usr/local/bin/plotMotifDistribution.R

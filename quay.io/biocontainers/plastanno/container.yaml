@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/plastanno
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for plastanno
+latest:
+  2.0.2--pyhdfd78af_0: 
+    sha256:3e31d5598f31a8e5e68143faa25483fa5f0805e1d59fe10ef632fbb152d16662
+tags:
+  2.0.2--pyhdfd78af_0: 
+    sha256:3e31d5598f31a8e5e68143faa25483fa5f0805e1d59fe10ef632fbb152d16662
+docker: quay.io/biocontainers/plastanno
+aliases:
+  MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
+  plastanno: /usr/local/bin/plastanno
+  psl: /usr/local/bin/psl
+  psl-make-dafsa: /usr/local/bin/psl-make-dafsa
+  esd2esi: /usr/local/bin/esd2esi
+  exonerate-server: /usr/local/bin/exonerate-server
+  fasta2esd: /usr/local/bin/fasta2esd
+  fastaannotatecdna: /usr/local/bin/fastaannotatecdna
+  fastachecksum: /usr/local/bin/fastachecksum
+  fastaclip: /usr/local/bin/fastaclip
+  fastacomposition: /usr/local/bin/fastacomposition
+  fastadiff: /usr/local/bin/fastadiff
+  fastaexplode: /usr/local/bin/fastaexplode
+  fastafetch: /usr/local/bin/fastafetch
+  fastahardmask: /usr/local/bin/fastahardmask
+  fastaindex: /usr/local/bin/fastaindex
+  fastalength: /usr/local/bin/fastalength
+  fastanrdb: /usr/local/bin/fastanrdb
+  fastaoverlap: /usr/local/bin/fastaoverlap
+  fastareformat: /usr/local/bin/fastareformat
+  fastaremove: /usr/local/bin/fastaremove
+  fastarevcomp: /usr/local/bin/fastarevcomp
+  fastasoftmask: /usr/local/bin/fastasoftmask
+  fastasubseq: /usr/local/bin/fastasubseq
+  fastatranslate: /usr/local/bin/fastatranslate
+  fastavalidcds: /usr/local/bin/fastavalidcds
+  ipcress: /usr/local/bin/ipcress
+  exonerate: /usr/local/bin/exonerate
+  fastaclean: /usr/local/bin/fastaclean
