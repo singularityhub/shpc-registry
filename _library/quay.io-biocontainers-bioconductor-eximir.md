@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eximir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eximir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eximir/container.yaml"
-updated_at: "2026-07-02 06:31:47.062108"
+updated_at: "2026-07-03 06:28:41.074590"
 latest: "2.52.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eximir"
 

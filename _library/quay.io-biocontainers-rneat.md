@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/rneat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rneat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rneat/container.yaml"
-updated_at: "2026-07-02 06:55:43.711006"
-latest: "1.17.4--hfa8f182_0"
+updated_at: "2026-07-03 06:55:22.606570"
+latest: "1.19.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/rneat"
 aliases:
  - "rneat"
 versions:
  - "1.17.4--hfa8f182_0"
+ - "1.19.0--hfa8f182_0"
+ - "1.18.0--hfa8f182_0"
 description: "singularity registry hpc automated addition for rneat"
-config: {"url": "https://biocontainers.pro/tools/rneat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rneat", "latest": {"1.17.4--hfa8f182_0": "sha256:1585d17ea6495c07fc78c22cb75bf207773de0f8a61476706c52c55145c63965"}, "tags": {"1.17.4--hfa8f182_0": "sha256:1585d17ea6495c07fc78c22cb75bf207773de0f8a61476706c52c55145c63965"}, "docker": "quay.io/biocontainers/rneat", "aliases": {"rneat": "/usr/local/bin/rneat"}}
+config: {"url": "https://biocontainers.pro/tools/rneat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rneat", "latest": {"1.19.0--hfa8f182_0": "sha256:06eb3cf8f10dcdab4a826ec78a7a35d1e95feb7a45830a683fb7f5e2fc8d2abe"}, "tags": {"1.17.4--hfa8f182_0": "sha256:1585d17ea6495c07fc78c22cb75bf207773de0f8a61476706c52c55145c63965", "1.19.0--hfa8f182_0": "sha256:06eb3cf8f10dcdab4a826ec78a7a35d1e95feb7a45830a683fb7f5e2fc8d2abe", "1.18.0--hfa8f182_0": "sha256:95659334533137c21aaa5afc26b1e871ed7e24152ba2f65d78b16291ff1df3a3"}, "docker": "quay.io/biocontainers/rneat", "aliases": {"rneat": "/usr/local/bin/rneat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rneat.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/rneat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rneat:1.17.4--hfa8f182_0
+$ shpc install quay.io/biocontainers/rneat:1.19.0--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rneat/1.17.4--hfa8f182_0
-$ module help quay.io/biocontainers/rneat/1.17.4--hfa8f182_0
+$ module load quay.io/biocontainers/rneat/1.19.0--hfa8f182_0
+$ module help quay.io/biocontainers/rneat/1.19.0--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
