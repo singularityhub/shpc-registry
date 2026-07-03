@@ -4,8 +4,8 @@ maintainer: '@vsoch'
 description: The RAPIDS suite of software libraries gives you the freedom to 
   execute end-to-end data science and analytics pipelines entirely on GPUs.
 latest:
-  23.06-cuda11.8-runtime-ubuntu22.04-py3.10: 
-    sha256:a6fe9eca90aa6b71c840f91454c58f05d7ef4c24500da8493b62e96b42e5b3ee
+  sha256-22118180987717b31ac60e75c35c98e3f76786f61212d28e87c4901eb0a79586.sig: 
+    sha256:434aaa7a935e9c94be028f286d05cb15c3e548c33ec60613c8db6dc8e0e8946b
 tags:
   0.18-cuda11.0-runtime-centos7: 
     sha256:9491e49936e10fc6e7c5b90a1d8141bab74e5879e1681146f0d2cf9aa6a9d24a
@@ -35,6 +35,16 @@ tags:
     sha256:a6aa67b19a65e0d1f35a18558ecb05efbe28d04afa92cc9b5e17c56cdc479e8c
   23.06-cuda11.8-runtime-ubuntu22.04-py3.10: 
     sha256:a6fe9eca90aa6b71c840f91454c58f05d7ef4c24500da8493b62e96b42e5b3ee
+  sha256-22118180987717b31ac60e75c35c98e3f76786f61212d28e87c4901eb0a79586.sig: 
+    sha256:434aaa7a935e9c94be028f286d05cb15c3e548c33ec60613c8db6dc8e0e8946b
+  sha256-a1032685601299e62e8551d209fb2f8d214d1ad4ad9203fbede958c6a90376bd.sig: 
+    sha256:4e0b92e330e50f5ef08db8b47f19f931ec3f1ba157ce80c3b911f53fe46cf910
+  sha256-f384583171832a71238164b933c0df7106adf3a8d6099eb2723b247b8ee79b1c.sig: 
+    sha256:2e036213504683f9511270de5a5ad7f983212ce2dfd7bf86400f129aa9a788fd
+  sha256-ce85612263518d52f4828e40a7c6af684e0e0172f8db5425b87a768add303777.sig: 
+    sha256:1e727b62220e9ce1d608af172dbfecfdc88907ee39cb1d05efc17afd6f53c9dc
+  sha256-7748339732b1246ee721a405fa3ea00424c4bdc25e4413ddeaff32b32fbf6e0c.sig: 
+    sha256:44bc172acb45e2d4ed6104cb5314770e1c65d0f78afc94a9157af99a48bd2bc6
 filter:
 - ^((?!base).)*$
 aliases:
