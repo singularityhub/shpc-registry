@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/flavotyper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for flavotyper
 latest:
-  0.4.0--pyhdfd78af_0: 
-    sha256:81e973ff7a90fa7e3cb1d182435b17e0c65718618154a9df8ac74c35d3d8710a
+  0.5.1--pyhdfd78af_0: 
+    sha256:b5485e800acc07ea4cb29eec2116f3488e8ac9ec3df5b45fb13c36377ee60c9f
 tags:
   0.4.0--pyhdfd78af_0: 
     sha256:81e973ff7a90fa7e3cb1d182435b17e0c65718618154a9df8ac74c35d3d8710a
+  0.5.1--pyhdfd78af_0: 
+    sha256:b5485e800acc07ea4cb29eec2116f3488e8ac9ec3df5b45fb13c36377ee60c9f
 docker: quay.io/biocontainers/flavotyper
 aliases:
   flavotyper: /usr/local/bin/flavotyper

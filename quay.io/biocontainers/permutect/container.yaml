@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/permutect
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for permutect
 latest:
-  0.8.0--pyhdfd78af_0: 
-    sha256:fc69441df9f5681319f7f9bd9676e55879e97992bca06fcc96e7a7ff49ed06a9
+  0.9.1--pyhdfd78af_0: 
+    sha256:68c53a920c7fc834bfd97ad36ed15354434fe8e2e96ff2c879510a8ccb0a5f26
 tags:
   0.8.0--pyhdfd78af_0: 
     sha256:fc69441df9f5681319f7f9bd9676e55879e97992bca06fcc96e7a7ff49ed06a9
+  0.9.1--pyhdfd78af_0: 
+    sha256:68c53a920c7fc834bfd97ad36ed15354434fe8e2e96ff2c879510a8ccb0a5f26
 docker: quay.io/biocontainers/permutect
 aliases:
   c++: /usr/local/bin/c++

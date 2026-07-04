@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/openspliceai
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for openspliceai
 latest:
-  0.0.6--pyhdfd78af_0: 
-    sha256:b5e336904c25c7c082caee23236a51f7b8f3321612ca708d0deef75d8f81beef
+  0.0.7--pyhdfd78af_0: 
+    sha256:d8591134bb34994ce78b0ddcfa725d2876c800af5eb82b0a399048e5c085e1cd
 tags:
   0.0.6--pyhdfd78af_0: 
     sha256:b5e336904c25c7c082caee23236a51f7b8f3321612ca708d0deef75d8f81beef
+  0.0.7--pyhdfd78af_0: 
+    sha256:d8591134bb34994ce78b0ddcfa725d2876c800af5eb82b0a399048e5c085e1cd
 docker: quay.io/biocontainers/openspliceai
 aliases:
   openspliceai: /usr/local/bin/openspliceai
