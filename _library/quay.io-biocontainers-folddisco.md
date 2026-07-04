@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/folddisco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/folddisco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/folddisco/container.yaml"
-updated_at: "2026-07-03 06:44:41.308847"
-latest: "1.7514114--ha6fb395_1"
+updated_at: "2026-07-04 06:33:25.668577"
+latest: "2.9375a2d--hb42e459_0"
 container_url: "https://biocontainers.pro/tools/folddisco"
 aliases:
  - "folddisco"
 versions:
  - "1.7514114--ha6fb395_1"
+ - "2.9375a2d--hb42e459_0"
 description: "singularity registry hpc automated addition for folddisco"
-config: {"url": "https://biocontainers.pro/tools/folddisco", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for folddisco", "latest": {"1.7514114--ha6fb395_1": "sha256:aea72513f1a7f41352951cd05237f1edff72a48676780ab3e83b17e1bb5e87f5"}, "tags": {"1.7514114--ha6fb395_1": "sha256:aea72513f1a7f41352951cd05237f1edff72a48676780ab3e83b17e1bb5e87f5"}, "docker": "quay.io/biocontainers/folddisco", "aliases": {"folddisco": "/usr/local/bin/folddisco"}}
+config: {"url": "https://biocontainers.pro/tools/folddisco", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for folddisco", "latest": {"2.9375a2d--hb42e459_0": "sha256:87ee04bce83fa27ec15a17536516cee4550ec774bc834e0a5d6e347d2201cbd9"}, "tags": {"1.7514114--ha6fb395_1": "sha256:aea72513f1a7f41352951cd05237f1edff72a48676780ab3e83b17e1bb5e87f5", "2.9375a2d--hb42e459_0": "sha256:87ee04bce83fa27ec15a17536516cee4550ec774bc834e0a5d6e347d2201cbd9"}, "docker": "quay.io/biocontainers/folddisco", "aliases": {"folddisco": "/usr/local/bin/folddisco"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/folddisco.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/folddisco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/folddisco:1.7514114--ha6fb395_1
+$ shpc install quay.io/biocontainers/folddisco:2.9375a2d--hb42e459_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/folddisco/1.7514114--ha6fb395_1
-$ module help quay.io/biocontainers/folddisco/1.7514114--ha6fb395_1
+$ module load quay.io/biocontainers/folddisco/2.9375a2d--hb42e459_0
+$ module help quay.io/biocontainers/folddisco/2.9375a2d--hb42e459_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

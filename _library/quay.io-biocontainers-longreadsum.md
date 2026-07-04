@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longreadsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longreadsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longreadsum/container.yaml"
-updated_at: "2026-07-03 06:22:26.089716"
+updated_at: "2026-07-04 06:12:49.402085"
 latest: "1.3.1--py310h65e1ce4_3"
 container_url: "https://biocontainers.pro/tools/longreadsum"
 aliases:

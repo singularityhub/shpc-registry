@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-centreprecomputed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-centreprecomputed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-centreprecomputed/container.yaml"
-updated_at: "2026-07-03 06:18:30.763232"
+updated_at: "2026-07-04 06:09:10.814509"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-centreprecomputed"
 aliases:

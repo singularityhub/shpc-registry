@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/openspliceai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openspliceai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openspliceai/container.yaml"
-updated_at: "2026-07-03 06:44:12.960146"
-latest: "0.0.6--pyhdfd78af_0"
+updated_at: "2026-07-04 06:33:01.371310"
+latest: "0.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/openspliceai"
 aliases:
  - "openspliceai"
@@ -36,8 +36,9 @@ aliases:
  - "rbox"
 versions:
  - "0.0.6--pyhdfd78af_0"
+ - "0.0.7--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for openspliceai"
-config: {"url": "https://biocontainers.pro/tools/openspliceai", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for openspliceai", "latest": {"0.0.6--pyhdfd78af_0": "sha256:b5e336904c25c7c082caee23236a51f7b8f3321612ca708d0deef75d8f81beef"}, "tags": {"0.0.6--pyhdfd78af_0": "sha256:b5e336904c25c7c082caee23236a51f7b8f3321612ca708d0deef75d8f81beef"}, "docker": "quay.io/biocontainers/openspliceai", "aliases": {"openspliceai": "/usr/local/bin/openspliceai", "fc-genconf": "/usr/local/bin/fc-genconf", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "minimap2.py": "/usr/local/bin/minimap2.py", "gffutils-cli": "/usr/local/bin/gffutils-cli", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "h2benchmark": "/usr/local/bin/h2benchmark", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "checksum-profile": "/usr/local/bin/checksum-profile", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "elasticurl": "/usr/local/bin/elasticurl", "h5delete": "/usr/local/bin/h5delete", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox"}}
+config: {"url": "https://biocontainers.pro/tools/openspliceai", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for openspliceai", "latest": {"0.0.7--pyhdfd78af_0": "sha256:d8591134bb34994ce78b0ddcfa725d2876c800af5eb82b0a399048e5c085e1cd"}, "tags": {"0.0.6--pyhdfd78af_0": "sha256:b5e336904c25c7c082caee23236a51f7b8f3321612ca708d0deef75d8f81beef", "0.0.7--pyhdfd78af_0": "sha256:d8591134bb34994ce78b0ddcfa725d2876c800af5eb82b0a399048e5c085e1cd"}, "docker": "quay.io/biocontainers/openspliceai", "aliases": {"openspliceai": "/usr/local/bin/openspliceai", "fc-genconf": "/usr/local/bin/fc-genconf", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "minimap2.py": "/usr/local/bin/minimap2.py", "gffutils-cli": "/usr/local/bin/gffutils-cli", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "h2benchmark": "/usr/local/bin/h2benchmark", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "checksum-profile": "/usr/local/bin/checksum-profile", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "elasticurl": "/usr/local/bin/elasticurl", "h5delete": "/usr/local/bin/h5delete", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openspliceai.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/openspliceai
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/openspliceai:0.0.6--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/openspliceai:0.0.7--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/openspliceai/0.0.6--pyhdfd78af_0
-$ module help quay.io/biocontainers/openspliceai/0.0.6--pyhdfd78af_0
+$ module load quay.io/biocontainers/openspliceai/0.0.7--pyhdfd78af_0
+$ module help quay.io/biocontainers/openspliceai/0.0.7--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

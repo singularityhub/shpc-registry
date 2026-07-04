@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/dupblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dupblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dupblaster/container.yaml"
-updated_at: "2026-07-03 05:57:24.140791"
-latest: "0.1.0--hfa8f182_0"
+updated_at: "2026-07-04 05:49:36.747866"
+latest: "0.1.1--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/dupblaster"
 aliases:
  - "dupblaster"
 versions:
  - "0.1.0--hfa8f182_0"
+ - "0.1.1--hfa8f182_0"
 description: "singularity registry hpc automated addition for dupblaster"
-config: {"url": "https://biocontainers.pro/tools/dupblaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dupblaster", "latest": {"0.1.0--hfa8f182_0": "sha256:01aa68f182e161ce1f1db3c46c1f73f3d816eea7c3379f8c245ae09d8e877088"}, "tags": {"0.1.0--hfa8f182_0": "sha256:01aa68f182e161ce1f1db3c46c1f73f3d816eea7c3379f8c245ae09d8e877088"}, "docker": "quay.io/biocontainers/dupblaster", "aliases": {"dupblaster": "/usr/local/bin/dupblaster"}}
+config: {"url": "https://biocontainers.pro/tools/dupblaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dupblaster", "latest": {"0.1.1--hfa8f182_0": "sha256:d873eeaf493e62d76a3f7f8d43d99a5c57fe4015c10e541e06f04f0c297d6bbf"}, "tags": {"0.1.0--hfa8f182_0": "sha256:01aa68f182e161ce1f1db3c46c1f73f3d816eea7c3379f8c245ae09d8e877088", "0.1.1--hfa8f182_0": "sha256:d873eeaf493e62d76a3f7f8d43d99a5c57fe4015c10e541e06f04f0c297d6bbf"}, "docker": "quay.io/biocontainers/dupblaster", "aliases": {"dupblaster": "/usr/local/bin/dupblaster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dupblaster.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/dupblaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dupblaster:0.1.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/dupblaster:0.1.1--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dupblaster/0.1.0--hfa8f182_0
-$ module help quay.io/biocontainers/dupblaster/0.1.0--hfa8f182_0
+$ module load quay.io/biocontainers/dupblaster/0.1.1--hfa8f182_0
+$ module help quay.io/biocontainers/dupblaster/0.1.1--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trimmomatic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimmomatic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimmomatic/container.yaml"
-updated_at: "2026-07-03 06:44:50.985746"
-latest: "0.40--hdfd78af_0"
+updated_at: "2026-07-04 06:33:34.006605"
+latest: "0.41--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trimmomatic"
 aliases:
  - "trimmomatic"
@@ -22,8 +22,9 @@ aliases:
 versions:
  - "0.39--hdfd78af_2"
  - "0.40--hdfd78af_0"
+ - "0.41--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for trimmomatic"
-config: {"url": "https://biocontainers.pro/tools/trimmomatic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trimmomatic", "latest": {"0.40--hdfd78af_0": "sha256:3264d96f3aa0d095d6792b92180357cb74a15c6d93445baa1677386c1dae659f"}, "tags": {"0.39--hdfd78af_2": "sha256:b52e7e3159fda36b7b5c119a9a1e673e6a63e480eff8617b689c031f76998870", "0.40--hdfd78af_0": "sha256:3264d96f3aa0d095d6792b92180357cb74a15c6d93445baa1677386c1dae659f"}, "docker": "quay.io/biocontainers/trimmomatic", "aliases": {"trimmomatic": "/usr/local/bin/trimmomatic", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/trimmomatic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trimmomatic", "latest": {"0.41--hdfd78af_0": "sha256:2afd8a3c0bb068b6deb65597001d4d1b523a790c20a00dd026a5344c05bc7944"}, "tags": {"0.39--hdfd78af_2": "sha256:b52e7e3159fda36b7b5c119a9a1e673e6a63e480eff8617b689c031f76998870", "0.40--hdfd78af_0": "sha256:3264d96f3aa0d095d6792b92180357cb74a15c6d93445baa1677386c1dae659f", "0.41--hdfd78af_0": "sha256:2afd8a3c0bb068b6deb65597001d4d1b523a790c20a00dd026a5344c05bc7944"}, "docker": "quay.io/biocontainers/trimmomatic", "aliases": {"trimmomatic": "/usr/local/bin/trimmomatic", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trimmomatic.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/trimmomatic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trimmomatic:0.40--hdfd78af_0
+$ shpc install quay.io/biocontainers/trimmomatic:0.41--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trimmomatic/0.40--hdfd78af_0
-$ module help quay.io/biocontainers/trimmomatic/0.40--hdfd78af_0
+$ module load quay.io/biocontainers/trimmomatic/0.41--hdfd78af_0
+$ module help quay.io/biocontainers/trimmomatic/0.41--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

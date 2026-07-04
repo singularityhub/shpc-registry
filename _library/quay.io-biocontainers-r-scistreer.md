@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scistreer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scistreer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scistreer/container.yaml"
-updated_at: "2026-07-03 06:18:17.626894"
+updated_at: "2026-07-04 06:08:58.731740"
 latest: "1.2.1--r44h40dc89f_0"
 container_url: "https://biocontainers.pro/tools/r-scistreer"
 aliases:

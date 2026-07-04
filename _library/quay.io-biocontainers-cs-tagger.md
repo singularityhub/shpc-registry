@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cs-tagger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cs-tagger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cs-tagger/container.yaml"
-updated_at: "2026-07-03 05:58:49.751149"
+updated_at: "2026-07-04 05:50:59.104877"
 latest: "0.3.0--h0feb368_0"
 container_url: "https://biocontainers.pro/tools/cs-tagger"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bubblotter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bubblotter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bubblotter/container.yaml"
-updated_at: "2026-07-03 06:10:22.372421"
+updated_at: "2026-07-04 06:01:49.599224"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bubblotter"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/flavotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flavotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flavotyper/container.yaml"
-updated_at: "2026-07-03 06:22:03.861807"
-latest: "0.4.0--pyhdfd78af_0"
+updated_at: "2026-07-04 06:12:29.132638"
+latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flavotyper"
 aliases:
  - "flavotyper"
@@ -36,8 +36,9 @@ aliases:
  - "systematic-mutations"
 versions:
  - "0.4.0--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for flavotyper"
-config: {"url": "https://biocontainers.pro/tools/flavotyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flavotyper", "latest": {"0.4.0--pyhdfd78af_0": "sha256:81e973ff7a90fa7e3cb1d182435b17e0c65718618154a9df8ac74c35d3d8710a"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:81e973ff7a90fa7e3cb1d182435b17e0c65718618154a9df8ac74c35d3d8710a"}, "docker": "quay.io/biocontainers/flavotyper", "aliases": {"flavotyper": "/usr/local/bin/flavotyper", "fastANI": "/usr/local/bin/fastANI", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations"}}
+config: {"url": "https://biocontainers.pro/tools/flavotyper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for flavotyper", "latest": {"0.5.1--pyhdfd78af_0": "sha256:b5485e800acc07ea4cb29eec2116f3488e8ac9ec3df5b45fb13c36377ee60c9f"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:81e973ff7a90fa7e3cb1d182435b17e0c65718618154a9df8ac74c35d3d8710a", "0.5.1--pyhdfd78af_0": "sha256:b5485e800acc07ea4cb29eec2116f3488e8ac9ec3df5b45fb13c36377ee60c9f"}, "docker": "quay.io/biocontainers/flavotyper", "aliases": {"flavotyper": "/usr/local/bin/flavotyper", "fastANI": "/usr/local/bin/fastANI", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flavotyper.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/flavotyper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/flavotyper:0.4.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/flavotyper:0.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/flavotyper/0.4.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/flavotyper/0.4.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/flavotyper/0.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/flavotyper/0.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
