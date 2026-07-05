@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biomartgogenesets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biomartgogenesets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biomartgogenesets/container.yaml"
-updated_at: "2026-07-04 05:53:04.500375"
+updated_at: "2026-07-05 06:11:17.520449"
 latest: "0.99.11--r45hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-biomartgogenesets"
 aliases:

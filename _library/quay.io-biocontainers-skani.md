@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skani/container.yaml"
-updated_at: "2026-07-04 06:00:04.145106"
+updated_at: "2026-07-05 06:17:48.030497"
 latest: "0.3.2--h79ce301_0"
 container_url: "https://biocontainers.pro/tools/skani"
 aliases:

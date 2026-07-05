@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/holodeck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/holodeck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/holodeck/container.yaml"
-updated_at: "2026-07-04 05:57:56.417300"
+updated_at: "2026-07-05 06:15:47.186485"
 latest: "0.2.1--hd612981_0"
 container_url: "https://biocontainers.pro/tools/holodeck"
 aliases:

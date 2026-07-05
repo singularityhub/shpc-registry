@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-metap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-metap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-metap/container.yaml"
-updated_at: "2026-07-04 06:15:40.130317"
+updated_at: "2026-07-05 06:32:28.212617"
 latest: "1.4--r43h3121a25_3"
 container_url: "https://biocontainers.pro/tools/r-metap"
 aliases:

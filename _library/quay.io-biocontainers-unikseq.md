@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unikseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unikseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unikseq/container.yaml"
-updated_at: "2026-07-04 06:36:29.688062"
+updated_at: "2026-07-05 06:51:27.263975"
 latest: "2.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/unikseq"
 aliases:

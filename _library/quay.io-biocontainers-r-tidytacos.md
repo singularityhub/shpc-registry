@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tidytacos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tidytacos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tidytacos/container.yaml"
-updated_at: "2026-07-04 06:10:10.527986"
+updated_at: "2026-07-05 06:27:11.326564"
 latest: "1.0.9--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-tidytacos"
 aliases:
