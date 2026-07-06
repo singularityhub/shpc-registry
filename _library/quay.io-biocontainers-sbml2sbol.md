@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sbml2sbol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sbml2sbol/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sbml2sbol/container.yaml"
-updated_at: "2026-07-05 06:09:54.945999"
+updated_at: "2026-07-06 06:41:40.574202"
 latest: "0.1.13"
 container_url: "https://biocontainers.pro/tools/sbml2sbol"
 aliases:

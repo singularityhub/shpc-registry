@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-infinityflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-infinityflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-infinityflow/container.yaml"
-updated_at: "2026-07-05 06:29:48.421532"
+updated_at: "2026-07-06 07:02:50.799133"
 latest: "1.20.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-infinityflow"
 aliases:

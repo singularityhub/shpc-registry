@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mquad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mquad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mquad/container.yaml"
-updated_at: "2026-07-05 06:47:53.392788"
+updated_at: "2026-07-06 07:22:04.054684"
 latest: "0.1.8b--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mquad"
 aliases:

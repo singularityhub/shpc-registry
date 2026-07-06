@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-qsee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-qsee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-qsee/container.yaml"
-updated_at: "2026-07-05 06:52:01.314121"
+updated_at: "2026-07-06 07:26:26.573714"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-qsee"
 aliases:

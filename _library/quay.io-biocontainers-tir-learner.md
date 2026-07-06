@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tir-learner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tir-learner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tir-learner/container.yaml"
-updated_at: "2026-07-05 06:57:02.646301"
+updated_at: "2026-07-06 07:31:46.078516"
 latest: "4.08--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tir-learner"
 aliases:

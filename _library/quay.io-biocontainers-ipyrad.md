@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ipyrad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ipyrad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ipyrad/container.yaml"
-updated_at: "2026-07-05 06:49:07.549922"
+updated_at: "2026-07-06 07:23:22.687990"
 latest: "0.9.108--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ipyrad"
 aliases:

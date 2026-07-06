@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strudel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strudel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strudel/container.yaml"
-updated_at: "2026-07-05 06:27:24.245777"
+updated_at: "2026-07-06 07:00:19.580788"
 latest: "1.15.08.25--1"
 container_url: "https://biocontainers.pro/tools/strudel"
 aliases:

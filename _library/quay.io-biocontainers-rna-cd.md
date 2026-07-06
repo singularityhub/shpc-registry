@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rna-cd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rna-cd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rna-cd/container.yaml"
-updated_at: "2026-07-05 06:51:24.642345"
+updated_at: "2026-07-06 07:25:47.757434"
 latest: "0.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/rna-cd"
 aliases:

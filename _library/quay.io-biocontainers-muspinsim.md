@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/muspinsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/muspinsim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/muspinsim/container.yaml"
-updated_at: "2026-07-05 06:21:35.224713"
+updated_at: "2026-07-06 06:54:08.161185"
 latest: "2.3.0"
 container_url: "https://biocontainers.pro/tools/muspinsim"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ceas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ceas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ceas/container.yaml"
-updated_at: "2026-07-05 06:12:29.194981"
+updated_at: "2026-07-06 06:44:25.118845"
 latest: "1.0.2--py_2"
 container_url: "https://biocontainers.pro/tools/ceas"
 aliases:

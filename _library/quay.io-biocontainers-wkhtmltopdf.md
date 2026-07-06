@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wkhtmltopdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wkhtmltopdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wkhtmltopdf/container.yaml"
-updated_at: "2026-07-05 06:37:09.870024"
+updated_at: "2026-07-06 07:10:39.062692"
 latest: "0.12.3--0"
 container_url: "https://biocontainers.pro/tools/wkhtmltopdf"
 aliases:
