@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/remeta
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for remeta
+latest:
+  0.11.2--h0f83179_0: 
+    sha256:1e878b6d211a21c4c143da7b3260c24005daf2ea911c2ad1213ad7411e2aaf24
+tags:
+  0.11.2--h0f83179_0: 
+    sha256:1e878b6d211a21c4c143da7b3260c24005daf2ea911c2ad1213ad7411e2aaf24
+docker: quay.io/biocontainers/remeta
+aliases:
+  psl: /usr/local/bin/psl
+  psl-make-dafsa: /usr/local/bin/psl-make-dafsa
+  remeta: /usr/local/bin/remeta
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/look4ltrs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for look4ltrs
+latest:
+  1.0.0--h3be2455_0: 
+    sha256:59e8b71aedbb3bb68d7e53f7031cd1207a9b1455dea4337f1198b77b96159376
+tags:
+  1.0.0--h3be2455_0: 
+    sha256:59e8b71aedbb3bb68d7e53f7031cd1207a9b1455dea4337f1198b77b96159376
+docker: quay.io/biocontainers/look4ltrs
+aliases:
+  look4ltrs: /usr/local/bin/look4ltrs
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
