@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/gxfkit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gxfkit
+latest:
+  0.0.1--hfa8f182_0: 
+    sha256:042441c7909b53a43194060e49d374a572bd243ebeb677ac8a8deee2394868d2
+tags:
+  0.0.1--hfa8f182_0: 
+    sha256:042441c7909b53a43194060e49d374a572bd243ebeb677ac8a8deee2394868d2
+docker: quay.io/biocontainers/gxfkit
+aliases:
+  gxfkit: /usr/local/bin/gxfkit
