@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lirtmats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lirtmats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lirtmats/container.yaml"
-updated_at: "2026-07-06 07:26:31.531883"
+updated_at: "2026-07-07 06:58:54.936683"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lirtmats"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ssw-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssw-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ssw-py/container.yaml"
-updated_at: "2026-07-06 07:30:11.605044"
+updated_at: "2026-07-07 07:02:34.005693"
 latest: "1.0.1--py310h7c10099_0"
 container_url: "https://biocontainers.pro/tools/ssw-py"
 aliases:

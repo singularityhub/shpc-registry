@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-shinybiocloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-shinybiocloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-shinybiocloader/container.yaml"
-updated_at: "2026-07-06 07:31:18.147514"
+updated_at: "2026-07-07 07:03:40.414650"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-shinybiocloader"
 aliases:

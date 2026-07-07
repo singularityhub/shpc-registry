@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellitac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellitac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellitac/container.yaml"
-updated_at: "2026-07-06 07:12:29.481019"
+updated_at: "2026-07-07 06:44:59.324391"
 latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cellitac"
 aliases:
