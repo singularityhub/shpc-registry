@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/easy45
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for easy45
+latest:
+  0.1.0--pyh106432d_0: 
+    sha256:0f3fc895bbd4316d9c760099be0b7fe7d8fbfbe5b69a5d110adb976d931d94df
+tags:
+  0.1.0--pyh106432d_0: 
+    sha256:0f3fc895bbd4316d9c760099be0b7fe7d8fbfbe5b69a5d110adb976d931d94df
+docker: quay.io/biocontainers/easy45
+aliases:
+  ITSx: /usr/local/bin/ITSx
+  abpoa: /usr/local/bin/abpoa
+  easy45: /usr/local/bin/easy45
+  barrnap: /usr/local/bin/barrnap
+  vsearch: /usr/local/bin/vsearch
+  seqkit: /usr/local/bin/seqkit
+  cmalign: /usr/local/bin/cmalign
+  cmbuild: /usr/local/bin/cmbuild
+  cmcalibrate: /usr/local/bin/cmcalibrate
+  cmconvert: /usr/local/bin/cmconvert
+  cmemit: /usr/local/bin/cmemit
+  cmfetch: /usr/local/bin/cmfetch
+  cmpress: /usr/local/bin/cmpress
+  cmscan: /usr/local/bin/cmscan
+  cmsearch: /usr/local/bin/cmsearch
+  cmstat: /usr/local/bin/cmstat
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
