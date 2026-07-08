@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/solote"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/solote/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/solote/container.yaml"
-updated_at: "2026-07-07 06:33:18.194387"
+updated_at: "2026-07-08 05:45:41.887388"
 latest: "1.09--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/solote"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-makemaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-makemaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-makemaker/container.yaml"
-updated_at: "2026-07-07 06:58:59.073126"
+updated_at: "2026-07-08 06:11:19.589858"
 latest: "7.36--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-extutils-makemaker"
 aliases:

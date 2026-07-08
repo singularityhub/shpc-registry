@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/codon-bias"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codon-bias/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codon-bias/container.yaml"
-updated_at: "2026-07-07 06:15:41.460145"
+updated_at: "2026-07-08 05:28:07.100670"
 latest: "0.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/codon-bias"
 aliases:

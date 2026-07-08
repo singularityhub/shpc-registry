@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-extractadaptersfastqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-extractadaptersfastqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-extractadaptersfastqc/container.yaml"
-updated_at: "2026-07-07 06:15:45.021535"
+updated_at: "2026-07-08 05:28:10.666517"
 latest: "0.2--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/biopet-extractadaptersfastqc"
 aliases:

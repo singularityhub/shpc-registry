@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-miatime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-miatime/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-miatime/container.yaml"
-updated_at: "2026-07-07 06:49:24.056353"
+updated_at: "2026-07-08 06:01:46.525476"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-miatime"
 aliases:

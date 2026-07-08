@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metdatamodel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metdatamodel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metdatamodel/container.yaml"
-updated_at: "2026-07-07 06:37:00.803616"
+updated_at: "2026-07-08 05:49:23.488763"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metdatamodel"
 aliases:

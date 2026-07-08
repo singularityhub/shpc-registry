@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-htsget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-htsget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-htsget/container.yaml"
-updated_at: "2026-07-07 06:13:33.492914"
+updated_at: "2026-07-08 05:25:59.953479"
 latest: "0.2.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/python-htsget"
 aliases:

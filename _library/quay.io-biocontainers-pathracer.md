@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathracer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathracer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathracer/container.yaml"
-updated_at: "2026-07-07 06:46:16.831261"
+updated_at: "2026-07-08 05:58:39.738010"
 latest: "3.16.0.dev--h95f258a_0"
 container_url: "https://biocontainers.pro/tools/pathracer"
 aliases:

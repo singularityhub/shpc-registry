@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcfanno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfanno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfanno/container.yaml"
-updated_at: "2026-07-07 06:48:00.211991"
+updated_at: "2026-07-08 06:00:22.868748"
 latest: "0.3.9--h1079eea_0"
 container_url: "https://biocontainers.pro/tools/vcfanno"
 aliases:

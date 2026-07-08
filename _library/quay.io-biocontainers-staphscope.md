@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staphscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphscope/container.yaml"
-updated_at: "2026-07-07 06:52:07.958396"
+updated_at: "2026-07-08 06:04:30.163440"
 latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphscope"
 aliases:

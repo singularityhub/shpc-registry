@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnanorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnanorm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnanorm/container.yaml"
-updated_at: "2026-07-07 06:40:00.930635"
+updated_at: "2026-07-08 05:52:23.789474"
 latest: "2.2.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rnanorm"
 aliases:

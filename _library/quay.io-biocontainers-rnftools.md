@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnftools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnftools/container.yaml"
-updated_at: "2026-07-07 06:42:44.495965"
+updated_at: "2026-07-08 05:55:07.399800"
 latest: "0.4.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rnftools"
 aliases:

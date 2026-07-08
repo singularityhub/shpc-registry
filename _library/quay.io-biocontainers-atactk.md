@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atactk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atactk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atactk/container.yaml"
-updated_at: "2026-07-07 06:56:22.465660"
+updated_at: "2026-07-08 06:08:43.546141"
 latest: "0.1.9--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/atactk"
 aliases:

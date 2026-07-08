@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diatracer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diatracer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diatracer/container.yaml"
-updated_at: "2026-07-07 06:37:47.142244"
+updated_at: "2026-07-08 05:50:09.919921"
 latest: "1.2.5--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/diatracer"
 aliases:

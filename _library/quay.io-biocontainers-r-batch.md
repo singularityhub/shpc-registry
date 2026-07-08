@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-batch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-batch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-batch/container.yaml"
-updated_at: "2026-07-07 06:52:49.540155"
+updated_at: "2026-07-08 06:05:11.636524"
 latest: "1.1_5"
 container_url: "https://biocontainers.pro/tools/r-batch"
 aliases:

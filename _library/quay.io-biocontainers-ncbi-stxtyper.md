@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbi-stxtyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-stxtyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-stxtyper/container.yaml"
-updated_at: "2026-07-07 06:13:51.426981"
+updated_at: "2026-07-08 05:26:17.779970"
 latest: "1.0.45--h9948957_0"
 container_url: "https://biocontainers.pro/tools/ncbi-stxtyper"
 aliases:

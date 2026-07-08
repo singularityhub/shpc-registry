@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phaser/container.yaml"
-updated_at: "2026-07-07 06:54:14.401533"
+updated_at: "2026-07-08 06:06:36.096280"
 latest: "0.1.1ad5f89--py27pl5321h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/phaser"
 aliases:

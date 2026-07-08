@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-reactome.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactome.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactome.db/container.yaml"
-updated_at: "2026-07-07 07:02:25.771906"
+updated_at: "2026-07-08 06:14:45.437418"
 latest: "1.95.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactome.db"
 
