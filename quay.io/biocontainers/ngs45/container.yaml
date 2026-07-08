@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/ngs45
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ngs45
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:326fd404d3871d5b0487d9c8485c0644a5d6150778f8f8d7efa4873ab35234d4
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:326fd404d3871d5b0487d9c8485c0644a5d6150778f8f8d7efa4873ab35234d4
+docker: quay.io/biocontainers/ngs45
+aliases:
+  2ndscore: /usr/local/bin/2ndscore
+  ITSx: /usr/local/bin/ITSx
+  binspreader: /usr/local/bin/binspreader
+  calibrate.sh: /usr/local/bin/calibrate.sh
+  make_expterm.py: /usr/local/bin/make_expterm.py
+  mfold_rna.sh: /usr/local/bin/mfold_rna.sh
+  ngs45: /usr/local/bin/ngs45
+  pathracer-seq-fs: /usr/local/bin/pathracer-seq-fs
+  psl: /usr/local/bin/psl
+  psl-make-dafsa: /usr/local/bin/psl-make-dafsa
+  random_fasta.py: /usr/local/bin/random_fasta.py
+  spades-hpc: /usr/local/bin/spades-hpc
+  transterm: /usr/local/bin/transterm
+  ziggypep: /usr/local/bin/ziggypep
+  pathracer: /usr/local/bin/pathracer
+  spades-gfa-split: /usr/local/bin/spades-gfa-split
+  taxonkit: /usr/local/bin/taxonkit
+  gff2gff: /usr/local/bin/gff2gff
+  roh-viz: /usr/local/bin/roh-viz
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  zless: /usr/local/bin/zless
+  coronaspades.py: /usr/local/bin/coronaspades.py
+  metaplasmidspades.py: /usr/local/bin/metaplasmidspades.py
+  metaviralspades.py: /usr/local/bin/metaviralspades.py
+  rnaviralspades.py: /usr/local/bin/rnaviralspades.py
+  splitter: /usr/local/bin/splitter
+  pyrodigal: /usr/local/bin/pyrodigal
+  any2fasta: /usr/local/bin/any2fasta
+  archspec: /usr/local/bin/archspec
+  barrnap: /usr/local/bin/barrnap
+  gunzip: /usr/local/bin/gunzip
+  gzexe: /usr/local/bin/gzexe
+  gzip: /usr/local/bin/gzip
+  uncompress: /usr/local/bin/uncompress
+  zcat: /usr/local/bin/zcat
+  zcmp: /usr/local/bin/zcmp
+  zdiff: /usr/local/bin/zdiff
+  zegrep: /usr/local/bin/zegrep

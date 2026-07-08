@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/sracat-rs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sracat-rs
+latest:
+  0.0.3--hfa8f182_0: 
+    sha256:2da452cb99ea3e034463442d40d97f9c813a8b87273b325bd191242c98f67642
+tags:
+  0.0.3--hfa8f182_0: 
+    sha256:2da452cb99ea3e034463442d40d97f9c813a8b87273b325bd191242c98f67642
+docker: quay.io/biocontainers/sracat-rs
+aliases:
+  sracat-rs: /usr/local/bin/sracat-rs
