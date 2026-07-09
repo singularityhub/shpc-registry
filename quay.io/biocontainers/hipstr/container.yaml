@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/hipstr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hipstr
+latest:
+  0.7--hcf09f9e_0: 
+    sha256:62009960693867d488fec9d10612825e0cace19955fb091d960eab1d7528e2fa
+tags:
+  0.7--hcf09f9e_0: 
+    sha256:62009960693867d488fec9d10612825e0cace19955fb091d960eab1d7528e2fa
+docker: quay.io/biocontainers/hipstr
+aliases:
+  HipSTR: /usr/local/bin/HipSTR
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
