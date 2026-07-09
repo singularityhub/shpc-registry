@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bracken
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bracken
 latest:
-  3.1--h9948957_0: 
-    sha256:a951fb8ecb7aa9301513a96b87981aecb878aa798d0c3f0af476b3cbedd2f856
+  3.1p1--hc52dbad_0: 
+    sha256:b86467a34e157dfa086a40e8e7ca7d6f4af1c559030024efbab76381e448d097
 tags:
   2.6.2--py39hc16433a_0: 
     sha256:d9f1cf7dc3630e00bb4689532b94db774cdf0c0855ac5a9c8c85a8f4301bc237
@@ -25,6 +25,8 @@ tags:
     sha256:f06dc0824995511315370480fafcc9bcd854ac19bcf06a3d860de80fe1a2de12
   3.1--h9948957_0: 
     sha256:a951fb8ecb7aa9301513a96b87981aecb878aa798d0c3f0af476b3cbedd2f856
+  3.1p1--hc52dbad_0: 
+    sha256:b86467a34e157dfa086a40e8e7ca7d6f4af1c559030024efbab76381e448d097
 docker: quay.io/biocontainers/bracken
 aliases:
   bracken: /usr/local/bin/bracken

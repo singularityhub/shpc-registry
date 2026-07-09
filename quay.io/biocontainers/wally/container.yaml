@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/wally
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wally
 latest:
-  0.7.1--h4d20210_1: 
-    sha256:cd45812d3ab1978ae56d625cf31f85f4848cae68b7091dbded0c444d894884ff
+  0.8.1--h0f5e619_0: 
+    sha256:08fd5b3928063304653eca287c0967e77f3f1ac420d267492a75f3231a8fabd7
 tags:
   0.5.7--h358d541_0: 
     sha256:545721b06c46d20266add7ace3c2b429e23d930dfaa53ce9385dd0e08a257441
@@ -23,6 +23,10 @@ tags:
     sha256:3d9d8f0f151e9ad2fa2be12f4c8371a26bad72c6bc423def829a1ec43b5ee0e3
   0.7.1--h4d20210_1: 
     sha256:cd45812d3ab1978ae56d625cf31f85f4848cae68b7091dbded0c444d894884ff
+  0.8.1--h0f5e619_0: 
+    sha256:08fd5b3928063304653eca287c0967e77f3f1ac420d267492a75f3231a8fabd7
+  0.7.3--h0f5e619_0: 
+    sha256:709111b6c57458bbec216c9b1fe00a29f690d1c00f1f1b03d651235ddab2ff0c
 docker: quay.io/biocontainers/wally
 aliases:
   SvtAv1DecApp: /usr/local/bin/SvtAv1DecApp

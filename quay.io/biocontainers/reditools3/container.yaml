@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/reditools3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for reditools3
 latest:
-  3.6--pyhdfd78af_0: 
-    sha256:0cee9a286bc0c74ce8b759eb13e962dcd772197b593a572e0d89eb451cba6d8a
+  3.7--pyhdfd78af_0: 
+    sha256:82d2b6d2438eec719c104c60219faff2c1a8dd0454fc86859e93e21de782d918
 tags:
   3.4--pyhdfd78af_0: 
     sha256:d67429dc33b033a99540b779dc4f1a594f4f2d6962eca2241e5249ba47eebd28
@@ -11,6 +11,8 @@ tags:
     sha256:f87bda0dd08088c8db234a254f712a0603ff7218b152fe04c234608159a3cef1
   3.6--pyhdfd78af_0: 
     sha256:0cee9a286bc0c74ce8b759eb13e962dcd772197b593a572e0d89eb451cba6d8a
+  3.7--pyhdfd78af_0: 
+    sha256:82d2b6d2438eec719c104c60219faff2c1a8dd0454fc86859e93e21de782d918
 docker: quay.io/biocontainers/reditools3
 aliases:
   idle3.13: /usr/local/bin/idle3.13

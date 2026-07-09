@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/assemblytics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for assemblytics
 latest:
-  1.2.1--0: 
-    sha256:4774135d081ee53b20b972026cafc280c11e8b5f7b9ececc72d330452e9fd252
+  2.0.1--pyhdfd78af_0: 
+    sha256:64f1e935e984fd75627386b7b971bbb066f4e7392ca0be906e4f801d3bc0580a
 tags:
   1.2.1--0: 
     sha256:4774135d081ee53b20b972026cafc280c11e8b5f7b9ececc72d330452e9fd252
+  2.0.1--pyhdfd78af_0: 
+    sha256:64f1e935e984fd75627386b7b971bbb066f4e7392ca0be906e4f801d3bc0580a
 docker: quay.io/biocontainers/assemblytics
 aliases:
   Assemblytics: /usr/local/bin/Assemblytics
