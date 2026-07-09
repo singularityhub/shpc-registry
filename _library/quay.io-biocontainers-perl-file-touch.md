@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-touch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-touch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-touch/container.yaml"
-updated_at: "2026-07-08 05:35:40.723210"
+updated_at: "2026-07-09 06:19:55.684607"
 latest: "0.12--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-touch"
 aliases:

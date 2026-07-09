@@ -4,7 +4,7 @@ name:  "mongo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mongo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/mongo/container.yaml"
-updated_at: "2026-07-08 06:18:25.814433"
+updated_at: "2026-07-09 07:02:54.494148"
 latest: "8.2"
 container_url: "https://hub.docker.com/r/_/mongo"
 aliases:

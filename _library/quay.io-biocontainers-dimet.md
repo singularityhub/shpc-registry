@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dimet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dimet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dimet/container.yaml"
-updated_at: "2026-07-08 05:48:44.117358"
+updated_at: "2026-07-09 06:33:09.587299"
 latest: "0.2.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dimet"
 aliases:

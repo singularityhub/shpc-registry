@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seeker/container.yaml"
-updated_at: "2026-07-08 06:10:40.086101"
+updated_at: "2026-07-09 06:55:06.427899"
 latest: "1.0.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/seeker"
 aliases:

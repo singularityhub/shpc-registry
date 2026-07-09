@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/latentstrainanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/latentstrainanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/latentstrainanalysis/container.yaml"
-updated_at: "2026-07-08 06:08:19.924434"
+updated_at: "2026-07-09 06:52:46.137491"
 latest: "0.0.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/latentstrainanalysis"
 aliases:

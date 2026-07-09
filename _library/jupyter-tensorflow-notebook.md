@@ -4,7 +4,7 @@ name:  "jupyter/tensorflow-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/tensorflow-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/tensorflow-notebook/container.yaml"
-updated_at: "2026-07-08 05:24:18.963110"
+updated_at: "2026-07-09 06:08:10.532932"
 latest: "x86_64-ubuntu-22.04"
 container_url: "https://hub.docker.com/r/jupyter/tensorflow-notebook"
 aliases:

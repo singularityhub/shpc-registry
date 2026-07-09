@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smcpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smcpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smcpp/container.yaml"
-updated_at: "2026-07-08 05:47:47.293986"
+updated_at: "2026-07-09 06:32:12.640688"
 latest: "1.15.4--py310h89ce22f_1"
 container_url: "https://biocontainers.pro/tools/smcpp"
 aliases:

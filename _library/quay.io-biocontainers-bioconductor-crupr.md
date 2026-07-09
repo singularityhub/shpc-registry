@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crupr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crupr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crupr/container.yaml"
-updated_at: "2026-07-08 05:53:32.941046"
+updated_at: "2026-07-09 06:37:58.767301"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crupr"
 aliases:

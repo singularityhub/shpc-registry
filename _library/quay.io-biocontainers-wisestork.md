@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wisestork"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wisestork/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wisestork/container.yaml"
-updated_at: "2026-07-08 05:54:07.195702"
+updated_at: "2026-07-09 06:38:33.120624"
 latest: "0.1.2--py_1"
 container_url: "https://biocontainers.pro/tools/wisestork"
 aliases:

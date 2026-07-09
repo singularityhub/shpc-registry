@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakesv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakesv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakesv/container.yaml"
-updated_at: "2026-07-08 05:51:28.070576"
+updated_at: "2026-07-09 06:35:53.836133"
 latest: "0.8--py311hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/snakesv"
 aliases:

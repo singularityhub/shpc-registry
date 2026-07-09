@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clincnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clincnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clincnv/container.yaml"
-updated_at: "2026-07-08 05:36:38.325311"
-latest: "1.19.1--hdfd78af_0"
+updated_at: "2026-07-09 06:20:55.852625"
+latest: "1.20.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clincnv"
 aliases:
  - "clinCNV.R"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "1.18.3--hdfd78af_0"
  - "1.19.1--hdfd78af_0"
+ - "1.20.0--hdfd78af_0"
 description: "singularity registry hpc automated addition for clincnv"
-config: {"url": "https://biocontainers.pro/tools/clincnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clincnv", "latest": {"1.19.1--hdfd78af_0": "sha256:030a19bb4e7df7be962054d0f8afbd7576f1e7ae999e321942ddb616acd49739"}, "tags": {"1.18.3--hdfd78af_0": "sha256:d8fe04cb106c27f7c3b14fefa3db31c9cb7982ea1f26606757cfae1d808ca3ba", "1.19.1--hdfd78af_0": "sha256:030a19bb4e7df7be962054d0f8afbd7576f1e7ae999e321942ddb616acd49739"}, "docker": "quay.io/biocontainers/clincnv", "aliases": {"clinCNV.R": "/usr/local/bin/clinCNV.R", "mergeFilesFromFolder.R": "/usr/local/bin/mergeFilesFromFolder.R", "mergeFilesFromFolderDT.R": "/usr/local/bin/mergeFilesFromFolderDT.R", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/clincnv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clincnv", "latest": {"1.20.0--hdfd78af_0": "sha256:972877c10677ea936ba712a00f8bff708d04c21a7ce1c4a244aea8ca433e53c8"}, "tags": {"1.18.3--hdfd78af_0": "sha256:d8fe04cb106c27f7c3b14fefa3db31c9cb7982ea1f26606757cfae1d808ca3ba", "1.19.1--hdfd78af_0": "sha256:030a19bb4e7df7be962054d0f8afbd7576f1e7ae999e321942ddb616acd49739", "1.20.0--hdfd78af_0": "sha256:972877c10677ea936ba712a00f8bff708d04c21a7ce1c4a244aea8ca433e53c8"}, "docker": "quay.io/biocontainers/clincnv", "aliases": {"clinCNV.R": "/usr/local/bin/clinCNV.R", "mergeFilesFromFolder.R": "/usr/local/bin/mergeFilesFromFolder.R", "mergeFilesFromFolderDT.R": "/usr/local/bin/mergeFilesFromFolderDT.R", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clincnv.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/clincnv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clincnv:1.19.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/clincnv:1.20.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clincnv/1.19.1--hdfd78af_0
-$ module help quay.io/biocontainers/clincnv/1.19.1--hdfd78af_0
+$ module load quay.io/biocontainers/clincnv/1.20.0--hdfd78af_0
+$ module help quay.io/biocontainers/clincnv/1.20.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

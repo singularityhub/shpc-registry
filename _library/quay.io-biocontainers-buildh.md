@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/buildh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/buildh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/buildh/container.yaml"
-updated_at: "2026-07-08 05:34:34.145332"
+updated_at: "2026-07-09 06:18:45.870639"
 latest: "1.6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/buildh"
 aliases:

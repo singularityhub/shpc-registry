@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-getopt-long-descriptive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-getopt-long-descriptive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-getopt-long-descriptive/container.yaml"
-updated_at: "2026-07-08 05:43:08.461739"
+updated_at: "2026-07-09 06:27:33.009648"
 latest: "0.117--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-getopt-long-descriptive"
 aliases:

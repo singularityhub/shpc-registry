@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdflib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdflib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdflib/container.yaml"
-updated_at: "2026-07-08 06:01:25.930690"
+updated_at: "2026-07-09 06:45:51.933038"
 latest: "4.2.2--py36_0"
 container_url: "https://biocontainers.pro/tools/rdflib"
 

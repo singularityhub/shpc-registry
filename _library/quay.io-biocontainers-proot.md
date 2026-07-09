@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proot/container.yaml"
-updated_at: "2026-07-08 06:14:50.412080"
+updated_at: "2026-07-09 06:59:16.958223"
 latest: "5.1.0--0"
 container_url: "https://biocontainers.pro/tools/proot"
 aliases:

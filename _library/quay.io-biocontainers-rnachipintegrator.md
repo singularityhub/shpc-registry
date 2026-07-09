@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnachipintegrator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnachipintegrator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnachipintegrator/container.yaml"
-updated_at: "2026-07-08 06:08:32.828408"
+updated_at: "2026-07-09 06:52:59.030826"
 latest: "3.0.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/rnachipintegrator"
 aliases:

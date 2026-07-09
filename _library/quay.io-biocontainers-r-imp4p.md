@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-imp4p"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-imp4p/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-imp4p/container.yaml"
-updated_at: "2026-07-08 06:11:59.749328"
+updated_at: "2026-07-09 06:56:25.995361"
 latest: "0.7--r36h0357c0b_1"
 container_url: "https://biocontainers.pro/tools/r-imp4p"
 aliases:

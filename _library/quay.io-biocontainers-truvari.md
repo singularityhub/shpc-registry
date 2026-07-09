@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/truvari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/truvari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/truvari/container.yaml"
-updated_at: "2026-07-08 05:51:00.061550"
+updated_at: "2026-07-09 06:35:25.761359"
 latest: "5.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/truvari"
 aliases:

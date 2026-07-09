@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-teal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-teal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-teal/container.yaml"
-updated_at: "2026-07-08 05:46:36.255501"
-latest: "1.3.6--hdfd78af_0"
+updated_at: "2026-07-09 06:31:01.432953"
+latest: "1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-teal"
 aliases:
  - "teal"
@@ -38,8 +38,9 @@ versions:
  - "1.3.3--hdfd78af_0"
  - "1.3.5--hdfd78af_0"
  - "1.3.6--hdfd78af_0"
+ - "1.4--hdfd78af_0"
 description: "singularity registry hpc automated addition for hmftools-teal"
-config: {"url": "https://biocontainers.pro/tools/hmftools-teal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-teal", "latest": {"1.3.6--hdfd78af_0": "sha256:e70e8cb5a51100dee400f0ecd4100f5c1d37d6f64f3f5e765d3a1c9a610c070e"}, "tags": {"1.3.3--hdfd78af_0": "sha256:25a00d7534330e3e6f0d7f990999dbd2d35eeb2cf5aac8ddc9e30f8fdf82e39d", "1.3.5--hdfd78af_0": "sha256:8e805fddd81499208466029e247605f998b7ffbafea82d557be9fdf9b655bb2f", "1.3.6--hdfd78af_0": "sha256:e70e8cb5a51100dee400f0ecd4100f5c1d37d6f64f3f5e765d3a1c9a610c070e"}, "docker": "quay.io/biocontainers/hmftools-teal", "aliases": {"teal": "/usr/local/bin/teal", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-teal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hmftools-teal", "latest": {"1.4--hdfd78af_0": "sha256:391e008950521215b0cf8e6b9dba07f33b5d821b7ff113eb862f8ca30e5b7b61"}, "tags": {"1.3.3--hdfd78af_0": "sha256:25a00d7534330e3e6f0d7f990999dbd2d35eeb2cf5aac8ddc9e30f8fdf82e39d", "1.3.5--hdfd78af_0": "sha256:8e805fddd81499208466029e247605f998b7ffbafea82d557be9fdf9b655bb2f", "1.3.6--hdfd78af_0": "sha256:e70e8cb5a51100dee400f0ecd4100f5c1d37d6f64f3f5e765d3a1c9a610c070e", "1.4--hdfd78af_0": "sha256:391e008950521215b0cf8e6b9dba07f33b5d821b7ff113eb862f8ca30e5b7b61"}, "docker": "quay.io/biocontainers/hmftools-teal", "aliases": {"teal": "/usr/local/bin/teal", "jwebserver": "/usr/local/bin/jwebserver", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "hb-info": "/usr/local/bin/hb-info", "jfr": "/usr/local/bin/jfr", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "aserver": "/usr/local/bin/aserver", "jdeps": "/usr/local/bin/jdeps", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb", "jinfo": "/usr/local/bin/jinfo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-teal.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/hmftools-teal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-teal:1.3.6--hdfd78af_0
+$ shpc install quay.io/biocontainers/hmftools-teal:1.4--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-teal/1.3.6--hdfd78af_0
-$ module help quay.io/biocontainers/hmftools-teal/1.3.6--hdfd78af_0
+$ module load quay.io/biocontainers/hmftools-teal/1.4--hdfd78af_0
+$ module help quay.io/biocontainers/hmftools-teal/1.4--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

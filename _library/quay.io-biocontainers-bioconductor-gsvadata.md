@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsvadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsvadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsvadata/container.yaml"
-updated_at: "2026-07-08 06:04:22.777309"
+updated_at: "2026-07-09 06:48:48.850876"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsvadata"
 

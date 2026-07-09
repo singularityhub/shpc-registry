@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/assemblytics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assemblytics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assemblytics/container.yaml"
-updated_at: "2026-07-08 06:02:31.596440"
-latest: "1.2.1--0"
+updated_at: "2026-07-09 06:46:57.584695"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/assemblytics"
 aliases:
  - "Assemblytics"
@@ -21,8 +21,9 @@ aliases:
  - "mummerplot"
 versions:
  - "1.2.1--0"
+ - "2.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for assemblytics"
-config: {"url": "https://biocontainers.pro/tools/assemblytics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for assemblytics", "latest": {"1.2.1--0": "sha256:4774135d081ee53b20b972026cafc280c11e8b5f7b9ececc72d330452e9fd252"}, "tags": {"1.2.1--0": "sha256:4774135d081ee53b20b972026cafc280c11e8b5f7b9ececc72d330452e9fd252"}, "docker": "quay.io/biocontainers/assemblytics", "aliases": {"Assemblytics": "/usr/local/bin/Assemblytics", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
+config: {"url": "https://biocontainers.pro/tools/assemblytics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for assemblytics", "latest": {"2.0.1--pyhdfd78af_0": "sha256:64f1e935e984fd75627386b7b971bbb066f4e7392ca0be906e4f801d3bc0580a"}, "tags": {"1.2.1--0": "sha256:4774135d081ee53b20b972026cafc280c11e8b5f7b9ececc72d330452e9fd252", "2.0.1--pyhdfd78af_0": "sha256:64f1e935e984fd75627386b7b971bbb066f4e7392ca0be906e4f801d3bc0580a"}, "docker": "quay.io/biocontainers/assemblytics", "aliases": {"Assemblytics": "/usr/local/bin/Assemblytics", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/assemblytics.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/assemblytics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/assemblytics:1.2.1--0
+$ shpc install quay.io/biocontainers/assemblytics:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/assemblytics/1.2.1--0
-$ module help quay.io/biocontainers/assemblytics/1.2.1--0
+$ module load quay.io/biocontainers/assemblytics/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/assemblytics/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

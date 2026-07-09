@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/covtobed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covtobed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/covtobed/container.yaml"
-updated_at: "2026-07-08 05:25:00.970898"
+updated_at: "2026-07-09 06:08:54.127901"
 latest: "1.3.5--hf393df8_2"
 container_url: "https://biocontainers.pro/tools/covtobed"
 aliases:

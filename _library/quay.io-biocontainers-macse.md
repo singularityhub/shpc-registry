@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/macse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macse/container.yaml"
-updated_at: "2026-07-08 05:42:32.489275"
+updated_at: "2026-07-09 06:26:56.916245"
 latest: "2.07--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/macse"
 aliases:
