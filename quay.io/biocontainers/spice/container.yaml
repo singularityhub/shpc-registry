@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/spice
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spice
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:f142be142a9df48ccaa0926b3cdd0a60864fa2490ef2ef4b7e5d300c6a99a9c7
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:f142be142a9df48ccaa0926b3cdd0a60864fa2490ef2ef4b7e5d300c6a99a9c7
+docker: quay.io/biocontainers/spice
+aliases:
+  pyomo: /usr/local/bin/pyomo
+  spice: /usr/local/bin/spice
+  fc-genconf: /usr/local/bin/fc-genconf
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

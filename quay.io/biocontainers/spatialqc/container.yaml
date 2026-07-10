@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/spatialqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spatialqc
+latest:
+  1.0.3.3--pyh106432d_0: 
+    sha256:767df4f6a343a7d90a6ffefd25680b6de07b13d20363f26f6553b0b1c9ac5da6
+tags:
+  1.0.3.3--pyh106432d_0: 
+    sha256:767df4f6a343a7d90a6ffefd25680b6de07b13d20363f26f6553b0b1c9ac5da6
+docker: quay.io/biocontainers/spatialqc
+aliases:
+  SpatialQC: /usr/local/bin/SpatialQC
+  psl: /usr/local/bin/psl
+  psl-make-dafsa: /usr/local/bin/psl-make-dafsa
+  dunamai: /usr/local/bin/dunamai
+  scalar: /usr/local/bin/scalar
+  fc-genconf: /usr/local/bin/fc-genconf
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  skivi: /usr/local/bin/skivi
+  dask: /usr/local/bin/dask
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  scanpy: /usr/local/bin/scanpy
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  cygdb: /usr/local/bin/cygdb
+  cython: /usr/local/bin/cython
+  cythonize: /usr/local/bin/cythonize
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  numba: /usr/local/bin/numba
