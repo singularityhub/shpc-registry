@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-countclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-countclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-countclust/container.yaml"
-updated_at: "2026-07-09 06:53:55.638283"
+updated_at: "2026-07-10 06:44:01.900460"
 latest: "1.21.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-countclust"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pore-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pore-c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pore-c/container.yaml"
-updated_at: "2026-07-09 06:24:37.846218"
+updated_at: "2026-07-10 06:19:54.745074"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pore-c"
 aliases:

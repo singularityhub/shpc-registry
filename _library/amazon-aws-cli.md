@@ -4,7 +4,7 @@ name:  "amazon/aws-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amazon/aws-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amazon/aws-cli/container.yaml"
-updated_at: "2026-07-09 06:08:08.513633"
+updated_at: "2026-07-10 06:06:38.194818"
 latest: "amd64"
 container_url: "https://hub.docker.com/r/amazon/aws-cli"
 aliases:

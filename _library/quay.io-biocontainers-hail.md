@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hail/container.yaml"
-updated_at: "2026-07-09 06:35:54.948054"
+updated_at: "2026-07-10 06:28:57.311272"
 latest: "0.2.61--py311h9948957_3"
 container_url: "https://biocontainers.pro/tools/hail"
 aliases:

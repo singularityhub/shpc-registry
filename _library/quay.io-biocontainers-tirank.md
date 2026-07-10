@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tirank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tirank/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tirank/container.yaml"
-updated_at: "2026-07-09 06:48:13.401181"
+updated_at: "2026-07-10 06:38:56.195692"
 latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/tirank"
 aliases:

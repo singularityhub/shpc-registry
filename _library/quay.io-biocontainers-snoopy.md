@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snoopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snoopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snoopy/container.yaml"
-updated_at: "2026-07-09 06:32:58.233837"
+updated_at: "2026-07-10 06:26:37.352351"
 latest: "0.4.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snoopy"
 aliases:

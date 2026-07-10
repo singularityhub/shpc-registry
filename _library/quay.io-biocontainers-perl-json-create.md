@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-json-create"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-create/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-create/container.yaml"
-updated_at: "2026-07-09 06:51:06.328414"
+updated_at: "2026-07-10 06:41:28.975368"
 latest: "0.36--pl5321h87e0c26_0"
 container_url: "https://biocontainers.pro/tools/perl-json-create"
 aliases:

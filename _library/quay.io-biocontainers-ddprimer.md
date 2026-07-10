@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ddprimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ddprimer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ddprimer/container.yaml"
-updated_at: "2026-07-09 06:59:36.676373"
+updated_at: "2026-07-10 06:48:57.151808"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ddprimer"
 aliases:

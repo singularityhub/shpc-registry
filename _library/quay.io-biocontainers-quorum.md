@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quorum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quorum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quorum/container.yaml"
-updated_at: "2026-07-09 06:44:40.071214"
+updated_at: "2026-07-10 06:35:54.019204"
 latest: "1.1.1--h7d875b9_4"
 container_url: "https://biocontainers.pro/tools/quorum"
 aliases:

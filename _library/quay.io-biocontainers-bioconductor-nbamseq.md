@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nbamseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nbamseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nbamseq/container.yaml"
-updated_at: "2026-07-09 06:34:08.374713"
+updated_at: "2026-07-10 06:27:32.933533"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nbamseq"
 aliases:

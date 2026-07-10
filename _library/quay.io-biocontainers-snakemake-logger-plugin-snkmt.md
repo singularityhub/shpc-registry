@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-logger-plugin-snkmt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-logger-plugin-snkmt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-logger-plugin-snkmt/container.yaml"
-updated_at: "2026-07-09 06:29:00.424036"
+updated_at: "2026-07-10 06:23:28.666343"
 latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-logger-plugin-snkmt"
 aliases:

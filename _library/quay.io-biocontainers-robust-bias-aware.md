@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/robust-bias-aware"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/robust-bias-aware/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/robust-bias-aware/container.yaml"
-updated_at: "2026-07-09 06:34:15.799039"
+updated_at: "2026-07-10 06:27:38.810494"
 latest: "0.0.1--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/robust-bias-aware"
 aliases:

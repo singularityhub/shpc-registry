@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mta10probeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mta10probeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mta10probeset.db/container.yaml"
-updated_at: "2026-07-09 07:00:22.677286"
+updated_at: "2026-07-10 06:49:36.008327"
 latest: "8.8.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-mta10probeset.db"
 

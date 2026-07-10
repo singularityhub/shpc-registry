@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyjaspar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyjaspar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyjaspar/container.yaml"
-updated_at: "2026-07-09 06:22:26.129600"
+updated_at: "2026-07-10 06:18:08.855525"
 latest: "4.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyjaspar"
 aliases:

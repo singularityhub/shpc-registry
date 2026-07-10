@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/renet2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/renet2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/renet2/container.yaml"
-updated_at: "2026-07-09 06:39:56.126963"
+updated_at: "2026-07-10 06:32:07.810934"
 latest: "1.2--py_0"
 container_url: "https://biocontainers.pro/tools/renet2"
 aliases:

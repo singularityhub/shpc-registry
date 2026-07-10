@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/targetfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/targetfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/targetfinder/container.yaml"
-updated_at: "2026-07-09 06:41:36.569488"
+updated_at: "2026-07-10 06:33:26.754200"
 latest: "1.7--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/targetfinder"
 aliases:
