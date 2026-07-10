@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/fungar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fungar
+latest:
+  2.0.0--py314hdfd78af_0: 
+    sha256:21e6b196ed2e40057b133d243922b1d4123a169db603a81883e816d89244694e
+tags:
+  2.0.0--py314hdfd78af_0: 
+    sha256:21e6b196ed2e40057b133d243922b1d4123a169db603a81883e816d89244694e
+docker: quay.io/biocontainers/fungar
+aliases:
+  fungar: /usr/local/bin/fungar
+  fungar_benchmark.py: /usr/local/bin/fungar_benchmark.py
+  fungar_report.py: /usr/local/bin/fungar_report.py
+  diamond: /usr/local/bin/diamond
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
