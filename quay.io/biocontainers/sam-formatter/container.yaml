@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/sam-formatter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sam-formatter
+latest:
+  1.2.0--hab7d0fd_0: 
+    sha256:6f76caad71109971ef74d08e8300ffcb0fb607004d4034f5211427ae2ef9fc26
+tags:
+  1.2.0--hab7d0fd_0: 
+    sha256:6f76caad71109971ef74d08e8300ffcb0fb607004d4034f5211427ae2ef9fc26
+docker: quay.io/biocontainers/sam-formatter
+aliases:
+  sam-formatter: /usr/local/bin/sam-formatter
