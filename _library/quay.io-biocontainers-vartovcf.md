@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vartovcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vartovcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vartovcf/container.yaml"
-updated_at: "2026-07-11 05:42:30.221333"
+updated_at: "2026-07-11 06:17:58.986713"
 latest: "1.4.0--h3ab6199_0"
 container_url: "https://biocontainers.pro/tools/vartovcf"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-enrichplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-enrichplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-enrichplot/container.yaml"
-updated_at: "2026-07-11 05:45:56.624495"
+updated_at: "2026-07-11 06:22:04.164404"
 latest: "1.30.4--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-enrichplot"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cosg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cosg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cosg/container.yaml"
-updated_at: "2026-07-11 05:34:35.845852"
+updated_at: "2026-07-11 06:08:21.669665"
 latest: "1.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cosg"
 aliases:

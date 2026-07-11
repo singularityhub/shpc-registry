@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-grafgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grafgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grafgen/container.yaml"
-updated_at: "2026-07-11 05:41:21.522908"
+updated_at: "2026-07-11 06:16:35.080194"
 latest: "1.6.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grafgen"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-orthogene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orthogene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orthogene/container.yaml"
-updated_at: "2026-07-11 05:34:54.803696"
+updated_at: "2026-07-11 06:08:43.997597"
 latest: "1.16.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orthogene"
 

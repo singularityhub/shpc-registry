@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popqc/container.yaml"
-updated_at: "2026-07-11 05:27:05.328640"
+updated_at: "2026-07-11 05:59:01.291301"
 latest: "0.1.1--he1b7be3_0"
 container_url: "https://biocontainers.pro/tools/popqc"
 aliases:

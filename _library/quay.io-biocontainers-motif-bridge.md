@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/motif-bridge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/motif-bridge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/motif-bridge/container.yaml"
-updated_at: "2026-07-11 05:49:31.942687"
+updated_at: "2026-07-11 06:26:28.334794"
 latest: "0.1.0--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/motif-bridge"
 aliases:

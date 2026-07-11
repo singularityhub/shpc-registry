@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genekitr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genekitr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genekitr/container.yaml"
-updated_at: "2026-07-11 05:34:25.511309"
+updated_at: "2026-07-11 06:08:09.786781"
 latest: "1.2.8--r45h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-genekitr"
 aliases:

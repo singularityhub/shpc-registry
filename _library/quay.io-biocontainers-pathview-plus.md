@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathview-plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathview-plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathview-plus/container.yaml"
-updated_at: "2026-07-11 05:34:54.573089"
+updated_at: "2026-07-11 06:08:43.718534"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pathview-plus"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zamp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zamp/container.yaml"
-updated_at: "2026-07-11 05:19:50.248849"
+updated_at: "2026-07-11 05:49:53.263974"
 latest: "1.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/zamp"
 aliases:

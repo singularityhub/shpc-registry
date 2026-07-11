@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mobivision-m"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mobivision-m/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mobivision-m/container.yaml"
-updated_at: "2026-07-11 05:58:41.753399"
+updated_at: "2026-07-11 06:37:43.400228"
 latest: "1.3.2--py38hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mobivision-m"
 aliases:
