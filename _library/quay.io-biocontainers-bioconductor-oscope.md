@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-oscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oscope/container.yaml"
-updated_at: "2026-07-10 06:12:38.052498"
+updated_at: "2026-07-11 05:21:50.913219"
 latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oscope"
 aliases:

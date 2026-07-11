@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ipk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ipk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ipk/container.yaml"
-updated_at: "2026-07-10 06:22:54.800421"
+updated_at: "2026-07-11 05:32:17.402519"
 latest: "0.5.1--h077b44d_4"
 container_url: "https://biocontainers.pro/tools/ipk"
 aliases:

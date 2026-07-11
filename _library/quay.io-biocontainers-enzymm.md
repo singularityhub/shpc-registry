@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzymm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzymm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzymm/container.yaml"
-updated_at: "2026-07-10 06:10:38.058517"
+updated_at: "2026-07-11 05:19:42.867926"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzymm"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cellxgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellxgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellxgene/container.yaml"
-updated_at: "2026-07-10 06:40:42.555736"
+updated_at: "2026-07-11 05:51:08.461196"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cellxgene"
 aliases:

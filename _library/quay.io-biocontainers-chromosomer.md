@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chromosomer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromosomer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromosomer/container.yaml"
-updated_at: "2026-07-10 06:22:22.496063"
+updated_at: "2026-07-11 05:31:44.559478"
 latest: "0.1.4a--py_2"
 container_url: "https://biocontainers.pro/tools/chromosomer"
 aliases:

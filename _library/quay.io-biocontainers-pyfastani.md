@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyfastani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastani/container.yaml"
-updated_at: "2026-07-10 06:31:01.239767"
+updated_at: "2026-07-11 05:41:03.699397"
 latest: "0.6.1--py39h746d604_0"
 container_url: "https://biocontainers.pro/tools/pyfastani"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/advancecomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/advancecomp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/advancecomp/container.yaml"
-updated_at: "2026-07-10 06:51:21.058718"
+updated_at: "2026-07-11 06:01:45.589349"
 latest: "2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/advancecomp"
 aliases:

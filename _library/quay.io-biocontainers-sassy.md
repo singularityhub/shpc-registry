@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sassy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sassy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sassy/container.yaml"
-updated_at: "2026-07-10 06:22:55.708620"
+updated_at: "2026-07-11 05:32:18.354015"
 latest: "0.2.2--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/sassy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bax2bam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bax2bam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bax2bam/container.yaml"
-updated_at: "2026-07-10 06:46:53.453666"
+updated_at: "2026-07-11 05:57:12.188767"
 latest: "0.0.11--0"
 container_url: "https://biocontainers.pro/tools/bax2bam"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lrge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrge/container.yaml"
-updated_at: "2026-07-10 06:40:36.342470"
+updated_at: "2026-07-11 05:51:02.503744"
 latest: "0.3.0--hf1b6044_0"
 container_url: "https://biocontainers.pro/tools/lrge"
 aliases:

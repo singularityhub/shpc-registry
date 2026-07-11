@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tesmall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tesmall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tesmall/container.yaml"
-updated_at: "2026-07-10 06:20:43.544753"
-latest: "2.0.9--pyhdfd78af_1"
+updated_at: "2026-07-11 05:30:04.981804"
+latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tesmall"
 aliases:
  - "TEsmall"
@@ -36,8 +36,9 @@ aliases:
  - "hwloc-diff"
 versions:
  - "2.0.9--pyhdfd78af_1"
+ - "2.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for tesmall"
-config: {"url": "https://biocontainers.pro/tools/tesmall", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tesmall", "latest": {"2.0.9--pyhdfd78af_1": "sha256:fc7bfe4f43d8bef39cf859bfc51b244a2937a168ecf9036a3d3c8a1404ccdb5a"}, "tags": {"2.0.9--pyhdfd78af_1": "sha256:fc7bfe4f43d8bef39cf859bfc51b244a2937a168ecf9036a3d3c8a1404ccdb5a"}, "docker": "quay.io/biocontainers/tesmall", "aliases": {"TEsmall": "/usr/local/bin/TEsmall", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "cutadapt": "/usr/local/bin/cutadapt", "bokeh": "/usr/local/bin/bokeh", "ref-cache": "/usr/local/bin/ref-cache", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "annot-tsv": "/usr/local/bin/annot-tsv", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff"}}
+config: {"url": "https://biocontainers.pro/tools/tesmall", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for tesmall", "latest": {"2.1.0--pyhdfd78af_0": "sha256:8644a543cfb7fa10ab35ee2c9a43be1948e5428c4caec7948796281466c00ad4"}, "tags": {"2.0.9--pyhdfd78af_1": "sha256:fc7bfe4f43d8bef39cf859bfc51b244a2937a168ecf9036a3d3c8a1404ccdb5a", "2.1.0--pyhdfd78af_0": "sha256:8644a543cfb7fa10ab35ee2c9a43be1948e5428c4caec7948796281466c00ad4"}, "docker": "quay.io/biocontainers/tesmall", "aliases": {"TEsmall": "/usr/local/bin/TEsmall", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "cutadapt": "/usr/local/bin/cutadapt", "bokeh": "/usr/local/bin/bokeh", "ref-cache": "/usr/local/bin/ref-cache", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "annot-tsv": "/usr/local/bin/annot-tsv", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tesmall.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/tesmall
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tesmall:2.0.9--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/tesmall:2.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tesmall/2.0.9--pyhdfd78af_1
-$ module help quay.io/biocontainers/tesmall/2.0.9--pyhdfd78af_1
+$ module load quay.io/biocontainers/tesmall/2.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/tesmall/2.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

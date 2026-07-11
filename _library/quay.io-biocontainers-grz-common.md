@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grz-common"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-common/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-common/container.yaml"
-updated_at: "2026-07-10 06:50:36.962646"
+updated_at: "2026-07-11 06:01:00.527498"
 latest: "2.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/grz-common"
 aliases:

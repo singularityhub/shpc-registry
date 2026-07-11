@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dligand2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dligand2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dligand2/container.yaml"
-updated_at: "2026-07-10 06:22:34.490451"
+updated_at: "2026-07-11 05:31:56.503116"
 latest: "0.1.0--h9948957_5"
 container_url: "https://biocontainers.pro/tools/dligand2"
 aliases:

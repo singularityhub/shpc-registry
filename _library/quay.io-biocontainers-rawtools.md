@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rawtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rawtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rawtools/container.yaml"
-updated_at: "2026-07-10 06:11:30.326822"
+updated_at: "2026-07-11 05:20:38.181662"
 latest: "2.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rawtools"
 aliases:

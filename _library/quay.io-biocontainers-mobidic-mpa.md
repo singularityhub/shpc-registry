@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mobidic-mpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mobidic-mpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mobidic-mpa/container.yaml"
-updated_at: "2026-07-10 06:30:43.362579"
+updated_at: "2026-07-11 05:40:43.857213"
 latest: "1.3.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mobidic-mpa"
 aliases:

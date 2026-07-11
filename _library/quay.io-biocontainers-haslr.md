@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haslr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haslr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haslr/container.yaml"
-updated_at: "2026-07-10 06:44:07.940999"
+updated_at: "2026-07-11 05:54:25.946113"
 latest: "0.8a1--py39hd65a603_4"
 container_url: "https://biocontainers.pro/tools/haslr"
 aliases:

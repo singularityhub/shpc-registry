@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hiergwas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hiergwas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hiergwas/container.yaml"
-updated_at: "2026-07-10 06:33:15.765024"
+updated_at: "2026-07-11 05:43:31.909522"
 latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hiergwas"
 

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/poppler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/poppler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/poppler/container.yaml"
-updated_at: "2026-07-10 06:51:14.581853"
+updated_at: "2026-07-11 06:01:39.038130"
 latest: "21.11.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/poppler"
 aliases:

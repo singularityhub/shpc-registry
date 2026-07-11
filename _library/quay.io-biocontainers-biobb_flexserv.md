@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_flexserv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_flexserv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_flexserv/container.yaml"
-updated_at: "2026-07-10 06:21:31.622610"
+updated_at: "2026-07-11 05:30:53.499607"
 latest: "5.2.0--py314pl5321h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/biobb_flexserv"
 aliases:

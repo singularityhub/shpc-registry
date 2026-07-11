@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymsaviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymsaviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymsaviz/container.yaml"
-updated_at: "2026-07-10 06:22:09.981032"
+updated_at: "2026-07-11 05:31:32.180934"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pymsaviz"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/chelae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chelae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chelae/container.yaml"
-updated_at: "2026-07-10 06:25:05.726785"
-latest: "0.1.0--hfa8f182_0"
+updated_at: "2026-07-11 05:34:36.762752"
+latest: "0.1.0--hfa8f182_1"
 container_url: "https://biocontainers.pro/tools/chelae"
 aliases:
  - "chelae"
 versions:
  - "0.1.0--hfa8f182_0"
+ - "0.1.0--hfa8f182_1"
 description: "singularity registry hpc automated addition for chelae"
-config: {"url": "https://biocontainers.pro/tools/chelae", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chelae", "latest": {"0.1.0--hfa8f182_0": "sha256:1405eaab8ee7882c08143485af6d337d7feb6ea9dc2041c22d955e04921e255e"}, "tags": {"0.1.0--hfa8f182_0": "sha256:1405eaab8ee7882c08143485af6d337d7feb6ea9dc2041c22d955e04921e255e"}, "docker": "quay.io/biocontainers/chelae", "aliases": {"chelae": "/usr/local/bin/chelae"}}
+config: {"url": "https://biocontainers.pro/tools/chelae", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chelae", "latest": {"0.1.0--hfa8f182_1": "sha256:a65471cae8f66f5f25cd6d498eef522f16df707b0004e61b7e47548b771da261"}, "tags": {"0.1.0--hfa8f182_0": "sha256:1405eaab8ee7882c08143485af6d337d7feb6ea9dc2041c22d955e04921e255e", "0.1.0--hfa8f182_1": "sha256:a65471cae8f66f5f25cd6d498eef522f16df707b0004e61b7e47548b771da261"}, "docker": "quay.io/biocontainers/chelae", "aliases": {"chelae": "/usr/local/bin/chelae"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chelae.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/chelae
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chelae:0.1.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/chelae:0.1.0--hfa8f182_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chelae/0.1.0--hfa8f182_0
-$ module help quay.io/biocontainers/chelae/0.1.0--hfa8f182_0
+$ module load quay.io/biocontainers/chelae/0.1.0--hfa8f182_1
+$ module help quay.io/biocontainers/chelae/0.1.0--hfa8f182_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
