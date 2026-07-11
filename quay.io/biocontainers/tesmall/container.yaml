@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/tesmall
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for tesmall
 latest:
-  2.0.9--pyhdfd78af_1: 
-    sha256:fc7bfe4f43d8bef39cf859bfc51b244a2937a168ecf9036a3d3c8a1404ccdb5a
+  2.1.0--pyhdfd78af_0: 
+    sha256:8644a543cfb7fa10ab35ee2c9a43be1948e5428c4caec7948796281466c00ad4
 tags:
   2.0.9--pyhdfd78af_1: 
     sha256:fc7bfe4f43d8bef39cf859bfc51b244a2937a168ecf9036a3d3c8a1404ccdb5a
+  2.1.0--pyhdfd78af_0: 
+    sha256:8644a543cfb7fa10ab35ee2c9a43be1948e5428c4caec7948796281466c00ad4
 docker: quay.io/biocontainers/tesmall
 aliases:
   TEsmall: /usr/local/bin/TEsmall

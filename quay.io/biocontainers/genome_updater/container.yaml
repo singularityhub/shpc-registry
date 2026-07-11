@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/genome_updater
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for genome_updater
 latest:
-  0.8.1--hdfd78af_0: 
-    sha256:2501effb953d09218931dc1af56526a9a084921b7335cc4e06448242a658988c
+  0.8.2--hdfd78af_0: 
+    sha256:59e8f9b497b8523229625b723294f84b8ac45aef27af140b1d6d4303024db2b3
 tags:
   0.5.1--hdfd78af_0: 
     sha256:05e4f37e192c064941ca4ae049044b580906a209d5ce45a12bf26727c55e9a1a
@@ -27,6 +27,8 @@ tags:
     sha256:54afbc85c904565184e181dfb49ca28afb87232d1d47157fe9a9e6bc763d57ed
   0.8.1--hdfd78af_0: 
     sha256:2501effb953d09218931dc1af56526a9a084921b7335cc4e06448242a658988c
+  0.8.2--hdfd78af_0: 
+    sha256:59e8f9b497b8523229625b723294f84b8ac45aef27af140b1d6d4303024db2b3
 docker: quay.io/biocontainers/genome_updater
 aliases:
   genome_updater.sh: /usr/local/bin/genome_updater.sh
