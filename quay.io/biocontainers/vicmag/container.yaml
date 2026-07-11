@@ -1,0 +1,31 @@
+url: https://biocontainers.pro/tools/vicmag
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vicmag
+latest:
+  0.1.0--pyh106432d_0: 
+    sha256:6fb0041ec80c095a523ffb292fc74371d8cad0f1c057efd2c5ee49c7dcac2d76
+tags:
+  0.1.0--pyh106432d_0: 
+    sha256:6fb0041ec80c095a523ffb292fc74371d8cad0f1c057efd2c5ee49c7dcac2d76
+docker: quay.io/biocontainers/vicmag
+aliases:
+  vicmag: /usr/local/bin/vicmag
+  fc-genconf: /usr/local/bin/fc-genconf
+  idna: /usr/local/bin/idna
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer

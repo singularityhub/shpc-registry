@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/te-looker
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for te-looker
+latest:
+  0.3.0--hfa8f182_0: 
+    sha256:79c2a15386bc5d8ee477b50c407e47a7de3cd9f29b83e7e3d4dc8e47633cc3ce
+tags:
+  0.3.0--hfa8f182_0: 
+    sha256:79c2a15386bc5d8ee477b50c407e47a7de3cd9f29b83e7e3d4dc8e47633cc3ce
+docker: quay.io/biocontainers/te-looker
+aliases:
+  abpoa: /usr/local/bin/abpoa
+  dtr: /usr/local/bin/dtr
+  te-discover: /usr/local/bin/te-discover
+  te-refine: /usr/local/bin/te-refine
+  te-seed: /usr/local/bin/te-seed
+  spoa: /usr/local/bin/spoa
