@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msisensor-rna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msisensor-rna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msisensor-rna/container.yaml"
-updated_at: "2026-07-11 06:19:56.748530"
+updated_at: "2026-07-12 06:06:39.755648"
 latest: "0.1.6a--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msisensor-rna"
 aliases:

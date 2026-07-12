@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strandphaser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strandphaser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strandphaser/container.yaml"
-updated_at: "2026-07-11 05:55:15.687932"
+updated_at: "2026-07-12 05:41:52.566335"
 latest: "1.0.2--r44hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/strandphaser"
 

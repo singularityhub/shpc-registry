@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hspeccdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hspeccdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hspeccdf/container.yaml"
-updated_at: "2026-07-11 06:29:07.646308"
+updated_at: "2026-07-12 06:15:59.284144"
 latest: "0.99.1--r44hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-hspeccdf"
 

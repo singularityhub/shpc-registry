@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chap_mddb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chap_mddb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chap_mddb/container.yaml"
-updated_at: "2026-07-11 06:32:35.339397"
+updated_at: "2026-07-12 06:19:16.950888"
 latest: "0.10.0--hb5b1ef8_1"
 container_url: "https://biocontainers.pro/tools/chap_mddb"
 aliases:

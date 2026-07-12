@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vclean/container.yaml"
-updated_at: "2026-07-11 06:01:13.431466"
+updated_at: "2026-07-12 05:47:48.114179"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vclean"
 aliases:

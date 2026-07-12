@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-clean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-clean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-clean/container.yaml"
-updated_at: "2026-07-11 06:27:09.929816"
+updated_at: "2026-07-12 06:14:01.639991"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-clean"
 aliases:

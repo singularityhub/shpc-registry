@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cenmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cenmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cenmap/container.yaml"
-updated_at: "2026-07-11 05:59:47.868328"
+updated_at: "2026-07-12 05:46:24.215829"
 latest: "1.2.1--h118bc1c_0"
 container_url: "https://biocontainers.pro/tools/cenmap"
 aliases:

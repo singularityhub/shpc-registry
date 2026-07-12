@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cram-archiver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cram-archiver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cram-archiver/container.yaml"
-updated_at: "2026-07-11 06:27:35.847347"
+updated_at: "2026-07-12 06:14:27.077554"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cram-archiver"
 aliases:

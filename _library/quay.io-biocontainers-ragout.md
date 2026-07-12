@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ragout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ragout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ragout/container.yaml"
-updated_at: "2026-07-11 06:28:08.034008"
+updated_at: "2026-07-12 06:14:59.518364"
 latest: "2.3--py38h2494328_6"
 container_url: "https://biocontainers.pro/tools/ragout"
 aliases:

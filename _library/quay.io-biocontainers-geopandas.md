@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/geopandas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geopandas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/geopandas/container.yaml"
-updated_at: "2026-07-11 06:16:21.574436"
-latest: "1.1.3"
+updated_at: "2026-07-12 06:02:56.673180"
+latest: "1.1.4"
 container_url: "https://biocontainers.pro/tools/geopandas"
 aliases:
  - "gdal_footprint"
@@ -43,8 +43,9 @@ versions:
  - "1.1.1"
  - "1.1.2"
  - "1.1.3"
+ - "1.1.4"
 description: "singularity registry hpc automated addition for geopandas"
-config: {"url": "https://biocontainers.pro/tools/geopandas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for geopandas", "latest": {"1.1.3": "sha256:983297cb146a2b5120858995fb072cf904ca1fe0edce0b07f4bcb7e14967dc10"}, "tags": {"1.0.1": "sha256:6c9877f08b72dbb1052281213333da095e88f6fba105405ad61b8ccc59d6a0dc", "1.1.1": "sha256:a22822669876c538c32c3e9b1d5eae3dc921ca75892d0f81611adda510af780f", "1.1.2": "sha256:1edfca31eb04723b26567d7e661aa947d93601003b890897eb0f5c696787875a", "1.1.3": "sha256:983297cb146a2b5120858995fb072cf904ca1fe0edce0b07f4bcb7e14967dc10"}, "docker": "quay.io/biocontainers/geopandas", "aliases": {"gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "pyproj": "/usr/local/bin/pyproj", "sozip": "/usr/local/bin/sozip", "bsdunzip": "/usr/local/bin/bsdunzip", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo", "gdalbuildvrt": "/usr/local/bin/gdalbuildvrt", "gdaldem": "/usr/local/bin/gdaldem", "gdalenhance": "/usr/local/bin/gdalenhance", "gdalinfo": "/usr/local/bin/gdalinfo", "gdallocationinfo": "/usr/local/bin/gdallocationinfo", "gdalmanage": "/usr/local/bin/gdalmanage", "gdalsrsinfo": "/usr/local/bin/gdalsrsinfo", "gdaltindex": "/usr/local/bin/gdaltindex"}}
+config: {"url": "https://biocontainers.pro/tools/geopandas", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for geopandas", "latest": {"1.1.4": "sha256:f5fcc1898f7ceb5b3fbada9f9b1c43925efae188d91cf9f250c7ec4d6a5b2cd9"}, "tags": {"1.0.1": "sha256:6c9877f08b72dbb1052281213333da095e88f6fba105405ad61b8ccc59d6a0dc", "1.1.1": "sha256:a22822669876c538c32c3e9b1d5eae3dc921ca75892d0f81611adda510af780f", "1.1.2": "sha256:1edfca31eb04723b26567d7e661aa947d93601003b890897eb0f5c696787875a", "1.1.3": "sha256:983297cb146a2b5120858995fb072cf904ca1fe0edce0b07f4bcb7e14967dc10", "1.1.4": "sha256:f5fcc1898f7ceb5b3fbada9f9b1c43925efae188d91cf9f250c7ec4d6a5b2cd9"}, "docker": "quay.io/biocontainers/geopandas", "aliases": {"gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "pyproj": "/usr/local/bin/pyproj", "sozip": "/usr/local/bin/sozip", "bsdunzip": "/usr/local/bin/bsdunzip", "gdal_create": "/usr/local/bin/gdal_create", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp", "gnmanalyse": "/usr/local/bin/gnmanalyse", "gnmmanage": "/usr/local/bin/gnmmanage", "listgeo": "/usr/local/bin/listgeo", "makegeo": "/usr/local/bin/makegeo", "gdal-config": "/usr/local/bin/gdal-config", "gdal_contour": "/usr/local/bin/gdal_contour", "gdal_grid": "/usr/local/bin/gdal_grid", "gdal_rasterize": "/usr/local/bin/gdal_rasterize", "gdal_translate": "/usr/local/bin/gdal_translate", "gdaladdo": "/usr/local/bin/gdaladdo", "gdalbuildvrt": "/usr/local/bin/gdalbuildvrt", "gdaldem": "/usr/local/bin/gdaldem", "gdalenhance": "/usr/local/bin/gdalenhance", "gdalinfo": "/usr/local/bin/gdalinfo", "gdallocationinfo": "/usr/local/bin/gdallocationinfo", "gdalmanage": "/usr/local/bin/gdalmanage", "gdalsrsinfo": "/usr/local/bin/gdalsrsinfo", "gdaltindex": "/usr/local/bin/gdaltindex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/geopandas.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/geopandas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/geopandas:1.1.3
+$ shpc install quay.io/biocontainers/geopandas:1.1.4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/geopandas/1.1.3
-$ module help quay.io/biocontainers/geopandas/1.1.3
+$ module load quay.io/biocontainers/geopandas/1.1.4
+$ module help quay.io/biocontainers/geopandas/1.1.4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

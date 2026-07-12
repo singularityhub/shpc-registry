@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tcgautils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgautils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgautils/container.yaml"
-updated_at: "2026-07-11 06:29:04.226496"
+updated_at: "2026-07-12 06:15:55.862735"
 latest: "1.30.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgautils"
 aliases:

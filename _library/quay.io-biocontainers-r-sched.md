@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sched"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sched/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sched/container.yaml"
-updated_at: "2026-07-11 06:26:12.633837"
+updated_at: "2026-07-12 06:13:04.147830"
 latest: "1.0.3--r45h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-sched"
 aliases:
