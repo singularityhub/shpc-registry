@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pbpigeon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pbpigeon
 latest:
-  1.4.0--h9948957_0: 
-    sha256:b8bb15a87474b40c6559ddbb4b75acd1ed3375dc2853c12f7c463bb777127ba7
+  26.2.0--h9ee0642_0: 
+    sha256:847acbeee0d0f093dfd6bda4bb0177fd20a2fe2f5bd466481581f34a725ffec7
 tags:
   0.1.2--hdfd78af_0: 
     sha256:15bbdf5c521e568fb265799e162856315dbaf42809827fb8e4175a57e521466e
@@ -21,6 +21,8 @@ tags:
     sha256:d68b3e2d4b961a27a80e649bbfce7d58e7d65992541bd3590816b25d85b85cec
   1.4.0--h9948957_0: 
     sha256:b8bb15a87474b40c6559ddbb4b75acd1ed3375dc2853c12f7c463bb777127ba7
+  26.2.0--h9ee0642_0: 
+    sha256:847acbeee0d0f093dfd6bda4bb0177fd20a2fe2f5bd466481581f34a725ffec7
 docker: quay.io/biocontainers/pbpigeon
 aliases:
   pigeon: /usr/local/bin/pigeon

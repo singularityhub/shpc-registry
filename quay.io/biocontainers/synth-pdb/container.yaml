@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/synth-pdb
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for synth-pdb
 latest:
-  1.38.1--pyhdfd78af_0: 
-    sha256:73126dd4c48180900f28e77f2fcf7bea336a51be9915276b5ca5ac481f75a0b8
+  1.39.0--pyhdfd78af_0: 
+    sha256:25b386e1d4f800518686826272d95310ce9b3d35056f6284cce5b793d33a72c9
 tags:
   1.16.0--pyhdfd78af_0: 
     sha256:73800666cce77bbb094fa9b883a91b1625880696582f48ae101b55571d74d46d
@@ -23,6 +23,8 @@ tags:
     sha256:73126dd4c48180900f28e77f2fcf7bea336a51be9915276b5ca5ac481f75a0b8
   1.37.1--pyhdfd78af_0: 
     sha256:c35ce0e765fb74b47936a7d1b451ad583195f4f995b5a498aa199c45ae0063de
+  1.39.0--pyhdfd78af_0: 
+    sha256:25b386e1d4f800518686826272d95310ce9b3d35056f6284cce5b793d33a72c9
 docker: quay.io/biocontainers/synth-pdb
 aliases:
   synth-pdb: /usr/local/bin/synth-pdb
