@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/args_oap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/args_oap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/args_oap/container.yaml"
-updated_at: "2026-07-12 05:51:46.792435"
-latest: "3.2.4--pyhdfd78af_0"
+updated_at: "2026-07-13 06:00:19.778064"
+latest: "3.2.4--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/args_oap"
 aliases:
  - "args_oap"
@@ -39,8 +39,9 @@ versions:
  - "3.2.2--pyhdfd78af_0"
  - "3.2.3--pyhdfd78af_0"
  - "3.2.4--pyhdfd78af_0"
+ - "3.2.4--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for args_oap"
-config: {"url": "https://biocontainers.pro/tools/args_oap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for args_oap", "latest": {"3.2.4--pyhdfd78af_0": "sha256:aba2ea84efee111396da0c35ab96893b02c22c2ad57b50175a98de94356322e8"}, "tags": {"3.2.2--pyhdfd78af_0": "sha256:035c6573848666c012677d1106e3fe929d4c27b5d031e6f653701a1d275546dd", "3.2.3--pyhdfd78af_0": "sha256:66b7b8a203840da12ce70265a7989fdfd2ba4e14b793f2c4692751e24083761c", "3.2.4--pyhdfd78af_0": "sha256:aba2ea84efee111396da0c35ab96893b02c22c2ad57b50175a98de94356322e8"}, "docker": "quay.io/biocontainers/args_oap", "aliases": {"args_oap": "/usr/local/bin/args_oap", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "diamond": "/usr/local/bin/diamond", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl"}}
+config: {"url": "https://biocontainers.pro/tools/args_oap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for args_oap", "latest": {"3.2.4--pyhdfd78af_1": "sha256:94cad5bb985125daa89acae55fc40db8c33b2aba5cbd6a1327878bb342b34199"}, "tags": {"3.2.2--pyhdfd78af_0": "sha256:035c6573848666c012677d1106e3fe929d4c27b5d031e6f653701a1d275546dd", "3.2.3--pyhdfd78af_0": "sha256:66b7b8a203840da12ce70265a7989fdfd2ba4e14b793f2c4692751e24083761c", "3.2.4--pyhdfd78af_0": "sha256:aba2ea84efee111396da0c35ab96893b02c22c2ad57b50175a98de94356322e8", "3.2.4--pyhdfd78af_1": "sha256:94cad5bb985125daa89acae55fc40db8c33b2aba5cbd6a1327878bb342b34199"}, "docker": "quay.io/biocontainers/args_oap", "aliases": {"args_oap": "/usr/local/bin/args_oap", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "diamond": "/usr/local/bin/diamond", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh", "find-in-gene": "/usr/local/bin/find-in-gene", "fuse-ranges": "/usr/local/bin/fuse-ranges", "hgvs2spdi": "/usr/local/bin/hgvs2spdi", "json2xml": "/usr/local/bin/json2xml", "print-columns": "/usr/local/bin/print-columns", "snp2hgvs": "/usr/local/bin/snp2hgvs", "snp2tbl": "/usr/local/bin/snp2tbl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/args_oap.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/args_oap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/args_oap:3.2.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/args_oap:3.2.4--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/args_oap/3.2.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/args_oap/3.2.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/args_oap/3.2.4--pyhdfd78af_1
+$ module help quay.io/biocontainers/args_oap/3.2.4--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

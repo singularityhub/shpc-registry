@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-isocorrectorgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isocorrectorgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isocorrectorgui/container.yaml"
-updated_at: "2026-07-12 05:56:19.984259"
+updated_at: "2026-07-13 06:04:45.765894"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isocorrectorgui"
 aliases:

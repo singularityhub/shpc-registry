@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacontextify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacontextify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacontextify/container.yaml"
-updated_at: "2026-07-12 06:21:21.002015"
+updated_at: "2026-07-13 06:29:06.407057"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metacontextify"
 aliases:

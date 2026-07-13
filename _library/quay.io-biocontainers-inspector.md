@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/inspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inspector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inspector/container.yaml"
-updated_at: "2026-07-12 06:01:35.700578"
+updated_at: "2026-07-13 06:09:54.655909"
 latest: "1.3.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/inspector"
 aliases:

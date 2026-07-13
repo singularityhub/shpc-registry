@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tinker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tinker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tinker/container.yaml"
-updated_at: "2026-07-12 06:12:10.043772"
+updated_at: "2026-07-13 06:20:00.505148"
 latest: "8.11.3--h8d36177_0"
 container_url: "https://biocontainers.pro/tools/tinker"
 aliases:

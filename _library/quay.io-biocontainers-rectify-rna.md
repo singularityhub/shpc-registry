@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rectify-rna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rectify-rna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rectify-rna/container.yaml"
-updated_at: "2026-07-12 06:18:14.623872"
+updated_at: "2026-07-13 06:25:58.151260"
 latest: "2.7.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rectify-rna"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stampede"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stampede/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stampede/container.yaml"
-updated_at: "2026-07-12 05:46:00.886862"
+updated_at: "2026-07-13 05:54:35.709646"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stampede"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-mut-batch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-mut-batch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-mut-batch/container.yaml"
-updated_at: "2026-07-12 06:07:44.088908"
+updated_at: "2026-07-13 06:15:45.832496"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-mut-batch"
 aliases:

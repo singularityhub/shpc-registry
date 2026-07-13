@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eutils/container.yaml"
-updated_at: "2026-07-12 05:52:28.622589"
+updated_at: "2026-07-13 06:01:00.685033"
 latest: "0.6.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/eutils"
 aliases:

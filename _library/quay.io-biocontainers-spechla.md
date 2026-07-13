@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spechla"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spechla/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spechla/container.yaml"
-updated_at: "2026-07-12 06:07:05.910639"
+updated_at: "2026-07-13 06:15:08.346389"
 latest: "1.0.12--py312pl5321hdef70a9_0"
 container_url: "https://biocontainers.pro/tools/spechla"
 aliases:

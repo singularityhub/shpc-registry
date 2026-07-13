@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pdbecif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdbecif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pdbecif/container.yaml"
-updated_at: "2026-07-12 06:02:52.911383"
+updated_at: "2026-07-13 06:11:09.139925"
 latest: "1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pdbecif"
 aliases:

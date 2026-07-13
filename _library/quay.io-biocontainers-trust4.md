@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trust4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trust4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trust4/container.yaml"
-updated_at: "2026-07-12 06:26:05.961464"
+updated_at: "2026-07-13 06:33:49.377712"
 latest: "1.1.9--h7f5d12c_0"
 container_url: "https://biocontainers.pro/tools/trust4"
 aliases:

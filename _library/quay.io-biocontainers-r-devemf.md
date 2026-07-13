@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-devemf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-devemf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-devemf/container.yaml"
-updated_at: "2026-07-12 06:01:27.048756"
+updated_at: "2026-07-13 06:09:46.271283"
 latest: "4.6--r45hd883ed7_0"
 container_url: "https://biocontainers.pro/tools/r-devemf"
 aliases:

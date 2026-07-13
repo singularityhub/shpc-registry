@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/count_logan_tig_coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/count_logan_tig_coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/count_logan_tig_coverage/container.yaml"
-updated_at: "2026-07-12 06:12:04.476037"
+updated_at: "2026-07-13 06:19:55.180543"
 latest: "0.1.0--h80bd393_0"
 container_url: "https://biocontainers.pro/tools/count_logan_tig_coverage"
 aliases:

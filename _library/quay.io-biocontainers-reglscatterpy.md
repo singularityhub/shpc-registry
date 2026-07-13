@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/reglscatterpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reglscatterpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reglscatterpy/container.yaml"
-updated_at: "2026-07-12 05:50:09.446964"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2026-07-13 05:58:42.892578"
+latest: "0.6.36--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/reglscatterpy"
 aliases:
  - "reglscatterpy-report"
@@ -19,8 +19,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.4.1--pyhdfd78af_0"
+ - "0.6.36--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for reglscatterpy"
-config: {"url": "https://biocontainers.pro/tools/reglscatterpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reglscatterpy", "latest": {"0.4.1--pyhdfd78af_0": "sha256:7fea6e7b40ad970fb3f0c803ced14839236c52b437a887c6f137b550f2a28594"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:7fea6e7b40ad970fb3f0c803ced14839236c52b437a887c6f137b550f2a28594"}, "docker": "quay.io/biocontainers/reglscatterpy", "aliases": {"reglscatterpy-report": "/usr/local/bin/reglscatterpy-report", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/reglscatterpy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for reglscatterpy", "latest": {"0.6.36--pyhdfd78af_0": "sha256:d8d7ed9faa065c70f10de2d99ea58c7e55dd5659cb7d652733a55068a939cddb"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:7fea6e7b40ad970fb3f0c803ced14839236c52b437a887c6f137b550f2a28594", "0.6.36--pyhdfd78af_0": "sha256:d8d7ed9faa065c70f10de2d99ea58c7e55dd5659cb7d652733a55068a939cddb"}, "docker": "quay.io/biocontainers/reglscatterpy", "aliases": {"reglscatterpy-report": "/usr/local/bin/reglscatterpy-report", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/reglscatterpy.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/reglscatterpy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/reglscatterpy:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/reglscatterpy:0.6.36--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/reglscatterpy/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/reglscatterpy/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/reglscatterpy/0.6.36--pyhdfd78af_0
+$ module help quay.io/biocontainers/reglscatterpy/0.6.36--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

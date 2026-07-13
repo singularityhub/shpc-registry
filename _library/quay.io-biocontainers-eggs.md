@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eggs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eggs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eggs/container.yaml"
-updated_at: "2026-07-12 06:03:30.709370"
+updated_at: "2026-07-13 06:11:44.635409"
 latest: "1.0.0--hb7acf71_0"
 container_url: "https://biocontainers.pro/tools/eggs"
 aliases:

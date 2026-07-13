@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-want"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-want/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-want/container.yaml"
-updated_at: "2026-07-12 06:05:07.453508"
+updated_at: "2026-07-13 06:13:14.466381"
 latest: "0.29--pl5321h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/perl-want"
 aliases:

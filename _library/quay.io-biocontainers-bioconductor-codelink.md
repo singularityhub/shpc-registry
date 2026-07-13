@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-codelink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-codelink/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-codelink/container.yaml"
-updated_at: "2026-07-12 05:46:03.404848"
+updated_at: "2026-07-13 05:54:38.311496"
 latest: "1.78.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-codelink"
 

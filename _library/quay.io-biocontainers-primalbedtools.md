@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primalbedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primalbedtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primalbedtools/container.yaml"
-updated_at: "2026-07-12 05:45:17.988920"
+updated_at: "2026-07-13 05:53:52.386323"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/primalbedtools"
 aliases:

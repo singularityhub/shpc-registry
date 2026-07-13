@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pybarrnap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybarrnap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybarrnap/container.yaml"
-updated_at: "2026-07-12 06:17:14.213191"
+updated_at: "2026-07-13 06:24:58.865206"
 latest: "0.5.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pybarrnap"
 aliases:

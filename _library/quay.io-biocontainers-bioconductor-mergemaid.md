@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mergemaid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mergemaid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mergemaid/container.yaml"
-updated_at: "2026-07-12 06:23:13.534993"
+updated_at: "2026-07-13 06:30:58.134988"
 latest: "2.59.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mergemaid"
 aliases:

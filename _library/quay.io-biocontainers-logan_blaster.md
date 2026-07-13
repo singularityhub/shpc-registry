@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/logan_blaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logan_blaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/logan_blaster/container.yaml"
-updated_at: "2026-07-12 06:11:27.596339"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2026-07-13 06:19:19.298094"
+latest: "0.1.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/logan_blaster"
 aliases:
  - "back_to_sequences"
@@ -37,8 +37,9 @@ aliases:
  - "archive-nihocc"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.1.3--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for logan_blaster"
-config: {"url": "https://biocontainers.pro/tools/logan_blaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for logan_blaster", "latest": {"0.1.3--pyhdfd78af_0": "sha256:c11414880ba894c4ae3c675c8418a55fcc25bbc51dea6a4e808d84afed32a1ba"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:c11414880ba894c4ae3c675c8418a55fcc25bbc51dea6a4e808d84afed32a1ba"}, "docker": "quay.io/biocontainers/logan_blaster", "aliases": {"back_to_sequences": "/usr/local/bin/back_to_sequences", "logan_blaster": "/usr/local/bin/logan_blaster", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-nihocc": "/usr/local/bin/archive-nihocc"}}
+config: {"url": "https://biocontainers.pro/tools/logan_blaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for logan_blaster", "latest": {"0.1.3--pyhdfd78af_1": "sha256:f969e41f934c3d82e119e70b6287eecbb62647ce22bc10cdf3770c83796c2b12"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:c11414880ba894c4ae3c675c8418a55fcc25bbc51dea6a4e808d84afed32a1ba", "0.1.3--pyhdfd78af_1": "sha256:f969e41f934c3d82e119e70b6287eecbb62647ce22bc10cdf3770c83796c2b12"}, "docker": "quay.io/biocontainers/logan_blaster", "aliases": {"back_to_sequences": "/usr/local/bin/back_to_sequences", "logan_blaster": "/usr/local/bin/logan_blaster", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "archive-nihocc": "/usr/local/bin/archive-nihocc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/logan_blaster.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/logan_blaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/logan_blaster:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/logan_blaster:0.1.3--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/logan_blaster/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/logan_blaster/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/logan_blaster/0.1.3--pyhdfd78af_1
+$ module help quay.io/biocontainers/logan_blaster/0.1.3--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

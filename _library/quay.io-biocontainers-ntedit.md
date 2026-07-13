@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntedit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntedit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntedit/container.yaml"
-updated_at: "2026-07-12 05:47:54.027032"
+updated_at: "2026-07-13 05:56:28.371443"
 latest: "2.1.1--pl5321hf426362_1"
 container_url: "https://biocontainers.pro/tools/ntedit"
 aliases:

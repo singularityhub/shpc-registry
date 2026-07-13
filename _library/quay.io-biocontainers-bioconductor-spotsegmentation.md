@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spotsegmentation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spotsegmentation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spotsegmentation/container.yaml"
-updated_at: "2026-07-12 06:15:42.566710"
+updated_at: "2026-07-13 06:23:28.052354"
 latest: "1.61.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spotsegmentation"
 aliases:

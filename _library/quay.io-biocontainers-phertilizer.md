@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phertilizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phertilizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phertilizer/container.yaml"
-updated_at: "2026-07-12 05:52:36.437657"
+updated_at: "2026-07-13 06:01:08.319162"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phertilizer"
 aliases:

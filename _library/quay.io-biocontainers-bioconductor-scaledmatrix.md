@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scaledmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scaledmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scaledmatrix/container.yaml"
-updated_at: "2026-07-12 06:01:51.975667"
+updated_at: "2026-07-13 06:10:10.603742"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scaledmatrix"
 
