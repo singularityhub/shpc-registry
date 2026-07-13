@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/shellinford
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for shellinford
+latest:
+  0.4.1--py310hd766df8_0: 
+    sha256:56c8a56a3b81bbe969165c1fbc6421b5d062efa3630e87ef88f04d77c13a8987
+tags:
+  0.4.1--py310hd766df8_0: 
+    sha256:56c8a56a3b81bbe969165c1fbc6421b5d062efa3630e87ef88f04d77c13a8987
+docker: quay.io/biocontainers/shellinford
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
