@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/reglscatterpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for reglscatterpy
 latest:
-  0.4.1--pyhdfd78af_0: 
-    sha256:7fea6e7b40ad970fb3f0c803ced14839236c52b437a887c6f137b550f2a28594
+  0.6.36--pyhdfd78af_0: 
+    sha256:d8d7ed9faa065c70f10de2d99ea58c7e55dd5659cb7d652733a55068a939cddb
 tags:
   0.4.1--pyhdfd78af_0: 
     sha256:7fea6e7b40ad970fb3f0c803ced14839236c52b437a887c6f137b550f2a28594
+  0.6.36--pyhdfd78af_0: 
+    sha256:d8d7ed9faa065c70f10de2d99ea58c7e55dd5659cb7d652733a55068a939cddb
 docker: quay.io/biocontainers/reglscatterpy
 aliases:
   reglscatterpy-report: /usr/local/bin/reglscatterpy-report
