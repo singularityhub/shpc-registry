@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/priorcons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/priorcons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/priorcons/container.yaml"
-updated_at: "2026-07-13 05:59:12.254499"
+updated_at: "2026-07-14 05:09:08.999690"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/priorcons"
 aliases:

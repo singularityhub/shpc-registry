@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fiji-morpholibj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fiji-morpholibj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fiji-morpholibj/container.yaml"
-updated_at: "2026-07-13 06:24:01.740817"
+updated_at: "2026-07-14 05:29:11.192898"
 latest: "1.6.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fiji-morpholibj"
 aliases:

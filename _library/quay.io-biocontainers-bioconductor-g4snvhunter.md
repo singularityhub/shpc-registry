@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-g4snvhunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-g4snvhunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-g4snvhunter/container.yaml"
-updated_at: "2026-07-13 06:05:42.119444"
+updated_at: "2026-07-14 05:14:31.614419"
 latest: "1.2.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-g4snvhunter"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gap/container.yaml"
-updated_at: "2026-07-13 06:13:26.059750"
+updated_at: "2026-07-14 05:20:39.482250"
 latest: "1.2.1--r36h9bbef5b_1"
 container_url: "https://biocontainers.pro/tools/r-gap"
 aliases:

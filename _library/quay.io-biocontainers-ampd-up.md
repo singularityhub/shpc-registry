@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ampd-up"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampd-up/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampd-up/container.yaml"
-updated_at: "2026-07-13 06:24:38.186711"
+updated_at: "2026-07-14 05:29:40.194340"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampd-up"
 aliases:

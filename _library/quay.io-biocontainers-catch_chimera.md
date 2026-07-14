@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/catch_chimera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/catch_chimera/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/catch_chimera/container.yaml"
-updated_at: "2026-07-13 06:30:49.472636"
+updated_at: "2026-07-14 05:34:33.475780"
 latest: "1.0--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/catch_chimera"
 aliases:

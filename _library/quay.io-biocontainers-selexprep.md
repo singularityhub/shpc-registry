@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/selexprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selexprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selexprep/container.yaml"
-updated_at: "2026-07-13 06:11:15.824629"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2026-07-14 05:18:55.695114"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/selexprep"
 aliases:
  - "selexprep"
@@ -36,8 +36,10 @@ aliases:
  - "orc-memory"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for selexprep"
-config: {"url": "https://biocontainers.pro/tools/selexprep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for selexprep", "latest": {"0.1.1--pyhdfd78af_0": "sha256:42b77130f6f01c09bf1e10cac72bda50645a723f2d02f1ba003bcc18e7d32f09"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:42b77130f6f01c09bf1e10cac72bda50645a723f2d02f1ba003bcc18e7d32f09"}, "docker": "quay.io/biocontainers/selexprep", "aliases": {"selexprep": "/usr/local/bin/selexprep", "idna": "/usr/local/bin/idna", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "cutadapt": "/usr/local/bin/cutadapt", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "typer": "/usr/local/bin/typer", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory"}}
+config: {"url": "https://biocontainers.pro/tools/selexprep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for selexprep", "latest": {"0.3.0--pyhdfd78af_0": "sha256:dec4cdb7a866d7fbb742a72eceb72f074f588733042d9161b08e5519c1afe8e6"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:42b77130f6f01c09bf1e10cac72bda50645a723f2d02f1ba003bcc18e7d32f09", "0.3.0--pyhdfd78af_0": "sha256:dec4cdb7a866d7fbb742a72eceb72f074f588733042d9161b08e5519c1afe8e6", "0.2.1--pyhdfd78af_0": "sha256:8b16c9213eb7e62be3aea41bd9d8b537c7618c2479de06a4ed68427821da186a"}, "docker": "quay.io/biocontainers/selexprep", "aliases": {"selexprep": "/usr/local/bin/selexprep", "idna": "/usr/local/bin/idna", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "cutadapt": "/usr/local/bin/cutadapt", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "typer": "/usr/local/bin/typer", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "igzip": "/usr/local/bin/igzip", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/selexprep.
@@ -52,7 +54,7 @@ $ shpc install quay.io/biocontainers/selexprep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/selexprep:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/selexprep:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/selexprep/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/selexprep/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/selexprep/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/selexprep/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

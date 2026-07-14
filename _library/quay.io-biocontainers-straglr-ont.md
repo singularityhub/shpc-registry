@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/straglr-ont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/straglr-ont/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/straglr-ont/container.yaml"
-updated_at: "2026-07-13 06:25:42.209612"
+updated_at: "2026-07-14 05:30:31.579239"
 latest: "1.4.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/straglr-ont"
 aliases:

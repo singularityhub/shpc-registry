@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maverick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maverick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maverick/container.yaml"
-updated_at: "2026-07-13 06:18:56.902050"
+updated_at: "2026-07-14 05:25:03.922763"
 latest: "1.0.5--h9948957_0"
 container_url: "https://biocontainers.pro/tools/maverick"
 aliases:

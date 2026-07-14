@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spp-dcj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spp-dcj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spp-dcj/container.yaml"
-updated_at: "2026-07-13 05:55:03.888139"
+updated_at: "2026-07-14 05:05:32.636010"
 latest: "2.0.0--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/spp-dcj"
 aliases:

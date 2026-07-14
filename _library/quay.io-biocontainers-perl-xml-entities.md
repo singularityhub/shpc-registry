@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-entities"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-entities/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-entities/container.yaml"
-updated_at: "2026-07-13 06:19:39.460881"
+updated_at: "2026-07-14 05:25:39.300413"
 latest: "1.0002--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-xml-entities"
 aliases:
