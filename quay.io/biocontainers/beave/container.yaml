@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/beave
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for beave
+latest:
+  1.0.0--py314h2362204_0: 
+    sha256:5774bbcc80f98af0cb35901e9a4a4ae5db92c579d65433e5492d64f13b1b1481
+tags:
+  1.0.0--py314h2362204_0: 
+    sha256:5774bbcc80f98af0cb35901e9a4a4ae5db92c579d65433e5492d64f13b1b1481
+docker: quay.io/biocontainers/beave
+aliases:
+  beave: /usr/local/bin/beave
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

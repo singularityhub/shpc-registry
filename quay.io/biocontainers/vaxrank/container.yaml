@@ -1,0 +1,90 @@
+url: https://biocontainers.pro/tools/vaxrank
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vaxrank
+latest:
+  1.4.0--pyhdfd78af_0: 
+    sha256:d805b3795e21f621e27bbf947a206b9d5bac3881003e11d9f7c001fee556bfee
+tags:
+  1.4.0--pyhdfd78af_0: 
+    sha256:d805b3795e21f621e27bbf947a206b9d5bac3881003e11d9f7c001fee556bfee
+docker: quay.io/biocontainers/vaxrank
+aliases:
+  fits2bitmap: /usr/local/bin/fits2bitmap
+  fitscheck: /usr/local/bin/fitscheck
+  fitsdiff: /usr/local/bin/fitsdiff
+  fitsheader: /usr/local/bin/fitsheader
+  fitsinfo: /usr/local/bin/fitsinfo
+  isovar: /usr/local/bin/isovar
+  isovar-allele-counts: /usr/local/bin/isovar-allele-counts
+  isovar-allele-reads: /usr/local/bin/isovar-allele-reads
+  isovar-protein-sequences: /usr/local/bin/isovar-protein-sequences
+  isovar-reference-contexts: /usr/local/bin/isovar-reference-contexts
+  isovar-translations: /usr/local/bin/isovar-translations
+  isovar-variant-reads: /usr/local/bin/isovar-variant-reads
+  isovar-variant-sequences: /usr/local/bin/isovar-variant-sequences
+  mhcflurry-calibrate-percentile-ranks: 
+    /usr/local/bin/mhcflurry-calibrate-percentile-ranks
+  mhcflurry-class1-select-allele-specific-models: 
+    /usr/local/bin/mhcflurry-class1-select-allele-specific-models
+  mhcflurry-class1-select-pan-allele-models: 
+    /usr/local/bin/mhcflurry-class1-select-pan-allele-models
+  mhcflurry-class1-select-processing-models: 
+    /usr/local/bin/mhcflurry-class1-select-processing-models
+  mhcflurry-class1-train-allele-specific-models: 
+    /usr/local/bin/mhcflurry-class1-train-allele-specific-models
+  mhcflurry-class1-train-pan-allele-models: 
+    /usr/local/bin/mhcflurry-class1-train-pan-allele-models
+  mhcflurry-class1-train-presentation-models: 
+    /usr/local/bin/mhcflurry-class1-train-presentation-models
+  mhcflurry-class1-train-processing-models: 
+    /usr/local/bin/mhcflurry-class1-train-processing-models
+  mhcflurry-cluster-worker-entry-point: 
+    /usr/local/bin/mhcflurry-cluster-worker-entry-point
+  mhcflurry-downloads: /usr/local/bin/mhcflurry-downloads
+  mhcflurry-predict: /usr/local/bin/mhcflurry-predict
+  mhcflurry-predict-scan: /usr/local/bin/mhcflurry-predict-scan
+  mhcgnomes: /usr/local/bin/mhcgnomes
+  mhctools: /usr/local/bin/mhctools
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  psl: /usr/local/bin/psl
+  psl-make-dafsa: /usr/local/bin/psl-make-dafsa
+  pylint-config: /usr/local/bin/pylint-config
+  pypandoc: /usr/local/bin/pypandoc
+  roman: /usr/local/bin/roman
+  samp_hub: /usr/local/bin/samp_hub
+  showtable: /usr/local/bin/showtable
+  showtable-astropy: /usr/local/bin/showtable-astropy
+  varcode: /usr/local/bin/varcode
+  varcode-genes: /usr/local/bin/varcode-genes
+  vaxrank: /usr/local/bin/vaxrank
+  volint: /usr/local/bin/volint
+  wcslint: /usr/local/bin/wcslint
+  pyensembl: /usr/local/bin/pyensembl
+  isort-identify-imports: /usr/local/bin/isort-identify-imports
+  pylint: /usr/local/bin/pylint
+  pyreverse: /usr/local/bin/pyreverse
+  symilar: /usr/local/bin/symilar
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  isort: /usr/local/bin/isort
+  debugpy: /usr/local/bin/debugpy
+  runxlrd.py: /usr/local/bin/runxlrd.py
+  fc-genconf: /usr/local/bin/fc-genconf
+  idna: /usr/local/bin/idna
+  get_gprof: /usr/local/bin/get_gprof
+  dask: /usr/local/bin/dask
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  h2benchmark: /usr/local/bin/h2benchmark
+  elastishadow: /usr/local/bin/elastishadow
+  curve_keygen: /usr/local/bin/curve_keygen
+  get_objgraph: /usr/local/bin/get_objgraph
