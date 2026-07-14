@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/crisprme
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for crisprme
 latest:
-  2.1.10--py38hdfd78af_0: 
-    sha256:96e884f92104c06c8761f54bf0f45ba8d85850d75506add64c182b7a731eaa1a
+  2.1.11--py38hdfd78af_0: 
+    sha256:412dab2923850dc375d5341eaba1a0403a82b85f8bea88c070a817a83b3cf155
 tags:
   1.6.8--hdfd78af_0: 
     sha256:10b29b3dc7beee5957972f5221f83e5155bd07b3b11387366d3bc55b313a0adf
@@ -25,6 +25,8 @@ tags:
     sha256:a612cd70d1cbcb7708b9625c4b43eab4bac9ad314ca060580ee4a07a24e73d39
   2.1.10--py38hdfd78af_0: 
     sha256:96e884f92104c06c8761f54bf0f45ba8d85850d75506add64c182b7a731eaa1a
+  2.1.11--py38hdfd78af_0: 
+    sha256:412dab2923850dc375d5341eaba1a0403a82b85f8bea88c070a817a83b3cf155
 docker: quay.io/biocontainers/crisprme
 aliases:
   crispritz.py: /usr/local/bin/crispritz.py

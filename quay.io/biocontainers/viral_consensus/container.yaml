@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/viral_consensus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viral_consensus
 latest:
-  1.0.1--hcf1f8c1_0: 
-    sha256:0fe7b230e214e213996d839238e9298415789b36f88da52cc8d281c729f21da7
+  1.0.4--he58c905_0: 
+    sha256:aa3de52c8fcbc20438e3f039063548ea31a68998133441dcdbe355bd1389eb34
 tags:
   0.0.4--h0033a41_0: 
     sha256:1081f2581f356e22ebf2dee2097b36e3fb2b275f2c0af027896ef0fc077b75a6
@@ -15,6 +15,8 @@ tags:
     sha256:b13056a49003b4d4869b0656a841bc995193fac188504aca90d2c1763391b463
   1.0.1--hcf1f8c1_0: 
     sha256:0fe7b230e214e213996d839238e9298415789b36f88da52cc8d281c729f21da7
+  1.0.4--he58c905_0: 
+    sha256:aa3de52c8fcbc20438e3f039063548ea31a68998133441dcdbe355bd1389eb34
 docker: quay.io/biocontainers/viral_consensus
 aliases:
   viral_consensus: /usr/local/bin/viral_consensus

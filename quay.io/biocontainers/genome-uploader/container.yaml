@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/genome-uploader
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for genome-uploader
 latest:
-  3.0.1--pyhdfd78af_0: 
-    sha256:0f29515a0d48d3e0fc38d5a0209e7f2a3c52f63892358da4d6b6fb321341da77
+  3.0.3--pyhdfd78af_0: 
+    sha256:b21708e967622b4fa999095b70a85846613d603bed1100232252660c0ca3e2de
 tags:
   2.3.4--pyhdfd78af_0: 
     sha256:ec820d0723caa96a0e6912b01a8564a01e60928867e1fabbcbb0bb679fa7f4bc
@@ -19,6 +19,8 @@ tags:
     sha256:74ad44faeb4c7b7250862817bbfc7e7e2aea2eef34833c3fce1bdf1b5c77c3bc
   3.0.1--pyhdfd78af_0: 
     sha256:0f29515a0d48d3e0fc38d5a0209e7f2a3c52f63892358da4d6b6fb321341da77
+  3.0.3--pyhdfd78af_0: 
+    sha256:b21708e967622b4fa999095b70a85846613d603bed1100232252660c0ca3e2de
 docker: quay.io/biocontainers/genome-uploader
 aliases:
   ena-webin-cli: /usr/local/bin/ena-webin-cli

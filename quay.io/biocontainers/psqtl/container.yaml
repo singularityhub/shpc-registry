@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/psqtl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for psqtl
 latest:
-  1.3.9--hdfd78af_0: 
-    sha256:3406c695088d24106825c57ea89f04d1225fea5c16cb03896f6c89f3cd827589
+  1.3.10--hdfd78af_0: 
+    sha256:7a1590afb2fbb2b22a6776131fb4878cdf523094ceff221ff4fcd61cfb62049b
 tags:
   1.3.7--hdfd78af_0: 
     sha256:8132a05f5140dafa70b220fb285731576371588831f409cfbc87e1e8ce17b6ac
   1.3.9--hdfd78af_0: 
     sha256:3406c695088d24106825c57ea89f04d1225fea5c16cb03896f6c89f3cd827589
+  1.3.10--hdfd78af_0: 
+    sha256:7a1590afb2fbb2b22a6776131fb4878cdf523094ceff221ff4fcd61cfb62049b
 docker: quay.io/biocontainers/psqtl
 aliases:
   gff2gff: /usr/local/bin/gff2gff

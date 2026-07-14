@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/iprophit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for iprophit
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:bb728c84e5858f8f9365e19d2d2f5574cb394574806af869b39185530f9dc822
+  1.0.1--pyhdfd78af_0: 
+    sha256:4cbb1ab8c7c18f470e96a92cdd1cb1b148b790445fea3485d5d66667cee01e9f
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:bb728c84e5858f8f9365e19d2d2f5574cb394574806af869b39185530f9dc822
+  1.0.1--pyhdfd78af_0: 
+    sha256:4cbb1ab8c7c18f470e96a92cdd1cb1b148b790445fea3485d5d66667cee01e9f
 docker: quay.io/biocontainers/iprophit
 aliases:
   iprophit: /usr/local/bin/iprophit

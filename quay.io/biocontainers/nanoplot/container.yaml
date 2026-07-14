@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nanoplot
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanoplot
 latest:
-  1.47.0--pyhdfd78af_0: 
-    sha256:a8a69ea13d2a261da56704467f2072e53512478348815e86e50203db3c4f8264
+  1.47.1--pyhdfd78af_0: 
+    sha256:e6884d92d007214f7f3dd302c4555710fad02977e7fbf52f5a79cdcc802c06ee
 tags:
   1.8.1--py36_0: 
     sha256:b73d5b3c734675e473b3ecea4cd72df9f224877b51f8f8e68693a10b98dc733f
@@ -41,6 +41,8 @@ tags:
     sha256:8f964b02dbf29e9fc5bf2d914cccbd83cfeb8dc9d57b604e1bcd2991a19186e0
   1.47.0--pyhdfd78af_0: 
     sha256:a8a69ea13d2a261da56704467f2072e53512478348815e86e50203db3c4f8264
+  1.47.1--pyhdfd78af_0: 
+    sha256:e6884d92d007214f7f3dd302c4555710fad02977e7fbf52f5a79cdcc802c06ee
 docker: quay.io/biocontainers/nanoplot
 aliases:
   NanoPlot: /usr/local/bin/NanoPlot
