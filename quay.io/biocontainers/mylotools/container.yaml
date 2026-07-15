@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mylotools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mylotools
 latest:
-  2.0.0--pyh7e72e81_0: 
-    sha256:668f7d17f99f9a52011bbebcc516d196c70f0079e4aca2f4922954e1bedbb921
+  2.1.0--pyh106432d_0: 
+    sha256:fc7f3600a0bbca0cb9d22d7c1e7a2df8d0839c3f90e28d119784615bd4093e80
 tags:
   2.0.0--pyh7e72e81_0: 
     sha256:668f7d17f99f9a52011bbebcc516d196c70f0079e4aca2f4922954e1bedbb921
+  2.1.0--pyh106432d_0: 
+    sha256:fc7f3600a0bbca0cb9d22d7c1e7a2df8d0839c3f90e28d119784615bd4093e80
 docker: quay.io/biocontainers/mylotools
 aliases:
   mylotools: /usr/local/bin/mylotools

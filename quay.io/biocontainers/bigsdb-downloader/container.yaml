@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bigsdb-downloader
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bigsdb-downloader
 latest:
-  1.0.5--pyhdfd78af_0: 
-    sha256:2334ea29283c0623fe81aebab27c04627e3a909811c615c9a0c9988c6b731a11
+  1.0.6--pyhdfd78af_0: 
+    sha256:a52b0421917b32be03f1354907a5fd425c579523c03c609a71ec7a18ec9b679e
 tags:
   1.0.5--pyhdfd78af_0: 
     sha256:2334ea29283c0623fe81aebab27c04627e3a909811c615c9a0c9988c6b731a11
+  1.0.6--pyhdfd78af_0: 
+    sha256:a52b0421917b32be03f1354907a5fd425c579523c03c609a71ec7a18ec9b679e
 docker: quay.io/biocontainers/bigsdb-downloader
 aliases:
   bigsdb-downloader: /usr/local/bin/bigsdb-downloader

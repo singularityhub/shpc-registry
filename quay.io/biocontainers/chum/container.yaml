@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/chum
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chum
 latest:
-  0.2.0--h79ce301_0: 
-    sha256:3035a7c58386c05b83e6d64123a40b211c36766aa108aa95563ed59c40c27ac9
+  0.3.0--hec9b1f2_1: 
+    sha256:589bf72dd933629cdb58f6e23bb17b34bb695f28413c65fa309a642a6180e0af
 tags:
   0.2.0--h79ce301_0: 
     sha256:3035a7c58386c05b83e6d64123a40b211c36766aa108aa95563ed59c40c27ac9
+  0.3.0--hec9b1f2_1: 
+    sha256:589bf72dd933629cdb58f6e23bb17b34bb695f28413c65fa309a642a6180e0af
 docker: quay.io/biocontainers/chum
 aliases:
   chum: /usr/local/bin/chum
