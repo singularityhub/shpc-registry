@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mylotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mylotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mylotools/container.yaml"
-updated_at: "2026-07-14 04:57:59.123268"
-latest: "2.0.0--pyh7e72e81_0"
+updated_at: "2026-07-15 04:59:33.390240"
+latest: "2.1.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/mylotools"
 aliases:
  - "mylotools"
@@ -32,8 +32,9 @@ aliases:
  - "opj_dump"
 versions:
  - "2.0.0--pyh7e72e81_0"
+ - "2.1.0--pyh106432d_0"
 description: "singularity registry hpc automated addition for mylotools"
-config: {"url": "https://biocontainers.pro/tools/mylotools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mylotools", "latest": {"2.0.0--pyh7e72e81_0": "sha256:668f7d17f99f9a52011bbebcc516d196c70f0079e4aca2f4922954e1bedbb921"}, "tags": {"2.0.0--pyh7e72e81_0": "sha256:668f7d17f99f9a52011bbebcc516d196c70f0079e4aca2f4922954e1bedbb921"}, "docker": "quay.io/biocontainers/mylotools", "aliases": {"mylotools": "/usr/local/bin/mylotools", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/mylotools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mylotools", "latest": {"2.1.0--pyh106432d_0": "sha256:fc7f3600a0bbca0cb9d22d7c1e7a2df8d0839c3f90e28d119784615bd4093e80"}, "tags": {"2.0.0--pyh7e72e81_0": "sha256:668f7d17f99f9a52011bbebcc516d196c70f0079e4aca2f4922954e1bedbb921", "2.1.0--pyh106432d_0": "sha256:fc7f3600a0bbca0cb9d22d7c1e7a2df8d0839c3f90e28d119784615bd4093e80"}, "docker": "quay.io/biocontainers/mylotools", "aliases": {"mylotools": "/usr/local/bin/mylotools", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mylotools.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/mylotools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mylotools:2.0.0--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/mylotools:2.1.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mylotools/2.0.0--pyh7e72e81_0
-$ module help quay.io/biocontainers/mylotools/2.0.0--pyh7e72e81_0
+$ module load quay.io/biocontainers/mylotools/2.1.0--pyh106432d_0
+$ module help quay.io/biocontainers/mylotools/2.1.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bigsdb-downloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigsdb-downloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigsdb-downloader/container.yaml"
-updated_at: "2026-07-14 05:30:13.351609"
-latest: "1.0.5--pyhdfd78af_0"
+updated_at: "2026-07-15 05:39:21.369992"
+latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bigsdb-downloader"
 aliases:
  - "bigsdb-downloader"
@@ -16,8 +16,9 @@ aliases:
  - "normalizer"
 versions:
  - "1.0.5--pyhdfd78af_0"
+ - "1.0.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bigsdb-downloader"
-config: {"url": "https://biocontainers.pro/tools/bigsdb-downloader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigsdb-downloader", "latest": {"1.0.5--pyhdfd78af_0": "sha256:2334ea29283c0623fe81aebab27c04627e3a909811c615c9a0c9988c6b731a11"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:2334ea29283c0623fe81aebab27c04627e3a909811c615c9a0c9988c6b731a11"}, "docker": "quay.io/biocontainers/bigsdb-downloader", "aliases": {"bigsdb-downloader": "/usr/local/bin/bigsdb-downloader", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/bigsdb-downloader", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bigsdb-downloader", "latest": {"1.0.6--pyhdfd78af_0": "sha256:a52b0421917b32be03f1354907a5fd425c579523c03c609a71ec7a18ec9b679e"}, "tags": {"1.0.5--pyhdfd78af_0": "sha256:2334ea29283c0623fe81aebab27c04627e3a909811c615c9a0c9988c6b731a11", "1.0.6--pyhdfd78af_0": "sha256:a52b0421917b32be03f1354907a5fd425c579523c03c609a71ec7a18ec9b679e"}, "docker": "quay.io/biocontainers/bigsdb-downloader", "aliases": {"bigsdb-downloader": "/usr/local/bin/bigsdb-downloader", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bigsdb-downloader.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bigsdb-downloader
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bigsdb-downloader:1.0.5--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bigsdb-downloader:1.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bigsdb-downloader/1.0.5--pyhdfd78af_0
-$ module help quay.io/biocontainers/bigsdb-downloader/1.0.5--pyhdfd78af_0
+$ module load quay.io/biocontainers/bigsdb-downloader/1.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/bigsdb-downloader/1.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

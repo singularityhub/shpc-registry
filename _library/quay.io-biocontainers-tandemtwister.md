@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tandemtwister"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tandemtwister/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tandemtwister/container.yaml"
-updated_at: "2026-07-14 05:02:55.211439"
+updated_at: "2026-07-15 05:05:50.153790"
 latest: "0.2.0--h9948957_0"
 container_url: "https://biocontainers.pro/tools/tandemtwister"
 aliases:

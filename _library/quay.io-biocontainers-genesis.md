@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genesis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genesis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genesis/container.yaml"
-updated_at: "2026-07-14 05:09:04.890299"
+updated_at: "2026-07-15 05:13:03.650462"
 latest: "0.34.0--h9516ec6_0"
 container_url: "https://biocontainers.pro/tools/genesis"
 

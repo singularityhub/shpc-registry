@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chum/container.yaml"
-updated_at: "2026-07-14 05:02:53.306684"
-latest: "0.2.0--h79ce301_0"
+updated_at: "2026-07-15 05:05:47.897473"
+latest: "0.3.0--hec9b1f2_1"
 container_url: "https://biocontainers.pro/tools/chum"
 aliases:
  - "chum"
@@ -36,8 +36,9 @@ aliases:
  - "RNAlocmin"
 versions:
  - "0.2.0--h79ce301_0"
+ - "0.3.0--hec9b1f2_1"
 description: "singularity registry hpc automated addition for chum"
-config: {"url": "https://biocontainers.pro/tools/chum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chum", "latest": {"0.2.0--h79ce301_0": "sha256:3035a7c58386c05b83e6d64123a40b211c36766aa108aa95563ed59c40c27ac9"}, "tags": {"0.2.0--h79ce301_0": "sha256:3035a7c58386c05b83e6d64123a40b211c36766aa108aa95563ed59c40c27ac9"}, "docker": "quay.io/biocontainers/chum", "aliases": {"chum": "/usr/local/bin/chum", "RNAconsensus": "/usr/local/bin/RNAconsensus", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin"}}
+config: {"url": "https://biocontainers.pro/tools/chum", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chum", "latest": {"0.3.0--hec9b1f2_1": "sha256:589bf72dd933629cdb58f6e23bb17b34bb695f28413c65fa309a642a6180e0af"}, "tags": {"0.2.0--h79ce301_0": "sha256:3035a7c58386c05b83e6d64123a40b211c36766aa108aa95563ed59c40c27ac9", "0.3.0--hec9b1f2_1": "sha256:589bf72dd933629cdb58f6e23bb17b34bb695f28413c65fa309a642a6180e0af"}, "docker": "quay.io/biocontainers/chum", "aliases": {"chum": "/usr/local/bin/chum", "RNAconsensus": "/usr/local/bin/RNAconsensus", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "RNAmultifold": "/usr/local/bin/RNAmultifold", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chum.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/chum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chum:0.2.0--h79ce301_0
+$ shpc install quay.io/biocontainers/chum:0.3.0--hec9b1f2_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chum/0.2.0--h79ce301_0
-$ module help quay.io/biocontainers/chum/0.2.0--h79ce301_0
+$ module load quay.io/biocontainers/chum/0.3.0--hec9b1f2_1
+$ module help quay.io/biocontainers/chum/0.3.0--hec9b1f2_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

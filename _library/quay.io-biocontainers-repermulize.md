@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/repermulize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repermulize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repermulize/container.yaml"
-updated_at: "2026-07-14 05:16:45.717900"
-latest: "1.1.1--r45hdfd78af_0"
+updated_at: "2026-07-15 05:22:37.669198"
+latest: "1.1.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/repermulize"
 aliases:
  - "pandoc-lua"
@@ -18,8 +18,9 @@ versions:
  - "1.0--r42hdfd78af_0"
  - "1.0.1--r42hdfd78af_0"
  - "1.1.1--r45hdfd78af_0"
+ - "1.1.2--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for repermulize"
-config: {"url": "https://biocontainers.pro/tools/repermulize", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for repermulize", "latest": {"1.1.1--r45hdfd78af_0": "sha256:2bf4915fe2ae9ad621f573a115aa014d5cdc6ef89c9febeafad4626c50115f8d"}, "tags": {"1.0--r42hdfd78af_0": "sha256:f667fb5b1cfdf646671fcf89295e25e0fb02113062ec09dce00c8274f7cd81b1", "1.0.1--r42hdfd78af_0": "sha256:09ff707b81773f7ddc9e8a6f8dfa182491e253e2a4f2f054508f172553308edc", "1.1.1--r45hdfd78af_0": "sha256:2bf4915fe2ae9ad621f573a115aa014d5cdc6ef89c9febeafad4626c50115f8d"}, "docker": "quay.io/biocontainers/repermulize", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/repermulize", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for repermulize", "latest": {"1.1.2--r45hdfd78af_0": "sha256:f49ddf93fb0f3bc48dc2869c5db45019e8ca5e63f08d6549bb43061ae8380a05"}, "tags": {"1.0--r42hdfd78af_0": "sha256:f667fb5b1cfdf646671fcf89295e25e0fb02113062ec09dce00c8274f7cd81b1", "1.0.1--r42hdfd78af_0": "sha256:09ff707b81773f7ddc9e8a6f8dfa182491e253e2a4f2f054508f172553308edc", "1.1.1--r45hdfd78af_0": "sha256:2bf4915fe2ae9ad621f573a115aa014d5cdc6ef89c9febeafad4626c50115f8d", "1.1.2--r45hdfd78af_0": "sha256:f49ddf93fb0f3bc48dc2869c5db45019e8ca5e63f08d6549bb43061ae8380a05"}, "docker": "quay.io/biocontainers/repermulize", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pandoc": "/usr/local/bin/pandoc", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repermulize.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/repermulize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/repermulize:1.1.1--r45hdfd78af_0
+$ shpc install quay.io/biocontainers/repermulize:1.1.2--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/repermulize/1.1.1--r45hdfd78af_0
-$ module help quay.io/biocontainers/repermulize/1.1.1--r45hdfd78af_0
+$ module load quay.io/biocontainers/repermulize/1.1.2--r45hdfd78af_0
+$ module help quay.io/biocontainers/repermulize/1.1.2--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

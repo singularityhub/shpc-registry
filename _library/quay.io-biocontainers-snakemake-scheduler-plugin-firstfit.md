@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-scheduler-plugin-firstfit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-scheduler-plugin-firstfit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-scheduler-plugin-firstfit/container.yaml"
-updated_at: "2026-07-14 04:55:54.989590"
+updated_at: "2026-07-15 04:56:51.690961"
 latest: "0.1.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-scheduler-plugin-firstfit"
 aliases:
