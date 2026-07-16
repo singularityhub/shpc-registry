@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcptools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcptools/container.yaml"
-updated_at: "2026-07-15 05:09:27.159765"
+updated_at: "2026-07-16 05:28:25.192663"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcptools"
 aliases:

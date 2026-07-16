@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qrscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qrscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qrscore/container.yaml"
-updated_at: "2026-07-15 05:39:25.602620"
+updated_at: "2026-07-16 05:58:03.171739"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qrscore"
 aliases:

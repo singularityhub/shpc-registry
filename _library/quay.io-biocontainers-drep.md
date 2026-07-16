@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drep/container.yaml"
-updated_at: "2026-07-15 05:23:21.541581"
+updated_at: "2026-07-16 05:42:00.559361"
 latest: "3.6.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drep"
 aliases:

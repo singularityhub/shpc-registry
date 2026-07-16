@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tedna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tedna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tedna/container.yaml"
-updated_at: "2026-07-15 05:03:12.934602"
+updated_at: "2026-07-16 05:22:17.379485"
 latest: "1.3.1--h503566f_0"
 container_url: "https://biocontainers.pro/tools/tedna"
 aliases:

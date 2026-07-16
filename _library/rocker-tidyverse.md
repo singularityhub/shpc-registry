@@ -4,8 +4,8 @@ name:  "rocker/tidyverse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/tidyverse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/tidyverse/container.yaml"
-updated_at: "2026-07-15 04:54:04.920269"
-latest: "4.6.0"
+updated_at: "2026-07-16 05:13:26.128728"
+latest: "4.6.1"
 container_url: "https://hub.docker.com/r/rocker/tidyverse"
 aliases:
  - "R"
@@ -35,8 +35,9 @@ versions:
  - "4.5.2"
  - "4.5.3"
  - "4.6.0"
+ - "4.6.1"
 description: "Version-stable build of R, rstudio, and R packages "
-config: {"docker": "rocker/tidyverse", "url": "https://hub.docker.com/r/rocker/tidyverse", "maintainer": "@vsoch", "description": "Version-stable build of R, rstudio, and R packages ", "latest": {"4.6.0": "sha256:a95c4680855df5b642a829882fc29e0aadc01708861af6f5919207b613235720"}, "tags": {"4.2.2": "sha256:fa2ba674c05b42fd45b06d3f9f087d27fff934331bb67a4de91f4308d705b3ce", "3.6.3": "sha256:e3be20f79432e88e5e242d553d2bba76caf61c41d14186edd1f6a2343800de74", "4.1.3": "sha256:b5ba2c933945868adff48be3c610c0b4938d22f985a8ba355d5f03afb22e26d4", "4.0.5": "sha256:ee5aa613e706cc10d510f31f52aa68f6507d944cebbff318f0ce925e6002062b", "4.2.3": "sha256:5d76bd6ca9a0b4e364618d04ff424db9c1489d5ffef5a5df7957bd483f7a95be", "4.3.0": "sha256:747abe4759da18f321f7c62ff213e81d69abd4fc9499a402a5280d9e3bd972be", "4.3.1": "sha256:553443e1f1c12e97e2781ad93a65af63a40a85fb960175b433c6af99e138b39a", "4.3.2": "sha256:8bf33106bb56e89b71607345ac61e1db2e8eee5ce1df8679c22b13644e0e074e", "4.3.3": "sha256:b2fc0a9357b1cb6c90b7a1ac527bd09f113d76f88175db8b99d205d73fbc31b7", "4.4.0": "sha256:3e72037abda2a32d86021bbe5725e727f2c02233e4072557bc70c1e890e3471b", "4.4.1": "sha256:1af3ecf3a6072c1426ada60fb343d6d25523b0fc6390c44a3909c510b821cce8", "4.4.2": "sha256:ea10e1a66bd303807cf601b46e9a7d098dd7ceb3fe36eab0e7cef95936d7df58", "4.4.3": "sha256:7b6ad006caffcbae246f8f3e761a2ec268b2101a25d54266a27c1bce6ced0689", "4.5.0": "sha256:4f41fd7b375e58fde20e00ed4d05c6eac1271314177fa22d94e1ea44d1ed1cff", "4.5.1": "sha256:c38f0fea583e3aa82d89d0038e5bb559a04fa813881031f61f6191e683954cf2", "4.5.2": "sha256:4813816ad695004b738ccfff8513ce43f017e6fe78fb273aafd0bee4d4e1070a", "4.5.3": "sha256:913d87bd9b81480b97bd4fc18e619e71d12b0a034bc80bb841830ac10278fd1a", "4.6.0": "sha256:a95c4680855df5b642a829882fc29e0aadc01708861af6f5919207b613235720"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-tidyverse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/tidyverse", "url": "https://hub.docker.com/r/rocker/tidyverse", "maintainer": "@vsoch", "description": "Version-stable build of R, rstudio, and R packages ", "latest": {"4.6.1": "sha256:6f7403826d9fcf09c403d2979e9143507cba0138a42298dd884fa9b91e976bbb"}, "tags": {"4.2.2": "sha256:fa2ba674c05b42fd45b06d3f9f087d27fff934331bb67a4de91f4308d705b3ce", "3.6.3": "sha256:e3be20f79432e88e5e242d553d2bba76caf61c41d14186edd1f6a2343800de74", "4.1.3": "sha256:b5ba2c933945868adff48be3c610c0b4938d22f985a8ba355d5f03afb22e26d4", "4.0.5": "sha256:ee5aa613e706cc10d510f31f52aa68f6507d944cebbff318f0ce925e6002062b", "4.2.3": "sha256:5d76bd6ca9a0b4e364618d04ff424db9c1489d5ffef5a5df7957bd483f7a95be", "4.3.0": "sha256:747abe4759da18f321f7c62ff213e81d69abd4fc9499a402a5280d9e3bd972be", "4.3.1": "sha256:553443e1f1c12e97e2781ad93a65af63a40a85fb960175b433c6af99e138b39a", "4.3.2": "sha256:8bf33106bb56e89b71607345ac61e1db2e8eee5ce1df8679c22b13644e0e074e", "4.3.3": "sha256:b2fc0a9357b1cb6c90b7a1ac527bd09f113d76f88175db8b99d205d73fbc31b7", "4.4.0": "sha256:3e72037abda2a32d86021bbe5725e727f2c02233e4072557bc70c1e890e3471b", "4.4.1": "sha256:1af3ecf3a6072c1426ada60fb343d6d25523b0fc6390c44a3909c510b821cce8", "4.4.2": "sha256:ea10e1a66bd303807cf601b46e9a7d098dd7ceb3fe36eab0e7cef95936d7df58", "4.4.3": "sha256:7b6ad006caffcbae246f8f3e761a2ec268b2101a25d54266a27c1bce6ced0689", "4.5.0": "sha256:4f41fd7b375e58fde20e00ed4d05c6eac1271314177fa22d94e1ea44d1ed1cff", "4.5.1": "sha256:c38f0fea583e3aa82d89d0038e5bb559a04fa813881031f61f6191e683954cf2", "4.5.2": "sha256:4813816ad695004b738ccfff8513ce43f017e6fe78fb273aafd0bee4d4e1070a", "4.5.3": "sha256:3a4f24ca1159bd822383cfb85f39d5602d9e2f447ace9271ab1330a207249328", "4.6.0": "sha256:d00d68ecb138a9f677125f453dd46fd8bbf914866c1cd01c27547403ccc393ce", "4.6.1": "sha256:6f7403826d9fcf09c403d2979e9143507cba0138a42298dd884fa9b91e976bbb"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-tidyverse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/tidyverse.
@@ -51,7 +52,7 @@ $ shpc install rocker/tidyverse
 Or a specific version:
 
 ```bash
-$ shpc install rocker/tidyverse:4.6.0
+$ shpc install rocker/tidyverse:4.6.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/tidyverse/4.6.0
-$ module help rocker/tidyverse/4.6.0
+$ module load rocker/tidyverse/4.6.1
+$ module help rocker/tidyverse/4.6.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

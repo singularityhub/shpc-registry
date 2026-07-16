@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngsrelate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsrelate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsrelate/container.yaml"
-updated_at: "2026-07-15 05:44:13.596178"
-latest: "2.3.0--h3be2455_0"
+updated_at: "2026-07-16 06:02:54.645035"
+latest: "2.3.1--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/ngsrelate"
 aliases:
  - "ngsRelate"
@@ -17,8 +17,9 @@ aliases:
 versions:
  - "2.0--hea85c65_0"
  - "2.3.0--h3be2455_0"
+ - "2.3.1--h3be2455_0"
 description: "singularity registry hpc automated addition for ngsrelate"
-config: {"url": "https://biocontainers.pro/tools/ngsrelate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngsrelate", "latest": {"2.3.0--h3be2455_0": "sha256:1410b795ab4a3a58544211a9dc2f528a793f4daa4f3cdead27c649de42aa97dc"}, "tags": {"2.0--hea85c65_0": "sha256:542dfb1db540a68037384ac53e54788fa6625eb83d7a19e4e2acd79da959ecaf", "2.3.0--h3be2455_0": "sha256:1410b795ab4a3a58544211a9dc2f528a793f4daa4f3cdead27c649de42aa97dc"}, "docker": "quay.io/biocontainers/ngsrelate", "aliases": {"ngsRelate": "/usr/local/bin/ngsRelate", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/ngsrelate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngsrelate", "latest": {"2.3.1--h3be2455_0": "sha256:c3eb223d77ac605f0439e5fe3de0e66eeec6caf7e0a5893db116dd4cccd1dc7a"}, "tags": {"2.0--hea85c65_0": "sha256:542dfb1db540a68037384ac53e54788fa6625eb83d7a19e4e2acd79da959ecaf", "2.3.0--h3be2455_0": "sha256:1410b795ab4a3a58544211a9dc2f528a793f4daa4f3cdead27c649de42aa97dc", "2.3.1--h3be2455_0": "sha256:c3eb223d77ac605f0439e5fe3de0e66eeec6caf7e0a5893db116dd4cccd1dc7a"}, "docker": "quay.io/biocontainers/ngsrelate", "aliases": {"ngsRelate": "/usr/local/bin/ngsRelate", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngsrelate.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/ngsrelate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngsrelate:2.3.0--h3be2455_0
+$ shpc install quay.io/biocontainers/ngsrelate:2.3.1--h3be2455_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngsrelate/2.3.0--h3be2455_0
-$ module help quay.io/biocontainers/ngsrelate/2.3.0--h3be2455_0
+$ module load quay.io/biocontainers/ngsrelate/2.3.1--h3be2455_0
+$ module help quay.io/biocontainers/ngsrelate/2.3.1--h3be2455_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/back_to_sequences"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/back_to_sequences/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/back_to_sequences/container.yaml"
-updated_at: "2026-07-15 05:15:10.522253"
-latest: "0.8.4--hab7d0fd_0"
+updated_at: "2026-07-16 05:33:59.433481"
+latest: "0.8.4--hab7d0fd_1"
 container_url: "https://biocontainers.pro/tools/back_to_sequences"
 aliases:
  - "back_to_sequences"
 versions:
  - "0.8.4--hab7d0fd_0"
+ - "0.8.4--hab7d0fd_1"
 description: "singularity registry hpc automated addition for back_to_sequences"
-config: {"url": "https://biocontainers.pro/tools/back_to_sequences", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for back_to_sequences", "latest": {"0.8.4--hab7d0fd_0": "sha256:d833bdc1be31b43a06fd5662d5f54a4855c15aaeda6289bffe29e34057372064"}, "tags": {"0.8.4--hab7d0fd_0": "sha256:d833bdc1be31b43a06fd5662d5f54a4855c15aaeda6289bffe29e34057372064"}, "docker": "quay.io/biocontainers/back_to_sequences", "aliases": {"back_to_sequences": "/usr/local/bin/back_to_sequences"}}
+config: {"url": "https://biocontainers.pro/tools/back_to_sequences", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for back_to_sequences", "latest": {"0.8.4--hab7d0fd_1": "sha256:d4767d4fe58bc5404b6cbae0a7754659d14b3bb497fea750be687dabefa7be1d"}, "tags": {"0.8.4--hab7d0fd_0": "sha256:d833bdc1be31b43a06fd5662d5f54a4855c15aaeda6289bffe29e34057372064", "0.8.4--hab7d0fd_1": "sha256:d4767d4fe58bc5404b6cbae0a7754659d14b3bb497fea750be687dabefa7be1d"}, "docker": "quay.io/biocontainers/back_to_sequences", "aliases": {"back_to_sequences": "/usr/local/bin/back_to_sequences"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/back_to_sequences.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/back_to_sequences
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/back_to_sequences:0.8.4--hab7d0fd_0
+$ shpc install quay.io/biocontainers/back_to_sequences:0.8.4--hab7d0fd_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/back_to_sequences/0.8.4--hab7d0fd_0
-$ module help quay.io/biocontainers/back_to_sequences/0.8.4--hab7d0fd_0
+$ module load quay.io/biocontainers/back_to_sequences/0.8.4--hab7d0fd_1
+$ module help quay.io/biocontainers/back_to_sequences/0.8.4--hab7d0fd_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

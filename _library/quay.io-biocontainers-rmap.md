@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmap/container.yaml"
-updated_at: "2026-07-15 05:32:15.236809"
+updated_at: "2026-07-16 05:50:52.209617"
 latest: "2.1--h2d50403_1"
 container_url: "https://biocontainers.pro/tools/rmap"
 aliases:

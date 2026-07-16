@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mageck-vispr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mageck-vispr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mageck-vispr/container.yaml"
-updated_at: "2026-07-15 05:27:38.542264"
+updated_at: "2026-07-16 05:46:16.474404"
 latest: "0.5.6--py_0"
 container_url: "https://biocontainers.pro/tools/mageck-vispr"
 aliases:
