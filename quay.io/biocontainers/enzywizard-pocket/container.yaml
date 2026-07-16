@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/enzywizard-pocket
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for enzywizard-pocket
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:260cae1977f1133fe9b0fd4b0f8314cb510be2bfef08d518b381ba5260f21491
+  1.0.2--pyhdfd78af_1: 
+    sha256:e62b992ee3cfd05d43cd005ffcf3a20f7aba97dcfa86d4f006cbde6f7fe44e77
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:260cae1977f1133fe9b0fd4b0f8314cb510be2bfef08d518b381ba5260f21491
+  1.0.2--pyhdfd78af_1: 
+    sha256:e62b992ee3cfd05d43cd005ffcf3a20f7aba97dcfa86d4f006cbde6f7fe44e77
 docker: quay.io/biocontainers/enzywizard-pocket
 aliases:
   enzywizard-pocket: /usr/local/bin/enzywizard-pocket

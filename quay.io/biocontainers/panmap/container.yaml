@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/panmap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for panmap
 latest:
-  0.1.1--0: 
-    sha256:d248c32dfa84bf82ed7632bb9e142e4bb9c4c6f940a0d94512f20ed8d00cbe04
+  0.1.2--0: 
+    sha256:675735f288cbfb28296076dad7a3865408693194f2c0be130d3f48c87f6d9136
 tags:
   0.1.1--0: 
     sha256:d248c32dfa84bf82ed7632bb9e142e4bb9c4c6f940a0d94512f20ed8d00cbe04
+  0.1.2--0: 
+    sha256:675735f288cbfb28296076dad7a3865408693194f2c0be130d3f48c87f6d9136
 docker: quay.io/biocontainers/panmap
 aliases:
   panmanUtils: /usr/local/bin/panmanUtils
