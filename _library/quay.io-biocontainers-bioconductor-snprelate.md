@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snprelate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snprelate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snprelate/container.yaml"
-updated_at: "2026-07-16 05:45:45.187254"
+updated_at: "2026-07-17 06:01:48.193959"
 latest: "1.44.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snprelate"
 

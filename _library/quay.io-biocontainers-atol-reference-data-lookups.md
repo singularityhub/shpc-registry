@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atol-reference-data-lookups"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-reference-data-lookups/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-reference-data-lookups/container.yaml"
-updated_at: "2026-07-16 06:01:45.705820"
+updated_at: "2026-07-17 06:05:41.628666"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-reference-data-lookups"
 aliases:

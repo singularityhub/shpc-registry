@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngmlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngmlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngmlr/container.yaml"
-updated_at: "2026-07-16 05:25:59.888120"
+updated_at: "2026-07-17 05:18:45.515574"
 latest: "0.2.7--h077b44d_10"
 container_url: "https://biocontainers.pro/tools/ngmlr"
 aliases:

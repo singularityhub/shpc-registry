@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/zipstrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zipstrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zipstrain/container.yaml"
-updated_at: "2026-07-16 05:38:04.032251"
+updated_at: "2026-07-17 05:44:38.276399"
 latest: "0.11.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/zipstrain"
 aliases:

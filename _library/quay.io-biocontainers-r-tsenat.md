@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-tsenat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tsenat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tsenat/container.yaml"
-updated_at: "2026-07-16 05:42:51.228277"
-latest: "0.99.0--r45h8471819_1"
+updated_at: "2026-07-17 06:01:57.017732"
+latest: "0.99.24--r45h8471819_0"
 container_url: "https://biocontainers.pro/tools/r-tsenat"
 aliases:
  - "hb-raster"
@@ -19,8 +19,9 @@ aliases:
  - "hb-info"
 versions:
  - "0.99.0--r45h8471819_1"
+ - "0.99.24--r45h8471819_0"
 description: "singularity registry hpc automated addition for r-tsenat"
-config: {"url": "https://biocontainers.pro/tools/r-tsenat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-tsenat", "latest": {"0.99.0--r45h8471819_1": "sha256:0c5c22c096682f8aa4842f4d5bf34c2b09f5734cfa7e459cc388d9494d39a20f"}, "tags": {"0.99.0--r45h8471819_1": "sha256:0c5c22c096682f8aa4842f4d5bf34c2b09f5734cfa7e459cc388d9494d39a20f"}, "docker": "quay.io/biocontainers/r-tsenat", "aliases": {"hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info"}}
+config: {"url": "https://biocontainers.pro/tools/r-tsenat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-tsenat", "latest": {"0.99.24--r45h8471819_0": "sha256:786e9695e49741393850fcb66c227bf66da91942d705f4c1ff1a51abef9844c6"}, "tags": {"0.99.0--r45h8471819_1": "sha256:0c5c22c096682f8aa4842f4d5bf34c2b09f5734cfa7e459cc388d9494d39a20f", "0.99.24--r45h8471819_0": "sha256:786e9695e49741393850fcb66c227bf66da91942d705f4c1ff1a51abef9844c6"}, "docker": "quay.io/biocontainers/r-tsenat", "aliases": {"hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tsenat.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/r-tsenat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tsenat:0.99.0--r45h8471819_1
+$ shpc install quay.io/biocontainers/r-tsenat:0.99.24--r45h8471819_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tsenat/0.99.0--r45h8471819_1
-$ module help quay.io/biocontainers/r-tsenat/0.99.0--r45h8471819_1
+$ module load quay.io/biocontainers/r-tsenat/0.99.24--r45h8471819_0
+$ module help quay.io/biocontainers/r-tsenat/0.99.24--r45h8471819_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

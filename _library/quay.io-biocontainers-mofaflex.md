@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mofaflex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mofaflex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mofaflex/container.yaml"
-updated_at: "2026-07-16 06:06:54.657487"
-latest: "0.1.1--pyh106432d_0"
+updated_at: "2026-07-17 05:22:31.266424"
+latest: "0.1.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/mofaflex"
 aliases:
  - "dtw"
@@ -37,8 +37,9 @@ aliases:
  - "hwloc-bind"
 versions:
  - "0.1.1--pyh106432d_0"
+ - "0.1.2--pyh106432d_0"
 description: "singularity registry hpc automated addition for mofaflex"
-config: {"url": "https://biocontainers.pro/tools/mofaflex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mofaflex", "latest": {"0.1.1--pyh106432d_0": "sha256:750a46ccde8f4c7de028998ae8aa55394aa03a5493fc16ba1251e31c6a635f5f"}, "tags": {"0.1.1--pyh106432d_0": "sha256:750a46ccde8f4c7de028998ae8aa55394aa03a5493fc16ba1251e31c6a635f5f"}, "docker": "quay.io/biocontainers/mofaflex", "aliases": {"dtw": "/usr/local/bin/dtw", "session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "elasticurl": "/usr/local/bin/elasticurl", "idle3.14": "/usr/local/bin/idle3.14", "natsort": "/usr/local/bin/natsort", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind"}}
+config: {"url": "https://biocontainers.pro/tools/mofaflex", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mofaflex", "latest": {"0.1.2--pyh106432d_0": "sha256:086f1b129df190f1fb37eba8731697135172f69e023cd8ccc96961805bb1c4b9"}, "tags": {"0.1.1--pyh106432d_0": "sha256:750a46ccde8f4c7de028998ae8aa55394aa03a5493fc16ba1251e31c6a635f5f", "0.1.2--pyh106432d_0": "sha256:086f1b129df190f1fb37eba8731697135172f69e023cd8ccc96961805bb1c4b9"}, "docker": "quay.io/biocontainers/mofaflex", "aliases": {"dtw": "/usr/local/bin/dtw", "session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "elasticurl": "/usr/local/bin/elasticurl", "idle3.14": "/usr/local/bin/idle3.14", "natsort": "/usr/local/bin/natsort", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mofaflex.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/mofaflex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mofaflex:0.1.1--pyh106432d_0
+$ shpc install quay.io/biocontainers/mofaflex:0.1.2--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mofaflex/0.1.1--pyh106432d_0
-$ module help quay.io/biocontainers/mofaflex/0.1.1--pyh106432d_0
+$ module load quay.io/biocontainers/mofaflex/0.1.2--pyh106432d_0
+$ module help quay.io/biocontainers/mofaflex/0.1.2--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

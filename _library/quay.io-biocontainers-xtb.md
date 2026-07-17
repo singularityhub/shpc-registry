@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xtb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xtb/container.yaml"
-updated_at: "2026-07-16 05:50:53.586259"
-latest: "6.6.1"
+updated_at: "2026-07-17 05:53:09.753032"
+latest: "6.7.1"
 container_url: "https://biocontainers.pro/tools/xtb"
 aliases:
  - "dftd4"
@@ -14,8 +14,9 @@ aliases:
  - "xtb"
 versions:
  - "6.6.1"
+ - "6.7.1"
 description: "singularity registry hpc automated addition for xtb"
-config: {"url": "https://biocontainers.pro/tools/xtb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for xtb", "latest": {"6.6.1": "sha256:d5e65f1a111bf7ba461073a7968aeeb6360c4a11cd0887972959abd3d72b26df"}, "tags": {"6.6.1": "sha256:d5e65f1a111bf7ba461073a7968aeeb6360c4a11cd0887972959abd3d72b26df"}, "docker": "quay.io/biocontainers/xtb", "aliases": {"dftd4": "/usr/local/bin/dftd4", "s-dftd3": "/usr/local/bin/s-dftd3", "tblite": "/usr/local/bin/tblite", "xtb": "/usr/local/bin/xtb"}}
+config: {"url": "https://biocontainers.pro/tools/xtb", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for xtb", "latest": {"6.7.1": "sha256:b4074cb8179bad9befd3443eaf837c5c9b7732cc86e33fcfa731ee87df97be5a"}, "tags": {"6.6.1": "sha256:d5e65f1a111bf7ba461073a7968aeeb6360c4a11cd0887972959abd3d72b26df", "6.7.1": "sha256:b4074cb8179bad9befd3443eaf837c5c9b7732cc86e33fcfa731ee87df97be5a"}, "docker": "quay.io/biocontainers/xtb", "aliases": {"dftd4": "/usr/local/bin/dftd4", "s-dftd3": "/usr/local/bin/s-dftd3", "tblite": "/usr/local/bin/tblite", "xtb": "/usr/local/bin/xtb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xtb.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/xtb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xtb:6.6.1
+$ shpc install quay.io/biocontainers/xtb:6.7.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xtb/6.6.1
-$ module help quay.io/biocontainers/xtb/6.6.1
+$ module load quay.io/biocontainers/xtb/6.7.1
+$ module help quay.io/biocontainers/xtb/6.7.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

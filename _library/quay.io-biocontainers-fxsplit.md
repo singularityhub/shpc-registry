@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fxsplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fxsplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fxsplit/container.yaml"
-updated_at: "2026-07-16 05:18:00.950571"
+updated_at: "2026-07-17 05:36:42.181100"
 latest: "0.0.5--hb42e459_0"
 container_url: "https://biocontainers.pro/tools/fxsplit"
 aliases:

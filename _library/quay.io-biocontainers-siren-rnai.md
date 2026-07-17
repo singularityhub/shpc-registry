@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/siren-rnai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/siren-rnai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/siren-rnai/container.yaml"
-updated_at: "2026-07-16 06:02:30.551225"
+updated_at: "2026-07-17 05:38:00.152591"
 latest: "0.1.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/siren-rnai"
 aliases:
