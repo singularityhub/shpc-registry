@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/oxbow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for oxbow
 latest:
-  0.8.0--py312he7d644a_0: 
-    sha256:b4f2839b93be031cb7ae3cc5d121ca780d894fad5920a017b2a7f0d730a94053
+  0.8.1--py310h75e7593_0: 
+    sha256:b3fc42826aeca7278909146b96ef29e9485c74c6f69b44d5e74c023a3f7ce0d2
 tags:
   0.4.1--py310hec43fc7_0: 
     sha256:3d04b8843fe99bcec1853ffb693a152cdd61f9467e6aa78e653e2fd449756fb8
@@ -19,6 +19,8 @@ tags:
     sha256:176f2649094c333c8ce062b04a04374d6098acea0bf0235e0a2f6e2ee9bb0ac5
   0.8.0--py312he7d644a_0: 
     sha256:b4f2839b93be031cb7ae3cc5d121ca780d894fad5920a017b2a7f0d730a94053
+  0.8.1--py310h75e7593_0: 
+    sha256:b3fc42826aeca7278909146b96ef29e9485c74c6f69b44d5e74c023a3f7ce0d2
 docker: quay.io/biocontainers/oxbow
 aliases:
   h2benchmark: /usr/local/bin/h2benchmark

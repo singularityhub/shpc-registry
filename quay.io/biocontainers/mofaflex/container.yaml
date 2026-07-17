@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mofaflex
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mofaflex
 latest:
-  0.1.1--pyh106432d_0: 
-    sha256:750a46ccde8f4c7de028998ae8aa55394aa03a5493fc16ba1251e31c6a635f5f
+  0.1.2--pyh106432d_0: 
+    sha256:086f1b129df190f1fb37eba8731697135172f69e023cd8ccc96961805bb1c4b9
 tags:
   0.1.1--pyh106432d_0: 
     sha256:750a46ccde8f4c7de028998ae8aa55394aa03a5493fc16ba1251e31c6a635f5f
+  0.1.2--pyh106432d_0: 
+    sha256:086f1b129df190f1fb37eba8731697135172f69e023cd8ccc96961805bb1c4b9
 docker: quay.io/biocontainers/mofaflex
 aliases:
   dtw: /usr/local/bin/dtw

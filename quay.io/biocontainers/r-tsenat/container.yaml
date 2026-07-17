@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/r-tsenat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-tsenat
 latest:
-  0.99.0--r45h8471819_1: 
-    sha256:0c5c22c096682f8aa4842f4d5bf34c2b09f5734cfa7e459cc388d9494d39a20f
+  0.99.24--r45h8471819_0: 
+    sha256:786e9695e49741393850fcb66c227bf66da91942d705f4c1ff1a51abef9844c6
 tags:
   0.99.0--r45h8471819_1: 
     sha256:0c5c22c096682f8aa4842f4d5bf34c2b09f5734cfa7e459cc388d9494d39a20f
+  0.99.24--r45h8471819_0: 
+    sha256:786e9695e49741393850fcb66c227bf66da91942d705f4c1ff1a51abef9844c6
 docker: quay.io/biocontainers/r-tsenat
 aliases:
   hb-raster: /usr/local/bin/hb-raster
