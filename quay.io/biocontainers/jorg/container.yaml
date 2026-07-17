@@ -1,0 +1,43 @@
+url: https://biocontainers.pro/tools/jorg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for jorg
+latest:
+  1.0.2--hdfd78af_0: 
+    sha256:43b1d760fa20d058f09e12e81319dfe28e5bbab36833a79f5a3404aeb121b3c0
+tags:
+  1.0.2--hdfd78af_0: 
+    sha256:43b1d760fa20d058f09e12e81319dfe28e5bbab36833a79f5a3404aeb121b3c0
+docker: quay.io/biocontainers/jorg
+aliases:
+  jorg: /usr/local/bin/jorg
+  mira: /usr/local/bin/mira
+  mira-install-sls-rrna.sh: /usr/local/bin/mira-install-sls-rrna.sh
+  mirabait: /usr/local/bin/mirabait
+  miraconvert: /usr/local/bin/miraconvert
+  miramem: /usr/local/bin/miramem
+  miramer: /usr/local/bin/miramer
+  gawk-5.4.0: /usr/local/bin/gawk-5.4.0
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  seqtk: /usr/local/bin/seqtk
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date

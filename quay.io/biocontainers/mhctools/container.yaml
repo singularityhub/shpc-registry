@@ -1,0 +1,69 @@
+url: https://biocontainers.pro/tools/mhctools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mhctools
+latest:
+  3.31.5--pyh106432d_0: 
+    sha256:017e2f1b37c1f3a19eb3386352a9a3713d3e15c039a70af6085a4fdb828a98b5
+tags:
+  3.31.5--pyh106432d_0: 
+    sha256:017e2f1b37c1f3a19eb3386352a9a3713d3e15c039a70af6085a4fdb828a98b5
+docker: quay.io/biocontainers/mhctools
+aliases:
+  mhcflurry-calibrate-percentile-ranks: 
+    /usr/local/bin/mhcflurry-calibrate-percentile-ranks
+  mhcflurry-class1-select-allele-specific-models: 
+    /usr/local/bin/mhcflurry-class1-select-allele-specific-models
+  mhcflurry-class1-select-pan-allele-models: 
+    /usr/local/bin/mhcflurry-class1-select-pan-allele-models
+  mhcflurry-class1-select-processing-models: 
+    /usr/local/bin/mhcflurry-class1-select-processing-models
+  mhcflurry-class1-train-allele-specific-models: 
+    /usr/local/bin/mhcflurry-class1-train-allele-specific-models
+  mhcflurry-class1-train-pan-allele-models: 
+    /usr/local/bin/mhcflurry-class1-train-pan-allele-models
+  mhcflurry-class1-train-presentation-models: 
+    /usr/local/bin/mhcflurry-class1-train-presentation-models
+  mhcflurry-class1-train-processing-models: 
+    /usr/local/bin/mhcflurry-class1-train-processing-models
+  mhcflurry-cluster-worker-entry-point: 
+    /usr/local/bin/mhcflurry-cluster-worker-entry-point
+  mhcflurry-downloads: /usr/local/bin/mhcflurry-downloads
+  mhcflurry-predict: /usr/local/bin/mhcflurry-predict
+  mhcflurry-predict-scan: /usr/local/bin/mhcflurry-predict-scan
+  mhcgnomes: /usr/local/bin/mhcgnomes
+  mhctools: /usr/local/bin/mhctools
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  psl: /usr/local/bin/psl
+  psl-make-dafsa: /usr/local/bin/psl-make-dafsa
+  pylint-config: /usr/local/bin/pylint-config
+  varcode: /usr/local/bin/varcode
+  varcode-genes: /usr/local/bin/varcode-genes
+  pyensembl: /usr/local/bin/pyensembl
+  isort-identify-imports: /usr/local/bin/isort-identify-imports
+  pylint: /usr/local/bin/pylint
+  pyreverse: /usr/local/bin/pyreverse
+  symilar: /usr/local/bin/symilar
+  isort: /usr/local/bin/isort
+  idna: /usr/local/bin/idna
+  get_gprof: /usr/local/bin/get_gprof
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  h2benchmark: /usr/local/bin/h2benchmark
+  elastishadow: /usr/local/bin/elastishadow
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  checksum-profile: /usr/local/bin/checksum-profile
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  elastipubsub5: /usr/local/bin/elastipubsub5
