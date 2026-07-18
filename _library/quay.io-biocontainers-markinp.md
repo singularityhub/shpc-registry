@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/markinp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markinp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markinp/container.yaml"
-updated_at: "2026-07-17 05:48:18.398016"
-latest: "0.2.0--pyh106432d_0"
+updated_at: "2026-07-18 05:19:08.204419"
+latest: "0.3.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/markinp"
 aliases:
  - "markinp"
@@ -18,8 +18,9 @@ aliases:
  - "pygmentize"
 versions:
  - "0.2.0--pyh106432d_0"
+ - "0.3.0--pyh106432d_0"
 description: "singularity registry hpc automated addition for markinp"
-config: {"url": "https://biocontainers.pro/tools/markinp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for markinp", "latest": {"0.2.0--pyh106432d_0": "sha256:67eb4322962da195c1c3697e1d955773a8bed97ebf99ac782a05d42767e86756"}, "tags": {"0.2.0--pyh106432d_0": "sha256:67eb4322962da195c1c3697e1d955773a8bed97ebf99ac782a05d42767e86756"}, "docker": "quay.io/biocontainers/markinp", "aliases": {"markinp": "/usr/local/bin/markinp", "typer": "/usr/local/bin/typer", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/markinp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for markinp", "latest": {"0.3.0--pyh106432d_0": "sha256:d5df7399d423e4226294d27eafe39a08fc1d1faa99ff717a0c4058663cf2ac7c"}, "tags": {"0.2.0--pyh106432d_0": "sha256:67eb4322962da195c1c3697e1d955773a8bed97ebf99ac782a05d42767e86756", "0.3.0--pyh106432d_0": "sha256:d5df7399d423e4226294d27eafe39a08fc1d1faa99ff717a0c4058663cf2ac7c"}, "docker": "quay.io/biocontainers/markinp", "aliases": {"markinp": "/usr/local/bin/markinp", "typer": "/usr/local/bin/typer", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/markinp.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/markinp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/markinp:0.2.0--pyh106432d_0
+$ shpc install quay.io/biocontainers/markinp:0.3.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/markinp/0.2.0--pyh106432d_0
-$ module help quay.io/biocontainers/markinp/0.2.0--pyh106432d_0
+$ module load quay.io/biocontainers/markinp/0.3.0--pyh106432d_0
+$ module help quay.io/biocontainers/markinp/0.3.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

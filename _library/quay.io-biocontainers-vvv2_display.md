@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vvv2_display"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vvv2_display/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vvv2_display/container.yaml"
-updated_at: "2026-07-17 05:51:08.336165"
+updated_at: "2026-07-18 05:21:38.408780"
 latest: "0.2.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vvv2_display"
 aliases:

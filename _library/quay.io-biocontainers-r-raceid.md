@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-raceid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-raceid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-raceid/container.yaml"
-updated_at: "2026-07-17 05:52:10.939303"
-latest: "0.2.3"
+updated_at: "2026-07-18 05:22:33.346615"
+latest: "0.4.2"
 container_url: "https://biocontainers.pro/tools/r-raceid"
 aliases:
  - "f2py3.9"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.2.3"
  - "0.2.3--2"
+ - "0.4.2"
 description: "shpc-registry automated BioContainers addition for r-raceid"
-config: {"url": "https://biocontainers.pro/tools/r-raceid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-raceid", "latest": {"0.2.3": "sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004"}, "tags": {"0.2.3": "sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004", "0.2.3--2": "sha256:a2c9d1c2362d27d93e127c6a8114f259d1712a7af4a933289fd00c9914a3b251"}, "docker": "quay.io/biocontainers/r-raceid", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-raceid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-raceid", "latest": {"0.4.2": "sha256:60c89078df2adf2b30df2d3c6858eefe884efdcd543a040b3bb361525ee948c5"}, "tags": {"0.2.3": "sha256:3a3f133c16619e71ac1db51c2e72c657fc99082bb5ffdbbd919bdd287d033004", "0.2.3--2": "sha256:a2c9d1c2362d27d93e127c6a8114f259d1712a7af4a933289fd00c9914a3b251", "0.4.2": "sha256:60c89078df2adf2b30df2d3c6858eefe884efdcd543a040b3bb361525ee948c5"}, "docker": "quay.io/biocontainers/r-raceid", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-raceid.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/r-raceid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-raceid:0.2.3
+$ shpc install quay.io/biocontainers/r-raceid:0.4.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-raceid/0.2.3
-$ module help quay.io/biocontainers/r-raceid/0.2.3
+$ module load quay.io/biocontainers/r-raceid/0.4.2
+$ module help quay.io/biocontainers/r-raceid/0.4.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/look4ltrs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/look4ltrs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/look4ltrs/container.yaml"
-updated_at: "2026-07-17 05:28:07.531721"
+updated_at: "2026-07-18 05:01:34.791577"
 latest: "1.0.0--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/look4ltrs"
 aliases:
