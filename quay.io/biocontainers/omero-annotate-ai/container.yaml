@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/omero-annotate-ai
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for omero-annotate-ai
 latest:
-  0.3.0--pyh106432d_0: 
-    sha256:1a3bf72a5739704400f6f633fd6a3f2e5eb8ed57cb76dc0ba8f12904730e1f70
+  0.3.2--pyh106432d_0: 
+    sha256:22cd9fb4d113f10fbf9010d73dd6f010db4b88cd98570324d3918c44e3df7157
 tags:
   0.2.1--pyh106432d_0: 
     sha256:786822a7d79df2ce73a2511648711f09c3558ec3dc0b20190785d0aea258455e
@@ -11,6 +11,8 @@ tags:
     sha256:1b838a6e5038df73eb793844f35f1fa9de5a00126474a9402d39e2db221c57c8
   0.3.0--pyh106432d_0: 
     sha256:1a3bf72a5739704400f6f633fd6a3f2e5eb8ed57cb76dc0ba8f12904730e1f70
+  0.3.2--pyh106432d_0: 
+    sha256:22cd9fb4d113f10fbf9010d73dd6f010db4b88cd98570324d3918c44e3df7157
 docker: quay.io/biocontainers/omero-annotate-ai
 aliases:
   backend-test-tools: /usr/local/bin/backend-test-tools

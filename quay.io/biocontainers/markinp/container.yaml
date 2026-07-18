@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/markinp
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for markinp
 latest:
-  0.2.0--pyh106432d_0: 
-    sha256:67eb4322962da195c1c3697e1d955773a8bed97ebf99ac782a05d42767e86756
+  0.3.0--pyh106432d_0: 
+    sha256:d5df7399d423e4226294d27eafe39a08fc1d1faa99ff717a0c4058663cf2ac7c
 tags:
   0.2.0--pyh106432d_0: 
     sha256:67eb4322962da195c1c3697e1d955773a8bed97ebf99ac782a05d42767e86756
+  0.3.0--pyh106432d_0: 
+    sha256:d5df7399d423e4226294d27eafe39a08fc1d1faa99ff717a0c4058663cf2ac7c
 docker: quay.io/biocontainers/markinp
 aliases:
   markinp: /usr/local/bin/markinp

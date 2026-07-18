@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pybiolib
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pybiolib
 latest:
-  1.4.158--pyhdfd78af_0: 
-    sha256:2117392013568daa565d44ad8d6fba4ba6395877c924779ee8f4539aecfa3c96
+  1.4.271--pyhdfd78af_0: 
+    sha256:d87a46d91e9053957076e9b343bc863321da35867869ceb3960c47ef44aa82bd
 tags:
   1.1.825--pyhdfd78af_0: 
     sha256:f72afaa64b3e814158be3c71b30ef036815c7f4fa72d6c618ef10762e96183be
@@ -79,6 +79,8 @@ tags:
     sha256:2117392013568daa565d44ad8d6fba4ba6395877c924779ee8f4539aecfa3c96
   1.3.521--pyhdfd78af_0: 
     sha256:caf22a5d2054853478550444de8daf4376b5aeebe1254ed9b51c99ad77ffb34e
+  1.4.271--pyhdfd78af_0: 
+    sha256:d87a46d91e9053957076e9b343bc863321da35867869ceb3960c47ef44aa82bd
 docker: quay.io/biocontainers/pybiolib
 aliases:
   biolib: /usr/local/bin/biolib
