@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simphyni"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simphyni/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simphyni/container.yaml"
-updated_at: "2026-07-18 04:59:12.227755"
+updated_at: "2026-07-19 05:33:25.855797"
 latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/simphyni"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dark-matter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dark-matter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dark-matter/container.yaml"
-updated_at: "2026-07-18 05:10:51.314375"
+updated_at: "2026-07-19 05:46:55.411580"
 latest: "5.1.2--py312h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/dark-matter"
 aliases:

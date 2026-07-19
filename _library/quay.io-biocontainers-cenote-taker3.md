@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cenote-taker3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cenote-taker3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cenote-taker3/container.yaml"
-updated_at: "2026-07-18 05:09:30.362348"
+updated_at: "2026-07-19 05:45:23.424569"
 latest: "3.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cenote-taker3"
 aliases:

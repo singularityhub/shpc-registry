@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plasfia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plasfia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plasfia/container.yaml"
-updated_at: "2026-07-18 05:14:35.664897"
+updated_at: "2026-07-19 05:51:08.448082"
 latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plasfia"
 aliases:

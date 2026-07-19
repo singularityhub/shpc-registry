@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geneplast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geneplast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geneplast/container.yaml"
-updated_at: "2026-07-18 05:32:43.932235"
+updated_at: "2026-07-19 06:11:39.715868"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geneplast"
 aliases:

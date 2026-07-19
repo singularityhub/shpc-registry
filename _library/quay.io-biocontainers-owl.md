@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/owl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/owl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/owl/container.yaml"
-updated_at: "2026-07-18 05:03:46.312282"
+updated_at: "2026-07-19 05:38:50.346007"
 latest: "0.4.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/owl"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mp-est"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mp-est/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mp-est/container.yaml"
-updated_at: "2026-07-18 04:53:53.070156"
+updated_at: "2026-07-19 05:27:20.566681"
 latest: "3.1.0--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/mp-est"
 aliases:

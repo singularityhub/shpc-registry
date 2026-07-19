@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seq-to-first-iso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq-to-first-iso/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seq-to-first-iso/container.yaml"
-updated_at: "2026-07-18 05:26:40.325380"
+updated_at: "2026-07-19 06:04:33.625471"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/seq-to-first-iso"
 aliases:

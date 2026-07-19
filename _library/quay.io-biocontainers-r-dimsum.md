@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dimsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dimsum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dimsum/container.yaml"
-updated_at: "2026-07-18 05:00:23.158155"
+updated_at: "2026-07-19 05:34:46.267606"
 latest: "1.4--r40hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-dimsum"
 aliases:

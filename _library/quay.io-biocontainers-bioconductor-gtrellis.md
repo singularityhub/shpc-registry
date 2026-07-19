@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gtrellis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gtrellis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gtrellis/container.yaml"
-updated_at: "2026-07-18 05:35:22.736195"
+updated_at: "2026-07-19 06:14:49.652577"
 latest: "1.42.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gtrellis"
 

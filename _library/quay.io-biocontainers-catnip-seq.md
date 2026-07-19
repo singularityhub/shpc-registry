@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/catnip-seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/catnip-seq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/catnip-seq/container.yaml"
-updated_at: "2026-07-18 05:10:38.828599"
+updated_at: "2026-07-19 05:46:41.089917"
 latest: "0.1.8--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/catnip-seq"
 aliases:

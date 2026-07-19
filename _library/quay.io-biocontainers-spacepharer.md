@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spacepharer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spacepharer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spacepharer/container.yaml"
-updated_at: "2026-07-18 05:23:15.079665"
+updated_at: "2026-07-19 06:00:42.284011"
 latest: "5.c2e680a--hd6d6fdc_7"
 container_url: "https://biocontainers.pro/tools/spacepharer"
 aliases:

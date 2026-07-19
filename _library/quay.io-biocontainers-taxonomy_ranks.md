@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxonomy_ranks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxonomy_ranks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxonomy_ranks/container.yaml"
-updated_at: "2026-07-18 05:16:05.237007"
+updated_at: "2026-07-19 05:52:49.068269"
 latest: "0.0.10--py_0"
 container_url: "https://biocontainers.pro/tools/taxonomy_ranks"
 aliases:
