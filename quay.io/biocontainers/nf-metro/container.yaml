@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nf-metro
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nf-metro
 latest:
-  0.7.2--pyhdfd78af_1: 
-    sha256:c72c340dfb651b5bc6965e4e480b30dc4cd0309b04fed6e8a8866014056e1dc4
+  1.1.0--pyhdfd78af_0: 
+    sha256:da1befe06445aef1985bf18bd3d3ad8ea76a8b3b44b107349f86941823329fab
 tags:
   0.4.7--pyhdfd78af_0: 
     sha256:b84af06300510b7d30ca9467bdc4d992c1345b17a7a0720bf58c78f086d85076
@@ -15,6 +15,12 @@ tags:
     sha256:649bb45fe267ef649fb551b60b5364521d57da69ebb05ea4fa341ae4f5ec0b49
   0.7.2--pyhdfd78af_1: 
     sha256:c72c340dfb651b5bc6965e4e480b30dc4cd0309b04fed6e8a8866014056e1dc4
+  1.1.0--pyhdfd78af_0: 
+    sha256:da1befe06445aef1985bf18bd3d3ad8ea76a8b3b44b107349f86941823329fab
+  1.0.0--pyhdfd78af_0: 
+    sha256:1fe628b7f37a5bb89eb5be2fc1a477717b88824000ecbbe7ae5b367d1b4dcbe8
+  0.7.2--pyhdfd78af_2: 
+    sha256:cbf2c9ea1e1db89c9485ea9937127bbeec88477b942f5c79d553b0cecf209723
 docker: quay.io/biocontainers/nf-metro
 aliases:
   nf-metro: /usr/local/bin/nf-metro
