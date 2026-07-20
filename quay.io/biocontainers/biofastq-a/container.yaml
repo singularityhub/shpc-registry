@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/biofastq-a
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biofastq-a
 latest:
-  2.3.0--h4349ce8_0: 
-    sha256:09b64133f680bb841c23464b3729f3e4acd3b324aaaff41931034bb2637cba8b
+  2.3.1--h4349ce8_0: 
+    sha256:273f2b4a55a5076f84d17c9be251a88ee0378aad559053f70329b43c96931a8e
 tags:
   2.2.0--h4349ce8_0: 
     sha256:89ddc22438578f1d0a6bd73c32d7f1da3309e031eb729bbd73fe3acdea4cae6d
   2.3.0--h4349ce8_0: 
     sha256:09b64133f680bb841c23464b3729f3e4acd3b324aaaff41931034bb2637cba8b
+  2.3.1--h4349ce8_0: 
+    sha256:273f2b4a55a5076f84d17c9be251a88ee0378aad559053f70329b43c96931a8e
 docker: quay.io/biocontainers/biofastq-a
 aliases:
   biofastq-a: /usr/local/bin/biofastq-a

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/anglerfish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for anglerfish
 latest:
-  0.7.0--pyhdfd78af_0: 
-    sha256:4db4b55a1a391d17f82a07a8548c9435c991d87d9f585a4b1f357392a4b43821
+  0.7.0--pyh106432d_1: 
+    sha256:ae24df605a6786daf7aceadf46bb4905f93fc8b746b11b40d954e82fe35361f7
 tags:
   0.4.2--pyhb7b1952_1: 
     sha256:bde25c7ae987a0376fbf6cc60b2afb38444e43c0ed040c51c88f77345d4b95ef
@@ -15,6 +15,8 @@ tags:
     sha256:ad23f99160f206a81dd1f1ddb464b48e68662134582e353ddc0cac3dc899cbab
   0.7.0--pyhdfd78af_0: 
     sha256:4db4b55a1a391d17f82a07a8548c9435c991d87d9f585a4b1f357392a4b43821
+  0.7.0--pyh106432d_1: 
+    sha256:ae24df605a6786daf7aceadf46bb4905f93fc8b746b11b40d954e82fe35361f7
 docker: quay.io/biocontainers/anglerfish
 aliases:
   anglerfish: /usr/local/bin/anglerfish
