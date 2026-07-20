@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arborist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arborist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arborist/container.yaml"
-updated_at: "2026-07-19 05:59:47.847750"
+updated_at: "2026-07-20 02:50:22.334676"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/arborist"
 aliases:

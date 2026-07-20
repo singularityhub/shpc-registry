@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/outrigger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/outrigger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/outrigger/container.yaml"
-updated_at: "2026-07-19 05:49:14.134756"
+updated_at: "2026-07-20 02:40:18.352707"
 latest: "1.1.1--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/outrigger"
 aliases:

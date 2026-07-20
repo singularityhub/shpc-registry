@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tipp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tipp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tipp/container.yaml"
-updated_at: "2026-07-19 06:01:41.609001"
+updated_at: "2026-07-20 02:52:13.060865"
 latest: "1.3.0--py38pl5321h077b44d_0"
 container_url: "https://biocontainers.pro/tools/tipp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hook-lexwrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hook-lexwrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hook-lexwrap/container.yaml"
-updated_at: "2026-07-19 05:47:45.846422"
+updated_at: "2026-07-20 02:38:55.476298"
 latest: "0.26--pl526_1"
 container_url: "https://biocontainers.pro/tools/perl-hook-lexwrap"
 aliases:

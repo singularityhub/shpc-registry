@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deepbluer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deepbluer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deepbluer/container.yaml"
-updated_at: "2026-07-19 06:07:37.190591"
+updated_at: "2026-07-20 02:58:00.205210"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deepbluer"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-medicagoprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-medicagoprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-medicagoprobe/container.yaml"
-updated_at: "2026-07-19 05:26:58.278313"
+updated_at: "2026-07-20 02:19:24.858728"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-medicagoprobe"
 

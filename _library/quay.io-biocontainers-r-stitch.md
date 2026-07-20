@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-stitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-stitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-stitch/container.yaml"
-updated_at: "2026-07-19 05:49:43.432380"
+updated_at: "2026-07-20 02:40:45.868086"
 latest: "1.8.5--r44h64f727c_0"
 container_url: "https://biocontainers.pro/tools/r-stitch"
 aliases:

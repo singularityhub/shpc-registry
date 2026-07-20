@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xunit-wrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xunit-wrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xunit-wrapper/container.yaml"
-updated_at: "2026-07-19 06:12:59.085476"
+updated_at: "2026-07-20 03:02:55.423533"
 latest: "0.12--pyh106432d_4"
 container_url: "https://biocontainers.pro/tools/xunit-wrapper"
 aliases:

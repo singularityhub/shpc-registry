@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phantompeakqualtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phantompeakqualtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phantompeakqualtools/container.yaml"
-updated_at: "2026-07-19 05:39:37.380672"
+updated_at: "2026-07-20 02:31:16.676485"
 latest: "1.2.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phantompeakqualtools"
 aliases:

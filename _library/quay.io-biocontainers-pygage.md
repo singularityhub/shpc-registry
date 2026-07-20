@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygage/container.yaml"
-updated_at: "2026-07-19 05:57:37.109817"
+updated_at: "2026-07-20 02:48:15.285176"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pygage"
 aliases:

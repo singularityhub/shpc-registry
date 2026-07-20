@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kid/container.yaml"
-updated_at: "2026-07-19 05:55:30.429609"
+updated_at: "2026-07-20 02:46:11.194721"
 latest: "0.9.6--py27_2"
 container_url: "https://biocontainers.pro/tools/kid"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-gdtextutil"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gdtextutil/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gdtextutil/container.yaml"
-updated_at: "2026-07-19 05:37:00.273395"
+updated_at: "2026-07-20 02:28:57.298909"
 latest: "0.86--pl5321h7b50bb2_9"
 container_url: "https://biocontainers.pro/tools/perl-gdtextutil"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-nhmmfdr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nhmmfdr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-nhmmfdr/container.yaml"
-updated_at: "2026-07-19 06:12:54.629858"
+updated_at: "2026-07-20 03:02:51.329555"
 latest: "1.0.6--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-nhmmfdr"
 aliases:

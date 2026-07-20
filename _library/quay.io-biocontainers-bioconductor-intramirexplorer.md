@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-intramirexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intramirexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intramirexplorer/container.yaml"
-updated_at: "2026-07-19 06:19:48.871346"
+updated_at: "2026-07-20 03:09:07.938119"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intramirexplorer"
 aliases:

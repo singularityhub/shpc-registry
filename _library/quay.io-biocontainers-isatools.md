@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isatools/container.yaml"
-updated_at: "2026-07-19 05:44:33.293678"
+updated_at: "2026-07-20 02:35:54.742957"
 latest: "0.14.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isatools"
 aliases:
