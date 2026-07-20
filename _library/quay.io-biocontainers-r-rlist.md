@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rlist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rlist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rlist/container.yaml"
-updated_at: "2026-07-20 02:38:47.323293"
+updated_at: "2026-07-20 06:05:17.953165"
 latest: "0.4.6.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-rlist"
 aliases:

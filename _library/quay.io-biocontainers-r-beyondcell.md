@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-beyondcell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-beyondcell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-beyondcell/container.yaml"
-updated_at: "2026-07-20 02:27:48.152921"
+updated_at: "2026-07-20 05:54:05.450137"
 latest: "1.3.3--r42h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/r-beyondcell"
 aliases:

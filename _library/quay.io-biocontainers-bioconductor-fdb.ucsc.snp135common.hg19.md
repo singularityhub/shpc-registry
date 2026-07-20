@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fdb.ucsc.snp135common.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fdb.ucsc.snp135common.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fdb.ucsc.snp135common.hg19/container.yaml"
-updated_at: "2026-07-20 02:28:50.119126"
+updated_at: "2026-07-20 05:55:08.291517"
 latest: "1.0.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-fdb.ucsc.snp135common.hg19"
 

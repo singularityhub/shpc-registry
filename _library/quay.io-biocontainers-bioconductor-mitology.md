@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mitology"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mitology/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mitology/container.yaml"
-updated_at: "2026-07-20 02:59:49.961536"
+updated_at: "2026-07-20 06:26:46.922558"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mitology"
 aliases:

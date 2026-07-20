@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/acinetoscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/acinetoscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/acinetoscope/container.yaml"
-updated_at: "2026-07-20 02:34:39.787356"
+updated_at: "2026-07-20 06:01:02.018600"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/acinetoscope"
 aliases:

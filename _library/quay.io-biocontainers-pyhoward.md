@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyhoward"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyhoward/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyhoward/container.yaml"
-updated_at: "2026-07-20 02:49:15.318697"
+updated_at: "2026-07-20 06:16:06.138016"
 latest: "0.13.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyhoward"
 aliases:

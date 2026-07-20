@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plyinteractions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plyinteractions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plyinteractions/container.yaml"
-updated_at: "2026-07-20 02:22:47.395281"
+updated_at: "2026-07-20 05:48:37.003582"
 latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plyinteractions"
 aliases:
