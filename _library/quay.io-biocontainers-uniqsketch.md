@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/uniqsketch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uniqsketch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uniqsketch/container.yaml"
-updated_at: "2026-07-20 05:56:09.268523"
-latest: "1.3.0--hf426362_0"
+updated_at: "2026-07-21 05:37:27.340865"
+latest: "1.5.0--hf426362_0"
 container_url: "https://biocontainers.pro/tools/uniqsketch"
 aliases:
  - "comparesketch"
@@ -15,8 +15,10 @@ versions:
  - "1.1.0--h077b44d_0"
  - "1.2.2--hf426362_0"
  - "1.3.0--hf426362_0"
+ - "1.5.0--hf426362_0"
+ - "1.4.0--hf426362_0"
 description: "singularity registry hpc automated addition for uniqsketch"
-config: {"url": "https://biocontainers.pro/tools/uniqsketch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for uniqsketch", "latest": {"1.3.0--hf426362_0": "sha256:5b3123f6f21203507d059a5b4e4c8feda03ac5e3f0c8d31f01388fcc08ecaae9"}, "tags": {"1.1.0--h077b44d_0": "sha256:599f747947a95ec1dfa9e389e8eab616c17fe47deabe1c0770ba9fa46ec8cecc", "1.2.2--hf426362_0": "sha256:4c81e26b5cda99f11f701a1c4645190e820d7bc993bc67234d37deb6ca3bf0fc", "1.3.0--hf426362_0": "sha256:5b3123f6f21203507d059a5b4e4c8feda03ac5e3f0c8d31f01388fcc08ecaae9"}, "docker": "quay.io/biocontainers/uniqsketch", "aliases": {"comparesketch": "/usr/local/bin/comparesketch", "querysketch": "/usr/local/bin/querysketch", "uniqsketch": "/usr/local/bin/uniqsketch"}}
+config: {"url": "https://biocontainers.pro/tools/uniqsketch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for uniqsketch", "latest": {"1.5.0--hf426362_0": "sha256:1d3b0caa68782778db04ba5fdfebdde7dcc49989f3305df076a780dfcb0a98ed"}, "tags": {"1.1.0--h077b44d_0": "sha256:599f747947a95ec1dfa9e389e8eab616c17fe47deabe1c0770ba9fa46ec8cecc", "1.2.2--hf426362_0": "sha256:4c81e26b5cda99f11f701a1c4645190e820d7bc993bc67234d37deb6ca3bf0fc", "1.3.0--hf426362_0": "sha256:5b3123f6f21203507d059a5b4e4c8feda03ac5e3f0c8d31f01388fcc08ecaae9", "1.5.0--hf426362_0": "sha256:1d3b0caa68782778db04ba5fdfebdde7dcc49989f3305df076a780dfcb0a98ed", "1.4.0--hf426362_0": "sha256:617cb996edd88ad430eb8813ecec1fdc88e4e35bf6890ffc9993a398a30259c0"}, "docker": "quay.io/biocontainers/uniqsketch", "aliases": {"comparesketch": "/usr/local/bin/comparesketch", "querysketch": "/usr/local/bin/querysketch", "uniqsketch": "/usr/local/bin/uniqsketch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/uniqsketch.
@@ -31,7 +33,7 @@ $ shpc install quay.io/biocontainers/uniqsketch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/uniqsketch:1.3.0--hf426362_0
+$ shpc install quay.io/biocontainers/uniqsketch:1.5.0--hf426362_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/uniqsketch/1.3.0--hf426362_0
-$ module help quay.io/biocontainers/uniqsketch/1.3.0--hf426362_0
+$ module load quay.io/biocontainers/uniqsketch/1.5.0--hf426362_0
+$ module help quay.io/biocontainers/uniqsketch/1.5.0--hf426362_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/count_logan_tig_coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/count_logan_tig_coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/count_logan_tig_coverage/container.yaml"
-updated_at: "2026-07-20 06:09:15.128874"
-latest: "0.1.0--h80bd393_0"
+updated_at: "2026-07-21 05:51:29.295103"
+latest: "0.1.0--h80bd393_1"
 container_url: "https://biocontainers.pro/tools/count_logan_tig_coverage"
 aliases:
  - "count_logan_tig_coverage"
 versions:
  - "0.1.0--h80bd393_0"
+ - "0.1.0--h80bd393_1"
 description: "singularity registry hpc automated addition for count_logan_tig_coverage"
-config: {"url": "https://biocontainers.pro/tools/count_logan_tig_coverage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for count_logan_tig_coverage", "latest": {"0.1.0--h80bd393_0": "sha256:dab690e250e981ce0fc9fdaf0c0716763e278d198d8aab0f5899f44479ee84d2"}, "tags": {"0.1.0--h80bd393_0": "sha256:dab690e250e981ce0fc9fdaf0c0716763e278d198d8aab0f5899f44479ee84d2"}, "docker": "quay.io/biocontainers/count_logan_tig_coverage", "aliases": {"count_logan_tig_coverage": "/usr/local/bin/count_logan_tig_coverage"}}
+config: {"url": "https://biocontainers.pro/tools/count_logan_tig_coverage", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for count_logan_tig_coverage", "latest": {"0.1.0--h80bd393_1": "sha256:17af703d04fcc86df7bcb1b9b6400111bd0436fcda2d5486e99eaf5d7e9eeaa4"}, "tags": {"0.1.0--h80bd393_0": "sha256:dab690e250e981ce0fc9fdaf0c0716763e278d198d8aab0f5899f44479ee84d2", "0.1.0--h80bd393_1": "sha256:17af703d04fcc86df7bcb1b9b6400111bd0436fcda2d5486e99eaf5d7e9eeaa4"}, "docker": "quay.io/biocontainers/count_logan_tig_coverage", "aliases": {"count_logan_tig_coverage": "/usr/local/bin/count_logan_tig_coverage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/count_logan_tig_coverage.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/count_logan_tig_coverage
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/count_logan_tig_coverage:0.1.0--h80bd393_0
+$ shpc install quay.io/biocontainers/count_logan_tig_coverage:0.1.0--h80bd393_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/count_logan_tig_coverage/0.1.0--h80bd393_0
-$ module help quay.io/biocontainers/count_logan_tig_coverage/0.1.0--h80bd393_0
+$ module load quay.io/biocontainers/count_logan_tig_coverage/0.1.0--h80bd393_1
+$ module help quay.io/biocontainers/count_logan_tig_coverage/0.1.0--h80bd393_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

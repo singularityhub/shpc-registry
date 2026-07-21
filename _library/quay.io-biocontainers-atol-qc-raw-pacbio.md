@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atol-qc-raw-pacbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-qc-raw-pacbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-qc-raw-pacbio/container.yaml"
-updated_at: "2026-07-20 06:03:15.435823"
+updated_at: "2026-07-21 05:45:04.315640"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-qc-raw-pacbio"
 aliases:

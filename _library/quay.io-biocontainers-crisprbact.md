@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crisprbact"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisprbact/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crisprbact/container.yaml"
-updated_at: "2026-07-20 05:44:02.437323"
-latest: "1.3.1--pyhdfd78af_0"
+updated_at: "2026-07-21 05:25:07.863889"
+latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crisprbact"
 aliases:
  - "crisprbact"
@@ -27,8 +27,9 @@ versions:
  - "0.3.11--py_0"
  - "1.3.1--pyhdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
+ - "1.4.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for crisprbact"
-config: {"url": "https://biocontainers.pro/tools/crisprbact", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crisprbact", "latest": {"1.3.1--pyhdfd78af_0": "sha256:30ac144628bfcf755b09a195e5d1c206e59abbd9e730f0100e747028da36bd43"}, "tags": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def", "0.3.11--py_0": "sha256:d6cc16e120db7445de13aa6823add9e8c95ed2362624c82f027d3951bdbd3004", "1.3.1--pyhdfd78af_0": "sha256:30ac144628bfcf755b09a195e5d1c206e59abbd9e730f0100e747028da36bd43", "1.1.0--pyhdfd78af_0": "sha256:6842ce96cb9747cf12e0d4e5fc380d37fcecdac3e256561e659b402dc33484d2"}, "docker": "quay.io/biocontainers/crisprbact", "aliases": {"crisprbact": "/usr/local/bin/crisprbact", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "doesitcache": "/usr/local/bin/doesitcache", "jsonschema": "/usr/local/bin/jsonschema", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
+config: {"url": "https://biocontainers.pro/tools/crisprbact", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crisprbact", "latest": {"1.4.1--pyhdfd78af_0": "sha256:de3eb77bb5ae8d87b7d57ea33d9b0f486119b5fcdeb92ab8b54b1812b8bc2565"}, "tags": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def", "0.3.11--py_0": "sha256:d6cc16e120db7445de13aa6823add9e8c95ed2362624c82f027d3951bdbd3004", "1.3.1--pyhdfd78af_0": "sha256:30ac144628bfcf755b09a195e5d1c206e59abbd9e730f0100e747028da36bd43", "1.1.0--pyhdfd78af_0": "sha256:6842ce96cb9747cf12e0d4e5fc380d37fcecdac3e256561e659b402dc33484d2", "1.4.1--pyhdfd78af_0": "sha256:de3eb77bb5ae8d87b7d57ea33d9b0f486119b5fcdeb92ab8b54b1812b8bc2565"}, "docker": "quay.io/biocontainers/crisprbact", "aliases": {"crisprbact": "/usr/local/bin/crisprbact", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "doesitcache": "/usr/local/bin/doesitcache", "jsonschema": "/usr/local/bin/jsonschema", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crisprbact.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/crisprbact
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crisprbact:1.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/crisprbact:1.4.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crisprbact/1.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/crisprbact/1.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/crisprbact/1.4.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/crisprbact/1.4.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

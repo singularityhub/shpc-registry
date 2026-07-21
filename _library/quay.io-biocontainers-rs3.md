@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rs3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rs3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rs3/container.yaml"
-updated_at: "2026-07-20 05:56:39.217465"
+updated_at: "2026-07-21 05:37:59.038582"
 latest: "0.0.18--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rs3"
 aliases:
