@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genesplicer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genesplicer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genesplicer/container.yaml"
-updated_at: "2026-07-21 05:43:55.971639"
+updated_at: "2026-07-22 05:41:21.464694"
 latest: "1.0--1"
 container_url: "https://biocontainers.pro/tools/genesplicer"
 aliases:

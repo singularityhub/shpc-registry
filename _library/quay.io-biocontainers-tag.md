@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tag/container.yaml"
-updated_at: "2026-07-21 06:12:59.444432"
+updated_at: "2026-07-22 06:08:44.385958"
 latest: "0.5.1--py_0"
 container_url: "https://biocontainers.pro/tools/tag"
 aliases:

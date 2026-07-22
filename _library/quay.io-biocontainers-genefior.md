@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genefior"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genefior/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genefior/container.yaml"
-updated_at: "2026-07-21 05:52:28.472100"
+updated_at: "2026-07-22 05:49:15.981875"
 latest: "0.10.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/genefior"
 aliases:

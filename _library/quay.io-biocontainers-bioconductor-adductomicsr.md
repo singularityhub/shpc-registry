@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adductomicsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adductomicsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adductomicsr/container.yaml"
-updated_at: "2026-07-21 06:21:54.088868"
+updated_at: "2026-07-22 06:17:23.877860"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adductomicsr"
 aliases:

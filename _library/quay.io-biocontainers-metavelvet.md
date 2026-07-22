@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metavelvet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet/container.yaml"
-updated_at: "2026-07-21 05:30:02.106779"
+updated_at: "2026-07-22 05:28:33.264177"
 latest: "1.2.02--pl5.22.0_2"
 container_url: "https://biocontainers.pro/tools/metavelvet"
 

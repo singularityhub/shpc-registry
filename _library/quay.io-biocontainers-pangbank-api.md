@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pangbank-api"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangbank-api/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangbank-api/container.yaml"
-updated_at: "2026-07-21 05:33:11.932415"
-latest: "0.1.2--pyhdfd78af_0"
+updated_at: "2026-07-22 05:31:24.851706"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pangbank-api"
 aliases:
  - "email_validator"
@@ -25,8 +25,9 @@ aliases:
  - "pygmentize"
 versions:
  - "0.1.2--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pangbank-api"
-config: {"url": "https://biocontainers.pro/tools/pangbank-api", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pangbank-api", "latest": {"0.1.2--pyhdfd78af_0": "sha256:f55ba8e5e551ad24359f5329e9dee5f281c0c0ac617477287f6e954683fd2c1d"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:f55ba8e5e551ad24359f5329e9dee5f281c0c0ac617477287f6e954683fd2c1d"}, "docker": "quay.io/biocontainers/pangbank-api", "aliases": {"email_validator": "/usr/local/bin/email_validator", "fastapi": "/usr/local/bin/fastapi", "pangbank_db": "/usr/local/bin/pangbank_db", "uvicorn": "/usr/local/bin/uvicorn", "watchfiles": "/usr/local/bin/watchfiles", "websockets": "/usr/local/bin/websockets", "dotenv": "/usr/local/bin/dotenv", "typer": "/usr/local/bin/typer", "httpx": "/usr/local/bin/httpx", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize"}}
+config: {"url": "https://biocontainers.pro/tools/pangbank-api", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pangbank-api", "latest": {"0.3.0--pyhdfd78af_0": "sha256:cb708b9642e9305d2b386663b3b32f30131d07a8b5857c8dd3a455b67345f452"}, "tags": {"0.1.2--pyhdfd78af_0": "sha256:f55ba8e5e551ad24359f5329e9dee5f281c0c0ac617477287f6e954683fd2c1d", "0.3.0--pyhdfd78af_0": "sha256:cb708b9642e9305d2b386663b3b32f30131d07a8b5857c8dd3a455b67345f452"}, "docker": "quay.io/biocontainers/pangbank-api", "aliases": {"email_validator": "/usr/local/bin/email_validator", "fastapi": "/usr/local/bin/fastapi", "pangbank_db": "/usr/local/bin/pangbank_db", "uvicorn": "/usr/local/bin/uvicorn", "watchfiles": "/usr/local/bin/watchfiles", "websockets": "/usr/local/bin/websockets", "dotenv": "/usr/local/bin/dotenv", "typer": "/usr/local/bin/typer", "httpx": "/usr/local/bin/httpx", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pangbank-api.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/pangbank-api
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pangbank-api:0.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pangbank-api:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pangbank-api/0.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/pangbank-api/0.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/pangbank-api/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pangbank-api/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

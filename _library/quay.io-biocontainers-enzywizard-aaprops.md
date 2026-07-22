@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-aaprops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-aaprops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-aaprops/container.yaml"
-updated_at: "2026-07-21 06:08:34.634645"
+updated_at: "2026-07-22 06:04:18.555423"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-aaprops"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minkemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minkemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minkemap/container.yaml"
-updated_at: "2026-07-21 05:53:11.109159"
+updated_at: "2026-07-22 05:49:55.099697"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/minkemap"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/deeptaxa-rrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeptaxa-rrna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeptaxa-rrna/container.yaml"
-updated_at: "2026-07-21 06:15:37.177523"
-latest: "1.0.1--pyhdfd78af_0"
+updated_at: "2026-07-22 06:11:19.226089"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deeptaxa-rrna"
 aliases:
  - "deeptaxa"
@@ -42,8 +42,11 @@ aliases:
  - "hwloc-compress-dir"
 versions:
  - "1.0.1--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
+ - "1.2.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for deeptaxa-rrna"
-config: {"url": "https://biocontainers.pro/tools/deeptaxa-rrna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deeptaxa-rrna", "latest": {"1.0.1--pyhdfd78af_0": "sha256:5c90c8bedb494a5e3bc368e2beeffca6a248522c705aa9872306ed6cc5651b90"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:5c90c8bedb494a5e3bc368e2beeffca6a248522c705aa9872306ed6cc5651b90"}, "docker": "quay.io/biocontainers/deeptaxa-rrna", "aliases": {"deeptaxa": "/usr/local/bin/deeptaxa", "optuna": "/usr/local/bin/optuna", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "transformers": "/usr/local/bin/transformers", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "alembic": "/usr/local/bin/alembic", "huggingface-cli": "/usr/local/bin/huggingface-cli", "idna": "/usr/local/bin/idna", "mako-render": "/usr/local/bin/mako-render", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "typer": "/usr/local/bin/typer", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "elasticurl": "/usr/local/bin/elasticurl", "markdown-it": "/usr/local/bin/markdown-it", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir"}}
+config: {"url": "https://biocontainers.pro/tools/deeptaxa-rrna", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for deeptaxa-rrna", "latest": {"1.3.0--pyhdfd78af_0": "sha256:1f6740ac6bcb32280fa28a2f9e7ec84235a936b0d9aa732c95faeec2aec05d51"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:5c90c8bedb494a5e3bc368e2beeffca6a248522c705aa9872306ed6cc5651b90", "1.3.0--pyhdfd78af_0": "sha256:1f6740ac6bcb32280fa28a2f9e7ec84235a936b0d9aa732c95faeec2aec05d51", "1.2.0--pyhdfd78af_0": "sha256:fbb172e59224c0524e9497c75e09b29d100fcc7668ccdf108c185e2d59c18a76", "1.1.0--pyhdfd78af_1": "sha256:4b57953f9285a40c7b2c1280597f140681b1af269929118eebb266abdf364597"}, "docker": "quay.io/biocontainers/deeptaxa-rrna", "aliases": {"deeptaxa": "/usr/local/bin/deeptaxa", "optuna": "/usr/local/bin/optuna", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "transformers": "/usr/local/bin/transformers", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "alembic": "/usr/local/bin/alembic", "huggingface-cli": "/usr/local/bin/huggingface-cli", "idna": "/usr/local/bin/idna", "mako-render": "/usr/local/bin/mako-render", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "typer": "/usr/local/bin/typer", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "elasticurl": "/usr/local/bin/elasticurl", "markdown-it": "/usr/local/bin/markdown-it", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeptaxa-rrna.
@@ -58,7 +61,7 @@ $ shpc install quay.io/biocontainers/deeptaxa-rrna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/deeptaxa-rrna:1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/deeptaxa-rrna:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/deeptaxa-rrna/1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/deeptaxa-rrna/1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/deeptaxa-rrna/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/deeptaxa-rrna/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

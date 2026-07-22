@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sgdemux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sgdemux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sgdemux/container.yaml"
-updated_at: "2026-07-21 05:49:05.386554"
+updated_at: "2026-07-22 05:46:10.016565"
 latest: "1.2.0--h3ab6199_4"
 container_url: "https://biocontainers.pro/tools/sgdemux"
 aliases:

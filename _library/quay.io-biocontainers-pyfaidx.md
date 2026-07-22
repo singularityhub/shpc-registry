@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyfaidx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfaidx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfaidx/container.yaml"
-updated_at: "2026-07-21 05:30:44.705895"
+updated_at: "2026-07-22 05:29:11.780184"
 latest: "0.9.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyfaidx"
 aliases:

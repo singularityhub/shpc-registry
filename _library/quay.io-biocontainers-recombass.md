@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recombass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recombass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recombass/container.yaml"
-updated_at: "2026-07-21 05:27:44.919489"
+updated_at: "2026-07-22 05:26:25.124039"
 latest: "0.1.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recombass"
 aliases:

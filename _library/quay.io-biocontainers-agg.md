@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/agg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agg/container.yaml"
-updated_at: "2026-07-21 05:41:50.166640"
+updated_at: "2026-07-22 05:39:25.897417"
 latest: "0.3.6--h8b12597_1"
 container_url: "https://biocontainers.pro/tools/agg"
 aliases:

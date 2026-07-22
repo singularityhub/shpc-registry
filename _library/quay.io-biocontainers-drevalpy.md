@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drevalpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drevalpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/drevalpy/container.yaml"
-updated_at: "2026-07-21 06:20:32.818398"
+updated_at: "2026-07-22 06:16:03.671368"
 latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/drevalpy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tidysbml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidysbml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidysbml/container.yaml"
-updated_at: "2026-07-21 05:24:15.690813"
+updated_at: "2026-07-22 05:23:11.126686"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidysbml"
 aliases:

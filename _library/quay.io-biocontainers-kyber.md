@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kyber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kyber/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kyber/container.yaml"
-updated_at: "2026-07-21 05:35:34.382571"
+updated_at: "2026-07-22 05:33:32.634409"
 latest: "0.6.0d--ha6fb395_0"
 container_url: "https://biocontainers.pro/tools/kyber"
 aliases:

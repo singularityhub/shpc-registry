@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/marker-magu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marker-magu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marker-magu/container.yaml"
-updated_at: "2026-07-21 06:15:54.970452"
+updated_at: "2026-07-22 06:11:36.420548"
 latest: "0.4.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/marker-magu"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/summarize-ranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/summarize-ranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/summarize-ranges/container.yaml"
-updated_at: "2026-07-21 05:51:07.018349"
+updated_at: "2026-07-22 05:48:02.563786"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/summarize-ranges"
 aliases:

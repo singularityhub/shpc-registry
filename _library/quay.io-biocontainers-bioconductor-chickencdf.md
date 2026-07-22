@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chickencdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chickencdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chickencdf/container.yaml"
-updated_at: "2026-07-21 06:04:20.529163"
+updated_at: "2026-07-22 06:00:07.452462"
 latest: "2.18.0--r45hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-chickencdf"
 

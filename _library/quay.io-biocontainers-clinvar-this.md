@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clinvar-this"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinvar-this/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clinvar-this/container.yaml"
-updated_at: "2026-07-21 05:31:32.433560"
+updated_at: "2026-07-22 05:29:55.054228"
 latest: "0.18.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/clinvar-this"
 aliases:
