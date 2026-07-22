@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/telescope
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for telescope
 latest:
-  1.0.3--py37hc399e3d_5: 
-    sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65
+  1.0.4.1--py36hab16a5f_0: 
+    sha256:4897840b70ec6ed71d869ebcdefec5698684e8bcdf3b1c8435902a7d64dedcaf
 tags:
   1.0.3--py37hc399e3d_5: 
     sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65
   1.0.3--py310hb8902aa_5: 
     sha256:cc3cfb40f0c7855af5edc2e70fdd6d703e6aba2e3631c25cc1010731d34f2f7c
+  1.0.4.1--py36hab16a5f_0: 
+    sha256:4897840b70ec6ed71d869ebcdefec5698684e8bcdf3b1c8435902a7d64dedcaf
 docker: quay.io/biocontainers/telescope
 aliases:
   telescope: /usr/local/bin/telescope

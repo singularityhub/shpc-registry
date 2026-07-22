@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sainsc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sainsc
 latest:
-  0.3.1--py311h5e00ca1_0: 
-    sha256:952a6d280d88dbfcb29eb3ab430313e8c42efd5f72529ac3002129c835fbbc8f
+  0.4.0--py312he7d644a_0: 
+    sha256:ef587f1805ea8a7af0d48538e829e76f20b2a6a1379666b6da9d06ce433d4d8a
 tags:
   0.1.1--py310hec43fc7_2: 
     sha256:3e2c49122f3ad6f03c825d0e2c0ca66f8287600427866407a51f0f58efeef115
@@ -13,6 +13,8 @@ tags:
     sha256:aa845db6c55b76519af78d2ba560064ff1138c18bc3a826ac28a9ffe3ad9c0b1
   0.3.1--py311h5e00ca1_0: 
     sha256:952a6d280d88dbfcb29eb3ab430313e8c42efd5f72529ac3002129c835fbbc8f
+  0.4.0--py312he7d644a_0: 
+    sha256:ef587f1805ea8a7af0d48538e829e76f20b2a6a1379666b6da9d06ce433d4d8a
 docker: quay.io/biocontainers/sainsc
 aliases:
   rav1e: /usr/local/bin/rav1e

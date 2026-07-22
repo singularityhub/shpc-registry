@@ -2,11 +2,17 @@ url: https://biocontainers.pro/tools/deeptaxa-rrna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deeptaxa-rrna
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:5c90c8bedb494a5e3bc368e2beeffca6a248522c705aa9872306ed6cc5651b90
+  1.3.0--pyhdfd78af_0: 
+    sha256:1f6740ac6bcb32280fa28a2f9e7ec84235a936b0d9aa732c95faeec2aec05d51
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:5c90c8bedb494a5e3bc368e2beeffca6a248522c705aa9872306ed6cc5651b90
+  1.3.0--pyhdfd78af_0: 
+    sha256:1f6740ac6bcb32280fa28a2f9e7ec84235a936b0d9aa732c95faeec2aec05d51
+  1.2.0--pyhdfd78af_0: 
+    sha256:fbb172e59224c0524e9497c75e09b29d100fcc7668ccdf108c185e2d59c18a76
+  1.1.0--pyhdfd78af_1: 
+    sha256:4b57953f9285a40c7b2c1280597f140681b1af269929118eebb266abdf364597
 docker: quay.io/biocontainers/deeptaxa-rrna
 aliases:
   deeptaxa: /usr/local/bin/deeptaxa

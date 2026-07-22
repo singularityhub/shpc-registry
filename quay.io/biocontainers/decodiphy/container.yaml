@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/decodiphy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for decodiphy
 latest:
-  1.4.1--pyhdfd78af_1: 
-    sha256:05991e56d89d8f4e078939bb69bb8bb5ef8d6cd9ac4620826206e4a910bc83f8
+  1.5.0--pyhdfd78af_0: 
+    sha256:a9f163f9ec2c79db81a199ed9983ce52bc202532c15545fc76716f6370604145
 tags:
   1.2.3--pyhdfd78af_0: 
     sha256:caef315da2b290f91952a7a4a221fc1a991da7fdcebb596a549e6641ff008838
@@ -11,6 +11,8 @@ tags:
     sha256:207da6c5e00ec81373bb54789e57066a6641c3c14bc17c45efb4987744dc36b3
   1.4.1--pyhdfd78af_1: 
     sha256:05991e56d89d8f4e078939bb69bb8bb5ef8d6cd9ac4620826206e4a910bc83f8
+  1.5.0--pyhdfd78af_0: 
+    sha256:a9f163f9ec2c79db81a199ed9983ce52bc202532c15545fc76716f6370604145
 docker: quay.io/biocontainers/decodiphy
 aliases:
   decodiphy: /usr/local/bin/decodiphy

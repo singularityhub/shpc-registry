@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pangbank-api
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pangbank-api
 latest:
-  0.1.2--pyhdfd78af_0: 
-    sha256:f55ba8e5e551ad24359f5329e9dee5f281c0c0ac617477287f6e954683fd2c1d
+  0.3.0--pyhdfd78af_0: 
+    sha256:cb708b9642e9305d2b386663b3b32f30131d07a8b5857c8dd3a455b67345f452
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:f55ba8e5e551ad24359f5329e9dee5f281c0c0ac617477287f6e954683fd2c1d
+  0.3.0--pyhdfd78af_0: 
+    sha256:cb708b9642e9305d2b386663b3b32f30131d07a8b5857c8dd3a455b67345f452
 docker: quay.io/biocontainers/pangbank-api
 aliases:
   email_validator: /usr/local/bin/email_validator
