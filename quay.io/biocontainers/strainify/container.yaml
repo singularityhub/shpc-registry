@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/strainify
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for strainify
 latest:
-  1.2.0--h780a10f_0: 
-    sha256:48f874347f27b975e806bba9a434471d168a4de8e814eef60510922fc42a76d7
+  1.3.1--hdfd78af_0: 
+    sha256:f39536becca486183801efedc3f67385cb5977ada4927d047084e36e50aa3b94
 tags:
   1.2.0--h780a10f_0: 
     sha256:48f874347f27b975e806bba9a434471d168a4de8e814eef60510922fc42a76d7
+  1.3.1--hdfd78af_0: 
+    sha256:f39536becca486183801efedc3f67385cb5977ada4927d047084e36e50aa3b94
 docker: quay.io/biocontainers/strainify
 aliases:
   Phi: /usr/local/bin/Phi

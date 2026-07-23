@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/orthosynassign
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for orthosynassign
 latest:
-  1.2.0--py314hfa8f182_0: 
-    sha256:602ebea93470852c08cb7056173b48da23ccda5f3ea1c08eb076709ca32623f8
+  1.2.0--py310hce5ca29_1: 
+    sha256:4d8d01c5c9b35d667b68dc6d85793da68d9961d88faa8838c34e0ec98448575e
 tags:
   1.2.0--py314hfa8f182_0: 
     sha256:602ebea93470852c08cb7056173b48da23ccda5f3ea1c08eb076709ca32623f8
+  1.2.0--py310hce5ca29_1: 
+    sha256:4d8d01c5c9b35d667b68dc6d85793da68d9961d88faa8838c34e0ec98448575e
 docker: quay.io/biocontainers/orthosynassign
 aliases:
   orthosynassign: /usr/local/bin/orthosynassign
