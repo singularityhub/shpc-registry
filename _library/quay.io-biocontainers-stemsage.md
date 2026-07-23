@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stemsage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stemsage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stemsage/container.yaml"
-updated_at: "2026-07-22 05:59:39.877603"
+updated_at: "2026-07-23 06:08:01.461376"
 latest: "0.8.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stemsage"
 aliases:

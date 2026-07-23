@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-disorder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-disorder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-disorder/container.yaml"
-updated_at: "2026-07-22 06:10:14.465638"
+updated_at: "2026-07-23 06:19:17.554321"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-disorder"
 aliases:

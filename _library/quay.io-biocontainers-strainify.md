@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/strainify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainify/container.yaml"
-updated_at: "2026-07-22 06:09:44.565073"
-latest: "1.2.0--h780a10f_0"
+updated_at: "2026-07-23 06:18:45.883903"
+latest: "1.3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/strainify"
 aliases:
  - "Phi"
@@ -46,8 +46,9 @@ aliases:
  - "rst2latex"
 versions:
  - "1.2.0--h780a10f_0"
+ - "1.3.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for strainify"
-config: {"url": "https://biocontainers.pro/tools/strainify", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strainify", "latest": {"1.2.0--h780a10f_0": "sha256:48f874347f27b975e806bba9a434471d168a4de8e814eef60510922fc42a76d7"}, "tags": {"1.2.0--h780a10f_0": "sha256:48f874347f27b975e806bba9a434471d168a4de8e814eef60510922fc42a76d7"}, "docker": "quay.io/biocontainers/strainify", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile", "extend.py": "/usr/local/bin/extend.py", "git-filter-repo": "/usr/local/bin/git-filter-repo", "harvesttools": "/usr/local/bin/harvesttools", "logger.py": "/usr/local/bin/logger.py", "parsnp": "/usr/local/bin/parsnp", "partition.py": "/usr/local/bin/partition.py", "strainify": "/usr/local/bin/strainify", "template.ini": "/usr/local/bin/template.ini", "wgatools": "/usr/local/bin/wgatools", "gff2gff": "/usr/local/bin/gff2gff", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "scalar": "/usr/local/bin/scalar", "phc": "/usr/local/bin/phc", "fastANI": "/usr/local/bin/fastANI", "eido": "/usr/local/bin/eido", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex"}}
+config: {"url": "https://biocontainers.pro/tools/strainify", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for strainify", "latest": {"1.3.1--hdfd78af_0": "sha256:f39536becca486183801efedc3f67385cb5977ada4927d047084e36e50aa3b94"}, "tags": {"1.2.0--h780a10f_0": "sha256:48f874347f27b975e806bba9a434471d168a4de8e814eef60510922fc42a76d7", "1.3.1--hdfd78af_0": "sha256:f39536becca486183801efedc3f67385cb5977ada4927d047084e36e50aa3b94"}, "docker": "quay.io/biocontainers/strainify", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile", "extend.py": "/usr/local/bin/extend.py", "git-filter-repo": "/usr/local/bin/git-filter-repo", "harvesttools": "/usr/local/bin/harvesttools", "logger.py": "/usr/local/bin/logger.py", "parsnp": "/usr/local/bin/parsnp", "partition.py": "/usr/local/bin/partition.py", "strainify": "/usr/local/bin/strainify", "template.ini": "/usr/local/bin/template.ini", "wgatools": "/usr/local/bin/wgatools", "gff2gff": "/usr/local/bin/gff2gff", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "scalar": "/usr/local/bin/scalar", "phc": "/usr/local/bin/phc", "fastANI": "/usr/local/bin/fastANI", "eido": "/usr/local/bin/eido", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "typer": "/usr/local/bin/typer", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strainify.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/strainify
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/strainify:1.2.0--h780a10f_0
+$ shpc install quay.io/biocontainers/strainify:1.3.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/strainify/1.2.0--h780a10f_0
-$ module help quay.io/biocontainers/strainify/1.2.0--h780a10f_0
+$ module load quay.io/biocontainers/strainify/1.3.1--hdfd78af_0
+$ module help quay.io/biocontainers/strainify/1.3.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

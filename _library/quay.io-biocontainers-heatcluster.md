@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/heatcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/heatcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/heatcluster/container.yaml"
-updated_at: "2026-07-22 06:06:39.079347"
+updated_at: "2026-07-23 06:15:30.523075"
 latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/heatcluster"
 aliases:

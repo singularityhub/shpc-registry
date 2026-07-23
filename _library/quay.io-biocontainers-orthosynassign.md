@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/orthosynassign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthosynassign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orthosynassign/container.yaml"
-updated_at: "2026-07-22 06:09:02.209599"
-latest: "1.2.0--py314hfa8f182_0"
+updated_at: "2026-07-23 06:18:00.987331"
+latest: "1.2.0--py310hce5ca29_1"
 container_url: "https://biocontainers.pro/tools/orthosynassign"
 aliases:
  - "orthosynassign"
@@ -35,8 +35,9 @@ aliases:
  - "brotli"
 versions:
  - "1.2.0--py314hfa8f182_0"
+ - "1.2.0--py310hce5ca29_1"
 description: "singularity registry hpc automated addition for orthosynassign"
-config: {"url": "https://biocontainers.pro/tools/orthosynassign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orthosynassign", "latest": {"1.2.0--py314hfa8f182_0": "sha256:602ebea93470852c08cb7056173b48da23ccda5f3ea1c08eb076709ca32623f8"}, "tags": {"1.2.0--py314hfa8f182_0": "sha256:602ebea93470852c08cb7056173b48da23ccda5f3ea1c08eb076709ca32623f8"}, "docker": "quay.io/biocontainers/orthosynassign", "aliases": {"orthosynassign": "/usr/local/bin/orthosynassign", "orthosynassign-vis": "/usr/local/bin/orthosynassign-vis", "pgv-blast": "/usr/local/bin/pgv-blast", "pgv-download": "/usr/local/bin/pgv-download", "pgv-gui": "/usr/local/bin/pgv-gui", "pgv-mmseqs": "/usr/local/bin/pgv-mmseqs", "pgv-mummer": "/usr/local/bin/pgv-mummer", "pgv-pmauve": "/usr/local/bin/pgv-pmauve", "fc-genconf": "/usr/local/bin/fc-genconf", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/orthosynassign", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for orthosynassign", "latest": {"1.2.0--py310hce5ca29_1": "sha256:4d8d01c5c9b35d667b68dc6d85793da68d9961d88faa8838c34e0ec98448575e"}, "tags": {"1.2.0--py314hfa8f182_0": "sha256:602ebea93470852c08cb7056173b48da23ccda5f3ea1c08eb076709ca32623f8", "1.2.0--py310hce5ca29_1": "sha256:4d8d01c5c9b35d667b68dc6d85793da68d9961d88faa8838c34e0ec98448575e"}, "docker": "quay.io/biocontainers/orthosynassign", "aliases": {"orthosynassign": "/usr/local/bin/orthosynassign", "orthosynassign-vis": "/usr/local/bin/orthosynassign-vis", "pgv-blast": "/usr/local/bin/pgv-blast", "pgv-download": "/usr/local/bin/pgv-download", "pgv-gui": "/usr/local/bin/pgv-gui", "pgv-mmseqs": "/usr/local/bin/pgv-mmseqs", "pgv-mummer": "/usr/local/bin/pgv-mummer", "pgv-pmauve": "/usr/local/bin/pgv-pmauve", "fc-genconf": "/usr/local/bin/fc-genconf", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orthosynassign.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/orthosynassign
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/orthosynassign:1.2.0--py314hfa8f182_0
+$ shpc install quay.io/biocontainers/orthosynassign:1.2.0--py310hce5ca29_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/orthosynassign/1.2.0--py314hfa8f182_0
-$ module help quay.io/biocontainers/orthosynassign/1.2.0--py314hfa8f182_0
+$ module load quay.io/biocontainers/orthosynassign/1.2.0--py310hce5ca29_1
+$ module help quay.io/biocontainers/orthosynassign/1.2.0--py310hce5ca29_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

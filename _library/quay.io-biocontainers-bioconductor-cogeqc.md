@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cogeqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cogeqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cogeqc/container.yaml"
-updated_at: "2026-07-22 06:17:25.281250"
+updated_at: "2026-07-23 06:26:46.416795"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cogeqc"
 aliases:

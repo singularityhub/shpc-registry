@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sam-formatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam-formatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam-formatter/container.yaml"
-updated_at: "2026-07-22 06:06:30.606827"
+updated_at: "2026-07-23 06:15:21.641935"
 latest: "1.2.0--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/sam-formatter"
 aliases:
