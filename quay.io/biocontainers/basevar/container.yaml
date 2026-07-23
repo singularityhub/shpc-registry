@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/basevar
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for basevar
+latest:
+  2.6.7--hd19868c_0: 
+    sha256:5d57032bfedf9962088d7fa6e4c2bfd901aa96626f8c04778c2d1318c4096289
+tags:
+  2.6.7--hd19868c_0: 
+    sha256:5d57032bfedf9962088d7fa6e4c2bfd901aa96626f8c04778c2d1318c4096289
+docker: quay.io/biocontainers/basevar
+aliases:
+  basevar: /usr/local/bin/basevar
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix

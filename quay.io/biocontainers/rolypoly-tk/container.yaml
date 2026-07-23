@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/rolypoly-tk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rolypoly-tk
+latest:
+  0.7.17--pyh1f0d9b5_0: 
+    sha256:e3206fbd732dc5b0cf736deccc20c0d8c13108c1697c69e94b45229bb7e3f9ed
+tags:
+  0.7.17--pyh1f0d9b5_0: 
+    sha256:e3206fbd732dc5b0cf736deccc20c0d8c13108c1697c69e94b45229bb7e3f9ed
+docker: quay.io/biocontainers/rolypoly-tk
+aliases:
+  AUTHORS: /usr/local/bin/AUTHORS
+  bbmapy-ensure-java: /usr/local/bin/bbmapy-ensure-java
+  bbmapy-test: /usr/local/bin/bbmapy-test
+  draw_circular_plot: /usr/local/bin/draw_circular_plot
+  falco: /usr/local/bin/falco
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  generate-bbmapy-commands: /usr/local/bin/generate-bbmapy-commands
+  gflags.py: /usr/local/bin/gflags.py
+  gflags2man.py: /usr/local/bin/gflags2man.py
+  linearfold: /usr/local/bin/linearfold
+  penguin: /usr/local/bin/penguin
+  plass: /usr/local/bin/plass
+  pyrodigal-rv: /usr/local/bin/pyrodigal-rv
+  rolypoly: /usr/local/bin/rolypoly
+  testcons: /usr/local/bin/testcons
+  binspreader: /usr/local/bin/binspreader
+  pathracer-seq-fs: /usr/local/bin/pathracer-seq-fs
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  spades-hpc: /usr/local/bin/spades-hpc
+  MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
+  bwa-mem2: /usr/local/bin/bwa-mem2
+  bwa-mem2.avx: /usr/local/bin/bwa-mem2.avx
+  bwa-mem2.avx2: /usr/local/bin/bwa-mem2.avx2
+  bwa-mem2.avx512bw: /usr/local/bin/bwa-mem2.avx512bw
+  bwa-mem2.sse41: /usr/local/bin/bwa-mem2.sse41
+  bwa-mem2.sse42: /usr/local/bin/bwa-mem2.sse42
+  pathracer: /usr/local/bin/pathracer
+  spades-gfa-split: /usr/local/bin/spades-gfa-split
+  RNAconsensus: /usr/local/bin/RNAconsensus
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
