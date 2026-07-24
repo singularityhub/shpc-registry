@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/pmotools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pmotools
+latest:
+  1.1.0--pyh106432d_0: 
+    sha256:885fd51c5775b62f1ad5e5d80d2991c453536997d65b7c098e85195686372ecb
+tags:
+  1.1.0--pyh106432d_0: 
+    sha256:885fd51c5775b62f1ad5e5d80d2991c453536997d65b7c098e85195686372ecb
+docker: quay.io/biocontainers/pmotools
+aliases:
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  identify-cli: /usr/local/bin/identify-cli
+  nodeenv: /usr/local/bin/nodeenv
+  pmotools-python: /usr/local/bin/pmotools-python
+  pre-commit: /usr/local/bin/pre-commit
+  virtualenv: /usr/local/bin/virtualenv
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  jsonschema: /usr/local/bin/jsonschema
+  numpy-config: /usr/local/bin/numpy-config

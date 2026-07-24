@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/abacus-str
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for abacus-str
+latest:
+  2.0.0--pyhdfd78af_0: 
+    sha256:4e332dd4f279eda3c8b54c76705e5c242ed83e2ff3c076262faf402b4302d373
+tags:
+  2.0.0--pyhdfd78af_0: 
+    sha256:4e332dd4f279eda3c8b54c76705e5c242ed83e2ff3c076262faf402b4302d373
+docker: quay.io/biocontainers/abacus-str
+aliases:
+  abacus: /usr/local/bin/abacus
+  fc-genconf: /usr/local/bin/fc-genconf
+  typer: /usr/local/bin/typer
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  pandoc-server: /usr/local/bin/pandoc-server
+  faidx: /usr/local/bin/faidx
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pygmentize: /usr/local/bin/pygmentize
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info

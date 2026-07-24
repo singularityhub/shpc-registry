@@ -1,0 +1,64 @@
+url: https://biocontainers.pro/tools/roundabout
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for roundabout
+latest:
+  0.7.26160--pyh106432d_0: 
+    sha256:f41360a62f7713fef481e37b34a4af061383bdbf8a5b98a686b900c38046f98f
+tags:
+  0.7.26160--pyh106432d_0: 
+    sha256:f41360a62f7713fef481e37b34a4af061383bdbf8a5b98a686b900c38046f98f
+docker: quay.io/biocontainers/roundabout
+aliases:
+  amrfinder_index: /usr/local/bin/amrfinder_index
+  bakta: /usr/local/bin/bakta
+  bakta_db: /usr/local/bin/bakta_db
+  bakta_io: /usr/local/bin/bakta_io
+  bakta_plot: /usr/local/bin/bakta_plot
+  bakta_proteins: /usr/local/bin/bakta_proteins
+  daisyblast: /usr/local/bin/daisyblast
+  disruption2genesymbol: /usr/local/bin/disruption2genesymbol
+  download-db.sh: /usr/local/bin/download-db.sh
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  heatcluster: /usr/local/bin/heatcluster
+  minkemap: /usr/local/bin/minkemap
+  mutate: /usr/local/bin/mutate
+  pgv-blast: /usr/local/bin/pgv-blast
+  pgv-download: /usr/local/bin/pgv-download
+  pgv-gui: /usr/local/bin/pgv-gui
+  pgv-mmseqs: /usr/local/bin/pgv-mmseqs
+  pgv-mummer: /usr/local/bin/pgv-mummer
+  pgv-pmauve: /usr/local/bin/pgv-pmauve
+  pilercr: /usr/local/bin/pilercr
+  plasmidfinder.py: /usr/local/bin/plasmidfinder.py
+  progressiveMauve: /usr/local/bin/progressiveMauve
+  refseq-plasmid-dl: /usr/local/bin/refseq-plasmid-dl
+  roundabout: /usr/local/bin/roundabout
+  skani: /usr/local/bin/skani
+  stx.prot: /usr/local/bin/stx.prot
+  stxtyper: /usr/local/bin/stxtyper
+  test_stxtyper.sh: /usr/local/bin/test_stxtyper.sh
+  MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  dna_mutation: /usr/local/bin/dna_mutation
+  fasta2parts: /usr/local/bin/fasta2parts
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff_check: /usr/local/bin/gff_check
+  fasta_check: /usr/local/bin/fasta_check
+  EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
+  covels-SE: /usr/local/bin/covels-SE
+  coves-SE: /usr/local/bin/coves-SE
+  eufindtRNA: /usr/local/bin/eufindtRNA
+  fasta2gsi: /usr/local/bin/fasta2gsi
+  sstofa: /usr/local/bin/sstofa
+  tRNAscan-SE: /usr/local/bin/tRNAscan-SE
+  tRNAscan-SE.conf: /usr/local/bin/tRNAscan-SE.conf
+  trnascan-1.4: /usr/local/bin/trnascan-1.4
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update
+  pyrodigal: /usr/local/bin/pyrodigal
+  fc-genconf: /usr/local/bin/fc-genconf
+  archspec: /usr/local/bin/archspec
