@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bacprune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bacprune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bacprune/container.yaml"
-updated_at: "2026-07-23 05:32:46.209431"
+updated_at: "2026-07-24 05:27:19.726294"
 latest: "0.9.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/bacprune"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mm2plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mm2plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mm2plus/container.yaml"
-updated_at: "2026-07-23 06:16:43.430126"
-latest: "1.2--h9ee0642_0"
+updated_at: "2026-07-24 06:11:23.966014"
+latest: "1.3--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/mm2plus"
 aliases:
  - "mm2plus"
@@ -18,8 +18,9 @@ versions:
  - "1.0--h9ee0642_0"
  - "1.1--h9ee0642_0"
  - "1.2--h9ee0642_0"
+ - "1.3--h9ee0642_0"
 description: "singularity registry hpc automated addition for mm2plus"
-config: {"url": "https://biocontainers.pro/tools/mm2plus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mm2plus", "latest": {"1.2--h9ee0642_0": "sha256:f2c85db0586255ea1ebf506995ceb91adb6cdd9d083b0e6eb3074e468ea2aa30"}, "tags": {"1.0--h9ee0642_0": "sha256:6b3d32f44b8a530b97267fd5e4a6889210ba9daaceef49b7a5224f29830a7c4e", "1.1--h9ee0642_0": "sha256:bb2689051361ce00a8b7069cc79aae4e4583735a76a0bbedf466520f3c885353", "1.2--h9ee0642_0": "sha256:f2c85db0586255ea1ebf506995ceb91adb6cdd9d083b0e6eb3074e468ea2aa30"}, "docker": "quay.io/biocontainers/mm2plus", "aliases": {"mm2plus": "/usr/local/bin/mm2plus", "mm2plus.avx": "/usr/local/bin/mm2plus.avx", "mm2plus.avx2": "/usr/local/bin/mm2plus.avx2", "mm2plus.avx512": "/usr/local/bin/mm2plus.avx512", "mm2plus.sse4.1": "/usr/local/bin/mm2plus.sse4.1", "mm2plus.sse4.2": "/usr/local/bin/mm2plus.sse4.2"}}
+config: {"url": "https://biocontainers.pro/tools/mm2plus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mm2plus", "latest": {"1.3--h9ee0642_0": "sha256:791b6b16f957fd450c1b6d6b457e6ab1bd826b16994a98070db7a02e5498a9c7"}, "tags": {"1.0--h9ee0642_0": "sha256:6b3d32f44b8a530b97267fd5e4a6889210ba9daaceef49b7a5224f29830a7c4e", "1.1--h9ee0642_0": "sha256:bb2689051361ce00a8b7069cc79aae4e4583735a76a0bbedf466520f3c885353", "1.2--h9ee0642_0": "sha256:f2c85db0586255ea1ebf506995ceb91adb6cdd9d083b0e6eb3074e468ea2aa30", "1.3--h9ee0642_0": "sha256:791b6b16f957fd450c1b6d6b457e6ab1bd826b16994a98070db7a02e5498a9c7"}, "docker": "quay.io/biocontainers/mm2plus", "aliases": {"mm2plus": "/usr/local/bin/mm2plus", "mm2plus.avx": "/usr/local/bin/mm2plus.avx", "mm2plus.avx2": "/usr/local/bin/mm2plus.avx2", "mm2plus.avx512": "/usr/local/bin/mm2plus.avx512", "mm2plus.sse4.1": "/usr/local/bin/mm2plus.sse4.1", "mm2plus.sse4.2": "/usr/local/bin/mm2plus.sse4.2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mm2plus.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/mm2plus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mm2plus:1.2--h9ee0642_0
+$ shpc install quay.io/biocontainers/mm2plus:1.3--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mm2plus/1.2--h9ee0642_0
-$ module help quay.io/biocontainers/mm2plus/1.2--h9ee0642_0
+$ module load quay.io/biocontainers/mm2plus/1.3--h9ee0642_0
+$ module help quay.io/biocontainers/mm2plus/1.3--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

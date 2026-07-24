@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fununifrac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fununifrac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fununifrac/container.yaml"
-updated_at: "2026-07-23 05:46:18.213747"
+updated_at: "2026-07-24 05:40:53.901602"
 latest: "0.0.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/fununifrac"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pathnetdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathnetdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathnetdata/container.yaml"
-updated_at: "2026-07-23 06:00:36.231399"
+updated_at: "2026-07-24 05:55:19.302572"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathnetdata"
 

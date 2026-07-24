@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pogos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pogos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pogos/container.yaml"
-updated_at: "2026-07-23 05:33:28.231075"
+updated_at: "2026-07-24 05:28:01.585327"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pogos"
 aliases:

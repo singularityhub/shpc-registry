@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-intercellar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intercellar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intercellar/container.yaml"
-updated_at: "2026-07-23 05:31:44.223065"
+updated_at: "2026-07-24 05:26:17.360804"
 latest: "2.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intercellar"
 aliases:

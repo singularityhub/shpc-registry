@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ovrlpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ovrlpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ovrlpy/container.yaml"
-updated_at: "2026-07-23 05:48:30.028654"
+updated_at: "2026-07-24 05:43:08.131075"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ovrlpy"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnvnator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnvnator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnvnator/container.yaml"
-updated_at: "2026-07-23 05:59:45.824216"
+updated_at: "2026-07-24 05:54:27.794114"
 latest: "0.4.1--py313h3ef7bf5_12"
 container_url: "https://biocontainers.pro/tools/cnvnator"
 aliases:

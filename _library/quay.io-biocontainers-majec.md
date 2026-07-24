@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/majec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/majec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/majec/container.yaml"
-updated_at: "2026-07-23 05:33:04.567418"
-latest: "0.1.4--pyhdfd78af_0"
+updated_at: "2026-07-24 05:27:37.969257"
+latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/majec"
 aliases:
  - "majec_add_norm_factors"
@@ -43,8 +43,9 @@ aliases:
  - "bed12ToBed6"
 versions:
  - "0.1.4--pyhdfd78af_0"
+ - "0.1.5--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for majec"
-config: {"url": "https://biocontainers.pro/tools/majec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for majec", "latest": {"0.1.4--pyhdfd78af_0": "sha256:b61b262f88e6d67513304ab1936e634281f769ce2310360387c711d8eafea5b5"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:b61b262f88e6d67513304ab1936e634281f769ce2310360387c711d8eafea5b5"}, "docker": "quay.io/biocontainers/majec", "aliases": {"majec_add_norm_factors": "/usr/local/bin/majec_add_norm_factors", "majec_build_db": "/usr/local/bin/majec_build_db", "majec_calc_frag_len": "/usr/local/bin/majec_calc_frag_len", "majec_calc_thresholds": "/usr/local/bin/majec_calc_thresholds", "majec_precompute_annotations": "/usr/local/bin/majec_precompute_annotations", "majec_prepare_deseq2": "/usr/local/bin/majec_prepare_deseq2", "majec_run_pipeline": "/usr/local/bin/majec_run_pipeline", "majec_visualize": "/usr/local/bin/majec_visualize", "genRandomReads": "/usr/local/bin/genRandomReads", "flattenGTF": "/usr/local/bin/flattenGTF", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "sublong": "/usr/local/bin/sublong", "subread-fullscan": "/usr/local/bin/subread-fullscan", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
+config: {"url": "https://biocontainers.pro/tools/majec", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for majec", "latest": {"0.1.5--pyhdfd78af_0": "sha256:eae93f23d0d90afff3243a23a69af33b8fcde3062dc7d50d69e44f57425db07c"}, "tags": {"0.1.4--pyhdfd78af_0": "sha256:b61b262f88e6d67513304ab1936e634281f769ce2310360387c711d8eafea5b5", "0.1.5--pyhdfd78af_0": "sha256:eae93f23d0d90afff3243a23a69af33b8fcde3062dc7d50d69e44f57425db07c"}, "docker": "quay.io/biocontainers/majec", "aliases": {"majec_add_norm_factors": "/usr/local/bin/majec_add_norm_factors", "majec_build_db": "/usr/local/bin/majec_build_db", "majec_calc_frag_len": "/usr/local/bin/majec_calc_frag_len", "majec_calc_thresholds": "/usr/local/bin/majec_calc_thresholds", "majec_precompute_annotations": "/usr/local/bin/majec_precompute_annotations", "majec_prepare_deseq2": "/usr/local/bin/majec_prepare_deseq2", "majec_run_pipeline": "/usr/local/bin/majec_run_pipeline", "majec_visualize": "/usr/local/bin/majec_visualize", "genRandomReads": "/usr/local/bin/genRandomReads", "flattenGTF": "/usr/local/bin/flattenGTF", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "sublong": "/usr/local/bin/sublong", "subread-fullscan": "/usr/local/bin/subread-fullscan", "exactSNP": "/usr/local/bin/exactSNP", "featureCounts": "/usr/local/bin/featureCounts", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/majec.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/majec
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/majec:0.1.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/majec:0.1.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/majec/0.1.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/majec/0.1.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/majec/0.1.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/majec/0.1.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
