@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/pharmcat3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pharmcat3
 latest:
-  3.2.0--py313h106432d_0: 
-    sha256:87e4ac305255a0ee13d9669361266953206dbf3907745c6ffc390b5eed03cfba
+  3.4.0--py313h106432d_0: 
+    sha256:778b7f319e877328d2606f2c608855346f71739cdd9f59f2757ca82d896cae3c
 tags:
   3.1.1--py312h7e72e81_0: 
     sha256:bfec10c22409476074ac99b4f73093beec1bafb1777197c30e9582225c9d11fb
   3.2.0--py313h106432d_0: 
     sha256:87e4ac305255a0ee13d9669361266953206dbf3907745c6ffc390b5eed03cfba
+  3.4.0--py313h106432d_0: 
+    sha256:778b7f319e877328d2606f2c608855346f71739cdd9f59f2757ca82d896cae3c
+  3.3.0--py313h106432d_0: 
+    sha256:4c98205e3dc51604f5424686c85661c14d29efe60ac80f6458d42df74a0bc7dc
 docker: quay.io/biocontainers/pharmcat3
 aliases:
   gff2gff: /usr/local/bin/gff2gff

@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   enzywizard-mut-batch
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:7e5d1f0a583ee46f711d42250920f916677c7411c535dfacd461cec215d98b86
+  1.0.2--pyhdfd78af_1: 
+    sha256:e12c9d5d157271d1d5190f7ee43ea3f6d44a6c9e3076a63c92cb5cc030747c53
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:7e5d1f0a583ee46f711d42250920f916677c7411c535dfacd461cec215d98b86
+  1.0.2--pyhdfd78af_1: 
+    sha256:e12c9d5d157271d1d5190f7ee43ea3f6d44a6c9e3076a63c92cb5cc030747c53
 docker: quay.io/biocontainers/enzywizard-mut-batch
 aliases:
   enzywizard-mut-batch: /usr/local/bin/enzywizard-mut-batch

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/majec
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for majec
 latest:
-  0.1.4--pyhdfd78af_0: 
-    sha256:b61b262f88e6d67513304ab1936e634281f769ce2310360387c711d8eafea5b5
+  0.1.5--pyhdfd78af_0: 
+    sha256:eae93f23d0d90afff3243a23a69af33b8fcde3062dc7d50d69e44f57425db07c
 tags:
   0.1.4--pyhdfd78af_0: 
     sha256:b61b262f88e6d67513304ab1936e634281f769ce2310360387c711d8eafea5b5
+  0.1.5--pyhdfd78af_0: 
+    sha256:eae93f23d0d90afff3243a23a69af33b8fcde3062dc7d50d69e44f57425db07c
 docker: quay.io/biocontainers/majec
 aliases:
   majec_add_norm_factors: /usr/local/bin/majec_add_norm_factors
