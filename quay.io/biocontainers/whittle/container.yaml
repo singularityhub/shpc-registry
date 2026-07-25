@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/whittle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for whittle
+latest:
+  0.1.1--hfa8f182_0: 
+    sha256:0bd01c4fef407abede42b0e4d650bcf7772bb54617615e30b0757a46265ad0c0
+tags:
+  0.1.1--hfa8f182_0: 
+    sha256:0bd01c4fef407abede42b0e4d650bcf7772bb54617615e30b0757a46265ad0c0
+docker: quay.io/biocontainers/whittle
+aliases:
+  whittle: /usr/local/bin/whittle

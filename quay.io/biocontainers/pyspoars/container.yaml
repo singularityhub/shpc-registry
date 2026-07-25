@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/pyspoars
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyspoars
+latest:
+  0.1.3--py310hce5ca29_0: 
+    sha256:ee19380a1793d649877c0933f87863f9b2efdfcf7749dc23de4c61cd4247f811
+tags:
+  0.1.3--py310hce5ca29_0: 
+    sha256:ee19380a1793d649877c0933f87863f9b2efdfcf7749dc23de4c61cd4247f811
+docker: quay.io/biocontainers/pyspoars
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/cytozip
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cytozip
+latest:
+  0.3.5--py310h47228ae_0: 
+    sha256:6d8d85c2359960b65361aa6603b0d76baf2e485461f7c1e6fd2a65c41447436f
+tags:
+  0.3.5--py310h47228ae_0: 
+    sha256:6d8d85c2359960b65361aa6603b0d76baf2e485461f7c1e6fd2a65c41447436f
+docker: quay.io/biocontainers/cytozip
+aliases:
+  czip: /usr/local/bin/czip
+  idna: /usr/local/bin/idna
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  ref-cache: /usr/local/bin/ref-cache
+  elasticurl: /usr/local/bin/elasticurl
+  annot-tsv: /usr/local/bin/annot-tsv
+  natsort: /usr/local/bin/natsort
+  h5delete: /usr/local/bin/h5delete
+  numpy-config: /usr/local/bin/numpy-config
+  h5fc: /usr/local/bin/h5fc
+  h5c++: /usr/local/bin/h5c++
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff
+  h5import: /usr/local/bin/h5import
+  h5jam: /usr/local/bin/h5jam
+  h5ls: /usr/local/bin/h5ls
+  h5mkgrp: /usr/local/bin/h5mkgrp
+  h5perf_serial: /usr/local/bin/h5perf_serial
+  h5repack: /usr/local/bin/h5repack
+  h5repart: /usr/local/bin/h5repart

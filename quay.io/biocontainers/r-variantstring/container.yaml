@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/r-variantstring
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-variantstring
+latest:
+  1.8.7--r45hdfd78af_0: 
+    sha256:0a8177187682c2954e1de014528ce3419b8cdb53e801fa84f85bae852b692869
+tags:
+  1.8.7--r45hdfd78af_0: 
+    sha256:0a8177187682c2954e1de014528ce3419b8cdb53e801fa84f85bae852b692869
+docker: quay.io/biocontainers/r-variantstring
+aliases:
+  psl: /usr/local/bin/psl
+  psl-make-dafsa: /usr/local/bin/psl-make-dafsa
+  fc-genconf: /usr/local/bin/fc-genconf
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

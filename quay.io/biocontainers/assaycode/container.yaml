@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/assaycode
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for assaycode
+latest:
+  0.2.0--hdfd78af_0: 
+    sha256:d8456fd511fb7eabdd726d734120a963f8a70a94dbb82c2874f5a4ef492ba6a3
+tags:
+  0.2.0--hdfd78af_0: 
+    sha256:d8456fd511fb7eabdd726d734120a963f8a70a94dbb82c2874f5a4ef492ba6a3
+docker: quay.io/biocontainers/assaycode
+aliases:
+  assaycode: /usr/local/bin/assaycode
+  dotmatch: /usr/local/bin/dotmatch
+  quickdna: /usr/local/bin/quickdna
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
