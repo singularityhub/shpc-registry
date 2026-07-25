@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/python-ferro-hgvs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for python-ferro-hgvs
+latest:
+  0.10.0--py310hce5ca29_0: 
+    sha256:f587e8943d749e6763d5f477041e7f8c9a6e1c7357497aa5dda8537261b1c65d
+tags:
+  0.10.0--py310hce5ca29_0: 
+    sha256:f587e8943d749e6763d5f477041e7f8c9a6e1c7357497aa5dda8537261b1c65d
+docker: quay.io/biocontainers/python-ferro-hgvs
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

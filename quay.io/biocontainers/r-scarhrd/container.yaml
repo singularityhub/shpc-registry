@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/r-scarhrd
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-scarhrd
+latest:
+  0.1.1--r35hdfd78af_1: 
+    sha256:0b7de2abd736094a638fb824b7734fe651589ae21f792bf685f77d480d52a710
+tags:
+  0.1.1--r35hdfd78af_1: 
+    sha256:0b7de2abd736094a638fb824b7734fe651589ae21f792bf685f77d480d52a710
+docker: quay.io/biocontainers/r-scarhrd
+aliases:
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  x86_64-conda-linux-gnu-gfortran.bin: 
+    /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
