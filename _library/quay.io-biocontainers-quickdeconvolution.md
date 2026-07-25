@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quickdeconvolution"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quickdeconvolution/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quickdeconvolution/container.yaml"
-updated_at: "2026-07-24 06:11:46.132373"
+updated_at: "2026-07-25 05:29:24.364020"
 latest: "1.2--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/quickdeconvolution"
 aliases:

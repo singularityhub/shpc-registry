@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geyser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geyser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geyser/container.yaml"
-updated_at: "2026-07-24 06:12:43.896706"
+updated_at: "2026-07-25 05:20:28.143672"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geyser"
 aliases:

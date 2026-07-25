@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-inversion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-inversion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-inversion/container.yaml"
-updated_at: "2026-07-24 05:45:43.511417"
+updated_at: "2026-07-25 05:58:19.530035"
 latest: "1.42.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-inversion"
 

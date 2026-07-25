@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/canopy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canopy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/canopy/container.yaml"
-updated_at: "2026-07-24 05:57:40.982118"
-latest: "0.25--h077b44d_1"
+updated_at: "2026-07-25 05:58:15.978382"
+latest: "0.26--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/canopy"
 aliases:
  - "cc.bin"
 versions:
  - "0.25--hdcf5f25_0"
  - "0.25--h077b44d_1"
+ - "0.26--h3be2455_0"
 description: "singularity registry hpc automated addition for canopy"
-config: {"url": "https://biocontainers.pro/tools/canopy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for canopy", "latest": {"0.25--h077b44d_1": "sha256:86b64b3e6a1660675d909408a33a9e2238ddd81925d9585ec3c5841077578c9b"}, "tags": {"0.25--hdcf5f25_0": "sha256:c74b5ead63b0803dcbe1349b2ae3a51270426c40dab3428e58003047df5ec60f", "0.25--h077b44d_1": "sha256:86b64b3e6a1660675d909408a33a9e2238ddd81925d9585ec3c5841077578c9b"}, "docker": "quay.io/biocontainers/canopy", "aliases": {"cc.bin": "/usr/local/bin/cc.bin"}}
+config: {"url": "https://biocontainers.pro/tools/canopy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for canopy", "latest": {"0.26--h3be2455_0": "sha256:799ffd3ac14cbe5e3be64ff8123de9fc6e817c8013ec605036f3931d004379bd"}, "tags": {"0.25--hdcf5f25_0": "sha256:c74b5ead63b0803dcbe1349b2ae3a51270426c40dab3428e58003047df5ec60f", "0.25--h077b44d_1": "sha256:86b64b3e6a1660675d909408a33a9e2238ddd81925d9585ec3c5841077578c9b", "0.26--h3be2455_0": "sha256:799ffd3ac14cbe5e3be64ff8123de9fc6e817c8013ec605036f3931d004379bd"}, "docker": "quay.io/biocontainers/canopy", "aliases": {"cc.bin": "/usr/local/bin/cc.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/canopy.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/canopy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/canopy:0.25--h077b44d_1
+$ shpc install quay.io/biocontainers/canopy:0.26--h3be2455_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/canopy/0.25--h077b44d_1
-$ module help quay.io/biocontainers/canopy/0.25--h077b44d_1
+$ module load quay.io/biocontainers/canopy/0.26--h3be2455_0
+$ module help quay.io/biocontainers/canopy/0.26--h3be2455_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-inline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-inline/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-inline/container.yaml"
-updated_at: "2026-07-24 05:56:35.350502"
+updated_at: "2026-07-25 05:20:19.981840"
 latest: "0.3.14--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-inline"
 aliases:

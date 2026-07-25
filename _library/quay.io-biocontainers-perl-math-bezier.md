@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-bezier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-bezier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-bezier/container.yaml"
-updated_at: "2026-07-24 06:07:40.023711"
+updated_at: "2026-07-25 05:23:13.377694"
 latest: "0.01--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-math-bezier"
 aliases:

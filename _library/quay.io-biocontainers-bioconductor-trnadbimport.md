@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trnadbimport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trnadbimport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trnadbimport/container.yaml"
-updated_at: "2026-07-24 05:59:46.588144"
+updated_at: "2026-07-25 05:32:26.752668"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trnadbimport"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samap/container.yaml"
-updated_at: "2026-07-24 06:18:18.005090"
+updated_at: "2026-07-25 05:49:16.693968"
 latest: "1.0.15--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samap"
 aliases:

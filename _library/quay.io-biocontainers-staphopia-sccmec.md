@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staphopia-sccmec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphopia-sccmec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphopia-sccmec/container.yaml"
-updated_at: "2026-07-24 06:19:39.173763"
+updated_at: "2026-07-25 05:56:46.398233"
 latest: "1.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphopia-sccmec"
 aliases:

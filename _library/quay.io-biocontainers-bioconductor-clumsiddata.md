@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clumsiddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clumsiddata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clumsiddata/container.yaml"
-updated_at: "2026-07-24 05:48:49.813337"
+updated_at: "2026-07-25 05:31:52.674553"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clumsiddata"
 aliases:

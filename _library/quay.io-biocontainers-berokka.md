@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/berokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/berokka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/berokka/container.yaml"
-updated_at: "2026-07-24 05:49:04.482838"
+updated_at: "2026-07-25 05:55:49.548476"
 latest: "0.2.3--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/berokka"
 aliases:

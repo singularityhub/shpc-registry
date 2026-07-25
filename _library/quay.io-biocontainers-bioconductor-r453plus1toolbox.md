@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-r453plus1toolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-r453plus1toolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-r453plus1toolbox/container.yaml"
-updated_at: "2026-07-24 05:46:52.492123"
+updated_at: "2026-07-25 05:30:50.971781"
 latest: "1.56.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-r453plus1toolbox"
 
