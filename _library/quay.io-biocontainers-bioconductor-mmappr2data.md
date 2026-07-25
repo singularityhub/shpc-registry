@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mmappr2data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmappr2data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmappr2data/container.yaml"
-updated_at: "2026-07-25 05:42:15.033971"
+updated_at: "2026-07-25 07:27:59.731953"
 latest: "1.16.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmappr2data"
 

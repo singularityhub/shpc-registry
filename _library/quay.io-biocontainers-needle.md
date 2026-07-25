@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/needle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/needle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/needle/container.yaml"
-updated_at: "2026-07-25 05:34:10.438495"
+updated_at: "2026-07-25 07:16:27.646314"
 latest: "1.0.3--hcc1e4c6_0"
 container_url: "https://biocontainers.pro/tools/needle"
 aliases:

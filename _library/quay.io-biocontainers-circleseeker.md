@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circleseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circleseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circleseeker/container.yaml"
-updated_at: "2026-07-25 05:49:44.771126"
+updated_at: "2026-07-25 07:38:29.164100"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/circleseeker"
 aliases:

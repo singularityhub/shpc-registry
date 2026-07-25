@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viptreegen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viptreegen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viptreegen/container.yaml"
-updated_at: "2026-07-25 05:39:42.578679"
+updated_at: "2026-07-25 07:24:23.987249"
 latest: "1.1.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viptreegen"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lr_gapcloser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lr_gapcloser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lr_gapcloser/container.yaml"
-updated_at: "2026-07-25 05:36:01.336563"
+updated_at: "2026-07-25 07:19:07.041195"
 latest: "1.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lr_gapcloser"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scpipe/container.yaml"
-updated_at: "2026-07-25 05:46:36.944409"
+updated_at: "2026-07-25 07:34:06.556079"
 latest: "2.10.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scpipe"
 aliases:
