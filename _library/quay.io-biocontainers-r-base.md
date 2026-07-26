@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-base"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-base/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-base/container.yaml"
-updated_at: "2026-07-25 07:38:22.099271"
+updated_at: "2026-07-26 06:07:47.298691"
 latest: "4.4.1"
 container_url: "https://biocontainers.pro/tools/r-base"
 
@@ -12,8 +12,9 @@ versions:
  - "4.2.1"
  - "4.4.1"
  - "4.3.1"
+ - "4.3.3"
 description: "shpc-registry automated BioContainers addition for r-base"
-config: {"url": "https://biocontainers.pro/tools/r-base", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-base", "latest": {"4.4.1": "sha256:75ab52c56a3eb71b4dcab333b6c93614f805750f39d367854c710869f8694ba8"}, "tags": {"4.2.1": "sha256:6721ee8bfba2b2d326c709dc8096555304746e2cb706c28af69fbc7ea5bb3d79", "4.4.1": "sha256:75ab52c56a3eb71b4dcab333b6c93614f805750f39d367854c710869f8694ba8", "4.3.1": "sha256:af473d54a13752a376d79dca5534dc50968a217e9709368526d4b1d63c7a7443"}, "docker": "quay.io/biocontainers/r-base"}
+config: {"url": "https://biocontainers.pro/tools/r-base", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-base", "latest": {"4.4.1": "sha256:75ab52c56a3eb71b4dcab333b6c93614f805750f39d367854c710869f8694ba8"}, "tags": {"4.2.1": "sha256:6721ee8bfba2b2d326c709dc8096555304746e2cb706c28af69fbc7ea5bb3d79", "4.4.1": "sha256:75ab52c56a3eb71b4dcab333b6c93614f805750f39d367854c710869f8694ba8", "4.3.1": "sha256:af473d54a13752a376d79dca5534dc50968a217e9709368526d4b1d63c7a7443", "4.3.3": "sha256:623b78051ece50dadbb644f91bf0550716cfce0443681e4902b15120e21e9670"}, "docker": "quay.io/biocontainers/r-base"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-base.

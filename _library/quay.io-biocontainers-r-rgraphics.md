@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rgraphics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rgraphics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rgraphics/container.yaml"
-updated_at: "2026-07-25 07:32:03.358743"
+updated_at: "2026-07-26 06:03:04.535529"
 latest: "2.0_14--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-rgraphics"
 aliases:

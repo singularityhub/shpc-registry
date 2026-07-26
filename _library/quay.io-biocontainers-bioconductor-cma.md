@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cma/container.yaml"
-updated_at: "2026-07-25 07:36:28.000761"
+updated_at: "2026-07-26 06:06:22.142918"
 latest: "1.68.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cma"
 

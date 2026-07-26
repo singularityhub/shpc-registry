@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-katdetectr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-katdetectr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-katdetectr/container.yaml"
-updated_at: "2026-07-25 07:46:40.927074"
+updated_at: "2026-07-26 06:13:55.444844"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-katdetectr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-despace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-despace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-despace/container.yaml"
-updated_at: "2026-07-25 07:00:20.451667"
+updated_at: "2026-07-26 05:40:06.328097"
 latest: "2.2.2--r45h84498cf_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-despace"
 aliases:

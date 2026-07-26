@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/staphscope-sccmec-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphscope-sccmec-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphscope-sccmec-data/container.yaml"
-updated_at: "2026-07-25 07:37:43.559179"
-latest: "1.2.3--hdfd78af_0"
+updated_at: "2026-07-26 06:07:18.390974"
+latest: "1.3.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphscope-sccmec-data"
 
 versions:
@@ -13,8 +13,9 @@ versions:
  - "1.2.1--hdfd78af_1"
  - "1.2.2--hdfd78af_0"
  - "1.2.3--hdfd78af_0"
+ - "1.3.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for staphscope-sccmec-data"
-config: {"url": "https://biocontainers.pro/tools/staphscope-sccmec-data", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for staphscope-sccmec-data", "latest": {"1.2.3--hdfd78af_0": "sha256:7e48644be93596acba3db0fa49816b30ec69d43619abd225f903e89da5b80073"}, "tags": {"1.2.0--hdfd78af_1": "sha256:131e30a08f04ec1b72f55cb8a8f92ced5fae8946605981dfb68a5d99721708fc", "1.2.1--hdfd78af_1": "sha256:31ce294468caf9828eb5f757202e0b2b7a36f4d382ed96a5248c30bcd0b4a2d5", "1.2.2--hdfd78af_0": "sha256:ecc59815847bb5155f9c6f68187f08a318963179cf0ae77557ed0ec892216aaa", "1.2.3--hdfd78af_0": "sha256:7e48644be93596acba3db0fa49816b30ec69d43619abd225f903e89da5b80073"}, "docker": "quay.io/biocontainers/staphscope-sccmec-data"}
+config: {"url": "https://biocontainers.pro/tools/staphscope-sccmec-data", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for staphscope-sccmec-data", "latest": {"1.3.2--hdfd78af_0": "sha256:c491b53fbb15f24415002896357090070f1192664c0d09644267891485ee1e1c"}, "tags": {"1.2.0--hdfd78af_1": "sha256:131e30a08f04ec1b72f55cb8a8f92ced5fae8946605981dfb68a5d99721708fc", "1.2.1--hdfd78af_1": "sha256:31ce294468caf9828eb5f757202e0b2b7a36f4d382ed96a5248c30bcd0b4a2d5", "1.2.2--hdfd78af_0": "sha256:ecc59815847bb5155f9c6f68187f08a318963179cf0ae77557ed0ec892216aaa", "1.2.3--hdfd78af_0": "sha256:7e48644be93596acba3db0fa49816b30ec69d43619abd225f903e89da5b80073", "1.3.2--hdfd78af_0": "sha256:c491b53fbb15f24415002896357090070f1192664c0d09644267891485ee1e1c"}, "docker": "quay.io/biocontainers/staphscope-sccmec-data"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/staphscope-sccmec-data.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/staphscope-sccmec-data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/staphscope-sccmec-data:1.2.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/staphscope-sccmec-data:1.3.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/staphscope-sccmec-data/1.2.3--hdfd78af_0
-$ module help quay.io/biocontainers/staphscope-sccmec-data/1.2.3--hdfd78af_0
+$ module load quay.io/biocontainers/staphscope-sccmec-data/1.3.2--hdfd78af_0
+$ module help quay.io/biocontainers/staphscope-sccmec-data/1.3.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

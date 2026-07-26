@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/canvas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/canvas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/canvas/container.yaml"
-updated_at: "2026-07-25 07:18:15.625039"
-latest: "1.35.1.1316--0"
+updated_at: "2026-07-26 05:52:58.410218"
+latest: "1.40.0.1613--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/canvas"
 aliases:
  - "Canvas"
  - "EvaluateCNV"
 versions:
  - "1.35.1.1316--0"
+ - "1.40.0.1613--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for canvas"
-config: {"url": "https://biocontainers.pro/tools/canvas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for canvas", "latest": {"1.35.1.1316--0": "sha256:c8ea0599ab1772293e515125c795beecc405909187f1e7ecb3da5350a738593a"}, "tags": {"1.35.1.1316--0": "sha256:c8ea0599ab1772293e515125c795beecc405909187f1e7ecb3da5350a738593a"}, "docker": "quay.io/biocontainers/canvas", "aliases": {"Canvas": "/usr/local/bin/Canvas", "EvaluateCNV": "/usr/local/bin/EvaluateCNV"}}
+config: {"url": "https://biocontainers.pro/tools/canvas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for canvas", "latest": {"1.40.0.1613--hdfd78af_0": "sha256:7e742a999a7b9587a1f99b8bb4abfad5d08cf789cdf972af0cd38da32b767802"}, "tags": {"1.35.1.1316--0": "sha256:c8ea0599ab1772293e515125c795beecc405909187f1e7ecb3da5350a738593a", "1.40.0.1613--hdfd78af_0": "sha256:7e742a999a7b9587a1f99b8bb4abfad5d08cf789cdf972af0cd38da32b767802"}, "docker": "quay.io/biocontainers/canvas", "aliases": {"Canvas": "/usr/local/bin/Canvas", "EvaluateCNV": "/usr/local/bin/EvaluateCNV"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/canvas.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/canvas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/canvas:1.35.1.1316--0
+$ shpc install quay.io/biocontainers/canvas:1.40.0.1613--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/canvas/1.35.1.1316--0
-$ module help quay.io/biocontainers/canvas/1.35.1.1316--0
+$ module load quay.io/biocontainers/canvas/1.40.0.1613--hdfd78af_0
+$ module help quay.io/biocontainers/canvas/1.40.0.1613--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

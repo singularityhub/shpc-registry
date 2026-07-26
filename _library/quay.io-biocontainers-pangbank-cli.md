@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pangbank-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangbank-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangbank-cli/container.yaml"
-updated_at: "2026-07-25 07:43:12.465177"
-latest: "0.1.1--pyhdfd78af_0"
+updated_at: "2026-07-26 06:11:22.812432"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pangbank-cli"
 aliases:
  - "email_validator"
@@ -33,8 +33,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.1--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pangbank-cli"
-config: {"url": "https://biocontainers.pro/tools/pangbank-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pangbank-cli", "latest": {"0.1.1--pyhdfd78af_0": "sha256:85a5bad1894bda47a7ae032bdd5392d10bfc16c1a7fd5a195af66d0e2e712892"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:85a5bad1894bda47a7ae032bdd5392d10bfc16c1a7fd5a195af66d0e2e712892"}, "docker": "quay.io/biocontainers/pangbank-cli", "aliases": {"email_validator": "/usr/local/bin/email_validator", "fastapi": "/usr/local/bin/fastapi", "pangbank": "/usr/local/bin/pangbank", "pangbank_db": "/usr/local/bin/pangbank_db", "uvicorn": "/usr/local/bin/uvicorn", "watchfiles": "/usr/local/bin/watchfiles", "websockets": "/usr/local/bin/websockets", "dotenv": "/usr/local/bin/dotenv", "typer": "/usr/local/bin/typer", "httpx": "/usr/local/bin/httpx", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/pangbank-cli", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pangbank-cli", "latest": {"0.2.0--pyhdfd78af_0": "sha256:e6887464de3bda617c04c77068140dd587052772abe5a6887fd415539d276ecc"}, "tags": {"0.1.1--pyhdfd78af_0": "sha256:85a5bad1894bda47a7ae032bdd5392d10bfc16c1a7fd5a195af66d0e2e712892", "0.2.0--pyhdfd78af_0": "sha256:e6887464de3bda617c04c77068140dd587052772abe5a6887fd415539d276ecc"}, "docker": "quay.io/biocontainers/pangbank-cli", "aliases": {"email_validator": "/usr/local/bin/email_validator", "fastapi": "/usr/local/bin/fastapi", "pangbank": "/usr/local/bin/pangbank", "pangbank_db": "/usr/local/bin/pangbank_db", "uvicorn": "/usr/local/bin/uvicorn", "watchfiles": "/usr/local/bin/watchfiles", "websockets": "/usr/local/bin/websockets", "dotenv": "/usr/local/bin/dotenv", "typer": "/usr/local/bin/typer", "httpx": "/usr/local/bin/httpx", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pangbank-cli.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/pangbank-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pangbank-cli:0.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pangbank-cli:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pangbank-cli/0.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/pangbank-cli/0.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/pangbank-cli/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pangbank-cli/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
