@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/canvas
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for canvas
 latest:
-  1.35.1.1316--0: 
-    sha256:c8ea0599ab1772293e515125c795beecc405909187f1e7ecb3da5350a738593a
+  1.40.0.1613--hdfd78af_0: 
+    sha256:7e742a999a7b9587a1f99b8bb4abfad5d08cf789cdf972af0cd38da32b767802
 tags:
   1.35.1.1316--0: 
     sha256:c8ea0599ab1772293e515125c795beecc405909187f1e7ecb3da5350a738593a
+  1.40.0.1613--hdfd78af_0: 
+    sha256:7e742a999a7b9587a1f99b8bb4abfad5d08cf789cdf972af0cd38da32b767802
 docker: quay.io/biocontainers/canvas
 aliases:
   Canvas: /usr/local/bin/Canvas
