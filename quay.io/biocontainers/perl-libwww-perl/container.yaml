@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/perl-libwww-perl
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-libwww-perl
 latest:
-  6.82--pl5321hdfd78af_0: 
-    sha256:a3f664b85bed183fd5a8f10c7c99a3a76b094ce2ce155fd6400b525b608485be
+  6.83--pl5321hdfd78af_0: 
+    sha256:44be72d0ce5fc99e54dd2eef2ef4e18971c334895fda6fd73017856715d6b0c0
 tags:
   6.67--pl5321hdfd78af_0: 
     sha256:3d1546bab8ebc5f110d74385a7e39728b647c8a922d273a954b3c342d9e4c0f0
@@ -19,6 +19,8 @@ tags:
     sha256:e64efc178056e443cc7dd900e51f1e901e44e284fde8893d1d5e6863590b516f
   6.82--pl5321hdfd78af_0: 
     sha256:a3f664b85bed183fd5a8f10c7c99a3a76b094ce2ce155fd6400b525b608485be
+  6.83--pl5321hdfd78af_0: 
+    sha256:44be72d0ce5fc99e54dd2eef2ef4e18971c334895fda6fd73017856715d6b0c0
 docker: quay.io/biocontainers/perl-libwww-perl
 aliases:
   lwp-download: /usr/local/bin/lwp-download

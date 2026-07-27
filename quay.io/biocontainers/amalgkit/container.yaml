@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/amalgkit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for amalgkit
 latest:
-  0.16.25--pyhdfd78af_0: 
-    sha256:96e4d947e97a8bb2e58df979c4b770850d69ed23dc807d029871bc06ddce03cc
+  0.16.32--pyhdfd78af_0: 
+    sha256:7465106be44cfa347337d461dd98b26aea2df9a59a5b5a878580836476532ba4
 tags:
   0.12.15--pyhdfd78af_0: 
     sha256:5c83ae36b4d5d8a690a9d845e6c9b80a26eacd28caa9d768ec569041021a88d8
@@ -17,6 +17,8 @@ tags:
     sha256:49b9e45a255096b6564eb7560e827851125cfadba8fb20dc712075a684b7dd7f
   0.16.25--pyhdfd78af_0: 
     sha256:96e4d947e97a8bb2e58df979c4b770850d69ed23dc807d029871bc06ddce03cc
+  0.16.32--pyhdfd78af_0: 
+    sha256:7465106be44cfa347337d461dd98b26aea2df9a59a5b5a878580836476532ba4
 docker: quay.io/biocontainers/amalgkit
 aliases:
   amalgkit: /usr/local/bin/amalgkit
