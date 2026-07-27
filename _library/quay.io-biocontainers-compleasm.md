@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/compleasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/compleasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/compleasm/container.yaml"
-updated_at: "2026-07-26 06:16:23.356952"
+updated_at: "2026-07-27 06:50:08.099964"
 latest: "0.2.8--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/compleasm"
 aliases:

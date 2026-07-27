@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jaffa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jaffa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jaffa/container.yaml"
-updated_at: "2026-07-26 05:55:42.611141"
+updated_at: "2026-07-27 06:22:06.127930"
 latest: "2.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jaffa"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/instanexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/instanexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/instanexus/container.yaml"
-updated_at: "2026-07-26 05:42:15.213468"
+updated_at: "2026-07-27 06:03:35.222566"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/instanexus"
 aliases:

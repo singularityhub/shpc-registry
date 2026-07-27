@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-try-tiny-retry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-try-tiny-retry/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-try-tiny-retry/container.yaml"
-updated_at: "2026-07-26 05:49:45.875923"
+updated_at: "2026-07-27 06:13:51.252627"
 latest: "0.004--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-try-tiny-retry"
 aliases:

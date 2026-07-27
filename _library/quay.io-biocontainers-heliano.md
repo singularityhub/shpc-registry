@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/heliano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/heliano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/heliano/container.yaml"
-updated_at: "2026-07-26 06:18:56.359500"
-latest: "1.3.1--hdfd78af_0"
+updated_at: "2026-07-27 06:53:44.452567"
+latest: "1.3.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/heliano"
 aliases:
  - "dialign2-2"
@@ -41,8 +41,9 @@ aliases:
 versions:
  - "1.2.1--hdfd78af_0"
  - "1.3.1--hdfd78af_0"
+ - "1.3.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for heliano"
-config: {"url": "https://biocontainers.pro/tools/heliano", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for heliano", "latest": {"1.3.1--hdfd78af_0": "sha256:538cdc8d2e9decbec4ffd46892fad018263713d6cfe40bf8987f1a15620abab9"}, "tags": {"1.2.1--hdfd78af_0": "sha256:1e0bbace606384159ddd8f6968f0558722bed4783f2e504c2aa8203c0467ab4d", "1.3.1--hdfd78af_0": "sha256:538cdc8d2e9decbec4ffd46892fad018263713d6cfe40bf8987f1a15620abab9"}, "docker": "quay.io/biocontainers/heliano", "aliases": {"dialign2-2": "/usr/local/bin/dialign2-2", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "heliano": "/usr/local/bin/heliano", "heliano_cons": "/usr/local/bin/heliano_cons", "rnabob": "/usr/local/bin/rnabob", "genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "xmlget": "/usr/local/bin/xmlget", "xmltext": "/usr/local/bin/xmltext", "aaindexextract": "/usr/local/bin/aaindexextract", "abiview": "/usr/local/bin/abiview", "acdgalaxy": "/usr/local/bin/acdgalaxy", "acdlog": "/usr/local/bin/acdlog", "acdpretty": "/usr/local/bin/acdpretty", "acdtable": "/usr/local/bin/acdtable", "acdtrace": "/usr/local/bin/acdtrace", "acdvalid": "/usr/local/bin/acdvalid", "aligncopy": "/usr/local/bin/aligncopy", "aligncopypair": "/usr/local/bin/aligncopypair", "antigenic": "/usr/local/bin/antigenic", "assemblyget": "/usr/local/bin/assemblyget", "backtranambig": "/usr/local/bin/backtranambig", "backtranseq": "/usr/local/bin/backtranseq", "banana": "/usr/local/bin/banana", "biosed": "/usr/local/bin/biosed"}}
+config: {"url": "https://biocontainers.pro/tools/heliano", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for heliano", "latest": {"1.3.1--hdfd78af_1": "sha256:30ffcce6a352ed73a4e1521a94cea8b55a9314eaac90b2620e589cbe4720daed"}, "tags": {"1.2.1--hdfd78af_0": "sha256:1e0bbace606384159ddd8f6968f0558722bed4783f2e504c2aa8203c0467ab4d", "1.3.1--hdfd78af_0": "sha256:538cdc8d2e9decbec4ffd46892fad018263713d6cfe40bf8987f1a15620abab9", "1.3.1--hdfd78af_1": "sha256:30ffcce6a352ed73a4e1521a94cea8b55a9314eaac90b2620e589cbe4720daed"}, "docker": "quay.io/biocontainers/heliano", "aliases": {"dialign2-2": "/usr/local/bin/dialign2-2", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "heliano": "/usr/local/bin/heliano", "heliano_cons": "/usr/local/bin/heliano_cons", "rnabob": "/usr/local/bin/rnabob", "genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "xmlget": "/usr/local/bin/xmlget", "xmltext": "/usr/local/bin/xmltext", "aaindexextract": "/usr/local/bin/aaindexextract", "abiview": "/usr/local/bin/abiview", "acdgalaxy": "/usr/local/bin/acdgalaxy", "acdlog": "/usr/local/bin/acdlog", "acdpretty": "/usr/local/bin/acdpretty", "acdtable": "/usr/local/bin/acdtable", "acdtrace": "/usr/local/bin/acdtrace", "acdvalid": "/usr/local/bin/acdvalid", "aligncopy": "/usr/local/bin/aligncopy", "aligncopypair": "/usr/local/bin/aligncopypair", "antigenic": "/usr/local/bin/antigenic", "assemblyget": "/usr/local/bin/assemblyget", "backtranambig": "/usr/local/bin/backtranambig", "backtranseq": "/usr/local/bin/backtranseq", "banana": "/usr/local/bin/banana", "biosed": "/usr/local/bin/biosed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/heliano.
@@ -57,7 +58,7 @@ $ shpc install quay.io/biocontainers/heliano
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/heliano:1.3.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/heliano:1.3.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -69,8 +70,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/heliano/1.3.1--hdfd78af_0
-$ module help quay.io/biocontainers/heliano/1.3.1--hdfd78af_0
+$ module load quay.io/biocontainers/heliano/1.3.1--hdfd78af_1
+$ module help quay.io/biocontainers/heliano/1.3.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
