@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gxfkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gxfkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gxfkit/container.yaml"
-updated_at: "2026-07-27 06:15:02.697278"
+updated_at: "2026-07-28 05:39:38.138978"
 latest: "0.0.1--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/gxfkit"
 aliases:

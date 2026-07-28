@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-class-moose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-class-moose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-class-moose/container.yaml"
-updated_at: "2026-07-27 06:30:37.535107"
+updated_at: "2026-07-28 05:54:47.743651"
 latest: "1.00--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-test-class-moose"
 aliases:

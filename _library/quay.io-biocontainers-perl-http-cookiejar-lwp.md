@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-http-cookiejar-lwp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-cookiejar-lwp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-cookiejar-lwp/container.yaml"
-updated_at: "2026-07-27 06:32:33.494482"
+updated_at: "2026-07-28 05:56:41.820304"
 latest: "0.014--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-cookiejar-lwp"
 

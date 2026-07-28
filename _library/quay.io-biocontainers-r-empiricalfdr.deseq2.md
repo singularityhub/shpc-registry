@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-empiricalfdr.deseq2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-empiricalfdr.deseq2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-empiricalfdr.deseq2/container.yaml"
-updated_at: "2026-07-27 06:06:00.989228"
+updated_at: "2026-07-28 05:30:46.284769"
 latest: "1.0.3--r44h3121a25_11"
 container_url: "https://biocontainers.pro/tools/r-empiricalfdr.deseq2"
 aliases:

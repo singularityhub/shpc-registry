@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-canineprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-canineprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-canineprobe/container.yaml"
-updated_at: "2026-07-27 05:56:14.075963"
+updated_at: "2026-07-28 05:20:27.592751"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-canineprobe"
 

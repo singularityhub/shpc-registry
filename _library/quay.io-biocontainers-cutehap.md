@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cutehap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutehap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cutehap/container.yaml"
-updated_at: "2026-07-27 06:47:03.985095"
+updated_at: "2026-07-28 06:10:55.593410"
 latest: "1.0.4--py312h87e0c26_0"
 container_url: "https://biocontainers.pro/tools/cutehap"
 aliases:

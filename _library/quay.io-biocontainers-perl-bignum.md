@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bignum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bignum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bignum/container.yaml"
-updated_at: "2026-07-27 06:13:21.770231"
+updated_at: "2026-07-28 05:38:01.892781"
 latest: "0.67--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bignum"
 aliases:

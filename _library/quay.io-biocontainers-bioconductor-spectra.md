@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-spectra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spectra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spectra/container.yaml"
-updated_at: "2026-07-27 06:25:42.354674"
+updated_at: "2026-07-28 05:49:52.107239"
 latest: "1.10.1--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spectra"
 
