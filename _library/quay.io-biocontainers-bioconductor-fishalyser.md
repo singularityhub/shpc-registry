@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fishalyser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fishalyser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fishalyser/container.yaml"
-updated_at: "2026-07-28 05:50:07.516889"
+updated_at: "2026-07-29 05:56:04.872465"
 latest: "1.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fishalyser"
 aliases:

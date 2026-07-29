@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/linkedsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/linkedsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/linkedsv/container.yaml"
-updated_at: "2026-07-28 06:10:46.050231"
+updated_at: "2026-07-29 06:15:50.431788"
 latest: "0.1.0--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/linkedsv"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mozaiko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mozaiko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mozaiko/container.yaml"
-updated_at: "2026-07-28 05:19:16.027421"
+updated_at: "2026-07-29 05:26:02.402570"
 latest: "0.1.10--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/mozaiko"
 aliases:
