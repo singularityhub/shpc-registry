@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/csuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csuite/container.yaml"
-updated_at: "2026-07-29 06:13:30.417951"
+updated_at: "2026-07-30 06:03:42.312741"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/csuite"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-maldiquantforeign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-maldiquantforeign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-maldiquantforeign/container.yaml"
-updated_at: "2026-07-29 06:14:14.750039"
+updated_at: "2026-07-30 06:04:31.277825"
 latest: "0.12--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-maldiquantforeign"
 aliases:

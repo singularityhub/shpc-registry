@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/poppler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poppler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poppler/container.yaml"
-updated_at: "2026-07-29 05:32:03.628167"
+updated_at: "2026-07-30 05:19:22.367834"
 latest: "25.07.0"
 container_url: "https://biocontainers.pro/tools/poppler"
 aliases:

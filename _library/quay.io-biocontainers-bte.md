@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bte"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bte/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bte/container.yaml"
-updated_at: "2026-07-29 06:12:30.358627"
+updated_at: "2026-07-30 06:02:40.303994"
 latest: "0.9.3--py310h1153794_2"
 container_url: "https://biocontainers.pro/tools/bte"
 aliases:

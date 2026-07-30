@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rustqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustqc/container.yaml"
-updated_at: "2026-07-29 06:01:23.468609"
+updated_at: "2026-07-30 05:50:40.919307"
 latest: "0.1.1--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/rustqc"
 aliases:
