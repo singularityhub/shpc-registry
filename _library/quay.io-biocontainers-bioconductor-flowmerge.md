@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowmerge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowmerge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowmerge/container.yaml"
-updated_at: "2026-07-30 05:35:43.885095"
+updated_at: "2026-07-31 06:01:01.120123"
 latest: "2.58.0--r45h575d39b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowmerge"
 aliases:

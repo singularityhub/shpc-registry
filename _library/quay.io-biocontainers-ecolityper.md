@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ecolityper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecolityper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecolityper/container.yaml"
-updated_at: "2026-07-30 05:39:47.391143"
+updated_at: "2026-07-31 06:04:42.305560"
 latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ecolityper"
 aliases:

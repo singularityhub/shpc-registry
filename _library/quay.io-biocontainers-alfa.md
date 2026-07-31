@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alfa/container.yaml"
-updated_at: "2026-07-30 06:12:48.583253"
+updated_at: "2026-07-31 06:35:06.061332"
 latest: "1.1.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/alfa"
 aliases:

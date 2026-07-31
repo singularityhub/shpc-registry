@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tenxio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxio/container.yaml"
-updated_at: "2026-07-30 06:02:35.243621"
+updated_at: "2026-07-31 06:25:17.946572"
 latest: "1.12.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxio"
 aliases:

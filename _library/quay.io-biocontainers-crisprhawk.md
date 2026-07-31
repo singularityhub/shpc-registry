@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crisprhawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisprhawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crisprhawk/container.yaml"
-updated_at: "2026-07-30 05:33:44.581634"
+updated_at: "2026-07-31 05:59:12.802130"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crisprhawk"
 aliases:

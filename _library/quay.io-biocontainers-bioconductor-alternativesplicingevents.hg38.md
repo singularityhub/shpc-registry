@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-alternativesplicingevents.hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alternativesplicingevents.hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alternativesplicingevents.hg38/container.yaml"
-updated_at: "2026-07-30 06:12:34.280495"
+updated_at: "2026-07-31 06:34:52.034244"
 latest: "1.1.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-alternativesplicingevents.hg38"
 
