@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gigsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gigsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gigsea/container.yaml"
-updated_at: "2026-07-31 06:26:06.159831"
+updated_at: "2026-08-01 06:22:13.270481"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gigsea"
 aliases:

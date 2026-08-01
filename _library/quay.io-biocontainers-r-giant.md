@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-giant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-giant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-giant/container.yaml"
-updated_at: "2026-07-31 05:47:49.985996"
+updated_at: "2026-08-01 05:40:25.935871"
 latest: "1.2--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-giant"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mist_typing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mist_typing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mist_typing/container.yaml"
-updated_at: "2026-07-31 05:51:29.030898"
-latest: "1.2.0--pyhdfd78af_0"
+updated_at: "2026-08-01 05:44:28.329343"
+latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mist_typing"
 aliases:
  - "mist_download"
@@ -46,8 +46,9 @@ versions:
  - "1.0.0--pyhdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
  - "1.2.0--pyhdfd78af_0"
+ - "1.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for mist_typing"
-config: {"url": "https://biocontainers.pro/tools/mist_typing", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mist_typing", "latest": {"1.2.0--pyhdfd78af_0": "sha256:21f921ab1431811b97ba0358c0fac43e97b98bca32ca99860318664845ac24e1"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:a77740542406ca5c1fa06e8eed745030975cf3d84935736c77595641b1cf245b", "0.0.3--pyhdfd78af_0": "sha256:dd6a053932ae5844ad1e1fd28c3c5b47a6f8ff42d8d33858ee533e57b01cbd1a", "0.0.5--pyhdfd78af_0": "sha256:1c2bb1c1ae0e3b063a9dc5d8400c4f72f72d1d520990e3eea8b9e56db2e32beb", "1.0.0--pyhdfd78af_0": "sha256:cee484bf28a7b4fac1ced1473848cfc823179ca704c0b27c3090308199b9ad4d", "1.1.0--pyhdfd78af_0": "sha256:b8108c1c238a0948c9d5c61d517535efd201b1dd6c875af20a4d2e397ae3789f", "1.2.0--pyhdfd78af_0": "sha256:21f921ab1431811b97ba0358c0fac43e97b98bca32ca99860318664845ac24e1"}, "docker": "quay.io/biocontainers/mist_typing", "aliases": {"mist_download": "/usr/local/bin/mist_download", "mist_index": "/usr/local/bin/mist_index", "mist_query": "/usr/local/bin/mist_query", "mlst_phylogeny": "/usr/local/bin/mlst_phylogeny", "syntax_suggest": "/usr/local/bin/syntax_suggest", "yaggo": "/usr/local/bin/yaggo", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "FET.pl": "/usr/local/bin/FET.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div"}}
+config: {"url": "https://biocontainers.pro/tools/mist_typing", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mist_typing", "latest": {"1.3.0--pyhdfd78af_0": "sha256:e5383620608a1757c5450f4b3ea0c2a46059db3d14a3c33adda3600c825628eb"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:a77740542406ca5c1fa06e8eed745030975cf3d84935736c77595641b1cf245b", "0.0.3--pyhdfd78af_0": "sha256:dd6a053932ae5844ad1e1fd28c3c5b47a6f8ff42d8d33858ee533e57b01cbd1a", "0.0.5--pyhdfd78af_0": "sha256:1c2bb1c1ae0e3b063a9dc5d8400c4f72f72d1d520990e3eea8b9e56db2e32beb", "1.0.0--pyhdfd78af_0": "sha256:cee484bf28a7b4fac1ced1473848cfc823179ca704c0b27c3090308199b9ad4d", "1.1.0--pyhdfd78af_0": "sha256:b8108c1c238a0948c9d5c61d517535efd201b1dd6c875af20a4d2e397ae3789f", "1.2.0--pyhdfd78af_0": "sha256:21f921ab1431811b97ba0358c0fac43e97b98bca32ca99860318664845ac24e1", "1.3.0--pyhdfd78af_0": "sha256:e5383620608a1757c5450f4b3ea0c2a46059db3d14a3c33adda3600c825628eb"}, "docker": "quay.io/biocontainers/mist_typing", "aliases": {"mist_download": "/usr/local/bin/mist_download", "mist_index": "/usr/local/bin/mist_index", "mist_query": "/usr/local/bin/mist_query", "mlst_phylogeny": "/usr/local/bin/mlst_phylogeny", "syntax_suggest": "/usr/local/bin/syntax_suggest", "yaggo": "/usr/local/bin/yaggo", "rbs": "/usr/local/bin/rbs", "rdbg": "/usr/local/bin/rdbg", "typeprof": "/usr/local/bin/typeprof", "racc": "/usr/local/bin/racc", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "FET.pl": "/usr/local/bin/FET.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mist_typing.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/mist_typing
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mist_typing:1.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mist_typing:1.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mist_typing/1.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/mist_typing/1.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/mist_typing/1.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/mist_typing/1.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fungar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fungar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fungar/container.yaml"
-updated_at: "2026-07-31 05:47:12.427680"
-latest: "2.0.0--py314hdfd78af_0"
+updated_at: "2026-08-01 05:39:46.280220"
+latest: "2.0.0--py314hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fungar"
 aliases:
  - "fungar"
@@ -19,8 +19,9 @@ aliases:
  - "numpy-config"
 versions:
  - "2.0.0--py314hdfd78af_0"
+ - "2.0.0--py314hdfd78af_1"
 description: "singularity registry hpc automated addition for fungar"
-config: {"url": "https://biocontainers.pro/tools/fungar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fungar", "latest": {"2.0.0--py314hdfd78af_0": "sha256:21e6b196ed2e40057b133d243922b1d4123a169db603a81883e816d89244694e"}, "tags": {"2.0.0--py314hdfd78af_0": "sha256:21e6b196ed2e40057b133d243922b1d4123a169db603a81883e816d89244694e"}, "docker": "quay.io/biocontainers/fungar", "aliases": {"fungar": "/usr/local/bin/fungar", "fungar_benchmark.py": "/usr/local/bin/fungar_benchmark.py", "fungar_report.py": "/usr/local/bin/fungar_report.py", "diamond": "/usr/local/bin/diamond", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/fungar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fungar", "latest": {"2.0.0--py314hdfd78af_1": "sha256:6e82b439282f7b1db4fe73ec34469243ebb1fe9888cab1c5cabeb971be598944"}, "tags": {"2.0.0--py314hdfd78af_0": "sha256:21e6b196ed2e40057b133d243922b1d4123a169db603a81883e816d89244694e", "2.0.0--py314hdfd78af_1": "sha256:6e82b439282f7b1db4fe73ec34469243ebb1fe9888cab1c5cabeb971be598944"}, "docker": "quay.io/biocontainers/fungar", "aliases": {"fungar": "/usr/local/bin/fungar", "fungar_benchmark.py": "/usr/local/bin/fungar_benchmark.py", "fungar_report.py": "/usr/local/bin/fungar_report.py", "diamond": "/usr/local/bin/diamond", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fungar.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/fungar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fungar:2.0.0--py314hdfd78af_0
+$ shpc install quay.io/biocontainers/fungar:2.0.0--py314hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fungar/2.0.0--py314hdfd78af_0
-$ module help quay.io/biocontainers/fungar/2.0.0--py314hdfd78af_0
+$ module load quay.io/biocontainers/fungar/2.0.0--py314hdfd78af_1
+$ module help quay.io/biocontainers/fungar/2.0.0--py314hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-trigger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trigger/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trigger/container.yaml"
-updated_at: "2026-07-31 06:03:43.235040"
+updated_at: "2026-08-01 05:57:50.478988"
 latest: "1.52.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trigger"
 

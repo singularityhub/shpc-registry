@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flavotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flavotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flavotyper/container.yaml"
-updated_at: "2026-07-31 06:19:42.312796"
+updated_at: "2026-08-01 06:15:16.685506"
 latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flavotyper"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gtdb-genomes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gtdb-genomes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gtdb-genomes/container.yaml"
-updated_at: "2026-07-31 05:45:46.557228"
+updated_at: "2026-08-01 05:38:11.218238"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gtdb-genomes"
 aliases:

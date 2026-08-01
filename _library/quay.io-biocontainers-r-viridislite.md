@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-viridislite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-viridislite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-viridislite/container.yaml"
-updated_at: "2026-07-31 06:28:36.180983"
+updated_at: "2026-08-01 06:24:53.427508"
 latest: "0.1.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-viridislite"
 aliases:

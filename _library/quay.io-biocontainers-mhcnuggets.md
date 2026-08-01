@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mhcnuggets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhcnuggets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhcnuggets/container.yaml"
-updated_at: "2026-07-31 06:13:24.700177"
-latest: "2.4.1--pyh7cba7a3_0"
+updated_at: "2026-08-01 06:08:29.476225"
+latest: "2.4.1--pyh106432d_1"
 container_url: "https://biocontainers.pro/tools/mhcnuggets"
 aliases:
  - "theano-cache"
@@ -22,8 +22,9 @@ versions:
  - "2.3.2--py_0"
  - "2.4.0--pyh7cba7a3_0"
  - "2.4.1--pyh7cba7a3_0"
+ - "2.4.1--pyh106432d_1"
 description: "shpc-registry automated BioContainers addition for mhcnuggets"
-config: {"url": "https://biocontainers.pro/tools/mhcnuggets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mhcnuggets", "latest": {"2.4.1--pyh7cba7a3_0": "sha256:db827058d2cbc3376a4dbdd88a4b4a3a953a62a58da9b4cc44617de0183cc8a9"}, "tags": {"2.3.2--py_0": "sha256:49d8740509e8d77beece1bdff50c7e46ae2d93c9b22351a7639d90205e36820c", "2.4.0--pyh7cba7a3_0": "sha256:b341b45d109a00f849d02b5fe1dbbbbd32b153f63223b84492e1b3f419554bb1", "2.4.1--pyh7cba7a3_0": "sha256:db827058d2cbc3376a4dbdd88a4b4a3a953a62a58da9b4cc44617de0183cc8a9"}, "docker": "quay.io/biocontainers/mhcnuggets", "aliases": {"theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard"}}
+config: {"url": "https://biocontainers.pro/tools/mhcnuggets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mhcnuggets", "latest": {"2.4.1--pyh106432d_1": "sha256:0272826ea343f3c4483a85de6d3bc020bd45e9ff656c3c79d483dc94c399a991"}, "tags": {"2.3.2--py_0": "sha256:49d8740509e8d77beece1bdff50c7e46ae2d93c9b22351a7639d90205e36820c", "2.4.0--pyh7cba7a3_0": "sha256:b341b45d109a00f849d02b5fe1dbbbbd32b153f63223b84492e1b3f419554bb1", "2.4.1--pyh7cba7a3_0": "sha256:db827058d2cbc3376a4dbdd88a4b4a3a953a62a58da9b4cc44617de0183cc8a9", "2.4.1--pyh106432d_1": "sha256:0272826ea343f3c4483a85de6d3bc020bd45e9ff656c3c79d483dc94c399a991"}, "docker": "quay.io/biocontainers/mhcnuggets", "aliases": {"theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mhcnuggets.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/mhcnuggets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mhcnuggets:2.4.1--pyh7cba7a3_0
+$ shpc install quay.io/biocontainers/mhcnuggets:2.4.1--pyh106432d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mhcnuggets/2.4.1--pyh7cba7a3_0
-$ module help quay.io/biocontainers/mhcnuggets/2.4.1--pyh7cba7a3_0
+$ module load quay.io/biocontainers/mhcnuggets/2.4.1--pyh106432d_1
+$ module help quay.io/biocontainers/mhcnuggets/2.4.1--pyh106432d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
