@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/chemproflow
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chemproflow
+latest:
+  1.2.0--pyh106432d_0: 
+    sha256:8f4f76ac6eaf8d6be13e15a278acfba9f4e327b4e6ab2216bea617c340efe86c
+tags:
+  1.2.0--pyh106432d_0: 
+    sha256:8f4f76ac6eaf8d6be13e15a278acfba9f4e327b4e6ab2216bea617c340efe86c
+docker: quay.io/biocontainers/chemproflow
+aliases:
+  chemproflow: /usr/local/bin/chemproflow
+  fabric: /usr/local/bin/fabric
+  optuna: /usr/local/bin/optuna
+  sparqlquery: /usr/local/bin/sparqlquery
+  community: /usr/local/bin/community
+  alembic: /usr/local/bin/alembic
+  xxh3sum: /usr/local/bin/xxh3sum
+  csv2rdf: /usr/local/bin/csv2rdf
+  rdf2dot: /usr/local/bin/rdf2dot
+  rdfgraphisomorphism: /usr/local/bin/rdfgraphisomorphism
+  rdfpipe: /usr/local/bin/rdfpipe
+  rdfs2dot: /usr/local/bin/rdfs2dot
+  fc-genconf: /usr/local/bin/fc-genconf
+  idna: /usr/local/bin/idna
+  mako-render: /usr/local/bin/mako-render
+  protoc-33.5.0: /usr/local/bin/protoc-33.5.0
+  protoc-gen-upb-33.5.0: /usr/local/bin/protoc-gen-upb-33.5.0
+  protoc-gen-upb_minitable-33.5.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-33.5.0
+  protoc-gen-upbdefs-33.5.0: /usr/local/bin/protoc-gen-upbdefs-33.5.0
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
