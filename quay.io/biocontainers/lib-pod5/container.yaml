@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/lib-pod5
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for lib-pod5
 latest:
-  0.3.39--py311hceb2743_0: 
-    sha256:6b1a8a99bf3c87bb115baf01f0b86e56309044a73ecd0904f3fc4530b60cf066
+  0.3.44--py313h31a55dd_0: 
+    sha256:b287ae1903d9c5dc2a9362c8da708c34c1851826d68c3cd57b9461b56f92e8c2
 tags:
   0.3.15--pyhdfd78af_0: 
     sha256:feec24c81df7e01330af6b166ef1ca06092ddea0c568b6bc14b701431738bdbb
@@ -13,6 +13,8 @@ tags:
     sha256:42ad2a86f722cb1a37120eee01d4902fff0c22c7979675105f9fc829b2f28cab
   0.3.39--py311hceb2743_0: 
     sha256:6b1a8a99bf3c87bb115baf01f0b86e56309044a73ecd0904f3fc4530b60cf066
+  0.3.44--py313h31a55dd_0: 
+    sha256:b287ae1903d9c5dc2a9362c8da708c34c1851826d68c3cd57b9461b56f92e8c2
 docker: quay.io/biocontainers/lib-pod5
 aliases:
   numpy-config: /usr/local/bin/numpy-config

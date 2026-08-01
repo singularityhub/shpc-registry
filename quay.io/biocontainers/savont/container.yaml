@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/savont
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for savont
 latest:
-  0.6.0--hec9b1f2_0: 
-    sha256:51edf1f0e68ca8b80631677daf0d8246407b819c012895661fb385c48c97e426
+  0.6.2--hec9b1f2_0: 
+    sha256:80498ada0700d99462e84f0d7ef810016b450ad63b3a4b4757c6d74ed6bd0839
 tags:
   0.1.0--ha6fb395_0: 
     sha256:ed450e9088ca08e176f238e97befa900b313693de8108c95865f7026ccd70ba8
@@ -19,6 +19,8 @@ tags:
     sha256:51edf1f0e68ca8b80631677daf0d8246407b819c012895661fb385c48c97e426
   0.5.1--hec9b1f2_0: 
     sha256:bcbee62933054adff4e71b33092a28c0c824fc1ac0b9c7bbaba90ade989dbcbc
+  0.6.2--hec9b1f2_0: 
+    sha256:80498ada0700d99462e84f0d7ef810016b450ad63b3a4b4757c6d74ed6bd0839
 docker: quay.io/biocontainers/savont
 aliases:
   savont: /usr/local/bin/savont

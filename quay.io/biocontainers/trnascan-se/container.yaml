@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/trnascan-se
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trnascan-se
 latest:
-  2.0.12--pl5321h7b50bb2_2: 
-    sha256:b1697934598572cca7f512eb31ce969afcc8180ba21c82b058ee536b9b2d05a8
+  2.0.13--pl5321hab16a5f_0: 
+    sha256:e573090368974ff1228e6894828c6c8a132dfecc3198f5e9fb76832f8f434f29
 tags:
   2.0.9--pl5321hec16e2b_3: 
     sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db
@@ -17,6 +17,8 @@ tags:
     sha256:f84d6d5e5800006cac57389649ef406abf91e20034ee13eb2df99d20bb5c2ae3
   2.0.12--pl5321h7b50bb2_2: 
     sha256:b1697934598572cca7f512eb31ce969afcc8180ba21c82b058ee536b9b2d05a8
+  2.0.13--pl5321hab16a5f_0: 
+    sha256:e573090368974ff1228e6894828c6c8a132dfecc3198f5e9fb76832f8f434f29
 docker: quay.io/biocontainers/trnascan-se
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter

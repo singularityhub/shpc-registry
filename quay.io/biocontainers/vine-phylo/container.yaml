@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/vine-phylo
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vine-phylo
 latest:
-  0.3.4--h7eac25e_0: 
-    sha256:6fb5a80763f69090d30572388b8af3eddc5b4a2a16cf5d0507c8663dc9ef20a3
+  0.3.5--h3ffd07f_0: 
+    sha256:bb4a5176f486b83ca33e6ef3f6613a078f5cf402a61af1710c29726864a5543f
 tags:
   0.3.3--h7eac25e_0: 
     sha256:6fa08776b4d4c358521f8695106786859467599e8df701bbf2397d3b5b3ec925
   0.3.4--h7eac25e_0: 
     sha256:6fb5a80763f69090d30572388b8af3eddc5b4a2a16cf5d0507c8663dc9ef20a3
+  0.3.5--h3ffd07f_0: 
+    sha256:bb4a5176f486b83ca33e6ef3f6613a078f5cf402a61af1710c29726864a5543f
 docker: quay.io/biocontainers/vine-phylo
 aliases:
   all_dists: /usr/local/bin/all_dists
