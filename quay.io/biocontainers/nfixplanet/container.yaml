@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/nfixplanet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for nfixplanet
+latest:
+  0.1.11--pyhdfd78af_0: 
+    sha256:0dc0faba2ec0fa1496c5cc6d628d5671f79909d45af95c5436cdd9ce0178d0e1
+tags:
+  0.1.11--pyhdfd78af_0: 
+    sha256:0dc0faba2ec0fa1496c5cc6d628d5671f79909d45af95c5436cdd9ce0178d0e1
+docker: quay.io/biocontainers/nfixplanet
+aliases:
+  coverm: /usr/local/bin/coverm
+  nfixplanet: /usr/local/bin/nfixplanet
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  strobealign: /usr/local/bin/strobealign
+  starcode: /usr/local/bin/starcode
+  fastANI: /usr/local/bin/fastANI
+  fastp: /usr/local/bin/fastp
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  igzip: /usr/local/bin/igzip
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun

@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/scanexitron
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scanexitron
+latest:
+  1.4.0--pyhdfd78af_0: 
+    sha256:00574246a928d5254a1a092069bd7c38e5150b86080558d626f0a3f45f8b88b3
+tags:
+  1.4.0--pyhdfd78af_0: 
+    sha256:00574246a928d5254a1a092069bd7c38e5150b86080558d626f0a3f45f8b88b3
+docker: quay.io/biocontainers/scanexitron
+aliases:
+  regtools: /usr/local/bin/regtools
+  scanexitron: /usr/local/bin/scanexitron
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  typer: /usr/local/bin/typer
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  markdown-it: /usr/local/bin/markdown-it
+  annot-tsv: /usr/local/bin/annot-tsv
+  shiftBed: /usr/local/bin/shiftBed
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  annotateBed: /usr/local/bin/annotateBed
+  bamToBed: /usr/local/bin/bamToBed
+  bamToFastq: /usr/local/bin/bamToFastq
+  bed12ToBed6: /usr/local/bin/bed12ToBed6
+  bedToBam: /usr/local/bin/bedToBam
+  bedToIgv: /usr/local/bin/bedToIgv
+  bedpeToBam: /usr/local/bin/bedpeToBam
+  bedtools: /usr/local/bin/bedtools
