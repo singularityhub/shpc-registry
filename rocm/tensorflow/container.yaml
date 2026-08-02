@@ -37,6 +37,8 @@ tags:
     sha256:910fa1ef25edc4bc3dfa505235121b48f46403df05c9ade8483ffdfab4c1abc0
   rocm7.2.4-py3.12-tf2.20-dev: 
     sha256:3ed1ade56a3eb3645082933e293ade4c804adb92a206bea85e277b13a6edc5c2
+  _permcheck-jechrist: 
+    sha256:e5184019da24d4c5849db6286429182ba8e487f3b3c204027e137559ae282802
 features:
   gpu: true
 aliases:

@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/unmux
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unmux
 latest:
-  0.2.0--hec9b1f2_0: 
-    sha256:6e3d7c9a2f50e66e06652abf7074ab8525e5d92bb01c817ca86cc987cc2de680
+  0.4.0--hec9b1f2_0: 
+    sha256:3753faef019785bc98bf0fad3d01f868e748a4e744cee29b6f0e9c3afbaea81c
 tags:
   0.2.0--hec9b1f2_0: 
     sha256:6e3d7c9a2f50e66e06652abf7074ab8525e5d92bb01c817ca86cc987cc2de680
+  0.4.0--hec9b1f2_0: 
+    sha256:3753faef019785bc98bf0fad3d01f868e748a4e744cee29b6f0e9c3afbaea81c
+  0.3.0--hec9b1f2_0: 
+    sha256:6486d5294e5a9ba9fd49beeb326f188a2bfb26c8445111585bfc1ad6e64bcc1d
 docker: quay.io/biocontainers/unmux
 aliases:
   unmux: /usr/local/bin/unmux

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/enzbert
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for enzbert
 latest:
-  1.1--pyh7e72e81_0: 
-    sha256:d41e2e49173ecf0219da4c81f04ad9fdd71a2b40a6d8396090bc38f86067a169
+  1.2--pyh106432d_0: 
+    sha256:a889d679d0d8684ec8fbfa8723a5180b6480d7aaabec9bb791283b752f9f85ac
 tags:
   1.1--pyh7e72e81_0: 
     sha256:d41e2e49173ecf0219da4c81f04ad9fdd71a2b40a6d8396090bc38f86067a169
+  1.2--pyh106432d_0: 
+    sha256:a889d679d0d8684ec8fbfa8723a5180b6480d7aaabec9bb791283b752f9f85ac
 docker: quay.io/biocontainers/enzbert
 aliases:
   compare_gos.py: /usr/local/bin/compare_gos.py
