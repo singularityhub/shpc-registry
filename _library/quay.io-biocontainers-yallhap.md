@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yallhap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yallhap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yallhap/container.yaml"
-updated_at: "2026-08-01 06:02:58.808843"
+updated_at: "2026-08-02 06:01:34.347805"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/yallhap"
 aliases:

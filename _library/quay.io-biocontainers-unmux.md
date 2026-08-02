@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/unmux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unmux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unmux/container.yaml"
-updated_at: "2026-08-01 05:59:12.740446"
-latest: "0.2.0--hec9b1f2_0"
+updated_at: "2026-08-02 05:57:56.170008"
+latest: "0.4.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/unmux"
 aliases:
  - "unmux"
 versions:
  - "0.2.0--hec9b1f2_0"
+ - "0.4.0--hec9b1f2_0"
+ - "0.3.0--hec9b1f2_0"
 description: "singularity registry hpc automated addition for unmux"
-config: {"url": "https://biocontainers.pro/tools/unmux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unmux", "latest": {"0.2.0--hec9b1f2_0": "sha256:6e3d7c9a2f50e66e06652abf7074ab8525e5d92bb01c817ca86cc987cc2de680"}, "tags": {"0.2.0--hec9b1f2_0": "sha256:6e3d7c9a2f50e66e06652abf7074ab8525e5d92bb01c817ca86cc987cc2de680"}, "docker": "quay.io/biocontainers/unmux", "aliases": {"unmux": "/usr/local/bin/unmux"}}
+config: {"url": "https://biocontainers.pro/tools/unmux", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unmux", "latest": {"0.4.0--hec9b1f2_0": "sha256:3753faef019785bc98bf0fad3d01f868e748a4e744cee29b6f0e9c3afbaea81c"}, "tags": {"0.2.0--hec9b1f2_0": "sha256:6e3d7c9a2f50e66e06652abf7074ab8525e5d92bb01c817ca86cc987cc2de680", "0.4.0--hec9b1f2_0": "sha256:3753faef019785bc98bf0fad3d01f868e748a4e744cee29b6f0e9c3afbaea81c", "0.3.0--hec9b1f2_0": "sha256:6486d5294e5a9ba9fd49beeb326f188a2bfb26c8445111585bfc1ad6e64bcc1d"}, "docker": "quay.io/biocontainers/unmux", "aliases": {"unmux": "/usr/local/bin/unmux"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unmux.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/unmux
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unmux:0.2.0--hec9b1f2_0
+$ shpc install quay.io/biocontainers/unmux:0.4.0--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unmux/0.2.0--hec9b1f2_0
-$ module help quay.io/biocontainers/unmux/0.2.0--hec9b1f2_0
+$ module load quay.io/biocontainers/unmux/0.4.0--hec9b1f2_0
+$ module help quay.io/biocontainers/unmux/0.4.0--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

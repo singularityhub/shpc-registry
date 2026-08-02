@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hiddendomains"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hiddendomains/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hiddendomains/container.yaml"
-updated_at: "2026-08-01 06:13:46.866767"
+updated_at: "2026-08-02 06:11:59.750599"
 latest: "3.1--pl5321r45hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/hiddendomains"
 aliases:

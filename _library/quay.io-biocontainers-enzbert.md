@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzbert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzbert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzbert/container.yaml"
-updated_at: "2026-08-01 05:48:54.862249"
-latest: "1.1--pyh7e72e81_0"
+updated_at: "2026-08-02 05:47:55.456192"
+latest: "1.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/enzbert"
 aliases:
  - "compare_gos.py"
@@ -46,8 +46,9 @@ aliases:
  - "timezone-dump"
 versions:
  - "1.1--pyh7e72e81_0"
+ - "1.2--pyh106432d_0"
 description: "singularity registry hpc automated addition for enzbert"
-config: {"url": "https://biocontainers.pro/tools/enzbert", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzbert", "latest": {"1.1--pyh7e72e81_0": "sha256:d41e2e49173ecf0219da4c81f04ad9fdd71a2b40a6d8396090bc38f86067a169"}, "tags": {"1.1--pyh7e72e81_0": "sha256:d41e2e49173ecf0219da4c81f04ad9fdd71a2b40a6d8396090bc38f86067a169"}, "docker": "quay.io/biocontainers/enzbert", "aliases": {"compare_gos.py": "/usr/local/bin/compare_gos.py", "enzbert": "/usr/local/bin/enzbert", "go_plot.py": "/usr/local/bin/go_plot.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "prt_terms.py": "/usr/local/bin/prt_terms.py", "sacremoses": "/usr/local/bin/sacremoses", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "transformers-cli": "/usr/local/bin/transformers-cli", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "watchmedo": "/usr/local/bin/watchmedo", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "dask": "/usr/local/bin/dask", "ninja": "/usr/local/bin/ninja", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "lsm2bin": "/usr/local/bin/lsm2bin", "skivi": "/usr/local/bin/skivi", "tifffile": "/usr/local/bin/tifffile", "vba_extract.py": "/usr/local/bin/vba_extract.py", "sha256_profile": "/usr/local/bin/sha256_profile", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
+config: {"url": "https://biocontainers.pro/tools/enzbert", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzbert", "latest": {"1.2--pyh106432d_0": "sha256:a889d679d0d8684ec8fbfa8723a5180b6480d7aaabec9bb791283b752f9f85ac"}, "tags": {"1.1--pyh7e72e81_0": "sha256:d41e2e49173ecf0219da4c81f04ad9fdd71a2b40a6d8396090bc38f86067a169", "1.2--pyh106432d_0": "sha256:a889d679d0d8684ec8fbfa8723a5180b6480d7aaabec9bb791283b752f9f85ac"}, "docker": "quay.io/biocontainers/enzbert", "aliases": {"compare_gos.py": "/usr/local/bin/compare_gos.py", "enzbert": "/usr/local/bin/enzbert", "go_plot.py": "/usr/local/bin/go_plot.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "prt_terms.py": "/usr/local/bin/prt_terms.py", "sacremoses": "/usr/local/bin/sacremoses", "streamlit": "/usr/local/bin/streamlit", "streamlit.cmd": "/usr/local/bin/streamlit.cmd", "transformers-cli": "/usr/local/bin/transformers-cli", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "watchmedo": "/usr/local/bin/watchmedo", "plasma-store-server": "/usr/local/bin/plasma-store-server", "plasma_store": "/usr/local/bin/plasma_store", "dask": "/usr/local/bin/dask", "ninja": "/usr/local/bin/ninja", "imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "lsm2bin": "/usr/local/bin/lsm2bin", "skivi": "/usr/local/bin/skivi", "tifffile": "/usr/local/bin/tifffile", "vba_extract.py": "/usr/local/bin/vba_extract.py", "sha256_profile": "/usr/local/bin/sha256_profile", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzbert.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/enzbert
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzbert:1.1--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/enzbert:1.2--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzbert/1.1--pyh7e72e81_0
-$ module help quay.io/biocontainers/enzbert/1.1--pyh7e72e81_0
+$ module load quay.io/biocontainers/enzbert/1.2--pyh106432d_0
+$ module help quay.io/biocontainers/enzbert/1.2--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

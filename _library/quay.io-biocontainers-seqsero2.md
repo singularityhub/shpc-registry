@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqsero2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqsero2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqsero2/container.yaml"
-updated_at: "2026-08-01 05:47:51.624411"
+updated_at: "2026-08-02 05:46:53.996861"
 latest: "1.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seqsero2"
 aliases:
