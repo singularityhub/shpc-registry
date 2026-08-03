@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-module-load-conditional"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-load-conditional/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-load-conditional/container.yaml"
-updated_at: "2026-08-02 06:10:13.858555"
-latest: "0.68--pl526_2"
+updated_at: "2026-08-03 06:23:50.122619"
+latest: "0.74--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-module-load-conditional"
 aliases:
  - "perl5.26.2"
  - "podselect"
 versions:
  - "0.68--pl526_2"
+ - "0.74--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-module-load-conditional"
-config: {"url": "https://biocontainers.pro/tools/perl-module-load-conditional", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-load-conditional", "latest": {"0.68--pl526_2": "sha256:74e96134d7dfa25b5055dfa5e38b4cb0f01c9fe41b52c644770460cb6b4d8fa0"}, "tags": {"0.68--pl526_2": "sha256:74e96134d7dfa25b5055dfa5e38b4cb0f01c9fe41b52c644770460cb6b4d8fa0"}, "docker": "quay.io/biocontainers/perl-module-load-conditional", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-module-load-conditional", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-load-conditional", "latest": {"0.74--pl5321hdfd78af_0": "sha256:3b6adf3bbe9a0bf878ca9864e114b3c5f0d5ccf023b01fa442758dc135ba2f95"}, "tags": {"0.68--pl526_2": "sha256:74e96134d7dfa25b5055dfa5e38b4cb0f01c9fe41b52c644770460cb6b4d8fa0", "0.74--pl5321hdfd78af_0": "sha256:3b6adf3bbe9a0bf878ca9864e114b3c5f0d5ccf023b01fa442758dc135ba2f95"}, "docker": "quay.io/biocontainers/perl-module-load-conditional", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-module-load-conditional.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-module-load-conditional
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-module-load-conditional:0.68--pl526_2
+$ shpc install quay.io/biocontainers/perl-module-load-conditional:0.74--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-module-load-conditional/0.68--pl526_2
-$ module help quay.io/biocontainers/perl-module-load-conditional/0.68--pl526_2
+$ module load quay.io/biocontainers/perl-module-load-conditional/0.74--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-module-load-conditional/0.74--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

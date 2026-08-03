@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/synthbar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synthbar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synthbar/container.yaml"
-updated_at: "2026-08-02 05:48:53.781971"
+updated_at: "2026-08-03 06:03:11.586013"
 latest: "0.2.0--h118bc1c_0"
 container_url: "https://biocontainers.pro/tools/synthbar"
 aliases:

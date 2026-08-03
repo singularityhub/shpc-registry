@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chipexoqual"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipexoqual/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipexoqual/container.yaml"
-updated_at: "2026-08-02 06:28:20.546889"
+updated_at: "2026-08-03 06:41:49.142262"
 latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipexoqual"
 aliases:

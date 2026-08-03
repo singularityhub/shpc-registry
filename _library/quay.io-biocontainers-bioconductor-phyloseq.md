@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phyloseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phyloseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phyloseq/container.yaml"
-updated_at: "2026-08-02 05:52:44.467093"
+updated_at: "2026-08-03 06:06:59.187902"
 latest: "1.54.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-phyloseq"
 

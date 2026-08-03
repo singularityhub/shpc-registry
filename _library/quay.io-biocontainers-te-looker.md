@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/te-looker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/te-looker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/te-looker/container.yaml"
-updated_at: "2026-08-02 05:44:26.515199"
+updated_at: "2026-08-03 05:58:46.494619"
 latest: "0.3.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/te-looker"
 aliases:

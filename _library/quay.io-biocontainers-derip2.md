@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/derip2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/derip2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/derip2/container.yaml"
-updated_at: "2026-08-02 05:49:28.252462"
-latest: "0.4.1--pyhdfd78af_0"
+updated_at: "2026-08-03 06:03:45.568350"
+latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/derip2"
 aliases:
  - "derip2"
@@ -34,8 +34,10 @@ aliases:
 versions:
  - "0.4.0--pyhdfd78af_0"
  - "0.4.1--pyhdfd78af_0"
+ - "0.5.1--pyhdfd78af_0"
+ - "0.4.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for derip2"
-config: {"url": "https://biocontainers.pro/tools/derip2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for derip2", "latest": {"0.4.1--pyhdfd78af_0": "sha256:014a2b4d06d538429fd608f46f619bf96c7a549a642423c9f31ea31324adfae7"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:fc3563bbfd42b3cc88fd962d8cae998cfd2dcffaa3d37fa13bdb78840963b26e", "0.4.1--pyhdfd78af_0": "sha256:014a2b4d06d538429fd608f46f619bf96c7a549a642423c9f31ea31324adfae7"}, "docker": "quay.io/biocontainers/derip2", "aliases": {"derip2": "/usr/local/bin/derip2", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/derip2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for derip2", "latest": {"0.5.1--pyhdfd78af_0": "sha256:673befb8ff0125ea4a45708389a1427ed5ef970c83f1679d5506580dc4a9191a"}, "tags": {"0.4.0--pyhdfd78af_0": "sha256:fc3563bbfd42b3cc88fd962d8cae998cfd2dcffaa3d37fa13bdb78840963b26e", "0.4.1--pyhdfd78af_0": "sha256:014a2b4d06d538429fd608f46f619bf96c7a549a642423c9f31ea31324adfae7", "0.5.1--pyhdfd78af_0": "sha256:673befb8ff0125ea4a45708389a1427ed5ef970c83f1679d5506580dc4a9191a", "0.4.2--pyhdfd78af_0": "sha256:1a47fcf72f92544d9feb14eafd6da94c1f8d76a25671015258c4a0556b92fe83"}, "docker": "quay.io/biocontainers/derip2", "aliases": {"derip2": "/usr/local/bin/derip2", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/derip2.
@@ -50,7 +52,7 @@ $ shpc install quay.io/biocontainers/derip2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/derip2:0.4.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/derip2:0.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/derip2/0.4.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/derip2/0.4.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/derip2/0.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/derip2/0.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
