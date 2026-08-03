@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/mgnifam
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mgnifam
+latest:
+  2.0.0--pyhdfd78af_0: 
+    sha256:b71d052ee18921c9b7a01da9e0ee4a2a8139ccdce7016e194ba898c0212c1947
+tags:
+  2.0.0--pyhdfd78af_0: 
+    sha256:b71d052ee18921c9b7a01da9e0ee4a2a8139ccdce7016e194ba898c0212c1947
+docker: quay.io/biocontainers/mgnifam
+aliases:
+  mgnifam: /usr/local/bin/mgnifam
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
