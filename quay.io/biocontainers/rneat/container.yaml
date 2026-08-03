@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/rneat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rneat
 latest:
-  1.19.0--hfa8f182_0: 
-    sha256:06eb3cf8f10dcdab4a826ec78a7a35d1e95feb7a45830a683fb7f5e2fc8d2abe
+  1.20.1--hfa8f182_0: 
+    sha256:d83ed4636878a986b7c8f927ac705fdb82c3a72d4bb7e81c27c9406fb4e77d9c
 tags:
   1.17.4--hfa8f182_0: 
     sha256:1585d17ea6495c07fc78c22cb75bf207773de0f8a61476706c52c55145c63965
@@ -11,6 +11,8 @@ tags:
     sha256:06eb3cf8f10dcdab4a826ec78a7a35d1e95feb7a45830a683fb7f5e2fc8d2abe
   1.18.0--hfa8f182_0: 
     sha256:95659334533137c21aaa5afc26b1e871ed7e24152ba2f65d78b16291ff1df3a3
+  1.20.1--hfa8f182_0: 
+    sha256:d83ed4636878a986b7c8f927ac705fdb82c3a72d4bb7e81c27c9406fb4e77d9c
 docker: quay.io/biocontainers/rneat
 aliases:
   rneat: /usr/local/bin/rneat

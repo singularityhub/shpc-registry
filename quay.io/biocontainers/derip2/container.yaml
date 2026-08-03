@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/derip2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for derip2
 latest:
-  0.4.1--pyhdfd78af_0: 
-    sha256:014a2b4d06d538429fd608f46f619bf96c7a549a642423c9f31ea31324adfae7
+  0.5.1--pyhdfd78af_0: 
+    sha256:673befb8ff0125ea4a45708389a1427ed5ef970c83f1679d5506580dc4a9191a
 tags:
   0.4.0--pyhdfd78af_0: 
     sha256:fc3563bbfd42b3cc88fd962d8cae998cfd2dcffaa3d37fa13bdb78840963b26e
   0.4.1--pyhdfd78af_0: 
     sha256:014a2b4d06d538429fd608f46f619bf96c7a549a642423c9f31ea31324adfae7
+  0.5.1--pyhdfd78af_0: 
+    sha256:673befb8ff0125ea4a45708389a1427ed5ef970c83f1679d5506580dc4a9191a
+  0.4.2--pyhdfd78af_0: 
+    sha256:1a47fcf72f92544d9feb14eafd6da94c1f8d76a25671015258c4a0556b92fe83
 docker: quay.io/biocontainers/derip2
 aliases:
   derip2: /usr/local/bin/derip2

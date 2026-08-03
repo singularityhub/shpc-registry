@@ -4,11 +4,11 @@ maintainer: '@HasseJohansen'
 description: Jupyter All Spark Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2026-06-26': 
-    sha256:06284e8a17ad9c19be57764360807dc1e90a38a79455fe1035d0d526719bc90b
+  '2026-07-28': 
+    sha256:34354ca8fa27633019ad0913a6b9e6e168cff33b1c71019cc87881047ded88df
 tags:
   latest: 
-    sha256:44df50d3e79c19f1d7e42e12efacd1590aed2082227da8c1f94d9e27e36e4655
+    sha256:34354ca8fa27633019ad0913a6b9e6e168cff33b1c71019cc87881047ded88df
   '2025-06-02': 
     sha256:949c3fd651200ef9b18c6bef38e827f6c00d3dce26965ea9168150e98d0f9a26
   '2025-06-30': 
@@ -59,6 +59,8 @@ tags:
     sha256:06284e8a17ad9c19be57764360807dc1e90a38a79455fe1035d0d526719bc90b
   '2026-02-23': 
     sha256:da109a19baa7e7c866ed654838b063bdf1002a57403014147b6c353de0359441
+  '2026-07-28': 
+    sha256:34354ca8fa27633019ad0913a6b9e6e168cff33b1c71019cc87881047ded88df
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 
