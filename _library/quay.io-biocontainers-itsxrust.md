@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/itsxrust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itsxrust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itsxrust/container.yaml"
-updated_at: "2026-08-03 06:01:29.738643"
-latest: "0.2.2--hdd79491_1"
+updated_at: "2026-08-04 05:33:58.601294"
+latest: "0.3.0--h70df5c0_0"
 container_url: "https://biocontainers.pro/tools/itsxrust"
 aliases:
  - "itsxrust"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.1.0--h4349ce8_0"
  - "0.2.2--hdd79491_1"
+ - "0.3.0--h70df5c0_0"
 description: "singularity registry hpc automated addition for itsxrust"
-config: {"url": "https://biocontainers.pro/tools/itsxrust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for itsxrust", "latest": {"0.2.2--hdd79491_1": "sha256:f62de48ac94dffb7dc328f270efb32bcfa9420d2b6252313eeb70487f8bf1942"}, "tags": {"0.1.0--h4349ce8_0": "sha256:98fa4f7f0a9d719f96cc2facb8f7194f2119c083bd0c25e4c9a1fa0920e33b29", "0.2.2--hdd79491_1": "sha256:f62de48ac94dffb7dc328f270efb32bcfa9420d2b6252313eeb70487f8bf1942"}, "docker": "quay.io/biocontainers/itsxrust", "aliases": {"itsxrust": "/usr/local/bin/itsxrust", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun", "mpiCC": "/usr/local/bin/mpiCC", "ompi_info": "/usr/local/bin/ompi_info"}}
+config: {"url": "https://biocontainers.pro/tools/itsxrust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for itsxrust", "latest": {"0.3.0--h70df5c0_0": "sha256:78a39fe2180feb4c1459600b67a34d79d9c1f2150e2d0d5f914f15afe1953a3c"}, "tags": {"0.1.0--h4349ce8_0": "sha256:98fa4f7f0a9d719f96cc2facb8f7194f2119c083bd0c25e4c9a1fa0920e33b29", "0.2.2--hdd79491_1": "sha256:f62de48ac94dffb7dc328f270efb32bcfa9420d2b6252313eeb70487f8bf1942", "0.3.0--h70df5c0_0": "sha256:78a39fe2180feb4c1459600b67a34d79d9c1f2150e2d0d5f914f15afe1953a3c"}, "docker": "quay.io/biocontainers/itsxrust", "aliases": {"itsxrust": "/usr/local/bin/itsxrust", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted", "orterun": "/usr/local/bin/orterun", "mpiCC": "/usr/local/bin/mpiCC", "ompi_info": "/usr/local/bin/ompi_info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itsxrust.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/itsxrust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/itsxrust:0.2.2--hdd79491_1
+$ shpc install quay.io/biocontainers/itsxrust:0.3.0--h70df5c0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/itsxrust/0.2.2--hdd79491_1
-$ module help quay.io/biocontainers/itsxrust/0.2.2--hdd79491_1
+$ module load quay.io/biocontainers/itsxrust/0.3.0--h70df5c0_0
+$ module help quay.io/biocontainers/itsxrust/0.3.0--h70df5c0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

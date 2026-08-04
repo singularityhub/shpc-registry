@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bubblefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bubblefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bubblefinder/container.yaml"
-updated_at: "2026-08-03 06:08:38.544009"
-latest: "1.0.4--h1ab951d_0"
+updated_at: "2026-08-04 05:40:58.413023"
+latest: "1.0.5--h8f51604_0"
 container_url: "https://biocontainers.pro/tools/bubblefinder"
 aliases:
  - "BubbleFinder"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.0.3--h503566f_0"
  - "1.0.4--h1ab951d_0"
+ - "1.0.5--h8f51604_0"
 description: "singularity registry hpc automated addition for bubblefinder"
-config: {"url": "https://biocontainers.pro/tools/bubblefinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bubblefinder", "latest": {"1.0.4--h1ab951d_0": "sha256:68b3fb3ebe3ff40dd8f98e9f81a79d1d2731f77f50c7c9280a6006950224f30f"}, "tags": {"1.0.3--h503566f_0": "sha256:3bafccf2c2c3b7b667bf56105b6323058fbd5da9969fa31e33e8c7ec934c9487", "1.0.4--h1ab951d_0": "sha256:68b3fb3ebe3ff40dd8f98e9f81a79d1d2731f77f50c7c9280a6006950224f30f"}, "docker": "quay.io/biocontainers/bubblefinder", "aliases": {"BubbleFinder": "/usr/local/bin/BubbleFinder", "snarls_bf": "/usr/local/bin/snarls_bf"}}
+config: {"url": "https://biocontainers.pro/tools/bubblefinder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bubblefinder", "latest": {"1.0.5--h8f51604_0": "sha256:bb1e8310cf6115758a2c85de93610f747be6cb34c058381e5ed58db9db8a4409"}, "tags": {"1.0.3--h503566f_0": "sha256:3bafccf2c2c3b7b667bf56105b6323058fbd5da9969fa31e33e8c7ec934c9487", "1.0.4--h1ab951d_0": "sha256:68b3fb3ebe3ff40dd8f98e9f81a79d1d2731f77f50c7c9280a6006950224f30f", "1.0.5--h8f51604_0": "sha256:bb1e8310cf6115758a2c85de93610f747be6cb34c058381e5ed58db9db8a4409"}, "docker": "quay.io/biocontainers/bubblefinder", "aliases": {"BubbleFinder": "/usr/local/bin/BubbleFinder", "snarls_bf": "/usr/local/bin/snarls_bf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bubblefinder.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bubblefinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bubblefinder:1.0.4--h1ab951d_0
+$ shpc install quay.io/biocontainers/bubblefinder:1.0.5--h8f51604_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bubblefinder/1.0.4--h1ab951d_0
-$ module help quay.io/biocontainers/bubblefinder/1.0.4--h1ab951d_0
+$ module load quay.io/biocontainers/bubblefinder/1.0.5--h8f51604_0
+$ module help quay.io/biocontainers/bubblefinder/1.0.5--h8f51604_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

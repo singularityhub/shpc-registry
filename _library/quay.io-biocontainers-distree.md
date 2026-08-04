@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/distree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/distree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/distree/container.yaml"
-updated_at: "2026-08-03 05:51:46.227593"
-latest: "1.0.0--h4349ce8_0"
+updated_at: "2026-08-04 05:24:24.753685"
+latest: "1.0.1--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/distree"
 aliases:
  - "distree"
 versions:
  - "1.0.0--h4349ce8_0"
+ - "1.0.1--hab7d0fd_0"
 description: "singularity registry hpc automated addition for distree"
-config: {"url": "https://biocontainers.pro/tools/distree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for distree", "latest": {"1.0.0--h4349ce8_0": "sha256:46cc14910d5608c66366e3285c2d233239434e89bf1376b4323654ac427e73a1"}, "tags": {"1.0.0--h4349ce8_0": "sha256:46cc14910d5608c66366e3285c2d233239434e89bf1376b4323654ac427e73a1"}, "docker": "quay.io/biocontainers/distree", "aliases": {"distree": "/usr/local/bin/distree"}}
+config: {"url": "https://biocontainers.pro/tools/distree", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for distree", "latest": {"1.0.1--hab7d0fd_0": "sha256:e51ca9d66403d66c2103a9dcef5f8b51d7b7fc4864aa3dc6b55cdb61177e2eb1"}, "tags": {"1.0.0--h4349ce8_0": "sha256:46cc14910d5608c66366e3285c2d233239434e89bf1376b4323654ac427e73a1", "1.0.1--hab7d0fd_0": "sha256:e51ca9d66403d66c2103a9dcef5f8b51d7b7fc4864aa3dc6b55cdb61177e2eb1"}, "docker": "quay.io/biocontainers/distree", "aliases": {"distree": "/usr/local/bin/distree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/distree.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/distree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/distree:1.0.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/distree:1.0.1--hab7d0fd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/distree/1.0.0--h4349ce8_0
-$ module help quay.io/biocontainers/distree/1.0.0--h4349ce8_0
+$ module load quay.io/biocontainers/distree/1.0.1--hab7d0fd_0
+$ module help quay.io/biocontainers/distree/1.0.1--hab7d0fd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

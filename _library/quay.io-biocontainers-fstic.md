@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fstic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fstic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fstic/container.yaml"
-updated_at: "2026-08-03 06:31:03.965757"
-latest: "1.0.0--h4349ce8_0"
+updated_at: "2026-08-04 06:02:56.300024"
+latest: "1.0.1--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/fstic"
 aliases:
  - "fstic"
 versions:
  - "1.0.0--h4349ce8_0"
+ - "1.0.1--hab7d0fd_0"
 description: "singularity registry hpc automated addition for fstic"
-config: {"url": "https://biocontainers.pro/tools/fstic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fstic", "latest": {"1.0.0--h4349ce8_0": "sha256:170556752d24a2e3edb49434d4f18889554d595b293892bbc4e7bc2cf6c445d3"}, "tags": {"1.0.0--h4349ce8_0": "sha256:170556752d24a2e3edb49434d4f18889554d595b293892bbc4e7bc2cf6c445d3"}, "docker": "quay.io/biocontainers/fstic", "aliases": {"fstic": "/usr/local/bin/fstic"}}
+config: {"url": "https://biocontainers.pro/tools/fstic", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fstic", "latest": {"1.0.1--hab7d0fd_0": "sha256:f20cf55706a1cedfe4efcaa697004541ae5defefde002815700e63354a950909"}, "tags": {"1.0.0--h4349ce8_0": "sha256:170556752d24a2e3edb49434d4f18889554d595b293892bbc4e7bc2cf6c445d3", "1.0.1--hab7d0fd_0": "sha256:f20cf55706a1cedfe4efcaa697004541ae5defefde002815700e63354a950909"}, "docker": "quay.io/biocontainers/fstic", "aliases": {"fstic": "/usr/local/bin/fstic"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fstic.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fstic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fstic:1.0.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/fstic:1.0.1--hab7d0fd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fstic/1.0.0--h4349ce8_0
-$ module help quay.io/biocontainers/fstic/1.0.0--h4349ce8_0
+$ module load quay.io/biocontainers/fstic/1.0.1--hab7d0fd_0
+$ module help quay.io/biocontainers/fstic/1.0.1--hab7d0fd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

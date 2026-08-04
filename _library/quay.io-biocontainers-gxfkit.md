@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/gxfkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gxfkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gxfkit/container.yaml"
-updated_at: "2026-08-03 06:05:45.901781"
-latest: "0.0.1--hfa8f182_0"
+updated_at: "2026-08-04 05:38:08.904055"
+latest: "0.0.2--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/gxfkit"
 aliases:
  - "gxfkit"
 versions:
  - "0.0.1--hfa8f182_0"
+ - "0.0.2--hfa8f182_0"
 description: "singularity registry hpc automated addition for gxfkit"
-config: {"url": "https://biocontainers.pro/tools/gxfkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gxfkit", "latest": {"0.0.1--hfa8f182_0": "sha256:042441c7909b53a43194060e49d374a572bd243ebeb677ac8a8deee2394868d2"}, "tags": {"0.0.1--hfa8f182_0": "sha256:042441c7909b53a43194060e49d374a572bd243ebeb677ac8a8deee2394868d2"}, "docker": "quay.io/biocontainers/gxfkit", "aliases": {"gxfkit": "/usr/local/bin/gxfkit"}}
+config: {"url": "https://biocontainers.pro/tools/gxfkit", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gxfkit", "latest": {"0.0.2--hfa8f182_0": "sha256:8c0f13b8baa3235d513a72cf9f26dd1a848727535e1cfbcc853c2617dd21fdfe"}, "tags": {"0.0.1--hfa8f182_0": "sha256:042441c7909b53a43194060e49d374a572bd243ebeb677ac8a8deee2394868d2", "0.0.2--hfa8f182_0": "sha256:8c0f13b8baa3235d513a72cf9f26dd1a848727535e1cfbcc853c2617dd21fdfe"}, "docker": "quay.io/biocontainers/gxfkit", "aliases": {"gxfkit": "/usr/local/bin/gxfkit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gxfkit.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/gxfkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gxfkit:0.0.1--hfa8f182_0
+$ shpc install quay.io/biocontainers/gxfkit:0.0.2--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gxfkit/0.0.1--hfa8f182_0
-$ module help quay.io/biocontainers/gxfkit/0.0.1--hfa8f182_0
+$ module load quay.io/biocontainers/gxfkit/0.0.2--hfa8f182_0
+$ module help quay.io/biocontainers/gxfkit/0.0.2--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

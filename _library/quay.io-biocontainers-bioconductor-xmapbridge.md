@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xmapbridge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xmapbridge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xmapbridge/container.yaml"
-updated_at: "2026-08-03 06:28:39.926827"
+updated_at: "2026-08-04 06:00:34.730626"
 latest: "1.68.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xmapbridge"
 

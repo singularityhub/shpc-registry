@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ncgtw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncgtw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncgtw/container.yaml"
-updated_at: "2026-08-03 06:29:06.897783"
+updated_at: "2026-08-04 06:01:01.187107"
 latest: "1.24.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncgtw"
 aliases:

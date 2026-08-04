@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/permutect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/permutect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/permutect/container.yaml"
-updated_at: "2026-08-03 06:40:55.838726"
-latest: "0.9.1--pyhdfd78af_0"
+updated_at: "2026-08-04 06:12:35.123392"
+latest: "0.9.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/permutect"
 aliases:
  - "c++"
@@ -54,8 +54,9 @@ aliases:
 versions:
  - "0.8.0--pyhdfd78af_0"
  - "0.9.1--pyhdfd78af_0"
+ - "0.9.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for permutect"
-config: {"url": "https://biocontainers.pro/tools/permutect", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for permutect", "latest": {"0.9.1--pyhdfd78af_0": "sha256:68c53a920c7fc834bfd97ad36ed15354434fe8e2e96ff2c879510a8ccb0a5f26"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:fc69441df9f5681319f7f9bd9676e55879e97992bca06fcc96e7a7ff49ed06a9", "0.9.1--pyhdfd78af_0": "sha256:68c53a920c7fc834bfd97ad36ed15354434fe8e2e96ff2c879510a8ccb0a5f26"}, "docker": "quay.io/biocontainers/permutect", "aliases": {"c++": "/usr/local/bin/c++", "cc": "/usr/local/bin/cc", "cpp": "/usr/local/bin/cpp", "edit_dataset": "/usr/local/bin/edit_dataset", "filter_variants": "/usr/local/bin/filter_variants", "g++": "/usr/local/bin/g++", "gcc": "/usr/local/bin/gcc", "gcc-ar": "/usr/local/bin/gcc-ar", "gcc-nm": "/usr/local/bin/gcc-nm", "gcc-ranlib": "/usr/local/bin/gcc-ranlib", "gcov": "/usr/local/bin/gcov", "gcov-dump": "/usr/local/bin/gcov-dump", "gcov-tool": "/usr/local/bin/gcov-tool", "preprocess_dataset": "/usr/local/bin/preprocess_dataset", "prune_dataset": "/usr/local/bin/prune_dataset", "pytensor-cache": "/usr/local/bin/pytensor-cache", "refine_artifact_model": "/usr/local/bin/refine_artifact_model", "train_artifact_model": "/usr/local/bin/train_artifact_model", "fc-genconf": "/usr/local/bin/fc-genconf", "dot_sandbox": "/usr/local/bin/dot_sandbox", "cyvcf2": "/usr/local/bin/cyvcf2", "get_gprof": "/usr/local/bin/get_gprof", "torchfrtrace": "/usr/local/bin/torchfrtrace", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "wayland-scanner": "/usr/local/bin/wayland-scanner", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill"}}
+config: {"url": "https://biocontainers.pro/tools/permutect", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for permutect", "latest": {"0.9.2--pyhdfd78af_0": "sha256:0ad2e3a26bf5bc8a945fbd924dcc6426bc9117a142fe73b04214cc3fab6619b6"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:fc69441df9f5681319f7f9bd9676e55879e97992bca06fcc96e7a7ff49ed06a9", "0.9.1--pyhdfd78af_0": "sha256:68c53a920c7fc834bfd97ad36ed15354434fe8e2e96ff2c879510a8ccb0a5f26", "0.9.2--pyhdfd78af_0": "sha256:0ad2e3a26bf5bc8a945fbd924dcc6426bc9117a142fe73b04214cc3fab6619b6"}, "docker": "quay.io/biocontainers/permutect", "aliases": {"c++": "/usr/local/bin/c++", "cc": "/usr/local/bin/cc", "cpp": "/usr/local/bin/cpp", "edit_dataset": "/usr/local/bin/edit_dataset", "filter_variants": "/usr/local/bin/filter_variants", "g++": "/usr/local/bin/g++", "gcc": "/usr/local/bin/gcc", "gcc-ar": "/usr/local/bin/gcc-ar", "gcc-nm": "/usr/local/bin/gcc-nm", "gcc-ranlib": "/usr/local/bin/gcc-ranlib", "gcov": "/usr/local/bin/gcov", "gcov-dump": "/usr/local/bin/gcov-dump", "gcov-tool": "/usr/local/bin/gcov-tool", "preprocess_dataset": "/usr/local/bin/preprocess_dataset", "prune_dataset": "/usr/local/bin/prune_dataset", "pytensor-cache": "/usr/local/bin/pytensor-cache", "refine_artifact_model": "/usr/local/bin/refine_artifact_model", "train_artifact_model": "/usr/local/bin/train_artifact_model", "fc-genconf": "/usr/local/bin/fc-genconf", "dot_sandbox": "/usr/local/bin/dot_sandbox", "cyvcf2": "/usr/local/bin/cyvcf2", "get_gprof": "/usr/local/bin/get_gprof", "torchfrtrace": "/usr/local/bin/torchfrtrace", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "wayland-scanner": "/usr/local/bin/wayland-scanner", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/permutect.
@@ -70,7 +71,7 @@ $ shpc install quay.io/biocontainers/permutect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/permutect:0.9.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/permutect:0.9.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -82,8 +83,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/permutect/0.9.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/permutect/0.9.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/permutect/0.9.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/permutect/0.9.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

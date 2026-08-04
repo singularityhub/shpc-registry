@@ -4,7 +4,7 @@ name:  "quay.io/jupyter/minimal-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/jupyter/minimal-notebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/jupyter/minimal-notebook/container.yaml"
-updated_at: "2026-08-03 05:45:56.387985"
+updated_at: "2026-08-04 05:18:43.609276"
 latest: "2026-07-20"
 container_url: "https://quay.io/repository/jupyter/minimal-notebook"
 aliases:

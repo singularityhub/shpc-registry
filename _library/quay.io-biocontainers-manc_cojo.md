@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/manc_cojo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/manc_cojo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/manc_cojo/container.yaml"
-updated_at: "2026-08-03 06:01:58.878929"
+updated_at: "2026-08-04 05:34:26.960147"
 latest: "1.1.0--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/manc_cojo"
 aliases:

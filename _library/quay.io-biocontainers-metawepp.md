@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metawepp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawepp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawepp/container.yaml"
-updated_at: "2026-08-03 06:07:25.882751"
-latest: "0.2.0--hdfd78af_0"
+updated_at: "2026-08-04 05:39:46.825215"
+latest: "0.2.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metawepp"
 aliases:
  - "inv"
@@ -45,8 +45,9 @@ versions:
  - "0.1.0--hdfd78af_0"
  - "0.1.1--hdfd78af_0"
  - "0.2.0--hdfd78af_0"
+ - "0.2.0--hdfd78af_1"
 description: "singularity registry hpc automated addition for metawepp"
-config: {"url": "https://biocontainers.pro/tools/metawepp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metawepp", "latest": {"0.2.0--hdfd78af_0": "sha256:625a377f602855ba1967665ad16bbf9a9f0f550da3ace2970cf02e562ecccf0c"}, "tags": {"0.1.0--hdfd78af_0": "sha256:d41fed3f3403b0c77191af4f00beb93d3f271228fc815b2127843675eacfaa4d", "0.1.1--hdfd78af_0": "sha256:28fcd430e4c3c6036b280cc7b3b1f87bd6dde0a51b592bccd157975588e22807", "0.2.0--hdfd78af_0": "sha256:625a377f602855ba1967665ad16bbf9a9f0f550da3ace2970cf02e562ecccf0c"}, "docker": "quay.io/biocontainers/metawepp", "aliases": {"inv": "/usr/local/bin/inv", "invoke": "/usr/local/bin/invoke", "k2": "/usr/local/bin/k2", "menuinst": "/usr/local/bin/menuinst", "run-metawepp": "/usr/local/bin/run-metawepp", "viral_usher": "/usr/local/bin/viral_usher", "viral_usher_build": "/usr/local/bin/viral_usher_build", "wepp": "/usr/local/bin/wepp", "distro": "/usr/local/bin/distro", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "mpiexec.gforker": "/usr/local/bin/mpiexec.gforker", "corepack": "/usr/local/bin/corepack", "npx": "/usr/local/bin/npx", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "wsdump": "/usr/local/bin/wsdump", "archspec": "/usr/local/bin/archspec", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "conda2solv": "/usr/local/bin/conda2solv", "download-flatfile": "/usr/local/bin/download-flatfile", "dumpsolv": "/usr/local/bin/dumpsolv", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml"}}
+config: {"url": "https://biocontainers.pro/tools/metawepp", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metawepp", "latest": {"0.2.0--hdfd78af_1": "sha256:7fe533ba0c8b683400c65c1616a5eaed45a59743d4917ac613536252559ac293"}, "tags": {"0.1.0--hdfd78af_0": "sha256:d41fed3f3403b0c77191af4f00beb93d3f271228fc815b2127843675eacfaa4d", "0.1.1--hdfd78af_0": "sha256:28fcd430e4c3c6036b280cc7b3b1f87bd6dde0a51b592bccd157975588e22807", "0.2.0--hdfd78af_0": "sha256:625a377f602855ba1967665ad16bbf9a9f0f550da3ace2970cf02e562ecccf0c", "0.2.0--hdfd78af_1": "sha256:7fe533ba0c8b683400c65c1616a5eaed45a59743d4917ac613536252559ac293"}, "docker": "quay.io/biocontainers/metawepp", "aliases": {"inv": "/usr/local/bin/inv", "invoke": "/usr/local/bin/invoke", "k2": "/usr/local/bin/k2", "menuinst": "/usr/local/bin/menuinst", "run-metawepp": "/usr/local/bin/run-metawepp", "viral_usher": "/usr/local/bin/viral_usher", "viral_usher_build": "/usr/local/bin/viral_usher_build", "wepp": "/usr/local/bin/wepp", "distro": "/usr/local/bin/distro", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "mpiexec.gforker": "/usr/local/bin/mpiexec.gforker", "corepack": "/usr/local/bin/corepack", "npx": "/usr/local/bin/npx", "kraken2": "/usr/local/bin/kraken2", "kraken2-build": "/usr/local/bin/kraken2-build", "kraken2-inspect": "/usr/local/bin/kraken2-inspect", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "wsdump": "/usr/local/bin/wsdump", "archspec": "/usr/local/bin/archspec", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "conda2solv": "/usr/local/bin/conda2solv", "download-flatfile": "/usr/local/bin/download-flatfile", "dumpsolv": "/usr/local/bin/dumpsolv", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metawepp.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/metawepp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metawepp:0.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/metawepp:0.2.0--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metawepp/0.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/metawepp/0.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/metawepp/0.2.0--hdfd78af_1
+$ module help quay.io/biocontainers/metawepp/0.2.0--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

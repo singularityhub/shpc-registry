@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nf-metro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nf-metro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nf-metro/container.yaml"
-updated_at: "2026-08-03 06:36:52.894823"
+updated_at: "2026-08-04 06:08:37.304091"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nf-metro"
 aliases:

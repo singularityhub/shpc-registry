@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcfclick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfclick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfclick/container.yaml"
-updated_at: "2026-08-03 05:51:29.869584"
+updated_at: "2026-08-04 05:24:08.703130"
 latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcfclick"
 aliases:

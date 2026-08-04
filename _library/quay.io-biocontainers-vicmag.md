@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vicmag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vicmag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vicmag/container.yaml"
-updated_at: "2026-08-03 06:15:52.908284"
+updated_at: "2026-08-04 05:48:02.365856"
 latest: "0.1.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/vicmag"
 aliases:
