@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/icount-mini
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for icount-mini
 latest:
-  4.0.0--pyh106432d_0: 
-    sha256:306ce23a876189a4514d93ab85a9e46b67e8b468077a54c33046e33ffa393f03
+  4.0.1--pyh106432d_0: 
+    sha256:88c66e57a7bf69eda06c1f84632f29a9bff45f7250863f7452eebd8eedadff0c
 tags:
   2.0.3--pyh5e36f6f_0: 
     sha256:9071849890d4ccaa35100215d3060529764919953267d47eeeec1234bd3e6da2
@@ -11,6 +11,8 @@ tags:
     sha256:71788b6f61961eda6d1d8647668864a0e6bd88e1febc8385be6c98a5b8a30661
   4.0.0--pyh106432d_0: 
     sha256:306ce23a876189a4514d93ab85a9e46b67e8b468077a54c33046e33ffa393f03
+  4.0.1--pyh106432d_0: 
+    sha256:88c66e57a7bf69eda06c1f84632f29a9bff45f7250863f7452eebd8eedadff0c
 docker: quay.io/biocontainers/icount-mini
 aliases:
   iCount-Mini: /usr/local/bin/iCount-Mini

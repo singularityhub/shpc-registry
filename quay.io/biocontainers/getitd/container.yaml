@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/getitd
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for getitd
 latest:
-  1.5.16--hdfd78af_0: 
-    sha256:90a70c47c6ebd14db4630533949b9e85d2bd700b423a5d939838059b58075ce5
+  1.5.17--hdfd78af_0: 
+    sha256:23026a548f0a94a9a03847b8af4a146f47ba8d370b0d6071ef6ed34f2c142324
 tags:
   1.5.16--hdfd78af_0: 
     sha256:90a70c47c6ebd14db4630533949b9e85d2bd700b423a5d939838059b58075ce5
+  1.5.17--hdfd78af_0: 
+    sha256:23026a548f0a94a9a03847b8af4a146f47ba8d370b0d6071ef6ed34f2c142324
 docker: quay.io/biocontainers/getitd
 aliases:
   getitd: /usr/local/bin/getitd
