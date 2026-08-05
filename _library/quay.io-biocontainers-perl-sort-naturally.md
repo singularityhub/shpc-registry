@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-sort-naturally"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sort-naturally/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sort-naturally/container.yaml"
-updated_at: "2026-08-04 05:44:52.074185"
+updated_at: "2026-08-05 05:38:29.418719"
 latest: "1.03--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-sort-naturally"
 aliases:

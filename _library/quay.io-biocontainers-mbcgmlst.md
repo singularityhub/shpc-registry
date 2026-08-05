@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mbcgmlst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mbcgmlst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mbcgmlst/container.yaml"
-updated_at: "2026-08-04 05:53:11.417272"
+updated_at: "2026-08-05 05:45:03.440672"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mbcgmlst"
 aliases:

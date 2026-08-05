@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-atena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atena/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atena/container.yaml"
-updated_at: "2026-08-04 05:35:30.677539"
+updated_at: "2026-08-05 05:31:04.787357"
 latest: "1.16.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atena"
 

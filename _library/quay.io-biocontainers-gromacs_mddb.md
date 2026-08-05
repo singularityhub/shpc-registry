@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gromacs_mddb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gromacs_mddb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gromacs_mddb/container.yaml"
-updated_at: "2026-08-04 05:33:57.451817"
+updated_at: "2026-08-05 05:29:50.239911"
 latest: "2025.3--he1b2d42_4"
 container_url: "https://biocontainers.pro/tools/gromacs_mddb"
 aliases:

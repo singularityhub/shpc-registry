@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-modstrings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-modstrings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-modstrings/container.yaml"
-updated_at: "2026-08-04 05:55:28.716881"
+updated_at: "2026-08-05 05:46:50.889444"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-modstrings"
 aliases:

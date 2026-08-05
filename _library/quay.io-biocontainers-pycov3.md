@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pycov3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycov3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pycov3/container.yaml"
-updated_at: "2026-08-04 06:05:50.341398"
+updated_at: "2026-08-05 05:54:55.327501"
 latest: "2.1.1--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/pycov3"
 aliases:

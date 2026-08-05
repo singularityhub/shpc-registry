@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fgwas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fgwas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fgwas/container.yaml"
-updated_at: "2026-08-04 06:00:53.871220"
+updated_at: "2026-08-05 05:51:05.942599"
 latest: "0.3.6--r45hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/r-fgwas"
 aliases:

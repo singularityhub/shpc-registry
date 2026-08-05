@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ontologyplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ontologyplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ontologyplot/container.yaml"
-updated_at: "2026-08-04 06:10:43.115787"
+updated_at: "2026-08-05 05:58:47.589056"
 latest: "1.7--r45h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-ontologyplot"
 aliases:

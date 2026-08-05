@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/easel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easel/container.yaml"
-updated_at: "2026-08-04 05:39:16.225390"
+updated_at: "2026-08-05 05:34:04.553301"
 latest: "0.49--hb6cb901_3"
 container_url: "https://biocontainers.pro/tools/easel"
 aliases:
