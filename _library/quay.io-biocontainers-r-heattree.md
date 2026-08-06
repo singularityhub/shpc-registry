@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-heattree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-heattree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-heattree/container.yaml"
-updated_at: "2026-08-05 05:21:08.224443"
+updated_at: "2026-08-06 05:24:34.054116"
 latest: "0.3.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-heattree"
 aliases:

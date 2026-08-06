@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-consensuscore2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-consensuscore2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-consensuscore2/container.yaml"
-updated_at: "2026-08-05 05:46:28.401885"
+updated_at: "2026-08-06 05:56:57.041658"
 latest: "3.4.1--py27_0"
 container_url: "https://biocontainers.pro/tools/python-consensuscore2"
 aliases:

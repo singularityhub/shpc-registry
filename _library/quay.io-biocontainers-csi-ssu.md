@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/csi-ssu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csi-ssu/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csi-ssu/container.yaml"
-updated_at: "2026-08-05 05:26:27.862179"
+updated_at: "2026-08-06 05:31:15.765855"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/csi-ssu"
 aliases:

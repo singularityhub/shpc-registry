@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-affyrnadegradation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affyrnadegradation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affyrnadegradation/container.yaml"
-updated_at: "2026-08-05 05:40:20.720015"
+updated_at: "2026-08-06 05:49:11.398417"
 latest: "1.56.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affyrnadegradation"
 

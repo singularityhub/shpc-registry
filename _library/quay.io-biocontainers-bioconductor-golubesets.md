@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-golubesets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-golubesets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-golubesets/container.yaml"
-updated_at: "2026-08-05 05:20:08.560954"
+updated_at: "2026-08-06 05:23:19.448010"
 latest: "1.52.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-golubesets"
 

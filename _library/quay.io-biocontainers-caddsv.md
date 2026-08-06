@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/caddsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/caddsv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/caddsv/container.yaml"
-updated_at: "2026-08-05 05:55:41.737921"
+updated_at: "2026-08-06 06:08:59.439938"
 latest: "2.0--pyh84cbfca_0"
 container_url: "https://biocontainers.pro/tools/caddsv"
 aliases:

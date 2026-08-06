@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/reffinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/reffinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/reffinder/container.yaml"
-updated_at: "2026-08-05 05:18:13.547473"
+updated_at: "2026-08-06 05:20:53.645022"
 latest: "0.81--h5ca1c30_4"
 container_url: "https://biocontainers.pro/tools/reffinder"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-copynumberplots"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copynumberplots/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copynumberplots/container.yaml"
-updated_at: "2026-08-05 05:26:16.763524"
+updated_at: "2026-08-06 05:31:01.833492"
 latest: "1.26.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copynumberplots"
 aliases:

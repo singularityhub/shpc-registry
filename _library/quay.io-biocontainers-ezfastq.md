@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ezfastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ezfastq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ezfastq/container.yaml"
-updated_at: "2026-08-05 05:53:25.384431"
+updated_at: "2026-08-06 06:06:01.261206"
 latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ezfastq"
 aliases:

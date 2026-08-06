@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cloudspades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cloudspades/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cloudspades/container.yaml"
-updated_at: "2026-08-05 05:54:01.723262"
+updated_at: "2026-08-06 06:06:50.391359"
 latest: "3.16.0--haf24da9_3"
 container_url: "https://biocontainers.pro/tools/cloudspades"
 aliases:

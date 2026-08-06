@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-notameviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-notameviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-notameviz/container.yaml"
-updated_at: "2026-08-05 05:43:18.506979"
+updated_at: "2026-08-06 05:52:54.653679"
 latest: "1.0.2--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-notameviz"
 aliases:

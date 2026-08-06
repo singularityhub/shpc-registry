@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/homoeditdistance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/homoeditdistance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/homoeditdistance/container.yaml"
-updated_at: "2026-08-05 06:01:21.713494"
+updated_at: "2026-08-06 06:16:37.261553"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/homoeditdistance"
 aliases:
