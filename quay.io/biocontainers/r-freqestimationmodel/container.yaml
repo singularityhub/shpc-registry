@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/r-freqestimationmodel
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  r-freqestimationmodel
+latest:
+  0.1.0--r45hdfd78af_0: 
+    sha256:93cbaf75311abf58580eb944fa2d21abe9c9ca26dbf633f6c4c0572cc1be045a
+tags:
+  0.1.0--r45hdfd78af_0: 
+    sha256:93cbaf75311abf58580eb944fa2d21abe9c9ca26dbf633f6c4c0572cc1be045a
+docker: quay.io/biocontainers/r-freqestimationmodel
+aliases:
+  psl: /usr/local/bin/psl
+  psl-make-dafsa: /usr/local/bin/psl-make-dafsa
+  fc-genconf: /usr/local/bin/fc-genconf
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  hb-info: /usr/local/bin/hb-info

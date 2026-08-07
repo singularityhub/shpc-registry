@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/riboseek
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for riboseek
+latest:
+  1.0.0--he833c27_0: 
+    sha256:57b7b1334ef41cc101d8be62cb1eb48aff99a85223345ec1a1e0783f57b2ed31
+tags:
+  1.0.0--he833c27_0: 
+    sha256:57b7b1334ef41cc101d8be62cb1eb48aff99a85223345ec1a1e0783f57b2ed31
+docker: quay.io/biocontainers/riboseek
+aliases:
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  riboseek: /usr/local/bin/riboseek
+  aria2c: /usr/local/bin/aria2c
+  gawkbug: /usr/local/bin/gawkbug
+  gawk: /usr/local/bin/gawk
+  awk: /usr/local/bin/awk
