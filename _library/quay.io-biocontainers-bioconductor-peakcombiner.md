@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-peakcombiner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-peakcombiner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-peakcombiner/container.yaml"
-updated_at: "2026-08-06 05:42:25.935133"
+updated_at: "2026-08-07 04:50:37.760100"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-peakcombiner"
 aliases:

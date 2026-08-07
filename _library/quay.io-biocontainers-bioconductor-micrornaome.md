@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-micrornaome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-micrornaome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-micrornaome/container.yaml"
-updated_at: "2026-08-06 05:48:46.963164"
+updated_at: "2026-08-07 04:56:44.479115"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-micrornaome"
 aliases:

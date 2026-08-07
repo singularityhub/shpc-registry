@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/discount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/discount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/discount/container.yaml"
-updated_at: "2026-08-06 05:56:45.391991"
+updated_at: "2026-08-07 05:04:33.602798"
 latest: "4.0.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/discount"
 aliases:

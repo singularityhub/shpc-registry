@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteinview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteinview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteinview/container.yaml"
-updated_at: "2026-08-06 06:16:25.645948"
+updated_at: "2026-08-07 05:23:03.148682"
 latest: "0.3.0--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/proteinview"
 aliases:

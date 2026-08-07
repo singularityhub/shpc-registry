@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-gganatogram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gganatogram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gganatogram/container.yaml"
-updated_at: "2026-08-06 05:59:50.886212"
+updated_at: "2026-08-07 05:07:36.574529"
 latest: "0.0.1--r44hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-gganatogram"
 

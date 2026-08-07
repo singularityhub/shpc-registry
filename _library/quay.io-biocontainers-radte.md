@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/radte"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/radte/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/radte/container.yaml"
-updated_at: "2026-08-06 05:24:44.398099"
+updated_at: "2026-08-07 04:33:29.340758"
 latest: "0.2.3--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/radte"
 aliases:

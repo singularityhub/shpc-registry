@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-xaitest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xaitest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xaitest/container.yaml"
-updated_at: "2026-08-06 05:29:11.376466"
+updated_at: "2026-08-07 04:38:13.286199"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xaitest"
 aliases:

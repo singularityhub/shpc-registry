@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-imman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imman/container.yaml"
-updated_at: "2026-08-06 06:15:43.550299"
+updated_at: "2026-08-07 05:22:22.847413"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imman"
 aliases:
