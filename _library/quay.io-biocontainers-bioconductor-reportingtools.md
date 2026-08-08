@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-reportingtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reportingtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reportingtools/container.yaml"
-updated_at: "2026-08-07 05:13:54.680243"
+updated_at: "2026-08-08 04:03:56.901218"
 latest: "2.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reportingtools"
 

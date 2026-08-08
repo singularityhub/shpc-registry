@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genome_profiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genome_profiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genome_profiler/container.yaml"
-updated_at: "2026-08-07 05:01:52.270915"
+updated_at: "2026-08-08 03:54:27.903668"
 latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genome_profiler"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sts-smctc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sts-smctc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sts-smctc/container.yaml"
-updated_at: "2026-08-07 04:44:13.293237"
+updated_at: "2026-08-08 03:40:27.945602"
 latest: "2.0--h74eba07_0"
 container_url: "https://biocontainers.pro/tools/sts-smctc"
 

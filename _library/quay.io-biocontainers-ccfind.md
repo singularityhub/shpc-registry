@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ccfind"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccfind/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccfind/container.yaml"
-updated_at: "2026-08-07 04:57:05.791902"
+updated_at: "2026-08-08 03:50:42.646803"
 latest: "1.4.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ccfind"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tau-community-detection"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tau-community-detection/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tau-community-detection/container.yaml"
-updated_at: "2026-08-07 04:30:32.789626"
+updated_at: "2026-08-08 03:30:11.971642"
 latest: "1.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tau-community-detection"
 aliases:

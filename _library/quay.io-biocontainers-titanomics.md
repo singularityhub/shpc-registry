@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/titanomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/titanomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/titanomics/container.yaml"
-updated_at: "2026-08-07 05:14:27.648477"
+updated_at: "2026-08-08 04:04:22.636441"
 latest: "0.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/titanomics"
 aliases:

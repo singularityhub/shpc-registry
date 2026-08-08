@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anvilgcp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilgcp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilgcp/container.yaml"
-updated_at: "2026-08-07 05:01:56.314289"
+updated_at: "2026-08-08 03:54:31.124278"
 latest: "1.4.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilgcp"
 aliases:

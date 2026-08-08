@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rawdiag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rawdiag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rawdiag/container.yaml"
-updated_at: "2026-08-07 04:58:23.728993"
+updated_at: "2026-08-08 03:51:44.517970"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rawdiag"
 aliases:

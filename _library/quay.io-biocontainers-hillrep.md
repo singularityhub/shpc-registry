@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hillrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hillrep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hillrep/container.yaml"
-updated_at: "2026-08-07 05:04:30.979555"
+updated_at: "2026-08-08 03:56:32.044257"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hillrep"
 aliases:

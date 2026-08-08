@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chips"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chips/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chips/container.yaml"
-updated_at: "2026-08-07 04:34:43.892894"
+updated_at: "2026-08-08 03:33:04.474164"
 latest: "2.4--h43eeafb_7"
 container_url: "https://biocontainers.pro/tools/chips"
 aliases:

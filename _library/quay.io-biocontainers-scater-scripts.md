@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scater-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scater-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scater-scripts/container.yaml"
-updated_at: "2026-08-07 04:43:23.215322"
+updated_at: "2026-08-08 03:39:48.029620"
 latest: "0.0.5--1"
 container_url: "https://biocontainers.pro/tools/scater-scripts"
 aliases:

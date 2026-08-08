@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mutscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mutscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mutscan/container.yaml"
-updated_at: "2026-08-07 04:49:15.316912"
+updated_at: "2026-08-08 03:44:26.642266"
 latest: "1.0.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mutscan"
 aliases:

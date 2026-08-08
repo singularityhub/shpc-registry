@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pynacl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynacl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pynacl/container.yaml"
-updated_at: "2026-08-07 04:55:21.007230"
+updated_at: "2026-08-08 03:49:18.930614"
 latest: "0.3.0--py36_0"
 container_url: "https://biocontainers.pro/tools/pynacl"
 aliases:

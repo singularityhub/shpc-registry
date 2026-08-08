@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stainwarpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stainwarpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stainwarpy/container.yaml"
-updated_at: "2026-08-07 05:22:01.918147"
+updated_at: "2026-08-08 04:10:19.679929"
 latest: "0.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/stainwarpy"
 aliases:

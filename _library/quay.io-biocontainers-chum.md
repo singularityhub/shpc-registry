@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chum/container.yaml"
-updated_at: "2026-08-07 04:54:57.453508"
+updated_at: "2026-08-08 03:49:00.241190"
 latest: "0.3.0--hec9b1f2_1"
 container_url: "https://biocontainers.pro/tools/chum"
 aliases:

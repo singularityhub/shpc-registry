@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recon-para"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recon-para/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recon-para/container.yaml"
-updated_at: "2026-08-07 04:50:50.342721"
+updated_at: "2026-08-08 03:45:42.391169"
 latest: "1.05.1--h87e0c26_0"
 container_url: "https://biocontainers.pro/tools/recon-para"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vireosnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vireosnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vireosnp/container.yaml"
-updated_at: "2026-08-07 04:42:16.735542"
+updated_at: "2026-08-08 03:38:54.783641"
 latest: "0.5.9--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/vireosnp"
 aliases:

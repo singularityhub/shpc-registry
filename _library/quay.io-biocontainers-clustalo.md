@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clustalo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clustalo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clustalo/container.yaml"
-updated_at: "2026-08-07 05:00:50.671298"
+updated_at: "2026-08-08 03:53:40.276080"
 latest: "1.2.4--h503566f_10"
 container_url: "https://biocontainers.pro/tools/clustalo"
 aliases:

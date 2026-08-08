@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dipgenie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dipgenie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dipgenie/container.yaml"
-updated_at: "2026-08-07 04:55:43.099677"
+updated_at: "2026-08-08 03:49:36.697959"
 latest: "1.0--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/dipgenie"
 aliases:

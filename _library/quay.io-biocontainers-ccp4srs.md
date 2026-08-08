@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ccp4srs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ccp4srs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ccp4srs/container.yaml"
-updated_at: "2026-08-07 05:00:00.041949"
+updated_at: "2026-08-08 03:53:01.034998"
 latest: "2024.06.14--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/ccp4srs"
 aliases:

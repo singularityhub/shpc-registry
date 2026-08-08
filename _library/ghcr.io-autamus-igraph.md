@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/igraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/igraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/igraph/container.yaml"
-updated_at: "2026-08-07 04:27:38.140204"
+updated_at: "2026-08-08 03:28:08.971932"
 latest: "0.7.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/igraph"
 

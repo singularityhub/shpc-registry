@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pmotools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmotools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmotools/container.yaml"
-updated_at: "2026-08-07 05:22:12.430369"
+updated_at: "2026-08-08 04:10:28.015272"
 latest: "1.1.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/pmotools"
 aliases:

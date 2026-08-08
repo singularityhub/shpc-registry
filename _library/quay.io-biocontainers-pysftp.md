@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pysftp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pysftp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pysftp/container.yaml"
-updated_at: "2026-08-07 04:59:11.979900"
+updated_at: "2026-08-08 03:52:23.093462"
 latest: "0.2.9--py35_0"
 container_url: "https://biocontainers.pro/tools/pysftp"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxpasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxpasta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxpasta/container.yaml"
-updated_at: "2026-08-07 04:46:31.947399"
+updated_at: "2026-08-08 03:42:18.411782"
 latest: "0.7.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/taxpasta"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-linkset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-linkset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-linkset/container.yaml"
-updated_at: "2026-08-07 05:10:32.768426"
+updated_at: "2026-08-08 04:01:17.489457"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-linkset"
 aliases:

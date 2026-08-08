@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-digest-md5-file"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-digest-md5-file/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-digest-md5-file/container.yaml"
-updated_at: "2026-08-07 04:37:08.548422"
+updated_at: "2026-08-08 03:34:50.550633"
 latest: "0.08--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-digest-md5-file"
 aliases:
