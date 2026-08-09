@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dbcanlight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dbcanlight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dbcanlight/container.yaml"
-updated_at: "2026-08-08 03:30:01.943663"
+updated_at: "2026-08-09 03:48:04.279986"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dbcanlight"
 aliases:

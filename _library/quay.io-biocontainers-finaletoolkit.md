@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/finaletoolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/finaletoolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/finaletoolkit/container.yaml"
-updated_at: "2026-08-08 03:45:20.700478"
+updated_at: "2026-08-09 04:08:40.540508"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/finaletoolkit"
 aliases:

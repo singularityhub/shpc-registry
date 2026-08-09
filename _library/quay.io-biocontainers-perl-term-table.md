@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-term-table"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-table/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-table/container.yaml"
-updated_at: "2026-08-08 04:01:52.757381"
+updated_at: "2026-08-09 04:31:12.479638"
 latest: "0.028--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-term-table"
 aliases:

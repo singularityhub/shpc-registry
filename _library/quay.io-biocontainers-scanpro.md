@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanpro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanpro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanpro/container.yaml"
-updated_at: "2026-08-08 03:59:41.919388"
+updated_at: "2026-08-09 04:28:17.889713"
 latest: "0.4.1--pyh84cbfca_0"
 container_url: "https://biocontainers.pro/tools/scanpro"
 aliases:

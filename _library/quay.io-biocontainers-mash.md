@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mash/container.yaml"
-updated_at: "2026-08-08 03:42:29.976685"
+updated_at: "2026-08-09 04:04:39.672209"
 latest: "2.3--hd3113c8_6"
 container_url: "https://biocontainers.pro/tools/mash"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/majec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/majec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/majec/container.yaml"
-updated_at: "2026-08-08 03:30:55.711157"
+updated_at: "2026-08-09 03:49:13.699530"
 latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/majec"
 aliases:

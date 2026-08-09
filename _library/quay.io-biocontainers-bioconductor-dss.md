@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dss/container.yaml"
-updated_at: "2026-08-08 03:40:11.876758"
+updated_at: "2026-08-09 04:01:22.625409"
 latest: "2.58.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dss"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-batchelor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-batchelor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-batchelor/container.yaml"
-updated_at: "2026-08-08 04:00:28.766332"
+updated_at: "2026-08-09 04:29:21.581088"
 latest: "1.26.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-batchelor"
 aliases:

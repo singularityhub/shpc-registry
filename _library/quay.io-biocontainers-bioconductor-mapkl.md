@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mapkl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mapkl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mapkl/container.yaml"
-updated_at: "2026-08-08 03:30:17.774194"
+updated_at: "2026-08-09 03:48:24.746670"
 latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mapkl"
 

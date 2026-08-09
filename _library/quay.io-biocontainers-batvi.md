@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/batvi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/batvi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/batvi/container.yaml"
-updated_at: "2026-08-08 03:47:59.529571"
+updated_at: "2026-08-09 04:12:21.244073"
 latest: "1.04--h5ca1c30_9"
 container_url: "https://biocontainers.pro/tools/batvi"
 aliases:

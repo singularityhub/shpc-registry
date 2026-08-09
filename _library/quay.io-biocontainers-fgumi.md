@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fgumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgumi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fgumi/container.yaml"
-updated_at: "2026-08-08 03:44:11.645600"
+updated_at: "2026-08-09 04:07:03.609208"
 latest: "0.4.0--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/fgumi"
 aliases:

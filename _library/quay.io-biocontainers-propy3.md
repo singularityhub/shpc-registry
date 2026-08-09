@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/propy3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/propy3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/propy3/container.yaml"
-updated_at: "2026-08-08 04:08:59.826579"
+updated_at: "2026-08-09 04:40:46.327872"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/propy3"
 aliases:

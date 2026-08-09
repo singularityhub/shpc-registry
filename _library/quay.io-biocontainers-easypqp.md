@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/easypqp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easypqp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easypqp/container.yaml"
-updated_at: "2026-08-08 03:39:17.276507"
+updated_at: "2026-08-09 04:00:09.227730"
 latest: "0.1.59--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/easypqp"
 

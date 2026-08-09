@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqcovarimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqcovarimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqcovarimpute/container.yaml"
-updated_at: "2026-08-08 03:39:05.059558"
+updated_at: "2026-08-09 03:59:53.094651"
 latest: "1.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqcovarimpute"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openspliceai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openspliceai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openspliceai/container.yaml"
-updated_at: "2026-08-08 03:35:34.835779"
+updated_at: "2026-08-09 03:55:13.173962"
 latest: "0.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/openspliceai"
 aliases:

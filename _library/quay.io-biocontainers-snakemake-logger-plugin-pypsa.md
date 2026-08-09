@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-logger-plugin-pypsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-logger-plugin-pypsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-logger-plugin-pypsa/container.yaml"
-updated_at: "2026-08-08 03:51:15.395271"
+updated_at: "2026-08-09 04:16:54.972334"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-logger-plugin-pypsa"
 aliases:

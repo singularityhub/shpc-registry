@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hilda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hilda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hilda/container.yaml"
-updated_at: "2026-08-08 03:29:39.618185"
+updated_at: "2026-08-09 03:47:35.298358"
 latest: "1.24.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hilda"
 aliases:

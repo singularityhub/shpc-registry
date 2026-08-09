@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opencontactcli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opencontactcli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opencontactcli/container.yaml"
-updated_at: "2026-08-08 03:30:16.661649"
+updated_at: "2026-08-09 03:48:23.297514"
 latest: "1.1--py39hdd8045a_7"
 container_url: "https://biocontainers.pro/tools/opencontactcli"
 aliases:

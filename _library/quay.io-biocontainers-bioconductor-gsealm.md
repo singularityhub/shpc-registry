@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsealm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsealm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsealm/container.yaml"
-updated_at: "2026-08-08 04:11:37.792993"
+updated_at: "2026-08-09 04:44:23.018510"
 latest: "1.70.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsealm"
 

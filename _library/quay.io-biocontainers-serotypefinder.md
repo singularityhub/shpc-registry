@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/serotypefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/serotypefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/serotypefinder/container.yaml"
-updated_at: "2026-08-08 03:50:48.895336"
+updated_at: "2026-08-09 04:16:17.824044"
 latest: "2.0.2--py312hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/serotypefinder"
 aliases:

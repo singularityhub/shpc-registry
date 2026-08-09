@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gosorensen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gosorensen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gosorensen/container.yaml"
-updated_at: "2026-08-08 03:55:20.659111"
+updated_at: "2026-08-09 04:22:35.318616"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gosorensen"
 aliases:

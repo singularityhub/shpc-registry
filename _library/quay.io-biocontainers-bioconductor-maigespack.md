@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maigespack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maigespack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maigespack/container.yaml"
-updated_at: "2026-08-08 03:51:40.515849"
+updated_at: "2026-08-09 04:17:29.932268"
 latest: "1.64.0--r43ha9d7317_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-maigespack"
 
