@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bismark
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bismark
 latest:
-  0.25.1--hdfd78af_0: 
-    sha256:554289828659f95d55d705351d7b5572832f7961d5d58beea8a45a077ba0a488
+  3.1.0--hfa8f182_0: 
+    sha256:86d39c42efab92a444949bc3a738e609b4787c1aad4285cfbceb2b54ed431e1b
 tags:
   0.23.1--hdfd78af_0: 
     sha256:b8decd607c6fab8856545bbffbd19e8f2483a3962c829b213c52d16a738a3d59
@@ -15,6 +15,10 @@ tags:
     sha256:b06de320ad1ac9057e404105eac58587e2d5f076b62f146c11259dadfe07e20f
   0.25.1--hdfd78af_0: 
     sha256:554289828659f95d55d705351d7b5572832f7961d5d58beea8a45a077ba0a488
+  3.1.0--hfa8f182_0: 
+    sha256:86d39c42efab92a444949bc3a738e609b4787c1aad4285cfbceb2b54ed431e1b
+  3.0.0--hfa8f182_0: 
+    sha256:92131031404b6a5d88a6de40bdb8c9f39f5a756efbc72fa9fc1e66038e0c7d0b
 docker: quay.io/biocontainers/bismark
 aliases:
   Bismark_alignment_modes.pdf: /usr/local/bin/Bismark_alignment_modes.pdf

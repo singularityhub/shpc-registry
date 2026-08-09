@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mhcgnomes
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mhcgnomes
 latest:
-  3.32.0--pyhdfd78af_0: 
-    sha256:d413bb18a12c4cb5ea1032b764f894b04908850a1c62c1de7a5200ba325197b7
+  3.33.4--pyhdfd78af_0: 
+    sha256:586557c499a2194a68a49a8439cf36a0c8f0a6f6573f098df11448ff63a6ee66
 tags:
   1.8.4--pyh7cba7a3_0: 
     sha256:14dd2760511144b2d4ed7a2aa397144543f0b125d9b863e296bb777fe79b1c75
@@ -25,6 +25,8 @@ tags:
     sha256:c4da124b3035c12da206e39fb02c754087f8bc029a52a2d3e393afbad233bcf9
   3.32.0--pyhdfd78af_0: 
     sha256:d413bb18a12c4cb5ea1032b764f894b04908850a1c62c1de7a5200ba325197b7
+  3.33.4--pyhdfd78af_0: 
+    sha256:586557c499a2194a68a49a8439cf36a0c8f0a6f6573f098df11448ff63a6ee66
 docker: quay.io/biocontainers/mhcgnomes
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9
