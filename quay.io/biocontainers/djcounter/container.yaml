@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/djcounter
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for djcounter
+latest:
+  1.1--hdfd78af_0: 
+    sha256:11c9b5dbc57837114975a5f4e5e49dc2952cafa93a62149727fbbf6befa4cecc
+tags:
+  1.1--hdfd78af_0: 
+    sha256:11c9b5dbc57837114975a5f4e5e49dc2952cafa93a62149727fbbf6befa4cecc
+docker: quay.io/biocontainers/djcounter
+aliases:
+  djcounter-kmer: /usr/local/bin/djcounter-kmer
+  djcounter-map: /usr/local/bin/djcounter-map
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  merqury.sh: /usr/local/bin/merqury.sh
+  meryl-analyze: /usr/local/bin/meryl-analyze
+  meryl-simple: /usr/local/bin/meryl-simple
+  position-lookup: /usr/local/bin/position-lookup
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  meryl-import: /usr/local/bin/meryl-import
+  meryl-lookup: /usr/local/bin/meryl-lookup
+  meryl: /usr/local/bin/meryl
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  bc: /usr/local/bin/bc
+  dc: /usr/local/bin/dc
+  jnativescan: /usr/local/bin/jnativescan
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  fc-genconf: /usr/local/bin/fc-genconf
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
