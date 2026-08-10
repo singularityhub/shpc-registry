@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tclap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tclap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tclap/container.yaml"
-updated_at: "2026-08-09 04:26:37.398214"
+updated_at: "2026-08-10 04:39:37.865136"
 latest: "1.2.1--h470a237_1"
 container_url: "https://biocontainers.pro/tools/tclap"
 

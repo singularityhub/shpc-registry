@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vartracker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vartracker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vartracker/container.yaml"
-updated_at: "2026-08-09 04:26:12.192567"
+updated_at: "2026-08-10 04:39:11.112185"
 latest: "2.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vartracker"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygraphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygraphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygraphviz/container.yaml"
-updated_at: "2026-08-09 04:24:55.103993"
+updated_at: "2026-08-10 04:37:49.250966"
 latest: "1.3.1--py36_0"
 container_url: "https://biocontainers.pro/tools/pygraphviz"
 aliases:

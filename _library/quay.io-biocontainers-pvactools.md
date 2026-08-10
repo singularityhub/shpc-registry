@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pvactools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pvactools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pvactools/container.yaml"
-updated_at: "2026-08-09 04:30:21.165995"
+updated_at: "2026-08-10 04:43:25.769676"
 latest: "7.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pvactools"
 aliases:

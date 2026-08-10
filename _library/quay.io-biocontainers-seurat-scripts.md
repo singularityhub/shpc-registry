@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seurat-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seurat-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seurat-scripts/container.yaml"
-updated_at: "2026-08-09 04:44:43.516267"
+updated_at: "2026-08-10 04:57:39.902536"
 latest: "4.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seurat-scripts"
 aliases:

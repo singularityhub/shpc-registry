@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/x-mapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/x-mapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/x-mapper/container.yaml"
-updated_at: "2026-08-09 04:05:49.257649"
+updated_at: "2026-08-10 04:19:15.079688"
 latest: "1.2.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/x-mapper"
 aliases:

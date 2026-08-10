@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scider/container.yaml"
-updated_at: "2026-08-09 04:03:40.421314"
+updated_at: "2026-08-10 04:17:17.879527"
 latest: "1.8.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scider"
 aliases:

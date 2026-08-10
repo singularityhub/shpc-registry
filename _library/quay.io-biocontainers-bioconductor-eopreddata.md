@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eopreddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eopreddata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eopreddata/container.yaml"
-updated_at: "2026-08-09 04:18:06.319859"
+updated_at: "2026-08-10 04:30:56.799256"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eopreddata"
 aliases:

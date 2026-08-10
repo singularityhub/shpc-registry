@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crisprlungo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisprlungo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crisprlungo/container.yaml"
-updated_at: "2026-08-09 04:22:47.804411"
+updated_at: "2026-08-10 04:35:33.696900"
 latest: "0.1.14--py310h086e186_0"
 container_url: "https://biocontainers.pro/tools/crisprlungo"
 aliases:

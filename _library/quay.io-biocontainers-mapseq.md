@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapseq/container.yaml"
-updated_at: "2026-08-09 04:28:46.489329"
+updated_at: "2026-08-10 04:41:50.732331"
 latest: "2.1.1--ha34dc8c_0"
 container_url: "https://biocontainers.pro/tools/mapseq"
 aliases:

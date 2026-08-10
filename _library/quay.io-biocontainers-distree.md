@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/distree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/distree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/distree/container.yaml"
-updated_at: "2026-08-09 03:52:11.257129"
+updated_at: "2026-08-10 04:05:50.836290"
 latest: "1.0.1--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/distree"
 aliases:

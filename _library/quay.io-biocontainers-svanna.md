@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svanna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svanna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svanna/container.yaml"
-updated_at: "2026-08-09 04:27:17.985842"
+updated_at: "2026-08-10 04:40:20.943421"
 latest: "1.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svanna"
 aliases:

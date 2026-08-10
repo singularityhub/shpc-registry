@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kodata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kodata/container.yaml"
-updated_at: "2026-08-09 03:48:19.802728"
+updated_at: "2026-08-10 04:01:53.417583"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kodata"
 aliases:

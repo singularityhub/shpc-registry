@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/physiofit4galaxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/physiofit4galaxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/physiofit4galaxy/container.yaml"
-updated_at: "2026-08-09 04:07:49.997006"
+updated_at: "2026-08-10 04:21:09.575874"
 latest: "2.2.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/physiofit4galaxy"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-azure-batch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-azure-batch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-azure-batch/container.yaml"
-updated_at: "2026-08-09 04:28:57.606465"
-latest: "0.1.3--pyhdfd78af_0"
+updated_at: "2026-08-10 04:42:02.080780"
+latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-azure-batch"
 aliases:
  - "2to3-3.12"
@@ -16,8 +16,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.3--pyhdfd78af_0"
+ - "0.3.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for snakemake-executor-plugin-azure-batch"
-config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-azure-batch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-azure-batch", "latest": {"0.1.3--pyhdfd78af_0": "sha256:1e0985636bfa6c8d2ee0b9150e5815de66eb8c3923b3cfa0da39cc80aaaf20be"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:1e0985636bfa6c8d2ee0b9150e5815de66eb8c3923b3cfa0da39cc80aaaf20be"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-azure-batch", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-executor-plugin-azure-batch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snakemake-executor-plugin-azure-batch", "latest": {"0.3.0--pyhdfd78af_0": "sha256:28424e3977fa6c894d78dc9c854802c87195baee877acc41dd8b19ab4b49b7c2"}, "tags": {"0.1.3--pyhdfd78af_0": "sha256:1e0985636bfa6c8d2ee0b9150e5815de66eb8c3923b3cfa0da39cc80aaaf20be", "0.3.0--pyhdfd78af_0": "sha256:28424e3977fa6c894d78dc9c854802c87195baee877acc41dd8b19ab4b49b7c2"}, "docker": "quay.io/biocontainers/snakemake-executor-plugin-azure-batch", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-executor-plugin-azure-batch.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/snakemake-executor-plugin-azure-batch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-executor-plugin-azure-batch:0.1.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakemake-executor-plugin-azure-batch:0.3.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-executor-plugin-azure-batch/0.1.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakemake-executor-plugin-azure-batch/0.1.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakemake-executor-plugin-azure-batch/0.3.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakemake-executor-plugin-azure-batch/0.3.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

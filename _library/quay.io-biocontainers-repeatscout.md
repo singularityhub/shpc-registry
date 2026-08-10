@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repeatscout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatscout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repeatscout/container.yaml"
-updated_at: "2026-08-09 04:30:00.610072"
+updated_at: "2026-08-10 04:43:04.501569"
 latest: "1.0.7--h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/repeatscout"
 aliases:

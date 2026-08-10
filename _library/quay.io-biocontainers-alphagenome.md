@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alphagenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alphagenome/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alphagenome/container.yaml"
-updated_at: "2026-08-09 04:00:14.358527"
+updated_at: "2026-08-10 04:14:05.708937"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alphagenome"
 aliases:

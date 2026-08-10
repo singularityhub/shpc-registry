@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/botocore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/botocore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/botocore/container.yaml"
-updated_at: "2026-08-09 04:26:28.240860"
+updated_at: "2026-08-10 04:39:27.951757"
 latest: "1.3.6--py36_0"
 container_url: "https://biocontainers.pro/tools/botocore"
 aliases:
