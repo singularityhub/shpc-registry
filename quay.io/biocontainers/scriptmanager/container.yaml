@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/scriptmanager
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scriptmanager
+latest:
+  0.15--hdfd78af_0: 
+    sha256:8bd6320c8229361d68839cded78983307123ebf580c4014e1154444f68d3d384
+tags:
+  0.15--hdfd78af_0: 
+    sha256:8bd6320c8229361d68839cded78983307123ebf580c4014e1154444f68d3d384
+docker: quay.io/biocontainers/scriptmanager
+aliases:
+  scriptmanager: /usr/local/bin/scriptmanager
+  jnativescan: /usr/local/bin/jnativescan
+  fc-genconf: /usr/local/bin/fc-genconf
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  jwebserver: /usr/local/bin/jwebserver
+  jpackage: /usr/local/bin/jpackage
+  cups-config: /usr/local/bin/cups-config
+  ippeveprinter: /usr/local/bin/ippeveprinter
+  ipptool: /usr/local/bin/ipptool
+  jfr: /usr/local/bin/jfr
+  jdeprscan: /usr/local/bin/jdeprscan
+  jhsdb: /usr/local/bin/jhsdb
+  jimage: /usr/local/bin/jimage
+  jlink: /usr/local/bin/jlink
+  jmod: /usr/local/bin/jmod
+  jshell: /usr/local/bin/jshell
+  aserver: /usr/local/bin/aserver
+  jdeps: /usr/local/bin/jdeps
+  jar: /usr/local/bin/jar
+  jarsigner: /usr/local/bin/jarsigner
+  java: /usr/local/bin/java
+  javac: /usr/local/bin/javac
+  javadoc: /usr/local/bin/javadoc
+  javap: /usr/local/bin/javap
+  jcmd: /usr/local/bin/jcmd

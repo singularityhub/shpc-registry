@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/refinegems
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for refinegems
+latest:
+  2.0.0b3--pyhdfd78af_0: 
+    sha256:079a25fafcbb5b1a2b1e2ffdf8c426bc5b3e1987ff88302c5cda8ccce82d6e06
+tags:
+  2.0.0b3--pyhdfd78af_0: 
+    sha256:079a25fafcbb5b1a2b1e2ffdf8c426bc5b3e1987ff88302c5cda8ccce82d6e06
+docker: quay.io/biocontainers/refinegems
+aliases:
+  binaryornot: /usr/local/bin/binaryornot
+  bioservices: /usr/local/bin/bioservices
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  depinfo: /usr/local/bin/depinfo
+  kernprof: /usr/local/bin/kernprof
+  memote: /usr/local/bin/memote
+  numpydoc: /usr/local/bin/numpydoc
+  refinegems: /usr/local/bin/refinegems
+  z3: /usr/local/bin/z3
+  cookiecutter: /usr/local/bin/cookiecutter
+  slugify: /usr/local/bin/slugify
+  scalar: /usr/local/bin/scalar
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  gffutils-cli: /usr/local/bin/gffutils-cli
+  sphinx-apidoc: /usr/local/bin/sphinx-apidoc
+  sphinx-autogen: /usr/local/bin/sphinx-autogen
+  sphinx-build: /usr/local/bin/sphinx-build
+  sphinx-quickstart: /usr/local/bin/sphinx-quickstart
+  fc-genconf: /usr/local/bin/fc-genconf
+  get_gprof: /usr/local/bin/get_gprof
+  idna: /usr/local/bin/idna
+  rich-click: /usr/local/bin/rich-click
+  pybabel: /usr/local/bin/pybabel
+  httpx: /usr/local/bin/httpx
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
