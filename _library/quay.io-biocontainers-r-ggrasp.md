@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggrasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggrasp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggrasp/container.yaml"
-updated_at: "2026-08-10 04:41:10.537678"
+updated_at: "2026-08-11 04:16:53.678389"
 latest: "1.0--r351h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-ggrasp"
 aliases:

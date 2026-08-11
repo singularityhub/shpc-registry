@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sam-subsampler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam-subsampler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam-subsampler/container.yaml"
-updated_at: "2026-08-10 04:20:56.472164"
+updated_at: "2026-08-11 04:02:18.544859"
 latest: "0.1.0--hf71e60c_0"
 container_url: "https://biocontainers.pro/tools/sam-subsampler"
 aliases:

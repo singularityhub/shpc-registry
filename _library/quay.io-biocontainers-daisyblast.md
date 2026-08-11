@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/daisyblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/daisyblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/daisyblast/container.yaml"
-updated_at: "2026-08-10 04:46:30.859206"
+updated_at: "2026-08-11 04:20:35.386734"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/daisyblast"
 aliases:

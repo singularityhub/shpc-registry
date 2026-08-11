@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maaslin3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maaslin3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maaslin3/container.yaml"
-updated_at: "2026-08-10 04:04:45.945783"
+updated_at: "2026-08-11 03:50:52.258296"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maaslin3"
 aliases:

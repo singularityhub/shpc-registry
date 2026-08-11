@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itbins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itbins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itbins/container.yaml"
-updated_at: "2026-08-10 04:16:15.460124"
+updated_at: "2026-08-11 03:58:56.623066"
 latest: "0.8.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/itbins"
 aliases:

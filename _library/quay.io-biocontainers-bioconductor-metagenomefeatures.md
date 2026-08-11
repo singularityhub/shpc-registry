@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metagenomefeatures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagenomefeatures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagenomefeatures/container.yaml"
-updated_at: "2026-08-10 04:09:15.496918"
+updated_at: "2026-08-11 03:54:00.937435"
 latest: "2.10.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagenomefeatures"
 aliases:

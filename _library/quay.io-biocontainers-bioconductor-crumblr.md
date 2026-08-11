@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crumblr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crumblr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crumblr/container.yaml"
-updated_at: "2026-08-10 04:01:11.471461"
+updated_at: "2026-08-11 03:48:20.018015"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crumblr"
 aliases:

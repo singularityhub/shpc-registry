@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msfeatures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msfeatures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msfeatures/container.yaml"
-updated_at: "2026-08-10 04:31:56.405512"
+updated_at: "2026-08-11 04:10:12.626240"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msfeatures"
 

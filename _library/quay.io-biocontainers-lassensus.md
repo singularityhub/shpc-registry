@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lassensus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lassensus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lassensus/container.yaml"
-updated_at: "2026-08-10 04:47:35.729986"
+updated_at: "2026-08-11 04:21:23.887372"
 latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lassensus"
 aliases:

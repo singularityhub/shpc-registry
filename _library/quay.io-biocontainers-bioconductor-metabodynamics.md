@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metabodynamics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metabodynamics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metabodynamics/container.yaml"
-updated_at: "2026-08-10 04:11:46.979899"
+updated_at: "2026-08-11 03:55:46.284370"
 latest: "2.0.2--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metabodynamics"
 aliases:

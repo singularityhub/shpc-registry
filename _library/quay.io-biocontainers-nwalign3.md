@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nwalign3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nwalign3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nwalign3/container.yaml"
-updated_at: "2026-08-10 04:17:45.521067"
+updated_at: "2026-08-11 04:00:00.972882"
 latest: "0.1.6--py39hff726c5_0"
 container_url: "https://biocontainers.pro/tools/nwalign3"
 aliases:

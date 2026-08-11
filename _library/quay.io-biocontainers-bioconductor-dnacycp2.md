@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dnacycp2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dnacycp2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dnacycp2/container.yaml"
-updated_at: "2026-08-10 04:40:51.029679"
+updated_at: "2026-08-11 04:16:40.058765"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dnacycp2"
 aliases:
