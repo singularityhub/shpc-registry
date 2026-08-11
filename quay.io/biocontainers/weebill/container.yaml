@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/weebill
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for weebill
+latest:
+  0.3.0--hec9b1f2_0: 
+    sha256:7dd3b6fcb6a012cab7190f8baa6bbf8d58f79b1b9f812dbc34449b21a0f3d737
+tags:
+  0.3.0--hec9b1f2_0: 
+    sha256:7dd3b6fcb6a012cab7190f8baa6bbf8d58f79b1b9f812dbc34449b21a0f3d737
+docker: quay.io/biocontainers/weebill
+aliases:
+  weebill: /usr/local/bin/weebill
