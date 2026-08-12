@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/mumemto
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mumemto
 latest:
-  1.4.0--py310h8eb1b85_0: 
-    sha256:0da7b845dac363f5948f4b364b7bd34e93c00fc12fce58d342146e79de09d8e5
+  1.4.1--py313h4d4c3f5_0: 
+    sha256:b1c32bd3315677cbfe02628b68c1edcc2e6bc0e645be6ca11bee8259c64dd01c
 tags:
   1.1.1--py310h184ae93_2: 
     sha256:2a3c5c9a203a56a0bc189064f375800936cacce91ead48e995dc99ad86c5ab4a
@@ -21,6 +21,8 @@ tags:
     sha256:79c02f7477504577b5d78f885e224e903c1dc7d7c2114d86e29ccee5c10b625c
   1.4.0--py310h8eb1b85_0: 
     sha256:0da7b845dac363f5948f4b364b7bd34e93c00fc12fce58d342146e79de09d8e5
+  1.4.1--py313h4d4c3f5_0: 
+    sha256:b1c32bd3315677cbfe02628b68c1edcc2e6bc0e645be6ca11bee8259c64dd01c
 docker: quay.io/biocontainers/mumemto
 aliases:
   mumemto: /usr/local/bin/mumemto

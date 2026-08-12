@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/qpx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for qpx
 latest:
-  1.0.2--pyhdfd78af_1: 
-    sha256:cadb41be9573c08af1b64ae133aaa49e4615bdb5184b64124afd798e848f0e51
+  1.1.2--pyhdfd78af_0: 
+    sha256:518d4a067a69e389d0f21275b5b7c2c68df32a4ce24f22b15f75334271a923d4
 tags:
   1.0.2--pyhdfd78af_1: 
     sha256:cadb41be9573c08af1b64ae133aaa49e4615bdb5184b64124afd798e848f0e51
+  1.1.2--pyhdfd78af_0: 
+    sha256:518d4a067a69e389d0f21275b5b7c2c68df32a4ce24f22b15f75334271a923d4
 docker: quay.io/biocontainers/qpx
 aliases:
   qpxc: /usr/local/bin/qpxc

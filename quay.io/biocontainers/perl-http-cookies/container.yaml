@@ -3,13 +3,15 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-http-cookies
 latest:
-  6.11--pl5321hdfd78af_0: 
-    sha256:f138d7d3a364628f59d98aaa46a3cbe347c3d5cb48e043712219aa18becac638
+  6.12--pl5321hdfd78af_0: 
+    sha256:ff8825a0e6717b605900c21fccaab26433a5df250f233a392bdb1eebc5da0ddb
 tags:
   6.10--pl5321hdfd78af_0: 
     sha256:d1753480a73e8c1f2cc994782394e88709076993df4b3ecf6758ea284a9601a5
   6.11--pl5321hdfd78af_0: 
     sha256:f138d7d3a364628f59d98aaa46a3cbe347c3d5cb48e043712219aa18becac638
+  6.12--pl5321hdfd78af_0: 
+    sha256:ff8825a0e6717b605900c21fccaab26433a5df250f233a392bdb1eebc5da0ddb
 docker: quay.io/biocontainers/perl-http-cookies
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

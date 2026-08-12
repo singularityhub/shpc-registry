@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mostar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mostar
 latest:
-  1.0.1--pyhdfd78af_0: 
-    sha256:80ea18f7ba1f31d9961070586b3ad6342837c473d637f011a3b2de7e12ada758
+  1.0.4--pyhdfd78af_0: 
+    sha256:7f4aab3d3ae7bd899bb082f79953e2da93c6bead228404cde693e1bd36815365
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:80ea18f7ba1f31d9961070586b3ad6342837c473d637f011a3b2de7e12ada758
+  1.0.4--pyhdfd78af_0: 
+    sha256:7f4aab3d3ae7bd899bb082f79953e2da93c6bead228404cde693e1bd36815365
 docker: quay.io/biocontainers/mostar
 aliases:
   MitoHighConfidenceFilter: /usr/local/bin/MitoHighConfidenceFilter
