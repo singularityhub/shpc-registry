@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/qpx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qpx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qpx/container.yaml"
-updated_at: "2026-08-11 04:19:22.973438"
-latest: "1.0.2--pyhdfd78af_1"
+updated_at: "2026-08-12 04:42:26.644929"
+latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/qpx"
 aliases:
  - "qpxc"
@@ -38,8 +38,9 @@ aliases:
  - "DOMCount"
 versions:
  - "1.0.2--pyhdfd78af_1"
+ - "1.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for qpx"
-config: {"url": "https://biocontainers.pro/tools/qpx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for qpx", "latest": {"1.0.2--pyhdfd78af_1": "sha256:cadb41be9573c08af1b64ae133aaa49e4615bdb5184b64124afd798e848f0e51"}, "tags": {"1.0.2--pyhdfd78af_1": "sha256:cadb41be9573c08af1b64ae133aaa49e4615bdb5184b64124afd798e848f0e51"}, "docker": "quay.io/biocontainers/qpx", "aliases": {"qpxc": "/usr/local/bin/qpxc", "session-info": "/usr/local/bin/session-info", "session-info2": "/usr/local/bin/session-info2", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "zarr": "/usr/local/bin/zarr", "pax11publish": "/usr/local/bin/pax11publish", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount"}}
+config: {"url": "https://biocontainers.pro/tools/qpx", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for qpx", "latest": {"1.1.2--pyhdfd78af_0": "sha256:518d4a067a69e389d0f21275b5b7c2c68df32a4ce24f22b15f75334271a923d4"}, "tags": {"1.0.2--pyhdfd78af_1": "sha256:cadb41be9573c08af1b64ae133aaa49e4615bdb5184b64124afd798e848f0e51", "1.1.2--pyhdfd78af_0": "sha256:518d4a067a69e389d0f21275b5b7c2c68df32a4ce24f22b15f75334271a923d4"}, "docker": "quay.io/biocontainers/qpx", "aliases": {"qpxc": "/usr/local/bin/qpxc", "session-info": "/usr/local/bin/session-info", "session-info2": "/usr/local/bin/session-info2", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "zarr": "/usr/local/bin/zarr", "pax11publish": "/usr/local/bin/pax11publish", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qpx.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/qpx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/qpx:1.0.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/qpx:1.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/qpx/1.0.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/qpx/1.0.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/qpx/1.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/qpx/1.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

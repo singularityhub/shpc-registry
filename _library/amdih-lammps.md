@@ -4,7 +4,7 @@ name:  "amdih/lammps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/lammps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/lammps/container.yaml"
-updated_at: "2026-08-11 03:46:47.338447"
+updated_at: "2026-08-12 04:09:44.826334"
 latest: "2022.5.04_130"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/lammps"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "2022.5.04_130"
  - "2021.5.14_121"
 description: "LAMMPS is a classical molecular dynamics code with a focus on materials modeling. It's an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator."
-config: {"docker": "amdih/lammps", "url": "https://www.amd.com/en/technologies/infinity-hub/lammps", "description": "LAMMPS is a classical molecular dynamics code with a focus on materials modeling. It's an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator.", "maintainer": "@cristiandipietrantonio", "latest": {"2022.5.04_130": "sha256:d885a385d8d8c54e1ed82a6ca601f3f5db0781aa2439c01879998984e9e85b69"}, "tags": {"2022.5.04_130": "sha256:d885a385d8d8c54e1ed82a6ca601f3f5db0781aa2439c01879998984e9e85b69", "2021.5.14_121": "sha256:9479772560d24d31ef8f006e558a8a57b67ee1034776b061be5200cf3d92d9d6"}, "aliases": [{"name": "lmp", "command": "/opt/lammps/bin/lmp"}]}
+config: {"docker": "amdih/lammps", "url": "https://www.amd.com/en/technologies/infinity-hub/lammps", "description": "LAMMPS is a classical molecular dynamics code with a focus on materials modeling. It's an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator.", "maintainer": "@cristiandipietrantonio", "latest": {"2022.5.04_130": "crane digest amdih/lammps:2022.5.04_130: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "tags": {"2022.5.04_130": "crane digest amdih/lammps:2022.5.04_130: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2021.5.14_121": "crane digest amdih/lammps:2021.5.14_121: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "aliases": [{"name": "lmp", "command": "/opt/lammps/bin/lmp"}]}
 ---
 
 This module is a singularity container wrapper for amdih/lammps.

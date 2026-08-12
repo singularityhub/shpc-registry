@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/annoreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/annoreport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/annoreport/container.yaml"
-updated_at: "2026-08-11 04:00:14.307163"
+updated_at: "2026-08-12 04:44:56.109496"
 latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/annoreport"
 aliases:

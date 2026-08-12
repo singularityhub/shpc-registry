@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/basevar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/basevar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/basevar/container.yaml"
-updated_at: "2026-08-11 04:26:13.256642"
-latest: "2.6.7--hd19868c_0"
+updated_at: "2026-08-12 04:18:01.685484"
+latest: "2.6.8--hd19868c_0"
 container_url: "https://biocontainers.pro/tools/basevar"
 aliases:
  - "basevar"
@@ -16,8 +16,9 @@ aliases:
  - "tabix"
 versions:
  - "2.6.7--hd19868c_0"
+ - "2.6.8--hd19868c_0"
 description: "singularity registry hpc automated addition for basevar"
-config: {"url": "https://biocontainers.pro/tools/basevar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for basevar", "latest": {"2.6.7--hd19868c_0": "sha256:5d57032bfedf9962088d7fa6e4c2bfd901aa96626f8c04778c2d1318c4096289"}, "tags": {"2.6.7--hd19868c_0": "sha256:5d57032bfedf9962088d7fa6e4c2bfd901aa96626f8c04778c2d1318c4096289"}, "docker": "quay.io/biocontainers/basevar", "aliases": {"basevar": "/usr/local/bin/basevar", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/basevar", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for basevar", "latest": {"2.6.8--hd19868c_0": "sha256:86c039a938d39335ba12dd1101414670bc156c7aaf05af8e1d7e526b391fa84d"}, "tags": {"2.6.7--hd19868c_0": "sha256:5d57032bfedf9962088d7fa6e4c2bfd901aa96626f8c04778c2d1318c4096289", "2.6.8--hd19868c_0": "sha256:86c039a938d39335ba12dd1101414670bc156c7aaf05af8e1d7e526b391fa84d"}, "docker": "quay.io/biocontainers/basevar", "aliases": {"basevar": "/usr/local/bin/basevar", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/basevar.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/basevar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/basevar:2.6.7--hd19868c_0
+$ shpc install quay.io/biocontainers/basevar:2.6.8--hd19868c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/basevar/2.6.7--hd19868c_0
-$ module help quay.io/biocontainers/basevar/2.6.7--hd19868c_0
+$ module load quay.io/biocontainers/basevar/2.6.8--hd19868c_0
+$ module help quay.io/biocontainers/basevar/2.6.8--hd19868c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

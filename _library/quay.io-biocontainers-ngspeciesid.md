@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngspeciesid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngspeciesid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngspeciesid/container.yaml"
-updated_at: "2026-08-11 03:53:26.404213"
+updated_at: "2026-08-12 04:15:26.874729"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngspeciesid"
 aliases:

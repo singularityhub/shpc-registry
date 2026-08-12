@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iobrpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iobrpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iobrpy/container.yaml"
-updated_at: "2026-08-11 04:00:03.025685"
+updated_at: "2026-08-12 04:37:18.676720"
 latest: "0.2.0--py312hc5e4ab4_0"
 container_url: "https://biocontainers.pro/tools/iobrpy"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-http-cookies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-cookies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-cookies/container.yaml"
-updated_at: "2026-08-11 04:14:43.909201"
-latest: "6.11--pl5321hdfd78af_0"
+updated_at: "2026-08-12 04:18:09.838265"
+latest: "6.12--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-http-cookies"
 aliases:
  - "perl5.32.1"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "6.10--pl5321hdfd78af_0"
  - "6.11--pl5321hdfd78af_0"
+ - "6.12--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-http-cookies"
-config: {"url": "https://biocontainers.pro/tools/perl-http-cookies", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-cookies", "latest": {"6.11--pl5321hdfd78af_0": "sha256:f138d7d3a364628f59d98aaa46a3cbe347c3d5cb48e043712219aa18becac638"}, "tags": {"6.10--pl5321hdfd78af_0": "sha256:d1753480a73e8c1f2cc994782394e88709076993df4b3ecf6758ea284a9601a5", "6.11--pl5321hdfd78af_0": "sha256:f138d7d3a364628f59d98aaa46a3cbe347c3d5cb48e043712219aa18becac638"}, "docker": "quay.io/biocontainers/perl-http-cookies", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-http-cookies", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-cookies", "latest": {"6.12--pl5321hdfd78af_0": "sha256:ff8825a0e6717b605900c21fccaab26433a5df250f233a392bdb1eebc5da0ddb"}, "tags": {"6.10--pl5321hdfd78af_0": "sha256:d1753480a73e8c1f2cc994782394e88709076993df4b3ecf6758ea284a9601a5", "6.11--pl5321hdfd78af_0": "sha256:f138d7d3a364628f59d98aaa46a3cbe347c3d5cb48e043712219aa18becac638", "6.12--pl5321hdfd78af_0": "sha256:ff8825a0e6717b605900c21fccaab26433a5df250f233a392bdb1eebc5da0ddb"}, "docker": "quay.io/biocontainers/perl-http-cookies", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-http-cookies.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/perl-http-cookies
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-http-cookies:6.11--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-http-cookies:6.12--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-http-cookies/6.11--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-http-cookies/6.11--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-http-cookies/6.12--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-http-cookies/6.12--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dmrcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrcaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrcaller/container.yaml"
-updated_at: "2026-08-11 04:13:53.623625"
+updated_at: "2026-08-12 04:48:17.075718"
 latest: "1.32.0--r43hf17093f_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrcaller"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dapar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dapar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dapar/container.yaml"
-updated_at: "2026-08-11 03:47:51.666675"
+updated_at: "2026-08-12 04:23:21.224415"
 latest: "1.42.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dapar"
 aliases:

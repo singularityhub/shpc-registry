@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ba3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ba3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ba3/container.yaml"
-updated_at: "2026-08-11 04:20:11.907685"
-latest: "3.4.4--h193c6b0_0"
+updated_at: "2026-08-12 04:38:48.276209"
+latest: "3.4.4--h193c6b0_1"
 container_url: "https://biocontainers.pro/tools/ba3"
 aliases:
  - "BA3"
@@ -16,8 +16,9 @@ aliases:
  - "tabix"
 versions:
  - "3.4.4--h193c6b0_0"
+ - "3.4.4--h193c6b0_1"
 description: "singularity registry hpc automated addition for ba3"
-config: {"url": "https://biocontainers.pro/tools/ba3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ba3", "latest": {"3.4.4--h193c6b0_0": "sha256:04add8762ca5f91f02261a5d325847591d544ac9cf0676de51c4edf9f0dcaaf8"}, "tags": {"3.4.4--h193c6b0_0": "sha256:04add8762ca5f91f02261a5d325847591d544ac9cf0676de51c4edf9f0dcaaf8"}, "docker": "quay.io/biocontainers/ba3", "aliases": {"BA3": "/usr/local/bin/BA3", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/ba3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ba3", "latest": {"3.4.4--h193c6b0_1": "sha256:4e148dd165d89683c9ee0fea4d82583a59e532cb7706fd19e6134a2a8872b9a2"}, "tags": {"3.4.4--h193c6b0_0": "sha256:04add8762ca5f91f02261a5d325847591d544ac9cf0676de51c4edf9f0dcaaf8", "3.4.4--h193c6b0_1": "sha256:4e148dd165d89683c9ee0fea4d82583a59e532cb7706fd19e6134a2a8872b9a2"}, "docker": "quay.io/biocontainers/ba3", "aliases": {"BA3": "/usr/local/bin/BA3", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ba3.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/ba3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ba3:3.4.4--h193c6b0_0
+$ shpc install quay.io/biocontainers/ba3:3.4.4--h193c6b0_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ba3/3.4.4--h193c6b0_0
-$ module help quay.io/biocontainers/ba3/3.4.4--h193c6b0_0
+$ module load quay.io/biocontainers/ba3/3.4.4--h193c6b0_1
+$ module help quay.io/biocontainers/ba3/3.4.4--h193c6b0_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
