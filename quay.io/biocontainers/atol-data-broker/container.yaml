@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/atol-data-broker
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for atol-data-broker
+latest:
+  0.1.2--pyhdfd78af_0: 
+    sha256:4b1aabad39552b5f50a087b9c4b5d8d79b8124a80e4f5c4e0afb45ee43eb2130
+tags:
+  0.1.2--pyhdfd78af_0: 
+    sha256:4b1aabad39552b5f50a087b9c4b5d8d79b8124a80e4f5c4e0afb45ee43eb2130
+docker: quay.io/biocontainers/atol-data-broker
+aliases:
+  broker: /usr/local/bin/broker
+  dotenv: /usr/local/bin/dotenv
+  idna: /usr/local/bin/idna
+  httpx: /usr/local/bin/httpx
+  typer: /usr/local/bin/typer
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  pygmentize: /usr/local/bin/pygmentize
