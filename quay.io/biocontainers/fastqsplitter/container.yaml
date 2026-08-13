@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/fastqsplitter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fastqsplitter
 latest:
-  1.2.0--py312h0fa9677_8: 
-    sha256:71904efac84a1227ef551ba2a82e20f68ed6ad1552b54fe7b041a47e91551f45
+  1.2.0--py312hfabe715_9: 
+    sha256:77762f7c05bdaab8985c50b580bc88f02422f38712f930ef84954db8d76d618a
 tags:
   1.2.0--py38hbff2b2d_3: 
     sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a
@@ -17,6 +17,8 @@ tags:
     sha256:a439a9c5b2ed9a76df0d85cb7ddea2dc5e75dbc576dee39754ac57e7795f2343
   1.2.0--py312h0fa9677_8: 
     sha256:71904efac84a1227ef551ba2a82e20f68ed6ad1552b54fe7b041a47e91551f45
+  1.2.0--py312hfabe715_9: 
+    sha256:77762f7c05bdaab8985c50b580bc88f02422f38712f930ef84954db8d76d618a
 docker: quay.io/biocontainers/fastqsplitter
 aliases:
   fastqsplitter: /usr/local/bin/fastqsplitter

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/snakefmt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for snakefmt
 latest:
-  2.0.3--pyhdfd78af_0: 
-    sha256:a4291a94518b5a061ef2ff66609174f21cb0a1fb2afff60db53c52d8434c57f5
+  2.0.3--pyhdfd78af_1: 
+    sha256:c2016440c3f335f53d5065fa9c191738d73ff28bd53d023f7edf581bea97110e
 tags:
   0.6.1--pyhdfd78af_0: 
     sha256:9d7d016c142dab89a2f02835c2ff74f2d523557570c6346536fbf0010d8f7ae8
@@ -41,6 +41,8 @@ tags:
     sha256:96ec6f2f47bb2714758a2db2790ce2319030db69b77829a26502dddda1dc5218
   2.0.3--pyhdfd78af_0: 
     sha256:a4291a94518b5a061ef2ff66609174f21cb0a1fb2afff60db53c52d8434c57f5
+  2.0.3--pyhdfd78af_1: 
+    sha256:c2016440c3f335f53d5065fa9c191738d73ff28bd53d023f7edf581bea97110e
 docker: quay.io/biocontainers/snakefmt
 aliases:
   black: /usr/local/bin/black

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/lotus2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lotus2
 latest:
-  2.34.1--hdfd78af_1: 
-    sha256:c43ec0a304edf1b845a9d7cf61f0b35c14fce52ea6cef2c2d6ed5965fef243e4
+  2.34.1--hdfd78af_2: 
+    sha256:e97c3d329cafc979bdb316e878817bee226fda27ca82ec146d1246e47687ca65
 tags:
   2.21--hdfd78af_0: 
     sha256:bbcf2903a884af263aba5f55020c29dcb68749fa51873d59d0959737a6400f4d
@@ -31,6 +31,8 @@ tags:
     sha256:824a4178cedc1e8eac7f90a4998c28fb2c6a90d936627568e73a2eac364dfa33
   2.34.1--hdfd78af_1: 
     sha256:c43ec0a304edf1b845a9d7cf61f0b35c14fce52ea6cef2c2d6ed5965fef243e4
+  2.34.1--hdfd78af_2: 
+    sha256:e97c3d329cafc979bdb316e878817bee226fda27ca82ec146d1246e47687ca65
 docker: quay.io/biocontainers/lotus2
 aliases:
   ITSx: /usr/local/bin/ITSx

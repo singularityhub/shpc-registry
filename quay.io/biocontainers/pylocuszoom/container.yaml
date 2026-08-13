@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pylocuszoom
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pylocuszoom
 latest:
-  1.4.1--pyhdfd78af_0: 
-    sha256:542fd5ac8f0c444e63ebf09a7955760430c31cace99921cee78d55d4bea99b88
+  2.1.1--pyhdfd78af_0: 
+    sha256:d808d8610251a0b8bfd80411be6ea947bf51f9fab5e94be05bf207dfcb0c287c
 tags:
   1.3.2--pyhdfd78af_0: 
     sha256:56a1f17eab1c468e9d030117d740babd478f58490c73474422b4e7c5b2e0a696
@@ -15,6 +15,10 @@ tags:
     sha256:216ba0b7183dc1162f5b552c4c45d6e525cc14db54580c53798a30c447af02da
   1.4.1--pyhdfd78af_0: 
     sha256:542fd5ac8f0c444e63ebf09a7955760430c31cace99921cee78d55d4bea99b88
+  2.1.1--pyhdfd78af_0: 
+    sha256:d808d8610251a0b8bfd80411be6ea947bf51f9fab5e94be05bf207dfcb0c287c
+  2.0.0--pyhdfd78af_0: 
+    sha256:4016a30282e7895d0f9009761c671fcefb2ec1329ee60b200dd601de447f6251
 docker: quay.io/biocontainers/pylocuszoom
 aliases:
   choreo_diagnose: /usr/local/bin/choreo_diagnose

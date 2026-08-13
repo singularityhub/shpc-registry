@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/itbins
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for itbins
 latest:
-  0.8.4--pyhdfd78af_0: 
-    sha256:0d7f6dca45dcacd1ec197afbf7e63ff6ec5f7c45dde62ca1deed6d6cd540f5b1
+  0.11.0--pyhdfd78af_0: 
+    sha256:aed938582ad52c531f3c2bb32c4443744a371c5c00bdd0548f9c3fb06200050d
 tags:
   0.8.4--pyhdfd78af_0: 
     sha256:0d7f6dca45dcacd1ec197afbf7e63ff6ec5f7c45dde62ca1deed6d6cd540f5b1
+  0.11.0--pyhdfd78af_0: 
+    sha256:aed938582ad52c531f3c2bb32c4443744a371c5c00bdd0548f9c3fb06200050d
 docker: quay.io/biocontainers/itbins
 aliases:
   itbins: /usr/local/bin/itbins

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/usearch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for usearch
 latest:
-  12.0_beta--h9ee0642_1: 
-    sha256:9c78816e17a25875585203153578319983c7444fa26da5d86fa3d00c85f0fead
+  12.0_beta--h9ee0642_2: 
+    sha256:483db027d63ab538b124b0262306518fa42d6c5345e526e7e3f878e41e5528c4
 tags:
   12.0_beta--h9ee0642_1: 
     sha256:9c78816e17a25875585203153578319983c7444fa26da5d86fa3d00c85f0fead
+  12.0_beta--h9ee0642_2: 
+    sha256:483db027d63ab538b124b0262306518fa42d6c5345e526e7e3f878e41e5528c4
 docker: quay.io/biocontainers/usearch
 aliases:
   usearch: /usr/local/bin/usearch
