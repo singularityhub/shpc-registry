@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/foci-3d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foci-3d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foci-3d/container.yaml"
-updated_at: "2026-08-12 04:46:34.270172"
+updated_at: "2026-08-13 05:07:43.449254"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/foci-3d"
 aliases:

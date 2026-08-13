@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/usearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/usearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/usearch/container.yaml"
-updated_at: "2026-08-12 04:30:42.079260"
-latest: "12.0_beta--h9ee0642_1"
+updated_at: "2026-08-13 05:14:57.353876"
+latest: "12.0_beta--h9ee0642_2"
 container_url: "https://biocontainers.pro/tools/usearch"
 aliases:
  - "usearch"
 versions:
  - "12.0_beta--h9ee0642_1"
+ - "12.0_beta--h9ee0642_2"
 description: "singularity registry hpc automated addition for usearch"
-config: {"url": "https://biocontainers.pro/tools/usearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for usearch", "latest": {"12.0_beta--h9ee0642_1": "sha256:9c78816e17a25875585203153578319983c7444fa26da5d86fa3d00c85f0fead"}, "tags": {"12.0_beta--h9ee0642_1": "sha256:9c78816e17a25875585203153578319983c7444fa26da5d86fa3d00c85f0fead"}, "docker": "quay.io/biocontainers/usearch", "aliases": {"usearch": "/usr/local/bin/usearch"}}
+config: {"url": "https://biocontainers.pro/tools/usearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for usearch", "latest": {"12.0_beta--h9ee0642_2": "sha256:483db027d63ab538b124b0262306518fa42d6c5345e526e7e3f878e41e5528c4"}, "tags": {"12.0_beta--h9ee0642_1": "sha256:9c78816e17a25875585203153578319983c7444fa26da5d86fa3d00c85f0fead", "12.0_beta--h9ee0642_2": "sha256:483db027d63ab538b124b0262306518fa42d6c5345e526e7e3f878e41e5528c4"}, "docker": "quay.io/biocontainers/usearch", "aliases": {"usearch": "/usr/local/bin/usearch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/usearch.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/usearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/usearch:12.0_beta--h9ee0642_1
+$ shpc install quay.io/biocontainers/usearch:12.0_beta--h9ee0642_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/usearch/12.0_beta--h9ee0642_1
-$ module help quay.io/biocontainers/usearch/12.0_beta--h9ee0642_1
+$ module load quay.io/biocontainers/usearch/12.0_beta--h9ee0642_2
+$ module help quay.io/biocontainers/usearch/12.0_beta--h9ee0642_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

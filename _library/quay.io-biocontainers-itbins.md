@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/itbins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itbins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itbins/container.yaml"
-updated_at: "2026-08-12 04:54:00.300323"
-latest: "0.8.4--pyhdfd78af_0"
+updated_at: "2026-08-13 04:32:25.348190"
+latest: "0.11.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/itbins"
 aliases:
  - "itbins"
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.8.4--pyhdfd78af_0"
+ - "0.11.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for itbins"
-config: {"url": "https://biocontainers.pro/tools/itbins", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for itbins", "latest": {"0.8.4--pyhdfd78af_0": "sha256:0d7f6dca45dcacd1ec197afbf7e63ff6ec5f7c45dde62ca1deed6d6cd540f5b1"}, "tags": {"0.8.4--pyhdfd78af_0": "sha256:0d7f6dca45dcacd1ec197afbf7e63ff6ec5f7c45dde62ca1deed6d6cd540f5b1"}, "docker": "quay.io/biocontainers/itbins", "aliases": {"itbins": "/usr/local/bin/itbins", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/itbins", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for itbins", "latest": {"0.11.0--pyhdfd78af_0": "sha256:aed938582ad52c531f3c2bb32c4443744a371c5c00bdd0548f9c3fb06200050d"}, "tags": {"0.8.4--pyhdfd78af_0": "sha256:0d7f6dca45dcacd1ec197afbf7e63ff6ec5f7c45dde62ca1deed6d6cd540f5b1", "0.11.0--pyhdfd78af_0": "sha256:aed938582ad52c531f3c2bb32c4443744a371c5c00bdd0548f9c3fb06200050d"}, "docker": "quay.io/biocontainers/itbins", "aliases": {"itbins": "/usr/local/bin/itbins", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itbins.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/itbins
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/itbins:0.8.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/itbins:0.11.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/itbins/0.8.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/itbins/0.8.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/itbins/0.11.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/itbins/0.11.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

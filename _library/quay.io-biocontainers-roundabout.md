@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/roundabout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/roundabout/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/roundabout/container.yaml"
-updated_at: "2026-08-12 04:55:24.524231"
+updated_at: "2026-08-13 04:49:07.826578"
 latest: "0.7.26160--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/roundabout"
 aliases:

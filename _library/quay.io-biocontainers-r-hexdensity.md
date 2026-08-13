@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hexdensity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hexdensity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hexdensity/container.yaml"
-updated_at: "2026-08-12 04:52:24.350287"
+updated_at: "2026-08-13 05:06:17.314518"
 latest: "1.4.10--r45h14226c6_0"
 container_url: "https://biocontainers.pro/tools/r-hexdensity"
 aliases:

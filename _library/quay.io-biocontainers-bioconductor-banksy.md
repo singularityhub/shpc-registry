@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-banksy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-banksy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-banksy/container.yaml"
-updated_at: "2026-08-12 04:41:18.716963"
+updated_at: "2026-08-13 04:59:07.227665"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-banksy"
 aliases:

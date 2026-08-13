@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/clawbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clawbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clawbio/container.yaml"
-updated_at: "2026-08-12 04:35:37.889367"
-latest: "0.5.2--pyh106432d_0"
+updated_at: "2026-08-13 04:51:46.846768"
+latest: "0.6.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/clawbio"
 aliases:
  - "clawbio"
@@ -46,8 +46,9 @@ aliases:
  - "doesitcache"
 versions:
  - "0.5.2--pyh106432d_0"
+ - "0.6.1--pyh106432d_0"
 description: "singularity registry hpc automated addition for clawbio"
-config: {"url": "https://biocontainers.pro/tools/clawbio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clawbio", "latest": {"0.5.2--pyh106432d_0": "sha256:2c09c6d88e664c7762f5cb31e0824cea0aeb4e0ea2810277dabb6f4b71a5d9fe"}, "tags": {"0.5.2--pyh106432d_0": "sha256:2c09c6d88e664c7762f5cb31e0824cea0aeb4e0ea2810277dabb6f4b71a5d9fe"}, "docker": "quay.io/biocontainers/clawbio", "aliases": {"clawbio": "/usr/local/bin/clawbio", "conda-lock": "/usr/local/bin/conda-lock", "dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "ensureconda": "/usr/local/bin/ensureconda", "pyproject-build": "/usr/local/bin/pyproject-build", "pysemver": "/usr/local/bin/pysemver", "python-build": "/usr/local/bin/python-build", "rocrate": "/usr/local/bin/rocrate", "trove-classifiers": "/usr/local/bin/trove-classifiers", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "session-info2": "/usr/local/bin/session-info2", "pkginfo": "/usr/local/bin/pkginfo", "pyjson5": "/usr/local/bin/pyjson5", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "jupyter-server": "/usr/local/bin/jupyter-server", "session-info": "/usr/local/bin/session-info", "distro": "/usr/local/bin/distro", "debugpy": "/usr/local/bin/debugpy", "jupyter-console": "/usr/local/bin/jupyter-console", "keyring": "/usr/local/bin/keyring", "virtualenv": "/usr/local/bin/virtualenv", "idna": "/usr/local/bin/idna", "zarr": "/usr/local/bin/zarr", "jsonpointer": "/usr/local/bin/jsonpointer", "send2trash": "/usr/local/bin/send2trash", "wsdump": "/usr/local/bin/wsdump", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "doesitcache": "/usr/local/bin/doesitcache"}}
+config: {"url": "https://biocontainers.pro/tools/clawbio", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for clawbio", "latest": {"0.6.1--pyh106432d_0": "sha256:7c20549b748d3de3409c7ed4e9ecb4dd3e1bcd3e53ec89f7059c30441ff7f57d"}, "tags": {"0.5.2--pyh106432d_0": "sha256:2c09c6d88e664c7762f5cb31e0824cea0aeb4e0ea2810277dabb6f4b71a5d9fe", "0.6.1--pyh106432d_0": "sha256:7c20549b748d3de3409c7ed4e9ecb4dd3e1bcd3e53ec89f7059c30441ff7f57d"}, "docker": "quay.io/biocontainers/clawbio", "aliases": {"clawbio": "/usr/local/bin/clawbio", "conda-lock": "/usr/local/bin/conda-lock", "dul-receive-pack": "/usr/local/bin/dul-receive-pack", "dul-upload-pack": "/usr/local/bin/dul-upload-pack", "dulwich": "/usr/local/bin/dulwich", "ensureconda": "/usr/local/bin/ensureconda", "pyproject-build": "/usr/local/bin/pyproject-build", "pysemver": "/usr/local/bin/pysemver", "python-build": "/usr/local/bin/python-build", "rocrate": "/usr/local/bin/rocrate", "trove-classifiers": "/usr/local/bin/trove-classifiers", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "session-info2": "/usr/local/bin/session-info2", "pkginfo": "/usr/local/bin/pkginfo", "pyjson5": "/usr/local/bin/pyjson5", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "jupyter-server": "/usr/local/bin/jupyter-server", "session-info": "/usr/local/bin/session-info", "distro": "/usr/local/bin/distro", "debugpy": "/usr/local/bin/debugpy", "jupyter-console": "/usr/local/bin/jupyter-console", "keyring": "/usr/local/bin/keyring", "virtualenv": "/usr/local/bin/virtualenv", "idna": "/usr/local/bin/idna", "zarr": "/usr/local/bin/zarr", "jsonpointer": "/usr/local/bin/jsonpointer", "send2trash": "/usr/local/bin/send2trash", "wsdump": "/usr/local/bin/wsdump", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "doesitcache": "/usr/local/bin/doesitcache"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clawbio.
@@ -62,7 +63,7 @@ $ shpc install quay.io/biocontainers/clawbio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/clawbio:0.5.2--pyh106432d_0
+$ shpc install quay.io/biocontainers/clawbio:0.6.1--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -74,8 +75,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/clawbio/0.5.2--pyh106432d_0
-$ module help quay.io/biocontainers/clawbio/0.5.2--pyh106432d_0
+$ module load quay.io/biocontainers/clawbio/0.6.1--pyh106432d_0
+$ module help quay.io/biocontainers/clawbio/0.6.1--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
