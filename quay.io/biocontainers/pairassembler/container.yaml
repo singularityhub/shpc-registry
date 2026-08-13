@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/pairassembler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pairassembler
+latest:
+  0.1.4--hfa8f182_0: 
+    sha256:556cd23dc808c076becefc6ae374b0356457d7ebe664eeaa9296da31382c32d1
+tags:
+  0.1.4--hfa8f182_0: 
+    sha256:556cd23dc808c076becefc6ae374b0356457d7ebe664eeaa9296da31382c32d1
+docker: quay.io/biocontainers/pairassembler
+aliases:
+  pairasm: /usr/local/bin/pairasm

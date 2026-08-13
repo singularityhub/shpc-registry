@@ -1,0 +1,45 @@
+url: https://biocontainers.pro/tools/vatools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for vatools
+latest:
+  6.0.1--pyhdfd78af_0: 
+    sha256:8728763f948ebf13b06a2230936f032ac124345413657c48454eb1ed4db9efd9
+tags:
+  6.0.1--pyhdfd78af_0: 
+    sha256:8728763f948ebf13b06a2230936f032ac124345413657c48454eb1ed4db9efd9
+docker: quay.io/biocontainers/vatools
+aliases:
+  ref-transcript-mismatch-reporter: 
+    /usr/local/bin/ref-transcript-mismatch-reporter
+  transform-split-values: /usr/local/bin/transform-split-values
+  vcf-expression-annotator: /usr/local/bin/vcf-expression-annotator
+  vcf-genotype-annotator: /usr/local/bin/vcf-genotype-annotator
+  vcf-info-annotator: /usr/local/bin/vcf-info-annotator
+  vcf-readcount-annotator: /usr/local/bin/vcf-readcount-annotator
+  vep-annotation-reporter: /usr/local/bin/vep-annotation-reporter
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  elastishadow: /usr/local/bin/elastishadow
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump
+  orc-contents: /usr/local/bin/orc-contents
+  orc-metadata: /usr/local/bin/orc-metadata
+  orc-statistics: /usr/local/bin/orc-statistics
+  gflags_completions.sh: /usr/local/bin/gflags_completions.sh
+  elasticurl: /usr/local/bin/elasticurl

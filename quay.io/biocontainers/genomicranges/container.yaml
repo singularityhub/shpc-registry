@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/genomicranges
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genomicranges
+latest:
+  0.8.4--pyh106432d_0: 
+    sha256:fda694cab9f08785ec66e714a3bf1db0304ff1b5fbc9395268296a8ac6c0c4fc
+tags:
+  0.8.4--pyh106432d_0: 
+    sha256:fda694cab9f08785ec66e714a3bf1db0304ff1b5fbc9395268296a8ac6c0c4fc
+docker: quay.io/biocontainers/genomicranges
+aliases:
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config

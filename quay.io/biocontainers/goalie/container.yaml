@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/goalie
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for goalie
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:ffcd8d8ce3e72fda1b8ba955bb6908b6b9f12b159cc3ff13fb626cd6873864be
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:ffcd8d8ce3e72fda1b8ba955bb6908b6b9f12b159cc3ff13fb626cd6873864be
+docker: quay.io/biocontainers/goalie
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

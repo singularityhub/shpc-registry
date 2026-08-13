@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/syntactic
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for syntactic
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:50ebca2a1a232c9412d45055b8fb6ce98e0164e2cc4b8b2dc0a9d76eebe15b4f
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:50ebca2a1a232c9412d45055b8fb6ce98e0164e2cc4b8b2dc0a9d76eebe15b4f
+docker: quay.io/biocontainers/syntactic
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
