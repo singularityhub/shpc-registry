@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/picard-slim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for picard-slim
 latest:
-  3.4.0--hdfd78af_0: 
-    sha256:c1100c3aa5ea7f7ed0781fa31e1568be39168f6d2a5d91a78b12709026b29e1f
+  3.5.0--hdfd78af_0: 
+    sha256:7e99bdab2fe9fb866f913dd4a76780e83dae12e1fff3f16b4e59be1dafe10422
 tags:
   2.26.2--hdfd78af_0: 
     sha256:3957b0cf7b54a5f3794f88efdb3789962f1a49e591ffe13c5ded998ee462ef66
@@ -21,6 +21,8 @@ tags:
     sha256:f70e7efab46b886b176346df3fa5ecdf1ccf2f046758b9881a5afa0cc289f07a
   3.4.0--hdfd78af_0: 
     sha256:c1100c3aa5ea7f7ed0781fa31e1568be39168f6d2a5d91a78b12709026b29e1f
+  3.5.0--hdfd78af_0: 
+    sha256:7e99bdab2fe9fb866f913dd4a76780e83dae12e1fff3f16b4e59be1dafe10422
 docker: quay.io/biocontainers/picard-slim
 aliases:
   picard: /usr/local/bin/picard

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/eukdetect
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for eukdetect
 latest:
-  2.0.1--pyhdfd78af_0: 
-    sha256:602508de487438bf7d4479b8094180443c5afa40becad7e3af4f179336c485f1
+  2.0.2--pyhdfd78af_0: 
+    sha256:0d3d017299556072bd1196d5f3511f91ca5c14088436b4ebc4d13e68c30e5f08
 tags:
   2.0.0--pyhdfd78af_0: 
     sha256:11136aa1bfcb3294e49055d12b4d2e174e268a9770dcf66dfd42103b03a9d2a2
   2.0.1--pyhdfd78af_0: 
     sha256:602508de487438bf7d4479b8094180443c5afa40becad7e3af4f179336c485f1
+  2.0.2--pyhdfd78af_0: 
+    sha256:0d3d017299556072bd1196d5f3511f91ca5c14088436b4ebc4d13e68c30e5f08
 docker: quay.io/biocontainers/eukdetect
 aliases:
   eukdetect: /usr/local/bin/eukdetect

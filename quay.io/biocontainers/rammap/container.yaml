@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rammap
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rammap
 latest:
-  1.1.1--hfa8f182_0: 
-    sha256:ffe27e664d0afe0ee0007bcff3a2c03ee4d160ba4099e54e080178067baad3f0
+  1.1.2--hfa8f182_0: 
+    sha256:c2a3bc29da2f0d336645a493ec7d93b1f242f37c188e8ec761a61b9b27a92d02
 tags:
   1.1.1--hfa8f182_0: 
     sha256:ffe27e664d0afe0ee0007bcff3a2c03ee4d160ba4099e54e080178067baad3f0
+  1.1.2--hfa8f182_0: 
+    sha256:c2a3bc29da2f0d336645a493ec7d93b1f242f37c188e8ec761a61b9b27a92d02
 docker: quay.io/biocontainers/rammap
 aliases:
   rammap: /usr/local/bin/rammap

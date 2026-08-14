@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/impg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for impg
 latest:
-  0.3.3--hdb3fbb7_0: 
-    sha256:7eb0189e6ad83dd172793d99d3e5fd9e884ef8ecf63d1f8ff3c4fb17c947065b
+  0.5.0--h57f8f1b_0: 
+    sha256:58028253f038704b6ca9c022bc1c950fd61aa4abd214034f43a8f315f54cc54e
 tags:
   0.2.0--h4349ce8_0: 
     sha256:6cdafc0ab3c61e21416922011fd5a3a0a4c1d747503bacd3d9f70e6fa99b02ae
@@ -21,6 +21,8 @@ tags:
     sha256:a3524e88cef7b157b13973e5497b0d53bf2374ba46e63b69857871a9137a2a90
   0.3.3--hdb3fbb7_0: 
     sha256:7eb0189e6ad83dd172793d99d3e5fd9e884ef8ecf63d1f8ff3c4fb17c947065b
+  0.5.0--h57f8f1b_0: 
+    sha256:58028253f038704b6ca9c022bc1c950fd61aa4abd214034f43a8f315f54cc54e
 docker: quay.io/biocontainers/impg
 aliases:
   impg: /usr/local/bin/impg

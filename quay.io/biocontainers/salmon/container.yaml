@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/salmon
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for salmon
 latest:
-  2.3.3--hfa8f182_0: 
-    sha256:5942663cf6bf5dfe6db86d66cc5d0913a621b74f5a0a522a951c744b96e10d67
+  2.5.1--hfa8f182_0: 
+    sha256:bbddaa6df7a4aae7d7a327a937641313a97f5a271be7d34be927c343344f13b8
 tags:
   1.4.0--h84f40af_1: 
     sha256:bad1f9d2ffeac08bf7087d706634f7724f978c4ba6f9c26eddca5aad004c8e4c
@@ -47,6 +47,12 @@ tags:
     sha256:0bac0b821bee78cf9d532f829b8586661df4421d5426ed7e0318c814d7aa2745
   1.12.1--h017bda4_0: 
     sha256:5fb29c4024dcab4cf36cab326c60f06f3a5ae99bf99921954ba0475a5dee9b14
+  2.5.1--hfa8f182_0: 
+    sha256:bbddaa6df7a4aae7d7a327a937641313a97f5a271be7d34be927c343344f13b8
+  2.4.1--hfa8f182_0: 
+    sha256:21d0619bb0bf5802e40a8e0e3510ec61312bffa6decc6662e42382cc8cd7ec7d
+  2.3.4--hfa8f182_0: 
+    sha256:b30009a53b29f76c863f7f8557539ca967b0a79f11d423867eeb83f9c164d6b0
 docker: quay.io/biocontainers/salmon
 aliases:
   salmon: /usr/local/bin/salmon

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/taxutils
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for taxutils
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:e8a0c4aac7e4cf6fb8a17d28c71ddb31ad99d5cfc790f772c9e3f9c3f739bd23
+  1.0.3--pyhdfd78af_0: 
+    sha256:910ebf7deee86e581b04bd719951cc938aed55824fc05068886d0faffeee589e
 tags:
   1.0.1--pyhdfd78af_0: 
     sha256:69aaa4e5ecbe5f95dc17426c734c63bf764aa5e783c0c41245e329168b366aed
   1.0.2--pyhdfd78af_0: 
     sha256:e8a0c4aac7e4cf6fb8a17d28c71ddb31ad99d5cfc790f772c9e3f9c3f739bd23
+  1.0.3--pyhdfd78af_0: 
+    sha256:910ebf7deee86e581b04bd719951cc938aed55824fc05068886d0faffeee589e
 docker: quay.io/biocontainers/taxutils
 aliases:
   idle3.14: /usr/local/bin/idle3.14

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/janusx
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for janusx
 latest:
-  1.0.25--py310h9fb556b_0: 
-    sha256:2db109b8d44e0a1be6c6e9b61c1571788f816b8aa3cff1aa1b2c093a9cd65153
+  1.0.27--py310h9fb556b_0: 
+    sha256:9278856dd3add088eb116d1e166ce8b44e8b9f91cb602fdf9dc0056483d11a58
 tags:
   1.0.20--py310h83f8559_0: 
     sha256:aca177dc764d6d3beec5aeaa6273ec366673d4ce157343a7f0633d87e01e43d5
@@ -11,6 +11,8 @@ tags:
     sha256:71c2678134c2b51fb33708d9711a47094ff6f55ecece0bbb329be92e6f073621
   1.0.25--py310h9fb556b_0: 
     sha256:2db109b8d44e0a1be6c6e9b61c1571788f816b8aa3cff1aa1b2c093a9cd65153
+  1.0.27--py310h9fb556b_0: 
+    sha256:9278856dd3add088eb116d1e166ce8b44e8b9f91cb602fdf9dc0056483d11a58
 docker: quay.io/biocontainers/janusx
 aliases:
   jx: /usr/local/bin/jx
