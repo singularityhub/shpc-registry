@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpick/container.yaml"
-updated_at: "2026-08-14 04:21:47.498178"
+updated_at: "2026-08-14 07:41:02.286336"
 latest: "1.0.1--hf029dc3_0"
 container_url: "https://biocontainers.pro/tools/snpick"
 aliases:

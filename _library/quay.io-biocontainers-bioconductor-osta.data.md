@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-osta.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-osta.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-osta.data/container.yaml"
-updated_at: "2026-08-14 04:27:30.591036"
+updated_at: "2026-08-14 07:47:42.265393"
 latest: "1.2.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-osta.data"
 aliases:

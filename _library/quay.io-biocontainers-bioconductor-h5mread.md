@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-h5mread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-h5mread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-h5mread/container.yaml"
-updated_at: "2026-08-14 04:43:27.534561"
+updated_at: "2026-08-14 08:07:49.335351"
 latest: "1.2.1--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-h5mread"
 aliases:

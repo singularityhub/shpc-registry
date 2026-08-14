@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fraposa-pgsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fraposa-pgsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fraposa-pgsc/container.yaml"
-updated_at: "2026-08-14 04:58:22.742346"
+updated_at: "2026-08-14 08:26:43.632219"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fraposa-pgsc"
 aliases:

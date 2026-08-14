@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-primirtss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-primirtss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-primirtss/container.yaml"
-updated_at: "2026-08-14 04:55:40.794207"
+updated_at: "2026-08-14 08:23:21.424126"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-primirtss"
 aliases:

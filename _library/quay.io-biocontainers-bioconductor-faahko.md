@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-faahko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-faahko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-faahko/container.yaml"
-updated_at: "2026-08-14 04:52:43.588944"
+updated_at: "2026-08-14 08:19:31.412615"
 latest: "1.46.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-faahko"
 aliases:
