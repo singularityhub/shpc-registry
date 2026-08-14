@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   esme_hdf5_psmpi_4_3_2
 latest:
-  2.0.0--h9d8eea5_0: 
-    sha256:c7a80abc74cf113d9bd4b4327d1b67999ad9deab90bcbb00ea9bf77b253f6a2f
+  2.0.0--h77913a6_1: 
+    sha256:00d646a78969a8bb14f3e87c3da6c68806230a0be5bc60d8e0d2a292a772354e
 tags:
   2.0.0--h9d8eea5_0: 
     sha256:c7a80abc74cf113d9bd4b4327d1b67999ad9deab90bcbb00ea9bf77b253f6a2f
+  2.0.0--h77913a6_1: 
+    sha256:00d646a78969a8bb14f3e87c3da6c68806230a0be5bc60d8e0d2a292a772354e
 docker: quay.io/biocontainers/esme_hdf5_psmpi_4_3_2
 aliases:
   chacl: /usr/local/bin/chacl

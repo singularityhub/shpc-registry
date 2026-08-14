@@ -4,11 +4,11 @@ maintainer: '@HasseJohansen'
 description: Jupyter Datascience Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2026-07-13': 
-    sha256:bd4536cc95e683c2458434c6ba2675ade1af6d6df20b93c66f1749b40819c047
+  '2026-08-10': 
+    sha256:451375efe9ebacb45ca0b64a920ef0fc89eed14e77642c04d434b0220a9ad490
 tags:
   latest: 
-    sha256:bd4536cc95e683c2458434c6ba2675ade1af6d6df20b93c66f1749b40819c047
+    sha256:451375efe9ebacb45ca0b64a920ef0fc89eed14e77642c04d434b0220a9ad490
   '2025-05-26': 
     sha256:47a4ffb2783c68ffdb83ae0cf9d749aa70725987a69d26ce7109cbd0f77984a8
   '2025-06-02': 
@@ -77,6 +77,10 @@ tags:
     sha256:bd4536cc95e683c2458434c6ba2675ade1af6d6df20b93c66f1749b40819c047
   '2026-04-23': 
     sha256:c9f5f5934471281fe53bf56699b1400dfebd0b27273215e82d849f1b51807d11
+  '2026-08-10': 
+    sha256:451375efe9ebacb45ca0b64a920ef0fc89eed14e77642c04d434b0220a9ad490
+  '2026-07-28': 
+    sha256:941b58f28497ca621154ddb3ae52a2a5e2b59f8e07fa42d13cd48e4145daa0ae
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

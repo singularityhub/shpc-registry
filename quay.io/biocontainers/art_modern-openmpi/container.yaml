@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/art_modern-openmpi
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for art_modern-openmpi
 latest:
-  1.5.0--h7ccb3a4_0: 
-    sha256:b62869fcb6311a12fe16d38ee8db3300098395a8d21a3c5dc3b14c13cf995996
+  1.5.1--h7ccb3a4_0: 
+    sha256:ab49e444650fa2a4ff93ef096eeb3771f4b6e1e59d3b1468534b16a03bbaca19
 tags:
   1.2.0--haa063eb_0: 
     sha256:43b3903bf10542c694a14d2e84ba406199b0fb6da400046b0af5ea07f5eb3332
@@ -19,6 +19,8 @@ tags:
     sha256:b62869fcb6311a12fe16d38ee8db3300098395a8d21a3c5dc3b14c13cf995996
   1.4.1--h7ccb3a4_0: 
     sha256:b362f17b748e7c27f0d4b0d2756c0b9edab585ce0fc6981f782c37e3db07327e
+  1.5.1--h7ccb3a4_0: 
+    sha256:ab49e444650fa2a4ff93ef096eeb3771f4b6e1e59d3b1468534b16a03bbaca19
 docker: quay.io/biocontainers/art_modern-openmpi
 aliases:
   art_modern-mpi: /usr/local/bin/art_modern-mpi

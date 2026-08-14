@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/assaycode
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for assaycode
 latest:
-  0.2.0--hdfd78af_0: 
-    sha256:d8456fd511fb7eabdd726d734120a963f8a70a94dbb82c2874f5a4ef492ba6a3
+  0.2.2--hdfd78af_0: 
+    sha256:2aca22053cb2627123c9399fa5d4a2fb14e808115cf1e80014c84c1df06561bd
 tags:
   0.2.0--hdfd78af_0: 
     sha256:d8456fd511fb7eabdd726d734120a963f8a70a94dbb82c2874f5a4ef492ba6a3
+  0.2.2--hdfd78af_0: 
+    sha256:2aca22053cb2627123c9399fa5d4a2fb14e808115cf1e80014c84c1df06561bd
 docker: quay.io/biocontainers/assaycode
 aliases:
   assaycode: /usr/local/bin/assaycode

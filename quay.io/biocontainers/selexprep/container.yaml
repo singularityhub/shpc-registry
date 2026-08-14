@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/selexprep
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for selexprep
 latest:
-  0.3.0--pyhdfd78af_0: 
-    sha256:dec4cdb7a866d7fbb742a72eceb72f074f588733042d9161b08e5519c1afe8e6
+  0.4.0--pyhdfd78af_0: 
+    sha256:130cccc258d118e5dca435484905c4e35b56671d8fbe6e19b8aa8e42dba6ebe1
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:42b77130f6f01c09bf1e10cac72bda50645a723f2d02f1ba003bcc18e7d32f09
@@ -11,6 +11,8 @@ tags:
     sha256:dec4cdb7a866d7fbb742a72eceb72f074f588733042d9161b08e5519c1afe8e6
   0.2.1--pyhdfd78af_0: 
     sha256:8b16c9213eb7e62be3aea41bd9d8b537c7618c2479de06a4ed68427821da186a
+  0.4.0--pyhdfd78af_0: 
+    sha256:130cccc258d118e5dca435484905c4e35b56671d8fbe6e19b8aa8e42dba6ebe1
 docker: quay.io/biocontainers/selexprep
 aliases:
   selexprep: /usr/local/bin/selexprep
