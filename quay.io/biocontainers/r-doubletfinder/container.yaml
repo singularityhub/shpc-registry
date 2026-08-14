@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/r-doubletfinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-doubletfinder
+latest:
+  2.0.6--r45hdfd78af_0: 
+    sha256:de9e0b3f936ec264b82ffdddae7f7e82b938e1aa806e9db47d14ca0681b55aaa
+tags:
+  2.0.6--r45hdfd78af_0: 
+    sha256:de9e0b3f936ec264b82ffdddae7f7e82b938e1aa806e9db47d14ca0681b55aaa
+docker: quay.io/biocontainers/r-doubletfinder
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  glpsol: /usr/local/bin/glpsol
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc

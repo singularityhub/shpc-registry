@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/scfair
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scfair
+latest:
+  0.8.0--pyhdfd78af_0: 
+    sha256:badceaa4eddd92c339e60b15108996cc343ced9df00aaf66dda00e0e09b3fca2
+tags:
+  0.8.0--pyhdfd78af_0: 
+    sha256:badceaa4eddd92c339e60b15108996cc343ced9df00aaf66dda00e0e09b3fca2
+docker: quay.io/biocontainers/scfair
+aliases:
+  session-info2: /usr/local/bin/session-info2
+  session-info: /usr/local/bin/session-info
+  zarr: /usr/local/bin/zarr
+  dotenv: /usr/local/bin/dotenv
+  fc-genconf: /usr/local/bin/fc-genconf
+  igraph: /usr/local/bin/igraph
+  h2benchmark: /usr/local/bin/h2benchmark
+  scanpy: /usr/local/bin/scanpy
+  checksum-profile: /usr/local/bin/checksum-profile
+  elasticurl: /usr/local/bin/elasticurl
+  natsort: /usr/local/bin/natsort
+  numba: /usr/local/bin/numba
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info
+  hwloc-ls: /usr/local/bin/hwloc-ls
+  hwloc-patch: /usr/local/bin/hwloc-patch
+  hwloc-ps: /usr/local/bin/hwloc-ps
+  lstopo: /usr/local/bin/lstopo

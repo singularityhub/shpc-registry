@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/sam-tagger
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sam-tagger
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:273d90dffb414bb2eec4acd2d6cdf9bfb3538542c08337f1056b1e1d5dca28df
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:273d90dffb414bb2eec4acd2d6cdf9bfb3538542c08337f1056b1e1d5dca28df
+docker: quay.io/biocontainers/sam-tagger
+aliases:
+  cyclopts: /usr/local/bin/cyclopts
+  sam-tagger: /usr/local/bin/sam-tagger
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize

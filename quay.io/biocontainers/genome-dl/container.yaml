@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/genome-dl
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genome-dl
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:26c57f42c95ef8a1267eb8bcb63876e7d1df74f145acaefa5b2cf37ab3b1b6c7
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:26c57f42c95ef8a1267eb8bcb63876e7d1df74f145acaefa5b2cf37ab3b1b6c7
+docker: quay.io/biocontainers/genome-dl
+aliases:
+  genome-dl: /usr/local/bin/genome-dl
+  idna: /usr/local/bin/idna
+  rich-click: /usr/local/bin/rich-click
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  pygmentize: /usr/local/bin/pygmentize
+  normalizer: /usr/local/bin/normalizer

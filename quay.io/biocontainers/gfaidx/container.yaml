@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/gfaidx
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gfaidx
+latest:
+  1.8.3--h5814d7d_0: 
+    sha256:4f86e287666412e5aa3e6b361f53a36c258adf5e897a6888aad3869fe6e32d26
+tags:
+  1.8.3--h5814d7d_0: 
+    sha256:4f86e287666412e5aa3e6b361f53a36c258adf5e897a6888aad3869fe6e32d26
+docker: quay.io/biocontainers/gfaidx
+aliases:
+  gfaidx: /usr/local/bin/gfaidx
+  basenc: /usr/local/bin/basenc
+  b2sum: /usr/local/bin/b2sum
+  ls: /usr/local/bin/ls
+  base32: /usr/local/bin/base32
+  base64: /usr/local/bin/base64
+  basename: /usr/local/bin/basename
+  cat: /usr/local/bin/cat
+  chcon: /usr/local/bin/chcon
+  chgrp: /usr/local/bin/chgrp
+  chmod: /usr/local/bin/chmod
+  chown: /usr/local/bin/chown
+  chroot: /usr/local/bin/chroot
+  cksum: /usr/local/bin/cksum
+  comm: /usr/local/bin/comm
+  cp: /usr/local/bin/cp
+  csplit: /usr/local/bin/csplit
+  cut: /usr/local/bin/cut
+  date: /usr/local/bin/date
+  dd: /usr/local/bin/dd
+  df: /usr/local/bin/df
+  dir: /usr/local/bin/dir
+  dircolors: /usr/local/bin/dircolors
+  dirname: /usr/local/bin/dirname
+  du: /usr/local/bin/du
+  echo: /usr/local/bin/echo

@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/respro
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for respro
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:1e7acd5ff653bf604d287189813847a79977ee533acf06a1caab790e255a87f5
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:1e7acd5ff653bf604d287189813847a79977ee533acf06a1caab790e255a87f5
+docker: quay.io/biocontainers/respro
+aliases:
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  respro: /usr/local/bin/respro
+  weasyprint: /usr/local/bin/weasyprint
+  minimap2.py: /usr/local/bin/minimap2.py
+  fc-genconf: /usr/local/bin/fc-genconf
+  typer: /usr/local/bin/typer
+  gi-compile-repository: /usr/local/bin/gi-compile-repository
+  gi-decompile-typelib: /usr/local/bin/gi-decompile-typelib
+  gi-inspect-typelib: /usr/local/bin/gi-inspect-typelib
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/constrain
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for constrain
+latest:
+  1.1.0--hab7d0fd_0: 
+    sha256:52c47faced743836754499cb9654e2888d20ff574b344138ecada25336b4e828
+tags:
+  1.1.0--hab7d0fd_0: 
+    sha256:52c47faced743836754499cb9654e2888d20ff574b344138ecada25336b4e828
+docker: quay.io/biocontainers/constrain
+aliases:
+  ConSTRain: /usr/local/bin/ConSTRain
