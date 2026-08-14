@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scripps-msms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scripps-msms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scripps-msms/container.yaml"
-updated_at: "2026-08-13 04:16:37.031469"
+updated_at: "2026-08-14 04:12:43.682766"
 latest: "2.6.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/scripps-msms"
 aliases:

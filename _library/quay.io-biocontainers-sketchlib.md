@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/sketchlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sketchlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sketchlib/container.yaml"
-updated_at: "2026-08-13 04:52:39.159503"
-latest: "0.2.4--h4349ce8_0"
+updated_at: "2026-08-14 04:41:36.660765"
+latest: "0.4.1--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/sketchlib"
 aliases:
  - "sketchlib"
 versions:
  - "0.2.4--h4349ce8_0"
+ - "0.4.1--hab7d0fd_0"
+ - "0.3.0--hab7d0fd_0"
 description: "singularity registry hpc automated addition for sketchlib"
-config: {"url": "https://biocontainers.pro/tools/sketchlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sketchlib", "latest": {"0.2.4--h4349ce8_0": "sha256:e6ce9753d8c82609a7a80801d58d5ef7d2277f9c9bb5164acff2403f12148bac"}, "tags": {"0.2.4--h4349ce8_0": "sha256:e6ce9753d8c82609a7a80801d58d5ef7d2277f9c9bb5164acff2403f12148bac"}, "docker": "quay.io/biocontainers/sketchlib", "aliases": {"sketchlib": "/usr/local/bin/sketchlib"}}
+config: {"url": "https://biocontainers.pro/tools/sketchlib", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sketchlib", "latest": {"0.4.1--hab7d0fd_0": "sha256:32a376f9418d1f8a2b60c89d3f3983a594edff7afc7022b8c4d053833fdd680e"}, "tags": {"0.2.4--h4349ce8_0": "sha256:e6ce9753d8c82609a7a80801d58d5ef7d2277f9c9bb5164acff2403f12148bac", "0.4.1--hab7d0fd_0": "sha256:32a376f9418d1f8a2b60c89d3f3983a594edff7afc7022b8c4d053833fdd680e", "0.3.0--hab7d0fd_0": "sha256:240f46b4309d49f2e1a682584460d1f83da8a09551c81bf439f176598d87c205"}, "docker": "quay.io/biocontainers/sketchlib", "aliases": {"sketchlib": "/usr/local/bin/sketchlib"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sketchlib.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/sketchlib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sketchlib:0.2.4--h4349ce8_0
+$ shpc install quay.io/biocontainers/sketchlib:0.4.1--hab7d0fd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sketchlib/0.2.4--h4349ce8_0
-$ module help quay.io/biocontainers/sketchlib/0.2.4--h4349ce8_0
+$ module load quay.io/biocontainers/sketchlib/0.4.1--hab7d0fd_0
+$ module help quay.io/biocontainers/sketchlib/0.4.1--hab7d0fd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

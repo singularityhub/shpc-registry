@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribotricer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribotricer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ribotricer/container.yaml"
-updated_at: "2026-08-13 04:32:55.720331"
+updated_at: "2026-08-14 04:25:51.233253"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ribotricer"
 

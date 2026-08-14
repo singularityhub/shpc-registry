@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-doremitra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-doremitra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-doremitra/container.yaml"
-updated_at: "2026-08-13 04:38:05.848430"
+updated_at: "2026-08-14 04:30:03.588552"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-doremitra"
 aliases:

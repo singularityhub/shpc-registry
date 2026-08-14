@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-psmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-psmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-psmatch/container.yaml"
-updated_at: "2026-08-13 04:43:30.515460"
+updated_at: "2026-08-14 04:34:24.364930"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-psmatch"
 aliases:

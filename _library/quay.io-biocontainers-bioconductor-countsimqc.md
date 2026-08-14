@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-countsimqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-countsimqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-countsimqc/container.yaml"
-updated_at: "2026-08-13 04:26:44.151391"
+updated_at: "2026-08-14 04:20:43.527647"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-countsimqc"
 aliases:

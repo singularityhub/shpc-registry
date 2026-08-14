@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/poretools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poretools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poretools/container.yaml"
-updated_at: "2026-08-13 04:59:48.146658"
+updated_at: "2026-08-14 04:47:08.309869"
 latest: "0.6.1a1--py_8"
 container_url: "https://biocontainers.pro/tools/poretools"
 

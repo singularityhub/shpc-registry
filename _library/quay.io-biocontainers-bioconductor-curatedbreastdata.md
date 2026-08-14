@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedbreastdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedbreastdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedbreastdata/container.yaml"
-updated_at: "2026-08-13 04:54:48.391239"
+updated_at: "2026-08-14 04:43:16.418159"
 latest: "2.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedbreastdata"
 aliases:

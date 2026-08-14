@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taxutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxutils/container.yaml"
-updated_at: "2026-08-13 05:14:54.570526"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-08-14 04:59:20.987579"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taxutils"
 aliases:
  - "idle3.14"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "1.0.1--pyhdfd78af_0"
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for taxutils"
-config: {"url": "https://biocontainers.pro/tools/taxutils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taxutils", "latest": {"1.0.2--pyhdfd78af_0": "sha256:e8a0c4aac7e4cf6fb8a17d28c71ddb31ad99d5cfc790f772c9e3f9c3f739bd23"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:69aaa4e5ecbe5f95dc17426c734c63bf764aa5e783c0c41245e329168b366aed", "1.0.2--pyhdfd78af_0": "sha256:e8a0c4aac7e4cf6fb8a17d28c71ddb31ad99d5cfc790f772c9e3f9c3f739bd23"}, "docker": "quay.io/biocontainers/taxutils", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/taxutils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for taxutils", "latest": {"1.0.3--pyhdfd78af_0": "sha256:910ebf7deee86e581b04bd719951cc938aed55824fc05068886d0faffeee589e"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:69aaa4e5ecbe5f95dc17426c734c63bf764aa5e783c0c41245e329168b366aed", "1.0.2--pyhdfd78af_0": "sha256:e8a0c4aac7e4cf6fb8a17d28c71ddb31ad99d5cfc790f772c9e3f9c3f739bd23", "1.0.3--pyhdfd78af_0": "sha256:910ebf7deee86e581b04bd719951cc938aed55824fc05068886d0faffeee589e"}, "docker": "quay.io/biocontainers/taxutils", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxutils.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/taxutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taxutils:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/taxutils:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taxutils/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/taxutils/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/taxutils/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/taxutils/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

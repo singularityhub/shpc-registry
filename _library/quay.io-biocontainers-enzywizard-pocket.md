@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-pocket"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-pocket/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-pocket/container.yaml"
-updated_at: "2026-08-13 04:27:57.347689"
+updated_at: "2026-08-14 04:21:42.221562"
 latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/enzywizard-pocket"
 aliases:

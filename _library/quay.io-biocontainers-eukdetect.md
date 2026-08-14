@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/eukdetect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukdetect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukdetect/container.yaml"
-updated_at: "2026-08-13 04:24:17.388742"
-latest: "2.0.1--pyhdfd78af_0"
+updated_at: "2026-08-14 04:18:45.495367"
+latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eukdetect"
 aliases:
  - "eukdetect"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "2.0.0--pyhdfd78af_0"
  - "2.0.1--pyhdfd78af_0"
+ - "2.0.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for eukdetect"
-config: {"url": "https://biocontainers.pro/tools/eukdetect", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eukdetect", "latest": {"2.0.1--pyhdfd78af_0": "sha256:602508de487438bf7d4479b8094180443c5afa40becad7e3af4f179336c485f1"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:11136aa1bfcb3294e49055d12b4d2e174e268a9770dcf66dfd42103b03a9d2a2", "2.0.1--pyhdfd78af_0": "sha256:602508de487438bf7d4479b8094180443c5afa40becad7e3af4f179336c485f1"}, "docker": "quay.io/biocontainers/eukdetect", "aliases": {"eukdetect": "/usr/local/bin/eukdetect", "eukdetect-normalize": "/usr/local/bin/eukdetect-normalize", "pax11publish": "/usr/local/bin/pax11publish", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "sip-build": "/usr/local/bin/sip-build"}}
+config: {"url": "https://biocontainers.pro/tools/eukdetect", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for eukdetect", "latest": {"2.0.2--pyhdfd78af_0": "sha256:0d3d017299556072bd1196d5f3511f91ca5c14088436b4ebc4d13e68c30e5f08"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:11136aa1bfcb3294e49055d12b4d2e174e268a9770dcf66dfd42103b03a9d2a2", "2.0.1--pyhdfd78af_0": "sha256:602508de487438bf7d4479b8094180443c5afa40becad7e3af4f179336c485f1", "2.0.2--pyhdfd78af_0": "sha256:0d3d017299556072bd1196d5f3511f91ca5c14088436b4ebc4d13e68c30e5f08"}, "docker": "quay.io/biocontainers/eukdetect", "aliases": {"eukdetect": "/usr/local/bin/eukdetect", "eukdetect-normalize": "/usr/local/bin/eukdetect-normalize", "pax11publish": "/usr/local/bin/pax11publish", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5", "rst2latex": "/usr/local/bin/rst2latex", "rst2man": "/usr/local/bin/rst2man", "rst2odt": "/usr/local/bin/rst2odt", "rst2pseudoxml": "/usr/local/bin/rst2pseudoxml", "rst2s5": "/usr/local/bin/rst2s5", "rst2xetex": "/usr/local/bin/rst2xetex", "rst2xml": "/usr/local/bin/rst2xml", "sip-build": "/usr/local/bin/sip-build"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eukdetect.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/eukdetect
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/eukdetect:2.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/eukdetect:2.0.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/eukdetect/2.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/eukdetect/2.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/eukdetect/2.0.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/eukdetect/2.0.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

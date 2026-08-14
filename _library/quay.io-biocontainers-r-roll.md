@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-roll"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-roll/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-roll/container.yaml"
-updated_at: "2026-08-13 05:07:07.171095"
+updated_at: "2026-08-14 04:52:59.753268"
 latest: "1.2.1--r45h67c2a1a_0"
 container_url: "https://biocontainers.pro/tools/r-roll"
 aliases:

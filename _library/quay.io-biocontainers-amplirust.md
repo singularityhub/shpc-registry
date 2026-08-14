@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/amplirust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplirust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/amplirust/container.yaml"
-updated_at: "2026-08-13 04:40:47.716363"
-latest: "0.2.0--h3ab6199_0"
+updated_at: "2026-08-14 04:32:13.429828"
+latest: "0.3.0--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/amplirust"
 aliases:
  - "amplirust"
 versions:
  - "0.1.2--h3ab6199_0"
  - "0.2.0--h3ab6199_0"
+ - "0.3.0--hec9b1f2_0"
 description: "singularity registry hpc automated addition for amplirust"
-config: {"url": "https://biocontainers.pro/tools/amplirust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amplirust", "latest": {"0.2.0--h3ab6199_0": "sha256:968175a785670905ad4df1fed7e6ab046d8342a91482699b1231d4714f4abd97"}, "tags": {"0.1.2--h3ab6199_0": "sha256:3b21f47cf198c46e32c69fd25f5a024ce3eca0d782a57d23e792164f541f62d2", "0.2.0--h3ab6199_0": "sha256:968175a785670905ad4df1fed7e6ab046d8342a91482699b1231d4714f4abd97"}, "docker": "quay.io/biocontainers/amplirust", "aliases": {"amplirust": "/usr/local/bin/amplirust"}}
+config: {"url": "https://biocontainers.pro/tools/amplirust", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for amplirust", "latest": {"0.3.0--hec9b1f2_0": "sha256:336e8dbf1c454dcf57076a8bc2d60a9342c8512a34437a113922971d63765931"}, "tags": {"0.1.2--h3ab6199_0": "sha256:3b21f47cf198c46e32c69fd25f5a024ce3eca0d782a57d23e792164f541f62d2", "0.2.0--h3ab6199_0": "sha256:968175a785670905ad4df1fed7e6ab046d8342a91482699b1231d4714f4abd97", "0.3.0--hec9b1f2_0": "sha256:336e8dbf1c454dcf57076a8bc2d60a9342c8512a34437a113922971d63765931"}, "docker": "quay.io/biocontainers/amplirust", "aliases": {"amplirust": "/usr/local/bin/amplirust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amplirust.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/amplirust
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/amplirust:0.2.0--h3ab6199_0
+$ shpc install quay.io/biocontainers/amplirust:0.3.0--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/amplirust/0.2.0--h3ab6199_0
-$ module help quay.io/biocontainers/amplirust/0.2.0--h3ab6199_0
+$ module load quay.io/biocontainers/amplirust/0.3.0--hec9b1f2_0
+$ module help quay.io/biocontainers/amplirust/0.3.0--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rammap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rammap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rammap/container.yaml"
-updated_at: "2026-08-13 04:38:22.429552"
-latest: "1.1.1--hfa8f182_0"
+updated_at: "2026-08-14 04:30:17.138393"
+latest: "1.1.2--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/rammap"
 aliases:
  - "rammap"
 versions:
  - "1.1.1--hfa8f182_0"
+ - "1.1.2--hfa8f182_0"
 description: "singularity registry hpc automated addition for rammap"
-config: {"url": "https://biocontainers.pro/tools/rammap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rammap", "latest": {"1.1.1--hfa8f182_0": "sha256:ffe27e664d0afe0ee0007bcff3a2c03ee4d160ba4099e54e080178067baad3f0"}, "tags": {"1.1.1--hfa8f182_0": "sha256:ffe27e664d0afe0ee0007bcff3a2c03ee4d160ba4099e54e080178067baad3f0"}, "docker": "quay.io/biocontainers/rammap", "aliases": {"rammap": "/usr/local/bin/rammap"}}
+config: {"url": "https://biocontainers.pro/tools/rammap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rammap", "latest": {"1.1.2--hfa8f182_0": "sha256:c2a3bc29da2f0d336645a493ec7d93b1f242f37c188e8ec761a61b9b27a92d02"}, "tags": {"1.1.1--hfa8f182_0": "sha256:ffe27e664d0afe0ee0007bcff3a2c03ee4d160ba4099e54e080178067baad3f0", "1.1.2--hfa8f182_0": "sha256:c2a3bc29da2f0d336645a493ec7d93b1f242f37c188e8ec761a61b9b27a92d02"}, "docker": "quay.io/biocontainers/rammap", "aliases": {"rammap": "/usr/local/bin/rammap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rammap.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rammap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rammap:1.1.1--hfa8f182_0
+$ shpc install quay.io/biocontainers/rammap:1.1.2--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rammap/1.1.1--hfa8f182_0
-$ module help quay.io/biocontainers/rammap/1.1.1--hfa8f182_0
+$ module load quay.io/biocontainers/rammap/1.1.2--hfa8f182_0
+$ module help quay.io/biocontainers/rammap/1.1.2--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

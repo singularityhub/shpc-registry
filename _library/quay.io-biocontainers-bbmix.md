@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bbmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bbmix/container.yaml"
-updated_at: "2026-08-13 04:35:43.143332"
+updated_at: "2026-08-14 04:28:05.598345"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bbmix"
 aliases:

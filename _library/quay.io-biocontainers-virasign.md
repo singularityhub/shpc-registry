@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virasign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virasign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virasign/container.yaml"
-updated_at: "2026-08-13 04:53:17.749769"
+updated_at: "2026-08-14 04:42:06.645075"
 latest: "0.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virasign"
 aliases:

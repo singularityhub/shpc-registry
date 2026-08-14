@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-bpcells"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bpcells/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bpcells/container.yaml"
-updated_at: "2026-08-13 04:37:21.620889"
-latest: "0.3.1--r44h89edbeb_0"
+updated_at: "2026-08-14 04:29:27.287563"
+latest: "0.3.1--r45h707347c_1"
 container_url: "https://biocontainers.pro/tools/r-bpcells"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -37,8 +37,9 @@ versions:
  - "0.3.0--r44h89edbeb_0"
  - "0.3.0--r44h89edbeb_1"
  - "0.3.1--r44h89edbeb_0"
+ - "0.3.1--r45h707347c_1"
 description: "singularity registry hpc automated addition for r-bpcells"
-config: {"url": "https://biocontainers.pro/tools/r-bpcells", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-bpcells", "latest": {"0.3.1--r44h89edbeb_0": "sha256:14c501fc0ea4325f967bf95998a4110bb7352427fd41722e4ecb4c67983e3ba7"}, "tags": {"0.3.0--r44h89edbeb_0": "sha256:807523a4d4a94819a0fbe70d7ea483e6280cf839dd485b4090103dfdf221a3f6", "0.3.0--r44h89edbeb_1": "sha256:33ad4d04fa7ab20f135e50a1ceca30658d77c6698e4d506851664b8138177b60", "0.3.1--r44h89edbeb_0": "sha256:14c501fc0ea4325f967bf95998a4110bb7352427fd41722e4ecb4c67983e3ba7"}, "docker": "quay.io/biocontainers/r-bpcells", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "hb-info": "/usr/local/bin/hb-info", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "tjbench": "/usr/local/bin/tjbench", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart"}}
+config: {"url": "https://biocontainers.pro/tools/r-bpcells", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-bpcells", "latest": {"0.3.1--r45h707347c_1": "sha256:f2761136969b017e2cbd1948e9db0cc10698eab791cc0b69536dc4b4d03547ba"}, "tags": {"0.3.0--r44h89edbeb_0": "sha256:807523a4d4a94819a0fbe70d7ea483e6280cf839dd485b4090103dfdf221a3f6", "0.3.0--r44h89edbeb_1": "sha256:33ad4d04fa7ab20f135e50a1ceca30658d77c6698e4d506851664b8138177b60", "0.3.1--r44h89edbeb_0": "sha256:14c501fc0ea4325f967bf95998a4110bb7352427fd41722e4ecb4c67983e3ba7", "0.3.1--r45h707347c_1": "sha256:f2761136969b017e2cbd1948e9db0cc10698eab791cc0b69536dc4b4d03547ba"}, "docker": "quay.io/biocontainers/r-bpcells", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "h5tools_test_utils": "/usr/local/bin/h5tools_test_utils", "h5fuse.sh": "/usr/local/bin/h5fuse.sh", "h5delete": "/usr/local/bin/h5delete", "hb-info": "/usr/local/bin/hb-info", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "tjbench": "/usr/local/bin/tjbench", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5redeploy": "/usr/local/bin/h5redeploy", "h5repack": "/usr/local/bin/h5repack", "h5repart": "/usr/local/bin/h5repart"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bpcells.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/r-bpcells
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bpcells:0.3.1--r44h89edbeb_0
+$ shpc install quay.io/biocontainers/r-bpcells:0.3.1--r45h707347c_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bpcells/0.3.1--r44h89edbeb_0
-$ module help quay.io/biocontainers/r-bpcells/0.3.1--r44h89edbeb_0
+$ module load quay.io/biocontainers/r-bpcells/0.3.1--r45h707347c_1
+$ module help quay.io/biocontainers/r-bpcells/0.3.1--r45h707347c_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

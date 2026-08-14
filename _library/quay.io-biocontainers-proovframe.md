@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proovframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proovframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proovframe/container.yaml"
-updated_at: "2026-08-13 04:18:47.086448"
+updated_at: "2026-08-14 04:14:25.067675"
 latest: "0.9.7--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/proovframe"
 aliases:

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bracken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bracken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bracken/container.yaml"
-updated_at: "2026-08-13 04:15:18.666041"
+updated_at: "2026-08-14 04:11:44.458316"
 latest: "1.0.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bracken"
 

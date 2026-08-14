@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dupblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dupblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dupblaster/container.yaml"
-updated_at: "2026-08-13 04:16:55.026044"
+updated_at: "2026-08-14 04:12:57.765981"
 latest: "0.2.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/dupblaster"
 aliases:

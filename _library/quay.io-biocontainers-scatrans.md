@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scatrans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scatrans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scatrans/container.yaml"
-updated_at: "2026-08-13 04:55:21.814600"
+updated_at: "2026-08-14 04:43:41.198364"
 latest: "0.10.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scatrans"
 aliases:

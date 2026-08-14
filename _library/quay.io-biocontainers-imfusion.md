@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/imfusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imfusion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/imfusion/container.yaml"
-updated_at: "2026-08-13 05:14:53.967559"
+updated_at: "2026-08-14 04:59:20.508715"
 latest: "0.3.2--py27_0"
 container_url: "https://biocontainers.pro/tools/imfusion"
 aliases:

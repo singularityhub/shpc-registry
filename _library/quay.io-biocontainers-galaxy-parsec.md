@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-parsec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-parsec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-parsec/container.yaml"
-updated_at: "2026-08-13 05:15:04.969773"
+updated_at: "2026-08-14 04:59:29.097152"
 latest: "1.16.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/galaxy-parsec"
 aliases:

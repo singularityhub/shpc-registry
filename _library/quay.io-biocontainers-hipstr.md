@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hipstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hipstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hipstr/container.yaml"
-updated_at: "2026-08-13 04:23:06.885866"
+updated_at: "2026-08-14 04:17:49.203160"
 latest: "0.7--hcf09f9e_0"
 container_url: "https://biocontainers.pro/tools/hipstr"
 aliases:

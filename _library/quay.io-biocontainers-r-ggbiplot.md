@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ggbiplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggbiplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggbiplot/container.yaml"
-updated_at: "2026-08-13 04:29:10.979981"
+updated_at: "2026-08-14 04:22:41.985545"
 latest: "0.55--r44h7b50bb2_12"
 container_url: "https://biocontainers.pro/tools/r-ggbiplot"
 

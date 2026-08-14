@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mcroni"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mcroni/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mcroni/container.yaml"
-updated_at: "2026-08-13 05:05:30.800604"
+updated_at: "2026-08-14 04:51:45.518131"
 latest: "1.0.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mcroni"
 aliases:

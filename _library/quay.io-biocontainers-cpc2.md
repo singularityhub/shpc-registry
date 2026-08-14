@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cpc2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpc2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpc2/container.yaml"
-updated_at: "2026-08-13 05:00:12.879249"
-latest: "1.0.1--hdfd78af_0"
+updated_at: "2026-08-14 04:47:28.150118"
+latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cpc2"
 aliases:
  - "CPC2.py"
@@ -23,8 +23,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.1--hdfd78af_0"
+ - "1.0.1--hdfd78af_1"
 description: "singularity registry hpc automated addition for cpc2"
-config: {"url": "https://biocontainers.pro/tools/cpc2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cpc2", "latest": {"1.0.1--hdfd78af_0": "sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80"}, "tags": {"1.0.1--hdfd78af_0": "sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80"}, "docker": "quay.io/biocontainers/cpc2", "aliases": {"CPC2.py": "/usr/local/bin/CPC2.py", "compress.py": "/usr/local/bin/compress.py", "seqio.py": "/usr/local/bin/seqio.py", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/cpc2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cpc2", "latest": {"1.0.1--hdfd78af_1": "sha256:eafa23ee6ca2c974a6ec6e0591b2dca8ac7f12846facda9581e69d57124cd0f0"}, "tags": {"1.0.1--hdfd78af_0": "sha256:5736c1c5187a3a681bba566e63a1b78c10946468f0cf798d117712b265e07c80", "1.0.1--hdfd78af_1": "sha256:eafa23ee6ca2c974a6ec6e0591b2dca8ac7f12846facda9581e69d57124cd0f0"}, "docker": "quay.io/biocontainers/cpc2", "aliases": {"CPC2.py": "/usr/local/bin/CPC2.py", "compress.py": "/usr/local/bin/compress.py", "seqio.py": "/usr/local/bin/seqio.py", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "f2py3.11": "/usr/local/bin/f2py3.11", "2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cpc2.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/cpc2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cpc2:1.0.1--hdfd78af_0
+$ shpc install quay.io/biocontainers/cpc2:1.0.1--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cpc2/1.0.1--hdfd78af_0
-$ module help quay.io/biocontainers/cpc2/1.0.1--hdfd78af_0
+$ module load quay.io/biocontainers/cpc2/1.0.1--hdfd78af_1
+$ module help quay.io/biocontainers/cpc2/1.0.1--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

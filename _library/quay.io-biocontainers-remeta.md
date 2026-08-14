@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/remeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/remeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/remeta/container.yaml"
-updated_at: "2026-08-13 04:51:37.813720"
+updated_at: "2026-08-14 04:40:50.406368"
 latest: "0.11.2--h0f83179_0"
 container_url: "https://biocontainers.pro/tools/remeta"
 aliases:
