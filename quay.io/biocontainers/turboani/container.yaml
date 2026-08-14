@@ -1,0 +1,15 @@
+url: https://biocontainers.pro/tools/turboani
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for turboani
+latest:
+  0.1.7--h39acb7c_0: 
+    sha256:0697dd7c73781a214511d464a3d68980d344851c20b0537f80e960bf681255c5
+tags:
+  0.1.7--h39acb7c_0: 
+    sha256:0697dd7c73781a214511d464a3d68980d344851c20b0537f80e960bf681255c5
+docker: quay.io/biocontainers/turboani
+aliases:
+  fastani: /usr/local/bin/fastani
+  plot-correlation: /usr/local/bin/plot-correlation
+  turboani: /usr/local/bin/turboani
+  fc-genconf: /usr/local/bin/fc-genconf

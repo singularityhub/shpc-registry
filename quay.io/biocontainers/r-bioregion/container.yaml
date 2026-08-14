@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/r-bioregion
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-bioregion
+latest:
+  1.4.0--r45h9ee0642_0: 
+    sha256:8b4270e840363b443a03001678399987d3cbbb3d618eaefe93e4427a5a41d0cb
+tags:
+  1.4.0--r45h9ee0642_0: 
+    sha256:8b4270e840363b443a03001678399987d3cbbb3d618eaefe93e4427a5a41d0cb
+docker: quay.io/biocontainers/r-bioregion
+aliases:
+  gdal: /usr/local/bin/gdal
+  gdal_footprint: /usr/local/bin/gdal_footprint
+  minigzip: /usr/local/bin/minigzip
+  minizip: /usr/local/bin/minizip
+  sozip: /usr/local/bin/sozip
+  bsdunzip: /usr/local/bin/bsdunzip
+  gdal_create: /usr/local/bin/gdal_create
+  gdal_viewshed: /usr/local/bin/gdal_viewshed
+  gdalmdiminfo: /usr/local/bin/gdalmdiminfo
+  gdalmdimtranslate: /usr/local/bin/gdalmdimtranslate
+  fc-genconf: /usr/local/bin/fc-genconf
+  gnmanalyse: /usr/local/bin/gnmanalyse
+  gnmmanage: /usr/local/bin/gnmmanage
+  gdal-config: /usr/local/bin/gdal-config
+  gdal_contour: /usr/local/bin/gdal_contour
+  gdal_grid: /usr/local/bin/gdal_grid
+  gdal_rasterize: /usr/local/bin/gdal_rasterize
+  gdal_translate: /usr/local/bin/gdal_translate
+  gdaladdo: /usr/local/bin/gdaladdo
+  gdalbuildvrt: /usr/local/bin/gdalbuildvrt
+  gdaldem: /usr/local/bin/gdaldem
+  gdalenhance: /usr/local/bin/gdalenhance
+  gdalinfo: /usr/local/bin/gdalinfo
+  gdallocationinfo: /usr/local/bin/gdallocationinfo
+  gdalmanage: /usr/local/bin/gdalmanage

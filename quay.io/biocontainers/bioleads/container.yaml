@@ -1,0 +1,52 @@
+url: https://biocontainers.pro/tools/bioleads
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioleads
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:8e54e3d5dff04e5db1000f3386b5309f4acd76aa48a6b6acd5e380487e335ee3
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:8e54e3d5dff04e5db1000f3386b5309f4acd76aa48a6b6acd5e380487e335ee3
+docker: quay.io/biocontainers/bioleads
+aliases:
+  bioleads: /usr/local/bin/bioleads
+  bioleads-gui: /usr/local/bin/bioleads-gui
+  convertfilestopdf: /usr/local/bin/convertfilestopdf
+  convertfilestops: /usr/local/bin/convertfilestops
+  convertformat: /usr/local/bin/convertformat
+  convertsegfilestopdf: /usr/local/bin/convertsegfilestopdf
+  convertsegfilestops: /usr/local/bin/convertsegfilestops
+  converttopdf: /usr/local/bin/converttopdf
+  converttops: /usr/local/bin/converttops
+  fileinfo: /usr/local/bin/fileinfo
+  imagetops: /usr/local/bin/imagetops
+  jbig2dec: /usr/local/bin/jbig2dec
+  mutool: /usr/local/bin/mutool
+  pymupdf: /usr/local/bin/pymupdf
+  tesseract: /usr/local/bin/tesseract
+  xtractprotos: /usr/local/bin/xtractprotos
+  spirv-diff: /usr/local/bin/spirv-diff
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint
+  spirv-objdump: /usr/local/bin/spirv-objdump
+  spirv-opt: /usr/local/bin/spirv-opt
+  spirv-reduce: /usr/local/bin/spirv-reduce
+  spirv-val: /usr/local/bin/spirv-val
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  bsdunzip: /usr/local/bin/bsdunzip
+  idna: /usr/local/bin/idna
+  fc-genconf: /usr/local/bin/fc-genconf
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  ipython3: /usr/local/bin/ipython3
+  ipython: /usr/local/bin/ipython
+  numba: /usr/local/bin/numba
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc

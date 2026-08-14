@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/bramble
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bramble
+latest:
+  0.1.8--hdb859ee_0: 
+    sha256:2d9b543d18517493576b0c60f7e70f902af618249528b7cdd634dae7a1499259
+tags:
+  0.1.8--hdb859ee_0: 
+    sha256:2d9b543d18517493576b0c60f7e70f902af618249528b7cdd634dae7a1499259
+docker: quay.io/biocontainers/bramble
+aliases:
+  bramble: /usr/local/bin/bramble
+  bramble-rs: /usr/local/bin/bramble-rs

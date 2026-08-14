@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/taxutils-rs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for taxutils-rs
+latest:
+  1.0.4--hfa8f182_0: 
+    sha256:822b66836af1bcf14f2dcdd3e86ea485792525ffd3f5562b6f5c95095d59f6de
+tags:
+  1.0.4--hfa8f182_0: 
+    sha256:822b66836af1bcf14f2dcdd3e86ea485792525ffd3f5562b6f5c95095d59f6de
+docker: quay.io/biocontainers/taxutils-rs
+aliases:
+  tu: /usr/local/bin/tu

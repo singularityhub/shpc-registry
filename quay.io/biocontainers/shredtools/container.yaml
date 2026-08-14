@@ -1,0 +1,36 @@
+url: https://biocontainers.pro/tools/shredtools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for shredtools
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:2b5a8fce028db44b1f27eb8a63812bf9408645e787459072c50bccb98031d1da
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:2b5a8fce028db44b1f27eb8a63812bf9408645e787459072c50bccb98031d1da
+docker: quay.io/biocontainers/shredtools
+aliases:
+  anchor_merge: /usr/local/bin/anchor_merge
+  compute_lengths: /usr/local/bin/compute_lengths
+  extract_mums: /usr/local/bin/extract_mums
+  mumemto: /usr/local/bin/mumemto
+  mumemto_exec: /usr/local/bin/mumemto_exec
+  shredtools: /usr/local/bin/shredtools
+  fc-genconf: /usr/local/bin/fc-genconf
+  numba: /usr/local/bin/numba
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  tqdm: /usr/local/bin/tqdm
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

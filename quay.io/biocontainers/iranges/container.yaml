@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/iranges
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for iranges
+latest:
+  0.7.2--py310ha9eae8f_0: 
+    sha256:3d59ce02dbc9d9cf1e8c58042e32d1755b0c27d3c8dd71143869ddb4d8d4d6e4
+tags:
+  0.7.2--py310ha9eae8f_0: 
+    sha256:3d59ce02dbc9d9cf1e8c58042e32d1755b0c27d3c8dd71143869ddb4d8d4d6e4
+docker: quay.io/biocontainers/iranges
+aliases:
+  numpy-config: /usr/local/bin/numpy-config
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

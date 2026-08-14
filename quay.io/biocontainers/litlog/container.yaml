@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/litlog
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for litlog
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:9ae8b1dd1fe354ad5a0c7a337f3b729895958b74cf4e6a9022aab6702fe537c8
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:9ae8b1dd1fe354ad5a0c7a337f3b729895958b74cf4e6a9022aab6702fe537c8
+docker: quay.io/biocontainers/litlog
+aliases:
+  convertfilestopdf: /usr/local/bin/convertfilestopdf
+  convertfilestops: /usr/local/bin/convertfilestops
+  convertformat: /usr/local/bin/convertformat
+  convertsegfilestopdf: /usr/local/bin/convertsegfilestopdf
+  convertsegfilestops: /usr/local/bin/convertsegfilestops
+  converttopdf: /usr/local/bin/converttopdf
+  converttops: /usr/local/bin/converttops
+  fileinfo: /usr/local/bin/fileinfo
+  imagetops: /usr/local/bin/imagetops
+  jbig2dec: /usr/local/bin/jbig2dec
+  litlog: /usr/local/bin/litlog
+  mutool: /usr/local/bin/mutool
+  pymupdf: /usr/local/bin/pymupdf
+  tesseract: /usr/local/bin/tesseract
+  xtractprotos: /usr/local/bin/xtractprotos
+  spirv-diff: /usr/local/bin/spirv-diff
+  spirv-as: /usr/local/bin/spirv-as
+  spirv-cfg: /usr/local/bin/spirv-cfg
+  spirv-dis: /usr/local/bin/spirv-dis
+  spirv-lesspipe.sh: /usr/local/bin/spirv-lesspipe.sh
+  spirv-link: /usr/local/bin/spirv-link
+  spirv-lint: /usr/local/bin/spirv-lint
+  spirv-objdump: /usr/local/bin/spirv-objdump
+  spirv-opt: /usr/local/bin/spirv-opt
+  spirv-reduce: /usr/local/bin/spirv-reduce
+  spirv-val: /usr/local/bin/spirv-val
+  bsdunzip: /usr/local/bin/bsdunzip
+  fc-genconf: /usr/local/bin/fc-genconf
+  bsdcat: /usr/local/bin/bsdcat
+  bsdcpio: /usr/local/bin/bsdcpio
+  bsdtar: /usr/local/bin/bsdtar
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  numpy-config: /usr/local/bin/numpy-config
+  gif2rgb: /usr/local/bin/gif2rgb
+  gifbuild: /usr/local/bin/gifbuild

@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/annevo
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for annevo
+latest:
+  2.3.2--hdfd78af_0: 
+    sha256:a32bbf8968f62d3ae2cd1436de97356bfe4b55615bdfb275fa7b302e8ee7a3f9
+tags:
+  2.3.2--hdfd78af_0: 
+    sha256:a32bbf8968f62d3ae2cd1436de97356bfe4b55615bdfb275fa7b302e8ee7a3f9
+docker: quay.io/biocontainers/annevo
+aliases:
+  annotation.py: /usr/local/bin/annotation.py
+  decoding.py: /usr/local/bin/decoding.py
+  prediction.py: /usr/local/bin/prediction.py
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  pybind11-config: /usr/local/bin/pybind11-config
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  torchrun: /usr/local/bin/torchrun
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  isympy: /usr/local/bin/isympy
+  elasticurl: /usr/local/bin/elasticurl
+  numba: /usr/local/bin/numba
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
+  hwloc-gather-topology: /usr/local/bin/hwloc-gather-topology
+  hwloc-info: /usr/local/bin/hwloc-info

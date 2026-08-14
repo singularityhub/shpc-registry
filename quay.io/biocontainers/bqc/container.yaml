@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/bqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bqc
+latest:
+  0.0.2--hfa8f182_0: 
+    sha256:0256618744412fc3295eb80be342eeff3435bc3d9c7f9662d8a9c786a8e135aa
+tags:
+  0.0.2--hfa8f182_0: 
+    sha256:0256618744412fc3295eb80be342eeff3435bc3d9c7f9662d8a9c786a8e135aa
+docker: quay.io/biocontainers/bqc
+aliases:
+  bqc: /usr/local/bin/bqc

@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/serovar_detector
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for serovar_detector
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:d819ea63a0d1f66a1656cdb5e8177e75c8097a24b780e574612641ea662d3dd4
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:d819ea63a0d1f66a1656cdb5e8177e75c8097a24b780e574612641ea662d3dd4
+docker: quay.io/biocontainers/serovar_detector
+aliases:
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  menuinst: /usr/local/bin/menuinst
+  pyproject-build: /usr/local/bin/pyproject-build
+  python-build: /usr/local/bin/python-build
+  serovar_detector: /usr/local/bin/serovar_detector
+  unearth: /usr/local/bin/unearth
+  jsondiff: /usr/local/bin/jsondiff
+  jsonpatch: /usr/local/bin/jsonpatch
+  distro: /usr/local/bin/distro
+  kma: /usr/local/bin/kma
+  kma_index: /usr/local/bin/kma_index
+  kma_shm: /usr/local/bin/kma_shm
+  kma_update: /usr/local/bin/kma_update
+  phc: /usr/local/bin/phc
+  jsonpointer: /usr/local/bin/jsonpointer
+  mamba-package: /usr/local/bin/mamba-package
+  conda2solv: /usr/local/bin/conda2solv
+  dumpsolv: /usr/local/bin/dumpsolv
+  installcheck: /usr/local/bin/installcheck
+  mergesolv: /usr/local/bin/mergesolv
+  repo2solv: /usr/local/bin/repo2solv
+  testsolv: /usr/local/bin/testsolv
+  cph: /usr/local/bin/cph
+  eido: /usr/local/bin/eido
+  archspec: /usr/local/bin/archspec
+  bsdunzip: /usr/local/bin/bsdunzip
+  idna: /usr/local/bin/idna
+  httpx: /usr/local/bin/httpx
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5

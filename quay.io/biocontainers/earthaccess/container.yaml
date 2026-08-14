@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/earthaccess
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for earthaccess
+latest:
+  0.18.0: 
+    sha256:859dd4558666dd45ccb88de760038961fbd1d5a35c4fce043a46830cdb90bf87
+tags:
+  0.18.0: 
+    sha256:859dd4558666dd45ccb88de760038961fbd1d5a35c4fce043a46830cdb90bf87
+docker: quay.io/biocontainers/earthaccess
+aliases:
+  idna: /usr/local/bin/idna
+  jp.py: /usr/local/bin/jp.py
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  tqdm: /usr/local/bin/tqdm
+  normalizer: /usr/local/bin/normalizer

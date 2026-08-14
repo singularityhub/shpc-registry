@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/snputils
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for snputils
+latest:
+  1.1.0--py310hfe4f656_0: 
+    sha256:a2f37a92dc42f2b83b50eab7b0d7c89f07a7b8dda850697854e81bc0c212bfde
+tags:
+  1.1.0--py310hfe4f656_0: 
+    sha256:a2f37a92dc42f2b83b50eab7b0d7c89f07a7b8dda850697854e81bc0c212bfde
+docker: quay.io/biocontainers/snputils
+aliases:
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  snputils: /usr/local/bin/snputils
+  cairosvg: /usr/local/bin/cairosvg
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  fc-genconf: /usr/local/bin/fc-genconf
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  jupyter: /usr/local/bin/jupyter
+  jupyter-migrate: /usr/local/bin/jupyter-migrate
+  jupyter-troubleshoot: /usr/local/bin/jupyter-troubleshoot
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  jsonschema: /usr/local/bin/jsonschema
+  tqdm: /usr/local/bin/tqdm
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
