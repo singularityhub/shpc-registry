@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/assaycode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assaycode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assaycode/container.yaml"
-updated_at: "2026-08-14 07:41:09.552118"
-latest: "0.2.0--hdfd78af_0"
+updated_at: "2026-08-15 03:30:50.094086"
+latest: "0.2.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/assaycode"
 aliases:
  - "assaycode"
@@ -17,8 +17,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.2.0--hdfd78af_0"
+ - "0.2.2--hdfd78af_0"
 description: "singularity registry hpc automated addition for assaycode"
-config: {"url": "https://biocontainers.pro/tools/assaycode", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for assaycode", "latest": {"0.2.0--hdfd78af_0": "sha256:d8456fd511fb7eabdd726d734120a963f8a70a94dbb82c2874f5a4ef492ba6a3"}, "tags": {"0.2.0--hdfd78af_0": "sha256:d8456fd511fb7eabdd726d734120a963f8a70a94dbb82c2874f5a4ef492ba6a3"}, "docker": "quay.io/biocontainers/assaycode", "aliases": {"assaycode": "/usr/local/bin/assaycode", "dotmatch": "/usr/local/bin/dotmatch", "quickdna": "/usr/local/bin/quickdna", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/assaycode", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for assaycode", "latest": {"0.2.2--hdfd78af_0": "sha256:2aca22053cb2627123c9399fa5d4a2fb14e808115cf1e80014c84c1df06561bd"}, "tags": {"0.2.0--hdfd78af_0": "sha256:d8456fd511fb7eabdd726d734120a963f8a70a94dbb82c2874f5a4ef492ba6a3", "0.2.2--hdfd78af_0": "sha256:2aca22053cb2627123c9399fa5d4a2fb14e808115cf1e80014c84c1df06561bd"}, "docker": "quay.io/biocontainers/assaycode", "aliases": {"assaycode": "/usr/local/bin/assaycode", "dotmatch": "/usr/local/bin/dotmatch", "quickdna": "/usr/local/bin/quickdna", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/assaycode.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/assaycode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/assaycode:0.2.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/assaycode:0.2.2--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/assaycode/0.2.0--hdfd78af_0
-$ module help quay.io/biocontainers/assaycode/0.2.0--hdfd78af_0
+$ module load quay.io/biocontainers/assaycode/0.2.2--hdfd78af_0
+$ module help quay.io/biocontainers/assaycode/0.2.2--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

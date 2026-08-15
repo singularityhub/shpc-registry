@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/osra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/osra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/osra/container.yaml"
-updated_at: "2026-08-14 07:49:04.270353"
+updated_at: "2026-08-15 03:32:05.211383"
 latest: "2.1.0--0"
 container_url: "https://biocontainers.pro/tools/osra"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/poplddecay"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poplddecay/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poplddecay/container.yaml"
-updated_at: "2026-08-14 07:34:57.429876"
-latest: "3.43--h077b44d_2"
+updated_at: "2026-08-15 03:50:05.030751"
+latest: "3.45--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/poplddecay"
 aliases:
  - "PopLDdecay"
 versions:
  - "3.43--hdcf5f25_1"
  - "3.43--h077b44d_2"
+ - "3.45--h3be2455_0"
 description: "singularity registry hpc automated addition for poplddecay"
-config: {"url": "https://biocontainers.pro/tools/poplddecay", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for poplddecay", "latest": {"3.43--h077b44d_2": "sha256:731289cdec93a4368b7698b36a91729a3da59328f40779a0e5e1391f87aff352"}, "tags": {"3.43--hdcf5f25_1": "sha256:c17344b653dfef522cc9635876c62bfcc16b2469ad0dfe9c7714aa50e9674de0", "3.43--h077b44d_2": "sha256:731289cdec93a4368b7698b36a91729a3da59328f40779a0e5e1391f87aff352"}, "docker": "quay.io/biocontainers/poplddecay", "aliases": {"PopLDdecay": "/usr/local/bin/PopLDdecay"}}
+config: {"url": "https://biocontainers.pro/tools/poplddecay", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for poplddecay", "latest": {"3.45--h3be2455_0": "sha256:af74aaebdce4ce7cacb6ab4d74731af6312278bac77a246766b4653741c09c39"}, "tags": {"3.43--hdcf5f25_1": "sha256:c17344b653dfef522cc9635876c62bfcc16b2469ad0dfe9c7714aa50e9674de0", "3.43--h077b44d_2": "sha256:731289cdec93a4368b7698b36a91729a3da59328f40779a0e5e1391f87aff352", "3.45--h3be2455_0": "sha256:af74aaebdce4ce7cacb6ab4d74731af6312278bac77a246766b4653741c09c39"}, "docker": "quay.io/biocontainers/poplddecay", "aliases": {"PopLDdecay": "/usr/local/bin/PopLDdecay"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poplddecay.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/poplddecay
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/poplddecay:3.43--h077b44d_2
+$ shpc install quay.io/biocontainers/poplddecay:3.45--h3be2455_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/poplddecay/3.43--h077b44d_2
-$ module help quay.io/biocontainers/poplddecay/3.43--h077b44d_2
+$ module load quay.io/biocontainers/poplddecay/3.45--h3be2455_0
+$ module help quay.io/biocontainers/poplddecay/3.45--h3be2455_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

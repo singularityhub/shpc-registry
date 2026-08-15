@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/refseq-plasmid-dl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refseq-plasmid-dl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refseq-plasmid-dl/container.yaml"
-updated_at: "2026-08-14 07:52:32.615774"
+updated_at: "2026-08-15 03:19:45.502602"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/refseq-plasmid-dl"
 aliases:

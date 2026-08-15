@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/compressed-lists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/compressed-lists/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/compressed-lists/container.yaml"
-updated_at: "2026-08-14 07:29:48.914723"
+updated_at: "2026-08-15 02:57:55.001111"
 latest: "0.4.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/compressed-lists"
 aliases:

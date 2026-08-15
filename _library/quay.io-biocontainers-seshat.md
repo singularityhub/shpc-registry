@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seshat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seshat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seshat/container.yaml"
-updated_at: "2026-08-14 07:38:31.474482"
+updated_at: "2026-08-15 03:37:40.825778"
 latest: "0.10.0--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seshat"
 aliases:

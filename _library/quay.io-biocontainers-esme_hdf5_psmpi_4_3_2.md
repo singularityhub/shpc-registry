@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esme_hdf5_psmpi_4_3_2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_hdf5_psmpi_4_3_2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_hdf5_psmpi_4_3_2/container.yaml"
-updated_at: "2026-08-14 08:27:41.903182"
-latest: "2.0.0--h9d8eea5_0"
+updated_at: "2026-08-15 03:29:17.711227"
+latest: "2.0.0--h77913a6_1"
 container_url: "https://biocontainers.pro/tools/esme_hdf5_psmpi_4_3_2"
 aliases:
  - "chacl"
@@ -35,8 +35,9 @@ aliases:
  - "h5repack"
 versions:
  - "2.0.0--h9d8eea5_0"
+ - "2.0.0--h77913a6_1"
 description: "singularity registry hpc automated addition for esme_hdf5_psmpi_4_3_2"
-config: {"url": "https://biocontainers.pro/tools/esme_hdf5_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_hdf5_psmpi_4_3_2", "latest": {"2.0.0--h9d8eea5_0": "sha256:c7a80abc74cf113d9bd4b4327d1b67999ad9deab90bcbb00ea9bf77b253f6a2f"}, "tags": {"2.0.0--h9d8eea5_0": "sha256:c7a80abc74cf113d9bd4b4327d1b67999ad9deab90bcbb00ea9bf77b253f6a2f"}, "docker": "quay.io/biocontainers/esme_hdf5_psmpi_4_3_2", "aliases": {"chacl": "/usr/local/bin/chacl", "getfacl": "/usr/local/bin/getfacl", "setfacl": "/usr/local/bin/setfacl", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "attr": "/usr/local/bin/attr", "getfattr": "/usr/local/bin/getfattr", "setfattr": "/usr/local/bin/setfattr", "h5delete": "/usr/local/bin/h5delete", "h5fc": "/usr/local/bin/h5fc", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5repack": "/usr/local/bin/h5repack"}}
+config: {"url": "https://biocontainers.pro/tools/esme_hdf5_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_hdf5_psmpi_4_3_2", "latest": {"2.0.0--h77913a6_1": "sha256:00d646a78969a8bb14f3e87c3da6c68806230a0be5bc60d8e0d2a292a772354e"}, "tags": {"2.0.0--h9d8eea5_0": "sha256:c7a80abc74cf113d9bd4b4327d1b67999ad9deab90bcbb00ea9bf77b253f6a2f", "2.0.0--h77913a6_1": "sha256:00d646a78969a8bb14f3e87c3da6c68806230a0be5bc60d8e0d2a292a772354e"}, "docker": "quay.io/biocontainers/esme_hdf5_psmpi_4_3_2", "aliases": {"chacl": "/usr/local/bin/chacl", "getfacl": "/usr/local/bin/getfacl", "setfacl": "/usr/local/bin/setfacl", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "attr": "/usr/local/bin/attr", "getfattr": "/usr/local/bin/getfattr", "setfattr": "/usr/local/bin/setfattr", "h5delete": "/usr/local/bin/h5delete", "h5fc": "/usr/local/bin/h5fc", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam", "h5ls": "/usr/local/bin/h5ls", "h5mkgrp": "/usr/local/bin/h5mkgrp", "h5perf_serial": "/usr/local/bin/h5perf_serial", "h5repack": "/usr/local/bin/h5repack"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esme_hdf5_psmpi_4_3_2.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/esme_hdf5_psmpi_4_3_2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esme_hdf5_psmpi_4_3_2:2.0.0--h9d8eea5_0
+$ shpc install quay.io/biocontainers/esme_hdf5_psmpi_4_3_2:2.0.0--h77913a6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esme_hdf5_psmpi_4_3_2/2.0.0--h9d8eea5_0
-$ module help quay.io/biocontainers/esme_hdf5_psmpi_4_3_2/2.0.0--h9d8eea5_0
+$ module load quay.io/biocontainers/esme_hdf5_psmpi_4_3_2/2.0.0--h77913a6_1
+$ module help quay.io/biocontainers/esme_hdf5_psmpi_4_3_2/2.0.0--h77913a6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/euktect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/euktect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/euktect/container.yaml"
-updated_at: "2026-08-14 07:47:18.836181"
+updated_at: "2026-08-15 03:47:15.493551"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/euktect"
 aliases:

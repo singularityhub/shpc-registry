@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simona"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simona/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simona/container.yaml"
-updated_at: "2026-08-14 07:50:46.135771"
+updated_at: "2026-08-15 03:17:23.570595"
 latest: "1.8.1--pl5321r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-simona"
 aliases:
