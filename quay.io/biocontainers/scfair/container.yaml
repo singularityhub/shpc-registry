@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/scfair
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scfair
 latest:
-  0.8.0--pyhdfd78af_0: 
-    sha256:badceaa4eddd92c339e60b15108996cc343ced9df00aaf66dda00e0e09b3fca2
+  0.10.0--pyhdfd78af_0: 
+    sha256:18f51345134f8c5f27c1b5f0bfba74a97dbe7306c7f68efb0e23c8bfc236d9c9
 tags:
   0.8.0--pyhdfd78af_0: 
     sha256:badceaa4eddd92c339e60b15108996cc343ced9df00aaf66dda00e0e09b3fca2
+  0.10.0--pyhdfd78af_0: 
+    sha256:18f51345134f8c5f27c1b5f0bfba74a97dbe7306c7f68efb0e23c8bfc236d9c9
 docker: quay.io/biocontainers/scfair
 aliases:
   session-info2: /usr/local/bin/session-info2

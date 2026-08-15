@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/humid
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for humid
 latest:
-  1.0.4--heae3180_2: 
-    sha256:f875e6d2738e9b1a022a0ee8a48b904d6d81046a52e4367209bb5b51b35d70bf
+  1.0.5--h5381e58_0: 
+    sha256:f0e335f2bc7adc1a8ea2542feae749f834f4a03ad690e01ce61683e45f20f1f1
 tags:
   1.0.2--h5f740d0_0: 
     sha256:92ffab70af8abdad85fde89082996a41034d2fc84d9411737874feee0dc56607
@@ -15,6 +15,8 @@ tags:
     sha256:54d52a6ca89dba057759034c3d78c00d4ee30f04dee0d687ae3c1088bd350095
   1.0.4--heae3180_2: 
     sha256:f875e6d2738e9b1a022a0ee8a48b904d6d81046a52e4367209bb5b51b35d70bf
+  1.0.5--h5381e58_0: 
+    sha256:f0e335f2bc7adc1a8ea2542feae749f834f4a03ad690e01ce61683e45f20f1f1
 docker: quay.io/biocontainers/humid
 aliases:
   humid: /usr/local/bin/humid

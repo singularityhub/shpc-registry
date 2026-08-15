@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/svdb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for svdb
 latest:
-  2.10.2--py313h93e676e_0: 
-    sha256:57b0936d78d9e185b246e82d2dcee7cdb09c2dcb56305a6a64802a0ee928df26
+  2.12.0--py313h93e676e_0: 
+    sha256:b8c31217744981c5b2f899158cf26b52a7af18d1f985425d5111f3367a383254
 tags:
   2.5.2--py36h40b2fa4_0: 
     sha256:f83996eca213345a591c5c48018fa1b4aca0511e29d92b2d8976ba374de7bcbb
@@ -33,6 +33,8 @@ tags:
     sha256:9a3f7b7f2c5b0e4169336340d3366377ca494fd25151746a7b2eddd0aa1033eb
   2.10.2--py313h93e676e_0: 
     sha256:57b0936d78d9e185b246e82d2dcee7cdb09c2dcb56305a6a64802a0ee928df26
+  2.12.0--py313h93e676e_0: 
+    sha256:b8c31217744981c5b2f899158cf26b52a7af18d1f985425d5111f3367a383254
 docker: quay.io/biocontainers/svdb
 aliases:
   svdb: /usr/local/bin/svdb

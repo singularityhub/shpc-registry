@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/vitessce-python
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vitessce-python
 latest:
-  3.8.3--pyhdfd78af_0: 
-    sha256:421a6f9f3b3e68755a49d72981abf5d3fbb7a8acc5081d50cb3d91c3e27ed2f0
+  3.9.4--pyhdfd78af_0: 
+    sha256:05dd35c39fa8ef3a4b0a52e725ea3c39c5c6a301beac6db6fbb05f860ede8ed8
 tags:
   3.7.7--pyhdfd78af_0: 
     sha256:583c2c1e1c946c0e4db7ea7fde392590809477afe68300f8caa901155e6a4333
@@ -11,6 +11,8 @@ tags:
     sha256:b8a21eef1173ffc1237b7bb3c7c9612ecad5c91c7a5e227d874bdbad6adbc34e
   3.8.3--pyhdfd78af_0: 
     sha256:421a6f9f3b3e68755a49d72981abf5d3fbb7a8acc5081d50cb3d91c3e27ed2f0
+  3.9.4--pyhdfd78af_0: 
+    sha256:05dd35c39fa8ef3a4b0a52e725ea3c39c5c6a301beac6db6fbb05f860ede8ed8
 docker: quay.io/biocontainers/vitessce-python
 aliases:
   black: /usr/local/bin/black

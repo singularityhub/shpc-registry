@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/respro
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for respro
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:1e7acd5ff653bf604d287189813847a79977ee533acf06a1caab790e255a87f5
+  0.1.1--pyhdfd78af_0: 
+    sha256:d3dad5dcfb73a5190bbe73515527d53b0175d4e966ca3d473a4b103813779f34
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:1e7acd5ff653bf604d287189813847a79977ee533acf06a1caab790e255a87f5
+  0.1.1--pyhdfd78af_0: 
+    sha256:d3dad5dcfb73a5190bbe73515527d53b0175d4e966ca3d473a4b103813779f34
 docker: quay.io/biocontainers/respro
 aliases:
   cffi-gen-src: /usr/local/bin/cffi-gen-src

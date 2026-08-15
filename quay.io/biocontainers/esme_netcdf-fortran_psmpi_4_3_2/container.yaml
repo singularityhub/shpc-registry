@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   esme_netcdf-fortran_psmpi_4_3_2
 latest:
-  4.6.2--h52398bf_0: 
-    sha256:dad6a09f6d42ed6ad8c6355921c29bc310761af024a771fd05dbcb919e13dc41
+  4.6.2--hc720fc4_1: 
+    sha256:574baf07efd92ec9c7c51b96bac590dcc67aed1cbdc72307abd9af65577653b7
 tags:
   4.6.2--h52398bf_0: 
     sha256:dad6a09f6d42ed6ad8c6355921c29bc310761af024a771fd05dbcb919e13dc41
+  4.6.2--hc720fc4_1: 
+    sha256:574baf07efd92ec9c7c51b96bac590dcc67aed1cbdc72307abd9af65577653b7
 docker: quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2
 aliases:
   nc4print: /usr/local/bin/nc4print

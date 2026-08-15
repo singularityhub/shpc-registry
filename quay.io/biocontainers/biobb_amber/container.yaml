@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biobb_amber
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_amber
 latest:
-  5.2.1--py312hc5e4ab4_0: 
-    sha256:63006c90f36dda3dca8353e831c23b53d238be0f02930e843019666f0db2093f
+  5.3.1--py312hc5e4ab4_1: 
+    sha256:e575a40a5273e33e84fb6137359856469319b58ca589dd0ec9a562345069a290
 tags:
   3.8.0--pyhdfd78af_1: 
     sha256:191b3a2664ed3f62929addfc23fc8c300ec8a942d15a6394136a83638584126c
@@ -27,6 +27,8 @@ tags:
     sha256:63219a6536a810eecc672e74fba504eea09c19f840ebabec021e0af12702c524
   5.2.1--py312hc5e4ab4_0: 
     sha256:63006c90f36dda3dca8353e831c23b53d238be0f02930e843019666f0db2093f
+  5.3.1--py312hc5e4ab4_1: 
+    sha256:e575a40a5273e33e84fb6137359856469319b58ca589dd0ec9a562345069a290
 docker: quay.io/biocontainers/biobb_amber
 aliases:
   AddToBox: /usr/local/bin/AddToBox
