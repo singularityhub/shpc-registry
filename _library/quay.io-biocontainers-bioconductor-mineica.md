@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mineica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mineica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mineica/container.yaml"
-updated_at: "2026-08-15 03:14:53.545460"
+updated_at: "2026-08-16 03:26:29.308532"
 latest: "1.49.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mineica"
 

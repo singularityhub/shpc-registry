@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rhinotype"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rhinotype/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rhinotype/container.yaml"
-updated_at: "2026-08-15 03:16:24.027456"
+updated_at: "2026-08-16 03:28:11.130364"
 latest: "3.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rhinotype"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-miadash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-miadash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-miadash/container.yaml"
-updated_at: "2026-08-15 03:47:05.683588"
+updated_at: "2026-08-16 04:01:21.888193"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-miadash"
 aliases:

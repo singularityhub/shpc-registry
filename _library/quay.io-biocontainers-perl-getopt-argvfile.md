@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-getopt-argvfile"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-getopt-argvfile/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-getopt-argvfile/container.yaml"
-updated_at: "2026-08-15 03:55:18.218802"
+updated_at: "2026-08-16 04:09:59.956954"
 latest: "1.11--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-getopt-argvfile"
 aliases:

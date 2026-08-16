@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ntw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ntw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ntw/container.yaml"
-updated_at: "2026-08-15 03:15:26.761794"
+updated_at: "2026-08-16 03:27:06.729298"
 latest: "crane ls quay.io/biocontainers/bioconductor-ntw: unsupported status code 504; body: <html>"
 container_url: "https://biocontainers.pro/tools/bioconductor-ntw"
 

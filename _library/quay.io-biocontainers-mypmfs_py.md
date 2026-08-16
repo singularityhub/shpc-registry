@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mypmfs_py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mypmfs_py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mypmfs_py/container.yaml"
-updated_at: "2026-08-15 03:01:36.658378"
+updated_at: "2026-08-16 03:10:41.830218"
 latest: "0.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mypmfs_py"
 aliases:

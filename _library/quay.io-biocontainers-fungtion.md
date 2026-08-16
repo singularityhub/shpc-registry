@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fungtion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fungtion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fungtion/container.yaml"
-updated_at: "2026-08-15 03:15:07.861371"
+updated_at: "2026-08-16 03:26:45.399835"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fungtion"
 aliases:

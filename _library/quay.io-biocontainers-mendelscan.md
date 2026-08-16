@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mendelscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mendelscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mendelscan/container.yaml"
-updated_at: "2026-08-15 03:31:39.948245"
+updated_at: "2026-08-16 03:44:52.039436"
 latest: "v1.2.2--1"
 container_url: "https://biocontainers.pro/tools/mendelscan"
 aliases:

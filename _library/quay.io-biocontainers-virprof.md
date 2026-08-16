@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virprof"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virprof/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virprof/container.yaml"
-updated_at: "2026-08-15 03:15:42.611645"
+updated_at: "2026-08-16 03:27:24.605057"
 latest: "0.9.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/virprof"
 aliases:

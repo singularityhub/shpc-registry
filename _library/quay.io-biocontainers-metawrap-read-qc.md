@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-read-qc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-read-qc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-read-qc/container.yaml"
-updated_at: "2026-08-15 03:09:21.710106"
+updated_at: "2026-08-16 03:20:08.601819"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-read-qc"
 aliases:

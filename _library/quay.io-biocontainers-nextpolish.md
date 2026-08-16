@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextpolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextpolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextpolish/container.yaml"
-updated_at: "2026-08-15 03:36:50.944917"
+updated_at: "2026-08-16 03:50:39.733872"
 latest: "1.4.1--h3952c39_7"
 container_url: "https://biocontainers.pro/tools/nextpolish"
 aliases:

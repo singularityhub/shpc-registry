@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eukbin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukbin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukbin/container.yaml"
-updated_at: "2026-08-15 03:53:31.313849"
+updated_at: "2026-08-16 04:08:09.586882"
 latest: "0.1.0--py314hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eukbin"
 aliases:

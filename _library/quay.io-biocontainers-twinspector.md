@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/twinspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twinspector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twinspector/container.yaml"
-updated_at: "2026-08-15 03:36:27.129666"
-latest: "0.1.3--pyh106432d_0"
+updated_at: "2026-08-16 03:50:14.111367"
+latest: "0.1.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/twinspector"
 aliases:
  - "CRISPResso"
@@ -44,8 +44,9 @@ aliases:
 versions:
  - "0.1.1--pyh106432d_0"
  - "0.1.3--pyh106432d_0"
+ - "0.1.4--pyh106432d_0"
 description: "singularity registry hpc automated addition for twinspector"
-config: {"url": "https://biocontainers.pro/tools/twinspector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for twinspector", "latest": {"0.1.3--pyh106432d_0": "sha256:52bebaa313ad3fc4053d4fb79315a2a1468ea1bf0f7e9d8cc3ac6fbd065d95f6"}, "tags": {"0.1.1--pyh106432d_0": "sha256:3cfdffecbe53fc7e762f1b211b3a9027c8c627d9bd1ca6cac9f828d5247668be", "0.1.3--pyh106432d_0": "sha256:52bebaa313ad3fc4053d4fb79315a2a1468ea1bf0f7e9d8cc3ac6fbd065d95f6"}, "docker": "quay.io/biocontainers/twinspector", "aliases": {"CRISPResso": "/usr/local/bin/CRISPResso", "CRISPRessoAggregate": "/usr/local/bin/CRISPRessoAggregate", "CRISPRessoBatch": "/usr/local/bin/CRISPRessoBatch", "CRISPRessoCompare": "/usr/local/bin/CRISPRessoCompare", "CRISPRessoPooled": "/usr/local/bin/CRISPRessoPooled", "CRISPRessoPooledWGSCompare": "/usr/local/bin/CRISPRessoPooledWGSCompare", "CRISPRessoWGS": "/usr/local/bin/CRISPRessoWGS", "TwInsPEctor": "/usr/local/bin/TwInsPEctor", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "fastp": "/usr/local/bin/fastp", "ref-cache": "/usr/local/bin/ref-cache", "igzip": "/usr/local/bin/igzip", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "annot-tsv": "/usr/local/bin/annot-tsv", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12"}}
+config: {"url": "https://biocontainers.pro/tools/twinspector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for twinspector", "latest": {"0.1.4--pyh106432d_0": "sha256:0ec0bad92605846c20ed9bddd88334a8ba9d7e34aa1d32856ab9974eb116069f"}, "tags": {"0.1.1--pyh106432d_0": "sha256:3cfdffecbe53fc7e762f1b211b3a9027c8c627d9bd1ca6cac9f828d5247668be", "0.1.3--pyh106432d_0": "sha256:52bebaa313ad3fc4053d4fb79315a2a1468ea1bf0f7e9d8cc3ac6fbd065d95f6", "0.1.4--pyh106432d_0": "sha256:0ec0bad92605846c20ed9bddd88334a8ba9d7e34aa1d32856ab9974eb116069f"}, "docker": "quay.io/biocontainers/twinspector", "aliases": {"CRISPResso": "/usr/local/bin/CRISPResso", "CRISPRessoAggregate": "/usr/local/bin/CRISPRessoAggregate", "CRISPRessoBatch": "/usr/local/bin/CRISPRessoBatch", "CRISPRessoCompare": "/usr/local/bin/CRISPRessoCompare", "CRISPRessoPooled": "/usr/local/bin/CRISPRessoPooled", "CRISPRessoPooledWGSCompare": "/usr/local/bin/CRISPRessoPooledWGSCompare", "CRISPRessoWGS": "/usr/local/bin/CRISPRessoWGS", "TwInsPEctor": "/usr/local/bin/TwInsPEctor", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "fastp": "/usr/local/bin/fastp", "ref-cache": "/usr/local/bin/ref-cache", "igzip": "/usr/local/bin/igzip", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "annot-tsv": "/usr/local/bin/annot-tsv", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/twinspector.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/twinspector
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/twinspector:0.1.3--pyh106432d_0
+$ shpc install quay.io/biocontainers/twinspector:0.1.4--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/twinspector/0.1.3--pyh106432d_0
-$ module help quay.io/biocontainers/twinspector/0.1.3--pyh106432d_0
+$ module load quay.io/biocontainers/twinspector/0.1.4--pyh106432d_0
+$ module help quay.io/biocontainers/twinspector/0.1.4--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

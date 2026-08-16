@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2/container.yaml"
-updated_at: "2026-08-15 03:41:55.022321"
-latest: "4.6.2--h52398bf_0"
+updated_at: "2026-08-16 03:55:58.724555"
+latest: "4.6.2--hc720fc4_1"
 container_url: "https://biocontainers.pro/tools/esme_netcdf-fortran_psmpi_4_3_2"
 aliases:
  - "nc4print"
@@ -35,8 +35,9 @@ aliases:
  - "ncgen"
 versions:
  - "4.6.2--h52398bf_0"
+ - "4.6.2--hc720fc4_1"
 description: "singularity registry hpc automated addition for esme_netcdf-fortran_psmpi_4_3_2"
-config: {"url": "https://biocontainers.pro/tools/esme_netcdf-fortran_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_netcdf-fortran_psmpi_4_3_2", "latest": {"4.6.2--h52398bf_0": "sha256:dad6a09f6d42ed6ad8c6355921c29bc310761af024a771fd05dbcb919e13dc41"}, "tags": {"4.6.2--h52398bf_0": "sha256:dad6a09f6d42ed6ad8c6355921c29bc310761af024a771fd05dbcb919e13dc41"}, "docker": "quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2", "aliases": {"nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "chacl": "/usr/local/bin/chacl", "getfacl": "/usr/local/bin/getfacl", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "nf-config": "/usr/local/bin/nf-config", "attr": "/usr/local/bin/attr", "getfattr": "/usr/local/bin/getfattr", "setfattr": "/usr/local/bin/setfattr", "nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen"}}
+config: {"url": "https://biocontainers.pro/tools/esme_netcdf-fortran_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_netcdf-fortran_psmpi_4_3_2", "latest": {"4.6.2--hc720fc4_1": "sha256:574baf07efd92ec9c7c51b96bac590dcc67aed1cbdc72307abd9af65577653b7"}, "tags": {"4.6.2--h52398bf_0": "sha256:dad6a09f6d42ed6ad8c6355921c29bc310761af024a771fd05dbcb919e13dc41", "4.6.2--hc720fc4_1": "sha256:574baf07efd92ec9c7c51b96bac590dcc67aed1cbdc72307abd9af65577653b7"}, "docker": "quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2", "aliases": {"nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "chacl": "/usr/local/bin/chacl", "getfacl": "/usr/local/bin/getfacl", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "nf-config": "/usr/local/bin/nf-config", "attr": "/usr/local/bin/attr", "getfattr": "/usr/local/bin/getfattr", "setfattr": "/usr/local/bin/setfattr", "nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2:4.6.2--h52398bf_0
+$ shpc install quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2:4.6.2--hc720fc4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2/4.6.2--h52398bf_0
-$ module help quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2/4.6.2--h52398bf_0
+$ module load quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2/4.6.2--hc720fc4_1
+$ module help quay.io/biocontainers/esme_netcdf-fortran_psmpi_4_3_2/4.6.2--hc720fc4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

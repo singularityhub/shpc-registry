@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-algorithm-dependency"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-algorithm-dependency/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-algorithm-dependency/container.yaml"
-updated_at: "2026-08-15 03:18:23.449426"
+updated_at: "2026-08-16 03:30:25.134277"
 latest: "1.112--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-algorithm-dependency"
 aliases:

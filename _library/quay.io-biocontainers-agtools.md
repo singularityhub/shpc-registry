@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/agtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/agtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/agtools/container.yaml"
-updated_at: "2026-08-15 03:06:52.344947"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2026-08-16 03:17:08.256784"
+latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/agtools"
 aliases:
  - "agtools"
@@ -23,8 +23,9 @@ versions:
  - "1.0.2--py313hdfd78af_0"
  - "1.1.0--pyhdfd78af_0"
  - "1.1.1--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for agtools"
-config: {"url": "https://biocontainers.pro/tools/agtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for agtools", "latest": {"1.1.1--pyhdfd78af_0": "sha256:9ee4611171ad4d1c2129a7330a5213a450995544b9aac83f8da83a58aed65fbd"}, "tags": {"0.1.1--py313hdfd78af_0": "sha256:0625a4041dbba43b8cb16063052807426abeab604818ae443f2abddb8a88b962", "0.1.2--py313hdfd78af_0": "sha256:23ee29b5e96934bebd0a3961b4473ea976902650dfe5b97b566f044581a6f70d", "1.0.1--py313hdfd78af_1": "sha256:2c795507ab4e65ba883861e63d3519ab35925e2b522c82bba0c80e49bff9d72d", "1.0.2--py313hdfd78af_0": "sha256:cfb37fae4d0f89e086d0cb8869d882e8cf5b90d64cfc8f2577b36a7b8c7ab095", "1.1.0--pyhdfd78af_0": "sha256:9bcf6d3a63b32f8a91b8825370266fdb97c39a271d4c250f3d66ef4e65465801", "1.1.1--pyhdfd78af_0": "sha256:9ee4611171ad4d1c2129a7330a5213a450995544b9aac83f8da83a58aed65fbd"}, "docker": "quay.io/biocontainers/agtools", "aliases": {"agtools": "/usr/local/bin/agtools", "igraph": "/usr/local/bin/igraph", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/agtools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for agtools", "latest": {"1.1.2--pyhdfd78af_0": "sha256:a6732a3759046afe42e734835f3e5d1efeeaa1f0c517b46b6bb5a2dc2af9d543"}, "tags": {"0.1.1--py313hdfd78af_0": "sha256:0625a4041dbba43b8cb16063052807426abeab604818ae443f2abddb8a88b962", "0.1.2--py313hdfd78af_0": "sha256:23ee29b5e96934bebd0a3961b4473ea976902650dfe5b97b566f044581a6f70d", "1.0.1--py313hdfd78af_1": "sha256:2c795507ab4e65ba883861e63d3519ab35925e2b522c82bba0c80e49bff9d72d", "1.0.2--py313hdfd78af_0": "sha256:cfb37fae4d0f89e086d0cb8869d882e8cf5b90d64cfc8f2577b36a7b8c7ab095", "1.1.0--pyhdfd78af_0": "sha256:9bcf6d3a63b32f8a91b8825370266fdb97c39a271d4c250f3d66ef4e65465801", "1.1.1--pyhdfd78af_0": "sha256:9ee4611171ad4d1c2129a7330a5213a450995544b9aac83f8da83a58aed65fbd", "1.1.2--pyhdfd78af_0": "sha256:a6732a3759046afe42e734835f3e5d1efeeaa1f0c517b46b6bb5a2dc2af9d543"}, "docker": "quay.io/biocontainers/agtools", "aliases": {"agtools": "/usr/local/bin/agtools", "igraph": "/usr/local/bin/igraph", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/agtools.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/agtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/agtools:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/agtools:1.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/agtools/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/agtools/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/agtools/1.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/agtools/1.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

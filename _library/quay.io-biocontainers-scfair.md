@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scfair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scfair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scfair/container.yaml"
-updated_at: "2026-08-15 03:14:50.511779"
-latest: "0.8.0--pyhdfd78af_0"
+updated_at: "2026-08-16 03:26:25.898695"
+latest: "0.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scfair"
 aliases:
  - "session-info2"
@@ -35,8 +35,9 @@ aliases:
  - "lstopo"
 versions:
  - "0.8.0--pyhdfd78af_0"
+ - "0.10.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scfair"
-config: {"url": "https://biocontainers.pro/tools/scfair", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scfair", "latest": {"0.8.0--pyhdfd78af_0": "sha256:badceaa4eddd92c339e60b15108996cc343ced9df00aaf66dda00e0e09b3fca2"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:badceaa4eddd92c339e60b15108996cc343ced9df00aaf66dda00e0e09b3fca2"}, "docker": "quay.io/biocontainers/scfair", "aliases": {"session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "dotenv": "/usr/local/bin/dotenv", "fc-genconf": "/usr/local/bin/fc-genconf", "igraph": "/usr/local/bin/igraph", "h2benchmark": "/usr/local/bin/h2benchmark", "scanpy": "/usr/local/bin/scanpy", "checksum-profile": "/usr/local/bin/checksum-profile", "elasticurl": "/usr/local/bin/elasticurl", "natsort": "/usr/local/bin/natsort", "numba": "/usr/local/bin/numba", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo"}}
+config: {"url": "https://biocontainers.pro/tools/scfair", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scfair", "latest": {"0.10.0--pyhdfd78af_0": "sha256:18f51345134f8c5f27c1b5f0bfba74a97dbe7306c7f68efb0e23c8bfc236d9c9"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:badceaa4eddd92c339e60b15108996cc343ced9df00aaf66dda00e0e09b3fca2", "0.10.0--pyhdfd78af_0": "sha256:18f51345134f8c5f27c1b5f0bfba74a97dbe7306c7f68efb0e23c8bfc236d9c9"}, "docker": "quay.io/biocontainers/scfair", "aliases": {"session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "dotenv": "/usr/local/bin/dotenv", "fc-genconf": "/usr/local/bin/fc-genconf", "igraph": "/usr/local/bin/igraph", "h2benchmark": "/usr/local/bin/h2benchmark", "scanpy": "/usr/local/bin/scanpy", "checksum-profile": "/usr/local/bin/checksum-profile", "elasticurl": "/usr/local/bin/elasticurl", "natsort": "/usr/local/bin/natsort", "numba": "/usr/local/bin/numba", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scfair.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/scfair
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scfair:0.8.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scfair:0.10.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scfair/0.8.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/scfair/0.8.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/scfair/0.10.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/scfair/0.10.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

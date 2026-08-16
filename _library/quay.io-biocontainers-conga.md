@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/conga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conga/container.yaml"
-updated_at: "2026-08-15 02:57:14.689870"
+updated_at: "2026-08-16 03:05:44.003553"
 latest: "1.1--h3050eb1_0"
 container_url: "https://biocontainers.pro/tools/conga"
 aliases:

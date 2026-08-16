@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/respro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/respro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/respro/container.yaml"
-updated_at: "2026-08-15 03:28:54.063707"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-08-16 03:41:51.865382"
+latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/respro"
 aliases:
  - "cffi-gen-src"
@@ -37,8 +37,9 @@ aliases:
  - "brotli"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for respro"
-config: {"url": "https://biocontainers.pro/tools/respro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for respro", "latest": {"0.1.0--pyhdfd78af_0": "sha256:1e7acd5ff653bf604d287189813847a79977ee533acf06a1caab790e255a87f5"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:1e7acd5ff653bf604d287189813847a79977ee533acf06a1caab790e255a87f5"}, "docker": "quay.io/biocontainers/respro", "aliases": {"cffi-gen-src": "/usr/local/bin/cffi-gen-src", "respro": "/usr/local/bin/respro", "weasyprint": "/usr/local/bin/weasyprint", "minimap2.py": "/usr/local/bin/minimap2.py", "fc-genconf": "/usr/local/bin/fc-genconf", "typer": "/usr/local/bin/typer", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/respro", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for respro", "latest": {"0.1.1--pyhdfd78af_0": "sha256:d3dad5dcfb73a5190bbe73515527d53b0175d4e966ca3d473a4b103813779f34"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:1e7acd5ff653bf604d287189813847a79977ee533acf06a1caab790e255a87f5", "0.1.1--pyhdfd78af_0": "sha256:d3dad5dcfb73a5190bbe73515527d53b0175d4e966ca3d473a4b103813779f34"}, "docker": "quay.io/biocontainers/respro", "aliases": {"cffi-gen-src": "/usr/local/bin/cffi-gen-src", "respro": "/usr/local/bin/respro", "weasyprint": "/usr/local/bin/weasyprint", "minimap2.py": "/usr/local/bin/minimap2.py", "fc-genconf": "/usr/local/bin/fc-genconf", "typer": "/usr/local/bin/typer", "gi-compile-repository": "/usr/local/bin/gi-compile-repository", "gi-decompile-typelib": "/usr/local/bin/gi-decompile-typelib", "gi-inspect-typelib": "/usr/local/bin/gi-inspect-typelib", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/respro.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/respro
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/respro:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/respro:0.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/respro/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/respro/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/respro/0.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/respro/0.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

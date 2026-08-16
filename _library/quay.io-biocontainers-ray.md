@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ray/container.yaml"
-updated_at: "2026-08-15 03:10:06.575668"
-latest: "2.3.1--h719ac0c_7"
+updated_at: "2026-08-16 03:21:01.549968"
+latest: "2.3.1--ha45b1c3_8"
 container_url: "https://biocontainers.pro/tools/ray"
 aliases:
  - "Ray"
@@ -24,8 +24,9 @@ versions:
  - "2.3.1--h105e827_5"
  - "2.3.1--hdf94a1f_6"
  - "2.3.1--h719ac0c_7"
+ - "2.3.1--ha45b1c3_8"
 description: "shpc-registry automated BioContainers addition for ray"
-config: {"url": "https://biocontainers.pro/tools/ray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ray", "latest": {"2.3.1--h719ac0c_7": "sha256:d8a47c588afd1e13f3db5f8178803204e32464dd8e75c49940f1c9c159fe099a"}, "tags": {"2.3.1--h105e827_4": "sha256:eb31e83b1423b3f2f1a406e8ee6aeca49c679beadf61badb814174118f40f0fa", "2.3.1--h105e827_5": "sha256:b038f14bc2f0a6c94d2afd3b1a9c2f70c4d4c06a0d1ab61de22989ef75c5a661", "2.3.1--hdf94a1f_6": "sha256:ab91599c5e6352a493d1f2fe509a5136d077b0e1e3afd20f1077a4e54d851c36", "2.3.1--h719ac0c_7": "sha256:d8a47c588afd1e13f3db5f8178803204e32464dd8e75c49940f1c9c159fe099a"}, "docker": "quay.io/biocontainers/ray", "aliases": {"Ray": "/usr/local/bin/Ray", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
+config: {"url": "https://biocontainers.pro/tools/ray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ray", "latest": {"2.3.1--ha45b1c3_8": "sha256:6101cc10e461eb1dd1c3d098882a90f8ce006a5dc9ef25c575ddb55533a59f62"}, "tags": {"2.3.1--h105e827_4": "sha256:eb31e83b1423b3f2f1a406e8ee6aeca49c679beadf61badb814174118f40f0fa", "2.3.1--h105e827_5": "sha256:b038f14bc2f0a6c94d2afd3b1a9c2f70c4d4c06a0d1ab61de22989ef75c5a661", "2.3.1--hdf94a1f_6": "sha256:ab91599c5e6352a493d1f2fe509a5136d077b0e1e3afd20f1077a4e54d851c36", "2.3.1--h719ac0c_7": "sha256:d8a47c588afd1e13f3db5f8178803204e32464dd8e75c49940f1c9c159fe099a", "2.3.1--ha45b1c3_8": "sha256:6101cc10e461eb1dd1c3d098882a90f8ce006a5dc9ef25c575ddb55533a59f62"}, "docker": "quay.io/biocontainers/ray", "aliases": {"Ray": "/usr/local/bin/Ray", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ray.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/ray
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ray:2.3.1--h719ac0c_7
+$ shpc install quay.io/biocontainers/ray:2.3.1--ha45b1c3_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ray/2.3.1--h719ac0c_7
-$ module help quay.io/biocontainers/ray/2.3.1--h719ac0c_7
+$ module load quay.io/biocontainers/ray/2.3.1--ha45b1c3_8
+$ module help quay.io/biocontainers/ray/2.3.1--ha45b1c3_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/serovar_detector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/serovar_detector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/serovar_detector/container.yaml"
-updated_at: "2026-08-15 03:04:07.522224"
+updated_at: "2026-08-16 03:13:48.687131"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/serovar_detector"
 aliases:
