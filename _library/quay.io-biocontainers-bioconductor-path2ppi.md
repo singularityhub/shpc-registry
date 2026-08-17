@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-path2ppi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-path2ppi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-path2ppi/container.yaml"
-updated_at: "2026-08-16 03:28:14.202754"
+updated_at: "2026-08-17 03:24:32.255592"
 latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-path2ppi"
 aliases:

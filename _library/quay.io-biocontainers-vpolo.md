@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vpolo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vpolo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vpolo/container.yaml"
-updated_at: "2026-08-16 03:34:44.433646"
+updated_at: "2026-08-17 03:30:23.903281"
 latest: "0.3.0--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/vpolo"
 aliases:

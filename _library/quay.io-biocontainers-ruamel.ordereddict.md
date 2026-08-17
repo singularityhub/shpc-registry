@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ruamel.ordereddict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruamel.ordereddict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruamel.ordereddict/container.yaml"
-updated_at: "2026-08-16 03:47:04.361461"
+updated_at: "2026-08-17 03:41:25.546775"
 latest: "0.4.6--py27_0"
 container_url: "https://biocontainers.pro/tools/ruamel.ordereddict"
 aliases:

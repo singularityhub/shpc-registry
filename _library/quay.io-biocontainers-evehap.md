@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/evehap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/evehap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/evehap/container.yaml"
-updated_at: "2026-08-16 03:56:47.462579"
+updated_at: "2026-08-17 03:50:08.784366"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/evehap"
 aliases:

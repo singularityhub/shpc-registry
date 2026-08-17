@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/famdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/famdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/famdb/container.yaml"
-updated_at: "2026-08-16 03:27:34.195330"
+updated_at: "2026-08-17 03:23:56.965031"
 latest: "3.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/famdb"
 aliases:

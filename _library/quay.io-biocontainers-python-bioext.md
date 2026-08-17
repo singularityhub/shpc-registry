@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-bioext"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-bioext/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-bioext/container.yaml"
-updated_at: "2026-08-16 03:41:47.533683"
+updated_at: "2026-08-17 03:36:42.575776"
 latest: "0.21.10--py39h8931b72_0"
 container_url: "https://biocontainers.pro/tools/python-bioext"
 aliases:

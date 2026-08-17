@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-heap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-heap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-heap/container.yaml"
-updated_at: "2026-08-16 03:30:48.565356"
+updated_at: "2026-08-17 03:26:49.935773"
 latest: "0.80--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-heap"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gloscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gloscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gloscope/container.yaml"
-updated_at: "2026-08-16 04:04:35.020770"
+updated_at: "2026-08-17 03:57:22.140513"
 latest: "2.0.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gloscope"
 aliases:

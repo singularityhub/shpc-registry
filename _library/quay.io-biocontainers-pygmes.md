@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygmes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygmes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygmes/container.yaml"
-updated_at: "2026-08-16 04:00:42.066346"
+updated_at: "2026-08-17 03:53:48.434623"
 latest: "0.1.7--py_0"
 container_url: "https://biocontainers.pro/tools/pygmes"
 aliases:

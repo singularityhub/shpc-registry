@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/get_mnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/get_mnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/get_mnv/container.yaml"
-updated_at: "2026-08-16 03:08:06.167209"
+updated_at: "2026-08-17 03:07:43.278840"
 latest: "1.1.4--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/get_mnv"
 aliases:

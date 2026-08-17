@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamboozle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamboozle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamboozle/container.yaml"
-updated_at: "2026-08-16 04:04:42.844687"
+updated_at: "2026-08-17 03:57:29.375227"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamboozle"
 aliases:

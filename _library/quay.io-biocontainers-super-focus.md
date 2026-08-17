@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/super-focus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/super-focus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/super-focus/container.yaml"
-updated_at: "2026-08-16 03:28:31.226216"
+updated_at: "2026-08-17 03:24:47.265512"
 latest: "1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/super-focus"
 aliases:

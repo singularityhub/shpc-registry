@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-limpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-limpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-limpa/container.yaml"
-updated_at: "2026-08-16 03:24:27.469938"
+updated_at: "2026-08-17 03:21:11.998800"
 latest: "1.2.5--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-limpa"
 aliases:
