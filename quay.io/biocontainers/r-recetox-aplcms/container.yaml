@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-recetox-aplcms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-recetox-aplcms
 latest:
-  0.14.2--r43hdfd78af_0: 
-    sha256:e48f0f8e5af021c5023d9b6faedffcf0e0f42735a59af89fe2734fe8a66910da
+  0.15.0--r45hdfd78af_0: 
+    sha256:c986f95d67438df93d09c4a27d1d95e5db3278a838ee7c9faa70f77ce34a4e78
 tags:
   0.9.4--r41hdfd78af_0: 
     sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e
@@ -39,6 +39,8 @@ tags:
     sha256:917d0b4e3fafbd7cf8f97a7bc830f19584c9d0add24414e10dfb03991a575176
   0.14.2--r43hdfd78af_0: 
     sha256:e48f0f8e5af021c5023d9b6faedffcf0e0f42735a59af89fe2734fe8a66910da
+  0.15.0--r45hdfd78af_0: 
+    sha256:c986f95d67438df93d09c4a27d1d95e5db3278a838ee7c9faa70f77ce34a4e78
 docker: quay.io/biocontainers/r-recetox-aplcms
 aliases:
   csv-import: /usr/local/bin/csv-import

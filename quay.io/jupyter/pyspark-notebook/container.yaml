@@ -4,11 +4,11 @@ maintainer: '@HasseJohansen'
 description: Jupyter PySpark Notebook from 
   https://github.com/jupyter/docker-stacks
 latest:
-  '2026-07-13': 
-    sha256:edec05f88e1ef33b2b13fb7a28b31a9aa6c0029ac07097f62fd95a726fd04c59
+  '2026-08-17': 
+    sha256:8668549dec968ef5f9d97cfebd10fdc4752797b1a8249f405fc3cbb06988afb5
 tags:
   latest: 
-    sha256:edec05f88e1ef33b2b13fb7a28b31a9aa6c0029ac07097f62fd95a726fd04c59
+    sha256:8668549dec968ef5f9d97cfebd10fdc4752797b1a8249f405fc3cbb06988afb5
   '2025-05-30': 
     sha256:aae52902c4ef29831c33c3e04f671ff104cc625611a09666b6eb58378ee813d3
   '2025-06-16': 
@@ -63,6 +63,14 @@ tags:
     sha256:edec05f88e1ef33b2b13fb7a28b31a9aa6c0029ac07097f62fd95a726fd04c59
   '2026-06-28': 
     sha256:d7745cab8baedac823d3bf4a52783f5721f19c571b282589e62416ca7d278165
+  '2026-08-17': 
+    sha256:8668549dec968ef5f9d97cfebd10fdc4752797b1a8249f405fc3cbb06988afb5
+  '2026-07-28': 
+    sha256:5c705e01ecb4b40af230a9462e904735c1782e1b1c164736c48727b106ee166e
+  '2026-06-22': 
+    sha256:cc0f2f0cc1723f87ee3527f1477cf2c2791d68127a0f0a5729f3827ffaa1ac92
+  '2025-10-06': 
+    sha256:1fd5aeefbd9ce480f37f33b8e630b8a14f58917a7d67271e6c2522e04d316031
 aliases:
 - name: run-notebook
   command: jupyter notebook --no-browser --port=$(shuf -i 2000-65000 -n 1) --ip 

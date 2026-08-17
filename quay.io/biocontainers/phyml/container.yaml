@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phyml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phyml
 latest:
-  3.3.20220408--h9bc3f66_3: 
-    sha256:3ebcbf0d290bd9aa4cc32972e889f2678ef6c5a36bc588b0b271b1208387c2cb
+  3.3.20260528--h34a2149_0: 
+    sha256:7c3cfe76e6b705b64ec1e26bb0b9ab9e1ac5c49b0d232949b73b36870ec6f47d
 tags:
   3.3.20211231--hee9e358_0: 
     sha256:1be3026768229e8f439fbb3357f1a13f8c4706378daaa35a0a646816a61a880f
@@ -17,6 +17,8 @@ tags:
     sha256:e136d5c86bd30456c6931d1a6c18a4be34f2b4030b40abfa55123b8f3cb6ac91
   3.3.20220408--h9bc3f66_3: 
     sha256:3ebcbf0d290bd9aa4cc32972e889f2678ef6c5a36bc588b0b271b1208387c2cb
+  3.3.20260528--h34a2149_0: 
+    sha256:7c3cfe76e6b705b64ec1e26bb0b9ab9e1ac5c49b0d232949b73b36870ec6f47d
 docker: quay.io/biocontainers/phyml
 aliases:
   phyml: /usr/local/bin/phyml
