@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/proteomiqon-psmbasedquantificationtims
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  proteomiqon-psmbasedquantificationtims
+latest:
+  0.0.12--hdfd78af_0: 
+    sha256:cb44eb2ff8d011be65fb6e8981d5d19d1be148c3e634a3438adf954c2a9e027f
+tags:
+  0.0.12--hdfd78af_0: 
+    sha256:cb44eb2ff8d011be65fb6e8981d5d19d1be148c3e634a3438adf954c2a9e027f
+docker: quay.io/biocontainers/proteomiqon-psmbasedquantificationtims
+aliases:
+  proteomiqon-psmbasedquantificationtims: 
+    /usr/local/bin/proteomiqon-psmbasedquantificationtims
