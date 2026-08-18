@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/acidgenomes
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for acidgenomes
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:8f8472a308abf043439a59fa83af3fbcece9dc615e415352aeac9422d439a203
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:8f8472a308abf043439a59fa83af3fbcece9dc615e415352aeac9422d439a203
+docker: quay.io/biocontainers/acidgenomes
+aliases:
+  idna: /usr/local/bin/idna
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer
