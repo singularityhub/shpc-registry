@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mlstudio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mlstudio
 latest:
-  1.4.0--pyhdfd78af_0: 
-    sha256:e69305b858932d77513a4ed5d987283ecd323e93aba0283f44e007c3f917cad3
+  1.5.0--pyhdfd78af_0: 
+    sha256:5d6e19a290c0b61fcb4b6dd9174afb09e90bb04c21b1860d83ee9e39e8095765
 tags:
   1.4.0--pyhdfd78af_0: 
     sha256:e69305b858932d77513a4ed5d987283ecd323e93aba0283f44e007c3f917cad3
+  1.5.0--pyhdfd78af_0: 
+    sha256:5d6e19a290c0b61fcb4b6dd9174afb09e90bb04c21b1860d83ee9e39e8095765
 docker: quay.io/biocontainers/mlstudio
 aliases:
   amrfinder_index: /usr/local/bin/amrfinder_index

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/vartracker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for vartracker
 latest:
-  2.2.1--pyhdfd78af_0: 
-    sha256:727335c35293c7131386428b6c2f0227a6498dc040f5c6f455b649e1069654ef
+  2.3.0--pyhdfd78af_0: 
+    sha256:02597a4484ee5aa1532b8983c03326b8e3656afa09d019f9a2717e9a24ef42a1
 tags:
   2.1.1--pyhdfd78af_0: 
     sha256:ff12cf8419440406a1e67ba9463d46fc6d8a8ca6acbe1eb92eacaef79e4df329
   2.2.1--pyhdfd78af_0: 
     sha256:727335c35293c7131386428b6c2f0227a6498dc040f5c6f455b649e1069654ef
+  2.3.0--pyhdfd78af_0: 
+    sha256:02597a4484ee5aa1532b8983c03326b8e3656afa09d019f9a2717e9a24ef42a1
 docker: quay.io/biocontainers/vartracker
 aliases:
   gff2gff: /usr/local/bin/gff2gff

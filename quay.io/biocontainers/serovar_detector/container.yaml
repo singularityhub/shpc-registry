@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/serovar_detector
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for serovar_detector
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:d819ea63a0d1f66a1656cdb5e8177e75c8097a24b780e574612641ea662d3dd4
+  1.1.1--pyhdfd78af_0: 
+    sha256:99b56c597b246a209eb7590f4f5a167f0075d79f95f127ae1f2ad3fb1d910351
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:d819ea63a0d1f66a1656cdb5e8177e75c8097a24b780e574612641ea662d3dd4
+  1.1.1--pyhdfd78af_0: 
+    sha256:99b56c597b246a209eb7590f4f5a167f0075d79f95f127ae1f2ad3fb1d910351
 docker: quay.io/biocontainers/serovar_detector
 aliases:
   cffi-gen-src: /usr/local/bin/cffi-gen-src

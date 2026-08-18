@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nbitk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nbitk
 latest:
-  0.7.3--pyh1f0d9b5_0: 
-    sha256:19f6ad7d2260fb9e224a9604e3dbac5a3329d3e5cbc0d16e39d797b7a10bdb65
+  0.7.4--pyhdfd78af_0: 
+    sha256:86d87727985ebdd7441734b9be27c68a3922c2becdb4350153589068e5d33933
 tags:
   0.3.2--pyhdfd78af_0: 
     sha256:e20c585af9b573310817d8584e1eec1ef3c91cf2c9a022b65b2bb1de1aec11ef
@@ -29,6 +29,8 @@ tags:
     sha256:5336c4e351387cc18d3175f10f7a3938bf938f94a58488fc78e4d1b4057e1465
   0.7.3--pyh1f0d9b5_0: 
     sha256:19f6ad7d2260fb9e224a9604e3dbac5a3329d3e5cbc0d16e39d797b7a10bdb65
+  0.7.4--pyhdfd78af_0: 
+    sha256:86d87727985ebdd7441734b9be27c68a3922c2becdb4350153589068e5d33933
 docker: quay.io/biocontainers/nbitk
 aliases:
   dbicadmin: /usr/local/bin/dbicadmin

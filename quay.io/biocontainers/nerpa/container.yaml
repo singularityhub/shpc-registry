@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nerpa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nerpa
 latest:
-  2.1.0--hd63eeec_0: 
-    sha256:8e72fe634bf94d9b49497168d5bcec69278e31bd1dbdd7ecdb53745cda87c7ed
+  2.1.0--hd63eeec_1: 
+    sha256:52ff4c6e92e4adeab2dfc641d4f091a4dd58e3363a56e37be94a4b27d6f61827
 tags:
   1.0.0--py37h96cfd12_3: 
     sha256:69ec060b9b2a85c55eec39740432cff442ca9bcec83cf741dd0e823c13ae5119
@@ -15,6 +15,8 @@ tags:
     sha256:8b19ea7a81043684bc53c77928dcd23304930b59aa63da66e4983930841bed18
   2.1.0--hd63eeec_0: 
     sha256:8e72fe634bf94d9b49497168d5bcec69278e31bd1dbdd7ecdb53745cda87c7ed
+  2.1.0--hd63eeec_1: 
+    sha256:52ff4c6e92e4adeab2dfc641d4f091a4dd58e3363a56e37be94a4b27d6f61827
 docker: quay.io/biocontainers/nerpa
 aliases:
   NRPsMatcher: /usr/local/bin/NRPsMatcher
