@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/tesseract-assembler
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for tesseract-assembler
+latest:
+  1.2.2--h03affb9_0: 
+    sha256:00d4daee77d4a7e68c687adfc260afe91cbd251561d6526c035d0284ba85c730
+tags:
+  1.2.2--h03affb9_0: 
+    sha256:00d4daee77d4a7e68c687adfc260afe91cbd251561d6526c035d0284ba85c730
+docker: quay.io/biocontainers/tesseract-assembler
+aliases:
+  tessera: /usr/local/bin/tessera
+  tessera-model: /usr/local/bin/tessera-model
