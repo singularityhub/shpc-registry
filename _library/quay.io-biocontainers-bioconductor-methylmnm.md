@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methylmnm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylmnm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylmnm/container.yaml"
-updated_at: "2026-08-17 03:03:52.298527"
+updated_at: "2026-08-18 02:58:57.801496"
 latest: "1.44.0--r44h3df3fcb_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylmnm"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-imcrtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imcrtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imcrtools/container.yaml"
-updated_at: "2026-08-17 03:19:37.826082"
+updated_at: "2026-08-18 03:14:07.906292"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imcrtools"
 aliases:

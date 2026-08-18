@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/req"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/req/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/req/container.yaml"
-updated_at: "2026-08-17 03:09:09.741399"
+updated_at: "2026-08-18 03:04:09.954521"
 latest: "v1.3.190304ac--1"
 container_url: "https://biocontainers.pro/tools/req"
 aliases:

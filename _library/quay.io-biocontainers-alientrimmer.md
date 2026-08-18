@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alientrimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alientrimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alientrimmer/container.yaml"
-updated_at: "2026-08-17 04:01:00.382560"
+updated_at: "2026-08-18 03:54:30.748528"
 latest: "2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alientrimmer"
 aliases:

@@ -4,7 +4,7 @@ name:  "hashicorp/consul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/hashicorp/consul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/hashicorp/consul/container.yaml"
-updated_at: "2026-08-17 04:02:50.255855"
+updated_at: "2026-08-18 03:56:21.213684"
 latest: "2.0.0-rc1"
 container_url: "https://hub.docker.com/r/hashicorp/consul"
 aliases:

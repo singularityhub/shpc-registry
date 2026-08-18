@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fishplotpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fishplotpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fishplotpy/container.yaml"
-updated_at: "2026-08-17 03:05:05.247375"
+updated_at: "2026-08-18 03:00:09.033293"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fishplotpy"
 aliases:

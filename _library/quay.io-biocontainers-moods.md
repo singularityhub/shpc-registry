@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/moods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moods/container.yaml"
-updated_at: "2026-08-17 03:44:53.710874"
-latest: "1.9.4.2--py39h2de1943_3"
+updated_at: "2026-08-18 03:38:22.876894"
+latest: "1.9.4.2--py313h0bdc4b4_4"
 container_url: "https://biocontainers.pro/tools/moods"
 aliases:
  - "ccache-swig"
@@ -29,8 +29,9 @@ versions:
  - "1.9.4.2--py310h84f13bb_1"
  - "1.9.4.2--py312h28adbb1_2"
  - "1.9.4.2--py39h2de1943_3"
+ - "1.9.4.2--py313h0bdc4b4_4"
 description: "shpc-registry automated BioContainers addition for moods"
-config: {"url": "https://biocontainers.pro/tools/moods", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moods", "latest": {"1.9.4.2--py39h2de1943_3": "sha256:9fb41facce9af7dcee19f97dec1dd65d05c3a8e45bed0e599df7e3e87c80b3ca"}, "tags": {"1.9.4.1--py36hf484d3e_0": "sha256:ef8a6f81654088a43ff1b3f8e57906c0be9382dded8edf832bd63d2e8613f301", "1.9.4.1--py37h675a0cb_2": "sha256:fd7385b3661197aeee37395efcf79cd853774ddfc2f46e12832a2af8ecfe7de2", "1.9.4.1--py39he10ea66_4": "sha256:21d2f9db79869927c43312b68686a9d13ea28403b42d6d56e8473c5476e48e72", "1.9.4.2--py310h0dbaff4_0": "sha256:e1e6edb654eb35f735d79a293b1f0486f0581787436f803b175ac1fd8c872fa2", "1.9.4.2--py38h2494328_0": "sha256:ee8591de074ee17e2dc303c5de26c586eb315090bbe222a445991d7460daadbd", "1.9.4.2--py310h84f13bb_1": "sha256:21ec22aa5a4d1ac65908d6ea97c4a3bb489ebfc8da36e1ce9189b10dfcad6c94", "1.9.4.2--py312h28adbb1_2": "sha256:e6a819fbc300630e292e9645973972ce5612c917f37de861fef0ab4b3b25f2cc", "1.9.4.2--py39h2de1943_3": "sha256:9fb41facce9af7dcee19f97dec1dd65d05c3a8e45bed0e599df7e3e87c80b3ca"}, "docker": "quay.io/biocontainers/moods", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "moods-dna.py": "/usr/local/bin/moods-dna.py", "swig": "/usr/local/bin/swig", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/moods", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moods", "latest": {"1.9.4.2--py313h0bdc4b4_4": "sha256:98450ab0f6a56e1eff1c31bca68859dc2f89499dbfb2dc5edc01f1b85ca48c00"}, "tags": {"1.9.4.1--py36hf484d3e_0": "sha256:ef8a6f81654088a43ff1b3f8e57906c0be9382dded8edf832bd63d2e8613f301", "1.9.4.1--py37h675a0cb_2": "sha256:fd7385b3661197aeee37395efcf79cd853774ddfc2f46e12832a2af8ecfe7de2", "1.9.4.1--py39he10ea66_4": "sha256:21d2f9db79869927c43312b68686a9d13ea28403b42d6d56e8473c5476e48e72", "1.9.4.2--py310h0dbaff4_0": "sha256:e1e6edb654eb35f735d79a293b1f0486f0581787436f803b175ac1fd8c872fa2", "1.9.4.2--py38h2494328_0": "sha256:ee8591de074ee17e2dc303c5de26c586eb315090bbe222a445991d7460daadbd", "1.9.4.2--py310h84f13bb_1": "sha256:21ec22aa5a4d1ac65908d6ea97c4a3bb489ebfc8da36e1ce9189b10dfcad6c94", "1.9.4.2--py312h28adbb1_2": "sha256:e6a819fbc300630e292e9645973972ce5612c917f37de861fef0ab4b3b25f2cc", "1.9.4.2--py39h2de1943_3": "sha256:9fb41facce9af7dcee19f97dec1dd65d05c3a8e45bed0e599df7e3e87c80b3ca", "1.9.4.2--py313h0bdc4b4_4": "sha256:98450ab0f6a56e1eff1c31bca68859dc2f89499dbfb2dc5edc01f1b85ca48c00"}, "docker": "quay.io/biocontainers/moods", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "moods-dna.py": "/usr/local/bin/moods-dna.py", "swig": "/usr/local/bin/swig", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/moods.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/moods
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/moods:1.9.4.2--py39h2de1943_3
+$ shpc install quay.io/biocontainers/moods:1.9.4.2--py313h0bdc4b4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/moods/1.9.4.2--py39h2de1943_3
-$ module help quay.io/biocontainers/moods/1.9.4.2--py39h2de1943_3
+$ module load quay.io/biocontainers/moods/1.9.4.2--py313h0bdc4b4_4
+$ module help quay.io/biocontainers/moods/1.9.4.2--py313h0bdc4b4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mrpast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mrpast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mrpast/container.yaml"
-updated_at: "2026-08-17 03:42:31.161338"
-latest: "0.3--py313h9d32f87_0"
+updated_at: "2026-08-18 03:36:04.115357"
+latest: "0.4--py311h0e292b2_0"
 container_url: "https://biocontainers.pro/tools/mrpast"
 aliases:
  - "demes"
@@ -30,8 +30,9 @@ versions:
  - "0.2--py310ha1cbcee_0"
  - "0.2--py312h8f4af18_0"
  - "0.3--py313h9d32f87_0"
+ - "0.4--py311h0e292b2_0"
 description: "singularity registry hpc automated addition for mrpast"
-config: {"url": "https://biocontainers.pro/tools/mrpast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mrpast", "latest": {"0.3--py313h9d32f87_0": "sha256:be86879476d653134fe85373eff065146d3d60f13111024b140e9e92e9d3161a"}, "tags": {"0.2--py310ha1cbcee_0": "sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a", "0.2--py312h8f4af18_0": "sha256:cb1642f83f7fcfe33976830c45c7986744978b060630f5ff2af3d675de1b1ad1", "0.3--py313h9d32f87_0": "sha256:be86879476d653134fe85373eff065146d3d60f13111024b140e9e92e9d3161a"}, "docker": "quay.io/biocontainers/mrpast", "aliases": {"demes": "/usr/local/bin/demes", "mrpast": "/usr/local/bin/mrpast", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "tabulate": "/usr/local/bin/tabulate", "jsonschema": "/usr/local/bin/jsonschema", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/mrpast", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mrpast", "latest": {"0.4--py311h0e292b2_0": "sha256:50d59e327d5a00e55b26e1220824927ff1ebfc8e52690924c8aac65b48338bc5"}, "tags": {"0.2--py310ha1cbcee_0": "sha256:729e865a9942947cf9989ec99146d83b3dd64aa3b08fc28f43786d751ffca07a", "0.2--py312h8f4af18_0": "sha256:cb1642f83f7fcfe33976830c45c7986744978b060630f5ff2af3d675de1b1ad1", "0.3--py313h9d32f87_0": "sha256:be86879476d653134fe85373eff065146d3d60f13111024b140e9e92e9d3161a", "0.4--py311h0e292b2_0": "sha256:50d59e327d5a00e55b26e1220824927ff1ebfc8e52690924c8aac65b48338bc5"}, "docker": "quay.io/biocontainers/mrpast", "aliases": {"demes": "/usr/local/bin/demes", "mrpast": "/usr/local/bin/mrpast", "msp": "/usr/local/bin/msp", "mspms": "/usr/local/bin/mspms", "tskit": "/usr/local/bin/tskit", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "faidx": "/usr/local/bin/faidx", "tabulate": "/usr/local/bin/tabulate", "jsonschema": "/usr/local/bin/jsonschema", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mrpast.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/mrpast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mrpast:0.3--py313h9d32f87_0
+$ shpc install quay.io/biocontainers/mrpast:0.4--py311h0e292b2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mrpast/0.3--py313h9d32f87_0
-$ module help quay.io/biocontainers/mrpast/0.3--py313h9d32f87_0
+$ module load quay.io/biocontainers/mrpast/0.4--py311h0e292b2_0
+$ module help quay.io/biocontainers/mrpast/0.4--py311h0e292b2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

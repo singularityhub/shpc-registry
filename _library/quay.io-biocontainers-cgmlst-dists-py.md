@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cgmlst-dists-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgmlst-dists-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgmlst-dists-py/container.yaml"
-updated_at: "2026-08-17 03:46:43.885391"
-latest: "0.1.3--hdfd78af_0"
+updated_at: "2026-08-18 03:40:13.921795"
+latest: "0.1.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cgmlst-dists-py"
 aliases:
  - "cgmlst-dists"
@@ -19,8 +19,9 @@ aliases:
  - "tqdm"
 versions:
  - "0.1.3--hdfd78af_0"
+ - "0.1.7--hdfd78af_0"
 description: "singularity registry hpc automated addition for cgmlst-dists-py"
-config: {"url": "https://biocontainers.pro/tools/cgmlst-dists-py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cgmlst-dists-py", "latest": {"0.1.3--hdfd78af_0": "sha256:955cf19c58e5fe2862c0eeee13ad85b40bf2d95f036eb7dffbf8c65925154621"}, "tags": {"0.1.3--hdfd78af_0": "sha256:955cf19c58e5fe2862c0eeee13ad85b40bf2d95f036eb7dffbf8c65925154621"}, "docker": "quay.io/biocontainers/cgmlst-dists-py", "aliases": {"cgmlst-dists": "/usr/local/bin/cgmlst-dists", "cgmlst-dists.py": "/usr/local/bin/cgmlst-dists.py", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numba": "/usr/local/bin/numba", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/cgmlst-dists-py", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cgmlst-dists-py", "latest": {"0.1.7--hdfd78af_0": "sha256:1d772c2bef1abacccc166760be5e5f0c830fd3704b1168607676efa67cfcdd6d"}, "tags": {"0.1.3--hdfd78af_0": "sha256:955cf19c58e5fe2862c0eeee13ad85b40bf2d95f036eb7dffbf8c65925154621", "0.1.7--hdfd78af_0": "sha256:1d772c2bef1abacccc166760be5e5f0c830fd3704b1168607676efa67cfcdd6d"}, "docker": "quay.io/biocontainers/cgmlst-dists-py", "aliases": {"cgmlst-dists": "/usr/local/bin/cgmlst-dists", "cgmlst-dists.py": "/usr/local/bin/cgmlst-dists.py", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numba": "/usr/local/bin/numba", "numpy-config": "/usr/local/bin/numpy-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgmlst-dists-py.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/cgmlst-dists-py
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgmlst-dists-py:0.1.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/cgmlst-dists-py:0.1.7--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgmlst-dists-py/0.1.3--hdfd78af_0
-$ module help quay.io/biocontainers/cgmlst-dists-py/0.1.3--hdfd78af_0
+$ module load quay.io/biocontainers/cgmlst-dists-py/0.1.7--hdfd78af_0
+$ module help quay.io/biocontainers/cgmlst-dists-py/0.1.7--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

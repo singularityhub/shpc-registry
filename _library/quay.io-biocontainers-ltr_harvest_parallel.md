@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ltr_harvest_parallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_harvest_parallel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_harvest_parallel/container.yaml"
-updated_at: "2026-08-17 03:40:18.695988"
+updated_at: "2026-08-18 03:33:54.139730"
 latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ltr_harvest_parallel"
 aliases:

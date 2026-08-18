@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maegatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maegatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maegatk/container.yaml"
-updated_at: "2026-08-17 03:52:37.326357"
+updated_at: "2026-08-18 03:46:01.565940"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/maegatk"
 aliases:

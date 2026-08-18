@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/moddotplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moddotplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/moddotplot/container.yaml"
-updated_at: "2026-08-17 03:03:59.496040"
+updated_at: "2026-08-18 02:59:04.818568"
 latest: "0.9.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/moddotplot"
 aliases:

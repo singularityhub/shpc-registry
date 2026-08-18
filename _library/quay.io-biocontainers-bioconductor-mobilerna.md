@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mobilerna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mobilerna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mobilerna/container.yaml"
-updated_at: "2026-08-17 03:42:54.424425"
+updated_at: "2026-08-18 03:36:26.512612"
 latest: "1.6.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mobilerna"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minorseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minorseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minorseq/container.yaml"
-updated_at: "2026-08-17 03:05:53.804505"
+updated_at: "2026-08-18 03:00:56.219858"
 latest: "1.12.0--0"
 container_url: "https://biocontainers.pro/tools/minorseq"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-drosgenome1probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drosgenome1probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drosgenome1probe/container.yaml"
-updated_at: "2026-08-17 03:57:11.301811"
+updated_at: "2026-08-18 03:50:35.002827"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-drosgenome1probe"
 

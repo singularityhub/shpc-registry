@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rearr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rearr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rearr/container.yaml"
-updated_at: "2026-08-17 03:38:06.804482"
+updated_at: "2026-08-18 03:31:43.464513"
 latest: "1.0.16--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/rearr"
 aliases:

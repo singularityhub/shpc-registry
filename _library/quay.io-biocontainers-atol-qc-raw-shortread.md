@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atol-qc-raw-shortread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-qc-raw-shortread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-qc-raw-shortread/container.yaml"
-updated_at: "2026-08-17 03:14:15.638319"
+updated_at: "2026-08-18 03:09:02.174993"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-qc-raw-shortread"
 aliases:
