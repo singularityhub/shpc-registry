@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gambit
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gambit
 latest:
-  1.1.0--py312h247cb63_3: 
-    sha256:0867058db4453cb54bac62d12cf0be0a9e0f1b2ecf949a7ed14f46e10bc5a9c0
+  1.2.0--py312hfabe715_0: 
+    sha256:36255700ac8c7c2b9601ad94f005c57df98de7a28e816f8301597377cf40d115
 tags:
   1.0.0--py39hbf8eff0_0: 
     sha256:1fa10eced8516ebb54d23058399d9ede93ef17fe39bd7d1198de83f8a030d7a5
@@ -15,6 +15,8 @@ tags:
     sha256:bee235a972f4f96623bfdc62dcc6c8fd7e400311f01bb9e40b93865d5c0feb26
   1.1.0--py312h247cb63_3: 
     sha256:0867058db4453cb54bac62d12cf0be0a9e0f1b2ecf949a7ed14f46e10bc5a9c0
+  1.2.0--py312hfabe715_0: 
+    sha256:36255700ac8c7c2b9601ad94f005c57df98de7a28e816f8301597377cf40d115
 docker: quay.io/biocontainers/gambit
 aliases:
   alembic: /usr/local/bin/alembic

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/metalcoordanalysis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metalcoordanalysis
 latest:
-  0.2.14--pyhdfd78af_0: 
-    sha256:2bc19eb51e8c1a2fc16552d5917fd5cd6254d63d56813fb705ff242984f63477
+  0.2.15--pyhdfd78af_0: 
+    sha256:fee861ae8e3626de5f61c9c05a0b7f91e13f95552fd2c348f8657ec3d43381a0
 tags:
   0.2.13--pyhdfd78af_0: 
     sha256:704f9cfc833e46e62a7dfc10c3292f43a5e368c542b9a70bceb441902a6ef110
   0.2.14--pyhdfd78af_0: 
     sha256:2bc19eb51e8c1a2fc16552d5917fd5cd6254d63d56813fb705ff242984f63477
+  0.2.15--pyhdfd78af_0: 
+    sha256:fee861ae8e3626de5f61c9c05a0b7f91e13f95552fd2c348f8657ec3d43381a0
 docker: quay.io/biocontainers/metalcoordanalysis
 aliases:
   gemmi: /usr/local/bin/gemmi

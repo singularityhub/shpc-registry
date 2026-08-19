@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/dfast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for dfast
 latest:
-  1.4.1--h7f5d12c_0: 
-    sha256:e32860ae3bd6ec524bb5cbd831a7b95495898fadf6edf33b0e14f57deccf75e9
+  1.4.2--h7f5d12c_0: 
+    sha256:589e4868086d716823e3741c15c5d52b081d5e8aaa3680b1678318218033968b
 tags:
   1.2.7--h8b12597_0: 
     sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7
@@ -37,6 +37,8 @@ tags:
     sha256:befbaa31b69d4619a6ecb032be9f0e3a465022a9af37b0a4f17eebd3f8fc0b99
   1.4.1--h7f5d12c_0: 
     sha256:e32860ae3bd6ec524bb5cbd831a7b95495898fadf6edf33b0e14f57deccf75e9
+  1.4.2--h7f5d12c_0: 
+    sha256:589e4868086d716823e3741c15c5d52b081d5e8aaa3680b1678318218033968b
 docker: quay.io/biocontainers/dfast
 aliases:
   dfast: /usr/local/bin/dfast

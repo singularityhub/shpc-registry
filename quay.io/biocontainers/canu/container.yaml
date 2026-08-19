@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/canu
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for canu
 latest:
-  2.3--h3fb4750_2: 
-    sha256:14eb4203590d8661a17cd23be34e48c1665cf329b060d4b7403c15c6e7b76dbd
+  2.3--h636b4d1_3: 
+    sha256:609b917a2d885dfa360bc7b1fde2be7c5913b99b098f4e20b9b245eb509f4099
 tags:
   2.2--ha47f30e_0: 
     sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196
@@ -15,6 +15,8 @@ tags:
     sha256:c575bdf3e0e0b713ecd5fd5d8a189de2c6bb49fffb61053c97535eaa0c254655
   2.3--h3fb4750_2: 
     sha256:14eb4203590d8661a17cd23be34e48c1665cf329b060d4b7403c15c6e7b76dbd
+  2.3--h636b4d1_3: 
+    sha256:609b917a2d885dfa360bc7b1fde2be7c5913b99b098f4e20b9b245eb509f4099
 docker: quay.io/biocontainers/canu
 aliases:
   alignGFA: /usr/local/bin/alignGFA

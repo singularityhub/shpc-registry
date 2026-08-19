@@ -2,11 +2,21 @@ url: https://biocontainers.pro/tools/python-ferro-hgvs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for python-ferro-hgvs
 latest:
-  0.10.0--py310hce5ca29_0: 
-    sha256:f587e8943d749e6763d5f477041e7f8c9a6e1c7357497aa5dda8537261b1c65d
+  0.15.0--py312ha170aba_0: 
+    sha256:a25f0495936636861f0bceefa14784453dc246adc113f6a6eee905f4141898be
 tags:
   0.10.0--py310hce5ca29_0: 
     sha256:f587e8943d749e6763d5f477041e7f8c9a6e1c7357497aa5dda8537261b1c65d
+  0.15.0--py312ha170aba_0: 
+    sha256:a25f0495936636861f0bceefa14784453dc246adc113f6a6eee905f4141898be
+  0.13.1--py312ha170aba_0: 
+    sha256:85906898ec3d3089ab26e6a9419111e7ffb99130feecb688e5f65c69e4980d05
+  0.12.0--py313h9a1e870_0: 
+    sha256:cd9b47b98388b92e42289200af9702b981093aed08753739a46ef1bdf38a8b1c
+  0.11.0--py312ha170aba_0: 
+    sha256:d77a1ae1835b38f59aa8cd27c3eff7225c67d7fb4bf1d5ade3bbc8e6c640a016
+  0.10.1--py313h9a1e870_0: 
+    sha256:e92941cae16b3467afae3779e47627697b49e53cb440415b4c52d3ae5b71a124
 docker: quay.io/biocontainers/python-ferro-hgvs
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

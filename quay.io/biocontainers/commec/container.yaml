@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/commec
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for commec
 latest:
-  1.0.5--pyhdfd78af_0: 
-    sha256:8ddf529f25cc8a70069a69f6d3c52a8d7728a0550a5335892dba0b337d51a3fe
+  2.0.0--pyhdfd78af_0: 
+    sha256:d19e56d7289154050b01ebcbca56bb6f32120302e0a1fcda1cce44c5a980008e
 tags:
   0.1.2--pyhdfd78af_0: 
     sha256:661260de7017898c02c752e7f1eed075dc4c341cd929fd7289db332b18cf2252
@@ -23,6 +23,8 @@ tags:
     sha256:ad1351073f6c07b8f4840fb4139376f79945aed887613f7b63fe09b8fd38bdb4
   1.0.5--pyhdfd78af_0: 
     sha256:8ddf529f25cc8a70069a69f6d3c52a8d7728a0550a5335892dba0b337d51a3fe
+  2.0.0--pyhdfd78af_0: 
+    sha256:d19e56d7289154050b01ebcbca56bb6f32120302e0a1fcda1cce44c5a980008e
 docker: quay.io/biocontainers/commec
 aliases:
   commec: /usr/local/bin/commec

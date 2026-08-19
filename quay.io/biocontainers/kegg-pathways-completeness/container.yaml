@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   kegg-pathways-completeness
 latest:
-  1.4.3--pyhdfd78af_0: 
-    sha256:0aaf0ccb5aad11531c5b392fd1f1e3e1717fc08b51190cba097a05e109b8aa8b
+  1.4.4--pyhdfd78af_0: 
+    sha256:8b991f753a2d3c62e18bb900b2e77df6d4068221769644e02ed1d030d68b2dcf
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:11667c8175300b4126f275117624d6c603ddc413d5206941b04bfec87312d92e
@@ -16,6 +16,8 @@ tags:
     sha256:0768c482b5be21e6b4a21aac12cace5b4132e96f5f037758dd52aa4864e21ced
   1.4.3--pyhdfd78af_0: 
     sha256:0aaf0ccb5aad11531c5b392fd1f1e3e1717fc08b51190cba097a05e109b8aa8b
+  1.4.4--pyhdfd78af_0: 
+    sha256:8b991f753a2d3c62e18bb900b2e77df6d4068221769644e02ed1d030d68b2dcf
 docker: quay.io/biocontainers/kegg-pathways-completeness
 aliases:
   generate_hmmtable: /usr/local/bin/generate_hmmtable
