@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fedup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fedup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fedup/container.yaml"
-updated_at: "2026-08-18 03:35:47.442972"
+updated_at: "2026-08-19 03:39:19.498212"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fedup"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cmaple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmaple/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cmaple/container.yaml"
-updated_at: "2026-08-18 03:03:51.526812"
-latest: "1.1.0--h503566f_1"
+updated_at: "2026-08-19 03:06:19.596522"
+latest: "2.0.0--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/cmaple"
 aliases:
  - "cmaple"
@@ -15,8 +15,9 @@ versions:
  - "1.0.0--hdbdd923_1"
  - "1.1.0--hdbdd923_0"
  - "1.1.0--h503566f_1"
+ - "2.0.0--h5814d7d_0"
 description: "singularity registry hpc automated addition for cmaple"
-config: {"url": "https://biocontainers.pro/tools/cmaple", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cmaple", "latest": {"1.1.0--h503566f_1": "sha256:2290811cd20cd1e00b1c479497439286df0070aaf9ab06d02771f39918bd3433"}, "tags": {"1.0.0--hdbdd923_0": "sha256:68edc82dc07544bfabdfd4753d5a35ada7c13c2462ccc2d370819e6d0b2f7378", "1.0.0--hdbdd923_1": "sha256:154b5f98bf60f01f48e99bcfaa8209c6e69ddcd06009ccb46f2876517b696f38", "1.1.0--hdbdd923_0": "sha256:4306a76ad1bf9bda7641f8a6c8203485e9afd374823b72af419cdbdf19365a22", "1.1.0--h503566f_1": "sha256:2290811cd20cd1e00b1c479497439286df0070aaf9ab06d02771f39918bd3433"}, "docker": "quay.io/biocontainers/cmaple", "aliases": {"cmaple": "/usr/local/bin/cmaple", "cmaple-aa": "/usr/local/bin/cmaple-aa"}}
+config: {"url": "https://biocontainers.pro/tools/cmaple", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cmaple", "latest": {"2.0.0--h5814d7d_0": "sha256:6d2a902aaed50eff9a0954bff14ef0d8099c425da664918960e9f9605010ee09"}, "tags": {"1.0.0--hdbdd923_0": "sha256:68edc82dc07544bfabdfd4753d5a35ada7c13c2462ccc2d370819e6d0b2f7378", "1.0.0--hdbdd923_1": "sha256:154b5f98bf60f01f48e99bcfaa8209c6e69ddcd06009ccb46f2876517b696f38", "1.1.0--hdbdd923_0": "sha256:4306a76ad1bf9bda7641f8a6c8203485e9afd374823b72af419cdbdf19365a22", "1.1.0--h503566f_1": "sha256:2290811cd20cd1e00b1c479497439286df0070aaf9ab06d02771f39918bd3433", "2.0.0--h5814d7d_0": "sha256:6d2a902aaed50eff9a0954bff14ef0d8099c425da664918960e9f9605010ee09"}, "docker": "quay.io/biocontainers/cmaple", "aliases": {"cmaple": "/usr/local/bin/cmaple", "cmaple-aa": "/usr/local/bin/cmaple-aa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cmaple.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/cmaple
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cmaple:1.1.0--h503566f_1
+$ shpc install quay.io/biocontainers/cmaple:2.0.0--h5814d7d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cmaple/1.1.0--h503566f_1
-$ module help quay.io/biocontainers/cmaple/1.1.0--h503566f_1
+$ module load quay.io/biocontainers/cmaple/2.0.0--h5814d7d_0
+$ module help quay.io/biocontainers/cmaple/2.0.0--h5814d7d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pretextsnapshot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextsnapshot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextsnapshot/container.yaml"
-updated_at: "2026-08-18 03:07:12.770788"
-latest: "0.0.7--hd63eeec_0"
+updated_at: "2026-08-19 03:09:59.202192"
+latest: "0.0.9--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/pretextsnapshot"
 aliases:
  - "PretextSnapshot"
@@ -19,8 +19,9 @@ versions:
  - "0.0.4--h9948957_4"
  - "0.0.5--h9948957_0"
  - "0.0.7--hd63eeec_0"
+ - "0.0.9--hc52dbad_0"
 description: "shpc-registry automated BioContainers addition for pretextsnapshot"
-config: {"url": "https://biocontainers.pro/tools/pretextsnapshot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextsnapshot", "latest": {"0.0.7--hd63eeec_0": "sha256:b2c9cde095289b5c1a164f5ee303368ea1b3f9cb97fd6fdabd8836165a6101aa"}, "tags": {"0.0.4--h9f5acd7_1": "sha256:a38608ebccf66184e54602d681f833f211ecbc08a910cf996227930fcc214977", "0.0.4--h4ac6f70_3": "sha256:b205e2ffc312d9aefc342f735e311d018ef1aadfadf170a12ada1a97e557195e", "0.0.4--h9948957_4": "sha256:84b2810da9c327fe0c605e40e2060a5059b4f47df208d03c836bb9da1ab83e5b", "0.0.5--h9948957_0": "sha256:bea58228fd19b677cf49e3600ee04ed904e968a492da892ecb48dbf7995ab0d5", "0.0.7--hd63eeec_0": "sha256:b2c9cde095289b5c1a164f5ee303368ea1b3f9cb97fd6fdabd8836165a6101aa"}, "docker": "quay.io/biocontainers/pretextsnapshot", "aliases": {"PretextSnapshot": "/usr/local/bin/PretextSnapshot", "PretextSnapshot.avx": "/usr/local/bin/PretextSnapshot.avx", "PretextSnapshot.avx2": "/usr/local/bin/PretextSnapshot.avx2", "PretextSnapshot.sse41": "/usr/local/bin/PretextSnapshot.sse41", "PretextSnapshot.sse42": "/usr/local/bin/PretextSnapshot.sse42"}}
+config: {"url": "https://biocontainers.pro/tools/pretextsnapshot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pretextsnapshot", "latest": {"0.0.9--hc52dbad_0": "sha256:60bca97384b1acdab6c0598c295063403aeb912f01a64f87a6b5d8e6a1e6a145"}, "tags": {"0.0.4--h9f5acd7_1": "sha256:a38608ebccf66184e54602d681f833f211ecbc08a910cf996227930fcc214977", "0.0.4--h4ac6f70_3": "sha256:b205e2ffc312d9aefc342f735e311d018ef1aadfadf170a12ada1a97e557195e", "0.0.4--h9948957_4": "sha256:84b2810da9c327fe0c605e40e2060a5059b4f47df208d03c836bb9da1ab83e5b", "0.0.5--h9948957_0": "sha256:bea58228fd19b677cf49e3600ee04ed904e968a492da892ecb48dbf7995ab0d5", "0.0.7--hd63eeec_0": "sha256:b2c9cde095289b5c1a164f5ee303368ea1b3f9cb97fd6fdabd8836165a6101aa", "0.0.9--hc52dbad_0": "sha256:60bca97384b1acdab6c0598c295063403aeb912f01a64f87a6b5d8e6a1e6a145"}, "docker": "quay.io/biocontainers/pretextsnapshot", "aliases": {"PretextSnapshot": "/usr/local/bin/PretextSnapshot", "PretextSnapshot.avx": "/usr/local/bin/PretextSnapshot.avx", "PretextSnapshot.avx2": "/usr/local/bin/PretextSnapshot.avx2", "PretextSnapshot.sse41": "/usr/local/bin/PretextSnapshot.sse41", "PretextSnapshot.sse42": "/usr/local/bin/PretextSnapshot.sse42"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pretextsnapshot.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/pretextsnapshot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pretextsnapshot:0.0.7--hd63eeec_0
+$ shpc install quay.io/biocontainers/pretextsnapshot:0.0.9--hc52dbad_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pretextsnapshot/0.0.7--hd63eeec_0
-$ module help quay.io/biocontainers/pretextsnapshot/0.0.7--hd63eeec_0
+$ module load quay.io/biocontainers/pretextsnapshot/0.0.9--hc52dbad_0
+$ module help quay.io/biocontainers/pretextsnapshot/0.0.9--hc52dbad_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tkwidgets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tkwidgets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tkwidgets/container.yaml"
-updated_at: "2026-08-18 03:01:34.957389"
+updated_at: "2026-08-19 03:03:58.717464"
 latest: "1.88.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tkwidgets"
 

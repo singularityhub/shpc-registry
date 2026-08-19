@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcatest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcatest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcatest/container.yaml"
-updated_at: "2026-08-18 03:08:00.206740"
+updated_at: "2026-08-19 03:10:49.604364"
 latest: "2.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcatest"
 aliases:

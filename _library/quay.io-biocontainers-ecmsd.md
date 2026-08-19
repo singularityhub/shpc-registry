@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ecmsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecmsd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ecmsd/container.yaml"
-updated_at: "2026-08-18 03:21:52.262192"
+updated_at: "2026-08-19 03:25:05.547587"
 latest: "1.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ecmsd"
 aliases:

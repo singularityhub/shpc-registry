@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mastrspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mastrspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mastrspy/container.yaml"
-updated_at: "2026-08-18 02:59:18.179705"
+updated_at: "2026-08-19 03:01:37.034727"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mastrspy"
 aliases:

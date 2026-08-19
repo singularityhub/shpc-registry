@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-basic4cseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basic4cseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basic4cseq/container.yaml"
-updated_at: "2026-08-18 03:18:23.930703"
+updated_at: "2026-08-19 03:21:34.312882"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basic4cseq"
 aliases:

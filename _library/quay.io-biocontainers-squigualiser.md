@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/squigualiser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/squigualiser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/squigualiser/container.yaml"
-updated_at: "2026-08-18 03:08:13.800440"
+updated_at: "2026-08-19 03:11:03.773153"
 latest: "0.7.0--pyh84cbfca_0"
 container_url: "https://biocontainers.pro/tools/squigualiser"
 aliases:

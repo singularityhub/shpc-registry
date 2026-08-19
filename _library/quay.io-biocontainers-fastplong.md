@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fastplong"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastplong/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastplong/container.yaml"
-updated_at: "2026-08-18 03:46:43.510546"
-latest: "0.4.1--h224cc79_0"
+updated_at: "2026-08-19 03:50:14.315969"
+latest: "0.7.0--h43da1c4_0"
 container_url: "https://biocontainers.pro/tools/fastplong"
 aliases:
  - "fastplong"
@@ -15,8 +15,11 @@ versions:
  - "0.2.2--heae3180_0"
  - "0.3.0--h224cc79_0"
  - "0.4.1--h224cc79_0"
+ - "0.7.0--h43da1c4_0"
+ - "0.6.0--h43da1c4_0"
+ - "0.5.0--h43da1c4_0"
 description: "singularity registry hpc automated addition for fastplong"
-config: {"url": "https://biocontainers.pro/tools/fastplong", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastplong", "latest": {"0.4.1--h224cc79_0": "sha256:964674a0c7433fe85b00a319c9f9f7909ac69ca882700cea2a9f06aca04dd879"}, "tags": {"0.2.0--h125f33a_0": "sha256:b015a7fc10675cd23f6191ef26e1d8d8cd42453a794587309ceb4785bf065485", "0.2.2--heae3180_0": "sha256:ad1b620b4899fdb37a90388b9db0f35adb5952caddcccef495a2e392d6387192", "0.3.0--h224cc79_0": "sha256:cb798120d765a97db01c8a4e7a71ced8add45010bd6073fe8a191e84a0ee5498", "0.4.1--h224cc79_0": "sha256:964674a0c7433fe85b00a319c9f9f7909ac69ca882700cea2a9f06aca04dd879"}, "docker": "quay.io/biocontainers/fastplong", "aliases": {"fastplong": "/usr/local/bin/fastplong", "igzip": "/usr/local/bin/igzip"}}
+config: {"url": "https://biocontainers.pro/tools/fastplong", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fastplong", "latest": {"0.7.0--h43da1c4_0": "sha256:4a2b718c7120cdf9ebf11ea427bc91b1565e62bdf7c04f77265fd9c4f4f05dc7"}, "tags": {"0.2.0--h125f33a_0": "sha256:b015a7fc10675cd23f6191ef26e1d8d8cd42453a794587309ceb4785bf065485", "0.2.2--heae3180_0": "sha256:ad1b620b4899fdb37a90388b9db0f35adb5952caddcccef495a2e392d6387192", "0.3.0--h224cc79_0": "sha256:cb798120d765a97db01c8a4e7a71ced8add45010bd6073fe8a191e84a0ee5498", "0.4.1--h224cc79_0": "sha256:964674a0c7433fe85b00a319c9f9f7909ac69ca882700cea2a9f06aca04dd879", "0.7.0--h43da1c4_0": "sha256:4a2b718c7120cdf9ebf11ea427bc91b1565e62bdf7c04f77265fd9c4f4f05dc7", "0.6.0--h43da1c4_0": "sha256:7f84819aeec4db217cb11a9657c5979f4b8f0564b00d75a63d5f7e09c3a39da2", "0.5.0--h43da1c4_0": "sha256:240148075c70fea006d4de713798c1509dbb96e4bf0011abc51c06d3086ff7d6"}, "docker": "quay.io/biocontainers/fastplong", "aliases": {"fastplong": "/usr/local/bin/fastplong", "igzip": "/usr/local/bin/igzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastplong.
@@ -31,7 +34,7 @@ $ shpc install quay.io/biocontainers/fastplong
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fastplong:0.4.1--h224cc79_0
+$ shpc install quay.io/biocontainers/fastplong:0.7.0--h43da1c4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fastplong/0.4.1--h224cc79_0
-$ module help quay.io/biocontainers/fastplong/0.4.1--h224cc79_0
+$ module load quay.io/biocontainers/fastplong/0.7.0--h43da1c4_0
+$ module help quay.io/biocontainers/fastplong/0.7.0--h43da1c4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
