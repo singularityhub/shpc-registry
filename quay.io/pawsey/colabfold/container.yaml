@@ -1,0 +1,13 @@
+docker: quay.io/pawsey/colabfold
+url: https://singularity-hpc.readthedocs.io
+description: AMD GPU compatible ColabFold
+maintainer: '@sarahbeecroft'
+features:
+  gpu: true
+
+latest:
+  1.6.1_rocm7.0.2:
+    sha256:7d0983974f3798b52360a2dbfb1277a42456412c67c915583abcbec422e53508
+tags:
+  1.6.1_rocm7.0.2: 
+    sha256:7d0983974f3798b52360a2dbfb1277a42456412c67c915583abcbec422e53508
