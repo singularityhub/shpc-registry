@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/nebulizer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nebulizer
 latest:
-  0.7.1--pyh5e36f6f_0: 
-    sha256:6f6f78ac54712ca22a6e2663237084f732cf4659e3a9ceb32c5e56090e7fe9f9
+  0.7.2--pyh106432d_0: 
+    sha256:6d27b4da3d2e4787eaa04755c36304b3b6c990213fcc4b5c48b985af6d593d1d
 tags:
   0.7.1--pyh5e36f6f_0: 
     sha256:6f6f78ac54712ca22a6e2663237084f732cf4659e3a9ceb32c5e56090e7fe9f9
+  0.7.2--pyh106432d_0: 
+    sha256:6d27b4da3d2e4787eaa04755c36304b3b6c990213fcc4b5c48b985af6d593d1d
 docker: quay.io/biocontainers/nebulizer
 aliases:
   bioblend-galaxy-tests: /usr/local/bin/bioblend-galaxy-tests

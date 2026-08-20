@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/igphyml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for igphyml
 latest:
-  1.1.5--h7b50bb2_2: 
-    sha256:e186a675b185004075f77bb3881e44d4af4134f047242be24697f042ead5ae56
+  2.0.0--h65f4b68_0: 
+    sha256:7890352ba52d0534a6e060e4b9111ebf60f7804b8ae56cc661d0821063baad93
 tags:
   1.1.4--hec16e2b_0: 
     sha256:5cbeb391e3b542c8048a91a2b089cc294ed65da6a78a2dd079d95524b907028d
@@ -13,6 +13,8 @@ tags:
     sha256:5e0258403e45027165174c0eabdcc8d3bd36ca0f015bf83a5a600ee82f241fa3
   1.1.5--h7b50bb2_2: 
     sha256:e186a675b185004075f77bb3881e44d4af4134f047242be24697f042ead5ae56
+  2.0.0--h65f4b68_0: 
+    sha256:7890352ba52d0534a6e060e4b9111ebf60f7804b8ae56cc661d0821063baad93
 docker: quay.io/biocontainers/igphyml
 aliases:
   AlignRecords.py: /usr/local/bin/AlignRecords.py
