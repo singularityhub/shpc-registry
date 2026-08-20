@@ -12,3 +12,6 @@ latest:
 tags:
   v2.2.1_rocm6.4:
     sha256:e71ec191d62f044860c279199394fc5374ec84304670cff61a39cf7e8603c7a2
+
+aliases:
+  boltz: /usr/local/bin/boltz
