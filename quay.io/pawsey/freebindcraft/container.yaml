@@ -1,6 +1,6 @@
 docker: quay.io/pawsey/freebindcraft
 url: https://singularity-hpc.readthedocs.io
-maintainer: sarahbeecroft
+maintainer: '@sarahbeecroft'
 features:
   gpu: true
 
