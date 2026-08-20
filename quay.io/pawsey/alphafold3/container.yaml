@@ -1,6 +1,6 @@
-docker: quay.io/pawsey/alphafold3:v3.0.1_rocm7.1.1
+docker: quay.io/pawsey/alphafold3
 url: https://singularity-hpc.readthedocs.io
-maintainer: sarahbeecroft
+maintainer: '@sarahbeecroft'
 features:
   gpu: true
 
