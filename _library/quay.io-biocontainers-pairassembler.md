@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pairassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pairassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pairassembler/container.yaml"
-updated_at: "2026-08-19 03:02:58.098669"
+updated_at: "2026-08-20 03:02:07.709922"
 latest: "0.1.4--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/pairassembler"
 aliases:

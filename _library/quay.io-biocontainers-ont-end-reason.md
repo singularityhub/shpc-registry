@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ont-end-reason"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont-end-reason/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ont-end-reason/container.yaml"
-updated_at: "2026-08-19 03:54:35.953418"
+updated_at: "2026-08-20 03:51:16.616826"
 latest: "0.2.0a1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ont-end-reason"
 aliases:

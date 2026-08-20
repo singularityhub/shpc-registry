@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rolypoly-tk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rolypoly-tk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rolypoly-tk/container.yaml"
-updated_at: "2026-08-19 03:40:32.718717"
+updated_at: "2026-08-20 03:37:44.833585"
 latest: "0.7.17--pyh1f0d9b5_0"
 container_url: "https://biocontainers.pro/tools/rolypoly-tk"
 aliases:
