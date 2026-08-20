@@ -2,8 +2,11 @@ docker: quay.io/pawsey/rfdiffusion
 url: https://singularity-hpc.readthedocs.io
 description: AMD GPU compatible version of RFDiffusion
 maintainer: '@sarahbeecroft'
+features:
+  gpu: true
+
 #TODO fix aliases
-#TODO update 
+#TODO update SHA
 latest:
   v1.1.0-rocm7.0.0_dgl2.4.0: 
     sha256:8007702fd7f4c5656b6d30417f6996f9cde363cacb66e05dd9569b5aeece0f51
