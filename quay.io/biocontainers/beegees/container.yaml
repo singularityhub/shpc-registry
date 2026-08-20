@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/beegees
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for beegees
+latest:
+  3.0.4--pyhdfd78af_0: 
+    sha256:64e3584446fe5710481040258d15f7c128e75c0948a31b457d1064aa428cc531
+tags:
+  3.0.4--pyhdfd78af_0: 
+    sha256:64e3584446fe5710481040258d15f7c128e75c0948a31b457d1064aa428cc531
+docker: quay.io/biocontainers/beegees
+aliases:
+  MitoGeneExtractor: /usr/local/bin/MitoGeneExtractor
+  MitoGeneExtractor-v1.9.6: /usr/local/bin/MitoGeneExtractor-v1.9.6
+  beegees: /usr/local/bin/beegees
+  gene-fetch: /usr/local/bin/gene-fetch
+  generate-slurm-partition-config: 
+    /usr/local/bin/generate-slurm-partition-config
+  trim_galore: /usr/local/bin/trim_galore
+  esd2esi: /usr/local/bin/esd2esi
+  exonerate-server: /usr/local/bin/exonerate-server
+  fasta2esd: /usr/local/bin/fasta2esd
+  fastaannotatecdna: /usr/local/bin/fastaannotatecdna
+  fastachecksum: /usr/local/bin/fastachecksum
+  fastaclip: /usr/local/bin/fastaclip
+  fastacomposition: /usr/local/bin/fastacomposition
+  fastadiff: /usr/local/bin/fastadiff
+  fastaexplode: /usr/local/bin/fastaexplode
+  fastafetch: /usr/local/bin/fastafetch
+  fastahardmask: /usr/local/bin/fastahardmask
+  fastaindex: /usr/local/bin/fastaindex
+  fastalength: /usr/local/bin/fastalength
+  fastanrdb: /usr/local/bin/fastanrdb
+  fastaoverlap: /usr/local/bin/fastaoverlap
+  fastareformat: /usr/local/bin/fastareformat
+  fastaremove: /usr/local/bin/fastaremove
+  fastarevcomp: /usr/local/bin/fastarevcomp
+  fastasoftmask: /usr/local/bin/fastasoftmask
+  fastasubseq: /usr/local/bin/fastasubseq
+  fastatranslate: /usr/local/bin/fastatranslate
+  fastavalidcds: /usr/local/bin/fastavalidcds
+  ipcress: /usr/local/bin/ipcress
+  exonerate: /usr/local/bin/exonerate
