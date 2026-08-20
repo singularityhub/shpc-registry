@@ -1,0 +1,11 @@
+docker: quay.io/pawsey/esmfold_openfold
+url: https://singularity-hpc.readthedocs.io
+description: AMD GPU compatible version of ESMfold1 and Openfold1
+maintainer: '@sarahbeecroft'
+#TODO UPDATE SHA
+latest:
+  rocm6.3.3: 
+    sha256:9ade7040ee29be5cf0fcff343e34e35ba9d088185331a08896593c522c399673
+tags:
+  rocm6.3.3: 
+    sha256:9ade7040ee29be5cf0fcff343e34e35ba9d088185331a08896593c522c399673
