@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathogen-embed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathogen-embed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathogen-embed/container.yaml"
-updated_at: "2026-08-21 03:58:53.224347"
+updated_at: "2026-08-21 16:27:18.953583"
 latest: "3.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pathogen-embed"
 aliases:

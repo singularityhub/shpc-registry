@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fibertools-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fibertools-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fibertools-rs/container.yaml"
-updated_at: "2026-08-21 03:51:27.714447"
+updated_at: "2026-08-21 16:20:20.752631"
 latest: "0.13.0--h270025b_0"
 container_url: "https://biocontainers.pro/tools/fibertools-rs"
 aliases:

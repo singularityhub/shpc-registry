@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plastanno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plastanno/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plastanno/container.yaml"
-updated_at: "2026-08-21 03:56:54.496589"
+updated_at: "2026-08-21 16:25:28.613335"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plastanno"
 aliases:
