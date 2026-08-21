@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/rectanglepy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for rectanglepy
+latest:
+  1.5.0--pyh106432d_0: 
+    sha256:dacc6e212e3e94e1ce15aaf7b2454f490e8ef2c4de001b70603c8cd2722646ed
+tags:
+  1.5.0--pyh106432d_0: 
+    sha256:dacc6e212e3e94e1ce15aaf7b2454f490e8ef2c4de001b70603c8cd2722646ed
+docker: quay.io/biocontainers/rectanglepy
+aliases:
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  jupyter-builder: /usr/local/bin/jupyter-builder
+  mistune: /usr/local/bin/mistune
+  jlpm: /usr/local/bin/jlpm
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  pyjson5: /usr/local/bin/pyjson5
+  jupyter-server: /usr/local/bin/jupyter-server
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  jupyter-console: /usr/local/bin/jupyter-console
+  debugpy: /usr/local/bin/debugpy
+  send2trash: /usr/local/bin/send2trash
+  wsdump: /usr/local/bin/wsdump
+  jsonpointer: /usr/local/bin/jsonpointer
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  idna: /usr/local/bin/idna
+  fc-genconf: /usr/local/bin/fc-genconf
+  pybabel: /usr/local/bin/pybabel
+  httpx: /usr/local/bin/httpx
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  h2benchmark: /usr/local/bin/h2benchmark
