@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/deacon
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for deacon
 latest:
-  0.15.0--hdd79491_0: 
-    sha256:d90033841907baece8760175fd8c8de9609c09dbd801ca7afa4cfed0de97c30d
+  0.17.0--h3edb6b3_0: 
+    sha256:ee79ad5c15ed3bdd6c943653b46c4f89b72d1dba385f29bf930c9f0c9edd00b8
 tags:
   0.1.0--h4349ce8_0: 
     sha256:22d6f9e7ada423cef2f4dbf54ce9f9dcf5916dbec64d7fd32944528d39f360d6
@@ -35,6 +35,10 @@ tags:
     sha256:d90033841907baece8760175fd8c8de9609c09dbd801ca7afa4cfed0de97c30d
   0.14.0--hdd79491_0: 
     sha256:839e3d38b55d854ede9f9fcb2547497baac5d02af0cd7e3e3ff4ba1075c9003b
+  0.17.0--h3edb6b3_0: 
+    sha256:ee79ad5c15ed3bdd6c943653b46c4f89b72d1dba385f29bf930c9f0c9edd00b8
+  0.16.0--h3edb6b3_0: 
+    sha256:f8a39788158bc5acd1d8e761e4dcb0a8c896fe6e8979c7032ff5fd14db7d6932
 docker: quay.io/biocontainers/deacon
 aliases:
   deacon: /usr/local/bin/deacon

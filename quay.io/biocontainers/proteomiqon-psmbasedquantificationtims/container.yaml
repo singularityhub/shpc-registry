@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   proteomiqon-psmbasedquantificationtims
 latest:
-  0.0.12--hdfd78af_0: 
-    sha256:cb44eb2ff8d011be65fb6e8981d5d19d1be148c3e634a3438adf954c2a9e027f
+  0.0.12--hdfd78af_1: 
+    sha256:5712d4376433299e46ce2cccc0354ebbf324c48e4b416a98f0ab80e2b373515f
 tags:
   0.0.12--hdfd78af_0: 
     sha256:cb44eb2ff8d011be65fb6e8981d5d19d1be148c3e634a3438adf954c2a9e027f
+  0.0.12--hdfd78af_1: 
+    sha256:5712d4376433299e46ce2cccc0354ebbf324c48e4b416a98f0ab80e2b373515f
 docker: quay.io/biocontainers/proteomiqon-psmbasedquantificationtims
 aliases:
   proteomiqon-psmbasedquantificationtims: 

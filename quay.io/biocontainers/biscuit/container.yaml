@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/biscuit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biscuit
 latest:
-  1.9.0.20260624--hdf5d79d_0: 
-    sha256:b034ea9c7f8b8477529d805874d215a09f3d6ebbe2fcd8e55428c2b84c275316
+  1.10.2.20260818--hdf5d79d_0: 
+    sha256:0e8462c07a48cf5b603e50b2948caa087a7811d422d699256c8855c54963429a
 tags:
   1.1.0.20220707--he272189_1: 
     sha256:ca540d2b392d0e2ea6525b0b4e88e99eed713deff2bd6cec942e01b14333e270
@@ -35,6 +35,8 @@ tags:
     sha256:0ca5f57ecdd1dab04fb84947551d0b54968727cb824a6ce7b6c8c67acbd7dfc4
   1.9.0.20260624--hdf5d79d_0: 
     sha256:b034ea9c7f8b8477529d805874d215a09f3d6ebbe2fcd8e55428c2b84c275316
+  1.10.2.20260818--hdf5d79d_0: 
+    sha256:0e8462c07a48cf5b603e50b2948caa087a7811d422d699256c8855c54963429a
 docker: quay.io/biocontainers/biscuit
 aliases:
   QC.sh: /usr/local/bin/QC.sh

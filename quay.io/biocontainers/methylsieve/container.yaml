@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/methylsieve
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for methylsieve
 latest:
-  0.1.0--h54198d6_1: 
-    sha256:b0b375c358b38abc8b6da57241ac1b335e214c218f03afb907e2eba4d4a80149
+  0.2.1--h54198d6_0: 
+    sha256:aadb172473cf3e77f87a6a1536b68a83fdb26da20aa734b218d4d6dad8c47a54
 tags:
   0.1.0--h54198d6_1: 
     sha256:b0b375c358b38abc8b6da57241ac1b335e214c218f03afb907e2eba4d4a80149
+  0.2.1--h54198d6_0: 
+    sha256:aadb172473cf3e77f87a6a1536b68a83fdb26da20aa734b218d4d6dad8c47a54
 docker: quay.io/biocontainers/methylsieve
 aliases:
   methylsieve: /usr/local/bin/methylsieve
