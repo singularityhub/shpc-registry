@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/refgendetector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refgendetector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refgendetector/container.yaml"
-updated_at: "2026-08-21 15:46:14.380291"
+updated_at: "2026-08-21 18:25:41.246078"
 latest: "3.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/refgendetector"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fungar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fungar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fungar/container.yaml"
-updated_at: "2026-08-21 15:45:24.938903"
+updated_at: "2026-08-21 18:24:43.275837"
 latest: "2.0.0--py314hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fungar"
 aliases:

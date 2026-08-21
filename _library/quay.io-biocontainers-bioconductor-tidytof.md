@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tidytof"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidytof/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidytof/container.yaml"
-updated_at: "2026-08-21 16:24:23.035784"
+updated_at: "2026-08-21 19:09:39.113104"
 latest: "1.0.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidytof"
 aliases:

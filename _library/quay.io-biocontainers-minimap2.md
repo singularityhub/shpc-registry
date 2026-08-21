@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/minimap2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minimap2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/minimap2/container.yaml"
-updated_at: "2026-08-21 15:46:45.740749"
+updated_at: "2026-08-21 18:26:17.203835"
 latest: "2.31--h118bc1c_0"
 container_url: "https://biocontainers.pro/tools/minimap2"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-tabs-wrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-tabs-wrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-tabs-wrap/container.yaml"
-updated_at: "2026-08-21 15:40:10.252780"
+updated_at: "2026-08-21 18:18:05.149216"
 latest: "2021.0814--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-text-tabs-wrap"
 aliases:

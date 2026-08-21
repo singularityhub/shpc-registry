@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dialign2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dialign2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dialign2/container.yaml"
-updated_at: "2026-08-21 16:07:15.792395"
+updated_at: "2026-08-21 18:50:45.052287"
 latest: "2.2.1--h9948957_9"
 container_url: "https://biocontainers.pro/tools/dialign2"
 aliases:

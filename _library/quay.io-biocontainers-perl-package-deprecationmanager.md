@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-package-deprecationmanager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-package-deprecationmanager/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-package-deprecationmanager/container.yaml"
-updated_at: "2026-08-21 16:13:00.893592"
+updated_at: "2026-08-21 18:57:10.978052"
 latest: "0.17--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-package-deprecationmanager"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skiver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skiver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skiver/container.yaml"
-updated_at: "2026-08-21 15:38:44.730548"
+updated_at: "2026-08-21 18:16:17.050232"
 latest: "0.3.1--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/skiver"
 aliases:

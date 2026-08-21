@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ohe-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ohe-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ohe-rs/container.yaml"
-updated_at: "2026-08-21 16:01:26.770197"
+updated_at: "2026-08-21 18:43:54.271773"
 latest: "0.1.0--py310h7e03b2b_0"
 container_url: "https://biocontainers.pro/tools/ohe-rs"
 aliases:

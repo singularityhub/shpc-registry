@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-acidgsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidgsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidgsea/container.yaml"
-updated_at: "2026-08-21 16:05:04.629089"
+updated_at: "2026-08-21 18:48:12.195613"
 latest: "0.9.1--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidgsea"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vcfarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vcfarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vcfarray/container.yaml"
-updated_at: "2026-08-21 16:21:56.840100"
+updated_at: "2026-08-21 19:06:57.124907"
 latest: "1.22.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vcfarray"
 aliases:
