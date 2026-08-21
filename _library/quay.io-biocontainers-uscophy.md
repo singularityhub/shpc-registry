@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uscophy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uscophy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uscophy/container.yaml"
-updated_at: "2026-08-20 03:50:38.196760"
+updated_at: "2026-08-21 04:01:10.002108"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/uscophy"
 aliases:

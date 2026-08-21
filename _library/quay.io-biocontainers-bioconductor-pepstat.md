@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pepstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepstat/container.yaml"
-updated_at: "2026-08-20 03:51:51.543537"
+updated_at: "2026-08-21 04:02:28.069217"
 latest: "1.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepstat"
 

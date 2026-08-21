@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-dock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-dock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-dock/container.yaml"
-updated_at: "2026-08-20 03:26:59.377361"
+updated_at: "2026-08-21 03:35:42.425792"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-dock"
 aliases:

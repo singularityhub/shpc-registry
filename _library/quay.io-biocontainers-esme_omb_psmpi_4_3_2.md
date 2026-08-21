@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esme_omb_psmpi_4_3_2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_omb_psmpi_4_3_2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_omb_psmpi_4_3_2/container.yaml"
-updated_at: "2026-08-20 03:43:58.744444"
-latest: "8.0b2--h503566f_0"
+updated_at: "2026-08-21 03:54:00.754686"
+latest: "8.0b2--heda1b71_1"
 container_url: "https://biocontainers.pro/tools/esme_omb_psmpi_4_3_2"
 aliases:
  - "cxi_atomic_bw"
@@ -59,8 +59,9 @@ aliases:
  - "nl-addr-add"
 versions:
  - "8.0b2--h503566f_0"
+ - "8.0b2--heda1b71_1"
 description: "singularity registry hpc automated addition for esme_omb_psmpi_4_3_2"
-config: {"url": "https://biocontainers.pro/tools/esme_omb_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_omb_psmpi_4_3_2", "latest": {"8.0b2--h503566f_0": "sha256:0290a7e5d1147e5db88780c994e9b29bc30c87df8f01872ace74cd0aa75e6da9"}, "tags": {"8.0b2--h503566f_0": "sha256:0290a7e5d1147e5db88780c994e9b29bc30c87df8f01872ace74cd0aa75e6da9"}, "docker": "quay.io/biocontainers/esme_omb_psmpi_4_3_2", "aliases": {"cxi_atomic_bw": "/usr/local/bin/cxi_atomic_bw", "cxi_atomic_lat": "/usr/local/bin/cxi_atomic_lat", "cxi_device_list": "/usr/local/bin/cxi_device_list", "cxi_dump_csrs": "/usr/local/bin/cxi_dump_csrs", "cxi_gpu_loopback_bw": "/usr/local/bin/cxi_gpu_loopback_bw", "cxi_heatsink_check": "/usr/local/bin/cxi_heatsink_check", "cxi_read_bw": "/usr/local/bin/cxi_read_bw", "cxi_read_lat": "/usr/local/bin/cxi_read_lat", "cxi_rh": "/usr/local/bin/cxi_rh", "cxi_send_bw": "/usr/local/bin/cxi_send_bw", "cxi_send_lat": "/usr/local/bin/cxi_send_lat", "cxi_service": "/usr/local/bin/cxi_service", "cxi_stat": "/usr/local/bin/cxi_stat", "cxi_udp_gen": "/usr/local/bin/cxi_udp_gen", "cxi_write_bw": "/usr/local/bin/cxi_write_bw", "cxi_write_lat": "/usr/local/bin/cxi_write_lat", "fi_mon_sampler": "/usr/local/bin/fi_mon_sampler", "mount.fuse3": "/usr/local/bin/mount.fuse3", "omb_coll": "/usr/local/bin/omb_coll", "omb_one_sided": "/usr/local/bin/omb_one_sided", "omb_pt2pt": "/usr/local/bin/omb_pt2pt", "pcc": "/usr/local/bin/pcc", "test_map_csr": "/usr/local/bin/test_map_csr", "test_write_csr": "/usr/local/bin/test_write_csr", "fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "prte": "/usr/local/bin/prte", "prte_info": "/usr/local/bin/prte_info", "prted": "/usr/local/bin/prted", "prterun": "/usr/local/bin/prterun", "pterm": "/usr/local/bin/pterm", "prun": "/usr/local/bin/prun", "ucx_perftest_daemon": "/usr/local/bin/ucx_perftest_daemon", "parkill": "/usr/local/bin/parkill", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add"}}
+config: {"url": "https://biocontainers.pro/tools/esme_omb_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_omb_psmpi_4_3_2", "latest": {"8.0b2--heda1b71_1": "sha256:172b31023ec7c13c20bed158006652ed8194e6a379387677bacee7b33aa90cb7"}, "tags": {"8.0b2--h503566f_0": "sha256:0290a7e5d1147e5db88780c994e9b29bc30c87df8f01872ace74cd0aa75e6da9", "8.0b2--heda1b71_1": "sha256:172b31023ec7c13c20bed158006652ed8194e6a379387677bacee7b33aa90cb7"}, "docker": "quay.io/biocontainers/esme_omb_psmpi_4_3_2", "aliases": {"cxi_atomic_bw": "/usr/local/bin/cxi_atomic_bw", "cxi_atomic_lat": "/usr/local/bin/cxi_atomic_lat", "cxi_device_list": "/usr/local/bin/cxi_device_list", "cxi_dump_csrs": "/usr/local/bin/cxi_dump_csrs", "cxi_gpu_loopback_bw": "/usr/local/bin/cxi_gpu_loopback_bw", "cxi_heatsink_check": "/usr/local/bin/cxi_heatsink_check", "cxi_read_bw": "/usr/local/bin/cxi_read_bw", "cxi_read_lat": "/usr/local/bin/cxi_read_lat", "cxi_rh": "/usr/local/bin/cxi_rh", "cxi_send_bw": "/usr/local/bin/cxi_send_bw", "cxi_send_lat": "/usr/local/bin/cxi_send_lat", "cxi_service": "/usr/local/bin/cxi_service", "cxi_stat": "/usr/local/bin/cxi_stat", "cxi_udp_gen": "/usr/local/bin/cxi_udp_gen", "cxi_write_bw": "/usr/local/bin/cxi_write_bw", "cxi_write_lat": "/usr/local/bin/cxi_write_lat", "fi_mon_sampler": "/usr/local/bin/fi_mon_sampler", "mount.fuse3": "/usr/local/bin/mount.fuse3", "omb_coll": "/usr/local/bin/omb_coll", "omb_one_sided": "/usr/local/bin/omb_one_sided", "omb_pt2pt": "/usr/local/bin/omb_pt2pt", "pcc": "/usr/local/bin/pcc", "test_map_csr": "/usr/local/bin/test_map_csr", "test_write_csr": "/usr/local/bin/test_write_csr", "fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "prte": "/usr/local/bin/prte", "prte_info": "/usr/local/bin/prte_info", "prted": "/usr/local/bin/prted", "prterun": "/usr/local/bin/prterun", "pterm": "/usr/local/bin/pterm", "prun": "/usr/local/bin/prun", "ucx_perftest_daemon": "/usr/local/bin/ucx_perftest_daemon", "parkill": "/usr/local/bin/parkill", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "genl-ctrl-list": "/usr/local/bin/genl-ctrl-list", "idiag-socket-details": "/usr/local/bin/idiag-socket-details", "nf-ct-add": "/usr/local/bin/nf-ct-add", "nf-ct-events": "/usr/local/bin/nf-ct-events", "nf-ct-list": "/usr/local/bin/nf-ct-list", "nf-exp-add": "/usr/local/bin/nf-exp-add", "nf-exp-delete": "/usr/local/bin/nf-exp-delete", "nf-exp-list": "/usr/local/bin/nf-exp-list", "nf-log": "/usr/local/bin/nf-log", "nf-monitor": "/usr/local/bin/nf-monitor", "nf-queue": "/usr/local/bin/nf-queue", "nl-addr-add": "/usr/local/bin/nl-addr-add"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esme_omb_psmpi_4_3_2.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/esme_omb_psmpi_4_3_2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esme_omb_psmpi_4_3_2:8.0b2--h503566f_0
+$ shpc install quay.io/biocontainers/esme_omb_psmpi_4_3_2:8.0b2--heda1b71_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esme_omb_psmpi_4_3_2/8.0b2--h503566f_0
-$ module help quay.io/biocontainers/esme_omb_psmpi_4_3_2/8.0b2--h503566f_0
+$ module load quay.io/biocontainers/esme_omb_psmpi_4_3_2/8.0b2--heda1b71_1
+$ module help quay.io/biocontainers/esme_omb_psmpi_4_3_2/8.0b2--heda1b71_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
