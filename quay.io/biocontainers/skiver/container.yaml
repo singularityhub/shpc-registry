@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/skiver
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for skiver
 latest:
-  0.3.1--hec9b1f2_0: 
-    sha256:6c5bc7d3bb904dcfda34aaf51a78afb0b22deb5edb65bbae38f957e7d8e480d2
+  0.3.2--hec9b1f2_0: 
+    sha256:7c33841e8cb78b99e1c648f4a0666961098e26175005c5b1d7f576598000ebfe
 tags:
   0.3.1--hec9b1f2_0: 
     sha256:6c5bc7d3bb904dcfda34aaf51a78afb0b22deb5edb65bbae38f957e7d8e480d2
+  0.3.2--hec9b1f2_0: 
+    sha256:7c33841e8cb78b99e1c648f4a0666961098e26175005c5b1d7f576598000ebfe
 docker: quay.io/biocontainers/skiver
 aliases:
   skiver: /usr/local/bin/skiver

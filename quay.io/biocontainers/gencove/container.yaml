@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/gencove
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gencove
 latest:
-  4.3.0--pyhdfd78af_0: 
-    sha256:4bd835ed64055d7c45d5b8909b13a6ce70dc7e435fb9d627fbc7b0f08090820d
+  4.4.0--pyhdfd78af_0: 
+    sha256:5360d6f0e242f9ca81627f277a48273292e004d0069a64c829ebc94a4a10924c
 tags:
   2.4.5--pyhdfd78af_0: 
     sha256:f7d346dff471cc0543fc1f90d4ab6c6af85462c762c955812973caa5e25676a3
@@ -61,6 +61,8 @@ tags:
     sha256:fa6750e7f89d17fc310fe6642f65f0f9cc55f505e18d789e286993402447a132
   4.3.0--pyhdfd78af_0: 
     sha256:4bd835ed64055d7c45d5b8909b13a6ce70dc7e435fb9d627fbc7b0f08090820d
+  4.4.0--pyhdfd78af_0: 
+    sha256:5360d6f0e242f9ca81627f277a48273292e004d0069a64c829ebc94a4a10924c
 docker: quay.io/biocontainers/gencove
 aliases:
   gencove: /usr/local/bin/gencove
