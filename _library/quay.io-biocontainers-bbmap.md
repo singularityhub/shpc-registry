@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bbmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bbmap/container.yaml"
-updated_at: "2026-08-21 18:18:39.423974"
+updated_at: "2026-08-22 03:00:20.146618"
 latest: "40.02--h09cc210_0"
 container_url: "https://biocontainers.pro/tools/bbmap"
 aliases:

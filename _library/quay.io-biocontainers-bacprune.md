@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bacprune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bacprune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bacprune/container.yaml"
-updated_at: "2026-08-21 19:09:40.430398"
-latest: "0.9.0--h4349ce8_0"
+updated_at: "2026-08-22 03:46:01.335878"
+latest: "0.9.1--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/bacprune"
 aliases:
  - "bacprune"
 versions:
  - "0.9.0--h4349ce8_0"
+ - "0.9.1--hab7d0fd_0"
 description: "singularity registry hpc automated addition for bacprune"
-config: {"url": "https://biocontainers.pro/tools/bacprune", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bacprune", "latest": {"0.9.0--h4349ce8_0": "sha256:7983dde92a1f40851e1c110b5dbec5b61e0c60f8ef500f5199a42bb41839b447"}, "tags": {"0.9.0--h4349ce8_0": "sha256:7983dde92a1f40851e1c110b5dbec5b61e0c60f8ef500f5199a42bb41839b447"}, "docker": "quay.io/biocontainers/bacprune", "aliases": {"bacprune": "/usr/local/bin/bacprune"}}
+config: {"url": "https://biocontainers.pro/tools/bacprune", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bacprune", "latest": {"0.9.1--hab7d0fd_0": "sha256:55af76ba824866ca7fe3cfb75767f7882a6b61e0a574aa8457e07b4ae31492b6"}, "tags": {"0.9.0--h4349ce8_0": "sha256:7983dde92a1f40851e1c110b5dbec5b61e0c60f8ef500f5199a42bb41839b447", "0.9.1--hab7d0fd_0": "sha256:55af76ba824866ca7fe3cfb75767f7882a6b61e0a574aa8457e07b4ae31492b6"}, "docker": "quay.io/biocontainers/bacprune", "aliases": {"bacprune": "/usr/local/bin/bacprune"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bacprune.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bacprune
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bacprune:0.9.0--h4349ce8_0
+$ shpc install quay.io/biocontainers/bacprune:0.9.1--hab7d0fd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bacprune/0.9.0--h4349ce8_0
-$ module help quay.io/biocontainers/bacprune/0.9.0--h4349ce8_0
+$ module load quay.io/biocontainers/bacprune/0.9.1--hab7d0fd_0
+$ module help quay.io/biocontainers/bacprune/0.9.1--hab7d0fd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

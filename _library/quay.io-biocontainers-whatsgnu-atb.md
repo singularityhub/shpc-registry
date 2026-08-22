@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/whatsgnu-atb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/whatsgnu-atb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/whatsgnu-atb/container.yaml"
-updated_at: "2026-08-21 18:57:54.795783"
+updated_at: "2026-08-22 03:34:49.325086"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/whatsgnu-atb"
 aliases:

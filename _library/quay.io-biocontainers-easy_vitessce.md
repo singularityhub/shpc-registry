@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/easy_vitessce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easy_vitessce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easy_vitessce/container.yaml"
-updated_at: "2026-08-21 19:02:46.972206"
-latest: "0.0.10--pyhdfd78af_0"
+updated_at: "2026-08-22 03:39:40.726823"
+latest: "0.0.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/easy_vitessce"
 aliases:
  - "chr_pos_to_genome_pos.py"
@@ -47,8 +47,9 @@ aliases:
 versions:
  - "0.0.9--pyhdfd78af_0"
  - "0.0.10--pyhdfd78af_0"
+ - "0.0.12--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for easy_vitessce"
-config: {"url": "https://biocontainers.pro/tools/easy_vitessce", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for easy_vitessce", "latest": {"0.0.10--pyhdfd78af_0": "sha256:3fcb07c63cb705bd93b8f2dee8a110bab8c6b9f697429adc7753fbf8d139dddf"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:b894e823bc0d85f8eebabfed80561c11918cb77c9250b9572c8aeea6b649e850", "0.0.10--pyhdfd78af_0": "sha256:3fcb07c63cb705bd93b8f2dee8a110bab8c6b9f697429adc7753fbf8d139dddf"}, "docker": "quay.io/biocontainers/easy_vitessce", "aliases": {"chr_pos_to_genome_pos.py": "/usr/local/bin/chr_pos_to_genome_pos.py", "create_chrominfo.py": "/usr/local/bin/create_chrominfo.py", "datashader": "/usr/local/bin/datashader", "gdal": "/usr/local/bin/gdal", "make_triangular.py": "/usr/local/bin/make_triangular.py", "ojph_compress": "/usr/local/bin/ojph_compress", "ojph_expand": "/usr/local/bin/ojph_expand", "ome_zarr": "/usr/local/bin/ome_zarr", "pyct": "/usr/local/bin/pyct", "session-info": "/usr/local/bin/session-info", "xrspatial": "/usr/local/bin/xrspatial", "pyproj": "/usr/local/bin/pyproj", "black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "sozip": "/usr/local/bin/sozip", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "bsdunzip": "/usr/local/bin/bsdunzip", "pybind11-config": "/usr/local/bin/pybind11-config", "checksum-profile": "/usr/local/bin/checksum-profile", "dask": "/usr/local/bin/dask", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "gdal_create": "/usr/local/bin/gdal_create", "tiffcomment": "/usr/local/bin/tiffcomment", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate"}}
+config: {"url": "https://biocontainers.pro/tools/easy_vitessce", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for easy_vitessce", "latest": {"0.0.12--pyhdfd78af_0": "sha256:994544e7efcad84fab3e5a56be820261faa17a8946dbd3aa501c6b30c1c3a924"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:b894e823bc0d85f8eebabfed80561c11918cb77c9250b9572c8aeea6b649e850", "0.0.10--pyhdfd78af_0": "sha256:3fcb07c63cb705bd93b8f2dee8a110bab8c6b9f697429adc7753fbf8d139dddf", "0.0.12--pyhdfd78af_0": "sha256:994544e7efcad84fab3e5a56be820261faa17a8946dbd3aa501c6b30c1c3a924"}, "docker": "quay.io/biocontainers/easy_vitessce", "aliases": {"chr_pos_to_genome_pos.py": "/usr/local/bin/chr_pos_to_genome_pos.py", "create_chrominfo.py": "/usr/local/bin/create_chrominfo.py", "datashader": "/usr/local/bin/datashader", "gdal": "/usr/local/bin/gdal", "make_triangular.py": "/usr/local/bin/make_triangular.py", "ojph_compress": "/usr/local/bin/ojph_compress", "ojph_expand": "/usr/local/bin/ojph_expand", "ome_zarr": "/usr/local/bin/ome_zarr", "pyct": "/usr/local/bin/pyct", "session-info": "/usr/local/bin/session-info", "xrspatial": "/usr/local/bin/xrspatial", "pyproj": "/usr/local/bin/pyproj", "black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "gdal_footprint": "/usr/local/bin/gdal_footprint", "minigzip": "/usr/local/bin/minigzip", "minizip": "/usr/local/bin/minizip", "sozip": "/usr/local/bin/sozip", "h2benchmark": "/usr/local/bin/h2benchmark", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "torchfrtrace": "/usr/local/bin/torchfrtrace", "bsdunzip": "/usr/local/bin/bsdunzip", "pybind11-config": "/usr/local/bin/pybind11-config", "checksum-profile": "/usr/local/bin/checksum-profile", "dask": "/usr/local/bin/dask", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "gdal_create": "/usr/local/bin/gdal_create", "tiffcomment": "/usr/local/bin/tiffcomment", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/easy_vitessce.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/easy_vitessce
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/easy_vitessce:0.0.10--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/easy_vitessce:0.0.12--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/easy_vitessce/0.0.10--pyhdfd78af_0
-$ module help quay.io/biocontainers/easy_vitessce/0.0.10--pyhdfd78af_0
+$ module load quay.io/biocontainers/easy_vitessce/0.0.12--pyhdfd78af_0
+$ module help quay.io/biocontainers/easy_vitessce/0.0.12--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

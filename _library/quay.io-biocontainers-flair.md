@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flair/container.yaml"
-updated_at: "2026-08-21 18:57:30.250371"
+updated_at: "2026-08-22 03:34:27.082948"
 latest: "3.0.0b1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flair"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gdrimport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gdrimport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gdrimport/container.yaml"
-updated_at: "2026-08-21 19:11:07.336737"
+updated_at: "2026-08-22 03:47:20.948162"
 latest: "1.8.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gdrimport"
 aliases:

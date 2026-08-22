@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gwiscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gwiscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gwiscan/container.yaml"
-updated_at: "2026-08-21 18:28:15.151183"
+updated_at: "2026-08-22 03:08:46.293554"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gwiscan"
 aliases:

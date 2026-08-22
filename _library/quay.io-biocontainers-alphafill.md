@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alphafill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alphafill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alphafill/container.yaml"
-updated_at: "2026-08-21 18:31:05.997372"
+updated_at: "2026-08-22 03:11:13.074829"
 latest: "2.3.0--h7f3286b_0"
 container_url: "https://biocontainers.pro/tools/alphafill"
 aliases:

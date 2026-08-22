@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/diting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diting/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diting/container.yaml"
-updated_at: "2026-08-21 18:46:14.842617"
+updated_at: "2026-08-22 03:24:17.649572"
 latest: "2.0.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/diting"
 aliases:
