@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wordcloud"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wordcloud/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wordcloud/container.yaml"
-updated_at: "2026-08-22 03:18:59.307822"
+updated_at: "2026-08-23 03:20:00.818950"
 latest: "1.9.6"
 container_url: "https://biocontainers.pro/tools/wordcloud"
 aliases:

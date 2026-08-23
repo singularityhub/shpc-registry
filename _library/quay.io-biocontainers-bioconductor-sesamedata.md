@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sesamedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sesamedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sesamedata/container.yaml"
-updated_at: "2026-08-22 02:58:52.186262"
+updated_at: "2026-08-23 03:06:08.054434"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sesamedata"
 aliases:

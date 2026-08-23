@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scitrack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scitrack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scitrack/container.yaml"
-updated_at: "2026-08-22 03:51:25.056878"
+updated_at: "2026-08-23 03:43:58.130812"
 latest: "2026.6.24--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scitrack"
 aliases:

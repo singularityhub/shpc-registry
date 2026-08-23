@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anvilaz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilaz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilaz/container.yaml"
-updated_at: "2026-08-22 03:48:16.741504"
+updated_at: "2026-08-23 03:41:43.379820"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilaz"
 aliases:

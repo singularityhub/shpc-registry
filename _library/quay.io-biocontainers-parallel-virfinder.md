@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parallel-virfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parallel-virfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/parallel-virfinder/container.yaml"
-updated_at: "2026-08-22 03:18:44.438045"
+updated_at: "2026-08-23 03:19:49.765782"
 latest: "0.3.1--py310hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/parallel-virfinder"
 aliases:

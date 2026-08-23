@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gxformat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gxformat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gxformat2/container.yaml"
-updated_at: "2026-08-22 02:58:25.786083"
+updated_at: "2026-08-23 03:05:51.266573"
 latest: "0.27.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gxformat2"
 aliases:

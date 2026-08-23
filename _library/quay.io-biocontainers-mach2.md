@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mach2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mach2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mach2/container.yaml"
-updated_at: "2026-08-22 03:10:00.553007"
+updated_at: "2026-08-23 03:13:44.318278"
 latest: "1.0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mach2"
 aliases:

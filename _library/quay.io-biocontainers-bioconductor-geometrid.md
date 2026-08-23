@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geometrid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geometrid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geometrid/container.yaml"
-updated_at: "2026-08-22 03:03:18.330987"
+updated_at: "2026-08-23 03:08:57.615000"
 latest: "1.4.1--r45h575d39b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geometrid"
 aliases:

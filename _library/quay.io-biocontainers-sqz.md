@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sqz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sqz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sqz/container.yaml"
-updated_at: "2026-08-22 03:41:15.655372"
+updated_at: "2026-08-23 03:36:27.366927"
 latest: "0.2.1--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/sqz"
 aliases:

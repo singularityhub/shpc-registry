@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rnavigate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnavigate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnavigate/container.yaml"
-updated_at: "2026-08-22 03:46:45.864560"
-latest: "1.1.2--pyh106432d_0"
+updated_at: "2026-08-23 03:40:35.601543"
+latest: "1.1.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/rnavigate"
 aliases:
  - "idna"
@@ -31,8 +31,9 @@ aliases:
  - "normalizer"
 versions:
  - "1.1.2--pyh106432d_0"
+ - "1.1.4--pyh106432d_0"
 description: "singularity registry hpc automated addition for rnavigate"
-config: {"url": "https://biocontainers.pro/tools/rnavigate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rnavigate", "latest": {"1.1.2--pyh106432d_0": "sha256:ae1bc34c12995bc7f6fbefee5cc047c9396f287a79d29da9d44c320217f904d5"}, "tags": {"1.1.2--pyh106432d_0": "sha256:ae1bc34c12995bc7f6fbefee5cc047c9396f287a79d29da9d44c320217f904d5"}, "docker": "quay.io/biocontainers/rnavigate", "aliases": {"idna": "/usr/local/bin/idna", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/rnavigate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rnavigate", "latest": {"1.1.4--pyh106432d_0": "sha256:3bf8f45ccb82fca56e616511f4e45e3469a515832711be2429a6ef0aff9a2385"}, "tags": {"1.1.2--pyh106432d_0": "sha256:ae1bc34c12995bc7f6fbefee5cc047c9396f287a79d29da9d44c320217f904d5", "1.1.4--pyh106432d_0": "sha256:3bf8f45ccb82fca56e616511f4e45e3469a515832711be2429a6ef0aff9a2385"}, "docker": "quay.io/biocontainers/rnavigate", "aliases": {"idna": "/usr/local/bin/idna", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "pygmentize": "/usr/local/bin/pygmentize", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnavigate.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/rnavigate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rnavigate:1.1.2--pyh106432d_0
+$ shpc install quay.io/biocontainers/rnavigate:1.1.4--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rnavigate/1.1.2--pyh106432d_0
-$ module help quay.io/biocontainers/rnavigate/1.1.2--pyh106432d_0
+$ module load quay.io/biocontainers/rnavigate/1.1.4--pyh106432d_0
+$ module help quay.io/biocontainers/rnavigate/1.1.4--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

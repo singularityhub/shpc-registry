@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-interaccircos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interaccircos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interaccircos/container.yaml"
-updated_at: "2026-08-22 03:28:20.444502"
+updated_at: "2026-08-23 03:26:58.050486"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interaccircos"
 

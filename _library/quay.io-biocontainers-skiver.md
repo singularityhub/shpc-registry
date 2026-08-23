@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/skiver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skiver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skiver/container.yaml"
-updated_at: "2026-08-22 02:58:10.088062"
-latest: "0.3.1--hec9b1f2_0"
+updated_at: "2026-08-23 03:05:41.087686"
+latest: "0.3.2--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/skiver"
 aliases:
  - "skiver"
 versions:
  - "0.3.1--hec9b1f2_0"
+ - "0.3.2--hec9b1f2_0"
 description: "singularity registry hpc automated addition for skiver"
-config: {"url": "https://biocontainers.pro/tools/skiver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skiver", "latest": {"0.3.1--hec9b1f2_0": "sha256:6c5bc7d3bb904dcfda34aaf51a78afb0b22deb5edb65bbae38f957e7d8e480d2"}, "tags": {"0.3.1--hec9b1f2_0": "sha256:6c5bc7d3bb904dcfda34aaf51a78afb0b22deb5edb65bbae38f957e7d8e480d2"}, "docker": "quay.io/biocontainers/skiver", "aliases": {"skiver": "/usr/local/bin/skiver"}}
+config: {"url": "https://biocontainers.pro/tools/skiver", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for skiver", "latest": {"0.3.2--hec9b1f2_0": "sha256:7c33841e8cb78b99e1c648f4a0666961098e26175005c5b1d7f576598000ebfe"}, "tags": {"0.3.1--hec9b1f2_0": "sha256:6c5bc7d3bb904dcfda34aaf51a78afb0b22deb5edb65bbae38f957e7d8e480d2", "0.3.2--hec9b1f2_0": "sha256:7c33841e8cb78b99e1c648f4a0666961098e26175005c5b1d7f576598000ebfe"}, "docker": "quay.io/biocontainers/skiver", "aliases": {"skiver": "/usr/local/bin/skiver"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skiver.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/skiver
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/skiver:0.3.1--hec9b1f2_0
+$ shpc install quay.io/biocontainers/skiver:0.3.2--hec9b1f2_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/skiver/0.3.1--hec9b1f2_0
-$ module help quay.io/biocontainers/skiver/0.3.1--hec9b1f2_0
+$ module load quay.io/biocontainers/skiver/0.3.2--hec9b1f2_0
+$ module help quay.io/biocontainers/skiver/0.3.2--hec9b1f2_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

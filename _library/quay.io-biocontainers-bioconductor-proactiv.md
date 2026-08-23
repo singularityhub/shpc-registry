@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proactiv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proactiv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proactiv/container.yaml"
-updated_at: "2026-08-22 03:41:09.115474"
+updated_at: "2026-08-23 03:36:22.563774"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proactiv"
 

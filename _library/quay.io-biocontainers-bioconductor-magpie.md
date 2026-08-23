@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-magpie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-magpie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-magpie/container.yaml"
-updated_at: "2026-08-22 03:22:02.730976"
+updated_at: "2026-08-23 03:22:15.803149"
 latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-magpie"
 aliases:

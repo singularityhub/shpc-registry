@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gnuplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gnuplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gnuplot/container.yaml"
-updated_at: "2026-08-22 02:57:02.617449"
+updated_at: "2026-08-23 03:04:57.932464"
 latest: "5.4.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gnuplot"
 aliases:

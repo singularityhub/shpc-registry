@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jasmine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jasmine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jasmine/container.yaml"
-updated_at: "2026-08-22 03:26:35.102830"
+updated_at: "2026-08-23 03:25:40.291405"
 latest: "1.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/jasmine"
 aliases:

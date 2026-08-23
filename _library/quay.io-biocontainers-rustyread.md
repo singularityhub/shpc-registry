@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rustyread"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustyread/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustyread/container.yaml"
-updated_at: "2026-08-22 02:58:14.354087"
+updated_at: "2026-08-23 03:05:43.857388"
 latest: "0.4.1--heebf65f_4"
 container_url: "https://biocontainers.pro/tools/rustyread"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/codoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codoff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/codoff/container.yaml"
-updated_at: "2026-08-22 03:02:54.132083"
+updated_at: "2026-08-23 03:08:40.928998"
 latest: "1.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/codoff"
 aliases:

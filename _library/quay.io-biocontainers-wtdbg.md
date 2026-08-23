@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wtdbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtdbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wtdbg/container.yaml"
-updated_at: "2026-08-22 03:29:53.226495"
+updated_at: "2026-08-23 03:28:08.180275"
 latest: "2.5--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/wtdbg"
 

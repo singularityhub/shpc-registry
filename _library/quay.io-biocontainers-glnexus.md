@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glnexus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glnexus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glnexus/container.yaml"
-updated_at: "2026-08-22 03:02:47.966171"
+updated_at: "2026-08-23 03:08:36.768242"
 latest: "1.4.1--h17e8430_5"
 container_url: "https://biocontainers.pro/tools/glnexus"
 aliases:

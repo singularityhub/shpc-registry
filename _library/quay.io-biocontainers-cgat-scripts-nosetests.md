@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cgat-scripts-nosetests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-scripts-nosetests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-scripts-nosetests/container.yaml"
-updated_at: "2026-08-22 03:05:43.381241"
+updated_at: "2026-08-23 03:10:40.011777"
 latest: "0.0.4--py35r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/cgat-scripts-nosetests"
 aliases:
