@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sanntis
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sanntis
 latest:
-  0.9.4.1--pyhdfd78af_0: 
-    sha256:5ede775962fbc1b54599933b74a74190aa91d8b545b083c606cd14764abba5fd
+  0.9.5.0--pyhdfd78af_0: 
+    sha256:ebbfe00057d89b266bbd1a376ebd709c798a20278fa1f915d92a5f4728d45f1b
 tags:
   0.9.1--pyhdfd78af_0: 
     sha256:f27c88b4d1cef391ab29b6c4a4c7fa8f0dce0f3aa79b98cff069d102aef229fa
@@ -19,6 +19,8 @@ tags:
     sha256:3ccc7f45a7483cd4361992fb7b82af009a62993dbda79131910107cdd55672ce
   0.9.4.1--pyhdfd78af_0: 
     sha256:5ede775962fbc1b54599933b74a74190aa91d8b545b083c606cd14764abba5fd
+  0.9.5.0--pyhdfd78af_0: 
+    sha256:ebbfe00057d89b266bbd1a376ebd709c798a20278fa1f915d92a5f4728d45f1b
 docker: quay.io/biocontainers/sanntis
 aliases:
   import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard

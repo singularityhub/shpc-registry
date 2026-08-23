@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/phast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phast
 latest:
-  1.9.7--h7eac25e_0: 
-    sha256:20463ce1b9b98ad830ab31779b03e8d6c9ca4d984c507f34150a41e2f09ff4db
+  1.9.9--h3ffd07f_0: 
+    sha256:36da82aff2da904016d60f91956873aaf13624a2cfecd746ba3dba4ac2fb905e
 tags:
   1.5--hec16e2b_4: 
     sha256:b5339a2be861216f9d8d8a8aa5a7488be46808f7cb1e74c752c2036a88817c90
@@ -13,6 +13,8 @@ tags:
     sha256:94e61795ae4aa5052be067a0475517abeb89216863346c4f5b751ecd7f1a6d1a
   1.9.7--h7eac25e_0: 
     sha256:20463ce1b9b98ad830ab31779b03e8d6c9ca4d984c507f34150a41e2f09ff4db
+  1.9.9--h3ffd07f_0: 
+    sha256:36da82aff2da904016d60f91956873aaf13624a2cfecd746ba3dba4ac2fb905e
 docker: quay.io/biocontainers/phast
 aliases:
   all_dists: /usr/local/bin/all_dists

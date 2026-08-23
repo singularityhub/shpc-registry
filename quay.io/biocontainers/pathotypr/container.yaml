@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pathotypr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pathotypr
 latest:
-  1.0.0--h6872113_0: 
-    sha256:24d9560e9a9dff1dc9976b342ca42d43ca04f96ae49fcfbb436535fd95ca8193
+  1.0.2--hef77e2b_0: 
+    sha256:d3b480463818d3955b18778cf17f594cf595aaf5ce47676f6b7236212755f3df
 tags:
   1.0.0--h6872113_0: 
     sha256:24d9560e9a9dff1dc9976b342ca42d43ca04f96ae49fcfbb436535fd95ca8193
+  1.0.2--hef77e2b_0: 
+    sha256:d3b480463818d3955b18778cf17f594cf595aaf5ce47676f6b7236212755f3df
 docker: quay.io/biocontainers/pathotypr
 aliases:
   pathotypr: /usr/local/bin/pathotypr
