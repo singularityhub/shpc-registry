@@ -5,6 +5,13 @@ maintainer: '@sarahbeecroft'
 features:
   gpu: true
 
+aliases:
+  colabfold_batch: /opt/miniforge3/bin/colabfold_batch
+  colabfold_relax: /opt/miniforge3/bin/colabfold_relax
+  colabfold_search: /opt/miniforge3/bin/colabfold_search
+  colabfold_split_msas: /opt/miniforge3/bin/colabfold_split_msas
+  mmseqs: /opt/miniforge3/bin/mmseqs
+
 latest:
   1.6.1_rocm7.0.2:
     sha256:ecb54b06d7ce204562a1438de7f0e745121ddce43a643bb506afda3bc942a58b
