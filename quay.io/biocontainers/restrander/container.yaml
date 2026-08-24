@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/restrander
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for restrander
+latest:
+  1.1.3--h3be2455_1: 
+    sha256:5a6a18e5d5be44dc182821ce98e5f3cc0a36fa7e3d0b5c843214a27ae1fef57e
+tags:
+  1.1.3--h3be2455_1: 
+    sha256:5a6a18e5d5be44dc182821ce98e5f3cc0a36fa7e3d0b5c843214a27ae1fef57e
+docker: quay.io/biocontainers/restrander
+aliases:
+  restrander: /usr/local/bin/restrander
