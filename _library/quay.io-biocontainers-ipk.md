@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ipk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ipk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ipk/container.yaml"
-updated_at: "2026-08-23 03:31:28.106881"
-latest: "0.5.1--h077b44d_4"
+updated_at: "2026-08-24 03:42:57.429007"
+latest: "0.5.1--h3be2455_5"
 container_url: "https://biocontainers.pro/tools/ipk"
 aliases:
  - "ipk-aa"
@@ -51,8 +51,9 @@ versions:
  - "0.5.1--hdcf5f25_2"
  - "0.5.1--h077b44d_3"
  - "0.5.1--h077b44d_4"
+ - "0.5.1--h3be2455_5"
 description: "singularity registry hpc automated addition for ipk"
-config: {"url": "https://biocontainers.pro/tools/ipk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ipk", "latest": {"0.5.1--h077b44d_4": "sha256:b5850a4bd21abae65678c0280c6a4c186747802b4b04a23a6c904db7c173077d"}, "tags": {"0.5.1--hdcf5f25_0": "sha256:bd17de5540f03275b2b4d69c8757d04822791d5e9e82a74fe5124b755b80580a", "0.5.1--hdcf5f25_2": "sha256:cda0c82182b78da0c4830605897c4d4444f2bd0e646dbb5ab3679725897473fb", "0.5.1--h077b44d_3": "sha256:ca475c55b7967bfbb03bfc80348438f357aa1ec6cec140f8bab36331c232fa4e", "0.5.1--h077b44d_4": "sha256:b5850a4bd21abae65678c0280c6a4c186747802b4b04a23a6c904db7c173077d"}, "docker": "quay.io/biocontainers/ipk", "aliases": {"ipk-aa": "/usr/local/bin/ipk-aa", "ipk-aa-pos": "/usr/local/bin/ipk-aa-pos", "ipk-dna": "/usr/local/bin/ipk-dna", "ipk.py": "/usr/local/bin/ipk.py", "ipkdiff-aa": "/usr/local/bin/ipkdiff-aa", "ipkdiff-dna": "/usr/local/bin/ipkdiff-dna", "ipkdump-aa": "/usr/local/bin/ipkdump-aa", "ipkdump-dna": "/usr/local/bin/ipkdump-dna", "phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phytime": "/usr/local/bin/phytime", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted"}}
+config: {"url": "https://biocontainers.pro/tools/ipk", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ipk", "latest": {"0.5.1--h3be2455_5": "sha256:627e6b5e978b0ed2240b49117bc4b80970064588fed734f050cde4f2071bdf58"}, "tags": {"0.5.1--hdcf5f25_0": "sha256:bd17de5540f03275b2b4d69c8757d04822791d5e9e82a74fe5124b755b80580a", "0.5.1--hdcf5f25_2": "sha256:cda0c82182b78da0c4830605897c4d4444f2bd0e646dbb5ab3679725897473fb", "0.5.1--h077b44d_3": "sha256:ca475c55b7967bfbb03bfc80348438f357aa1ec6cec140f8bab36331c232fa4e", "0.5.1--h077b44d_4": "sha256:b5850a4bd21abae65678c0280c6a4c186747802b4b04a23a6c904db7c173077d", "0.5.1--h3be2455_5": "sha256:627e6b5e978b0ed2240b49117bc4b80970064588fed734f050cde4f2071bdf58"}, "docker": "quay.io/biocontainers/ipk", "aliases": {"ipk-aa": "/usr/local/bin/ipk-aa", "ipk-aa-pos": "/usr/local/bin/ipk-aa-pos", "ipk-dna": "/usr/local/bin/ipk-dna", "ipk.py": "/usr/local/bin/ipk.py", "ipkdiff-aa": "/usr/local/bin/ipkdiff-aa", "ipkdiff-dna": "/usr/local/bin/ipkdiff-dna", "ipkdump-aa": "/usr/local/bin/ipkdump-aa", "ipkdump-dna": "/usr/local/bin/ipkdump-dna", "phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phytime": "/usr/local/bin/phytime", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "shmemrun": "/usr/local/bin/shmemrun", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server", "ortecc": "/usr/local/bin/ortecc", "orted": "/usr/local/bin/orted"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ipk.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/ipk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ipk:0.5.1--h077b44d_4
+$ shpc install quay.io/biocontainers/ipk:0.5.1--h3be2455_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ipk/0.5.1--h077b44d_4
-$ module help quay.io/biocontainers/ipk/0.5.1--h077b44d_4
+$ module load quay.io/biocontainers/ipk/0.5.1--h3be2455_5
+$ module help quay.io/biocontainers/ipk/0.5.1--h3be2455_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

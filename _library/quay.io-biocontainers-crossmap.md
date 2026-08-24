@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/crossmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crossmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crossmap/container.yaml"
-updated_at: "2026-08-23 03:42:21.246148"
-latest: "0.7.3--pyhdfd78af_0"
+updated_at: "2026-08-24 03:57:45.472249"
+latest: "0.7.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/crossmap"
 aliases:
  - "CrossMap.py"
@@ -24,8 +24,9 @@ versions:
  - "0.6.5--pyhca03a8a_0"
  - "0.7.0--pyhdfd78af_0"
  - "0.7.3--pyhdfd78af_0"
+ - "0.7.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for crossmap"
-config: {"url": "https://biocontainers.pro/tools/crossmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crossmap", "latest": {"0.7.3--pyhdfd78af_0": "sha256:0c480da07a3c26d1e8f869bee6db0461f827d3954d1f0499f57efa43d9d2e569"}, "tags": {"0.6.4--pyhb7b1952_0": "sha256:fb8612ddf0323ff957e1279fff063378714a8624ad45a68d88ef69dc290988e2", "0.6.5--pyhca03a8a_0": "sha256:408e372cd4583860fe0ae403d2b1234b0c04b1108e53690ad779d54a9ca42b8c", "0.7.0--pyhdfd78af_0": "sha256:cc8bbb5eaa8028ebf0f44a2499d1342c7e94e1989d4c3d7e0cc456e36b12053a", "0.7.3--pyhdfd78af_0": "sha256:0c480da07a3c26d1e8f869bee6db0461f827d3954d1f0499f57efa43d9d2e569"}, "docker": "quay.io/biocontainers/crossmap", "aliases": {"CrossMap.py": "/usr/local/bin/CrossMap.py", "wigToBigWig": "/usr/local/bin/wigToBigWig", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
+config: {"url": "https://biocontainers.pro/tools/crossmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crossmap", "latest": {"0.7.4--pyhdfd78af_0": "sha256:d41a66456e6f8fadc7ee2edf33512b58af624d067277e0fe55f13d670a199977"}, "tags": {"0.6.4--pyhb7b1952_0": "sha256:fb8612ddf0323ff957e1279fff063378714a8624ad45a68d88ef69dc290988e2", "0.6.5--pyhca03a8a_0": "sha256:408e372cd4583860fe0ae403d2b1234b0c04b1108e53690ad779d54a9ca42b8c", "0.7.0--pyhdfd78af_0": "sha256:cc8bbb5eaa8028ebf0f44a2499d1342c7e94e1989d4c3d7e0cc456e36b12053a", "0.7.3--pyhdfd78af_0": "sha256:0c480da07a3c26d1e8f869bee6db0461f827d3954d1f0499f57efa43d9d2e569", "0.7.4--pyhdfd78af_0": "sha256:d41a66456e6f8fadc7ee2edf33512b58af624d067277e0fe55f13d670a199977"}, "docker": "quay.io/biocontainers/crossmap", "aliases": {"CrossMap.py": "/usr/local/bin/CrossMap.py", "wigToBigWig": "/usr/local/bin/wigToBigWig", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crossmap.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/crossmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crossmap:0.7.3--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/crossmap:0.7.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crossmap/0.7.3--pyhdfd78af_0
-$ module help quay.io/biocontainers/crossmap/0.7.3--pyhdfd78af_0
+$ module load quay.io/biocontainers/crossmap/0.7.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/crossmap/0.7.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

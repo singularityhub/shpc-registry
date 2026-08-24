@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phame/container.yaml"
-updated_at: "2026-08-23 03:24:12.129239"
+updated_at: "2026-08-24 03:33:04.895322"
 latest: "1.0.4--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phame"
 aliases:

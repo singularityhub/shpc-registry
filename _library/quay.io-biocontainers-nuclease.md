@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/nuclease"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nuclease/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nuclease/container.yaml"
-updated_at: "2026-08-23 03:31:31.410294"
-latest: "0.6.0--hfa8f182_0"
+updated_at: "2026-08-24 03:43:01.920790"
+latest: "0.6.3--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/nuclease"
 aliases:
  - "nuclease"
 versions:
  - "0.6.0--hfa8f182_0"
+ - "0.6.3--hfa8f182_0"
 description: "singularity registry hpc automated addition for nuclease"
-config: {"url": "https://biocontainers.pro/tools/nuclease", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nuclease", "latest": {"0.6.0--hfa8f182_0": "sha256:c66b7a313a2cf69ff6b906b51bcce9fd12b5a97a8a1578940c86e0d387377a21"}, "tags": {"0.6.0--hfa8f182_0": "sha256:c66b7a313a2cf69ff6b906b51bcce9fd12b5a97a8a1578940c86e0d387377a21"}, "docker": "quay.io/biocontainers/nuclease", "aliases": {"nuclease": "/usr/local/bin/nuclease"}}
+config: {"url": "https://biocontainers.pro/tools/nuclease", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for nuclease", "latest": {"0.6.3--hfa8f182_0": "sha256:cdb1948f01e36ca236c22fa9c7b44bd064534632081f2dbaf5ec480ff5262033"}, "tags": {"0.6.0--hfa8f182_0": "sha256:c66b7a313a2cf69ff6b906b51bcce9fd12b5a97a8a1578940c86e0d387377a21", "0.6.3--hfa8f182_0": "sha256:cdb1948f01e36ca236c22fa9c7b44bd064534632081f2dbaf5ec480ff5262033"}, "docker": "quay.io/biocontainers/nuclease", "aliases": {"nuclease": "/usr/local/bin/nuclease"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nuclease.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/nuclease
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nuclease:0.6.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/nuclease:0.6.3--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nuclease/0.6.0--hfa8f182_0
-$ module help quay.io/biocontainers/nuclease/0.6.0--hfa8f182_0
+$ module load quay.io/biocontainers/nuclease/0.6.3--hfa8f182_0
+$ module help quay.io/biocontainers/nuclease/0.6.3--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

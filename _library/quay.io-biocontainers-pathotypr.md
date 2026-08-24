@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pathotypr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathotypr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathotypr/container.yaml"
-updated_at: "2026-08-23 03:38:48.100787"
-latest: "1.0.0--h6872113_0"
+updated_at: "2026-08-24 03:52:55.307194"
+latest: "1.0.2--hef77e2b_0"
 container_url: "https://biocontainers.pro/tools/pathotypr"
 aliases:
  - "pathotypr"
 versions:
  - "1.0.0--h6872113_0"
+ - "1.0.2--hef77e2b_0"
 description: "singularity registry hpc automated addition for pathotypr"
-config: {"url": "https://biocontainers.pro/tools/pathotypr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pathotypr", "latest": {"1.0.0--h6872113_0": "sha256:24d9560e9a9dff1dc9976b342ca42d43ca04f96ae49fcfbb436535fd95ca8193"}, "tags": {"1.0.0--h6872113_0": "sha256:24d9560e9a9dff1dc9976b342ca42d43ca04f96ae49fcfbb436535fd95ca8193"}, "docker": "quay.io/biocontainers/pathotypr", "aliases": {"pathotypr": "/usr/local/bin/pathotypr"}}
+config: {"url": "https://biocontainers.pro/tools/pathotypr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pathotypr", "latest": {"1.0.2--hef77e2b_0": "sha256:d3b480463818d3955b18778cf17f594cf595aaf5ce47676f6b7236212755f3df"}, "tags": {"1.0.0--h6872113_0": "sha256:24d9560e9a9dff1dc9976b342ca42d43ca04f96ae49fcfbb436535fd95ca8193", "1.0.2--hef77e2b_0": "sha256:d3b480463818d3955b18778cf17f594cf595aaf5ce47676f6b7236212755f3df"}, "docker": "quay.io/biocontainers/pathotypr", "aliases": {"pathotypr": "/usr/local/bin/pathotypr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pathotypr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/pathotypr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pathotypr:1.0.0--h6872113_0
+$ shpc install quay.io/biocontainers/pathotypr:1.0.2--hef77e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pathotypr/1.0.0--h6872113_0
-$ module help quay.io/biocontainers/pathotypr/1.0.0--h6872113_0
+$ module load quay.io/biocontainers/pathotypr/1.0.2--hef77e2b_0
+$ module help quay.io/biocontainers/pathotypr/1.0.2--hef77e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

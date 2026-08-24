@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-loomr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-loomr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-loomr/container.yaml"
-updated_at: "2026-08-23 03:12:43.483495"
+updated_at: "2026-08-24 03:17:03.361744"
 latest: "0.2.0_beta--r44hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-loomr"
 aliases:
