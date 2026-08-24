@@ -4,7 +4,7 @@ maintainer: '@sarahbeecroft'
 features:
   gpu: true
 
-description: AMD compatible version of Alphafold2, also compatible with nf-core ProteinFold pipeline
+description: AMD compatible version of Boltz2, also compatible with nf-core ProteinFold pipeline
 
 latest:
   v2.2.1_rocm6.4.1:
