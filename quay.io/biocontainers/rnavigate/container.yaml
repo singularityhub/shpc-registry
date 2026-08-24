@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rnavigate
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rnavigate
 latest:
-  1.1.2--pyh106432d_0: 
-    sha256:ae1bc34c12995bc7f6fbefee5cc047c9396f287a79d29da9d44c320217f904d5
+  1.1.4--pyh106432d_0: 
+    sha256:3bf8f45ccb82fca56e616511f4e45e3469a515832711be2429a6ef0aff9a2385
 tags:
   1.1.2--pyh106432d_0: 
     sha256:ae1bc34c12995bc7f6fbefee5cc047c9396f287a79d29da9d44c320217f904d5
+  1.1.4--pyh106432d_0: 
+    sha256:3bf8f45ccb82fca56e616511f4e45e3469a515832711be2429a6ef0aff9a2385
 docker: quay.io/biocontainers/rnavigate
 aliases:
   idna: /usr/local/bin/idna

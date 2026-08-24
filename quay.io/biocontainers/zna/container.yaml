@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/zna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for zna
 latest:
-  0.3.1--py311h9a48388_0: 
-    sha256:a312d30c352e5a07ae4056a9c22db63ad8521734c9e55dd293f91c8f77802348
+  0.4.1--py310h96c7dba_0: 
+    sha256:67bd49fccc3ae6c61f18031a45fc09ca035a017a47be6f59b9d1407958f0aa5f
 tags:
   0.1.8--py310hbcdfcc8_0: 
     sha256:fb80238613fa98d43344062c4acf8eb668fdef5cb9c3a8f53591c41854c87254
@@ -15,6 +15,10 @@ tags:
     sha256:7b79bbef18e2358123ee6af37b38b7a7c675512138d57c2efa841fd49d6df033
   0.3.1--py311h9a48388_0: 
     sha256:a312d30c352e5a07ae4056a9c22db63ad8521734c9e55dd293f91c8f77802348
+  0.4.1--py310h96c7dba_0: 
+    sha256:67bd49fccc3ae6c61f18031a45fc09ca035a017a47be6f59b9d1407958f0aa5f
+  0.3.5--py311h9a48388_0: 
+    sha256:6019a509232ac63c7640b09ecb72d2f1ceee13f260ab1a9240fed1d7d461d44b
 docker: quay.io/biocontainers/zna
 aliases:
   zna: /usr/local/bin/zna

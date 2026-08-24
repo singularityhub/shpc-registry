@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-ic10
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ic10
 latest:
-  2.0.2--r45h3121a25_3: 
-    sha256:88cb3c998f3712eb653700ad70402129384c68666a4b752824b52d863db99f6e
+  2.0.3--r45h3121a25_0: 
+    sha256:63671beb9690f0b07169c7072f8eec8138474d7589cc736f99fdf203df29894b
 tags:
   1.5--r41h3121a25_4: 
     sha256:28f13f2b9420ed43859cff4bb2c1ede4e86a9d8d73b237e24f774e8c2729ea6f
@@ -19,6 +19,8 @@ tags:
     sha256:da34fecd8c6301f39d454af085987c08c1c462bf32ff891bf77ddbf63eeedede
   2.0.2--r45h3121a25_3: 
     sha256:88cb3c998f3712eb653700ad70402129384c68666a4b752824b52d863db99f6e
+  2.0.3--r45h3121a25_0: 
+    sha256:63671beb9690f0b07169c7072f8eec8138474d7589cc736f99fdf203df29894b
 docker: quay.io/biocontainers/r-ic10
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: 

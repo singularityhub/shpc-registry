@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pvactools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pvactools
 latest:
-  7.0.1--pyhdfd78af_0: 
-    sha256:62fe9096cba17d8b9f5c0deff84f1a598fd0383b82226117e3d8094dd5b8fd21
+  7.1.2--pyhdfd78af_0: 
+    sha256:7fc7421d46540841de90b097eda67d0239cd65a4e0ab9d081d1189bc56091366
 tags:
   7.0.1--pyhdfd78af_0: 
     sha256:62fe9096cba17d8b9f5c0deff84f1a598fd0383b82226117e3d8094dd5b8fd21
+  7.1.2--pyhdfd78af_0: 
+    sha256:7fc7421d46540841de90b097eda67d0239cd65a4e0ab9d081d1189bc56091366
 docker: quay.io/biocontainers/pvactools
 aliases:
   cffi-gen-src: /usr/local/bin/cffi-gen-src

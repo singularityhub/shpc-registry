@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/tirmite
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tirmite
 latest:
-  1.4.0--pyhdfd78af_0: 
-    sha256:44c8bb7a9165b6a62873ebdac13dc8e9fc697216f15efc3eeb8bc7765507f65d
+  1.5.0--pyhdfd78af_0: 
+    sha256:e23f75f7d9a0a60d9560c3338eba2345b09a67868ec799e99f558b6303c501b6
 tags:
   1.1.4--py_0: 
     sha256:944707ca5b5d83d0f1338c6a8473fdf7b31097bcf8fd6757dc4b10402d85e1f6
@@ -15,6 +15,8 @@ tags:
     sha256:2f2bdb48653974269b08db5547a33692dfabdeb2de414af65a4ad0b1d5d5ae3b
   1.4.0--pyhdfd78af_0: 
     sha256:44c8bb7a9165b6a62873ebdac13dc8e9fc697216f15efc3eeb8bc7765507f65d
+  1.5.0--pyhdfd78af_0: 
+    sha256:e23f75f7d9a0a60d9560c3338eba2345b09a67868ec799e99f558b6303c501b6
 docker: quay.io/biocontainers/tirmite
 aliases:
   tirmite: /usr/local/bin/tirmite
