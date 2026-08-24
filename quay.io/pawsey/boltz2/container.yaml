@@ -7,11 +7,11 @@ features:
 description: AMD compatible version of Alphafold2, also compatible with nf-core ProteinFold pipeline
 
 latest:
-  v2.2.1_rocm6.4:
-    sha256:e71ec191d62f044860c279199394fc5374ec84304670cff61a39cf7e8603c7a2
+  v2.2.1_rocm6.4.1:
+    sha256:443e35188ff153c2d480629a5e740a30dae331e0842e03d14f9ce72c1781963e
 tags:
-  v2.2.1_rocm6.4:
-    sha256:e71ec191d62f044860c279199394fc5374ec84304670cff61a39cf7e8603c7a2
+  v2.2.1_rocm6.4.1:
+    sha256:443e35188ff153c2d480629a5e740a30dae331e0842e03d14f9ce72c1781963e
 
 aliases:
   boltz: /usr/local/bin/boltz
