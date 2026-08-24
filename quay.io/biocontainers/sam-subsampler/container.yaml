@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/sam-subsampler
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sam-subsampler
 latest:
-  0.1.0--hf71e60c_0: 
-    sha256:637ad49a88c0912418640b286ae958b0a87fd736e4370e11b5879cf3f3de6011
+  0.3.0--hf71e60c_0: 
+    sha256:761c85dd48eaa522276efe1dd9ed013ba7fc77329e1827a928b838a3cd28abd8
 tags:
   0.1.0--hf71e60c_0: 
     sha256:637ad49a88c0912418640b286ae958b0a87fd736e4370e11b5879cf3f3de6011
+  0.3.0--hf71e60c_0: 
+    sha256:761c85dd48eaa522276efe1dd9ed013ba7fc77329e1827a928b838a3cd28abd8
+  0.2.0--hf71e60c_0: 
+    sha256:6fb1cf61b93befb48b9c6ed3ca661b8649cc3a8b4789c624130fb7ef13a1c061
 docker: quay.io/biocontainers/sam-subsampler
 aliases:
   sam-subsampler: /usr/local/bin/sam-subsampler
