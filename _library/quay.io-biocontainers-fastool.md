@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastool/container.yaml"
-updated_at: "2026-08-24 03:46:50.915005"
+updated_at: "2026-08-25 03:42:22.651844"
 latest: "0.1.4--h577a1d6_10"
 container_url: "https://biocontainers.pro/tools/fastool"
 aliases:

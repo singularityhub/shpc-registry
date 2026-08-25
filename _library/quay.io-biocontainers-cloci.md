@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cloci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cloci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cloci/container.yaml"
-updated_at: "2026-08-24 03:27:43.906061"
+updated_at: "2026-08-25 03:22:52.999406"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cloci"
 aliases:

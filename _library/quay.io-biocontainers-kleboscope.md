@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kleboscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kleboscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kleboscope/container.yaml"
-updated_at: "2026-08-24 03:24:48.270364"
+updated_at: "2026-08-25 03:19:54.775957"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kleboscope"
 aliases:

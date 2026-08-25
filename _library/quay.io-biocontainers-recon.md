@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/recon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recon/container.yaml"
-updated_at: "2026-08-24 03:54:28.094964"
-latest: "1.10--hab16a5f_0"
+updated_at: "2026-08-25 03:49:56.529270"
+latest: "1.10--hab16a5f_1"
 container_url: "https://biocontainers.pro/tools/recon"
 aliases:
  - "edgeredef"
@@ -20,8 +20,9 @@ versions:
  - "1.08--h8a409c4_7"
  - "1.08--h7b50bb2_9"
  - "1.10--hab16a5f_0"
+ - "1.10--hab16a5f_1"
 description: "shpc-registry automated BioContainers addition for recon"
-config: {"url": "https://biocontainers.pro/tools/recon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recon", "latest": {"1.10--hab16a5f_0": "sha256:4aacd1dae1e2fc1b5a4212dc087ec67ec28dfbd5303a5006ed7b3238e16d791d"}, "tags": {"1.08--hec16e2b_4": "sha256:574ca009a2637d0ca0b94c8d27b14ee43ad5fd8c3504e68d69b4e8cc0e21ddcb", "1.08--h031d066_6": "sha256:e1be8ca1d58394331349516ff8f7e1ccb3295e284666d946f53b7bdeb41335e2", "1.08--h031d066_7": "sha256:7df67c477f3fa9b4f81ba57b2461bd73fc4cf07bb99d9a06b4aabf61900022f9", "1.08--h8a409c4_7": "sha256:4d7e17e7e6bf6ff6a6d4736c7d39bbea8af3cacd9d033f72a9757804d365a7c0", "1.08--h7b50bb2_9": "sha256:4d9795c2bea48f87a7e58783f6983770bcb8f08e26e265044a086617a7f0ac9b", "1.10--hab16a5f_0": "sha256:4aacd1dae1e2fc1b5a4212dc087ec67ec28dfbd5303a5006ed7b3238e16d791d"}, "docker": "quay.io/biocontainers/recon", "aliases": {"edgeredef": "/usr/local/bin/edgeredef", "eledef": "/usr/local/bin/eledef", "eleredef": "/usr/local/bin/eleredef", "famdef": "/usr/local/bin/famdef", "imagespread": "/usr/local/bin/imagespread"}}
+config: {"url": "https://biocontainers.pro/tools/recon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recon", "latest": {"1.10--hab16a5f_1": "sha256:ec1bd7560274369236e5e0e7e8afd456aa5d1f0f21473fc8574c46522000f0f0"}, "tags": {"1.08--hec16e2b_4": "sha256:574ca009a2637d0ca0b94c8d27b14ee43ad5fd8c3504e68d69b4e8cc0e21ddcb", "1.08--h031d066_6": "sha256:e1be8ca1d58394331349516ff8f7e1ccb3295e284666d946f53b7bdeb41335e2", "1.08--h031d066_7": "sha256:7df67c477f3fa9b4f81ba57b2461bd73fc4cf07bb99d9a06b4aabf61900022f9", "1.08--h8a409c4_7": "sha256:4d7e17e7e6bf6ff6a6d4736c7d39bbea8af3cacd9d033f72a9757804d365a7c0", "1.08--h7b50bb2_9": "sha256:4d9795c2bea48f87a7e58783f6983770bcb8f08e26e265044a086617a7f0ac9b", "1.10--hab16a5f_0": "sha256:4aacd1dae1e2fc1b5a4212dc087ec67ec28dfbd5303a5006ed7b3238e16d791d", "1.10--hab16a5f_1": "sha256:ec1bd7560274369236e5e0e7e8afd456aa5d1f0f21473fc8574c46522000f0f0"}, "docker": "quay.io/biocontainers/recon", "aliases": {"edgeredef": "/usr/local/bin/edgeredef", "eledef": "/usr/local/bin/eledef", "eleredef": "/usr/local/bin/eleredef", "famdef": "/usr/local/bin/famdef", "imagespread": "/usr/local/bin/imagespread"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recon.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/recon
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/recon:1.10--hab16a5f_0
+$ shpc install quay.io/biocontainers/recon:1.10--hab16a5f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/recon/1.10--hab16a5f_0
-$ module help quay.io/biocontainers/recon/1.10--hab16a5f_0
+$ module load quay.io/biocontainers/recon/1.10--hab16a5f_1
+$ module help quay.io/biocontainers/recon/1.10--hab16a5f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

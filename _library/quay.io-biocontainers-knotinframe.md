@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/knotinframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/knotinframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/knotinframe/container.yaml"
-updated_at: "2026-08-24 03:31:45.071060"
+updated_at: "2026-08-25 03:26:59.076328"
 latest: "2.3.2--h9948957_2"
 container_url: "https://biocontainers.pro/tools/knotinframe"
 aliases:

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/sam-subsampler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam-subsampler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam-subsampler/container.yaml"
-updated_at: "2026-08-24 03:55:50.012960"
-latest: "0.1.0--hf71e60c_0"
+updated_at: "2026-08-25 03:51:18.905387"
+latest: "0.3.0--hf71e60c_0"
 container_url: "https://biocontainers.pro/tools/sam-subsampler"
 aliases:
  - "sam-subsampler"
 versions:
  - "0.1.0--hf71e60c_0"
+ - "0.3.0--hf71e60c_0"
+ - "0.2.0--hf71e60c_0"
 description: "singularity registry hpc automated addition for sam-subsampler"
-config: {"url": "https://biocontainers.pro/tools/sam-subsampler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sam-subsampler", "latest": {"0.1.0--hf71e60c_0": "sha256:637ad49a88c0912418640b286ae958b0a87fd736e4370e11b5879cf3f3de6011"}, "tags": {"0.1.0--hf71e60c_0": "sha256:637ad49a88c0912418640b286ae958b0a87fd736e4370e11b5879cf3f3de6011"}, "docker": "quay.io/biocontainers/sam-subsampler", "aliases": {"sam-subsampler": "/usr/local/bin/sam-subsampler"}}
+config: {"url": "https://biocontainers.pro/tools/sam-subsampler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sam-subsampler", "latest": {"0.3.0--hf71e60c_0": "sha256:761c85dd48eaa522276efe1dd9ed013ba7fc77329e1827a928b838a3cd28abd8"}, "tags": {"0.1.0--hf71e60c_0": "sha256:637ad49a88c0912418640b286ae958b0a87fd736e4370e11b5879cf3f3de6011", "0.3.0--hf71e60c_0": "sha256:761c85dd48eaa522276efe1dd9ed013ba7fc77329e1827a928b838a3cd28abd8", "0.2.0--hf71e60c_0": "sha256:6fb1cf61b93befb48b9c6ed3ca661b8649cc3a8b4789c624130fb7ef13a1c061"}, "docker": "quay.io/biocontainers/sam-subsampler", "aliases": {"sam-subsampler": "/usr/local/bin/sam-subsampler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sam-subsampler.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/sam-subsampler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sam-subsampler:0.1.0--hf71e60c_0
+$ shpc install quay.io/biocontainers/sam-subsampler:0.3.0--hf71e60c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sam-subsampler/0.1.0--hf71e60c_0
-$ module help quay.io/biocontainers/sam-subsampler/0.1.0--hf71e60c_0
+$ module load quay.io/biocontainers/sam-subsampler/0.3.0--hf71e60c_0
+$ module help quay.io/biocontainers/sam-subsampler/0.3.0--hf71e60c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

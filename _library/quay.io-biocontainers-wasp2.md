@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wasp2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wasp2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wasp2/container.yaml"
-updated_at: "2026-08-24 03:09:06.764070"
-latest: "1.4.0--py311h169748d_0"
+updated_at: "2026-08-25 03:04:06.858541"
+latest: "1.4.1--py311hc94fe14_0"
 container_url: "https://biocontainers.pro/tools/wasp2"
 aliases:
  - "session-info"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "1.4.0--py311h169748d_0"
  - "1.4.0--py312he226335_0"
+ - "1.4.1--py311hc94fe14_0"
 description: "singularity registry hpc automated addition for wasp2"
-config: {"url": "https://biocontainers.pro/tools/wasp2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wasp2", "latest": {"1.4.0--py311h169748d_0": "sha256:cb629c7c69ed6d481eaffac80298d56ab68d9e920dff9e82109fd4a30aca03c8"}, "tags": {"1.4.0--py311h169748d_0": "sha256:cb629c7c69ed6d481eaffac80298d56ab68d9e920dff9e82109fd4a30aca03c8", "1.4.0--py312he226335_0": "sha256:55284a8edca273d7bc540b79ee45c5cf3ce085efa7b391131895c72214b25a27"}, "docker": "quay.io/biocontainers/wasp2", "aliases": {"session-info": "/usr/local/bin/session-info", "session-info2": "/usr/local/bin/session-info2", "wasp2-analyze": "/usr/local/bin/wasp2-analyze", "wasp2-count": "/usr/local/bin/wasp2-count", "wasp2-ipscore": "/usr/local/bin/wasp2-ipscore", "wasp2-map": "/usr/local/bin/wasp2-map", "gff2gff": "/usr/local/bin/gff2gff", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "typer": "/usr/local/bin/typer", "ref-cache": "/usr/local/bin/ref-cache", "gff2gff.py": "/usr/local/bin/gff2gff.py", "scanpy": "/usr/local/bin/scanpy", "h5fuse": "/usr/local/bin/h5fuse", "markdown-it": "/usr/local/bin/markdown-it", "annot-tsv": "/usr/local/bin/annot-tsv", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "natsort": "/usr/local/bin/natsort", "numba": "/usr/local/bin/numba", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff"}}
+config: {"url": "https://biocontainers.pro/tools/wasp2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for wasp2", "latest": {"1.4.1--py311hc94fe14_0": "sha256:e9eb163eaf6fdb529b967769c3145e4c483b97dab873d142f006a33abcd7b6c6"}, "tags": {"1.4.0--py311h169748d_0": "sha256:cb629c7c69ed6d481eaffac80298d56ab68d9e920dff9e82109fd4a30aca03c8", "1.4.0--py312he226335_0": "sha256:55284a8edca273d7bc540b79ee45c5cf3ce085efa7b391131895c72214b25a27", "1.4.1--py311hc94fe14_0": "sha256:e9eb163eaf6fdb529b967769c3145e4c483b97dab873d142f006a33abcd7b6c6"}, "docker": "quay.io/biocontainers/wasp2", "aliases": {"session-info": "/usr/local/bin/session-info", "session-info2": "/usr/local/bin/session-info2", "wasp2-analyze": "/usr/local/bin/wasp2-analyze", "wasp2-count": "/usr/local/bin/wasp2-count", "wasp2-ipscore": "/usr/local/bin/wasp2-ipscore", "wasp2-map": "/usr/local/bin/wasp2-map", "gff2gff": "/usr/local/bin/gff2gff", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "typer": "/usr/local/bin/typer", "ref-cache": "/usr/local/bin/ref-cache", "gff2gff.py": "/usr/local/bin/gff2gff.py", "scanpy": "/usr/local/bin/scanpy", "h5fuse": "/usr/local/bin/h5fuse", "markdown-it": "/usr/local/bin/markdown-it", "annot-tsv": "/usr/local/bin/annot-tsv", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "natsort": "/usr/local/bin/natsort", "numba": "/usr/local/bin/numba", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wasp2.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/wasp2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wasp2:1.4.0--py311h169748d_0
+$ shpc install quay.io/biocontainers/wasp2:1.4.1--py311hc94fe14_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wasp2/1.4.0--py311h169748d_0
-$ module help quay.io/biocontainers/wasp2/1.4.0--py311h169748d_0
+$ module load quay.io/biocontainers/wasp2/1.4.1--py311hc94fe14_0
+$ module help quay.io/biocontainers/wasp2/1.4.1--py311hc94fe14_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

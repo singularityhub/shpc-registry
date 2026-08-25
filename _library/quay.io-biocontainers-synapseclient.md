@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/synapseclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/synapseclient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/synapseclient/container.yaml"
-updated_at: "2026-08-24 03:31:27.768471"
+updated_at: "2026-08-25 03:26:41.000784"
 latest: "4.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/synapseclient"
 aliases:

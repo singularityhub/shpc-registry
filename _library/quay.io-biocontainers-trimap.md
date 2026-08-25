@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trimap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trimap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trimap/container.yaml"
-updated_at: "2026-08-24 03:10:57.834833"
-latest: "1.0.15--pyh5e36f6f_0"
+updated_at: "2026-08-25 03:05:55.611751"
+latest: "1.2.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/trimap"
 aliases:
  - "numba"
@@ -19,8 +19,9 @@ aliases:
  - "python3.1"
 versions:
  - "1.0.15--pyh5e36f6f_0"
+ - "1.2.0--pyh106432d_0"
 description: "singularity registry hpc automated addition for trimap"
-config: {"url": "https://biocontainers.pro/tools/trimap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trimap", "latest": {"1.0.15--pyh5e36f6f_0": "sha256:b67589b79c9d42bd18407a74c65352f99bec6c995b200a9e312530b8d3c0cac2"}, "tags": {"1.0.15--pyh5e36f6f_0": "sha256:b67589b79c9d42bd18407a74c65352f99bec6c995b200a9e312530b8d3c0cac2"}, "docker": "quay.io/biocontainers/trimap", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/trimap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for trimap", "latest": {"1.2.0--pyh106432d_0": "sha256:e46286bb075661800b68edd06cacdce815a30240529cd69ceec1e854271ff7f4"}, "tags": {"1.0.15--pyh5e36f6f_0": "sha256:b67589b79c9d42bd18407a74c65352f99bec6c995b200a9e312530b8d3c0cac2", "1.2.0--pyh106432d_0": "sha256:e46286bb075661800b68edd06cacdce815a30240529cd69ceec1e854271ff7f4"}, "docker": "quay.io/biocontainers/trimap", "aliases": {"numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trimap.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/trimap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trimap:1.0.15--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/trimap:1.2.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trimap/1.0.15--pyh5e36f6f_0
-$ module help quay.io/biocontainers/trimap/1.0.15--pyh5e36f6f_0
+$ module load quay.io/biocontainers/trimap/1.2.0--pyh106432d_0
+$ module help quay.io/biocontainers/trimap/1.2.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

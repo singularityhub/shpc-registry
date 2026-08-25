@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/easy45"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easy45/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easy45/container.yaml"
-updated_at: "2026-08-24 03:38:20.988802"
+updated_at: "2026-08-25 03:33:46.670752"
 latest: "0.1.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/easy45"
 aliases:

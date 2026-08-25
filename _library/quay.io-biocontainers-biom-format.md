@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biom-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biom-format/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biom-format/container.yaml"
-updated_at: "2026-08-24 03:33:23.365152"
+updated_at: "2026-08-25 03:28:40.060798"
 latest: "2.1.17"
 container_url: "https://biocontainers.pro/tools/biom-format"
 aliases:

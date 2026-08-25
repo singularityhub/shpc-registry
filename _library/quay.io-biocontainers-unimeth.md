@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/unimeth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unimeth/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unimeth/container.yaml"
-updated_at: "2026-08-24 03:12:17.938987"
-latest: "0.2.1--pyhdfd78af_0"
+updated_at: "2026-08-25 03:07:13.539513"
+latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/unimeth"
 aliases:
  - "accelerate"
@@ -44,8 +44,9 @@ aliases:
  - "orc-scan"
 versions:
  - "0.2.1--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for unimeth"
-config: {"url": "https://biocontainers.pro/tools/unimeth", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unimeth", "latest": {"0.2.1--pyhdfd78af_0": "sha256:5cc6398ff51dea28c008c3310224d0982ead6450ece70e5e74413541ae3a2769"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:5cc6398ff51dea28c008c3310224d0982ead6450ece70e5e74413541ae3a2769"}, "docker": "quay.io/biocontainers/unimeth", "aliases": {"accelerate": "/usr/local/bin/accelerate", "accelerate-config": "/usr/local/bin/accelerate-config", "accelerate-estimate-memory": "/usr/local/bin/accelerate-estimate-memory", "accelerate-launch": "/usr/local/bin/accelerate-launch", "accelerate-merge-weights": "/usr/local/bin/accelerate-merge-weights", "pod5": "/usr/local/bin/pod5", "unimeth": "/usr/local/bin/unimeth", "unimeth-infer": "/usr/local/bin/unimeth-infer", "unimeth-train": "/usr/local/bin/unimeth-train", "transformers": "/usr/local/bin/transformers", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "flatc": "/usr/local/bin/flatc", "idna": "/usr/local/bin/idna", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "elastishadow": "/usr/local/bin/elastishadow", "h5fuse": "/usr/local/bin/h5fuse", "checksum-profile": "/usr/local/bin/checksum-profile", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
+config: {"url": "https://biocontainers.pro/tools/unimeth", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for unimeth", "latest": {"0.2.2--pyhdfd78af_0": "sha256:e69d969622fbce2be451e4efb9ffe47d90e0d078c6df16fd009a61dbd8c7bd41"}, "tags": {"0.2.1--pyhdfd78af_0": "sha256:5cc6398ff51dea28c008c3310224d0982ead6450ece70e5e74413541ae3a2769", "0.2.2--pyhdfd78af_0": "sha256:e69d969622fbce2be451e4efb9ffe47d90e0d078c6df16fd009a61dbd8c7bd41"}, "docker": "quay.io/biocontainers/unimeth", "aliases": {"accelerate": "/usr/local/bin/accelerate", "accelerate-config": "/usr/local/bin/accelerate-config", "accelerate-estimate-memory": "/usr/local/bin/accelerate-estimate-memory", "accelerate-launch": "/usr/local/bin/accelerate-launch", "accelerate-merge-weights": "/usr/local/bin/accelerate-merge-weights", "pod5": "/usr/local/bin/pod5", "unimeth": "/usr/local/bin/unimeth", "unimeth-infer": "/usr/local/bin/unimeth-infer", "unimeth-train": "/usr/local/bin/unimeth-train", "transformers": "/usr/local/bin/transformers", "hf": "/usr/local/bin/hf", "tiny-agents": "/usr/local/bin/tiny-agents", "huggingface-cli": "/usr/local/bin/huggingface-cli", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "flatc": "/usr/local/bin/flatc", "idna": "/usr/local/bin/idna", "torchfrtrace": "/usr/local/bin/torchfrtrace", "httpx": "/usr/local/bin/httpx", "pybind11-config": "/usr/local/bin/pybind11-config", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "elastishadow": "/usr/local/bin/elastishadow", "h5fuse": "/usr/local/bin/h5fuse", "checksum-profile": "/usr/local/bin/checksum-profile", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unimeth.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/unimeth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/unimeth:0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/unimeth:0.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/unimeth/0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/unimeth/0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/unimeth/0.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/unimeth/0.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

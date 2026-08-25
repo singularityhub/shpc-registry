@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xpore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xpore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xpore/container.yaml"
-updated_at: "2026-08-24 03:31:13.391625"
-latest: "2.1--pyh5e36f6f_0"
+updated_at: "2026-08-25 03:26:25.989057"
+latest: "2.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/xpore"
 aliases:
  - "epylint"
@@ -30,8 +30,9 @@ aliases:
  - "h52gif"
 versions:
  - "2.1--pyh5e36f6f_0"
+ - "2.2--pyh106432d_0"
 description: "shpc-registry automated BioContainers addition for xpore"
-config: {"url": "https://biocontainers.pro/tools/xpore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xpore", "latest": {"2.1--pyh5e36f6f_0": "sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4"}, "tags": {"2.1--pyh5e36f6f_0": "sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4"}, "docker": "quay.io/biocontainers/xpore", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pyensembl": "/usr/local/bin/pyensembl", "pylint": "/usr/local/bin/pylint", "pyreverse": "/usr/local/bin/pyreverse", "symilar": "/usr/local/bin/symilar", "xpore": "/usr/local/bin/xpore", "xpore-dataprep": "/usr/local/bin/xpore-dataprep", "xpore-diffmod": "/usr/local/bin/xpore-diffmod", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif"}}
+config: {"url": "https://biocontainers.pro/tools/xpore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xpore", "latest": {"2.2--pyh106432d_0": "sha256:089f4170f769ffe30892a9e0b448d7553aebed37d7249dc5ec1b4c773da7e9f7"}, "tags": {"2.1--pyh5e36f6f_0": "sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4", "2.2--pyh106432d_0": "sha256:089f4170f769ffe30892a9e0b448d7553aebed37d7249dc5ec1b4c773da7e9f7"}, "docker": "quay.io/biocontainers/xpore", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pyensembl": "/usr/local/bin/pyensembl", "pylint": "/usr/local/bin/pylint", "pyreverse": "/usr/local/bin/pyreverse", "symilar": "/usr/local/bin/symilar", "xpore": "/usr/local/bin/xpore", "xpore-dataprep": "/usr/local/bin/xpore-dataprep", "xpore-diffmod": "/usr/local/bin/xpore-diffmod", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xpore.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/xpore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xpore:2.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/xpore:2.2--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xpore/2.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/xpore/2.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/xpore/2.2--pyh106432d_0
+$ module help quay.io/biocontainers/xpore/2.2--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

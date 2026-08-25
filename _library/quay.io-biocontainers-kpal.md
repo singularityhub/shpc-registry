@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kpal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kpal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kpal/container.yaml"
-updated_at: "2026-08-24 03:30:37.677111"
+updated_at: "2026-08-25 03:25:48.698723"
 latest: "2.1.1--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/kpal"
 aliases:
