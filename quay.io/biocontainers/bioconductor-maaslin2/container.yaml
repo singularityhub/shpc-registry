@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-maaslin2
 latest:
-  1.18.0--r43hdfd78af_0: 
-    sha256:09cce6238de60b9f72cd8ba22cbb7d9aa9f498a21973905ea7527d0476321941
+  1.22.0--r45hdfd78af_0: 
+    sha256:07379facbc5a13dc48f66cac52b2ca34497188ee1c6ea1fac28f72514b4f9548
 tags:
   1.8.0--r41hdfd78af_0: 
     sha256:e412db0ee818b9416615c69c48439436160c4a5658cc896e4abd05aea45cfbf1
@@ -18,4 +18,6 @@ tags:
     sha256:25e9cb2f18aca2462656b9dc3a0dc2834c84c448e29e4940de29c250e9f7556c
   1.18.0--r43hdfd78af_0: 
     sha256:09cce6238de60b9f72cd8ba22cbb7d9aa9f498a21973905ea7527d0476321941
+  1.22.0--r45hdfd78af_0: 
+    sha256:07379facbc5a13dc48f66cac52b2ca34497188ee1c6ea1fac28f72514b4f9548
 docker: quay.io/biocontainers/bioconductor-maaslin2

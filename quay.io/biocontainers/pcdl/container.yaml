@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pcdl
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pcdl
 latest:
-  4.1.5--pyhdfd78af_0: 
-    sha256:3994c3c6b73394fbb3b916577dfdedc5e1f2e5941ed1bc7e463aaf9218a2cb0e
+  4.1.7--pyhdfd78af_0: 
+    sha256:632b58d08a10a857223caa4cf109226f27570716daa95b99ac902c47546e2f57
 tags:
   3.3.6--pyhdfd78af_0: 
     sha256:19189b0d49e7696f43fdebc40d101d207dacf29fa710308ad19d8073249d1950
@@ -13,6 +13,8 @@ tags:
     sha256:58a66015751bc4fe0a9c4733252a0d1496629d2e81ef86c92b81f0f7455fc120
   4.1.5--pyhdfd78af_0: 
     sha256:3994c3c6b73394fbb3b916577dfdedc5e1f2e5941ed1bc7e463aaf9218a2cb0e
+  4.1.7--pyhdfd78af_0: 
+    sha256:632b58d08a10a857223caa4cf109226f27570716daa95b99ac902c47546e2f57
 docker: quay.io/biocontainers/pcdl
 aliases:
   androiddeployqt6: /usr/local/bin/androiddeployqt6
