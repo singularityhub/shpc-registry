@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clustsignal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clustsignal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clustsignal/container.yaml"
-updated_at: "2026-08-25 03:18:52.898653"
+updated_at: "2026-08-25 09:39:07.416663"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clustsignal"
 aliases:

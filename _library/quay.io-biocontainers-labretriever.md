@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/labretriever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/labretriever/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/labretriever/container.yaml"
-updated_at: "2026-08-25 03:37:34.436357"
+updated_at: "2026-08-25 09:57:14.024803"
 latest: "1.1.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/labretriever"
 aliases:

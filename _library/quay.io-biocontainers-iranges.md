@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iranges/container.yaml"
-updated_at: "2026-08-25 03:55:48.049877"
+updated_at: "2026-08-25 10:15:08.216025"
 latest: "0.7.2--py310ha9eae8f_0"
 container_url: "https://biocontainers.pro/tools/iranges"
 aliases:

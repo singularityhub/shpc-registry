@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastreer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastreer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastreer/container.yaml"
-updated_at: "2026-08-25 03:59:45.929967"
+updated_at: "2026-08-25 10:19:05.428778"
 latest: "2.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fastreer"
 aliases:

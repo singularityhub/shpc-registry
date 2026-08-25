@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mams"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mams/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mams/container.yaml"
-updated_at: "2026-08-25 03:26:54.495695"
+updated_at: "2026-08-25 09:46:57.077253"
 latest: "1.0.1--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-mams"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-idiogram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-idiogram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-idiogram/container.yaml"
-updated_at: "2026-08-25 03:56:42.167577"
+updated_at: "2026-08-25 10:16:02.442277"
 latest: "1.86.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-idiogram"
 

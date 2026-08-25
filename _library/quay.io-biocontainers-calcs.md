@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/calcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/calcs/container.yaml"
-updated_at: "2026-08-25 03:11:30.944414"
+updated_at: "2026-08-25 09:31:59.929799"
 latest: "0.0.0.9999--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/calcs"
 aliases:

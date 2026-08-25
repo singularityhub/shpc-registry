@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/addrwatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/addrwatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/addrwatch/container.yaml"
-updated_at: "2026-08-25 03:01:14.718746"
+updated_at: "2026-08-25 09:21:44.833999"
 latest: "1.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/addrwatch"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbimeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbimeta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbimeta/container.yaml"
-updated_at: "2026-08-25 03:57:14.161370"
+updated_at: "2026-08-25 10:16:34.358314"
 latest: "0.8.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ncbimeta"
 aliases:

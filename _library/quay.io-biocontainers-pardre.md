@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pardre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pardre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pardre/container.yaml"
-updated_at: "2026-08-25 03:58:09.193291"
+updated_at: "2026-08-25 10:17:29.275104"
 latest: "2.2.5--h2aad775_4"
 container_url: "https://biocontainers.pro/tools/pardre"
 aliases:

@@ -4,7 +4,7 @@ name:  "nvcr.io/hpc/autodock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/autodock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/autodock/container.yaml"
-updated_at: "2026-08-25 04:00:41.234228"
+updated_at: "2026-08-25 10:20:00.569156"
 latest: "2020.06"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:autodock"
 aliases:

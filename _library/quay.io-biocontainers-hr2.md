@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hr2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hr2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hr2/container.yaml"
-updated_at: "2026-08-25 03:55:27.056552"
+updated_at: "2026-08-25 10:14:46.927757"
 latest: "1.04--h9948957_6"
 container_url: "https://biocontainers.pro/tools/hr2"
 aliases:
