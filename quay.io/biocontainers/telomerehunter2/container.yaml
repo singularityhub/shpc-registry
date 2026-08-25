@@ -1,0 +1,23 @@
+url: https://biocontainers.pro/tools/telomerehunter2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for telomerehunter2
+latest:
+  1.0.11--pyhdfd78af_0: 
+    sha256:78dfc0b7ad07779637e84854ffbafb0c38ec621dc7c6a9684d1aee9e99fe1595
+tags:
+  1.0.11--pyhdfd78af_0: 
+    sha256:78dfc0b7ad07779637e84854ffbafb0c38ec621dc7c6a9684d1aee9e99fe1595
+docker: quay.io/biocontainers/telomerehunter2
+aliases:
+  choreo_diagnose: /usr/local/bin/choreo_diagnose
+  choreo_get_chrome: /usr/local/bin/choreo_get_chrome
+  kaleido_get_chrome: /usr/local/bin/kaleido_get_chrome
+  kaleido_mocker: /usr/local/bin/kaleido_mocker
+  telomerehunter2: /usr/local/bin/telomerehunter2
+  telomerehunter2-sc: /usr/local/bin/telomerehunter2-sc
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  numpy-config: /usr/local/bin/numpy-config
