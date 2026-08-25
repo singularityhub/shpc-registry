@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/xpore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xpore
 latest:
-  2.1--pyh5e36f6f_0: 
-    sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4
+  2.2--pyh106432d_0: 
+    sha256:089f4170f769ffe30892a9e0b448d7553aebed37d7249dc5ec1b4c773da7e9f7
 tags:
   2.1--pyh5e36f6f_0: 
     sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4
+  2.2--pyh106432d_0: 
+    sha256:089f4170f769ffe30892a9e0b448d7553aebed37d7249dc5ec1b4c773da7e9f7
 docker: quay.io/biocontainers/xpore
 aliases:
   epylint: /usr/local/bin/epylint

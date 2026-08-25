@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/wasp2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for wasp2
 latest:
-  1.4.0--py311h169748d_0: 
-    sha256:cb629c7c69ed6d481eaffac80298d56ab68d9e920dff9e82109fd4a30aca03c8
+  1.4.1--py311hc94fe14_0: 
+    sha256:e9eb163eaf6fdb529b967769c3145e4c483b97dab873d142f006a33abcd7b6c6
 tags:
   1.4.0--py311h169748d_0: 
     sha256:cb629c7c69ed6d481eaffac80298d56ab68d9e920dff9e82109fd4a30aca03c8
   1.4.0--py312he226335_0: 
     sha256:55284a8edca273d7bc540b79ee45c5cf3ce085efa7b391131895c72214b25a27
+  1.4.1--py311hc94fe14_0: 
+    sha256:e9eb163eaf6fdb529b967769c3145e4c483b97dab873d142f006a33abcd7b6c6
 docker: quay.io/biocontainers/wasp2
 aliases:
   session-info: /usr/local/bin/session-info
