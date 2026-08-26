@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/price2
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for price2
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:289411e9b0ebb9ac07c9a7d8803c53220cae70d028cb0ae6b55dd76413540404
+  1.1.0--pyhdfd78af_0: 
+    sha256:09f9476a11b2312a41d4bb1f073d8c8a5d5fa73eb06b38f152fa0c8d2b93bdb3
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:289411e9b0ebb9ac07c9a7d8803c53220cae70d028cb0ae6b55dd76413540404
+  1.1.0--pyhdfd78af_0: 
+    sha256:09f9476a11b2312a41d4bb1f073d8c8a5d5fa73eb06b38f152fa0c8d2b93bdb3
 docker: quay.io/biocontainers/price2
 aliases:
   price2: /usr/local/bin/price2

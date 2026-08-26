@@ -3,7 +3,7 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mirmachine
 latest:
   0.3.0.5--pyhdfd78af_0: 
-    sha256:ca78b879161900fab45bac23b979692f313657400c2b7d2cd31565b8a16e8b43
+    sha256:cecb45fbaa315f32ddd1547b647d91d4bb64902aac6a934523b9a6e231fc50c6
 tags:
   0.2.11.2022--pyhdfd78af_0: 
     sha256:401cdcd5fbc7c0065a7e3b18749252bf033370089fead42299f68f8c520b2dc7
@@ -22,7 +22,7 @@ tags:
   0.3.0.4--pyhdfd78af_0: 
     sha256:300ae07ca71d13552efb79806ab7ee042f3b81481422004977108ad7a5156adb
   0.3.0.5--pyhdfd78af_0: 
-    sha256:ca78b879161900fab45bac23b979692f313657400c2b7d2cd31565b8a16e8b43
+    sha256:cecb45fbaa315f32ddd1547b647d91d4bb64902aac6a934523b9a6e231fc50c6
 docker: quay.io/biocontainers/mirmachine
 aliases:
   MirMachine.py: /usr/local/bin/MirMachine.py
