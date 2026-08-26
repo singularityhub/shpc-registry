@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tabulamurissenisdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tabulamurissenisdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tabulamurissenisdata/container.yaml"
-updated_at: "2026-08-25 10:10:34.744556"
+updated_at: "2026-08-26 03:57:30.418546"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tabulamurissenisdata"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/newt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/newt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/newt/container.yaml"
-updated_at: "2026-08-25 09:49:59.210617"
+updated_at: "2026-08-26 03:36:01.760894"
 latest: "0.52.18--py27_3"
 container_url: "https://biocontainers.pro/tools/newt"
 aliases:
@@ -23,7 +23,7 @@ versions:
  - "0.52.18--py27_3"
  - "0.52.18--py36_3"
 description: "shpc-registry automated BioContainers addition for newt"
-config: {"url": "https://biocontainers.pro/tools/newt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for newt", "latest": {"0.52.18--py27_3": "sha256:ee9b94220495cbf17d4b97761596e3544d57876020a3510b007dc0da7a8df685"}, "tags": {"0.52.18--py27_3": "sha256:ee9b94220495cbf17d4b97761596e3544d57876020a3510b007dc0da7a8df685", "0.52.18--py36_3": "sha256:69246b68bb1bfe3af98238be8682440b03ce0467e4b8d62063cfb1a4f312c353"}, "docker": "quay.io/biocontainers/newt", "aliases": {"slsh": "/usr/local/bin/slsh", "whiptail": "/usr/local/bin/whiptail", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/newt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for newt", "latest": {"0.52.18--py27_3": "sha256:ee9b94220495cbf17d4b97761596e3544d57876020a3510b007dc0da7a8df685"}, "tags": {"0.52.18--py27_3": "sha256:ee9b94220495cbf17d4b97761596e3544d57876020a3510b007dc0da7a8df685", "0.52.18--py36_3": "crane digest quay.io/biocontainers/newt:0.52.18--py36_3: unrecognized HTTP status: 504 Gateway Timeout"}, "docker": "quay.io/biocontainers/newt", "aliases": {"slsh": "/usr/local/bin/slsh", "whiptail": "/usr/local/bin/whiptail", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/newt.

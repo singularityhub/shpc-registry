@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/turboani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/turboani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/turboani/container.yaml"
-updated_at: "2026-08-25 10:05:30.256850"
-latest: "0.1.7--h39acb7c_0"
+updated_at: "2026-08-26 03:52:14.302896"
+latest: "0.1.8--h39acb7c_0"
 container_url: "https://biocontainers.pro/tools/turboani"
 aliases:
  - "fastani"
@@ -14,8 +14,9 @@ aliases:
  - "fc-genconf"
 versions:
  - "0.1.7--h39acb7c_0"
+ - "0.1.8--h39acb7c_0"
 description: "singularity registry hpc automated addition for turboani"
-config: {"url": "https://biocontainers.pro/tools/turboani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for turboani", "latest": {"0.1.7--h39acb7c_0": "sha256:0697dd7c73781a214511d464a3d68980d344851c20b0537f80e960bf681255c5"}, "tags": {"0.1.7--h39acb7c_0": "sha256:0697dd7c73781a214511d464a3d68980d344851c20b0537f80e960bf681255c5"}, "docker": "quay.io/biocontainers/turboani", "aliases": {"fastani": "/usr/local/bin/fastani", "plot-correlation": "/usr/local/bin/plot-correlation", "turboani": "/usr/local/bin/turboani", "fc-genconf": "/usr/local/bin/fc-genconf"}}
+config: {"url": "https://biocontainers.pro/tools/turboani", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for turboani", "latest": {"0.1.8--h39acb7c_0": "sha256:429e2a28710a50c3bfbc6a9292bae3a0c575568fad4685ca6ca81ec47b376a4c"}, "tags": {"0.1.7--h39acb7c_0": "sha256:0697dd7c73781a214511d464a3d68980d344851c20b0537f80e960bf681255c5", "0.1.8--h39acb7c_0": "sha256:429e2a28710a50c3bfbc6a9292bae3a0c575568fad4685ca6ca81ec47b376a4c"}, "docker": "quay.io/biocontainers/turboani", "aliases": {"fastani": "/usr/local/bin/fastani", "plot-correlation": "/usr/local/bin/plot-correlation", "turboani": "/usr/local/bin/turboani", "fc-genconf": "/usr/local/bin/fc-genconf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/turboani.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/turboani
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/turboani:0.1.7--h39acb7c_0
+$ shpc install quay.io/biocontainers/turboani:0.1.8--h39acb7c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/turboani/0.1.7--h39acb7c_0
-$ module help quay.io/biocontainers/turboani/0.1.7--h39acb7c_0
+$ module load quay.io/biocontainers/turboani/0.1.8--h39acb7c_0
+$ module help quay.io/biocontainers/turboani/0.1.8--h39acb7c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

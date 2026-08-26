@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/markadoros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markadoros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markadoros/container.yaml"
-updated_at: "2026-08-25 10:18:36.759375"
-latest: "1.1.0--pyh106432d_0"
+updated_at: "2026-08-26 04:05:39.165093"
+latest: "1.2.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/markadoros"
 aliases:
  - "binspreader"
@@ -43,8 +43,9 @@ aliases:
 versions:
  - "1.0.0--pyh106432d_0"
  - "1.1.0--pyh106432d_0"
+ - "1.2.1--pyh106432d_0"
 description: "singularity registry hpc automated addition for markadoros"
-config: {"url": "https://biocontainers.pro/tools/markadoros", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for markadoros", "latest": {"1.1.0--pyh106432d_0": "sha256:5b935212f92675e8252a5caa922f2cca15796a4046bbb850848b52a72bfa0244"}, "tags": {"1.0.0--pyh106432d_0": "sha256:72ab85e586102803c1d43660427945b965b385e042aa7b3e432266ceb0f6e1c5", "1.1.0--pyh106432d_0": "sha256:5b935212f92675e8252a5caa922f2cca15796a4046bbb850848b52a72bfa0244"}, "docker": "quay.io/biocontainers/markadoros", "aliases": {"binspreader": "/usr/local/bin/binspreader", "hifiasm": "/usr/local/bin/hifiasm", "markadoros": "/usr/local/bin/markadoros", "pathracer": "/usr/local/bin/pathracer", "pathracer-seq-fs": "/usr/local/bin/pathracer-seq-fs", "spades-gfa-split": "/usr/local/bin/spades-gfa-split", "spades-hpc": "/usr/local/bin/spades-hpc", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "spaligner": "/usr/local/bin/spaligner", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "aria2c": "/usr/local/bin/aria2c", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "mmseqs": "/usr/local/bin/mmseqs"}}
+config: {"url": "https://biocontainers.pro/tools/markadoros", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for markadoros", "latest": {"1.2.1--pyh106432d_0": "sha256:b7f46ed5f55351d1284b06f4b14915de2d4a80d55e671be51e5e8b55779c805e"}, "tags": {"1.0.0--pyh106432d_0": "sha256:72ab85e586102803c1d43660427945b965b385e042aa7b3e432266ceb0f6e1c5", "1.1.0--pyh106432d_0": "sha256:5b935212f92675e8252a5caa922f2cca15796a4046bbb850848b52a72bfa0244", "1.2.1--pyh106432d_0": "sha256:b7f46ed5f55351d1284b06f4b14915de2d4a80d55e671be51e5e8b55779c805e"}, "docker": "quay.io/biocontainers/markadoros", "aliases": {"binspreader": "/usr/local/bin/binspreader", "hifiasm": "/usr/local/bin/hifiasm", "markadoros": "/usr/local/bin/markadoros", "pathracer": "/usr/local/bin/pathracer", "pathracer-seq-fs": "/usr/local/bin/pathracer-seq-fs", "spades-gfa-split": "/usr/local/bin/spades-gfa-split", "spades-hpc": "/usr/local/bin/spades-hpc", "coronaspades.py": "/usr/local/bin/coronaspades.py", "metaplasmidspades.py": "/usr/local/bin/metaplasmidspades.py", "metaviralspades.py": "/usr/local/bin/metaviralspades.py", "rnaviralspades.py": "/usr/local/bin/rnaviralspades.py", "spaligner": "/usr/local/bin/spaligner", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "aria2c": "/usr/local/bin/aria2c", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core", "spades-corrector-core": "/usr/local/bin/spades-corrector-core", "spades-gbuilder": "/usr/local/bin/spades-gbuilder", "spades-gmapper": "/usr/local/bin/spades-gmapper", "spades-hammer": "/usr/local/bin/spades-hammer", "spades-ionhammer": "/usr/local/bin/spades-ionhammer", "spades-kmercount": "/usr/local/bin/spades-kmercount", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "mmseqs": "/usr/local/bin/mmseqs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/markadoros.
@@ -59,7 +60,7 @@ $ shpc install quay.io/biocontainers/markadoros
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/markadoros:1.1.0--pyh106432d_0
+$ shpc install quay.io/biocontainers/markadoros:1.2.1--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/markadoros/1.1.0--pyh106432d_0
-$ module help quay.io/biocontainers/markadoros/1.1.0--pyh106432d_0
+$ module load quay.io/biocontainers/markadoros/1.2.1--pyh106432d_0
+$ module help quay.io/biocontainers/markadoros/1.2.1--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

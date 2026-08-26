@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf-reformatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf-reformatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf-reformatter/container.yaml"
-updated_at: "2026-08-25 09:55:29.926784"
+updated_at: "2026-08-26 03:41:44.409493"
 latest: "0.3.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/vcf-reformatter"
 aliases:

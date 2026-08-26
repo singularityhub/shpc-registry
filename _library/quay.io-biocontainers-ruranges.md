@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ruranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruranges/container.yaml"
-updated_at: "2026-08-25 09:25:19.140562"
-latest: "0.1.4--py312hf654e80_0"
+updated_at: "2026-08-26 03:11:18.775500"
+latest: "0.2.7--py313he6b6a99_0"
 container_url: "https://biocontainers.pro/tools/ruranges"
 aliases:
  - "2to3-3.12"
@@ -21,8 +21,10 @@ versions:
  - "0.0.15--py313he6b6a99_1"
  - "0.1.2--py313he6b6a99_0"
  - "0.1.4--py312hf654e80_0"
+ - "0.2.7--py313he6b6a99_0"
+ - "0.1.7--py313he6b6a99_0"
 description: "singularity registry hpc automated addition for ruranges"
-config: {"url": "https://biocontainers.pro/tools/ruranges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ruranges", "latest": {"0.1.4--py312hf654e80_0": "sha256:ad48017f828253822c4e9b3b16dc9b934175b92c05f3a40f2a81fc5c0712c1ca"}, "tags": {"0.0.13--py312h570fbca_1": "sha256:d60515b0c7eea697c51a87d88d4bea802b879f99f8ae9652b62690c01d302669", "0.0.14--py312h570fbca_0": "sha256:0f7862a127ff915f7e2cfa905192c85e33f3f1e1e45ca3f71c6caf4aff4a6df0", "0.0.15--py312h570fbca_0": "sha256:4394e2bd54f73be03a41d23bf2666d6e55d85eb9458c1c6ef9851151739686e5", "0.1.1--py312hf654e80_0": "sha256:4b70ecedb80d6d08c2883d806f16cb6a7d36854e4004755c1308abd9986cc222", "0.0.15--py313he6b6a99_1": "sha256:f9ac53ee4743e3753d583b0b64375d0ad201b595a14aa4c4fbe80f4da2d6710f", "0.1.2--py313he6b6a99_0": "sha256:cdcf409c7263a23b0221605e7237232731158e6915fa2774f1567e7ef5767bca", "0.1.4--py312hf654e80_0": "sha256:ad48017f828253822c4e9b3b16dc9b934175b92c05f3a40f2a81fc5c0712c1ca"}, "docker": "quay.io/biocontainers/ruranges", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/ruranges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ruranges", "latest": {"0.2.7--py313he6b6a99_0": "sha256:6ec0b7e300232952a5355a364e4f40cd24550a5478648f957c219d3ef066ad8f"}, "tags": {"0.0.13--py312h570fbca_1": "sha256:d60515b0c7eea697c51a87d88d4bea802b879f99f8ae9652b62690c01d302669", "0.0.14--py312h570fbca_0": "sha256:0f7862a127ff915f7e2cfa905192c85e33f3f1e1e45ca3f71c6caf4aff4a6df0", "0.0.15--py312h570fbca_0": "sha256:4394e2bd54f73be03a41d23bf2666d6e55d85eb9458c1c6ef9851151739686e5", "0.1.1--py312hf654e80_0": "sha256:4b70ecedb80d6d08c2883d806f16cb6a7d36854e4004755c1308abd9986cc222", "0.0.15--py313he6b6a99_1": "sha256:f9ac53ee4743e3753d583b0b64375d0ad201b595a14aa4c4fbe80f4da2d6710f", "0.1.2--py313he6b6a99_0": "sha256:cdcf409c7263a23b0221605e7237232731158e6915fa2774f1567e7ef5767bca", "0.1.4--py312hf654e80_0": "sha256:ad48017f828253822c4e9b3b16dc9b934175b92c05f3a40f2a81fc5c0712c1ca", "0.2.7--py313he6b6a99_0": "sha256:6ec0b7e300232952a5355a364e4f40cd24550a5478648f957c219d3ef066ad8f", "0.1.7--py313he6b6a99_0": "sha256:6a91236c1bca3509e0fafe05515d2c67a6a08d8601aca4c5d78016195a879454"}, "docker": "quay.io/biocontainers/ruranges", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ruranges.
@@ -37,7 +39,7 @@ $ shpc install quay.io/biocontainers/ruranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ruranges:0.1.4--py312hf654e80_0
+$ shpc install quay.io/biocontainers/ruranges:0.2.7--py313he6b6a99_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ruranges/0.1.4--py312hf654e80_0
-$ module help quay.io/biocontainers/ruranges/0.1.4--py312hf654e80_0
+$ module load quay.io/biocontainers/ruranges/0.2.7--py313he6b6a99_0
+$ module help quay.io/biocontainers/ruranges/0.2.7--py313he6b6a99_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

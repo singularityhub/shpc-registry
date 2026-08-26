@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/price2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/price2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/price2/container.yaml"
-updated_at: "2026-08-25 09:32:39.059131"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-08-26 03:18:44.256147"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/price2"
 aliases:
  - "price2"
@@ -36,8 +36,9 @@ aliases:
  - "bowtie2sam.pl"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for price2"
-config: {"url": "https://biocontainers.pro/tools/price2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for price2", "latest": {"1.0.0--pyhdfd78af_0": "sha256:289411e9b0ebb9ac07c9a7d8803c53220cae70d028cb0ae6b55dd76413540404"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:289411e9b0ebb9ac07c9a7d8803c53220cae70d028cb0ae6b55dd76413540404"}, "docker": "quay.io/biocontainers/price2", "aliases": {"price2": "/usr/local/bin/price2", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "ref-cache": "/usr/local/bin/ref-cache", "faidx": "/usr/local/bin/faidx", "annot-tsv": "/usr/local/bin/annot-tsv", "numba": "/usr/local/bin/numba", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/price2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for price2", "latest": {"1.1.0--pyhdfd78af_0": "sha256:09f9476a11b2312a41d4bb1f073d8c8a5d5fa73eb06b38f152fa0c8d2b93bdb3"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:289411e9b0ebb9ac07c9a7d8803c53220cae70d028cb0ae6b55dd76413540404", "1.1.0--pyhdfd78af_0": "sha256:09f9476a11b2312a41d4bb1f073d8c8a5d5fa73eb06b38f152fa0c8d2b93bdb3"}, "docker": "quay.io/biocontainers/price2", "aliases": {"price2": "/usr/local/bin/price2", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "ref-cache": "/usr/local/bin/ref-cache", "faidx": "/usr/local/bin/faidx", "annot-tsv": "/usr/local/bin/annot-tsv", "numba": "/usr/local/bin/numba", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/price2.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/price2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/price2:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/price2:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/price2/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/price2/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/price2/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/price2/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "amdih/gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/amdih/gromacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/amdih/gromacs/container.yaml"
-updated_at: "2026-08-25 09:21:12.025136"
+updated_at: "2026-08-26 03:07:10.970593"
 latest: "2022.3.amd1_174"
 container_url: "https://www.amd.com/en/technologies/infinity-hub/gromacs"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "2022.3.amd1_174"
  - "2022.3.amd1"
 description: "GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles."
-config: {"docker": "amdih/gromacs", "url": "https://www.amd.com/en/technologies/infinity-hub/gromacs", "description": "GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles.", "maintainer": "@cristiandipietrantonio", "latest": {"2022.3.amd1_174": "crane digest amdih/gromacs:2022.3.amd1_174: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "tags": {"2022.3.amd1_174": "crane digest amdih/gromacs:2022.3.amd1_174: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit", "2022.3.amd1": "crane digest amdih/gromacs:2022.3.amd1: TOOMANYREQUESTS: You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit"}, "aliases": [{"name": "gmx", "command": "/usr/local/gromacs/bin/gmx"}]}
+config: {"docker": "amdih/gromacs", "url": "https://www.amd.com/en/technologies/infinity-hub/gromacs", "description": "GROMACS is a versatile package to perform molecular dynamics, i.e. simulate the Newtonian equations of motion for systems with hundreds to millions of particles.", "maintainer": "@cristiandipietrantonio", "latest": {"2022.3.amd1_174": "sha256:3def3e37a32b014a80620e588f16241e23d4043b6a0a022f09a3d856cda72ee3"}, "tags": {"2022.3.amd1_174": "sha256:3def3e37a32b014a80620e588f16241e23d4043b6a0a022f09a3d856cda72ee3", "2022.3.amd1": "sha256:3def3e37a32b014a80620e588f16241e23d4043b6a0a022f09a3d856cda72ee3"}, "aliases": [{"name": "gmx", "command": "/usr/local/gromacs/bin/gmx"}]}
 ---
 
 This module is a singularity container wrapper for amdih/gromacs.

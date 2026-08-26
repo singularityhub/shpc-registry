@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-algdesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-algdesign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-algdesign/container.yaml"
-updated_at: "2026-08-25 09:35:11.022988"
+updated_at: "2026-08-26 03:21:12.584289"
 latest: "1.1_7.3--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-algdesign"
 aliases:

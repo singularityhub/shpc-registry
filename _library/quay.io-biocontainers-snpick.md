@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/snpick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpick/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpick/container.yaml"
-updated_at: "2026-08-25 09:54:26.678522"
-latest: "1.0.1--hf029dc3_0"
+updated_at: "2026-08-26 03:40:38.082329"
+latest: "1.0.2--hb938122_0"
 container_url: "https://biocontainers.pro/tools/snpick"
 aliases:
  - "snpick"
 versions:
  - "1.0.0--h3f2c17f_0"
  - "1.0.1--hf029dc3_0"
+ - "1.0.2--hb938122_0"
 description: "singularity registry hpc automated addition for snpick"
-config: {"url": "https://biocontainers.pro/tools/snpick", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snpick", "latest": {"1.0.1--hf029dc3_0": "sha256:cb4cb98393853e50e186bba83927c2b9617970dd3dbc92f86817b92ecef8b6dd"}, "tags": {"1.0.0--h3f2c17f_0": "sha256:5759dec7c0b1304d37ab37fcf65af7fb9589d5cf4439774c4755a97f51c604e8", "1.0.1--hf029dc3_0": "sha256:cb4cb98393853e50e186bba83927c2b9617970dd3dbc92f86817b92ecef8b6dd"}, "docker": "quay.io/biocontainers/snpick", "aliases": {"snpick": "/usr/local/bin/snpick"}}
+config: {"url": "https://biocontainers.pro/tools/snpick", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snpick", "latest": {"1.0.2--hb938122_0": "sha256:2de1c0994e137211a509867acb2898e06224dbfa88743db3e85d610e6f7c62b9"}, "tags": {"1.0.0--h3f2c17f_0": "sha256:5759dec7c0b1304d37ab37fcf65af7fb9589d5cf4439774c4755a97f51c604e8", "1.0.1--hf029dc3_0": "sha256:cb4cb98393853e50e186bba83927c2b9617970dd3dbc92f86817b92ecef8b6dd", "1.0.2--hb938122_0": "sha256:2de1c0994e137211a509867acb2898e06224dbfa88743db3e85d610e6f7c62b9"}, "docker": "quay.io/biocontainers/snpick", "aliases": {"snpick": "/usr/local/bin/snpick"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snpick.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/snpick
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snpick:1.0.1--hf029dc3_0
+$ shpc install quay.io/biocontainers/snpick:1.0.2--hb938122_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snpick/1.0.1--hf029dc3_0
-$ module help quay.io/biocontainers/snpick/1.0.1--hf029dc3_0
+$ module load quay.io/biocontainers/snpick/1.0.2--hb938122_0
+$ module help quay.io/biocontainers/snpick/1.0.2--hb938122_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

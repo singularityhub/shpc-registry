@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wasp2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wasp2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wasp2/container.yaml"
-updated_at: "2026-08-25 09:24:35.743872"
+updated_at: "2026-08-26 03:10:34.714111"
 latest: "1.4.1--py311hc94fe14_0"
 container_url: "https://biocontainers.pro/tools/wasp2"
 aliases:

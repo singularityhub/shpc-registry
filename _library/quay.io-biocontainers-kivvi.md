@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/kivvi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kivvi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kivvi/container.yaml"
-updated_at: "2026-08-25 09:41:48.240139"
-latest: "1.0.0--h9ee0642_0"
+updated_at: "2026-08-26 03:27:50.414539"
+latest: "1.1.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/kivvi"
 aliases:
  - "kivvi"
 versions:
  - "1.0.0--h9ee0642_0"
+ - "1.1.0--h9ee0642_0"
 description: "singularity registry hpc automated addition for kivvi"
-config: {"url": "https://biocontainers.pro/tools/kivvi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kivvi", "latest": {"1.0.0--h9ee0642_0": "sha256:1bc35feab18b0027277aebed7f11e11fa3bcb58f930441d6d2acb7608f37359b"}, "tags": {"1.0.0--h9ee0642_0": "sha256:1bc35feab18b0027277aebed7f11e11fa3bcb58f930441d6d2acb7608f37359b"}, "docker": "quay.io/biocontainers/kivvi", "aliases": {"kivvi": "/usr/local/bin/kivvi"}}
+config: {"url": "https://biocontainers.pro/tools/kivvi", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kivvi", "latest": {"1.1.0--h9ee0642_0": "sha256:30ad3389de8617cb36ffcd29540fa985d676d0dd125a24ee9831defa47db5bce"}, "tags": {"1.0.0--h9ee0642_0": "sha256:1bc35feab18b0027277aebed7f11e11fa3bcb58f930441d6d2acb7608f37359b", "1.1.0--h9ee0642_0": "sha256:30ad3389de8617cb36ffcd29540fa985d676d0dd125a24ee9831defa47db5bce"}, "docker": "quay.io/biocontainers/kivvi", "aliases": {"kivvi": "/usr/local/bin/kivvi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kivvi.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/kivvi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kivvi:1.0.0--h9ee0642_0
+$ shpc install quay.io/biocontainers/kivvi:1.1.0--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kivvi/1.0.0--h9ee0642_0
-$ module help quay.io/biocontainers/kivvi/1.0.0--h9ee0642_0
+$ module load quay.io/biocontainers/kivvi/1.1.0--h9ee0642_0
+$ module help quay.io/biocontainers/kivvi/1.1.0--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
