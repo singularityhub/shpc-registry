@@ -11,9 +11,9 @@ description: AMD compatible version of FreeBindCraft
 
 latest:
  v1.0.5_rocm7.0.2_nopyrosetta:
-    sha256:6d514def2aabe1746387c2a806bed97a7c0fc74715adefde4a03f12e51894b0b
+    sha256:70c94b2307e3b7314a39b6953bcc9911d5c58a56a1e014a534ab359dc49b75c4
 tags:
  v1.0.5_rocm7.0.2_nopyrosetta:
-    sha256:6d514def2aabe1746387c2a806bed97a7c0fc74715adefde4a03f12e51894b0b
+    sha256:70c94b2307e3b7314a39b6953bcc9911d5c58a56a1e014a534ab359dc49b75c4
     
 singularity_options: --bind /data/references/alphafold_feb2024/databases/params:/app/FreeBindCraft/params
