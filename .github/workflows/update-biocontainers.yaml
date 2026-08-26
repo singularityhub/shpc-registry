@@ -18,7 +18,15 @@ jobs:
 
     - name: Create conda environment
       run: conda create --quiet -c conda-forge --name cache spython pip
-
+      
+    - name: Debug Biocontainers List
+      run: |
+        echo "=== Biocontainers file content ==="
+        cat /tmp/biocontainers.txt
+        echo "=== Checking for YAML validity ==="
+        python -m pip install pyyaml
+        python -c "import yaml; yaml.safe_load(open('/tmp/biocontainers.txt'))" || echo "YAML is invalid"
+    
     - name: Derive BioContainers List
       run: |
         conda run --name cache python -m pip install -r .github/scripts/dev-requirements.txt
