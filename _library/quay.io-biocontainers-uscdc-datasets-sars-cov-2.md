@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uscdc-datasets-sars-cov-2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uscdc-datasets-sars-cov-2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uscdc-datasets-sars-cov-2/container.yaml"
-updated_at: "2026-08-27 12:57:55.083574"
+updated_at: "2026-08-27 23:37:06.925624"
 latest: "0.7.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/uscdc-datasets-sars-cov-2"
 aliases:

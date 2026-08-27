@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pygenometracks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygenometracks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygenometracks/container.yaml"
-updated_at: "2026-08-27 13:20:33.764262"
+updated_at: "2026-08-27 23:53:25.576987"
 latest: "3.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pygenometracks"
 aliases:

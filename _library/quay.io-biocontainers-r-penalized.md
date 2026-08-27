@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-penalized"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-penalized/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-penalized/container.yaml"
-updated_at: "2026-08-27 12:38:04.298159"
+updated_at: "2026-08-27 23:23:03.893311"
 latest: "0.9.47--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-penalized"
 aliases:

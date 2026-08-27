@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ncrnatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncrnatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncrnatools/container.yaml"
-updated_at: "2026-08-27 12:38:31.772699"
+updated_at: "2026-08-27 23:23:24.269774"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncrnatools"
 

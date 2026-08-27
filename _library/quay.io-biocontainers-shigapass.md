@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shigapass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shigapass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shigapass/container.yaml"
-updated_at: "2026-08-27 12:54:43.311117"
+updated_at: "2026-08-27 23:34:51.980779"
 latest: "1.5.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shigapass"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/methylsieve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylsieve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylsieve/container.yaml"
-updated_at: "2026-08-27 12:36:06.569163"
+updated_at: "2026-08-27 23:21:37.824748"
 latest: "0.2.1--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/methylsieve"
 aliases:
