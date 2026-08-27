@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/r-metamapwidget
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-metamapwidget
+latest:
+  0.1.0--r45hdfd78af_0: 
+    sha256:8672c378a28889d4b3283d0a113014e696892dcc1044cd000294f66205e653f8
+tags:
+  0.1.0--r45hdfd78af_0: 
+    sha256:8672c378a28889d4b3283d0a113014e696892dcc1044cd000294f66205e653f8
+docker: quay.io/biocontainers/r-metamapwidget
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc

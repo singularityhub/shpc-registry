@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/cfm-id
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cfm-id
+latest:
+  4.4.10--h8471819_0: 
+    sha256:7f3b8837ea2b350d52334177227dda6c58c38e84dce6183a28b9a5a3af56a031
+tags:
+  4.4.10--h8471819_0: 
+    sha256:7f3b8837ea2b350d52334177227dda6c58c38e84dce6183a28b9a5a3af56a031
+docker: quay.io/biocontainers/cfm-id
+aliases:
+  ISOTOPE.DAT: /usr/local/bin/ISOTOPE.DAT
+  cfm-annotate: /usr/local/bin/cfm-annotate
+  cfm-id: /usr/local/bin/cfm-id
+  cfm-id-precomputed: /usr/local/bin/cfm-id-precomputed
+  cfm-predict: /usr/local/bin/cfm-predict
+  compute-stats: /usr/local/bin/compute-stats
+  fraggraph-gen: /usr/local/bin/fraggraph-gen
+  lp_solve: /usr/local/bin/lp_solve
+  fc-genconf: /usr/local/bin/fc-genconf
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
+  normalizer: /usr/local/bin/normalizer

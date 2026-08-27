@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/telox-pyabpoa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for telox-pyabpoa
+latest:
+  1.5.6.post1--py310hfe4f656_0: 
+    sha256:9a12f64e96ad9f41b3f1940d2317328a62c6923b774629a7ea20f5b6031be75c
+tags:
+  1.5.6.post1--py310hfe4f656_0: 
+    sha256:9a12f64e96ad9f41b3f1940d2317328a62c6923b774629a7ea20f5b6031be75c
+docker: quay.io/biocontainers/telox-pyabpoa
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config

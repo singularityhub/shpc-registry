@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/eskaks
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eskaks
+latest:
+  0.1.0--hfa8f182_0: 
+    sha256:db7a5597c31a05cc574ca6e550b6e579aba052e680c9975c46c021748c458b0e
+tags:
+  0.1.0--hfa8f182_0: 
+    sha256:db7a5597c31a05cc574ca6e550b6e579aba052e680c9975c46c021748c458b0e
+docker: quay.io/biocontainers/eskaks
+aliases:
+  eskaks: /usr/local/bin/eskaks

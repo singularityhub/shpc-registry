@@ -1,0 +1,44 @@
+url: https://biocontainers.pro/tools/varseek
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for varseek
+latest:
+  0.2.1--py310h03affb9_0: 
+    sha256:0452dc661d43782e63535c68fe86a076813ff17868ca072e80a6f3d71ad262da
+tags:
+  0.2.1--py310h03affb9_0: 
+    sha256:0452dc661d43782e63535c68fe86a076813ff17868ca072e80a6f3d71ad262da
+docker: quay.io/biocontainers/varseek
+aliases:
+  bam2vcf: /usr/local/bin/bam2vcf
+  gget: /usr/local/bin/gget
+  kb: /usr/local/bin/kb
+  mistune: /usr/local/bin/mistune
+  shortuuid: /usr/local/bin/shortuuid
+  varseek: /usr/local/bin/varseek
+  vk: /usr/local/bin/vk
+  loompy: /usr/local/bin/loompy
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  session-info2: /usr/local/bin/session-info2
+  session-info: /usr/local/bin/session-info
+  pyfastx: /usr/local/bin/pyfastx
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  idna: /usr/local/bin/idna
+  jupyter-kernel: /usr/local/bin/jupyter-kernel
+  jupyter-kernelspec: /usr/local/bin/jupyter-kernelspec
+  jupyter-run: /usr/local/bin/jupyter-run
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  elastishadow: /usr/local/bin/elastishadow
+  scanpy: /usr/local/bin/scanpy
+  h2benchmark: /usr/local/bin/h2benchmark
+  curve_keygen: /usr/local/bin/curve_keygen
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  checksum-profile: /usr/local/bin/checksum-profile
+  ipython3: /usr/local/bin/ipython3

@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/pyrho
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyrho
+latest:
+  0.2.1--pyhdfd78af_0: 
+    sha256:a1d4ba89e6cbb4c3a0e88fa1b343b0b4e616f9568526a5a0081a7d6466c6bb46
+tags:
+  0.2.1--pyhdfd78af_0: 
+    sha256:a1d4ba89e6cbb4c3a0e88fa1b343b0b4e616f9568526a5a0081a7d6466c6bb46
+docker: quay.io/biocontainers/pyrho
+aliases:
+  msp: /usr/local/bin/msp
+  mspms: /usr/local/bin/mspms
+  pyrho: /usr/local/bin/pyrho
+  tskit: /usr/local/bin/tskit
+  cpuinfo: /usr/local/bin/cpuinfo
+  cyvcf2: /usr/local/bin/cyvcf2
+  pt2to3: /usr/local/bin/pt2to3
+  ptdump: /usr/local/bin/ptdump
+  ptrepack: /usr/local/bin/ptrepack
+  pttree: /usr/local/bin/pttree
+  h5tools_test_utils: /usr/local/bin/h5tools_test_utils
+  h5fuse.sh: /usr/local/bin/h5fuse.sh
+  coloredlogs: /usr/local/bin/coloredlogs
+  ref-cache: /usr/local/bin/ref-cache
+  humanfriendly: /usr/local/bin/humanfriendly
+  annot-tsv: /usr/local/bin/annot-tsv
+  numba: /usr/local/bin/numba
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  h5delete: /usr/local/bin/h5delete
+  jsonschema: /usr/local/bin/jsonschema
+  2to3-3.9: /usr/local/bin/2to3-3.9
+  idle3.9: /usr/local/bin/idle3.9
+  pydoc3.9: /usr/local/bin/pydoc3.9
+  python3.9: /usr/local/bin/python3.9
+  python3.9-config: /usr/local/bin/python3.9-config
+  gif2h5: /usr/local/bin/gif2h5
+  h52gif: /usr/local/bin/h52gif
+  h5redeploy: /usr/local/bin/h5redeploy

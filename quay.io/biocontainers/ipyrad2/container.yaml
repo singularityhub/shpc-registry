@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/ipyrad2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ipyrad2
+latest:
+  0.1.15--pyhdfd78af_0: 
+    sha256:9e8aea282bb40761dfa6222b81dee0cb671fa3ee74479ad2b21b579f9a75b4f5
+tags:
+  0.1.15--pyhdfd78af_0: 
+    sha256:9e8aea282bb40761dfa6222b81dee0cb671fa3ee74479ad2b21b579f9a75b4f5
+docker: quay.io/biocontainers/ipyrad2
+aliases:
+  ipyrad2: /usr/local/bin/ipyrad2
+  ipyrad2-classic: /usr/local/bin/ipyrad2-classic
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  bwa-mem2: /usr/local/bin/bwa-mem2
+  bwa-mem2.avx: /usr/local/bin/bwa-mem2.avx
+  bwa-mem2.avx2: /usr/local/bin/bwa-mem2.avx2
+  bwa-mem2.avx512bw: /usr/local/bin/bwa-mem2.avx512bw
+  bwa-mem2.sse41: /usr/local/bin/bwa-mem2.sse41
+  bwa-mem2.sse42: /usr/local/bin/bwa-mem2.sse42
+  gff2gff: /usr/local/bin/gff2gff
+  roh-viz: /usr/local/bin/roh-viz
+  vrfs-variances: /usr/local/bin/vrfs-variances
+  vsearch: /usr/local/bin/vsearch
+  fastp: /usr/local/bin/fastp
+  gff2gff.py: /usr/local/bin/gff2gff.py
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  gawkbug: /usr/local/bin/gawkbug
+  igzip: /usr/local/bin/igzip
+  ref-cache: /usr/local/bin/ref-cache
+  mafft-sparsecore.rb: /usr/local/bin/mafft-sparsecore.rb
+  einsi: /usr/local/bin/einsi
+  fftns: /usr/local/bin/fftns
+  fftnsi: /usr/local/bin/fftnsi
+  ginsi: /usr/local/bin/ginsi
+  linsi: /usr/local/bin/linsi

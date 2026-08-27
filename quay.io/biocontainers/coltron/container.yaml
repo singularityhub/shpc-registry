@@ -1,0 +1,50 @@
+url: https://biocontainers.pro/tools/coltron
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for coltron
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:82cb914415543b3ba31f6777d0710679698adb6cd410421733a64d1778abaf80
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:82cb914415543b3ba31f6777d0710679698adb6cd410421733a64d1778abaf80
+docker: quay.io/biocontainers/coltron
+aliases:
+  add-security-constraint: /usr/local/bin/add-security-constraint
+  bed2fasta: /usr/local/bin/bed2fasta
+  centrimo-plots: /usr/local/bin/centrimo-plots
+  coltron: /usr/local/bin/coltron
+  coltron-get-data: /usr/local/bin/coltron-get-data
+  derangement: /usr/local/bin/derangement
+  fasta-file-indexer: /usr/local/bin/fasta-file-indexer
+  fasta-holdout-set: /usr/local/bin/fasta-holdout-set
+  prosite2meme: /usr/local/bin/prosite2meme
+  sea: /usr/local/bin/sea
+  simplepp: /usr/local/bin/simplepp
+  tts: /usr/local/bin/tts
+  xstreme: /usr/local/bin/xstreme
+  xstreme_html_to_tsv: /usr/local/bin/xstreme_html_to_tsv
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  streme: /usr/local/bin/streme
+  streme_xml_to_html: /usr/local/bin/streme_xml_to_html
+  tgene: /usr/local/bin/tgene
+  dtc: /usr/local/bin/dtc
+  fasta-re-match: /usr/local/bin/fasta-re-match
+  meme-chip_html_to_tsv: /usr/local/bin/meme-chip_html_to_tsv
+  momo: /usr/local/bin/momo
+  alphtype: /usr/local/bin/alphtype
+  ama: /usr/local/bin/ama
+  ama-qvalues: /usr/local/bin/ama-qvalues
+  ame: /usr/local/bin/ame
+  beeml2meme: /usr/local/bin/beeml2meme
+  centrimo: /usr/local/bin/centrimo
+  ceqlogo: /usr/local/bin/ceqlogo
+  chen2meme: /usr/local/bin/chen2meme
+  clustalw2fasta: /usr/local/bin/clustalw2fasta
+  clustalw2phylip: /usr/local/bin/clustalw2phylip
+  compute-prior-dist: /usr/local/bin/compute-prior-dist
+  compute-uniform-priors: /usr/local/bin/compute-uniform-priors
+  create-priors: /usr/local/bin/create-priors
+  dreme: /usr/local/bin/dreme
+  dreme_xml_to_html: /usr/local/bin/dreme_xml_to_html
+  dreme_xml_to_txt: /usr/local/bin/dreme_xml_to_txt
+  dust: /usr/local/bin/dust

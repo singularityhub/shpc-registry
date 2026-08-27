@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/unum-bio
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for unum-bio
+latest:
+  0.1.3--h0feb368_0: 
+    sha256:78f92b293b79754bc53773a6f9fa210e0d7e6b005dae2ac1065eea3b54e7dacf
+tags:
+  0.1.3--h0feb368_0: 
+    sha256:78f92b293b79754bc53773a6f9fa210e0d7e6b005dae2ac1065eea3b54e7dacf
+docker: quay.io/biocontainers/unum-bio
+aliases:
+  unum: /usr/local/bin/unum

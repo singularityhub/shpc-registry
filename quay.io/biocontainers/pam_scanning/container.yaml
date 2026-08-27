@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/pam_scanning
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pam_scanning
+latest:
+  1.0.1--pyhdfd78af_0: 
+    sha256:d740e845e77ff3a62c32d37b90b3d9b2b8b8480e2c290e4304536cb731aadbd9
+tags:
+  1.0.1--pyhdfd78af_0: 
+    sha256:d740e845e77ff3a62c32d37b90b3d9b2b8b8480e2c290e4304536cb731aadbd9
+docker: quay.io/biocontainers/pam_scanning
+aliases:
+  pam-scan: /usr/local/bin/pam-scan
+  pam-scan-fetch-cds: /usr/local/bin/pam-scan-fetch-cds
+  pam-scan-gui: /usr/local/bin/pam-scan-gui
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfetch.ini: /usr/local/bin/xfetch.ini
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xlink.ini: /usr/local/bin/xlink.ini
+  xsearch: /usr/local/bin/xsearch
+  fc-genconf: /usr/local/bin/fc-genconf
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations

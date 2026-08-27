@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/pretext-to-asm
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pretext-to-asm
+latest:
+  1.3.5--pyhdfd78af_0: 
+    sha256:2074347d9ac594b8cfef0a060da5f1b692f4cb99917473d3d720d1a5849af7fc
+tags:
+  1.3.5--pyhdfd78af_0: 
+    sha256:2074347d9ac594b8cfef0a060da5f1b692f4cb99917473d3d720d1a5849af7fc
+docker: quay.io/biocontainers/pretext-to-asm
+aliases:
+  pretext-to-asm: /usr/local/bin/pretext-to-asm
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

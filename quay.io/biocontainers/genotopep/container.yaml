@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/genotopep
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genotopep
+latest:
+  0.1.0.1--pyhdfd78af_0: 
+    sha256:5518ba034dea61e08e85e460b429e56f3d1444a07f088387d6e75c2701998020
+tags:
+  0.1.0.1--pyhdfd78af_0: 
+    sha256:5518ba034dea61e08e85e460b429e56f3d1444a07f088387d6e75c2701998020
+docker: quay.io/biocontainers/genotopep
+aliases:
+  genotopep: /usr/local/bin/genotopep
+  pyrodigal: /usr/local/bin/pyrodigal
+  archspec: /usr/local/bin/archspec
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config

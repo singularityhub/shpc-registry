@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/scikit-fingerprints
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scikit-fingerprints
+latest:
+  2.0.0--pyh106432d_0: 
+    sha256:7f90a45ec552121bf6d2e836fb96b906ba56f9e77cd6b442d82b5a35125ec9ae
+tags:
+  2.0.0--pyh106432d_0: 
+    sha256:7f90a45ec552121bf6d2e836fb96b906ba56f9e77cd6b442d82b5a35125ec9ae
+docker: quay.io/biocontainers/scikit-fingerprints
+aliases:
+  e3fp-conformer: /usr/local/bin/e3fp-conformer
+  e3fp-fingerprint: /usr/local/bin/e3fp-fingerprint
+  storus: /usr/local/bin/storus
+  storus-validate: /usr/local/bin/storus-validate
+  hf: /usr/local/bin/hf
+  tiny-agents: /usr/local/bin/tiny-agents
+  huggingface-cli: /usr/local/bin/huggingface-cli
+  idna: /usr/local/bin/idna
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  httpx: /usr/local/bin/httpx
+  fc-genconf: /usr/local/bin/fc-genconf
+  pg_config: /usr/local/bin/pg_config
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf

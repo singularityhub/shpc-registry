@@ -1,0 +1,32 @@
+url: https://biocontainers.pro/tools/glyco-csdb2snfg
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for glyco-csdb2snfg
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:8674cc103487d1104f69519b0a1244a2f7ff5a22cf686c832f0d5f6e2c5a2133
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:8674cc103487d1104f69519b0a1244a2f7ff5a22cf686c832f0d5f6e2c5a2133
+docker: quay.io/biocontainers/glyco-csdb2snfg
+aliases:
+  csdb2snfg: /usr/local/bin/csdb2snfg
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  fc-genconf: /usr/local/bin/fc-genconf
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  xslt-config: /usr/local/bin/xslt-config
+  xsltproc: /usr/local/bin/xsltproc
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli

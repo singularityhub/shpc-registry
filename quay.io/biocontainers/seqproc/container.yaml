@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/seqproc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for seqproc
+latest:
+  0.1.1--h4bf21ff_0: 
+    sha256:df60f318c2d2eac83d55ad8274ba4d679f83df0280d4300cf7bb651e7bfc7407
+tags:
+  0.1.1--h4bf21ff_0: 
+    sha256:df60f318c2d2eac83d55ad8274ba4d679f83df0280d4300cf7bb651e7bfc7407
+docker: quay.io/biocontainers/seqproc
+aliases:
+  seqproc: /usr/local/bin/seqproc
