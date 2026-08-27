@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-module-metadata
 latest:
-  1.000039--pl5321hdfd78af_0: 
-    sha256:529ac81b012f644842f800f4b95a3598002c70f8ae3eeb9e63118d9c504d8032
+  1.000040--pl5321hdfd78af_0: 
+    sha256:6900f6bae0baad2ef9d42793ab8b0589e9ac57a506805529f2807a8beec124ca
 tags:
   1.000037--pl5321hdfd78af_0: 
     sha256:2b0d35995c9351369b6cb6dab351fc071c89c6ce4472a77b69c792a15500f990
@@ -12,6 +12,8 @@ tags:
     sha256:7ac550c72e8ff19c44e8272d9cbe3e2c3a3a50dcf89ae2c43a2e162cb7e5dbd7
   1.000039--pl5321hdfd78af_0: 
     sha256:529ac81b012f644842f800f4b95a3598002c70f8ae3eeb9e63118d9c504d8032
+  1.000040--pl5321hdfd78af_0: 
+    sha256:6900f6bae0baad2ef9d42793ab8b0589e9ac57a506805529f2807a8beec124ca
 docker: quay.io/biocontainers/perl-module-metadata
 aliases:
   perl5.32.1: /usr/local/bin/perl5.32.1

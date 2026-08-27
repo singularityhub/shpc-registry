@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/sqanti3
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for sqanti3
 latest:
-  6.0.2--hdfd78af_0: 
-    sha256:ecb281921b27e6830a4372c8d9081022c14929f93d649140373b4250d60465a6
+  6.0.2--hdfd78af_1: 
+    sha256:3ebeb658fb2e0e308e73cba50dd3b97c63963d8225f303f298ad8ee76264939d
 tags:
   6.0.1--hdfd78af_0: 
     sha256:3bd6ec96b3f1c9cae69cfef54ba0522b7d99efa7ebb0ff6a611841aa6784f74c
   6.0.2--hdfd78af_0: 
     sha256:ecb281921b27e6830a4372c8d9081022c14929f93d649140373b4250d60465a6
+  6.0.2--hdfd78af_1: 
+    sha256:3ebeb658fb2e0e308e73cba50dd3b97c63963d8225f303f298ad8ee76264939d
 docker: quay.io/biocontainers/sqanti3
 aliases:
   Annotation_Load.py: /usr/local/bin/Annotation_Load.py

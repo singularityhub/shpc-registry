@@ -7,6 +7,8 @@ latest:
 tags:
   0.34.0--py311h84dfe7a_0: 
     sha256:73d952727bc9ca4bf122a58c251c203c9e69cc77362d778072e6014fa42569ca
+  0.34.0--py313h4c8ee94_0: 
+    sha256:b9c7bdef202b75d020ee0054644185f1355e6491f05c802d189f8010e4090231
 docker: quay.io/biocontainers/polars-bio
 aliases:
   protoc-33.5.0: /usr/local/bin/protoc-33.5.0

@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/mutopia
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mutopia
 latest:
-  1.0.8--pyhdfd78af_0: 
-    sha256:b75428744e91bfa4447c693bc1451132079386aea2b894d972b3d1c4672e9dd4
+  1.0.9--pyhdfd78af_0: 
+    sha256:5584442129c353aaed5360c30cfd45a8aef9f3c472f7880edda5218bdf1b7063
 tags:
   1.0.4--pyhdfd78af_0: 
     sha256:c63e342be22076669ee13ba590dfc407bfcd49eb4dd18e567a0606121d507509
   1.0.8--pyhdfd78af_0: 
     sha256:b75428744e91bfa4447c693bc1451132079386aea2b894d972b3d1c4672e9dd4
+  1.0.9--pyhdfd78af_0: 
+    sha256:5584442129c353aaed5360c30cfd45a8aef9f3c472f7880edda5218bdf1b7063
 docker: quay.io/biocontainers/mutopia
 aliases:
   bigWigAverageOverBed: /usr/local/bin/bigWigAverageOverBed

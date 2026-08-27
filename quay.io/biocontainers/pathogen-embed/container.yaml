@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/pathogen-embed
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pathogen-embed
 latest:
-  3.1.0--pyhdfd78af_1: 
-    sha256:92918b32ac5967660cc927392ae143deb75556e46062dfa8dac3c7cfb9cb162d
+  4.0.0--pyhdfd78af_1: 
+    sha256:a97c692ce80fed799ae204659e7b08cedbe5c23e330802744d75fe615f999e37
 tags:
   2.0.0--pyhdfd78af_0: 
     sha256:90f9f9d885a4ed8f5264831337650e0ac1ee12521adb16751ee0f77b8ff7817e
@@ -19,6 +19,8 @@ tags:
     sha256:0706054a3eb9cb7abbef68ced61dfcd35abeeceba64c1ccc0adb8ef2d7fe48a6
   3.1.0--pyhdfd78af_1: 
     sha256:92918b32ac5967660cc927392ae143deb75556e46062dfa8dac3c7cfb9cb162d
+  4.0.0--pyhdfd78af_1: 
+    sha256:a97c692ce80fed799ae204659e7b08cedbe5c23e330802744d75fe615f999e37
 docker: quay.io/biocontainers/pathogen-embed
 aliases:
   pathogen-cluster: /usr/local/bin/pathogen-cluster

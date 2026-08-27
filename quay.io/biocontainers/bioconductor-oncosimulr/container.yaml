@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-oncosimulr
 latest:
-  4.12.0--r45ha27e39d_0: 
-    sha256:f58c636aca004ca2e6710f06fe8496249cc981053343528ec7c56b9cec25b526
+  4.14.0--r45h55fe1e3_0: 
+    sha256:f28b6381c88a822dfd3a151f6c8cd2c3d9db6ea2960874db20330b86118d8ca7
 tags:
   3.2.0--r41hc247a5b_2: 
     sha256:07a83ce8fbb348eea23ea1c14b283f93a52d8cbd1007c54179d5db5164efa9c4
@@ -16,6 +16,8 @@ tags:
     sha256:bcd0d34b8e86c329f2dda5207b0a137c42e7cc5d5ba1eee2c007aacb1f19a3f8
   4.12.0--r45ha27e39d_0: 
     sha256:f58c636aca004ca2e6710f06fe8496249cc981053343528ec7c56b9cec25b526
+  4.14.0--r45h55fe1e3_0: 
+    sha256:f28b6381c88a822dfd3a151f6c8cd2c3d9db6ea2960874db20330b86118d8ca7
 docker: quay.io/biocontainers/bioconductor-oncosimulr
 aliases:
   glpsol: /usr/local/bin/glpsol
