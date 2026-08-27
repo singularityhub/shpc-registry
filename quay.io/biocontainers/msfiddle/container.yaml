@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/msfiddle
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for msfiddle
+latest:
+  2.1.0--pyhdfd78af_0: 
+    sha256:9117bf7d71a99a154bfdf4428d8c58b7b7b311d42811782fd2ca32931e299110
+tags:
+  2.1.0--pyhdfd78af_0: 
+    sha256:9117bf7d71a99a154bfdf4428d8c58b7b7b311d42811782fd2ca32931e299110
+docker: quay.io/biocontainers/msfiddle
+aliases:
+  elements_gui: /usr/local/bin/elements_gui
+  molmass: /usr/local/bin/molmass
+  molmass_web: /usr/local/bin/molmass_web
+  msfiddle: /usr/local/bin/msfiddle
+  msfiddle-checkpoint-paths: /usr/local/bin/msfiddle-checkpoint-paths
+  msfiddle-download-models: /usr/local/bin/msfiddle-download-models
+  protoc-28.3.0: /usr/local/bin/protoc-28.3.0
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  pybind11-config: /usr/local/bin/pybind11-config
+  fc-genconf: /usr/local/bin/fc-genconf
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  elastishadow: /usr/local/bin/elastishadow
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  checksum-profile: /usr/local/bin/checksum-profile
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp

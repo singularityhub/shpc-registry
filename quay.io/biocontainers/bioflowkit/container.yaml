@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/bioflowkit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bioflowkit
+latest:
+  0.3.1--pyhdfd78af_0: 
+    sha256:18ac668fce8fd6e5b1db77bf9cce70ef6cbce7adf3e6519d6bcc255cdccf668a
+tags:
+  0.3.1--pyhdfd78af_0: 
+    sha256:18ac668fce8fd6e5b1db77bf9cce70ef6cbce7adf3e6519d6bcc255cdccf668a
+docker: quay.io/biocontainers/bioflowkit
+aliases:
+  bioflow: /usr/local/bin/bioflow
+  inv: /usr/local/bin/inv
+  invoke: /usr/local/bin/invoke
+  wsdump: /usr/local/bin/wsdump
+  idna: /usr/local/bin/idna
+  fc-genconf: /usr/local/bin/fc-genconf
+  typer: /usr/local/bin/typer
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  markdown-it: /usr/local/bin/markdown-it
+  jsonschema: /usr/local/bin/jsonschema
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  pygmentize: /usr/local/bin/pygmentize
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset

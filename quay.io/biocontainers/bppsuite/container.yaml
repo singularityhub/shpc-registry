@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/bppsuite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bppsuite
+latest:
+  3.0.0--hd63eeec_0: 
+    sha256:ca18e348a3c969f5f1aeb7057af262745e97923a0ead92d4e1140fa38708b1a6
+tags:
+  3.0.0--hd63eeec_0: 
+    sha256:ca18e348a3c969f5f1aeb7057af262745e97923a0ead92d4e1140fa38708b1a6
+docker: quay.io/biocontainers/bppsuite
+aliases:
+  bppalnscore: /usr/local/bin/bppalnscore
+  bppancestor: /usr/local/bin/bppancestor
+  bppbranchlik: /usr/local/bin/bppbranchlik
+  bppconsense: /usr/local/bin/bppconsense
+  bppdist: /usr/local/bin/bppdist
+  bppmixedlikelihoods: /usr/local/bin/bppmixedlikelihoods
+  bppml: /usr/local/bin/bppml
+  bpppars: /usr/local/bin/bpppars
+  bpppopstats: /usr/local/bin/bpppopstats
+  bppreroot: /usr/local/bin/bppreroot
+  bppseqgen: /usr/local/bin/bppseqgen
+  bppseqman: /usr/local/bin/bppseqman
+  bpptreedraw: /usr/local/bin/bpptreedraw

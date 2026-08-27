@@ -1,0 +1,39 @@
+url: https://biocontainers.pro/tools/txnova
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for txnova
+latest:
+  0.1.9--py314h80bd393_0: 
+    sha256:9465b32af3f7939b68bc5e111cf38e4488f934b35bbe20270fed48e9f7ad818f
+tags:
+  0.1.9--py314h80bd393_0: 
+    sha256:9465b32af3f7939b68bc5e111cf38e4488f934b35bbe20270fed48e9f7ad818f
+docker: quay.io/biocontainers/txnova
+aliases:
+  jupyter-builder: /usr/local/bin/jupyter-builder
+  mistune: /usr/local/bin/mistune
+  txnova: /usr/local/bin/txnova
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  jlpm: /usr/local/bin/jlpm
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  pyjson5: /usr/local/bin/pyjson5
+  jupyter-server: /usr/local/bin/jupyter-server
+  session-info2: /usr/local/bin/session-info2
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  session-info: /usr/local/bin/session-info
+  jupyter-console: /usr/local/bin/jupyter-console
+  debugpy: /usr/local/bin/debugpy
+  zarr: /usr/local/bin/zarr
+  send2trash: /usr/local/bin/send2trash
+  wsdump: /usr/local/bin/wsdump
+  jsonpointer: /usr/local/bin/jsonpointer
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  dotenv: /usr/local/bin/dotenv
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  jupyter-nbconvert: /usr/local/bin/jupyter-nbconvert
+  pybabel: /usr/local/bin/pybabel
+  idna: /usr/local/bin/idna
+  httpx: /usr/local/bin/httpx

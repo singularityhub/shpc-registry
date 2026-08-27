@@ -1,0 +1,73 @@
+url: https://biocontainers.pro/tools/longairr
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for longairr
+latest:
+  1.1.0--hdfd78af_0: 
+    sha256:ea57aad372f6521cefd96f5928561508ad75501ce41df2bc7d1fa3c79d914163
+tags:
+  1.1.0--hdfd78af_0: 
+    sha256:ea57aad372f6521cefd96f5928561508ad75501ce41df2bc7d1fa3c79d914163
+docker: quay.io/biocontainers/longairr
+aliases:
+  AlignRecords.py: /usr/local/bin/AlignRecords.py
+  AlignSets.py: /usr/local/bin/AlignSets.py
+  AssemblePairs.py: /usr/local/bin/AssemblePairs.py
+  AssignGenes.py: /usr/local/bin/AssignGenes.py
+  BuildConsensus.py: /usr/local/bin/BuildConsensus.py
+  BuildTrees.py: /usr/local/bin/BuildTrees.py
+  ClusterSets.py: /usr/local/bin/ClusterSets.py
+  CollapseSeq.py: /usr/local/bin/CollapseSeq.py
+  ConvertDb.py: /usr/local/bin/ConvertDb.py
+  ConvertHeaders.py: /usr/local/bin/ConvertHeaders.py
+  CreateGermlines.py: /usr/local/bin/CreateGermlines.py
+  DefineClones.py: /usr/local/bin/DefineClones.py
+  EstimateError.py: /usr/local/bin/EstimateError.py
+  FilterSeq.py: /usr/local/bin/FilterSeq.py
+  MakeDb.py: /usr/local/bin/MakeDb.py
+  MaskPrimers.py: /usr/local/bin/MaskPrimers.py
+  NanoPlot: /usr/local/bin/NanoPlot
+  PairSeq.py: /usr/local/bin/PairSeq.py
+  ParseDb.py: /usr/local/bin/ParseDb.py
+  ParseHeaders.py: /usr/local/bin/ParseHeaders.py
+  ParseLog.py: /usr/local/bin/ParseLog.py
+  SplitSeq.py: /usr/local/bin/SplitSeq.py
+  UnifyHeaders.py: /usr/local/bin/UnifyHeaders.py
+  airr-tools: /usr/local/bin/airr-tools
+  choreo_diagnose: /usr/local/bin/choreo_diagnose
+  choreo_get_chrome: /usr/local/bin/choreo_get_chrome
+  edit_imgt_file.pl: /usr/local/bin/edit_imgt_file.pl
+  igblastn: /usr/local/bin/igblastn
+  igblastp: /usr/local/bin/igblastp
+  kaleido_get_chrome: /usr/local/bin/kaleido_get_chrome
+  kaleido_mocker: /usr/local/bin/kaleido_mocker
+  longairr: /usr/local/bin/longairr
+  longairr-setup: /usr/local/bin/longairr-setup
+  makeigblastdb: /usr/local/bin/makeigblastdb
+  prc_write_irodsA.py: /usr/local/bin/prc_write_irodsA.py
+  setuptools-scm: /usr/local/bin/setuptools-scm
+  vcs-versioning: /usr/local/bin/vcs-versioning
+  inv: /usr/local/bin/inv
+  invoke: /usr/local/bin/invoke
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  phc: /usr/local/bin/phc
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  egrep: /usr/local/bin/egrep
+  fgrep: /usr/local/bin/fgrep
+  grep: /usr/local/bin/grep
+  eido: /usr/local/bin/eido
+  vsearch: /usr/local/bin/vsearch
+  plotly_get_chrome: /usr/local/bin/plotly_get_chrome
+  stone: /usr/local/bin/stone
+  seqkit: /usr/local/bin/seqkit
+  idna: /usr/local/bin/idna
+  archive-ncbinlp: /usr/local/bin/archive-ncbinlp
+  fetch-local: /usr/local/bin/fetch-local
+  fetch-nmcds: /usr/local/bin/fetch-nmcds
+  fetch-pmc: /usr/local/bin/fetch-pmc
+  fetch-taxonomy: /usr/local/bin/fetch-taxonomy
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4

@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/proteomes2structs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for proteomes2structs
+latest:
+  0.3.0a1--hdfd78af_0: 
+    sha256:5d28281f5de7e1ea8eb42b363e625f415288f02355a1baa2fcd72f51353d5195
+tags:
+  0.3.0a1--hdfd78af_0: 
+    sha256:5d28281f5de7e1ea8eb42b363e625f415288f02355a1baa2fcd72f51353d5195
+docker: quay.io/biocontainers/proteomes2structs
+aliases:
+  proteomes2structs: /usr/local/bin/proteomes2structs
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  jq: /usr/local/bin/jq
+  onig-config: /usr/local/bin/onig-config

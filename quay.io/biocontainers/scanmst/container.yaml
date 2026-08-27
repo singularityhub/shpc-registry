@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/scanmst
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scanmst
+latest:
+  0.1.9--py310h96c7dba_0: 
+    sha256:23ec2c35cd50292e53c3b3e5464db12854aa73a61d47740f0352fcea5741793c
+tags:
+  0.1.9--py310h96c7dba_0: 
+    sha256:23ec2c35cd50292e53c3b3e5464db12854aa73a61d47740f0352fcea5741793c
+docker: quay.io/biocontainers/scanmst
+aliases:
+  scanmst: /usr/local/bin/scanmst
+  pathos_connect: /usr/local/bin/pathos_connect
+  portpicker: /usr/local/bin/portpicker
+  pox: /usr/local/bin/pox
+  ppserver: /usr/local/bin/ppserver
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  htseq-count-barcodes: /usr/local/bin/htseq-count-barcodes
+  htseq-count: /usr/local/bin/htseq-count
+  htseq-qa: /usr/local/bin/htseq-qa
+  get_gprof: /usr/local/bin/get_gprof
+  idna: /usr/local/bin/idna
+  get_objgraph: /usr/local/bin/get_objgraph
+  undill: /usr/local/bin/undill
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  markdown-it: /usr/local/bin/markdown-it
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  annot-tsv: /usr/local/bin/annot-tsv
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf

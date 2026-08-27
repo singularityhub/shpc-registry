@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/arsc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for arsc
+latest:
+  0.5.3--pyhdfd78af_0: 
+    sha256:275061c11dacb6d1f64dda6d12c71f71d9b4acd3d96fc1b948f9c4cd2996d31a
+tags:
+  0.5.3--pyhdfd78af_0: 
+    sha256:275061c11dacb6d1f64dda6d12c71f71d9b4acd3d96fc1b948f9c4cd2996d31a
+docker: quay.io/biocontainers/arsc
+aliases:
+  arsc: /usr/local/bin/arsc
+  quickARSC: /usr/local/bin/quickARSC
+  prodigal: /usr/local/bin/prodigal
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

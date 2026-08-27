@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/ldpop
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ldpop
+latest:
+  1.0.2--pyhdfd78af_0: 
+    sha256:3131fb9825bb56b10f2f1e882dd25166237b25e39a6626c64a2fe7bd03b8b58f
+tags:
+  1.0.2--pyhdfd78af_0: 
+    sha256:3131fb9825bb56b10f2f1e882dd25166237b25e39a6626c64a2fe7bd03b8b58f
+docker: quay.io/biocontainers/ldpop
+aliases:
+  futurize: /usr/local/bin/futurize
+  pasteurize: /usr/local/bin/pasteurize
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

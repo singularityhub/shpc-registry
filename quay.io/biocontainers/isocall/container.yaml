@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/isocall
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for isocall
+latest:
+  1.3.0--h9ee0642_0: 
+    sha256:de01243514083a8156e5bd6a1f5ce10c821e129d0f711f490eca9ca4c6005525
+tags:
+  1.3.0--h9ee0642_0: 
+    sha256:de01243514083a8156e5bd6a1f5ce10c821e129d0f711f490eca9ca4c6005525
+docker: quay.io/biocontainers/isocall
+aliases:
+  isocall: /usr/local/bin/isocall

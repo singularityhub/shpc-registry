@@ -1,0 +1,107 @@
+url: https://biocontainers.pro/tools/pan_te
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pan_te
+latest:
+  1.2.0--hdfd78af_0: 
+    sha256:6434ebd6ecb3a4fecd78506be55d454fccbd0dc656b2a43c50e1badac267f6fc
+tags:
+  1.2.0--hdfd78af_0: 
+    sha256:6434ebd6ecb3a4fecd78506be55d454fccbd0dc656b2a43c50e1badac267f6fc
+docker: quay.io/biocontainers/pan_te
+aliases:
+  ALNchain: /usr/local/bin/ALNchain
+  ALNplot: /usr/local/bin/ALNplot
+  ALNreset: /usr/local/bin/ALNreset
+  ALNshow: /usr/local/bin/ALNshow
+  ALNtoPAF: /usr/local/bin/ALNtoPAF
+  ALNtoPSL: /usr/local/bin/ALNtoPSL
+  ANOshow: /usr/local/bin/ANOshow
+  ANOstat: /usr/local/bin/ANOstat
+  ANOtoBED: /usr/local/bin/ANOtoBED
+  BEDtoANO: /usr/local/bin/BEDtoANO
+  BuildDatabase: /usr/local/bin/BuildDatabase
+  FAtoGDB: /usr/local/bin/FAtoGDB
+  FastGA: /usr/local/bin/FastGA
+  FastKS: /usr/local/bin/FastKS
+  GDBshow: /usr/local/bin/GDBshow
+  GDBstat: /usr/local/bin/GDBstat
+  GDBtoFA: /usr/local/bin/GDBtoFA
+  GIXcp: /usr/local/bin/GIXcp
+  GIXmake: /usr/local/bin/GIXmake
+  GIXmv: /usr/local/bin/GIXmv
+  GIXrm: /usr/local/bin/GIXrm
+  GIXshow: /usr/local/bin/GIXshow
+  LTR_retriever.py: /usr/local/bin/LTR_retriever.py
+  Linup: /usr/local/bin/Linup
+  ONEview: /usr/local/bin/ONEview
+  PAFtoALN: /usr/local/bin/PAFtoALN
+  PAFtoPSL: /usr/local/bin/PAFtoPSL
+  Pan_TE: /usr/local/bin/Pan_TE
+  Refiner: /usr/local/bin/Refiner
+  RepeatClassifier: /usr/local/bin/RepeatClassifier
+  RepeatMasker.py: /usr/local/bin/RepeatMasker.py
+  RepeatModeler: /usr/local/bin/RepeatModeler
+  RepeatScout: /usr/local/bin/RepeatScout
+  TEsorter: /usr/local/bin/TEsorter
+  TEsorter-test: /usr/local/bin/TEsorter-test
+  TRFMask: /usr/local/bin/TRFMask
+  abpoa: /usr/local/bin/abpoa
+  bigRmskAlignBed.as: /usr/local/bin/bigRmskAlignBed.as
+  bigRmskBed.as: /usr/local/bin/bigRmskBed.as
+  blast_formatter_vdb: /usr/local/bin/blast_formatter_vdb
+  blast_vdb_cmd: /usr/local/bin/blast_vdb_cmd
+  build_lmer_table: /usr/local/bin/build_lmer_table
+  combineRMFiles.pl: /usr/local/bin/combineRMFiles.pl
+  compare-out-to-gff.prl: /usr/local/bin/compare-out-to-gff.prl
+  concatenate_domains.py: /usr/local/bin/concatenate_domains.py
+  dtr: /usr/local/bin/dtr
+  edgeredef: /usr/local/bin/edgeredef
+  eledef: /usr/local/bin/eledef
+  eleredef: /usr/local/bin/eleredef
+  famdef: /usr/local/bin/famdef
+  filter-stage-1.prl: /usr/local/bin/filter-stage-1.prl
+  filter-stage-2.prl: /usr/local/bin/filter-stage-2.prl
+  gdown: /usr/local/bin/gdown
+  get_record.py: /usr/local/bin/get_record.py
+  imagespread: /usr/local/bin/imagespread
+  iqtree3: /usr/local/bin/iqtree3
+  look4ltrs: /usr/local/bin/look4ltrs
+  makeclusterdb: /usr/local/bin/makeclusterdb
+  mdl-repeat: /usr/local/bin/mdl-repeat
+  merge-lmer-tables.prl: /usr/local/bin/merge-lmer-tables.prl
+  nmerge: /usr/local/bin/nmerge
+  nseg: /usr/local/bin/nseg
+  pan_te-setup-data: /usr/local/bin/pan_te-setup-data
+  ppserver.py: /usr/local/bin/ppserver.py
+  renumberRMFiles.pl: /usr/local/bin/renumberRMFiles.pl
+  rmToTrackHub.pl: /usr/local/bin/rmToTrackHub.pl
+  run_recon.sh: /usr/local/bin/run_recon.sh
+  te-discover: /usr/local/bin/te-discover
+  te-refine: /usr/local/bin/te-refine
+  te-seed: /usr/local/bin/te-seed
+  viewMSA.pl: /usr/local/bin/viewMSA.pl
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  spoa: /usr/local/bin/spoa
+  LICENSE: /usr/local/bin/LICENSE
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  maskFile.pl: /usr/local/bin/maskFile.pl
+  sourmash: /usr/local/bin/sourmash
+  RM2Bed.py: /usr/local/bin/RM2Bed.py
+  buildRMLibFromEMBL.pl: /usr/local/bin/buildRMLibFromEMBL.pl
+  buildSummary.pl: /usr/local/bin/buildSummary.pl
+  wublastToCrossmatch.pl: /usr/local/bin/wublastToCrossmatch.pl
+  DupMasker: /usr/local/bin/DupMasker
+  ProcessRepeats: /usr/local/bin/ProcessRepeats
+  RepeatMasker: /usr/local/bin/RepeatMasker
+  RepeatProteinMask: /usr/local/bin/RepeatProteinMask
+  calcDivergenceFromAlign.pl: /usr/local/bin/calcDivergenceFromAlign.pl
+  createRepeatLandscape.pl: /usr/local/bin/createRepeatLandscape.pl
+  dupliconToSVG.pl: /usr/local/bin/dupliconToSVG.pl
+  getRepeatMaskerBatch.pl: /usr/local/bin/getRepeatMaskerBatch.pl
+  rmOut2Fasta.pl: /usr/local/bin/rmOut2Fasta.pl
+  rmOutToGFF3.pl: /usr/local/bin/rmOutToGFF3.pl
+  rmToUCSCTables.pl: /usr/local/bin/rmToUCSCTables.pl
+  trfMask: /usr/local/bin/trfMask
+  rmblastn: /usr/local/bin/rmblastn
+  blast_report: /usr/local/bin/blast_report

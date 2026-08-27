@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/scgbinner
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for scgbinner
+latest:
+  1.0.4--pyh106432d_0: 
+    sha256:5741925b85b1135a63db4c5888e6c288f65cdab4ddc617fb8c2111372938d2e3
+tags:
+  1.0.4--pyh106432d_0: 
+    sha256:5741925b85b1135a63db4c5888e6c288f65cdab4ddc617fb8c2111372938d2e3
+docker: quay.io/biocontainers/scgbinner
+aliases:
+  scgbinner: /usr/local/bin/scgbinner
+  split_contigs: /usr/local/bin/split_contigs
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
+  protoc-31.1.0: /usr/local/bin/protoc-31.1.0
+  protoc-gen-upb-31.1.0: /usr/local/bin/protoc-gen-upb-31.1.0
+  protoc-gen-upbdefs-31.1.0: /usr/local/bin/protoc-gen-upbdefs-31.1.0
+  igraph: /usr/local/bin/igraph
+  tensorboard: /usr/local/bin/tensorboard
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  shmemrun: /usr/local/bin/shmemrun
+  oshCC: /usr/local/bin/oshCC
+  oshc++: /usr/local/bin/oshc++
+  oshcxx: /usr/local/bin/oshcxx
+  shmemCC: /usr/local/bin/shmemCC
+  shmemc++: /usr/local/bin/shmemc++
+  shmemcxx: /usr/local/bin/shmemcxx
+  oshcc: /usr/local/bin/oshcc
+  oshfort: /usr/local/bin/oshfort
+  oshmem_info: /usr/local/bin/oshmem_info
+  oshrun: /usr/local/bin/oshrun
+  shmemcc: /usr/local/bin/shmemcc
+  shmemfort: /usr/local/bin/shmemfort
+  aggregate_profile.pl: /usr/local/bin/aggregate_profile.pl
+  profile2mat.pl: /usr/local/bin/profile2mat.pl
+  ompi-clean: /usr/local/bin/ompi-clean

@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/chemap
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chemap
+latest:
+  0.3.7--pyh106432d_0: 
+    sha256:3a5cdd21bb8c1fddb54545e0947ca2aece6aadf6cbd6511bb9045266c80884e6
+tags:
+  0.3.7--pyh106432d_0: 
+    sha256:3a5cdd21bb8c1fddb54545e0947ca2aece6aadf6cbd6511bb9045266c80884e6
+docker: quay.io/biocontainers/chemap
+aliases:
+  e3fp-conformer: /usr/local/bin/e3fp-conformer
+  e3fp-fingerprint: /usr/local/bin/e3fp-fingerprint
+  map4: /usr/local/bin/map4
+  storus: /usr/local/bin/storus
+  storus-validate: /usr/local/bin/storus-validate
+  hf: /usr/local/bin/hf
+  tiny-agents: /usr/local/bin/tiny-agents
+  huggingface-cli: /usr/local/bin/huggingface-cli
+  idna: /usr/local/bin/idna
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  httpx: /usr/local/bin/httpx
+  fc-genconf: /usr/local/bin/fc-genconf
+  pg_config: /usr/local/bin/pg_config
+  numba: /usr/local/bin/numba
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay

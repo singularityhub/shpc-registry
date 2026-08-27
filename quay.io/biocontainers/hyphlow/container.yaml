@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/hyphlow
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hyphlow
+latest:
+  1.0.3--pyh106432d_0: 
+    sha256:ebf0bd352dd5b0a8110c247cba6ed3dec573007093c14c8d8af24eade4039ba5
+tags:
+  1.0.3--pyh106432d_0: 
+    sha256:ebf0bd352dd5b0a8110c247cba6ed3dec573007093c14c8d8af24eade4039ba5
+docker: quay.io/biocontainers/hyphlow
+aliases:
+  HYPHYMPI: /usr/local/bin/HYPHYMPI
+  hyphlow: /usr/local/bin/hyphlow
+  hyphy: /usr/local/bin/hyphy
+  qta-browser: /usr/local/bin/qta-browser
+  qta-install-fonts-all-users: /usr/local/bin/qta-install-fonts-all-users
+  qtpy: /usr/local/bin/qtpy
+  pax11publish: /usr/local/bin/pax11publish
+  vba_extract.py: /usr/local/bin/vba_extract.py
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  fc-genconf: /usr/local/bin/fc-genconf
+  balsam: /usr/local/bin/balsam
+  lprodump: /usr/local/bin/lprodump
+  lrelease-pro: /usr/local/bin/lrelease-pro
+  lupdate-pro: /usr/local/bin/lupdate-pro

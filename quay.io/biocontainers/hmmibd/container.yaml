@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/hmmibd
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hmmibd
+latest:
+  2.1.3--hab16a5f_0: 
+    sha256:eb80ccecf763f44237940601d172d52f8a56e58582b16ad0448aa54a0d25dd93
+tags:
+  2.1.3--hab16a5f_0: 
+    sha256:eb80ccecf763f44237940601d172d52f8a56e58582b16ad0448aa54a0d25dd93
+docker: quay.io/biocontainers/hmmibd
+aliases:
+  hmmIBD: /usr/local/bin/hmmIBD
+  thin_sites.py: /usr/local/bin/thin_sites.py
+  vcf2hmm.py: /usr/local/bin/vcf2hmm.py
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
