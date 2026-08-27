@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sr2silo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sr2silo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sr2silo/container.yaml"
-updated_at: "2026-08-26 03:33:34.593341"
+updated_at: "2026-08-27 12:54:36.053444"
 latest: "1.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sr2silo"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telomerehunter2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telomerehunter2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telomerehunter2/container.yaml"
-updated_at: "2026-08-26 03:21:03.490451"
+updated_at: "2026-08-27 12:41:58.093652"
 latest: "1.0.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telomerehunter2"
 aliases:

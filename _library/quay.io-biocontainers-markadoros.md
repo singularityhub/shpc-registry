@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/markadoros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markadoros/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markadoros/container.yaml"
-updated_at: "2026-08-26 04:05:39.165093"
+updated_at: "2026-08-27 13:25:39.282563"
 latest: "1.2.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/markadoros"
 aliases:

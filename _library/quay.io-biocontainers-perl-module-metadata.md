@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-module-metadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-module-metadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-module-metadata/container.yaml"
-updated_at: "2026-08-26 04:00:35.678213"
-latest: "1.000039--pl5321hdfd78af_0"
+updated_at: "2026-08-27 13:20:40.179354"
+latest: "1.000040--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-module-metadata"
 aliases:
  - "perl5.32.1"
@@ -14,8 +14,9 @@ versions:
  - "1.000037--pl5321hdfd78af_0"
  - "1.000038--pl5321hdfd78af_0"
  - "1.000039--pl5321hdfd78af_0"
+ - "1.000040--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-module-metadata"
-config: {"url": "https://biocontainers.pro/tools/perl-module-metadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-metadata", "latest": {"1.000039--pl5321hdfd78af_0": "sha256:529ac81b012f644842f800f4b95a3598002c70f8ae3eeb9e63118d9c504d8032"}, "tags": {"1.000037--pl5321hdfd78af_0": "sha256:2b0d35995c9351369b6cb6dab351fc071c89c6ce4472a77b69c792a15500f990", "1.000038--pl5321hdfd78af_0": "sha256:7ac550c72e8ff19c44e8272d9cbe3e2c3a3a50dcf89ae2c43a2e162cb7e5dbd7", "1.000039--pl5321hdfd78af_0": "sha256:529ac81b012f644842f800f4b95a3598002c70f8ae3eeb9e63118d9c504d8032"}, "docker": "quay.io/biocontainers/perl-module-metadata", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-module-metadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-module-metadata", "latest": {"1.000040--pl5321hdfd78af_0": "sha256:6900f6bae0baad2ef9d42793ab8b0589e9ac57a506805529f2807a8beec124ca"}, "tags": {"1.000037--pl5321hdfd78af_0": "sha256:2b0d35995c9351369b6cb6dab351fc071c89c6ce4472a77b69c792a15500f990", "1.000038--pl5321hdfd78af_0": "sha256:7ac550c72e8ff19c44e8272d9cbe3e2c3a3a50dcf89ae2c43a2e162cb7e5dbd7", "1.000039--pl5321hdfd78af_0": "sha256:529ac81b012f644842f800f4b95a3598002c70f8ae3eeb9e63118d9c504d8032", "1.000040--pl5321hdfd78af_0": "sha256:6900f6bae0baad2ef9d42793ab8b0589e9ac57a506805529f2807a8beec124ca"}, "docker": "quay.io/biocontainers/perl-module-metadata", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-module-metadata.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/perl-module-metadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-module-metadata:1.000039--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-module-metadata:1.000040--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-module-metadata/1.000039--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-module-metadata/1.000039--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-module-metadata/1.000040--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-module-metadata/1.000040--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

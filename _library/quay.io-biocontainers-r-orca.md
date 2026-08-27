@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-orca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-orca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-orca/container.yaml"
-updated_at: "2026-08-26 04:04:26.740404"
+updated_at: "2026-08-27 13:24:26.670923"
 latest: "1.1_3--r45h67c2a1a_0"
 container_url: "https://biocontainers.pro/tools/r-orca"
 aliases:
