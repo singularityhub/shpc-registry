@@ -16,7 +16,7 @@ description: AMD compatible version of Alphafold2, also compatible with nf-core 
 
 latest:
  v2.3.2_rocm6.2.4:
-    sha256:45c3ae9bd16ce1238d19b918aeef04c72eb0b5e7aa9b4ad90dcee9174f3c989a
+    sha256:cf6a6a991337222086ebdde7a6c955db22e01f5c55fd941ad2f2c61c01d87e34
 tags:
  v2.3.2_rocm6.2.4:
-    sha256:45c3ae9bd16ce1238d19b918aeef04c72eb0b5e7aa9b4ad90dcee9174f3c989a
+    sha256:cf6a6a991337222086ebdde7a6c955db22e01f5c55fd941ad2f2c61c01d87e34
