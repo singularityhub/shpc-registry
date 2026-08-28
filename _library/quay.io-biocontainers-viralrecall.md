@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viralrecall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viralrecall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viralrecall/container.yaml"
-updated_at: "2026-08-27 23:33:05.971665"
+updated_at: "2026-08-28 14:20:32.120512"
 latest: "3.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viralrecall"
 aliases:

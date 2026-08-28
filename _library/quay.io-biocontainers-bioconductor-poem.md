@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-poem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-poem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-poem/container.yaml"
-updated_at: "2026-08-27 23:52:51.766587"
+updated_at: "2026-08-28 14:47:52.210325"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-poem"
 aliases:

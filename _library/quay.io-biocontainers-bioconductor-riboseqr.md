@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-riboseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-riboseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-riboseqr/container.yaml"
-updated_at: "2026-08-27 23:25:49.680533"
+updated_at: "2026-08-28 14:10:27.342840"
 latest: "1.40.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-riboseqr"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hilbertcurve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hilbertcurve/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hilbertcurve/container.yaml"
-updated_at: "2026-08-27 23:19:42.462338"
+updated_at: "2026-08-28 14:02:05.886233"
 latest: "2.4.2--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hilbertcurve"
 

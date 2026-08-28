@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/branchsnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/branchsnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/branchsnv/container.yaml"
-updated_at: "2026-08-27 23:17:16.699988"
+updated_at: "2026-08-28 13:58:48.181494"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/branchsnv"
 aliases:

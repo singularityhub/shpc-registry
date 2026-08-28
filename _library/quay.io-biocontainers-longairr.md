@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longairr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longairr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longairr/container.yaml"
-updated_at: "2026-08-27 23:18:45.588000"
+updated_at: "2026-08-28 14:00:47.534441"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longairr"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-r.huge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.huge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.huge/container.yaml"
-updated_at: "2026-08-27 23:35:08.883844"
+updated_at: "2026-08-28 14:23:24.197055"
 latest: "0.9.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.huge"
 aliases:

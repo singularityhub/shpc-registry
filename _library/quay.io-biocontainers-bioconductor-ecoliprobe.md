@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecoliprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecoliprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecoliprobe/container.yaml"
-updated_at: "2026-08-27 23:52:00.153805"
+updated_at: "2026-08-28 14:46:39.793294"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecoliprobe"
 

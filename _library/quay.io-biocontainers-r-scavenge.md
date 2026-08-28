@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scavenge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scavenge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scavenge/container.yaml"
-updated_at: "2026-08-27 23:21:56.518003"
+updated_at: "2026-08-28 14:05:09.594482"
 latest: "1.0.2--r44hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-scavenge"
 aliases:

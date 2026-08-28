@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ifeature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ifeature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ifeature/container.yaml"
-updated_at: "2026-08-27 23:32:51.994820"
+updated_at: "2026-08-28 14:20:12.354362"
 latest: "0.0.6--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/ifeature"
 aliases:

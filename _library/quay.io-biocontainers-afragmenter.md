@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/afragmenter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afragmenter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/afragmenter/container.yaml"
-updated_at: "2026-08-27 23:31:11.880292"
+updated_at: "2026-08-28 14:17:52.515693"
 latest: "0.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/afragmenter"
 aliases:
