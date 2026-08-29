@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/inquistr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/inquistr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/inquistr/container.yaml"
-updated_at: "2026-08-28 14:15:03.338813"
+updated_at: "2026-08-29 09:02:46.313670"
 latest: "0.27.1--hdcf344f_0"
 container_url: "https://biocontainers.pro/tools/inquistr"
 aliases:

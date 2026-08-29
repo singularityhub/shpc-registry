@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unicycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unicycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unicycler/container.yaml"
-updated_at: "2026-08-28 14:00:58.584934"
+updated_at: "2026-08-29 08:48:23.491567"
 latest: "0.5.1--py312hdcc493e_5"
 container_url: "https://biocontainers.pro/tools/unicycler"
 aliases:

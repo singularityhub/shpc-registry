@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/adapterremoval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/adapterremoval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/adapterremoval/container.yaml"
-updated_at: "2026-08-28 14:24:03.275156"
+updated_at: "2026-08-29 09:11:56.985616"
 latest: "2.3.4--pl5321haf24da9_2"
 container_url: "https://biocontainers.pro/tools/adapterremoval"
 aliases:

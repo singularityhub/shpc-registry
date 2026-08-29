@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repenrich"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repenrich/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repenrich/container.yaml"
-updated_at: "2026-08-28 14:52:14.298077"
+updated_at: "2026-08-29 09:40:28.497816"
 latest: "1.2--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/repenrich"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomes2structs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomes2structs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomes2structs/container.yaml"
-updated_at: "2026-08-28 14:27:27.315850"
+updated_at: "2026-08-29 09:15:27.211361"
 latest: "0.3.0a1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/proteomes2structs"
 aliases:

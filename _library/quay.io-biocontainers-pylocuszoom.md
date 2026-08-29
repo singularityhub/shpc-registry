@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pylocuszoom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pylocuszoom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pylocuszoom/container.yaml"
-updated_at: "2026-08-28 14:25:01.195583"
+updated_at: "2026-08-29 09:12:54.937330"
 latest: "2.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pylocuszoom"
 aliases:

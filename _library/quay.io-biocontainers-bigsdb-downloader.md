@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigsdb-downloader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigsdb-downloader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigsdb-downloader/container.yaml"
-updated_at: "2026-08-28 14:01:47.850862"
+updated_at: "2026-08-29 08:49:12.525592"
 latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bigsdb-downloader"
 aliases:

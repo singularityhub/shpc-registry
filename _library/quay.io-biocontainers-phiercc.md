@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phiercc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phiercc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phiercc/container.yaml"
-updated_at: "2026-08-28 14:46:49.375448"
+updated_at: "2026-08-29 09:35:04.074027"
 latest: "1.24--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phiercc"
 aliases:

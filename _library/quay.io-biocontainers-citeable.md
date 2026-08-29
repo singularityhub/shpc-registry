@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/citeable"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/citeable/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/citeable/container.yaml"
-updated_at: "2026-08-28 14:11:54.267346"
+updated_at: "2026-08-29 08:59:33.826463"
 latest: "2026.3.11b1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/citeable"
 aliases:

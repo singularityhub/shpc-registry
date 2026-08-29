@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/artemis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/artemis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/artemis/container.yaml"
-updated_at: "2026-08-28 13:59:40.636862"
+updated_at: "2026-08-29 08:47:04.028613"
 latest: "18.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/artemis"
 aliases:

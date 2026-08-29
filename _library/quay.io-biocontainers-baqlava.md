@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baqlava"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baqlava/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baqlava/container.yaml"
-updated_at: "2026-08-28 14:53:20.072895"
+updated_at: "2026-08-29 09:41:38.555122"
 latest: "0.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/baqlava"
 aliases:

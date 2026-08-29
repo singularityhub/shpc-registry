@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-freerange"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-freerange/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-freerange/container.yaml"
-updated_at: "2026-08-28 14:19:01.432023"
+updated_at: "2026-08-29 09:06:48.857690"
 latest: "0.2.8--r36_0"
 container_url: "https://biocontainers.pro/tools/r-freerange"
 aliases:

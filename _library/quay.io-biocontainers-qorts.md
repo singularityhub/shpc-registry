@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qorts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qorts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qorts/container.yaml"
-updated_at: "2026-08-28 14:49:38.948187"
+updated_at: "2026-08-29 09:37:52.080927"
 latest: "1.3.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/qorts"
 aliases:

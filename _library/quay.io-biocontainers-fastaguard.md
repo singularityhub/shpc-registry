@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastaguard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastaguard/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastaguard/container.yaml"
-updated_at: "2026-08-28 14:02:23.941051"
+updated_at: "2026-08-29 08:49:48.392391"
 latest: "0.2.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/fastaguard"
 aliases:

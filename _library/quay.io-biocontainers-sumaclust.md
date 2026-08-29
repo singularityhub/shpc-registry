@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sumaclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sumaclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sumaclust/container.yaml"
-updated_at: "2026-08-28 14:44:23.621264"
+updated_at: "2026-08-29 09:32:39.767946"
 latest: "1.0.31--h7b50bb2_7"
 container_url: "https://biocontainers.pro/tools/sumaclust"
 aliases:

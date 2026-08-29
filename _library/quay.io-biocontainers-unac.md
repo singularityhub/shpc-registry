@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unac/container.yaml"
-updated_at: "2026-08-28 14:40:39.176930"
+updated_at: "2026-08-29 09:28:56.827729"
 latest: "0.2.1--pypl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/unac"
 aliases:

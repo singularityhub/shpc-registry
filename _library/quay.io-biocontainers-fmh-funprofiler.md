@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fmh-funprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fmh-funprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fmh-funprofiler/container.yaml"
-updated_at: "2026-08-28 13:57:55.668740"
+updated_at: "2026-08-29 08:45:18.655038"
 latest: "1.1.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/fmh-funprofiler"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stringdecomposer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stringdecomposer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stringdecomposer/container.yaml"
-updated_at: "2026-08-28 14:02:46.842814"
+updated_at: "2026-08-29 08:50:10.936533"
 latest: "1.1.2--py311he264feb_5"
 container_url: "https://biocontainers.pro/tools/stringdecomposer"
 aliases:

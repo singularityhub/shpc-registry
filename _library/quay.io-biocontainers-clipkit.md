@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clipkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clipkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clipkit/container.yaml"
-updated_at: "2026-08-28 14:31:58.451398"
+updated_at: "2026-08-29 09:20:09.733295"
 latest: "2.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clipkit"
 aliases:

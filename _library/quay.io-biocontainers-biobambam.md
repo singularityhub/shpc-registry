@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobambam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobambam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobambam/container.yaml"
-updated_at: "2026-08-28 14:49:00.401339"
+updated_at: "2026-08-29 09:37:14.140671"
 latest: "2.0.185--hcca9a76_2"
 container_url: "https://biocontainers.pro/tools/biobambam"
 aliases:

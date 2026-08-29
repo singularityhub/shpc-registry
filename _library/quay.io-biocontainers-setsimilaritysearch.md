@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/setsimilaritysearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/setsimilaritysearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/setsimilaritysearch/container.yaml"
-updated_at: "2026-08-28 14:12:49.202236"
+updated_at: "2026-08-29 09:00:31.452642"
 latest: "1.0.0"
 container_url: "https://biocontainers.pro/tools/setsimilaritysearch"
 aliases:
