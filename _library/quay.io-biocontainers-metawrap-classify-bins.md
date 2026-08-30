@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-classify-bins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-classify-bins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-classify-bins/container.yaml"
-updated_at: "2026-08-29 08:45:42.077828"
+updated_at: "2026-08-30 08:02:55.300954"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-classify-bins"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grz-db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-db/container.yaml"
-updated_at: "2026-08-29 08:52:25.536923"
+updated_at: "2026-08-30 08:09:21.248681"
 latest: "2.1.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/grz-db"
 aliases:

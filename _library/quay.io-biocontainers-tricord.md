@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tricord"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tricord/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tricord/container.yaml"
-updated_at: "2026-08-29 09:24:28.324827"
+updated_at: "2026-08-30 08:39:20.299206"
 latest: "0.1.3--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/tricord"
 aliases:
