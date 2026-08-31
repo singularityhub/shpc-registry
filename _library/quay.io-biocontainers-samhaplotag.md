@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/samhaplotag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samhaplotag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samhaplotag/container.yaml"
-updated_at: "2026-08-30 08:30:11.623685"
+updated_at: "2026-08-31 08:37:35.867094"
 latest: "0.0.4--h9948957_4"
 container_url: "https://biocontainers.pro/tools/samhaplotag"
 aliases:

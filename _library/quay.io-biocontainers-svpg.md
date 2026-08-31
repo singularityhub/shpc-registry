@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svpg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svpg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svpg/container.yaml"
-updated_at: "2026-08-30 08:37:00.255622"
+updated_at: "2026-08-31 08:42:45.265771"
 latest: "1.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svpg"
 aliases:

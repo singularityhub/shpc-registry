@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyprimer-ilps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyprimer-ilps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyprimer-ilps/container.yaml"
-updated_at: "2026-08-30 08:37:35.691602"
+updated_at: "2026-08-31 08:43:12.236478"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyprimer-ilps"
 aliases:

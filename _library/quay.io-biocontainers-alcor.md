@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alcor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alcor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alcor/container.yaml"
-updated_at: "2026-08-30 08:35:27.222282"
+updated_at: "2026-08-31 08:41:36.010485"
 latest: "1.11--hf426362_0"
 container_url: "https://biocontainers.pro/tools/alcor"
 aliases:

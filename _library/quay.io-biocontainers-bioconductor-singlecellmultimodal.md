@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-singlecellmultimodal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecellmultimodal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecellmultimodal/container.yaml"
-updated_at: "2026-08-30 08:13:55.448387"
+updated_at: "2026-08-31 08:25:28.269247"
 latest: "1.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecellmultimodal"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cwltool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cwltool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cwltool/container.yaml"
-updated_at: "2026-08-30 08:12:59.389562"
+updated_at: "2026-08-31 08:24:46.180998"
 latest: "1.0.20180225105849--py_1"
 container_url: "https://biocontainers.pro/tools/cwltool"
 aliases:

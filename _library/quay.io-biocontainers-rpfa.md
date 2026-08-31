@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rpfa/container.yaml"
-updated_at: "2026-08-30 08:56:52.121624"
+updated_at: "2026-08-31 08:58:16.427900"
 latest: "1.0.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/rpfa"
 aliases:

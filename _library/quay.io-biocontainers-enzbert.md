@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzbert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzbert/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzbert/container.yaml"
-updated_at: "2026-08-30 08:05:50.080178"
+updated_at: "2026-08-31 08:19:21.846326"
 latest: "1.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/enzbert"
 aliases:

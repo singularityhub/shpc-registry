@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-corral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-corral/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-corral/container.yaml"
-updated_at: "2026-08-30 08:21:52.837145"
+updated_at: "2026-08-31 08:31:23.168846"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-corral"
 aliases:

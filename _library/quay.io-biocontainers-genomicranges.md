@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomicranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomicranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomicranges/container.yaml"
-updated_at: "2026-08-30 08:49:57.217104"
+updated_at: "2026-08-31 08:52:44.968337"
 latest: "0.8.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/genomicranges"
 aliases:

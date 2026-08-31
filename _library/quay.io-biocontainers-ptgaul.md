@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ptgaul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ptgaul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ptgaul/container.yaml"
-updated_at: "2026-08-30 08:53:46.461226"
+updated_at: "2026-08-31 08:55:46.491170"
 latest: "1.0.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ptgaul"
 aliases:

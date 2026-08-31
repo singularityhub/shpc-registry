@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnaagecalc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaagecalc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaagecalc/container.yaml"
-updated_at: "2026-08-30 08:45:48.887076"
+updated_at: "2026-08-31 08:49:32.604830"
 latest: "1.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaagecalc"
 

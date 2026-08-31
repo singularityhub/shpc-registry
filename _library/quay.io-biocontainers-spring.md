@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spring/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spring/container.yaml"
-updated_at: "2026-08-30 08:47:45.326925"
+updated_at: "2026-08-31 08:51:01.829072"
 latest: "1.1.1--h4ac6f70_3"
 container_url: "https://biocontainers.pro/tools/spring"
 aliases:

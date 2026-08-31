@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-terapadog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-terapadog/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-terapadog/container.yaml"
-updated_at: "2026-08-30 08:12:10.316281"
+updated_at: "2026-08-31 08:24:08.676385"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-terapadog"
 aliases:
