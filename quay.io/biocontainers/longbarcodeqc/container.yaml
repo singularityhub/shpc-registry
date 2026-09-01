@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/longbarcodeqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for longbarcodeqc
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:113452b45a1d25e7196fa0b21144a92c5d3e39ddeb9b6a943ece8913d43288cd
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:113452b45a1d25e7196fa0b21144a92c5d3e39ddeb9b6a943ece8913d43288cd
+docker: quay.io/biocontainers/longbarcodeqc
+aliases:
+  lbqc: /usr/local/bin/lbqc
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  cutadapt: /usr/local/bin/cutadapt
+  fc-genconf: /usr/local/bin/fc-genconf
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  elastishadow: /usr/local/bin/elastishadow
+  h2benchmark: /usr/local/bin/h2benchmark
+  pbunzip2: /usr/local/bin/pbunzip2
+  pbzcat: /usr/local/bin/pbzcat
+  pbzip2: /usr/local/bin/pbzip2
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  checksum-profile: /usr/local/bin/checksum-profile
+  igzip: /usr/local/bin/igzip
+  ref-cache: /usr/local/bin/ref-cache
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
