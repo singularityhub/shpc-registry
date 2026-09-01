@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stjoincount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stjoincount/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stjoincount/container.yaml"
-updated_at: "2026-08-31 08:21:52.259067"
+updated_at: "2026-09-01 07:32:28.233854"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stjoincount"
 aliases:

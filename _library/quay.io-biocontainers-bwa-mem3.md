@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bwa-mem3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-mem3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-mem3/container.yaml"
-updated_at: "2026-08-31 08:44:48.093457"
-latest: "0.7.0--h8d53bd0_0"
+updated_at: "2026-09-01 07:58:32.763179"
+latest: "0.10.0--h8d53bd0_0"
 container_url: "https://biocontainers.pro/tools/bwa-mem3"
 aliases:
  - "bwa-mem3"
@@ -22,8 +22,11 @@ versions:
  - "0.7.0--h8d53bd0_0"
  - "0.6.0--h8d53bd0_1"
  - "0.5.0--h5814d7d_1"
+ - "0.10.0--h8d53bd0_0"
+ - "0.9.0--h8d53bd0_0"
+ - "0.8.0--h8d53bd0_0"
 description: "singularity registry hpc automated addition for bwa-mem3"
-config: {"url": "https://biocontainers.pro/tools/bwa-mem3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bwa-mem3", "latest": {"0.7.0--h8d53bd0_0": "sha256:74a69d16062b1de34bfe72ee0f31159836fbec924dc786f579386a9b4fe2af6f"}, "tags": {"0.2.1--h5814d7d_0": "sha256:2ee7f4b1b33d69d7e679e4bd1779595c9f90b25612f11da2bb9091deeb9e5caa", "0.4.0--h5814d7d_0": "sha256:0493b0e5c7dc28f6d03dcf1c963a21af78d92f158f6e08976071a621fc89342a", "0.3.0--h5814d7d_0": "sha256:1aa7f6b6b796155c3eb72c0decaa5cba8864a43f333e2a59579879689808d1e6", "0.2.2--h5814d7d_0": "sha256:cde4906faa6f5a0d454e60d4ef8dfc877d88486ba4b7339393b01233c5e439d4", "0.7.0--h8d53bd0_0": "sha256:74a69d16062b1de34bfe72ee0f31159836fbec924dc786f579386a9b4fe2af6f", "0.6.0--h8d53bd0_1": "sha256:be9e160ad0a1843ec6756f929275fbd9bc0a58b14c40d60f97d3587fab169852", "0.5.0--h5814d7d_1": "sha256:1af9be13125262787e97c34e9d22cd708babe80f3b23080723a2102376b27f13"}, "docker": "quay.io/biocontainers/bwa-mem3", "aliases": {"bwa-mem3": "/usr/local/bin/bwa-mem3", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/bwa-mem3", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bwa-mem3", "latest": {"0.10.0--h8d53bd0_0": "sha256:348ba6221284ea2b186fbb3eb909d3c45fdcf48a0dcd18d9b2bcfd080ec665f8"}, "tags": {"0.2.1--h5814d7d_0": "sha256:2ee7f4b1b33d69d7e679e4bd1779595c9f90b25612f11da2bb9091deeb9e5caa", "0.4.0--h5814d7d_0": "sha256:0493b0e5c7dc28f6d03dcf1c963a21af78d92f158f6e08976071a621fc89342a", "0.3.0--h5814d7d_0": "sha256:1aa7f6b6b796155c3eb72c0decaa5cba8864a43f333e2a59579879689808d1e6", "0.2.2--h5814d7d_0": "sha256:cde4906faa6f5a0d454e60d4ef8dfc877d88486ba4b7339393b01233c5e439d4", "0.7.0--h8d53bd0_0": "sha256:74a69d16062b1de34bfe72ee0f31159836fbec924dc786f579386a9b4fe2af6f", "0.6.0--h8d53bd0_1": "sha256:be9e160ad0a1843ec6756f929275fbd9bc0a58b14c40d60f97d3587fab169852", "0.5.0--h5814d7d_1": "sha256:1af9be13125262787e97c34e9d22cd708babe80f3b23080723a2102376b27f13", "0.10.0--h8d53bd0_0": "sha256:348ba6221284ea2b186fbb3eb909d3c45fdcf48a0dcd18d9b2bcfd080ec665f8", "0.9.0--h8d53bd0_0": "sha256:a1e8094559aabf582f1945695bb9788098885eff2f2f8aa8fb41a685429b568f", "0.8.0--h8d53bd0_0": "sha256:655d1475e95d64467a00e4741b894061a376f6929abe4fca86203ec4a1105dcf"}, "docker": "quay.io/biocontainers/bwa-mem3", "aliases": {"bwa-mem3": "/usr/local/bin/bwa-mem3", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwa-mem3.
@@ -38,7 +41,7 @@ $ shpc install quay.io/biocontainers/bwa-mem3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwa-mem3:0.7.0--h8d53bd0_0
+$ shpc install quay.io/biocontainers/bwa-mem3:0.10.0--h8d53bd0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwa-mem3/0.7.0--h8d53bd0_0
-$ module help quay.io/biocontainers/bwa-mem3/0.7.0--h8d53bd0_0
+$ module load quay.io/biocontainers/bwa-mem3/0.10.0--h8d53bd0_0
+$ module help quay.io/biocontainers/bwa-mem3/0.10.0--h8d53bd0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

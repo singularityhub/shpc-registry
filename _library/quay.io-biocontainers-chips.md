@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chips"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chips/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chips/container.yaml"
-updated_at: "2026-08-31 08:27:12.931199"
-latest: "2.4--h43eeafb_7"
+updated_at: "2026-09-01 07:38:35.144701"
+latest: "2.4--h5814d7d_9"
 container_url: "https://biocontainers.pro/tools/chips"
 aliases:
  - "chips"
@@ -17,8 +17,9 @@ versions:
  - "2.4--hff880f7_5"
  - "2.4--h6ab5fc9_6"
  - "2.4--h43eeafb_7"
+ - "2.4--h5814d7d_9"
 description: "shpc-registry automated BioContainers addition for chips"
-config: {"url": "https://biocontainers.pro/tools/chips", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chips", "latest": {"2.4--h43eeafb_7": "sha256:927b61e8e7c1c90878aa9b41485e23a116355cf096e985126461378591d4d859"}, "tags": {"2.4--hea94271_4": "sha256:d72b484a2ed1cd8228eb7a576446bc4a4060e95abea6964e03929dbb71e9b163", "2.4--hff880f7_5": "sha256:ca16cc23f9c75fa3d524e60e9178acca9e3d3065c59004ec94432adddd677322", "2.4--h6ab5fc9_6": "sha256:3270a8092e44f226cb8537a30d32dad90fec7e002b14d5c6ddf8d26502059ce0", "2.4--h43eeafb_7": "sha256:927b61e8e7c1c90878aa9b41485e23a116355cf096e985126461378591d4d859"}, "docker": "quay.io/biocontainers/chips", "aliases": {"chips": "/usr/local/bin/chips", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/chips", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chips", "latest": {"2.4--h5814d7d_9": "sha256:6a5f7edc2657c0400bae4859e9b28360300ea1b531f80c0955d325ca2eaa3428"}, "tags": {"2.4--hea94271_4": "sha256:d72b484a2ed1cd8228eb7a576446bc4a4060e95abea6964e03929dbb71e9b163", "2.4--hff880f7_5": "sha256:ca16cc23f9c75fa3d524e60e9178acca9e3d3065c59004ec94432adddd677322", "2.4--h6ab5fc9_6": "sha256:3270a8092e44f226cb8537a30d32dad90fec7e002b14d5c6ddf8d26502059ce0", "2.4--h43eeafb_7": "sha256:927b61e8e7c1c90878aa9b41485e23a116355cf096e985126461378591d4d859", "2.4--h5814d7d_9": "sha256:6a5f7edc2657c0400bae4859e9b28360300ea1b531f80c0955d325ca2eaa3428"}, "docker": "quay.io/biocontainers/chips", "aliases": {"chips": "/usr/local/bin/chips", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chips.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/chips
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chips:2.4--h43eeafb_7
+$ shpc install quay.io/biocontainers/chips:2.4--h5814d7d_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chips/2.4--h43eeafb_7
-$ module help quay.io/biocontainers/chips/2.4--h43eeafb_7
+$ module load quay.io/biocontainers/chips/2.4--h5814d7d_9
+$ module help quay.io/biocontainers/chips/2.4--h5814d7d_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

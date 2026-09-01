@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phagemine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phagemine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phagemine/container.yaml"
-updated_at: "2026-08-31 08:23:04.730747"
+updated_at: "2026-09-01 07:33:50.887400"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phagemine"
 aliases:

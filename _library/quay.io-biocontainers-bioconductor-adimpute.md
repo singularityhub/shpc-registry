@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-adimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adimpute/container.yaml"
-updated_at: "2026-08-31 08:31:59.838553"
+updated_at: "2026-09-01 07:44:08.418243"
 latest: "1.16.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adimpute"
 

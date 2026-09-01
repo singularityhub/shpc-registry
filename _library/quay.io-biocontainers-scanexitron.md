@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanexitron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanexitron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanexitron/container.yaml"
-updated_at: "2026-08-31 08:40:00.418084"
+updated_at: "2026-09-01 07:53:11.387402"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scanexitron"
 aliases:

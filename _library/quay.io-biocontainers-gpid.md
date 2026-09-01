@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gpid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gpid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gpid/container.yaml"
-updated_at: "2026-08-31 08:31:35.326335"
+updated_at: "2026-09-01 07:43:40.328113"
 latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gpid"
 aliases:

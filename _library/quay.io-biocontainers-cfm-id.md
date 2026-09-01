@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cfm-id"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cfm-id/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cfm-id/container.yaml"
-updated_at: "2026-08-31 08:52:10.730361"
+updated_at: "2026-09-01 08:06:44.206928"
 latest: "4.4.10--h8471819_0"
 container_url: "https://biocontainers.pro/tools/cfm-id"
 aliases:

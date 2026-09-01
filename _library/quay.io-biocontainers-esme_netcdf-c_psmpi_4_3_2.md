@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2/container.yaml"
-updated_at: "2026-08-31 08:24:43.041115"
-latest: "4.9.3--h6af5b14_0"
+updated_at: "2026-09-01 07:35:44.873108"
+latest: "4.9.3--he52bf29_1"
 container_url: "https://biocontainers.pro/tools/esme_netcdf-c_psmpi_4_3_2"
 aliases:
  - "nc4print"
@@ -35,8 +35,9 @@ aliases:
  - "ncgen3"
 versions:
  - "4.9.3--h6af5b14_0"
+ - "4.9.3--he52bf29_1"
 description: "singularity registry hpc automated addition for esme_netcdf-c_psmpi_4_3_2"
-config: {"url": "https://biocontainers.pro/tools/esme_netcdf-c_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_netcdf-c_psmpi_4_3_2", "latest": {"4.9.3--h6af5b14_0": "sha256:175bc752187bd9c6dbc0e4094ced4dd2b410c8c013faf3876a4727214a2bbd4e"}, "tags": {"4.9.3--h6af5b14_0": "sha256:175bc752187bd9c6dbc0e4094ced4dd2b410c8c013faf3876a4727214a2bbd4e"}, "docker": "quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2", "aliases": {"nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "chacl": "/usr/local/bin/chacl", "getfacl": "/usr/local/bin/getfacl", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "attr": "/usr/local/bin/attr", "getfattr": "/usr/local/bin/getfattr", "setfattr": "/usr/local/bin/setfattr", "nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3"}}
+config: {"url": "https://biocontainers.pro/tools/esme_netcdf-c_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_netcdf-c_psmpi_4_3_2", "latest": {"4.9.3--he52bf29_1": "sha256:2693b6059f27ac27ab2f351c52d888c2de97a9b9d88354bb2c19b3102aa2ee60"}, "tags": {"4.9.3--h6af5b14_0": "sha256:175bc752187bd9c6dbc0e4094ced4dd2b410c8c013faf3876a4727214a2bbd4e", "4.9.3--he52bf29_1": "sha256:2693b6059f27ac27ab2f351c52d888c2de97a9b9d88354bb2c19b3102aa2ee60"}, "docker": "quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2", "aliases": {"nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "chacl": "/usr/local/bin/chacl", "getfacl": "/usr/local/bin/getfacl", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "ph5diff": "/usr/local/bin/ph5diff", "attr": "/usr/local/bin/attr", "getfattr": "/usr/local/bin/getfattr", "setfattr": "/usr/local/bin/setfattr", "nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2:4.9.3--h6af5b14_0
+$ shpc install quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2:4.9.3--he52bf29_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2/4.9.3--h6af5b14_0
-$ module help quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2/4.9.3--h6af5b14_0
+$ module load quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2/4.9.3--he52bf29_1
+$ module help quay.io/biocontainers/esme_netcdf-c_psmpi_4_3_2/4.9.3--he52bf29_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

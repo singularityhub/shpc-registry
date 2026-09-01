@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/chainc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chainc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chainc/container.yaml"
-updated_at: "2026-08-31 08:29:22.313311"
-latest: "0.0.1--hab7d0fd_0"
+updated_at: "2026-09-01 07:41:05.750830"
+latest: "0.0.2--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/chainc"
 aliases:
  - "chainc"
 versions:
  - "0.0.1--hab7d0fd_0"
+ - "0.0.2--hab7d0fd_0"
 description: "singularity registry hpc automated addition for chainc"
-config: {"url": "https://biocontainers.pro/tools/chainc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chainc", "latest": {"0.0.1--hab7d0fd_0": "sha256:0ea5f06be1cf1fa24256c8b8b39cc2d7224a876e58268391e0901886f0e8c9c7"}, "tags": {"0.0.1--hab7d0fd_0": "sha256:0ea5f06be1cf1fa24256c8b8b39cc2d7224a876e58268391e0901886f0e8c9c7"}, "docker": "quay.io/biocontainers/chainc", "aliases": {"chainc": "/usr/local/bin/chainc"}}
+config: {"url": "https://biocontainers.pro/tools/chainc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chainc", "latest": {"0.0.2--hab7d0fd_0": "sha256:9a08a89ca07932088b00921f0211e7fe308e50b62ea392beff22f0eb5a184c2a"}, "tags": {"0.0.1--hab7d0fd_0": "sha256:0ea5f06be1cf1fa24256c8b8b39cc2d7224a876e58268391e0901886f0e8c9c7", "0.0.2--hab7d0fd_0": "sha256:9a08a89ca07932088b00921f0211e7fe308e50b62ea392beff22f0eb5a184c2a"}, "docker": "quay.io/biocontainers/chainc", "aliases": {"chainc": "/usr/local/bin/chainc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chainc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/chainc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chainc:0.0.1--hab7d0fd_0
+$ shpc install quay.io/biocontainers/chainc:0.0.2--hab7d0fd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chainc/0.0.1--hab7d0fd_0
-$ module help quay.io/biocontainers/chainc/0.0.1--hab7d0fd_0
+$ module load quay.io/biocontainers/chainc/0.0.2--hab7d0fd_0
+$ module help quay.io/biocontainers/chainc/0.0.2--hab7d0fd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

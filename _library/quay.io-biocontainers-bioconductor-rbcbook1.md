@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rbcbook1"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbcbook1/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbcbook1/container.yaml"
-updated_at: "2026-08-31 08:49:15.165221"
+updated_at: "2026-09-01 08:03:28.639445"
 latest: "1.78.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbcbook1"
 

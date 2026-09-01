@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viral_consensus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral_consensus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viral_consensus/container.yaml"
-updated_at: "2026-08-31 08:50:19.588188"
+updated_at: "2026-09-01 08:04:40.039186"
 latest: "1.0.4--he58c905_0"
 container_url: "https://biocontainers.pro/tools/viral_consensus"
 aliases:

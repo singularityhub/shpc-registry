@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-aaprops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-aaprops/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-aaprops/container.yaml"
-updated_at: "2026-08-31 08:29:59.907809"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-01 07:41:50.193543"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-aaprops"
 aliases:
  - "enzywizard-aaprops"
@@ -17,8 +17,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-aaprops"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-aaprops", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-aaprops", "latest": {"1.0.2--pyhdfd78af_0": "sha256:9f9893bff273bb31b7dccb548b5d47116ccf3633438fda5e5cddfdadcd747783"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:9f9893bff273bb31b7dccb548b5d47116ccf3633438fda5e5cddfdadcd747783"}, "docker": "quay.io/biocontainers/enzywizard-aaprops", "aliases": {"enzywizard-aaprops": "/usr/local/bin/enzywizard-aaprops", "mkdssp": "/usr/local/bin/mkdssp", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-aaprops", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-aaprops", "latest": {"1.0.3--pyhdfd78af_0": "sha256:3e19f05220477a1839270f755b906b43fc798e512ee4c562b87193c870065a44"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:9f9893bff273bb31b7dccb548b5d47116ccf3633438fda5e5cddfdadcd747783", "1.0.3--pyhdfd78af_0": "sha256:3e19f05220477a1839270f755b906b43fc798e512ee4c562b87193c870065a44"}, "docker": "quay.io/biocontainers/enzywizard-aaprops", "aliases": {"enzywizard-aaprops": "/usr/local/bin/enzywizard-aaprops", "mkdssp": "/usr/local/bin/mkdssp", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-aaprops.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/enzywizard-aaprops
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-aaprops:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-aaprops:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-aaprops/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-aaprops/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-aaprops/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-aaprops/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

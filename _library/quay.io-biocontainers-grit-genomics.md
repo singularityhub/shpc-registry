@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grit-genomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grit-genomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grit-genomics/container.yaml"
-updated_at: "2026-08-31 08:27:34.518692"
+updated_at: "2026-09-01 07:38:59.374419"
 latest: "0.1.1--h79ce301_0"
 container_url: "https://biocontainers.pro/tools/grit-genomics"
 aliases:

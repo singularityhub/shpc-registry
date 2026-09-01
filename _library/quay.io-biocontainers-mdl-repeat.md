@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/mdl-repeat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mdl-repeat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mdl-repeat/container.yaml"
-updated_at: "2026-08-31 08:35:42.936710"
-latest: "1.0.1--hab16a5f_0"
+updated_at: "2026-09-01 07:48:24.328960"
+latest: "1.0.1--hab16a5f_1"
 container_url: "https://biocontainers.pro/tools/mdl-repeat"
 aliases:
  - "mdl-repeat"
 versions:
  - "1.0.1--hab16a5f_0"
+ - "1.0.1--hab16a5f_1"
 description: "singularity registry hpc automated addition for mdl-repeat"
-config: {"url": "https://biocontainers.pro/tools/mdl-repeat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mdl-repeat", "latest": {"1.0.1--hab16a5f_0": "sha256:f5749bd2e22d89f018681524bcb57f134ad0d5086130a79b73aeeba271b14359"}, "tags": {"1.0.1--hab16a5f_0": "sha256:f5749bd2e22d89f018681524bcb57f134ad0d5086130a79b73aeeba271b14359"}, "docker": "quay.io/biocontainers/mdl-repeat", "aliases": {"mdl-repeat": "/usr/local/bin/mdl-repeat"}}
+config: {"url": "https://biocontainers.pro/tools/mdl-repeat", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mdl-repeat", "latest": {"1.0.1--hab16a5f_1": "sha256:c34c58f5958aa63b9561fc38259c875ca02d617fab4119055235190fbf1f12a8"}, "tags": {"1.0.1--hab16a5f_0": "sha256:f5749bd2e22d89f018681524bcb57f134ad0d5086130a79b73aeeba271b14359", "1.0.1--hab16a5f_1": "sha256:c34c58f5958aa63b9561fc38259c875ca02d617fab4119055235190fbf1f12a8"}, "docker": "quay.io/biocontainers/mdl-repeat", "aliases": {"mdl-repeat": "/usr/local/bin/mdl-repeat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mdl-repeat.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/mdl-repeat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mdl-repeat:1.0.1--hab16a5f_0
+$ shpc install quay.io/biocontainers/mdl-repeat:1.0.1--hab16a5f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mdl-repeat/1.0.1--hab16a5f_0
-$ module help quay.io/biocontainers/mdl-repeat/1.0.1--hab16a5f_0
+$ module load quay.io/biocontainers/mdl-repeat/1.0.1--hab16a5f_1
+$ module help quay.io/biocontainers/mdl-repeat/1.0.1--hab16a5f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

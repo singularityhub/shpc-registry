@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/directclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/directclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/directclean/container.yaml"
-updated_at: "2026-08-31 08:37:17.618441"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2026-09-01 07:50:09.696972"
+latest: "1.1.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/directclean"
 aliases:
  - "breakinator"
@@ -38,8 +38,9 @@ aliases:
  - "sam2vcf.pl"
 versions:
  - "1.1.2--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for directclean"
-config: {"url": "https://biocontainers.pro/tools/directclean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for directclean", "latest": {"1.1.2--pyhdfd78af_0": "sha256:29dffc4e1f8906d95b570228b860886fa5c132cc08fab6da0c80ecea27b0b9af"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:29dffc4e1f8906d95b570228b860886fa5c132cc08fab6da0c80ecea27b0b9af"}, "docker": "quay.io/biocontainers/directclean", "aliases": {"breakinator": "/usr/local/bin/breakinator", "directclean": "/usr/local/bin/directclean", "restrander": "/usr/local/bin/restrander", "seq_cache_populate.py": "/usr/local/bin/seq_cache_populate.py", "typer": "/usr/local/bin/typer", "ref-cache": "/usr/local/bin/ref-cache", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "markdown-it": "/usr/local/bin/markdown-it", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "pygmentize": "/usr/local/bin/pygmentize", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl"}}
+config: {"url": "https://biocontainers.pro/tools/directclean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for directclean", "latest": {"1.1.2--pyhdfd78af_1": "sha256:57bd6a44be2d796a27b4dcddf5f7d177621dfbdcb384294038f8b5425b559a14"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:29dffc4e1f8906d95b570228b860886fa5c132cc08fab6da0c80ecea27b0b9af", "1.1.2--pyhdfd78af_1": "sha256:57bd6a44be2d796a27b4dcddf5f7d177621dfbdcb384294038f8b5425b559a14"}, "docker": "quay.io/biocontainers/directclean", "aliases": {"breakinator": "/usr/local/bin/breakinator", "directclean": "/usr/local/bin/directclean", "restrander": "/usr/local/bin/restrander", "seq_cache_populate.py": "/usr/local/bin/seq_cache_populate.py", "typer": "/usr/local/bin/typer", "ref-cache": "/usr/local/bin/ref-cache", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "markdown-it": "/usr/local/bin/markdown-it", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "annot-tsv": "/usr/local/bin/annot-tsv", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "pygmentize": "/usr/local/bin/pygmentize", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats", "psl2sam.pl": "/usr/local/bin/psl2sam.pl", "sam2vcf.pl": "/usr/local/bin/sam2vcf.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/directclean.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/directclean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/directclean:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/directclean:1.1.2--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/directclean/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/directclean/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/directclean/1.1.2--pyhdfd78af_1
+$ module help quay.io/biocontainers/directclean/1.1.2--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrho"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrho/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyrho/container.yaml"
-updated_at: "2026-08-31 08:40:34.244126"
+updated_at: "2026-09-01 07:53:49.999117"
 latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyrho"
 aliases:
