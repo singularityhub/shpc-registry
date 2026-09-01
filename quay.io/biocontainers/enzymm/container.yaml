@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/enzymm
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for enzymm
 latest:
-  0.4.0--pyhdfd78af_0: 
-    sha256:b1d4229cbd18b20debeedacfd959c4f8485cd682e0cc8d50b825ecf01a257ad6
+  0.5.0--pyhdfd78af_0: 
+    sha256:9dba1aaf7177f08aee58da0265584c3e22841a1cc699f8b16684aeee00e0e43c
 tags:
   0.3.1--pyhdfd78af_0: 
     sha256:756058e43825668c68b3f3146ecda8ada522ddacea3310413de94cec2fa43f73
@@ -13,6 +13,8 @@ tags:
     sha256:b1d4229cbd18b20debeedacfd959c4f8485cd682e0cc8d50b825ecf01a257ad6
   0.3.3--pyhdfd78af_0: 
     sha256:7990a0ea067a46e5dd142348dfb05c7945de43f36a432c94137c7872106d71ef
+  0.5.0--pyhdfd78af_0: 
+    sha256:9dba1aaf7177f08aee58da0265584c3e22841a1cc699f8b16684aeee00e0e43c
 docker: quay.io/biocontainers/enzymm
 aliases:
   enzymm: /usr/local/bin/enzymm

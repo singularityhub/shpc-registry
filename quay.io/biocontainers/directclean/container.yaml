@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/directclean
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for directclean
 latest:
-  1.1.2--pyhdfd78af_0: 
-    sha256:29dffc4e1f8906d95b570228b860886fa5c132cc08fab6da0c80ecea27b0b9af
+  1.1.2--pyhdfd78af_1: 
+    sha256:57bd6a44be2d796a27b4dcddf5f7d177621dfbdcb384294038f8b5425b559a14
 tags:
   1.1.2--pyhdfd78af_0: 
     sha256:29dffc4e1f8906d95b570228b860886fa5c132cc08fab6da0c80ecea27b0b9af
+  1.1.2--pyhdfd78af_1: 
+    sha256:57bd6a44be2d796a27b4dcddf5f7d177621dfbdcb384294038f8b5425b559a14
 docker: quay.io/biocontainers/directclean
 aliases:
   breakinator: /usr/local/bin/breakinator

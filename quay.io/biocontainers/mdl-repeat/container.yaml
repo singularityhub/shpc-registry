@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/mdl-repeat
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mdl-repeat
 latest:
-  1.0.1--hab16a5f_0: 
-    sha256:f5749bd2e22d89f018681524bcb57f134ad0d5086130a79b73aeeba271b14359
+  1.0.1--hab16a5f_1: 
+    sha256:c34c58f5958aa63b9561fc38259c875ca02d617fab4119055235190fbf1f12a8
 tags:
   1.0.1--hab16a5f_0: 
     sha256:f5749bd2e22d89f018681524bcb57f134ad0d5086130a79b73aeeba271b14359
+  1.0.1--hab16a5f_1: 
+    sha256:c34c58f5958aa63b9561fc38259c875ca02d617fab4119055235190fbf1f12a8
 docker: quay.io/biocontainers/mdl-repeat
 aliases:
   mdl-repeat: /usr/local/bin/mdl-repeat

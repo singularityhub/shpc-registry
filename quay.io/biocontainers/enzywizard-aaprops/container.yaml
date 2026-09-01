@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/enzywizard-aaprops
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for enzywizard-aaprops
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:9f9893bff273bb31b7dccb548b5d47116ccf3633438fda5e5cddfdadcd747783
+  1.0.3--pyhdfd78af_0: 
+    sha256:3e19f05220477a1839270f755b906b43fc798e512ee4c562b87193c870065a44
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:9f9893bff273bb31b7dccb548b5d47116ccf3633438fda5e5cddfdadcd747783
+  1.0.3--pyhdfd78af_0: 
+    sha256:3e19f05220477a1839270f755b906b43fc798e512ee4c562b87193c870065a44
 docker: quay.io/biocontainers/enzywizard-aaprops
 aliases:
   enzywizard-aaprops: /usr/local/bin/enzywizard-aaprops

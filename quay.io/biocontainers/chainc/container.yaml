@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/chainc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chainc
 latest:
-  0.0.1--hab7d0fd_0: 
-    sha256:0ea5f06be1cf1fa24256c8b8b39cc2d7224a876e58268391e0901886f0e8c9c7
+  0.0.2--hab7d0fd_0: 
+    sha256:9a08a89ca07932088b00921f0211e7fe308e50b62ea392beff22f0eb5a184c2a
 tags:
   0.0.1--hab7d0fd_0: 
     sha256:0ea5f06be1cf1fa24256c8b8b39cc2d7224a876e58268391e0901886f0e8c9c7
+  0.0.2--hab7d0fd_0: 
+    sha256:9a08a89ca07932088b00921f0211e7fe308e50b62ea392beff22f0eb5a184c2a
 docker: quay.io/biocontainers/chainc
 aliases:
   chainc: /usr/local/bin/chainc

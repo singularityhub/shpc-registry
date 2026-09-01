@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   sirius-csifingerid
 latest:
-  5.8.6--h3bb291f_0: 
-    sha256:12bff6a9d20114e890d507eeb61471306b990937525a14d5c2d1459c25c49a88
+  6.5.4--h3bb291f_0: 
+    sha256:e590f516a7177b04815861a5140d67e0bcfc3afc734313f5ff071d5d84e05bba
 tags:
   4.9.8--hec16e2b_2: 
     sha256:745743cc397513f88f5bb20ac0b5e48f9955deedfc071ee3104145146eb141d3
@@ -18,6 +18,10 @@ tags:
     sha256:691dea651d1102809adb0806edd1dfcb2095b72289f5824cefaa7c081a3b6025
   5.8.6--h3bb291f_0: 
     sha256:12bff6a9d20114e890d507eeb61471306b990937525a14d5c2d1459c25c49a88
+  6.5.4--h3bb291f_0: 
+    sha256:e590f516a7177b04815861a5140d67e0bcfc3afc734313f5ff071d5d84e05bba
+  6.3.12--h3bb291f_0: 
+    sha256:2d40e3a41291a383f9ba0e6c5980104bad55500a936f2a6f233f634b1c04be2e
 docker: quay.io/biocontainers/sirius-csifingerid
 aliases:
   sirius: /usr/local/bin/sirius
