@@ -1,0 +1,22 @@
+docker: quay.io/pawsey/alphafold2
+url: https://singularity-hpc.readthedocs.io
+maintainer: '@sarahbeecroft'
+features:
+  gpu: true
+
+aliases:
+  python: /opt/miniforge3/bin/python
+  python3: /opt/miniforge3/bin/python3
+  run_alphafold.py: python /app/alphafold/run_alphafold.py
+  run_alphafold_test.py: python /app/alphafold/run_alphafold_test.py
+  run_msa.py: python /app/alphafold/run_msa.py
+  run_predict.py: python /app/alphafold/run_predict.py
+  
+description: AMD compatible version of Alphafold2, also compatible with nf-core ProteinFold pipeline
+
+latest:
+ v2.3.2_rocm6.2.4:
+    sha256:cf6a6a991337222086ebdde7a6c955db22e01f5c55fd941ad2f2c61c01d87e34
+tags:
+ v2.3.2_rocm6.2.4:
+    sha256:cf6a6a991337222086ebdde7a6c955db22e01f5c55fd941ad2f2c61c01d87e34

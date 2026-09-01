@@ -1,0 +1,16 @@
+docker: quay.io/pawsey/openfold3
+url: https://singularity-hpc.readthedocs.io
+description: AMD GPU compatible openfold3
+maintainer: '@sarahbeecroft'
+features:
+  gpu: true
+  
+latest:
+  v0.4.5_rocm7.2.3: 
+    sha256:075abc45a5c90e0e8c72efb5be0e542c05bfe8f1ba9b07c7fae98c3639dd1437
+tags:
+  v0.4.5_rocm7.2.3: 
+    sha256:075abc45a5c90e0e8c72efb5be0e542c05bfe8f1ba9b07c7fae98c3639dd1437
+
+aliases:
+  run_openfold: /opt/miniforge3/bin/run_openfold

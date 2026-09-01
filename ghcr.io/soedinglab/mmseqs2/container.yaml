@@ -1,0 +1,15 @@
+docker: ghcr.io/soedinglab/mmseqs2
+url: https://singularity-hpc.readthedocs.io
+description: AMD GPU compatible version of MMSeqs2
+maintainer: '@sarahbeecroft'
+
+latest:
+  master-rocm7:
+    sha256:aab221606ba060d0ff2777236b7d177c4567160e6e8152bd33fc83703e8a6861
+
+tags:
+  master-rocm7:
+    sha256:aab221606ba060d0ff2777236b7d177c4567160e6e8152bd33fc83703e8a6861
+
+aliases:
+  mmseqs: /opt/mmseqs/bin/mmseqs

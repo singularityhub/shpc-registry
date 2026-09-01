@@ -1,0 +1,16 @@
+docker: quay.io/pawsey/rfdiffusion
+url: https://singularity-hpc.readthedocs.io
+description: AMD GPU compatible version of RFDiffusion
+maintainer: '@sarahbeecroft'
+features:
+  gpu: true
+latest:
+  v1.1.0-rocm7.0.0_dgl2.4.0: 
+    sha256:9a18f1597bb41cfe9379b44fb8e794da99be134f8010fac5f04c3efe752517de
+tags:
+  v1.1.0-rocm7.0.0_dgl2.4.0:
+    sha256:9a18f1597bb41cfe9379b44fb8e794da99be134f8010fac5f04c3efe752517de
+aliases:
+  - name: run_inference.py
+    command: /opt/venv/bin/run_inference.py
+    args: inference.schedule_directory_path=./schedules
