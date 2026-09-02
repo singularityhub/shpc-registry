@@ -18,8 +18,14 @@ tags:
     sha256:2b88e5bfab2cc2fe42adfc01869aded666b6dcc3128cd8df2fd1e26d76d24e82
   1.18.0--r43ha9d7317_0: 
     sha256:71c77d71a5cdd43a5eb5e0e973be212ce19b8c0d8c58753e937c0c1e35f2579d
-  1.22.0--r44h3df3fcb_0: 
-    sha256:9233d28d0cb11e001dc6a7b95c0bc4988536beb164a61c2f98bd74fc862c9d52
+  1.22.0--r44h3df3fcb_0: "crane digest quay.io/biocontainers/bioconductor-structstrings:1.22.0--r44h3df3fcb_0:
+    unsupported status code 502; body: <html>\n  <head>\n    <title>Quay Loading</title>\n\
+    \    <style type=\"text/css\">\n      .information {\n         padding: 30px;\n\
+    \         text-align: center;\n      }\n\n      .information h3 {\n         margin-bottom:
+    20px;\n      }\n    </style>\n  </head>\n  <body>\n    <div class=\"information\"\
+    >\n      <h3>Quay is currently loading</h3>\n      <h4>\n        <p>Please wait
+    and refresh the page shortly to try again.</p>\n      </h4>\n    </div>\n  </body>\n\
+    </html>\n"
   1.26.0--r45h01b2380_0: 
     sha256:c9a0b5038e15fb57f75d4d37552e90b49005ff2ee1483233adca3206867e2ebb
 docker: quay.io/biocontainers/bioconductor-structstrings

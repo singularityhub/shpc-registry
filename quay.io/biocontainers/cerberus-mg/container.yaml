@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cerberus-mg
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cerberus-mg
 latest:
-  0.1.1--pyhdfd78af_0: 
-    sha256:5f534aecf709cde926c81650d3f534568724a020b48a6d10ea9abd9f3ce44bb6
+  0.2.1--pyhdfd78af_0: 
+    sha256:18f7535ea0df72526313a7e4ccb177cf2b7807f5b6ac7e5a4068aac5f19cf404
 tags:
   0.1.1--pyhdfd78af_0: 
     sha256:5f534aecf709cde926c81650d3f534568724a020b48a6d10ea9abd9f3ce44bb6
+  0.2.1--pyhdfd78af_0: 
+    sha256:18f7535ea0df72526313a7e4ccb177cf2b7807f5b6ac7e5a4068aac5f19cf404
 docker: quay.io/biocontainers/cerberus-mg
 aliases:
   addr2line: /usr/local/bin/addr2line

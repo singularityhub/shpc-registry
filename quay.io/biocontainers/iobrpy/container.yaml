@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/iobrpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for iobrpy
 latest:
-  0.2.0--py312hc5e4ab4_0: 
-    sha256:7ed1e1a5c41a71b3df01788c70c8b478c3bded6d32adec2645da17db6202007e
+  0.2.1--py311h362c646_0: 
+    sha256:5a2d2e4e2a047f654779c14bd34b4026d8036e2bd34cb0e0dc46f24902e74ed4
 tags:
   0.1.3--pyhdfd78af_0: 
     sha256:526af4ad985e54d535e01644a4cadc0735c4ab3338d4b40936f389a38f0cd55d
@@ -17,6 +17,8 @@ tags:
     sha256:e1763f5688db4129237090226e48a65fac7b8efd074f9a2f4fad485e35eb4dfc
   0.2.0--py312hc5e4ab4_0: 
     sha256:7ed1e1a5c41a71b3df01788c70c8b478c3bded6d32adec2645da17db6202007e
+  0.2.1--py311h362c646_0: 
+    sha256:5a2d2e4e2a047f654779c14bd34b4026d8036e2bd34cb0e0dc46f24902e74ed4
 docker: quay.io/biocontainers/iobrpy
 aliases:
   STAR-avx: /usr/local/bin/STAR-avx

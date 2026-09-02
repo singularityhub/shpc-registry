@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/plotnado
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for plotnado
 latest:
-  0.3.1--pyhdfd78af_0: 
-    sha256:0162264adf0ac4a5c1d65e1a34dbef28b0ff9f8d818f040ee11d864d71696d44
+  0.3.2--pyhdfd78af_0: 
+    sha256:7f0c211bfd8ebad637c5113bb8c616b409eae0ab7c018c2c33d184173f780f40
 tags:
   0.3.1--pyhdfd78af_0: 
     sha256:0162264adf0ac4a5c1d65e1a34dbef28b0ff9f8d818f040ee11d864d71696d44
+  0.3.2--pyhdfd78af_0: 
+    sha256:7f0c211bfd8ebad637c5113bb8c616b409eae0ab7c018c2c33d184173f780f40
 docker: quay.io/biocontainers/plotnado
 aliases:
   boostchr.pl: /usr/local/bin/boostchr.pl
