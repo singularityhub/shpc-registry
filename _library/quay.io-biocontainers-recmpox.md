@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recmpox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recmpox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recmpox/container.yaml"
-updated_at: "2026-09-01 07:59:00.943736"
+updated_at: "2026-09-02 07:24:11.406363"
 latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recmpox"
 aliases:

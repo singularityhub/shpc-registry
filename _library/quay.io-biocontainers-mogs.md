@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mogs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mogs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mogs/container.yaml"
-updated_at: "2026-09-01 07:48:57.303074"
+updated_at: "2026-09-02 07:15:22.011170"
 latest: "0.2.0--h2211461_0"
 container_url: "https://biocontainers.pro/tools/mogs"
 aliases:

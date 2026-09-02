@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-macsquantifyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macsquantifyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macsquantifyr/container.yaml"
-updated_at: "2026-09-01 08:11:57.088089"
+updated_at: "2026-09-02 07:35:35.735732"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macsquantifyr"
 aliases:

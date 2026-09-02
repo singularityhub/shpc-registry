@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recon/container.yaml"
-updated_at: "2026-09-01 08:05:08.529557"
+updated_at: "2026-09-02 07:29:38.081807"
 latest: "1.10--hab16a5f_1"
 container_url: "https://biocontainers.pro/tools/recon"
 aliases:

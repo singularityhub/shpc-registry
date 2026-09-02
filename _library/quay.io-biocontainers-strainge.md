@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainge/container.yaml"
-updated_at: "2026-09-01 08:05:48.846796"
+updated_at: "2026-09-02 07:30:14.021805"
 latest: "1.3.9--py310hd22044e_1"
 container_url: "https://biocontainers.pro/tools/strainge"
 aliases:

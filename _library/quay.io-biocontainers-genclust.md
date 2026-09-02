@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genclust/container.yaml"
-updated_at: "2026-09-01 07:43:38.915743"
+updated_at: "2026-09-02 07:10:46.886301"
 latest: "1.0--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/genclust"
 aliases:

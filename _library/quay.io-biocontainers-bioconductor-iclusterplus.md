@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iclusterplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iclusterplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iclusterplus/container.yaml"
-updated_at: "2026-09-01 07:47:52.500540"
+updated_at: "2026-09-02 07:14:25.848293"
 latest: "1.38.0--r43h9913872_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-iclusterplus"
 

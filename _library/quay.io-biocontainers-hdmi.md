@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hdmi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hdmi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hdmi/container.yaml"
-updated_at: "2026-09-01 07:58:27.173676"
+updated_at: "2026-09-02 07:23:41.531224"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hdmi"
 aliases:

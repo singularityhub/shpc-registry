@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kraut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kraut/container.yaml"
-updated_at: "2026-09-01 07:47:05.057402"
+updated_at: "2026-09-02 07:13:44.313075"
 latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kraut"
 aliases:

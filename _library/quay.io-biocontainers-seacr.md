@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seacr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seacr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seacr/container.yaml"
-updated_at: "2026-09-01 07:58:46.907768"
+updated_at: "2026-09-02 07:23:59.167579"
 latest: "1.3--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/seacr"
 aliases:

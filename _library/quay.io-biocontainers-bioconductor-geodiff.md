@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geodiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geodiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geodiff/container.yaml"
-updated_at: "2026-09-01 08:06:58.192388"
+updated_at: "2026-09-02 07:31:16.221684"
 latest: "1.16.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geodiff"
 aliases:

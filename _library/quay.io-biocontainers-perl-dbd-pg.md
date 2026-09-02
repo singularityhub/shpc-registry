@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-dbd-pg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbd-pg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbd-pg/container.yaml"
-updated_at: "2026-09-01 07:31:22.946457"
+updated_at: "2026-09-02 07:00:05.021976"
 latest: "3.20.2--pl5321h677eaf1_0"
 container_url: "https://biocontainers.pro/tools/perl-dbd-pg"
 aliases:

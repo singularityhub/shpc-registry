@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pathofetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathofetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pathofetch/container.yaml"
-updated_at: "2026-09-01 07:59:21.153328"
+updated_at: "2026-09-02 07:24:29.294598"
 latest: "0.1.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/pathofetch"
 aliases:

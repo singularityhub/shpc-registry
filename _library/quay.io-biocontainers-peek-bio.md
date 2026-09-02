@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peek-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peek-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peek-bio/container.yaml"
-updated_at: "2026-09-01 08:00:47.664908"
+updated_at: "2026-09-02 07:25:45.657673"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peek-bio"
 aliases:

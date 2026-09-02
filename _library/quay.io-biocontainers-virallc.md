@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/virallc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virallc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virallc/container.yaml"
-updated_at: "2026-09-01 07:27:41.745443"
+updated_at: "2026-09-02 06:56:52.055749"
 latest: "1.1.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/virallc"
 aliases:

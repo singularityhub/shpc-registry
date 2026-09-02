@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mpranalyze"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpranalyze/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpranalyze/container.yaml"
-updated_at: "2026-09-01 08:09:33.692965"
+updated_at: "2026-09-02 07:33:31.313710"
 latest: "1.28.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpranalyze"
 aliases:

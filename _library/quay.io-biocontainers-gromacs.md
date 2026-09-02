@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gromacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gromacs/container.yaml"
-updated_at: "2026-09-01 07:30:30.556431"
+updated_at: "2026-09-02 06:59:19.730820"
 latest: "2022"
 container_url: "https://biocontainers.pro/tools/gromacs"
 aliases:

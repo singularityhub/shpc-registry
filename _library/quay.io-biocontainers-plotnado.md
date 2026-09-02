@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/plotnado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotnado/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plotnado/container.yaml"
-updated_at: "2026-09-01 07:54:27.403215"
-latest: "0.3.1--pyhdfd78af_0"
+updated_at: "2026-09-02 07:20:09.787110"
+latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plotnado"
 aliases:
  - "boostchr.pl"
@@ -45,8 +45,9 @@ aliases:
  - "dask-ssh"
 versions:
  - "0.3.1--pyhdfd78af_0"
+ - "0.3.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for plotnado"
-config: {"url": "https://biocontainers.pro/tools/plotnado", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plotnado", "latest": {"0.3.1--pyhdfd78af_0": "sha256:0162264adf0ac4a5c1d65e1a34dbef28b0ff9f8d818f040ee11d864d71696d44"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:0162264adf0ac4a5c1d65e1a34dbef28b0ff9f8d818f040ee11d864d71696d44"}, "docker": "quay.io/biocontainers/plotnado", "aliases": {"boostchr.pl": "/usr/local/bin/boostchr.pl", "column_remover.pl.bak": "/usr/local/bin/column_remover.pl.bak", "create_randompairs.pl": "/usr/local/bin/create_randompairs.pl", "duplicate_header_remover.pl.bak": "/usr/local/bin/duplicate_header_remover.pl.bak", "fragment_4dnpairs.pl.bak": "/usr/local/bin/fragment_4dnpairs.pl.bak", "juicer_shortform2pairs.pl.bak": "/usr/local/bin/juicer_shortform2pairs.pl.bak", "merged_nodup2pairs.pl.bak": "/usr/local/bin/merged_nodup2pairs.pl.bak", "old_merged_nodup2pairs.pl.bak": "/usr/local/bin/old_merged_nodup2pairs.pl.bak", "plotnado": "/usr/local/bin/plotnado", "pyranger": "/usr/local/bin/pyranger", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger", "process_merged_nodup.sh": "/usr/local/bin/process_merged_nodup.sh", "process_old_merged_nodup.sh": "/usr/local/bin/process_old_merged_nodup.sh", "streamer_1d": "/usr/local/bin/streamer_1d", "get_gprof": "/usr/local/bin/get_gprof", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "dask": "/usr/local/bin/dask", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "typer": "/usr/local/bin/typer", "h2benchmark": "/usr/local/bin/h2benchmark", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh"}}
+config: {"url": "https://biocontainers.pro/tools/plotnado", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for plotnado", "latest": {"0.3.2--pyhdfd78af_0": "sha256:7f0c211bfd8ebad637c5113bb8c616b409eae0ab7c018c2c33d184173f780f40"}, "tags": {"0.3.1--pyhdfd78af_0": "sha256:0162264adf0ac4a5c1d65e1a34dbef28b0ff9f8d818f040ee11d864d71696d44", "0.3.2--pyhdfd78af_0": "sha256:7f0c211bfd8ebad637c5113bb8c616b409eae0ab7c018c2c33d184173f780f40"}, "docker": "quay.io/biocontainers/plotnado", "aliases": {"boostchr.pl": "/usr/local/bin/boostchr.pl", "column_remover.pl.bak": "/usr/local/bin/column_remover.pl.bak", "create_randompairs.pl": "/usr/local/bin/create_randompairs.pl", "duplicate_header_remover.pl.bak": "/usr/local/bin/duplicate_header_remover.pl.bak", "fragment_4dnpairs.pl.bak": "/usr/local/bin/fragment_4dnpairs.pl.bak", "juicer_shortform2pairs.pl.bak": "/usr/local/bin/juicer_shortform2pairs.pl.bak", "merged_nodup2pairs.pl.bak": "/usr/local/bin/merged_nodup2pairs.pl.bak", "old_merged_nodup2pairs.pl.bak": "/usr/local/bin/old_merged_nodup2pairs.pl.bak", "plotnado": "/usr/local/bin/plotnado", "pyranger": "/usr/local/bin/pyranger", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger", "process_merged_nodup.sh": "/usr/local/bin/process_merged_nodup.sh", "process_old_merged_nodup.sh": "/usr/local/bin/process_old_merged_nodup.sh", "streamer_1d": "/usr/local/bin/streamer_1d", "get_gprof": "/usr/local/bin/get_gprof", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "dask": "/usr/local/bin/dask", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "typer": "/usr/local/bin/typer", "h2benchmark": "/usr/local/bin/h2benchmark", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plotnado.
@@ -61,7 +62,7 @@ $ shpc install quay.io/biocontainers/plotnado
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/plotnado:0.3.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/plotnado:0.3.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +74,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/plotnado/0.3.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/plotnado/0.3.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/plotnado/0.3.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/plotnado/0.3.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

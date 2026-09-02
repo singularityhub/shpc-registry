@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/variant_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variant_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/variant_tools/container.yaml"
-updated_at: "2026-09-01 07:49:12.974965"
+updated_at: "2026-09-02 07:15:35.819025"
 latest: "3.1.3--py38h542afe0_4"
 container_url: "https://biocontainers.pro/tools/variant_tools"
 aliases:

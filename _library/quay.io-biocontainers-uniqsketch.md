@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uniqsketch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uniqsketch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uniqsketch/container.yaml"
-updated_at: "2026-09-01 07:43:30.077310"
+updated_at: "2026-09-02 07:10:39.235907"
 latest: "1.5.0--hf426362_0"
 container_url: "https://biocontainers.pro/tools/uniqsketch"
 aliases:
