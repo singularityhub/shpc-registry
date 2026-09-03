@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomextract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomextract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomextract/container.yaml"
-updated_at: "2026-09-02 07:20:46.670688"
+updated_at: "2026-09-03 07:01:36.437957"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genomextract"
 aliases:

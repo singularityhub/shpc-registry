@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hash-merge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hash-merge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hash-merge/container.yaml"
-updated_at: "2026-09-02 07:23:00.213097"
+updated_at: "2026-09-03 07:26:14.356262"
 latest: "0.302--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-hash-merge"
 aliases:

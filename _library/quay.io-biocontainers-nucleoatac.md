@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nucleoatac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nucleoatac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nucleoatac/container.yaml"
-updated_at: "2026-09-02 07:07:13.857413"
-latest: "0.3.4--py27h984c793_7"
+updated_at: "2026-09-03 07:11:36.313098"
+latest: "1.0.0--py310h3479294_0"
 container_url: "https://biocontainers.pro/tools/nucleoatac"
 aliases:
  - "nucleoatac"
@@ -22,8 +22,9 @@ aliases:
  - "htsfile"
 versions:
  - "0.3.4--py27h984c793_7"
+ - "1.0.0--py310h3479294_0"
 description: "shpc-registry automated BioContainers addition for nucleoatac"
-config: {"url": "https://biocontainers.pro/tools/nucleoatac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nucleoatac", "latest": {"0.3.4--py27h984c793_7": "sha256:02bc6d9266381a783f6c63ee3051d98da3f4ecd84cb25708196c84754a63f899"}, "tags": {"0.3.4--py27h984c793_7": "sha256:02bc6d9266381a783f6c63ee3051d98da3f4ecd84cb25708196c84754a63f899"}, "docker": "quay.io/biocontainers/nucleoatac", "aliases": {"nucleoatac": "/usr/local/bin/nucleoatac", "pyatac": "/usr/local/bin/pyatac", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "htsfile": "/usr/local/bin/htsfile"}}
+config: {"url": "https://biocontainers.pro/tools/nucleoatac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nucleoatac", "latest": {"1.0.0--py310h3479294_0": "sha256:adc1d4aec74c414691416630adea7c3dfd808b7a653a1c1416cf5547212bf833"}, "tags": {"0.3.4--py27h984c793_7": "sha256:02bc6d9266381a783f6c63ee3051d98da3f4ecd84cb25708196c84754a63f899", "1.0.0--py310h3479294_0": "sha256:adc1d4aec74c414691416630adea7c3dfd808b7a653a1c1416cf5547212bf833"}, "docker": "quay.io/biocontainers/nucleoatac", "aliases": {"nucleoatac": "/usr/local/bin/nucleoatac", "pyatac": "/usr/local/bin/pyatac", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "htsfile": "/usr/local/bin/htsfile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nucleoatac.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/nucleoatac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nucleoatac:0.3.4--py27h984c793_7
+$ shpc install quay.io/biocontainers/nucleoatac:1.0.0--py310h3479294_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nucleoatac/0.3.4--py27h984c793_7
-$ module help quay.io/biocontainers/nucleoatac/0.3.4--py27h984c793_7
+$ module load quay.io/biocontainers/nucleoatac/1.0.0--py310h3479294_0
+$ module help quay.io/biocontainers/nucleoatac/1.0.0--py310h3479294_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

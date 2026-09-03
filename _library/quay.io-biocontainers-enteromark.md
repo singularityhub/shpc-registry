@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enteromark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enteromark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enteromark/container.yaml"
-updated_at: "2026-09-02 06:56:15.788715"
+updated_at: "2026-09-03 07:32:34.997869"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enteromark"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/esme_pio_psmpi_4_3_2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/esme_pio_psmpi_4_3_2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/esme_pio_psmpi_4_3_2/container.yaml"
-updated_at: "2026-09-02 06:59:20.951980"
-latest: "2.6.6--hb2a3317_0"
+updated_at: "2026-09-03 07:14:42.611939"
+latest: "2.6.6--hf46d8af_1"
 container_url: "https://biocontainers.pro/tools/esme_pio_psmpi_4_3_2"
 aliases:
  - "cxi_atomic_bw"
@@ -56,8 +56,9 @@ aliases:
  - "h5pfc"
 versions:
  - "2.6.6--hb2a3317_0"
+ - "2.6.6--hf46d8af_1"
 description: "singularity registry hpc automated addition for esme_pio_psmpi_4_3_2"
-config: {"url": "https://biocontainers.pro/tools/esme_pio_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_pio_psmpi_4_3_2", "latest": {"2.6.6--hb2a3317_0": "sha256:27cd4c1dc31465f475f723b08bcb8a0201d5742b166e928dabb87c286bbb8179"}, "tags": {"2.6.6--hb2a3317_0": "sha256:27cd4c1dc31465f475f723b08bcb8a0201d5742b166e928dabb87c286bbb8179"}, "docker": "quay.io/biocontainers/esme_pio_psmpi_4_3_2", "aliases": {"cxi_atomic_bw": "/usr/local/bin/cxi_atomic_bw", "cxi_atomic_lat": "/usr/local/bin/cxi_atomic_lat", "cxi_device_list": "/usr/local/bin/cxi_device_list", "cxi_dump_csrs": "/usr/local/bin/cxi_dump_csrs", "cxi_gpu_loopback_bw": "/usr/local/bin/cxi_gpu_loopback_bw", "cxi_heatsink_check": "/usr/local/bin/cxi_heatsink_check", "cxi_read_bw": "/usr/local/bin/cxi_read_bw", "cxi_read_lat": "/usr/local/bin/cxi_read_lat", "cxi_rh": "/usr/local/bin/cxi_rh", "cxi_send_bw": "/usr/local/bin/cxi_send_bw", "cxi_send_lat": "/usr/local/bin/cxi_send_lat", "cxi_service": "/usr/local/bin/cxi_service", "cxi_stat": "/usr/local/bin/cxi_stat", "cxi_udp_gen": "/usr/local/bin/cxi_udp_gen", "cxi_write_bw": "/usr/local/bin/cxi_write_bw", "cxi_write_lat": "/usr/local/bin/cxi_write_lat", "fi_mon_sampler": "/usr/local/bin/fi_mon_sampler", "mount.fuse3": "/usr/local/bin/mount.fuse3", "pcc": "/usr/local/bin/pcc", "test_map_csr": "/usr/local/bin/test_map_csr", "test_write_csr": "/usr/local/bin/test_write_csr", "fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "prte": "/usr/local/bin/prte", "prte_info": "/usr/local/bin/prte_info", "prted": "/usr/local/bin/prted", "prterun": "/usr/local/bin/prterun", "pterm": "/usr/local/bin/pterm", "prun": "/usr/local/bin/prun", "nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "chacl": "/usr/local/bin/chacl", "getfacl": "/usr/local/bin/getfacl", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc"}}
+config: {"url": "https://biocontainers.pro/tools/esme_pio_psmpi_4_3_2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for esme_pio_psmpi_4_3_2", "latest": {"2.6.6--hf46d8af_1": "sha256:de5ba07b6a26df3ef1038986388d5672c4f1112ec73aadd8e07b5669d9269ac6"}, "tags": {"2.6.6--hb2a3317_0": "sha256:27cd4c1dc31465f475f723b08bcb8a0201d5742b166e928dabb87c286bbb8179", "2.6.6--hf46d8af_1": "sha256:de5ba07b6a26df3ef1038986388d5672c4f1112ec73aadd8e07b5669d9269ac6"}, "docker": "quay.io/biocontainers/esme_pio_psmpi_4_3_2", "aliases": {"cxi_atomic_bw": "/usr/local/bin/cxi_atomic_bw", "cxi_atomic_lat": "/usr/local/bin/cxi_atomic_lat", "cxi_device_list": "/usr/local/bin/cxi_device_list", "cxi_dump_csrs": "/usr/local/bin/cxi_dump_csrs", "cxi_gpu_loopback_bw": "/usr/local/bin/cxi_gpu_loopback_bw", "cxi_heatsink_check": "/usr/local/bin/cxi_heatsink_check", "cxi_read_bw": "/usr/local/bin/cxi_read_bw", "cxi_read_lat": "/usr/local/bin/cxi_read_lat", "cxi_rh": "/usr/local/bin/cxi_rh", "cxi_send_bw": "/usr/local/bin/cxi_send_bw", "cxi_send_lat": "/usr/local/bin/cxi_send_lat", "cxi_service": "/usr/local/bin/cxi_service", "cxi_stat": "/usr/local/bin/cxi_stat", "cxi_udp_gen": "/usr/local/bin/cxi_udp_gen", "cxi_write_bw": "/usr/local/bin/cxi_write_bw", "cxi_write_lat": "/usr/local/bin/cxi_write_lat", "fi_mon_sampler": "/usr/local/bin/fi_mon_sampler", "mount.fuse3": "/usr/local/bin/mount.fuse3", "pcc": "/usr/local/bin/pcc", "test_map_csr": "/usr/local/bin/test_map_csr", "test_write_csr": "/usr/local/bin/test_write_csr", "fi_info": "/usr/local/bin/fi_info", "fi_pingpong": "/usr/local/bin/fi_pingpong", "fi_strerror": "/usr/local/bin/fi_strerror", "prte": "/usr/local/bin/prte", "prte_info": "/usr/local/bin/prte_info", "prted": "/usr/local/bin/prted", "prterun": "/usr/local/bin/prterun", "pterm": "/usr/local/bin/pterm", "prun": "/usr/local/bin/prun", "nc4print": "/usr/local/bin/nc4print", "ocprint": "/usr/local/bin/ocprint", "chacl": "/usr/local/bin/chacl", "getfacl": "/usr/local/bin/getfacl", "setfacl": "/usr/local/bin/setfacl", "cdfdiff": "/usr/local/bin/cdfdiff", "ncmpidiff": "/usr/local/bin/ncmpidiff", "ncmpidump": "/usr/local/bin/ncmpidump", "ncmpigen": "/usr/local/bin/ncmpigen", "ncoffsets": "/usr/local/bin/ncoffsets", "ncvalidator": "/usr/local/bin/ncvalidator", "pnetcdf-config": "/usr/local/bin/pnetcdf-config", "pnetcdf_version": "/usr/local/bin/pnetcdf_version", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/esme_pio_psmpi_4_3_2.
@@ -72,7 +73,7 @@ $ shpc install quay.io/biocontainers/esme_pio_psmpi_4_3_2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/esme_pio_psmpi_4_3_2:2.6.6--hb2a3317_0
+$ shpc install quay.io/biocontainers/esme_pio_psmpi_4_3_2:2.6.6--hf46d8af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -84,8 +85,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/esme_pio_psmpi_4_3_2/2.6.6--hb2a3317_0
-$ module help quay.io/biocontainers/esme_pio_psmpi_4_3_2/2.6.6--hb2a3317_0
+$ module load quay.io/biocontainers/esme_pio_psmpi_4_3_2/2.6.6--hf46d8af_1
+$ module help quay.io/biocontainers/esme_pio_psmpi_4_3_2/2.6.6--hf46d8af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

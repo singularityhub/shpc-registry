@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nfixplanet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nfixplanet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nfixplanet/container.yaml"
-updated_at: "2026-09-02 07:27:47.374831"
+updated_at: "2026-09-03 07:19:00.068147"
 latest: "0.1.11--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nfixplanet"
 aliases:

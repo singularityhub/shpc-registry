@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vbz-h5py-plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vbz-h5py-plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vbz-h5py-plugin/container.yaml"
-updated_at: "2026-09-02 07:04:50.415540"
+updated_at: "2026-09-03 07:18:23.702487"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vbz-h5py-plugin"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-rna-barriers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-rna-barriers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-rna-barriers/container.yaml"
-updated_at: "2026-09-02 07:09:46.589996"
+updated_at: "2026-09-03 07:19:55.290739"
 latest: "0.03--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-rna-barriers"
 aliases:
