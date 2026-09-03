@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   esme_pio_psmpi_4_3_2
 latest:
-  2.6.6--hb2a3317_0: 
-    sha256:27cd4c1dc31465f475f723b08bcb8a0201d5742b166e928dabb87c286bbb8179
+  2.6.6--hf46d8af_1: 
+    sha256:de5ba07b6a26df3ef1038986388d5672c4f1112ec73aadd8e07b5669d9269ac6
 tags:
   2.6.6--hb2a3317_0: 
     sha256:27cd4c1dc31465f475f723b08bcb8a0201d5742b166e928dabb87c286bbb8179
+  2.6.6--hf46d8af_1: 
+    sha256:de5ba07b6a26df3ef1038986388d5672c4f1112ec73aadd8e07b5669d9269ac6
 docker: quay.io/biocontainers/esme_pio_psmpi_4_3_2
 aliases:
   cxi_atomic_bw: /usr/local/bin/cxi_atomic_bw

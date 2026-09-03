@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ferro-hgvs
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ferro-hgvs
 latest:
-  0.11.0--h1f77f1e_0: 
-    sha256:42be05fdd47a5975547d1e01f5273310f01c5288e4fc65e0c4e98fbb6db7cb19
+  1.0.0--h1f77f1e_0: 
+    sha256:2db634de0cc907d60cc42c965dab8f4a8ce3c118100f89984b3e4000535c86ae
 tags:
   0.1.0--h521612f_0: 
     sha256:1d94d0a5714b06d99a43240166b13a3cdea6b70322492125f7c411be5959b76d
@@ -27,6 +27,16 @@ tags:
     sha256:f066d08d5a448031e965f6892ac92a8e51cf4228019a829f66b13cebacec184f
   0.7.1--h1f77f1e_0: 
     sha256:b6a73ffdf39c4c9146cc77ee18107031d3de2b54fe73d9a3c8850f435a2fe5fe
+  1.0.0--h1f77f1e_0: 
+    sha256:2db634de0cc907d60cc42c965dab8f4a8ce3c118100f89984b3e4000535c86ae
+  0.17.2--h1f77f1e_0: 
+    sha256:587dc61cef902ea2c3d795265d10636b4145ccfe1b4b8c3b6e1da578511cf809
+  0.15.0--h1f77f1e_0: 
+    sha256:85e6845322a2b8bd378a3421c82872e36ca3038458a2ddd1ebcad3745c487147
+  0.13.1--h1f77f1e_0: 
+    sha256:ff63108e93e85f21148de8df66186473329c61702fd7fc99dedaa8536ff4efe3
+  0.12.0--h1f77f1e_0: 
+    sha256:78b67db25e32ead766f47ed2cf0998598da646ea125c1014477daa1e9a333f45
 docker: quay.io/biocontainers/ferro-hgvs
 aliases:
   ferro: /usr/local/bin/ferro

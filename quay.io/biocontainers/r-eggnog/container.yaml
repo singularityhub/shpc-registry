@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-eggnog
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for r-eggnog
 latest:
-  0.3.1--r44hdfd78af_0: 
-    sha256:bf54241d005cb573e9d84683e2ec6be9fe43dcd995feacc96012b7d3fc31e4a9
+  0.3.2--r45hdfd78af_0: 
+    sha256:926d1c1b35ab95a191ff7b871486b7377fa8f14e1f0a3af5e879a667956a7c7f
 tags:
   0.2.2--r43hdfd78af_0: 
     sha256:51c618c6bf64ca49c9d77a96fcf52cf40dd772e91f67c2d5b8dbe20587c27633
@@ -13,6 +13,8 @@ tags:
     sha256:7066ae29a15568060d2333f94cbe76f1a8d9988a135fe16282e473b51c4fd375
   0.3.1--r44hdfd78af_0: 
     sha256:bf54241d005cb573e9d84683e2ec6be9fe43dcd995feacc96012b7d3fc31e4a9
+  0.3.2--r45hdfd78af_0: 
+    sha256:926d1c1b35ab95a191ff7b871486b7377fa8f14e1f0a3af5e879a667956a7c7f
 docker: quay.io/biocontainers/r-eggnog
 aliases:
   hb-info: /usr/local/bin/hb-info
