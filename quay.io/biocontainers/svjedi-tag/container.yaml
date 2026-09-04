@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/svjedi-tag
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for svjedi-tag
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:e173a3d641d3715bd2b4125ccdaf383edf577330e4100533e9322bb79f55a84e
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:e173a3d641d3715bd2b4125ccdaf383edf577330e4100533e9322bb79f55a84e
+docker: quay.io/biocontainers/svjedi-tag
+aliases:
+  LR_STATS: /usr/local/bin/LR_STATS
+  svjedi-tag: /usr/local/bin/svjedi-tag
+  svjedi-tag_likelihood-calibration: 
+    /usr/local/bin/svjedi-tag_likelihood-calibration
+  vg: /usr/local/bin/vg
+  fc-genconf: /usr/local/bin/fc-genconf
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
