@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gassst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gassst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gassst/container.yaml"
-updated_at: "2026-09-03 07:35:13.588712"
+updated_at: "2026-09-04 08:04:58.012287"
 latest: "1.28--h503566f_3"
 container_url: "https://biocontainers.pro/tools/gassst"
 aliases:

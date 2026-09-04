@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/assaycode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/assaycode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/assaycode/container.yaml"
-updated_at: "2026-09-03 07:15:38.709407"
+updated_at: "2026-09-04 07:32:20.551663"
 latest: "0.2.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/assaycode"
 aliases:

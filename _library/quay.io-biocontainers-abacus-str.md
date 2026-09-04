@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/abacus-str"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abacus-str/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abacus-str/container.yaml"
-updated_at: "2026-09-03 07:27:14.796692"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2026-09-04 07:52:16.812213"
+latest: "2.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/abacus-str"
 aliases:
  - "abacus"
@@ -31,8 +31,9 @@ aliases:
  - "hb-info"
 versions:
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for abacus-str"
-config: {"url": "https://biocontainers.pro/tools/abacus-str", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for abacus-str", "latest": {"2.0.0--pyhdfd78af_0": "sha256:4e332dd4f279eda3c8b54c76705e5c242ed83e2ff3c076262faf402b4302d373"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:4e332dd4f279eda3c8b54c76705e5c242ed83e2ff3c076262faf402b4302d373"}, "docker": "quay.io/biocontainers/abacus-str", "aliases": {"abacus": "/usr/local/bin/abacus", "fc-genconf": "/usr/local/bin/fc-genconf", "typer": "/usr/local/bin/typer", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "pandoc-lua": "/usr/local/bin/pandoc-lua", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "pandoc-server": "/usr/local/bin/pandoc-server", "faidx": "/usr/local/bin/faidx", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pygmentize": "/usr/local/bin/pygmentize", "pandoc": "/usr/local/bin/pandoc", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info"}}
+config: {"url": "https://biocontainers.pro/tools/abacus-str", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for abacus-str", "latest": {"2.0.0--pyhdfd78af_1": "sha256:27292e9932709fdca66d97efaea0e02fc83853dca0100c18c0f78fe6de8dce03"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:4e332dd4f279eda3c8b54c76705e5c242ed83e2ff3c076262faf402b4302d373", "2.0.0--pyhdfd78af_1": "sha256:27292e9932709fdca66d97efaea0e02fc83853dca0100c18c0f78fe6de8dce03"}, "docker": "quay.io/biocontainers/abacus-str", "aliases": {"abacus": "/usr/local/bin/abacus", "fc-genconf": "/usr/local/bin/fc-genconf", "typer": "/usr/local/bin/typer", "hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "pandoc-lua": "/usr/local/bin/pandoc-lua", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "pandoc-server": "/usr/local/bin/pandoc-server", "faidx": "/usr/local/bin/faidx", "markdown-it": "/usr/local/bin/markdown-it", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "pygmentize": "/usr/local/bin/pygmentize", "pandoc": "/usr/local/bin/pandoc", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abacus-str.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/abacus-str
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/abacus-str:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/abacus-str:2.0.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/abacus-str/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/abacus-str/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/abacus-str/2.0.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/abacus-str/2.0.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anopheles.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anopheles.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anopheles.db0/container.yaml"
-updated_at: "2026-09-03 07:28:52.058727"
+updated_at: "2026-09-04 07:54:56.964255"
 latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anopheles.db0"
 aliases:

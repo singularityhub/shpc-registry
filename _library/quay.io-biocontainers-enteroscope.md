@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enteroscope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enteroscope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enteroscope/container.yaml"
-updated_at: "2026-09-03 07:25:31.424216"
+updated_at: "2026-09-04 07:49:22.562180"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enteroscope"
 aliases:

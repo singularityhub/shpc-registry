@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sparsearray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sparsearray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sparsearray/container.yaml"
-updated_at: "2026-09-03 07:03:02.889565"
+updated_at: "2026-09-04 07:10:32.714728"
 latest: "1.10.8--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sparsearray"
 aliases:

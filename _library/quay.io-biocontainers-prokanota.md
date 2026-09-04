@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prokanota"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prokanota/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prokanota/container.yaml"
-updated_at: "2026-09-03 07:15:02.835197"
+updated_at: "2026-09-04 07:31:19.645694"
 latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prokanota"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymochi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymochi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymochi/container.yaml"
-updated_at: "2026-09-03 07:14:27.726559"
+updated_at: "2026-09-04 07:30:18.954173"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pymochi"
 aliases:

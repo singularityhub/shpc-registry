@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tidyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tidyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tidyr/container.yaml"
-updated_at: "2026-09-03 07:29:50.743342"
+updated_at: "2026-09-04 07:56:32.076613"
 latest: "1.0.2"
 container_url: "https://biocontainers.pro/tools/r-tidyr"
 aliases:

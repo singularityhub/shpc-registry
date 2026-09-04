@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bipode-httr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bipode-httr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bipode-httr/container.yaml"
-updated_at: "2026-09-03 06:59:18.498418"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-09-04 07:04:16.955789"
+latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bipode-httr"
 aliases:
  - "bipode-httr"
@@ -39,8 +39,9 @@ aliases:
  - "hwloc-diff"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bipode-httr"
-config: {"url": "https://biocontainers.pro/tools/bipode-httr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bipode-httr", "latest": {"1.0.0--pyhdfd78af_0": "sha256:c704ebbb2d9c233f66fe7692b798216a065b305d8f9edad60d408fca48119d55"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:c704ebbb2d9c233f66fe7692b798216a065b305d8f9edad60d408fca48119d55"}, "docker": "quay.io/biocontainers/bipode-httr", "aliases": {"bipode-httr": "/usr/local/bin/bipode-httr", "cmdstan_model": "/usr/local/bin/cmdstan_model", "install_cmdstan": "/usr/local/bin/install_cmdstan", "install_cxx_toolchain": "/usr/local/bin/install_cxx_toolchain", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "multiqc": "/usr/local/bin/multiqc", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "dotenv": "/usr/local/bin/dotenv", "rich-click": "/usr/local/bin/rich-click", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown_py": "/usr/local/bin/markdown_py", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "natsort": "/usr/local/bin/natsort", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff"}}
+config: {"url": "https://biocontainers.pro/tools/bipode-httr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bipode-httr", "latest": {"1.1.0--pyhdfd78af_0": "sha256:0b4068ecada59d81341b86bc0a3fead6d73b0283411f6d3a520c7a9b4c1ff0c0"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:c704ebbb2d9c233f66fe7692b798216a065b305d8f9edad60d408fca48119d55", "1.1.0--pyhdfd78af_0": "sha256:0b4068ecada59d81341b86bc0a3fead6d73b0283411f6d3a520c7a9b4c1ff0c0"}, "docker": "quay.io/biocontainers/bipode-httr", "aliases": {"bipode-httr": "/usr/local/bin/bipode-httr", "cmdstan_model": "/usr/local/bin/cmdstan_model", "install_cmdstan": "/usr/local/bin/install_cmdstan", "install_cxx_toolchain": "/usr/local/bin/install_cxx_toolchain", "kaleido": "/usr/local/bin/kaleido", "mathjax-path": "/usr/local/bin/mathjax-path", "multiqc": "/usr/local/bin/multiqc", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "dotenv": "/usr/local/bin/dotenv", "rich-click": "/usr/local/bin/rich-click", "coloredlogs": "/usr/local/bin/coloredlogs", "markdown_py": "/usr/local/bin/markdown_py", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown-it": "/usr/local/bin/markdown-it", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "natsort": "/usr/local/bin/natsort", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bipode-httr.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/bipode-httr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bipode-httr:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bipode-httr:1.1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bipode-httr/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/bipode-httr/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/bipode-httr/1.1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/bipode-httr/1.1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

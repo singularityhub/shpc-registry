@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dupblaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dupblaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dupblaster/container.yaml"
-updated_at: "2026-09-03 07:24:57.520749"
-latest: "0.2.0--hfa8f182_0"
+updated_at: "2026-09-04 07:48:25.566076"
+latest: "0.3.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/dupblaster"
 aliases:
  - "dupblaster"
@@ -13,8 +13,9 @@ versions:
  - "0.1.0--hfa8f182_0"
  - "0.1.1--hfa8f182_0"
  - "0.2.0--hfa8f182_0"
+ - "0.3.0--hfa8f182_0"
 description: "singularity registry hpc automated addition for dupblaster"
-config: {"url": "https://biocontainers.pro/tools/dupblaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dupblaster", "latest": {"0.2.0--hfa8f182_0": "sha256:35136cf1b46c05f0334d0d55a1302530c2b55e9e6ad94e6193518623900e659b"}, "tags": {"0.1.0--hfa8f182_0": "sha256:01aa68f182e161ce1f1db3c46c1f73f3d816eea7c3379f8c245ae09d8e877088", "0.1.1--hfa8f182_0": "sha256:d873eeaf493e62d76a3f7f8d43d99a5c57fe4015c10e541e06f04f0c297d6bbf", "0.2.0--hfa8f182_0": "sha256:35136cf1b46c05f0334d0d55a1302530c2b55e9e6ad94e6193518623900e659b"}, "docker": "quay.io/biocontainers/dupblaster", "aliases": {"dupblaster": "/usr/local/bin/dupblaster"}}
+config: {"url": "https://biocontainers.pro/tools/dupblaster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for dupblaster", "latest": {"0.3.0--hfa8f182_0": "sha256:05b383bac3d4bdff2771f6142826123080a840b61c57e6485b276bfe465ab117"}, "tags": {"0.1.0--hfa8f182_0": "sha256:01aa68f182e161ce1f1db3c46c1f73f3d816eea7c3379f8c245ae09d8e877088", "0.1.1--hfa8f182_0": "sha256:d873eeaf493e62d76a3f7f8d43d99a5c57fe4015c10e541e06f04f0c297d6bbf", "0.2.0--hfa8f182_0": "sha256:35136cf1b46c05f0334d0d55a1302530c2b55e9e6ad94e6193518623900e659b", "0.3.0--hfa8f182_0": "sha256:05b383bac3d4bdff2771f6142826123080a840b61c57e6485b276bfe465ab117"}, "docker": "quay.io/biocontainers/dupblaster", "aliases": {"dupblaster": "/usr/local/bin/dupblaster"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dupblaster.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/dupblaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dupblaster:0.2.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/dupblaster:0.3.0--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dupblaster/0.2.0--hfa8f182_0
-$ module help quay.io/biocontainers/dupblaster/0.2.0--hfa8f182_0
+$ module load quay.io/biocontainers/dupblaster/0.3.0--hfa8f182_0
+$ module help quay.io/biocontainers/dupblaster/0.3.0--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

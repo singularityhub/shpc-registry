@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bullseye"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bullseye/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bullseye/container.yaml"
-updated_at: "2026-09-03 07:04:13.967143"
+updated_at: "2026-09-04 07:12:36.282946"
 latest: "1.0.0--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bullseye"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastga/container.yaml"
-updated_at: "2026-09-03 07:17:45.962093"
+updated_at: "2026-09-04 07:36:07.741215"
 latest: "1.5--h118bc1c_1"
 container_url: "https://biocontainers.pro/tools/fastga"
 aliases:

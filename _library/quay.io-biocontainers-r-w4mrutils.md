@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-w4mrutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-w4mrutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-w4mrutils/container.yaml"
-updated_at: "2026-09-03 07:11:26.509402"
+updated_at: "2026-09-04 07:25:12.973813"
 latest: "1.2.2"
 container_url: "https://biocontainers.pro/tools/r-w4mrutils"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mintie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mintie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mintie/container.yaml"
-updated_at: "2026-09-03 07:09:21.579272"
+updated_at: "2026-09-04 07:21:36.967522"
 latest: "0.4.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mintie"
 aliases:

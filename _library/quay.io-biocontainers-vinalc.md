@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vinalc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vinalc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vinalc/container.yaml"
-updated_at: "2026-09-03 07:19:59.649220"
+updated_at: "2026-09-04 07:40:00.429923"
 latest: "1.4.2--h01b65b2_0"
 container_url: "https://biocontainers.pro/tools/vinalc"
 aliases:

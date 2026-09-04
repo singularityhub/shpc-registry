@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cellosaurus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cellosaurus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cellosaurus/container.yaml"
-updated_at: "2026-09-03 07:11:25.002974"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2026-09-04 07:25:10.514296"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cellosaurus"
 aliases:
  - "idle3.14"
@@ -15,8 +15,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for cellosaurus"
-config: {"url": "https://biocontainers.pro/tools/cellosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellosaurus", "latest": {"0.2.0--pyhdfd78af_0": "sha256:085e79373dd74c786ea29e70f309a746d542fb2885baafb2148beb47969b05f1"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:085e79373dd74c786ea29e70f309a746d542fb2885baafb2148beb47969b05f1"}, "docker": "quay.io/biocontainers/cellosaurus", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/cellosaurus", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cellosaurus", "latest": {"0.2.1--pyhdfd78af_0": "sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:085e79373dd74c786ea29e70f309a746d542fb2885baafb2148beb47969b05f1", "0.2.1--pyhdfd78af_0": "sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9"}, "docker": "quay.io/biocontainers/cellosaurus", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cellosaurus.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/cellosaurus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cellosaurus:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cellosaurus:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cellosaurus/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/cellosaurus/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/cellosaurus/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/cellosaurus/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

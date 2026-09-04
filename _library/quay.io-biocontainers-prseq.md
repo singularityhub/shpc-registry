@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prseq/container.yaml"
-updated_at: "2026-09-03 07:09:26.140263"
+updated_at: "2026-09-04 07:21:44.955971"
 latest: "0.0.34--py312h07859c3_0"
 container_url: "https://biocontainers.pro/tools/prseq"
 aliases:

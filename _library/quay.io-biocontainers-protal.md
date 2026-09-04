@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/protal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protal/container.yaml"
-updated_at: "2026-09-03 07:16:50.550578"
-latest: "0.5.1a--h7f5d12c_0"
+updated_at: "2026-09-04 07:34:26.040428"
+latest: "0.6.0a--h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/protal"
 aliases:
  - "protal"
@@ -18,8 +18,9 @@ versions:
  - "0.1.0a--h5ca1c30_0"
  - "0.5.1a--h7f5d12c_0"
  - "0.2.1a--h5ca1c30_0"
+ - "0.6.0a--h5814d7d_0"
 description: "singularity registry hpc automated addition for protal"
-config: {"url": "https://biocontainers.pro/tools/protal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for protal", "latest": {"0.5.1a--h7f5d12c_0": "sha256:7c5ad06548935414f13bcfba515f78dda5144f7b074286651d46a5b4784e5e8e"}, "tags": {"0.1.0a--h5ca1c30_0": "sha256:e63c8c9a12b3c073a3c3b7cf5b300bc30417acc1fff7de993a5e642e1aea8af3", "0.5.1a--h7f5d12c_0": "sha256:7c5ad06548935414f13bcfba515f78dda5144f7b074286651d46a5b4784e5e8e", "0.2.1a--h5ca1c30_0": "sha256:10846224e2eecaf04a55cb20c3b124e471e2dbabc6a93d5e71ee320758344a6b"}, "docker": "quay.io/biocontainers/protal", "aliases": {"protal": "/usr/local/bin/protal", "protal_avx2": "/usr/local/bin/protal_avx2", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/protal", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for protal", "latest": {"0.6.0a--h5814d7d_0": "sha256:502c51b3661348d2a94f5170406a13494ac8c93d70a873e59ea20431a72f99a9"}, "tags": {"0.1.0a--h5ca1c30_0": "sha256:e63c8c9a12b3c073a3c3b7cf5b300bc30417acc1fff7de993a5e642e1aea8af3", "0.5.1a--h7f5d12c_0": "sha256:7c5ad06548935414f13bcfba515f78dda5144f7b074286651d46a5b4784e5e8e", "0.2.1a--h5ca1c30_0": "sha256:10846224e2eecaf04a55cb20c3b124e471e2dbabc6a93d5e71ee320758344a6b", "0.6.0a--h5814d7d_0": "sha256:502c51b3661348d2a94f5170406a13494ac8c93d70a873e59ea20431a72f99a9"}, "docker": "quay.io/biocontainers/protal", "aliases": {"protal": "/usr/local/bin/protal", "protal_avx2": "/usr/local/bin/protal_avx2", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/protal.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/protal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/protal:0.5.1a--h7f5d12c_0
+$ shpc install quay.io/biocontainers/protal:0.6.0a--h5814d7d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/protal/0.5.1a--h7f5d12c_0
-$ module help quay.io/biocontainers/protal/0.5.1a--h7f5d12c_0
+$ module load quay.io/biocontainers/protal/0.6.0a--h5814d7d_0
+$ module help quay.io/biocontainers/protal/0.6.0a--h5814d7d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
