@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-qtlseqr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-qtlseqr
 latest:
-  0.7.5.2--r44h9948957_7: 
-    sha256:692ce214e1741abc8c0ac18e4129f5384776eaf139bdae8bd059610b27779fe0
+  0.7.5.2--r45hc52dbad_8: 
+    sha256:a69072d481b4baa2800cb47c6a5ca25caa8997d5e9d16f1bffcf34f9ada89db6
 tags:
   0.7.5.2--r41h9f5acd7_3: 
     sha256:bee93102d5df32746c52d318ff5123f28603e4a97adcb2104c0eb260d2ea2304
@@ -15,4 +15,6 @@ tags:
     sha256:3e127c221857a693c55416c9bc23b147ac32703ad6ec414e5c3bc898ab2a7e9c
   0.7.5.2--r44h9948957_7: 
     sha256:692ce214e1741abc8c0ac18e4129f5384776eaf139bdae8bd059610b27779fe0
+  0.7.5.2--r45hc52dbad_8: 
+    sha256:a69072d481b4baa2800cb47c6a5ca25caa8997d5e9d16f1bffcf34f9ada89db6
 docker: quay.io/biocontainers/r-qtlseqr

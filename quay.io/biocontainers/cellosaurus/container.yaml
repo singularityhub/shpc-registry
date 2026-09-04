@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/cellosaurus
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for cellosaurus
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:085e79373dd74c786ea29e70f309a746d542fb2885baafb2148beb47969b05f1
+  0.2.1--pyhdfd78af_0: 
+    sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:085e79373dd74c786ea29e70f309a746d542fb2885baafb2148beb47969b05f1
+  0.2.1--pyhdfd78af_0: 
+    sha256:0f971dff7655ed451b4bd52bcf226c87425a3b8c985a52d06130bc453d7c78e9
 docker: quay.io/biocontainers/cellosaurus
 aliases:
   idle3.14: /usr/local/bin/idle3.14

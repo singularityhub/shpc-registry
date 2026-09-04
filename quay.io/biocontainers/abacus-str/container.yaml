@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/abacus-str
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for abacus-str
 latest:
-  2.0.0--pyhdfd78af_0: 
-    sha256:4e332dd4f279eda3c8b54c76705e5c242ed83e2ff3c076262faf402b4302d373
+  2.0.0--pyhdfd78af_1: 
+    sha256:27292e9932709fdca66d97efaea0e02fc83853dca0100c18c0f78fe6de8dce03
 tags:
   2.0.0--pyhdfd78af_0: 
     sha256:4e332dd4f279eda3c8b54c76705e5c242ed83e2ff3c076262faf402b4302d373
+  2.0.0--pyhdfd78af_1: 
+    sha256:27292e9932709fdca66d97efaea0e02fc83853dca0100c18c0f78fe6de8dce03
 docker: quay.io/biocontainers/abacus-str
 aliases:
   abacus: /usr/local/bin/abacus
