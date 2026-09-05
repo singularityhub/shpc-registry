@@ -1,0 +1,20 @@
+url: https://biocontainers.pro/tools/r-locom2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-locom2
+latest:
+  1.0--r45ha766e9f_0: 
+    sha256:a1516166d61f65e18a88f6e62e2cb3079a40b78a1caad6b8534a17cd142b056a
+tags:
+  1.0--r45ha766e9f_0: 
+    sha256:a1516166d61f65e18a88f6e62e2cb3079a40b78a1caad6b8534a17cd142b056a
+docker: quay.io/biocontainers/r-locom2
+aliases:
+  python3.14t: /usr/local/bin/python3.14t
+  python3.14t-config: /usr/local/bin/python3.14t-config
+  fc-genconf: /usr/local/bin/fc-genconf
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  numpy-config: /usr/local/bin/numpy-config
