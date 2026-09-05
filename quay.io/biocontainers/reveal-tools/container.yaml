@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/reveal-tools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for reveal-tools
+latest:
+  1.0.0--hdfd78af_0: 
+    sha256:96663451b7ebb58826916c6b69428abd747d3fe806641ee410ea62d6fead1e0d
+tags:
+  1.0.0--hdfd78af_0: 
+    sha256:96663451b7ebb58826916c6b69428abd747d3fe806641ee410ea62d6fead1e0d
+docker: quay.io/biocontainers/reveal-tools
+aliases:
+  REVEAL: /usr/local/bin/REVEAL
+  fc-genconf: /usr/local/bin/fc-genconf
+  hb-raster: /usr/local/bin/hb-raster
+  hb-vector: /usr/local/bin/hb-vector
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
+  numpy-config: /usr/local/bin/numpy-config
+  hb-info: /usr/local/bin/hb-info
