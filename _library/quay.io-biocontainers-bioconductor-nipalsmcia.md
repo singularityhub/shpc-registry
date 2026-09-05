@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nipalsmcia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nipalsmcia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nipalsmcia/container.yaml"
-updated_at: "2026-09-04 08:02:11.564627"
+updated_at: "2026-09-05 07:40:02.993893"
 latest: "1.8.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nipalsmcia"
 aliases:

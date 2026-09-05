@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snputils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snputils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snputils/container.yaml"
-updated_at: "2026-09-04 07:56:14.156638"
+updated_at: "2026-09-05 07:34:47.526438"
 latest: "1.1.0--py310hfe4f656_0"
 container_url: "https://biocontainers.pro/tools/snputils"
 aliases:

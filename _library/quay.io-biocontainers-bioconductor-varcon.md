@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-varcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-varcon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-varcon/container.yaml"
-updated_at: "2026-09-04 08:03:53.705762"
+updated_at: "2026-09-05 07:41:36.094791"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-varcon"
 

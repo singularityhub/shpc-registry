@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lheuristic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lheuristic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lheuristic/container.yaml"
-updated_at: "2026-09-04 07:28:03.648486"
+updated_at: "2026-09-05 07:09:36.694665"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lheuristic"
 aliases:

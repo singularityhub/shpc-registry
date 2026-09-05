@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-hmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-hmm/container.yaml"
-updated_at: "2026-09-04 07:35:11.271039"
+updated_at: "2026-09-05 07:16:01.019343"
 latest: "1.0.2--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-hmm"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecolik12.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolik12.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolik12.db0/container.yaml"
-updated_at: "2026-09-04 07:40:50.252508"
+updated_at: "2026-09-05 07:21:06.050387"
 latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolik12.db0"
 aliases:

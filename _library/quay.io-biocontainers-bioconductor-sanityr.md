@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sanityr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sanityr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sanityr/container.yaml"
-updated_at: "2026-09-04 08:02:10.310491"
+updated_at: "2026-09-05 07:40:01.859993"
 latest: "1.0.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sanityr"
 aliases:

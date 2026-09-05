@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anglerfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anglerfish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anglerfish/container.yaml"
-updated_at: "2026-09-04 08:02:50.270486"
+updated_at: "2026-09-05 07:40:38.735008"
 latest: "0.7.0--pyh106432d_1"
 container_url: "https://biocontainers.pro/tools/anglerfish"
 aliases:

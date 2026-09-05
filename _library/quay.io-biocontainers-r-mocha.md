@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mocha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mocha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mocha/container.yaml"
-updated_at: "2026-09-04 07:17:47.627930"
+updated_at: "2026-09-05 07:00:23.765311"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-mocha"
 aliases:
