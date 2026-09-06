@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sigprofilerassignment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sigprofilerassignment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sigprofilerassignment/container.yaml"
-updated_at: "2026-09-05 07:42:24.537687"
+updated_at: "2026-09-06 07:55:54.044934"
 latest: "0.2.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sigprofilerassignment"
 aliases:

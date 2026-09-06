@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scarhrd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scarhrd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scarhrd/container.yaml"
-updated_at: "2026-09-05 07:32:09.575969"
+updated_at: "2026-09-06 07:45:13.613182"
 latest: "0.1.1--r35hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-scarhrd"
 aliases:

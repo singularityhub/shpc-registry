@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-peacoqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-peacoqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-peacoqc/container.yaml"
-updated_at: "2026-09-05 07:05:03.560818"
+updated_at: "2026-09-06 07:16:35.317028"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-peacoqc"
 
