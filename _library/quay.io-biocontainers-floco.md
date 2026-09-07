@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/floco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/floco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/floco/container.yaml"
-updated_at: "2026-09-06 07:51:20.991438"
+updated_at: "2026-09-07 08:01:31.250846"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/floco"
 aliases:

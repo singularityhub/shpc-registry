@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/socru"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/socru/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/socru/container.yaml"
-updated_at: "2026-09-06 06:58:48.077827"
+updated_at: "2026-09-07 07:08:25.381025"
 latest: "2.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/socru"
 aliases:
