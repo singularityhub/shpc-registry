@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-integrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-integrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-integrate/container.yaml"
-updated_at: "2026-09-07 07:27:17.938778"
+updated_at: "2026-09-08 07:20:41.996914"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-integrate"
 aliases:

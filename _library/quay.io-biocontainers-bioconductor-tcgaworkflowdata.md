@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tcgaworkflowdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgaworkflowdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgaworkflowdata/container.yaml"
-updated_at: "2026-09-07 07:25:46.560744"
+updated_at: "2026-09-08 07:19:17.595867"
 latest: "1.34.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgaworkflowdata"
 aliases:

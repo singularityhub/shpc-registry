@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/raaqa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raaqa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raaqa/container.yaml"
-updated_at: "2026-09-07 07:14:17.674046"
+updated_at: "2026-09-08 07:08:35.923148"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/raaqa"
 aliases:

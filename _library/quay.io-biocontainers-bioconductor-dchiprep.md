@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dchiprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dchiprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dchiprep/container.yaml"
-updated_at: "2026-09-07 07:31:39.253115"
+updated_at: "2026-09-08 07:24:58.059393"
 latest: "1.18.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dchiprep"
 aliases:

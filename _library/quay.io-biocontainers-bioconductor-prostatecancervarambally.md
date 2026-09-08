@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-prostatecancervarambally"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostatecancervarambally/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostatecancervarambally/container.yaml"
-updated_at: "2026-09-07 07:33:24.961789"
+updated_at: "2026-09-08 07:26:46.806876"
 latest: "1.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostatecancervarambally"
 

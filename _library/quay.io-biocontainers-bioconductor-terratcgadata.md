@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-terratcgadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-terratcgadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-terratcgadata/container.yaml"
-updated_at: "2026-09-07 07:21:59.724538"
+updated_at: "2026-09-08 07:15:48.641365"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-terratcgadata"
 aliases:

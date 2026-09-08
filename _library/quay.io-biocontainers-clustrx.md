@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clustrx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clustrx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clustrx/container.yaml"
-updated_at: "2026-09-07 07:11:39.261302"
+updated_at: "2026-09-08 07:06:05.731657"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clustrx"
 aliases:
