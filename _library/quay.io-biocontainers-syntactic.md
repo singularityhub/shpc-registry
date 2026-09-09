@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/syntactic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/syntactic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/syntactic/container.yaml"
-updated_at: "2026-09-08 07:04:01.111509"
+updated_at: "2026-09-09 07:13:32.589864"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/syntactic"
 aliases:

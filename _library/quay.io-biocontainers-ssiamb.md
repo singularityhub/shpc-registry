@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ssiamb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssiamb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ssiamb/container.yaml"
-updated_at: "2026-09-08 07:35:07.421770"
+updated_at: "2026-09-09 07:46:04.181554"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ssiamb"
 aliases:

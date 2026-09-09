@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/diatracer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diatracer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/diatracer/container.yaml"
-updated_at: "2026-09-08 07:56:04.191969"
-latest: "1.2.5--h9ee0642_0"
+updated_at: "2026-09-09 08:07:43.294794"
+latest: "1.2.5--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/diatracer"
 aliases:
  - "csc-dim"
@@ -39,8 +39,9 @@ aliases:
  - "gacutil2"
 versions:
  - "1.2.5--h9ee0642_0"
+ - "1.2.5--h9ee0642_1"
 description: "singularity registry hpc automated addition for diatracer"
-config: {"url": "https://biocontainers.pro/tools/diatracer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for diatracer", "latest": {"1.2.5--h9ee0642_0": "sha256:d78ddfd93677983221ab99212e76a0b1f5d14630b58a118c77353d34ca060676"}, "tags": {"1.2.5--h9ee0642_0": "sha256:d78ddfd93677983221ab99212e76a0b1f5d14630b58a118c77353d34ca060676"}, "docker": "quay.io/biocontainers/diatracer", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "diatracer": "/usr/local/bin/diatracer", "monograph": "/usr/local/bin/monograph", "msfragger": "/usr/local/bin/msfragger", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2"}}
+config: {"url": "https://biocontainers.pro/tools/diatracer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for diatracer", "latest": {"1.2.5--h9ee0642_1": "sha256:38e6764255929b1d2738c52dba3ec27cdf87c6c02efc12e2bb18d941e5c5348d"}, "tags": {"1.2.5--h9ee0642_0": "sha256:d78ddfd93677983221ab99212e76a0b1f5d14630b58a118c77353d34ca060676", "1.2.5--h9ee0642_1": "sha256:38e6764255929b1d2738c52dba3ec27cdf87c6c02efc12e2bb18d941e5c5348d"}, "docker": "quay.io/biocontainers/diatracer", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "diatracer": "/usr/local/bin/diatracer", "monograph": "/usr/local/bin/monograph", "msfragger": "/usr/local/bin/msfragger", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate", "csharp": "/usr/local/bin/csharp", "dmcs": "/usr/local/bin/dmcs", "dtd2rng": "/usr/local/bin/dtd2rng", "dtd2xsd": "/usr/local/bin/dtd2xsd", "gacutil": "/usr/local/bin/gacutil", "gacutil2": "/usr/local/bin/gacutil2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/diatracer.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/diatracer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/diatracer:1.2.5--h9ee0642_0
+$ shpc install quay.io/biocontainers/diatracer:1.2.5--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/diatracer/1.2.5--h9ee0642_0
-$ module help quay.io/biocontainers/diatracer/1.2.5--h9ee0642_0
+$ module load quay.io/biocontainers/diatracer/1.2.5--h9ee0642_1
+$ module help quay.io/biocontainers/diatracer/1.2.5--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

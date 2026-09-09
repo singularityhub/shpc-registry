@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pykofamsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pykofamsearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pykofamsearch/container.yaml"
-updated_at: "2026-09-08 07:38:29.568631"
-latest: "2025.9.5--pyhdfd78af_1"
+updated_at: "2026-09-09 07:49:37.987874"
+latest: "2026.7.21--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pykofamsearch"
 aliases:
  - "pykofamsearch"
@@ -24,8 +24,9 @@ versions:
  - "2024.10.20--pyh7e72e81_0"
  - "2025.9.5--pyhdfd78af_1"
  - "2024.11.9--pyhdfd78af_0"
+ - "2026.7.21--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pykofamsearch"
-config: {"url": "https://biocontainers.pro/tools/pykofamsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pykofamsearch", "latest": {"2025.9.5--pyhdfd78af_1": "sha256:bbf32d61543357b78af4b8f70d1b92fd35b11b0ea59b17841f6617b830210f2a"}, "tags": {"2024.10.20--pyh7e72e81_0": "sha256:841ac00797ee078ad80f146cd8e243d66358ce985dcef388abb04056047247a5", "2025.9.5--pyhdfd78af_1": "sha256:bbf32d61543357b78af4b8f70d1b92fd35b11b0ea59b17841f6617b830210f2a", "2024.11.9--pyhdfd78af_0": "sha256:ae311fc9234fd2d6afb90c520cfb198556a5f7d37fa28e3f7dfa615904bab2f8"}, "docker": "quay.io/biocontainers/pykofamsearch", "aliases": {"pykofamsearch": "/usr/local/bin/pykofamsearch", "reformat_enzymes": "/usr/local/bin/reformat_enzymes", "reformat_pykofamsearch": "/usr/local/bin/reformat_pykofamsearch", "serialize_kofam_models": "/usr/local/bin/serialize_kofam_models", "subset_serialized_models": "/usr/local/bin/subset_serialized_models", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/pykofamsearch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pykofamsearch", "latest": {"2026.7.21--pyhdfd78af_0": "sha256:29892425afb6444aeaaa254c405cf88920304082b15c992f25dcf5662f59b87f"}, "tags": {"2024.10.20--pyh7e72e81_0": "sha256:841ac00797ee078ad80f146cd8e243d66358ce985dcef388abb04056047247a5", "2025.9.5--pyhdfd78af_1": "sha256:bbf32d61543357b78af4b8f70d1b92fd35b11b0ea59b17841f6617b830210f2a", "2024.11.9--pyhdfd78af_0": "sha256:ae311fc9234fd2d6afb90c520cfb198556a5f7d37fa28e3f7dfa615904bab2f8", "2026.7.21--pyhdfd78af_0": "sha256:29892425afb6444aeaaa254c405cf88920304082b15c992f25dcf5662f59b87f"}, "docker": "quay.io/biocontainers/pykofamsearch", "aliases": {"pykofamsearch": "/usr/local/bin/pykofamsearch", "reformat_enzymes": "/usr/local/bin/reformat_enzymes", "reformat_pykofamsearch": "/usr/local/bin/reformat_pykofamsearch", "serialize_kofam_models": "/usr/local/bin/serialize_kofam_models", "subset_serialized_models": "/usr/local/bin/subset_serialized_models", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pykofamsearch.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/pykofamsearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pykofamsearch:2025.9.5--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/pykofamsearch:2026.7.21--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pykofamsearch/2025.9.5--pyhdfd78af_1
-$ module help quay.io/biocontainers/pykofamsearch/2025.9.5--pyhdfd78af_1
+$ module load quay.io/biocontainers/pykofamsearch/2026.7.21--pyhdfd78af_0
+$ module help quay.io/biocontainers/pykofamsearch/2026.7.21--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

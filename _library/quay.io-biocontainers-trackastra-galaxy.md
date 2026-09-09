@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/trackastra-galaxy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trackastra-galaxy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trackastra-galaxy/container.yaml"
-updated_at: "2026-09-08 07:25:37.009085"
+updated_at: "2026-09-09 07:36:13.786402"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trackastra-galaxy"
 aliases:

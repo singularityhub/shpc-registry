@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scafari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scafari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scafari/container.yaml"
-updated_at: "2026-09-08 07:08:02.097393"
+updated_at: "2026-09-09 07:17:48.712272"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scafari"
 aliases:

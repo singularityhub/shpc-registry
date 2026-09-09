@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metalcoordanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metalcoordanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metalcoordanalysis/container.yaml"
-updated_at: "2026-09-08 07:27:00.454678"
+updated_at: "2026-09-09 07:37:33.521861"
 latest: "0.2.15--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metalcoordanalysis"
 aliases:

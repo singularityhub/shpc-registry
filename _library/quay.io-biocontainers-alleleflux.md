@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alleleflux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alleleflux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alleleflux/container.yaml"
-updated_at: "2026-09-08 07:33:18.001477"
+updated_at: "2026-09-09 07:44:08.725231"
 latest: "0.1.14--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/alleleflux"
 aliases:

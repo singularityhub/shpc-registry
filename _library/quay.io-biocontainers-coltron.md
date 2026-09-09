@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coltron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coltron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/coltron/container.yaml"
-updated_at: "2026-09-08 07:03:03.503545"
+updated_at: "2026-09-09 07:12:30.005271"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/coltron"
 aliases:

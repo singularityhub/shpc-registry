@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mkmisc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mkmisc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mkmisc/container.yaml"
-updated_at: "2026-09-08 07:59:26.377061"
+updated_at: "2026-09-09 08:11:09.334984"
 latest: "2.0--r45h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-mkmisc"
 

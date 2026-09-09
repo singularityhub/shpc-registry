@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kraken-ocr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken-ocr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kraken-ocr/container.yaml"
-updated_at: "2026-09-08 07:29:33.450445"
+updated_at: "2026-09-09 07:40:10.724479"
 latest: "7.0.2"
 container_url: "https://biocontainers.pro/tools/kraken-ocr"
 aliases:

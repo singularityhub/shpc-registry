@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/whittle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/whittle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/whittle/container.yaml"
-updated_at: "2026-09-08 07:25:26.802284"
-latest: "0.1.1--hfa8f182_0"
+updated_at: "2026-09-09 07:36:04.083495"
+latest: "0.2.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/whittle"
 aliases:
  - "whittle"
 versions:
  - "0.1.1--hfa8f182_0"
+ - "0.2.0--hfa8f182_0"
 description: "singularity registry hpc automated addition for whittle"
-config: {"url": "https://biocontainers.pro/tools/whittle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for whittle", "latest": {"0.1.1--hfa8f182_0": "sha256:0bd01c4fef407abede42b0e4d650bcf7772bb54617615e30b0757a46265ad0c0"}, "tags": {"0.1.1--hfa8f182_0": "sha256:0bd01c4fef407abede42b0e4d650bcf7772bb54617615e30b0757a46265ad0c0"}, "docker": "quay.io/biocontainers/whittle", "aliases": {"whittle": "/usr/local/bin/whittle"}}
+config: {"url": "https://biocontainers.pro/tools/whittle", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for whittle", "latest": {"0.2.0--hfa8f182_0": "sha256:c2c9432286cd4e77e1bc1edd530e8b1ab80f30a5192ffd5e1421c86c965dfbef"}, "tags": {"0.1.1--hfa8f182_0": "sha256:0bd01c4fef407abede42b0e4d650bcf7772bb54617615e30b0757a46265ad0c0", "0.2.0--hfa8f182_0": "sha256:c2c9432286cd4e77e1bc1edd530e8b1ab80f30a5192ffd5e1421c86c965dfbef"}, "docker": "quay.io/biocontainers/whittle", "aliases": {"whittle": "/usr/local/bin/whittle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/whittle.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/whittle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/whittle:0.1.1--hfa8f182_0
+$ shpc install quay.io/biocontainers/whittle:0.2.0--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/whittle/0.1.1--hfa8f182_0
-$ module help quay.io/biocontainers/whittle/0.1.1--hfa8f182_0
+$ module load quay.io/biocontainers/whittle/0.2.0--hfa8f182_0
+$ module help quay.io/biocontainers/whittle/0.2.0--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

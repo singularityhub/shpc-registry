@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/openbabel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openbabel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openbabel/container.yaml"
-updated_at: "2026-09-08 07:57:37.594936"
-latest: "3.1.1"
+updated_at: "2026-09-09 08:09:18.559649"
+latest: "3.2.1"
 container_url: "https://biocontainers.pro/tools/openbabel"
 aliases:
  - "obfitall"
@@ -23,8 +23,9 @@ aliases:
 versions:
  - "3.1.1"
  - "3.1.1--2"
+ - "3.2.1"
 description: "shpc-registry automated BioContainers addition for openbabel"
-config: {"url": "https://biocontainers.pro/tools/openbabel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openbabel", "latest": {"3.1.1": "sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564"}, "tags": {"3.1.1": "sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564", "3.1.1--2": "sha256:08e0d964393d576f9c86b1d26016c42d979e475f88e1426c00ce3e809baf65f9"}, "docker": "quay.io/biocontainers/openbabel", "aliases": {"obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
+config: {"url": "https://biocontainers.pro/tools/openbabel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openbabel", "latest": {"3.2.1": "sha256:9e4cb2379a0c577ac377a520e885ae6688bee9b94c03e27256e91fe84c12017b"}, "tags": {"3.1.1": "sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564", "3.1.1--2": "sha256:08e0d964393d576f9c86b1d26016c42d979e475f88e1426c00ce3e809baf65f9", "3.2.1": "sha256:9e4cb2379a0c577ac377a520e885ae6688bee9b94c03e27256e91fe84c12017b"}, "docker": "quay.io/biocontainers/openbabel", "aliases": {"obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openbabel.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/openbabel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/openbabel:3.1.1
+$ shpc install quay.io/biocontainers/openbabel:3.2.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/openbabel/3.1.1
-$ module help quay.io/biocontainers/openbabel/3.1.1
+$ module load quay.io/biocontainers/openbabel/3.2.1
+$ module help quay.io/biocontainers/openbabel/3.2.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

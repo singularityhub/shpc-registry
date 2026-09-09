@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tenet.experimenthub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenet.experimenthub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenet.experimenthub/container.yaml"
-updated_at: "2026-09-08 07:10:51.538075"
+updated_at: "2026-09-09 07:20:52.682658"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenet.experimenthub"
 aliases:

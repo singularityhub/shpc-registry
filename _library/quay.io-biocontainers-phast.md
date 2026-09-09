@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phast/container.yaml"
-updated_at: "2026-09-08 07:20:43.747392"
+updated_at: "2026-09-09 07:31:06.197311"
 latest: "1.9.9--h3ffd07f_0"
 container_url: "https://biocontainers.pro/tools/phast"
 aliases:

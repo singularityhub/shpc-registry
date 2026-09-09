@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-geoexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geoexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geoexplorer/container.yaml"
-updated_at: "2026-09-08 07:59:22.599418"
+updated_at: "2026-09-09 08:11:05.378455"
 latest: "1.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geoexplorer"
 aliases:

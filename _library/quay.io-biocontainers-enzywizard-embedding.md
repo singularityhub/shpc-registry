@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-embedding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-embedding/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-embedding/container.yaml"
-updated_at: "2026-09-08 07:54:53.065231"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-09 08:06:31.339331"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-embedding"
 aliases:
  - "enzywizard-embedding"
@@ -36,8 +36,9 @@ aliases:
  - "hwloc-ps"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-embedding"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-embedding", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-embedding", "latest": {"1.0.2--pyhdfd78af_0": "sha256:9ba0095e7420127ee016b693fb2538f659a845af882f9c9267e2f35d721bd440"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:9ba0095e7420127ee016b693fb2538f659a845af882f9c9267e2f35d721bd440"}, "docker": "quay.io/biocontainers/enzywizard-embedding", "aliases": {"enzywizard-embedding": "/usr/local/bin/enzywizard-embedding", "idna": "/usr/local/bin/idna", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-embedding", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-embedding", "latest": {"1.0.3--pyhdfd78af_0": "sha256:f21193872306b98df90f8f0ef8baf8c03caedb9c851ad0978f5921b34a51c467"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:9ba0095e7420127ee016b693fb2538f659a845af882f9c9267e2f35d721bd440", "1.0.3--pyhdfd78af_0": "sha256:f21193872306b98df90f8f0ef8baf8c03caedb9c851ad0978f5921b34a51c467"}, "docker": "quay.io/biocontainers/enzywizard-embedding", "aliases": {"enzywizard-embedding": "/usr/local/bin/enzywizard-embedding", "idna": "/usr/local/bin/idna", "torchfrtrace": "/usr/local/bin/torchfrtrace", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-embedding.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/enzywizard-embedding
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-embedding:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-embedding:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-embedding/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-embedding/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-embedding/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-embedding/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

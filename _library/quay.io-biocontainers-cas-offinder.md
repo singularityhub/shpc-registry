@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cas-offinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cas-offinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cas-offinder/container.yaml"
-updated_at: "2026-09-08 07:34:26.949898"
+updated_at: "2026-09-09 07:45:21.926012"
 latest: "2.4.1--h503566f_0"
 container_url: "https://biocontainers.pro/tools/cas-offinder"
 aliases:

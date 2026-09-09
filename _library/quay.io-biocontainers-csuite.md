@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/csuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csuite/container.yaml"
-updated_at: "2026-09-08 07:59:11.928867"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-09-09 08:10:54.116939"
+latest: "0.1.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/csuite"
 aliases:
  - "cagecleaner"
@@ -59,8 +59,9 @@ aliases:
  - "zipgrep"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.0--pyhdfd78af_1"
 description: "singularity registry hpc automated addition for csuite"
-config: {"url": "https://biocontainers.pro/tools/csuite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for csuite", "latest": {"0.1.0--pyhdfd78af_0": "sha256:47b91f03ebd65991d0ad04ebadf227211674289955f4a9d4f170540d4dad8d3c"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:47b91f03ebd65991d0ad04ebadf227211674289955f4a9d4f170540d4dad8d3c"}, "docker": "quay.io/biocontainers/csuite", "aliases": {"cagecleaner": "/usr/local/bin/cagecleaner", "cagecleaner-generate-session": "/usr/local/bin/cagecleaner-generate-session", "cblaster": "/usr/local/bin/cblaster", "cfoldseeker": "/usr/local/bin/cfoldseeker", "cfoldseeker-cds": "/usr/local/bin/cfoldseeker-cds", "cfoldseeker-seqs": "/usr/local/bin/cfoldseeker-seqs", "cidder": "/usr/local/bin/cidder", "clinker": "/usr/local/bin/clinker", "csuite": "/usr/local/bin/csuite", "foldseek": "/usr/local/bin/foldseek", "granet": "/usr/local/bin/granet", "kegg_pull": "/usr/local/bin/kegg_pull", "mgecut": "/usr/local/bin/mgecut", "psghelp": "/usr/local/bin/psghelp", "psgissue": "/usr/local/bin/psgissue", "psgmain": "/usr/local/bin/psgmain", "psgsettings": "/usr/local/bin/psgsettings", "psgupgrade": "/usr/local/bin/psgupgrade", "psgver": "/usr/local/bin/psgver", "runProdigalAndMakeProperGenbank.py": "/usr/local/bin/runProdigalAndMakeProperGenbank.py", "skDERcore": "/usr/local/bin/skDERcore", "skDERsum": "/usr/local/bin/skDERsum", "skani": "/usr/local/bin/skani", "skder": "/usr/local/bin/skder", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "gawk-5.4.0": "/usr/local/bin/gawk-5.4.0", "zless": "/usr/local/bin/zless", "fc-genconf": "/usr/local/bin/fc-genconf", "idna": "/usr/local/bin/idna", "pyrodigal": "/usr/local/bin/pyrodigal", "any2fasta": "/usr/local/bin/any2fasta", "archspec": "/usr/local/bin/archspec", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep"}}
+config: {"url": "https://biocontainers.pro/tools/csuite", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for csuite", "latest": {"0.1.0--pyhdfd78af_1": "sha256:a1649430ecd2d33764fd831b276373294a125676c99ab4206f01cdd276ebdf89"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:47b91f03ebd65991d0ad04ebadf227211674289955f4a9d4f170540d4dad8d3c", "0.1.0--pyhdfd78af_1": "sha256:a1649430ecd2d33764fd831b276373294a125676c99ab4206f01cdd276ebdf89"}, "docker": "quay.io/biocontainers/csuite", "aliases": {"cagecleaner": "/usr/local/bin/cagecleaner", "cagecleaner-generate-session": "/usr/local/bin/cagecleaner-generate-session", "cblaster": "/usr/local/bin/cblaster", "cfoldseeker": "/usr/local/bin/cfoldseeker", "cfoldseeker-cds": "/usr/local/bin/cfoldseeker-cds", "cfoldseeker-seqs": "/usr/local/bin/cfoldseeker-seqs", "cidder": "/usr/local/bin/cidder", "clinker": "/usr/local/bin/clinker", "csuite": "/usr/local/bin/csuite", "foldseek": "/usr/local/bin/foldseek", "granet": "/usr/local/bin/granet", "kegg_pull": "/usr/local/bin/kegg_pull", "mgecut": "/usr/local/bin/mgecut", "psghelp": "/usr/local/bin/psghelp", "psgissue": "/usr/local/bin/psgissue", "psgmain": "/usr/local/bin/psgmain", "psgsettings": "/usr/local/bin/psgsettings", "psgupgrade": "/usr/local/bin/psgupgrade", "psgver": "/usr/local/bin/psgver", "runProdigalAndMakeProperGenbank.py": "/usr/local/bin/runProdigalAndMakeProperGenbank.py", "skDERcore": "/usr/local/bin/skDERcore", "skDERsum": "/usr/local/bin/skDERsum", "skani": "/usr/local/bin/skani", "skder": "/usr/local/bin/skder", "dataformat": "/usr/local/bin/dataformat", "datasets": "/usr/local/bin/datasets", "gawk-5.4.0": "/usr/local/bin/gawk-5.4.0", "zless": "/usr/local/bin/zless", "fc-genconf": "/usr/local/bin/fc-genconf", "idna": "/usr/local/bin/idna", "pyrodigal": "/usr/local/bin/pyrodigal", "any2fasta": "/usr/local/bin/any2fasta", "archspec": "/usr/local/bin/archspec", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/csuite.
@@ -75,7 +76,7 @@ $ shpc install quay.io/biocontainers/csuite
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/csuite:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/csuite:0.1.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/csuite/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/csuite/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/csuite/0.1.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/csuite/0.1.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
