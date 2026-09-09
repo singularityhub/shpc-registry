@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/diatracer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for diatracer
 latest:
-  1.2.5--h9ee0642_0: 
-    sha256:d78ddfd93677983221ab99212e76a0b1f5d14630b58a118c77353d34ca060676
+  1.2.5--h9ee0642_1: 
+    sha256:38e6764255929b1d2738c52dba3ec27cdf87c6c02efc12e2bb18d941e5c5348d
 tags:
   1.2.5--h9ee0642_0: 
     sha256:d78ddfd93677983221ab99212e76a0b1f5d14630b58a118c77353d34ca060676
+  1.2.5--h9ee0642_1: 
+    sha256:38e6764255929b1d2738c52dba3ec27cdf87c6c02efc12e2bb18d941e5c5348d
 docker: quay.io/biocontainers/diatracer
 aliases:
   csc-dim: /usr/local/bin/csc-dim

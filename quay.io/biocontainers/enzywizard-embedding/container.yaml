@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   enzywizard-embedding
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:9ba0095e7420127ee016b693fb2538f659a845af882f9c9267e2f35d721bd440
+  1.0.3--pyhdfd78af_0: 
+    sha256:f21193872306b98df90f8f0ef8baf8c03caedb9c851ad0978f5921b34a51c467
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:9ba0095e7420127ee016b693fb2538f659a845af882f9c9267e2f35d721bd440
+  1.0.3--pyhdfd78af_0: 
+    sha256:f21193872306b98df90f8f0ef8baf8c03caedb9c851ad0978f5921b34a51c467
 docker: quay.io/biocontainers/enzywizard-embedding
 aliases:
   enzywizard-embedding: /usr/local/bin/enzywizard-embedding

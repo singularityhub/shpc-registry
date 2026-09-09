@@ -2,11 +2,12 @@ url: https://biocontainers.pro/tools/openbabel
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for openbabel
 latest:
-  3.1.1: sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564
+  3.2.1: sha256:9e4cb2379a0c577ac377a520e885ae6688bee9b94c03e27256e91fe84c12017b
 tags:
   3.1.1: sha256:16ef13f4e58b426cea910004b827933640bd05722b45cfe44c173cf9a3315564
   3.1.1--2: 
     sha256:08e0d964393d576f9c86b1d26016c42d979e475f88e1426c00ce3e809baf65f9
+  3.2.1: sha256:9e4cb2379a0c577ac377a520e885ae6688bee9b94c03e27256e91fe84c12017b
 docker: quay.io/biocontainers/openbabel
 aliases:
   obfitall: /usr/local/bin/obfitall

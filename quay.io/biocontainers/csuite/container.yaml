@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/csuite
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for csuite
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:47b91f03ebd65991d0ad04ebadf227211674289955f4a9d4f170540d4dad8d3c
+  0.1.0--pyhdfd78af_1: 
+    sha256:a1649430ecd2d33764fd831b276373294a125676c99ab4206f01cdd276ebdf89
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:47b91f03ebd65991d0ad04ebadf227211674289955f4a9d4f170540d4dad8d3c
+  0.1.0--pyhdfd78af_1: 
+    sha256:a1649430ecd2d33764fd831b276373294a125676c99ab4206f01cdd276ebdf89
 docker: quay.io/biocontainers/csuite
 aliases:
   cagecleaner: /usr/local/bin/cagecleaner
