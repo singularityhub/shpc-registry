@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcalm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcalm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bcalm/container.yaml"
-updated_at: "2026-09-09 07:54:56.211467"
+updated_at: "2026-09-10 07:39:55.699779"
 latest: "2.2.3--h5ca1c30_8"
 container_url: "https://biocontainers.pro/tools/bcalm"
 aliases:

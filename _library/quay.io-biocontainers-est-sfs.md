@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/est-sfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/est-sfs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/est-sfs/container.yaml"
-updated_at: "2026-09-09 07:46:04.486817"
+updated_at: "2026-09-10 07:33:08.230376"
 latest: "2.04--h985cbd6_1"
 container_url: "https://biocontainers.pro/tools/est-sfs"
 aliases:

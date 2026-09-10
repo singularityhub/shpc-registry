@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgnifam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgnifam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mgnifam/container.yaml"
-updated_at: "2026-09-09 07:58:52.859540"
+updated_at: "2026-09-10 07:42:54.977898"
 latest: "2.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mgnifam"
 aliases:

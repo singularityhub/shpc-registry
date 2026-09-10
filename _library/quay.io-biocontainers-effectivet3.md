@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/effectivet3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/effectivet3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/effectivet3/container.yaml"
-updated_at: "2026-09-09 07:18:41.083010"
+updated_at: "2026-09-10 07:12:23.838092"
 latest: "1.0.1--py35_0"
 container_url: "https://biocontainers.pro/tools/effectivet3"
 aliases:

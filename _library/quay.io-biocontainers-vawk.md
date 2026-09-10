@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vawk/container.yaml"
-updated_at: "2026-09-09 07:49:57.590061"
+updated_at: "2026-09-10 07:36:03.010339"
 latest: "0.0.2--py_4"
 container_url: "https://biocontainers.pro/tools/vawk"
 aliases:

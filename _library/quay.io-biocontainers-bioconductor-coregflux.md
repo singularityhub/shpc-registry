@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-coregflux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-coregflux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-coregflux/container.yaml"
-updated_at: "2026-09-09 07:43:21.189432"
+updated_at: "2026-09-10 07:31:05.790053"
 latest: "1.6.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-coregflux"
 aliases:

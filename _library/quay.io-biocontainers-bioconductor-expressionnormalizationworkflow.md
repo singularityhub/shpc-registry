@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-expressionnormalizationworkflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-expressionnormalizationworkflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-expressionnormalizationworkflow/container.yaml"
-updated_at: "2026-09-09 07:17:02.641281"
+updated_at: "2026-09-10 07:11:11.362235"
 latest: "1.16.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-expressionnormalizationworkflow"
 aliases:

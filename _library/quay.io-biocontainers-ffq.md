@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ffq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ffq/container.yaml"
-updated_at: "2026-09-09 07:14:41.652486"
+updated_at: "2026-09-10 07:09:25.581291"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ffq"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-linx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-linx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-linx/container.yaml"
-updated_at: "2026-09-09 07:22:11.140084"
+updated_at: "2026-09-10 07:14:57.731652"
 latest: "2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-linx"
 aliases:

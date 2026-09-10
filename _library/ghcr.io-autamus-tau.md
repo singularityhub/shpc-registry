@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/tau"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/tau/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/tau/container.yaml"
-updated_at: "2026-09-09 07:10:56.190095"
+updated_at: "2026-09-10 07:06:40.124218"
 latest: "2.31"
 container_url: "https://github.com/orgs/autamus/packages/container/package/tau"
 

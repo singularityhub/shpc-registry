@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pcasuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcasuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcasuite/container.yaml"
-updated_at: "2026-09-09 07:21:45.816552"
+updated_at: "2026-09-10 07:14:39.283542"
 latest: "1.0.0--h7baada4_6"
 container_url: "https://biocontainers.pro/tools/pcasuite"
 aliases:

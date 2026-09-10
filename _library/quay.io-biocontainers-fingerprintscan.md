@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fingerprintscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fingerprintscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fingerprintscan/container.yaml"
-updated_at: "2026-09-09 07:31:08.592230"
+updated_at: "2026-09-10 07:21:49.994174"
 latest: "3_597--h9948957_5"
 container_url: "https://biocontainers.pro/tools/fingerprintscan"
 aliases:

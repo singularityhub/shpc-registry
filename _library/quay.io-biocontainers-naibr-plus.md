@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/naibr-plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/naibr-plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/naibr-plus/container.yaml"
-updated_at: "2026-09-09 07:30:19.361423"
+updated_at: "2026-09-10 07:21:11.898463"
 latest: "0.5.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/naibr-plus"
 aliases:

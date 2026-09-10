@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vmrseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vmrseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vmrseq/container.yaml"
-updated_at: "2026-09-09 07:14:02.825001"
+updated_at: "2026-09-10 07:08:56.725963"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vmrseq"
 aliases:

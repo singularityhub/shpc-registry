@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyspoars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyspoars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyspoars/container.yaml"
-updated_at: "2026-09-09 07:21:02.185340"
+updated_at: "2026-09-10 07:14:07.436058"
 latest: "0.1.3--py310hce5ca29_0"
 container_url: "https://biocontainers.pro/tools/pyspoars"
 aliases:
