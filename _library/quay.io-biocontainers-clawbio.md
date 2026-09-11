@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clawbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clawbio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clawbio/container.yaml"
-updated_at: "2026-09-10 07:35:18.093244"
+updated_at: "2026-09-11 07:41:13.947314"
 latest: "0.6.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/clawbio"
 aliases:

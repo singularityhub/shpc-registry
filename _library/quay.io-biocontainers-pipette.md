@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pipette"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipette/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pipette/container.yaml"
-updated_at: "2026-09-10 07:32:38.983242"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-09-11 07:37:58.584139"
+latest: "0.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pipette"
 aliases:
  - "idle3.14"
@@ -15,8 +15,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for pipette"
-config: {"url": "https://biocontainers.pro/tools/pipette", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pipette", "latest": {"0.1.0--pyhdfd78af_0": "sha256:6c74e61344bb9397eebfb93e5dd61b58cd9578eaf1cc3e27e4f66d471fb77807"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:6c74e61344bb9397eebfb93e5dd61b58cd9578eaf1cc3e27e4f66d471fb77807"}, "docker": "quay.io/biocontainers/pipette", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/pipette", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pipette", "latest": {"0.2.1--pyhdfd78af_0": "sha256:60308cb7978e5df7dc55922f4f3233bd02650bf246fcf542cc948e145836599b"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:6c74e61344bb9397eebfb93e5dd61b58cd9578eaf1cc3e27e4f66d471fb77807", "0.2.1--pyhdfd78af_0": "sha256:60308cb7978e5df7dc55922f4f3233bd02650bf246fcf542cc948e145836599b"}, "docker": "quay.io/biocontainers/pipette", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pipette.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pipette
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pipette:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/pipette:0.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pipette/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/pipette/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/pipette/0.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/pipette/0.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

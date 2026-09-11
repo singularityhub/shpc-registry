@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bppsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bppsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bppsuite/container.yaml"
-updated_at: "2026-09-10 07:22:44.401403"
+updated_at: "2026-09-11 07:25:54.211660"
 latest: "3.0.0--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/bppsuite"
 aliases:

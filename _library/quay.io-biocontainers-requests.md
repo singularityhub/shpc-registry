@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/requests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests/container.yaml"
-updated_at: "2026-09-10 07:18:49.543569"
+updated_at: "2026-09-11 07:21:09.971772"
 latest: "2.26.0"
 container_url: "https://biocontainers.pro/tools/requests"
 

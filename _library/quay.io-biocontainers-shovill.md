@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/shovill"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shovill/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shovill/container.yaml"
-updated_at: "2026-09-10 07:51:43.701269"
-latest: "1.4.2--hdfd78af_0"
+updated_at: "2026-09-11 08:01:40.674938"
+latest: "1.4.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/shovill"
 
 versions:
  - "1.1.0--hdfd78af_1"
  - "1.1.0--hdfd78af_2"
  - "1.4.2--hdfd78af_0"
+ - "1.4.2--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for shovill"
-config: {"url": "https://biocontainers.pro/tools/shovill", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shovill", "latest": {"1.4.2--hdfd78af_0": "sha256:24d815f3cd7618077b52c910346ae45143b7a3ac659ef50f2521420affa6f2d0"}, "tags": {"1.1.0--hdfd78af_1": "sha256:4303a5f80d7a33418ca12db8b956215f89fb21ae48f510479e8d7710a182fc30", "1.1.0--hdfd78af_2": "sha256:bd8d06655a27b6a76fb2b2406653e52bafe27320efc1c67ba5e73a8dfd2f5983", "1.4.2--hdfd78af_0": "sha256:24d815f3cd7618077b52c910346ae45143b7a3ac659ef50f2521420affa6f2d0"}, "docker": "quay.io/biocontainers/shovill"}
+config: {"url": "https://biocontainers.pro/tools/shovill", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shovill", "latest": {"1.4.2--hdfd78af_1": "sha256:d44355aafd0839398e662013b9af079b53a533d07022ff8c3aa5fa7b55e0d0de"}, "tags": {"1.1.0--hdfd78af_1": "sha256:4303a5f80d7a33418ca12db8b956215f89fb21ae48f510479e8d7710a182fc30", "1.1.0--hdfd78af_2": "sha256:bd8d06655a27b6a76fb2b2406653e52bafe27320efc1c67ba5e73a8dfd2f5983", "1.4.2--hdfd78af_0": "sha256:24d815f3cd7618077b52c910346ae45143b7a3ac659ef50f2521420affa6f2d0", "1.4.2--hdfd78af_1": "sha256:d44355aafd0839398e662013b9af079b53a533d07022ff8c3aa5fa7b55e0d0de"}, "docker": "quay.io/biocontainers/shovill"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shovill.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/shovill
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/shovill:1.4.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/shovill:1.4.2--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/shovill/1.4.2--hdfd78af_0
-$ module help quay.io/biocontainers/shovill/1.4.2--hdfd78af_0
+$ module load quay.io/biocontainers/shovill/1.4.2--hdfd78af_1
+$ module help quay.io/biocontainers/shovill/1.4.2--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

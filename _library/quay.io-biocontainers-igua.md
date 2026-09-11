@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/igua"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igua/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igua/container.yaml"
-updated_at: "2026-09-10 07:09:00.666678"
-latest: "0.2.1--py312he7d644a_0"
+updated_at: "2026-09-11 07:09:14.076216"
+latest: "0.2.3--py311heb3b1e3_0"
 container_url: "https://biocontainers.pro/tools/igua"
 aliases:
  - "igua"
@@ -38,8 +38,9 @@ versions:
  - "0.1.0--py310hec43fc7_0"
  - "0.1.0--py39h5b94c0b_0"
  - "0.2.1--py312he7d644a_0"
+ - "0.2.3--py311heb3b1e3_0"
 description: "singularity registry hpc automated addition for igua"
-config: {"url": "https://biocontainers.pro/tools/igua", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for igua", "latest": {"0.2.1--py312he7d644a_0": "sha256:2a2eb5657e2ed4905baf4732baa34e0d246dd84cc101195e99c80ccb2fc9abf3"}, "tags": {"0.1.0--py310hec43fc7_0": "sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112", "0.1.0--py39h5b94c0b_0": "sha256:c67508d2d1ada627294724652c49ce25d6f83e21dc70233ccd84afc8df0fdc1d", "0.2.1--py312he7d644a_0": "sha256:2a2eb5657e2ed4905baf4732baa34e0d246dd84cc101195e99c80ccb2fc9abf3"}, "docker": "quay.io/biocontainers/igua", "aliases": {"igua": "/usr/local/bin/igua", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "h5fuse": "/usr/local/bin/h5fuse", "aria2c": "/usr/local/bin/aria2c", "gawkbug": "/usr/local/bin/gawkbug", "mmseqs": "/usr/local/bin/mmseqs", "markdown-it": "/usr/local/bin/markdown-it", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "h5delete": "/usr/local/bin/h5delete", "numpy-config": "/usr/local/bin/numpy-config", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam"}}
+config: {"url": "https://biocontainers.pro/tools/igua", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for igua", "latest": {"0.2.3--py311heb3b1e3_0": "sha256:9867d7eb307df7ba0a0955c7658cad4f3e5411b8985c730017c1e7128b443846"}, "tags": {"0.1.0--py310hec43fc7_0": "sha256:d6279512d5a4df86bdaa742a1a1ba353d968e079a1ee022a5a3be806b0549112", "0.1.0--py39h5b94c0b_0": "sha256:c67508d2d1ada627294724652c49ce25d6f83e21dc70233ccd84afc8df0fdc1d", "0.2.1--py312he7d644a_0": "sha256:2a2eb5657e2ed4905baf4732baa34e0d246dd84cc101195e99c80ccb2fc9abf3", "0.2.3--py311heb3b1e3_0": "sha256:9867d7eb307df7ba0a0955c7658cad4f3e5411b8985c730017c1e7128b443846"}, "docker": "quay.io/biocontainers/igua", "aliases": {"igua": "/usr/local/bin/igua", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "h5fuse": "/usr/local/bin/h5fuse", "aria2c": "/usr/local/bin/aria2c", "gawkbug": "/usr/local/bin/gawkbug", "mmseqs": "/usr/local/bin/mmseqs", "markdown-it": "/usr/local/bin/markdown-it", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "h5delete": "/usr/local/bin/h5delete", "numpy-config": "/usr/local/bin/numpy-config", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "h5fc": "/usr/local/bin/h5fc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igua.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/igua
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/igua:0.2.1--py312he7d644a_0
+$ shpc install quay.io/biocontainers/igua:0.2.3--py311heb3b1e3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/igua/0.2.1--py312he7d644a_0
-$ module help quay.io/biocontainers/igua/0.2.1--py312he7d644a_0
+$ module load quay.io/biocontainers/igua/0.2.3--py311heb3b1e3_0
+$ module help quay.io/biocontainers/igua/0.2.3--py311heb3b1e3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

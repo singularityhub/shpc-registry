@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/superintervals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/superintervals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/superintervals/container.yaml"
-updated_at: "2026-09-10 07:52:22.353177"
+updated_at: "2026-09-11 08:02:28.833118"
 latest: "1.0.0--py310h96c7dba_0"
 container_url: "https://biocontainers.pro/tools/superintervals"
 aliases:

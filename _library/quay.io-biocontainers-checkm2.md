@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/checkm2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkm2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkm2/container.yaml"
-updated_at: "2026-09-10 07:45:09.990757"
+updated_at: "2026-09-11 07:53:31.301647"
 latest: "1.1.0--pyh7e72e81_1"
 container_url: "https://biocontainers.pro/tools/checkm2"
 aliases:

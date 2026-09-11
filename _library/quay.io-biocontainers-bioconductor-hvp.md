@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hvp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hvp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hvp/container.yaml"
-updated_at: "2026-09-10 07:14:10.922249"
+updated_at: "2026-09-11 07:15:32.957870"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hvp"
 aliases:
