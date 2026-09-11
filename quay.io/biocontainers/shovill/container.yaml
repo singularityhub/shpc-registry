@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/shovill
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shovill
 latest:
-  1.4.2--hdfd78af_0: 
-    sha256:24d815f3cd7618077b52c910346ae45143b7a3ac659ef50f2521420affa6f2d0
+  1.4.2--hdfd78af_1: 
+    sha256:d44355aafd0839398e662013b9af079b53a533d07022ff8c3aa5fa7b55e0d0de
 tags:
   1.1.0--hdfd78af_1: 
     sha256:4303a5f80d7a33418ca12db8b956215f89fb21ae48f510479e8d7710a182fc30
@@ -11,4 +11,6 @@ tags:
     sha256:bd8d06655a27b6a76fb2b2406653e52bafe27320efc1c67ba5e73a8dfd2f5983
   1.4.2--hdfd78af_0: 
     sha256:24d815f3cd7618077b52c910346ae45143b7a3ac659ef50f2521420affa6f2d0
+  1.4.2--hdfd78af_1: 
+    sha256:d44355aafd0839398e662013b9af079b53a533d07022ff8c3aa5fa7b55e0d0de
 docker: quay.io/biocontainers/shovill

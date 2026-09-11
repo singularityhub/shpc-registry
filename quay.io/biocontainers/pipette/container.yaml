@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/pipette
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for pipette
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:6c74e61344bb9397eebfb93e5dd61b58cd9578eaf1cc3e27e4f66d471fb77807
+  0.2.1--pyhdfd78af_0: 
+    sha256:60308cb7978e5df7dc55922f4f3233bd02650bf246fcf542cc948e145836599b
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:6c74e61344bb9397eebfb93e5dd61b58cd9578eaf1cc3e27e4f66d471fb77807
+  0.2.1--pyhdfd78af_0: 
+    sha256:60308cb7978e5df7dc55922f4f3233bd02650bf246fcf542cc948e145836599b
 docker: quay.io/biocontainers/pipette
 aliases:
   idle3.14: /usr/local/bin/idle3.14
