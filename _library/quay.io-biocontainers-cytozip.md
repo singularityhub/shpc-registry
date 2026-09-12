@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cytozip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cytozip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cytozip/container.yaml"
-updated_at: "2026-09-11 07:27:44.906584"
+updated_at: "2026-09-12 07:21:53.251158"
 latest: "0.3.5--py310h47228ae_0"
 container_url: "https://biocontainers.pro/tools/cytozip"
 aliases:

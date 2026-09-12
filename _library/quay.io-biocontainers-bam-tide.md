@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bam-tide"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam-tide/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bam-tide/container.yaml"
-updated_at: "2026-09-11 07:25:16.648832"
+updated_at: "2026-09-12 07:19:19.251395"
 latest: "1.2.3--hdaf81d9_0"
 container_url: "https://biocontainers.pro/tools/bam-tide"
 aliases:

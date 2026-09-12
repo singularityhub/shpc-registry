@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-devel-cover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-cover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-cover/container.yaml"
-updated_at: "2026-09-11 07:07:34.295350"
+updated_at: "2026-09-12 07:00:40.759862"
 latest: "1.33--pl526h14c3975_0"
 container_url: "https://biocontainers.pro/tools/perl-devel-cover"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-sartools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sartools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sartools/container.yaml"
-updated_at: "2026-09-11 07:49:11.628603"
+updated_at: "2026-09-12 07:44:19.905369"
 latest: "1.8.1--r43hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-sartools"
 aliases:

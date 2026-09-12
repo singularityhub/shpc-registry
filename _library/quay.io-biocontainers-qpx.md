@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qpx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qpx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qpx/container.yaml"
-updated_at: "2026-09-11 07:45:33.351867"
+updated_at: "2026-09-12 07:40:34.508144"
 latest: "1.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/qpx"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-clean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-clean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-clean/container.yaml"
-updated_at: "2026-09-11 07:16:17.284960"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-12 07:09:48.242832"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-clean"
 aliases:
  - "enzywizard-clean"
@@ -19,8 +19,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-clean"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-clean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-clean", "latest": {"1.0.2--pyhdfd78af_0": "sha256:acb180f9a4a5306920492bc8bf1b7998576342b3265a86c84964ae7ac51bf7d6"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:acb180f9a4a5306920492bc8bf1b7998576342b3265a86c84964ae7ac51bf7d6"}, "docker": "quay.io/biocontainers/enzywizard-clean", "aliases": {"enzywizard-clean": "/usr/local/bin/enzywizard-clean", "pdbfixer": "/usr/local/bin/pdbfixer", "rdhc": "/usr/local/bin/rdhc", "cllayerinfo": "/usr/local/bin/cllayerinfo", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-clean", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-clean", "latest": {"1.0.3--pyhdfd78af_0": "sha256:e7c64873ebd3a206e9d7487baa7245b84617bcae6d5c2129e1967dd0d11fa2e6"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:acb180f9a4a5306920492bc8bf1b7998576342b3265a86c84964ae7ac51bf7d6", "1.0.3--pyhdfd78af_0": "sha256:e7c64873ebd3a206e9d7487baa7245b84617bcae6d5c2129e1967dd0d11fa2e6"}, "docker": "quay.io/biocontainers/enzywizard-clean", "aliases": {"enzywizard-clean": "/usr/local/bin/enzywizard-clean", "pdbfixer": "/usr/local/bin/pdbfixer", "rdhc": "/usr/local/bin/rdhc", "cllayerinfo": "/usr/local/bin/cllayerinfo", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-clean.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/enzywizard-clean
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-clean:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-clean:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-clean/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-clean/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-clean/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-clean/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/peaksql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peaksql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/peaksql/container.yaml"
-updated_at: "2026-09-11 08:02:26.281086"
+updated_at: "2026-09-12 07:57:53.889529"
 latest: "0.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/peaksql"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-kmcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kmcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kmcut/container.yaml"
-updated_at: "2026-09-11 07:24:12.521026"
+updated_at: "2026-09-12 07:18:12.201980"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kmcut"
 aliases:

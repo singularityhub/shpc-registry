@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/juicebox_scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/juicebox_scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/juicebox_scripts/container.yaml"
-updated_at: "2026-09-11 07:12:09.006959"
+updated_at: "2026-09-12 07:05:25.633411"
 latest: "0.1.0gita7ae991--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/juicebox_scripts"
 aliases:

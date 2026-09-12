@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bqc/container.yaml"
-updated_at: "2026-09-11 07:51:34.075652"
-latest: "0.0.2--hfa8f182_0"
+updated_at: "2026-09-12 07:46:45.976601"
+latest: "0.0.3--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/bqc"
 aliases:
  - "bqc"
 versions:
  - "0.0.2--hfa8f182_0"
+ - "0.0.3--hfa8f182_0"
 description: "singularity registry hpc automated addition for bqc"
-config: {"url": "https://biocontainers.pro/tools/bqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bqc", "latest": {"0.0.2--hfa8f182_0": "sha256:0256618744412fc3295eb80be342eeff3435bc3d9c7f9662d8a9c786a8e135aa"}, "tags": {"0.0.2--hfa8f182_0": "sha256:0256618744412fc3295eb80be342eeff3435bc3d9c7f9662d8a9c786a8e135aa"}, "docker": "quay.io/biocontainers/bqc", "aliases": {"bqc": "/usr/local/bin/bqc"}}
+config: {"url": "https://biocontainers.pro/tools/bqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bqc", "latest": {"0.0.3--hfa8f182_0": "sha256:61b81bb5637d84f057dc6be9b0ed1610ffc11aee088c9c25ab733c9e25fe8057"}, "tags": {"0.0.2--hfa8f182_0": "sha256:0256618744412fc3295eb80be342eeff3435bc3d9c7f9662d8a9c786a8e135aa", "0.0.3--hfa8f182_0": "sha256:61b81bb5637d84f057dc6be9b0ed1610ffc11aee088c9c25ab733c9e25fe8057"}, "docker": "quay.io/biocontainers/bqc", "aliases": {"bqc": "/usr/local/bin/bqc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bqc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bqc:0.0.2--hfa8f182_0
+$ shpc install quay.io/biocontainers/bqc:0.0.3--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bqc/0.0.2--hfa8f182_0
-$ module help quay.io/biocontainers/bqc/0.0.2--hfa8f182_0
+$ module load quay.io/biocontainers/bqc/0.0.3--hfa8f182_0
+$ module help quay.io/biocontainers/bqc/0.0.3--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

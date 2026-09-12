@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmftools-cider"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-cider/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-cider/container.yaml"
-updated_at: "2026-09-11 07:34:46.165051"
+updated_at: "2026-09-12 07:29:17.860652"
 latest: "1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-cider"
 aliases:

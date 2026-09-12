@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/atol-data-broker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atol-data-broker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atol-data-broker/container.yaml"
-updated_at: "2026-09-11 07:14:28.125528"
+updated_at: "2026-09-12 07:07:52.918588"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/atol-data-broker"
 aliases:

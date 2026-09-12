@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lapointe.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lapointe.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lapointe.db/container.yaml"
-updated_at: "2026-09-11 07:10:44.753438"
+updated_at: "2026-09-12 07:03:58.068504"
 latest: "3.2.3--r45hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-lapointe.db"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-disorder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-disorder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-disorder/container.yaml"
-updated_at: "2026-09-11 07:15:01.337269"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-12 07:08:27.925143"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-disorder"
 aliases:
  - "enzywizard-disorder"
@@ -16,8 +16,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-disorder"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-disorder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-disorder", "latest": {"1.0.2--pyhdfd78af_0": "sha256:8b00cc8b24d8e2f70ecb1c23deec3629230855f145e5dab9271cb65166168990"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:8b00cc8b24d8e2f70ecb1c23deec3629230855f145e5dab9271cb65166168990"}, "docker": "quay.io/biocontainers/enzywizard-disorder", "aliases": {"enzywizard-disorder": "/usr/local/bin/enzywizard-disorder", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-disorder", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-disorder", "latest": {"1.0.3--pyhdfd78af_0": "sha256:78bfd1de77ad802d45d37dc4f8b141a7e4216864cb7c2e3ac813b6efe8853197"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:8b00cc8b24d8e2f70ecb1c23deec3629230855f145e5dab9271cb65166168990", "1.0.3--pyhdfd78af_0": "sha256:78bfd1de77ad802d45d37dc4f8b141a7e4216864cb7c2e3ac813b6efe8853197"}, "docker": "quay.io/biocontainers/enzywizard-disorder", "aliases": {"enzywizard-disorder": "/usr/local/bin/enzywizard-disorder", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-disorder.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/enzywizard-disorder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-disorder:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-disorder:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-disorder/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-disorder/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-disorder/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-disorder/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

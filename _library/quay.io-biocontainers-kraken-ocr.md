@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kraken-ocr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken-ocr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kraken-ocr/container.yaml"
-updated_at: "2026-09-11 07:33:12.605030"
-latest: "7.0.2"
+updated_at: "2026-09-12 07:27:38.963941"
+latest: "7.1.1"
 container_url: "https://biocontainers.pro/tools/kraken-ocr"
 aliases:
  - "4channels"
@@ -66,8 +66,9 @@ aliases:
  - "dbrunsli"
 versions:
  - "7.0.2"
+ - "7.1.1"
 description: "singularity registry hpc automated addition for kraken-ocr"
-config: {"url": "https://biocontainers.pro/tools/kraken-ocr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kraken-ocr", "latest": {"7.0.2": "sha256:8f6e38c5440bcf97c3c28c1fd8c208f09688842dec1937aab662c8ef5cd2945e"}, "tags": {"7.0.2": "sha256:8f6e38c5440bcf97c3c28c1fd8c208f09688842dec1937aab662c8ef5cd2945e"}, "docker": "quay.io/biocontainers/kraken-ocr", "aliases": {"4channels": "/usr/local/bin/4channels", "cffi-gen-src": "/usr/local/bin/cffi-gen-src", "cookbook": "/usr/local/bin/cookbook", "dcm-dump": "/usr/local/bin/dcm-dump", "dcm-getframe": "/usr/local/bin/dcm-getframe", "dcraw_emu": "/usr/local/bin/dcraw_emu", "dcraw_half": "/usr/local/bin/dcraw_half", "fabric": "/usr/local/bin/fabric", "fitsverify": "/usr/local/bin/fitsverify", "half_mt": "/usr/local/bin/half_mt", "htrmopo": "/usr/local/bin/htrmopo", "ketos": "/usr/local/bin/ketos", "matdump": "/usr/local/bin/matdump", "mem_image": "/usr/local/bin/mem_image", "multirender_test": "/usr/local/bin/multirender_test", "openslide-quickhash1sum": "/usr/local/bin/openslide-quickhash1sum", "openslide-show-properties": "/usr/local/bin/openslide-show-properties", "openslide-write-png": "/usr/local/bin/openslide-write-png", "postprocessing_benchmark": "/usr/local/bin/postprocessing_benchmark", "pyaml": "/usr/local/bin/pyaml", "pybidi": "/usr/local/bin/pybidi", "raw-identify": "/usr/local/bin/raw-identify", "rawtextdump": "/usr/local/bin/rawtextdump", "simple_dcraw": "/usr/local/bin/simple_dcraw", "slidetool": "/usr/local/bin/slidetool", "speed": "/usr/local/bin/speed", "unprocessed_raw": "/usr/local/bin/unprocessed_raw", "vips": "/usr/local/bin/vips", "vipsedit": "/usr/local/bin/vipsedit", "vipsheader": "/usr/local/bin/vipsheader", "vipsthumbnail": "/usr/local/bin/vipsthumbnail", "kraken": "/usr/local/bin/kraken", "jiv": "/usr/local/bin/jiv", "imgcmp": "/usr/local/bin/imgcmp", "imginfo": "/usr/local/bin/imginfo", "jasper": "/usr/local/bin/jasper", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "fc-genconf": "/usr/local/bin/fc-genconf", "pdfsig": "/usr/local/bin/pdfsig", "dec265": "/usr/local/bin/dec265", "dot_sandbox": "/usr/local/bin/dot_sandbox", "idna": "/usr/local/bin/idna", "bsdunzip": "/usr/local/bin/bsdunzip", "pdfattach": "/usr/local/bin/pdfattach", "skivi": "/usr/local/bin/skivi", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli"}}
+config: {"url": "https://biocontainers.pro/tools/kraken-ocr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for kraken-ocr", "latest": {"7.1.1": "sha256:14104afd82e7f20ad383e3339414938855c0880d22c2a81bc40d0b6092f887d2"}, "tags": {"7.0.2": "sha256:8f6e38c5440bcf97c3c28c1fd8c208f09688842dec1937aab662c8ef5cd2945e", "7.1.1": "sha256:14104afd82e7f20ad383e3339414938855c0880d22c2a81bc40d0b6092f887d2"}, "docker": "quay.io/biocontainers/kraken-ocr", "aliases": {"4channels": "/usr/local/bin/4channels", "cffi-gen-src": "/usr/local/bin/cffi-gen-src", "cookbook": "/usr/local/bin/cookbook", "dcm-dump": "/usr/local/bin/dcm-dump", "dcm-getframe": "/usr/local/bin/dcm-getframe", "dcraw_emu": "/usr/local/bin/dcraw_emu", "dcraw_half": "/usr/local/bin/dcraw_half", "fabric": "/usr/local/bin/fabric", "fitsverify": "/usr/local/bin/fitsverify", "half_mt": "/usr/local/bin/half_mt", "htrmopo": "/usr/local/bin/htrmopo", "ketos": "/usr/local/bin/ketos", "matdump": "/usr/local/bin/matdump", "mem_image": "/usr/local/bin/mem_image", "multirender_test": "/usr/local/bin/multirender_test", "openslide-quickhash1sum": "/usr/local/bin/openslide-quickhash1sum", "openslide-show-properties": "/usr/local/bin/openslide-show-properties", "openslide-write-png": "/usr/local/bin/openslide-write-png", "postprocessing_benchmark": "/usr/local/bin/postprocessing_benchmark", "pyaml": "/usr/local/bin/pyaml", "pybidi": "/usr/local/bin/pybidi", "raw-identify": "/usr/local/bin/raw-identify", "rawtextdump": "/usr/local/bin/rawtextdump", "simple_dcraw": "/usr/local/bin/simple_dcraw", "slidetool": "/usr/local/bin/slidetool", "speed": "/usr/local/bin/speed", "unprocessed_raw": "/usr/local/bin/unprocessed_raw", "vips": "/usr/local/bin/vips", "vipsedit": "/usr/local/bin/vipsedit", "vipsheader": "/usr/local/bin/vipsheader", "vipsthumbnail": "/usr/local/bin/vipsthumbnail", "kraken": "/usr/local/bin/kraken", "jiv": "/usr/local/bin/jiv", "imgcmp": "/usr/local/bin/imgcmp", "imginfo": "/usr/local/bin/imginfo", "jasper": "/usr/local/bin/jasper", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "fc-genconf": "/usr/local/bin/fc-genconf", "pdfsig": "/usr/local/bin/pdfsig", "dec265": "/usr/local/bin/dec265", "dot_sandbox": "/usr/local/bin/dot_sandbox", "idna": "/usr/local/bin/idna", "bsdunzip": "/usr/local/bin/bsdunzip", "pdfattach": "/usr/local/bin/pdfattach", "skivi": "/usr/local/bin/skivi", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "gtk-builder-tool": "/usr/local/bin/gtk-builder-tool", "gtk-encode-symbolic-svg": "/usr/local/bin/gtk-encode-symbolic-svg", "gtk-launch": "/usr/local/bin/gtk-launch", "gtk-query-immodules-3.0": "/usr/local/bin/gtk-query-immodules-3.0", "gtk-query-settings": "/usr/local/bin/gtk-query-settings", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kraken-ocr.
@@ -82,7 +83,7 @@ $ shpc install quay.io/biocontainers/kraken-ocr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kraken-ocr:7.0.2
+$ shpc install quay.io/biocontainers/kraken-ocr:7.1.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -94,8 +95,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kraken-ocr/7.0.2
-$ module help quay.io/biocontainers/kraken-ocr/7.0.2
+$ module load quay.io/biocontainers/kraken-ocr/7.1.1
+$ module help quay.io/biocontainers/kraken-ocr/7.1.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

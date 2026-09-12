@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-test-pod-coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-pod-coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-pod-coverage/container.yaml"
-updated_at: "2026-09-11 07:59:20.139045"
+updated_at: "2026-09-12 07:54:44.787420"
 latest: "1.10--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-test-pod-coverage"
 aliases:

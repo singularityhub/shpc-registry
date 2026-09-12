@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-benchdamic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-benchdamic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-benchdamic/container.yaml"
-updated_at: "2026-09-11 07:11:39.013223"
+updated_at: "2026-09-12 07:04:54.542619"
 latest: "1.6.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-benchdamic"
 

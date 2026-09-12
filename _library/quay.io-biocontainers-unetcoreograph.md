@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unetcoreograph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unetcoreograph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unetcoreograph/container.yaml"
-updated_at: "2026-09-11 07:28:21.855806"
+updated_at: "2026-09-12 07:22:32.379070"
 latest: "2.4.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/unetcoreograph"
 aliases:

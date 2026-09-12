@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-s4arrays"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-s4arrays/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-s4arrays/container.yaml"
-updated_at: "2026-09-11 07:52:29.189334"
+updated_at: "2026-09-12 07:47:42.227258"
 latest: "1.6.0--r44h3df3fcb_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-s4arrays"
 aliases:

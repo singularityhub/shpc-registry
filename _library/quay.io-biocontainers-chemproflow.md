@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chemproflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chemproflow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chemproflow/container.yaml"
-updated_at: "2026-09-11 07:18:44.560382"
-latest: "1.2.0--pyh106432d_0"
+updated_at: "2026-09-12 07:12:24.234241"
+latest: "1.3.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/chemproflow"
 aliases:
  - "chemproflow"
@@ -39,8 +39,9 @@ aliases:
  - "ldapurl"
 versions:
  - "1.2.0--pyh106432d_0"
+ - "1.3.2--pyh106432d_0"
 description: "singularity registry hpc automated addition for chemproflow"
-config: {"url": "https://biocontainers.pro/tools/chemproflow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chemproflow", "latest": {"1.2.0--pyh106432d_0": "sha256:8f4f76ac6eaf8d6be13e15a278acfba9f4e327b4e6ab2216bea617c340efe86c"}, "tags": {"1.2.0--pyh106432d_0": "sha256:8f4f76ac6eaf8d6be13e15a278acfba9f4e327b4e6ab2216bea617c340efe86c"}, "docker": "quay.io/biocontainers/chemproflow", "aliases": {"chemproflow": "/usr/local/bin/chemproflow", "fabric": "/usr/local/bin/fabric", "optuna": "/usr/local/bin/optuna", "sparqlquery": "/usr/local/bin/sparqlquery", "community": "/usr/local/bin/community", "alembic": "/usr/local/bin/alembic", "xxh3sum": "/usr/local/bin/xxh3sum", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "mako-render": "/usr/local/bin/mako-render", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "idna": "/usr/local/bin/idna", "fc-genconf": "/usr/local/bin/fc-genconf", "torchfrtrace": "/usr/local/bin/torchfrtrace", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl"}}
+config: {"url": "https://biocontainers.pro/tools/chemproflow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for chemproflow", "latest": {"1.3.2--pyh106432d_0": "sha256:30ec739caa4df58ab2bbff0dda72f1d3035b395f63966312cde3255cbb74f65e"}, "tags": {"1.2.0--pyh106432d_0": "sha256:8f4f76ac6eaf8d6be13e15a278acfba9f4e327b4e6ab2216bea617c340efe86c", "1.3.2--pyh106432d_0": "sha256:30ec739caa4df58ab2bbff0dda72f1d3035b395f63966312cde3255cbb74f65e"}, "docker": "quay.io/biocontainers/chemproflow", "aliases": {"chemproflow": "/usr/local/bin/chemproflow", "fabric": "/usr/local/bin/fabric", "optuna": "/usr/local/bin/optuna", "sparqlquery": "/usr/local/bin/sparqlquery", "community": "/usr/local/bin/community", "alembic": "/usr/local/bin/alembic", "xxh3sum": "/usr/local/bin/xxh3sum", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "mako-render": "/usr/local/bin/mako-render", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "idna": "/usr/local/bin/idna", "fc-genconf": "/usr/local/bin/fc-genconf", "torchfrtrace": "/usr/local/bin/torchfrtrace", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chemproflow.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/chemproflow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chemproflow:1.2.0--pyh106432d_0
+$ shpc install quay.io/biocontainers/chemproflow:1.3.2--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chemproflow/1.2.0--pyh106432d_0
-$ module help quay.io/biocontainers/chemproflow/1.2.0--pyh106432d_0
+$ module load quay.io/biocontainers/chemproflow/1.3.2--pyh106432d_0
+$ module help quay.io/biocontainers/chemproflow/1.3.2--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

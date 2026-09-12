@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyspoars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyspoars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyspoars/container.yaml"
-updated_at: "2026-09-11 07:15:28.794920"
-latest: "0.1.3--py310hce5ca29_0"
+updated_at: "2026-09-12 07:08:56.746095"
+latest: "0.1.4--py313h9a1e870_0"
 container_url: "https://biocontainers.pro/tools/pyspoars"
 aliases:
  - "2to3-3.10"
@@ -15,8 +15,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.3--py310hce5ca29_0"
+ - "0.1.4--py313h9a1e870_0"
 description: "singularity registry hpc automated addition for pyspoars"
-config: {"url": "https://biocontainers.pro/tools/pyspoars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyspoars", "latest": {"0.1.3--py310hce5ca29_0": "sha256:ee19380a1793d649877c0933f87863f9b2efdfcf7749dc23de4c61cd4247f811"}, "tags": {"0.1.3--py310hce5ca29_0": "sha256:ee19380a1793d649877c0933f87863f9b2efdfcf7749dc23de4c61cd4247f811"}, "docker": "quay.io/biocontainers/pyspoars", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyspoars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pyspoars", "latest": {"0.1.4--py313h9a1e870_0": "sha256:5394236ef1d045356c18ab07cdcb4802202b9fff9a037544387d971e9b109192"}, "tags": {"0.1.3--py310hce5ca29_0": "sha256:ee19380a1793d649877c0933f87863f9b2efdfcf7749dc23de4c61cd4247f811", "0.1.4--py313h9a1e870_0": "sha256:5394236ef1d045356c18ab07cdcb4802202b9fff9a037544387d971e9b109192"}, "docker": "quay.io/biocontainers/pyspoars", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyspoars.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pyspoars
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyspoars:0.1.3--py310hce5ca29_0
+$ shpc install quay.io/biocontainers/pyspoars:0.1.4--py313h9a1e870_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyspoars/0.1.3--py310hce5ca29_0
-$ module help quay.io/biocontainers/pyspoars/0.1.3--py310hce5ca29_0
+$ module load quay.io/biocontainers/pyspoars/0.1.4--py313h9a1e870_0
+$ module help quay.io/biocontainers/pyspoars/0.1.4--py313h9a1e870_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

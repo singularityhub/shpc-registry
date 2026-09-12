@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/echidna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/echidna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/echidna/container.yaml"
-updated_at: "2026-09-11 07:44:20.894037"
+updated_at: "2026-09-12 07:39:19.639761"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/echidna"
 aliases:

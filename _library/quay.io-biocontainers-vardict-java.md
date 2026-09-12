@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/vardict-java"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vardict-java/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vardict-java/container.yaml"
-updated_at: "2026-09-11 07:57:56.791995"
-latest: "1.8.3--hdfd78af_0"
+updated_at: "2026-09-12 07:53:18.322731"
+latest: "1.8.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vardict-java"
 aliases:
  - "testsomatic.R"
@@ -25,8 +25,9 @@ aliases:
  - "rmic"
 versions:
  - "1.8.3--hdfd78af_0"
+ - "1.8.4--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vardict-java"
-config: {"url": "https://biocontainers.pro/tools/vardict-java", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vardict-java", "latest": {"1.8.3--hdfd78af_0": "sha256:4069c082c97470bce4a07f228dbf74b6ea3fc5c4eaa93ba76d2826a496ca3c44"}, "tags": {"1.8.3--hdfd78af_0": "sha256:4069c082c97470bce4a07f228dbf74b6ea3fc5c4eaa93ba76d2826a496ca3c44"}, "docker": "quay.io/biocontainers/vardict-java", "aliases": {"testsomatic.R": "/usr/local/bin/testsomatic.R", "teststrandbias.R": "/usr/local/bin/teststrandbias.R", "var2vcf_paired.pl": "/usr/local/bin/var2vcf_paired.pl", "var2vcf_valid.pl": "/usr/local/bin/var2vcf_valid.pl", "vardict-java": "/usr/local/bin/vardict-java", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
+config: {"url": "https://biocontainers.pro/tools/vardict-java", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vardict-java", "latest": {"1.8.4--hdfd78af_0": "sha256:b81ee1c818ad3b64de21137b3d7c0d4c6367205f719562d6b3a81e639dbb04f3"}, "tags": {"1.8.3--hdfd78af_0": "sha256:4069c082c97470bce4a07f228dbf74b6ea3fc5c4eaa93ba76d2826a496ca3c44", "1.8.4--hdfd78af_0": "sha256:b81ee1c818ad3b64de21137b3d7c0d4c6367205f719562d6b3a81e639dbb04f3"}, "docker": "quay.io/biocontainers/vardict-java", "aliases": {"testsomatic.R": "/usr/local/bin/testsomatic.R", "teststrandbias.R": "/usr/local/bin/teststrandbias.R", "var2vcf_paired.pl": "/usr/local/bin/var2vcf_paired.pl", "var2vcf_valid.pl": "/usr/local/bin/var2vcf_valid.pl", "vardict-java": "/usr/local/bin/vardict-java", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vardict-java.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/vardict-java
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vardict-java:1.8.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/vardict-java:1.8.4--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vardict-java/1.8.3--hdfd78af_0
-$ module help quay.io/biocontainers/vardict-java/1.8.3--hdfd78af_0
+$ module load quay.io/biocontainers/vardict-java/1.8.4--hdfd78af_0
+$ module help quay.io/biocontainers/vardict-java/1.8.4--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

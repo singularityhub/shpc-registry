@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emits/container.yaml"
-updated_at: "2026-09-11 07:20:12.999244"
+updated_at: "2026-09-12 07:13:57.361278"
 latest: "0.1.0--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/emits"
 aliases:
