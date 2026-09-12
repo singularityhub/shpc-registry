@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/clawbio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for clawbio
 latest:
-  0.6.1--pyh106432d_0: 
-    sha256:7c20549b748d3de3409c7ed4e9ecb4dd3e1bcd3e53ec89f7059c30441ff7f57d
+  0.7.1--pyh106432d_0: 
+    sha256:225a49db105fe0a19eb6b71037ff65411aa7f71c6120f553370667fbcfe407a4
 tags:
   0.5.2--pyh106432d_0: 
     sha256:2c09c6d88e664c7762f5cb31e0824cea0aeb4e0ea2810277dabb6f4b71a5d9fe
   0.6.1--pyh106432d_0: 
     sha256:7c20549b748d3de3409c7ed4e9ecb4dd3e1bcd3e53ec89f7059c30441ff7f57d
+  0.7.1--pyh106432d_0: 
+    sha256:225a49db105fe0a19eb6b71037ff65411aa7f71c6120f553370667fbcfe407a4
 docker: quay.io/biocontainers/clawbio
 aliases:
   clawbio: /usr/local/bin/clawbio

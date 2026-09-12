@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/kraken-ocr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for kraken-ocr
 latest:
-  7.0.2: sha256:8f6e38c5440bcf97c3c28c1fd8c208f09688842dec1937aab662c8ef5cd2945e
+  7.1.1: sha256:14104afd82e7f20ad383e3339414938855c0880d22c2a81bc40d0b6092f887d2
 tags:
   7.0.2: sha256:8f6e38c5440bcf97c3c28c1fd8c208f09688842dec1937aab662c8ef5cd2945e
+  7.1.1: sha256:14104afd82e7f20ad383e3339414938855c0880d22c2a81bc40d0b6092f887d2
 docker: quay.io/biocontainers/kraken-ocr
 aliases:
   4channels: /usr/local/bin/4channels

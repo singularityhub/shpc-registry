@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/enzywizard-clean
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for enzywizard-clean
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:acb180f9a4a5306920492bc8bf1b7998576342b3265a86c84964ae7ac51bf7d6
+  1.0.3--pyhdfd78af_0: 
+    sha256:e7c64873ebd3a206e9d7487baa7245b84617bcae6d5c2129e1967dd0d11fa2e6
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:acb180f9a4a5306920492bc8bf1b7998576342b3265a86c84964ae7ac51bf7d6
+  1.0.3--pyhdfd78af_0: 
+    sha256:e7c64873ebd3a206e9d7487baa7245b84617bcae6d5c2129e1967dd0d11fa2e6
 docker: quay.io/biocontainers/enzywizard-clean
 aliases:
   enzywizard-clean: /usr/local/bin/enzywizard-clean

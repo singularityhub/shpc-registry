@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/vardict-java
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vardict-java
 latest:
-  1.8.3--hdfd78af_0: 
-    sha256:4069c082c97470bce4a07f228dbf74b6ea3fc5c4eaa93ba76d2826a496ca3c44
+  1.8.4--hdfd78af_0: 
+    sha256:b81ee1c818ad3b64de21137b3d7c0d4c6367205f719562d6b3a81e639dbb04f3
 tags:
   1.8.3--hdfd78af_0: 
     sha256:4069c082c97470bce4a07f228dbf74b6ea3fc5c4eaa93ba76d2826a496ca3c44
+  1.8.4--hdfd78af_0: 
+    sha256:b81ee1c818ad3b64de21137b3d7c0d4c6367205f719562d6b3a81e639dbb04f3
 docker: quay.io/biocontainers/vardict-java
 aliases:
   testsomatic.R: /usr/local/bin/testsomatic.R

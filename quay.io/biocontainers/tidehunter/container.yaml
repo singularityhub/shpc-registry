@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/tidehunter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tidehunter
 latest:
-  1.5.6--h7f5d12c_0: 
-    sha256:3baa0f9bae1d7fbfaea9e70970d60b3f346f0c5609ae59b61574aec0e42325ae
+  1.5.6--h5814d7d_1: 
+    sha256:3f27a10b33c610353e5f47054c9e315b5852dd4ed99ea979196bdbf3f633d222
 tags:
   1.5.3--h5b5514e_1: 
     sha256:31584417a87d80a58d58623648ad5ae8f9c383769fbc92e8a2c4a503d85754a4
@@ -17,6 +17,8 @@ tags:
     sha256:0f4a8a410aafe3ada653a47bb40d28137b5930c5c418a1d64f97abed1184e669
   1.5.6--h7f5d12c_0: 
     sha256:3baa0f9bae1d7fbfaea9e70970d60b3f346f0c5609ae59b61574aec0e42325ae
+  1.5.6--h5814d7d_1: 
+    sha256:3f27a10b33c610353e5f47054c9e315b5852dd4ed99ea979196bdbf3f633d222
 docker: quay.io/biocontainers/tidehunter
 aliases:
   TideHunter: /usr/local/bin/TideHunter

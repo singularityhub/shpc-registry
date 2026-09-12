@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/chemproflow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for chemproflow
 latest:
-  1.2.0--pyh106432d_0: 
-    sha256:8f4f76ac6eaf8d6be13e15a278acfba9f4e327b4e6ab2216bea617c340efe86c
+  1.3.2--pyh106432d_0: 
+    sha256:30ec739caa4df58ab2bbff0dda72f1d3035b395f63966312cde3255cbb74f65e
 tags:
   1.2.0--pyh106432d_0: 
     sha256:8f4f76ac6eaf8d6be13e15a278acfba9f4e327b4e6ab2216bea617c340efe86c
+  1.3.2--pyh106432d_0: 
+    sha256:30ec739caa4df58ab2bbff0dda72f1d3035b395f63966312cde3255cbb74f65e
 docker: quay.io/biocontainers/chemproflow
 aliases:
   chemproflow: /usr/local/bin/chemproflow
