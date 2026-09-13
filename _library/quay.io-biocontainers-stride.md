@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stride"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stride/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stride/container.yaml"
-updated_at: "2026-09-12 07:07:10.322638"
+updated_at: "2026-09-13 07:24:03.395902"
 latest: "1.0--h8b12597_5"
 container_url: "https://biocontainers.pro/tools/stride"
 aliases:

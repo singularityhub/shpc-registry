@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paragone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paragone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paragone/container.yaml"
-updated_at: "2026-09-12 07:28:19.223672"
+updated_at: "2026-09-13 07:43:46.607713"
 latest: "1.1.5--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/paragone"
 aliases:

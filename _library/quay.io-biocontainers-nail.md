@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nail/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nail/container.yaml"
-updated_at: "2026-09-12 07:47:46.930122"
+updated_at: "2026-09-13 08:01:53.389335"
 latest: "0.5.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/nail"
 aliases:

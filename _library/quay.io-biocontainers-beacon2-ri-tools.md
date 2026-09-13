@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beacon2-ri-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beacon2-ri-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beacon2-ri-tools/container.yaml"
-updated_at: "2026-09-12 07:04:40.119877"
+updated_at: "2026-09-13 07:21:41.996658"
 latest: "2.2.0--py313hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beacon2-ri-tools"
 aliases:

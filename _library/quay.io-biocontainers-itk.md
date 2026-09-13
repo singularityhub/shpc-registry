@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/itk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/itk/container.yaml"
-updated_at: "2026-09-12 07:14:04.623963"
+updated_at: "2026-09-13 07:30:31.422049"
 latest: "4.10.1--py27_2"
 container_url: "https://biocontainers.pro/tools/itk"
 aliases:

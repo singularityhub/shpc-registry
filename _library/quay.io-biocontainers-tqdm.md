@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tqdm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tqdm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tqdm/container.yaml"
-updated_at: "2026-09-12 07:22:00.621839"
+updated_at: "2026-09-13 07:37:53.280636"
 latest: "4.7.2--py36_0"
 container_url: "https://biocontainers.pro/tools/tqdm"
 aliases:

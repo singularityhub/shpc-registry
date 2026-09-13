@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mtsv-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mtsv-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mtsv-tools/container.yaml"
-updated_at: "2026-09-12 07:19:01.040740"
-latest: "2.1.1--h54198d6_2"
+updated_at: "2026-09-13 07:35:06.684621"
+latest: "2.2.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/mtsv-tools"
 aliases:
  - "mtsv-binner"
@@ -21,8 +21,9 @@ versions:
  - "2.0.2--h7b50bb2_4"
  - "2.1.0--h54198d6_0"
  - "2.1.1--h54198d6_2"
+ - "2.2.0--hfa8f182_0"
 description: "shpc-registry automated BioContainers addition for mtsv-tools"
-config: {"url": "https://biocontainers.pro/tools/mtsv-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtsv-tools", "latest": {"2.1.1--h54198d6_2": "sha256:b25b8093037063238678e28f16267844e89d1674dc9c4953e04fc5bb58b3af66"}, "tags": {"2.0.2--hec16e2b_1": "sha256:c4fddadca62e7ffc6ad73b116202f73bd612fac8a7a83e8908213ba32ada2e13", "2.0.2--hec16e2b_2": "sha256:adb213e6d582d830927ddac6d202d2a079d095ebc90d2a296e9ab8c151c57b4a", "2.0.2--h031d066_3": "sha256:19221fdc1edae2978949f1009230e409e9bd130bc887a214f9e9075e39cce615", "2.0.2--h7b50bb2_4": "sha256:adbaa936107f8a1e6c51312547c3e1d440fff7aa20b021c41ecadca605655234", "2.1.0--h54198d6_0": "sha256:5ad74bbb5dbcad40e22e3cf1e970eb0c08fd1180bb28d2403426f88e30de78b5", "2.1.1--h54198d6_2": "sha256:b25b8093037063238678e28f16267844e89d1674dc9c4953e04fc5bb58b3af66"}, "docker": "quay.io/biocontainers/mtsv-tools", "aliases": {"mtsv-binner": "/usr/local/bin/mtsv-binner", "mtsv-build": "/usr/local/bin/mtsv-build", "mtsv-chunk": "/usr/local/bin/mtsv-chunk", "mtsv-collapse": "/usr/local/bin/mtsv-collapse", "mtsv-collapse-old": "/usr/local/bin/mtsv-collapse-old", "mtsv-readprep": "/usr/local/bin/mtsv-readprep"}}
+config: {"url": "https://biocontainers.pro/tools/mtsv-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mtsv-tools", "latest": {"2.2.0--hfa8f182_0": "sha256:d935d12212283aae0518ca995e8a0a65fb20f82073818fa230c6770b2c7e5740"}, "tags": {"2.0.2--hec16e2b_1": "sha256:c4fddadca62e7ffc6ad73b116202f73bd612fac8a7a83e8908213ba32ada2e13", "2.0.2--hec16e2b_2": "sha256:adb213e6d582d830927ddac6d202d2a079d095ebc90d2a296e9ab8c151c57b4a", "2.0.2--h031d066_3": "sha256:19221fdc1edae2978949f1009230e409e9bd130bc887a214f9e9075e39cce615", "2.0.2--h7b50bb2_4": "sha256:adbaa936107f8a1e6c51312547c3e1d440fff7aa20b021c41ecadca605655234", "2.1.0--h54198d6_0": "sha256:5ad74bbb5dbcad40e22e3cf1e970eb0c08fd1180bb28d2403426f88e30de78b5", "2.1.1--h54198d6_2": "sha256:b25b8093037063238678e28f16267844e89d1674dc9c4953e04fc5bb58b3af66", "2.2.0--hfa8f182_0": "sha256:d935d12212283aae0518ca995e8a0a65fb20f82073818fa230c6770b2c7e5740"}, "docker": "quay.io/biocontainers/mtsv-tools", "aliases": {"mtsv-binner": "/usr/local/bin/mtsv-binner", "mtsv-build": "/usr/local/bin/mtsv-build", "mtsv-chunk": "/usr/local/bin/mtsv-chunk", "mtsv-collapse": "/usr/local/bin/mtsv-collapse", "mtsv-collapse-old": "/usr/local/bin/mtsv-collapse-old", "mtsv-readprep": "/usr/local/bin/mtsv-readprep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mtsv-tools.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/mtsv-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mtsv-tools:2.1.1--h54198d6_2
+$ shpc install quay.io/biocontainers/mtsv-tools:2.2.0--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mtsv-tools/2.1.1--h54198d6_2
-$ module help quay.io/biocontainers/mtsv-tools/2.1.1--h54198d6_2
+$ module load quay.io/biocontainers/mtsv-tools/2.2.0--hfa8f182_0
+$ module help quay.io/biocontainers/mtsv-tools/2.2.0--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

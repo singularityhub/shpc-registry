@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biocframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocframe/container.yaml"
-updated_at: "2026-09-12 07:39:51.101403"
-latest: "0.7.3--pyh106432d_0"
+updated_at: "2026-09-13 07:54:31.778299"
+latest: "0.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biocframe"
 aliases:
  - "idle3.14"
@@ -15,8 +15,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.7.3--pyh106432d_0"
+ - "0.8.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for biocframe"
-config: {"url": "https://biocontainers.pro/tools/biocframe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biocframe", "latest": {"0.7.3--pyh106432d_0": "sha256:24b924601652de2900e69e377a601b6366306f5e515edafdda601743dfc0468b"}, "tags": {"0.7.3--pyh106432d_0": "sha256:24b924601652de2900e69e377a601b6366306f5e515edafdda601743dfc0468b"}, "docker": "quay.io/biocontainers/biocframe", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/biocframe", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for biocframe", "latest": {"0.8.1--pyhdfd78af_0": "sha256:6bace2f140604ea91155114e691983976c21ebc04aa83f86ebd86c9d9cd4a1b6"}, "tags": {"0.7.3--pyh106432d_0": "sha256:24b924601652de2900e69e377a601b6366306f5e515edafdda601743dfc0468b", "0.8.1--pyhdfd78af_0": "sha256:6bace2f140604ea91155114e691983976c21ebc04aa83f86ebd86c9d9cd4a1b6"}, "docker": "quay.io/biocontainers/biocframe", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biocframe.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/biocframe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biocframe:0.7.3--pyh106432d_0
+$ shpc install quay.io/biocontainers/biocframe:0.8.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biocframe/0.7.3--pyh106432d_0
-$ module help quay.io/biocontainers/biocframe/0.7.3--pyh106432d_0
+$ module load quay.io/biocontainers/biocframe/0.8.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/biocframe/0.8.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

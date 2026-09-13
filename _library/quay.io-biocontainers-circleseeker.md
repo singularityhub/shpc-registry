@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/circleseeker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circleseeker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circleseeker/container.yaml"
-updated_at: "2026-09-12 07:43:50.384539"
-latest: "1.1.2--pyhdfd78af_0"
+updated_at: "2026-09-13 07:58:13.888077"
+latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/circleseeker"
 aliases:
  - "CircleSeeker"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "1.1.1--pyhdfd78af_0"
  - "1.1.2--pyhdfd78af_0"
+ - "1.5.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for circleseeker"
-config: {"url": "https://biocontainers.pro/tools/circleseeker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for circleseeker", "latest": {"1.1.2--pyhdfd78af_0": "sha256:e41157556f8379a0b12fc3c6b87fe534fc9b5d5f47c12b6cf817aac3545df42b"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:d781ef5e2c362c3beaaf35603845851885a2ed8ed2c0b80653b63e5da0b98119", "1.1.2--pyhdfd78af_0": "sha256:e41157556f8379a0b12fc3c6b87fe534fc9b5d5f47c12b6cf817aac3545df42b"}, "docker": "quay.io/biocontainers/circleseeker", "aliases": {"CircleSeeker": "/usr/local/bin/CircleSeeker", "TideHunter": "/usr/local/bin/TideHunter", "circleseeker": "/usr/local/bin/circleseeker", "fasta-nr": "/usr/local/bin/fasta-nr", "maf-cut": "/usr/local/bin/maf-cut", "maf-linked": "/usr/local/bin/maf-linked", "fastq-interleave": "/usr/local/bin/fastq-interleave", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastdb": "/usr/local/bin/lastdb", "maf-convert": "/usr/local/bin/maf-convert", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "last-merge-batches": "/usr/local/bin/last-merge-batches", "minimap2.py": "/usr/local/bin/minimap2.py", "ref-cache": "/usr/local/bin/ref-cache", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "FET.pl": "/usr/local/bin/FET.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl"}}
+config: {"url": "https://biocontainers.pro/tools/circleseeker", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for circleseeker", "latest": {"1.5.1--pyhdfd78af_0": "sha256:8101d9eb310806528e89da88e29a91cb698814e22f6bcaa6d1ddead3a601ec41"}, "tags": {"1.1.1--pyhdfd78af_0": "sha256:d781ef5e2c362c3beaaf35603845851885a2ed8ed2c0b80653b63e5da0b98119", "1.1.2--pyhdfd78af_0": "sha256:e41157556f8379a0b12fc3c6b87fe534fc9b5d5f47c12b6cf817aac3545df42b", "1.5.1--pyhdfd78af_0": "sha256:8101d9eb310806528e89da88e29a91cb698814e22f6bcaa6d1ddead3a601ec41"}, "docker": "quay.io/biocontainers/circleseeker", "aliases": {"CircleSeeker": "/usr/local/bin/CircleSeeker", "TideHunter": "/usr/local/bin/TideHunter", "circleseeker": "/usr/local/bin/circleseeker", "fasta-nr": "/usr/local/bin/fasta-nr", "maf-cut": "/usr/local/bin/maf-cut", "maf-linked": "/usr/local/bin/maf-linked", "fastq-interleave": "/usr/local/bin/fastq-interleave", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastdb": "/usr/local/bin/lastdb", "maf-convert": "/usr/local/bin/maf-convert", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "last-merge-batches": "/usr/local/bin/last-merge-batches", "minimap2.py": "/usr/local/bin/minimap2.py", "ref-cache": "/usr/local/bin/ref-cache", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "FET.pl": "/usr/local/bin/FET.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circleseeker.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/circleseeker
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/circleseeker:1.1.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/circleseeker:1.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/circleseeker/1.1.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/circleseeker/1.1.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/circleseeker/1.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/circleseeker/1.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

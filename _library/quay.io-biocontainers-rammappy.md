@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rammappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rammappy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rammappy/container.yaml"
-updated_at: "2026-09-12 07:48:16.033502"
+updated_at: "2026-09-13 08:02:20.524373"
 latest: "0.1.3--py310h75e7593_0"
 container_url: "https://biocontainers.pro/tools/rammappy"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.1.3--py310h75e7593_0"
+ - "0.1.3--py313h551aa79_0"
 description: "singularity registry hpc automated addition for rammappy"
-config: {"url": "https://biocontainers.pro/tools/rammappy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rammappy", "latest": {"0.1.3--py310h75e7593_0": "sha256:8696d9e2ef5c1cb8ed7851a0ab8708335505b1a1a55a9642e965ba4604ffa73d"}, "tags": {"0.1.3--py310h75e7593_0": "sha256:8696d9e2ef5c1cb8ed7851a0ab8708335505b1a1a55a9642e965ba4604ffa73d"}, "docker": "quay.io/biocontainers/rammappy", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/rammappy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rammappy", "latest": {"0.1.3--py310h75e7593_0": "sha256:8696d9e2ef5c1cb8ed7851a0ab8708335505b1a1a55a9642e965ba4604ffa73d"}, "tags": {"0.1.3--py310h75e7593_0": "sha256:8696d9e2ef5c1cb8ed7851a0ab8708335505b1a1a55a9642e965ba4604ffa73d", "0.1.3--py313h551aa79_0": "sha256:99c4e64bd323d50d4cc75e74c87b047bc769207c00f85941efa742e5a7c10d0b"}, "docker": "quay.io/biocontainers/rammappy", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rammappy.

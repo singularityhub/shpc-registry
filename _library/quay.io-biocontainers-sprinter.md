@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sprinter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sprinter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sprinter/container.yaml"
-updated_at: "2026-09-12 07:39:25.207642"
+updated_at: "2026-09-13 07:54:07.657803"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sprinter"
 aliases:

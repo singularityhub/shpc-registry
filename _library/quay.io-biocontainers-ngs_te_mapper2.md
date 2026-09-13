@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngs_te_mapper2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs_te_mapper2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngs_te_mapper2/container.yaml"
-updated_at: "2026-09-12 07:36:54.816607"
+updated_at: "2026-09-13 07:51:47.395979"
 latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ngs_te_mapper2"
 aliases:

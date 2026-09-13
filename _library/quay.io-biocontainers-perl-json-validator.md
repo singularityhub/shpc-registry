@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-json-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-validator/container.yaml"
-updated_at: "2026-09-12 07:14:39.649570"
+updated_at: "2026-09-13 07:31:04.126033"
 latest: "5.19--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-json-validator"
 aliases:

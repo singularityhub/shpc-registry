@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mutmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutmap/container.yaml"
-updated_at: "2026-09-12 07:38:31.819042"
+updated_at: "2026-09-13 07:53:17.857886"
 latest: "2.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mutmap"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-storable"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-storable/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-storable/container.yaml"
-updated_at: "2026-09-12 07:35:39.295997"
+updated_at: "2026-09-13 07:50:37.310390"
 latest: "3.15--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/perl-storable"
 aliases:

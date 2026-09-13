@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rtg-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rtg-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rtg-tools/container.yaml"
-updated_at: "2026-09-12 07:40:22.345936"
+updated_at: "2026-09-13 07:55:00.534379"
 latest: "3.13--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rtg-tools"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/postmaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/postmaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/postmaster/container.yaml"
-updated_at: "2026-09-12 07:29:00.415295"
+updated_at: "2026-09-13 07:44:25.289671"
 latest: "0.1.0--ha6fb395_1"
 container_url: "https://biocontainers.pro/tools/postmaster"
 aliases:

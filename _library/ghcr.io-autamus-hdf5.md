@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/hdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hdf5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/hdf5/container.yaml"
-updated_at: "2026-09-12 06:59:53.974888"
+updated_at: "2026-09-13 07:17:16.004806"
 latest: "1.13"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hdf5"
 aliases:

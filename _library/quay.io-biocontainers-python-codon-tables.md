@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-codon-tables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-codon-tables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-codon-tables/container.yaml"
-updated_at: "2026-09-12 07:28:31.583937"
+updated_at: "2026-09-13 07:43:58.082828"
 latest: "0.1.11--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/python-codon-tables"
 aliases:

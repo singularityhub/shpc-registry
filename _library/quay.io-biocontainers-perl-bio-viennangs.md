@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-viennangs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-viennangs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-viennangs/container.yaml"
-updated_at: "2026-09-12 07:21:15.832580"
+updated_at: "2026-09-13 07:37:11.863501"
 latest: "v0.19.2--pl526_5"
 container_url: "https://biocontainers.pro/tools/perl-bio-viennangs"
 aliases:

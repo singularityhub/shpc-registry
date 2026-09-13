@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nspdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nspdk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nspdk/container.yaml"
-updated_at: "2026-09-12 07:55:56.295783"
+updated_at: "2026-09-13 08:09:28.704892"
 latest: "9.2--1"
 container_url: "https://biocontainers.pro/tools/nspdk"
 aliases:

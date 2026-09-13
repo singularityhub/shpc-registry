@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rasbhari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rasbhari/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rasbhari/container.yaml"
-updated_at: "2026-09-12 07:04:30.980602"
+updated_at: "2026-09-13 07:21:33.575904"
 latest: "1.4.0--hd63eeec_0"
 container_url: "https://biocontainers.pro/tools/rasbhari"
 aliases:

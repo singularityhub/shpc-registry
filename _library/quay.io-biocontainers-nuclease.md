@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nuclease"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nuclease/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nuclease/container.yaml"
-updated_at: "2026-09-12 07:34:22.447596"
+updated_at: "2026-09-13 07:49:25.905700"
 latest: "0.6.3--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/nuclease"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crussmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crussmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crussmap/container.yaml"
-updated_at: "2026-09-12 07:15:17.091288"
+updated_at: "2026-09-13 07:31:38.685311"
 latest: "1.0.1--h5c46d4b_0"
 container_url: "https://biocontainers.pro/tools/crussmap"
 aliases:
