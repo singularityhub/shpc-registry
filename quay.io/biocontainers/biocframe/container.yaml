@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/biocframe
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for biocframe
 latest:
-  0.7.3--pyh106432d_0: 
-    sha256:24b924601652de2900e69e377a601b6366306f5e515edafdda601743dfc0468b
+  0.8.1--pyhdfd78af_0: 
+    sha256:6bace2f140604ea91155114e691983976c21ebc04aa83f86ebd86c9d9cd4a1b6
 tags:
   0.7.3--pyh106432d_0: 
     sha256:24b924601652de2900e69e377a601b6366306f5e515edafdda601743dfc0468b
+  0.8.1--pyhdfd78af_0: 
+    sha256:6bace2f140604ea91155114e691983976c21ebc04aa83f86ebd86c9d9cd4a1b6
 docker: quay.io/biocontainers/biocframe
 aliases:
   idle3.14: /usr/local/bin/idle3.14

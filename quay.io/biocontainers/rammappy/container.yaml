@@ -7,6 +7,8 @@ latest:
 tags:
   0.1.3--py310h75e7593_0: 
     sha256:8696d9e2ef5c1cb8ed7851a0ab8708335505b1a1a55a9642e965ba4604ffa73d
+  0.1.3--py313h551aa79_0: 
+    sha256:99c4e64bd323d50d4cc75e74c87b047bc769207c00f85941efa742e5a7c10d0b
 docker: quay.io/biocontainers/rammappy
 aliases:
   2to3-3.10: /usr/local/bin/2to3-3.10

@@ -7,6 +7,8 @@ latest:
 tags:
   1.1.0--py310hfe4f656_0: 
     sha256:a2f37a92dc42f2b83b50eab7b0d7c89f07a7b8dda850697854e81bc0c212bfde
+  1.1.0--py311h13f8228_0: 
+    sha256:29f67b6655f68ef1c6c6d519734dd706ba720967d5d3fc2cdfd56f5a9fbbecde
 docker: quay.io/biocontainers/snputils
 aliases:
   cffi-gen-src: /usr/local/bin/cffi-gen-src
