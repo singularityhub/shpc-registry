@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcferr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcferr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcferr/container.yaml"
-updated_at: "2026-09-13 08:00:46.839238"
+updated_at: "2026-09-14 08:29:04.943294"
 latest: "1.0.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/vcferr"
 aliases:

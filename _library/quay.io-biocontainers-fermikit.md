@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fermikit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fermikit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fermikit/container.yaml"
-updated_at: "2026-09-13 08:06:29.318974"
+updated_at: "2026-09-14 08:35:05.906441"
 latest: "0.14.dev1--pl5321h86e5fe9_2"
 container_url: "https://biocontainers.pro/tools/fermikit"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beegees"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beegees/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beegees/container.yaml"
-updated_at: "2026-09-13 07:51:28.281665"
+updated_at: "2026-09-14 08:18:55.439810"
 latest: "3.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beegees"
 aliases:

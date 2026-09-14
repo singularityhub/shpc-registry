@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-www-robotrules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-www-robotrules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-www-robotrules/container.yaml"
-updated_at: "2026-09-13 07:25:49.680292"
+updated_at: "2026-09-14 07:51:01.274137"
 latest: "6.03--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-www-robotrules"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/slacken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slacken/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slacken/container.yaml"
-updated_at: "2026-09-13 08:05:57.760665"
+updated_at: "2026-09-14 08:34:33.192041"
 latest: "2.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/slacken"
 aliases:

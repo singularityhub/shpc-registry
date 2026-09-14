@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scoreinvhap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scoreinvhap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scoreinvhap/container.yaml"
-updated_at: "2026-09-13 07:30:45.455292"
+updated_at: "2026-09-14 07:56:11.448854"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scoreinvhap"
 aliases:

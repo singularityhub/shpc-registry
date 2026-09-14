@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/proteomiqon-peptidedb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-peptidedb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-peptidedb/container.yaml"
-updated_at: "2026-09-13 07:57:31.380789"
-latest: "0.0.7--hdfd78af_1"
+updated_at: "2026-09-14 08:25:28.540819"
+latest: "0.0.10--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-peptidedb"
 aliases:
  - "lttng-gen-tp"
  - "proteomiqon-peptidedb"
 versions:
  - "0.0.7--hdfd78af_1"
+ - "0.0.10--h774997f_0"
 description: "shpc-registry automated BioContainers addition for proteomiqon-peptidedb"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-peptidedb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-peptidedb", "latest": {"0.0.7--hdfd78af_1": "sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e"}, "tags": {"0.0.7--hdfd78af_1": "sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e"}, "docker": "quay.io/biocontainers/proteomiqon-peptidedb", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-peptidedb": "/usr/local/bin/proteomiqon-peptidedb"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-peptidedb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-peptidedb", "latest": {"0.0.10--h774997f_0": "sha256:08f46da37fa07baa6d2695c03e01d9cb52f4cf4449279a9087f1c048a346a300"}, "tags": {"0.0.7--hdfd78af_1": "sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e", "0.0.10--h774997f_0": "sha256:08f46da37fa07baa6d2695c03e01d9cb52f4cf4449279a9087f1c048a346a300"}, "docker": "quay.io/biocontainers/proteomiqon-peptidedb", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-peptidedb": "/usr/local/bin/proteomiqon-peptidedb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-peptidedb.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/proteomiqon-peptidedb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteomiqon-peptidedb:0.0.7--hdfd78af_1
+$ shpc install quay.io/biocontainers/proteomiqon-peptidedb:0.0.10--h774997f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteomiqon-peptidedb/0.0.7--hdfd78af_1
-$ module help quay.io/biocontainers/proteomiqon-peptidedb/0.0.7--hdfd78af_1
+$ module load quay.io/biocontainers/proteomiqon-peptidedb/0.0.10--h774997f_0
+$ module help quay.io/biocontainers/proteomiqon-peptidedb/0.0.10--h774997f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

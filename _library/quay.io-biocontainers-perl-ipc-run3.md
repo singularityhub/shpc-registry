@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ipc-run3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ipc-run3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ipc-run3/container.yaml"
-updated_at: "2026-09-13 07:52:09.209327"
+updated_at: "2026-09-14 08:19:39.654086"
 latest: "0.049--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-ipc-run3"
 aliases:

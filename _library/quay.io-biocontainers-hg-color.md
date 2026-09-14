@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hg-color"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hg-color/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hg-color/container.yaml"
-updated_at: "2026-09-13 08:11:23.639283"
+updated_at: "2026-09-14 08:40:16.992836"
 latest: "1.1.1--he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/hg-color"
 aliases:

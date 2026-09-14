@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomiqon-psmstatistics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-psmstatistics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-psmstatistics/container.yaml"
-updated_at: "2026-09-13 07:19:35.868838"
+updated_at: "2026-09-14 07:44:16.481684"
 latest: "0.0.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-psmstatistics"
 aliases:

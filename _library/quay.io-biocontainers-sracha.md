@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sracha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sracha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sracha/container.yaml"
-updated_at: "2026-09-13 07:56:33.095892"
+updated_at: "2026-09-14 08:24:23.200470"
 latest: "0.3.0--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/sracha"
 aliases:

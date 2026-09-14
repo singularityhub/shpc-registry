@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isocall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isocall/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isocall/container.yaml"
-updated_at: "2026-09-13 07:44:40.541144"
+updated_at: "2026-09-14 08:11:43.557672"
 latest: "1.3.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/isocall"
 aliases:

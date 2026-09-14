@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics/container.yaml"
-updated_at: "2026-09-13 07:51:49.873610"
-latest: "0.0.3--hdfd78af_0"
+updated_at: "2026-09-14 08:19:18.494097"
+latest: "0.0.5--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-alignmentbasedquantstatistics"
 aliases:
  - "lttng-gen-tp"
  - "proteomiqon-alignmentbasedquantstatistics"
 versions:
  - "0.0.3--hdfd78af_0"
+ - "0.0.5--h774997f_0"
 description: "singularity registry hpc automated addition for proteomiqon-alignmentbasedquantstatistics"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-alignmentbasedquantstatistics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for proteomiqon-alignmentbasedquantstatistics", "latest": {"0.0.3--hdfd78af_0": "sha256:b5aabd129f44ec177e2af0128989766785fad5405d399cd3fb89349628240fa1"}, "tags": {"0.0.3--hdfd78af_0": "sha256:b5aabd129f44ec177e2af0128989766785fad5405d399cd3fb89349628240fa1"}, "docker": "quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-alignmentbasedquantstatistics": "/usr/local/bin/proteomiqon-alignmentbasedquantstatistics"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-alignmentbasedquantstatistics", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for proteomiqon-alignmentbasedquantstatistics", "latest": {"0.0.5--h774997f_0": "sha256:519be1fe714426d51484367c791c741f2d2300ee2a774ac385a333ee4574cba6"}, "tags": {"0.0.3--hdfd78af_0": "sha256:b5aabd129f44ec177e2af0128989766785fad5405d399cd3fb89349628240fa1", "0.0.5--h774997f_0": "sha256:519be1fe714426d51484367c791c741f2d2300ee2a774ac385a333ee4574cba6"}, "docker": "quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-alignmentbasedquantstatistics": "/usr/local/bin/proteomiqon-alignmentbasedquantstatistics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics:0.0.3--hdfd78af_0
+$ shpc install quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics:0.0.5--h774997f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics/0.0.3--hdfd78af_0
-$ module help quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics/0.0.3--hdfd78af_0
+$ module load quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics/0.0.5--h774997f_0
+$ module help quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics/0.0.5--h774997f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

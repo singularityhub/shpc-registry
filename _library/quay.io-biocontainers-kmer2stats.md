@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kmer2stats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmer2stats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kmer2stats/container.yaml"
-updated_at: "2026-09-13 07:52:59.451082"
+updated_at: "2026-09-14 08:20:33.636771"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kmer2stats"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ntstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ntstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ntstat/container.yaml"
-updated_at: "2026-09-13 07:26:07.060722"
+updated_at: "2026-09-14 07:51:20.488637"
 latest: "1.0.1--py313hcd54142_3"
 container_url: "https://biocontainers.pro/tools/ntstat"
 aliases:

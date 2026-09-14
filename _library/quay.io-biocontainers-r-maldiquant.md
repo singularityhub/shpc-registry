@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-maldiquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-maldiquant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-maldiquant/container.yaml"
-updated_at: "2026-09-13 07:56:54.907928"
+updated_at: "2026-09-14 08:24:47.757923"
 latest: "1.18--r341ha44fe06_0"
 container_url: "https://biocontainers.pro/tools/r-maldiquant"
 aliases:

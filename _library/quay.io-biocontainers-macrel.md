@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/macrel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/macrel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/macrel/container.yaml"
-updated_at: "2026-09-13 07:52:16.096036"
+updated_at: "2026-09-14 08:19:47.225517"
 latest: "1.6.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/macrel"
 aliases:

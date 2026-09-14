@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-plrs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plrs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plrs/container.yaml"
-updated_at: "2026-09-13 07:28:33.557933"
+updated_at: "2026-09-14 07:53:53.629510"
 latest: "1.27.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plrs"
 aliases:

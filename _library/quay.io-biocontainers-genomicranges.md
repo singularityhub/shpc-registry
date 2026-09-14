@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genomicranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomicranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomicranges/container.yaml"
-updated_at: "2026-09-13 07:40:58.647754"
-latest: "0.8.4--pyh106432d_0"
+updated_at: "2026-09-14 08:07:50.604450"
+latest: "0.9.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/genomicranges"
 aliases:
  - "idle3.13"
@@ -15,8 +15,10 @@ aliases:
  - "numpy-config"
 versions:
  - "0.8.4--pyh106432d_0"
+ - "0.9.0--pyh106432d_0"
+ - "0.8.5--pyh106432d_0"
 description: "singularity registry hpc automated addition for genomicranges"
-config: {"url": "https://biocontainers.pro/tools/genomicranges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genomicranges", "latest": {"0.8.4--pyh106432d_0": "sha256:fda694cab9f08785ec66e714a3bf1db0304ff1b5fbc9395268296a8ac6c0c4fc"}, "tags": {"0.8.4--pyh106432d_0": "sha256:fda694cab9f08785ec66e714a3bf1db0304ff1b5fbc9395268296a8ac6c0c4fc"}, "docker": "quay.io/biocontainers/genomicranges", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/genomicranges", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genomicranges", "latest": {"0.9.0--pyh106432d_0": "sha256:b0bb7fbb7154573622de1d8261ba64b20abed12e849cf6ff5b1eee307d61b678"}, "tags": {"0.8.4--pyh106432d_0": "sha256:fda694cab9f08785ec66e714a3bf1db0304ff1b5fbc9395268296a8ac6c0c4fc", "0.9.0--pyh106432d_0": "sha256:b0bb7fbb7154573622de1d8261ba64b20abed12e849cf6ff5b1eee307d61b678", "0.8.5--pyh106432d_0": "sha256:32a25ba175c10bcf7a8e6a500623569f30e93330b9ddeb8c4784d5dc85b4fbae"}, "docker": "quay.io/biocontainers/genomicranges", "aliases": {"idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomicranges.
@@ -31,7 +33,7 @@ $ shpc install quay.io/biocontainers/genomicranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomicranges:0.8.4--pyh106432d_0
+$ shpc install quay.io/biocontainers/genomicranges:0.9.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomicranges/0.8.4--pyh106432d_0
-$ module help quay.io/biocontainers/genomicranges/0.8.4--pyh106432d_0
+$ module load quay.io/biocontainers/genomicranges/0.9.0--pyh106432d_0
+$ module help quay.io/biocontainers/genomicranges/0.9.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
