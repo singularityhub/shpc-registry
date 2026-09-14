@@ -1,16 +1,37 @@
 docker: quay.io/pawsey/rfdiffusion
 url: https://singularity-hpc.readthedocs.io
-description: AMD GPU compatible version of RFDiffusion
+description: RFdiffusion with ROCm 7.0.0 and DGL 2.4.0 support on Ubuntu 22.04 for AMD GPUs
 maintainer: '@sarahbeecroft'
 features:
   gpu: true
 latest:
-  v1.1.0-rocm7.0.0_dgl2.4.0: 
-    sha256:9a18f1597bb41cfe9379b44fb8e794da99be134f8010fac5f04c3efe752517de
+  v1.1.0-rocm7.0.0_dgl2.4.0:
+    sha256:152ad34f2e654dec20e25fff1152cfe4ce4f46ba17a6b369d264096e0b1bc879
 tags:
   v1.1.0-rocm7.0.0_dgl2.4.0:
-    sha256:9a18f1597bb41cfe9379b44fb8e794da99be134f8010fac5f04c3efe752517de
+    sha256:152ad34f2e654dec20e25fff1152cfe4ce4f46ba17a6b369d264096e0b1bc879
+
 aliases:
-  - name: run_inference.py
-    command: /opt/venv/bin/run_inference.py
-    args: inference.schedule_directory_path=./schedules
+  run_inference.py: /opt/venv/bin/run_inference.py
+  make_secstruc_adj.py: /app/RFdiffusion/helper_scripts/make_secstruc_adj.py
+  design_cyclic_oligos.sh: /app/RFdiffusion/examples/design_cyclic_oligos.sh
+  design_dihedral_oligos.sh: /app/RFdiffusion/examples/design_dihedral_oligos.sh
+  design_enzyme.sh: /app/RFdiffusion/examples/design_enzyme.sh
+  design_macrocyclic_binder.sh: /app/RFdiffusion/examples/design_macrocyclic_binder.sh
+  design_macrocyclic_monomer.sh: /app/RFdiffusion/examples/design_macrocyclic_monomer.sh
+  design_motifscaffolding.sh: /app/RFdiffusion/examples/design_motifscaffolding.sh
+  design_motifscaffolding_inpaintseq.sh: /app/RFdiffusion/examples/design_motifscaffolding_inpaintseq.sh
+  design_motifscaffolding_with_target.sh: /app/RFdiffusion/examples/design_motifscaffolding_with_target.sh
+  design_nickel.sh: /app/RFdiffusion/examples/design_nickel.sh
+  design_partialdiffusion.sh: /app/RFdiffusion/examples/design_partialdiffusion.sh
+  design_partialdiffusion_multipleseq.sh: /app/RFdiffusion/examples/design_partialdiffusion_multipleseq.sh
+  design_partialdiffusion_withseq.sh: /app/RFdiffusion/examples/design_partialdiffusion_withseq.sh
+  design_ppi.sh: /app/RFdiffusion/examples/design_ppi.sh
+  design_ppi_flexible_peptide.sh: /app/RFdiffusion/examples/design_ppi_flexible_peptide.sh
+  design_ppi_flexible_peptide_with_secondarystructure_specification.sh: /app/RFdiffusion/examples/design_ppi_flexible_peptide_with_secondarystructure_specification.sh
+  design_ppi_scaffolded.sh: /app/RFdiffusion/examples/design_ppi_scaffolded.sh
+  design_tetrahedral_oligos.sh: /app/RFdiffusion/examples/design_tetrahedral_oligos.sh
+  design_timbarrel.sh: /app/RFdiffusion/examples/design_timbarrel.sh
+  design_unconditional.sh: /app/RFdiffusion/examples/design_unconditional.sh
+  design_unconditional_w_contact_potential.sh: /app/RFdiffusion/examples/design_unconditional_w_contact_potential.sh
+  design_unconditional_w_monomer_ROG.sh: /app/RFdiffusion/examples/design_unconditional_w_monomer_ROG.sh
