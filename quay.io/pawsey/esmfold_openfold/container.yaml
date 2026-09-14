@@ -11,3 +11,10 @@ latest:
 tags:
   rocm6.3.3: 
     sha256:431562db370c584ac7ccfc8d0320541515fd67f1d5438ce2dfbac82eb878444f
+aliases:
+  esm-extract: /opt/miniforge3/bin/esm-extract
+  esm-fold: /opt/miniforge3/bin/esm-fold
+  mmseqs: /opt/miniforge3/bin/mmseqs
+  run_pretrained_openfold.py: python /opt/openfold/run_pretrained_openfold.py
+  train_openfold.py: python /opt/openfold/train_openfold.py
+  thread_sequence.py: python /opt/openfold/thread_sequence.py
