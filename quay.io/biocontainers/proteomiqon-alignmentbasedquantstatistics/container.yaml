@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   proteomiqon-alignmentbasedquantstatistics
 latest:
-  0.0.3--hdfd78af_0: 
-    sha256:b5aabd129f44ec177e2af0128989766785fad5405d399cd3fb89349628240fa1
+  0.0.5--h774997f_0: 
+    sha256:519be1fe714426d51484367c791c741f2d2300ee2a774ac385a333ee4574cba6
 tags:
   0.0.3--hdfd78af_0: 
     sha256:b5aabd129f44ec177e2af0128989766785fad5405d399cd3fb89349628240fa1
+  0.0.5--h774997f_0: 
+    sha256:519be1fe714426d51484367c791c741f2d2300ee2a774ac385a333ee4574cba6
 docker: quay.io/biocontainers/proteomiqon-alignmentbasedquantstatistics
 aliases:
   lttng-gen-tp: /usr/local/bin/lttng-gen-tp

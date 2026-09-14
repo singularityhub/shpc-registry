@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   proteomiqon-peptidedb
 latest:
-  0.0.7--hdfd78af_1: 
-    sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e
+  0.0.10--h774997f_0: 
+    sha256:08f46da37fa07baa6d2695c03e01d9cb52f4cf4449279a9087f1c048a346a300
 tags:
   0.0.7--hdfd78af_1: 
     sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e
+  0.0.10--h774997f_0: 
+    sha256:08f46da37fa07baa6d2695c03e01d9cb52f4cf4449279a9087f1c048a346a300
 docker: quay.io/biocontainers/proteomiqon-peptidedb
 aliases:
   lttng-gen-tp: /usr/local/bin/lttng-gen-tp
