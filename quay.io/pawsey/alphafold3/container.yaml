@@ -14,7 +14,7 @@ description: AMD compatible version of Alphafold3, also compatible with nf-core 
 
 latest:
   v3.0.1_rocm7.1.1:
-    sha256:8277f28e087bcc68a243058bbb68a7a4e1ccd08d7dd2fa92cd6e6fe6133e434a
+    sha256:c0a430a152124c23e55df616b4e92a735ce7fc75027e11e6ff65323b407b2e8f
 tags:
   v3.0.1_rocm7.1.1:
-    sha256:8277f28e087bcc68a243058bbb68a7a4e1ccd08d7dd2fa92cd6e6fe6133e434a
+    sha256:c0a430a152124c23e55df616b4e92a735ce7fc75027e11e6ff65323b407b2e8f
