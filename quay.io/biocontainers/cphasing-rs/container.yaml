@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/cphasing-rs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cphasing-rs
+latest:
+  0.3.0--h6b974a3_0: 
+    sha256:559acbd8a687510016de378b447f270cb626ca6ee5282cd8ee14dc520351838f
+tags:
+  0.3.0--h6b974a3_0: 
+    sha256:559acbd8a687510016de378b447f270cb626ca6ee5282cd8ee14dc520351838f
+docker: quay.io/biocontainers/cphasing-rs
+aliases:
+  cphasing-rs: /usr/local/bin/cphasing-rs

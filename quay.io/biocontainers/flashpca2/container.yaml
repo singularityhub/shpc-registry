@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/flashpca2
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for flashpca2
+latest:
+  2.0--ha987a51_0: 
+    sha256:4c4b9bff4f1000b5b2ba1704f5fef715d70c963ae6ad3075423417c5ff806045
+tags:
+  2.0--ha987a51_0: 
+    sha256:4c4b9bff4f1000b5b2ba1704f5fef715d70c963ae6ad3075423417c5ff806045
+docker: quay.io/biocontainers/flashpca2
+aliases:
+  flashpca: /usr/local/bin/flashpca
