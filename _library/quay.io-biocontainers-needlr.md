@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/needlr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/needlr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/needlr/container.yaml"
-updated_at: "2026-09-14 07:44:22.929462"
-latest: "4.0--hdfd78af_1"
+updated_at: "2026-09-15 07:25:07.051427"
+latest: "4.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/needlr"
 aliases:
  - "bwamempy"
@@ -39,8 +39,9 @@ aliases:
 versions:
  - "4.0--hdfd78af_0"
  - "4.0--hdfd78af_1"
+ - "4.1--hdfd78af_0"
 description: "singularity registry hpc automated addition for needlr"
-config: {"url": "https://biocontainers.pro/tools/needlr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for needlr", "latest": {"4.0--hdfd78af_1": "sha256:b8f37b20c4318bff517df0bf13448e2b31faea8abdafaf3210da78275fa0bb6c"}, "tags": {"4.0--hdfd78af_0": "sha256:6fe9aa65fcaf372559fbf966f943c84f871daf54b4357f2feccbdca0405d3cb0", "4.0--hdfd78af_1": "sha256:b8f37b20c4318bff517df0bf13448e2b31faea8abdafaf3210da78275fa0bb6c"}, "docker": "quay.io/biocontainers/needlr", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "needLR": "/usr/local/bin/needLR", "truvari": "/usr/local/bin/truvari", "gff2gff": "/usr/local/bin/gff2gff", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "gff2gff.py": "/usr/local/bin/gff2gff.py", "gawkbug": "/usr/local/bin/gawkbug", "ref-cache": "/usr/local/bin/ref-cache", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date"}}
+config: {"url": "https://biocontainers.pro/tools/needlr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for needlr", "latest": {"4.1--hdfd78af_0": "sha256:61e45c1b8304d0dd703a9a43bad7ff8664e2c29ff13ca76375563f681390b972"}, "tags": {"4.0--hdfd78af_0": "sha256:6fe9aa65fcaf372559fbf966f943c84f871daf54b4357f2feccbdca0405d3cb0", "4.0--hdfd78af_1": "sha256:b8f37b20c4318bff517df0bf13448e2b31faea8abdafaf3210da78275fa0bb6c", "4.1--hdfd78af_0": "sha256:61e45c1b8304d0dd703a9a43bad7ff8664e2c29ff13ca76375563f681390b972"}, "docker": "quay.io/biocontainers/needlr", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "needLR": "/usr/local/bin/needLR", "truvari": "/usr/local/bin/truvari", "gff2gff": "/usr/local/bin/gff2gff", "roh-viz": "/usr/local/bin/roh-viz", "vrfs-variances": "/usr/local/bin/vrfs-variances", "gawk-5.3.1": "/usr/local/bin/gawk-5.3.1", "gff2gff.py": "/usr/local/bin/gff2gff.py", "gawkbug": "/usr/local/bin/gawkbug", "ref-cache": "/usr/local/bin/ref-cache", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "ls": "/usr/local/bin/ls", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown", "chroot": "/usr/local/bin/chroot", "cksum": "/usr/local/bin/cksum", "comm": "/usr/local/bin/comm", "cp": "/usr/local/bin/cp", "csplit": "/usr/local/bin/csplit", "cut": "/usr/local/bin/cut", "date": "/usr/local/bin/date"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/needlr.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/needlr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/needlr:4.0--hdfd78af_1
+$ shpc install quay.io/biocontainers/needlr:4.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/needlr/4.0--hdfd78af_1
-$ module help quay.io/biocontainers/needlr/4.0--hdfd78af_1
+$ module load quay.io/biocontainers/needlr/4.1--hdfd78af_0
+$ module help quay.io/biocontainers/needlr/4.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pwmenrich.mmusculus.background/container.yaml"
-updated_at: "2026-09-14 08:00:46.509317"
+updated_at: "2026-09-15 07:41:14.181125"
 latest: "4.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pwmenrich.mmusculus.background"
 

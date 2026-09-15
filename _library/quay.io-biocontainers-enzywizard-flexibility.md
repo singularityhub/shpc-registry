@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/enzywizard-flexibility"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-flexibility/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-flexibility/container.yaml"
-updated_at: "2026-09-14 07:57:40.742408"
+updated_at: "2026-09-15 07:38:11.158298"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-flexibility"
 aliases:

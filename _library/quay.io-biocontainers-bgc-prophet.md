@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bgc-prophet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bgc-prophet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bgc-prophet/container.yaml"
-updated_at: "2026-09-14 08:32:48.838070"
+updated_at: "2026-09-15 08:12:38.916739"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bgc-prophet"
 aliases:

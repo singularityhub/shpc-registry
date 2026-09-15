@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bolt-lmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bolt-lmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bolt-lmm/container.yaml"
-updated_at: "2026-09-14 07:54:03.869904"
+updated_at: "2026-09-15 07:34:32.737440"
 latest: "2.5--h15e0e67_0"
 container_url: "https://biocontainers.pro/tools/bolt-lmm"
 aliases:

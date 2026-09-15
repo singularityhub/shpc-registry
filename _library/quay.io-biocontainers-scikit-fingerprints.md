@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scikit-fingerprints"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikit-fingerprints/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-fingerprints/container.yaml"
-updated_at: "2026-09-14 08:17:13.258991"
+updated_at: "2026-09-15 07:56:52.669897"
 latest: "2.0.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/scikit-fingerprints"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/simba_pbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simba_pbg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simba_pbg/container.yaml"
-updated_at: "2026-09-14 07:54:42.319513"
+updated_at: "2026-09-15 07:35:11.969224"
 latest: "1.2--py310h1fe012e_4"
 container_url: "https://biocontainers.pro/tools/simba_pbg"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/naf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/naf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/naf/container.yaml"
-updated_at: "2026-09-14 08:15:18.021248"
+updated_at: "2026-09-15 07:54:58.258343"
 latest: "1.3.0--h7b50bb2_5"
 container_url: "https://biocontainers.pro/tools/naf"
 aliases:

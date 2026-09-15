@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/marti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/marti/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/marti/container.yaml"
-updated_at: "2026-09-14 08:17:41.100448"
+updated_at: "2026-09-15 07:57:20.418645"
 latest: "0.9.33--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/marti"
 aliases:

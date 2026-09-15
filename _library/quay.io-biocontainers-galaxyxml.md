@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxyxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxyxml/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/galaxyxml/container.yaml"
-updated_at: "2026-09-14 07:57:09.562229"
+updated_at: "2026-09-15 07:37:38.987740"
 latest: "0.5.5--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/galaxyxml"
 aliases:

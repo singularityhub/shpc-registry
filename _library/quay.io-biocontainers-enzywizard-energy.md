@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-energy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-energy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-energy/container.yaml"
-updated_at: "2026-09-14 08:38:40.285420"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-15 08:18:37.061610"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-energy"
 aliases:
  - "enzywizard-energy"
@@ -18,8 +18,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-energy"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-energy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-energy", "latest": {"1.0.2--pyhdfd78af_0": "sha256:84d8a0474ad9a7cf77ca37046de6a8c46568e66ef2f033b442e394f3f18ad467"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:84d8a0474ad9a7cf77ca37046de6a8c46568e66ef2f033b442e394f3f18ad467"}, "docker": "quay.io/biocontainers/enzywizard-energy", "aliases": {"enzywizard-energy": "/usr/local/bin/enzywizard-energy", "rdhc": "/usr/local/bin/rdhc", "cllayerinfo": "/usr/local/bin/cllayerinfo", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-energy", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-energy", "latest": {"1.0.3--pyhdfd78af_0": "sha256:3d4e7d2b49f6e232bb5b7a7c2133d8c8195d041ac8e96f0865f7face064cdeb6"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:84d8a0474ad9a7cf77ca37046de6a8c46568e66ef2f033b442e394f3f18ad467", "1.0.3--pyhdfd78af_0": "sha256:3d4e7d2b49f6e232bb5b7a7c2133d8c8195d041ac8e96f0865f7face064cdeb6"}, "docker": "quay.io/biocontainers/enzywizard-energy", "aliases": {"enzywizard-energy": "/usr/local/bin/enzywizard-energy", "rdhc": "/usr/local/bin/rdhc", "cllayerinfo": "/usr/local/bin/cllayerinfo", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-energy.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/enzywizard-energy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-energy:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-energy:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-energy/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-energy/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-energy/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-energy/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

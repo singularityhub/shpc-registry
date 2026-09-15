@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ciri2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ciri2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ciri2/container.yaml"
-updated_at: "2026-09-14 07:47:08.161911"
+updated_at: "2026-09-15 07:27:48.360984"
 latest: "2.0.6--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ciri2"
 aliases:

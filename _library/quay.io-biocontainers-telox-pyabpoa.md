@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/telox-pyabpoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telox-pyabpoa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telox-pyabpoa/container.yaml"
-updated_at: "2026-09-14 08:34:35.757227"
+updated_at: "2026-09-15 08:14:27.711069"
 latest: "1.5.6.post1--py310hfe4f656_0"
 container_url: "https://biocontainers.pro/tools/telox-pyabpoa"
 aliases:
@@ -15,8 +15,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.5.6.post1--py310hfe4f656_0"
+ - "1.5.6.post1--py312h9639c01_0"
 description: "singularity registry hpc automated addition for telox-pyabpoa"
-config: {"url": "https://biocontainers.pro/tools/telox-pyabpoa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for telox-pyabpoa", "latest": {"1.5.6.post1--py310hfe4f656_0": "sha256:9a12f64e96ad9f41b3f1940d2317328a62c6923b774629a7ea20f5b6031be75c"}, "tags": {"1.5.6.post1--py310hfe4f656_0": "sha256:9a12f64e96ad9f41b3f1940d2317328a62c6923b774629a7ea20f5b6031be75c"}, "docker": "quay.io/biocontainers/telox-pyabpoa", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/telox-pyabpoa", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for telox-pyabpoa", "latest": {"1.5.6.post1--py310hfe4f656_0": "sha256:9a12f64e96ad9f41b3f1940d2317328a62c6923b774629a7ea20f5b6031be75c"}, "tags": {"1.5.6.post1--py310hfe4f656_0": "sha256:9a12f64e96ad9f41b3f1940d2317328a62c6923b774629a7ea20f5b6031be75c", "1.5.6.post1--py312h9639c01_0": "sha256:b64c242be590d8afbf942e44dd2ea9aae32bb7b8be9592d00567847efa2e7ffb"}, "docker": "quay.io/biocontainers/telox-pyabpoa", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/telox-pyabpoa.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ldpop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ldpop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ldpop/container.yaml"
-updated_at: "2026-09-14 08:10:30.202283"
+updated_at: "2026-09-15 07:50:14.317343"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ldpop"
 aliases:
