@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bali-phy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bali-phy
 latest:
-  4.2--py314hf0d9b2b_0: 
-    sha256:d3815d7dcd9301bd23bbef5801a1a931dda7107526b94e41213253213c54db86
+  4.3--py314hc8fbf70_0: 
+    sha256:55bcdeb5e32c43c81ef8095f021ae6c7ad984d6efeb95e1b42be50a902221e9c
 tags:
   3.6.0--py310h3bbb02d_1: 
     sha256:87d43ccaa71af03a88788fccb73043a2df062e6f2fa27c6aa47c68b7e5b30a36
@@ -23,6 +23,8 @@ tags:
     sha256:c4ead040b1184fadc87a1429614f7de0ddbdc8c041d6c29f54dc1b4228ab8237
   4.2--py314hf0d9b2b_0: 
     sha256:d3815d7dcd9301bd23bbef5801a1a931dda7107526b94e41213253213c54db86
+  4.3--py314hc8fbf70_0: 
+    sha256:55bcdeb5e32c43c81ef8095f021ae6c7ad984d6efeb95e1b42be50a902221e9c
 docker: quay.io/biocontainers/bali-phy
 aliases:
   alignment-cat: /usr/local/bin/alignment-cat

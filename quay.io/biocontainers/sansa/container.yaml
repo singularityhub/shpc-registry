@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sansa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sansa
 latest:
-  0.2.5--h4d20210_0: 
-    sha256:eaf93641c4a0bb0ce0aa2711a8955d9722539302d9819508051229ef1bbe79f3
+  0.3.1--h3752d28_0: 
+    sha256:b187dc5aeb03760e115a5fc7bb67e36603120ab1614dd1cd9f6a2d97081762f9
 tags:
   0.0.8--h2e9000e_4: 
     sha256:97631d721171c37c444d137a28c4f0f518c1a6cf91da62de40101093ce4c260a
@@ -25,6 +25,8 @@ tags:
     sha256:4be24332fcb2bb2a4f7f6cabe669c73bebdcb78825051795071688261c77a2ab
   0.2.5--h4d20210_0: 
     sha256:eaf93641c4a0bb0ce0aa2711a8955d9722539302d9819508051229ef1bbe79f3
+  0.3.1--h3752d28_0: 
+    sha256:b187dc5aeb03760e115a5fc7bb67e36603120ab1614dd1cd9f6a2d97081762f9
 docker: quay.io/biocontainers/sansa
 aliases:
   sansa: /usr/local/bin/sansa
