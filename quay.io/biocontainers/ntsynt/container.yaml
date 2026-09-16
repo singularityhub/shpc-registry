@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ntsynt
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ntsynt
 latest:
-  1.0.8--py311h3cb736e_0: 
-    sha256:90e9f424a3496e7a0be659e8c227b79777b91c4ad62479e46e23e991fb4cbb4d
+  1.0.9--py310hd766df8_0: 
+    sha256:b9201d48375d8bf63aa564e62cedcad58b14dcf094a84f4d60f7929c37e27f22
 tags:
   1.0.0--py39h1f90b4d_0: 
     sha256:306b9858d9354844142f8efbd59c9308eee286fdcf8cd49fafb14c6dbfb4b42c
@@ -27,6 +27,8 @@ tags:
     sha256:33674229170993833cd6b550e9dc7634e2f7b80cca62dc564a34472ec409b59c
   1.0.8--py311h3cb736e_0: 
     sha256:90e9f424a3496e7a0be659e8c227b79777b91c4ad62479e46e23e991fb4cbb4d
+  1.0.9--py310hd766df8_0: 
+    sha256:b9201d48375d8bf63aa564e62cedcad58b14dcf094a84f4d60f7929c37e27f22
 docker: quay.io/biocontainers/ntsynt
 aliases:
   annot-tsv: /usr/local/bin/annot-tsv

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/zipstrain
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for zipstrain
 latest:
-  0.11.1--pyhdfd78af_0: 
-    sha256:6346f72852228d58c774d816ffde59791c58da982cb3fadc83c4bac562fea0b8
+  1.0.4--pyhdfd78af_0: 
+    sha256:7a68cb5dceee2d4d69bc37c9cb699ce9018c76d5bec21a3b2543393da00bb363
 tags:
   0.1.7--pyhdfd78af_0: 
     sha256:62d0291f0b911ed895e5b4794b8a10c582565ee40e69e41e1a7509702675d1e8
@@ -31,6 +31,8 @@ tags:
     sha256:6346f72852228d58c774d816ffde59791c58da982cb3fadc83c4bac562fea0b8
   0.10.2--pyhdfd78af_0: 
     sha256:10097fc5e310352d18ccfaffe3dafbc705b25e62cb19985a3bd268dcf83457bf
+  1.0.4--pyhdfd78af_0: 
+    sha256:7a68cb5dceee2d4d69bc37c9cb699ce9018c76d5bec21a3b2543393da00bb363
 docker: quay.io/biocontainers/zipstrain
 aliases:
   zipstrain: /usr/local/bin/zipstrain

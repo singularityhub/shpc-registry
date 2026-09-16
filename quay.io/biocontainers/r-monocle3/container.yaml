@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-monocle3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-monocle3
 latest:
-  1.4.26--r44h9948957_0: 
-    sha256:513fa87e98bebc2bc81442d779788866acfe9c29d42ec345db65d9818405050a
+  1.4.27--r45hc52dbad_0: 
+    sha256:12561a9a215638bc10358895bd43c13ffc1c02036462ef1a2c3b62e0d113fc36
 tags:
   1.0.0--r41h9f5acd7_2: 
     sha256:d4852b89fa06b6f62f4abd30679cc92368e8c49beea05a1ccaae664a3962152e
@@ -19,6 +19,8 @@ tags:
     sha256:7be7e053121827dcc93cc7e8fe9b4ea985498c855ce85ea9f5ce8e2157a9065e
   1.4.26--r44h9948957_0: 
     sha256:513fa87e98bebc2bc81442d779788866acfe9c29d42ec345db65d9818405050a
+  1.4.27--r45hc52dbad_0: 
+    sha256:12561a9a215638bc10358895bd43c13ffc1c02036462ef1a2c3b62e0d113fc36
 docker: quay.io/biocontainers/r-monocle3
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

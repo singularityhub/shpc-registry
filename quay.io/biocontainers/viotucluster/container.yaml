@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/viotucluster
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for viotucluster
 latest:
-  0.7.0--py310hdfd78af_0: 
-    sha256:2b014832a5ce5c6bdebda01c8dcb23d926cf718b25532dce303a5c597a2b60ff
+  0.7.1--py310hdfd78af_0: 
+    sha256:01d89cecb9f5c05793b4da67bc55018789a9297bf2b8981a86ad94d267630a38
 tags:
   0.7.0--py310hdfd78af_0: 
     sha256:2b014832a5ce5c6bdebda01c8dcb23d926cf718b25532dce303a5c597a2b60ff
+  0.7.1--py310hdfd78af_0: 
+    sha256:01d89cecb9f5c05793b4da67bc55018789a9297bf2b8981a86ad94d267630a38
 docker: quay.io/biocontainers/viotucluster
 aliases:
   Preprocess_module.sh: /usr/local/bin/Preprocess_module.sh

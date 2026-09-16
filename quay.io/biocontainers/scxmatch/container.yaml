@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/scxmatch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scxmatch
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:f4999e002e14c50afda1098bb27e48d67624c13002254699b7cff27ea7a995d9
+  1.0.1--pyhdfd78af_0: 
+    sha256:505ce451cd9e16a7994f3469bfea7383a5ef3ec9d5a77ccdee72191749fe361e
 tags:
   0.0.2--pyhdfd78af_0: 
     sha256:d0abdcf417ff12cd11545d7db4f1ac37ed42f5210d663033672cd62f8804a797
@@ -15,6 +15,8 @@ tags:
     sha256:16bf902e4f06f625fa50cf5e509b583826797c9c95cee5f38f2838131866c71a
   0.2.0--pyhdfd78af_0: 
     sha256:f4999e002e14c50afda1098bb27e48d67624c13002254699b7cff27ea7a995d9
+  1.0.1--pyhdfd78af_0: 
+    sha256:505ce451cd9e16a7994f3469bfea7383a5ef3ec9d5a77ccdee72191749fe361e
 docker: quay.io/biocontainers/scxmatch
 aliases:
   gtk-builder-tool: /usr/local/bin/gtk-builder-tool

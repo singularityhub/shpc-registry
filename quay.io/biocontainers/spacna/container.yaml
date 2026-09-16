@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/spacna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spacna
 latest:
-  0.1.0--hdfd78af_0: 
-    sha256:e869bb70e3765e1e992be6c4d9c7eeefb670eb13d71706ad9aa9457884cc0abf
+  0.1.1--hdfd78af_0: 
+    sha256:9a2ad403699ae5f092e1971f464bff29a7caaa711a25ce25da8872fb7bf950b4
 tags:
   0.1.0--hdfd78af_0: 
     sha256:e869bb70e3765e1e992be6c4d9c7eeefb670eb13d71706ad9aa9457884cc0abf
+  0.1.1--hdfd78af_0: 
+    sha256:9a2ad403699ae5f092e1971f464bff29a7caaa711a25ce25da8872fb7bf950b4
 docker: quay.io/biocontainers/spacna
 aliases:
   axis-dna: /usr/local/bin/axis-dna
