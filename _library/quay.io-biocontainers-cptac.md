@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cptac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cptac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cptac/container.yaml"
-updated_at: "2026-09-15 07:33:24.709373"
+updated_at: "2026-09-16 07:36:32.604983"
 latest: "1.5.13--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cptac"
 aliases:

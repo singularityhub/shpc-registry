@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tasmanian-mismatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tasmanian-mismatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tasmanian-mismatch/container.yaml"
-updated_at: "2026-09-15 07:45:21.022864"
-latest: "2.0.2--h31ab156_0"
+updated_at: "2026-09-16 07:50:00.146318"
+latest: "2.0.5--h31ab156_0"
 container_url: "https://biocontainers.pro/tools/tasmanian-mismatch"
 aliases:
  - "run_intersections"
@@ -24,8 +24,9 @@ versions:
  - "1.0.7--pyhdfd78af_0"
  - "1.0.9--pyhdfd78af_0"
  - "2.0.2--h31ab156_0"
+ - "2.0.5--h31ab156_0"
 description: "shpc-registry automated BioContainers addition for tasmanian-mismatch"
-config: {"url": "https://biocontainers.pro/tools/tasmanian-mismatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tasmanian-mismatch", "latest": {"2.0.2--h31ab156_0": "sha256:29f3e3227e4644de58a6fc4495415187549b3e67e5c338585849fb0d8a861078"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:381faa1b3f7ce4b09296412b2018f5ffa7f941015f0d42659d31a5dedec25bdd", "1.0.9--pyhdfd78af_0": "sha256:0d34ca4b726b7fdbe491f470ef80fa7e4932f9329962f1464524f0fc72a77ada", "2.0.2--h31ab156_0": "sha256:29f3e3227e4644de58a6fc4495415187549b3e67e5c338585849fb0d8a861078"}, "docker": "quay.io/biocontainers/tasmanian-mismatch", "aliases": {"run_intersections": "/usr/local/bin/run_intersections", "run_tasmanian": "/usr/local/bin/run_tasmanian", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/tasmanian-mismatch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tasmanian-mismatch", "latest": {"2.0.5--h31ab156_0": "sha256:29c5096ff612aa9c646a27ae746ae17842aba9e6899e829b98fdb1d27bac0d11"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:381faa1b3f7ce4b09296412b2018f5ffa7f941015f0d42659d31a5dedec25bdd", "1.0.9--pyhdfd78af_0": "sha256:0d34ca4b726b7fdbe491f470ef80fa7e4932f9329962f1464524f0fc72a77ada", "2.0.2--h31ab156_0": "sha256:29f3e3227e4644de58a6fc4495415187549b3e67e5c338585849fb0d8a861078", "2.0.5--h31ab156_0": "sha256:29c5096ff612aa9c646a27ae746ae17842aba9e6899e829b98fdb1d27bac0d11"}, "docker": "quay.io/biocontainers/tasmanian-mismatch", "aliases": {"run_intersections": "/usr/local/bin/run_intersections", "run_tasmanian": "/usr/local/bin/run_tasmanian", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tasmanian-mismatch.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/tasmanian-mismatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tasmanian-mismatch:2.0.2--h31ab156_0
+$ shpc install quay.io/biocontainers/tasmanian-mismatch:2.0.5--h31ab156_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tasmanian-mismatch/2.0.2--h31ab156_0
-$ module help quay.io/biocontainers/tasmanian-mismatch/2.0.2--h31ab156_0
+$ module load quay.io/biocontainers/tasmanian-mismatch/2.0.5--h31ab156_0
+$ module help quay.io/biocontainers/tasmanian-mismatch/2.0.5--h31ab156_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

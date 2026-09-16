@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/riboseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboseek/container.yaml"
-updated_at: "2026-09-15 08:02:11.082052"
-latest: "1.0.0--he833c27_0"
+updated_at: "2026-09-16 08:09:06.815684"
+latest: "1.0.1--he833c27_0"
 container_url: "https://biocontainers.pro/tools/riboseek"
 aliases:
  - "gawk-5.4.1"
@@ -16,8 +16,9 @@ aliases:
  - "awk"
 versions:
  - "1.0.0--he833c27_0"
+ - "1.0.1--he833c27_0"
 description: "singularity registry hpc automated addition for riboseek"
-config: {"url": "https://biocontainers.pro/tools/riboseek", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for riboseek", "latest": {"1.0.0--he833c27_0": "sha256:57b7b1334ef41cc101d8be62cb1eb48aff99a85223345ec1a1e0783f57b2ed31"}, "tags": {"1.0.0--he833c27_0": "sha256:57b7b1334ef41cc101d8be62cb1eb48aff99a85223345ec1a1e0783f57b2ed31"}, "docker": "quay.io/biocontainers/riboseek", "aliases": {"gawk-5.4.1": "/usr/local/bin/gawk-5.4.1", "riboseek": "/usr/local/bin/riboseek", "aria2c": "/usr/local/bin/aria2c", "gawkbug": "/usr/local/bin/gawkbug", "gawk": "/usr/local/bin/gawk", "awk": "/usr/local/bin/awk"}}
+config: {"url": "https://biocontainers.pro/tools/riboseek", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for riboseek", "latest": {"1.0.1--he833c27_0": "sha256:00d647e68a88f6581e6a2407cacb602c8309e15ed79ef3fbd11e94e8a2481aef"}, "tags": {"1.0.0--he833c27_0": "sha256:57b7b1334ef41cc101d8be62cb1eb48aff99a85223345ec1a1e0783f57b2ed31", "1.0.1--he833c27_0": "sha256:00d647e68a88f6581e6a2407cacb602c8309e15ed79ef3fbd11e94e8a2481aef"}, "docker": "quay.io/biocontainers/riboseek", "aliases": {"gawk-5.4.1": "/usr/local/bin/gawk-5.4.1", "riboseek": "/usr/local/bin/riboseek", "aria2c": "/usr/local/bin/aria2c", "gawkbug": "/usr/local/bin/gawkbug", "gawk": "/usr/local/bin/gawk", "awk": "/usr/local/bin/awk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riboseek.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/riboseek
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/riboseek:1.0.0--he833c27_0
+$ shpc install quay.io/biocontainers/riboseek:1.0.1--he833c27_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/riboseek/1.0.0--he833c27_0
-$ module help quay.io/biocontainers/riboseek/1.0.0--he833c27_0
+$ module load quay.io/biocontainers/riboseek/1.0.1--he833c27_0
+$ module help quay.io/biocontainers/riboseek/1.0.1--he833c27_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-cnaqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cnaqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cnaqc/container.yaml"
-updated_at: "2026-09-15 08:14:01.606240"
-latest: "1.1.3--r44hdfd78af_0"
+updated_at: "2026-09-16 08:22:24.039615"
+latest: "1.1.5--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-cnaqc"
 aliases:
  - "pandoc-lua"
@@ -31,8 +31,9 @@ aliases:
 versions:
  - "1.1.2--r44hdfd78af_0"
  - "1.1.3--r44hdfd78af_0"
+ - "1.1.5--r44hdfd78af_0"
 description: "singularity registry hpc automated addition for r-cnaqc"
-config: {"url": "https://biocontainers.pro/tools/r-cnaqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cnaqc", "latest": {"1.1.3--r44hdfd78af_0": "sha256:7b56e594703d203cab314a0c46af23ba3b2b82ba93b337cd002e956f0debc8ad"}, "tags": {"1.1.2--r44hdfd78af_0": "sha256:ff093a483d373a088e579907c9e34f83c185125c1aa674074c5c3f843b8d3ff1", "1.1.3--r44hdfd78af_0": "sha256:7b56e594703d203cab314a0c46af23ba3b2b82ba93b337cd002e956f0debc8ad"}, "docker": "quay.io/biocontainers/r-cnaqc", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/r-cnaqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-cnaqc", "latest": {"1.1.5--r44hdfd78af_0": "sha256:6f0451a25ff2dc64291402abdd04991c5c32d142c50e7b53450394a2c4bf864f"}, "tags": {"1.1.2--r44hdfd78af_0": "sha256:ff093a483d373a088e579907c9e34f83c185125c1aa674074c5c3f843b8d3ff1", "1.1.3--r44hdfd78af_0": "sha256:7b56e594703d203cab314a0c46af23ba3b2b82ba93b337cd002e956f0debc8ad", "1.1.5--r44hdfd78af_0": "sha256:6f0451a25ff2dc64291402abdd04991c5c32d142c50e7b53450394a2c4bf864f"}, "docker": "quay.io/biocontainers/r-cnaqc", "aliases": {"pandoc-lua": "/usr/local/bin/pandoc-lua", "pandoc-server": "/usr/local/bin/pandoc-server", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "numpy-config": "/usr/local/bin/numpy-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "pandoc": "/usr/local/bin/pandoc", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cnaqc.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/r-cnaqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cnaqc:1.1.3--r44hdfd78af_0
+$ shpc install quay.io/biocontainers/r-cnaqc:1.1.5--r44hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cnaqc/1.1.3--r44hdfd78af_0
-$ module help quay.io/biocontainers/r-cnaqc/1.1.3--r44hdfd78af_0
+$ module load quay.io/biocontainers/r-cnaqc/1.1.5--r44hdfd78af_0
+$ module help quay.io/biocontainers/r-cnaqc/1.1.5--r44hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

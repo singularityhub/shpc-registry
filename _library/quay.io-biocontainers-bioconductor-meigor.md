@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-meigor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meigor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meigor/container.yaml"
-updated_at: "2026-09-15 07:41:58.633532"
+updated_at: "2026-09-16 07:46:04.275102"
 latest: "1.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meigor"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/panmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panmap/container.yaml"
-updated_at: "2026-09-15 08:02:53.244881"
-latest: "0.1.2--0"
+updated_at: "2026-09-16 08:09:52.338272"
+latest: "0.2.1--h48607d3_0"
 container_url: "https://biocontainers.pro/tools/panmap"
 aliases:
  - "panmanUtils"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "0.1.1--0"
  - "0.1.2--0"
+ - "0.2.1--h48607d3_0"
 description: "singularity registry hpc automated addition for panmap"
-config: {"url": "https://biocontainers.pro/tools/panmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panmap", "latest": {"0.1.2--0": "sha256:675735f288cbfb28296076dad7a3865408693194f2c0be130d3f48c87f6d9136"}, "tags": {"0.1.1--0": "sha256:d248c32dfa84bf82ed7632bb9e142e4bb9c4c6f940a0d94512f20ed8d00cbe04", "0.1.2--0": "sha256:675735f288cbfb28296076dad7a3865408693194f2c0be130d3f48c87f6d9136"}, "docker": "quay.io/biocontainers/panmap", "aliases": {"panmanUtils": "/usr/local/bin/panmanUtils", "panmap": "/usr/local/bin/panmap", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
+config: {"url": "https://biocontainers.pro/tools/panmap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for panmap", "latest": {"0.2.1--h48607d3_0": "sha256:b1a0c755f4517ddf6af38f27efcd0db1ffe7e75d9da181be9f0c53d717260268"}, "tags": {"0.1.1--0": "sha256:d248c32dfa84bf82ed7632bb9e142e4bb9c4c6f940a0d94512f20ed8d00cbe04", "0.1.2--0": "sha256:675735f288cbfb28296076dad7a3865408693194f2c0be130d3f48c87f6d9136", "0.2.1--h48607d3_0": "sha256:b1a0c755f4517ddf6af38f27efcd0db1ffe7e75d9da181be9f0c53d717260268"}, "docker": "quay.io/biocontainers/panmap", "aliases": {"panmanUtils": "/usr/local/bin/panmanUtils", "panmap": "/usr/local/bin/panmap", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "ref-cache": "/usr/local/bin/ref-cache", "annot-tsv": "/usr/local/bin/annot-tsv", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panmap.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/panmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/panmap:0.1.2--0
+$ shpc install quay.io/biocontainers/panmap:0.2.1--h48607d3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/panmap/0.1.2--0
-$ module help quay.io/biocontainers/panmap/0.1.2--0
+$ module load quay.io/biocontainers/panmap/0.2.1--h48607d3_0
+$ module help quay.io/biocontainers/panmap/0.2.1--h48607d3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

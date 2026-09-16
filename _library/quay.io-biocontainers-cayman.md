@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cayman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cayman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cayman/container.yaml"
-updated_at: "2026-09-15 07:41:08.966876"
-latest: "0.10.3--pyh106432d_0"
+updated_at: "2026-09-16 07:45:06.140179"
+latest: "0.13.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/cayman"
 aliases:
  - "cayman"
@@ -23,8 +23,9 @@ versions:
  - "0.10.1--pyh7e72e81_0"
  - "0.10.2--pyh7e72e81_0"
  - "0.10.3--pyh106432d_0"
+ - "0.13.0--pyh106432d_0"
 description: "singularity registry hpc automated addition for cayman"
-config: {"url": "https://biocontainers.pro/tools/cayman", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cayman", "latest": {"0.10.3--pyh106432d_0": "sha256:cbf84476471296b2aaa279108a545fd468176362a3ebb7c876a4a8ec8c2b4e09"}, "tags": {"0.10.1--pyh7e72e81_0": "sha256:9621a35c9d81210b02a8771fde810bf48b4d616a7215d0efa9d3d55bc27f73c0", "0.10.2--pyh7e72e81_0": "sha256:a3a94cef7cd2332a88f751be1e600806e643badef3453ef92ec7f6539519c5d5", "0.10.3--pyh106432d_0": "sha256:cbf84476471296b2aaa279108a545fd468176362a3ebb7c876a4a8ec8c2b4e09"}, "docker": "quay.io/biocontainers/cayman", "aliases": {"cayman": "/usr/local/bin/cayman", "numpy-config": "/usr/local/bin/numpy-config", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "minimap2": "/usr/local/bin/minimap2", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cayman", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for cayman", "latest": {"0.13.0--pyh106432d_0": "sha256:95b2aeb204848f924ce8b62f3f46090968294ada46fd8c820f00082de58bfa5c"}, "tags": {"0.10.1--pyh7e72e81_0": "sha256:9621a35c9d81210b02a8771fde810bf48b4d616a7215d0efa9d3d55bc27f73c0", "0.10.2--pyh7e72e81_0": "sha256:a3a94cef7cd2332a88f751be1e600806e643badef3453ef92ec7f6539519c5d5", "0.10.3--pyh106432d_0": "sha256:cbf84476471296b2aaa279108a545fd468176362a3ebb7c876a4a8ec8c2b4e09", "0.13.0--pyh106432d_0": "sha256:95b2aeb204848f924ce8b62f3f46090968294ada46fd8c820f00082de58bfa5c"}, "docker": "quay.io/biocontainers/cayman", "aliases": {"cayman": "/usr/local/bin/cayman", "numpy-config": "/usr/local/bin/numpy-config", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "minimap2": "/usr/local/bin/minimap2", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cayman.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/cayman
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cayman:0.10.3--pyh106432d_0
+$ shpc install quay.io/biocontainers/cayman:0.13.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cayman/0.10.3--pyh106432d_0
-$ module help quay.io/biocontainers/cayman/0.10.3--pyh106432d_0
+$ module load quay.io/biocontainers/cayman/0.13.0--pyh106432d_0
+$ module help quay.io/biocontainers/cayman/0.13.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

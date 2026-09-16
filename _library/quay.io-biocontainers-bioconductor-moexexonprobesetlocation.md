@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-moexexonprobesetlocation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moexexonprobesetlocation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moexexonprobesetlocation/container.yaml"
-updated_at: "2026-09-15 08:10:09.477469"
+updated_at: "2026-09-16 08:17:51.359990"
 latest: "1.15.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-moexexonprobesetlocation"
 

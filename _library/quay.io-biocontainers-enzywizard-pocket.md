@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-pocket"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-pocket/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-pocket/container.yaml"
-updated_at: "2026-09-15 08:18:51.403893"
-latest: "1.0.2--pyhdfd78af_1"
+updated_at: "2026-09-16 08:27:44.438774"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-pocket"
 aliases:
  - "enzywizard-pocket"
@@ -20,8 +20,9 @@ aliases:
 versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.2--pyhdfd78af_1"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-pocket"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-pocket", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-pocket", "latest": {"1.0.2--pyhdfd78af_1": "sha256:e62b992ee3cfd05d43cd005ffcf3a20f7aba97dcfa86d4f006cbde6f7fe44e77"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:260cae1977f1133fe9b0fd4b0f8314cb510be2bfef08d518b381ba5260f21491", "1.0.2--pyhdfd78af_1": "sha256:e62b992ee3cfd05d43cd005ffcf3a20f7aba97dcfa86d4f006cbde6f7fe44e77"}, "docker": "quay.io/biocontainers/enzywizard-pocket", "aliases": {"enzywizard-pocket": "/usr/local/bin/enzywizard-pocket", "msms": "/usr/local/bin/msms", "pyvol": "/usr/local/bin/pyvol", "trimesh": "/usr/local/bin/trimesh", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-pocket", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-pocket", "latest": {"1.0.3--pyhdfd78af_0": "sha256:1f1f5305bc2be0b87ff92bd9c77e78388439443692386edabae6b2f4369fdea5"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:260cae1977f1133fe9b0fd4b0f8314cb510be2bfef08d518b381ba5260f21491", "1.0.2--pyhdfd78af_1": "sha256:e62b992ee3cfd05d43cd005ffcf3a20f7aba97dcfa86d4f006cbde6f7fe44e77", "1.0.3--pyhdfd78af_0": "sha256:1f1f5305bc2be0b87ff92bd9c77e78388439443692386edabae6b2f4369fdea5"}, "docker": "quay.io/biocontainers/enzywizard-pocket", "aliases": {"enzywizard-pocket": "/usr/local/bin/enzywizard-pocket", "msms": "/usr/local/bin/msms", "pyvol": "/usr/local/bin/pyvol", "trimesh": "/usr/local/bin/trimesh", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-pocket.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/enzywizard-pocket
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-pocket:1.0.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/enzywizard-pocket:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-pocket/1.0.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/enzywizard-pocket/1.0.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/enzywizard-pocket/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-pocket/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

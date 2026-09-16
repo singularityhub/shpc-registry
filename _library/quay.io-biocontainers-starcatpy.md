@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/starcatpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starcatpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/starcatpy/container.yaml"
-updated_at: "2026-09-15 07:26:55.482174"
+updated_at: "2026-09-16 07:29:14.065998"
 latest: "1.0.10--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/starcatpy"
 aliases:

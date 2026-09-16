@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hillrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hillrep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hillrep/container.yaml"
-updated_at: "2026-09-15 07:36:57.936422"
-latest: "0.3.0--pyhdfd78af_0"
+updated_at: "2026-09-16 07:40:34.323123"
+latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hillrep"
 aliases:
  - "hillrep"
@@ -16,8 +16,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.3.0--pyhdfd78af_0"
+ - "0.4.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hillrep"
-config: {"url": "https://biocontainers.pro/tools/hillrep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hillrep", "latest": {"0.3.0--pyhdfd78af_0": "sha256:f9688fc2497e1426ff4812fcf36105d4d222347fa0b62c78418624d51c1223d8"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:f9688fc2497e1426ff4812fcf36105d4d222347fa0b62c78418624d51c1223d8"}, "docker": "quay.io/biocontainers/hillrep", "aliases": {"hillrep": "/usr/local/bin/hillrep", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/hillrep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hillrep", "latest": {"0.4.0--pyhdfd78af_0": "sha256:87b3dae6a5b8d7d77f60abce34cdad641bf3490ddf6f883b758ea3c20b8c7403"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:f9688fc2497e1426ff4812fcf36105d4d222347fa0b62c78418624d51c1223d8", "0.4.0--pyhdfd78af_0": "sha256:87b3dae6a5b8d7d77f60abce34cdad641bf3490ddf6f883b758ea3c20b8c7403"}, "docker": "quay.io/biocontainers/hillrep", "aliases": {"hillrep": "/usr/local/bin/hillrep", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hillrep.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/hillrep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hillrep:0.3.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/hillrep:0.4.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hillrep/0.3.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/hillrep/0.3.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/hillrep/0.4.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/hillrep/0.4.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

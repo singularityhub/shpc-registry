@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-suitor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-suitor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-suitor/container.yaml"
-updated_at: "2026-09-15 07:33:29.568971"
+updated_at: "2026-09-16 07:36:38.180883"
 latest: "1.12.0--r45h01b2380_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-suitor"
 

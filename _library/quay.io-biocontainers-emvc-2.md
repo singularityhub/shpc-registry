@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emvc-2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emvc-2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emvc-2/container.yaml"
-updated_at: "2026-09-15 07:52:18.158412"
+updated_at: "2026-09-16 07:57:59.196858"
 latest: "1.0--h7b50bb2_4"
 container_url: "https://biocontainers.pro/tools/emvc-2"
 aliases:

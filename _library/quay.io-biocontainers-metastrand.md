@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metastrand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metastrand/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metastrand/container.yaml"
-updated_at: "2026-09-15 07:56:26.965858"
+updated_at: "2026-09-16 08:02:48.872225"
 latest: "0.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metastrand"
 aliases:
