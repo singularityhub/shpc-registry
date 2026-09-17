@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/slow5tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for slow5tools
 latest:
-  1.4.0--hee927d3_0: 
-    sha256:34b447a1ac536c2048e29bbfaf666be2fad48694145d6ccd65f3e45cfd0b2518
+  1.5.0--hc820af4_0: 
+    sha256:69d48a5bab35f750a1cf88a2407261036e2b4e3e15fdf99016445302a23a65c7
 tags:
   0.6.0--h0326b38_2: 
     sha256:fa2549fa31797e890061e4e6c911d2d378486cf17f6e98adeb93f17500e5cdca
@@ -49,6 +49,8 @@ tags:
     sha256:6b68f930069790bd517e72ef7450e3184ef664a5d4eab21ffc60c7f22472eb80
   1.4.0--hee927d3_0: 
     sha256:34b447a1ac536c2048e29bbfaf666be2fad48694145d6ccd65f3e45cfd0b2518
+  1.5.0--hc820af4_0: 
+    sha256:69d48a5bab35f750a1cf88a2407261036e2b4e3e15fdf99016445302a23a65c7
 docker: quay.io/biocontainers/slow5tools
 aliases:
   slow5tools: /usr/local/bin/slow5tools

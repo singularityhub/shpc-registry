@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   enzywizard-substrate
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:6d11430228094845abdf2934aacf3d83d1c30a9b9293565b464a5c08570c2065
+  1.0.3--pyhdfd78af_0: 
+    sha256:79d867e07064419ef96dfa0f59eca8e1aaaa358a451ed1be148de241c3b63039
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:6d11430228094845abdf2934aacf3d83d1c30a9b9293565b464a5c08570c2065
+  1.0.3--pyhdfd78af_0: 
+    sha256:79d867e07064419ef96dfa0f59eca8e1aaaa358a451ed1be148de241c3b63039
 docker: quay.io/biocontainers/enzywizard-substrate
 aliases:
   enzywizard-substrate: /usr/local/bin/enzywizard-substrate

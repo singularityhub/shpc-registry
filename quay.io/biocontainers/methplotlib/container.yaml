@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/methplotlib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for methplotlib
 latest:
-  0.21.2--pyhdfd78af_0: 
-    sha256:5d4239cd3fdafa04e67b6a93864234ad61bcf992cf84537f79e1abdf98b67a14
+  0.23.2--pyhdfd78af_0: 
+    sha256:d832721f0386aeabb868f6f2bc6661c653f4369f2bbd09fc0683135571f54408
 tags:
   0.8.0--py_0: 
     sha256:3b96772549b32b6e8789439cfacae28f286c5a2b1a00d565a2604e0002740aa5
@@ -19,6 +19,8 @@ tags:
     sha256:9ab71e0bb3c95c8531ecc79b30a6f2d7f5221a64f3808d395d570d3cc8e09ab3
   0.21.2--pyhdfd78af_0: 
     sha256:5d4239cd3fdafa04e67b6a93864234ad61bcf992cf84537f79e1abdf98b67a14
+  0.23.2--pyhdfd78af_0: 
+    sha256:d832721f0386aeabb868f6f2bc6661c653f4369f2bbd09fc0683135571f54408
 docker: quay.io/biocontainers/methplotlib
 aliases:
   allele_specific_modification: /usr/local/bin/allele_specific_modification

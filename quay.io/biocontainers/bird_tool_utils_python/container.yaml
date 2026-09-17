@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bird_tool_utils_python
 latest:
-  0.6.0--pyh7e72e81_0: 
-    sha256:599a297063d51acbcd8c1bf9bd89e0ece215e6fe837910aebb33227890b09a63
+  0.7.2--pyhdfd78af_0: 
+    sha256:7135b5af2fe215eb362b9a70ace2c8f4134416caf45f625b964eca8fc9cfcb7e
 tags:
   0.4.1--pyhdfd78af_0: 
     sha256:03d3475f0f21960e5f4364d159433489a1775212508c79a7973030bb6756fc5b
@@ -12,6 +12,8 @@ tags:
     sha256:599a297063d51acbcd8c1bf9bd89e0ece215e6fe837910aebb33227890b09a63
   0.5.1--pyh7e72e81_0: 
     sha256:43aeab66780e9e66699263bc0b4e4362dd8a5bd8c159d6621ea09607e8dbd6da
+  0.7.2--pyhdfd78af_0: 
+    sha256:7135b5af2fe215eb362b9a70ace2c8f4134416caf45f625b964eca8fc9cfcb7e
 docker: quay.io/biocontainers/bird_tool_utils_python
 aliases:
   x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
