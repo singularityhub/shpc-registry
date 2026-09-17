@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tweedeseqcountdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tweedeseqcountdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tweedeseqcountdata/container.yaml"
-updated_at: "2026-09-16 07:25:43.541822"
+updated_at: "2026-09-17 07:20:14.650417"
 latest: "1.48.0--r45hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tweedeseqcountdata"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hipstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hipstr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hipstr/container.yaml"
-updated_at: "2026-09-16 07:28:18.824152"
-latest: "0.7--hcf09f9e_0"
+updated_at: "2026-09-17 07:21:58.025866"
+latest: "0.7--hcf09f9e_1"
 container_url: "https://biocontainers.pro/tools/hipstr"
 aliases:
  - "HipSTR"
@@ -15,8 +15,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "0.7--hcf09f9e_0"
+ - "0.7--hcf09f9e_1"
 description: "singularity registry hpc automated addition for hipstr"
-config: {"url": "https://biocontainers.pro/tools/hipstr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hipstr", "latest": {"0.7--hcf09f9e_0": "sha256:62009960693867d488fec9d10612825e0cace19955fb091d960eab1d7528e2fa"}, "tags": {"0.7--hcf09f9e_0": "sha256:62009960693867d488fec9d10612825e0cace19955fb091d960eab1d7528e2fa"}, "docker": "quay.io/biocontainers/hipstr", "aliases": {"HipSTR": "/usr/local/bin/HipSTR", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/hipstr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hipstr", "latest": {"0.7--hcf09f9e_1": "sha256:bda9297d1bd56e653964cb460643acbd1199f46dfa6591e85212b32f75375407"}, "tags": {"0.7--hcf09f9e_0": "sha256:62009960693867d488fec9d10612825e0cace19955fb091d960eab1d7528e2fa", "0.7--hcf09f9e_1": "sha256:bda9297d1bd56e653964cb460643acbd1199f46dfa6591e85212b32f75375407"}, "docker": "quay.io/biocontainers/hipstr", "aliases": {"HipSTR": "/usr/local/bin/HipSTR", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hipstr.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/hipstr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hipstr:0.7--hcf09f9e_0
+$ shpc install quay.io/biocontainers/hipstr:0.7--hcf09f9e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hipstr/0.7--hcf09f9e_0
-$ module help quay.io/biocontainers/hipstr/0.7--hcf09f9e_0
+$ module load quay.io/biocontainers/hipstr/0.7--hcf09f9e_1
+$ module help quay.io/biocontainers/hipstr/0.7--hcf09f9e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

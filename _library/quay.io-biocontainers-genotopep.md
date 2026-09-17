@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genotopep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genotopep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genotopep/container.yaml"
-updated_at: "2026-09-16 07:30:48.228155"
+updated_at: "2026-09-17 07:23:38.176707"
 latest: "0.1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genotopep"
 aliases:

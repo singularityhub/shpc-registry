@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/logan_blaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logan_blaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/logan_blaster/container.yaml"
-updated_at: "2026-09-16 08:28:41.302664"
+updated_at: "2026-09-17 08:00:40.424867"
 latest: "0.1.3--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/logan_blaster"
 aliases:

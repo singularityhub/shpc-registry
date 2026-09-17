@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-numbat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-numbat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-numbat/container.yaml"
-updated_at: "2026-09-16 07:38:33.207818"
+updated_at: "2026-09-17 07:28:30.733372"
 latest: "1.5.2--r44h40dc89f_0"
 container_url: "https://biocontainers.pro/tools/r-numbat"
 aliases:

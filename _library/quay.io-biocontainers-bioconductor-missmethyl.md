@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-missmethyl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-missmethyl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-missmethyl/container.yaml"
-updated_at: "2026-09-16 07:30:33.780531"
+updated_at: "2026-09-17 07:23:29.102541"
 latest: "1.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-missmethyl"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sangeranalyser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sangeranalyser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sangeranalyser/container.yaml"
-updated_at: "2026-09-16 08:13:46.258300"
+updated_at: "2026-09-17 07:51:22.578786"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sangeranalyser"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-parsexs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-parsexs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-parsexs/container.yaml"
-updated_at: "2026-09-16 07:44:43.151810"
+updated_at: "2026-09-17 07:32:29.843000"
 latest: "3.64--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-parsexs"
 aliases:

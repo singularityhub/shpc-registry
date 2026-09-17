@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-extutils-cppguess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-extutils-cppguess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-extutils-cppguess/container.yaml"
-updated_at: "2026-09-16 07:34:14.408890"
+updated_at: "2026-09-17 07:25:46.871819"
 latest: "0.27--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/perl-extutils-cppguess"
 aliases:

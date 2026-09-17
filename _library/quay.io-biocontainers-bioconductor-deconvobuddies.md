@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-deconvobuddies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deconvobuddies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deconvobuddies/container.yaml"
-updated_at: "2026-09-16 07:44:14.216591"
+updated_at: "2026-09-17 07:32:10.825090"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deconvobuddies"
 aliases:

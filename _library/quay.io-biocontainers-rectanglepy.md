@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rectanglepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rectanglepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rectanglepy/container.yaml"
-updated_at: "2026-09-16 08:02:08.016398"
+updated_at: "2026-09-17 07:43:32.541619"
 latest: "1.5.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/rectanglepy"
 aliases:

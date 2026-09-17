@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/constrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/constrain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/constrain/container.yaml"
-updated_at: "2026-09-16 07:35:18.354086"
+updated_at: "2026-09-17 07:26:27.906654"
 latest: "1.1.0--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/constrain"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ruvnormalizedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ruvnormalizedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ruvnormalizedata/container.yaml"
-updated_at: "2026-09-16 08:01:54.501559"
+updated_at: "2026-09-17 07:43:23.713571"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ruvnormalizedata"
 aliases:

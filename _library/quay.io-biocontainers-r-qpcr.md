@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qpcr/container.yaml"
-updated_at: "2026-09-16 08:25:56.531412"
+updated_at: "2026-09-17 07:58:49.730933"
 latest: "1.4_1--r36hcdcec82_1"
 container_url: "https://biocontainers.pro/tools/r-qpcr"
 

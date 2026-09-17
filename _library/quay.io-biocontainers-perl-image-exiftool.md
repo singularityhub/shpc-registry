@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-image-exiftool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-image-exiftool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-image-exiftool/container.yaml"
-updated_at: "2026-09-16 08:11:01.687728"
+updated_at: "2026-09-17 07:49:38.222303"
 latest: "13.55--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-image-exiftool"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pygoslin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygoslin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pygoslin/container.yaml"
-updated_at: "2026-09-16 07:33:24.673707"
-latest: "2.2.4--pyh106432d_0"
+updated_at: "2026-09-17 07:25:16.061786"
+latest: "2.2.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/pygoslin"
 aliases:
  - "idle3.14"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "2.2.3--pyh106432d_0"
  - "2.2.4--pyh106432d_0"
+ - "2.2.5--pyh106432d_0"
 description: "singularity registry hpc automated addition for pygoslin"
-config: {"url": "https://biocontainers.pro/tools/pygoslin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygoslin", "latest": {"2.2.4--pyh106432d_0": "sha256:d702239dbd423f8c0d970097557780073a4ff3e1b5ff807d707ca292caf6b023"}, "tags": {"2.2.3--pyh106432d_0": "sha256:a5f5c6a54fb345ab763c18e09e284d32383a059f405578591dfbb715bd05e782", "2.2.4--pyh106432d_0": "sha256:d702239dbd423f8c0d970097557780073a4ff3e1b5ff807d707ca292caf6b023"}, "docker": "quay.io/biocontainers/pygoslin", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/pygoslin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for pygoslin", "latest": {"2.2.5--pyh106432d_0": "sha256:d1b130fd208e6fd221499bd7370321e32d99acf9aecbeef2fb40fbaf179abe05"}, "tags": {"2.2.3--pyh106432d_0": "sha256:a5f5c6a54fb345ab763c18e09e284d32383a059f405578591dfbb715bd05e782", "2.2.4--pyh106432d_0": "sha256:d702239dbd423f8c0d970097557780073a4ff3e1b5ff807d707ca292caf6b023", "2.2.5--pyh106432d_0": "sha256:d1b130fd208e6fd221499bd7370321e32d99acf9aecbeef2fb40fbaf179abe05"}, "docker": "quay.io/biocontainers/pygoslin", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygoslin.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pygoslin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pygoslin:2.2.4--pyh106432d_0
+$ shpc install quay.io/biocontainers/pygoslin:2.2.5--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pygoslin/2.2.4--pyh106432d_0
-$ module help quay.io/biocontainers/pygoslin/2.2.4--pyh106432d_0
+$ module load quay.io/biocontainers/pygoslin/2.2.5--pyh106432d_0
+$ module help quay.io/biocontainers/pygoslin/2.2.5--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

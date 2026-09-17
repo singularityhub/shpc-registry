@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genescanner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genescanner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genescanner/container.yaml"
-updated_at: "2026-09-16 07:52:01.342817"
+updated_at: "2026-09-17 07:37:03.111828"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genescanner"
 aliases:

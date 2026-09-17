@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eplacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eplacer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eplacer/container.yaml"
-updated_at: "2026-09-16 07:42:48.658410"
+updated_at: "2026-09-17 07:31:15.500063"
 latest: "0.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/eplacer"
 aliases:

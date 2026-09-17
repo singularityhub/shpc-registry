@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zenith"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zenith/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zenith/container.yaml"
-updated_at: "2026-09-16 08:12:17.814532"
+updated_at: "2026-09-17 07:50:28.618893"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zenith"
 aliases:

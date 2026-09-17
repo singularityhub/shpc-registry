@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multiqc-xenium-extra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc-xenium-extra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc-xenium-extra/container.yaml"
-updated_at: "2026-09-16 08:19:18.853700"
+updated_at: "2026-09-17 07:54:43.000255"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multiqc-xenium-extra"
 aliases:

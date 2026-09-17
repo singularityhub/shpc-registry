@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-substrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-substrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-substrate/container.yaml"
-updated_at: "2026-09-16 07:30:09.394646"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-17 07:23:12.821193"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-substrate"
 aliases:
  - "enzywizard-substrate"
@@ -36,8 +36,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-substrate"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-substrate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-substrate", "latest": {"1.0.2--pyhdfd78af_0": "sha256:6d11430228094845abdf2934aacf3d83d1c30a9b9293565b464a5c08570c2065"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:6d11430228094845abdf2934aacf3d83d1c30a9b9293565b464a5c08570c2065"}, "docker": "quay.io/biocontainers/enzywizard-substrate", "aliases": {"enzywizard-substrate": "/usr/local/bin/enzywizard-substrate", "fc-genconf": "/usr/local/bin/fc-genconf", "idna": "/usr/local/bin/idna", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "pg_config": "/usr/local/bin/pg_config", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-substrate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-substrate", "latest": {"1.0.3--pyhdfd78af_0": "sha256:79d867e07064419ef96dfa0f59eca8e1aaaa358a451ed1be148de241c3b63039"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:6d11430228094845abdf2934aacf3d83d1c30a9b9293565b464a5c08570c2065", "1.0.3--pyhdfd78af_0": "sha256:79d867e07064419ef96dfa0f59eca8e1aaaa358a451ed1be148de241c3b63039"}, "docker": "quay.io/biocontainers/enzywizard-substrate", "aliases": {"enzywizard-substrate": "/usr/local/bin/enzywizard-substrate", "fc-genconf": "/usr/local/bin/fc-genconf", "idna": "/usr/local/bin/idna", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "pg_config": "/usr/local/bin/pg_config", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-substrate.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/enzywizard-substrate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-substrate:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-substrate:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-substrate/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-substrate/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-substrate/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-substrate/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
