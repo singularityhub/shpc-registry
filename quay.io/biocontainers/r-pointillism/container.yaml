@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/r-pointillism
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-pointillism
+latest:
+  0.8.0--r45hdfd78af_0: 
+    sha256:9bc519454fd667c291b5b65392368f8f41ae0ac29e8fcb116e05d3920ff62d55
+tags:
+  0.8.0--r45hdfd78af_0: 
+    sha256:9bc519454fd667c291b5b65392368f8f41ae0ac29e8fcb116e05d3920ff62d55
+docker: quay.io/biocontainers/r-pointillism
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  pandoc-lua: /usr/local/bin/pandoc-lua
+  pandoc-server: /usr/local/bin/pandoc-server
+  glpsol: /usr/local/bin/glpsol
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  pandoc: /usr/local/bin/pandoc
