@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igda-script"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igda-script/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igda-script/container.yaml"
-updated_at: "2026-09-17 07:58:58.829252"
+updated_at: "2026-09-18 08:07:33.112194"
 latest: "1.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/igda-script"
 aliases:

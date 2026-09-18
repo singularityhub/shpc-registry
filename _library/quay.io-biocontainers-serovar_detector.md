@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/serovar_detector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/serovar_detector/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/serovar_detector/container.yaml"
-updated_at: "2026-09-17 07:23:44.742849"
-latest: "1.1.1--pyhdfd78af_0"
+updated_at: "2026-09-18 07:17:29.999607"
+latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/serovar_detector"
 aliases:
  - "cffi-gen-src"
@@ -42,8 +42,9 @@ aliases:
 versions:
  - "1.0.0--pyhdfd78af_0"
  - "1.1.1--pyhdfd78af_0"
+ - "1.1.2--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for serovar_detector"
-config: {"url": "https://biocontainers.pro/tools/serovar_detector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for serovar_detector", "latest": {"1.1.1--pyhdfd78af_0": "sha256:99b56c597b246a209eb7590f4f5a167f0075d79f95f127ae1f2ad3fb1d910351"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:d819ea63a0d1f66a1656cdb5e8177e75c8097a24b780e574612641ea662d3dd4", "1.1.1--pyhdfd78af_0": "sha256:99b56c597b246a209eb7590f4f5a167f0075d79f95f127ae1f2ad3fb1d910351"}, "docker": "quay.io/biocontainers/serovar_detector", "aliases": {"cffi-gen-src": "/usr/local/bin/cffi-gen-src", "menuinst": "/usr/local/bin/menuinst", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "serovar_detector": "/usr/local/bin/serovar_detector", "unearth": "/usr/local/bin/unearth", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "distro": "/usr/local/bin/distro", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "phc": "/usr/local/bin/phc", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "cph": "/usr/local/bin/cph", "eido": "/usr/local/bin/eido", "archspec": "/usr/local/bin/archspec", "bsdunzip": "/usr/local/bin/bsdunzip", "idna": "/usr/local/bin/idna", "httpx": "/usr/local/bin/httpx", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5"}}
+config: {"url": "https://biocontainers.pro/tools/serovar_detector", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for serovar_detector", "latest": {"1.1.2--pyhdfd78af_0": "sha256:d72f0ec5a2b07d9a3ebea347fd76667b1fe765773f90a6422117ffffd6cdf2e2"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:d819ea63a0d1f66a1656cdb5e8177e75c8097a24b780e574612641ea662d3dd4", "1.1.1--pyhdfd78af_0": "sha256:99b56c597b246a209eb7590f4f5a167f0075d79f95f127ae1f2ad3fb1d910351", "1.1.2--pyhdfd78af_0": "sha256:d72f0ec5a2b07d9a3ebea347fd76667b1fe765773f90a6422117ffffd6cdf2e2"}, "docker": "quay.io/biocontainers/serovar_detector", "aliases": {"cffi-gen-src": "/usr/local/bin/cffi-gen-src", "menuinst": "/usr/local/bin/menuinst", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "serovar_detector": "/usr/local/bin/serovar_detector", "unearth": "/usr/local/bin/unearth", "jsondiff": "/usr/local/bin/jsondiff", "jsonpatch": "/usr/local/bin/jsonpatch", "distro": "/usr/local/bin/distro", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "phc": "/usr/local/bin/phc", "jsonpointer": "/usr/local/bin/jsonpointer", "mamba-package": "/usr/local/bin/mamba-package", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "cph": "/usr/local/bin/cph", "eido": "/usr/local/bin/eido", "archspec": "/usr/local/bin/archspec", "bsdunzip": "/usr/local/bin/bsdunzip", "idna": "/usr/local/bin/idna", "httpx": "/usr/local/bin/httpx", "rst2html": "/usr/local/bin/rst2html", "rst2html4": "/usr/local/bin/rst2html4", "rst2html5": "/usr/local/bin/rst2html5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/serovar_detector.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/serovar_detector
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/serovar_detector:1.1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/serovar_detector:1.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/serovar_detector/1.1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/serovar_detector/1.1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/serovar_detector/1.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/serovar_detector/1.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

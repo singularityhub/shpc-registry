@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mogaaap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mogaaap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mogaaap/container.yaml"
-updated_at: "2026-09-17 07:53:08.057551"
+updated_at: "2026-09-18 07:58:44.547776"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mogaaap"
 aliases:

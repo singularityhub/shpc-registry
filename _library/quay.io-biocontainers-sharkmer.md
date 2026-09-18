@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sharkmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sharkmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sharkmer/container.yaml"
-updated_at: "2026-09-17 08:00:50.400709"
+updated_at: "2026-09-18 08:10:17.935315"
 latest: "3.1.0--h54198d6_0"
 container_url: "https://biocontainers.pro/tools/sharkmer"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/proteomiqon-psmstatistics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-psmstatistics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-psmstatistics/container.yaml"
-updated_at: "2026-09-17 07:21:09.056785"
-latest: "0.0.8--hdfd78af_0"
+updated_at: "2026-09-18 07:13:56.611079"
+latest: "0.0.10--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-psmstatistics"
 aliases:
  - "lttng-gen-tp"
  - "proteomiqon-psmstatistics"
 versions:
  - "0.0.8--hdfd78af_0"
+ - "0.0.10--h774997f_0"
 description: "shpc-registry automated BioContainers addition for proteomiqon-psmstatistics"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-psmstatistics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-psmstatistics", "latest": {"0.0.8--hdfd78af_0": "sha256:7e99eecf3b2a813b1061ff50d2ebcdf4883fd92c5db430e4a7bc18dae25cea1c"}, "tags": {"0.0.8--hdfd78af_0": "sha256:7e99eecf3b2a813b1061ff50d2ebcdf4883fd92c5db430e4a7bc18dae25cea1c"}, "docker": "quay.io/biocontainers/proteomiqon-psmstatistics", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-psmstatistics": "/usr/local/bin/proteomiqon-psmstatistics"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-psmstatistics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-psmstatistics", "latest": {"0.0.10--h774997f_0": "sha256:82c9b0267a3acd6ddcea46078fb45ddcb4a80bbdfac3a67bb9ad56a44e765384"}, "tags": {"0.0.8--hdfd78af_0": "sha256:7e99eecf3b2a813b1061ff50d2ebcdf4883fd92c5db430e4a7bc18dae25cea1c", "0.0.10--h774997f_0": "sha256:82c9b0267a3acd6ddcea46078fb45ddcb4a80bbdfac3a67bb9ad56a44e765384"}, "docker": "quay.io/biocontainers/proteomiqon-psmstatistics", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-psmstatistics": "/usr/local/bin/proteomiqon-psmstatistics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-psmstatistics.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/proteomiqon-psmstatistics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteomiqon-psmstatistics:0.0.8--hdfd78af_0
+$ shpc install quay.io/biocontainers/proteomiqon-psmstatistics:0.0.10--h774997f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteomiqon-psmstatistics/0.0.8--hdfd78af_0
-$ module help quay.io/biocontainers/proteomiqon-psmstatistics/0.0.8--hdfd78af_0
+$ module load quay.io/biocontainers/proteomiqon-psmstatistics/0.0.10--h774997f_0
+$ module help quay.io/biocontainers/proteomiqon-psmstatistics/0.0.10--h774997f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

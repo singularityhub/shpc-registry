@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/earthaccess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/earthaccess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/earthaccess/container.yaml"
-updated_at: "2026-09-17 07:30:31.021783"
+updated_at: "2026-09-18 07:27:19.923484"
 latest: "0.18.0"
 container_url: "https://biocontainers.pro/tools/earthaccess"
 aliases:

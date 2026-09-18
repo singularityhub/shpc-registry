@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/txnova"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/txnova/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/txnova/container.yaml"
-updated_at: "2026-09-17 07:54:06.808051"
-latest: "0.1.9--py314h80bd393_0"
+updated_at: "2026-09-18 08:00:11.637431"
+latest: "0.1.11--py314h80bd393_0"
 container_url: "https://biocontainers.pro/tools/txnova"
 aliases:
  - "jupyter-builder"
@@ -38,8 +38,9 @@ aliases:
  - "httpx"
 versions:
  - "0.1.9--py314h80bd393_0"
+ - "0.1.11--py314h80bd393_0"
 description: "singularity registry hpc automated addition for txnova"
-config: {"url": "https://biocontainers.pro/tools/txnova", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for txnova", "latest": {"0.1.9--py314h80bd393_0": "sha256:9465b32af3f7939b68bc5e111cf38e4488f934b35bbe20270fed48e9f7ad818f"}, "tags": {"0.1.9--py314h80bd393_0": "sha256:9465b32af3f7939b68bc5e111cf38e4488f934b35bbe20270fed48e9f7ad818f"}, "docker": "quay.io/biocontainers/txnova", "aliases": {"jupyter-builder": "/usr/local/bin/jupyter-builder", "mistune": "/usr/local/bin/mistune", "txnova": "/usr/local/bin/txnova", "cffi-gen-src": "/usr/local/bin/cffi-gen-src", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "pyjson5": "/usr/local/bin/pyjson5", "jupyter-server": "/usr/local/bin/jupyter-server", "session-info2": "/usr/local/bin/session-info2", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "session-info": "/usr/local/bin/session-info", "jupyter-console": "/usr/local/bin/jupyter-console", "debugpy": "/usr/local/bin/debugpy", "zarr": "/usr/local/bin/zarr", "send2trash": "/usr/local/bin/send2trash", "wsdump": "/usr/local/bin/wsdump", "jsonpointer": "/usr/local/bin/jsonpointer", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "dotenv": "/usr/local/bin/dotenv", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "pybabel": "/usr/local/bin/pybabel", "idna": "/usr/local/bin/idna", "httpx": "/usr/local/bin/httpx"}}
+config: {"url": "https://biocontainers.pro/tools/txnova", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for txnova", "latest": {"0.1.11--py314h80bd393_0": "sha256:5475d4cb0374f7b89bc7cff19e9bd4a8c8024638fd6c1362fd10d50ffb0e09cc"}, "tags": {"0.1.9--py314h80bd393_0": "sha256:9465b32af3f7939b68bc5e111cf38e4488f934b35bbe20270fed48e9f7ad818f", "0.1.11--py314h80bd393_0": "sha256:5475d4cb0374f7b89bc7cff19e9bd4a8c8024638fd6c1362fd10d50ffb0e09cc"}, "docker": "quay.io/biocontainers/txnova", "aliases": {"jupyter-builder": "/usr/local/bin/jupyter-builder", "mistune": "/usr/local/bin/mistune", "txnova": "/usr/local/bin/txnova", "cffi-gen-src": "/usr/local/bin/cffi-gen-src", "jlpm": "/usr/local/bin/jlpm", "jupyter-events": "/usr/local/bin/jupyter-events", "jupyter-lab": "/usr/local/bin/jupyter-lab", "jupyter-labextension": "/usr/local/bin/jupyter-labextension", "jupyter-labhub": "/usr/local/bin/jupyter-labhub", "pyjson5": "/usr/local/bin/pyjson5", "jupyter-server": "/usr/local/bin/jupyter-server", "session-info2": "/usr/local/bin/session-info2", "debugpy-adapter": "/usr/local/bin/debugpy-adapter", "session-info": "/usr/local/bin/session-info", "jupyter-console": "/usr/local/bin/jupyter-console", "debugpy": "/usr/local/bin/debugpy", "zarr": "/usr/local/bin/zarr", "send2trash": "/usr/local/bin/send2trash", "wsdump": "/usr/local/bin/wsdump", "jsonpointer": "/usr/local/bin/jsonpointer", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "dotenv": "/usr/local/bin/dotenv", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "pybabel": "/usr/local/bin/pybabel", "idna": "/usr/local/bin/idna", "httpx": "/usr/local/bin/httpx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/txnova.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/txnova
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/txnova:0.1.9--py314h80bd393_0
+$ shpc install quay.io/biocontainers/txnova:0.1.11--py314h80bd393_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/txnova/0.1.9--py314h80bd393_0
-$ module help quay.io/biocontainers/txnova/0.1.9--py314h80bd393_0
+$ module load quay.io/biocontainers/txnova/0.1.11--py314h80bd393_0
+$ module help quay.io/biocontainers/txnova/0.1.11--py314h80bd393_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

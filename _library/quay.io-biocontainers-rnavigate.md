@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnavigate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnavigate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnavigate/container.yaml"
-updated_at: "2026-09-17 07:34:34.195482"
+updated_at: "2026-09-18 07:32:55.161157"
 latest: "1.1.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/rnavigate"
 aliases:

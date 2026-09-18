@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/akgwas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/akgwas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/akgwas/container.yaml"
-updated_at: "2026-09-17 07:24:57.876082"
+updated_at: "2026-09-18 07:19:17.375701"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/akgwas"
 aliases:

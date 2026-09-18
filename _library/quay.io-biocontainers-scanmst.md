@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanmst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanmst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanmst/container.yaml"
-updated_at: "2026-09-17 07:21:37.897476"
+updated_at: "2026-09-18 07:14:33.743703"
 latest: "0.1.9--py310h96c7dba_0"
 container_url: "https://biocontainers.pro/tools/scanmst"
 aliases:

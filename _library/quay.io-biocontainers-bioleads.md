@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioleads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioleads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioleads/container.yaml"
-updated_at: "2026-09-17 07:49:50.418704"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-09-18 07:53:46.181342"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioleads"
 aliases:
  - "bioleads"
@@ -51,8 +51,9 @@ aliases:
  - "hwloc-calc"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for bioleads"
-config: {"url": "https://biocontainers.pro/tools/bioleads", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioleads", "latest": {"0.1.0--pyhdfd78af_0": "sha256:8e54e3d5dff04e5db1000f3386b5309f4acd76aa48a6b6acd5e380487e335ee3"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:8e54e3d5dff04e5db1000f3386b5309f4acd76aa48a6b6acd5e380487e335ee3"}, "docker": "quay.io/biocontainers/bioleads", "aliases": {"bioleads": "/usr/local/bin/bioleads", "bioleads-gui": "/usr/local/bin/bioleads-gui", "convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "imagetops": "/usr/local/bin/imagetops", "jbig2dec": "/usr/local/bin/jbig2dec", "mutool": "/usr/local/bin/mutool", "pymupdf": "/usr/local/bin/pymupdf", "tesseract": "/usr/local/bin/tesseract", "xtractprotos": "/usr/local/bin/xtractprotos", "spirv-diff": "/usr/local/bin/spirv-diff", "spirv-as": "/usr/local/bin/spirv-as", "spirv-cfg": "/usr/local/bin/spirv-cfg", "spirv-dis": "/usr/local/bin/spirv-dis", "spirv-lesspipe.sh": "/usr/local/bin/spirv-lesspipe.sh", "spirv-link": "/usr/local/bin/spirv-link", "spirv-lint": "/usr/local/bin/spirv-lint", "spirv-objdump": "/usr/local/bin/spirv-objdump", "spirv-opt": "/usr/local/bin/spirv-opt", "spirv-reduce": "/usr/local/bin/spirv-reduce", "spirv-val": "/usr/local/bin/spirv-val", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "bsdunzip": "/usr/local/bin/bsdunzip", "idna": "/usr/local/bin/idna", "fc-genconf": "/usr/local/bin/fc-genconf", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "numba": "/usr/local/bin/numba", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc"}}
+config: {"url": "https://biocontainers.pro/tools/bioleads", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioleads", "latest": {"0.2.0--pyhdfd78af_0": "sha256:9eb21fb474dd7852c1adbaec894aa283044d4a6535de31aa93206d7df0f60675"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:8e54e3d5dff04e5db1000f3386b5309f4acd76aa48a6b6acd5e380487e335ee3", "0.2.0--pyhdfd78af_0": "sha256:9eb21fb474dd7852c1adbaec894aa283044d4a6535de31aa93206d7df0f60675"}, "docker": "quay.io/biocontainers/bioleads", "aliases": {"bioleads": "/usr/local/bin/bioleads", "bioleads-gui": "/usr/local/bin/bioleads-gui", "convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "imagetops": "/usr/local/bin/imagetops", "jbig2dec": "/usr/local/bin/jbig2dec", "mutool": "/usr/local/bin/mutool", "pymupdf": "/usr/local/bin/pymupdf", "tesseract": "/usr/local/bin/tesseract", "xtractprotos": "/usr/local/bin/xtractprotos", "spirv-diff": "/usr/local/bin/spirv-diff", "spirv-as": "/usr/local/bin/spirv-as", "spirv-cfg": "/usr/local/bin/spirv-cfg", "spirv-dis": "/usr/local/bin/spirv-dis", "spirv-lesspipe.sh": "/usr/local/bin/spirv-lesspipe.sh", "spirv-link": "/usr/local/bin/spirv-link", "spirv-lint": "/usr/local/bin/spirv-lint", "spirv-objdump": "/usr/local/bin/spirv-objdump", "spirv-opt": "/usr/local/bin/spirv-opt", "spirv-reduce": "/usr/local/bin/spirv-reduce", "spirv-val": "/usr/local/bin/spirv-val", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "bsdunzip": "/usr/local/bin/bsdunzip", "idna": "/usr/local/bin/idna", "fc-genconf": "/usr/local/bin/fc-genconf", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "numba": "/usr/local/bin/numba", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioleads.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/bioleads
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioleads:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bioleads:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioleads/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/bioleads/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/bioleads/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/bioleads/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
