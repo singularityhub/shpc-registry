@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/txnova
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for txnova
 latest:
-  0.1.9--py314h80bd393_0: 
-    sha256:9465b32af3f7939b68bc5e111cf38e4488f934b35bbe20270fed48e9f7ad818f
+  0.1.11--py314h80bd393_0: 
+    sha256:5475d4cb0374f7b89bc7cff19e9bd4a8c8024638fd6c1362fd10d50ffb0e09cc
 tags:
   0.1.9--py314h80bd393_0: 
     sha256:9465b32af3f7939b68bc5e111cf38e4488f934b35bbe20270fed48e9f7ad818f
+  0.1.11--py314h80bd393_0: 
+    sha256:5475d4cb0374f7b89bc7cff19e9bd4a8c8024638fd6c1362fd10d50ffb0e09cc
 docker: quay.io/biocontainers/txnova
 aliases:
   jupyter-builder: /usr/local/bin/jupyter-builder

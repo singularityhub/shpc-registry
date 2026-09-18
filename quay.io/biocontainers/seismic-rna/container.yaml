@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/seismic-rna
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for seismic-rna
 latest:
-  0.25.3--py311hc303176_0: 
-    sha256:62ed35ba7080e2b539d5eb96516897bb49f87627cff9712067f7dab386ae4f3f
+  0.26.0--py313hd978853_0: 
+    sha256:8c5c8cd713b71ec2d53205387579953817ffbc0239decd04251f501893fd16eb
 tags:
   0.19.2--pyhdfd78af_0: 
     sha256:65427c95d1f8c12301e73513ecef8d7500b327bc612fd4023d3c2f7456658219
@@ -31,6 +31,8 @@ tags:
     sha256:d5faba85ba507a43f81b690ce4c1ea25e676de0f49218ccef6ae0177b36edbcb
   0.25.3--py311hc303176_0: 
     sha256:62ed35ba7080e2b539d5eb96516897bb49f87627cff9712067f7dab386ae4f3f
+  0.26.0--py313hd978853_0: 
+    sha256:8c5c8cd713b71ec2d53205387579953817ffbc0239decd04251f501893fd16eb
 docker: quay.io/biocontainers/seismic-rna
 aliases:
   AccessFold: /usr/local/bin/AccessFold
