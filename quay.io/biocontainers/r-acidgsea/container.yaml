@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/r-acidgsea
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-acidgsea
 latest:
-  0.9.1--r44hdfd78af_0: 
-    sha256:02e64e3f266a6d857b2e14ddda7c52232ccf00be591589452d1faf677409684a
+  0.9.2--r45hdfd78af_0: 
+    sha256:5454fdbecf2a5c133b997661104e6bba0758931d77bf2657995e1fb14d3eebf6
 tags:
   0.7.0--r41hdfd78af_0: 
     sha256:d7f1697ab2efbaeea41765f2fed52efdcc30046c9c7519d55e96877792bc2ddc
@@ -27,6 +27,8 @@ tags:
     sha256:619a65b5aa10037b278f6e597b171fb8c42720e2498805ca4ac3de89d0165235
   0.9.1--r44hdfd78af_0: 
     sha256:02e64e3f266a6d857b2e14ddda7c52232ccf00be591589452d1faf677409684a
+  0.9.2--r45hdfd78af_0: 
+    sha256:5454fdbecf2a5c133b997661104e6bba0758931d77bf2657995e1fb14d3eebf6
 docker: quay.io/biocontainers/r-acidgsea
 aliases:
   pandoc: /usr/local/bin/pandoc

@@ -5,12 +5,21 @@ description: NVIDIA Caffe, also known as NVCaffe, is an NVIDIA-maintained fork
   of Berkeley Vision and Learning Center (BVLC) Caffe tuned for NVIDIA GPUs, 
   particularly in multi-GPU configurations.
 latest:
-  20.03-py3: 'crane digest nvcr.io/nvidia/caffe:20.03-py3: DENIED: Access Denied'
+  20.03-py3: 'crane digest nvcr.io/nvidia/caffe:20.03-py3: UNAUTHORIZED: authentication
+    required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]'
 tags:
-  20.03-py3: 'crane digest nvcr.io/nvidia/caffe:20.03-py3: DENIED: Access Denied'
+  20.03-py3: 'crane digest nvcr.io/nvidia/caffe:20.03-py3: UNAUTHORIZED: authentication
+    required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]'
   'crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied': 'crane digest nvcr.io/nvidia/caffe:crane
     ls nvcr.io/nvidia/caffe: DENIED: Access Denied: parsing reference "nvcr.io/nvidia/caffe:crane
     ls nvcr.io/nvidia/caffe: DENIED: Access Denied": could not parse reference'
+  ? 'crane ls nvcr.io/nvidia/caffe: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:nvidia/caffe Type:repository]]'
+  : 'crane digest nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: UNAUTHORIZED:
+    authentication required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]:
+    parsing reference "nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: UNAUTHORIZED:
+    authentication required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]":
+    could not parse reference'
 aliases:
   python: /usr/bin/python
 features:

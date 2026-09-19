@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/acidbase
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for acidbase
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:0a3d5500f66fc0bfc59276c92b7a04e9c4c33addd7f95d0129ef9f3b00c78327
+  0.1.1--pyhdfd78af_0: 
+    sha256:cc29207700f9969169964481979ed1ff9b65dcce24377b9bfd515c0b336c393e
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:0a3d5500f66fc0bfc59276c92b7a04e9c4c33addd7f95d0129ef9f3b00c78327
+  0.1.1--pyhdfd78af_0: 
+    sha256:cc29207700f9969169964481979ed1ff9b65dcce24377b9bfd515c0b336c393e
 docker: quay.io/biocontainers/acidbase
 aliases:
   idle3.14: /usr/local/bin/idle3.14
