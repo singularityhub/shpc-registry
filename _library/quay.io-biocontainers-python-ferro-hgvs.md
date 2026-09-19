@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-ferro-hgvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-ferro-hgvs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-ferro-hgvs/container.yaml"
-updated_at: "2026-09-18 07:20:15.973131"
-latest: "0.15.0--py312ha170aba_0"
+updated_at: "2026-09-19 07:17:50.920416"
+latest: "1.0.0--py313h9a1e870_0"
 container_url: "https://biocontainers.pro/tools/python-ferro-hgvs"
 aliases:
  - "2to3-3.10"
@@ -20,8 +20,10 @@ versions:
  - "0.12.0--py313h9a1e870_0"
  - "0.11.0--py312ha170aba_0"
  - "0.10.1--py313h9a1e870_0"
+ - "1.0.0--py313h9a1e870_0"
+ - "0.17.2--py312ha170aba_0"
 description: "singularity registry hpc automated addition for python-ferro-hgvs"
-config: {"url": "https://biocontainers.pro/tools/python-ferro-hgvs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for python-ferro-hgvs", "latest": {"0.15.0--py312ha170aba_0": "sha256:a25f0495936636861f0bceefa14784453dc246adc113f6a6eee905f4141898be"}, "tags": {"0.10.0--py310hce5ca29_0": "sha256:f587e8943d749e6763d5f477041e7f8c9a6e1c7357497aa5dda8537261b1c65d", "0.15.0--py312ha170aba_0": "sha256:a25f0495936636861f0bceefa14784453dc246adc113f6a6eee905f4141898be", "0.13.1--py312ha170aba_0": "sha256:85906898ec3d3089ab26e6a9419111e7ffb99130feecb688e5f65c69e4980d05", "0.12.0--py313h9a1e870_0": "sha256:cd9b47b98388b92e42289200af9702b981093aed08753739a46ef1bdf38a8b1c", "0.11.0--py312ha170aba_0": "sha256:d77a1ae1835b38f59aa8cd27c3eff7225c67d7fb4bf1d5ade3bbc8e6c640a016", "0.10.1--py313h9a1e870_0": "sha256:e92941cae16b3467afae3779e47627697b49e53cb440415b4c52d3ae5b71a124"}, "docker": "quay.io/biocontainers/python-ferro-hgvs", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/python-ferro-hgvs", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for python-ferro-hgvs", "latest": {"1.0.0--py313h9a1e870_0": "sha256:0f49e372fcb416dd53cf65c2b36f9cb1ec484d3cfc214aeba6dd156e2f154468"}, "tags": {"0.10.0--py310hce5ca29_0": "sha256:f587e8943d749e6763d5f477041e7f8c9a6e1c7357497aa5dda8537261b1c65d", "0.15.0--py312ha170aba_0": "sha256:a25f0495936636861f0bceefa14784453dc246adc113f6a6eee905f4141898be", "0.13.1--py312ha170aba_0": "sha256:85906898ec3d3089ab26e6a9419111e7ffb99130feecb688e5f65c69e4980d05", "0.12.0--py313h9a1e870_0": "sha256:cd9b47b98388b92e42289200af9702b981093aed08753739a46ef1bdf38a8b1c", "0.11.0--py312ha170aba_0": "sha256:d77a1ae1835b38f59aa8cd27c3eff7225c67d7fb4bf1d5ade3bbc8e6c640a016", "0.10.1--py313h9a1e870_0": "sha256:e92941cae16b3467afae3779e47627697b49e53cb440415b4c52d3ae5b71a124", "1.0.0--py313h9a1e870_0": "sha256:0f49e372fcb416dd53cf65c2b36f9cb1ec484d3cfc214aeba6dd156e2f154468", "0.17.2--py312ha170aba_0": "sha256:ac23a38d50fc7921900dd3cd62fcfb1f11897e3290a5d449c3d5133e0e3620e4"}, "docker": "quay.io/biocontainers/python-ferro-hgvs", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-ferro-hgvs.
@@ -36,7 +38,7 @@ $ shpc install quay.io/biocontainers/python-ferro-hgvs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-ferro-hgvs:0.15.0--py312ha170aba_0
+$ shpc install quay.io/biocontainers/python-ferro-hgvs:1.0.0--py313h9a1e870_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-ferro-hgvs/0.15.0--py312ha170aba_0
-$ module help quay.io/biocontainers/python-ferro-hgvs/0.15.0--py312ha170aba_0
+$ module load quay.io/biocontainers/python-ferro-hgvs/1.0.0--py313h9a1e870_0
+$ module help quay.io/biocontainers/python-ferro-hgvs/1.0.0--py313h9a1e870_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ellipse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ellipse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ellipse/container.yaml"
-updated_at: "2026-09-18 07:39:37.429981"
+updated_at: "2026-09-19 07:37:43.726311"
 latest: "0.3_8--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-ellipse"
 aliases:

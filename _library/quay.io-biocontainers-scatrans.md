@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scatrans"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scatrans/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scatrans/container.yaml"
-updated_at: "2026-09-18 07:54:02.707973"
-latest: "0.10.13--pyhdfd78af_0"
+updated_at: "2026-09-19 07:52:34.890220"
+latest: "0.10.18--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scatrans"
 aliases:
  - "generate-gene-features"
@@ -37,8 +37,9 @@ aliases:
 versions:
  - "0.10.5--pyhdfd78af_0"
  - "0.10.13--pyhdfd78af_0"
+ - "0.10.18--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for scatrans"
-config: {"url": "https://biocontainers.pro/tools/scatrans", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scatrans", "latest": {"0.10.13--pyhdfd78af_0": "sha256:28ba5a84461c116b9ce1f0e14267a05f1ddec2c7193427cb0a4c25389e63f88b"}, "tags": {"0.10.5--pyhdfd78af_0": "sha256:478ad7cb4cf0bdb396d70445c135f97a2a6c9c0ebafc8f99ed82619a7e66b7b1", "0.10.13--pyhdfd78af_0": "sha256:28ba5a84461c116b9ce1f0e14267a05f1ddec2c7193427cb0a4c25389e63f88b"}, "docker": "quay.io/biocontainers/scatrans", "aliases": {"generate-gene-features": "/usr/local/bin/generate-gene-features", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "dotenv": "/usr/local/bin/dotenv", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "scanpy": "/usr/local/bin/scanpy", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
+config: {"url": "https://biocontainers.pro/tools/scatrans", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scatrans", "latest": {"0.10.18--pyhdfd78af_0": "sha256:03490bf0c89090729a2b5ef4432525406cb8000eedc8c64d5c20ac9c9a58b88e"}, "tags": {"0.10.5--pyhdfd78af_0": "sha256:478ad7cb4cf0bdb396d70445c135f97a2a6c9c0ebafc8f99ed82619a7e66b7b1", "0.10.13--pyhdfd78af_0": "sha256:28ba5a84461c116b9ce1f0e14267a05f1ddec2c7193427cb0a4c25389e63f88b", "0.10.18--pyhdfd78af_0": "sha256:03490bf0c89090729a2b5ef4432525406cb8000eedc8c64d5c20ac9c9a58b88e"}, "docker": "quay.io/biocontainers/scatrans", "aliases": {"generate-gene-features": "/usr/local/bin/generate-gene-features", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "session-info2": "/usr/local/bin/session-info2", "session-info": "/usr/local/bin/session-info", "zarr": "/usr/local/bin/zarr", "dotenv": "/usr/local/bin/dotenv", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "scanpy": "/usr/local/bin/scanpy", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scatrans.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/scatrans
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scatrans:0.10.13--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/scatrans:0.10.18--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scatrans/0.10.13--pyhdfd78af_0
-$ module help quay.io/biocontainers/scatrans/0.10.13--pyhdfd78af_0
+$ module load quay.io/biocontainers/scatrans/0.10.18--pyhdfd78af_0
+$ module help quay.io/biocontainers/scatrans/0.10.18--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transabyss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transabyss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transabyss/container.yaml"
-updated_at: "2026-09-18 07:47:10.069630"
+updated_at: "2026-09-19 07:45:40.122210"
 latest: "2.0.1--pyhdfd78af_8"
 container_url: "https://biocontainers.pro/tools/transabyss"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pegas-snakemake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pegas-snakemake/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pegas-snakemake/container.yaml"
-updated_at: "2026-09-18 07:12:26.271592"
+updated_at: "2026-09-19 07:10:01.795268"
 latest: "1.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pegas-snakemake"
 aliases:

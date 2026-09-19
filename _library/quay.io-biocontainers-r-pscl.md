@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pscl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pscl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pscl/container.yaml"
-updated_at: "2026-09-18 08:02:01.253373"
+updated_at: "2026-09-19 08:00:23.664324"
 latest: "1.4.9--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-pscl"
 aliases:

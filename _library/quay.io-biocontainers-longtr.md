@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longtr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longtr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/longtr/container.yaml"
-updated_at: "2026-09-18 08:09:47.100972"
+updated_at: "2026-09-19 08:07:55.009603"
 latest: "1.2--h077b44d_1"
 container_url: "https://biocontainers.pro/tools/longtr"
 aliases:

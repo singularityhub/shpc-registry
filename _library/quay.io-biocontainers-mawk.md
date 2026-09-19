@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mawk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mawk/container.yaml"
-updated_at: "2026-09-18 07:58:19.260059"
+updated_at: "2026-09-19 07:56:43.060029"
 latest: "1.3.4--h7b50bb2_11"
 container_url: "https://biocontainers.pro/tools/mawk"
 aliases:

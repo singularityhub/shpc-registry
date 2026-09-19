@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qtlseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qtlseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qtlseq/container.yaml"
-updated_at: "2026-09-18 07:58:59.896906"
+updated_at: "2026-09-19 07:57:23.335330"
 latest: "2.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/qtlseq"
 aliases:

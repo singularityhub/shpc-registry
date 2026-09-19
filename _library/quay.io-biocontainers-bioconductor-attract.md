@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-attract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-attract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-attract/container.yaml"
-updated_at: "2026-09-18 07:23:56.781681"
+updated_at: "2026-09-19 07:21:25.723825"
 latest: "1.52.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-attract"
 

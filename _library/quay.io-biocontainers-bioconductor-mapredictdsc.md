@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mapredictdsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mapredictdsc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mapredictdsc/container.yaml"
-updated_at: "2026-09-18 08:06:21.659090"
+updated_at: "2026-09-19 08:04:36.689563"
 latest: "1.44.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mapredictdsc"
 

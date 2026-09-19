@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stare-abc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stare-abc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/stare-abc/container.yaml"
-updated_at: "2026-09-18 07:45:54.413551"
+updated_at: "2026-09-19 07:44:20.590253"
 latest: "1.0.5--h503566f_0"
 container_url: "https://biocontainers.pro/tools/stare-abc"
 aliases:

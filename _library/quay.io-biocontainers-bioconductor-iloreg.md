@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iloreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iloreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iloreg/container.yaml"
-updated_at: "2026-09-18 07:49:19.961570"
+updated_at: "2026-09-19 07:47:53.777070"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iloreg"
 

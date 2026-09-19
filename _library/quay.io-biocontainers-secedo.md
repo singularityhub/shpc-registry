@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/secedo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/secedo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/secedo/container.yaml"
-updated_at: "2026-09-18 08:10:37.575123"
+updated_at: "2026-09-19 08:08:44.133747"
 latest: "1.0.7--ha041835_4"
 container_url: "https://biocontainers.pro/tools/secedo"
 aliases:

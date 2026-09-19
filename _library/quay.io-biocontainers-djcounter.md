@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/djcounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/djcounter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/djcounter/container.yaml"
-updated_at: "2026-09-18 08:01:00.222236"
+updated_at: "2026-09-19 07:59:23.520533"
 latest: "1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/djcounter"
 aliases:

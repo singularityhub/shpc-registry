@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/paidiverpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/paidiverpy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/paidiverpy/container.yaml"
-updated_at: "2026-09-18 07:48:24.067390"
+updated_at: "2026-09-19 07:46:58.216962"
 latest: "0.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/paidiverpy"
 aliases:

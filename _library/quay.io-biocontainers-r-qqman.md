@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qqman"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qqman/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qqman/container.yaml"
-updated_at: "2026-09-18 08:02:18.943779"
+updated_at: "2026-09-19 08:00:41.388518"
 latest: "0.1.4--r36h6115d3f_4"
 container_url: "https://biocontainers.pro/tools/r-qqman"
 aliases:

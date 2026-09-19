@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/polypolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/polypolish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/polypolish/container.yaml"
-updated_at: "2026-09-18 08:04:22.979051"
+updated_at: "2026-09-19 08:02:43.202542"
 latest: "0.7.1--hec9b1f2_0"
 container_url: "https://biocontainers.pro/tools/polypolish"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-archive-extract"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-archive-extract/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-archive-extract/container.yaml"
-updated_at: "2026-09-18 07:24:37.112316"
-latest: "0.88--pl5321hdfd78af_0"
+updated_at: "2026-09-19 07:22:05.438502"
+latest: "0.90--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-archive-extract"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "0.88--pl5321hdfd78af_0"
+ - "0.90--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-archive-extract"
-config: {"url": "https://biocontainers.pro/tools/perl-archive-extract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-archive-extract", "latest": {"0.88--pl5321hdfd78af_0": "sha256:7f9658e6912b6bdcd55cf68ea02e20ad02de4be495f290ec6918534cc912cffd"}, "tags": {"0.88--pl5321hdfd78af_0": "sha256:7f9658e6912b6bdcd55cf68ea02e20ad02de4be495f290ec6918534cc912cffd"}, "docker": "quay.io/biocontainers/perl-archive-extract", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-archive-extract", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-archive-extract", "latest": {"0.90--pl5321hdfd78af_0": "sha256:f434ac1aa96ea75040f69376d879fe067c253ce65890b00600194ac4b114284f"}, "tags": {"0.88--pl5321hdfd78af_0": "sha256:7f9658e6912b6bdcd55cf68ea02e20ad02de4be495f290ec6918534cc912cffd", "0.90--pl5321hdfd78af_0": "sha256:f434ac1aa96ea75040f69376d879fe067c253ce65890b00600194ac4b114284f"}, "docker": "quay.io/biocontainers/perl-archive-extract", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-archive-extract.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-archive-extract
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-archive-extract:0.88--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-archive-extract:0.90--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-archive-extract/0.88--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-archive-extract/0.88--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-archive-extract/0.90--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-archive-extract/0.90--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

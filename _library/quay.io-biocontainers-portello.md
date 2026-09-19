@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/portello"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/portello/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/portello/container.yaml"
-updated_at: "2026-09-18 08:06:03.434158"
+updated_at: "2026-09-19 08:04:19.261873"
 latest: "0.7.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/portello"
 aliases:

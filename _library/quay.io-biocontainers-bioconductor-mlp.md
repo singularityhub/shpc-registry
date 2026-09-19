@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mlp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mlp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mlp/container.yaml"
-updated_at: "2026-09-18 07:21:46.095191"
+updated_at: "2026-09-19 07:19:17.167485"
 latest: "1.58.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mlp"
 

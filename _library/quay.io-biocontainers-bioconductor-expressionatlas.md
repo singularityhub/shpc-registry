@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-expressionatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-expressionatlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-expressionatlas/container.yaml"
-updated_at: "2026-09-18 07:52:34.276163"
+updated_at: "2026-09-19 07:51:06.789578"
 latest: "1.34.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-expressionatlas"
 

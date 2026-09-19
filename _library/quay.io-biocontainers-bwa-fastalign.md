@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwa-fastalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa-fastalign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bwa-fastalign/container.yaml"
-updated_at: "2026-09-18 07:12:34.833338"
+updated_at: "2026-09-19 07:10:10.409761"
 latest: "1.0.0--hb7acf71_0"
 container_url: "https://biocontainers.pro/tools/bwa-fastalign"
 aliases:

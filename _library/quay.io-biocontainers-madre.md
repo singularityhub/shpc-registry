@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/madre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/madre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/madre/container.yaml"
-updated_at: "2026-09-18 07:32:05.452787"
+updated_at: "2026-09-19 07:29:46.375461"
 latest: "0.0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/madre"
 aliases:

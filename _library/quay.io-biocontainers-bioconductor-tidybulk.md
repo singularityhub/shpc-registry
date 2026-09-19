@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tidybulk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidybulk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidybulk/container.yaml"
-updated_at: "2026-09-18 07:36:17.456994"
+updated_at: "2026-09-19 07:34:11.652482"
 latest: "2.0.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidybulk"
 

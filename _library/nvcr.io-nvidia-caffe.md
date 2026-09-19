@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia/caffe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/caffe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/caffe/container.yaml"
-updated_at: "2026-09-18 07:11:41.766013"
+updated_at: "2026-09-19 07:09:17.411964"
 latest: "20.03-py3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:caffe/tags"
 aliases:
@@ -12,8 +12,9 @@ aliases:
 versions:
  - "20.03-py3"
  - "crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied"
+ - "crane ls nvcr.io/nvidia/caffe: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]"
 description: "NVIDIA Caffe, also known as NVCaffe, is an NVIDIA-maintained fork of Berkeley Vision and Learning Center (BVLC) Caffe tuned for NVIDIA GPUs, particularly in multi-GPU configurations."
-config: {"docker": "nvcr.io/nvidia/caffe", "url": "https://ngc.nvidia.com/catalog/containers/nvidia:caffe/tags", "maintainer": "@vsoch", "description": "NVIDIA Caffe, also known as NVCaffe, is an NVIDIA-maintained fork of Berkeley Vision and Learning Center (BVLC) Caffe tuned for NVIDIA GPUs, particularly in multi-GPU configurations.", "latest": {"20.03-py3": "crane digest nvcr.io/nvidia/caffe:20.03-py3: DENIED: Access Denied"}, "tags": {"20.03-py3": "crane digest nvcr.io/nvidia/caffe:20.03-py3: DENIED: Access Denied", "crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied": "crane digest nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied: parsing reference \"nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied\": could not parse reference"}, "aliases": {"python": "/usr/bin/python"}, "features": {"gpu": true}}
+config: {"docker": "nvcr.io/nvidia/caffe", "url": "https://ngc.nvidia.com/catalog/containers/nvidia:caffe/tags", "maintainer": "@vsoch", "description": "NVIDIA Caffe, also known as NVCaffe, is an NVIDIA-maintained fork of Berkeley Vision and Learning Center (BVLC) Caffe tuned for NVIDIA GPUs, particularly in multi-GPU configurations.", "latest": {"20.03-py3": "crane digest nvcr.io/nvidia/caffe:20.03-py3: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]"}, "tags": {"20.03-py3": "crane digest nvcr.io/nvidia/caffe:20.03-py3: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]", "crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied": "crane digest nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied: parsing reference \"nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: DENIED: Access Denied\": could not parse reference", "crane ls nvcr.io/nvidia/caffe: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]": "crane digest nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]: parsing reference \"nvcr.io/nvidia/caffe:crane ls nvcr.io/nvidia/caffe: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/caffe Type:repository]]\": could not parse reference"}, "aliases": {"python": "/usr/bin/python"}, "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/nvidia/caffe.

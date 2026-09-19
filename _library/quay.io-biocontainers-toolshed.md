@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/toolshed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/toolshed/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/toolshed/container.yaml"
-updated_at: "2026-09-18 07:25:45.226347"
+updated_at: "2026-09-19 07:23:12.529259"
 latest: "0.4.8--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/toolshed"
 aliases:

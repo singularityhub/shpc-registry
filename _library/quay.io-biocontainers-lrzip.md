@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lrzip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrzip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrzip/container.yaml"
-updated_at: "2026-09-18 08:03:04.449738"
+updated_at: "2026-09-19 08:01:25.826983"
 latest: "0.651--hd53768a_2"
 container_url: "https://biocontainers.pro/tools/lrzip"
 aliases:
