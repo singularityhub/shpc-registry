@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/new-fave
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for new-fave
+latest:
+  1.3.0: sha256:5911dc9f7b9c374b0b6af632964c64c0eeef56276c2e014ad2f95abe5f1cf0c9
+tags:
+  1.3.0: sha256:5911dc9f7b9c374b0b6af632964c64c0eeef56276c2e014ad2f95abe5f1cf0c9
+docker: quay.io/biocontainers/new-fave
+aliases:
+  fasttrack: /usr/local/bin/fasttrack
+  fave-extract: /usr/local/bin/fave-extract
+  fave_recode: /usr/local/bin/fave_recode
+  filetype: /usr/local/bin/filetype
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  idna: /usr/local/bin/idna
+  mpg123: /usr/local/bin/mpg123
+  mpg123-id3dump: /usr/local/bin/mpg123-id3dump
+  mpg123-strip: /usr/local/bin/mpg123-strip
+  out123: /usr/local/bin/out123
+  fc-genconf: /usr/local/bin/fc-genconf
+  lame: /usr/local/bin/lame
+  flac: /usr/local/bin/flac
+  metaflac: /usr/local/bin/metaflac
+  sndfile-cmp: /usr/local/bin/sndfile-cmp
+  sndfile-concat: /usr/local/bin/sndfile-concat
+  sndfile-convert: /usr/local/bin/sndfile-convert
+  sndfile-deinterleave: /usr/local/bin/sndfile-deinterleave
+  sndfile-info: /usr/local/bin/sndfile-info
+  sndfile-interleave: /usr/local/bin/sndfile-interleave
+  sndfile-metadata-get: /usr/local/bin/sndfile-metadata-get
+  sndfile-metadata-set: /usr/local/bin/sndfile-metadata-set
+  sndfile-play: /usr/local/bin/sndfile-play
+  sndfile-salvage: /usr/local/bin/sndfile-salvage
+  numba: /usr/local/bin/numba
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
