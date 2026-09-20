@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/mudas
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mudas
+latest:
+  0.0.2--pyhdfd78af_0: 
+    sha256:302699467a5c212a4bf8d2ce401ca39a4456449585cbb3b151e5e3a637ff090c
+tags:
+  0.0.2--pyhdfd78af_0: 
+    sha256:302699467a5c212a4bf8d2ce401ca39a4456449585cbb3b151e5e3a637ff090c
+docker: quay.io/biocontainers/mudas
+aliases:
+  geo2fastq: /usr/local/bin/geo2fastq
+  mudas: /usr/local/bin/mudas
+  qnorm: /usr/local/bin/qnorm
+  speedtest: /usr/local/bin/speedtest
+  speedtest-cli: /usr/local/bin/speedtest-cli
+  session-info2: /usr/local/bin/session-info2
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  session-info: /usr/local/bin/session-info
+  zarr: /usr/local/bin/zarr
+  dotenv: /usr/local/bin/dotenv
+  idna: /usr/local/bin/idna
+  fc-genconf: /usr/local/bin/fc-genconf
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  bowtie2: /usr/local/bin/bowtie2
+  bowtie2-align-l: /usr/local/bin/bowtie2-align-l
+  bowtie2-align-s: /usr/local/bin/bowtie2-align-s
+  bowtie2-build: /usr/local/bin/bowtie2-build
+  bowtie2-build-l: /usr/local/bin/bowtie2-build-l
+  bowtie2-build-s: /usr/local/bin/bowtie2-build-s
+  bowtie2-inspect: /usr/local/bin/bowtie2-inspect
+  bowtie2-inspect-l: /usr/local/bin/bowtie2-inspect-l
+  bowtie2-inspect-s: /usr/local/bin/bowtie2-inspect-s
+  elasticurl: /usr/local/bin/elasticurl
+  natsort: /usr/local/bin/natsort
+  numba: /usr/local/bin/numba
+  h5delete: /usr/local/bin/h5delete
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
