@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-flanders"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-flanders/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-flanders/container.yaml"
-updated_at: "2026-09-19 07:53:34.426461"
+updated_at: "2026-09-20 08:08:01.305847"
 latest: "1.0.1--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-flanders"
 aliases:

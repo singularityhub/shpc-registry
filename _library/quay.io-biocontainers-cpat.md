@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cpat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cpat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cpat/container.yaml"
-updated_at: "2026-09-19 07:58:01.736694"
+updated_at: "2026-09-20 08:11:30.336882"
 latest: "3.0.5--py312hc9302aa_4"
 container_url: "https://biocontainers.pro/tools/cpat"
 aliases:

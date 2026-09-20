@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ddocent"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ddocent/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ddocent/container.yaml"
-updated_at: "2026-09-19 07:42:00.215512"
+updated_at: "2026-09-20 07:59:04.876988"
 latest: "2.9.8--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ddocent"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-integrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-integrate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-integrate/container.yaml"
-updated_at: "2026-09-19 07:27:58.552831"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-20 07:48:26.186225"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-integrate"
 aliases:
  - "enzywizard-integrate"
@@ -16,8 +16,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-integrate"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-integrate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-integrate", "latest": {"1.0.2--pyhdfd78af_0": "sha256:264ec4c605b1f35024ffcbc281b31e6c793761d6e537c627907c532758cc5e83"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:264ec4c605b1f35024ffcbc281b31e6c793761d6e537c627907c532758cc5e83"}, "docker": "quay.io/biocontainers/enzywizard-integrate", "aliases": {"enzywizard-integrate": "/usr/local/bin/enzywizard-integrate", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-integrate", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-integrate", "latest": {"1.0.3--pyhdfd78af_0": "sha256:46f0e1151a5478af4aecca66eafad2a7c4cf2efca06e98becf6735dfc180b4a8"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:264ec4c605b1f35024ffcbc281b31e6c793761d6e537c627907c532758cc5e83", "1.0.3--pyhdfd78af_0": "sha256:46f0e1151a5478af4aecca66eafad2a7c4cf2efca06e98becf6735dfc180b4a8"}, "docker": "quay.io/biocontainers/enzywizard-integrate", "aliases": {"enzywizard-integrate": "/usr/local/bin/enzywizard-integrate", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-integrate.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/enzywizard-integrate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-integrate:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-integrate:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-integrate/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-integrate/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-integrate/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-integrate/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

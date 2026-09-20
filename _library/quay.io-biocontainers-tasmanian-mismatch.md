@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tasmanian-mismatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tasmanian-mismatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tasmanian-mismatch/container.yaml"
-updated_at: "2026-09-19 07:32:25.548780"
+updated_at: "2026-09-20 07:51:47.672220"
 latest: "2.0.5--h31ab156_0"
 container_url: "https://biocontainers.pro/tools/tasmanian-mismatch"
 aliases:

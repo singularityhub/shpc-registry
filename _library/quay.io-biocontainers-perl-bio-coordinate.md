@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-coordinate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-coordinate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-coordinate/container.yaml"
-updated_at: "2026-09-19 07:13:05.937874"
+updated_at: "2026-09-20 07:36:51.232587"
 latest: "1.007001--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-bio-coordinate"
 aliases:

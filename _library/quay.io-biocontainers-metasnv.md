@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metasnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasnv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metasnv/container.yaml"
-updated_at: "2026-09-19 07:24:46.319122"
+updated_at: "2026-09-20 07:45:56.497763"
 latest: "2.0.4--py311h13b32c1_9"
 container_url: "https://biocontainers.pro/tools/metasnv"
 aliases:

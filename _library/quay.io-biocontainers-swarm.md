@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/swarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swarm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swarm/container.yaml"
-updated_at: "2026-09-19 07:55:30.769504"
+updated_at: "2026-09-20 08:09:32.799334"
 latest: "3.1.5--h9948957_3"
 container_url: "https://biocontainers.pro/tools/swarm"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hclust2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hclust2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hclust2/container.yaml"
-updated_at: "2026-09-19 07:32:58.676742"
+updated_at: "2026-09-20 07:52:12.240933"
 latest: "1.0.0--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/hclust2"
 aliases:

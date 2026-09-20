@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-vbmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vbmp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vbmp/container.yaml"
-updated_at: "2026-09-19 07:11:31.672209"
+updated_at: "2026-09-20 07:35:36.069870"
 latest: "1.78.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vbmp"
 

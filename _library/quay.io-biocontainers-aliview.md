@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aliview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aliview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aliview/container.yaml"
-updated_at: "2026-09-19 08:07:11.906808"
+updated_at: "2026-09-20 08:18:31.198238"
 latest: "1.32--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aliview"
 aliases:

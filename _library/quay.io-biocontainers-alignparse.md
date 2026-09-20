@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/alignparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignparse/container.yaml"
-updated_at: "2026-09-19 07:34:43.308876"
-latest: "0.7.1--pyh106432d_0"
+updated_at: "2026-09-20 07:53:30.023509"
+latest: "0.8.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/alignparse"
 aliases:
  - "pathos_connect"
@@ -35,8 +35,9 @@ aliases:
  - "fonttools"
 versions:
  - "0.7.1--pyh106432d_0"
+ - "0.8.0--pyh106432d_0"
 description: "singularity registry hpc automated addition for alignparse"
-config: {"url": "https://biocontainers.pro/tools/alignparse", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alignparse", "latest": {"0.7.1--pyh106432d_0": "sha256:19fec675324841e9c5b11cba5183bd3bb4b58cfd3172e971dfc2d41f1b480632"}, "tags": {"0.7.1--pyh106432d_0": "sha256:19fec675324841e9c5b11cba5183bd3bb4b58cfd3172e971dfc2d41f1b480632"}, "docker": "quay.io/biocontainers/alignparse", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "get_gprof": "/usr/local/bin/get_gprof", "fc-genconf": "/usr/local/bin/fc-genconf", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools"}}
+config: {"url": "https://biocontainers.pro/tools/alignparse", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for alignparse", "latest": {"0.8.0--pyh106432d_0": "sha256:aff52b33e12f66c2d68126b29bb0671a5c73e2ec8f7687b2ab07237264a9ca06"}, "tags": {"0.7.1--pyh106432d_0": "sha256:19fec675324841e9c5b11cba5183bd3bb4b58cfd3172e971dfc2d41f1b480632", "0.8.0--pyh106432d_0": "sha256:aff52b33e12f66c2d68126b29bb0671a5c73e2ec8f7687b2ab07237264a9ca06"}, "docker": "quay.io/biocontainers/alignparse", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "get_gprof": "/usr/local/bin/get_gprof", "fc-genconf": "/usr/local/bin/fc-genconf", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alignparse.
@@ -51,7 +52,7 @@ $ shpc install quay.io/biocontainers/alignparse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/alignparse:0.7.1--pyh106432d_0
+$ shpc install quay.io/biocontainers/alignparse:0.8.0--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +64,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/alignparse/0.7.1--pyh106432d_0
-$ module help quay.io/biocontainers/alignparse/0.7.1--pyh106432d_0
+$ module load quay.io/biocontainers/alignparse/0.8.0--pyh106432d_0
+$ module help quay.io/biocontainers/alignparse/0.8.0--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kled"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kled/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kled/container.yaml"
-updated_at: "2026-09-19 07:20:43.626850"
+updated_at: "2026-09-20 07:42:48.113799"
 latest: "1.2.11--he5eddf3_0"
 container_url: "https://biocontainers.pro/tools/kled"
 aliases:

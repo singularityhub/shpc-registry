@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-scroshi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scroshi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scroshi/container.yaml"
-updated_at: "2026-09-19 08:00:15.994187"
+updated_at: "2026-09-20 08:13:13.234214"
 latest: "1.0.0.0--r44h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-scroshi"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dart-adna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dart-adna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dart-adna/container.yaml"
-updated_at: "2026-09-19 07:43:44.065179"
+updated_at: "2026-09-20 08:00:26.106477"
 latest: "1.0.4--ha27dd3b_0"
 container_url: "https://biocontainers.pro/tools/dart-adna"
 aliases:

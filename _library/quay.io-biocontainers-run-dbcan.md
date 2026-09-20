@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/run-dbcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/run-dbcan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/run-dbcan/container.yaml"
-updated_at: "2026-09-19 07:35:00.905776"
+updated_at: "2026-09-20 07:53:43.109523"
 latest: "2.0.11--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/run-dbcan"
 aliases:

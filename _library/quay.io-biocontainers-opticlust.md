@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opticlust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opticlust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opticlust/container.yaml"
-updated_at: "2026-09-19 07:57:20.280419"
+updated_at: "2026-09-20 08:10:58.394401"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/opticlust"
 aliases:

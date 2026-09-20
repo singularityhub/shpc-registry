@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rikin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rikin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rikin/container.yaml"
-updated_at: "2026-09-19 07:58:59.663998"
+updated_at: "2026-09-20 08:12:14.200954"
 latest: "0.9.5--py313h5814d7d_0"
 container_url: "https://biocontainers.pro/tools/rikin"
 aliases:

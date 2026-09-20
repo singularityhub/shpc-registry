@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/comebin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/comebin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/comebin/container.yaml"
-updated_at: "2026-09-19 07:46:56.063895"
-latest: "1.1.0--hdfd78af_1"
+updated_at: "2026-09-20 08:02:53.448011"
+latest: "1.1.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/comebin"
 aliases:
  - "run_comebin.sh"
@@ -39,8 +39,9 @@ versions:
  - "1.0.4--hdfd78af_0"
  - "1.0.4--hdfd78af_1"
  - "1.1.0--hdfd78af_1"
+ - "1.1.0--hdfd78af_2"
 description: "singularity registry hpc automated addition for comebin"
-config: {"url": "https://biocontainers.pro/tools/comebin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for comebin", "latest": {"1.1.0--hdfd78af_1": "sha256:91c97f563ea0631b74378882924085f6711c951f05f1324a5e53c5c78aef2cbe"}, "tags": {"1.0.3--hdfd78af_0": "sha256:7b9dcbb50c9c5f6f0889a1a2668b1e56233f3d5af35b6fee532603773c378771", "1.0.4--hdfd78af_0": "sha256:e3c939ea85b8be126e5394cda68cb48634d254432724c2669e165f49860d4966", "1.0.4--hdfd78af_1": "sha256:9d52030e275700b03f469235883c43041d1d9a6a4585a8f777072d8268b9b1d2", "1.1.0--hdfd78af_1": "sha256:91c97f563ea0631b74378882924085f6711c951f05f1324a5e53c5c78aef2cbe"}, "docker": "quay.io/biocontainers/comebin", "aliases": {"run_comebin.sh": "/usr/local/bin/run_comebin.sh", "checkm": "/usr/local/bin/checkm", "FragGeneScan": "/usr/local/bin/FragGeneScan", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "torchrun": "/usr/local/bin/torchrun", "ninja": "/usr/local/bin/ninja", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch"}}
+config: {"url": "https://biocontainers.pro/tools/comebin", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for comebin", "latest": {"1.1.0--hdfd78af_2": "sha256:32ce04758ca5d19450809d2423f2b4a28e50687c7a9f565affa759ba247f9c6f"}, "tags": {"1.0.3--hdfd78af_0": "sha256:7b9dcbb50c9c5f6f0889a1a2668b1e56233f3d5af35b6fee532603773c378771", "1.0.4--hdfd78af_0": "sha256:e3c939ea85b8be126e5394cda68cb48634d254432724c2669e165f49860d4966", "1.0.4--hdfd78af_1": "sha256:9d52030e275700b03f469235883c43041d1d9a6a4585a8f777072d8268b9b1d2", "1.1.0--hdfd78af_1": "sha256:91c97f563ea0631b74378882924085f6711c951f05f1324a5e53c5c78aef2cbe", "1.1.0--hdfd78af_2": "sha256:32ce04758ca5d19450809d2423f2b4a28e50687c7a9f565affa759ba247f9c6f"}, "docker": "quay.io/biocontainers/comebin", "aliases": {"run_comebin.sh": "/usr/local/bin/run_comebin.sh", "checkm": "/usr/local/bin/checkm", "FragGeneScan": "/usr/local/bin/FragGeneScan", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "torchrun": "/usr/local/bin/torchrun", "ninja": "/usr/local/bin/ninja", "igraph": "/usr/local/bin/igraph", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/comebin.
@@ -55,7 +56,7 @@ $ shpc install quay.io/biocontainers/comebin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/comebin:1.1.0--hdfd78af_1
+$ shpc install quay.io/biocontainers/comebin:1.1.0--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -67,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/comebin/1.1.0--hdfd78af_1
-$ module help quay.io/biocontainers/comebin/1.1.0--hdfd78af_1
+$ module load quay.io/biocontainers/comebin/1.1.0--hdfd78af_2
+$ module help quay.io/biocontainers/comebin/1.1.0--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
