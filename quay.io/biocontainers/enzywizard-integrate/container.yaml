@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   enzywizard-integrate
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:264ec4c605b1f35024ffcbc281b31e6c793761d6e537c627907c532758cc5e83
+  1.0.3--pyhdfd78af_0: 
+    sha256:46f0e1151a5478af4aecca66eafad2a7c4cf2efca06e98becf6735dfc180b4a8
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:264ec4c605b1f35024ffcbc281b31e6c793761d6e537c627907c532758cc5e83
+  1.0.3--pyhdfd78af_0: 
+    sha256:46f0e1151a5478af4aecca66eafad2a7c4cf2efca06e98becf6735dfc180b4a8
 docker: quay.io/biocontainers/enzywizard-integrate
 aliases:
   enzywizard-integrate: /usr/local/bin/enzywizard-integrate
