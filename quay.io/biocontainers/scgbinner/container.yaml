@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/scgbinner
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for scgbinner
 latest:
-  1.0.4--pyh106432d_0: 
-    sha256:5741925b85b1135a63db4c5888e6c288f65cdab4ddc617fb8c2111372938d2e3
+  1.0.5--pyh106432d_0: 
+    sha256:e5e5607386add4a06c231a4de57b2af4e478d480ead2abb4bde11d2acc2eecd5
 tags:
   1.0.4--pyh106432d_0: 
     sha256:5741925b85b1135a63db4c5888e6c288f65cdab4ddc617fb8c2111372938d2e3
+  1.0.5--pyh106432d_0: 
+    sha256:e5e5607386add4a06c231a4de57b2af4e478d480ead2abb4bde11d2acc2eecd5
 docker: quay.io/biocontainers/scgbinner
 aliases:
   scgbinner: /usr/local/bin/scgbinner

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ngsfetch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ngsfetch
 latest:
-  0.1.1--pyh7e72e81_0: 
-    sha256:c8101d3dafe8b2c6537e9080c58dbf50b4e8a30d7ca3747876c23b17ebe8c528
+  0.1.2--pyh106432d_0: 
+    sha256:e51a384923d7b6d6c93a0cbc5c870e29c9553f3d6a09ad00e1c1ca5b2276363a
 tags:
   0.1.1--pyh7e72e81_0: 
     sha256:c8101d3dafe8b2c6537e9080c58dbf50b4e8a30d7ca3747876c23b17ebe8c528
+  0.1.2--pyh106432d_0: 
+    sha256:e51a384923d7b6d6c93a0cbc5c870e29c9553f3d6a09ad00e1c1ca5b2276363a
 docker: quay.io/biocontainers/ngsfetch
 aliases:
   ffq: /usr/local/bin/ffq

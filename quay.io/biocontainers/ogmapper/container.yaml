@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ogmapper
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ogmapper
 latest:
-  1.0.0--h077b44d_0: 
-    sha256:204fd93fbd993453114353538aa00dcdd18c1f9fa5ca91754774beaeaf077eb2
+  1.1.1--h3be2455_0: 
+    sha256:f02cb74f3529ae690d4d6dc31328ddab63a891402ed096acc9ce6f1ef5ca09c1
 tags:
   1.0.0--h077b44d_0: 
     sha256:204fd93fbd993453114353538aa00dcdd18c1f9fa5ca91754774beaeaf077eb2
+  1.1.1--h3be2455_0: 
+    sha256:f02cb74f3529ae690d4d6dc31328ddab63a891402ed096acc9ce6f1ef5ca09c1
 docker: quay.io/biocontainers/ogmapper
 aliases:
   ogmapper: /usr/local/bin/ogmapper
