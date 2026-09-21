@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ogmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ogmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ogmapper/container.yaml"
-updated_at: "2026-09-20 08:00:22.544669"
-latest: "1.0.0--h077b44d_0"
+updated_at: "2026-09-21 08:19:30.671681"
+latest: "1.1.1--h3be2455_0"
 container_url: "https://biocontainers.pro/tools/ogmapper"
 aliases:
  - "ogmapper"
 versions:
  - "1.0.0--h077b44d_0"
+ - "1.1.1--h3be2455_0"
 description: "singularity registry hpc automated addition for ogmapper"
-config: {"url": "https://biocontainers.pro/tools/ogmapper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ogmapper", "latest": {"1.0.0--h077b44d_0": "sha256:204fd93fbd993453114353538aa00dcdd18c1f9fa5ca91754774beaeaf077eb2"}, "tags": {"1.0.0--h077b44d_0": "sha256:204fd93fbd993453114353538aa00dcdd18c1f9fa5ca91754774beaeaf077eb2"}, "docker": "quay.io/biocontainers/ogmapper", "aliases": {"ogmapper": "/usr/local/bin/ogmapper"}}
+config: {"url": "https://biocontainers.pro/tools/ogmapper", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ogmapper", "latest": {"1.1.1--h3be2455_0": "sha256:f02cb74f3529ae690d4d6dc31328ddab63a891402ed096acc9ce6f1ef5ca09c1"}, "tags": {"1.0.0--h077b44d_0": "sha256:204fd93fbd993453114353538aa00dcdd18c1f9fa5ca91754774beaeaf077eb2", "1.1.1--h3be2455_0": "sha256:f02cb74f3529ae690d4d6dc31328ddab63a891402ed096acc9ce6f1ef5ca09c1"}, "docker": "quay.io/biocontainers/ogmapper", "aliases": {"ogmapper": "/usr/local/bin/ogmapper"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ogmapper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ogmapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ogmapper:1.0.0--h077b44d_0
+$ shpc install quay.io/biocontainers/ogmapper:1.1.1--h3be2455_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ogmapper/1.0.0--h077b44d_0
-$ module help quay.io/biocontainers/ogmapper/1.0.0--h077b44d_0
+$ module load quay.io/biocontainers/ogmapper/1.1.1--h3be2455_0
+$ module help quay.io/biocontainers/ogmapper/1.1.1--h3be2455_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

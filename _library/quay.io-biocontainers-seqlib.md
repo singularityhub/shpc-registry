@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqlib/container.yaml"
-updated_at: "2026-09-20 07:39:22.261257"
+updated_at: "2026-09-21 07:52:55.062508"
 latest: "1.2.0--hbefcdb2_0"
 container_url: "https://biocontainers.pro/tools/seqlib"
 aliases:

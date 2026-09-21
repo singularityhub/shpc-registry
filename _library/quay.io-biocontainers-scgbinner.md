@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scgbinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scgbinner/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scgbinner/container.yaml"
-updated_at: "2026-09-20 07:41:35.822153"
-latest: "1.0.4--pyh106432d_0"
+updated_at: "2026-09-21 07:55:43.663650"
+latest: "1.0.5--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/scgbinner"
 aliases:
  - "scgbinner"
@@ -37,8 +37,9 @@ aliases:
  - "ompi-clean"
 versions:
  - "1.0.4--pyh106432d_0"
+ - "1.0.5--pyh106432d_0"
 description: "singularity registry hpc automated addition for scgbinner"
-config: {"url": "https://biocontainers.pro/tools/scgbinner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scgbinner", "latest": {"1.0.4--pyh106432d_0": "sha256:5741925b85b1135a63db4c5888e6c288f65cdab4ddc617fb8c2111372938d2e3"}, "tags": {"1.0.4--pyh106432d_0": "sha256:5741925b85b1135a63db4c5888e6c288f65cdab4ddc617fb8c2111372938d2e3"}, "docker": "quay.io/biocontainers/scgbinner", "aliases": {"scgbinner": "/usr/local/bin/scgbinner", "split_contigs": "/usr/local/bin/split_contigs", "FragGeneScan": "/usr/local/bin/FragGeneScan", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "igraph": "/usr/local/bin/igraph", "tensorboard": "/usr/local/bin/tensorboard", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean"}}
+config: {"url": "https://biocontainers.pro/tools/scgbinner", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for scgbinner", "latest": {"1.0.5--pyh106432d_0": "sha256:e5e5607386add4a06c231a4de57b2af4e478d480ead2abb4bde11d2acc2eecd5"}, "tags": {"1.0.4--pyh106432d_0": "sha256:5741925b85b1135a63db4c5888e6c288f65cdab4ddc617fb8c2111372938d2e3", "1.0.5--pyh106432d_0": "sha256:e5e5607386add4a06c231a4de57b2af4e478d480ead2abb4bde11d2acc2eecd5"}, "docker": "quay.io/biocontainers/scgbinner", "aliases": {"scgbinner": "/usr/local/bin/scgbinner", "split_contigs": "/usr/local/bin/split_contigs", "FragGeneScan": "/usr/local/bin/FragGeneScan", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "protoc-31.1.0": "/usr/local/bin/protoc-31.1.0", "protoc-gen-upb-31.1.0": "/usr/local/bin/protoc-gen-upb-31.1.0", "protoc-gen-upbdefs-31.1.0": "/usr/local/bin/protoc-gen-upbdefs-31.1.0", "igraph": "/usr/local/bin/igraph", "tensorboard": "/usr/local/bin/tensorboard", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "shmemrun": "/usr/local/bin/shmemrun", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun", "shmemcc": "/usr/local/bin/shmemcc", "shmemfort": "/usr/local/bin/shmemfort", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "ompi-clean": "/usr/local/bin/ompi-clean"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scgbinner.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/scgbinner
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scgbinner:1.0.4--pyh106432d_0
+$ shpc install quay.io/biocontainers/scgbinner:1.0.5--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scgbinner/1.0.4--pyh106432d_0
-$ module help quay.io/biocontainers/scgbinner/1.0.4--pyh106432d_0
+$ module load quay.io/biocontainers/scgbinner/1.0.5--pyh106432d_0
+$ module help quay.io/biocontainers/scgbinner/1.0.5--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

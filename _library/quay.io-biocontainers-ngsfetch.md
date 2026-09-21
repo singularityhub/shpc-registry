@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngsfetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsfetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsfetch/container.yaml"
-updated_at: "2026-09-20 08:10:34.986979"
-latest: "0.1.1--pyh7e72e81_0"
+updated_at: "2026-09-21 08:32:15.072629"
+latest: "0.1.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/ngsfetch"
 aliases:
  - "ffq"
@@ -20,8 +20,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.1.1--pyh7e72e81_0"
+ - "0.1.2--pyh106432d_0"
 description: "singularity registry hpc automated addition for ngsfetch"
-config: {"url": "https://biocontainers.pro/tools/ngsfetch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngsfetch", "latest": {"0.1.1--pyh7e72e81_0": "sha256:c8101d3dafe8b2c6537e9080c58dbf50b4e8a30d7ca3747876c23b17ebe8c528"}, "tags": {"0.1.1--pyh7e72e81_0": "sha256:c8101d3dafe8b2c6537e9080c58dbf50b4e8a30d7ca3747876c23b17ebe8c528"}, "docker": "quay.io/biocontainers/ngsfetch", "aliases": {"ffq": "/usr/local/bin/ffq", "ngsfetch": "/usr/local/bin/ngsfetch", "aria2c": "/usr/local/bin/aria2c", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/ngsfetch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ngsfetch", "latest": {"0.1.2--pyh106432d_0": "sha256:e51a384923d7b6d6c93a0cbc5c870e29c9553f3d6a09ad00e1c1ca5b2276363a"}, "tags": {"0.1.1--pyh7e72e81_0": "sha256:c8101d3dafe8b2c6537e9080c58dbf50b4e8a30d7ca3747876c23b17ebe8c528", "0.1.2--pyh106432d_0": "sha256:e51a384923d7b6d6c93a0cbc5c870e29c9553f3d6a09ad00e1c1ca5b2276363a"}, "docker": "quay.io/biocontainers/ngsfetch", "aliases": {"ffq": "/usr/local/bin/ffq", "ngsfetch": "/usr/local/bin/ngsfetch", "aria2c": "/usr/local/bin/aria2c", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngsfetch.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/ngsfetch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngsfetch:0.1.1--pyh7e72e81_0
+$ shpc install quay.io/biocontainers/ngsfetch:0.1.2--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngsfetch/0.1.1--pyh7e72e81_0
-$ module help quay.io/biocontainers/ngsfetch/0.1.1--pyh7e72e81_0
+$ module load quay.io/biocontainers/ngsfetch/0.1.2--pyh106432d_0
+$ module help quay.io/biocontainers/ngsfetch/0.1.2--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

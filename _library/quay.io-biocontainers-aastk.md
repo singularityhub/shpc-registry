@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aastk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aastk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/aastk/container.yaml"
-updated_at: "2026-09-20 08:19:17.687837"
+updated_at: "2026-09-21 08:43:15.196316"
 latest: "0.1.1--pyh1f0d9b5_0"
 container_url: "https://biocontainers.pro/tools/aastk"
 aliases:

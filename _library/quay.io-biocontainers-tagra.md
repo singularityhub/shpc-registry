@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tagra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tagra/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tagra/container.yaml"
-updated_at: "2026-09-20 07:57:59.848701"
+updated_at: "2026-09-21 08:16:34.851243"
 latest: "0.2.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tagra"
 aliases:
