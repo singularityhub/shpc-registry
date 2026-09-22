@@ -1,0 +1,53 @@
+url: https://biocontainers.pro/tools/hicona
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hicona
+latest:
+  0.0.2--pyhdfd78af_0: 
+    sha256:d28db6048e2635f2612212c197fc5f7585f2ebf858caa055ba6f4c99fb478114
+tags:
+  0.0.2--pyhdfd78af_0: 
+    sha256:d28db6048e2635f2612212c197fc5f7585f2ebf858caa055ba6f4c99fb478114
+docker: quay.io/biocontainers/hicona
+aliases:
+  boostchr.pl: /usr/local/bin/boostchr.pl
+  column_remover.pl.bak: /usr/local/bin/column_remover.pl.bak
+  coolbox: /usr/local/bin/coolbox
+  cooltools: /usr/local/bin/cooltools
+  create_randompairs.pl: /usr/local/bin/create_randompairs.pl
+  duplicate_header_remover.pl.bak: 
+    /usr/local/bin/duplicate_header_remover.pl.bak
+  fragment_4dnpairs.pl.bak: /usr/local/bin/fragment_4dnpairs.pl.bak
+  juicer_shortform2pairs.pl.bak: /usr/local/bin/juicer_shortform2pairs.pl.bak
+  jupyter-builder: /usr/local/bin/jupyter-builder
+  merged_nodup2pairs.pl.bak: /usr/local/bin/merged_nodup2pairs.pl.bak
+  mistune: /usr/local/bin/mistune
+  numpydoc: /usr/local/bin/numpydoc
+  old_merged_nodup2pairs.pl.bak: /usr/local/bin/old_merged_nodup2pairs.pl.bak
+  voila: /usr/local/bin/voila
+  websockets: /usr/local/bin/websockets
+  jlpm: /usr/local/bin/jlpm
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  pyjson5: /usr/local/bin/pyjson5
+  jupyter-server: /usr/local/bin/jupyter-server
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  jupyter-console: /usr/local/bin/jupyter-console
+  debugpy: /usr/local/bin/debugpy
+  cooler: /usr/local/bin/cooler
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  bam2pairs: /usr/local/bin/bam2pairs
+  column_remover.pl: /usr/local/bin/column_remover.pl
+  duplicate_header_remover.pl: /usr/local/bin/duplicate_header_remover.pl
+  fragment_4dnpairs.pl: /usr/local/bin/fragment_4dnpairs.pl
+  juicer_shortform2pairs.pl: /usr/local/bin/juicer_shortform2pairs.pl
+  merge-pairs.sh: /usr/local/bin/merge-pairs.sh

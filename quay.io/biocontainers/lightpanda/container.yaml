@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/lightpanda
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for lightpanda
+latest:
+  0.3.7--h9ee0642_0: 
+    sha256:5fdbc89498596d5f82f83702e10791a1247df25800979be1dc47c7a0fa2d7975
+tags:
+  0.3.7--h9ee0642_0: 
+    sha256:5fdbc89498596d5f82f83702e10791a1247df25800979be1dc47c7a0fa2d7975
+docker: quay.io/biocontainers/lightpanda
+aliases:
+  lightpanda: /usr/local/bin/lightpanda
