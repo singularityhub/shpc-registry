@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fglatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fglatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fglatch/container.yaml"
-updated_at: "2026-09-21 08:24:39.994573"
+updated_at: "2026-09-22 08:03:04.643497"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fglatch"
 aliases:

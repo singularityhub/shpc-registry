@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/freebayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/freebayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/freebayes/container.yaml"
-updated_at: "2026-09-21 08:31:01.376662"
-latest: "1.3.10--hbefcdb2_0"
+updated_at: "2026-09-22 08:08:53.145427"
+latest: "1.3.10--h3752d28_1"
 container_url: "https://biocontainers.pro/tools/freebayes"
 aliases:
  - "freebayes"
@@ -29,8 +29,9 @@ versions:
  - "1.3.9--hbefcdb2_0"
  - "1.3.9--hbefcdb2_3"
  - "1.3.10--hbefcdb2_0"
+ - "1.3.10--h3752d28_1"
 description: "shpc-registry automated BioContainers addition for freebayes"
-config: {"url": "https://biocontainers.pro/tools/freebayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for freebayes", "latest": {"1.3.10--hbefcdb2_0": "sha256:b44701e5bd8f2bf2c5c94c74a63cd7e07e8b482ece174ebef062468228d068b1"}, "tags": {"1.3.3--py36hc088bd4_0": "sha256:1fb023431a4032a53f0e91a79305a1a994060803bb462e31bf351687db2bfa85", "1.3.7--h1870644_0": "sha256:ce54190f4676bc0bfe4e89ddff62a937bf8f80b0deaa9fb2d2b66063df76ebae", "1.3.7--h6a68c12_2": "sha256:283c973efd6f94c07ba3b952187fdac545ba1a6edb54589b10eae77877a36a36", "1.3.8--h6a68c12_2": "sha256:44e6ed69158c232eaa42557a034ff1867824ce1cd7fdb5f0355057ac87a92817", "1.3.9--hbefcdb2_0": "sha256:67afa61629fe05da541eacd83ad342c6b935b3b85d6caf9ba4cd2b2f649e75d2", "1.3.9--hbefcdb2_3": "sha256:e8b1281e7587dbcfe42f112720d982007cce0907de370b2e4f0b0865c5ec2772", "1.3.10--hbefcdb2_0": "sha256:b44701e5bd8f2bf2c5c94c74a63cd7e07e8b482ece174ebef062468228d068b1"}, "docker": "quay.io/biocontainers/freebayes", "aliases": {"freebayes": "/usr/local/bin/freebayes", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "vcffirstheader": "/usr/local/bin/vcffirstheader", "vcfstreamsort": "/usr/local/bin/vcfstreamsort", "vcfuniq": "/usr/local/bin/vcfuniq", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh"}}
+config: {"url": "https://biocontainers.pro/tools/freebayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for freebayes", "latest": {"1.3.10--h3752d28_1": "sha256:212b2e7182fec427e0d6956ac8e9636e87de9a19c92cb7a20326a9ce8f99a9c6"}, "tags": {"1.3.3--py36hc088bd4_0": "sha256:1fb023431a4032a53f0e91a79305a1a994060803bb462e31bf351687db2bfa85", "1.3.7--h1870644_0": "sha256:ce54190f4676bc0bfe4e89ddff62a937bf8f80b0deaa9fb2d2b66063df76ebae", "1.3.7--h6a68c12_2": "sha256:283c973efd6f94c07ba3b952187fdac545ba1a6edb54589b10eae77877a36a36", "1.3.8--h6a68c12_2": "sha256:44e6ed69158c232eaa42557a034ff1867824ce1cd7fdb5f0355057ac87a92817", "1.3.9--hbefcdb2_0": "sha256:67afa61629fe05da541eacd83ad342c6b935b3b85d6caf9ba4cd2b2f649e75d2", "1.3.9--hbefcdb2_3": "sha256:e8b1281e7587dbcfe42f112720d982007cce0907de370b2e4f0b0865c5ec2772", "1.3.10--hbefcdb2_0": "sha256:b44701e5bd8f2bf2c5c94c74a63cd7e07e8b482ece174ebef062468228d068b1", "1.3.10--h3752d28_1": "sha256:212b2e7182fec427e0d6956ac8e9636e87de9a19c92cb7a20326a9ce8f99a9c6"}, "docker": "quay.io/biocontainers/freebayes", "aliases": {"freebayes": "/usr/local/bin/freebayes", "freebayes-parallel": "/usr/local/bin/freebayes-parallel", "generate_freebayes_region_scripts.sh": "/usr/local/bin/generate_freebayes_region_scripts.sh", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "fasta_generate_regions.py": "/usr/local/bin/fasta_generate_regions.py", "vcffirstheader": "/usr/local/bin/vcffirstheader", "vcfstreamsort": "/usr/local/bin/vcfstreamsort", "vcfuniq": "/usr/local/bin/vcfuniq", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/freebayes.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/freebayes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/freebayes:1.3.10--hbefcdb2_0
+$ shpc install quay.io/biocontainers/freebayes:1.3.10--h3752d28_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/freebayes/1.3.10--hbefcdb2_0
-$ module help quay.io/biocontainers/freebayes/1.3.10--hbefcdb2_0
+$ module load quay.io/biocontainers/freebayes/1.3.10--h3752d28_1
+$ module help quay.io/biocontainers/freebayes/1.3.10--h3752d28_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

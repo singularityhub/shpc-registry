@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-longitudinal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-longitudinal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-longitudinal/container.yaml"
-updated_at: "2026-09-21 08:35:54.169903"
+updated_at: "2026-09-22 08:13:15.368851"
 latest: "1.1.12--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-longitudinal"
 aliases:

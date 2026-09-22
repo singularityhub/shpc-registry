@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-humanhippocampus2024"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humanhippocampus2024/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humanhippocampus2024/container.yaml"
-updated_at: "2026-09-21 08:29:28.073786"
+updated_at: "2026-09-22 08:07:26.552450"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-humanhippocampus2024"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spice/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spice/container.yaml"
-updated_at: "2026-09-21 08:09:43.705352"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-09-22 07:49:26.593749"
+latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spice"
 aliases:
  - "pyomo"
@@ -29,8 +29,9 @@ aliases:
  - "brotli"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "1.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for spice"
-config: {"url": "https://biocontainers.pro/tools/spice", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spice", "latest": {"0.1.0--pyhdfd78af_0": "sha256:f142be142a9df48ccaa0926b3cdd0a60864fa2490ef2ef4b7e5d300c6a99a9c7"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:f142be142a9df48ccaa0926b3cdd0a60864fa2490ef2ef4b7e5d300c6a99a9c7"}, "docker": "quay.io/biocontainers/spice", "aliases": {"pyomo": "/usr/local/bin/pyomo", "spice": "/usr/local/bin/spice", "fc-genconf": "/usr/local/bin/fc-genconf", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/spice", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spice", "latest": {"1.0--pyhdfd78af_0": "sha256:8e0cc396fcc9d44f1d657567576a258f10f14df75a40069fe8a25de8376ae9e2"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:f142be142a9df48ccaa0926b3cdd0a60864fa2490ef2ef4b7e5d300c6a99a9c7", "1.0--pyhdfd78af_0": "sha256:8e0cc396fcc9d44f1d657567576a258f10f14df75a40069fe8a25de8376ae9e2"}, "docker": "quay.io/biocontainers/spice", "aliases": {"pyomo": "/usr/local/bin/pyomo", "spice": "/usr/local/bin/spice", "fc-genconf": "/usr/local/bin/fc-genconf", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spice.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/spice
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spice:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/spice:1.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spice/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/spice/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/spice/1.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/spice/1.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

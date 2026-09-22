@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rastqc-nanopore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rastqc-nanopore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rastqc-nanopore/container.yaml"
-updated_at: "2026-09-21 07:57:32.367995"
-latest: "0.1.0--h2499bdc_0"
+updated_at: "2026-09-22 07:38:44.338386"
+latest: "0.2.0--h757e0ca_0"
 container_url: "https://biocontainers.pro/tools/rastqc-nanopore"
 aliases:
  - "rastqc-nanopore"
@@ -36,8 +36,9 @@ aliases:
  - "gflags_completions.sh"
 versions:
  - "0.1.0--h2499bdc_0"
+ - "0.2.0--h757e0ca_0"
 description: "singularity registry hpc automated addition for rastqc-nanopore"
-config: {"url": "https://biocontainers.pro/tools/rastqc-nanopore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rastqc-nanopore", "latest": {"0.1.0--h2499bdc_0": "sha256:9dff8b355d2e45e5a9d2021b2639387daa4368c13b975edfb66118a76d4a27c3"}, "tags": {"0.1.0--h2499bdc_0": "sha256:9dff8b355d2e45e5a9d2021b2639387daa4368c13b975edfb66118a76d4a27c3"}, "docker": "quay.io/biocontainers/rastqc-nanopore", "aliases": {"rastqc-nanopore": "/usr/local/bin/rastqc-nanopore", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "elasticurl": "/usr/local/bin/elasticurl", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh"}}
+config: {"url": "https://biocontainers.pro/tools/rastqc-nanopore", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rastqc-nanopore", "latest": {"0.2.0--h757e0ca_0": "sha256:dc4bf48a00d2547ab4267bcc83390597023d5c308eb0bbfc3a6f30fc4fdb180d"}, "tags": {"0.1.0--h2499bdc_0": "sha256:9dff8b355d2e45e5a9d2021b2639387daa4368c13b975edfb66118a76d4a27c3", "0.2.0--h757e0ca_0": "sha256:dc4bf48a00d2547ab4267bcc83390597023d5c308eb0bbfc3a6f30fc4fdb180d"}, "docker": "quay.io/biocontainers/rastqc-nanopore", "aliases": {"rastqc-nanopore": "/usr/local/bin/rastqc-nanopore", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "elasticurl": "/usr/local/bin/elasticurl", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rastqc-nanopore.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/rastqc-nanopore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rastqc-nanopore:0.1.0--h2499bdc_0
+$ shpc install quay.io/biocontainers/rastqc-nanopore:0.2.0--h757e0ca_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rastqc-nanopore/0.1.0--h2499bdc_0
-$ module help quay.io/biocontainers/rastqc-nanopore/0.1.0--h2499bdc_0
+$ module load quay.io/biocontainers/rastqc-nanopore/0.2.0--h757e0ca_0
+$ module help quay.io/biocontainers/rastqc-nanopore/0.2.0--h757e0ca_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

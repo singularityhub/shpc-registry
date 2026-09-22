@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-chromium"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chromium/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chromium/container.yaml"
-updated_at: "2026-09-21 07:51:53.083981"
-latest: "0.3.0--r44hdfd78af_2"
+updated_at: "2026-09-22 07:33:13.876415"
+latest: "0.3.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-chromium"
 aliases:
  - "2to3-3.11"
@@ -31,8 +31,9 @@ versions:
  - "0.3.0--r43hdfd78af_0"
  - "0.3.0--r43hdfd78af_1"
  - "0.3.0--r44hdfd78af_2"
+ - "0.3.1--r45hdfd78af_0"
 description: "singularity registry hpc automated addition for r-chromium"
-config: {"url": "https://biocontainers.pro/tools/r-chromium", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-chromium", "latest": {"0.3.0--r44hdfd78af_2": "sha256:018a267b5b2dca157b3ecf34ff7fa2a1ba240eda12d401638020476545bd461b"}, "tags": {"0.2.1--r42hdfd78af_0": "sha256:6a87cf6af0ce888b33645d0b21bdafaa224132230026d06a347773982364c77c", "0.2.1--r43hdfd78af_1": "sha256:ab300e20ff6b18588d65e727a65e7be6786a10ddae5121bbd5f26928e030b9de", "0.3.0--r43hdfd78af_0": "sha256:c684a039782faeb52b610230c99f4e8762470d6fe841a3ca4a0d2ef26ab22e3c", "0.3.0--r43hdfd78af_1": "sha256:87f65594ec48ea05d56470f52856eb0d3c3ea9b51db9124f8b59d448482e75ee", "0.3.0--r44hdfd78af_2": "sha256:018a267b5b2dca157b3ecf34ff7fa2a1ba240eda12d401638020476545bd461b"}, "docker": "quay.io/biocontainers/r-chromium", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/r-chromium", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for r-chromium", "latest": {"0.3.1--r45hdfd78af_0": "sha256:a4fe44d18e6768f44623758cf0f348679620175bde30769e0fd37fb5d933483a"}, "tags": {"0.2.1--r42hdfd78af_0": "sha256:6a87cf6af0ce888b33645d0b21bdafaa224132230026d06a347773982364c77c", "0.2.1--r43hdfd78af_1": "sha256:ab300e20ff6b18588d65e727a65e7be6786a10ddae5121bbd5f26928e030b9de", "0.3.0--r43hdfd78af_0": "sha256:c684a039782faeb52b610230c99f4e8762470d6fe841a3ca4a0d2ef26ab22e3c", "0.3.0--r43hdfd78af_1": "sha256:87f65594ec48ea05d56470f52856eb0d3c3ea9b51db9124f8b59d448482e75ee", "0.3.0--r44hdfd78af_2": "sha256:018a267b5b2dca157b3ecf34ff7fa2a1ba240eda12d401638020476545bd461b", "0.3.1--r45hdfd78af_0": "sha256:a4fe44d18e6768f44623758cf0f348679620175bde30769e0fd37fb5d933483a"}, "docker": "quay.io/biocontainers/r-chromium", "aliases": {"2to3-3.11": "/usr/local/bin/2to3-3.11", "idle3.11": "/usr/local/bin/idle3.11", "pydoc3.11": "/usr/local/bin/pydoc3.11", "python3.11": "/usr/local/bin/python3.11", "python3.11-config": "/usr/local/bin/python3.11-config", "installBiocDataPackage.sh": "/usr/local/bin/installBiocDataPackage.sh", "tomlq": "/usr/local/bin/tomlq", "xq": "/usr/local/bin/xq", "yq": "/usr/local/bin/yq", "jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "pandoc": "/usr/local/bin/pandoc", "python3.1": "/usr/local/bin/python3.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-chromium.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/r-chromium
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-chromium:0.3.0--r44hdfd78af_2
+$ shpc install quay.io/biocontainers/r-chromium:0.3.1--r45hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-chromium/0.3.0--r44hdfd78af_2
-$ module help quay.io/biocontainers/r-chromium/0.3.0--r44hdfd78af_2
+$ module load quay.io/biocontainers/r-chromium/0.3.1--r45hdfd78af_0
+$ module help quay.io/biocontainers/r-chromium/0.3.1--r45hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

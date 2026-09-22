@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/foldtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldtree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/foldtree/container.yaml"
-updated_at: "2026-09-21 08:02:53.820852"
+updated_at: "2026-09-22 07:43:34.338607"
 latest: "1.1.1rc1--pyh106432d_1"
 container_url: "https://biocontainers.pro/tools/foldtree"
 aliases:

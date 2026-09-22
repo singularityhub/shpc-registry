@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biovalid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biovalid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biovalid/container.yaml"
-updated_at: "2026-09-21 08:32:45.450083"
+updated_at: "2026-09-22 08:10:24.767789"
 latest: "0.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biovalid"
 aliases:

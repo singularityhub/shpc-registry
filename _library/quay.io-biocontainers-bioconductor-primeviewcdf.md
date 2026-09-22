@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-primeviewcdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-primeviewcdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-primeviewcdf/container.yaml"
-updated_at: "2026-09-21 08:06:58.455034"
+updated_at: "2026-09-22 07:47:07.272624"
 latest: "2.18.0--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-primeviewcdf"
 

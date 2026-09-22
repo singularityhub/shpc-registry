@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/beegees"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beegees/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beegees/container.yaml"
-updated_at: "2026-09-21 08:22:18.200983"
-latest: "3.0.4--pyhdfd78af_0"
+updated_at: "2026-09-22 08:00:50.249173"
+latest: "3.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/beegees"
 aliases:
  - "MitoGeneExtractor"
@@ -40,8 +40,9 @@ aliases:
  - "exonerate"
 versions:
  - "3.0.4--pyhdfd78af_0"
+ - "3.0.6--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for beegees"
-config: {"url": "https://biocontainers.pro/tools/beegees", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for beegees", "latest": {"3.0.4--pyhdfd78af_0": "sha256:64e3584446fe5710481040258d15f7c128e75c0948a31b457d1064aa428cc531"}, "tags": {"3.0.4--pyhdfd78af_0": "sha256:64e3584446fe5710481040258d15f7c128e75c0948a31b457d1064aa428cc531"}, "docker": "quay.io/biocontainers/beegees", "aliases": {"MitoGeneExtractor": "/usr/local/bin/MitoGeneExtractor", "MitoGeneExtractor-v1.9.6": "/usr/local/bin/MitoGeneExtractor-v1.9.6", "beegees": "/usr/local/bin/beegees", "gene-fetch": "/usr/local/bin/gene-fetch", "generate-slurm-partition-config": "/usr/local/bin/generate-slurm-partition-config", "trim_galore": "/usr/local/bin/trim_galore", "esd2esi": "/usr/local/bin/esd2esi", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress", "exonerate": "/usr/local/bin/exonerate"}}
+config: {"url": "https://biocontainers.pro/tools/beegees", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for beegees", "latest": {"3.0.6--pyhdfd78af_0": "sha256:165f0d841cfd26d239242fa970f8988311fa7d375e5df43f21a9d47da43bb41b"}, "tags": {"3.0.4--pyhdfd78af_0": "sha256:64e3584446fe5710481040258d15f7c128e75c0948a31b457d1064aa428cc531", "3.0.6--pyhdfd78af_0": "sha256:165f0d841cfd26d239242fa970f8988311fa7d375e5df43f21a9d47da43bb41b"}, "docker": "quay.io/biocontainers/beegees", "aliases": {"MitoGeneExtractor": "/usr/local/bin/MitoGeneExtractor", "MitoGeneExtractor-v1.9.6": "/usr/local/bin/MitoGeneExtractor-v1.9.6", "beegees": "/usr/local/bin/beegees", "gene-fetch": "/usr/local/bin/gene-fetch", "generate-slurm-partition-config": "/usr/local/bin/generate-slurm-partition-config", "trim_galore": "/usr/local/bin/trim_galore", "esd2esi": "/usr/local/bin/esd2esi", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress", "exonerate": "/usr/local/bin/exonerate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beegees.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/beegees
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/beegees:3.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/beegees:3.0.6--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/beegees/3.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/beegees/3.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/beegees/3.0.6--pyhdfd78af_0
+$ module help quay.io/biocontainers/beegees/3.0.6--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

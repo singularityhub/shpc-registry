@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/srahunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/srahunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/srahunter/container.yaml"
-updated_at: "2026-09-21 08:04:39.721645"
+updated_at: "2026-09-22 07:45:04.585076"
 latest: "0.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/srahunter"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bipode-httr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bipode-httr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bipode-httr/container.yaml"
-updated_at: "2026-09-21 07:46:43.053812"
+updated_at: "2026-09-22 07:28:43.618044"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bipode-httr"
 aliases:

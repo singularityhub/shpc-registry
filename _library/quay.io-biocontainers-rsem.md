@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rsem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rsem/container.yaml"
-updated_at: "2026-09-21 07:59:10.970829"
+updated_at: "2026-09-22 07:40:11.793585"
 latest: "1.3.3--pl5321h077b44d_12"
 container_url: "https://biocontainers.pro/tools/rsem"
 aliases:

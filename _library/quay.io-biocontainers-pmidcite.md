@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pmidcite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmidcite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pmidcite/container.yaml"
-updated_at: "2026-09-21 08:15:17.586429"
+updated_at: "2026-09-22 07:54:35.119353"
 latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pmidcite"
 aliases:

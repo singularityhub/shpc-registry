@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tiara"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiara/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiara/container.yaml"
-updated_at: "2026-09-21 07:52:06.950570"
+updated_at: "2026-09-22 07:33:27.304322"
 latest: "1.0.3"
 container_url: "https://biocontainers.pro/tools/tiara"
 aliases:
