@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/myloasm-kmc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for myloasm-kmc
+latest:
+  0.1.0--hdcadc20_0: 
+    sha256:58427d88dac05f5b26f9d1deb3a2d44c301d359d80d727def58d5ef76ca40985
+tags:
+  0.1.0--hdcadc20_0: 
+    sha256:58427d88dac05f5b26f9d1deb3a2d44c301d359d80d727def58d5ef76ca40985
+docker: quay.io/biocontainers/myloasm-kmc
+aliases:
+  myloasm-kmc-v1: /usr/local/bin/myloasm-kmc-v1
