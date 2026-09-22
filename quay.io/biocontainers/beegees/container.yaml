@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/beegees
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for beegees
 latest:
-  3.0.4--pyhdfd78af_0: 
-    sha256:64e3584446fe5710481040258d15f7c128e75c0948a31b457d1064aa428cc531
+  3.0.6--pyhdfd78af_0: 
+    sha256:165f0d841cfd26d239242fa970f8988311fa7d375e5df43f21a9d47da43bb41b
 tags:
   3.0.4--pyhdfd78af_0: 
     sha256:64e3584446fe5710481040258d15f7c128e75c0948a31b457d1064aa428cc531
+  3.0.6--pyhdfd78af_0: 
+    sha256:165f0d841cfd26d239242fa970f8988311fa7d375e5df43f21a9d47da43bb41b
 docker: quay.io/biocontainers/beegees
 aliases:
   MitoGeneExtractor: /usr/local/bin/MitoGeneExtractor

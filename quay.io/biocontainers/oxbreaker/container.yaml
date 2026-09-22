@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/oxbreaker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for oxbreaker
 latest:
-  1.2.1--pyhdfd78af_0: 
-    sha256:b2e126d3d640f466d258904ebec257620d9c7963d91156359a45b4b1b3e15f2b
+  1.2.3--pyhdfd78af_0: 
+    sha256:568a2ea19979a8a9a4ff8720d7a63e8e6d18f0cb91c1d12455e6f78e254bce4d
 tags:
   1.0--pyhdfd78af_0: 
     sha256:d0e18369f7408d15084baa04aaf86a565ab09ffde970438df8789d9a05e387c9
@@ -13,6 +13,8 @@ tags:
     sha256:bc58d7a129437c55baf27aeb743847241a5035b9855ffcc0f08d7ed6c792e0c0
   1.2.1--pyhdfd78af_0: 
     sha256:b2e126d3d640f466d258904ebec257620d9c7963d91156359a45b4b1b3e15f2b
+  1.2.3--pyhdfd78af_0: 
+    sha256:568a2ea19979a8a9a4ff8720d7a63e8e6d18f0cb91c1d12455e6f78e254bce4d
 docker: quay.io/biocontainers/oxbreaker
 aliases:
   gtk4-builder-tool: /usr/local/bin/gtk4-builder-tool

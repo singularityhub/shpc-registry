@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/spice
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for spice
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:f142be142a9df48ccaa0926b3cdd0a60864fa2490ef2ef4b7e5d300c6a99a9c7
+  1.0--pyhdfd78af_0: 
+    sha256:8e0cc396fcc9d44f1d657567576a258f10f14df75a40069fe8a25de8376ae9e2
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:f142be142a9df48ccaa0926b3cdd0a60864fa2490ef2ef4b7e5d300c6a99a9c7
+  1.0--pyhdfd78af_0: 
+    sha256:8e0cc396fcc9d44f1d657567576a258f10f14df75a40069fe8a25de8376ae9e2
 docker: quay.io/biocontainers/spice
 aliases:
   pyomo: /usr/local/bin/pyomo

@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/rastqc-nanopore
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rastqc-nanopore
 latest:
-  0.1.0--h2499bdc_0: 
-    sha256:9dff8b355d2e45e5a9d2021b2639387daa4368c13b975edfb66118a76d4a27c3
+  0.2.0--h757e0ca_0: 
+    sha256:dc4bf48a00d2547ab4267bcc83390597023d5c308eb0bbfc3a6f30fc4fdb180d
 tags:
   0.1.0--h2499bdc_0: 
     sha256:9dff8b355d2e45e5a9d2021b2639387daa4368c13b975edfb66118a76d4a27c3
+  0.2.0--h757e0ca_0: 
+    sha256:dc4bf48a00d2547ab4267bcc83390597023d5c308eb0bbfc3a6f30fc4fdb180d
 docker: quay.io/biocontainers/rastqc-nanopore
 aliases:
   rastqc-nanopore: /usr/local/bin/rastqc-nanopore

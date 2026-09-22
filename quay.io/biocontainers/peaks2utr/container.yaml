@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/peaks2utr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for peaks2utr
 latest:
-  1.5.1--pyhdfd78af_0: 
-    sha256:f9f861f5eecd89f7234f99361a6469b12252f113e9d27189d59bf4ec73210c02
+  1.5.2--pyhdfd78af_0: 
+    sha256:db4720d44afa1f184ac88d1e4558d17102b70189f0677ba3186e258a7b5121c0
 tags:
   1.2.0--pyhdfd78af_0: 
     sha256:e0d83f0e33b5b559e14f1a7abcdb77b43161711a0e813db4ae2358ea83708b92
@@ -23,6 +23,8 @@ tags:
     sha256:7b8a63701c315fb72925046de16251d2028ef493a6da0e26e39148c0387520cb
   1.5.1--pyhdfd78af_0: 
     sha256:f9f861f5eecd89f7234f99361a6469b12252f113e9d27189d59bf4ec73210c02
+  1.5.2--pyhdfd78af_0: 
+    sha256:db4720d44afa1f184ac88d1e4558d17102b70189f0677ba3186e258a7b5121c0
 docker: quay.io/biocontainers/peaks2utr
 aliases:
   macs2: /usr/local/bin/macs2

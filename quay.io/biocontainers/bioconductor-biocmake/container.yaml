@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   bioconductor-biocmake
 latest:
-  1.2.0--r45hdfd78af_0: 
-    sha256:0994e48ea08115cf60a835d47131102cb79b2ec38dd7de77bb6124c69c29108c
+  1.4.0--r45hdfd78af_0: 
+    sha256:2858ea38f64e22d2ff4aa549cfea8689c6a04eabd9ce7d378846ce2dc40e3031
 tags:
   1.2.0--r45hdfd78af_0: 
     sha256:0994e48ea08115cf60a835d47131102cb79b2ec38dd7de77bb6124c69c29108c
+  1.4.0--r45hdfd78af_0: 
+    sha256:2858ea38f64e22d2ff4aa549cfea8689c6a04eabd9ce7d378846ce2dc40e3031
 docker: quay.io/biocontainers/bioconductor-biocmake
 aliases:
   x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
