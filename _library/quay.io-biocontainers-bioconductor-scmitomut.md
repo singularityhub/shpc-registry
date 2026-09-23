@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scmitomut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scmitomut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scmitomut/container.yaml"
-updated_at: "2026-09-22 08:01:52.577318"
+updated_at: "2026-09-23 07:55:24.749492"
 latest: "1.6.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scmitomut"
 aliases:

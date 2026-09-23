@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sclane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sclane/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sclane/container.yaml"
-updated_at: "2026-09-22 08:15:28.198808"
-latest: "1.0.0--r45ha27e39d_0"
+updated_at: "2026-09-23 08:04:43.946445"
+latest: "1.0.4--r45h55fe1e3_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sclane"
 aliases:
  - "hb-raster"
@@ -19,8 +19,9 @@ aliases:
  - "hb-info"
 versions:
  - "1.0.0--r45ha27e39d_0"
+ - "1.0.4--r45h55fe1e3_0"
 description: "singularity registry hpc automated addition for bioconductor-sclane"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sclane", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-sclane", "latest": {"1.0.0--r45ha27e39d_0": "sha256:0331225625135b8b765b24544dfc5d1dd51d063290ecba9c0f8754c497f20da9"}, "tags": {"1.0.0--r45ha27e39d_0": "sha256:0331225625135b8b765b24544dfc5d1dd51d063290ecba9c0f8754c497f20da9"}, "docker": "quay.io/biocontainers/bioconductor-sclane", "aliases": {"hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sclane", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-sclane", "latest": {"1.0.4--r45h55fe1e3_0": "sha256:ccbde697e0b4cfd28315900a2a33001f43b5136c99684345221a6cc47436fdcb"}, "tags": {"1.0.0--r45ha27e39d_0": "sha256:0331225625135b8b765b24544dfc5d1dd51d063290ecba9c0f8754c497f20da9", "1.0.4--r45h55fe1e3_0": "sha256:ccbde697e0b4cfd28315900a2a33001f43b5136c99684345221a6cc47436fdcb"}, "docker": "quay.io/biocontainers/bioconductor-sclane", "aliases": {"hb-raster": "/usr/local/bin/hb-raster", "hb-vector": "/usr/local/bin/hb-vector", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "numpy-config": "/usr/local/bin/numpy-config", "hb-info": "/usr/local/bin/hb-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sclane.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sclane
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sclane:1.0.0--r45ha27e39d_0
+$ shpc install quay.io/biocontainers/bioconductor-sclane:1.0.4--r45h55fe1e3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sclane/1.0.0--r45ha27e39d_0
-$ module help quay.io/biocontainers/bioconductor-sclane/1.0.0--r45ha27e39d_0
+$ module load quay.io/biocontainers/bioconductor-sclane/1.0.4--r45h55fe1e3_0
+$ module help quay.io/biocontainers/bioconductor-sclane/1.0.4--r45h55fe1e3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

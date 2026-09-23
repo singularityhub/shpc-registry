@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-qlcmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qlcmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qlcmatrix/container.yaml"
-updated_at: "2026-09-22 08:16:39.343767"
+updated_at: "2026-09-23 08:05:37.681525"
 latest: "0.9.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-qlcmatrix"
 aliases:

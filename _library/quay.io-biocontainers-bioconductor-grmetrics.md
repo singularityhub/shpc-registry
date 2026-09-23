@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-grmetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grmetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grmetrics/container.yaml"
-updated_at: "2026-09-22 08:19:14.191765"
+updated_at: "2026-09-23 08:07:32.076264"
 latest: "1.36.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grmetrics"
 aliases:

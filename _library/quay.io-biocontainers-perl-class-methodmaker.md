@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-class-methodmaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-methodmaker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-methodmaker/container.yaml"
-updated_at: "2026-09-22 07:31:03.960169"
+updated_at: "2026-09-23 07:33:10.008322"
 latest: "2.25--pl5321h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/perl-class-methodmaker"
 aliases:

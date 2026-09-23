@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38/container.yaml"
-updated_at: "2026-09-22 07:45:05.107064"
+updated_at: "2026-09-23 07:43:33.623693"
 latest: "3.13.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafh5.gnomad.r3.0.grch38"
 aliases:

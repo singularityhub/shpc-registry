@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tfhaz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tfhaz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tfhaz/container.yaml"
-updated_at: "2026-09-22 07:43:12.196470"
+updated_at: "2026-09-23 07:41:54.336819"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tfhaz"
 aliases:

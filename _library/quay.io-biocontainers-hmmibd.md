@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hmmibd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmibd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmibd/container.yaml"
-updated_at: "2026-09-22 07:33:20.676094"
+updated_at: "2026-09-23 07:34:51.752304"
 latest: "2.1.3--hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/hmmibd"
 aliases:

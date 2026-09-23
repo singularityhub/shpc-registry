@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chimp.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chimp.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chimp.db0/container.yaml"
-updated_at: "2026-09-22 07:44:45.309492"
+updated_at: "2026-09-23 07:43:16.381193"
 latest: "3.20.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chimp.db0"
 aliases:
