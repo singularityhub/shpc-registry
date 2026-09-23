@@ -1,0 +1,58 @@
+url: https://biocontainers.pro/tools/mobiorigin
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mobiorigin
+latest:
+  0.1.5--pyhdfd78af_0: 
+    sha256:ca23f56fcd64fbe321619d909b8a1699e82b779e2b65a6def6f4795fc3e1b268
+tags:
+  0.1.5--pyhdfd78af_0: 
+    sha256:ca23f56fcd64fbe321619d909b8a1699e82b779e2b65a6def6f4795fc3e1b268
+docker: quay.io/biocontainers/mobiorigin
+aliases:
+  amrfinder_index: /usr/local/bin/amrfinder_index
+  archive-peptide: /usr/local/bin/archive-peptide
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  disruption2genesymbol: /usr/local/bin/disruption2genesymbol
+  exclude-uids: /usr/local/bin/exclude-uids
+  filter-records: /usr/local/bin/filter-records
+  gene2tbl: /usr/local/bin/gene2tbl
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  mobiorigin: /usr/local/bin/mobiorigin
+  mutate: /usr/local/bin/mutate
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  split-records: /usr/local/bin/split-records
+  stx.prot: /usr/local/bin/stx.prot
+  stxtyper: /usr/local/bin/stxtyper
+  test-repeat: /usr/local/bin/test-repeat
+  test_stxtyper.sh: /usr/local/bin/test_stxtyper.sh
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  protoc-29.3.0: /usr/local/bin/protoc-29.3.0
+  protoc-gen-upb-29.3.0: /usr/local/bin/protoc-gen-upb-29.3.0
+  protoc-gen-upb_minitable-29.3.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-29.3.0
+  protoc-gen-upbdefs-29.3.0: /usr/local/bin/protoc-gen-upbdefs-29.3.0
+  amrfinder_update: /usr/local/bin/amrfinder_update
+  dna_mutation: /usr/local/bin/dna_mutation
+  fasta2parts: /usr/local/bin/fasta2parts
+  amr_report: /usr/local/bin/amr_report
+  amrfinder: /usr/local/bin/amrfinder
+  fasta_extract: /usr/local/bin/fasta_extract
+  gff_check: /usr/local/bin/gff_check
+  fasta_check: /usr/local/bin/fasta_check
+  pyrodigal: /usr/local/bin/pyrodigal
+  archspec: /usr/local/bin/archspec
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
