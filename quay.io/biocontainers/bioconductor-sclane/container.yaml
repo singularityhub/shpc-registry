@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-sclane
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-sclane
 latest:
-  1.0.0--r45ha27e39d_0: 
-    sha256:0331225625135b8b765b24544dfc5d1dd51d063290ecba9c0f8754c497f20da9
+  1.0.4--r45h55fe1e3_0: 
+    sha256:ccbde697e0b4cfd28315900a2a33001f43b5136c99684345221a6cc47436fdcb
 tags:
   1.0.0--r45ha27e39d_0: 
     sha256:0331225625135b8b765b24544dfc5d1dd51d063290ecba9c0f8754c497f20da9
+  1.0.4--r45h55fe1e3_0: 
+    sha256:ccbde697e0b4cfd28315900a2a33001f43b5136c99684345221a6cc47436fdcb
 docker: quay.io/biocontainers/bioconductor-sclane
 aliases:
   hb-raster: /usr/local/bin/hb-raster

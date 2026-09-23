@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scran
 latest:
-  1.38.0--r45ha27e39d_0: 
-    sha256:4977b6257b22a3dfe61a1e8bc403f2b228abc44aaf1cd0b3c613521a4daa228d
+  1.38.1--r45h55fe1e3_0: 
+    sha256:492e888d021b13b24c8e69127f184333e740ae89d4e15b989c17a1c55b210b15
 tags:
   1.8.4--r351hfc679d8_0: 
     sha256:d24f0b4cd58aa2803d03a0a6982f8767933c357e3984203f3f53bfd4272e9c5c
@@ -32,6 +32,8 @@ tags:
     sha256:7cd4d70901568cacfae7be655fac449dadf901ea59543349435eb2577d354650
   1.38.0--r45ha27e39d_0: 
     sha256:4977b6257b22a3dfe61a1e8bc403f2b228abc44aaf1cd0b3c613521a4daa228d
+  1.38.1--r45h55fe1e3_0: 
+    sha256:492e888d021b13b24c8e69127f184333e740ae89d4e15b989c17a1c55b210b15
 docker: quay.io/biocontainers/bioconductor-scran
 aliases:
   wget: /usr/local/bin/wget
