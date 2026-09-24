@@ -1,14 +1,14 @@
 docker: nvcr.io/nvidia-hpcvis/paraview
 latest:
-  egl-5.6.0rc3: 'crane digest nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3: DENIED:
-    Access Denied'
+  egl-5.6.0rc3: 'crane digest nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3: UNAUTHORIZED:
+    authentication required; [map[Action:pull Class: Name:nvidia-hpcvis/paraview Type:repository]]'
 tags:
-  egl-py3-5.9.0: 'crane digest nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.9.0: DENIED:
-    Access Denied'
-  egl-5.6.0rc3: 'crane digest nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3: DENIED:
-    Access Denied'
-  egl-py3-5.11.0: 'crane digest nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.11.0: DENIED:
-    Access Denied'
+  egl-py3-5.9.0: 'crane digest nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.9.0: UNAUTHORIZED:
+    authentication required; [map[Action:pull Class: Name:nvidia-hpcvis/paraview Type:repository]]'
+  egl-5.6.0rc3: 'crane digest nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3: UNAUTHORIZED:
+    authentication required; [map[Action:pull Class: Name:nvidia-hpcvis/paraview Type:repository]]'
+  egl-py3-5.11.0: 'crane digest nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.11.0: UNAUTHORIZED:
+    authentication required; [map[Action:pull Class: Name:nvidia-hpcvis/paraview Type:repository]]'
 filter:
 - egl*
 maintainer: '@vsoch'

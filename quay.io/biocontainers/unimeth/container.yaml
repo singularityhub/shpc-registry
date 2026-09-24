@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/unimeth
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for unimeth
 latest:
-  0.2.2--pyhdfd78af_0: 
-    sha256:e69d969622fbce2be451e4efb9ffe47d90e0d078c6df16fd009a61dbd8c7bd41
+  0.3.1--pyhdfd78af_0: 
+    sha256:2abb097c3ea2eced1f5953291b0589dc96dee5747a06d10b2c2dce1244e68847
 tags:
   0.2.1--pyhdfd78af_0: 
     sha256:5cc6398ff51dea28c008c3310224d0982ead6450ece70e5e74413541ae3a2769
   0.2.2--pyhdfd78af_0: 
     sha256:e69d969622fbce2be451e4efb9ffe47d90e0d078c6df16fd009a61dbd8c7bd41
+  0.3.1--pyhdfd78af_0: 
+    sha256:2abb097c3ea2eced1f5953291b0589dc96dee5747a06d10b2c2dce1244e68847
+  0.2.4--pyhdfd78af_0: 
+    sha256:70cd897bc298f6137e508f5f0bcc4ba42695711bb8fdb0713f37137c86348aeb
 docker: quay.io/biocontainers/unimeth
 aliases:
   accelerate: /usr/local/bin/accelerate
