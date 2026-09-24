@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nebulizer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nebulizer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nebulizer/container.yaml"
-updated_at: "2026-09-23 07:55:45.407855"
+updated_at: "2026-09-24 07:58:35.646959"
 latest: "0.7.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/nebulizer"
 aliases:

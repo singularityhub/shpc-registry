@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pubgator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pubgator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pubgator/container.yaml"
-updated_at: "2026-09-23 07:38:24.672182"
+updated_at: "2026-09-24 07:33:47.843871"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pubgator"
 aliases:

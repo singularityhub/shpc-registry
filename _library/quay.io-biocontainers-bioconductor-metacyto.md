@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metacyto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metacyto/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metacyto/container.yaml"
-updated_at: "2026-09-23 07:40:58.093884"
+updated_at: "2026-09-24 07:37:17.470745"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metacyto"
 aliases:

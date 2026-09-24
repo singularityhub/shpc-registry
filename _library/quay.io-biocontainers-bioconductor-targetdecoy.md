@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-targetdecoy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
-updated_at: "2026-09-23 08:01:53.630118"
+updated_at: "2026-09-24 08:07:52.030976"
 latest: "1.16.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetdecoy"
 aliases:

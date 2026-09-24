@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/spoars"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spoars/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spoars/container.yaml"
-updated_at: "2026-09-23 07:35:27.767856"
-latest: "0.1.3--hfa8f182_0"
+updated_at: "2026-09-24 07:29:38.307134"
+latest: "0.1.4--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/spoars"
 aliases:
  - "spoars"
 versions:
  - "0.1.3--hfa8f182_0"
+ - "0.1.4--hfa8f182_0"
 description: "singularity registry hpc automated addition for spoars"
-config: {"url": "https://biocontainers.pro/tools/spoars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spoars", "latest": {"0.1.3--hfa8f182_0": "sha256:a28347cccd80f24f4be8161ba8fef75842026f8f2ad7c22662b046212c24c90f"}, "tags": {"0.1.3--hfa8f182_0": "sha256:a28347cccd80f24f4be8161ba8fef75842026f8f2ad7c22662b046212c24c90f"}, "docker": "quay.io/biocontainers/spoars", "aliases": {"spoars": "/usr/local/bin/spoars"}}
+config: {"url": "https://biocontainers.pro/tools/spoars", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for spoars", "latest": {"0.1.4--hfa8f182_0": "sha256:ca2eb5707a7197556491c2fe25ee1ef6eb1f99c1c3f6ed12e56f0e6912d5cdbe"}, "tags": {"0.1.3--hfa8f182_0": "sha256:a28347cccd80f24f4be8161ba8fef75842026f8f2ad7c22662b046212c24c90f", "0.1.4--hfa8f182_0": "sha256:ca2eb5707a7197556491c2fe25ee1ef6eb1f99c1c3f6ed12e56f0e6912d5cdbe"}, "docker": "quay.io/biocontainers/spoars", "aliases": {"spoars": "/usr/local/bin/spoars"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spoars.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/spoars
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spoars:0.1.3--hfa8f182_0
+$ shpc install quay.io/biocontainers/spoars:0.1.4--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spoars/0.1.3--hfa8f182_0
-$ module help quay.io/biocontainers/spoars/0.1.3--hfa8f182_0
+$ module load quay.io/biocontainers/spoars/0.1.4--hfa8f182_0
+$ module help quay.io/biocontainers/spoars/0.1.4--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/container.yaml"
-updated_at: "2026-09-23 07:49:18.809656"
-latest: "0.0.2--hdfd78af_1"
+updated_at: "2026-09-24 07:49:08.784820"
+latest: "0.0.5--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-joinquantpepionswithproteins"
 aliases:
  - "lttng-gen-tp"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.0.1--hdfd78af_1"
  - "0.0.2--hdfd78af_1"
+ - "0.0.5--h774997f_0"
 description: "shpc-registry automated BioContainers addition for proteomiqon-joinquantpepionswithproteins"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-joinquantpepionswithproteins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-joinquantpepionswithproteins", "latest": {"0.0.2--hdfd78af_1": "sha256:ca57e95b0d02065521215cfb307c596430dfb8438996916247292cfbcf5ee2f9"}, "tags": {"0.0.1--hdfd78af_1": "sha256:ab87dbd5b9e39b2f378c6ae456b39a9e293c8fdfb1d47b26cc2d35aa6003f1d2", "0.0.2--hdfd78af_1": "sha256:ca57e95b0d02065521215cfb307c596430dfb8438996916247292cfbcf5ee2f9"}, "docker": "quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-joinquantpepionswithproteins": "/usr/local/bin/proteomiqon-joinquantpepionswithproteins"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-joinquantpepionswithproteins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-joinquantpepionswithproteins", "latest": {"0.0.5--h774997f_0": "sha256:5d813b6828b04328aee4d16ddf03fd5049928c30a28105da2d1e6eaeccab6207"}, "tags": {"0.0.1--hdfd78af_1": "sha256:ab87dbd5b9e39b2f378c6ae456b39a9e293c8fdfb1d47b26cc2d35aa6003f1d2", "0.0.2--hdfd78af_1": "sha256:ca57e95b0d02065521215cfb307c596430dfb8438996916247292cfbcf5ee2f9", "0.0.5--h774997f_0": "sha256:5d813b6828b04328aee4d16ddf03fd5049928c30a28105da2d1e6eaeccab6207"}, "docker": "quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-joinquantpepionswithproteins": "/usr/local/bin/proteomiqon-joinquantpepionswithproteins"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins:0.0.2--hdfd78af_1
+$ shpc install quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins:0.0.5--h774997f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/0.0.2--hdfd78af_1
-$ module help quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/0.0.2--hdfd78af_1
+$ module load quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/0.0.5--h774997f_0
+$ module help quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/0.0.5--h774997f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

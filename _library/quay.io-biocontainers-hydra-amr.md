@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hydra-amr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hydra-amr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hydra-amr/container.yaml"
-updated_at: "2026-09-23 08:01:23.453093"
+updated_at: "2026-09-24 08:07:07.095712"
 latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hydra-amr"
 aliases:

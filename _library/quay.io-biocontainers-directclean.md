@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/directclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/directclean/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/directclean/container.yaml"
-updated_at: "2026-09-23 07:54:37.068007"
+updated_at: "2026-09-24 07:56:55.688718"
 latest: "1.1.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/directclean"
 aliases:

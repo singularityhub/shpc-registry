@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapcaller/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapcaller/container.yaml"
-updated_at: "2026-09-23 07:49:14.915348"
+updated_at: "2026-09-24 07:49:03.015988"
 latest: "0.9.9.41--h13024bc_6"
 container_url: "https://biocontainers.pro/tools/mapcaller"
 aliases:

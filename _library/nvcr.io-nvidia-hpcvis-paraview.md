@@ -4,7 +4,7 @@ name:  "nvcr.io/nvidia-hpcvis/paraview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
-updated_at: "2026-09-23 07:30:32.836909"
+updated_at: "2026-09-24 07:23:10.882167"
 latest: "egl-5.6.0rc3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags"
 aliases:
@@ -18,7 +18,7 @@ versions:
  - "egl-5.6.0rc3"
  - "egl-py3-5.11.0"
 description: "ParaView is one of the most popular visualization software for analyzing HPC datasets."
-config: {"docker": "nvcr.io/nvidia-hpcvis/paraview", "latest": {"egl-5.6.0rc3": "crane digest nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3: DENIED: Access Denied"}, "tags": {"egl-py3-5.9.0": "crane digest nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.9.0: DENIED: Access Denied", "egl-5.6.0rc3": "crane digest nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3: DENIED: Access Denied", "egl-py3-5.11.0": "crane digest nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.11.0: DENIED: Access Denied"}, "filter": ["egl*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags", "description": "ParaView is one of the most popular visualization software for analyzing HPC datasets.", "aliases": {"pvdataserver": "/opt/paraview/bin/pvdataserver", "pvrenderserver": "/opt/paraview/bin/pvrenderserver", "pvbatch": "/opt/paraview/bin/pvbatch", "pypython": "/opt/paraview/bin/pvpython", "pvserver": "/opt/paraview/bin/pvserver"}, "features": {"gpu": true}}
+config: {"docker": "nvcr.io/nvidia-hpcvis/paraview", "latest": {"egl-5.6.0rc3": "crane digest nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia-hpcvis/paraview Type:repository]]"}, "tags": {"egl-py3-5.9.0": "crane digest nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.9.0: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia-hpcvis/paraview Type:repository]]", "egl-5.6.0rc3": "crane digest nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia-hpcvis/paraview Type:repository]]", "egl-py3-5.11.0": "crane digest nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.11.0: UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia-hpcvis/paraview Type:repository]]"}, "filter": ["egl*"], "maintainer": "@vsoch", "url": "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags", "description": "ParaView is one of the most popular visualization software for analyzing HPC datasets.", "aliases": {"pvdataserver": "/opt/paraview/bin/pvdataserver", "pvrenderserver": "/opt/paraview/bin/pvrenderserver", "pvbatch": "/opt/paraview/bin/pvbatch", "pypython": "/opt/paraview/bin/pvpython", "pvserver": "/opt/paraview/bin/pvserver"}, "features": {"gpu": true}}
 ---
 
 This module is a singularity container wrapper for nvcr.io/nvidia-hpcvis/paraview.

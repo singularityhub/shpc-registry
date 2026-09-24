@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transcov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transcov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transcov/container.yaml"
-updated_at: "2026-09-23 07:49:55.938021"
+updated_at: "2026-09-24 07:50:04.482644"
 latest: "1.1.3--py_0"
 container_url: "https://biocontainers.pro/tools/transcov"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mta10transcriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mta10transcriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mta10transcriptcluster.db/container.yaml"
-updated_at: "2026-09-23 08:07:53.424919"
+updated_at: "2026-09-24 08:16:13.176182"
 latest: "8.8.0--r45hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-mta10transcriptcluster.db"
 

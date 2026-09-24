@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sc3-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sc3-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sc3-scripts/container.yaml"
-updated_at: "2026-09-23 07:44:37.092809"
+updated_at: "2026-09-24 07:42:10.950035"
 latest: "0.0.3--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sc3-scripts"
 aliases:

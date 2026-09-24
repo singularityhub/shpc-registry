@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/obitools4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/obitools4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/obitools4/container.yaml"
-updated_at: "2026-09-23 07:47:03.485211"
+updated_at: "2026-09-24 07:45:45.864422"
 latest: "4.5.0--h93cc2b8_0"
 container_url: "https://biocontainers.pro/tools/obitools4"
 aliases:

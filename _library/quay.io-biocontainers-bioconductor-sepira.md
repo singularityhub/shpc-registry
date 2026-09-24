@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sepira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sepira/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sepira/container.yaml"
-updated_at: "2026-09-23 07:41:48.635087"
+updated_at: "2026-09-24 07:38:26.218323"
 latest: "1.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sepira"
 aliases:

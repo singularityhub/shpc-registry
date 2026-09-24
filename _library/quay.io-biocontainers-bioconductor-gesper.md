@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gesper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gesper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gesper/container.yaml"
-updated_at: "2026-09-23 08:06:40.763540"
+updated_at: "2026-09-24 08:14:34.721852"
 latest: "1.34.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gesper"
 

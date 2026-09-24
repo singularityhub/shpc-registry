@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomegraphs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomegraphs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomegraphs/container.yaml"
-updated_at: "2026-09-23 07:45:41.430259"
+updated_at: "2026-09-24 07:43:49.618813"
 latest: "1.46.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomegraphs"
 aliases:

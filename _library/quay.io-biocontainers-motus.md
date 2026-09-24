@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/motus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/motus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/motus/container.yaml"
-updated_at: "2026-09-23 07:54:21.394528"
+updated_at: "2026-09-24 07:56:32.931310"
 latest: "4.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/motus"
 aliases:

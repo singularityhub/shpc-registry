@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-johnsonkinasedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-johnsonkinasedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-johnsonkinasedata/container.yaml"
-updated_at: "2026-09-23 07:34:38.617851"
+updated_at: "2026-09-24 07:28:30.243949"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-johnsonkinasedata"
 aliases:

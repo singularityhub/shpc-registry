@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasclass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plasclass/container.yaml"
-updated_at: "2026-09-23 07:53:44.582893"
+updated_at: "2026-09-24 07:55:41.513740"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasclass"
 aliases:

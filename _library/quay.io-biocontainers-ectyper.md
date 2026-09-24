@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ectyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ectyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ectyper/container.yaml"
-updated_at: "2026-09-23 07:52:43.795654"
+updated_at: "2026-09-24 07:54:13.493014"
 latest: "2.0.0--pyhdfd78af_4"
 container_url: "https://biocontainers.pro/tools/ectyper"
 aliases:

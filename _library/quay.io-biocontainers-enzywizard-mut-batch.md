@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-mut-batch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-mut-batch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-mut-batch/container.yaml"
-updated_at: "2026-09-23 07:51:13.113566"
-latest: "1.0.2--pyhdfd78af_1"
+updated_at: "2026-09-24 07:51:57.880330"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-mut-batch"
 aliases:
  - "enzywizard-mut-batch"
@@ -51,8 +51,9 @@ aliases:
 versions:
  - "1.0.2--pyhdfd78af_0"
  - "1.0.2--pyhdfd78af_1"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-mut-batch"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-mut-batch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-mut-batch", "latest": {"1.0.2--pyhdfd78af_1": "sha256:e12c9d5d157271d1d5190f7ee43ea3f6d44a6c9e3076a63c92cb5cc030747c53"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:7e5d1f0a583ee46f711d42250920f916677c7411c535dfacd461cec215d98b86", "1.0.2--pyhdfd78af_1": "sha256:e12c9d5d157271d1d5190f7ee43ea3f6d44a6c9e3076a63c92cb5cc030747c53"}, "docker": "quay.io/biocontainers/enzywizard-mut-batch", "aliases": {"enzywizard-mut-batch": "/usr/local/bin/enzywizard-mut-batch", "evol": "/usr/local/bin/evol", "gemmi": "/usr/local/bin/gemmi", "mk_export.py": "/usr/local/bin/mk_export.py", "mk_prepare_ligand.py": "/usr/local/bin/mk_prepare_ligand.py", "mk_prepare_receptor.py": "/usr/local/bin/mk_prepare_receptor.py", "mkdssp": "/usr/local/bin/mkdssp", "msms": "/usr/local/bin/msms", "pdbfixer": "/usr/local/bin/pdbfixer", "prody": "/usr/local/bin/prody", "pyvol": "/usr/local/bin/pyvol", "rdhc": "/usr/local/bin/rdhc", "trimesh": "/usr/local/bin/trimesh", "vina": "/usr/local/bin/vina", "vina_split": "/usr/local/bin/vina_split", "fc-genconf": "/usr/local/bin/fc-genconf", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "idna": "/usr/local/bin/idna", "xxh3sum": "/usr/local/bin/xxh3sum", "cllayerinfo": "/usr/local/bin/cllayerinfo", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-mut-batch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-mut-batch", "latest": {"1.0.3--pyhdfd78af_0": "sha256:bc3a5b3ccda796976d6bbf6c30b8d3aef64906b1bc678a9b041872adc8408893"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:7e5d1f0a583ee46f711d42250920f916677c7411c535dfacd461cec215d98b86", "1.0.2--pyhdfd78af_1": "sha256:e12c9d5d157271d1d5190f7ee43ea3f6d44a6c9e3076a63c92cb5cc030747c53", "1.0.3--pyhdfd78af_0": "sha256:bc3a5b3ccda796976d6bbf6c30b8d3aef64906b1bc678a9b041872adc8408893"}, "docker": "quay.io/biocontainers/enzywizard-mut-batch", "aliases": {"enzywizard-mut-batch": "/usr/local/bin/enzywizard-mut-batch", "evol": "/usr/local/bin/evol", "gemmi": "/usr/local/bin/gemmi", "mk_export.py": "/usr/local/bin/mk_export.py", "mk_prepare_ligand.py": "/usr/local/bin/mk_prepare_ligand.py", "mk_prepare_receptor.py": "/usr/local/bin/mk_prepare_receptor.py", "mkdssp": "/usr/local/bin/mkdssp", "msms": "/usr/local/bin/msms", "pdbfixer": "/usr/local/bin/pdbfixer", "prody": "/usr/local/bin/prody", "pyvol": "/usr/local/bin/pyvol", "rdhc": "/usr/local/bin/rdhc", "trimesh": "/usr/local/bin/trimesh", "vina": "/usr/local/bin/vina", "vina_split": "/usr/local/bin/vina_split", "fc-genconf": "/usr/local/bin/fc-genconf", "protoc-28.3.0": "/usr/local/bin/protoc-28.3.0", "idna": "/usr/local/bin/idna", "xxh3sum": "/usr/local/bin/xxh3sum", "cllayerinfo": "/usr/local/bin/cllayerinfo", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-mut-batch.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/enzywizard-mut-batch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-mut-batch:1.0.2--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/enzywizard-mut-batch:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-mut-batch/1.0.2--pyhdfd78af_1
-$ module help quay.io/biocontainers/enzywizard-mut-batch/1.0.2--pyhdfd78af_1
+$ module load quay.io/biocontainers/enzywizard-mut-batch/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-mut-batch/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

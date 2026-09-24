@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/find_differential_primers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/find_differential_primers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/find_differential_primers/container.yaml"
-updated_at: "2026-09-23 08:01:58.287323"
+updated_at: "2026-09-24 08:07:59.010014"
 latest: "0.1.4--py_2"
 container_url: "https://biocontainers.pro/tools/find_differential_primers"
 aliases:
