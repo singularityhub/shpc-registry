@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/recode-h5ad
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for recode-h5ad
+latest:
+  0.1.2--pyhcca532d_0: 
+    sha256:695c2f44ad9ec520a16d4418d1fdff494b726c794fc582323865ccda34e05e0b
+tags:
+  0.1.2--pyhcca532d_0: 
+    sha256:695c2f44ad9ec520a16d4418d1fdff494b726c794fc582323865ccda34e05e0b
+docker: quay.io/biocontainers/recode-h5ad
+aliases:
+  recode_h5ad: /usr/local/bin/recode_h5ad
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  session-info2: /usr/local/bin/session-info2
+  session-info: /usr/local/bin/session-info
+  zarr: /usr/local/bin/zarr
+  dotenv: /usr/local/bin/dotenv
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  elasticurl: /usr/local/bin/elasticurl
+  natsort: /usr/local/bin/natsort
+  h5delete: /usr/local/bin/h5delete
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  h5fc: /usr/local/bin/h5fc
+  h5c++: /usr/local/bin/h5c++
+  numpy-config: /usr/local/bin/numpy-config
+  h5cc: /usr/local/bin/h5cc
+  h5clear: /usr/local/bin/h5clear
+  h5format_convert: /usr/local/bin/h5format_convert
+  h5watch: /usr/local/bin/h5watch
+  h5copy: /usr/local/bin/h5copy
+  h5debug: /usr/local/bin/h5debug
+  h5diff: /usr/local/bin/h5diff

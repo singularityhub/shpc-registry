@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/myers-batch
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for myers-batch
+latest:
+  1.0.1--py310h6813faf_0: 
+    sha256:3b08b39928c436e1777ad72147b26abce04aa7c6b28b253dc03120bdbf3fcd6b
+tags:
+  1.0.1--py310h6813faf_0: 
+    sha256:3b08b39928c436e1777ad72147b26abce04aa7c6b28b253dc03120bdbf3fcd6b
+docker: quay.io/biocontainers/myers-batch
+aliases:
+  2to3-3.10: /usr/local/bin/2to3-3.10
+  idle3.10: /usr/local/bin/idle3.10
+  pydoc3.10: /usr/local/bin/pydoc3.10
+  python3.10: /usr/local/bin/python3.10
+  python3.10-config: /usr/local/bin/python3.10-config
