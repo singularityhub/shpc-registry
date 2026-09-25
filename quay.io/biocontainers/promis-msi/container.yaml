@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/promis-msi
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for promis-msi
+latest:
+  0.2.0--pyhdfd78af_0: 
+    sha256:400baad8e3e899d16f0cee15a5956934030b0ae518adada73f86ca170750ff1b
+tags:
+  0.2.0--pyhdfd78af_0: 
+    sha256:400baad8e3e899d16f0cee15a5956934030b0ae518adada73f86ca170750ff1b
+docker: quay.io/biocontainers/promis-msi
+aliases:
+  promis: /usr/local/bin/promis
+  promis-find-ms-sites: /usr/local/bin/promis-find-ms-sites
+  phc: /usr/local/bin/phc
+  eido: /usr/local/bin/eido
+  rst2html: /usr/local/bin/rst2html
+  rst2html4: /usr/local/bin/rst2html4
+  rst2html5: /usr/local/bin/rst2html5
+  rst2latex: /usr/local/bin/rst2latex
+  rst2man: /usr/local/bin/rst2man
+  rst2odt: /usr/local/bin/rst2odt
+  rst2pseudoxml: /usr/local/bin/rst2pseudoxml
+  rst2s5: /usr/local/bin/rst2s5
+  rst2xetex: /usr/local/bin/rst2xetex
+  rst2xml: /usr/local/bin/rst2xml
+  idna: /usr/local/bin/idna
+  typer: /usr/local/bin/typer
+  yte: /usr/local/bin/yte
+  coloredlogs: /usr/local/bin/coloredlogs
+  pulptest: /usr/local/bin/pulptest
+  docutils: /usr/local/bin/docutils
+  snakemake: /usr/local/bin/snakemake
+  cbc: /usr/local/bin/cbc
+  clp: /usr/local/bin/clp
+  humanfriendly: /usr/local/bin/humanfriendly
+  jupyter-trust: /usr/local/bin/jupyter-trust
+  tabulate: /usr/local/bin/tabulate
+  jupyter: /usr/local/bin/jupyter

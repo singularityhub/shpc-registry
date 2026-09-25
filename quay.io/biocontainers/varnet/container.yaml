@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/varnet
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for varnet
+latest:
+  1.5.3--pyhdfd78af_0: 
+    sha256:8e38a1f5a72aec8c3fdcdb932c0660d65b306728376b9f3c3211b77f0ecef723
+tags:
+  1.5.3--pyhdfd78af_0: 
+    sha256:8e38a1f5a72aec8c3fdcdb932c0660d65b306728376b9f3c3211b77f0ecef723
+docker: quay.io/biocontainers/varnet
+aliases:
+  varnet-filter: /usr/local/bin/varnet-filter
+  varnet-predict: /usr/local/bin/varnet-predict
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  protoc-24.4.0: /usr/local/bin/protoc-24.4.0
+  flatc: /usr/local/bin/flatc
+  import_pb_to_tensorboard: /usr/local/bin/import_pb_to_tensorboard
+  estimator_ckpt_converter: /usr/local/bin/estimator_ckpt_converter
+  google-oauthlib-tool: /usr/local/bin/google-oauthlib-tool
+  idna: /usr/local/bin/idna
+  tf_upgrade_v2: /usr/local/bin/tf_upgrade_v2
+  toco_from_protos: /usr/local/bin/toco_from_protos
+  tflite_convert: /usr/local/bin/tflite_convert
+  saved_model_cli: /usr/local/bin/saved_model_cli
+  toco: /usr/local/bin/toco
+  h2benchmark: /usr/local/bin/h2benchmark
+  tensorboard: /usr/local/bin/tensorboard
+  checksum-profile: /usr/local/bin/checksum-profile
+  markdown_py: /usr/local/bin/markdown_py
+  pyrsa-decrypt: /usr/local/bin/pyrsa-decrypt
+  pyrsa-encrypt: /usr/local/bin/pyrsa-encrypt
+  pyrsa-keygen: /usr/local/bin/pyrsa-keygen
+  pyrsa-priv2pub: /usr/local/bin/pyrsa-priv2pub
+  pyrsa-sign: /usr/local/bin/pyrsa-sign
+  pyrsa-verify: /usr/local/bin/pyrsa-verify
+  elasticurl: /usr/local/bin/elasticurl
+  grpc_cpp_plugin: /usr/local/bin/grpc_cpp_plugin
+  grpc_csharp_plugin: /usr/local/bin/grpc_csharp_plugin
