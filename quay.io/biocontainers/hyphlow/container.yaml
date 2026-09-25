@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/hyphlow
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for hyphlow
 latest:
-  1.0.3--pyh106432d_0: 
-    sha256:ebf0bd352dd5b0a8110c247cba6ed3dec573007093c14c8d8af24eade4039ba5
+  1.0.8--pyhdfd78af_0: 
+    sha256:e5bdb01162cfbfc544517c1cac9cb3d6a2870c20c3fcd002821b7320d99f180b
 tags:
   1.0.3--pyh106432d_0: 
     sha256:ebf0bd352dd5b0a8110c247cba6ed3dec573007093c14c8d8af24eade4039ba5
+  1.0.8--pyhdfd78af_0: 
+    sha256:e5bdb01162cfbfc544517c1cac9cb3d6a2870c20c3fcd002821b7320d99f180b
 docker: quay.io/biocontainers/hyphlow
 aliases:
   HYPHYMPI: /usr/local/bin/HYPHYMPI

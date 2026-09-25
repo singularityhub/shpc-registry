@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/ploidypatch
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ploidypatch
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:c212d082bb80dacfd6c2c9da7a7dd74a8fe14d0d3c7a075de6c08ec2d5283c49
+  1.0.1--pyhdfd78af_0: 
+    sha256:e7edbd0da4aadd0e329eade840a0856a9fcb85d03386d461aec4aeeff968cf5d
 tags:
   1.0.0--pyhdfd78af_0: 
     sha256:c212d082bb80dacfd6c2c9da7a7dd74a8fe14d0d3c7a075de6c08ec2d5283c49
+  1.0.1--pyhdfd78af_0: 
+    sha256:e7edbd0da4aadd0e329eade840a0856a9fcb85d03386d461aec4aeeff968cf5d
 docker: quay.io/biocontainers/ploidypatch
 aliases:
   ploidypatch: /usr/local/bin/ploidypatch

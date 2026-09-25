@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/metacontextify
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metacontextify
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:af797b47876da1d51715fc2825a30f97b805e659601d4c7c051a89861505ccff
+  0.2.0--pyhdfd78af_0: 
+    sha256:fcc382959818e31f650a8fc78de3d174f7bf04fe65970b9ba11de5b43e43c2a0
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:af797b47876da1d51715fc2825a30f97b805e659601d4c7c051a89861505ccff
+  0.2.0--pyhdfd78af_0: 
+    sha256:fcc382959818e31f650a8fc78de3d174f7bf04fe65970b9ba11de5b43e43c2a0
 docker: quay.io/biocontainers/metacontextify
 aliases:
   copernicusmarine: /usr/local/bin/copernicusmarine
