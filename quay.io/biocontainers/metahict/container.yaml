@@ -1,0 +1,40 @@
+url: https://biocontainers.pro/tools/metahict
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metahict
+latest:
+  1.2.0--py314hdfd78af_0: 
+    sha256:bbb78916d5d64f8aa3a6d37a5936fcdf13099688dd56be2c6ff00ff72592e13e
+tags:
+  1.2.0--py314hdfd78af_0: 
+    sha256:bbb78916d5d64f8aa3a6d37a5936fcdf13099688dd56be2c6ff00ff72592e13e
+docker: quay.io/biocontainers/metahict
+aliases:
+  menuinst: /usr/local/bin/menuinst
+  metahict: /usr/local/bin/metahict
+  metahict-nextflow: /usr/local/bin/metahict-nextflow
+  unearth: /usr/local/bin/unearth
+  pyproject-build: /usr/local/bin/pyproject-build
+  python-build: /usr/local/bin/python-build
+  distro: /usr/local/bin/distro
+  scalar: /usr/local/bin/scalar
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  nextflow: /usr/local/bin/nextflow
+  bash: /usr/local/bin/bash
+  bashbug: /usr/local/bin/bashbug
+  mamba-package: /usr/local/bin/mamba-package
+  jnativescan: /usr/local/bin/jnativescan
+  conda2solv: /usr/local/bin/conda2solv
+  dumpsolv: /usr/local/bin/dumpsolv
+  installcheck: /usr/local/bin/installcheck
+  mergesolv: /usr/local/bin/mergesolv
+  repo2solv: /usr/local/bin/repo2solv
+  testsolv: /usr/local/bin/testsolv
+  git: /usr/local/bin/git
+  git-cvsserver: /usr/local/bin/git-cvsserver
+  git-receive-pack: /usr/local/bin/git-receive-pack
+  git-shell: /usr/local/bin/git-shell
+  git-upload-archive: /usr/local/bin/git-upload-archive
+  git-upload-pack: /usr/local/bin/git-upload-pack
+  gitk: /usr/local/bin/gitk
+  cph: /usr/local/bin/cph
+  archspec: /usr/local/bin/archspec

@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/losat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for losat
+latest:
+  0.1.0--hfa8f182_0: 
+    sha256:96f096610fae7d2312ab0a2bc864a66bf4db1eadeb0efdeeed848a65ea96731d
+tags:
+  0.1.0--hfa8f182_0: 
+    sha256:96f096610fae7d2312ab0a2bc864a66bf4db1eadeb0efdeeed848a65ea96731d
+docker: quay.io/biocontainers/losat
+aliases:
+  losat: /usr/local/bin/losat
