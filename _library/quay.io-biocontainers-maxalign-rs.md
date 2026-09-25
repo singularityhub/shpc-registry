@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/maxalign-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxalign-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/maxalign-rs/container.yaml"
-updated_at: "2026-09-24 08:04:24.894428"
+updated_at: "2026-09-25 07:38:33.672713"
 latest: "0.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/maxalign-rs"
 aliases:

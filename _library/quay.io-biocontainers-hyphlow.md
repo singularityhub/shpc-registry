@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hyphlow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyphlow/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hyphlow/container.yaml"
-updated_at: "2026-09-24 07:37:55.798625"
-latest: "1.0.3--pyh106432d_0"
+updated_at: "2026-09-25 08:05:44.004073"
+latest: "1.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hyphlow"
 aliases:
  - "HYPHYMPI"
@@ -40,8 +40,9 @@ aliases:
  - "lupdate-pro"
 versions:
  - "1.0.3--pyh106432d_0"
+ - "1.0.8--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for hyphlow"
-config: {"url": "https://biocontainers.pro/tools/hyphlow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hyphlow", "latest": {"1.0.3--pyh106432d_0": "sha256:ebf0bd352dd5b0a8110c247cba6ed3dec573007093c14c8d8af24eade4039ba5"}, "tags": {"1.0.3--pyh106432d_0": "sha256:ebf0bd352dd5b0a8110c247cba6ed3dec573007093c14c8d8af24eade4039ba5"}, "docker": "quay.io/biocontainers/hyphlow", "aliases": {"HYPHYMPI": "/usr/local/bin/HYPHYMPI", "hyphlow": "/usr/local/bin/hyphlow", "hyphy": "/usr/local/bin/hyphy", "qta-browser": "/usr/local/bin/qta-browser", "qta-install-fonts-all-users": "/usr/local/bin/qta-install-fonts-all-users", "qtpy": "/usr/local/bin/qtpy", "pax11publish": "/usr/local/bin/pax11publish", "vba_extract.py": "/usr/local/bin/vba_extract.py", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "fc-genconf": "/usr/local/bin/fc-genconf", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro"}}
+config: {"url": "https://biocontainers.pro/tools/hyphlow", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for hyphlow", "latest": {"1.0.8--pyhdfd78af_0": "sha256:e5bdb01162cfbfc544517c1cac9cb3d6a2870c20c3fcd002821b7320d99f180b"}, "tags": {"1.0.3--pyh106432d_0": "sha256:ebf0bd352dd5b0a8110c247cba6ed3dec573007093c14c8d8af24eade4039ba5", "1.0.8--pyhdfd78af_0": "sha256:e5bdb01162cfbfc544517c1cac9cb3d6a2870c20c3fcd002821b7320d99f180b"}, "docker": "quay.io/biocontainers/hyphlow", "aliases": {"HYPHYMPI": "/usr/local/bin/HYPHYMPI", "hyphlow": "/usr/local/bin/hyphlow", "hyphy": "/usr/local/bin/hyphy", "qta-browser": "/usr/local/bin/qta-browser", "qta-install-fonts-all-users": "/usr/local/bin/qta-install-fonts-all-users", "qtpy": "/usr/local/bin/qtpy", "pax11publish": "/usr/local/bin/pax11publish", "vba_extract.py": "/usr/local/bin/vba_extract.py", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "fc-genconf": "/usr/local/bin/fc-genconf", "balsam": "/usr/local/bin/balsam", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hyphlow.
@@ -56,7 +57,7 @@ $ shpc install quay.io/biocontainers/hyphlow
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hyphlow:1.0.3--pyh106432d_0
+$ shpc install quay.io/biocontainers/hyphlow:1.0.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +69,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hyphlow/1.0.3--pyh106432d_0
-$ module help quay.io/biocontainers/hyphlow/1.0.3--pyh106432d_0
+$ module load quay.io/biocontainers/hyphlow/1.0.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/hyphlow/1.0.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

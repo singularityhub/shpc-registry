@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metacontextify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacontextify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacontextify/container.yaml"
-updated_at: "2026-09-24 07:54:21.432353"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-09-25 07:27:58.170160"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metacontextify"
 aliases:
  - "copernicusmarine"
@@ -38,8 +38,9 @@ aliases:
  - "elasticurl_cpp"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metacontextify"
-config: {"url": "https://biocontainers.pro/tools/metacontextify", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacontextify", "latest": {"0.1.0--pyhdfd78af_0": "sha256:af797b47876da1d51715fc2825a30f97b805e659601d4c7c051a89861505ccff"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:af797b47876da1d51715fc2825a30f97b805e659601d4c7c051a89861505ccff"}, "docker": "quay.io/biocontainers/metacontextify", "aliases": {"copernicusmarine": "/usr/local/bin/copernicusmarine", "metacontextify": "/usr/local/bin/metacontextify", "pysemver": "/usr/local/bin/pysemver", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "zarr": "/usr/local/bin/zarr", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "dask": "/usr/local/bin/dask", "typer": "/usr/local/bin/typer", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "jp.py": "/usr/local/bin/jp.py", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp"}}
+config: {"url": "https://biocontainers.pro/tools/metacontextify", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacontextify", "latest": {"0.2.0--pyhdfd78af_0": "sha256:fcc382959818e31f650a8fc78de3d174f7bf04fe65970b9ba11de5b43e43c2a0"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:af797b47876da1d51715fc2825a30f97b805e659601d4c7c051a89861505ccff", "0.2.0--pyhdfd78af_0": "sha256:fcc382959818e31f650a8fc78de3d174f7bf04fe65970b9ba11de5b43e43c2a0"}, "docker": "quay.io/biocontainers/metacontextify", "aliases": {"copernicusmarine": "/usr/local/bin/copernicusmarine", "metacontextify": "/usr/local/bin/metacontextify", "pysemver": "/usr/local/bin/pysemver", "nc3tonc4": "/usr/local/bin/nc3tonc4", "nc4tonc3": "/usr/local/bin/nc4tonc3", "ncinfo": "/usr/local/bin/ncinfo", "zarr": "/usr/local/bin/zarr", "protoc-33.5.0": "/usr/local/bin/protoc-33.5.0", "protoc-gen-upb-33.5.0": "/usr/local/bin/protoc-gen-upb-33.5.0", "protoc-gen-upb_minitable-33.5.0": "/usr/local/bin/protoc-gen-upb_minitable-33.5.0", "protoc-gen-upbdefs-33.5.0": "/usr/local/bin/protoc-gen-upbdefs-33.5.0", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "h2benchmark": "/usr/local/bin/h2benchmark", "dask": "/usr/local/bin/dask", "typer": "/usr/local/bin/typer", "elastishadow": "/usr/local/bin/elastishadow", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "jp.py": "/usr/local/bin/jp.py", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metacontextify.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/metacontextify
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metacontextify:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metacontextify:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metacontextify/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/metacontextify/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/metacontextify/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/metacontextify/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

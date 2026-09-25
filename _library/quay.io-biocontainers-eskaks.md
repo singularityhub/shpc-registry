@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eskaks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eskaks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eskaks/container.yaml"
-updated_at: "2026-09-24 07:26:45.912653"
+updated_at: "2026-09-25 08:00:38.393747"
 latest: "0.1.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/eskaks"
 aliases:

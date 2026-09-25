@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-interaction"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-interaction/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-interaction/container.yaml"
-updated_at: "2026-09-24 07:44:31.686636"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-25 08:05:35.903959"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-interaction"
 aliases:
  - "enzywizard-interaction"
@@ -37,8 +37,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-interaction"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-interaction", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-interaction", "latest": {"1.0.2--pyhdfd78af_0": "sha256:2fe8acb2cb55a474b35e8b0523759bc92068aa9f077f728620cb23da7c771754"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:2fe8acb2cb55a474b35e8b0523759bc92068aa9f077f728620cb23da7c771754"}, "docker": "quay.io/biocontainers/enzywizard-interaction", "aliases": {"enzywizard-interaction": "/usr/local/bin/enzywizard-interaction", "rdhc": "/usr/local/bin/rdhc", "fc-genconf": "/usr/local/bin/fc-genconf", "cllayerinfo": "/usr/local/bin/cllayerinfo", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "pg_config": "/usr/local/bin/pg_config", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-interaction", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-interaction", "latest": {"1.0.3--pyhdfd78af_0": "sha256:b8908aae349a56fcd5beaa959c77471be300b810130444ba0fafe8d2fdc41a29"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:2fe8acb2cb55a474b35e8b0523759bc92068aa9f077f728620cb23da7c771754", "1.0.3--pyhdfd78af_0": "sha256:b8908aae349a56fcd5beaa959c77471be300b810130444ba0fafe8d2fdc41a29"}, "docker": "quay.io/biocontainers/enzywizard-interaction", "aliases": {"enzywizard-interaction": "/usr/local/bin/enzywizard-interaction", "rdhc": "/usr/local/bin/rdhc", "fc-genconf": "/usr/local/bin/fc-genconf", "cllayerinfo": "/usr/local/bin/cllayerinfo", "ldapadd": "/usr/local/bin/ldapadd", "ldapcompare": "/usr/local/bin/ldapcompare", "ldapdelete": "/usr/local/bin/ldapdelete", "ldapexop": "/usr/local/bin/ldapexop", "ldapmodify": "/usr/local/bin/ldapmodify", "ldapmodrdn": "/usr/local/bin/ldapmodrdn", "ldappasswd": "/usr/local/bin/ldappasswd", "ldapsearch": "/usr/local/bin/ldapsearch", "ldapurl": "/usr/local/bin/ldapurl", "ldapvc": "/usr/local/bin/ldapvc", "ldapwhoami": "/usr/local/bin/ldapwhoami", "pg_config": "/usr/local/bin/pg_config", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-interaction.
@@ -53,7 +54,7 @@ $ shpc install quay.io/biocontainers/enzywizard-interaction
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-interaction:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-interaction:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -65,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-interaction/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-interaction/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-interaction/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-interaction/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genotopep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genotopep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genotopep/container.yaml"
-updated_at: "2026-09-24 07:28:22.189655"
-latest: "0.1.0.1--pyhdfd78af_0"
+updated_at: "2026-09-25 08:08:18.552182"
+latest: "0.2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genotopep"
 aliases:
  - "genotopep"
@@ -17,8 +17,9 @@ aliases:
  - "python3.13-config"
 versions:
  - "0.1.0.1--pyhdfd78af_0"
+ - "0.2.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for genotopep"
-config: {"url": "https://biocontainers.pro/tools/genotopep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genotopep", "latest": {"0.1.0.1--pyhdfd78af_0": "sha256:5518ba034dea61e08e85e460b429e56f3d1444a07f088387d6e75c2701998020"}, "tags": {"0.1.0.1--pyhdfd78af_0": "sha256:5518ba034dea61e08e85e460b429e56f3d1444a07f088387d6e75c2701998020"}, "docker": "quay.io/biocontainers/genotopep", "aliases": {"genotopep": "/usr/local/bin/genotopep", "pyrodigal": "/usr/local/bin/pyrodigal", "archspec": "/usr/local/bin/archspec", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
+config: {"url": "https://biocontainers.pro/tools/genotopep", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for genotopep", "latest": {"0.2.0.1--pyhdfd78af_0": "sha256:4ba83d0bfb0e6a6a2aa9ae6e796e31141f52dc4cb81eb5712bc91a4a7ca95682"}, "tags": {"0.1.0.1--pyhdfd78af_0": "sha256:5518ba034dea61e08e85e460b429e56f3d1444a07f088387d6e75c2701998020", "0.2.0.1--pyhdfd78af_0": "sha256:4ba83d0bfb0e6a6a2aa9ae6e796e31141f52dc4cb81eb5712bc91a4a7ca95682"}, "docker": "quay.io/biocontainers/genotopep", "aliases": {"genotopep": "/usr/local/bin/genotopep", "pyrodigal": "/usr/local/bin/pyrodigal", "archspec": "/usr/local/bin/archspec", "idle3.13": "/usr/local/bin/idle3.13", "pydoc3.13": "/usr/local/bin/pydoc3.13", "python3.13": "/usr/local/bin/python3.13", "python3.13-config": "/usr/local/bin/python3.13-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genotopep.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/genotopep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genotopep:0.1.0.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/genotopep:0.2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genotopep/0.1.0.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/genotopep/0.1.0.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/genotopep/0.2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/genotopep/0.2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

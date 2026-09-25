@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ploidypatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ploidypatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ploidypatch/container.yaml"
-updated_at: "2026-09-24 08:10:43.210159"
-latest: "1.0.0--pyhdfd78af_0"
+updated_at: "2026-09-25 07:23:09.503163"
+latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ploidypatch"
 aliases:
  - "ploidypatch"
@@ -15,8 +15,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "1.0.0--pyhdfd78af_0"
+ - "1.0.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for ploidypatch"
-config: {"url": "https://biocontainers.pro/tools/ploidypatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ploidypatch", "latest": {"1.0.0--pyhdfd78af_0": "sha256:c212d082bb80dacfd6c2c9da7a7dd74a8fe14d0d3c7a075de6c08ec2d5283c49"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:c212d082bb80dacfd6c2c9da7a7dd74a8fe14d0d3c7a075de6c08ec2d5283c49"}, "docker": "quay.io/biocontainers/ploidypatch", "aliases": {"ploidypatch": "/usr/local/bin/ploidypatch", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/ploidypatch", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for ploidypatch", "latest": {"1.0.1--pyhdfd78af_0": "sha256:e7edbd0da4aadd0e329eade840a0856a9fcb85d03386d461aec4aeeff968cf5d"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:c212d082bb80dacfd6c2c9da7a7dd74a8fe14d0d3c7a075de6c08ec2d5283c49", "1.0.1--pyhdfd78af_0": "sha256:e7edbd0da4aadd0e329eade840a0856a9fcb85d03386d461aec4aeeff968cf5d"}, "docker": "quay.io/biocontainers/ploidypatch", "aliases": {"ploidypatch": "/usr/local/bin/ploidypatch", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ploidypatch.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/ploidypatch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ploidypatch:1.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/ploidypatch:1.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ploidypatch/1.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/ploidypatch/1.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/ploidypatch/1.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/ploidypatch/1.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

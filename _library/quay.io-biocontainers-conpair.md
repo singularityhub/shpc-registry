@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/conpair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/conpair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/conpair/container.yaml"
-updated_at: "2026-09-24 08:02:59.109840"
+updated_at: "2026-09-25 08:10:55.957196"
 latest: "0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/conpair"
 aliases:

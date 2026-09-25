@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/container.yaml"
-updated_at: "2026-09-24 07:49:08.784820"
+updated_at: "2026-09-25 08:02:03.165953"
 latest: "0.0.5--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-joinquantpepionswithproteins"
 aliases:
