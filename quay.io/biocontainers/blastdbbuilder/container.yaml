@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/blastdbbuilder
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for blastdbbuilder
 latest:
-  1.1.0--pyhdfd78af_0: 
-    sha256:159dca367fc11764ef8668187dc60d5dc3512cd85e9c424d5a842e1a7da40ba6
+  1.2.0--pyhdfd78af_0: 
+    sha256:4096b09820f00b0fb17548f9c29d273b196ddcac45ec91be080d33a27e12f0e2
 tags:
   1.1.0--pyhdfd78af_0: 
     sha256:159dca367fc11764ef8668187dc60d5dc3512cd85e9c424d5a842e1a7da40ba6
+  1.2.0--pyhdfd78af_0: 
+    sha256:4096b09820f00b0fb17548f9c29d273b196ddcac45ec91be080d33a27e12f0e2
 docker: quay.io/biocontainers/blastdbbuilder
 aliases:
   blastdbbuilder: /usr/local/bin/blastdbbuilder

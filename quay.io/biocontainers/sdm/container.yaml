@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/sdm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for sdm
 latest:
-  3.37--hf426362_0: 
-    sha256:e18e0c4a1e742612f67fb01724abe12b4aed9e320b43f6a14e855d6c5f92eb3f
+  3.52--hf426362_0: 
+    sha256:ff1397ffe8f63288ffa0af2d21ae619b7958c5a68e639babea12f2a22c525c24
 tags:
   2.02--hd03093a_1: 
     sha256:0db36867d5ebc88fedb13104f0cd5fe18c7a4c03d0ee8ea02b6c014c6bb47743
@@ -45,6 +45,10 @@ tags:
     sha256:e18e0c4a1e742612f67fb01724abe12b4aed9e320b43f6a14e855d6c5f92eb3f
   3.36--hf426362_0: 
     sha256:654deb1bf6b9a7e87e28c4211083d79e89a1a07eb7f3b58e2e7063252d4bbb88
+  3.52--hf426362_0: 
+    sha256:ff1397ffe8f63288ffa0af2d21ae619b7958c5a68e639babea12f2a22c525c24
+  3.45--hf426362_0: 
+    sha256:f943ff6fc2bb6ca1c49847e76abc542639bd1902dd630c75f8666e812a4fa3a3
 docker: quay.io/biocontainers/sdm
 aliases:
   sdm: /usr/local/bin/sdm

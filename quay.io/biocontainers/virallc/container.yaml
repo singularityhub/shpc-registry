@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/virallc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for virallc
 latest:
-  1.1.5--pyh106432d_0: 
-    sha256:83d7945b501c199bac5803aca070333c5c6736193a53111b415b6a1158528204
+  1.1.5--pyh106432d_1: 
+    sha256:452831de1e96950d12b71858e20bae42a1bacd712a4d753c9e6d68e9ef5f161c
 tags:
   1.1.5--pyh106432d_0: 
     sha256:83d7945b501c199bac5803aca070333c5c6736193a53111b415b6a1158528204
+  1.1.5--pyh106432d_1: 
+    sha256:452831de1e96950d12b71858e20bae42a1bacd712a4d753c9e6d68e9ef5f161c
 docker: quay.io/biocontainers/virallc
 aliases:
   alnPairDist: /usr/local/bin/alnPairDist

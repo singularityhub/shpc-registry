@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   perl-template-toolkit
 latest:
-  3.103--pl5321hab16a5f_0: 
-    sha256:e2903c9e3db4cf51949b35a1ada5d2a7c4927a952c4b511d30aa9ad7e2284354
+  3.106--pl5321hab16a5f_0: 
+    sha256:7eb7e18bd6eb6cf9ae3d40542020bfe3b75fb4280ab62162522778013247e5d7
 tags:
   3.100--pl5321hec16e2b_1: 
     sha256:f5424fe22b4d38393532e47778ad65dd06f776b2aa8d6bd0978a0b5b26ec11e4
@@ -16,6 +16,8 @@ tags:
     sha256:d383b02521a84ca1833d540391189076463d8864040a3a02214867bb748fd8a3
   3.103--pl5321hab16a5f_0: 
     sha256:e2903c9e3db4cf51949b35a1ada5d2a7c4927a952c4b511d30aa9ad7e2284354
+  3.106--pl5321hab16a5f_0: 
+    sha256:7eb7e18bd6eb6cf9ae3d40542020bfe3b75fb4280ab62162522778013247e5d7
 docker: quay.io/biocontainers/perl-template-toolkit
 aliases:
   imgsize: /usr/local/bin/imgsize

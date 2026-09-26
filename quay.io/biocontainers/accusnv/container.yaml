@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/accusnv
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for accusnv
 latest:
-  1.0.0.5--pyhdfd78af_0: 
-    sha256:c1637f6c3788efcc708eba6f95fd8129b62110627bc028d3da896efee1cbee72
+  1.1.1--pyhdfd78af_0: 
+    sha256:5633f0fae3162ed626dfc714c8c5ca5929d6680027429820fe770a13a5e22f14
 tags:
   1.0.0.3--pyhdfd78af_0: 
     sha256:1a3e82f198e4ad82616542dee1cbeea4767431ad6e3bd3b558cc9666f06ef793
   1.0.0.5--pyhdfd78af_0: 
     sha256:c1637f6c3788efcc708eba6f95fd8129b62110627bc028d3da896efee1cbee72
+  1.1.1--pyhdfd78af_0: 
+    sha256:5633f0fae3162ed626dfc714c8c5ca5929d6680027429820fe770a13a5e22f14
 docker: quay.io/biocontainers/accusnv
 aliases:
   accusnv: /usr/local/bin/accusnv

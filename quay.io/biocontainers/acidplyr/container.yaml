@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/acidplyr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for acidplyr
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:fac1656c506b66c2e71f64e586c808588b2555b6959bcaf4107c9107a557c702
+  0.1.1--pyhdfd78af_0: 
+    sha256:e2cbb537929e8fdeb096624eb7f1823c33f1b6754ea776311c15449726a89fcf
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:fac1656c506b66c2e71f64e586c808588b2555b6959bcaf4107c9107a557c702
+  0.1.1--pyhdfd78af_0: 
+    sha256:e2cbb537929e8fdeb096624eb7f1823c33f1b6754ea776311c15449726a89fcf
 docker: quay.io/biocontainers/acidplyr
 aliases:
   idle3.14: /usr/local/bin/idle3.14

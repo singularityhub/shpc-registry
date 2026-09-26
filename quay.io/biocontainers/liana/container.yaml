@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/liana
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for liana
 latest:
-  1.8.1--pyhdfd78af_1: 
-    sha256:4a41c32ee12350de348cea50196a3a13a4bc9c25304f1b348d3ffe1275fa43e5
+  2.0.0--pyhdfd78af_0: 
+    sha256:894cc627f8f49c80ad6416f764172ea1e536a0a4f62f39f38a6f8476407b9bad
 tags:
   1.4.0--pyhdfd78af_0: 
     sha256:e1a4c873070e4320384a2649fb9c267cf7d5c3fe1c0e846ec8acf984fedc6a89
@@ -21,6 +21,10 @@ tags:
     sha256:3d437efc92c208d85f710814aed74b334b8a34dbb236637da6529085bb888e13
   1.8.1--pyhdfd78af_1: 
     sha256:4a41c32ee12350de348cea50196a3a13a4bc9c25304f1b348d3ffe1275fa43e5
+  2.0.0--pyhdfd78af_0: 
+    sha256:894cc627f8f49c80ad6416f764172ea1e536a0a4f62f39f38a6f8476407b9bad
+  1.10.0--pyhdfd78af_0: 
+    sha256:697e5958e868d7abb67563686c3db51e87cbf1fe80a2600685f6f20d05ea966f
 docker: quay.io/biocontainers/liana
 aliases:
   debugpy: /usr/local/bin/debugpy
