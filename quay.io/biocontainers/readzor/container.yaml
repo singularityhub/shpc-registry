@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/readzor
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for readzor
+latest:
+  0.1.20--pyh106432d_0: 
+    sha256:654d6f4824bdc9b814e93ed6fb801dcff7f01ebc7490333819d04494ace5cce5
+tags:
+  0.1.20--pyh106432d_0: 
+    sha256:654d6f4824bdc9b814e93ed6fb801dcff7f01ebc7490333819d04494ace5cce5
+docker: quay.io/biocontainers/readzor
+aliases:
+  Readzor: /usr/local/bin/Readzor
+  readzor: /usr/local/bin/readzor
+  igzip: /usr/local/bin/igzip
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

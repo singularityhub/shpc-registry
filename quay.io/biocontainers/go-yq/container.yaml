@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/go-yq
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for go-yq
+latest:
+  4.53.3: 
+    sha256:dba83f7a07334203210d6ee8da5974d7eb5c9e0ffc8e4507e6b013b14c8cf61b
+tags:
+  4.53.3: 
+    sha256:dba83f7a07334203210d6ee8da5974d7eb5c9e0ffc8e4507e6b013b14c8cf61b
+docker: quay.io/biocontainers/go-yq
+aliases:
+  yq: /usr/local/bin/yq
