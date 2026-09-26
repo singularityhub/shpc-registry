@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/papa2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/papa2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/papa2/container.yaml"
-updated_at: "2026-09-25 07:53:17.153238"
-latest: "0.1.0--py310h6eed86a_0"
+updated_at: "2026-09-26 07:41:31.813325"
+latest: "1.0.1--py313h1da1f56_0"
 container_url: "https://biocontainers.pro/tools/papa2"
 aliases:
  - "papa2"
@@ -18,8 +18,9 @@ aliases:
 versions:
  - "0.1.0--py310h6eed86a_0"
  - "0.1.0--py312h935fe5f_0"
+ - "1.0.1--py313h1da1f56_0"
 description: "singularity registry hpc automated addition for papa2"
-config: {"url": "https://biocontainers.pro/tools/papa2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for papa2", "latest": {"0.1.0--py310h6eed86a_0": "sha256:b182283e5d4dbe7bfb0f8056f30d5e547285e3b3b1a7ce2dbcadc0a210dc9776"}, "tags": {"0.1.0--py310h6eed86a_0": "sha256:b182283e5d4dbe7bfb0f8056f30d5e547285e3b3b1a7ce2dbcadc0a210dc9776", "0.1.0--py312h935fe5f_0": "sha256:df36a842e4120760fe9c5ae0bafac47a699d11487b9fdf053659a6a63f03bf4a"}, "docker": "quay.io/biocontainers/papa2", "aliases": {"papa2": "/usr/local/bin/papa2", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/papa2", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for papa2", "latest": {"1.0.1--py313h1da1f56_0": "sha256:8ab353e76ab688e140e066993629214727a22436c37e35499de2aa42ddeb7972"}, "tags": {"0.1.0--py310h6eed86a_0": "sha256:b182283e5d4dbe7bfb0f8056f30d5e547285e3b3b1a7ce2dbcadc0a210dc9776", "0.1.0--py312h935fe5f_0": "sha256:df36a842e4120760fe9c5ae0bafac47a699d11487b9fdf053659a6a63f03bf4a", "1.0.1--py313h1da1f56_0": "sha256:8ab353e76ab688e140e066993629214727a22436c37e35499de2aa42ddeb7972"}, "docker": "quay.io/biocontainers/papa2", "aliases": {"papa2": "/usr/local/bin/papa2", "numpy-config": "/usr/local/bin/numpy-config", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/papa2.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/papa2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/papa2:0.1.0--py310h6eed86a_0
+$ shpc install quay.io/biocontainers/papa2:1.0.1--py313h1da1f56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/papa2/0.1.0--py310h6eed86a_0
-$ module help quay.io/biocontainers/papa2/0.1.0--py310h6eed86a_0
+$ module load quay.io/biocontainers/papa2/1.0.1--py313h1da1f56_0
+$ module help quay.io/biocontainers/papa2/1.0.1--py313h1da1f56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

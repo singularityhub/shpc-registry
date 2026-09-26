@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pan_te"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pan_te/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pan_te/container.yaml"
-updated_at: "2026-09-25 07:50:31.677584"
+updated_at: "2026-09-26 07:39:18.517154"
 latest: "1.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pan_te"
 aliases:

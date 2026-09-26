@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/virallc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/virallc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/virallc/container.yaml"
-updated_at: "2026-09-25 07:50:05.353355"
-latest: "1.1.5--pyh106432d_0"
+updated_at: "2026-09-26 07:38:57.335869"
+latest: "1.1.5--pyh106432d_1"
 container_url: "https://biocontainers.pro/tools/virallc"
 aliases:
  - "alnPairDist"
@@ -44,8 +44,9 @@ aliases:
  - "gawkbug"
 versions:
  - "1.1.5--pyh106432d_0"
+ - "1.1.5--pyh106432d_1"
 description: "singularity registry hpc automated addition for virallc"
-config: {"url": "https://biocontainers.pro/tools/virallc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virallc", "latest": {"1.1.5--pyh106432d_0": "sha256:83d7945b501c199bac5803aca070333c5c6736193a53111b415b6a1158528204"}, "tags": {"1.1.5--pyh106432d_0": "sha256:83d7945b501c199bac5803aca070333c5c6736193a53111b415b6a1158528204"}, "docker": "quay.io/biocontainers/virallc", "aliases": {"alnPairDist": "/usr/local/bin/alnPairDist", "alnSeqCov": "/usr/local/bin/alnSeqCov", "gawk-5.4.1": "/usr/local/bin/gawk-5.4.1", "nextclade": "/usr/local/bin/nextclade", "nextclade3": "/usr/local/bin/nextclade3", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "virallc": "/usr/local/bin/virallc", "virallcClusters": "/usr/local/bin/virallcClusters", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gawkbug": "/usr/local/bin/gawkbug"}}
+config: {"url": "https://biocontainers.pro/tools/virallc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for virallc", "latest": {"1.1.5--pyh106432d_1": "sha256:452831de1e96950d12b71858e20bae42a1bacd712a4d753c9e6d68e9ef5f161c"}, "tags": {"1.1.5--pyh106432d_0": "sha256:83d7945b501c199bac5803aca070333c5c6736193a53111b415b6a1158528204", "1.1.5--pyh106432d_1": "sha256:452831de1e96950d12b71858e20bae42a1bacd712a4d753c9e6d68e9ef5f161c"}, "docker": "quay.io/biocontainers/virallc", "aliases": {"alnPairDist": "/usr/local/bin/alnPairDist", "alnSeqCov": "/usr/local/bin/alnSeqCov", "gawk-5.4.1": "/usr/local/bin/gawk-5.4.1", "nextclade": "/usr/local/bin/nextclade", "nextclade3": "/usr/local/bin/nextclade3", "pyproject-build": "/usr/local/bin/pyproject-build", "python-build": "/usr/local/bin/python-build", "virallc": "/usr/local/bin/virallc", "virallcClusters": "/usr/local/bin/virallcClusters", "archive-nlmnlp": "/usr/local/bin/archive-nlmnlp", "archive-pids": "/usr/local/bin/archive-pids", "download-flatfile": "/usr/local/bin/download-flatfile", "ecollect": "/usr/local/bin/ecollect", "gbf2facds": "/usr/local/bin/gbf2facds", "gbf2tbl": "/usr/local/bin/gbf2tbl", "gff-sort": "/usr/local/bin/gff-sort", "gff2xml": "/usr/local/bin/gff2xml", "pair-at-a-time": "/usr/local/bin/pair-at-a-time", "print-missing-subranges": "/usr/local/bin/print-missing-subranges", "sort-by-length": "/usr/local/bin/sort-by-length", "xcommon.sh": "/usr/local/bin/xcommon.sh", "xfetch": "/usr/local/bin/xfetch", "xfetch.ini": "/usr/local/bin/xfetch.ini", "xfilter": "/usr/local/bin/xfilter", "xinfo": "/usr/local/bin/xinfo", "xlink": "/usr/local/bin/xlink", "xlink.ini": "/usr/local/bin/xlink.ini", "xsearch": "/usr/local/bin/xsearch", "bsmp2info": "/usr/local/bin/bsmp2info", "fsa2xml": "/usr/local/bin/fsa2xml", "gbf2info": "/usr/local/bin/gbf2info", "just-top-hits": "/usr/local/bin/just-top-hits", "systematic-mutations": "/usr/local/bin/systematic-mutations", "gawkbug": "/usr/local/bin/gawkbug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/virallc.
@@ -60,7 +61,7 @@ $ shpc install quay.io/biocontainers/virallc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/virallc:1.1.5--pyh106432d_0
+$ shpc install quay.io/biocontainers/virallc:1.1.5--pyh106432d_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -72,8 +73,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/virallc/1.1.5--pyh106432d_0
-$ module help quay.io/biocontainers/virallc/1.1.5--pyh106432d_0
+$ module load quay.io/biocontainers/virallc/1.1.5--pyh106432d_1
+$ module help quay.io/biocontainers/virallc/1.1.5--pyh106432d_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

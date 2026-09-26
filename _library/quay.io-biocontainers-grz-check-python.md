@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/grz-check-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grz-check-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grz-check-python/container.yaml"
-updated_at: "2026-09-25 07:27:34.111502"
-latest: "0.3.1--py313h4899122_0"
+updated_at: "2026-09-26 07:20:48.408445"
+latest: "0.4.0--py313h4899122_0"
 container_url: "https://biocontainers.pro/tools/grz-check-python"
 aliases:
  - "2to3-3.12"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "0.3.0--py312hf7f01f6_1"
  - "0.3.1--py313h4899122_0"
+ - "0.4.0--py313h4899122_0"
 description: "singularity registry hpc automated addition for grz-check-python"
-config: {"url": "https://biocontainers.pro/tools/grz-check-python", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-check-python", "latest": {"0.3.1--py313h4899122_0": "sha256:f004bd8af87a364c9fec50f412f693b1e941657a353a350029c1ac4069169363"}, "tags": {"0.3.0--py312hf7f01f6_1": "sha256:e993deecef1602779c394eac4a29385e6ac1abb6ba0d36274f74e87c6c5cacd2", "0.3.1--py313h4899122_0": "sha256:f004bd8af87a364c9fec50f412f693b1e941657a353a350029c1ac4069169363"}, "docker": "quay.io/biocontainers/grz-check-python", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/grz-check-python", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for grz-check-python", "latest": {"0.4.0--py313h4899122_0": "sha256:d03e0e8d4c72f776291f4a0d95da7f5dec3b8586be879409da1e5aea7cc53896"}, "tags": {"0.3.0--py312hf7f01f6_1": "sha256:e993deecef1602779c394eac4a29385e6ac1abb6ba0d36274f74e87c6c5cacd2", "0.3.1--py313h4899122_0": "sha256:f004bd8af87a364c9fec50f412f693b1e941657a353a350029c1ac4069169363", "0.4.0--py313h4899122_0": "sha256:d03e0e8d4c72f776291f4a0d95da7f5dec3b8586be879409da1e5aea7cc53896"}, "docker": "quay.io/biocontainers/grz-check-python", "aliases": {"2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grz-check-python.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/grz-check-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/grz-check-python:0.3.1--py313h4899122_0
+$ shpc install quay.io/biocontainers/grz-check-python:0.4.0--py313h4899122_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/grz-check-python/0.3.1--py313h4899122_0
-$ module help quay.io/biocontainers/grz-check-python/0.3.1--py313h4899122_0
+$ module load quay.io/biocontainers/grz-check-python/0.4.0--py313h4899122_0
+$ module help quay.io/biocontainers/grz-check-python/0.4.0--py313h4899122_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/autocycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/autocycler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/autocycler/container.yaml"
-updated_at: "2026-09-25 07:34:38.478720"
-latest: "0.6.2--h79ce301_0"
+updated_at: "2026-09-26 07:26:30.087094"
+latest: "0.7.0--h79ce301_0"
 container_url: "https://biocontainers.pro/tools/autocycler"
 aliases:
  - "autocycler"
@@ -16,8 +16,10 @@ versions:
  - "0.5.0--h3ab6199_0"
  - "0.5.2--h3ab6199_0"
  - "0.6.2--h79ce301_0"
+ - "0.7.0--h79ce301_0"
+ - "0.6.3--h79ce301_0"
 description: "singularity registry hpc automated addition for autocycler"
-config: {"url": "https://biocontainers.pro/tools/autocycler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autocycler", "latest": {"0.6.2--h79ce301_0": "sha256:2f8e85b11480744a0ebcfc628f7dda103cc82d3619dfdc3bd65f26af4fecbec3"}, "tags": {"0.2.1--h3ab6199_0": "sha256:ffc8cefd8ba4bced4b70d2f0a9425ef250f464b128cac5b637d0c155c8b6f729", "0.4.0--h3ab6199_0": "sha256:fa6a1c0cfcceefd1e387828e5a384f863a429a062041118a06e4e082672a9c03", "0.3.0--h3ab6199_0": "sha256:229a995a856ad394f4b37c3fd3665e43f94414419c107ccf3ea3cbf44eb6b5e9", "0.5.0--h3ab6199_0": "sha256:ae29391c61b493ed26d4bfd867a7039b2da980444f470ef46e7f5477b037ba6e", "0.5.2--h3ab6199_0": "sha256:58e79c1610e1208b43723c894506bcc30d5ba7e53ae2e5416878b7a39041405c", "0.6.2--h79ce301_0": "sha256:2f8e85b11480744a0ebcfc628f7dda103cc82d3619dfdc3bd65f26af4fecbec3"}, "docker": "quay.io/biocontainers/autocycler", "aliases": {"autocycler": "/usr/local/bin/autocycler"}}
+config: {"url": "https://biocontainers.pro/tools/autocycler", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for autocycler", "latest": {"0.7.0--h79ce301_0": "sha256:e8a38e2b0d46ec1d4fb4ee545445423db03073468de050336e012ae1714c4115"}, "tags": {"0.2.1--h3ab6199_0": "sha256:ffc8cefd8ba4bced4b70d2f0a9425ef250f464b128cac5b637d0c155c8b6f729", "0.4.0--h3ab6199_0": "sha256:fa6a1c0cfcceefd1e387828e5a384f863a429a062041118a06e4e082672a9c03", "0.3.0--h3ab6199_0": "sha256:229a995a856ad394f4b37c3fd3665e43f94414419c107ccf3ea3cbf44eb6b5e9", "0.5.0--h3ab6199_0": "sha256:ae29391c61b493ed26d4bfd867a7039b2da980444f470ef46e7f5477b037ba6e", "0.5.2--h3ab6199_0": "sha256:58e79c1610e1208b43723c894506bcc30d5ba7e53ae2e5416878b7a39041405c", "0.6.2--h79ce301_0": "sha256:2f8e85b11480744a0ebcfc628f7dda103cc82d3619dfdc3bd65f26af4fecbec3", "0.7.0--h79ce301_0": "sha256:e8a38e2b0d46ec1d4fb4ee545445423db03073468de050336e012ae1714c4115", "0.6.3--h79ce301_0": "sha256:cd106960bb895cba9c52b014a6e1d3d19fa02682183afd2e54b7d14f8fdbbe2e"}, "docker": "quay.io/biocontainers/autocycler", "aliases": {"autocycler": "/usr/local/bin/autocycler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/autocycler.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/autocycler
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/autocycler:0.6.2--h79ce301_0
+$ shpc install quay.io/biocontainers/autocycler:0.7.0--h79ce301_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/autocycler/0.6.2--h79ce301_0
-$ module help quay.io/biocontainers/autocycler/0.6.2--h79ce301_0
+$ module load quay.io/biocontainers/autocycler/0.7.0--h79ce301_0
+$ module help quay.io/biocontainers/autocycler/0.7.0--h79ce301_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

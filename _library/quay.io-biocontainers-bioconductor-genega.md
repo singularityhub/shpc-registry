@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genega"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genega/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genega/container.yaml"
-updated_at: "2026-09-25 07:22:05.059449"
+updated_at: "2026-09-26 07:16:21.459029"
 latest: "1.60.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genega"
 

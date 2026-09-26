@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taffy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taffy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taffy/container.yaml"
-updated_at: "2026-09-25 07:44:05.088589"
+updated_at: "2026-09-26 07:34:07.472077"
 latest: "0.0.3--py314h4bbbc2f_0"
 container_url: "https://biocontainers.pro/tools/taffy"
 aliases:

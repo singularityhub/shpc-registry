@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snkmt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snkmt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snkmt/container.yaml"
-updated_at: "2026-09-25 07:30:39.603163"
+updated_at: "2026-09-26 07:23:18.467216"
 latest: "0.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snkmt"
 aliases:

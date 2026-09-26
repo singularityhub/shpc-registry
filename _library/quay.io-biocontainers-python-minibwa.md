@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-minibwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-minibwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-minibwa/container.yaml"
-updated_at: "2026-09-25 08:07:21.603135"
+updated_at: "2026-09-26 07:52:56.648430"
 latest: "0.2.0--py312h109dd8c_0"
 container_url: "https://biocontainers.pro/tools/python-minibwa"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/respro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/respro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/respro/container.yaml"
-updated_at: "2026-09-25 07:49:07.149673"
+updated_at: "2026-09-26 07:38:10.884586"
 latest: "0.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/respro"
 aliases:

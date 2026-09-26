@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pasillatranscriptexpr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pasillatranscriptexpr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pasillatranscriptexpr/container.yaml"
-updated_at: "2026-09-25 07:45:19.873793"
+updated_at: "2026-09-26 07:35:08.002303"
 latest: "1.38.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pasillatranscriptexpr"
 

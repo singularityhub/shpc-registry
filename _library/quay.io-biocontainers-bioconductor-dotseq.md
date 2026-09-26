@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dotseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dotseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dotseq/container.yaml"
-updated_at: "2026-09-25 07:41:38.515833"
+updated_at: "2026-09-26 07:32:09.181748"
 latest: "1.0.0--r45h8471819_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dotseq"
 aliases:

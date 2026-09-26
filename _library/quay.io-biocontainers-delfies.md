@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/delfies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delfies/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/delfies/container.yaml"
-updated_at: "2026-09-25 07:38:59.756617"
+updated_at: "2026-09-26 07:30:00.919614"
 latest: "0.11.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/delfies"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/acidplyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/acidplyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/acidplyr/container.yaml"
-updated_at: "2026-09-25 08:04:21.137211"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-09-26 07:50:30.251062"
+latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/acidplyr"
 aliases:
  - "idle3.14"
@@ -15,8 +15,9 @@ aliases:
  - "numpy-config"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for acidplyr"
-config: {"url": "https://biocontainers.pro/tools/acidplyr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for acidplyr", "latest": {"0.1.0--pyhdfd78af_0": "sha256:fac1656c506b66c2e71f64e586c808588b2555b6959bcaf4107c9107a557c702"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:fac1656c506b66c2e71f64e586c808588b2555b6959bcaf4107c9107a557c702"}, "docker": "quay.io/biocontainers/acidplyr", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/acidplyr", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for acidplyr", "latest": {"0.1.1--pyhdfd78af_0": "sha256:e2cbb537929e8fdeb096624eb7f1823c33f1b6754ea776311c15449726a89fcf"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:fac1656c506b66c2e71f64e586c808588b2555b6959bcaf4107c9107a557c702", "0.1.1--pyhdfd78af_0": "sha256:e2cbb537929e8fdeb096624eb7f1823c33f1b6754ea776311c15449726a89fcf"}, "docker": "quay.io/biocontainers/acidplyr", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/acidplyr.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/acidplyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/acidplyr:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/acidplyr:0.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/acidplyr/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/acidplyr/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/acidplyr/0.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/acidplyr/0.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
