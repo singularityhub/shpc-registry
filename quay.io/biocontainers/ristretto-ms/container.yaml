@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/ristretto-ms
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ristretto-ms
+latest:
+  0.3.1--pyhdfd78af_0: 
+    sha256:2b5282a14f6837354490e3e5bc50c4b8c8ca84a257c487419652c14a0e8742bd
+tags:
+  0.3.1--pyhdfd78af_0: 
+    sha256:2b5282a14f6837354490e3e5bc50c4b8c8ca84a257c487419652c14a0e8742bd
+docker: quay.io/biocontainers/ristretto-ms
+aliases:
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

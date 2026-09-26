@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/teloxplorer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for teloxplorer
+latest:
+  0.5.0--py313hd906e7f_0: 
+    sha256:564f0b9ff51fd76b1ae8bd77a29d741e393af115dd9ba6aef48852058e347f25
+tags:
+  0.5.0--py313hd906e7f_0: 
+    sha256:564f0b9ff51fd76b1ae8bd77a29d741e393af115dd9ba6aef48852058e347f25
+docker: quay.io/biocontainers/teloxplorer
+aliases:
+  telogrep: /usr/local/bin/telogrep
+  telox: /usr/local/bin/telox
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  seqtk: /usr/local/bin/seqtk
+  typer: /usr/local/bin/typer
+  fc-genconf: /usr/local/bin/fc-genconf
+  ref-cache: /usr/local/bin/ref-cache
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  markdown-it: /usr/local/bin/markdown-it
+  minimap2: /usr/local/bin/minimap2
+  natsort: /usr/local/bin/natsort
+  annot-tsv: /usr/local/bin/annot-tsv
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
