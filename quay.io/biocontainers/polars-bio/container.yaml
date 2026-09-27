@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/polars-bio
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for polars-bio
 latest:
-  0.34.0--py311h84dfe7a_0: 
-    sha256:73d952727bc9ca4bf122a58c251c203c9e69cc77362d778072e6014fa42569ca
+  0.36.0--py312h46b6c60_0: 
+    sha256:e5924d86726071f693bd0d410f5b8097935eab883cb323bfde16729469401563
 tags:
   0.34.0--py311h84dfe7a_0: 
     sha256:73d952727bc9ca4bf122a58c251c203c9e69cc77362d778072e6014fa42569ca
   0.34.0--py313h4c8ee94_0: 
     sha256:b9c7bdef202b75d020ee0054644185f1355e6491f05c802d189f8010e4090231
+  0.36.0--py312h46b6c60_0: 
+    sha256:e5924d86726071f693bd0d410f5b8097935eab883cb323bfde16729469401563
+  0.35.1--py312h46b6c60_0: 
+    sha256:c473f23d5bd067af004258d6dd0b5d0743be574ae5b763a05ced22cf914e0ee9
 docker: quay.io/biocontainers/polars-bio
 aliases:
   protoc-33.5.0: /usr/local/bin/protoc-33.5.0

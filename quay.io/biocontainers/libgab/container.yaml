@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/libgab
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libgab
 latest:
-  1.0.5--h06902ac_15: 
-    sha256:6a90a6ad1a8332ab0fd9bfc8ec37e975bfe935458ff066e04fe1d037d09a0151
+  1.1.0--hbad25bd_0: 
+    sha256:67dc308d1c8145f44adff7753405783d5cce9ebba623422794bc0e7112527497
 tags:
   1.0.5--h5cad929_9: 
     sha256:aef9e161c577bb10478863a0b0c2b57c622f6befaef97858c22ea46a83f23e23
@@ -17,6 +17,8 @@ tags:
     sha256:d5b0f9e0eac5c976f29da824f720c630fb9b8db9c3905461c8707d6b7c57dc98
   1.0.5--h06902ac_15: 
     sha256:6a90a6ad1a8332ab0fd9bfc8ec37e975bfe935458ff066e04fe1d037d09a0151
+  1.1.0--hbad25bd_0: 
+    sha256:67dc308d1c8145f44adff7753405783d5cce9ebba623422794bc0e7112527497
 docker: quay.io/biocontainers/libgab
 aliases:
   bamtools: /usr/local/bin/bamtools

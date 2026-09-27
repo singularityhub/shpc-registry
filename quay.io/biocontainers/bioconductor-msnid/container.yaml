@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-msnid
 latest:
-  1.44.0--r45ha27e39d_0: 
-    sha256:5accadf79bc9154f69fa631fde625c3a9a8ed83ce00a63ade671ce4ba288c95e
+  1.44.2--r45h55fe1e3_0: 
+    sha256:21e8362785ba6fd4314b1f366810eb3d1c537402be4d86975006ca3aae15ea2d
 tags:
   1.28.0--r41hc247a5b_2: 
     sha256:5b1848dc3a8dff619e23ad2cd31abe23e8a3ec2fccc4583f3d4f4ccef7cffa6b
@@ -20,6 +20,8 @@ tags:
     sha256:f5d06d9ef3f6722a252240b3aff018816d988a3109db69b8b9e33869cbd927f2
   1.44.0--r45ha27e39d_0: 
     sha256:5accadf79bc9154f69fa631fde625c3a9a8ed83ce00a63ade671ce4ba288c95e
+  1.44.2--r45h55fe1e3_0: 
+    sha256:21e8362785ba6fd4314b1f366810eb3d1c537402be4d86975006ca3aae15ea2d
 docker: quay.io/biocontainers/bioconductor-msnid
 aliases:
   pandoc-server: /usr/local/bin/pandoc-server

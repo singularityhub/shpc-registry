@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: singularity registry hpc automated addition for 
   enzywizard-hydrocluster
 latest:
-  1.0.2--pyhdfd78af_0: 
-    sha256:57792e5735a2a3343db3342393a6bafce91a5bb91bd5ced6a41c32f24c637105
+  1.0.3--pyhdfd78af_0: 
+    sha256:4b107cc82d8da148ad684656b3fe73518eec9c8fad4359c0cc823af963830286
 tags:
   1.0.2--pyhdfd78af_0: 
     sha256:57792e5735a2a3343db3342393a6bafce91a5bb91bd5ced6a41c32f24c637105
+  1.0.3--pyhdfd78af_0: 
+    sha256:4b107cc82d8da148ad684656b3fe73518eec9c8fad4359c0cc823af963830286
 docker: quay.io/biocontainers/enzywizard-hydrocluster
 aliases:
   enzywizard-hydrocluster: /usr/local/bin/enzywizard-hydrocluster
