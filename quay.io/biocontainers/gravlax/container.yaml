@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/gravlax
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gravlax
+latest:
+  0.2.0--hfa8f182_0: 
+    sha256:ec83be15c44de587e7e773fc0509b2ad28fd121cb39f662ba51a319f757bd94d
+tags:
+  0.2.0--hfa8f182_0: 
+    sha256:ec83be15c44de587e7e773fc0509b2ad28fd121cb39f662ba51a319f757bd94d
+docker: quay.io/biocontainers/gravlax
+aliases:
+  aie: /usr/local/bin/aie

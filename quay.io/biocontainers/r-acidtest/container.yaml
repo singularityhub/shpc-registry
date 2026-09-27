@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/r-acidtest
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-acidtest
+latest:
+  0.9.2--r45hdfd78af_0: 
+    sha256:7f361a21107de24bb609db931f3df5fa5a5f06e5cc829f0a65e600ffdd369909
+tags:
+  0.9.2--r45hdfd78af_0: 
+    sha256:7f361a21107de24bb609db931f3df5fa5a5f06e5cc829f0a65e600ffdd369909
+docker: quay.io/biocontainers/r-acidtest
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

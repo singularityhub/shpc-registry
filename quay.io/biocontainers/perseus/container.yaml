@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/perseus
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for perseus
+latest:
+  1.2.0--pyhdfd78af_0: 
+    sha256:7cfed652360733d6bd92e89e710e2459734a2ecedbb8ec1ca79cffa2cba920e8
+tags:
+  1.2.0--pyhdfd78af_0: 
+    sha256:7cfed652360733d6bd92e89e710e2459734a2ecedbb8ec1ca79cffa2cba920e8
+docker: quay.io/biocontainers/perseus
+aliases:
+  perseus: /usr/local/bin/perseus
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  pax11publish: /usr/local/bin/pax11publish
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  sip-build: /usr/local/bin/sip-build
+  sip-distinfo: /usr/local/bin/sip-distinfo
+  sip-install: /usr/local/bin/sip-install
+  sip-module: /usr/local/bin/sip-module
+  sip-sdist: /usr/local/bin/sip-sdist
+  sip-wheel: /usr/local/bin/sip-wheel
+  pybind11-config: /usr/local/bin/pybind11-config
+  balsam: /usr/local/bin/balsam
