@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-monocle3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-monocle3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-monocle3/container.yaml"
-updated_at: "2026-09-26 07:45:51.832903"
+updated_at: "2026-09-27 08:19:13.240244"
 latest: "1.4.27--r45hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/r-monocle3"
 aliases:

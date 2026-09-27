@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mutyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mutyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mutyper/container.yaml"
-updated_at: "2026-09-26 07:25:58.820770"
+updated_at: "2026-09-27 07:58:48.137475"
 latest: "1.0.2--py311h26ae33e_3"
 container_url: "https://biocontainers.pro/tools/mutyper"
 aliases:

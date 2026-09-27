@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nmrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nmrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nmrdata/container.yaml"
-updated_at: "2026-09-26 07:50:48.298472"
+updated_at: "2026-09-27 08:24:22.063544"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nmrdata"
 aliases:

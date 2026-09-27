@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/markinp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/markinp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/markinp/container.yaml"
-updated_at: "2026-09-26 07:52:52.377815"
+updated_at: "2026-09-27 08:26:33.209324"
 latest: "0.3.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/markinp"
 aliases:

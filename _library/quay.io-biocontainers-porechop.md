@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/porechop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/porechop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/porechop/container.yaml"
-updated_at: "2026-09-26 07:54:57.722468"
+updated_at: "2026-09-27 08:28:45.536263"
 latest: "0.2.4--py311he264feb_9"
 container_url: "https://biocontainers.pro/tools/porechop"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enzywizard-hydrocluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enzywizard-hydrocluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enzywizard-hydrocluster/container.yaml"
-updated_at: "2026-09-26 07:35:19.249029"
-latest: "1.0.2--pyhdfd78af_0"
+updated_at: "2026-09-27 08:08:17.979649"
+latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enzywizard-hydrocluster"
 aliases:
  - "enzywizard-hydrocluster"
@@ -16,8 +16,9 @@ aliases:
  - "numpy-config"
 versions:
  - "1.0.2--pyhdfd78af_0"
+ - "1.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for enzywizard-hydrocluster"
-config: {"url": "https://biocontainers.pro/tools/enzywizard-hydrocluster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-hydrocluster", "latest": {"1.0.2--pyhdfd78af_0": "sha256:57792e5735a2a3343db3342393a6bafce91a5bb91bd5ced6a41c32f24c637105"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:57792e5735a2a3343db3342393a6bafce91a5bb91bd5ced6a41c32f24c637105"}, "docker": "quay.io/biocontainers/enzywizard-hydrocluster", "aliases": {"enzywizard-hydrocluster": "/usr/local/bin/enzywizard-hydrocluster", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
+config: {"url": "https://biocontainers.pro/tools/enzywizard-hydrocluster", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for enzywizard-hydrocluster", "latest": {"1.0.3--pyhdfd78af_0": "sha256:4b107cc82d8da148ad684656b3fe73518eec9c8fad4359c0cc823af963830286"}, "tags": {"1.0.2--pyhdfd78af_0": "sha256:57792e5735a2a3343db3342393a6bafce91a5bb91bd5ced6a41c32f24c637105", "1.0.3--pyhdfd78af_0": "sha256:4b107cc82d8da148ad684656b3fe73518eec9c8fad4359c0cc823af963830286"}, "docker": "quay.io/biocontainers/enzywizard-hydrocluster", "aliases": {"enzywizard-hydrocluster": "/usr/local/bin/enzywizard-hydrocluster", "idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config", "numpy-config": "/usr/local/bin/numpy-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enzywizard-hydrocluster.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/enzywizard-hydrocluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enzywizard-hydrocluster:1.0.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enzywizard-hydrocluster:1.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enzywizard-hydrocluster/1.0.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/enzywizard-hydrocluster/1.0.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/enzywizard-hydrocluster/1.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/enzywizard-hydrocluster/1.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

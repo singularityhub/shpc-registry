@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-blase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blase/container.yaml"
-updated_at: "2026-09-26 07:52:25.090124"
+updated_at: "2026-09-27 08:26:04.192254"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blase"
 aliases:

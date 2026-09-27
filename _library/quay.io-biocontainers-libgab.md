@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/libgab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgab/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libgab/container.yaml"
-updated_at: "2026-09-26 07:53:49.185983"
-latest: "1.0.5--h06902ac_15"
+updated_at: "2026-09-27 08:27:33.224785"
+latest: "1.1.0--hbad25bd_0"
 container_url: "https://biocontainers.pro/tools/libgab"
 aliases:
  - "bamtools"
@@ -19,8 +19,9 @@ versions:
  - "1.0.5--hdc46a4b_13"
  - "1.0.5--h7a259b3_14"
  - "1.0.5--h06902ac_15"
+ - "1.1.0--hbad25bd_0"
 description: "shpc-registry automated BioContainers addition for libgab"
-config: {"url": "https://biocontainers.pro/tools/libgab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgab", "latest": {"1.0.5--h06902ac_15": "sha256:6a90a6ad1a8332ab0fd9bfc8ec37e975bfe935458ff066e04fe1d037d09a0151"}, "tags": {"1.0.5--h5cad929_9": "sha256:aef9e161c577bb10478863a0b0c2b57c622f6befaef97858c22ea46a83f23e23", "1.0.5--he40e34d_11": "sha256:f802c48b5859f31c28bad317d3ce9cb9704210ebdc83c88468c0e9b814cc9ba6", "1.0.5--ha267990_12": "sha256:e4db88a391263f07a84847ef8eccd2cafbd73da57a1474ea4a76694a19b6ae97", "1.0.5--hdc46a4b_13": "sha256:2125e318ce594cf582923d96e4ce47a23cde0b13c391166ea31cb42dee829435", "1.0.5--h7a259b3_14": "sha256:d5b0f9e0eac5c976f29da824f720c630fb9b8db9c3905461c8707d6b7c57dc98", "1.0.5--h06902ac_15": "sha256:6a90a6ad1a8332ab0fd9bfc8ec37e975bfe935458ff066e04fe1d037d09a0151"}, "docker": "quay.io/biocontainers/libgab", "aliases": {"bamtools": "/usr/local/bin/bamtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/libgab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgab", "latest": {"1.1.0--hbad25bd_0": "sha256:67dc308d1c8145f44adff7753405783d5cce9ebba623422794bc0e7112527497"}, "tags": {"1.0.5--h5cad929_9": "sha256:aef9e161c577bb10478863a0b0c2b57c622f6befaef97858c22ea46a83f23e23", "1.0.5--he40e34d_11": "sha256:f802c48b5859f31c28bad317d3ce9cb9704210ebdc83c88468c0e9b814cc9ba6", "1.0.5--ha267990_12": "sha256:e4db88a391263f07a84847ef8eccd2cafbd73da57a1474ea4a76694a19b6ae97", "1.0.5--hdc46a4b_13": "sha256:2125e318ce594cf582923d96e4ce47a23cde0b13c391166ea31cb42dee829435", "1.0.5--h7a259b3_14": "sha256:d5b0f9e0eac5c976f29da824f720c630fb9b8db9c3905461c8707d6b7c57dc98", "1.0.5--h06902ac_15": "sha256:6a90a6ad1a8332ab0fd9bfc8ec37e975bfe935458ff066e04fe1d037d09a0151", "1.1.0--hbad25bd_0": "sha256:67dc308d1c8145f44adff7753405783d5cce9ebba623422794bc0e7112527497"}, "docker": "quay.io/biocontainers/libgab", "aliases": {"bamtools": "/usr/local/bin/bamtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libgab.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/libgab
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libgab:1.0.5--h06902ac_15
+$ shpc install quay.io/biocontainers/libgab:1.1.0--hbad25bd_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libgab/1.0.5--h06902ac_15
-$ module help quay.io/biocontainers/libgab/1.0.5--h06902ac_15
+$ module load quay.io/biocontainers/libgab/1.1.0--hbad25bd_0
+$ module help quay.io/biocontainers/libgab/1.1.0--hbad25bd_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

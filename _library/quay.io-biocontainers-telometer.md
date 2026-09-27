@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/telometer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telometer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/telometer/container.yaml"
-updated_at: "2026-09-26 07:44:56.301815"
-latest: "1.1--pyhdfd78af_0"
+updated_at: "2026-09-27 08:18:15.121252"
+latest: "2.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/telometer"
 aliases:
  - "numpy-config"
@@ -19,8 +19,9 @@ versions:
  - "0.81--pyhdfd78af_0"
  - "1.1--pyhdfd78af_0"
  - "1.0--pyhdfd78af_0"
+ - "2.0.3--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for telometer"
-config: {"url": "https://biocontainers.pro/tools/telometer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for telometer", "latest": {"1.1--pyhdfd78af_0": "sha256:314eb83bdd5ea3acf2bbe81959186b2335bd8065823d281b6b8a7425076a7c77"}, "tags": {"0.81--pyhdfd78af_0": "sha256:85941dcaef00b646283adaeaf29bda719dcc32343fa66b0d4aa78a7d2e296671", "1.1--pyhdfd78af_0": "sha256:314eb83bdd5ea3acf2bbe81959186b2335bd8065823d281b6b8a7425076a7c77", "1.0--pyhdfd78af_0": "sha256:1566800ca7539739f5e55581ab0809671abda8cafd585293c4ce56352c48c2d4"}, "docker": "quay.io/biocontainers/telometer", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "telometer": "/usr/local/bin/telometer", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
+config: {"url": "https://biocontainers.pro/tools/telometer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for telometer", "latest": {"2.0.3--pyhdfd78af_0": "sha256:b48f2d67b11a8b9e1a3461c928df33f7a4728e0845eaaedb2f4e1f38ab53b28e"}, "tags": {"0.81--pyhdfd78af_0": "sha256:85941dcaef00b646283adaeaf29bda719dcc32343fa66b0d4aa78a7d2e296671", "1.1--pyhdfd78af_0": "sha256:314eb83bdd5ea3acf2bbe81959186b2335bd8065823d281b6b8a7425076a7c77", "1.0--pyhdfd78af_0": "sha256:1566800ca7539739f5e55581ab0809671abda8cafd585293c4ce56352c48c2d4", "2.0.3--pyhdfd78af_0": "sha256:b48f2d67b11a8b9e1a3461c928df33f7a4728e0845eaaedb2f4e1f38ab53b28e"}, "docker": "quay.io/biocontainers/telometer", "aliases": {"numpy-config": "/usr/local/bin/numpy-config", "telometer": "/usr/local/bin/telometer", "2to3-3.12": "/usr/local/bin/2to3-3.12", "idle3.12": "/usr/local/bin/idle3.12", "pydoc3.12": "/usr/local/bin/pydoc3.12", "python3.12": "/usr/local/bin/python3.12", "python3.12-config": "/usr/local/bin/python3.12-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/telometer.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/telometer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/telometer:1.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/telometer:2.0.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/telometer/1.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/telometer/1.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/telometer/2.0.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/telometer/2.0.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

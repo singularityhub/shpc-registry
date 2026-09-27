@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mutsigextractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mutsigextractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mutsigextractor/container.yaml"
-updated_at: "2026-09-26 07:14:19.242789"
+updated_at: "2026-09-27 07:46:48.210314"
 latest: "1.29--r45hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-mutsigextractor"
 aliases:

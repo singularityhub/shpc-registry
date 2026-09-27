@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-networkbma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-networkbma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-networkbma/container.yaml"
-updated_at: "2026-09-26 07:20:17.272857"
+updated_at: "2026-09-27 07:52:56.508727"
 latest: "2.34.0--r41h399db7b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-networkbma"
 

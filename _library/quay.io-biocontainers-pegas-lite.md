@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pegas-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pegas-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pegas-lite/container.yaml"
-updated_at: "2026-09-26 07:37:58.714742"
+updated_at: "2026-09-27 08:11:02.972723"
 latest: "1.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pegas-lite"
 aliases:
