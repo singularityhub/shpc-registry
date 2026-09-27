@@ -1,0 +1,41 @@
+url: https://biocontainers.pro/tools/mist-cf
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mist-cf
+latest:
+  1.0.0--pyhdfd78af_0: 
+    sha256:2f802f5c3fc2e56a04b5feaaeb53bb57f46b10ea1c68523cdccbb6e006d15da0
+tags:
+  1.0.0--pyhdfd78af_0: 
+    sha256:2f802f5c3fc2e56a04b5feaaeb53bb57f46b10ea1c68523cdccbb6e006d15da0
+docker: quay.io/biocontainers/mist-cf
+aliases:
+  py-spy: /usr/local/bin/py-spy
+  ray: /usr/local/bin/ray
+  sirius: /usr/local/bin/sirius
+  tune: /usr/local/bin/tune
+  cairosvg: /usr/local/bin/cairosvg
+  pathos_connect: /usr/local/bin/pathos_connect
+  portpicker: /usr/local/bin/portpicker
+  pox: /usr/local/bin/pox
+  ppserver: /usr/local/bin/ppserver
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  virtualenv: /usr/local/bin/virtualenv
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  get_gprof: /usr/local/bin/get_gprof
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  ldapadd: /usr/local/bin/ldapadd
+  ldapcompare: /usr/local/bin/ldapcompare
+  ldapdelete: /usr/local/bin/ldapdelete
+  ldapexop: /usr/local/bin/ldapexop
+  ldapmodify: /usr/local/bin/ldapmodify
+  ldapmodrdn: /usr/local/bin/ldapmodrdn
+  ldappasswd: /usr/local/bin/ldappasswd
+  ldapsearch: /usr/local/bin/ldapsearch
+  ldapurl: /usr/local/bin/ldapurl
+  ldapvc: /usr/local/bin/ldapvc
+  ldapwhoami: /usr/local/bin/ldapwhoami
+  pybind11-config: /usr/local/bin/pybind11-config

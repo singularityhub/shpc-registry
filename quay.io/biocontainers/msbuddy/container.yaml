@@ -1,0 +1,25 @@
+url: https://biocontainers.pro/tools/msbuddy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for msbuddy
+latest:
+  0.3.16--pyhdfd78af_0: 
+    sha256:4298817516af435d2609a8308286e31dbbafc927829d82b238d10d14671befc6
+tags:
+  0.3.16--pyhdfd78af_0: 
+    sha256:4298817516af435d2609a8308286e31dbbafc927829d82b238d10d14671befc6
+docker: quay.io/biocontainers/msbuddy
+aliases:
+  gdown: /usr/local/bin/gdown
+  main_cmd.py: /usr/local/bin/main_cmd.py
+  msbuddy: /usr/local/bin/msbuddy
+  cllayerinfo: /usr/local/bin/cllayerinfo
+  idna: /usr/local/bin/idna
+  numba: /usr/local/bin/numba
+  2to3-3.12: /usr/local/bin/2to3-3.12
+  idle3.12: /usr/local/bin/idle3.12
+  pydoc3.12: /usr/local/bin/pydoc3.12
+  python3.12: /usr/local/bin/python3.12
+  python3.12-config: /usr/local/bin/python3.12-config
+  tqdm: /usr/local/bin/tqdm
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer
