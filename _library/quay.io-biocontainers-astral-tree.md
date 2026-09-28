@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/astral-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/astral-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/astral-tree/container.yaml"
-updated_at: "2026-09-27 07:59:05.503472"
+updated_at: "2026-09-28 08:37:54.205428"
 latest: "5.7.8--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/astral-tree"
 aliases:

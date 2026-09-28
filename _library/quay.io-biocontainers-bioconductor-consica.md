@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-consica"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-consica/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-consica/container.yaml"
-updated_at: "2026-09-27 08:06:40.774011"
+updated_at: "2026-09-28 08:45:45.100639"
 latest: "2.4.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-consica"
 aliases:

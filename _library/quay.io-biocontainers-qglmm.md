@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qglmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qglmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qglmm/container.yaml"
-updated_at: "2026-09-27 08:17:45.903607"
+updated_at: "2026-09-28 08:57:09.798531"
 latest: "0.1.1--pyhcf36b3e_0"
 container_url: "https://biocontainers.pro/tools/qglmm"
 aliases:

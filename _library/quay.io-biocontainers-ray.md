@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ray/container.yaml"
-updated_at: "2026-09-27 08:23:29.159498"
+updated_at: "2026-09-28 09:03:00.747572"
 latest: "2.3.1--ha45b1c3_8"
 container_url: "https://biocontainers.pro/tools/ray"
 aliases:

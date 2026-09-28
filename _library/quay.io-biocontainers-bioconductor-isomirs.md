@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-isomirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isomirs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isomirs/container.yaml"
-updated_at: "2026-09-27 08:24:29.841118"
+updated_at: "2026-09-28 09:04:01.921711"
 latest: "1.38.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isomirs"
 aliases:

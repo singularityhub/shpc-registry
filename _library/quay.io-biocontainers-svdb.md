@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svdb/container.yaml"
-updated_at: "2026-09-27 07:54:23.211172"
+updated_at: "2026-09-28 08:33:05.586612"
 latest: "2.12.0--py313h93e676e_0"
 container_url: "https://biocontainers.pro/tools/svdb"
 aliases:

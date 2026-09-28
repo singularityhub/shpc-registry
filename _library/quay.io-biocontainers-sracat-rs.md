@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sracat-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sracat-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sracat-rs/container.yaml"
-updated_at: "2026-09-27 08:20:02.163502"
+updated_at: "2026-09-28 08:59:29.192221"
 latest: "0.0.3--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/sracat-rs"
 aliases:

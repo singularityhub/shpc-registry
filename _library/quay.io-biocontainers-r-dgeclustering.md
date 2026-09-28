@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dgeclustering"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dgeclustering/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dgeclustering/container.yaml"
-updated_at: "2026-09-27 07:52:58.585374"
+updated_at: "2026-09-28 08:31:39.142739"
 latest: "0.1.0--r43h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/r-dgeclustering"
 aliases:

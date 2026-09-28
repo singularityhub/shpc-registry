@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spine/container.yaml"
-updated_at: "2026-09-27 08:00:03.240145"
+updated_at: "2026-09-28 08:38:54.455410"
 latest: "0.3.2--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/spine"
 aliases:

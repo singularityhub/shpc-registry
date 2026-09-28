@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-decomplexdisease"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decomplexdisease/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decomplexdisease/container.yaml"
-updated_at: "2026-09-27 07:52:54.610137"
+updated_at: "2026-09-28 08:31:35.101694"
 latest: "1.18.0--r42hf17093f_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-decomplexdisease"
 aliases:

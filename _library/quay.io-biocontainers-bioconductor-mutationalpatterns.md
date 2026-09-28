@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mutationalpatterns"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mutationalpatterns/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mutationalpatterns/container.yaml"
-updated_at: "2026-09-27 08:30:28.017170"
+updated_at: "2026-09-28 09:10:01.158964"
 latest: "3.19.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mutationalpatterns"
 

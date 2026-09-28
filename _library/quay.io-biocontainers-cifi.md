@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cifi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cifi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cifi/container.yaml"
-updated_at: "2026-09-27 08:07:10.536310"
+updated_at: "2026-09-28 08:46:15.318577"
 latest: "0.2.3--py310hfc0ef84_0"
 container_url: "https://biocontainers.pro/tools/cifi"
 aliases:

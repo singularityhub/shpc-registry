@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vgorient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vgorient/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vgorient/container.yaml"
-updated_at: "2026-09-27 08:23:40.419471"
+updated_at: "2026-09-28 09:03:12.224124"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vgorient"
 aliases:

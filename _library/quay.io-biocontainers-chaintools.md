@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chaintools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chaintools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chaintools/container.yaml"
-updated_at: "2026-09-27 08:17:16.104635"
+updated_at: "2026-09-28 08:56:39.635647"
 latest: "0.0.13--hd612981_0"
 container_url: "https://biocontainers.pro/tools/chaintools"
 aliases:

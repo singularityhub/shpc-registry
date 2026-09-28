@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bio-unicorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bio-unicorn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bio-unicorn/container.yaml"
-updated_at: "2026-09-27 08:14:05.434601"
+updated_at: "2026-09-28 08:53:22.445751"
 latest: "2.0.0--h577a1d6_0"
 container_url: "https://biocontainers.pro/tools/bio-unicorn"
 aliases:

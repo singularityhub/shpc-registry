@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vidjil-algo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vidjil-algo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vidjil-algo/container.yaml"
-updated_at: "2026-09-27 07:57:11.970649"
+updated_at: "2026-09-28 08:35:56.680729"
 latest: "2025.02--h077b44d_0"
 container_url: "https://biocontainers.pro/tools/vidjil-algo"
 aliases:
