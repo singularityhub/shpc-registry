@@ -1,0 +1,18 @@
+url: https://biocontainers.pro/tools/genescopefk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for genescopefk
+latest:
+  1.0.0--r45hdfd78af_0: 
+    sha256:02a274ae444b0d2e965f8c7647c5175dfe51b55f2c9963ab00ac9abcfacd2392
+tags:
+  1.0.0--r45hdfd78af_0: 
+    sha256:02a274ae444b0d2e965f8c7647c5175dfe51b55f2c9963ab00ac9abcfacd2392
+docker: quay.io/biocontainers/genescopefk
+aliases:
+  GeneScopeFK.R: /usr/local/bin/GeneScopeFK.R
+  fc-genconf: /usr/local/bin/fc-genconf
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

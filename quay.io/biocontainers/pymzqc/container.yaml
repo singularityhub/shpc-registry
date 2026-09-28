@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/pymzqc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pymzqc
+latest:
+  1.0.3--pyhdfd78af_0: 
+    sha256:d9e2629b2b0d1c88a5bd681b7939e36152e1e81d2bab33d602b43d86cab75df2
+tags:
+  1.0.3--pyhdfd78af_0: 
+    sha256:d9e2629b2b0d1c88a5bd681b7939e36152e1e81d2bab33d602b43d86cab75df2
+docker: quay.io/biocontainers/pymzqc
+aliases:
+  mzqc-fileinfo: /usr/local/bin/mzqc-fileinfo
+  mzqc-filemerger: /usr/local/bin/mzqc-filemerger
+  mzqc-fixdescriptions: /usr/local/bin/mzqc-fixdescriptions
+  mzqc-validator: /usr/local/bin/mzqc-validator
+  idna: /usr/local/bin/idna
+  chardetect: /usr/local/bin/chardetect
+  jsonschema: /usr/local/bin/jsonschema
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  normalizer: /usr/local/bin/normalizer
