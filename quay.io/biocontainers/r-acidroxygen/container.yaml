@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/r-acidroxygen
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for r-acidroxygen
+latest:
+  0.3.3--r45hdfd78af_0: 
+    sha256:1b98775c6629d76702b52fbd32fb04142202b4804e9bd8a4c419082df6fa8fc9
+tags:
+  0.3.3--r45hdfd78af_0: 
+    sha256:1b98775c6629d76702b52fbd32fb04142202b4804e9bd8a4c419082df6fa8fc9
+docker: quay.io/biocontainers/r-acidroxygen
+aliases:
+  fc-genconf: /usr/local/bin/fc-genconf
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg

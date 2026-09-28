@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/proteomiqon-quantbasedalignment
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  proteomiqon-quantbasedalignment
+latest:
+  0.0.4--h774997f_0: 
+    sha256:a3ff5f7978de065591a1ea5cd6a0679ca29509002a4ee85a102e9e6421761f4a
+tags:
+  0.0.4--h774997f_0: 
+    sha256:a3ff5f7978de065591a1ea5cd6a0679ca29509002a4ee85a102e9e6421761f4a
+docker: quay.io/biocontainers/proteomiqon-quantbasedalignment
+aliases:
+  proteomiqon-quantbasedalignment: 
+    /usr/local/bin/proteomiqon-quantbasedalignment
