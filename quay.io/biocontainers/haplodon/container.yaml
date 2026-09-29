@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/haplodon
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for haplodon
+latest:
+  0.17.0--hbcba35e_0: 
+    sha256:2ad3712f1304493e11065e1485ff1927ec47bc39200c3d154f7119b6e25005f8
+tags:
+  0.17.0--hbcba35e_0: 
+    sha256:2ad3712f1304493e11065e1485ff1927ec47bc39200c3d154f7119b6e25005f8
+docker: quay.io/biocontainers/haplodon
+aliases:
+  haplodon: /usr/local/bin/haplodon
