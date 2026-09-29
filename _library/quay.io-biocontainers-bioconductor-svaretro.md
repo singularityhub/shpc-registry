@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-svaretro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-svaretro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svaretro/container.yaml"
-updated_at: "2026-09-28 08:45:16.284946"
+updated_at: "2026-09-29 08:29:10.076537"
 latest: "1.15.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-svaretro"
 

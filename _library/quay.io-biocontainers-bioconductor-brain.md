@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-brain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brain/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brain/container.yaml"
-updated_at: "2026-09-28 08:41:21.673359"
+updated_at: "2026-09-29 08:24:22.666133"
 latest: "1.56.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-brain"
 

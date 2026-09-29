@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/libssw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libssw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libssw/container.yaml"
-updated_at: "2026-09-28 08:58:38.798872"
+updated_at: "2026-09-29 08:45:42.925116"
 latest: "1.2.5--h5ca1c30_0"
 container_url: "https://biocontainers.pro/tools/libssw"
 aliases:

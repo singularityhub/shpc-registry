@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/basevar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/basevar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/basevar/container.yaml"
-updated_at: "2026-09-28 08:56:20.102265"
+updated_at: "2026-09-29 08:42:47.327735"
 latest: "2.6.8--hd19868c_0"
 container_url: "https://biocontainers.pro/tools/basevar"
 aliases:

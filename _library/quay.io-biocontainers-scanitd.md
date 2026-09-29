@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanitd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanitd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scanitd/container.yaml"
-updated_at: "2026-09-28 08:46:51.978345"
+updated_at: "2026-09-29 08:31:06.426231"
 latest: "0.9.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scanitd"
 aliases:

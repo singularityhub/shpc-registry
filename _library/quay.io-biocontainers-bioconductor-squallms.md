@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-squallms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-squallms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-squallms/container.yaml"
-updated_at: "2026-09-28 08:48:10.346435"
+updated_at: "2026-09-29 08:32:42.059405"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-squallms"
 aliases:

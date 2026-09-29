@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vomix-mega"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vomix-mega/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vomix-mega/container.yaml"
-updated_at: "2026-09-28 08:34:46.573318"
+updated_at: "2026-09-29 08:16:14.976618"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vomix-mega"
 aliases:

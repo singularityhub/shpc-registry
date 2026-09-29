@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pharokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pharokka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pharokka/container.yaml"
-updated_at: "2026-09-28 08:57:00.881593"
+updated_at: "2026-09-29 08:43:38.613316"
 latest: "1.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pharokka"
 aliases:

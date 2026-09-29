@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gsar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsar/container.yaml"
-updated_at: "2026-09-28 08:37:07.107807"
+updated_at: "2026-09-29 08:19:09.150854"
 latest: "1.44.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsar"
 
