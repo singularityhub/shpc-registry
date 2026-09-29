@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/umi-tools-rs
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for umi-tools-rs
+latest:
+  1.1.0--hfa8f182_0: 
+    sha256:297d684f8feff5d42f80c29ecc4f565b40efd0c745409a5f0ff3b01f6b243025
+tags:
+  1.1.0--hfa8f182_0: 
+    sha256:297d684f8feff5d42f80c29ecc4f565b40efd0c745409a5f0ff3b01f6b243025
+docker: quay.io/biocontainers/umi-tools-rs
+aliases:
+  umi-tools-rs: /usr/local/bin/umi-tools-rs
