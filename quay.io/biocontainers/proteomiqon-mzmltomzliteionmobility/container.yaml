@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/proteomiqon-mzmltomzliteionmobility
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for 
+  proteomiqon-mzmltomzliteionmobility
+latest:
+  0.0.4--h774997f_0: 
+    sha256:4203b088c77d97f4522e00e5eeaa93752fb765ecf7fa9dbdd901db0ca25c3e81
+tags:
+  0.0.4--h774997f_0: 
+    sha256:4203b088c77d97f4522e00e5eeaa93752fb765ecf7fa9dbdd901db0ca25c3e81
+docker: quay.io/biocontainers/proteomiqon-mzmltomzliteionmobility
+aliases:
+  proteomiqon-mzmltomzliteionmobility: 
+    /usr/local/bin/proteomiqon-mzmltomzliteionmobility
