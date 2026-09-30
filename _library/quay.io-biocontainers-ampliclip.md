@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ampliclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ampliclip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ampliclip/container.yaml"
-updated_at: "2026-09-29 08:28:13.221687"
+updated_at: "2026-09-30 08:36:50.322691"
 latest: "1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ampliclip"
 aliases:

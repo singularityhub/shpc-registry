@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glyco-csdb2snfg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glyco-csdb2snfg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/glyco-csdb2snfg/container.yaml"
-updated_at: "2026-09-29 08:53:09.860541"
+updated_at: "2026-09-30 09:01:34.440173"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/glyco-csdb2snfg"
 aliases:

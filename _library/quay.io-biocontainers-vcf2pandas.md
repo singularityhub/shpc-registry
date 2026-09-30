@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vcf2pandas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcf2pandas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcf2pandas/container.yaml"
-updated_at: "2026-09-29 08:44:51.489857"
+updated_at: "2026-09-30 08:53:32.127608"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcf2pandas"
 aliases:
