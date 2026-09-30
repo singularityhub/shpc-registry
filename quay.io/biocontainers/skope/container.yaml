@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/skope
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for skope
+latest:
+  0.5.0--hfa8f182_0: 
+    sha256:a10ed21e0d58386b819c2e4f60a861327c2f52721910e25224e647208e275ce8
+tags:
+  0.5.0--hfa8f182_0: 
+    sha256:a10ed21e0d58386b819c2e4f60a861327c2f52721910e25224e647208e275ce8
+docker: quay.io/biocontainers/skope
+aliases:
+  skope: /usr/local/bin/skope
