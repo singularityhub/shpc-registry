@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/fungar
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for fungar
 latest:
-  2.0.0--py314hdfd78af_1: 
-    sha256:6e82b439282f7b1db4fe73ec34469243ebb1fe9888cab1c5cabeb971be598944
+  2.0.1--py314hdfd78af_0: 
+    sha256:e19bf6c96e01106b0b59b83c83f344cfa540b4a94cd9d0953f0e0b987cd5080a
 tags:
   2.0.0--py314hdfd78af_0: 
     sha256:21e6b196ed2e40057b133d243922b1d4123a169db603a81883e816d89244694e
   2.0.0--py314hdfd78af_1: 
     sha256:6e82b439282f7b1db4fe73ec34469243ebb1fe9888cab1c5cabeb971be598944
+  2.0.1--py314hdfd78af_0: 
+    sha256:e19bf6c96e01106b0b59b83c83f344cfa540b4a94cd9d0953f0e0b987cd5080a
 docker: quay.io/biocontainers/fungar
 aliases:
   fungar: /usr/local/bin/fungar

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/galaxy-ml
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for galaxy-ml
 latest:
-  0.10.0--py39he88f293_3: 
-    sha256:7728551d6cf73ebc8aa19b768c423c4a6fd092930d24d5ca34d75e1bf0b25000
+  0.11.0--py312h8471819_0: 
+    sha256:530879ba0778d1ba63e970938cf546528a9ccb835fc232342bcc201642ae252a
 tags:
   0.9.1--py38h8ded8fe_2: 
     sha256:4603cd68f16f798d78a93638ca40a1a4e9c3e47179be8ba4bb88f1ce8dc5cf2a
@@ -15,6 +15,8 @@ tags:
     sha256:5b085bf817a90c8c1bfd6cd9b7a9ca6709e9b0496758ef4c5c022c45e049c461
   0.10.0--py39he88f293_3: 
     sha256:7728551d6cf73ebc8aa19b768c423c4a6fd092930d24d5ca34d75e1bf0b25000
+  0.11.0--py312h8471819_0: 
+    sha256:530879ba0778d1ba63e970938cf546528a9ccb835fc232342bcc201642ae252a
 docker: quay.io/biocontainers/galaxy-ml
 aliases:
   flatc: /usr/local/bin/flatc
