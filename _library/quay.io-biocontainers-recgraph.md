@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/recgraph/container.yaml"
-updated_at: "2026-09-30 09:04:43.573618"
+updated_at: "2026-10-01 09:25:58.963423"
 latest: "1.0.0--h7b50bb2_1"
 container_url: "https://biocontainers.pro/tools/recgraph"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyslow5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyslow5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyslow5/container.yaml"
-updated_at: "2026-09-30 08:32:32.567881"
+updated_at: "2026-10-01 08:52:36.344675"
 latest: "1.5.0--py313h0c94aae_0"
 container_url: "https://biocontainers.pro/tools/pyslow5"
 aliases:

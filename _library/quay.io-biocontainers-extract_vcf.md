@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/extract_vcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract_vcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/extract_vcf/container.yaml"
-updated_at: "2026-09-30 08:34:34.059261"
+updated_at: "2026-10-01 08:54:36.069555"
 latest: "0.5--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/extract_vcf"
 aliases:

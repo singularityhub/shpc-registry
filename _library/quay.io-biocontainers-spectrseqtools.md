@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectrseqtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectrseqtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spectrseqtools/container.yaml"
-updated_at: "2026-09-30 08:12:18.014475"
+updated_at: "2026-10-01 08:31:36.956947"
 latest: "0.3.0--py313hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/spectrseqtools"
 aliases:

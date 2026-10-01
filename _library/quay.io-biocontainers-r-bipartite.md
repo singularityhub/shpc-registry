@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bipartite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bipartite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bipartite/container.yaml"
-updated_at: "2026-09-30 09:01:51.678270"
+updated_at: "2026-10-01 09:22:42.528059"
 latest: "2.11--r351h29659fb_2"
 container_url: "https://biocontainers.pro/tools/r-bipartite"
 aliases:

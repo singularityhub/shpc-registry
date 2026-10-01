@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyideogram"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyideogram/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyideogram/container.yaml"
-updated_at: "2026-09-30 08:31:36.160531"
+updated_at: "2026-10-01 08:51:41.272467"
 latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyideogram"
 aliases:

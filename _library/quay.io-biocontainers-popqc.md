@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/popqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popqc/container.yaml"
-updated_at: "2026-09-30 08:39:58.144572"
-latest: "0.1.1--he1b7be3_0"
+updated_at: "2026-10-01 08:59:56.197217"
+latest: "0.2.0--he1b7be3_0"
 container_url: "https://biocontainers.pro/tools/popqc"
 aliases:
  - "popqc"
 versions:
  - "0.1.1--he1b7be3_0"
+ - "0.2.0--he1b7be3_0"
 description: "singularity registry hpc automated addition for popqc"
-config: {"url": "https://biocontainers.pro/tools/popqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for popqc", "latest": {"0.1.1--he1b7be3_0": "sha256:37ffdb54e45003c8df52ebf1f723ef2b910ac0738937df55294cb2748c755bc2"}, "tags": {"0.1.1--he1b7be3_0": "sha256:37ffdb54e45003c8df52ebf1f723ef2b910ac0738937df55294cb2748c755bc2"}, "docker": "quay.io/biocontainers/popqc", "aliases": {"popqc": "/usr/local/bin/popqc"}}
+config: {"url": "https://biocontainers.pro/tools/popqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for popqc", "latest": {"0.2.0--he1b7be3_0": "sha256:af92e9b97fdffe5ad625d552916a6bd337608aa347205a8372904ee6da1a6495"}, "tags": {"0.1.1--he1b7be3_0": "sha256:37ffdb54e45003c8df52ebf1f723ef2b910ac0738937df55294cb2748c755bc2", "0.2.0--he1b7be3_0": "sha256:af92e9b97fdffe5ad625d552916a6bd337608aa347205a8372904ee6da1a6495"}, "docker": "quay.io/biocontainers/popqc", "aliases": {"popqc": "/usr/local/bin/popqc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/popqc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/popqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/popqc:0.1.1--he1b7be3_0
+$ shpc install quay.io/biocontainers/popqc:0.2.0--he1b7be3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/popqc/0.1.1--he1b7be3_0
-$ module help quay.io/biocontainers/popqc/0.1.1--he1b7be3_0
+$ module load quay.io/biocontainers/popqc/0.2.0--he1b7be3_0
+$ module help quay.io/biocontainers/popqc/0.2.0--he1b7be3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

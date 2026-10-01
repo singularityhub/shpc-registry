@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ba3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ba3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ba3/container.yaml"
-updated_at: "2026-09-30 08:41:26.786252"
+updated_at: "2026-10-01 09:01:26.432503"
 latest: "3.4.4--h193c6b0_1"
 container_url: "https://biocontainers.pro/tools/ba3"
 aliases:

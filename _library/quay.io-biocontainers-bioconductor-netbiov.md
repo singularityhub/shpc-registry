@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-netbiov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netbiov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netbiov/container.yaml"
-updated_at: "2026-09-30 09:04:49.667519"
+updated_at: "2026-10-01 09:26:05.993588"
 latest: "1.31.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netbiov"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ctree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ctree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ctree/container.yaml"
-updated_at: "2026-09-30 08:27:33.334543"
+updated_at: "2026-10-01 08:47:31.148854"
 latest: "1.1.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-ctree"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hmyrib36"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hmyrib36/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hmyrib36/container.yaml"
-updated_at: "2026-09-30 08:40:16.172888"
+updated_at: "2026-10-01 09:00:14.238280"
 latest: "1.26.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hmyrib36"
 aliases:

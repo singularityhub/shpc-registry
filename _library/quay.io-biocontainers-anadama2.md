@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/anadama2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anadama2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anadama2/container.yaml"
-updated_at: "2026-09-30 08:38:42.077045"
+updated_at: "2026-10-01 08:58:41.480498"
 latest: "0.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/anadama2"
 aliases:

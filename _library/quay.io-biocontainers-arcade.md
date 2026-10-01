@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arcade"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arcade/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arcade/container.yaml"
-updated_at: "2026-09-30 08:34:59.768143"
+updated_at: "2026-10-01 08:55:01.399188"
 latest: "1.0.17--hf426362_0"
 container_url: "https://biocontainers.pro/tools/arcade"
 aliases:
