@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/ambidose
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for ambidose
+latest:
+  0.3.2--pyhdfd78af_0: 
+    sha256:8791752b02cf374629d6587f3d414587cdcc50a69d07f709b4d2c7801ea81b1e
+tags:
+  0.3.2--pyhdfd78af_0: 
+    sha256:8791752b02cf374629d6587f3d414587cdcc50a69d07f709b4d2c7801ea81b1e
+docker: quay.io/biocontainers/ambidose
+aliases:
+  ambidose: /usr/local/bin/ambidose
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  session-info2: /usr/local/bin/session-info2
+  session-info: /usr/local/bin/session-info
+  zarr: /usr/local/bin/zarr
+  dotenv: /usr/local/bin/dotenv
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment
+  cbrunsli: /usr/local/bin/cbrunsli
+  dbrunsli: /usr/local/bin/dbrunsli
+  imagecodecs: /usr/local/bin/imagecodecs
+  zfp: /usr/local/bin/zfp
+  zopfli: /usr/local/bin/zopfli
+  zopflipng: /usr/local/bin/zopflipng
+  JxrDecApp: /usr/local/bin/JxrDecApp
+  JxrEncApp: /usr/local/bin/JxrEncApp
+  imageio_download_bin: /usr/local/bin/imageio_download_bin
+  imageio_remove_bin: /usr/local/bin/imageio_remove_bin
+  lsm2bin: /usr/local/bin/lsm2bin
+  tifffile: /usr/local/bin/tifffile
+  igraph: /usr/local/bin/igraph
+  SvtAv1EncApp: /usr/local/bin/SvtAv1EncApp
+  scanpy: /usr/local/bin/scanpy
+  aomdec: /usr/local/bin/aomdec
+  aomenc: /usr/local/bin/aomenc

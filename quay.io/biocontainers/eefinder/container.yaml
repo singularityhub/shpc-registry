@@ -1,0 +1,51 @@
+url: https://biocontainers.pro/tools/eefinder
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for eefinder
+latest:
+  1.1.2--pyhdfd78af_0: 
+    sha256:14ac45af303b9d1bdaf889c4eb9197cc20d06092e5237e3d6536a1df40f3e62c
+tags:
+  1.1.2--pyhdfd78af_0: 
+    sha256:14ac45af303b9d1bdaf889c4eb9197cc20d06092e5237e3d6536a1df40f3e62c
+docker: quay.io/biocontainers/eefinder
+aliases:
+  archive-peptide: /usr/local/bin/archive-peptide
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  eefinder: /usr/local/bin/eefinder
+  exclude-uids: /usr/local/bin/exclude-uids
+  filter-records: /usr/local/bin/filter-records
+  gene2tbl: /usr/local/bin/gene2tbl
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  split-records: /usr/local/bin/split-records
+  test-repeat: /usr/local/bin/test-repeat
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  archive-nlmnlp: /usr/local/bin/archive-nlmnlp
+  archive-pids: /usr/local/bin/archive-pids
+  download-flatfile: /usr/local/bin/download-flatfile
+  ecollect: /usr/local/bin/ecollect
+  gbf2facds: /usr/local/bin/gbf2facds
+  gbf2tbl: /usr/local/bin/gbf2tbl
+  gff-sort: /usr/local/bin/gff-sort
+  gff2xml: /usr/local/bin/gff2xml
+  pair-at-a-time: /usr/local/bin/pair-at-a-time
+  print-missing-subranges: /usr/local/bin/print-missing-subranges
+  sort-by-length: /usr/local/bin/sort-by-length
+  xcommon.sh: /usr/local/bin/xcommon.sh
+  xfetch: /usr/local/bin/xfetch
+  xfilter: /usr/local/bin/xfilter
+  xinfo: /usr/local/bin/xinfo
+  xlink: /usr/local/bin/xlink
+  xsearch: /usr/local/bin/xsearch
+  bsmp2info: /usr/local/bin/bsmp2info
+  fsa2xml: /usr/local/bin/fsa2xml
+  gbf2info: /usr/local/bin/gbf2info
+  just-top-hits: /usr/local/bin/just-top-hits
+  systematic-mutations: /usr/local/bin/systematic-mutations
+  archive-nihocc: /usr/local/bin/archive-nihocc
+  archive-nmcds: /usr/local/bin/archive-nmcds
+  archive-pmc: /usr/local/bin/archive-pmc

@@ -1,0 +1,48 @@
+url: https://biocontainers.pro/tools/chronaeon
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for chronaeon
+latest:
+  0.1.1--pyhdfd78af_0: 
+    sha256:1a6e424fb496642485c0b7529004a756116a741130717a102beb8d9a36dea269
+tags:
+  0.1.1--pyhdfd78af_0: 
+    sha256:1a6e424fb496642485c0b7529004a756116a741130717a102beb8d9a36dea269
+docker: quay.io/biocontainers/chronaeon
+aliases:
+  ShortestPathTN93: /usr/local/bin/ShortestPathTN93
+  chronaeon: /usr/local/bin/chronaeon
+  fasta_diff: /usr/local/bin/fasta_diff
+  fasta_digest: /usr/local/bin/fasta_digest
+  nucfreqsfasta: /usr/local/bin/nucfreqsfasta
+  readreduce: /usr/local/bin/readreduce
+  selectreads: /usr/local/bin/selectreads
+  seqcoverage: /usr/local/bin/seqcoverage
+  seqdiff: /usr/local/bin/seqdiff
+  tn93: /usr/local/bin/tn93
+  tn93-cluster: /usr/local/bin/tn93-cluster
+  hf: /usr/local/bin/hf
+  tiny-agents: /usr/local/bin/tiny-agents
+  huggingface-cli: /usr/local/bin/huggingface-cli
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  torchfrtrace: /usr/local/bin/torchfrtrace
+  httpx: /usr/local/bin/httpx
+  pybind11-config: /usr/local/bin/pybind11-config
+  idna: /usr/local/bin/idna
+  torch_shm_manager: /usr/local/bin/torch_shm_manager
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  fc-genconf: /usr/local/bin/fc-genconf
+  torchrun: /usr/local/bin/torchrun
+  isympy: /usr/local/bin/isympy
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  hwloc-gather-cpuid: /usr/local/bin/hwloc-gather-cpuid
+  hwloc-annotate: /usr/local/bin/hwloc-annotate
+  hwloc-bind: /usr/local/bin/hwloc-bind
+  hwloc-calc: /usr/local/bin/hwloc-calc
+  hwloc-compress-dir: /usr/local/bin/hwloc-compress-dir
+  hwloc-diff: /usr/local/bin/hwloc-diff
+  hwloc-distrib: /usr/local/bin/hwloc-distrib
