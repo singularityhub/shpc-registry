@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-epimutacionsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epimutacionsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epimutacionsdata/container.yaml"
-updated_at: "2026-10-01 08:33:32.396475"
+updated_at: "2026-10-02 08:09:01.807895"
 latest: "1.14.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epimutacionsdata"
 aliases:

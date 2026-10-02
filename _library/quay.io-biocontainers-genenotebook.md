@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genenotebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genenotebook/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genenotebook/container.yaml"
-updated_at: "2026-10-01 09:26:38.418442"
+updated_at: "2026-10-02 09:00:17.194615"
 latest: "0.3.2--hd63eeec_3"
 container_url: "https://biocontainers.pro/tools/genenotebook"
 aliases:

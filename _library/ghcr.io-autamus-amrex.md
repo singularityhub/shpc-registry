@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/amrex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/amrex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/amrex/container.yaml"
-updated_at: "2026-10-01 08:29:43.988171"
+updated_at: "2026-10-02 08:05:13.678113"
 latest: "22.11"
 container_url: "https://github.com/orgs/autamus/packages/container/package/amrex"
 

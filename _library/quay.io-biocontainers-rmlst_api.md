@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rmlst_api"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmlst_api/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rmlst_api/container.yaml"
-updated_at: "2026-10-01 09:23:48.598062"
+updated_at: "2026-10-02 08:57:44.452013"
 latest: "0.1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rmlst_api"
 aliases:

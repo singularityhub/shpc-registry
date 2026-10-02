@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msfiddle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msfiddle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msfiddle/container.yaml"
-updated_at: "2026-10-01 08:39:58.399357"
+updated_at: "2026-10-02 08:15:12.587262"
 latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msfiddle"
 aliases:

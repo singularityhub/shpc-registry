@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/treeswift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treeswift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treeswift/container.yaml"
-updated_at: "2026-10-01 08:53:23.565123"
+updated_at: "2026-10-02 08:28:01.832894"
 latest: "1.1.45--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/treeswift"
 aliases:

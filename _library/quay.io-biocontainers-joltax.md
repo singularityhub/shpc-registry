@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/joltax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/joltax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/joltax/container.yaml"
-updated_at: "2026-10-01 09:10:59.838120"
+updated_at: "2026-10-02 08:45:46.226711"
 latest: "0.3.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/joltax"
 aliases:

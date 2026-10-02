@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ore/container.yaml"
-updated_at: "2026-10-01 09:24:25.890681"
+updated_at: "2026-10-02 08:58:18.200984"
 latest: "1.3.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-ore"
 aliases:

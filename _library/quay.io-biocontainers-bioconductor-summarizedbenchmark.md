@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-summarizedbenchmark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-summarizedbenchmark/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-summarizedbenchmark/container.yaml"
-updated_at: "2026-10-01 09:04:12.078799"
+updated_at: "2026-10-02 08:38:49.444239"
 latest: "2.20.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-summarizedbenchmark"
 aliases:

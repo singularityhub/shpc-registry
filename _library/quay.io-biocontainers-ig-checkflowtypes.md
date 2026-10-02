@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ig-checkflowtypes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ig-checkflowtypes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ig-checkflowtypes/container.yaml"
-updated_at: "2026-10-01 09:23:20.509992"
+updated_at: "2026-10-02 08:57:19.133964"
 latest: "1.0.0--r36h4333106_3"
 container_url: "https://biocontainers.pro/tools/ig-checkflowtypes"
 aliases:

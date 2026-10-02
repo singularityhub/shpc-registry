@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/yaggo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yaggo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yaggo/container.yaml"
-updated_at: "2026-10-01 08:35:08.348598"
+updated_at: "2026-10-02 08:10:33.518396"
 latest: "1.5.10--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/yaggo"
 aliases:

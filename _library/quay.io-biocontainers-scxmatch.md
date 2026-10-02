@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scxmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scxmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scxmatch/container.yaml"
-updated_at: "2026-10-01 08:46:51.252948"
+updated_at: "2026-10-02 08:21:39.305510"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scxmatch"
 aliases:

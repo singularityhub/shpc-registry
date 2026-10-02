@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/flexi-formatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flexi-formatter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/flexi-formatter/container.yaml"
-updated_at: "2026-10-01 09:22:41.207808"
+updated_at: "2026-10-02 08:56:43.238501"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flexi-formatter"
 aliases:

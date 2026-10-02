@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-chdir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-chdir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-chdir/container.yaml"
-updated_at: "2026-10-01 08:31:35.131004"
+updated_at: "2026-10-02 08:07:04.920631"
 latest: "0.1010--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-file-chdir"
 aliases:

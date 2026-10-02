@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fwdpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fwdpp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fwdpp/container.yaml"
-updated_at: "2026-10-01 09:09:40.408498"
+updated_at: "2026-10-02 08:44:25.098293"
 latest: "0.5.7--2"
 container_url: "https://biocontainers.pro/tools/fwdpp"
 aliases:

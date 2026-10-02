@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mhctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhctools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhctools/container.yaml"
-updated_at: "2026-10-01 09:07:23.178069"
-latest: "3.31.5--pyh106432d_0"
+updated_at: "2026-10-02 08:42:05.807336"
+latest: "3.44.64--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/mhctools"
 aliases:
  - "mhcflurry-calibrate-percentile-ranks"
@@ -58,8 +58,10 @@ aliases:
  - "elastipubsub5"
 versions:
  - "3.31.5--pyh106432d_0"
+ - "3.44.64--pyh106432d_0"
+ - "3.35.1--pyh106432d_0"
 description: "singularity registry hpc automated addition for mhctools"
-config: {"url": "https://biocontainers.pro/tools/mhctools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mhctools", "latest": {"3.31.5--pyh106432d_0": "sha256:017e2f1b37c1f3a19eb3386352a9a3713d3e15c039a70af6085a4fdb828a98b5"}, "tags": {"3.31.5--pyh106432d_0": "sha256:017e2f1b37c1f3a19eb3386352a9a3713d3e15c039a70af6085a4fdb828a98b5"}, "docker": "quay.io/biocontainers/mhctools", "aliases": {"mhcflurry-calibrate-percentile-ranks": "/usr/local/bin/mhcflurry-calibrate-percentile-ranks", "mhcflurry-class1-select-allele-specific-models": "/usr/local/bin/mhcflurry-class1-select-allele-specific-models", "mhcflurry-class1-select-pan-allele-models": "/usr/local/bin/mhcflurry-class1-select-pan-allele-models", "mhcflurry-class1-select-processing-models": "/usr/local/bin/mhcflurry-class1-select-processing-models", "mhcflurry-class1-train-allele-specific-models": "/usr/local/bin/mhcflurry-class1-train-allele-specific-models", "mhcflurry-class1-train-pan-allele-models": "/usr/local/bin/mhcflurry-class1-train-pan-allele-models", "mhcflurry-class1-train-presentation-models": "/usr/local/bin/mhcflurry-class1-train-presentation-models", "mhcflurry-class1-train-processing-models": "/usr/local/bin/mhcflurry-class1-train-processing-models", "mhcflurry-cluster-worker-entry-point": "/usr/local/bin/mhcflurry-cluster-worker-entry-point", "mhcflurry-downloads": "/usr/local/bin/mhcflurry-downloads", "mhcflurry-predict": "/usr/local/bin/mhcflurry-predict", "mhcflurry-predict-scan": "/usr/local/bin/mhcflurry-predict-scan", "mhcgnomes": "/usr/local/bin/mhcgnomes", "mhctools": "/usr/local/bin/mhctools", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "psl": "/usr/local/bin/psl", "psl-make-dafsa": "/usr/local/bin/psl-make-dafsa", "pylint-config": "/usr/local/bin/pylint-config", "varcode": "/usr/local/bin/varcode", "varcode-genes": "/usr/local/bin/varcode-genes", "pyensembl": "/usr/local/bin/pyensembl", "isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pylint": "/usr/local/bin/pylint", "pyreverse": "/usr/local/bin/pyreverse", "symilar": "/usr/local/bin/symilar", "isort": "/usr/local/bin/isort", "idna": "/usr/local/bin/idna", "get_gprof": "/usr/local/bin/get_gprof", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "elastipubsub5": "/usr/local/bin/elastipubsub5"}}
+config: {"url": "https://biocontainers.pro/tools/mhctools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for mhctools", "latest": {"3.44.64--pyh106432d_0": "sha256:2689866084c580089a7c88795881ede2600cde0f738428da992a0f49ba8174bc"}, "tags": {"3.31.5--pyh106432d_0": "sha256:017e2f1b37c1f3a19eb3386352a9a3713d3e15c039a70af6085a4fdb828a98b5", "3.44.64--pyh106432d_0": "sha256:2689866084c580089a7c88795881ede2600cde0f738428da992a0f49ba8174bc", "3.35.1--pyh106432d_0": "sha256:e392321c8296e6a5a77a2b7993b058b298c294b4f9b367a9febf1ae9fc91b883"}, "docker": "quay.io/biocontainers/mhctools", "aliases": {"mhcflurry-calibrate-percentile-ranks": "/usr/local/bin/mhcflurry-calibrate-percentile-ranks", "mhcflurry-class1-select-allele-specific-models": "/usr/local/bin/mhcflurry-class1-select-allele-specific-models", "mhcflurry-class1-select-pan-allele-models": "/usr/local/bin/mhcflurry-class1-select-pan-allele-models", "mhcflurry-class1-select-processing-models": "/usr/local/bin/mhcflurry-class1-select-processing-models", "mhcflurry-class1-train-allele-specific-models": "/usr/local/bin/mhcflurry-class1-train-allele-specific-models", "mhcflurry-class1-train-pan-allele-models": "/usr/local/bin/mhcflurry-class1-train-pan-allele-models", "mhcflurry-class1-train-presentation-models": "/usr/local/bin/mhcflurry-class1-train-presentation-models", "mhcflurry-class1-train-processing-models": "/usr/local/bin/mhcflurry-class1-train-processing-models", "mhcflurry-cluster-worker-entry-point": "/usr/local/bin/mhcflurry-cluster-worker-entry-point", "mhcflurry-downloads": "/usr/local/bin/mhcflurry-downloads", "mhcflurry-predict": "/usr/local/bin/mhcflurry-predict", "mhcflurry-predict-scan": "/usr/local/bin/mhcflurry-predict-scan", "mhcgnomes": "/usr/local/bin/mhcgnomes", "mhctools": "/usr/local/bin/mhctools", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "psl": "/usr/local/bin/psl", "psl-make-dafsa": "/usr/local/bin/psl-make-dafsa", "pylint-config": "/usr/local/bin/pylint-config", "varcode": "/usr/local/bin/varcode", "varcode-genes": "/usr/local/bin/varcode-genes", "pyensembl": "/usr/local/bin/pyensembl", "isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pylint": "/usr/local/bin/pylint", "pyreverse": "/usr/local/bin/pyreverse", "symilar": "/usr/local/bin/symilar", "isort": "/usr/local/bin/isort", "idna": "/usr/local/bin/idna", "get_gprof": "/usr/local/bin/get_gprof", "torchfrtrace": "/usr/local/bin/torchfrtrace", "pybind11-config": "/usr/local/bin/pybind11-config", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "torch_shm_manager": "/usr/local/bin/torch_shm_manager", "h2benchmark": "/usr/local/bin/h2benchmark", "elastishadow": "/usr/local/bin/elastishadow", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "torchrun": "/usr/local/bin/torchrun", "isympy": "/usr/local/bin/isympy", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "elastipubsub5": "/usr/local/bin/elastipubsub5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mhctools.
@@ -74,7 +76,7 @@ $ shpc install quay.io/biocontainers/mhctools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mhctools:3.31.5--pyh106432d_0
+$ shpc install quay.io/biocontainers/mhctools:3.44.64--pyh106432d_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -86,8 +88,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mhctools/3.31.5--pyh106432d_0
-$ module help quay.io/biocontainers/mhctools/3.31.5--pyh106432d_0
+$ module load quay.io/biocontainers/mhctools/3.44.64--pyh106432d_0
+$ module help quay.io/biocontainers/mhctools/3.44.64--pyh106432d_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

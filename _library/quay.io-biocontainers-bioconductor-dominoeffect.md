@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dominoeffect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dominoeffect/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dominoeffect/container.yaml"
-updated_at: "2026-10-01 08:49:14.124996"
+updated_at: "2026-10-02 08:23:58.445198"
 latest: "1.30.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dominoeffect"
 aliases:

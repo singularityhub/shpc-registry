@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biokit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biokit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biokit/container.yaml"
-updated_at: "2026-10-01 08:42:52.788398"
+updated_at: "2026-10-02 08:18:00.125066"
 latest: "0.5.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/biokit"
 aliases:
