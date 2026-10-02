@@ -2,13 +2,15 @@ url: https://biocontainers.pro/tools/metapub
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metapub
 latest:
-  0.7.4--pyh106432d_0: 
-    sha256:982629755c979ca75174d1f248a52f568f76630a5a0181a9d288bf632523de6e
+  0.7.5--pyh106432d_0: 
+    sha256:9bde7b5d0a8417456750fc2573f620af1026aeb17d2a26c99d470f13ef666072
 tags:
   0.6.4--pyhdfd78af_1: 
     sha256:1825bb648e5a919adcc68b4d8a9706e0d595fa50e727d0b72ae5a4baf688af1b
   0.7.4--pyh106432d_0: 
     sha256:982629755c979ca75174d1f248a52f568f76630a5a0181a9d288bf632523de6e
+  0.7.5--pyh106432d_0: 
+    sha256:9bde7b5d0a8417456750fc2573f620af1026aeb17d2a26c99d470f13ef666072
 docker: quay.io/biocontainers/metapub
 aliases:
   metapub-registry: /usr/local/bin/metapub-registry

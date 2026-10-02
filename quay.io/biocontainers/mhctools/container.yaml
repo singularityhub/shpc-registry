@@ -2,11 +2,15 @@ url: https://biocontainers.pro/tools/mhctools
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for mhctools
 latest:
-  3.31.5--pyh106432d_0: 
-    sha256:017e2f1b37c1f3a19eb3386352a9a3713d3e15c039a70af6085a4fdb828a98b5
+  3.44.64--pyh106432d_0: 
+    sha256:2689866084c580089a7c88795881ede2600cde0f738428da992a0f49ba8174bc
 tags:
   3.31.5--pyh106432d_0: 
     sha256:017e2f1b37c1f3a19eb3386352a9a3713d3e15c039a70af6085a4fdb828a98b5
+  3.44.64--pyh106432d_0: 
+    sha256:2689866084c580089a7c88795881ede2600cde0f738428da992a0f49ba8174bc
+  3.35.1--pyh106432d_0: 
+    sha256:e392321c8296e6a5a77a2b7993b058b298c294b4f9b367a9febf1ae9fc91b883
 docker: quay.io/biocontainers/mhctools
 aliases:
   mhcflurry-calibrate-percentile-ranks: 

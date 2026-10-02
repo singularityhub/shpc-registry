@@ -11,6 +11,8 @@ tags:
     sha256:ff330f1876c439910d766eed0f8b568e5a8d611ef3a0ec7da095d8922fcaf2c4
   1.1.1rc1--pyh106432d_1: 
     sha256:712f5e50994e6dc44519bfa556460f7737fa93cff189e2206ebb7a1284116f48
+  1.1.1--pyhdfd78af_1: 
+    sha256:a246b8ffd039c054535d7e187753f6712491d96db7d0464a66ffc8787a60ad05
 docker: quay.io/biocontainers/foldtree
 aliases:
   apisearch: /usr/local/bin/apisearch
