@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/longairr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for longairr
 latest:
-  1.1.0--hdfd78af_0: 
-    sha256:ea57aad372f6521cefd96f5928561508ad75501ce41df2bc7d1fa3c79d914163
+  1.1.0--hdfd78af_1: 
+    sha256:3a2b43ff61f463f835509333c6f3216048eb8d4c3cd0769fb9118bf9ba041d12
 tags:
   1.1.0--hdfd78af_0: 
     sha256:ea57aad372f6521cefd96f5928561508ad75501ce41df2bc7d1fa3c79d914163
+  1.1.0--hdfd78af_1: 
+    sha256:3a2b43ff61f463f835509333c6f3216048eb8d4c3cd0769fb9118bf9ba041d12
 docker: quay.io/biocontainers/longairr
 aliases:
   AlignRecords.py: /usr/local/bin/AlignRecords.py

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/ervmancer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for ervmancer
 latest:
-  1.0.0--pyhdfd78af_0: 
-    sha256:64cab1d9a9308db2319fb86a35e7f36594a41ad01620fbfebf565c13f1bc0653
+  1.0.1--pyhdfd78af_0: 
+    sha256:ec86e6576e8e11564c5f8145061dba484831bcd43031a3c7d760b82fc101eadd
 tags:
   0.0.1--pyhdfd78af_0: 
     sha256:9d66636ba974b2057c3072bf1dd047e66ffab27ce86ca1678a9c9e574fb5127c
@@ -15,6 +15,8 @@ tags:
     sha256:a04e7dbc2869d2d5496fb4ba5f7af23a328736256c983dab9329e4de5981b54c
   1.0.0--pyhdfd78af_0: 
     sha256:64cab1d9a9308db2319fb86a35e7f36594a41ad01620fbfebf565c13f1bc0653
+  1.0.1--pyhdfd78af_0: 
+    sha256:ec86e6576e8e11564c5f8145061dba484831bcd43031a3c7d760b82fc101eadd
 docker: quay.io/biocontainers/ervmancer
 aliases:
   ervmancer: /usr/local/bin/ervmancer
