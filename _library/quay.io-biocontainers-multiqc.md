@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multiqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc/container.yaml"
-updated_at: "2026-10-02 08:12:36.435701"
+updated_at: "2026-10-03 07:49:59.243202"
 latest: "1.35--pyhdfd78af_2"
 container_url: "https://biocontainers.pro/tools/multiqc"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ptairdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ptairdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ptairdata/container.yaml"
-updated_at: "2026-10-02 08:48:41.816987"
+updated_at: "2026-10-03 08:11:40.042004"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ptairdata"
 

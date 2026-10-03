@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-doubletfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-doubletfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-doubletfinder/container.yaml"
-updated_at: "2026-10-02 08:52:36.990238"
+updated_at: "2026-10-03 08:14:04.400287"
 latest: "2.0.6--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-doubletfinder"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sar11-genome-atlas-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sar11-genome-atlas-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sar11-genome-atlas-tools/container.yaml"
-updated_at: "2026-10-02 08:32:11.055666"
-latest: "0.1.8--pyhdfd78af_0"
+updated_at: "2026-10-03 08:01:48.592238"
+latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sar11-genome-atlas-tools"
 aliases:
  - "epa-ng"
@@ -42,8 +42,9 @@ aliases:
  - "gawk"
 versions:
  - "0.1.8--pyhdfd78af_0"
+ - "0.2.0--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for sar11-genome-atlas-tools"
-config: {"url": "https://biocontainers.pro/tools/sar11-genome-atlas-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sar11-genome-atlas-tools", "latest": {"0.1.8--pyhdfd78af_0": "sha256:b06b64cf41af714e2399a52c0486c01f11be8e318fec9ab4cc8bcee4b02d6a58"}, "tags": {"0.1.8--pyhdfd78af_0": "sha256:b06b64cf41af714e2399a52c0486c01f11be8e318fec9ab4cc8bcee4b02d6a58"}, "docker": "quay.io/biocontainers/sar11-genome-atlas-tools", "aliases": {"epa-ng": "/usr/local/bin/epa-ng", "gawk-5.4.1": "/usr/local/bin/gawk-5.4.1", "sga-classify": "/usr/local/bin/sga-classify", "sga-db": "/usr/local/bin/sga-db", "sga-map": "/usr/local/bin/sga-map", "sga-mapper": "/usr/local/bin/sga-mapper", "sga-run": "/usr/local/bin/sga-run", "fastANI": "/usr/local/bin/fastANI", "gawkbug": "/usr/local/bin/gawkbug", "prodigal": "/usr/local/bin/prodigal", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi", "mafft": "/usr/local/bin/mafft", "gawk": "/usr/local/bin/gawk"}}
+config: {"url": "https://biocontainers.pro/tools/sar11-genome-atlas-tools", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for sar11-genome-atlas-tools", "latest": {"0.2.0--pyhdfd78af_0": "sha256:1e8e6f42703481cfe3a82419ea68bc0f460b4e4ea47aa1aad829528dba5da595"}, "tags": {"0.1.8--pyhdfd78af_0": "sha256:b06b64cf41af714e2399a52c0486c01f11be8e318fec9ab4cc8bcee4b02d6a58", "0.2.0--pyhdfd78af_0": "sha256:1e8e6f42703481cfe3a82419ea68bc0f460b4e4ea47aa1aad829528dba5da595"}, "docker": "quay.io/biocontainers/sar11-genome-atlas-tools", "aliases": {"epa-ng": "/usr/local/bin/epa-ng", "gawk-5.4.1": "/usr/local/bin/gawk-5.4.1", "sga-classify": "/usr/local/bin/sga-classify", "sga-db": "/usr/local/bin/sga-db", "sga-map": "/usr/local/bin/sga-map", "sga-mapper": "/usr/local/bin/sga-mapper", "sga-run": "/usr/local/bin/sga-run", "fastANI": "/usr/local/bin/fastANI", "gawkbug": "/usr/local/bin/gawkbug", "prodigal": "/usr/local/bin/prodigal", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi", "mafft-ginsi": "/usr/local/bin/mafft-ginsi", "mafft-homologs.rb": "/usr/local/bin/mafft-homologs.rb", "mafft-linsi": "/usr/local/bin/mafft-linsi", "mafft-nwns": "/usr/local/bin/mafft-nwns", "mafft-nwnsi": "/usr/local/bin/mafft-nwnsi", "mafft-profile": "/usr/local/bin/mafft-profile", "mafft-qinsi": "/usr/local/bin/mafft-qinsi", "mafft-xinsi": "/usr/local/bin/mafft-xinsi", "nwns": "/usr/local/bin/nwns", "nwnsi": "/usr/local/bin/nwnsi", "mafft": "/usr/local/bin/mafft", "gawk": "/usr/local/bin/gawk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sar11-genome-atlas-tools.
@@ -58,7 +59,7 @@ $ shpc install quay.io/biocontainers/sar11-genome-atlas-tools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sar11-genome-atlas-tools:0.1.8--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/sar11-genome-atlas-tools:0.2.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -70,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sar11-genome-atlas-tools/0.1.8--pyhdfd78af_0
-$ module help quay.io/biocontainers/sar11-genome-atlas-tools/0.1.8--pyhdfd78af_0
+$ module load quay.io/biocontainers/sar11-genome-atlas-tools/0.2.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/sar11-genome-atlas-tools/0.2.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/citeable"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/citeable/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/citeable/container.yaml"
-updated_at: "2026-10-02 08:42:36.410498"
-latest: "2026.3.11b1--pyhdfd78af_0"
+updated_at: "2026-10-03 08:08:02.454771"
+latest: "2026.9.24--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/citeable"
 aliases:
  - "idle3.14"
@@ -14,8 +14,9 @@ aliases:
  - "python3.14-config"
 versions:
  - "2026.3.11b1--pyhdfd78af_0"
+ - "2026.9.24--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for citeable"
-config: {"url": "https://biocontainers.pro/tools/citeable", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for citeable", "latest": {"2026.3.11b1--pyhdfd78af_0": "sha256:68d4926305535361abcc3df9fa9b3076415fd68f10b30ce60f93fd38a88a6dce"}, "tags": {"2026.3.11b1--pyhdfd78af_0": "sha256:68d4926305535361abcc3df9fa9b3076415fd68f10b30ce60f93fd38a88a6dce"}, "docker": "quay.io/biocontainers/citeable", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
+config: {"url": "https://biocontainers.pro/tools/citeable", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for citeable", "latest": {"2026.9.24--pyhdfd78af_0": "sha256:147b36dc669497c6ce373d4036eebbf9d5f9d7f7df08c3b61eb5eb2b8394c090"}, "tags": {"2026.3.11b1--pyhdfd78af_0": "sha256:68d4926305535361abcc3df9fa9b3076415fd68f10b30ce60f93fd38a88a6dce", "2026.9.24--pyhdfd78af_0": "sha256:147b36dc669497c6ce373d4036eebbf9d5f9d7f7df08c3b61eb5eb2b8394c090"}, "docker": "quay.io/biocontainers/citeable", "aliases": {"idle3.14": "/usr/local/bin/idle3.14", "pydoc3.14": "/usr/local/bin/pydoc3.14", "python3.14": "/usr/local/bin/python3.14", "python3.14-config": "/usr/local/bin/python3.14-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/citeable.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/citeable
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/citeable:2026.3.11b1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/citeable:2026.9.24--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/citeable/2026.3.11b1--pyhdfd78af_0
-$ module help quay.io/biocontainers/citeable/2026.3.11b1--pyhdfd78af_0
+$ module load quay.io/biocontainers/citeable/2026.9.24--pyhdfd78af_0
+$ module help quay.io/biocontainers/citeable/2026.9.24--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

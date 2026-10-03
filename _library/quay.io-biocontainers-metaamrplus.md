@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaamrplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaamrplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaamrplus/container.yaml"
-updated_at: "2026-10-02 08:26:23.949950"
+updated_at: "2026-10-03 07:58:20.455340"
 latest: "1.5.2--py314hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metaamrplus"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epicore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epicore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epicore/container.yaml"
-updated_at: "2026-10-02 08:48:58.856874"
+updated_at: "2026-10-03 08:11:50.021279"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/epicore"
 aliases:
