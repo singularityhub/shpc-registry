@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-proteinprofiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proteinprofiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proteinprofiles/container.yaml"
-updated_at: "2026-10-03 08:09:40.329922"
+updated_at: "2026-10-04 08:35:16.863299"
 latest: "1.50.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-proteinprofiles"
 

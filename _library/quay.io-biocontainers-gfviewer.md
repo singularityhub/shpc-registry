@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gfviewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gfviewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gfviewer/container.yaml"
-updated_at: "2026-10-03 07:52:00.060236"
-latest: "1.0.4--pyhdfd78af_0"
+updated_at: "2026-10-04 08:07:17.062800"
+latest: "2.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gfviewer"
 aliases:
  - "gfviewer"
@@ -33,8 +33,9 @@ aliases:
  - "opj_dump"
 versions:
  - "1.0.4--pyhdfd78af_0"
+ - "2.0.4--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for gfviewer"
-config: {"url": "https://biocontainers.pro/tools/gfviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfviewer", "latest": {"1.0.4--pyhdfd78af_0": "sha256:2fafdec4e45c2271cfab65aca2f90d81b9c8e97fef9dc54b76bca1c58bb8257c"}, "tags": {"1.0.4--pyhdfd78af_0": "sha256:2fafdec4e45c2271cfab65aca2f90d81b9c8e97fef9dc54b76bca1c58bb8257c"}, "docker": "quay.io/biocontainers/gfviewer", "aliases": {"gfviewer": "/usr/local/bin/gfviewer", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "chardetect": "/usr/local/bin/chardetect", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/gfviewer", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for gfviewer", "latest": {"2.0.4--pyhdfd78af_0": "sha256:45bdb02cdb8b048c5f1bdc6a0dbe38bd110ea2a988b6bb2f48ea5eb7e28faee4"}, "tags": {"1.0.4--pyhdfd78af_0": "sha256:2fafdec4e45c2271cfab65aca2f90d81b9c8e97fef9dc54b76bca1c58bb8257c", "2.0.4--pyhdfd78af_0": "sha256:45bdb02cdb8b048c5f1bdc6a0dbe38bd110ea2a988b6bb2f48ea5eb7e28faee4"}, "docker": "quay.io/biocontainers/gfviewer", "aliases": {"gfviewer": "/usr/local/bin/gfviewer", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "numpy-config": "/usr/local/bin/numpy-config", "chardetect": "/usr/local/bin/chardetect", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "tjbench": "/usr/local/bin/tjbench", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gfviewer.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/gfviewer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gfviewer:1.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/gfviewer:2.0.4--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gfviewer/1.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/gfviewer/1.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/gfviewer/2.0.4--pyhdfd78af_0
+$ module help quay.io/biocontainers/gfviewer/2.0.4--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

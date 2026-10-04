@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/saintbioutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saintbioutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/saintbioutils/container.yaml"
-updated_at: "2026-10-03 07:54:30.204275"
+updated_at: "2026-10-04 08:11:10.048405"
 latest: "0.0.25--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/saintbioutils"
 aliases:

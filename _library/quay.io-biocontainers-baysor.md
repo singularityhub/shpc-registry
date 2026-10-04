@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/baysor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/baysor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/baysor/container.yaml"
-updated_at: "2026-10-03 08:06:02.662883"
+updated_at: "2026-10-04 08:29:31.106778"
 latest: "0.7.1--h467016e_2"
 container_url: "https://biocontainers.pro/tools/baysor"
 aliases:

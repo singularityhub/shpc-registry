@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/panqc/container.yaml"
-updated_at: "2026-10-03 08:11:19.532890"
+updated_at: "2026-10-04 08:37:55.017718"
 latest: "0.0.4--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/panqc"
 aliases:

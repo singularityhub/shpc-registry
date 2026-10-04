@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacortex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacortex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacortex/container.yaml"
-updated_at: "2026-10-03 08:03:58.801753"
+updated_at: "2026-10-04 08:26:20.834224"
 latest: "0.5.1--h7b50bb2_3"
 container_url: "https://biocontainers.pro/tools/metacortex"
 aliases:

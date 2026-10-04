@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/khipu-metabolomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/khipu-metabolomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/khipu-metabolomics/container.yaml"
-updated_at: "2026-10-03 08:01:52.423031"
+updated_at: "2026-10-04 08:22:59.622320"
 latest: "2.0.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/khipu-metabolomics"
 aliases:

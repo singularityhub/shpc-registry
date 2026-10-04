@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/pp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pp/container.yaml"
-updated_at: "2026-10-03 07:51:55.503737"
-latest: "1.6.5--py_2"
+updated_at: "2026-10-04 08:07:09.981547"
+latest: "1.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pp"
 
 versions:
  - "1.6.5--py_2"
+ - "1.7.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pp"
-config: {"url": "https://biocontainers.pro/tools/pp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pp", "latest": {"1.6.5--py_2": "sha256:6c34bfcaf49fb115a983714ed3355e911c97850e81fd2df2f56f14801de621d5"}, "tags": {"1.6.5--py_2": "sha256:6c34bfcaf49fb115a983714ed3355e911c97850e81fd2df2f56f14801de621d5"}, "docker": "quay.io/biocontainers/pp"}
+config: {"url": "https://biocontainers.pro/tools/pp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pp", "latest": {"1.7.0--pyhdfd78af_0": "sha256:e4d8bb13cb7c5dbf1cf0f40a3411fae29f922b3350d842124da936852dc4582a"}, "tags": {"1.6.5--py_2": "sha256:6c34bfcaf49fb115a983714ed3355e911c97850e81fd2df2f56f14801de621d5", "1.7.0--pyhdfd78af_0": "sha256:e4d8bb13cb7c5dbf1cf0f40a3411fae29f922b3350d842124da936852dc4582a"}, "docker": "quay.io/biocontainers/pp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/pp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pp:1.6.5--py_2
+$ shpc install quay.io/biocontainers/pp:1.7.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pp/1.6.5--py_2
-$ module help quay.io/biocontainers/pp/1.6.5--py_2
+$ module load quay.io/biocontainers/pp/1.7.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/pp/1.7.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

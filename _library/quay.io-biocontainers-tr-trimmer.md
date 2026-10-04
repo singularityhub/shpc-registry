@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tr-trimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tr-trimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tr-trimmer/container.yaml"
-updated_at: "2026-10-03 08:01:47.697823"
+updated_at: "2026-10-04 08:22:51.985298"
 latest: "0.5.0--hab7d0fd_0"
 container_url: "https://biocontainers.pro/tools/tr-trimmer"
 aliases:

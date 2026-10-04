@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/proteomiqon-peptidespectrummatching"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-peptidespectrummatching/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-peptidespectrummatching/container.yaml"
-updated_at: "2026-10-03 08:16:00.876021"
-latest: "0.0.7--hdfd78af_1"
+updated_at: "2026-10-04 08:45:00.949926"
+latest: "0.0.9--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-peptidespectrummatching"
 aliases:
  - "lttng-gen-tp"
  - "proteomiqon-peptidespectrummatching"
 versions:
  - "0.0.7--hdfd78af_1"
+ - "0.0.9--h774997f_0"
 description: "shpc-registry automated BioContainers addition for proteomiqon-peptidespectrummatching"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-peptidespectrummatching", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-peptidespectrummatching", "latest": {"0.0.7--hdfd78af_1": "sha256:4b3ec0a98188be7b26679637a2cb3d442a630eeae7d33e895c9392fa4ce4da52"}, "tags": {"0.0.7--hdfd78af_1": "sha256:4b3ec0a98188be7b26679637a2cb3d442a630eeae7d33e895c9392fa4ce4da52"}, "docker": "quay.io/biocontainers/proteomiqon-peptidespectrummatching", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-peptidespectrummatching": "/usr/local/bin/proteomiqon-peptidespectrummatching"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-peptidespectrummatching", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-peptidespectrummatching", "latest": {"0.0.9--h774997f_0": "sha256:1bf7c09e425697e3ef92b7c1498055406f9f648d58dbedbfb0151d82a65b0a1c"}, "tags": {"0.0.7--hdfd78af_1": "sha256:4b3ec0a98188be7b26679637a2cb3d442a630eeae7d33e895c9392fa4ce4da52", "0.0.9--h774997f_0": "sha256:1bf7c09e425697e3ef92b7c1498055406f9f648d58dbedbfb0151d82a65b0a1c"}, "docker": "quay.io/biocontainers/proteomiqon-peptidespectrummatching", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-peptidespectrummatching": "/usr/local/bin/proteomiqon-peptidespectrummatching"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-peptidespectrummatching.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/proteomiqon-peptidespectrummatching
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteomiqon-peptidespectrummatching:0.0.7--hdfd78af_1
+$ shpc install quay.io/biocontainers/proteomiqon-peptidespectrummatching:0.0.9--h774997f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteomiqon-peptidespectrummatching/0.0.7--hdfd78af_1
-$ module help quay.io/biocontainers/proteomiqon-peptidespectrummatching/0.0.7--hdfd78af_1
+$ module load quay.io/biocontainers/proteomiqon-peptidespectrummatching/0.0.9--h774997f_0
+$ module help quay.io/biocontainers/proteomiqon-peptidespectrummatching/0.0.9--h774997f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/proteomiqon-psmbasedquantification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-psmbasedquantification/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-psmbasedquantification/container.yaml"
-updated_at: "2026-10-03 08:05:07.755894"
-latest: "0.0.9--hdfd78af_0"
+updated_at: "2026-10-04 08:28:04.602096"
+latest: "0.0.12--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-psmbasedquantification"
 aliases:
  - "lttng-gen-tp"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "0.0.8--hdfd78af_0"
  - "0.0.9--hdfd78af_0"
+ - "0.0.12--h774997f_0"
 description: "shpc-registry automated BioContainers addition for proteomiqon-psmbasedquantification"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-psmbasedquantification", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-psmbasedquantification", "latest": {"0.0.9--hdfd78af_0": "sha256:58238f0706e842a9bac4f718d7e2690a230534768752d471aee8fd9828faeb6f"}, "tags": {"0.0.8--hdfd78af_0": "sha256:2f21ad635d6e79e65dbbe5263a628ce51bf931d0b5bb504a483e0919278fe67b", "0.0.9--hdfd78af_0": "sha256:58238f0706e842a9bac4f718d7e2690a230534768752d471aee8fd9828faeb6f"}, "docker": "quay.io/biocontainers/proteomiqon-psmbasedquantification", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-psmbasedquantification": "/usr/local/bin/proteomiqon-psmbasedquantification"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-psmbasedquantification", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-psmbasedquantification", "latest": {"0.0.12--h774997f_0": "sha256:8015596d812815e246297f1edc284f10d3aab9c361c8211ccb0c8a10889b9d85"}, "tags": {"0.0.8--hdfd78af_0": "sha256:2f21ad635d6e79e65dbbe5263a628ce51bf931d0b5bb504a483e0919278fe67b", "0.0.9--hdfd78af_0": "sha256:58238f0706e842a9bac4f718d7e2690a230534768752d471aee8fd9828faeb6f", "0.0.12--h774997f_0": "sha256:8015596d812815e246297f1edc284f10d3aab9c361c8211ccb0c8a10889b9d85"}, "docker": "quay.io/biocontainers/proteomiqon-psmbasedquantification", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-psmbasedquantification": "/usr/local/bin/proteomiqon-psmbasedquantification"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-psmbasedquantification.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/proteomiqon-psmbasedquantification
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteomiqon-psmbasedquantification:0.0.9--hdfd78af_0
+$ shpc install quay.io/biocontainers/proteomiqon-psmbasedquantification:0.0.12--h774997f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteomiqon-psmbasedquantification/0.0.9--hdfd78af_0
-$ module help quay.io/biocontainers/proteomiqon-psmbasedquantification/0.0.9--hdfd78af_0
+$ module load quay.io/biocontainers/proteomiqon-psmbasedquantification/0.0.12--h774997f_0
+$ module help quay.io/biocontainers/proteomiqon-psmbasedquantification/0.0.12--h774997f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

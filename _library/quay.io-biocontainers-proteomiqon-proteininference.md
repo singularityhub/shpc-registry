@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/proteomiqon-proteininference"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-proteininference/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-proteininference/container.yaml"
-updated_at: "2026-10-03 08:02:49.457530"
-latest: "0.0.7--hdfd78af_1"
+updated_at: "2026-10-04 08:24:29.553397"
+latest: "0.0.10--h774997f_0"
 container_url: "https://biocontainers.pro/tools/proteomiqon-proteininference"
 aliases:
  - "lttng-gen-tp"
  - "proteomiqon-proteininference"
 versions:
  - "0.0.7--hdfd78af_1"
+ - "0.0.10--h774997f_0"
 description: "shpc-registry automated BioContainers addition for proteomiqon-proteininference"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-proteininference", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-proteininference", "latest": {"0.0.7--hdfd78af_1": "sha256:6f312fa59f1067ae71049e2f1bb6ea89a47267419b282477ea5623b0a4df2f04"}, "tags": {"0.0.7--hdfd78af_1": "sha256:6f312fa59f1067ae71049e2f1bb6ea89a47267419b282477ea5623b0a4df2f04"}, "docker": "quay.io/biocontainers/proteomiqon-proteininference", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-proteininference": "/usr/local/bin/proteomiqon-proteininference"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-proteininference", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-proteininference", "latest": {"0.0.10--h774997f_0": "sha256:ac8e02c8d191d360ad8eef78ccb79cfe9348e94b16dc42d23b52381bae1a33e5"}, "tags": {"0.0.7--hdfd78af_1": "sha256:6f312fa59f1067ae71049e2f1bb6ea89a47267419b282477ea5623b0a4df2f04", "0.0.10--h774997f_0": "sha256:ac8e02c8d191d360ad8eef78ccb79cfe9348e94b16dc42d23b52381bae1a33e5"}, "docker": "quay.io/biocontainers/proteomiqon-proteininference", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-proteininference": "/usr/local/bin/proteomiqon-proteininference"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-proteininference.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/proteomiqon-proteininference
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proteomiqon-proteininference:0.0.7--hdfd78af_1
+$ shpc install quay.io/biocontainers/proteomiqon-proteininference:0.0.10--h774997f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proteomiqon-proteininference/0.0.7--hdfd78af_1
-$ module help quay.io/biocontainers/proteomiqon-proteininference/0.0.7--hdfd78af_1
+$ module load quay.io/biocontainers/proteomiqon-proteininference/0.0.10--h774997f_0
+$ module help quay.io/biocontainers/proteomiqon-proteininference/0.0.10--h774997f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

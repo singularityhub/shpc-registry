@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-merfishdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-merfishdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-merfishdata/container.yaml"
-updated_at: "2026-10-03 08:16:07.182696"
+updated_at: "2026-10-04 08:45:10.286441"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-merfishdata"
 aliases:
