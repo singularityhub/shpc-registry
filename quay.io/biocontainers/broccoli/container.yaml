@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/broccoli
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for broccoli
+latest:
+  2.0.0--hab7d0fd_0: 
+    sha256:0366cd59a88bc4130942ab976984a88ad73c14b115515bbbfb97d6a41028c657
+tags:
+  2.0.0--hab7d0fd_0: 
+    sha256:0366cd59a88bc4130942ab976984a88ad73c14b115515bbbfb97d6a41028c657
+docker: quay.io/biocontainers/broccoli
+aliases:
+  broccoli: /usr/local/bin/broccoli
+  FastTreeMP: /usr/local/bin/FastTreeMP
+  FastTree: /usr/local/bin/FastTree
+  fasttree: /usr/local/bin/fasttree
+  diamond: /usr/local/bin/diamond
