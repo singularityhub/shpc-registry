@@ -3,11 +3,13 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   proteomiqon-proteininference
 latest:
-  0.0.7--hdfd78af_1: 
-    sha256:6f312fa59f1067ae71049e2f1bb6ea89a47267419b282477ea5623b0a4df2f04
+  0.0.10--h774997f_0: 
+    sha256:ac8e02c8d191d360ad8eef78ccb79cfe9348e94b16dc42d23b52381bae1a33e5
 tags:
   0.0.7--hdfd78af_1: 
     sha256:6f312fa59f1067ae71049e2f1bb6ea89a47267419b282477ea5623b0a4df2f04
+  0.0.10--h774997f_0: 
+    sha256:ac8e02c8d191d360ad8eef78ccb79cfe9348e94b16dc42d23b52381bae1a33e5
 docker: quay.io/biocontainers/proteomiqon-proteininference
 aliases:
   lttng-gen-tp: /usr/local/bin/lttng-gen-tp

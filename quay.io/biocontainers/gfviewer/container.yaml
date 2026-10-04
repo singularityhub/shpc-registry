@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/gfviewer
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for gfviewer
 latest:
-  1.0.4--pyhdfd78af_0: 
-    sha256:2fafdec4e45c2271cfab65aca2f90d81b9c8e97fef9dc54b76bca1c58bb8257c
+  2.0.4--pyhdfd78af_0: 
+    sha256:45bdb02cdb8b048c5f1bdc6a0dbe38bd110ea2a988b6bb2f48ea5eb7e28faee4
 tags:
   1.0.4--pyhdfd78af_0: 
     sha256:2fafdec4e45c2271cfab65aca2f90d81b9c8e97fef9dc54b76bca1c58bb8257c
+  2.0.4--pyhdfd78af_0: 
+    sha256:45bdb02cdb8b048c5f1bdc6a0dbe38bd110ea2a988b6bb2f48ea5eb7e28faee4
 docker: quay.io/biocontainers/gfviewer
 aliases:
   gfviewer: /usr/local/bin/gfviewer

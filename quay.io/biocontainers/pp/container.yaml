@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/pp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pp
 latest:
-  1.6.5--py_2: 
-    sha256:6c34bfcaf49fb115a983714ed3355e911c97850e81fd2df2f56f14801de621d5
+  1.7.0--pyhdfd78af_0: 
+    sha256:e4d8bb13cb7c5dbf1cf0f40a3411fae29f922b3350d842124da936852dc4582a
 tags:
   1.6.5--py_2: 
     sha256:6c34bfcaf49fb115a983714ed3355e911c97850e81fd2df2f56f14801de621d5
+  1.7.0--pyhdfd78af_0: 
+    sha256:e4d8bb13cb7c5dbf1cf0f40a3411fae29f922b3350d842124da936852dc4582a
 docker: quay.io/biocontainers/pp
