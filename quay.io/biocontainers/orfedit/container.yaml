@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/orfedit
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for orfedit
+latest:
+  0.1.0--hab7d0fd_1: 
+    sha256:ad35a1405d1076d34f9c351e5943eb2578b3230e09c91c122263fc71f73c4004
+tags:
+  0.1.0--hab7d0fd_1: 
+    sha256:ad35a1405d1076d34f9c351e5943eb2578b3230e09c91c122263fc71f73c4004
+docker: quay.io/biocontainers/orfedit
+aliases:
+  orfedit: /usr/local/bin/orfedit

@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/metacat
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metacat
+latest:
+  1.0.6--py314h9ee0642_0: 
+    sha256:17c764b989a70192e3788085ac2773b982ecdd876e1c2f54a6af4821bc11f571
+tags:
+  1.0.6--py314h9ee0642_0: 
+    sha256:17c764b989a70192e3788085ac2773b982ecdd876e1c2f54a6af4821bc11f571
+docker: quay.io/biocontainers/metacat
+aliases:
+  MetaCAT: /usr/local/bin/MetaCAT
+  FragGeneScan: /usr/local/bin/FragGeneScan
+  run_FragGeneScan.pl: /usr/local/bin/run_FragGeneScan.pl
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  fc-genconf: /usr/local/bin/fc-genconf
+  hmmpgmd_shard: /usr/local/bin/hmmpgmd_shard
+  easel: /usr/local/bin/easel
+  esl-mixdchlet: /usr/local/bin/esl-mixdchlet
+  esl-alimanip: /usr/local/bin/esl-alimanip
+  esl-alimap: /usr/local/bin/esl-alimap
+  esl-alimask: /usr/local/bin/esl-alimask
+  esl-alimerge: /usr/local/bin/esl-alimerge
+  esl-alipid: /usr/local/bin/esl-alipid
+  esl-alirev: /usr/local/bin/esl-alirev
+  esl-alistat: /usr/local/bin/esl-alistat
+  esl-compalign: /usr/local/bin/esl-compalign
+  esl-compstruct: /usr/local/bin/esl-compstruct
+  esl-construct: /usr/local/bin/esl-construct
+  esl-histplot: /usr/local/bin/esl-histplot
+  esl-mask: /usr/local/bin/esl-mask
+  esl-selectn: /usr/local/bin/esl-selectn
+  esl-seqrange: /usr/local/bin/esl-seqrange

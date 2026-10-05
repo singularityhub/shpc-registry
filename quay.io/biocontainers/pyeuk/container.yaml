@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/pyeuk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pyeuk
+latest:
+  0.8.1--pyhdfd78af_0: 
+    sha256:4255a0275d93ab2b66aca5a10ce494454f2e8085cdfb1f045a7ca30a09455df4
+tags:
+  0.8.1--pyhdfd78af_0: 
+    sha256:4255a0275d93ab2b66aca5a10ce494454f2e8085cdfb1f045a7ca30a09455df4
+docker: quay.io/biocontainers/pyeuk
+aliases:
+  cyclospora-typing: /usr/local/bin/cyclospora-typing
+  pyeuk: /usr/local/bin/pyeuk
+  numba: /usr/local/bin/numba
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
