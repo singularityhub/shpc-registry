@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jolytree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jolytree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jolytree/container.yaml"
-updated_at: "2026-10-04 08:49:07.120816"
+updated_at: "2026-10-05 09:16:01.427106"
 latest: "2.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jolytree"
 aliases:

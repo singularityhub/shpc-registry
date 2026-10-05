@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dotmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dotmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dotmatch/container.yaml"
-updated_at: "2026-10-04 08:31:11.940799"
+updated_at: "2026-10-05 09:01:38.911379"
 latest: "0.5.0--py311h13f8228_0"
 container_url: "https://biocontainers.pro/tools/dotmatch"
 aliases:

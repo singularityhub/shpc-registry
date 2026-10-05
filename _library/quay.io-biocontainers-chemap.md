@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chemap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chemap/container.yaml"
-updated_at: "2026-10-04 08:05:10.017444"
+updated_at: "2026-10-05 08:40:46.002245"
 latest: "0.3.7--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/chemap"
 aliases:

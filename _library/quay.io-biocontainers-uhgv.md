@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/uhgv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/uhgv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/uhgv/container.yaml"
-updated_at: "2026-10-04 08:38:10.006478"
+updated_at: "2026-10-05 09:07:14.063822"
 latest: "2.0.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/uhgv"
 aliases:

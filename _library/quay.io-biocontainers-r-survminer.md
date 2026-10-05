@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-survminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-survminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-survminer/container.yaml"
-updated_at: "2026-10-04 08:45:59.264614"
+updated_at: "2026-10-05 09:13:30.988008"
 latest: "0.5.2"
 container_url: "https://biocontainers.pro/tools/r-survminer"
 aliases:

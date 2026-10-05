@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tortoize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tortoize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tortoize/container.yaml"
-updated_at: "2026-10-04 08:19:36.794762"
+updated_at: "2026-10-05 08:52:21.060533"
 latest: "2.0.16--haf24da9_0"
 container_url: "https://biocontainers.pro/tools/tortoize"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/restrander"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/restrander/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/restrander/container.yaml"
-updated_at: "2026-10-04 08:24:59.590119"
+updated_at: "2026-10-05 08:56:40.165003"
 latest: "1.1.3--h3be2455_1"
 container_url: "https://biocontainers.pro/tools/restrander"
 aliases:

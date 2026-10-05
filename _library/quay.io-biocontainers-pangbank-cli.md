@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pangbank-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangbank-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangbank-cli/container.yaml"
-updated_at: "2026-10-04 08:16:01.966630"
+updated_at: "2026-10-05 08:49:28.959413"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pangbank-cli"
 aliases:

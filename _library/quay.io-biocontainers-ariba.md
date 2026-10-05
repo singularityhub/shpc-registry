@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ariba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ariba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ariba/container.yaml"
-updated_at: "2026-10-04 08:23:54.695964"
+updated_at: "2026-10-05 08:55:48.024834"
 latest: "2.14.7--py310h5140242_0"
 container_url: "https://biocontainers.pro/tools/ariba"
 aliases:

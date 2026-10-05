@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-jazzpanda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jazzpanda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jazzpanda/container.yaml"
-updated_at: "2026-10-04 08:07:50.453787"
+updated_at: "2026-10-05 08:42:54.745084"
 latest: "1.2.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-jazzpanda"
 aliases:

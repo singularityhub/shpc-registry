@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/easy_vitessce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easy_vitessce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easy_vitessce/container.yaml"
-updated_at: "2026-10-04 08:31:09.115041"
+updated_at: "2026-10-05 09:01:36.654897"
 latest: "0.0.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/easy_vitessce"
 aliases:

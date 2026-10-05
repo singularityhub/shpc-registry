@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-arrayqualitymetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arrayqualitymetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arrayqualitymetrics/container.yaml"
-updated_at: "2026-10-04 08:31:34.031676"
+updated_at: "2026-10-05 09:01:56.616843"
 latest: "3.62.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arrayqualitymetrics"
 
