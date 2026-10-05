@@ -1,0 +1,37 @@
+url: https://biocontainers.pro/tools/arachne
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for arachne
+latest:
+  0.1.1--h53167a1_0: 
+    sha256:1fc76018a918dd83fe65b90ebdb066766dbdeab40091946ccb9aa0e4fd930d1a
+tags:
+  0.1.1--h53167a1_0: 
+    sha256:1fc76018a918dd83fe65b90ebdb066766dbdeab40091946ccb9aa0e4fd930d1a
+docker: quay.io/biocontainers/arachne
+aliases:
+  arachne: /usr/local/bin/arachne
+  seq_cache_populate.py: /usr/local/bin/seq_cache_populate.py
+  ref-cache: /usr/local/bin/ref-cache
+  qualfa2fq.pl: /usr/local/bin/qualfa2fq.pl
+  xa2multi.pl: /usr/local/bin/xa2multi.pl
+  bwa: /usr/local/bin/bwa
+  annot-tsv: /usr/local/bin/annot-tsv
+  fasta-sanitize.pl: /usr/local/bin/fasta-sanitize.pl
+  plot-ampliconstats: /usr/local/bin/plot-ampliconstats
+  ace2sam: /usr/local/bin/ace2sam
+  blast2sam.pl: /usr/local/bin/blast2sam.pl
+  bowtie2sam.pl: /usr/local/bin/bowtie2sam.pl
+  export2sam.pl: /usr/local/bin/export2sam.pl
+  interpolate_sam.pl: /usr/local/bin/interpolate_sam.pl
+  maq2sam-long: /usr/local/bin/maq2sam-long
+  maq2sam-short: /usr/local/bin/maq2sam-short
+  md5fa: /usr/local/bin/md5fa
+  md5sum-lite: /usr/local/bin/md5sum-lite
+  plot-bamstats: /usr/local/bin/plot-bamstats
+  psl2sam.pl: /usr/local/bin/psl2sam.pl
+  sam2vcf.pl: /usr/local/bin/sam2vcf.pl
+  samtools.pl: /usr/local/bin/samtools.pl
+  seq_cache_populate.pl: /usr/local/bin/seq_cache_populate.pl
+  soap2sam.pl: /usr/local/bin/soap2sam.pl
+  zoom2sam.pl: /usr/local/bin/zoom2sam.pl
+  novo2sam.pl: /usr/local/bin/novo2sam.pl

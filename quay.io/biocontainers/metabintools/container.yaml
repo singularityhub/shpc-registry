@@ -1,0 +1,21 @@
+url: https://biocontainers.pro/tools/metabintools
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for metabintools
+latest:
+  0.3.2--pyh106432d_0: 
+    sha256:d3f273c3608d0d0b0ce1c288f363f9099749dfb8eabfa5e2f8bf6493cc680942
+tags:
+  0.3.2--pyh106432d_0: 
+    sha256:d3f273c3608d0d0b0ce1c288f363f9099749dfb8eabfa5e2f8bf6493cc680942
+docker: quay.io/biocontainers/metabintools
+aliases:
+  bintools: /usr/local/bin/bintools
+  metabintools: /usr/local/bin/metabintools
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  pyfastx: /usr/local/bin/pyfastx
+  idna: /usr/local/bin/idna
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  normalizer: /usr/local/bin/normalizer
