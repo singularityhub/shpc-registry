@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngmaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngmaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngmaster/container.yaml"
-updated_at: "2026-10-05 08:54:21.055041"
+updated_at: "2026-10-06 09:08:35.919771"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngmaster"
 aliases:

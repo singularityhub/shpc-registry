@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eupathdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eupathdb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eupathdb/container.yaml"
-updated_at: "2026-10-05 09:17:31.206435"
+updated_at: "2026-10-06 09:38:11.863683"
 latest: "1.0.1--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-eupathdb"
 

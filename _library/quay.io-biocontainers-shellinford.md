@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shellinford"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shellinford/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shellinford/container.yaml"
-updated_at: "2026-10-05 08:56:59.466927"
+updated_at: "2026-10-06 09:11:57.903668"
 latest: "0.4.1--py310hd766df8_0"
 container_url: "https://biocontainers.pro/tools/shellinford"
 aliases:

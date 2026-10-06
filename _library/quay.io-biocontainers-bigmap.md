@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bigmap/container.yaml"
-updated_at: "2026-10-05 09:16:00.966303"
+updated_at: "2026-10-06 09:36:16.761142"
 latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bigmap"
 aliases:

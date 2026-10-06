@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbwt/container.yaml"
-updated_at: "2026-10-05 09:19:07.028954"
+updated_at: "2026-10-06 09:40:14.119838"
 latest: "3.0--he4a0461_10"
 container_url: "https://biocontainers.pro/tools/pbwt"
 aliases:

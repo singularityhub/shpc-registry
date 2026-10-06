@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fings/container.yaml"
-updated_at: "2026-10-05 08:57:01.997707"
+updated_at: "2026-10-06 09:12:01.095730"
 latest: "1.7.1--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/fings"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mitogeneextractor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mitogeneextractor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mitogeneextractor/container.yaml"
-updated_at: "2026-10-05 08:52:23.095999"
+updated_at: "2026-10-06 09:06:05.416569"
 latest: "1.9.6--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/mitogeneextractor"
 aliases:

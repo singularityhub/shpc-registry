@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rarr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rarr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rarr/container.yaml"
-updated_at: "2026-10-05 08:40:10.266659"
+updated_at: "2026-10-06 08:50:28.748153"
 latest: "1.10.1--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rarr"
 aliases:

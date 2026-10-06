@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-libxslt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-libxslt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-libxslt/container.yaml"
-updated_at: "2026-10-05 08:58:09.796284"
+updated_at: "2026-10-06 09:13:27.594837"
 latest: "2.003000--pl5321h7b50bb2_2"
 container_url: "https://biocontainers.pro/tools/perl-xml-libxslt"
 aliases:

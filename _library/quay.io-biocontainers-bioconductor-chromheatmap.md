@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromheatmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromheatmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromheatmap/container.yaml"
-updated_at: "2026-10-05 09:02:44.676617"
+updated_at: "2026-10-06 09:19:18.757077"
 latest: "1.64.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromheatmap"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/handyreadgenotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/handyreadgenotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/handyreadgenotyper/container.yaml"
-updated_at: "2026-10-05 09:11:10.557492"
+updated_at: "2026-10-06 09:30:05.903638"
 latest: "0.1.24--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/handyreadgenotyper"
 aliases:
