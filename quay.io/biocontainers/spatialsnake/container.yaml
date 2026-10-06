@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/spatialsnake
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for spatialsnake
+latest:
+  0.0.4--pyhdfd78af_0: 
+    sha256:9dd3e726b9aae59ad4539782e5bdfdb380bd329d3e615e9a30852696151a9eb5
+tags:
+  0.0.4--pyhdfd78af_0: 
+    sha256:9dd3e726b9aae59ad4539782e5bdfdb380bd329d3e615e9a30852696151a9eb5
+docker: quay.io/biocontainers/spatialsnake
+aliases:
+  jupyter-builder: /usr/local/bin/jupyter-builder
+  mistune: /usr/local/bin/mistune
+  ome-zarr-models: /usr/local/bin/ome-zarr-models
+  ome_zarr: /usr/local/bin/ome_zarr
+  pint-convert: /usr/local/bin/pint-convert
+  spatialsnake: /usr/local/bin/spatialsnake
+  jlpm: /usr/local/bin/jlpm
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-lab: /usr/local/bin/jupyter-lab
+  jupyter-labextension: /usr/local/bin/jupyter-labextension
+  jupyter-labhub: /usr/local/bin/jupyter-labhub
+  ojph_compress: /usr/local/bin/ojph_compress
+  ojph_expand: /usr/local/bin/ojph_expand
+  pyjson5: /usr/local/bin/pyjson5
+  jupyter-server: /usr/local/bin/jupyter-server
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  session-info2: /usr/local/bin/session-info2
+  session-info: /usr/local/bin/session-info
+  jupyter-console: /usr/local/bin/jupyter-console
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  debugpy: /usr/local/bin/debugpy
+  zarr: /usr/local/bin/zarr
+  send2trash: /usr/local/bin/send2trash
+  wsdump: /usr/local/bin/wsdump
+  jsonpointer: /usr/local/bin/jsonpointer
+  jupyter-dejavu: /usr/local/bin/jupyter-dejavu
+  jupyter-execute: /usr/local/bin/jupyter-execute
+  dotenv: /usr/local/bin/dotenv
+  jupyter-notebook: /usr/local/bin/jupyter-notebook
+  tiff2fsspec: /usr/local/bin/tiff2fsspec
+  tiffcomment: /usr/local/bin/tiffcomment

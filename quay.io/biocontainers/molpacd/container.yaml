@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/molpacd
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for molpacd
+latest:
+  0.3.0--pyhdfd78af_0: 
+    sha256:a4ea8e065abdb994b0c1b16094c8d9d3aafd5d48fd86d15eec8c8c7df28f758a
+tags:
+  0.3.0--pyhdfd78af_0: 
+    sha256:a4ea8e065abdb994b0c1b16094c8d9d3aafd5d48fd86d15eec8c8c7df28f758a
+docker: quay.io/biocontainers/molpacd
+aliases:
+  molpacd: /usr/local/bin/molpacd
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
