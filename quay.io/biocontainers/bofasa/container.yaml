@@ -1,0 +1,74 @@
+url: https://biocontainers.pro/tools/bofasa
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bofasa
+latest:
+  1.2.0--pyh106432d_0: 
+    sha256:7b1b54ac3f793a3b4c622d4b4461ca2956c4b88648c6ab70080a03b51ae20747
+tags:
+  1.2.0--pyh106432d_0: 
+    sha256:7b1b54ac3f793a3b4c622d4b4461ca2956c4b88648c6ab70080a03b51ae20747
+docker: quay.io/biocontainers/bofasa
+aliases:
+  archive-peptide: /usr/local/bin/archive-peptide
+  bofasa: /usr/local/bin/bofasa
+  cittest: /usr/local/bin/cittest
+  combine-uids: /usr/local/bin/combine-uids
+  compare-uids: /usr/local/bin/compare-uids
+  compare_og_pairs.py: /usr/local/bin/compare_og_pairs.py
+  convert_orthofinder_tree_ids.py: 
+    /usr/local/bin/convert_orthofinder_tree_ids.py
+  determine_og_freqs.py: /usr/local/bin/determine_og_freqs.py
+  exclude-uids: /usr/local/bin/exclude-uids
+  extract_focal_protein_dogs.py: /usr/local/bin/extract_focal_protein_dogs.py
+  extract_genomad_proteomes.py: /usr/local/bin/extract_genomad_proteomes.py
+  extract_og_pairs.py: /usr/local/bin/extract_og_pairs.py
+  extract_scc_og_pairs.py: /usr/local/bin/extract_scc_og_pairs.py
+  filter-records: /usr/local/bin/filter-records
+  gene2tbl: /usr/local/bin/gene2tbl
+  genomad: /usr/local/bin/genomad
+  gpf2info: /usr/local/bin/gpf2info
+  intersect-uids: /usr/local/bin/intersect-uids
+  iqtree3: /usr/local/bin/iqtree3
+  list_og_matrix.py: /usr/local/bin/list_og_matrix.py
+  make_ultrametric.py: /usr/local/bin/make_ultrametric.py
+  orthofinder: /usr/local/bin/orthofinder
+  primary_transcript.py: /usr/local/bin/primary_transcript.py
+  print_og_itol_matrix.py: /usr/local/bin/print_og_itol_matrix.py
+  rcl: /usr/local/bin/rcl
+  rcl-dot-resmap.pl: /usr/local/bin/rcl-dot-resmap.pl
+  rcl-qc: /usr/local/bin/rcl-qc
+  rcl-qm.R: /usr/local/bin/rcl-qm.R
+  rcl-relevel.pl: /usr/local/bin/rcl-relevel.pl
+  rcl-select.pl: /usr/local/bin/rcl-select.pl
+  rcldo.pl: /usr/local/bin/rcldo.pl
+  rcommon.sh: /usr/local/bin/rcommon.sh
+  slclust: /usr/local/bin/slclust
+  split-records: /usr/local/bin/split-records
+  test-repeat: /usr/local/bin/test-repeat
+  uniq-count: /usr/local/bin/uniq-count
+  uniq-count-rank: /usr/local/bin/uniq-count-rank
+  fastme: /usr/local/bin/fastme
+  pyrodigal-gv: /usr/local/bin/pyrodigal-gv
+  gawk-5.4.1: /usr/local/bin/gawk-5.4.1
+  raxml-ng: /usr/local/bin/raxml-ng
+  raxml-ng-mpi: /usr/local/bin/raxml-ng-mpi
+  readal: /usr/local/bin/readal
+  statal: /usr/local/bin/statal
+  trimal: /usr/local/bin/trimal
+  flatc: /usr/local/bin/flatc
+  mclblastline: /usr/local/bin/mclblastline
+  mcxdeblast: /usr/local/bin/mcxdeblast
+  clm: /usr/local/bin/clm
+  clxdo: /usr/local/bin/clxdo
+  mcl: /usr/local/bin/mcl
+  mcx: /usr/local/bin/mcx
+  mcxarray: /usr/local/bin/mcxarray
+  mcxdump: /usr/local/bin/mcxdump
+  mcxi: /usr/local/bin/mcxi
+  mcxload: /usr/local/bin/mcxload
+  mcxmap: /usr/local/bin/mcxmap
+  mcxsubs: /usr/local/bin/mcxsubs
+  pyrodigal: /usr/local/bin/pyrodigal
+  pax11publish: /usr/local/bin/pax11publish
+  aragorn: /usr/local/bin/aragorn
+  archspec: /usr/local/bin/archspec

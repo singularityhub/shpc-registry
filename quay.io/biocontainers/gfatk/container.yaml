@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/gfatk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gfatk
+latest:
+  0.6.1--hab7d0fd_1: 
+    sha256:8f04a775b90f53410af7405e4e5229d989536c51f48a8a7d2bc4b9dd4e03ead8
+tags:
+  0.6.1--hab7d0fd_1: 
+    sha256:8f04a775b90f53410af7405e4e5229d989536c51f48a8a7d2bc4b9dd4e03ead8
+docker: quay.io/biocontainers/gfatk
+aliases:
+  gfatk: /usr/local/bin/gfatk
