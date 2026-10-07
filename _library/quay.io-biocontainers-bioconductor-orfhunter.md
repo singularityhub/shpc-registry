@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-orfhunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orfhunter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orfhunter/container.yaml"
-updated_at: "2026-10-06 09:08:07.469973"
+updated_at: "2026-10-07 08:44:12.613093"
 latest: "1.18.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orfhunter"
 

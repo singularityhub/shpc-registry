@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-samr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-samr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-samr/container.yaml"
-updated_at: "2026-10-06 09:15:48.512247"
+updated_at: "2026-10-07 08:52:03.160722"
 latest: "3.0--r45h87e0c26_9"
 container_url: "https://biocontainers.pro/tools/r-samr"
 

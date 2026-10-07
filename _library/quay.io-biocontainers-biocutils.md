@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biocutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biocutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biocutils/container.yaml"
-updated_at: "2026-10-06 08:52:51.822695"
+updated_at: "2026-10-07 08:28:37.443748"
 latest: "0.5.0--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/biocutils"
 aliases:

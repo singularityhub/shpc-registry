@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-paxtoolsr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-paxtoolsr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-paxtoolsr/container.yaml"
-updated_at: "2026-10-06 09:01:42.052661"
+updated_at: "2026-10-07 08:37:40.349486"
 latest: "1.36.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-paxtoolsr"
 aliases:

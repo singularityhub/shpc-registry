@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mba/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mba/container.yaml"
-updated_at: "2026-10-06 08:47:57.520956"
+updated_at: "2026-10-07 08:23:22.117447"
 latest: "0.0_8--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-mba"
 aliases:

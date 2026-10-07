@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-igblastr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-igblastr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-igblastr/container.yaml"
-updated_at: "2026-10-06 08:47:34.319903"
+updated_at: "2026-10-07 08:22:57.438708"
 latest: "1.0.11--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-igblastr"
 aliases:

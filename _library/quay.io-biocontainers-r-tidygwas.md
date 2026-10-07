@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-tidygwas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tidygwas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tidygwas/container.yaml"
-updated_at: "2026-10-06 08:58:46.634025"
+updated_at: "2026-10-07 08:34:42.671268"
 latest: "1.0.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-tidygwas"
 aliases:

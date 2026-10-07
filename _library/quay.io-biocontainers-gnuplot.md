@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gnuplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnuplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gnuplot/container.yaml"
-updated_at: "2026-10-06 09:35:08.354996"
+updated_at: "2026-10-07 09:12:24.262294"
 latest: "5.2.3"
 container_url: "https://biocontainers.pro/tools/gnuplot"
 

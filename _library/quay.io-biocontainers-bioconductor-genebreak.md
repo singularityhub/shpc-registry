@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genebreak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genebreak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genebreak/container.yaml"
-updated_at: "2026-10-06 09:15:36.059523"
+updated_at: "2026-10-07 08:51:50.494677"
 latest: "1.40.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genebreak"
 aliases:

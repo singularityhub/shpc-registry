@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openstructure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openstructure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/openstructure/container.yaml"
-updated_at: "2026-10-06 08:50:38.917965"
+updated_at: "2026-10-07 08:26:15.619297"
 latest: "2.12.0--py313he9191a9_0"
 container_url: "https://biocontainers.pro/tools/openstructure"
 aliases:

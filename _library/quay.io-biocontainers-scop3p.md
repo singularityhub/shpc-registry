@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scop3p"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scop3p/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scop3p/container.yaml"
-updated_at: "2026-10-06 09:00:45.086200"
+updated_at: "2026-10-07 08:36:42.284814"
 latest: "1.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scop3p"
 aliases:

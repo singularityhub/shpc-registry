@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cfdna-biomarkersearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cfdna-biomarkersearch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cfdna-biomarkersearch/container.yaml"
-updated_at: "2026-10-06 08:50:32.212435"
+updated_at: "2026-10-07 08:26:08.478484"
 latest: "0.1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cfdna-biomarkersearch"
 aliases:

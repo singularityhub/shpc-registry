@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ploidypatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ploidypatch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ploidypatch/container.yaml"
-updated_at: "2026-10-06 08:49:04.977721"
+updated_at: "2026-10-07 08:24:34.668418"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ploidypatch"
 aliases:

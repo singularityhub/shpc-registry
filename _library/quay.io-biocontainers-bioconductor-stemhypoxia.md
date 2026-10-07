@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-stemhypoxia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stemhypoxia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stemhypoxia/container.yaml"
-updated_at: "2026-10-06 08:49:04.690723"
+updated_at: "2026-10-07 08:24:34.356000"
 latest: "1.46.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stemhypoxia"
 

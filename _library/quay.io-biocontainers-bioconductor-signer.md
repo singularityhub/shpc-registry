@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-signer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-signer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-signer/container.yaml"
-updated_at: "2026-10-06 08:50:45.879843"
+updated_at: "2026-10-07 08:26:22.819409"
 latest: "2.12.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-signer"
 aliases:

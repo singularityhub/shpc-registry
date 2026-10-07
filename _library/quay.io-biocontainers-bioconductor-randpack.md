@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-randpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-randpack/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-randpack/container.yaml"
-updated_at: "2026-10-06 09:28:08.379794"
+updated_at: "2026-10-07 09:04:59.818594"
 latest: "1.56.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-randpack"
 

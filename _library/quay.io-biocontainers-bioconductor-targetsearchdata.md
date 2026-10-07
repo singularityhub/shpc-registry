@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-targetsearchdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetsearchdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetsearchdata/container.yaml"
-updated_at: "2026-10-06 08:50:07.343667"
+updated_at: "2026-10-07 08:25:42.028832"
 latest: "1.48.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetsearchdata"
 

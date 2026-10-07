@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sccmec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sccmec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sccmec/container.yaml"
-updated_at: "2026-10-06 09:00:16.373845"
+updated_at: "2026-10-07 08:36:12.995393"
 latest: "1.2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sccmec"
 aliases:

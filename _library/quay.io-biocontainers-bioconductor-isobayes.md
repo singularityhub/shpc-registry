@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-isobayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isobayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isobayes/container.yaml"
-updated_at: "2026-10-06 08:51:45.654407"
+updated_at: "2026-10-07 08:27:26.881704"
 latest: "1.8.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isobayes"
 aliases:
