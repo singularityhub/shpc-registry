@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/resistogrid
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for resistogrid
+latest:
+  0.1.0.20260807.1--pyhdfd78af_0: 
+    sha256:0e751507849eb515fec2dd338ae3850e1c0b37f0cafc5ac182347658aa92552d
+tags:
+  0.1.0.20260807.1--pyhdfd78af_0: 
+    sha256:0e751507849eb515fec2dd338ae3850e1c0b37f0cafc5ac182347658aa92552d
+docker: quay.io/biocontainers/resistogrid
+aliases:
+  resistogrid: /usr/local/bin/resistogrid
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
