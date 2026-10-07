@@ -1,0 +1,42 @@
+url: https://biocontainers.pro/tools/dot-explorer
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for dot-explorer
+latest:
+  0.2.1--py314h78a2e26_0: 
+    sha256:29b4bb20b83f65353cae0a25a52b16f72aab971064ba55bfea0464d2e47d4661
+tags:
+  0.2.1--py314h78a2e26_0: 
+    sha256:29b4bb20b83f65353cae0a25a52b16f72aab971064ba55bfea0464d2e47d4661
+docker: quay.io/biocontainers/dot-explorer
+aliases:
+  dot-explorer-app: /usr/local/bin/dot-explorer-app
+  pysassc: /usr/local/bin/pysassc
+  shiny: /usr/local/bin/shiny
+  uvicorn: /usr/local/bin/uvicorn
+  watchfiles: /usr/local/bin/watchfiles
+  websockets: /usr/local/bin/websockets
+  sourmash: /usr/local/bin/sourmash
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  screed: /usr/local/bin/screed
+  idna: /usr/local/bin/idna
+  fc-genconf: /usr/local/bin/fc-genconf
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  markdown-it: /usr/local/bin/markdown-it
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
