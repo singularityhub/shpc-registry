@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-minpack.lm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-minpack.lm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-minpack.lm/container.yaml"
-updated_at: "2026-10-07 08:27:53.770648"
+updated_at: "2026-10-08 08:40:58.761867"
 latest: "1.2_1--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-minpack.lm"
 aliases:

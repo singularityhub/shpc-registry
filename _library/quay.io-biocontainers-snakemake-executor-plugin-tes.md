@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snakemake-executor-plugin-tes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-executor-plugin-tes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-executor-plugin-tes/container.yaml"
-updated_at: "2026-10-07 08:20:10.691601"
+updated_at: "2026-10-08 08:35:15.849375"
 latest: "0.1.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakemake-executor-plugin-tes"
 aliases:

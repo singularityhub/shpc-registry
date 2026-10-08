@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vardict-java"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vardict-java/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vardict-java/container.yaml"
-updated_at: "2026-10-07 08:52:35.262098"
+updated_at: "2026-10-08 09:00:53.256452"
 latest: "1.8.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vardict-java"
 aliases:

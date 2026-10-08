@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kegg_pull"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kegg_pull/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kegg_pull/container.yaml"
-updated_at: "2026-10-07 08:37:27.251571"
+updated_at: "2026-10-08 08:48:29.404030"
 latest: "3.2.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kegg_pull"
 aliases:

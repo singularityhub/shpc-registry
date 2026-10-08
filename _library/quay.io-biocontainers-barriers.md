@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/barriers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barriers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/barriers/container.yaml"
-updated_at: "2026-10-07 08:20:05.742428"
+updated_at: "2026-10-08 08:35:12.176720"
 latest: "1.8.1--pl5321h503566f_4"
 container_url: "https://biocontainers.pro/tools/barriers"
 aliases:

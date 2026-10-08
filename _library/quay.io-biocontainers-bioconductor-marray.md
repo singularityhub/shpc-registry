@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-marray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-marray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-marray/container.yaml"
-updated_at: "2026-10-07 08:47:29.647883"
+updated_at: "2026-10-08 08:56:30.038142"
 latest: "1.88.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-marray"
 

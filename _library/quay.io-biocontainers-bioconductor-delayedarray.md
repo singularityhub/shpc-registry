@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-delayedarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-delayedarray/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-delayedarray/container.yaml"
-updated_at: "2026-10-07 08:25:50.675691"
+updated_at: "2026-10-08 08:39:29.058999"
 latest: "0.36.1--r45h262fe30_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-delayedarray"
 aliases:

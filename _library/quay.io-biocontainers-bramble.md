@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bramble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bramble/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bramble/container.yaml"
-updated_at: "2026-10-07 09:11:39.419320"
+updated_at: "2026-10-08 09:15:49.473575"
 latest: "0.1.8--hdb859ee_0"
 container_url: "https://biocontainers.pro/tools/bramble"
 aliases:

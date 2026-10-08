@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metawrap-annotate-bins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metawrap-annotate-bins/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metawrap-annotate-bins/container.yaml"
-updated_at: "2026-10-07 08:47:41.661898"
+updated_at: "2026-10-08 08:56:39.833841"
 latest: "1.3.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/metawrap-annotate-bins"
 aliases:

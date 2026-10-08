@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-bioregion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bioregion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bioregion/container.yaml"
-updated_at: "2026-10-07 08:31:43.906867"
+updated_at: "2026-10-08 08:43:49.694234"
 latest: "1.4.0--r45h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/r-bioregion"
 aliases:

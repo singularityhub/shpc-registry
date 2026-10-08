@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unum-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unum-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/unum-bio/container.yaml"
-updated_at: "2026-10-07 08:34:12.260172"
+updated_at: "2026-10-08 08:45:46.530175"
 latest: "0.1.3--h0feb368_0"
 container_url: "https://biocontainers.pro/tools/unum-bio"
 aliases:
