@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/gatk4-lite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for gatk4-lite
+latest:
+  4.7.0.0--h9ee0642_1: 
+    sha256:040fd9c7de10aa2629173995e683cb4d4e756f16bef8e9f5c2d1bfd297d2ede5
+tags:
+  4.7.0.0--h9ee0642_1: 
+    sha256:040fd9c7de10aa2629173995e683cb4d4e756f16bef8e9f5c2d1bfd297d2ede5
+docker: quay.io/biocontainers/gatk4-lite
+aliases:
+  gatk: /usr/local/bin/gatk

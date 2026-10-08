@@ -1,0 +1,68 @@
+url: https://biocontainers.pro/tools/agsyn
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for agsyn
+latest:
+  0.6.1--hdfd78af_0: 
+    sha256:354de98d3a3b120011178f3f3789953b779c84fc1e772fa50a657a79aed06a0c
+tags:
+  0.6.1--hdfd78af_0: 
+    sha256:354de98d3a3b120011178f3f3789953b779c84fc1e772fa50a657a79aed06a0c
+docker: quay.io/biocontainers/agsyn
+aliases:
+  4channels: /usr/local/bin/4channels
+  CrossMap: /usr/local/bin/CrossMap
+  ORFfinder: /usr/local/bin/ORFfinder
+  abysw: /usr/local/bin/abysw
+  acmd.sh: /usr/local/bin/acmd.sh
+  ahelp.py: /usr/local/bin/ahelp.py
+  asub.pm: /usr/local/bin/asub.pm
+  dcraw_emu: /usr/local/bin/dcraw_emu
+  dcraw_half: /usr/local/bin/dcraw_half
+  faSize: /usr/local/bin/faSize
+  fasta-nr: /usr/local/bin/fasta-nr
+  goatools: /usr/local/bin/goatools
+  half_mt: /usr/local/bin/half_mt
+  ipopt: /usr/local/bin/ipopt
+  ipopt_sens: /usr/local/bin/ipopt_sens
+  jcvi: /usr/local/bin/jcvi
+  liftOver: /usr/local/bin/liftOver
+  liftOverMerge: /usr/local/bin/liftOverMerge
+  maf-linked: /usr/local/bin/maf-linked
+  mariadb_config: /usr/local/bin/mariadb_config
+  mem_image: /usr/local/bin/mem_image
+  multirender_test: /usr/local/bin/multirender_test
+  perl5.44.0: /usr/local/bin/perl5.44.0
+  platanus_b: /usr/local/bin/platanus_b
+  postprocessing_benchmark: /usr/local/bin/postprocessing_benchmark
+  pytesseract: /usr/local/bin/pytesseract
+  raw-identify: /usr/local/bin/raw-identify
+  rawtextdump: /usr/local/bin/rawtextdump
+  simple_dcraw: /usr/local/bin/simple_dcraw
+  spral_ssids: /usr/local/bin/spral_ssids
+  tantan: /usr/local/bin/tantan
+  unprocessed_raw: /usr/local/bin/unprocessed_raw
+  maf-cut: /usr/local/bin/maf-cut
+  exrmanifest: /usr/local/bin/exrmanifest
+  exrmetrics: /usr/local/bin/exrmetrics
+  exr2aces: /usr/local/bin/exr2aces
+  exrenvmap: /usr/local/bin/exrenvmap
+  exrheader: /usr/local/bin/exrheader
+  exrinfo: /usr/local/bin/exrinfo
+  exrmakepreview: /usr/local/bin/exrmakepreview
+  exrmaketiled: /usr/local/bin/exrmaketiled
+  exrmultipart: /usr/local/bin/exrmultipart
+  exrmultiview: /usr/local/bin/exrmultiview
+  exrstdattr: /usr/local/bin/exrstdattr
+  go_plot.py: /usr/local/bin/go_plot.py
+  ncbi_gene_results_to_python.py: /usr/local/bin/ncbi_gene_results_to_python.py
+  wr_hier.py: /usr/local/bin/wr_hier.py
+  fastq-interleave: /usr/local/bin/fastq-interleave
+  find_enrichment.py: /usr/local/bin/find_enrichment.py
+  gffread: /usr/local/bin/gffread
+  last-dotplot: /usr/local/bin/last-dotplot
+  last-map-probs: /usr/local/bin/last-map-probs
+  last-pair-probs: /usr/local/bin/last-pair-probs
+  last-postmask: /usr/local/bin/last-postmask
+  last-split: /usr/local/bin/last-split
+  last-train: /usr/local/bin/last-train
+  lastal: /usr/local/bin/lastal

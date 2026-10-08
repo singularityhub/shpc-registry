@@ -1,0 +1,33 @@
+url: https://biocontainers.pro/tools/hapolish
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for hapolish
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:d3afb93dd44b969683e2b7f6f63735fc756cd5508a1e0357cb411ce3a216c345
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:d3afb93dd44b969683e2b7f6f63735fc756cd5508a1e0357cb411ce3a216c345
+docker: quay.io/biocontainers/hapolish
+aliases:
+  hapolish: /usr/local/bin/hapolish
+  meryl-analyze: /usr/local/bin/meryl-analyze
+  meryl-simple: /usr/local/bin/meryl-simple
+  position-lookup: /usr/local/bin/position-lookup
+  winnowmap: /usr/local/bin/winnowmap
+  meryl-import: /usr/local/bin/meryl-import
+  meryl-lookup: /usr/local/bin/meryl-lookup
+  meryl: /usr/local/bin/meryl
+  vcf_sample_filter.py: /usr/local/bin/vcf_sample_filter.py
+  vcf_filter.py: /usr/local/bin/vcf_filter.py
+  vcf_melt: /usr/local/bin/vcf_melt
+  faidx: /usr/local/bin/faidx
+  sdust: /usr/local/bin/sdust
+  paftools.js: /usr/local/bin/paftools.js
+  k8: /usr/local/bin/k8
+  minimap2: /usr/local/bin/minimap2
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  numpy-config: /usr/local/bin/numpy-config

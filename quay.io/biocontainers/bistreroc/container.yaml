@@ -1,0 +1,19 @@
+url: https://biocontainers.pro/tools/bistreroc
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bistreroc
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:f98026866d159303b3a6f303c0cfb43ecebf86b3a18fc290086c480f3ba4c2f4
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:f98026866d159303b3a6f303c0cfb43ecebf86b3a18fc290086c480f3ba4c2f4
+docker: quay.io/biocontainers/bistreroc
+aliases:
+  bistreroc: /usr/local/bin/bistreroc
+  fc-genconf: /usr/local/bin/fc-genconf
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  x86_64-conda-linux-gnu.cfg: /usr/local/bin/x86_64-conda-linux-gnu.cfg
+  numpy-config: /usr/local/bin/numpy-config
