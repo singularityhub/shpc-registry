@@ -1,0 +1,14 @@
+url: https://biocontainers.pro/tools/fixed2tab
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fixed2tab
+latest:
+  0.1.0: sha256:749d2edf892347c761d84a0c45910a2c5bc2b73df184d8251417942474d651ef
+tags:
+  0.1.0: sha256:749d2edf892347c761d84a0c45910a2c5bc2b73df184d8251417942474d651ef
+docker: quay.io/biocontainers/fixed2tab
+aliases:
+  fixed2tab: /usr/local/bin/fixed2tab
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

@@ -1,0 +1,22 @@
+url: https://biocontainers.pro/tools/bionym
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bionym
+latest:
+  0.1.0--pyhdfd78af_0: 
+    sha256:54bddfca4747d8faf74d5d8c9bb0d90d25300b08c50eda62e97dea27a3bc387d
+tags:
+  0.1.0--pyhdfd78af_0: 
+    sha256:54bddfca4747d8faf74d5d8c9bb0d90d25300b08c50eda62e97dea27a3bc387d
+docker: quay.io/biocontainers/bionym
+aliases:
+  bionym: /usr/local/bin/bionym
+  dotenv: /usr/local/bin/dotenv
+  httpx: /usr/local/bin/httpx
+  idna: /usr/local/bin/idna
+  typer: /usr/local/bin/typer
+  markdown-it: /usr/local/bin/markdown-it
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  pygmentize: /usr/local/bin/pygmentize

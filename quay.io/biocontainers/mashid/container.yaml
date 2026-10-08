@@ -1,0 +1,24 @@
+url: https://biocontainers.pro/tools/mashid
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for mashid
+latest:
+  0.2.8--pyhdfd78af_0: 
+    sha256:6ec07149937f45b1fb4113ec76bff08f8a24a3a51352161d3bcabba65710b6c7
+tags:
+  0.2.8--pyhdfd78af_0: 
+    sha256:6ec07149937f45b1fb4113ec76bff08f8a24a3a51352161d3bcabba65710b6c7
+docker: quay.io/biocontainers/mashid
+aliases:
+  make_mashID_db: /usr/local/bin/make_mashID_db
+  mashID: /usr/local/bin/mashID
+  mashID_download_db: /usr/local/bin/mashID_download_db
+  capnp: /usr/local/bin/capnp
+  capnpc: /usr/local/bin/capnpc
+  capnpc-c++: /usr/local/bin/capnpc-c++
+  capnpc-capnp: /usr/local/bin/capnpc-capnp
+  mash: /usr/local/bin/mash
+  igzip: /usr/local/bin/igzip
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config

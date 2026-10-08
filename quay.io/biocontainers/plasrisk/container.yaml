@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/plasrisk
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for plasrisk
+latest:
+  1.4.0--pyhdfd78af_0: 
+    sha256:8d66224dcbb3b775ffb8a1ab6ff92590855e113a819641a2cd3fa967398eb11b
+tags:
+  1.4.0--pyhdfd78af_0: 
+    sha256:8d66224dcbb3b775ffb8a1ab6ff92590855e113a819641a2cd3fa967398eb11b
+docker: quay.io/biocontainers/plasrisk
+aliases:
+  plasrisk: /usr/local/bin/plasrisk
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

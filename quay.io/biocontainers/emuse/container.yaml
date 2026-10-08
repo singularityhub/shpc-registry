@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/emuse
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for emuse
+latest:
+  1.1.0--pyhdfd78af_0: 
+    sha256:f5887718cc2703f260e314658794d5d0d8e2fa02a276d396a30a1c033978be92
+tags:
+  1.1.0--pyhdfd78af_0: 
+    sha256:f5887718cc2703f260e314658794d5d0d8e2fa02a276d396a30a1c033978be92
+docker: quay.io/biocontainers/emuse
+aliases:
+  emuse: /usr/local/bin/emuse
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config
