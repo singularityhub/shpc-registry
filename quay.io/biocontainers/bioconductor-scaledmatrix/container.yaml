@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scaledmatrix
 latest:
-  1.18.0--r45hdfd78af_0: 
-    sha256:4ab0738ffd428f2f65caef65053f61b5b47dda575e258950c4600502b760e3b0
+  1.20.0--r45hdfd78af_0: 
+    sha256:59867885f31d22d1f6a8edcc30b27b4108b049a0e43739cbfa996eab0ea86974
 tags:
   1.2.0--r41hdfd78af_0: 
     sha256:29b0c7f54a0e6801d4174310c076d17f68a54bbf74811b0e6de77bccd4424192
@@ -18,4 +18,6 @@ tags:
     sha256:834f6054c2bf1e24b9a83061f5f27d589dc2f7d1d1df1787068e0730e3250624
   1.18.0--r45hdfd78af_0: 
     sha256:4ab0738ffd428f2f65caef65053f61b5b47dda575e258950c4600502b760e3b0
+  1.20.0--r45hdfd78af_0: 
+    sha256:59867885f31d22d1f6a8edcc30b27b4108b049a0e43739cbfa996eab0ea86974
 docker: quay.io/biocontainers/bioconductor-scaledmatrix

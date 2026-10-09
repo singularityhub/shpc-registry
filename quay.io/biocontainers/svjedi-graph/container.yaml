@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/svjedi-graph
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for svjedi-graph
 latest:
-  1.2.1--hdfd78af_0: 
-    sha256:f4c593aa1ec4356852060993a2aceec3b7f92e868413d298d14363798608e61f
+  1.2.2--hdfd78af_0: 
+    sha256:1a9b92558bbce916e277472141c77a6109664e2591e62654e71249428daf93b1
 tags:
   1.1.0--hdfd78af_0: 
     sha256:a8e1dcc074f211d4ccc99a888c7e83fa2c65493cbb576c64146b0f9c80a1d855
@@ -13,6 +13,8 @@ tags:
     sha256:050c204e8480ab5800650630abbfd225775177481bd16c18b95a429827e95fb3
   1.2.1--hdfd78af_0: 
     sha256:f4c593aa1ec4356852060993a2aceec3b7f92e868413d298d14363798608e61f
+  1.2.2--hdfd78af_0: 
+    sha256:1a9b92558bbce916e277472141c77a6109664e2591e62654e71249428daf93b1
 docker: quay.io/biocontainers/svjedi-graph
 aliases:
   construct-graph.py: /usr/local/bin/construct-graph.py
