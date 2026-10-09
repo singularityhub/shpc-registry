@@ -1,0 +1,30 @@
+url: https://biocontainers.pro/tools/sniffcell-lite
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for sniffcell-lite
+latest:
+  0.9.7--pyhdfd78af_0: 
+    sha256:1b12356fc291a221501285d309164c28c46f3dbf08a02004b8eb5bb120deb062
+tags:
+  0.9.7--pyhdfd78af_0: 
+    sha256:1b12356fc291a221501285d309164c28c46f3dbf08a02004b8eb5bb120deb062
+docker: quay.io/biocontainers/sniffcell-lite
+aliases:
+  sniffcell-lite: /usr/local/bin/sniffcell-lite
+  fc-genconf: /usr/local/bin/fc-genconf
+  idle3.13: /usr/local/bin/idle3.13
+  pydoc3.13: /usr/local/bin/pydoc3.13
+  python3.13: /usr/local/bin/python3.13
+  python3.13-config: /usr/local/bin/python3.13-config
+  qconvex: /usr/local/bin/qconvex
+  qdelaunay: /usr/local/bin/qdelaunay
+  qhalf: /usr/local/bin/qhalf
+  qhull: /usr/local/bin/qhull
+  qvoronoi: /usr/local/bin/qvoronoi
+  rbox: /usr/local/bin/rbox
+  tqdm: /usr/local/bin/tqdm
+  numpy-config: /usr/local/bin/numpy-config
+  fonttools: /usr/local/bin/fonttools
+  pyftmerge: /usr/local/bin/pyftmerge
+  pyftsubset: /usr/local/bin/pyftsubset
+  ttx: /usr/local/bin/ttx
+  brotli: /usr/local/bin/brotli
