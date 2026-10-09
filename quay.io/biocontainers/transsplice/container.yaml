@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/transsplice
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for transsplice
+latest:
+  0.2.1--hab7d0fd_1: 
+    sha256:db2d626ba7b6a4f72e2f483603c7980a4eecddd29f54918f451509e4fc3e26b7
+tags:
+  0.2.1--hab7d0fd_1: 
+    sha256:db2d626ba7b6a4f72e2f483603c7980a4eecddd29f54918f451509e4fc3e26b7
+docker: quay.io/biocontainers/transsplice
+aliases:
+  transsplice: /usr/local/bin/transsplice

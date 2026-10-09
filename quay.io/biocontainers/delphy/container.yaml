@@ -1,0 +1,13 @@
+url: https://biocontainers.pro/tools/delphy
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for delphy
+latest:
+  1.4.1--h52ea530_0: 
+    sha256:f26ba14c8c2a1f474c30470418019518a1553c2679d5c78f893a1f98050fbfb7
+tags:
+  1.4.1--h52ea530_0: 
+    sha256:f26ba14c8c2a1f474c30470418019518a1553c2679d5c78f893a1f98050fbfb7
+docker: quay.io/biocontainers/delphy
+aliases:
+  delphy: /usr/local/bin/delphy
+  delphy_mcc: /usr/local/bin/delphy_mcc

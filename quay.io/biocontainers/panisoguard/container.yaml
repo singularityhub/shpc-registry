@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/panisoguard
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for panisoguard
+latest:
+  0.0.5--h8471819_0: 
+    sha256:ad69279d3b9fe73314731f1a113cc46d9fb15cbbb1b50bf2f6e5d39ed33eb2b1
+tags:
+  0.0.5--h8471819_0: 
+    sha256:ad69279d3b9fe73314731f1a113cc46d9fb15cbbb1b50bf2f6e5d39ed33eb2b1
+docker: quay.io/biocontainers/panisoguard
+aliases:
+  panisoguard: /usr/local/bin/panisoguard
+  ref-cache: /usr/local/bin/ref-cache
+  annot-tsv: /usr/local/bin/annot-tsv
+  htsfile: /usr/local/bin/htsfile
+  bgzip: /usr/local/bin/bgzip
+  tabix: /usr/local/bin/tabix
