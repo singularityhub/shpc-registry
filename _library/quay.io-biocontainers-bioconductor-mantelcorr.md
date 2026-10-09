@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mantelcorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mantelcorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mantelcorr/container.yaml"
-updated_at: "2026-10-08 08:42:27.880873"
+updated_at: "2026-10-09 08:49:51.797918"
 latest: "1.80.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mantelcorr"
 

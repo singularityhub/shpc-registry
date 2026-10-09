@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/guacamole-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/guacamole-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/guacamole-bio/container.yaml"
-updated_at: "2026-10-08 08:34:23.314652"
+updated_at: "2026-10-09 08:38:42.133849"
 latest: "1.0.3--pyh7e72e81_0"
 container_url: "https://biocontainers.pro/tools/guacamole-bio"
 aliases:

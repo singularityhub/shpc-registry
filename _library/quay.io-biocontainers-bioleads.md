@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioleads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioleads/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioleads/container.yaml"
-updated_at: "2026-10-08 08:47:06.019320"
+updated_at: "2026-10-09 08:56:14.577563"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioleads"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacompass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacompass/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacompass/container.yaml"
-updated_at: "2026-10-08 08:47:26.301722"
+updated_at: "2026-10-09 08:56:40.837879"
 latest: "1.12--h9948957_0"
 container_url: "https://biocontainers.pro/tools/metacompass"
 aliases:

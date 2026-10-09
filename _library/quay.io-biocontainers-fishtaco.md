@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fishtaco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fishtaco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fishtaco/container.yaml"
-updated_at: "2026-10-08 09:02:13.621998"
+updated_at: "2026-10-09 09:16:01.640705"
 latest: "1.1.1--py36_0"
 container_url: "https://biocontainers.pro/tools/fishtaco"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scaedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scaedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scaedata/container.yaml"
-updated_at: "2026-10-08 08:53:43.101139"
+updated_at: "2026-10-09 09:05:00.515977"
 latest: "1.6.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scaedata"
 aliases:

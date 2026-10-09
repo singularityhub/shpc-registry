@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bnem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bnem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bnem/container.yaml"
-updated_at: "2026-10-08 08:37:15.710094"
+updated_at: "2026-10-09 08:42:35.007029"
 latest: "1.18.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bnem"
 aliases:

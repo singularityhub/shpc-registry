@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mguatlas5k.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mguatlas5k.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mguatlas5k.db/container.yaml"
-updated_at: "2026-10-08 09:11:19.274613"
+updated_at: "2026-10-09 09:28:04.716599"
 latest: "3.2.3--r45hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-mguatlas5k.db"
 

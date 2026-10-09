@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-human.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-human.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-human.db0/container.yaml"
-updated_at: "2026-10-08 08:38:51.864410"
+updated_at: "2026-10-09 08:44:45.311996"
 latest: "3.22.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-human.db0"
 aliases:

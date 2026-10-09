@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-funomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funomics/container.yaml"
-updated_at: "2026-10-08 09:02:15.444563"
+updated_at: "2026-10-09 09:16:03.910169"
 latest: "1.4.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-funomics"
 aliases:

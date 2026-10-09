@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainify/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strainify/container.yaml"
-updated_at: "2026-10-08 08:46:19.074395"
+updated_at: "2026-10-09 08:55:13.581395"
 latest: "1.3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/strainify"
 aliases:

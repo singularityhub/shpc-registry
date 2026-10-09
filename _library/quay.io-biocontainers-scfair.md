@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scfair"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scfair/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scfair/container.yaml"
-updated_at: "2026-10-08 09:14:23.061206"
+updated_at: "2026-10-09 09:32:05.226986"
 latest: "0.10.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scfair"
 aliases:

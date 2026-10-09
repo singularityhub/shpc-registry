@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biotransformer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biotransformer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biotransformer/container.yaml"
-updated_at: "2026-10-08 09:20:32.351757"
+updated_at: "2026-10-09 09:40:02.448157"
 latest: "3.0.20230403--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biotransformer"
 aliases:

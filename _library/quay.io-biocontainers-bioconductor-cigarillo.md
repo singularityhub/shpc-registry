@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cigarillo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cigarillo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cigarillo/container.yaml"
-updated_at: "2026-10-08 09:19:21.656898"
-latest: "1.0.0--r45h01b2380_0"
+updated_at: "2026-10-09 09:38:34.779432"
+latest: "1.2.1--r45h262fe30_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cigarillo"
 aliases:
  - "x86_64-conda-linux-gnu.cfg"
@@ -13,8 +13,9 @@ aliases:
  - "tjbench"
 versions:
  - "1.0.0--r45h01b2380_0"
+ - "1.2.1--r45h262fe30_0"
 description: "singularity registry hpc automated addition for bioconductor-cigarillo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cigarillo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cigarillo", "latest": {"1.0.0--r45h01b2380_0": "sha256:b3233e5da7159dd1430ecd6ca1e496581c65d34eb1da86a013c375dd67d370b5"}, "tags": {"1.0.0--r45h01b2380_0": "sha256:b3233e5da7159dd1430ecd6ca1e496581c65d34eb1da86a013c375dd67d370b5"}, "docker": "quay.io/biocontainers/bioconductor-cigarillo", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cigarillo", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for bioconductor-cigarillo", "latest": {"1.2.1--r45h262fe30_0": "sha256:78d25802ce1dfc8c302f9a195ee7101eda198f32467fdf467e14e2768ab39688"}, "tags": {"1.0.0--r45h01b2380_0": "sha256:b3233e5da7159dd1430ecd6ca1e496581c65d34eb1da86a013c375dd67d370b5", "1.2.1--r45h262fe30_0": "sha256:78d25802ce1dfc8c302f9a195ee7101eda198f32467fdf467e14e2768ab39688"}, "docker": "quay.io/biocontainers/bioconductor-cigarillo", "aliases": {"x86_64-conda-linux-gnu.cfg": "/usr/local/bin/x86_64-conda-linux-gnu.cfg", "hb-info": "/usr/local/bin/hb-info", "tjbench": "/usr/local/bin/tjbench"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cigarillo.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cigarillo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cigarillo:1.0.0--r45h01b2380_0
+$ shpc install quay.io/biocontainers/bioconductor-cigarillo:1.2.1--r45h262fe30_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cigarillo/1.0.0--r45h01b2380_0
-$ module help quay.io/biocontainers/bioconductor-cigarillo/1.0.0--r45h01b2380_0
+$ module load quay.io/biocontainers/bioconductor-cigarillo/1.2.1--r45h262fe30_0
+$ module help quay.io/biocontainers/bioconductor-cigarillo/1.2.1--r45h262fe30_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

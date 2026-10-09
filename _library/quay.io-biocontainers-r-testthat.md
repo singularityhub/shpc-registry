@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-testthat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-testthat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-testthat/container.yaml"
-updated_at: "2026-10-08 08:39:43.434572"
+updated_at: "2026-10-09 08:45:59.602719"
 latest: "1.0.2--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-testthat"
 aliases:

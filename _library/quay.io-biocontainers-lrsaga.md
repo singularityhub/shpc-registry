@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lrsaga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lrsaga/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lrsaga/container.yaml"
-updated_at: "2026-10-08 09:13:19.411490"
+updated_at: "2026-10-09 09:30:42.938430"
 latest: "0.1--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/lrsaga"
 aliases:

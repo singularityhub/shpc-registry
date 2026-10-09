@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gcrisprtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcrisprtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcrisprtools/container.yaml"
-updated_at: "2026-10-08 08:51:20.678206"
+updated_at: "2026-10-09 09:01:55.726988"
 latest: "2.12.0--r44hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcrisprtools"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mzmine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mzmine/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mzmine/container.yaml"
-updated_at: "2026-10-08 09:17:48.356671"
+updated_at: "2026-10-09 09:36:36.934859"
 latest: "4.7.29--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mzmine"
 aliases:
