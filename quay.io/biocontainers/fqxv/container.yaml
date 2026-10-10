@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/fqxv
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for fqxv
+latest:
+  0.7.0--hfa8f182_0: 
+    sha256:a3c357b3acddf3c6fe80327714ab379442ab470ed237ef44887d3388075d761e
+tags:
+  0.7.0--hfa8f182_0: 
+    sha256:a3c357b3acddf3c6fe80327714ab379442ab470ed237ef44887d3388075d761e
+docker: quay.io/biocontainers/fqxv
+aliases:
+  fqxv: /usr/local/bin/fqxv

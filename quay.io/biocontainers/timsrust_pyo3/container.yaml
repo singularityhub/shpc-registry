@@ -1,0 +1,16 @@
+url: https://biocontainers.pro/tools/timsrust_pyo3
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for timsrust_pyo3
+latest:
+  0.4.1--py311h78a2e26_0: 
+    sha256:cbf0936158be63f18d8f2667d3473353064d087830f6c311a907ecd595026b72
+tags:
+  0.4.1--py311h78a2e26_0: 
+    sha256:cbf0936158be63f18d8f2667d3473353064d087830f6c311a907ecd595026b72
+docker: quay.io/biocontainers/timsrust_pyo3
+aliases:
+  2to3-3.11: /usr/local/bin/2to3-3.11
+  idle3.11: /usr/local/bin/idle3.11
+  pydoc3.11: /usr/local/bin/pydoc3.11
+  python3.11: /usr/local/bin/python3.11
+  python3.11-config: /usr/local/bin/python3.11-config

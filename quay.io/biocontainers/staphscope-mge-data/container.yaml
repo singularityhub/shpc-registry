@@ -1,0 +1,10 @@
+url: https://biocontainers.pro/tools/staphscope-mge-data
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for staphscope-mge-data
+latest:
+  2.0.0--hdfd78af_0: 
+    sha256:b527acad47e25d6c1d5141b5faa4e1eae2c727987be681e32e6e90a57b7d676f
+tags:
+  2.0.0--hdfd78af_0: 
+    sha256:b527acad47e25d6c1d5141b5faa4e1eae2c727987be681e32e6e90a57b7d676f
+docker: quay.io/biocontainers/staphscope-mge-data

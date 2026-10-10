@@ -1,0 +1,12 @@
+url: https://biocontainers.pro/tools/turbo-picard
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for turbo-picard
+latest:
+  0.1.15--hf5b135f_0: 
+    sha256:fc384c16379855945f186a6ffb0c06c2f6d1c53039c70965827cacf1970e1bb5
+tags:
+  0.1.15--hf5b135f_0: 
+    sha256:fc384c16379855945f186a6ffb0c06c2f6d1c53039c70965827cacf1970e1bb5
+docker: quay.io/biocontainers/turbo-picard
+aliases:
+  turbo-picard: /usr/local/bin/turbo-picard

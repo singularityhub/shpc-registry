@@ -1,0 +1,89 @@
+url: https://biocontainers.pro/tools/bacon-nanopore
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for bacon-nanopore
+latest:
+  0.3.5--pyhdfd78af_0: 
+    sha256:17b18820c3fd5b7b86d2a1afcfa200be6998e90f7b0a702bf2edfa7a55de7c26
+tags:
+  0.3.5--pyhdfd78af_0: 
+    sha256:17b18820c3fd5b7b86d2a1afcfa200be6998e90f7b0a702bf2edfa7a55de7c26
+docker: quay.io/biocontainers/bacon-nanopore
+aliases:
+  Phi: /usr/local/bin/Phi
+  Profile: /usr/local/bin/Profile
+  addx.sh: /usr/local/bin/addx.sh
+  alignerbenchmark.sh: /usr/local/bin/alignerbenchmark.sh
+  bacon: /usr/local/bin/bacon
+  balancevectors.sh: /usr/local/bin/balancevectors.sh
+  bbdukOld.sh: /usr/local/bin/bbdukOld.sh
+  bbmap5.sh: /usr/local/bin/bbmap5.sh
+  bbmapacc.sh: /usr/local/bin/bbmapacc.sh
+  bedset.sh: /usr/local/bin/bedset.sh
+  calibrate.sh: /usr/local/bin/calibrate.sh
+  covmaker.sh: /usr/local/bin/covmaker.sh
+  ddlblacklist.sh: /usr/local/bin/ddlblacklist.sh
+  ddlcalibrate.sh: /usr/local/bin/ddlcalibrate.sh
+  ddlcompare.sh: /usr/local/bin/ddlcompare.sh
+  ddlmerger.sh: /usr/local/bin/ddlmerger.sh
+  ddlwriter.sh: /usr/local/bin/ddlwriter.sh
+  dlctieraccuracy.sh: /usr/local/bin/dlctieraccuracy.sh
+  extend.py: /usr/local/bin/extend.py
+  filescan.sh: /usr/local/bin/filescan.sh
+  filtlong: /usr/local/bin/filtlong
+  findssu.sh: /usr/local/bin/findssu.sh
+  fix_script_paths.sh: /usr/local/bin/fix_script_paths.sh
+  fll2simulate.sh: /usr/local/bin/fll2simulate.sh
+  fusebytaxa.sh: /usr/local/bin/fusebytaxa.sh
+  gradevcf.sh: /usr/local/bin/gradevcf.sh
+  harvesttools: /usr/local/bin/harvesttools
+  invertvcf.sh: /usr/local/bin/invertvcf.sh
+  iqtree3: /usr/local/bin/iqtree3
+  kmerhashdump.sh: /usr/local/bin/kmerhashdump.sh
+  logger.py: /usr/local/bin/logger.py
+  lowcomplexcalibrate.sh: /usr/local/bin/lowcomplexcalibrate.sh
+  mantissacompare.sh: /usr/local/bin/mantissacompare.sh
+  mergesam2.sh: /usr/local/bin/mergesam2.sh
+  myloasm: /usr/local/bin/myloasm
+  netconvert.sh: /usr/local/bin/netconvert.sh
+  parsnp: /usr/local/bin/parsnp
+  partition.py: /usr/local/bin/partition.py
+  rankingvectorizer.sh: /usr/local/bin/rankingvectorizer.sh
+  reassemble.sh: /usr/local/bin/reassemble.sh
+  regressiontrainer.sh: /usr/local/bin/regressiontrainer.sh
+  renamecami.sh: /usr/local/bin/renamecami.sh
+  restorebases.sh: /usr/local/bin/restorebases.sh
+  rqcfilter3.sh: /usr/local/bin/rqcfilter3.sh
+  ska: /usr/local/bin/ska
+  ssuserver.sh: /usr/local/bin/ssuserver.sh
+  template.ini: /usr/local/bin/template.ini
+  testalignersbatch.sh: /usr/local/bin/testalignersbatch.sh
+  testalignerslength.sh: /usr/local/bin/testalignerslength.sh
+  trainLCHist.sh: /usr/local/bin/trainLCHist.sh
+  ttllsimulate.sh: /usr/local/bin/ttllsimulate.sh
+  vectorutils.sh: /usr/local/bin/vectorutils.sh
+  zz_rename_package.sh: /usr/local/bin/zz_rename_package.sh
+  bamlinestreamer.sh: /usr/local/bin/bamlinestreamer.sh
+  bbdukS.sh: /usr/local/bin/bbdukS.sh
+  cbcl2text.sh: /usr/local/bin/cbcl2text.sh
+  cladeserver.sh: /usr/local/bin/cladeserver.sh
+  cloudplot.sh: /usr/local/bin/cloudplot.sh
+  fastqscan.sh: /usr/local/bin/fastqscan.sh
+  kmercountshort.sh: /usr/local/bin/kmercountshort.sh
+  parallelogram.sh: /usr/local/bin/parallelogram.sh
+  profile.sh: /usr/local/bin/profile.sh
+  reformat2.sh: /usr/local/bin/reformat2.sh
+  reformat3.sh: /usr/local/bin/reformat3.sh
+  samstreamer.sh: /usr/local/bin/samstreamer.sh
+  scalarintervals.sh: /usr/local/bin/scalarintervals.sh
+  scalars.sh: /usr/local/bin/scalars.sh
+  scrabblealigner.sh: /usr/local/bin/scrabblealigner.sh
+  sendclade.sh: /usr/local/bin/sendclade.sh
+  smithwaterman.sh: /usr/local/bin/smithwaterman.sh
+  stream.sh: /usr/local/bin/stream.sh
+  wavefrontalignerviz.sh: /usr/local/bin/wavefrontalignerviz.sh
+  xdrophaligner.sh: /usr/local/bin/xdrophaligner.sh
+  alignrandom.sh: /usr/local/bin/alignrandom.sh
+  bandedplusaligner.sh: /usr/local/bin/bandedplusaligner.sh
+  driftingplusaligner.sh: /usr/local/bin/driftingplusaligner.sh
+  indelfree.sh: /usr/local/bin/indelfree.sh
+  quabblealigner.sh: /usr/local/bin/quabblealigner.sh
