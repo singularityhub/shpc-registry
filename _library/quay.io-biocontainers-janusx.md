@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/janusx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/janusx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/janusx/container.yaml"
-updated_at: "2026-10-10 08:13:38.900027"
+updated_at: "2026-10-10 18:55:09.985991"
 latest: "1.0.27--py310h9fb556b_0"
 container_url: "https://biocontainers.pro/tools/janusx"
 aliases:

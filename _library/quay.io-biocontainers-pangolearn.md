@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pangolearn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pangolearn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pangolearn/container.yaml"
-updated_at: "2026-10-10 08:58:45.447847"
+updated_at: "2026-10-10 19:54:46.766071"
 latest: "2022.03.22--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/pangolearn"
 aliases:
