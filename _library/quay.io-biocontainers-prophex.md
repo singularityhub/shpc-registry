@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prophex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prophex/container.yaml"
-updated_at: "2026-10-09 08:56:21.497751"
+updated_at: "2026-10-10 08:26:35.824598"
 latest: "0.1.1--h577a1d6_6"
 container_url: "https://biocontainers.pro/tools/prophex"
 aliases:

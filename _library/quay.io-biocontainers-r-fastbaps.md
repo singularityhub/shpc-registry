@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fastbaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fastbaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fastbaps/container.yaml"
-updated_at: "2026-10-09 08:43:34.667326"
+updated_at: "2026-10-10 08:17:24.201851"
 latest: "1.0.8--r44h5ca1c30_4"
 container_url: "https://biocontainers.pro/tools/r-fastbaps"
 aliases:

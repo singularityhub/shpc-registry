@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/difcover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/difcover/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/difcover/container.yaml"
-updated_at: "2026-10-09 08:45:51.652645"
+updated_at: "2026-10-10 08:19:06.328871"
 latest: "3.0.1--h9948957_2"
 container_url: "https://biocontainers.pro/tools/difcover"
 aliases:

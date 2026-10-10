@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nanoporernaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanoporernaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanoporernaseq/container.yaml"
-updated_at: "2026-10-09 08:48:27.895282"
+updated_at: "2026-10-10 08:21:01.727518"
 latest: "1.12.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanoporernaseq"
 

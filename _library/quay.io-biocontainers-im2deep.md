@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/im2deep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/im2deep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/im2deep/container.yaml"
-updated_at: "2026-10-09 08:52:17.353225"
+updated_at: "2026-10-10 08:23:47.064565"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/im2deep"
 aliases:

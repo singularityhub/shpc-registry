@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-clvalid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-clvalid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-clvalid/container.yaml"
-updated_at: "2026-10-09 09:02:09.564340"
+updated_at: "2026-10-10 08:30:44.488183"
 latest: "0.6_6--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-clvalid"
 aliases:

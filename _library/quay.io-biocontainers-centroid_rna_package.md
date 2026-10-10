@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/centroid_rna_package"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centroid_rna_package/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centroid_rna_package/container.yaml"
-updated_at: "2026-10-09 09:33:16.396491"
+updated_at: "2026-10-10 08:53:35.965569"
 latest: "0.0.16--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/centroid_rna_package"
 aliases:

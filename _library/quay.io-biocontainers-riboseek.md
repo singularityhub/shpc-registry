@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riboseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboseek/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboseek/container.yaml"
-updated_at: "2026-10-09 08:53:39.176089"
+updated_at: "2026-10-10 08:24:45.502343"
 latest: "1.0.1--he833c27_0"
 container_url: "https://biocontainers.pro/tools/riboseek"
 aliases:

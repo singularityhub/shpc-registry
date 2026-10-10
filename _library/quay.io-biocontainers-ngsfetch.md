@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngsfetch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngsfetch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngsfetch/container.yaml"
-updated_at: "2026-10-09 09:39:54.773642"
+updated_at: "2026-10-10 08:58:18.644251"
 latest: "0.1.2--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/ngsfetch"
 aliases:

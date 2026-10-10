@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cramino"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cramino/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cramino/container.yaml"
-updated_at: "2026-10-09 09:11:01.925653"
+updated_at: "2026-10-10 08:37:29.630651"
 latest: "1.3.0--h3dc2dae_0"
 container_url: "https://biocontainers.pro/tools/cramino"
 aliases:

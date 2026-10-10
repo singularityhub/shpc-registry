@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomautomorphism"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomautomorphism/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomautomorphism/container.yaml"
-updated_at: "2026-10-09 08:55:53.832535"
+updated_at: "2026-10-10 08:26:16.719836"
 latest: "1.12.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomautomorphism"
 aliases:

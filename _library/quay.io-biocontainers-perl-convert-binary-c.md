@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-convert-binary-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-convert-binary-c/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-convert-binary-c/container.yaml"
-updated_at: "2026-10-09 08:58:01.903942"
+updated_at: "2026-10-10 08:27:47.135048"
 latest: "0.86--pl5321h9948957_0"
 container_url: "https://biocontainers.pro/tools/perl-convert-binary-c"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-interactive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-interactive/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-interactive/container.yaml"
-updated_at: "2026-10-09 09:17:57.262198"
+updated_at: "2026-10-10 08:42:44.969972"
 latest: "1.027--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-io-interactive"
 aliases:

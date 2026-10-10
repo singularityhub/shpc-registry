@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-informeasure"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-informeasure/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-informeasure/container.yaml"
-updated_at: "2026-10-09 09:02:37.202776"
+updated_at: "2026-10-10 08:31:04.608358"
 latest: "1.20.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-informeasure"
 

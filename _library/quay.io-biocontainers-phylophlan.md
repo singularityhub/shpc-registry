@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylophlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylophlan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylophlan/container.yaml"
-updated_at: "2026-10-09 08:48:47.630945"
+updated_at: "2026-10-10 08:21:15.988503"
 latest: "3.2.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phylophlan"
 aliases:

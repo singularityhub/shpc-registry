@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pipmir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipmir/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pipmir/container.yaml"
-updated_at: "2026-10-09 08:59:03.381961"
+updated_at: "2026-10-10 08:28:32.208259"
 latest: "1.1--hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/pipmir"
 aliases:

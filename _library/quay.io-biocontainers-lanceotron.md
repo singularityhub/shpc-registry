@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lanceotron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lanceotron/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lanceotron/container.yaml"
-updated_at: "2026-10-09 08:39:58.671111"
+updated_at: "2026-10-10 08:14:41.450664"
 latest: "1.2.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lanceotron"
 aliases:

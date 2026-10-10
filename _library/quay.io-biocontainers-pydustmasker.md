@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pydustmasker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydustmasker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pydustmasker/container.yaml"
-updated_at: "2026-10-09 08:51:44.709866"
+updated_at: "2026-10-10 08:23:23.866980"
 latest: "3.2.0--py313h9a1e870_0"
 container_url: "https://biocontainers.pro/tools/pydustmasker"
 aliases:

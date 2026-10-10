@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/whittle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/whittle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/whittle/container.yaml"
-updated_at: "2026-10-09 09:16:27.290602"
+updated_at: "2026-10-10 08:41:35.581431"
 latest: "0.2.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/whittle"
 aliases:

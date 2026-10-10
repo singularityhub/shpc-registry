@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/alloshp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alloshp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alloshp/container.yaml"
-updated_at: "2026-10-09 09:24:21.452936"
+updated_at: "2026-10-10 08:47:24.527631"
 latest: "2025.09.12--h7b50bb2_0"
 container_url: "https://biocontainers.pro/tools/alloshp"
 aliases:
