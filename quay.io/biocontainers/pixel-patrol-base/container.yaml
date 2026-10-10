@@ -1,0 +1,38 @@
+url: https://biocontainers.pro/tools/pixel-patrol-base
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for pixel-patrol-base
+latest:
+  0.9.2--pyhdfd78af_0: 
+    sha256:e8a03b9e02c209255a927fb42f4f03c4f84943d79b9493e7411ac78b5ec22a4c
+tags:
+  0.9.2--pyhdfd78af_0: 
+    sha256:e8a03b9e02c209255a927fb42f4f03c4f84943d79b9493e7411ac78b5ec22a4c
+docker: quay.io/biocontainers/pixel-patrol-base
+aliases:
+  pixel-patrol: /usr/local/bin/pixel-patrol
+  protoc-35.1.0: /usr/local/bin/protoc-35.1.0
+  protoc-gen-upb-35.1.0: /usr/local/bin/protoc-gen-upb-35.1.0
+  protoc-gen-upb_minitable-35.1.0: 
+    /usr/local/bin/protoc-gen-upb_minitable-35.1.0
+  protoc-gen-upbdefs-35.1.0: /usr/local/bin/protoc-gen-upbdefs-35.1.0
+  dask: /usr/local/bin/dask
+  dask-scheduler: /usr/local/bin/dask-scheduler
+  dask-ssh: /usr/local/bin/dask-ssh
+  dask-worker: /usr/local/bin/dask-worker
+  elastishadow: /usr/local/bin/elastishadow
+  protoc-gen-upb_minitable: /usr/local/bin/protoc-gen-upb_minitable
+  fc-genconf: /usr/local/bin/fc-genconf
+  h2benchmark: /usr/local/bin/h2benchmark
+  checksum-profile: /usr/local/bin/checksum-profile
+  protoc-gen-upb: /usr/local/bin/protoc-gen-upb
+  protoc-gen-upbdefs: /usr/local/bin/protoc-gen-upbdefs
+  elastipubsub5: /usr/local/bin/elastipubsub5
+  mqtt5_app: /usr/local/bin/mqtt5_app
+  mqtt5_canary: /usr/local/bin/mqtt5_canary
+  mqtt5canary: /usr/local/bin/mqtt5canary
+  elasticurl_cpp: /usr/local/bin/elasticurl_cpp
+  elastipubsub: /usr/local/bin/elastipubsub
+  csv-import: /usr/local/bin/csv-import
+  orc-memory: /usr/local/bin/orc-memory
+  orc-scan: /usr/local/bin/orc-scan
+  timezone-dump: /usr/local/bin/timezone-dump

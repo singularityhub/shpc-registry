@@ -1,0 +1,17 @@
+url: https://biocontainers.pro/tools/cytome
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cytome
+latest:
+  0.3.6--pyhdfd78af_0: 
+    sha256:21218472e1ee2419a07d91c9fbf9c99de4afdd79249513a2a1b5fcf40e105d26
+tags:
+  0.3.6--pyhdfd78af_0: 
+    sha256:21218472e1ee2419a07d91c9fbf9c99de4afdd79249513a2a1b5fcf40e105d26
+docker: quay.io/biocontainers/cytome
+aliases:
+  cytome: /usr/local/bin/cytome
+  idle3.14: /usr/local/bin/idle3.14
+  pydoc3.14: /usr/local/bin/pydoc3.14
+  python3.14: /usr/local/bin/python3.14
+  python3.14-config: /usr/local/bin/python3.14-config
+  numpy-config: /usr/local/bin/numpy-config

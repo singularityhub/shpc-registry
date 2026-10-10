@@ -1,0 +1,62 @@
+url: https://biocontainers.pro/tools/cima
+maintainer: '@vsoch'
+description: singularity registry hpc automated addition for cima
+latest:
+  1.2.0--pyhdfd78af_0: 
+    sha256:27355260b845105a0b7d907b9050b4cb7370435d112f6a68540c79a11b9e7e51
+tags:
+  1.2.0--pyhdfd78af_0: 
+    sha256:27355260b845105a0b7d907b9050b4cb7370435d112f6a68540c79a11b9e7e51
+docker: quay.io/biocontainers/cima
+aliases:
+  cyclopts: /usr/local/bin/cyclopts
+  glewinfo: /usr/local/bin/glewinfo
+  harmonydeployqt6: /usr/local/bin/harmonydeployqt6
+  jupyter-standaloneproxy: /usr/local/bin/jupyter-standaloneproxy
+  kmap2qmap6: /usr/local/bin/kmap2qmap6
+  lcheck6: /usr/local/bin/lcheck6
+  lconvert6: /usr/local/bin/lconvert6
+  lrelease-pro6: /usr/local/bin/lrelease-pro6
+  lrelease6: /usr/local/bin/lrelease6
+  ltext2id6: /usr/local/bin/ltext2id6
+  lupdate-pro6: /usr/local/bin/lupdate-pro6
+  lupdate6: /usr/local/bin/lupdate6
+  mistune: /usr/local/bin/mistune
+  pyvista: /usr/local/bin/pyvista
+  scooby: /usr/local/bin/scooby
+  visualinfo: /usr/local/bin/visualinfo
+  vtkParseJava-9.6: /usr/local/bin/vtkParseJava-9.6
+  vtkProbeOpenGLVersion-9.6: /usr/local/bin/vtkProbeOpenGLVersion-9.6
+  vtkWrapHierarchy-9.6: /usr/local/bin/vtkWrapHierarchy-9.6
+  vtkWrapJava-9.6: /usr/local/bin/vtkWrapJava-9.6
+  vtkWrapJavaScript-9.6: /usr/local/bin/vtkWrapJavaScript-9.6
+  vtkWrapPython-9.6: /usr/local/bin/vtkWrapPython-9.6
+  vtkWrapPythonInit-9.6: /usr/local/bin/vtkWrapPythonInit-9.6
+  vtkWrapSerDes-9.6: /usr/local/bin/vtkWrapSerDes-9.6
+  vtkpython: /usr/local/bin/vtkpython
+  wasmdeployqt6: /usr/local/bin/wasmdeployqt6
+  jupyter-events: /usr/local/bin/jupyter-events
+  jupyter-server: /usr/local/bin/jupyter-server
+  androiddeployqt6: /usr/local/bin/androiddeployqt6
+  assistant6: /usr/local/bin/assistant6
+  designer6: /usr/local/bin/designer6
+  linguist6: /usr/local/bin/linguist6
+  pixeltool6: /usr/local/bin/pixeltool6
+  qdbus6: /usr/local/bin/qdbus6
+  qdbusviewer6: /usr/local/bin/qdbusviewer6
+  qdistancefieldgenerator6: /usr/local/bin/qdistancefieldgenerator6
+  qmake6: /usr/local/bin/qmake6
+  qml6: /usr/local/bin/qml6
+  qmleasing6: /usr/local/bin/qmleasing6
+  qmlls6: /usr/local/bin/qmlls6
+  qmlpreview6: /usr/local/bin/qmlpreview6
+  qmlscene6: /usr/local/bin/qmlscene6
+  qt6.conf: /usr/local/bin/qt6.conf
+  qtdiag6: /usr/local/bin/qtdiag6
+  qtplugininfo6: /usr/local/bin/qtplugininfo6
+  debugpy-adapter: /usr/local/bin/debugpy-adapter
+  debugpy: /usr/local/bin/debugpy
+  cffi-gen-src: /usr/local/bin/cffi-gen-src
+  send2trash: /usr/local/bin/send2trash
+  wsdump: /usr/local/bin/wsdump
+  jsonpointer: /usr/local/bin/jsonpointer
