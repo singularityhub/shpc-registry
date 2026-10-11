@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/nomadic
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for nomadic
 latest:
-  0.8.1--pyhdfd78af_0: 
-    sha256:7d0bc06df03484bb9588b36404be1720aafea28e710473aac31aa0874874906c
+  0.9.0--pyhdfd78af_0: 
+    sha256:4eb72cd0470d5a5ae85b41f2f7ce2e9db1b176ec092fed19fbb4680157d67000
 tags:
   0.4.0--pyhdfd78af_0: 
     sha256:6219b22468a526db41812a0837fb42748cc8d4ddb22fc7dd84d63def9d3d93d4
@@ -17,6 +17,8 @@ tags:
     sha256:f9d8b52c9b860db08aa56deebdd7585becb549913380b018fb11998532ab9756
   0.8.1--pyhdfd78af_0: 
     sha256:7d0bc06df03484bb9588b36404be1720aafea28e710473aac31aa0874874906c
+  0.9.0--pyhdfd78af_0: 
+    sha256:4eb72cd0470d5a5ae85b41f2f7ce2e9db1b176ec092fed19fbb4680157d67000
 docker: quay.io/biocontainers/nomadic
 aliases:
   dash-update-components: /usr/local/bin/dash-update-components

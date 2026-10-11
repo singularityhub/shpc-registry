@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/metacooc
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for metacooc
 latest:
-  0.1.0--pyhdfd78af_0: 
-    sha256:434769f1db94a10ab9de039d9609fb704472f52275a550c6094bf0e325b64b14
+  0.1.1--pyhdfd78af_0: 
+    sha256:6a61d3bd6afc55d11bc4ee82bb5232da59d4258415cadbb3dd48c08127753765
 tags:
   0.1.0--pyhdfd78af_0: 
     sha256:434769f1db94a10ab9de039d9609fb704472f52275a550c6094bf0e325b64b14
+  0.1.1--pyhdfd78af_0: 
+    sha256:6a61d3bd6afc55d11bc4ee82bb5232da59d4258415cadbb3dd48c08127753765
 docker: quay.io/biocontainers/metacooc
 aliases:
   metacooc: /usr/local/bin/metacooc
