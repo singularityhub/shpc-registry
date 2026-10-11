@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromscape/container.yaml"
-updated_at: "2026-10-10 19:10:35.372370"
+updated_at: "2026-10-11 08:43:00.156982"
 latest: "1.16.0--r44he5774e6_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromscape"
 aliases:

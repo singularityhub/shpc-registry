@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scpca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scpca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scpca/container.yaml"
-updated_at: "2026-10-10 19:06:15.559721"
+updated_at: "2026-10-11 08:38:41.399816"
 latest: "1.24.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scpca"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/turbo-picard-picard-shim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/turbo-picard-picard-shim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/turbo-picard-picard-shim/container.yaml"
-updated_at: "2026-10-10 19:06:59.512702"
+updated_at: "2026-10-11 08:39:25.859337"
 latest: "0.1.15--hf5b135f_0"
 container_url: "https://biocontainers.pro/tools/turbo-picard-picard-shim"
 aliases:

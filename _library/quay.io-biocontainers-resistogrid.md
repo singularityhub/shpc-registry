@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/resistogrid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/resistogrid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/resistogrid/container.yaml"
-updated_at: "2026-10-10 19:37:18.405634"
+updated_at: "2026-10-11 09:09:45.987663"
 latest: "0.1.0.20260807.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/resistogrid"
 aliases:

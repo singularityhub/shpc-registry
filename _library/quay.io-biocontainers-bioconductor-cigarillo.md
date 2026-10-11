@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cigarillo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cigarillo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cigarillo/container.yaml"
-updated_at: "2026-10-10 19:52:52.430450"
+updated_at: "2026-10-11 09:25:42.619368"
 latest: "1.2.1--r45h262fe30_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cigarillo"
 aliases:

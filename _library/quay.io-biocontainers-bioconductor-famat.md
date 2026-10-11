@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-famat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-famat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-famat/container.yaml"
-updated_at: "2026-10-10 19:18:06.874869"
+updated_at: "2026-10-11 08:50:47.276120"
 latest: "1.20.3--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-famat"
 

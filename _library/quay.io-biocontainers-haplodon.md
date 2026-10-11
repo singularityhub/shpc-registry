@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplodon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplodon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haplodon/container.yaml"
-updated_at: "2026-10-10 19:37:08.361506"
+updated_at: "2026-10-11 09:09:35.677726"
 latest: "0.17.0--hbcba35e_0"
 container_url: "https://biocontainers.pro/tools/haplodon"
 aliases:

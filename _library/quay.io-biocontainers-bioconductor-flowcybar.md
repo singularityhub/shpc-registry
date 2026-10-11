@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowcybar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowcybar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowcybar/container.yaml"
-updated_at: "2026-10-10 18:57:55.589630"
+updated_at: "2026-10-11 08:30:05.546710"
 latest: "1.38.0--r43hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowcybar"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haphic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haphic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haphic/container.yaml"
-updated_at: "2026-10-10 19:19:21.442914"
+updated_at: "2026-10-11 08:52:00.722762"
 latest: "1.0.7--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/haphic"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varlinker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varlinker/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varlinker/container.yaml"
-updated_at: "2026-10-10 19:25:49.600279"
+updated_at: "2026-10-11 08:58:14.695519"
 latest: "0.1.0--h4349ce8_0"
 container_url: "https://biocontainers.pro/tools/varlinker"
 aliases:

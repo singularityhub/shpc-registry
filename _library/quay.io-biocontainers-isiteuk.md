@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/isiteuk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isiteuk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isiteuk/container.yaml"
-updated_at: "2026-10-10 19:45:25.071340"
+updated_at: "2026-10-11 09:18:06.926270"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/isiteuk"
 aliases:

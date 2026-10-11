@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staphscope-mge-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphscope-mge-data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphscope-mge-data/container.yaml"
-updated_at: "2026-10-10 19:41:13.579159"
+updated_at: "2026-10-11 09:13:45.497689"
 latest: "2.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphscope-mge-data"
 

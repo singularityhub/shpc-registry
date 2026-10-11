@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pgecore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pgecore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pgecore/container.yaml"
-updated_at: "2026-10-10 19:13:17.109222"
+updated_at: "2026-10-11 08:45:44.261440"
 latest: "0.1.0--r45hab16a5f_0"
 container_url: "https://biocontainers.pro/tools/r-pgecore"
 aliases:

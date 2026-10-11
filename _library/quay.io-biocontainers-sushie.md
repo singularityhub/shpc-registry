@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sushie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sushie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sushie/container.yaml"
-updated_at: "2026-10-10 19:08:00.686258"
+updated_at: "2026-10-11 08:40:26.773823"
 latest: "0.19--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sushie"
 aliases:

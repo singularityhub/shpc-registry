@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bin2cell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bin2cell/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bin2cell/container.yaml"
-updated_at: "2026-10-10 19:16:27.780320"
+updated_at: "2026-10-11 08:49:06.196866"
 latest: "0.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bin2cell"
 aliases:

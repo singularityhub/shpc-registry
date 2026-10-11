@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-tmixclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tmixclust/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tmixclust/container.yaml"
-updated_at: "2026-10-10 19:47:12.842816"
+updated_at: "2026-10-11 09:19:55.532068"
 latest: "1.32.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tmixclust"
 aliases:

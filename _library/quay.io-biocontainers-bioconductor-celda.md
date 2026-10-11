@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-celda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celda/container.yaml"
-updated_at: "2026-10-10 19:44:20.505592"
+updated_at: "2026-10-11 09:17:01.842836"
 latest: "1.26.0--r45ha27e39d_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celda"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/molamola"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/molamola/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/molamola/container.yaml"
-updated_at: "2026-10-10 19:08:29.881352"
+updated_at: "2026-10-11 08:40:55.622799"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/molamola"
 aliases:

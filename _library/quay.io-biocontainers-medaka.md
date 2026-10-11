@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/medaka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/medaka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/medaka/container.yaml"
-updated_at: "2026-10-10 19:23:41.142127"
+updated_at: "2026-10-11 08:56:12.810821"
 latest: "2.2.2--py312h3050eb1_0"
 container_url: "https://biocontainers.pro/tools/medaka"
 aliases:

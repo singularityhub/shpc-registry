@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mrbayes_volpiano"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mrbayes_volpiano/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mrbayes_volpiano/container.yaml"
-updated_at: "2026-10-10 19:50:14.188999"
+updated_at: "2026-10-11 09:23:04.166486"
 latest: "3.2.7a--hd0d793b_0"
 container_url: "https://biocontainers.pro/tools/mrbayes_volpiano"
 aliases:

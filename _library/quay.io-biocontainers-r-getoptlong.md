@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-getoptlong"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-getoptlong/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-getoptlong/container.yaml"
-updated_at: "2026-10-10 19:40:02.764342"
+updated_at: "2026-10-11 09:12:30.647176"
 latest: "0.1.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-getoptlong"
 aliases:

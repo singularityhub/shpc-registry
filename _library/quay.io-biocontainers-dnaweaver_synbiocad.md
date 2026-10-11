@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dnaweaver_synbiocad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnaweaver_synbiocad/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnaweaver_synbiocad/container.yaml"
-updated_at: "2026-10-10 19:17:08.946336"
+updated_at: "2026-10-11 08:49:49.300584"
 latest: "1.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dnaweaver_synbiocad"
 aliases:

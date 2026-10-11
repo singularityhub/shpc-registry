@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dot-explorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dot-explorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dot-explorer/container.yaml"
-updated_at: "2026-10-10 19:26:01.276704"
+updated_at: "2026-10-11 08:58:25.689259"
 latest: "0.2.1--py314h78a2e26_0"
 container_url: "https://biocontainers.pro/tools/dot-explorer"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metacooc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacooc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metacooc/container.yaml"
-updated_at: "2026-10-10 19:11:16.565855"
-latest: "0.1.0--pyhdfd78af_0"
+updated_at: "2026-10-11 08:43:41.173557"
+latest: "0.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metacooc"
 aliases:
  - "metacooc"
@@ -36,8 +36,9 @@ aliases:
  - "orc-statistics"
 versions:
  - "0.1.0--pyhdfd78af_0"
+ - "0.1.1--pyhdfd78af_0"
 description: "singularity registry hpc automated addition for metacooc"
-config: {"url": "https://biocontainers.pro/tools/metacooc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacooc", "latest": {"0.1.0--pyhdfd78af_0": "sha256:434769f1db94a10ab9de039d9609fb704472f52275a550c6094bf0e325b64b14"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:434769f1db94a10ab9de039d9609fb704472f52275a550c6094bf0e325b64b14"}, "docker": "quay.io/biocontainers/metacooc", "aliases": {"metacooc": "/usr/local/bin/metacooc", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "idna": "/usr/local/bin/idna", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "fc-genconf": "/usr/local/bin/fc-genconf", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics"}}
+config: {"url": "https://biocontainers.pro/tools/metacooc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for metacooc", "latest": {"0.1.1--pyhdfd78af_0": "sha256:6a61d3bd6afc55d11bc4ee82bb5232da59d4258415cadbb3dd48c08127753765"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:434769f1db94a10ab9de039d9609fb704472f52275a550c6094bf0e325b64b14", "0.1.1--pyhdfd78af_0": "sha256:6a61d3bd6afc55d11bc4ee82bb5232da59d4258415cadbb3dd48c08127753765"}, "docker": "quay.io/biocontainers/metacooc", "aliases": {"metacooc": "/usr/local/bin/metacooc", "protoc-35.1.0": "/usr/local/bin/protoc-35.1.0", "protoc-gen-upb-35.1.0": "/usr/local/bin/protoc-gen-upb-35.1.0", "protoc-gen-upb_minitable-35.1.0": "/usr/local/bin/protoc-gen-upb_minitable-35.1.0", "protoc-gen-upbdefs-35.1.0": "/usr/local/bin/protoc-gen-upbdefs-35.1.0", "idna": "/usr/local/bin/idna", "elastishadow": "/usr/local/bin/elastishadow", "protoc-gen-upb_minitable": "/usr/local/bin/protoc-gen-upb_minitable", "fc-genconf": "/usr/local/bin/fc-genconf", "h2benchmark": "/usr/local/bin/h2benchmark", "checksum-profile": "/usr/local/bin/checksum-profile", "protoc-gen-upb": "/usr/local/bin/protoc-gen-upb", "protoc-gen-upbdefs": "/usr/local/bin/protoc-gen-upbdefs", "elastipubsub5": "/usr/local/bin/elastipubsub5", "mqtt5_app": "/usr/local/bin/mqtt5_app", "mqtt5_canary": "/usr/local/bin/mqtt5_canary", "mqtt5canary": "/usr/local/bin/mqtt5canary", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "csv-import": "/usr/local/bin/csv-import", "orc-memory": "/usr/local/bin/orc-memory", "orc-scan": "/usr/local/bin/orc-scan", "timezone-dump": "/usr/local/bin/timezone-dump", "orc-contents": "/usr/local/bin/orc-contents", "orc-metadata": "/usr/local/bin/orc-metadata", "orc-statistics": "/usr/local/bin/orc-statistics"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metacooc.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/metacooc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metacooc:0.1.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metacooc:0.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metacooc/0.1.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/metacooc/0.1.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/metacooc/0.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/metacooc/0.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

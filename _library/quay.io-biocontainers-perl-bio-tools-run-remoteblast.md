@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-tools-run-remoteblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-tools-run-remoteblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-tools-run-remoteblast/container.yaml"
-updated_at: "2026-10-10 19:06:47.284276"
+updated_at: "2026-10-11 08:39:13.890581"
 latest: "1.7.3--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-tools-run-remoteblast"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/skope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/skope/container.yaml"
-updated_at: "2026-10-10 19:27:50.406424"
+updated_at: "2026-10-11 09:00:10.824062"
 latest: "0.5.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/skope"
 aliases:

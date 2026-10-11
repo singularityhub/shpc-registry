@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bacon-nanopore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bacon-nanopore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bacon-nanopore/container.yaml"
-updated_at: "2026-10-10 19:18:12.283140"
+updated_at: "2026-10-11 08:50:52.757439"
 latest: "0.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bacon-nanopore"
 aliases:

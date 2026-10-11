@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rebaler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rebaler/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rebaler/container.yaml"
-updated_at: "2026-10-10 19:40:29.717943"
+updated_at: "2026-10-11 09:12:59.178775"
 latest: "0.2.0--py_1"
 container_url: "https://biocontainers.pro/tools/rebaler"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-interactivedisplaybase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interactivedisplaybase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interactivedisplaybase/container.yaml"
-updated_at: "2026-10-10 19:24:28.688168"
+updated_at: "2026-10-11 08:56:59.637997"
 latest: "1.48.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interactivedisplaybase"
 

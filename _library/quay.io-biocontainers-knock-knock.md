@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/knock-knock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/knock-knock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/knock-knock/container.yaml"
-updated_at: "2026-10-10 19:00:10.698418"
+updated_at: "2026-10-11 08:32:26.378657"
 latest: "0.4.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/knock-knock"
 aliases:

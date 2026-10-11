@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-factdesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-factdesign/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-factdesign/container.yaml"
-updated_at: "2026-10-10 19:27:04.169533"
+updated_at: "2026-10-11 08:59:24.682823"
 latest: "1.86.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-factdesign"
 

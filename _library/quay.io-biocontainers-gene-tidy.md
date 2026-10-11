@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gene-tidy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gene-tidy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gene-tidy/container.yaml"
-updated_at: "2026-10-10 19:09:05.465456"
+updated_at: "2026-10-11 08:41:29.435346"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gene-tidy"
 aliases:

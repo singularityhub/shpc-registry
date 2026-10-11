@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/myers-batch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/myers-batch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/myers-batch/container.yaml"
-updated_at: "2026-10-10 19:25:26.300725"
+updated_at: "2026-10-11 08:57:53.664566"
 latest: "1.0.1--py310h6813faf_0"
 container_url: "https://biocontainers.pro/tools/myers-batch"
 aliases:

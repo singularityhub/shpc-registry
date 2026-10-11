@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mytaxa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mytaxa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mytaxa/container.yaml"
-updated_at: "2026-10-10 19:00:16.351119"
+updated_at: "2026-10-11 08:32:32.277218"
 latest: "1.2.0--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/mytaxa"
 aliases:

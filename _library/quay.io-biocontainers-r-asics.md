@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-asics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-asics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-asics/container.yaml"
-updated_at: "2026-10-10 19:20:55.423273"
+updated_at: "2026-10-11 08:53:28.682409"
 latest: "1.0.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-asics"
 aliases:
