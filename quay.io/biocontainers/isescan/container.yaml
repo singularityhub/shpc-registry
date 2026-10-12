@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/isescan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for isescan
 latest:
-  1.7.3--h7b50bb2_0: 
-    sha256:104953273ee97485f0b2e4052d728cfbd98d3783a1d6314ccb5e375cd87bc2ad
+  1.7.3--hab16a5f_1: 
+    sha256:2bbf7f724d0860cb07e18f01585dd3682e1ac8949999102bbc949a010ca3742a
 tags:
   1.7.2.3--hec16e2b_1: 
     sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab
@@ -13,6 +13,8 @@ tags:
     sha256:6ec7c01e226c17a3b8e95e9bf67fd42bb769b9dfab0e2bc9df91d7f9cf07eb40
   1.7.3--h7b50bb2_0: 
     sha256:104953273ee97485f0b2e4052d728cfbd98d3783a1d6314ccb5e375cd87bc2ad
+  1.7.3--hab16a5f_1: 
+    sha256:2bbf7f724d0860cb07e18f01585dd3682e1ac8949999102bbc949a010ca3742a
 docker: quay.io/biocontainers/isescan
 aliases:
   FragGeneScan: /usr/local/bin/FragGeneScan
