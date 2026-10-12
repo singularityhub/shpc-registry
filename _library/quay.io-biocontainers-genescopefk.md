@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genescopefk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genescopefk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genescopefk/container.yaml"
-updated_at: "2026-10-11 08:44:34.866599"
+updated_at: "2026-10-12 09:05:50.258173"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/genescopefk"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hicapture"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicapture/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicapture/container.yaml"
-updated_at: "2026-10-11 08:47:20.505276"
+updated_at: "2026-10-12 09:08:36.807039"
 latest: "1.0.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicapture"
 aliases:

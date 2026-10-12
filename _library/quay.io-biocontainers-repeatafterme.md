@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/repeatafterme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatafterme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/repeatafterme/container.yaml"
-updated_at: "2026-10-11 09:18:41.446251"
-latest: "0.0.7--h7b50bb2_0"
+updated_at: "2026-10-12 09:39:37.351734"
+latest: "0.2.2--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/repeatafterme"
 aliases:
  - "RAMExtend"
@@ -15,8 +15,9 @@ aliases:
  - "twoBitToFa"
 versions:
  - "0.0.7--h7b50bb2_0"
+ - "0.2.2--hfa8f182_0"
 description: "singularity registry hpc automated addition for repeatafterme"
-config: {"url": "https://biocontainers.pro/tools/repeatafterme", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for repeatafterme", "latest": {"0.0.7--h7b50bb2_0": "sha256:dc1efa0774bcb83fd937b3cdf5bc1b879919092f08bb2c1c31badfa4f67bac0b"}, "tags": {"0.0.7--h7b50bb2_0": "sha256:dc1efa0774bcb83fd937b3cdf5bc1b879919092f08bb2c1c31badfa4f67bac0b"}, "docker": "quay.io/biocontainers/repeatafterme", "aliases": {"RAMExtend": "/usr/local/bin/RAMExtend", "calcPaths.pl": "/usr/local/bin/calcPaths.pl", "davidExtendConsRAM.pl": "/usr/local/bin/davidExtendConsRAM.pl", "extend-stk.pl": "/usr/local/bin/extend-stk.pl", "twoBitToFa": "/usr/local/bin/twoBitToFa"}}
+config: {"url": "https://biocontainers.pro/tools/repeatafterme", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for repeatafterme", "latest": {"0.2.2--hfa8f182_0": "sha256:bd1902b0bbf922392d66b3631e44f765a6e667c29d283c1c683183bacc3ca51c"}, "tags": {"0.0.7--h7b50bb2_0": "sha256:dc1efa0774bcb83fd937b3cdf5bc1b879919092f08bb2c1c31badfa4f67bac0b", "0.2.2--hfa8f182_0": "sha256:bd1902b0bbf922392d66b3631e44f765a6e667c29d283c1c683183bacc3ca51c"}, "docker": "quay.io/biocontainers/repeatafterme", "aliases": {"RAMExtend": "/usr/local/bin/RAMExtend", "calcPaths.pl": "/usr/local/bin/calcPaths.pl", "davidExtendConsRAM.pl": "/usr/local/bin/davidExtendConsRAM.pl", "extend-stk.pl": "/usr/local/bin/extend-stk.pl", "twoBitToFa": "/usr/local/bin/twoBitToFa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repeatafterme.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/repeatafterme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/repeatafterme:0.0.7--h7b50bb2_0
+$ shpc install quay.io/biocontainers/repeatafterme:0.2.2--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/repeatafterme/0.0.7--h7b50bb2_0
-$ module help quay.io/biocontainers/repeatafterme/0.0.7--h7b50bb2_0
+$ module load quay.io/biocontainers/repeatafterme/0.2.2--hfa8f182_0
+$ module help quay.io/biocontainers/repeatafterme/0.2.2--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

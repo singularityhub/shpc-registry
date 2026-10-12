@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/viotucluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viotucluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viotucluster/container.yaml"
-updated_at: "2026-10-11 09:11:56.278876"
+updated_at: "2026-10-12 09:33:08.872189"
 latest: "0.7.1--py310hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/viotucluster"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xloci"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xloci/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xloci/container.yaml"
-updated_at: "2026-10-11 09:20:06.696554"
-latest: "0.0.6--hd612981_0"
+updated_at: "2026-10-12 09:41:00.516725"
+latest: "0.0.7--hd612981_0"
 container_url: "https://biocontainers.pro/tools/xloci"
 aliases:
  - "xloci"
@@ -13,8 +13,9 @@ versions:
  - "0.0.4--hd612981_0"
  - "0.0.5--hd612981_0"
  - "0.0.6--hd612981_0"
+ - "0.0.7--hd612981_0"
 description: "singularity registry hpc automated addition for xloci"
-config: {"url": "https://biocontainers.pro/tools/xloci", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for xloci", "latest": {"0.0.6--hd612981_0": "sha256:2f17e94391ad0cf58df9230a76bf1cab42aa6e00469a52d0c07ad372fd44b121"}, "tags": {"0.0.4--hd612981_0": "sha256:66c800a0028810d25e8768b8c4501c3cdb2c82ca4d250eb9a61808ef0facb073", "0.0.5--hd612981_0": "sha256:ab6bf7a9ea468a93b2bbb58aa5b5c022fb574685dd1092bd87c018d421090e2d", "0.0.6--hd612981_0": "sha256:2f17e94391ad0cf58df9230a76bf1cab42aa6e00469a52d0c07ad372fd44b121"}, "docker": "quay.io/biocontainers/xloci", "aliases": {"xloci": "/usr/local/bin/xloci"}}
+config: {"url": "https://biocontainers.pro/tools/xloci", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for xloci", "latest": {"0.0.7--hd612981_0": "sha256:3c559434c616eb6d1edb926d1fce862dd13a4919b6496b045bb759c0157ce0d5"}, "tags": {"0.0.4--hd612981_0": "sha256:66c800a0028810d25e8768b8c4501c3cdb2c82ca4d250eb9a61808ef0facb073", "0.0.5--hd612981_0": "sha256:ab6bf7a9ea468a93b2bbb58aa5b5c022fb574685dd1092bd87c018d421090e2d", "0.0.6--hd612981_0": "sha256:2f17e94391ad0cf58df9230a76bf1cab42aa6e00469a52d0c07ad372fd44b121", "0.0.7--hd612981_0": "sha256:3c559434c616eb6d1edb926d1fce862dd13a4919b6496b045bb759c0157ce0d5"}, "docker": "quay.io/biocontainers/xloci", "aliases": {"xloci": "/usr/local/bin/xloci"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xloci.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/xloci
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xloci:0.0.6--hd612981_0
+$ shpc install quay.io/biocontainers/xloci:0.0.7--hd612981_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xloci/0.0.6--hd612981_0
-$ module help quay.io/biocontainers/xloci/0.0.6--hd612981_0
+$ module load quay.io/biocontainers/xloci/0.0.7--hd612981_0
+$ module help quay.io/biocontainers/xloci/0.0.7--hd612981_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

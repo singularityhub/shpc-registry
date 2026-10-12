@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/map4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/map4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/map4/container.yaml"
-updated_at: "2026-10-11 08:29:49.565480"
+updated_at: "2026-10-12 08:51:11.753298"
 latest: "1.1.3--pyh106432d_0"
 container_url: "https://biocontainers.pro/tools/map4"
 aliases:

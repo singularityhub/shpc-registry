@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-biochubsshiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biochubsshiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biochubsshiny/container.yaml"
-updated_at: "2026-10-11 08:28:54.154937"
+updated_at: "2026-10-12 08:50:19.753066"
 latest: "1.10.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biochubsshiny"
 aliases:

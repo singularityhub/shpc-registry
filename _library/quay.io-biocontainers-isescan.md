@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/isescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isescan/container.yaml"
-updated_at: "2026-10-11 09:27:29.195985"
-latest: "1.7.3--h7b50bb2_0"
+updated_at: "2026-10-12 09:48:20.619775"
+latest: "1.7.3--hab16a5f_1"
 container_url: "https://biocontainers.pro/tools/isescan"
 aliases:
  - "FragGeneScan"
@@ -33,8 +33,9 @@ versions:
  - "1.7.2.3--h031d066_2"
  - "1.7.2.3--h7b50bb2_4"
  - "1.7.3--h7b50bb2_0"
+ - "1.7.3--hab16a5f_1"
 description: "shpc-registry automated BioContainers addition for isescan"
-config: {"url": "https://biocontainers.pro/tools/isescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isescan", "latest": {"1.7.3--h7b50bb2_0": "sha256:104953273ee97485f0b2e4052d728cfbd98d3783a1d6314ccb5e375cd87bc2ad"}, "tags": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab", "1.7.2.3--h031d066_2": "sha256:aa356d6320bd08b745eb5844885c56c94b14f3ede8270e622c94fde14896c392", "1.7.2.3--h7b50bb2_4": "sha256:6ec7c01e226c17a3b8e95e9bf67fd42bb769b9dfab0e2bc9df91d7f9cf07eb40", "1.7.3--h7b50bb2_0": "sha256:104953273ee97485f0b2e4052d728cfbd98d3783a1d6314ccb5e375cd87bc2ad"}, "docker": "quay.io/biocontainers/isescan", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "constants.py": "/usr/local/bin/constants.py", "isPredict.py": "/usr/local/bin/isPredict.py", "is_analysis.py": "/usr/local/bin/is_analysis.py", "isescan.py": "/usr/local/bin/isescan.py", "pred.py": "/usr/local/bin/pred.py", "pyssw.py": "/usr/local/bin/pyssw.py", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "ssw_wrap.py": "/usr/local/bin/ssw_wrap.py", "tools.py": "/usr/local/bin/tools.py", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/isescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isescan", "latest": {"1.7.3--hab16a5f_1": "sha256:2bbf7f724d0860cb07e18f01585dd3682e1ac8949999102bbc949a010ca3742a"}, "tags": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab", "1.7.2.3--h031d066_2": "sha256:aa356d6320bd08b745eb5844885c56c94b14f3ede8270e622c94fde14896c392", "1.7.2.3--h7b50bb2_4": "sha256:6ec7c01e226c17a3b8e95e9bf67fd42bb769b9dfab0e2bc9df91d7f9cf07eb40", "1.7.3--h7b50bb2_0": "sha256:104953273ee97485f0b2e4052d728cfbd98d3783a1d6314ccb5e375cd87bc2ad", "1.7.3--hab16a5f_1": "sha256:2bbf7f724d0860cb07e18f01585dd3682e1ac8949999102bbc949a010ca3742a"}, "docker": "quay.io/biocontainers/isescan", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "constants.py": "/usr/local/bin/constants.py", "isPredict.py": "/usr/local/bin/isPredict.py", "is_analysis.py": "/usr/local/bin/is_analysis.py", "isescan.py": "/usr/local/bin/isescan.py", "pred.py": "/usr/local/bin/pred.py", "pyssw.py": "/usr/local/bin/pyssw.py", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "ssw_wrap.py": "/usr/local/bin/ssw_wrap.py", "tools.py": "/usr/local/bin/tools.py", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isescan.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/isescan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/isescan:1.7.3--h7b50bb2_0
+$ shpc install quay.io/biocontainers/isescan:1.7.3--hab16a5f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/isescan/1.7.3--h7b50bb2_0
-$ module help quay.io/biocontainers/isescan/1.7.3--h7b50bb2_0
+$ module load quay.io/biocontainers/isescan/1.7.3--hab16a5f_1
+$ module help quay.io/biocontainers/isescan/1.7.3--hab16a5f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

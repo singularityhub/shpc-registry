@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/ghostx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghostx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ghostx/container.yaml"
-updated_at: "2026-10-11 09:05:00.353433"
-latest: "1.3.7--h503566f_2"
+updated_at: "2026-10-12 09:26:18.813461"
+latest: "1.3.7--h8471819_3"
 container_url: "https://biocontainers.pro/tools/ghostx"
 aliases:
  - "ghostx"
 versions:
  - "1.3.7--hfc679d8_1"
  - "1.3.7--h503566f_2"
+ - "1.3.7--h8471819_3"
 description: "shpc-registry automated BioContainers addition for ghostx"
-config: {"url": "https://biocontainers.pro/tools/ghostx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostx", "latest": {"1.3.7--h503566f_2": "sha256:44a97393b8719e4c7574c48eda86e88c3c3df6af35441312c4e3bf7adbaf45ca"}, "tags": {"1.3.7--hfc679d8_1": "sha256:09bfb839933e99f504d909df09467e88cd733c54f7a55ff2e4876b818091f83a", "1.3.7--h503566f_2": "sha256:44a97393b8719e4c7574c48eda86e88c3c3df6af35441312c4e3bf7adbaf45ca"}, "docker": "quay.io/biocontainers/ghostx", "aliases": {"ghostx": "/usr/local/bin/ghostx"}}
+config: {"url": "https://biocontainers.pro/tools/ghostx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghostx", "latest": {"1.3.7--h8471819_3": "sha256:ad36ecc0b3e9a67d3e093692c5f18c9a2a99df11ffb088375219c9668b84c7d1"}, "tags": {"1.3.7--hfc679d8_1": "sha256:09bfb839933e99f504d909df09467e88cd733c54f7a55ff2e4876b818091f83a", "1.3.7--h503566f_2": "sha256:44a97393b8719e4c7574c48eda86e88c3c3df6af35441312c4e3bf7adbaf45ca", "1.3.7--h8471819_3": "sha256:ad36ecc0b3e9a67d3e093692c5f18c9a2a99df11ffb088375219c9668b84c7d1"}, "docker": "quay.io/biocontainers/ghostx", "aliases": {"ghostx": "/usr/local/bin/ghostx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ghostx.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/ghostx
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ghostx:1.3.7--h503566f_2
+$ shpc install quay.io/biocontainers/ghostx:1.3.7--h8471819_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ghostx/1.3.7--h503566f_2
-$ module help quay.io/biocontainers/ghostx/1.3.7--h503566f_2
+$ module load quay.io/biocontainers/ghostx/1.3.7--h8471819_3
+$ module help quay.io/biocontainers/ghostx/1.3.7--h8471819_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
