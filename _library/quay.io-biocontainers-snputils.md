@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snputils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snputils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snputils/container.yaml"
-updated_at: "2026-10-12 09:35:16.265283"
-latest: "1.1.0--py310hfe4f656_0"
+updated_at: "2026-10-13 09:38:16.330681"
+latest: "1.1.1--py313hfeada96_1"
 container_url: "https://biocontainers.pro/tools/snputils"
 aliases:
  - "cffi-gen-src"
@@ -38,8 +38,9 @@ aliases:
 versions:
  - "1.1.0--py310hfe4f656_0"
  - "1.1.0--py311h13f8228_0"
+ - "1.1.1--py313hfeada96_1"
 description: "singularity registry hpc automated addition for snputils"
-config: {"url": "https://biocontainers.pro/tools/snputils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snputils", "latest": {"1.1.0--py310hfe4f656_0": "sha256:a2f37a92dc42f2b83b50eab7b0d7c89f07a7b8dda850697854e81bc0c212bfde"}, "tags": {"1.1.0--py310hfe4f656_0": "sha256:a2f37a92dc42f2b83b50eab7b0d7c89f07a7b8dda850697854e81bc0c212bfde", "1.1.0--py311h13f8228_0": "sha256:29f67b6655f68ef1c6c6d519734dd706ba720967d5d3fc2cdfd56f5a9fbbecde"}, "docker": "quay.io/biocontainers/snputils", "aliases": {"cffi-gen-src": "/usr/local/bin/cffi-gen-src", "snputils": "/usr/local/bin/snputils", "cairosvg": "/usr/local/bin/cairosvg", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "fc-genconf": "/usr/local/bin/fc-genconf", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10"}}
+config: {"url": "https://biocontainers.pro/tools/snputils", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for snputils", "latest": {"1.1.1--py313hfeada96_1": "sha256:00576fe43771e497426708765bc8f919cf9bf2f0d63943f61000e1f03ac79ee2"}, "tags": {"1.1.0--py310hfe4f656_0": "sha256:a2f37a92dc42f2b83b50eab7b0d7c89f07a7b8dda850697854e81bc0c212bfde", "1.1.0--py311h13f8228_0": "sha256:29f67b6655f68ef1c6c6d519734dd706ba720967d5d3fc2cdfd56f5a9fbbecde", "1.1.1--py313hfeada96_1": "sha256:00576fe43771e497426708765bc8f919cf9bf2f0d63943f61000e1f03ac79ee2"}, "docker": "quay.io/biocontainers/snputils", "aliases": {"cffi-gen-src": "/usr/local/bin/cffi-gen-src", "snputils": "/usr/local/bin/snputils", "cairosvg": "/usr/local/bin/cairosvg", "plotly_get_chrome": "/usr/local/bin/plotly_get_chrome", "fc-genconf": "/usr/local/bin/fc-genconf", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "qconvex": "/usr/local/bin/qconvex", "qdelaunay": "/usr/local/bin/qdelaunay", "qhalf": "/usr/local/bin/qhalf", "qhull": "/usr/local/bin/qhull", "qvoronoi": "/usr/local/bin/qvoronoi", "rbox": "/usr/local/bin/rbox", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm", "numpy-config": "/usr/local/bin/numpy-config", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snputils.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/snputils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snputils:1.1.0--py310hfe4f656_0
+$ shpc install quay.io/biocontainers/snputils:1.1.1--py313hfeada96_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snputils/1.1.0--py310hfe4f656_0
-$ module help quay.io/biocontainers/snputils/1.1.0--py310hfe4f656_0
+$ module load quay.io/biocontainers/snputils/1.1.1--py313hfeada96_1
+$ module help quay.io/biocontainers/snputils/1.1.1--py313hfeada96_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

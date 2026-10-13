@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pretextsnapshot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pretextsnapshot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pretextsnapshot/container.yaml"
-updated_at: "2026-10-12 09:41:35.315113"
+updated_at: "2026-10-13 09:42:41.450852"
 latest: "0.0.9--hc52dbad_0"
 container_url: "https://biocontainers.pro/tools/pretextsnapshot"
 aliases:

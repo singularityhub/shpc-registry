@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-strainspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-strainspy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-strainspy/container.yaml"
-updated_at: "2026-10-12 09:01:03.393839"
+updated_at: "2026-10-13 09:14:48.834748"
 latest: "0.99.1--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-strainspy"
 aliases:

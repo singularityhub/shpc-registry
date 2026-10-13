@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/rammap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rammap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rammap/container.yaml"
-updated_at: "2026-10-12 08:55:42.659340"
-latest: "1.1.2--hfa8f182_0"
+updated_at: "2026-10-13 09:11:06.821960"
+latest: "1.1.3--hfa8f182_1"
 container_url: "https://biocontainers.pro/tools/rammap"
 aliases:
  - "rammap"
 versions:
  - "1.1.1--hfa8f182_0"
  - "1.1.2--hfa8f182_0"
+ - "1.1.3--hfa8f182_1"
 description: "singularity registry hpc automated addition for rammap"
-config: {"url": "https://biocontainers.pro/tools/rammap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rammap", "latest": {"1.1.2--hfa8f182_0": "sha256:c2a3bc29da2f0d336645a493ec7d93b1f242f37c188e8ec761a61b9b27a92d02"}, "tags": {"1.1.1--hfa8f182_0": "sha256:ffe27e664d0afe0ee0007bcff3a2c03ee4d160ba4099e54e080178067baad3f0", "1.1.2--hfa8f182_0": "sha256:c2a3bc29da2f0d336645a493ec7d93b1f242f37c188e8ec761a61b9b27a92d02"}, "docker": "quay.io/biocontainers/rammap", "aliases": {"rammap": "/usr/local/bin/rammap"}}
+config: {"url": "https://biocontainers.pro/tools/rammap", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rammap", "latest": {"1.1.3--hfa8f182_1": "sha256:78e882d24e056ca3e4291dc46763311ea0c15c2344b348bbb1dbedf7a8c1b7cd"}, "tags": {"1.1.1--hfa8f182_0": "sha256:ffe27e664d0afe0ee0007bcff3a2c03ee4d160ba4099e54e080178067baad3f0", "1.1.2--hfa8f182_0": "sha256:c2a3bc29da2f0d336645a493ec7d93b1f242f37c188e8ec761a61b9b27a92d02", "1.1.3--hfa8f182_1": "sha256:78e882d24e056ca3e4291dc46763311ea0c15c2344b348bbb1dbedf7a8c1b7cd"}, "docker": "quay.io/biocontainers/rammap", "aliases": {"rammap": "/usr/local/bin/rammap"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rammap.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/rammap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rammap:1.1.2--hfa8f182_0
+$ shpc install quay.io/biocontainers/rammap:1.1.3--hfa8f182_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rammap/1.1.2--hfa8f182_0
-$ module help quay.io/biocontainers/rammap/1.1.2--hfa8f182_0
+$ module load quay.io/biocontainers/rammap/1.1.3--hfa8f182_1
+$ module help quay.io/biocontainers/rammap/1.1.3--hfa8f182_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

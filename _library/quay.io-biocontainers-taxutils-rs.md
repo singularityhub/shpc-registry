@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/taxutils-rs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxutils-rs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxutils-rs/container.yaml"
-updated_at: "2026-10-12 09:16:46.609154"
+updated_at: "2026-10-13 09:25:43.317034"
 latest: "1.0.4--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/taxutils-rs"
 aliases:

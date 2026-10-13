@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fqxv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqxv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqxv/container.yaml"
-updated_at: "2026-10-12 08:52:00.973553"
-latest: "0.7.0--hfa8f182_0"
+updated_at: "2026-10-13 09:08:30.453027"
+latest: "0.8.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/fqxv"
 aliases:
  - "fqxv"
 versions:
  - "0.7.0--hfa8f182_0"
+ - "0.8.0--hfa8f182_0"
 description: "singularity registry hpc automated addition for fqxv"
-config: {"url": "https://biocontainers.pro/tools/fqxv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fqxv", "latest": {"0.7.0--hfa8f182_0": "sha256:a3c357b3acddf3c6fe80327714ab379442ab470ed237ef44887d3388075d761e"}, "tags": {"0.7.0--hfa8f182_0": "sha256:a3c357b3acddf3c6fe80327714ab379442ab470ed237ef44887d3388075d761e"}, "docker": "quay.io/biocontainers/fqxv", "aliases": {"fqxv": "/usr/local/bin/fqxv"}}
+config: {"url": "https://biocontainers.pro/tools/fqxv", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for fqxv", "latest": {"0.8.0--hfa8f182_0": "sha256:ea94b5415ed34f8710126643c273a8114cf05d3871d5e24581c8b2064009a8b6"}, "tags": {"0.7.0--hfa8f182_0": "sha256:a3c357b3acddf3c6fe80327714ab379442ab470ed237ef44887d3388075d761e", "0.8.0--hfa8f182_0": "sha256:ea94b5415ed34f8710126643c273a8114cf05d3871d5e24581c8b2064009a8b6"}, "docker": "quay.io/biocontainers/fqxv", "aliases": {"fqxv": "/usr/local/bin/fqxv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqxv.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/fqxv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fqxv:0.7.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/fqxv:0.8.0--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fqxv/0.7.0--hfa8f182_0
-$ module help quay.io/biocontainers/fqxv/0.7.0--hfa8f182_0
+$ module load quay.io/biocontainers/fqxv/0.8.0--hfa8f182_0
+$ module help quay.io/biocontainers/fqxv/0.8.0--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

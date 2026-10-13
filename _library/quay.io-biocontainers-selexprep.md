@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/selexprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selexprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selexprep/container.yaml"
-updated_at: "2026-10-12 09:02:11.602563"
+updated_at: "2026-10-13 09:15:34.466626"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/selexprep"
 aliases:

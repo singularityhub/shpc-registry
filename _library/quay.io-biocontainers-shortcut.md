@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shortcut"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shortcut/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shortcut/container.yaml"
-updated_at: "2026-10-12 09:40:30.392446"
+updated_at: "2026-10-13 09:41:54.804519"
 latest: "2.0--py312hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/shortcut"
 aliases:

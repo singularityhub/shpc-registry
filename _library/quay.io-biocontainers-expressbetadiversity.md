@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/expressbetadiversity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expressbetadiversity/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/expressbetadiversity/container.yaml"
-updated_at: "2026-10-12 09:43:34.951712"
-latest: "1.0.10--h9948957_6"
+updated_at: "2026-10-13 09:44:14.975447"
+latest: "1.0.10--hc52dbad_7"
 container_url: "https://biocontainers.pro/tools/expressbetadiversity"
 aliases:
  - "AbstractPlot.py"
@@ -28,8 +28,9 @@ versions:
  - "1.0.10--h9f5acd7_4"
  - "1.0.10--h4ac6f70_5"
  - "1.0.10--h9948957_6"
+ - "1.0.10--hc52dbad_7"
 description: "shpc-registry automated BioContainers addition for expressbetadiversity"
-config: {"url": "https://biocontainers.pro/tools/expressbetadiversity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expressbetadiversity", "latest": {"1.0.10--h9948957_6": "sha256:05d81dee7208aaaaa90c715bb6f08579a9ff2a59e3cbc901ae80f7ca23314fa5"}, "tags": {"1.0.10--h9f5acd7_3": "sha256:76a28028846c5b78d430ff2646a91fa980827269c99c22b15fd791eff6c00d90", "1.0.10--h9f5acd7_4": "sha256:eb4e57f8438c9150145dd462e1eff69ca020b5160840a71d73b1a95035f30837", "1.0.10--h4ac6f70_5": "sha256:2941cd628ac6086841816c12a37b94388d327d055c367e26b765c364c2e844df", "1.0.10--h9948957_6": "sha256:05d81dee7208aaaaa90c715bb6f08579a9ff2a59e3cbc901ae80f7ca23314fa5"}, "docker": "quay.io/biocontainers/expressbetadiversity", "aliases": {"AbstractPlot.py": "/usr/local/bin/AbstractPlot.py", "ExpressBetaDiversity": "/usr/local/bin/ExpressBetaDiversity", "convertToEBD.py": "/usr/local/bin/convertToEBD.py", "convertToFullMatrix.py": "/usr/local/bin/convertToFullMatrix.py", "pcoaPlot.py": "/usr/local/bin/pcoaPlot.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
+config: {"url": "https://biocontainers.pro/tools/expressbetadiversity", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expressbetadiversity", "latest": {"1.0.10--hc52dbad_7": "sha256:42c5737ae10b60f02463fef15a86e001e3f22058f52f1607595c8ba0f10ea955"}, "tags": {"1.0.10--h9f5acd7_3": "sha256:76a28028846c5b78d430ff2646a91fa980827269c99c22b15fd791eff6c00d90", "1.0.10--h9f5acd7_4": "sha256:eb4e57f8438c9150145dd462e1eff69ca020b5160840a71d73b1a95035f30837", "1.0.10--h4ac6f70_5": "sha256:2941cd628ac6086841816c12a37b94388d327d055c367e26b765c364c2e844df", "1.0.10--h9948957_6": "sha256:05d81dee7208aaaaa90c715bb6f08579a9ff2a59e3cbc901ae80f7ca23314fa5", "1.0.10--hc52dbad_7": "sha256:42c5737ae10b60f02463fef15a86e001e3f22058f52f1607595c8ba0f10ea955"}, "docker": "quay.io/biocontainers/expressbetadiversity", "aliases": {"AbstractPlot.py": "/usr/local/bin/AbstractPlot.py", "ExpressBetaDiversity": "/usr/local/bin/ExpressBetaDiversity", "convertToEBD.py": "/usr/local/bin/convertToEBD.py", "convertToFullMatrix.py": "/usr/local/bin/convertToFullMatrix.py", "pcoaPlot.py": "/usr/local/bin/pcoaPlot.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/expressbetadiversity.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/expressbetadiversity
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/expressbetadiversity:1.0.10--h9948957_6
+$ shpc install quay.io/biocontainers/expressbetadiversity:1.0.10--hc52dbad_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/expressbetadiversity/1.0.10--h9948957_6
-$ module help quay.io/biocontainers/expressbetadiversity/1.0.10--h9948957_6
+$ module load quay.io/biocontainers/expressbetadiversity/1.0.10--hc52dbad_7
+$ module help quay.io/biocontainers/expressbetadiversity/1.0.10--hc52dbad_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

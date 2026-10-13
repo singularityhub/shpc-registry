@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pointillism"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pointillism/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pointillism/container.yaml"
-updated_at: "2026-10-12 09:06:35.114333"
+updated_at: "2026-10-13 09:18:29.548521"
 latest: "0.8.0--r45hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-pointillism"
 aliases:

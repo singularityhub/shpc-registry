@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rastqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rastqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rastqc/container.yaml"
-updated_at: "2026-10-12 08:48:29.370108"
-latest: "0.1.0--hfa8f182_0"
+updated_at: "2026-10-13 09:05:49.588852"
+latest: "0.2.0--hfa8f182_0"
 container_url: "https://biocontainers.pro/tools/rastqc"
 aliases:
  - "rastqc"
 versions:
  - "0.1.0--hfa8f182_0"
+ - "0.2.0--hfa8f182_0"
 description: "singularity registry hpc automated addition for rastqc"
-config: {"url": "https://biocontainers.pro/tools/rastqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rastqc", "latest": {"0.1.0--hfa8f182_0": "sha256:05a4e6b63b082e4cb15e498a8f0e83b0627b50b06027b9f3d1baaa041724780d"}, "tags": {"0.1.0--hfa8f182_0": "sha256:05a4e6b63b082e4cb15e498a8f0e83b0627b50b06027b9f3d1baaa041724780d"}, "docker": "quay.io/biocontainers/rastqc", "aliases": {"rastqc": "/usr/local/bin/rastqc"}}
+config: {"url": "https://biocontainers.pro/tools/rastqc", "maintainer": "@vsoch", "description": "singularity registry hpc automated addition for rastqc", "latest": {"0.2.0--hfa8f182_0": "sha256:bb2469b645d18d2c25de7632eb8a902fa07999ae4cad2dd558545943979cdc54"}, "tags": {"0.1.0--hfa8f182_0": "sha256:05a4e6b63b082e4cb15e498a8f0e83b0627b50b06027b9f3d1baaa041724780d", "0.2.0--hfa8f182_0": "sha256:bb2469b645d18d2c25de7632eb8a902fa07999ae4cad2dd558545943979cdc54"}, "docker": "quay.io/biocontainers/rastqc", "aliases": {"rastqc": "/usr/local/bin/rastqc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rastqc.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/rastqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rastqc:0.1.0--hfa8f182_0
+$ shpc install quay.io/biocontainers/rastqc:0.2.0--hfa8f182_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rastqc/0.1.0--hfa8f182_0
-$ module help quay.io/biocontainers/rastqc/0.1.0--hfa8f182_0
+$ module load quay.io/biocontainers/rastqc/0.2.0--hfa8f182_0
+$ module help quay.io/biocontainers/rastqc/0.2.0--hfa8f182_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
