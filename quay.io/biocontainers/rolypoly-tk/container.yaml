@@ -2,13 +2,17 @@ url: https://biocontainers.pro/tools/rolypoly-tk
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for rolypoly-tk
 latest:
-  0.7.21--pyh1f0d9b5_0: 
-    sha256:34bc548c3a14db448c68916cf4251f70d57a4235032e98bf250a15804602d639
+  0.8.0--pyh1f0d9b5_0: 
+    sha256:51c57c51dd1937069a9f7cc31111922aed2fb7877d951ccdd0e611547b82593b
 tags:
   0.7.17--pyh1f0d9b5_0: 
     sha256:e3206fbd732dc5b0cf736deccc20c0d8c13108c1697c69e94b45229bb7e3f9ed
   0.7.21--pyh1f0d9b5_0: 
     sha256:34bc548c3a14db448c68916cf4251f70d57a4235032e98bf250a15804602d639
+  0.8.0--pyh1f0d9b5_0: 
+    sha256:51c57c51dd1937069a9f7cc31111922aed2fb7877d951ccdd0e611547b82593b
+  0.7.22--pyh1f0d9b5_0: 
+    sha256:29441a01f92108c9366cddc3ded356144c1e723ed0402606ee1c482a6a7c2e36
 docker: quay.io/biocontainers/rolypoly-tk
 aliases:
   AUTHORS: /usr/local/bin/AUTHORS

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/drevalpy
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for drevalpy
 latest:
-  1.5.1--pyhdfd78af_0: 
-    sha256:7b02738f9e76a3f85a4ca17568a2e84359304b121fe5687c0953975075f71c6d
+  1.6.0--pyhdfd78af_0: 
+    sha256:8679d30c3be38eaf120ff2d946716594f48ddc5f3d6930de8e041fb5158a7a78
 tags:
   1.4.0--pyhdfd78af_0: 
     sha256:00d3e78ae2625fcb08520717f2780941d161ce8e46289847e0f16a532f1a8f37
@@ -13,6 +13,8 @@ tags:
     sha256:874d5d80d7191867580a657d7810a73175c6ee4155b816132bb8232869e53796
   1.5.1--pyhdfd78af_0: 
     sha256:7b02738f9e76a3f85a4ca17568a2e84359304b121fe5687c0953975075f71c6d
+  1.6.0--pyhdfd78af_0: 
+    sha256:8679d30c3be38eaf120ff2d946716594f48ddc5f3d6930de8e041fb5158a7a78
 docker: quay.io/biocontainers/drevalpy
 aliases:
   CurveCurator: /usr/local/bin/CurveCurator

@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/circleseeker
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for circleseeker
 latest:
-  1.5.1--pyhdfd78af_0: 
-    sha256:8101d9eb310806528e89da88e29a91cb698814e22f6bcaa6d1ddead3a601ec41
+  1.6.1--pyhdfd78af_0: 
+    sha256:c8578838ec130df221f91a27d61894476d643dd5f5cec2ae8c4961523d5d13b7
 tags:
   1.1.1--pyhdfd78af_0: 
     sha256:d781ef5e2c362c3beaaf35603845851885a2ed8ed2c0b80653b63e5da0b98119
@@ -11,6 +11,8 @@ tags:
     sha256:e41157556f8379a0b12fc3c6b87fe534fc9b5d5f47c12b6cf817aac3545df42b
   1.5.1--pyhdfd78af_0: 
     sha256:8101d9eb310806528e89da88e29a91cb698814e22f6bcaa6d1ddead3a601ec41
+  1.6.1--pyhdfd78af_0: 
+    sha256:c8578838ec130df221f91a27d61894476d643dd5f5cec2ae8c4961523d5d13b7
 docker: quay.io/biocontainers/circleseeker
 aliases:
   CircleSeeker: /usr/local/bin/CircleSeeker

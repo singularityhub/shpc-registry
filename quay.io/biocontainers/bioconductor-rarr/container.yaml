@@ -2,8 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rarr
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for bioconductor-rarr
 latest:
-  1.10.1--r45ha27e39d_0: 
-    sha256:fbd9787f689ae41366e752e2cef531a7a94043bf5f25ffc59436f6c38e82fa51
+  2.0.1--r45h55fe1e3_0: 
+    sha256:b5f4ca1f698a94aac200f490e2475637ffd29a1b15d9eef6272c37b754a4bce9
 tags:
   1.0.0--r43hf17093f_0: 
     sha256:add263d330bf0983495202368585b3e4a3d57050cc266dc03e9c2acc009438d5
@@ -13,6 +13,8 @@ tags:
     sha256:a739497c886ba37f67daca1f26fab80f339fa64734e57f6999829dcea73336f5
   1.10.1--r45ha27e39d_0: 
     sha256:fbd9787f689ae41366e752e2cef531a7a94043bf5f25ffc59436f6c38e82fa51
+  2.0.1--r45h55fe1e3_0: 
+    sha256:b5f4ca1f698a94aac200f490e2475637ffd29a1b15d9eef6272c37b754a4bce9
 docker: quay.io/biocontainers/bioconductor-rarr
 aliases:
   hb-info: /usr/local/bin/hb-info

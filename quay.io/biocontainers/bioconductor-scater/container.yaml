@@ -3,8 +3,8 @@ maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for 
   bioconductor-scater
 latest:
-  1.38.0--r45hdfd78af_0: 
-    sha256:10411cc23a2fb8f121e42c6bbe56c1ca86544dc24e50a0297cd3d1eec4b894e1
+  1.40.2--r45hdfd78af_0: 
+    sha256:5884b81d0e781e7b3af9a420bb75614210132484f522b1a986fb7ed28ddd6460
 tags:
   1.8.4--r351hfc679d8_0: 
     sha256:7a1666bbb05c13161e36c71e306d38e57971f543719c3d6e050e25592dc0fe11
@@ -28,4 +28,6 @@ tags:
     sha256:fc1849e29e0150c579eed7094492298675d033aee23a79aba5312599bdd41c8a
   1.38.0--r45hdfd78af_0: 
     sha256:10411cc23a2fb8f121e42c6bbe56c1ca86544dc24e50a0297cd3d1eec4b894e1
+  1.40.2--r45hdfd78af_0: 
+    sha256:5884b81d0e781e7b3af9a420bb75614210132484f522b1a986fb7ed28ddd6460
 docker: quay.io/biocontainers/bioconductor-scater

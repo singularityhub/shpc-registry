@@ -2,11 +2,13 @@ url: https://biocontainers.pro/tools/foci-3d
 maintainer: '@vsoch'
 description: singularity registry hpc automated addition for foci-3d
 latest:
-  0.2.0--pyhdfd78af_0: 
-    sha256:5aa08ccb0cfed80245e21a22f3d87c7cc424dda8f31c77c27d27c06fe9c7d9a5
+  0.3.0--pyhdfd78af_0: 
+    sha256:787bb4c3b7d0b26d7484e73f634120dafa53dd40e4a13243b3bef0eef8f998b0
 tags:
   0.2.0--pyhdfd78af_0: 
     sha256:5aa08ccb0cfed80245e21a22f3d87c7cc424dda8f31c77c27d27c06fe9c7d9a5
+  0.3.0--pyhdfd78af_0: 
+    sha256:787bb4c3b7d0b26d7484e73f634120dafa53dd40e4a13243b3bef0eef8f998b0
 docker: quay.io/biocontainers/foci-3d
 aliases:
   boostchr.pl: /usr/local/bin/boostchr.pl

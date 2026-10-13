@@ -5,27 +5,43 @@ description: The NVIDIA Deep Learning GPU Training System (DIGITS) puts the
   power of deep learning into the hands of engineers and data scientists.
 latest:
   21.09-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.09-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
 tags:
   21.02-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.02-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
   21.03-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.03-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
   21.04-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.04-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
   21.05-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.05-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
   21.06-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.06-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
   21.08-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.08-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
   21.09-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.09-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
   21.07-tensorflow-py3: 'crane digest nvcr.io/nvidia/digits:21.07-tensorflow-py3:
-    DENIED: Access Denied'
+    UNAUTHORIZED: authentication required; [map[Action:pull Class: Name:nvidia/digits
+    Type:repository]]'
   'crane ls nvcr.io/nvidia/digits: DENIED: Access Denied': 'crane digest nvcr.io/nvidia/digits:crane
     ls nvcr.io/nvidia/digits: DENIED: Access Denied: parsing reference "nvcr.io/nvidia/digits:crane
     ls nvcr.io/nvidia/digits: DENIED: Access Denied": could not parse reference'
+  ? 'crane ls nvcr.io/nvidia/digits: UNAUTHORIZED: authentication required; [map[Action:pull
+    Class: Name:nvidia/digits Type:repository]]'
+  : 'crane digest nvcr.io/nvidia/digits:crane ls nvcr.io/nvidia/digits: UNAUTHORIZED:
+    authentication required; [map[Action:pull Class: Name:nvidia/digits Type:repository]]:
+    parsing reference "nvcr.io/nvidia/digits:crane ls nvcr.io/nvidia/digits: UNAUTHORIZED:
+    authentication required; [map[Action:pull Class: Name:nvidia/digits Type:repository]]":
+    could not parse reference'
 aliases:
   python: /usr/bin/python
 features:
